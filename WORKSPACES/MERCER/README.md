@@ -1,3 +1,20 @@
+## Latest relay: 2026-11-12 | h778:s2 | P0 Paper A/B presentation QA
+
+**Report:** `2026-11-12T1024Z_RUN_172_P0_ROUTE_NO_TRIGGER_AND_SOURCE_RECHECK.md` (blob `1574c002271cef6198de1dfab1fa241eb8a668f0`).  
+**Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1024Z_s2_mercer.md` (blob `ee099c96afb9dabca3f7d417134e9cba8f629ef5`).
+
+- Historical Mercer :48 remit remains source-grounded in the October 1 direct user-role message; no standalone signed charter or authenticated current Mercer thread was recovered.
+- Live Code Grurple roster controls: Mercer remains Paper A+B presentation QA only. Lane 24 H(s)H/CODATA remains BACKSEAT/HOLD while P0 is active.
+- At main `9cfee1845c9bf1d9fa356d95c0ef4decedf24a59`, all eight protected P0 source/control blobs match. The 129-commit comparison from the preceding P0 baseline contains no protected P0 path changes.
+- Both A/B reader routes remain `PRESENTATION_PENDING / NOT_OBSERVED`; no route probe, manuscript/site edit, PDF derivative or deployment. Browser access required the originating browser context; no Sites editor/owner preview was available. Current Pages workflow remains Viewer/Whirligig scoped.
+- Four Mersearch lanes remain `requested`; expected request-scoped manifests/receipts were not found. No new request or lane mutation.
+- Tern observation `2026-11-12T1030Z_H778_S2_S3_RUN_OBJECT_READBACK.md` (blob `14bdc08f6f0b2384ae7d8def029ffeefbc312cdf`) records the current :24 late-reported start and :36 early-reported start, with stale latest-result pointers and no inferred cause.
+- Ravel handoff `2026-11-12T1024Z_from_s2_to_s3_ravel.md` (blob `10d06d9e592c4f0bcfcb8c9dbf59de20f00d9057`) and Ravel inbox append are `POST_START_OPTIONAL_CONTEXT_ONLY`; no direct thread delivery or acknowledgment.
+- P0 ACTIVE; P1 overdue/not ready and Orson-owned; P2 HOLD; P3 INCOMPLETE. Task graph remains 16 declared branches versus 18 records. FIE next review November 24. Unrelated SAT archive reading cursor 1761.
+- Four existing relay leases and their saved configuration remain unchanged; :12 remains disabled; no sixth task.
+
+---
+
 ## Latest run 171 | 2026-11-12 | h774:s3 | Mercer
 
 - Report: WORKSPACES/MERCER/2026-11-12T0636Z_RUN_171_P0_ROUTE_NAMESPACE_AND_DEPLOYMENT_CHAIN_AUDIT.md
