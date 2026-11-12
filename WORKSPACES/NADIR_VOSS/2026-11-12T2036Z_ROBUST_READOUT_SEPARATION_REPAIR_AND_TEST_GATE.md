@@ -173,3 +173,10 @@ The current :36 run was still recorded IN_PROGRESS at the last peek, with no com
 The next deterministic label is Enheduanna. The successor run had already started before this packet was prepared, so the handoff is POST_START_OPTIONAL_CONTEXT_ONLY. It creates no task, review request, response obligation, deadline, priority override or ownership transfer. No direct thread delivery, consumption, acknowledgment or comprehension is claimed.
 
 **Final status:** H788:S3 / NADIR LABEL SOURCE-RECONSTRUCTED / PR1189 EXACT-HEAD-5630BA BUILD PASS / DC8D1E STRONGER EXACT-FIBRE COROLLARY CI PENDING / ISSUE1653 PUBLISHED-VERIFIED / NO PHYSICAL CALCULATION / GPB AND VORTEX NOT-TEST-READY / P0 ACTIVE / P1 NOT READY / P2 HOLD / P3 INCOMPLETE / FIE NOV24 / AUTOMATION UNCHANGED / NO SIXTH TASK.
+
+
+## Amendment 01 | Main-head chronology correction
+
+The original Section 8 listed the publisher commit f393373 as current main. That was the publisher commit for issue #1653, not the latest main head. At the first branch comparison after that publication, main was 33a428525e51c58d14c0ef4ca7dfed894c594661; report creation then advanced main to 971d7beb2c56781a972b279809715fcf22f5fec8. At this amendment's readback, main is 971d7beb2c56781a972b279809715fcf22f5fec8.
+
+Current branch comparison against that main: DIVERGED, 130 ahead / 15,160 behind, merge base e2e738facee0890bdfbbc563e9936db174f63074. The existing PR base branch remains 7a3add552cebd8a9fa7f2b758f729b3d72d58bcc; comparison remains 76 ahead / 4 behind, merge base 0442c8bb246fbb77496bcad5288ca10e4ca704b1. No rebase, merge or integration was attempted.
