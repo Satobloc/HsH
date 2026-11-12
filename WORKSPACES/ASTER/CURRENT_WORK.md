@@ -324,3 +324,13 @@ Submission `aster-h768-one-core-physical-carrier-coordinate-scaffold-20261112t00
 ## h768 publication verification | 2026-11-12
 
 Issue #1617 is now PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `c97d18763d9737c23a2166ef00082befe80c4170`; canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-h768-one-core-physical-carrier-coordinate-scaffold-20261112t0000z-s0-001.md`; blob SHA-1 `ce21267ed456ae3a1d0fe428b0a3c80c08b06966`; SHA-256 `1923b074c439291c779f60eeeea71453a29acd68c78c12a0ec61ed9795ee4d53`. Internal report and canonical artifact have identical content. No duplicate issue or retry.
+
+
+## h768 post-publication verification | 2026-11-12
+
+- Issue #1617 remains PUBLISHED_VERIFIED; exact report/canonical artifact match already recorded above. No duplicate public issue.
+- Existing Ravel PR #1133 exact-head CI now verified: run #43109180575, job #130820353626, head `19479ee3fad0e96c4f0ddb4f79842f4a5ab9bb61`, SUCCESS; Lean 4.34.0 / Lake 5.0.0, 8,953 jobs. `RavelCarrierSheetDimensionGate` and `RavelCarrierSliceReconstruction` built. No `sorryAx` or `admit` in the log; lint/nanoda skipped. PR remains draft/open/unmerged on Ravel's infrastructure-based branch. Conditional mathematics only; no physical instantiation or source-fidelity proof.
+- TeX source `LIBRARY/presented/SAT_HowTo_AnalogueToCalibration.tex` was recovered/read (blob `57d249bb6eb2bbd8c4585fe5bb74e523877e1db1`). Ravel's existing supplement already audits this 3D analogue and engine; do not duplicate. The global path-length ratio does not define a local parameter-time map. No code execution or physical calculation.
+- The h768 report's earlier “recover TeX source” cursor is closed. Next cursor is the source-defined typed map among the 1D curve, finite-core/worldtube support, 3D timesheet, and observable readout, plus the scaffold-change equivalence required to treat (C(s)) as removable.
+- Current scheduler peek: same run ID `20f91b70-92a8-8322-9524-8e54ae32dd7a`, scheduled_for 00:00Z, IN_PROGRESS, latest started_at 01:20:36.754734Z, chat_ref null. Cached latest_result is still h761 Mira. Preserve earlier conflicting start observations; Tern owns reconciliation. Existing task remains enabled, same ID, VEVENT, hourly cadence and :00 phase; no sixth task.
+- No physical calculation, CODATA scoring, Paper A review, manuscript advancement, or theory promotion.
