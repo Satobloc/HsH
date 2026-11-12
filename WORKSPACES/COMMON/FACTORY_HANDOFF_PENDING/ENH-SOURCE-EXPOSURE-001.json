@@ -106,6 +106,11 @@
     "submission_id": "enheduanna-source-context-exposure-20261112-s4-001",
     "sha256": "bfd3854fb0de8eed86b9cdf6288650fe8954cb30cef0ffca5941fba054ff993c",
     "publisher_run_id": 43138606181,
-    "status": "PUBLISHER_IN_PROGRESS_AT_UPDATE"
+    "status": "PUBLISHED_VERIFIED",
+    "publisher_comment_id": 6812217558,
+    "publisher_commit": "d5e76730294d00e90e28a2e235fb61873b67ec96",
+    "artifact_blob_sha": "b2a2bdd2de1b7aa6c072396350e4973bf0260c2b",
+    "content_bytes": 4004,
+    "readback": "EXACT_BYTE_FOR_BYTE_MATCH"
   }
 }
