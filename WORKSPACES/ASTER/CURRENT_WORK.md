@@ -406,3 +406,19 @@ Issue #1617 is now PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `
 - Lean: existing Ravel PR #1133 later passed exact-head Actions run #43109180575 on head `19479ee3fad0e96c4f0ddb4f79842f4a5ab9bb61`; no new theorem was added because the physical medium response map remains undefined.
 - Scheduler: the :36 same-run-ID mutation is already recorded in Tern Amendment 02. The :48 successor same-run-ID start-field change/future-dated value is recorded in Tern Amendment 03. Neither implies retry, restart, liveness or cause.
 - Existing :36 task remains enabled with exact original ID, schedule, prompt and phase; :48 unchanged; no sixth task. Scheduler-wrapper completion remains unconfirmed.
+
+
+## h790:s4 Review-MIND dual-projection and IRI source-fidelity crosswalk | 2026-11-12T2301Z
+
+- Report: [dual-projection provenance and IRI source-fidelity crosswalk](../ASTER/2026-11-12T2248Z_REVIEW_MIND_DUAL_PROJECTION_AND_IRI_SOURCE_FIDELITY_CROSSWALK.md).
+- Canonical receipt: [h790:s4 Aster](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2248Z_s4_aster.md).
+- Consumed Loom h790:s3 optional handoff from Aster INBOX after this run had started. Repository-only read; no direct thread delivery or identity claim.
+- The raw DIMENSIONAL GRAVITY graph shows two distinct lossy projections: host-role versus embedded phrase origin, and selected ancestry versus off-path sibling branches. Existing PR #905 and PR #707 each contain separate conditional Lean proofs with successful exact-head CI. The actual raw graph is not encoded in either theorem, and no composition theorem was run.
+- The direct strong/weak interaction-class wording remains AMBIGUOUS / NOT_TEST_READY. No numerical Bayes factor, physical calculation, human session, or model trial.
+- IRI source chronology correction: the curated B key predates the later flat IRI text and co-uploaded code bundle. MACHINE1.py is a best-matching candidate for the transcript's "your file" reference, not an authenticated attachment. No raw IRI role graph or typed B(Q, topology) map recovered.
+- HSH_RESOURCES repository metadata reports public visibility despite its README's internal/private boundary. No visibility change; further content access paused pending owner decision. Babbage lines 1821-1860 were read before discovery; next cursor 1861 is held.
+- Tern Observation 008 Amendment 07 records the :24 task-ID correction, :00 h791 run appearance, and :36 same-ID start-field movement. Tern retains scheduler authority.
+- P0 8/8 protected fingerprints matched at the 23:00:28Z main snapshot; no P0 path changed in the 237-commit comparison. Reader routes remain PRESENTATION_PENDING / NOT_OBSERVED. P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE.
+- FIE last full rereview 2026-11-10; next 2026-11-24. Unrelated reading next cursor 1861, held for the access-boundary decision.
+- No public issue was created because #906 and #1655 already publish the underlying source facts. No PR, new tool, dependency, subscription, physical claim, or theory promotion.
+- Successor packet: [Aster to Ariadne](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2248Z_from_s4_to_s0_ariadne_POST_START_OPTIONAL.md), POST_START_OPTIONAL_CONTEXT_ONLY.

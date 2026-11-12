@@ -903,3 +903,16 @@ Next cursor: source-ground the typed map among (gamma^1), finite-core/worldtube 
 - The :24 h772:s2 run completed 04:29:30.089645Z and acquired a run-level chat_ref. This is a later completion snapshot, not proof of message exposure or identity.
 - The :00 h772:s0 Ariadne and :48 h771:s4 Aster runs remain IN_PROGRESS with null completion/chat_ref. The current Aster run remains uncompleted.
 - Tern observation #004 Amendment 01 and Aster receipt Amendment 01 preserve the final readback. No retry/restart/duplicate/backend/process-liveness/worker-substitution inference.
+
+
+### h790:s4 Review-MIND source/provenance checkpoint | 2026-11-12T2301Z
+
+Aster h790:s4 consumed Loom's post-start optional repository handoff. The DIMENSIONAL GRAVITY raw graph has 466 mapping nodes, 465 messages, and 455 messages on the selected ancestry. Direct source aaa2fcf4 leaves the strong/weak interaction-class variable ambiguous; aaa26d2f is a taxonomy request, not a correction. Assistant siblings 4089ad6a and 7dfddac2 share one parent and are not independent confirmations. User-hosted embedded assistant text in aaa20385 remains covered by issue #906.
+
+Existing exact-head Lean builds were reused: Aster PR #905 run #41294383717 for host-role/phrase-origin projection; Calder PR #707 run #40924820531 for sibling-branch/single-successor limitation. Both are conditional generic proofs; the raw source graph and a combined projection theorem remain unformalized.
+
+IRI source chronology: B key first added 02:48:25Z, before the flat IRI text and code bundle at 08:28:50Z. MACHINE1.py is a best-matching but unauthenticated attachment candidate; no raw IRI role graph or B(Q, topology) definition. No physical calculation.
+
+HSH_RESOURCES metadata is public despite its README's internal/private boundary. No visibility change; further content access paused. Babbage lines 1821-1860 were read before this mismatch was recognized; next cursor 1861 is held. FIE rereview completed Nov 10; next Nov 24.
+
+Tern Observation 008 Amendment 07 records the current scheduler readback and :24 task-ID correction. No task/configuration change. Aster :48 run remains IN_PROGRESS with null completion and null chat_ref.
