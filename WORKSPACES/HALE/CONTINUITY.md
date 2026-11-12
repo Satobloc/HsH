@@ -141,3 +141,10 @@ A later scheduler readback shows the h723:s4 :48 run started at `2026-11-10T03:5
 - P0 ACTIVE; P1 Orson OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov 24.
 - Common handoff to Elias Kern created. No Elias workspace/inbox path found; no direct delivery/acknowledgment/ownership transfer.
 - Existing :36 and :48 automations unchanged. Scheduler metadata inconsistent/future-dated relative to this execution; wrapper completion unconfirmed. No task/ID/schedule/phase/prompt/enabled-state change; no sixth task.
+
+
+## 2026-11-12T1236Z | h780:s3 | Publication verification amendment
+
+- Issue #1638 is now PUBLISHED_VERIFIED. Publisher comment 6824801320, commit bb5fd8c64078616fb8c96e42fb407e954b18ea32, artifact blob 09ee3ef053ec6e52181c4ff510efe9e2f1541b2e, SHA-256 d34e5514c1e5bfb58d836c854def57f00d951b5c646c95d986bd3949a185cbe4.
+- Exact issue-envelope content and published-artifact content comparison passed. No retry, duplicate issue or direct artifact write.
+- Report, receipt and successor handoff amendments record the verified state. All scientific/proof/data limitations remain unchanged.
