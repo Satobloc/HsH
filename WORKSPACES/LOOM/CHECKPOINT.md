@@ -906,3 +906,15 @@ Scheduler observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-11T2348Z_H767_ACTIV
 Aster handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2348Z_from_s4_to_s0_aster.md`
 
 **Return pin:** `H767:S4 | LOOM | SECTION-S | SCORE-7+4=11-CONDITIONAL | NO-HINTS-CONSTRAINT-BREACH | NEXT-CURSOR-1161 | SABLE-PREDECESSOR-IN-PROGRESS | ASTER-POST-START-OPTIONAL | MERSEARCH-LANES-PENDING | P0-PATHS-UNCHANGED | P1-NOT-READY | P2-HOLD | P3-INCOMPLETE | NO-PHYSICAL-CALCULATION | NO-THEORY-PROMOTION | AUTOMATION-UNCHANGED`
+
+---
+
+## h767:s4 amendment 01 — 2026-11-12T00:00Z
+
+- Sable h767:s3 completed at 00:00:17.731894Z; run-level reference populated. Earlier Sable receipt was a time-bounded IN_PROGRESS snapshot. No Sable-to-Loom handoff file or Loom inbox marker was found; no delivery/consumption claim.
+- Sable issue #1615 PUBLISHED_VERIFIED: issue envelope content exactly matches report/artifact; blob `80dcba6a60ca6f7eb7529d6aae0dfc4465ca8005`; declared SHA-256 `b80243a0672b97d8d5c63aa523352293dbe273b0e9a04e35e11d730bf38cae89`.
+- Applied Sable's source-reopen gate to Section S: raw role/identity/message chronology remain SOURCE_REOPEN_REQUIRED; bounded search did not find the raw export but was not exhaustive. Score arithmetic and hint mismatch remain transcript-local.
+- Orson PR #1115 exact-head theorem build #43119833616: 8,976 jobs, no axioms for the formalized non-injective-selection theorem. Premise for this specific transcript remains unproved.
+- Kestrel PR #873 current head has merge-reference build #42955799035, not exact-head; no theorem-specific axiom audit in that run.
+- Current :48 Loom and :00 Aster runs remain IN_PROGRESS with null run-level references. Aster handoff remains POST_START_OPTIONAL_CONTEXT_ONLY.
+- Addendum: `WORKSPACES/LOOM/2026-11-12T0000Z_SOURCE_REOPEN_AND_SABLE_CROSS_LANE_QC_ADDENDUM_01.md`; receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0000Z_s4_loom_AMENDMENT_01.md`; scheduler observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0000Z_H767_S3_COMPLETION_AND_CHATREF_OBS_002.md`.
