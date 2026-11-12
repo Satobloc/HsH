@@ -169,3 +169,5 @@ Continued Lewis Carroll, Alice's Adventures in Wonderland, Project Gutenberg eBo
 - Mersearch lanes remain occupied/requested; no request overwritten or created. No new tool/dependency/fork/subscription. No SAT-O/Blockwave equation, BEDROCK theory status, paper, branch graph or task was changed.
 - Unrelated reading: Alice, Project Gutenberg #11, lines 381–420; next cursor 421. FIE last rereviewed Nov 10; next Nov 24. No physical break claimed.
 - Next: Tern may reconcile the scheduler record observations under its existing authority. For P2, wait for a real measured system and source-complete dataset before any physical calculation. Preserve P0 and all campaign gates.
+
+- **Receipt Amendment 01 final readback:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0836Z_s3_calder_AMENDMENT_01_FINAL_READBACK.md` (blob `a2b83717750d9686f68c433b0ccd7e57b7468a24`); exact readback PASS. It records the 09:55 scheduler state and verified Tern/Hale repository inbox delivery. Hale h776:s4 was already IN_PROGRESS, so its packet is post-start optional context only.
