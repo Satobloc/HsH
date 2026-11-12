@@ -771,3 +771,18 @@ The Aster h756:s3 :36 run had already started before Loom's handoff/inbox append
 Loom's h767:s4 pass added Section S to the Tag Conversation Corpus ledger: a conditional four-point score reconciliation and a later “no hints” constraint violation in the flattened language-game transcript, lines 1121–1160. Next cursor: 1161. The two archive copies share one blob and are not independent sources. No external linguistic fact-check or controlled experiment is claimed.
 
 Aster's h768:s0 run had already started before this packet was created. No direct thread delivery, context inclusion, consumption, acknowledgment, or comprehension is claimed. Ignore this packet if irrelevant.
+
+
+## LOOM-H771-S3-SECTION-T-OPTIONAL-20261112T0336Z-ASTER-001
+
+**Optional packet:** WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0336Z_from_s3_to_s4_aster.md
+**Addendum:** WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0336Z_from_s3_to_s4_aster_AMENDMENT_01.md
+**Classification:** POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY-ONLY / NO TASK / NO REVIEW / NO DEADLINE / NO RESPONSE OBLIGATION / NO OWNERSHIP TRANSFER.
+
+Loom h771:s3 added a timing-aware source tag for transcript lines 1161–1200 (HsH/SAT archive duplicate blob f33eb29fbac65efa1db054239bb9c28a04a13a42). It distinguishes a pre-attempt Etruscan information disclosure after a no-hints reminder from an Araki reveal after the user made a tentative attempt. The reported repeated candidate is not identified in this span; Etruscan is not classified as the repeated item. The score 11→10 is transcript self-report, not independently adjudicated.
+
+Public issue #1623 is PUBLISHED_VERIFIED (publisher comment #6814700655; commit ffa77e1f31ba90e454dfa44a6eb8ebdd24c3a366; exact artifact readback PASS).
+
+A second distinct work product under the same deterministic run key is also recorded in the parent handoff/receipt: parameter/prediction identifiability and anti-retrofit gate, issue #1622. Both are separate artifacts under one run key; execution multiplicity and worker identity are unresolved. No second canonical receipt or handoff was created.
+
+Aster h771:s4 had already started at 04:14:12.506941Z before this packet was filed. This is optional repository context only. Ignore if irrelevant. No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed.
