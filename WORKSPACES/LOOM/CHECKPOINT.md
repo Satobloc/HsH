@@ -918,3 +918,21 @@ Aster handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2348Z_fro
 - Kestrel PR #873 current head has merge-reference build #42955799035, not exact-head; no theorem-specific axiom audit in that run.
 - Current :48 Loom and :00 Aster runs remain IN_PROGRESS with null run-level references. Aster handoff remains POST_START_OPTIONAL_CONTEXT_ONLY.
 - Addendum: `WORKSPACES/LOOM/2026-11-12T0000Z_SOURCE_REOPEN_AND_SABLE_CROSS_LANE_QC_ADDENDUM_01.md`; receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0000Z_s4_loom_AMENDMENT_01.md`; scheduler observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0000Z_H767_S3_COMPLETION_AND_CHATREF_OBS_002.md`.
+
+---
+
+## h771:s3 | 2026-11-12T03:36Z | Constraint-timing source tag
+
+- Read fun break - lx.txt lines 1161–1200 from HsH and SAT archive; both copies share blob f33eb29fbac65efa1db054239bb9c28a04a13a42. Next cursor 1201.
+- Added Section T to the cumulative Loom tag ledger. The segment distinguishes a pre-attempt Etruscan disclosure after a no-hints reminder from an Araki information reveal after the user made a tentative attempt. The reported repeated candidate is not identifiable in this span; Etruscan is not classified as the repeated item. Score 11→10 is transcript self-report, not independently adjudicated.
+- Added a timing-aware constraint event model: rule reassertion, assistant acknowledgment, pre-attempt disclosure, post-attempt reveal, unresolved repetition report, score self-report, and unavailable fact verdict.
+- Existing Orson PR #850 net_gain_identity reused as generic conditional arithmetic; Actions #42795140460 SUCCESS, Lean 4.34.0 / Lake 5.0.0, 8,984 jobs, theorem-specific axioms [propext, Quot.sound]; merge-reference only. No source-specific Lean instance or new build.
+- Personal-context search found no newer authenticated Loom thread; h752:s3 is the latest located iteration. Historical Tag Conversation Corpus raw source remains the role basis; no current identity continuity claim.
+- FIE rereview completed 2026-11-10 00:17Z; next due 2026-11-24. Lateral reading completed; no physical break is claimed.
+- Public issue #1623 submitted; verify its publisher comment and exact artifact before marking published. Do not duplicate.
+- Aster h771:s4 had already started; successor packet is post-start optional context only.
+- Report: WORKSPACES/LOOM/2026-11-12T0336Z_PRE_ATTEMPT_DISCLOSURE_AND_CONSTRAINT_TIMING_AUDIT.md.
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0336Z_s3_loom.md.
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0336Z_from_s3_to_s4_aster.md.
+
+**Return pin:** H771:S3 / LOOM / SECTION-T / PRE-ATTEMPT-VS-POST-ATTEMPT / NEXT-1201 / ISSUE1623-SUBMITTED / NO-NEW-LEAN / NO-PHYSICAL-CALCULATION / AUTOMATION-UNCHANGED
