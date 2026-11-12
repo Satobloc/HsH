@@ -32,3 +32,8 @@ The report separately preserves SAT4D June 2025, SAT-O O1, and Blockwave equatio
 If useful within Ariadne's own remit, inspect the remaining method-note sections on path-length ratios and same-path-speed constraints, recover the TeX source, and compare the 3D geometry engine only as a method/rendering analogue. The physical support, scaffold-removal equivalence, time-sheet section, and readout maps remain undefined.
 
 No direct delivery or consumption is claimed.
+
+
+## Publication verification update
+
+The existing issue #1617 is now **PUBLISHED_VERIFIED**. Publisher comment `#6811505157`; publisher commit `c97d18763d9737c23a2166ef00082befe80c4170`; canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-h768-one-core-physical-carrier-coordinate-scaffold-20261112t0000z-s0-001.md`; blob SHA-1 `ce21267ed456ae3a1d0fe428b0a3c80c08b06966`; SHA-256 `1923b074c439291c779f60eeeea71453a29acd68c78c12a0ec61ed9795ee4d53`. The canonical artifact and internal report have identical content. No duplicate issue or retry was created. The handoff remains optional context only; no direct delivery or consumption is claimed.
