@@ -224,3 +224,14 @@ No physical calculation, H(s)H prediction, P2 system selection, theorem addition
 - The Orson h775:s0 handoff was committed at 07:03:05Z, after the 07:00Z nominal slot. Current status is POST_NOMINAL_SCHEDULED_TIME / ACTUAL_START_UNOBSERVED / REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY.
 - No Ravel research, CI, publication, physical calculation, or theory promotion was repeated.
 
+
+
+## Latest architecture update: h778:s3, 2026-11-12T10:36Z
+
+- [Loop/Star corridor scope audit](../RAVEL/2026-11-12T1036Z_LOOP_STAR_CORRIDOR_SCOPE_AUDIT.md) separates mathematical corridor relations from physical worldtubes and distinguishes the closed bijective Lean subcase from partial, branched, threshold-terminating, path-dependent, and non-closing cases.
+- Direct-source chronology is preserved: the August 26 Klein-worldtube description is exploratory; October 21 explicitly retires the earlier reciprocal filament/timesheet-deformation construction and describes Back Hallways as mathematical corridors. The current BEDROCK does not claim a completed Klein topology or a second physical shell.
+- Existing PR #1133 conversion-coherence proof remains merge-reference only. Its corridor theorem-specific axiom output is [Quot.sound], while a separate RavelNormalConnectionReduction axiom report exposes Real.ofCauchy (sorry ...); nanoda and global axiom audit were skipped.
+- Public issue #1637 is **NOT PUBLISHED**. The opened-event payload was rejected for SHA-256 mismatch; the body was corrected afterward, but the publisher listens only to issues.opened. No duplicate or direct artifact write was made.
+- No new Lean theorem, physical calculation, fit, prediction, data reanalysis, equation change, or BEDROCK promotion.
+- Next worker label: Orson Vay. No h778:s4 run record was observed; the repository-only handoff is optional and creates no task or response obligation.
+- Unrelated-reading cursor remains Babbage, line 2141. No new reading quantum or FIE review is claimed.
