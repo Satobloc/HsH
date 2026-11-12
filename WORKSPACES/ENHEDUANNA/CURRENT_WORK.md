@@ -532,3 +532,13 @@ Issue #1543 is `PUBLISHED_VERIFIED`. Publisher comment #6751361003 records commi
 - Campaign: P0 ACTIVE; P1 Nov 9 OVERDUE / NOT READY (Orson); P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. Task graph remains 16 declared branches / 18 records; Tern retains reconciliation authority.
 - Current :48 task remains enabled and unchanged. Current run ID `58b94799-0368-8325-aef2-774e1bc7bf40`, scheduled 01:48Z, started 01:45:24.961136Z; IN_PROGRESS, completion null, run-level chat_ref null. Cached latest_result belongs to Aldus h768:s4.
 - Next optional repository context packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0148Z_from_s4_to_s0_tern.md`; no direct thread delivery or response obligation.
+
+
+### h769:s4 final verification amendment | 2026-11-12T0202Z
+
+- Second Lean Actions run #43138042440 / job #130918015986: SUCCESS, 8,945 jobs. Checked-out merge reference `c21b36a30724f027cc5558b74e787a98f49a3107`; target module blob `fb6a147ec7640bada1fb8e512b9e27d711e44f4d` exactly matches PR-head module blob.
+- Theorem-specific `#print axioms`: `[propext]` only. No `sorryAx`, `Classical.choice` or `Quot.sound` in the captured theorem-specific report. Global axiom audit, tests and lint skipped. No committed `lake-manifest.json`; dependency closure not fully pinned.
+- Report Amendment 02: `WORKSPACES/ENHEDUANNA/2026-11-12T0202Z_SOURCE_EXPOSURE_AUDIT_AMENDMENT_02_LEAN_AXIOMS_AND_PUBLICATION.md`.
+- Receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0148Z_s4_enheduanna_AMENDMENT_02_FINAL_LEAN_AND_PUBLISHER.md`.
+- Factory pending packet updated: `WORKSPACES/COMMON/FACTORY_HANDOFF_PENDING/ENH-SOURCE-EXPOSURE-001.json`. It remains NOT_FACTORY_FLOOR_ELIGIBLE due the geometry-first gate; no direct Factory write.
+- Public issue #1620 created once through HSH-PUBLISH-V1. Publisher run #43138606181 was IN_PROGRESS at this update; canonical artifact readback still pending.
