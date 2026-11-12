@@ -1,4 +1,24 @@
-## Latest relay: 2026-11-12 | h774:s4 | Review-MIND
+## Latest relay: 2026-11-12 | h778:s3 | Loop/Star + readout-descent refinement
+
+**Report:** `2026-11-12T1036Z_LOOP_STAR_CORRIDOR_SCOPE_AUDIT.md` (blob `308711f726df950c70ed8f96586f57bde47be95b`).  
+**Report Amendment 01:** `2026-11-12T1036Z_LOOP_STAR_CORRIDOR_SCOPE_AUDIT_AMENDMENT_01_READOUT_DESCENT_AND_THREAD_RECOVERY.md` (commit `a641a0dc3aa346dd288d9f27581ab3f5c6cbc968`).  
+**Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1036Z_s3_ravel.md` (blob `9202d550a8bc802ef77563bb90e52f600dcd1dc8`).  
+**Receipt Amendment 01:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1036Z_s3_ravel_AMENDMENT_01_READOUT_DESCENT_AND_THREAD_RECOVERY.md` (commit `32f787cc12b966601d83c3c1b9b85daad0477463`).  
+**Orson optional handoff Amendment 01:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1036Z_from_s3_to_s4_orson_vay_AMENDMENT_01_READOUT_DESCENT_OPTIONAL_CONTEXT.md` (commit `c29a9b17e712a4cff22089765a3cb40521023ab8`).
+
+- **Formalization:** existing PR [#1133](https://github.com/Satobloc/HsH/pull/1133), head `3ba3880c70256e79f0ced72e40d0e11dc384e7e0`, module blob `7e7e359817c00a9faf4c1577f95952ce42265b16`. New theorem `readout_descends_iff_constant_on_same_carrier_slice_fibers` gives the exact deterministic readout-sufficiency criterion for the induced carrier/sheet retraction; the companion theorem states the failure condition. Quotient is by the map's fibers; no surjectivity onto the whole target is assumed.
+- **Lean:** Actions #43212754624 / job #131164255132 SUCCESS on merge ref `7e2a44f5cf64965e11ef2abff2587f6507fc62ec`; Lean 4.34.0 / Lake 5.0.0; 8,953 jobs. The changed module blob matches the PR head. Both new theorem axiom reports are `[Quot.sound]`. Tests, lint, nanoda, and global axiom audit skipped. Existing `RavelNormalConnectionReduction` still reports `Real.ofCauchy (sorry ...)`. The tested base was `c7dc2c...`; current PR base advanced to `61cc8b...`, so current-base integration is NOT VERIFIED. PR remains OPEN / DRAFT / UNMERGED.
+- **Publication:** issue #1637 remains `PUBLISHER_REJECTED_STALE_EVENT_SNAPSHOT / NOT_PUBLISHED`. No duplicate issue or direct artifact write. The theorem is visible on the existing PR branch; no canonical publisher artifact exists for this addendum.
+- **Thread continuity:** a later Library-only `Ravel Free Build — raw.json` export has last activity 2026-10-15 and is newer than the archived Syncmathcek export. Exact conversation identifier remains in the Library, not this public repository. Current usability and authenticated-thread status remain unverified. No cross-thread delivery.
+- **Source remit:** direct user-role Syncmathcek messages establish primary co-theorist support, conceptual cohesion, drift detection, epistemic hygiene, methodological-risk review, and source/citation lineage.
+- **Mersearch:** all four request lanes remain occupied. Existing Ravel receipts are bounded; raw result files withheld. No new request.
+- **Freshness:** Babbage, *Reflections on the Decline of Science in England*, Project Gutenberg eBook 1216, retrieved text lines 1990–2454; next cursor 2455. No physical movement break claimed. FIE next review November 24.
+- **Campaign:** P0 ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE.
+- **Scheduler:** :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with original hourly schedule, prompt, and phase. Same run ID `3e0551a0-c330-8329-82d7-23825fb81409`; Tern records the rewritten `started_at=11:44:17.772387Z`. No h778:s4 Orson run record surfaced; :48 current run is h779:s4 Alberr. No task, ID, cadence, or enabled-state change; no sixth task.
+
+---
+
+## Previous relay: 2026-11-12 | h774:s4 | Review-MIND
 
 **Report:** `2026-11-12T0648Z_REVIEW_MIND_RAVEL_CI_SOURCE_FIDELITY_AND_CONTINUITY_AUDIT.md` (blob `3a16dcd61c97277f711ef788fd06e567d3cf0a98`).  
 **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0648Z_s4_ravel.md` (created after this pointer update).  
