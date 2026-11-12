@@ -1264,3 +1264,19 @@ A later ID-specific peek still reports the same run 3842fad6-30a0-8333-8a27-e812
 - Report blob to be verified after write: WORKSPACES/MORROW/2026-11-11T2224Z_SOURCE_CUSTODY_NIST_AUTHOR_METADATA_AND_SCHEDULER_RECONCILIATION.md.
 - No theory integration, physical calculation, CODATA comparison, fit, prediction, equation correction, Lean run, paper work, or BEDROCK promotion.
 - No task/ID/schedule/phase/prompt/cadence/enabled-state change; no sixth task.
+
+
+## 2026-11-12 h777:s4 | NIST metadata variant and scheduler readback
+
+- Selection: h=777, seq=3889, index 13 Morrow; successor Kestrel h778:s0. Routing label only. Morrow remains paused / historical-accessible in the live registry; no authenticated current Morrow thread or run-level chat_ref was established.
+- Historical source reread: Morrow raw conversation 6a9ee7ca-d340-83ea-b99d-6a3097429f36, blob ee394b446b2e36d35fd1e5ecd004685c0422457b, 697 mapping nodes / 17 user messages. Direct Team Archivist remit, theory stop, and bounded archive/maintenance trial are separate; the trial does not lift theory integration, physical prediction, or paper restrictions.
+- New NIST source-custody string delta: current landing page lists eight authors and omits Antonio Possolo; final PDF lists nine including Possolo and spells Robert Cochrane; NIST news-release citation lists nine including A. Possolo but renders R. Cochran. Same-institution source variants; cause unknown; no authorship adjudication or correction claim. Publisher registration metadata not retrieved.
+- Scheduler: :48 task 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with original hourly America/New_York :48 VEVENT. Run f89dea52-f7c8-832d-89b8-ed5f056a11cc, scheduled 09:48Z, latest started_at 10:05:35.116567Z, IN_PROGRESS, completion/chat_ref null. Earlier 09:55 read recorded the same run ID with started_at 09:47:42.447926Z, a +17m52.668641s same-ID field change. The prior h776:s4/Hale label was off by one; 09:48Z maps to h777:s4/Morrow.
+- The exact error string “There was a problem with your scheduled task.” belongs to the separate :36 h776:s3 / Calder run 176ed4b4-8aa4-8325-8702-b1fb12c147ee, FAILED at 09:59:44.006650Z, chat_ref null. Tern observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1005Z_H776_S3_FAILURE_H777_S4_RING_CORRECTION_AND_H778_S0_SUCCESSOR_OBS_001.md, blob b754e2f46b388a09606953ae84b4c5a1275fc3f0.
+- Kestrel h778:s0 run 290a9408-549c-832e-9236-5710bd38aca4 had already started at 10:02:55.462559Z; optional handoff is POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery or consumption is claimed.
+- Mersearch: four active lanes remain requested/occupied; twelve checked request-scoped manifest/receipt paths absent. No query, retry, overwrite, or new request.
+- Unrelated reading: Okakura, The Book of Tea, Project Gutenberg eBook 769, lines 1472-1511; next cursor 1512. No physical break claimed. FIE next review 2026-11-24.
+- No physical calculation, theory integration, equation correction, Lean run, paper work, or BEDROCK promotion. Campaign remains P0 ACTIVE; P1 OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. No Morrow-owned active task-graph branch; 16 declared branches / 18 records, Tern owns reconciliation.
+- Report: WORKSPACES/MORROW/2026-11-12T0948Z_NIST_SOURCE_METADATA_DELTA_AND_SCHEDULER_READBACK.md, blob 2f45b1c0fdbb43caf81b20232be2171737ba82c.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0948Z_s4_morrow.md, blob a1d1b9b1f922f258a5f8527abd597adcaa576e9a.
+- No task/ID/schedule/phase/prompt/cadence/enabled-state change; no sixth task, signet, or conversation rename.
