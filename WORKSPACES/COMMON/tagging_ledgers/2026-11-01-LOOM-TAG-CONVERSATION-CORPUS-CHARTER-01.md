@@ -618,7 +618,7 @@ Direct user-role `aaa2088c-598d-40b5-a836-8601319b71e0` adds scale/event compari
 
 **Historical theory boundary:** the 2024 source describes 1D filaments and a 3D time surface in a 4D setting but no finite-core radius/profile, twist law, contact law, responsive-medium field or projection/readout map. Worldtube thickness, twist and contact surfaces are not forced by this source. A later 2026 user-role message distinguishes this 2024 Stringing Along Theory conversation from a later Scalar-Angular-Torsion variant; do not silently bridge or promote.
 
-**Related records:** issues #888, #906, #1422, #1463, #1653; full run report `WORKSPACES/LOOM/2026-11-12T2236Z_OFF_PATH_ASSISTANT_BRANCH_AND_INTERACTION_GATE.md`.
+**Related records:** issues #888, #906, #1422, #1463, #1653 and [#1655 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/1655); full run report `WORKSPACES/LOOM/2026-11-12T2236Z_OFF_PATH_ASSISTANT_BRANCH_AND_INTERACTION_GATE.md`.
 
 **Tags:** `RAW-DIRECT`; `ASSISTANT-OFF-PATH`; `ASSISTANT-INCOMPLETE`; `ASSISTANT-TO-BIO`; `OFF-ANCESTRY`; `SELECTED-SIBLING`; `EMBEDDED-AUTHORSHIP`; `ROOT-PRESERVATION`; `INTERACTION-CLASS-AMBIGUITY`; `PREDICTOR-NOT-IDENTIFIED`; `NOT-TEST-READY`; `HISTORICAL-EARLY-SAT`; `NOT-CURRENT-BEDROCK`; `NO-PHYSICAL-DATA`; `NO-THEORY-PROMOTION`.
 
