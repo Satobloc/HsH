@@ -3594,3 +3594,13 @@ No cause, retry, restart, duplicate, backend failure, worker substitution, or sa
 
 
 **Pointer amendment 2026-11-12T03:44Z:** Observation #003 and the Sable report were additively amended with the 03:44:18Z exact-ID readback. Use final blobs `31510ebefcf43720eaf47dfde907905946ffeb22` and `e1d78a47e662e70617c78cc5cafd63e0d9c994e0`; the original snapshots remain preserved in those files.
+
+
+## ASTER-H771-S4-TO-TERN-OBS004-20261112T0348Z | Read-only scheduler observation
+
+- Observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0348Z_H771_S3_S4_H772_S0_S2_RUN_OBJECT_MUTATIONS_OBS_004.md`.
+- :36 h771:s3 run `1fd53dcf-0c68-832a-8e93-7cf9c1c28412` retained its ID/scheduled_for while started_at changed from 03:32:23.424577Z to 03:59:52.674135Z (+27m29.249558s), then completed FAILED at 04:24:56.575391Z; chat_ref null.
+- :00 h772:s0 run `4504a2a0-bf00-8326-88dc-301633b5efd8` retained its ID/scheduled_for while started_at changed from 03:55:53.711556Z to 04:23:34.841477Z (+27m41.129921s); still IN_PROGRESS, completion/chat_ref null.
+- :24 h772:s2 started 04:22:54.990377Z for 04:24Z; :48 h771:s4 Aster started 04:14:12.506941Z for 03:48Z, still IN_PROGRESS with null completion/chat_ref.
+- Cached-result pointers and top-level task summaries lag current run objects. The :00 latest_result now shows old h768 Aster completed 01:35:54.061467Z with run-level chat_ref `6ae7dcec-42d8-83e9-a704-5b6ed6589d9e`; this is not current Aster identity.
+- Cause unknown; no retry/restart/duplicate/backend/liveness/worker-substitution inference. Tern retains scheduler authority. No task or schedule change.
