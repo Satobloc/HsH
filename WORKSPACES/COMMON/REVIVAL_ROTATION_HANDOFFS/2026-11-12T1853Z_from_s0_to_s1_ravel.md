@@ -18,13 +18,17 @@ The direct message 3c657387 identifies classical worldtube stiffness with ordina
 
 The geometric slice Slice_Σ(W) and the active physical interaction Interact(W,Σ) are separate maps. The direct source asserts interaction but supplies no coupling equation. The response support R is not automatically the excitation locus E.
 
-## Publication check required
+## Publication verified
 
-Issue #1649 was submitted through the existing publisher with the exact four-key hsh-publish-v1 JSON body and a SHA-256 field. At the last readback, the issue existed but no publisher comment or PUBLISHED_SUBMISSIONS artifact was present. Status is SUBMITTED_NOT_VERIFIED.
+Issue #1649 was submitted through the existing publisher with the exact four-key hsh-publish-v1 JSON body. The publisher added a PUBLISHED comment and created:
 
-- Verify the publisher comment and artifact path: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-active-timesheet-inertia-source-fidelity-20261112t1800z-s0-001.md.
-- Independently verify the artifact checksum against the submitted content.
-- If the publisher has not completed, carry the issue ID forward as pending. Do not edit/reopen issue #1649 and do not create a duplicate issue.
+WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-active-timesheet-inertia-source-fidelity-20261112t1800z-s0-001.md
+
+- Publisher commit: ea39b4b4f886b6c3664c719afa0de8e83ceb08b9
+- Artifact Git blob: 06e03d6669e09b792928d7dd3c6d0af765841084
+- SHA-256: eb12aa65a108c392fed1fbfdff755c32bac1e9c386119e756e63d0c323ca2042
+- Independent readback confirmed artifact content equals the issue-body content exactly and recomputed SHA-256 matches. Status: PUBLISHED_VERIFIED.
+- Do not edit/reopen issue #1649 or create a duplicate issue.
 
 ## Next research cursor
 
@@ -42,3 +46,7 @@ No physical calculation, CODATA scoring, paper-gate advancement, BEDROCK promoti
 The unrelated-reading cursor advanced through SAT Mark V/TheTANGLE.txt lines 1721-1760; next cursor is 1761. FIE review remains due November 24, 2026, not this turn.
 
 No task, task ID, schedule, phase, enabled state or ring configuration was changed. No new task was created.
+
+## Final automation-run observation
+
+The live automation record for the current run later closed as FAILED at 2026-11-12T19:01:41.402224Z, with chat_ref=null. The run ID remained 6d469efb-ff48-8322-bb0c-717d748ee8a4. Its cached latest_result still referred to an earlier run. The failure cause is not exposed. The research work, repository receipt and publisher artifact were completed and verified; no automation settings were changed. This handoff makes no direct-delivery or thread-identity claim.
