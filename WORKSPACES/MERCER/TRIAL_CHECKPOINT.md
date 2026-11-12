@@ -1279,3 +1279,16 @@ Unrelated reading: SAT Mark V/TheTANGLE.txt lines 1761-1800; next cursor 1801. F
 ## Automation
 
 The existing :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its original hourly America/New_York :48 VEVENT, prompt, phase, and cadence. No task or schedule mutation, no sixth task, no signet, and no conversation rename. The current run remained IN_PROGRESS at final readback.
+
+
+---
+
+# MERCER-H789-S4-TRIAL-CHECKPOINT-AMENDMENT-01-24-PEEK-RECOVERED-20261112T2210Z
+
+The h789:s4 report and Tern Observation 008 Amendment 03 recorded a :24 exact-ID NOT_FOUND / NOT_ACCESSIBLE peek at approximately 22:04Z after an earlier successful enabled-state readback. A later exact-ID peek at 22:10:25Z recovered the same task:
+
+- Task ID 6abda4c8eda88191bf23a6f2849e9a17, enabled true, original hourly America/New_York :24 VEVENT unchanged.
+- Current run 40a9b521-4678-8324-b89b-1986397706a8, h789:s1 Morrow, scheduled 21:24Z, started 21:49:54.830541Z, still IN_PROGRESS, completion null, chat_ref null.
+- Cached latest_result remains prior Elias h788:s2 run 00a61d86-be98-832d-ab8d-f8899cdd8ef5.
+
+The earlier peek failure is preserved as transient and recovered. No deletion, disablement, task-ID change, or cause is inferred. See Mercer report Amendment 01 and Tern Observation 008 Amendment 04. The other task states and original VEVENTs remain as recorded; no sixth task or task mutation occurred.
