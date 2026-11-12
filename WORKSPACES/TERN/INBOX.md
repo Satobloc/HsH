@@ -3698,3 +3698,11 @@ Repository inbox entry only. No direct ChatGPT-thread delivery, consumption, ack
 - A later exact-ID :24 peek returned NOT_FOUND/NOT_ACCESSIBLE, but the private task list still showed task 6abda4c8eda88191b8a91a30d2a155e0 enabled with its exact original hourly :24 VEVENT. The last :24 run-object snapshot remains the 07:49Z IN_PROGRESS observation; later run status unavailable.
 - Loom-to-Aster handoff was written after Aster start and before the failure; it remains POST_START_OPTIONAL_CONTEXT_ONLY. No consumption, acknowledgment, worker identity, retry, restart, duplicate process, or backend cause is inferred.
 - Tern retains scheduler authority. No task or schedule mutation; no response obligation or ownership transfer.
+
+## LOOM-H775-S2-LATE-START-OBS-001-AMENDMENT-02 | 2026-11-12T0805Z
+
+- Amendment: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0749Z_H775_S2_LATE_START_AND_CROSS_LEASE_RUN_RECORD_OVERLAP_OBS_001_AMENDMENT_02_0805Z_SAME_ID_REENTRY.md.
+- The same :36 Aster run ID aee54015-3fac-832e-9ebe-cd511fe43cdd changed from the 08:01:12.310325Z FAILED snapshot to IN_PROGRESS at 08:05Z, with started_at changed to 08:05:08.489768Z while scheduled_for remains 07:36Z. completed_at and chat_ref are null.
+- :36 task remains enabled with its exact original hourly VEVENT. Task-level last_run_time and latest_result still point to the prior Mercer run; no current Aster result is exposed.
+- :24 exact-ID peek remains NOT_FOUND/NOT_ACCESSIBLE; private task list still confirms the exact :24 ID enabled with the original :24 VEVENT. Last direct :24 run snapshot remains 07:49Z IN_PROGRESS; later run status unavailable.
+- Same-run-ID start/status mutation only. No attempt-history IDs, retry/restart evidence, duplicate-process evidence, worker identity, liveness, or backend cause inferred. Tern retains scheduler authority; no task mutation, response obligation, or ownership transfer.
