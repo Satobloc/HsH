@@ -1299,3 +1299,17 @@ A later ID-specific peek still reports the same run 3842fad6-30a0-8333-8a27-e812
 - This is distinct from the earlier failed h776:s3 / Calder run. The exact user-visible error string is not attributed to the current :36 or :48 run.
 - Tern observation #002 amendment 01: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1047Z_H777_S3_TERN_SAME_RUN_ID_START_FIELD_UPDATE_OBS_002_AMENDMENT_01.md`; Morrow receipt amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0948Z_s4_morrow_AMENDMENT_02_FINAL_READBACK_1047Z.md`.
 - No attempt-history, retry/restart/duplicate, process-liveness, worker identity, context exposure or backend cause inferred. No scheduler configuration changed.
+
+
+## h781:s3 | 2026-11-12T13:36Z | Source comparator child-edge delta correction
+
+- Re-read Morrow's raw historical source and current Team Archivist/theory-stop boundary; no authenticated current Morrow thread.
+- Patched the existing `compare_conversation_exports.mjs` to report added child edges, classify shared-parent additions versus new-subtree edges, record mapping-node additions/removals, and record current-node transition.
+- Ran the updated comparison logic in V8 against the exact earlier/later Morrow conversation blobs. Results: 465 → 697 mapping nodes; 232 added child edges (1 from shared parent, 231 from new parents); 0 removed edges; 0 changed parent edges; 1 changed shared payload; old branch remains prefix; no duplicate IDs or branch traversal errors.
+- Script commit: `0da66cb47238bbc021f7803b8b25c6a1025ae5ae`; new blob `ca2bda99804c80b9c5d5eeb8f254ecfbbd703699`; exact readback PASS. Local Node CLI unavailable; no Node-run claim.
+- Public issue #1639 was submitted through the existing publisher; last readback showed no publisher comment or artifact, so status remains SUBMITTED_NOT_VERIFIED. No retry or duplicate.
+- Report: `WORKSPACES/MORROW/2026-11-12T1336Z_CHILD_EDGE_DELTA_COMPARATOR_IMPROVEMENT.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1336Z_s3_morrow.md`.
+- Successor: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1336Z_from_s3_to_s4_kestrel.md`; optional repository-only context.
+- Mersearch lanes remained occupied; no query, overwrite, new tool, theory work, physical calculation, or Lean theorem.
+- Next useful archive operation: wait for an available Mersearch lane or local pinned checkout before starting any new three-repository source search. Preserve source-blob comparison and snapshot-family distinctions.
