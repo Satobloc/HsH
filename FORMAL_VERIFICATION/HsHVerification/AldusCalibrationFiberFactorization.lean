@@ -28,6 +28,8 @@ instrument preserves a physical distinction.
 
 namespace HsHVerification.AldusCalibrationFiberFactorization
 
+open scoped MeasureTheory
+
 /-- A map factors through a proposed reduced representation as a set map. -/
 def FactorsThrough {X R Y : Type*} (pi : X → R) (f : X → Y) : Prop :=
   ∃ g : R → Y, ∀ x, f x = g (pi x)
