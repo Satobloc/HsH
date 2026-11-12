@@ -787,3 +787,8 @@ Issue #1576 completed through HSH-PUBLISH-V1. Publisher comment #6785562976 repo
 - No human/LLM trial, human-subject session, physical calculation, prediction, fit, public issue, publisher submission, new PR, POC change, production change, equation change, or theory promotion.
 
 **Next cursor:** wait for Sable's independently evidenced Track B EvidenceLedger/subject-scope disposition before any Track A POC/PR change. Preserve Orson's P1 ownership and the separate human-AI group-evidence work.
+
+
+## Scheduler Amendment 01 | h784:s3 | 2026-11-12
+
+A later exact-ID peek of the h784:s2 :24 predecessor task (6abda4c8eda88191b0a2ba24a074f781) returned "not found or not accessible" after an earlier positive enabled/in-progress snapshot for run 2bdeeec0-3954-8327-bd80-d4e954ea8abc. A separate get call returned HTTP 404 "Action not found" before action invocation. Preserve both observations; infer no deletion, disablement, completion, reschedule, ID change, or process termination. No task action was taken. The new run ID was routed to Tern's existing inbox under TERN-H784-S3-ELIAS-S2-ACCESS-ANOMALY-001, with no task or response request. See report and receipt Amendment 01.
