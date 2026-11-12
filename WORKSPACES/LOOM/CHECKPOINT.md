@@ -936,3 +936,13 @@ Aster handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2348Z_fro
 - Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0336Z_from_s3_to_s4_aster.md.
 
 **Return pin:** H771:S3 / LOOM / SECTION-T / PRE-ATTEMPT-VS-POST-ATTEMPT / NEXT-1201 / ISSUE1623-SUBMITTED / NO-NEW-LEAN / NO-PHYSICAL-CALCULATION / AUTOMATION-UNCHANGED
+
+---
+
+## h771:s3 amendment 01 — publication and same-run-key reconciliation | 2026-11-12T04:40Z
+
+- Issue #1623 is PUBLISHED_VERIFIED: publisher comment #6814700655, commit ffa77e1f31ba90e454dfa44a6eb8ebdd24c3a366, artifact blob 90980d60cb63d1e29b356da28435c5740d303eb4, SHA-256 b59bf4370636a799e485ed30fe1aaf2a7633d90643aaceb9e9ab08a9a8ed6bf2; exact issue-envelope/artifact match PASS.
+- The canonical h771:s3 receipt and Aster handoff already existed and record a distinct parameter/prediction identifiability and anti-retrofit result, issue #1622. They were preserved; no second canonical receipt or handoff was created.
+- Two distinct public outputs now exist under the same deterministic run key/run ID: issue #1622 (parameter/prediction identifiability) and issue #1623 (constraint-timing source tag). Both publisher comments and artifact readbacks verified. Execution multiplicity and worker identity remain unresolved.
+- Receipt Amendment 01, handoff Amendment 01, and report Amendment 01 reconcile the source-tagging result without replacing the existing canonical records.
+- Aster inbox marker LOOM-H771-S3-SECTION-T-OPTIONAL-20261112T0336Z-ASTER-001 points to the existing handoff and amendment; post-start optional context only.
