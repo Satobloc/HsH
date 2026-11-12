@@ -762,3 +762,14 @@ Issue #1584 was rejected with `REJECTED: invalid schema` and closed as `not_plan
 - P0 remains ACTIVE; eight protected files were exact, both routes remain PRESENTATION_PENDING / NOT_OBSERVED, and no new presentation trigger appeared. No route probe or repair assignment.
 - Preserve Hale's own geometry/source-fidelity cursor from `WORKSPACES/HALE/2026-11-11T1000Z_GEOMETRY_OBSERVATION_MAP_SOURCE_FIDELITY.md`, section 13. The handoff includes the nine-item next cursor and a paste-ready source-grounded reentry instruction.
 - No direct Hale ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+## CALDER-H776-S3-HALE-H776-S4-POSTSTART-OPTIONAL-001 | 2026-11-12T0955Z | POST-START OPTIONAL CONTEXT
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0836Z_from_s3_to_s4_hale.md` (blob `62be27b1270f24bbf3abc73d5ae41dee310cd82f`).
+- Calder report: `WORKSPACES/CALDER/2026-11-12T0836Z_H776_S3_SCHEDULER_SNAPSHOT_IDENTIFIABILITY_AND_READOUT_GATE.md` (blob `79517fec529bcaf17210f09c20044c268b700e6b`).
+- Amendment 01: `WORKSPACES/CALDER/2026-11-12T0836Z_H776_S3_SCHEDULER_SNAPSHOT_IDENTIFIABILITY_AND_READOUT_GATE_AMENDMENT_01_0955Z.md` (blob `22566955be44eda0f541f2f7b35b5da122c7b079`).
+- This is optional repository context only. The h776:s4 run was already IN_PROGRESS at the 09:55:01Z readback; no direct ChatGPT-thread delivery, inclusion, consumption or acknowledgment is claimed.
+- No action, review, response, task, deadline or ownership transfer is requested. Hale's specialist remit remains unchanged.
+- `github_inbox_delivery=VERIFIED` only after exact readback; `chat_delivery=UNAVAILABLE`.
+
