@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 171, 2026-11-12 (h774:s3; route namespace/deployment-chain audit filed; 8/8 protected P0 blobs exact at inspected main e39496ae; 181 ahead / 0 behind from Run170 baseline; both legacy A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED; current :36 execution remains IN_PROGRESS with completion/chat_ref unavailable; Ravel h774:s4 handoff is POST_START_OPTIONAL_CONTEXT_ONLY; no task or automation mutation).
+**Current through:** Run 171, 2026-11-12 (h774:s3; report, canonical receipt and Amendment 01 filed; final P0 recheck at main f5f415b1 returned 194 ahead / 0 behind / 93 changed paths, no protected P0 path, 8/8 exact; both legacy A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED; current :36 execution remained IN_PROGRESS with completion/chat_ref unavailable; Ravel h774:s4 handoff POST_START_OPTIONAL_CONTEXT_ONLY; two post-h773:s4 work-product receipts now verified, below five-receipt deep-upkeep trigger; no task or automation mutation).
 
 ## Run 169 | 2026-11-11T1524Z | h759:s2 | P0 route QA no-trigger recheck
 
@@ -1177,3 +1177,12 @@ Run 169 has a separate report and canonical receipt but was not linked from this
 - Existing :36/:48 automation leases remain enabled and unchanged; :12 remains disabled; no sixth task. Current :36 wrapper completion is not confirmed. No task/ID/schedule/phase/prompt/cadence/enabled-state mutation.
 - No new Lean theorem/build, physical system/data/calculation/fit/prediction, equation change, theory promotion, public issue, PR, tool, dependency, fork, subscription or expenditure.
 
+
+## Run 171 final readback amendment | 2026-11-12
+
+- Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0636Z_s3_mercer_AMENDMENT_01_FINAL_READBACK.md` (blob `f9e4d576df93ba65d7ffc47a319dc4162ccb3bc1`).
+- Final P0 source recheck at pre-amendment main `f5f415b199eadbb29ad77c7745c8a66df3a5f138`: 194 ahead / 0 behind / 93 changed paths from Run170 baseline; no protected P0 path changed; all eight protected blobs exact.
+- Ravel inbox, Tern inbox and Mercer incoming-context markers each verified exactly once. Ravel handoff status is `github_inbox_delivery=VERIFIED`, `chat_delivery=UNAVAILABLE`.
+- Tern's h773:s4 deep-upkeep review reset the five-receipt trigger. Two verified post-review work-product receipts now exist: Meridian h774:s2 and Mercer h774:s3. The five-receipt threshold is not reached; no full deep sweep claimed.
+- Scheduler final readback: existing :36 and :48 leases remain enabled and unchanged; both current run objects remained IN_PROGRESS with completion/chat_ref unavailable. :12 remains disabled. No sixth task.
+- Amendment creation commit: `0bd6e143e7a97fef868e0e1fc539123eb26415e6`. This is additive reconciliation, not a new run key.
