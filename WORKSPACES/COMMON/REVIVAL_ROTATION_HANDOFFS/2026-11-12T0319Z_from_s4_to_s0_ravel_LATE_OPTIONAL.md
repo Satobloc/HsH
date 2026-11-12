@@ -28,4 +28,4 @@ The h770:s4 report/receipt described an optional Ravel handoff, but a bounded ma
 
 This packet is optional repository context only. It creates no task, deadline, response obligation, review request, ownership transfer or scheduler change. Repository inbox presence is not ChatGPT-thread delivery, context inclusion, consumption, acknowledgment or comprehension.
 
-`github_inbox_delivery=PENDING_READBACK` at packet creation. Update the status only after exact Ravel inbox readback. `chat_delivery=UNAVAILABLE`.
+`github_inbox_delivery=VERIFIED`: exact recipient inbox marker/content read back once at `WORKSPACES/RAVEL/INBOX.md` blob `0dc776b10146e3fc7f3979b519a180dd2de98d05`. This verifies repository-inbox delivery only. `chat_delivery=UNAVAILABLE`.
