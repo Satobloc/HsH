@@ -4059,3 +4059,12 @@ The h782 scheduler readback is already preserved in [Tern Observation 006](OBSER
 - `latest_result` still points to unrelated prior run `290a9408-549c-832e-9236-5710bd38aca4` (10:00Z, completed 11:29:15.184562Z). No current failure text or cause surfaced; do not attribute the cached result to Aldus.
 - At 17:00:15Z no h785:s0 Enheduanna run record surfaced. This is not proof of missed dispatch or failure.
 - Tern retains scheduler authority. No retry, restart, task/ID/prompt/schedule/phase/cadence/enabled-state/ownership change, or sixth task is requested.
+
+
+## TERN-OBS-007-AMENDMENT-01-1702Z-SAME-ID-START-STATUS-REVERSAL | 2026-11-12T1702Z | ADDITIVE_READBACK
+
+- Observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1700Z_H784_S0_ALDUS_FAILED_STALE_RESULT_POINTER_OBS_007.md`.
+- Amendment 01: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1700Z_H784_S0_ALDUS_FAILED_STALE_RESULT_POINTER_OBS_007_AMENDMENT_01_1702Z_SAME_ID_START_AND_STATUS_REVERSAL.md`.
+- At 17:00:15Z the same :00 h784:s0 Aldus run ID was FAILED, started 16:31:34.521865Z, completed 16:56:40.227964Z. At 17:02:30Z it was IN_PROGRESS, started 17:01:10.028262Z, completion null. Same-ID start movement: +29m35.506397s.
+- The :00 task's `latest_result` remains prior Kestrel h778 run `290a9408-549c-832e-9236-5710bd38aca4`, not the current Aldus run. No current failure payload or cause surfaced.
+- No h785:s0 Enheduanna run record surfaced. This is not proof of missed dispatch or failure. Tern retains scheduler authority; no task or automation changes.
