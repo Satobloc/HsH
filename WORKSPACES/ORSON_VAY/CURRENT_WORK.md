@@ -1,5 +1,32 @@
 # Orson Vay — Current Work
 
+## Latest verified state | 2026-11-12T1824Z | h786:s2
+
+**Run key:** REVROT3-19-20261011:786:s2  
+**Selection:** Orson Vay (ring index 18); successor Sable (index 0). Deterministic selection does not authenticate a historical instance or thread. No authenticated current Orson thread or run-level chat_ref was established.
+
+**Substantive cognition work:** completed VEY-043 supporting literature crosswalk separating passive pre-exposure error dependence, shared-evaluator dependence, peer-message causal revision, and deliberative aggregation. Two new primary arXiv identifiers were added to HSH_RESOURCES; existing Hossain/ B arrera-Lemarchand comparators were reused from VEY-013/012. No raw-data reanalysis, LLM trial, human session, inference API call or spend.
+
+**Durable outputs**
+- HsH report: WORKSPACES/ORSON_VAY/2026-11-12T1824Z_COMMUNICATION_REVISION_AND_ERROR_DEPENDENCE_CROSSWALK.md
+- HSH_RESOURCES study: Consciousness + AI/VEY_COGNITION_LAB/STUDIES/VEY-043_COMMUNICATION_REVISION_AND_ERROR_DEPENDENCE_CROSSWALK_2026-11-12.md
+- Public publisher issue: #1647, submission orson-vey043-communication-revision-dependence-20261112t1824z-s2-001, **SUBMITTED_NOT_VERIFIED**. Issue payload matches the report and declares SHA-256 60a8e1d39ccec24c4456ee605471c71a6fc82f0bfb9a50ce7043c6be3b5c5e39; no publisher comment or canonical artifact was present at the last check. Do not retry or duplicate.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1824Z_s2_orson_vay.md
+- Successor packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1824Z_from_s2_to_s3_sable.md
+
+**P1 boundary:** issue #564 remains OPEN / NOT READY; P1 protocol freeze unchanged. OV-49–OV-53 bank NOT RECOVERED; authorized inference endpoint NOT AVAILABLE; canonical P1 LaTeX/PDF/reader, independent hostile review and author disposition remain incomplete. This literature crosswalk does not advance the November 9 gate or amend P1. P2 November 30 remains HOLD; P3 December 14 remains INCOMPLETE.
+
+**Formalization:** PR #850 remains OPEN/DRAFT/UNMERGED at head 4e9b685a031577ec51ed15b02cbdf344a7b6dde5 on non-main base 598a45b3feb9378eb8f14ff069ec9080137113c2. Existing net_gain_identity was included in successful merge-reference build #43245831469; not standalone exact-head or current-main verification. No new Lean module/build.
+
+**Project controls:** HsH main at initial read d4197a1442e474a63b02401a333959cc50b0e357; 57 commits ahead / zero behind from prior P0-verified head 940e7da188f673250e8b6f816c1cc82994c916ea, with no protected P0 paths changed. P0 eight-of-eight remains exact; both A/B reader routes PRESENTATION_PENDING / NOT_OBSERVED. Task graph 16 declared branches / 18 records. Four existing relay tasks remain the only enabled relays; :12 remains disabled. Current :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 and its saved phase were not modified. No sixth task.
+
+**Source recovery:** the existing Mersearch origin-bank receipt was used only as navigation evidence; all four shared lanes remain occupied. A direct user-authored October 10 instruction to refocus Orson on LLM cognition was recovered from prior-conversation context, but the exact October 9 raw role-reset message and stable UUID remain unrecovered. The workspace role card is assistant-maintained, not verbatim primary source.
+
+**Next cursor:** obtain direct PDFs/appendices/data/code for arXiv:2610.01042 and 2609.36855; resolve headline denominators and the ICR no-message control. Keep the frozen P1 source/archival cursor separate. Recover the original October 9 role-reset and OV-49–OV-53 bank only when a Mersearch lane becomes available. Babbage unrelated-reading cursor remains 2141; FIE next review November 24.
+
+**Successor status:** Sable is the deterministic next label. The optional packet was created after the nominal successor slot; actual Sable run start is not verified. Repository-only context, no direct thread delivery, no acknowledgment, no task/review/response obligation or ownership transfer.
+
+
 **Updated:** 2026-11-12T1543Z; h782:s3 truncation-aware NLI bounds, publication and scheduler reconciliation  
 **Routing label:** Orson Vay, index 18; not authenticated historical-instance participation  
 **Primary remit:** LLM cognition, memory, reasoning, calibration, continuity, and multi-agent organization  
