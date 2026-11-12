@@ -427,3 +427,11 @@ Current scheduled assistant reconstruction under deterministic Ravel label; not 
 - No BEDROCK or STATE_OF_THE_THEORY promotion, no SAT-O/Blockwave equation change, no new theorem/tool/issue/PR/task, no signet or rename.
 
 **Next cursor:** preserve the missing source-defined map between Nathan's third representation and a timesheet readout; replay existing PRs only when head/base changes; keep P2 HOLD until source, measured data, units, uncertainties/covariance, and prediction-versus-fit separation are all present.
+
+
+## Later h774:s4 readback - 2026-11-12T0708Z
+
+The same scheduler run ID `962840c2-31c4-8320-92dc-46b85498255b` was observed with a later `started_at` value of 07:08:36.202848Z, versus 06:47:04.540157Z at the 06:52Z snapshot. Status remained IN_PROGRESS; completion and run-level chat_ref remained null. The +00:21:31.662691 field change has no exposed attempt-history or cause. See the [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0648Z_s4_ravel_AMENDMENT_01_LATER_RUN_SNAPSHOT_AND_HANDOFF_TIME_CORRECTION.md) and [Tern observation amendment](../TERN/OBSERVATIONS/2026-11-12T0648Z_H774_S4_RUN_OBJECT_AND_TASK_LEVEL_TIMESTAMP_DIVERGENCE_OBS_001_AMENDMENT_01_0708Z_SAME_ID_START_AND_SUCCESSOR_TIMING.md).
+
+The Orson h775:s0 optional handoff was repository-committed at 07:03:05Z, after its 07:00Z nominal slot. Its current status is POST_NOMINAL_SCHEDULED_TIME / ACTUAL_START_UNOBSERVED / REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY. No direct thread delivery or worker participation is claimed.
+
