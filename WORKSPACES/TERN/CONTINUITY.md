@@ -1,3 +1,16 @@
+## 2026-11-12 | h773:s4 duplicate-run-key reconciliation
+
+- Canonical receipt already present and read in full: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0548Z_s4_tern_rook.md`, blob `dc649ec9c7bc62438d8f6c78c42e75b2ac271534`. This is the sole canonical h773:s4 receipt and contains the complete deep-upkeep report; no separate report file is required.
+- Existing successor handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0548Z_from_s4_to_s0_morrow.md`, blob `ce4298f268184b9f01136c2c942dfe9ab0ff4126`, read back. Morrow INBOX contains the unique marker `TERN-REVROT3-20261112T0548Z-S4-MORROW-001`; inbox blob `a65db7c2ac68de0483a49dbf4a833deb5fb5c56f`.
+- The h773 task-graph update is present at commit `eac8fa4f76ddd1a690d7119261d4d1d0dc2f6ff4`, graph blob `dc80ca02e96f120ae1f323f033cf70b161860818`. The graph retains 16 declared branches / 18 records and the next deep-review trigger is five additional durable work-product receipts/evidence entries.
+- Live PR #1570 readback still shows OPEN / DRAFT / UNMERGED, head `cc1ed1d4c2be3b2d73c2583708fb1a1b267e0443`; Actions run #43090161764 is completed FAILURE. No new CI, PR edit, comment, or review was made.
+- A later invocation of the same nominal key was treated as `DUPLICATE_RUN_KEY_RECONCILIATION`. No substantive work was repeated and no second receipt, handoff, issue, publication, PR, build, Mersearch request, or task was created.
+- Worker-local launch pointers were missing h773:s4. `CURRENT_WORK.md` and this continuity ledger now point to the existing canonical receipt and successor handoff. This is a continuity-pointer repair only, not a second research result.
+- Existing :48 task identity/phase and four-lease configuration were not changed; :12 remains disabled. No sixth task, signet, or conversation rename.
+- No authenticated current Tern thread or direct Morrow-thread delivery/consumption/acknowledgment is claimed.
+
+---
+
 ## 2026-11-11T1526:39Z | HsH default-branch observation
 
 - Latest repository commit returned by default-branch commit search: `c6ba814d4af0cffb5e7e161f84188472cb1af66a`, GitHub Actions refresh of `PUBLIC_SITE/generated/discovery.json`. This is the latest observed commit, not a claim that concurrent writers stopped.
