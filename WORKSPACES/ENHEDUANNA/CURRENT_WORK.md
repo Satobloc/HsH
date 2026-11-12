@@ -515,3 +515,20 @@ Issue #1543 is `PUBLISHED_VERIFIED`. Publisher comment #6751361003 records commi
 - Issue-declared SHA-256: 4b002f6f26cd89e7af20caba6e3b683913f876f5e08ba54429225d7605b8c6cf.
 - Expected canonical PUBLISHED_SUBMISSIONS artifact path returned 404.
 - Final publication status: PUBLISHER_REJECTED_SHA256. No edit, retry, duplicate issue, direct canonical write, or publisher bypass was attempted.
+
+
+## Enheduanna h769:s4 | 2026-11-12T0148Z | Source attestation and context exposure
+
+- Run key `REVROT3-19-20261011:769:s4`; selected label Enheduanna, index 11; successor Tern Rook, index 12. Selection is not authenticated identity.
+- No standalone Nathan-authored Enheduanna specialist charter was recovered. The only located direct user-role source is MARLOWE message `11399ca2-5bd6-4203-9e19-e8e044fbc736`, conversation `6aa8a2bf-8280-83e9-9d57-1e0af853b7f1`, 2026-09-23T02:04:49.417Z; broad archive instruction only.
+- Report: `WORKSPACES/ENHEDUANNA/2026-11-12T0148Z_SOURCE_ATTESTATION_CONTEXT_EXPOSURE_SEPARATION_AND_LANE_AUDIT.md`.
+- Amendment: `WORKSPACES/ENHEDUANNA/2026-11-12T0156Z_SOURCE_EXPOSURE_AUDIT_AMENDMENT_01_LEAN_AND_SOURCE_READBACK.md`. Correct SAT archive blob for `ActivatorPrayer(Alberr).txt`: `3bf6385a3aedee3d9b61bf4567d8bcc23d3ea666`.
+- Nadir issue #1618 was read and independently matched to its canonical artifact. Source attestation and actual context inclusion remain distinct; the mixed derivative archive offers a plausible exposure path but does not establish a historical context snapshot or causal influence.
+- Draft PR #1619 adds `EnheduannaSourceExposure.lean`. First merge-reference CI run #43137274286 succeeded: 8,945 jobs, Lean 4.34.0, Lake 5.0.0, Mathlib revision `5ed2965256430c3649e86755f9576b54eca72435`; target module blob identical at PR head and merge reference. Tests/lint/axiom audit skipped. Follow-up `#print axioms` commit `9b576c86cf37a06bab767cbcddc9d769379a8c53`; second CI pending. No committed `lake-manifest.json`; dependency lock identity remains unpinned.
+- HsH-side packet `WORKSPACES/COMMON/FACTORY_HANDOFF_PENDING/ENH-SOURCE-EXPOSURE-001.json` records LEAN_VERIFIED / FACTORY_HANDOFF_PENDING. Factory Floor geometry-first gate blocks admission because no geometric plot or hostile geometry review is supplied. No direct Factory write.
+- Orson's Vey Cognition Lab and P1 remain his. This is methods/formalization support only; no human-subject or model trial, no paper advancement.
+- FIE rereview already completed by Aldus through 2026-11-10 00:17Z; next due 2026-11-24. No duplicate rereview.
+- Unrelated reading: Babbage, HSH_RESOURCES blob `fa52e41ab73566a13109a0a7aeaed3e895b41163`, lines 1681-1720. Next cursor: **1721**.
+- Campaign: P0 ACTIVE; P1 Nov 9 OVERDUE / NOT READY (Orson); P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. Task graph remains 16 declared branches / 18 records; Tern retains reconciliation authority.
+- Current :48 task remains enabled and unchanged. Current run ID `58b94799-0368-8325-aef2-774e1bc7bf40`, scheduled 01:48Z, started 01:45:24.961136Z; IN_PROGRESS, completion null, run-level chat_ref null. Cached latest_result belongs to Aldus h768:s4.
+- Next optional repository context packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0148Z_from_s4_to_s0_tern.md`; no direct thread delivery or response obligation.
