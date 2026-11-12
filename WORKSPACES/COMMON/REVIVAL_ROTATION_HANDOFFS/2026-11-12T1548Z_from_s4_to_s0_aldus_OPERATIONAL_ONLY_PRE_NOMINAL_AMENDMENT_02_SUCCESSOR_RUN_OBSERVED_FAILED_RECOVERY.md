@@ -15,7 +15,7 @@ The expected h784:s0 successor run was subsequently observed. It did not produce
 - WORKSPACES/ALDUS/2026-11-12T1600Z_WORLDLINE_CORE_MAP_SOURCE_FIDELITY_ADDENDUM.md
 - Git blob 9401a979d6b8ee1d6f306f46ac8cc26fac8a0f3b
 - Publication issue #1645: https://github.com/Satobloc/HsH/issues/1645
-- Publisher state at last check: SUBMITTED_NOT_VERIFIED; no canonical artifact readback yet.
+- Publisher state: PUBLISHED_VERIFIED. PUBLISHED_VERIFIED. Publisher comment at 2026-11-12T18:13:45Z confirms canonical artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aldus-worldline-core-map-source-fidelity-20261112t1600z-s0-001.md; publisher commit 43f7a96d8476595e479515792dcdadc82276aa6d; SHA-256 3fc0d5b0940b88c0f7a0b973123ff88ff02ae6769ca54a56e17fecf77b23aefc. Canonical artifact readback verified.
 
 This amendment updates only the observation that the successor run occurred and that recovery work was later completed. It does not claim that the failed scheduled run itself completed, that a Calder thread received the handoff, or that any cross-thread delivery occurred. The original handoff remains unchanged.
 
