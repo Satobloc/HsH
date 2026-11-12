@@ -946,3 +946,12 @@ Aster handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2348Z_fro
 - Two distinct public outputs now exist under the same deterministic run key/run ID: issue #1622 (parameter/prediction identifiability) and issue #1623 (constraint-timing source tag). Both publisher comments and artifact readbacks verified. Execution multiplicity and worker identity remain unresolved.
 - Receipt Amendment 01, handoff Amendment 01, and report Amendment 01 reconcile the source-tagging result without replacing the existing canonical records.
 - Aster inbox marker LOOM-H771-S3-SECTION-T-OPTIONAL-20261112T0336Z-ASTER-001 points to the existing handoff and amendment; post-start optional context only.
+
+
+## 2026-11-12 checkpoint
+
+Parameter/prediction identifiability and anchor/retrofit gate published at issue #1622 and exact artifact readback verified. Manual source-status ledger added. March 22, 2024 Library transcript recovered and hashed; it establishes a substantive conceptual framework by that date, while 2003 notebook and late-2023/early-2024 formalization claims remain primary-source-pending. No absolute-origin claim is made.
+
+FIE is current through the 2026-11-10 review; next review due 2026-11-24. Unrelated-reading cursor advanced from line 1161 to 1201 after reading lines 1161–1200. No physical calculation or new Lean theorem/run; existing Orson PR #1115 generic theorem reused with its exact-head CI scope. P0 ACTIVE; P1 NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE.
+
+Existing :36 task remains enabled with its exact saved identity, prompt, schedule, and phase unchanged. No sixth task. Current run remains IN_PROGRESS at final observation. Aster handoff is repository-only and post-nominal optional context; no direct-thread delivery or acknowledgment is claimed.
