@@ -110,7 +110,7 @@ theorem exact_baseline_fiber_separation_excludes_fit
   apply no_lipschitz_standard_predictor_can_fit_both
     S H f K 0 δ hLip x y
   · simpa [hSameBaseline]
-  · exact hSeparation
+  · simpa using hSeparation
 
 #print axioms no_lipschitz_standard_predictor_can_fit_both
 #print axioms exact_baseline_fiber_separation_excludes_fit
