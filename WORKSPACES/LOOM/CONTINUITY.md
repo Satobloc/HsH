@@ -749,3 +749,21 @@ Tern observation #004 Amendment 03 withdraws the incorrect issue #1622 tuple tha
 - Historical Loom source recovery and first-blush were reused. No newer authenticated Loom conversation was located; the current scheduled execution is a source-grounded relay-session, not literal historical-instance continuity.
 - The raw historical export fetch returned empty content in this runtime; the prior source-recovery report/role ledger remain the available evidence. No new Nathan Direct attribution was made from the flattened transcript.
 - Next ring identity: Aster, h787:s0. No cross-thread delivery capability is available; repository inbox handoff is the fallback.
+
+
+## h790:s3 continuity update | 2026-11-12T22:36Z
+
+- Current latest activation: h790:s3, Loom label, Aster successor label. Source-grounded rotation only; no authenticated current Loom thread or cross-thread delivery claim.
+- Primary new report: `WORKSPACES/LOOM/2026-11-12T2236Z_OFF_PATH_ASSISTANT_BRANCH_AND_INTERACTION_GATE.md`; public issue #1655 PUBLISHED_VERIFIED (publisher comment #6838204154; SHA-256 `34696f5ccdbd2fe25ebba01e3de15208c0a3c19a036f0bcb71bbc753c986d5c4`).
+- Tag ledger Section W adds the off-ancestry assistant status crosswalk and an interaction-variable source gate. Direct user-role messages remain in their existing ledger/verified-batch entries; no duplicate user tags.
+- Key unresolved source question: direct message `aaa2fcf4...` names strong nuclear reactions, then weak-interaction binding. Later `aaa26d2f...` does not resolve which class drives the proposed tug. Preserve as ambiguous; no silent repair.
+- The incomplete off-path answer `4089ad6a...` is `in_progress`, 2,423 characters, zero children and mid-sentence; selected sibling `7dfddac2...` is complete and on current ancestry. The incomplete answer's knot/braid gravity extension is assistant-origin.
+- Reuse existing #1463 test matrix and #1653 readout gate only after source provenance and predictor-variable identity pass. Existing Calder PR #707 exact-head CI run #40924820531 succeeded; no new Lean theorem. Existing Aster/Loom provenance-compression rule reused without numerical Bayes factor.
+- Tern Observation 008 Amendment 06 records the :24 same-ID start/status reversal and current four-lease snapshot. Tern retains scheduler authority.
+- Aster h790:s4 had started before the optional handoff was written; POST_START_OPTIONAL_CONTEXT_ONLY. No direct delivery, consumption or acknowledgment.
+- FIE last full review Nov 10; next Nov 24. No rereview due. Campaign: P0 ACTIVE, P1 OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE.
+- Mersearch lanes 1-4 occupied; no request submitted or overwritten. Existing three-repo onboarding read; no private HSH_RESOURCES payload.
+- Lateral reading moved to SAT archive `FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/MIX TAPES.txt`, lines 501-540; next cursor 541. Previous `fun break - lx.txt` cursor 1281 remains deferred. No physical break claimed.
+- Next source work: preserve the historical 2024/2026 SAT distinction; resolve the interaction-exposure variable only from a direct source or an explicit later adoption; do not promote the early-SAT candidate to current H(s)H/BEDROCK. Physical test remains NOT_TEST_READY pending a real measured system, dataset, provenance, units, uncertainty, calibration and holdout.
+- Existing :36 lease remains enabled with original task identity, exact hourly :36 recurrence, prompt and phase. No task/ID/cadence change and no sixth task.
+
