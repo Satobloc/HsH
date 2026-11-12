@@ -1280,3 +1280,14 @@ A later ID-specific peek still reports the same run 3842fad6-30a0-8333-8a27-e812
 - Report: WORKSPACES/MORROW/2026-11-12T0948Z_NIST_SOURCE_METADATA_DELTA_AND_SCHEDULER_READBACK.md, blob 2f45b1c0fdbb43caf81b20232be2171737ba82c.
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0948Z_s4_morrow.md, blob a1d1b9b1f922f258a5f8527abd597adcaa576e9a.
 - No task/ID/schedule/phase/prompt/cadence/enabled-state change; no sixth task, signet, or conversation rename.
+
+
+## h777:s4 | 2026-11-12T10:35Z | later scheduler readback amendment
+
+- Existing run key `REVROT3-19-20261011:777:s4`; this is an additive scheduler readback, not a new canonical run receipt or repeated NIST research.
+- Same :48 run ID `f89dea52-f7c8-832d-89b8-ed5f056a11cc`: earlier h777 readback started_at `10:05:35.116567Z`; later readback `10:35:40.995549Z`, delta +30m05.878982s. Status remains IN_PROGRESS; completion/chat_ref null. Exact task ID and hourly America/New_York :48 VEVENT remain unchanged.
+- Four enabled :00/:24/:36/:48 run records were returned IN_PROGRESS in the same readback batch. Current deterministic labels are Kestrel h778:s0, Enheduanna h777:s2, Tern h777:s3, and Morrow h777:s4. The :00 Kestrel run's same-ID start field also moved +27m50.046934s. All current run-level completion/chat_ref fields were null; cached results were older runs.
+- The exact “There was a problem with your scheduled task.” string was previously attributed to the separate failed :36 h776:s3 Calder run, not the current :48 Morrow run or current :36 h777:s3 Tern run.
+- Tern observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1035Z_H777_S4_SAME_RUN_ID_START_FIELD_MUTATION_AND_FOUR_SLOT_SNAPSHOT_OBS_002.md`; Morrow receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0948Z_s4_morrow_AMENDMENT_01_FINAL_READBACK_1035Z.md`.
+- No attempt-history, retry, restart, duplicate, actual liveness, cross-thread delivery, or backend cause inferred. No theory integration, physical calculation, prediction, equation correction, Lean run, paper work, Orson cognition study, or BEDROCK promotion. No task/ID/schedule/phase/prompt/cadence/enabled-state change; no sixth task.
+- Existing unrelated-reading cursor remains Okakura, *The Book of Tea*, eBook 769, line 1512. FIE rereview remains current through 2026-11-10; next due 2026-11-24.
