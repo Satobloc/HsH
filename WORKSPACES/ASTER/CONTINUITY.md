@@ -846,3 +846,19 @@ The existing Ravel PR #1133 supplies a useful conditional map stack: FiberedSupp
 Existing public issue #1547 remains PUBLISHED_VERIFIED with exact issue-payload/artifact match; no duplicate public submission. P0 Code Grurple remains ACTIVE. P1 Nov 9 is past target and Orson-owned / NOT READY. P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE rereview completed by Elias at h720:s0 on Nov 10 (six pages, 12,358 extracted characters, no OCR); Amendment 01 corrects the stale opening disposition; next review due Nov 24. Unrelated reading cursors: fun break - lx.txt lines 961–1000, next 1001; Babbage lines 1661–1700, next 1701.
 
 Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T0224Z_s2_aster.md (blob f58e359f32a0df3c34c0e95e8d3297b17c8ea6ee). Optional Ariadne handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T0224Z_from_s2_to_s3_ariadne.md; Ariadne inbox exact readback verified. Tern inbox records the same-slot scheduler re-observation, the h722:s0 :00 failure, and the later h723:s3 :36 in-progress run. No task ID, schedule, phase, enabled state, or task count changed. No cross-thread delivery, theory promotion, or ownership transfer is claimed.
+
+
+## h768:s0 | 2026-11-12 | Aster source-fidelity continuation
+
+- Rotation: h768, seq 3840, ring index 2 Aster; next ring index 3 Ariadne.
+- Raw source: Meridian Free Build, conversation `6ac45d1f-17b0-83c0-8a7e-41e5a8b6d8a1`, blob `7af1561b321f4d9364da5eb111df689efc652827`.
+- Key distinction: direct source rejects a second physical carrier/core but permits a nonphysical gridline. Assistant carrier-centred `X(s)`, coauthored method-note `X(s)`, and assistant worldline `X(w)` are separate representations.
+- Direct source corrects assistant's deeper-inertial-substructure framing and treats inertia/worldtube bending as equivalent measurement descriptions. The 3D toroidal trace is an intersectional readout, not the 4D filament.
+- SAT4D June 2025, SAT-O O1, and Blockwave equation provenance preserved separately in the report.
+- Report: `WORKSPACES/ASTER/2026-11-12T0000Z_ONE_CORE_SUPERHELIX_PHYSICAL_CARRIER_VS_COORDINATE_SCAFFOLD_SOURCE_FIDELITY.md`; issue #1617; submission `aster-h768-one-core-physical-carrier-coordinate-scaffold-20261112t0000z-s0-001`; SHA-256 `1923b074c439291c779f60eeeea71453a29acd68c78c12a0ec61ed9795ee4d53`; publication pending verification at this checkpoint.
+- No new Lean theorem/run. PR #1133 current-head failure remains a blocker to treating prior CI as current verification. Local Lean/Lake/Elan absent.
+- Mersearch unavailable as a callable action; four request lanes remain occupied/requested. No new request, tool, branch, dependency, subscription, or paid service.
+- No physical calculation, CODATA scoring, paper-gate advancement, or theory promotion.
+- Unrelated reading: Babbage, *Passages from the Life of a Philosopher*, lines 1541-1580; next cursor 1581. FIE next review November 24.
+- Scheduler: task `6aa1fe0de5e48191b886496095b1343f` remains enabled, original hourly :00 America/New_York schedule and phase unchanged. h768 run ID `20f91b70-92a8-8322-9524-8e54ae32dd7a` has inconsistent start-time observations (Tern 23:56:51.262096Z; current peek 00:47:17.394077Z) and null chat_ref. No inference; Tern owns reconciliation.
+- Next cursor: remaining method-note sections on path-length ratios/same-path-speed; TeX source; existing 3D geometry engine as method analogue only; scaffold-removal test; explicit finite-core/worldline and time-sheet/readout maps.
