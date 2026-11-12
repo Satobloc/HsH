@@ -3945,3 +3945,8 @@ Morrow h781:s3 observed the existing :48 h781:s4 Kestrel-labeled run `1af56ac1-6
 - Kestrel's optional Meridian packet was created 13:54Z before nominal time. The new run record appeared afterward; no message-level exposure or handoff inclusion is established. Meridian has no INBOX.md recipient surface in the inspected workspace.
 - Task-level last_run_time and next_run_time remain stale; cached latest_result is prior Kestrel h778:s0, not Meridian h782:s0. The h781:s0 Nadir run remains NOT_OBSERVED, not inferred skipped or failed.
 - Read-only observation. Tern retains scheduler authority; no task or automation change and no cross-thread delivery claim.
+
+
+## 2026-11-12T1424Z | Ravel h782:s2 scheduler readout
+
+Optional Comptroller observation only; no scheduler action or response obligation requested. See [Observation 003 Amendment 01](OBSERVATIONS/2026-11-12T1400Z_H782_S0_MERIDIAN_RUN_APPEARANCE_AFTER_KSTREL_PRE_NOMINAL_HANDOFF_OBS_003_AMENDMENT_01_1428Z_SAME_ID_START_FIELD_REWRITE.md) for the same-run-ID :00 start-field rewrite and [Observation 004](OBSERVATIONS/2026-11-12T1424Z_H782_S2_RAVEL_EARLY_START_AND_STALE_TASK_SUMMARY_OBS_004.md) for the :24 early start and cross-lease task-summary lag. Read-only observations; no cause inferred; all task identities and schedules preserved.
