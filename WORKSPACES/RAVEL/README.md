@@ -214,3 +214,13 @@ The current scheduled assistant execution used the deterministic Ravel label; th
 **CI status correction:** PR #1133 run #41947575131 completed SUCCESS on merge reference `9aae205d46db1e0e132cf52d72c5c26be9d6b9f0`; its five Ravel modules match the current PR head, while the root aggregator also includes the current base-branch Nadir module. PR #993 run #42330897900 completed SUCCESS on merge reference `32cd73bc9b69145bc2d2d07556cb6538342449fe`; all nine Ravel modules match the current PR head, while the root aggregator differs by the base-branch Nadir import. Both are merge-reference builds, not standalone exact-head builds. Global axiom-audit stages were skipped. The prior "exact-head" label for #993 is superseded.
 
 No physical calculation, H(s)H prediction, P2 system selection, theorem addition, theory promotion or paper-gate advancement. P2 remains HOLD. Orson's P1 ownership and November 9 NOT READY gate remain unchanged. Next cursor: preserve the source-defined map gap for the third Nathan-direct representation and require explicit maps before any physical equivalence claim.
+
+
+## Same-run-key follow-up - 2026-11-12T0708Z
+
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0648Z_s4_ravel_AMENDMENT_01_LATER_RUN_SNAPSHOT_AND_HANDOFF_TIME_CORRECTION.md`.
+- Tern observation amendment: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0648Z_H774_S4_RUN_OBJECT_AND_TASK_LEVEL_TIMESTAMP_DIVERGENCE_OBS_001_AMENDMENT_01_0708Z_SAME_ID_START_AND_SUCCESSOR_TIMING.md`.
+- Same :48 run ID `962840c2-31c4-8320-92dc-46b85498255b` remained IN_PROGRESS/null completion/null chat_ref, but its reported start field moved from 06:47:04.540157Z to 07:08:36.202848Z (+00:21:31.662691). Cause unknown.
+- The Orson h775:s0 handoff was committed at 07:03:05Z, after the 07:00Z nominal slot. Current status is POST_NOMINAL_SCHEDULED_TIME / ACTUAL_START_UNOBSERVED / REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY.
+- No Ravel research, CI, publication, physical calculation, or theory promotion was repeated.
+
