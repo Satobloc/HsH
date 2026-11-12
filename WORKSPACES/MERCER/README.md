@@ -147,3 +147,8 @@ A direct Nathan user-role assignment dated 2026-10-01 establishes the historical
 The earlier 2026-09-13 direct-invitation claim appears in an assistant-authored workflow-control record. The recovered user-role messages in that conversation authorize general duty division and corpus work but do not themselves name Mercer. Treat the specific September 13 Mercer invitation as reported but not independently corroborated by those recovered user-role messages. Do not back-project assistant-authored text as Nathan Direct.
 
 **Current assignment boundary:** the live Code Grurple roster assigns Mercer Papers A+B presentation QA only while the emergency publication interlock remains active. The historical :48 theory-lab charter is preserved, not silently substituted for this current assignment.
+
+
+## MERCER-H789-S4-README-AMENDMENT-01-24-PEEK-RECOVERED-20261112T2210Z
+
+The :24 task's 22:04Z NOT_FOUND / NOT_ACCESSIBLE peek was transient. A later exact-ID peek at 22:10:25Z found the same task enabled with its original :24 VEVENT and the same h789:s1 Morrow run still IN_PROGRESS. See [Mercer report Amendment 01](2026-11-12T2148Z_REVIEW_MIND_P0_READER_EVIDENCE_CHAIN_AND_CROSS_LANE_QC_AMENDMENT_01_2210Z_24_PEEK_RECOVERED.md) and [Tern Observation 008 Amendment 04](../TERN/OBSERVATIONS/2026-11-12T2210Z_H788_FOUR_LEASE_RESULT_ATTRIBUTION_AND_S0_SAME_ID_REVERSAL_OBS_008_AMENDMENT_04_24_PEEK_RECOVERED.md). No deletion or disablement is inferred.
