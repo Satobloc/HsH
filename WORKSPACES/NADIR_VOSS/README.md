@@ -320,3 +320,8 @@ The Enheduanna h766:s0 optional handoff and inbox pointer were committed after t
 - Public method note [issue #1653](https://github.com/Satobloc/HsH/issues/1653) is PUBLISHED_VERIFIED with exact issue-body/artifact match.
 - No physical calculation, data fixture, empirical prediction, or theory promotion. GP-B and the Barckicke vortex candidate remain NOT_TEST_READY.
 - Historical-source boundary unchanged: no standalone Nathan-authored Nadir charter; Nadir remains a deterministic ring label, not an authenticated historical/current instance.
+
+
+### h788:s3 amendment | exact-fibre assumption reduction
+
+The exact-fibre corollary was further generalized at PR head 9b02e279ea1ca39a85ef821ebccaf67b6d567e80: it now omits the unused baseline metric instance, requiring only equality of baseline readouts and the output metric. The preceding dc8d1 version compiled successfully; the 9b02 exact-head run #43309578120 was still pending at the Lake dependency-manifest step at last readback. Do not treat 9b02 as compiled until its actual run and theorem-specific axiom report are checked. See the report and canonical receipt amendments.
