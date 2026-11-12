@@ -37,11 +37,14 @@ The successful raw-blob parse supersedes the h753 note that a re-fetch of this s
 
 Read at the observed HsH main head `ecff1caa9f1c5d80b42b5cfabd115f4237868556`:
 
-- `BEDROCK.md`, blob `0253ace...` (full file fetched; 667 lines).
-- Nathan Direct methodology/model overview, blob `a8e333b1...`.
+- `BEDROCK.md`, blob `0253ace674bbc361464b7bbaac2c41aa3d8e8867` (full file fetched; 667 lines).
+- Nathan Direct methodology/model overview, blob `a8e333b1d5b5aa1d9772366945dd88769d24153c`.
+- Universal Shape-to-Lean directive, blob `2b49291aa0836b70e283950eabd9f74ff6707be3`.
 - Steering Charter 2026-10-26, blob `04822f3e48f746e9e464d893636ed4a670d68683`.
 - Three Paper Campaign, blob `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`.
-- New-instance and three-repository onboarding, revival rotation, thread-first routing, workflow branch map, scheduler authority, write-safety and current roster documents.
+- New-instance onboarding, blob `43b577d42b8cced83f8836934598081685ea3ff3`; three-repository onboarding, blob `fe40260cda5ce360909f2adfd64a3cc3e2c92a05`.
+- Revival Rotation V3, blob `7373ece95ead0f2f9e57d7e5ed3bc5c77fa76c14`; workflow branch map, blob `756c506780072591b2f48e22044f3368a57bfa7d`.
+- Scheduler authority, thread-first routing, shared-state write safety, current orientation, and active automation roster were also read at the same observed main head.
 - Prior Aldus receipt h757:s2, current Aldus CURRENT_WORK, and immediately preceding Loom h767:s4 receipt/amendment.
 - Current HsH branch: `main`, observed head `ecff1caa9f1c5d80b42b5cfabd115f4237868556`.
 
