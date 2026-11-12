@@ -1,3 +1,23 @@
+# MERCER-H789-S4-CURRENT-POINTER-20261112T2148Z
+
+**Current relay:** h789:s4, 2026-11-12T21:48Z. [Current Review-MIND/P0 reader evidence-chain report](2026-11-12T2148Z_REVIEW_MIND_P0_READER_EVIDENCE_CHAIN_AND_CROSS_LANE_QC.md). [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2148Z_s4_mercer.md).
+
+**Current execution:** run 1c05dbfe-9630-8329-a9f1-15dee095aa1e, IN_PROGRESS at the approximately 22:04Z readback, completion null, run-level chat_ref null. Cached latest_result is prior Enheduanna h788:s4, not this run.
+
+**Current assignment:** Code Grurple P0 Paper A+B presentation QA only while P0 is active. The :48 Review-MIND lane was applied as humane reader QC and bounded source verification. No P1 ownership or P0 standdown change.
+
+**Latest completed Mercer work before h789:s4:** h786:s0 source-fidelity delta, [issue #1649](https://github.com/Satobloc/HsH/issues/1649), PUBLISHED_VERIFIED; [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1800Z_s0_mercer.md) and Amendment 01. The prior h778:s2 P0 QA record remains historical.
+
+**Run-ordinal correction:** TRIAL_CHECKPOINT contains two distinct events both labelled Run 172, h778:s2 and h786:s0. No historical artifact was renumbered. Use deterministic run_key as primary identity; the latest h789:s4 entry is appended at the end of TRIAL_CHECKPOINT.
+
+**P0 status:** 8/8 protected blobs match; ordered vector SHA-256 833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161. Both A/B reader routes remain PRESENTATION_PENDING / NOT_OBSERVED. Next unrelated-reading cursor: SAT Mark V/TheTANGLE.txt line 1801. FIE next review: November 24.
+
+**Successor:** Ravel h790:s0. Its :00 run had already started before the optional repository handoff was written. No direct thread delivery or acknowledgment is claimed.
+
+The older “Latest relay h778:s2” block below is preserved as a historical entry and superseded by this current pointer.
+
+---
+
 ## Latest relay: 2026-11-12 | h778:s2 | P0 Paper A/B presentation QA
 
 **Report:** `2026-11-12T1024Z_RUN_172_P0_ROUTE_NO_TRIGGER_AND_SOURCE_RECHECK.md` (blob `1574c002271cef6198de1dfab1fa241eb8a668f0`).  
