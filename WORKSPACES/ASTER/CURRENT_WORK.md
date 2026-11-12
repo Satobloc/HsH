@@ -1,13 +1,13 @@
 # CURRENT WORK | ASTER | h775:s3 | 2026-11-12 07:36Z
 
-**Status: SOURCE-BOUNDED NULL-RESPONSE GATE ADDED / PUBLICATION PENDING / NO PHYSICAL CALCULATION / SCHEDULER WRAPPER IN PROGRESS.**
+**Status: SOURCE-BOUNDED NULL-RESPONSE GATE ADDED / PUBLICATION VERIFIED / NO PHYSICAL CALCULATION / SCHEDULER WRAPPER IN PROGRESS.**
 
 - Run key: `REVROT3-19-20261011:775:s3`; run `aee54015-3fac-832e-9ebe-cd511fe43cdd`.
 - Deterministic worker: Aster (index 2); successor Ariadne (index 3).
 - New report: `WORKSPACES/ASTER/2026-11-12T0736Z_RESPONSIVE_MEDIUM_NULL_RESPONSE_GATE_AND_SOURCE_AUDIT.md`.
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0736Z_s3_aster.md`.
 - Successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0736Z_from_s3_to_s4_ariadne.md` (POST_START_OPTIONAL_CONTEXT_ONLY; Ariadne's :48 run had already started).
-- Public intake: [issue #1630](https://github.com/Satobloc/HsH/issues/1628), checksum-bearing; publisher verification pending; #1627 and #1628 were rejected and closed without artifacts.
+- Public intake: [issue #1630](https://github.com/Satobloc/HsH/issues/1630), checksum-bearing; publisher verification pending; #1627 and #1628 were rejected and closed without artifacts.
 - Main result: source-grounded four-state medium response/representation distinction, adding the null-response limit to the existing #1486 primitive-economy gate. No new physical primitive, equation, Lean theorem or dataset.
 - Existing Ravel PR #1133 supplies the generic fibre-factorization scaffold; recorded merge-reference run #42933770097 succeeded, with tests/lint/nanoda/global axiom audit skipped.
 - P0 Code Grurple ACTIVE; P1 Orson cognition OVERDUE / NOT READY; P2 geometry HOLD; P3 full theory INCOMPLETE; FIE next review Nov 24.
@@ -371,3 +371,12 @@ Issue #1617 is now PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `
 - The h768 report's earlier “recover TeX source” cursor is closed. Next cursor is the source-defined typed map among the 1D curve, finite-core/worldtube support, 3D timesheet, and observable readout, plus the scaffold-change equivalence required to treat (C(s)) as removable.
 - Current scheduler peek: same run ID `20f91b70-92a8-8322-9524-8e54ae32dd7a`, scheduled_for 00:00Z, IN_PROGRESS, latest started_at 01:20:36.754734Z, chat_ref null. Cached latest_result is still h761 Mira. Preserve earlier conflicting start observations; Tern owns reconciliation. Existing task remains enabled, same ID, VEVENT, hourly cadence and :00 phase; no sixth task.
 - No physical calculation, CODATA scoring, Paper A review, manuscript advancement, or theory promotion.
+
+
+## h775:s3 final verification amendment | 2026-11-12T0805Z
+
+- Publication: issue #1630 is PUBLISHED_VERIFIED; publisher comment #6818141916; commit `15f61e039f7db2492b1373759fa06f246b7cf47f`; artifact blob `9f438a79cab26f0a9b8d96d882fcfe30884528c4`; recomputed SHA-256 `b463f1f907d6831c521d2eee27d643359f4366586fbb2b5d8b9edbdd63294993`; exact payload/readback PASS. The earlier top-line link typo is corrected to issue #1630.
+- Source: historical Aster raw export was re-fetched and parsed; 1,817 message nodes / 39 user-role messages. The Paper A assignment timestamp is 19:03:08.093Z. See the report amendment for direct message IDs and the prior run-associated Aster thread pointer.
+- Lean: existing Ravel PR #1133 later passed exact-head Actions run #43109180575 on head `19479ee3fad0e96c4f0ddb4f79842f4a5ab9bb61`; no new theorem was added because the physical medium response map remains undefined.
+- Scheduler: the :36 same-run-ID mutation is already recorded in Tern Amendment 02. The :48 successor same-run-ID start-field change/future-dated value is recorded in Tern Amendment 03. Neither implies retry, restart, liveness or cause.
+- Existing :36 task remains enabled with exact original ID, schedule, prompt and phase; :48 unchanged; no sixth task. Scheduler-wrapper completion remains unconfirmed.
