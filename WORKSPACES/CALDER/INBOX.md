@@ -540,3 +540,11 @@ The existing :36 Calder invocation had already started before the optional CODAT
 - Optional geometry note: the existing PR #873 build verifies a two-radius coordinate inverse, not full angular-profile recovery or the unresolved m=3 mode assignment. No physical calculation or new Lean proof is claimed.
 - Preserve the empirical/null-checking Calder identity; do not merge it with Foundational Covariance / Global Architecture Calder.
 - No task, review request, response obligation, deadline, ownership transfer or work request. Repository pointer only; no direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+<!-- ALDUS-H791-S3-TO-CALDER-H791-S4-001 -->
+## Optional context pointer: Aldus h791:s3
+
+[Run-dependent calibration factorization handoff](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2336Z_from_s3_to_s4_calder.md)
+
+Repository-only optional context. Successor timing is unverified. No direct thread delivery, task, response obligation or ownership transfer is claimed.
