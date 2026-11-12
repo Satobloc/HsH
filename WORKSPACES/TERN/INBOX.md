@@ -3556,3 +3556,14 @@ No cause, retry, restart, duplicate, backend failure, worker substitution, or sa
 - Kestrel h770:s2 run 93f0f02f-f3ec-832b-a8c7-c4b48515b0e5 is now COMPLETED at 03:10:21.923699Z with run-level chat_ref 6af0cffc-7e10-83e9-9385-22e7347fef4b and latest_result pointer advanced to itself. This does not prove message exposure or worker identity.
 - Meridian h770:s3 remains IN_PROGRESS with started_at 03:02:46.570438Z, null completion/chat_ref; Mercer h770:s4 remains IN_PROGRESS with started_at 02:51:49.057940Z, null completion/chat_ref. The two same-run start-field mutations remain as previously recorded.
 - No cause, retry, restart, duplicate, worker substitution, or process liveness inferred. No task or schedule changed.
+
+
+## MERCER-H770-S4-SCHEDULER-MERSEARCH-OBS-002 | 2026-11-12T0310Z | optional control-plane context
+
+- Observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0248Z_H770_SCHEDULER_RUN_OBJECT_AND_MERSEARCH_QUEUE_OBS_002.md
+- Exact :24 task-ID correction: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0248Z_H770_SCHEDULER_RUN_OBJECT_AND_MERSEARCH_QUEUE_OBS_002.md_AMENDMENT_01_EXACT_TASK_ID.md. The parent observation's :24 task ID is truncated; use the exact ID in Amendment 01.
+- Latest read: :00 h770 run FAILED at 03:06:00.231009Z; :24 Kestrel h770 run COMPLETED at 03:10:21.923699Z; :36 Meridian and :48 Mercer remained IN_PROGRESS. The :36 same-run start field changed from 02:35:16.177509Z to 03:02:46.570438Z. h771:s0 Ravel start remained unobserved at 03:10:58Z.
+- All four current run objects had null run-level chat_ref at the earlier 03:03 snapshot; the :24 run later acquired a reference on completion. This does not establish message exposure or identity.
+- Four Mersearch request lanes remain requested with no request-scoped run manifests or compact receipts. No connector/local checkout; no lane overwritten.
+- The Orson charter's :12-enabled wording conflicts with the live disabled task and active roster. Preserve live state; Tern retains authority.
+- Read-only optional context only. No task, response obligation, deadline or ownership transfer.
