@@ -465,3 +465,18 @@ The passage is not a controlled LLM trial, not Orson's P1 dataset, and not evide
 - Next cursor: line 1161.
 
 ---
+
+### S.1 Source-reopen gate (cross-lane integration, 2026-11-12T00:00Z)
+
+Sable's published distinction ledger (#1615) specifies that each stage map must identify its domain, codomain, version, conditions, composition order, retained/lost distinctions, recovery path, and epistemic authority. It distinguishes the archive/continuity pipeline from the physical-model pipeline: the two may share a map-theoretic failure pattern without being ontologically equivalent.
+
+Applied to this segment:
+- The flattened transcript is sufficient for transcript-local observations: the score statements and the visible hint after the no-hints request.
+- It is insufficient for raw author identity, role, message UUID, or exact source chronology.
+- Status for those missing distinctions: `SOURCE_REOPEN_REQUIRED`. Bounded search did not locate the raw message-level export, but was not exhaustive; do not yet mark `UNRECOVERABLE_FROM_DERIVATIVE` and do not infer the missing role/message was absent from the original.
+- If the raw source is later found, reopen it and compare message IDs, roles, and order. If an exhaustive authorized search later establishes the original is unavailable, record `UNRECOVERABLE_FROM_DERIVATIVE`.
+
+Formal support: Orson PR #1115 theorem `noninjective_selection_remains_noninjective_after_encoding`, exact-head run #43119833616, reports no axioms for the formalized conditional. It establishes that an encoding after a non-injective selection cannot restore injectivity. It does not establish that this transcript's particular flattening map is non-injective; that premise still requires source evidence.
+
+Physical boundary: Sable's physical prediction chain remains `NOT_TEST_READY` without an identified measured system, versioned primary dataset, explicit maps, units, uncertainties, calibration/holdout split, and independent measurement. No physical equivalence or calculation is claimed here.
+
