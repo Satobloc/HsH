@@ -874,3 +874,13 @@ Final publication status: ISSUE_BODY_PUBLIC_AND_HASH_CORRECTED / PUBLISHER_REJEC
 - The generic error text remains attributed to the earlier h776:s3 / Calder failure, not this run absent a matching payload.
 - No Ravel task, response, review, deadline, P0 assignment, ownership transfer or theory work is requested. Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit.
 - `github_inbox_delivery=VERIFIED` only after exact readback; `chat_delivery=UNAVAILABLE`.
+
+
+## MERCER-H778-S2-TO-RAVEL-H778-S3-OPTIONAL-001-AMENDMENT-02 | 2026-11-12T10:46Z | POST_START_OPTIONAL_CONTEXT_ONLY
+
+- Handoff Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1024Z_from_s2_to_s3_ravel_AMENDMENT_02_S3_SAME_ID_REVERSAL.md` (blob `eac4172f9180ccc91a81b56355564125296ebdb5`).
+- The :36 h778:s3 run ID `3e0551a0-c330-8329-82d7-23825fb81409` returned IN_PROGRESS again after the prior FAILED record. Current reported start 10:46:08.031712Z versus prior 10:33:32.396035Z (+12m35.635677s); completed_at cleared to null; chat_ref null.
+- Same-run-ID status reversal and start-field rewrite only. No retry/restart/duplicate/liveness/worker identity/cause inferred. Cached latest_result remains the older Aster h775:s3 run.
+- This is repository-only optional context. No direct thread delivery, context inclusion, consumption, acknowledgment or comprehension is claimed.
+- No Ravel task, response, review, deadline, P0 assignment, ownership transfer or theory work is requested. Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit. Tern retains scheduler authority.
+- `github_inbox_delivery=VERIFIED` only after exact readback; `chat_delivery=UNAVAILABLE`.
