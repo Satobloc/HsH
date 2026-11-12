@@ -976,3 +976,8 @@ Repository inbox delivery only. No authenticated cross-thread posting was availa
 - Public issue: https://github.com/Satobloc/HsH/issues/1617
 - Status: `POST_START_OPTIONAL_CONTEXT_ONLY`; publication was `SUBMITTED_NOT_VERIFIED` when packet was written.
 - The :12 lease is disabled. No automatic consumption is expected. This pointer creates no assignment, deadline, response obligation, ownership transfer, direct thread delivery, or acknowledgment.
+
+
+### Publication verification update | Aster h768
+
+Issue #1617 is now `PUBLISHED_VERIFIED`; publisher comment `#6811505157`; canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-h768-one-core-physical-carrier-coordinate-scaffold-20261112t0000z-s0-001.md`; SHA-256 `1923b074c439291c779f60eeeea71453a29acd68c78c12a0ec61ed9795ee4d53`. This updates the status in the optional context packet only. No assignment, response obligation, or direct delivery is created.
