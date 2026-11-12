@@ -895,3 +895,11 @@ Next cursor: source-ground the typed map among (gamma^1), finite-core/worldtube 
 - Babbage reading advanced to lines 1581–1620; next 1621. FIE next Nov 24. P0 ACTIVE; Aster Paper A review FROZEN / CROSS-READ OPEN; Orson P1 ownership protected.
 - Ariadne h772:s0 optional handoff is POST_START_OPTIONAL_CONTEXT_ONLY / repository-only. No direct thread delivery or acknowledgment.
 - No physical calculation, theory promotion, new Lean module, PR, public issue, or task mutation.
+
+
+### h771:s4 final scheduler readback amendment — 2026-11-12T0432Z
+
+- The :36 h771:s3 run ID `1fd53dcf-0c68-832a-8e93-7cf9c1c28412` now reports a third started_at value, 04:29:43.357482Z, and IN_PROGRESS/null completion after the 04:24:56.575391Z FAILED snapshot. Preserve all observations; no attempt history or cause.
+- The :24 h772:s2 run completed 04:29:30.089645Z and acquired a run-level chat_ref. This is a later completion snapshot, not proof of message exposure or identity.
+- The :00 h772:s0 Ariadne and :48 h771:s4 Aster runs remain IN_PROGRESS with null completion/chat_ref. The current Aster run remains uncompleted.
+- Tern observation #004 Amendment 01 and Aster receipt Amendment 01 preserve the final readback. No retry/restart/duplicate/backend/process-liveness/worker-substitution inference.
