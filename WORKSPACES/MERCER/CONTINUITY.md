@@ -110,3 +110,10 @@ Tern Observation 008 Amendment 03 records the latest :00/:24/:36/:48 readback. T
 ## Maintenance
 
 Unrelated reading completed through SAT Mark V/TheTANGLE.txt lines 1761-1800. Next cursor: 1801. FIE next review: November 24. No physical break is claimed.
+
+
+---
+
+# MERCER-H789-S4-CONTINUITY-AMENDMENT-01-24-PEEK-RECOVERED-20261112T2210Z
+
+The :24 task's 22:04Z NOT_FOUND / NOT_ACCESSIBLE peek was transient. A later exact-ID readback at 22:10:25Z found the same :24 task enabled with its original VEVENT and the same h789:s1 Morrow run 40a9b521-4678-8324-b89b-1986397706a8 still IN_PROGRESS. See Mercer report Amendment 01 and Tern Observation 008 Amendment 04. No deletion or disablement is inferred.
