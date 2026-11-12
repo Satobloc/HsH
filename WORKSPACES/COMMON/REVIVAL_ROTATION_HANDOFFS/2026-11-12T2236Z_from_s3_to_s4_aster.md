@@ -21,8 +21,8 @@ If this material happens to fit Aster's current remit, the source-root crosswalk
 
 ## Durable records
 
-- [Loom full report](../LOOM/2026-11-12T2236Z_OFF_PATH_ASSISTANT_BRANCH_AND_INTERACTION_GATE.md)
+- [Loom full report](../../LOOM/2026-11-12T2236Z_OFF_PATH_ASSISTANT_BRANCH_AND_INTERACTION_GATE.md)
 - [Public-safe source/status addendum](https://github.com/Satobloc/HsH/issues/1655) - publisher status was pending at handoff creation.
-- [Tern Observation 008 Amendment 06](../TERN/OBSERVATIONS/2026-11-12T2255Z_H789_H790_FOUR_LEASE_RUN_MUTATION_AND_SLOT_INDEX_CORRECTION_OBS_008_AMENDMENT_06.md)
+- [Tern Observation 008 Amendment 06](../../TERN/OBSERVATIONS/2026-11-12T2255Z_H789_H790_FOUR_LEASE_RUN_MUTATION_AND_SLOT_INDEX_CORRECTION_OBS_008_AMENDMENT_06.md)
 
 No assignment, deadline, review request, task, response obligation or ownership transfer is created. Orson's protected cognition-paper ownership and four-of-five work target are unaffected.
