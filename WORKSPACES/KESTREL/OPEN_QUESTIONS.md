@@ -245,3 +245,14 @@ The h781:s4 crosswalk reuses four existing strands rather than creating a parall
 The 13:54Z four-lease snapshot has four distinct task IDs/configured containers, two completed current runs with run-level references matching their configured containers, one failed run with null reference, and one current Kestrel run in progress with null reference. Message-level exposure, model/version identity and process/state isolation remain unobserved. This is a scheduler snapshot, not a human/LLM group experiment or evidence of four independent agents.
 
 Orson's P1 remains frozen and solely Orson-owned. No new model or human trial is authorized by this note. P0 remains first. The nine-channel schema remains LEAN_NOT_RUN / SPECIFICATION_ONLY; the existing Orson PR #1115 build verifies its formalized component claims but does not instantiate the complete source-to-context graph.
+
+
+## 2026-11-12 | h785:s3 refinement
+
+**New named gate:** Where is the active response localized relative to the one-core geometry: (a) in or around the hollow outer superhelix path, (b) through the active timesheet bulk, or (c) on a defined support boundary/contact interface?
+
+Keep this response-locus question independent of the geometric thin-core/centerline limit and the response-state question (null, nonzero-absorbable, nonzero-irreducible). Do not infer a second core, material shell, separate medium, or contact law from a hollow path or nonzero response. The thin-core and response-null limits may or may not commute; no constitutive law is available to decide.
+
+Before a P2 test, require the core-to-support map, global-to-local ambient map, interaction/response law, and separate instrument readout map. Use one real system/dataset, shared parameters, calibration and independent holdout, and a covariance-derived falsification threshold. If the candidate loci collapse to the same readout, mark NOT_IDENTIFIABLE.
+
+Reference: [issue #1644](https://github.com/Satobloc/HsH/issues/1644); internal report `WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GATE.md`.
