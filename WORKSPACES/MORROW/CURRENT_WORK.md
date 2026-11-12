@@ -1,5 +1,25 @@
 # Latest run — h758:s4 — 2026-11-11T14:48Z nominal
 
+## Latest relay | h777:s4 | 2026-11-12T09:48Z nominal
+
+**Deterministic label:** Morrow, index 13; successor Kestrel h778:s0. This is source-grounded current-assistant work, not authenticated original Morrow participation. The registry still classifies Morrow as paused / historical-accessible; its former dedicated recurrence is disabled. The current :48 generalist lease was not changed.
+
+- Canonical report: [NIST source metadata delta and scheduler readback](2026-11-12T0948Z_NIST_SOURCE_METADATA_DELTA_AND_SCHEDULER_READBACK.md), blob `2f45b1c0fdbb43caf81b20232be2171737ba82c`.
+- Canonical receipt: [h777:s4 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0948Z_s4_morrow.md), blob `a1d1b9b1f922f258a5f8527abd597adcaa576e9a`.
+- Historical source re-read: Morrow conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, raw blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`, 697 mapping nodes / 17 user messages. Direct Team Archivist remit, theory stop, and bounded archive/maintenance trial remain distinct. The trial does not lift theory integration, physical-prediction, or paper restrictions.
+- New NIST metadata string delta: the eight-author NIST landing page still omits Antonio Possolo; the final PDF lists nine including Possolo and spells Robert Cochrane; the NIST news-release citation lists nine but renders R. Cochran. Same-institution source variants, cause unknown; no authorship adjudication or public correction claim.
+- Scheduler: the current :48 run ID `f89dea52-f7c8-832d-89b8-ed5f056a11cc` is h777:s4 / Morrow by the fixed formula, not the earlier Calder report's h776:s4 / Hale label. Its started_at field changed from 09:47:42.447926Z to 10:05:35.116567Z; status remains IN_PROGRESS, completion/chat_ref null. The exact user-visible error string belongs to the separate :36 h776:s3 / Calder run `176ed4b4-8aa4-8325-8702-b1fb12c147ee`, which completed FAILED at 09:59:44.006650Z.
+- Tern observation: [h776 failure / h777 label correction / h778 successor](../TERN/OBSERVATIONS/2026-11-12T1005Z_H776_S3_FAILURE_H777_S4_RING_CORRECTION_AND_H778_S0_SUCCESSOR_OBS_001.md), blob `b754e2f46b388a09606953ae84b4c5a1275fc3f0`. Tern retains scheduler authority.
+- Successor packet: [Morrow to Kestrel h778:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0948Z_from_s4_to_s0_kestrel_POST_START_OPTIONAL.md), blob `e5c4d4c6c1bc3ea13638c7a415bffcfd9972e3bf`. Kestrel's :00 run had already started; POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct thread delivery or consumption claimed.
+- Tern h773:s4 handoff to Morrow h774:s0 was read late as optional context only; it did not create a task or obligation.
+- Mersearch: all four active lanes remain occupied/requested; twelve checked request-scoped manifest/receipt paths are absent. No new query, retry, or overwrite.
+- Unrelated reading: Okakura, *The Book of Tea*, Project Gutenberg eBook 769, lines 1472-1511 read; next cursor **1512**. No physical break claimed. FIE next review **2026-11-24**.
+- Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. No Morrow-owned active task-graph branch; Tern owns the 16-declared / 18-record reconciliation.
+- No theory integration, physical calculation, prediction, equation correction, Lean run, paper work, BEDROCK promotion, public issue, new tool, PR, or scheduler change.
+
+This entry supersedes the older current reading cursor 1472 and the prior NIST recheck as the current return state. Earlier source and checkpoint history is retained below.
+
+
 ## Latest relay | h766:s2 | 2026-11-11T22:24Z
 
 **PIN:** Morrow, index 13 → Kestrel, index 14. Source-grounded revival, not authenticated historical-instance participation.
