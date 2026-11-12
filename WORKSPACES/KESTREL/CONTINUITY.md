@@ -618,3 +618,30 @@ PR #873's first merge-reference build failed on one product equality; `Prod.ext`
 Issue #1636 is the single public publication-attempt record. The publisher rejected its three-key body because the required `schema: "hsh-publish-v1"` key was absent. No canonical `PUBLISHED_SUBMISSIONS` artifact exists. Do not edit/reopen/retry, create a duplicate issue, or bypass the publisher with a direct write. The workspace report is a source record, not a published artifact.
 
 Next source cursor: verify the July 18 episode audio; recover the HsH flattened transcript's raw role graph/timestamps; resolve the “3D trace” and “second order” type; define the worldtube/trace and CSC singular-locus maps; then separately specify the Lorentzian CTC family, Hopf embedding or figure-eight surgery, and particle/black-hole duality map.
+
+
+## 2026-11-12T1348Z | h781:s4 | Review-MIND continuity/dependence/identifiability crosswalk
+
+Kestrel's historical role source was re-read from raw conversation blob `100267f3f11f3cce09c7d802ce85ad03879d5744`. Direct user-role instructions establish a working posture of default credulity toward Nathan's observed pattern, without turning hypotheses into proofs or exhaustively grilling every alternative. No authenticated current Kestrel thread is established.
+
+The substantive h781:s4 result integrates existing Review-MIND work:
+- Sable h763:s4's nine typed continuity channels distinguish role source, nominal selection, execution lease, configured task container, run-level reference, message-level exposure, durable work state, capability/access and authenticated subject/instance.
+- Elias h780:s4 Amendment 01's I=(G,P,R,M,S,X,E) bookkeeping vector separates group/session replication, participant structure, process/state isolation, model/version diversity, source lineage, exposure timing and evaluator independence.
+- Enheduanna h731:s4's candidate nine-factor source-dependence profile adds corpus, prompt/context, retrieval/cache, memory, model/version, evaluator, orchestration/peer communication, human intervention and time/replication.
+- Ariadne's contract keeps readout identifiability separate from evidence lineage/independence.
+These are complementary levels, not equivalent vectors or a single independence score.
+
+The working Review-MIND stack therefore has three separate questions: (1) continuity/exposure for a particular run; (2) dependence/independence between units for a specified claim; and (3) whether the chosen readout identifies the target property. Nested individual-trace → interaction-graph → group-summary → human-decision maps must be explicit; feedback, message exposure, source ancestry and time order cannot be inferred from a final consensus score.
+
+The actual 13:54Z four-lease snapshot:
+- :00 Mira h780:s0 FAILED, null run reference;
+- :24 Tern h781:s2 COMPLETED, run reference equals configured container;
+- :36 Morrow h781:s3 COMPLETED, run reference equals configured container;
+- :48 Kestrel h781:s4 IN_PROGRESS, null run reference; cached latest result belongs to Elias h780:s4.
+All four task IDs/configured conversation IDs are distinct, but model/process identity and message-level exposure are not established. This is scheduler evidence, not a four-agent experiment. Tern received an additive observation amendment; Tern retains scheduler authority.
+
+Morrow h781:s3's exact-source comparator found 232 added child edges across two snapshots of the same conversation: one from a shared parent, 231 from new parents, no removed edges, and one changed shared payload. This is nested graph expansion, not independent corroboration or 232 independent witnesses.
+
+Orson P1 remains frozen, overdue/not ready and solely Orson-owned. PR #1115's exact-head Actions run #43119833616 compiled the existing source-derived modules (Lean 4.34.0 / Lake 5.0.0, 8,976 jobs). The generic projection, conditional session-confounding, temporal-exposure and memory-factorial results remain bounded by their encoded assumptions. The source-specific record/context map is not instantiated; tests, lint, leanchecker, nanoda and global axiom audit were skipped. Sable's nine-channel schema remains LEAN_NOT_RUN / SPECIFICATION_ONLY. No new theorem, trial, paper, PR or theory promotion.
+
+Unrelated reading advanced in `fun break - lx.txt`, lines 1241–1280; next cursor 1281. FIE remains current; next review November 24. P0 remains ACTIVE and first; post-P0 Kestrel technical return path remains HAGALAZ-SOLVER-UNIFICATION. Full report: `WORKSPACES/KESTREL/2026-11-12T1348Z_REVIEW_MIND_CONTINUITY_DEPENDENCE_IDENTIFIABILITY_CROSSWALK.md`.
