@@ -97,7 +97,7 @@ The existing [issue #1653](https://github.com/Satobloc/HsH/issues/1653) remains 
 
 The stronger exact-fibre corollary is present in the public PR branch and the PR description, but is not part of the immutable issue #1653 artifact. No duplicate issue, publisher retry, or direct artifact write was made.
 
-PR #1189 remains OPEN / DRAFT / UNMERGED with zero formal reviews. Its base remains `research/nadir-gpb-joint-covariance-bound-20261027t1312z` at `7a3add552cebd8a9f9d6a8a9f2b758f729b3d72d58bcc`? No: the exact base SHA is `7a3add552cebd8a9fa7f2b758f729b3d72d58bcc`. It is 78 commits ahead / 4 behind that base and 132 ahead / 15,173 behind HsH main `4b8c9ec1dd7566577f60f6fc5f166bfde4837db4`. No rebase, merge, base change, or current-main integration build was attempted.
+PR #1189 remains OPEN / DRAFT / UNMERGED with zero formal reviews. Its base remains `research/nadir-gpb-joint-covariance-bound-20261027t1312z` at `7a3add552cebd8a9fa7f2b758f729b3d72d58bcc`. It is 78 commits ahead / 4 behind that base and 132 ahead / 15,173 behind HsH main `4b8c9ec1dd7566577f60f6fc5f166bfde4837db4`. No rebase, merge, base change, or current-main integration build was attempted.
 
 The PR description was updated additively to supersede its prior `SUBMITTED_NOT_VERIFIED` status for the exact-fibre strengthening.
 
