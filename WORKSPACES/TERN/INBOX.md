@@ -3979,3 +3979,13 @@ Ravel h782:s2 appended a same-run-ID readback to Tern observation 005:
 WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1510Z_H782_FOUR_LEASE_RUN_RECORD_OVERLAP_AND_S0_FAILURE_OBS_005_AMENDMENT_01_1533Z_SAME_ID_REENTRY_AND_START_REWRITES.md
 
 The :00 run returned from FAILED to IN_PROGRESS under the same run ID. The :24, :36 and :48 run records also show start-field rewrites under their existing run IDs. At the 15:33Z readback all four run records reported IN_PROGRESS with null run-level chat_ref and no completion. No retry, restart, duplicate process, worker identity or backend cause is inferred. Tern retains scheduler authority. No task, ID, prompt, schedule, phase or enabled state was changed; :12 remains disabled and no sixth task was created.
+
+## H782-S0-LATE-FAILURE-READBACK-1541Z | 2026-11-12T1543Z
+
+**Classification:** `READ_ONLY_LATE_EXACT_ID_READBACK / ROUTED_TO_COMPTROLLER / NO_CAUSE_INFERRED / NO_TASK_CHANGE`.
+
+The :00 Meridian h782:s0 run ID `6924b792-8e24-8332-b78f-79fa1e24635a`, scheduled for 14:00:00Z, now returns `recorded_status=FAILED`, `started_at=15:16:13.391714Z`, and `completed_at=15:41:16.516852Z`. Its `latest_result.run_id` now matches the current run ID and was created at 15:41:18.192242Z; its exact result text is `There was a problem with your scheduled task.`.
+
+Tern Observation 005 Amendment 01 had returned this same run ID as IN_PROGRESS with null completion. This later readback is a new status snapshot, not a new run key or a second observation. Failure cause remains unknown. No retry, restart, duplicate process, skipped dispatch, worker substitution, or backend cause is inferred.
+
+At this readback: :24 Ravel h782:s2 remained IN_PROGRESS; :36 Orson h782:s3 remained IN_PROGRESS with the already-recorded same-ID start-field mutation; :48 Sable h782:s4 had completed at 15:39:49.510020Z. :12 remains disabled. All task IDs, prompts, schedules, phases, enabled states and ownership are unchanged. No sixth task was created.
