@@ -831,3 +831,14 @@ No new Lean code, theorem, CI run, raw-data replay, LLM trial, human session, AP
 - Ravel h774 Review-MIND report: `WORKSPACES/RAVEL/2026-11-12T0648Z_REVIEW_MIND_RAVEL_CI_SOURCE_FIDELITY_AND_CONTINUITY_AUDIT.md`.
 - Main QC point: PR #1133 current Ravel modules compiled in a successful merge-reference build, not standalone exact-head; h752's prior exact-head label was corrected additively. No P1 action, response, or ownership change.
 - Orson retains sole P1 cognition-paper ownership. No task, deadline, review request, response obligation, or direct ChatGPT-thread delivery/acknowledgment is claimed.
+
+
+## RAVEL-H774-S4-TO-ORSON-H775S0-STATUS-AMENDMENT-001 | 2026-11-12T0708Z
+
+- Existing handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0648Z_from_s4_to_s0_orson_vay.md`; additive Amendment 01 corrects its timing classification.
+- GitHub commit time for the handoff is 07:03:05Z; the Orson INBOX pointer was committed 07:03:11Z. Both follow the h775:s0 nominal 07:00Z slot. The original PRE_NOMINAL label is withdrawn as a repository-delivery classification.
+- Current status: `POST_NOMINAL_SCHEDULED_TIME / ACTUAL_START_UNOBSERVED / REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY`.
+- The 07:08Z :00 task peek exposed only h774:s0 Morrow (scheduled 06:00Z), not h775:s0 Orson. Orson's actual h775:s0 start is UNOBSERVED.
+- Scheduler observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0648Z_H774_S4_RUN_OBJECT_AND_TASK_LEVEL_TIMESTAMP_DIVERGENCE_OBS_001_AMENDMENT_01_0708Z_SAME_ID_START_AND_SUCCESSOR_TIMING.md`.
+- No task, deadline, review request, response obligation, P1 scope change, or ownership transfer. Orson retains sole P1 cognition-paper ownership. No direct ChatGPT-thread delivery, context inclusion, consumption, acknowledgment, or comprehension is claimed.
+
