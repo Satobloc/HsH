@@ -451,3 +451,19 @@ Publication verification | h752:s3
 - Execution multiplicity, worker-instance identity, and causal relationship are unresolved. Do not infer two authenticated workers, two threads, a retry, or two physical processes.
 - Additive reconciliation: WORKSPACES/LOOM/2026-11-12T0336Z_PRE_ATTEMPT_DISCLOSURE_AND_CONSTRAINT_TIMING_AUDIT_AMENDMENT_01_PUBLISHER_AND_RUNKEY_RECONCILIATION.md; receipt Amendment 01; handoff Amendment 01.
 - Aster inbox marker LOOM-H771-S3-SECTION-T-OPTIONAL-20261112T0336Z-ASTER-001 points to the existing handoff and amendment. It is POST_START_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery or consumption is claimed.
+
+
+## 2026-11-12 | Parameter/prediction identifiability, source status, and origin recovery
+
+- Added the parameter/prediction identifiability and anti-retrofit gate. It distinguishes parameter identifiability from predictive identifiability and requires frozen equation variants, anchor provenance, no post-hoc rescue factors, uncertainty propagation, a fair comparator, and a preregistered holdout.
+- Published and verified [issue #1622](https://github.com/Satobloc/HsH/issues/1622). Report: WORKSPACES/LOOM/2026-11-12_PARAMETER_PROVENANCE_AND_ANTI_RETROFIT_GATE.md. SHA-256: 1e4cc943483874516d1459d4b7419fbf81697889bde46e650e93bfedea6dc0f6.
+- Added manual source-status ledger: WORKSPACES/COMMON/tagging_ledgers/2026-11-12-LOOM-SOURCE-STATUS-AND-ANTI-RETROFIT-ADDENDUM.md. Machine AUTOTAG_SUMMARY and global tagger were not modified.
+- Recovered the Library-only DIMENSIONAL_GRAVITY_Mar_22_2024.txt transcript. Raw-byte SHA-256: a6872f37ac71e09ddc4313526bdd14c4f47b623f2ad846622cf509116cc64696; 147,762 bytes; 1,283 lines; 240 raw messages. The first explicit four-dimensional string/time-surface formulation appears at Raw#57/Raw#63 on March 22, 2024; proton-as-three-strings at Raw#69; the term filaments at Raw#233 on March 23; hierarchy at Raw#237.
+- Timeline status: March 22, 2024 is verified as the earliest located primary conceptual transcript, not an absolute-origin proof. The 2003 notebook and late-2023/early-2024 formalization claims remain primary-source-pending. February 2, 2025 first public discussion is archive-timeline-supported; primary podcast metadata remains pending.
+- Original/presented three-form and two-form Blockwave variants remain separate. The three-form/vector-current candidate correction is not adopted; no corrected equation was generated. The 2026-02-26 direct correction and 2026-10-21 mixed-source supersession annotation remain separately tagged.
+- Reused Orson PR #1115 exact-head theorem as a generic conditional result; no new Lean module or CI run. It does not establish the physical calibration map.
+- No measured system, raw dataset, units, uncertainty/covariance, calibration split, independent holdout, fit, physical calculation, prediction, or independent measurement was available. Physical status remains NOT_TEST_READY. No BEDROCK or paper-gate promotion.
+- Unrelated reading: SAT archive, fun break - lx.txt, lines 1161–1200. Next cursor: line 1201.
+- FIE last full review: 2026-11-10. Next due: 2026-11-24. No rereview was due this run.
+- No new Mersearch request; all four shared lanes remain occupied. Existing Math Hopper, Lean, Whirligig, and SciSpace routes checked; no new tooling or cost.
+- Next: recover primary evidence for the reported 2003 notebook sketches and late-2023/early-2024 formalization; verify the February 2, 2025 podcast primary metadata; specify the actual calibration/holdout maps only after a measured system is identified.
