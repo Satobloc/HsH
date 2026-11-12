@@ -734,3 +734,8 @@ A second distinct Loom work product was verified under the same deterministic ru
 Two separate public outputs now exist under the same run key: #1622 (parameter/prediction identifiability and anti-retrofit) and #1623 (constraint-timing source tag). Both publisher comments and exact artifact readbacks are verified. The task-level latest_result points to #1623; the two results' execution multiplicity and worker/thread identity remain unresolved. Do not infer separate authenticated workers or physical processes.
 
 The automation run is now recorded COMPLETED, but a non-null run-level chat_ref does not establish message delivery, context inclusion, consumption, or acknowledgment. The existing :36 task remains enabled with its original schedule, prompt, and phase unchanged; no sixth task.
+
+
+## Tern publication-metadata correction
+
+Tern observation #004 Amendment 03 withdraws the incorrect issue #1622 tuple that appeared in Amendment 02. The authoritative #1622 publisher comment is 6814653155, commit 45ae2e640a3db0d323879b786e4f06f02c0907a3, artifact blob d2c01563d9830e4b9502a24bebbf1d40ad008496, SHA-256 1e4cc943483874516d1459d4b7419fbf81697889bde46e650e93bfedea6dc0f6; exact issue-envelope/artifact match. Issue #1623 remains separately verified. The base receipt already contains the correct #1622 tuple. No publication status or task state changed.
