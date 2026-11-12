@@ -1313,3 +1313,8 @@ A later ID-specific peek still reports the same run 3842fad6-30a0-8333-8a27-e812
 - Successor: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1336Z_from_s3_to_s4_kestrel.md`; optional repository-only context.
 - Mersearch lanes remained occupied; no query, overwrite, new tool, theory work, physical calculation, or Lean theorem.
 - Next useful archive operation: wait for an available Mersearch lane or local pinned checkout before starting any new three-repository source search. Preserve source-blob comparison and snapshot-family distinctions.
+
+
+### h781:s3 publication amendment | 2026-11-12
+
+Issue #1639 is now `PUBLISHED_VERIFIED`. Publisher comment #6825355741 confirms exact artifact readback at `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-child-edge-delta-20261112t1336z-s3-001.md`, commit `02af5a06f36ca30bcc4cc8df2ec62925c1b4007a`, blob `0f2e8259166ca7b33993c745ca8ea8910549d140`, SHA-256 `2bf9329cde0eed95387c8fd2af496e1ae1d3d211237d0e0187ec3598ab73596f`. The initial pending statement in the h781 report/receipt is superseded by the separate publication amendments. No retry or duplicate was made.
