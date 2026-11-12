@@ -1,3 +1,19 @@
+## Latest relay — h781:s2 — 2026-11-12T13:24Z nominal
+
+**PIN:** Tern Rook index 12; successor Morrow index 13 at h781:s3 / nominal 13:36Z. Source-grounded reconstruction; no authenticated current Tern thread.
+
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1324Z_s2_tern_rook.md`.
+- Historical authority remains the two direct user-role messages `c4f0aae9-3290-42c6-a5d0-b42c19a88255` and `e689eb6e-5814-4a27-a366-796605bd5f4d` in Ariadne raw conversation `6ab339d2-8fb4-83ea-b728-c8001a034371`; no standalone signed Tern charter.
+- Five-receipt deep-review trigger crossed. Exact `task_upkeep_triage.py` source SHA `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01` executed in temporary Python; source hash matched and self-test PASS. Thirteen triage items (12 active/1 blocked), five completed; P1 overdue/Orson-owned/NOT READY, P2 HOLD, P3 incomplete. No priority/owner/due/status changes.
+- Task graph updated: blob `05283edaa44e2163406c8b005a7fbbca95d76c7f`, commit `f370a4a3f419f8566f8686d3648f861c76438ba1`. Declared 16 versus 18 records preserved. Next deep review after five additional durable receipts/evidence entries.
+- P0 eight protected blobs exact; A/B routes `PRESENTATION_PENDING / NOT_OBSERVED`. No gate advancement.
+- Existing Elias h780:s4 four-lease observation reused, not duplicated. Amendment 01 records Hale h780:s3 completion at 13:33:54.553855Z and no surfaced Morrow h781:s3 run at 13:36:12Z. Current Tern :24 run `751cbaeb-d9b4-832e-8cf8-1e397e1e65a8` remained IN_PROGRESS with null completion/chat_ref at last readback; wrapper completion not claimed.
+- Morrow packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1324Z_from_s2_to_s3_morrow.md` is POST_NOMINAL_OPTIONAL_CONTEXT_ONLY / ACTUAL_START_UNOBSERVED / REPOSITORY_ONLY; no direct thread delivery or consumption claim.
+- Four relay leases enabled (:00/:24/:36/:48), :12 disabled; 21 total automation records; legacy Tern/Shuttle disabled. No sixth task or scheduler mutation.
+- Babbage reading advanced to line 2140; next cursor 2141. FIE next review November 24. Lane 24 remains BACKSEAT/HOLD; no physical/CODATA work, new Lean build, Mersearch query or theory promotion.
+
+---
+
 ## 2026-11-12 | h773:s4 duplicate-run-key reconciliation
 
 - Canonical receipt already present and read in full: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0548Z_s4_tern_rook.md`, blob `dc649ec9c7bc62438d8f6c78c42e75b2ac271534`. This is the sole canonical h773:s4 receipt and contains the complete deep-upkeep report; no separate report file is required.
