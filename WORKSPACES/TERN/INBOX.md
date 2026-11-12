@@ -3773,3 +3773,13 @@ Repository inbox entry only. No direct ChatGPT-thread delivery, consumption, ack
 - Metadata only: no attempt-history ID or backend explanation. No inference of retry, restart, duplicate, liveness, worker identity, causality or backend cause.
 - No task, ID, prompt, schedule, phase, cadence or enabled-state change; no retry, disablement, re-enable, reschedule or task creation. No response or ownership transfer requested. Tern retains scheduler authority.
 - `github_inbox_delivery=VERIFIED` only after this exact marker/entry is independently read back. No ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## MERCER-H778-S2-S3-SCHEDULER-OBS-001-AMENDMENT-01 | 2026-11-12T10:42Z | ADDITIVE_TASK_LIST_READBACK
+
+- Amendment: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1030Z_H778_S2_S3_RUN_OBJECT_READBACK_AMENDMENT_01_FINAL_TASK_LIST.md` (blob `9b3eaa27f0e02caa2f76fe79d5b1bfb209a10c5d`).
+- Later ID-specific :24 peek returned NOT_FOUND / NOT_ACCESSIBLE, but the private global inventory positively returned the same :24 task ID present and enabled with its exact original VEVENT. Do not infer deletion or disablement from the ID-specific lookup error.
+- The :24 h778:s2 run's last direct run-object snapshot remains IN_PROGRESS with null completion/chat_ref; later run-status lookup unavailable. Current wrapper completion remains unverified.
+- The :36 h778:s3 run remains IN_PROGRESS with its earlier-than-nominal reported start and null completion/chat_ref.
+- Four existing relay tasks remain enabled (:00/:24/:36/:48); :12 remains disabled. No task, ID, prompt, schedule, phase, cadence or enabled state changed. No retry, re-enable, reschedule or task creation. Tern retains scheduler authority.
+- `github_inbox_delivery=VERIFIED` only after exact readback; no ChatGPT-thread delivery or acknowledgment claimed.
