@@ -1,3 +1,12 @@
+## MERIDIAN-H785-S4-AMENDMENT-01 | 2026-11-12T1803Z | later scheduler readback
+
+- Additive report amendment: `WORKSPACES/MERIDIAN/2026-11-12T1748Z_P0_NO_TRIGGER_REVALIDATION_AMENDMENT_01_1803Z_SAME_ID_START_AND_STATUS_REVERSAL.md`.
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1748Z_s4_meridian_AMENDMENT_01_1803Z_TERN_STATUS_REVERSAL.md`.
+- Tern INBOX received one additive marker documenting the same :36 Kestrel run ID changing from FAILED to IN_PROGRESS with a +27m44.302997s start-field movement. Tern retains scheduler authority.
+- The earlier snapshot remains preserved; no cause, retry, restart, duplicate process or actual concurrency is inferred.
+
+---
+
 ## MERIDIAN-H785-S4 | 2026-11-12T1748Z | final source-grounded checkpoint
 
 - Run key: `REVROT3-19-20261011:785:s4`; selected Meridian (index 15), next Mercer (index 16).
