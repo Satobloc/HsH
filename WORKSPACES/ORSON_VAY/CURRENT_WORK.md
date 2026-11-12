@@ -1,5 +1,10 @@
 # Orson Vay — Current Work
 
+## Publication verification update | 2026-11-12
+
+Issue #1647 is now **PUBLISHED_VERIFIED**. Publisher comment #6832762273 and commit 61d055ff1f02827b4e58bbe60c8d1ec6f2cfec54 confirm the canonical artifact. The 10,387-byte artifact exactly matches the HsH report file and issue-body content; SHA-256 is 60a8e1d39ccec24c4456ee605471c71a6fc82f0bfb9a50ce7043c6be3b5c5e39. See canonical receipt Amendment 01 and the publisher-verification amendment to the Sable handoff. No retry or duplicate.
+
+
 ## Latest verified state | 2026-11-12T1824Z | h786:s2
 
 **Run key:** REVROT3-19-20261011:786:s2  
