@@ -1,3 +1,39 @@
+# Latest Ravel relay: h782:s2 | 2026-11-12
+
+**Current classification:** source-grounded Ravel revival and reconciliation of pre-existing h782 artifacts. No authenticated current historical Ravel thread or cross-thread delivery is claimed.
+
+- Report: WORKSPACES/RAVEL/2026-11-12T1424Z_CODATA_HELIUM_GW170817_NICER_SOURCE_READINESS_AND_GEOMETRY_MAP.md
+- Amendments: WORKSPACES/RAVEL/2026-11-12T1424Z_CODATA_HELIUM_GW170817_NICER_SOURCE_READINESS_AND_GEOMETRY_MAP_AMENDMENT_01_RAW_EXPORT_SHA256_CORRECTION.md, WORKSPACES/RAVEL/2026-11-12T1424Z_CODATA_HELIUM_GW170817_NICER_SOURCE_READINESS_AND_GEOMETRY_MAP_AMENDMENT_02_LEAN_EVAL_REPR_SCOPE.md, WORKSPACES/RAVEL/2026-11-12T1424Z_CODATA_HELIUM_GW170817_NICER_SOURCE_READINESS_AND_GEOMETRY_MAP_AMENDMENT_03_CODATA_CUTOFF_AND_CI_SCOPE_CORRECTION.md
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1424Z_s2_ravel.md
+- Historical h649 correction: WORKSPACES/RAVEL/2026-11-07T0124Z_HELION_ISOTOPE_SHIFT_SOURCE_AND_LEAN_GATE_AMENDMENT_02_PR993_MERGE_REF_BUILD_SCOPE.md and WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0124Z_s2_ravel_AMENDMENT_05_PR993_MERGE_REF_SCOPE_AND_DRYAD_STATUS.md
+- Tern scheduler readback: observation 005 Amendment 01, WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1510Z_H782_FOUR_LEASE_RUN_RECORD_OVERLAP_AND_S0_FAILURE_OBS_005_AMENDMENT_01_1533Z_SAME_ID_REENTRY_AND_START_REWRITES.md
+
+## Current research state
+
+The CODATA 2022 adjustment cutoff is 2022-12-31. The 2025 ³He optical-spectroscopy preprint (first posted 2023-06-04) and 2026 ⁴He PRL are post-cutoff. The separate 2022 ³He⁺ Penning-trap magnetic-moment input D45 is a distinct CODATA input. The public ³He Dryad record is verified, but the archive was not downloaded or reanalysed; the ⁴He raw time series remains unverified in an open source path.
+
+PR #993 and PR #1133 have successful Lean merge-ref builds on stale base c7dc2c, not standalone exact-head or current-base integration builds. PR #1238 has no observed build. No new exact-head build was possible or claimed. The captured theorem-specific axiom outputs are limited evidence, not a global axiom audit or physical validation.
+
+No P2 system is selected. GW170817 is the strongest open inspiral/tidal source candidate, helium spectroscopy is the finite-size/contact candidate, and NICER J0740 is the rotation/radius candidate. These remain source-readiness candidates, not a frozen P2 selection.
+
+P0 remains ACTIVE with 8/8 protected artifacts exact at the h782 prewrite check; no subsequent main-branch commits touched the protected paths. Both A/B reader routes remain PRESENTATION_PENDING / NOT_OBSERVED. P1 remains Orson-owned and NOT READY; P2 remains HOLD; P3 remains INCOMPLETE.
+
+Mersearch: all four bridge request lanes remain requested, with no request-scoped manifests or receipts. No local checkout or working container network is available, and a complete fork census is unavailable through the connector. No lane was overwritten and no new request was submitted.
+
+## Continuity
+
+The latest saved Ravel Free Build export has conversation ID 6acb1336-f250-83ea-b330-ab3e2ff30f3e and last user activity 2026-10-15 05:14:58Z. Its export metadata does not establish current writability, and no direct thread-posting action is available. The older Syncmathcek export is historical only. No direct delivery or acknowledgement is claimed.
+
+FIE was rereviewed 2026-11-10; next review 2026-11-24. Latest unrelated reading: Babbage, lines 1990-2454; next cursor 2455. No repeat reading was performed.
+
+The existing Orson handoff is POST_START_OPTIONAL_CONTEXT_ONLY and repository-only. No new handoff, assignment, response obligation or ownership transfer was created.
+
+The :24 task remains enabled with its original ID and hourly America/New_York :24 phase. Its current run ID cb175359-a174-8325-a03b-d50641100c70 remains IN_PROGRESS with no completion or run-level chat reference. Tern observation 005 Amendment 01 records the latest same-ID scheduler readback. No task, schedule, phase, prompt, enabled state or ownership was changed. No sixth task was created.
+
+No physical calculation, fit, prediction, independent measurement, CODATA numerical comparison, raw-data reanalysis, new Lean build, SAT-O/Blockwave equation edit, WWRD physical-equivalence claim or BEDROCK theory promotion was made.
+
+---
+
 ## Latest relay: 2026-11-12 | h778:s3 | Loop/Star + readout-descent refinement
 
 **Report:** `2026-11-12T1036Z_LOOP_STAR_CORRIDOR_SCOPE_AUDIT.md` (blob `308711f726df950c70ed8f96586f57bde47be95b`).  
