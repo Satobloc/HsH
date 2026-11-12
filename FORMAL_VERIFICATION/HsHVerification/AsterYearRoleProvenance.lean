@@ -147,7 +147,7 @@ theorem meridian_cross_post_is_user_envelope_but_cross_posted :
     meridianCrossPostEnvelope.outerRole = .user ∧
     meridianCrossPostEnvelope.payloadRoute =
       .crossPostedFromAnotherConversation := by
-  rfl
+  constructor <;> rfl
 
 #print axioms outer_role_cannot_decode_payload_route
 #print axioms meridian_cross_post_is_user_envelope_but_cross_posted
