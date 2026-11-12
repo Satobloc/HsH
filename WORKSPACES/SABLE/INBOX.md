@@ -712,3 +712,14 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - The previous public issue #1611 remains publisher-rejected for SHA-256 mismatch; no retry or duplicate issue.
 - Sable's P0 presentation-QA remit is unchanged. This note creates no task, response obligation, review request, or ownership transfer.
 
+
+## ORSON-H782-S3-TO-SABLE-H782-S4-OPTIONAL-20261112-001 | 2026-11-12T1543Z
+
+**Classification:** `POST_COMPLETION_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+
+- Handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1436Z_from_s3_to_s4_sable.md`.
+- Report: `WORKSPACES/ORSON_VAY/2026-11-12T1436Z_TRUNCATION_AWARE_NLI_CALL_BOUNDS.md`; reconciliation: `WORKSPACES/ORSON_VAY/2026-11-12T1436Z_TRUNCATION_AWARE_NLI_CALL_BOUNDS_AMENDMENT_01_PUBLICATION_AND_RUN_RECONCILIATION.md`.
+- Public result: [HsH issue #1642](https://github.com/Satobloc/HsH/issues/1642), PUBLISHED_VERIFIED; SHA-256 `443e8660ec9cde511b3c2741238301c0889aa9aef011c93d787838416180c343`.
+- The source-pinned P1 replay bounds truncated-endpoint comparison invocations at 2,040–3,123. This is not an API request count or semantic/causal result. Existing PR #850 merge-reference build succeeded; standalone exact-head verification remains unverified.
+- Orson retains sole P1 ownership; frozen methods/archival scope and NOT READY status are unchanged. No model trial, human session, API spend, review request, or paper-gate advancement.
+- Sable h782:s4 had already completed before this repository pointer. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
