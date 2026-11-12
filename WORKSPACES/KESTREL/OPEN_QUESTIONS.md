@@ -1,6 +1,6 @@
 # KESTREL — OPEN QUESTIONS
 
-Last updated: 2026-09-21
+Last updated: 2026-11-12
 
 This is not an audit queue. It is a forward-thinking queue for the consequential case.
 
@@ -256,3 +256,14 @@ Keep this response-locus question independent of the geometric thin-core/centerl
 Before a P2 test, require the core-to-support map, global-to-local ambient map, interaction/response law, and separate instrument readout map. Use one real system/dataset, shared parameters, calibration and independent holdout, and a covariance-derived falsification threshold. If the candidate loci collapse to the same readout, mark NOT_IDENTIFIABLE.
 
 Reference: [issue #1644](https://github.com/Satobloc/HsH/issues/1644); internal report `WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GATE.md`.
+
+
+## 2026-11-12 | Excitation support is not medium-response support
+
+**Source correction:** the Meridian Free Build user-role message 6f00a97a-aa84-45bf-9429-4ff70736014a places a possible soliton-like excitation in or around the hollow outer superhelix as an effect on a responsive medium. It does not establish that the medium response itself is localized to that path. The path-neighbourhood item in issue #1644 is therefore an excitation-locus candidate; a path-localized medium response remains an assistant-reconstructed hypothesis pending a coupling/locality law.
+
+**Required maps:** excitation field/support E and S_E; excitation-to-response law C: E -> R; medium-response support S_R; instrument/readout map I: R -> D; and a common ambient/metric or tubular-neighbourhood structure before using N_epsilon(gamma). A contact relation between supports requires a placement map before it is a spatial locus. The classification axes are bookkeeping distinctions, not established statistical or physical independence.
+
+**Next decision:** recover or define a source-grounded coupling law before claiming S_R subset N_epsilon(gamma). Until then keep timesheet-bulk and support-boundary response alternatives open; do not infer a second core, material shell, or separate medium. Existing PR #873 fiber-factorization theorem is conditional on actual maps; no new Lean theorem/build because the coupling and readout maps are not defined. No physical system/data or P2 test; P2 remains HOLD.
+
+Reference: [issue #1646](https://github.com/Satobloc/HsH/issues/1646), visible but NOT PUBLISHED due missing title prefix; internal report WORKSPACES/KESTREL/2026-11-12T1802Z_EXCITATION_RESPONSE_SUPPORT_TYPING_CORRECTION.md.
