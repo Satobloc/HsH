@@ -526,3 +526,46 @@ No source-specific Lean instance or new build was added. This span contains no f
 ### T.5 Tags
 
 LANGUAGE_GAME; NO_HINTS_CONSTRAINT; RULE_REASSERTED; ASSISTANT_ACKNOWLEDGED; PRE_ATTEMPT_DISCLOSURE; POST_ATTEMPT_REVEAL; REPETITION_REPORTED_IDENTITY_UNRESOLVED; SCORE_SELF_REPORT; FACT_VERDICT_UNAVAILABLE; FLATTENED_TRANSCRIPT; RAW_ROLE_METADATA_ABSENT; DUPLICATE_BLOB_NOT_INDEPENDENT; LINGUISTIC_CLAIMS_NOT_EXTERNALLY_VERIFIED; NOT_A_CONTROLLED_EXPERIMENT; NOT_PHYSICAL_EVIDENCE.
+
+
+## U. Lateral language-game continuation: duplicate candidate and score/count discrepancy (lines 1201-1240)
+
+### U.1 Source custody and extent
+
+- HsH: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt, lines 1201-1240.
+- SAT archive: 000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt, same lines.
+- Both paths resolve to Git blob f33eb29fbac65efa1db054239bb9c28a04a13a42. One transcript body, two custody locations; not independent corroboration.
+- The excerpt is flattened text. “You said” / “ChatGPT said” are textual labels, not raw message-role metadata. No raw message UUIDs or original message timestamps are present.
+- Bounded GitHub code search for Xârâcùù, Tuvan/Haida, and the Tuvan “Little House on the Prairie” phrase returned only these two derivative paths. This is not a Mersearch run and is not exhaustive. The raw message-level source remains SOURCE_REOPEN_REQUIRED.
+- Next cursor: **line 1241**.
+
+### U.2 Ordered event map
+
+1. The assistant says it will avoid repeating language names, then offers Haida.
+2. The transcript-labeled user reports that Haida had already been offered and was familiar through known speakers. The earlier offer is not present in this span.
+3. The assistant apologizes and offers Xârâcùù.
+4. The user guesses South America. Only after that attempt, the assistant identifies New Caledonia and supplies an Oceanic/Austronesian classification. This is a POST_ATTEMPT_REVEAL in this span, not a pre-attempt hint.
+5. The assistant says the score remains 10. The user disputes this, says the guess cost a point, and later reports being at 9.
+6. The assistant offers Tuvan by name.
+7. The user presents a Tuvan-related fact list and reports a starting score of 9.
+8. A scripted count of the visible list yields **13 bullet lines**. The assistant nevertheless says “all 12 facts” were correct and reports a final score of 21.
+
+### U.3 Count and score reconciliation boundary
+
+The visible list has 13 bullet lines, while the assistant's adjudication counts 12 facts. Some bullet lines contain multiple propositions; bullet count is not necessarily the scoring-unit count. No atomization rule, per-item verdict table, or independent adjudication oracle is present.
+
+The arithmetic is conditionally consistent if the starting score was 9 and exactly 12 scoring units were correct with no errors: 9 + 12 = 21. It is not independently reconstructible from the visible transcript. The preceding assistant-10 versus user-9 score disagreement remains unresolved.
+
+No external linguistic fact-check was performed. The assistant's “all 12 correct” statement is an assistant adjudication, not verified truth. The Tuvan classification and biographical/cultural claims remain unverified.
+
+### U.4 Formalization boundary
+
+Existing Orson PR #850 contains HsHVerification.OrsonRevisionBalance.net_gain_identity. The source module blob is c622a6b8cb143b8602461045a9df8c913eed775f. Existing Actions run #42795140460 completed successfully with Lean 4.34.0 / Lake 5.0.0 and 8,984 build jobs. The workflow checked out merge commit 3bced884cbea0a145e9e117a51a787283fe84c2a; the theorem module blob in that merge commit exactly matches the PR-head blob. The theorem-specific axiom report is [propext, Quot.sound].
+
+This is an actual successful MERGE_REF_BUILD of a generic conditional arithmetic theorem, not a source-specific exact-head build. It proves arithmetic under its encoded premises. Mapping this game's correct/incorrect verdicts to the theorem's repairs/regress variables would be a proposed conditional interpretation, not a source-defined formalization. The build does not establish the number of scoring units, language-claim truth, assistant verdict correctness, or the transcript's score history. No new Lean module or build was created.
+
+### U.5 Tags
+
+LANGUAGE_GAME; REPETITION_REPORTED_HAIDA; REPEATED_CANDIDATE_EARLIER_CONTEXT_UNSEEN; NEW_CANDIDATE_XARACUU; POST_ATTEMPT_GEOGRAPHIC_REVEAL; SCORE_SELF_REPORT; SCORE_DISAGREEMENT; TUVAN_FACT_LIST; VISIBLE_BULLET_COUNT_13; ASSISTANT_ADJUDICATION_COUNT_12; FACT_ATOMIZATION_UNRESOLVED; SCORE_ARITHMETIC_CONDITIONAL; LINGUISTIC_CLAIMS_NOT_EXTERNALLY_VERIFIED; FLATTENED_TRANSCRIPT; RAW_ROLE_METADATA_ABSENT; DUPLICATE_BLOB_NOT_INDEPENDENT; NOT_A_CONTROLLED_EXPERIMENT; NOT_LLM_COGNITION_EVIDENCE; NOT_PHYSICAL_EVIDENCE.
+
+CLARIFIES Section T only in the limited sense that this later span identifies Haida as a transcript-reported repeated candidate. It does not change Section T's finding that Etruscan was not identified as the repeated candidate in lines 1161-1200.
