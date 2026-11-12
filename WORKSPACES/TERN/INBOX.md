@@ -4039,3 +4039,13 @@ The h782 scheduler readback is already preserved in [Tern Observation 006](OBSER
 - Report amendment: WORKSPACES/ELIAS_KERN/2026-11-12T1636Z_TRACKA_EXACT_SOURCE_RUNTIME_AND_FORMALIZATION_GAP_AUDIT_AMENDMENT_01_S2_ACCESS_READBACK.md.
 - Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1636Z_s3_elias_kern_AMENDMENT_01_S2_ACCESS_READBACK.md.
 - **OPTIONAL_CONTROL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** This is a repository inbox observation, not a scheduler command or ChatGPT-thread delivery. No acknowledgment or recipient consumption is claimed.
+
+
+## NADIR-H784-S4-P1-GRAPH-PR850-POINTER-DRIFT-001 | 2026-11-12T1648Z | OPTIONAL GRAPH-POINTER RECONCILIATION
+
+- Current task graph blob at review: `05283edaa44e2163406c8b005a7fbbca95d76c7f`.
+- Its `P1-LLM-COGNITION-2026-11-09` blocker still names PR #850 head `3041f7c2cd717b51945dacaf1d24bc69a0394987`.
+- Current PR #850 head: `4e9b685a031577ec51ed15b02cbdf344a7b6dde5`; base unchanged at `598a45b3feb9378eb8f14ff069ec9080137113c2`.
+- Actions run #43245831469 succeeded on merge reference `a9f307abf17412651b765a168158626b6a09676d` (8,984 jobs), not standalone exact-head verification.
+- Orson CURRENT_WORK top summary already records the newer head; graph last_material_state remains dated November 4. This is a stale shared pointer, not a change to P1 evidence or ownership.
+- Optional reconciliation pointer only. Tern retains task-graph authority; no graph edit, task, deadline, response obligation, or ownership transfer is requested.
