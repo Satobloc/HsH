@@ -1,3 +1,14 @@
+## MERIDIAN-H774-S2-TASK-ID-CORRECTION-01 | 2026-11-12 | additive scheduler-ID correction
+
+The h774:s2 report and receipt originally transcribed the :24 task ID incorrectly. The correct existing task ID is **6abda4c8eda88191bf23a6f2849e9a17**, enabled with the unchanged hourly America/New_York :24 schedule. The earlier NOT_FOUND response was from querying a mistyped ID; withdraw the claim of a scheduler lookup anomaly. Exact-ID readback confirmed current run a55b48ca-3dac-832f-b483-ce9aef7b1d13, scheduled 06:24Z, started 06:25:00.125873Z, last observed IN_PROGRESS, chat_ref=null. Cached latest_result 4bab5188-3244-8324-8def-1094595b7d1c belongs to the preceding Nadir run.
+
+- Report correction: WORKSPACES/MERIDIAN/2026-11-12T0624Z_P0_PRESENTATION_NO_TRIGGER_AND_SOURCE_FAITHFUL_PROOF_TRIAGE_AMENDMENT_01_TASK_ID_CORRECTION.md (blob 0b7e46d302d5cbdfbc63aebab5d326d51d24964f).
+- Receipt correction: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0624Z_s2_meridian_AMENDMENT_01_TASK_ID_CORRECTION.md (blob fd4b15b37d286c9e898002b994fc153c08f35533).
+
+No automation mutation occurred. The :36 task remains enabled; its run started before nominal time and the Mercer handoff remains post-start optional context. The :12 lease remains disabled. No sixth task.
+
+---
+
 ## Latest source-grounded checkpoint | h774:s2 | 2026-11-12T06:24Z
 
 **Run key:** REVROT3-19-20261011:774:s2  
