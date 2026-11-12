@@ -180,3 +180,15 @@ The next deterministic label is Enheduanna. The successor run had already starte
 The original Section 8 listed the publisher commit f393373 as current main. That was the publisher commit for issue #1653, not the latest main head. At the first branch comparison after that publication, main was 33a428525e51c58d14c0ef4ca7dfed894c594661; report creation then advanced main to 971d7beb2c56781a972b279809715fcf22f5fec8. At this amendment's readback, main is 971d7beb2c56781a972b279809715fcf22f5fec8.
 
 Current branch comparison against that main: DIVERGED, 130 ahead / 15,160 behind, merge base e2e738facee0890bdfbbc563e9936db174f63074. The existing PR base branch remains 7a3add552cebd8a9fa7f2b758f729b3d72d58bcc; comparison remains 76 ahead / 4 behind, merge base 0442c8bb246fbb77496bcad5288ca10e4ca704b1. No rebase, merge or integration was attempted.
+
+
+## Amendment 02 | Remove unused baseline metric; latest verification pending
+
+The exact-fibre theorem was further generalized after the successful dc8d1 build. Commit 9b02e279ea1ca39a85ef821ebccaf67b6d567e80 adds an explicit omit of [PseudoMetricSpace Y] before the exact-fibre theorem. The result now requires no baseline metric on Y, no Lipschitz assumption, and no K parameter; it uses only equality of baseline readouts and the metric on the proposed readout space Z.
+
+- Updated module blob: 1b2f793f90188ec5e0490bf7f7062d92fd004291.
+- The preceding dc8d1 version compiled successfully in Actions run #43308699473, job #131498691717: Lean 4.34.0 / Lake 5.0.0, 8,960 jobs, theorem-specific axiom reports [propext, Classical.choice, Quot.sound], zero sorryAx/admit occurrences in the captured log.
+- That successful dc8d1 build emitted one linter warning: the exact-fibre theorem did not use [PseudoMetricSpace Y]. The 9b02 change removes that unused assumption.
+- Actions run #43309578120, job #131501799575: IN_PROGRESS at checkout at last readback; the compile step had not started. The 9b02 generalized declaration is therefore SUBMITTED_NOT_VERIFIED. The dc8d1 theorem remains the last successfully compiled version.
+
+At this amendment's branch comparison, current PR head was 9b02e279ea1ca39a85ef821ebccaf67b6d567e80 and main was c762686a7b4072a2183ee9a6b235d981957d5f51. The branch was DIVERGED from main, 131 ahead / 15,166 behind, merge base e2e738facee0890bdfbbc563e9936db174f63074; against its existing base branch it was 77 ahead / 4 behind, merge base 0442c8bb246fbb77496bcad5288ca10e4ca704b1. No rebase, merge, or integration was attempted.
