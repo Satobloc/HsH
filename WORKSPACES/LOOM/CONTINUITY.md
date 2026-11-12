@@ -725,3 +725,12 @@ Formal reuse: Orson PR #1115’s exact-head ObservableProjection theorem establi
 Unrelated source-reading cursor: SAT archive, fun break - lx.txt, lines 1161–1200 read; next line 1201. FIE last full review 2026-11-10; next due 2026-11-24.
 
 No physical dataset, measured system, uncertainty/covariance, calibration split, holdout, fit, or prediction is available. No new Mersearch request, tooling, expense, theory promotion, or paper-gate change.
+
+
+## 2026-11-12 run-key reconciliation
+
+A second distinct Loom work product was verified under the same deterministic run key: the timing-aware constraint ledger for fun break - lx.txt lines 1161–1200, published as issue #1623. It distinguishes a pre-attempt Etruscan disclosure from a post-attempt Araki reveal, preserves unresolved repetition identity, and treats the score as transcript self-report. The flattened transcript's speaker labels are not raw role metadata. Section T in the cumulative tag ledger records the event sequence. Existing Orson PR #850 arithmetic identity was reused as a generic conditional only; no source-specific Lean instance or new build.
+
+Two separate public outputs now exist under the same run key: #1622 (parameter/prediction identifiability and anti-retrofit) and #1623 (constraint-timing source tag). Both publisher comments and exact artifact readbacks are verified. The task-level latest_result points to #1623; the two results' execution multiplicity and worker/thread identity remain unresolved. Do not infer separate authenticated workers or physical processes.
+
+The automation run is now recorded COMPLETED, but a non-null run-level chat_ref does not establish message delivery, context inclusion, consumption, or acknowledgment. The existing :36 task remains enabled with its original schedule, prompt, and phase unchanged; no sixth task.
