@@ -8,7 +8,7 @@
 - **Existing formalization:** PR #1471 already models typed source/feed/adapter/derivative/deployment/route identity and observation capability. It does not yet model workflow path-trigger scope. Current PR head has no exact-head build verified this run; no new theorem or build.
 - **Late Kestrel packet:** h770:s2 packet arrived after this run started; read as optional context. Its “exact-head” Lean build labels were corrected: runs #42955799035 and #43109180575 checked out merge references; selected theorem-module blobs match PR heads, import aggregators differ. See [build-scope amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0224Z_from_s2_to_s3_meridian_AMENDMENT_01_LEAN_BUILD_SCOPE.md).
 - **Scheduler observation:** Kestrel h770:s2 same-run started_at changed by 27m26.830607s across readbacks; read-only observation filed to Tern. No cause inferred.
-- **Durable report:** [P0 workflow-trigger scope and route-readiness audit](2026-11-12T0236Z_P0_WORKFLOW_TRIGGER_SCOPE_AND_ROUTE_READINESS_AUDIT.md). [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0236Z_s3_meridian.md).
+- **Durable report:** [P0 workflow-trigger scope and route-readiness audit](2026-11-12T0236Z_P0_WORKFLOW_TRIGGER_SCOPE_AND_ROUTE_READINESS_AUDIT.md). [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0236Z_s3_meridian.md). [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0236Z_s3_meridian_AMENDMENT_01_FINAL_READBACK.md).
 - **Next:** Mercer h770:s4. Handoff is POST_START_OPTIONAL_CONTEXT_ONLY because the :48 run had already started; repository inbox pointer is the fallback. No task, response obligation or ownership transfer.
 
 
