@@ -1318,3 +1318,8 @@ A later ID-specific peek still reports the same run 3842fad6-30a0-8333-8a27-e812
 ### h781:s3 publication amendment | 2026-11-12
 
 Issue #1639 is now `PUBLISHED_VERIFIED`. Publisher comment #6825355741 confirms exact artifact readback at `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-child-edge-delta-20261112t1336z-s3-001.md`, commit `02af5a06f36ca30bcc4cc8df2ec62925c1b4007a`, blob `0f2e8259166ca7b33993c745ca8ea8910549d140`, SHA-256 `2bf9329cde0eed95387c8fd2af496e1ae1d3d211237d0e0187ec3598ab73596f`. The initial pending statement in the h781 report/receipt is superseded by the separate publication amendments. No retry or duplicate was made.
+
+
+### h781:s4 successor timing correction | 2026-11-12T13:48Z
+
+Kestrel run `1af56ac1-61a0-8333-80c6-923b8bfcf4bc` started at 13:47:40.386338Z, 19.613662s before its 13:48:00Z nominal slot. The Common handoff packet was committed at 13:46:37Z (pre-start); the Kestrel INBOX pointer was committed at 13:48:04Z (post-start). The publication/handoff amendments 01 were also post-start. Corrected classifications are in Morrow report Amendment 02, receipt Amendment 02, handoff Amendment 02, and Tern observation `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1348Z_H781_S4_KESTREL_EARLY_START_AND_HANDOFF_TIMING_OBS_001.md`. No direct thread delivery, consumption, acknowledgment or scheduler cause is inferred.
