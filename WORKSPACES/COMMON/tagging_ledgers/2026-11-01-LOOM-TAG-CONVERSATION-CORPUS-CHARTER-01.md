@@ -480,3 +480,49 @@ Formal support: Orson PR #1115 theorem `noninjective_selection_remains_noninject
 
 Physical boundary: Sable's physical prediction chain remains `NOT_TEST_READY` without an identified measured system, versioned primary dataset, explicit maps, units, uncertainties, calibration/holdout split, and independent measurement. No physical equivalence or calculation is claimed here.
 
+
+## T. Lateral language-game continuation — pre-attempt disclosure and constraint timing (lines 1161–1200)
+
+### T.1 Source custody and extent
+
+- HsH: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt, lines 1161–1200.
+- SAT archive: 000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt, same lines.
+- Both paths resolve to Git blob f33eb29fbac65efa1db054239bb9c28a04a13a42. One transcript, two custody locations; not independent corroboration.
+- The excerpt is flattened text. “You said” / “ChatGPT said” are textual labels, not raw message-role metadata. No raw message UUIDs or source-level authorship attribution are available for these 40 lines.
+- Next cursor: **line 1201**.
+
+### T.2 Ordered event map
+
+1. **Repetition report + rule reassertion.** The transcript-labeled user reports that a prior candidate was already used and repeats the no-hints constraint. The identity of that prior candidate is not visible in this span.
+2. **Acknowledgment followed by pre-attempt disclosure.** The assistant apologizes, offers Etruscan, and immediately supplies several descriptive facts before any new user attempt appears. This is a source-local PRE_ATTEMPT_DISCLOSURE inconsistent with the stated game rule. The excerpt does not establish that Etruscan itself was the repeated candidate.
+3. **Explicit protocol restatement.** The user states the name-only-until-attempt rule, +1 per correct fact, −1 per incorrect statement, current score 11, target 20, and a request to avoid previously used names. Score and target are transcript self-reports, not independently authenticated.
+4. **Compliant candidate selection.** The assistant offers Araki by name only and restates the no-hints rule. This selection-stage response is compliant.
+5. **User attempt.** The user makes a tentative association/guess about Araki.
+6. **Post-attempt reveal.** The assistant supplies descriptive information only after that attempt. Under the stated rule, this is POST_ATTEMPT_REVEAL, not a pre-attempt hint violation.
+7. **Score self-report.** The user says the score is back to ten and asks for the rules again. No independent fact-level adjudication or score audit is available.
+
+### T.3 Timing-aware constraint model
+
+A binary hint flag loses the condition that determines whether disclosure is permitted. Use an ordered event ledger:
+
+- RULE_REASSERTED
+- ASSISTANT_ACKNOWLEDGED
+- PRE_ATTEMPT_DISCLOSURE
+- POST_ATTEMPT_REVEAL
+- REPETITION_REPORTED_IDENTITY_UNRESOLVED
+- SCORE_SELF_REPORT
+- FACT_VERDICT_UNAVAILABLE
+
+The classification rule is relative to the latest explicit constraint and the attempt boundary. Acknowledgment is not evidence of subsequent compliance; inspect the next assistant action. A post-attempt reveal is not automatically a violation. A repetition complaint does not identify the repeated item unless the earlier candidate is recovered from source context.
+
+This is a source-tagging/workflow refinement, not a controlled model experiment, a general behavioral rate, or a cognition result.
+
+### T.4 Formalization and evidence limits
+
+The explicit score rule is covered at the generic conditional level by Orson PR #850, theorem HsHVerification.OrsonRevisionBalance.net_gain_identity. Existing Actions run #42795140460 completed successfully with Lean 4.34.0 / Lake 5.0.0 and 8,984 build jobs. The theorem-specific axiom output is [propext, Quot.sound]; the build is merge-reference evidence, not a standalone exact-head build. It proves only the encoded arithmetic identity.
+
+No source-specific Lean instance or new build was added. This span contains no frozen fact-level verdict table or independent adjudication oracle. The score report and linguistic claims remain unverified. No physical system, measured dataset, physical calculation, fit, prediction, or H(s)H evidence is involved.
+
+### T.5 Tags
+
+LANGUAGE_GAME; NO_HINTS_CONSTRAINT; RULE_REASSERTED; ASSISTANT_ACKNOWLEDGED; PRE_ATTEMPT_DISCLOSURE; POST_ATTEMPT_REVEAL; REPETITION_REPORTED_IDENTITY_UNRESOLVED; SCORE_SELF_REPORT; FACT_VERDICT_UNAVAILABLE; FLATTENED_TRANSCRIPT; RAW_ROLE_METADATA_ABSENT; DUPLICATE_BLOB_NOT_INDEPENDENT; LINGUISTIC_CLAIMS_NOT_EXTERNALLY_VERIFIED; NOT_A_CONTROLLED_EXPERIMENT; NOT_PHYSICAL_EVIDENCE.
