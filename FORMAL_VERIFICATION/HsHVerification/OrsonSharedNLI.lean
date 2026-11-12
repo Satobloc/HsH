@@ -95,10 +95,14 @@ theorem truncated_comparison_call_bounds :
     maximumTruncatedComparisonCalls = 3123 := by decide
 
 theorem truncated_comparison_calls_within_total_pair_slots :
-    maximumTruncatedComparisonCalls ≤ 28050 := by norm_num [maximumTruncatedComparisonCalls]
+    maximumTruncatedComparisonCalls ≤ 28050 := by decide
 
 #eval minimumTruncatedComparisonCalls
 #eval maximumTruncatedComparisonCalls
+
+#print axioms truncated_position_table_has_three_positions
+#print axioms truncated_comparison_call_bounds
+#print axioms truncated_comparison_calls_within_total_pair_slots
 
 #print axioms unflagged_checks_all
 #print axioms flagged_checks_at_least_one
