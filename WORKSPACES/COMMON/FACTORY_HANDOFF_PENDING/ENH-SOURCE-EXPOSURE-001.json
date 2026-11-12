@@ -2,7 +2,7 @@
   "schema": "factory-handoff-pending-v1",
   "source_item_id": "ENH-SOURCE-EXPOSURE-001",
   "factory_item_id": null,
-  "status": "LEAN_VERIFIED / FACTORY_HANDOFF_PENDING",
+  "status": "LEAN_VERIFIED / FACTORY_HANDOFF_PENDING / PUBLICATION_PENDING",
   "factory_floor_eligibility": "NOT_FACTORY_FLOOR_ELIGIBLE",
   "eligibility_reason": "Factory Floor geometry-first admission requires a precise object-specific geometric plot and independent hostile fidelity review. This is an abstract source/context evidence-type theorem; no physical geometric object or plot is supplied.",
   "intake_route": "NOT_SUBMITTED",
@@ -10,9 +10,9 @@
   "source_repository": "Satobloc/HsH",
   "source_branch": "research/enheduanna-source-context-exposure-20261112t0148z",
   "source_pr_head_at_verified_build": "6599cf8bf7daf52e3741da757b8387fcf0782728",
-  "checked_out_merge_reference": "14750cd62953deb4c228e8f0b1a26fa049c41545",
+  "checked_out_merge_reference": "c21b36a30724f027cc5558b74e787a98f49a3107",
   "source_path": "FORMAL_VERIFICATION/HsHVerification/EnheduannaSourceExposure.lean",
-  "source_blob_sha": "275e1e5448379118d80148df493b8607c349d1c3",
+  "source_blob_sha": "fb6a147ec7640bada1fb8e512b9e27d711e44f4d",
   "theorem": "HsHVerification.EnheduannaSourceExposure.source_attestation_does_not_determine_context_exposure",
   "theorem_claim": "Two distinct run-scoped context snapshots can share an identical source attestation, including source identity, digest, locator, outer role, timestamp, parent context and auditor read extent, while differing on whether the source is included.",
   "theorem_limit": "Type-level information-sufficiency countermodel only. Does not establish that either constructed snapshot corresponds to a real historical execution, or prove actual message exposure, output uptake, causal influence, subject identity, consciousness, physical truth or empirical behavior.",
@@ -46,8 +46,18 @@
     "tests": "SKIPPED",
     "lint": "SKIPPED",
     "axiom_audit": "SKIPPED",
-    "theorem_specific_axiom_print": "FOLLOW_UP_COMMIT_ADDED; SECOND_CI_PENDING",
-    "explicit_sorry_admit_custom_axiom_in_submitted_module": "NONE_FOUND_BY_SOURCE_SCAN"
+    "theorem_specific_axiom_print": [
+      "propext"
+    ],
+    "explicit_sorry_admit_custom_axiom_in_submitted_module": "NONE_FOUND_BY_SOURCE_SCAN",
+    "second_run_id": 43138042440,
+    "second_job_id": 130918015986,
+    "second_run_url": "https://github.com/Satobloc/HsH/actions/runs/43138042440",
+    "second_build_conclusion": "SUCCESS",
+    "second_build_jobs": 8945,
+    "second_target_module_blob_identical_to_pr_head": true,
+    "theorem_specific_axiom_report": "The theorem-specific #print axioms output is [propext] only. No sorryAx, Classical.choice or Quot.sound appears in the captured theorem-specific output.",
+    "global_axiom_audit": "SKIPPED"
   },
   "original_source_basis": [
     {
@@ -88,5 +98,14 @@
     "Keep PR draft until an independent review and dependency-manifest reproducibility issue are addressed.",
     "Do not submit directly to Factory Floor without a valid geometry-first route.",
     "Do not promote to BEDROCK, a paper, LIVE, ARTIFACTS or WEBSITE."
-  ]
+  ],
+  "source_pr_head_current": "9b576c86cf37a06bab767cbcddc9d769379a8c53",
+  "publication": {
+    "issue_number": 1620,
+    "issue_url": "https://github.com/Satobloc/HsH/issues/1620",
+    "submission_id": "enheduanna-source-context-exposure-20261112-s4-001",
+    "sha256": "bfd3854fb0de8eed86b9cdf6288650fe8954cb30cef0ffca5941fba054ff993c",
+    "publisher_run_id": 43138606181,
+    "status": "PUBLISHER_IN_PROGRESS_AT_UPDATE"
+  }
 }
