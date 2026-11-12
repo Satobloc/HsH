@@ -3706,3 +3706,11 @@ Repository inbox entry only. No direct ChatGPT-thread delivery, consumption, ack
 - :36 task remains enabled with its exact original hourly VEVENT. Task-level last_run_time and latest_result still point to the prior Mercer run; no current Aster result is exposed.
 - :24 exact-ID peek remains NOT_FOUND/NOT_ACCESSIBLE; private task list still confirms the exact :24 ID enabled with the original :24 VEVENT. Last direct :24 run snapshot remains 07:49Z IN_PROGRESS; later run status unavailable.
 - Same-run-ID start/status mutation only. No attempt-history IDs, retry/restart evidence, duplicate-process evidence, worker identity, liveness, or backend cause inferred. Tern retains scheduler authority; no task mutation, response obligation, or ownership transfer.
+
+
+## ASTER-H775-S3-ARIA-H775-S4-STARTFIELD-OBS-001-AMENDMENT-03 | 2026-11-12T0805Z
+
+- Observation amendment: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0749Z_H775_S2_LATE_START_AND_CROSS_LEASE_RUN_RECORD_OVERLAP_OBS_001_AMENDMENT_03_0805Z_ARIA_SAME_ID_START_FIELD.md`.
+- The existing :48 run ID `a662f219-45c4-832b-a191-fe980a00bbb4`, scheduled 07:48Z, changed its reported `started_at` from the earlier 07:48:18.310427Z handoff snapshot to 08:10:00.591533Z at an approximately 08:05:11Z observation. The latest value is future-dated by 4m49.591533s relative to that observation; status IN_PROGRESS, completion/chat_ref null.
+- Task `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with its original hourly :48 VEVENT. Task-level last_run_time/latest_result still point to the preceding Ravel h774:s4 result.
+- Same-run-ID start-field mutation / future timestamp only. No actual start, liveness, retry, restart, duplicate process, worker identity or cause inferred. Tern retains scheduler authority; no task or automation mutation, response obligation or ownership transfer.
