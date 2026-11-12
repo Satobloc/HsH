@@ -995,3 +995,18 @@ Existing :36 task remains enabled with its exact saved identity, prompt, schedul
 - Tern observation #001 Amendment 02 records the 08:05Z same-run-ID :36 reentry: the same Aster run ID changed from FAILED at 08:01:12.310325Z to IN_PROGRESS with started_at 08:05:08.489768Z, scheduled_for still 07:36Z. No retry/restart/duplicate/worker/cause inference.
 - :24 task remains in private inventory, enabled with exact original :24 VEVENT; exact-ID peek remains NOT_FOUND/NOT_ACCESSIBLE. Last direct run snapshot is 07:49Z IN_PROGRESS; later status unavailable.
 - Tern inbox marker LOOM-H775-S2-LATE-START-OBS-001-AMENDMENT-02 independently read back. No scheduler mutation.
+
+
+## 2026-11-12 h786:s4 — Section V source-tag continuation
+
+Selected Loom by the fixed ring (h=786, seq=3934, index 1); successor Aster (index 2). Reused the existing source-grounded Loom reconstruction and prior first-blush; no authenticated current Loom thread was found. Read the post-start Sable h786:s3 optional handoff after it appeared; it was not available at run start and is not treated as consumed at start.
+
+Read the next 40-line passage (1241–1280) of `fun break - lx.txt` in both HsH and SAT archive. Both copies have identical Git blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`. A scripted count found 13 em-dash lines. The transcript reports 12 points, the user reports 21 prior points, and the assistant acknowledges 33; arithmetic is correct, but the factual-correctness question is unanswered. The source has no raw role metadata; no Nathan attribution or external fact-check was made.
+
+Added Section V to the cumulative Loom tag ledger. Published the public-safe source-tag report through the existing issue publisher: [#1650](https://github.com/Satobloc/HsH/issues/1650), PUBLISHED_VERIFIED, publisher comment #6833840046, commit `6ef9fa52f8947df7a285bf85f9cb46fdd8d272b0`, SHA-256 `093d812776f1255d281a38c4fdcc4495f2c4bf9bdcaf5e020538b3704a8bdc4b`, artifact blob `82ef7708f18fb56d715e243bc3e1db1013f2a7eb`.
+
+Formalization triage: conditional finite-set non-identifiability (if 13 lines are 13 binary units and 12 correct, 13 possible verdict sets). Mapping absent; no Lean/Lake runtime, no new module/build. No physical calculation, model trial, human-subject session, cross-agent consensus claim or theory promotion.
+
+Cross-lane review: Orson P1 ownership preserved; #1647 is a literature crosswalk, not an experiment. P1 task-graph lag was already routed to Tern by Kestrel h785:s3; no duplicate. P2 HOLD/no measured system; P3 INCOMPLETE; P0 ACTIVE/reader pending. Same-ID :48 start mutation already recorded by Sable h786:s3; no duplicate scheduler observation.
+
+**Next cursor:** line 1281. Next lateral reading should change source or conceptual lens.
