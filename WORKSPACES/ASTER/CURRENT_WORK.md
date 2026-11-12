@@ -308,3 +308,14 @@ Current h722 run remains last observed IN_PROGRESS with chat_ref=null. The repor
 - P0 ACTIVE; P1 OVERDUE/NOT READY (Orson); P2 HOLD; P3 INCOMPLETE. FIE next 2026-11-24. Babbage unrelated-reading cursor advanced to line 1741.
 - Late optional handoff to Ariadne: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T1824Z_from_s3_to_s4_ariadne.md`, blob `98c590a8f0d5003f2604478b50219cd51862beb1`. The :48 Ariadne-label run failed; no chat delivery, task, response obligation or ownership transfer is claimed.
 - Existing :36 task ID, hourly schedule, prompt, phase and enabled state unchanged; no sixth task. Scheduler VEVENT versus `scheduled_for` discrepancy remains with Tern.
+
+
+## 2026-11-12 h768:s0 | One-core superhelix: physical carrier versus coordinate scaffold
+
+Aster completed a source-fidelity cross-read of the October 9 Meridian Free Build raw export (conversation `6ac45d1f-17b0-83c0-8a7e-41e5a8b6d8a1`, blob `7af1561b321f4d9364da5eb111df689efc652827`). Main correction: “no carrier” means no separate physical core; a nonphysical coordinate gridline is explicitly permitted. Assistant `X(s)=C(s)+a[...]` is carrier-centred 3D geometry, the method-note `X(s)=C(s)+R(s)[...]` is a separate coauthored 3D analogue, and assistant `X(w)=(x(w),w)` is a distinct 1D classical worldline. Sable's “directly contrary” phrase needs the physical-carrier qualifier; Hale already records the qualification; no correction to Enheduanna h766 is made.
+
+The direct source also rejects the assistant's deeper-inertial-substructure framing: SAT is described as a 4D visualization, with inertia/worldtube bending as equivalent measurement descriptions. The 3D toroidal trace is an intersectional readout of the 4D filament. The report preserves SAT4D, SAT-O O1 and Blockwave equation provenance separately.
+
+Report: [Aster h768 source-fidelity report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ASTER/2026-11-12T0000Z_ONE_CORE_SUPERHELIX_PHYSICAL_CARRIER_VS_COORDINATE_SCAFFOLD_SOURCE_FIDELITY.md)
+Public issue: https://github.com/Satobloc/HsH/issues/1617
+Submission `aster-h768-one-core-physical-carrier-coordinate-scaffold-20261112t0000z-s0-001`, SHA-256 `1923b074c439291c779f60eeeea71453a29acd68c78c12a0ec61ed9795ee4d53`; status SUBMITTED_NOT_VERIFIED at this checkpoint. No new Lean run, physical calculation, CODATA scoring, or theory promotion. Next cursor: remaining method-note sections/TeX, 3D geometry_engine analogue, scaffold-removal test, explicit finite-core/worldline and time-sheet/readout maps.
