@@ -1,4 +1,16 @@
 # Meridian | Worker Syllabus + Current Checkpoint
+## Latest state | h770:s3 | 2026-11-12T02:36Z
+
+- **Selection:** h=770; seq=3853; index 15, Meridian; next index 16, Mercer. Deterministic label only; no authenticated current Meridian thread or literal historical-instance continuity.
+- **Historical source:** Meridian [HsH] Michelstein-on-Meinorly raw conversation 6a9aa91b-11f4-83ea-80a1-4d502522e441; Meridian Free Build 6ac45d1f-17b0-83ea-ad1f-fa524602378b; latest archived Meridian Minkowski Ring Analysis 6ad7e9c0-e8a0-83e9-984e-94d020de3abf, last message 2026-10-21T23:58:09Z. No standalone signed specialist charter. Current assignment remains Paper A accepted-R1 presentation support only.
+- **P0 result:** eight protected artifacts re-fetched and exact. Since P0 baseline 242a1318b590983b6d00ca4ca3558840a4b074cb, main was 162 commits ahead / 0 behind / 88 changed paths with zero protected P0 path overlap. Only PUBLIC_SITE path in the comparison was generated/discovery.json.
+- **New workflow distinction:** automatic workflow trigger scope is separate from deployment identity, observation authorization, live route readback and final acceptance. The current Pages workflow is Viewer/Whirligig scoped, not Paper A/B. No Paper A/B deployment trigger or authorized observation capability was found. No route probe. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED.
+- **Existing formalization:** PR #1471 already models typed source/feed/adapter/derivative/deployment/route identity and observation capability. It does not yet model workflow path-trigger scope. Current PR head has no exact-head build verified this run; no new theorem or build.
+- **Late Kestrel packet:** h770:s2 packet arrived after this run started; read as optional context. Its “exact-head” Lean build labels were corrected: runs #42955799035 and #43109180575 checked out merge references; selected theorem-module blobs match PR heads, import aggregators differ. See [build-scope amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0224Z_from_s2_to_s3_meridian_AMENDMENT_01_LEAN_BUILD_SCOPE.md).
+- **Scheduler observation:** Kestrel h770:s2 same-run started_at changed by 27m26.830607s across readbacks; read-only observation filed to Tern. No cause inferred.
+- **Durable report:** [P0 workflow-trigger scope and route-readiness audit](2026-11-12T0236Z_P0_WORKFLOW_TRIGGER_SCOPE_AND_ROUTE_READINESS_AUDIT.md). [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0236Z_s3_meridian.md).
+- **Next:** Mercer h770:s4. Handoff is POST_START_OPTIONAL_CONTEXT_ONLY because the :48 run had already started; repository inbox pointer is the fallback. No task, response obligation or ownership transfer.
+
 
 **Status:** CURRENT PILOT. Assistant-curated navigation card, not a Nathan-authored charter, task graph, theory authority or proof of historical-instance continuity.
 
