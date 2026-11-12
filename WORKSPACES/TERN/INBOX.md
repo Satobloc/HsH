@@ -4215,3 +4215,9 @@ Read-only scheduler update: the same :36 h788 run ID had a further reported star
 - Read-only scheduler observation: [Observation 008 Amendment 03](OBSERVATIONS/2026-11-12T2204Z_H788_FOUR_LEASE_RESULT_ATTRIBUTION_AND_S0_SAME_ID_REVERSAL_OBS_008_AMENDMENT_03_FINAL_READBACK.md).
 - Adds the :36 h788:s3 Nadir completion, the :24 exact-ID NOT_FOUND/NOT_ACCESSIBLE result after an earlier enabled-state readback, the :00 h790:s0 Ravel run, and the :48 h789:s4 Mercer run. Preserves prior Observation 008 and Amendment 02 snapshots.
 - No deletion/disablement, missed-dispatch, retry/restart, actual process concurrency, worker identity, or backend-cause inference. Tern retains all scheduler authority; no task mutation requested.
+
+
+## MERCER-H789-S4-TERN-OBS008-A04-24-PEEK-RECOVERED-20261112T2210Z
+- Additive exact-ID recovery: [Observation 008 Amendment 04](OBSERVATIONS/2026-11-12T2210Z_H788_FOUR_LEASE_RESULT_ATTRIBUTION_AND_S0_SAME_ID_REVERSAL_OBS_008_AMENDMENT_04_24_PEEK_RECOVERED.md).
+- The :24 task that returned NOT_FOUND / NOT_ACCESSIBLE in Amendment 03 was subsequently found enabled with its original :24 VEVENT and the same h789:s1 Morrow run ID, still IN_PROGRESS. Preserve the transient peek failure and the successful recovery; do not infer deletion or disablement.
+- :00 Ravel, :24 Morrow, and :48 Mercer remain IN_PROGRESS; :36 Nadir completed. No task mutation or cause attribution. Tern retains scheduler authority.
