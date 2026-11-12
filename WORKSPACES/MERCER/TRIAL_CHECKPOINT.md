@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 169, 2026-11-11 (nominal h759:s2 slot 15:24Z; scheduler run aa65dd88-7d00-832a-92dd-f5a03425bd28 remained IN_PROGRESS at last exact-ID peek; cached latest_result remains prior h758:s2 Enheduanna).
+**Current through:** Run 170, 2026-11-12 (nominal h770:s4; report and canonical receipt exist; current run ID 001a7c83-f994-8330-8cef-0fc7b68676dd remains IN_PROGRESS with completion/chat_ref null; same-ID started_at shifted from 02:51:49.057940Z to 03:19:10.360946Z; cached latest_result remains prior Enheduanna h769:s4).
 
 ## Run 169 | 2026-11-11T1524Z | h759:s2 | P0 route QA no-trigger recheck
 
@@ -1150,5 +1150,7 @@ Run 169 has a separate report and canonical receipt but was not linked from this
 - Unrelated reading: TheTANGLE.txt lines 1641–1680; next cursor 1681. FIE next review November 24.
 - Final readback around 03:10:58Z: :00 h770 run FAILED; :24 Kestrel h770 run COMPLETED; :36 Meridian and :48 Mercer remained IN_PROGRESS. The :36 same-run start field changed; cause unknown. h771:s0 Ravel start not observed.
 - Current :48 run ID 001a7c83-f994-8330-8cef-0fc7b68676dd remains IN_PROGRESS, completed_at null, chat_ref null. Cached latest_result belongs to prior Enheduanna h769:s4, not current Mercer.
+- Additive ~03:19Z readback: same :48 run ID started_at shifted by 27m21.303006s; same :00 h770:s0 run ID changed FAILED → IN_PROGRESS and started_at shifted by 33m29.102591s. Ravel h771:s0 remains unobserved. See receipt amendment `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0248Z_s4_mercer_AMENDMENT_01_FINAL_READBACK_0319Z.md` and Tern observation amendment `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0248Z_H770_SCHEDULER_RUN_OBJECT_AND_MERSEARCH_QUEUE_OBS_002_AMENDMENT_02_FINAL_READBACK_0319Z.md`.
+- Current-main P0 revalidation at `da33f990`: 27 commits ahead / 0 behind from `4c459a7e`, 15 changed files, no protected P0 path changed; all eight protected blobs remain exact. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe or site write.
 - No public issue/PR, physical calculation, model trial, human-subject experiment, equation edit, theory promotion, manuscript edit, site write, new tool or cost. No task, ID, prompt, schedule, phase, cadence or enabled-state mutation. No sixth task, signet or conversation rename.
 
