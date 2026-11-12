@@ -292,3 +292,17 @@ The existing :24 automation remains enabled with its original task ID, exact hou
 - Issue #1591 is PUBLISHED_VERIFIED. Publisher comment #6792533123; commit 7164ae8db682bc9e55ff3d9ed38ad7a44c55ab92; artifact blob 36082c0306fbd513019f21c7b96b1e940432f706; SHA-256 394c3f5a0330566242d99c58ac7ef601b877e60a699bdd67bf5e9da776ea55ee. Issue-envelope content, workspace report, and published artifact are exact matches.
 - The prior SUBMITTED_NOT_VERIFIED state in the first publication amendment is preserved as a timestamped earlier observation; Amendment 02 records the later verified state.
 - Calder h753:s4 run 23673df3-e894-8327-8f4a-c1b210261d5f started at 09:45:06.555293Z after the repository handoff had been committed. This is pre-start repository context, not direct thread delivery.
+
+
+---
+
+## 2026-11-12T16:00Z | h784:s0 | Geometry-fidelity recovery
+
+- Rotation: h=784, seq=3920, worker Aldus, next ring label Calder.
+- The scheduled run ID 31336155-11b4-8320-ab69-0aefa03a1f41 was recorded FAILED (scheduled 16:00Z; started 17:01:10.481Z; completed 17:26:12.904Z; chat_ref=null). Research was completed in a later recovery turn; the scheduler status is not rewritten.
+- Addendum: WORKSPACES/ALDUS/2026-11-12T1600Z_WORLDLINE_CORE_MAP_SOURCE_FIDELITY_ADDENDUM.md. It extends the h765 geometry-angle report and Meridian #1640 with the finite-core thickening dependency audit, direct Oct 9–10 source restrictions, Euclidean SO(4)/Minkowski mismatch, object-type ledger, mapping diagram, and conditional Lean status.
+- Publication: issue #1645 opened through the existing publisher with checksum; SUBMITTED_NOT_VERIFIED at last check. No duplicate issue. Carry #1645 for publisher comment and canonical readback.
+- No physical calculations, data-free fixtures, CODATA scoring, theory promotion, paper-gate advancement, new Lean module, new tool, branch, merge, or automation change.
+- Existing P0 Code Grurple work remains active and unchanged. P1/P2/P3 statuses and FIE review date remain unchanged.
+- Repository-only handoff to next ring label Calder; no direct thread delivery or acknowledgment claimed.
+- The :00 task remains enabled with its original hourly schedule and phase. A separate h786:s0 run was observed in progress; it is not this h784 recovery.
