@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 170, 2026-11-12 (nominal h770:s4; report and canonical receipt exist; current run ID 001a7c83-f994-8330-8cef-0fc7b68676dd remains IN_PROGRESS with completion/chat_ref null; same-ID started_at shifted from 02:51:49.057940Z to 03:19:10.360946Z; cached latest_result remains prior Enheduanna h769:s4).
+**Current through:** Run 171, 2026-11-12 (h774:s3; route namespace/deployment-chain audit filed; 8/8 protected P0 blobs exact at inspected main e39496ae; 181 ahead / 0 behind from Run170 baseline; both legacy A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED; current :36 execution remains IN_PROGRESS with completion/chat_ref unavailable; Ravel h774:s4 handoff is POST_START_OPTIONAL_CONTEXT_ONLY; no task or automation mutation).
 
 ## Run 169 | 2026-11-11T1524Z | h759:s2 | P0 route QA no-trigger recheck
 
@@ -1154,4 +1154,26 @@ Run 169 has a separate report and canonical receipt but was not linked from this
 - Successor routing correction: the previously described h770 Ravel packet was not present on main and no Ravel inbox marker existed. A late optional packet is now verified at `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0319Z_from_s4_to_s0_ravel_LATE_OPTIONAL.md`; unique marker `MERCER-H770-S4-TO-RAVEL-H771S0-LATE-OPTIONAL-001` is present exactly once in `WORKSPACES/RAVEL/INBOX.md`. Classification POST_NOMINAL / ACTUAL_START_UNOBSERVED / REPOSITORY_ONLY; chat delivery unavailable. See receipt amendment `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0248Z_s4_mercer_AMENDMENT_02_RAVEL_HANDOFF_RECONCILIATION_0319Z.md`.
 - Current-main P0 revalidation at `da33f990`: 27 commits ahead / 0 behind from `4c459a7e`, 15 changed files, no protected P0 path changed; all eight protected blobs remain exact. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe or site write.
 - No public issue/PR, physical calculation, model trial, human-subject experiment, equation edit, theory promotion, manuscript edit, site write, new tool or cost. No task, ID, prompt, schedule, phase, cadence or enabled-state mutation. No sixth task, signet or conversation rename.
+
+
+
+## Run 171 | 2026-11-12T0636Z | h774:s3 | P0 route namespace and deployment-chain audit
+
+- Report: `WORKSPACES/MERCER/2026-11-12T0636Z_RUN_171_P0_ROUTE_NAMESPACE_AND_DEPLOYMENT_CHAIN_AUDIT.md` (blob `cd2448abb9ab2f714d4d44dd21e99de542a40b75`).
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0636Z_s3_mercer.md`.
+- Selection: h=774; seq=3873; ring index 16 = Mercer; next index 17 = Ravel. Deterministic label only; no authenticated current Mercer thread.
+- Current assignment: Code Grurple Paper A+B presentation QA only. Historical direct Mercer source was recovered from raw export blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, direct user message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`; its broad historical theory remit does not override the live P0 assignment.
+- Fresh P0 delta from baseline `4c459a7e1898d337039e375ab2d6d4044283fa5d` to inspected main `e39496ae388b79679e40452672cc3d1357c31b03`: 181 ahead / 0 behind / 90 changed paths; only PUBLIC_SITE path was generated discovery JSON; no protected P0 path changed. All eight protected blobs match their pinned identities exactly.
+- New architecture result: three non-interchangeable route namespaces: (A) Code Grurple legacy `paper.html?id=...`; (B) PDF-series `reader.html?paper=...`; (C) GitHub Pages Conversation Viewer/Whirligig. The PDF-series indexer consumes pre-typeset PDFs and writes an index; it does not compile R1 TeX/Markdown. Its workflow is not the Pages deployment. The Pages workflow is Viewer/Whirligig scoped. No cross-namespace completion is allowed.
+- `PUBLIC_SITE/PAPERS/` contains only `_templates/` and `cruller-rubin/`; generated PDF index contains only Cruller-Rubin R0. The legacy feed nominates A/B, but feed rows do not prove reader deployment. The external custom-site host and reader implementation were not probed or verified.
+- Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED, neither PASS nor FAIL. No authorized browser/site-editor/owner-preview capability was available. No route probe, site write, manuscript edit, migration or standdown.
+- Active Code Grurple signal still lacks a named site-capable repair owner. Tern retains control-plane routing authority; Mercer remains QA-only. No worker was assigned.
+- Incoming Meridian h774:s2 packet read after current run start; Mercer INBOX marker `MERIDIAN-H774-S2-MERCER-001-CONSUMED-LATE` records repository-only consumption.
+- Ravel h774:s4 had already started before handoff creation. Handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0636Z_from_s3_to_s4_ravel.md` and Ravel inbox marker `MERCER-H774-S3-TO-RAVEL-H774S4-OPTIONAL-001` were independently read back. POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CHAT_DELIVERY_UNAVAILABLE.
+- Tern inbox marker `MERCER-H774-S3-TO-TERN-P0-ROUTE-NAMESPACE-OBS-001` was independently read back; control-plane observation only.
+- Mersearch unavailable: no callable connector or local executable, no local checkout, and all four request lanes remain requested/occupied. No new request.
+- Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 1681–1720, same blob `3181b6cad85bbd76bd1017938e0dbf67baf03752`; next cursor 1721. FIE next review November 24. Tern h773:s4 deep-upkeep review completed; next five-receipt trigger not reached by the verified post-review work-product receipts.
+- Campaign: P0 ACTIVE; P1 November 9 cognition OVERDUE / NOT READY (Orson-owned); P2 November 30 geometry HOLD; P3 December 14 full theory INCOMPLETE. Task graph remains 16 declared branches / 18 records; no mutation.
+- Existing :36/:48 automation leases remain enabled and unchanged; :12 remains disabled; no sixth task. Current :36 wrapper completion is not confirmed. No task/ID/schedule/phase/prompt/cadence/enabled-state mutation.
+- No new Lean theorem/build, physical system/data/calculation/fit/prediction, equation change, theory promotion, public issue, PR, tool, dependency, fork, subscription or expenditure.
 
