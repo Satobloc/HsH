@@ -352,4 +352,92 @@ theorem exactHypersurface_and_finiteSlab_outcomes_differ :
 #print axioms fullCore_finiteSlab_not_three_dimensional_trace
 #print axioms exactHypersurface_and_finiteSlab_outcomes_differ
 
+
+
+/-!
+## Readout descent through the induced carrier-slice map
+
+The preceding retraction constructs a map from the tube/sheet pullback to
+the carrier/sheet pullback. This section states the exact information-loss
+condition for a readout to survive that coarse-graining. It does not assert
+that the retraction or its slice-preservation law is physically realized.
+-/
+
+/-- Two tube/sheet states are equivalent when the declared retraction and
+    sheet reparameterization send them to the same carrier/sheet state. -/
+def sameInducedCarrierSlice
+    (R : SliceCompatibleRetraction Ambient Tube Carrier Sheet)
+    (p q : tubeSheetPullback R) : Prop :=
+  inducedCarrierSliceMap R p = inducedCarrierSliceMap R q
+
+/-- The fibers of the induced carrier-slice map form the quotient relation
+    relevant to this coarse-graining step. -/
+def sameInducedCarrierSliceSetoid
+    (R : SliceCompatibleRetraction Ambient Tube Carrier Sheet) :
+    Setoid (tubeSheetPullback R) where
+  r := sameInducedCarrierSlice R
+  iseqv := ⟨
+    by intro p; rfl,
+    by intro p q h; exact h.symm,
+    by intro p q r hpq hqr; exact hpq.trans hqr
+  ⟩
+
+/-- Quotient of tube/sheet states by equality of their induced
+    carrier/sheet representation. -/
+abbrev CarrierSliceQuotient
+    (R : SliceCompatibleRetraction Ambient Tube Carrier Sheet) :=
+  Quot (sameInducedCarrierSliceSetoid R)
+
+/-- A tube/sheet readout descends through the induced carrier-slice
+    representation when it is a deterministic function of that quotient. -/
+def DescendsToCarrierSliceQuotient
+    {Y : Type*}
+    (R : SliceCompatibleRetraction Ambient Tube Carrier Sheet)
+    (readout : tubeSheetPullback R → Y) : Prop :=
+  ∃ g : CarrierSliceQuotient R → Y,
+    ∀ p, g (Quot.mk (sameInducedCarrierSliceSetoid R) p) = readout p
+
+/-- Exact coarse-graining criterion: a readout descends through the
+    retraction-induced carrier/sheet representation if and only if it is
+    constant on every fiber of that induced map. -/
+theorem readout_descends_iff_constant_on_same_carrier_slice_fibers
+    {Y : Type*}
+    (R : SliceCompatibleRetraction Ambient Tube Carrier Sheet)
+    (readout : tubeSheetPullback R → Y) :
+    DescendsToCarrierSliceQuotient R readout ↔
+      ∀ p q, sameInducedCarrierSlice R p q → readout p = readout q := by
+  letI : Setoid (tubeSheetPullback R) := sameInducedCarrierSliceSetoid R
+  constructor
+  · rintro ⟨g, hg⟩ p q hpq
+    calc
+      readout p = g (Quot.mk (sameInducedCarrierSliceSetoid R) p) := (hg p).symm
+      _ = g (Quot.mk (sameInducedCarrierSliceSetoid R) q) := by
+        congr 1
+        exact Quot.sound hpq
+      _ = readout q := hg q
+  · intro h
+    refine ⟨Quot.lift readout ?_, ?_⟩
+    · intro p q hpq
+      exact h p q hpq
+    · intro p
+      rfl
+
+/-- A pair of tube/sheet states with the same induced carrier/sheet state
+    but different readouts falsifies this deterministic coarse-graining. -/
+theorem different_readouts_on_same_carrier_slice_forbid_coarse_graining
+    {Y : Type*}
+    (R : SliceCompatibleRetraction Ambient Tube Carrier Sheet)
+    (readout : tubeSheetPullback R → Y)
+    (p q : tubeSheetPullback R)
+    (same : sameInducedCarrierSlice R p q)
+    (different : readout p ≠ readout q) :
+    ¬ DescendsToCarrierSliceQuotient R readout := by
+  intro hdesc
+  have hinv :=
+    (readout_descends_iff_constant_on_same_carrier_slice_fibers R readout).mp hdesc
+  exact different (hinv p q same)
+
+#print axioms readout_descends_iff_constant_on_same_carrier_slice_fibers
+#print axioms different_readouts_on_same_carrier_slice_forbid_coarse_graining
+
 end HsHVerification.RavelCarrierSheetDimensionGate
