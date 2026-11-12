@@ -27,6 +27,6 @@ This is outside Ravel's current finite-core/worldtube/timesheet and source-fidel
 
 Ravel's existing inbox is the repository fallback. No authenticated current Ravel thread was established; no direct ChatGPT-thread delivery is claimed. The :48 execution had already started before this packet was created, so the packet may not be in its initial context.
 
-- `github_inbox_delivery=PENDING`
+- `github_inbox_delivery=VERIFIED`; recipient inbox marker `MERCER-H774-S3-TO-RAVEL-H774S4-OPTIONAL-001`; final Ravel inbox blob `e26a2ec55cdafcf176e23d46ea3d052e0c98602c`.
 - `chat_delivery=UNAVAILABLE`
 - No task, deadline, response obligation, review request or ownership transfer.
