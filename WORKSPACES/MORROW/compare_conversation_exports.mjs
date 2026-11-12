@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Morrow: bounded raw-export comparator, 2026-09-13.
 // Read-only. Supply files in the intended earlier-to-later order.
-// Payload equality includes the ENTIRE content object. This does not infer
+// 2026-11-12: child-edge additions are reported separately from removals and split by shared/new parent.\n// Payload equality includes the ENTIRE content object. This does not infer
 // runtime identity or authorize deletion; export-wide metadata is not compared.
 import {readFileSync} from "node:fs";
 import {createHash} from "node:crypto";
@@ -58,8 +58,15 @@ function compare(a,b,ja,jb) {
   const missingOldChildEdges=[];
   for(const [nid,node] of Object.entries(ja.mapping)) for(const child of node.children||[])
     if(!(jb.mapping[nid]?.children||[]).includes(child)) missingOldChildEdges.push([nid,child]);
+  const addedNodeIds=Object.keys(jb.mapping).filter(nid=>!Object.prototype.hasOwnProperty.call(ja.mapping,nid));
+  const removedNodeIds=Object.keys(ja.mapping).filter(nid=>!Object.prototype.hasOwnProperty.call(jb.mapping,nid));
+  const addedChildEdges=[];
+  for(const [nid,node] of Object.entries(jb.mapping)) for(const child of node.children||[])
+    if(!(ja.mapping[nid]?.children||[]).includes(child)) addedChildEdges.push([nid,child]);
+  const addedChildEdgesFromSharedParent=addedChildEdges.filter(([nid])=>Object.prototype.hasOwnProperty.call(ja.mapping,nid));
+  const addedChildEdgesFromNewParent=addedChildEdges.filter(([nid])=>!Object.prototype.hasOwnProperty.call(ja.mapping,nid));
   let prefix=0;while(prefix<a.branch.length&&prefix<b.branch.length&&a.branch[prefix]===b.branch[prefix])prefix++;
-  return {same_conversation:a.conversation_id===b.conversation_id,smaller_messages:A.length,larger_messages:B.length,shared_messages:shared.length,missing_ids:missing,added_count:added.length,changed_payload_ids:changed,changed_raw_message_ids:exactChanged,changed_raw_fields:fieldChanges,changed_parent_ids:changedParents,missing_old_child_edges:missingOldChildEdges,old_branch_messages:a.branch.length,new_branch_messages:b.branch.length,common_branch_prefix:prefix,old_branch_is_id_prefix:prefix===a.branch.length,old_branch_payloads_unchanged:a.branch.every(id=>id in b.messages&&stable(payload(a.messages[id]))===stable(payload(b.messages[id]))),old_current_node_on_new_active_branch:b.branch.includes(String(ja.mapping[a.current_node]?.message?.id || a.current_node))};
+  return {same_conversation:a.conversation_id===b.conversation_id,smaller_messages:A.length,larger_messages:B.length,shared_messages:shared.length,missing_ids:missing,added_count:added.length,changed_payload_ids:changed,changed_raw_message_ids:exactChanged,changed_raw_fields:fieldChanges,changed_parent_ids:changedParents,added_node_ids:addedNodeIds,removed_node_ids:removedNodeIds,added_child_edges:addedChildEdges,added_child_edges_from_shared_parent:addedChildEdgesFromSharedParent,added_child_edges_from_new_parent:addedChildEdgesFromNewParent,missing_old_child_edges:missingOldChildEdges,old_branch_messages:a.branch.length,new_branch_messages:b.branch.length,common_branch_prefix:prefix,old_branch_is_id_prefix:prefix===a.branch.length,old_branch_payloads_unchanged:a.branch.every(id=>id in b.messages&&stable(payload(a.messages[id]))===stable(payload(b.messages[id]))),current_node_transition:{from:ja.current_node,to:jb.current_node},old_current_node_on_new_active_branch:b.branch.includes(String(ja.mapping[a.current_node]?.message?.id || a.current_node))};
 }
 
 
