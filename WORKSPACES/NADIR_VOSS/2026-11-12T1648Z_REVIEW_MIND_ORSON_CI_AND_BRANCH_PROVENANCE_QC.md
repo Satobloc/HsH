@@ -84,7 +84,7 @@ The existing exact-head Actions run #43084102284 remains the recorded 8,959-job 
 
 ## 4. Source fidelity and lateral reading
 
-The public SAT archive file `Donut canon.txt`, blob `be985c...`, was read through line 180. It is an undated archived draft with no reliable author attribution; it is not Nathan Direct or a canonical equation source. Its notation uses an `so(3))-valued matrix and then a vector cross-product expression without declaring the identification map, and overloads `R` for a curve and a torus radius. These are typing/definition gaps, not a refutation. No repair or equation substitution was made.
+The public SAT archive file `Donut canon.txt`, blob `be985c292bfcae7352983d596c38e7f172f6029d`, was read through line 180. It is an undated archived draft with no reliable author attribution; it is not Nathan Direct or a canonical equation source. Its notation uses an `so(3))-valued matrix and then a vector cross-product expression without declaring the identification map, and overloads `R` for a curve and a torus radius. These are typing/definition gaps, not a refutation. No repair or equation substitution was made.
 
 The previously recovered 2026-09-11 pure-geometry source and h773 source-map boundary remain unchanged: no physical system is identified, and the upstream nested-order-to-framed-sphere map remains open. No private HSH_RESOURCES path or excerpt is reproduced here.
 
