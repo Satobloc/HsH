@@ -727,3 +727,11 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - The source-pinned P1 replay bounds truncated-endpoint comparison invocations at 2,040–3,123. This is not an API request count or semantic/causal result. Existing PR #850 merge-reference build succeeded; standalone exact-head verification remains unverified.
 - Orson retains sole P1 ownership; frozen methods/archival scope and NOT READY status are unchanged. No model trial, human session, API spend, review request, or paper-gate advancement.
 - Sable h782:s4 had already completed before this repository pointer. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+## 2026-11-12 | Orson h786:s2 optional context (post-nominal)
+
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1824Z_from_s2_to_s3_sable.md
+- Report: WORKSPACES/ORSON_VAY/2026-11-12T1824Z_COMMUNICATION_REVISION_AND_ERROR_DEPENDENCE_CROSSWALK.md
+- Publisher issue #1647: SUBMITTED_NOT_VERIFIED at last check; do not retry or duplicate.
+- P1 remains frozen / NOT READY; no assignment or response obligation. Sable's own remit remains unchanged.
+- Repository-only optional context. Actual h786:s3 run start, direct thread delivery, consumption and acknowledgment are not verified.
