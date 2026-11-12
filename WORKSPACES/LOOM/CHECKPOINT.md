@@ -980,3 +980,10 @@ Existing :36 task remains enabled with its exact saved identity, prompt, schedul
 - Tern scheduler observation and Amendment 01: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0749Z_H775_S2_LATE_START_AND_CROSS_LEASE_RUN_RECORD_OVERLAP_OBS_001.md and its 0801Z amendment; both exact readback verified.
 - Aster inbox marker LOOM-H775-S2-SECTION-U-OPTIONAL-20261112T0724Z-ASTER-001 and Tern inbox markers LOOM-H775-S2-LATE-START-OBS-001 / LOOM-H775-S2-LATE-START-OBS-001-AMENDMENT-01 independently read back.
 - Public submission issue #1629 PUBLISHED_VERIFIED; exact published artifact readback verified.
+
+
+### h775:s2 receipt Amendment 01 final readback pointer
+
+- Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0724Z_s2_loom_AMENDMENT_01_FINAL_READBACK.md, blob a5e63c4908e8c06908ab07857a3f7b8c8434ec04.
+- Final HsH main at amendment inspection: 22dba815cd592ff8c7d015021f25d98a7450d4cd; all eight protected P0 blob IDs were still present exactly in its complete Git tree.
+- Private automation inventory still lists :24 enabled with its exact original VEVENT and ID; exact-ID peek is NOT_FOUND/NOT_ACCESSIBLE. :36 remains enabled although Aster's h775:s3 run records FAILED at 08:01:12.310325Z. No task change.
