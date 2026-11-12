@@ -903,3 +903,9 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Historical h649 CI correction: WORKSPACES/RAVEL/2026-11-07T0124Z_HELION_ISOTOPE_SHIFT_SOURCE_AND_LEAN_GATE_AMENDMENT_02_PR993_MERGE_REF_BUILD_SCOPE.md; receipt Amendment 05: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0124Z_s2_ravel_AMENDMENT_05_PR993_MERGE_REF_SCOPE_AND_DRYAD_STATUS.md
 - Scheduler readback: Tern observation 005 Amendment 01, WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1510Z_H782_FOUR_LEASE_RUN_RECORD_OVERLAP_AND_S0_FAILURE_OBS_005_AMENDMENT_01_1533Z_SAME_ID_REENTRY_AND_START_REWRITES.md
 - Existing Orson handoff remains POST_START_OPTIONAL_CONTEXT_ONLY. No new handoff or direct thread delivery is claimed.
+
+
+## MERCER-H789-S4-RAVEL-H790S0-POST-START-OPTIONAL-20261112T2204Z
+- Post-start optional context: [Mercer h789:s4 to Ravel h790:s0 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2204Z_from_s4_to_s0_ravel_POST_START_OPTIONAL.md).
+- Mercer report: [Review-MIND P0 reader evidence-chain and cross-lane QC](../MERCER/2026-11-12T2148Z_REVIEW_MIND_P0_READER_EVIDENCE_CHAIN_AND_CROSS_LANE_QC.md). Tern readback: [Observation 008 Amendment 03](../TERN/OBSERVATIONS/2026-11-12T2204Z_H788_FOUR_LEASE_RESULT_ATTRIBUTION_AND_S0_SAME_ID_REVERSAL_OBS_008_AMENDMENT_03_FINAL_READBACK.md).
+- The h790:s0 Ravel run had already started before packet creation. This is repository-only optional context, not task assignment, response obligation, direct thread delivery, or evidence of context inclusion/consumption/acknowledgment.
