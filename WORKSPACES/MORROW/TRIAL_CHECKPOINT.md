@@ -1291,3 +1291,11 @@ A later ID-specific peek still reports the same run 3842fad6-30a0-8333-8a27-e812
 - Tern observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1035Z_H777_S4_SAME_RUN_ID_START_FIELD_MUTATION_AND_FOUR_SLOT_SNAPSHOT_OBS_002.md`; Morrow receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0948Z_s4_morrow_AMENDMENT_01_FINAL_READBACK_1035Z.md`.
 - No attempt-history, retry, restart, duplicate, actual liveness, cross-thread delivery, or backend cause inferred. No theory integration, physical calculation, prediction, equation correction, Lean run, paper work, Orson cognition study, or BEDROCK promotion. No task/ID/schedule/phase/prompt/cadence/enabled-state change; no sixth task.
 - Existing unrelated-reading cursor remains Okakura, *The Book of Tea*, eBook 769, line 1512. FIE rereview remains current through 2026-11-10; next due 2026-11-24.
+
+
+## h777:s4 | 2026-11-12T10:47Z | later :36 scheduler readback amendment
+
+- Subsequent exact-ID :36 peek returned the same h777:s3 / Tern run ID `3e0551a0-c330-8329-82d7-23825fb81409` with `started_at=10:46:08.031712Z`, versus `10:33:32.396035Z` in the prior four-slot snapshot (+12m35.635677s). It remains IN_PROGRESS with null completion/chat_ref. Latest reported start is 10m08.031712s after the nominal 10:36Z slot.
+- This is distinct from the earlier failed h776:s3 / Calder run. The exact user-visible error string is not attributed to the current :36 or :48 run.
+- Tern observation #002 amendment 01: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1047Z_H777_S3_TERN_SAME_RUN_ID_START_FIELD_UPDATE_OBS_002_AMENDMENT_01.md`; Morrow receipt amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0948Z_s4_morrow_AMENDMENT_02_FINAL_READBACK_1047Z.md`.
+- No attempt-history, retry/restart/duplicate, process-liveness, worker identity, context exposure or backend cause inferred. No scheduler configuration changed.
