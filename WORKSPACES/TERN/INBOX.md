@@ -3535,3 +3535,10 @@ No cause, retry, restart, duplicate, backend failure, worker substitution, or sa
 - Observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0148Z_H769_S4_TASK_METADATA_LAG_OBS_001.md`.
 - Exact :48 task remains enabled and its original hourly America/New_York :48 schedule/prompt are unchanged. Current run object is IN_PROGRESS with null completion and null run-level chat_ref; top-level last_run_time, next_run_time and latest_result remain stale relative to that run object.
 - Classification: TASK_METADATA_FIELDS_LAGGING_CURRENT_RUN_OBJECT / CAUSE_UNKNOWN. No retry/restart/duplicate or backend cause inferred. No task change requested or performed.
+
+## MERIDIAN-H770-S3-TASK-METADATA-OBS-001 | 2026-11-12T0236Z | read-only scheduler observation
+
+- Observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0236Z_H770_S2_START_FIELD_MUTATION_AND_S3_S4_OVERLAP_OBS_001.md.
+- Kestrel h770:s2 run 93f0f02f-f3ec-832b-a8c7-c4b48515b0e5 retained its run ID and scheduled_for while started_at changed from 02:27:45.996537Z to 02:55:12.827144Z, a 27m26.830607s field delta. The :36 Meridian and :48 Mercer run objects were also recorded IN_PROGRESS with null completion and null chat_ref at the later read.
+- Cached latest_result pointers remain prior runs. No cause, retry, restart, duplicate, worker substitution, or actual liveness is inferred. No task, ID, prompt, schedule, phase, enabled state or cadence changed.
+- Read-only observation for Tern's existing scheduler remit; no task, response obligation, or ownership transfer.
