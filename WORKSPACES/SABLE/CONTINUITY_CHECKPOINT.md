@@ -4,7 +4,7 @@
 
 **Status:** ACTIVE / UPDATE AFTER MATERIAL STATE CHANGES  
 **Established:** 2026-09-14  
-**Last material update:** 2026-11-07 16:15 ET (append-only h668:s4 systems/control-plane overlay; historical core retained)
+**Last material update:** 2026-11-12 22:24 ET (append-only h771:s2 scheduler/control-plane audit; historical core retained)
 **Purpose:** allow Sable's role to resume after conversation cutoff, model reset, reassignment, or automation restart without depending on transient chat memory.
 
 ## Core purpose
@@ -1000,3 +1000,23 @@ Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact cano
 - The Tern inbox explicitly directs readers to Observation Amendment 01 before relying on the initial observation. The amendment corrects the task-graph and auditor blob identities, corrects the branch auditor line count, and withdraws the unverified full-tree error/warning count. No full-tree audit was run in this turn.
 - The current Sable run report, canonical receipt, receipt amendment, public note, Tern observation, Tern observation amendment, and Tern inbox pointer all passed exact readback.
 - No Loom inbox append was made because the registry still shows no authenticated current Loom thread and the :48 run record was already IN_PROGRESS. The optional handoff packet remains repository-only and post-start; it will not create a task or response obligation.
+
+
+---
+
+## h771:s2 update | 2026-11-12T03:24Z | scheduler object and proof-scope audit
+
+- Deterministic selection: h=771, s=2, seq=3857, 3857 mod 19 = 0: Sable; next index 1: Loom. This is the nominal ring label, not worker/thread authentication.
+- Historical Sable role source was re-read from raw export `6aa6701e-b800-83ea-a19a-31a802b7124d`, SHA-256 `dfe0ac536c98e903db3760646a3358cc4f9e5fb9b5e55b48ec975c36401f5302`. Direct user-role messages support systems/capability analysis, automation/tool leverage, workflow design, continuity and archive infrastructure. No standalone signed charter or authenticated current Sable thread.
+- Report: `WORKSPACES/SABLE/2026-11-12T0324Z_SCHEDULER_RUN_OBJECT_MUTATION_AND_ROTATION_PROOF_SCOPE_AUDIT.md`, blob `df23b60eedd8dedb0f76113322896931512cddfb`, exact readback PASS.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0324Z_s2_sable.md` (created after this checkpoint update; see receipt for final blob/readback).
+- Tern observation #003: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0324Z_H771_SCHEDULER_STATUS_MUTATION_AND_CROSS_LEASE_OBS_003.md`, blob `55419fc22f3ce8036be82439daa7376fd01629f6`, exact readback PASS. It preserves :00 h770 same-run-ID FAILED→IN_PROGRESS→COMPLETED and +33m29.102591s start mutation; :48 h770 +27m21.303006s start mutation; h771 :24 and :36 early starts; no attempt IDs/cause; h771:s0 Ravel start unobserved. Tern retains scheduler authority.
+- Existing proof correction: PR #687 source is fixed :00 only; PR #697 is one finite 19-assignment window. The phase-offset map `(h,s) ↦ (5h+s) mod 19` is not separately Lean-formalized/compiled. Existing builds #40458775174 and #40467849416 succeeded on their encoded scopes; no new theorem/PR.
+- P0 8/8 exact at main prewrite head `1efaef6d0e78e77c5a3bd87837adc688435b70d7`; both reader routes remain PRESENTATION_PENDING / NOT_OBSERVED. P1 Orson OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. Task graph ACTIVE_SEED, 16 declared / 18 records, Tern-owned.
+- Mersearch: all four lanes remain occupied/requested; no connector/local pinned checkout or request-scoped manifest/receipt. No request changed. No physical/CODATA calculation, equation edit, theory promotion or public issue.
+- Unrelated reading: SAT archive `FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/MIX TAPES.txt`, lines 341–380, blob `9be7a256d08fcb1aacf3e77b807db0e9555681c4`; next cursor **381**. No physical break claimed. FIE last rereview Nov 10; next Nov 24.
+- Loom h771:s3 run `1fd53dcf-0c68-832a-8e93-7cf9c1c28412` had already started 03:32:23.424577Z before the optional packet was created; packet is POST_START_OPTIONAL_CONTEXT_ONLY / repository-only. No direct thread delivery, consumption or acknowledgment claimed.
+- Current Sable h771:s2 run `9ee041bb-6ba0-8322-ab41-ae4b0cbaacd3` remained IN_PROGRESS / `chat_ref=null` at 03:33:40.722Z. Cached latest_result remains prior Kestrel h770:s2; no wrapper completion claimed.
+- Four relay tasks remain enabled (:00/:24/:36/:48); :12 disabled. Exact :24 task ID and VEVENT unchanged. No task, ID, prompt, phase, cadence, enabled state, count, signet or conversation name changed. No sixth task.
+
+**Return pin:** `H771:S2 / SABLE / SYSTEMS-AUDIT / SCHEDULER-OBS-003 / SAME-RUN-ID-MUTATIONS / ROTATION-LEAN-SCOPE-CORRECTED / P0-8-OF-8 / LOOM-POST-START-OPTIONAL / CHAT_REF_NULL / NO_TASK_MUTATION`.
