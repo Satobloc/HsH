@@ -26,11 +26,12 @@ Independent operationalization, deliberate communication, exposure-aware compari
 
 ## Next cursor
 
-Await an independently recorded Track B disposition of PR #951 before any POC or PR change. Preserve Sable's historical POC-level disposition as distinct from a current PR #951 review. If a disposition arrives, the next bounded design task is an authenticated transfer receipt with origin/test context witnesses, a predeclared expected/observed comparator, explicit exposure lineage, reviewer relation when independent review is claimed, and separate candidate / transfer-tested / promoted states. Keep PR #951 OPEN / DRAFT / UNMERGED until the review gate is satisfied.
+Await an independently recorded Track B EvidenceLedger/subject-scope disposition of PR #951 before any POC or PR change. Preserve Sable's historical POC-level sticky-lifecycle disposition as distinct from the current EvidenceLedger decision. If a disposition arrives, first define the source-to-Lean adapter and regression contract; then consider a bounded sandbox implementation on the existing Track A surface. Keep PR #951 OPEN / DRAFT / UNMERGED until the review gate is satisfied.
 
-Last completed relay: h750:s2, 2026-11-11T06:24:00Z. Immediate next ring label: Nadir Voss (index 10). The :12/s1 lease is disabled; with the currently enabled slot set {s0,s2,s3,s4}, the next deterministic Elias appearance is h758:s0, 2026-11-11T14:00:00Z, conditional on the active-slot set and ring remaining unchanged. Unrelated reading cursor: `MIX TAPES.txt` line 301. FIE next review: 2026-11-24. No Track A handoff to Nadir; his current protected scope excludes Track A.
+Latest saved relay: h769:s2, 2026-11-12T01:24Z; current scheduler run was IN_PROGRESS at final peek, with no run-level chat_ref. Immediate next ring label: Nadir Voss (index 10). No Track A handoff to Nadir; his protected scope exclusion remains in force. Across the current active slot set {s0,s2,s3,s4}, the next deterministic Elias appearance is h777:s0 at 2026-11-12T09:00Z, conditional on the ring and enabled-slot set remaining unchanged. Unrelated reading cursor: MIX TAPES.txt line 341. FIE next review: 2026-11-24.
 
-
+Latest bounded report: WORKSPACES/ELIAS_KERN/2026-11-12T0124Z_TRACKA_REVIEW_GATE_NO_DELTA.md. Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0124Z_s2_elias_kern.md. No POC/PR/production/task/graph change, no physical calculation, no theory promotion, no new Mersearch request, and no public issue.
+ 
 ## 2026-10-30T1312Z — latest bounded Track A pass
 
 - Run key: `REVROT3-19-20261011:469:s1`; selected Elias Kern; next ring label Nadir Voss.
