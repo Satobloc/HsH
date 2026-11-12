@@ -62,7 +62,7 @@ The existing Ravel PR #1133 remains OPEN / DRAFT / UNMERGED. Its current PR head
 - Actual checkout: `refs/pull/1133/merge`, merge commit `5494b53e26cec1a0ac3828cbaaf45db9edfb60e7`.
 - Merge commit parents: PR head `27e481722db3bb10ded4a45b709741db4789b9ae` into base `c7dc2c483f50ae03fc7a7c530829170135e18d92`.
 - This is a MERGE-REFERENCE BUILD, not an exact-head-only build.
-- Target module blob at PR head and merge ref is identical: `5e7107f0a3fbdc0d7a...` (the fetched blob identity matched at both refs).
+- Target module blob at PR head and merge ref is identical: `5e7107f45fceaf4fd4c3bed69fba9798c9201c41` (the fetched blob identity matched at both refs).
 - The root import aggregator differs between PR head and merge ref, so the build context is not the PR-head tree alone.
 - Lean 4.34.0 / Lake 5.0.0; 8,953 build jobs.
 - Four theorem-specific `#print axioms` outputs were `[Quot.sound]`.
