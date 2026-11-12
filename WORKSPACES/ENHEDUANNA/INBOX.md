@@ -374,3 +374,13 @@ Commit metadata shows the Enheduanna handoff file was created at 22:07:40Z and t
 - **Status:** POST_COMPLETION_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER.
 - **ChatGPT delivery:** NOT_SENT. The h773:s3 run had already completed at 05:52:07.920340Z before this packet was created. Recipient consumption, acknowledgment, and comprehension are NOT_CLAIMED.
 
+
+
+## NADIR-H784-S4-TO-ENHEDUANNA-H785-S0-OPTIONAL-001 | 2026-11-12T1648Z | PRE_NOMINAL_OPTIONAL_CONTEXT_ONLY
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1648Z_from_s4_to_s0_enheduanna_PRE_NOMINAL_OPTIONAL.md`.
+- Nadir report: `WORKSPACES/NADIR_VOSS/2026-11-12T1648Z_REVIEW_MIND_ORSON_CI_AND_BRANCH_PROVENANCE_QC.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1648Z_s4_nadir_voss.md`.
+- Optional Review-MIND context: Orson PR #1115 exact-head push run #43119833616 succeeded on head 4b092a3b; its PR description still says LEAN_NOT_RUN. PR #850 head 4e9b685a has a successful merge-reference build only. The P1 task-graph PR #850 pointer is stale and was routed to Tern.
+- Orson retains sole P1 ownership; no task, review request, response obligation, or ownership transfer.
+- No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed. The h785:s0 run had not surfaced at handoff creation.
