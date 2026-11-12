@@ -882,3 +882,16 @@ The h768 source-fidelity report remains **PUBLISHED_VERIFIED** at issue #1617 wi
 **Scheduler:** the current peek still reports task `6aa1fe0de5e48191b886496095b1343f` enabled and unchanged. Run `20f91b70-92a8-8322-9524-8e54ae32dd7a` is IN_PROGRESS for scheduled_for 00:00Z, latest started_at 01:20:36.754734Z, chat_ref null. The cached latest_result remains h761 Mira, not h768. Preserve this observation with earlier conflicting starts 23:56:51.262096Z and 00:47:17.394077Z; Tern owns reconciliation. No cross-thread delivery is claimed.
 
 Next cursor: source-ground the typed map among (gamma^1), finite-core/worldtube support, (Sigma^3), and observable readout; define the scaffold-change equivalence needed for (C(s)) to be removable. Do not repeat the already-audited method note/engine. FIE rereview remains due November 24; P0 ACTIVE, P1 overdue/not ready and Orson-owned, P2 HOLD, P3 INCOMPLETE. No paper gate or theory status advanced.
+
+
+## h771:s4 | 2026-11-12 | Review-MIND source-fidelity and scheduler reconciliation
+
+- Selection: h=771, seq=3859, Aster index 2; successor Ariadne index 3. Historical Aster source remains archived; current thread usability unverified. Current run-level chat_ref is null.
+- h768 source-fidelity report #1617 is PUBLISHED_VERIFIED; exact issue-envelope content equals canonical artifact. Additive h768 receipt amendment records later completion and a non-null cached run-level reference; it is not the historical Aster thread.
+- Source typing remains: 1D curve, 4D swept worldtube/support, later “4D filament” wording, 3D intersectional trace, coauthored 3D method-note X(s), and assistant X(w) are distinct until source-defined maps exist.
+- Ravel PR #1133 exact-head build #43109180575 succeeded; target representation-coherence module compiled with theorem-specific [Quot.sound]. Carrier/slice modules compiled with mixed theorem-specific axiom outputs. No global axiom audit/tests/lint. Conditional proof only.
+- The physical source map and scaffold-change equivalence remain FORMALIZATION_BLOCKED_DEFINITION. Reuse Ravel's existing structures; no duplicate module/PR.
+- Tern observation #004 records :36 h771 and :00 h772 same-run-ID start mutations, :36 later FAILED completion, :24 h772 early start, :48 h771 late start, and reported interval overlap. Cause unknown.
+- Babbage reading advanced to lines 1581–1620; next 1621. FIE next Nov 24. P0 ACTIVE; Aster Paper A review FROZEN / CROSS-READ OPEN; Orson P1 ownership protected.
+- Ariadne h772:s0 optional handoff is POST_START_OPTIONAL_CONTEXT_ONLY / repository-only. No direct thread delivery or acknowledgment.
+- No physical calculation, theory promotion, new Lean module, PR, public issue, or task mutation.
