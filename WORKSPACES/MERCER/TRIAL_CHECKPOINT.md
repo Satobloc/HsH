@@ -3,7 +3,22 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 171, 2026-11-12 (h774:s3; report, canonical receipt and Amendment 01 filed; final P0 recheck at main f5f415b1 returned 194 ahead / 0 behind / 93 changed paths, no protected P0 path, 8/8 exact; both legacy A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED; current :36 execution remained IN_PROGRESS with completion/chat_ref unavailable; Ravel h774:s4 handoff POST_START_OPTIONAL_CONTEXT_ONLY; two post-h773:s4 work-product receipts now verified, below five-receipt deep-upkeep trigger; no task or automation mutation).
+**Current through:** Run 172, 2026-11-12 (h778:s2; report, canonical receipt, Tern scheduler observation and Ravel optional handoff filed/read back; P0 eight-file fingerprint 8/8 exact at main 9cfee1845c9bf1d9fa356d95c0ef4decedf24a59; 129 commits ahead/0 behind from prior P0 baseline with no protected P0 path; both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe or site/manuscript write; current :24 run remained IN_PROGRESS with null completion/chat_ref and stale prior latest_result; :36 successor run was already IN_PROGRESS with an early reported start and stale prior latest_result; Tern observation and inbox append verified; Ravel handoff/inbox append POST_START_OPTIONAL_CONTEXT_ONLY; no Lean target/build, physical calculation or CODATA comparison; no task or automation mutation).
+
+## Run 172 | 2026-11-12T1024Z | h778:s2 | P0 route no-trigger recheck
+
+- Report: `WORKSPACES/MERCER/2026-11-12T1024Z_RUN_172_P0_ROUTE_NO_TRIGGER_AND_SOURCE_RECHECK.md` (blob `1574c002271cef6198de1dfab1fa241eb8a668f0`).
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1024Z_s2_mercer.md` (blob `ee099c96afb9dabca3f7d417134e9cba8f629ef5`).
+- P0 recheck: all eight protected blobs exact at main `9cfee1845c9bf1d9fa356d95c0ef4decedf24a59`; 129 commits ahead / 0 behind from prior P0 baseline, no protected path changes. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, manuscript/site edit, PDF derivative or deployment.
+- Browser connector requires the originating browser context; none was available. The current Pages workflow remains Viewer/Whirligig scoped. No Sites editor or owner preview.
+- Current Code Grurple roster controls Mercer as Paper A+B presentation QA only. Historical :48 physics remit recovered from direct user-role source; no authenticated current Mercer thread. Lane 24 remains BACKSEAT/HOLD.
+- Four Mersearch request files remain requested; expected request-scoped manifests/receipts absent. No new search or lane mutation.
+- Tern scheduler observation `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1030Z_H778_S2_S3_RUN_OBJECT_READBACK.md` and Tern inbox append verified. Current :24 run was IN_PROGRESS with null completion/chat_ref; :36 successor run was already IN_PROGRESS with early reported start. No cause inferred; no scheduler change.
+- Ravel handoff and inbox append are POST_START_OPTIONAL_CONTEXT_ONLY. No direct ChatGPT-thread delivery, consumption or acknowledgment.
+- Unrelated reading: SAT archive `SAT Mark V/TheTANGLE.txt`, lines 1721-1760; next cursor 1761. FIE next review November 24.
+- No new Lean target/build, physical calculation, CODATA comparison, fit, prediction, independent measurement, theory promotion, task mutation or sixth task.
+
+---
 
 ## Run 169 | 2026-11-11T1524Z | h759:s2 | P0 route QA no-trigger recheck
 
