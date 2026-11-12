@@ -4158,3 +4158,14 @@ The h782 scheduler readback is already preserved in [Tern Observation 006](OBSER
 - This is a scheduler-record observation only. No retry, restart, duplicate process, concurrency, worker identity, notification delivery, or backend cause is inferred. No attempt/event history was exposed.
 - Read-only routing. Tern retains scheduler authority. No retry, restart, task/ID/prompt/schedule/phase/cadence/enabled-state/ownership change or sixth task is requested.
 - Repository inbox placement is not direct ChatGPT delivery, consumption, or acknowledgment.
+
+
+## TERN-H787-S3-S4-CROSS-HOUR-INTERVAL-GRAPH-001 | 2026-11-12T19:50Z | Read-only cross-hour scheduler interval graph
+
+- Observation: [h787 cross-hour interval graph](OBSERVATIONS/2026-11-12T1936Z_H787_S3_S4_CROSS_HOUR_INTERVAL_GRAPH_OBS_001.md).
+- Five run records across h786/h787 form a connected interval graph. Four intersections are exact: :00 h786↔:24 h787 601.434708s; :00 h786↔:48 h786 846.966751s; :24 h787↔:48 h786 601.434708s; :48 h786↔:36 h787 140.276468s. The current :36 h787↔:48 h787 pair remains right-censored at **at least 304.331117s** from the 19:50:19Z clock anchor; both runs remained IN_PROGRESS on the immediately following exact-ID peeks.
+- Current :36 h787 run `cf01f09b-c548-8328-8b47-8da4cee7846f` and :48 h787 run `e4feb729-45b0-8325-a3da-04a3a5de0286` both have null run-level `chat_ref`; their cached latest results refer to earlier h786 runs. Do not attribute cached content to current runs.
+- This extends, rather than replaces, the earlier Sable h786 and Alberr h787:s2 snapshots. Interval intersections are scheduler-record evidence only; no actual process concurrency, retry, restart, duplicate execution, worker identity, or backend cause is inferred.
+- Public companion issue [#1651](https://github.com/Satobloc/HsH/issues/1651) is PUBLISHED_VERIFIED for the earlier 19:37Z snapshot. This later observation is internal and no duplicate issue was created.
+- Read-only routing. Tern retains scheduler authority. No task, ID, prompt, schedule, phase, cadence, enabled-state, ownership, retry, restart, or sixth-task change is requested.
+- Repository inbox placement is not direct ChatGPT-thread delivery, consumption, or acknowledgment.
