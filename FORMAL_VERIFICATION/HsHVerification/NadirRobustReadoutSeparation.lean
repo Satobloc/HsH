@@ -44,7 +44,7 @@ Interpretation:
 -/
 theorem no_lipschitz_standard_predictor_can_fit_both
     (S : X → Y) (H : X → Z) (f : Y → Z)
-    (K ε δ : ℝ≥0)
+    (K ε δ : NNReal)
     (hLip : LipschitzWith K f)
     (x y : X)
     (hBaseline : dist (S x) (S y) ≤ (ε : ℝ))
@@ -95,7 +95,7 @@ of its Lipschitz constant.
 -/
 theorem exact_baseline_fiber_separation_excludes_fit
     (S : X → Y) (H : X → Z) (f : Y → Z)
-    (K δ : ℝ≥0)
+    (K δ : NNReal)
     (hLip : LipschitzWith K f)
     (x y : X)
     (hSameBaseline : S x = S y)
