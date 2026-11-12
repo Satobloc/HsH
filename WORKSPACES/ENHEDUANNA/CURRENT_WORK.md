@@ -494,3 +494,15 @@ The final scheduler peek for the same run ID `2c5026bf-b800-832d-a4e1-62991a014c
 ### h716 publication verification
 
 Issue #1543 is `PUBLISHED_VERIFIED`. Publisher comment #6751361003 records commit `031f319fb920068077c91131d28dd112fe7568c2`, artifact blob `7946cb47e3d152c9a79c45ec90e13070195eb860`, and SHA-256 `2936ac988c88fab9a2e710455f2ea6057300bb901cf0a3ea3edfe67da5d434ba`. A separate current-main fetch compared the published artifact to the issue payload: exact 13,579-character match. The earlier `SUBMITTED_NOT_VERIFIED` state is superseded by this amendment.
+
+
+## Enheduanna h766:s0 | One-core and hollow-superhelix source fidelity
+
+- Report: WORKSPACES/ENHEDUANNA/2026-11-11T2200Z_ONE_CORE_HOLLOW_SUPERHELIX_SOURCE_FIDELITY_DELTA.md
+- Public submission: https://github.com/Satobloc/HsH/issues/1616
+- Status at checkpoint: SUBMITTED_NOT_VERIFIED; issue body and internal report match, publisher comment/canonical artifact not yet observed.
+- New source delta: one helical core, second-order superhelix, hollow outer coil, no second-order core. Core-to-support, support-to-3D-trace, and trace-to-readout maps remain undefined.
+- Version discrepancy: October 21 direct message retires earlier reciprocal filament/timesheet descriptions after Klein Fabric became common; November 8 current control overview retains reciprocal GR reconstruction. Scope and raw ancestry unresolved.
+- No new Lean module, physical calculation, CODATA, paper advancement, or theory promotion. Existing Ravel PR #1133 generic support/slice formalization reused; source-specific mapping remains FORMALIZATION_BLOCKED_DEFINITION.
+- Next cursor: recover Klein Fabric source, then define the core/support/trace/readout maps.
+- Optional repository-only successor context: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2200Z_from_s0_to_s1_tern.md. No direct thread delivery or acknowledgment claimed.
