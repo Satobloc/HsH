@@ -94,23 +94,37 @@ theorem no_lipschitz_standard_predictor_can_fit_both
 /--
 Exact-fibre corollary: if two states have exactly the same baseline
 readout, a proposed readout separation greater than twice the tolerance
-cannot be fitted by any deterministic standard-only predictor, regardless
-of its Lipschitz constant.
+cannot be fitted by any deterministic standard-only predictor. No
+Lipschitz assumption or bound is needed in this exact-fibre case.
 -/
 theorem exact_baseline_fiber_separation_excludes_fit
     (S : X → Y) (H : X → Z) (f : Y → Z)
-    (K δ : NNReal)
-    (hLip : DistLipschitzWith K f)
+    (δ : NNReal)
     (x y : X)
     (hSameBaseline : S x = S y)
     (hSeparation :
       2 * (δ : ℝ) < dist (H x) (H y)) :
     ¬ (dist (f (S x)) (H x) ≤ (δ : ℝ) ∧
        dist (f (S y)) (H y) ≤ (δ : ℝ)) := by
-  apply no_lipschitz_standard_predictor_can_fit_both
-    S H f K 0 δ hLip x y
-  · simpa [hSameBaseline]
-  · simpa using hSeparation
+  rintro ⟨hErrorX, hErrorY⟩
+  have hSamePrediction : f (S x) = f (S y) :=
+    congrArg f hSameBaseline
+  have hErrorX' :
+      dist (H x) (f (S x)) ≤ (δ : ℝ) := by
+    simpa [dist_comm] using hErrorX
+  have hErrorY' :
+      dist (f (S x)) (H y) ≤ (δ : ℝ) := by
+    simpa [← hSamePrediction] using hErrorY
+  have hBound :
+      dist (H x) (H y) ≤ 2 * (δ : ℝ) := by
+    calc
+      dist (H x) (H y) ≤
+          dist (H x) (f (S x)) +
+            dist (f (S x)) (H y) := dist_triangle _ _ _
+      _ ≤ (δ : ℝ) + (δ : ℝ) :=
+        add_le_add hErrorX' hErrorY'
+      _ = 2 * (δ : ℝ) := by ring
+  linarith
 
 #print axioms no_lipschitz_standard_predictor_can_fit_both
 #print axioms exact_baseline_fiber_separation_excludes_fit
