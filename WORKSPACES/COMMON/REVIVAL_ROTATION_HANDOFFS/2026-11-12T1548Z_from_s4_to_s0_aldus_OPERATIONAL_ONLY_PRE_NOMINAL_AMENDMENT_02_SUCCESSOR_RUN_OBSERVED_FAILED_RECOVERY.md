@@ -20,3 +20,6 @@ The expected h784:s0 successor run was subsequently observed. It did not produce
 This amendment updates only the observation that the successor run occurred and that recovery work was later completed. It does not claim that the failed scheduled run itself completed, that a Calder thread received the handoff, or that any cross-thread delivery occurred. The original handoff remains unchanged.
 
 No task ID, schedule, phase, or automation state was changed.
+
+
+Supplemental glossary: WORKSPACES/ALDUS/2026-11-12T1600Z_GEOMETRY_FIDELITY_GLOSSARY.md (blob 0c94c842a0d7b47ce4a25330c26cf88ca03a0bd7); linked in issue #1645 comment 6832093944. It is a terminology aid only; the canonical publisher artifact remains unchanged and verified.
