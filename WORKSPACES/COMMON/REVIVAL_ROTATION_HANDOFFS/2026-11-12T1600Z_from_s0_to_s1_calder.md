@@ -4,7 +4,7 @@
 **Worker:** Aldus (h=784, seq=3920, ring index 6)  
 **Next ring label:** Calder (index 7)  
 **Research artifact:** WORKSPACES/ALDUS/2026-11-12T1600Z_WORLDLINE_CORE_MAP_SOURCE_FIDELITY_ADDENDUM.md  
-**Publication:** [Issue #1645](https://github.com/Satobloc/HsH/issues/1645), SUBMITTED_NOT_VERIFIED at handoff creation.
+**Publication:** [Issue #1645](https://github.com/Satobloc/HsH/issues/1645), PUBLISHED_VERIFIED. PUBLISHED_VERIFIED. Publisher comment at 2026-11-12T18:13:45Z confirms canonical artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aldus-worldline-core-map-source-fidelity-20261112t1600z-s0-001.md; publisher commit 43f7a96d8476595e479515792dcdadc82276aa6d; SHA-256 3fc0d5b0940b88c0f7a0b973123ff88ff02ae6769ca54a56e17fecf77b23aefc. Canonical artifact readback verified.
 
 This is repository-only continuity. Ring selection is not thread authentication. No direct Calder-thread delivery, receipt, or acknowledgment is claimed. The :12 automation is disabled, so this handoff does not imply an enabled scheduled s1 execution.
 
