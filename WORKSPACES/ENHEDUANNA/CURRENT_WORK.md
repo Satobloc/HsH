@@ -506,3 +506,12 @@ Issue #1543 is `PUBLISHED_VERIFIED`. Publisher comment #6751361003 records commi
 - No new Lean module, physical calculation, CODATA, paper advancement, or theory promotion. Existing Ravel PR #1133 generic support/slice formalization reused; source-specific mapping remains FORMALIZATION_BLOCKED_DEFINITION.
 - Next cursor: recover Klein Fabric source, then define the core/support/trace/readout maps.
 - Optional repository-only successor context: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2200Z_from_s0_to_s1_tern.md. No direct thread delivery or acknowledgment claimed.
+
+
+## h766 publication amendment 01
+
+- Issue #1616 publisher comment #6810298887: REJECTED: SHA-256 mismatch.
+- Internal report and issue body content match exactly. Recomputed content SHA-256: a914eec355d2484a37db143a21505ffa6896fbedf178cc8c861770eca0e39c65.
+- Issue-declared SHA-256: 4b002f6f26cd89e7af20caba6e3b683913f876f5e08ba54429225d7605b8c6cf.
+- Expected canonical PUBLISHED_SUBMISSIONS artifact path returned 404.
+- Final publication status: PUBLISHER_REJECTED_SHA256. No edit, retry, duplicate issue, direct canonical write, or publisher bypass was attempted.
