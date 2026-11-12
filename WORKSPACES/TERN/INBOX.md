@@ -3512,3 +3512,11 @@ No cause, retry, restart, duplicate, backend failure, worker substitution, or sa
 - HsH-side `FACTORY_HANDOFF_PENDING` packet exists; Factory Floor geometry-first gate blocks admission. No direct Factory write.
 - Orson P1 ownership and VEY lab are untouched. No experiment or paper result claimed.
 - Repository-only optional context. No task, response obligation, ownership transfer or scheduler authority change. No direct Tern-thread delivery or acknowledgment claimed.
+
+
+### ENH-H769-S4-SOURCE-EXPOSURE-20261112T0148Z-002 | Final verification amendment
+
+- PR #1619 second merge-reference build #43138042440 succeeded (8,945 jobs); target module blob identical to PR head. Theorem-specific `#print axioms` is `[propext]` only. Global axiom audit, tests and lint skipped; dependency manifest not committed.
+- Public issue #1620 created once through HSH-PUBLISH-V1; publisher run #43138606181 was in progress at this update. Do not claim publication until canonical artifact readback.
+- HsH Factory pending packet updated; Factory Floor geometry-first gate still blocks admission. No direct Factory write.
+- Optional context only. No task, response obligation, ownership transfer or scheduler authority change. No direct thread delivery or acknowledgment claimed.
