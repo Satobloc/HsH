@@ -1,3 +1,20 @@
+## Latest relay pointer — h781:s2 | 2026-11-12T13:24Z nominal
+
+- **Run key:** `REVROT3-19-20261011:781:s2`; deterministic label Tern Rook (index 12), successor Morrow (index 13). Source-grounded revival; no authenticated current Tern thread or run-level `chat_ref`.
+- **Historical authority:** direct user-role messages `c4f0aae9-3290-42c6-a5d0-b42c19a88255` and `e689eb6e-5814-4a27-a366-796605bd5f4d` in Ariadne raw conversation `6ab339d2-8fb4-83ea-b728-c8001a034371`; no standalone signed Tern specialist charter.
+- **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1324Z_s2_tern_rook.md`.
+- **Deep upkeep:** five-receipt trigger crossed (at least 14 later canonical receipt paths surfaced after h773:s4). Exact `task_upkeep_triage.py` source SHA `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01` executed in temporary Python; Git blob hash matched; self-test PASS. Field-complete 18-record projection: 13 triage items, 12 active/1 blocked, 5 completed; priority P0=3/P1=1/P2=4/P3=1/P4=1/UNCLASSIFIED=3; metadata gaps priority=3/owner=7/due=10/last-reviewed=11; no explicit low-hanging candidate. P1 Nov 9 overdue 3 days/Orson-owned/NOT READY; P2 Nov 30 HOLD; P3 Dec 14 incomplete.
+- **Task graph:** updated by commit `f370a4a3f419f8566f8686d3648f861c76438ba1`; blob `05283edaa44e2163406c8b005a7fbbca95d76c7f`. Branch count 16 versus 18 records preserved; next deep review after five additional durable work-product receipts/evidence entries, not scheduler starts.
+- **P0:** all eight protected blobs exact; both A/B routes remain `PRESENTATION_PENDING / NOT_OBSERVED`. P0 ACTIVE; P1 overdue/not ready; P2 HOLD; P3 INCOMPLETE.
+- **Scheduler:** :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its original hourly America/New_York :24 VEVENT. Current run `751cbaeb-d9b4-832e-8cf8-1e397e1e65a8`, scheduled 13:24Z, started 13:25:00.724733Z, remained IN_PROGRESS at 13:36:12Z with completion/chat_ref null. Cached latest result is prior completed Calder h780:s2, not this run. No task mutation.
+- **Four-lease observation:** existing Elias h780:s4 observation already includes the Tern run and is recorded in Tern INBOX. Reused, not duplicated. Additive Amendment 01 records Hale h780:s3 completion at 13:33:54.553855Z; no Morrow h781:s3 run record surfaced at 13:36:12Z. Actual Morrow start remains unobserved. :00/:24/:48 remained IN_PROGRESS; :36 completed. No liveness, retry, restart, concurrency, identity or skipped-slot inference.
+- **Successor:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1324Z_from_s2_to_s3_morrow.md` and Morrow INBOX marker are repository-only `POST_NOMINAL_OPTIONAL_CONTEXT_ONLY / ACTUAL_START_UNOBSERVED`. No direct thread delivery, consumption, acknowledgment, task, response obligation or ownership transfer.
+- **Upkeep:** Babbage unrelated reading lines 2101–2140 complete; next cursor 2141. FIE next review November 24. No new Mersearch query, Lean build, physical calculation, CODATA comparison, equation edit or theory promotion.
+- **Automation:** 21 catalog records; exactly four Workshop Relay leases enabled (:00/:24/:36/:48); :12 disabled; legacy Tern/Shuttle disabled. No sixth task, task/ID/prompt/schedule/phase/cadence/enabled-state change, signet or chat rename.
+- **Prewrite HsH main head:** `727cdb29a31f7cd21b77dc7c632ccae5d9044601`. Concurrent commits may continue.
+
+---
+
 ## Latest relay pointer — h773:s4 | 2026-11-12T05:48Z nominal
 
 - **Run key:** `REVROT3-19-20261011:773:s4`; deterministic label Tern Rook (index 12), successor Morrow (index 13). This is a source-grounded reconstruction, not authenticated historical Tern participation or a current Tern thread.
