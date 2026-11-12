@@ -569,3 +569,28 @@ This is an actual successful MERGE_REF_BUILD of a generic conditional arithmetic
 LANGUAGE_GAME; REPETITION_REPORTED_HAIDA; REPEATED_CANDIDATE_EARLIER_CONTEXT_UNSEEN; NEW_CANDIDATE_XARACUU; POST_ATTEMPT_GEOGRAPHIC_REVEAL; SCORE_SELF_REPORT; SCORE_DISAGREEMENT; TUVAN_FACT_LIST; VISIBLE_BULLET_COUNT_13; ASSISTANT_ADJUDICATION_COUNT_12; FACT_ATOMIZATION_UNRESOLVED; SCORE_ARITHMETIC_CONDITIONAL; LINGUISTIC_CLAIMS_NOT_EXTERNALLY_VERIFIED; FLATTENED_TRANSCRIPT; RAW_ROLE_METADATA_ABSENT; DUPLICATE_BLOB_NOT_INDEPENDENT; NOT_A_CONTROLLED_EXPERIMENT; NOT_LLM_COGNITION_EVIDENCE; NOT_PHYSICAL_EVIDENCE.
 
 CLARIFIES Section T only in the limited sense that this later span identifies Haida as a transcript-reported repeated candidate. It does not change Section T's finding that Etruscan was not identified as the repeated candidate in lines 1161-1200.
+
+
+## Section V — Saterland Frisian score and unresolved item-level verdict (2026-11-12, h786:s4)
+
+**Source span:** `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt`, lines 1241–1280; matching SAT archive copy `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`. Both fetched ranges resolve to Git blob `f33eb29fbac65efa1db054239bb9c28a04a13a42` and match exactly. This is one transcript body in two custody locations, not independent corroboration.
+
+**Source form:** flattened transcript with textual “You said” / “ChatGPT said” labels; no raw role metadata, message UUIDs or source-level timestamps. No Nathan Direct attribution is made. The original Tag Conversation Corpus source-recovery report and ten-turn role ledger were read; the large raw export returned empty content through the current GitHub fetch route, so no fresh raw reparse is claimed.
+
+**Observed sequence and tags:**
+- 13 visible em-dash list lines of Saterland Frisian claims.
+- Assistant reports 12 points, without item-by-item verdicts or cited evidence.
+- Transcript-labeled user reports 21 prior points and asks whether all Saterland Frisian facts were correct.
+- Assistant confirms 33 total (`21 + 12 = 33`) but does not answer the factual-correctness question.
+- The next-round Tsonga guess is corrected in the transcript; that assistant statement is not externally fact-checked here.
+- The claim about official minority-language recognition remains UNVERIFIED. No linguistic claim is certified correct or incorrect.
+
+**Methodological finding:** visible lines are not necessarily scoring units. No atomization rule, per-item verdict table, evidence references or independent adjudicator appears. The aggregate award cannot identify which claim, if any, was counted incorrect; the user's correctness question remains unanswered.
+
+**Conditional formalization:** if 13 visible lines were exactly 13 binary scoring units and 12 points meant exactly 12 correct units, there are `choose(13,12)=13` possible verdict sets. This is an assistant-derived conditional finite-set result, not a theorem asserted by the source. The source-to-scoring-unit map is absent. No new Lean module or build was created; Lean/Lake are unavailable in this runtime. Existing Orson PR #850's generic `net_gain_identity` does not establish this source-specific mapping.
+
+**Tags:** `LANGUAGE_GAME`; `SATERLAND_FRISIAN_FACT_LIST`; `VISIBLE_EM_DASH_COUNT_13`; `ASSISTANT_SCORE_AWARD_12`; `PRIOR_SCORE_USER_REPORTED_21`; `TOTAL_ARITHMETIC_33`; `FACT_CORRECTNESS_QUESTION_UNANSWERED`; `FACT_ATOMIZATION_UNRESOLVED`; `AGGREGATE_SCORE_NONIDENTIFYING_CONDITIONALLY`; `TSONGA_GUESS_CORRECTION_TRANSCRIPT_ONLY`; `FLATTENED_TRANSCRIPT`; `TEXTUAL_SPEAKER_LABELS`; `RAW_ROLE_METADATA_ABSENT`; `DUPLICATE_BLOB_NOT_INDEPENDENT`; `LINGUISTIC_CLAIMS_NOT_EXTERNALLY_VERIFIED`; `NOT_A_CONTROLLED_EXPERIMENT`; `NOT_LLM_COGNITION_EVIDENCE`; `NOT_PHYSICAL_EVIDENCE`.
+
+**Publication:** issue [#1650](https://github.com/Satobloc/HsH/issues/1650) PUBLISHED_VERIFIED. Submission `loom-saterland-score-verdict-20261112t1848z-s4-001`; publisher comment #6833840046; commit `6ef9fa52f8947df7a285bf85f9cb46fdd8d272b0`; SHA-256 `093d812776f1255d281a38c4fdcc4495f2c4bf9bdcaf5e020538b3704a8bdc4b`; artifact blob `82ef7708f18fb56d715e243bc3e1db1013f2a7eb`. Readback verified.
+
+**Next cursor:** line 1281. The next lateral pass should change source or conceptual lens rather than extend this same language game indefinitely.
