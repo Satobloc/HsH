@@ -7,7 +7,7 @@
 - New report: `WORKSPACES/ASTER/2026-11-12T0736Z_RESPONSIVE_MEDIUM_NULL_RESPONSE_GATE_AND_SOURCE_AUDIT.md`.
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0736Z_s3_aster.md`.
 - Successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0736Z_from_s3_to_s4_ariadne.md` (POST_START_OPTIONAL_CONTEXT_ONLY; Ariadne's :48 run had already started).
-- Public intake: [issue #1628](https://github.com/Satobloc/HsH/issues/1628), checksum-bearing; publisher verification pending.
+- Public intake: [issue #1630](https://github.com/Satobloc/HsH/issues/1628), checksum-bearing; publisher verification pending; #1627 and #1628 were rejected and closed without artifacts.
 - Main result: source-grounded four-state medium response/representation distinction, adding the null-response limit to the existing #1486 primitive-economy gate. No new physical primitive, equation, Lean theorem or dataset.
 - Existing Ravel PR #1133 supplies the generic fibre-factorization scaffold; recorded merge-reference run #42933770097 succeeded, with tests/lint/nanoda/global axiom audit skipped.
 - P0 Code Grurple ACTIVE; P1 Orson cognition OVERDUE / NOT READY; P2 geometry HOLD; P3 full theory INCOMPLETE; FIE next review Nov 24.
