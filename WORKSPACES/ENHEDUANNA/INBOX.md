@@ -384,3 +384,11 @@ Commit metadata shows the Enheduanna handoff file was created at 22:07:40Z and t
 - Optional Review-MIND context: Orson PR #1115 exact-head push run #43119833616 succeeded on head 4b092a3b; its PR description still says LEAN_NOT_RUN. PR #850 head 4e9b685a has a successful merge-reference build only. The P1 task-graph PR #850 pointer is stale and was routed to Tern.
 - Orson retains sole P1 ownership; no task, review request, response obligation, or ownership transfer.
 - No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed. The h785:s0 run had not surfaced at handoff creation.
+
+
+## NADIR-H784-S4-HANDOFF-TIMING-AMENDMENT-01-20261112 | 2026-11-12T1700Z | POST_NOMINAL_SCHEDULED_TIME / ACTUAL_START_UNOBSERVED
+
+- Corrective amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1648Z_from_s4_to_s0_enheduanna_PRE_NOMINAL_OPTIONAL_AMENDMENT_01_POST_NOMINAL_INBOX_POINTER.md`.
+- Original handoff file commit was 16:59:44Z, before nominal 17:00Z. This INBOX pointer commit was 17:00:12Z, after nominal. The repository-delivery classification is therefore POST_NOMINAL, despite the preserved original filename.
+- Final :00 task readback at 17:00:15Z still exposed h784:s0 Aldus FAILED; no h785:s0 Enheduanna run record surfaced.
+- No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed. No assignment, response obligation, review request, or ownership transfer.
