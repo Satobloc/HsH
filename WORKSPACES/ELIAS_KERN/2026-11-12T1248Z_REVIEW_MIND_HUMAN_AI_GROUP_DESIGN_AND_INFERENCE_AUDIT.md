@@ -37,7 +37,7 @@ Key HsH source blobs read:
 - HSH_RESOURCES README: 1433b65480a04b1bd4ed64e4b234c3ecf1b576f0.
 - SAT archive README: 8cc300ba25a98dda803f6a0005bee9d97c3814ef.
 
-HsH main at the final preflight read was 2af1a706f14ffeaa9bc682795ed3eb807e0e9a39. SAT archive main was 37fcbdc49b331cd11209d203384c0b64a604c7b9. HSH_RESOURCES main was bd27eec89cbd666d073c807d9a9d9b941994d764. HSH_RESOURCES remains private research infrastructure by its own README; no private URL or raw private reference material is reproduced here.
+HsH main at the final preflight read was 2af1a706f14ffeaa9bc682795ed3eb807e0e9a39. SAT archive main was 37fcbdc49b331cd11209d203384c0b64a604c7b9. HSH_RESOURCES main was bd27eec89cbd666d073c807d9a9d9b941994d764. HSH_RESOURCES is designated internal research infrastructure by its README, while GitHub metadata reports the repository as public. No PRIOR_ART material was accessed or reproduced, and no direct HSH_RESOURCES URL is included in this HsH note.
 
 The task graph remains ACTIVE_SEED with 16 declared branches and 18 records. Tern retains graph reconciliation authority. No graph edit was made.
 
@@ -90,20 +90,20 @@ The four processed questionnaire CSVs were parsed as CSV records, not merely cou
 These totals correspond to 55 humans across the four mixed conditions, with nine sampled interaction ratings per human. The visible fields are round, own expression, peer expression, judged AI identity, and willingness. The files do not contain respondent_id or session_id. The public questionnaire projection therefore cannot reconstruct which nine rows belong to which respondent or group.
 
 The four exact data blobs:
-- A2: 9ea458f0d8b9a...
-- A3: 363305...
-- A4: 29eb49...
-- A5: 7ffbd...
+- A2: 9ea458f5ba92fb0aedccfffbf497fb01a8f92ddf
+- A3: 36330599372bd4ddabbb98b973326260e28e07ee
+- A4: 29eb49d6143217d4101269446a0f79bf3cdbab4c
+- A5: 7ffbd3e6c22093016163aee5280a018fc3f50e62
 
 ### 5.2 Annotation data
 
 The public perspective_annotations_v3.csv contains 720 data rows across six named conditions, 120 rows per condition. It includes player_id, player_type, condition, round, and expression, but no session_id. Player IDs such as human_0 are reused across conditions and are not globally unique subject identifiers. This file is a subset of the paper's eight reported experimental conditions, not a complete eight-condition participant registry.
 
-Exact blob: 57050fb...
+Exact blob: 57050fb830dceef4782785556cda720bf9349d29
 
 ### 5.3 Analysis-code findings
 
-The source files were inspected at the current external repository main commit.
+The source files were inspected at the current external repository main commit. Exact code blobs: analyze_convergence_new.py 341166d38b80e19008a46d52ab73b94a656e0572; plot_fig3_combined_continuous.py b8d57b57d29d042dbe4de25fee0766be9d952959; plot_adoption_persistence_dynamics_by_pair_type.py 9db50b000284dd980b478b0a456f37f6e586cbd8; plot_ai_penalty_with_controls_with_centrality_distance.py 3c6edacc0a9de94535eb8b38598fda6701d5e198.
 
 1. plot_fig3_combined_continuous.py uses stored per-condition mean_consensus and sem_consensus to calculate a z statistic for significance brackets. With one session per condition, those within-condition SEMs do not estimate between-group treatment variability. The code does not add a replicated-group variance term.
 
