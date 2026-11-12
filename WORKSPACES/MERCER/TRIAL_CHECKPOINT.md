@@ -11,6 +11,7 @@
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1024Z_s2_mercer.md` (blob `ee099c96afb9dabca3f7d417134e9cba8f629ef5`).
 - Report Amendment 01: `WORKSPACES/MERCER/2026-11-12T1024Z_RUN_172_P0_ROUTE_NO_TRIGGER_AND_SOURCE_RECHECK_AMENDMENT_01_FINAL_READBACK.md` (blob `8e45ecb92dd9299f45186fe019c1690ba00cb3a5`).
 - Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1024Z_s2_mercer_AMENDMENT_01_FINAL_READBACK.md` (blob `6d619e70fa24d18eed14df564aedb8e0a49b42cd`).
+- Receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1024Z_s2_mercer_AMENDMENT_02_FINAL_CONTINUITY.md` (blob `4fbc6f13dcaa037ae34ed6ce84a8562c6f0e0580`).
 - P0 recheck: all eight protected blobs exact at main `9cfee1845c9bf1d9fa356d95c0ef4decedf24a59`; 129 commits ahead / 0 behind from prior P0 baseline, no protected path changes. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, manuscript/site edit, PDF derivative or deployment.
 - Browser connector requires the originating browser context; none was available. The current Pages workflow remains Viewer/Whirligig scoped. No Sites editor or owner preview.
 - Current Code Grurple roster controls Mercer as Paper A+B presentation QA only. Historical :48 physics remit recovered from direct user-role source; no authenticated current Mercer thread. Lane 24 remains BACKSEAT/HOLD.
