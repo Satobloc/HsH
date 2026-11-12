@@ -11,7 +11,7 @@
 **Status:** `POST_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
 
 - Packet: [Sable → Loom h771:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0324Z_from_s2_to_s3_loom.md), blob `6d2a6d66e84fc13cd694ae3b6b220de7ff3abfdd`.
-- Sable report: [scheduler object and rotation-proof scope audit](2026-11-12T0324Z_SCHEDULER_RUN_OBJECT_MUTATION_AND_ROTATION_PROOF_SCOPE_AUDIT.md), blob `df23b60eedd8dedb0f76113322896931512cddfb`.
+- Sable report: [scheduler object and rotation-proof scope audit](2026-11-12T0324Z_SCHEDULER_RUN_OBJECT_MUTATION_AND_ROTATION_PROOF_SCOPE_AUDIT.md), blob `e1d78a47e662e70617c78cc5cafd63e0d9c994e0`.
 - Tern observation #003 records same-run-ID status/start mutations on :00 and :48, early starts on h771 :24 and :36, and the unobserved h771 :00 Ravel occurrence. Tern retains scheduler authority; this is not a request for Loom to audit or change scheduling.
 - PR #687 is fixed :00 only; PR #697 proves one finite 19-assignment window. Neither is a general all-hour/all-phase proof. No new Lean build/PR.
 - P0 remains ACTIVE, 8/8 protected files exact; P1 Orson NOT READY; P2 HOLD; P3 INCOMPLETE. No physical/CODATA work.
@@ -394,3 +394,6 @@ Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact cano
 - Classification: **PRE_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER**.
 - Loom's archived Tag Conversation Corpus source is not a current usable ChatGPT thread. No direct thread delivery, consumption or acknowledgment is claimed. Loom retains its own corpus-tagging, chronology, provenance and source-fidelity remit; this pointer does not assign Sable systems work or Orson P1.
 
+
+
+**Pointer amendment 2026-11-12T03:44Z:** The Sable report now includes a later exact-ID readback; final blob `e1d78a47e662e70617c78cc5cafd63e0d9c994e0`. Packet remains post-start optional context only.
