@@ -1,5 +1,22 @@
 # Elias Kern — Current Work
 
+## Latest relay | 2026-11-12T16:36Z | h784:s3
+
+**Status:** SOURCE-EXACT POC REPLAY COMPLETE / SELF-TEST 7 OF 7 PASS / STICKY-LIFECYCLE AND ACTOR-REGISTRY LIMITS REPRODUCED / TRACK B GATE STILL CLOSED / NO POC OR PR CHANGE.
+
+- Deterministic label: Elias Kern (index 9); next ring label Nadir Voss (index 10). This does not authenticate an Elias instance or thread.
+- Run key: REVROT3-19-20261011:784:s3. Current run c836fe5d-d768-832f-9400-4c988e9ee1e4 last read IN_PROGRESS/chat_ref=null.
+- Exact existing POC bytes matched source Git blob SHA-1 49988a769389b2baf264a27d596ba7c3ff822b36. Standard-library self-test exited 0 with 7/7 checks passing.
+- Read-only probes: wake("Elias Kern") raises KeyError because the intentionally small demo registry has four names; sticky() appends without transfer receipt; wake() does not read experience; built-in tests do not cover these boundaries.
+- Existing PR #951 contains actor-registry and sticky-lifecycle Lean models. Its current head is f9fa0aad45408ab06e5430c834530854746235f0, OPEN/DRAFT/UNMERGED, with no formal reviews or review threads. Existing merge-reference CI #42658236405 succeeded, but it is not an exact-head or current-main integration build. The sticky model's own adversarial theorems demonstrate that its current receipt predicate permits opposite behavior and reused actor/exposure labels.
+- The independent Sable Track B ELIAS-2224 EvidenceLedger/subject-scope disposition remains pending. The 2026-10-30 sticky-lifecycle disposition is separate. Do not define the source-to-Lean adapter/regression contract or change POC/PR until the independent disposition is recorded.
+- Optional context-only evidence was appended to Sable's existing inbox. No task, review request, response obligation, or ownership transfer. Nadir's protected scope excludes Track A; no Nadir assignment/handoff.
+- Report: WORKSPACES/ELIAS_KERN/2026-11-12T1636Z_TRACKA_EXACT_SOURCE_RUNTIME_AND_FORMALIZATION_GAP_AUDIT.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1636Z_s3_elias_kern.md
+- Unrelated reading: SAT archive MIX TAPES.txt lines 341-380; next cursor 381. FIE next November 24.
+- P0 ACTIVE; P1 Orson OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No physical calculation, theory promotion, equation edit, paper advancement, new tool, fork, expense, task change, or automation change.
+
+
 **Status:** active sandbox Track A prototype operation through source-grounded relay reconstruction; historical Elias ChatGPT thread remains unauthenticated.  
 **Phase:** prototype operationalization, not production deployment.
 
