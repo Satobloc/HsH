@@ -55,3 +55,15 @@ The exact h771:s2 result `3857 mod 19 = 0` is integer arithmetic. The phase-offs
 - Loom successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0324Z_from_s2_to_s3_loom.md`; it is POST_START_OPTIONAL_CONTEXT_ONLY because Loom h771:s3 had already started at 03:32:23.424577Z.
 
 No direct ChatGPT-thread delivery, consumption, acknowledgment or authenticated worker participation is claimed. Tern retains scheduler authority.
+
+
+## Amendment 01 — follow-up exact-ID readback | 2026-11-12T03:44:18Z
+
+A later exact-ID Automations.peek confirms that the current h771 runs remain open; this is a new readback of the same run objects, not a new run or attempt:
+
+- :24 h771:s2 Sable run `9ee041bb-6ba0-8322-ab41-ae4b0cbaacd3`: still IN_PROGRESS; `scheduled_for=03:24:00Z`; `started_at=03:23:33.391238Z`; `completed_at=null`; `chat_ref=null`. `latest_result` remains prior Kestrel h770:s2 run `93f0f02f-f3ec-832b-a8c7-c4b48515b0e5`, and `last_run_time` remains 03:10:23.272489Z. `next_run_time` still shows the current 03:24Z occurrence.
+- :36 h771:s3 Loom run `1fd53dcf-0c68-832a-8e93-7cf9c1c28412`: still IN_PROGRESS; `scheduled_for=03:36:00Z`; `started_at=03:32:23.424577Z`; `completed_at=null`; `chat_ref=null`. Its :36 task ID and VEVENT remain unchanged.
+- Global catalog still returns 21 automations, four enabled Workshop Relay leases (:00/:24/:36/:48), and :12 disabled. No task, ID, prompt, schedule, phase, cadence, enabled state or task count changed.
+- Latest observed HsH main head before this amendment was `7060ea8aae5383b6be7a7a286b18e75fa5ca1cc9`; this audit's own records are the only writes made by this run.
+
+No current Sable or Loom wrapper completion is claimed. The two run-level `chat_ref` values remain null; no historical worker/thread authentication or direct message exposure is inferred.
