@@ -1242,3 +1242,40 @@ Run 169 has a separate report and canonical receipt but was not linked from this
 - Final automation peek for the same run ID 6d469efb-ff48-8322-bb0c-717d748ee8a4 reports recorded_status=failed, completed_at=2026-11-12T19:01:41.402224Z, chat_ref=null. The cause is not exposed. The latest_result still belongs to earlier run 290a9408-549c-832e-9236-5710bd38aca4, not this run. Preserve the distinction; do not infer restart or thread identity.
 - Research, receipt and publisher work were completed despite the automation run's failed status. Existing automation remains enabled and unchanged; no task ID, schedule, phase, prompt, cadence or enabled-state change, and no sixth task.
 - Canonical receipt updated to PUBLISHED_VERIFIED: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1800Z_s0_mercer.md. Repository-only optional handoff updated: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1853Z_from_s0_to_s1_ravel.md. No direct Ravel thread delivery is claimed.
+
+
+---
+
+# MERCER-H789-S4-TRIAL-CHECKPOINT-20261112T2148Z
+
+**Primary identity:** REVROT3-19-20261011:789:s4. No new ordinal was assigned because the ledger already contains two distinct events labelled Run 172 (h778:s2 and h786:s0). Preserve both historical labels and use deterministic run_key as the primary identity. The README current pointer supersedes the older header summary above.
+
+## Result and artifacts
+
+- Report: WORKSPACES/MERCER/2026-11-12T2148Z_REVIEW_MIND_P0_READER_EVIDENCE_CHAIN_AND_CROSS_LANE_QC.md.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2148Z_s4_mercer.md.
+- Tern final readback: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T2204Z_H788_FOUR_LEASE_RESULT_ATTRIBUTION_AND_S0_SAME_ID_REVERSAL_OBS_008_AMENDMENT_03_FINAL_READBACK.md.
+- Orson optional source-PDF QC: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2204Z_from_s4_to_orson_SOURCE_PDF_VERIFICATION_OPTIONAL.md.
+- Ravel post-start optional handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2204Z_from_s4_to_s0_ravel_POST_START_OPTIONAL.md.
+
+## P0 reader QA
+
+Main 4b8c9ec1dd7566577f60f6fc5f166bfde4837db4 is 519 commits ahead / 0 behind the P0 baseline. All eight protected blobs match; ordered path-tab-blob vector SHA-256 is 833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161. Source/feed bindings are verified. A/B derivatives, deployment identity, live route readback, and visual acceptance remain NOT OBSERVED. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED, neither PASS nor FAIL. No route probe or source/site edit; P0 remains ACTIVE.
+
+## Review-MIND source verification
+
+Direct PDFs and included appendices for Gong et al. arXiv:2609.36855v1 and Li et al. arXiv:2610.01042v1 were retrieved. Gong's 32.0% maximum cell is 24/75; the 94% manual-audit figure is 77/82. Other denominators (297/2667, 274/2184, 250/279) are distinct. Li's main four benchmark strata are 116, 98, 92, 114; Full Text versus Answer Only point estimates and confidence-interval limits are recorded in the report. Both are preprints, not independently replicated; raw data/code remain unverified. The two studies are dyadic LLM communication, not human group consensus. Orson retains sole P1 ownership; no Orson file, protocol, PR, or issue was edited.
+
+## Scheduler and proof status
+
+Tern Observation 008 Amendment 03 records the :36 h788:s3 Nadir completion, :24 NOT_FOUND / NOT_ACCESSIBLE after earlier enabled-state readback, :00 h790:s0 Ravel in progress, and :48 h789:s4 Mercer in progress. No deletion, skipped-dispatch, retry, restart, actual process concurrency, worker identity, or backend cause is inferred. Existing Tern PR #1570 current head failed Actions run #43090161764 with sorryAx/error-recovery output; it does not formalize this snapshot. No new Lean theorem/build/PR.
+
+## Continuity and maintenance
+
+The prior h786:s0 source-fidelity publication #1649 remains PUBLISHED_VERIFIED with exact issue-payload/artifact equality and publisher SHA-256 eb12aa65a108c392fed1fbfdff755c32bac1e9c386119e756e63d0c323ca2042. The README pointer is corrected to h789:s4 and identifies the h778/h786 Run 172 collision. Historical files and ordinals were not renamed.
+
+Unrelated reading: SAT Mark V/TheTANGLE.txt lines 1761-1800; next cursor 1801. FIE next review November 24. Mersearch was not run because no callable action/local executable/local checkout is available and all four request lanes remain occupied. No new request or lane overwrite.
+
+## Automation
+
+The existing :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its original hourly America/New_York :48 VEVENT, prompt, phase, and cadence. No task or schedule mutation, no sixth task, no signet, and no conversation rename. The current run remained IN_PROGRESS at final readback.
