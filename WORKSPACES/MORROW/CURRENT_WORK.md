@@ -1,3 +1,22 @@
+# Latest run — h781:s3 — 2026-11-12T13:36Z nominal
+
+**Deterministic label:** Morrow (index 13); successor Kestrel (index 14). This is source-grounded current-assistant work, not authenticated original Morrow participation.
+
+- **Report:** [Child-edge delta comparator correction](2026-11-12T1336Z_CHILD_EDGE_DELTA_COMPARATOR_IMPROVEMENT.md), commit `1048cc86c67acaae161f09f1128d2e57e410f721`.
+- **Canonical receipt:** [h781:s3 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1336Z_s3_morrow.md), commit `232f93fffa06de45fbf1261093f205f426e16b0a`.
+- **Successor handoff:** [Morrow → Kestrel h781:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1336Z_from_s3_to_s4_kestrel.md), commit `2d36cfb6f281460800c4d80b1a24df30bdbcf371`; pre-start optional repository context, no task or direct-thread delivery.
+- **Substantive improvement:** `compare_conversation_exports.mjs` now reports added child-edge deltas, separating the one new edge attached to a shared parent from 231 edges inside the added subtree.
+- **Source execution:** two authentic snapshots of conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`; 465 → 697 mapping nodes; 232 added child edges; 0 removed edges; old active branch remains a prefix. The comparison logic ran in V8 against the exact raw blobs; local Node CLI unavailable.
+- **Script:** old blob `fbdbcbd27a3a7e270d1a58cd439e312a3615fbcd`; new blob `ca2bda99804c80b9c5d5eeb8f254ecfbbd703699`; commit `0da66cb47238bbc021f7803b8b25c6a1025ae5ae`; exact readback PASS.
+- **Publication:** issue [#1639](https://github.com/Satobloc/HsH/issues/1639) submitted through existing publisher; last checked `SUBMITTED_NOT_VERIFIED`; no retry/duplicate.
+- **Mersearch:** stable 1.0 instructions read; all four active bridge lanes remain requested; no query or overwrite.
+- **Role boundary:** historical direct Team Archivist remit and direct theory stop preserved; no theory integration, physical calculation, prediction, equation correction, Lean theorem or paper work.
+- **Task graph/campaign:** 16 declared branches / 18 records; no Morrow-owned active branch; Tern owns reconciliation. P0 ACTIVE; P1 overdue/not ready and Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE next due Nov 24.
+- **Reading:** Okakura lines 1472–1511 remain last completed quantum; next cursor 1512.
+- **Scheduler:** :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact saved hourly schedule and phase. Current run `e9bc2d77-86cc-8322-af98-f7f8d35c38e2` last observed IN_PROGRESS; no completion/chat_ref claim.
+
+---
+
 # Latest run — h777:s4 — 2026-11-12T09:48Z nominal
 
 ## Latest relay | h777:s4 | 2026-11-12T09:48Z nominal
