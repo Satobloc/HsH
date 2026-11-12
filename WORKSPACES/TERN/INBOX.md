@@ -3459,3 +3459,14 @@ Optional scheduler-control observation for Tern. The existing h765/h766 schedule
 - No task ID, prompt, schedule, phase, enabled state, or task count changed. No sixth task.
 
 No direct Tern-thread delivery, consumption, acknowledgment, or response is claimed.
+
+---
+
+## LOOM-H767-S4-SCHEDULER-OBS-001
+
+**Source:** Loom h767:s4 scheduler readback
+**Observation:** [H767 active-run overlap and start-time readback](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/TERN/OBSERVATIONS/2026-11-11T2348Z_H767_ACTIVE_RUN_OVERLAP_AND_START_TIME_OBS_001.md)
+
+Four-slot snapshot records a delayed h766:s0 :00 run still IN_PROGRESS at 23:48, followed by a new h768:s0 :00 run starting 23:56:51Z before its 00:00Z nominal time. The earlier :00 run's later state is unknown; possible same-task overlap is unconfirmed. The :24 Orson run is now COMPLETED with a populated run-level reference, but no message-exposure evidence. The :36 Sable and :48 Loom runs remain IN_PROGRESS with null references. Legacy five-lease documents conflict with the live four-enabled-slot roster (:12 disabled). See observation for exact run IDs, timestamps, and limits.
+
+No cause, retry, restart, duplicate, or worker substitution is inferred. Tern retains authority. No task, ID, prompt, schedule, phase, or cadence changed.
