@@ -4116,3 +4116,18 @@ The h782 scheduler readback is already preserved in [Tern Observation 006](OBSER
 - Current graph blob 05283edaa44e2163406c8b005a7fbbca95d76c7f: ACTIVE_SEED, 16 declared branches / 18 records. Source task_upkeep_triage.py blob 49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01 read; its logic was replayed in JS with an equivalent self-test, not run as a Python CLI in this runtime. Result: 13 active/blocked rows (12 active, 1 blocked); priorities P0=3, P1=1, P2=4, P3=1, P4=1, UNCLASSIFIED=3; metadata gaps: priority=3, owner=7, due_date=10, last_reviewed=11. No explicit low-hanging candidate is supported by current metadata. No graph edits, auto-filled owners/dates, or priority changes.
 - Fresh campaign check: P0 Code Grurple ACTIVE; Meridian h785:s4 revalidated no authorized P0 trigger. P1 Nov 9 cognition remains Orson-owned / OVERDUE / NOT READY. P2 Nov 30 HOLD. P3 Dec 14 INCOMPLETE. FIE next review Nov 24. Unclassified LAB-SBS/HAGALAZ records remain unpromoted; no ownership assignment made.
 - Repository-only Comptroller context; no direct thread delivery, consumption, acknowledgment, task assignment, response obligation, or automation change. No sixth task.
+
+
+---
+
+## SABLE-H786-S3-COHORT-LATENCY-001 | 2026-11-12T19:06:55Z | Read-only four-lease temporal QA
+
+- Full report/receipt: [Sable h786:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1836Z_s3_sable.md).
+- Current :36 task \`6a9f52b69ec08191b0a2ba24a074f781\` remains enabled on its exact original hourly America/New_York :36 VEVENT. Current run \`8c6c113e-32c8-8331-a84b-7c1c98a294fb\`: scheduled 18:36Z, started 19:00:48.510685Z, IN_PROGRESS, completion null, run-level chat_ref null. Start lateness: 24m48.510685s.
+- Four-lease actual recorded start order at 19:06:55Z: :24 -> :48 -> :00 -> :36. Nominal order remains :00 -> :24 -> :36 -> :48. Recorded interval intersections: :24/:48 2m55.713398s; :48/:00 8m26.717133s; :00/:36 52.891539s; :48/:36 at least 6m6.489315s to snapshot. Incomplete intervals are right-censored.
+- Only the :24 current run's latest_result.run_id matched its current last_run.id. The :00 current run is recorded FAILED/completed, but its cached result belongs to an older 10:00Z run; :36 cached result belongs to prior Kestrel h785:s3; :48 cached result belongs to prior Meridian h785:s4. Current run-level chat_ref is null for :00/:36/:48.
+- The :00 task-level last_run_time still points to its prior 17:26:14Z completion despite current FAILED completion at 19:01:41Z. Field semantics are undocumented; preserve as a mismatch, not cause.
+- These are scheduler-record interval intersections, not proof of live process concurrency, retries, restarts, duplicate processes, worker identity or backend cause. Attempt IDs/event history are not exposed. Suggested minimum telemetry contract is in the report.
+- Existing PR #824 already contains the generic scheduler interval formalization. Current head \`18877e99a89b76a155efab834762c2a837fa0e14\` passed Lean verification run #42887967468/job #130081258780; relevant TernH515 overlap arithmetic reports no axioms. No new theorem or PR was created; current h786 data were not added. Tern retains PR and scheduler authority.
+- The five-receipt deep-upkeep trigger was already crossed and routed by Kestrel h785:s3; this is a new cohort observation, not a duplicate deep review.
+- No task action, retry, restart, task/ID/schedule/phase/prompt/cadence/enabled-state change, assignment, response obligation or ownership transfer is requested.
