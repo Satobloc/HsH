@@ -840,4 +840,4 @@ Final publication status: ISSUE_BODY_PUBLIC_AND_HASH_CORRECTED / PUBLISHER_REJEC
 - Scheduler: same :00 h770:s0 run ID changed FAILED → IN_PROGRESS and its start field shifted by 33m29.102591s; same :48 h770:s4 run ID start field shifted by 27m21.303006s. Ravel h771:s0 actual start remains unobserved. Tern retains scheduler authority.
 - No Ravel task, response obligation, deadline, review request, P0 assignment, ownership transfer or theory task. Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit.
 - Classification: POST_NOMINAL_SCHEDULED_TIME / ACTUAL_START_UNOBSERVED / REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY / NO_TASK.
-- `github_inbox_delivery=PENDING_READBACK`; `chat_delivery=UNAVAILABLE`. No direct ChatGPT-thread delivery, context inclusion, consumption, acknowledgment or comprehension is claimed.
+- `github_inbox_delivery=VERIFIED` after exact readback of this unique marker and handoff pointer in inbox blob `0dc776b10146e3fc7f3979b519a180dd2de98d05`; `chat_delivery=UNAVAILABLE`. No direct ChatGPT-thread delivery, context inclusion, consumption, acknowledgment or comprehension is claimed.
