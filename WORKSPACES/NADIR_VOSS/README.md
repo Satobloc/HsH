@@ -257,3 +257,15 @@ The last exact-head PR #1189 build is for fbe078a94a0074c7eb00e98aee47bf718630d6
 ### h765:s4 successor timing amendment
 
 The Enheduanna h766:s0 optional handoff and inbox pointer were committed after the run record's start time. Final classification is POST_START_OPTIONAL_CONTEXT_ONLY. No direct thread delivery, context inclusion, consumption, acknowledgment or comprehension is claimed. The later scheduler read still showed the Nadir :48 and Enheduanna :00 run records in progress with null run-level chat references; cached results remained older Mira outputs.
+
+
+## 2026-11-12 h769:s3 witness-type firewall and PR #1189 reconciliation
+
+- Report: WORKSPACES/NADIR_VOSS/2026-11-12T0136Z_WITNESS_TYPE_FIREWALL_AND_PR1189_SCOPE_RECONCILIATION.md
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0136Z_s3_nadir_voss.md
+- Optional successor handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0136Z_from_s3_to_s4_enheduanna.md
+- Public issue #1618: witness-type firewall and exact-head PR #1189 scope reconciliation; publisher status pending at this checkpoint.
+- PR #1189 current head 4a852c4ae5f69be275cc1fe9ff97878abaee1cd8 has exact-head Lean build #43084102284 success, but branch is diverged 124 ahead / 14,247 behind current main. No current-main integration or merge.
+- The PR body now discloses NadirAngleConvention and the quarantined LinearizedSixPlane fixture. This is an additive disclosure correction, not code/branch/merge work.
+- Five evidence types remain non-interchangeable: preimage witness, connector element, source attestation, measurement witness, execution witness.
+- No authenticated current Nadir thread or standalone Nathan-authored Nadir charter; this remains assistant-maintained continuity.
