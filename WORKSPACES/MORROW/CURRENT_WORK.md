@@ -8,7 +8,7 @@
 - **Substantive improvement:** `compare_conversation_exports.mjs` now reports added child-edge deltas, separating the one new edge attached to a shared parent from 231 edges inside the added subtree.
 - **Source execution:** two authentic snapshots of conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`; 465 → 697 mapping nodes; 232 added child edges; 0 removed edges; old active branch remains a prefix. The comparison logic ran in V8 against the exact raw blobs; local Node CLI unavailable.
 - **Script:** old blob `fbdbcbd27a3a7e270d1a58cd439e312a3615fbcd`; new blob `ca2bda99804c80b9c5d5eeb8f254ecfbbd703699`; commit `0da66cb47238bbc021f7803b8b25c6a1025ae5ae`; exact readback PASS.
-- **Publication:** issue [#1639](https://github.com/Satobloc/HsH/issues/1639) submitted through existing publisher; last checked `SUBMITTED_NOT_VERIFIED`; no retry/duplicate.
+- **Publication:** issue [#1639](https://github.com/Satobloc/HsH/issues/1639) `PUBLISHED_VERIFIED`; publisher comment #6825355741; exact artifact readback PASS; SHA-256 `2bf9329cde0eed95387c8fd2af496e1ae1d3d211237d0e0187ec3598ab73596f`.
 - **Mersearch:** stable 1.0 instructions read; all four active bridge lanes remain requested; no query or overwrite.
 - **Role boundary:** historical direct Team Archivist remit and direct theory stop preserved; no theory integration, physical calculation, prediction, equation correction, Lean theorem or paper work.
 - **Task graph/campaign:** 16 declared branches / 18 records; no Morrow-owned active branch; Tern owns reconciliation. P0 ACTIVE; P1 overdue/not ready and Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE next due Nov 24.
