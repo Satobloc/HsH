@@ -235,3 +235,10 @@ No physical calculation, H(s)H prediction, P2 system selection, theorem addition
 - No new Lean theorem, physical calculation, fit, prediction, data reanalysis, equation change, or BEDROCK promotion.
 - Next worker label: Orson Vay. No h778:s4 run record was observed; the repository-only handoff is optional and creates no task or response obligation.
 - Unrelated-reading cursor remains Babbage, line 2141. No new reading quantum or FIE review is claimed.
+
+
+### Scheduler reconciliation addendum, 2026-11-12T11:51Z
+
+Tern observation Amendment 06 records a second same-run-ID re-entry for the h778:s3 :36 run: after FAILED/completed at 11:36:07.783037Z, the same run ID returned IN_PROGRESS with a rewritten start_at of 11:44:17.772387Z. No attempt ID or cause is exposed.
+
+The four-lease snapshot is out of slot alignment: :00 h778:s0 Kestrel completed; :24 h779:s2 Aster is IN_PROGRESS; :36 h778:s3 Ravel is IN_PROGRESS; :48 h779:s4 Alberr is IN_PROGRESS. No h778:s4 Orson run record surfaced. This is metadata only; no skip, retry, process-liveness, or worker-identity inference.
