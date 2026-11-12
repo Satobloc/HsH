@@ -29,6 +29,10 @@ universe u v w
 variable {X : Type u} {Y : Type v} {Z : Type w}
 variable [PseudoMetricSpace Y] [PseudoMetricSpace Z]
 
+/-- Real-distance form of a Lipschitz sensitivity bound. -/
+def DistLipschitzWith (K : NNReal) (f : Y → Z) : Prop :=
+  ∀ y₁ y₂, dist (f y₁) (f y₂) ≤ (K : ℝ) * dist y₁ y₂
+
 /--
 A K-Lipschitz standard-only predictor cannot fit two proposed readouts
 within tolerance δ when the baseline observations are within ε but the
@@ -45,7 +49,7 @@ Interpretation:
 theorem no_lipschitz_standard_predictor_can_fit_both
     (S : X → Y) (H : X → Z) (f : Y → Z)
     (K ε δ : NNReal)
-    (hLip : LipschitzWith K f)
+    (hLip : DistLipschitzWith K f)
     (x y : X)
     (hBaseline : dist (S x) (S y) ≤ (ε : ℝ))
     (hSeparation :
@@ -57,7 +61,7 @@ theorem no_lipschitz_standard_predictor_can_fit_both
   have hLipXY :
       dist (f (S x)) (f (S y)) ≤
         (K : ℝ) * dist (S x) (S y) := by
-    simpa using hLip (S x) (S y)
+    exact hLip (S x) (S y)
   have hScaled :
       (K : ℝ) * dist (S x) (S y) ≤
         (K : ℝ) * (ε : ℝ) :=
@@ -96,7 +100,7 @@ of its Lipschitz constant.
 theorem exact_baseline_fiber_separation_excludes_fit
     (S : X → Y) (H : X → Z) (f : Y → Z)
     (K δ : NNReal)
-    (hLip : LipschitzWith K f)
+    (hLip : DistLipschitzWith K f)
     (x y : X)
     (hSameBaseline : S x = S y)
     (hSeparation :
@@ -106,7 +110,7 @@ theorem exact_baseline_fiber_separation_excludes_fit
   apply no_lipschitz_standard_predictor_can_fit_both
     S H f K 0 δ hLip x y
   · simpa [hSameBaseline]
-  · simpa using hSeparation
+  · exact hSeparation
 
 #print axioms no_lipschitz_standard_predictor_can_fit_both
 #print axioms exact_baseline_fiber_separation_excludes_fit
