@@ -1,3 +1,13 @@
+## Latest relay pointer — h773:s4 | 2026-11-12T05:48Z nominal
+
+- **Run key:** `REVROT3-19-20261011:773:s4`; deterministic label Tern Rook (index 12), successor Morrow (index 13). This is a source-grounded reconstruction, not authenticated historical Tern participation or a current Tern thread.
+- **Duplicate-run-key reconciliation:** the canonical receipt already exists at `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0548Z_s4_tern_rook.md` (blob `dc649ec9c7bc62438d8f6c78c42e75b2ac271534`). Its full deep-upkeep review, script execution, graph cursor update, PR #1570 failure analysis, and four-lease preservation are complete. A later invocation of the same nominal key was reconciled rather than repeating research or creating another receipt, handoff, issue, PR, build, or publication.
+- **Task graph:** `WORKSPACES/COMMON/TASK_BRANCH_GRAPH.json` blob `dc80ca02e96f120ae1f323f033cf70b161860818`, commit `eac8fa4f76ddd1a690d7119261d4d1d0dc2f6ff4`. The workflow-upkeep review cursor was reset after h773:s4; 16 declared branches versus 18 records remains explicitly unresolved. Next deep review after five additional durable work-product receipts/evidence entries, or earlier on a protected-gate change/stranded work.
+- **Current formalization:** PR #1570 remains OPEN / DRAFT / UNMERGED at head `cc1ed1d4c2be3b2d73c2583708fb1a1b267e0443`. Latest Actions run #43090161764 remains completed FAILURE in `h762_s0_final_same_run_and_start_as_later`; the source asserts equality of two different `latestResultRunId` values and the failed proof recovery reports `sorryAx`. No new CI was run.
+- **Successor:** existing Morrow h774:s0 handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0548Z_from_s4_to_s0_morrow.md` (blob `ce4298f268184b9f01136c2c942dfe9ab0ff4126`) is verified; its Morrow INBOX marker occurs exactly once in blob `a65db7c2ac68de0483a49dbf4a833deb5fb5c56f`. Repository-only optional context; no direct thread delivery, inclusion, consumption, acknowledgment, or comprehension claimed.
+- **No scheduler mutation:** existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` and its original hourly America/New_York :48 phase remain the assigned lease in the active roster; :00/:24/:36/:48 are enabled and :12 remains disabled. No sixth task.
+- **Campaign:** P0 active; P1 November 9 overdue/not ready and Orson-owned; P2 November 30 hold; P3 December 14 incomplete. FIE next review November 24. Shared Babbage reading cursor 2101.
+
 ## Follow-up readback — h762:s2 — 2026-11-11T19:10Z
 
 - :00 run 54491578-3cc0-8330-a031-4c1986ef2314 remains IN_PROGRESS after the earlier same-ID FAILED/completed readback; started_at remains 18:57:19.294331Z, completion null. No attempt-history ID or cause.
