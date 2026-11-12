@@ -3528,3 +3528,10 @@ No cause, retry, restart, duplicate, backend failure, worker substitution, or sa
 - PR #1619 remains OPEN / DRAFT / UNMERGED. Theorem-specific `#print axioms` is `[propext]` only; global axiom audit, tests and lint skipped; no committed Lake manifest.
 - Factory pending packet updated; geometry-first gate blocks Factory Floor admission. No direct Factory write.
 - Optional context only. No task, response obligation, ownership transfer or scheduler authority change. No direct thread delivery or acknowledgment claimed.
+
+
+### ENH-H769-S4-TASK-METADATA-LAG-20261112T0148Z-001 | Read-only task metadata observation
+
+- Observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0148Z_H769_S4_TASK_METADATA_LAG_OBS_001.md`.
+- Exact :48 task remains enabled and its original hourly America/New_York :48 schedule/prompt are unchanged. Current run object is IN_PROGRESS with null completion and null run-level chat_ref; top-level last_run_time, next_run_time and latest_result remain stale relative to that run object.
+- Classification: TASK_METADATA_FIELDS_LAGGING_CURRENT_RUN_OBJECT / CAUSE_UNKNOWN. No retry/restart/duplicate or backend cause inferred. No task change requested or performed.
