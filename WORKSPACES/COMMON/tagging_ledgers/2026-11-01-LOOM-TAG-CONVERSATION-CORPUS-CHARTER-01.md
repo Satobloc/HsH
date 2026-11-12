@@ -594,3 +594,32 @@ CLARIFIES Section T only in the limited sense that this later span identifies Ha
 **Publication:** issue [#1650](https://github.com/Satobloc/HsH/issues/1650) PUBLISHED_VERIFIED. Submission `loom-saterland-score-verdict-20261112t1848z-s4-001`; publisher comment #6833840046; commit `6ef9fa52f8947df7a285bf85f9cb46fdd8d272b0`; SHA-256 `093d812776f1255d281a38c4fdcc4495f2c4bf9bdcaf5e020538b3704a8bdc4b`; artifact blob `82ef7708f18fb56d715e243bc3e1db1013f2a7eb`. Readback verified.
 
 **Next cursor:** line 1281. The next lateral pass should change source or conceptual lens rather than extend this same language game indefinitely.
+
+
+## Section W — Off-path assistant branch status and interaction-variable source gate (2026-11-12, h790:s3)
+
+**Source:** `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`; conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`; blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`; main snapshot `8dc33c17b11cf083a6b8d3e5011b2e4c016a0739`.
+
+**Graph accounting:** 466 mapping nodes / 465 messages; 138 user, 199 assistant, 128 tool. Selected ancestry: 456 nodes including root / 455 messages; 138 user, 192 assistant, 125 tool. Off ancestry: 10 messages, zero user, seven assistant, three tool. Four assistant-to-user zero-child leaves are already named in issue #888; this section adds status/content attribution rather than repeating graph alignment. The remaining six are three assistant-to-`bio` summaries and three tool acknowledgements.
+
+**Four off-ancestry assistant-to-user leaves and selected siblings:**
+- String-theory prompt: selected sibling `04125a7b-d443-433f-90bd-e838ec5b2bed`; off-path `4db77601-5f7c-4db0-ad28-542596bcded3`, finished, zero children.
+- LQG prompt: selected sibling `08e845ab-4c78-45b4-951c-83804a42bcaa`; off-path `b2341368-43c7-469f-a1ed-f25932db5f7c`, finished, zero children.
+- Prediction prompt: selected sibling `7dfddac2-6100-470c-a8cd-541343116379`, finished and on current ancestry; off-path `4089ad6a-7099-4946-8c36-77eb3e6303b7`, `status=in_progress`, 2,423 characters, zero children, ends mid-sentence. Do not treat it as a completed or accepted prediction set.
+- Black-hole prompt: selected sibling `d7320bf8-bdd3-4c3b-af30-8e92f421aa80`; off-path `4b4cc06a-a3a6-423e-be16-c752c60b9231`, finished, zero children.
+
+**Source/claim boundary:** direct user-role `aaa2fcf4-62d2-4fbd-a5a1-15ec86fc794e` (2024-03-22T19:20:52.061Z) names strong nuclear reactions as the event class, then describes strings as more tightly bound during weak interactions. Later user-role `aaa26d2f-c779-44b2-800a-b20f28e40a09` lists both categories but does not resolve which controls tug strength. No direct correction was located. Preserve this as an unresolved interaction-variable ambiguity; do not silently choose strong or weak.
+
+Direct user-role `aaa2088c-598d-40b5-a836-8601319b71e0` adds scale/event comparison. `aaa2cde7-2625-4acd-ac69-3efc59909aff` proposes a Milky Way-Andromeda versus matched-galaxy control design; its user-role span is already in the verified batch and is not retagged. The incomplete off-path `4089...` adds a gravitational knot/braid effect, but the direct source does not tie knot/braid structure to a distinct gravitational observable. That addition remains assistant-origin. The user-role outline `aaa20385-4291-4096-94f5-881e1e975a0d` has assistant-origin embedded prediction overlap with `658fcf34-fe17-4032-89e3-14c63544586e`, already documented in issue #906; it is not independent corroboration or an independent clarification. Outer role and embedded-span authorship remain separate.
+
+**Admission gate added ahead of the existing #1463 test matrix:** require exact source/span IDs; outer role versus embedded authorship; parent/child and active/off-path status; message completion; root identity for derivative summaries; uniquely defined predictor variable; observation map; comparator/shared parameters; calibration ancestry; independent holdout and covariance; preregistered falsification rule; and currentness relative to BEDROCK. The interaction-class, future-event and scale candidates remain NOT_TEST_READY until the exposure variable is uniquely defined. Existing #1463 supplies the test matrix; no duplicate matrix is created.
+
+**Formal boundary:** Calder PR #707 already formalizes sibling-branch separation and the four assistant-to-user off-path leaf partition. Exact-head Actions run #40924820531 succeeded on PR head `97827e91dada327eb00f4dc28f4f20da46a18563`, base `61cc8b65ffed70296e0121dbae067892a79c81d4`. This proves the encoded graph proposition, not raw-export parsing, message status, semantic authorship or physical premises. No new Lean theorem or PR. Existing Aster/Loom provenance-compression script blob `e51bd917c2941f67c8909880f35f74648df0e306` is reused structurally; no reliability values, Bayes factor or numerical posterior.
+
+**Historical theory boundary:** the 2024 source describes 1D filaments and a 3D time surface in a 4D setting but no finite-core radius/profile, twist law, contact law, responsive-medium field or projection/readout map. Worldtube thickness, twist and contact surfaces are not forced by this source. A later 2026 user-role message distinguishes this 2024 Stringing Along Theory conversation from a later Scalar-Angular-Torsion variant; do not silently bridge or promote.
+
+**Related records:** issues #888, #906, #1422, #1463, #1653; full run report `WORKSPACES/LOOM/2026-11-12T2236Z_OFF_PATH_ASSISTANT_BRANCH_AND_INTERACTION_GATE.md`.
+
+**Tags:** `RAW-DIRECT`; `ASSISTANT-OFF-PATH`; `ASSISTANT-INCOMPLETE`; `ASSISTANT-TO-BIO`; `OFF-ANCESTRY`; `SELECTED-SIBLING`; `EMBEDDED-AUTHORSHIP`; `ROOT-PRESERVATION`; `INTERACTION-CLASS-AMBIGUITY`; `PREDICTOR-NOT-IDENTIFIED`; `NOT-TEST-READY`; `HISTORICAL-EARLY-SAT`; `NOT-CURRENT-BEDROCK`; `NO-PHYSICAL-DATA`; `NO-THEORY-PROMOTION`.
+
+**No duplicate direct user tags:** the user-role spans cited above are already present in the existing ledger/verified batches or prior issue lineage; this section adds assistant-branch status and the unresolved predictor ambiguity only.
