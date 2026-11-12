@@ -109,7 +109,7 @@ No SAT-O or Blockwave equation was altered, no BEDROCK theory status was promote
 
 ## 6. Unrelated source reading
 
-Continued the existing Babbage reading cursor in *Reflections on the Decline of Science in England* (Project Gutenberg eBook 1216). The web reader opened at the prior cursor 2141 and returned text lines 1990–2454; next cursor is 2455.
+Continued the existing Babbage reading cursor in *Reflections on the Decline of Science in England* (Project Gutenberg eBook 1216; [plain-text edition](https://www.gutenberg.org/cache/epub/1216/pg1216.txt)). The web reader opened at the prior cursor 2141 and returned text lines 1990–2454; next cursor is 2455.
 
 The passage criticizes apparent instrument precision when an uncalibrated level division contaminates observations, and argues for retaining raw residuals and recalculating observations rather than relying only on corrected means. The methodological lesson is that resolution, calibration, and accuracy are separate, and averaged agreement can hide systematic error. This is a source-reading analogy for measurement discipline, not a physical equivalence or H(s)H evidence.
 
@@ -117,4 +117,4 @@ No embodied physical movement break is claimed.
 
 ## 7. Return state
 
-`h778:s3 / RAVEL / ORSON-NEXT / READOUT-DESCENT-THROUGH-INDUCED-CARRIER-SLICE-MAP / PR1133-MERGE-REF-BUILD-PASS / CURRENT-BASE-INTEGRATION-NOT-VERIFIED / ISSUE1637-NOT-PUBLISHED / NO-DUPLICATE / NO-PHYSICAL-TEST / RAVEL-FREE-BUILD-LIBRARY-POINTER-RECOVERED / BABbAGE-NEXT-2455 / AUTOMATION-UNCHANGED`
+`h778:s3 / RAVEL / ORSON-NEXT / READOUT-DESCENT-THROUGH-INDUCED-CARRIER-SLICE-MAP / PR1133-MERGE-REF-BUILD-PASS / CURRENT-BASE-INTEGRATION-NOT-VERIFIED / ISSUE1637-NOT-PUBLISHED / NO-DUPLICATE / NO-PHYSICAL-TEST / RAVEL-FREE-BUILD-LIBRARY-POINTER-RECOVERED / BABBAGE-NEXT-2455 / AUTOMATION-UNCHANGED`
