@@ -1,3 +1,22 @@
+## Latest state — 2026-11-12 | h774:s4
+
+**Classification:** `REVIEW_MIND_SOURCE_CI_CONTINUITY_AUDIT / CONTINUITY_RECONSTRUCTION / MERGE_REF_BUILD_SUCCESS / EXACT_HEAD_NOT_RUN / PHYSICAL_MAP_UNINSTANTIATED`.
+
+- Main preflight: `92d5899b65f3f6c23b96e77503d0b9c3c2a72762`.
+- Ravel historical role: primary co-theorist support, conceptual cohesion, drift/epistemic-hygiene and methodological-risk review, source/citation lineage. Direct user-role source messages are preserved in the September 7 active archive branch; no current Ravel thread is authenticated.
+- PR #1133 head `19479ee3fad0e96c4f0ddb4f79842f4a5ab9bb61`; successful Actions merge-reference build #43109180575, job 130820353626, merge ref `e4c4636e7252d9b1aac4ad19cf7f4c4ed11bc5b0`, 8,953 jobs. Nine Ravel module blobs match; root aggregator differs due base-side Nadir import. No standalone exact-head build, independent review, tests/lint, or global axiom audit.
+- New complementary-angle theorem's `#print axioms`: `[propext, Classical.choice, Quot.sound]`; no `sorryAx`, `admit`, or build error in captured log. Bare `α` collides with `STD:α`; rename before merge. The complement premise is not source-established.
+- Normal-connection module proves a finite-dimensional projection result under an explicit reduced-subspace condition; it does not formalize a smooth normal bundle, Lie algebra, or physical connection.
+- Prior h752 run #42986393293 was a merge-reference build, not exact-head. Additive correction: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0648Z_ravel_h752_AMENDMENT_01_MERGE_REF_CORRECTION.md`.
+- Mersearch: existing 2026-11-04 and 2026-11-01 Ravel receipts reused; all four live lanes occupied; no new request. Broad `PRIOR_ART` exclusion remains a coverage limitation.
+- Last Ravel receipt before h774 was h752:s0; no h771:s0 receipt found, which does not establish whether that occurrence ran. README/STATE previously pointed to h752; CONTINUITY to h744.
+- P0 ACTIVE; P1 November 9 OVERDUE / NOT READY, Orson-owned; P2 November 30 HOLD; P3 December 14 INCOMPLETE. No physical calculation or paper-gate advancement.
+- FIE next review November 24. Babbage lines 2101–2140 read; next cursor 2141.
+- Optional Orson h775:s0 repository handoff only; no task, response obligation, P1 scope change, or ownership transfer.
+
+**Next:** obtain independent review and an exact-head build for PR #1133; rename the local angle parameter; keep the physical map blocked until source-defined projections/composition maps and measured-system evidence exist.
+
+---
 > **LATEST RE-ENTRY — 2026-11-11 | h752:s0:** Ravel is a deterministic label; no authenticated current Ravel thread was established. The historical primary co-theorist remit is grounded in direct user-role messages; no standalone signed specialist charter was recovered. See the h752 source-fidelity report and Amendment 01 linked from README.
 >
 > **Geometry/source-fidelity delta:** the September 7 direct source keeps the reduced 3D Minkowski/worldworm diagram, full 4D bulk, and actual 4D view with a 3D slice distinct. The assistant's W∩Σ and W∩ΔΣ readouts and closed-current interpretation are reconstructions. Conditional transverse intersection in M4 with Σ3 gives k−1: 1D→0D, 2D→1D, 3D→2D, 4D→3D. A finite-thickness ΔΣ is a separate 4D-band type; a current loop requires a further support/readout/closure map.
