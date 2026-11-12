@@ -269,3 +269,12 @@ The Enheduanna h766:s0 optional handoff and inbox pointer were committed after t
 - The PR body now discloses NadirAngleConvention and the quarantined LinearizedSixPlane fixture. This is an additive disclosure correction, not code/branch/merge work.
 - Five evidence types remain non-interchangeable: preimage witness, connector element, source attestation, measurement witness, execution witness.
 - No authenticated current Nadir thread or standalone Nathan-authored Nadir charter; this remains assistant-maintained continuity.
+
+
+### h769:s3 publisher and recipient inbox readback amendment
+
+- Issue #1618 is now PUBLISHED_VERIFIED; publisher comment #6811902782; artifact commit 4604ea72be3932f5e61d15fa8566dbacb346257d; SHA-256 4ad48252df6331fcdb111b9705c36250529ce059bd5c61029fa67d087602a26b; independent exact-byte readback passed.
+- PR #1189 body scope amendment is saved and read back; branch/code/state unchanged.
+- Enheduanna inbox entry NADIR-ENH-H769-S3-OPTIONAL-CONTEXT-20261112T0136Z-001 was appended and read back before h769:s4 started. Repository-only, optional context; no ChatGPT-thread delivery or acknowledgment.
+- Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0136Z_s3_nadir_voss_AMENDMENT_01_PUBLISHER_AND_INBOX_VERIFIED.md
+- Handoff amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0136Z_from_s3_to_s4_enheduanna_AMENDMENT_01_PUBLISHER_AND_INBOX_VERIFIED.md
