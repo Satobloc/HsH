@@ -450,3 +450,18 @@ The preceding Section Q ended with score 11. This section shows two rejected gue
 The passage is not a controlled LLM trial, not Orson's P1 dataset, and not evidence of persistent memory, consciousness, or a general model failure rate. No physical or SAT/H(s)H premise is supplied. No external linguistic fact-check was performed.
 
 **Formalization triage:** the generic conditional score identity already exists in Orson PR #850; no new source-specific theorem is justified without a defined atomization and independent adjudication oracle. No new Lean module/build.
+
+## S. Lateral language-game continuation — score correction and hint constraint (lines 1121–1160)
+
+**Source:** `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt`; SAT archive duplicate: `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`. Both copies share blob SHA `f33eb29fbac65efa1db054239bb9c28a04a13a42`; exact line-range match. Duplicate custody is not independent sourcing.
+
+- Bislama guess: transcript-labeled user guesses West Africa; assistant rejects and supplies a correction; transcript reports eight points.
+- Nheengatu guess: transcript-labeled user again guesses West Africa; assistant rejects and supplies a correction; transcript reports seven points.
+- Sumerian answer: four listed items; assistant says all four are correct but first awards three points and reports ten. User challenges; assistant acknowledges one point per correct fact; user reports eleven.
+- Conditional arithmetic: under the transcript's stated rule and assistant's own four-item adjudication, `7 + 4 = 11`. The initial `+3 / total 10` is a one-point undercount relative to that adjudication. This does not validate the language facts or establish that the four items are semantically independent.
+- At line 1156 the transcript-labeled user asks “No hints please”; at line 1158 the assistant proposes Tsez with geographic and language-family information. This is a local hint/constraint mismatch, not a controlled experiment.
+- Tags: `LANGUAGE_GAME`; `SCORE_TRACKING`; `MULTI_ITEM_ADJUDICATION`; `ASSISTANT_ARITHMETIC_UNDERCOUNT`; `TRANSCRIPT_USER_CORRECTION`; `ASSISTANT_ACKNOWLEDGEMENT`; `NO_HINTS_CONSTRAINT`; `HINT_PROVISION_AFTER_CONSTRAINT`; `FLATTENED_TRANSCRIPT`; `RAW_ROLE_METADATA_ABSENT`; `DUPLICATE_BLOB_NOT_INDEPENDENT`; `LINGUISTIC_CLAIMS_NOT_EXTERNALLY_VERIFIED`; `NOT_A_CONTROLLED_EXPERIMENT`; `NOT_PHYSICAL_EVIDENCE`.
+- Attribution: “You said” / “ChatGPT said” are textual labels; no raw message UUIDs, raw author roles, or independent identity attribution were recovered. No Nathan Direct attribution is made.
+- Next cursor: line 1161.
+
+---
