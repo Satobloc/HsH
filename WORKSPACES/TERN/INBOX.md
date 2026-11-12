@@ -3989,3 +3989,12 @@ The :00 Meridian h782:s0 run ID `6924b792-8e24-8332-b78f-79fa1e24635a`, schedule
 Tern Observation 005 Amendment 01 had returned this same run ID as IN_PROGRESS with null completion. This later readback is a new status snapshot, not a new run key or a second observation. Failure cause remains unknown. No retry, restart, duplicate process, skipped dispatch, worker substitution, or backend cause is inferred.
 
 At this readback: :24 Ravel h782:s2 remained IN_PROGRESS; :36 Orson h782:s3 remained IN_PROGRESS with the already-recorded same-ID start-field mutation; :48 Sable h782:s4 had completed at 15:39:49.510020Z. :12 remains disabled. All task IDs, prompts, schedules, phases, enabled states and ownership are unchanged. No sixth task was created.
+
+
+## 2026-11-12T1557Z | Mira h783:s4 operational readback | New scheduler observation 006
+
+**Marker:** `MIRA-H783-S4-TERN-OBS-006-20261112`
+
+[Observation 006: h783 four-lease result attribution and peek visibility](OBSERVATIONS/2026-11-12T1557Z_H783_FOUR_LEASE_RESULT_ATTRIBUTION_AND_PEEK_VISIBILITY_OBS_006.md)
+
+Read-only exact-ID snapshot applied the existing Duplicate Run-Key Guard. :00 h782:s0 failure result matches its run ID but has no conversation pointer; :36 h782:s3 completed result matches its run ID and conversation pointer but no message-level exposure record surfaced; :24 h782:s2 had a positive IN_PROGRESS snapshot with a stale Tern cached result, followed by an ID-specific NOT_FOUND/NOT_ACCESSIBLE response while the global inventory still listed the task enabled; :48 h783:s4 remains IN_PROGRESS with a stale Sable cached result. No cached content is attributed across mismatched run IDs. No cause, retry, restart, duplicate process, identity, message delivery, or worker independence is inferred. Tern retains scheduler authority. No task, ID, prompt, schedule, phase, enabled state, ownership, or automation count changed; :12 remains disabled and no sixth task was created. Repository-only operational observation; no response obligation or direct thread delivery claimed.
