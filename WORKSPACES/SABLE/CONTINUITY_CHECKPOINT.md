@@ -1027,3 +1027,10 @@ Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact cano
 - Current :24 Sable run `9ee041bb-6ba0-8322-ab41-ae4b0cbaacd3` remains IN_PROGRESS with `chat_ref=null`, completion null, and cached latest_result still pointing to prior Kestrel h770:s2. Current :36 Loom run `1fd53dcf-0c68-832a-8e93-7cf9c1c28412` also remains IN_PROGRESS with `chat_ref=null`; its start remains 03:32:23.424577Z, before nominal 03:36Z.
 - Global catalog: 21 automations; four Workshop Relay tasks enabled (:00/:24/:36/:48), :12 disabled. All IDs and original VEVENTs unchanged.
 - Additive exact-ID readback only; no wrapper completion, worker identity, direct thread delivery or acknowledgment inferred.
+
+
+## h771:s2 pointer amendment | 2026-11-12T03:44Z
+
+- Final Sable report + Amendment 01 blob: `e1d78a47e662e70617c78cc5cafd63e0d9c994e0` (exact readback PASS); final Tern observation #003 + follow-up blob: `31510ebefcf43720eaf47dfde907905946ffeb22` (exact readback PASS).
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0324Z_s2_sable.md`, blob `9eaf02601c1892a07ae270921fc05cd767af7150`, exact readback PASS.
+- Tern and Loom inbox pointers were corrected to the final report/observation blobs; no task/response obligation/ownership transfer created.
