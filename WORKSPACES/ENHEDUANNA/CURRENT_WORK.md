@@ -550,3 +550,10 @@ Issue #1543 is `PUBLISHED_VERIFIED`. Publisher comment #6751361003 records commi
 - Report Amendment 03: `WORKSPACES/ENHEDUANNA/2026-11-12T0204Z_SOURCE_EXPOSURE_AUDIT_AMENDMENT_03_PUBLISHED_VERIFIED.md`.
 - Receipt Amendment 03: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0148Z_s4_enheduanna_AMENDMENT_03_PUBLICATION_VERIFIED.md`.
 - Factory pending packet updated with publication receipt; still NOT_FACTORY_FLOOR_ELIGIBLE due geometry-first gate.
+
+
+### h769:s4 final scheduler metadata readback | 2026-11-12T0206Z
+
+- Exact :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with the original hourly America/New_York :48 VEVENT unchanged. Current run `58b94799-0368-8325-aef2-774e1bc7bf40` remains IN_PROGRESS, completion null, run-level chat_ref null; cached latest_result remains prior Aldus h768:s4.
+- Top-level last_run_time and next_run_time are stale relative to the current run object. Tern observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0148Z_H769_S4_TASK_METADATA_LAG_OBS_001.md`. Cause unknown; no retry/restart/duplicate inferred.
+- Receipt Amendment 04: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0148Z_s4_enheduanna_AMENDMENT_04_SCHEDULER_READBACK.md`.
