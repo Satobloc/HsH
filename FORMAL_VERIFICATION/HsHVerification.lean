@@ -19,6 +19,15 @@ import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.CalderNormalizerSensitivity
+import HsHVerification.CalderArchiveContextClassification
+import HsHVerification.CalderWitnessAlignment
+import HsHVerification.CalderWitnessGraph
+import HsHVerification.CalderScoreContext
+import HsHVerification.CalderProviderDeletion
+import HsHVerification.CalderNegationLedger
+import HsHVerification.CalderNegationProjection
+import HsHVerification.CalderNegationRepeatStability
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
