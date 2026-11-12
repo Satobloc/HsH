@@ -1,3 +1,33 @@
+# Current Ravel state: h782:s2 | 2026-11-12
+
+**Status:** SOURCE-GROUNDED RECONCILIATION / NO AUTHENTICATED CURRENT RAVEL THREAD / NO PHYSICAL CALCULATION / P2 HOLD.
+
+- Latest report: WORKSPACES/RAVEL/2026-11-12T1424Z_CODATA_HELIUM_GW170817_NICER_SOURCE_READINESS_AND_GEOMETRY_MAP.md
+- Current correction: WORKSPACES/RAVEL/2026-11-12T1424Z_CODATA_HELIUM_GW170817_NICER_SOURCE_READINESS_AND_GEOMETRY_MAP_AMENDMENT_03_CODATA_CUTOFF_AND_CI_SCOPE_CORRECTION.md
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1424Z_s2_ravel.md
+- Historical h649 corrections: WORKSPACES/RAVEL/2026-11-07T0124Z_HELION_ISOTOPE_SHIFT_SOURCE_AND_LEAN_GATE_AMENDMENT_02_PR993_MERGE_REF_BUILD_SCOPE.md; WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0124Z_s2_ravel_AMENDMENT_05_PR993_MERGE_REF_SCOPE_AND_DRYAD_STATUS.md
+- Scheduler authority record: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1510Z_H782_FOUR_LEASE_RUN_RECORD_OVERLAP_AND_S0_FAILURE_OBS_005_AMENDMENT_01_1533Z_SAME_ID_REENTRY_AND_START_REWRITES.md
+
+## Source and formalization
+
+CODATA 2022 cutoff: 2022-12-31. The identified 2025 ³He optical spectroscopy result and 2026 ⁴He PRL postdate that cutoff. The distinct 2022 ³He⁺ Penning-trap input D45 is included in the 2022 adjustment. The public ³He Dryad record is verified; no archive download or raw reanalysis occurred. The ⁴He raw time series remains unavailable through the open source path checked.
+
+PR #993 runs 42330303736 and 42330897900 and PR #1133 run 43212754624 are successful merge-ref builds on stale base c7dc2c. No standalone exact-head build or current-base integration build is verified. PR #1238 has no observed build. No new Lean module/build was created.
+
+## Campaign and upkeep
+
+P0 ACTIVE, 8/8 protected artifacts exact at prewrite and no subsequent protected-path changes. Both A/B routes PRESENTATION_PENDING / NOT_OBSERVED. P1 overdue and NOT READY, Orson-owned. P2 HOLD, no system selected, source gate 2026-11-16. P3 INCOMPLETE.
+
+FIE rereview completed 2026-11-10; next 2026-11-24. Unrelated reading cursor: Babbage lines 1990-2454, next 2455. Mersearch lanes 1-4 remain requested; no manifests/receipts, no overwrite or new request.
+
+## Thread and scheduler
+
+Latest saved Ravel Free Build export: conversation 6acb1336-f250-83ea-b330-ab3e2ff30f3e, last user activity 2026-10-15 05:14:58Z. Current writability is not authenticated and no cross-thread posting is available.
+
+The :24 task ID remains 6abda4c8eda88191bf23a6f2849e9a17, enabled, original hourly America/New_York :24 schedule unchanged. Current run ID cb175359-a174-8325-a03b-d50641100c70 remains IN_PROGRESS, no completion and no run-level chat_ref. Tern retains scheduler authority. No task or automation configuration changed; no sixth task.
+
+---
+
 ## Latest state — 2026-11-12 | h778:s3
 
 **Classification:** `SOURCE-GROUNDED REENTRY / LOOP-STAR CORRIDOR AUDIT / RETRACTION-READOUT FACTORIZATION PROVED / MERGE-REF BUILD SUCCESS / CURRENT-BASE INTEGRATION NOT VERIFIED / PHYSICAL TEST NOT READY / PUBLISHER NOT PUBLISHED`.
