@@ -88,3 +88,17 @@ Report and receipt paths are recorded in the canonical h776:s2 receipt and Aldus
 ## 8. Automation preservation
 
 Four existing Workshop Relay tasks remain enabled (:00, :24, :36, :48); :12 remains disabled. The :24 task ID, original hourly schedule, prompt, and phase were preserved. No sixth task, task mutation, conversation rename, or signet.
+## 9. Final P0 readback after report and scheduler-observation commits
+
+At HsH main head 9518c27086de458189fcf265df50a0b474584b1f, all eight protected P0 blobs were independently fetched again and matched exactly:
+
+- Paper A accepted R1: 13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa.
+- Paper B reviewed R1: 0a1dca42cafd9a02faceff4ec0851659a317b2bb.
+- Papers feed: e3552fdac0f187b066b59a9742563094efffe011.
+- Presentation Gate: 5f91020d0a71034ad6bed2de0a82ead1f1e48d98.
+- Reader Routing Registry: 277a94c553e2e17b61bb046a04781b4e44f2229f.
+- Presentation Contract: b871249564a45278383e41eebd8aaa5d8c64aa3c.
+- Generated papers index: 7c26eb59cbcd2f0091c9c5c599546376f1d7d3d7.
+- Pages workflow: 6f3e843b6a327db76b21e8b0b61a26c210b600ac.
+
+Result: 8/8 EXACT at the post-write main head. No protected file changed. Both A/B reader routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe or gate advancement occurred.
