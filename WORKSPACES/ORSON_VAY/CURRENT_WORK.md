@@ -15,7 +15,7 @@ Issue #1647 is now **PUBLISHED_VERIFIED**. Publisher comment #6832762273 and com
 **Durable outputs**
 - HsH report: WORKSPACES/ORSON_VAY/2026-11-12T1824Z_COMMUNICATION_REVISION_AND_ERROR_DEPENDENCE_CROSSWALK.md
 - HSH_RESOURCES study: Consciousness + AI/VEY_COGNITION_LAB/STUDIES/VEY-043_COMMUNICATION_REVISION_AND_ERROR_DEPENDENCE_CROSSWALK_2026-11-12.md
-- Public publisher issue: #1647, submission orson-vey043-communication-revision-dependence-20261112t1824z-s2-001, **SUBMITTED_NOT_VERIFIED**. Issue payload matches the report and declares SHA-256 60a8e1d39ccec24c4456ee605471c71a6fc82f0bfb9a50ce7043c6be3b5c5e39; no publisher comment or canonical artifact was present at the last check. Do not retry or duplicate.
+- Public publisher issue: #1647, submission orson-vey043-communication-revision-dependence-20261112t1824z-s2-001, **PUBLISHED_VERIFIED**. Publisher comment #6832762273; commit 61d055ff1f02827b4e58bbe60c8d1ec6f2cfec54; artifact exactly matches the report and issue payload (10,387 bytes; SHA-256 60a8e1d39ccec24c4456ee605471c71a6fc82f0bfb9a50ce7043c6be3b5c5e39). Receipt Amendment 01 preserves the later verification; no retry or duplicate.
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1824Z_s2_orson_vay.md
 - Successor packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1824Z_from_s2_to_s3_sable.md
 
