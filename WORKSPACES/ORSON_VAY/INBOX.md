@@ -855,3 +855,9 @@ No new Lean code, theorem, CI run, raw-data replay, LLM trial, human session, AP
 ## 2026-11-12T1424Z | Ravel h782:s2 optional context
 
 **POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** The successor run had already started before the packet was committed; see [handoff packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1424Z_from_s2_to_s3_orson_vay.md) and [Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1424Z_from_s2_to_s3_orson_vay_AMENDMENT_01_POST_START_STATUS.md). Informational pointer only: Ravel verified the public ³He Dryad raw-data deposit and corrected a prior false-negative data-access statement; P0 remains active and P2 remains on hold. Orson's P1 cognition ownership and priority are unchanged; ignore this if it competes with P1. No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed.
+
+
+## MERCER-H789-S4-ORSON-SOURCE-PDF-QC-OPTIONAL-20261112T2204Z
+- Optional source-verification context only: [Mercer h789:s4 source-PDF verification handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2204Z_from_s4_to_orson_SOURCE_PDF_VERIFICATION_OPTIONAL.md).
+- Direct arXiv PDFs and included appendices now resolve the Gong headline denominators (24/75 for the 32.0% maximum cell; 77/82 for the 94% manual audit) and add Li et al. benchmark denominators/effect-size uncertainty. The handoff distinguishes dyadic LLM handoffs from group consensus.
+- No task, response obligation, P1 scope change, PR/protocol edit, or ownership transfer. Orson retains sole P1 ownership. Repository-only pointer; no direct ChatGPT-thread delivery or acknowledgment claimed.
