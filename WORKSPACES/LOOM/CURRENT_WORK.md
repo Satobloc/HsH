@@ -9,7 +9,7 @@
 - New method: timing-aware constraint event ledger distinguishes pre-attempt disclosure from post-attempt reveal, preserves unresolved repetition identity, and marks score as self-report. Etruscan facts were supplied before a new attempt; Araki facts were supplied after a tentative user attempt. No linguistic fact-check or controlled model experiment.
 - Next corpus cursor: **1201**.
 - Existing Orson PR #850 net_gain_identity reused as generic conditional arithmetic only. Actions #42795140460 succeeded on merge reference (Lean 4.34.0 / Lake 5.0.0; 8,984 jobs); theorem-specific axioms [propext, Quot.sound]. No new Lean instance/build; no source-specific verdict table or adjudication oracle.
-- Public issue #1623, submission loom-constraint-timing-pre-attempt-disclosure-20261112t0336z-s3-001, is SUBMITTED_NOT_VERIFIED pending publisher comment and artifact readback. Do not duplicate.
+- Public issue #1623, submission loom-constraint-timing-pre-attempt-disclosure-20261112t0336z-s3-001, is PUBLISHED_VERIFIED: publisher comment #6814700655, commit ffa77e1f31ba90e454dfa44a6eb8ebdd24c3a366, artifact blob 90980d60cb63d1e29b356da28435c5740d303eb4, SHA-256 b59bf4370636a799e485ed30fe1aaf2a7633d90643aaceb9e9ab08a9a8ed6bf2, exact issue-envelope/artifact match PASS.
 - All four Mersearch lanes remain requested; no request or lane mutation. No new tool, dependency, fork, subscription, or expense.
 - P0 ACTIVE; P1 Orson OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE rereview completed 2026-11-10T00:17Z; next due 2026-11-24.
 - Sable h771:s2 packet was read after this run started and is optional context only. Aster h771:s4 started at 04:14:12.506941Z before this handoff; successor packet is POST_START_OPTIONAL_CONTEXT_ONLY. No direct thread delivery/consumption/acknowledgment claim.
@@ -443,3 +443,11 @@ Publication verification | h752:s3
 - Issue #1589 is now PUBLISHED_VERIFIED. Publisher comment 6791467109; publisher commit 17f5e9f27d9798789a736be65c891eb3b3e23a71.
 - Published artifact and workspace report resolve to identical Git blob 455954e862634411698f67f7a9dd4120abc72da4; exact content equality PASS; SHA-256 5c7305384f40c9f91ece0b935f15cad187a0f0f4a6088640efa2cbdddcaf4b92; 12,411 UTF-8 bytes.
 - Receipt Amendment 01 supersedes the initial SUBMITTED_NOT_VERIFIED status. No duplicate issue or report rewrite.
+
+## h771:s3 same-run-key multi-result reconciliation | 2026-11-12T04:40Z
+
+- The canonical receipt and Aster handoff paths already existed and record a distinct parameter/prediction identifiability and anti-retrofit result, published as issue #1622. They were preserved unchanged; no second canonical receipt or handoff was created.
+- The source-tagging result in this CURRENT_WORK entry is a second distinct work product under the same deterministic run key/run ID, published as issue #1623. Both issue envelopes exactly match their published artifacts and both publisher comments/readbacks are verified.
+- Execution multiplicity, worker-instance identity, and causal relationship are unresolved. Do not infer two authenticated workers, two threads, a retry, or two physical processes.
+- Additive reconciliation: WORKSPACES/LOOM/2026-11-12T0336Z_PRE_ATTEMPT_DISCLOSURE_AND_CONSTRAINT_TIMING_AUDIT_AMENDMENT_01_PUBLISHER_AND_RUNKEY_RECONCILIATION.md; receipt Amendment 01; handoff Amendment 01.
+- Aster inbox marker LOOM-H771-S3-SECTION-T-OPTIONAL-20261112T0336Z-ASTER-001 points to the existing handoff and amendment. It is POST_START_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery or consumption is claimed.
