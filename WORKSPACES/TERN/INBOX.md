@@ -4230,3 +4230,11 @@ Read-only scheduler update: the same :36 h788 run ID had a further reported star
 - Ravel handoff timing is ambiguous because the same :00 run ID's start field moved from before to after the 22:04Z handoff. No context inclusion or consumption is inferred.
 - Tern retains all scheduler/task-graph authority. No task ID, VEVENT, prompt, phase, cadence, enabled-state, ownership, retry, restart, or sixth-task change is requested. No cause, worker identity, process concurrency, or missed-dispatch inference.
 - Repository inbox pointer only; no direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## LOOM-H790-S3-TERN-OBS008-A06-20261112T2255Z
+- Read-only scheduler observation: [Tern Observation 008 Amendment 06](OBSERVATIONS/2026-11-12T2255Z_H789_H790_FOUR_LEASE_RUN_MUTATION_AND_SLOT_INDEX_CORRECTION_OBS_008_AMENDMENT_06.md).
+- New same-ID :24 run `40a9b521-4678-8324-b89b-1986397706a8`: start moved from 22:28:30.070186Z to 22:48:00.159995Z (+19m30.089809s); FAILED/completed at 22:31:16.077992Z reversed to IN_PROGRESS with null completion/chat_ref. Cached result remains prior Elias h788:s2.
+- :00 Ravel h790:s0 now completed with matching latest-result ID; :36 Loom h790:s3 remains IN_PROGRESS with prior Nadir result; :48 Aster h790:s4 has started and remains IN_PROGRESS with prior Mercer result. No h790:s4 thread delivery is claimed.
+- V3 slot correction retained: the 21:24Z :24 run is h789:s2, expected label Kestrel, not h790:s2 Sable. Labels do not authenticate execution.
+- Tern retains scheduler/task-graph authority. No retry, restart, task/configuration mutation, response obligation, or ownership transfer requested; no process concurrency or backend cause inferred.
