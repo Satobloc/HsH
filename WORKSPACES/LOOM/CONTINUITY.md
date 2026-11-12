@@ -708,3 +708,20 @@ Unrelated-reading cursor: line 1081. FIE next November 24. No physical break, ph
 ## h752:s3 publication verification
 
 Issue #1589 is now PUBLISHED_VERIFIED (publisher comment 6791467109, commit 17f5e9f27d9798789a736be65c891eb3b3e23a71). The published artifact and workspace report share Git blob 455954e862634411698f67f7a9dd4120abc72da4; exact content equality and SHA-256 5c7305384f40c9f91ece0b935f15cad187a0f0f4a6088640efa2cbdddcaf4b92 pass. Receipt Amendment 01 supersedes the initial pending status; no duplicate issue.
+
+
+## Loom continuity update — 2026-11-12
+
+The current workstream now includes a Parameter–Prediction Identifiability and Anti-Retrofit Gate, published at HsH issue #1622, plus a manual source-status tagging addendum. The gate separates parameter identifiability from predictive identifiability and records the origin, units, uncertainty, calibration/holdout visibility, freeze state, and change history of every parameter. A post-hoc factor after mismatch is a new model version requiring a fresh holdout, not a prediction rescue.
+
+Historical source review recovered the Library-only DIMENSIONAL_GRAVITY_Mar_22_2024.txt transcript (SHA-256 a6872f37ac71e09ddc4313526bdd14c4f47b623f2ad846622cf509116cc64696; 147,762 bytes; 1,283 lines; 240 raw messages). Raw#57 and Raw#63 establish the four-dimensional strings / three-dimensional time-surface conception on 2024-03-22; Raw#69 develops the proton example; Raw#233 selects “filaments” and Raw#237 proposes the nested terminology on 2024-03-23. This is the earliest located primary conceptual transcript, not proof that no earlier source exists.
+
+The 2003 notebook sketches and late-2023/early-2024 formalization remain reported but primary-source-pending. The February 2, 2025 first public discussion is supported by archive timeline documents; primary podcast metadata remains pending. The SAT history roundup has three byte-identical copies and counts as one derived summary witness. The SAT timeline is a composite draft, not a primary origin source.
+
+Equation variants remain frozen as separate source presentations: the original mixed three-form/two-form presentation, the two-form variant, and the user-presented candidate three-form correction. The candidate correction was not explicitly adopted, and a later mixed presentation repeats both forms. No corrected equation is proposed. The old reciprocal filament/timesheet construction is not revived after the 2026-10-21 supersession annotation. Current working model status remains the November 8 methodology: worldline/worldtube plus timesheet, responsive medium provisional; the exact Klein Fabric global/local map remains unresolved.
+
+Formal reuse: Orson PR #1115’s exact-head ObservableProjection theorem establishes only that deterministic encoding cannot restore distinctions collapsed by a non-injective upstream map. It does not establish the physical calibration map or source-to-model translation. No new Lean module or run.
+
+Unrelated source-reading cursor: SAT archive, fun break - lx.txt, lines 1161–1200 read; next line 1201. FIE last full review 2026-11-10; next due 2026-11-24.
+
+No physical dataset, measured system, uncertainty/covariance, calibration split, holdout, fit, or prediction is available. No new Mersearch request, tooling, expense, theory promotion, or paper-gate change.
