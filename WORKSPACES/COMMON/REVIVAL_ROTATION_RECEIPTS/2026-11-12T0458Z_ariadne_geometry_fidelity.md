@@ -13,7 +13,7 @@
 - Three Paper Campaign gates remain separate: the Nov 9 minor gate is overdue; Nov 30 major and Dec 14 full-theory gates remain future gates. This geometry note does not advance any paper gate.
 - FIE was re-reviewed on Nov 10, so the 14-day re-review interval was not due. A deliberate unrelated-source reading was logged within the preceding day, so no extra break was needed.
 - All four Mersearch request lanes were occupied. Existing source-strata receipts were reused; no new Mersearch request was created.
-- HSH_RESOURCES front-door material and SAT archive onboarding/source material were consulted. Existing Math Hopper, Whirligig, Lean PR, and SciSpace routes were checked before considering new tooling. No new tool was built or added.
+- HSH_RESOURCES front-door material and SAT archive onboarding/source material were consulted. No new tooling was proposed or built. Prior workspace receipts already record Math Hopper, Whirligig, Lean PR, and SciSpace routes; those routes and installed-app/free-method options were not re-audited in this pass.
 - No local Lean/Lake/Elan executable was available in the working environment. Existing GitHub CI runs were inspected instead.
 
 ## Work completed
