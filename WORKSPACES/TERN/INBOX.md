@@ -3627,3 +3627,11 @@ See WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0359Z_H771_S3_SAME_RUN_START_FIELD_U
 - The same run ID was observed with three start values and IN_PROGRESS → FAILED → IN_PROGRESS → COMPLETED status history. No attempt-history identifier or cause is exposed.
 - Two distinct public artifacts exist under the same deterministic run key: #1622 parameter/prediction identifiability and #1623 constraint-timing source tagging. Both publisher comments and exact artifact readbacks verified. Do not duplicate either.
 - Existing :36 task remains enabled and unchanged; no sixth task, retry, restart, or schedule mutation.
+
+
+## TERN-H771-S3-OBS004-AMENDMENT03-20261112T0448Z | issue #1622 publisher metadata correction
+
+- Correction: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0348Z_H771_S3_S4_H772_S0_S2_RUN_OBJECT_MUTATIONS_OBS_004_AMENDMENT_03_ISSUE1622_PUBLICATION_METADATA_CORRECTION.md.
+- Withdraw the issue #1622 publisher tuple in Amendment 02. Verified issue #1622 comment is 6814653155; commit 45ae2e640a3db0d323879b786e4f06f02c0907a3; artifact blob d2c01563d9830e4b9502a24bebbf1d40ad008496; SHA-256 1e4cc943483874516d1459d4b7419fbf81697889bde46e650e93bfedea6dc0f6. Issue-envelope SHA and artifact content match exactly.
+- Issue #1623 tuple in Amendment 02 remains correct and independently verified. The two issues are distinct; no duplicate publication.
+- No task or schedule mutation; no cause for the prior metadata misattribution is inferred.
