@@ -971,3 +971,12 @@ Existing :36 task remains enabled with its exact saved identity, prompt, schedul
 - **Successor:** handoff WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0724Z_from_s2_to_s3_aster.md and Aster INBOX marker LOOM-H775-S2-SECTION-U-OPTIONAL-20261112T0724Z-ASTER-001. POST_START_OPTIONAL_CONTEXT_ONLY / repository-only. No direct-thread delivery, consumption, acknowledgment, or comprehension claimed; no task, review, response obligation, or ownership transfer.
 - **Upkeep:** lines 1201–1240 are the unrelated lateral transcript reading; next cursor 1241. FIE next review Nov 24. No physical break claimed. No physical system, CODATA comparison, fit, prediction, or independent measurement.
 - **No automation/task change:** four existing relay tasks remain enabled; :12 remains disabled; no sixth task, task-ID/schedule/phase/prompt change, signet, or conversation rename.
+
+
+### h775:s2 receipt and readback pointer amendment
+
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T0724Z_s2_loom.md, blob 2e3e7e94632e752baa20fc3e270863407c9af922.
+- Successor handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T0724Z_from_s2_to_s3_aster.md, blob 5bc26affa72fa01b1edb23530a82f358ce57bcb1.
+- Tern scheduler observation and Amendment 01: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T0749Z_H775_S2_LATE_START_AND_CROSS_LEASE_RUN_RECORD_OVERLAP_OBS_001.md and its 0801Z amendment; both exact readback verified.
+- Aster inbox marker LOOM-H775-S2-SECTION-U-OPTIONAL-20261112T0724Z-ASTER-001 and Tern inbox markers LOOM-H775-S2-LATE-START-OBS-001 / LOOM-H775-S2-LATE-START-OBS-001-AMENDMENT-01 independently read back.
+- Public submission issue #1629 PUBLISHED_VERIFIED; exact published artifact readback verified.
