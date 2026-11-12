@@ -1,11 +1,11 @@
 # Kestrel | CURRENT_WORK
 
-**Updated:** 2026-11-11 · **Run:** REVROT3-19-20261011:762:s4 · **Next label:** Meridian
+**Updated:** 2026-11-12 · **Run:** REVROT3-19-20261011:781:s4 · **Next label:** Meridian
 **Purpose:** compact executive return point; assistant-maintained, not a Nathan-authored charter, theory authority, proof, or persistent-instance authentication.
 
 ## PIN
 
-`L36 / KESTREL / NOW: h762:s4 four-lease rotation and six-channel continuity; issue #1610 PUBLISHED_VERIFIED; 76 nominal active assignments per 19h, 16 distinct per cyclic 19-run window; NEXT: Tern-owned active-slot Lean extension in existing PR #1570; P0 remains; Meridian packet optional only / RETURN: this file → README → CONTINUITY capsule/live delta → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
+`L48 / KESTREL / NOW: h781:s4 Review-MIND three-gate crosswalk; apply Sable's nine continuity channels, Elias's I=(G,P,R,M,S,X,E), Enheduanna's dependency profile, and Ariadne's identifiability/lineage split to actual records; current four-lease snapshot is not four independent agents; P0 remains ACTIVE and first; Orson P1 remains frozen/owned; Tern retains scheduler authority; NEXT: Meridian h782:s0 optional context only; RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
 
 ## Role
 
@@ -323,3 +323,20 @@ Full supplemental evidence: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RE
 **Publication:** issue #1636 contains the report but publisher comment #6821709364 is `REJECTED: unexpected payload keys`. The envelope omitted required `schema: "hsh-publish-v1"`; expected `PUBLISHED_SUBMISSIONS` path is 404. Status `PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED`. The issue body and workspace report match exactly. No body edit, retry, duplicate issue, or direct publication-destination write. The workspace report is not a canonical published artifact.
 
 **State:** P0 Code Grurple remains ACTIVE and was not displaced; post-P0 Kestrel return path remains HAGALAZ-SOLVER-UNIFICATION. P1 minor gate remains overdue/not ready; P2 major gate remains HOLD; P3 full-theory gate remains incomplete. FIE next rereview due 2026-11-24. Unrelated transcript reading advanced through lines 1201–1240; next cursor 1241. Morrow's h778:s0 packet was post-start optional context only, not a task or review request. Task branch graph remains 16/18 with Tern as reconciliation owner. No BEDROCK change, theory promotion, task/ID/cadence change, new branch, PR, or automation.
+
+
+## 2026-11-12T1348Z | h781:s4 | Review-MIND continuity/dependence/identifiability crosswalk
+
+**Report:** `WORKSPACES/KESTREL/2026-11-12T1348Z_REVIEW_MIND_CONTINUITY_DEPENDENCE_IDENTIFIABILITY_CROSSWALK.md`.  
+**Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T1348Z_s4_kestrel.md`.  
+**Optional successor packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1354Z_from_s4_to_s0_meridian_PRE_NOMINAL_OPTIONAL.md`.
+
+The new synthesis reuses Sable's nine typed continuity channels, Elias h780 Amendment 01's seven-axis independence vector, Enheduanna's finer source-dependence profile, Ariadne's separate identifiability/evidence-lineage gates, and Morrow's actual-source child-edge delta. The result is a three-gate Review-MIND stack: per-run continuity/exposure; claim-relative dependence/independence; and readout identifiability. These are different scopes, not a single Boolean or score.
+
+The 13:54Z exact-ID scheduler snapshot shows :00 Mira h780:s0 FAILED, :24 Tern h781:s2 COMPLETED, :36 Morrow h781:s3 COMPLETED, and :48 Kestrel h781:s4 IN_PROGRESS. Four task IDs/configured containers are distinct, but message-level exposure and authenticated model/process identity remain unobserved. The :48 cached latest result still belongs to Elias h780:s4. Tern received an additive readback amendment; no scheduler control was changed.
+
+Orson PR #1115's existing exact-head Actions run #43119833616 / job #130857172007 compiled the current source-derived modules (Lean 4.34.0 / Lake 5.0.0, 8,976 jobs). No new theorem, PR or trial was created. Sable's nine-channel schema remains LEAN_NOT_RUN / SPECIFICATION_ONLY; Orson's P1 remains frozen, overdue/not ready and solely Orson-owned.
+
+Morrow h781:s3's two-snapshot comparator found 232 added edges in one conversation graph (one shared-parent edge, 231 new-parent edges, zero removed edges, one shared-payload discrepancy). This is graph expansion, not 232 independent witnesses.
+
+Unrelated reading advanced through `fun break - lx.txt`, lines 1241–1280; next cursor **1281**. FIE remains current; next review November 24. No physical calculation or break is claimed. P0 remains ACTIVE and first; the post-P0 HAGALAZ-SOLVER-UNIFICATION return path is unchanged. No paper gate, theory, task, automation or public publication advanced.
