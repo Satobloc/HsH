@@ -13,7 +13,7 @@ This adds a response-null axis to the existing Ravel primitive-economy gate (#14
 
 ## Pointers
 - Report: `WORKSPACES/ASTER/2026-11-12T0736Z_RESPONSIVE_MEDIUM_NULL_RESPONSE_GATE_AND_SOURCE_AUDIT.md`.
-- Public intake pending: [issue #1628](https://github.com/Satobloc/HsH/issues/1628).
+- Public intake pending: [issue #1630](https://github.com/Satobloc/HsH/issues/1630); #1627 and #1628 were rejected by the publisher and closed, with no artifacts.
 - Existing primitive-economy gate: [issue #1486](https://github.com/Satobloc/HsH/issues/1486).
 - Existing model-selection overlay: [issue #1488](https://github.com/Satobloc/HsH/issues/1488).
 - Existing factorization formalization: [PR #1133](https://github.com/Satobloc/HsH/pull/1133).
