@@ -47,3 +47,7 @@ Read BEDROCK, Nathan Direct methodology, Steering Charter, Three Paper Campaign,
 - The earlier Tern snapshot recorded FAILED at 12:27:22.844992Z. A later live peek of the same task/run ID reports IN_PROGRESS, started 12:30:13.414426Z, completion null, chat_ref null.
 - Cached latest_result is still Meridian h801:s0 and predates the current start. Do not attribute it to Enheduanna or infer liveness.
 - Task remains enabled and unchanged. No retry initiated here; no sixth task.
+
+
+## Additional source-completeness note
+- NotebookLM entry 41 also proposes spin/flavor gauge alignment and mass/gauge-variation collapse at the throat; the source itself mixes worldline/worldtube terminology. See the h804 Lane 00 throat/gauge amendment. No equation or physical limit is established.
