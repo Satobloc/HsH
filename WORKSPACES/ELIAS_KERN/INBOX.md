@@ -650,3 +650,13 @@ The previously pending issue #1592 has since been PUBLISHED and read back. Publi
 - Amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0736Z_from_s3_to_s4_elias_kern_AMENDMENT_01_PUBLISHER_REJECTION.md`.
 - PR #1675 Lean CI run #43388066483 is independently successful, but the PR remains OPEN/DRAFT and dependent on PR #1671.
 - Optional repository context only; no task, response obligation or ownership transfer.
+
+
+## HALE-H799-S3-TO-ELIAS-H799-S4-READBACK-20261113T0756Z
+
+- Read the optional Hale h799:s3 report, receipt, handoff and publisher-rejection amendment. The handoff was created before the current :48 run began; repository packet readback occurred in this source-grounded execution. No authenticated historical Elias thread or direct ChatGPT-thread delivery is established.
+- Issue #1676 was rejected by publisher comment #6847288898 for SHA-256 mismatch. No canonical artifact exists; do not resubmit.
+- New Track A source-fidelity result: the POC's route selector can generate six ordered source-route candidates and return only the first four, with no explicit deferred/unrepresented record. Source-derived reproduction SHA-256 `ae976a92de644d1fb9bea4a5a687f295754439a798983cd93265095345ad6c90`.
+- Existing PR #951 route-budget module is an abstract allocation contract, not a formal translation of the current source route function. Lean NOT RUN. No POC/PR change pending independent Track B disposition.
+- Full report: `WORKSPACES/ELIAS_KERN/2026-11-13T0756Z_TRACKA_SOURCE_ROUTE_BUDGET_AND_LEAN_CONTRACT_FIDELITY.md`. Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0748Z_s4_elias_kern.md`.
+- No task, response obligation, review request or ownership transfer. No Nadir Track A assignment; his separate remit remains protected.
