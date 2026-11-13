@@ -40,6 +40,7 @@ _original_normalize_record = base.normalize_record
 DISCOVERED_EXTERNAL = Path("CONVERSATION_VIEWER/data/discovered_external_conversations.json")
 CANONICAL_DEV = Path("indexes/manifests/development-conversation-dates.json")
 CANONICAL_LIVE = Path("indexes/manifests/live-conversation-dates.json")
+CANONICAL_ROOT = Path("indexes/manifests/root-conversation-dates.json")
 
 
 def refresh_manifest(root: Path, manifest: Path) -> None:
@@ -51,13 +52,14 @@ def refresh_manifest(root: Path, manifest: Path) -> None:
     dater.write_manifest(manifest, root, timezone_name, False, records)
 
 
-def refresh_source_manifests(dev_manifest: Path, live_manifest: Path) -> None:
+def refresh_source_manifests(dev_manifest: Path, live_manifest: Path, root_manifest: Path) -> None:
     """Build Viewer-private source manifests without touching canonical audit files."""
     refresh_manifest(Path("DEVELOPMENT_FULL_CONVOS"), dev_manifest)
     refresh_manifest(Path("LIVE CONVOS"), live_manifest)
+    refresh_manifest(Path("."), root_manifest)
 
 
-def relabel_private_inputs(output: Path, private_dev: Path, private_live: Path) -> None:
+def relabel_private_inputs(output: Path, private_dev: Path, private_live: Path, private_root: Path) -> None:
     """Publish stable canonical input labels instead of ephemeral temp paths."""
     if not output.is_file():
         return
@@ -65,6 +67,7 @@ def relabel_private_inputs(output: Path, private_dev: Path, private_live: Path) 
     replacements = {
         private_dev.as_posix(): CANONICAL_DEV.as_posix(),
         private_live.as_posix(): CANONICAL_LIVE.as_posix(),
+        private_root.as_posix(): CANONICAL_ROOT.as_posix(),
     }
     changed = False
     for item in payload.get("inputs", []):
@@ -108,6 +111,7 @@ def existing_source_normalize_record(
 def main() -> int:
     original_dev = base.DEFAULT_DEV
     original_live = base.DEFAULT_LIVE
+    original_root = base.DEFAULT_ROOT
     base.canonical_path = existing_canonical_path
     base.normalize_record = existing_source_normalize_record
     if DISCOVERED_EXTERNAL.is_file():
@@ -116,16 +120,19 @@ def main() -> int:
     with TemporaryDirectory(prefix="hsh-viewer-manifests-") as temp_dir:
         private_dev = Path(temp_dir) / "development-conversation-dates.json"
         private_live = Path(temp_dir) / "live-conversation-dates.json"
-        refresh_source_manifests(private_dev, private_live)
+        private_root = Path(temp_dir) / "root-conversation-dates.json"
+        refresh_source_manifests(private_dev, private_live, private_root)
         base.DEFAULT_DEV = private_dev
         base.DEFAULT_LIVE = private_live
+        base.DEFAULT_ROOT = private_root
         try:
             result = base.main()
-            relabel_private_inputs(base.DEFAULT_OUTPUT, private_dev, private_live)
+            relabel_private_inputs(base.DEFAULT_OUTPUT, private_dev, private_live, private_root)
             return result
         finally:
             base.DEFAULT_DEV = original_dev
             base.DEFAULT_LIVE = original_live
+            base.DEFAULT_ROOT = original_root
 
 
 if __name__ == "__main__":
