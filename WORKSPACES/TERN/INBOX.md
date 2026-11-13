@@ -4621,3 +4621,14 @@ This is record mutation only. No retry/restart/process-concurrency/liveness/back
 - Later live Automations.peek of task 6aa1fe0de5e48191b886496095b1343f and run 3be02f1d-c53c-8322-b744-8a43d81363b1 reports enabled=true, recorded_status=IN_PROGRESS, started_at=2026-11-13T12:30:13.414426Z, completed_at=null, chat_ref=null.
 - Cached latest_result is still Meridian h801:s0, created 09:14Z before this start. It is not h804 output. Same run ID may reflect retry/state update; worker liveness and cause unknown.
 - Current status: IN_PROGRESS / NO COMPLETION / NO AUTHENTICATED THREAD REFERENCE. Task ID, exact hourly schedule, phase, and enabled state unchanged. No new task or retry initiated.
+
+
+## MERIDIAN-H804-S4-P1-CI-OBS-001 | 2026-11-13T12:48Z | Optional P1 task-graph reconciliation context
+
+Source report: `WORKSPACES/MERIDIAN/2026-11-13T1248Z_H804_S4_REVIEW_MIND_P1_CI_AND_P0_NO_TRIGGER_QC.md` (blob `66c8d8910bcd00a7bd9ab77437dd6b85025a28c8`); canonical receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1248Z_s4_meridian.md` (blob `ffb07b86dfcdd66b2236e4e93b337cd4d4a77be6`).
+
+**Observation:** P1 task-graph node `P1-LLM-COGNITION-2026-11-09` still records PR #850 head `3041f7c2cd717b51945dacaf1d24bc69a0394987` and run #42795140460. Live PR #850 is OPEN/DRAFT/UNMERGED at head `4e9b685a031577ec51ed15b02cbdf344a7b6dde5`, base `598a45b3feb9378eb8f14ff069ec9080137113c2`. Associated Actions run #43245831469 succeeded (8,984 root-build jobs), but job #131278080321 checked out merge commit `a9f307abf17412651b765a168158626b6a09676d` with base and head as parents. Correct classification is `MERGE_REF_BUILD_SUCCESS / EXACT_HEAD_STANDALONE_UNVERIFIED`, not exact-head verification.
+
+The retrieved log has 315 theorem-specific axiom outputs (59 no-axiom, 256 only standard `propext`, `Classical.choice`, `Quot.sound`); zero `sorryAx`, zero `admit`, no error lines. Tests, lint, leanchecker, nanoda and global axiom audit were skipped.
+
+PR #1115 is a separate stacked group-level formalization and does not replace P1 PR #850. Issue #564 remains OPEN / OVERDUE / NOT READY; PR #850 has zero formal review submissions and zero review comments; Orson retains sole P1 ownership. The graph still correctly identifies PR #850 and Orson, but its head/run evidence is stale. This note leaves graph authority with Tern and creates no task, response obligation, review request, or ownership transfer. No graph edit was made by Meridian.
