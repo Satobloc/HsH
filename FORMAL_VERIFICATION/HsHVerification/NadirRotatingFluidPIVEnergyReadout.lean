@@ -11,34 +11,45 @@ fluid", Journal of Fluid Mechanics 1029 (2026), A47,
 doi:10.1017/jfm.2026.11199.
 
 Source-defined measurement facts:
-* The vertical light-sheet (VLS) samples the axial-radial plane.
-* Its two-component PIV readout omits the azimuthal velocity component.
-* The paper explicitly says the kinetic-energy calculation omits the
-  out-of-plane contribution; it also reports radial and azimuthal velocities
-  of similar magnitude.
-* The paper uses an axisymmetry assumption to assign toroidal volume weights
-  to VLS interrogation cells.
+* The wide-field vertical light-sheet (VLS) samples an axial-radial plane at
+  60 Hz for 60 s; the thesis describes 2 mm light-sheet thickness.
+* The idealized two-component VLS readout retains axial and radial components
+  and omits the azimuthal component. The actual finite-thickness sheet can
+  capture some out-of-plane motion; it is not an exact zero-thickness camera
+  projection.
+* Jackson's thesis reports a maximum 7.02% light-sheet geometric error for
+  the **narrow-field** setup. That bound is not transferred to the distinct
+  wide-field configuration; no corresponding wide-field bound was recovered.
+* The horizontal light-sheet (HLS) is a separate acquisition at z = 3d0,
+  with a 150 Hz frame rate and 20 s duration. It measures radial/azimuthal
+  components in another plane; it is not simultaneous, co-registered 3D3C
+  data with the wide-field VLS sequence.
+* The paper's VLS kinetic-energy construction omits the out-of-plane
+  contribution, reports radial and azimuthal velocities of similar magnitude,
+  and uses an axisymmetry assumption to assign toroidal volume weights.
 
-The map below is an assistant reconstruction of that measurement boundary.
-It is not a source-authored H(s)H map, a 3D reconstruction, or a physical
-equivalence. The theorems are conditional algebra: a VLS-only readout cannot
-determine arbitrary full 3D kinetic energy, while the VLS energy is a lower
+The maps below are assistant reconstructions of idealized measurement
+boundaries, not source-authored H(s)H maps, full camera/PIV acquisition
+operators, 3D reconstructions, or physical equivalences. The theorems are
+conditional algebra: an ideal VLS-only component projection cannot determine
+arbitrary full 3D kinetic energy, while a normalized VLS estimator is a lower
 bound when the omitted component and volume weights are treated consistently.
-Lean does not establish that the experiment is axisymmetric or validate the
-PIV calibration.
+The weighted estimator is not claimed to reproduce every step of the paper's
+data-reduction pipeline. Lean does not establish axisymmetry, validate
+calibration, or bound finite-sheet contamination.
 -/
 
 namespace HsHVerification.NadirRotatingFluidPIVEnergyReadout
 
 open HsHVerification.NadirProjectionCoarseGrainFactorization
 
-/-- Velocity components (axial, radial, azimuthal) at one spatial sample. -/
+/-- Latent local velocity state (axial, radial, azimuthal), not a simultaneous measured 3D3C sample. -/
 abbrev Velocity3 := ℝ × (ℝ × ℝ)
 
 /-- The VLS two-component readout (axial, radial). -/
 abbrev VLSReadout := ℝ × ℝ
 
-/-- The VLS readout discards the azimuthal component. -/
+/-- Idealized zero-thickness VLS component selection; finite-sheet and optical/PIV effects are not modeled. -/
 def vlsReadout (v : Velocity3) : VLSReadout :=
   (v.1, v.2.1)
 
@@ -105,11 +116,11 @@ def vlsEnergyNumerator (w uAxial uRadial : ι → ℝ) : ℝ :=
 def azimuthalEnergyNumerator (w uAzimuthal : ι → ℝ) : ℝ :=
   ∑ i, w i * uAzimuthal i ^ 2
 
-/-- VLS-only specific kinetic-energy estimator. -/
+/-- Assistant-reconstructed normalized, volume-weighted VLS specific-energy estimator. -/
 noncomputable def vlsSpecificEnergy (w uAxial uRadial : ι → ℝ) : ℝ :=
   vlsEnergyNumerator w uAxial uRadial / (2 * totalWeight w)
 
-/-- Full specific kinetic energy with the azimuthal contribution restored. -/
+/-- Latent full-component counterpart using the same reconstructed normalization. -/
 noncomputable def fullSpecificEnergy
     (w uAxial uRadial uAzimuthal : ι → ℝ) : ℝ :=
   (vlsEnergyNumerator w uAxial uRadial +
