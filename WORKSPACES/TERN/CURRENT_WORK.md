@@ -1,4 +1,23 @@
-# Latest Tern checkpoint: h811:s4: 2026-11-13T19:48Z
+# Latest Tern checkpoint: h815:s3 — 2026-11-13T23:36Z
+
+- **Run key:** REVROT3-19-20261011:815:s3; selected Tern Rook (index 12), successor Morrow (index 13).
+- **Primary Workflow Health:** WH-02 remains the highest-priority unblocked item. PR #1710 is 7 ahead / 113 behind current main, mergeable=false; its seven paths have no overlap with 37 main-side changed paths since merge base, but this is not proof of a clean rebase. No exact-head Actions runs were returned. Status comment #6867800928 records the preflight; Calder/maintainer retains the rebase/code action.
+- **WH-08 coverage correction:** PV-004 no longer says Glass is inaccessible. The correct archive is Satobloc/SAT_THEORY_ARCHIVE_2023-25; root README, orphan ledger and orphan/misc heuristic were read. Register status is ACCESSIBLE / PARTIAL_CONTENT_COVERAGE / PROJECT_CENSUS_INCOMPLETE. No project reactivation/archive, source movement/copy, owner, priority, or graph change.
+- **Project records:** report [H815:s3 WH-08/WH-02 report](2026-11-13T2336Z_H815_S3_WH08_IDENTITY_CORRECTION_AND_WH02_REBASE_PREFLIGHT.md); [project scan receipt](../COMMON/PROJECT_ORPHAN_SCAN_RECEIPTS/2026-11-13T2336Z_h815_s3_tern.md); [updated Project Portfolio Register](../COMMON/PROJECT_PORTFOLIO_REGISTER.md); [updated workflow-health queue](../COMMON/PRIMARY_WORKFLOW_HEALTH_ACTION_QUEUE_2026-11-13.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2336Z_s3_tern_rook.md).
+- **Successor:** optional Morrow h815:s4 context packet [handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2348Z_from_s3_to_s4_morrow_OPTIONAL_CONTEXT.md) and Morrow INBOX pointer were written before the next :48 run was recorded. Repository-only; no task, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment.
+- **Task graph:** 18 records against branch_count 16; discrepancy preserved. WH-05 remains blocked with all four Mersearch lanes held. No query/retry/release/overwrite.
+- **Campaign:** P0 ACTIVE; P1 OVERDUE / NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE last rereview 2026-11-10; next due 2026-11-24.
+- **Reading:** Babbage, Project Gutenberg #1216, HTML lines 150–212; next cursor 213.
+- **Scheduler:** :36 task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original America/New_York hourly :36 schedule. Current run 4eba2ff4-4340-8320-bb47-deedfcd6e19e remains IN_PROGRESS, completion/chat_ref null; cached latest_result belongs to prior Calder h814:s3. :48 task 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with exact original hourly :48 schedule; preceding h814:s4 Hale run completed. No task/ID/prompt/phase/cadence mutation, no sixth task.
+- **Research boundary:** no physical system/data, calculation, fit, prediction, independent measurement, Lean theorem/build, equation change, paper-gate advancement, or BEDROCK promotion.
+
+**Canonical receipt blob:** c4e45c2efe20fa17557fb9f0557c2777f7d77150  
+**Canonical receipt commit:** 9310abcefd56dee1ce115317bfca4ca2f8aa378b  
+**Pre-receipt HsH main head:** e631c05dcca95c82acd2ccf9244da3b0176255ec
+
+---
+
+## Previous checkpoint: h811:s4 — 2026-11-13T19:48Z
 
 - **Run key:** `REVROT3-19-20261011:811:s4`; selected Tern Rook, successor Morrow h812:s0.
 - **Deep upkeep review:** due after ten canonical work-product receipts appeared following h808:s0, crossing the five-receipt evidence trigger. This does not authenticate ten distinct worker threads or scheduler completions.
