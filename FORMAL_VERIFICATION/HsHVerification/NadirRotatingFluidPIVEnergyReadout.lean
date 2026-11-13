@@ -4,39 +4,50 @@ import HsHVerification.NadirProjectionCoarseGrainFactorization
 /-!
 # Rotating-fluid PIV: finite-plane energy observability
 
-Primary source:
-O. C. Jackson and P. J. Thomas, "An experimental study investigating the
-inertial-wave field accompanying vortex rings translating through a rotating
-fluid", Journal of Fluid Mechanics 1029 (2026), A47,
-doi:10.1017/jfm.2026.11199.
+Source and version boundaries:
+* Jackson & Thomas (2026), *Journal of Fluid Mechanics* 1029, A47,
+  DOI 10.1017/jfm.2026.11199, is the published source for the inertial-wave
+  dispersion/spectral analysis: 60 Hz, 60 s, 3600 stated time steps,
+  149 x 239 velocity points per frame, VLS/HLS distinction, and the
+  correlation-to-propagation-angle procedure.
+* Jackson (2025) PhD thesis, University of Warwick WRAP eprint 195731,
+  Chapters 5 and 7-8, is the detailed source for PIV calibration/error,
+  finite light-sheet thickness, and the VLS/HLS energy constructions.
+* The energy estimator formalized below is an assistant reconstruction of
+  the thesis's volume-weighted VLS energy calculation. Its normalized
+  weighted-average form is not claimed as a verbatim reproduction of every
+  source reduction step. The JFM article supplies the spectral sample/bin
+  facts; the thesis supplies the energy and optical-error details.
 
-Source-defined measurement facts:
-* The wide-field vertical light-sheet (VLS) samples an axial-radial plane at
-  60 Hz for 60 s; the thesis describes 2 mm light-sheet thickness.
-* The idealized two-component VLS readout retains axial and radial components
-  and omits the azimuthal component. The actual finite-thickness sheet can
-  capture some out-of-plane motion; it is not an exact zero-thickness camera
-  projection.
-* Jackson's thesis reports a maximum 7.02% light-sheet geometric error for
-  the **narrow-field** setup. That bound is not transferred to the distinct
-  wide-field configuration; no corresponding wide-field bound was recovered.
-* The horizontal light-sheet (HLS) is a separate acquisition at z = 3d0,
-  with a 150 Hz frame rate and 20 s duration. It measures radial/azimuthal
-  components in another plane; it is not simultaneous, co-registered 3D3C
-  data with the wide-field VLS sequence.
-* The paper's VLS kinetic-energy construction omits the out-of-plane
-  contribution, reports radial and azimuthal velocities of similar magnitude,
-  and uses an axisymmetry assumption to assign toroidal volume weights.
-
-The maps below are assistant reconstructions of idealized measurement
-boundaries, not source-authored H(s)H maps, full camera/PIV acquisition
-operators, 3D reconstructions, or physical equivalences. The theorems are
-conditional algebra: an ideal VLS-only component projection cannot determine
-arbitrary full 3D kinetic energy, while a normalized VLS estimator is a lower
-bound when the omitted component and volume weights are treated consistently.
-The weighted estimator is not claimed to reproduce every step of the paper's
-data-reduction pipeline. Lean does not establish axisymmetry, validate
-calibration, or bound finite-sheet contamination.
+Measurement limits and unresolved source-version differences:
+* The wide-field vertical light-sheet (VLS) uses 60 Hz for 60 s in the
+  thesis (3600 raw frames); the horizontal light-sheet (HLS) is a separate
+  150 Hz, 3000-frame (20 s) acquisition at z = 3D0. HLS measures
+  radial/azimuthal components in another plane; it is not simultaneous,
+  co-registered 3D3C data with the VLS sequence.
+* The idealized VLS component map retains axial/radial velocity and omits
+  azimuthal velocity. The actual sheet is approximately 2 mm thick, so
+  out-of-plane motion can leak into the two reported components.
+* The thesis reports a 7.02% worst-case geometric error for the narrow-FOV
+  configuration. That number is not transferred to the distinct wide-FOV
+  configuration; no corresponding wide-FOV bound was recovered.
+* The JFM article reports 149 x 239 velocity points per frame and 3600
+  time steps for its spectral analysis. Thesis Table 5.5 instead lists
+  111 x 69 for wide-FOV VLS, 239 x 149 for narrow-FOV VLS/HLS, and
+  Chapter 5 says N images produce N-1 PIV time steps. These may reflect
+  different configurations or processing versions; the discrepancy is
+  unresolved. The 3600-sample theorem below formalizes the JFM article's
+  stated spectral array, not a derivation from the thesis's raw-frame count.
+* The thesis's HLS and VLS are separate acquisition configurations. The
+  JFM article says HLS was not used to reconstruct the dispersion curve.
+* The maps below are assistant reconstructions of idealized measurement
+  boundaries, not source-authored H(s)H maps, full camera/PIV acquisition
+  operators, 3D reconstructions, or physical equivalences. The theorems
+  are conditional algebra: an ideal VLS component projection cannot
+  determine arbitrary full 3D kinetic energy, while a normalized VLS
+  estimator is a lower bound when omitted-component and volume-weight
+  assumptions are shared. Lean does not establish axisymmetry, calibration,
+  finite-sheet error bounds, or source-to-model fidelity.
 -/
 
 namespace HsHVerification.NadirRotatingFluidPIVEnergyReadout
