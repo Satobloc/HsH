@@ -4780,3 +4780,11 @@ Observation 015 Amendment 01 records the subsequent :00 readback: h806:s0 Aster 
 
 Classification: **LATE_PACKET_RECONCILED / POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY**. The packet was not available at the original start and is not represented as on-time consumption. It was read in this later reconciliation. No direct ChatGPT-thread delivery, identity authentication, or acknowledgment by a historical Enheduanna/Tern instance is claimed.
 
+
+
+## H808-S0 | Observation 019 | 2026-11-13T1652Z
+
+- [Observation 019: same-run-ID :00 status reversal](OBSERVATIONS/2026-11-13T1652Z_H808_S0_SAME_ID_STATUS_REVERSAL_OBS_019.md).
+- :00 task `6aa1fe0de5e48191b886496095b1343f` remains enabled with its exact hourly America/New_York :00 VEVENT. Same run ID `ef4706d5-998c-8326-8e72-c5ae5ec2ab7b` moved from FAILED (start 16:22:29.837873Z, completion 16:47:33.133808Z) to IN_PROGRESS (start 16:52:25.957842Z, completion null); chat_ref null. Start-field movement +29m56.119969s. Cached latest_result remains prior Calder h807:s0.
+- This is distinct from Observation 018 for the :48 early start. No retry/restart/duplicate/concurrency/worker identity/liveness/cause inference. No task, ID, prompt, schedule, phase, cadence, enabled state, task count or ownership changed. Tern retains scheduler authority.
+- Repository pointer only; no direct Tern-thread delivery, consumption or acknowledgment claimed.

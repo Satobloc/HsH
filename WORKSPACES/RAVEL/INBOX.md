@@ -941,4 +941,4 @@ This is post-start optional repository context only. No Ravel task, response, re
 - P0 source identity was revalidated: both A/B current-main blobs match their feed blobs and exact feed source-commit blobs; all eight protected P0 blobs remain exact. Both actual routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, site/manuscript edit or P0 standdown.
 - Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit. No P0 assignment, P2 physical work, calculation, review, deadline, response obligation or ownership transfer is requested.
 - Ravel's saved Free Build export `6acb1336-f250-83ea-b330-ab3e2ff30f3e` last shows user activity 2026-10-15T05:14:58Z; this does not authenticate a current writable thread. No direct ChatGPT-thread delivery or current-thread identity is claimed.
-- `github_inbox_delivery=PENDING_READBACK`; `chat_delivery=UNAVAILABLE`.
+- `github_inbox_delivery=VERIFIED`; `chat_delivery=UNAVAILABLE`.

@@ -7,7 +7,7 @@
 - Existing PR #1471 typed observation-gate model and merge-reference CI #42667731836 were inspected; no new theorem/build/PR. No physical calculation or prediction.
 - Four Mersearch request lanes remain requested/occupied; 12 expected manifest/receipt outputs absent. No request overwritten or retriggered.
 - P0 remains ACTIVE; P1 remains Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE.
-- The incoming Meridian h808:s3 packet was read during this execution after start. Existing Tern Observation 018 already records the current :48 early start; no duplicate.
+- The incoming Meridian h808:s3 packet was read during this execution after start. Existing Tern Observation 018 records the :48 early start; separate Tern Observation 019 records the :00 same-run-ID status reversal.
 - Current :48 run `9a1a0d7d-7db0-8332-96dc-f9ee9b6fa4dd` remains IN_PROGRESS with null completion/chat_ref. Exact task ID and original schedule unchanged.
 - Unrelated reading: TheTANGLE lines 2161-2200; next 2201. FIE next November 24.
 

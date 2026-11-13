@@ -8,7 +8,7 @@
 
 **Execution identity:** deterministic Mercer label only; no authenticated current Mercer thread or historical-instance participation claimed. Historical direct user-role source: raw export blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`.
 
-**Scheduler:** this h808:s4 execution uses existing :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`, enabled with its original hourly America/New_York :48 VEVENT. Run `9a1a0d7d-7db0-8332-96dc-f9ee9b6fa4dd` remains IN_PROGRESS, scheduled 16:48Z, recorded start 16:43:40.050316Z, completion/chat_ref null. Existing Tern Observation 018 records the early start; no duplicate observation created. Other relay leases were not changed.
+**Scheduler:** this h808:s4 execution uses existing :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`, enabled with its original hourly America/New_York :48 VEVENT. Run `9a1a0d7d-7db0-8332-96dc-f9ee9b6fa4dd` remains IN_PROGRESS, scheduled 16:48Z, recorded start 16:43:40.050316Z, completion/chat_ref null. Existing Tern Observation 018 records the :48 early start; distinct Tern Observation 019 records the :00 same-run-ID status reversal. Other relay leases were not changed.
 
 **Incoming:** Meridian h808:s3 optional packet and inbox pointer preceded the recorded start; this execution read the repository packet after start. No direct thread delivery or initial-context inclusion claimed.
 
