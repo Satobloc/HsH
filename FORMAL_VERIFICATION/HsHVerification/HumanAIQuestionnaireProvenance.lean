@@ -31,10 +31,12 @@ The public common-question CSV schema is:
 agreement,ai_leadership.
 
 The paper describes nine sampled interactions per human respondent and a
-three-option partner-identity judgment (human / AI / not sure). The public
-processed personalized CSV stores a binary judged_ai field. The public
-analysis script reads this field as numeric and uses it as binary; the
-raw-category-to-binary transformation is not specified in that script.
+three-option partner-identity judgment (human / AI / not sure). Its M5 methods
+define the derived binary variable as 1 if the participant judged the partner
+as AI and 0 otherwise; human and unsure therefore both map to false. The public
+processed CSV stores only this binary field, so the original distinction is
+not retained. The public analysis script reads the field as numeric and uses
+it as binary.
 
 The public CSVs do not contain respondent IDs, session IDs, or a join key
 between the common and personalized questionnaire sections. This module
@@ -160,6 +162,37 @@ inductive PartnerJudgment
   deriving DecidableEq, Repr
 
 /--
+The paper's M5 binary variable is 1 for "judged as AI" and 0 otherwise.
+Thus both "human" and "not sure" collapse to false.
+-/
+def collapsePartnerJudgment : PartnerJudgment → Bool
+  | .human => false
+  | .ai => true
+  | .unsure => false
+
+theorem human_and_unsure_have_same_binary_code :
+    collapsePartnerJudgment .human =
+      collapsePartnerJudgment .unsure := rfl
+
+theorem binary_judgment_collapse_is_not_injective :
+    ¬ Function.Injective collapsePartnerJudgment := by
+  intro h
+  have hEq : PartnerJudgment.human = PartnerJudgment.unsure := h rfl
+  cases hEq
+
+theorem no_decoder_recovers_the_three_way_judgment :
+    ¬ ∃ decode : Bool → PartnerJudgment,
+      ∀ raw, decode (collapsePartnerJudgment raw) = raw := by
+  rintro ⟨decode, hdecode⟩
+  have hHuman : decode false = PartnerJudgment.human := by
+    simpa [collapsePartnerJudgment] using hdecode PartnerJudgment.human
+  have hUnsure : decode false = PartnerJudgment.unsure := by
+    simpa [collapsePartnerJudgment] using hdecode PartnerJudgment.unsure
+  have hNe : PartnerJudgment.human ≠ PartnerJudgment.unsure := by
+    decide
+  exact hNe (hHuman.symm.trans hUnsure)
+
+/--
 A public processed personalized-question row.
 
 roundIndex is zero-based (the CSV values are 0 through 39); adding one gives
@@ -184,7 +217,7 @@ A provenance-complete target record. Optional fields make missing source
 metadata explicit; they do not assert that the missing values were recovered.
 -/
 structure PotentiallyAugmentedQuestionnaireRecord where
-  public : PublicQuestionnaireRow
+  row : PublicQuestionnaireRow
   respondentId : Option Nat
   sessionId : Option Nat
   rawPartnerJudgment : Option PartnerJudgment
@@ -192,7 +225,7 @@ structure PotentiallyAugmentedQuestionnaireRecord where
 /-- The readout retained by the public processed CSV representation. -/
 def publicProjection
     (r : PotentiallyAugmentedQuestionnaireRecord) : PublicQuestionnaireRow :=
-  r.public
+  r.row
 
 /--
 Any deterministic statistic computed only from the public readout is constant
@@ -251,8 +284,8 @@ theorem session_id_not_recoverable_of_projection_collision
 
 /--
 Conditional non-recoverability of the original three-way judgment from the
-public binary row. The source-to-binary recoding is intentionally not defined
-because it is not specified in the public analysis script.
+public binary row. The paper specifies the binary recoding, but the processed
+CSV does not retain the original three-way category.
 -/
 theorem raw_partner_judgment_not_recoverable_of_projection_collision
     {r₁ r₂ : PotentiallyAugmentedQuestionnaireRecord}
@@ -274,6 +307,9 @@ theorem raw_partner_judgment_not_recoverable_of_projection_collision
 #print axioms A3_maps_to_H2
 #print axioms A4_maps_to_H1
 #print axioms A5_maps_to_H3
+#print axioms human_and_unsure_have_same_binary_code
+#print axioms binary_judgment_collapse_is_not_injective
+#print axioms no_decoder_recovers_the_three_way_judgment
 #print axioms common_rows_match_reported_human_counts
 #print axioms personalized_rows_are_nine_per_reported_respondent
 #print axioms total_common_questionnaire_rows
