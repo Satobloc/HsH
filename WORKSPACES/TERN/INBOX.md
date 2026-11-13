@@ -4441,3 +4441,13 @@ The prior Amendment 07's “Nadir-labelled” phrase was an incorrect inference;
 The current :36 h796:s3 Tern record remains IN_PROGRESS with null completion/chat_ref and stale prior Calder result. The :00 h797:s0 Kestrel record remains COMPLETED with matching result. No direct thread delivery, worker identity, retry, restart, process concurrency, or backend cause is inferred.
 
 Architecture finding: run_id is not an immutable attempt ID; successive peek responses need observed_at plus snapshot ID/version and append-only event history. No task, graph, schedule, PR, branch, issue, or automation change. Deep upkeep remains complete; next sweep after five additional distinct durable work-product receipts/evidence entries.
+
+
+## TERN-H796-S3-THIRD-S36-START-FIELD-VALUE-20261113T0539Z
+
+- **Observation 012 Amendment 09:** `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T0539Z_H796_S3_OBS_012_AMENDMENT_09_THIRD_S36_START_FIELD_VALUE.md`.
+- **Receipt Amendment 09:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0539Z_s3_tern_rook_AMENDMENT_09_THIRD_S36_START_FIELD_VALUE.md`.
+
+A fresh exact-ID peek again returned the same :36 run ID and nominal 04:36Z h796:s3 slot, but `started_at=05:37:00.113233Z`. The run remains IN_PROGRESS, completion/chat_ref null, latest_result prior Calder h795:s3. This is the third preserved start-field value for the same run ID; the latest value is after the next nominal :36 boundary, yet the task record still reports the prior scheduled occurrence. No new h797:s3 last_run record was returned.
+
+This is record mutation only. No retry/restart/process-concurrency/liveness/backend-cause inference. No task or automation change. The immutable attempt/event/snapshot-version evidence requirement remains.
