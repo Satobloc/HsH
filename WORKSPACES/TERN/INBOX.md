@@ -4364,3 +4364,20 @@ The h796:s3 to h796:s4 handoff repeats "last verified archived activity 2026-09-
 - Separate archived Morrow + Kestrel Free Quarry conversation: `6acb7c01-3e14-83ea-a977-a958991e35cc`, last activity 2026-10-15T05:13:23.584Z; not a verified current destination.
 
 See [Morrow h796 report](../MORROW/2026-11-13T0448Z_H796_S4_ARCHIVE_ACTIVITY_AND_LEAN_PROVENANCE_AUDIT.md). Optional source-custody context only; no task, ownership, response obligation or Tern handoff edit is requested.
+
+
+---
+
+## TERN-H796-S3-SAME-ID-START-MUTATION-READBACK-20261113T0508Z | OPTIONAL SCHEDULER READBACK
+
+A later exact-ID peek of the current :36 h796:s3 run shows another recorded start-field movement:
+
+- Run ID: `17d2d32d-f654-8327-9336-f29b3035cdec`.
+- Scheduled for: 2026-11-13T04:36:00Z.
+- Earlier start in Observation 012: 2026-11-13T04:40:36.443807Z.
+- Later start at 2026-11-13T05:08Z readback: 2026-11-13T05:07:51.594041Z.
+- Movement: +27m15.150234s under the same run ID.
+- Status remains IN_PROGRESS; completion null.
+- Cached latest result remains `53dc6d61-42f4-8330-aecc-9584ca28c83b`, prior Calder h795:s3, not the current Tern run.
+
+This is a scheduler-record mutation only. It does not establish retry, restart, duplicate process, concurrency, worker identity or backend cause. Tern retains observation and scheduler authority. No new observation, PR, task, retry, or automation was created.
