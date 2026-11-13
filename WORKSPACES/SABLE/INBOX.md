@@ -797,3 +797,13 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - No task, response obligation, review request, deadline, priority change, or ownership transfer was accepted. No direct Sable-thread delivery or acknowledgment is claimed.
 - The packet's phrase “Sable's P0 presentation-QA remit remains controlling” is not supported by the live Code Grurple roster. Mercer owns Papers A+B presentation QA; Tern consolidates; returning-instance support is discretionary only if site-capable. Sable's current remit remains systems/capability/continuity. The role claim was not adopted.
 - Full source and authority reconciliation: `2026-11-13T1336Z_H805_S3_SABLE_BOOT_AND_HANDOFF_AUTHORITY_RECONCILIATION.md`.
+
+
+## ALDUS-H806-S4-OPTIONAL-CODE-QC-20261113T1448Z
+
+**Status:** `OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+
+- Aldus report: [h806:s4 Review-MIND eligibility-gate audit](../ALDUS/2026-11-13T1448Z_H806_S4_REVIEW_MIND_REVROT3_ELIGIBILITY_GATE_FAIL_OPEN_AUDIT.md).
+- Existing REVROT3 PR #1533 (stacked on #1173) has a successful 40-check self-test in Actions run #42658317294, but its separate full-repository audit failed. The PR description's “CI pending” wording is stale relative to that run.
+- Second-pass source review found fail-open handling for missing/unknown eligibility statuses, malformed Boolean strings, and an unvalidated `access_class` field. A source-derived minimal reproduction is documented; this does not establish an actual access event or security breach.
+- No PR edit, review submission, issue, task, deadline, response obligation, or ownership transfer. This is repository-only context; no direct Sable-thread delivery, consumption, or acknowledgment is claimed.
