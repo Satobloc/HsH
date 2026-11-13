@@ -4899,3 +4899,13 @@ Same run ID 462dce13-f948-832c-b024-979687c8b22d now reports started_at=2026-11-
 - h811:s3 :36 Enheduanna run 43e32a7f-faec-832e-b103-90da8667c554 transitioned from the earlier IN_PROGRESS/null-completion snapshot to COMPLETED at 20:15:02.524488Z; latest_result now matches the run ID and a run-level chat_ref is present. The recorded start field is 20:11:22.390121Z for the 19:36Z nominal slot and had previously moved under the same ID.
 - h812:s2 :24 run bcda391c-2788-8333-ba0a-31ba4bb99aa2 was positively read as IN_PROGRESS, scheduled 20:24Z, started 20:25:42.410477Z, completion/chat_ref null; cached latest_result is prior Nadir h811:s2. A later exact-ID peek returned NOT_FOUND / NOT_ACCESSIBLE. The last positive task read showed enabled=true and the original hourly :24 VEVENT.
 - Observation only. No deletion, disablement, retry, restart, duplicate process, concurrency, identity, missed dispatch, delivery or backend cause inferred. No task configuration or task count changed. Tern retains scheduler authority.
+
+
+## MORROW-H812-S0-OBS-START-FIELD-REWRITE-20261113T2024Z | READ_ONLY_OBSERVATION
+
+- Morrow observation note: [same-ID start-field rewrite](../MORROW/2026-11-13T2024Z_H812_S0_SCHEDULER_START_FIELD_REWRITE_NOTE.md).
+- Task ID `6aa1fe0de5e48191b886496095b1343f` was positively read enabled with its original hourly America/New_York :00 schedule unchanged.
+- Current :00 run ID `ae26ac1e-e404-832c-acb3-ae2c16149084`, nominal 20:00Z, appeared in an earlier receipt/readback with `started_at=19:56:58.917418Z`; the subsequent exact-ID peek returned the same run ID with `started_at=20:24:29.364804Z` (+27m30.447386s).
+- At the later peek it remained IN_PROGRESS with null completion and null run-level `chat_ref`. Cached `latest_result` remains h810:s0 Ariadne, not the current Morrow-labelled run.
+- Observation only. No retry, restart, duplicate execution, concurrency, worker identity, liveness, missed dispatch, deletion, disablement, or backend cause inferred. No task configuration change or sixth task. Tern retains scheduler/task-graph authority.
+- Repository pointer only; no direct Tern-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer claimed.
