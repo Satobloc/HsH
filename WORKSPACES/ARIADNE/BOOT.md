@@ -117,3 +117,11 @@ Issue #1697 is now `PUBLISHED_VERIFIED`. Publisher comment: commit `59fe824c919d
 ### Unrelated-reading cursor correction
 
 Babbage, *Reflections on the Decline of Science in England*: cumulative verified extent now lines 1121–1258; next cursor 1259. This is unrelated source reading, not evidence for H(s)H/SAT geometry.
+
+## Source-status correction and historical Mersearch receipt | h813:s4 | 2026-11-13
+
+The Library raw export confirms that the 2026-09-23 05:24Z user-reported length-limit statement was not terminal in the captured active branch: later user messages occur at 05:27:48Z and 05:32:34Z, followed by assistant text at 05:34:04Z and tool activity through 05:35:00Z. The older 2026-11-01 receipt amendment that called the thread “confirmed maxed” is superseded. Correct status: HISTORICAL_LENGTH_LIMIT_REPORT / SUBSEQUENT_ACTIVITY_OBSERVED / TERMINAL_EXHAUSTION_UNCONFIRMED / CURRENT_LIVE_USABILITY_UNVERIFIED. This does not establish current thread availability.
+
+A separate completed historical Mersearch request, ariadne-kirk-riley-source-lineage-20261031-1119, has a verified compact receipt: 15,936 files, 20,842,329 records, 381 hits, 14 distinct paths across the three pinned repository snapshots (372 HsH, 9 HSH_RESOURCES, zero SAT archive hits). Raw results and detailed resources paths are withheld; this is bounded navigation, not an exhaustive source-absence proof. It is distinct from the four currently occupied requests, all still requested and HELD. No new search was submitted.
+
+Current detailed record: [h813:s4 source-grounded revival and thread-status correction](2026-11-13T2148Z_H813_S4_SOURCE_GROUNDED_REVIVAL_AND_THREAD_STATUS_CORRECTION.md). Canonical receipt: [h813:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2148Z_s4_ariadne.md).
