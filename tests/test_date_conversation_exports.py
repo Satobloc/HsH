@@ -157,16 +157,17 @@ class DateConversationExportsTests(unittest.TestCase):
     def test_viewer_accepts_root_sources_with_nonstandard_suffix(self):
         with tempfile.TemporaryDirectory() as td:
             root=Path(td)
-            source=root/"root-source.md"
+            source_name="26.05.28•26.05.28•root-source.md"
+            source=root/source_name
             self.write_convo(source,1780000000)
             dev=root/"development.json"; live=root/"live.json"; root_manifest=root/"root.json"
             dev.write_text(json.dumps({"records":[]}),encoding="utf-8")
             live.write_text(json.dumps({"records":[]}),encoding="utf-8")
             root_manifest.write_text(json.dumps({"generated_at_utc":"2026-11-13T22:00:00Z","records":[{
-                "old_path":"root-source.md",
-                "new_path":"root-source.md",
-                "start_local":"2026-11-13T17:00:00-05:00",
-                "end_local":"2026-11-13T17:00:00-05:00",
+                "old_path":source_name,
+                "new_path":source_name,
+                "start_local":"2026-05-28T16:26:40-04:00",
+                "end_local":"2026-05-28T16:26:40-04:00",
                 "timestamp_source":"message.create_time",
                 "message_count":1,
                 "status":"unchanged",
@@ -191,7 +192,7 @@ class DateConversationExportsTests(unittest.TestCase):
                 viewer_base.normalize_record=old_normalize
                 os.chdir(old_cwd)
             self.assertEqual(payload["counts"]["repository_root_and_other"],1)
-            self.assertEqual(payload["conversations"][0]["path"],"root-source.md")
+            self.assertEqual(payload["conversations"][0]["path"],source_name)
             self.assertEqual(payload["conversations"][0]["source_extension"],".md")
 
     def test_root_chronology_includes_suffix_independent_sources(self):
