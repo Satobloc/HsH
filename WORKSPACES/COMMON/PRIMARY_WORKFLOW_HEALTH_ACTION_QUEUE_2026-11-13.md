@@ -44,7 +44,7 @@ Fallback is a continuity mechanism, not a repair. When a tool, lane, workflow or
 ### WH-02 — Conversation dating, tagging and chronology coverage
 - Source: HsH issue #1702; date-tag scripts/workflow/manifests.
 - Objective: suffix-independent content-based discovery across root and sorted folders; explicit undatable exceptions; strict audit blocks missing datable tags/collisions but not legitimate undatable records; root included in all aggregate indexes/viewers.
-- Current status (h814:s3): draft PR #1710 is open; latest PR readback is mergeable, but no GitHub Actions CI run is observable. Vercel's daily deployment-rate-limit failure is not a code-test result. PR #1709 was closed unmerged as superseded. No source rename, date fabrication or main-branch code change occurred; new regression tests are pending execution.
+- Current status (h814:s3): draft PR #1710 is open; PR mergeability has fluctuated across peeks, latest true, but no GitHub Actions CI run is observable. Vercel's daily deployment-rate-limit failure is not a code-test result. PR #1709 was closed unmerged as superseded. No source rename, date fabrication or main-branch code change occurred; new regression tests are pending execution.
 - Next: obtain PR CI/review; after authorized merge, run the full main navigation/backfill workflow and independently verify root rename staging, every source disposition, undatable exceptions, Viewer, chronology, structural index, autotag, Pages deployment and exact readback.
 - Coordinator: HsH archive/navigation maintainer; coordinate with Tern for graph state.
 - Exit: every discovered source has a disposition; all datable conversations tagged; undatable sources preserved with reason; downstream outputs committed and read back.
