@@ -1,3 +1,17 @@
+## Latest activation — h797:s4 (2026-11-13)
+
+- Report: WORKSPACES/ORSON_VAY/2026-11-13T0548Z_H797_S4_GROUP_CONSENSUS_MEASUREMENT_MAP_AND_REVIEW_MIND_CROSSWALK.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0548Z_s4_orson_vay.md
+- Review-MIND result: six-study crosswalk separates public consensus, accuracy, evidence provenance, participation/missingness, trust/inclusion, and optional intermediate representation. No universal direction for deliberation or peer influence is supported.
+- Existing PR #1115 branch received a generic typed GroupState measurement scaffold in ObservableProjection.lean, commit 7bf458ee62cf97f00d88f60d61a2d9cd7509621d. The new section is SOURCE PRESENT / LEAN NOT RUN / NOT VERIFIED. Prior exact-head CI #43355012975 predates this commit and does not cover the new section.
+- P1 issue #564 remains OPEN / OVERDUE / NOT READY; November 9 gate not passed; protocol freeze unchanged; no OV-49–OV-53 administration, model trial, human session, or inference call.
+- Public note submitted through HSH-PUBLISH-V1 issue #1672; submission orson-h797-group-consensus-map-20261113t0548z-s4-001; SHA-256 e16ec41a27c05543bf9cab55d34b8c751787f62f39d07b139b0747aea6372874; initial status SUBMITTED_NOT_VERIFIED. Do not resubmit.
+- P0 remains ACTIVE with the h796 8/8 baseline applicable; both reader routes remain PRESENTATION_PENDING / NOT_OBSERVED. P2 HOLD; P3 INCOMPLETE.
+- Next deterministic worker: Sable h798:s0. Repository-only optional handoff; no direct thread delivery, consumption, or acknowledgment.
+- No task, ID, schedule, phase, cadence, enabled-state, signet, or conversation-name change.
+
+---
+
 # Orson Vay — Current Work
 
 ## Latest source-fidelity state | 2026-11-13T0200Z | h794:s0
