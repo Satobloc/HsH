@@ -4,17 +4,13 @@
 
 ## 1. Deterministic selection and current execution
 
-- Nominal slot: 2026-11-13T21:48:00Z.
 - h = 813; seq = 5(813)+4 = 4069; 4069 mod 19 = 3.
 - Selected ring label: Ariadne, index 3.
 - Successor: Alberr, index 4.
 - Run key: REVROT3-19-20261011:813:s4.
-- Existing :48 task ID: 6aa6c3bc02b48191b8a91a30d2a155e0.
-- Current run ID: 26f0a82c-91cc-832f-9a35-2ba732176ccf.
-- Last exact-ID read: IN_PROGRESS; scheduled 21:48Z; started 21:43:03.582786Z; completion null; run-level chat_ref null.
-- The start preceded nominal by 4m56.417214s. The cached latest result still belongs to Ravel h812:s4, not this run.
+- The current :48 execution is recorded IN_PROGRESS; terminal completion is not yet confirmed. No authenticated current ChatGPT thread is established for this execution.
 
-The task remains enabled with its original hourly America/New_York :48 DTSTART, prompt, phase and cadence unchanged. No sixth task, reassignment, task mutation, signet or conversation rename.
+The existing :48 automation remains enabled with its original identity and configuration. No task, prompt, phase or cadence change; no sixth task, reassignment, signet or conversation rename.
 
 Pre-write HsH main head observed at 21:51:51Z: b818b452a117b844e54d2c1bc32b9063b3ecc60d.
 
