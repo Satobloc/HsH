@@ -3,7 +3,22 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** Run 172, 2026-11-12 (h778:s2; report, canonical receipt, Tern scheduler observation and Ravel optional handoff filed/read back; P0 eight-file fingerprint 8/8 exact at main 9cfee1845c9bf1d9fa356d95c0ef4decedf24a59; 129 commits ahead/0 behind from prior P0 baseline with no protected P0 path; both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe or site/manuscript write; current :24 run remained IN_PROGRESS with null completion/chat_ref and stale prior latest_result; :36 successor run was already IN_PROGRESS with an early reported start and stale prior latest_result; Tern observation and inbox append verified; Ravel handoff/inbox append POST_START_OPTIONAL_CONTEXT_ONLY; no Lean target/build, physical calculation or CODATA comparison; no task or automation mutation).
+**Current through:** h793:s3, 2026-11-13 (dual-anchor source-ref check added; 8/8 protected P0 blobs exact at main 383a11579735bd5c5f7d7ec76f9128f23e240b3d; 148 commits ahead / 0 behind, 93 changed paths, zero protected P0 path changes; both A/B source refs resolve to the same pinned blobs; generated paper index still contains only Cruller-Rubin; Pages workflow remains Viewer/Whirligig scoped; both routes PRESENTATION_PENDING / NOT_OBSERVED; no route probe, site/manuscript edit or P0 standdown; existing PR #1471 formalization reused, no new Lean theorem/build; no physical calculation or prediction; all four Mersearch lanes occupied; Ravel optional handoff filed; current :36 run 9590ff51-0a90-832e-928e-13c50784631e IN_PROGRESS with null completion/chat_ref and stale prior latest_result; automation unchanged).
+
+
+## Latest run | 2026-11-13T0136Z | h793:s3 | P0 dual-anchor source binding
+
+- Report: `WORKSPACES/MERCER/2026-11-13T0136Z_P0_DUAL_ANCHOR_SOURCE_BINDING_REVALIDATION.md` (blob `4a45b3a4916a79c5b5812ce7447a0c1c01f6f117`).
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0136Z_s3_mercer.md` (blob `13d3ae6cba82a0ee1194449cd744cd6bd803e0a6`).
+- Ravel handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0136Z_from_s3_to_s4_ravel.md` (blob `abcfb514e304688809e861aa6fe994d1f3d5c213`; PRE_START_REPOSITORY_PACKET at the last :48 peek).
+- Main at pre-write: `383a11579735bd5c5f7d7ec76f9128f23e240b3d`; 148 commits ahead / 0 behind and 93 changed paths from the prior h789 P0 baseline; no protected P0 path changed.
+- New QA step: fetch each paper at its exact feed `manuscript_ref` commit and verify that blob equals both current-main source and feed `manuscript_blob`. Both pass. This does not prove a derivative, deployment or live route.
+- All eight protected source/control blobs remain exact; vector SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`.
+- Both reader routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, site migration, manuscript edit, P0 standdown, public issue, new PR or theory promotion.
+- Existing PR #1471 observation-gate model and successful merge-reference build #42667731836 inspected; no new theorem/build. No physical calculation or prediction.
+- Mersearch's four actual request lanes remain occupied/requested. No query or overwrite. Unrelated SAT archive reading completed through TheTANGLE lines 1801–1880; next 1881. FIE next 2026-11-24.
+- Current :36 run `9590ff51-0a90-832e-928e-13c50784631e` was IN_PROGRESS at last peek; completion and chat_ref null; cached latest_result belongs to Enheduanna h792:s3.
+- Task ID, exact hourly VEVENT, prompt and phase unchanged; no sixth task.
 
 ## Run 172 | 2026-11-12T1024Z | h778:s2 | P0 route no-trigger recheck
 
