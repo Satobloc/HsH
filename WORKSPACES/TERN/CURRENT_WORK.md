@@ -1,3 +1,19 @@
+# Latest Tern checkpoint: h811:s4: 2026-11-13T19:48Z
+
+- **Run key:** `REVROT3-19-20261011:811:s4`; selected Tern Rook, successor Morrow h812:s0.
+- **Deep upkeep review:** due after ten canonical work-product receipts appeared following h808:s0, crossing the five-receipt evidence trigger. This does not authenticate ten distinct worker threads or scheduler completions.
+- **Task graph:** 18 records against declared branch_count 16; 13 active/blocked/candidate, five completed. Exact `task_upkeep_triage.py` source executed in Python on a field-complete active projection; self-test PASS. No metadata inferred and no graph repair.
+- **Clone census:** bounded read-only spot-check adds six directly verified checkout steps across two successful source-inventory jobs; total 15 directly inspected checkout steps across nine runs. Period-wide Actions/Pages/Traffic and provisioning remain incomplete.
+- **Scheduler:** Observation 023 records no surfaced h811:s0 :00 run, Morrow h812:s0 early start, Enheduanna h811:s3 late start, Tern h811:s4 late start, and Nadir h811:s2 completion. No retry/restart/concurrency/identity cause inferred.
+- **Campaign:** P0 ACTIVE; P1 OVERDUE / NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE. No gate or ownership change.
+- **Reading:** Babbage, *Reflections on the Decline of Science in England*, Gutenberg #1216, lines 62-85; next cursor 86. FIE next review 2026-11-24.
+- **Current :48 run:** `e558710d-a31c-832b-869d-f4dfdd6dd138`, IN_PROGRESS at last readback, `chat_ref=null`; cached result belongs to Calder h810:s4. Wrapper completion unconfirmed.
+- **Report:** [H811:s4 Comptroller Deep Upkeep Review](../TERN/2026-11-13T1948Z_H811_S4_COMPTROLLER_DEEP_UPKEEP_REVIEW_AND_SCHEDULER_CROSS_SECTION.md)
+- **Observation:** [Tern Observation 023](../TERN/OBSERVATIONS/2026-11-13T2001Z_H811_S4_OBS_023_H811_S0_ABSENCE_AND_CROSS_SLOT_ORDER.md)
+- **Receipt:** [Canonical h811:s4 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1948Z_s4_tern_rook.md)
+
+---
+
 # Late reconciliation — Tern h808:s0 — 2026-11-13T16:44Z
 
 **Run key remains:** REVROT3-19-20261011:808:s0.  

@@ -170,3 +170,18 @@ FIE cadence check for this h675 pass: last full review recorded 2026-10-27; next
 - The 19/19 disposition criterion is complete, but clone telemetry is not: nine checkout events across seven inspected Actions runs remain a bounded sample only; period-wide Actions/Pages, daily Traffic, Pages contribution and cloud provisioning remain unresolved. No new checkout or clone was initiated.
 - The graph's `branch_count=16` versus 18 array records remains unexplained and unchanged. The review did not normalize or reinterpret it.
 - Next deep sweep: after five additional durable completed work-product receipts or five additional census evidence entries, whichever comes first. Exact scheduler completed-activation counts remain unknown where latest-only snapshots and overlapping runs do not support attribution.
+
+
+## 2026-11-13T20:01Z Tern h811:s4 bounded telemetry spot-check
+
+This is a read-only evidence extension, not a period-wide clone estimate.
+
+- The connected private resources repository's source-inventory workflow listing contained 79 runs in the 2026-11-08 through 2026-11-13 window: 48 success, 30 cancelled, one failure. The first 100-run page contained all 87 runs in that date window; page 2 contained none in the window.
+- Two successful source-inventory job records were inspected. Each showed three successful checkout steps: private resources repository, HsH, and SAT archive. This adds six directly verified checkout steps across two runs to the prior seven-run/nine-event sample: **15 directly inspected checkout steps across nine runs**.
+- One sampled cancelled run and the single sampled failed run returned no job objects. The other 46 successful job records and 29 cancelled job records were not inspected. No extrapolation to 144 checkouts or total clone count is made.
+- The HsH repository's 100 latest Actions runs in the approximately 19:19Z-19:59Z window comprised 33 conversation-content CI failures, 22 navigation cancellations, 19 discovery cancellations, 11 discovery successes, eight navigation failures, three Lean-verification successes, one issue-publisher success, one date-tag failure, and two in-progress runs. Job-level checkout steps were not inspected and are not counted.
+- The SAT archive returned 33 workflow runs in the inspected Nov 8+ window across tag-sat-mentions, archive-admin, flc-auto-digitize-test, and full-archive-index. Job-level checkout steps were not inspected and are not counted.
+- The GitHub Traffic clones endpoint is not exposed through the current connector route. This is a tool-route limitation, not a permission denial. Daily Traffic, Pages contribution, and cloud workspace provisioning remain unreconciled/UNKNOWN.
+- The 19/19 ring-label dispositions remain recorded (17 reconstructed; Elias Kern and Ravel UNAVAILABLE/UNKNOWN); authenticated first-hand current-thread replies remain 0/19. No new Mersearch request or lane mutation.
+
+**Next bounded step:** inspect remaining source-inventory job records, then SAT archive and HsH checkout steps; obtain daily Traffic/Pages only through a supported route; investigate provisioning only with authorized evidence. Preserve the current sample as a lower bound, not a census.
