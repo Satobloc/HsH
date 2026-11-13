@@ -18,3 +18,8 @@ The original guideline is an assistant-prepared synthesis, not a verbatim single
 - The October 21 retirement of earlier reciprocal-deformation/intersection alternatives predates the November 4/8 tentative mutual-curvature and push/pull proposal. Treat the latter as a later working-model revision, not as proof that the retired construction remained current.
 
 The November 8 guideline remains the controlling operational organization at its existing authority level. This amendment only makes its multi-source provenance and translation boundaries explicit.
+
+
+## Additional NotebookLM entry 41 detail recovered after the Lane 00 report
+
+Entry 41 also directly proposes spin/flavor distortion toward gauge alignment as a particle/worldtube approaches a black hole, and that mass plus gauge-symmetry variations drop to zero at the throat. The same entry alternates “worldline” and “worldtube” for the parallel-to-timesheet/time orientation; its surface-area clause specifically names the worldtube. This is a direct-source ambiguity, not a cleanly typed equation. See the Enheduanna source-completeness amendment for the full qualification. No throat limit, gauge-variation measure, or map to pitch angle/tensile strength is supplied.
