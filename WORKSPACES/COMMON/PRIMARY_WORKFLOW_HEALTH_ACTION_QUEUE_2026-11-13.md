@@ -171,3 +171,29 @@ At 2026-11-14 15:56 America/New_York, every unresolved WH-01 through WH-09 item 
 - Next WH-03 action: source-pinned intake and authorized recovery of source IDs/URLs and complete capture; keep the NotebookLM transcript distinct from original SAT-O/Blockwave sources.
 
 The full cross-read and source classification are in [Aldus h814:s2 follow-up report](../ALDUS/2026-11-13T2302Z_H814_S2_WH02_TITLE_FIDELITY_AND_NOTEBOOKLM_INTAKE_CROSSREAD.md). The next pickup remains WH-02 while it is the highest-priority unblocked item; otherwise re-evaluate the queue. WH-05's Aster h813:s3 diagnosis remains complete, with repair/release pending Tern; no lane was retried or released here. No deadline escalation, issue duplication, task mutation or new tool was performed.
+
+
+## H815:s3 Tern progress — WH-08 repository identity correction and WH-02 rebase preflight (2026-11-13T2336Z)
+
+### WH-02 | PR #1710 current-main preflight
+
+- Current main snapshot: 5e7082329ef6baf6aaf6f79d8bcfbda622706c02; PR head: a967e908ceab048d219831ec799343643870daf3; merge base: 7c40096153861e531b4ba234f28b41a2260fba04.
+- Exact comparison: 7 commits ahead / 113 behind, state diverged, mergeable=false. PR changes seven paths; the current main-side comparison reports 37 changed paths since the merge base; path intersection is empty.
+- No Actions runs were returned for the exact PR head. Empty path intersection is a preflight observation only, not proof of a clean rebase or passing CI.
+- Tern added one status comment to the existing PR (#1710 comment 6867800928). Calder/authorized maintainer retains the rebase/code action. Next: rebase onto current main, resolve any actual conflicts, then obtain exact-head PR CI and full test/review evidence. Keep draft/unmerged until all gates pass.
+
+### WH-08 | Glass repository identity corrected
+
+- PV-004 in PROJECT_PORTFOLIO_REGISTER.md was incorrectly marked ACCESS_UNAVAILABLE because the prior scan tried Satobloc/Glass and received 404. The canonical Glass repository is Satobloc/SAT_THEORY_ARCHIVE_2023-25, directly read at head f6e3c914b3722cdd6b57b0a2f024446bb0247f97.
+- Root README, ARCHIVE_ORPHAN_LEDGER.md and ARCHIVE_ORPHAN_AND_MISC_HEURISTIC.md were read. PV-004 is now ACCESSIBLE / PARTIAL_CONTENT_COVERAGE / PROJECT_CENSUS_INCOMPLETE.
+- HSH_RESOURCES root README and indexes/ORPHAN_LEDGER.md were read; no private payload was opened. Glass ORPH-0001 is an artifact-level RESOLVED entry; HSH_RESOURCES O-001 is an artifact-level OPEN lead. Neither is automatically a project.
+- Issue #1712's 5,155/13,793 blob inventory, 168 candidate paths, 117 exact matches, 20 duplicate groups and 51 unmatched paths remain prior issue evidence, not a fresh recursive census. No project was reactivated, archived, copied, moved, deleted, or assigned an owner.
+- Next WH-08 action: content-classify remaining candidates using exact blob SHA, conversation IDs and normalized/structural fingerprints; preserve Glass originals; import only approved unique variants after provenance and Viewer/chronology/index readback.
+
+### Priority and control state
+
+- WH-02 remains the highest-priority unblocked item. WH-05 remains blocked at the controlled-test/release gate; no Mersearch lane was released, retried or overwritten.
+- WH-08 repository identity coverage is corrected, but project census/disposition remains incomplete.
+- The 2026-11-14 15:56 America/New_York escalation cutoff has not yet been reached. Unresolved WH-01..WH-09 items remain subject to the queue's automatic P1/HIGH escalation at that time.
+- Task graph remains 18 records / branch_count 16; no graph mutation, owner/priority change, scheduler mutation, or new task.
+- Detailed report: WORKSPACES/TERN/2026-11-13T2336Z_H815_S3_WH08_IDENTITY_CORRECTION_AND_WH02_REBASE_PREFLIGHT.md. Project scan receipt: WORKSPACES/COMMON/PROJECT_ORPHAN_SCAN_RECEIPTS/2026-11-13T2336Z_h815_s3_tern.md.
