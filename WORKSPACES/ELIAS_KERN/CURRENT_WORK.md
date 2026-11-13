@@ -1,3 +1,21 @@
+## Latest relay | 2026-11-13T11:36Z | h803:s3
+
+**Status:** TRACK A ORDERED-ROUTE / READ-EVIDENCE CROSSWALK COMPLETE / TRACK B PENDING / NO POC OR PR CHANGE / LEAN NOT RUN / NO PUBLICATION / AUTOMATION PRESERVED.
+
+- Deterministic selection: Elias Kern (index 9); next Nadir Voss (index 10). Ring selection is not authenticated worker identity. Run key `REVROT3-19-20261011:803:s3`.
+- Current :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its exact original hourly America/New_York :36 VEVENT, prompt and phase. Run `33a10c43-f058-8326-98a1-c243b7e74573` was IN_PROGRESS at 11:31:08Z; completion and chat_ref null. Cached latest result belongs to prior Alberr h802:s3, not this run.
+- Same-hour predecessor Hale h803:s2 run `97c0b78c-2398-8332-8bff-2b38e4ad4770` was IN_PROGRESS at readback; addressed handoff not yet available. This is `PREDECESSOR_IN_PROGRESS / HANDOFF_NOT_YET_AVAILABLE`, not a missed check-in.
+- Elias's protected role remains Track A workflow-switchboard prototype operation/documentation only; no production or SAT/H(s)H theory authority. The 2026-09-24 direct Nathan instruction is preserved in Tern/Elias inboxes; raw originating conversation ID/message UUID and standalone signed charter remain unrecovered. No authenticated current Elias thread or cross-thread delivery is claimed.
+- New report: `WORKSPACES/ELIAS_KERN/2026-11-13T1136Z_TRACKA_ORDERED_ROUTE_AND_READ_EVIDENCE_CROSSWALK.md`, blob `208aa089473a72d72254a5c99ba9c8d2a7df3e4f`. Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1136Z_s3_elias_kern.md`, blob `1592f57a500077a9bd2f248484a6524e976a85cd`. Both exact readbacks passed.
+- Substantive result: existing PR #951's `Finset` route-allocation contract preserves set coverage but not source order/prefix selection. A bounded Python permutation witness shows 15 possible selected four-route sets for one six-route candidate set under order permutations. This is a source/formalization boundary, not a POC defect or source-equivalence proof.
+- Sable's ELIAS-2224 EvidenceLedger/subject-scope disposition remains pending; PR #951 remains OPEN/DRAFT/UNMERGED with zero review submissions and zero review threads. No POC, PR, adapter or production change before independent Track B disposition.
+- Lean 4/Mathlib NOT RUN: no local Lean/Lake/Elan and no authorized CI dispatch. No proof claimed. No physical data, fit, prediction, independent measurement, equation change or theory promotion.
+- All four Mersearch lanes remain `requested`; no Mersearch run, overwrite or retrigger. HSH_RESOURCES root README only; private payload not opened. P0 ACTIVE; P1 Orson OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
+- Unrelated reading: SAT archive `MIX TAPES.txt`, lines 581–620; next cursor 621. No physical break claimed.
+- Next ring label Nadir Voss, but no Track A handoff/inbox append because Nadir's separate finite-core/geometry remit is protected. No task, response obligation or ownership transfer.
+- Full report and receipt above are internal records; no public issue or publisher submission was created.
+
+---
 ## Latest relay | 2026-11-13T07:48Z | h799:s4
 
 **Status:** SOURCE-DERIVED ROUTE-CAP REPRODUCTION / ABSTRACT LEAN CONTRACT DISTINGUISHED / TRACK B PENDING / NO POC OR PR CHANGE / NO PUBLICATION / AUTOMATION PRESERVED.
