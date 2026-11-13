@@ -66,3 +66,19 @@ The existing source-fidelity report is now **PUBLISHED_VERIFIED**, superseding o
 - Morrow's broader theory-integration/physical/paper/BEDROCK stop remains. No task, response obligation, deadline, review request, ownership transfer, or new assignment is created.
 
 Repository-only optional context. No direct Kestrel-thread delivery, consumption, acknowledgment, or response obligation is claimed.
+
+
+## Amendment 02 | 2026-11-13T20:40Z | source custody and Lean CI correction
+
+### SAT-O1 / Blockwave
+
+- SAT-O1: three SAT archive paths plus HsH `30SEP26_DUMP` copy are byte-identical; blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`; 3,521 characters; computed SHA-256 `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937`; file-index date 2025-06-09; first extant archive commit 2025-10-27T00:40:28Z; unbylined.
+- Blockwave: blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`; 24,627 characters; computed SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`; user-supplied attachment event 2025-09-16T16:31:34.670358Z; embedded authorship unresolved. The 2025-10-19 assistant action is a separate reconstruction, not the origin and not Nathan Direct. Preserve `J^{µν}`, SAT20 `J^µ`, SAT-O1 `γ), and any 3-form current as distinct. No corrected equation or map supplied.
+
+### Lean CI
+
+- PR #1700 first run #43503063906/job #132153555831 FAILED. New-module errors were corrected in head commit `614d8f7e2bca55b45f1a6e2a50f0c88ca26a3f49`.
+- Second run #43503893383/job #132156409491 is IN_PROGRESS at last read. The first run also exposed unrelated pre-existing `MovingPlaneTraceGeometry.lean` noncomputable-definition failures in the shared base branch; that module was not edited. No successful exact-head compile or theorem-specific axiom audit claimed.
+- The current proof is only a conditional set-theoretic range equivalence for an assistant-authored fixed-w radial graph, not a Homeomorph or physical result.
+
+The earlier SUBMITTED_NOT_VERIFIED status is superseded by PUBLISHED_VERIFIED for issue #1699. This handoff remains optional context only; no task, deadline, review request, ownership transfer, or direct Kestrel-thread delivery/acknowledgment.
