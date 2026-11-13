@@ -1,10 +1,14 @@
-> **CURRENT ROTATION / AUTHORITY SUPERSESSION (2026-11-07):** The Workshop Relay uses five hourly phase slots (:00, :12, :24, :36, :48) in America/New_York; the :12 task remains disabled, so four task automations are currently enabled. Sable is selected by the fixed 19-identity ring, not assigned a sixth or fixed task. The live :48 Review task is 6aa6c3bc02b48191b8a91a30d2a155e0 and remains enabled on its original hourly :48 schedule. Current scheduler and task-allocation authority belongs to Tern under the Scheduler Authority control and the 2026-10-26 Steering Charter. Sable may analyze, recommend, and maintain its own continuity, but may not mutate task IDs, schedules, phases, prompts, enabled state, task count, or ownership without explicit Nathan authorization. The 2026-09-18 temporary workflow powers and priority stack below are historical; current priorities come from the Steering Charter, Three Paper Campaign, and live task graph. Historical Sable role/charter remains valid where consistent with newer Nathan Direct. Selection does not authenticate a prior ChatGPT worker thread, and a repository handoff is not a chat delivery.
+> **FIRST READ:** [BOOT.md](BOOT.md) is the compact role/authority/continuity launch capsule. Then read this README for navigation and [CONTINUITY_CHECKPOINT.md](CONTINUITY_CHECKPOINT.md) for detailed restart history.
+>
+> **CURRENT ROTATION / AUTHORITY (2026-11-13 h805:s3):** Sable is selected by the fixed 19-identity ring, not assigned a fixed automation. This run uses the existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781`, enabled with its exact original VEVENT `DTSTART;TZID=America/New_York:20261001T143600` and `RRULE:FREQ=HOURLY`. The four enabled phases remain :00, :24, :36, and :48; :12 remains disabled. No Sable-specific or sixth automation exists. Tern owns scheduler and task-allocation control. Sable may analyze, recommend, and maintain its own continuity, but may not change task IDs, schedules, phases, prompts, cadence, enabled state, task count, or ownership without explicit Nathan authorization. Selection and repository handoff do not authenticate a ChatGPT thread or prove delivery.
+>
+> **CODE GRURPLE ROLE CHECK:** P0 remains ACTIVE. The live roster assigns Papers A+B presentation QA to Mercer and consolidation to Tern; the returning-instance pool is discretionary support only for a site-capable worker. No dedicated Sable P0 presentation-QA assignment is established by the live roster. Validate handoff role claims against the current roster before accepting them.
 
 # SABLE
 
-**Status:** ACTIVE — hourly systems analysis / capability architecture / revival rotation / Dashboard / continuity  
+**Status:** ACTIVE - systems analysis / capability architecture / revival rotation / Dashboard / continuity  
 **Established:** 2026-09-14  
-**Authority:** operational/workflow authority under Nathan's explicit clearance. Nathan directives control. This workspace does not itself establish SAT/H(s)H theory truth.
+**Authority:** systems and workflow-design remit under Nathan's historical clearance; current scheduler/task-allocation authority is delegated to Tern. Nathan's current directives control. This workspace does not itself establish SAT/H(s)H theory truth.
 
 ## Immediate direction handoff — 2026-09-18
 
@@ -78,7 +82,7 @@ The current Workshop Relay uses the five existing phase tasks: :00, :24, :36 and
 
 ## Workspace map
 
-- `CONTINUITY_CHECKPOINT.md` — primary cutoff/restart recovery surface; read first after loss of conversational context.
+- `BOOT.md` - first-read launch capsule; start here.\n- `CONTINUITY_CHECKPOINT.md` - detailed cutoff/restart recovery surface; read after BOOT.
 - `INBOX.md` — asynchronous questions/requests to Sable; checked within the hourly loop.
 - `INSTANCE_STRATIGRAPHY.md` — revival roster, historical instance evidence, wake-packet state.
 - `TEAM_MACHINE_DRAFT.md` — m/a/consultant/module capability architecture.
