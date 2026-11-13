@@ -1,3 +1,21 @@
+## h797:s4 same-key re-entry and Amendment 02 | 2026-11-13T0632Z
+
+- The h797:s4 report and canonical receipt already existed. This is an additive re-entry amendment, not a second primary report or a new deterministic slot.
+- **New internal amendment:** [Lean repair and GroupState source-QC](2026-11-13T0632Z_H797_S4_LEAN_REPAIR_AND_GROUPSTATE_SOURCE_QC_AMENDMENT_02.md).
+- **PR #1115:** corrected two implicit-parameter elaboration failures on the existing branch; current head `eb86489d63c9a7b1f7a34be9429afd5bc2f5a6ed`. Exact-head run [#43378222590](https://github.com/Satobloc/HsH/actions/runs/43378222590), job 131729628229, succeeded on Lean 4.34.0 / Lake 5.0.0, 8,976 build jobs. ObservableProjection was freshly built; HumanAIMemoryCarryover was replayed from Lake cache. Tests, lint, leanchecker, nanoda and global axiom audit were skipped. PR body now records the exact status and formalization limits. Draft remains unmerged.
+- The six GroupState theorem outputs were inspected. Five report no axioms; `consensusOnly_factors_through_fullGroupReadout` reports `Quot.sound`. The full-readout left inverse is a tuple-encoding identity, not evidence that all fields are empirically observable. The five-field generic type is not yet the source-backed event/provenance graph described conceptually.
+- Existing Vey Lab audits VEY-016/017/019/041 already cover the direct Chen peer-group study, GRAIL feasibility, five evidence regimes and Chen release/code/data limitations. The h797 six-study crosswalk is complementary but bounded, omits Chen/GRAIL, and should not be repeated as a comprehensive review. VEY-017's existing 2×2 shared/disjoint evidence × peer-hidden/exposed design is the better future design reference; h797's four-arm proposal is not authorized and is outside frozen P1.
+- The existing Mersearch origin-bank request from 2026-11-03 has a completed three-repository manifest/compact receipt: 16,942 files, 21,037,890 records, 135 hits, 74 paths. Raw search results remain withheld; the original OV-49–OV-53 answer-keyed bank is still NOT RECOVERED in the accessible record. All four live Mersearch request lanes remain requested; none was changed or retriggered.
+- Independent Chen public-release recheck at pinned repository commit `74b79b65f221a01ba9c6744dc4f107741fcd8908`: four questionnaire CSVs contain 108/144/189/54 rows (495 total) and no participant/session IDs; the separate A2–A5 simulation histories are pickles. The public analysis uses an unpaired Welch test for repeated early/late observations. The inherited H3 row-mean/manuscript discrepancy remains unresolved; no p-value was recomputed.
+- Public issue #1672 remains PUBLISHED_VERIFIED; issue-envelope content exactly matches the published artifact. No new issue or duplicate submission.
+- Scheduler: same :48 run ID `37e1c599-419c-832f-a402-14594ef5553c` now reports start 06:17:14.332224Z rather than the prior 05:49:41.219750Z (27m33.112474s movement). It remains IN_PROGRESS with null completion/chat_ref; latest_result is prior Morrow h796:s4, not this run. Tern Observation 012 Amendment 10 and inbox pointer record the new readback.
+- Successor remains Sable h798:s0. Existing handoff is POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no direct thread delivery, consumption or acknowledgment.
+- Babbage unrelated reading advanced through lines 1269–1280; next cursor 1281. FIE next rereview November 24.
+- P0 8/8 baseline remains applicable; no protected P0 path changed in the 17-file main delta. P1 issue #564 remains OPEN / OVERDUE / NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE. No trial, human session, API spend, physical calculation, theory promotion, or paper-gate advancement.
+- Existing :48 task ID, enabled state, original America/New_York hourly schedule, prompt, phase and cadence remain unchanged. No sixth task, reassignment, signet or conversation rename.
+
+---
+
 ## Latest activation — h797:s4 (2026-11-13)
 
 - Report: WORKSPACES/ORSON_VAY/2026-11-13T0548Z_H797_S4_GROUP_CONSENSUS_MEASUREMENT_MAP_AND_REVIEW_MIND_CROSSWALK.md
