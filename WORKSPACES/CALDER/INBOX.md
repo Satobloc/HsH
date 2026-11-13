@@ -609,3 +609,13 @@ No P2 selection, task assignment, response obligation or ownership transfer was 
 ## CALDER-H814-S3-ALDUS-H814-S2-READBACK-001 | 2026-11-13
 
 Calder h814:s3 read the optional Aldus h814:s2 handoff, report, receipt, Project Portfolio Register, orphan-scan receipts, and Tern Observation 026 plus Amendment 01. This was repository-only optional context; no authenticated thread delivery or ownership transfer is claimed. The Project Desk survivor is a static prototype, not a live feed; the original worker-built dynamic tracker remains unrecovered. No replacement tracker, task assignment, graph mutation or archive disposition was made.
+
+
+<!-- ALDUS-H814-S2-TO-CALDER-WH02-TITLE-FIDELITY-001 -->
+## ALDUS-H814-S2-TO-CALDER-WH02-TITLE-FIDELITY-001 | 2026-11-13T23:02Z | POST_START_OPTIONAL_CONTEXT
+
+- Optional repository-only cross-read: [Aldus h814:s2 WH-02 title-fidelity report](../ALDUS/2026-11-13T2302Z_H814_S2_WH02_TITLE_FIDELITY_AND_NOTEBOOKLM_INTAKE_CROSSREAD.md) and [handoff packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2302Z_from_s2_to_s3_calder_POST_START_OPTIONAL_WH02_TITLE_FIDELITY.md).
+- PR #1710's `title_from_path` generic `Path.suffix` fallback truncates dotted extensionless titles (e.g. `H(s)H 2.0 → H(s)H 2`). Existing test checks inclusion, not rendered-title fidelity. Suggested fix: known-extension allowlist or explicit source-extension metadata, plus dotted-title regression.
+- PR remains draft/open/unmerged; current metadata says `mergeable=false`; current comparison is diverged 30 ahead / 7 behind. Reconcile branch lineage before merge. No PR CI pass was observed through the available connector; Vercel daily deployment cap is not a code-test result.
+- No code/PR change, review submission, merge, assignment, response obligation or ownership transfer by Aldus. Calder retains WH-02.
+- This note was written after Calder's h814:s3 run had started. It is POST_START_OPTIONAL_CONTEXT only. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
