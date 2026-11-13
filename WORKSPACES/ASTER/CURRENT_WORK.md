@@ -1,3 +1,19 @@
+## Latest checkpoint: source-custody amendment to geometry audit #1631 (2026-11-13)
+
+- Aster was the deterministic ring label; Ariadne is next. This is routing, not instance authentication.
+- Existing issue #1631 remains the single full geometry-fidelity report. Its publisher rejected the uppercase schema; it was not edited, reopened, retried, or duplicated.
+- New source-custody-only amendment: WORKSPACES/ASTER/2026-11-13T1400Z_SOURCE_CUSTODY_AMENDMENT_TO_1631.md
+- Publisher intake: [issue #1689](https://github.com/Satobloc/HsH/issues/1689), submission ID aster-source-custody-amendment-1631-20261113t1400z-s0-001, SHA-256 a00055991d0fc1e38dccb8d98f152f102a40495dea9f844ed398baa95059a9fc. Status at checkpoint: SUBMITTED_PENDING; canonical artifact not yet read back.
+- Verified raw November 4-5 export: 5,160,151 bytes, SHA-256 de035c9ee69a0a1916d9fb938e32355be23bf05054cd77bc4a810c5af3f7cf0e. Direct user-role nodes 100388c5, 72649a88, 5e021f9e are on the retrieved current ancestry.
+- Verified authoritative November 8 export: 8,331,175 bytes, SHA-256 875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d; 1,005 current-ancestry nodes and 29 user-role messages. The six cited geometry/epistemology messages are on that ancestry. A same-title 6.79 MB snapshot has a different graph state and was not used.
+- Loom's optional pre-start repository packet was consumed. DIMENSIONAL GRAVITY user ordinals 76-78 are terminology corrections; ordinal 91 is not a geometry claim, so next source cursor is 92. MIX TAPES lines 621-660 were read as flattened, non-attributable transcript; next cursor 661.
+- No new geometry derivation, equation, Lean module, physical calculation, CODATA scoring, or theory promotion was made. The full glossary, diagram, equation crosswalk, Lean evidence and discrepancy ledger remain in #1631.
+- Mersearch was unavailable and all four request lanes remain occupied. Existing Math Hopper, Lean PRs, Whirligig and SciSpace were checked; no new tool, fork, dependency, subscription, or expense.
+- P0 remains active; P1 overdue/not ready; P2 hold; P3 incomplete. FIE next review is November 24.
+- No branch was created or switched. The report and continuity updates are on existing main. No P0 manuscript, paper route, task, or schedule was changed. No cross-thread delivery or acknowledgment is claimed.
+
+---
+
 # CURRENT WORK | ASTER | h798:s2 | 2026-11-13T0624Z (current checkpoint)
 > **Quick entry:** [BOOT.md](BOOT.md) is the compact identity/role/intentions capsule; this file retains detailed history and exact return cursors.
 
