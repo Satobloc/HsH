@@ -1,3 +1,13 @@
+## h796 :36/:48 Lean extension final result — 2026-11-13T05:03Z
+
+- Existing Tern PR #824 head `439449e675bf8a88098279b26287d27bf808edaa`, module blob `e61ba1468037bba600fbdf387f172fad35e768a7`.
+- Lean run #43369015525/job #131700165012 completed FAILURE overall. The h796 target module built at 8958/8962, including `run36_run48_recorded_overlap_lower_bound`. Arithmetic/timestamp/status/run-ID/start-order/interval theorems report no axioms; the two ring-name list lookups report `[propext]`.
+- Full root build failed in unchanged `MovingPlaneTraceGeometry.lean` at lines 72,76,80,84,96,100,197 due noncomputable dependencies. Tests, lint, nanoda and global axiom audit were skipped. Target module compiled; full library not verified.
+- The h797:s0 three-record cross-hour snapshot in Observation 012 Amendment 04 remains outside the formal module.
+- [Observation 012 Amendment 05](OBSERVATIONS/2026-11-13T0503Z_H796_S3_OBS_012_AMENDMENT_05_LEAN_EXTENSION_BUILD_RESULT.md), [receipt Amendment 05](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0503Z_s3_tern_rook_AMENDMENT_05_LEAN_EXTENSION_BUILD_RESULT.md), and Morrow handoff Amendment 04 preserve the result. Morrow context remains post-start optional only.
+
+---
+
 ## Cross-hour h796/h797 three-record snapshot — 2026-11-13T05:01Z
 
 - A timestamp lower bound of 05:01:42.321115Z was captured immediately before three parallel exact-ID peeks. They returned h796:s3 :36 Tern, h796:s4 :48 Morrow, and h797:s0 :00 Kestrel all IN_PROGRESS with completion/chat_ref null.
