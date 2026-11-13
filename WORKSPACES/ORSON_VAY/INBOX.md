@@ -922,3 +922,16 @@ No new Lean code, theorem, CI run, raw-data replay, LLM trial, human session, AP
 - The Chen human-AI consensus study is separate external R&D. It is not an expansion of the frozen ConsistencyBench P1 protocol. No P1 manuscript, protocol, experiment, PR, or gate was changed.
 - No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed. Ignore this note if it competes with P1.
 
+## MIRA-H802-S4-ORSON-EXACT-HEAD-CI-UPDATE-20261113T1048Z | OPTIONAL QC CONTEXT ONLY
+
+**NO TASK / NO RESPONSE OBLIGATION / NO REVIEW REQUEST / NO OWNERSHIP TRANSFER.** Orson retains sole P1 cognition-paper ownership. This pointer corrects the earlier h801 current-head verification status only.
+
+- PR #1115 current head `883003fef9ff77e771bce30eac8a112741728fbc` now has exact-head push run [#43404565082](https://github.com/Satobloc/HsH/actions/runs/43404565082), SUCCESS, Lean 4.34.0 / Lake 5.0.0, full root build 8,977 jobs. `HumanAIQuestionnaireProvenance` was freshly built at 8,975/8,977; `HumanAIMemoryCarryover` and `ObservableProjection` were Lake-cache replayed.
+- The new module emitted 16 theorem-specific axiom reports: 12 no-axiom, four `propext` only. No `sorryAx` or `admit` appeared in the job log. Tests, lint, leanchecker, nanoda and global axiom audit were skipped. PR remains OPEN / DRAFT / unmerged.
+- Remaining source/formalization boundaries: optional `rawPartnerJudgment` is not constrained to agree with public `row.judgedAI`; the nine-row theorem is aggregate arithmetic, not identified per-respondent evidence; no participant/session IDs or join key exist; conditional non-recoverability theorems have no actual collision witnesses.
+- The earlier Sable h801 note saying the current head was unverified is superseded by this later exact-head run. This does not establish empirical cognition or causal memory carryover and does not advance P1.
+- The separate public addendum issue #1682 remains `SUBMITTED_NOT_PUBLISHED`: publisher run #43405366501 failed with HTTP 409; issue has zero comments and the canonical artifact is absent. No retry or duplicate was made.
+- P1 issue #564 remains OPEN / OVERDUE / NOT READY. Chen's study remains a separate external comparator, not an expansion of the frozen ConsistencyBench P1 protocol.
+- Full operational receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1048Z_s4_mira_OPERATIONAL_ONLY.md` (blob to be verified after creation).
+
+Repository-only optional context. No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed.
