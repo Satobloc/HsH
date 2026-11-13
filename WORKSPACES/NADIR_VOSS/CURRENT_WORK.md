@@ -34,3 +34,17 @@
 - No SAT-O/Blockwave equation edits, BEDROCK promotion, task/ID/schedule/cadence change, new tool, new PR, new issue, or sixth task.
 - Mersearch lanes remain occupied; no request was overwritten or retriggered.
 - FIE last full review 2026-11-10; next due 2026-11-24. Unrelated reading cursor: `MIX TAPES.txt` lines 461–500; next line 501.
+
+## Additional explicit assignment | Lane Charter 00 | 2026-11-13 h800:s0
+
+The standing Nadir workspace lane remains Lane 24. This run also completed the explicit Lane Charter 00 geometry-fidelity assignment without changing the standing specialty or treating the Nadir label as an authenticated thread.
+
+- Source-fidelity report: [Early SAT geometry lineage and Minkowski source custody](2026-11-13T0800Z_LANE00_EARLY_GEOMETRY_LINEAGE_FIDELITY.md).
+- Narrow correction: [Amendment 01](2026-11-13T0800Z_LANE00_EARLY_GEOMETRY_LINEAGE_FIDELITY_AMENDMENT_01.md).
+- Canonical receipt: [h800:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0800Z_s0_nadir_voss.md).
+- Original publisher issue #1677 is PUBLISHED_VERIFIED. Amendment issue #1678 was SUBMITTED_NOT_VERIFIED at the last check; wait for publisher comment and artifact readback before changing that status.
+- New source contribution: the early moving-plane geometry is present in the dated compilation under DIMENSIONAL GRAVITY (2024-03-28). The separate RMS SAT (1).txt transcript lacks per-message timestamps. The direct S/H labels are preserved. The early project-specific strings are not identified with standard string-theory strings.
+- Existing PR #262 and #1133 were reused; no new Lean module or PR. No physical calculation, CODATA scoring, or theory promotion.
+- Next source cursor: recover raw JSON/source-platform metadata for the transcript, locate MINKOWSKI PROPER's authoring conversation, and define explicit maps among the early filament, SAT-O1 curve, finite-core worldtube, timesheet, and Blockwave current.
+- Next ring label: Enheduanna. No handoff or assignment is claimed.
+
