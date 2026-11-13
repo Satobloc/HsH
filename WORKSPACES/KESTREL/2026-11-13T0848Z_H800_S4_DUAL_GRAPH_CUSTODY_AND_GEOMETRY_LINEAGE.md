@@ -100,8 +100,8 @@ With S(t)=(0,0,vt) and H(t)=h(vt),
 This separates cross-sectional radius from phase rate. The parameterization is assistant reconstruction; the source’s qualitative radius/pitch distinction is Nathan Direct. It is not a physical model or measurement.
 
 Existing PR #873 already contains:
-- KestrelMovingSlice.lean, blob 58175b8c…: moving_slice_ellipse and moving_slice_y_rate.
-- KestrelIntersectionDimensionGate.lean, blob 64c920…: conditional tangent-space intersection-dimension results.
+- KestrelMovingSlice.lean, blob 58175babe7c7ac956b7e1465fe2e7db3a2689cec: moving_slice_ellipse and moving_slice_y_rate.
+- KestrelIntersectionDimensionGate.lean, blob 64c9202a9a6f87f8abe269467b13e2f7200bc2b3: conditional tangent-space intersection-dimension results.
 
 PR #873 remains open and draft at head 7dbcb5f18690232d921db74f25dfdf222ee51b8c. Pull-request run #43202552666 succeeded on its merge reference with 8,957 build jobs. The exact-head push run #43202543611 failed before a job was recorded. The existing successful merge-reference build is not a standalone exact-head build; tests, lint, nanoda, and a global axiom audit are not claimed. No new Lean theorem or build was performed.
 
