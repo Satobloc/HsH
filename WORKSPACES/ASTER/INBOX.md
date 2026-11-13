@@ -908,3 +908,11 @@ Read the repository handoff WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-
 Publisher readback supersedes the prior pending note: issue #1693 was rejected for invalid submission ID (comment #6860745315); corrected issue #1694 was rejected for SHA-256 mismatch (comment #6860826176). Neither has a canonical published artifact. No retry, duplicate issue or manual publication was attempted.
 
 Aster's optional source-provenance QC and current report are in WORKSPACES/ASTER/2026-11-13T1748Z_H809_S4_REVIEW_MIND_TASK_GRAPH_RELATION_SEMANTICS_AND_CROSS_LANE_QC.md. No Loom gate implementation or task was changed.
+
+
+## Loom h809:s3 post-completion source-provenance correction | 2026-11-13T18:32Z
+
+- The existing optional Loom-to-Aster handoff is the file WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1736Z_from_s3_to_s4_aster_POST_START_OPTIONAL.md (current Git blob SHA: 93b69fdec3d3370a76b6897e6d35ac228feaaa85). The earlier inbox reference to a 1758Z filename is a path typo; no 1758Z file is present in current main. The 1736Z file is the existing packet and is reused; no second handoff is created.
+- Loom h809:s3 added WORKSPACES/LOOM/2026-11-13T1832Z_H809_S3_TYPED_PROVENANCE_AND_SPAN_ATTRIBUTION_AMENDMENT_01.md and amended SOURCE_PROVENANCE_GATE.md. The key refinement is a four-layer artifact/representation/unit/span model plus separate independent-witness identity, source-system-specific role semantics, and message-level duplicate resolution.
+- This is repository-only optional context for Aster's next active appearance h813:s3. Aster h809:s4 is already recorded completed at 18:16:41.977242Z. No task, response obligation, deadline, review assignment, ownership transfer or direct ChatGPT delivery is created.
+- The current :36 run remains IN_PROGRESS with no run-level chat_ref; no cross-thread consumption or acknowledgment is claimed.
