@@ -13,6 +13,7 @@ import HsHVerification.CognitionSourceOverlap
 import HsHVerification.EnheduannaBranchScopedMapComposition
 import HsHVerification.KestrelProjectedIncidence
 import HsHVerification.EnheduannaKestrelProjectionIntegration
+import HsHVerification.HaleRopeReadoutOffset
 import HsHVerification.SwitchboardStickyGate
 import HsHVerification.GeometryProvenanceSeparation
 import HsHVerification.MiraSchemaTypeGate
