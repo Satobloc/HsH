@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at_utc": "2026-11-13T08:10:06.578460+00:00",
-  "catalog_sha256": "f114edfe5637fdd9a51bf6ca8d5408f3fd7484575f31b178a032f4dd4f1ef802",
+  "generated_at_utc": "2026-11-13T12:51:46.260777+00:00",
+  "catalog_sha256": "c3735b965122e05d09b0a029c68f7090db427c84d997247ebee479cb72b952d1",
   "conversation_ids": [
     "f523e1820c07",
     "c27d084eb62e",
@@ -17,13 +17,16 @@
     "91683966cfd0",
     "3a909f4dae85",
     "b45ad724bd8b",
+    "ccf00b780945",
     "1456097a9877",
     "5440050f6cb1",
     "19bc829bc375",
     "79e96fda9651",
     "5435de0da111",
     "37a380744d8a",
+    "f9a20159f15f",
     "deec854530c9",
+    "21acdcc7f8a6",
     "168a910144e1",
     "8147b9315750",
     "375e813521ad",
@@ -43,7 +46,9 @@
     "5c2c2bc31b33",
     "688eea4c9805",
     "3b49a1b657a4",
+    "a93d5a1dc826",
     "4af34e96d04f",
+    "1ea788d66ccb",
     "d747985dc0ea",
     "21b466619270",
     "22b34c4a3763",
@@ -62,6 +67,7 @@
     "46d86310d4af",
     "472bd233abb5",
     "bc875f05e717",
+    "38e6dc6300a0",
     "e4e7e0acf0f9",
     "e5712d3804c6",
     "652bd77dbd25",
@@ -69,6 +75,7 @@
     "6156fdff5c49",
     "ee9fb094f264",
     "da98e9bacc8b",
+    "5ef0036747af",
     "f5c8c6657e13",
     "4bd7fa251b6f",
     "79440217eb99",
@@ -95,6 +102,7 @@
     "edb393bf647b",
     "1d02306aff56",
     "a045312adac6",
+    "c8bc5aca1b5c",
     "cdc70e3acb48",
     "8b875ba59d32",
     "1f6ade53f12f",
@@ -242,6 +250,7 @@
     "34c21fc06ebc",
     "c018b0687ce5",
     "481cf4fbabbe",
+    "f4eaa2ef09a3",
     "fe8511b21a38",
     "ef4d14c5acbe",
     "7ab088c3f29b",
@@ -261,6 +270,7 @@
     "f0c21fd64bca",
     "bd4dfc1180b3",
     "9e077f37f26b",
+    "43b16f74f512",
     "srena-20260731-hsh",
     "1a6398d0b633",
     "ffcd86dab3f6",
@@ -295,6 +305,7 @@
     "318e10389fc2",
     "b9c92d9283e6",
     "49a86b7c9a11",
+    "fafe42554ab7",
     "edd679b8f2a4",
     "aa769ab3e557",
     "3877d9c3faaa",
@@ -355,6 +366,7 @@
     "2b9def5a0fff",
     "260d64476399",
     "c7e7ca2a3c0a",
+    "9e86f1c74432",
     "b463eba8e621",
     "7f1eabb288c5",
     "a0d970fad715",
@@ -470,6 +482,7 @@
     "318fcf13cf80",
     "b0fe9f0fc498",
     "def296678638",
+    "82e502a1b191",
     "ab7588ab81bb",
     "b6bc39103edf",
     "5987610f6425",
@@ -586,6 +599,7 @@
     "2ddce4ccfeac",
     "ad307a2c4429",
     "0cfe2c437beb",
+    "1fe69d333f9e",
     "a02cf88adb93",
     "1f03d52107fd",
     "ef8cb355f81f",
@@ -603,6 +617,8 @@
     "367e7f0ce6cc",
     "fd016e756a1f",
     "0c1a499b41f2",
+    "d5db945febb1",
+    "dfa793c0cab1",
     "9fc67f5d1082",
     "2d04165aa754",
     "9b6c92b0c5fa",
@@ -674,20 +690,27 @@
     "fb2d91647d6b",
     "08b4a08860fa",
     "da1d282404bd",
+    "64feeddcdd60",
     "cea074b8b5a8",
     "1c20c0ba262b",
+    "52718b5a9dbc",
+    "497afcfcc756",
     "b699845d9d51",
     "c3de13ce381e",
     "2368a2fc87b4",
     "4085717f4982",
     "5fc1c3f0a5f5",
+    "a2522cf3ed7d",
     "9f756076a970",
     "f3f411171dfe",
     "d6bea5951837",
     "3f4656635bad",
     "99eefb2a0fb2",
     "bcbc8ce4238d",
+    "6d1ef3a79001",
     "3e3ab3165cf0",
+    "b1544ffce86d",
+    "3df653499403",
     "0cf328e0000f",
     "77b5199c2187",
     "f8e05aa2cbf9",
@@ -717,55 +740,96 @@
     "2138bd67a0e7",
     "a3c217506cdf",
     "3c8ca84c9a3b",
+    "29e7555f7337",
+    "729efa6047ab",
+    "49e8ad63eeb4",
+    "2b28fde7fcc7",
+    "51e7b70b89f6",
     "baed4f9a6797",
     "41722cb5970e",
+    "2648ea9eeee6",
+    "93b3f222ede8",
     "ab2b19b6bfe0",
     "b0768da39e06",
+    "62a0357fc946",
     "7b1ff02ce85a",
     "3094bae74be8",
     "0c538b711e1b",
     "c3f8f9fdf1d7",
     "0d4d13e5117d",
+    "818f44f720a3",
     "a9232c249e3a",
     "22136a7195b7",
+    "bc448021cb28",
+    "8df7632e4d6d",
+    "60688eb67b1e",
     "9c3d0bbea80f",
     "28f932dff636",
     "f72977eb7ef3",
+    "8a6ccb831f71",
     "a13cf047cd35",
+    "c3f34c8304ee",
+    "2bd0016ce8f9",
+    "046d10a15fd8",
     "86c45f4c6b5c",
     "d8fe1abc7495",
     "16f9897162ae",
     "2584bc7bb9b3",
+    "815da1dea332",
     "3bc174b6fb9e",
+    "80791418c13c",
     "67b0b278de99",
     "b6d602359cb2",
     "36fa5b624d46",
     "bba1745ec47f",
+    "4a93657a8c41",
     "3cb8a9e00c7e",
+    "fedee79e299f",
     "09f44c2b941a",
+    "185c8580efb0",
     "9668c1153e07",
     "c0213e49961f",
     "a5b5756c644d",
+    "e783b3fb6b17",
+    "161fa86ac6f4",
+    "98ba8e863b4d",
+    "15f2551a350f",
     "39ac79b67991",
     "77dae39dbd72",
     "5a7a90134542",
+    "d844351e1928",
     "aea18a4eef4e",
     "e4b1acda9e23",
     "866abb2b8876",
     "bfd813a73417",
     "da01c9c2c6c6",
     "9dd40e650f6b",
+    "05b1c69775c3",
+    "e93b6f6ff17d",
+    "8953669cff8b",
+    "2e604e313437",
+    "ae37b5637f11",
+    "c7afa730b050",
+    "031cd6c8fc77",
+    "2af598c150c9",
+    "e32a1b71ea3f",
     "bca3962d19ee",
     "271c3545a5c1",
     "89098b7a03ee",
+    "4a2e82acb645",
     "ef16c68d9cc0",
+    "6e215f926e54",
     "4e46e24d117a",
     "941e2bbfb668",
+    "e7c25bf84850",
+    "5bf7b8fe4c81",
     "bd412f78d652",
     "c47afd7eb8ba",
     "16cec90a355c",
     "c189c07a9f4e",
     "7312a94832c6",
+    "a860353cd01d",
+    "f468bce1bf43",
     "b685a94c97f4",
     "fc8989f7c0ae",
     "6e63dbf1f297",
@@ -774,15 +838,24 @@
     "f12e1b459d07",
     "09ff4582226a",
     "d1e9ec5f7702",
+    "67785e48c998",
     "0e01493364a5",
+    "974b07701cee",
+    "85487fcc565e",
     "3f91a8eb1358",
     "c4968bf332a2",
+    "dd7a50b9ce57",
+    "3f13e922a784",
+    "3222884ee3dd",
+    "414cbc7628f9",
     "01ec5fb19185",
     "50133e175868",
     "319b8f290351",
+    "8329f9af83d1",
     "03002de69375",
     "624ced0c9049",
     "929393432e3b",
+    "9de348dca386",
     "d8b1cd8de815",
     "805dba1c4319",
     "6afe43215d29",
@@ -797,6 +870,8 @@
     "4a62f1306c70",
     "4308a68e513a",
     "f43fbf810d31",
+    "bea9bbf9ca62",
+    "11ab457c18d2",
     "0cf5fe9a6e4f",
     "acff9071fe90",
     "c37b002948b6",
@@ -994,159 +1069,159 @@
     "fb9e2ea6fd8c",
     "8ceb4702612d"
   ],
-  "conversation_count": 990,
-  "indexed_conversations": 990,
-  "unique_tokens": 323491,
-  "posting_count": 5618736,
-  "shard_bytes": 26561847,
+  "conversation_count": 1065,
+  "indexed_conversations": 1065,
+  "unique_tokens": 333719,
+  "posting_count": 5963236,
+  "shard_bytes": 28152413,
   "shards": {
     "0": {
-      "tokens": 11408,
-      "bytes": 421784
+      "tokens": 11768,
+      "bytes": 440433
     },
     "1": {
-      "tokens": 14401,
-      "bytes": 640688
+      "tokens": 14883,
+      "bytes": 672848
     },
     "2": {
-      "tokens": 11161,
-      "bytes": 535553
+      "tokens": 11503,
+      "bytes": 559861
     },
     "3": {
-      "tokens": 6664,
-      "bytes": 290715
+      "tokens": 6896,
+      "bytes": 304378
     },
     "4": {
-      "tokens": 7901,
-      "bytes": 322560
+      "tokens": 8108,
+      "bytes": 336257
     },
     "5": {
-      "tokens": 5290,
-      "bytes": 222637
+      "tokens": 5489,
+      "bytes": 233239
     },
     "6": {
-      "tokens": 5142,
-      "bytes": 212338
+      "tokens": 5321,
+      "bytes": 221160
     },
     "7": {
-      "tokens": 4398,
-      "bytes": 178321
+      "tokens": 4605,
+      "bytes": 187513
     },
     "8": {
-      "tokens": 5024,
-      "bytes": 187343
+      "tokens": 5217,
+      "bytes": 196364
     },
     "9": {
-      "tokens": 5844,
-      "bytes": 207368
+      "tokens": 6029,
+      "bytes": 216050
     },
     "_": {
-      "tokens": 11829,
-      "bytes": 455058
+      "tokens": 11995,
+      "bytes": 479133
     },
     "a": {
-      "tokens": 14718,
-      "bytes": 1458474
+      "tokens": 15179,
+      "bytes": 1549524
     },
     "b": {
-      "tokens": 12915,
-      "bytes": 953001
+      "tokens": 13299,
+      "bytes": 1007665
     },
     "c": {
-      "tokens": 15990,
-      "bytes": 1970430
+      "tokens": 16628,
+      "bytes": 2100254
     },
     "d": {
-      "tokens": 11275,
-      "bytes": 1237526
+      "tokens": 11706,
+      "bytes": 1321422
     },
     "e": {
-      "tokens": 9774,
-      "bytes": 1119982
+      "tokens": 10163,
+      "bytes": 1194603
     },
     "f": {
-      "tokens": 10697,
-      "bytes": 1011175
+      "tokens": 11003,
+      "bytes": 1073677
     },
     "g": {
-      "tokens": 6717,
-      "bytes": 571214
+      "tokens": 6867,
+      "bytes": 607681
     },
     "h": {
-      "tokens": 6615,
-      "bytes": 586170
+      "tokens": 6795,
+      "bytes": 621421
     },
     "i": {
-      "tokens": 7280,
-      "bytes": 1013856
+      "tokens": 7552,
+      "bytes": 1082844
     },
     "j": {
-      "tokens": 2070,
-      "bytes": 138197
+      "tokens": 2116,
+      "bytes": 145728
     },
     "k": {
-      "tokens": 3691,
-      "bytes": 205362
+      "tokens": 3761,
+      "bytes": 216815
     },
     "l": {
-      "tokens": 8906,
-      "bytes": 1349264
+      "tokens": 9166,
+      "bytes": 1420486
     },
     "m": {
-      "tokens": 11901,
-      "bytes": 1111038
+      "tokens": 12278,
+      "bytes": 1182266
     },
     "n": {
-      "tokens": 17500,
-      "bytes": 1070535
+      "tokens": 17825,
+      "bytes": 1116477
     },
     "o": {
-      "tokens": 5378,
-      "bytes": 586329
+      "tokens": 5547,
+      "bytes": 624015
     },
     "p": {
-      "tokens": 12932,
-      "bytes": 1493851
+      "tokens": 13318,
+      "bytes": 1592010
     },
     "q": {
-      "tokens": 1590,
-      "bytes": 153484
+      "tokens": 1656,
+      "bytes": 163830
     },
     "r": {
-      "tokens": 10768,
-      "bytes": 1357132
+      "tokens": 11189,
+      "bytes": 1441656
     },
     "s": {
-      "tokens": 19849,
-      "bytes": 2153551
+      "tokens": 20559,
+      "bytes": 2296147
     },
     "t": {
-      "tokens": 23598,
-      "bytes": 1745193
+      "tokens": 24468,
+      "bytes": 1845739
     },
     "u": {
-      "tokens": 7144,
-      "bytes": 517587
+      "tokens": 7334,
+      "bytes": 546803
     },
     "v": {
-      "tokens": 3861,
-      "bytes": 348148
+      "tokens": 3941,
+      "bytes": 370826
     },
     "w": {
-      "tokens": 5114,
-      "bytes": 514183
+      "tokens": 5305,
+      "bytes": 548026
     },
     "x": {
-      "tokens": 1145,
-      "bytes": 55709
+      "tokens": 1168,
+      "bytes": 58662
     },
     "y": {
-      "tokens": 1372,
-      "bytes": 88444
+      "tokens": 1432,
+      "bytes": 95274
     },
     "z": {
-      "tokens": 1629,
-      "bytes": 77647
+      "tokens": 1650,
+      "bytes": 81326
     }
   },
   "tokenization": "Unicode word tokens casefolded; H(s)H normalized to hsh; tokens shorter than 2 omitted",
