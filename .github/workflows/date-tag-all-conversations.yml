@@ -15,7 +15,14 @@ on:
       - '*.json'
       - '*.txt'
       - '**/*.json'
+      - '**/*.jsonl'
       - '**/*.txt'
+      - '**/*.text'
+      - '**/*.md'
+      - '**/*.markdown'
+      - '**/*.log'
+      - '**/*.raw'
+      - '**/*.data'
   schedule:
     # Backstop for imports that occur while other Actions runs are queued.
     - cron: '17 */6 * * *'
@@ -120,10 +127,14 @@ jobs:
           p=Path('indexes/manifests/date-tag-audit.json')
           data=json.loads(p.read_text(encoding='utf-8'))
           print('Date-tag verification:', data['overall_counts'])
-          if not data['fully_tagged']:
+          if not data.get('all_datable_tagged', False):
               for root in data['roots']:
                   for item in root['exceptions'][:20]:
-                      print('Exception:',root['root'],item)
-              raise SystemExit('At least one datable or undatable conversation remains untagged; see committed verification ledger.')
-          print('PASS: all datable HsH conversation exports have source-timestamp date prefixes.')
+                      if item.get('status') in {'planned', 'collision'}:
+                          print('Blocking exception:',root['root'],item)
+              raise SystemExit('At least one datable conversation still needs a date prefix or has an unresolved filename collision; see the verification ledger.')
+          undatable = data['overall_counts'].get('undatable_conversations', 0)
+          if undatable:
+              print(f'WARNING: preserved {undatable} undatable conversation export(s) as explicit exceptions; no date was invented.')
+          print('PASS: all datable HsH conversation exports have source-timestamp date prefixes; undatable exceptions remain separately recorded.')
           PY
