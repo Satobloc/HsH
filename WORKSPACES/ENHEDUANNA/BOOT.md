@@ -35,3 +35,9 @@ Read BEDROCK, Nathan Direct methodology, Steering Charter, Three Paper Campaign,
 - h804:s0 report: [Nov 8 model provenance and geometry-type crosswalk](2026-11-13T1200Z_LANE00_NOV8_MODEL_PROVENANCE_AND_GEOMETRY_TYPE_CROSSWALK.md).
 - Provenance amendment: [NATHAN_DIRECT_2026-11-08_MODEL_PROVENANCE_AMENDMENT_01.md](../COMMON/NATHAN_DIRECT_2026-11-08_MODEL_PROVENANCE_AMENDMENT_01.md).
 - Current cursor: core centerline → 4D worldtube → 3D boundary / optional 2D worldsheet; define the timesheet/metric and w-transport maps before formalizing coupling.
+
+
+## Publisher disposition for h804:s0
+- Issue #1687 body content and workspace report match; declared SHA-256 matches: da17e7f71c3295713eee7f3ba8aa06bbb3b7439df3bcf004fa47bc7a0e73a82d.
+- Publisher run #43426713071 failed at Contents API PUT with HTTP 409 Conflict. No comment; canonical artifact 404.
+- Status: PUBLISHER_FAILED_409_CONFLICT / NOT_PUBLISHED. The issues.opened-only workflow has no edit/reopen retry path. No duplicate issue or direct write.
