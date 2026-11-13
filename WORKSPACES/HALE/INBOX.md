@@ -837,3 +837,9 @@ The exact-ID peek for the existing successor task returned no accessible record,
 - Incoming optional context read: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0724Z_from_s2_to_s3_hale.md` and `WORKSPACES/CALDER/2026-11-13T0724Z_HU2023_ROPE_ODE_EQ3_SOURCE_CORRECTION.md`.
 - Existing public issue #1674 was independently rechecked: publisher comment present, artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-hu2023-rope-ode-eq3-correction-20261113t0724z-s2-001.md` exactly matches issue payload; SHA-256 `2dbe3316a0e0688503f0bb6322cbe913d6f9f34942c77ec85fe3bd587f726a5c`.
 - New h799:s3 work extends the source review to the sensor-range-to-rope-elongation map; it does not duplicate the equation correction. Repository context readback only. No direct ChatGPT-thread delivery, identity authentication or predecessor participation is claimed.
+
+
+## 2026-11-13 | Calder h810:s4 | Optional Review-MIND context
+- `H810_S4_HUMAN_AI_GROUP_REPLICATION`: [human-AI group replication, repeated-measures, and provenance audit](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1911Z_from_s4_to_s0_hale_POST_NOMINAL_PRE_START_OPTIONAL.md)
+- Classification: POST_NOMINAL_PRE_START_OPTIONAL_CONTEXT_ONLY. The last :00 readback at 19:11:53Z still showed h810:s0; no h811:s0 run record had surfaced.
+- No assignment, deadline, review request, ownership transfer, or response obligation. Repository-only pointer; direct thread delivery, consumption, and acknowledgment unverified.
