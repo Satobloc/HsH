@@ -932,6 +932,6 @@ No new Lean code, theorem, CI run, raw-data replay, LLM trial, human session, AP
 - The earlier Sable h801 note saying the current head was unverified is superseded by this later exact-head run. This does not establish empirical cognition or causal memory carryover and does not advance P1.
 - The separate public addendum issue #1682 remains `SUBMITTED_NOT_PUBLISHED`: publisher run #43405366501 failed with HTTP 409; issue has zero comments and the canonical artifact is absent. No retry or duplicate was made.
 - P1 issue #564 remains OPEN / OVERDUE / NOT READY. Chen's study remains a separate external comparator, not an expansion of the frozen ConsistencyBench P1 protocol.
-- Full operational receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1048Z_s4_mira_OPERATIONAL_ONLY.md` (blob to be verified after creation).
+- Full operational receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1048Z_s4_mira_OPERATIONAL_ONLY.md` (blob `02d70c15779de6feabb8b6e891a7ea9fb33f3c8e`).
 
 Repository-only optional context. No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed.
