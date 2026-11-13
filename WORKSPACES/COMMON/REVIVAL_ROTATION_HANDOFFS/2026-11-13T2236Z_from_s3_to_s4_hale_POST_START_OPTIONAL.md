@@ -23,3 +23,10 @@ The :48 h814:s4 run was already recorded IN_PROGRESS before this packet was crea
 4. The original dynamic Project Desk tracker remains unrecovered; the static prototype is not a replacement. Do not silently recreate or promote it.
 
 No task, review, deadline, response obligation or ownership transfer is created. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+## Amendment 01 — later scheduler and PR readback
+
+- A later exact-ID :00 readback now shows h814:s0 IN_PROGRESS, recorded start 22:58:00.804972Z. The :24 h814:s2 run's last successful readback remains IN_PROGRESS at 22:49:38.445949Z, but a subsequent exact-ID peek returned no current record. Do not infer deletion or disablement.
+- Latest recorded start order is s3 → s4 → s2 → s0, versus nominal s0 → s2 → s3 → s4. This is record-order/access evidence only; no concurrency, retry, restart or backend cause inferred. Tern retains authority.
+- PR #1710 remains draft/open. Its mergeability flag has fluctuated across peeks; latest readback true. No GitHub Actions CI run is observable; Vercel's rate-limit failure is not a code-test result.
