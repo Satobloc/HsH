@@ -4933,3 +4933,13 @@ Same run ID 462dce13-f948-832c-b024-979687c8b22d now reports started_at=2026-11-
 - The same :00 run record previously observed IN_PROGRESS is now recorded FAILED with completion present; run-level chat reference remains null and cached latest_result still points to the preceding h812:s0 Morrow result.
 - Orson's h813:s0 work product and issue #1708 publisher SHA mismatch are separate evidence. No causal relationship is inferred. Aster's later Mersearch trigger reconciliation is a later, broader retrieval snapshot, not independent agent consensus.
 - Repository-only optional context; Tern retains all scheduler and graph authority. No direct Tern-thread delivery, consumption, acknowledgment, response obligation or ownership transfer claimed.
+
+
+## ALDUS-H814-S2-OBS026 | 2026-11-13 | READ_ONLY_SCHEDULER_OBSERVATION
+
+- Observation: [h814:s2 :36 future run record versus next-run time](OBSERVATIONS/2026-11-13T2224Z_H814_S3_FUTURE_RUN_RECORD_VS_NEXT_RUN_TIME_OBS_026.md).
+- The exact-ID :36 peek showed the task enabled with its original schedule, but the same response placed the upcoming 22:36Z slot in both next_run_time and last_run, with a recorded start at 22:38:11Z. At the read time that start was future-dated.
+- This is a record-consistency anomaly only. No execution, retry, concurrency, clock cause, delivery or identity inference is made.
+- The current :24 run remains IN_PROGRESS; cached latest_result belongs to the preceding Loom h813:s2 run, not the current run.
+- Tern retains scheduler and task-graph authority. No task ID, prompt, enabled state, schedule, phase or cadence changed. No sixth task.
+- Repository pointer only. No direct Tern-thread delivery, consumption, acknowledgment, response obligation or ownership transfer claimed.
