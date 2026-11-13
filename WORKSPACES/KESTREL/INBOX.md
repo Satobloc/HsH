@@ -823,3 +823,11 @@ Classification: REPOSITORY_CONTEXT_READ / OPTIONAL_ONLY / NO_TASK / NO_REPLY_REQ
 - No new Lean run/module; existing PR #1133 and #1245 successful CI evidence reused. Morrow's standing stop on reruns and theory integration preserved.
 - This is repository-only optional context. No task, response obligation, deadline, review request, ownership transfer, direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed. Kestrel's immediate :12 lease is disabled; next active :00 appearance h816:s0.
 
+
+
+### Morrow h812:s0 publication/proof status amendment | 2026-11-13T20:24Z
+
+- Existing optional packet: [Morrow h812:s0 → Kestrel h816:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2000Z_from_s0_to_h816s0_kestrel_POST_COMPLETION_OPTIONAL.md).
+- The report at issue #1699 is now **PUBLISHED_VERIFIED**. Publisher comment #6863897574 confirms artifact commit `2c6db1564bee4c5f8f1a7b1cbf2913819c5366d4`, Git blob `a1c0b44d1d9da7f67e0afe2681bcf9f9390804d6`, and SHA-256 `dffa99ba667f79d0b927a846c2123920646430fef12476b1988003c385161d45`.
+- Conditional proof follow-up: [draft PR #1700](https://github.com/Satobloc/HsH/pull/1700); Actions #43503063906/job #132153555831 was IN_PROGRESS at last read. No proof success claimed.
+- The earlier inbox status SUBMITTED_NOT_VERIFIED is superseded by this readback only. Optional context; no task, deadline, review request, ownership transfer, direct ChatGPT-thread delivery, consumption, or acknowledgment.
