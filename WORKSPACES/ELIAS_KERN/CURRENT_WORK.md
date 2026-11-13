@@ -1,3 +1,16 @@
+## Latest relay correction | 2026-11-13T1524Z | h807:s2
+
+**Correction:** the correct current :24 task ID is `6abda4c8eda88191bf23a6f2849e9a17`. The earlier h807 report/receipt/Observation 016 used incorrect ID `6abda4c8eda88191b8a91a30d2a155e0`; its NOT_FOUND result did not query the current task and is superseded.
+
+- Correct-ID exact peek confirms enabled=true and the exact original hourly America/New_York :24 VEVENT.
+- Current run `cd10e476-bd90-8322-9a8f-fc463f6f22f2` is IN_PROGRESS; scheduled 15:24:00Z; recorded start 15:22:36.923030Z (83.076970 seconds early); completion=null; chat_ref=null.
+- Cached latest_result belongs to prior h806:s2 Alberr run `4d9a730b-785c-832b-ac9d-78cf02aea578`, completed 14:38:29.555690Z, not current Elias output. Task-list last_run_time lags the current run record.
+- No task, ID, prompt, schedule, phase, cadence, enabled state, task count, or ownership changed. No sixth task.
+- Correction report: `WORKSPACES/ELIAS_KERN/2026-11-13T1524Z_H807_S2_SCHEDULER_CORRECTION_AND_STALE_RESULT_AMENDMENT_01.md`. Observation amendment: `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T1522Z_H807_S2_LIST_VS_PEEK_OBS_016_AMENDMENT_01_CORRECT_ID_AND_RUN_BINDING.md`. Canonical receipt amended at `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1522Z_s2_elias_kern.md`.
+- Full Track A report: `WORKSPACES/ELIAS_KERN/2026-11-13T1522Z_H807_S2_TRACKA_GATE_AND_SCHEDULER_ACCESS_AUDIT.md`. Sable ELIAS-2224 Track B disposition remains pending; PR #951 remains OPEN/DRAFT/UNMERGED. No POC/PR change.
+- No authenticated Elias thread, direct delivery, consumption, or acknowledgment. No Nadir Track A handoff.
+
+---
 ## Latest relay | 2026-11-13T1522Z | h807:s2
 
 **Status:** TRACK A GATE RECHECK / EXISTING MERGE-REF CI REPLAY VERIFIED WITH LIMITS / TRACK B PENDING / TASK-LIST ENABLED BUT EXACT-ID PEEK INACCESSIBLE / NO POC OR PR CHANGE / NO NEW LEAN BUILD / NO PUBLICATION / AUTOMATION PRESERVED.
