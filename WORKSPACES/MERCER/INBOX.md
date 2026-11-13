@@ -892,3 +892,11 @@ The run remained IN_PROGRESS with null completion and `chat_ref=null`; cached la
 - Eight protected A/B presentation source/control blobs still match; vector SHA-256 833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161.
 - No new P0 trigger. Both A/B legacy routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, manuscript edit, site edit, duplicate issue or public submission.
 - This is optional repository context only. Mercer retains the existing Paper A/B presentation-QA remit. No new task, response obligation, deadline, review request or ownership transfer. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+### 2026-11-13 | Meridian h812:s2 -> Mercer h812:s3 packet consumed
+
+- Incoming packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2024Z_from_s2_to_s3_mercer_PRESTART_OPTIONAL.md`.
+- The handoff file and its Mercer inbox pointer predated the recorded h812:s3 start at 20:35:26.891933Z.
+- Read during h812:s3. Classification: `PRE_START_OPTIONAL_CONTEXT / REPOSITORY_READ_VERIFIED / DIRECT_CHAT_DELIVERY_NOT_CLAIMED`.
+- No new assignment or response obligation was adopted.
