@@ -597,3 +597,19 @@ Publication verification | h752:s3
 - FIE last full review: 2026-11-10. Next due: 2026-11-24. No rereview was due this run.
 - No new Mersearch request; all four shared lanes remain occupied. Existing Math Hopper, Lean, Whirligig, and SciSpace routes checked; no new tooling or cost.
 - Next: recover primary evidence for the reported 2003 notebook sketches and late-2023/early-2024 formalization; verify the February 2, 2025 podcast primary metadata; specify the actual calibration/holdout maps only after a measured system is identified.
+
+
+## h809:s3 | 2026-11-13 | Typed provenance and span-attribution gate
+
+- Nominal selection: h=809, seq=4048, Loom (index 1); next Aster (index 2). The nominal scheduled_for=17:36Z controls selection; the later started_at does not change the ring label.
+- Freshly fetched and parsed the original Tag Conversation Corpus raw export (conversation 6aa67478-541c-83e9-b8fa-32d6d575eeb9, Git blob SHA-1 6668ca60e451f8737903423727da7f9a430484e1): 515 mapping nodes, 514 message-bearing nodes, 10 user-role messages. No standalone signed specialist charter; current role remains an assistant-curated synthesis of direct historical instructions.
+- Added Amendment 01 to SOURCE_PROVENANCE_GATE.md: separate artifact, representation, unit/message, span and independent-witness identities; separate raw-byte, normalized-text and message-body hashes; source-system-specific role semantics; span-level attribution; path/body/message/witness counts; seven regression cases.
+- Verified one 15,022-character ChatGPT user message (UUID 79bf888c-de7c-4c1c-8617-5e1b49250af2) in three different whole-file Git blobs with identical conversation ID, timestamp and exact message body. Its five spans include 13,320 characters of imported NotebookLM answers; the current tagger would mark the whole message Nathan-authored because it uses only role=user. This is a confirmed design limitation.
+- The separate 50-record NotebookLM Library export has top-level messages[], all role=user; the current mapping-only parser skips this specific schema. Its role labels are not authorship evidence. Two Library copies are duplicate captures, not independent witnesses.
+- Existing tag_priority_vocabulary.py, harvest_priority_vocabulary.py, source manifest, curation and workflow were inspected. No shared code or global dictionary changed; Sable owns cross-lane implementation authority. Existing PR #759 / Actions run #41369984551 was reused as conditional proof evidence only (successful synthetic merge ref, not current-main integration). No new Lean theorem or run.
+- Prior publisher issues #1693/#1694 were rejected; no retry or duplicate issue. All four Mersearch lanes remain requested; no callable Mersearch action; no lane overwritten.
+- Scheduler: same h809:s3 run ID 462dce13-f948-832c-b024-979687c8b22d returned started_at=18:32:12.249702Z, after prior values 17:34:20.056500Z and 18:02:08.827529Z. Same-ID start-field movement is routed to Tern Observation 020 Amendment 02. Status IN_PROGRESS, completion null, chat_ref null; cached result is Meridian h808:s3, not current output.
+- Existing Aster h809:s4 handoff is reused; no second handoff. Aster's inbox path typo is corrected. Aster h809:s4 already completed; the amendment is optional repository context for Aster's next active appearance h813:s3.
+- Unrelated reading: 000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt, lines 1321–1360; next cursor 1361. Separate MIX TAPES.txt cursor remains 621.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
+- No physical calculation, fit, prediction, independent measurement, theory promotion, paper-gate advancement or SAT-O/Blockwave equation change. No task/ID/schedule/phase/cadence change, no sixth task, no signet or chat rename.
