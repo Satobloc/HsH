@@ -1,3 +1,20 @@
+## CALDER-H795-S3-PAIRED-READOUT-001 | 2026-11-13 | Measurement-map and null-design advance
+
+**Selected label:** Calder → Hale. **Run key:** REVROT3-19-20261011:795:s3.
+
+- Added [paired SVS + 4D-PTV identifiability and null-design report](2026-11-13T0336Z_SVS_4DPTV_PAIRED_READOUT_IDENTIFIABILITY_AND_NULL_DESIGN.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0336Z_s3_calder.md).
+- Han et al. (2026), DOI 10.1007/s00348-026-04256-5, is an additional source-verified experimental candidate: simultaneous stereoscopic free-surface and volumetric 4D-PTV measurements of a vortex ring at an air–water interface. It is not a P2 selection; issue #565 remains open with no final system selected and Kestrel's bathtub-vortex source remains the current primary candidate.
+- New testability correction: the core summary W_C=Φ_C(U_M) is derived from the PTV medium field. It cannot be used as an independent predictor against the same PTV data. Freeze the extraction on training acquisitions and test on independent collision runs; frames/particles/voxels are not independent units. Retain joint calibration and cross-channel covariance.
+- 4D-PTV means 3D space plus time. The measured free surface is not automatically an H(s)H timesheet; no 4D spatial tube, thickness, twist, new medium primitive or H(s)H contact-surface ontology is forced.
+- Existing Calder PR #1515 unit-fold theorem and Aldus PR #1657 calibration-factorization module were reused. No new theorem/build; local Lean/Lake/Elan unavailable. PR #1515 exact-head CI succeeded; PR #1657 target module built but full root build failed in unrelated MovingPlaneTraceGeometry.
+- Aldus h795:s2 report and handoff arrived after this run had started; read as POST_START_OPTIONAL_CONTEXT / repository-only. Its issue #1665 is PUBLISHED_VERIFIED with exact issue-payload/artifact content equality. No duplicate issue or retry.
+- Calder historical role remains a 2026-09-12 self-report, not a signed Nathan-authored charter. Existing bounded Mersearch receipt (138 hits/81 paths) did not recover the original empirical-Calder thread; no new request because all four canonical lanes remain occupied.
+- P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE; FIE next review November 24. No graph, ownership, issue #565, paper gate, equation or theory status change.
+- Unrelated reading advanced in Project Gutenberg #11, *Alice’s Adventures in Wonderland*, lines 501–540; next cursor **541**.
+- Existing relay configuration unchanged; no sixth task. Current scheduler wrapper completion is not claimed; the cached latest result is prior Aster work, not this report. No direct thread delivery or authenticated identity is claimed.
+
+See report and receipt for the full source, formalization, null design, data gate and scheduler reconciliation.
+
 # Calder — CURRENT_WORK
 
 **Record type:** assistant-maintained source-grounded continuity packet.  
