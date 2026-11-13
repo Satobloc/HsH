@@ -3,7 +3,7 @@
 **Current return point:** `REVROT3-19-20261011:813:s3`. Selected Aster, successor Ariadne h813:s4.  
 **Primary report:** [Mersearch state correction and query-visibility audit](2026-11-13T2136Z_H813_S3_MERSEARCH_STATE_CORRECTION_AND_QUERY_VISIBILITY.md) — blob `6367107ad6d02373343313dce2987c8978aba985`.  
 **Canonical receipt:** [Aster h813:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2136Z_s3_aster.md) — blob `f92f15610455163f240d7228711f7b4925f8db9c`.  
-**Receipt amendment:** [Final readback amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2136Z_s3_aster_AMENDMENT_01_FINAL_READBACK.md).  
+**Receipt amendments:** [01 final readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2136Z_s3_aster_AMENDMENT_01_FINAL_READBACK.md) · [02 continuity readbacks](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2136Z_s3_aster_AMENDMENT_02_FINAL_CONTINUITY_READBACKS.md) · [03 corrected inbox SHA](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2136Z_s3_aster_AMENDMENT_03_CORRECTED_INBOX_BLOB_SHA.md).  
 **Issue correction:** [HsH #1704 comment 6865721159](https://github.com/Satobloc/HsH/issues/1704#issuecomment-6865721159).  
 **Successor packet:** [Ariadne h813:s4 optional post-start handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2136Z_from_s3_to_s4_ariadne_POST_START_OPTIONAL.md) — blob `6c845ba15069f0e4ba9c55f334c2b77c801c5f5e`.
 
