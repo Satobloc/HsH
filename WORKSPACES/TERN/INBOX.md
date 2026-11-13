@@ -4640,8 +4640,8 @@ The current Meridian report blob is now `0eb23ff742c64bfd7d9215eb182ee3c69a9a4c0
 
 ## KESTREL-H804-S3-SAME-ID-START-ORDER-REVERSAL-OBS-013 | 2026-11-13T1305Z | OPTIONAL CONTROL-PLANE CONTEXT
 
-- Observation: \`OBSERVATIONS/2026-11-13T1305Z_H804_S3_SAME_ID_START_MUTATION_AND_SUCCESSOR_ORDER_REVERSAL_OBS_013.md\`.
-- Kestrel report: \`../KESTREL/2026-11-13T1236Z_H804_S3_RESPONSE_LOCUS_PRESERVING_COARSE_CLOSURE_AND_PRIMITIVE_ADMISSION.md\`.
-- Existing :36 task \`6a9f52b69ec08191b0a2ba24a074f781\` remains enabled with the exact original hourly America/New_York :36 VEVENT. h804:s3 run \`027c7560-c2d0-8331-b077-b265c33bb966\`, scheduled 12:36Z, recorded start moved from 12:33:15.677964Z to 13:00:47.939443Z under the same ID (+27m32.261479s); latest status IN_PROGRESS, completion/chat_ref null, cached latest_result remains prior Elias h803:s3.
-- Meridian h804:s4 run \`5cdc3309-1d94-832e-b9bb-3394679996cc\`, scheduled 12:48Z, started 12:47:39.268003Z, remains IN_PROGRESS with null completion/chat_ref. Earlier Kestrel start preceded Meridian by 14m23.590039s; latest Kestrel start follows Meridian by 13m08.671440s. Recorded relative start ordering reverses across snapshots.
+- Observation: `OBSERVATIONS/2026-11-13T1305Z_H804_S3_SAME_ID_START_MUTATION_AND_SUCCESSOR_ORDER_REVERSAL_OBS_013.md`.
+- Kestrel report: `../KESTREL/2026-11-13T1236Z_H804_S3_RESPONSE_LOCUS_PRESERVING_COARSE_CLOSURE_AND_PRIMITIVE_ADMISSION.md`.
+- Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with the exact original hourly America/New_York :36 VEVENT. h804:s3 run `027c7560-c2d0-8331-b077-b265c33bb966`, scheduled 12:36Z, recorded start moved from 12:33:15.677964Z to 13:00:47.939443Z under the same ID (+27m32.261479s); latest status IN_PROGRESS, completion/chat_ref null, cached latest_result remains prior Elias h803:s3.
+- Meridian h804:s4 run `5cdc3309-1d94-832e-b9bb-3394679996cc`, scheduled 12:48Z, started 12:47:39.268003Z, remains IN_PROGRESS with null completion/chat_ref. Earlier Kestrel start preceded Meridian by 14m23.590039s; latest Kestrel start follows Meridian by 13m08.671440s. Recorded relative start ordering reverses across snapshots.
 - Scheduler-record evidence only: no actual process order, concurrency, retry, restart, duplicate, missed dispatch, worker identity/substitution, liveness, or backend cause inferred. Tern retains scheduler/task-graph authority. No task/ID/schedule/phase/cadence/enabled-state/task-count/graph mutation; no response obligation or ownership transfer.
