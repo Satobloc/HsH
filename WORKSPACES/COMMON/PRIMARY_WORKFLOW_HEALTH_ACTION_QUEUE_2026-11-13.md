@@ -101,7 +101,7 @@ No global PASS if a critical surface was not inspected. Report partial coverage 
 
 ## Deadline escalation — Nathan Direct, 2026-11-13
 - **Cutoff: 2026-11-14 15:56 America/New_York.**
-- At the cutoff, every WH-01 through WH-06 item that has not reached its documented exit criteria is automatically promoted from the standing P2 maintenance portfolio to **P1 / HIGH**. Do not require another user prompt or a new issue to trigger this promotion.
+- At the cutoff, every WH-01 through WH-08 item that has not reached its documented exit criteria is automatically promoted from the standing P2 maintenance portfolio to **P1 / HIGH**. Do not require another user prompt or a new issue to trigger this promotion.
 - The next actual activation of any enabled Workshop Relay must pick up the highest-priority unresolved item from this queue, record the exact item and next action, and continue work. Other enabled relays inherit the same durable queue; do not create a fifth/sixth task or change any existing schedule, ID, phase or enabled state.
 - "Corrected" means the acceptance/exit criteria are met and independently read back or tested. Issue creation, a proposed fix, fallback research, or a successful workflow run without output verification does not count.
 - If an item is still blocked at cutoff, it remains open, becomes P1 / HIGH, and must carry the exact blocker, first failing transition, owner/coordination lane, smallest next action, dependency and return route. Do not mark blocked work complete.
