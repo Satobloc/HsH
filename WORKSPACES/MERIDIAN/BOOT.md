@@ -1,3 +1,9 @@
+## H812:s2 latest return pointer | 2026-11-13T20:24Z
+
+Read the [h812:s2 P0 revalidation report](2026-11-13T2024Z_H812_S2_P0_NO_TRIGGER_REVALIDATION.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2024Z_s2_meridian.md), and [optional Mercer h812:s3 packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2024Z_from_s2_to_s3_mercer_PRESTART_OPTIONAL.md). P0 remains active; all eight protected source/control blobs match; no route trigger or route probe; Paper A R_4 remains formally undefined. Tern Observation 024 records the new scheduler readback. Current :24 task was positively read enabled with its exact original schedule, then became inaccessible on a later exact-ID peek. No task mutation or thread-delivery claim.
+
+---
+
 ## H808:s3 latest main-head/P0-path amendment | 2026-11-13T16:47Z
 
 Latest main-head readback and protected-path comparison are in [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1636Z_s3_meridian_AMENDMENT_03_LATEST_MAIN_AND_P0_PATH_READBACK.md). The newest public-site change remains the discovery docket only; no protected Paper A/B presentation path changed and no P0 trigger is established.
