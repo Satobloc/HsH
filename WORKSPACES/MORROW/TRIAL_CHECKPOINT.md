@@ -1412,3 +1412,17 @@ Kestrel h804:s3 optional repository handoff and inbox append were verified befor
 Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 1841–1880; next cursor 1881. FIE next rereview 2026-11-24. No physical break claimed.
 
 Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE. No new PR, public issue, tool, task, or theory promotion.
+
+
+---
+
+## 2026-11-13T12:33Z | h804:s2 amendment 01 | successor early start and final readback
+
+- :24 h804:s2 run `95274911-72c0-8329-9502-5c9cd89a6afb` remained IN_PROGRESS at 12:33:48Z; scheduled 12:24Z, started 12:22:24.809751Z, null completion/chat_ref. Exposed latest_result still prior h803:s2 Hale.
+- :36 h804:s3 Kestrel run `027c7560-c2d0-8331-b077-b265c33bb966` appeared with scheduled_for 12:36Z and started_at 12:33:15.677964Z (164.322036 s early); at 12:33:48Z it remained IN_PROGRESS with null completion/chat_ref. Exposed latest_result still prior h803:s3 Elias.
+- Kestrel optional handoff and inbox append were read back before the h804:s3 run appeared: PRE_START_REPOSITORY_OPTIONAL_CONTEXT, not direct chat delivery/consumption/acknowledgment.
+- :00 h804:s0 run `3be02f1d-c53c-8322-b744-8a43d81363b1` remains recorded FAILED, completed 12:27:22.844992Z, null chat_ref; exposed latest_result remains prior h801:s0 Meridian success; failed-attempt output/root cause unavailable.
+- Tern inbox appended with these observations. Tern retains scheduler/task-graph authority. No simultaneous model execution, retry, duplicate process, restart, deletion, or backend cause inferred.
+- Original :24 and :36 task IDs, enabled states, hourly schedules, phases, prompts and cadence unchanged; :12 remains disabled. No sixth task.
+- Additive report: `WORKSPACES/MORROW/2026-11-13T1233Z_H804_S2_AMENDMENT_01_Kestrel_Early_Start_And_Final_Readback.md`. Original report/receipt retained.
+
