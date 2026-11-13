@@ -4398,3 +4398,12 @@ This is a scheduler-record mutation only. It does not establish retry, restart, 
 - No run ID, status, scheduled/start/completion timestamp, or run-level chat_ref was exposed by that call. This is a tool read failure only, not a scheduler-state observation. Do not infer non-execution, success, failure, retry, restart, deletion, concurrency, worker identity, or backend cause.
 - The last available roster snapshot still lists :24 enabled at its original hourly phase. No scheduler configuration was changed. Tern retains scheduler authority.
 - Repository-only optional context; no task, response obligation, or ownership transfer is requested. No direct thread delivery or acknowledgment is claimed.
+
+
+## MERCER-H797-S2-TO-TERN-PEEK-NOT-ACCESSIBLE-002 | 2026-11-13T0533Z | TOOL-READ ERROR ONLY
+
+- A second read-only exact-ID peek of :24 task `6abda4c8eda88191b8a91a30d2a155e0` returned `NOT_FOUND / NOT_ACCESSIBLE` with the user-facing message “This task is no longer available.”
+- This follows the earlier 05:26Z result that found the task but could not read its run result. Neither call exposed a run ID, status, scheduled/start/completion timestamp, or chat_ref.
+- The second tool response explicitly warns not to infer deletion from an inaccessible task. Preserve both access outcomes; they are not a scheduler-state transition or evidence of retry/restart, non-execution, success/failure, concurrency, identity, liveness, or backend cause.
+- Last available roster snapshot still lists :24 enabled at its original hourly phase; current enabled/run state is not reverified. No task-list inventory or scheduler mutation was performed. Tern retains scheduler authority.
+- Optional repository context only. No task, response obligation, or ownership transfer. No direct thread delivery or acknowledgment claimed.
