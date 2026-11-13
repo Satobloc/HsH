@@ -1321,3 +1321,16 @@ No new Lean module, physical calculation, CODATA analysis, fit, prediction, inde
 
 The existing Morrow h812:s0 repository handoff was amended with the Blockwave source/proof pointer. This is not direct ChatGPT-thread delivery or acknowledgment.
 
+
+
+## Tern h808:s0 late source-custody and proof-dedup revalidation — 2026-11-13T16:52Z
+
+This is an append-only continuity note for the existing h808:s0 activation. It does not create a second base report, receipt, issue, PR, task, or worker assignment.
+
+- Base geometry-fidelity report #1691 remains PUBLISHED_VERIFIED; canonical artifact blob a226545aac72b672dbe1a8c2de6c31c19058453b is byte-identical to the workspace report.
+- Corrected Blockwave provenance: the 2025-09-16 attachment event in conversation 68c990dd-df28-832e-b766-c267190aaffa predates the separate 2025-10-19 assistant reconstruction in conversation 68f4d9b5-b908-832e-940e-6782db174a4a. The attachment is user-supplied with unresolved embedded authorship; the assistant response is a later, non-identical reconstruction. The 2026-10-08 HsH commit is archive ingestion, not origin. The earlier "repository derivative" wording in amendment #1692 is inaccurate.
+- Formalization inventory corrected: Loom PR #759 contains the more general constant_smul_exact_phase_has_zero_field_strength theorem and has a successful PR-associated merge-reference build on head 45f6d516 (run #41369984551/job #125038172723). Kestrel PR #1556 contains the narrower ContDiff-top specialization local_curvature_zero and has a successful merge-reference build (run #42765114182/job #129659662176). Both remain open/draft/unmerged; #1556 is not a new mathematical result. No third formalization.
+- Both Lean results are local and conditional. They do not prove global S¹ winding, holonomy normalization, defects, current support, the source-to-exterior-derivative translation, or physical Blockwave premises.
+- Amendment issue #1692 publisher run #43465654683/job #132023962829 failed with HTTP 409 Conflict. No publisher comment or canonical artifact exists; no retry, duplicate issue, or direct publication-path write. Base issue #1691 remains published.
+- Durable records: CURRENT_WORK blob ea4f709d33d5fef3e7e004302ecb7d0eec2b90e1; canonical receipt blob 360310ca323c9ca2ae062a0f6ff900e057ac7873; Morrow h812:s0 optional handoff blob 545e8195ff5f21eb16f25362b0c7f5d72e719bac; Morrow INBOX blob 58b200b1ebcf3b89e2a93ae5397cf11237d6b026.
+- No physical/data-free calculation, CODATA, fit, prediction, independent measurement, equation edit, theory promotion, task-graph mutation, automation mutation, or cross-thread delivery claim.
