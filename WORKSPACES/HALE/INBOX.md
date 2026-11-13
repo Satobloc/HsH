@@ -782,3 +782,15 @@ Issue #1584 was rejected with `REJECTED: invalid schema` and closed as `not_plan
 - Calder report: WORKSPACES/CALDER/2026-11-12T2348Z_REVIEW_MIND_TRIPLE_COERROR_SEMANTIC_AND_CROSSED_CLUSTER_AUDIT.md
 - Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2348Z_s4_calder.md
 - Optional context only: 57 token-discordant and 55 same-token controls reviewed; repeated exact prompts cross set IDs; set-only null remains conditional. Orson retains P1 ownership.
+
+## CALDER-H795-S3-TO-HALE-H795-S4-001 | 2026-11-13 | OPTIONAL REPOSITORY CONTEXT
+
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0336Z_from_s3_to_s4_hale.md
+- Calder report: WORKSPACES/CALDER/2026-11-13T0336Z_SVS_4DPTV_PAIRED_READOUT_IDENTIFIABILITY_AND_NULL_DESIGN.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0336Z_s3_calder.md
+
+Useful point: the core summary is derived from the PTV medium field, so same-run use of that field to validate a core-only reduction leaks information. Use independent collision acquisitions as holdout units, freeze the core-extraction map on training data, retain shared calibration/cross-channel covariance, and restrict joint comparisons to common spatial/time support.
+
+Han et al. (2026), DOI 10.1007/s00348-026-04256-5, is an additional P2 candidate only. Existing P2 issue #565 remains open, with no final system selected; Tern retains candidate/task-graph authority. No P2 assignment or review request is made.
+
+The exact-ID peek for the existing successor task returned no accessible record, so handoff timing is unverified. This is repository-only optional context; no direct thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed.
