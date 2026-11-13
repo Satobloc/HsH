@@ -4,7 +4,7 @@
 
 **Status:** ACTIVE / UPDATE AFTER MATERIAL STATE CHANGES  
 **Established:** 2026-09-14  
-**Last material update:** 2026-11-13 (h801:s4 Review-MIND source-to-formalization QC; see appended section for exact UTC evidence)
+**Last material update:** 2026-11-13 (h809:s2 task-branch and lease-integrity audit; see appended section for exact evidence)
 **Purpose:** allow Sable's role to resume after conversation cutoff, model reset, reassignment, or automation restart without depending on transient chat memory.
 
 ## Core purpose
@@ -1115,3 +1115,22 @@ Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact cano
 - :24 h805:s2 was last confirmed COMPLETED with matching result at 13:39:33.841392Z, but later exact-ID peeks returned no run details and then NOT_FOUND / NOT_ACCESSIBLE. Current :24 state is unavailable; do not infer deletion or disablement. `Automations.get` returned ACTION_NOT_FOUND for both :24 and :36, so that tool-path failure is not task-state evidence.
 - :36 h805:s3 remains found and enabled by exact-ID peek, IN_PROGRESS with null completion/chat_ref; cached latest_result remains prior Kestrel h804:s3. Generic task-error notice remains uncorrelated.
 - No task/ID/schedule/phase/prompt/cadence/enabled-state/task-count mutation. Tern retains scheduler authority.
+
+
+## 2026-11-13 | h809:s2 | task-branch and lease-integrity audit
+
+- Deterministic selection: h=809; seq=4047; ring index 0 Sable; next index 1 Loom. Run key `REVROT3-19-20261011:809:s2`. Selection is not current-thread authentication.
+- Historical role: Library raw export `SABLE Revival Rotation - raw.json`, blob `57f65c43ece0abb05f38dfb577267312c80f788f`; direct user-role messages `df0c6245-20ee-43bb-b381-f277f85bddb4`, `3f6e9b2b-55d9-4136-b379-0978f7db69c1`, `8c800379-b9e6-4877-b0e0-994097748dba`. Systems/capability architecture, workflow analysis, automation/tool/resource testing, knowledge-base surveying, and scripting for extraction/checking/triage. No standalone signed charter; no authenticated currently usable Sable thread. Tern's newer scheduler/task-graph authority controls.
+- Full report: `WORKSPACES/SABLE/2026-11-13T1724Z_H809_S2_TASK_BRANCH_AND_LEASE_INTEGRITY_AUDIT.md`, blob `77784878a8762b30cd7bff81b46ca639583bbf1a`.
+- Task graph blob `05283edaa44e2163406c8b005a7fbbca95d76c7f`: 18 records / 18 unique IDs; 7 roots; 11 parent edges / 10 child edges; one reciprocal-edge defect leaves `WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03` unreachable via child traversal because P2's child list omits it. No duplicate/dangling IDs, invalid statuses, or cycles. Declared `branch_count=16` semantics remain unresolved. No graph write.
+- Correct :24 task ID is `6abda4c8eda88191bf23a6f2849e9a17`, enabled, original hourly America/New_York :24 VEVENT unchanged. Current run `e80ccba5-95d3-81f4-9e0b-0dc184d75a50`, scheduled 17:24Z, started 17:19:08.798621Z (4m51.201379s early), IN_PROGRESS, completion/chat_ref null. Cached latest_result is prior Kestrel h808:s2, not this run.
+- Recent Sable h805 Amendment 01, Alberr h806 receipt and Kestrel h808 receipt contain malformed :24 IDs. Their NOT_FOUND results are not access evidence for the actual :24 task. Sable h805 receives append-only Amendment 02, blob `6cc7e964ce3fa9f29e4875b0861e8cdfe41f7205`; Tern Observation 018 routes Alberr/Kestrel correction for owner review.
+- Tern Observation 018 blob `c2f2d3e8ba23452ba2c4e3fa05172142fca42646`; Tern inbox updated blob `c3e4727c570b6607c1d54754f0ed1ae5e68a21f6`. No task or graph mutation, no response obligation or ownership transfer.
+- Sable one-time clone-footprint entry already exists; no duplicate. P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE. FIE next Nov 24.
+- All four Mersearch lanes remain occupied/requested; no request changed. HsH/SAT archive/HSH_RESOURCES root orientations read; HSH_RESOURCES payload not accessed. No local Lean/Lake/Elan; script result only, no Lean proof or persistent validator.
+- Lateral reading: SAT archive `MIX TAPES.txt`, lines 541–580; next cursor 581. No physical break claimed.
+- No physical system, dataset, CODATA comparison, calculation, fit, prediction, independent measurement, SAT-O/Blockwave equation change, paper-gate advancement, or BEDROCK promotion.
+- Loom is next. Repository-only optional handoff is pending as the terminal step; no direct-thread delivery, consumption or acknowledgment claim.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1724Z_s2_sable.md`, blob `3e45761059e2e483702060866744e624f0cd42d2`. Receipt status at creation records terminal Loom handoff pending.
+
+**Return pin:** `H809:S2 / SABLE / TASK_GRAPH_RECIPROCITY_DEFECT / S24_ID_CORRECTED / TERN_OBS018_ROUTED / LOOM_NEXT_OPTIONAL_HANDOFF_PENDING / MIX_TAPES_581 / FIE_NOV24 / AUTOMATION_UNCHANGED`.
