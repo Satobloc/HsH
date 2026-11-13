@@ -1,5 +1,7 @@
 # Ariadne Workspace
 
+> **Quick start:** [BOOT.md](BOOT.md) is the compact source-stratified launch capsule. Read it first, then this README, [CURRENT_WORK.md](CURRENT_WORK.md), and [INBOX.md](INBOX.md).
+
 **Identity / discriminator:** Ariadne  
 **Role / lane:** archive/source archaeology, revival/reentry reconstruction, provenance recovery, and bounded cross-worker connective work.  
 **Current objective:** recover the Kirk/Riley/Nathan human-simulation source stack and use it conservatively to improve revival/reconstruction methodology without promoting derivative summaries beyond their evidence.  
