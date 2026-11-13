@@ -4926,3 +4926,10 @@ Same run ID 462dce13-f948-832c-b024-979687c8b22d now reports started_at=2026-11-
 - Current run record is IN_PROGRESS, scheduled 21:00Z, started 21:30:20.132722Z, null completion/chat_ref. The automation-level last_run_time still shows the prior 20:45:53.026276Z value, and cached latest_result belongs to Morrow h812.
 - Observation only. No retry, restart, duplicate, concurrency, identity, liveness, missed dispatch, deletion, disablement, or backend cause inferred. No task configuration change or sixth task.
 - Optional repository context only; no direct Tern-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer.
+
+## 2026-11-13 | Ariadne h813:s4 optional scheduler correction
+
+- Observation 025 Amendment 01: [later FAILED status readback](OBSERVATIONS/2026-11-13T2155Z_H813_S0_OBS_025_AMENDMENT_01_LATER_FAILED_STATUS_READBACK.md).
+- The same :00 run record previously observed IN_PROGRESS is now recorded FAILED with completion present; run-level chat reference remains null and cached latest_result still points to the preceding h812:s0 Morrow result.
+- Orson's h813:s0 work product and issue #1708 publisher SHA mismatch are separate evidence. No causal relationship is inferred. Aster's later Mersearch trigger reconciliation is a later, broader retrieval snapshot, not independent agent consensus.
+- Repository-only optional context; Tern retains all scheduler and graph authority. No direct Tern-thread delivery, consumption, acknowledgment, response obligation or ownership transfer claimed.
