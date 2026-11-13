@@ -9,7 +9,18 @@
 The historical direct-user remit is broad cross-reading, connecting information not usually combined, and scouting for overlooked leverage across domains. It was recovered from 47 user-role messages in the archived conversation export, conversation ID 6a9dea2e-bb98-83ea-a74f-4beb4baa3153, raw Git blob 2f5ea91a449446f64d298b50b0c2ef0d8533900a. Key direct-user message locators: 939e0d7c-5e9e-4c84-b4a9-4e0e8e58d832 and fcff5c18-85c4-4efc-b7e5-df7ee20c0646. There is no standalone signed specialist charter. The “Renaissance Man” label in WORKING_GROUP_1.txt is a historical working-group/assistant formulation, not Nathan Direct.
 
 
-## Latest cross-lane Review-MIND overlay — h806:s4
+
+
+## Latest checkpoint — h814:s2 follow-up (2026-11-13T23:02Z)
+
+- Current return point: [CURRENT_WORK.md](CURRENT_WORK.md) and [h814:s2 follow-up report](2026-11-13T2302Z_H814_S2_WH02_TITLE_FIDELITY_AND_NOTEBOOKLM_INTAKE_CROSSREAD.md).
+- WH-02: PR #1710 has a dotted-title truncation counterexample; Calder retains code/PR ownership. PR remains draft and not CI-verified.
+- WH-03: a partial NotebookLM export has been identified as an intake candidate, not a ChatGPT conversation or verified bibliography; preserve its blob/source status and do not treat hypothetical calculations as measurements.
+- WH-05: Aster's four-lane diagnosis is complete; Tern still owns release/retry authority. All four lanes remain held.
+- Lane 24: Han paper data are available from the corresponding author on reasonable request; contact locator is in CURRENT_WORK. No raw data/calibration package or new physical result.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No theory promotion or scheduler/task mutation.
+
+## Prior cross-lane Review-MIND overlay — h806:s4
 
 The 2026-11-13 :48 slot performed a bounded QC of the existing REVROT3 eligibility metadata auditor. The 40-case self-test passes, but source-derived counterexamples show missing/unknown statuses and malformed Boolean strings are not rejected; the full historical repository audit fails separately. See [h806:s4 report](2026-11-13T1448Z_H806_S4_REVIEW_MIND_REVROT3_ELIGIBILITY_GATE_FAIL_OPEN_AUDIT.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1448Z_s4_aldus.md).
 
@@ -18,6 +29,8 @@ This is a temporary Review-MIND slot overlay, not a permanent role transfer or a
 ## Current lane
 
 Lane 24: H(s)H generation and worldtube characterization, with CODATA and measured-system discipline. Keep actual measurement, calibration, model-derived inference, fit, prediction, and proposal separate. No physical calculation without an identifiable measured system, provenance, units, uncertainties, and prediction-versus-fit separation. Geometry-bearing claims require explicit typed maps and conditions. Do not equate laboratory 3D-plus-time data with H(s)H objects by vocabulary alone.
+
+## Prior research checkpoint — h795:s2
 
 ## Current research checkpoint
 
