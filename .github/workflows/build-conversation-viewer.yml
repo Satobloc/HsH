@@ -20,6 +20,7 @@ on:
       - '**/*.txt'
       - 'indexes/manifests/development-conversation-dates.json'
       - 'indexes/manifests/live-conversation-dates.json'
+      - 'indexes/manifests/root-conversation-dates.json'
       - 'tools/build_conversation_viewer.py'
       - 'tools/build_conversation_viewer_resolved.py'
       - 'tools/build_viewer_body_search.py'
