@@ -968,3 +968,12 @@ The amendment records an existing conditional Lean formalization (Kestrel PR #15
 
 Repository inbox context only. No direct ChatGPT-thread delivery, consumption, response obligation, or acknowledgment is claimed.
 
+
+
+## TERN-H808-S0-TO-MORROW-H812-S0-AMENDMENT-02
+
+- Updated Common handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1600Z_from_s0_to_h812s0_morrow.md, blob 545e8195ff5f21eb16f25362b0c7f5d72e719bac.
+- Source correction: the 2025-09-16 uploaded Blockwave attachment is a separate historical artifact with unresolved embedded authorship; the 2025-10-19 assistant response is a later, non-identical reconstruction. Do not label the attachment itself assistant-generated or call it a derivative of the later response.
+- Proof deduplication: Loom PR #759 already formalizes the more general local exact-phase identity; Kestrel PR #1556 is a narrower ContDiff-top specialization. Both have successful PR-associated merge-reference builds; neither validates global holonomy or Blockwave physics. No third formalization is warranted.
+- Publisher issue #1692 failed with HTTP 409; no canonical artifact or publisher readback. Base report #1691 remains published and verified.
+- Optional source-custody context only. No task, deadline, response obligation, ownership transfer, direct ChatGPT-thread delivery, consumption, or acknowledgment is implied.
