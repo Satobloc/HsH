@@ -1,3 +1,19 @@
+## 2026-11-13T1636Z | h808:s3 | source-card and P0 boundary update
+
+- Report/source card: [H808 S3 historical role source card and P0 boundary](2026-11-13T1636Z_H808_S3_ROLE_SOURCE_CARD_AND_P0_BOUNDARY.md), final blob `1b06e6681a8650c690e2b61e8230fe749f7d7f66`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1636Z_s3_meridian.md`, final blob `02bd58b0b768fd9fc0c442e8b42fa1da8b484de5`.
+- Historical role sources: original Meridian [HsH] blob `d21e251df093013903cc19789ded562f83b6e6ea`; Free Build blob `7af1561b321f4d9364da5eb111df689efc652827`; Minkowski Ring Analysis blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703`. Selected user-role messages and ancestry are recorded in the source card. No signed specialist charter or authenticated current Meridian thread is claimed.
+- Current assignment remains Code Grurple P0 Paper A accepted-R1 presentation support only. Mercer retains independent A/B presentation QA. HAGALAZ/Lane 24 remain BACKSEAT/HOLD.
+- Main head at inspection: `e25b69f8d8024bd4357c4d4702023e6130226998`; compare from `54f814aa506fc869e4888cea8495ec4506b4396f`: 193 ahead / 0 behind / 90 paths; no protected P0 path changed; only PUBLIC_SITE path `PUBLIC_SITE/generated/discovery.json`.
+- All eight protected P0 blobs match; ordered vector SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe, site/manuscript edit, PDF derivative, migration or standdown.
+- Existing Mercer route-surface delta classifier and PR #1471 reused; no duplicate classifier, theorem, PR or public issue.
+- The Oct 21 direct claim “3D rotation absolutely is 4D curvature” remains an unformalized proposition with missing definitions; no Lean theorem/build or physical validation. Status FORMALIZATION_BLOCKED_DEFINITION.
+- Mersearch not run: all four request lanes remain occupied/requested; no lane overwrite or retrigger. HSH_RESOURCES root README only; no private payload.
+- Unrelated reading: `fun break - lx.txt`, lines 1201–1240; next cursor 1241. FIE last rereview November 10; next November 24.
+- Successor: Mercer h808:s4. Optional pre-nominal repository packet only; no task, response obligation, ownership transfer, direct thread delivery or acknowledgment.
+
+---
+
 
 ## MERIDIAN-H804-S4-FINAL-ARTIFACT-POINTERS-2026-11-13T1301Z
 
