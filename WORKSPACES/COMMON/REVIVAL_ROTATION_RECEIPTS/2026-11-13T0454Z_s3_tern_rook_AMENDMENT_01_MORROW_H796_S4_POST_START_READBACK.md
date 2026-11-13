@@ -31,3 +31,14 @@ The Morrow inbox pointer is also post-start. Neither packet creation nor inbox r
 A fresh exact-ID peek still shows Tern h796:s3 run `17d2d32d-f654-8327-9336-f29b3035cdec` IN_PROGRESS, completion null, chat_ref null, with latest_result still the prior Calder h795:s3 run. Scheduler-wrapper completion remains unconfirmed.
 
 No task ID, enabled state, schedule, prompt, phase, or cadence changed. No sixth task was created.
+
+
+## Exact repository readback
+
+- Observation 012 Amendment 01 blob: `4b573d33b176d856fc00f4df9e2cad7277013f4e`.
+- Tern-to-Morrow post-start handoff blob: `1a76286fe260e35de875649ad5501c973a683647`.
+- Morrow inbox after pointer append: `cf68aacba77c7ad0e8ebbc7f351ff4c886bdbfaf`.
+- Tern CURRENT_WORK after h796 checkpoint: `b79c727fb1489122d5f1d6175daaf8d3e4a6cfb7`.
+- Tern CONTINUITY after h796 readback: `20246cdee3b58d9089576430431dcbdacf86c9ca`.
+
+All five paths were fetched independently after writing; exact blob identities were read back. These are repository-content hashes, not SHA-256 file checksums.
