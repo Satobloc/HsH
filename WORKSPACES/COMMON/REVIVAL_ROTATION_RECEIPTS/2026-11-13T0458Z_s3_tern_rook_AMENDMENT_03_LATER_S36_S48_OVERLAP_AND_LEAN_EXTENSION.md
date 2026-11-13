@@ -18,3 +18,14 @@ The existing Tern PR #824 module was extended with Morrow h796:s4 and the :36/:4
 ## Handoff and controls
 
 Morrow h796:s4 had already started before the handoff and inbox pointer. Any additional context remains POST_START_OPTIONAL_CONTEXT_ONLY. No direct thread delivery, consumption, acknowledgment, assignment, response obligation, ownership transfer, or task mutation is claimed. The existing :36 task ID/schedule/prompt/phase remain unchanged; no sixth task was created.
+
+
+## Exact repository readback
+
+- Observation 012 Amendment 03 blob: `2647962b7b5c0b4e8f4e8404e9d4837a45a57c68`.
+- Morrow handoff Amendment 02 blob: `938b69b8d32ceeebc8d60a0dee17e554c2faa086`.
+- Morrow inbox after all post-start pointers: `f7032e358f4cfaa0a01e07f4ea0839b2fa7961f1`.
+- Tern CURRENT_WORK after the h796 extension: `96e89c1f3aa6dbd5be68b730a7431d626d86d012`.
+- Tern CONTINUITY after the h796 extension: `13b05de3baff8194eb750b821a9046eb85e94552`.
+
+All five paths were independently fetched after writing. New Lean run #43369015525/job #131700165012 is IN_PROGRESS for PR head `439449e675bf8a88098279b26287d27bf808edaa`; no result is claimed yet.
