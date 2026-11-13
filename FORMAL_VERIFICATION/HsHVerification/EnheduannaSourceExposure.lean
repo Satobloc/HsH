@@ -115,4 +115,69 @@ theorem source_attestation_does_not_determine_context_exposure_within_same_run
 
 #print axioms source_attestation_does_not_determine_context_exposure_within_same_run
 
+
+/-- A claim-level output-attribution record tied to one run and context snapshot.
+The attributed spans are explicit content-addressed references, not proof that
+the source was causally used or that the claim is semantically correct. -/
+structure OutputAttributionRecord
+    (Source Digest Run SnapshotId OutputId Span : Type) where
+  runId : Run
+  snapshotId : SnapshotId
+  outputId : OutputId
+  attributedSpans : Set (Source × Digest × Span)
+
+/-- The output record explicitly attributes a particular source digest/span. -/
+def outputAttributesSourceSpan
+    {Source Digest Locator Role Timestamp Parent ReadExtent Run SnapshotId OutputId Span : Type}
+    (a : SourceAttestation Source Digest Locator Role Timestamp Parent ReadExtent)
+    (span : Span)
+    (o : OutputAttributionRecord Source Digest Run SnapshotId OutputId Span) : Prop :=
+  (a.source, a.digest, span) ∈ o.attributedSpans
+
+/--
+A single run and context snapshot can expose the same source while two distinct
+outputs differ in whether their records attribute a content-addressed span to
+that source.
+
+This is a type-level countermodel to inferring output attribution from context
+inclusion alone. It does not establish actual model attention, semantic support,
+causal influence, or that either constructed output occurred.
+-/
+theorem context_exposure_does_not_determine_output_attribution_within_same_run
+    {Source Digest Locator Role Timestamp Parent ReadExtent Run SnapshotId OutputId Span : Type}
+    (source : Source) (digest : Digest) (locator : Locator) (role : Role)
+    (timestamp : Timestamp) (parent : Parent) (readExtent : ReadExtent)
+    (run : Run) (snapshot : SnapshotId)
+    (outputWith outputWithout : OutputId) (span : Span)
+    (hOutputs : outputWith ≠ outputWithout) :
+    ∃ a : SourceAttestation Source Digest Locator Role Timestamp Parent ReadExtent,
+      ∃ c : ContextSnapshot Source Run SnapshotId,
+        ∃ oWith oWithout : OutputAttributionRecord Source Digest Run SnapshotId OutputId Span,
+          c.runId = run ∧
+          c.snapshotId = snapshot ∧
+          exposedIn a c ∧
+          oWith.runId = run ∧
+          oWith.snapshotId = snapshot ∧
+          oWith.outputId = outputWith ∧
+          oWithout.runId = run ∧
+          oWithout.snapshotId = snapshot ∧
+          oWithout.outputId = outputWithout ∧
+          outputWith ≠ outputWithout ∧
+          outputAttributesSourceSpan a span oWith ∧
+          ¬ outputAttributesSourceSpan a span oWithout := by
+  let a : SourceAttestation Source Digest Locator Role Timestamp Parent ReadExtent :=
+    ⟨source, digest, locator, role, timestamp, parent, readExtent⟩
+  let c : ContextSnapshot Source Run SnapshotId :=
+    ⟨run, snapshot, {source}⟩
+  let oWith : OutputAttributionRecord Source Digest Run SnapshotId OutputId Span :=
+    ⟨run, snapshot, outputWith, {(source, digest, span)}⟩
+  let oWithout : OutputAttributionRecord Source Digest Run SnapshotId OutputId Span :=
+    ⟨run, snapshot, outputWithout, ∅⟩
+  refine ⟨a, c, oWith, oWithout, rfl, rfl, ?_, rfl, rfl, rfl, rfl, rfl, rfl, hOutputs, ?_, ?_⟩
+  · simp [exposedIn, a, c]
+  · simp [outputAttributesSourceSpan, a, oWith]
+  · simp [outputAttributesSourceSpan, a, oWithout]
+
+#print axioms context_exposure_does_not_determine_output_attribution_within_same_run
+
 end HsHVerification.EnheduannaSourceExposure
