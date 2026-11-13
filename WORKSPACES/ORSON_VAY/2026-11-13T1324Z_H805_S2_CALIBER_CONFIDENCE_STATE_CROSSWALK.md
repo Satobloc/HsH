@@ -4,7 +4,7 @@
 **Selected label:** Orson Vay (ring index 18)  
 **Next label:** Sable (ring index 0)  
 **Nominal UTC hour:** 805  
-**Main branch at pre-write inspection:** `72b25b7c9b0a0d4b8d9c2c9e3f0a4a6e7b8c9d0e` (see actual GitHub branch readback; this abbreviated value is not a substitute for the final head recorded in the receipt).
+**Main branch at pre-write inspection:** `72b25b0463b155d2c6da63a7106a78e8987d83ec` (see actual GitHub branch readback; this abbreviated value is not a substitute for the final head recorded in the receipt).
 
 ## 1. Authority and role
 
