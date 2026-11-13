@@ -1,3 +1,13 @@
+## Cross-hour h796/h797 three-record snapshot — 2026-11-13T05:01Z
+
+- A timestamp lower bound of 05:01:42.321115Z was captured immediately before three parallel exact-ID peeks. They returned h796:s3 :36 Tern, h796:s4 :48 Morrow, and h797:s0 :00 Kestrel all IN_PROGRESS with completion/chat_ref null.
+- The latest start (h797:s0 Kestrel, 05:00:47.529151Z) precedes the lower-bound timestamp by 54.791964s. This is a conservative three-record right-censored open-state snapshot, not proof of a common live-process interval, simultaneous model execution, retries, restarts, or backend cause.
+- h797:s0 arithmetic: `5*797+0=3985`, index 14 Kestrel, next index 15 Meridian. Deterministic labels only.
+- The current PR #824 module does not yet include h797:s0 or this three-record proposition. New PR head `439449e675bf8a88098279b26287d27bf808edaa`; Lean run #43369015525/job #131700165012 remains IN_PROGRESS at last check. No edit was made while CI was active.
+- [Observation 012 Amendment 04](OBSERVATIONS/2026-11-13T0501Z_H796_S3_OBS_012_AMENDMENT_04_CROSS_HOUR_THREE_RECORD_OPEN_SNAPSHOT.md), [receipt Amendment 04](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0501Z_s3_tern_rook_AMENDMENT_04_CROSS_HOUR_THREE_RECORD_OPEN_SNAPSHOT.md), and Morrow handoff Amendment 03 preserve the snapshot. All Morrow context remains post-start optional only.
+
+---
+
 ## Later h796 :36/:48 readback and Lean extension — 2026-11-13T04:58Z
 
 - A timestamp captured immediately before exact-ID peeks was 04:58:49.997055Z. Subsequent peeks showed both Tern :36 run `17d2d32d-f654-8327-9336-f29b3035cdec` and Morrow :48 run `49b6813d-a838-8324-8ccc-bf51c2f1fb7c` IN_PROGRESS, completion/chat_ref null. Their recorded interval intersection therefore has a conservative right-censored lower bound of 426,646,074 μs (7m06.646074s). This is not proof of process concurrency, retries, restarts, duplicate execution, or backend cause.
