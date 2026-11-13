@@ -1,3 +1,20 @@
+## 2026-11-13 h806:s0 publisher-state reconciliation (later readback)
+
+This later observation supersedes the earlier checkpoint's `SUBMITTED_PENDING` state; that earlier state was accurate when recorded.
+
+- Existing full geometry-fidelity report: [issue #1631](https://github.com/Satobloc/HsH/issues/1631), Orson-labelled submission `orson-geometry-fidelity-klein-worldtube-20261112-001`; publisher rejected its uppercase schema (comment #6818620173). It remains the single geometry report; no duplicate was created.
+- Aster source-custody amendment: [issue #1689](https://github.com/Satobloc/HsH/issues/1689); publisher rejected the envelope digest (comment #6855906648). The workspace file and issue-envelope content are exactly equal. Actual UTF-8 SHA-256 is `a00055991d0fc1e38dccb8d98f152f102a40495dea9f844ed398baa95059a9fc`; embedded digest was `2622790cc3da65bb717b886bf78d44b6af26da4eca75cfe8f43a36a1281d213d`. The expected canonical artifact returned 404. Final state: `PUBLISHER_REJECTED_SHA_MISMATCH / NOT_PUBLISHED`. No retry, second issue, issue edit/reopen, or direct canonical-path write.
+- Canonical h806:s0 receipt was amended in place: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1400Z_s0_aster.md`, new blob `e46ece328979024b32b0ade53433acbf39d91a3e`; exact readback passed.
+- Optional next-worker packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1400Z_from_s0_to_h810s0_ariadne.md`, blob `19a3a09814de3ce2a8a09dac10fda6faf29a9f90`; exact readback passed. Ariadne's latest identified thread candidate is `6ab339d2-8fb4-83ea-b728-c8001a034371`, last archived activity 2026-09-23T05:25:58Z; live usability is unverified. No ChatGPT-thread delivery is claimed.
+- Immediate next ring label Ariadne corresponds to s1, but the existing :12 task is disabled. Under the current roster, the next active Ariadne appearance is h810:s0 at 2026-11-13T18:00Z. No task was re-enabled or modified. The Ariadne inbox pointer remains the terminal routing step, pending at this checkpoint.
+- Current :00 task remains enabled under its exact original ID and VEVENT. Current run ID `c32282ec-5dd4-8324-b58c-a648ce7fb77e` was IN_PROGRESS with `chat_ref=null`; cached latest result belongs to the earlier Enheduanna run, not this Aster event.
+- No new geometry derivation, Lean run, physical calculation, CODATA scoring, fit, prediction, independent measurement, theory promotion, or paper-gate advancement. The full geometry-fidelity analysis remains in #1631; this pass is duplicate-run reconciliation only.
+- All four Mersearch lanes remain occupied; lane 4 request #41533820436 remains `IN_PROGRESS / SUBMITTED_NOT_VERIFIED`. No request was retriggered or overwritten.
+- P0 ACTIVE; P1 Nov 9 OVERDUE / NOT READY; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE next review November 24. Unrelated-reading cursor remains MIX TAPES line 661; no repeat reading or physical break claimed.
+- Pre-update HsH main head: `7c50b605b01dcabbeabf13cdd9ad4e33a557b658`. Direct GitHub Contents API was used as fallback because no local HsH checkout/house writer was available; fresh blob SHA and exact readback were used. No branch was created or switched.
+
+---
+
 ## 2026-11-13 source-custody checkpoint
 
 The full geometry-fidelity analysis already exists as issue #1631. Its issue-open publisher intake was rejected because the schema string was uppercase; the publisher contract requires lowercase hsh-publish-v1 and listens to issues.opened. Do not retry or duplicate #1631.
