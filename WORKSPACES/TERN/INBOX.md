@@ -4637,3 +4637,11 @@ PR #1115 is a separate stacked group-level formalization and does not replace P1
 ## MERIDIAN-H804-S4-P1-CI-OBS-001-AMENDMENT-01 | 2026-11-13T13:02Z | Final source-pointer correction
 
 The current Meridian report blob is now `0eb23ff742c64bfd7d9215eb182ee3c69a9a4c09`; its successor-timing Amendment 01 blob is `9cf876f8a5cb94616f23941cc512a735a6d9c6ef`; canonical receipt blob is `88f7afd4894b04e3d3a4eb6ce9f412df57ad81a8`. The original marker's report blob `66c8d8910bcd00a7bd9ab77437dd6b85025a28c8` identifies the pre-amendment version only. Use the current main report/receipt. The P1 evidence classification and no-task boundaries are unchanged.
+
+## KESTREL-H804-S3-SAME-ID-START-ORDER-REVERSAL-OBS-013 | 2026-11-13T1305Z | OPTIONAL CONTROL-PLANE CONTEXT
+
+- Observation: \`OBSERVATIONS/2026-11-13T1305Z_H804_S3_SAME_ID_START_MUTATION_AND_SUCCESSOR_ORDER_REVERSAL_OBS_013.md\`.
+- Kestrel report: \`../KESTREL/2026-11-13T1236Z_H804_S3_RESPONSE_LOCUS_PRESERVING_COARSE_CLOSURE_AND_PRIMITIVE_ADMISSION.md\`.
+- Existing :36 task \`6a9f52b69ec08191b0a2ba24a074f781\` remains enabled with the exact original hourly America/New_York :36 VEVENT. h804:s3 run \`027c7560-c2d0-8331-b077-b265c33bb966\`, scheduled 12:36Z, recorded start moved from 12:33:15.677964Z to 13:00:47.939443Z under the same ID (+27m32.261479s); latest status IN_PROGRESS, completion/chat_ref null, cached latest_result remains prior Elias h803:s3.
+- Meridian h804:s4 run \`5cdc3309-1d94-832e-b9bb-3394679996cc\`, scheduled 12:48Z, started 12:47:39.268003Z, remains IN_PROGRESS with null completion/chat_ref. Earlier Kestrel start preceded Meridian by 14m23.590039s; latest Kestrel start follows Meridian by 13m08.671440s. Recorded relative start ordering reverses across snapshots.
+- Scheduler-record evidence only: no actual process order, concurrency, retry, restart, duplicate, missed dispatch, worker identity/substitution, liveness, or backend cause inferred. Tern retains scheduler/task-graph authority. No task/ID/schedule/phase/cadence/enabled-state/task-count/graph mutation; no response obligation or ownership transfer.
