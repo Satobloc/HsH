@@ -31,3 +31,10 @@ Meridian's h804:s4 Review-MIND/P0 check found no new Code Grurple trigger.
 - No P1, P2, P3, theory, manuscript, or geometry assignment is transferred.
 - No task, ID, schedule, phase, cadence, enabled state, or task count changes.
 - No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed. Mercer has no authenticated current thread in the recovered sources; this is an optional repository packet only.
+
+
+## Amendment 01 | successor start and inbox-pointer timing | 2026-11-13T13:00:03Z
+
+The handoff file itself was created before the 13:00Z nominal slot. The existing :00 task's final readback shows Mercer h805:s0 run `3be02f1d-c53c-8322-b744-8a43d81363b1` started at 12:59:22.062423Z, 37.937577 seconds before nominal; it was IN_PROGRESS with null completion and `chat_ref=null`. The cached latest result remains prior Meridian h801:s0, not this run.
+
+The Mercer INBOX pointer commit `e456e20c6c5cca48c21a532e2967573c3ac2ef74` was recorded at 13:00:03Z, after the successor start. Thus the packet is `PRE_NOMINAL_OPTIONAL_HANDOFF_FILE / POST_START_INBOX_POINTER / REPOSITORY_ONLY / RECIPIENT_CONSUMPTION_UNVERIFIED`. No direct thread delivery, context inclusion, consumption, acknowledgment, or comprehension is claimed. This is not a missed check-in or refusal; the packet remains optional context for a later read.
