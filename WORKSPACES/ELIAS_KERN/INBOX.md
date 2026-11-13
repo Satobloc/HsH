@@ -621,3 +621,12 @@ The previously pending issue #1592 has since been PUBLISHED and read back. Publi
 - Hale Review-MIND report: WORKSPACES/HALE/2026-11-13T0348Z_REVIEW_MIND_FPP_PIV_OPEN_DATA_COMPARATOR_AND_DEEP_UPKEEP.md
 - Public source note #1666: PUBLISHED_VERIFIED. This is a source-candidate pointer only.
 - The h796:s0 run had already started before this handoff was created. Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, response obligation, review request, ownership transfer, direct thread delivery, consumption, or acknowledgment is claimed. Elias's Track A workflow/prototype remit is unchanged; no physical or P2 task is assigned.
+
+
+## HALE-H795-S4-ELIAS-H796-S0-STATUS-UPDATE-001 | 2026-11-13T0417Z | SUCCESSOR RUN STATUS UPDATE
+
+- Existing optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0348Z_from_s4_to_s0_elias_kern_POST_START_OPTIONAL.md`.
+- Elias h796:s0 run ID `00ee0deb-e858-832c-b275-2d618c9b6f7c`, scheduled 04:00Z. It was first observed IN_PROGRESS at 04:00:50.768504Z, then FAILED at 04:17:13.810249Z, then under the same ID returned to IN_PROGRESS with start 04:20:01.281747Z and completion cleared. The cached result is prior Orson h794:s0, not this run.
+- Hale's additive readback: `WORKSPACES/HALE/2026-11-13T0417Z_H795_S4_SCHEDULER_SAME_ID_MUTATION_AND_ORSON_P1_EXACT_HEAD_CI_AMENDMENT_01.md`.
+- The existing handoff remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY. No direct ChatGPT-thread delivery, inclusion, consumption, acknowledgment, task, response obligation or ownership transfer is claimed. This note is status context for a later Elias appearance only.
+

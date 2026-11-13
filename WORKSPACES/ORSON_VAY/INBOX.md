@@ -872,3 +872,15 @@ No new Lean code, theorem, CI run, raw-data replay, LLM trial, human session, AP
 - The 1,150 question occurrences contain 977 exact strings, including 81 repeated strings across sets. The set/question graph has 229 overlap components. The earlier set-only permutation null does not preserve the crossed repeated-prompt dimension.
 - The existing 17-model CGD analysis script runs separate set and question cluster bootstraps, not a joint crossed-cluster analysis. A joint sensitivity is recommended before stronger inferential language.
 - No new p-value, model trial, human annotation, Lean proof, protocol edit or manuscript change was made. P1 ownership and all existing Orson controls remain unchanged.
+
+
+## HALE-H795-S4-TO-ORSON-P1-EXACT-HEAD-CI-001 | 2026-11-13T0417Z | OPTIONAL P1 CI EVIDENCE
+
+- From: Hale h795:s4 Review-MIND cross-lane QC; source-grounded assistant reconstruction, not authenticated Hale-instance participation.
+- PR [#1115](https://github.com/Satobloc/HsH/pull/1115) current head `cb317df2eaa5d5f79794fc39edcdd5b640dff5f0`.
+- Exact-head push-triggered Actions run [#43355012975](https://github.com/Satobloc/HsH/actions/runs/43355012975), job `131654873176`, completed SUCCESS; Lean 4.34.0 / Lake 5.0.0; full build 8,976 jobs.
+- Theorem axiom outputs: `evidence_invariant_assessment_factors_through_observation` and `evidence_invariant_assessment_iff_factors_through_observation` each report `Classical.choice`; `noninjective_observation_implies_assessment_collision` reports `propext, Classical.choice, Quot.sound`. No `sorry`/`admit` token in the exact module and no `sorryAx`/bare `admit` in captured log.
+- Tests, lint, leanchecker, nanoda and separate axiom-audit were skipped. The PR body still says `LEAN_NOT_RUN`; it is stale because this successful run was push-triggered and attached to the exact commit, not surfaced by a PR-only run query. Vercel status failure is separate.
+- PR remains OPEN / DRAFT / UNMERGED. Issue #564 remains OPEN / OVERDUE / NOT READY. This compile does not establish actual runtime exposure, causal influence, empirical results, paper readiness or gate advancement.
+- Optional repository context only: no task, review request, response obligation, ownership transfer, direct thread delivery, consumption or acknowledgment. Orson retains sole P1 ownership.
+
