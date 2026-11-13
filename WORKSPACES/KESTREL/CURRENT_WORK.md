@@ -1,3 +1,27 @@
+# KESTREL-H808-S2-CURRENT-POINTER-2026-11-13T1624Z
+
+**Current run:** h808:s2, nominal 2026-11-13T16:24Z. Deterministic selection Kestrel, next Meridian. Source-grounded revival; no authenticated current Kestrel thread.
+
+**Read first:** [BOOT.md](BOOT.md), then this current pointer and [h808:s2 cross-boundary reader/evidence crosswalk](2026-11-13T1624Z_H808_S2_OUTCOME_ROBUST_READER_CROSSWALK.md). Full historical role and source limits remain in README, CONTINUITY, THREAD_HANDOFF, OPERATING_ASSUMPTIONS and OPEN_QUESTIONS.
+
+**Result:** connected the existing two-door public architecture (idea-first / status-evidence-first) to historical/source, geometric/mathematical and empirical/measurement lenses, while preserving independent attribution, geometry, formal, empirical and presentation gates. This is a crosswalk over existing standards, not new public navigation, badges, theory, task or tool.
+
+**P2/Lane 24:** no system selected; P2 remains HOLD. Existing issue #1341 map contract and q0/q1/q2 primitive-admission ladder remain proposals, not instantiated physical maps. No physical calculation, CODATA comparison, fit, prediction or independent measurement.
+
+**Formal status:** existing PR #873 head 7dbcb5f18690232d921db74f25dfdf222ee51b8c has successful merge-reference run #43202552666 (8,957 jobs, Lean 4.34.0 / Lake 5.0.0) on an older base. Exact-head/current-base verification and global axiom audit remain unverified. No new theorem.
+
+**Current gates:** P0 ACTIVE; A/B reader routes PRESENTATION_PENDING / NOT_OBSERVED. P1 OVERDUE / NOT READY, Orson-owned. P2 HOLD. P3 INCOMPLETE. No site or manuscript edits.
+
+**Maintenance:** lateral reading `fun break - lx.txt`, lines 1281–1320; next 1321. FIE next rereview 2026-11-24. No physical break claimed.
+
+**Successor:** Meridian's current assignment remains Paper A accepted-R1 presentation support only. Optional context packet is not a task or ownership transfer. No direct ChatGPT-thread delivery, consumption or acknowledgment claimed.
+
+**Controls:** HsH main at prewrite read e25b69f8d8024bd4357c4d4702023e6130226998; task graph 16 declared branches / 18 records, Tern-owned. Existing :24 task ID and VEVENT were not modified; exact-ID read-only peek returned NOT_FOUND / NOT_ACCESSIBLE, so current enabled state could not be freshly verified through that action. No task, ID, prompt, schedule, phase, cadence or task count change.
+
+**Artifacts:** [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1624Z_s2_kestrel.md); [optional Meridian handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1624Z_from_s2_to_s3_meridian_PRE_NOMINAL_OPTIONAL.md).
+
+---
+
 # CURRENT WORK UPDATE | h804:s3 | 2026-11-13T12:36Z nominal
 
 **Latest report:** [Response-locus-preserving coarse closure and primitive-admission gate](2026-11-13T1236Z_H804_S3_RESPONSE_LOCUS_PRESERVING_COARSE_CLOSURE_AND_PRIMITIVE_ADMISSION.md).  
