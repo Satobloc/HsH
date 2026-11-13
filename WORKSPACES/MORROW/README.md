@@ -2,7 +2,7 @@
 
 Administrative workbench for conversation continuity, archive wayfinding, source-retrieval notes, and task-scoped reminders. Not a theory authority or a resumption of the suspended integration lane.
 
-**Cold-start pointer:** read [CURRENT_WORK.md](CURRENT_WORK.md) first for the compact live authority, continuity and next-cursor state; this README remains the detailed role/source/queue record, and `TRIAL_CHECKPOINT.md` remains the detailed run log.
+**Cold-start pointer:** read [BOOT.md](BOOT.md) first for the compact identity/role/intentions and current authority; then read [CURRENT_WORK.md](CURRENT_WORK.md) for the live continuity/next-cursor state. This README remains the detailed role/source/queue record, and `TRIAL_CHECKPOINT.md` remains the detailed run log.
 
 ## Standing reminders
 
