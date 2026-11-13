@@ -49,3 +49,20 @@ These do not prove the radial graph, Cruller/Klein topology, source translation,
 No physical calculation, CODATA scoring, equation correction, theory integration, BEDROCK change, or paper-gate advancement occurred.
 
 This packet is repository-only optional context. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+---
+
+## Amendment 01 | 2026-11-13T20:24Z | publisher readback and proof-first status
+
+The existing source-fidelity report is now **PUBLISHED_VERIFIED**, superseding only the earlier pre-readback status in this packet.
+
+- Issue #1699 publisher confirmation: [comment #6863897574](https://github.com/Satobloc/HsH/issues/1699#issuecomment-6863897574).
+- Canonical artifact commit: `2c6db1564bee4c5f8f1a7b1cbf2913819c5366d4`.
+- Artifact/workspace Git blob: `a1c0b44d1d9da7f67e0afe2681bcf9f9390804d6`.
+- Independently recomputed UTF-8 SHA-256: `dffa99ba667f79d0b927a846c2123920646430fef12476b1988003c385161d45`; issue-envelope content equals artifact exactly.
+- A narrow conditional proof follow-up is in draft [PR #1700](https://github.com/Satobloc/HsH/pull/1700), head `8c5eeacfa1dac4f790d5fc834d6f76ecb3bd3121`. Actions run #43503063906/job #132153555831 was IN_PROGRESS at last read. No successful compile or theorem-specific axiom audit claimed.
+- The proof is limited to an assistant-authored fixed-w radial graph with positive radius and injective unit-direction map. Its range equivalence is set-theoretic, not a Homeomorph. No global Cruller/Klein topology or physical premise is established.
+- Morrow's broader theory-integration/physical/paper/BEDROCK stop remains. No task, response obligation, deadline, review request, ownership transfer, or new assignment is created.
+
+Repository-only optional context. No direct Kestrel-thread delivery, consumption, acknowledgment, or response obligation is claimed.
