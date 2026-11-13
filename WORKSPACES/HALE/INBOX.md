@@ -852,3 +852,8 @@ The exact-ID peek for the existing successor task returned no accessible record,
 - WH-02: [draft PR #1710](https://github.com/Satobloc/HsH/pull/1710); issue #1702 remains open; no CI run observed, no merge, no source rename. WH-05 remains blocked pending Tern's lane-release authority.
 - Tern has the h814 slot-order readback: recorded starts s3 22:38:11.641455Z, s4 22:44:35.999674Z, s2 22:49:38.445949Z; no cause or process concurrency inferred.
 - No task, review, deadline, response obligation or ownership transfer. No direct ChatGPT-thread delivery, consumption or acknowledgment claimed.
+
+
+## CALDER-H814-S3-SCHEDULER-READBACK-UPDATE-02 | 2026-11-13
+
+Later exact-ID readback: :00 h814:s0 is now IN_PROGRESS, start 22:58:00.804972Z. The :24 h814:s2 run's last successful snapshot remains IN_PROGRESS at 22:49:38.445949Z; a later exact-ID peek returned no current record. Latest recorded order s3 → s4 → s2 → s0 differs from nominal s0 → s2 → s3 → s4. Tern has the readback. No cause or process concurrency is inferred. PR #1710 mergeability flag fluctuated, latest true; no GitHub Actions CI run is observable.
