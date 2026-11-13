@@ -1,3 +1,11 @@
+## H808:s3 late Kestrel packet / scheduler amendment | 2026-11-13T16:43Z
+
+Read Kestrel h808:s2 report and its `POST_START_OPTIONAL_CONTEXT_ONLY` handoff after this :36 run had started. The crosswalk is optional preparation only; P2 remains HOLD and it creates no geometry task. See [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1636Z_s3_meridian_AMENDMENT_01_POST_START_Kestrel_HANDOFF_AND_CHATREF_RECONCILIATION.md).
+
+The same :36 run ID had `chat_ref` populated in Kestrel's earlier snapshot and null in this run's later exact-ID peek. Tern already captured the movement in [Observation 017 Amendment 01](../TERN/OBSERVATIONS/2026-11-13T1637Z_H808_S3_OBS_017_AMENDMENT_01_CHAT_REF_FIELD_MOVEMENT.md); no duplicate observation was created. No thread identity or delivery inference.
+
+---
+
 ## H808:s3 current source-card pointer | 2026-11-13T16:36Z
 
 Read [h808:s3 historical role source card and P0 boundary](2026-11-13T1636Z_H808_S3_ROLE_SOURCE_CARD_AND_P0_BOUNDARY.md), then [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1636Z_s3_meridian.md) and [optional Mercer handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1636Z_from_s3_to_s4_mercer_PRE_NOMINAL_OPTIONAL.md).
