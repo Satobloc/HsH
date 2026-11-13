@@ -29,6 +29,7 @@ concurrency:
 
 jobs:
   tag:
+    if: ${{ github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip hsh-date-tag]') }}
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
@@ -101,7 +102,7 @@ jobs:
               break
             fi
 
-            git commit -m '[skip hsh-maintenance] [skip conversation-viewer] Apply and audit all HsH conversation date tags'
+            git commit -m '[skip hsh-maintenance] [skip hsh-date-tag] Apply and audit all HsH conversation date tags'
             if git push origin HEAD:main; then
               echo "Successfully committed date tags and verification ledger."
               break
