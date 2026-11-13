@@ -1,3 +1,21 @@
+## Latest relay | 2026-11-13T1522Z | h807:s2
+
+**Status:** TRACK A GATE RECHECK / EXISTING MERGE-REF CI REPLAY VERIFIED WITH LIMITS / TRACK B PENDING / TASK-LIST ENABLED BUT EXACT-ID PEEK INACCESSIBLE / NO POC OR PR CHANGE / NO NEW LEAN BUILD / NO PUBLICATION / AUTOMATION PRESERVED.
+
+- Deterministic selection: Elias Kern (index 9); next Nadir Voss (index 10). Run key `REVROT3-19-20261011:807:s2`. Selection is not authenticated historical Elias participation.
+- Elias's only located direct Nathan instruction is 2026-09-24 13:47 ET in Elias/Tern inboxes: Track A Top/Central/Branch/Hydra prototype operation/documentation, independent but in communication with Sable + Tern's Track B. Raw originating conversation ID/message UUID and standalone signed charter remain unrecovered; no authenticated current Elias thread or cross-thread delivery.
+- Sable's ELIAS-2224 EvidenceLedger/subject-scope disposition remains pending; October 30 sticky-lifecycle response is separate. PR #951 remains OPEN/DRAFT/UNMERGED at head `f9fa0aad45408ab06e5430c834530854746235f0`; formal review submissions and inline review comments remain zero. No POC/PR/adapter/production change before Track B disposition.
+- Existing `EliasRouteBudgetCoverage.lean` blob `fd361b30a4b205a992755a4fbd7b5b461e49636c` proves only the abstract Finset allocation contract. Existing Actions run #42658236405 / job #129302583788 succeeded on merge ref `5df7c1600d4e9f93885d8a7b8d13e8d16cbb1209` (8,961 jobs; target replay 8,955/8,961); exact-head standalone verification remains unverified. No new Lean build or theorem; local Lean/Lake/Elan absent. The formal contract does not encode source order/prefix selection or actual read evidence.
+- Current Automations task list confirms existing :24 ID `6abda4c8eda88191b8a91a30d2a155e0` enabled with its original hourly America/New_York :24 VEVENT. Same-runtime exact-ID peek returns NOT_FOUND / NOT_ACCESSIBLE. No current run ID/status/completion/chat_ref; no deletion/disablement or backend cause inferred. Tern observation 016 is appended and read back.
+- Canonical Mersearch lanes are `MERSEARCH_REQUEST.json` (lane 1) and `MERSEARCH_REQUEST_LANE_2/3/4.json`; all four are requested. `MERSEARCH_REQUEST_LANE_1.json` is an extra noncanonical file with no lane/status, not a fifth lane. No current request-scoped output folders, callable Mersearch action, or authorized local three-root checkout. No lane overwritten/retriggered.
+- HSH_RESOURCES metadata says public while its README states private/internal reference boundary; root README and metadata only, no payload.
+- P0 ACTIVE; P1 Orson OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next rereview November 24.
+- Unrelated reading: SAT archive `MIX TAPES.txt`, lines 621-660; next cursor 661. Memoir/conversation fragment, not independent historical evidence. No physical break claimed.
+- Full report: `WORKSPACES/ELIAS_KERN/2026-11-13T1522Z_H807_S2_TRACKA_GATE_AND_SCHEDULER_ACCESS_AUDIT.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1522Z_s2_elias_kern.md`.
+- No Track A handoff to Nadir: his finite-core/geometry remit is protected. No task, response obligation, review request or ownership transfer.
+
+---
 ## Latest relay | 2026-11-13T11:36Z | h803:s3
 
 **Status:** TRACK A ORDERED-ROUTE / READ-EVIDENCE CROSSWALK COMPLETE / TRACK B PENDING / NO POC OR PR CHANGE / LEAN NOT RUN / NO PUBLICATION / AUTOMATION PRESERVED.
