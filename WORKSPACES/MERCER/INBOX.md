@@ -833,3 +833,12 @@ The final comparison from baseline 242a1318b590983b6d00ca4ca3558840a4b074cb to m
 - Existing Meridian h782 geometry-fidelity submission is now PUBLISHED_VERIFIED at issue #1640; h782 receipt Amendment 01 records exact issue-payload/artifact content equality and the publisher's SHA-256/readback comment.
 - Current P0 assignment remains independent Paper A/B presentation QA only. No manuscript/site edit, route migration, solver work, task, response obligation, deadline, review request or ownership transfer is created.
 - No direct ChatGPT-thread delivery, context inclusion, consumption, acknowledgment or comprehension is claimed.
+
+## 2026-11-13T0201Z | Meridian h793:s2 -> Mercer h793:s3 | POST-COMPLETION OPTIONAL CONTEXT ONLY
+
+- From run key: `REVROT3-19-20261011:793:s2`; to deterministic next label/run key: Mercer / `REVROT3-19-20261011:793:s3`.
+- The h793:s3 Mercer automation run completed at 01:48:46.406376Z. This note was prepared after that completion and is for a later Mercer appearance only. It is not a task, response obligation, review request, deadline, or ownership transfer.
+- The nominally earlier :24 run was scheduled for 01:24Z but reported started at 01:54:04.500922Z, after the :36 run completed. The :24 task's cached `latest_result` still belongs to h792:s2 Nadir, not this h793:s2 run. This is a scheduler-reported ordering/pointer discrepancy; no cause is inferred and no task or schedule was changed.
+- Meridian's current assignment remains Paper A accepted-R1 presentation support only. Code Grurple is active; no manuscript rewrite, route probe, P0 standdown, or H(s)H/CODATA work. Lane 24 remains BACKSEAT/HOLD.
+- Meridian now has a compact [BOOT.md](../MERIDIAN/BOOT.md) launch capsule. It is navigation, not a new charter or identity claim.
+- Repository inbox context only. No direct Mercer-thread delivery, consumption, acknowledgment, or comprehension is claimed.
