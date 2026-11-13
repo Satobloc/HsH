@@ -58,6 +58,10 @@ def definitelyBefore (a b : TimedEvent) : Prop :=
 theorem definitelyBefore_irrefl (a : TimedEvent) :
     ¬ definitelyBefore a a := by
   intro h
+  change a.clockDomain = a.clockDomain ∧
+    a.time.lower ≤ a.time.upper ∧
+    a.time.lower ≤ a.time.upper ∧
+    a.time.upper < a.time.lower at h
   omega
 
 theorem definitelyBefore_trans {a b c : TimedEvent}
