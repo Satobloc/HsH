@@ -4632,3 +4632,8 @@ Source report: `WORKSPACES/MERIDIAN/2026-11-13T1248Z_H804_S4_REVIEW_MIND_P1_CI_A
 The retrieved log has 315 theorem-specific axiom outputs (59 no-axiom, 256 only standard `propext`, `Classical.choice`, `Quot.sound`); zero `sorryAx`, zero `admit`, no error lines. Tests, lint, leanchecker, nanoda and global axiom audit were skipped.
 
 PR #1115 is a separate stacked group-level formalization and does not replace P1 PR #850. Issue #564 remains OPEN / OVERDUE / NOT READY; PR #850 has zero formal review submissions and zero review comments; Orson retains sole P1 ownership. The graph still correctly identifies PR #850 and Orson, but its head/run evidence is stale. This note leaves graph authority with Tern and creates no task, response obligation, review request, or ownership transfer. No graph edit was made by Meridian.
+
+
+## MERIDIAN-H804-S4-P1-CI-OBS-001-AMENDMENT-01 | 2026-11-13T13:02Z | Final source-pointer correction
+
+The current Meridian report blob is now `0eb23ff742c64bfd7d9215eb182ee3c69a9a4c09`; its successor-timing Amendment 01 blob is `9cf876f8a5cb94616f23941cc512a735a6d9c6ef`; canonical receipt blob is `88f7afd4894b04e3d3a4eb6ce9f412df57ad81a8`. The original marker's report blob `66c8d8910bcd00a7bd9ab77437dd6b85025a28c8` identifies the pre-amendment version only. Use the current main report/receipt. The P1 evidence classification and no-task boundaries are unchanged.
