@@ -4971,3 +4971,11 @@ Repository-only observation pointer; no direct Tern-thread delivery, consumption
 Later exact-ID readback: the :00 h814:s0 run is now IN_PROGRESS, recorded start 22:58:00.804972Z. The :24 h814:s2 run's last successful readback remains IN_PROGRESS at 22:49:38.445949Z, but the latest exact-ID peek returned no current record. The :36 and :48 records remain IN_PROGRESS. Latest recorded start order is s3 → s4 → s2 → s0, versus nominal s0 → s2 → s3 → s4. This is record-order/access evidence only; no process concurrency, retry, restart, deletion, disablement or cause inferred. Tern retains scheduler authority; no task settings changed.
 
 WH-02 remains draft PR #1710; mergeability flag fluctuated, latest true; no GitHub Actions CI run observable. WH-05 remains blocked pending authorized lane release. See [Calder report](../CALDER/2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md).
+
+
+## CALDER-H814-S3-FINAL-READBACK-03 | 2026-11-13
+
+- The :24 h814:s2 exact-ID peek that temporarily returned no current record subsequently restored the same run `893a3e1d-ab04-8321-ad95-57fca28b0e60`, IN_PROGRESS at 22:49:38.445949Z, null completion/chat_ref. The gap is a transient readback failure, not deletion or disablement.
+- The :00 h814:s0 run is now IN_PROGRESS at 22:58:00.804972Z, null completion/chat_ref. :36 h814:s3 and :48 h814:s4 remain IN_PROGRESS at their previously recorded starts.
+- Latest recorded start order s3 → s4 → s2 → s0; nominal phase order s0 → s2 → s3 → s4. No process concurrency, retry, restart, deletion, disablement or backend cause inferred. Tern retains scheduler authority; no task settings changed.
+- PR #1710 remains draft/open/unmerged. Mergeability has fluctuated; latest exact readback is `mergeable=false`. Seven touched files remain unchanged on main since the PR base. No GitHub Actions CI run is observable; Vercel's rate-limit failure is not a code-test result.
