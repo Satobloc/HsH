@@ -1,4 +1,23 @@
-# CURRENT WORK | ASTER | h794:s3 | 2026-11-13T0236Z (current checkpoint)
+# CURRENT WORK | ASTER | h798:s2 | 2026-11-13T0624Z (current checkpoint)
+> **Quick entry:** [BOOT.md](BOOT.md) is the compact identity/role/intentions capsule; this file retains detailed history and exact return cursors.
+
+## ASTER-H798-S2-CURRENT-CHECKPOINT | 2026-11-13 | h798:s2
+
+**Outcome:** `SOURCE_GROUNDED_REVIVAL / CONTINUITY_CAPSULE_UPDATED`; historical role recovered, current Aster thread not authenticated.
+
+- **Rotation:** nominal 2026-11-13T06:24:00Z; (h=798), (seq=3992), (3992\bmod19=2). Script-checked ring selection: Aster (index 2), next Ariadne (index 3). Run key `REVROT3-19-20261011:798:s2`.
+- **Scheduler:** :24 task `6abda4c8eda88191bf23a6f2849e9a17` was positively observed enabled with its existing hourly America/New_York :24 VEVENT unchanged. Run `c3f0a664-ac84-8321-8978-139dd7a016d2`, scheduled 06:24Z, started 06:26:23.220270Z, recorded `IN_PROGRESS`; completion and `chat_ref` null at the initial read. Cached `latest_result` is a different prior run `73830c6a-de40-8333-b45b-d482471885b2` (scheduled 04:24Z, completed 05:34:50.312867Z). Do not infer retry, restart, duplicate process, liveness, identity, or cause.
+- **Predecessor:** h798:s1 is Loom at :12, but that lease is disabled. No h798:s1 receipt or addressed handoff exists. This is not a missed check-in and does not block the current run.
+- **Historical source:** raw ASTER export blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`; direct user messages `d15369d1-1412-4f4a-9460-702d2de573ea` (source-fidelity questions) and `01505af7-37cd-491f-a951-1822934e36ff` (historical Paper A assignment). Current Code Grurple roster supersedes the assignment: Aster REVIEW FROZEN / CROSS-READ OPEN.
+- **Current priorities:** P0 Code Grurple ACTIVE; P1 Nov 9 OVERDUE / NOT READY (Orson-owned); P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. Lane 24 remains BACKSEAT / HOLD. No paper review, manuscript edit, route probe, or P0 re-entry.
+- **Mersearch:** stable 1.0 remains the promoted release. All four canonical request lanes are still `requested`; no lane is free, no request was overwritten, and no Mersearch search was run. GitHub code search was fallback navigation only.
+- **Repository boundary:** HSH_RESOURCES README/architecture describe private/internal use, but GitHub metadata reports public visibility. Only metadata and root README were read; no payload was accessed. Owner decision remains unresolved.
+- **Thread status:** personal-context lookup found no newer authenticated Aster thread. Candidate `6aecede1-4c08-83e9-abc4-da64f59a4f51` remains usability-unverified; current run `chat_ref=null`. No ChatGPT thread was created or contacted.
+- **Work performed:** created `BOOT.md`; routed `NEW_INSTANCE_START_HERE.md` through BOOT; prepended this h798 checkpoint while preserving the h794 and earlier history. No new tool, dependency, PR, public issue, Lean theorem, physical calculation, fit, prediction, measurement, equation edit, or theory promotion.
+- **Next cursor:** keep Aster formal review frozen while P0 is active. After P0 standdown and a Mersearch lane release, recover the raw IRI role graph and original referenced source; authenticate before defining `B(Q, topology)` or any measurable response.
+- **Lateral reading:** SAT archive README and HsH/three-repository navigation were read. Last unrelated Babbage reading remains lines 1821–1860; next line 1861 is held pending access-boundary decision. No physical break is claimed. FIE next due 2026-11-24.
+- **Prewrite HsH main head:** `815b83039aaa6ab66ece59a55fd8c04c96704ec7`. This checkpoint is source-grounded current-assistant work under the deterministic Aster label, not historical-instance participation.
+
 
 ## ASTER-H794-S3-CURRENT-CHECKPOINT | 2026-11-13 | h794:s3
 
