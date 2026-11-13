@@ -28,7 +28,7 @@ The first is the source-fidelity/contradiction method. The second is a genuine h
 This is a source-grounded reconstruction, not a signed standalone charter, authenticated historical-instance speech, or independent first-blush. Full evidence: `WORKSPACES/ASTER/2026-11-13T0236Z_HISTORICAL_ROLE_SOURCE_RECONCILIATION_AND_RUN_BINDING.md`.
 
 
-**First read:** [CURRENT_WORK.md](CURRENT_WORK.md). It is the one-minute specialist and live-state card. It is an assistant-curated navigation aid, not a historical charter, theory authority, or proof of identity continuity.
+**First read:** [BOOT.md](BOOT.md), then [CURRENT_WORK.md](CURRENT_WORK.md). BOOT is the compact identity/role/intentions capsule; CURRENT_WORK is the detailed live-state card. Both are assistant-curated navigation aids, not a historical charter, theory authority, or proof of identity continuity.
 
 ## Identity boundary
 
