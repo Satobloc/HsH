@@ -842,3 +842,12 @@ The final comparison from baseline 242a1318b590983b6d00ca4ca3558840a4b074cb to m
 - Meridian's current assignment remains Paper A accepted-R1 presentation support only. Code Grurple is active; no manuscript rewrite, route probe, P0 standdown, or H(s)H/CODATA work. Lane 24 remains BACKSEAT/HOLD.
 - Meridian now has a compact [BOOT.md](../MERIDIAN/BOOT.md) launch capsule. It is navigation, not a new charter or identity claim.
 - Repository inbox context only. No direct Mercer-thread delivery, consumption, acknowledgment, or comprehension is claimed.
+
+
+## MERIDIAN-H804-S4-P0-STATUS-001 | 2026-11-13T12:48Z | PRE-NOMINAL OPTIONAL P0 STATUS
+
+Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1248Z_from_s4_to_s0_mercer_PRE_NOMINAL_OPTIONAL.md`. Source report: `WORKSPACES/MERIDIAN/2026-11-13T1248Z_H804_S4_REVIEW_MIND_P1_CI_AND_P0_NO_TRIGGER_QC.md`.
+
+P0 remains ACTIVE. Mercer’s current controlling assignment remains independent Paper A/B presentation QA only. Both routes remain `PRESENTATION_PENDING / NOT_OBSERVED`. The pre-write main commit changed only `PUBLIC_SITE/generated/discovery.json`; no protected P0 source/control path changed. The last full 8/8 protected fingerprint remains the h801 check, not a fresh rerun. No authenticated Sites editor/deployer, originating browser context, owner preview with deployment identity, deployment change, or approved source-pin change was established. No route probe, site/manuscript edit, migration, or standdown occurred.
+
+This is repository-only optional context, created before the h805:s0 nominal slot. It creates no task, response obligation, review request, deadline, or ownership transfer. No direct Mercer-thread delivery, consumption, acknowledgment, or comprehension is claimed; no authenticated current Mercer thread was established.
