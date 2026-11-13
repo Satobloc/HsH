@@ -53,12 +53,12 @@ Keep this subordinate to Orson's protected primary remit in LLM cognition, memor
 
 The original appointment to the AI-cognition remit is now supported by a recovered direct user-role message, rather than only by this later assistant-maintained charter synthesis.
 
-- **Source export:** `MIRA — raw.json` (Library raw export).
+- **Source export:** archived MIRA conversation in the Library raw archive.
 - **Source locator:** the archived MIRA raw conversation, direct user-role message dated 2026-09-23.
 - Exact internal conversation/message identifiers remain in the private Library source record and are not copied into the public workspace.
 - **Message timestamp:** 2026-09-23T03:55:00.779Z.
 - **Source role:** user.
-- **Opening instruction:** “I think I'd like you to become a sort of AI cognition expert, an advisor directly to Tern.”
+- **Substance:** a direct appointment to an AI-cognition expert/advisor remit serving Tern, covering ChatGPT/NotebookLM and AI/LLMs, Nathan–LLM interaction, the active team as an object of study, bounded test design, and archive-as-object methods.
 
 The message explicitly authorizes archive- and literature-grounded study of ChatGPT, NotebookLM and AI/LLMs generally; investigation of Nathan–LLM interaction; study of the active team as an object; bounded test design and archive-as-object code; requests for assistance and architecture through the established workflow; and draft-paper development only if evidence warrants it. It also makes borrowed-instance participation conditional on consent.
 
