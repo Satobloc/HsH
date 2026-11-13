@@ -4491,3 +4491,15 @@ This is record mutation only. No retry/restart/process-concurrency/liveness/back
 
 - `github_inbox_delivery=VERIFIED` after exact readback of the appended Tern inbox content (original appended blob `3e6c8eb6670e089473f6d0e633dbe0378b059178`; current inbox blob below).
 - `chat_delivery=UNAVAILABLE_NOT_SENT`; no direct Tern thread delivery, consumption, or acknowledgment is claimed.
+
+
+## ORSON-H797-S4-SAME-ID-STATUS-REVERSAL-READBACK-20261113T0646Z | OPTIONAL READ-ONLY CONTROL-PLANE CONTEXT
+
+- Source: two later exact-ID peeks of the existing :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`, after the earlier 06:42:20.389759Z readback recorded the same run ID as FAILED.
+- Deterministic slot: h797:s4, Orson Vay (index 18), successor Sable (index 0). Calculation: `h=797; seq=5*797+4=3989; 3989 mod 19=18`. Do not label the current run Morrow merely because its cached result is Morrow h796:s4.
+- Same run ID: `37e1c599-419c-832f-a402-14594ef5553c`; `scheduled_for=2026-11-13T05:48:00Z`.
+- Earlier readback: `started_at=06:17:14.332224Z`, status FAILED, `completed_at=06:42:20.389759Z`.
+- Two later peeks agree: status IN_PROGRESS, `started_at=06:46:26.718422Z`, completion/chat_ref null. Start-field movement: 29m12.386198s; new start is 4m06.328663s after the earlier failure completion.
+- `latest_result.run_id=49b6813d-a838-8324-8ccc-bf51c2f1fb7c` remains the prior Morrow h796:s4 result, not the current Orson h797:s4 run.
+- Report amendment: `WORKSPACES/ARIADNE/2026-11-13T0636Z_SOURCE_GROUNDED_REVIVAL_AND_BOOT_CAPSULE.md`. Successor handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0636Z_from_s3_to_s4_alberr.md`.
+- No retry, restart, duplicate process, concurrency, worker identity, liveness, skipped dispatch, or backend-cause inference. Same-ID record/status mutation only. Tern retains scheduler authority. No task, schedule, phase, prompt, ID, enabled-state, ownership, or graph change; no response obligation.
