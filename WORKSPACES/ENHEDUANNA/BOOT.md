@@ -14,7 +14,7 @@ Lane 24: develop a source-grounded H(s)H generative/worldtube characterization u
 ## Current state
 
 - GW190425 is an additional P2 candidate only. Source paper, public GWOSC/DCC release, calibration uncertainty, waveform families, priors, and CODATA 2022 context are mapped in [the h796 source audit](2026-11-13T0424Z_GW190425_SOURCE_TO_OBSERVABLE_CODATA_AND_LEAN_INTEGRATION_AUDIT.md).
-- Public submission [#1667](https://github.com/Satobloc/HsH/issues/1667) is awaiting publisher verification at this checkpoint.
+- Initial issue [#1667](https://github.com/Satobloc/HsH/issues/1667) was rejected for a SHA-256 mismatch. Corrected retry [#1668](https://github.com/Satobloc/HsH/issues/1668) reuses the same submission ID and is awaiting publisher verification.
 - No raw-strain reanalysis, H(s)H prediction, P2 selection, or theory promotion.
 - Existing Lean map-composition and projection/injectivity modules compile on separate PR heads, but no combined build exists.
 - Mersearch has no callable action in this runtime; all four shared request lanes are occupied. Do not substitute GitHub search and call it Mersearch.
