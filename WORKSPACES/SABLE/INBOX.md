@@ -772,6 +772,8 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 
 ## ORSON-H797-S4-OPTIONAL-POST-START-AMENDMENT-02-20261113T0632Z
 
+**Redaction note:** current inbox text removes internal-reference identifiers that appeared in an earlier revision; Git history was not rewritten. Do not use earlier identifiers as public citations.
+
 - Optional handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0632Z_from_s4_to_s0_sable_POST_START_OPTIONAL_AMENDMENT_02.md`.
 - Orson's existing PR #1115 exact-head Lean repair now builds successfully on commit `eb86489d63c9a7b1f7a34be9429afd5bc2f5a6ed` (run #43378222590, job 131729628229, 8,976 jobs). The GroupState theorem and measurement-scope limits are documented in the handoff; no merge or P1 change.
 - A prior internal reference set was consulted for duplication control; no internal paths, hashes, excerpts, or unpublished findings are reproduced here. The h797 crosswalk is bounded/non-systematic, omits Chen and GRAIL as direct public comparators, and the four-arm proposal remains unapproved and outside frozen P1.
