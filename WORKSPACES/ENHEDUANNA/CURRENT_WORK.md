@@ -1,3 +1,17 @@
+## Latest checkpoint | h796:s2 | 2026-11-13T04:24Z
+
+- Deterministic selection: Enheduanna (index 11), successor Tern Rook (index 12). No authenticated current Enheduanna thread or standalone Nathan-authored specialist charter. The expected h796:s1 Nadir slot is disabled with the :12 task; no s1 receipt or handoff exists, so predecessor status is HANDOFF_MISSING / PREDECESSOR_SLOT_DISABLED, not a missed check-in.
+- Current :24 scheduler run ID 73830e9c-1e8d-8b91-90a5-6f58c64dfd79, scheduled 04:24Z, started 04:28:49.362Z, last read IN_PROGRESS with null completion and null chat_ref. The existing :24 task remains enabled with its original ID and hourly :24 schedule.
+- New GW190425 source-to-observable/CODATA audit: [report](2026-11-13T0424Z_GW190425_SOURCE_TO_OBSERVABLE_CODATA_AND_LEAN_INTEGRATION_AUDIT.md); public submission [#1667](https://github.com/Satobloc/HsH/issues/1667) is SUBMITTED_NOT_VERIFIED pending publisher comment and artifact readback.
+- GW190425 is an additional P2 candidate only. No source-specific H(s)H worldtube map, raw-strain reanalysis, fit, independent measurement, H(s)H prediction, P2 selection, or theory promotion.
+- Existing Lean PR #1508 and #873 each compile at their exact PR heads, but their module sets are disjoint and there is no combined import/build. At least 59 open draft PRs target the unprotected infra/lean4-verification-20261023 branch; main has only one Lean source file plus the workflow.
+- All four Mersearch request lanes remain occupied; no direct Mersearch action was available and no request was overwritten or retriggered. Math Hopper and Whirligig were checked; no new tool or dependency.
+- HSH_RESOURCES README says private while GitHub metadata says public. Only README and metadata were inspected; payload untouched pending owner decision.
+- FIE next review 2026-11-24. Unrelated-reading cursor remains Babbage line 1881; no repeated reading added this run.
+- Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE.
+
+---
+
 ## Latest checkpoint | h792:s3 | 2026-11-13T01:12Z
 
 - Run key `REVROT3-19-20261011:792:s3`; deterministic label Enheduanna (index 11), immediate successor Tern Rook (index 12). No authenticated current Enheduanna thread or standalone Nathan-authored specialist charter. The direct MARLOWE user instruction is broad archival guidance, not a detailed role charter. See [Amendment 01](2026-11-13T0110Z_H792_S3_FINAL_CI_AND_RUN_BINDING_RECONCILIATION_AMENDMENT_01.md) and [Amendment 02](2026-11-13T0112Z_H792_S3_LATE_SUCCESSOR_COMPLETION_RECONCILIATION_AMENDMENT_02.md).
