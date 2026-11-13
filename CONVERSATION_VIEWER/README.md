@@ -64,7 +64,7 @@ The catalog output is:
 
 `CONVERSATION_VIEWER/data/conversations.json`
 
-The catalog is derived from the refreshed development/live conversation-date manifests plus the generated external discovery file when present. The latter already includes the hand-registered external entries. External records point to their canonical source repository rather than copying that source into HsH.
+The catalog is derived from refreshed development/live manifests, a repository-remainder manifest (`indexes/manifests/root-conversation-dates.json`), plus generated external discovery when present. The remainder scan covers repository locations outside the dedicated conversation roots and includes `.json` plus JSON-formatted `.txt` files; it excludes generated Viewer content, the two dedicated corpora, quarantine/prior-art, and the temporary external GLASS checkout. The latter already includes the hand-registered external entries. External records point to their canonical source repository rather than copying that source into HsH.
 
 Raw source JSON is fetched from its canonical repository path only when a viewer selects it. If partial curation rules are present, the builder may also create derived viewer-only copies under `CONVERSATION_VIEWER/data/curated/`; these preserve source coordinates and do not replace or modify the raw archive conversations. Whole-conversation hiding changes only the derived catalog.
 
