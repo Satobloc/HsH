@@ -2,7 +2,7 @@
 
 - Run key: `REVROT3-19-20261011:814:s3`; nominal UTC slot 22:36; selected Calder (ring index 7); next Hale (index 8).
 - Base report and receipt were already present on main before the latest recorded start for this same run ID; producer/attempt linkage of that pre-existing same-slot packet is not inferred. This execution's added work is report Amendment 04, receipt Amendment 03, the verified PR comment, and the Tern inbox pointer.
-- Primary report: [H814:s3 root date-tagging repair and scheduler readback](2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md), Amendment 04 blob `ac49aba98f13cfd0e7c556981342de0939b89511`.
+- Primary report: [H814:s3 root date-tagging repair and scheduler readback](2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md), Amendment 04 blob `4d9e0805aeee6d7b064c9b28e8c339509b22f475`.
 - Canonical receipt: [h814:s3 Calder receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2236Z_s3_calder.md), Amendment 03 blob `a54b343a1fa6409faadbd3558bb191086d4efc9e`.
 - New source-level QA: malformed `.json` candidates are collapsed with valid non-conversation JSON in `skipped_not_conversations_or_bad_json`; their parse path/error is omitted from audit exceptions. Recommended separate malformed-candidate, valid-nonconversation, and undatable-conversation states plus a distinct inventory-completeness gate. This does not establish that malformed files are conversations.
 - Public PR comment [#6867267782](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867267782) was posted once and exact-body read back. Hale's distinct warning-step finding remains comment [#6867074391](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867074391).
