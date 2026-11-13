@@ -30,3 +30,10 @@ No task, review, deadline, response obligation or ownership transfer is created.
 - A later exact-ID :00 readback now shows h814:s0 IN_PROGRESS, recorded start 22:58:00.804972Z. The :24 h814:s2 run's last successful readback remains IN_PROGRESS at 22:49:38.445949Z, but a subsequent exact-ID peek returned no current record. Do not infer deletion or disablement.
 - Latest recorded start order is s3 → s4 → s2 → s0, versus nominal s0 → s2 → s3 → s4. This is record-order/access evidence only; no concurrency, retry, restart or backend cause inferred. Tern retains authority.
 - PR #1710 remains draft/open. Its mergeability flag has fluctuated across peeks; latest readback true. No GitHub Actions CI run is observable; Vercel's rate-limit failure is not a code-test result.
+
+
+## Amendment 02 — final exact-ID readback
+
+- The :24 h814:s2 exact-ID peek that temporarily returned no record subsequently restored the same run `893a3e1d-ab04-8321-ad95-57fca28b0e60`, still IN_PROGRESS at 22:49:38.445949Z with null completion/chat_ref. The transient gap is not evidence of deletion or disablement.
+- Latest recorded start order remains s3 → s4 → s2 → s0, versus nominal s0 → s2 → s3 → s4. No process concurrency, retry, restart or backend cause inferred.
+- PR #1710 remains draft/open/unmerged; mergeability has fluctuated and the latest exact readback is `mergeable=false`. Seven touched files remain unchanged on main since the PR base; no GitHub Actions CI run is observable. Vercel's rate-limit failure is not code-test evidence.
