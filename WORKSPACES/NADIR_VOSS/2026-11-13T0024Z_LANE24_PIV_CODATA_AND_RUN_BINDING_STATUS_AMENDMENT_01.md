@@ -74,3 +74,13 @@ The architectural gap is an end-to-end event identity contract joining `task_id`
 - No SAT-O or Blockwave equation was edited; no H(s)H equation, physical model, BEDROCK theory, paper gate, task, ID, schedule, phase, cadence, access control, signet, or chat name was changed. No sixth task.
 
 **Next evidence gates:** retrieve/checksum the raw PIV fields and calibration/covariance package; define source-authorized maps from core history and ambient-medium state to VLS/HLS records; decide whether the PIV module belongs in a separately scoped PR; repair its syntax and run exact-head Lean CI; keep all H(s)H identifications and predictions at PROPOSAL / NOT IDENTIFIED until independent review and real data support them.
+## 9. Scheduler same-ID mutation amendment | 2026-11-13T01:06Z
+
+Tern Observation 010 (`WORKSPACES/TERN/OBSERVATIONS/2026-11-13T0048Z_H792_FOUR_LEASE_RUN_RESULT_BINDING_AND_START_FIELD_MUTATION_OBS_010.md`, blob `8bac83fbd62987557f8480d2c5e1b76d27e3b05c`) adds an earlier snapshot that refines the timing analysis above:
+
+- The **same :24 run ID** `7b083c4c-a430-832f-b897-393e0d6ecdeb` was first observed with start `00:21:17.885619Z`, status `FAILED`, completion `00:46:25.841939Z`. It was later exposed under the same run ID with start `00:49:08.307513Z`, status `IN_PROGRESS`, completion null.
+- Issue #1662 was created at `00:46:18Z`, seven seconds before the earlier snapshot's recorded completion. Its chronology is compatible with creation during that earlier recorded interval, but neither an attempt ID nor a publisher-workflow run ID binds the issue to that execution. Attribution remains unresolved.
+- The same :36 run ID's start field also moved from `00:36:35.612303Z` to `00:52:14.160848Z`. The :00 h792 run completed at `00:41:28.457472Z`; the next :00 h793 run started at `00:55:19.465703Z`, before its 01:00Z nominal slot.
+- The :48 h792 run later completed at `01:06:20.909162Z` and acquired a scheduler `chat_ref`. That pointer is not authenticated worker identity or proof of message exposure/consumption.
+
+This is stronger evidence of mutable run-record fields and stale result binding, not proof of a retry, duplicate process, backend cause, or actual process concurrency. The current :24 and :36 run records remained `IN_PROGRESS` with null `chat_ref` at the 01:06Z readback. The correct architectural unit is an immutable execution-attempt record linked to the task, issue event, publisher run, and artifact, not the mutable `last_run` object alone.
