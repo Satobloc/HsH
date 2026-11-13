@@ -30,6 +30,24 @@ The guide's `A_\mu(\theta)=\alpha_*\nabla_\mu\theta`, `m^2=k(N+\beta Q^2-a)`, `m
 
 The guide notes earlier conceptual maps using a three-form `J^{\mu\nu\rho}`, whereas the compact assistant action uses a two-form `J^{\mu\nu}`. No Hodge-dual, projection, or composition map connecting those typed objects is supplied here. Treat this as an unresolved translation/type obligation, not an automatic equivalence or contradiction.
 
+## Adjacent SAT-O 2.0 Module O1 source
+
+`SATOBLOC/SAT O1 4D.txt`, SAT archive blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`; first extant commit `b543eb3fbf16e50500ceadad83dc9a7dc0759e5b`, dated **2025-10-27T00:40:28Z**. The file itself has no in-file date or author attribution. It is titled “SAT_O 2.0 Module O1: 4D Hyperhelical Filament Dynamics”.
+
+Verbatim geometry and action witnesses:
+
+`\gamma^\mu(\lambda) = \left( \lambda, A_x \sin(k_x \lambda + \phi_x), A_y \sin(k_y \lambda + \phi_y), A_z \sin(k_z \lambda + \phi_z) \right)`
+
+`v^\mu(\lambda) = \frac{d \gamma^\mu}{d \lambda}`
+
+`S[\gamma] = \int d\lambda \, L(\gamma^\mu, v^\mu)`
+
+`L = \frac{1}{2} m v^\mu v_\mu - V_{\text{tension}}(\gamma)`
+
+The module defines `\gamma : \mathbb{R} \to \mathbb{R}^{3,1}` as a smooth one-dimensional filament and describes the worldtube as the 4D volume swept out by the vibrating filament. The displayed one-parameter curve alone does not construct that 4D support: no internal-mode/support map, thickening map, or parameterized sweep is supplied. Keep the centerline and the finite-core/worldtube as distinct types until such a map is defined.
+
+The same historical module asserts a stable Hopf link for two filaments, a stable Borromean link for three, and no stable topological interlocks for four or more filaments in 4D. The file supplies no proof for these claims; they remain historical assertions, not established topology theorems, Lean results, or independent measurements.
+
 ## Limit
 
 No direct-user-authored Blockwave action was recovered in this bounded pass. All four Mersearch request lanes remain occupied and their request-scoped manifests/receipts are absent; this is not an exhaustive three-repository Mersearch result. The original SAT-O Module 8-H and O9 equations and their dates remain in the related report. No corrected action, physical calculation, CODATA score, theory promotion, or paper-gate change is issued.
