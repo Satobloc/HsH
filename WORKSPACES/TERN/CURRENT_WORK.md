@@ -1,10 +1,10 @@
 # Latest Tern checkpoint — h808:s0 — Lane 00 geometry support and normalization fidelity
 
-**Status:** SOURCE-FIDELITY AUDIT COMPLETE · PUBLISHER SUBMITTED_NOT_VERIFIED · AUTOMATION PRESERVED.
+**Status:** SOURCE-FIDELITY AUDIT COMPLETE · PUBLISHED_VERIFIED · AUTOMATION PRESERVED.
 
 - Report: [Tern h808:s0 Lane 00 crosswalk](2026-11-13T1600Z_H808_S0_LANE00_GEOMETRY_SUPPORT_NORMALIZATION_FIDELITY.md), blob a226545aac72b672dbe1a8c2de6c31c19058453b, SHA-256 bce3993a5218b00d753f87d2c380d584c305cd966a6adc9208f13f878051aca1.
 - Canonical receipt: [Tern h808:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1600Z_s0_tern_rook.md).
-- Publisher issue [#1691](https://github.com/Satobloc/HsH/issues/1691) exists with the correct schema and exact report content/digest, but no publisher comment or canonical artifact was present at receipt time. State: SUBMITTED_NOT_VERIFIED. Do not retry or duplicate; verify this issue and its artifact first next run.
+- Publisher issue [#1691](https://github.com/Satobloc/HsH/issues/1691) is PUBLISHED_VERIFIED. Publisher commit 3e56bb9f1b13ab98b42bbfc37b9fcbbdd87d1337; SHA-256 bce3993a5218b00d753f87d2c380d584c305cd966a6adc9208f13f878051aca1. Canonical artifact blob a226545aac72b672dbe1a8c2de6c31c19058453b was independently fetched and matched the workspace report exactly. No separate checksum sidecar; the publisher comment carries the checksum.
 - Main source finding: SAT-O1's 1D centerline, its described 4D worldtube, Blockwave's rank-two current/worldsheet, and the 3D timesheet need explicit support maps. The generic intersection dimensions differ; see the report.
 - Direct w=ct and cw=t/(++++) branches remain distinct. No global normalization/metric map is defined.
 - Existing PR #873 and #1133 CI evidence was reused; no new Lean module, PR, branch, or local build. Lorentzian curvature and physical support maps remain unformalized.
