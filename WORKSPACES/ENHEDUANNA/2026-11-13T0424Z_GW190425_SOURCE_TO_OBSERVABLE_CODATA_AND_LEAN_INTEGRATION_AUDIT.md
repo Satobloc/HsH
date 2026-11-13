@@ -81,3 +81,8 @@ P2 issue #565 remains open with no selected system. GW190425 is an additional ca
 ## 8. Next falsifiable step
 
 Obtain the versioned calibrated GWOSC strain segment and posterior subset, record file checksums, PSDs, calibration envelopes, units, and covariance. Then define the source geometry-to-waveform map with explicit domains, codomains, and composition conditions. Freeze an H(s)H observable prediction before treating GW190425 as a holdout. Only then build a combined Lean import graph that connects branch compatibility to projection/injectivity conditions. Until then this remains a candidate source map, not a physical result.
+
+## 9. Publication and readback
+
+Initial issues #1667 and #1668 were rejected by the existing publisher for SHA-256 mismatch. Checksum-correct retry #1669 reused the same submission ID and canonical artifact path. Publisher workflow run #43368056884 completed successfully and posted PUBLISHED. Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-gw190425-source-observable-codata-20261113t0424z-s2-001.md. Publisher commit: c1f351d4acf13495dd128e96213d6c12956c7647. SHA-256: 9b076401dc13d6b66818b254fc8ae8ea0538830eddd97143ab74c0c9c17b310a. The artifact was fetched independently and its hash recomputed from the exact repository content; it matches the submitted payload. Exactly one canonical artifact was published.
+
