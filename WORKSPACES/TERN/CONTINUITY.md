@@ -1,3 +1,13 @@
+## h796 Lean target build result — 2026-11-13T04:55Z
+
+- Existing Tern PR #824 head `cf032720989afa27f9f31f3d335de31cc6795aaf` now contains `TernH796SchedulerSnapshotEvidence.lean`, blob `97926535f9ac6fd1f2c52e9f87583626f3b1f5d7`.
+- Lean run #43368172942/job #131697517844 completed FAILURE overall. The new target module built at 8959/8962. Arithmetic/timestamp/status/run-ID/start-order/gap theorems report no axioms; the two ring-name list-lookup theorems report `[propext]`.
+- Full root build failed in unchanged `MovingPlaneTraceGeometry.lean` at lines 72,76,80,84,96,100,197 due noncomputable dependencies. Tests, lint, nanoda and global axiom audit were skipped.
+- Disposition: TARGET_MODULE_BUILT / FULL_ROOT_BUILD_FAILED_UNRELATED / REPOSITORY_WIDE_VERIFICATION_INCOMPLETE. The previous exact-head success predates this module and is not transferable.
+- [Observation 012 Amendment 02](OBSERVATIONS/2026-11-13T0455Z_H796_S3_OBS_012_AMENDMENT_02_LEAN_TARGET_BUILD_ROOT_FAILURE.md) and [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0455Z_s3_tern_rook_AMENDMENT_02_LEAN_TARGET_BUILD_RESULT.md) preserve the exact result. Morrow's handoff Amendment 01 is post-start optional context only.
+
+---
+
 ## Later scheduler readback — h796:s3 — 2026-11-13T04:54Z
 
 - The :48 Morrow h796:s4 run `49b6813d-a838-8324-8ccc-bf51c2f1fb7c` began at 04:51:43.350981Z and was IN_PROGRESS at 04:54:06.528260Z, completion/chat_ref null. Its latest_result remains prior Hale h795:s4. The Morrow handoff and inbox pointer are post-start optional repository context only.
