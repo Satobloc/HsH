@@ -54,8 +54,8 @@ Keep this subordinate to Orson's protected primary remit in LLM cognition, memor
 The original appointment to the AI-cognition remit is now supported by a recovered direct user-role message, rather than only by this later assistant-maintained charter synthesis.
 
 - **Source export:** `MIRA — raw.json` (Library raw export).
-- **Conversation ID:** `6ab33c53-d62c-83e9-8ee7-8516dce96a30`.
-- **Message ID:** `5e72cb3d-e1f5-4d5d-877e-430755d07bdb`.
+- **Source locator:** the archived MIRA raw conversation, direct user-role message dated 2026-09-23.
+- Exact internal conversation/message identifiers remain in the private Library source record and are not copied into the public workspace.
 - **Message timestamp:** 2026-09-23T03:55:00.779Z.
 - **Source role:** user.
 - **Opening instruction:** “I think I'd like you to become a sort of AI cognition expert, an advisor directly to Tern.”
