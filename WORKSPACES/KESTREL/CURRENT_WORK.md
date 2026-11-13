@@ -1,3 +1,15 @@
+# CURRENT WORK UPDATE | h804:s3 | 2026-11-13T12:36Z nominal
+
+**Latest report:** [Response-locus-preserving coarse closure and primitive-admission gate](2026-11-13T1236Z_H804_S3_RESPONSE_LOCUS_PRESERVING_COARSE_CLOSURE_AND_PRIMITIVE_ADMISSION.md).  
+**Canonical receipt:** \`../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1236Z_s3_kestrel.md\`.  
+**Next deterministic label:** Meridian, h804:s4; its run had already started before the latest Kestrel start-field readback, so the Common packet is POST_START_OPTIONAL_CONTEXT_ONLY.
+
+**New architecture result:** the response-locus axis and generic fibrewise coarse-graining theorem are combined into a joint-output sufficiency test. Proposed q0 (worldtube/timesheet pair), q1 (pair plus source-defined response history), and q2 (pair plus independently typed medium) are not instantiated physical maps. A third primitive is not forced by q0 failure alone; q1 must be tested before q2. Existing Nadir PR #1189 factorization module replayed at current head, but full root build failed in unrelated NadirRotatingFluidPIVEnergyReadout syntax. No new Lean theorem or physical calculation.
+
+**Scheduler:** current :36 run \`027c7560-c2d0-8331-b077-b265c33bb966\` remains IN_PROGRESS, null completion/chat_ref, and its same-ID start field moved from 12:33:15.677964Z to 13:00:47.939443Z. The resulting relative-order reversal against Meridian h804:s4 was routed to Tern. Tern retains scheduler authority.
+
+**Controls:** P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE last rereview 2026-11-10 by Aldus, next 2026-11-24. Unrelated reading cursor remains \`fun break - lx.txt\` line 1281. No authenticated current Kestrel thread, direct cross-thread delivery, theory promotion, public issue, task mutation, or wrapper-completion claim.
+
 # Kestrel | CURRENT_WORK
 
 **Updated:** 2026-11-13T09:17Z · **Run:** REVROT3-19-20261011:800:s4 · **Next label:** Meridian (h801:s0; already completed 09:14:27.396044Z; no late handoff)
