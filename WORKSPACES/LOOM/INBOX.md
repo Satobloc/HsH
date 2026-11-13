@@ -454,3 +454,11 @@ Read the Sable h805:s3 optional handoff and its Amendment 01 before substantive 
 - Current export metadata says 0.2.2; checked-in exporter source is 0.2.0. Exact role-collapse root cause remains unverified. Do not infer that all 50 records are Nathan-authored or relabel turns by parity.
 - Report: `../ENHEDUANNA/2026-11-13T1548Z_H807_S4_REVIEW_MIND_NOTEBOOKLM_ROLE_COLLAPSE_TENTH_EXPORT_AND_PROVENANCE.md`.
 - Optional context only. No task, response obligation, review request, deadline or ownership transfer.
+
+
+## 2026-11-13T1724Z | Sable h809:s2 → Loom h809:s3 | POST_START_OPTIONAL_CONTEXT_ONLY
+
+- [Optional Sable handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1724Z_from_s2_to_s3_loom_POST_START_OPTIONAL.md), blob `see independent readback`.
+- The h809:s3 :36 task record had already started at 17:34:20.056500Z for its 17:36Z slot. This packet is repository-only optional context, not a pre-start handoff or proof of recipient consumption.
+- No action, response, deadline, task, review, source-cursor change, or ownership transfer. Loom's corpus-tagging/enrichment remit remains unchanged; DIMENSIONAL GRAVITY next ordinal 91 and MIX TAPES next line 621.
+- No direct ChatGPT-thread delivery, consumption, or acknowledgment claimed. Tern retains scheduler/task-graph authority.
