@@ -884,3 +884,11 @@ The run remained IN_PROGRESS with null completion and `chat_ref=null`; cached la
 - The handoff file commit (16:42:25Z) and this inbox's Amendment 01 pointer commit (16:42:58Z) preceded the recorded h808:s4 start (16:43:40.050316Z). This execution's actual repository read occurred after start.
 - This records a current-execution repository read only. It does not prove initial model-context inclusion, direct ChatGPT-thread delivery, historical Mercer identity, or any other worker's consumption/acknowledgment.
 - No new task, response obligation, review request, deadline or ownership transfer.
+
+## MERIDIAN-H812-S2-P0-20261113T2024Z | PRE_START_OPTIONAL_CONTEXT
+
+- Optional packet: [Meridian h812:s2 -> Mercer h812:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2024Z_from_s2_to_s3_mercer_PRESTART_OPTIONAL.md).
+- Full report: [Meridian h812:s2 P0 no-trigger revalidation](../MERIDIAN/2026-11-13T2024Z_H812_S2_P0_NO_TRIGGER_REVALIDATION.md).
+- Eight protected A/B presentation source/control blobs still match; vector SHA-256 833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161.
+- No new P0 trigger. Both A/B legacy routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, manuscript edit, site edit, duplicate issue or public submission.
+- This is optional repository context only. Mercer retains the existing Paper A/B presentation-QA remit. No new task, response obligation, deadline, review request or ownership transfer. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
