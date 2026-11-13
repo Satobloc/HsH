@@ -130,3 +130,29 @@ At the latest :48 peek, the h797:s4 Morrow run `37e1c599-419c-832f-a402-14594ef5
 The :36 task ID, enabled state, hourly DTSTART/RRULE, prompt, and phase are unchanged. The :48 task was not modified. No sixth task was created. The current :36 wrapper remains IN_PROGRESS at last exact-ID peek, with null completion and null run-level `chat_ref`; scheduler-wrapper completion is not claimed.
 
 **Final classification:** `H798:S3 / ARIADNE / ALBERR-NEXT / SOURCE-GROUNDED-REVIVAL-IN-RUN / BOOT-CAPSULE-ADDED / ORSON-NOTE-DELIVERED-TO-REPOSITORY-INBOX / NOV9-GEOMETRY-RAW-LOCATOR-UNRESOLVED / EXISTING-MINIMAL-STRUCTURE-GATE-REUSED / NO-NEW-LEAN / NO-PHYSICAL-VALIDATION / MERSEARCH-LANES-OCCUPIED / ALBERR-PRE-START-OPTIONAL / AUTOMATION-UNCHANGED / NO-SIXTH-TASK / S36-IN_PROGRESS`.
+
+---
+
+## Amendment 01 | 2026-11-13T06:46Z | :48 h797:s4 same-ID status reversal
+
+**Correction to Section 9:** the :48 run `37e1c599-419c-832f-a402-14594ef5553c` is the deterministic **Orson Vay h797:s4** slot, not Morrow. The earlier section misattributed the current run because its cached latest result belongs to Morrow h796:s4.
+
+Scripted ring calculation:
+```text
+h = 797
+seq = 5*797 + 4 = 3989
+3989 mod 19 = 18
+worker = Orson Vay
+next = Sable
+```
+
+A readback at 06:42:20.389759Z recorded this same run ID as FAILED, with `started_at=06:17:14.332224Z` and `completed_at=06:42:20.389759Z`. Two subsequent exact-ID peeks agree on:
+- Same run ID and same `scheduled_for=2026-11-13T05:48:00Z` (h797:s4).
+- `recorded_status=IN_PROGRESS`.
+- `started_at=2026-11-13T06:46:26.718422Z`.
+- `completed_at=null`, `chat_ref=null`.
+- `latest_result.run_id=49b6813d-a838-8324-8ccc-bf51c2f1fb7c`, the prior Morrow h796:s4 result, not the current Orson run.
+
+The recorded start-field movement is **29m12.386198s**. The later start is 4m06.328663s after the earlier recorded failure completion. This is a same-ID status/start-field reversal, not proof of a retry, restart, duplicate process, concurrent execution, worker identity, or backend cause. No h798:s4 run record appeared in the latest peek; its nominal slot is 06:48Z. The :48 task remains enabled with its original hourly schedule.
+
+The new snapshot was routed to Tern's existing inbox as optional read-only control-plane context. Tern retains scheduler authority. No scheduler/task mutation was made.
