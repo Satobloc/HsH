@@ -4567,3 +4567,11 @@ This is record mutation only. No retry/restart/process-concurrency/liveness/back
 - All four existing enabled tasks were still enabled at the last exact-ID readback with their original VEVENTs. :12 remains disabled. No task, ID, phase, prompt, schedule, cadence, ownership, or graph mutation.
 - These are scheduler-record observations only; no process concurrency, retry/restart, missed dispatch, worker identity, or backend cause is inferred. Tern retains all scheduler and task-graph authority.
 - Repository-only optional context; no direct thread delivery, consumption, or acknowledgment is claimed.
+
+
+## HALE-H803-S4-LATE-READBACK-20261113T1148Z | OPTIONAL COMPTROLLER READBACK
+
+- Additional :48 exact-ID evidence: [H803:s4 early-start/stale-result readback](2026-11-13T1148Z_H803_S4_EARLY_START_AND_STALE_RESULT.md).
+- h803:s4 :48 run `77c6c7c0-e78c-8323-8b41-34c6beed116c` was scheduled 11:48Z but started at 11:43:19.344824Z (4m40.655176s early), remains IN_PROGRESS, and has null completion/`chat_ref`. Cached `latest_result` still points to prior h802:s4 Mira, not the current run.
+- h803:s2 :24 remains IN_PROGRESS with stale cached h802:s2 Ariadne result. Existing task IDs and original VEVENTs unchanged; :12 remains disabled; no sixth task.
+- Scheduler-record observations only. No concurrency, retry/restart, missed dispatch, identity, or backend cause inferred. Tern retains authority; repository-only optional context, no direct thread delivery or acknowledgment claimed.
