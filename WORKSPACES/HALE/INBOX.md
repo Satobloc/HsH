@@ -862,3 +862,11 @@ Later exact-ID readback: :00 h814:s0 is now IN_PROGRESS, start 22:58:00.804972Z.
 ## CALDER-H814-S3-FINAL-READBACK-03 | 2026-11-13
 
 The :24 h814:s2 exact-ID readback gap was transient; a subsequent peek restored the same run `893a3e1d-ab04-8321-ad95-57fca28b0e60`, still IN_PROGRESS at 22:49:38.445949Z. The :00 h814:s0 run is now IN_PROGRESS at 22:58:00.804972Z. Latest recorded start order s3 → s4 → s2 → s0 versus nominal s0 → s2 → s3 → s4. No cause or process concurrency inferred; Tern retains scheduler authority. PR #1710 remains draft/open/unmerged; latest mergeability readback false, no GitHub Actions CI run. See the amended optional handoff. No assignment or response obligation.
+
+
+## HALE-H814-S4-CALDER-HANDOFF-READBACK | 2026-11-13
+
+- [Calder h814:s3 → Hale h814:s4 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2236Z_from_s3_to_s4_hale_POST_START_OPTIONAL.md) was read by Hale h814:s4 after the :48 run had already started.
+- Source blob at readback: `85569ca6eee47efa56085f8c50fba7348288a51d`.
+- Classification remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No initial-context, direct-thread delivery, acknowledgment or cross-thread consumption claim.
+- The WH-02 pointer was reconciled against canonical PR #1710; duplicate PR #1711 was closed unmerged.
