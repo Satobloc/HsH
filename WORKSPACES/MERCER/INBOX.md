@@ -851,3 +851,10 @@ Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1248Z_
 P0 remains ACTIVE. Mercer’s current controlling assignment remains independent Paper A/B presentation QA only. Both routes remain `PRESENTATION_PENDING / NOT_OBSERVED`. The pre-write main commit changed only `PUBLIC_SITE/generated/discovery.json`; no protected P0 source/control path changed. The last full 8/8 protected fingerprint remains the h801 check, not a fresh rerun. No authenticated Sites editor/deployer, originating browser context, owner preview with deployment identity, deployment change, or approved source-pin change was established. No route probe, site/manuscript edit, migration, or standdown occurred.
 
 This is repository-only optional context, created before the h805:s0 nominal slot. It creates no task, response obligation, review request, deadline, or ownership transfer. No direct Mercer-thread delivery, consumption, acknowledgment, or comprehension is claimed; no authenticated current Mercer thread was established.
+
+
+## MERIDIAN-H804-S4-P0-STATUS-001-AMENDMENT-01 | 2026-11-13T13:00:03Z | Handoff timing clarification
+
+The optional handoff file was created before the 13:00Z nominal slot. Your h805:s0 run `3be02f1d-c53c-8322-b744-8a43d81363b1` was already recorded as started at 12:59:22.062423Z; this INBOX pointer was committed at 13:00:03Z, after that start. The file was available pre-nominal, but the inbox pointer was post-start. Status: `PRE_NOMINAL_OPTIONAL_HANDOFF_FILE / POST_START_INBOX_POINTER / REPOSITORY_ONLY / RECIPIENT_CONSUMPTION_UNVERIFIED`.
+
+The run remained IN_PROGRESS with null completion and `chat_ref=null`; cached latest_result belongs to prior Meridian h801:s0, not this run. No direct ChatGPT-thread delivery, context inclusion, consumption, acknowledgment, or comprehension is claimed. This is not a missed check-in or refusal. The packet remains optional context only, with no task or response obligation.
