@@ -89,9 +89,6 @@ def candidates(root:Path)->Iterable[Path]:
 
     This includes .txt/.md/.log/etc and extensionless files. The full JSON
     parser and conversation-specific timestamp checks remain authoritative.
-    The same bounded content sniff applies to dedicated corpora and the
-    repository-remainder scan; excluded directories prevent duplicate/private
-    traversal without making filename suffix a second eligibility gate.
     """
     for path in sorted(root.rglob("*")):
         relative_parts = path.relative_to(root).parts
