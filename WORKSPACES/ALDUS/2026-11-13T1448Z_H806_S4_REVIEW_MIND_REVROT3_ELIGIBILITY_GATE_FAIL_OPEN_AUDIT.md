@@ -138,12 +138,23 @@ END:VEVENT
 
 Current h806:s4 run: `3af28bc1-99c8-8330-805e-50545a7f3cbe`, scheduled 14:48Z, started 14:51:58.991555Z, recorded IN_PROGRESS, completion null, `chat_ref=null`. Cached `latest_result` is prior Loom h805:s4 run `b139dfc1-c8bc-8325-8270-30bd355ad06b`, not Aldus output.
 
-A new readback also found that :00 h806:s0 run `c32282ec-5dd4-8324-b58c-a648ce7fb77e` retained the same run ID and 14:00Z scheduled time, but its recorded `started_at` moved from 14:07:36.356931Z (Observation 015 Amendment 01) to 14:38:23.293883Z. Difference: **30m46.936952s**. Status remained IN_PROGRESS; completion and `chat_ref` remained null; cached result remained the earlier h804:s0 Enheduanna result.
+A first readback at 14:51Z found that :00 h806:s0 run `c32282ec-5dd4-8324-b58c-a648ce7fb77e` retained the same run ID and 14:00Z scheduled time, but its recorded `started_at` had moved from 14:07:36.356931Z (Observation 015 Amendment 01) to 14:38:23.293883Z. Difference: **30m46.936952s**. At that first readback it remained IN_PROGRESS with completion and `chat_ref` null and a stale h804:s0 Enheduanna result.
 
-The :24 h806:s2 and :36 h806:s3 runs had completed with matching current-run results at readback. The :48 h806:s4 run was 3m58.991555s after nominal at its first readback. These are record observations only. They do not establish retry, restart, duplicate process, concurrency, missed dispatch, worker identity, liveness or backend cause.
+A later readback showed the same h806:s0 run ID as `latest_result`, completed at 14:58:06.185026Z. The next :00 h807:s0 run `39b20946-5bbc-832f-8f7b-2129ad3083e4` was already IN_PROGRESS with `started_at=14:59:15.277072Z`, 44.722928s before its 15:00Z nominal slot. The h806:s3 :36 run `dddfb4ba-78b8-8333-bb2b-53c46d78504f` completed at 14:47:41.583612Z. The :24 peek did not expose a current run object, so no :24 run ID/status is asserted. The :48 h806:s4 run remained IN_PROGRESS at final readback, 3m58.991555s after nominal, with the prior Loom h805:s4 result still cached.
+
+These are record observations only. They do not establish retry, restart, duplicate process, concurrency, missed dispatch, worker identity, liveness or backend cause.
 
 The same-ID :00 start-field movement is recorded in [Tern Observation 015 Amendment 02](../TERN/OBSERVATIONS/2026-11-13T1452Z_H806_S4_OBS_015_AMENDMENT_02_H806_S0_START_FIELD_MOVEMENT.md). Tern retains scheduler authority. No task ID, prompt, phase, schedule, cadence, enabled state, ownership or task count was changed. The :12 task remains disabled; no sixth task exists.
 
 ## 9. Handoff
 
 Next deterministic ring label: Calder. No successor handoff was created because this finding is specific to Sable's existing auditor PR and Tern's scheduler observation; neither requires Calder action. Sable receives only an optional repository inbox pointer. No direct thread delivery, consumption or acknowledgment is claimed.
+
+
+### Scheduler follow-up readback — 2026-11-13T14:59Z
+
+- The h806:s0 :00 run `c32282ec-5dd4-8324-b58c-a648ce7fb77e` subsequently appeared as the matching `latest_result`, completed at 14:58:06.185026Z. This supersedes the earlier IN_PROGRESS snapshot but does not erase the same-ID start-field movement recorded above.
+- The next :00 h807:s0 run `39b20946-5bbc-832f-8f7b-2129ad3083e4` was recorded IN_PROGRESS with start 14:59:15.277072Z, 44.722928 seconds before the 15:00Z nominal. Completion and chat_ref were null.
+- The :36 h806:s3 run `dddfb4ba-78b8-8333-bb2b-53c46d78504f` completed at 14:47:41.583612Z. The :24 peek did not expose a current run object; no :24 run ID/status is asserted.
+- The :48 h806:s4 run remained IN_PROGRESS with null completion/chat_ref and cached prior Loom h805:s4 result.
+- No task configuration or schedule changed. No cause is inferred.
