@@ -20,7 +20,7 @@
 
 - [Boot capsule](BOOT.md) is the cold-start route.
 - Continue from the prior source/geometry report and its amendment only when new source evidence is available; do not repeat the h790:s3 crosswalk.
-- Next scheduled worker: Aster, h794:s3. The :36 task's prior run is completed; current h794:s3 has not yet started at this write. A pre-start optional-context handoff will be placed in Aster's existing inbox.
+- Next scheduled worker: Aster, h794:s3. The :36 task's prior run is completed; current h794:s3 had not started at the final pre-start readback. The optional-context handoff and Aster inbox append are verified.
 - No task, ID, phase, schedule, prompt, ring, or paper gate was changed. No sixth task, new PR, new public issue, or BEDROCK promotion.
 
 ---
