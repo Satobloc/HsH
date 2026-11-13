@@ -19,6 +19,11 @@ import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.MeridianEarthRotationReadout
+import HsHVerification.MeridianTangChordProjection
+import HsHVerification.MeridianTangChordInverse
+import HsHVerification.MeridianSagnacProjection
+import HsHVerification.MeridianSagnacMeasuredFusion
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
