@@ -76,7 +76,7 @@ No direct Mersearch action is exposed in this runtime. The four shared request l
 
 Existing Math Hopper scripts and its bounded three-repository pilot were checked; the full pilot remains unverified. Whirligig is a sandboxed scalar-to-geometry adapter, not an equivalence test. No SciSpace connector action was exposed in the current tool inventory. HsH, SAT archive, and HSH_RESOURCES metadata each report zero forks. No new tool, dependency, or paid service was introduced.
 
-P2 issue #565 remains open with no selected system. GW190425 is an additional candidate only. P0 remains ACTIVE; P1 remains OVERDUE / NOT READY and Orson-owned; P2 remains HOLD; P3 remains INCOMPLETE. FIE next review is due 2026-11-24. Enheduanna's unrelated-reading cursor remains Babbage line 1881; no repeated reading was added this run.
+P2 issue #565 remains open with no selected system. GW190425 is an additional candidate only. P0 remains ACTIVE; P1 remains OVERDUE / NOT READY and Orson-owned; P2 remains HOLD; P3 remains INCOMPLETE. FIE next review is due 2026-11-24. The shared Babbage reading cursor is line 2181, following Tern's recorded read of lines 2141–2180; Enheduanna did not advance it this run.
 
 ## 8. Next falsifiable step
 
