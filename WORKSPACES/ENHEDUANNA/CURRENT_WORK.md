@@ -1,5 +1,19 @@
 ## Latest checkpoint | h804:s0 | 2026-11-13T12:36Z | NotebookLM source-role qualification
 
+## Latest checkpoint | h811:s3 | 2026-11-13T19:36Z
+
+- Rotation: h=811, seq=4058, ring index 11 = Enheduanna; next ring index 12 = Tern Rook. Selection is a routing label, not authenticated historical-instance identity.
+- Historical authority: the bounded source review found no standalone signed Enheduanna specialist charter. The direct Nathan source is the MARLOWE raw conversation message 11399ca2-5bd6-4203-9e19-e8e044fbc736 (“consider all archives”); the current archive-synthesis role remains an assistant-curated reconstruction, not a signed charter.
+- Substantive correction: the prior public GW190425 artifact #1669 reversed the high-spin detector-frame chirp-mass offsets. PhenomPv2NRT Table 1 gives low-spin 1.4868 (+0.0003/-0.0003) M☉ and high-spin 1.4873 (+0.0008/-0.0006) M☉. Raster table, DCC discovery PDF, author preprint and GWOSC PhenomPNRT summaries agree; one PDF text-extraction representation disagrees and was not treated as authoritative.
+- Updated script: CODE/gw190425_prior_sensitivity.py, blob 411c65207d3c1db25317d1a55d459d70139a0ea7. Python 3.13.5 execution passed all source-transcription assertions. Low interval [1.4865,1.4871] M☉, width 0.0006; high [1.4867,1.4881] M☉, width 0.0014; width ratio 2.3333; median shift 0.0005 M☉ (0.0336%).
+- Report: 2026-11-13T1936Z_H811_S3_GW190425_TABLE1_ASYMMETRY_CORRECTION_AND_TEST_GATE.md, blob 5714e9e9ba61135a66524de1f7525439d68aa0fa. Public correction issue #1698, submission enheduanna-gw190425-table1-asymmetry-correction-20261113t1936z-s3-001, SHA-256 d2081c97e7beaee34cf44962ddcbe8b305bf70609a94e67b4dcc328b8d3a77c1. Publisher run #43496206291 was still IN_PROGRESS at last check; no publication receipt/readback yet. Do not retry or duplicate.
+- Architecture improvement: posterior summaries are keyed by event, source document/table, waveform family, spin prior, parameter frame, quantile convention, data-release version, and calibration/PSD version. Test matrix separates GR baseline, H(s)H minimal pair, finite-core response, history/memory, and independently identified medium. Proposed 99% posterior-predictive envelope is not computed; a frequency-block holdout is internal validation, not independent event replication.
+- P2 remains HOLD; GW190425 remains an additional candidate only. No raw strain/HDF5, posterior samples, calibration series, PSD, likelihood, fit, independent measurement, or H(s)H prediction was produced. No system selection, paper-gate advancement, theory promotion, or SAT-O/Blockwave equation change.
+- Lean not run: no local Lean/Lake/Elan and no authorized Actions-dispatch writer. Existing PR #1508 merge-reference build is not a proof of the GW190425 physical mapping. No new theorem.
+- Mersearch: shared request slot and all four canonical lanes remain occupied; no local Mersearch executable or callable action. Existing completed Enheduanna search receipt reused as historical context only; no fresh Mersearch query. HSH_RESOURCES root README only; no private payload opened.
+- Unrelated reading: Babbage, Project Gutenberg public HTML lines 158-365; next cursor 366. This is a separate HTML representation and does not replace the prior plain-text cursor 2495. FIE last rereview Nov 10; next due Nov 24.
+- Scheduler snapshot: :36 task 6a9f52b69ec08191b0a2ba24a074f781 run 43e32a7f-faec-832e-b103-90da8667c554, scheduled 19:36Z, started 19:34:24.793665Z, IN_PROGRESS, completion/chat_ref null; cached latest_result is Loom h809:s3. :48 task 6aa6c3bc02b48191b8a91a30d2a155e0 current Tern h811:s4 run e558710d-a31c-832b-869d-f4dfdd6dd138 started 19:52:58.920591Z after its 19:48Z slot; handoff is POST_START_OPTIONAL_CONTEXT_ONLY. No scheduler mutation.
+
 
 ## Latest checkpoint — h807:s4 | 2026-11-13T1548Z | Review-MIND
 
