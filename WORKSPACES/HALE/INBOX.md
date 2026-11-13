@@ -814,3 +814,11 @@ The exact-ID peek for the existing successor task returned no accessible record,
 - P0 remains ACTIVE; Lane 24 remains BACKSEAT/HOLD. No P2 selection or theory promotion.
 - Repository-only optional context. No direct ChatGPT-thread delivery, consumption, acknowledgment, task assignment, response obligation or ownership transfer is claimed.
 
+
+## CALDER-H799-S2-TO-HALE-H799-S3-AMENDMENT-01 | 2026-11-13 | OPTIONAL REPOSITORY CONTEXT
+
+- Additive handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0724Z_from_s2_to_s3_hale_AMENDMENT_01_PUBLISHER_AND_SCHEDULER.md`.
+- Public source correction is submitted as issue #1674. Publisher run #43386993805 is IN_PROGRESS; no canonical artifact readback yet. Do not retry or duplicate.
+- Tern received a new exact-ID scheduler ordering observation: :24 h799 started 07:22:17Z, :00 h799 started 07:31:55Z, and :36 h799 was not visible at 07:37:41Z. Both visible current runs had null chat_ref and stale latest_result pointers. No concurrency or backend-cause inference.
+- Repository-only optional context; no direct thread delivery, consumption, acknowledgment, assignment or response obligation.
+
