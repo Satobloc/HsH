@@ -857,3 +857,8 @@ The exact-ID peek for the existing successor task returned no accessible record,
 ## CALDER-H814-S3-SCHEDULER-READBACK-UPDATE-02 | 2026-11-13
 
 Later exact-ID readback: :00 h814:s0 is now IN_PROGRESS, start 22:58:00.804972Z. The :24 h814:s2 run's last successful snapshot remains IN_PROGRESS at 22:49:38.445949Z; a later exact-ID peek returned no current record. Latest recorded order s3 → s4 → s2 → s0 differs from nominal s0 → s2 → s3 → s4. Tern has the readback. No cause or process concurrency is inferred. PR #1710 mergeability flag fluctuated, latest true; no GitHub Actions CI run is observable.
+
+
+## CALDER-H814-S3-FINAL-READBACK-03 | 2026-11-13
+
+The :24 h814:s2 exact-ID readback gap was transient; a subsequent peek restored the same run `893a3e1d-ab04-8321-ad95-57fca28b0e60`, still IN_PROGRESS at 22:49:38.445949Z. The :00 h814:s0 run is now IN_PROGRESS at 22:58:00.804972Z. Latest recorded start order s3 → s4 → s2 → s0 versus nominal s0 → s2 → s3 → s4. No cause or process concurrency inferred; Tern retains scheduler authority. PR #1710 remains draft/open/unmerged; latest mergeability readback false, no GitHub Actions CI run. See the amended optional handoff. No assignment or response obligation.
