@@ -1369,3 +1369,46 @@ Kestrel run `1af56ac1-61a0-8333-80c6-923b8bfcf4bc` started at 13:47:40.386338Z, 
 - No publisher comment; expected artifact returns 404. Final status: PUBLISHER_409_CONFLICT / NOT_PUBLISHED.
 - Workflow listens only to issues.opened. No retry, edit, duplicate, direct artifact write or bypass. Cause unresolved.
 - Amendment: `WORKSPACES/MORROW/2026-11-13T0855Z_PUBLISHER_409_CONFLICT_AMENDMENT_01.md`; receipt amendment `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0836Z_s3_morrow_AMENDMENT_01_PUBLISHER_409_CONFLICT.md`.
+
+
+---
+
+## 2026-11-13T12:24Z | h804:s2 | CODATA source/version custody + scheduler peek reconciliation
+
+**Run key:** `REVROT3-19-20261011:804:s2`; h=804; seq=4022; selected Morrow (index 13); next Kestrel (index 14). This is source-grounded assistant work, not authenticated historical Morrow participation.
+
+**Report:** `WORKSPACES/MORROW/2026-11-13T1224Z_H804_S2_CODATA_SOURCE_VERSION_AND_SCHEDULER_PEEK_AUDIT.md`  
+**Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1224Z_s2_morrow.md`  
+**Boot:** `WORKSPACES/MORROW/BOOT.md`
+
+### Source authority
+
+Raw conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`, parsed 697 mapping nodes. Direct user messages verified:
+- `402ade01-7116-4efb-9b14-31e477754458`: provisional Team Archivist assignment.
+- `934e87de-4e61-4622-a0ea-e5047aa235c6`: explicit stop on theory work.
+- `99ae959b-fbeb-4c1e-9326-a6723c2b9557`: later bounded archive/maintenance/training trial; it does not expressly lift the theory-integration stop.
+
+This run therefore remained archive/source custody. No theory integration, physical calculation, fit, prediction, paper work, Lean rerun, equation correction, or BEDROCK promotion.
+
+### CODATA source/version check
+
+NIST still publicly serves CODATA 2022 Web Version 9.0 (data content last updated 2024-05-09). CODATA 2026 is the next scheduled adjustment; NIST states a 2026-12-31 input-publication cutoff. The 2022 paper documents 133 input data / 79 adjusted constants / 54 degrees of freedom, covariance inclusion for correlated inputs, uncertainty expansion after initial inconsistency, and a separate G adjustment from 16 determinations with three listed correlations and a 3.9 expansion factor. This is an evaluated synthesis, not a single direct measurement. No numerical comparison was performed. The BIPM 2026-11-05/06 meeting page exposes no public working documents without login; no restricted access attempted.
+
+### Mersearch
+
+All four canonical request lanes remain `requested`; all twelve checked request-scoped manifest/receipt paths are absent. No Mersearch connector/local pinned checkout/authorized dispatch action available. No request overwritten or retriggered. GitHub search/fetch is not Mersearch. Deferred original 4DHH Lagrangian / SAT.4DHH.UC / BYO-generator source recovery remains behind a genuinely released lane.
+
+### Scheduler
+
+- :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` positively confirmed enabled with original hourly America/New_York :24 schedule unchanged.
+- h804:s2 run `95274911-72c0-8329-9502-5c9cd89a6afb`: scheduled 12:24Z; started 12:22:24.809751Z (95.190249 s early); at 12:32Z still IN_PROGRESS, completion/chat_ref null. Cached latest_result belongs to prior h803:s2 Hale run. Exact-ID peek first returned NOT_FOUND/NOT_ACCESSIBLE; global and subsequent exact peeks confirmed the same task enabled.
+- :00 h804:s0 run `3be02f1d-c53c-8322-b744-8a43d81363b1`: scheduled 12:00Z; started 12:02:20.092263Z; completed 12:27:22.844992Z; recorded FAILED; chat_ref null. Exposed latest_result remains older h801:s0 Meridian success; failed-attempt text/root cause unavailable.
+- Tern retains scheduler/task-graph authority. No task mutation or backend-cause inference.
+
+### Successor and maintenance
+
+Kestrel h804:s3 optional repository handoff and inbox append were verified before any h804:s3 run appeared. No assignment, response obligation, deadline, or ownership transfer. No direct ChatGPT-thread delivery, consumption, or acknowledgment claimed.
+
+Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 1841–1880; next cursor 1881. FIE next rereview 2026-11-24. No physical break claimed.
+
+Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE. No new PR, public issue, tool, task, or theory promotion.
