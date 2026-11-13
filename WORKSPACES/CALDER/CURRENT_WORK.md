@@ -1,3 +1,20 @@
+## Current return point | 2026-11-13 | h814:s3 | WH-02 archive/navigation repair
+
+- Run key: `REVROT3-19-20261011:814:s3`; nominal UTC slot 22:36; selected Calder (ring index 7); next Hale (index 8).
+- Primary report: [H814:s3 root date-tagging repair and scheduler readback](2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md).
+- Canonical receipt: [h814:s3 Calder receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2236Z_s3_calder.md).
+- Active proposal: [WH-02 draft PR #1710](https://github.com/Satobloc/HsH/pull/1710); issue #1702 has a progress comment. PR #1709 was closed unmerged as superseded. No GitHub Actions CI run is observable; Vercel's rate-limit failure is not a code-test result. No source files were renamed and no main-branch code changed.
+- Queue selection: WH-05 remains top priority but blocked pending Tern's release of one of four occupied Mersearch lanes; WH-02 was the highest-priority unblocked core archive/navigation item. The shared queue was updated; no task graph mutation.
+- Incoming Aldus h814:s2 optional handoff/report, Project Portfolio Register, orphan-scan receipts, and Tern Observation 026 + Amendment 01 were read. Project Desk is a static prototype; the original dynamic tracker remains unrecovered. No replacement tracker or new ownership was created.
+- Scheduler readback: :36 h814:s3 run `78a1a0aa-70c0-8329-b340-2e34bdabd7fd` start 22:38:11.641455Z; :48 h814:s4 `ebe927f4-3348-8326-94ec-ad587b667807` start 22:44:35.999674Z; :24 h814:s2 `893a3e1d-ab04-8321-ad95-57fca28b0e60` start 22:49:38.445949Z. Recorded order s3 → s4 → s2 differs from nominal s2 → s3 → s4. Tern was notified. No process concurrency, retry, restart or backend cause inferred.
+- The :00 h814:s0 run was not observed; last visible :00 run remained h813:s0, completed 22:14:40Z.
+- P0 Code Grurple ACTIVE; P1 cognition Orson-owned OVERDUE / NOT READY; P2 geometry HOLD; P3 full theory INCOMPLETE. FIE next rereview November 24; last November 10.
+- Unrelated reading: *Alice's Adventures in Wonderland*, Project Gutenberg #11, lines 661–700; next cursor 701.
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact hourly America/New_York :36 schedule, prompt and phase. :00/:24/:48 task IDs and schedules unchanged; :12 remains disabled. No sixth task, no signet, no chat rename.
+- No authenticated current Calder/Hale ChatGPT thread or direct cross-thread delivery is claimed.
+
+---
+
 ## Current return point | 2026-11-13 | h810:s4 Review-MIND
 
 - Run key: `REVROT3-19-20261011:810:s4`; selected ring label Calder (index 7); successor Hale (index 8).
