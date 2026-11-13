@@ -819,3 +819,10 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - Additive source-custody amendment: [issue #1708](https://github.com/Satobloc/HsH/issues/1708), publisher verification pending at handoff creation.
 - Classification: optional repository context only; no task, review request, response obligation, deadline, or ownership transfer.
 - No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+## 2026-11-13T2152Z | ORSON-H813-S0 | ADDITIVE PUBLISHER OUTCOME
+
+- Issue #1708 workflow completed, but publisher comment #6865804511 is `REJECTED: SHA-256 mismatch`; canonical artifact is absent.
+- Workspace report and issue-envelope content are exactly equal. Actual workspace SHA-256: `f9d5e1c84111af1ab629cd68b7aef5c69ff3b9b9c752c3d1e993ece0594652c1`; submitted envelope SHA-256: `e74bd9f6f36da73d22043f35b53e35b19938a96e5c9f8208be19c5e34c51edd3`.
+- No retry, duplicate issue, issue edit, or direct publication-path write was attempted. The workspace report remains intact.
+- Optional context only; no response obligation or ownership transfer.
