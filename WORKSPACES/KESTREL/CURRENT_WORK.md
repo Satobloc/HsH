@@ -8,7 +8,7 @@
 `L00 / KESTREL / NOW: h797:s0 cosmotopology source-custody correction; #1670 PUBLISHED_VERIFIED; July 18 podcast SRT is undiarized secondary captions, not a primary Nathan-spoken witness; HsH flat transcript has 23 NATHAN labels and 32 ChatGPT labels but no raw role graph or message IDs; inversion/CTC/CSC/EoS/Planck/untwisting claims remain provisional transcript attribution; existing PR #873/#895 merge-reference proofs reused, no exact-head build or new Lean; no physical calculation or CODATA; P0 ACTIVE, P1 Orson OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE; Tern retains scheduler/task-graph authority; next Meridian h797:s1 optional context only; no direct delivery; RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
 
 
-## Latest live update | h797:s0 podcast source-custody correction (publisher pending)
+## Latest live update | h797:s0 podcast source-custody correction (PUBLISHED_VERIFIED)
 
 - Report: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-13T0500Z_COSMOTOPOLOGY_PODCAST_SOURCE_CUSTODY_AND_INVERSION_FIDELITY_AMENDMENT.md
 - Issue #1670 opened with a valid hsh-publish-v1 envelope; submission ID kestrel-cosmotopology-source-custody-20261113t0500z-s0-001; SHA-256 0ef1a6cd3ca8268f99c2c53c7faaac3bc8af353474e22e75e512ae7e921ded43. Publisher run #43371023147 completed SUCCESS; issue #1670 comment 6844873075 confirms canonical artifact readback. PUBLISHED_VERIFIED.
