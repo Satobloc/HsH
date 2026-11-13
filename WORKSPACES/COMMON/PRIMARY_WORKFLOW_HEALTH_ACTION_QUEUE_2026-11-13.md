@@ -149,3 +149,25 @@ At 2026-11-14 15:56 America/New_York, every unresolved WH-01 through WH-09 item 
 - No README, index, NotebookLM summary, prompt, or derived note should be misrepresented as a raw conversation. Do not overwrite existing HsH files or guess dates.
 - Exit: every candidate classified, only approved unique sources copied, manifest and source/destination hashes independently read back, Glass unchanged, and HsH navigation/index outputs verified.
 - WH-09 inherits the 2026-11-14 15:56 America/New_York escalation cutoff: if not at exit criteria, it becomes P1 / HIGH and is carried by the next existing relay activation.
+
+
+## H814:s2 Aldus follow-up — WH-02 title fidelity and WH-03 intake candidate (2026-11-13T2302Z)
+
+### WH-02 | PR #1710 cross-read
+
+- Independent read of exact PR head `a967e908ceab048d219831ec799343643870daf3` found a deterministic chronology-title truncation edge case in `tools/index_conversation_chronology.py` lines 28–41: the generic `Path(name).suffix` fallback strips meaningful dotted text from extensionless titles after the date prefix is removed. Synthetic examples: `H(s)H 2.0 → H(s)H 2`, `SAT-O v1.2 → SAT-O v1`, `Conversation with Dr. X → Conversation with Dr`. No current production file with those exact names was established; this is a code-path counterexample, not a claim of observed source corruption.
+- The current root-chronology test checks source inclusion but not rendered-title fidelity. Calder's smallest next code action is an extensionless dotted-title regression and a fix using recognized extensions or explicit source-extension metadata.
+- PR #1710 remains OPEN / DRAFT / UNMERGED; latest metadata says `mergeable=false`. Current-main comparison reports a diverged history (30 ahead / 7 behind); reconcile branch lineage before merge. No PR CI pass was observed through the available connector. Vercel's daily deployment cap is not a code-test result.
+- Positive control: `maintain-navigation.yml` runs on main pushes except generated-output-only paths, and the backfill workflow has manual dispatch plus a six-hour schedule. No additional root-file trigger defect was established.
+- Aldus made no PR/code change, review submission, merge or assignment. Calder retains ownership.
+
+### WH-03 | new source-intake candidate after h814 orphan scan
+
+- New file: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_25/[TBD] SAT Theory_ A Zero-Parameter Unified Geometric Framework__NotebookLM_export.json`; blob `83c76e4673f5405df845cfc24c905ffb07d0c972`. Ordinary file retrieval returned an empty body; exact blob retrieval returned 1,388,195 characters, so the file is not empty.
+- NotebookLM metadata: captured 2026-11-13T22:09:49.079Z; `reached_top=false`; `scans=1000`; metadata `message_count=399`, while capture log reports 403. All 399 captured message records are labelled `role=user`. The source panel has 285 rows, 156 unique normalized document-like title strings, 7,073 citation-marker entries, no stable source IDs and no URLs in row text. A studio card says “141 sources,” but that count is not reconciled.
+- This is a partial NotebookLM capture, not a ChatGPT mapping export, verified bibliography or primary source. Current conversation-date tagging requires a ChatGPT `mapping` and user/assistant message structure; this file should be skipped from that index and routed through WH-03 document intake. Do not force a date or use its titles/citation markers as verified citations.
+- Its opening exchange is a hypothetical metal-melting prompt followed by an answer-like message, both labelled user, using an unsupported 3.75% cohesive-energy fraction and Richard's rule. No measured system or independent validation is supplied. Do not reuse its numerical result or treat it as physical evidence.
+- **Disposition:** `UNRESOLVED / PARTIAL_NOTEBOOKLM_CAPTURE / WH03_INTAKE_CANDIDATE`. Not enough evidence to call this a confirmed orphan project; no Project Portfolio Register entry was created. Mersearch-first source recovery remains deferred while all four canonical lanes are occupied.
+- Next WH-03 action: source-pinned intake and authorized recovery of source IDs/URLs and complete capture; keep the NotebookLM transcript distinct from original SAT-O/Blockwave sources.
+
+The full cross-read and source classification are in [Aldus h814:s2 follow-up report](../ALDUS/2026-11-13T2302Z_H814_S2_WH02_TITLE_FIDELITY_AND_NOTEBOOKLM_INTAKE_CROSSREAD.md). The next pickup remains WH-02 while it is the highest-priority unblocked item; otherwise re-evaluate the queue. WH-05's Aster h813:s3 diagnosis remains complete, with repair/release pending Tern; no lane was retried or released here. No deadline escalation, issue duplication, task mutation or new tool was performed.
