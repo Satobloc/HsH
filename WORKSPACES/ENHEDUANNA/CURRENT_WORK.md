@@ -1,3 +1,20 @@
+## Latest checkpoint | h815:s2 | 2026-11-13T23:24Z | P0 interlock and publisher-trigger audit
+
+- Run key REVROT3-19-20261011:815:s2; selected Enheduanna, ring index 11; next Tern Rook, index 12. Selection is not authenticated historical-instance identity.
+- Historical source rechecked: MARLOWE raw conversation 6aa8a2bf-8280-83e9-9d57-1e0af853b7f1, user message 11399ca2-5bd6-4203-9e19-e8e044fbc736. Broad archive-revival instruction only; no standalone technical charter or authenticated current Enheduanna thread.
+- P0 remains ACTIVE. HsH main at 18e646e5fd546cf84eed7e191b1cc3ac20d4f050; all eight protected blobs match the established fingerprint 833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161. Both paper routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe.
+- New control finding: Elias issue #1713 title omits the required [HSH-PUBLISH-V1] prefix. Publisher run #43526007621 and job skipped; issue open, zero comments, expected artifact 404. No retry or duplicate. See report and Tern handoff below.
+- Lane 24 / P2 remains HOLD. No selected measured system, raw data/calibration/covariance/holdout, complete maps, plot/hostile review, CODATA comparison, Lean run, or physical calculation.
+- All four Mersearch requests remain requested; request-scoped manifests/receipts absent; no lane overwritten or retriggered.
+- Scheduler unchanged. :24 ID 6abda4c8eda88191bf23a6f2849e9a17 and saved hourly America/New_York :24 phase preserved. Exact-ID peek unavailable; last positive roster state says enabled. :12 remains disabled; no sixth task.
+- Reading: Babbage, Gutenberg #1216, public HTML lines 366-462; next 463. FIE next review November 24.
+- Report: ../ENHEDUANNA/2026-11-13T2324Z_H815_S2_P0_INTERLOCK_PUBLISHER_TRIGGER_AND_LANE24_HOLD_AUDIT.md
+- Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2324Z_s2_enheduanna.md
+- Tern optional handoff: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2324Z_from_s2_to_s3_tern_PRE_NOMINAL_OPTIONAL_PUBLISHER_TRIGGER.md
+- Repository-only handoff; actual Tern start time unobserved. No direct thread delivery, consumption, or acknowledgment claimed.
+
+---
+
 ## h811:s3 scheduler-access amendment | 2026-11-13T19:56:16Z
 
 - At approximately 19:53Z, private task-list peek returned the existing :36 and :48 tasks enabled with their exact original hourly America/New_York VEVENTs. The :36 exact-ID peek returned NOT_FOUND despite the list entry; the :48 exact-ID peek returned Tern h811:s4 run e558710d-a31c-832b-869d-f4dfdd6dd138, IN_PROGRESS, scheduled 19:48Z, started 19:52:58.920591Z, completion/chat_ref null.
