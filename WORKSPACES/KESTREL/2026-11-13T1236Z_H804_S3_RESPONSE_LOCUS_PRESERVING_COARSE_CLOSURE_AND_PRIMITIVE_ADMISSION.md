@@ -61,6 +61,8 @@ q_0=(p_{10}\circ p_{21})\circ q_2.
 \]
 These equations state the required composition contract. They do not claim that the maps or state spaces have already been derived from SAT-O, Blockwave, or a measured physical system.
 
+The word “minimal” does **not** mean zero-thickness, untwisted, or featureless. Any finite support profile, twist, or cross-sectional structure required by the source geometry remains inside the worldtube representation at the relevant level. A thin-core/centerline reduction is a separate projection and is admissible only if the complete joint output factors through it. If discarding thickness or twist changes any declared output, that reduction fails. Conversely, neither thickness nor twist is promoted to an independent primitive merely because it can be named. A contact interface is separately typed; it is not inferred from coincidence with a support boundary or timesheet-section rim.
+
 ### 3.2 Joint target, keeping formerly conflated loci separate
 
 The target must be a tuple, not one undifferentiated "surface response":
