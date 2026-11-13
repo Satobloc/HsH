@@ -20,6 +20,7 @@ import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import Mathlib
+import HsHVerification.NISTC4Dimensions
 
 /-! Smoke test for the HsH formal-verification pipeline.
     Compilation proves only the stated mathematics, not a physical model. -/
