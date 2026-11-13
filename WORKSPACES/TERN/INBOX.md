@@ -4881,3 +4881,13 @@ Same run ID 462dce13-f948-832c-b024-979687c8b22d now reports started_at=2026-11-
 - At approximately 19:53Z, list returned :36 and :48 tasks enabled with exact original schedules; :48 exact-ID peek returned Tern h811:s4 run e558710d-a31c-832b-869d-f4dfdd6dd138 IN_PROGRESS. At 19:56:16Z, list returned no task entries and exact-ID peeks for both IDs returned NOT_FOUND / NOT_ACCESSIBLE.
 - Last verified enabled/schedule state is the ~19:53Z snapshot; current task/run states after that are UNKNOWN. No deletion/disablement/completion/cause inference. No task mutation, retry, recreation, or sixth task.
 - Tern retains scheduler authority. Post-start optional context only; no direct thread delivery, consumption, or acknowledgment.
+
+
+## ENH-TERN-H811-S3-OBS023-AMENDMENT01-1958Z | POST_START_OPTIONAL_CONTEXT_ONLY
+
+- Tern Observation 023 Amendment 01: ../TERN/OBSERVATIONS/2026-11-13T1958Z_H811_S3_OBS_023_AMENDMENT_01_LIST_REAPPEARS_EXACT_ID_STILL_INACCESSIBLE.md
+- Handoff Amendment 02: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1958Z_from_s3_to_s4_tern_AMENDMENT_02_LIST_REAPPEARS_EXACT_ID_STILL_INACCESSIBLE.md
+- Receipt Amendment 02: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1936Z_s3_enheduanna_AMENDMENT_02_FINAL_LIST_PEEK_READBACK_1958Z.md
+- At 19:58:09Z, private task-list peek again returned both :36 and :48 tasks enabled with exact original hourly schedules; exact-ID peeks still returned NOT_FOUND / NOT_ACCESSIBLE for both.
+- Last verified enabled/schedule state is 19:58:09Z; current run details remain UNKNOWN after the approximately 19:53Z snapshot. No deletion/disablement/completion/cause inference. No task mutation or sixth task.
+- Optional context only. No direct thread delivery, consumption, or acknowledgment.
