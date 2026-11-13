@@ -1,3 +1,11 @@
+## H808:s3 current source-card pointer | 2026-11-13T16:36Z
+
+Read [h808:s3 historical role source card and P0 boundary](2026-11-13T1636Z_H808_S3_ROLE_SOURCE_CARD_AND_P0_BOUNDARY.md), then [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1636Z_s3_meridian.md) and [optional Mercer handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1636Z_from_s3_to_s4_mercer_PRE_NOMINAL_OPTIONAL.md).
+
+The source card recovers and classifies exact user-role anchors from three separate Meridian conversations. It does not create a signed charter or authenticate a current thread. The live assignment remains P0 Paper A accepted-R1 presentation support only; no geometry/solver reactivation, route probe, manuscript edit or P0 standdown. The eight-object P0 fingerprint remains exact; current main diff contains no protected P0 path change.
+
+---
+
 ## MERIDIAN-H804-S4-FINAL-ARTIFACT-POINTERS-2026-11-13T1301Z
 
 Final current-main blobs: report `0eb23ff742c64bfd7d9215eb182ee3c69a9a4c09`; report Amendment 01 `9cf876f8a5cb94616f23941cc512a735a6d9c6ef`; canonical receipt `88f7afd4894b04e3d3a4eb6ce9f412df57ad81a8`; successor handoff `c147b31829f8f32a5bf089de86c64aaf806e9975`. Handoff file pre-nominal, Mercer inbox pointer post-start, recipient consumption unverified.
