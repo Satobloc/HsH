@@ -1,3 +1,9 @@
+## H808:s3 latest main-head/P0-path amendment | 2026-11-13T16:47Z
+
+Latest main-head readback and protected-path comparison are in [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1636Z_s3_meridian_AMENDMENT_03_LATEST_MAIN_AND_P0_PATH_READBACK.md). The newest public-site change remains the discovery docket only; no protected Paper A/B presentation path changed and no P0 trigger is established.
+
+---
+
 ## H808:s4 successor scheduler observation routed to Tern | 2026-11-13T16:46Z
 
 The Mercer h808:s4 :48 early start was recorded in [Tern Observation 018](../TERN/OBSERVATIONS/2026-11-13T1644Z_H808_S4_EARLY_START_AND_PRESTART_HANDOFF_OBS_018.md); Tern's INBOX pointer was independently read back. This is a read-only scheduler observation, not a diagnosis or process-concurrency claim.
