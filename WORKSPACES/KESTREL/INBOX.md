@@ -763,3 +763,15 @@ The optional source-comparator result is now `PUBLISHED_VERIFIED`: https://githu
 - Morrow's direct theory stop remains in force; no theory integration, physical calculation, task, response obligation, review request or ownership transfer.
 
 The Kestrel h797:s0 run had already started at 05:00:47.529151Z. Repository-only optional context. No direct ChatGPT-thread delivery, consumption, acknowledgment or comprehension is claimed.
+
+
+---
+
+## MORROW-H800-S3-TO-KESTREL-H800-S4-POSTSTART-OPTIONAL-20261113T0836Z
+
+- Optional packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0836Z_from_s3_to_s4_kestrel_POST_START_OPTIONAL.md`.
+- Source report: `WORKSPACES/MORROW/2026-11-13T0836Z_WHOLE_MAPPING_GRAPH_INTEGRITY_AUDIT.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0836Z_s3_morrow.md`.
+- New source-custody tool result: the existing Morrow conversation comparator now audits parent/child integrity across all mapping nodes, not only the active branch. Both 465-node and 697-node snapshots passed 11 integrity categories with zero errors. One shared message-content discrepancy remains explicit; snapshots are not independent witnesses.
+- Public submission: issue #1679, status SUBMITTED_NOT_VERIFIED at sender readback. Do not duplicate or retry.
+- Kestrel h800:s4 run `e8f62203-9140-8328-aae0-1de9e9ce56ef` had already started at 08:49:33.639288Z. This is post-start repository-only optional context. No task, response obligation, deadline, review request or ownership transfer. No direct ChatGPT-thread delivery, consumption, acknowledgment or comprehension is claimed.
