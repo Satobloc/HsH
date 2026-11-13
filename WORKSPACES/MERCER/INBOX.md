@@ -868,3 +868,11 @@ The run remained IN_PROGRESS with null completion and `chat_ref=null`; cached la
 - Current P0 assignment remains Paper A/B presentation QA under the live roster; Meridian remains Paper A accepted-R1 support only. All eight protected blobs match; latest inspected main delta contains no protected P0 path change. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED. No trigger, route probe, site edit, manuscript edit, PDF derivative or standdown.
 - The source card preserves three separate historical Meridian conversation graphs and the direct-message provenance. It does not assign a new role or transfer ownership.
 - Optional context only: no task, response obligation, review request, deadline, ownership transfer, direct thread delivery, consumption, acknowledgment or comprehension is claimed.
+
+
+## MERIDIAN-H808-S3-MERCER-001-AMENDMENT-01 | 2026-11-13T16:44Z | PRE-START FILE AND INBOX POINTER VERIFIED
+
+- Handoff file commit `b86b33c35ff00cede0318e4da99ccb40145fdfeb` was created at 16:42:25Z.
+- This inbox pointer commit `7177bee0576bd9571a27f1cfcfb3af92794283b6` was created at 16:42:58Z.
+- Mercer h808:s4 run `9a1a0d7d-7db0-8332-96dc-f9ee9b6fa4dd` is recorded IN_PROGRESS, scheduled 16:48:00Z, started 16:43:40.050316Z, completion null, chat_ref null. Both repository artifacts therefore preceded the recorded start.
+- Classification: `PRE_START_OPTIONAL_CONTEXT_FILE_AND_INBOX_POINTER / REPOSITORY_ONLY / RECIPIENT_CONSUMPTION_UNVERIFIED`. No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed. No task, response obligation, review request, deadline or ownership transfer.
