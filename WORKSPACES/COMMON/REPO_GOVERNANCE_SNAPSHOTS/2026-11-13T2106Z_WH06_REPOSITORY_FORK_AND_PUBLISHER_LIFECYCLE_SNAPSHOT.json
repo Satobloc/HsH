@@ -1,0 +1,281 @@
+{
+  "schema": "wh06-readonly-snapshot-v1",
+  "captured_at": "2026-11-13T21:06:27Z",
+  "main_head_at_capture": "f238a7ca01fe0ae40681604cd2b6f564ba74512c",
+  "source": "GitHub REST API read-only snapshots",
+  "repository_inventory": {
+    "account": "Satobloc",
+    "query": "user:Satobloc",
+    "owned_repository_count": 17,
+    "fork_true_count": 8,
+    "fork_false_count": 9,
+    "all_repo_forks_count_sum": 0,
+    "records": [
+      {
+        "full_name": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+        "name": "SAT_THEORY_ARCHIVE_2023-25",
+        "fork": false,
+        "forks_count": 0,
+        "open_issues_count": 2
+      },
+      {
+        "full_name": "Satobloc/HsH",
+        "name": "HsH",
+        "fork": false,
+        "forks_count": 0,
+        "open_issues_count": 1639
+      },
+      {
+        "full_name": "Satobloc/HSH_RESOURCES",
+        "name": "HSH_RESOURCES",
+        "fork": false,
+        "forks_count": 0,
+        "open_issues_count": 6
+      },
+      {
+        "full_name": "Satobloc/Soxieu",
+        "name": "Soxieu",
+        "fork": true,
+        "forks_count": 0,
+        "network_count": 696,
+        "parent": "razzant/ouroboros"
+      },
+      {
+        "full_name": "Satobloc/satoskills",
+        "name": "satoskills",
+        "fork": true,
+        "forks_count": 0,
+        "network_count": 2008,
+        "parent": "openai/skills"
+      },
+      {
+        "full_name": "Satobloc/SANDBOX",
+        "name": "SANDBOX",
+        "fork": false,
+        "forks_count": 0,
+        "open_issues_count": 2
+      },
+      {
+        "full_name": "Satobloc/BELLOMY-CASES-FULL-RECORD",
+        "name": "BELLOMY-CASES-FULL-RECORD",
+        "fork": false,
+        "forks_count": 0,
+        "open_issues_count": 0
+      },
+      {
+        "full_name": "Satobloc/mission-control-satb",
+        "name": "mission-control-satb",
+        "fork": true,
+        "forks_count": 0,
+        "network_count": 920,
+        "parent": "smolboon/mission-control"
+      },
+      {
+        "full_name": "Satobloc/EngiVerse",
+        "name": "EngiVerse",
+        "fork": false,
+        "forks_count": 0,
+        "open_issues_count": 0
+      },
+      {
+        "full_name": "Satobloc/nlab",
+        "name": "nlab",
+        "fork": true,
+        "forks_count": 0,
+        "network_count": 25,
+        "parent": "ncatlab/nlab"
+      },
+      {
+        "full_name": "Satobloc/FACTORY_FLOOR",
+        "name": "FACTORY_FLOOR",
+        "fork": false,
+        "forks_count": 0,
+        "open_issues_count": 19
+      },
+      {
+        "full_name": "Satobloc/reap",
+        "name": "reap",
+        "fork": true,
+        "forks_count": 0,
+        "network_count": 112263,
+        "parent": "morluto/rea"
+      },
+      {
+        "full_name": "Satobloc/draft_sketch_prove",
+        "name": "draft_sketch_prove",
+        "fork": true,
+        "forks_count": 0,
+        "network_count": 12,
+        "parent": "albertqjiang/draft_sketch_prove"
+      },
+      {
+        "full_name": "Satobloc/VapeRE",
+        "name": "VapeRE",
+        "fork": true,
+        "forks_count": 0,
+        "network_count": 6,
+        "parent": "schlae/VapeRE"
+      },
+      {
+        "full_name": "Satobloc/KleineMcKnightMusic",
+        "name": "KleineMcKnightMusic",
+        "fork": false,
+        "forks_count": 0,
+        "open_issues_count": 0
+      },
+      {
+        "full_name": "Satobloc/Storyo",
+        "name": "Storyo",
+        "fork": false,
+        "forks_count": 0,
+        "open_issues_count": 0
+      },
+      {
+        "full_name": "Satobloc/Apollo-11",
+        "name": "Apollo-11",
+        "fork": true,
+        "forks_count": 0,
+        "network_count": 8321,
+        "parent": "chrislgarry/Apollo-11"
+      }
+    ]
+  },
+  "hsh_issue_pr_inventory": {
+    "repo": "Satobloc/HsH",
+    "open_issues_query": "repo:Satobloc/HsH is:issue is:open",
+    "open_issues": 1445,
+    "open_prs_query": "repo:Satobloc/HsH is:pr is:open",
+    "open_prs": 194,
+    "repo_open_issues_count": 1639,
+    "open_issues_plus_prs": 1639,
+    "owner_authored_open_issues": 1445,
+    "non_owner_authored_open_issues": 0,
+    "publisher_prefix_open_issues": 1376,
+    "publisher_share_of_open_issues": 0.9522491349480969
+  },
+  "publisher_lifecycle_sample": {
+    "sample_size": 7,
+    "all_issues_open": true,
+    "all_label_sets_empty": true,
+    "all_publisher_comments_present": true,
+    "all_issue_envelope_content_exactly_matches_artifact": true,
+    "records": [
+      {
+        "issue": 1406,
+        "title": "[HSH-PUBLISH-V1] Correction: rope tension measurement detail",
+        "state": "open",
+        "labels": [],
+        "comment_id": 6673448768,
+        "sha256": "fb1c75b872399c3a7e37f363f81b1aad34642a8364e8c22661762cd76e38d2b2",
+        "artifact": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aldus-readout-adjustment-layer-correction-20261106t0024z-s2-001.md",
+        "exact_issue_artifact_match": true
+      },
+      {
+        "issue": 212,
+        "title": "[HSH-PUBLISH-V1] Cumulative SAT/HsH audit 2026-10-21",
+        "state": "open",
+        "labels": [],
+        "comment_id": 6326005048,
+        "sha256": "6523e37a308cd7ea0ba31ea1d15409b4ae0dc285ad7dcc6826e2372fe751f778",
+        "artifact": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/cumulative-audit-20261021-1631edt-01.md",
+        "exact_issue_artifact_match": true
+      },
+      {
+        "issue": 651,
+        "title": "[HSH-PUBLISH-V1] Alberr resolution hierarchy gate",
+        "state": "open",
+        "labels": [],
+        "comment_id": 6430869956,
+        "sha256": "85e0812f51a3b304848794e8021549599e9b2a984f3dd95b31224c0fcd19cd0e",
+        "artifact": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/alberr-resolution-hierarchy-gate-20261027t00z-001.md",
+        "exact_issue_artifact_match": true
+      },
+      {
+        "issue": 1565,
+        "title": "[HSH-PUBLISH-V1] M87 2017 uv-triangle observability audit",
+        "state": "open",
+        "labels": [],
+        "comment_id": 6779051733,
+        "sha256": "07e613264839dc6f9f89d7ce77f515894cc663165efd73e41d795a33e3389666",
+        "artifact": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/m87-uv-triangle-observability-audit-20261110t2036z-001.md",
+        "exact_issue_artifact_match": true
+      },
+      {
+        "issue": 1230,
+        "title": "[HSH-PUBLISH-V1] minkowski-worldtube-slice-20261101-001",
+        "state": "open",
+        "labels": [],
+        "comment_id": 6565303880,
+        "sha256": "de2b1387afc722cf977f093ac3a787f7cd47e9afea1fb607c115552fbf4c6e3e",
+        "artifact": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/minkowski-worldtube-slice-20261101-001.md",
+        "exact_issue_artifact_match": true
+      },
+      {
+        "issue": 1215,
+        "title": "[HSH-PUBLISH-V1] Kestrel independent reader reconstruction trial",
+        "state": "open",
+        "labels": [],
+        "comment_id": 6560181180,
+        "sha256": "c963558880d98a67f5e61b537a3ae79b25396c9da9ded7f57c889897695c7a63",
+        "artifact": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-independent-reader-reconstruction-trial-20261101t1536z-s3-001.md",
+        "exact_issue_artifact_match": true
+      },
+      {
+        "issue": 1463,
+        "title": "[HSH-PUBLISH-V1] Worldtube distinguishability ladder and evidence matrix",
+        "state": "open",
+        "labels": [],
+        "comment_id": 6714216810,
+        "sha256": "febe3e9b9588f5560464e8503785b5c2a11b65df59fb3e79ee4f909f8c107120",
+        "artifact": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-worldtube-distinguishability-ladder-20261107t2236z-s3-001.md",
+        "exact_issue_artifact_match": true
+      }
+    ]
+  },
+  "publisher_implementation": {
+    "workflow": ".github/workflows/issue-publisher.yml",
+    "workflow_blob": "689984b19027ed84f0e949f01c4d8a89edf68fee",
+    "trigger": "issues.opened",
+    "script": "tools/issue_publish.py",
+    "script_blob": "7067e8d9f27a273d90e443afb0493260d9a3ecbf",
+    "behavior": [
+      "owner-authored [HSH-PUBLISH-V1] issue only",
+      "validates exact four-key envelope and SHA-256",
+      "writes immutable fixed-path artifact",
+      "reads back exact bytes",
+      "posts PUBLISHED comment"
+    ],
+    "no_close_action": true,
+    "no_label_action": true
+  },
+  "fork_count_interpretation": {
+    "owned_forks": 8,
+    "repo_forks_count_sum": 0,
+    "network_counts_are_not_owned_fork_counts": true,
+    "largest_network_count": {
+      "repo": "Satobloc/reap",
+      "network_count": 112263
+    },
+    "other_network_counts_over_100": [
+      {
+        "repo": "Satobloc/satoskills",
+        "network_count": 2008
+      },
+      {
+        "repo": "Satobloc/mission-control-satb",
+        "network_count": 920
+      },
+      {
+        "repo": "Satobloc/Apollo-11",
+        "network_count": 8321
+      }
+    ],
+    "reported_100_plus_ui_origin": "unverified; network-count display is a plausible source, not established"
+  },
+  "limitations": [
+    "Full paginated issue and PR item snapshots were not captured; counts use GitHub search total_count and repository metadata.",
+    "The GitHub repository search query fork:true returned all 17 results in this connector; per-repository REST fork booleans were used instead.",
+    "The exact UI or screenshot that produced the reported '100+' figure was not available.",
+    "No issues were closed, relabeled, edited, or bulk-mutated."
+  ]
+}
