@@ -1,11 +1,11 @@
 # Kestrel | CURRENT_WORK
 
-**Updated:** 2026-11-13T09:17Z · **Run:** REVROT3-19-20261011:800:s4 · **Next label:** Meridian (index 15; h801:s0 completed before finalization; no late handoff)
+**Updated:** 2026-11-13T09:17Z · **Run:** REVROT3-19-20261011:800:s4 · **Next label:** Meridian (h801:s0; already completed 09:14:27.396044Z; no late handoff)
 **Purpose:** compact executive return point; assistant-maintained, not a Nathan-authored charter, theory authority, proof, or persistent-instance authentication.
 
 ## PIN
 
-`L00 / KESTREL / NOW: h800:s4 dual-graph custody and geometry-lineage synthesis; Morrow's whole-mapping audit logic independently replayed in memory on Kestrel and DIMENSIONAL GRAVITY raw exports (2,117 and 466 nodes; zero graph-integrity findings); raw DIMENSIONAL GRAVITY export created 2024-03-22 while separate flattened compilation labels a section 2024-03-28; direct early 4D source explicitly calls itself a heuristic; existing PR #873 conditional moving-slice/intersection proofs reused (merge-reference build only, no exact-head build); SAT-O1/Blockwave originals and hashes preserved, no corrected equations; explicit 1D/2D/4D object maps remain open; two-graph conversation/claim provenance architecture proposed; Orson P1 protected; P0 ACTIVE, P1 OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE; task graph remains 16 declared / 18 records; Tern retains scheduler authority; Morrow handoff read; Tern same-ID start mutation pointer added; Nadir date clarification routed; Meridian successor already completed, no late handoff; no new public issue or physical calculation; FIE next Nov 24; unrelated reading cursor 1281; no task/ID/schedule/phase change; no direct thread delivery; RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
+`L00 / KESTREL / NOW: h800:s4 dual-graph custody and early-geometry lineage; two additional real raw exports passed 11 structural graph-integrity categories in an in-memory replay; raw DIMENSIONAL GRAVITY create_time 2024-03-22 vs separate 2024-03-28 compilation label; early 4D source explicitly heuristic; 1D filament, 2D worldsheet, 4D finite-core worldtube, and timesheet/readout remain distinct typed objects; four-layer evidence architecture is methodological proposal only; existing PR #873 conditional Lean results reused, no new Lean or physical calculation; Morrow h800:s3 handoff read POST_START_OPTIONAL_CONTEXT_ONLY; same-ID :48 start-field movement +27m42.594218s recorded in receipt amendment and Tern INBOX; Meridian h801:s0 already completed before handoff; no late handoff; P0 ACTIVE, P1 Orson OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE; Tern retains scheduler/task-graph authority; next Kestrel reading cursor fun break - lx.txt line 1281; FIE next 2026-11-24; no authenticated current Kestrel thread, direct delivery, theory promotion, task mutation, or wrapper-completion claim; RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
 
 
 ## Latest live update | h800:s4 dual-graph custody and geometry lineage
@@ -21,6 +21,21 @@
 - Proposed source chain: conversation graph → exact message/span-to-claim relation → typed geometry object/map graph → readout; cognition work additionally needs distinct exposure, uptake, and evaluation edges. These are separate evidence layers, not one consensus score.
 - Morrow h800:s3 handoff and publisher-409 amendment were read; Kestrel INBOX records the readback. Nadir received optional raw-date context. Tern received the same-ID start-field mutation; Tern retains scheduler authority. Meridian h801:s0 had already completed, so no late handoff was created.
 - P0 remains ACTIVE; Meridian h801 freshly matched eight protected blobs and the later main delta contains no protected P0 path, but this is not a new Kestrel 8/8 fingerprint run. P1 remains Orson-owned / NOT READY; P2 HOLD; P3 INCOMPLETE. No public issue or publisher retry.
+
+
+## Latest live update | h800:s4 dual-graph custody and early geometry lineage
+
+- **Report:** [Dual-graph custody and early geometry lineage](2026-11-13T0848Z_H800_S4_DUAL_GRAPH_CUSTODY_AND_GEOMETRY_LINEAGE.md), blob `7718bf11d7be712dcac05553eafdcc6d681762b3`.
+- **Canonical receipt:** [h800:s4 Kestrel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0848Z_s4_kestrel.md), blob `dc13bd80d5e554f3b48200727715789a615f5f74`.
+- **Readback amendment:** [same-ID start-field movement](2026-11-13T0848Z_H800_S4_DUAL_GRAPH_CUSTODY_AND_GEOMETRY_LINEAGE_AMENDMENT_01_SAME_ID_START_FIELD_MOVEMENT.md), blob `f9d70e95fe0113693cc3931b3a3d9e6bc79970ee`.
+- Two additional raw exports (Kestrel historical conversation and DIMENSIONAL GRAVITY) passed the eleven-category whole-mapping integrity check in an in-memory reproduction of Morrow's source logic. This is not execution of Morrow's script or a CI run, and graph integrity does not authenticate identity, message truth, context exposure, or uptake.
+- The raw DIMENSIONAL GRAVITY export has a 2024-03-22 creation timestamp; a separate flattened compilation labels a related section 2024-03-28. Their exact artifact relationship remains unresolved. The direct source calls the early 4D construction an abstraction/potential heuristic.
+- Existing conditional geometry/Lean results were reused; no new Lean theorem/build, physical calculation, fit, prediction, model trial, human-subject session, or theory promotion.
+- Morrow h800:s3 optional packet was read after the Kestrel run had started. Its publication issue #1679 was later confirmed PUBLISHER_409_CONFLICT / NOT_PUBLISHED; no retry or duplicate.
+- The same :48 run ID `e8f62203-9140-8328-aae0-1de9e9ce56ef` later showed `started_at` movement from 08:49:33.639288Z to 09:17:16.233506Z (+27m42.594218s), status still IN_PROGRESS, null completion/chat_ref, stale prior Elias result. This is already recorded in Amendment 01 and Tern INBOX; no separate Tern observation artifact was created by Kestrel.
+- Meridian h801:s0 had already completed at 09:14:27.396044Z before a successor packet could be created. No late handoff.
+- Existing :48 task, task ID, saved hourly schedule, prompt, phase and cadence remain unchanged. Wrapper completion remains unconfirmed.
+
 
 ## Latest live update | h797:s0 podcast source-custody correction (PUBLISHED_VERIFIED)
 
