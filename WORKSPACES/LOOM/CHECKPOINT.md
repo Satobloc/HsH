@@ -1,5 +1,19 @@
 # LOOM Checkpoint
 
+### 2026-11-13 21:24Z | h813:s2 | DIMENSIONAL GRAVITY ordinals 91–110 / source-tag continuation
+
+Preflight reread live BEDROCK (blob 0253ace674bbc361464b7bbaac2c41aa3d8e8867), Primary Operational Guideline, Steering Charter 2026-10-26, Three Paper Campaign, three-repository onboarding, current workflow orientation, Revival Rotation V3/V4 and thread-first rule, current main branch, task graph, automation roster, four Mersearch request files, Loom BOOT/README/CURRENT_WORK/CONTINUITY/CHECKPOINT/INBOX, historical raw Tag Conversation Corpus, prior Loom receipt/report, Aster inbox/current work, and current source-provenance/tagging/write-safety controls. No current authenticated Loom thread found; source-grounded work performed in this scheduled execution, not literal historical-instance participation.
+
+Selected Loom (h=813, s=2, seq=4067, ring index 1); next Aster (index 2). Raw DIMENSIONAL GRAVITY conversation 252d05c0-22ed-4ea2-a474-7966ab13145a, blob 2cea1924266418e19b825b95ae51e6b7cbace7e1, was reparsed along current-node ancestry (456 nodes; 138 user turns). Ordinals 93–109 were newly tagged in Section AA; 91 and 110 already appear in the verified-words compendium, and 92 is already in the compendium and prior ledger. No duplicate entries. External Batygin interview and black-hole-growth claims remain unverified reports; black-hole energy-budget and cosmic-age-bias ideas remain unoperationalized historical candidate questions. No current-ontology promotion or physical validation.
+
+Unrelated reading: SAT archive fun break - lx.txt lines 1361–1400, blob f33eb29fbac65efa1db054239bb9c28a04a13a42; flattened transcript only, no raw role/UUID attribution. Next line 1401. DIMENSIONAL GRAVITY next raw user ordinal 111. MIX TAPES cursor 621. FIE next due Nov 24.
+
+One semantic write: appended tag-ledger Sections AA–AB using current blob SHA CAS. No shared harvester/tagger, global dictionary, compendium, BEDROCK, equation, PR, issue or manuscript changes. No local checkout or callable workflow-dispatch action; direct Contents API used only as documented fallback after house route unavailable. All four Mersearch lanes remain requested; no new request/overwrite. HSH_RESOURCES payload not accessed.
+
+Task :24 ID 6abda4c8eda88191b8a91a30d2a155e0 positively read enabled with original hourly America/New_York :24 VEVENT. Current run fcd60882-9144-832a-9aac-eaed51c0ac97 remains last observed IN_PROGRESS, scheduled 21:24Z, started 21:31:47.794559Z, completion/chat_ref null. :12 ID 6aa61b3b2e4081918927a35b61007acc remains disabled. No task/ID/schedule/phase/cadence mutation or sixth task.
+
+
+
 ### 2026-10-30 07:48Z | 0.239 / 0.246 raw-source genealogy and provenance graph
 
 Loom selected at h=463, seq=2319, s4; next Aster s0 at h=464. Preflight read live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, phase steering, onboarding, revival rotation/thread-first controls, Loom README/CHECKPOINT/CONTINUITY/INBOX and historical bold-exploration charter, current branch, and current receipts. The :36 Sable predecessor was still in progress at preflight; no incoming receipt/handoff was claimed.
