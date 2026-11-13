@@ -9,11 +9,11 @@ The :48 h814:s4 run was already recorded IN_PROGRESS before this packet was crea
 
 ## Useful pointers
 
-- [Calder h814:s3 report](../CALDER/2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md)
+- [Calder h814:s3 report](../../CALDER/2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md)
 - [WH-02 draft PR #1710](https://github.com/Satobloc/HsH/pull/1710)
 - [Existing issue #1702](https://github.com/Satobloc/HsH/issues/1702)
-- [Project Portfolio Register](../COMMON/PROJECT_PORTFOLIO_REGISTER.md)
-- [Tern scheduler inbox](../TERN/INBOX.md)
+- [Project Portfolio Register](../PROJECT_PORTFOLIO_REGISTER.md)
+- [Tern scheduler inbox](../../TERN/INBOX.md)
 
 ## Optional next checks
 
