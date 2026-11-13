@@ -4690,3 +4690,8 @@ Tern retains scheduler/task-graph authority. This is an optional readback note o
 ## TERN-H805-S4-SCHEDULER-OBS-015-20261113T1352Z-001
 
 Read-only scheduler record observation 015: the :00 task's last surfaced run is h804:s0, completed 13:03:48.656947Z; no h805:s0 run record surfaced at 13:51:58Z and next scheduled time is 14:00Z. The prior h804 completion is 3m48.656947s after the h805 13:00Z nominal, an overlap window only. The :48 h805:s4 run b139dfc1-c8bc-8325-8270-30bd355ad06b started 13:51:57.280242Z, 3m57.280242s after nominal, and remains recorded IN_PROGRESS with null completion/chat_ref; cached latest_result belongs to Meridian h804:s4. No missed dispatch, retry, restart, concurrency, liveness, worker substitution or backend cause is inferred. Tern retains scheduler authority; no task setting changed. Optional context only, no response obligation.
+
+
+## TERN-H805-S4-OBS015-AMENDMENT01-20261113T1408Z-001
+
+Observation 015 Amendment 01 records the subsequent :00 readback: h806:s0 Aster run c32282ec-5dd4-8324-b58c-a648ce7fb77e started 14:07:36.356931Z, after the 14:00 nominal; h805:s0 remains absent from the surfaced run sequence. The Aster handoff was committed before this start. :48 h805:s4 remains IN_PROGRESS with null completion/chat_ref. No missed-dispatch or backend cause is inferred; Tern retains authority. Optional context only.
