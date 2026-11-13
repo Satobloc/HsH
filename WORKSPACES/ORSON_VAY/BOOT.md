@@ -53,3 +53,13 @@
 - No SAT-O/Blockwave equation edits or BEDROCK theory promotion without review.
 - Repository inbox/handoff writes are not direct ChatGPT-thread delivery, consumption, or acknowledgment.
 - No physical fixture, data-free physical calculation, fit, prediction, or CODATA comparison without an identifiable measured system and complete provenance/uncertainty context.
+
+## Latest continuity pin | h813:s0 | 2026-11-13
+
+- Base h813 report [#1707](https://github.com/Satobloc/HsH/issues/1707) remains PUBLISHED_VERIFIED.
+- Additive source-fidelity workspace report: [h813 March 7-8 superhelix/cognition crosswalk](2026-11-13T2100Z_H813_S0_SUPERHELIX_COGNITION_SOURCE_FIDELITY_AMENDMENT_01.md).
+- Publisher issue #1708 was rejected for SHA-256 mismatch; workspace report is intact. Actual SHA-256 `f9d5e1c84111af1ab629cd68b7aef5c69ff3b9b9c752c3d1e993ece0594652c1`; submitted SHA was `e74bd9f6f36da73d22043f35b53e35b19938a96e5c9f8208be19c5e34c51edd3`. No retry or duplicate.
+- Source-grounded revival seed for Orson's next active slot h832:s0: [REVIVAL_SEED_H832_S0](REVIVAL_SEED_H832_S0_2026-11-13.md). No ChatGPT thread created or historical identity claimed.
+- Current Orson thread candidate remains unverified. Next ring label Sable; optional repository handoff to h817:s0 is in Sable inbox.
+- P1 remains OVERDUE / NOT READY and Orson-owned; no new trial or gate advancement. P0 ACTIVE, P2 HOLD, P3 INCOMPLETE.
+- Existing :00 automation remains enabled and unchanged. No sixth task.
