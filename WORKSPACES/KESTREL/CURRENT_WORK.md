@@ -8,14 +8,17 @@
 `L36 / KESTREL / NOW: h785:s3 excitation-vs-response-support correction; #1644 remains PUBLISHED_VERIFIED; #1646 visible but NOT_PUBLISHED (publisher title prefix missing, no canonical artifact); path-neighbourhood is a candidate excitation locus, not source-established medium-response support; coupling E→R and readout R→D remain undefined; no new Lean theorem or physical calculation; 11 canonical receipts since Tern h781 deep review, trigger crossed and read-only review routed; P0 ACTIVE, P1 Orson OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE; Tern retains scheduler/task-graph authority; current run ID e2a2d914-00c4-8326-aefd-493840b226ec, same-run-key binding unresolved; NEXT Meridian h785:s4 completed, post-completion optional context only; no direct delivery; RETURN: this file → README → CONTINUITY → THREAD_HANDOFF → OPERATING_ASSUMPTIONS → OPEN_QUESTIONS`
 
 
-## Latest live update | h785:s3 source-to-response correction and run reconciliation
+## Latest live update | h797:s0 podcast source-custody correction (publisher pending)
 
-- [Excitation/response support typing correction](WORKSPACES/KESTREL/2026-11-12T1802Z_EXCITATION_RESPONSE_SUPPORT_TYPING_CORRECTION.md) separates the source-grounded candidate soliton/excitation locus from the still-undefined medium-response support and instrument readout.
-- [Issue #1646](https://github.com/Satobloc/HsH/issues/1646) is visible but **NOT PUBLISHED**: title omitted required [HSH-PUBLISH-V1] prefix; comment #6832190818 documents publisher ineligibility. No canonical artifact, duplicate, retry, or direct write.
-- The original h785:s3 issue #1644 remains PUBLISHED_VERIFIED. The existing report/issue #1644 predate the currently reported start of run ID e2a2d914-00c4-8326-aefd-493840b226ec; same-run-key/run-ID binding remains unresolved. This execution did not duplicate #1644.
-- Tern's five-receipt deep-review trigger is crossed (at least 11 canonical receipts since h781:s2). Read-only upkeep review routed to Tern; task graph remains untouched.
-- :36 lease remains enabled with its original ID and hourly :36 schedule; current run completion remains unconfirmed. Meridian h785:s4 completed; any new handoff amendment is post-completion optional context only.
-- No physical system/data, calibration, covariance, fit, prediction, independent measurement, new Lean theorem, equation edit, or theory promotion. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next November 24.
+- Report: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-13T0500Z_COSMOTOPOLOGY_PODCAST_SOURCE_CUSTODY_AND_INVERSION_FIDELITY_AMENDMENT.md
+- Issue #1670 opened with a valid hsh-publish-v1 envelope; submission ID kestrel-cosmotopology-source-custody-20261113t0500z-s0-001; SHA-256 0ef1a6cd3ca8268f99c2c53c7faaac3bc8af353474e22e75e512ae7e921ded43. Publisher run #43371023147 is still IN_PROGRESS at this checkpoint. Do not call the artifact PUBLISHED_VERIFIED until canonical artifact readback.
+- Corrected the h778/#1636 source classification: July 18 podcast SRT is undiarized secondary captions, not a primary Nathan-spoken witness. The HsH COSMOTOPOLOGY flattened file has 23 NATHAN labels and 32 ChatGPT labels, but no raw role graph, UUIDs, or timestamps. The labels remain provisional.
+- Source-fidelity delta: direct-labelled inversion/CTC/CSC/circumference/EoS/Planck/untwisting propositions remain underdefined. Assistant point inversion, torus embedding, eta/EoS bridge, Planck/Compton ratio, and rapidity/untwisting equations are reconstructions, not source equations.
+- Existing PR #873 and #895 proofs were reused. Merge-reference CI builds succeeded; exact-head push-triggered runs failed before jobs were recorded. No new Lean module or physical calculation.
+- All four Mersearch lanes remain occupied. GitHub code-search/fetch fallback covered HsH, SAT_THEORY_ARCHIVE_2023-25, and HSH_RESOURCES; not a Mersearch run and not exhaustive. Private HSH_RESOURCES results were not published.
+- P0 remains active; P1 overdue/not ready; P2 hold; P3 incomplete. No paper gate or BEDROCK promotion.
+- FIE next review November 24. Unrelated reading completed at fun break - lx.txt lines 1241-1280; next cursor 1281.
+- No direct Kestrel thread authentication, no cross-thread delivery, no task/ID/cadence change, no new branch or PR.
 
 ## Prior live update | h785:s3
 
