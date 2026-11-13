@@ -46,3 +46,5 @@ Each path was independently fetched after writing. These are Git blob identities
 - Tern CONTINUITY after final Lean result: `e6e4cac9658fb85d5e8c9a16dd46328920c01aa7`.
 
 All five paths were independently fetched after writing. These are Git blob identities, not SHA-256 file checksums.
+
+- Morrow inbox after the final receipt-amendment pointer: `957aed28287b77e6b8c4b3bf1c424754b61a4e2a`.
