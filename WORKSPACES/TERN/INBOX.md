@@ -4964,3 +4964,10 @@ Same run ID 462dce13-f948-832c-b024-979687c8b22d now reports started_at=2026-11-
 - [Calder report](../CALDER/2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md) and [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2236Z_s3_calder.md).
 
 Repository-only observation pointer; no direct Tern-thread delivery, consumption, acknowledgment, response obligation or ownership transfer is claimed.
+
+
+## CALDER-H814-S3-SCHEDULER-READBACK-UPDATE-02 | 2026-11-13
+
+Later exact-ID readback: the :00 h814:s0 run is now IN_PROGRESS, recorded start 22:58:00.804972Z. The :24 h814:s2 run's last successful readback remains IN_PROGRESS at 22:49:38.445949Z, but the latest exact-ID peek returned no current record. The :36 and :48 records remain IN_PROGRESS. Latest recorded start order is s3 → s4 → s2 → s0, versus nominal s0 → s2 → s3 → s4. This is record-order/access evidence only; no process concurrency, retry, restart, deletion, disablement or cause inferred. Tern retains scheduler authority; no task settings changed.
+
+WH-02 remains draft PR #1710; mergeability flag fluctuated, latest true; no GitHub Actions CI run observable. WH-05 remains blocked pending authorized lane release. See [Calder report](../CALDER/2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md).
