@@ -18,7 +18,7 @@ try:
 except ImportError:
     import date_conversation_exports as dates
 
-ROOTS=("DEVELOPMENT_FULL_CONVOS", "LIVE CONVOS")
+ROOTS=("DEVELOPMENT_FULL_CONVOS", "LIVE CONVOS", ".")
 
 def audit(root:Path)->dict:
     records=dates.build_records(root,ZoneInfo(dates.DEFAULT_TIMEZONE))
