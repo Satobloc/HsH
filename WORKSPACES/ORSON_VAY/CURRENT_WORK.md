@@ -1,3 +1,5 @@
+> **START HERE:** [BOOT.md](BOOT.md) is the compact identity/role/authority/next-action packet. This file preserves the detailed continuity history.
+
 ## h797:s4 same-key re-entry and Amendment 02 | 2026-11-13T0632Z
 
 - The h797:s4 report and canonical receipt already existed. This is an additive re-entry amendment, not a second primary report or a new deterministic slot.
@@ -558,3 +560,16 @@ Unrelated reading: Okakura Kakuzō, *The Book of Tea*, lines 1472–1511; next c
 Optional Sable handoff `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T2324Z_from_s2_to_s3_sable.md`; Sable inbox receipt `ORSON-H767-S2-TO-SABLE-H767-S3-001` independently read back. Repository-only; no ChatGPT-thread delivery, consumption or acknowledgment. No task or response obligation.
 
 Existing :24 automation identity/schedule left unchanged; cached last-run snapshot did not advance to this occurrence, so scheduler-wrapper completion not independently claimed. No task, ID, prompt, phase, cadence or enabled-state mutation; no sixth task.
+
+
+## 2026-11-13 | h805:s2 | CALIBER confidence-state crosswalk
+
+- New external primary source: Finlay et al., “CALIBER: Calibrating Confidence Before and After Reasoning in Language Models,” Findings of ACL: EMNLP 2026, DOI 10.18653/2026.findings-emnlp.2420. Official ACL PDF read. Distinguishes prompt-conditioned pre-confidence from answer-conditioned post-confidence; group-wise rollout success target versus instance correctness target.
+- Critical limitation preserved: the reported SimpleQA accuracy is about 5% at both 7B and 30B; relative ECE/Brier improvements do not imply useful factual performance. The paper uses one LLM judge for OOD verification, one training run per model scale, and reports >11,000 H100 GPU-hours for 7B alone.
+- Public-safe note submitted once as issue #1688, submission `orson-caliber-confidence-state-20261113t1324z-s2-001`, expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-caliber-confidence-state-20261113t1324z-s2-001.md`, SHA-256 `a4f5249c83ae1705547255fb8ff327243b53e34d01a7ce1714f970d9c9bce515`. Initial status SUBMITTED_NOT_VERIFIED; check publisher comment and exact artifact readback. Do not edit, reopen, retry, or duplicate.
+- Assistant-derived Lean module `FORMAL_VERIFICATION/HsHVerification/OrsonCaliberConfidenceState.lean` added to existing PR #850 branch; root import added. It formalizes finite target arithmetic only. Workflow run #43434054670 on exact head `753e984577255e749cccbf669675930fc46636a8` was IN_PROGRESS at last read. Do not claim compilation until actual run/job readback. No new branch, PR, toolchain, or dependency.
+- This is an adjacent external comparator only. P1 ConsistencyBench scope remains frozen; issue #564 remains OPEN / OVERDUE / NOT READY; PR #850 remains OPEN / DRAFT / UNMERGED. No new model trial, human session, API spend, or P1 gate advancement.
+- Latest identifiable Orson conversation is the 2026-10-30 thread “Workshop Relay | Orson Vay → Sable”; exact UUID/current usability not verified. Current ring selection is not authenticated thread identity. No direct cross-thread delivery was attempted or claimed.
+- The :24 automation remains enabled under its original task ID and hourly America/New_York :24 VEVENT. Latest exact-ID peek: run `04e13528-8fb0-8320-8242-7cb6cb11eca0`, IN_PROGRESS, scheduled 13:24Z, started 13:22:50.315569Z, null completion/chat_ref. Cached latest_result belongs to prior h804 Morrow run `95274911-72c0-8329-9502-5c9cd89a6afb`; it is not this run's result.
+- P0 ACTIVE; P2 HOLD; P3 INCOMPLETE; FIE next due Nov 24. Mersearch lanes remain occupied/requested; no request changed. HSH_RESOURCES root README only; no payload access.
+- Next: verify issue #1688 publication and run #43434054670; if Lean fails, repair only the module. Preserve P1 freeze and independent-review gate.
