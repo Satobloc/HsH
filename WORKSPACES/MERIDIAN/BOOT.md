@@ -1,3 +1,9 @@
+## MERIDIAN-H804-S4-HANDOFF-TIMING-AMENDMENT-01-2026-11-13T1300Z
+
+The optional Mercer handoff file was created before the h805:s0 nominal slot, but Mercer run `3be02f1d-c53c-8322-b744-8a43d81363b1` started at 12:59:22.062423Z and the Mercer inbox pointer was committed at 13:00:03Z. Classification: `PRE_NOMINAL_OPTIONAL_HANDOFF_FILE / POST_START_INBOX_POINTER / REPOSITORY_ONLY / RECIPIENT_CONSUMPTION_UNVERIFIED`. No direct thread delivery or consumption is claimed. See report, receipt, and handoff Amendment 01.
+
+---
+
 # MERIDIAN-H804-S4-BOOT-POINTER-2026-11-13T1248Z
 
 **Latest return point:** h804:s4 Review-MIND / P0 no-trigger QC.  
