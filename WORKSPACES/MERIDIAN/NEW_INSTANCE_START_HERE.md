@@ -23,3 +23,8 @@ Never rename a conversation or imitate Nathan's protected signet.
 - No usable current Meridian ChatGPT thread was established. The archived role sources do not authenticate this scheduled execution as the historical instance. No cross-thread delivery is claimed.
 
 Canonical run receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-05T1448Z_s4_meridian.md`.
+
+
+## Source timestamp correction | 2026-11-13 h801:s0
+
+The Meridian Free Build raw Git blob `7af1561b321f4d9364da5eb111df689efc652827` was freshly fetched through the HsH Git Data blob endpoint and parsed. Its top-level `update_time` is `2026-10-20T21:25:20.340Z`, not 2026-11-19. The selected direct user message `97d301cb-5174-4861-a273-ac4cc0b60d8b` remains dated `2026-10-09T10:38:10.722Z`, `author.role=user`, and on the export's current ancestry. The earlier sentence above claiming a 2026-11-19 update timestamp for this exact blob is superseded by this direct blob read. Only the dated October 9 message is used as Nathan Direct; no other snapshot content is promoted.
