@@ -100,7 +100,7 @@ jobs:
                     continue
                 old_path, new_path = record.get("old_path"), record.get("new_path")
                 if isinstance(old_path, str) and isinstance(new_path, str):
-                    subprocess.run(["git", "add", "-A", "--", old_path, new_path], check=True)
+                    subprocess.run(["git", "add", "-A", "--", ":(literal)" + old_path, ":(literal)" + new_path], check=True)
                     staged += 1
             print(f"staged_root_renames={staged}")
             PY
