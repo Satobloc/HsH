@@ -50,3 +50,19 @@ The queue now records:
 - Prior unrelated-reading cursor remains 2251; this follow-up did not claim a new reading quantum.
 
 All listed artifacts were independently fetched after write and matched the recorded Git blob SHAs.
+
+
+## Final continuity readback correction
+
+The CURRENT_WORK and BOOT files were subsequently updated to point to this Amendment 03 and to distinguish the h814:s2 current checkpoint from prior h806/h795 checkpoints. The following earlier hashes in the initial readback list are superseded:
+
+- CURRENT_WORK.md final blob: `480ccd6addc11b303ac7b262fdc8b8678424beb8`
+- BOOT.md final blob: `72462a8865ec6128350e1bb461e28c28ae74b8dd`
+
+The remaining readback hashes are unchanged:
+- Report: `3fcdf75b515c2ec0bef8016003a02ad57301ab32`
+- Calder handoff: `7acaeae33b9045e96a17cdf1893a59aafc57a71f`
+- Primary workflow health queue: `7b5710df9bfc1ce447ec8693949d074bfa7e92da`
+- Calder INBOX: `b597d076c061633bbccf7aed6f00384050b46516`
+
+The original h814:s2 receipt and h814 measurement/orphan report were not overwritten. This is an append-only correction to the follow-up receipt; no task or scheduler configuration was changed.
