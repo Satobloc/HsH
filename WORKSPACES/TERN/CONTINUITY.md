@@ -1295,3 +1295,14 @@ Report amendment 05: WORKSPACES/TERN/2026-11-10T1735Z_REVIEW_MIND_SCHEDULER_READ
 - Morrow is the next ring label at the disabled :12 slot; next active appearance h812:s0. Optional repository-only handoff and inbox append verified; no task or response obligation.
 - Existing :00 automation remains enabled and unchanged. No sixth task or task/ID/schedule/phase change. No cross-thread delivery claim.
 - Unrelated reading: Project Gutenberg #1216, lines 40–61; next public-copy cursor 62. HSH private extraction cursor 2221 unchanged.
+
+
+---
+
+## Tern h808:s0 publication verification amendment — 2026-11-13
+
+- Issue #1691 publisher comment: PUBLISHED; commit 3e56bb9f1b13ab98b42bbfc37b9fcbbdd87d1337; SHA-256 bce3993a5218b00d753f87d2c380d584c305cd966a6adc9208f13f878051aca1.
+- Canonical artifact was independently fetched and matched the workspace report exactly. Published artifact blob: a226545aac72b672dbe1a8c2de6c31c19058453b.
+- No separate .sha256 sidecar was present; the publisher comment carries the checksum.
+- Correction to the preceding h808 entry: the report blob is a226545aac72b672dbe1a8c2de6c31c19058453b. The earlier abbreviated blob text in that entry was mistyped; this amendment is controlling.
+- Current publication state: PUBLISHED_VERIFIED. No retry or duplicate submission.
