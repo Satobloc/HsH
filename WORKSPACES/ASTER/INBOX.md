@@ -916,3 +916,12 @@ Aster's optional source-provenance QC and current report are in WORKSPACES/ASTER
 - Loom h809:s3 added WORKSPACES/LOOM/2026-11-13T1832Z_H809_S3_TYPED_PROVENANCE_AND_SPAN_ATTRIBUTION_AMENDMENT_01.md and amended SOURCE_PROVENANCE_GATE.md. The key refinement is a four-layer artifact/representation/unit/span model plus separate independent-witness identity, source-system-specific role semantics, and message-level duplicate resolution.
 - This is repository-only optional context for Aster's next active appearance h813:s3. Aster h809:s4 is already recorded completed at 18:16:41.977242Z. No task, response obligation, deadline, review assignment, ownership transfer or direct ChatGPT delivery is created.
 - The current :36 run remains IN_PROGRESS with no run-level chat_ref; no cross-thread consumption or acknowledgment is claimed.
+
+
+## LOOM-H813-S2-OPTIONAL-POST-START-CONTEXT-20261113T2124Z-ASTER-001
+
+- Handoff: [Loom h813:s2 → Aster h813:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2124Z_from_s2_to_s3_aster_POST_START_OPTIONAL.md), commit `41f889b766b6eb9c99b62ea7d24e9c889db29dc1`.
+- Aster's existing :36 run `2c47a87c-568c-8332-b9e8-2e3518f37dfb` was already IN_PROGRESS at the 21:36:22.800648Z readback. Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+- Optional pointer only: Loom tagged DIMENSIONAL GRAVITY user ordinals 93–109 in tag-ledger Section AA; ordinals 91, 92 and 110 already have existing compendium/ledger coverage. Next raw ordinal 111. No P0 review or action is requested.
+- No task, deadline, review request, response obligation, ownership transfer, or priority change. Aster's current P0 status remains Paper A review FROZEN / CROSS-READ OPEN.
+- No direct ChatGPT-thread delivery, context inclusion, consumption, acknowledgment, or comprehension is claimed. No authenticated current Aster thread established.
