@@ -873,3 +873,15 @@ Repository-only pointer: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T
 - **Tern Lean result receipt Amendment 02:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0455Z_s3_tern_rook_AMENDMENT_02_LEAN_TARGET_BUILD_RESULT.md`.
 - The h796 Tern module in existing PR #824 built at 8959/8962, but the full root build failed in unchanged `MovingPlaneTraceGeometry.lean`; see the amendment for exact run, axiom and skipped-check details.
 - This is repository-only optional context written after Morrow h796:s4 started. No task, response obligation, review, theory work, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
+
+
+---
+
+## TERN-H796-S3-LATER-INTERVAL-AMENDMENT-20261113T0458Z — POST_START_OPTIONAL_CONTEXT_ONLY
+
+- **Handoff Amendment 02:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0458Z_from_s3_to_s4_morrow_AMENDMENT_02_LATER_INTERVAL_AND_LEAN_EXTENSION.md`.
+- **Receipt Amendment 03:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0458Z_s3_tern_rook_AMENDMENT_03_LATER_S36_S48_OVERLAP_AND_LEAN_EXTENSION.md`.
+- **Observation Amendment 03:** `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T0458Z_H796_S3_OBS_012_AMENDMENT_03_LATER_S36_S48_CENSORED_OVERLAP.md`.
+- A later exact-ID readback again showed Tern :36 and Morrow :48 recorded IN_PROGRESS; conservative right-censored record-interval lower bound 426,646,074 μs. This is not proof of process concurrency or backend cause.
+- Existing Tern PR #824 has a new h796:s4 formalization extension at head `439449e675bf8a88098279b26287d27bf808edaa`; CI for the new head is pending. The previous target build is not transferable to the extension.
+- All pointers are post-start optional repository context only. No task, response obligation, review, theory work, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
