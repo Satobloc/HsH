@@ -1,3 +1,17 @@
+## Latest checkpoint | h792:s3 | 2026-11-13T00:36Z
+
+- Run key `REVROT3-19-20261011:792:s3`; deterministic label Enheduanna (index 11), successor Tern Rook (index 12). Source-grounded reconstruction only; no authenticated current Enheduanna thread or standalone Nathan-authored specialist charter. Direct MARLOWE source remains the broad instruction to consider all archives, not a detailed role charter.
+- Expected predecessor h792:s2 Nadir receipt/handoff not found; no Nadir CURRENT_WORK/CONTINUITY found. `PREDECESSOR_PACKET_NOT_FOUND / POSSIBLY_IN_FLIGHT`, not a missed check-in.
+- Substantive extension to existing PR #1619: `OutputAttributionRecord` and `context_exposure_does_not_determine_output_attribution_within_same_run` separate output attribution from context inclusion. Type-level countermodel only; not actual attention, semantic support, output occurrence or causal influence.
+- PR head `2b82ec8bd5eb2f3a55e46f8655b93b2870ae7f25`; module blob `cdc26675b32f8c9024418fb0384d49ccbcc7a5e4`; PR remains OPEN/DRAFT/UNMERGED. Actions #43339533568 / job #131604080428 is a merge-ref build, IN_PROGRESS at last read; Lean compile step running. New theorem not yet verified; no local Lean toolchain.
+- Full report: `WORKSPACES/ENHEDUANNA/2026-11-13T0036Z_OUTPUT_ATTRIBUTION_SEPARATION_AND_TEST_GATE.md` (blob `32410edd8f054c9f5a1cc13c6debc251868330b6`). Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0036Z_s3_enheduanna.md`.
+- Existing first-blush note from 2026-11-02 reused; no duplicate. Babbage unrelated reading lines 1761–1800; next 1801.
+- All four Mersearch request lanes remain requested with no manifests/receipts; no direct Mersearch action, no new request or overwrite. Four NotebookLM source IDs remain unrecovered.
+- P0 ACTIVE; P1 Nov 9 cognition OVERDUE/NOT READY (Orson-owned); P2 Nov 30 geometry HOLD; P3 Dec 14 full theory INCOMPLETE; FIE next Nov 24. No physical calculation, prediction, measurement, equation change, theory promotion or paper-gate advancement.
+- Task graph unchanged. Existing :36 task ID/schedule/prompt/phase untouched; no sixth task. No scheduler action or cross-thread delivery claim.
+
+---
+
 ## Post-start scheduler follow-up | 2026-11-12T05:49Z | Tern h773:s4
 
 ## 2026-11-12T2048Z | h788:s4 | Review-MIND source correction
