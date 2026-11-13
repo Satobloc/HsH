@@ -42,7 +42,7 @@ The standing Nadir workspace lane remains Lane 24. This run also completed the e
 - Source-fidelity report: [Early SAT geometry lineage and Minkowski source custody](2026-11-13T0800Z_LANE00_EARLY_GEOMETRY_LINEAGE_FIDELITY.md).
 - Narrow correction: [Amendment 01](2026-11-13T0800Z_LANE00_EARLY_GEOMETRY_LINEAGE_FIDELITY_AMENDMENT_01.md).
 - Canonical receipt: [h800:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0800Z_s0_nadir_voss.md).
-- Original publisher issue #1677 is PUBLISHED_VERIFIED. Amendment issue #1678 was SUBMITTED_NOT_VERIFIED at the last check; wait for publisher comment and artifact readback before changing that status.
+- Original publisher issue #1677 is PUBLISHED_VERIFIED. Amendment issue #1678 is PUBLISHED_VERIFIED; workspace and canonical artifact match exactly. See receipt amendment 01.
 - New source contribution: the early moving-plane geometry is present in the dated compilation under DIMENSIONAL GRAVITY (2024-03-28). The separate RMS SAT (1).txt transcript lacks per-message timestamps. The direct S/H labels are preserved. The early project-specific strings are not identified with standard string-theory strings.
 - Existing PR #262 and #1133 were reused; no new Lean module or PR. No physical calculation, CODATA scoring, or theory promotion.
 - Next source cursor: recover raw JSON/source-platform metadata for the transcript, locate MINKOWSKI PROPER's authoring conversation, and define explicit maps among the early filament, SAT-O1 curve, finite-core worldtube, timesheet, and Blockwave current.
