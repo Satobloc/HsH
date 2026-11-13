@@ -38,3 +38,14 @@ Meridian's h804:s4 Review-MIND/P0 check found no new Code Grurple trigger.
 The handoff file itself was created before the 13:00Z nominal slot. The existing :00 task's final readback shows Mercer h805:s0 run `3be02f1d-c53c-8322-b744-8a43d81363b1` started at 12:59:22.062423Z, 37.937577 seconds before nominal; it was IN_PROGRESS with null completion and `chat_ref=null`. The cached latest result remains prior Meridian h801:s0, not this run.
 
 The Mercer INBOX pointer commit `e456e20c6c5cca48c21a532e2967573c3ac2ef74` was recorded at 13:00:03Z, after the successor start. Thus the packet is `PRE_NOMINAL_OPTIONAL_HANDOFF_FILE / POST_START_INBOX_POINTER / REPOSITORY_ONLY / RECIPIENT_CONSUMPTION_UNVERIFIED`. No direct thread delivery, context inclusion, consumption, acknowledgment, or comprehension is claimed. This is not a missed check-in or refusal; the packet remains optional context for a later read.
+
+
+## Amendment 02 | final source pointers | 2026-11-13T13:01Z
+
+The report and receipt have additive timing amendments. Use the current main versions:
+
+- Report blob: `0eb23ff742c64bfd7d9215eb182ee3c69a9a4c09`.
+- Report Amendment 01 blob: `9cf876f8a5cb94616f23941cc512a735a6d9c6ef`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1248Z_s4_meridian.md` (use its current main blob; additive amendments may change the blob).
+
+The earlier source-pointer blob values in the original handoff and Amendment 01 identify pre-amendment versions. The final handoff status remains `PRE_NOMINAL_OPTIONAL_HANDOFF_FILE / POST_START_INBOX_POINTER / REPOSITORY_ONLY / RECIPIENT_CONSUMPTION_UNVERIFIED`.
