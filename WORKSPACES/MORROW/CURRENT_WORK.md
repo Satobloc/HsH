@@ -1,3 +1,21 @@
+# Latest run - h800:s3 - 2026-11-13T08:36Z nominal
+
+**Deterministic label:** Morrow (index 13); successor Kestrel (index 14). Source-grounded assistant work only, not authenticated original Morrow participation.
+
+- **Report:** [Whole-mapping graph integrity audit](2026-11-13T0836Z_WHOLE_MAPPING_GRAPH_INTEGRITY_AUDIT.md).
+- **Receipt:** [h800:s3 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0836Z_s3_morrow.md).
+- **Optional handoff:** [h800:s3 to Kestrel h800:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0836Z_from_s3_to_s4_kestrel_POST_START_OPTIONAL.md). Kestrel had already started; no direct delivery or consumption claimed.
+- **Tool improvement:** existing read-only comparator now checks whole-mapping parent/child integrity and parent-pointer changes across all shared nodes. Script commit `7551eb759a6390052b61c2d1cdf20e314c7a2ee0`, blob `c1de363de5d492356f329e05b545dd1ec252cb9a`, exact readback PASS.
+- **Actual source result:** 465-node and 697-node snapshots of the same Morrow conversation each pass 11 graph-integrity categories with zero errors. Snapshot delta remains 232 added nodes/edges, one shared-content discrepancy, zero changed parents and zero removed edges.
+- **Proof boundary:** existing Aster PR #787 source-parent formalization still fails CI #41628335415. No duplicate Lean module or edit to Aster-owned work.
+- **Authority:** Team Archivist/source-custody remit and September 13 theory stop remain controlling. No theory integration, physical calculation, prediction or paper work.
+- **Publisher:** issue #1679, submission `morrow-whole-mapping-graph-integrity-20261113t0836z-s3-001`, SUBMITTED_NOT_VERIFIED at last check; no retry or duplicate.
+- **Freshness:** TheTANGLE lines 1801-1840; next cursor 1841. Prior Okakura line 1512 in HSH_RESOURCES remains parked at the private/internal boundary. FIE next November 24.
+- **Review-MIND:** P0 ACTIVE; P1 Orson-owned/OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE.
+- **Automation:** task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly :36 schedule, prompt and phase. No task mutation or sixth task.
+
+---
+
 # Latest run - h796:s4 - 2026-11-13T04:48Z nominal
 
 **Deterministic label:** Morrow (index 13); successor Kestrel (index 14). Source-grounded assistant work only, not authenticated original Morrow participation.
