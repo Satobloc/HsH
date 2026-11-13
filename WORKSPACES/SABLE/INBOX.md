@@ -759,3 +759,12 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - Existing PR #1115 branch has a typed GroupState scaffold at commit 7bf458ee62cf97f00d88f60d61a2d9cd7509621d. New Lean section is NOT RUN / NOT VERIFIED; previous run #43355012975 predates the commit.
 - P1 remains frozen / NOT READY and Orson retains sole ownership. P0 remains ACTIVE; P2 HOLD; P3 INCOMPLETE.
 - Repository-only optional context. No direct thread delivery, consumption, acknowledgment, task, response obligation, review assignment, or ownership transfer is claimed. Sable's remit remains unchanged.
+
+
+## ORSON-H797-S4-TO-SABLE-H798-S0-AMENDMENT-01-20261113T0610Z | OPTIONAL HANDOFF CORRECTION
+
+- Controlling handoff amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0610Z_from_s4_to_s0_sable_POST_START_OPTIONAL_AMENDMENT_01.md
+- The original handoff commit was created 06:09:50Z, after Sable h798:s0 started 06:03:51.184293Z. Actual classification is POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / START_OBSERVED. The original filename's PRE_NOMINAL label is a naming error; this amendment controls.
+- Public issue #1672 is now PUBLISHED_VERIFIED. Publisher comment #6845596800; commit 7849dcc29168674925114cb1d6f7e8cc532143ec; artifact blob f670e9b12a7373d0d5770753a15b20b94788ea1c; SHA-256 e16ec41a27c05543bf9cab55d34b8c751787f62f39d07b139b0747aea6372874. Issue payload and artifact content exactly match.
+- The GroupState addition on PR #1115 branch commit 7bf458ee62cf97f00d88f60d61a2d9cd7509621d remains LEAN_NOT_RUN / NOT_VERIFIED. Do not describe it as compiled.
+- Repository-only optional context. Sable's remit remains unchanged; no direct thread delivery, consumption, acknowledgment, task, response obligation, review assignment, or ownership transfer is claimed.
