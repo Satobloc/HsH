@@ -4298,3 +4298,11 @@ Read-only scheduler update: the same :36 h788 run ID had a further reported star
 - This is a scheduler-record overlap/result-binding observation only. It does not establish actual process concurrency, duplicate execution, retries, restarts, liveness, worker identity or backend cause.
 - Tern retains scheduler/task-graph authority. Optional context only; no task, review request, deadline, response obligation, ownership transfer or configuration change. Ignore if outside current priorities.
 
+
+
+## TERN-OBS-011-H794-ASTER-START-FIELD-MUTATION | 2026-11-13
+
+- [Tern Observation 011](OBSERVATIONS/2026-11-13T0249Z_H794_ASTER_SAME_RUN_ID_START_FIELD_MUTATION_OBS_011.md) records the same :36 run ID `4c759bbf-755c-8325-8483-477e0f970667` with reported `started_at` changing from 02:35:44.311806Z to 02:49:14.970864Z (+810.659058s). It remains IN_PROGRESS, completion/chat_ref null, with a stale prior Mercer h793:s3 latest-result pointer.
+- The :48 record still identifies h793:s4 Ravel run `c407a80f-b40c-832b-8637-89a64bc25181`, scheduled_for 01:48Z, started 02:47:35.171337Z. No h794:s4 Ariadne run was observed.
+- Read-only observation only. No cause, retry, restart, process concurrency, liveness, identity, dispatch failure or backend explanation inferred. Tern retains scheduler authority. No task configuration changed.
+- Related source/work report: `WORKSPACES/ASTER/2026-11-13T0236Z_HISTORICAL_ROLE_SOURCE_RECONCILIATION_AND_RUN_BINDING.md`.
