@@ -100,3 +100,33 @@ Complete the survey from evidence actually accessible to the run. Label the repo
 Tern owns the cross-repository telemetry reconstruction and final synthesis. Begin it immediately rather than waiting for all 19 entries. Review progress after each five newly appended identity entries or five actual activations. The :48 Review lane may provide independent QC; it does not replace Tern's coordinator ownership. Preserve the existing four relay task IDs, prompt lane identities, :00/:24/:36/:48 phases, hourly recurrence and enabled states; :12 remains disabled. No fifth/sixth task or recurrence is to be created.
 
 **Delivery path:** the Automations service rejected direct prompt updates to the four existing tasks because the account's current plan allows only three scheduled tasks. No task was added, disabled or rescheduled. The existing four relay prompts already require reading this Steering Charter; this section and the corresponding active task-graph branch are therefore the operative request route. Do not claim the four prompt texts were modified.
+
+
+
+## 2026-11-13 Nathan Direct: Primary Workflow Health is a standing workflow duty
+
+Primary Workflow Health is part of the primary workflow on every actual worker activation. It is not an optional side project and not limited to occasional upkeep sweeps. Follow the durable [Primary Workflow Health and Corrective Work Queue](PRIMARY_WORKFLOW_HEALTH_ACTION_QUEUE_2026-11-13.md).
+
+The standing health scan covers relay/scheduler integrity, task-graph consistency and reachability, task/run/receipt/publication/readback handoffs, archive/date-tag/index freshness and coverage, uploaded-document intake/assay coverage across HsH, SAT_THEORY_ARCHIVE_2023-25 (Glass) and HSH_RESOURCES, Repo-to-Factory-Floor intake/workshop/lifecycle operation, and all four canonical Mersearch lanes.
+
+For each actual activation:
+- inspect the live health surfaces and the selected worker's current continuity/work record;
+- identify concrete failures, stale/orphaned tasks, missing receipts, unverified transitions, recurring blockers and changed dependencies;
+- perform at most one safe bounded repair when it does not displace protected higher-priority work;
+- otherwise update the existing durable queue/issue with exact evidence, owner/coordination lane, smallest next action, dependency, review trigger and return route;
+- leave a concise health receipt with inspected surfaces, PASS/DEGRADED/BLOCKED/NOT_OBSERVED status, repair and independent verification state, queue delta and next pickup.
+
+A workflow-health PASS requires evidence. Uninspected critical surfaces are NOT_OBSERVED, not PASS. Preserve the existing deeper open-work sweep cadence of at least once per five actual completed worker activations, with earlier review after material failure, milestone, dependency change or stranded recurring work.
+
+**Blockage response:** fallback is for continuity, not a substitute for repair. When Mersearch or another shared tool/lane is blocked, workers must diagnose the first failing transition (access, trigger, queue/concurrency, runtime, dependency, execution, output publication, readback or release), preserve evidence, and make a bounded repair or leave a specific actionable repair handoff. Do not repeatedly retry an unchanged failure, merely report that the lane is occupied, or treat GitHub/SciSpace fallback as Mersearch completion.
+
+**Mersearch standing maintenance:** the four canonical lanes remain the only lanes. Lane 1 is WORKSPACES/COMMON/MERSEARCH_REQUEST.json; Lanes 2–4 are the documented numbered request files. The stale MERSEARCH_REQUEST_LANE_1.json is not a fifth lane. Request status 'requested' is trigger metadata, not execution evidence. Verify exact request ID -> trigger commit -> workflow run/attempt/job -> request-scoped RUN_MANIFEST and SEARCH_RECEIPT -> publication/readback -> release. Preserve occupied requests and privacy; do not overwrite or retrigger without a changed, evidence-based diagnosis. See [HsH issue #1704](https://github.com/Satobloc/HsH/issues/1704).
+
+**Durable corrective pickup portfolio (standing P2, subordinate to P0/P1):**
+1. Clone footprint and daily clone/Traffic telemetry — [#1703](https://github.com/Satobloc/HsH/issues/1703).
+2. Complete conversation date-tagging, root discovery, chronology and downstream index reliability — [#1702](https://github.com/Satobloc/HsH/issues/1702).
+3. Three-repository document intake, assay, reading and use/citation tracking — [Factory Floor #16](https://github.com/Satobloc/FACTORY_FLOOR/issues/16).
+4. Repo-to-Factory-Floor lifecycle, workshop and geometry-verification activation — [Factory Floor #17](https://github.com/Satobloc/FACTORY_FLOOR/issues/17) and [#18](https://github.com/Satobloc/FACTORY_FLOOR/issues/18).
+5. Mersearch lane blockage diagnosis and repair — [#1704](https://github.com/Satobloc/HsH/issues/1704).
+
+Unfinished items remain in the queue for later eligible activations. Do not create separate recurrence tasks for this portfolio. Preserve the four existing enabled relay IDs, exact hourly phases/schedules and enabled states; :12 remains disabled. No fifth/sixth task or scheduler mutation is authorized.
