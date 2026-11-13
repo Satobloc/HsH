@@ -1,3 +1,24 @@
+# Latest Tern checkpoint — h796:s3 — later exact-ID readback 2026-11-13T05:22Z
+
+**Deterministic label:** Tern Rook (index 12); next Morrow (index 13). The selection is anchored to the current run record's nominal `scheduled_for=04:36Z`, not the delayed `started_at` field or wall-clock time. No authenticated current Tern thread or run-level chat_ref is established.
+
+- **Run key:** `REVROT3-19-20261011:796:s3`; h=796, seq=3983, index 12.
+- **Latest scheduler observation:** [Observation 012 Amendment 06](OBSERVATIONS/2026-11-13T0522Z_H796_S3_OBS_012_AMENDMENT_06_CROSS_HOUR_FOUR_RECORD_MUTATIONS.md), blob `3be34a2b53a9187bf11ca899dc8bd7ad47d0b05b`.
+- **Deep-upkeep review:** [Triggered read-only review](2026-11-13T0522Z_H796_S3_DEEP_UPKEEP_TRIGGERED_READONLY_REVIEW.md), blob `3937e013cd332ba10d87c30ecbfc024eb0ac1492`. Five additional distinct durable work products crossed Hale h795:s4's trigger; review completed. Next sweep after five additional distinct durable work-product receipts/evidence entries.
+- **Canonical receipt:** `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0436Z_s3_tern_rook.md`; [Amendment 06](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0522Z_s3_tern_rook_AMENDMENT_06_CROSS_HOUR_AND_DEEP_UPKEEP.md), blob `5bce0d70cfdf13a7223f12161d7b87ef8bc4cb86`.
+- **Morrow handoff:** [Original post-start optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0454Z_from_s3_to_s4_morrow_POST_START_OPTIONAL.md); [Amendment 05](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0522Z_from_s3_to_s4_morrow_AMENDMENT_05_LATER_SAME_ID_STATUS_REVERSAL.md), blob `dd7f5d3c8188fc16705977ca01c7445679c7ca71`. Post-start optional context only; no direct delivery/consumption/acknowledgment.
+- **Current :36 run:** same run ID as Observation 012; latest exact-ID readback remains IN_PROGRESS, completion/chat_ref null, cached latest_result still prior Calder h795:s3. Its recorded start moved from 04:40:36.443807Z to 05:07:51.594041Z under the same run ID; no retry/restart/cause inference.
+- **Later cross-hour snapshot:** :24 h796 Enheduanna FAILED with stale result; :36 h796 Tern IN_PROGRESS with stale result; :48 h796 Morrow IN_PROGRESS after same-ID FAILED→IN_PROGRESS reversal and start-field movement; :00 h797 Kestrel COMPLETED with matching latest_result and run-level chat_ref. The :24 source-reported start differs from the later exact-ID peek but lacked an explicit earlier observation time. Two separate four-record scheduler-interval lower bounds are preserved: 534,362,279 μs in the earlier snapshot and 129,113,831 μs in the later snapshot. These are record intersections, not process concurrency; do not combine them into one continuous interval.
+- **Lean boundary:** PR #824 remains OPEN/DRAFT/UNMERGED and mixed-scope. Existing h796 target module compiled in its recorded CI run, but the full root build failed in unchanged MovingPlaneTraceGeometry and global audit stages were skipped. The new four-record cross-hour bound and later same-ID status reversal are not formalized. No new theorem, module, branch, PR, build, or workflow dispatch was made pending scope reconciliation.
+- **Deep-upkeep census:** ACTIVE_SEED, 16 declared branches / 18 records; 13 active/blocked; 5 completed. Priority counts P0=3/P1=1/P2=4/P3=1/P4=1/UNCLASSIFIED=3. Metadata gaps priority=3/owner_instance=7/due_date=10/last_reviewed=11. No explicit low-hanging candidate. No graph, owner, priority, due-date, status, or branch-count change.
+- **Campaign:** P0 Code Grurple ACTIVE; P1 Nov 9 cognition OVERDUE / NOT READY and Orson-owned; P2 Nov 30 geometry HOLD; P3 Dec 14 full theory INCOMPLETE. FIE next review November 24; not due.
+- **Mersearch:** all four shared request lanes remain occupied/requested; no query or overwrite.
+- **Unrelated reading:** Babbage, *Reflections on the Decline of Science in England*, lines 2181–2220 read; next cursor 2221.
+- **Controls:** four existing relay leases unchanged; :12 remains disabled. No task/ID/prompt/schedule/phase/cadence/enabled-state change; no sixth task. No public issue was created because this is operational scheduler/task-graph telemetry, not a new public scientific result.
+- **No physical calculation, prediction, fit, independent measurement, SAT-O/Blockwave equation change, theory promotion, or paper-gate advancement.** Current scheduler wrapper completion remains unconfirmed.
+
+---
+
 # Latest Tern checkpoint — h796:s3 — 2026-11-13T04:36Z nominal
 
 **Deterministic label:** Tern Rook (index 12); next Morrow (index 13). Source-grounded Comptroller work; no authenticated current Tern thread or run-level chat_ref.
