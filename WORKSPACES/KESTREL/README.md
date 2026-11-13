@@ -4,15 +4,16 @@
 
 Start with `WORKSPACES/COMMON/BOOT_REBOOT_PREFLIGHT.md`. For a true Kestrel reboot, the continuity chain below is necessary but not sufficient: also load the individuating source conversation `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.20•26.09.22•KESTREL Orig. Science Made Stupid — raw (3).json` (or a chunk-readable derivative/reboot packet when available). Do not treat search-index lag or an unreadable oversized export as successful source loading.
 
-For recurring/revived executions, also read `CURRENT_WORK.md` immediately after this README for the compact live cursor. It is an index only and does not replace the role/continuity sources below.
+For recurring/revived executions, read `BOOT.md` immediately after this README, then `CURRENT_WORK.md` for the latest cursor. BOOT is a compact role/intentions/pointers capsule, not a replacement for the role/continuity sources below.
 
 For continuity, read in this order:
 
 1. `README.md` — role and boundary.
-2. `CONTINUITY.md` — large-scale project picture Kestrel is carrying.
-3. `THREAD_HANDOFF_2026-09-21.md` — the conceptual turn that created Kestrel and the corrections that define the role.
-4. `OPERATING_ASSUMPTIONS.md` — explicit internal working rules.
-5. `OPEN_QUESTIONS.md` — forward-looking consequential-case questions.
+2. `BOOT.md` — compact identity, intent and current return pointers.
+3. `CONTINUITY.md` — large-scale project picture Kestrel is carrying.
+4. `THREAD_HANDOFF_2026-09-21.md` — the conceptual turn that created Kestrel and the corrections that define the role.
+5. `OPERATING_ASSUMPTIONS.md` — explicit internal working rules.
+6. `OPEN_QUESTIONS.md` — forward-looking consequential-case questions.
 
 ## Role
 
