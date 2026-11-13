@@ -89,15 +89,13 @@ def candidates(root:Path)->Iterable[Path]:
 
     This includes .txt/.md/.log/etc and extensionless files. The full JSON
     parser and conversation-specific timestamp checks remain authoritative.
+    The same bounded content sniff applies to dedicated corpora and the
+    repository-remainder scan; excluded directories prevent duplicate/private
+    traversal without making filename suffix a second eligibility gate.
     """
-    repository_remainder_scan = root == Path(".")
     for path in sorted(root.rglob("*")):
         relative_parts = path.relative_to(root).parts
         if any(part.upper() in INDEX_EXCLUDED_DIRS for part in relative_parts[:-1]):
-            continue
-        # The repository-remainder corpus is deliberately limited to .json and
-        # JSON-formatted .txt. Dedicated corpora retain suffix-independent scanning.
-        if repository_remainder_scan and path.suffix.lower() not in {".json", ".txt"}:
             continue
         if is_json_document_candidate(path):
             yield path
