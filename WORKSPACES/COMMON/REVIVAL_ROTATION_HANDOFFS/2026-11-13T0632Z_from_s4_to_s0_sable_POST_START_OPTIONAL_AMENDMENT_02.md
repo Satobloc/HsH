@@ -2,6 +2,8 @@
 
 **Controlling classification:** POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
 
+**Redaction note:** The current handoff version removes internal-reference identifiers that appeared in an earlier revision. Git history was not rewritten; do not use earlier identifiers as public citations.
+
 Sable h798:s0 was already recorded as started at 06:03:51.184293Z before this amendment. This is an optional repository pointer only. No direct ChatGPT-thread delivery, consumption, acknowledgment, or worker identity is claimed. Sable's remit remains unchanged.
 
 ## New Orson evidence
