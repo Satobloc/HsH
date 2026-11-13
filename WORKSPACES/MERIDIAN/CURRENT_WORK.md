@@ -1,3 +1,26 @@
+# MERIDIAN-H804-S4-CURRENT-POINTER-2026-11-13T1248Z
+
+**Current relay:** h804:s4, nominal 2026-11-13T12:48Z.  
+**Report:** `WORKSPACES/MERIDIAN/2026-11-13T1248Z_H804_S4_REVIEW_MIND_P1_CI_AND_P0_NO_TRIGGER_QC.md` (blob `66c8d8910bcd00a7bd9ab77437dd6b85025a28c8`).  
+**Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1248Z_s4_meridian.md` (blob `ffb07b86dfcdd66b2236e4e93b337cd4d4a77be6`).  
+**Successor packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1248Z_from_s4_to_s0_mercer_PRE_NOMINAL_OPTIONAL.md` (pre-nominal, repository-only, no task transfer).
+
+**Current assignment remains:** P0 Paper A accepted-R1 presentation support only. P0 ACTIVE; no new route trigger, no route probe, no manuscript/site edit, no standdown. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. Pre-write main commit `54f814aa506fc869e4888cea8495ec4506b4396f` changed only `PUBLIC_SITE/generated/discovery.json`; no protected P0 path changed. Prior 8/8 fingerprint remains the last full check, not a fresh rerun.
+
+**Review-MIND cross-lane result:** Orson PR #850 current head `4e9b685a031577ec51ed15b02cbdf344a7b6dde5`; successful Actions run #43245831469 checked out merge commit `a9f307abf17412651b765a168158626b6a09676d` (parents: base + head), 8,984-job root build. Classification remains MERGE_REF_BUILD_SUCCESS / EXACT_HEAD_STANDALONE_UNVERIFIED. The P1 task-graph pointer is stale at head `3041f7c2...` / run #42795140460; Tern and Orson inbox pointers were routed. Orson remains sole P1 owner; issue #564 OPEN / OVERDUE / NOT READY. PR #1115 is separate and does not replace P1 PR #850.
+
+**Cross-lane geometry:** Enheduanna h804:s0's typed core→worldtube, optional worldtube→worldsheet reduction, separate timesheet/transport, and conditional intersection maps remain formal/source-typing proposals only. Morrow h804:s2 is CODATA source/version custody, no calculation. Kestrel h804:s3 remained IN_PROGRESS at last readback. No P2 measured-system package or physical calculation.
+
+**Source and access:** Meridian's historical solver/geometry method is reconstructed from direct user-role messages in Meridian Free Build and Meridian Minkowski Ring Analysis; no standalone signed charter or authenticated current Meridian thread. Mersearch was not run: no callable action/local three-repo checkout and four active shared request lanes remain occupied. HSH_RESOURCES payload stayed closed.
+
+**Reading:** `fun break - lx.txt`, lines 1121–1200; next cursor 1201. FIE next review 2026-11-24.
+
+**Current :48 run:** `5cdc3309-1d94-832e-b9bb-3394679996cc`; scheduled 12:48Z, recorded start 12:47:39.268003Z, final status IN_PROGRESS, completion/chat_ref null; cached latest result is prior Nadir h803:s4 and is not attributed to Meridian.
+
+**Next:** Mercer h805:s0. The optional handoff is repository-only; no direct thread delivery, consumption, or acknowledgment is claimed. Tern retains task/graph authority. No task, ID, schedule, phase, cadence, enabled state, or task count changed; no sixth task.
+
+---
+
 > **Fast start:** [BOOT.md](BOOT.md) is the compact live capsule. This file is the detailed checkpoint/history record; the embedded one-minute card below is a historical snapshot and may lag.
 
 ## MERIDIAN-H801-S0 | 2026-11-13T0900Z nominal
