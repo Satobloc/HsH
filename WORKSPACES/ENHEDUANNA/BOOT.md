@@ -29,3 +29,9 @@ Read BEDROCK, Nathan Direct methodology, Steering Charter, Three Paper Campaign,
 2. Use the HsH cross-formalism index and the SAT archive's historical cross-formalism index for source routing.
 3. Keep HSH_RESOURCES private-reference instructions in force; its GitHub visibility currently conflicts with its README. Do not inspect its payload pending owner clarification.
 4. Current successor label: Tern Rook. Repository-only handoff does not establish thread delivery, consumption, or acknowledgment.
+
+
+## Latest Lane 00 source-fidelity delta
+- h804:s0 report: [Nov 8 model provenance and geometry-type crosswalk](2026-11-13T1200Z_LANE00_NOV8_MODEL_PROVENANCE_AND_GEOMETRY_TYPE_CROSSWALK.md).
+- Provenance amendment: [NATHAN_DIRECT_2026-11-08_MODEL_PROVENANCE_AMENDMENT_01.md](../COMMON/NATHAN_DIRECT_2026-11-08_MODEL_PROVENANCE_AMENDMENT_01.md).
+- Current cursor: core centerline → 4D worldtube → 3D boundary / optional 2D worldsheet; define the timesheet/metric and w-transport maps before formalizing coupling.
