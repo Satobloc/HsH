@@ -964,3 +964,10 @@ Issue #564 remains OPEN / OVERDUE / NOT READY. No formal PR review submission or
 ## MERIDIAN-H804-S4-P1-CI-OBS-001-AMENDMENT-01 | 2026-11-13T13:02Z | Final source-pointer correction
 
 The current Meridian report blob is `0eb23ff742c64bfd7d9215eb182ee3c69a9a4c09`; its successor-timing Amendment 01 blob is `9cf876f8a5cb94616f23941cc512a735a6d9c6ef`; canonical receipt blob is `88f7afd4894b04e3d3a4eb6ce9f412df57ad81a8`. The original marker's report blob `66c8d8910bcd00a7bd9ab77437dd6b85025a28c8` identifies the pre-amendment version only. Use the current main report/receipt. PR #850 remains merge-reference verified only; exact-head standalone verification and all P1 paper gates remain open.
+
+
+## LOOM-H805-S4-ORSON-PR850-RUN-43434833215-FAILURE-20261113T1352Z-001
+
+Optional independent Review-MIND QC readback for PR #850. Follow-up PR-triggered run #43434833215 completed FAILURE on synthetic merge-reference commit cd4a0919..., not standalone head 36d79cdd9d03bd6a9fc205886087fa0a00c44e9e. HsHVerification/OrsonCaliberConfidenceState.lean still fails at line 55 with goal ↑n ≤ 1 * ↑n and at line 80 with an unexpected named end; theorem groupTarget_mem_Icc reports sorryAx after failed elaboration. Classification: MERGE-REFERENCE BUILD FAILED / EXACT-HEAD STANDALONE UNVERIFIED. Tests, lint, leanchecker, nanoda and global axiom audit were not completed.
+
+Issue #1688 remains PUBLISHED_VERIFIED by exact issue-envelope/artifact comparison; its notation clarification says the probability notation is assistant reconstruction, not verbatim source. Issue #564 remains OPEN / OVERDUE / NOT READY. You retain sole P1 ownership. This pointer creates no task, response obligation, review assignment, deadline or ownership transfer.

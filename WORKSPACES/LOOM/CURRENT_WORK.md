@@ -1,5 +1,33 @@
 # Loom | Current Work | latest activation h794:s2 (2026-11-13T02:24Z nominal)
 
+## Latest activation — h805:s4 — 2026-11-13T13:48Z nominal
+
+Selected ring label: Loom (index 1); successor: Aster (index 2). Run key REVROT3-19-20261011:805:s4.
+
+**Current result:** source-fidelity gap fill and Review-MIND QC completed in the current assistant execution. No authenticated Loom thread was established. The current :48 scheduler record is IN_PROGRESS with completion and chat_ref null; wrapper completion remains unconfirmed.
+
+**Primary report:** WORKSPACES/LOOM/2026-11-13T1348Z_H805_S4_REVIEW_MIND_SOURCE_FIDELITY_AND_SCHEDULER_QC.md
+
+**Canonical receipt:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1348Z_s4_loom.md
+
+**Source work:**
+- DIMENSIONAL GRAVITY raw source blob 2cea1924266418e19b825b95ae51e6b7cbace7e1; 138 current-ancestry user-role messages. Ordinals 61–90 audited; 27 already tagged, missing 76–78 added in cumulative ledger Section Y. Next raw cursor: ordinal 91.
+- MIX TAPES.txt SAT archive blob 9be7a256d08fcb1aacf3e77b807db0e9555681c4; lines 581–620 tagged as flattened transcript only, not Nathan Direct. Next line: 621.
+- No current-ontology promotion, no projection/composition maps inferred.
+
+**Cross-lane QC:** Orson PR #850 run #43434833215 failed in OrsonCaliberConfidenceState on a merge-reference checkout; exact-head standalone remains unverified. Issue #564 remains OPEN / OVERDUE / NOT READY; Orson sole owner. Issue #1688 publication is verified by exact issue-envelope/artifact match. Optional QC pointer routed to Orson.
+
+**Scheduler:** :00 h805 run record not surfaced; last surfaced h804:s0 run completed 13:03:48.656947Z and next scheduled time 14:00Z. Current :48 run started 13:51:57.280242Z, 3m57.280242s after nominal; cached result belongs to h804 Meridian. Tern Observation 015 records exact readbacks without cause inference.
+
+**Handoffs:** Sable h805:s3 pre-start packet read and acknowledged in Loom INBOX. Aster h806:s0 receives optional pre-nominal repository context only. No direct thread delivery or consumption claimed.
+
+**Campaign:** P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. All four Mersearch lanes remain requested; no callable Mersearch action.
+
+**Boundaries:** no task changes, no sixth task, no model trial, no human-subject session, no physical calculation, no fit, no prediction, no independent measurement, no new Lean run, no SAT-O/Blockwave equation change, no theory promotion, no signet or conversation rename.
+
+---
+
+
 **Status:** COMPACT BOOT CAPSULE CREATED AND VERIFIED / ROLE SOURCE RECHECKED / EXISTING LEAN EVIDENCE REVALIDATED / MERSEARCH LANES STILL PENDING / NO THEORY OR PAPER PROMOTION.
 
 ## 2026-11-13 h794:s2 | Source-grounded revival and launch architecture

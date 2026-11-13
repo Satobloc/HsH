@@ -1,40 +1,50 @@
-# Loom | Boot Capsule
+# LOOM | BOOT — current return capsule
 
-**As of:** 2026-11-13T02:26Z. **Source snapshot:** HsH `main` at `50d2b388fbdc44dc172183fcae87402b18f89641` before this update. Assistant-curated navigation, not a signed charter, identity proof, or task authority.
+Updated: 2026-11-13T13:52Z
+Current nominal run: h805:s4 / REVROT3-19-20261011:805:s4
+Selected ring label: Loom (index 1); next: Aster (index 2).
+Primary report: WORKSPACES/LOOM/2026-11-13T1348Z_H805_S4_REVIEW_MIND_SOURCE_FIDELITY_AND_SCHEDULER_QC.md
+Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1348Z_s4_loom.md
 
-## Routing
+## Role and authority
+Loom is an assistant-curated archival source-stewardship role: cumulative Nathan-authored corpus tagging, chronology, source/version provenance, terminology crosswalks, timeline and glossary maintenance, contradiction/gap detection, and continuity. The existing Section A source-recovery ledger records ten direct user-role instructions in the archived Tag Conversation Corpus conversation. No standalone signed specialist charter exists. The raw Tag Conversation Corpus export body was not returned by the current reader; rely on the existing source-recovery ledger and do not claim fresh raw-source reauthentication.
 
-- Run key: `REVROT3-19-20261011:794:s2`. Nominal UTC hour h=794, slot s=2, sequence 3972, ring index 1: **Loom**. Next index 2: **Aster**.
-- Existing :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled on its original hourly America/New_York :24 schedule.
-- Current run `bbab2188-42b8-8331-8a8f-fbc3816d7221` was scheduled 02:24Z and last observed IN_PROGRESS, started 02:26:29.360036Z; completion and `chat_ref` were null.
-- Cached `latest_result` belongs to prior h793:s2 run `ebb2c4dd-b8f4-8326-867b-c8952ad3f299`, completed 02:08:05Z. Do not attribute that output to this run.
-- :12 is disabled. No h794:s1 predecessor receipt/handoff exists; this is a missing scheduled predecessor, not evidence of worker nonresponse.
+The archived conversation is historical, not a current Loom thread. No authenticated current Loom thread was established. The current :48 run has chat_ref=null; the task-level persistent conversation_id belongs to the prior Meridian h804 result.
 
-## Historical remit and identity boundary
+## Latest source work and cursors
+- DIMENSIONAL GRAVITY raw export: blob 2cea1924266418e19b825b95ae51e6b7cbace7e1; 466 mapping nodes, 456 current-ancestry nodes, 138 user-role messages.
+- User ordinals 61–90 coverage audit: 27/30 already tagged; missing 76–78 added in Section Y of the cumulative ledger. Next cursor: user ordinal 91. Audit existing coverage before adding tags.
+- MIX TAPES.txt, SAT archive, blob 9be7a256d08fcb1aacf3e77b807db0e9555681c4: lines 581–620 read as flattened transcript only, not authenticated Nathan Direct. Next cursor: line 621.
+- Historical 2024 filament/strand/rope taxonomy is not a proved nested-object hierarchy and is not automatically equivalent to current H(s)H worldtube/timesheet objects. Require explicit maps and conditions.
 
-- Historical source: archived conversation **Tag Conversation Corpus**, ID `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, raw blob `6668ca60e451f8737903423727da7f9a430484e1`, primary path `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13•26.09.19•Tag Conversation Corpus — raw.json`.
-- Ten outer user-role messages are already tagged in [the Loom source-tag ledger, section A](../COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md). They establish cumulative tagging, timeline-first extraction, terminology crosswalks, historical/current definitions, glossary/navigation, chronology correction, and continuity maintenance.
-- The assistant proposed the name Loom; Nathan accepted it. The role summary is assistant-curated. No standalone signed Nathan-authored specialist charter or authenticated current Loom ChatGPT thread was established. The archived source and automation conversation are not proof of a continuous historical instance.
+## Live operating state
+- HsH main pre-write commit: 55219e263ff1470f4afb909b3270b7da6e281329.
+- SAT archive main: 37fcbdc49b331cd11209d203384c0b64a604c7b9.
+- HSH_RESOURCES main: 5859d88ea8383277fe82d76c10644816be49c331; README boundary only, no private payload.
+- All four Mersearch request lanes remain requested; no callable Mersearch action and no local three-repository checkout. No request was overwritten or retriggered.
+- Existing extraction/tagging scripts were inspected; no new tooling, module, fork, dependency, subscription or expenditure.
+- Task graph still declares 16 branches while holding 18 records; Tern retains authority.
+- FIE last reviewed November 10; next review November 24.
 
-## Operating remit
+## Campaign and cross-lane state
+- P0 Code Grurple: ACTIVE; Paper A/B reader routes PRESENTATION_PENDING / NOT_OBSERVED; no new fingerprint rerun.
+- P1 cognition: OVERDUE / NOT READY; Orson retains sole ownership.
+- P2 geometry: HOLD.
+- P3 full theory: INCOMPLETE.
+- Orson PR #850 run #43434833215 failed in OrsonCaliberConfidenceState on a merge-reference checkout; exact-head standalone verification remains unverified. Issue #564 remains OPEN / OVERDUE / NOT READY. Issue #1688 is PUBLISHED_VERIFIED with exact artifact/issue-envelope match.
+- No physical calculation, fit, prediction, independent measurement, model trial, human-subject session, new Lean run, SAT-O/Blockwave equation change or theory promotion.
 
-Primary work is source-provenance and corpus enrichment: preserve exact source identity, outer speaker role, message IDs, timestamps, ancestry, earliest-attested versus estimated dates, duplicate/snapshot/derivative relations, and additive correction/supersession links. If a source item is read during corpus work, tag it. Never transfer assistant text into Nathan's voice or silently downgrade historical records. Do not rename conversations or use another worker's authority.
+## Scheduler and automation
+- :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled; exact saved schedule DTSTART;TZID=America/New_York:20261001T144800 / RRULE:FREQ=HOURLY; no prompt, phase or cadence change.
+- Current run b139dfc1-c8bc-8325-8270-30bd355ad06b is IN_PROGRESS, started 13:51:57.280242Z; completion and run-level chat_ref null. Cached result belongs to Meridian h804:s4, not this run.
+- Tern Observation 015 records the :00 h805 run-record gap and :48 late start. No cause inferred and no task setting changed.
+- No sixth task, signet or conversation rename.
 
-## Current frontier
-
-- Latest Loom research checkpoint: h790:s3, [CURRENT_WORK.md](CURRENT_WORK.md), with source-epoch and worldtube-type crosswalk. Do not repeat that pass without new source evidence.
-- Lane 24 working target: worldtube/worldline plus timesheet; responsive medium remains provisional. Their types and relations require explicit maps and conditions. No physical calculation without an identifiable measured system, dataset, units, calibration, covariance and uncertainty.
-- Existing Lean evidence: PR #873 head `7dbcb5f18690232d921db74f25dfdf222ee51b8c` passed exact-head GitHub Actions run #43202552666 on Lean 4.34.0 / Lake 5.0.0 (8,957 jobs). This verifies only the encoded conditional mathematics. PR #1189 head `33a7cb3cd3adaadabb5a7abd94eaf59bb0ef991e` failed exact-head run #43339252436 at three `omit` parser errors in `NadirRotatingFluidPIVEnergyReadout.lean` lines 123, 133, 144. Nadir owns that branch; do not patch or duplicate.
-- No local checkout, `lean`, `lake`, or `elan` executable is available in this runtime.
-- Mersearch's four Common request files remain `requested`. The four bridge workflows are request-file triggered; no lane was changed or retriggered. `MERSEARCH_REQUEST_LANE_1.json` is an extra file not watched by the lane-1 workflow and has no lane/status field. The canonical lane-1 path is `WORKSPACES/COMMON/MERSEARCH_REQUEST.json`. Do not overwrite an occupied request or substitute GitHub code search for Mersearch.
-- P0 remains ACTIVE; P1 is OVERDUE / NOT READY under Orson; P2 HOLD; P3 INCOMPLETE. FIE next review: 2026-11-24.
-- HSH_RESOURCES README describes private/internal use while GitHub metadata reports public visibility. Owner decision unresolved; do not inspect its payload or change access.
-
-**Current receipt:** [h794:s2 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0224Z_s2_loom.md). **Successor packet:** [Aster h794:s3 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0224Z_from_s2_to_s3_aster.md).
-**Latest scheduler amendment:** [h794 four-lease readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0224Z_s2_loom_AMENDMENT_01_H794_FOUR_LEASE_READBACK.md). The four enabled tasks were simultaneously reported IN_PROGRESS with stale result pointers; this is a scheduler-record observation, not proof of process concurrency.
-
-## Load order and return
-
-Read current [BEDROCK](../../BEDROCK.md) and [Primary Operational Guideline](../COMMON/NATHAN_DIRECT_2026-11-08_METHODOLOGY_AND_MODEL_OVERVIEW.md) first; the latter supersedes direct BEDROCK conflicts and remains subordinate to FIE. Then read the current Steering Charter, Three Paper Campaign, three-repository onboarding, workflow orientation, revival rotation, active roster, and latest receipts/handoffs. Use this capsule for orientation, [README.md](README.md) for role/source navigation, [CHECKPOINT.md](CHECKPOINT.md) and [CONTINUITY.md](CONTINUITY.md) for durable context, and [CURRENT_WORK.md](CURRENT_WORK.md) for detailed history. Open only relevant modules.
-
-Next Loom return: verify the h794 receipt and current scheduler state, consume any genuinely addressed handoff, check whether a usable existing Loom thread has been established, then choose one non-duplicative source/provenance operation. Do not submit a new Mersearch request until a lane is demonstrably released. The last unrelated-reading cursor was `MIX TAPES.txt` lines 541-580; next line 581. FIE review is not due before November 24.
+## Load order
+1. Read live BEDROCK and the controlling Primary Operational Guideline; then FIE when due.
+2. Read Steering Charter, Three Paper Campaign, three-repository onboarding and current workflow orientation.
+3. Read this BOOT, README, CURRENT_WORK, CONTINUITY, CHECKPOINT, INBOX and the latest canonical receipt/handoff.
+4. Use raw outer author.role, message UUID, timestamp, parent ancestry and source blob for direct attribution. Assistant summaries, flattened “You said” labels and NotebookLM role labels are not raw Nathan Direct.
+5. Preserve private/internal HSH_RESOURCES boundaries and all four occupied Mersearch request lanes.
+6. Keep archival 2024 SAT vocabulary separate from current H(s)H objects unless explicit maps and conditions are supplied.
+7. Use repository-only optional handoffs honestly; never claim cross-thread delivery, consumption or acknowledgment.

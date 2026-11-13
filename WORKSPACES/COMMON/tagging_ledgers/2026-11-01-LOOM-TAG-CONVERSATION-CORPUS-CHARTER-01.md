@@ -658,3 +658,51 @@ The conditional section ladder is: full-dimensional W4 with Sigma3 gives a 3D se
 **Corrected source boundary:** Section W's no-finite-core conclusion applies to the 2024 source only. It must not be generalized to the later 2026 working hypothesis. The broad user-acknowledged variant relation is recorded, but the exact map between 2024, 2025 and 2026 constructions remains unresolved.
 
 **Tags:** RAW-DIRECT; USER-CONFIRMED-FAMILY-VARIANT-RELATION; DETAILED-GENEALOGY-UNRESOLVED; 2026-WORLDTUBE-WORKING-HYPOTHESIS; 1D-CORE; 3D-BOUNDARY; MOUTH-TENTATIVE; WORLDSHEET-SIMPLIFICATION; THETA4-FOUNDATIONAL; W-TIME-PROPER-UNRESOLVED; KLEIN-FABRIC-TENTATIVE; SAT4D-HISTORICAL-DRAFT; BLOCKWAVE-ASSISTANT-OR-UNKNOWN-AUTHORSHIP; J2-NOT-J3; MAPS-UNDEFINED; NOT-TEST-READY; NO-PHYSICAL-DATA; NO-THEORY-PROMOTION.
+
+
+## Section Y — DIMENSIONAL GRAVITY correction-gap fill: user ordinals 76–78 (2026-11-13, h805:s4)
+
+**Primary source:** Satobloc/HsH, DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json; conversation 252d05c0-22ed-4ea2-a474-7966ab13145a; blob 2cea1924266418e19b825b95ae51e6b7cbace7e1. Current ancestry: 456 nodes / 455 messages; 138 outer user-role messages; ten off-ancestry nodes contain no user-role messages.
+
+**Coverage audit:** user ordinals 61–90 were compared against the eight existing 2026-09-13 DIMENSIONAL GRAVITY tagging ledgers, this cumulative Loom ledger, Aster’s source-fidelity crosswalk and the Nathan Verified Words Compendium. Twenty-seven of thirty were already represented. Only 76–78 were missing. Ordinals 79–90 were not duplicated.
+
+### 76 — NATHAN-DIRECT / CORRECTIVE-NEGATION / ASSISTANT-INTERPRETATION-REJECTED / TERMINOLOGY-NAMING / HISTORICAL-SAT
+
+- Message ID: aaa23840-ba23-4f51-8a34-13e7a7db78c0
+- UTC: 2024-03-23T05:47:43.944Z
+- Exact text: “No, that's the opposite of what I just said.”
+- Parent assistant ID d29358ad-6ee9-4d9d-aa18-b60f2007bfa5 says “Got it, TimeThreads or ChronoStrands it is.”
+- Child assistant memory ID 6450235f-75b2-4399-b40d-4f681a0952a7 incorrectly records that Nathan prefers those names. This is assistant-generated and contradicted by the raw user-role message.
+
+### 77 — NATHAN-DIRECT / REPEATED-CORRECTIVE-NEGATION / ASSISTANT-REPEATS-REJECTED-PROPOSAL / HISTORICAL-SAT
+
+- Message ID: aaa2840c-5774-43f1-ab39-a06a66881e09
+- UTC: 2024-03-23T05:47:57.022Z
+- Exact text: “NO”
+- Parent assistant ID 59929c1e-16f9-4503-8293-a88f47b4e3f6 again proposes TimeThreads/ChronoStrands; child assistant ID bf89438d-90a0-4d45-a7d9-abe50ddfadd8 repeats the rejected proposal.
+
+### 78 — NATHAN-DIRECT / NAMING-RATIONALE / REJECTS-TEMPORAL-NAME / PARTICLE-GENERATION-EMPHASIS / TIME-SURFACE-INTERSECTION / QUOTED-PRIOR-TEXT / HISTORICAL-SAT / NOT-CURRENT-ONTOLOGY
+
+- Message ID: aaa2fdfa-125a-4dc2-8f01-57e9bc4dc5ff
+- UTC: 2024-03-23T05:49:14.214Z
+- Exact text:
+
+> You're not understanding me. Reread this paragraph:
+>
+> Although SAT strings do have a temporal dimension and morphology as an integral aspect of their formulation, I think it's misleading to emphasize that property in naming them because the more salient temporal entity in SAT is the time surface. It would be better to come up with a name that reflects the fact that these strings are seen as giving rise to matter and energy particles by their intersection with the time surface.
+>
+> I'm explaining that "TimeThreads" or "ChronoStrands" are not at all suitable names for strings in SAT.
+
+The quoted paragraph repeats earlier user message aaa2cade-413e-47a1-a833-ba5108bbabf2; it is not independent corroboration. The new direct contribution is the explicit naming correction: emphasize the proposed particle-generating intersection mechanism, not the temporal dimension or morphology. The next message 79 selects “filaments” and is already tagged. Assistant child 63b7fa47-e047-4827-8cbe-b4917c2bd920 paraphrases accurately but is not Nathan Direct.
+
+**Interpretation boundary:** this is one documented correction-repair episode, not a general model-performance result. The 2024 strings/filaments and filament/strand/rope vocabulary is historical and descriptive. This tranche provides no explicit projection/composition maps, no nesting conditions, and no proof of equivalence to current H(s)H worldtube/timesheet objects.
+
+## Section Z — MIX TAPES transcript-only lateral reading: lines 581–620 (2026-11-13, h805:s4)
+
+**Source:** Satobloc/SAT_THEORY_ARCHIVE_2023-25 main commit 37fcbdc49b331cd11209d203384c0b64a604c7b9; path FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/MIX TAPES.txt; blob 9be7a256d08fcb1aacf3e77b807db0e9555681c4. No HsH duplicate copy exists.
+
+Read extent: lines 581–620. The prior 541–580 quantum is already recorded. Next cursor: line 621.
+
+This is a flattened transcript, not a raw conversation export. Lines 609–610 use the textual label “You said,” but there is no raw author.role field, message UUID or timestamp. The span is not authenticated Nathan Direct. The assistant narrative in lines 612–620 amplifies the anecdote into a “Halloween Diplomat” story; that is assistant embellishment, not evidence or a verified biographical fact. The anecdote is explicitly hedged in the transcript as apocryphal; no external fact-check was performed.
+
+Tags: FLATTENED-TRANSCRIPT; SPEAKER-LABEL-ONLY; NO-RAW-ROLE-METADATA; NO-NATHAN-DIRECT-ATTRIBUTION; ASSISTANT-EMBELLISHMENT; BIOGRAPHICAL-CLAIM-UNVERIFIED; NO-EXTERNAL-CORROBORATION; PRIVACY-MINIMIZATION.
