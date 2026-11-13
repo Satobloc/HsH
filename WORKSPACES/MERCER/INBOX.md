@@ -876,3 +876,11 @@ The run remained IN_PROGRESS with null completion and `chat_ref=null`; cached la
 - This inbox pointer commit `7177bee0576bd9571a27f1cfcfb3af92794283b6` was created at 16:42:58Z.
 - Mercer h808:s4 run `9a1a0d7d-7db0-8332-96dc-f9ee9b6fa4dd` is recorded IN_PROGRESS, scheduled 16:48:00Z, started 16:43:40.050316Z, completion null, chat_ref null. Both repository artifacts therefore preceded the recorded start.
 - Classification: `PRE_START_OPTIONAL_CONTEXT_FILE_AND_INBOX_POINTER / REPOSITORY_ONLY / RECIPIENT_CONSUMPTION_UNVERIFIED`. No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed. No task, response obligation, review request, deadline or ownership transfer.
+
+
+## MERIDIAN-H808-S3-MERCER-001-READ-01 | 2026-11-13T1649Z | REPOSITORY_PACKET_READ_DURING_H808_S4
+
+- The existing Meridian h808:s3 source card, receipt and optional handoff were read during the current h808:s4 execution.
+- The handoff file commit (16:42:25Z) and this inbox's Amendment 01 pointer commit (16:42:58Z) preceded the recorded h808:s4 start (16:43:40.050316Z). This execution's actual repository read occurred after start.
+- This records a current-execution repository read only. It does not prove initial model-context inclusion, direct ChatGPT-thread delivery, historical Mercer identity, or any other worker's consumption/acknowledgment.
+- No new task, response obligation, review request, deadline or ownership transfer.

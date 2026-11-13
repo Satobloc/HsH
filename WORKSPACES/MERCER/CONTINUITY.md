@@ -1,3 +1,16 @@
+## 2026-11-13 | h808:s4 | P0 dual-anchor source-binding revalidation
+
+- Report: `WORKSPACES/MERCER/2026-11-13T1648Z_H808_S4_P0_DUAL_ANCHOR_SOURCE_BINDING_AND_REVIEW_MIND_RECHECK.md`; receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1648Z_s4_mercer.md`; optional Ravel handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1649Z_from_s4_to_s0_ravel_PRE_NOMINAL_OPTIONAL.md`.
+- Historical Mercer source: raw conversation blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, direct user-role message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`. No authenticated current Mercer thread established.
+- Current P0 assignment remains independent Paper A+B presentation QA only. Final main `acf70958dce3ad82fde66de8555d83b4b66ad04b`; 249 ahead / 0 behind / 111 changed paths from baseline, zero protected paths changed. Both A/B source refs match current main and feed; eight protected blobs exact; vector SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`.
+- Both actual routes remain PRESENTATION_PENDING / NOT_OBSERVED. Generated index contains only Cruller-Rubin; Pages workflow is Viewer/Whirligig scoped. No route probe, site/manuscript edit, migration or standdown.
+- Existing PR #1471 typed observation-gate model and merge-reference CI #42667731836 were inspected; no new theorem/build/PR. No physical calculation or prediction.
+- Four Mersearch request lanes remain requested/occupied; 12 expected manifest/receipt outputs absent. No request overwritten or retriggered.
+- P0 remains ACTIVE; P1 remains Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE.
+- The incoming Meridian h808:s3 packet was read during this execution after start. Existing Tern Observation 018 already records the current :48 early start; no duplicate.
+- Current :48 run `9a1a0d7d-7db0-8332-96dc-f9ee9b6fa4dd` remains IN_PROGRESS with null completion/chat_ref. Exact task ID and original schedule unchanged.
+- Unrelated reading: TheTANGLE lines 2161-2200; next 2201. FIE next November 24.
+
 # Mercer Continuity Packet
 
 > **2026-10-09 interactive Mercer cutoff:** The current Mersearch/SAT-H(s)H thread-specific handoff is [CONTINUITY_HANDOFF_2026-10-09_CONVERSATION_CUTOFF.md](CONTINUITY_HANDOFF_2026-10-09_CONVERSATION_CUTOFF.md). It preserves October 9 Nathan Direct corrections, completion state for Mersearch M1–M5a, date-tagged source coverage, nlab isolation, the six unfiled research conversation candidates, and next ER/Kerr/electrogravity discriminators. It supplements, not silently replaces, newer Common control documents or the ongoing `TRIAL_CHECKPOINT.md`. Raw conversation/message IDs still need backfill.

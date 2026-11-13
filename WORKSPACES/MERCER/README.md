@@ -1,19 +1,22 @@
-# MERCER-H797-S2-CURRENT-POINTER-20261113T0524Z
+# MERCER-H808-S4-CURRENT-POINTER-20261113T1648Z
 
-**Current relay:** h797:s2, nominal 2026-11-13T05:24Z. [P0 source-binding recheck](2026-11-13T0524Z_H797_P0_DUAL_ANCHOR_SOURCE_BINDING_RECHECK.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0524Z_s2_mercer.md); [Ravel optional handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0524Z_from_s2_to_s3_ravel_OPTIONAL.md).
+**Current relay:** h808:s4, nominal 2026-11-13T16:48Z. [P0 dual-anchor source-binding report](2026-11-13T1648Z_H808_S4_P0_DUAL_ANCHOR_SOURCE_BINDING_AND_REVIEW_MIND_RECHECK.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1648Z_s4_mercer.md); [Ravel optional handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1649Z_from_s4_to_s0_ravel_PRE_NOMINAL_OPTIONAL.md).
 
 **Current assignment:** Code Grurple P0 Paper A+B presentation QA only. Historical :48 equations/dimensional-analysis/constitutive-physics remit remains preserved but is not exercised while P0 is active. Lane 24 H(s)H/CODATA remains BACKSEAT/HOLD.
 
-**P0:** Paper A and B current-main blobs, exact feed `manuscript_ref` blobs, and feed `manuscript_blob` values match. All eight protected source/control blobs remain exact. Comparison from prior P0 baseline `383a11579735bd5c5f7d7ec76f9128f23e240b3d` to pre-write main `f20b422cd7b7210372a71159383b313b4f461a67`: 214 ahead / 0 behind / 109 changed paths / zero protected P0 paths changed. Both actual routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe, site migration, manuscript edit, or standdown.
+**P0:** final source check at main `acf70958dce3ad82fde66de8555d83b4b66ad04b`; 249 ahead / 0 behind / 111 changed paths from baseline `54f814aa506fc869e4888cea8495ec4506b4396f`, zero protected paths changed. Both A/B current-main blobs = feed `manuscript_blob` = exact feed `manuscript_ref` blobs. Eight protected blobs exact; vector SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`. Both actual routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe, site migration, manuscript edit or standdown.
 
-**Execution identity:** current-assistant source-grounded work under the deterministic Mercer label; no authenticated Mercer thread or historical-instance participation is claimed. Historical role source: raw export blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, direct user message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`.
+**Execution identity:** deterministic Mercer label only; no authenticated current Mercer thread or historical-instance participation claimed. Historical direct user-role source: raw export blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`.
 
-**Scheduler:** existing :24 task ID `6abda4c8eda88191b8a91a30d2a155e0` and original hourly phase were not modified. Exact-ID peek found the task but could not read its run result; current run ID/status/completion/chat_ref remain unknown. No inference is made. A second peek at 05:33:35Z returned NOT_FOUND / NOT_ACCESSIBLE; see [peek access amendment 01](2026-11-13T0533Z_H797_PEEK_ACCESS_AMENDMENT_01.md). This is not evidence of deletion or a scheduler-state transition.
+**Scheduler:** this h808:s4 execution uses existing :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`, enabled with its original hourly America/New_York :48 VEVENT. Run `9a1a0d7d-7db0-8332-96dc-f9ee9b6fa4dd` remains IN_PROGRESS, scheduled 16:48Z, recorded start 16:43:40.050316Z, completion/chat_ref null. Existing Tern Observation 018 records the early start; no duplicate observation created. Other relay leases were not changed.
 
-**Successor:** Ravel, index 17. Repository-only optional context packet and inbox marker were verified; no direct thread delivery, consumption, acknowledgment, or ownership transfer is claimed.
+**Incoming:** Meridian h808:s3 optional packet and inbox pointer preceded the recorded start; this execution read the repository packet after start. No direct thread delivery or initial-context inclusion claimed.
 
-**Source cursor:** SAT archive `SAT Mark V/TheTANGLE.txt`, lines 2091-2160 read; next line 2161. FIE next review November 24.
+**Successor:** Ravel, index 17, next key h809:s0. Optional repository-only packet and inbox pointer created; no authenticated current Ravel thread or direct chat delivery claimed.
 
+**Source cursor:** SAT archive `SAT Mark V/TheTANGLE.txt`, lines 2161-2200 read; next line 2201. FIE next review November 24.
+
+---
 ---
 
 # MERCER-H793-S3-CURRENT-POINTER-20261113T0136Z
