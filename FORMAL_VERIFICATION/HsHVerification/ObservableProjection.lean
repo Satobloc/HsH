@@ -275,4 +275,117 @@ theorem noninjective_observation_implies_assessment_collision
 #print axioms evidence_invariant_assessment_iff_factors_through_observation
 #print axioms noninjective_observation_implies_assessment_collision
 
+
+/-!
+## Group-level consensus as a lossy projection
+
+This is a typed measurement scaffold, not a model of any particular study.
+Public consensus, accuracy, participation, provenance, and an optional latent
+readout are separate fields. The latent readout denotes an instrument output,
+not belief, personhood, or subjective experience. No empirical values or
+physical fixture are introduced here.
+-/
+
+/-- A group snapshot keeps distinct measurement dimensions in separate fields. -/
+structure GroupState
+    (Consensus Accuracy Participation Provenance Latent : Type*) where
+  publicConsensus : Consensus
+  accuracy : Accuracy
+  participation : Participation
+  provenance : Provenance
+  latentReadout : Latent
+
+/-- The complete declared group-level measurement vector. -/
+def fullGroupReadout
+    {Consensus Accuracy Participation Provenance Latent : Type*}
+    (g : GroupState Consensus Accuracy Participation Provenance Latent) :
+    Consensus × Accuracy × Participation × Provenance × Latent :=
+  (g.publicConsensus, g.accuracy, g.participation, g.provenance, g.latentReadout)
+
+/-- A consensus-only readout discards the other declared dimensions. -/
+def consensusOnly
+    {Consensus Accuracy Participation Provenance Latent : Type*}
+    (g : GroupState Consensus Accuracy Participation Provenance Latent) :
+    Consensus :=
+  g.publicConsensus
+
+/-- Reconstruct the typed group snapshot from the complete measurement vector. -/
+def reconstructFullGroupReadout
+    {Consensus Accuracy Participation Provenance Latent : Type*}
+    (r : Consensus × Accuracy × Participation × Provenance × Latent) :
+    GroupState Consensus Accuracy Participation Provenance Latent :=
+  ⟨r.1, r.2.1, r.2.2.1, r.2.2.2.1, r.2.2.2.2⟩
+
+/-- The complete declared measurement vector has an explicit left inverse. -/
+theorem fullGroupReadout_left_inverse
+    {Consensus Accuracy Participation Provenance Latent : Type*} :
+    Function.LeftInverse
+      reconstructFullGroupReadout
+      (@fullGroupReadout Consensus Accuracy Participation Provenance Latent) := by
+  intro g
+  cases g
+  rfl
+
+/-- The full typed measurement vector is injective. -/
+theorem fullGroupReadout_injective
+    {Consensus Accuracy Participation Provenance Latent : Type*} :
+    Function.Injective
+      (@fullGroupReadout Consensus Accuracy Participation Provenance Latent) :=
+  (fullGroupReadout_left_inverse).injective
+
+/-- Consensus is an explicit projection of the full measurement vector. -/
+def consensusFromFullGroupReadout
+    {Consensus Accuracy Participation Provenance Latent : Type*}
+    (r : Consensus × Accuracy × Participation × Provenance × Latent) :
+    Consensus :=
+  r.1
+
+theorem consensusOnly_factors_through_fullGroupReadout
+    {Consensus Accuracy Participation Provenance Latent : Type*} :
+    @consensusOnly Consensus Accuracy Participation Provenance Latent =
+      (@consensusFromFullGroupReadout Consensus Accuracy Participation Provenance Latent) ∘
+      (@fullGroupReadout Consensus Accuracy Participation Provenance Latent) := by
+  funext g
+  rfl
+
+/-- A deterministic encoding preserves equality already present in consensus. -/
+theorem consensus_collision_survives_encoding
+    {Consensus Accuracy Participation Provenance Latent Encoded : Type*}
+    (encode : Consensus → Encoded)
+    {g₁ g₂ : GroupState Consensus Accuracy Participation Provenance Latent}
+    (hConsensus : consensusOnly g₁ = consensusOnly g₂) :
+    encode (consensusOnly g₁) = encode (consensusOnly g₂) :=
+  congrArg encode hConsensus
+
+/-- If distinct group states share consensus, the consensus projection is non-injective. -/
+theorem consensusOnly_noninjective_of_collision
+    {Consensus Accuracy Participation Provenance Latent : Type*}
+    {g₁ g₂ : GroupState Consensus Accuracy Participation Provenance Latent}
+    (hConsensus : consensusOnly g₁ = consensusOnly g₂)
+    (hDistinct : g₁ ≠ g₂) :
+    ¬ Function.Injective consensusOnly := by
+  intro hinjective
+  exact hDistinct (hinjective hConsensus)
+
+/-- No deterministic downstream encoder of consensus alone can recover the
+    distinction between two group states that already share that consensus. -/
+theorem no_encoding_recovers_group_state_from_consensus
+    {Consensus Accuracy Participation Provenance Latent Encoded : Type*}
+    (encode : Consensus → Encoded)
+    {g₁ g₂ : GroupState Consensus Accuracy Participation Provenance Latent}
+    (hConsensus : consensusOnly g₁ = consensusOnly g₂)
+    (hDistinct : g₁ ≠ g₂) :
+    ¬ Function.Injective (encode ∘ consensusOnly) := by
+  intro hinjective
+  apply hDistinct
+  apply hinjective
+  exact consensus_collision_survives_encoding encode hConsensus
+
+#print axioms fullGroupReadout_left_inverse
+#print axioms fullGroupReadout_injective
+#print axioms consensusOnly_factors_through_fullGroupReadout
+#print axioms consensus_collision_survives_encoding
+#print axioms consensusOnly_noninjective_of_collision
+#print axioms no_encoding_recovers_group_state_from_consensus
+
 end HsHVerification.ObservableProjection
