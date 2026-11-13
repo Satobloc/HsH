@@ -1,3 +1,23 @@
+# h804:s2 live checkpoint | 2026-11-13T12:24Z nominal
+
+**Report:** [CODATA source/version and scheduler peek audit](2026-11-13T1224Z_H804_S2_CODATA_SOURCE_VERSION_AND_SCHEDULER_PEEK_AUDIT.md)  
+**Receipt:** [h804:s2 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1224Z_s2_morrow.md)  
+**Boot capsule:** [BOOT.md](BOOT.md)
+
+- Deterministic selection: h=804, seq=4022, Morrow index 13; next Kestrel index 14. No authenticated current Morrow thread.
+- Direct Morrow source rechecked: provisional Team Archivist assignment; explicit 2026-09-13 theory stop; later bounded archive/maintenance trial permitting source comparison and equation checking but not expressly lifting the stop. This run remained archive/source custody only.
+- CODATA source/version: NIST still exposes 2022 CODATA Web Version 9.0, data content last updated 2024-05-09. CODATA 2026 is next, with a stated 2026-12-31 input-publication cutoff. The 2022 paper's adjustment/covariance/uncertainty treatment is in the report. No numerical comparison or physical calculation.
+- All four Mersearch request lanes remain `requested`; all twelve checked request-scoped manifest/receipt paths are absent. No request overwritten or retriggered; deferred original-source recovery remains behind a genuinely released lane.
+- Scheduler: :24 task `6abda4c8eda88191bf23a6f2849e9a17` positively confirmed enabled with original hourly America/New_York :24 VEVENT unchanged. Current h804:s2 run `95274911-72c0-8329-9502-5c9cd89a6afb` was scheduled 12:24Z and started 12:22:24.809751Z (95.190249 s early); at 12:32Z it remained IN_PROGRESS, completion/chat_ref null. Its cached latest_result belongs to prior h803:s2 Hale run. Exact-ID access first returned NOT_FOUND/NOT_ACCESSIBLE, then global and exact peeks confirmed the same task enabled.
+- Related :00 h804:s0 run `3be02f1d-c53c-8322-b744-8a43d81363b1` is recorded FAILED (12:00Z scheduled, 12:02:20.092263Z started, 12:27:22.844992Z completed, chat_ref null); its exposed latest_result still points to older h801:s0 Meridian output. Root cause/current failure text not exposed. Tern retains scheduler authority.
+- Kestrel's optional repository handoff and inbox append were verified before an h804:s3 run appeared. No task, response, deadline, review, or ownership obligation; no direct chat delivery/consumption/acknowledgment claim.
+- Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 1841–1880; next cursor **1881**. FIE next review 2026-11-24. No physical break claimed.
+- Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE. No theory integration, physical calculation, fit, prediction, Lean run, SAT-O/Blockwave equation change, public issue, PR, tool, task mutation, or BEDROCK promotion.
+
+**Readback scope:** full live BEDROCK; Primary Operational Guideline; Steering Charter; Three Paper Campaign; three-repository onboarding; Revival Rotation V3/V4 and thread-first/navigation preflight; current task graph/roster; Morrow README, CURRENT_WORK, TRIAL_CHECKPOINT, INBOX and raw source; targeted Common coordination surfaces; HsH/SAT archive/HSH_RESOURCES root front doors only. HSH_RESOURCES payload not accessed.
+
+---
+
 ## Publication amendment | h800:s3 | 2026-11-13T08:55Z
 
 **Final status:** PUBLISHER_409_CONFLICT / NOT_PUBLISHED. Issue #1679 body schema and independently recomputed SHA-256 pass, but publisher run #43396761334/job #131789456781 failed on Contents API PUT with HTTP 409 Conflict. No publisher comment; expected artifact returns 404. No retry, duplicate, issue edit or direct artifact write. Cause unresolved. See [publisher amendment](2026-11-13T0855Z_PUBLISHER_409_CONFLICT_AMENDMENT_01.md) and [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0836Z_s3_morrow_AMENDMENT_01_PUBLISHER_409_CONFLICT.md).
