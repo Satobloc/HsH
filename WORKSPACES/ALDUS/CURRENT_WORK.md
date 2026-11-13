@@ -1,3 +1,28 @@
+# Aldus | Current Work | Latest activation h795:s2 | 2026-11-13T03:24Z
+
+**Start here:** [BOOT.md](BOOT.md) is the compact identity/role/intentions capsule. This file remains the detailed append-only work history.
+
+## h795:s2 | synchronized SVS + 4D-PTV vortex-interface measurement map
+
+- Rotation: h=795, seq=3977, selected label Aldus (ring index 6), next label Calder (ring index 7). Run key: REVROT3-19-20261011:795:s2.
+- Current :24 automation ID remains 6abda4c8eda88191bf23a6f2849e9a17, enabled, exact hourly America/New_York :24 VEVENT unchanged. Current run ID a71e7ed6-7fc0-8328-9580-67d25fc6e457 was scheduled for 03:24Z, started 03:27:50.642776Z, and remained IN_PROGRESS with null completion and chat_ref at final scheduler readback. The cached latest_result is the preceding completed h794:s2 Loom run; it is not attributed to h795:s2. No scheduler completion is claimed.
+- Historical remit: direct user source recovered from raw conversation blob 2f5ea91a449446f64d298b50b0c2ef0d8533900a (47 user-role messages; historical conversation ID 6a9dea2e-bb98-83ea-a74f-4beb4baa3153). Direct messages 939e0d7c-5e9e-4c84-b4a9-4e0e8e58d832 and fcff5c18-85c4-4efc-b7e5-df7ee20c0646 support broad cross-reading and combining information not usually combined. No standalone signed specialist charter. The “Renaissance Man” label in WORKING_GROUP_1.txt is a working-group/assistant formulation, not Nathan Direct. No authenticated current Aldus thread was found.
+- New report: [synchronized SVS + 4D-PTV measurement map](2026-11-13T0324Z_SIMULTANEOUS_SVS_4DPTV_WORLD_SURFACE_MEASUREMENT_MAP.md), blob 1f81c295606ea8a2e7b0b4360b15b7c3fbcbf3b4.
+- New compact launch capsule: [BOOT.md](BOOT.md), blob 25198d0091b61ff2561119f3fb31ffcf6300bfdc.
+- Public submission: [issue #1665](https://github.com/Satobloc/HsH/issues/1665) PUBLISHED_VERIFIED. Publisher run #43360798058 succeeded. Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aldus-lane24-svs-4dptv-vortex-interface-20261113t0324z-s2-001.md; publisher commit 0afd3cfcb46bc25157467c0089969b605973a5a6; SHA-256 17ab93ea6c9ac4710de1610ff802ae0dce257df05732cd0c0f0d178b8a8a5fb3; artifact blob 59ae13e7d79a869694c8505d35a0d8302bfc871a. Issue envelope content and independently fetched artifact matched exactly.
+- Source: Han et al., *Experiments in Fluids* 67, 91 (2026), DOI 10.1007/s00348-026-04256-5. The paper reports simultaneous SVS surface measurement and 4D-PTV volumetric flow measurement at ReΓ=2509, common spatial registration and synchronized time. Supporting data are available from the corresponding author upon reasonable request; the listed supplement is a 10.4 MB GIF. Full article is subscription content. No purchase or author request was made; raw data, calibration, covariance and complete uncertainty budget were not obtained.
+- H(s)H disposition: candidate only for existing P2 docket #565, not a P2 system selection. Candidate map: core history, surface history, and bulk-medium velocity field with two observation branches and joint calibration/registration. Laboratory 3D-plus-time data are not automatically H(s)H worldtubes or timesheets. No physical calculation, CODATA comparison, fit, H(s)H prediction, reverse reconstruction, or theory promotion.
+- Formalization: existing Aldus PR #1657 remains draft; current-head run #43332191359 completed with failure. Its conditional factorization theorem does not instantiate this experiment’s maps. No new Lean theorem or successful integrated build is claimed.
+- Mersearch: all four canonical lanes remain requested; no request was overwritten or retriggered. The extra lane-1 request file remains unbound. GitHub search was used only for duplicate checks, not as Mersearch.
+- HSH_RESOURCES boundary remains unresolved: README says private/internal while GitHub metadata reports public. No resource payload was inspected and no access setting changed.
+- Successor: Calder h795:s3 started at 03:40:12.906685Z before handoff. Repository packet and inbox append are POST_START_OPTIONAL_CONTEXT / REPOSITORY_ONLY; no direct thread delivery, consumption, acknowledgment, task assignment, or ownership transfer is claimed. [Handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0324Z_from_s2_to_s3_calder_POST_START_OPTIONAL.md); Calder inbox marker ALDUS-H795-S2-TO-CALDER-H795-S3-001 verified exactly once.
+- No h795:s1 Kestrel-to-Aldus predecessor handoff was found; :12 remains disabled. No predecessor consumption is claimed.
+- Paper gates: P0 Code Grurple ACTIVE; P1 Nov 9 OVERDUE/NOT READY and Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE last full review Nov 10; next due Nov 24.
+- Unrelated reading break: Oscar Wilde, *The Importance of Being Earnest*, Project Gutenberg #844, lines 1623–1662. Next cursor: line 1663. The separate SAT archive cursor remains SAT Mark V/TheTANGLE.txt, line 2091. The Babbage cursor in HSH_RESOURCES was not accessed because the repository access boundary remains unresolved.
+- Main branch only. No new tool, branch, PR, task, automation, ID, schedule, phase, prompt, cadence, signet, or chat rename. No sixth task. No SAT-O/Blockwave equation change and no BEDROCK promotion.
+
+---
+
 ## Latest h791:s3 scheduler run-binding reconciliation | H791-S3-SCHEDULER-RUN-BINDING-001 | 2026-11-13T0001Z
 
 - Current :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its exact original hourly :36 VEVENT. Current run ID `058822fc-6524-832e-baf5-bb11a3bfc9f7`, scheduled 23:36Z, currently returned start 00:01:13.416485Z, IN_PROGRESS, completion/chat_ref null.
