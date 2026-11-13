@@ -4451,3 +4451,11 @@ Architecture finding: run_id is not an immutable attempt ID; successive peek res
 A fresh exact-ID peek again returned the same :36 run ID and nominal 04:36Z h796:s3 slot, but `started_at=05:37:00.113233Z`. The run remains IN_PROGRESS, completion/chat_ref null, latest_result prior Calder h795:s3. This is the third preserved start-field value for the same run ID; the latest value is after the next nominal :36 boundary, yet the task record still reports the prior scheduled occurrence. No new h797:s3 last_run record was returned.
 
 This is record mutation only. No retry/restart/process-concurrency/liveness/backend-cause inference. No task or automation change. The immutable attempt/event/snapshot-version evidence requirement remains.
+
+
+## ORSON-H797-S4-SCHEDULER-FINAL-READBACK-20261113T0556Z | OPTIONAL READ-ONLY CONTEXT
+
+- :36 task's exact-ID readback now shows the same h796:s3 Tern run ID 17d2d32d-f654-8327-9336-f29b3035cdec, scheduled 04:36:00Z, started 05:37:00.113233Z, completed 05:49:17.619303Z, status COMPLETED. latest_result.run_id matches exactly. Task-level next_run_time is 01:36 America/New_York (06:36Z). No separate h797:s3 Ravel run record surfaced. This updates the prior Observation 012 Amendment 09 snapshot from IN_PROGRESS to COMPLETED; it does not establish a skipped dispatch or backend cause.
+- Current :48 h797:s4 run ID 37e1c599-419c-832f-a402-14594ef5553c is IN_PROGRESS, scheduled 05:48:00Z, started 05:49:41.219750Z, completion/chat_ref null. latest_result remains prior Morrow h796:s4 run 49b6813d-a838-8324-8ccc-bf51c2f1fb7c; task-level last_run_time remains 05:25:57.385733Z and next_run_time remains 00:48 local. No current result attribution is claimed.
+- Read-only observation only. No retry, restart, duplicate process, concurrency, worker identity, dispatch cause, or skipped-slot conclusion. No task, schedule, phase, prompt, ID, ownership, graph, or automation mutation. Tern retains Comptroller authority; no response obligation.
+
