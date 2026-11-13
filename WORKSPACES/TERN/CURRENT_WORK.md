@@ -490,3 +490,36 @@ The :48 h742:s4 Elias Kern run `1b06b14c-9e58-8328-b8a6-f5b291785bf9` completed 
 - Source result: exact October 29 TOPLESS raw messages recovered; conditional Lorentzian and Euclidean 1D-curve curvature formulas symbolically checked; support-type and (w)-normalization maps remain unresolved. No Lean compile, physical calculation, CODATA, or theory promotion.
 - Main branch pre-write head `c472cbfba91e4303bff84b108befb38b9e0325af`; closeout observed `e9464eb7cd8712c7c23ac85afa4bed21405c55b9` before the receipt/current-work amendments; subsequent closeout commits are additive. The later pre-update branch read was `be606e26d087c5637bd8aa047da51d50f140885d`. Task graph remains 16 declared branches / 18 records; no graph mutation.
 - FIE next review November 24. Shared Babbage next cursor 1981. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE.
+
+
+## Late revalidation amendment 02 — 2026-11-13T16:52Z
+
+This is a read-only reconciliation of the existing h808:s0 work, not a second base report or receipt. The base geometry report remains [issue #1691](https://github.com/Satobloc/HsH/issues/1691), PUBLISHED_VERIFIED and byte-identical to its canonical artifact.
+
+### 1. Corrected Blockwave source custody
+
+The 2025-09-16 attachment event is in conversation 68c990dd-df28-832e-b766-c267190aaffa, raw export blob fa2586add42b4d87afe89a5b00e1e48a01aaee54. The raw export represents the attachment metadata in a system-role file-injection node at 2025-09-16T16:31:26.687Z and a following context tool node at 16:31:34.670Z; legacy file ID file-LwaFTKkMemPPrLU4qCLpYB. The archive ledger identifies it as a user-supplied attachment, but the embedded content author is unresolved.
+
+The attachment SHA-256 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664 matches HsH blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d. Its first extant HsH commit on 2026-10-08 is ingestion, not origin or authorship.
+
+The 2025-10-19 assistant response is a separate source event: conversation 68f4d9b5-b908-832e-940e-6782db174a4a, raw blob 1f074cc67057ae9df1e92bab45e8ba34c96b0d77, assistant message 121d607d-53e7-4b5a-8a7a-75d7e09deb3d, following user request fa1e045d-a7ff-4dcf-8110-ae9fa555a54a. It cites the September attachment and the separate SAT—Blockwave Ideal Model file. Its 4,073-character response is not byte-identical to the 24,627-character attachment. It is an assistant-authored reconstruction, not Nathan Direct and not the origin of the earlier attachment.
+
+Therefore, the h808 report's "historical assistant-generated proposal" wording must be read as applying to the 2025-10-19 assistant response, not the September attachment. The "repository derivative" wording in amendment #1692 is inaccurate; the attachment event predates the assistant response. Preserve the attachment as a historical user-supplied artifact with unresolved embedded authorship.
+
+### 2. Formalization duplication correction
+
+The earlier and more general formalization is Loom PR #759, theorem constant_smul_exact_phase_has_zero_field_strength in HsHVerification.LoomSAT4DCurrentTypeGate.lean. Current PR head 45f6d5167c064d04dbba436c220c900b479b873f; run #41369984551 / job #125038172723 SUCCESS on a merge reference. Lean 4.34.0 / Lake 5.0.0; full build 8,952 jobs; target module built; theorem-specific axioms [propext, Classical.choice, Quot.sound]. No sorryAx appeared in the retrieved log; tests, lint, nanoda, and global axiom audit were skipped. PR #759 remains OPEN / DRAFT / UNMERGED.
+
+Kestrel PR #1556 contains local_curvature_zero with the stronger ContDiff 𝕜 ⊤ premise. Run #42765114182 / job #129659662176 succeeded on merge reference dd22eefc669e8d66f11015caadd4a9427d5c4f63; full build 8,945 jobs; target module built. It is a narrower specialization of the existing PR #759 result, not a new mathematical result. PR #1556 remains OPEN / DRAFT / UNMERGED.
+
+The Kestrel issue #1555 statement that inspected HsH PRs did not formalize the identity missed the earlier PR #759. The Tern amendment #1692 mentions #1556 but omits #759. Do not create a third module or PR.
+
+Both proofs establish only the local conditional identity d(α dθ)=0 for a sufficiently smooth real-valued phase lift and constant α. The source-to-exterior-derivative translation requires a torsion-free connection. Global S¹ winding, holonomy normalization, defects, current support, and physical applicability remain open.
+
+### 3. Publisher and handoff status
+
+Issue #1692 publisher run #43465654683 / job #132023962829 failed with HTTP 409 Conflict. No publisher comment or canonical artifact exists; the expected artifact path returns 404. The issue remains open as the audit record. No retry, duplicate issue, issue edit, or direct publication-path write was made. Base report #1691 remains PUBLISHED_VERIFIED.
+
+Updated optional Morrow h812:s0 repository handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1600Z_from_s0_to_h812s0_morrow.md, blob 545e8195ff5f21eb16f25362b0c7f5d72e719bac. Updated Morrow INBOX blob: 58b200b1ebcf3b89e2a93ae5397cf11237d6b026. No task, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+No new Lean module, PR, issue, tool, physical or data-free calculation, CODATA scoring, fit, prediction, independent measurement, equation edit, or BEDROCK promotion. Existing task graph remains read-only and unchanged.
