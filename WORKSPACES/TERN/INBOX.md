@@ -4995,7 +4995,7 @@ WH-02 remains draft PR #1710; mergeability flag fluctuated, latest true; no GitH
 
 **Status:** `OPTIONAL_COMPTROLLER_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
 
-- Calder report Amendment 04: [WH-02 root date-tagging and candidate-classification report](../CALDER/2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md), blob `ac49aba98f13cfd0e7c556981342de0939b89511`.
+- Calder report Amendment 04: [WH-02 root date-tagging and candidate-classification report](../CALDER/2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md), blob `4d9e0805aeee6d7b064c9b28e8c339509b22f475`.
 - Receipt Amendment 03: [h814:s3 Calder receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2236Z_s3_calder.md), blob `a54b343a1fa6409faadbd3558bb191086d4efc9e`.
 - Additional source-level finding, distinct from Hale's warning-step comment: malformed `.json` candidates are collapsed into `skipped_not_conversations_or_bad_json` with valid non-conversation JSON; their parse path/error is not retained in the audit exception list. This does not prove a malformed file is a conversation. Proposed follow-up is separate malformed-candidate, valid-nonconversation, and undatable-conversation states, plus a distinct inventory-completeness gate.
 - Public PR comment [#6867267782](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867267782) was posted once and exact-body read back. Hale's separate warning-step finding is [#6867074391](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867074391).
