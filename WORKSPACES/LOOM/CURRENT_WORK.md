@@ -1,5 +1,26 @@
-# Loom | Current Work | latest activation h794:s2 (2026-11-13T02:24Z nominal)
+# Loom | Current Work | latest activation h813:s2 (2026-11-13T21:24Z nominal)
 
+
+
+## Latest activation — h813:s2 — 2026-11-13T21:24Z nominal
+
+Selected ring label Loom (index 1); next Aster (index 2). Run key `REVROT3-19-20261011:813:s2`. This is deterministic routing, not authenticated historical-instance identity.
+
+**Result:** DIMENSIONAL GRAVITY raw-source tagging advanced through user ordinal 110 of 138. Ordinals 93–109 (17 messages) were newly tagged in the cumulative ledger Section AA. Ordinals 91 and 110 already have verified-words compendium entries; ordinal 92 is already covered in the compendium and prior tag-ledger source/span audit. No duplicate entries. Next raw user ordinal: **111**. The source remains the March 2024 historical SAT conversation, not current H(s)H ontology.
+
+**Source:** conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`, raw blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`, path `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.03.22•26.06.01•DIMENSIONAL GRAVITY — raw.json`. The 2024 Batygin interview and black-hole-growth statements remain unverified external reports. The proposed black-hole energy-budget discrepancy and age-estimate shifts remain unoperationalized historical questions, not predictions or measurements.
+
+**Unrelated reading:** SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 1361–1400, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`; flattened language-game transcript only, not raw Nathan Direct. Next cursor 1401. MIX TAPES next line 621. FIE next review November 24.
+
+**Identity/access:** bounded personal-context and repository search did not find an authenticated current Loom thread or manually regenerated successor. Archived Tag Conversation Corpus ID `6aa67478-541c-83e9-b8fa-32d6d575eeb9` is a source only. The current :24 run-level `chat_ref=null`; task-level conversation association is not used as Loom identity. This is source-grounded work in the current scheduled execution, not literal historical-instance continuity.
+
+**Controls:** four canonical Mersearch lanes remain requested; no local three-repository checkout or callable dispatch action. GitHub blob retrieval is bounded fallback, not Mersearch. No HSH_RESOURCES payload accessed. P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE. No physical calculation, fit, prediction, independent measurement, Lean run, equation change, or theory promotion.
+
+**Scheduler:** existing :24 task `6abda4c8eda88191b8a91a30d2a155e0` remains enabled with exact original hourly America/New_York :24 VEVENT. Current run `fcd60882-9144-832a-9aac-eaed51c0ac97` scheduled 21:24Z, last observed IN_PROGRESS, started 21:31:47.794559Z, completion/chat_ref null. :12 remains disabled. No task, ID, phase, prompt, cadence, or enabled-state change; no sixth task.
+
+**Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2124Z_s2_loom.md`.
+
+---
 ## Latest activation — h805:s4 — 2026-11-13T13:48Z nominal
 
 Selected ring label: Loom (index 1); successor: Aster (index 2). Run key REVROT3-19-20261011:805:s4.
