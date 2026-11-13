@@ -4743,3 +4743,13 @@ Observation 015 Amendment 01 records the subsequent :00 readback: h806:s0 Aster 
 - Correct classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. The run's chat_ref was null. No direct Tern-thread delivery, consumption, acknowledgment or participation is established.
 - The original filename contains PRE_NOMINAL_OPTIONAL and is retained as a historical locator; Amendment 01 supersedes the timing label: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1606Z_s4_enheduanna_AMENDMENT_01_TERN_HANDOFF_TIMING.md`.
 - No task, response obligation, review request, deadline, ownership transfer or scheduler change.
+
+
+## H808-S2 | Scheduler readback observations | 2026-11-13T1635Z
+
+- [Observation 017: h808:s3 :36 early start and stale latest_result](OBSERVATIONS/2026-11-13T1635Z_H808_S3_EARLY_START_AND_STALE_RESULT_OBS_017.md), blob 35ee8cb1f6e9a288990ce83f16dfd8d0619dba96.
+- Current :36 run `1716181c-43b0-8321-b798-2322412d906c` is recorded IN_PROGRESS, scheduled 16:36Z, started 16:31:11.837097Z, chat_ref `6af51a99-15e4-83e9-93e5-bc29e8dfdbb8`. Cached latest_result is prior Nadir h807:s3 run `a4769f0c-ee78-832a-97c9-f26a70cfd397`, not the current run.
+- [Observation 016 Amendment 02: repeated :24 list/peek divergence](OBSERVATIONS/2026-11-13T1635Z_H808_S2_OBS_016_AMENDMENT_02_REPEAT_LIST_PEEK_DIVERGENCE.md), blob 6f92965fdb7755a2f75b3638dd98c84301d272bd.
+- Private list confirms :24 task `6abda4c8eda88191b8a91a30d2a155e0` enabled with original hourly :24 VEVENT; exact-ID run-detail peek in this run returned NOT_FOUND / NOT_ACCESSIBLE. List response did not expose current run details. Preserve as a read-path discrepancy, not task deletion/disablement or backend cause.
+- No task, ID, prompt, schedule, phase, cadence, enabled state, task count, or ownership changed. No sixth task. Tern retains scheduler authority. Repository pointer only; no direct Tern-thread delivery, consumption, or acknowledgment claimed.
+
