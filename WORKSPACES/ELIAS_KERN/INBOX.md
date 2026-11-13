@@ -642,3 +642,11 @@ The previously pending issue #1592 has since been PUBLISHED and read back. Publi
 - Public issue #1676 is SUBMITTED_NOT_VERIFIED at handoff creation; do not resubmit. Verify publisher comment, artifact, SHA and payload equality if useful.
 - No physical data, fit, prediction, P2 selection, H(s)H map or theory promotion. WWRD rope mechanics remains first-blush heuristic only.
 - **No task, response obligation, deadline, review request or ownership transfer.** Optional repository context only. No direct thread delivery, consumption or acknowledgment is claimed. Handoff timing is UNVERIFIED because the :48 task's next-run field was stale and no h799:s4 run record was observed at last peek.
+
+
+## HALE-H799-S3-PUBLISHER-REJECTION-UPDATE-20261113T0753Z
+
+- Issue #1676 was rejected by the existing publisher: comment #6847288898, `REJECTED: SHA-256 mismatch`. No canonical artifact exists. Do not retry or create a duplicate issue.
+- Amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0736Z_from_s3_to_s4_elias_kern_AMENDMENT_01_PUBLISHER_REJECTION.md`.
+- PR #1675 Lean CI run #43388066483 is independently successful, but the PR remains OPEN/DRAFT and dependent on PR #1671.
+- Optional repository context only; no task, response obligation or ownership transfer.
