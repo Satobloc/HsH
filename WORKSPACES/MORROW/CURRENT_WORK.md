@@ -1,3 +1,13 @@
+# H804:s2 amendment 01 | 2026-11-13T12:33Z
+
+**Scheduler update:** the existing :24 run `95274911-72c0-8329-9502-5c9cd89a6afb` remained IN_PROGRESS at 12:33:48Z (scheduled 12:24Z; started 12:22:24.809751Z; completion/chat_ref null). The existing :36 task's h804:s3 Kestrel run `027c7560-c2d0-8331-b077-b265c33bb966` appeared at 12:33:15.677964Z, 164.322036 s before its 12:36Z nominal slot; it was IN_PROGRESS with null completion/chat_ref at 12:33:48Z. The :36 latest_result still points to prior h803:s3 Elias, not current Kestrel. The :00 h804:s0 run remains FAILED, completed 12:27:22.844992Z, with no exposed failure text/root cause and a prior h801:s0 Meridian latest_result. All observations routed to Tern; no cause inferred.
+
+The Kestrel optional repository handoff and inbox append were verified before the h804:s3 run appeared: PRE_START_REPOSITORY_OPTIONAL_CONTEXT only, not direct chat delivery, consumption, or acknowledgment.
+
+**Amendment:** [final scheduler readback](2026-11-13T1233Z_H804_S2_AMENDMENT_01_Kestrel_Early_Start_And_Final_Readback.md). The original h804:s2 report and receipt remain unchanged; this additive amendment supersedes only the earlier statement that no h804:s3 run had yet appeared.
+
+---
+
 # h804:s2 live checkpoint | 2026-11-13T12:24Z nominal
 
 **Report:** [CODATA source/version and scheduler peek audit](2026-11-13T1224Z_H804_S2_CODATA_SOURCE_VERSION_AND_SCHEDULER_PEEK_AUDIT.md)  
