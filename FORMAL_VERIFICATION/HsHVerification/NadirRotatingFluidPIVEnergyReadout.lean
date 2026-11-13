@@ -43,11 +43,11 @@ def vlsReadout (v : Velocity3) : VLSReadout :=
   (v.1, v.2.1)
 
 /-- Kinetic-energy density represented by the two in-plane VLS components. -/
-def vlsEnergyDensity (v : Velocity3) : ℝ :=
+noncomputable def vlsEnergyDensity (v : Velocity3) : ℝ :=
   (v.1 ^ 2 + v.2.1 ^ 2) / 2
 
 /-- Full three-component kinetic-energy density. -/
-def fullEnergyDensity (v : Velocity3) : ℝ :=
+noncomputable def fullEnergyDensity (v : Velocity3) : ℝ :=
   (v.1 ^ 2 + v.2.1 ^ 2 + v.2.2 ^ 2) / 2
 
 /-- The VLS-only energy density never exceeds the full three-component value. -/
@@ -106,7 +106,7 @@ def azimuthalEnergyNumerator (w uAzimuthal : ι → ℝ) : ℝ :=
   ∑ i, w i * uAzimuthal i ^ 2
 
 /-- VLS-only specific kinetic-energy estimator. -/
-def vlsSpecificEnergy (w uAxial uRadial : ι → ℝ) : ℝ :=
+noncomputable def vlsSpecificEnergy (w uAxial uRadial : ι → ℝ) : ℝ :=
   vlsEnergyNumerator w uAxial uRadial / (2 * totalWeight w)
 
 /-- Full specific kinetic energy with the azimuthal contribution restored. -/
@@ -121,6 +121,7 @@ def omittedAzimuthalSpecificEnergy
   azimuthalEnergyNumerator w uAzimuthal / (2 * totalWeight w)
 
 /-- Exact decomposition of full energy into VLS and omitted azimuthal terms. -/
+omit [DecidableEq ι] in
 theorem full_energy_decomposition
     (w uAxial uRadial uAzimuthal : ι → ℝ) :
     fullSpecificEnergy w uAxial uRadial uAzimuthal =
@@ -130,6 +131,7 @@ theorem full_energy_decomposition
     omittedAzimuthalSpecificEnergy, add_div]
 
 /-- Nonnegative volume weights make the omitted azimuthal numerator nonnegative. -/
+omit [DecidableEq ι] in
 theorem azimuthalEnergyNumerator_nonneg
     (w uAzimuthal : ι → ℝ)
     (hw : ∀ i, 0 ≤ w i) :
@@ -167,7 +169,7 @@ h ∫[r,r+dr] ∫[0,2π] ρ dφ dρ = π h ((r+dr)^2-r^2).
 The physical use of this weight still depends on the source's axisymmetry
 assumption; only its sign is proved here.
 -/
-def toroidalVolumeWeight (h r dr : ℝ) : ℝ :=
+noncomputable def toroidalVolumeWeight (h r dr : ℝ) : ℝ :=
   Real.pi * h * ((r + dr) ^ 2 - r ^ 2)
 
 /-- The toroidal-bin volume weight is nonnegative for physical h, r, dr. -/
@@ -180,6 +182,80 @@ theorem toroidalVolumeWeight_nonneg
   unfold toroidalVolumeWeight
   exact mul_nonneg (mul_nonneg Real.pi_pos.le hh) hrad
 
+/--
+The article's explicit spectral-resolution example: a 60 Hz recording rate,
+60 s record, 3600 samples, 1800 positive-frequency bins, and a 30 Hz Nyquist
+frequency. The inertial-wave band edge is twice the tank rotation frequency.
+These are exact rational reconstructions of the paper's stated 3, 6, 9 and
+12 rpm cases, not new measurements.
+-/
+def sampleRateHz : ℚ := 60
+def recordDurationSeconds : ℚ := 60
+def sampleCount : ℚ := sampleRateHz * recordDurationSeconds
+def nyquistFrequencyHz : ℚ := sampleRateHz / 2
+def positiveFrequencyBinCount : ℚ := sampleCount / 2
+def fftBinWidthHz : ℚ := nyquistFrequencyHz / positiveFrequencyBinCount
+
+/-- Maximum inertial-wave frequency in Hz for a tank rotation rate in rpm. -/
+def maxInertialWaveFrequencyHz (rpm : ℚ) : ℚ :=
+  2 * (rpm / 60)
+
+/-- Nominal number of FFT bins from zero to the inertial-wave band edge. -/
+def inertialWaveBandBinCount (rpm : ℚ) : ℚ :=
+  maxInertialWaveFrequencyHz rpm / fftBinWidthHz
+
+theorem sampleCount_eq_3600 : sampleCount = 3600 := by
+  norm_num [sampleCount, sampleRateHz, recordDurationSeconds]
+
+theorem nyquistFrequency_eq_30 : nyquistFrequencyHz = 30 := by
+  norm_num [nyquistFrequencyHz, sampleRateHz]
+
+theorem positiveFrequencyBinCount_eq_1800 :
+    positiveFrequencyBinCount = 1800 := by
+  norm_num [positiveFrequencyBinCount, sampleCount, sampleRateHz,
+    recordDurationSeconds]
+
+theorem fftBinWidth_eq_one_sixtieth :
+    fftBinWidthHz = (1 : ℚ) / 60 := by
+  norm_num [fftBinWidthHz, nyquistFrequencyHz, positiveFrequencyBinCount,
+    sampleCount, sampleRateHz, recordDurationSeconds]
+
+theorem maxInertialFrequency_at_12rpm :
+    maxInertialWaveFrequencyHz 12 = (2 : ℚ) / 5 := by
+  norm_num [maxInertialWaveFrequencyHz]
+
+theorem inertialBandBins_at_3rpm :
+    inertialWaveBandBinCount 3 = 6 := by
+  norm_num [inertialWaveBandBinCount, maxInertialWaveFrequencyHz,
+    fftBinWidthHz, nyquistFrequencyHz, positiveFrequencyBinCount,
+    sampleCount, sampleRateHz, recordDurationSeconds]
+
+theorem inertialBandBins_at_6rpm :
+    inertialWaveBandBinCount 6 = 12 := by
+  norm_num [inertialWaveBandBinCount, maxInertialWaveFrequencyHz,
+    fftBinWidthHz, nyquistFrequencyHz, positiveFrequencyBinCount,
+    sampleCount, sampleRateHz, recordDurationSeconds]
+
+theorem inertialBandBins_at_9rpm :
+    inertialWaveBandBinCount 9 = 18 := by
+  norm_num [inertialWaveBandBinCount, maxInertialWaveFrequencyHz,
+    fftBinWidthHz, nyquistFrequencyHz, positiveFrequencyBinCount,
+    sampleCount, sampleRateHz, recordDurationSeconds]
+
+theorem inertialBandBins_at_12rpm :
+    inertialWaveBandBinCount 12 = 24 := by
+  norm_num [inertialWaveBandBinCount, maxInertialWaveFrequencyHz,
+    fftBinWidthHz, nyquistFrequencyHz, positiveFrequencyBinCount,
+    sampleCount, sampleRateHz, recordDurationSeconds]
+
+#eval sampleCount
+#eval nyquistFrequencyHz
+#eval fftBinWidthHz
+#eval inertialWaveBandBinCount 3
+#eval inertialWaveBandBinCount 6
+#eval inertialWaveBandBinCount 9
+#eval inertialWaveBandBinCount 12
+
 #print axioms vlsEnergyDensity_le_full
 #print axioms fullEnergy_eq_vls_iff_azimuthal_zero
 #print axioms no_full_energy_factorization_through_vls
@@ -188,5 +264,11 @@ theorem toroidalVolumeWeight_nonneg
 #print axioms omittedAzimuthalSpecificEnergy_nonneg
 #print axioms vlsSpecificEnergy_le_full
 #print axioms toroidalVolumeWeight_nonneg
+#print axioms sampleCount_eq_3600
+#print axioms fftBinWidth_eq_one_sixtieth
+#print axioms inertialBandBins_at_3rpm
+#print axioms inertialBandBins_at_6rpm
+#print axioms inertialBandBins_at_9rpm
+#print axioms inertialBandBins_at_12rpm
 
 end HsHVerification.NadirRotatingFluidPIVEnergyReadout
