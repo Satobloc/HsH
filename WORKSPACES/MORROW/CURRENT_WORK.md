@@ -1,3 +1,17 @@
+# H812:s0 final readback amendment | 2026-11-13T20:24Z
+
+**Current status:** PUBLISHED_VERIFIED for the existing Lane 00 report #1699. The original h812 checkpoint below remains historically accurate at its earlier SUBMITTED_NOT_VERIFIED moment.
+
+- Canonical artifact and issue-envelope content match exactly. Independent UTF-8 SHA-256: `dffa99ba667f79d0b927a846c2123920646430fef12476b1988003c385161d45`; published artifact and workspace report share blob `a1c0b44d1d9da7f67e0afe2681bcf9f9390804d6`.
+- Publisher confirmation: [issue #1699 comment #6863897574](https://github.com/Satobloc/HsH/issues/1699#issuecomment-6863897574); publisher commit `2c6db1564bee4c5f8f1a7b1cbf2913819c5366d4).
+- Receipt amendment: [h812 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2000Z_s0_morrow_AMENDMENT_01_PUBLISHER_VERIFIED_AND_PROOF_TRIAGE.md).
+- Narrow proof-first authorization from the current Lane 00 instruction was used for a conditional assistant-reconstruction lemma only. [Draft PR #1700](https://github.com/Satobloc/HsH/pull/1700), head `8c5eeacfa1dac4f790d5fc834d6f76ecb3bd3121`, Actions run #43503063906/job #132153555831. Last read: IN_PROGRESS; no compile or axiom-audit success claimed. Morrow's broader theory-integration/physical/paper/BEDROCK stop remains.
+- Scheduler: task `6aa1fe0de5e48191b886496095b1343f` remains enabled with exact original :00 America/New_York hourly schedule and phase. Same run ID `ae26ac1e-e404-832c-acb3-ae2c16149084` changed its reported start from `19:56:58.917418Z` to `20:24:29.364804Z` (+27m30.447386s). It remains IN_PROGRESS with null completion/chat_ref; cached latest result remains h810:s0 Ariadne. Observation only; Tern owns scheduler interpretation.
+- Existing Kestrel h816:s0 handoff already exists; no duplicate created. Its status is updated additively.
+- No authenticated current Morrow thread, direct cross-thread delivery, recipient consumption, or acknowledgment is claimed.
+
+---
+
 # H812:s0 | 2026-11-13T20:00Z | Lane 00 source-fidelity audit
 
 **Status:** REPORT SUBMITTED_NOT_VERIFIED; publisher artifact not yet read back at this checkpoint.
