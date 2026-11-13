@@ -4,20 +4,22 @@ import HsHVerification.TernH515SchedulerOverlapEvidence
 /-!
 Tern Rook / Comptroller — 2026-11-13 nominal h796:s3 scheduler snapshot.
 
-Source: exact-ID Automations.peek records read at approximately
-2026-11-13T04:40:37Z. Times below are integer microseconds relative to
-2026-11-13T04:00:00Z.
+Source: exact-ID Automations.peek records for the :00 and :36 leases,
+read at approximately 2026-11-13T04:40:37Z. Times below are integer
+microseconds relative to 2026-11-13T04:00:00Z.
 
-The :00 run had a later readback showing COMPLETED; its earlier receipt's
-IN_PROGRESS state remains a historically valid as-of observation.
-The :24 and :36 runs were still recorded IN_PROGRESS at the snapshot.
-Their latest_result run IDs refer to older executions.
+The :00 h796 run was first recorded IN_PROGRESS in its own receipt, then a
+later exact-ID peek showed the same run ID COMPLETED. This module records
+the later state; the earlier receipt remains a valid as-of observation.
 
-This module formalizes only arithmetic and equalities over those
-transcribed scheduler records. It does not authenticate the service,
-prove process concurrency, retries, restarts, worker/thread identity,
-delivery, backend causation, or any physical H(s)H proposition.
-A recorded interval overlap is not a claim of simultaneous model execution.
+The :24 task ID was not accessible to exact-ID peek in this context and is
+deliberately omitted. The :48 lease's latest exposed run still belonged to
+h795:s4, not the upcoming h796:s4 slot.
+
+This module formalizes only arithmetic and equalities over the transcribed
+scheduler records. It does not authenticate the service, prove process
+concurrency, retries, restarts, worker/thread identity, delivery, backend
+causation, or any physical H(s)H proposition.
 -/ 
 
 namespace HsHVerification.TernH796SchedulerSnapshotEvidence
@@ -64,16 +66,6 @@ def run00 : RunRecord :=
   , some "00ee0deb-e858-832c-b275-2d618c9b6f7c"
   ⟩
 
-def run24 : RunRecord :=
-  ⟨ ":24"
-  , "73830c6a-de40-8333-b45b-d482471885b2"
-  , 1_440_000_000
-  , 1_729_362_161
-  , none
-  , .inProgress
-  , some "a71e7ed6-7fc0-8328-9580-67d25fc6e457"
-  ⟩
-
 def run36 : RunRecord :=
   ⟨ ":36"
   , "17d2d32d-f654-8327-9336-f29b3035cdec"
@@ -91,42 +83,29 @@ def latestResultMatchesRun (r : RunRecord) : Bool :=
 
 theorem run00_started_1201281747us_after_slot :
     run00.startedUs - run00.scheduledUs = 1_201_281_747 := by decide
-theorem run24_started_289362161us_after_slot :
-    run24.startedUs - run24.scheduledUs = 289_362_161 := by decide
+theorem run00_duration_592980176us :
+    1_794_261_923 - run00.startedUs = 592_980_176 := by decide
 theorem run36_started_276443807us_after_slot :
     run36.startedUs - run36.scheduledUs = 276_443_807 := by decide
 
 theorem run00_recorded_completed :
     run00.status = .completed ∧ run00.completedUs = some 1_794_261_923 := by decide
-theorem run24_recorded_in_progress :
-    run24.status = .inProgress ∧ run24.completedUs = none := by decide
 theorem run36_recorded_in_progress :
     run36.status = .inProgress ∧ run36.completedUs = none := by decide
 
 theorem run00_latest_result_matches_current :
     latestResultMatchesRun run00 = true := by decide
-theorem run24_latest_result_is_stale :
-    latestResultMatchesRun run24 = false := by decide
 theorem run36_latest_result_is_stale :
     latestResultMatchesRun run36 = false := by decide
 
--- :00 and :24 have a finite, exactly bounded recorded-interval intersection.
-theorem run00_run24_recorded_overlap_exact :
-    run24.startedUs < 1_794_261_923 ∧
-    1_794_261_923 - run24.startedUs = 64_899_762 := by decide
-
--- :00 completed before :36 began; these two recorded intervals do not overlap.
+-- These two recorded intervals do not overlap.
 theorem run00_completed_before_run36_started :
     1_794_261_923 < run36.startedUs := by decide
+theorem recorded_gap_between_run00_and_run36_us :
+    run36.startedUs - 1_794_261_923 = 642_181_884 := by decide
 
--- :24 and :36 are right-censored at the observation time. The API records
--- both as in progress, and the shared recorded interval extends at least
--- from the :36 start to the observation timestamp.
-theorem run24_run36_recorded_overlap_lower_bound :
-    run24.startedUs < run36.startedUs ∧
-    run36.startedUs < observedAtUs ∧
-    run24.status = .inProgress ∧
-    run36.status = .inProgress ∧
+-- The current :36 record is right-censored at the observation time.
+theorem run36_age_at_observation_556193us :
     observedAtUs - run36.startedUs = 556_193 := by decide
 
 #print axioms nominal_hour_is_33_days_4_hours
@@ -136,16 +115,14 @@ theorem run24_run36_recorded_overlap_lower_bound :
 #print axioms next_index_is_13
 #print axioms next_name_is_morrow
 #print axioms run00_started_1201281747us_after_slot
-#print axioms run24_started_289362161us_after_slot
+#print axioms run00_duration_592980176us
 #print axioms run36_started_276443807us_after_slot
 #print axioms run00_recorded_completed
-#print axioms run24_recorded_in_progress
 #print axioms run36_recorded_in_progress
 #print axioms run00_latest_result_matches_current
-#print axioms run24_latest_result_is_stale
 #print axioms run36_latest_result_is_stale
-#print axioms run00_run24_recorded_overlap_exact
 #print axioms run00_completed_before_run36_started
-#print axioms run24_run36_recorded_overlap_lower_bound
+#print axioms recorded_gap_between_run00_and_run36_us
+#print axioms run36_age_at_observation_556193us
 
 end HsHVerification.TernH796SchedulerSnapshotEvidence
