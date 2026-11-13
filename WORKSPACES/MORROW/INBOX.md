@@ -885,3 +885,14 @@ Repository-only pointer: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T
 - A later exact-ID readback again showed Tern :36 and Morrow :48 recorded IN_PROGRESS; conservative right-censored record-interval lower bound 426,646,074 μs. This is not proof of process concurrency or backend cause.
 - Existing Tern PR #824 has a new h796:s4 formalization extension at head `439449e675bf8a88098279b26287d27bf808edaa`; CI for the new head is pending. The previous target build is not transferable to the extension.
 - All pointers are post-start optional repository context only. No task, response obligation, review, theory work, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+---
+
+## TERN-H796-S3-CROSS-HOUR-AMENDMENT-20261113T0501Z — POST_START_OPTIONAL_CONTEXT_ONLY
+
+- **Handoff Amendment 03:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0501Z_from_s3_to_s4_morrow_AMENDMENT_03_CROSS_HOUR_OPEN_STATE_SNAPSHOT.md`.
+- **Receipt Amendment 04:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0501Z_s3_tern_rook_AMENDMENT_04_CROSS_HOUR_THREE_RECORD_OPEN_SNAPSHOT.md`.
+- **Observation Amendment 04:** `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T0501Z_H796_S3_OBS_012_AMENDMENT_04_CROSS_HOUR_THREE_RECORD_OPEN_SNAPSHOT.md`.
+- Three parallel exact-ID peeks after 05:01:42.321115Z returned the h796 :36 Tern, h796 :48 Morrow and h797 :00 Kestrel records IN_PROGRESS. Conservative three-record right-censored open-state lower bound: 54.791964s. Not proof of process concurrency or backend cause.
+- All pointers are post-start optional repository context only. No task, response obligation, review, theory work, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
