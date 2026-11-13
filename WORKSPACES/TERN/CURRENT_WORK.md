@@ -8,7 +8,7 @@ This is an amendment to the existing h808 work, not a second base report or rece
 
 ## Blockwave formalization coverage correction
 
-Added [the source-fidelity/formalization amendment](2026-11-13T1622Z_H808_BLOCKWAVE_LOCAL_CURVATURE_FORMALIZATION_AMENDMENT_01.md) (workspace blob SHA-1: 8b9d0b3f3c65e8a3e1b80a2e1a6f4c8f4e3f2a1c). Its unique publisher submission is [issue #1692](https://github.com/Satobloc/HsH/issues/1692), submission ID **tern-h808-s0-blockwave-local-curvature-amendment-20261113t1622z-001**, SHA-256 **7b64898c492ab3024d9a089d2956c137914891ff16a22db4ad90cf97a62d1809**. At this checkpoint the publisher comment and canonical artifact readback are still pending; no publication success is claimed.
+Added [the source-fidelity/formalization amendment](2026-11-13T1622Z_H808_BLOCKWAVE_LOCAL_CURVATURE_FORMALIZATION_AMENDMENT_01.md) (workspace blob SHA-1: 8b9d5123b2465ca324cd93432ff32cfa71371260). Its unique publisher submission is [issue #1692](https://github.com/Satobloc/HsH/issues/1692), submission ID **tern-h808-s0-blockwave-local-curvature-amendment-20261113t1622z-001**, SHA-256 **7b64898c492ab3024d9a089d2956c137914891ff16a22db4ad90cf97a62d1809**. At this checkpoint the publisher comment and canonical artifact readback are still pending; no publication success is claimed.
 
 The omitted existing proof is Kestrel PR #1556 / issue #1555. Its actual CI run #42765114182, job #129659662176, succeeded on a merge reference. It formalizes the conditional local identity d(α dθ)=0 for a smooth local scalar lift and constant α. It does not formalize global S¹ winding, holonomy normalization, defects, torsion, the source-to-exterior-derivative translation, or physical premises. The h808 crosswalk's geometry conclusions remain unchanged.
 
