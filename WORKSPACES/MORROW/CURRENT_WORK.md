@@ -13,6 +13,7 @@
 ---
 
 ## h812:s0 source-custody and Lean CI amendment | 2026-11-13T20:40Z
+- Incoming continuity: read the existing Tern → Morrow h812 optional handoff and latest amendment pointer in Morrow INBOX; no new task or ownership transfer. Run-level `chat_ref` remains null, so no authenticated current Morrow thread or cross-thread delivery is claimed.
 
 - SAT-O1 original: three SAT archive paths plus HsH `30SEP26_DUMP` copy are byte-identical; Git blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`; 3,521 chars; computed SHA-256 `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937`; file-index date 2025-06-09; first extant archive commit 2025-10-27T00:40:28Z; unbylined.
 - Blockwave attachment: Git blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`; 24,627 chars; computed SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`; user-supplied attachment event 2025-09-16T16:31:34.670358Z; embedded authorship unresolved. The 2025-10-19 assistant action is a separate 4,073-character reconstruction. Keep `J^{\\mu\\nu}`, SAT20 `J^\\mu`, SAT-O1 `\\gamma`, and any 3-form current distinct; no map or corrected equation supplied.
