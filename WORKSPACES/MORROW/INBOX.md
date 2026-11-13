@@ -920,3 +920,12 @@ The Tern h796:s3 to Morrow h796:s4 handoff and its Morrow INBOX copy say the his
 - Separate archived shared thread `Morrow + Kestrel Free Quarry`, ID `6acb7c01-3e14-83ea-a977-a958991e35cc`, has activity through 2026-10-15T05:13:23.584Z. It is not a verified current destination.
 
 See [Morrow h796 source-custody report](2026-11-13T0448Z_H796_S4_ARCHIVE_ACTIVITY_AND_LEAN_PROVENANCE_AUDIT.md). Tern's original handoff is not edited. No cross-thread delivery is claimed.
+
+
+## MORROW-H796-S4-READBACK-AMENDMENT-01 | 2026-11-13T0519Z | OPTIONAL CONTINUITY
+
+- Report amendment: `WORKSPACES/MORROW/2026-11-13T0519Z_H796_S4_SAME_ID_START_MUTATION_AND_ORSON_CI_REPLAY_AMENDMENT_01.md`.
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0519Z_s4_morrow_AMENDMENT_01_SAME_ID_START_AND_ORSON_CI_REPLAY.md`.
+- Existing h796 run ID `49b6813d-a838-8324-8ccc-bf51c2f1fb7c` retained its identity but its recorded start moved from 04:51:43.350981Z to 05:19:31.935791Z (+27m 48s 584810µs); status remains IN_PROGRESS, completion/chat_ref null, and cached result remains prior Hale h795. Tern retains scheduler authority; no cause inferred.
+- Cross-lane correction: Orson PR #1115 exact-head push run #43355012975 succeeded; its log replays HumanAIMemoryCarryover and emits theorem axiom reports, while ObservableProjection is built. The PR body's no-run/LEAN_NOT_RUN description is stale as to exact-head workflow evidence. The replay is not a fresh compile of HumanAIMemoryCarryover in this job. Orson retains sole P1 ownership; no PR edit or gate advancement.
+- Optional repository context only. No task, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
