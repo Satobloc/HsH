@@ -168,3 +168,15 @@ Only after this observation layer is controlled should a remaining residual be c
 - P2: HOLD. Han remains a candidate already recorded in issue #1665, not a selected system.
 - P3: INCOMPLETE. No theory promotion.
 - SAT-O/Blockwave: no equation changes.
+
+
+## Amendment 01: completed repository routing
+
+The following additive comments were independently accepted by GitHub:
+
+- PR #1657 verification-scope correction: [comment 6866783721](https://github.com/Satobloc/HsH/pull/1657#issuecomment-6866783721).
+- Existing published SVS/4D-PTV candidate #1665 methods addendum: [comment 6866784344](https://github.com/Satobloc/HsH/issues/1665#issuecomment-6866784344). No duplicate publisher intake or P2 selection was created.
+- Project Desk static-prototype finding on WH-07 issue #1706: [comment 6866784952](https://github.com/Satobloc/HsH/issues/1706#issuecomment-6866784952).
+- Initial partial register and scan status on Factory Floor WH-08 issue #19: [comment 6866785621](https://github.com/Satobloc/FACTORY_FLOOR/issues/19#issuecomment-6866785621).
+
+The PR correction now explicitly distinguishes merge-reference target-module build success from exact-head verification, which remains unverified.
