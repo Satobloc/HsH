@@ -154,7 +154,7 @@ theorem datable_tagging_does_not_imply_inventory_complete :
   · simp [InventoryComplete]
 ```
 
-**Status: LEAN_NOT_RUN.** The local runtime has no `lean`, `lake`, or `elan`; no local repository checkout or existing CI route for this unrelated proposition was available. This is a candidate proof of a proposed software-status contract, not a compiled proof, not a repository test, and not a physical theorem. No `sorry`, assumed axiom, or proof-success claim is introduced.
+**Status: LEAN_NOT_RUN.** The local runtime has no `lean`, `lake`, or `elan`; no Lean CI execution was attempted for this software-status proposition. This is a candidate proof of a proposed software-status contract, not a compiled proof, not a repository test, and not a physical theorem. No `sorry`, assumed axiom, or proof-success claim is introduced.
 
 ### PR and publication readback
 
