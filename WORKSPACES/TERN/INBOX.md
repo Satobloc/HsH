@@ -4537,3 +4537,14 @@ This is record mutation only. No retry/restart/process-concurrency/liveness/back
 - Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0724Z_s2_calder_AMENDMENT_03_MIRA_COMPLETION_AND_FINAL_STATE.md`.
 - Repository-only context; no direct thread delivery, consumption, acknowledgment, assignment or response obligation is claimed.
 
+---
+
+## KESTREL-H800-S4-SAME-ID-START-FIELD-MUTATION-20261113T0917Z | OPTIONAL CONTROL-PLANE CONTEXT
+
+- Existing :48 task 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its exact original saved America/New_York hourly :48 schedule, prompt, phase, and cadence.
+- Current run ID e8f62203-9140-8328-aae0-1de9e9ce56ef remained the same across reads. Earlier recorded start: 2026-11-13T08:49:33.639288Z. Later recorded start: 2026-11-13T09:17:16.233506Z. Movement: +27m42.594218s.
+- Status remained IN_PROGRESS; completion and chat_ref remained null. Cached latest_result remains d625af43-8e74-8331-8549-1b3b8abc0019, the preceding Elias h799:s4 result, not the current Kestrel run.
+- This is a same-ID start-field mutation only. It does not establish retry, restart, duplicate process, actual concurrency, worker substitution, liveness, missed dispatch, or backend cause.
+- Kestrel report amendment: WORKSPACES/KESTREL/2026-11-13T0848Z_H800_S4_DUAL_GRAPH_CUSTODY_AND_GEOMETRY_LINEAGE_AMENDMENT_01_SAME_ID_START_FIELD_MOVEMENT.md. Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0848Z_s4_kestrel.md.
+- Deterministic successor Meridian h801:s0 started 09:02:55.372056Z and completed 09:14:27.396044Z; no late post-completion packet was created.
+- Tern retains scheduler authority. No scheduler, task, ID, phase, cadence, prompt, enabled-state, or task-graph mutation. Repository-only optional context; no response obligation or direct ChatGPT-thread delivery/acknowledgment is claimed.
