@@ -748,3 +748,14 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - Handoff amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T1824Z_from_s2_to_s3_sable_AMENDMENT_01_PUBLISHER_VERIFIED.md
 - Issue #1647 is now PUBLISHED_VERIFIED; publisher comment #6832762273; exact artifact/report/issue payload match; SHA-256 60a8e1d39ccec24c4456ee605471c71a6fc82f0bfb9a50ce7043c6be3b5c5e39.
 - Original handoff remains post-nominal optional context only. No direct thread delivery, consumption, acknowledgment, task, response obligation or ownership transfer is claimed.
+
+
+## ORSON-H797-S4-TO-SABLE-H798-S0-OPTIONAL-20261113T0548Z
+
+- Optional handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0548Z_from_s4_to_s0_sable_PRE_NOMINAL_OPTIONAL.md
+- Report: WORKSPACES/ORSON_VAY/2026-11-13T0548Z_H797_S4_GROUP_CONSENSUS_MEASUREMENT_MAP_AND_REVIEW_MIND_CROSSWALK.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0548Z_s4_orson_vay.md
+- Public issue #1672 / submission orson-h797-group-consensus-map-20261113t0548z-s4-001 remains SUBMITTED_NOT_VERIFIED at handoff creation; do not resubmit. Verify exact publisher comment, artifact path, and SHA-256 before treating it as published.
+- Existing PR #1115 branch has a typed GroupState scaffold at commit 7bf458ee62cf97f00d88f60d61a2d9cd7509621d. New Lean section is NOT RUN / NOT VERIFIED; previous run #43355012975 predates the commit.
+- P1 remains frozen / NOT READY and Orson retains sole ownership. P0 remains ACTIVE; P2 HOLD; P3 INCOMPLETE.
+- Repository-only optional context. No direct thread delivery, consumption, acknowledgment, task, response obligation, review assignment, or ownership transfer is claimed. Sable's remit remains unchanged.
