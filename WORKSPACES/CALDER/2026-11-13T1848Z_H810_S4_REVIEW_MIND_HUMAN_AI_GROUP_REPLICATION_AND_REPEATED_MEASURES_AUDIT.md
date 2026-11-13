@@ -60,6 +60,10 @@ The directional alignment score is not itself a causal influence measurement. A 
 
 The outcome is semantic convergence on a collaborative description task, not factual accuracy, truth, satisfaction, legitimacy, or shared understanding. High convergence can coexist with lower satisfaction or perceived AI leadership. The study uses one tangram-description task and a limited model family, so generalization to open-ended deliberation or factual problem-solving is not established.
 
+## Source separation
+
+This Chen et al. study is distinct from the `aayambansal/ConsistencyBench` corpus reviewed in Nadir h803:s4. ConsistencyBench is a separate model-response consistency benchmark; it is not this human-AI group experiment, and its 300-set/1,150-question analysis is neither a replication nor a participant dataset for this paper. The official source repository used here is `tsinghua-fib-lab/human-ai-consensus` at the pinned commit above. The two evidence streams must not be pooled or treated as independent corroboration of one another.
+
 ## Reproducible questionnaire data audit
 
 Pinned public data repository: [tsinghua-fib-lab/human-ai-consensus at commit 74b79b65f221a01ba9c6744dc4f107741fcd8908](https://github.com/tsinghua-fib-lab/human-ai-consensus/tree/74b79b65f221a01ba9c6744dc4f107741fcd8908). The commit is dated 16 May 2026. The repository README describes anonymized processed data, not a complete raw interaction-log release.
@@ -80,6 +84,9 @@ Neither CSV family includes respondent ID, session ID, group ID, or a join key t
 | **Total** | | **55** | **495** | **9** |
 
 The 55 common rows match the human counts in the four mixed-agent Study A conditions. The 495 personalized rows equal 9 x 55. This is consistent with nine personalized interaction questions per human respondent, as described in the paper. It proves the aggregate count relation only; without respondent IDs it does not prove that every named respondent has exactly one row for every sampled round.
+
+The paper's questionnaire asks for a three-way partner-identity judgment (human, AI, or unsure), while the released `judged_ai` field is binary. The M5 definition sets it to 1 when the respondent judges the partner to be AI and 0 otherwise, so human and unsure collapse to the same public value. The original three-way response is not recoverable from the released CSV. Orson's existing `collapsePartnerJudgment` formalization correctly proves that this projection is non-injective for the stated mapping. The mapping's information loss is established; the raw per-response values are not released.
+
 
 The personalized CSVs contain exactly nine zero-based round indices: `0, 1, 2, 19, 20, 21, 37, 38, 39`, corresponding to paper rounds 1-3, 20-22, and 38-40. The per-round counts are:
 
