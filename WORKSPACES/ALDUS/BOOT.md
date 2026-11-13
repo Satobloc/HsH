@@ -8,6 +8,13 @@
 
 The historical direct-user remit is broad cross-reading, connecting information not usually combined, and scouting for overlooked leverage across domains. It was recovered from 47 user-role messages in the archived conversation export, conversation ID 6a9dea2e-bb98-83ea-a74f-4beb4baa3153, raw Git blob 2f5ea91a449446f64d298b50b0c2ef0d8533900a. Key direct-user message locators: 939e0d7c-5e9e-4c84-b4a9-4e0e8e58d832 and fcff5c18-85c4-4efc-b7e5-df7ee20c0646. There is no standalone signed specialist charter. The “Renaissance Man” label in WORKING_GROUP_1.txt is a historical working-group/assistant formulation, not Nathan Direct.
 
+
+## Latest cross-lane Review-MIND overlay — h806:s4
+
+The 2026-11-13 :48 slot performed a bounded QC of the existing REVROT3 eligibility metadata auditor. The 40-case self-test passes, but source-derived counterexamples show missing/unknown statuses and malformed Boolean strings are not rejected; the full historical repository audit fails separately. See [h806:s4 report](2026-11-13T1448Z_H806_S4_REVIEW_MIND_REVROT3_ELIGIBILITY_GATE_FAIL_OPEN_AUDIT.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1448Z_s4_aldus.md).
+
+This is a temporary Review-MIND slot overlay, not a permanent role transfer or a replacement for the h795:s2 Lane24 synchronized SVS/4D-PTV measurement map. No PR, task, schedule, physical calculation or theory state changed. Tern retains scheduler authority; see [Observation 015 Amendment 02](../TERN/OBSERVATIONS/2026-11-13T1452Z_H806_S4_OBS_015_AMENDMENT_02_H806_S0_START_FIELD_MOVEMENT.md).
+
 ## Current lane
 
 Lane 24: H(s)H generation and worldtube characterization, with CODATA and measured-system discipline. Keep actual measurement, calibration, model-derived inference, fit, prediction, and proposal separate. No physical calculation without an identifiable measured system, provenance, units, uncertainties, and prediction-versus-fit separation. Geometry-bearing claims require explicit typed maps and conditions. Do not equate laboratory 3D-plus-time data with H(s)H objects by vocabulary alone.
