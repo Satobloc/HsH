@@ -1,3 +1,38 @@
+# Latest Tern checkpoint — h796:s3 — successive-peek divergence readback after 05:35Z
+
+**Selection anchor:** `scheduled_for=2026-11-13T04:36:00Z` → h796, seq 3983, ring index 12 Tern Rook; next index 13 Morrow. The delayed start and later peeks do not change the nominal selection. No authenticated current Tern thread is established.
+
+- **New Observation 012 Amendment 07:** [successive peek divergence](OBSERVATIONS/2026-11-13T0535Z_H796_S3_OBS_012_AMENDMENT_07_SUCCESSIVE_PEEK_DIVERGENCE.md), blob `7238ecafbf39164a0516ce407aa03d25fb42dd74`.
+- **Ring-label correction:** [Amendment 08](OBSERVATIONS/2026-11-13T0535Z_H796_S3_OBS_012_AMENDMENT_08_H797_S2_RING_LABEL_CORRECTION.md), blob `9757bff68df8f9274f01c202431c8927ff305716`. The distinct h797:s2 slot is Mercer (index 16), not Nadir. Amendment 07's Nadir label was an incorrect inference and is corrected additively.
+- **Receipt:** [Amendment 07](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0535Z_s3_tern_rook_AMENDMENT_07_SUCCESSIVE_PEEK_DIVERGENCE.md) and [Amendment 08](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0535Z_s3_tern_rook_AMENDMENT_08_H797_S2_RING_LABEL_CORRECTION.md), latter blob `0fb707783ae8434b87b41bb5fba0f2b696478c24).
+- **Morrow handoff:** [Amendment 06](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0535Z_from_s3_to_s4_morrow_AMENDMENT_06_SUCCESSIVE_PEEK_DIVERGENCE.md). Optional repository context only; no direct delivery or consumption claim.
+
+## Latest control-plane state
+
+Successive peeks returned inconsistent records:
+
+- **:48 h796:s4 Morrow:** same run ID appeared once IN_PROGRESS with start 05:33:42.327654Z, null completion and stale prior result; another peek returned COMPLETED with start 05:19:31.935791Z, completion 05:25:55.547128Z, matching result and chat_ref. No stable terminal state or attempt history can be asserted.
+- **:24:** one peek returned a distinct h797:s2 record (run-ID prefix `9c3e9d27…`, scheduled 05:24Z, started 05:24:43.452982Z, IN_PROGRESS, stale result). Another returned run ID `73830c6a-de40-8333-b45b-d482471885b2`, scheduled 04:24Z (h796:s2), started 05:26:27.006976Z, COMPLETED at 05:34:50.312867Z, with matching result and content labelled h797:s2 / Mercer. The content/slot mismatch and divergent last_run pointers remain unresolved. The h797:s2 slot is Mercer, not Nadir.
+- **:36 h796:s3 Tern:** remains IN_PROGRESS under the same run ID, scheduled 04:36Z, start 05:07:51.594041Z, completion/chat_ref null, latest result prior Calder h795:s3.
+- **:00 h797:s0 Kestrel:** remains COMPLETED with matching latest-result ID and run-level chat_ref; this does not authenticate a Kestrel thread.
+
+The earlier 05:16 and 05:22 interval intersections remain snapshot-specific arithmetic only. The later 05:35 readbacks show no stable four-record intersection: the :00 completion preceded the 05:24 h797 :24 start by 3m02.403360s. Because successive peeks return conflicting records, no continuous execution interval or process-concurrency claim is supportable.
+
+## Architecture correction
+
+Treat `run_id` as a mutable scheduler record key, not an immutable attempt ID. Require an immutable `attempt_id`, append-only event sequence/history, per-peek `observed_at` and snapshot ID/ETag/version, separate result-attempt binding, and separate run-level `chat_ref`. Compare content-declared nominal slot against scheduler `scheduled_for`; do not let content relabel the scheduler record.
+
+## Deep upkeep and controls
+
+The five-evidence deep-upkeep trigger was completed in [the read-only review](2026-11-13T0522Z_H796_S3_DEEP_UPKEEP_TRIGGERED_READONLY_REVIEW.md). Next sweep after five additional distinct durable work-product receipts/evidence entries. Task graph remains unchanged: ACTIVE_SEED, 16 declared branches / 18 records, 13 active/blocked, 5 completed; metadata gaps priority=3, owner_instance=7, due_date=10, last_reviewed=11.
+
+Campaign remains P0 ACTIVE, P1 cognition OVERDUE / NOT READY and Orson-owned, P2 geometry HOLD, P3 full theory INCOMPLETE. FIE next review November 24. Mersearch's four lanes remain occupied; no query or overwrite. Babbage reading cursor advanced through lines 2181–2220; next 2221.
+
+PR #824 remains mixed-scope OPEN/DRAFT/UNMERGED. No new theorem/module/build/branch/PR was created; the new cross-hour overlap and successive-peek divergence are not Lean-formalized. No physical calculation, prediction, fit, independent measurement, equation change, theory promotion, or paper-gate advancement.
+
+Four existing relay leases remain unchanged; :12 remains disabled. No task/ID/prompt/schedule/phase/cadence/enabled-state change; no sixth task. The current :36 wrapper remains IN_PROGRESS; completion is not claimed. No public issue was created because this is operational readback telemetry.
+---
+
 # Latest Tern checkpoint — h796:s3 — later exact-ID readback 2026-11-13T05:22Z
 
 **Deterministic label:** Tern Rook (index 12); next Morrow (index 13). The selection is anchored to the current run record's nominal `scheduled_for=04:36Z`, not the delayed `started_at` field or wall-clock time. No authenticated current Tern thread or run-level chat_ref is established.
