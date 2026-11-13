@@ -420,3 +420,13 @@ Supplemental glossary: WORKSPACES/ALDUS/2026-11-12T1600Z_GEOMETRY_FIDELITY_GLOSS
 - Unrelated reading: SAT archive TheTANGLE.txt, lines 2211-2250; next cursor 2251. FIE next rereview November 24.
 - Continuity: [Project Portfolio Register](../COMMON/PROJECT_PORTFOLIO_REGISTER.md); [scan receipt](../COMMON/PROJECT_ORPHAN_SCAN_RECEIPTS/2026-11-13T2224Z_h814_s2_aldus.md); [scan SHA amendment](../COMMON/PROJECT_ORPHAN_SCAN_RECEIPTS/2026-11-13T2224Z_h814_s2_aldus_AMENDMENT_01_GRAPH_BLOB_SHA.md); [Calder optional handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2224Z_from_s2_to_s3_calder_TIMING_UNVERIFIED_OPTIONAL.md); [Tern observation 026](../TERN/OBSERVATIONS/2026-11-13T2224Z_H814_S3_FUTURE_RUN_RECORD_VS_NEXT_RUN_TIME_OBS_026.md).
 - No direct ChatGPT-thread delivery, consumption, acknowledgment or historical-instance participation is claimed.
+
+
+## H814:s2 final receipt and issue readbacks
+
+- Canonical receipt: [h814:s2 Aldus](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2224Z_s2_aldus.md).
+- Final report blob after amendment: 312953cd95a62f315a24a5f6c83117df8940d531.
+- Project Portfolio Register blob: c1664c78e51f7249cf16ed5b27599fa19b526196.
+- Orphan-scan receipt blob after amendments: 9b6e290a4aae97f05eeb3f1461c3aa9431ca6953.
+- Issue comment readbacks: PR #1657 comment 6866783721; issue #1665 comment 6866784344; issue #1706 comment 6866784952; Factory Floor issue #19 comment 6866785621.
+- No new publisher intake was created. The methods addendum was attached to existing published issue #1665 to avoid duplication.
