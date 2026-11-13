@@ -1,3 +1,5 @@
+import HsHVerification.RavelFourierVisibilityProjection
+import HsHVerification.RavelM87UvTriangleQuality
 import HsHVerification.ArchiveEQ0001
 import HsHVerification.ArchiveEQ0002
 import HsHVerification.ArchiveEQ0003
