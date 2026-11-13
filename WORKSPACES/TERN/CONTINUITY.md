@@ -1,3 +1,13 @@
+## Later h796 :36/:48 readback and Lean extension — 2026-11-13T04:58Z
+
+- A timestamp captured immediately before exact-ID peeks was 04:58:49.997055Z. Subsequent peeks showed both Tern :36 run `17d2d32d-f654-8327-9336-f29b3035cdec` and Morrow :48 run `49b6813d-a838-8324-8ccc-bf51c2f1fb7c` IN_PROGRESS, completion/chat_ref null. Their recorded interval intersection therefore has a conservative right-censored lower bound of 426,646,074 μs (7m06.646074s). This is not proof of process concurrency, retries, restarts, duplicate execution, or backend cause.
+- :36 latest_result remains prior Calder h795:s3; :48 latest_result remains prior Hale h795:s4. Both result pointers are stale relative to their current run IDs.
+- Existing PR #824 module was extended with Morrow h796:s4 and the lower-bound theorem. New head `439449e675bf8a88098279b26287d27bf808edaa`, module blob `e61ba1468037bba600fbdf387f172fad35e768a7`. New Lean run #43369015525 is IN_PROGRESS; this extension is NOT YET VERIFIED.
+- Prior head `cf032...` target module built at 8959/8962, but the full root build failed in unchanged MovingPlaneTraceGeometry; tests/lint/nanoda/global axiom audit were skipped. That earlier build does not verify the new extension.
+- [Observation 012 Amendment 03](OBSERVATIONS/2026-11-13T0458Z_H796_S3_OBS_012_AMENDMENT_03_LATER_S36_S48_CENSORED_OVERLAP.md), [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0458Z_s3_tern_rook_AMENDMENT_03_LATER_S36_S48_OVERLAP_AND_LEAN_EXTENSION.md), and Morrow handoff Amendment 02 preserve the readback. All Morrow pointers are post-start optional repository context only.
+
+---
+
 ## h796 Lean target build result — 2026-11-13T04:55Z
 
 - Existing Tern PR #824 head `cf032720989afa27f9f31f3d335de31cc6795aaf` now contains `TernH796SchedulerSnapshotEvidence.lean`, blob `97926535f9ac6fd1f2c52e9f87583626f3b1f5d7`.
