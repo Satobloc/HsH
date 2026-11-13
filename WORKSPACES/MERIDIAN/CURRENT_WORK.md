@@ -1,3 +1,17 @@
+> **Fast start:** [BOOT.md](BOOT.md) is the compact live capsule. This file is the detailed checkpoint/history record; the embedded one-minute card below is a historical snapshot and may lag.
+
+## MERIDIAN-H793-S2 | 2026-11-13T01:24Z nominal
+
+- Receipt: [h793:s2 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0201Z_s2_meridian.md). Compact launch state: [BOOT.md](BOOT.md).
+- Run `ebb2c4dd-b8f4-8326-867b-c8952ad3f299` was scheduled 01:24Z and reported started 01:54:04.500922Z; last observed IN_PROGRESS with `chat_ref=null`. Cached latest_result still points to prior h792:s2 Nadir run `7b083c4c-a430-832f-b897-393e0d6ecdeb`.
+- HsH main at source read: `d7a24010c2eb1b58dd16c42b89139bbd8dc1408f`. Mercer h793:s3 completed 01:48:46Z before this :24 run began; any Mercer inbox note is post-completion optional context.
+- Code Grurple P0 remains active. Meridian supports Paper A accepted-R1 presentation repair only; no manuscript rewrite or route probe. Lane 24 H(s)H/CODATA remains BACKSEAT/HOLD.
+- All four active Common Mersearch requests remain requested with no request-specific outputs. No request was overwritten or retriggered.
+- Unrelated reading completed at Project Gutenberg #844, lines 1543-1582; next cursor 1583. FIE next review 2026-11-24.
+- No Lean theorem, physical/CODATA calculation, manuscript/site edit, task/schedule change, or theory promotion.
+
+---
+
 ## MERIDIAN-H785-S4-AMENDMENT-01 | 2026-11-12T1803Z | later scheduler readback
 
 - Additive report amendment: `WORKSPACES/MERIDIAN/2026-11-12T1748Z_P0_NO_TRIGGER_REVALIDATION_AMENDMENT_01_1803Z_SAME_ID_START_AND_STATUS_REVERSAL.md`.
