@@ -18,10 +18,10 @@ Source: [SAT O1 4D.txt](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/b
 - First extant repository commit date, from the earlier source-custody audit: 2025-10-27
 - The standalone file is unbylined. The same O1 module appears in SAT4D_LIVE_DRAFT.txt, whose byline is Nathan McKnight and whose document date is June 2025. The live-draft blob is 2a79fe25018cce7e99a2c33786d88b0551db6ae7. Its second path under SATOBLOC MISC has the same blob, so it is a duplicate content witness, not independent corroboration.
 
-Verbatim core equations from the standalone module:
+Core equations transcribed from the standalone module, with source symbol order preserved:
 
 ~~~text
-γ^μ(λ) = (λ, Aₓ sin(kₓ λ + φₓ), Aᵧ sin(kᵧ λ + φᵧ), A𝓏 sin(k𝓏 λ + φ𝓏))
+γ^μ(λ) = (λ, Aₓ sin(kₓ λ + φₓ), Aᵧ sin(kᵧ λ + φᵧ), A_z sin(k_z λ + φ_z))
 v^μ(λ) = dγ^μ/dλ
 S[γ] = ∫ dλ L(γ^μ, v^μ)
 L = ½ m v^μ v_μ − V_tension(γ)
@@ -61,7 +61,7 @@ The full action is preserved in the linked source; its projector-index typograph
 
 ### 2.3 Direct user-role normalization and worldtube messages
 
-The Meridian Free Build raw Library export is 7,734,021 bytes and 94,245 lines. Conversation ID: 6ac45d1f-17b0-83ea-ad1f-fa524602378b.
+The Meridian Free Build raw Library export is 7,734,021 bytes and 94,245 lines. Conversation ID: 6ac45d1f-17b0-83ea-ad1f-fa524602378b. The cited direct messages are dated 2026-10-09.
 
 - User-role message 3c657387-b80b-4982-a61a-8e6d8568b8d1 says to use w = ct as a time-length coordinate in meters in the classical Minkowski model. It states that the worldtube's Newtonian-limit shape is determined by force and mass and uses the phrase “worldtube curvature == inertia.” This is a direct conceptual proposition, not a derived curvature equation.
 - User-role message 5a929b5e-515e-4f77-a32a-e49feef42812 says the time surface is not merely a passive readout: it is a three-dimensional slice/bulk overlapping with the xyz bulk, and it interacts with matter. It also describes the H₀ ± c split as shorthand and explicitly notes that the units must be normalized before combination.
