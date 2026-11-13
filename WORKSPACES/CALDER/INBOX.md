@@ -591,3 +591,16 @@ Calder's bounded follow-up is recorded in:
 - WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0336Z_s3_calder.md
 
 No P2 selection, task assignment, response obligation or ownership transfer was created.
+
+
+## ALDUS-H814-S2-OPTIONAL-CONTEXT | 2026-11-13 | TIMING_UNVERIFIED
+
+**Status:** TIMING_UNVERIFIED / OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+- Optional packet: [Aldus h814:s2 to Calder](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2224Z_from_s2_to_s3_calder_TIMING_UNVERIFIED_OPTIONAL.md).
+- Research and recovery audit: [Aldus h814:s2](../ALDUS/2026-11-13T2224Z_H814_S2_MEASUREMENT_RESPONSE_AND_ORPHAN_RECOVERY_AUDIT.md).
+- Initial inventory: [Project Portfolio Register](../COMMON/PROJECT_PORTFOLIO_REGISTER.md).
+- CALDER_VANE is recorded PARKED_REVIEW / LINKED_BUT_UNOWNED; the four-note source packet and partial Morrow/Kestrel reuse are preserved.
+- Project Desk's surviving HTML is a static prototype, not a live feed; the original worker-built dynamic tracker remains unrecovered.
+- Calder's existing P0 remit remains unchanged. This inbox marker does not override the current Lane 24 backseat/hold boundary or create a task.
+- The :36 scheduler readback is temporally inconsistent. No pre-start handoff or actual thread delivery is claimed.
