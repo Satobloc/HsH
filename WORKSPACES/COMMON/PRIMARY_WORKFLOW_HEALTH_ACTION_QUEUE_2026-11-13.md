@@ -108,3 +108,20 @@ No global PASS if a critical surface was not inspected. Report partial coverage 
 - P1 escalation does not override P0 emergencies or Nathan's protected P1 commitments. Within the available operational portfolio, prioritize by dependency leverage and unblock potential, with Mersearch and core archive/navigation reliability ahead of downstream expansion unless new evidence changes the order.
 - Each activation must read this deadline rule and compare the current time with the cutoff; the rule is durable and survives this conversation ending.
 
+### WH-07 — Recover missing project tracker / Project Desk lineage
+- Source: HsH issue #1706.
+- Likely lineage: 2026-09-30 `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/HsHTRACKING.txt`; Project Desk control contract and intervention queue; HSH_RESOURCES TOP/CENTRAL/BRANCH/HYDRA + THREADING prototypes; Sable handoffs and HsH operationalization note. This is a candidate, not yet confirmed as the exact worker-built tracker.
+- Current observation: the Project Desk contract and intervention intake survive, but a complete live dashboard implementation was not found in the HsH tree under Project Desk naming. Switchboard/Threading executable POCs survive in HSH_RESOURCES but are explicitly sandboxed and not production authority. HsH PR #951 is open/draft and not merged.
+- Next: recover the exact worker artifact from commits, branches, PRs, issues, publication payloads and conversation exports; compare its schema/features with the Project Desk request; classify each component as missing, stranded, unimplemented or superseded; restore with provenance and independent tests.
+- Do not replace or overwrite surviving POC/contract artifacts. Do not assume Project Desk and Switchboard are identical.
+
+### WH-08 — Recurring orphan-project census and disposition
+- Source: Factory Floor issue #19.
+- Existing ledgers: HSH_RESOURCES `indexes/ORPHAN_LEDGER.md`; Glass `.[⚙️_AI_FILES]/SHARED_RESOURCES/ARCHIVE_ORPHAN_LEDGER.md`; Glass `ARCHIVE_ORPHAN_AND_MISC_HEURISTIC.md`.
+- Existing guidance already says folder names are weak relevance signals, miscellaneous/old/unsorted folders require deliberate sampling, source artifacts should stay in place by default, and search-index silence is not absence. The ledgers currently capture file/provenance orphans, not a complete project portfolio with reintegration/archive decisions.
+- Next: create a cross-repo project register and recurring scan receipts across HsH, Glass and HSH_RESOURCES. Each project gets ACTIVE_REINTEGRATE, PARKED_REVIEW, ARCHIVED_VALUABLE, SUPERSEDED_LINKED, DUPLICATE_LINKED, QUARANTINED, or UNRESOLVED with provenance, investigative value, owner/return route, rationale and review trigger.
+- Cadence: lightweight delta scan every actual relay activation; deep cross-repo census at least every five completed worker activations and after major archive intake or branch/fork/workflow changes. Use existing relays only.
+- Preserve the 2026-09-13 quarantines; archive/relevance does not grant authority or reactivate a halted lane.
+
+## Updated deadline escalation
+At 2026-11-14 15:56 America/New_York, every unresolved WH-01 through WH-08 item automatically becomes P1 / HIGH. The next existing Workshop Relay activation picks the highest-priority unresolved item; no new scheduled task or scheduler change.
