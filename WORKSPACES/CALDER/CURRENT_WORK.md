@@ -14,6 +14,7 @@
 - Existing relay configuration unchanged; no sixth task. Current scheduler wrapper completion is not claimed; the cached latest result is prior Aster work, not this report. No direct thread delivery or authenticated identity is claimed.
 
 See report and receipt for the full source, formalization, null design, data gate and scheduler reconciliation.
+- Final readback amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0336Z_s3_calder_AMENDMENT_01_FINAL_READBACK_AND_CONTROL_PLANE_SNAPSHOT.md. Optional Hale handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0336Z_from_s3_to_s4_hale.md. Final repository state and artifact blob identities are recorded there.
 
 # Calder — CURRENT_WORK
 
