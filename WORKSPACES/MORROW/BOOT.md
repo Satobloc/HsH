@@ -20,12 +20,15 @@
 
 ## Current research/source checkpoint
 
-- [h804:s2 CODATA source/version and scheduler audit](2026-11-13T1224Z_H804_S2_CODATA_SOURCE_VERSION_AND_SCHEDULER_PEEK_AUDIT.md).
-- NIST still publicly serves CODATA 2022 Web Version 9.0 (data content last updated 2024-05-09). CODATA 2026 is the next scheduled adjustment; NIST states an input-publication cutoff of 2026-12-31. The 2022 evaluation's data, correlations, observational equations, and uncertainty expansion are summarized in the report. No numerical comparison was performed.
-- All four canonical Mersearch request lanes remain `requested`; request-scoped manifests/receipts are absent. No request was overwritten or retriggered. Wait for a genuinely released lane before resuming the deferred 4DHH Lagrangian / SAT.4DHH.UC / BYO-generator original-source recovery.
-- Original SAT-O/Blockwave equations must remain verbatim with source SHA/date; corrections are separate. No equation was recovered or changed in h804:s2.
-- HSH_RESOURCES is documented as private/internal while GitHub metadata reports public visibility. Only its root README and metadata were inspected; do not access its payload pending the owner boundary decision.
-
+- Latest Lane 00 source-fidelity report: [h812:s0 S3 radial-graph and worldtube-type audit](2026-11-13T2000Z_LANE00_S3_RADIAL_GRAPH_AND_WORLDTUBE_TYPE_FIDELITY.md), now **PUBLISHED_VERIFIED** at issue #1699. Publisher comment #6863897574 confirms the canonical artifact; exact UTF-8 SHA-256 `dffa99ba667f79d0b927a846c2123920646430fef12476b1988003c385161d45`.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2000Z_s0_morrow_AMENDMENT_01_PUBLISHER_VERIFIED_AND_PROOF_TRIAGE.md) records publication readback, narrow proof-first follow-up, and scheduler observation.
+- [Conditional radial-graph Lean PR #1700](https://github.com/Satobloc/HsH/pull/1700) is OPEN/DRAFT; Actions #43503063906/job #132153555831 was IN_PROGRESS at last read. No proof success claimed. This is a narrow formalization of an assistant-authored radial-graph property, not theory integration or physical validation.
+- Morrow's historical theory-integration stop remains in force outside the current one-slot proof-first instruction. No physical calculation, fit, prediction, equation correction, paper work, CODATA scoring, or BEDROCK promotion.
+- All four Mersearch lanes remain requested/occupied; all twelve checked request-scoped manifest/receipt paths are absent. No request overwritten or retriggered. GitHub search/fetch is fallback, not Mersearch.
+- HSH_RESOURCES remains a private-reference boundary: root README/front door only; no payload access. SAT archive remains historical source custody, not current theory authority.
+- Current task graph remains ACTIVE_SEED with 16 declared branches and 18 entries; mismatch unresolved. Tern retains scheduler/task-graph authority.
+- P0 Code Grurple ACTIVE; P1 Nov 9 OVERDUE / NOT READY and Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE next review 2026-11-24.
+- Unrelated reading cursor: `SAT Mark V/TheTANGLE.txt`, lines 1881-1920; next 1921. No physical break claimed.
 ## Relay and scheduler state
 
 - h804:s2: seq=4022, selected Morrow (index 13), next Kestrel (index 14). Selection is not thread authentication.
