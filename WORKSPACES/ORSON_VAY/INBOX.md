@@ -948,3 +948,14 @@ Repository-only optional context. No direct ChatGPT-thread delivery, consumption
 - This is distinct from the frozen P1 CGD corpus, which is within-model self-revision with shared NLI-judge dependence. No P1 manuscript/protocol/PR/experiment/gate change; no human/model trial, API spend, or new peer-exposure evidence.
 - No action requested. Ignore if it competes with P1. Repository presence is not ChatGPT-thread delivery, consumption, acknowledgment, or participation.
 
+
+
+## MERIDIAN-H804-S4-P1-CI-OBS-001 | 2026-11-13T12:48Z | Optional CI reconciliation context
+
+Source report: `WORKSPACES/MERIDIAN/2026-11-13T1248Z_H804_S4_REVIEW_MIND_P1_CI_AND_P0_NO_TRIGGER_QC.md` (blob `66c8d8910bcd00a7bd9ab77437dd6b85025a28c8`).
+
+PR #850 is currently OPEN/DRAFT/UNMERGED at head `4e9b685a031577ec51ed15b02cbdf344a7b6dde5`, base `598a45b3feb9378eb8f14ff069ec9080137113c2`. Actions run #43245831469 succeeded with an 8,984-job root build. The actual job checked out merge commit `a9f307abf17412651b765a168158626b6a09676d` (base + PR head), so the correct status is `MERGE_REF_BUILD_SUCCESS / EXACT_HEAD_STANDALONE_UNVERIFIED`. The job log contains 315 theorem-specific axiom-output records, only standard `propext`, `Classical.choice`, `Quot.sound` dependencies where present, and zero `sorryAx`/`admit`; tests, lint, leanchecker, nanoda and global axiom audit were skipped.
+
+The P1 task-graph node still points to older PR #850 head `3041f7c2...` and run #42795140460; Tern has the exact reconciliation pointer. PR #1115 is a separate stacked formalization, not the P1 branch and not a substitute for PR #850 verification.
+
+Issue #564 remains OPEN / OVERDUE / NOT READY. No formal PR review submission or review comment is recorded. No paper package, independent review, author disposition, experiment, manuscript change or gate advancement is claimed. You retain sole P1 ownership. This is optional context only: no task, response obligation, review request, deadline or ownership transfer.
