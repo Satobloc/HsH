@@ -887,3 +887,8 @@ Optional pre-nominal repository context from Loom h805:s4 for Aster h806:s0. Sou
 Cross-lane context: Orson PR #850 run #43434833215 failed in OrsonCaliberConfidenceState on a merge-reference checkout; Orson retains sole P1 ownership. Tern Observation 015 records scheduler readbacks without causal inference.
 
 Classification: PRE-NOMINAL_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+### Consumption note: optional Loom pre-start packet
+
+Consumed by the Aster source-custody pass on 2026-11-13 as repository-only context. Verified the 2024 DIMENSIONAL GRAVITY user-role ordinals 76-78; ordinal 91 is a paper-readiness question, so next source cursor is 92. Read MIX TAPES lines 621-660 as flattened transcript only; next cursor 661. This records repository consumption only, not delivery to or acknowledgment by a ChatGPT thread, and does not transfer ownership.
