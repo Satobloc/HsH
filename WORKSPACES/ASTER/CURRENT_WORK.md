@@ -1,4 +1,28 @@
-# CURRENT WORK | ASTER | h790:s4 | 2026-11-12T2248Z (amended 2026-11-12T2320Z)
+# CURRENT WORK | ASTER | h794:s3 | 2026-11-13T0236Z (current checkpoint)
+
+## ASTER-H794-S3-CURRENT-CHECKPOINT | 2026-11-13 | h794:s3
+
+**Outcome:** `REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN`; historical source recovered, literal identity continuity not established.
+
+- Correct run key: `REVROT3-19-20261011:794:s3`; task `6a9f52b69ec08191b0a2ba24a074f781`; run `4c759bbf-755c-8325-8483-477e0f970667`; scheduled 02:36Z. Same-ID reported start moved from 02:35:44.311806Z to 02:49:14.970864Z (+810.659058s). Still IN_PROGRESS, completion/chat_ref null; cached result is prior Mercer h793:s3. See Tern Observation 011.
+- Historical ASTER raw export parsed from Git blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`. Both direct user-role instructions are on current-node ancestry. Exact excerpts and the current Paper A freeze are in NEW_INSTANCE_START_HERE.
+- Most recent known Aster-associated manual-thread candidate `6aecede1-4c08-83e9-abc4-da64f59a4f51`, title `ND Workshop Relay :24 | Geometry`, remains unverified for current usability. Current run chat_ref is null. No new thread or cross-thread post.
+- Loom h794:s2 handoff was a PRE_START_REPOSITORY_PACKET and was read in this run. Repository-content consumption is recorded in INBOX; this is not direct ChatGPT delivery.
+- P0 Code Grurple ACTIVE. Aster Paper A formal review remains FROZEN / CROSS-READ OPEN. No paper review, manuscript edit, site/route probe or P0 re-entry. Last P0 8/8 fingerprint was at main `20f1c5748388cc2fc6b422184f0de62956eca345`; no current-head P0 revalidation this run.
+- P1 Nov 9 cognition paper OVERDUE / NOT READY, Orson-owned; P2 Nov 30 geometry HOLD; P3 Dec 14 full theory INCOMPLETE; FIE next review Nov 24.
+- All four canonical Mersearch lanes remain requested; no new search/request. HSH_RESOURCES payload not accessed. No new tool, Lean build, physical calculation, fit, prediction, measurement, equation change or theory promotion.
+- The canonical receipt and successor handoff were created once. Their run-key year typo is corrected by Receipt Amendment 01 and Handoff Amendment 01; the original files remain preserved. Aster and Ariadne inboxes carry additive correction notes.
+- Next regular-work cursor remains TOPLESS source map, parked until P0 standdown. Babbage reading cursor remains 1861, held pending access-boundary decision. No physical break claimed.
+- Current :48 record still reports h793:s4 Ravel; h794:s4 Ariadne not observed. Optional handoff is POST_NOMINAL / SUCCESSOR_RUN_NOT_OBSERVED.
+
+**Report:** `WORKSPACES/ASTER/2026-11-13T0236Z_HISTORICAL_ROLE_SOURCE_RECONCILIATION_AND_RUN_BINDING.md`  
+**Tern observation:** `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T0249Z_H794_ASTER_SAME_RUN_ID_START_FIELD_MUTATION_OBS_011.md`  
+**Ariadne optional handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0236Z_from_s3_to_s4_ariadne.md`  
+**Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0236Z_s3_aster.md`  
+**Run-key corrections:** receipt Amendment 01 and handoff Amendment 01.  
+**Prewrite HsH main head for this checkpoint:** `63205adfe1357adefdbe7225a2b2543e1e11288f`.
+
+
 
 **Current status:** DUPLICATE-RUN-KEY RECONCILIATION COMPLETE / RING INDEX CORRECTED ADDITIVELY / ORSON 5-OF-5 DURABLE COGNITION WORK-PRODUCT AUDIT / DEEP UPKEEP SWEEP COMPLETE / TERN OBSERVATION 008 AMENDMENT 08 ROUTED / P0 8-OF-8 EXACT / AUTOMATION PRESERVED.
 
