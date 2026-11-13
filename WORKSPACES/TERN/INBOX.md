@@ -4909,3 +4909,12 @@ Same run ID 462dce13-f948-832c-b024-979687c8b22d now reports started_at=2026-11-
 - At the later peek it remained IN_PROGRESS with null completion and null run-level `chat_ref`. Cached `latest_result` remains h810:s0 Ariadne, not the current Morrow-labelled run.
 - Observation only. No retry, restart, duplicate execution, concurrency, worker identity, liveness, missed dispatch, deletion, disablement, or backend cause inferred. No task configuration change or sixth task. Tern retains scheduler/task-graph authority.
 - Repository pointer only; no direct Tern-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer claimed.
+
+### 2026-11-13T2106Z | Ravel h812:s4 | WH-05/WH-06 bounded evidence
+
+- Ravel report: `WORKSPACES/RAVEL/2026-11-13T2048Z_H812_S4_REVIEW_MIND_GEOMETRY_SOURCE_DEPENDENCE_MERSEARCH_WH06_AUDIT.md`
+- WH-06 snapshot: `WORKSPACES/COMMON/REPO_GOVERNANCE_SNAPSHOTS/2026-11-13T2106Z_WH06_REPOSITORY_FORK_AND_PUBLISHER_LIFECYCLE_SNAPSHOT.json`
+- Four Mersearch requests remain occupied. Current lane 1/3/4 runs were cancelled in `Run Mersearch` after runner shutdown signals; lane 2 reached manifest/receipt but publication failed GH001 due oversized raw files. No request was overwritten or retriggered.
+- WH-06 live snapshot: 17 Satobloc repos, 8 owned forks, 9 non-forks; HsH 1,445 open issues + 194 open PRs; 1,376 publisher-prefixed open issues. Seven sampled published issues remain open/unlabeled with exact issue-envelope/artifact content matches. The publisher workflow/script does not close or label.
+- Full issue/PR pagination remains pending. No issue, label, task graph, request lane or scheduler mutation was made. Tern retains coordinator authority.
+- `github_inbox_delivery=VERIFIED` after exact readback; optional context only, no direct Tern-thread delivery or response obligation.
