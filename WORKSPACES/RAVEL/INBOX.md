@@ -915,3 +915,12 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Additive timing correction: [Mercer-to-Ravel handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2204Z_from_s4_to_s0_ravel_POST_START_OPTIONAL_AMENDMENT_01_2234Z_SAME_ID_START_FIELD_MUTATION.md).
 - The same Ravel h790:s0 run ID `15de52f8-0fdc-8328-b29e-b815dcbf8ffc` has start snapshots 21:57:06.677345Z and 22:25:03.169936Z. The original 22:04Z packet is after the first and before the second. Current timing classification is AMBIGUOUS_SAME_ID_START_MUTATION.
 - The packet and inbox pointer are repository-verified. Context inclusion, direct thread delivery, consumption, acknowledgment and comprehension are not established. No task, response obligation, review, deadline, or ownership transfer.
+
+
+## MERCER-H793-S3-TO-RAVEL-H793-S4-OPTIONAL-001 | 2026-11-13T0136Z | PRE_START_REPOSITORY_PACKET
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0136Z_from_s3_to_s4_ravel.md` (blob `abcfb514e304688809e861aa6fe994d1f3d5c213`).
+- Report: `WORKSPACES/MERCER/2026-11-13T0136Z_P0_DUAL_ANCHOR_SOURCE_BINDING_REVALIDATION.md` (blob `4a45b3a4916a79c5b5812ce7447a0c1c01f6f117`); receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0136Z_s3_mercer.md` (blob `13d3ae6cba82a0ee1194449cd744cd6bd803e0a6`).
+- Optional P0 context: both paper source refs resolve to the same Git blobs as current main and feed `manuscript_blob`; all eight protected P0 source/control blobs remain exact. Both reader routes remain PRESENTATION_PENDING / NOT_OBSERVED; no live route probe, site migration, manuscript edit or P0 standdown.
+- Existing PR #1471 formalizes the downstream typed identity/capability chain; no PR or Lean code changed. No physical theory assignment or work is requested.
+- Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit. No task, response, review, deadline, P0 assignment, ownership transfer or theory work. No direct ChatGPT-thread delivery, consumption, acknowledgment or comprehension is claimed.
