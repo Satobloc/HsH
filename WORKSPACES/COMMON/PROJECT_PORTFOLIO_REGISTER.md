@@ -1,7 +1,7 @@
 # Project Portfolio Register
 
-**Version:** 0.1, initial partial inventory  
-**Last scan:** 2026-11-13, Workshop Relay h814:s2  
+**Version:** 0.2, partial cross-repository identity correction  
+**Last scan:** 2026-11-13, Workshop Relay h815:s3  
 **Purpose:** cross-repository inventory, source lineage and disposition. This is not a task graph, priority queue, owner registry or theory-status authority. Tern retains workflow authority; the live TASK_BRANCH_GRAPH remains the operational task index.
 
 ## Coverage and limitations
@@ -10,7 +10,7 @@
 |---|---|---|
 | HsH | Current main/default-branch snapshot, task graph, recovery ledgers, CALDER_VANE packet, Project Desk artifacts and linked continuation notes | Partial source-grounded scan |
 | HSH_RESOURCES | Root README and the specific existing orphan-ledger index only | One provisional internal artifact lead; no payload inspected |
-| Glass | Repository not present in the 17-repository authenticated listing; Satobloc/Glass content lookup returned 404 | ACCESS_UNAVAILABLE / NOT_OBSERVED; not an empty-repository finding |
+| Glass / SAT archive | Current default-branch snapshot of Satobloc/SAT_THEORY_ARCHIVE_2023-25; root README, existing orphan ledger and heuristic read; issue #1712 prior recursive inventory | ACCESSIBLE / PARTIAL_CONTENT_COVERAGE / PROJECT_CENSUS_INCOMPLETE |
 | Mersearch | Four canonical request lanes checked | All remain requested; no new request, retry or overwrite |
 | SAT archive | Existing source pointers and the current unrelated-reading cursor used | Not a full archive census |
 
@@ -53,10 +53,14 @@ The current HsH task graph contains 18 records while its branch_count field says
 
 ### PV-004 | Glass archive coverage
 
-- **Category:** repository coverage gap.
-- **Status:** ACCESS_UNAVAILABLE / NOT_OBSERVED.
-- **Evidence:** not present in the current authenticated repository listing; the Satobloc/Glass content lookup returned 404.
-- **Disposition:** do not infer that the repository or its projects are absent. Confirm repository owner/name or access before any inventory claim.
+- **Category:** repository coverage / archive source surface.
+- **Status:** ACCESSIBLE / PARTIAL_CONTENT_COVERAGE / PROJECT_CENSUS_INCOMPLETE.
+- **Canonical repository:** Satobloc/SAT_THEORY_ARCHIVE_2023-25 (Glass).
+- **Identity correction:** the h814:s2 scan attempted Satobloc/Glass and received 404. That was a wrong repository-name lookup, not evidence that the Glass archive was inaccessible.
+- **Current branch evidence:** default-branch head f6e3c914b3722cdd6b57b0a2f024446bb0247f97; root README blob 8cc300ba25a98dda803f6a0005bee9d97c3814ef; existing orphan ledger blob 84f2fb2585b6a9510a4a4e4d1e55554a3197ac4d; orphan/misc heuristic blob 701b8fa3745466259b7f5ab1d932a3b3e9c3f3f1.
+- **Inventory evidence:** HsH issue #1712 records a prior initial recursive inventory of 5,155 Glass blobs and 13,793 HsH blobs; 168 conversation-like Glass paths; 117 exact Git blob matches in HsH; 20 within-Glass duplicate groups; and 51 unmatched paths requiring classification. Of 24 unmatched JSON paths inspected, 23 unique byte-level candidates remained after a duplicate filename alias; 22 were ChatGPT mapping exports and one was a NotebookLM export. These are issue #1712's prior snapshot, not a fresh census in h815:s3.
+- **Coverage this scan:** root README, existing orphan ledger and heuristic were directly read. No full recursive project census was performed. The existing ledger is artifact-level, not a project register.
+- **Disposition:** preserve Glass originals; HsH is the canonical conversation home per issue #1712. Continue source classification and deduplication before any copy. Do not move/delete or automatically import. No project reactivation or archive decision was made.
 
 ## Explicit non-orphans in the current HsH task graph
 
@@ -89,3 +93,14 @@ Each existing relay activation should perform a lightweight delta scan against t
 - [Aldus h814:s2 measurement-response and orphan-recovery audit](../ALDUS/2026-11-13T2224Z_H814_S2_MEASUREMENT_RESPONSE_AND_ORPHAN_RECOVERY_AUDIT.md)
 - [h814:s2 project-orphan scan receipt](PROJECT_ORPHAN_SCAN_RECEIPTS/2026-11-13T2224Z_h814_s2_aldus.md)
 - [Scan receipt Amendment 01: corrected task-graph blob SHA](PROJECT_ORPHAN_SCAN_RECEIPTS/2026-11-13T2224Z_h814_s2_aldus_AMENDMENT_01_GRAPH_BLOB_SHA.md)
+
+
+## Amendment 01 — Glass repository identity correction (h815:s3, 2026-11-13)
+
+The h814:s2 scan's 404 was against Satobloc/Glass, not the actual Glass repository. The HsH README identifies the canonical archive as Satobloc/SAT_THEORY_ARCHIVE_2023-25, whose current default branch and existing orphan-ledger/heuristic files were successfully read in h815:s3. This supersedes only PV-004's ACCESS_UNAVAILABLE status. It does not establish a complete project census or authorize any project disposition.
+
+- HsH main snapshot before this run's writes: 5e7082329ef6baf6aaf6f79d8bcfbda622706c02.
+- Glass archive head: f6e3c914b3722cdd6b57b0a2f024446bb0247f97.
+- HSH_RESOURCES head: 407659c5817aca4d9ce5d5ac8a547a930d87623a.
+- HSH_RESOURCES private payload remains unopened; only its root README and indexes/ORPHAN_LEDGER.md were read.
+- See the h815:s3 report and project scan receipt for exact paths, blob identities, prior issue #1712 counts, and next content-classification action.
