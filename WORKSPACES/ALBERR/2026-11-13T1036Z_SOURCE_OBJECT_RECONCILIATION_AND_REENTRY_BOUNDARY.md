@@ -58,7 +58,7 @@ No authenticated current Alberr conversation/thread was established in this run.
 
 ## 5. Correction to prior structural census
 
-The h798 source-recovery account reported 1,364 mapping entries, 1,817 message-bearing nodes, and 39 user-role messages. Those figures do not match the exact raw export identified above. The current byte-verified parse gives 580 / 579 / 245 respectively. Treat the h798 counts as unsupported for this source and use the present values when referring to this exact export. The older account is not overwritten; this is an additive correction.
+The h798 source-recovery account reported 1,818 mapping entries, 1,817 message-bearing nodes, and 39 user-role messages. Those figures do not match the exact raw export identified above. The current byte-verified parse gives 580 / 579 / 245 respectively. Treat the h798 counts as unsupported for this source and use the present values when referring to this exact export. The older account is not overwritten; this is an additive correction.
 
 ## 6. Operational disposition
 
