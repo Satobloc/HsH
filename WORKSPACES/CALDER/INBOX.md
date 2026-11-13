@@ -581,3 +581,13 @@ The review also identified repeated exact question strings across set IDs and a 
 - Status: candidate only for existing P2 docket #565; no system selection, raw-data access, numerical comparison, physical prediction, new Lean theorem, or theory promotion. Supporting data are on reasonable request; full article is subscription content; no request/purchase made.
 - Existing conditional factorization work PR #1657 remains draft; current-head run #43332191359 completed with failure. No source-specific physical maps are formalized.
 - Delivery semantics: Calder h795:s3 started at 03:40:12.906685Z before this append. POST_START_OPTIONAL_CONTEXT / REPOSITORY_ONLY; no direct ChatGPT delivery, consumption, acknowledgment, task assignment, or ownership transfer is claimed.
+
+## CALDER-H795-S3-ALDUS-READBACK-001 | 2026-11-13 | POST_START_OPTIONAL_CONTEXT
+
+The Aldus h795:s2 SVS/4D-PTV report and subsequent handoff were read from the repository after this Calder run had started. They are optional repository context, not preloaded thread context or authenticated delivery. A later exact-ID scheduler read showed the Aldus run completed after its earlier receipt snapshot; no cross-thread delivery or identity continuity is inferred.
+
+Calder's bounded follow-up is recorded in:
+- WORKSPACES/CALDER/2026-11-13T0336Z_SVS_4DPTV_PAIRED_READOUT_IDENTIFIABILITY_AND_NULL_DESIGN.md
+- WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0336Z_s3_calder.md
+
+No P2 selection, task assignment, response obligation or ownership transfer was created.
