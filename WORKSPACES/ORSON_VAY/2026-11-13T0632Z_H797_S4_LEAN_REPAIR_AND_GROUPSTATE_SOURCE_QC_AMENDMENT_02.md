@@ -1,5 +1,7 @@
 # Orson h797:s4 — exact-head Lean repair, GroupState scope QC, and source-repetition audit
 
+**Redaction note:** An earlier revision of this amendment briefly included internal-reference paths and blob identifiers from HSH_RESOURCES. This current version removes those details and retains only public-source findings plus a high-level duplication-control statement. Repository history has not been rewritten; no further internal-reference details are reproduced.
+
 **Date:** 2026-11-13T06:32Z  
 **Run key:** `REVROT3-19-20261011:797:s4`  
 **Deterministic selection:** Orson Vay (ring index 18); successor Sable (index 0).  
