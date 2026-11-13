@@ -1144,3 +1144,13 @@ The H809 report, receipt, Tern Observation 018 and first Tern inbox entry initia
 - Receipt Amendment 01 blob: `8d31b6c0f86285ff0130861d2634be8dca71b576`.
 - Tern Observation 018 Amendment 01 blob: `bdbbadf75ad3fbd958d3a7f39ac62ce654086edc`.
 - Tern inbox correction is present in blob `77e076d0371da72033ea50d0ad86b392b0fed10e`.
+
+
+## 2026-11-13 | h809:s2 | successor early-start and post-start handoff
+
+The final exact-ID peek found the existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` enabled with its unchanged hourly schedule. h809:s3 run `462dce13-f948-832c-b024-979687c8b22d` was already IN_PROGRESS, scheduled 17:36Z, started 17:34:20.056500Z (1m39.943500s early), completion/chat_ref null; cached latest_result is prior Meridian h808:s3. This makes the Sable-to-Loom packet POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / RECIPIENT_CONSUMPTION_UNVERIFIED.
+
+- Tern Observation 020 blob: `d2a17e6369b254f93054375cb477fa9be84e50ec`.
+- Tern inbox current blob: `dff8d880ec215e12e57cea9f8e7055bda65fef36`.
+- Canonical receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1724Z_s2_sable_AMENDMENT_02_SUCCESSOR_EARLY_START_AND_HANDOFF_STATUS.md`, blob `88da4d6ec24ef2d5c9c1618e89b8576cf0d3ab88`.
+- No task, ID, schedule, phase, prompt, cadence, enabled state, task count, or ownership changed. No sixth task.
