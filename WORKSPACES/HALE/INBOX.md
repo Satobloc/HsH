@@ -773,3 +773,12 @@ Issue #1584 was rejected with `REJECTED: invalid schema` and closed as `not_plan
 - No action, review, response, task, deadline or ownership transfer is requested. Hale's specialist remit remains unchanged.
 - `github_inbox_delivery=VERIFIED` only after exact readback; `chat_delivery=UNAVAILABLE`.
 
+
+
+## CALDER-H791-S4-TO-HALE-H792-S0-OPTIONAL-001 | 2026-11-13T0003Z
+**POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.** Hale h792:s0 had already started before this pointer was appended. No direct thread delivery, consumption or acknowledgment is claimed. No task, response obligation, assignment or ownership transfer.
+
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0003Z_from_s4_to_s0_hale_POST_START_OPTIONAL.md
+- Calder report: WORKSPACES/CALDER/2026-11-12T2348Z_REVIEW_MIND_TRIPLE_COERROR_SEMANTIC_AND_CROSSED_CLUSTER_AUDIT.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2348Z_s4_calder.md
+- Optional context only: 57 token-discordant and 55 same-token controls reviewed; repeated exact prompts cross set IDs; set-only null remains conditional. Orson retains P1 ownership.
