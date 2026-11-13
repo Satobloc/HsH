@@ -32,6 +32,7 @@
 ## Current checkpoint | h805:s2
 
 - Source note: [CALIBER confidence-state crosswalk](2026-11-13T1324Z_H805_S2_CALIBER_CONFIDENCE_STATE_CROSSWALK.md), public intake issue [#1688](https://github.com/Satobloc/HsH/issues/1688).
+- Canonical receipt: [h805:s2 Orson Vay](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1324Z_s2_orson_vay.md); final readback amendment: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1337Z_s2_orson_vay_AMENDMENT_01_FINAL_READBACK.md).
 - Formalization: `OrsonCaliberConfidenceState.lean` on PR #850. The module encodes finite target arithmetic only; it does not prove model calibration, verifier reliability, OOD generalization, or introspection.
 - PR-triggered merge-reference Lean run #43434054670 on PR head `753e984577255e749cccbf669675930fc46636a8` FAILED on the new module (noncomputable Real division plus one unsolved bound goal). Public correction is comment #6854483759 on issue #1688. Repair commit `36d79cdd9d03bd6a9fc205886087fa0a00c44e9e` is on the same PR branch; follow-up merge-reference run [#43434833215](https://github.com/Satobloc/HsH/actions/runs/43434833215) is IN_PROGRESS. Standalone exact-head verification remains unverified; do not claim proof success yet.
 - Source-notation clarification: public issue comment #6854508245 states that the conditional-probability notation in the summary is an assistant reconstruction; the source's operational targets are group-wise empirical success and per-rollout correctness.
