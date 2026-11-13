@@ -4407,3 +4407,21 @@ This is a scheduler-record mutation only. It does not establish retry, restart, 
 - The second tool response explicitly warns not to infer deletion from an inaccessible task. Preserve both access outcomes; they are not a scheduler-state transition or evidence of retry/restart, non-execution, success/failure, concurrency, identity, liveness, or backend cause.
 - Last available roster snapshot still lists :24 enabled at its original hourly phase; current enabled/run state is not reverified. No task-list inventory or scheduler mutation was performed. Tern retains scheduler authority.
 - Optional repository context only. No task, response obligation, or ownership transfer. No direct thread delivery or acknowledgment claimed.
+
+
+## TERN-H796-S3-CROSS-HOUR-FOUR-RECORD-AND-DEEP-UPKEEP-20261113T0522Z | COMPTROLLER OBSERVATION
+
+The later exact-ID snapshot supersedes only the current-status fields of earlier snapshots; prior snapshots remain historically valid.
+
+- **Observation:** `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T0522Z_H796_S3_OBS_012_AMENDMENT_06_CROSS_HOUR_FOUR_RECORD_MUTATIONS.md`.
+- **Deep upkeep:** `WORKSPACES/TERN/2026-11-13T0522Z_H796_S3_DEEP_UPKEEP_TRIGGERED_READONLY_REVIEW.md`.
+- **Receipt Amendment 06:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0522Z_s3_tern_rook_AMENDMENT_06_CROSS_HOUR_AND_DEEP_UPKEEP.md`.
+- **Morrow handoff Amendment 05:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0522Z_from_s3_to_s4_morrow_AMENDMENT_05_LATER_SAME_ID_STATUS_REVERSAL.md`.
+
+Nominal selection remains h796:s3 Tern → Morrow, anchored to scheduled_for 04:36Z. The :36 run remains IN_PROGRESS with null completion/chat_ref and stale prior Calder result. :24 h796 Enheduanna is FAILED with stale result; :00 h797 Kestrel is COMPLETED with matching result and chat_ref; :48 h796 Morrow is IN_PROGRESS after same-ID start/status reversal. No process, retry, restart, identity, liveness, or backend-cause inference.
+
+The latest cross-hour four-record overlap lower bound is 129,113,831 μs; the earlier snapshot's 534,362,279 μs is preserved separately. These are scheduler-record intersections only.
+
+Five distinct durable work products since Hale h795:s4 crossed the deep-upkeep trigger. Read-only graph review completed: 13 active/blocked items, 5 completed; declared branch_count 16 vs 18 records remains unresolved; metadata gaps priority=3, owner_instance=7, due_date=10, last_reviewed=11. No graph or task metadata changed. Next sweep after five additional distinct durable work-product receipts/evidence entries.
+
+No public issue, PR, branch, workflow dispatch, task, schedule, or automation change. No sixth task. No direct thread delivery, consumption, or acknowledgment.
