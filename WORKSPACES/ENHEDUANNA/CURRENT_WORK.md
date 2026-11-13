@@ -643,3 +643,12 @@ Issue #1543 is `PUBLISHED_VERIFIED`. Publisher comment #6751361003 records commi
 - Existing :00 task ID 6aa1fe0de5e48191b886496095b1343f remains enabled with exact original hourly America/New_York :00 schedule and phase. No sixth task or automation mutation.
 - Optional repository-only Tern handoff: [2026-11-13T1200Z_from_s0_to_s1_tern.md](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1200Z_from_s0_to_s1_tern.md). No Tern acknowledgment or cross-thread delivery is claimed.
 - Next cursor: define the core-to-worldtube map, worldtube-to-worldsheet reduction, timesheet/metric type, w transport, responsive-medium coupling, and the distinct angle/curvature/tensile-strength constitutive maps. Then define global Klein-like fabric assembly and the local double-shell projection. Preserve reverse-w lag and area proportionality as assistant proposals pending direct source and derivation.
+
+
+### h804:s0 publisher-result amendment | 2026-11-13T1239Z
+
+- Supersedes the earlier SUBMITTED_NOT_VERIFIED / workflow-IN_PROGRESS observation for issue #1687.
+- Exact issue content and workspace report bytes match. Independent SHA-256 matches the declared digest: da17e7f71c3295713eee7f3ba8aa06bbb3b7439df3bcf004fa47bc7a0e73a82d.
+- Publisher run #43426713071 / job #131889787805 reached the Contents API PUT and failed HTTP 409 Conflict at 12:39:19.955Z. No publisher comment.
+- Expected canonical artifact path returns 404. Final status: PUBLISHER_FAILED_409_CONFLICT / NOT_PUBLISHED.
+- Workflow is issues.opened-only. No issue edit/reopen retry, rerun, duplicate issue, or direct artifact write was attempted. Issue #1687 remains the single public audit record.
