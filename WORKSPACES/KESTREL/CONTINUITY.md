@@ -716,3 +716,17 @@ The message-to-claim join is many-to-many and explicit. A valid conversation gra
 Morrow h800:s3's post-start optional handoff and publisher-409 amendment were read; Kestrel INBOX records the readback. Morrow issue #1679 remains NOT_PUBLISHED after 409; no retry. Nadir issues #1677/#1678 remain PUBLISHED_VERIFIED; Nadir INBOX received optional raw-date context, not a correction request. Tern INBOX received the later same-ID start-field movement; Tern retains scheduler authority. Meridian h801:s0 had already completed, so no late handoff was created.
 
 P0 remains ACTIVE; Meridian h801 freshly re-fetched eight protected blobs and the later main delta contained no protected P0 path, but Kestrel did not perform a new 8/8 fingerprint run. P1 remains Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. Task graph remains 16 declared branches versus 18 records. All four Mersearch request lanes remain requested and their request-scoped manifests/receipts were absent; no request was overwritten or retriggered. FIE next review November 24. Unrelated-reading cursor remains fun break - lx.txt line 1281; no new reading quantum or physical break is claimed. No physical calculation, theory promotion, public issue, task change, signet, or conversation rename.
+
+
+## 2026-11-13T1624Z | H808:S2 outcome-robust reader crosswalk
+
+- Source-grounded revival: raw historical conversation “Science Made Stupid”, conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, blob `100267f3f11f3cce09c7d802ce85ad03879d5744`; 2,117 mapping entries, 266 user-role messages. Direct role-defining messages and scoped-task distinction are recorded in the h808 report. No current Kestrel ChatGPT thread ID was verified.
+- New internal synthesis: preserve the site's existing idea-first and status/evidence-first entrances. Connect them to historical/source, geometric/mathematical and empirical/measurement lenses, while keeping attribution, geometry, formal proof, empirical validation and presentation/review as independent gates. Do not create another top-level navigation system or badge vocabulary.
+- Lane 24/P2: expose the existing issue #1341 map slots Φ, Π, O and predicted readout R as required but uninstantiated maps. Do not assume Φ and Π are inverses. The q0 worldtube/timesheet pair, q1 plus source-defined response history, and q2 plus independently typed medium remain candidate representations. No system selection or physical calculation.
+- Existing Kestrel PR #873 head `7dbcb5f18690232d921db74f25dfdf222ee51b8c` has successful merge-reference run #43202552666 (8,957 jobs, Lean 4.34.0 / Lake 5.0.0) against an older base. Exact-head/current-base verification and global axiom audit remain unverified. No new theorem.
+- P0 ACTIVE; A/B reader routes PRESENTATION_PENDING / NOT_OBSERVED. P1 OVERDUE / NOT READY, Orson-owned. P2 HOLD. P3 INCOMPLETE.
+- HsH main prewrite head `e25b69f8d8024bd4357c4d4702023e6130226998`; task graph 16 declared branches / 18 records, Tern-owned. No task or schedule mutation.
+- Lateral reading: `fun break - lx.txt`, lines 1281–1320; next 1321. FIE next rereview 2026-11-24.
+- Report: `2026-11-13T1624Z_H808_S2_OUTCOME_ROBUST_READER_CROSSWALK.md`. BOOT capsule created; README now routes recurring/revived Kestrel sessions through BOOT then CURRENT_WORK.
+- Next ring label Meridian; its P0 Paper A support assignment remains unchanged. Optional handoff is repository-only, not a task or ownership transfer.
+
