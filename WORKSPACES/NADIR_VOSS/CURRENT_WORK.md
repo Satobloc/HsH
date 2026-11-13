@@ -1,4 +1,22 @@
-## Latest checkpoint | h803:s4 | 2026-11-13T1148Z
+## Latest checkpoint | h807:s3 | 2026-11-13T1536Z
+
+- Deterministic selection: Nadir Voss (index 10); successor Enheduanna (index 11). Current run ID `a4769f0c-ee78-832a-97c9-f26a70cfd397`, recorded IN_PROGRESS, `chat_ref=null`. No authenticated current Nadir thread or standalone Nathan-authored Nadir specialist charter.
+- This run used the user-supplied Lane Charter 36 architecture/prediction overlay while preserving the standing Lane 24 finite-core sandbox.
+- New report: [Kelvin-vortex acquisition-path and mode-identifiability map](2026-11-13T1536Z_H807_S3_KELVIN_VORTEX_ACQUISITION_PATH_AND_MODE_IDENTIFIABILITY_MAP.md), blob `de16a4569d2b69de072cc3d9b45285a435edf7ee`, commit `ad6d9850d4655bbfeae5890f120438a63ed8fee1`.
+- Primary source: Barckicke, Falcon & Gissinger, *Nature Physics* 22 (2026), DOI `10.1038/s41567-026-03175-w`; data locator Figshare DOI `10.6084/m9.figshare.30903347`. Data bytes/version/file inventory were not retrieved.
+- Architecture improvement: split contour/Basler, PIV/Phantom, PTV, and Results-section orthogonal-camera evidence into distinct typed observation paths. The two-point `(r0,rπ) -> (η,a)` map is invertible on the pair but only parity-resolving for a Fourier contour; exact (m) remains aliased under (m\mapsto m+2). Camera topology and the Results-to-Methods path remain unresolved.
+- Existing Nadir PR #1189 two-channel Lean module was reused, not changed. Current PR-associated run #43339252436 compiled the target module but the root build failed later in the separate PIV module at lines 123/133/144. Sable PR #1538 exact-head run #42678421460 completed successfully and proves symbolic covariance propagation only; no measured covariance was supplied. No new theorem, PR or physical calculation.
+- P2 remains HOLD / candidate only. No system selection, fit, prediction, independent measurement, paper-gate advancement or theory promotion.
+- Mersearch action unavailable; all four request files remain requested and expected manifests/receipts were not found. No request or lane mutation. Math Hopper remains extraction-only; Whirligig Kernel 0 remains sandbox-only; SciSpace was available but not needed. No new tool/dependency/subscription/expenditure.
+- FIE last rereview November 10; next due November 24. Unrelated reading: Okakura, *The Book of Tea*, Gutenberg #769, lines 36–133; next cursor 134. No physical break claimed.
+- Successor handoff to Enheduanna is repository-only optional context, no task/response obligation/ownership transfer; no direct thread delivery or acknowledgment claimed.
+- Existing :36 automation ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact DTSTART/RRULE, prompt and phase. No task mutation and no sixth task.
+
+**Next exact cursor:** retrieve the versioned Figshare file inventory and raw contour/PIV/PTV assets; resolve the Basler/two-lens versus Results-section orthogonal-camera acquisition map; bind acquisition IDs, calibration, synchronization and covariance; then freeze whole-acquisition/condition calibration and holdout. Do not calculate or select a P2 system before the data gate passes.
+
+---
+
+## Previous checkpoint | h803:s4 | 2026-11-13T1148Z
 
 - Deterministic selection: Nadir Voss (index 10), immediate successor Enheduanna (index 11). No authenticated current Nadir thread or standalone Nathan-authored Nadir charter; the raw source and direct authorization are indexed in README.md. This run used the user-supplied Lane Charter 48 Review-MIND assignment while preserving the standing Lane 24 sandbox.
 - Review-MIND report: [shared-input graph and repeated-prompt stability audit](2026-11-13T1148Z_H803_S4_REVIEW_MIND_SHARED_INPUT_GRAPH_AND_REPEATED_PROMPT_STABILITY.md), blob be49d513d38593aaa648e2672d8161e56f69e5b0.
