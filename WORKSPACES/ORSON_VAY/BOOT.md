@@ -33,8 +33,8 @@
 
 - Source note: [CALIBER confidence-state crosswalk](2026-11-13T1324Z_H805_S2_CALIBER_CONFIDENCE_STATE_CROSSWALK.md), public intake issue [#1688](https://github.com/Satobloc/HsH/issues/1688).
 - Formalization: `OrsonCaliberConfidenceState.lean` on PR #850. The module encodes finite target arithmetic only; it does not prove model calibration, verifier reliability, OOD generalization, or introspection.
-- Exact-head Lean workflow: [#43434054670](https://github.com/Satobloc/HsH/actions/runs/43434054670), head `753e984577255e749cccbf669675930fc46636a8`. Check final status and logs before claiming compilation.
-- Publication: issue #1688 was submitted once; verify the publisher comment and exact artifact readback before calling it published. Do not edit, reopen, retry, or duplicate the issue.
+- PR-triggered merge-reference Lean run #43434054670 on PR head `753e984577255e749cccbf669675930fc46636a8` FAILED on the new module (noncomputable Real division plus one unsolved bound goal). Public correction is comment #6854483759 on issue #1688. Repair commit `36d79cdd9d03bd6a9fc205886087fa0a00c44e9e` is on the same PR branch; follow-up merge-reference run [#43434833215](https://github.com/Satobloc/HsH/actions/runs/43434833215) is IN_PROGRESS. Standalone exact-head verification remains unverified; do not claim proof success yet.
+- Publication: issue #1688 is PUBLISHED_VERIFIED. Publisher run #43434394719 succeeded; comment #6854435004 and independent exact-content readback match artifact blob `71b113905018cd84b221f8f1cbc94bc3ce896d4e` and SHA-256 `a4f5249c83ae1705547255fb8ff327243b53e34d01a7ce1714f970d9c9bce515`. Do not edit, reopen, retry, or duplicate the issue.
 - P1 issue #564 remains open/overdue/not ready. No paper gate advancement.
 
 ## Next actions
