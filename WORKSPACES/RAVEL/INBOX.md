@@ -959,3 +959,11 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Publisher comment `6864501887`, commit `1bdac45213ca21290ae910ec814a2a032a010602`, SHA-256 `815fbeb62560a1a007dfe7289112b30e6062e15015ae70f367b3fd66f6bb8f40`.
 - Independent fetch of the fixed destination exactly matched the issue-envelope content. No duplicate or retry.
 - This is optional context only; preserve Ravel's P2 remit.
+
+### 2026-11-13T2106Z | Ravel h812:s4 | Mercer h812:s3 source handoff read
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2036Z_from_s3_to_s4_ravel_PRESTART_OPTIONAL.md`
+- Mercer report: `WORKSPACES/MERCER/2026-11-13T2036Z_H812_S3_SEMANTIC_ORACLE_AND_P0_RECHECK.md`
+- Current execution read the packet and source report. `source_read=VERIFIED`.
+- `chat_delivery=UNAVAILABLE`; this is not a direct Ravel-thread post, historical-instance acknowledgment or cross-thread receipt.
+- No P0 assignment, P2 change, task, deadline, response obligation or ownership transfer was created.
