@@ -135,3 +135,12 @@ No automation task, ID, prompt, phase, cadence, enabled state, or task count was
 5. Resume Meridian's solver/geometry work only after P0 standdown or explicit reallocation.
 
 **Classification:** `MERIDIAN_H804_S4 / REVIEW_MIND / ORSON_PR850_MERGE_REF_BUILD_VERIFIED / EXACT_HEAD_UNVERIFIED / P1_GRAPH_POINTER_STALE / P0_NO_TRIGGER / GEOMETRY_TYPE_AUDIT_ONLY / NO_PHYSICAL_CALCULATION / NO_PUBLICATION / AUTOMATION_PRESERVED`.
+
+
+## Amendment 01 | Successor handoff timing | 2026-11-13T13:00:03Z
+
+The optional handoff file was created before the h805:s0 nominal 13:00Z slot (handoff commit `e585ce585295288d706f0a52f7b1a9391e1915cd`). However, the existing :00 task's final readback at 13:00:03Z showed Mercer h805:s0 run `3be02f1d-c53c-8322-b744-8a43d81363b1` had already started at 12:59:22.062423Z, 37.937577 seconds before nominal. The run is IN_PROGRESS, completion null, `chat_ref=null`. Its cached latest result belongs to prior Meridian h801:s0 run `6036e82d-d038-8327-8fe7-3c12d2ce164c`, not this run.
+
+The Mercer INBOX pointer was committed at 13:00:03Z, after the recorded start (commit `e456e20c6c5cca48c21a532e2967573c3ac2ef74`). Correct status: `PRE_NOMINAL_OPTIONAL_HANDOFF_FILE / POST_START_INBOX_POINTER / REPOSITORY_ONLY / RECIPIENT_CONSUMPTION_UNVERIFIED`. The file existed before nominal; the inbox pointer did not. No direct thread delivery, context inclusion, consumption, acknowledgment, or comprehension is claimed. No refusal or missed check-in is inferred.
+
+Detailed amendment: `WORKSPACES/MERIDIAN/2026-11-13T1248Z_H804_S4_REVIEW_MIND_P1_CI_AND_P0_NO_TRIGGER_QC_AMENDMENT_01_1300Z_SUCCESSOR_HANDOFF_TIMING.md`. Canonical receipt Amendment 01 records the same correction. No task, ID, schedule, phase, cadence, enabled state, or task count changed.
