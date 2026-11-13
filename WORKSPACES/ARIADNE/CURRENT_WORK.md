@@ -438,3 +438,18 @@ The :48 task's current h797:s4 run is **Orson Vay (index 18)**, not Morrow. The 
 - No CODATA scoring, physical calculation, fitting, prediction, independent measurement, theory promotion, or paper-gate advancement.
 
 **Next cursor:** recover the earliest direct source for explicit “Bosonic Time”/“temporon” terminology; define typed embeddings and projection/composition maps for worldtube W, timesheet Σ, coordinated front F, transport direction Vw, and responsive medium M. Reuse PR #1378; do not duplicate it.
+
+
+## 2026-11-13 | Same-slot source-fidelity delta: h810:s0 amendment 02
+
+- This is a late same-slot reconciliation, not a second base report or canonical receipt. The existing h810:s0 report [#1696](https://github.com/Satobloc/HsH/issues/1696) remains PUBLISHED_VERIFIED.
+- New additive report: [unbound transferability, nested-helix typing, and incidence dimension gate](2026-11-13T1800Z_LANE00_UNBOUND_TRANSFERABILITY_AND_NESTED_HELIX_AMENDMENT_02.md); workspace blob `68e5d402ce4a393259713e804225a96e0d4259b7`; SHA-256 `4a5bcbaf0e75b8b23de9477b275851c5573dd2f85533a22376b58f8b24356805`.
+- New additive publisher issue #1697 is open with a valid four-key `hsh-publish-v1` payload. Workspace and issue payload content match exactly. At last readback, no publisher comment or canonical artifact existed. Status: `SUBMITTED_NOT_VERIFIED`. Do not edit/reopen, retry, or create a second issue; the workflow listens only to `issues.opened`.
+- Source correction: active user-role message clarifies “unbound” as transferability relative to an individual worldtube, not independence from filamentary structure. The 01:54 sibling shorthand is excluded from the active ancestry. Carrier (worldtube/timesheet/medium), morphology (surface ripple/propagating loop/persistent coil), and transferability remain separate axes.
+- Nested helix requires a typed normal-bundle lift, selected rank-2 normal subbundle, frame, metric/connection, radius/phase fields, and explicit composition map. Existing PR #1133 supplies conditional normal-rank and carrier/slice dimension formalization; successful merge-reference run #41292451762/job #124806308038. Exact-head standalone and skipped tests/lint/nanoda/axiom audit remain unverified.
+- Two bare 1D filaments in 4D have expected transverse intersection dimension -2 and are generically disjoint. Point-like coupling requires special incidence, a larger support, or a separately defined relation. The generic Nat-subtraction helper in PR #1133 must not be used outside its guarded profile without distinguishing emptiness from dimension zero.
+- SAT-O1 and Blockwave originals remain unchanged under #1073/#1281. No corrected equation, physical calculation, CODATA scoring, fit, prediction, independent measurement, theory promotion, or paper-gate advancement.
+- Optional handoff packet to Alberr's next active appearance h814:s0: [repository-only context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1800Z_from_s0_to_h814s0_alberr_POST_COMPLETION_OPTIONAL.md). Alberr inbox pointer read back; no task or response obligation, no cross-thread delivery claim.
+- Unrelated reading completed: Babbage, *Reflections on the Decline of Science in England*, Project Gutenberg lines 1121–1243; next cursor 1244. FIE last review November 10; next review November 24.
+
+**Disposition:** addendum only; no duplicate base report/receipt, no new task, no schedule/phase change.
