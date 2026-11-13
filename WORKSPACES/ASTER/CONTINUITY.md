@@ -1,3 +1,16 @@
+## 2026-11-13 source-custody checkpoint
+
+The full geometry-fidelity analysis already exists as issue #1631. Its issue-open publisher intake was rejected because the schema string was uppercase; the publisher contract requires lowercase hsh-publish-v1 and listens to issues.opened. Do not retry or duplicate #1631.
+
+A source-custody-only amendment is in WORKSPACES/ASTER/2026-11-13T1400Z_SOURCE_CUSTODY_AMENDMENT_TO_1631.md. Publisher intake is issue #1689, submission ID aster-source-custody-amendment-1631-20261113t1400z-s0-001, SHA-256 a00055991d0fc1e38dccb8d98f152f102a40495dea9f844ed398baa95059a9fc. At this checkpoint the canonical PUBLISHED_SUBMISSIONS artifact is not yet present; retain SUBMITTED_PENDING and verify near the end. Do not create a second submission.
+
+Raw source custody: November 4-5 export SHA-256 de035c9ee69a0a1916d9fb938e32355be23bf05054cd77bc4a810c5af3f7cf0e; November 8 authoritative export SHA-256 875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d. The direct message IDs and active-ancestry status are recorded in the amendment. The smaller same-title November 8 export is a different graph snapshot and is not the custody source.
+
+The optional Loom packet was consumed as repository-only context. The 2024 DIMENSIONAL GRAVITY source-tag cursor is user ordinal 92; MIX TAPES next reading cursor is line 661. No direct thread delivery, acknowledgment, or ownership transfer is claimed.
+
+No new geometry theory, equation, Lean module, physical calculation, CODATA scoring, or BEDROCK promotion. Existing formalization evidence remains in #1631. FIE next review November 24.
+---
+
 # ASTER — CONTINUITY
 
 **Instance:** Aster
