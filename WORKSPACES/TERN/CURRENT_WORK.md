@@ -1,3 +1,16 @@
+# Latest Tern checkpoint — h796:s3 — third :36 start-field value, readback after 05:39Z
+
+A further exact-ID peek returned the same :36 run ID and `scheduled_for=04:36:00Z` (h796:s3 / Tern), but a third `started_at` value: **05:37:00.113233Z**. The run remains IN_PROGRESS; completion/chat_ref are null; latest_result remains prior Calder h795:s3. The second-to-third start-field shift is +1,748,519,192 μs; first-to-third is +3,383,669,426 μs. The latest recorded start is after the next nominal :36 boundary, but the task record still points to h796:s3 and no separate h797:s3 last_run was returned.
+
+- [Observation 012 Amendment 09](OBSERVATIONS/2026-11-13T0539Z_H796_S3_OBS_012_AMENDMENT_09_THIRD_S36_START_FIELD_VALUE.md), blob `b98b41a1fda669b5948e3c8196e55c228dfff04a`.
+- [Receipt Amendment 09](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0539Z_s3_tern_rook_AMENDMENT_09_THIRD_S36_START_FIELD_VALUE.md), blob `7057f298fdfb46210ffb6836354869202b018873`.
+
+This is a same-ID scheduler-record mutation, not evidence of a new attempt, retry, restart, duplicate process, liveness, or backend cause. The required control-plane correction remains immutable attempt IDs, append-only event sequence/history, and per-peek observed_at plus snapshot ID/version. PR #824 remains mixed-scope; no new Lean theorem/module/build was added.
+
+All prior h796 cross-hour snapshots and Amendments 06–08 remain preserved. The deep-upkeep review is complete; next sweep after five additional distinct durable work-product receipts/evidence entries. No task, ID, schedule, prompt, phase, cadence, enabled-state, branch, PR, issue, or workflow dispatch changed. No sixth task. The current wrapper remains IN_PROGRESS; completion is not claimed.
+
+---
+
 # Latest Tern checkpoint — h796:s3 — successive-peek divergence readback after 05:35Z
 
 **Selection anchor:** `scheduled_for=2026-11-13T04:36:00Z` → h796, seq 3983, ring index 12 Tern Rook; next index 13 Morrow. The delayed start and later peeks do not change the nominal selection. No authenticated current Tern thread is established.
