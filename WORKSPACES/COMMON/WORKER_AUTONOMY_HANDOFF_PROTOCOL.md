@@ -224,3 +224,68 @@ Prefer durable handoffs over informal assumptions. A handoff should say:
 Sable cross-monitors continuity and may intervene within its live remit when a lane goes silent, drifts, blocks, duplicates, or loses continuity. Silence alone is not evidence of failure. Other explicitly delegated control roles, including current Comptroller functions where assigned, may likewise act within their stated remit.
 
 Workers should surface concise workflow observations through the current coordination/control surfaces rather than optimizing only their own primary lane in isolation.
+
+## Evidence, calculation, and completion integrity — mandatory worker addendum
+
+**Applies to:** all recurring and one-shot workers, assistants, coding agents, archive/indexing workers, scheduled relays, and handoff authors.  
+**Authority:** repository-wide worker execution requirements; read together with `AGENTS.md`, `BEDROCK.md`, and the current Primary Operational Guideline.  
+**Purpose:** prevent unsupported calculations, source drift, synthetic evidence, and premature completion claims.
+
+### 1. Source-first work and provenance
+
+- Read the current controlling documents before substantive work; do not rely on remembered or copied instructions when the live repository can be checked.
+- For SAT/H(s)H history, equations, geometry, or prior-result questions, use the permitted Mersearch route and inspect original matched context before reconstructing or replacing a result. Search all three permitted repositories when the task calls for archive-wide research; disclose any missing repository, access limitation, exclusion, or partial coverage.
+- Preserve exact source paths, commit/ref or content hashes, message/line locators, dates and speakers where available. Distinguish Nathan's original statements from assistant-authored transcription, editorial organization, inference, and new work.
+- A search hit, filename, index entry, summary, or generated manifest is a navigation aid, not proof of the underlying claim. Open the original source before relying on it.
+
+### 2. Real-data-first calculation gate
+
+The controlling calculation rule is **BEDROCK ND-2026-10-25-01**. It applies without exception to pure geometry, algebraic fixtures, numerical tests, toy models, simulations, and exploratory calculations:
+
+- Anchor every executed calculation in a named actual physical system and genuine measured or observed data, with source/provenance, version/date, values, units, uncertainties, and relevant constraints.
+- Never invent measurements, parameters, scales, initial conditions, or convenient numerical inputs. Do not pass synthetic data off as empirical evidence or as a real-system calculation.
+- If no real-world observational or experimental data will be used, obtain Nathan's explicit permission for that particular calculation **before execution**. General permission to explore mathematics is not sufficient; silence is not consent.
+- If permission is absent, scheduled and non-interactive workers must not execute the calculation. Mark it `BLOCKED_PENDING_NATHAN_PERMISSION`, state what is missing, and choose a genuine-data task if one is available.
+- Keep measured inputs, established laws, fitted/calibrated quantities, independently derived predictions, and unresolved assumptions visibly separate. Preserve failed, null, contradictory, and inconclusive results.
+
+### 3. Reproducibility and calculation reporting
+
+Every substantive calculation handoff must identify:
+- the actual physical system and why it is relevant;
+- original data source, provenance, version/date, and measured values with units;
+- uncertainty treatment and assumptions;
+- the code or method actually executed and the actual output;
+- the comparison with observations, including failures and discrepancies;
+- whether the result is a fit, retrodiction, independent prediction, mathematical identity, or unresolved proposal;
+- the permission-gate status.
+
+A mathematical identity or internally consistent derivation is not empirical validation and does not automatically promote a construction to H(s)H candidacy or BEDROCK status.
+
+### 4. Repository and workflow completion claims
+
+Workers must report the strongest state actually verified, using distinctions such as:
+
+1. proposed or drafted;
+2. written to a branch;
+3. committed;
+4. merged to the intended branch;
+5. workflow triggered;
+6. workflow/job completed successfully;
+7. generated outputs independently read back;
+8. source-to-manifest/catalogue counts reconciled;
+9. downstream indexes/search surfaces verified;
+10. completeness and all exceptions established.
+
+Do not collapse these states into “done.” A workflow in queue, checkout, or an early step is not a completed run. A successful workflow is not, by itself, proof that all intended sources were discovered or indexed. For ingestion work, inspect manifests, audit reports, catalogue inputs/counts, excluded/undatable records, and downstream search parity. State unresolved exceptions plainly.
+
+After repository writes, perform an independent readback from the target branch/ref. Preserve commit identifiers and exact paths. Do not claim an approved local/house publication route ran unless it actually executed; consult the current shared publication-order and shared-state safety procedures before writes.
+
+### 5. Handoff rule
+
+A worker ending with unresolved work must leave:
+- the exact current state and what was actually verified;
+- source refs/SHAs and artifact paths;
+- blockers, failed checks, missing data, and unverified assumptions;
+- the next bounded operation and the condition required to proceed.
+
+Do not manufacture progress to fill a shift or handoff. A truthful blocked state is a valid result. These requirements are operational controls only and add no physical or theoretical premise.
