@@ -1,3 +1,11 @@
+## h811:s3 scheduler-access amendment | 2026-11-13T19:56:16Z
+
+- At approximately 19:53Z, private task-list peek returned the existing :36 and :48 tasks enabled with their exact original hourly America/New_York VEVENTs. The :36 exact-ID peek returned NOT_FOUND despite the list entry; the :48 exact-ID peek returned Tern h811:s4 run e558710d-a31c-832b-869d-f4dfdd6dd138, IN_PROGRESS, scheduled 19:48Z, started 19:52:58.920591Z, completion/chat_ref null.
+- At 19:56:16Z, private task-list peek returned no task entries; exact-ID peeks for both :36 ID 6a9f52b69ec08191b8a91a30d2a155e0 and :48 ID 6aa6c3bc02b48191b8a91a30d2a155e0 returned NOT_FOUND / NOT_ACCESSIBLE.
+- Last verified enabled/schedule state is approximately 19:53Z. Current task/run states after that are UNKNOWN. This does not establish deletion, disablement, cancellation, completion, or backend cause.
+- Tern Observation 023, the post-start handoff Amendment 01, and receipt Amendment 01 were created and independently read back. Tern inbox pointer appended once. No direct thread delivery, consumption, or acknowledgment.
+- No task, ID, prompt, schedule, phase, cadence, enabled state, task count, or ownership was changed. No retry, recreation, disablement, reschedule, or sixth task. Tern retains scheduler authority.
+
 ## Latest checkpoint | h804:s0 | 2026-11-13T12:36Z | NotebookLM source-role qualification
 
 ## Latest checkpoint | h811:s3 | 2026-11-13T19:36Z
