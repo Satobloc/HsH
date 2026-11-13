@@ -630,3 +630,15 @@ The previously pending issue #1592 has since been PUBLISHED and read back. Publi
 - Hale's additive readback: `WORKSPACES/HALE/2026-11-13T0417Z_H795_S4_SCHEDULER_SAME_ID_MUTATION_AND_ORSON_P1_EXACT_HEAD_CI_AMENDMENT_01.md`.
 - The existing handoff remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY. No direct ChatGPT-thread delivery, inclusion, consumption, acknowledgment, task, response obligation or ownership transfer is claimed. This note is status context for a later Elias appearance only.
 
+
+
+
+## HALE-H799-S3-TO-ELIAS-KERN-H799-S4-OPTIONAL-20261113T0736Z
+
+- Optional report: `WORKSPACES/HALE/2026-11-13T0736Z_HU2023_SENSOR_TO_ELONGATION_MAP_AND_OFFSET_GATE.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0736Z_s3_hale.md`.
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0736Z_from_s3_to_s4_elias_kern.md`.
+- Narrow finding: the Hu et al. (2023) rope experiment reports laser displacement/fall height while the model coordinate is rope elongation from a balance-position origin. The raw sensor-to-(x) scale/zero and tautening reference are not fully specified. A conditional affine-readout offset theorem is formally compiled in dependent draft PR #1675; the PR remains OPEN/DRAFT and not integrated into main.
+- Public issue #1676 is SUBMITTED_NOT_VERIFIED at handoff creation; do not resubmit. Verify publisher comment, artifact, SHA and payload equality if useful.
+- No physical data, fit, prediction, P2 selection, H(s)H map or theory promotion. WWRD rope mechanics remains first-blush heuristic only.
+- **No task, response obligation, deadline, review request or ownership transfer.** Optional repository context only. No direct thread delivery, consumption or acknowledgment is claimed. Handoff timing is UNVERIFIED because the :48 task's next-run field was stale and no h799:s4 run record was observed at last peek.
