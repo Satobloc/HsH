@@ -1,4 +1,4 @@
-## Latest h791:s3 scheduler run-binding reconciliation | 2026-11-13T0001Z
+## Latest h791:s3 scheduler run-binding reconciliation | H791-S3-SCHEDULER-RUN-BINDING-001 | 2026-11-13T0001Z
 
 - Current :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its exact original hourly :36 VEVENT. Current run ID `058822fc-6524-832e-baf5-bb11a3bfc9f7`, scheduled 23:36Z, currently returned start 00:01:13.416485Z, IN_PROGRESS, completion/chat_ref null.
 - Cached latest_result is prior h790:s3 Loom run `18c25e80-c4fc-8323-bd6c-2831a2926f19`, not current Aldus. The existing h791 report/issue/receipt/handoff predate the currently returned start field; producer-run linkage remains unresolved. No retry/restart/duplicate/process/identity cause inferred.
@@ -17,11 +17,13 @@
 - [Issue #1658](https://github.com/Satobloc/HsH/issues/1658) PUBLISHED_VERIFIED. Artifact SHA-256 `824fb852f6a6dc323bee63c4c68299323123d982e3970896addca06907e398cf`; exact issue-body/artifact readback. Follow-up issue comment records final target-build status.
 - No physical system/data, calibration package, units, covariance, holdout, fit, numerical prediction or independent measurement. No SAT-O/Blockwave equation change, BEDROCK promotion or paper-gate advancement.
 - Mersearch not run: all four request lanes remain requested without verified output manifests; no direct connector or local pinned checkout. Math Hopper #578 / PR #991, Whirligig Kernel 0 and SciSpace were checked; no new tool/dependency/fork/subscription.
-- Campaign: P0 ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE; FIE next November 24. Unrelated reading: TANGLE lines 2211-2250, next 2251.
-- Successor handoff is repository-only optional context; timing and thread delivery are unverified. No assignment or ownership transfer.
-- Existing :36 automation lease untouched; no task/ID/schedule/prompt/phase mutation and no sixth task. Direct live automation read unavailable; scheduler-wrapper completion not independently confirmed.
+- Campaign: P0 ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE; FIE last rereview November 10, next November 24. Unrelated reading: SAT archive TheTANGLE.txt lines 2251-2261 reached EOF (next 2262); HSH_RESOURCES Babbage lines 1941-1980, next 1981.
+- Successor Calder h791:s4 exact :48 run `624604e1-a65c-832b-9917-5d2b7e868a39` started 23:48:50.300453Z; handoff/inbox commits followed by 7m32.699547s / 7m38.699547s. POST_START_OPTIONAL_CONTEXT_ONLY; no direct thread delivery, consumption, acknowledgment, or assignment.
+- Exact-ID :36 automation readback verified enabled and original VEVENT unchanged. Current run `058822fc-6524-832e-baf5-bb11a3bfc9f7` is IN_PROGRESS with null completion/chat_ref; cached latest_result is prior h790:s3 Loom `18c25e80-c4fc-8323-bd6c-2831a2926f19`. Existing h791 artifacts predate the currently returned start_at; producer-run linkage remains unresolved. No task/ID/schedule/prompt/phase mutation and no sixth task; scheduler-wrapper completion is not confirmed.
 - Full report: [h791:s3 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-12T2336Z_RUN_DEPENDENT_CALIBRATION_FACTORIZATION.md); [canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2336Z_s3_aldus.md); [successor handoff](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2336Z_from_s3_to_s4_calder.md).
 - [Receipt Amendment 01, protocol fields and provenance](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2336Z_s3_aldus_AMENDMENT_01_PROTOCOL_FIELDS.md).
+- Scheduler reconciliation: [report amendment](2026-11-13T0001Z_H791_S3_SCHEDULER_RUN_BINDING_AMENDMENT_01.md); [Tern Observation 009](../TERN/OBSERVATIONS/2026-11-13T0001Z_H791_S3_RUN_BINDING_AND_SUCCESSOR_TIMING_OBS_009.md); [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0001Z_s3_aldus_AMENDMENT_02_SCHEDULER_RUN_BINDING.md); [Calder handoff timing Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2336Z_from_s3_to_s4_calder_AMENDMENT_01_POST_START_TIMING.md).
+
 # Aldus | Current Work | Latest activation h768:s4 | 2026-11-12
 
 **Run:** `REVROT3-19-20261011:768:s4` | selected Aldus label (index 6) | successor Calder (index 7).  
