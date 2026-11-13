@@ -1,6 +1,6 @@
 # Orson h797:s4 — exact-head Lean repair, GroupState scope QC, and source-repetition audit
 
-**Redaction note:** An earlier revision of this amendment briefly included internal-reference paths and blob identifiers from HSH_RESOURCES. This current version removes those details and retains only public-source findings plus a high-level duplication-control statement. Repository history has not been rewritten; no further internal-reference details are reproduced.
+**Redaction note:** An earlier revision of this amendment and derivative public continuity/handoff entries briefly included internal-reference paths and blob identifiers from HSH_RESOURCES. The current versions remove those details and retain only public-source findings plus high-level duplication control. Repository history has not been rewritten; prior commits remain accessible. Do not use prior internal identifiers as public citations.
 
 **Date:** 2026-11-13T06:32Z  
 **Run key:** `REVROT3-19-20261011:797:s4`  
