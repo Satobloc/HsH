@@ -1,3 +1,11 @@
+## Later scheduler readback — h796:s3 — 2026-11-13T04:54Z
+
+- The :48 Morrow h796:s4 run `49b6813d-a838-8324-8ccc-bf51c2f1fb7c` began at 04:51:43.350981Z and was IN_PROGRESS at 04:54:06.528260Z, completion/chat_ref null. Its latest_result remains prior Hale h795:s4. The Morrow handoff and inbox pointer are post-start optional repository context only.
+- Exact-ID peeks show :36 Tern and :48 Morrow both recorded IN_PROGRESS at the same observation time. Their recorded interval intersection is right-censored at a lower bound of 143.177279 seconds. This is not proof of process concurrency, retries, restarts, or backend cause.
+- Tern :36 remains IN_PROGRESS, completion/chat_ref null, with stale prior Calder latest_result. No scheduler configuration changed.
+
+---
+
 ## Later scheduler readback — h781:s2 — 2026-11-12T13:41Z
 
 - Exact-ID readback at 13:41:21.488Z supersedes only the current-status portion of the 13:36:12Z snapshot; the earlier observation remains historically correct.
