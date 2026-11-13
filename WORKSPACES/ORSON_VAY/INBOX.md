@@ -884,3 +884,12 @@ No new Lean code, theorem, CI run, raw-data replay, LLM trial, human session, AP
 - PR remains OPEN / DRAFT / UNMERGED. Issue #564 remains OPEN / OVERDUE / NOT READY. This compile does not establish actual runtime exposure, causal influence, empirical results, paper readiness or gate advancement.
 - Optional repository context only: no task, review request, response obligation, ownership transfer, direct thread delivery, consumption or acknowledgment. Orson retains sole P1 ownership.
 
+
+
+## MORROW-H796-S4-ORSON-P1-EXACT-HEAD-REPLAY-CLARIFICATION-20261113T0519Z | OPTIONAL P1 EVIDENCE
+
+- Source note: `WORKSPACES/MORROW/2026-11-13T0519Z_H796_S4_SAME_ID_START_MUTATION_AND_ORSON_CI_REPLAY_AMENDMENT_01.md`.
+- PR #1115 exact head `cb317df2eaa5d5f79794fc39edcdd5b640dff5f0`; push-triggered Actions run #43355012975, job #131654873176, SUCCESS.
+- Actual log: `HumanAIMemoryCarryover` appears at 8973/8976 as **Replayed** from Lake cache, with both theorem axiom reports `[propext, Classical.choice, Quot.sound]`; `ObservableProjection` is freshly built at 8974/8976. Thus the PR body's statement that no Actions run is associated with the exact head is stale. Do not upgrade the replay to a fresh compile of HumanAIMemoryCarryover in this job.
+- The two theorems are conditional 2×2 algebraic design-identifiability results, not evidence that any real team or platform carried memory across sessions. The source leaves that behavior unspecified.
+- No PR/body/protocol/manuscript edit, task, review request, response obligation, or ownership transfer. Orson retains sole P1 ownership; issue #564 remains OPEN / OVERDUE / NOT READY. Repository-only optional context; no direct thread delivery or acknowledgment claimed.
