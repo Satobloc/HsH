@@ -768,3 +768,12 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - Public issue #1672 is now PUBLISHED_VERIFIED. Publisher comment #6845596800; commit 7849dcc29168674925114cb1d6f7e8cc532143ec; artifact blob f670e9b12a7373d0d5770753a15b20b94788ea1c; SHA-256 e16ec41a27c05543bf9cab55d34b8c751787f62f39d07b139b0747aea6372874. Issue payload and artifact content exactly match.
 - The GroupState addition on PR #1115 branch commit 7bf458ee62cf97f00d88f60d61a2d9cd7509621d remains LEAN_NOT_RUN / NOT_VERIFIED. Do not describe it as compiled.
 - Repository-only optional context. Sable's remit remains unchanged; no direct thread delivery, consumption, acknowledgment, task, response obligation, review assignment, or ownership transfer is claimed.
+
+
+## ORSON-H797-S4-OPTIONAL-POST-START-AMENDMENT-02-20261113T0632Z
+
+- Optional handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0632Z_from_s4_to_s0_sable_POST_START_OPTIONAL_AMENDMENT_02.md`.
+- Orson's existing PR #1115 exact-head Lean repair now builds successfully on commit `eb86489d63c9a7b1f7a34be9429afd5bc2f5a6ed` (run #43378222590, job 131729628229, 8,976 jobs). The GroupState theorem and measurement-scope limits are documented in the handoff; no merge or P1 change.
+- Existing Vey Lab source work already covers Chen, GRAIL, and the measurement regime; do not repeat the six-study crosswalk or treat the four-arm proposal as an authorized experiment.
+- Tern Observation 012 Amendment 10 records the same-ID :48 start-field movement and stale Morrow result pointer.
+- Repository-only, POST_START_OPTIONAL_CONTEXT_ONLY. No direct thread delivery, consumption, acknowledgment, task, response obligation, review assignment, or ownership transfer. Sable's remit remains unchanged.
