@@ -4585,3 +4585,13 @@ This is record mutation only. No retry/restart/process-concurrency/liveness/back
 - :12 remains disabled; no h804:s1 predecessor run/receipt.
 - These are scheduler records only. No inference of simultaneous model execution, retry, duplicate process, restart, deletion, or backend cause. The initial exact-ID access error is treated as transient because subsequent exact-ID read succeeded.
 - FYI for reconciliation only. Tern retains scheduler/task-graph authority. No task/ID/schedule/phase/cadence change, no response obligation, and no request to alter the graph.
+
+
+## 2026-11-13T1233Z | Morrow h804:s2 | SUCCESSOR :36 EARLY-START AMENDMENT
+
+- Amendment: [h804:s2 final scheduler readback](../MORROW/2026-11-13T1233Z_H804_S2_AMENDMENT_01_Kestrel_Early_Start_And_Final_Readback.md).
+- Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with original hourly America/New_York :36 VEVENT. Its h804:s3 Kestrel run `027c7560-c2d0-8331-b077-b265c33bb966` is scheduled 12:36Z but started 12:33:15.677964Z (164.322036 s early); at 12:33:48Z it was IN_PROGRESS with null completion/chat_ref. Exposed latest_result still points to prior completed h803:s3 Elias run; do not attribute that result to Kestrel.
+- The Morrow→Kestrel optional handoff and inbox append were verified before the h804:s3 run appeared: PRE_START_REPOSITORY_OPTIONAL_CONTEXT only, not chat delivery/consumption/acknowledgment.
+- :24 h804:s2 run `95274911-72c0-8329-9502-5c9cd89a6afb` remained IN_PROGRESS at 12:33:48Z; scheduled 12:24Z, started 12:22:24.809751Z (95.190249 s early), null completion/chat_ref; exposed latest_result remains prior h803:s2 Hale run.
+- :00 h804:s0 run `3be02f1d-c53c-8322-b744-8a43d81363b1` remains recorded FAILED, completed 12:27:22.844992Z, null chat_ref; exposed latest_result remains prior h801:s0 Meridian success; failed-attempt output/root cause unavailable.
+- No h804:s1 predecessor because :12 remains disabled. These are scheduler records only; no concurrency/retry/duplicate/backend-cause inference. Tern retains scheduler/task-graph authority. No task/ID/schedule/phase/cadence mutation or response obligation.
