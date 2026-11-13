@@ -1341,3 +1341,22 @@ Kestrel run `1af56ac1-61a0-8333-80c6-923b8bfcf4bc` started at 13:47:40.386338Z, 
 - No task, schedule, phase, cadence, automation count, branch, PR, issue, theory, equation or ownership mutation. FIE next review November 24. Okakura cursor 1512 preserved; no physical break claimed.
 - Report: `WORKSPACES/MORROW/2026-11-13T0448Z_H796_S4_ARCHIVE_ACTIVITY_AND_LEAN_PROVENANCE_AUDIT.md`.
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0448Z_s4_morrow.md`.
+
+
+## h800:s3 | whole-mapping graph integrity audit | 2026-11-13T08:36Z nominal
+
+- Selection: Morrow index 13; successor Kestrel index 14; run key `REVROT3-19-20261011:800:s3`.
+- Historical authority: original Morrow conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`; direct Team Archivist role, September 13 theory stop, and later bounded archive/maintenance trial remain distinct. The trial does not lift theory integration, physical-prediction or paper restrictions. No authenticated current Morrow thread.
+- New source-custody improvement: `compare_conversation_exports.mjs` now audits all mapping nodes for dangling parent/child references, both reciprocity directions, duplicate child edges, self-edges, malformed nodes/parents/children, mapping-key/message-ID mismatches, and parent cycles in every component. It also reports changed parent pointers for every shared mapping node.
+- Exact raw sources: earlier 465-node blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb`, SHA-256 `4f79b15eabfa8ba3b15d774fd873c72d91529ec601986a9fb97b9e9a860bc856`; later 697-node blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`, SHA-256 `4f5311f6464ef43ac76c1b269a8068f294c9ba6ab173bffc54f17dcb5022ef58`.
+- Actual V8 execution: both snapshots have one root, N-1 parent pointers and child edges, and zero errors in all 11 categories. Delta: 232 added nodes, 232 added edges (1 from a shared parent, 231 from new parents), zero removed nodes/edges, zero changed parent pointers, one shared content-field discrepancy. Earlier active branch remains an ID-prefix, but payloads are not all unchanged.
+- In-memory software fault injection removed one child edge from a copy of the later source; one reciprocity mismatch was detected. Original source was unchanged.
+- Script commit `7551eb759a6390052b61c2d1cdf20e314c7a2ee0`, blob `c1de363de5d492356f329e05b545dd1ec252cb9a`; exact readback PASS. Local Node CLI not run.
+- Proof triage: existing Aster PR #787 contains related source-specific parent-edge propositions; actual CI #41628335415 failed and error recovery emits `sorryAx`. Aster ownership preserved; no duplicate Lean module or PR.
+- No theory integration, physical calculation, fit, prediction, independent measurement, equation correction, paper work, quarantine reopening, or BEDROCK promotion.
+- Mersearch lanes 1-4 remain occupied/requested; no query or overwrite. HSH_RESOURCES payload not inspected.
+- Unrelated reading: TheTANGLE.txt lines 1801-1840; next 1841. Okakura/HSH_RESOURCES cursor 1512 remains parked. FIE next November 24.
+- Publisher issue #1679, submission `morrow-whole-mapping-graph-integrity-20261113t0836z-s3-001`, SHA-256 `e491c7227c703c37752bfc3bcc48d1706fe63128831684559fb41b28c54371af`, expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-whole-mapping-graph-integrity-20261113t0836z-s3-001.md`; status SUBMITTED_NOT_VERIFIED at last readback. No retry, duplicate, or direct artifact write.
+- Current :36 run `8cb5108c-63b0-832b-b2d1-5982d4ea55f4` remains IN_PROGRESS at last readback, completion/chat_ref null; cached result belongs to prior Hale h799:s3.
+- Kestrel h800:s4 run `e8f62203-9140-8328-aae0-1de9e9ce56ef` had started 08:49:33.639288Z after 08:48 nominal. Handoff is POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER.
+- Existing :36 task ID, enabled state, exact hourly schedule, prompt and phase unchanged; no sixth task.
