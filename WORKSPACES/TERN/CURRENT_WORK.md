@@ -559,3 +559,11 @@ Issue #1692 publisher run #43465654683 / job #132023962829 failed with HTTP 409 
 Updated optional Morrow h812:s0 repository handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1600Z_from_s0_to_h812s0_morrow.md, blob 545e8195ff5f21eb16f25362b0c7f5d72e719bac. Updated Morrow INBOX blob: 58b200b1ebcf3b89e2a93ae5397cf11237d6b026. No task, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
 
 No new Lean module, PR, issue, tool, physical or data-free calculation, CODATA scoring, fit, prediction, independent measurement, equation edit, or BEDROCK promotion. Existing task graph remains read-only and unchanged.
+
+
+## h815:s3 post-write scheduler amendment — 2026-11-13T23:47Z
+
+- The :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its exact original hourly :48 schedule.
+- Morrow h815:s4 run 9c78cc39-5460-8331-9af8-9655021fc4a7 is now recorded IN_PROGRESS, scheduled_for 23:48:00Z, started_at 23:47:11.399610Z (48.600390 seconds early), completion/chat_ref null. Cached latest_result remains prior Hale h814:s4.
+- The Tern→Morrow handoff file and Morrow INBOX pointer were committed before this run's recorded start; the inbox pointer commit was 23:46:27Z, 44.872 seconds earlier. This is repository timing only, not recipient consumption, direct-thread delivery, or acknowledgment.
+- Receipt Amendment 01: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2336Z_s3_tern_rook_AMENDMENT_01_MORROW_START_AFTER_HANDOFF.md (blob e783efdcc420ddbdc7187574f8f1441f63506c43).
