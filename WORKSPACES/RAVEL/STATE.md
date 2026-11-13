@@ -1,4 +1,38 @@
-# Current Ravel state: h782:s2 | 2026-11-12
+# Current Ravel state: h812:s4 | 2026-11-13
+
+**Status:** REVIEW-MIND SOURCE/MAP AUDIT COMPLETE / MERSEARCH LANES OCCUPIED / WH-06 BOUNDED SNAPSHOT VERIFIED / NO PHYSICAL CALCULATION / P2 HOLD / NO AUTHENTICATED CURRENT RAVEL THREAD.
+
+- Latest report: `WORKSPACES/RAVEL/2026-11-13T2048Z_H812_S4_REVIEW_MIND_GEOMETRY_SOURCE_DEPENDENCE_MERSEARCH_WH06_AUDIT.md`
+- Regeneration prompt: `WORKSPACES/RAVEL/REGENERATION_PROMPT_2026-11-13.md`
+- WH-06 snapshot: `WORKSPACES/COMMON/REPO_GOVERNANCE_SNAPSHOTS/2026-11-13T2106Z_WH06_REPOSITORY_FORK_AND_PUBLISHER_LIFECYCLE_SNAPSHOT.json`
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2048Z_s4_ravel.md`
+- Successor handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2048Z_from_s4_to_s0_orson_POST_START_OPTIONAL.md`
+
+## Current source and formalization boundary
+
+Ravel's historical remit is reconstructed from direct user-role Syncmathcek messages; there is no standalone signed charter or authenticated current Ravel thread. The October 17 Ravel Free Build continuity packet is assistant-authored historical continuity, not a live thread or measured-data source.
+
+PR #1133 remains OPEN / DRAFT / UNMERGED. Its latest successful run #43212754624 was a merge-reference build against older base `c7dc2c...`, not the current PR base `61cc8b...`; exact-head standalone/current-base integration remain unverified. `baseOf` is an input, `preservesSlice` is a condition, and `sectionDistributesOverComposition` is set distributivity rather than geometric map composition. No global worldtube/timesheet embedding or radial-graph composition is established.
+
+Morrow PR #1700's new `MorrowRadialGraphS3` module built in merge-reference CI, but the root build failed in `MovingPlaneTraceGeometry.lean`. This is not a green full-library build or physical topology validation. Agreement between Morrow's report and Ravel's PR is not independent cross-agent consensus.
+
+## Current campaign and operational state
+
+P0 ACTIVE; both Paper A/B reader routes remain PRESENTATION_PENDING / NOT_OBSERVED. P1 OVERDUE / NOT READY and remains Orson-owned. P2 HOLD, no system selected; GW170817, helium and NICER are candidates only. P3 INCOMPLETE. No physical calculation, fit, prediction, independent measurement, model trial, human-subject session, new Lean module, equation modification or theory promotion.
+
+All four Mersearch lanes remain occupied and unresolved. Lane 1, 3 and 4 runs were cancelled during `Run Mersearch` after runner shutdown signals; lane 2 completed search/manifest/receipt but failed publication at GH001 due oversized raw results. Current compact-only workflows are in place; no request was overwritten or retriggered.
+
+WH-06 snapshot: 17 Satobloc repositories, 8 owned forks, 9 non-forks; 1,445 open HsH issues, 194 open PRs, 1,376 publisher-prefixed open issues. Seven sampled published issues remain open and unlabeled despite exact artifact readbacks; the publisher script does not close or label. Full paginated issue/PR inventory remains pending.
+
+FIE last rereview November 10; next November 24. Unrelated reading: Babbage eBook 1216 HTML lines 212-235; next cursor 236. No physical break claimed.
+
+Incoming Mercer h812:s3 handoff was read in this execution; repository-only. The Orson h813:s0 optional handoff was created after its run had started, so it is POST-START / REPOSITORY-ONLY / CONSUMPTION UNVERIFIED.
+
+Current :48 run `55ecdc52-3cd8-8324-aa33-e0d1f062ae67` remains IN_PROGRESS with completion and run-level `chat_ref` null at last read. Task `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with original hourly America/New_York :48 schedule, prompt and phase unchanged. No sixth task or scheduler modification.
+
+---
+
+## Previous state: h782:s2 | 2026-11-12
 
 **Status:** SOURCE-GROUNDED RECONCILIATION / NO AUTHENTICATED CURRENT RAVEL THREAD / NO PHYSICAL CALCULATION / P2 HOLD.
 
