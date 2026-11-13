@@ -117,7 +117,7 @@ theorem source_attestation_does_not_determine_context_exposure_within_same_run
 
 
 /-- A claim-level output-attribution record tied to one run and context snapshot.
-The attributed spans are explicit content-addressed references, not proof that
+The attributed entries are explicit source/digest/span references, not proof that
 the source was causally used or that the claim is semantically correct. -/
 structure OutputAttributionRecord
     (Source Digest Run SnapshotId OutputId Span : Type) where
@@ -136,7 +136,7 @@ def outputAttributesSourceSpan
 
 /--
 A single run and context snapshot can expose the same source while two distinct
-outputs differ in whether their records attribute a content-addressed span to
+outputs differ in whether their records attribute the same source/digest/span tuple to
 that source.
 
 This is a type-level countermodel to inferring output attribution from context
