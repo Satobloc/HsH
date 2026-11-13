@@ -267,3 +267,9 @@ Reference: [issue #1644](https://github.com/Satobloc/HsH/issues/1644); internal 
 **Next decision:** recover or define a source-grounded coupling law before claiming S_R subset N_epsilon(gamma). Until then keep timesheet-bulk and support-boundary response alternatives open; do not infer a second core, material shell, or separate medium. Existing PR #873 fiber-factorization theorem is conditional on actual maps; no new Lean theorem/build because the coupling and readout maps are not defined. No physical system/data or P2 test; P2 remains HOLD.
 
 Reference: [issue #1646](https://github.com/Satobloc/HsH/issues/1646), visible but NOT PUBLISHED due missing title prefix; internal report WORKSPACES/KESTREL/2026-11-12T1802Z_EXCITATION_RESPONSE_SUPPORT_TYPING_CORRECTION.md.
+
+
+## 2026-11-13 source-custody correction: July 18 podcast is not primary
+
+The July 18 episode page and SRT are secondary undiarized artifacts. The SRT has 843 timed caption blocks but no speaker labels, and no audio asset is present in the archive directory. The HsH COSMOTOPOLOGY flattened dialogue has NATHAN/ChatGPT textual labels but no raw role graph or message identifiers. Do not treat either as authenticated Nathan Direct. Recover the raw conversation export and the original audio or a diarized transcript before assigning the CTC, CSC, particle/black-hole inversion, EoS, or untwisting claims to Nathan. See https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-13T0500Z_COSMOTOPOLOGY_PODCAST_SOURCE_CUSTODY_AND_INVERSION_FIDELITY_AMENDMENT.md.
+
