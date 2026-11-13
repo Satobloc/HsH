@@ -1213,3 +1213,19 @@ Report amendment 05: WORKSPACES/TERN/2026-11-10T1735Z_REVIEW_MIND_SCHEDULER_READ
 - Morrow handoff amendment WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1824Z_from_s2_to_s3_morrow.md_AMENDMENT_01_POST_COMPLETION_READBACK.md, blob 25367551d76bc12e0d6175f5ca73da5ab1298aa2; Morrow inbox final blob f9d63407e42280ff1c3c87182d488a2eb40745cd. PRE_NOMINAL_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / ACTUAL_MORROW_START_UNOBSERVED.
 - No task, automation, schedule, phase, prompt, cadence, enabled state, or task count changed. No sixth task.
 
+
+
+## h792:s4 — 2026-11-13T00:48Z — four-lease run/result reconciliation and deep upkeep
+
+- Source-grounded Tern Rook reconstruction; no authenticated current thread. Direct historical Comptroller authority remains the two user-role messages in Ariadne raw conversation `6ab339d2-8fb4-83ea-b728-c8001a034371`; no standalone signed charter.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0048Z_s4_tern_rook.md`, blob `5d8d2bbb5fba51211b5b77d4abfb748f1069b7c4`.
+- Observation 010: `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T0048Z_H792_FOUR_LEASE_RUN_RESULT_BINDING_AND_START_FIELD_MUTATION_OBS_010.md`, blob `8bac83fbd62987557f8480d2c5e1b76d27e3b05c`.
+- :24 Nadir h792:s2 run `7b083c4c-a430-832f-b897-393e0d6ecdeb` changed under same ID from FAILED/start 00:21:17.885619Z/completed 00:46:25.841939Z to IN_PROGRESS/start 00:49:08.307513Z/completion null. :36 Enheduanna h792:s3 run `8f1d0e76-94a4-8323-8da7-6cb0d36ed208` start moved 00:36:35.612303Z → 00:52:14.160848Z. No cause or retry/restart/process-concurrency inference.
+- :00 Hale h792:s0 completed with chat_ref present but latest_result null; :24/:36/:48 latest-result pointers belong to prior run IDs. :48 Tern current run `7270c22b-c6a4-8320-b14e-44c0750dfca4` remains IN_PROGRESS/chat_ref null; cached result is prior Calder h791:s4.
+- Enheduanna packet commit 00:49:06Z and Tern INBOX pointer 00:49:21Z arrived after Tern start 00:47:23.535414Z; read after start as optional repository context.
+- PR #1619 run #43339533568/job #131604080428 completed failure overall; EnheduannaSourceExposure module blob `cdc26675b32f8c9024418fb0384d49ccbcc7a5e4` built in merge-reference run with theorem axiom output `[propext]`; failure is in separate MovingPlaneTraceGeometry noncomputable definitions. No retry/merge/rebase/retarget.
+- Deep upkeep trigger crossed after Aster h790:s4: at least six later receipts/evidence entries. Read-only h792 sweep completed. Graph remains 16 declared / 18 actual, 13 active, no mutation. Next deep review after five additional durable receipts/evidence entries after h792:s4.
+- Campaign P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE. P0 eight protected paths absent from 75-commit delta; reader routes pending. FIE next Nov24.
+- Python offload recommendation only: read-only standard-library adapter over saved Automations.peek JSON for run/result binding and mutable timestamp/status checks. Existing graph-triage and rotation-audit scripts remain; no new tool.
+- Unrelated reading Babbage lines 2141–2180; next 2181. No physical break claimed.
+- Existing :48 task ID/schedule/phase preserved; :12 remains disabled; no sixth task or task mutation. Morrow h793:s0 had started before the handoff; optional repository-only context, no task/response/ownership transfer or direct ChatGPT delivery claim.
