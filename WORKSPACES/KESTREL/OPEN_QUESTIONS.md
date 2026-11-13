@@ -273,3 +273,15 @@ Reference: [issue #1646](https://github.com/Satobloc/HsH/issues/1646), visible b
 
 The July 18 episode page and SRT are secondary undiarized artifacts. The SRT has 843 timed caption blocks but no speaker labels, and no audio asset is present in the archive directory. The HsH COSMOTOPOLOGY flattened dialogue has NATHAN/ChatGPT textual labels but no raw role graph or message identifiers. Do not treat either as authenticated Nathan Direct. Recover the raw conversation export and the original audio or a diarized transcript before assigning the CTC, CSC, particle/black-hole inversion, EoS, or untwisting claims to Nathan. See https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-13T0500Z_COSMOTOPOLOGY_PODCAST_SOURCE_CUSTODY_AND_INVERSION_FIDELITY_AMENDMENT.md.
 
+
+
+## 2026-11-13T1624Z | Legibility crosswalk decision note
+
+The existing public design already answers the navigation question at the top level: retain the two entrances, idea-first and status/evidence-first. Do not add a third top-level route or another badge vocabulary.
+
+The missing connective tissue is a claim/object crosswalk. Under either entrance, let readers follow three linked lenses: historical/source, geometric/mathematical, and empirical/measurement. Keep attribution, geometric fidelity, formal status, empirical status, and presentation/review independent. A success in one lane must not imply a pass in another.
+
+For P2, use the existing issue #1341 map contract and actual measured-system gate. Show the physical system, acquisition, provenance, units, calibration, covariance/uncertainty and standard comparator before the H(s)H representation or numerical comparison. The Φ and Π maps are required but not instantiated; do not assume they are inverses. The q0/q1/q2 primitive ladder remains a candidate-model sequence, not a physical result.
+
+The full internal crosswalk, including failure/partial-survival/substantial-success paths and the current PR #873 build limitation, is in [h808:s2 report](2026-11-13T1624Z_H808_S2_OUTCOME_ROBUST_READER_CROSSWALK.md). This is a decision aid, not a new task, public-site edit, paper gate, or theory promotion.
+
