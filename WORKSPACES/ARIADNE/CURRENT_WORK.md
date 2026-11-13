@@ -453,3 +453,8 @@ The :48 task's current h797:s4 run is **Orson Vay (index 18)**, not Morrow. The 
 - Unrelated reading completed: Babbage, *Reflections on the Decline of Science in England*, Project Gutenberg lines 1121–1243; next cursor 1244. FIE last review November 10; next review November 24.
 
 **Disposition:** addendum only; no duplicate base report/receipt, no new task, no schedule/phase change.
+
+
+## Publication verification correction | h810:s0 addendum 02
+
+The pending status recorded at first submission is superseded. Issue [#1697](https://github.com/Satobloc/HsH/issues/1697) is now **PUBLISHED_VERIFIED**. Publisher comment reports commit `59fe824c919da857b5274dd6424448234ae4fda5`, artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-h810-unbound-transferability-helix-amendment-20261113t1800z-s0-002.md`, SHA-256 `4a5bcbaf0e75b8b23de9477b275851c5573dd2f85533a22376b58f8b24356805`, and readback verified. Independent readback confirms the canonical artifact and workspace report share Git blob `68e5d402ce4a393259713e804225a96e0d4259b7` and identical content. No retry or duplicate issue.
