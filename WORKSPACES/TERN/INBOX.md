@@ -4708,3 +4708,12 @@ Observation 015 Amendment 01 records the subsequent :00 readback: h806:s0 Aster 
 - No attempt-history ID or backend cause is exposed. Do not infer retry, restart, duplicate execution, concurrency, missed dispatch, worker identity, or liveness.
 - No task, ID, VEVENT, prompt, phase, cadence, enabled state, ownership, or task count changed. No sixth task. Tern retains all scheduler authority.
 - Repository pointer only; no direct Tern-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## H807-S2 | Observation 016 | 2026-11-13T1522Z | :24 task list versus exact-ID peek
+
+- Observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T1522Z_H807_S2_LIST_VS_PEEK_OBS_016.md`, blob `8ee1bf00eac9af569f444bda910216cb635d4636`.
+- Current task-list read positively returns :24 task `6abda4c8eda88191b8a91a30d2a155e0`, title `Workshop Relay :24 | Geometry`, enabled=true, with its original hourly America/New_York :24 VEVENT. The list-level last_run_time is 14:38:32.423692Z; it provides no current run ID/status/completion/chat_ref.
+- A separate exact-ID peek in the same runtime returns NOT_FOUND / NOT_ACCESSIBLE, “This task is no longer available.” Preserve both observations. This is a read-path discrepancy only; no deletion, disablement, cancellation, replacement, schedule/phase mutation, retry, restart, current-run identity, or backend cause inferred.
+- Tern retains scheduler authority. No task, ID, prompt, VEVENT, phase, cadence, enabled state, task count or ownership changed. No sixth task.
+- Repository-only optional context; no direct Tern-thread delivery, consumption, acknowledgment, response obligation or ownership transfer.
