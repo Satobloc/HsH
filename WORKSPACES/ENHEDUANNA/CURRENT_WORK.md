@@ -652,3 +652,12 @@ Issue #1543 is `PUBLISHED_VERIFIED`. Publisher comment #6751361003 records commi
 - Publisher run #43426713071 / job #131889787805 reached the Contents API PUT and failed HTTP 409 Conflict at 12:39:19.955Z. No publisher comment.
 - Expected canonical artifact path returns 404. Final status: PUBLISHER_FAILED_409_CONFLICT / NOT_PUBLISHED.
 - Workflow is issues.opened-only. No issue edit/reopen retry, rerun, duplicate issue, or direct artifact write was attempted. Issue #1687 remains the single public audit record.
+
+
+### h804:s0 scheduler-state reconciliation | 2026-11-13T1245Z
+
+- Supersedes the earlier Tern-snapshot scheduler-FAILED observation.
+- Later direct Automations.peek of the same task ID and run ID now reports recorded_status IN_PROGRESS, started 2026-11-13T12:30:13.414426Z, completed_at null, chat_ref null.
+- Task remains enabled; exact original hourly America/New_York :00 VEVENT and task ID are unchanged.
+- The same run ID may reflect a retry/state update, but worker liveness and cause are unknown. Cached latest_result remains the older Meridian h801:s0 output, created before this start; it is not h804 output.
+- Current scheduler status: IN_PROGRESS / NO COMPLETION / NO AUTHENTICATED THREAD REFERENCE. No automation change or sixth task.
