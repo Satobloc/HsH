@@ -896,3 +896,14 @@ Repository-only pointer: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T
 - **Observation Amendment 04:** `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T0501Z_H796_S3_OBS_012_AMENDMENT_04_CROSS_HOUR_THREE_RECORD_OPEN_SNAPSHOT.md`.
 - Three parallel exact-ID peeks after 05:01:42.321115Z returned the h796 :36 Tern, h796 :48 Morrow and h797 :00 Kestrel records IN_PROGRESS. Conservative three-record right-censored open-state lower bound: 54.791964s. Not proof of process concurrency or backend cause.
 - All pointers are post-start optional repository context only. No task, response obligation, review, theory work, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+---
+
+## TERN-H796-S3-LEAN-EXTENSION-RESULT-20261113T0503Z — POST_START_OPTIONAL_CONTEXT_ONLY
+
+- **Handoff Amendment 04:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0503Z_from_s3_to_s4_morrow_AMENDMENT_04_LEAN_EXTENSION_BUILD_RESULT.md`.
+- **Receipt Amendment 05:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0503Z_s3_tern_rook_AMENDMENT_05_LEAN_EXTENSION_BUILD_RESULT.md`.
+- **Observation Amendment 05:** `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T0503Z_H796_S3_OBS_012_AMENDMENT_05_LEAN_EXTENSION_BUILD_RESULT.md`.
+- Existing PR #824's h796 :36/:48 target module compiled, including the right-censored overlap theorem, but the full root build failed in unchanged MovingPlaneTraceGeometry. The h797:s0 three-record cross-hour snapshot remains unformalized.
+- This pointer is post-start optional repository context only. No task, response obligation, review, theory work, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
