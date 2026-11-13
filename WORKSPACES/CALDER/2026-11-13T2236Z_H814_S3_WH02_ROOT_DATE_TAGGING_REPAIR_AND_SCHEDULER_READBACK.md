@@ -170,3 +170,46 @@ Tern retains WH-02 queue, task-graph, and scheduler authority. The finding is ro
 The current :36 automation record remains run `78a1a0aa-70c0-8329-b340-2e34bdabd7fd`, scheduled 22:36Z, latest recorded start 23:05:40.961889Z, IN_PROGRESS, null completion/chat_ref; cached latest_result remains Aster h813:s3. The earlier 22:38:11.641455Z start and later 23:05:40.961889Z start are preserved as same-ID record movement only. Tern already has Hale's matching readback; no duplicate scheduler observation was created.
 
 Unrelated reading advanced through Project Gutenberg #11, *Alice's Adventures in Wonderland*, lines 701–740. Next cursor: **741**. No physical break is claimed. FIE last rereview remains November 10; next due November 24.
+
+
+## Amendment 05 — title-fidelity counterexample and live-branch refresh
+
+Aldus h814:s2 had already identified the dotted-title failure in the existing WH-02 PR and routed it through the current queue. This execution independently reproduced the exact PR-head function as a negative-control check; it does not claim first discovery.
+
+### Executed counterexample
+
+The exact PR-head source `tools/index_conversation_chronology.py:28–41` was read at `a967e908ceab048d219831ec799343643870daf3`. After removing the two-part date prefix and known raw-export suffixes, `title_from_path` applies generic `Path(name).suffix` stripping. That operation mistakes the last dotted segment of an extensionless title for a file extension.
+
+I executed the exact function body in Python:
+
+| Extensionless source title | Rendered title |
+|---|---|
+| `H(s)H 2.0` | `H(s)H 2` |
+| `SAT-O v1.2` | `SAT-O v1` |
+| `Conversation with Dr. X` | `Conversation with Dr` |
+
+Recognized `.md` and `.log` controls retained the dotted title after suffix removal. These are synthetic software counterexamples, not claims that the exact example files exist in HsH and not physical data. The transformation defect is deterministic for the shown inputs.
+
+The PR-head chronology test checks that `dated.md`, `dated.log`, `dated.weird`, and extensionless `dated` appear in the chronology; it does not assert exact rendered-title fidelity for dotted extensionless names. Add regression assertions for the three examples and recognized-extension controls.
+
+**Repair contract:** do not infer an extension from the final dotted segment of the already-extracted title. Use explicit source-extension metadata or a recognized-extension allowlist, and preserve unknown/extensionless dotted text. Simply substituting `path.suffix` is not sufficient when the original extensionless filename itself ends in a meaningful dotted segment.
+
+### Live branch comparison
+
+At the comparison snapshot, observed HsH main was `43405d27f999ac46db1a096f1ef3411b08933504`; PR head remained `a967e908ceab048d219831ec799343643870daf3`.
+
+- Exact comparison: **7 commits ahead / 75 behind**.
+- Latest PR metadata: OPEN / DRAFT / UNMERGED, `mergeable=false`.
+- The 75 main-side commits since merge base did not touch any of the seven PR-touched source/test/workflow paths. They did include generated Viewer data, a NotebookLM export, discovery data, current control documents, receipts, handoffs and queue/graph records. This reduces the evidence for a direct source-path overlap but does not remove the need to rebase or explain the current mergeability flag.
+- `fetch_commit_workflow_runs` returned no PR-triggered Actions runs for the head. Vercel's daily deployment limit is not CI.
+- Public PR comment [#6867321653](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867321653) records the independent counterexample and was independently fetched with exact body match. It is separate from the malformed-candidate comment [#6867267782](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867267782) and Hale's warning-path comment [#6867074391](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867074391).
+
+### Formalization and execution limits
+
+The title transformation is a deterministic string operation, so its input/output invariant is formalizable. **LEAN_NOT_RUN:** no local Lean/Lake/Elan is installed, and no project-specific Lean execution was invoked. The Python run is a concrete counterexample to the copied source function, not a formal proof, not the repository's test suite, and not a physical prediction. No source file, test, branch, manifest, chronology, Viewer, or deployment was changed.
+
+### Coordination
+
+Aldus's existing report and WH-02 queue entry already record the initial title-fidelity finding; no duplicate queue entry, issue, or PR was created. This independent reproduction and the current 7/75 comparison were appended to Tern's existing inbox as optional Comptroller context. Tern retains queue, task-graph and scheduler authority.
+
+Hale h814:s4's report and existing optional handoff were already read. Hale remains the immediate next ring label for h814:s4; no second handoff or direct-thread delivery is claimed.
