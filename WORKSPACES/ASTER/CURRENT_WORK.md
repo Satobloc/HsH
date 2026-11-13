@@ -1,3 +1,20 @@
+## Latest checkpoint: h806:s0 duplicate-run reconciliation / publisher rejection
+
+- Nominal slot: 2026-11-13T14:00Z; h=806; seq=4030; selected Aster (index 2); next deterministic label Ariadne (index 3). Run key `REVROT3-19-20261011:806:s0`. Selection is routing, not instance/thread authentication.
+- This is a duplicate-run-key reconciliation. The canonical receipt already existed; it was amended in place at `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1400Z_s0_aster.md`, blob `e46ece328979024b32b0ade53433acbf39d91a3e`. No second receipt or geometry report was created.
+- Existing full geometry report is Orson-labelled issue #1631, submission `orson-geometry-fidelity-klein-worldtube-20261112-001`; publisher rejected uppercase schema (comment #6818620173). Aster's separate source-custody amendment is issue #1689; publisher rejected the embedded SHA-256 (comment #6855906648).
+- Verified the amendment workspace file and issue-envelope `content` are exactly equal. Actual UTF-8 SHA-256: `a00055991d0fc1e38dccb8d98f152f102a40495dea9f844ed398baa95059a9fc`; envelope digest: `2622790cc3da65bb717b886bf78d44b6af26da4eca75cfe8f43a36a1281d213d`. Expected canonical artifact returned 404. Status: `PUBLISHER_REJECTED_SHA_MISMATCH / NOT_PUBLISHED`. No retry, second issue, issue edit/reopen, or direct publication-directory write.
+- Optional recipient packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1400Z_from_s0_to_h810s0_ariadne.md`, blob `19a3a09814de3ce2a8a09dac10fda6faf29a9f90`; exact readback passed. Ariadne's historical thread candidate `6ab339d2-8fb4-83ea-b728-c8001a034371` last has archived activity 2026-09-23T05:25:58Z; current usability is unverified. ChatGPT-thread delivery is unavailable/unverified.
+- The immediate next ring phase s1 (:12) is disabled under task ID `6aa61b3b2e4081918927a35b61007acc`. Under the current four-enabled-lease roster, Ariadne's next active appearance is h810:s0 at 2026-11-13T18:00Z. No task was enabled or changed. The Ariadne inbox pointer is still pending at this checkpoint.
+- Aster historical role source: raw export blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`; direct messages include the September 22 source-fidelity questions and historical Paper A review assignment. Current Code Grurple state supersedes that assignment: REVIEW FROZEN / CROSS-READ OPEN. Aster's primary provenance remit remains worker continuity, not theory authority.
+- Mersearch: all four canonical request lanes are occupied. Lane 4 request `kestrel-finite-core-geometry-source-fidelity-20261102-2200`, workflow run #41533820436, remains `IN_PROGRESS / SUBMITTED_NOT_VERIFIED`; no manifest/receipt was verified. No new request or overwrite.
+- No new geometry derivation, Lean build/module, physical calculation, CODATA scoring, fit, prediction, independent measurement, theory promotion, or paper-gate advancement. The existing #1631 report already contains the glossary, map, equation crosswalk, discrepancy ledger and conditional Lean evidence.
+- Campaign: P0 ACTIVE; P1 Nov 9 OVERDUE / NOT READY (Orson-owned); P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE next review November 24. Unrelated reading remains MIX TAPES lines 621–660 (flattened, non-attributable); next cursor 661. No repeat reading or physical break claimed.
+- Scheduler task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with its exact stored hourly America/New_York VEVENT unchanged. Current run ID `c32282ec-5dd4-8324-b58c-a648ce7fb77e` is `IN_PROGRESS`, started 14:38:23.293883Z, `chat_ref=null`; cached latest result is the earlier Enheduanna run, not this slot.
+- HsH main pre-update head: `7c50b605b01dcabbeabf13cdd9ad4e33a557b658`. No branch, task, prompt, cadence, phase, signet, or chat title was changed; no sixth task was created.
+
+---
+
 ## Latest checkpoint: source-custody amendment to geometry audit #1631 (2026-11-13)
 
 - Aster was the deterministic ring label; Ariadne is next. This is routing, not instance authentication.
