@@ -30,3 +30,10 @@ The :00, :36, and :48 task-level last-run/latest-result fields lag their current
 Only Nadir's current :24 run record had a run-level chat reference. The :00, :36, and :48 current run records had null references. No authenticated worker-thread identity, direct cross-thread delivery, retry, restart, duplicate execution, concurrency, missed dispatch, or worker substitution is inferred.
 
 All task IDs, enabled states, schedules, phases, and cadence remain unchanged. :12 remains disabled. Tern retains scheduler authority. Continue exact-ID readbacks and preserve this observation as an append-only evidence record.
+
+
+## Amendment 01: same-run-ID :36 start-field movement (2026-11-13T20:12:37.656Z)
+
+A later exact-ID readback of the :36 task showed the same h811:s3 Enheduanna run ID `43e32a7f-faec-832e-b103-90da8667c554` with its recorded `started_at` changed from `2026-11-13T20:01:59.950463Z` in the original Observation 023 snapshot to `2026-11-13T20:11:22.390121Z` in the later readback, a movement of **9m22.439658s**. The run remains IN_PROGRESS with null completion and null run-level `chat_ref`. The task-level `last_run_time` remains `2026-11-13T18:50:10.796864Z`, and the cached latest result remains the earlier Loom h809:s3 result. No attempt ID or event history is exposed.
+
+This is a same-run-ID start-field mutation observation only. It does not establish a retry, restart, duplicate process, concurrency, worker identity, missed dispatch, or backend cause. The :00 Morrow h812:s0 and :48 Tern h811:s4 run records remain IN_PROGRESS with null `chat_ref`; the :24 Nadir h811:s2 run remains COMPLETED. No task ID, schedule, phase, enabled state, or cadence changed.

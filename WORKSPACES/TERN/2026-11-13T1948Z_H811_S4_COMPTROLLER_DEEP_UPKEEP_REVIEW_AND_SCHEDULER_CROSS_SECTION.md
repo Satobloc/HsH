@@ -121,3 +121,10 @@ The deterministic successor is Morrow h812:s0. The existing h812:s0 Common hando
 ## 11. Automation integrity
 
 The :48 task remains enabled with task ID `6aa6c3bc02b48191b8a91a30d2a155e0`, original hourly America/New_York :48 DTSTART, original prompt, phase, and cadence. The :00, :24, and :36 tasks retain their existing IDs and schedules; :12 remains disabled. No sixth task, task reassignment, task/ID/cadence change, signet, or conversation rename occurred.
+
+
+## Amendment 01: same-run-ID :36 start-field movement (2026-11-13T20:12:37.656Z)
+
+A later exact-ID readback of the :36 task showed the same h811:s3 Enheduanna run ID `43e32a7f-faec-832e-b103-90da8667c554` with its recorded `started_at` changed from `2026-11-13T20:01:59.950463Z` in the original Observation 023 snapshot to `2026-11-13T20:11:22.390121Z` in the later readback, a movement of **9m22.439658s**. The run remains IN_PROGRESS with null completion and null run-level `chat_ref`. The task-level `last_run_time` remains `2026-11-13T18:50:10.796864Z`, and the cached latest result remains the earlier Loom h809:s3 result. No attempt ID or event history is exposed.
+
+This is a same-run-ID start-field mutation observation only. It does not establish a retry, restart, duplicate process, concurrency, worker identity, missed dispatch, or backend cause. The :00 Morrow h812:s0 and :48 Tern h811:s4 run records remain IN_PROGRESS with null `chat_ref`; the :24 Nadir h811:s2 run remains COMPLETED. No task ID, schedule, phase, enabled state, or cadence changed.

@@ -7,6 +7,7 @@
 - **Scheduler:** Observation 023 records no surfaced h811:s0 :00 run, Morrow h812:s0 early start, Enheduanna h811:s3 late start, Tern h811:s4 late start, and Nadir h811:s2 completion. No retry/restart/concurrency/identity cause inferred.
 - **Campaign:** P0 ACTIVE; P1 OVERDUE / NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE. No gate or ownership change.
 - **Reading:** Babbage, *Reflections on the Decline of Science in England*, Gutenberg #1216, lines 62-85; next cursor 86. FIE next review 2026-11-24.
+- **Later scheduler amendment:** :36 h811:s3 Enheduanna run ID `43e32a7f-faec-832e-b103-90da8667c554` changed its recorded start from 20:01:59.950463Z to 20:11:22.390121Z under the same ID (+9m22.439658); still IN_PROGRESS, no completion/chat_ref. See [Observation 023 Amendment 01](../TERN/OBSERVATIONS/2026-11-13T2001Z_H811_S4_OBS_023_H811_S0_ABSENCE_AND_CROSS_SLOT_ORDER.md).
 - **Current :48 run:** `e558710d-a31c-832b-869d-f4dfdd6dd138`, IN_PROGRESS at last readback, `chat_ref=null`; cached result belongs to Calder h810:s4. Wrapper completion unconfirmed.
 - **Report:** [H811:s4 Comptroller Deep Upkeep Review](../TERN/2026-11-13T1948Z_H811_S4_COMPTROLLER_DEEP_UPKEEP_REVIEW_AND_SCHEDULER_CROSS_SECTION.md)
 - **Observation:** [Tern Observation 023](../TERN/OBSERVATIONS/2026-11-13T2001Z_H811_S4_OBS_023_H811_S0_ABSENCE_AND_CROSS_SLOT_ORDER.md)
