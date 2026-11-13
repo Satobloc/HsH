@@ -210,4 +210,69 @@ theorem noninjective_response_map_has_distinct_functionally_equivalent_systems
 #print axioms sameResponses_preserved_by_encoding
 #print axioms noninjective_response_map_has_distinct_functionally_equivalent_systems
 
+/-!
+## Evidence-only assessment factorization
+
+The historical user message treats behavior and language as the accessible
+evidential route for assessing other minds, while subjective state is not
+directly accessible. The following is a conditional representation: if an
+assessment is invariant under systems with the same observation, it factors
+through the range of the observation map. This does not assert that any
+particular observation map is complete, non-injective, or empirically
+instantiated by a specific system.
+-/
+
+/-- An assessment constant on observational fibers factors through the observed image. -/
+theorem evidence_invariant_assessment_factors_through_observation
+    {System Evidence Assessment : Type*}
+    (observe : System → Evidence)
+    (assess : System → Assessment)
+    (hinvariant : ∀ s₁ s₂, observe s₁ = observe s₂ → assess s₁ = assess s₂) :
+    ∃ factor : Set.range observe → Assessment,
+      ∀ s, assess s = factor ⟨observe s, ⟨s, rfl⟩⟩ := by
+  classical
+  refine ⟨fun e => assess e.property.choose, ?_⟩
+  intro s
+  have witness : ∃ s' : System, observe s' = observe s := ⟨s, rfl⟩
+  have hobs : observe (Classical.choose witness) = observe s :=
+    Classical.choose_spec witness
+  exact hinvariant s (Classical.choose witness) hobs.symm
+
+/-- An assessment factors through observation iff it is constant on every observation fiber. -/
+theorem evidence_invariant_assessment_iff_factors_through_observation
+    {System Evidence Assessment : Type*}
+    (observe : System → Evidence)
+    (assess : System → Assessment) :
+    (∃ factor : Set.range observe → Assessment,
+      ∀ s, assess s = factor ⟨observe s, ⟨s, rfl⟩⟩) ↔
+    (∀ s₁ s₂, observe s₁ = observe s₂ → assess s₁ = assess s₂) := by
+  constructor
+  · rintro ⟨factor, hfactor⟩ s₁ s₂ hobs
+    calc
+      assess s₁ = factor ⟨observe s₁, ⟨s₁, rfl⟩⟩ := hfactor s₁
+      _ = factor ⟨observe s₂, ⟨s₂, rfl⟩⟩ := by
+        congr 1
+        exact Subtype.ext hobs
+      _ = assess s₂ := (hfactor s₂).symm
+  · intro hinvariant
+    exact evidence_invariant_assessment_factors_through_observation
+      observe assess hinvariant
+
+/-- If observation is non-injective and assessment depends only on observation,
+    distinct systems share both their evidence and their assessment. -/
+theorem noninjective_observation_implies_assessment_collision
+    {System Evidence Assessment : Type*}
+    (observe : System → Evidence)
+    (assess : System → Assessment)
+    (hnoninj : ¬ Function.Injective observe)
+    (hinvariant : ∀ s₁ s₂, observe s₁ = observe s₂ → assess s₁ = assess s₂) :
+    ∃ s₁ s₂, s₁ ≠ s₂ ∧ observe s₁ = observe s₂ ∧ assess s₁ = assess s₂ := by
+  obtain ⟨s₁, s₂, hne, hobs⟩ :=
+    noninjective_projection_has_collision observe hnoninj
+  exact ⟨s₁, s₂, hne, hobs, hinvariant s₁ s₂ hobs⟩
+
+#print axioms evidence_invariant_assessment_factors_through_observation
+#print axioms evidence_invariant_assessment_iff_factors_through_observation
+#print axioms noninjective_observation_implies_assessment_collision
+
 end HsHVerification.ObservableProjection
