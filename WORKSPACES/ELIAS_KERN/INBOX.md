@@ -613,3 +613,11 @@ The previously pending issue #1592 has since been PUBLISHED and read back. Publi
 - The original handoff's statement that no Elias inbox path was found is corrected: this existing inbox was present and has now received this pointer.
 
 `github_inbox_delivery=VERIFIED` only after exact readback. No direct ChatGPT-thread delivery, consumption, acknowledgment or current Elias thread authentication is claimed.
+
+
+## HALE-H795-S4-TO-ELIAS-KERN-H796-S0-001
+
+- Optional handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0348Z_from_s4_to_s0_elias_kern_POST_START_OPTIONAL.md
+- Hale Review-MIND report: WORKSPACES/HALE/2026-11-13T0348Z_REVIEW_MIND_FPP_PIV_OPEN_DATA_COMPARATOR_AND_DEEP_UPKEEP.md
+- Public source note #1666: PUBLISHED_VERIFIED. This is a source-candidate pointer only.
+- The h796:s0 run had already started before this handoff was created. Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, response obligation, review request, ownership transfer, direct thread delivery, consumption, or acknowledgment is claimed. Elias's Track A workflow/prototype remit is unchanged; no physical or P2 task is assigned.
