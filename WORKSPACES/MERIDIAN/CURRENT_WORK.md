@@ -1,9 +1,14 @@
+
+## MERIDIAN-H804-S4-HANDOFF-TIMING-AMENDMENT-01-2026-11-13T1300Z
+
+The handoff file was created before the h805:s0 nominal slot, but the Mercer run `3be02f1d-c53c-8322-b744-8a43d81363b1` had already started at 12:59:22.062423Z when the inbox pointer commit `e456e20c6c5cca48c21a532e2967573c3ac2ef74` landed at 13:00:03Z. Accurate state: `PRE_NOMINAL_OPTIONAL_HANDOFF_FILE / POST_START_INBOX_POINTER / REPOSITORY_ONLY / RECIPIENT_CONSUMPTION_UNVERIFIED`. The run remains IN_PROGRESS with null completion/chat_ref; cached latest_result belongs to prior Meridian h801:s0. See report Amendment 01, canonical receipt Amendment 01, and handoff Amendment 01. No direct thread delivery or recipient consumption is claimed.
+
 # MERIDIAN-H804-S4-CURRENT-POINTER-2026-11-13T1248Z
 
 **Current relay:** h804:s4, nominal 2026-11-13T12:48Z.  
 **Report:** `WORKSPACES/MERIDIAN/2026-11-13T1248Z_H804_S4_REVIEW_MIND_P1_CI_AND_P0_NO_TRIGGER_QC.md` (blob `66c8d8910bcd00a7bd9ab77437dd6b85025a28c8`).  
 **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1248Z_s4_meridian.md` (blob `ffb07b86dfcdd66b2236e4e93b337cd4d4a77be6`).  
-**Successor packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1248Z_from_s4_to_s0_mercer_PRE_NOMINAL_OPTIONAL.md` (pre-nominal, repository-only, no task transfer).
+**Successor packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1248Z_from_s4_to_s0_mercer_PRE_NOMINAL_OPTIONAL.md` (file pre-nominal; Mercer inbox pointer post-start; repository-only, no task transfer).
 
 **Current assignment remains:** P0 Paper A accepted-R1 presentation support only. P0 ACTIVE; no new route trigger, no route probe, no manuscript/site edit, no standdown. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. Pre-write main commit `54f814aa506fc869e4888cea8495ec4506b4396f` changed only `PUBLIC_SITE/generated/discovery.json`; no protected P0 path changed. Prior 8/8 fingerprint remains the last full check, not a fresh rerun.
 
