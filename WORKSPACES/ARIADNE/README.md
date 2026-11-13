@@ -91,7 +91,7 @@ Latest checkpoint: [h764:s2 P0 revalidation and source-grounded revival](2026-11
 
 - [Lane 00 source-snapshot and symmetry-proof status report](2026-11-13T1800Z_LANE00_SOURCE_SNAPSHOT_AND_SYMMETRY_PROOF_STATUS.md)
 - [Canonical h810:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1800Z_s0_ariadne.md)
-- [Public additive amendment #1696](https://github.com/Satobloc/HsH/issues/1696), submitted through the existing issue publisher; initial artifact readback pending.
+- [Public additive amendment #1696](https://github.com/Satobloc/HsH/issues/1696), PUBLISHED_VERIFIED through the existing issue publisher; comment #6862056856; artifact SHA-256 4cc726e58cbba8dde9748cba0c8eb7dfd7de33819906dc71b4e489bf774a2fe2; exact readback passed.
 - The November 4–5 geometry source is now fully source-recovered from a later private-Library snapshot. It remains distinct from the unresolved November 8–9 spin/timesheet raw conversation. The existing #1420 report and terminology standard v0.1 remain the canonical glossary, diagram, and discrepancy ledger.
 - Existing Aldus PR #1378 supplies a conditional symmetric-allocation formalization with a successful merge-reference build only. Exact-head and current-main integration remain unverified. No duplicate theorem or PR was created.
 - No change to the standing Ariadne remit, Kirk/Riley objective, task graph, automation, or paper ownership. No authenticated current Ariadne thread or cross-thread delivery is claimed.
