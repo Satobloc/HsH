@@ -133,3 +133,8 @@ At 2026-11-14 15:56 America/New_York, every unresolved WH-01 through WH-08 item 
 - WH-05 remains the highest-priority item overall but is blocked at its controlled-test/release gate because all four request lanes remain occupied and Tern has not released one. No retry or overwrite is authorized.
 - WH-02 was selected as the highest-priority unblocked core archive/navigation repair. Draft PR #1710 is the sole active proposal; #1709 is closed as superseded. WH-02 remains OPEN until CI/review, merge, full navigation acceptance and independent readback are complete.
 - The next actual activation should continue WH-02 only if it remains the highest-priority unblocked item; otherwise re-evaluate the queue. No task graph or scheduler mutation was made.
+
+
+## H814:s3 final readback correction — 2026-11-13
+- PR #1710 remains the sole active WH-02 draft. Its mergeability flag fluctuated; latest exact readback is `mergeable=false`. Seven touched files remain unchanged on main since the PR base. No GitHub Actions CI run is observable; Vercel's rate-limit failure is not a test result. No rebase, force update or merge.
+- The :24 h814:s2 exact-ID readback gap was transient; a later peek restored the same IN_PROGRESS run and start. The :00 h814:s0 run is now IN_PROGRESS. Latest recorded start order s3 → s4 → s2 → s0; no cause inferred.
