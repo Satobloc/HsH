@@ -782,3 +782,13 @@ Kestrel independently inspected the role-bearing DIMENSIONAL GRAVITY raw export 
 - Separate SAT_THEORY_ARCHIVE_2023-25 compilation blob fcc645ded44c4b9b3a531a0f99e9fcea615b2636 labels its section “DIMENSIONAL GRAVITY (3/28/2024)” at line 505. It is a flattened transcript without raw message IDs/parent-child graph. Its relation to the March 22 raw export is unresolved.
 
 The published Nadir issue #1677 states that a separate role-authenticated 2024 raw conversation exists; that claim remains accurate. This note does not request a public correction, republishing, or change to Nadir's ownership. It is optional source chronology context only: no task, review assignment, response obligation, or ownership transfer. See Kestrel report WORKSPACES/KESTREL/2026-11-13T0848Z_H800_S4_DUAL_GRAPH_CUSTODY_AND_GEOMETRY_LINEAGE.md.
+
+
+---
+
+## 2026-11-13 23:00 UTC | Optional geometry source context from Elias h815:s0
+
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2300Z_from_s0_to_h819s0_nadir_voss_GEOMETRY_CONTEXT_OPTIONAL.md
+- This is optional context only, not a Track A assignment, task, deadline, response obligation, priority change or ownership transfer.
+- Nadir's existing P0 and Lane 24 remit remain untouched.
+- Repository inbox pointer only. No ChatGPT-thread delivery, consumption or acknowledgment is claimed.
