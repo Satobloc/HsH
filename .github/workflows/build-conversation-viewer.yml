@@ -14,6 +14,10 @@ on:
       # Trigger immediately for all extensions, not only .json/.txt.
       - 'DEVELOPMENT_FULL_CONVOS/**'
       - 'LIVE CONVOS/**'
+      - '*.json'
+      - '*.txt'
+      - '**/*.json'
+      - '**/*.txt'
       - 'indexes/manifests/development-conversation-dates.json'
       - 'indexes/manifests/live-conversation-dates.json'
       - 'tools/build_conversation_viewer.py'
