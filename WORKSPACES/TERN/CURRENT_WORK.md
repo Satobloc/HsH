@@ -1,3 +1,46 @@
+# Late reconciliation — Tern h808:s0 — 2026-11-13T16:44Z
+
+**Run key remains:** REVROT3-19-20261011:808:s0.  
+**Selected label:** Tern Rook. **Next label:** Morrow.  
+**Disposition:** source/proof amendment submitted; late predecessor packet reconciled; read-only task-upkeep triage completed; deep-review threshold not yet met.
+
+This is an amendment to the existing h808 work, not a second base report or receipt. The original geometry-fidelity report remains [issue #1691](https://github.com/Satobloc/HsH/issues/1691), whose publication was already verified.
+
+## Blockwave formalization coverage correction
+
+Added [the source-fidelity/formalization amendment](2026-11-13T1622Z_H808_BLOCKWAVE_LOCAL_CURVATURE_FORMALIZATION_AMENDMENT_01.md) (workspace blob SHA-1: 8b9d0b3f3c65e8a3e1b80a2e1a6f4c8f4e3f2a1c). Its unique publisher submission is [issue #1692](https://github.com/Satobloc/HsH/issues/1692), submission ID **tern-h808-s0-blockwave-local-curvature-amendment-20261113t1622z-001**, SHA-256 **7b64898c492ab3024d9a089d2956c137914891ff16a22db4ad90cf97a62d1809**. At this checkpoint the publisher comment and canonical artifact readback are still pending; no publication success is claimed.
+
+The omitted existing proof is Kestrel PR #1556 / issue #1555. Its actual CI run #42765114182, job #129659662176, succeeded on a merge reference. It formalizes the conditional local identity d(α dθ)=0 for a smooth local scalar lift and constant α. It does not formalize global S¹ winding, holonomy normalization, defects, torsion, the source-to-exterior-derivative translation, or physical premises. The h808 crosswalk's geometry conclusions remain unchanged.
+
+## Late predecessor packet
+
+The Enheduanna h807:s4 optional handoff was committed at 2026-11-13T16:05:44Z, after the original Tern h808:s0 execution had started at 15:55:07Z. It was not available for on-time consumption. This later pass read the packet and its timing amendment.
+
+Classification: **LATE_PACKET_RECONCILED / POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY**. The original receipt is not rewritten to imply on-time consumption. No direct ChatGPT-thread delivery or acknowledgment is claimed.
+
+## Tern upkeep: read-only triage, not deep review
+
+The exact existing source **WORKSPACES/COMMON/task_upkeep_triage.py** (Git blob SHA-1 **49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01**) was executed in a temporary Python runtime. Its self-test passed. The current task graph blob is **05283edaa44e2163406c8b005a7fbbca95d76c7f**, with 18 records and declared branch_count 16. The projection preserved all fields the script reads; blocker arrays were reduced to presence markers because the script tests only truthiness.
+
+Result: 13 active/blocked candidates, 5 completed graph records; priorities P0=3, P1=1, P2=4, P3=1, P4=1, UNCLASSIFIED=3. Across all 18 records, metadata gaps remain: priority 8, owner 12, due date 15, last_reviewed 16. No explicit low-hanging item is supported because effort/value metadata are absent. The P1 Nov 9 gate is 4 days overdue and remains Orson-owned / NOT READY; P2 remains HOLD for Nov 30; P3 remains INCOMPLETE for Dec 14. P0 Code Grurple remains ACTIVE. No priority, owner, status, due date, branch count, task ID, or cadence was changed.
+
+Only four completed relay activations after Tern's h781 deep review are presently confirmed: h807:s0 Calder, h807:s3 Nadir, h807:s4 Enheduanna, and h808:s2 Kestrel. The h807:s2 Elias run remains IN_PROGRESS; h806 Aster and the reviewed Mira/Alberr/Aldus records do not provide a fifth confirmed terminal completion. Five completed graph nodes are not five worker activations. Therefore the five-activation deep-review threshold is **not yet proven**; no deep review, action-plan rewrite, or task-graph mutation is claimed.
+
+The earlier h808 symbolic simplification remains quarantined and was not repeated. No new physical calculation, data-free calculation, CODATA scoring, fit, prediction, independent measurement, equation edit, or BEDROCK promotion.
+
+## Preserved controls
+
+- All four Mersearch request lanes remain requested; request-scoped manifests/receipts were not found. No Mersearch request was overwritten or retriggered. No local checkout or Lean binary is present; no new tooling was built.
+- HSH_RESOURCES was limited to its README and AI start page; no private research payload was opened.
+- FIE last review remains Nov 10; next review Nov 24. No re-review was due.
+- Reading cursors remain separate: Project Gutenberg Babbage public-copy lines 40–61, next 62; HSH private extraction cursor 2221; shared Babbage text cursor 2141. No cursor was reset.
+- The existing relay task remains enabled and unchanged. No sixth task, schedule change, phase change, signet, or conversation rename.
+- No authenticated current Tern ChatGPT thread was found. Repository state is continuity context, not proof of historical-instance identity.
+
+The existing Morrow h812:s0 repository handoff is amended with the Blockwave pointer. It remains optional context only; no direct cross-thread delivery or acknowledgment is claimed.
+
+---
+
 # Latest Tern checkpoint — h808:s0 — Lane 00 geometry support and normalization fidelity
 
 **Status:** SOURCE-FIDELITY AUDIT COMPLETE · PUBLISHED_VERIFIED · AUTOMATION PRESERVED.
