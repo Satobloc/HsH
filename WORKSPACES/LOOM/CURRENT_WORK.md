@@ -1,4 +1,31 @@
-# Loom — Current Work | latest activation h790:s3 (2026-11-12T22:36Z)
+# Loom | Current Work | latest activation h794:s2 (2026-11-13T02:24Z nominal)
+
+**Status:** COMPACT BOOT CAPSULE CREATED AND VERIFIED / ROLE SOURCE RECHECKED / EXISTING LEAN EVIDENCE REVALIDATED / MERSEARCH LANES STILL PENDING / NO THEORY OR PAPER PROMOTION.
+
+## 2026-11-13 h794:s2 | Source-grounded revival and launch architecture
+
+- **Selection:** h=794, s=2, seq=3972, ring index 1 = Loom; next index 2 = Aster. Run key `REVROT3-19-20261011:794:s2`.
+- **Task:** existing :24 ID `6abda4c8eda88191bf23a6f2849e9a17`, enabled, original hourly America/New_York :24 VEVENT unchanged. Current run `bbab2188-42b8-8331-8a8f-fbc3816d7221` was scheduled 02:24Z and last observed IN_PROGRESS, started 02:26:29.360036Z; completion/chat_ref null. Cached latest_result belongs to prior h793:s2 run `ebb2c4dd-b8f4-8326-867b-c8952ad3f299`, completed 02:08:05Z. Do not attribute it to h794.
+- **Predecessor:** :12 task is disabled; no h794:s1 Sable receipt/handoff. No missed worker response or predecessor consumption is inferred.
+- **Thread/identity:** bounded personal-context and repository source checks found no authenticated current Loom thread. Archived Tag Conversation Corpus is a historical source, not proof of current instance continuity. This is source-grounded reconstruction, not a claim that the historical instance returned or received a chat message.
+- **Historical role source:** raw conversation ID `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, blob `6668ca60e451f8737903423727da7f9a430484e1`. Its ten outer user-role messages are already recorded in [tag ledger section A](../COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md). No duplicate tag entries were made. The assistant proposed the name Loom; Nathan accepted it. No standalone signed Nathan-authored specialist charter was found.
+- **Continuity improvement:** created [BOOT.md](BOOT.md), 5,379 UTF-8 bytes, and independently read it back byte-for-byte. Updated [README.md](README.md) to make BOOT the first-read capsule. This reduces cold-start dependence on the 95,298-character, 543-line CURRENT_WORK history. The old h790:s3 snapshot is retained below as history, not overwritten.
+- **Mersearch routing:** all four canonical Common request files remain `status: requested`. Lane 1 is `WORKSPACES/COMMON/MERSEARCH_REQUEST.json`; lanes 2-4 have their corresponding files. The four workflows watch those paths. `WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_1.json` is an extra un-routed file with no lane/status field and is not watched by the lane-1 workflow. No local checkout or callable Mersearch action exists in this runtime; no request was overwritten or retriggered. Ordinary GitHub code search was not substituted for Mersearch.
+- **Lean evidence:** PR #873 head `7dbcb5f18690232d921db74f25dfdf222ee51b8c` passed exact-head GitHub Actions run #43202552666 using Lean 4.34.0 / Lake 5.0.0; full root build completed 8,957 jobs. This is conditional formal mathematics on the PR branch, not proof of source translation or physical truth. PR #1189 head `33a7cb3cd3adaadabb5a7abd94eaf59bb0ef991e` failed exact-head run #43339252436 at three parser errors: `omit` appeared after docstrings at lines 123, 133 and 144 of `NadirRotatingFluidPIVEnergyReadout.lean`. Nadir owns that branch; no patch or duplicate issue was made. This runtime has no local checkout, `lean`, `lake`, or `elan`.
+- **Research status:** no new source-defined projection/gluing map, physical dataset, calibrated observable, covariance or uncertainty package was recovered. No new Lean theorem, physical/CODATA calculation, parameter fit, or independent measurement was produced. Worldtube, timesheet and responsive medium remain distinct candidate structures; no nesting or equivalence is inferred without explicit maps and conditions.
+- **Campaign:** P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE. FIE last full review Nov 10; next due Nov 24. HSH_RESOURCES README says private/internal while GitHub metadata reports public visibility; owner decision unresolved, payload not inspected, no access change.
+- **Unrelated-reading cursor:** last completed at h790:s3 was `MIX TAPES.txt`, lines 541-580; next line 581. No duplicate reading in this run.
+
+## Return
+
+- [Boot capsule](BOOT.md) is the cold-start route.
+- Continue from the prior source/geometry report and its amendment only when new source evidence is available; do not repeat the h790:s3 crosswalk.
+- Next scheduled worker: Aster, h794:s3. The :36 task's prior run is completed; current h794:s3 has not yet started at this write. A pre-start optional-context handoff will be placed in Aster's existing inbox.
+- No task, ID, phase, schedule, prompt, ring, or paper gate was changed. No sixth task, new PR, new public issue, or BEDROCK promotion.
+
+---
+
+## Prior current-work snapshot: Loom — Current Work | latest activation h790:s3 (2026-11-12T22:36Z)
 
 ## 2026-11-12 h790:s3 — Amendment 01 / SAT source epoch and worldtube typing
 
