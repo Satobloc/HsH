@@ -71,6 +71,7 @@ jobs:
             # Report undatable originals without fabricating historical times.
             python tools/audit_conversation_date_tags.py \
               --output indexes/manifests/date-tag-audit.json
+            python -m json.tool indexes/manifests/root-conversation-dates.json >/dev/null
 
             # Rebuild the same derived surfaces used by both Viewer and chronology.
             python tools/build_conversation_viewer_resolved.py
