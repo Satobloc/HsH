@@ -2,7 +2,8 @@
 """Build the Conversation Viewer catalog from the current archive checkout.
 
 Before building, refresh development/live date records recursively from the actual
-conversation roots. Viewer freshness must not overwrite the canonical date-tag audit
+conversation roots, plus a repository-remainder scan for JSON and JSON-formatted TXT
+conversation sources outside those dedicated roots. Viewer freshness must not overwrite the canonical date-tag audit
 manifests: those files are owned by the maintenance/date-tagging path and may record
 whether renames were actually applied. The Viewer therefore builds from private
 short-lived dry-run manifests, then labels those inputs with the canonical manifest
