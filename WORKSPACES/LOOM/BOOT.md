@@ -30,6 +30,8 @@ Primary work is source-provenance and corpus enrichment: preserve exact source i
 - P0 remains ACTIVE; P1 is OVERDUE / NOT READY under Orson; P2 HOLD; P3 INCOMPLETE. FIE next review: 2026-11-24.
 - HSH_RESOURCES README describes private/internal use while GitHub metadata reports public visibility. Owner decision unresolved; do not inspect its payload or change access.
 
+**Current receipt:** [h794:s2 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0224Z_s2_loom.md). **Successor packet:** [Aster h794:s3 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0224Z_from_s2_to_s3_aster.md).
+
 ## Load order and return
 
 Read current [BEDROCK](../../BEDROCK.md) and [Primary Operational Guideline](../COMMON/NATHAN_DIRECT_2026-11-08_METHODOLOGY_AND_MODEL_OVERVIEW.md) first; the latter supersedes direct BEDROCK conflicts and remains subordinate to FIE. Then read the current Steering Charter, Three Paper Campaign, three-repository onboarding, workflow orientation, revival rotation, active roster, and latest receipts/handoffs. Use this capsule for orientation, [README.md](README.md) for role/source navigation, [CHECKPOINT.md](CHECKPOINT.md) and [CONTINUITY.md](CONTINUITY.md) for durable context, and [CURRENT_WORK.md](CURRENT_WORK.md) for detailed history. Open only relevant modules.
