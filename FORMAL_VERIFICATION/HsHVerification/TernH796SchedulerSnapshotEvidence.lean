@@ -16,9 +16,10 @@ The :00 run's earlier receipt recorded IN_PROGRESS; a later exact-ID peek
 showed the same run ID COMPLETED. Both are retained as as-of observations.
 
 This module formalizes only arithmetic and equalities over the transcribed
-scheduler records. It does not authenticate the service, prove process
-concurrency, retries, restarts, worker/thread identity, delivery, backend
-causation, or any physical H(s)H proposition.
+scheduler records. A later :36/:48 readback adds a conservative lower bound
+for their recorded interval intersection. It does not authenticate the
+service, prove process concurrency, retries, restarts, worker/thread identity,
+delivery, backend causation, or any physical H(s)H proposition.
 -/ 
 
 namespace HsHVerification.TernH796SchedulerSnapshotEvidence
@@ -95,6 +96,21 @@ def run36 : RunRecord :=
 
 def observedAtUs : Nat := 2_437_000_000
 
+def run48 : RunRecord :=
+  ⟨ ":48"
+  , "49b6813d-a838-8324-8ccc-bf51c2f1fb7c"
+  , 2_880_000_000
+  , 3_103_350_981
+  , none
+  , .inProgress
+  , some "48dccfa1-f0e8-832d-8299-a7af32b6081b"
+  ⟩
+
+-- Lower bound timestamp captured immediately before the exact-ID :36/:48
+-- peeks. The peeks occurred after this time and both records remained
+-- IN_PROGRESS. It is not represented as the exact API readback timestamp.
+def laterReadbackLowerBoundUs : Nat := 3_529_997_055
+
 def latestResultMatchesRun (r : RunRecord) : Bool :=
   r.latestResultRunId == some r.runId
 
@@ -138,6 +154,26 @@ theorem run24_to_run36_start_separation_us :
 theorem run36_age_at_observation_556193us :
     observedAtUs - run36.startedUs = 556_193 := by decide
 
+theorem run48_started_223350981us_after_slot :
+    run48.startedUs - run48.scheduledUs = 223_350_981 := by decide
+theorem run48_recorded_in_progress :
+    run48.status = .inProgress ∧ run48.completedUs = none := by decide
+theorem run48_latest_result_is_stale :
+    latestResultMatchesRun run48 = false := by decide
+
+-- Both records were IN_PROGRESS at the same later exact-ID readback.
+-- The timestamp is a conservative lower bound on that readback time.
+theorem run36_started_before_run48_started :
+    run36.startedUs < run48.startedUs := by decide
+theorem run36_run48_recorded_overlap_lower_bound :
+    run36.startedUs < run48.startedUs ∧
+    run48.startedUs < laterReadbackLowerBoundUs ∧
+    run36.status = .inProgress ∧
+    run48.status = .inProgress ∧
+    laterReadbackLowerBoundUs - run48.startedUs = 426_646_074 := by decide
+theorem run36_age_at_later_readback_lower_bound :
+    laterReadbackLowerBoundUs - run36.startedUs = 1_093_553_248 := by decide
+
 #print axioms nominal_hour_is_33_days_4_hours
 #print axioms sequence_is_3983
 #print axioms selected_index_is_12
@@ -158,5 +194,11 @@ theorem run36_age_at_observation_556193us :
 #print axioms run24_source_start_precedes_run36_start
 #print axioms run24_to_run36_start_separation_us
 #print axioms run36_age_at_observation_556193us
+#print axioms run48_started_223350981us_after_slot
+#print axioms run48_recorded_in_progress
+#print axioms run48_latest_result_is_stale
+#print axioms run36_started_before_run48_started
+#print axioms run36_run48_recorded_overlap_lower_bound
+#print axioms run36_age_at_later_readback_lower_bound
 
 end HsHVerification.TernH796SchedulerSnapshotEvidence
