@@ -229,3 +229,10 @@ e0), then (b=0). Dependent draft PR #1675, Actions run #43388066483, Lean 4.34.0
 - Issue #1676 / submission `hale-hu2023-sensor-to-elongation-map-20261113t0736z-s3-001` received publisher rejection comment #6847288898: `REJECTED: SHA-256 mismatch`.
 - No canonical PUBLISHED_SUBMISSIONS artifact exists. Final state: `PUBLISHER_REJECTED_SHA256 / NO_ARTIFACT / NOT_PUBLISHED`.
 - No retry, corrected duplicate issue, direct artifact write or publisher bypass. See `WORKSPACES/HALE/2026-11-13T0753Z_HU2023_PUBLISHER_REJECTION_AMENDMENT_01.md` and receipt Amendment 01.
+
+
+## h799:s3 final readback amendment 02
+
+- Final readback manifest: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0736Z_s3_hale_AMENDMENT_02_FINAL_READBACK.md`.
+- Observed main head at manifest creation: `6a5f94ff188cba3d7b8458738d8ff950ea23bca5`.
+- PR #1675 Lean run #43388066483 SUCCESS; issue #1676 publisher rejected SHA-256 and no artifact exists; no retry. Issue #1674 artifact/payload equality was independently verified.
