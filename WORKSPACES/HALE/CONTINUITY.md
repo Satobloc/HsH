@@ -263,3 +263,11 @@ e0), then (b=0). Dependent draft PR #1675, Actions run #43388066483, Lean 4.34.0
 - Tern received the h814:s3 same-ID start-field movement and h815:s0 run-start snapshot; no new scheduler observation was created by Hale.
 - Unrelated reading: *The Wind in the Willows*, Project Gutenberg #289, lines 180–219; next cursor 220. No physical break performed. FIE next review November 24.
 - No physical calculation, model trial, human-subject session, Lean run, equation change or theory promotion. No task/schedule/ID change.
+
+
+## H814:S4 Amendment 01 | 2026-11-13
+
+- [WH-02 fresh source QA and scheduler readback](2026-11-13T2248Z_H814_S4_AMENDMENT_01_WH02_FRESH_SOURCE_QA_AND_SCHEDULER_READBACK.md); [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2248Z_s4_hale_AMENDMENT_01_WH02_AND_SCHEDULER.md).
+- PR #1710 remains OPEN / DRAFT / UNMERGED at head `a967e908ceab048d219831ec799343643870daf3`; current main snapshot `885a0e3bbe673d8231028b97e0d1d25dd7b7feac`, 7 ahead / 97 behind, no PR-triggered Actions run. Three existing source findings rechecked; no code or public comment change.
+- Same-ID :48 run start field moved +27m55.576404s; next_run_time remains the current slot and cached result remains prior Ariadne h813:s4. Tern received optional readback; no observation file or task mutation by Hale.
+- Existing Elias h815:s0 post-start optional handoff reused; no duplicate. Reading cursor *The Wind in the Willows*, lines 220-259; next 260.
