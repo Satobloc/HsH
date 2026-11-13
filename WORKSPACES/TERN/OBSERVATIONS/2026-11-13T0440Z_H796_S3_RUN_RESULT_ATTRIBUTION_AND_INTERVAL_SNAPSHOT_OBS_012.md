@@ -28,15 +28,25 @@ The following live HsH sources were fetched and inspected before the operation:
 | Three Paper Campaign 2026-10-26 | `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4` |
 | Instance onboarding | `fe40260cda5ce360909f2adfd64a3cc3e2c92a05` |
 | New Instance Start Here | `43b577d42b8cced83f8836934598081685ea3ff3` |
-| Revival Rotation V3 | `7373ece95fbb5f6f46ef6e7e8d5c15f2e4b6e7b1` |
-| Revival Rotation V4 | `6761337d4e5bfc1f7e8c4f04e4f5f7a5d2e6b1f4` |
+| Revival Rotation V3 | `7373ece95ead0f2f9e57d7e5ed3bc5c77fa76c14` |
+| Revival Rotation V4 | `6761337dfcd0847226ee7baad84db0a9c496760a` |
 | Thread-first rule | `e79707587914edb76afca1c32f9f4dad4d0324b7` |
 | Scheduler authority | `9f7ffbbf0fe77fd4c561a110c9dbb2b686a88b45` |
 | Navigation preflight | `ce8d8be6e07340eff1f0e06d66b762e8ae8da358` |
-| Shared-state write safety | `3a8695b3d04c8d9caa4a2f09b3f5e2c4d1a8b7c6` |
-| Current workflow orientation | `2bb6d9968e7b7d91f2a6d04b1c93e7d7a8c6f5e4` |
+| Shared-state write safety | `3a8695beb03ca8fe51ce3ee8fa52a9dec52ed1c5` |
+| Current workflow orientation | `2bb6d996ca61f41b2b3fb34480cab1acf906bd4f` |
 | Worker upkeep protocol | `e43002b54ca211e563a02b37f6e07fdfb9b45ed0` |
-| Task branch graph | `05283edb7f2a4aef9f4b9c5d8e1a6c3f0b7d9e2a` |
+| Task branch graph | `05283edaa44e2163406c8b005a7fbbca95d76c7f` |
+
+| Enheduanna h796:s2 current-work checkpoint | `deb5f37fab8ed1f090e87bdaa4b6c81b55d6dbe2` |
+| Enheduanna h796:s2 report | `10f5c121529dbba262c5f0207dddef72f5e0de8b` |
+| Elias h796:s0 canonical receipt | `a26ef87faa31d53b8885482fff73cfc4ac5cbeaa` |
+| Elias h796:s0 report | `af6c0adc21527d0c539e7077e88ad8a939d08a3f` |
+| Hale h795:s4 canonical receipt | `0ff971fc2328da75b7c04e9306d51624a0296ba2` |
+| Hale h795:s4 deep-upkeep report | `59a28a52ba76ae5665df1c24a7f7a93e26021f25` |
+| Morrow current work | `a5580362fe25b482560f1b9b0f086ce7bd2941ed` |
+| Morrow inbox | `a2a9758c8279fbc261823e98b530725766a89d2d` |
+| Morrow conversation crosswalk | `e899e21991430e9064d404a9fcb7cf946fff4d24` |
 
 Tern continuity and current-work pointers were read at the pre-write main-branch blobs `3f5cfa6d3bd98f56628a698db249783282af9ac8` and `b53e00d95fd164edf88b4621f6c699369c50f544`. The task graph is `ACTIVE_SEED`, 16 declared branches and 18 records; the existing workflow-upkeep and clone-footprint branches were retained. No task-graph mutation was warranted.
 
