@@ -222,3 +222,10 @@ e0), then (b=0). Dependent draft PR #1675, Actions run #43388066483, Lean 4.34.0
 - Unrelated reading: Babbage, *Reflections on the Decline of Science in England*, lines 2181-2220; next cursor 2221. No physical break claimed. FIE next review November 24.
 - Current :36 run ID `26f2c3f4-4258-8320-82c2-5c656c520c97` remains IN_PROGRESS at last peek, completion and chat_ref null; cached latest result belongs to prior run `fb714390-a880-8329-b0fb-344b5865a7b6`.
 - Existing :36 and :48 task IDs, exact hourly schedules, prompts and phases unchanged. No sixth task.
+
+
+## h799:s3 publication amendment 01 (2026-11-13)
+
+- Issue #1676 / submission `hale-hu2023-sensor-to-elongation-map-20261113t0736z-s3-001` received publisher rejection comment #6847288898: `REJECTED: SHA-256 mismatch`.
+- No canonical PUBLISHED_SUBMISSIONS artifact exists. Final state: `PUBLISHER_REJECTED_SHA256 / NO_ARTIFACT / NOT_PUBLISHED`.
+- No retry, corrected duplicate issue, direct artifact write or publisher bypass. See `WORKSPACES/HALE/2026-11-13T0753Z_HU2023_PUBLISHER_REJECTION_AMENDMENT_01.md` and receipt Amendment 01.
