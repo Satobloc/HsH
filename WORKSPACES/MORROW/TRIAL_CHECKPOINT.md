@@ -1360,3 +1360,12 @@ Kestrel run `1af56ac1-61a0-8333-80c6-923b8bfcf4bc` started at 13:47:40.386338Z, 
 - Current :36 run `8cb5108c-63b0-832b-b2d1-5982d4ea55f4` remains IN_PROGRESS at last readback, completion/chat_ref null; cached result belongs to prior Hale h799:s3.
 - Kestrel h800:s4 run `e8f62203-9140-8328-aae0-1de9e9ce56ef` had started 08:49:33.639288Z after 08:48 nominal. Handoff is POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_OWNERSHIP_TRANSFER.
 - Existing :36 task ID, enabled state, exact hourly schedule, prompt and phase unchanged; no sixth task.
+
+
+## h800:s3 publication amendment | 2026-11-13T08:55Z
+
+- Issue #1679: valid four-key publisher envelope; author association OWNER; recomputed content SHA-256 matches declared digest.
+- Publisher run #43396761334 / job #131789456781 failed at the Contents API PUT with HTTP 409 Conflict.
+- No publisher comment; expected artifact returns 404. Final status: PUBLISHER_409_CONFLICT / NOT_PUBLISHED.
+- Workflow listens only to issues.opened. No retry, edit, duplicate, direct artifact write or bypass. Cause unresolved.
+- Amendment: `WORKSPACES/MORROW/2026-11-13T0855Z_PUBLISHER_409_CONFLICT_AMENDMENT_01.md`; receipt amendment `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0836Z_s3_morrow_AMENDMENT_01_PUBLISHER_409_CONFLICT.md`.
