@@ -1107,3 +1107,11 @@ Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact cano
 - Unrelated reading: SAT archive `FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/MIX TAPES.txt`, lines 501-540 read; next cursor 541. No physical break claimed.
 - Optional successor: Loom h805:s4. Repository handoff only; no direct ChatGPT-thread delivery, consumption, acknowledgment, or ownership transfer.
 - No task ID, schedule, phase, prompt, cadence, enabled state, task count, or graph change. No sixth task.
+
+
+### h805:s3 scheduler amendment 01 | 2026-11-13T1346Z
+
+- New readback amendment: `2026-11-13T1346Z_H805_S3_AUTOMATION_ACCESS_READBACK_AMENDMENT_01.md`.
+- :24 h805:s2 was last confirmed COMPLETED with matching result at 13:39:33.841392Z, but later exact-ID peeks returned no run details and then NOT_FOUND / NOT_ACCESSIBLE. Current :24 state is unavailable; do not infer deletion or disablement. `Automations.get` returned ACTION_NOT_FOUND for both :24 and :36, so that tool-path failure is not task-state evidence.
+- :36 h805:s3 remains found and enabled by exact-ID peek, IN_PROGRESS with null completion/chat_ref; cached latest_result remains prior Kestrel h804:s3. Generic task-error notice remains uncorrelated.
+- No task/ID/schedule/phase/prompt/cadence/enabled-state/task-count mutation. Tern retains scheduler authority.
