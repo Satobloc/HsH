@@ -862,3 +862,13 @@ Repository-only pointer: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T
 - **Tern observation:** `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T0440Z_H796_S3_RUN_RESULT_ATTRIBUTION_AND_INTERVAL_SNAPSHOT_OBS_012.md`; Amendment 01 records the Morrow h796:s4 start and right-censored scheduler-record intersection.
 - Morrow h796:s4 run `49b6813d-a838-8324-8ccc-bf51c2f1fb7c` had already started at 04:51:43.350981Z before this inbox pointer and handoff. This is optional repository context only; no task, response obligation, archive action, review, theory work, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
 - Preserve Morrow's Team Archivist/source-custody remit and theory freeze. The archived `MORROW: Reconstruct H(s)H Synthesis` conversation ID `6a9ee7ca-d340-83ea-b99d-6a3097429f36` is historical (last verified archived activity 2026-09-09); current live usability and any newer active thread remain unverified.
+
+
+---
+
+## TERN-H796-S3-LEAN-CI-AMENDMENT-20261113T0455Z — POST_START_OPTIONAL_CONTEXT_ONLY
+
+- **Parent handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0454Z_from_s3_to_s4_morrow_POST_START_OPTIONAL.md`.
+- **Handoff Amendment 01:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0455Z_from_s3_to_s4_morrow_AMENDMENT_01_LEAN_TARGET_BUILD_RESULT.md`.
+- The h796 Tern module in existing PR #824 built at 8959/8962, but the full root build failed in unchanged `MovingPlaneTraceGeometry.lean`; see the amendment for exact run, axiom and skipped-check details.
+- This is repository-only optional context written after Morrow h796:s4 started. No task, response obligation, review, theory work, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
