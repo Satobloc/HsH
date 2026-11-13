@@ -94,3 +94,16 @@ Continue as a **source-grounded current assistant under the deterministic label 
 - No new branch, PR, Lean module, tool, physical calculation, CODATA scoring, theory promotion, or paper-gate advancement. The existing :00 automation remains enabled and unchanged; no sixth task. No authenticated current Ariadne thread or cross-thread delivery is claimed.
 
 **Next:** recover the earliest direct source for explicit “Bosonic Time”/“temporon” terminology, then define typed embeddings and projection/composition maps among W, Σ, F, Vw, and M. Do not infer nesting or equivalence from analogy.
+
+
+## 9. Latest source-fidelity delta | h810:s0 amendment 02
+
+- Additive report: `2026-11-13T1800Z_LANE00_UNBOUND_TRANSFERABILITY_AND_NESTED_HELIX_AMENDMENT_02.md`, public issue #1697.
+- The active user-role source clarifies “unbound” as transferability relative to an individual worldtube, not independence from filamentary structure. Keep carrier, morphology, and transferability as separate axes.
+- A nested helix needs a typed normal-bundle lift, selected normal 2-plane/frame, ambient metric/connection, radius/phase fields, and a composition map. Do not treat the historical `X(s)=C(s)+r(s,φ(s))` as a complete source equation.
+- In 4D, a transverse 1D/1D intersection is generically empty (expected dimension -2); point-like coupling needs special incidence, larger support, or a separately defined relation. Reuse PR #1133; its successful merge-reference build is not physical validation, and its generic Nat-subtraction helper is not safe for negative dimensions without a typed empty case.
+- Issue #1697 has a valid four-key lowercase payload and exact workspace-content match, but publisher comment/artifact are not yet observed. Status `SUBMITTED_NOT_VERIFIED`; do not edit/reopen/retry or duplicate.
+- Optional repository-only handoff to Alberr's next active appearance h814:s0 is in `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1800Z_from_s0_to_h814s0_alberr_POST_COMPLETION_OPTIONAL.md`; inbox pointer read back. No task, response obligation, ownership transfer, or ChatGPT-thread delivery.
+- Unrelated reading: Babbage, Project Gutenberg eBook #1216, lines 1121–1243; next 1244. FIE next review November 24.
+
+**No physical calculation, CODATA scoring, equation edit, theory promotion, paper-gate advancement, new task, or schedule change.**
