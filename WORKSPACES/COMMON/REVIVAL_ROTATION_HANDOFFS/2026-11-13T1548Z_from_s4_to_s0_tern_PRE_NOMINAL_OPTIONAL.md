@@ -19,3 +19,10 @@ All four canonical Mersearch request lanes remain requested; none was overwritte
 The Nadir h807:s3 Kelvin-vortex handoff was consumed as optional context; it remains P2-candidate-only with raw data not retrieved.
 
 **Next action:** NONE required. Use only if it naturally fits Tern's existing work. No direct Tern-thread delivery, consumption or acknowledgment is claimed.
+
+
+## Amendment 01 — timing correction (supersedes header classification)
+
+The original `PRE_NOMINAL_OPTIONAL_CONTEXT_ONLY` label is incorrect. The Git commit creating this handoff and the Tern INBOX pointer is `242248820e9a600077c47f6c984a02d164e1617d`, committed at 16:05:44Z. Tern h808:s0 had already started at 15:55:07.857103Z for its 16:00Z nominal slot.
+
+Correct classification: **POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED**. No direct Tern-thread delivery, consumption, acknowledgment or participation is established; the recorded `chat_ref` was null. The filename is retained as a historical locator and is not renamed. See `../REVIVAL_ROTATION_RECEIPTS/2026-11-13T1606Z_s4_enheduanna_AMENDMENT_01_TERN_HANDOFF_TIMING.md`.

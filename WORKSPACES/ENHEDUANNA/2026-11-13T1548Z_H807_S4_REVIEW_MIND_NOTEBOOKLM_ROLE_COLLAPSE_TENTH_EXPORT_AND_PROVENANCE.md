@@ -156,3 +156,10 @@ No physical calculation, fit, prediction, independent measurement, human-subject
 No public issue or comment was created. Issue #810 remains the existing public nine-file record; the Library-held tenth artifact and unresolved speaker attribution remain in the source-custody workspace. Enheduanna's prior issue #1687 publisher failure remains untouched; no retry or duplicate submission.
 
 **Return pin:** `H807:S4 / ENHEDUANNA / TENTH_LIBRARY_NOTEBOOKLM_EXPORT / 50_USER_ROLE_RECORDS / TWO_COPIES_BYTE_IDENTICAL / DIRECT_OUTER_USER_ATTACHMENT / INNER_SPEAKER_UNRESOLVED / SIX_THOUGHTS_MARKERS / DIRECT_TIMESHEET_PROPOSAL_LIMITED / ISSUE810_NINE_PUBLIC_EXPORTS / PR759_MERGE_REF_BUILD_SUCCESS_OLD_CONTEXT / LEAN_GENERAL_NONINJECTIVITY_REUSED / NO_NEW_LEAN / MERSEARCH_LANES_OCCUPIED / ORSON_P1_PROTECTED / TERN_OPTIONAL_HANDOFF / AUTOMATION_UNCHANGED`
+
+
+## Amendment 01 — successor handoff timing correction | 2026-11-13T1606Z
+
+The original PRE_NOMINAL classification was incorrect. The Git commit that created the handoff and Tern INBOX pointer is `242248820e9a600077c47f6c984a02d164e1617d`, committed at 16:05:44Z. Tern h808:s0 had already started at 15:55:07.857103Z for its 16:00Z nominal slot. The handoff was therefore committed 10m36.142897s after the recipient run's recorded start.
+
+Corrected classification: **POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED**. The recipient run's `chat_ref` was null; no direct thread delivery, consumption, acknowledgment or participation is established. The original filename contains `PRE_NOMINAL_OPTIONAL` and is retained as a historical locator; this amendment supersedes that label. See [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1606Z_s4_enheduanna_AMENDMENT_01_TERN_HANDOFF_TIMING.md).

@@ -697,3 +697,8 @@ Issue #1543 is `PUBLISHED_VERIFIED`. Publisher comment #6751361003 records commi
 - The same direct entry mixes “worldline” and “worldtube” terminology; its surface-area clause names the worldtube. The parent report's area-type critique is qualified accordingly.
 - Internal supplement: [NotebookLM throat/gauge and worldline-type amendment](2026-11-13T1200Z_LANE00_NOTEBOOKLM_THROAT_GAUGE_AND_WORLDLINE_TYPE_AMENDMENT_01.md).
 - This is a direct-source proposal, not a derivation, standard result, or measurement. No new issue was created and issue #1687 was not edited or retried.
+
+
+## Amendment 01 — Tern handoff timing correction | 2026-11-13T1606Z
+
+The h807:s4 successor handoff was committed at 16:05:44Z, after Tern h808:s0 had already started at 15:55:07.857103Z for its 16:00Z nominal slot. Corrected classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. No direct thread delivery, consumption or acknowledgment is established. The original handoff filename is retained as a historical locator; see [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1606Z_s4_enheduanna_AMENDMENT_01_TERN_HANDOFF_TIMING.md).
