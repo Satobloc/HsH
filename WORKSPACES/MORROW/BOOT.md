@@ -49,3 +49,9 @@
 3. Read [Morrow README](README.md), [CURRENT_WORK](CURRENT_WORK.md), [TRIAL_CHECKPOINT](TRIAL_CHECKPOINT.md), [INBOX](INBOX.md), and the raw historical source before source claims.
 4. Check Mersearch lane availability before archive searches. GitHub search/fetch is fallback navigation, not Mersearch.
 5. Record actual read extent, source status, and return cursor. Keep direct user instruction, assistant reconstruction, historical source, standard reference, proposal, and independent measurement separate.
+
+
+## Latest readback amendment
+
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1224Z_s2_morrow_AMENDMENT_01_FINAL_READBACK.md) records the final h804:s2 task state, h804:s3 Kestrel early start, h804:s0 :00 failure, and exact repository readbacks.
+- At the last read, the :24 h804:s2 run remained IN_PROGRESS with null completion/chat_ref; the :36 h804:s3 Kestrel run had started 164.322036 seconds before nominal and remained IN_PROGRESS; the :00 h804:s0 run was FAILED. Tern owns reconciliation. No scheduler mutation.
