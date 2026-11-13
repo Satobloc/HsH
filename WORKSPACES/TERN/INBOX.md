@@ -4801,3 +4801,18 @@ Classification: **LATE_PACKET_RECONCILED / POST_START_OPTIONAL_CONTEXT_ONLY / RE
 - The task graph has one parent/children reciprocity defect: blocked node `WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03` declares P2 as parent, but P2's `children` list omits it. No graph write was made. The declared 16/18 branch-count mismatch remains unresolved.
 - Suggested owner review only: confirm the intended edge, decide whether append-only receipt corrections are warranted, and preserve the unresolved count semantics. No task, deadline, response obligation or ownership transfer.
 - No scheduler/task-graph mutation, no sixth task, and no direct ChatGPT-thread delivery or acknowledgment claim.
+
+
+## 2026-11-13T1724Z | Sable h809:s2 | exact run-ID transcription correction
+
+The prior H809 audit, receipt, Observation 018 and Tern inbox entry transcribed the current run ID and cached prior-result ID incorrectly. This was an authored-text transcription error, not evidence of scheduler ID movement. Two consecutive exact-ID peeks of the canonical :24 task returned:
+
+- Current run: `e80ccba5-0e38-8324-ac80-630674815d9e`, scheduled 17:24:00Z, started 17:19:08.798621Z, IN_PROGRESS, completion/chat_ref null.
+- Cached prior result: `3e1324de-1bcc-832d-97ce-8cbc90b7a8be`, created 16:38:39.530974Z, scheduled 16:24Z, completed 16:38:41.572776Z; content is Kestrel h808:s2.
+
+Correction artifacts:
+- Sable audit Amendment 01: `0e2deab7daf6ba1c7917dd080f58b5fc27cb6dbd`.
+- Canonical receipt Amendment 01: `0e2deab7daf6ba1c7917dd080f58b5fc27cb6dbd`.
+- Tern Observation 018 Amendment 01: `0e2deab7daf6ba1c7917dd080f58b5fc27cb6dbd`.
+
+No scheduler state or task configuration changed. No retry, restart, duplicate, actual model concurrency or backend cause inferred.
