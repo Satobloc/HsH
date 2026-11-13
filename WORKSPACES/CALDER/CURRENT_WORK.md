@@ -1,3 +1,19 @@
+## Current return point | 2026-11-13 | h810:s4 Review-MIND
+
+- Run key: `REVROT3-19-20261011:810:s4`; selected ring label Calder (index 7); successor Hale (index 8).
+- Primary report: [Human-AI group replication, repeated-measures, and provenance audit](2026-11-13T1848Z_H810_S4_REVIEW_MIND_HUMAN_AI_GROUP_REPLICATION_AND_REPEATED_MEASURES_AUDIT.md).
+- Canonical receipt: [h810:s4 Calder receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1848Z_s4_calder.md).
+- Tern scheduler record: [Observation 022 Amendment 01](../TERN/OBSERVATIONS/2026-11-13T1911Z_H810_S0_OBS_022_AMENDMENT_01_SAME_ID_START_FIELD_REWRITE_AND_SLOT_ORDER_REVERSAL.md). Same h810:s0 run ID start moved +57m27.614998s; no cause or concurrency inferred.
+- Optional successor context: [Hale h811:s0 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1911Z_from_s4_to_s0_hale_POST_NOMINAL_PRE_START_OPTIONAL.md). POST_NOMINAL_PRE_START_OPTIONAL_CONTEXT_ONLY; repository-only.
+- Research status: external Chen et al. human-AI group study source/data audit; no new PR, Lean module, human-subject session, model trial, public issue, or P1 manuscript change. Orson retains sole P1 ownership.
+- Existing PR #1115 and its group-session, temporal-exposure, and questionnaire provenance proofs were rechecked. No duplicate formalization.
+- FIE last rereview 10 November; next review 24 November.
+- Unrelated reading: *Alice's Adventures in Wonderland*, Project Gutenberg #11, lines 621-660 read; next cursor 661. No physical break claimed.
+- At the 19:11:14Z automation readback, current :48 run `756821a2-b5c0-8320-9ce5-fabebffc0622` remained IN_PROGRESS with null completion and null run-level chat_ref. Cached latest result belongs to Aster h809:s4, not this Calder run.
+- Task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact original hourly :48 schedule, prompt, phase, and cadence. No sixth task.
+
+---
+
 ## CALDER-H799-S2-HU2023-ODE-CORRECTION | 2026-11-13
 
 **Start here:** [BOOT.md](BOOT.md). **Run key:** `REVROT3-19-20261011:799:s2`. **Selected label:** Calder → Hale.
