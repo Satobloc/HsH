@@ -902,3 +902,13 @@ A later exact-ID peek of the h784:s2 :24 predecessor task (6abda4c8eda88191b0a2b
 - No physical calculation, CODATA, equation edit, theory promotion, task change or scheduler mutation.
 
 Next source cursor: recover the Saucepan conversation identity/timestamps; define the timesheet foliation and angle convention; separate worldline, worldtube, helix, braid and pair-of-pants maps; keep the alternative time-geometry descriptions as test hypotheses.
+
+
+## 2026-11-13 h815:s0 | Receipt Amendment 01 readback
+
+- Exact worker report readback: blob 4a107e315b47d7e747a02a71b5c704e079d380b9; 17,787 bytes; exact match to issue #1713 envelope content; SHA-256 e20a5615e53a454f04f01623f502721e0663c82c1c131d916518b07951f1391b.
+- Receipt blob: 6bbff96ec3e48b5c06c4f2554f976d326cf7c565.
+- Optional Nadir handoff blob: d4631deb32e4c81905f0bc20c6d702ac16375276.
+- Nadir inbox pointer exact readback: blob cfac148a5401f5c6d26305fba24ccd1fb0b14b7d.
+- Issue #1713 remains SUBMITTED_NOT_VERIFIED: no publisher comment and canonical artifact 404. Do not retry or duplicate; carry the existing submission ID.
+- Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2300Z_s0_elias_kern_AMENDMENT_01_READBACK_AND_PUBLISHER_PENDING.md.
