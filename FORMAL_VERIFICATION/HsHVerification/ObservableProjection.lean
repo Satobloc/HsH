@@ -363,7 +363,8 @@ theorem consensusOnly_noninjective_of_collision
     {g₁ g₂ : GroupState Consensus Accuracy Participation Provenance Latent}
     (hConsensus : consensusOnly g₁ = consensusOnly g₂)
     (hDistinct : g₁ ≠ g₂) :
-    ¬ Function.Injective consensusOnly := by
+    ¬ Function.Injective
+      (@consensusOnly Consensus Accuracy Participation Provenance Latent) := by
   intro hinjective
   exact hDistinct (hinjective hConsensus)
 
@@ -375,11 +376,13 @@ theorem no_encoding_recovers_group_state_from_consensus
     {g₁ g₂ : GroupState Consensus Accuracy Participation Provenance Latent}
     (hConsensus : consensusOnly g₁ = consensusOnly g₂)
     (hDistinct : g₁ ≠ g₂) :
-    ¬ Function.Injective (encode ∘ consensusOnly) := by
+    ¬ Function.Injective
+      (encode ∘ (@consensusOnly Consensus Accuracy Participation Provenance Latent)) := by
   intro hinjective
-  apply hDistinct
-  apply hinjective
-  exact consensus_collision_survives_encoding encode hConsensus
+  have hEncoded :
+      encode (consensusOnly g₁) = encode (consensusOnly g₂) :=
+    congrArg encode hConsensus
+  exact hDistinct (hinjective hEncoded)
 
 #print axioms fullGroupReadout_left_inverse
 #print axioms fullGroupReadout_injective
