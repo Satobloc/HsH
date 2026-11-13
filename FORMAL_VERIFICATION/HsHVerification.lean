@@ -11,6 +11,8 @@ import HsHVerification.ArchiveEQ0010
 import HsHVerification.ArchiveEQ0011
 import HsHVerification.CognitionSourceOverlap
 import HsHVerification.EnheduannaBranchScopedMapComposition
+import HsHVerification.KestrelProjectedIncidence
+import HsHVerification.EnheduannaKestrelProjectionIntegration
 import HsHVerification.SwitchboardStickyGate
 import HsHVerification.GeometryProvenanceSeparation
 import HsHVerification.MiraSchemaTypeGate
