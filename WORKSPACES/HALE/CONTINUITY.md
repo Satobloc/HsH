@@ -236,3 +236,18 @@ e0), then (b=0). Dependent draft PR #1675, Actions run #43388066483, Lean 4.34.0
 - Final readback manifest: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0736Z_s3_hale_AMENDMENT_02_FINAL_READBACK.md`.
 - Observed main head at manifest creation: `6a5f94ff188cba3d7b8458738d8ff950ea23bca5`.
 - PR #1675 Lean run #43388066483 SUCCESS; issue #1676 publisher rejected SHA-256 and no artifact exists; no retry. Issue #1674 artifact/payload equality was independently verified.
+
+
+## 7. 2026-11-13 h803:s2 | user-supplied Lane 24 overlay
+
+**Status:** source-verified finite-wall PIV contact candidate; P2 remains HOLD. This dated task overlay does not replace Hale's historical external-literature/scanner specialty or authenticate a Hale thread.
+
+- Full report: `WORKSPACES/HALE/2026-11-13T1124Z_FINITE_WALL_PIV_MEASUREMENT_MAP_AND_EVIDENCE_GATE.md`.
+- Public source note: [issue #1684](https://github.com/Satobloc/HsH/issues/1684), PUBLISHED_VERIFIED; canonical artifact SHA-256 `1e1937f55f0faf4cbb0bc7d359b5cfaa18be584473e868dfcb1eefdcf17c1474`.
+- New candidate: McAtee & Raghav (2026), *JFM* 1028 A40, DOI 10.1017/jfm.2026.11137. It is an open-access finite-wall vortex-ring experiment with 2D2C symmetry-plane PIV, separate approximately time-matched LIF, five runs per condition, reported 5.6% maximum initial-condition variability, and about 2% peak-velocity PIV uncertainty for the smallest-Re case. Raw PIV/vector fields and full covariance were not retrieved; data are available on reasonable request.
+- Measurement map is 2D2C, not a 3D worldtube. The non-injective observation-map point is a proof obligation only; no Lean theorem/build or physical calculation was performed. Local Lean/Lake/Elan are absent; no existing PR was modified.
+- Mersearch was unavailable as a callable action; all four canonical request lanes remain occupied/requested. No request was overwritten. HSH_RESOURCES root README/metadata only; its private payload was not accessed.
+- Existing CODATA source/evaluation work remains in issues #1558, #1438 and #1405; no CODATA numerical comparison was performed. No SAT-O/Blockwave original equation or source SHA/date was recovered or changed. Existing WWRD rope work remains first-blush heuristic only.
+- P0 Code Grurple remains ACTIVE; P1 is OVERDUE/NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE rereview next due November 24.
+- The h803:s3 Elias run completed at 11:38:39.415257Z before the repository-only optional handoff. No direct thread delivery, consumption, acknowledgment, task, or ownership transfer is claimed.
+- Unrelated reading: Kenneth Grahame, `The Wind in the Willows`, Project Gutenberg #289, HTML lines 27–179; next cursor 180. This is a lateral reading switch, not a physical break.
