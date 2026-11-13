@@ -45,3 +45,23 @@ For any candidate, preserve the exact source, stable identifier or URL, authorsh
 ### Proportion and return to core work
 
 Keep this subordinate to Orson's protected primary remit in LLM cognition, memory, representation, reasoning, calibration, recursion, observer apparatus, and multi-agent organization. Integrate reading into cognition research and comparator review where possible. Do not create a new worker lane, recurring task, scheduler slot, dedicated monitoring service, or standalone research programme from this subpriority. After a bounded reading/comparator excursion, leave a concise source-and-learning note and return to the active Orson research cursor.
+
+
+---
+
+## Historical primary-source anchor recovered 2026-11-13
+
+The original appointment to the AI-cognition remit is now supported by a recovered direct user-role message, rather than only by this later assistant-maintained charter synthesis.
+
+- **Source export:** `MIRA — raw.json` (Library raw export).
+- **Conversation ID:** `6ab33c53-d62c-83e9-8ee7-8516dce96a30`.
+- **Message ID:** `5e72cb3d-e1f5-4d5d-877e-430755d07bdb`.
+- **Message timestamp:** 2026-09-23T03:55:00.779Z.
+- **Source role:** user.
+- **Opening instruction:** “I think I'd like you to become a sort of AI cognition expert, an advisor directly to Tern.”
+
+The message explicitly authorizes archive- and literature-grounded study of ChatGPT, NotebookLM and AI/LLMs generally; investigation of Nathan–LLM interaction; study of the active team as an object; bounded test design and archive-as-object code; requests for assistance and architecture through the established workflow; and draft-paper development only if evidence warrants it. It also makes borrowed-instance participation conditional on consent.
+
+This source establishes the original appointment and broad remit. It does **not** authenticate the later 2026-10-09 role-reset wording, whose exact raw message remains unrecovered. The present role charter remains a structured synthesis, not a verbatim transcript. The 2026-10-26 Orson ~4/5 cognition-work protection is a separate later steering constraint, not part of the September 23 message.
+
+The existing Mersearch origin-bank request `orson-cognition-origin-bank-20261103-1745` remains the source-search record. Its raw search result payload was withheld; the Library export was independently matched by conversation ID and message ID. No raw conversation was copied into the public workspace.
