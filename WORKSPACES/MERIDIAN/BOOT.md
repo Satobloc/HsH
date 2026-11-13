@@ -1,3 +1,20 @@
+# MERIDIAN-H804-S4-BOOT-POINTER-2026-11-13T1248Z
+
+**Latest return point:** h804:s4 Review-MIND / P0 no-trigger QC.  
+**Read first:** [h804:s4 report](2026-11-13T1248Z_H804_S4_REVIEW_MIND_P1_CI_AND_P0_NO_TRIGGER_QC.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1248Z_s4_meridian.md).
+
+- P0 remains ACTIVE; Meridian's current assignment remains Paper A accepted-R1 presentation support only. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED; no new trigger or route capability.
+- Orson P1 PR #850 current head `4e9b685...` has a successful 8,984-job **merge-reference** build (#43245831469, checked-out merge commit `a9f307...`). Exact-head standalone verification remains unverified; P1 remains OVERDUE / NOT READY and Orson-owned. Task-graph head/run pointer is stale and routed to Tern.
+- Enheduanna h804:s0 geometry crosswalk is typed and conditional, not a physical observation. Morrow h804:s2 is CODATA source custody only. Kestrel h804:s3 was still IN_PROGRESS at last readback.
+- Mersearch not run: no callable action/local three-repo checkout; four active request lanes occupied. No request overwrite.
+- Unrelated reading: `fun break - lx.txt` lines 1121–1200; next 1201. FIE next review November 24.
+- Current :48 run `5cdc3309-1d94-832e-b9bb-3394679996cc` remains IN_PROGRESS at final peek, completion/chat_ref null; cached latest result is prior Nadir h803:s4.
+- Next label: Mercer h805:s0. Optional repository-only handoff exists; no authenticated current Meridian or Mercer thread, no cross-thread delivery claim.
+
+This is a current-state overlay, not a new charter or identity claim. The older BOOT material below remains historical/contextual and must be reconciled with the linked current report/receipt before acting.
+
+---
+
 # Meridian | Boot Capsule
 
 **As of:** 2026-11-13T09:00Z nominal. **Pre-write HsH main:** `e7d147215cb7b6ca41cbb12da58e99a4e75565cb` (2026-11-13T09:05:47Z). Assistant-curated navigation, not a signed charter, identity proof, or task authority.
