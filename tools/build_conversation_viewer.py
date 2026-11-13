@@ -517,6 +517,7 @@ def main() -> int:
     print(
         f"viewer_manifest={args.output}; conversations={counts['conversations']}; "
         f"development={counts['development']}; live={counts['live']}; "
+        f"repository_root_and_other={counts['repository_root_and_other']}; "
         f"hidden={curation_counts['hidden_conversations']}; "
         f"partial={curation_counts['partially_curated_conversations']}; "
         f"omitted_messages={curation_counts['omitted_messages']}"
