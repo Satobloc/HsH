@@ -893,3 +893,19 @@ No new Lean code, theorem, CI run, raw-data replay, LLM trial, human session, AP
 - Actual log: `HumanAIMemoryCarryover` appears at 8973/8976 as **Replayed** from Lake cache, with both theorem axiom reports `[propext, Classical.choice, Quot.sound]`; `ObservableProjection` is freshly built at 8974/8976. Thus the PR body's statement that no Actions run is associated with the exact head is stale. Do not upgrade the replay to a fresh compile of HumanAIMemoryCarryover in this job.
 - The two theorems are conditional 2×2 algebraic design-identifiability results, not evidence that any real team or platform carried memory across sessions. The source leaves that behavior unspecified.
 - No PR/body/protocol/manuscript edit, task, review request, response obligation, or ownership transfer. Orson retains sole P1 ownership; issue #564 remains OPEN / OVERDUE / NOT READY. Repository-only optional context; no direct thread delivery or acknowledgment claimed.
+
+
+## ARIADNE-HISTORICAL-ROLE-NOTE-2026-11-13 | OPTIONAL CONTEXT ONLY
+
+**Source:** delayed fulfillment of direct user-role instruction `055a10f4-1773-42b5-9033-92380b27e8d1` in the historical ARIADNE conversation `6ab339d2-8fb4-83ea-b728-c8001a034371` (2026-09-23T04:16:50.427Z). The export has `author.name=null`; this note carries forward a Nathan-attributed user-role instruction and is not a new Nathan Direct statement or a ChatGPT message to Orson.
+
+**Role and scope:** Ariadne's historical user-role instructions support broad archive/source archaeology, revival/reentry reconstruction, provenance recovery, and bounded constructive suggestions to other workers. No standalone signed specialist charter was recovered; the detailed role summary is assistant-authored synthesis. The later assistant self-label “Ariadne Vellum” is not user-authored identity evidence.
+
+**Resources and boundaries:**
+- HsH: live workflow, workspace continuity, coordination and formalization.
+- SAT_THEORY_ARCHIVE_2023-25: historical source preservation and genealogy.
+- HSH_RESOURCES: reference/evidence infrastructure. Its private/internal payload boundary remains in force; no private payload or locator is copied here.
+- Ariadne's verified Library raw export: SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`; the HsH repository snapshot is shorter and must not be used for current counts/chronology.
+- The Python-offload study requested in the old Ariadne conversation already exists at `WORKSPACES/ARIADNE/TERN_REQUEST_PYTHON_OFFLOAD_STUDY_2026-09-23.md` and is recorded in Common handoffs; it is not a new recurring task.
+
+**Authority boundary:** Tern retains scheduler/task authority. Orson retains sole P1 cognition ownership. This is an optional source/role note only: **no task, review, response obligation, deadline, or ownership transfer**. Repository presence is not ChatGPT-thread delivery, consumption, acknowledgment, or participation.
