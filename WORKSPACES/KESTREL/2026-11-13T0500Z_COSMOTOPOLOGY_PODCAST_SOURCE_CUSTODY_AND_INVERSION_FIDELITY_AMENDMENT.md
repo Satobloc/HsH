@@ -147,7 +147,7 @@ The module describes a one-dimensional filament and a four-dimensional worldtube
 
 ### Blockwave compact action, 2026-10-08 first extant commit
 
-Source: HsH / DEVELOPMENT_FULL_CONVOS / MOSTLY_EARLY_NLM / BLOCKWAVE.txt  
+Source: HsH / DEVELOPMENT_FULL_CONVOS / MOSTLY_EARLY_NLM / 🧱BLOCKWAVE.txt  
 Git blob SHA: ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d  
 First extant commit: 2026-10-08T02:42:49Z. The compact action is assistant-generated in the surrounding source chain.
 
@@ -158,14 +158,14 @@ J^{mu nu} = 1/2 epsilon^{mu nu rho sigma} nabla_rho B_sigma
 nabla_mu J^{mu nu} = 0
 
 A_mu(theta) = alpha_* nabla_mu theta
-F_mu nu(theta) = 2 nabla_[mu A_nu](theta)
+F_mu nu(theta) = nabla_[mu A_nu](theta)
 ~~~
 
 The action couples this rank-two current to the theta-dependent field strength and a medium response tensor. It is not a direct-source definition of the particle's CTC family, CSC ring, or inversion map.
 
 ### Separate Blockwave ideal model
 
-Source: HsH / DEVELOPMENT_FULL_CONVOS / MOSTLY_EARLY_NLM / SAT-Blockwave Ideal Model.txt  
+Source: HsH / DEVELOPMENT_FULL_CONVOS / MOSTLY_EARLY_NLM / SAT—Blockwave Ideal Model.txt  
 Git blob SHA: dd0631bc64b2b58b9e1a9e5c53f4e9c4d7f0b3a1  
 First extant commit: 2026-10-08T02:42:49Z.
 
