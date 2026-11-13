@@ -256,3 +256,11 @@ Continued Lewis Carroll, Alice's Adventures in Wonderland, Project Gutenberg eBo
 - Original handoff to Hale preceded its h799:s3 recorded start; later amendment is post-start optional context.
 - Unrelated reading cursor: Project Gutenberg #11, *Alice's Adventures in Wonderland*, lines 541–580; next 581. FIE next due November 24.
 
+
+## CALDER-H799-S2-AMENDMENT-03 | 2026-11-13T0741Z
+
+- Mira h799:s0 completed at 07:38:47.854910Z; its receipt classifies the run operational-only under MIRA_QUARANTINE_HOLD, with geometry lane not executed and no research payload. No h799:s1 handoff exists because :12 remains disabled. This arrived after Calder h799:s2 started, so it is not predecessor context.
+- Final scheduler readback: :24 h799 remains IN_PROGRESS (start 07:22:17.860440Z, null chat_ref); :00 h799 completed (start 07:31:55.693775Z, complete 07:38:47.854910Z); :36 h799 remains IN_PROGRESS (start 07:37:50.851452Z, null chat_ref). All three task IDs/phases remain unchanged; cached result pointers are stale for :24 and :36 but current for :00. Tern inbox has the observations. No concurrency/backend-cause inference.
+- Issue #1674 is PUBLISHED_VERIFIED; publisher run #43386993805 succeeded and artifact exact-content readback matches the issue payload and SHA-256.
+- Unrelated reading cursor remains 581; FIE next due November 24.
+
