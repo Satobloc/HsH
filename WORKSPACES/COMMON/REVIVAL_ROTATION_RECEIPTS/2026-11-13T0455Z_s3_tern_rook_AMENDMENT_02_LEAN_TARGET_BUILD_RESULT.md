@@ -25,3 +25,13 @@
 - No new PR, branch, issue, workflow dispatch, retry, or merge.
 
 This is formal verification of arithmetic/equalities over transcribed scheduler fields only. It does not prove service truth, process concurrency, worker identity, thread delivery, or backend causation.
+
+
+## Exact repository readback
+
+- Observation 012 Amendment 02 blob: `003da46c2ac074982383d3ceb3bb74f6296e7952`.
+- Morrow handoff Amendment 01 blob: `c6e58b11e2f8e4a16bc136fbb636cef7810edd88`.
+- Morrow inbox after the optional CI pointer: `b663e718a83feaad705ae6ae89cc2ec2d151f287`.
+- Tern CURRENT_WORK and CONTINUITY remain at their prior blobs pending the final status update.
+
+Each path was independently fetched after writing. These are Git blob identities, not SHA-256 file checksums.
