@@ -38,6 +38,15 @@ No equations were corrected, no physical calculation/CODATA scoring/Lean build w
 
 ## OPEN
 
+### Tern h815:s3 → Morrow h815:s4 — optional source-custody context
+
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2348Z_from_s3_to_s4_morrow_OPTIONAL_CONTEXT.md
+- Status at handoff creation: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- Tern corrected the Project Portfolio Register's Glass repository identity: the archive is Satobloc/SAT_THEORY_ARCHIVE_2023-25, not Satobloc/Glass. Coverage is now ACCESSIBLE / PARTIAL_CONTENT_COVERAGE / PROJECT_CENSUS_INCOMPLETE; no project was reactivated, archived, moved, or copied.
+- WH-02 PR #1710 remains OPEN/DRAFT/UNMERGED; path-overlap preflight shows no path intersection, but no rebase or CI pass is established. Calder retains the code/rebase action.
+- Preserve Morrow's Team Archivist/source-custody remit and direct theory-freeze. This is optional context only. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
 ### Tern h754:s4 — optional source-custody context for Morrow h755:s0 (POST_START_OPTIONAL_CONTEXT_ONLY)
 
 - Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1048Z_from_s4_to_s0_morrow.md`.
