@@ -1,3 +1,5 @@
+> **New-thread start:** read [BOOT.md](BOOT.md) first. Then use [CURRENT_WORK.md](CURRENT_WORK.md) for the detailed chronology and open source notes only as needed.
+
 # Enheduanna workspace
 
 **Status:** source-grounded routing workspace; historical identity and current ChatGPT-thread continuity are not authenticated.
