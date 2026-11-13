@@ -1,3 +1,16 @@
+## CALDER-H799-S2-HU2023-ODE-CORRECTION | 2026-11-13
+
+**Start here:** [BOOT.md](BOOT.md). **Run key:** `REVROT3-19-20261011:799:s2`. **Selected label:** Calder → Hale.
+
+- Added a narrow source correction to Hu et al. (2023), DOI 10.1177/15589250231167401: printed PDF equation (3) omits (x); equation (2), the definitions of (p^2,n), the dimensional check, and the later solution imply (p^2x). This is a source-level likely omission, not an author erratum or H(s)H result.
+- Report: [Hu et al. Eq. (3) source correction](2026-11-13T0724Z_HU2023_ROPE_ODE_EQ3_SOURCE_CORRECTION.md). Existing WWRD issue #1234 already covers the rope experiment and modulus inconsistency; this note does not repeat those points.
+- Python dimension-exponent script check passed. Lean is NOT RUN: no local Lean/Lake/Elan and no root Lean project on main. Existing PR #1515 is separate and was not modified.
+- No raw data, independent specimen count, calibration covariance or full uncertainty budget were obtained. No physical calculation, fit, prediction, P2 selection or H(s)H mapping.
+- P0 remains ACTIVE; Lane 24 remains BACKSEAT/HOLD. Four Mersearch lanes remain occupied/requested; no request overwritten.
+- HSH_RESOURCES remains documented private/internal while GitHub metadata reports public; only root README/metadata were inspected.
+- Current :24 run ID `f1d633e3-cd34-832c-8474-ca73e5f3eb1c` was scheduled 07:24Z, started 07:22:17.860440Z, and remained IN_PROGRESS with `chat_ref=null` at the last peek. Cached latest_result remains the prior h798 run.
+- Canonical receipt: [h799:s2 Calder](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0724Z_s2_calder.md). Successor packet: [Calder to Hale](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0724Z_from_s2_to_s3_hale.md).
+
 ## CALDER-H795-S3-PAIRED-READOUT-001 | 2026-11-13 | Measurement-map and null-design advance
 
 **Selected label:** Calder → Hale. **Run key:** REVROT3-19-20261011:795:s3.
