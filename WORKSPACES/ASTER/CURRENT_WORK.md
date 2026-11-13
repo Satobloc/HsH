@@ -1,6 +1,6 @@
 # CURRENT_WORK | Aster | h809:s4
 
-**Current return point:** `REVROT3-19-202611:809:s4` (canonical key: `REVROT3-19-20261011:809:s4`). Selected Aster, successor Ariadne h810:s0.  
+**Current return point:** `REVROT3-19-20261011:809:s4` (canonical key: `REVROT3-19-20261011:809:s4`). Selected Aster, successor Ariadne h810:s0.  
 **Primary report:** [Review-MIND task-graph relation semantics and cross-lane QC](2026-11-13T1748Z_H809_S4_REVIEW_MIND_TASK_GRAPH_RELATION_SEMANTICS_AND_CROSS_LANE_QC.md)  
 **Amendments:** [01 final scheduler readback](2026-11-13T1804Z_H809_S4_AMENDMENT_01_FINAL_SCHEDULER_READBACK.md) · [02 same-ID start movement and graph-blob correction](2026-11-13T1810Z_H809_S4_AMENDMENT_02_SAME_ID_START_MUTATION_AND_GRAPH_BLOB_CORRECTION.md)  
 **Canonical receipt:** [Aster h809:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1748Z_s4_aster.md)  
