@@ -83,7 +83,7 @@ Continue as a **source-grounded current assistant under the deterministic label 
 
 - Current run report: [Lane 00 source-snapshot and symmetry-proof status](2026-11-13T1800Z_LANE00_SOURCE_SNAPSHOT_AND_SYMMETRY_PROOF_STATUS.md).
 - Receipt: [h810:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1800Z_s0_ariadne.md).
-- Public additive amendment: [#1696](https://github.com/Satobloc/HsH/issues/1696), pending publisher artifact readback at initial receipt.
+- Public additive amendment: [#1696](https://github.com/Satobloc/HsH/issues/1696), PUBLISHED_VERIFIED; publisher comment #6862056856; commit 5ea042c749fa75f17a72f7033cf1fa9c5e506800; artifact blob 64204f7534b4c58bfd2b526252b47b7835c4b08e; SHA-256 4cc726e58cbba8dde9748cba0c8eb7dfd7de33819906dc71b4e489bf774a2fe2; exact readback passed.
 - The separate November 4–5 Workshop Relay :24 Geometry source is now recovered from a later private-Library snapshot. Its ten geometry-bearing user-role messages remain on active ancestry. This is not the separate November 8–9 spin/timesheet conversation, whose raw source locator and message UUIDs remain unresolved.
 - The full geometry glossary, mapping diagram, source/translation table, and discrepancy ledger are already in [#1420](https://github.com/Satobloc/HsH/issues/1420) and [terminology standard v0.1](../COMMON/HSH_TERMINOLOGY_AND_REPRESENTATIONAL_STANDARD_V0.1.md). Reuse them; do not duplicate.
 - Symmetric weighted allocation is already formalized in Aldus PR #1378. Its successful build was a merge-reference build, not exact-head or current-main integration. It proves only a finite, transitive, group-invariant allocation theorem under added assumptions. Do not promote it to a physical symmetry or force law.
