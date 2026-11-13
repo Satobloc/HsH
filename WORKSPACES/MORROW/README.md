@@ -76,7 +76,7 @@ Use export inventories and source/message IDs to locate core-team material; tags
 
 ## Message-level audit — 2026-09-13
 
-[Janus export relationships, comparator gap and raw-ID recapture](JANUS_EXPORT_COMPARISON_2026-09-13.md) · [Read-only comparator](compare_conversation_exports.mjs) · [Current checkpoint](TRIAL_CHECKPOINT.md).
+[Janus export relationships, comparator gap and raw-ID recapture](JANUS_EXPORT_COMPARISON_2026-09-13.md) · [Read-only comparator](compare_conversation_exports.mjs), now including whole-mapping integrity and message-level conversation-context citation edge extraction/diffs · [Current checkpoint](TRIAL_CHECKPOINT.md).
 
 Tags: ADMIN, SOURCE-IDENTITY, RAW-ID-COMPARED, CONTENT-DIFF, RAW-ID-RECAPTURED, COVERAGE-LIMIT. Three raw blobs/four paths compared computationally; not full dialogue reading. A later copy retains all 119 earlier user payloads but shortens one tool body, so message-ID inclusion is insufficient for lossless replacement. The 22:13 Janus UUID is directly recaptured. The then-open 20:01–20:08 discrepancies were subsequently resolved in the UUID reconciliation below. Maintainer reconciliation is tracked as `MORROW-SOURCE-001` in Common.
 
