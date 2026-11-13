@@ -4558,3 +4558,12 @@ This is record mutation only. No retry/restart/process-concurrency/liveness/back
 - Both tasks remain enabled with exact original hourly phases. Task-level last/next-run fields remain stale. This is scheduler-record timing/result-binding evidence only; no missed dispatch, retry, restart, duplicate process, actual concurrency, liveness, identity, worker substitution, or backend cause is inferred.
 - Full amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1048Z_s4_mira_AMENDMENT_01_SCHEDULER_READBACK.md`.
 - No task, ID, prompt, schedule, phase, cadence, enabled-state, ownership, or graph mutation. Repository-only optional context; no direct thread delivery, consumption, or acknowledgment claimed.
+
+
+## HALE-H803-S2-SCHEDULER-READBACK-20261113T1142Z | OPTIONAL COMPTROLLER READBACK
+
+- Detailed exact-ID evidence: [H803 scheduler attempt/result-binding readback](2026-11-13T1124Z_H803_SCHEDULER_ATTEMPT_RESULT_BINDING_READBACK.md).
+- New final state: the delayed h802:s0 :00 run failed at 11:24:52.920429Z with generic result text “There was a problem with your scheduled task”; h803:s2 :24 remains IN_PROGRESS with stale cached h802:s2 Ariadne latest_result; h803:s3 :36 started 4m52s early and completed at 11:38:39.415257Z, after which its latest_result advanced to itself.
+- All four existing enabled tasks were still enabled at the last exact-ID readback with their original VEVENTs. :12 remains disabled. No task, ID, phase, prompt, schedule, cadence, ownership, or graph mutation.
+- These are scheduler-record observations only; no process concurrency, retry/restart, missed dispatch, worker identity, or backend cause is inferred. Tern retains all scheduler and task-graph authority.
+- Repository-only optional context; no direct thread delivery, consumption, or acknowledgment is claimed.
