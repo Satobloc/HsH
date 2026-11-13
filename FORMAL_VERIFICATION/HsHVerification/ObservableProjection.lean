@@ -120,4 +120,94 @@ theorem noninjective_selection_remains_noninjective_after_encoding
 #print axioms composition_injective_of_injective
 #print axioms noninjective_selection_remains_noninjective_after_encoding
 
+/-!
+The source-level proposition "same output for all inputs" is formalized here
+only after fixing a common input type and output type. The resulting relation is
+extensional equality of response functions. It does not establish that a chosen
+behavioral readout exhausts every possible observation, or that consciousness is
+determined by that readout.
+-/
+
+/-- Two systems have the same responses on every input in the declared domain. -/
+def sameResponses {System Input Output : Type*}
+    (respond : System → Input → Output)
+    (s₁ s₂ : System) : Prop :=
+  ∀ input, respond s₁ input = respond s₂ input
+
+/-- Exact functional equivalence is equality of the induced response functions. -/
+theorem sameResponses_iff_responseFunctions_eq
+    {System Input Output : Type*}
+    (respond : System → Input → Output)
+    (s₁ s₂ : System) :
+    sameResponses respond s₁ s₂ ↔ respond s₁ = respond s₂ := by
+  constructor
+  · intro h
+    funext input
+    exact h input
+  · intro h input
+    exact congrFun h input
+
+/-- Equality of response on every input is reflexive. -/
+theorem sameResponses_refl
+    {System Input Output : Type*}
+    (respond : System → Input → Output)
+    (s : System) :
+    sameResponses respond s s := by
+  intro input
+  rfl
+
+/-- Equality of response on every input is symmetric. -/
+theorem sameResponses_symm
+    {System Input Output : Type*}
+    (respond : System → Input → Output)
+    {s₁ s₂ : System}
+    (h : sameResponses respond s₁ s₂) :
+    sameResponses respond s₂ s₁ := by
+  intro input
+  exact (h input).symm
+
+/-- Equality of response on every input is transitive. -/
+theorem sameResponses_trans
+    {System Input Output : Type*}
+    (respond : System → Input → Output)
+    {s₁ s₂ s₃ : System}
+    (h₁ : sameResponses respond s₁ s₂)
+    (h₂ : sameResponses respond s₂ s₃) :
+    sameResponses respond s₁ s₃ := by
+  intro input
+  exact (h₁ input).trans (h₂ input)
+
+/-- A deterministic downstream encoding cannot distinguish systems that
+    already have identical responses on every declared input. -/
+theorem sameResponses_preserved_by_encoding
+    {System Input Output Encoded : Type*}
+    (respond : System → Input → Output)
+    (encode : Output → Encoded)
+    {s₁ s₂ : System}
+    (h : sameResponses respond s₁ s₂) :
+    sameResponses (fun s input => encode (respond s input)) s₁ s₂ := by
+  intro input
+  exact congrArg encode (h input)
+
+/-- If the complete response-function map is non-injective, distinct systems
+    exist that are functionally equivalent over the declared input domain. -/
+theorem noninjective_response_map_has_distinct_functionally_equivalent_systems
+    {System Input Output : Type*}
+    (respond : System → Input → Output)
+    (hnoninj : ¬ Function.Injective (fun s => respond s)) :
+    ∃ s₁ s₂ : System,
+      s₁ ≠ s₂ ∧ sameResponses respond s₁ s₂ := by
+  obtain ⟨s₁, s₂, hne, hEq⟩ :=
+    noninjective_projection_has_collision (fun s => respond s) hnoninj
+  refine ⟨s₁, s₂, hne, ?_⟩
+  intro input
+  exact congrFun hEq input
+
+#print axioms sameResponses_iff_responseFunctions_eq
+#print axioms sameResponses_refl
+#print axioms sameResponses_symm
+#print axioms sameResponses_trans
+#print axioms sameResponses_preserved_by_encoding
+#print axioms noninjective_response_map_has_distinct_functionally_equivalent_systems
+
 end HsHVerification.ObservableProjection
