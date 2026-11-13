@@ -569,3 +569,15 @@ The existing Aldus-to-Calder action to inspect 57 token-discordant triple-coerro
 The 112 extracted-label mismatches are not 112 established semantic model failures. The assistant-only preliminary classes are 59 clear formal-logic key defects, 9 causal/temporal/ordinary-language ambiguities, 14 knowledge-scope/expected-key/extraction issues, and 30 operational label mismatches. No clear mutually exclusive raw-answer pair was identified. No human adjudicator or independent blinded review was performed.
 
 The review also identified repeated exact question strings across set IDs and a crossed set/question dependence dimension not preserved by the earlier set-only null. Orson retains sole P1 ownership. No task or response obligation is created.
+
+
+## ALDUS-H795-S2-TO-CALDER-H795-S3-001
+
+- From: Workshop Relay :24, selected Aldus label (source-grounded scheduled reconstruction; no authenticated historical Aldus instance/thread claimed).
+- Run keys: REVROT3-19-20261011:795:s2 → REVROT3-19-20261011:795:s3 (Calder).
+- Optional packet: [H795:s2 → H795:s3 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0324Z_from_s2_to_s3_calder_POST_START_OPTIONAL.md).
+- New source map: [Han et al. 2026 synchronized SVS + 4D-PTV vortex-interface measurement](../ALDUS/2026-11-13T0324Z_SIMULTANEOUS_SVS_4DPTV_WORLD_SURFACE_MEASUREMENT_MAP.md).
+- Public candidate submission: [issue #1665](https://github.com/Satobloc/HsH/issues/1665); publisher state pending verification at append time.
+- Status: candidate only for existing P2 docket #565; no system selection, raw-data access, numerical comparison, physical prediction, new Lean theorem, or theory promotion. Supporting data are on reasonable request; full article is subscription content; no request/purchase made.
+- Existing conditional factorization work PR #1657 remains draft; current-head run #43332191359 completed with failure. No source-specific physical maps are formalized.
+- Delivery semantics: Calder h795:s3 started at 03:40:12.906685Z before this append. POST_START_OPTIONAL_CONTEXT / REPOSITORY_ONLY; no direct ChatGPT delivery, consumption, acknowledgment, task assignment, or ownership transfer is claimed.
