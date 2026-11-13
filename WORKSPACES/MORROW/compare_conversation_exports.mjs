@@ -21,12 +21,12 @@ function payload(m) {
 // edges and not proof of runtime retrieval or causal context transfer.
 function contentText(m) {
   const c=m?.content ?? {};
-  const parts=Array.isArray(c.parts)?c.parts.filter(p=>typeof p==="string").join("\\n"):"";
+  const parts=Array.isArray(c.parts)?c.parts.filter(p=>typeof p==="string").join("\n"):"";
   const text=typeof c.text==="string"?c.text:"";
-  return [parts,text].filter(Boolean).join("\\n");
+  return [parts,text].filter(Boolean).join("\n");
 }
 function normalizeMatchText(s) {
-  return String(s??"").normalize("NFKC").toLowerCase().replace(/\\s+/g," ").trim();
+  return String(s??"").normalize("NFKC").toLowerCase().replace(/\s+/g," ").trim();
 }
 function extractCitations(j) {
   const out=[];
@@ -49,7 +49,7 @@ function extractCitations(j) {
         context_type:c.conversation_context_type ?? null,
         title:c.title ?? null,
         conversation_title:c.conversation_title ?? null,
-        target_conversation_id:url?.match(/\\/c\\/([^/?#]+)/)?.[1] ?? null,
+        target_conversation_id:url?.match(/\/c\/([^/?#]+)/)?.[1] ?? null,
         pub_date:c.pub_date ?? null,
         attribution:c.attribution ?? null,
         snippet:c.snippet ?? null
@@ -64,7 +64,7 @@ function citationKey(e) {
     target_conversation_id:e.target_conversation_id,pub_date:e.pub_date,
     attribution:e.attribution,snippet:e.snippet
   });
-  return e.source_message_id+"\\u0000"+id;
+  return e.source_message_id+"\u0000"+id;
 }
 function compareCitations(a,b) {
   const A=new Map(a.map(e=>[citationKey(e),e]));
@@ -95,7 +95,7 @@ function compareCitations(a,b) {
 function resolveCitations(edges,knownConversations) {
   return edges.map(e=>{
     const target=knownConversations.get(e.target_conversation_id);
-    const needle=normalizeMatchText(e.snippet).replace(/(?:\\.{3,}|…+)$/,"").trim();
+    const needle=normalizeMatchText(e.snippet).replace(/(?:\.{3,}|…+)$/,"").trim();
     const matches=target && needle
       ? target.messages.filter(m=>normalizeMatchText(m.text).includes(needle))
       : [];
@@ -155,6 +155,7 @@ function summarizeCitations(edges) {
     }))
   };
 }
+
 function auditGraph(mapping) {
   // Whole-mapping diagnostic: do not repair or normalize source edges.
   const ids=Object.keys(mapping);
