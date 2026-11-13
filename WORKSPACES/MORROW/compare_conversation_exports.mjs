@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 // Morrow: bounded raw-export comparator, 2026-09-13.
 // Read-only. Supply files in the intended earlier-to-later order.
-// 2026-11-12: child-edge additions are reported separately from removals and split by shared/new parent.\n// Payload equality includes the ENTIRE content object. This does not infer
-// runtime identity or authorize deletion; export-wide metadata is not compared.\n// Message-level conversation-context citations are summarized separately; they do not establish runtime retrieval or causal transfer.
+// 2026-11-12: child-edge additions are reported separately from removals and split by shared/new parent.
+// Payload equality includes the ENTIRE content object. This does not infer
+// runtime identity or authorize deletion; export-wide metadata is not compared.
+// Message-level conversation-context citations are summarized separately; they do not establish runtime retrieval or causal transfer.
 import {readFileSync} from "node:fs";
 import {createHash} from "node:crypto";
 
