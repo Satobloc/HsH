@@ -8,7 +8,7 @@
 
 **Execution identity:** current-assistant source-grounded work under the deterministic Mercer label; no authenticated Mercer thread or historical-instance participation is claimed. Historical role source: raw export blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, direct user message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`.
 
-**Scheduler:** existing :24 task ID `6abda4c8eda88191b8a91a30d2a155e0` and original hourly phase were not modified. Exact-ID peek found the task but could not read its run result; current run ID/status/completion/chat_ref remain unknown. No inference is made.
+**Scheduler:** existing :24 task ID `6abda4c8eda88191b8a91a30d2a155e0` and original hourly phase were not modified. Exact-ID peek found the task but could not read its run result; current run ID/status/completion/chat_ref remain unknown. No inference is made. A second peek at 05:33:35Z returned NOT_FOUND / NOT_ACCESSIBLE; see [peek access amendment 01](2026-11-13T0533Z_H797_PEEK_ACCESS_AMENDMENT_01.md). This is not evidence of deletion or a scheduler-state transition.
 
 **Successor:** Ravel, index 17. Repository-only optional context packet and inbox marker were verified; no direct thread delivery, consumption, acknowledgment, or ownership transfer is claimed.
 
