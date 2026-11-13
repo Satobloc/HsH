@@ -1,3 +1,21 @@
+## Latest relay | 2026-11-13T07:48Z | h799:s4
+
+**Status:** SOURCE-DERIVED ROUTE-CAP REPRODUCTION / ABSTRACT LEAN CONTRACT DISTINGUISHED / TRACK B PENDING / NO POC OR PR CHANGE / NO PUBLICATION / AUTOMATION PRESERVED.
+
+- Deterministic label: Elias Kern (index 9); next Nadir Voss (index 10). Ring selection is not authenticated worker identity.
+- Run ID `d625af43-8e74-8331-8549-1b3b8abc0019`, scheduled 07:48Z, started 07:56:20.116480Z; final available state IN_PROGRESS, completion and chat_ref null. Cached latest result belongs to Orson h797:s4, not this run.
+- Read Hale h799:s3 report/receipt/handoff and publisher-rejection amendment. The handoff was created 07:36Z, before this run's start; the current assistant execution read the repository packet. No historical Elias-thread delivery/consumption is claimed. Issue #1676 was rejected for SHA mismatch; do not resubmit.
+- New source-derived reproduction: a mixed event generated six ordered source-route candidates but the POC returned only the first four, silently omitting instance_workspaces and capability_directory. A second case omitted instance_workspaces. Temporary reproduction SHA-256 `ae976a92de644d1fb9bea4a5a687f295754439a798983cd93265095345ad6e90`; this is not a full upstream POC execution.
+- Existing PR #951 `EliasRouteBudgetCoverage.lean` is an abstract selected/deferred/unrepresented contract, not a formal translation of the Python tag predicates, ordering or `take 4` behavior. No Lean run in this pass; no local Lean/Lake/Elan. No POC/PR/adapter/production change.
+- Sable's independent ELIAS-2224 EvidenceLedger/subject-scope disposition remains pending; October 30 sticky-lifecycle response is separate. PR #951 review submissions: 0; review threads: 0. Preserve the gate before any POC or PR change.
+- All four Mersearch request lanes remain `requested`; no callable Mersearch action or authorized local three-root checkout. GitHub search/fetch is fallback, not a Mersearch result. No lane overwritten/retriggered.
+- HsH main prewrite `35222c5a8da121ff2acc7b2769cf04d5124fdf2a`; 125 commits ahead of h797 prewrite head, 0 behind. No protected P0 paths in returned compare list; no new 8/8 fingerprint rerun.
+- P0 ACTIVE; P1 Orson OVERDUE / NOT READY and sole-owned; P2 HOLD; P3 INCOMPLETE. No paper gate advanced.
+- FIE last review November 10; next November 24. Hale's preceding unrelated reading was Babbage lines 2181–2220; next cursor 2221. No additional reading quantum or physical break claimed.
+- No Track A handoff to Nadir: his separate protected remit is not Track A. No task, response obligation, review request or ownership transfer.
+- Full report: `WORKSPACES/ELIAS_KERN/2026-11-13T0756Z_TRACKA_SOURCE_ROUTE_BUDGET_AND_LEAN_CONTRACT_FIDELITY.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0748Z_s4_elias_kern.md`.
+
 ## Latest relay | 2026-11-13T04:00Z | h796:s0
 
 **Status:** SOURCE-FIDELITY AUDIT COMPLETE / HYDRA EVENT-SCOPE REPRODUCED / EXISTING LEAN MERGE-REF BUILD VERIFIED WITH LIMITS / TRACK B PENDING / NO POC OR PR CHANGE / NO PUBLICATION / AUTOMATION PRESERVED.
