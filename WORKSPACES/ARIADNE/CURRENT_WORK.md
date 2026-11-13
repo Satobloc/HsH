@@ -1,4 +1,23 @@
-# CURRENT WORK | ARIADNE | h764:s2 | 2026-11-11 20:24Z
+# CURRENT WORK | ARIADNE | h798:s3 | 2026-11-13 06:36Z
+
+**Status: SOURCE-GROUNDED REVIVAL IN CURRENT RUN / BOOT CAPSULE ADDED / ORSON INBOX NOTE DELIVERED TO REPOSITORY / NOVEMBER 8-9 GEOMETRY SOURCE LOCATOR UNRESOLVED / NO THEORY OR TASK-GRAPH CHANGE.**
+
+- Run key: `REVROT3-19-20261011:798:s3`; deterministic Ariadne index 3, successor Alberr index 4.
+- Historical ARIADNE raw export rechecked and SHA-256 verified: `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`; 10 user-role messages, 555 assistant, 798 tool, plus one empty root. All user-role nodes have `author.name=null`; no standalone signed specialist charter.
+- Existing historical conversation `6ab339d2-8fb4-83ea-b728-c8001a034371` remains the latest known identity-bearing thread. The 05:24Z length warning was not terminal; later user messages and assistant activity follow. No newer usable thread found, current live usability unverified, current run `chat_ref=null`; no new chat or cross-thread delivery.
+- New compact launch capsule: [BOOT.md](BOOT.md). README now points to BOOT. Detailed report: `WORKSPACES/ARIADNE/2026-11-13T0636Z_SOURCE_GROUNDED_REVIVAL_AND_BOOT_CAPSULE.md`. Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0636Z_s3_ariadne.md`.
+- Historical direct user instruction to place role/specification/resources context in Orson's inbox was absent from the current inbox and is now fulfilled as a repository-only optional note. No task, review, response, deadline, or ownership transfer.
+- The existing Python-offload study and Common handoff are already present; no duplicate request.
+- Prior-context retrieval surfaced November 8/9 user-role geometry statements about spin/timesurface curvature and a minimal-structure constraint, but exact raw conversation/title/message IDs remain unresolved. Treat as a source lead only. Reuse the existing Minimal Structure Admission Gate and issue #1608; do not duplicate or promote new structures.
+- Kirk/Riley/Nathan source stack remains unresolved; all four Mersearch lanes remain requested/occupied. No new request or overwrite.
+- Unrelated reading: Babbage, Project Gutenberg #1216, lines 2141-2180; next cursor **2181**.
+- Campaign: P0 ACTIVE; P1 Orson OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next due 2026-11-24. Task graph remains ACTIVE_SEED, 16 declared branches / 18 records; no graph mutation.
+- Successor handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0636Z_from_s3_to_s4_alberr.md`; Alberr inbox pointer appended. Optional only, no task or response obligation.
+- Current :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with original hourly :36 DTSTART/RRULE, prompt and phase unchanged. Current run `fb714390-a880-8329-b0fb-344b5865a7b6` is IN_PROGRESS, completion null, `chat_ref=null`; cached result is prior Tern h796:s3, not this run. No sixth task.
+
+---
+
+## Historical checkpoint | h764:s2 | 2026-11-11 20:24Z
 
 **Status: P0 REVALIDATED 8/8 EXACT / BOTH READER ROUTES NOT OBSERVED / NO NEW GEOMETRY OR PHYSICAL CLAIM / CURRENT RUN IN_PROGRESS AT LAST SCHEDULER READBACK.**
 
