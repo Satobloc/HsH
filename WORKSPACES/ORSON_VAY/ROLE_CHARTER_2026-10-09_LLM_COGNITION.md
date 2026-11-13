@@ -65,3 +65,5 @@ The message explicitly authorizes archive- and literature-grounded study of Chat
 This source establishes the original appointment and broad remit. It does **not** authenticate the later 2026-10-09 role-reset wording, whose exact raw message remains unrecovered. The present role charter remains a structured synthesis, not a verbatim transcript. The 2026-10-26 Orson ~4/5 cognition-work protection is a separate later steering constraint, not part of the September 23 message.
 
 The existing Mersearch origin-bank request `orson-cognition-origin-bank-20261103-1745` remains the source-search record. Its raw search result payload was withheld; the Library export was independently matched by conversation ID and message ID. No raw conversation was copied into the public workspace.
+
+Any earlier revision of this source-anchor section in commit history that included raw identifiers or a verbatim excerpt is superseded by this sanitized version. Do not reproduce those details. No history rewrite was attempted.
