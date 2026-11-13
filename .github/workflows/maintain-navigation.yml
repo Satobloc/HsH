@@ -74,6 +74,12 @@ jobs:
             echo "LIVE CONVOS not present; skipping"
           fi
 
+      - name: Date-tag repository-root and other conversation exports
+        id: root_dates
+        continue-on-error: true
+        run: |
+          python tools/date_conversation_exports.py "." --apply --resolve-collisions --manifest indexes/manifests/root-conversation-dates.json
+
       - name: Verify every datable source now has the right filename date prefix
         run: python tools/audit_conversation_date_tags.py --output indexes/manifests/date-tag-audit.json --strict
 
@@ -92,6 +98,7 @@ jobs:
               "LIVE CONVOS" \
               --output indexes/LIVE_CONVERSATION_CHRONOLOGY.md
           fi
+          python tools/index_conversation_chronology.py "." --output indexes/OTHER_HSH_CONVERSATION_CHRONOLOGY.md
 
       - name: Refresh repository structural index before tag cross-check
         run: python tools/index_archive.py --root .
