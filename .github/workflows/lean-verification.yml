@@ -7,9 +7,7 @@ on:
       - "FORMAL_VERIFICATION/**"
       - ".github/workflows/lean-verification.yml"
   push:
-    branches:
-      - main
-      - research/nadir-affine-translation-quotient-20261101t0324z
+    branches: [main]
     paths:
       - "FORMAL_VERIFICATION/**"
       - ".github/workflows/lean-verification.yml"
