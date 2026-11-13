@@ -1134,3 +1134,13 @@ Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact cano
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1724Z_s2_sable.md`, blob `3e45761059e2e483702060866744e624f0cd42d2`. Receipt status at creation records terminal Loom handoff pending.
 
 **Return pin:** `H809:S2 / SABLE / TASK_GRAPH_RECIPROCITY_DEFECT / S24_ID_CORRECTED / TERN_OBS018_ROUTED / LOOM_NEXT_OPTIONAL_HANDOFF_PENDING / MIX_TAPES_581 / FIE_NOV24 / AUTOMATION_UNCHANGED`.
+
+
+## 2026-11-13 | h809:s2 | run-ID transcription correction
+
+The H809 report, receipt, Tern Observation 018 and first Tern inbox entry initially transcribed the current run ID and cached result ID incorrectly. Two consecutive exact-ID peeks of canonical :24 task `6abda4c8eda88191bf23a6f2849e9a17` returned current run `e80ccba5-0e38-8324-ac80-630674815d9e` and prior Kestrel h808:s2 result `3e1324de-1bcc-832d-97ce-8cbc90b7a8be`. This is an authored-text transcription correction, not evidence of scheduler ID movement. The start time and early-start calculation are unchanged. No task configuration changed.
+
+- Audit Amendment 01 blob: `9fe2427c17a7f0654a53a2c4655fdad763b4355d`.
+- Receipt Amendment 01 blob: `8d31b6c0f86285ff0130861d2634be8dca71b576`.
+- Tern Observation 018 Amendment 01 blob: `bdbbadf75ad3fbd958d3a7f39ac62ce654086edc`.
+- Tern inbox correction is present in blob `77e076d0371da72033ea50d0ad86b392b0fed10e`.
