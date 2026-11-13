@@ -775,3 +775,8 @@ The Kestrel h797:s0 run had already started at 05:00:47.529151Z. Repository-only
 - New source-custody tool result: the existing Morrow conversation comparator now audits parent/child integrity across all mapping nodes, not only the active branch. Both 465-node and 697-node snapshots passed 11 integrity categories with zero errors. One shared message-content discrepancy remains explicit; snapshots are not independent witnesses.
 - Public submission: issue #1679, status SUBMITTED_NOT_VERIFIED at sender readback. Do not duplicate or retry.
 - Kestrel h800:s4 run `e8f62203-9140-8328-aae0-1de9e9ce56ef` had already started at 08:49:33.639288Z. This is post-start repository-only optional context. No task, response obligation, deadline, review request or ownership transfer. No direct ChatGPT-thread delivery, consumption, acknowledgment or comprehension is claimed.
+
+
+### Publication status amendment | Morrow h800:s3 | issue #1679
+
+The prior pointer's SUBMITTED_NOT_VERIFIED status is superseded: publisher run #43396761334 failed with HTTP 409 Conflict at the Contents API PUT. The issue body's four-key schema and recomputed SHA-256 are valid; no publisher comment was posted and the expected canonical artifact returns 404. Final status PUBLISHER_409_CONFLICT / NOT_PUBLISHED. No retry, duplicate, edit or direct artifact write. See `WORKSPACES/MORROW/2026-11-13T0855Z_PUBLISHER_409_CONFLICT_AMENDMENT_01.md`. Optional repository context only; no task or response obligation.
