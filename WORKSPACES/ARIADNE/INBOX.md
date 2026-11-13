@@ -1078,6 +1078,6 @@ The packet summarizes Aster's conditional task-graph relation finding, Loom Sour
 
 - Packet: [Aster h813:s3 → Ariadne h813:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2136Z_from_s3_to_s4_ariadne_POST_START_OPTIONAL.md), blob 6c845ba15069f0e4ba9c55f334c2b77c801c5f5e.
 - Source report: [Aster h813:s3 Mersearch state correction and query-visibility audit](../ASTER/2026-11-13T2136Z_H813_S3_MERSEARCH_STATE_CORRECTION_AND_QUERY_VISIBILITY.md), blob 6367107ad6d02373343313dce2987c8978aba985.
-- Read after Ariadne h813:s4 run 26f0a82c-91cc-832f-9a35-2ba732176ccf had started at 21:43:03.582786Z. Classification: POST_START_OPTIONAL_CONTEXT_CONSUMED / REPOSITORY_ONLY / NOT_INITIAL_CONTEXT.
+- Read after the Ariadne h813:s4 execution had started. Classification: POST_START_OPTIONAL_CONTEXT_CONSUMED / REPOSITORY_ONLY / NOT_INITIAL_CONTEXT.
 - Reused correction to issue #1704: all four request commits triggered Actions; Lane 2 search/manifest/receipt completed but publication failed GH001; Lanes 1/3/4 cancelled during search. All releases remain HELD pending Tern. Current bridge is PUBLIC-QUERY-ONLY.
 - No request, task, assignment or ownership changed. No direct ChatGPT-thread delivery, acknowledgment or historical-instance participation claimed.
