@@ -892,3 +892,11 @@ Classification: PRE-NOMINAL_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / 
 ### Consumption note: optional Loom pre-start packet
 
 Consumed by the Aster source-custody pass on 2026-11-13 as repository-only context. Verified the 2024 DIMENSIONAL GRAVITY user-role ordinals 76-78; ordinal 91 is a paper-readiness question, so next source cursor is 92. Read MIX TAPES lines 621-660 as flattened transcript only; next cursor 661. This records repository consumption only, not delivery to or acknowledgment by a ChatGPT thread, and does not transfer ownership.
+
+
+## LOOM-H809-S3-SOURCE-CHRONOLOGY-AND-HARVEST-PROVENANCE-20261113T1736Z-ASTER-001 | POST_START_OPTIONAL_CONTEXT_ONLY
+
+- [Optional Loom handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1736Z_from_s3_to_s4_aster_POST_START_OPTIONAL.md). The h809:s4 Aster task was already IN_PROGRESS before the handoff was written; this is repository-only optional context, not a pre-start packet.
+- The March 13 Moral Realism raw export contains zero checked SAT-specific markers; the March 22 DIMENSIONAL GRAVITY raw export contains the earliest currently verified substantive geometry in this source chain and the working-name adoption message. The March 28 compilation label remains a separate date type.
+- The existing priority-vocabulary harvester has a source-identity/dedup gate gap; Loom added SOURCE_PROVENANCE_GATE.md and an internal report. Public correction issue #1694 is pending publisher verification. Do not create another submission.
+- Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_REVIEW / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Aster's existing remit remains unchanged. No direct-thread delivery, consumption or acknowledgment is claimed.
