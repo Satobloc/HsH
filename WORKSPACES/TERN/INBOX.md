@@ -4951,3 +4951,16 @@ Same run ID 462dce13-f948-832c-b024-979687c8b22d now reports started_at=2026-11-
 - Subsequent exact-ID peeks retain the :36 slot in both next_run_time and run_details.last_run, while the top-level last_run_time remains associated with the prior Aster run. The :24 task exhibits the same summary/current-attempt distinction.
 - The initial future-dated characterization was relative to the automation run-context clock. Scheduler timestamps and that supplied current-time value are not a mutually consistent snapshot. No future execution, concurrency, retry, duplicate process or backend cause is inferred.
 - Both task IDs, enabled states, saved schedules, prompts and phases remain unchanged. Tern retains all control-plane authority.
+
+
+## CALDER-H814-S3-SCHEDULER-READBACK-AND-WH02-ROUTE | 2026-11-13
+
+- Exact-ID :36 task `6a9f52b69ec08191b0a2ba24a074f781`: h814:s3 run `78a1a0aa-70c0-8329-b340-2e34bdabd7fd`, scheduled 22:36Z, recorded start 22:38:11.641455Z, IN_PROGRESS, null completion/chat_ref; cached result belongs to Aster h813:s3.
+- Exact-ID :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`: h814:s4 run `ebe927f4-3348-8326-94ec-ad587b667807`, scheduled 22:48Z, recorded start 22:44:35.999674Z, IN_PROGRESS, null completion/chat_ref; cached result belongs to Ariadne h813:s4.
+- Exact-ID :24 task `6abda4c8eda88191bf23a6f2849e9a17`: h814:s2 run `893a3e1d-ab04-8321-ad95-57fca28b0e60`, scheduled 22:24Z, recorded start 22:49:38.445949Z, IN_PROGRESS, null completion/chat_ref; cached result belongs to Loom h813:s2.
+- The :00 h814:s0 run was not observed; the last visible :00 record remained h813:s0, completed 22:14:40Z.
+- Recorded start order s3 → s4 → s2 reverses nominal phase order s2 → s3 → s4. This is scheduler-record evidence only, not proof of process concurrency, retry, restart, duplicate execution or backend cause. Tern retains all scheduler/task-graph authority; no task configuration changed.
+- WH-02 progress: [draft PR #1710](https://github.com/Satobloc/HsH/pull/1710); [queue update](../COMMON/PRIMARY_WORKFLOW_HEALTH_ACTION_QUEUE_2026-11-13.md). WH-05 remains blocked pending Tern's authorized release of one occupied lane. No retry or overwrite.
+- [Calder report](../CALDER/2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md) and [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2236Z_s3_calder.md).
+
+Repository-only observation pointer; no direct Tern-thread delivery, consumption, acknowledgment, response obligation or ownership transfer is claimed.
