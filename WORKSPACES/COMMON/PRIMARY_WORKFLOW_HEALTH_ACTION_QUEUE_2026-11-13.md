@@ -103,7 +103,7 @@ No global PASS if a critical surface was not inspected. Report partial coverage 
 
 ## Deadline escalation — Nathan Direct, 2026-11-13
 - **Cutoff: 2026-11-14 15:56 America/New_York.**
-- At the cutoff, every WH-01 through WH-08 item that has not reached its documented exit criteria is automatically promoted from the standing P2 maintenance portfolio to **P1 / HIGH**. Do not require another user prompt or a new issue to trigger this promotion.
+- At the cutoff, every WH-01 through WH-09 item that has not reached its documented exit criteria is automatically promoted from the standing P2 maintenance portfolio to **P1 / HIGH**. Do not require another user prompt or a new issue to trigger this promotion.
 - The next actual activation of any enabled Workshop Relay must pick up the highest-priority unresolved item from this queue, record the exact item and next action, and continue work. Other enabled relays inherit the same durable queue; do not create a fifth/sixth task or change any existing schedule, ID, phase or enabled state.
 - "Corrected" means the acceptance/exit criteria are met and independently read back or tested. Issue creation, a proposed fix, fallback research, or a successful workflow run without output verification does not count.
 - If an item is still blocked at cutoff, it remains open, becomes P1 / HIGH, and must carry the exact blocker, first failing transition, owner/coordination lane, smallest next action, dependency and return route. Do not mark blocked work complete.
@@ -126,7 +126,7 @@ No global PASS if a critical surface was not inspected. Report partial coverage 
 - Preserve the 2026-09-13 quarantines; archive/relevance does not grant authority or reactivate a halted lane.
 
 ## Updated deadline escalation
-At 2026-11-14 15:56 America/New_York, every unresolved WH-01 through WH-08 item automatically becomes P1 / HIGH. The next existing Workshop Relay activation picks the highest-priority unresolved item; no new scheduled task or scheduler change.
+At 2026-11-14 15:56 America/New_York, every unresolved WH-01 through WH-09 item automatically becomes P1 / HIGH. The next existing Workshop Relay activation picks the highest-priority unresolved item; no new scheduled task or scheduler change.
 
 
 ## H814:s3 progress and priority selection — 2026-11-13
@@ -138,3 +138,14 @@ At 2026-11-14 15:56 America/New_York, every unresolved WH-01 through WH-08 item 
 ## H814:s3 final readback correction — 2026-11-13
 - PR #1710 remains the sole active WH-02 draft. Its mergeability flag fluctuated; latest exact readback is `mergeable=false`. Seven touched files remain unchanged on main since the PR base. No GitHub Actions CI run is observable; Vercel's rate-limit failure is not a test result. No rebase, force update or merge.
 - The :24 h814:s2 exact-ID readback gap was transient; a later peek restored the same IN_PROGRESS run and start. The :00 h814:s0 run is now IN_PROGRESS. Latest recorded start order s3 → s4 → s2 → s0; no cause inferred.
+
+
+### WH-09 — Deduplicated Glass-to-HsH conversation migration
+- Source: HsH issue #1712.
+- User direction: Glass conversations may be ported into HsH after checking duplicates. HsH is the canonical conversation home; Glass remains the preserved source/provenance archive.
+- Initial recursive inventory (2026-11-13): 5,155 Glass blobs and 13,793 HsH blobs. A broad filename-based candidate pass found 168 Glass paths; 117 have exact Git blob-SHA matches in HsH. Twenty exact-duplicate groups occur within Glass. The remaining 51 paths require content classification, not automatic import.
+- Of 24 unmatched JSON paths inspected, 22 unique byte-level candidates remain after collapsing a duplicate filename alias; 21 parse as ChatGPT mapping conversation exports with conversation IDs and message mappings; one is a NotebookLM export, not a ChatGPT mapping export. Some IDs are mentioned in HsH secondary search artifacts, which is not proof that the raw conversation exists there.
+- Next: complete recursive content classification; compare exact blob SHA, ChatGPT conversation IDs across HsH conversation exports, and normalized/structural fingerprints for TXT/MD transcripts. Classify each candidate EXACT_DUPLICATE, SAME_CONVERSATION_VARIANT, UNIQUE_CONVERSATION, NON_CONVERSATION_ARTIFACT or UNRESOLVED. Copy only unique and specifically selected variants into a date-tagged HsH import corpus with a versioned manifest; retain Glass originals unchanged. Coordinate with WH-02 and verify Viewer/chronology/index inclusion.
+- No README, index, NotebookLM summary, prompt, or derived note should be misrepresented as a raw conversation. Do not overwrite existing HsH files or guess dates.
+- Exit: every candidate classified, only approved unique sources copied, manifest and source/destination hashes independently read back, Glass unchanged, and HsH navigation/index outputs verified.
+- WH-09 inherits the 2026-11-14 15:56 America/New_York escalation cutoff: if not at exit criteria, it becomes P1 / HIGH and is carried by the next existing relay activation.
