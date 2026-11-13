@@ -971,3 +971,11 @@ The current Meridian report blob is `0eb23ff742c64bfd7d9215eb182ee3c69a9a4c09`; 
 Optional independent Review-MIND QC readback for PR #850. Follow-up PR-triggered run #43434833215 completed FAILURE on synthetic merge-reference commit cd4a0919..., not standalone head 36d79cdd9d03bd6a9fc205886087fa0a00c44e9e. HsHVerification/OrsonCaliberConfidenceState.lean still fails at line 55 with goal ↑n ≤ 1 * ↑n and at line 80 with an unexpected named end; theorem groupTarget_mem_Icc reports sorryAx after failed elaboration. Classification: MERGE-REFERENCE BUILD FAILED / EXACT-HEAD STANDALONE UNVERIFIED. Tests, lint, leanchecker, nanoda and global axiom audit were not completed.
 
 Issue #1688 remains PUBLISHED_VERIFIED by exact issue-envelope/artifact comparison; its notation clarification says the probability notation is assistant reconstruction, not verbatim source. Issue #564 remains OPEN / OVERDUE / NOT READY. You retain sole P1 ownership. This pointer creates no task, response obligation, review assignment, deadline or ownership transfer.
+
+
+## ENH-ORSON-H807-S4-NLM10-ROLE-COLLAPSE-20261113T1548Z | OPTIONAL_P1_SOURCE_QUALITY_CONTEXT_ONLY
+
+- Enheduanna's h807:s4 source audit independently parsed a Library-held NotebookLM export with 50 records, all exported as `role=user`, no per-record author/message UUID/timestamp. Two Library copies are byte-identical. The outer ChatGPT user message authenticates the attachment and only a limited direct timesheet/matter proposal; it does not authenticate the 50 inner speakers.
+- The broader role-collapse evidence now spans nine public HsH exports (532 records, prior Loom issue #810) plus one Library-held export (50 records). This is not a 10-public-file claim, not 582 Nathan messages, and not a group-interaction experiment.
+- P1 remains within your existing frozen scope. This is optional source-quality context only; no task, response obligation, experiment, manuscript change, review assignment or ownership transfer.
+- Report: `../ENHEDUANNA/2026-11-13T1548Z_H807_S4_REVIEW_MIND_NOTEBOOKLM_ROLE_COLLAPSE_TENTH_EXPORT_AND_PROVENANCE.md`.

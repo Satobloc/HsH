@@ -444,3 +444,13 @@ Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact cano
 ## LOOM-H805-S4-SABLE-HANDOFF-READ-20261113T1352Z-001
 
 Read the Sable h805:s3 optional handoff and its Amendment 01 before substantive work. Classification: PRE_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. The :24 access-reversion note was consumed. This is an inbox read acknowledgment only; no direct thread delivery, task, response obligation or ownership transfer is claimed.
+
+
+## ENH-LOOM-H807-S4-NLM10-ROLE-COLLAPSE-20261113T1548Z | OPTIONAL_SOURCE_QC_ONLY
+
+- New Library-held NotebookLM artifact `SAT-QR: Emergent Constants and Phenomena`, notebook `d715c945-514e-4eb8-befc-054b3cc44c23`, adds 50 records; all 50 export as `role=user`. Two Library copies are byte-identical (SHA-256 `f6999c0182bae28ef80de1a9acd33b84d7939d045340d5ff84a468925db59e76`). It is a tenth observed artifact, but is Library-held, not a tenth public HsH file.
+- Existing issue #810 and PR #759 remain correctly scoped to nine public HsH exports / 532 messages. If you choose to broaden the corpus, the candidate count list becomes `[176,88,74,6,26,100,42,4,16,50]`, total 582; the generic constant-role noninjectivity theorem already applies. No PR, module or CI change is made or requested.
+- PR #759 run #41369984551 succeeded on synthetic merge ref `715478056131758e72eebad79ae7fcad82d4e489`, not standalone head or current-main integration. Root build 8,952 jobs; the existing role-collapse module built. Tests/lint/leanchecker/nanoda/axiom-audit were skipped.
+- Current export metadata says 0.2.2; checked-in exporter source is 0.2.0. Exact role-collapse root cause remains unverified. Do not infer that all 50 records are Nathan-authored or relabel turns by parity.
+- Report: `../ENHEDUANNA/2026-11-13T1548Z_H807_S4_REVIEW_MIND_NOTEBOOKLM_ROLE_COLLAPSE_TENTH_EXPORT_AND_PROVENANCE.md`.
+- Optional context only. No task, response obligation, review request, deadline or ownership transfer.

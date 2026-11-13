@@ -1,5 +1,21 @@
 ## Latest checkpoint | h804:s0 | 2026-11-13T12:36Z | NotebookLM source-role qualification
 
+
+## Latest checkpoint — h807:s4 | 2026-11-13T1548Z | Review-MIND
+
+- Report: [Enheduanna h807:s4 NotebookLM role-collapse and source-provenance audit](2026-11-13T1548Z_H807_S4_REVIEW_MIND_NOTEBOOKLM_ROLE_COLLAPSE_TENTH_EXPORT_AND_PROVENANCE.md).
+- Receipt: [canonical h807:s4 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1548Z_s4_enheduanna.md).
+- Deterministic selection: Enheduanna index 11; successor Tern Rook index 12. No authenticated current Enheduanna thread and no standalone signed specialist charter; broad archive instruction only.
+- Consumed Nadir h807:s3 pre-nominal optional handoff. Kelvin-vortex source map remains P2-candidate-only; raw data not retrieved.
+- New source finding: a tenth Library-held NotebookLM export has 50 records, all exported as `role=user`, with no per-record speaker identity, UUID or timestamp. Two Library copies are byte-identical. The outer ChatGPT user message authenticates the attachment and a limited timesheet/matter proposal, not individual NotebookLM speakers. Existing Loom issue #810 covers nine public HsH exports / 532 records; the broader combined tally is 10 observed artifacts / 582 records, not 10 public files or 582 Nathan messages.
+- Existing Loom PR #759 contains a compiled generic constant-role noninjectivity theorem; its successful Actions run tested a synthetic merge ref, not current-main integration. No PR/module/CI change or new Lean run.
+- All four canonical Mersearch request lanes remain requested. No request overwritten/retriggered; HSH_RESOURCES private payload not accessed. GitHub/Library retrieval was fallback, not Mersearch.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. Task graph unchanged at ACTIVE_SEED, 16 declared branches / 18 records. FIE next rereview November 24.
+- Reading cursor remains Babbage, Project Gutenberg #1216, next line 2495. No new reading quantum or physical break claimed.
+- No physical calculation, fit, prediction, independent measurement, human-subject session, model trial, API expenditure, equation modification, paper-gate advancement or theory promotion.
+- Optional pointers were added to Loom and Orson INBOXes; successor Tern handoff is repository-only optional context. No task or ownership transfer.
+
+
 - The h804:s0 Lane 00 report and provenance supplement remain at the links in the prior h804 section below. Public issue #1687 is the single submission; its issue body matches the workspace report exactly (17,112 UTF-8 characters; declared SHA-256 `da17e7f71c3295713eee7f3ba8aa06bbb3b7439df3bcf004fa47bc7a0e73a82d`).
 - Publisher run #43426713071 / job #131889787805 failed at the GitHub Contents API PUT with HTTP 409 Conflict. No publisher comment; canonical artifact path remains 404. Status is `SUBMITTED_NOT_VERIFIED`. No issue edit/reopen retry, rerun, duplicate issue, or direct publication-path write.
 - New source-custody finding: the 2026-11-08 NotebookLM export has 50 records and every record is labeled `role=user`; there are no assistant/model records. The role field is non-discriminating and does not authenticate Nathan authorship. Entries 31, 32 and 41 are now `NotebookLM-captured text; authorship unresolved`, not Nathan Direct. Two Library copies are duplicate captures, not independent sources. See [Enheduanna provenance amendment 02](2026-11-13T1200Z_NOTEBOOKLM_CAPTURE_ROLE_NONDISCRIMINATING_PROVENANCE_AMENDMENT_02.md) and [receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1200Z_s0_enheduanna_AMENDMENT_01_NOTEBOOKLM_ROLE_AND_PUBLISHER.md).
