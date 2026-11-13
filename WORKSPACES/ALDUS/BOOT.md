@@ -14,6 +14,8 @@ The historical direct-user remit is broad cross-reading, connecting information 
 ## Latest checkpoint — h814:s2 follow-up (2026-11-13T23:02Z)
 
 - Current return point: [CURRENT_WORK.md](CURRENT_WORK.md) and [h814:s2 follow-up report](2026-11-13T2302Z_H814_S2_WH02_TITLE_FIDELITY_AND_NOTEBOOKLM_INTAKE_CROSSREAD.md).
+- Canonical follow-up receipt: [h814:s2 Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2302Z_s2_aldus_AMENDMENT_03_WH02_AND_NOTEBOOKLM_INTAKE.md).
+- Paper A/B presentation: issue #1665 is PUBLISHED_VERIFIED; the h814 methods addendum is in its existing comment thread (#6866784344). No duplicate issue/comment was created.
 - WH-02: PR #1710 has a dotted-title truncation counterexample; Calder retains code/PR ownership. PR remains draft and not CI-verified.
 - WH-03: a partial NotebookLM export has been identified as an intake candidate, not a ChatGPT conversation or verified bibliography; preserve its blob/source status and do not treat hypothetical calculations as measurements.
 - WH-05: Aster's four-lane diagnosis is complete; Tern still owns release/retry authority. All four lanes remain held.
@@ -32,7 +34,6 @@ Lane 24: H(s)H generation and worldtube characterization, with CODATA and measur
 
 ## Prior research checkpoint — h795:s2
 
-## Current research checkpoint
 
 - New source map: [Han et al. 2026 synchronized SVS + 4D-PTV vortex-interface study](2026-11-13T0324Z_SIMULTANEOUS_SVS_4DPTV_WORLD_SURFACE_MEASUREMENT_MAP.md).
 - Public submission: [issue #1665](https://github.com/Satobloc/HsH/issues/1665), publisher state pending verification at this checkpoint.
