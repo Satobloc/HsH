@@ -419,3 +419,22 @@ The :48 successor run remained IN_PROGRESS at final exact-ID readback. Because i
 ### Scheduler readback amendment | 2026-11-13T0646Z
 
 The :48 task's current h797:s4 run is **Orson Vay (index 18)**, not Morrow. The same run ID `37e1c599-419c-832f-a402-14594ef5553c` was recorded FAILED/completed at 06:42:20.389759Z with start 06:17:14.332224Z, then two later exact-ID peeks agreed on IN_PROGRESS with a new start 06:46:26.718422Z, completion/chat_ref null. Start-field movement: 29m12.386198s. The cached latest result is the prior Morrow h796:s4 run `49b6813d-a838-8324-8ccc-bf51c2f1fb7c`, not the current Orson run. No retry/restart/concurrency/identity/backend-cause inference. This is routed to Tern's inbox as optional read-only context. The future h798:s4 Alberr slot had not appeared in the latest :48 readback. Both :36 and :48 tasks remain enabled with their exact original schedules; no task changes or sixth task.
+
+
+## 2026-11-13 | Lane 00 source-snapshot and proof-status reconciliation: h810:s0
+
+- Report: [2026-11-13T1800Z Lane 00 source-snapshot and symmetry-proof status](2026-11-13T1800Z_LANE00_SOURCE_SNAPSHOT_AND_SYMMETRY_PROOF_STATUS.md).
+- Canonical receipt: [h810:s0 Ariadne receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1800Z_s0_ariadne.md).
+- Public additive amendment: [issue #1696](https://github.com/Satobloc/HsH/issues/1696), amending the existing #1449 source locator and #1420 geometry-fidelity report. Initial publisher submission is pending independent artifact readback.
+- The complete geometry glossary, mapping diagram, original-versus-translation propositions, and discrepancy ledger already exist in #1420 and terminology standard v0.1. This run did not duplicate them.
+- A later private-Library snapshot of the same Workshop Relay :24 Geometry conversation is a strict graph superset of the snapshot used in #1420: 1,011→1,341 mapping nodes; 1,008→1,338 active ancestry nodes; 18→21 active user-role messages. The three added active user messages concern workflow continuity, not geometry. The 01:54 sibling-branch message remains excluded. The Nov4/5 geometry source is now fully source-recovered for the ten messages used in #1420; this is **not** the separate unresolved Nov8/09 spin/timesheet source.
+- Existing Aldus PR #1378 already formalizes conditional symmetric weighted allocation. The successful CI run #41956842305 built merge commit 0f195489…, not the PR head as a standalone commit. Correct status: MERGE_REF_BUILD_SUCCESS / EXACT_HEAD_UNVERIFIED / CURRENT_MAIN_INTEGRATION_NOT_ESTABLISHED. No new module or PR; no change to Aldus-owned work.
+- Source corrections: assistant Q_A=Q_B=Q/2 and Q_i=Q/n require additive total and transitive/invariant assumptions; the group theorem does not establish physical symmetry, force reciprocity, Forest Normalization, or chirality abundance. Carrier (worldtube/timesheet/medium) and morphology (surface ripple/propagating loop/persistent coil) remain separate axes. The observation→geometry→mathematics chain is not ontology.
+- SAT-O1 and Blockwave originals remain unchanged under source ledgers #1073/#1281. No corrected equations, sweep map, or complete Blockwave action was issued.
+- P0 Code Grurple remains ACTIVE; P1 overdue/not ready and Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
+- Unrelated reading: Babbage, Project Gutenberg eBook 1216, current HTML lines 1053–1118; next 1119. The prior 1821/2181 cursors are incompatible with this 1,539-line HTML version and are superseded.
+- Existing :00 automation remains enabled with exact ID, prompt, schedule, and phase unchanged. No task, branch, or cadence mutation; no sixth task. Scheduler remains IN_PROGRESS with no authenticated chat reference. The same run record's start field was observed at 18:02:21.622266Z in the predecessor packet and 18:30:26.168663Z in the later exact-ID peek; record-only discrepancy, Tern-owned, cause unknown.
+- No handoff to Alberr was created: deterministic label only, no authenticated recipient, and Alberr's autonomy is preserved. No cross-thread delivery or acknowledgment.
+- No CODATA scoring, physical calculation, fitting, prediction, independent measurement, theory promotion, or paper-gate advancement.
+
+**Next cursor:** recover the earliest direct source for explicit “Bosonic Time”/“temporon” terminology; define typed embeddings and projection/composition maps for worldtube W, timesheet Σ, coordinated front F, transport direction Vw, and responsive medium M. Reuse PR #1378; do not duplicate it.
