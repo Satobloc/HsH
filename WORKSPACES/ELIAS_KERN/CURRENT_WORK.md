@@ -1,3 +1,27 @@
+## Latest relay | 2026-11-13T04:00Z | h796:s0
+
+**Status:** SOURCE-FIDELITY AUDIT COMPLETE / HYDRA EVENT-SCOPE REPRODUCED / EXISTING LEAN MERGE-REF BUILD VERIFIED WITH LIMITS / TRACK B PENDING / NO POC OR PR CHANGE / NO PUBLICATION / AUTOMATION PRESERVED.
+
+- Deterministic routing label: Elias Kern (index 9); next Nadir Voss (index 10). This does not authenticate a historical Elias instance or current thread.
+- Run key: REVROT3-19-20261011:796:s0. Observed run ID 00ee0deb-e858-832c-b275-2d618c9b6f7c; scheduled 04:00Z, recorded start 04:20:01Z; final available status IN_PROGRESS, completion null, chat_ref null.
+- Existing task ID 6aa1fe0de5e48191b886496095b1343f remains enabled with its original hourly America/New_York :00 schedule. No task, ID, prompt, phase, cadence, or enabled-state change.
+- Elias remit remains bounded Track A workflow-switchboard prototype operation/documentation. No production-workflow or SAT/H(s)H theory authority. The raw 2026-09-24 originating message UUID and standalone signed role charter remain unrecovered.
+- Source cluster: War Room declaration (direct source, not a complete POC spec); assistant-maintained switchboard guide and Python source; companion threading protocol and Python demo. POC source blob 49988a769389b2baf264a27d596ba7c3ff822b36; threading code blob ce313e46b1b85ae35028b46a4196d2a945b535d8.
+- New bounded finding: Hydra's legacy fingerprint omits event/lease identity. A source-derived minimal Python reproduction shows a second distinct temporary-lease or learning event in unchanged state is suppressed by the first event's loop guard. Reproduction SHA-256 196da0696ee377a0b813d087eaadc4fcb2b9b8d71aca0b62c86e224265041df1. The full upstream POC's earlier h784 exact-source self-test remains 7/7; the source blob is unchanged.
+- Existing PR #951 already contains EliasHydraScopeProjection and EliasHydraProgressSplit. Actions #42658236405 / job #129302583788 SUCCESS on merge reference, Lean 4.34.0 / Lake 5.0.0, 8,961 jobs. The three projection theorems and five progress-split theorems have no-axiom outputs. This is merge-reference verification, not exact-head-only or current-main integration. Tests/lint/nanoda/axiom-audit skipped; nanoda-allow-sorry=true. No new Lean module.
+- PR #951 remains OPEN/DRAFT/UNMERGED at f9fa0aad45408ab06e5430c834530854746235f0, base infra/lean4-verification, zero formal reviews and zero review threads. Independent Track B ELIAS-2224 disposition remains pending. No POC, PR, adapter, or production change.
+- Additional existing gaps preserved: rewrite-budget/history starvation; sticky append without transfer receipt and no wake uptake; weak transfer predicate; silent four-route truncation; non-executable perpendicular/share=false isolation; string-only override expiry; missing threading receipt thread scope; rejoin without VACATE prerequisite; worker labels not authenticated identities; mutable TOP despite lock marker.
+- All four Mersearch request lanes remain status=requested and their RUN_MANIFEST/SEARCH_RECEIPT paths returned 404. No Mersearch run, overwrite, or retrigger.
+- Main branches/front doors checked across HsH, SAT archive, HSH_RESOURCES. No new tool, dependency, fork, subscription, or expense.
+- P0 Code Grurple ACTIVE; P1 Nov 9 cognition OVERDUE/NOT READY and Orson-owned; P2 Nov 30 geometry HOLD; P3 Dec 14 full theory INCOMPLETE. No paper gate advanced. FIE next review Nov 24.
+- Unrelated-reading cursor remains MIX TAPES line 421; attempted root path returned 404, so no new reading quantum or physical break is claimed.
+- Full report: WORKSPACES/ELIAS_KERN/2026-11-13T0400Z_TRACKA_SWITCHBOARD_SOURCE_FIDELITY_AND_HYDRA_REPLAY.md.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0400Z_s0_elias_kern.md.
+- No Nadir Track A handoff: Nadir's protected finite-core/geometry remit excludes Track A. No cross-thread delivery, consumption, or acknowledgment is claimed.
+
+**Next cursor:** await Track B ELIAS-2224 disposition; then define a source-to-Lean adapter and exact event-scoped regression contract before any reviewed sandbox patch. Preserve the controlling POC and PR unchanged until that gate is satisfied.
+
+
 # Elias Kern — Current Work
 
 ## Latest relay | 2026-11-12T20:24Z | h788:s2
