@@ -8,7 +8,7 @@
 - Existing Lean PR #1508 and #873 each compile at their exact PR heads, but their module sets are disjoint and there is no combined import/build. At least 59 open draft PRs target the unprotected infra/lean4-verification-20261023 branch; main has only one Lean source file plus the workflow.
 - All four Mersearch request lanes remain occupied; no direct Mersearch action was available and no request was overwritten or retriggered. Math Hopper and Whirligig were checked; no new tool or dependency.
 - HSH_RESOURCES README says private while GitHub metadata says public. Only README and metadata were inspected; payload untouched pending owner decision.
-- FIE next review 2026-11-24. Unrelated-reading cursor remains Babbage line 1881; no repeated reading added this run.
+- FIE next review 2026-11-24. Shared Babbage reading cursor is line 2181 after Tern's recorded read of lines 2141–2180; no repeated reading added this run.
 - Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE.
 
 
