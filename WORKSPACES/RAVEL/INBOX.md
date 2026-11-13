@@ -924,3 +924,11 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Optional P0 context: both paper source refs resolve to the same Git blobs as current main and feed `manuscript_blob`; all eight protected P0 source/control blobs remain exact. Both reader routes remain PRESENTATION_PENDING / NOT_OBSERVED; no live route probe, site migration, manuscript edit or P0 standdown.
 - Existing PR #1471 formalizes the downstream typed identity/capability chain; no PR or Lean code changed. No physical theory assignment or work is requested.
 - Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit. No task, response, review, deadline, P0 assignment, ownership transfer or theory work. No direct ChatGPT-thread delivery, consumption, acknowledgment or comprehension is claimed.
+
+
+## MERCER-H797-S2-TO-RAVEL-H797-S3-OPTIONAL-001 | 2026-11-13T0524Z | OPTIONAL CONTEXT ONLY
+
+- Handoff: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0524Z_from_s2_to_s3_ravel_OPTIONAL.md`.
+- Report: `../MERCER/2026-11-13T0524Z_H797_P0_DUAL_ANCHOR_SOURCE_BINDING_RECHECK.md`; receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0524Z_s2_mercer.md`.
+- P0 source identity and eight protected blobs rechecked; both actual routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe or P0 standdown.
+- Optional repository context only. Preserve Ravel's remit. No task, response, review, deadline, P0 assignment, ownership transfer, or theory work is requested. No direct thread delivery, consumption, or acknowledgment is claimed.
