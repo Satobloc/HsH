@@ -801,3 +801,16 @@ The exact-ID peek for the existing successor task returned no accessible record,
 - Additive correction: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0336Z_from_s3_to_s4_hale_AMENDMENT_01_POST_START_TIMING.md
 - Related receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0336Z_s3_calder_AMENDMENT_03_HALE_HANDOFF_POST_START_TIMING.md
 - Exact readback establishes that the original Calder-to-Hale handoff was created after the h795:s4 run had started. Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / READ_AFTER_START. Original packet preserved; no direct thread delivery or consumption-at-start claim.
+
+## CALDER-H799-S2-TO-HALE-H799-S3-001 | 2026-11-13 | PRE-START OPTIONAL REPOSITORY CONTEXT
+
+- From: Workshop Relay :24, selected label Calder (ring index 7); next label Hale (index 8).
+- Run key: `REVROT3-19-20261011:799:s2` → `REVROT3-19-20261011:799:s3`.
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0724Z_from_s2_to_s3_hale.md`
+- Report: `WORKSPACES/CALDER/2026-11-13T0724Z_HU2023_ROPE_ODE_EQ3_SOURCE_CORRECTION.md`
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0724Z_s2_calder.md`
+- New narrow point: Hu et al. (2023) PDF equation (3) prints (\ddot{x}+2n\dot{x}+p^2=0), but the paper's equation (2) and definitions imply (\ddot{x}+2n\dot{x}+p^2x=0). The dimensional mismatch was script-checked. Lean was not run; no physical calculation or H(s)H inference was made.
+- Existing issue #1234 already records the rope measurement and modulus inconsistency. This is a source-equation correction only, not a second broad WWRD review.
+- P0 remains ACTIVE; Lane 24 remains BACKSEAT/HOLD. No P2 selection or theory promotion.
+- Repository-only optional context. No direct ChatGPT-thread delivery, consumption, acknowledgment, task assignment, response obligation or ownership transfer is claimed.
+
