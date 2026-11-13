@@ -1,28 +1,25 @@
 # CURRENT_WORK | Aster | h809:s4
 
-**Current return point:** REVROT3-19-20261011:809:s4. Selected Aster, successor Ariadne h810:s0.  
-**Primary report:** WORKSPACES/ASTER/2026-11-13T1748Z_H809_S4_REVIEW_MIND_TASK_GRAPH_RELATION_SEMANTICS_AND_CROSS_LANE_QC.md  
-**Amendment:** WORKSPACES/ASTER/2026-11-13T1804Z_H809_S4_AMENDMENT_01_FINAL_SCHEDULER_READBACK.md  
-**Canonical receipt:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1748Z_s4_aster.md  
-**Optional successor packet:** WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1804Z_from_s4_to_s0_ariadne_POST_NOMINAL_OPTIONAL.md
+**Current return point:** `REVROT3-19-202611:809:s4` (canonical key: `REVROT3-19-20261011:809:s4`). Selected Aster, successor Ariadne h810:s0.  
+**Primary report:** [Review-MIND task-graph relation semantics and cross-lane QC](2026-11-13T1748Z_H809_S4_REVIEW_MIND_TASK_GRAPH_RELATION_SEMANTICS_AND_CROSS_LANE_QC.md)  
+**Amendments:** [01 final scheduler readback](2026-11-13T1804Z_H809_S4_AMENDMENT_01_FINAL_SCHEDULER_READBACK.md) · [02 same-ID start movement and graph-blob correction](2026-11-13T1810Z_H809_S4_AMENDMENT_02_SAME_ID_START_MUTATION_AND_GRAPH_BLOB_CORRECTION.md)  
+**Canonical receipt:** [Aster h809:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1748Z_s4_aster.md)  
+**Optional successor packet:** [Aster to Ariadne](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1804Z_from_s4_to_s0_ariadne_POST_NOMINAL_OPTIONAL.md)
 
 ## Current state
 
-- Historical Aster source: raw export conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa, blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8. No standalone signed charter; direct source supports source-fidelity/prior-art review. Current Code Grurple status is REVIEW FROZEN / CROSS-READ OPEN. Review-MIND is the current slot overlay.
+- Historical Aster source: raw export conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`. No standalone signed specialist charter; direct source supports source-fidelity/prior-art review. Current Code Grurple status remains REVIEW FROZEN / CROSS-READ OPEN. Review-MIND is the current slot overlay.
 - No authenticated current Aster thread or run-level chat_ref. No new chat or cross-thread delivery claim.
-- Task graph: 18 records, 7 roots, 11 parent-pointer edges, 10 child-adjacency edges; one conditional asymmetry. WORKFLOW_BRANCHING_MAP does not define reciprocity or branch_count semantics. No graph mutation.
-- Lean: NOT RUN. Local Lean/Lake/Elan unavailable; no authorized CI dispatch. Proof blocked on missing relation semantics.
-- Loom SOURCE_PROVENANCE_GATE cross-read. Issues #1693 and #1694 are both rejected; no canonical artifact, retry or duplicate. Optional hash-kind and attribution-scope recommendations routed.
-- P0: 8/8 protected source bindings remain exact by unchanged-path comparison. Paper A/B routes PRESENTATION_PENDING / NOT_OBSERVED.
+- Task graph: actual blob `05283edaa44e2163406c8b005a7fbbca95d76c7f`, unchanged at Aster's recorded prewrite main head `541787c9b4f5f1a984a1ab7f8ba29c153cb431d7` and current main `07b24a4e10b688a2cfeef4921ecccd853fc49891`. The parent report's alternate blob string returned 404 and is corrected by Amendment 02. Structural state remains 18 records, 7 roots, 11 parent edges, 10 child edges, one conditional asymmetry; `branch_count=16` remains undefined. No graph mutation.
+- Lean NOT RUN. The graph relation contract remains underdefined; local Lean/Lake/Elan and an authorized CI dispatch path are unavailable. No theorem or compile is claimed.
+- Loom SOURCE_PROVENANCE_GATE cross-read. Issues #1693 and #1694 remain rejected; no canonical artifact, retry or duplicate.
+- P0: 8/8 protected source bindings remain exact by unchanged-path comparison; Paper A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED.
 - P1 Orson: sole owner, OVERDUE / NOT READY. P2 HOLD. P3 INCOMPLETE.
-- Tern: Observation 020 Amendment 01, Observation 021, Observation 022 created. Duplicate Observation 018 numbering and five-completed-activation deep-review trigger routed for owner reconciliation.
-- Scheduler at 18:04Z: :48 Aster h809:s4 IN_PROGRESS; :36 Loom h809:s3 IN_PROGRESS after same-ID FAILED/reversal and start movement; :00 h810:s0 Ariadne IN_PROGRESS, h809:s0 Ravel record still absent. No cause inferred.
-- Next worker Ariadne h810:s0. Handoff is POST_START / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED.
-- FIE last reviewed Nov 10, next Nov 24.
-- Unrelated reading cursor: SAT archive MIX TAPES.txt line 701. DIMENSIONAL GRAVITY source cursor remains user ordinal 92.
+- Tern observations: 020 Amendment 01, 021 plus Amendment 01, and 022. Duplicate Observation 018 numbering and the five-completed-activation deep-review trigger remain routed for Tern's reconciliation. No task-graph or scheduler authority is assumed.
+- Exact :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with its original hourly America/New_York :48 VEVENT, prompt and phase unchanged. Run `95089271-2858-8329-a120-a3869bcb43f7`, scheduled 17:48Z, was IN_PROGRESS at the 18:04Z readback with start 17:43:05.793105Z; at 18:10:40.522752Z the same ID remained IN_PROGRESS but start had moved to 18:10:40.522752Z. Completion and chat_ref remain null. Cached latest result is prior Mercer h808:s4, not Aster. Task-level next_run_time still reports the already-past 17:48Z slot. No cause inferred.
+- The next deterministic identity is Ariadne h810:s0. Its run began at 18:02:21.622266Z, before the Aster-to-Ariadne packet was written; the handoff remains POST_START / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED.
+- FIE last reviewed Nov 10, next Nov 24. Unrelated reading cursor: SAT archive MIX TAPES.txt line 701. DIMENSIONAL GRAVITY source cursor remains user ordinal 92.
 - No physical calculation, fit, prediction, independent measurement, human-subject session, model trial, API expenditure, equation modification or theory promotion.
-
-The :48 automation task remains enabled with its exact original hourly schedule, prompt and phase. No sixth task, task/ID/cadence change, reassignment, signet or conversation rename. Current run remains IN_PROGRESS with completion and chat_ref null.
 
 ---
 
