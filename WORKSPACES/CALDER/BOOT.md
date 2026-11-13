@@ -31,3 +31,8 @@
 4. Keep measured, calibrated, inferred, fitted, predicted and assistant-derived items distinct.
 5. Preserve negative results and nulls. Never treat frames, particles, pixels, channels or repeated impacts as independent units without source-backed unit lineage.
 6. No new task, task ID, cadence, signet, chat rename or theory promotion.
+
+
+## Latest checkpoint | 2026-11-13 h807:s0
+
+Lane 00 source-fidelity report: [Moving-slice / WWRD rope geometry crosswalk](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-11-13T1500Z_LANE00_MOVING_SLICE_WWRD_GEOMETRY_FIDELITY.md). Issue #1690 was submitted once through the existing publisher; status remains SUBMITTED_NOT_VERIFIED pending publisher comment and canonical artifact readback. Core unresolved map: theta_I versus theta_4, physical rope body/centerline versus SAT 1D filament/worldtube. No physical calculation or CODATA. Next cursor and source IDs are in the report and CURRENT_WORK. No authenticated current Calder thread or cross-thread delivery is claimed.
