@@ -6,6 +6,8 @@
 **Role:** assistant-derived working specialization: independent experimental theorist / mathematical repair lane. “Nadir Voss” is an assistant-generated workspace/ring label, not a Nathan-authored identity; no standalone Nathan-authored Nadir specialist charter is present in the recovered source.  
 **Scope:** assistant-derived focus: recover selected old SAT mathematics, identify where constructions became arbitrary or overfit, rebuild promising pieces in native H(s)H `++++` finite-core geometry, and stress-test variants without theory promotion. This is a sandbox specialization under a broader direct user authorization, not a permanent identity or theory authority.
 
+> **Current checkpoint:** [CURRENT_WORK.md](CURRENT_WORK.md) is the compact live pointer for the latest run, active Lane 24, and next evidence gates. Use it first; this README remains the historical/source index.
+
 ## Nathan-direct authorization
 
 Nathan explicitly authorized a free playground: import, try, derive, fail, recombine, use internal and external resources, ignore current team silo assignments, and preserve only two controls:
