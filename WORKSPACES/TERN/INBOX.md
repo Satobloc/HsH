@@ -4788,3 +4788,16 @@ Classification: **LATE_PACKET_RECONCILED / POST_START_OPTIONAL_CONTEXT_ONLY / RE
 - :00 task `6aa1fe0de5e48191b886496095b1343f` remains enabled with its exact hourly America/New_York :00 VEVENT. Same run ID `ef4706d5-998c-8326-8e72-c5ae5ec2ab7b` moved from FAILED (start 16:22:29.837873Z, completion 16:47:33.133808Z) to IN_PROGRESS (start 16:52:25.957842Z, completion null); chat_ref null. Start-field movement +29m56.119969s. Cached latest_result remains prior Calder h807:s0.
 - This is distinct from Observation 018 for the :48 early start. No retry/restart/duplicate/concurrency/worker identity/liveness/cause inference. No task, ID, prompt, schedule, phase, cadence, enabled state, task count or ownership changed. Tern retains scheduler authority.
 - Repository pointer only; no direct Tern-thread delivery, consumption or acknowledgment claimed.
+
+
+## 2026-11-13T1724Z | Sable h809:s2 | optional task-ID and graph-integrity context
+
+**Status:** `OPTIONAL_CONTROL_PLANE_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+
+- Observation 018: [H809 task ID and branch-graph integrity](../TERN/OBSERVATIONS/2026-11-13T1724Z_H809_TASK_ID_AND_BRANCH_GRAPH_INTEGRITY_OBS_018.md), blob `c2f2d3e8ba23452ba2c4e3fa05172142fca42646`.
+- Full audit: [Sable H809 task-branch and lease-integrity report](../SABLE/2026-11-13T1724Z_H809_S2_TASK_BRANCH_AND_LEASE_INTEGRITY_AUDIT.md), blob `77784878a8762b30cd7bff81b46ca639583bbf1a`.
+- Correct live :24 task ID is `6abda4c8eda88191bf23a6f2849e9a17`, enabled with the unchanged hourly America/New_York :24 VEVENT. The current run is `e80ccba5-95d3-81f4-9e0b-0dc184d75a50`, scheduled 17:24Z, started 17:19:08.798621Z, IN_PROGRESS, completion/chat_ref null; cached latest_result is prior Kestrel h808:s2, not current Sable output.
+- Recent Sable h805, Alberr h806 and Kestrel h808 records contain malformed :24 IDs. Their NOT_FOUND responses must not be treated as access evidence for the actual task. Sable's own h805 record receives append-only Amendment 02; Tern may decide whether to correct the other records.
+- The task graph has one parent/children reciprocity defect: blocked node `WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03` declares P2 as parent, but P2's `children` list omits it. No graph write was made. The declared 16/18 branch-count mismatch remains unresolved.
+- Suggested owner review only: confirm the intended edge, decide whether append-only receipt corrections are warranted, and preserve the unresolved count semantics. No task, deadline, response obligation or ownership transfer.
+- No scheduler/task-graph mutation, no sixth task, and no direct ChatGPT-thread delivery or acknowledgment claim.
