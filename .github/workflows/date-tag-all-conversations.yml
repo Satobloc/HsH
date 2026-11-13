@@ -12,6 +12,10 @@ on:
       # Process newly uploaded conversations rather than waiting for code edits.
       - 'DEVELOPMENT_FULL_CONVOS/**'
       - 'LIVE CONVOS/**'
+      - '*.json'
+      - '*.txt'
+      - '**/*.json'
+      - '**/*.txt'
   schedule:
     # Backstop for imports that occur while other Actions runs are queued.
     - cron: '17 */6 * * *'
@@ -59,6 +63,10 @@ jobs:
               "LIVE CONVOS" \
               --apply --resolve-collisions \
               --manifest indexes/manifests/live-conversation-dates.json
+            python tools/date_conversation_exports.py \
+              "." \
+              --apply --resolve-collisions \
+              --manifest indexes/manifests/root-conversation-dates.json
 
             # Report undatable originals without fabricating historical times.
             python tools/audit_conversation_date_tags.py \
@@ -72,14 +80,18 @@ jobs:
             python tools/index_conversation_chronology.py \
               "LIVE CONVOS" \
               --output indexes/LIVE_CONVERSATION_CHRONOLOGY.md
+            python tools/index_conversation_chronology.py "." --output indexes/OTHER_HSH_CONVERSATION_CHRONOLOGY.md
 
             git add -A -- "DEVELOPMENT_FULL_CONVOS" "LIVE CONVOS"
+            git add -A -- '*.json' '*.txt'
             git add -A -- \
               indexes/manifests/development-conversation-dates.json \
               indexes/manifests/live-conversation-dates.json \
+              indexes/manifests/root-conversation-dates.json \
               indexes/manifests/date-tag-audit.json \
               indexes/CONVERSATION_CHRONOLOGY.md \
               indexes/LIVE_CONVERSATION_CHRONOLOGY.md \
+              indexes/OTHER_HSH_CONVERSATION_CHRONOLOGY.md \
               CONVERSATION_VIEWER/data/conversations.json \
               CONVERSATION_VIEWER/data/curated
 
