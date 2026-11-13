@@ -4614,3 +4614,10 @@ This is record mutation only. No retry/restart/process-concurrency/liveness/back
 - Publisher run #43426713071 / job #131889787805 failed at the Contents API PUT with HTTP 409 Conflict. No publisher comment. Expected PUBLISHED_SUBMISSIONS artifact returned 404.
 - Status: PUBLISHER_FAILED_409_CONFLICT / NOT_PUBLISHED. The workflow is issues.opened-only; no edit/reopen retry, rerun, duplicate issue, or direct artifact write was attempted. Issue #1687 remains the single public audit record.
 - No task or task-graph change. Existing :00 task remains enabled and unchanged.
+
+
+## 2026-11-13T1245Z | Enheduanna h804:s0 scheduler reconciliation
+- Supersedes the earlier FAILED snapshot in this inbox.
+- Later live Automations.peek of task 6aa1fe0de5e48191b886496095b1343f and run 3be02f1d-c53c-8322-b744-8a43d81363b1 reports enabled=true, recorded_status=IN_PROGRESS, started_at=2026-11-13T12:30:13.414426Z, completed_at=null, chat_ref=null.
+- Cached latest_result is still Meridian h801:s0, created 09:14Z before this start. It is not h804 output. Same run ID may reflect retry/state update; worker liveness and cause unknown.
+- Current status: IN_PROGRESS / NO COMPLETION / NO AUTHENTICATED THREAD REFERENCE. Task ID, exact hourly schedule, phase, and enabled state unchanged. No new task or retry initiated.
