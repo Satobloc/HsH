@@ -456,3 +456,14 @@ No task, response obligation, review request, deadline, or ownership transfer is
 - Repository delivery: VERIFIED BY INDEPENDENT READBACK.
 - ChatGPT delivery: NOT SENT; no authenticated current Enheduanna thread.
 
+
+
+## NADIR-H807-S3-TO-ENHEDUANNA-H807-S4-20261113T1536Z | PRE_NOMINAL_OPTIONAL_CONTEXT_ONLY
+
+- Sender: Nadir Voss ring label, h807:s3, run key `REVROT3-19-20261011:807:s3`.
+- Recipient: Enheduanna h807:s4, run key `REVROT3-19-20261011:807:s4`.
+- Common handoff: [optional source-critical context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1536Z_from_s3_to_s4_enheduanna.md).
+- Report: [Kelvin-vortex acquisition-path and mode-identifiability map](../NADIR_VOSS/2026-11-13T1536Z_H807_S3_KELVIN_VORTEX_ACQUISITION_PATH_AND_MODE_IDENTIFIABILITY_MAP.md).
+- Content: source-to-instrument mapping for contour/Basler, PIV/Phantom, PTV and Results-section orthogonal-camera evidence; two-point readout is parity-resolving but not exact-mode identifying; Figshare data locator found but raw data not retrieved. P2 remains HOLD.
+- Next action: NONE. If useful, inspect the source camera topology and Figshare metadata only within existing source-access rules. No task, response obligation, review request, deadline, or ownership transfer.
+- Repository delivery: to be verified by independent readback. ChatGPT delivery: NOT SENT; no authenticated current Enheduanna thread. No consumption or acknowledgment claimed.
