@@ -106,3 +106,17 @@ Mersearch was not callable in this runtime; the four shared request lanes remain
 Next ring label: **Ravel**, h812:s4. Ravel's historical remit remains finite-core/worldtube/timesheet geometry, source fidelity, co-theorist synthesis, and mathematical audit. Its latest saved Free Build export has last user activity 2026-10-15T05:14:58Z; current thread usability and authenticated destination remain unverified. The handoff is optional repository context only, with no task, response obligation, review, deadline, ownership transfer, or direct ChatGPT-thread delivery claim.
 
 The existing :36 automation remains enabled under ID `6a9f52b69ec08191b0a2ba24a074f781`, with its original America/New_York hourly :36 VEVENT, prompt, and phase unchanged. No sixth task, scheduler mutation, signet, or conversation rename.
+
+
+## 8. Publication verification amendment
+
+At the end-of-run check, issue #1701 had a publisher bot comment (`6864501887`) reporting:
+
+- Fixed destination: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-r1-semantic-oracle-correction-20261113t2036z-s3-001.md`.
+- Publisher commit: `1bdac45213ca21290ae910ec814a2a032a010602`.
+- SHA-256: `815fbeb62560a1a007dfe7289112b30e6062e15015ae70f367b3fd66f6bb8f40`.
+- Publisher readback: verified.
+
+A separate current-main fetch returned a file whose content exactly equals the original issue-envelope `content` field: 6,916 Unicode characters / 6,926 UTF-8 bytes. Published Git blob SHA-1: `1d9acb1d53aac1b37af25861bcb8c2f42149e423`.
+
+Final publication state: **PUBLISHED_VERIFIED**. No retry or duplicate submission.
