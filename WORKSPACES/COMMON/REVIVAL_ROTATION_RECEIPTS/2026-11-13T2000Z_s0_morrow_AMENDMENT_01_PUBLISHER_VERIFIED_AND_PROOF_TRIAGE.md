@@ -44,3 +44,31 @@ The current Nathan Direct Lane 00 instruction explicitly says to formalize clear
 - Existing optional Morrow → Kestrel h816:s0 handoff already exists and its pointer is already in Kestrel's inbox. It is updated additively; no duplicate packet is created.
 - No authenticated current Morrow thread, direct cross-thread delivery, recipient consumption, or acknowledgment is claimed.
 - No theory integration, physical calculation, fit, prediction, CODATA scoring, equation correction, paper-gate advancement, or BEDROCK promotion.
+
+
+## SAT-O1 / Blockwave verbatim source spot-check | 2026-11-13T20:40Z
+
+### SAT-O1
+
+- Canonical SAT archive file: `SATOBLOC/SAT O1 4D.txt`; duplicate paths `SATOBLOC MISC/SAT O1 4D.txt` and `SAT_O REWRITE/SAT 4D/SAT O1 4D.txt` were fetched and are byte-identical.
+- HsH archive copy `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SAT O1 4D.txt` is also byte-identical. The previously cited HsH path `SATOBLOC MISC/SAT O1 4D.txt` itself returned NOT_FOUND; use the verified 30SEP26_DUMP path.
+- Git blob: `7577aa1ee5a6c3850ce3b226c75377de6367aedc`; 3,521 characters / 75 lines.
+- Independently computed UTF-8 SHA-256: `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937`.
+- File-index/document date: 2025-06-09; first extant SAT archive commit previously verified as 2025-10-27T00:40:28Z. The file is unbylined; these dates do not authenticate equation-level authorship.
+- Verbatim source equations:
+  \\(\\gamma^\\mu(\\lambda)=(\\lambda,A_x\\sin(k_x\\lambda+\\phi_x),A_y\\sin(k_y\\lambda+\\phi_y),A_z\\sin(k_z\\lambda+\\phi_z))\\)
+  \\(v^\\mu(\\lambda)=\\frac{d\\gamma^\\mu}{d\\lambda}\\)
+  \\(S[\\gamma]=\\int d\\lambda\\,L(\\gamma^\\mu,v^\\mu),\\quad L=\\frac12 m v^\\mu v_\\mu-V_{\\mathrm{tension}}(\\gamma)\\)
+- The artifact defines a 1D curve \\(\\gamma:\\mathbb R\\to\\mathbb R^{3,1}\\) and describes a 4D worldtube as the volume swept by vibration, but supplies no explicit sweep/thickening map. It calls \\(m\\) a tension mass-equivalent parameter without defining units or linear density.
+
+### Blockwave
+
+- HsH path: `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt`.
+- Git blob: `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`; 24,627 characters / 384 lines.
+- Independently recomputed UTF-8 SHA-256: `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`; this matches the earlier attachment extraction ledger for this exact content.
+- User-supplied attachment event: conversation `68c990dd-df28-832e-b766-c267190aaffa`, message `0f3707aa-c0ae-4bb1-bc59-6333c025cf1c`, 2025-09-16T16:31:34.670358Z. User supply does not authenticate embedded authorship; classify content as authorship unresolved / NOT NATHAN DIRECT.
+- The artifact states `J^{\\mu\\nu}` is a conserved two-form filament-worldsheet current, with `\\nabla_\\mu J^{\\mu\\nu}=0`, and includes the potential representation `J^{\\mu\\nu}=\\tfrac12\\epsilon^{\\mu\\nu\\rho\\sigma}\\nabla_\\rho B_\\sigma`. These are artifact contents, not authenticated Nathan Direct equations.
+- Separate 2025-10-19 assistant action: conversation `68f4d9b5-b908-832e-940e-6782db174a4a`, raw blob `1f074cc67057ae9df1e92bab45e8ba34c96b0d77`, user request `fa1e045d-a7ff-4dcf-8110-ae9fa555a54a` at 12:29:41.119Z, assistant message `121d607d-53e7-4b5a-8a7a-75d7e09deb3d` at 12:29:46.538Z. The assistant action is 4,073 characters and is not byte-identical to the 24,627-character September attachment. It is a separate assistant reconstruction, not the attachment's origin and not Nathan Direct.
+- Keep Blockwave `J^{\\mu\\nu}` distinct from SAT20's vector current `J^\\mu`, SAT-O1's 1D curve `\\gamma), and any proposed 3-form current. No support/projection/Hodge map is established. No corrected equation was produced and neither original was altered.
+
+This is source custody and type/provenance comparison only, not validation of the equations or physical interpretation.
