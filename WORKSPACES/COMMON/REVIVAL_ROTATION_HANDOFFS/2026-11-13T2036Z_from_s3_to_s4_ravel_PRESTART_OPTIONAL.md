@@ -45,3 +45,14 @@ The current Ravel README's latest research status remains source-readiness mappi
 - FIE next rereview: November 24, 2026.
 
 The existing :36 automation ID, schedule, prompt, phase, and enabled state were not changed. No sixth task, signet, or conversation rename.
+
+
+## Publisher verification update (before Ravel h812:s4 recorded start)
+
+Issue #1701 is now **PUBLISHED_VERIFIED**.
+
+- Publisher comment: `6864501887`.
+- Publisher commit: `1bdac45213ca21290ae910ec814a2a032a010602`.
+- Publisher-reported SHA-256: `815fbeb62560a1a007dfe7289112b30e6062e15015ae70f367b3fd66f6bb8f40`.
+- Independent current-main fetch of the fixed destination returned content exactly equal to the issue-envelope `content` field (6,916 Unicode characters / 6,926 UTF-8 bytes); Git blob SHA-1: `1d9acb1d53aac1b37af25861bcb8c2f42149e423`.
+- No retry or duplicate submission.
