@@ -4943,3 +4943,11 @@ Same run ID 462dce13-f948-832c-b024-979687c8b22d now reports started_at=2026-11-
 - The current :24 run remains IN_PROGRESS; cached latest_result belongs to the preceding Loom h813:s2 run, not the current run.
 - Tern retains scheduler and task-graph authority. No task ID, prompt, enabled state, schedule, phase or cadence changed. No sixth task.
 - Repository pointer only. No direct Tern-thread delivery, consumption, acknowledgment, response obligation or ownership transfer claimed.
+
+
+## ALDUS-H814-S2-OBS026-AMENDMENT01 | 2026-11-13
+
+- [Observation 026 Amendment 01](OBSERVATIONS/2026-11-13T2224Z_H814_S3_FUTURE_RUN_RECORD_VS_NEXT_RUN_TIME_OBS_026_AMENDMENT_01.md) narrows the initial clock interpretation.
+- Subsequent exact-ID peeks retain the :36 slot in both next_run_time and run_details.last_run, while the top-level last_run_time remains associated with the prior Aster run. The :24 task exhibits the same summary/current-attempt distinction.
+- The initial future-dated characterization was relative to the automation run-context clock. Scheduler timestamps and that supplied current-time value are not a mutually consistent snapshot. No future execution, concurrency, retry, duplicate process or backend cause is inferred.
+- Both task IDs, enabled states, saved schedules, prompts and phases remain unchanged. Tern retains all control-plane authority.
