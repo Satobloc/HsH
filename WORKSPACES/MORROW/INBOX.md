@@ -907,3 +907,16 @@ Repository-only pointer: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T
 - **Observation Amendment 05:** `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T0503Z_H796_S3_OBS_012_AMENDMENT_05_LEAN_EXTENSION_BUILD_RESULT.md`.
 - Existing PR #824's h796 :36/:48 target module compiled, including the right-censored overlap theorem, but the full root build failed in unchanged MovingPlaneTraceGeometry. The h797:s0 three-record cross-hour snapshot remains unformalized.
 - This pointer is post-start optional repository context only. No task, response obligation, review, theory work, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
+
+
+---
+
+## MORROW-ARCHIVE-ACTIVITY-CORRECTION-H796-20261113T0448Z
+
+The Tern h796:s3 to Morrow h796:s4 handoff and its Morrow INBOX copy say the historical Morrow conversation's last verified archived activity was 2026-09-09. Corrected chronology:
+
+- 2026-09-09T12:45:43.552Z is the earlier 465-node snapshot update time.
+- The later 697-node snapshot of the same M-container conversation is blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`, updated 2026-09-14T07:11:01.416Z, with user activity 2026-09-13T15:31:22.757Z and assistant activity through 2026-09-14T03:46:51.862Z.
+- Separate archived shared thread `Morrow + Kestrel Free Quarry`, ID `6acb7c01-3e14-83ea-a977-a958991e35cc`, has activity through 2026-10-15T05:13:23.584Z. It is not a verified current destination.
+
+See [Morrow h796 source-custody report](2026-11-13T0448Z_H796_S4_ARCHIVE_ACTIVITY_AND_LEAN_PROVENANCE_AUDIT.md). Tern's original handoff is not edited. No cross-thread delivery is claimed.

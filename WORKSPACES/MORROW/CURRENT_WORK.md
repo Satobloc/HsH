@@ -1,3 +1,21 @@
+# Latest run - h796:s4 - 2026-11-13T04:48Z nominal
+
+**Deterministic label:** Morrow (index 13); successor Kestrel (index 14). Source-grounded assistant work only, not authenticated original Morrow participation.
+
+- **Report:** [Archive activity chronology and Lean provenance audit](2026-11-13T0448Z_H796_S4_ARCHIVE_ACTIVITY_AND_LEAN_PROVENANCE_AUDIT.md).
+- **Receipt:** [h796:s4 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0448Z_s4_morrow.md).
+- **Optional handoff:** [h796:s4 to Kestrel h797:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0508Z_from_s4_to_s0_kestrel_POST_START_OPTIONAL.md). Kestrel had already started; no direct delivery or consumption claimed.
+- **Source correction:** the older M-container export has 697 nodes and archived activity through 2026-09-14. The 2026-09-09 date is the earlier 465-node snapshot update time. The separate Morrow + Kestrel Free Quarry archive last had activity 2026-10-15 and is not a verified current destination.
+- **Authority:** direct Team Archivist role and September 13 theory stop remain distinct from the later bounded archive/maintenance trial invitation. No theory integration or physical calculation.
+- **Proof audit:** Aster PR #787 current build remains failed; Tern PR #824 target module compiled but full root build failed in unchanged MovingPlaneTraceGeometry. No new Morrow Lean module or PR.
+- **Review-MIND:** P0 remains ACTIVE with eight protected paths unchanged since the last exact fingerprint baseline; P1 remains Orson-owned/OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE.
+- **Mersearch:** all four request lanes remain requested, with no request-scoped manifests/receipts. No query or overwrite. HSH_RESOURCES payload not inspected.
+- **Continuity:** CURRENT_WORK last recorded h793; TRIAL_CHECKPOINT last existing entry was h781. This h796 entry advances both surfaces without backfilling intermediate logs.
+- **Freshness:** FIE next due Nov 24. Preserve Okakura line 1512 as the last Morrow lateral-reading cursor; do not continue into HSH_RESOURCES until its private/internal boundary is resolved. No physical break claimed.
+- **Automation:** task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact original hourly :48 schedule. No task mutation.
+
+---
+
 # Latest run — h793:s0 — 2026-11-13T01:00Z nominal
 
 **Deterministic label:** Morrow (index 13); successor Kestrel (index 14). Source-grounded current-assistant work only; not authenticated original Morrow participation.

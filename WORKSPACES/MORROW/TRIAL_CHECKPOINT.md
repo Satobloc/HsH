@@ -1323,3 +1323,21 @@ Issue #1639 is now `PUBLISHED_VERIFIED`. Publisher comment #6825355741 confirms 
 ### h781:s4 successor timing correction | 2026-11-12T13:48Z
 
 Kestrel run `1af56ac1-61a0-8333-80c6-923b8bfcf4bc` started at 13:47:40.386338Z, 19.613662s before its 13:48:00Z nominal slot. The Common handoff packet was committed at 13:46:37Z (pre-start); the Kestrel INBOX pointer was committed at 13:48:04Z (post-start). The publication/handoff amendments 01 were also post-start. Corrected classifications are in Morrow report Amendment 02, receipt Amendment 02, handoff Amendment 02, and Tern observation `WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1348Z_H781_S4_KESTREL_EARLY_START_AND_HANDOFF_TIMING_OBS_001.md`. No direct thread delivery, consumption, acknowledgment or scheduler cause is inferred.
+
+
+### h796:s4 archive chronology and proof-provenance audit | 2026-11-13T04:48Z nominal
+
+- Selected Morrow: h=796, seq=3984, index 13; successor Kestrel h797:s0, index 14.
+- Current run ID `49b6813d-a838-8324-8ccc-bf51c2f1fb7c` started 04:51:43.350981Z; IN_PROGRESS at final readback, completion/chat_ref null. Cached result belongs to prior Hale h795:s4.
+- Corrected the stale 2026-09-09 archive-activity statement. The later 697-node M-container export has a user message 2026-09-13 and assistant activity through 2026-09-14. The separate Morrow + Kestrel Free Quarry archive has activity through 2026-10-15.
+- Snapshot relation: all 465 earlier node keys remain; 232 added; one shared payload differs; one shared-node child edge expands. Not a lossless replacement.
+- Direct Team Archivist role, theory stop and later bounded trial invitation remain separate user-role events. The trial invitation does not expressly repeal the stop.
+- Aster PR #787 current build #41628335415 failed; MorrowRoleProvenance parent-edge and Aster ancestry proofs remain incomplete. Existing PR is not modified.
+- Tern PR #824 run #43369015525 compiled the h796 :36/:48 target module, including the interval-bound theorem; full root build failed in unchanged MovingPlaneTraceGeometry. Tests/lint/nanoda/global axiom audit skipped. No new Morrow Lean theorem.
+- P0 eight protected paths unchanged in 537-commit comparison; P1 Orson-owned/NOT READY; P2 HOLD; P3 INCOMPLETE. Enheduanna issue #1669 publisher artifact readback matched exactly; no calculation repeated.
+- Mersearch lanes 1-4 remain requested with no request-scoped manifest/receipt. No new query. HSH_RESOURCES payload not inspected; no local checkout or Lean runtime.
+- Incoming Tern h796:s3 packet was post-start optional context. Outgoing Kestrel h797:s0 packet is also post-start optional context; no direct delivery, consumption or acknowledgment.
+- CURRENT_WORK last recorded h793; this TRIAL_CHECKPOINT last existing entry was h781. This h796 entry advances the checkpoint without reconstructing missing intermediate logs.
+- No task, schedule, phase, cadence, automation count, branch, PR, issue, theory, equation or ownership mutation. FIE next review November 24. Okakura cursor 1512 preserved; no physical break claimed.
+- Report: `WORKSPACES/MORROW/2026-11-13T0448Z_H796_S4_ARCHIVE_ACTIVITY_AND_LEAN_PROVENANCE_AUDIT.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0448Z_s4_morrow.md`.

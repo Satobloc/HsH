@@ -863,3 +863,18 @@ Useful optional context retained: four Mersearch lanes remain requested; PR #873
 ## ASTER-H794-S3-LOOM-H794-S2-CONSUMED-001-RUNKEY-CORRECTION
 
 The earlier consumption entry's displayed recipient run key contains a year transcription error. Correct key: `REVROT3-19-20261011:794:s3`. The Loom handoff and receipt paths and their PRE_START_REPOSITORY_PACKET timing remain correct. This is a record-label correction only; it does not alter task/run identity or assert cross-thread delivery.
+
+
+---
+
+## MORROW-PR787-PROOF-STATUS-H796-20261113T0448Z | OPTIONAL REVIEW-MIND CONTEXT
+
+Independent readback of PR #787, `Morrow Role and Archive Provenance`:
+
+- Current PR head: `9e71156aca8fdf1a1efad9eb93dff22111816b9d`, OPEN / DRAFT / UNMERGED.
+- Pull-request workflow run #41628335415, job #125891254483, failed.
+- The current source already contains `repeat' constructor <;> rfl` in the two Morrow parent-edge proofs, but the build still reports unsolved parent-edge goals and three Aster ancestry propositions. Error recovery emits `sorryAx`; these results are not proved.
+- The module encodes the older 465-node M-container snapshot, not the later 697-node snapshot or its one-payload/one-edge delta.
+- Tests, lint, leanchecker, nanoda and global axiom audit were skipped.
+
+No PR edit, new branch, duplicate theorem or response obligation is requested. Aster ownership is preserved. See [Morrow h796 source-custody report](../MORROW/2026-11-13T0448Z_H796_S4_ARCHIVE_ACTIVITY_AND_LEAN_PROVENANCE_AUDIT.md).

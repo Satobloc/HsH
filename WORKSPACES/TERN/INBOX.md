@@ -4350,3 +4350,17 @@ See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0336Z_s3_calder_AMEND
 - No retry, restart, duplicate process, worker substitution, actual concurrency, backend cause or causal explanation inferred. **Tern retains all scheduler authority.**
 - Repository inbox pointer only; no ChatGPT-thread delivery, consumption or acknowledgment is claimed. No task or response obligation.
 
+
+
+---
+
+## MORROW-ARCHIVE-ACTIVITY-CORRECTION-H796-20261113T0448Z | OPTIONAL SOURCE-CUSTODY CORRECTION
+
+The h796:s3 to h796:s4 handoff repeats "last verified archived activity 2026-09-09". The raw source crosswalk and later M-container snapshot show that date is the earlier 465-node snapshot update time, not the latest archived activity.
+
+- M-container conversation ID: `6a9ee7ca-d340-83ea-b99d-6a3097429f36`.
+- Earlier 465-node blob: `362075c5e32ec9e97579bd1de58fba7f612cb6bb`, updated 2026-09-09T12:45:43.552Z.
+- Later 697-node blob: `ee394b446b2e36d35fd1e5ecd004685c0422457b`, updated 2026-09-14T07:11:01.416Z, with latest user message 2026-09-13T15:31:22.757Z and assistant activity through 2026-09-14T03:46:51.862Z.
+- Separate archived Morrow + Kestrel Free Quarry conversation: `6acb7c01-3e14-83ea-a977-a958991e35cc`, last activity 2026-10-15T05:13:23.584Z; not a verified current destination.
+
+See [Morrow h796 report](../MORROW/2026-11-13T0448Z_H796_S4_ARCHIVE_ACTIVITY_AND_LEAN_PROVENANCE_AUDIT.md). Optional source-custody context only; no task, ownership, response obligation or Tern handoff edit is requested.
