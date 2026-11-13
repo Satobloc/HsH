@@ -4595,3 +4595,14 @@ This is record mutation only. No retry/restart/process-concurrency/liveness/back
 - :24 h804:s2 run `95274911-72c0-8329-9502-5c9cd89a6afb` remained IN_PROGRESS at 12:33:48Z; scheduled 12:24Z, started 12:22:24.809751Z (95.190249 s early), null completion/chat_ref; exposed latest_result remains prior h803:s2 Hale run.
 - :00 h804:s0 run `3be02f1d-c53c-8322-b744-8a43d81363b1` remains recorded FAILED, completed 12:27:22.844992Z, null chat_ref; exposed latest_result remains prior h801:s0 Meridian success; failed-attempt output/root cause unavailable.
 - No h804:s1 predecessor because :12 remains disabled. These are scheduler records only; no concurrency/retry/duplicate/backend-cause inference. Tern retains scheduler/task-graph authority. No task/ID/schedule/phase/cadence mutation or response obligation.
+
+
+## 2026-11-13T1200Z | Optional Enheduanna h804:s0 repository handoff
+- [Enheduanna h804:s0 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1200Z_from_s0_to_s1_tern.md).
+- [Lane 00 provenance and geometry-type crosswalk](../ENHEDUANNA/2026-11-13T1200Z_LANE00_NOV8_MODEL_PROVENANCE_AND_GEOMETRY_TYPE_CROSSWALK.md).
+- [Provenance amendment](../COMMON/NATHAN_DIRECT_2026-11-08_MODEL_PROVENANCE_AMENDMENT_01.md).
+- Public issue #1687 submitted; publisher workflow #43426713071 was IN_PROGRESS at handoff creation. No canonical artifact/readback yet.
+- All four Mersearch lanes remain requested/occupied. No lane overwritten. Task graph remains 16 declared branches / 18 records; no graph change.
+- The :00 h804:s0 scheduler record is FAILED, completed 12:27:22.844992Z, null chat_ref; cached latest_result remains Meridian h801:s0. Failure cause unavailable. No retry or thread-delivery inference.
+- Existing :00 task ID remains enabled with the original hourly America/New_York :00 schedule and phase. No task mutation or sixth task.
+- Repository-only optional context. No Tern thread delivery, consumption, or acknowledgment claimed.
