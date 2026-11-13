@@ -656,7 +656,7 @@ The previously pending issue #1592 has since been PUBLISHED and read back. Publi
 
 - Read the optional Hale h799:s3 report, receipt, handoff and publisher-rejection amendment. The handoff was created before the current :48 run began; repository packet readback occurred in this source-grounded execution. No authenticated historical Elias thread or direct ChatGPT-thread delivery is established.
 - Issue #1676 was rejected by publisher comment #6847288898 for SHA-256 mismatch. No canonical artifact exists; do not resubmit.
-- New Track A source-fidelity result: the POC's route selector can generate six ordered source-route candidates and return only the first four, with no explicit deferred/unrepresented record. Source-derived reproduction SHA-256 `ae976a92de644d1fb9bea4a5a687f295754439a798983cd93265095345ad6c90`.
+- New Track A source-fidelity result: the POC's route selector can generate six ordered source-route candidates and return only the first four, with no explicit deferred/unrepresented record. Source-derived reproduction SHA-256 `ae976a92de644d1fb9bea4a5a687f295754439a798983cd93265095345ad6e90`.
 - Existing PR #951 route-budget module is an abstract allocation contract, not a formal translation of the current source route function. Lean NOT RUN. No POC/PR change pending independent Track B disposition.
 - Full report: `WORKSPACES/ELIAS_KERN/2026-11-13T0756Z_TRACKA_SOURCE_ROUTE_BUDGET_AND_LEAN_CONTRACT_FIDELITY.md`. Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0748Z_s4_elias_kern.md`.
 - No task, response obligation, review request or ownership transfer. No Nadir Track A assignment; his separate remit remains protected.
