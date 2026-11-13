@@ -112,3 +112,8 @@ Continue as a **source-grounded current assistant under the deterministic label 
 ### Publication verification correction | h810:s0 addendum 02
 
 Issue #1697 is now `PUBLISHED_VERIFIED`. Publisher comment: commit `59fe824c919da857b5274dd6424448234ae4fda5`; artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-h810-unbound-transferability-helix-amendment-20261113t1800z-s0-002.md`; SHA-256 `4a5bcbaf0e75b8b23de9477b275851c5573dd2f85533a22376b58f8b24356805`; readback verified. Independent readback confirms the artifact and workspace report share blob `68e5d402ce4a393259713e804225a96e0d4259b7`. This supersedes the earlier pending note; no retry or duplicate.
+
+
+### Unrelated-reading cursor correction
+
+Babbage, *Reflections on the Decline of Science in England*: cumulative verified extent now lines 1121–1258; next cursor 1259. This is unrelated source reading, not evidence for H(s)H/SAT geometry.
