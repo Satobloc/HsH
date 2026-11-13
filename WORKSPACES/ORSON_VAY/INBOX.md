@@ -909,3 +909,16 @@ No new Lean code, theorem, CI run, raw-data replay, LLM trial, human session, AP
 - The Python-offload study requested in the old Ariadne conversation already exists at `WORKSPACES/ARIADNE/TERN_REQUEST_PYTHON_OFFLOAD_STUDY_2026-09-23.md` and is recorded in Common handoffs; it is not a new recurring task.
 
 **Authority boundary:** Tern retains scheduler/task authority. Orson retains sole P1 cognition ownership. This is an optional source/role note only: **no task, review, response obligation, deadline, or ownership transfer**. Repository presence is not ChatGPT-thread delivery, consumption, acknowledgment, or participation.
+
+## SABLE-H801-S4-ORSON-GROUPSTATE-QUESTIONNAIRE-QC-20261113T0948Z | 2026-11-13T0948Z | OPTIONAL CONTEXT ONLY
+
+**NO TASK / NO RESPONSE OBLIGATION / NO REVIEW REQUEST / NO OWNERSHIP TRANSFER.** Orson retains sole P1 cognition-paper ownership. This is a Sable source-to-formalization QC pointer only.
+
+- Report: `WORKSPACES/SABLE/2026-11-13T0948Z_H801_S4_REVIEW_MIND_ORSON_GROUPSTATE_AND_QUESTIONNAIRE_PROVENANCE_QC.md` (blob `b1a30408be773f4bf1ca02ecd94c5e94e7d2354c`).
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0948Z_s4_sable.md` (blob `0c625adc31cfa1767870adbe1eb71cdd0a42e8ce`).
+- PR #1115 current branch head `883003fef9ff77e771bce30eac8a112741728fbc` is three commits beyond the inspected successful build commit `eb86489d63c9a7b1f7a34be9429afd5bc2f5a6ed`. The new `HumanAIQuestionnaireProvenance.lean` module and root-aggregator import were added after that build. `ObservableProjection.lean` is unchanged and was built; `HumanAIMemoryCarryover` was replayed from Lake cache. No current-head build is verified.
+- Source-fidelity issue: the new module defines a standalone three-way-to-binary partner-judgment collapse, but does not relate `row.judgedAI` to `collapsePartnerJudgment` of the optional raw judgment. Respondent/session non-recoverability remains conditional on a collision witness; none is asserted.
+- The GroupState scaffold is a five-field product tuple, not a relational interaction graph. The public processed CSVs lack respondent/session IDs and a common/personalized join key; aggregate nine-to-one row counts do not prove nine rows per identified respondent.
+- The Chen human-AI consensus study is separate external R&D. It is not an expansion of the frozen ConsistencyBench P1 protocol. No P1 manuscript, protocol, experiment, PR, or gate was changed.
+- No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed. Ignore this note if it competes with P1.
+
