@@ -90,3 +90,21 @@ For each activation record:
 - scheduler_integrity: four IDs/phases/enabled states checked; no scheduler mutation
 
 No global PASS if a critical surface was not inspected. Report partial coverage explicitly.
+
+### WH-06 — Repository issue and fork governance audit
+- Source: HsH issue #1705.
+- Objective: determine whether the 1.4k open issue backlog and reported 100+ forks are deliberate/governed or process-generated accumulation; separate issue counts from pull requests and actual forks from branches, clones, mirrors and network counts.
+- Initial verified snapshot (2026-11-13): HsH has 1,443 open issues + 194 open PRs = 1,637 combined `open_issues_count`; HsH, Glass, HSH_RESOURCES and Factory Floor each report `forks_count=0`. The reported 100+ therefore needs exact source identification, not assumption.
+- Next: preserve paginated issue/PR and repository/fork snapshots; classify creation patterns and issue lifecycles; inspect issue-producing workflows for unbounded generation, duplicate creation and missing idempotency; identify fork lineage and provenance.
+- Coordinator: Tern / Comptroller for cross-repo census; HsH workflow maintainer for issue-generation audit.
+- Exit: source-backed counts, taxonomy, root-cause assessment, intentional-vs-accidental fork disposition, and non-destructive repair proposal. No mass-close, fork deletion, detachment or visibility change without separate authorization.
+
+## Deadline escalation — Nathan Direct, 2026-11-13
+- **Cutoff: 2026-11-14 15:56 America/New_York.**
+- At the cutoff, every WH-01 through WH-06 item that has not reached its documented exit criteria is automatically promoted from the standing P2 maintenance portfolio to **P1 / HIGH**. Do not require another user prompt or a new issue to trigger this promotion.
+- The next actual activation of any enabled Workshop Relay must pick up the highest-priority unresolved item from this queue, record the exact item and next action, and continue work. Other enabled relays inherit the same durable queue; do not create a fifth/sixth task or change any existing schedule, ID, phase or enabled state.
+- "Corrected" means the acceptance/exit criteria are met and independently read back or tested. Issue creation, a proposed fix, fallback research, or a successful workflow run without output verification does not count.
+- If an item is still blocked at cutoff, it remains open, becomes P1 / HIGH, and must carry the exact blocker, first failing transition, owner/coordination lane, smallest next action, dependency and return route. Do not mark blocked work complete.
+- P1 escalation does not override P0 emergencies or Nathan's protected P1 commitments. Within the available operational portfolio, prioritize by dependency leverage and unblock potential, with Mersearch and core archive/navigation reliability ahead of downstream expansion unless new evidence changes the order.
+- Each activation must read this deadline rule and compare the current time with the cutoff; the rule is durable and survives this conversation ending.
+
