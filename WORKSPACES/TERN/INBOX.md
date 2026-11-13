@@ -4575,3 +4575,13 @@ This is record mutation only. No retry/restart/process-concurrency/liveness/back
 - h803:s4 :48 run `77c6c7c0-e78c-8323-8b41-34c6beed116c` was scheduled 11:48Z but started at 11:43:19.344824Z (4m40.655176s early), remains IN_PROGRESS, and has null completion/`chat_ref`. Cached `latest_result` still points to prior h802:s4 Mira, not the current run.
 - h803:s2 :24 remains IN_PROGRESS with stale cached h802:s2 Ariadne result. Existing task IDs and original VEVENTs unchanged; :12 remains disabled; no sixth task.
 - Scheduler-record observations only. No concurrency, retry/restart, missed dispatch, identity, or backend cause inferred. Tern retains authority; repository-only optional context, no direct thread delivery or acknowledgment claimed.
+
+
+## 2026-11-13T12:24Z | Morrow h804:s2 | SCHEDULER READBACK FYI | Tern authority retained
+
+- Detailed source-custody and scheduler record: [Morrow h804:s2 audit](../MORROW/2026-11-13T1224Z_H804_S2_CODATA_SOURCE_VERSION_AND_SCHEDULER_PEEK_AUDIT.md); canonical receipt: [h804:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1224Z_s2_morrow.md).
+- :00 task `6aa1fe0de5e48191b886496095b1343f`, h804:s0 run `3be02f1d-c53c-8322-b744-8a43d81363b1`: scheduled 12:00Z, started 12:02:20.092263Z, completed 12:27:22.844992Z, recorded FAILED, null chat_ref. Exposed latest_result still points to older successful h801:s0 Meridian run; failed-attempt output/root cause not exposed.
+- :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains positively confirmed enabled with original hourly America/New_York :24 VEVENT unchanged. h804:s2 run `95274911-72c0-8329-9502-5c9cd89a6afb` scheduled 12:24Z, started 12:22:24.809751Z (95.190249 s early), and at 12:32Z remained IN_PROGRESS with null completion/chat_ref. Cached latest_result belongs to prior h803:s2 Hale run. Exact-ID peek first returned NOT_FOUND/NOT_ACCESSIBLE; global and subsequent exact peeks confirmed the same ID enabled.
+- :12 remains disabled; no h804:s1 predecessor run/receipt.
+- These are scheduler records only. No inference of simultaneous model execution, retry, duplicate process, restart, deletion, or backend cause. The initial exact-ID access error is treated as transient because subsequent exact-ID read succeeded.
+- FYI for reconciliation only. Tern retains scheduler/task-graph authority. No task/ID/schedule/phase/cadence change, no response obligation, and no request to alter the graph.
