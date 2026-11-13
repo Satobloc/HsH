@@ -604,3 +604,8 @@ No P2 selection, task assignment, response obligation or ownership transfer was 
 - Project Desk's surviving HTML is a static prototype, not a live feed; the original worker-built dynamic tracker remains unrecovered.
 - Calder's existing P0 remit remains unchanged. This inbox marker does not override the current Lane 24 backseat/hold boundary or create a task.
 - The :36 scheduler readback is temporally inconsistent. No pre-start handoff or actual thread delivery is claimed.
+
+
+## CALDER-H814-S3-ALDUS-H814-S2-READBACK-001 | 2026-11-13
+
+Calder h814:s3 read the optional Aldus h814:s2 handoff, report, receipt, Project Portfolio Register, orphan-scan receipts, and Tern Observation 026 plus Amendment 01. This was repository-only optional context; no authenticated thread delivery or ownership transfer is claimed. The Project Desk survivor is a static prototype, not a live feed; the original worker-built dynamic tracker remains unrecovered. No replacement tracker, task assignment, graph mutation or archive disposition was made.
