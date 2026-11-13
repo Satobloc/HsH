@@ -6,6 +6,10 @@ on:
     paths:
       - 'tools/conversation_json_sniff.py'
       - 'tools/date_conversation_exports.py'
+      - 'tools/audit_conversation_date_tags.py'
+      - 'tools/index_conversation_chronology.py'
+      - '.github/workflows/maintain-navigation.yml'
+      - '.github/workflows/date-tag-all-conversations.yml'
       - 'tools/discover_external_conversations.py'
       - 'tools/build_conversation_viewer.py'
       - 'tools/build_conversation_viewer_resolved.py'
@@ -17,11 +21,16 @@ on:
     paths:
       - 'tools/conversation_json_sniff.py'
       - 'tools/date_conversation_exports.py'
+      - 'tools/audit_conversation_date_tags.py'
+      - 'tools/index_conversation_chronology.py'
+      - '.github/workflows/maintain-navigation.yml'
+      - '.github/workflows/date-tag-all-conversations.yml'
       - 'tools/discover_external_conversations.py'
       - 'tools/build_conversation_viewer.py'
       - 'tools/build_conversation_viewer_resolved.py'
       - 'tools/search_archive_content.py'
       - 'tests/test_json_content_indexing.py'
+      - 'tests/test_date_conversation_exports.py'
       - '.github/workflows/conversation-json-content-ci.yml'
 
 permissions:
@@ -40,6 +49,8 @@ jobs:
           python -m py_compile \
             tools/conversation_json_sniff.py \
             tools/date_conversation_exports.py \
+            tools/audit_conversation_date_tags.py \
+            tools/index_conversation_chronology.py \
             tools/build_conversation_viewer.py \
             tools/build_conversation_viewer_resolved.py \
             tools/discover_external_conversations.py \
