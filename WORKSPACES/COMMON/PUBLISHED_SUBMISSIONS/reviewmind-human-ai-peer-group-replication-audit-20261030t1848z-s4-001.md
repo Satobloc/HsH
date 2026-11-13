@@ -1,7 +1,7 @@
 # Review-MIND: human–multi-LLM peer groups, replication unit, and reusable platform
 
 **Date:** 2026-10-30  
-**Status:** SOURCE AUDIT COMPLETE; formalization PR #1115 is DRAFT and its repaired exact-head Lean CI run is PENDING.  
+**Status:** SOURCE AUDIT COMPLETE; formalization PR #1115 remains DRAFT. Run #41115603417 completed successfully on the GitHub merge ref; exact-head-only verification remains PENDING.  
 **Evidence class:** Full-text literature review + public code/data audit + conditional formalization. Not an independent replication or human-subject experiment.
 
 ## Executive finding
@@ -73,7 +73,7 @@ Branch: review/human-ai-group-unit-identifiability-20261030t1848z
 
 The new module transcribes the eight condition counts and proves their arithmetic totals. It also proves a conditional identifiability theorem: if a treatment level occurs in exactly one group/session, its treatment indicator equals that group's indicator; shifting a nonzero amount between the group intercept and treatment coefficient leaves every fitted value unchanged. Thus those coefficients are not separately identifiable under that premise.
 
-The first exact-head run failed on three proof errors; the module was repaired in commit c029318b96a07fc433ed16a9082cb2e7b29002ea. The repaired exact-head run #41115603417 is still in progress at publication time. **Do not call the module compiled until the repaired exact-head CI completes successfully and theorem-specific axiom output is inspected.**
+The first run failed on three proof errors; the module was repaired in commit c029318b96a07fc433ed16a9082cb2e7b29002ea. At the original publication time, the repaired CI run was still in progress. It later completed successfully, but a subsequent log replay shows that it checked out the PR merge ref, not the exact PR head. Therefore the module is compiled on the combined PR-plus-base tree; exact-head-only verification remains pending. See the replay correction below.
 
 Lean proves only the formalized conditional arithmetic and algebra. It does not prove the source interpretation that there was one session per condition, validate the data, establish soundness of the translation, or determine whether the paper's causal claims are true.
 
@@ -101,3 +101,23 @@ Do not choose a sample size by intuition. Power analysis requires a pilot estima
 - VEY-004 remains QUEUED.
 - Orson's ConsistencyBench P1 work remains separate and protected. No Nov 9 minor, Nov 30 major, or Dec 14 full-theory paper gate was advanced.
 - HSH_RESOURCES remains a research shelf, not H(s)H theory bedrock.
+
+
+## Replay correction — 2026-11-02
+
+The successful status of run #41115603417 is verified, but the earlier **exact-head** label was incorrect.
+
+- PR head: `c029318b96a07fc433ed16a9082cb2e7b29002ea`.
+- PR base: `0efbc7ae1577c37ee36b6bcdb4a0fb7c17ee619c`.
+- Merge commit checked out by Actions: `ba9078146dc6eda198070cd40a7e750067b392b2`.
+- The job log explicitly fetched `refs/remotes/pull/1115/merge` and reported `HEAD is now at ba90781 Merge c029318b... into 0efbc7ae...`.
+- The `verify` job completed successfully. This is a **successful merge-ref build**, not an exact-head-only build. The run's API `head_sha` field equals the PR head, but that field does not describe the commit actually checked out by the job.
+
+The new `HumanAIGroupsSessionConfounding` module's theorem-specific axiom output includes:
+- `eachConditionHas24Slots`: no axioms.
+- `reportedHumanCount`, `reportedAgentCount`, `reportedTotalSlots`: `propext`.
+- `treatmentIndicator_eq_groupIndicator`, `linearPredictor_shift_invariant`, `shiftedCoefficients_areDistinct`, `groupTreatmentCoefficients_not_identifiable`: `propext`, `Classical.choice`, and `Quot.sound`.
+
+These are the reported Lean dependencies of the formalized theorems, not evidence that the source transcription or statistical model is valid. The merge-ref log also prints axiom output for `OrsonP1PeerMajorityAlignment`; that module belongs to the PR's Orson P1 base branch and must not be attributed to the new group-confounding module.
+
+PR #1115 remains DRAFT and unmerged. No change was made to Orson's P1 branch or paper gate. Exact-head-only verification remains pending.
