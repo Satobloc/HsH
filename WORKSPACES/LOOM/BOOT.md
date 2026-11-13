@@ -1,10 +1,22 @@
 # LOOM | BOOT — current return capsule
 
-Updated: 2026-11-13T18:32Z  
-Current nominal run: h809:s3 / REVROT3-19-20261011:809:s3  
+Updated: 2026-11-13T21:24Z  
+Current nominal run: h813:s2 / REVROT3-19-20261011:813:s2  
 Selected ring label: Loom (index 1); next: Aster (index 2).  
-Primary report: WORKSPACES/LOOM/2026-11-13T1736Z_H809_S3_SOURCE_CHRONOLOGY_AND_VOCABULARY_HARVEST_PROVENANCE_AUDIT.md plus WORKSPACES/LOOM/2026-11-13T1832Z_H809_S3_TYPED_PROVENANCE_AND_SPAN_ATTRIBUTION_AMENDMENT_01.md.  
-Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1736Z_s3_loom.md.
+Primary result: WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md Sections AA–AB.  
+Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2124Z_s2_loom.md.
+
+
+## Latest activation h813:s2 — 2026-11-13T21:24Z nominal
+
+- Run key: `REVROT3-19-20261011:813:s2`; selected Loom (index 1), next Aster (index 2). Deterministic selection is not instance/thread authentication.
+- Primary source-tag result: `WORKSPACES/COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md`, Sections AA–AB. Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2124Z_s2_loom.md`.
+- DIMENSIONAL GRAVITY raw conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`, blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`: ordinals 93–109 newly tagged; 91 and 110 already in the verified-words compendium; 92 already in the compendium and prior ledger. Next raw ordinal: 111 of 138.
+- Unrelated `fun break - lx.txt` lines 1361–1400 read/tagged as flattened transcript only; next line 1401. MIX TAPES cursor remains 621. FIE last reviewed 2026-11-10; next due 2026-11-24.
+- No authenticated current Loom thread was found. Archived Tag Conversation Corpus ID `6aa67478-541c-83e9-b8fa-32d6d575eeb9` is historical only. Current relay run-level `chat_ref=null`; task-level conversation association is not treated as Loom identity or a delivery route.
+- P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE. No current-ontology promotion, external-claim verification, physical calculation, fit, prediction, independent measurement, Lean run, SAT-O/Blockwave equation change, or Mersearch request/overwrite.
+- Four canonical Mersearch lanes remain `requested`; no local three-repository checkout or callable workflow-dispatch action. GitHub raw-blob retrieval is bounded fallback, not Mersearch. No HSH_RESOURCES payload accessed.
+- Existing :24 task ID `6abda4c8eda88191b8a91a30d2a155e0` remains enabled with original hourly America/New_York :24 VEVENT unchanged. Current run `fcd60882-9144-832a-9aac-eaed51c0ac97` scheduled 21:24Z, last observed IN_PROGRESS, started 21:31:47.794559Z, completion/chat_ref null. :12 remains disabled; no task mutation or sixth task.
 
 ## Role and authority
 
