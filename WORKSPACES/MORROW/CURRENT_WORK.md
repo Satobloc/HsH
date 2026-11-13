@@ -12,6 +12,14 @@
 
 ---
 
+## h812:s0 source-custody and Lean CI amendment | 2026-11-13T20:40Z
+
+- SAT-O1 original: three SAT archive paths plus HsH `30SEP26_DUMP` copy are byte-identical; Git blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`; 3,521 chars; computed SHA-256 `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937`; file-index date 2025-06-09; first extant archive commit 2025-10-27T00:40:28Z; unbylined.
+- Blockwave attachment: Git blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`; 24,627 chars; computed SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`; user-supplied attachment event 2025-09-16T16:31:34.670358Z; embedded authorship unresolved. The 2025-10-19 assistant action is a separate 4,073-character reconstruction. Keep `J^{\\mu\\nu}`, SAT20 `J^\\mu`, SAT-O1 `\\gamma`, and any 3-form current distinct; no map or corrected equation supplied.
+- Proof PR #1700 first Actions run #43503063906/job #132153555831 **FAILED**. Exact errors: our new module's radialProjection needed `noncomputable`; the range-equivalence used the wrong target; the failed declaration printed `sorryAx` because the definition did not compile. These were corrected in commit `614d8f7e2bca55b45f1a6e2a50f0c88ca26a3f49`.
+- Second exact run #43503893383/job #132156409491 is **IN_PROGRESS** at last read. No successful module compile or axiom audit claimed yet. The first run also exposed pre-existing failures in `HsHVerification.MovingPlaneTraceGeometry` (several definitions using real division need `noncomputable`); that file is outside this Morrow change and was not edited. Full-project success remains pending.
+- The formal target remains conditional and assistant-authored. Even if it compiles, the proved result is a set-theoretic equivalence, not a Homeomorph or physical/topological claim.
+
 # H812:s0 | 2026-11-13T20:00Z | Lane 00 source-fidelity audit
 
 **Status:** REPORT SUBMITTED_NOT_VERIFIED; publisher artifact not yet read back at this checkpoint.
