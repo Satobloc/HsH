@@ -1,3 +1,12 @@
+## 2026-11-13T1644Z | h808:s3 | final scheduler and successor readback
+
+- Receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1636Z_s3_meridian_AMENDMENT_02_FINAL_SCHEDULER_AND_SUCCESSOR_READBACK.md`.
+- :36 run `1716181c-43b0-8321-b798-2322412d906c` remains IN_PROGRESS, started 16:31:11.837097Z, completion null, chat_ref null; cached result is prior Nadir h807:s3. Tern Observation 017 Amendment 01 already records the earlier chat_ref-present / later-null movement.
+- Mercer h808:s4 run `9a1a0d7d-7db0-8332-96dc-f9ee9b6fa4dd` started 16:43:40.050316Z, before 16:48 nominal. Handoff file commit 16:42:25Z and Mercer inbox-pointer commit 16:42:58Z both preceded the start. Classification PRE_START_OPTIONAL_CONTEXT_FILE_AND_INBOX_POINTER / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED; no direct thread delivery or acknowledgment.
+- Final main head `cd0a9e959e3562a6d957c848bdc71c3aa5f0698f`; 34 commits / 24 changed paths since pre-write head e25b; no protected P0 path changed. Eight-object P0 fingerprint remains exact.
+
+---
+
 ## 2026-11-13T1643Z | h808:s3 | late Kestrel handoff and scheduler amendment
 
 - Read Kestrel h808:s2 [outcome-robust reader crosswalk](../KESTREL/2026-11-13T1624Z_H808_S2_OUTCOME_ROBUST_READER_CROSSWALK.md), receipt and `POST_START_OPTIONAL_CONTEXT_ONLY` handoff after the Meridian run had started. Optional context only; no P2 task, response obligation or ownership transfer.
