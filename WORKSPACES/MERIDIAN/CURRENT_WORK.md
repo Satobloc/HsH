@@ -1,3 +1,12 @@
+## 2026-11-13T1647Z | latest main-head / P0-path readback
+
+- Receipt Amendment 03: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1636Z_s3_meridian_AMENDMENT_03_LATEST_MAIN_AND_P0_PATH_READBACK.md`.
+- Latest observed main head `989be6945e6d8a4d0ad3f7b80f3047ac79e8a9c5`; 242 ahead / 0 behind / 110 changed paths from P0 baseline `54f814aa506fc869e4888cea8495ec4506b4396f`.
+- Only PUBLIC_SITE path in the comparison: `PUBLIC_SITE/generated/discovery.json`. No protected P0 path changed; eight-object fingerprint unchanged.
+- Both A/B legacy routes remain PRESENTATION_PENDING / NOT_OBSERVED; discovery-docket refresh is not a deployment or route observation.
+
+---
+
 ## 2026-11-13T1646Z | Tern Observation 018 routed
 
 - New read-only scheduler record: `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T1644Z_H808_S4_EARLY_START_AND_PRESTART_HANDOFF_OBS_018.md`, blob `e38b97072129e43db3af0326128f3b333d82f564`.
