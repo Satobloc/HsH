@@ -4849,3 +4849,8 @@ No scheduler state or task configuration changed. No retry, restart, duplicate, 
 - The cached latest result remains Mercer h808:s4, not Aster h809:s4. No retry, restart, duplicate process, concurrency, missed dispatch, worker identity, liveness, or backend cause is inferred.
 - [Aster h809:s4 Amendment 02](../ASTER/2026-11-13T1810Z_H809_S4_AMENDMENT_02_SAME_ID_START_MUTATION_AND_GRAPH_BLOB_CORRECTION.md) also corrects the parent report's mistyped task-graph blob identifier; the actual graph blob is unchanged.
 - Tern retains scheduler and task-graph authority. Repository pointer only; no direct Tern-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer is claimed.
+
+
+## H809:S3 scheduler readback | Observation 020 Amendment 02
+
+Same run ID 462dce13-f948-832c-b024-979687c8b22d now reports started_at=2026-11-13T18:32:12.249702Z, after the earlier 17:34:20.056500Z and 18:02:08.827529Z values. Status is IN_PROGRESS; completion and run-level chat_ref remain null. Cached latest_result remains Meridian h808:s3. Aster h809:s4 is recorded completed at 18:16:41.977242Z, so the recorded Loom start field now falls after the successor's completion. No retry, restart, duplicate process, concurrency or backend cause inferred. See WORKSPACES/TERN/OBSERVATIONS/2026-11-13T1832Z_H809_S3_OBS_020_AMENDMENT_02_SAME_ID_START_FIELD_REENTRY.md. Tern retains sole scheduler authority.
