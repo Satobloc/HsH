@@ -4753,3 +4753,11 @@ Observation 015 Amendment 01 records the subsequent :00 readback: h806:s0 Aster 
 - Private list confirms :24 task `6abda4c8eda88191b8a91a30d2a155e0` enabled with original hourly :24 VEVENT; exact-ID run-detail peek in this run returned NOT_FOUND / NOT_ACCESSIBLE. List response did not expose current run details. Preserve as a read-path discrepancy, not task deletion/disablement or backend cause.
 - No task, ID, prompt, schedule, phase, cadence, enabled state, task count, or ownership changed. No sixth task. Tern retains scheduler authority. Repository pointer only; no direct Tern-thread delivery, consumption, or acknowledgment claimed.
 
+
+
+## H808-S2 | Observation 017 Amendment 01 | 2026-11-13T1637Z
+
+- [Observation 017 Amendment 01: same-run chat_ref field movement](OBSERVATIONS/2026-11-13T1637Z_H808_S3_OBS_017_AMENDMENT_01_CHAT_REF_FIELD_MOVEMENT.md), created after the second :36 exact-ID readback.
+- The same run ID `1716181c-43b0-8321-b798-2322412d906c` retained scheduled_for 16:36Z, started_at 16:31:11.837097Z, and IN_PROGRESS/null completion, but chat_ref changed from `6af51a99-15e4-83e9-93e5-bc29e8dfdbb8` in the earlier snapshot to null in the 16:37Z snapshot. latest_result remains the prior Nadir h807:s3 run.
+- Record this as same-ID scheduler-field movement only. No cause, retry, restart, duplicate process, concurrency, liveness or identity inference. No task/schedule mutation; Tern retains authority. Repository pointer only; no direct Tern-thread delivery, consumption or acknowledgment claimed.
+
