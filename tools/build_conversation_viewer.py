@@ -23,6 +23,7 @@ from urllib.parse import quote
 
 DEFAULT_DEV = Path("indexes/manifests/development-conversation-dates.json")
 DEFAULT_LIVE = Path("indexes/manifests/live-conversation-dates.json")
+DEFAULT_ROOT = Path("indexes/manifests/root-conversation-dates.json")
 DEFAULT_OUTPUT = Path("CONVERSATION_VIEWER/data/conversations.json")
 DEFAULT_CURATION = Path("CONVERSATION_VIEWER/CURATION.json")
 DEFAULT_EXTERNAL = Path("CONVERSATION_VIEWER/EXTERNAL_CONVERSATIONS.json")
@@ -376,9 +377,9 @@ def apply_curation(conversations: list[dict[str, Any]], curation: dict[str, Any]
     }
 
 
-def build_manifest(dev: Path, live: Path, external_path: Path, curation_path: Path, curated_dir: Path, owner: str, repo: str, branch: str) -> dict[str, Any]:
+def build_manifest(dev: Path, live: Path, root: Path, external_path: Path, curation_path: Path, curated_dir: Path, owner: str, repo: str, branch: str) -> dict[str, Any]:
     conversations: list[dict[str, Any]] = []
-    inputs = [(dev, "development"), (live, "live")]
+    inputs = [(dev, "development"), (live, "live"), (root, "repository-root-and-other")]
     input_meta: list[dict[str, Any]] = []
     source_timestamps: list[str] = []
 
@@ -473,6 +474,7 @@ def build_manifest(dev: Path, live: Path, external_path: Path, curation_path: Pa
             "conversations": len(conversations),
             "development": sum(x["corpus"] == "development" for x in conversations),
             "live": sum(x["corpus"] == "live" for x in conversations),
+            "repository_root_and_other": sum(x["corpus"] == "repository-root-and-other" for x in conversations),
             "source_conversations_before_curation": source_total,
         },
         "inputs": input_meta,
@@ -484,6 +486,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--development-manifest", type=Path, default=DEFAULT_DEV)
     parser.add_argument("--live-manifest", type=Path, default=DEFAULT_LIVE)
+    parser.add_argument("--root-manifest", type=Path, default=DEFAULT_ROOT)
     parser.add_argument("--external-conversations", type=Path, default=DEFAULT_EXTERNAL)
     parser.add_argument("--curation", type=Path, default=DEFAULT_CURATION)
     parser.add_argument("--curated-dir", type=Path, default=DEFAULT_CURATED_DIR)
@@ -496,6 +499,7 @@ def main() -> int:
     payload = build_manifest(
         args.development_manifest,
         args.live_manifest,
+        args.root_manifest,
         args.external_conversations,
         args.curation,
         args.curated_dir,
@@ -513,6 +517,7 @@ def main() -> int:
     print(
         f"viewer_manifest={args.output}; conversations={counts['conversations']}; "
         f"development={counts['development']}; live={counts['live']}; "
+        f"repository_root_and_other={counts['repository_root_and_other']}; "
         f"hidden={curation_counts['hidden_conversations']}; "
         f"partial={curation_counts['partially_curated_conversations']}; "
         f"omitted_messages={curation_counts['omitted_messages']}"

@@ -199,7 +199,7 @@ def validate(root: Path) -> dict[str, Any]:
     declared_total = counts.get("conversations")
     corpus_mismatch = {
         key: {"observed": corpora.get(key, 0), "declared": counts.get(key)}
-        for key in ("development", "live")
+        for key in ("development", "live", "repository-root-and-other")
         if isinstance(counts.get(key), int) and corpora.get(key, 0) != counts.get(key)
     }
     total_ok = isinstance(declared_total, int) and declared_total == len(conversations)
@@ -243,11 +243,11 @@ def validate(root: Path) -> dict[str, Any]:
         if not isinstance(inp, dict):
             continue
         corpus, rel = inp.get("corpus"), inp.get("path")
-        if corpus in {"development", "live"} and isinstance(rel, str) and rel in manifests:
+        if corpus in {"development", "live", "repository-root-and-other"} and isinstance(rel, str) and rel in manifests:
             by_corpus[corpus] = path_index(manifests[rel])
     failures, unknown, compared = [], [], 0
     for rec in conversations:
-        if not isinstance(rec, dict) or rec.get("corpus") not in {"development", "live"}:
+        if not isinstance(rec, dict) or rec.get("corpus") not in {"development", "live", "repository-root-and-other"}:
             continue
         path, corpus = rec.get("path"), rec.get("corpus")
         if path in external_paths:

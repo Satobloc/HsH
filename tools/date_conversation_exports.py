@@ -26,7 +26,7 @@ except ImportError:  # direct script execution
 DEFAULT_ROOT=Path("DEVELOPMENT_FULL_CONVOS"); DEFAULT_TIMEZONE="America/New_York"
 PREFIX_RE=re.compile(r"^\d{2}\.\d{2}\.\d{2}•\d{2}\.\d{2}\.\d{2}•")
 HUMAN_ROLES={"user","assistant"}
-INDEX_EXCLUDED_DIRS={".GIT","PRIOR_ART","QUARANTINE"}
+INDEX_EXCLUDED_DIRS={".GIT","PRIOR_ART","QUARANTINE","_VIEWER_EXTERNAL","DEVELOPMENT_FULL_CONVOS","LIVE CONVOS","CONVERSATION_VIEWER","__PYCACHE__"}
 
 @dataclass
 class RenameRecord:
@@ -90,8 +90,14 @@ def candidates(root:Path)->Iterable[Path]:
     This includes .txt/.md/.log/etc and extensionless files. The full JSON
     parser and conversation-specific timestamp checks remain authoritative.
     """
+    repository_remainder_scan = root == Path(".")
     for path in sorted(root.rglob("*")):
-        if any(part.upper() in INDEX_EXCLUDED_DIRS for part in path.relative_to(root).parts[:-1]):
+        relative_parts = path.relative_to(root).parts
+        if any(part.upper() in INDEX_EXCLUDED_DIRS for part in relative_parts[:-1]):
+            continue
+        # The repository-remainder corpus is deliberately limited to .json and
+        # JSON-formatted .txt. Dedicated corpora retain suffix-independent scanning.
+        if repository_remainder_scan and path.suffix.lower() not in {".json", ".txt"}:
             continue
         if is_json_document_candidate(path):
             yield path
