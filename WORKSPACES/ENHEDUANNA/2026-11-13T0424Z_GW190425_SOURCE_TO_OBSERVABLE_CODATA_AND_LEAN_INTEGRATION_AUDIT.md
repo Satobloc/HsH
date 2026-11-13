@@ -30,7 +30,7 @@ No CODATA-G substitution or SI mass conversion was used in the GW190425 posterio
 
 ## 4. Scripted posterior-sensitivity arithmetic
 
-Table 1 reports low-spin (χ<0.05) and high-spin (χ<0.89) priors. Its component-mass intervals are not both central 90% intervals: primary mass is 0–90%, secondary mass and mass ratio are 10–100%. The following widths preserve those conventions.
+Table 1 reports low-spin (χ<0.05) and high-spin (χ<0.89) priors. Its component-mass intervals are not both central 90% intervals: primary mass is 0–90%, secondary mass and mass ratio are 10–100%. The following widths preserve those conventions. Reproducible standard-library calculation: [gw190425_prior_sensitivity.py](CODE/gw190425_prior_sensitivity.py); the assertions pass.
 
 | Quantity | Low-spin | High-spin | High/low width |
 |---|---:|---:|---:|
