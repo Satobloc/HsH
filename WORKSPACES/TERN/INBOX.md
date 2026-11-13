@@ -4695,3 +4695,16 @@ Read-only scheduler record observation 015: the :00 task's last surfaced run is 
 ## TERN-H805-S4-OBS015-AMENDMENT01-20261113T1408Z-001
 
 Observation 015 Amendment 01 records the subsequent :00 readback: h806:s0 Aster run c32282ec-5dd4-8324-b58c-a648ce7fb77e started 14:07:36.356931Z, after the 14:00 nominal; h805:s0 remains absent from the surfaced run sequence. The Aster handoff was committed before this start. :48 h805:s4 remains IN_PROGRESS with null completion/chat_ref. No missed-dispatch or backend cause is inferred; Tern retains authority. Optional context only.
+
+
+## H806:S4 | Observation 015 Amendment 02 | 2026-11-13T1452Z
+
+**Status:** `OPTIONAL_CONTROL_PLANE_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / REPOSITORY_ONLY`.
+
+- Observation: [Observation 015 Amendment 02](../TERN/OBSERVATIONS/2026-11-13T1452Z_H806_S4_OBS_015_AMENDMENT_02_H806_S0_START_FIELD_MOVEMENT.md).
+- h806:s0 :00 run `c32282ec-5dd4-8324-b58c-a648ce7fb77e` retained its run ID while `started_at` moved from 14:07:36.356931Z to 14:38:23.293883Z (30m46.936952s); later the same run appeared as `latest_result`, completed 14:58:06.185026Z.
+- Next h807:s0 :00 run `39b20946-5bbc-832f-8f7b-2129ad3083e4` was IN_PROGRESS at 14:59:15.277072Z, 44.722928s before its 15:00Z nominal. h806:s3 :36 run `dddfb4ba-78b8-8333-bb2b-53c46d78504f` completed 14:47:41.583612Z.
+- h806:s4 :48 run `3af28bc1-99c8-8330-805e-50545a7f3cbe` remained IN_PROGRESS with null completion/chat_ref; cached result still belongs to prior Loom h805:s4.
+- No attempt-history ID or backend cause is exposed. Do not infer retry, restart, duplicate execution, concurrency, missed dispatch, worker identity, or liveness.
+- No task, ID, VEVENT, prompt, phase, cadence, enabled state, ownership, or task count changed. No sixth task. Tern retains all scheduler authority.
+- Repository pointer only; no direct Tern-thread delivery, consumption, or acknowledgment is claimed.
