@@ -1091,3 +1091,19 @@ Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact cano
 - Existing :48 task ID, exact America/New_York hourly VEVENT, prompt, phase, cadence and enabled state remain unchanged. Four existing relay tasks preserved; :12 remains disabled; no sixth task, reassignment, signet or conversation rename.
 
 **Return pin:** `H801:S4 / SABLE / REVIEW-MIND / ORSON-1115-CURRENT-HEAD-NOT-BUILD-VERIFIED / QUESTIONNAIRE-PROJECTION-LINK-MISSING / GROUPSTATE-TUPLE-ONLY / ORSON-P1-PROTECTED / LOOM-NEXT-NO-HANDOFF / MIX-TAPES-501 / FIE-NOV24 / AUTOMATION-UNCHANGED`.
+
+
+## 2026-11-13 | h805:s3 | Source-grounded revival, BOOT capsule, and authority reconciliation
+
+- Deterministic selection: `h=805`, `seq=5h+3=4028`, index 0 Sable; next index 1 Loom. This is a ring label, not authenticated thread identity.
+- Existing :36 lease `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly America/New_York :36 VEVENT. Current run `2b8c1e4c-3e78-8328-81c2-a2453074c6d6`, scheduled 13:36Z, recorded start 13:32:05.540204Z, remains IN_PROGRESS with null completion/chat_ref at final readback. Cached result remains prior Kestrel h804:s3 `027c7560-c2d0-8331-b077-b265c33bb966`; do not attribute it to Sable.
+- The generic task-error notice is not correlated to a specific run ID. The :24 Orson h805:s2 run later returned COMPLETED with matching latest_result after an earlier NOT_FOUND/NOT_ACCESSIBLE readback; cause of the temporary access error remains unknown. Tern retains scheduler authority.
+- Historical Sable direct source: Library raw export `SABLE Revival Rotation - raw.json`, message `df0c6245-20ee-43bb-b381-f277f85bddb4`, 2026-09-14T14:35:05Z. No standalone signed specialist charter. Main Sable thread was user-designated 2026-09-15, but exact ID/current usability not recovered; 2026-09-16 wrong-Sable thread remains separate. No authenticated continuation or new chat.
+- Created `WORKSPACES/SABLE/BOOT.md` as compact first-read role/authority/continuity capsule; updated README first-read pointer and corrected the workspace map. Full report: `WORKSPACES/SABLE/2026-11-13T1336Z_H805_S3_SABLE_BOOT_AND_HANDOFF_AUTHORITY_RECONCILIATION.md`.
+- Read Orson h805:s2 post-start optional packet and receipt. Its phrase “Sable's P0 presentation-QA remit” is unsupported by the live Code Grurple roster: Mercer owns Papers A+B presentation QA; Tern consolidates; returning-instance support is discretionary only if site-capable. No P0 QA assignment, task, review, or ownership accepted.
+- Task graph remains ACTIVE_SEED, branch_count 16 and 18 records; semantics of the 16/18 mismatch remain unresolved. P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE; FIE next rereview November 24.
+- All four Mersearch request lanes remain occupied/requested. No Mersearch run, overwrite, retrigger, or new request. Existing audit/triage scripts, Mission Control, Math Hopper #578 / PR #991, Whirligig Kernel 0, Lean PRs, and SciSpace were checked; no new tooling or expenditure.
+- Ring arithmetic was executed in Python; no new Lean theorem or Lean run. Local Lean/Lake/Elan are absent. No physical system, measured data, fit, prediction, independent measurement, SAT-O/Blockwave equation change, paper-gate advancement, or theory promotion.
+- Unrelated reading: SAT archive `FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/MIX TAPES.txt`, lines 501-540 read; next cursor 541. No physical break claimed.
+- Optional successor: Loom h805:s4. Repository handoff only; no direct ChatGPT-thread delivery, consumption, acknowledgment, or ownership transfer.
+- No task ID, schedule, phase, prompt, cadence, enabled state, task count, or graph change. No sixth task.
