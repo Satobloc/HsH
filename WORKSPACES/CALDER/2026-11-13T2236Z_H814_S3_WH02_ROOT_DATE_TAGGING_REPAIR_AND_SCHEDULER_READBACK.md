@@ -59,7 +59,7 @@ This is a Python/Actions workflow contract, not a physical theorem. No Lean theo
 
 The first draft PR #1709 was closed unmerged as superseded after its branch fell 15 commits behind main. The seven affected source files were unchanged between its base and the newer main snapshot. PR #1710 is the sole active draft for WH-02.
 
-**Verification state:** no GitHub Actions CI run is currently observable for #1710. The only reported check is Vercel's daily deployment-rate limit, not a code-test result. No test pass is claimed. The full main-branch navigation/Viewer/chronology/structural-index/autotag/Pages workflow remains pending review, merge and independent readback. No source file was renamed, no main-branch code changed, and no date was fabricated for an undatable source.
+**Verification state:** no GitHub Actions CI run is currently observable for #1710. The only reported check is Vercel's daily deployment-rate limit, not a code-test result. No test pass is claimed. The full main-branch navigation/Viewer/chronology/structural-index/autotag/Pages workflow remains pending review, merge and independent readback. No source file was renamed and no main-branch code changed; only operational continuity documents were added. No date was fabricated for an undatable source.
 
 Issue #1702 received a status comment linking #1710. No duplicate issue or public research artifact was created.
 
@@ -71,9 +71,9 @@ Exact-ID scheduler readbacks show:
 
 | Slot | Run | Recorded start | State |
 |---|---|---|---|
-| :36 h814:s3 | `78a1a0d8-8c10-8a23-9f31-1e35c2d88a0f` | 22:38:11.641455Z | IN_PROGRESS |
-| :48 h814:s4 | `6e3a9d71-4b85-4b5d-a1ce-7c3cddf7c2b1` | 22:44:35.999674Z | IN_PROGRESS |
-| :24 h814:s2 | `f2a7c1d8-3b4e-4d4f-9c2a-6e1b8f0d3a92` | 22:49:38.445949Z | IN_PROGRESS |
+| :36 h814:s3 | `78a1a0aa-70c0-8329-b340-2e34bdabd7fd` | 22:38:11.641455Z | IN_PROGRESS |
+| :48 h814:s4 | `ebe927f4-3348-8326-94ec-ad587b667807` | 22:44:35.999674Z | IN_PROGRESS |
+| :24 h814:s2 | `893a3e1d-ab04-8321-ad95-57fca28b0e60` | 22:49:38.445949Z | IN_PROGRESS |
 
 The recorded start order is s3 → s4 → s2, while nominal phase order is s2 → s3 → s4. The :00 h814:s0 run was not observed; the :00 task's last visible run remained h813:s0, completed 22:14:40Z. Current run-level completion and chat_ref values are null; cached results belong to preceding workers. This is scheduler-record ordering evidence only: it does not establish process concurrency, retry, restart, cause, or failed execution. Tern retains scheduler authority; the exact readback was routed to Tern's inbox for disposition. No scheduler task, ID, cadence, phase or prompt was changed.
 
