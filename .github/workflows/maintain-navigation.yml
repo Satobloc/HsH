@@ -81,7 +81,10 @@ jobs:
           python tools/date_conversation_exports.py "." --apply --resolve-collisions --manifest indexes/manifests/root-conversation-dates.json
 
       - name: Verify every datable source now has the right filename date prefix
-        run: python tools/audit_conversation_date_tags.py --output indexes/manifests/date-tag-audit.json --strict
+        id: date_tag_audit
+        run: |
+          rm -f indexes/manifests/date-tag-audit.json
+          python tools/audit_conversation_date_tags.py --output indexes/manifests/date-tag-audit.json --strict
 
       - name: Build conversation viewer from the fresh manifests
         run: python tools/build_conversation_viewer_resolved.py
@@ -165,9 +168,24 @@ jobs:
           test -f indexes/CONVERSATION_CHRONOLOGY.md || true
 
       - name: Report date-tagging warnings
-        if: ${{ steps.development_dates.outcome == 'failure' || steps.live_dates.outcome == 'failure' }}
+        if: ${{ always() && (steps.development_dates.outcome == 'failure' || steps.live_dates.outcome == 'failure' || steps.root_dates.outcome == 'failure' || steps.date_tag_audit.outcome == 'failure') }}
         run: |
-          echo "::warning::At least one date-tagging pass reported a collision or parse-level failure. Generated manifests were retained; structural/chronology indexing continued."
+          echo "::warning::Date-tagging outcomes: development=${{ steps.development_dates.outcome }}, live=${{ steps.live_dates.outcome }}, root=${{ steps.root_dates.outcome }}, audit=${{ steps.date_tag_audit.outcome }}."
+          if [ -f indexes/manifests/date-tag-audit.json ]; then
+            python - <<'PY'
+            import json
+            from pathlib import Path
+
+            data = json.loads(Path("indexes/manifests/date-tag-audit.json").read_text(encoding="utf-8"))
+            counts = data.get("overall_counts", {})
+            undatable = counts.get("undatable_conversations", 0)
+            if undatable:
+                print(f"::warning::{undatable} conversation export(s) have no usable source timestamp; they remain preserved as explicit exceptions in date-tag-audit.json.")
+            if counts.get("needs_renaming", 0) or counts.get("unresolved_collisions", 0):
+                print("::error::At least one datable conversation still needs a date prefix or has an unresolved collision.")
+            print("Date-tag audit counts:", json.dumps(counts, sort_keys=True))
+            PY
+          fi
 
       - name: Commit maintained navigation, tag indexes, and viewer artifacts
         shell: bash
