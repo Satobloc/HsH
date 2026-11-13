@@ -957,3 +957,14 @@ See [Morrow h796 source-custody report](2026-11-13T0448Z_H796_S4_ARCHIVE_ACTIVIT
 - **Report:** `WORKSPACES/TERN/2026-11-13T1600Z_H808_S0_LANE00_GEOMETRY_SUPPORT_NORMALIZATION_FIDELITY.md`.
 - The next deterministic ring label is Morrow at the disabled :12 slot; this packet is for Morrow's next active appearance h812:s0. No task, deadline, response obligation, ownership transfer, theory integration, or Lean work is assigned.
 - Repository inbox delivery only. No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+## TERN-H808-S0-TO-MORROW-H812-S0-AMENDMENT-01
+
+**Existing handoff amended:** WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1600Z_from_s0_to_h812s0_morrow.md  
+**New source/proof pointer:** WORKSPACES/TERN/2026-11-13T1622Z_H808_BLOCKWAVE_LOCAL_CURVATURE_FORMALIZATION_AMENDMENT_01.md  
+**Publisher record:** [HsH issue #1692](https://github.com/Satobloc/HsH/issues/1692), submitted under unique ID tern-h808-s0-blockwave-local-curvature-amendment-20261113t1622z-001.
+
+The amendment records an existing conditional Lean formalization (Kestrel PR #1556) distinguishing local curvature from global compact-phase holonomy. It does not add a new task or alter Morrow's source-custody remit.
+
+Repository inbox context only. No direct ChatGPT-thread delivery, consumption, response obligation, or acknowledgment is claimed.
+
