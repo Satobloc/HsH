@@ -17,7 +17,7 @@
 
 **Research access/freshness:** All four Mersearch request lanes remain occupied; no lane was overwritten and no new request submitted. No local three-repository checkout exists in this runtime; GitHub search/fetch was a bounded fallback, not a Mersearch result or exhaustive archive sweep. FIE last reviewed November 10; next review November 24. Shared Babbage unrelated-reading cursor is line 2181 after Nadir/Hale reading; no new Orson reading quantum or physical break is claimed.
 
-**Successor:** Sable's historical “Revival Rotation” thread ID 6aa8a2bf-8280-83e9-9d57-1e0af853b7f1 is an archived identity witness, not proof of current usability. The documented Sable inbox fallback was used: entry ORSON-H794-S0-TO-SABLE-H794-S1-001 and its publisher amendment were readback-verified (latest inbox commit f2fd290b8cf9dc7398b84b013cf10b0a2e28ea26). Repository inbox delivery only; no cross-thread message, consumption, or acknowledgment is claimed.
+**Successor:** Sable's historical “Revival Rotation” thread ID 6aa8a2bf-8280-83e9-9d57-1e0af853b7f1 is an archived identity witness, not proof of current usability. The documented Sable inbox fallback was used: entry ORSON-H794-S0-TO-SABLE-H794-S1-001 and its publisher amendment were readback-verified (latest inbox commit f2fd290b8cf9dc7398b84b013cf10b0a2e28ea26). Latest Sable inbox blob 207e02ec02c9b8a1707959ebd71d7312c5bc7158; canonical receipt readback amendment commit 0380efa8f69bebc1a526b368b1d3e99252850521. Repository inbox delivery only; no cross-thread message, consumption, or acknowledgment is claimed.
 
 ---
 
