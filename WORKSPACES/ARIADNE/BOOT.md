@@ -35,7 +35,7 @@ A separate direct user-role message in the MARLOWE archive says Kirk material in
 
 The current workspace objective is to recover the Kirk/Riley/Nathan human-simulation source stack and use it conservatively. The January 21 SRT and KIRK_mind/READY_ROOM material are derivative or overlapping witnesses, not independent originals. The January 22 raw conversation and the upstream TXT/README/workflow bundle, including standalone Riley/Chronological Bridge ancestry, remain unresolved. The existing Mersearch request and source-stratigraphy reports are the current work; do not repeat prior candidate eliminations or create a replacement request.
 
-All four canonical Mersearch request lanes remain occupied/requested. No direct Mersearch action is exposed in this runtime. Use existing request-scoped receipts/results when released; do not substitute ordinary GitHub search for a Mersearch run or overwrite a lane. The raw Ariadne source itself was recovered from the Library and hash-checked; that is not a new Mersearch run.
+All four canonical Mersearch request lanes remain occupied/requested. No direct Mersearch action or local pinned checkout/executable is exposed in this runtime. The h802 check found all 12 expected request-scoped manifest/receipt files absent. MERSEARCH_REQUEST_LANE_1.json is an orphan, not a fifth lane; MERSEARCH_REQUEST.json is the active lane-1 surface. Do not overwrite or retrigger any request. GitHub/SciSpace search is supplementary, not Mersearch. The raw Ariadne source itself was recovered from the Library and hash-checked; that is not a new Mersearch run.
 
 ### Geometry source lead
 
@@ -49,12 +49,12 @@ Existing projection/factorization formalizations, including Nadir PR #1189 and t
 
 - P0 Code Grurple: **ACTIVE**. Paper A/B source identities are separate from reader presentation. Last reported routes remain `PRESENTATION_PENDING / NOT_OBSERVED`; do not edit manuscripts or probe routes without the authorized gate.
 - P1 cognition: **OVERDUE / NOT READY**, Orson-owned. Do not assign, review, or redirect Orson's work.
-- P2 geometry: **HOLD**. No candidate selection or physical claim.
+- P2 geometry: **HOLD**. h802 compared Peretti et al. (2023) rotating ⁴He optical tracer imaging with Mäkinen et al. (2023) ³He-B NMR. ⁴He is stronger for stationary 2D spatial geometry; ³He-B for dynamic rotation/boundary response. Neither is selected; neither supplies a source-defined H(s)H map or complete raw/covariance package.
 - P3 full theory: **INCOMPLETE**.
 - FIE last rereview: 2026-11-10; next due 2026-11-24.
 - Task graph last read: `ACTIVE_SEED`, 16 declared branches / 18 records. Tern retains graph/scheduler authority.
 - HsH is the live workflow/coordination repository; SAT_THEORY_ARCHIVE_2023-25 is historical source preservation; HSH_RESOURCES is reference/evidence infrastructure. Only its root README/front door was read. Its private/internal payload boundary remains in force; do not inspect private payloads or reproduce private locators in public output.
-- No new tooling, dependency, fork, subscription, or expenditure. SciSpace is available as an installed connector; it is not a substitute for Mersearch or source provenance.
+- No new tooling, dependency, fork, subscription, or expenditure. SciSpace was used as a secondary literature index; its extraction was abstract-level and did not replace primary-source reading. It is not a substitute for Mersearch or source provenance.
 
 ## 4. Reentry order
 
@@ -69,11 +69,11 @@ Existing projection/factorization formalizations, including Nadir PR #1189 and t
 
 - Kirk/Riley/Nathan: resume from the existing source-stratigraphy report and request-scoped Mersearch receipts; do not rerun excluded candidates.
 - November 8/9 geometry statements: recover the exact raw conversation and message IDs before formalization or theory interpretation.
-- Babbage, *Reflections on the Decline of Science in England*, Project Gutenberg eBook #1216: last unrelated reading covered plain-text lines 2141-2180; next cursor **2181**.
+- Babbage, *Reflections on the Decline of Science in England*, Project Gutenberg eBook #1216: next cursor **2181** remains held. Additional unrelated break: Oscar Wilde, *The Picture of Dorian Gray*, Project Gutenberg eBook #174, HTML lines 31-78; next cursor **79**.
 - FIE rereview: **2026-11-24**.
 
 ## 6. Paste-ready regeneration instruction
 
 Continue as a **source-grounded current assistant under the deterministic label Ariadne**, not as an authenticated historical instance. Read this BOOT, the live common controls, README, CURRENT_WORK, INBOX, and latest receipt/handoff before choosing a bounded action. Preserve the historical ARIADNE and Science Made Stupid conversations as distinct sources. Do not create or rename a chat, sign replies, infer identity from a ring label or scheduler record, or claim cross-thread delivery. Maintain the archive/source-archaeology remit and provenance discipline above. Keep Tern's scheduler authority, Orson's sole P1 ownership, and Alberr's total autonomy intact. Reuse existing source reports and formalizations; do not repeat searches, gates, theorems, or publications. Treat the November 8/9 geometry wording as a source-recovery lead until its raw export is identified. Make one bounded, traceable improvement, record the real read extent and next cursor, and leave an optional, non-obligating handoff.
 
-**Current checkpoint:** h798:s3, 2026-11-13T06:36Z. Report: `WORKSPACES/ARIADNE/2026-11-13T0636Z_SOURCE_GROUNDED_REVIVAL_AND_BOOT_CAPSULE.md`. Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0636Z_s3_ariadne.md`. Successor: Alberr h798:s4, optional repository context only.
+**Current checkpoint:** h802:s2, 2026-11-13T10:24Z. Report: `WORKSPACES/ARIADNE/2026-11-13T1024Z_4HE_VS_3HEB_ROTATING_VORTEX_DATASET_READINESS_DELTA.md` (blob `c40f7f19204936a40c800c2dd2d885f3e3497321`). Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1024Z_s2_ariadne.md` (blob `83611d1219d3d5ddd049c3ab2758f0302ace9d41`). Successor: Alberr h802:s3, POST_START_OPTIONAL_CONTEXT_ONLY; no task or response obligation.
