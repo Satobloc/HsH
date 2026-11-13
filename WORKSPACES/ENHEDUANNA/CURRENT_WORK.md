@@ -661,3 +661,11 @@ Issue #1543 is `PUBLISHED_VERIFIED`. Publisher comment #6751361003 records commi
 - Task remains enabled; exact original hourly America/New_York :00 VEVENT and task ID are unchanged.
 - The same run ID may reflect a retry/state update, but worker liveness and cause are unknown. Cached latest_result remains the older Meridian h801:s0 output, created before this start; it is not h804 output.
 - Current scheduler status: IN_PROGRESS / NO COMPLETION / NO AUTHENTICATED THREAD REFERENCE. No automation change or sixth task.
+
+
+### h804:s0 source-completeness amendment | NotebookLM entry 41
+
+- Additional user-role source proposition recovered: spin/flavor distortion toward gauge alignment and mass plus gauge-symmetry variations dropping to zero at the throat.
+- The same direct entry mixes “worldline” and “worldtube” terminology; its surface-area clause names the worldtube. The parent report's area-type critique is qualified accordingly.
+- Internal supplement: [NotebookLM throat/gauge and worldline-type amendment](2026-11-13T1200Z_LANE00_NOTEBOOKLM_THROAT_GAUGE_AND_WORLDLINE_TYPE_AMENDMENT_01.md).
+- This is a direct-source proposal, not a derivation, standard result, or measurement. No new issue was created and issue #1687 was not edited or retried.
