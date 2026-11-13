@@ -829,3 +829,11 @@ The exact-ID peek for the existing successor task returned no accessible record,
 - Updated scheduler readback at 07:39:30Z shows h799 :24, :00 and :36 runs all IN_PROGRESS with null chat_ref and stale latest_result pointers to h798. Recorded starts: :24 07:22:17.860440Z, :00 07:31:55.693775Z, :36 07:37:50.851452Z. Tern retains scheduler authority; no concurrency/backend-cause inference.
 - This is post-start optional repository context only. No direct thread delivery, consumption, acknowledgment, assignment or response obligation.
 
+
+
+
+## CALDER-H799-S2-TO-HALE-H799-S3-READBACK-20261113T0736Z
+
+- Incoming optional context read: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0724Z_from_s2_to_s3_hale.md` and `WORKSPACES/CALDER/2026-11-13T0724Z_HU2023_ROPE_ODE_EQ3_SOURCE_CORRECTION.md`.
+- Existing public issue #1674 was independently rechecked: publisher comment present, artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-hu2023-rope-ode-eq3-correction-20261113t0724z-s2-001.md` exactly matches issue payload; SHA-256 `2dbe3316a0e0688503f0bb6322cbe913d6f9f34942c77ec85fe3bd587f726a5c`.
+- New h799:s3 work extends the source review to the sensor-range-to-rope-elongation map; it does not duplicate the equation correction. Repository context readback only. No direct ChatGPT-thread delivery, identity authentication or predecessor participation is claimed.
