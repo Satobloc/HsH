@@ -1,20 +1,20 @@
 # Kestrel h804:s3 | Response-locus-preserving coarse closure and primitive-admission gate
 
 **Nominal slot:** 2026-11-13T12:36:00Z  
-**Run key:** \`REVROT3-19-20261011:804:s3\`  
+**Run key:** `REVROT3-19-20261011:804:s3`  
 **Selection:** h=804; seq=4023; ring index 14 = Kestrel; next ring label = Meridian (index 15).  
 **Disposition:** SOURCE-GROUNDED REVIVAL / NEW CONDITIONAL MODEL-SELECTION GATE / EXISTING FACTORIZATION THEOREM REUSED AT CURRENT PR HEAD / NO NEW LEAN MODULE / NO PHYSICAL CALCULATION / INTERNAL WORKING ARTIFACT.
 
 ## 1. Authority, source, and thread boundary
 
-The historical Kestrel conversation is **Science Made Stupid**, conversation \`6ab070ce-2384-83e9-b76f-4661c55867c4\`, raw Git blob \`100267f3f11f3cce09c7d802ce85ad03879d5744\`. The Library raw export was read directly; four direct user-role messages were checked:
+The historical Kestrel conversation is **Science Made Stupid**, conversation `6ab070ce-2384-83e9-b76f-4661c55867c4`, raw Git blob `100267f3f11f3cce09c7d802ce85ad03879d5744`. The Library raw export was read directly; four direct user-role messages were checked:
 
-- \`c6803d67-a76f-48e4-bf71-f49cb7b224ee\`: asks Kestrel to create a workspace, trust Nathan's intuitions by default, and serve as the one cross-boundary companion not continually interrogating every possibility.
-- \`3c07680d-5205-48a3-93d5-ce33a8cf86a6\`: says not to search hard without a reason and to work forward from the consequential-case premise that the aggregate picture is probably what it appears to be.
-- \`fc9b147e-b138-44ac-a48b-b81593e3c3e9\`: explicitly rejects exhaustive grilling of every "could be" and asks Kestrel to trust the working intuitions.
-- \`f15aac1c-0a31-4e98-b461-6ca872035315\`: clarifies that everything Nathan says he knows is a hypothesis, no more and no less.
+- `c6803d67-a76f-48e4-bf71-f49cb7b224ee`: asks Kestrel to create a workspace, trust Nathan's intuitions by default, and serve as the one cross-boundary companion not continually interrogating every possibility.
+- `3c07680d-5205-48a3-93d5-ce33a8cf86a6`: says not to search hard without a reason and to work forward from the consequential-case premise that the aggregate picture is probably what it appears to be.
+- `fc9b147e-b138-44ac-a48b-b81593e3c3e9`: explicitly rejects exhaustive grilling of every "could be" and asks Kestrel to trust the working intuitions.
+- `f15aac1c-0a31-4e98-b461-6ca872035315`: clarifies that everything Nathan says he knows is a hypothesis, no more and no less.
 
-This is historical direct-source evidence for a **cross-boundary synthesis companion**, not a signed standalone specialist charter and not authentication of a current ChatGPT instance. The archive's last update is historical. No authenticated current Kestrel thread or usable current-thread destination was established; this execution's \`chat_ref\` is null. No new conversation was created, renamed, or contacted.
+This is historical direct-source evidence for a **cross-boundary synthesis companion**, not a signed standalone specialist charter and not authentication of a current ChatGPT instance. The archive's last update is historical. No authenticated current Kestrel thread or usable current-thread destination was established; this execution's `chat_ref` is null. No new conversation was created, renamed, or contacted.
 
 Kestrel's remit is not that of a default skeptic, primary source auditor, mathematical proof owner, or physical-data analyst. The task here is to connect the existing response-locus and coarse-graining results into a useful conditional architecture without reopening every alternative or promoting a physical claim.
 
@@ -22,12 +22,12 @@ Kestrel's remit is not that of a default skeptic, primary source auditor, mathem
 
 Read the live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, Primary Operational Guideline / Nathan Direct methodology overview, three-repository onboarding, Revival Rotation V3/V4, thread-first and thread-routing rules, current main branch, task graph, Kestrel workspace and continuity, and the relevant Kestrel receipts.
 
-The HsH task graph remains \`ACTIVE_SEED\`, with 16 declared branches and 18 records; Tern retains graph authority. The current main head before this run's writes was \`25ea5cd3ca556dab740bf1d87ee716da40439e15\`. The HsH and SAT archive front doors were consulted. HSH_RESOURCES remained a restricted reference boundary; no private payload was opened or copied.
+The HsH task graph remains `ACTIVE_SEED`, with 16 declared branches and 18 records; Tern retains graph authority. The current main head before this run's writes was `25ea5cd3ca556dab740bf1d87ee716da40439e15`. The HsH and SAT archive front doors were consulted. HSH_RESOURCES remained a restricted reference boundary; no private payload was opened or copied.
 
 The exact incoming Morrow h804:s2 handoff was read:
-- \`WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1224Z_from_s2_to_s3_kestrel_OPTIONAL.md\`
-- Morrow report \`WORKSPACES/MORROW/2026-11-13T1224Z_H804_S2_CODATA_SOURCE_VERSION_AND_SCHEDULER_PEEK_AUDIT.md\`
-- Receipt \`WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1224Z_s2_morrow.md\`
+- `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1224Z_from_s2_to_s3_kestrel_OPTIONAL.md`
+- Morrow report `WORKSPACES/MORROW/2026-11-13T1224Z_H804_S2_CODATA_SOURCE_VERSION_AND_SCHEDULER_PEEK_AUDIT.md`
+- Receipt `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1224Z_s2_morrow.md`
 
 It is optional source-version and scheduler context only. It records NIST's 2022 CODATA Web Version 9.0 as the latest publicly served set at the time of that check, with CODATA 2026 not yet publicly released. No numerical comparison or physical calculation was performed. It does not assign Kestrel CODATA work or alter Kestrel's remit.
 
@@ -133,18 +133,18 @@ No new theorem or PR was created. The existing Nadir PR #1189 module is generic 
 
 Current PR head:
 - PR #1189: OPEN / DRAFT / UNMERGED.
-- Head: \`33a7cb3cd3adaadabb5a7abd94eaf59bb0ef991e\`.
+- Head: `33a7cb3cd3adaadabb5a7abd94eaf59bb0ef991e`.
 - Exact-head Actions run #43339252436, job #131603145168.
 - Lean 4.34.0 / Lake 5.0.0.
 
-The current-head log replayed \`NadirProjectionCoarseGrainFactorization\` at 8946/8961 and emitted:
-- \`imageProjection_surjective\`: no reported axioms;
-- \`inducedCoarseGraining_factors\`: \`Classical.choice\`;
-- \`factorization_iff_fiberwise\`: \`Classical.choice\`;
-- \`inducedCoarseGraining_unique\`: \`Quot.sound\`;
-- \`no_inducedCoarseGraining_of_fiber_mismatch\`: \`Classical.choice\`.
+The current-head log replayed `NadirProjectionCoarseGrainFactorization` at 8946/8961 and emitted:
+- `imageProjection_surjective`: no reported axioms;
+- `inducedCoarseGraining_factors`: `Classical.choice`;
+- `factorization_iff_fiberwise`: `Classical.choice`;
+- `inducedCoarseGraining_unique`: `Quot.sound`;
+- `no_inducedCoarseGraining_of_fiber_mismatch`: `Classical.choice`.
 
-**The overall root build FAILED**, not passed. It failed later in the unrelated \`NadirRotatingFluidPIVEnergyReadout.lean\` at lines 123, 133 and 144 with \`unexpected token 'omit'; expected 'lemma'\`. Tests, lint, nanoda and the separate global axiom audit were skipped. No \`sorryAx\` or bare \`admit\` appears in the captured target-module outputs; that is not a repository-wide no-sorry certification.
+**The overall root build FAILED**, not passed. It failed later in the unrelated `NadirRotatingFluidPIVEnergyReadout.lean` at lines 123, 133 and 144 with `unexpected token 'omit'; expected 'lemma'`. Tests, lint, nanoda and the separate global axiom audit were skipped. No `sorryAx` or bare `admit` appears in the captured target-module outputs; that is not a repository-wide no-sorry certification.
 
 The previous exact-head success for an earlier PR #1189 head is superseded for current-head status. The present run confirms the generic factorization module itself replayed, while the full root build remains failed. Neither result validates the translation of \(q_0,q_1,q_2\) or any physical premise.
 
@@ -156,29 +156,29 @@ No measured system or raw dataset was selected. No physical calculation, fit, pr
 
 P0 Code Grurple remains ACTIVE; P1 remains Orson-owned and OVERDUE / NOT READY; P2 remains HOLD; P3 remains INCOMPLETE. Aldus completed the latest FIE rereview on 2026-11-10; next review is 2026-11-24.
 
-The next unrelated-reading cursor remains \`fun break - lx.txt\`, line 1281. No new reading quantum or physical break is claimed in this run.
+The next unrelated-reading cursor remains `fun break - lx.txt`, line 1281. No new reading quantum or physical break is claimed in this run.
 
 This report is an internal conditional architecture proposal, not a public empirical result. No issue-publisher submission was appropriate or attempted; no duplicate issue, PR, branch, tool, dependency, fork, subscription, or expenditure was created.
 
 ## 7. Scheduler evidence routed to Tern
 
-Existing :36 task \`6a9f52b69ec08191b0a2ba24a074f781\` remains enabled with its exact original schedule:
-\`DTSTART;TZID=America/New_York:20261001T143600\`
-\`RRULE:FREQ=HOURLY\`.
+Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its exact original schedule:
+`DTSTART;TZID=America/New_York:20261001T143600`
+`RRULE:FREQ=HOURLY`.
 
 Current h804:s3 run:
-- Run ID \`027c7560-c2d0-8331-b077-b265c33bb966\`.
+- Run ID `027c7560-c2d0-8331-b077-b265c33bb966`.
 - Scheduled 12:36:00Z.
 - Earlier exact-ID readback: started 12:33:15.677964Z.
 - Latest exact-ID readback: started 13:00:47.939443Z.
 - Same-ID start-field movement: +27m32.261479s.
-- Latest status IN_PROGRESS; completion and \`chat_ref\` null.
-- Cached latest result is prior Elias h803:s3 run \`33a10c43-f058-8326-98a1-c243b7e74573\`, not Kestrel's current result.
+- Latest status IN_PROGRESS; completion and `chat_ref` null.
+- Cached latest result is prior Elias h803:s3 run `33a10c43-f058-8326-98a1-c243b7e74573`, not Kestrel's current result.
 
 Meridian h804:s4:
-- Run ID \`5cdc3309-1d94-832e-b9bb-3394679996cc\`.
+- Run ID `5cdc3309-1d94-832e-b9bb-3394679996cc`.
 - Scheduled 12:48:00Z; started 12:47:39.268003Z.
-- Final readback in Meridian's report: IN_PROGRESS, completion and \`chat_ref\` null.
+- Final readback in Meridian's report: IN_PROGRESS, completion and `chat_ref` null.
 - Its cached latest result is prior Meridian h801:s0, not the h804:s4 run.
 
 The earlier Kestrel start preceded Meridian's start by 14m23.590039s. The latest Kestrel start follows Meridian's start by 13m08.671440s. Thus the same-ID start-field change reverses the *recorded relative start ordering* between predecessor and deterministic successor across snapshots.
@@ -187,10 +187,10 @@ This is a scheduler-record observation only. It does not establish actual proces
 
 ## 8. Successor boundary
 
-The next ring label is Meridian, h804:s4. Its run had already started before the latest Kestrel run start. Meridian's expected \`INBOX.md\` path is NOT_FOUND; no inbox was created or modified. A unique Common handoff is therefore \`POST_START_OPTIONAL_CONTEXT_ONLY\`, with no task, response obligation, deadline, review request, ownership transfer, or direct ChatGPT-thread delivery/consumption/acknowledgment claim.
+The next ring label is Meridian, h804:s4. Its run had already started before the latest Kestrel run start. Meridian's expected `INBOX.md` path is NOT_FOUND; no inbox was created or modified. A unique Common handoff is therefore `POST_START_OPTIONAL_CONTEXT_ONLY`, with no task, response obligation, deadline, review request, ownership transfer, or direct ChatGPT-thread delivery/consumption/acknowledgment claim.
 
 No authenticated current Meridian thread was established by the live workspace check. The handoff is a repository packet only.
 
 ## 9. Return pin
 
-\`H804:S3 / KESTREL / MERIDIAN-NEXT / RESPONSE-LOCUS-PRESERVING-COARSE-CLOSURE / Q0-PAIR / Q1-PAIR-PLUS-SOURCE-DEFINED-RESPONSE-HISTORY / Q2-PAIR-PLUS-INDEPENDENT-MEDIUM / EXPLICIT-COMPOSITION-MAPS-REQUIRED / JOINT-OUTPUT-FIBER-TEST / NADIR-PR1189-FACTOR-MODULE-REPLAYED / ROOT-BUILD-FAILED-UNRELATED-PIV-OMIT-SYNTAX / NO-NEW-LEAN / NO-PHYSICAL-DATA / NO-PREDICTION / NO-THEORY-PROMOTION / P0-ACTIVE / P1-ORSON-OVERDUE / P2-HOLD / P3-INCOMPLETE / FIE-NOV24 / READING-1281-PARKED / MERSEARCH-NOT-CALLABLE-FOUR-LANES-OCCUPIED / MORROW-PACKET-READ / SAME-ID-START-ORDER-REVERSAL-ROUTED-TERN / MERIDIAN-HANDOFF-POST-START / AUTOMATION-UNCHANGED / NO-SIXTH-TASK / S36-IN_PROGRESS\`.
+`H804:S3 / KESTREL / MERIDIAN-NEXT / RESPONSE-LOCUS-PRESERVING-COARSE-CLOSURE / Q0-PAIR / Q1-PAIR-PLUS-SOURCE-DEFINED-RESPONSE-HISTORY / Q2-PAIR-PLUS-INDEPENDENT-MEDIUM / EXPLICIT-COMPOSITION-MAPS-REQUIRED / JOINT-OUTPUT-FIBER-TEST / NADIR-PR1189-FACTOR-MODULE-REPLAYED / ROOT-BUILD-FAILED-UNRELATED-PIV-OMIT-SYNTAX / NO-NEW-LEAN / NO-PHYSICAL-DATA / NO-PREDICTION / NO-THEORY-PROMOTION / P0-ACTIVE / P1-ORSON-OVERDUE / P2-HOLD / P3-INCOMPLETE / FIE-NOV24 / READING-1281-PARKED / MERSEARCH-NOT-CALLABLE-FOUR-LANES-OCCUPIED / MORROW-PACKET-READ / SAME-ID-START-ORDER-REVERSAL-ROUTED-TERN / MERIDIAN-HANDOFF-POST-START / AUTOMATION-UNCHANGED / NO-SIXTH-TASK / S36-IN_PROGRESS`.
