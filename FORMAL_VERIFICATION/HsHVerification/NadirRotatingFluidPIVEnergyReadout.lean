@@ -110,19 +110,19 @@ noncomputable def vlsSpecificEnergy (w uAxial uRadial : ι → ℝ) : ℝ :=
   vlsEnergyNumerator w uAxial uRadial / (2 * totalWeight w)
 
 /-- Full specific kinetic energy with the azimuthal contribution restored. -/
-def fullSpecificEnergy
+noncomputable def fullSpecificEnergy
     (w uAxial uRadial uAzimuthal : ι → ℝ) : ℝ :=
   (vlsEnergyNumerator w uAxial uRadial +
     azimuthalEnergyNumerator w uAzimuthal) / (2 * totalWeight w)
 
 /-- The missing azimuthal contribution to the specific-energy estimator. -/
-def omittedAzimuthalSpecificEnergy
+noncomputable def omittedAzimuthalSpecificEnergy
     (w uAzimuthal : ι → ℝ) : ℝ :=
   azimuthalEnergyNumerator w uAzimuthal / (2 * totalWeight w)
 
 /-- Exact decomposition of full energy into VLS and omitted azimuthal terms. -/
 omit [DecidableEq ι] in
-theorem full_energy_decomposition
+lemma full_energy_decomposition
     (w uAxial uRadial uAzimuthal : ι → ℝ) :
     fullSpecificEnergy w uAxial uRadial uAzimuthal =
       vlsSpecificEnergy w uAxial uRadial +
@@ -132,7 +132,7 @@ theorem full_energy_decomposition
 
 /-- Nonnegative volume weights make the omitted azimuthal numerator nonnegative. -/
 omit [DecidableEq ι] in
-theorem azimuthalEnergyNumerator_nonneg
+lemma azimuthalEnergyNumerator_nonneg
     (w uAzimuthal : ι → ℝ)
     (hw : ∀ i, 0 ≤ w i) :
     0 ≤ azimuthalEnergyNumerator w uAzimuthal := by
@@ -142,7 +142,8 @@ theorem azimuthalEnergyNumerator_nonneg
   exact mul_nonneg (hw i) (sq_nonneg (uAzimuthal i))
 
 /-- With positive total volume, the omitted azimuthal energy is nonnegative. -/
-theorem omittedAzimuthalSpecificEnergy_nonneg
+omit [DecidableEq ι] in
+lemma omittedAzimuthalSpecificEnergy_nonneg
     (w uAzimuthal : ι → ℝ)
     (hw : ∀ i, 0 ≤ w i)
     (hW : 0 < totalWeight w) :
