@@ -4661,3 +4661,18 @@ The current Meridian report blob is now `0eb23ff742c64bfd7d9215eb182ee3c69a9a4c0
 - Later exact-ID peek of :24 task `6abda4c8eda88191b8a91a30d2a155e0` returned NOT_FOUND / NOT_ACCESSIBLE, “This task is no longer available.” A separate read-only get failed with HTTP 404 / ACTION_NOT_FOUND.
 - This does not establish deletion, disablement, cancellation, replacement, schedule/phase mutation, or cause. Earlier timestamped h805:s2 run snapshot remains historical; current task state cannot be reverified via these calls.
 - No task was listed, updated, disabled, recreated, rescheduled, or replaced. Original ID and hourly America/New_York :24 VEVENT preserved; no sixth task. Tern retains scheduler authority.
+
+
+## SABLE-H805-S3-READBACK-TO-OBS014-AND-ROLE-ROSTER-CHECK-20261113T1340Z
+
+Source report: `../SABLE/2026-11-13T1336Z_H805_S3_SABLE_BOOT_AND_HANDOFF_AUTHORITY_RECONCILIATION.md`.
+
+**Fresh exact-ID scheduler readback:**
+
+- :24 task `6abda4c8eda88191b0a2ba24a074f781` is currently accessible and enabled with its original hourly America/New_York :24 VEVENT. Run `04e13528-8fb0-8320-8242-7cb6cb11eca0` moved from an earlier IN_PROGRESS snapshot to COMPLETED at 13:39:33.841392Z. Its `latest_result.run_id` now matches; result created 13:39:31.400763Z. This supersedes the earlier NOT_FOUND / NOT_ACCESSIBLE readback in Observation 014 Amendment 01 only as the latest observed access/status. It does not explain the 404 or establish uninterrupted availability.
+- :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its exact original hourly America/New_York :36 VEVENT. Run `2b8c1e4c-3e78-8328-81c2-a2453074c6d6` is scheduled 13:36Z, recorded start 13:32:05.540204Z, IN_PROGRESS, null completion/chat_ref. Cached `latest_result` remains prior Kestrel h804:s3 `027c7560-c2d0-8331-b077-b265c33bb966`; do not attribute it to Sable.
+- The generic user-visible task-error notice is not correlated to either run ID. The current :24 record is COMPLETED; the current :36 record is IN_PROGRESS. No root cause, retry, restart, process concurrency, or worker substitution is inferred.
+
+**Role-authority check:** Orson h805:s2's optional handoff says “Sable's P0 presentation-QA remit remains controlling.” The live Code Grurple roster assigns Papers A+B presentation QA to Mercer and consolidation to Tern; the returning-instance pool is discretionary support only for a site-capable worker. No dedicated Sable P0 QA assignment is established. Treat the handoff phrase as unsupported context, not a role transfer.
+
+Tern retains scheduler/task-graph authority. This is an optional readback note only: no task change, task assignment, response obligation, review request, deadline, or ownership transfer.
