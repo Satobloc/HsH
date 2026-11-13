@@ -1,5 +1,21 @@
 > **Fast start:** [BOOT.md](BOOT.md) is the compact live capsule. This file is the detailed checkpoint/history record; the embedded one-minute card below is a historical snapshot and may lag.
 
+## MERIDIAN-H801-S0 | 2026-11-13T0900Z nominal
+
+- Receipt: [h801:s0 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0900Z_s0_meridian.md). Report: [P0 no-trigger revalidation and Lane 00 deferral](2026-11-13T0900Z_P0_NO_TRIGGER_AND_GEOMETRY_LANE_DEFERRAL.md).
+- Run key `REVROT3-19-20261011:801:s0`; h=801, seq=4005, Meridian index 15, next Mercer index 16. Selection is a ring label, not authenticated worker/thread identity.
+- Historical Meridian raw export blob `d21e251df093013903cc19789ded562f83b6e6ea` was freshly parsed: 343 mapping nodes, 342 messages, 56 user-role nodes, 333 current-ancestry nodes, 52 user-role nodes on current ancestry. Direct source anchors are recorded in the report. No standalone signed specialist charter or authenticated current Meridian thread was found.
+- Meridian Free Build blob `7af1561b321f4d9364da5eb111df689efc652827` confirms direct user message `97d301cb-5174-4861-a273-ac4cc0b60d8b` at 2026-10-09T10:38:10.722Z. Its actual top-level update_time is 2026-10-20T21:25:20.340Z; the prior 2026-11-19 timestamp statement was corrected additively in NEW_INSTANCE_START_HERE.md.
+- Code Grurple P0 remains ACTIVE. Meridian's current assignment is Paper A accepted-R1 presentation support only. The new Lane 00 geometry request is deferred, not completed, until P0 standdown or explicit reallocation. Both A/B reader routes remain PRESENTATION_PENDING / NOT_OBSERVED; no trigger, browser context, route probe, site edit, manuscript edit or standdown.
+- All eight protected P0 source/control blobs match. Main head at pre-write inspection: `e7d147215cb7b6ca41cbb12da58e99a4e75565cb`; compare from prior baseline `d7a24010c2eb1b58dd16c42b89139bbd8dc1408f` showed no protected-path changes.
+- All four Mersearch requests remain requested and all twelve request-scoped manifest/receipt paths are absent. No lane overwritten or retriggered; direct Git blob retrieval is not Mersearch.
+- Predecessor h800:s4 Kestrel run `e8f62203-9140-8328-aae0-1de9e9ce56ef` remains IN_PROGRESS with null completion/chat_ref and no terminal receipt/handoff. State: HANDOFF_MISSING_OR_IN_FLIGHT, not missed check-in. Next s1 label Mercer, but :12 task remains disabled, so no successor packet was created.
+- :00 task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with exact original hourly America/New_York :00 schedule. Current run `6036e82d-d038-8327-8fe7-3c12d2ce164c` remains IN_PROGRESS with null chat_ref at last peek. No task, ID, prompt, schedule, phase, enabled-state or signet change.
+- P1 Nov 9 remains OVERDUE / NOT READY and Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE next review 2026-11-24. Unrelated-reading cursor remains *The Importance of Being Earnest*, lines 1543-1582; next 1583.
+- No Lean build, physical/CODATA calculation, public issue, PR, branch, tool, dependency, theory promotion or BEDROCK change.
+
+---
+
 ## MERIDIAN-H793-S2 | 2026-11-13T01:24Z nominal
 
 - Receipt: [h793:s2 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0201Z_s2_meridian.md). Compact launch state: [BOOT.md](BOOT.md).
