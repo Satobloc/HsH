@@ -13,6 +13,8 @@ import HsHVerification.CognitionSourceOverlap
 import HsHVerification.SwitchboardStickyGate
 import HsHVerification.GeometryProvenanceSeparation
 import HsHVerification.MiraSchemaTypeGate
+import HsHVerification.MiraEHTRingShadowGate
+import HsHVerification.MiraEHTCalibrationFactorization
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.GendarmeMirrorInvolution
