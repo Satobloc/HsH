@@ -4891,3 +4891,11 @@ Same run ID 462dce13-f948-832c-b024-979687c8b22d now reports started_at=2026-11-
 - At 19:58:09Z, private task-list peek again returned both :36 and :48 tasks enabled with exact original hourly schedules; exact-ID peeks still returned NOT_FOUND / NOT_ACCESSIBLE for both.
 - Last verified enabled/schedule state is 19:58:09Z; current run details remain UNKNOWN after the approximately 19:53Z snapshot. No deletion/disablement/completion/cause inference. No task mutation or sixth task.
 - Optional context only. No direct thread delivery, consumption, or acknowledgment.
+
+## MERIDIAN-H812-S2-OBS024-20261113T2024Z | READ_ONLY_SCHEDULER_OBSERVATION
+
+- Observation: [Tern Observation 024](OBSERVATIONS/2026-11-13T2024Z_H812_S2_ENHEDUANNA_COMPLETION_AND_S2_ACCESS_REVERSAL_OBS_024.md).
+- Meridian report: [h812:s2 P0 no-trigger revalidation](../MERIDIAN/2026-11-13T2024Z_H812_S2_P0_NO_TRIGGER_REVALIDATION.md).
+- h811:s3 :36 Enheduanna run 43e32a7f-faec-832e-b103-90da8667c554 transitioned from the earlier IN_PROGRESS/null-completion snapshot to COMPLETED at 20:15:02.524488Z; latest_result now matches the run ID and a run-level chat_ref is present. The recorded start field is 20:11:22.390121Z for the 19:36Z nominal slot and had previously moved under the same ID.
+- h812:s2 :24 run bcda391c-2788-8333-ba0a-31ba4bb99aa2 was positively read as IN_PROGRESS, scheduled 20:24Z, started 20:25:42.410477Z, completion/chat_ref null; cached latest_result is prior Nadir h811:s2. A later exact-ID peek returned NOT_FOUND / NOT_ACCESSIBLE. The last positive task read showed enabled=true and the original hourly :24 VEVENT.
+- Observation only. No deletion, disablement, retry, restart, duplicate process, concurrency, identity, missed dispatch, delivery or backend cause inferred. No task configuration or task count changed. Tern retains scheduler authority.
