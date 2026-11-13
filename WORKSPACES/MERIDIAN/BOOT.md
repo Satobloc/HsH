@@ -1,3 +1,9 @@
+## H808:s3 final scheduler/successor readback | 2026-11-13T16:44Z
+
+Read [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1636Z_s3_meridian_AMENDMENT_02_FINAL_SCHEDULER_AND_SUCCESSOR_READBACK.md). The :36 run remains IN_PROGRESS with null completion/chat_ref and a stale Nadir latest_result. Mercer h808:s4 started 16:43:40.050316Z; the optional handoff file and inbox pointer were both committed before that start. Recipient consumption remains unverified. No task or schedule changed.
+
+---
+
 ## H808:s3 late Kestrel packet / scheduler amendment | 2026-11-13T16:43Z
 
 Read Kestrel h808:s2 report and its `POST_START_OPTIONAL_CONTEXT_ONLY` handoff after this :36 run had started. The crosswalk is optional preparation only; P2 remains HOLD and it creates no geometry task. See [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1636Z_s3_meridian_AMENDMENT_01_POST_START_Kestrel_HANDOFF_AND_CHATREF_RECONCILIATION.md).
