@@ -10,6 +10,7 @@ from zoneinfo import ZoneInfo
 from tools.date_conversation_exports import build_records
 from tools.audit_conversation_date_tags import audit
 from tools import audit_conversation_date_tags as audit_tags
+from tools import build_conversation_viewer as viewer_base
 from tools import build_conversation_viewer_resolved as viewer_resolved
 
 class DateConversationExportsTests(unittest.TestCase):
@@ -152,6 +153,46 @@ class DateConversationExportsTests(unittest.TestCase):
             )
             self.assertNotIn("ordinary.md",by_name)
             self.assertFalse(any(Path(record.old_path).parts[0] in excluded for record in records))
+
+    def test_viewer_accepts_root_sources_with_nonstandard_suffix(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            source=root/"root-source.md"
+            self.write_convo(source,1780000000)
+            dev=root/"development.json"; live=root/"live.json"; root_manifest=root/"root.json"
+            dev.write_text(json.dumps({"records":[]}),encoding="utf-8")
+            live.write_text(json.dumps({"records":[]}),encoding="utf-8")
+            root_manifest.write_text(json.dumps({"generated_at_utc":"2026-11-13T22:00:00Z","records":[{
+                "old_path":"root-source.md",
+                "new_path":"root-source.md",
+                "start_local":"2026-11-13T17:00:00-05:00",
+                "end_local":"2026-11-13T17:00:00-05:00",
+                "timestamp_source":"message.create_time",
+                "message_count":1,
+                "status":"unchanged",
+                "warnings":[],
+            }]}),encoding="utf-8")
+            external=root/"external.json"
+            external.write_text(json.dumps({"schema_version":1,"conversations":[]}),encoding="utf-8")
+            curation=root/"CURATION.json"
+            curated=root/"curated"
+            old_cwd=Path.cwd()
+            old_canonical=viewer_base.canonical_path
+            old_normalize=viewer_base.normalize_record
+            try:
+                os.chdir(root)
+                viewer_base.canonical_path=viewer_resolved.existing_canonical_path
+                viewer_base.normalize_record=viewer_resolved.existing_source_normalize_record
+                payload=viewer_base.build_manifest(
+                    dev,live,root_manifest,external,curation,curated,"Satobloc","HsH","main"
+                )
+            finally:
+                viewer_base.canonical_path=old_canonical
+                viewer_base.normalize_record=old_normalize
+                os.chdir(old_cwd)
+            self.assertEqual(payload["counts"]["repository_root_and_other"],1)
+            self.assertEqual(payload["conversations"][0]["path"],"root-source.md")
+            self.assertEqual(payload["conversations"][0]["source_extension"],".md")
 
     def test_root_chronology_includes_suffix_independent_sources(self):
         with tempfile.TemporaryDirectory() as td:
