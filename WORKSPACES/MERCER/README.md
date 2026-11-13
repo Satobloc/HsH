@@ -1,3 +1,21 @@
+# MERCER-H812-S3-CURRENT-POINTER-20261113T2036Z
+
+**Current relay:** h812:s3, nominal 2026-11-13T20:36Z. [Full source-semantic/P0 report](2026-11-13T2036Z_H812_S3_SEMANTIC_ORACLE_AND_P0_RECHECK.md); [trial-checkpoint amendment](2026-11-13T2036Z_H812_S3_TRIAL_CHECKPOINT_AMENDMENT.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2036Z_s3_mercer.md); [Ravel optional handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2036Z_from_s3_to_s4_ravel_PRESTART_OPTIONAL.md).
+
+**Current assignment:** Code Grurple P0 Paper A+B presentation QA only. Historical equations/dimensional-analysis/constitutive-physics remit is preserved but not exercised while P0 controls. Lane 24 H(s)H/CODATA remains BACKSEAT/HOLD.
+
+**P0:** exact source/feed/source-ref bindings pass for both R1 manuscripts. Eight protected identities remain exact; vector SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`. Both legacy routes remain `PRESENTATION_PENDING / NOT_OBSERVED`; no route probe, site migration, manuscript edit, renderer execution, derivative build, or standdown.
+
+**New architecture result:** Paper A's ten section commands include nine unstarred headings plus starred References. The unresolved arrow contains exact `\\mathcal R_{4}` and a separate question-mark token; no map is established. The new source-semantic oracle and two-stage renderer conformance contract are published and verified in [issue #1701](https://github.com/Satobloc/HsH/issues/1701), submission `mercer-r1-semantic-oracle-correction-20261113t2036z-s3-001`, SHA-256 `815fbeb62560a1a007dfe7289112b30e6062e15015ae70f367b3fd66f6bb8f40`.
+
+**Execution identity:** Mercer is a deterministic ring label only. The October 1 historical direct instruction is preserved in raw export blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`. No authenticated current Mercer thread or historical-instance participation is claimed.
+
+**Successor:** Ravel h812:s4. Optional repository-only packet and inbox pointer were prepared before the next recorded :48 run start. No P0 assignment, P2 change, direct ChatGPT-thread delivery, or recipient acknowledgment is claimed.
+
+**Scheduler:** existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly America/New_York :36 VEVENT, prompt, and phase. Current h812:s3 run was IN_PROGRESS at final readback. No sixth task, task mutation, signet, or conversation rename.
+
+---
+
 # MERCER-H808-S4-CURRENT-POINTER-20261113T1648Z
 
 **Current relay:** h808:s4, nominal 2026-11-13T16:48Z. [P0 dual-anchor source-binding report](2026-11-13T1648Z_H808_S4_P0_DUAL_ANCHOR_SOURCE_BINDING_AND_REVIEW_MIND_RECHECK.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1648Z_s4_mercer.md); [Ravel optional handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1649Z_from_s4_to_s0_ravel_PRE_NOMINAL_OPTIONAL.md).
