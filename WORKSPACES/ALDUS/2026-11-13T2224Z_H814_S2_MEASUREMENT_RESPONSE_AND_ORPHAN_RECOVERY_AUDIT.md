@@ -180,3 +180,6 @@ The following additive comments were independently accepted by GitHub:
 - Initial partial register and scan status on Factory Floor WH-08 issue #19: [comment 6866785621](https://github.com/Satobloc/FACTORY_FLOOR/issues/19#issuecomment-6866785621).
 
 The PR correction now explicitly distinguishes merge-reference target-module build success from exact-head verification, which remains unverified.
+
+
+The earlier prospective wording above ("a correction comment is being added") is superseded by Amendment 01. PR #1657 comment 6866783721 is live and independently read back.
