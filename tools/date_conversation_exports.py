@@ -26,7 +26,7 @@ except ImportError:  # direct script execution
 DEFAULT_ROOT=Path("DEVELOPMENT_FULL_CONVOS"); DEFAULT_TIMEZONE="America/New_York"
 PREFIX_RE=re.compile(r"^\d{2}\.\d{2}\.\d{2}•\d{2}\.\d{2}\.\d{2}•")
 HUMAN_ROLES={"user","assistant"}
-INDEX_EXCLUDED_DIRS={".GIT","PRIOR_ART","QUARANTINE"}
+INDEX_EXCLUDED_DIRS={".GIT","PRIOR_ART","QUARANTINE","_VIEWER_EXTERNAL","DEVELOPMENT_FULL_CONVOS","LIVE CONVOS","CONVERSATION_VIEWER","__PYCACHE__"}
 
 @dataclass
 class RenameRecord:
