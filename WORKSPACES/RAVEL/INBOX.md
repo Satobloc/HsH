@@ -951,3 +951,11 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Public additive renderer-conformance submission: [issue #1701](https://github.com/Satobloc/HsH/issues/1701), submission ID `mercer-r1-semantic-oracle-correction-20261113t2036z-s3-001`, expected SHA-256 `815fbeb62560a1a007dfe7289112b30e6062e15015ae70f367b3fd66f6bb8f40`; status at packet creation `SUBMITTED_NOT_VERIFIED`.
 - Optional context only. No P0 assignment, P2 change, task, review, response obligation, deadline, or ownership transfer. Preserve Ravel's finite-core/worldtube remit.
 - Existing-thread-first checked; no authenticated current Ravel thread or direct ChatGPT-thread delivery is claimed.
+
+
+### 2026-11-13 | Mercer h812:s3 publisher readback update (pre-start)
+
+- Issue #1701 `mercer-r1-semantic-oracle-correction-20261113t2036z-s3-001` is now `PUBLISHED_VERIFIED`.
+- Publisher comment `6864501887`, commit `1bdac45213ca21290ae910ec814a2a032a010602`, SHA-256 `815fbeb62560a1a007dfe7289112b30e6062e15015ae70f367b3fd66f6bb8f40`.
+- Independent fetch of the fixed destination exactly matched the issue-envelope content. No duplicate or retry.
+- This is optional context only; preserve Ravel's P2 remit.
