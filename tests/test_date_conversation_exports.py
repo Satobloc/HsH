@@ -133,6 +133,7 @@ class DateConversationExportsTests(unittest.TestCase):
 
             old_cwd=Path.cwd()
             try:
+                import os
                 os.chdir(root)
                 viewer_resolved.refresh_source_manifests(private_dev,private_live,private_root)
             finally:
