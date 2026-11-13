@@ -83,24 +83,17 @@ The conditional collision theorems are correctly conditional. They require disti
 
 A source-backed next formalization should define an explicit observation map from a versioned event graph to observed records, then define separate projections for consensus, accuracy, provenance, participation, trust, and any optional model probe. Missing participant/session/request identifiers must remain explicitly missing (for example, optional fields), never be replaced with fabricated IDs. Message availability in a context must be distinguished from human reading, model processing, or comprehension. An internal representation probe is not a belief measure.
 
-## 4. Existing Vey Cognition Lab work: repetition check and source integration
+## 4. Source coverage, repetition check, and public-source recheck
 
-The three-repository onboarding and the HSH_RESOURCES AI start route were read. The HSH_RESOURCES root README and `PRIOR_ART/README_FROM_NATHAN.md` were consulted; its internal-reference boundary was respected. The SAT archive root README, Wayfinding, Orientation, Institutional Map, and Resources guides were read. HsH BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, onboarding, revival rotation, current branch, receipts, and the Orson role materials were checked.
+The three-repository onboarding, HSH_RESOURCES navigation materials, SAT archive welcome/orientation materials, and HsH workflow documents were consulted. HSH_RESOURCES is designated internal-reference; this public HsH amendment does not reproduce internal paths, blob hashes, excerpts, or unpublished audit findings. The SAT archive Orientation, Wayfinding, Institutional Map, and Resources guides were read. The Orson role charter remains an assistant-maintained reconstruction; no authenticated current Orson thread was established.
 
-The h797 six-study crosswalk is a useful complementary lens on trust, inclusion, and intermediate representation, but it is not a new comprehensive literature review. Existing Vey Lab source work already covers the most directly relevant peer-agent and measurement questions:
+The h797 six-study crosswalk is bounded and non-systematic. It lists Parisi, Shao, Ni, Hashemi, Laustsen, and Barrera, but omits Chen et al.'s direct mixed human–LLM group study (arXiv:2609.02122) and the public GRAIL platform as relevant comparators. This omission does not falsify the bounded crosswalk, but it means the six-study list must not be described as exhaustive or as a systematic review. A prior internal reference set was consulted for duplication control; its content is not copied here.
 
-- `VEY-016_HUMAN_MULTI_LLM_GROUP_INTERACTION_REPLICATION_AUDIT_2026-10-30.md`, blob `813f6e1e7f63d9dc21e19f1062302d2e306f30dc`.
-- `VEY-017_GRAIL_MULTI_PEER_EXTENSION_SOURCE_AUDIT_2026-10-30.md`, blob `a295fefd826cd06e80296c03b275807642e2df92`.
-- `VEY-019_FIVE_EVIDENCE_REGIMES_AND_CONSENSUS_MEASUREMENT_AUDIT_2026-10-31.md`, blob `eb3561cccf1b3d103b9ae3832ae15da781ae612e`.
-- `VEY-041_CHEN_2026_RELEASE_CODE_DATA_REPRODUCIBILITY_AUDIT_2026-11-11.md`, blob `10caaa45a1fcdedc4da0ec1f029c8e895ecc8218`.
-
-The h797 six-study list omits Chen et al.'s direct mixed human–multi-LLM group study (arXiv:2609.02122) and the existing GRAIL source audit. Four of the six h797 studies were abstract-level only. The crosswalk should therefore remain labelled bounded and non-systematic, not treated as an independent or exhaustive literature audit.
-
-The h797 four-arm future design also overlaps prior Vey work. VEY-017 already specifies a more orthogonal 2×2 design: shared versus disjoint evidence crossed with peer outputs hidden versus exposed, with multiple independent sessions per condition, separate agent state, and explicit message visibility/source lineage. The h797 four arms do not explicitly cross those two factors. Do not create another competing design or represent the four-arm proposal as approved. Reuse and refine VEY-017 if a future, separately authorized protocol is ever considered.
+The h797 four-arm future design remains a proposal only, not an approved protocol. It is outside the frozen P1 methods/archival scope. No alternative experiment design is proposed in this amendment, and no new trial is authorized.
 
 ### Chen et al. public release: bounded independent recheck
 
-Primary paper: [arXiv:2609.02122](https://arxiv.org/abs/2609.02122). Public code/data repository: [tsinghua-fib-lab/human-ai-consensus](https://github.com/tsinghua-fib-lab/human-ai-consensus), inspected at commit `74b79b65f221a01ba9c6744dc4f107741fcd8908`.
+Primary paper: [arXiv:2609.02122](https://arxiv.org/abs/2609.02122). Public code/data repository: [tsinghua-fib-lab/human-ai-consensus](https://github.com/tsinghua-fib-lab/human-ai-consensus), inspected at pinned commit `74b79b65f221a01ba9c6744dc4f107741fcd8908`.
 
 The four public processed questionnaire CSVs were independently fetched at that pinned commit and counted:
 
@@ -112,17 +105,24 @@ The four public processed questionnaire CSVs were independently fetched at that 
 | A5 | 54 |
 | **Total** | **495** |
 
-Each has header `round,you,peer,judged_ai,willingness`; none contains a stable participant ID or session ID. The separate `A2.pkl`–`A5.pkl` files are simulation-history pickles; these coexist with the questionnaire-result CSVs. The earlier shorthand that the A2–A5 data were simply “pickles, not CSVs” conflated two different file families.
+Each CSV has header `round,you,peer,judged_ai,willingness`; none contains a stable participant ID or session ID. The separate `A2.pkl`–`A5.pkl` files are simulation-history pickles; they coexist with the questionnaire-result CSVs. This distinguishes two file families that can otherwise be conflated.
 
 The public analysis script `plot_adoption_persistence_dynamics_by_pair_type.py`, blob `9db50b3e23bb1d832ff25d54d95f7d1257b04b9d`, uses `stats.ttest_ind(e_arr, l_arr, equal_var=False)` for early/late observations from repeated participants. That is an unpaired test on repeated observations; a paired or appropriately specified mixed model would be needed for participant-level inference. This run verified the code call and CSV structure, not a new p-value or full statistical reanalysis.
 
-The existing VEY-041 audit reports a public-code row-mean H3 adoption-willingness gap of +0.3471 versus +0.884 in the manuscript, an unresolved version/estimand discrepancy. That numeric comparison is inherited from VEY-041, not recomputed in this run. No p-value was recomputed because the public CSVs lack respondent/session IDs. The source-level possibility of one session per condition remains an inference from the reported eight conditions and participant/agent counts, not a verified allocation record.
+The paper reports eight conditions, 127 human participants, and 24 participants per session. The transcribed condition counts in the existing public PR #1115 source note sum to 127 humans and 65 agent slots across eight 24-member sessions. The interpretation that this means one session per condition is source-level inference, not an independently verified allocation record or a Lean theorem. The public repository snapshot is dated 2026-05-16, substantially earlier than arXiv v1 on 2026-09-02; exact code-to-paper version alignment is not established.
 
-The public repository commit predates arXiv v1 by roughly 108 days. The release is a figure-reproduction package, not a complete live serving platform or per-agent request/context log. Its primary consensus/reward machinery uses the same embedding family, so the metric is not an independent semantic-truth criterion.
+The processed CSVs do not support participant- or session-clustered reanalysis because stable identifiers are absent. No new p-value, causal estimate, or independent replication was produced. The public files inspected do not contain per-agent request IDs or context histories, so they do not identify exact model-context ancestry.
 
-### GRAIL boundary
+### GRAIL public-source architecture
 
-VEY-017's source audit of Microsoft GRAIL at commit `c7a2077281fed73f492a29ab187a7b86875203d8` found one shared LLM facilitator, not independently stateful LLM peer participants. Reuse its session, treatment, consent/survey, export, and request-logging infrastructure if appropriate; a multi-peer extension would still need separate agent histories, stable agent IDs, explicit visibility policies, source-bundle hashes, per-request lineage, and multiple sessions per condition. No platform modification, deployment, API call, human session, or ethics submission occurred.
+Public repository: [microsoft/group_ai_lab](https://github.com/microsoft/group_ai_lab), inspected at commit `c7a2077281fed73f492a29ab187a7b86875203d8`.
+
+- `server/src/callbacks.js`, blob `45669e5664349a1fc10cad5fc07324b82f3c9181`: one module-level `openaiModel`, one response function, one game-level `llmLog`, and facilitator messages appended under sender `id: "ai"`, `name: "Facilitator"`.
+- `server/src/LLMConfig.js`, blob `7b18c41ff613a24f69245861c8e29edee6290372`: one LLM facilitator prompt and one human facilitator prompt.
+- `.empirica/treatments.yaml`, blob `31cff9bdb7b638e1381382ef0fb4d1feca04a447`: facilitation levels are none/human/LLM and player counts are 5 or 6; no multi-agent count, per-agent model assignment, source-sharing factor, or peer-visibility factor appears in this file.
+- The README describes groups interacting synchronously with a shared large language model.
+
+This is source-level architecture inspection, not a runtime test. The checked GRAIL implementation is a shared-facilitator platform, not an implementation of independently stateful LLM peer agents. No platform modification, deployment, API call, human session, or ethics submission occurred.
 
 ## 5. Mersearch and original-bank status
 
