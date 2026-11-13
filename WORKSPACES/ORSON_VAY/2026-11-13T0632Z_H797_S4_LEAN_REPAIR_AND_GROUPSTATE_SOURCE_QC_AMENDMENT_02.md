@@ -13,7 +13,7 @@ The h797:s4 primary report and canonical receipt already existed:
 - Report: `WORKSPACES/ORSON_VAY/2026-11-13T0548Z_H797_S4_GROUP_CONSENSUS_MEASUREMENT_MAP_AND_REVIEW_MIND_CROSSWALK.md`, blob `40dfbd34a36e6dd84c9f1e5f5f2f8dce0a2e8b64`.
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0548Z_s4_orson_vay.md`, blob `5484602578e18ea6aec71c851a862bd74d34b94b`.
 
-This is an additive same-key re-entry amendment, not a second h797 research activation. The earlier public submission and Sable handoff were retained; neither was duplicated.
+This is an additive same-key re-entry amendment, not a second h797 research activation. The prewrite HsH main head was `815b83039aaa6ab66ece59a55fd8c04c96704ec7`. The earlier public submission and Sable handoff were retained; neither was duplicated.
 
 ## 2. Exact-head Lean repair
 
@@ -37,7 +37,7 @@ A minimal repair was made on the existing PR branch, without creating a new bran
 
 ### Exact-head verification
 
-<badge>EXACT_HEAD_BUILD_SUCCESS</badge>
+**EXACT_HEAD_BUILD_SUCCESS**
 
 - Run [#43378222590](https://github.com/Satobloc/HsH/actions/runs/43378222590), job `131729628229`.
 - Event: push; source commit exactly `eb86489d63c9a7b1f7a34be9429afd5bc2f5a6ed`.
@@ -137,7 +137,7 @@ An existing Mersearch request was found and inspected, not rerun:
 
 The manifest explicitly withholds `SEARCH_RESULTS.json` and `SEARCH_RESULTS.md` from the repository; raw results existed only in the temporary Actions workspace. The compact receipt is a navigation receipt, not the complete result set. Its selected paths do not identify the original OV-49–OV-53 answer-keyed bank. This does not prove the bank is absent from every hit; it remains **NOT RECOVERED in the accessible source record**. Existing VEY-017/019 records distinguish OV-49–OV-53 geometry/finite-core work and OV-55/56/100 assistant-authored analytical or synthetic artifacts from an administered human/LLM trial.
 
-All four shared Mersearch request lanes remain occupied. No new request was overwritten, created, or retriggered. No raw withheld search results were bypassed.
+All four live Mersearch request files were independently fetched and remain `status=requested`: lane 1 `calder-angle-geometry-source-fidelity-20261102-1337`; lane 2 `archive-harvest-20261025-optics-01`; lane 3 `calder-iri-worldtube-geometry-fidelity-20261104t2230z-s0-001`; lane 4 `kestrel-finite-core-geometry-source-fidelity-20261102-2200`. No request was overwritten, created, or retriggered. No raw withheld search results were bypassed.
 
 ## 6. P1 and cross-lane boundaries
 
