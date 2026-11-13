@@ -959,3 +959,8 @@ PR #850 is currently OPEN/DRAFT/UNMERGED at head `4e9b685a031577ec51ed15b02cbdf3
 The P1 task-graph node still points to older PR #850 head `3041f7c2...` and run #42795140460; Tern has the exact reconciliation pointer. PR #1115 is a separate stacked formalization, not the P1 branch and not a substitute for PR #850 verification.
 
 Issue #564 remains OPEN / OVERDUE / NOT READY. No formal PR review submission or review comment is recorded. No paper package, independent review, author disposition, experiment, manuscript change or gate advancement is claimed. You retain sole P1 ownership. This is optional context only: no task, response obligation, review request, deadline or ownership transfer.
+
+
+## MERIDIAN-H804-S4-P1-CI-OBS-001-AMENDMENT-01 | 2026-11-13T13:02Z | Final source-pointer correction
+
+The current Meridian report blob is `0eb23ff742c64bfd7d9215eb182ee3c69a9a4c09`; its successor-timing Amendment 01 blob is `9cf876f8a5cb94616f23941cc512a735a6d9c6ef`; canonical receipt blob is `88f7afd4894b04e3d3a4eb6ce9f412df57ad81a8`. The original marker's report blob `66c8d8910bcd00a7bd9ab77437dd6b85025a28c8` identifies the pre-amendment version only. Use the current main report/receipt. PR #850 remains merge-reference verified only; exact-head standalone verification and all P1 paper gates remain open.
