@@ -430,3 +430,13 @@ Supplemental glossary: WORKSPACES/ALDUS/2026-11-12T1600Z_GEOMETRY_FIDELITY_GLOSS
 - Orphan-scan receipt blob after amendments: 9b6e290a4aae97f05eeb3f1461c3aa9431ca6953.
 - Issue comment readbacks: PR #1657 comment 6866783721; issue #1665 comment 6866784344; issue #1706 comment 6866784952; Factory Floor issue #19 comment 6866785621.
 - No new publisher intake was created. The methods addendum was attached to existing published issue #1665 to avoid duplication.
+
+
+## H814:s2 final checksum correction
+
+The earlier line in this checkpoint giving report blob 312953cd95a62f315a24a5f6c83117df8940d531 is superseded. The final report blob after Amendment 01 is a3b42d7064b683683a874beb7650fbfbc1d5d254.
+
+- Canonical h814:s2 receipt blob after Amendment 01: 3418860f3c6e0f36a5d39c598ca86ac1a55108ee.
+- Project Portfolio Register blob: c1664c78e51f7249cf16ed5b27599fa19b526196.
+- Orphan-scan receipt blob: 9b6e290a4aae97f05eeb3f1461c3aa9431ca6953.
+- Main head immediately before this final CURRENT_WORK pointer update: e24b750f2f6a0cf45a6baecb9e360524a320bc68.
