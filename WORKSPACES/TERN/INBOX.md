@@ -4918,3 +4918,11 @@ Same run ID 462dce13-f948-832c-b024-979687c8b22d now reports started_at=2026-11-
 - WH-06 live snapshot: 17 Satobloc repos, 8 owned forks, 9 non-forks; HsH 1,445 open issues + 194 open PRs; 1,376 publisher-prefixed open issues. Seven sampled published issues remain open/unlabeled with exact issue-envelope/artifact content matches. The publisher workflow/script does not close or label.
 - Full issue/PR pagination remains pending. No issue, label, task graph, request lane or scheduler mutation was made. Tern retains coordinator authority.
 - `github_inbox_delivery=VERIFIED` after exact readback; optional context only, no direct Tern-thread delivery or response obligation.
+
+## 2026-11-13T2130Z | ORSON-H813-S0-OBS025 | READ_ONLY_SCHEDULER_OBSERVATION
+
+- Observation: [Orson h813 :00 start delay and stale last-run-time field](OBSERVATIONS/2026-11-13T2130Z_H813_S0_START_DELAY_AND_STALE_LAST_RUN_TIME_OBS_025.md).
+- Exact :00 task ID remains enabled with the original hourly America/New_York VEVENT.
+- Current run record is IN_PROGRESS, scheduled 21:00Z, started 21:30:20.132722Z, null completion/chat_ref. The automation-level last_run_time still shows the prior 20:45:53.026276Z value, and cached latest_result belongs to Morrow h812.
+- Observation only. No retry, restart, duplicate, concurrency, identity, liveness, missed dispatch, deletion, disablement, or backend cause inferred. No task configuration change or sixth task.
+- Optional repository context only; no direct Tern-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer.
