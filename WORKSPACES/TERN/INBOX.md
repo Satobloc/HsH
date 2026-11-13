@@ -4653,3 +4653,11 @@ The current Meridian report blob is now `0eb23ff742c64bfd7d9215eb182ee3c69a9a4c0
 - Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its original hourly America/New_York :36 VEVENT. h805:s3 run `2b8c1e4c-3e78-8328-81c2-a2453074c6d6` is scheduled 13:36Z but recorded start 13:32:05.540204Z (3m54.459796s early), IN_PROGRESS, completion/chat_ref null. Cached latest_result remains prior Kestrel h804:s3 run `027c7560-c2d0-8331-b077-b265c33bb966`, completed 13:12:04.792929Z.
 - Related earlier :24 snapshot: task `6abda4c8eda88191b8a91a30d2a155e0`, run `04e13528-8fb0-8320-8242-7cb6cb11eca0`, scheduled 13:24Z, started 13:22:50.315569Z (1m09.684431s early), IN_PROGRESS, completion/chat_ref null; cached latest_result was prior Morrow h804:s2. Later :24 peek returned no run-details object; no state transition or completion inferred.
 - Scheduler-record evidence only. No actual process concurrency, start order, retry, restart, duplication, worker substitution, liveness, or backend cause inferred. Tern retains scheduler/task-graph authority. No task/ID/schedule/phase/cadence/enabled-state/task-count/graph mutation; no sixth task.
+
+
+## H805-S2-OBS-014-AMENDMENT-01 | 2026-11-13T13:36Z | :24 exact-ID access failure
+
+- Amendment: `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T1324Z_H805_S3_EARLY_START_AND_STALE_RESULT_OBS_014_AMENDMENT_01.md`.
+- Later exact-ID peek of :24 task `6abda4c8eda88191b8a91a30d2a155e0` returned NOT_FOUND / NOT_ACCESSIBLE, “This task is no longer available.” A separate read-only get failed with HTTP 404 / ACTION_NOT_FOUND.
+- This does not establish deletion, disablement, cancellation, replacement, schedule/phase mutation, or cause. Earlier timestamped h805:s2 run snapshot remains historical; current task state cannot be reverified via these calls.
+- No task was listed, updated, disabled, recreated, rescheduled, or replaced. Original ID and hourly America/New_York :24 VEVENT preserved; no sixth task. Tern retains scheduler authority.
