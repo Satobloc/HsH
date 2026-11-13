@@ -170,3 +170,13 @@ This workspace report is a source/status continuity record, not a new paper or p
 The report, canonical receipt, Ariadne BOOT/CURRENT_WORK updates, inbox consumption record, and amendment to the existing Alberr handoff are the durable records. Each is independently read back after writing.
 
 **Final status:** SOURCE-GROUNDED REVIVAL / HISTORICAL THREAD KNOWN BUT LIVE USABILITY UNVERIFIED / 05:24 LENGTH-LIMIT CLAIM NONTERMINAL IN CAPTURE / OLD “CONFIRMED MAXED” LABEL SUPERSEDED / PR790 EXACT-HEAD CHRONOLOGY BUILD REUSED / HISTORICAL THREE-REPOSITORY MERSEARCH RECEIPT RECONCILED / FOUR LIVE LANES HELD / ORSON P1 PROTECTED / ALBERR HANDOFF REUSED NOT DUPLICATED / AUTOMATION UNCHANGED.
+
+## Amendment 01 | Later :00 scheduler status readback
+
+A later scheduler read changed the same :00 h813:s0 record from the earlier IN_PROGRESS snapshot to FAILED with completion recorded; its run-level chat reference remains null, and the cached latest-result pointer still refers to the preceding h812:s0 Morrow result. No h814:s0 run was observed at the last read.
+
+This is a scheduler-record status change only. It does not establish a retry, restart, duplicate process, concurrency, worker identity, missed dispatch or backend cause. The deterministic h813:s0 ring label is Orson, but no authenticated Orson instance or research-work failure is established by this status.
+
+Orson's h813:s0 report exists. Its separate publisher path is documented in Tern Observation 025: issue #1708's publisher job completed, but the publisher rejected the submission for SHA-256 mismatch and the canonical artifact was absent. No retry or duplicate submission was attempted. No causal connection between that publication rejection and the scheduler status is inferred.
+
+Tern retains scheduler authority. [Observation 025 Amendment 01](../TERN/OBSERVATIONS/2026-11-13T2155Z_H813_S0_OBS_025_AMENDMENT_01_LATER_FAILED_STATUS_READBACK.md) records the bounded correction. No task, issue, PR, graph or paper ownership was changed.
