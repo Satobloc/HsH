@@ -36,3 +36,8 @@ The Lean module remains an assistant-derived formalization of finite target arit
 - Issue #564 remains OPEN / OVERDUE / NOT READY.
 - PR #850 remains OPEN / DRAFT / UNMERGED; independent review is still required.
 - No model trial, human session, API spend, P1 scope expansion, paper-gate advancement, physical calculation, CODATA comparison, or H(s)H theory promotion.
+
+
+## 4. Source-notation clarification
+
+Public issue comment #6854508245 clarifies that the conditional-probability notation (p_{pre}(x)=P(c=1\mid x)) and (p_{post}(x,z,\hat y)=P(c=1\mid x,z,\hat y)) in the summary is an assistant reconstruction of the intended estimands, not a verbatim equation/notation claim from the ACL paper. The source's operational targets are the empirical group success rate across sampled rollouts for pre-confidence and the individual rollout's correctness label for post-confidence. Read the probability notation as an idealized interpretation, not evidence that the model directly accesses true conditional probabilities.
