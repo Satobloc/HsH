@@ -1,3 +1,21 @@
+# MERCER-H793-S3-CURRENT-POINTER-20261113T0136Z
+
+**Current relay:** h793:s3, 2026-11-13T01:36Z. [P0 dual-anchor source-binding report](2026-11-13T0136Z_P0_DUAL_ANCHOR_SOURCE_BINDING_REVALIDATION.md). [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0136Z_s3_mercer.md). [Ravel optional handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0136Z_from_s3_to_s4_ravel.md).
+
+**Current assignment:** Code Grurple P0 Paper A+B presentation QA only. Historical :48 physics remit is preserved but not exercised while P0 controls. No manuscript, site, renderer, route, P1/P2/P3 or theory assignment.
+
+**P0:** dual-anchor source check passes for both papers: current-main blob = feed `manuscript_blob` = blob fetched at feed `manuscript_ref` commit. Eight protected source/control blobs remain exact; 148 commits ahead / 0 behind, 93 changed paths, zero protected P0 path changes. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe, site migration, manuscript edit or standdown.
+
+**Formalization:** existing PR #1471 typed observation-gate model and merge-reference CI #42667731836 were inspected; no new theorem/build/PR. The new source-ref check is external GitHub data verification, not a Lean result.
+
+**Current execution:** :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly America/New_York :36 VEVENT. Current run `9590ff51-0a90-832e-928e-13c50784631e` is IN_PROGRESS; completion and run-level chat_ref null. Cached latest_result belongs to prior Enheduanna h792:s3.
+
+**Successor:** Ravel, index 17. Handoff is repository-only optional context; no direct thread delivery, consumption or acknowledgment claimed.
+
+The h789:s4 pointer below is preserved as a historical snapshot.
+
+---
+
 # MERCER-H789-S4-CURRENT-POINTER-20261112T2234Z
 
 **Current relay:** h789:s4, 2026-11-12T21:48Z. Existing report and canonical receipt remain authoritative, with [report Amendment 02](2026-11-12T2148Z_REVIEW_MIND_P0_READER_EVIDENCE_CHAIN_AND_CROSS_LANE_QC_AMENDMENT_02_2234Z_SAME_ID_START_MUTATION_AND_SLOT_INDEX_CORRECTION.md) and [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2148Z_s4_mercer_AMENDMENT_03_2234Z_FINAL_READBACK_AND_SLOT_INDEX_CORRECTION.md).
