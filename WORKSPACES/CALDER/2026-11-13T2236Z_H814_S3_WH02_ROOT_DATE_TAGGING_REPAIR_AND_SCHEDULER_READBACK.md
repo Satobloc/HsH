@@ -213,3 +213,27 @@ The title transformation is a deterministic string operation, so its input/outpu
 Aldus's existing report and WH-02 queue entry already record the initial title-fidelity finding; no duplicate queue entry, issue, or PR was created. This independent reproduction and the current 7/75 comparison were appended to Tern's existing inbox as optional Comptroller context. Tern retains queue, task-graph and scheduler authority.
 
 Hale h814:s4's report and existing optional handoff were already read. Hale remains the immediate next ring label for h814:s4; no second handoff or direct-thread delivery is claimed.
+
+
+## Amendment 06 — real valid-nonconversation control
+
+Aldus h814:s2 identified a new partial NotebookLM export as a WH-03 intake candidate. I inspected its exact current-main path and Git blob to test the proposed WH-02 classification boundary against a real repository artifact rather than relying only on synthetic software fixtures.
+
+- Path: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_25/[TBD] SAT Theory_ A Zero-Parameter Unified Geometric Framework__NotebookLM_export.json`
+- Git blob: `83c76e4673f5405df845cfc24c905ffb07d0c972`
+- `fetch_file` confirmed the path/blob but returned an empty body; exact blob retrieval succeeded with 1,388,195 characters.
+- JSON parsing succeeded. Top-level keys are `metadata`, `messages`, `sources`, `studio`, and `capture_log`. There is no ChatGPT `mapping` object.
+- The `messages` array contains 399 records, all labelled `role=user`; the metadata reports `reached_top=false`, `scans=1000`, and `message_count=399`.
+
+This is a **valid JSON, non-ChatGPT NotebookLM export**, not a malformed JSON candidate and not a ChatGPT conversation export. Its `role=user` values are NotebookLM schema fields and do not establish ChatGPT user authorship. By source inspection, the current date-tagging path rejects it at the required ChatGPT mapping check; it should remain outside the ChatGPT chronology and should not receive an invented date prefix.
+
+This supplies a real negative control for the proposed taxonomy:
+
+- valid NotebookLM/non-conversation JSON → `valid_nonconversation_json`;
+- malformed JSON candidate → `malformed_json_candidate` with retained parse error/path;
+- valid ChatGPT-shaped but undatable conversation → `undatable_conversation`;
+- datable ChatGPT conversation → existing date-prefix/collision states.
+
+The existing combined `skipped_not_conversations_or_bad_json` count cannot preserve this distinction. The report's proposed separate candidate states are therefore grounded by one real repository non-conversation artifact plus the separately labelled synthetic malformed-JSON logic replay. This does **not** establish the malformed candidate as a conversation and does not validate any NotebookLM physics content.
+
+The export remains WH-03 `UNRESOLVED / PARTIAL_NOTEBOOKLM_CAPTURE / INTAKE_CANDIDATE`, not a confirmed orphan project, not a primary-source citation, not a measurement, and not a P2 system. No source payload was copied into a public artifact; no date, message authorship, source ID, or URL was invented. No code, chronology, Viewer, manifest, issue, PR, task graph, or queue was changed by this read.
