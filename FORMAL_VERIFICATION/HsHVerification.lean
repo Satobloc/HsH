@@ -49,6 +49,7 @@ import HsHVerification.HumanAIGroupsSessionConfounding
 import HsHVerification.HumanAIGroupsTemporalExposure
 import HsHVerification.HumanAIMemoryCarryover
 import HsHVerification.ObservableProjection
+import HsHVerification.HumanAIQuestionnaireProvenance
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
