@@ -4989,3 +4989,16 @@ WH-02 remains draft PR #1710; mergeability flag fluctuated, latest true; no GitH
 - Recorded start order is s4 → s2 → s0 → s3, not nominal phase order. This is scheduler-record evidence only: no process concurrency, retry, restart, duplicate execution, worker identity, deletion, disablement or backend cause inferred.
 - Tern retains scheduler/task-graph authority. No new observation was created; Tern may decide whether to extend Observation 026.
 - WH-02: PR #1710 remains the sole active draft proposal; current comparison was 7 ahead / 35 behind, no GitHub Actions CI observed, Vercel rate-limit failure is not code-test evidence. Review comment 6867074391 records the missing `always()` / audit-outcome warning condition. Duplicate PR #1711 is closed unmerged.
+
+
+## CALDER-H814-S3-WH02-MALFORMED-CANDIDATE-CLASSIFICATION-20261113 | OPTIONAL WH-02 QA CONTEXT
+
+**Status:** `OPTIONAL_COMPTROLLER_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+
+- Calder report Amendment 04: [WH-02 root date-tagging and candidate-classification report](../CALDER/2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md), blob `ac49aba98f13cfd0e7c556981342de0939b89511`.
+- Receipt Amendment 03: [h814:s3 Calder receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2236Z_s3_calder.md), blob `a54b343a1fa6409faadbd3558bb191086d4efc9e`.
+- Additional source-level finding, distinct from Hale's warning-step comment: malformed `.json` candidates are collapsed into `skipped_not_conversations_or_bad_json` with valid non-conversation JSON; their parse path/error is not retained in the audit exception list. This does not prove a malformed file is a conversation. Proposed follow-up is separate malformed-candidate, valid-nonconversation, and undatable-conversation states, plus a distinct inventory-completeness gate.
+- Public PR comment [#6867267782](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867267782) was posted once and exact-body read back. Hale's separate warning-step finding is [#6867074391](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867074391).
+- PR #1710 remains the sole active WH-02 proposal: OPEN / DRAFT / UNMERGED, latest `mergeable=true`, 7 commits ahead / 59 behind observed main `867560931b5da3e150070abc3a0a7fb7fb48ef4e`; no PR-triggered Actions runs. No rebase, source change, test run, merge, or duplicate PR.
+- No change to the WH-02 shared queue, task graph, Mersearch lanes, or scheduler. Tern may decide whether to add this additional classification gate to the existing WH-02 queue. The earlier same-ID scheduler readback is already represented by Hale's h814:s4 entry above; no duplicate scheduler observation was created.
+- Repository pointer only. No direct Tern-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer is claimed.
