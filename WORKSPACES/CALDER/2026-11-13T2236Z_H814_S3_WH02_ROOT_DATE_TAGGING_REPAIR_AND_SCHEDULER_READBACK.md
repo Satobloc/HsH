@@ -69,13 +69,14 @@ Aldus h814:s2's Project Portfolio Register and orphan-scan receipts were read. T
 
 Exact-ID scheduler readbacks show:
 
-| Slot | Run | Recorded start | State |
+| Slot | Run | Recorded start | Latest evidence |
 |---|---|---|---|
-| :36 h814:s3 | `78a1a0aa-70c0-8329-b340-2e34bdabd7fd` | 22:38:11.641455Z | IN_PROGRESS |
-| :48 h814:s4 | `ebe927f4-3348-8326-94ec-ad587b667807` | 22:44:35.999674Z | IN_PROGRESS |
-| :24 h814:s2 | `893a3e1d-ab04-8321-ad95-57fca28b0e60` | 22:49:38.445949Z | IN_PROGRESS |
+| :00 h814:s0 | `ec20af36-81b8-8325-ab1d-5f9756c59e22` | 22:58:00.804972Z | IN_PROGRESS; null completion/chat_ref; cached result belongs to prior h813:s0 |
+| :24 h814:s2 | `893a3e1d-ab04-8321-ad95-57fca28b0e60` | 22:49:38.445949Z | Last successful exact-ID peek: IN_PROGRESS; null completion/chat_ref; cached result belongs to Loom h813:s2. A later exact-ID peek returned no current record |
+| :36 h814:s3 | `78a1a0aa-70c0-8329-b340-2e34bdabd7fd` | 22:38:11.641455Z | IN_PROGRESS; null completion/chat_ref; cached result belongs to Aster h813:s3 |
+| :48 h814:s4 | `ebe927f4-3348-8326-94ec-ad587b667807` | 22:44:35.999674Z | IN_PROGRESS; null completion/chat_ref; cached result belongs to Ariadne h813:s4 |
 
-The recorded start order is s3 → s4 → s2, while nominal phase order is s2 → s3 → s4. The :00 h814:s0 run was not observed; the :00 task's last visible run remained h813:s0, completed 22:14:40Z. Current run-level completion and chat_ref values are null; cached results belong to preceding workers. This is scheduler-record ordering evidence only: it does not establish process concurrency, retry, restart, cause, or failed execution. Tern retains scheduler authority; the exact readback was routed to Tern's inbox for disposition. No scheduler task, ID, cadence, phase or prompt was changed.
+The latest successful recorded start order is s3 → s4 → s2 → s0, versus nominal phase order s0 → s2 → s3 → s4. The :24 exact-ID peek later returned no current record; its last successful readback remains the h814:s2 IN_PROGRESS snapshot above. The :00 h814:s0 run is now recorded IN_PROGRESS. These are scheduler-record ordering/access observations only: no process concurrency, retry, restart, deletion, disablement, missed dispatch or backend cause is inferred. Tern retains scheduler authority; the readback was routed to Tern's inbox. No scheduler task, ID, cadence, phase or prompt was changed.
 
 ## Campaign and maintenance
 
