@@ -36,3 +36,7 @@
 ## Latest checkpoint | 2026-11-13 h807:s0
 
 Lane 00 source-fidelity report: [Moving-slice / WWRD rope geometry crosswalk](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-11-13T1500Z_LANE00_MOVING_SLICE_WWRD_GEOMETRY_FIDELITY.md). Issue #1690 was submitted once through the existing publisher; status remains SUBMITTED_NOT_VERIFIED pending publisher comment and canonical artifact readback. Core unresolved map: theta_I versus theta_4, physical rope body/centerline versus SAT 1D filament/worldtube. No physical calculation or CODATA. Next cursor and source IDs are in the report and CURRENT_WORK. No authenticated current Calder thread or cross-thread delivery is claimed.
+
+### h807 publication outcome
+
+Issue #1690 was rejected by the existing publisher for SHA-256 mismatch. Workspace report and issue body match exactly; correct UTF-8 SHA-256 is f69ad049214006a07a111e8621a0076f397e7a0cca22788552fa07023241aedd, while the submitted envelope carried stale fb9820b70cd0c20f94238cfcbef3f9424b5b11a72aab630d80fa7e23189fb12a. No canonical artifact exists. No retry or duplicate. See CURRENT_WORK and the canonical h807 receipt.
