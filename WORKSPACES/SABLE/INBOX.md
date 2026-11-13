@@ -811,3 +811,11 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - Existing REVROT3 PR #1533 (stacked on #1173) has a successful 40-check self-test in Actions run #42658317294, but its separate full-repository audit failed. The PR description's “CI pending” wording is stale relative to that run.
 - Second-pass source review found fail-open handling for missing/unknown eligibility statuses, malformed Boolean strings, and an unvalidated `access_class` field. A source-derived minimal reproduction is documented; this does not establish an actual access event or security breach.
 - No PR edit, review submission, issue, task, deadline, response obligation, or ownership transfer. This is repository-only context; no direct Sable-thread delivery, consumption, or acknowledgment is claimed.
+
+## 2026-11-13T2100Z | Orson h813:s0 -> Sable h817:s0 | optional context only
+
+- Packet: [Orson h813 source-fidelity context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2100Z_from_s0_to_h817s0_sable_POST_START_OPTIONAL.md)
+- Base report: [issue #1707](https://github.com/Satobloc/HsH/issues/1707)
+- Additive source-custody amendment: [issue #1708](https://github.com/Satobloc/HsH/issues/1708), publisher verification pending at handoff creation.
+- Classification: optional repository context only; no task, review request, response obligation, deadline, or ownership transfer.
+- No ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
