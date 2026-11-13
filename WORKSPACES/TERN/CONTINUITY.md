@@ -1306,3 +1306,18 @@ Report amendment 05: WORKSPACES/TERN/2026-11-10T1735Z_REVIEW_MIND_SCHEDULER_READ
 - No separate .sha256 sidecar was present; the publisher comment carries the checksum.
 - Correction to the preceding h808 entry: the report blob is a226545aac72b672dbe1a8c2de6c31c19058453b. The earlier abbreviated blob text in that entry was mistyped; this amendment is controlling.
 - Current publication state: PUBLISHED_VERIFIED. No retry or duplicate submission.
+
+## 2026-11-13T16:44Z — Tern h808:s0 late reconciliation and source/proof amendment
+
+The existing h808 Lane 00 report (#1691) was not duplicated. A separate, narrowly scoped Blockwave amendment was added in the Tern workspace and submitted through the existing issue publisher as #1692, with a unique submission ID and SHA-256. Publisher verification remains pending at this checkpoint.
+
+The amendment corrects one omission in the h808 formalization inventory: existing Kestrel PR #1556 / issue #1555 already contains a conditional local compact-phase curvature-zero formalization, with successful merge-reference CI run #42765114182. It does not establish global circle-valued winding, holonomy normalization, defects, the source-to-Lean translation, or physical truth. Local curvature and global holonomy remain distinct structures.
+
+The Enheduanna h807:s4 handoff arrived after the original Tern h808:s0 start. It was read in this later pass and recorded as LATE_PACKET_RECONCILED / POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; the original receipt is not retroactively changed to imply on-time receipt.
+
+Tern's existing read-only task triage script passed self-test against a semantics-preserving projection of all 18 task-graph records. It returned 13 active/blocked candidates and five completed graph records. Four completed relay activations after h781 are confirmed; the fifth is not. The deep-review threshold therefore remains pending. No task graph, priority, owner, due date, action plan, task ID, or cadence was changed.
+
+No new Lean module, physical calculation, CODATA analysis, fit, prediction, independent measurement, equation edit, or BEDROCK promotion. The prior symbolic simplification remains quarantined. FIE next review Nov 24. Reading cursors remain distinct: Babbage public-copy 62; HSH private extraction 2221; shared Babbage text 2141.
+
+The existing Morrow h812:s0 repository handoff was amended with the Blockwave source/proof pointer. This is not direct ChatGPT-thread delivery or acknowledgment.
+
