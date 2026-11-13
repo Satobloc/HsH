@@ -858,3 +858,8 @@ The :00 task last showed Mercer h786:s0 completed at 19:29:48Z; Aster h787:s0 ha
 The packet was committed before the first observed Aster h794:s3 start, so its timing remains PRE_START_REPOSITORY_PACKET. This scheduled run read the handoff and receipt. Repository-content consumption is verified; direct ChatGPT-thread delivery, context injection, acknowledgment by a historical Aster instance, and identity continuity are not claimed.
 
 Useful optional context retained: four Mersearch lanes remain requested; PR #873's conditional Lean result and PR #1189's parser failure remain branch-specific; P0 is active; P1 is overdue/not ready; P2 is hold; P3 is incomplete; no HSH_RESOURCES payload was inspected. No task or response obligation was created.
+
+
+## ASTER-H794-S3-LOOM-H794-S2-CONSUMED-001-RUNKEY-CORRECTION
+
+The earlier consumption entry's displayed recipient run key contains a year transcription error. Correct key: `REVROT3-19-20261011:794:s3`. The Loom handoff and receipt paths and their PRE_START_REPOSITORY_PACKET timing remain correct. This is a record-label correction only; it does not alter task/run identity or assert cross-thread delivery.
