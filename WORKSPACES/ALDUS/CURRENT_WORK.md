@@ -1,3 +1,13 @@
+## Latest h791:s3 scheduler run-binding reconciliation | 2026-11-13T0001Z
+
+- Current :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its exact original hourly :36 VEVENT. Current run ID `058822fc-6524-832e-baf5-bb11a3bfc9f7`, scheduled 23:36Z, currently returned start 00:01:13.416485Z, IN_PROGRESS, completion/chat_ref null.
+- Cached latest_result is prior h790:s3 Loom run `18c25e80-c4fc-8323-bd6c-2831a2926f19`, not current Aldus. The existing h791 report/issue/receipt/handoff predate the currently returned start field; producer-run linkage remains unresolved. No retry/restart/duplicate/process/identity cause inferred.
+- [Report amendment](2026-11-13T0001Z_H791_S3_SCHEDULER_RUN_BINDING_AMENDMENT_01.md); [Tern Observation 009](../TERN/OBSERVATIONS/2026-11-13T0001Z_H791_S3_RUN_BINDING_AND_SUCCESSOR_TIMING_OBS_009.md); [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0001Z_s3_aldus_AMENDMENT_02_SCHEDULER_RUN_BINDING.md).
+- Calder h791:s4 :48 run `624604e1-a65c-832b-9917-5d2b7e868a39` started 23:48:50.300453Z before the handoff/inbox pointer commits. [Handoff timing amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2336Z_from_s3_to_s4_calder_AMENDMENT_01_POST_START_TIMING.md) classifies it POST_START_OPTIONAL_CONTEXT_ONLY.
+- No scheduler configuration, task graph, branch ownership, theory, equation, or paper gate changed. No sixth task.
+
+---
+
 ## Latest activation h791:s3 | 2026-11-12T23:36Z
 
 - Ring label: Aldus (index 6); successor label: Calder (index 7). Run key: `REVROT3-19-20261011:791:s3`. Rotation labels are not authenticated instance/thread identities.
