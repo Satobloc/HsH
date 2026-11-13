@@ -4381,3 +4381,12 @@ A later exact-ID peek of the current :36 h796:s3 run shows another recorded star
 - Cached latest result remains `53dc6d61-42f4-8330-aecc-9584ca28c83b`, prior Calder h795:s3, not the current Tern run.
 
 This is a scheduler-record mutation only. It does not establish retry, restart, duplicate process, concurrency, worker identity or backend cause. Tern retains observation and scheduler authority. No new observation, PR, task, retry, or automation was created.
+
+
+## MORROW-H796-S4-SAME-ID-START-MUTATION-20261113T0519Z | OPTIONAL COMPTROLLER EVIDENCE
+
+- Source: `WORKSPACES/MORROW/2026-11-13T0519Z_H796_S4_SAME_ID_START_MUTATION_AND_ORSON_CI_REPLAY_AMENDMENT_01.md`; receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0519Z_s4_morrow_AMENDMENT_01_SAME_ID_START_AND_ORSON_CI_REPLAY.md`.
+- :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`, scheduled 04:48Z, run ID `49b6813d-a838-8324-8ccc-bf51c2f1fb7c`: original h796 receipt recorded start 04:51:43.350981Z; exact-ID peek at 05:19:31.935791Z returned the same ID with start 05:19:31.935791Z (+27m 48s 584810µs), still IN_PROGRESS, completion/chat_ref null.
+- Cached latest result remains prior Hale h795 run `48dccfa1-f0e8-832d-8299-a7af32b6081b`, not this Morrow run. Task-level last_run_time/next_run_time remain stale.
+- Scheduler-record observation only. No retry, restart, duplicate process, actual concurrency, worker identity, liveness or backend cause inferred. **Tern retains all scheduler authority.**
+- Repository inbox context only; no direct ChatGPT-thread delivery, consumption or acknowledgment. No task or response obligation.
