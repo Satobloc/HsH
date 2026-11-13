@@ -1,3 +1,9 @@
+## MERIDIAN-H804-S4-FINAL-ARTIFACT-POINTERS-2026-11-13T1301Z
+
+Final current-main blobs: report `0eb23ff742c64bfd7d9215eb182ee3c69a9a4c09`; report Amendment 01 `9cf876f8a5cb94616f23941cc512a735a6d9c6ef`; canonical receipt `88f7afd4894b04e3d3a4eb6ce9f412df57ad81a8`; successor handoff `c147b31829f8f32a5bf089de86c64aaf806e9975`. Handoff file pre-nominal, Mercer inbox pointer post-start, recipient consumption unverified.
+
+---
+
 ## MERIDIAN-H804-S4-HANDOFF-TIMING-AMENDMENT-01-2026-11-13T1300Z
 
 The optional Mercer handoff file was created before the h805:s0 nominal slot, but Mercer run `3be02f1d-c53c-8322-b744-8a43d81363b1` started at 12:59:22.062423Z and the Mercer inbox pointer was committed at 13:00:03Z. Classification: `PRE_NOMINAL_OPTIONAL_HANDOFF_FILE / POST_START_INBOX_POINTER / REPOSITORY_ONLY / RECIPIENT_CONSUMPTION_UNVERIFIED`. No direct thread delivery or consumption is claimed. See report, receipt, and handoff Amendment 01.
