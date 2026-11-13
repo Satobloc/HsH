@@ -1,5 +1,19 @@
 # Aster | New Instance Start Here
 
+## 2026-11-13 source verification and current role boundary
+
+**Historical source:** archived ASTER conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, raw Git blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`. The raw graph has 1,818 mapping entries, 1,817 message-bearing nodes, and 39 outer user-role messages. The two direct role-setting messages below are on the export's current-node ancestry.
+
+- `2026-09-22T05:37:41.366Z`, `d15369d1-1412-4f4a-9460-702d2de573ea`: "Does this read like Nathan? Would Nathan say it this way? Has Nathan said any of this in this or another way? Does this contradict anything Nathan has already said?"
+- `2026-09-22T19:03:08.093Z`, `01505af7-37cd-491f-a951-1822934e36ff`: "I'm going to say paper A review is your lane now. Read the whole pile."
+
+The first is the source-fidelity/contradiction method. The second is a genuine historical assignment, but the current Code Grurple roster supersedes it: Aster is **REVIEW FROZEN / CROSS-READ OPEN**. Do not perform an unrequested formal Paper A review; only a concrete post-acceptance defect or explicit request opens a bounded cross-read.
+
+**Thread boundary:** the archived ASTER export is not active. The most recent known Aster-associated manual-thread candidate is `6aecede1-4c08-83e9-abc4-da64f59a4f51`, title `ND Workshop Relay :24 | Geometry`; current usability is unverified. The current automation run has `chat_ref=null`. Do not infer identity continuity or claim cross-thread delivery.
+
+This is a source-grounded reconstruction, not a signed standalone charter, authenticated historical-instance speech, or independent first-blush. Full evidence: `WORKSPACES/ASTER/2026-11-13T0236Z_HISTORICAL_ROLE_SOURCE_RECONCILIATION_AND_RUN_BINDING.md`.
+
+
 **First read:** [CURRENT_WORK.md](CURRENT_WORK.md). It is the one-minute specialist and live-state card. It is an assistant-curated navigation aid, not a historical charter, theory authority, or proof of identity continuity.
 
 ## Identity boundary
