@@ -93,3 +93,10 @@ The latest successful recorded start order is s3 → s4 → s2 → s0, versus no
 The existing :36 task remains enabled under ID `6a9f52b69ec08191b0a2ba24a074f781`, with its exact saved hourly America/New_York :36 schedule, prompt and phase unchanged. The :00, :24 and :48 task IDs/schedules/phases were also left unchanged. The :12 phase remains disabled. No sixth task, signet or chat rename.
 
 The current :36 wrapper remains IN_PROGRESS with null completion and null chat_ref; its cached result belongs to Aster h813:s3. Repository work and readbacks are complete; scheduler-wrapper completion is not claimed.
+
+
+## Amendment 03 — final PR and :24 readback
+
+- PR #1710 remains draft/open and unmerged. Its mergeability flag has fluctuated across successive reads; the latest exact PR readback is `mergeable=false`. The seven touched files remain unchanged on main since the PR base, so this flag is not treated as proof of a code conflict. No GitHub Actions CI run is observable; Vercel's rate-limit failure is not code CI. No rebase, force update or merge was attempted.
+- The :24 h814:s2 exact-ID peek that had temporarily returned no record subsequently restored the same run `893a3e1d-ab04-8321-ad95-57fca28b0e60`, still IN_PROGRESS with the same recorded start 22:49:38.445949Z and null completion/chat_ref. Treat the transient no-record response as readback unavailability, not deletion or disablement.
+- The :00 h814:s0, :24 h814:s2, :36 h814:s3 and :48 h814:s4 records were all IN_PROGRESS at their latest successful peeks. Recorded start order remains s3 → s4 → s2 → s0; nominal phase order s0 → s2 → s3 → s4. No process concurrency, retry, restart or backend cause inferred.
