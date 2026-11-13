@@ -1,0 +1,51 @@
+# Ravel | Blockwave projector / C1–C2 constraint fidelity against GW170814
+
+**Run:** REVROT3-19-20261011:444:s1; 2026-10-29 12:12 UTC; Ravel index 17 -> Orson Vay index 18.
+**Status:** SOURCE-LOCKED CONDITIONAL ALGEBRA + EXECUTED REAL-EVENT PUBLISHED-STATISTIC CONVERSION. Lean status must be established by exact-head CI, not by the presence of source code. NOT an H(s)H prediction, not a physical verification or BEDROCK promotion.
+**Actor:** present assistant reconstructing Ravel's remit from repository sources; historical Ravel ChatGPT thread not authenticated or messaged.
+
+## Original-statement-first and authorship
+
+1. **Nathan original (verified raw-user-role in prior extraction):** HsH `WORKSPACES/COMMON/NATHAN_VERIFIED_WORDS_COMPENDIUM.md`, Git blob `1076d5841ea8ec67ddae39e8949dbc5b2649b35c`, original DIMENSIONAL GRAVITY message `aaa28a9a-dcfc-4835-8359-e7da7b36911c` at 2024-03-22 13:07:55 EDT. Nathan describes four-dimensional strings intersected by a three-dimensional moving time surface; **does not specify a metric, projector, tensor polarization count, or Hamiltonian constraint algebra**. The original raw JSON was not independently reparsed in this turn; the existing role-verified extraction and context were read.
+2. **Nathan speaker-labeled but raw-role-unverified archive passage:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/SATOBLOC/SATO-BLOCK-INT.txt`, Git blob `2cd00dec3a8464dc303fe96f14ae71d7fcf8f31e`, opening ~6,000 characters read. Nathan asks whether filaments and timesheet should be intrinsically massless, with observed mass emergent from interaction; the following NotebookLM-style answer is a separate voice and not original Nathan mathematics. The long file is NOT fully read.
+3. **Historical SAT.4D glossary (project-attributed, not proof of Nathan equation authorship):** `SAT 4D Theory Work/SAT4D_4.txt`, blob `efc88f4523b2fd616e64898737c2aa45e5f39b9a`, opening 1,800/2,774 characters inspected. Defines 4D manifold, filament tangent, 3D timesheet, local normal, transverse perturbation; explicitly states no metric assumed a priori.
+4. **Historical LLM-style Blockwave formalization:** `Satobloc/SAT_THEORY_ARCHIVE_2023-25/SATOBLOC/SATO-BLOCK Hamiltonian and Hilbert Space.txt`, blob `13b6da983ea8dcad5509b1c6941b8855a2653677`, complete 9,726 characters / 138 lines read in HsH duplicate and beginning of exact-byte-identical old-archive copies. Three old-archive paths and one HsH path have the SAME blob SHA, hence four paths are **one text witness**, not four independent derivations. This source asserts Lorentzian u.u=-1, P=g+uu, two propagating transverse modes, C1=u.u+1 and C2=u^mu partial_0 u_mu as independent second-class constraints. These last two physical/canonical claims are not established by the displayed projector algebra.
+5. **Another LLM-style Blockwave action:** HsH `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt`, blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, opening ~16,000/24,627 characters read. It posits a metric, unit timelike u, compact phase theta and conserved 2-form J, with free coefficients. It is a distinct model/action, not a derivation of Nathan's original 4D timesheet geometry.
+6. **Later signature correction already located:** Calder's 2026-10-27 projector report, HsH `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-s0-blockwave-signature-fidelity-20261027t05z-001.md`, blob `3c001b67c7ec6ebc6389010ccfa4ff9997e1df82`. The Euclidean and Lorentzian projector sign conventions differ; Calder already audited that. This packet does NOT claim that result as new.
+7. **Current Ravel geometry:** `WORKSPACES/RAVEL/PLUS4_HELIX_TIMESHEET_INTERSECTION_KERNEL_2026-09-16.md`, blob `80d85bb3a7d18b70830fe54752151257674ae23b`, complete 9,235 characters read. Its all-plus centerline/timesheet construction and point readout do not imply a Lorentzian unit timelike field or physical two-mode dynamics. Current Nathan source-first gate blob `e5d5390015528381d0f497a54335f9b40b9c50cf` read completely.
+
+## Mathematical result: the missing inference
+
+For a fixed local Minkowski metric of signature (-,+,+,+), take the adapted unit time vector u=(1,0,0,0). Then P(v)=v+u g(u,v)=(0,v_x,v_y,v_z). **All three spatial coordinates survive.** Idempotence and removal of the time-longitudinal component do NOT imply only two propagating wave polarizations. A two-polarization gravitational tensor wave requires additional field equations and gauge/transverse-traceless constraints. Moreover a vector perturbation delta u is not a metric tensor perturbation h_mu_nu.
+
+For the historical norm C1=g(u,u)+1 and historical C2=u^mu partial_0 u_mu:
+
+* **Fixed metric:** partial_0 C1=2 C2, so imposing C1=0 at all times already forces C2=0 kinematically. Calling the displayed C2 an independent *second-class canonical constraint* is unsupported without canonical momenta and a Poisson-bracket constraint matrix.
+* **Dynamic metric:** write q=(partial_0 g)(u,u), A=g(u,partial_0 u). Then partial_0 C1=2A+q, while the literal lower-index historical C2=A+q. Therefore partial_0 C1=2C2-q. With C1 preserved, 2C2=q, not generally zero. The fixed-metric statement must NOT be extrapolated to a dynamic emergent metric without this correction.
+* These are **kinematic algebra identities**. They neither demonstrate a dynamical ghost nor prove ghost freedom, constraint class, propagation speed, a wave spectrum, or any H(s)H finite-core structure.
+
+**Both directions:** Nathan's 4D filament+timesheet description admits multiple metric signatures and constitutive/dynamic choices; it does not uniquely imply the historical Lorentzian P. Conversely the algebra P=g+uu fixes only a tangent-space decomposition conditional on Lorentzian unit normalization; it does not reconstruct a finite-core worldtube, timesheet geometry, ER/Kerr mouth, integrable foliation or unique physical dynamics. Gauge and normal-field choices remain unresolved. A change of local adapted coordinates does not select a unique ontology.
+
+## Actual physical system, genuine published inference, executed computation
+
+**GW170814**, 2017-08-14 10:30:43 UTC, was observed by LIGO Hanford, LIGO Livingston and Virgo. The original 2017 LIGO/Virgo publication (DOI `10.1103/PhysRevLett.119.141101`) reports network matched-filter SNR 18 and the first three-detector polarization test. Takeda, Morisaki & Nishizawa, *Phys. Rev. D* **103**, 064037 (2021), DOI `10.1103/PhysRevD.103.064037`, report natural-log Bayes factors for GW170814 of **2.775** (pure tensor versus pure vector) and **3.636** (pure tensor versus pure scalar). These are real-event, model-inferred, dimensionless numbers, not invented data.
+
+**Executed Python 3** locally on exactly those published rounded numbers, using `math.exp`, with log-inverse assertions PASS:
+- exp(2.775) = **16.03862699565567** (tensor/pure-vector).
+- exp(3.636) = **37.93977370728429** (tensor/pure-scalar).
+
+Local source `/mnt/data/ravel_20261029_1212/gw170814_polarization_control.py`, SHA256 `ee3a7bc4c282bcb03533551f8a7d489fd401e2d41a5d322408a2b59796691ad8`; local JSON output SHA256 `606690ef27e592d9c818d199b0a60f6e5abc92580832fc04ac51fdc01bf0a661`. Reproducible equivalent script committed at `WORKSPACES/RAVEL/CODE/gw170814_polarization_published_bf_control.py` (not independently CI-executed).
+
+**Uncertainty/independence:** the abstract does not supply uncertainty for these rounded log-BF values; do not invent intervals. Bayes factors depend on waveform models, priors and restricted pure-polarization alternatives. The conversion is NOT a new strain-data analysis, independent prediction, test of a Blockwave model, or evidence that no mixed extra modes exist. The historical Blockwave source has **no explicit predicted GW170814 polarization likelihood or Bayes factor** to compare. Observational discriminators remain open.
+
+## Lean 4/Mathlib route
+
+Reused the existing `infra/lean4-verification-20261023` Lake/Mathlib v4.34.0 project and GitHub CI. Draft PR **#1008** from `research/ravel-blockwave-c2-gw170814-20261029t1212z`, with `FORMAL_VERIFICATION/HsHVerification/RavelBlockwaveConstraintGate.lean` imported by root. Targets include adapted Lorentzian projector, idempotence, three-coordinate injective spatial embedding, fixed-metric dC1=2C2, and dynamic-metric correction. Actual compiled/axiom status must be read from the final exact-head CI job; a draft or a queued workflow is NOT proof. Theorems encode stated algebra only.
+
+## Workflow controls / next cursor
+
+- Live BEDROCK blob `38a5b8f4c9d573e54ca4a449be70d0a7d94a484c` fetched 88,070 chars; priority and applicable clauses inspected, **not** claimed full line-by-line. Steering blob `5f4263381afcb065e9062d5b5885593d0baa58db`, campaign `9eb28e89a3c9b02c5b251b43f3e38cc6ec019aa0`, onboarding `e1fa2fb7c582a1b4528e9507644bd3f481fce8e0`, revival V3 `90863a2a2b82b2d8e37ba1bd9f796389066f5409`, Ravel README `8830694ecaececece0c61ba8b0ae3b67a6ff3315`, current branch map and write-safety standards read.
+- Incoming Mercer :00 -> Ravel :12 verified handoff blob `50d2eb51a898137176d2490d16a1e2d073c88d50` consumed. All four Mersearch request lanes occupied (Indicatrix, optics, chemistry, superconductors), none overwritten. Bounded GitHub code search across HsH and SAT old archive was used, **not** a complete three-repo Mersearch run. Existing Math Hopper and Lean infrastructure inspected; no new platform.
+- Deliberate lateral reading: existing historical Babbage text lines 275-310 (after Mercer's 231-274 cursor) read, no private source published; next cursor 311. FIE reread last documented Oct 27, below 14-day threshold.
+- **Next technical action:** independently compile final Lean exact head and inspect `#print axioms`; recover the complete historical canonical action and momenta, compute actual Dirac constraint matrix, then compare genuine predicted tensor/vector/scalar response to GW170814/GW170817 published likelihoods without inventing coefficients. If full dynamics are missing, label **BLOCKED_MODEL_UNSPECIFIED**, not refuted theory.
+- **Next worker:** Orson Vay at 12:24 UTC, protected 4/5 LLM cognition and Nov 9 P1. No forced physics handoff. P2 Nov 30 and P3 Dec 14 still require source, hostile review, manuscript and reader. No scheduler, task ID, additional recurrence, cross-chat delivery, signet or theory promotion.
