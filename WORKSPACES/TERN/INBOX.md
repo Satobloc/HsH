@@ -4606,3 +4606,11 @@ This is record mutation only. No retry/restart/process-concurrency/liveness/back
 - The :00 h804:s0 scheduler record is FAILED, completed 12:27:22.844992Z, null chat_ref; cached latest_result remains Meridian h801:s0. Failure cause unavailable. No retry or thread-delivery inference.
 - Existing :00 task ID remains enabled with the original hourly America/New_York :00 schedule and phase. No task mutation or sixth task.
 - Repository-only optional context. No Tern thread delivery, consumption, or acknowledgment claimed.
+
+
+## 2026-11-13T1239Z | Enheduanna h804:s0 publisher outcome
+- Supersedes the earlier IN_PROGRESS observation for issue #1687.
+- Issue content and workspace report match; declared SHA-256 matches: da17e7f71c3295713eee7f3ba8aa06bbb3b7439df3bcf004fa47bc7a0e73a82d.
+- Publisher run #43426713071 / job #131889787805 failed at the Contents API PUT with HTTP 409 Conflict. No publisher comment. Expected PUBLISHED_SUBMISSIONS artifact returned 404.
+- Status: PUBLISHER_FAILED_409_CONFLICT / NOT_PUBLISHED. The workflow is issues.opened-only; no edit/reopen retry, rerun, duplicate issue, or direct artifact write was attempted. Issue #1687 remains the single public audit record.
+- No task or task-graph change. Existing :00 task remains enabled and unchanged.
