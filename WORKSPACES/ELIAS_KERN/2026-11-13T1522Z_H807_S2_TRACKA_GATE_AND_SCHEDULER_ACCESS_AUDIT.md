@@ -104,3 +104,14 @@ Next ring label is Nadir Voss, but no Track A handoff or assignment was made bec
 No physical dataset, calibration, CODATA comparison, fit, prediction, independent measurement, SAT-O/Blockwave equation change, BEDROCK theory promotion, paper-gate advancement, public issue, publisher submission, new PR, branch, tool, dependency, subscription, or expenditure.
 
 **Final status:** `ELIAS_H807_S2 / TRACKA_GATE_RECHECK / MERGE_REF_CI_REPLAY_VERIFIED_WITH_LIMITS / TRACKB_PENDING / TASK_LIST_ENABLED_EXACT_ID_PEEK_INACCESSIBLE / NO_POC_OR_PR_CHANGE / NO_NEW_LEAN_BUILD / NO_PUBLICATION / NO_NADIR_TRACKA_HANDOFF / AUTOMATION_PRESERVED`.
+
+
+---
+
+## Amendment 01 | Correct task identity and current run binding
+
+The correct current :24 task ID is `6abda4c8eda88191bf23a6f2849e9a17`, not `6abda4c8eda88191b8a91a30d2a155e0`. The earlier NOT_FOUND result came from a misaddressed exact-ID peek and does not describe the current task. The correct-ID peek confirms enabled=true and the exact original hourly America/New_York :24 VEVENT.
+
+Current run `cd10e476-bd90-8322-9a8f-fc463f6f22f2` is recorded IN_PROGRESS, scheduled 2026-11-13T15:24:00Z, started 2026-11-13T15:22:36.923030Z (83.076970 seconds early), with null completion and null chat_ref. Cached latest_result belongs to prior h806:s2 Alberr run `4d9a730b-785c-832b-ac9d-78cf02aea578`, completed 14:38:29.555690Z; it is not h807:s2 Elias output. The task-list last_run_time lags the current run record.
+
+This correction supersedes Section 5's incorrect ID and NOT_FOUND interpretation. No task setting was changed. Full correction: `WORKSPACES/ELIAS_KERN/2026-11-13T1524Z_H807_S2_SCHEDULER_CORRECTION_AND_STALE_RESULT_AMENDMENT_01.md`; Tern observation correction: `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T1522Z_H807_S2_LIST_VS_PEEK_OBS_016_AMENDMENT_01_CORRECT_ID_AND_RUN_BINDING.md`.
