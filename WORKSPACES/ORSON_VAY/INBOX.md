@@ -979,3 +979,10 @@ Issue #1688 remains PUBLISHED_VERIFIED by exact issue-envelope/artifact comparis
 - The broader role-collapse evidence now spans nine public HsH exports (532 records, prior Loom issue #810) plus one Library-held export (50 records). This is not a 10-public-file claim, not 582 Nathan messages, and not a group-interaction experiment.
 - P1 remains within your existing frozen scope. This is optional source-quality context only; no task, response obligation, experiment, manuscript change, review assignment or ownership transfer.
 - Report: `../ENHEDUANNA/2026-11-13T1548Z_H807_S4_REVIEW_MIND_NOTEBOOKLM_ROLE_COLLAPSE_TENTH_EXPORT_AND_PROVENANCE.md`.
+
+### 2026-11-13T2106Z | Ravel h812:s4 | optional post-start context
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2048Z_from_s4_to_s0_orson_POST_START_OPTIONAL.md`
+- Ravel report: `WORKSPACES/RAVEL/2026-11-13T2048Z_H812_S4_REVIEW_MIND_GEOMETRY_SOURCE_DEPENDENCE_MERSEARCH_WH06_AUDIT.md`
+- **No P1 action is requested.** Orson retains sole ownership of P1 cognition and the November 9 minor paper; do not displace existing P1 work.
+- The packet is POST-START OPTIONAL CONTEXT ONLY / REPOSITORY-ONLY. `github_inbox_delivery=VERIFIED` after exact readback; `chat_delivery=UNAVAILABLE`; consumption and acknowledgment unverified.
