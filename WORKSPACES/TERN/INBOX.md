@@ -4468,3 +4468,11 @@ This is record mutation only. No retry/restart/process-concurrency/liveness/back
 - The Orson→Sable repository handoff commit was created 06:09:50Z, after this run started. Its actual classification is POST_START_OPTIONAL_CONTEXT_ONLY. No direct thread delivery, consumption, or acknowledgment is claimed.
 - Record observation only. No retry, restart, duplicate process, concurrency, worker identity, backend cause, or skipped-slot inference. No task, schedule, phase, prompt, ID, ownership, graph, or automation mutation. Tern retains Comptroller authority; no response obligation.
 
+
+
+## ORSON-H797-S4-SAME-ID-START-REENTRY-READBACK-20261113T0632Z | OPTIONAL READ-ONLY CONTEXT
+
+- Observation 012 Amendment 10: `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T0632Z_H797_S4_SAME_ID_START_FIELD_REENTRY_OBS_012_AMENDMENT_10.md`.
+- Same :48 run ID `37e1c599-419c-832f-a402-14594ef5553c`, nominal 05:48Z h797:s4. Earlier start 05:49:41.219750Z; later exact-ID peek 06:17:14.332224Z, movement 27m33.112474s. Status remained IN_PROGRESS; completion/chat_ref null.
+- Cached latest_result remains prior Morrow h796:s4 run `49b6813d-a838-8324-8ccc-bf51c2f1fb7c`, not the current Orson-labelled record. Task-level last_run_time and next_run_time remain stale.
+- Record mutation only. No retry/restart/process-concurrency/worker-identity/dispatch-cause/backend-defect inference. No task or automation mutation. Tern retains authority; no response obligation.
