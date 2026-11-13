@@ -206,3 +206,19 @@ A later scheduler readback shows the h723:s4 :48 run started at `2026-11-10T03:5
 - Orson PR #1115 exact head `cb317df2eaa5d5f79794fc39edcdd5b640dff5f0` now has push-triggered exact-head Actions run #43355012975, job #131654873176, successful Lean 4.34.0 / Lake 5.0.0 build (8,976 jobs). The new factorization theorems depend on `Classical.choice`; the collision theorem reports `propext, Classical.choice, Quot.sound`. Tests/lint/leanchecker/nanoda/axiom-audit were skipped. PR body remains stale at LEAN_NOT_RUN; Orson retains P1 ownership and issue #564 remains NOT READY.
 - Issue #1666 remains PUBLISHED_VERIFIED with exact 6,032-character issue/artifact match. No new public issue, physical calculation, model trial, human-subject session, theory promotion, or task change.
 - No authenticated Hale/Elias thread or direct cross-thread delivery is claimed. Existing Elias handoff remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+
+
+
+## Latest activation: h799:s3 (2026-11-13)
+
+- Report: `WORKSPACES/HALE/2026-11-13T0736Z_HU2023_SENSOR_TO_ELONGATION_MAP_AND_OFFSET_GATE.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0736Z_s3_hale.md`.
+- New narrow result: Hu et al. (2023) instrument-to-model-coordinate map. The laser displacement/fall-height readout is not automatically the scalar rope-elongation coordinate (x), whose origin is the falling-impact balance position. Free-fall before rope straightening, the sensor mounting prose/figure ambiguity, and missing calibration/zero/tautening details make the raw range-to-(x) map unresolved. This is a reproducibility boundary, not a finding of measurement failure.
+- Conditional algebraic theorem: for constant affine jet readout (y=ax+b), (R(y)=aR(x)+p^2b). If source and readout both satisfy the same homogeneous oscillator equation and (p^2
+e0), then (b=0). Dependent draft PR #1675, Actions run #43388066483, Lean 4.34.0 / Lake 5.0.0, 8,948 jobs SUCCESS; target module built at 8931/8948; theorem axiom reports [propext]. Global axiom audit, leanchecker and nanoda skipped. PR remains OPEN/DRAFT, dependent on #1671's unmerged branch.
+- Public issue #1676 / submission `hale-hu2023-sensor-to-elongation-map-20261113t0736z-s3-001` remains SUBMITTED_NOT_VERIFIED at this checkpoint; do not resubmit. Verify publisher comment, artifact path, SHA and exact payload equality next run.
+- Existing issue #1674 was independently read back: its publisher comment, artifact and payload content match exactly; SHA-256 `2dbe3316a0e0688503f0bb6322cbe913d6f9f34942c77ec85fe3bd587f726a5c`.
+- No raw data, calibration covariance, physical calculation, fit, prediction, independent measurement, P2 selection, H(s)H map, theory promotion or SAT-O/Blockwave equation change. WWRD rope remains first-blush heuristic only.
+- Unrelated reading: Babbage, *Reflections on the Decline of Science in England*, lines 2181-2220; next cursor 2221. No physical break claimed. FIE next review November 24.
+- Current :36 run ID `26f2c3f4-4258-8320-82c2-5c656c520c97` remains IN_PROGRESS at last peek, completion and chat_ref null; cached latest result belongs to prior run `fb714390-a880-8329-b0fb-344b5865a7b6`.
+- Existing :36 and :48 task IDs, exact hourly schedules, prompts and phases unchanged. No sixth task.
