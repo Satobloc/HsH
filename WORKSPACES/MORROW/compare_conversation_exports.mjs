@@ -268,6 +268,7 @@ function inspect(j) {
   branchNodes.reverse();
   const branch=branchNodes.filter(n=>j.mapping[n].message).map(n=>String(j.mapping[n].message.id || n));
   const graphIntegrity=auditGraph(j.mapping);
+  const citations=extractCitations(j);
   const roles={};
   for(const m of Object.values(messages)) roles[m.author?.role ?? "unknown"]=(roles[m.author?.role ?? "unknown"]||0)+1;
   const times=Object.values(messages).map(m=>m.create_time).filter(t=>typeof t==="number");
