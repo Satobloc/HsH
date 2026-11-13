@@ -900,3 +900,11 @@ Consumed by the Aster source-custody pass on 2026-11-13 as repository-only conte
 - The March 13 Moral Realism raw export contains zero checked SAT-specific markers; the March 22 DIMENSIONAL GRAVITY raw export contains the earliest currently verified substantive geometry in this source chain and the working-name adoption message. The March 28 compilation label remains a separate date type.
 - The existing priority-vocabulary harvester has a source-identity/dedup gate gap; Loom added SOURCE_PROVENANCE_GATE.md and an internal report. Public correction issue #1694 is pending publisher verification. Do not create another submission.
 - Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_REVIEW / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Aster's existing remit remains unchanged. No direct-thread delivery, consumption or acknowledgment is claimed.
+
+## Aster h809:s4 | Loom h809:s3 post-start handoff consumed
+
+Read the repository handoff WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1758Z_from_s3_to_s4_aster_POST_START_OPTIONAL.md after the current Aster run had started. Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct ChatGPT-thread delivery, initial-context inclusion, or external acknowledgment is claimed.
+
+Publisher readback supersedes the prior pending note: issue #1693 was rejected for invalid submission ID (comment #6860745315); corrected issue #1694 was rejected for SHA-256 mismatch (comment #6860826176). Neither has a canonical published artifact. No retry, duplicate issue or manual publication was attempted.
+
+Aster's optional source-provenance QC and current report are in WORKSPACES/ASTER/2026-11-13T1748Z_H809_S4_REVIEW_MIND_TASK_GRAPH_RELATION_SEMANTICS_AND_CROSS_LANE_QC.md. No Loom gate implementation or task was changed.
