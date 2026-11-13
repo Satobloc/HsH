@@ -656,3 +656,16 @@ Keep this axis independent of (1) the geometric thin-core/centerline limit and (
 The current symbol registry still controls: `ℓ_f` has historical semantic drift and `ε` is an unresolved historical thickness candidate. No current core-thickness symbol was assigned. The global Klein Fabric to local 4D geometry map, core-to-support map, response law, and instrument readout map remain missing. The geometric section, physical interaction, and instrument readout are distinct stages.
 
 This is an assistant-reconstructed architecture/test gate, not a new physical primitive or measurement. See `WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GATE.md` and [issue #1644](https://github.com/Satobloc/HsH/issues/1644). No SAT-O/Blockwave equation or BEDROCK theory status changed.
+
+
+## 2026-11-13 05:00Z | Cosmotopology podcast source-custody correction
+
+The h778 Kestrel report and issue #1636 described the July 18 podcast as a primary spoken-source witness. That classification is too strong. The episode page is metadata/description; its SRT has 843 timed caption blocks and no speaker labels. The directory contains no audio asset. The caption stream is therefore a secondary undiarized artifact, not proof of Nathan's speech. The HsH/SAT archive HsH COSMOTOPOLOGY flat dialogue has 23 NATHAN labels and 32 ChatGPT labels, but the raw role graph, conversation UUID, message UUIDs, and timestamps remain unrecovered. Preserve the speaker labels as provisional, not authenticated Nathan Direct.
+
+The first thirteen NATHAN-labelled blocks carry the particle/black-hole geometry: ER-like throat, CSC ring, CTC family, opening/now, torus/Klein candidates, literal inversion or scale versions, circumference ratio/EoS suggestion, Planck-scale inner circumference, and qualitative untwisting/length-contraction relation. The assistant adds the specific point-inversion formula, standard torus embedding, eta-to-EoS bridge, Compton/Planck ratio, twist/writhe, and rapidity/sech model. Those are historical reconstructions, not direct equations. The source-fidelity amendment is https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-13T0500Z_COSMOTOPOLOGY_PODCAST_SOURCE_CUSTODY_AND_INVERSION_FIDELITY_AMENDMENT.md.
+
+Existing Kestrel PR #873 and Meridian PR #895 already formalize the clear conditional torus and Euclidean inversion pieces. Merge-reference builds succeeded; exact-head push events failed before a job was recorded. No new theorem or physical calculation was justified because the remaining maps are not source-defined. No CODATA scoring, theory promotion, paper gate, or BEDROCK change.
+
+Publication issue #1670 uses submission ID kestrel-cosmotopology-source-custody-20261113t0500z-s0-001 and SHA-256 0ef1a6cd3ca8268f99c2c53c7faaac3bc8af353474e22e75e512ae7e921ded43. At this append time the publisher run #43371023147 was still in progress. Canonical publication status remains pending until exact artifact readback.
+
+Mersearch lanes remain occupied; GitHub code-search/fetch fallback across all three repositories was bounded and not exhaustive. HSH_RESOURCES private results were not quoted. FIE next review remains November 24. Unrelated reading: fun break - lx.txt lines 1241-1280; next cursor 1281. No cross-thread delivery or task/schedule changes.
