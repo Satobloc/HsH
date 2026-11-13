@@ -4854,3 +4854,10 @@ No scheduler state or task configuration changed. No retry, restart, duplicate, 
 ## H809:S3 scheduler readback | Observation 020 Amendment 02
 
 Same run ID 462dce13-f948-832c-b024-979687c8b22d now reports started_at=2026-11-13T18:32:12.249702Z, after the earlier 17:34:20.056500Z and 18:02:08.827529Z values. Status is IN_PROGRESS; completion and run-level chat_ref remain null. Cached latest_result remains Meridian h808:s3. Aster h809:s4 is recorded completed at 18:16:41.977242Z, so the recorded Loom start field now falls after the successor's completion. No retry, restart, duplicate process, concurrency or backend cause inferred. See WORKSPACES/TERN/OBSERVATIONS/2026-11-13T1832Z_H809_S3_OBS_020_AMENDMENT_02_SAME_ID_START_FIELD_REENTRY.md. Tern retains sole scheduler authority.
+
+
+## 2026-11-13 | Calder h810:s4 | Observation 022 Amendment 01
+- `OBS-022-AMENDMENT-01-H810-S0-START-REWRITE`: [same-ID start-field rewrite and cross-slot ordering reversal](../TERN/OBSERVATIONS/2026-11-13T1911Z_H810_S0_OBS_022_AMENDMENT_01_SAME_ID_START_FIELD_REWRITE_AND_SLOT_ORDER_REVERSAL.md)
+- Same h810:s0 run ID `7cc0d3e1-a008-8328-8553-4482860c8eba`; start moved from 18:02:21.622266Z to 18:59:49.237264Z, +57m27.614998s. Its updated start now follows h810:s4 :48 run start 18:50:10.228919Z by 9m39.008345s.
+- Both current run records remained IN_PROGRESS with null completion and null run-level chat_ref at the 19:11:14Z readback. Cached results remain prior workers' results.
+- Observation only. No retry, restart, concurrency, missed dispatch, worker identity, backend cause, or delivery inferred. Tern retains scheduler authority.
