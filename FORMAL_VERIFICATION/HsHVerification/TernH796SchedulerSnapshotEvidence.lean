@@ -4,17 +4,16 @@ import HsHVerification.TernH515SchedulerOverlapEvidence
 /-!
 Tern Rook / Comptroller — 2026-11-13 nominal h796:s3 scheduler snapshot.
 
-Source: exact-ID Automations.peek records for the :00 and :36 leases,
-read at approximately 2026-11-13T04:40:37Z. Times below are integer
-microseconds relative to 2026-11-13T04:00:00Z.
+Exact-ID Automations.peek sources for :00 and :36 were read at
+approximately 2026-11-13T04:40:37Z. The :24 task-level peek was unavailable
+in this context, but the contemporaneous Enheduanna h796:s2 CURRENT_WORK
+and report supply a source-reported :24 run ID, start timestamp, and
+IN_PROGRESS state. Its observation timestamp is not explicit, so no
+:24 overlap or current-status claim is made here.
 
-The :00 h796 run was first recorded IN_PROGRESS in its own receipt, then a
-later exact-ID peek showed the same run ID COMPLETED. This module records
-the later state; the earlier receipt remains a valid as-of observation.
-
-The :24 task ID was not accessible to exact-ID peek in this context and is
-deliberately omitted. The :48 lease's latest exposed run still belonged to
-h795:s4, not the upcoming h796:s4 slot.
+Times are integer microseconds relative to 2026-11-13T04:00:00Z.
+The :00 run's earlier receipt recorded IN_PROGRESS; a later exact-ID peek
+showed the same run ID COMPLETED. Both are retained as as-of observations.
 
 This module formalizes only arithmetic and equalities over the transcribed
 scheduler records. It does not authenticate the service, prove process
@@ -56,6 +55,15 @@ structure RunRecord where
   latestResultRunId : Option String
   deriving DecidableEq, Repr
 
+structure RunStartObservation where
+  phase : String
+  runId : String
+  scheduledUs : Nat
+  startedUs : Nat
+  statusAtSourceReport : RunStatus
+  completedUsAtSourceReport : Option Nat
+  deriving DecidableEq, Repr
+
 def run00 : RunRecord :=
   ⟨ ":00"
   , "00ee0deb-e858-832c-b275-2d618c9b6f7c"
@@ -64,6 +72,15 @@ def run00 : RunRecord :=
   , some 1_794_261_923
   , .completed
   , some "00ee0deb-e858-832c-b275-2d618c9b6f7c"
+  ⟩
+
+def run24SourceReport : RunStartObservation :=
+  ⟨ ":24"
+  , "73830c6a-de40-8333-b45b-d482471885b2"
+  , 1_440_000_000
+  , 1_729_362_161
+  , .inProgress
+  , none
   ⟩
 
 def run36 : RunRecord :=
@@ -85,11 +102,16 @@ theorem run00_started_1201281747us_after_slot :
     run00.startedUs - run00.scheduledUs = 1_201_281_747 := by decide
 theorem run00_duration_592980176us :
     1_794_261_923 - run00.startedUs = 592_980_176 := by decide
+theorem run24_source_started_289362161us_after_slot :
+    run24SourceReport.startedUs - run24SourceReport.scheduledUs = 289_362_161 := by decide
 theorem run36_started_276443807us_after_slot :
     run36.startedUs - run36.scheduledUs = 276_443_807 := by decide
 
 theorem run00_recorded_completed :
     run00.status = .completed ∧ run00.completedUs = some 1_794_261_923 := by decide
+theorem run24_source_reported_in_progress :
+    run24SourceReport.statusAtSourceReport = .inProgress ∧
+    run24SourceReport.completedUsAtSourceReport = none := by decide
 theorem run36_recorded_in_progress :
     run36.status = .inProgress ∧ run36.completedUs = none := by decide
 
@@ -98,13 +120,21 @@ theorem run00_latest_result_matches_current :
 theorem run36_latest_result_is_stale :
     latestResultMatchesRun run36 = false := by decide
 
--- These two recorded intervals do not overlap.
+-- The :00 run's recorded completion precedes the :36 run's recorded start.
 theorem run00_completed_before_run36_started :
     1_794_261_923 < run36.startedUs := by decide
 theorem recorded_gap_between_run00_and_run36_us :
     run36.startedUs - 1_794_261_923 = 642_181_884 := by decide
 
--- The current :36 record is right-censored at the observation time.
+-- The source-reported :24 start precedes the :36 start. Because the
+-- :24 report has no explicit observed_at, this is start-order only,
+-- not an interval-overlap theorem.
+theorem run24_source_start_precedes_run36_start :
+    run24SourceReport.startedUs < run36.startedUs := by decide
+theorem run24_to_run36_start_separation_us :
+    run36.startedUs - run24SourceReport.startedUs = 707_081_646 := by decide
+
+-- The current :36 record is right-censored at the exact-ID observation time.
 theorem run36_age_at_observation_556193us :
     observedAtUs - run36.startedUs = 556_193 := by decide
 
@@ -116,13 +146,17 @@ theorem run36_age_at_observation_556193us :
 #print axioms next_name_is_morrow
 #print axioms run00_started_1201281747us_after_slot
 #print axioms run00_duration_592980176us
+#print axioms run24_source_started_289362161us_after_slot
 #print axioms run36_started_276443807us_after_slot
 #print axioms run00_recorded_completed
+#print axioms run24_source_reported_in_progress
 #print axioms run36_recorded_in_progress
 #print axioms run00_latest_result_matches_current
 #print axioms run36_latest_result_is_stale
 #print axioms run00_completed_before_run36_started
 #print axioms recorded_gap_between_run00_and_run36_us
+#print axioms run24_source_start_precedes_run36_start
+#print axioms run24_to_run36_start_separation_us
 #print axioms run36_age_at_observation_556193us
 
 end HsHVerification.TernH796SchedulerSnapshotEvidence
