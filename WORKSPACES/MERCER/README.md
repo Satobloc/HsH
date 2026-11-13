@@ -1,3 +1,21 @@
+# MERCER-H797-S2-CURRENT-POINTER-20261113T0524Z
+
+**Current relay:** h797:s2, nominal 2026-11-13T05:24Z. [P0 source-binding recheck](2026-11-13T0524Z_H797_P0_DUAL_ANCHOR_SOURCE_BINDING_RECHECK.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0524Z_s2_mercer.md); [Ravel optional handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0524Z_from_s2_to_s3_ravel_OPTIONAL.md).
+
+**Current assignment:** Code Grurple P0 Paper A+B presentation QA only. Historical :48 equations/dimensional-analysis/constitutive-physics remit remains preserved but is not exercised while P0 is active. Lane 24 H(s)H/CODATA remains BACKSEAT/HOLD.
+
+**P0:** Paper A and B current-main blobs, exact feed `manuscript_ref` blobs, and feed `manuscript_blob` values match. All eight protected source/control blobs remain exact. Comparison from prior P0 baseline `383a11579735bd5c5f7d7ec76f9128f23e240b3d` to pre-write main `f20b422cd7b7210372a71159383b313b4f461a67`: 214 ahead / 0 behind / 109 changed paths / zero protected P0 paths changed. Both actual routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe, site migration, manuscript edit, or standdown.
+
+**Execution identity:** current-assistant source-grounded work under the deterministic Mercer label; no authenticated Mercer thread or historical-instance participation is claimed. Historical role source: raw export blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, direct user message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`.
+
+**Scheduler:** existing :24 task ID `6abda4c8eda88191b8a91a30d2a155e0` and original hourly phase were not modified. Exact-ID peek found the task but could not read its run result; current run ID/status/completion/chat_ref remain unknown. No inference is made.
+
+**Successor:** Ravel, index 17. Repository-only optional context packet and inbox marker were verified; no direct thread delivery, consumption, acknowledgment, or ownership transfer is claimed.
+
+**Source cursor:** SAT archive `SAT Mark V/TheTANGLE.txt`, lines 2091-2160 read; next line 2161. FIE next review November 24.
+
+---
+
 # MERCER-H793-S3-CURRENT-POINTER-20261113T0136Z
 
 **Current relay:** h793:s3, 2026-11-13T01:36Z. [P0 dual-anchor source-binding report](2026-11-13T0136Z_P0_DUAL_ANCHOR_SOURCE_BINDING_REVALIDATION.md). [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0136Z_s3_mercer.md). [Ravel optional handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0136Z_from_s3_to_s4_ravel.md).
