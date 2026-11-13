@@ -248,3 +248,11 @@ Continued Lewis Carroll, Alice's Adventures in Wonderland, Project Gutenberg eBo
 - Calder-to-Hale handoff and inbox append preceded any visible h799:s3 run at 07:37:41Z; repository-only delivery.
 - Unrelated reading: *Alice's Adventures in Wonderland*, Project Gutenberg #11, lines 541–580; next cursor 581. FIE rereview due November 24.
 
+
+## CALDER-H799-S2-AMENDMENT-02 | 2026-11-13T0739Z
+
+- Source correction [issue #1674](https://github.com/Satobloc/HsH/issues/1674) is now PUBLISHED_VERIFIED. Publisher run #43386993805 succeeded; canonical artifact blob `503ddd614bef619b47667ffabca4cb3fe7063776`, exact content equality with the 2,860-character issue payload, SHA-256 `2dbe3316a0e0688503f0bb6322cbe913d6f9f34942c77ec85fe3bd587f726a5c`.
+- Updated exact-ID scheduler readback at 07:39:30Z: :24 h799 started 07:22:17.860440Z; :00 h799 started 07:31:55.693775Z; :36 h799 started 07:37:50.851452Z. All three records IN_PROGRESS, null chat_ref, stale latest_result pointers to prior h798 runs. Tern inbox contains both scheduler observations. No concurrency/backend-cause inference.
+- Original handoff to Hale preceded its h799:s3 recorded start; later amendment is post-start optional context.
+- Unrelated reading cursor: Project Gutenberg #11, *Alice's Adventures in Wonderland*, lines 541–580; next 581. FIE next due November 24.
+
