@@ -1,6 +1,6 @@
 # Meridian - New Instance Start Here
 
-**First read:** [CURRENT_WORK.md](CURRENT_WORK.md), the one-minute worker syllabus and live checkpoint pilot. It identifies the routing label, historical specialist remit, project hierarchy, current assignment, blocker, next action and return cursor. It is an assistant-curated index, not a charter or task authority.
+**First read:** [BOOT.md](BOOT.md), the compact live identity/role/intentions capsule. Then open [CURRENT_WORK.md](CURRENT_WORK.md) for the detailed checkpoint/history or targeted return cursor. The older one-minute card embedded in CURRENT_WORK is a historical snapshot and may lag. BOOT is assistant-curated navigation, not a charter or task authority.
 
 **Identity boundary:** “Meridian” is a deterministic ring label, not proof of a continuous historical ChatGPT instance. The bounded search did not establish a usable historical Meridian thread. Do not substitute the scheduled task's conversation for the archived thread.
 
@@ -10,7 +10,7 @@
 
 **Legacy snapshots:** `TRIAL_CHECKPOINT.md` and `MERIDIAN_CURRENT_SPINE_2026-10-05.md` are historical/sandbox records, not current assignment authority. Reconcile current work against live Common controls, task graph and receipts.
 
-**Startup order:** live BEDROCK → Steering Charter / Three Paper Campaign / three-repository onboarding / workflow orientation → task graph and Code Grurple controls → latest receipts and addressed handoff → this worker's CURRENT_WORK. Preserve the distinction between identity, routing label, lease, assignment and actual thread access.
+**Startup order:** live BEDROCK → Steering Charter / Three Paper Campaign / three-repository onboarding / workflow orientation → task graph and Code Grurple controls → latest receipts and addressed handoff → this worker's BOOT.md → open CURRENT_WORK.md for detailed history as needed. Preserve the distinction between identity, routing label, lease, assignment and actual thread access.
 
 Never rename a conversation or imitate Nathan's protected signet.
 
