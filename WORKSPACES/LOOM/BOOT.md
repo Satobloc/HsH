@@ -31,6 +31,7 @@ Primary work is source-provenance and corpus enrichment: preserve exact source i
 - HSH_RESOURCES README describes private/internal use while GitHub metadata reports public visibility. Owner decision unresolved; do not inspect its payload or change access.
 
 **Current receipt:** [h794:s2 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0224Z_s2_loom.md). **Successor packet:** [Aster h794:s3 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0224Z_from_s2_to_s3_aster.md).
+**Latest scheduler amendment:** [h794 four-lease readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0224Z_s2_loom_AMENDMENT_01_H794_FOUR_LEASE_READBACK.md). The four enabled tasks were simultaneously reported IN_PROGRESS with stale result pointers; this is a scheduler-record observation, not proof of process concurrency.
 
 ## Load order and return
 
