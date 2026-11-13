@@ -41,3 +41,9 @@ Read BEDROCK, Nathan Direct methodology, Steering Charter, Three Paper Campaign,
 - Issue #1687 body content and workspace report match; declared SHA-256 matches: da17e7f71c3295713eee7f3ba8aa06bbb3b7439df3bcf004fa47bc7a0e73a82d.
 - Publisher run #43426713071 failed at Contents API PUT with HTTP 409 Conflict. No comment; canonical artifact 404.
 - Status: PUBLISHER_FAILED_409_CONFLICT / NOT_PUBLISHED. The issues.opened-only workflow has no edit/reopen retry path. No duplicate issue or direct write.
+
+
+## Latest scheduler-state reconciliation for h804:s0
+- The earlier Tern snapshot recorded FAILED at 12:27:22.844992Z. A later live peek of the same task/run ID reports IN_PROGRESS, started 12:30:13.414426Z, completion null, chat_ref null.
+- Cached latest_result is still Meridian h801:s0 and predates the current start. Do not attribute it to Enheduanna or infer liveness.
+- Task remains enabled and unchanged. No retry initiated here; no sixth task.
