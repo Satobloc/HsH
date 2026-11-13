@@ -44,7 +44,8 @@ Fallback is a continuity mechanism, not a repair. When a tool, lane, workflow or
 ### WH-02 — Conversation dating, tagging and chronology coverage
 - Source: HsH issue #1702; date-tag scripts/workflow/manifests.
 - Objective: suffix-independent content-based discovery across root and sorted folders; explicit undatable exceptions; strict audit blocks missing datable tags/collisions but not legitimate undatable records; root included in all aggregate indexes/viewers.
-- Next: fix root candidate filter and strict-audit semantics; add suffix/extensionless fixtures; rerun and independently verify Viewer/chronology/autotag publication.
+- Current status (h814:s3): draft PR #1710 is open; latest PR readback is mergeable, but no GitHub Actions CI run is observable. Vercel's daily deployment-rate-limit failure is not a code-test result. PR #1709 was closed unmerged as superseded. No source rename, date fabrication or main-branch code change occurred; new regression tests are pending execution.
+- Next: obtain PR CI/review; after authorized merge, run the full main navigation/backfill workflow and independently verify root rename staging, every source disposition, undatable exceptions, Viewer, chronology, structural index, autotag, Pages deployment and exact readback.
 - Coordinator: HsH archive/navigation maintainer; coordinate with Tern for graph state.
 - Exit: every discovered source has a disposition; all datable conversations tagged; undatable sources preserved with reason; downstream outputs committed and read back.
 
@@ -65,7 +66,8 @@ Fallback is a continuity mechanism, not a repair. When a tool, lane, workflow or
 ### WH-05 — Mersearch lane diagnosis and repair
 - Source: HsH issue #1704; canonical lane map, pinned Mersearch 1.0, bridge workflows, request-scoped manifests/receipts.
 - Objective: diagnose persistent occupied/requested lanes with absent outputs; repair actual trigger/execution/publication/release defect rather than relying on fallback or repeating ineffective attempts.
-- Next: build a four-lane state reconciliation from exact request blob -> trigger commit -> workflow run/attempt/job -> manifest/receipt commit -> readback -> release; identify first failing transition.
+- Current status (h813:s3 Aster reconciliation): all four canonical requests remain requested/HELD. Lanes 1, 3 and 4 triggered but were cancelled after runner-shutdown signals; Lane 2 search completed and generated manifest/compact receipt, but publication failed on GH001 because the raw JSON was 352.48 MB and Markdown 59.64 MB. Query text is exposed in public request/workflow surfaces; bridge is PUBLIC-QUERY-ONLY. No lane was retried, overwritten or released.
+- Next: after Tern authorizes release of one occupied lane, run one controlled public-only request through the compact-only bridge; verify immutable request blob -> trigger -> run/attempt/job -> manifest -> compact receipt -> independent readback -> release. Do not use private/sensitive queries until input and log isolation exist.
 - Coordinator: Tern / Comptroller for lane/task graph coordination; bounded technical diagnosis may be performed by any worker.
 - Exit: each of four lanes has evidence-based disposition; at least one controlled request completes with manifest + compact receipt + independent readback; failure/release/retry semantics tested; no sensitive query leakage.
 
@@ -125,3 +127,9 @@ No global PASS if a critical surface was not inspected. Report partial coverage 
 
 ## Updated deadline escalation
 At 2026-11-14 15:56 America/New_York, every unresolved WH-01 through WH-08 item automatically becomes P1 / HIGH. The next existing Workshop Relay activation picks the highest-priority unresolved item; no new scheduled task or scheduler change.
+
+
+## H814:s3 progress and priority selection — 2026-11-13
+- WH-05 remains the highest-priority item overall but is blocked at its controlled-test/release gate because all four request lanes remain occupied and Tern has not released one. No retry or overwrite is authorized.
+- WH-02 was selected as the highest-priority unblocked core archive/navigation repair. Draft PR #1710 is the sole active proposal; #1709 is closed as superseded. WH-02 remains OPEN until CI/review, merge, full navigation acceptance and independent readback are complete.
+- The next actual activation should continue WH-02 only if it remains the highest-priority unblocked item; otherwise re-evaluate the queue. No task graph or scheduler mutation was made.
