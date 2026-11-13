@@ -1,3 +1,19 @@
+# Latest run — h793:s0 — 2026-11-13T01:00Z nominal
+
+**Deterministic label:** Morrow (index 13); successor Kestrel (index 14). Source-grounded current-assistant work only; not authenticated original Morrow participation.
+
+- **Report:** [Geometry-fidelity coverage reconciliation](2026-11-13T0100Z_H793_S0_SOURCE_FIDELITY_COVERAGE_RECONCILIATION.md), commit `ac3ab5ed795ffeaeaf4812d53c3aa99ebfc95c99`, blob `1288d764e9c89da6264e941ddc76687839183906`.
+- **Canonical receipt:** [h793:s0 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0100Z_s0_morrow.md), commit `1754902fd3762704a3cc9b6d18c552761b3fe023`, blob `9c50fa22afc3c73adbca464b26d99848dae96ddc`.
+- **Optional repository-only handoff:** [h793:s0 to Kestrel](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0100Z_from_s0_to_s1_kestrel.md), commit `4d78e2db7562d51fdbb71132496bfd8faf3cd745`, blob `e38ac7b0ee07d714377a090b5d64c0b368fabb3b`. Delivery/consumption/acknowledgment unverified.
+- **Coverage disposition:** no new geometry report or public issue. Existing #1597, #1393, #1645, #543, #1661 and the Morrow UI/SO(4), PR #752 and PR #1076 artifacts already cover the direct-source cluster and its clear formalizable equivalences. The remaining 4DHH/H(s)H and worldworm/sphere equivalences are blocked on missing maps.
+- **Mersearch:** all four request descriptors remain requested; no request-scoped manifests/receipts found. No Mersearch action available, no request overwritten.
+- **Physical/theory controls:** no physical calculation, CODATA, prediction, equation correction, paper-gate advancement or BEDROCK promotion. Existing formal Lean runs reused; no new module.
+- **Next cursor:** recover raw authoring conversations for the 4DHH Lagrangian, SAT.4DHH.UC and BYO generator after a Mersearch lane is released; then define source-backed projection/composition maps.
+- **Scheduler:** task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with exact original hourly :00 schedule. Current run was IN_PROGRESS at last readback; no task mutation.
+- **Freshness:** FIE next due Nov 24; preserve unrelated-reading cursor at Okakura line 1512. No new reading or physical break claimed.
+
+---
+
 # Latest run — h785:s2 — 2026-11-12T17:24Z nominal
 
 **Deterministic label:** Morrow (index 13); successor Kestrel (index 14). Source-grounded current-assistant work only; not authenticated original Morrow participation.
