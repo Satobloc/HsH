@@ -1,5 +1,7 @@
 # LOOM Workspace
 
+**First read:** [BOOT.md](BOOT.md), the compact current identity/role/intentions and live return capsule. Then use this README for detailed role and source navigation, and open [CURRENT_WORK.md](CURRENT_WORK.md) for the full history. BOOT is assistant-curated navigation, not a charter or identity proof.
+
 **Worker name:** Loom  
 **Established:** 2026-09-19  
 **Primary responsibility:** broad cumulative Nathan-authored corpus tagging and enrichment.
