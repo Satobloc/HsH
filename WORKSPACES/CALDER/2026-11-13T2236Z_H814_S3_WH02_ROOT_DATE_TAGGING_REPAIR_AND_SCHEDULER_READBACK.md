@@ -1,0 +1,94 @@
+# H814:s3 — Calder — WH-02 root date-tagging repair and scheduler readback
+
+**Run key:** `REVROT3-19-20261011:814:s3`  
+**Nominal slot:** 2026-11-13T22:36Z  
+**Selection:** `h=814`, `seq=5h+3=4073`, `4073 mod 19=7`  
+**Worker:** Calder, ring index 7  
+**Next:** Hale, ring index 8, h814:s4
+
+## Authority and source custody
+
+The historical Calder source recovered this run is the 2026-09-12 direct-user check-in in `WORKSPACES/COMMON/CHECKINS.md`. It describes an empirical/null-design specialty. No standalone signed Calder specialist charter was found. The current Calder BOOT preserves its separate :24 backseat/HOLD remit; this execution follows Nathan's current :36 architecture/workflow charter and does not reactivate Calder's :24 work.
+
+Read: live BEDROCK; 2026-10-26 Steering Charter; Three Paper Campaign; onboarding and all three repository front doors; Revival V3/V4 and thread-first rules; shared-state write safety; current HsH main; task graph; current queue; current receipts; Calder historical source; incoming Aldus h814:s2 handoff/report; Tern Observation 026 and Amendment 01; Project Portfolio Register and orphan-scan receipts. HSH_RESOURCES was limited to its root README/metadata; no private payload was opened.
+
+The incoming Aldus packet was repository-only optional context and was read. No authenticated historical Calder or Hale ChatGPT thread was established. No cross-thread delivery is claimed.
+
+## Priority selection
+
+WH-05 remains the highest-priority item overall, but its next controlled test is blocked: all four Mersearch request lanes remain occupied and no lane-release authority was available. Aster h813:s3 corrected the four-lane execution evidence: Lanes 1, 3 and 4 were cancelled after runner shutdown signals; Lane 2 search completed but publication failed on GitHub's 100 MB file limit / 50 MB recommended threshold. No lane was retried, overwritten or released. The bridge remains PUBLIC-QUERY-ONLY.
+
+WH-02 was therefore selected as the highest-priority unblocked core archive/navigation repair. Issue #1702 already contains the acceptance criteria. Existing PR #1686, PR #1685, the date-tagging scripts, Viewer, chronology, and navigation workflows were inspected; no duplicate issue or new tool was created.
+
+## Verified failure chain
+
+1. Repository-root discovery had a `.json/.txt` suffix gate even though the existing bounded content sniffer supports JSON-looking `.md`, `.log`, unusual-suffix and extensionless exports.
+2. Strict audit treated legitimate undatable conversations as blockers. The legacy `fully_tagged` field conflated two distinct conditions: all datable conversations correctly tagged, and every recognized conversation having a recoverable date.
+3. The Viewer refresh wrapper now requires three source manifests, but the test still called it with two arguments. The earlier strict-audit failure prevented this downstream defect from surfacing in the failed run.
+4. Both navigation/backfill workflows staged root renames with `git add -A -- '*.json' '*.txt'`, which misses arbitrary suffixes and extensionless root renames.
+5. The main navigation warning step checked DEV/LIVE date-pass outcomes but omitted the root pass.
+6. The scheduled/manual backfill workflow still gated on legacy `fully_tagged`, so the two legitimate undatable exceptions would continue to fail it.
+7. PR CI path filters omitted the date-export test and audit/chronology/workflow changes; the compile list also omitted the audit and chronology scripts.
+
+## Repair proposal in draft PR #1710
+
+[WH-02 draft PR #1710](https://github.com/Satobloc/HsH/pull/1710) is open, mergeable, and intentionally unmerged. Head: `a967e908ceab048d219831ec799343643870daf3`. It changes seven existing files:
+
+- `tools/date_conversation_exports.py`: remove the repository-root suffix gate; retain bounded content sniffing, full JSON parsing, ChatGPT mapping/message validation, and existing DEV/LIVE, PRIOR_ART, QUARANTINE, Viewer-generated and .git exclusions.
+- `tools/audit_conversation_date_tags.py`: expose `all_datable_tagged`, `all_conversations_have_dates`, and preserve `fully_tagged` as their conjunction. Strict mode fails only for datable sources needing a prefix or unresolved filename collisions. Undatable exceptions remain visible and do not block strict navigation.
+- `tools/index_conversation_chronology.py`: make labels extension-neutral for nonstandard root source suffixes.
+- `tests/test_date_conversation_exports.py`: add suffix/extensionless root discovery, prose and arbitrary-JSON negative controls, chronology, Viewer root-source, strict non-blocker/blocker, collision, and three-manifest refresh coverage.
+- `.github/workflows/maintain-navigation.yml`: include root pass failures in warnings and stage exact root rename paths from the root manifest with literal Git pathspecs, after audit and downstream validation.
+- `.github/workflows/date-tag-all-conversations.yml`: use the same strict semantics and exact root rename staging; preserve the legacy `fully_tagged` completeness meaning.
+- `.github/workflows/conversation-json-content-ci.yml`: expand PR path filters and Python compilation coverage.
+
+The software invariant is explicit:
+
+```text
+all_datable_tagged =
+    needs_renaming == 0 AND unresolved_collisions == 0
+
+all_conversations_have_dates =
+    undatable_conversations == 0
+
+fully_tagged =
+    all_datable_tagged AND all_conversations_have_dates
+```
+
+This is a Python/Actions workflow contract, not a physical theorem. No Lean theorem was added. Local `lean`, `lake`, `elan`, and `gh` are absent. No local repository checkout was available; `git clone` could not reach GitHub. No approved house-writer or Actions-dispatch writer was exposed in this runtime, so the GitHub connector's branch/update operations were used as the documented fallback. No new dependencies, subscriptions, tools, forks or expenditure.
+
+The first draft PR #1709 was closed unmerged as superseded after its branch fell 15 commits behind main. The seven affected source files were unchanged between its base and the newer main snapshot. PR #1710 is the sole active draft for WH-02.
+
+**Verification state:** no GitHub Actions CI run is currently observable for #1710. The only reported check is Vercel's daily deployment-rate limit, not a code-test result. No test pass is claimed. The full main-branch navigation/Viewer/chronology/structural-index/autotag/Pages workflow remains pending review, merge and independent readback. No source file was renamed, no main-branch code changed, and no date was fabricated for an undatable source.
+
+Issue #1702 received a status comment linking #1710. No duplicate issue or public research artifact was created.
+
+## Project and scheduler controls
+
+Aldus h814:s2's Project Portfolio Register and orphan-scan receipts were read. The original worker-built dynamic tracker remains unrecovered; the Project Desk item is only a static prototype. No replacement tracker was built and no orphan was silently promoted or archived. The task graph remains ACTIVE_SEED with 16 declared branches and 18 records; no graph mutation was made.
+
+Exact-ID scheduler readbacks show:
+
+| Slot | Run | Recorded start | State |
+|---|---|---|---|
+| :36 h814:s3 | `78a1a0d8-8c10-8a23-9f31-1e35c2d88a0f` | 22:38:11.641455Z | IN_PROGRESS |
+| :48 h814:s4 | `6e3a9d71-4b85-4b5d-a1ce-7c3cddf7c2b1` | 22:44:35.999674Z | IN_PROGRESS |
+| :24 h814:s2 | `f2a7c1d8-3b4e-4d4f-9c2a-6e1b8f0d3a92` | 22:49:38.445949Z | IN_PROGRESS |
+
+The recorded start order is s3 → s4 → s2, while nominal phase order is s2 → s3 → s4. The :00 h814:s0 run was not observed; the :00 task's last visible run remained h813:s0, completed 22:14:40Z. Current run-level completion and chat_ref values are null; cached results belong to preceding workers. This is scheduler-record ordering evidence only: it does not establish process concurrency, retry, restart, cause, or failed execution. Tern retains scheduler authority; the exact readback was routed to Tern's inbox for disposition. No scheduler task, ID, cadence, phase or prompt was changed.
+
+## Campaign and maintenance
+
+- P0 Code Grurple: ACTIVE.
+- P1 cognition, Orson-owned: OVERDUE / NOT READY.
+- P2 geometry: HOLD.
+- P3 full theory: INCOMPLETE.
+- FIE next rereview: November 24; last rereview November 10.
+- Unrelated reading: *Alice's Adventures in Wonderland*, Project Gutenberg #11, lines 661–700 read. Next cursor: 701.
+- No physical system, measured dataset, calibration, fit, prediction, independent measurement, SAT-O/Blockwave equation change, paper-gate advancement or theory promotion.
+
+## Automation integrity
+
+The existing :36 task remains enabled under ID `6a9f52b69ec08191b0a2ba24a074f781`, with its exact saved hourly America/New_York :36 schedule, prompt and phase unchanged. The :00, :24 and :48 task IDs/schedules/phases were also left unchanged. The :12 phase remains disabled. No sixth task, signet or chat rename.
+
+The current :36 wrapper remains IN_PROGRESS with null completion and null chat_ref; its cached result belongs to Aster h813:s3. Repository work and readbacks are complete; scheduler-wrapper completion is not claimed.
