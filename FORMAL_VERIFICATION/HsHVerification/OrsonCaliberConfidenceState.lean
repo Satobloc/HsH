@@ -22,6 +22,8 @@ subject to ordinary empirical and source-critical review.
 
 namespace HsHVerification.OrsonCaliberConfidenceState
 
+noncomputable section
+
 /-- Instance-wise correctness target for a particular rollout. -/
 def instanceTarget {n : ℕ} (correct : Fin n → ℝ) (i : Fin n) : ℝ :=
   correct i
@@ -55,7 +57,7 @@ theorem groupTarget_mem_Icc {n : ℕ} (hn : 0 < n)
     calc
       ∑ i : Fin n, correct i ≤ ∑ i : Fin n, (1 : ℝ) :=
         Finset.sum_le_sum fun i hi => hhi i
-      _ = (n : ℝ) := by simp
+      _ = (n : ℝ) := by simp [one_mul]
 
 /-- Two two-rollout groups can share the same group-wise target while
     assigning success to different individual rollouts. The group target
