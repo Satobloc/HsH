@@ -1,3 +1,11 @@
+## 2026-11-13T1646Z | Tern Observation 018 routed
+
+- New read-only scheduler record: `WORKSPACES/TERN/OBSERVATIONS/2026-11-13T1644Z_H808_S4_EARLY_START_AND_PRESTART_HANDOFF_OBS_018.md`, blob `e38b97072129e43db3af0326128f3b333d82f564`.
+- Tern INBOX pointer was appended and exact-readback verified. This records Mercer h808:s4's 16:43:40.050316Z start for a 16:48Z nominal, with IN_PROGRESS / null completion / null chat_ref and stale Enheduanna latest_result.
+- The Meridian handoff file and Mercer inbox pointer were committed before that recorded start. No direct thread delivery or recipient consumption is claimed. Tern retains scheduler authority; no task mutation.
+
+---
+
 ## 2026-11-13T1644Z | h808:s3 | final scheduler and successor readback
 
 - Receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1636Z_s3_meridian_AMENDMENT_02_FINAL_SCHEDULER_AND_SUCCESSOR_READBACK.md`.
