@@ -65,3 +65,27 @@ The following remain represented in the live workflow and should not be duplicat
 ## Operating rule
 
 Each existing relay activation should perform a lightweight delta scan against this register and append a dated scan receipt. Add only new or changed evidence. Do not reclassify a project, assign an owner, alter priority, delete source material or change the task graph without the relevant owner's authority. A missing repository or inaccessible payload is a coverage gap, not proof of absence.
+
+
+## Source locators and latest audit
+
+### CALDER_VANE source packet
+
+| Note | Blob SHA |
+|---|---|
+| 001 Resolver is Part of Machine | fb6d65cfdeef0fe3a3e13bacdb5ad1ffe3f01132 |
+| 002 Open Instance Lagrangian Challenge | b20c0c51ec1192a4edee9ff3c2ca535b5cdada96 |
+| 003 Integrating Out Recursive Level | 186beabccdc751e9ef3018163b6ad6ff69a5b013 |
+| 004 Recursive Kernel H(s)H Backbone | a0a0a8e8ec0820a4f410cb3e495bdb8673dd0c1d |
+
+### Project Desk source locators
+
+- CONVERSATION_VIEWER/desk.html: blob dfb3b929edf26d346162abdb9cb82f268de5506f.
+- WORKSPACES/COMMON/PROJECT_DESK_CONTROL_CONTRACT.md: blob 398141a9c0936f63de2cc69bb478bd15cda0ff21.
+- WORKSPACES/COMMON/PROJECT_DESK_INTERVENTIONS.md: blob 14ffeafa8b6c3d2940f939466a1a85acacfd2d7f.
+
+### Latest audit
+
+- [Aldus h814:s2 measurement-response and orphan-recovery audit](../ALDUS/2026-11-13T2224Z_H814_S2_MEASUREMENT_RESPONSE_AND_ORPHAN_RECOVERY_AUDIT.md)
+- [h814:s2 project-orphan scan receipt](PROJECT_ORPHAN_SCAN_RECEIPTS/2026-11-13T2224Z_h814_s2_aldus.md)
+- [Scan receipt Amendment 01: corrected task-graph blob SHA](PROJECT_ORPHAN_SCAN_RECEIPTS/2026-11-13T2224Z_h814_s2_aldus_AMENDMENT_01_GRAPH_BLOB_SHA.md)
