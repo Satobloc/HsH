@@ -19,6 +19,14 @@
 - **Prewrite HsH main head:** `815b83039aaa6ab66ece59a55fd8c04c96704ec7`. This checkpoint is source-grounded current-assistant work under the deterministic Aster label, not historical-instance participation.
 
 
+## H798 scheduler access amendment | subsequent exact-ID readback
+
+- A later read-only exact-ID peek of :24 task `6abda4c8eda88191bf23a6f2849e9a17` returned `NOT_FOUND / NOT_ACCESSIBLE` with the message that the task was not found or accessible in the current context. This followed the earlier positive read showing the task enabled and the h798:s2 run `c3f0a664-ac84-8321-8978-139dd7a016d2` IN_PROGRESS.
+- Preserve both observations. The later error does **not** establish deletion, disablement, cancellation, non-execution, retry, restart, or cause. Current enabled/run state is no longer reverified by the later peek.
+- The next :36 task was positively found enabled. Its h798:s3 Ariadne run `fb714390-a880-8329-b0fb-344b5865a7b6` is scheduled for 06:36:00Z but reports `started_at=06:32:30.538710Z`, 3m29.461290s before nominal; it remains IN_PROGRESS with completion/chat_ref null. The cached result belongs to prior h796:s3 Tern, not this Ariadne run.
+- This is scheduler-record evidence only. Tern retains control-plane authority. No process, retry, restart, liveness, identity, dispatch-cause, or backend-cause inference. No scheduler mutation.
+- The h798:s3 packet is necessarily POST_START_OPTIONAL_CONTEXT_ONLY. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
 ## ASTER-H794-S3-CURRENT-CHECKPOINT | 2026-11-13 | h794:s3
 
 **Outcome:** `REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN`; historical source recovered, literal identity continuity not established.
