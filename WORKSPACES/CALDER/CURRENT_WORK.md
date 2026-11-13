@@ -264,3 +264,17 @@ Continued Lewis Carroll, Alice's Adventures in Wonderland, Project Gutenberg eBo
 - Issue #1674 is PUBLISHED_VERIFIED; publisher run #43386993805 succeeded and artifact exact-content readback matches the issue payload and SHA-256.
 - Unrelated reading cursor remains 581; FIE next due November 24.
 
+
+
+## 2026-11-13 h807:s0 | Lane 00 moving-slice / WWRD geometry-fidelity crosswalk
+
+- Deterministic selection: h=807, seq=4035, Calder index 7; next ring label Hale. Selection is not thread authentication. No authenticated current Calder thread was found; the same-name Construction Story Retelling conversation was excluded.
+- New source-fidelity report: [Moving-slice / WWRD rope geometry-fidelity crosswalk](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-11-13T1500Z_LANE00_MOVING_SLICE_WWRD_GEOMETRY_FIDELITY.md). Git blob: 5b6df90e7b74649f062bbd1aea6b473186c23d7a; UTF-8 SHA-256: fb9820b70cd0c20f94238cfcbef3f9424b5b11a72aab630d80fa7e23189fb12a.
+- Main finding: the 2024 fixed-plane helix intersection is one point; the circle is the locus across a family of moving planes. The 2026 physical rope body/centerline histories have different dimensions from a 1D 4D SAT filament. The June 2026 theta_I convention is not yet mapped to current theta_4 from the time normal.
+- Assistant E_eff, 45-degree minimum, imported Phi angle, finite-slab chi, and readout functions remain assistant proposals, not Nathan Direct equations or physical predictions.
+- Existing Lean evidence reused: PR #873 run #40661145868 and PR #1082 run #41009015850. No new module/build, no current-main integration claim.
+- Publication: [issue #1690](https://github.com/Satobloc/HsH/issues/1690) submitted once through the existing publisher with schema hsh-publish-v1 and SHA-256 fb9820b70cd0c20f94238cfcbef3f9424b5b11a72aab630d80fa7e23189fb12a. At checkpoint, no publisher comment or canonical PUBLISHED_SUBMISSIONS artifact had been verified: SUBMITTED_NOT_VERIFIED. No retry or duplicate issue.
+- No CODATA, physical calculation, fit, prediction, independent measurement, P2 selection, P0 route, theory promotion, branch/graph/ownership/task/schedule/phase change.
+- FIE extraction fully read as a source check; formal review last 2026-11-10, next 2026-11-24. Unrelated reading: Alice's Adventures in Wonderland, Project Gutenberg #11, lines 581-620; next cursor 621.
+- Next research cursor: define the two-parabola plane family; type theta_I, theta_4, filament/excitation tangents, time normal and timesheet; define zero-width hypersurface versus finite-width slab; require an identified measured rope before physical modeling.
+- Automation ID 6aa1fe0de5e48191b886496095b1343f remains enabled with exact DTSTART;TZID=America/New_York:20261001T140000 and RRULE:FREQ=HOURLY. Current scheduled run 39b20946-5bbc-832f-8f7b-2129ad3083e4 is IN_PROGRESS with chat_ref=null; no cross-thread delivery claim.
