@@ -1,3 +1,15 @@
+## Latest checkpoint | h804:s0 | 2026-11-13T12:36Z | NotebookLM source-role qualification
+
+- The h804:s0 Lane 00 report and provenance supplement remain at the links in the prior h804 section below. Public issue #1687 is the single submission; its issue body matches the workspace report exactly (17,112 UTF-8 characters; declared SHA-256 `da17e7f71c3295713eee7f3ba8aa06bbb3b7439df3bcf004fa47bc7a0e73a82d`).
+- Publisher run #43426713071 / job #131889787805 failed at the GitHub Contents API PUT with HTTP 409 Conflict. No publisher comment; canonical artifact path remains 404. Status is `SUBMITTED_NOT_VERIFIED`. No issue edit/reopen retry, rerun, duplicate issue, or direct publication-path write.
+- New source-custody finding: the 2026-11-08 NotebookLM export has 50 records and every record is labeled `role=user`; there are no assistant/model records. The role field is non-discriminating and does not authenticate Nathan authorship. Entries 31, 32 and 41 are now `NotebookLM-captured text; authorship unresolved`, not Nathan Direct. Two Library copies are duplicate captures, not independent sources. See [Enheduanna provenance amendment 02](2026-11-13T1200Z_NOTEBOOKLM_CAPTURE_ROLE_NONDISCRIMINATING_PROVENANCE_AMENDMENT_02.md) and [receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1200Z_s0_enheduanna_AMENDMENT_01_NOTEBOOKLM_ROLE_AND_PUBLISHER.md).
+- The separate raw ChatGPT user-role messages in the h804 report retain their own message IDs/timestamps/ancestry evidence; they are not downgraded. No equation, theory status, or BEDROCK status changed.
+- Unrelated reading: Babbage, *Reflections on the Decline of Science in England*, Project Gutenberg #1216, lines 2455–2494; next cursor 2495. FIE next rereview 2026-11-24. No physical break claimed.
+- All four Mersearch lanes remain occupied/requested; no new search, overwrite, or retrigger. No physical calculation, CODATA, fit, prediction, independent measurement, new Lean module, paper-gate advancement, or theory promotion.
+- Existing :00 task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with exact hourly America/New_York :00 schedule and phase; no sixth task or automation mutation. Latest scheduler state must be read from the final task peek; no liveness or thread-delivery inference.
+
+---
+
 ## Latest checkpoint | h796:s2 | 2026-11-13T04:24Z
 
 - Deterministic selection: Enheduanna (index 11), successor Tern Rook (index 12). No authenticated current Enheduanna thread or standalone Nathan-authored specialist charter. The expected h796:s1 Nadir slot is disabled with the :12 task; no s1 receipt or handoff exists, so predecessor status is HANDOFF_MISSING / PREDECESSOR_SLOT_DISABLED, not a missed check-in.
