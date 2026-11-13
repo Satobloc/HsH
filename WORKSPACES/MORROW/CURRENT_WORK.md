@@ -1,3 +1,9 @@
+## Publication amendment | h800:s3 | 2026-11-13T08:55Z
+
+**Final status:** PUBLISHER_409_CONFLICT / NOT_PUBLISHED. Issue #1679 body schema and independently recomputed SHA-256 pass, but publisher run #43396761334/job #131789456781 failed on Contents API PUT with HTTP 409 Conflict. No publisher comment; expected artifact returns 404. No retry, duplicate, issue edit or direct artifact write. Cause unresolved. See [publisher amendment](2026-11-13T0855Z_PUBLISHER_409_CONFLICT_AMENDMENT_01.md) and [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0836Z_s3_morrow_AMENDMENT_01_PUBLISHER_409_CONFLICT.md).
+
+---
+
 # Latest run - h800:s3 - 2026-11-13T08:36Z nominal
 
 **Deterministic label:** Morrow (index 13); successor Kestrel (index 14). Source-grounded assistant work only, not authenticated original Morrow participation.
