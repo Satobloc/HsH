@@ -100,3 +100,73 @@ The current :36 wrapper remains IN_PROGRESS with null completion and null chat_r
 - PR #1710 remains draft/open and unmerged. Its mergeability flag has fluctuated across successive reads; the latest exact PR readback is `mergeable=false`. The seven touched files remain unchanged on main since the PR base, so this flag is not treated as proof of a code conflict. No GitHub Actions CI run is observable; Vercel's rate-limit failure is not code CI. No rebase, force update or merge was attempted.
 - The :24 h814:s2 exact-ID peek that had temporarily returned no record subsequently restored the same run `893a3e1d-ab04-8321-ad95-57fca28b0e60`, still IN_PROGRESS with the same recorded start 22:49:38.445949Z and null completion/chat_ref. Treat the transient no-record response as readback unavailability, not deletion or disablement.
 - The :00 h814:s0, :24 h814:s2, :36 h814:s3 and :48 h814:s4 records were all IN_PROGRESS at their latest successful peeks. Recorded start order remains s3 → s4 → s2 → s0; nominal phase order s0 → s2 → s3 → s4. No process concurrency, retry, restart or backend cause inferred.
+
+
+## Amendment 04 — malformed JSON candidate classification and fresh PR comparison
+
+This amendment is the additional work of a later current execution that found the h814:s3 base report and receipt already present on main before its own latest recorded start. The producer/attempt linkage of that pre-existing same-slot packet is not inferred. This execution adds the source-level QA finding below; it does not claim authorship of the base packet.
+
+### New coverage distinction
+
+The exact PR-head source was read at `a967e908ceab048d219831ec799343643870daf3`:
+
+- `tools/conversation_json_sniff.py:29–33` keeps `.json` candidates eligible so malformed JSON is retained as a parse failure.
+- `tools/date_conversation_exports.py:149–150` stores parse failures as generic `status="skipped"` records with the error text.
+- `tools/audit_conversation_date_tags.py:41–53` catches `JSONDecodeError`, sets `is_conversation=False`, increments `skipped_not_conversations_or_bad_json`, and does not append the candidate path/error to `exceptions`.
+
+Thus malformed JSON and valid non-conversation JSON collapse into the same aggregate skip category. A malformed candidate is **not proven to be a conversation**; it is an unresolved candidate whose parse failure is not represented in the audit exception list. The existing PR tests cover valid arbitrary JSON/prose and valid undatable ChatGPT-shaped records, but not a malformed `.json` candidate through this date-audit path.
+
+A one-off Python logic replay of the exact source control flow used three software fixtures (not physical data and not the repository test suite):
+
+| Candidate | Replayed audit state | Exception path retained? |
+|---|---|---|
+| Malformed `.json` | `skipped_not_conversation_or_bad_json` | No |
+| Valid arbitrary JSON | `skipped_not_conversation_or_bad_json` | No |
+| Valid ChatGPT-shaped, undatable conversation | `undatable_conversations` | Yes |
+
+### Recommended contract
+
+Preserve separate states for:
+
+1. `malformed_json_candidates` — path plus parse error, unresolved until adjudicated;
+2. `valid_nonconversation_json` — valid JSON that does not satisfy the ChatGPT conversation shape;
+3. `undatable_conversations` — valid ChatGPT-shaped conversations without recoverable timestamps;
+4. datable conversations, with their existing prefix/collision statuses.
+
+Keep `all_datable_tagged` separate from `all_candidates_classified` or an equivalent inventory-completeness status. Decide explicitly whether malformed candidates block the strict inventory-completeness gate or require a separate adjudication; do not silently count them as known non-conversations. This is an additional review finding for the existing WH-02 PR, not a request for another PR.
+
+### Formalization triage
+
+The proposition is definitional: `all_datable_tagged` does not imply inventory completeness when parse-error candidates are tracked separately. A faithful Lean target is:
+
+```lean
+def AllDatableTagged (needsRenaming unresolvedCollisions : Nat) : Prop :=
+  needsRenaming = 0 ∧ unresolvedCollisions = 0
+
+def InventoryComplete
+    (needsRenaming unresolvedCollisions parseErrors : Nat) : Prop :=
+  needsRenaming = 0 ∧ unresolvedCollisions = 0 ∧ parseErrors = 0
+
+theorem datable_tagging_does_not_imply_inventory_complete :
+    AllDatableTagged 0 0 ∧ ¬ InventoryComplete 0 0 1 := by
+  constructor
+  · exact ⟨rfl, rfl⟩
+  · simp [InventoryComplete]
+```
+
+**Status: LEAN_NOT_RUN.** The local runtime has no `lean`, `lake`, or `elan`; no local repository checkout or existing CI route for this unrelated proposition was available. This is a candidate proof of a proposed software-status contract, not a compiled proof, not a repository test, and not a physical theorem. No `sorry`, assumed axiom, or proof-success claim is introduced.
+
+### PR and publication readback
+
+- Existing PR [#1710](https://github.com/Satobloc/HsH/pull/1710) remains OPEN / DRAFT / UNMERGED. Latest fetch reports `mergeable=true`, but exact comparison of PR head `a967e908ceab048d219831ec799343643870daf3` against observed live main `867560931b5da3e150070abc3a0a7fb7fb48ef4e` is **7 commits ahead / 59 behind**. Mergeability is not freshness, CI, approval, or merge authorization.
+- `fetch_commit_workflow_runs` returned no PR-triggered Actions runs for that head. Vercel's deployment-rate-limit status remains unrelated to code-test evidence.
+- The existing Hale warning-step finding remains distinct: comment [#6867074391](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867074391) covers the missing audit outcome / status-check function. This amendment's additional public QA comment is [#6867267782](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867267782); its complete body was independently fetched and matched.
+- No PR branch rebase, code change, test-suite run, workflow dispatch, merge, source rename, manifest write, Viewer/chronology rebuild, or Pages deployment occurred. No duplicate PR or issue was created.
+
+### Coordination and limits
+
+Tern retains WH-02 queue, task-graph, and scheduler authority. The finding is routed to Tern's existing inbox as optional Comptroller context; the shared queue was not modified. Hale h814:s4's report and existing handoff were already present/read, so no duplicate successor packet or review was created.
+
+The current :36 automation record remains run `78a1a0aa-70c0-8329-b340-2e34bdabd7fd`, scheduled 22:36Z, latest recorded start 23:05:40.961889Z, IN_PROGRESS, null completion/chat_ref; cached latest_result remains Aster h813:s3. The earlier 22:38:11.641455Z start and later 23:05:40.961889Z start are preserved as same-ID record movement only. Tern already has Hale's matching readback; no duplicate scheduler observation was created.
+
+Unrelated reading advanced through Project Gutenberg #11, *Alice's Adventures in Wonderland*, lines 701–740. Next cursor: **741**. No physical break is claimed. FIE last rereview remains November 10; next due November 24.
