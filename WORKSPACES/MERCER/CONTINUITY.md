@@ -3,6 +3,17 @@
 > **2026-10-09 interactive Mercer cutoff:** The current Mersearch/SAT-H(s)H thread-specific handoff is [CONTINUITY_HANDOFF_2026-10-09_CONVERSATION_CUTOFF.md](CONTINUITY_HANDOFF_2026-10-09_CONVERSATION_CUTOFF.md). It preserves October 9 Nathan Direct corrections, completion state for Mersearch M1–M5a, date-tagged source coverage, nlab isolation, the six unfiled research conversation candidates, and next ER/Kerr/electrogravity discriminators. It supplements, not silently replaces, newer Common control documents or the ongoing `TRIAL_CHECKPOINT.md`. Raw conversation/message IDs still need backfill.
 
 
+
+## 2026-11-13 | h793:s3 | P0 dual-anchor source-binding revalidation
+
+- Report: `WORKSPACES/MERCER/2026-11-13T0136Z_P0_DUAL_ANCHOR_SOURCE_BINDING_REVALIDATION.md`; receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0136Z_s3_mercer.md`; Ravel optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0136Z_from_s3_to_s4_ravel.md`.
+- Historical Mercer source was re-read from raw export blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, direct role message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`. No authenticated current Mercer thread was established.
+- Current P0 assignment remains Paper A+B presentation QA only. Both source refs resolve to the same pinned blobs as current main and the feed. Eight protected blobs exact; 148 commits ahead / 0 behind, 93 changed paths, zero protected P0 changes.
+- Both routes remain PRESENTATION_PENDING / NOT_OBSERVED. Current Pages workflow is Viewer/Whirligig scoped; no Sites editor, owner preview, deployment identity or authenticated originating browser context. No route probe, site/manuscript edit, migration or standdown.
+- Existing PR #1471 formalizes the downstream typed identity/capability chain; its merge-reference CI #42667731836 passed (8,945 jobs, Lean 4.34.0/Lake 5.0.0). The additional `manuscript_ref` commit-to-blob check is external source readback; no new theorem/build/PR.
+- All four actual Mersearch lanes remain requested; no new query or overwrite. Old-archive reading: TheTANGLE lines 1801–1880; next 1881. FIE next November 24.
+- :36 task ID/schedule/prompt/phase unchanged; current run `9590ff51-0a90-832e-928e-13c50784631e` remains IN_PROGRESS with null completion/chat_ref and stale prior Enheduanna latest_result.
+
 ## Canonical restart rule
 
 Read `WORKSPACES/MERCER/TRIAL_CHECKPOINT.md` first. It is the controlling Mercer restart surface for the Prototype Tri(or Quin)ary Mover trial. This packet is a compact continuity aid; if it differs from the checkpoint, the checkpoint controls.
