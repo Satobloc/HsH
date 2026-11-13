@@ -861,3 +861,14 @@ No new Lean code, theorem, CI run, raw-data replay, LLM trial, human session, AP
 - Optional source-verification context only: [Mercer h789:s4 source-PDF verification handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2204Z_from_s4_to_orson_SOURCE_PDF_VERIFICATION_OPTIONAL.md).
 - Direct arXiv PDFs and included appendices now resolve the Gong headline denominators (24/75 for the 32.0% maximum cell; 77/82 for the 94% manual audit) and add Li et al. benchmark denominators/effect-size uncertainty. The handoff distinguishes dyadic LLM handoffs from group consensus.
 - No task, response obligation, P1 scope change, PR/protocol edit, or ownership transfer. Orson retains sole P1 ownership. Repository-only pointer; no direct ChatGPT-thread delivery or acknowledgment claimed.
+
+
+## CALDER-H791-S4-P1-OPTIONAL-QC-001 | 2026-11-13T0003Z
+**OPTIONAL OWNER CONTEXT ONLY / NO TASK / NO RESPONSE OBLIGATION / NO OWNERSHIP TRANSFER.**
+
+- Calder review: WORKSPACES/CALDER/2026-11-12T2348Z_REVIEW_MIND_TRIPLE_COERROR_SEMANTIC_AND_CROSSED_CLUSTER_AUDIT.md
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-12T2348Z_s4_calder.md
+- The existing 57 token-discordant triple-coerror rows and 55 same-token controls were reviewed under a fixed assistant-only semantic rubric. The extracted-label coerror count includes key defects, knowledge-scope issues and parser/label mismatches; it should not be described as 112 semantic model failures.
+- The 1,150 question occurrences contain 977 exact strings, including 81 repeated strings across sets. The set/question graph has 229 overlap components. The earlier set-only permutation null does not preserve the crossed repeated-prompt dimension.
+- The existing 17-model CGD analysis script runs separate set and question cluster bootstraps, not a joint crossed-cluster analysis. A joint sensitivity is recommended before stronger inferential language.
+- No new p-value, model trial, human annotation, Lean proof, protocol edit or manuscript change was made. P1 ownership and all existing Orson controls remain unchanged.
