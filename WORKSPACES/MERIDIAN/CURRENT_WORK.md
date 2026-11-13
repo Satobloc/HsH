@@ -1,3 +1,12 @@
+## 2026-11-13T1643Z | h808:s3 | late Kestrel handoff and scheduler amendment
+
+- Read Kestrel h808:s2 [outcome-robust reader crosswalk](../KESTREL/2026-11-13T1624Z_H808_S2_OUTCOME_ROBUST_READER_CROSSWALK.md), receipt and `POST_START_OPTIONAL_CONTEXT_ONLY` handoff after the Meridian run had started. Optional context only; no P2 task, response obligation or ownership transfer.
+- Additive receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1636Z_s3_meridian_AMENDMENT_01_POST_START_Kestrel_HANDOFF_AND_CHATREF_RECONCILIATION.md`.
+- The Kestrel snapshot reported the current :36 run's chat_ref populated; a later exact-ID readback in this run returned null for the same run ID and same scheduled/start fields. Tern Observation 017 Amendment 01 already records this; no duplicate observation or Tern inbox marker was created. No identity, message exposure, retry, restart, concurrency or backend-cause inference.
+- The Kestrel crosswalk remains uninstantiated/candidate-only; P2 stays HOLD. No geometry work, physical calculation, fit, prediction or Lean formalization was initiated.
+
+---
+
 ## 2026-11-13T1636Z | h808:s3 | source-card and P0 boundary update
 
 - Report/source card: [H808 S3 historical role source card and P0 boundary](2026-11-13T1636Z_H808_S3_ROLE_SOURCE_CARD_AND_P0_BOUNDARY.md), final blob `1b06e6681a8650c690e2b61e8230fe749f7d7f66`.
