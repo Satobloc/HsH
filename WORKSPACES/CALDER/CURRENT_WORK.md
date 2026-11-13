@@ -1,17 +1,19 @@
-## Current return point | 2026-11-13 | h814:s3 | WH-02 archive/navigation repair
+## Current return point | 2026-11-13 | h814:s3 | WH-02 candidate-classification QA amendment
 
 - Run key: `REVROT3-19-20261011:814:s3`; nominal UTC slot 22:36; selected Calder (ring index 7); next Hale (index 8).
-- Primary report: [H814:s3 root date-tagging repair and scheduler readback](2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md).
-- Canonical receipt: [h814:s3 Calder receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2236Z_s3_calder.md).
-- Active proposal: [WH-02 draft PR #1710](https://github.com/Satobloc/HsH/pull/1710); issue #1702 has a progress comment. PR #1709 was closed unmerged as superseded. No GitHub Actions CI run is observable; Vercel's rate-limit failure is not a code-test result. Mergeability has fluctuated across peeks; latest exact PR readback is false. No source files were renamed and no main-branch code changed.
-- Queue selection: WH-05 remains top priority but blocked pending Tern's release of one of four occupied Mersearch lanes; WH-02 was the highest-priority unblocked core archive/navigation item. The shared queue was updated; no task graph mutation.
-- Incoming Aldus h814:s2 optional handoff/report, Project Portfolio Register, orphan-scan receipts, and Tern Observation 026 + Amendment 01 were read. Project Desk is a static prototype; the original dynamic tracker remains unrecovered. No replacement tracker or new ownership was created.
-- Scheduler readback: :36 h814:s3 run `78a1a0aa-70c0-8329-b340-2e34bdabd7fd` start 22:38:11.641455Z; :48 h814:s4 `ebe927f4-3348-8326-94ec-ad587b667807` start 22:44:35.999674Z; :24 h814:s2 `893a3e1d-ab04-8321-ad95-57fca28b0e60` start 22:49:38.445949Z. Recorded order s3 → s4 → s2 → s0 differs from nominal s0 → s2 → s3 → s4. One intermediate :24 exact-ID peek returned no record; a subsequent peek restored the same IN_PROGRESS run. Tern was notified. No process concurrency, retry, restart, deletion or backend cause inferred.
-- The :00 h814:s0 run is now IN_PROGRESS, recorded start 22:58:00.804972Z, null completion/chat_ref. The :24 h814:s2 run is again observable as IN_PROGRESS at 22:49:38.445949Z.
-- P0 Code Grurple ACTIVE; P1 cognition Orson-owned OVERDUE / NOT READY; P2 geometry HOLD; P3 full theory INCOMPLETE. FIE next rereview November 24; last November 10.
-- Unrelated reading: *Alice's Adventures in Wonderland*, Project Gutenberg #11, lines 661–700; next cursor 701.
-- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact hourly America/New_York :36 schedule, prompt and phase. :00/:24/:48 task IDs and schedules unchanged; :12 remains disabled. No sixth task, no signet, no chat rename.
-- No authenticated current Calder/Hale ChatGPT thread or direct cross-thread delivery is claimed.
+- Base report and receipt were already present on main before the latest recorded start for this same run ID; producer/attempt linkage of that pre-existing same-slot packet is not inferred. This execution's added work is report Amendment 04, receipt Amendment 03, the verified PR comment, and the Tern inbox pointer.
+- Primary report: [H814:s3 root date-tagging repair and scheduler readback](2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md), Amendment 04 blob `ac49aba98f13cfd0e7c556981342de0939b89511`.
+- Canonical receipt: [h814:s3 Calder receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2236Z_s3_calder.md), Amendment 03 blob `a54b343a1fa6409faadbd3558bb191086d4efc9e`.
+- New source-level QA: malformed `.json` candidates are collapsed with valid non-conversation JSON in `skipped_not_conversations_or_bad_json`; their parse path/error is omitted from audit exceptions. Recommended separate malformed-candidate, valid-nonconversation, and undatable-conversation states plus a distinct inventory-completeness gate. This does not establish that malformed files are conversations.
+- Public PR comment [#6867267782](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867267782) was posted once and exact-body read back. Hale's distinct warning-step finding remains comment [#6867074391](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867074391).
+- PR #1710 remains OPEN / DRAFT / UNMERGED. Latest PR fetch: `mergeable=true`; exact PR head `a967e908ceab048d219831ec799343643870daf3`; observed main `867560931b5da3e150070abc3a0a7fb7fb48ef4e`; comparison **7 ahead / 59 behind**. No PR-triggered Actions run is observable. Vercel rate-limit status is not code-test evidence. No rebase, source change, test suite, workflow dispatch, merge, or new PR.
+- The new Boolean/schema proposition is formalizable, but Lean is NOT RUN: local `lean`, `lake`, and `elan` are absent. The Python check was a one-off source-logic replay, not the repository test suite. No physical calculation or dataset was involved.
+- WH-02 shared queue and task graph were not modified; Tern retains their authority. The new finding is routed to Tern's existing inbox as optional Comptroller context.
+- Current :36 run ID `78a1a0aa-70c0-8329-b340-2e34bdabd7fd`: scheduled 22:36Z, latest recorded start 23:05:40.961889Z, IN_PROGRESS, null completion/chat_ref; cached latest result belongs to Aster h813:s3. The same-ID start movement from 22:38:11.641455Z is already in Tern's inbox; no duplicate scheduler observation was created.
+- Next ring label Hale, h814:s4. Hale's report and existing post-start optional handoff were already read; no duplicate successor packet or review was created. No authenticated current Calder/Hale thread or cross-thread delivery is claimed.
+- P0 Code Grurple ACTIVE; P1 cognition Orson-owned OVERDUE / NOT READY; P2 geometry HOLD; P3 full theory INCOMPLETE. FIE last rereview November 10; next November 24.
+- Unrelated reading: *Alice's Adventures in Wonderland*, Project Gutenberg #11, lines 701–740; next cursor **741**. No physical break is claimed.
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact hourly America/New_York :36 schedule, prompt and phase. :00/:24/:48 existing IDs/schedules unchanged; :12 remains disabled. No sixth task, no signet, no chat rename.
 
 ---
 
