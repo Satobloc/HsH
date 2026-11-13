@@ -1,4 +1,5 @@
 import json
+import os
 import tempfile
 import unittest
 from pathlib import Path
@@ -58,6 +59,57 @@ class DateConversationExportsTests(unittest.TestCase):
             self.assertEqual(result["counts"]["undatable_conversations"],1)
             self.assertEqual(result["counts"]["dated_and_correct"],0)
             self.assertEqual(result["exceptions"][0]["path"],str(source))
+            self.assertTrue(result["all_datable_tagged"])
+            self.assertFalse(result["all_conversations_have_dates"])
+            self.assertFalse(result["fully_tagged"])
+            self.assertTrue(result["strict_pass"])
+
+    def test_strict_audit_still_blocks_datable_untagged_conversations(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            source=root/"conversation.md"
+            self.write_convo(source,1780000000)
+            result=audit(root)
+            self.assertEqual(result["counts"]["needs_renaming"],1)
+            self.assertFalse(result["all_datable_tagged"])
+            self.assertFalse(result["strict_pass"])
+
+    def test_strict_audit_blocks_unresolved_filename_collisions(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td); tz=ZoneInfo("America/New_York")
+            source=root/"collision.json"
+            self.write_convo(source,1780000000)
+            target=Path(build_records(root,tz)[0].new_path)
+            target.write_text(source.read_text(encoding="utf-8"),encoding="utf-8")
+            result=audit(root)
+            self.assertEqual(result["counts"]["unresolved_collisions"],1)
+            self.assertFalse(result["strict_pass"])
+
+    def test_root_scan_is_suffix_independent_and_preserves_exclusions(self):
+        with tempfile.TemporaryDirectory() as td:
+            root=Path(td)
+            self.write_convo(root/"root.md",1780000000)
+            self.write_convo(root/"root.log",1780000001)
+            self.write_convo(root/"root.data",1780000002)
+            self.write_convo(root/"extensionless",1780000003)
+            (root/"notes.md").write_text("Ordinary prose, not a JSON export.",encoding="utf-8")
+            (root/"arbitrary.json").write_text('{"create_time":1780000000}',encoding="utf-8")
+            for excluded in ("PRIOR_ART","QUARANTINE","DEVELOPMENT_FULL_CONVOS","LIVE CONVOS"):
+                folder=root/excluded
+                folder.mkdir()
+                self.write_convo(folder/"hidden.md",1780000004)
+            old_cwd=Path.cwd()
+            try:
+                os.chdir(root)
+                records=build_records(Path("."),ZoneInfo("America/New_York"))
+            finally:
+                os.chdir(old_cwd)
+            planned={Path(r.old_path).name for r in records if r.status=="planned"}
+            self.assertEqual(planned,{"root.md","root.log","root.data","extensionless"})
+            skipped={Path(r.old_path).name for r in records if r.status=="skipped"}
+            self.assertIn("arbitrary.json",skipped)
+            self.assertNotIn("notes.md",{Path(r.old_path).name for r in records})
+            self.assertNotIn("hidden.md",{Path(r.old_path).name for r in records})
 
     def test_viewer_private_refresh_does_not_overwrite_canonical_audit_manifests(self):
         with tempfile.TemporaryDirectory() as td:
@@ -70,24 +122,29 @@ class DateConversationExportsTests(unittest.TestCase):
             canonical_dir=root/"indexes"/"manifests"; canonical_dir.mkdir(parents=True)
             canonical_dev=canonical_dir/"development-conversation-dates.json"
             canonical_live=canonical_dir/"live-conversation-dates.json"
+            canonical_root=canonical_dir/"root-conversation-dates.json"
             canonical_dev.write_text('{"mode":"apply","sentinel":"dev"}\n',encoding="utf-8")
             canonical_live.write_text('{"mode":"dry-run","sentinel":"live"}\n',encoding="utf-8")
+            canonical_root.write_text('{"mode":"apply","sentinel":"root"}\n',encoding="utf-8")
 
+            self.write_convo(root/"root-export.md",1780000002)
             private=root/"viewer-private"; private.mkdir()
-            private_dev=private/"development.json"; private_live=private/"live.json"
+            private_dev=private/"development.json"; private_live=private/"live.json"; private_root=private/"root.json"
 
             old_cwd=Path.cwd()
             try:
-                import os
                 os.chdir(root)
-                viewer_resolved.refresh_source_manifests(private_dev,private_live)
+                viewer_resolved.refresh_source_manifests(private_dev,private_live,private_root)
             finally:
                 os.chdir(old_cwd)
 
             self.assertEqual(canonical_dev.read_text(encoding="utf-8"),'{"mode":"apply","sentinel":"dev"}\n')
             self.assertEqual(canonical_live.read_text(encoding="utf-8"),'{"mode":"dry-run","sentinel":"live"}\n')
+            self.assertEqual(canonical_root.read_text(encoding="utf-8"),'{"mode":"apply","sentinel":"root"}\n')
             self.assertEqual(json.loads(private_dev.read_text(encoding="utf-8"))["mode"],"dry-run")
             self.assertEqual(json.loads(private_live.read_text(encoding="utf-8"))["mode"],"dry-run")
+            root_manifest=json.loads(private_root.read_text(encoding="utf-8"))
+            self.assertTrue(any(Path(r["old_path"]).name=="root-export.md" for r in root_manifest["records"]))
 
 if __name__=="__main__":
     unittest.main()
