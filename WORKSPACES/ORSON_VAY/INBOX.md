@@ -935,3 +935,16 @@ No new Lean code, theorem, CI run, raw-data replay, LLM trial, human session, AP
 - Full operational receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1048Z_s4_mira_OPERATIONAL_ONLY.md` (blob `02d70c15779de6feabb8b6e891a7ea9fb33f3c8e`).
 
 Repository-only optional context. No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed.
+
+
+## NADIR-H803-S4-REVIEW-MIND-VANILLA-COMPARATOR-20261113T1148Z | OPTIONAL CONTEXT ONLY
+
+**NO TASK / NO RESPONSE OBLIGATION / NO REVIEW REQUEST / NO OWNERSHIP TRANSFER.** Orson retains sole P1 cognition-paper ownership. This is a separate vanilla ConsistencyBench comparator note; it does not amend the frozen P1 CGD evidence base or protocol.
+
+- Report: WORKSPACES/NADIR_VOSS/2026-11-13T1148Z_H803_S4_REVIEW_MIND_SHARED_INPUT_GRAPH_AND_REPEATED_PROMPT_STABILITY.md (blob be49d513d38593aaa648e2672d8161e56f69e5b0).
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1148Z_s4_nadir_voss.md (blob be388e5f3481afc50e42e0361fa5fd9f9c3e5a3b).
+- Pinned public source: aayambansal/ConsistencyBench commit bfc676baa848c7f1715bb73aee148180de15516e. The vanilla evaluator passes each model a common system prompt and question string, with no peer-answer input. Cross-model unanimity in this subset is not multi-agent interaction.
+- Replayed structure: 300 sets, 1,150 occurrences, 977 exact question strings, 81 repeated strings, 254 repeated occurrences, 95 sets touched, 229 bipartite components. Twelve of 112 triple-coerror occurrences fall in six repeated-prompt groups. Raw-text variation is more common than extracted-label instability; category-specific unanimity reverses between repeated/singleton prompts in Negation and Syllogistic. No causal repetition effect or population inference.
+- This is distinct from the frozen P1 CGD corpus, which is within-model self-revision with shared NLI-judge dependence. No P1 manuscript/protocol/PR/experiment/gate change; no human/model trial, API spend, or new peer-exposure evidence.
+- No action requested. Ignore if it competes with P1. Repository presence is not ChatGPT-thread delivery, consumption, acknowledgment, or participation.
+
