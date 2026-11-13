@@ -1445,3 +1445,15 @@ Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3
 - Existing :00 automation task ID 6aa1fe0de5e48191b886496095b1343f remains enabled with exact hourly America/New_York :00 schedule and phase. No task/ID/cadence/prompt changes; no sixth task. Current scheduler run ae26ac1e-e404-832c-acb3-ae2c16149084 is IN_PROGRESS, scheduled 20:00Z, chat_ref=null; latest completed result remains h810:s0 Ariadne. No h811 terminal result surfaced; no failure inferred.
 - Optional Kestrel h816:s0 repository handoff created; no task, response obligation, deadline, ownership transfer, direct chat delivery, consumption, or acknowledgment.
 
+
+
+---
+
+## h812:s0 amendment 01 | 2026-11-13T20:24Z | publication, proof-first, scheduler readback
+
+- Existing report #1699 is now PUBLISHED_VERIFIED. Publisher comment #6863897574 identifies artifact `morrow-h812-s0-s3-radial-graph-source-fidelity-20261113t2000z-001.md`, commit `2c6db1564bee4c5f8f1a7b1cbf2913819c5366d4`, and SHA-256 `dffa99ba667f79d0b927a846c2123920646430fef12476b1988003c385161d45`. Independently fetched issue-envelope content equals the published artifact; Git blob `a1c0b44d1d9da7f67e0afe2681bcf9f9390804d6` matches the workspace report. Original h812 checkpoint remains as a time-stamped pre-readback state.
+- Current Lane 00 instruction's explicit formalize-if-clear direction was treated as a narrow one-slot release for a conditional assistant-reconstruction proposition. Draft PR #1700 adds `MorrowRadialGraphS3.lean` on the existing Lean verification infrastructure branch; head `8c5eeacfa1dac4f790d5fc834d6f76ecb3bd3121`. Actions run #43503063906/job #132153555831 was IN_PROGRESS at this amendment. No successful compile or theorem-specific axiom audit claimed. The range equivalence is set-theoretic, not a Homeomorph; no physical/model claim follows.
+- Scheduler exact-ID peek: task `6aa1fe0de5e48191b886496095b1343f` remains enabled and unchanged at its original hourly :00 America/New_York schedule. Same current run ID `ae26ac1e-e404-832c-acb3-ae2c16149084` reported start `19:56:58.917418Z` in the earlier snapshot and `20:24:29.364804Z` in the later exact-ID peek (+27m30.447386s). Status IN_PROGRESS; completion/chat_ref null; latest_result still prior h810:s0 Ariadne. Observation only; no cause inferred; Tern retains scheduler authority.
+- [Morrow scheduler observation note](2026-11-13T2024Z_H812_S0_SCHEDULER_START_FIELD_REWRITE_NOTE.md) was routed to Tern's existing inbox as repository-only context.
+- Existing Morrow → Kestrel h816:s0 packet was updated in place and Kestrel inbox pointer amended; no duplicate handoff. No direct chat delivery, consumption, acknowledgment, or response obligation claimed.
+- No theory integration, physical calculation, fit, prediction, CODATA scoring, equation correction, paper-gate advancement, or BEDROCK promotion.
