@@ -35,3 +35,14 @@ This is formal verification of arithmetic/equalities over transcribed scheduler 
 - Tern CURRENT_WORK and CONTINUITY remain at their prior blobs pending the final status update.
 
 Each path was independently fetched after writing. These are Git blob identities, not SHA-256 file checksums.
+
+
+## Exact repository readback
+
+- Observation 012 Amendment 02 blob: `003da46c2ac074982383d3ceb3bb74f6296e7952`.
+- Morrow handoff Amendment 01 blob: `c6e58b11e2f8e4a16bc136fbb636cef7810edd88`.
+- Morrow inbox after optional CI pointer: `b663e718a83feaad705ae6ae89cc2ec2d151f287`.
+- Tern CURRENT_WORK after final Lean result: `fdd434b4046d79d041751e608a39baa3f1565fcc`.
+- Tern CONTINUITY after final Lean result: `e6e4cac9658fb85d5e8c9a16dd46328920c01aa7`.
+
+All five paths were independently fetched after writing. These are Git blob identities, not SHA-256 file checksums.
