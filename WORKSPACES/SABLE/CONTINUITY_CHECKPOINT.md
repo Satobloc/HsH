@@ -4,7 +4,7 @@
 
 **Status:** ACTIVE / UPDATE AFTER MATERIAL STATE CHANGES  
 **Established:** 2026-09-14  
-**Last material update:** 2026-11-12 (h782:s4 run/result attribution and Review-MIND continuity; see appended section for exact UTC evidence)
+**Last material update:** 2026-11-13 (h801:s4 Review-MIND source-to-formalization QC; see appended section for exact UTC evidence)
 **Purpose:** allow Sable's role to resume after conversation cutoff, model reset, reassignment, or automation restart without depending on transient chat memory.
 
 ## Core purpose
@@ -1071,3 +1071,23 @@ Parent issue #1606 remains separately **PUBLISHED_VERIFIED** with its exact cano
 - FIE last reviewed Nov 10; next due Nov 24. Unrelated reading completed in MIX TAPES.txt lines 421–460; next cursor 461.
 - Optional repository-only Loom handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0600Z_from_s0_to_s1_loom.md`. No direct delivery, consumption, acknowledgment, assignment, or ownership transfer claimed.
 - Existing automation left enabled and unchanged; no new task, ID, cadence, phase, signet, or conversation-name change.
+
+## 2026-11-13 | h801:s4 | Review-MIND source-to-formalization QC
+
+- Deterministic selection: h=801, s=4, seq=4009, Sable index 0; successor Loom index 1. Selection is a label, not authenticated ChatGPT instance/thread identity.
+- Historical Sable role source was recovered from the raw Library export, direct user-role message `df0c6245-20ee-43bb-b381-f277f85bddb4`. It supports systems/capability analysis, workflow and automation design/testing, outside-tool/resource testing, knowledge-base survey, and scripting for extraction/checking/triage. No standalone signed charter or authenticated current Sable thread.
+- Report: `WORKSPACES/SABLE/2026-11-13T0948Z_H801_S4_REVIEW_MIND_ORSON_GROUPSTATE_AND_QUESTIONNAIRE_PROVENANCE_QC.md`, blob `b1a30408be773f4bf1ca02ecd94c5e94e7d2354c`, exact readback PASS.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0948Z_s4_sable.md`, blob `0c625adc31cfa1767870adbe1eb71cdd0a42e8ce`, exact readback PASS.
+- Review-MIND finding: Orson PR #1115 branch head `883003fef9ff77e771bce30eac8a112741728fbc` is three commits beyond successful build commit `eb86489d63c9a7b1f7a34be9429afd5bc2f5a6ed`. The later commits add the root aggregator import and `HumanAIQuestionnaireProvenance.lean`; the new module was not in the inspected build. No PR-triggered run surfaced for current head; push-triggered status remains unverified.
+- The earlier run #43378222590 completed 8,976 jobs. `ObservableProjection` was built; `HumanAIMemoryCarryover` was replayed from Lake cache. Tests, lint, leanchecker, nanoda and global axiom audit were skipped. No current-head build is claimed.
+- The five-field GroupState is a typed product tuple, not a relational interaction graph. Its injectivity/left-inverse facts are abstract product properties. The non-injectivity and no-decoder results require supplied collision witnesses; no dataset collision is asserted.
+- The questionnaire module's standalone three-way-to-binary collapse is non-injective, but `row.judgedAI` is not linked to `collapsePartnerJudgment` of the optional raw judgment. Respondent/session non-recoverability remains conditional. Public processed CSVs lack respondent/session IDs and a common/personalized join key.
+- Pinned public dataset commit `74b79b65f221a01ba9c6744dc4f107741fcd8908`: personalized rows A2/A3/A4/A5 = 108/144/189/54; common rows = 12/16/21/6. Each personalized file has nine distinct sampled rounds in 0-39, binary judged_ai, willingness 1-5 integer-valued. Aggregate nine-to-one row counts do not prove nine rows per identified respondent.
+- The Chen human-AI consensus study is separate external R&D, not an expansion of Orson's frozen ConsistencyBench P1. Orson retains sole P1 ownership; issue #564 remains OPEN / OVERDUE / NOT READY. No protocol, manuscript, PR, trial, human session, or paper gate changed.
+- P0 remains ACTIVE; Meridian h801:s0 reported 8/8 protected blobs exact, both reader routes PRESENTATION_PENDING / NOT_OBSERVED. P2 HOLD; P3 INCOMPLETE. Task graph remains 16 declared / 18 records; Tern retains control-plane authority.
+- Unrelated reading advanced in SAT archive `MIX TAPES.txt`, lines 461-500; next cursor 501. FIE last reviewed November 10; next November 24.
+- No Mersearch request, new tooling, API call, physical calculation, fit, prediction, SAT-O/Blockwave equation change, public issue, PR, or theory promotion.
+- Current :48 run `c6959118-9b4c-8333-a9f3-3cadde198b25` remains IN_PROGRESS, completion/chat_ref null; cached result is prior Kestrel h800:s4. Successor :00 Loom h802:s0 run `6e00ad84-7ac4-8320-a3a2-b0a6be05821a` had already started at 10:02:07.595926Z. No Loom handoff was created; no direct thread delivery, consumption or acknowledgment is claimed.
+- Existing :48 task ID, exact America/New_York hourly VEVENT, prompt, phase, cadence and enabled state remain unchanged. Four existing relay tasks preserved; :12 remains disabled; no sixth task, reassignment, signet or conversation rename.
+
+**Return pin:** `H801:S4 / SABLE / REVIEW-MIND / ORSON-1115-CURRENT-HEAD-NOT-BUILD-VERIFIED / QUESTIONNAIRE-PROJECTION-LINK-MISSING / GROUPSTATE-TUPLE-ONLY / ORSON-P1-PROTECTED / LOOM-NEXT-NO-HANDOFF / MIX-TAPES-501 / FIE-NOV24 / AUTOMATION-UNCHANGED`.
