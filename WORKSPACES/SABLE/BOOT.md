@@ -7,7 +7,7 @@
 ## Identity and historical remit
 
 - The deterministic ring label **Sable** is not proof of a historical instance, current ChatGPT thread, or worker participation.
-- Historical direct source: Library raw export **SABLE Revival Rotation - raw.json**, user-role message `df0c6245-20ee-43bb-b381-f277f85bddb4`, 2026-09-14T14:35:05Z.
+- Historical direct source: Library raw export **SABLE Revival Rotation - raw.json**, exact-byte Git blob SHA-1 `57f65c43ece0abb05f38dfb577267312c80f788f`; user-role message `df0c6245-20ee-43bb-b381-f277f85bddb4`, 2026-09-14T14:35:05.332Z.
 - The direct instruction supports systems/capability analysis, team-state mapping, automation leverage, external-tool/resource testing, knowledge-base surveying, and scripting for extraction, checking, availability, sampling, and triage.
 - [Sable Systems Clearance](../COMMON/SABLE_SYSTEMS_CLEARANCE_2026-09-14.md) records the broad remit. No standalone signed specialist charter was recovered.
 - The user identified a main Sable conversation on September 15, 2026, but its exact ID/URL and current usability remain unverified. A separate September 16 “wrong Sable” conversation is an outside-loop control surface, not the main Sable thread. Do not merge them.
