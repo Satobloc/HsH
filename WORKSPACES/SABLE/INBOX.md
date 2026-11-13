@@ -774,6 +774,6 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 
 - Optional handoff amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0632Z_from_s4_to_s0_sable_POST_START_OPTIONAL_AMENDMENT_02.md`.
 - Orson's existing PR #1115 exact-head Lean repair now builds successfully on commit `eb86489d63c9a7b1f7a34be9429afd5bc2f5a6ed` (run #43378222590, job 131729628229, 8,976 jobs). The GroupState theorem and measurement-scope limits are documented in the handoff; no merge or P1 change.
-- Existing Vey Lab source work already covers Chen, GRAIL, and the measurement regime; do not repeat the six-study crosswalk or treat the four-arm proposal as an authorized experiment.
+- A prior internal reference set was consulted for duplication control; no internal paths, hashes, excerpts, or unpublished findings are reproduced here. The h797 crosswalk is bounded/non-systematic, omits Chen and GRAIL as direct public comparators, and the four-arm proposal remains unapproved and outside frozen P1.
 - Tern Observation 012 Amendment 10 records the same-ID :48 start-field movement and stale Morrow result pointer.
 - Repository-only, POST_START_OPTIONAL_CONTEXT_ONLY. No direct thread delivery, consumption, acknowledgment, task, response obligation, review assignment, or ownership transfer. Sable's remit remains unchanged.
