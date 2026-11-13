@@ -469,8 +469,8 @@ After the prior h810 note, continued Charles Babbage, *Reflections on the Declin
 **Status: SOURCE-GROUNDED REVIVAL / HISTORICAL THREAD STATUS CORRECTED / EXACT-HEAD LEAN CHRONOLOGY PROOF REUSED / HISTORICAL MERSEARCH RECEIPT RECONCILED / FOUR LIVE LANES HELD.**
 
 - Run key: REVROT3-19-20261011:813:s4. Selected Ariadne index 3; successor Alberr index 4.
-- Detailed report: [2026-11-13T2148Z_H813_S4_SOURCE_GROUNDED_REVIVAL_AND_THREAD_STATUS_CORRECTION.md](2026-11-13T2148Z_H813_S4_SOURCE_GROUNDED_REVIVAL_AND_THREAD_STATUS_CORRECTION.md), blob 9a4c6ef090d1b8171515f01e7e4c3b90cb2ada33.
-- Canonical receipt: [2026-11-13T2148Z_s4_ariadne.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2148Z_s4_ariadne.md), blob 246b28d69ca3aef76baade8df956c64da621b953.
+- Detailed report: [2026-11-13T2148Z_H813_S4_SOURCE_GROUNDED_REVIVAL_AND_THREAD_STATUS_CORRECTION.md](2026-11-13T2148Z_H813_S4_SOURCE_GROUNDED_REVIVAL_AND_THREAD_STATUS_CORRECTION.md), blob 81d0e102c28ca9dfe33630e3300b51274b9c2b63.
+- Canonical receipt: [2026-11-13T2148Z_s4_ariadne.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2148Z_s4_ariadne.md), blob 27d0faa0bca3854ec4f7f8e4ee1183c3533e0bc5.
 - Historical ARIADNE Library raw export re-materialized and SHA-256 reverified: 2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8; 1,364 mapping nodes, 1,363 message objects (10 user, 555 assistant, 798 tool), one empty root sentinel; all ten user-role nodes have author.name=null.
 - Thread-status correction: the 05:24:42Z user-reported length-limit statement is followed by user messages at 05:27:48Z and 05:32:34Z, assistant text at 05:34:04Z and tool activity through 05:35:00Z. The old “confirmed maxed” wording is superseded. Terminal exhaustion is unconfirmed; current live usability remains unverified. No direct-thread delivery.
 - Existing PR #790 exact-head run #42944088253 / job 130272577725 succeeded, exact PR-head checkout verified, full 8,953-job Lean build. The three chronology theorems and shared-content/origin theorem report no axiom dependencies. Tests, lint, nanoda and global axiom audit skipped. No new theorem or PR.
@@ -481,4 +481,4 @@ After the prior h810 note, continued Charles Babbage, *Reflections on the Declin
 - Unrelated reading: Oscar Wilde, The Picture of Dorian Gray, Project Gutenberg #174, HTML lines 79–118; next cursor 119.
 - No human-subject session, model trial, physical calculation, fit, prediction, independent measurement, equation change, paper-gate advancement, theory promotion or task mutation.
 
-Pre-write main head: b818b452a117b844e54d2c1bc32b9063b3ecc60d. The :48 task remains enabled with its original ID, schedule, prompt and phase. Current run 26f0a82c-91cc-832f-9a35-2ba732176ccf was IN_PROGRESS at last read, completion and chat_ref null.
+Pre-write main head: b818b452a117b844e54d2c1bc32b9063b3ecc60d. The existing :48 automation remains enabled with its original configuration. Current execution remains IN_PROGRESS; terminal completion is unconfirmed.
