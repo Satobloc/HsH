@@ -36,7 +36,7 @@ def radialGraph (r : DirectionS3 → ℝ) (n : DirectionS3 → DirectionS3)
   r ω • (n ω).val
 
 /-- Radial projection of a nonzero vector to its unit direction. -/
-def radialProjection (x : EuclideanSpace ℝ (Fin 4)) : EuclideanSpace ℝ (Fin 4) :=
+noncomputable def radialProjection (x : EuclideanSpace ℝ (Fin 4)) : EuclideanSpace ℝ (Fin 4) :=
   ‖x‖⁻¹ • x
 
 /-- A positive radial graph point has norm equal to its radial coordinate. -/
@@ -70,15 +70,11 @@ theorem radialGraph_injective
 
 /-- The domain is bijective with the set-theoretic image of its radial graph.
     This is not a topological homeomorphism. -/
-def radialGraphEquivRange
+noncomputable def radialGraphEquivRange
     (r : DirectionS3 → ℝ) (n : DirectionS3 → DirectionS3)
     (hr : ∀ ω, 0 < r ω) (hn : Function.Injective n) :
-    DirectionS3 ≃ Set.range (radialGraph r n) := by
-  let f : DirectionS3 → Set.range (radialGraph r n) :=
-    fun ω => ⟨radialGraph r n ω, ⟨ω, rfl⟩⟩
-  exact Equiv.ofInjective f (by
-    intro a b hab
-    exact radialGraph_injective r n hr hn (congrArg Subtype.val hab))
+    DirectionS3 ≃ Set.range (radialGraph r n) :=
+  Equiv.ofInjective (radialGraph r n) (radialGraph_injective r n hr hn)
 
 #print axioms norm_radialGraph
 #print axioms radialProjection_recovers_direction
