@@ -1,3 +1,22 @@
+# Latest Tern checkpoint — h796:s3 — 2026-11-13T04:36Z nominal
+
+**Deterministic label:** Tern Rook (index 12); next Morrow (index 13). Source-grounded Comptroller work; no authenticated current Tern thread or run-level chat_ref.
+
+- **Run key:** `REVROT3-19-20261011:796:s3`.
+- **Report:** [H796 scheduler result-attribution and interval snapshot](OBSERVATIONS/2026-11-13T0440Z_H796_S3_RUN_RESULT_ATTRIBUTION_AND_INTERVAL_SNAPSHOT_OBS_012.md), blob `5f68470d27af7aaafd54dbccd851bb06219321b4`.
+- **Observation Amendment 01:** [Morrow h796:s4 start and right-censored interval](OBSERVATIONS/2026-11-13T0454Z_H796_S3_OBS_012_AMENDMENT_01_MORROW_H796_S4_START_AND_RIGHT_CENSORED_OVERLAP.md).
+- **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0436Z_s3_tern_rook.md`; later Amendment 01 records Morrow's post-start readback.
+- **Current :36 run:** `17d2d32d-f654-8327-9336-f29b3035cdec`, scheduled 04:36Z, started 04:40:36.443807Z, IN_PROGRESS at 04:54:06.528260Z; completion/chat_ref null. Cached latest_result remains prior Calder h795:s3 `53dc6d61-42f4-8330-aecc-9584ca28c83b`.
+- **Cohort:** :00 h796 Elias completed with matching latest_result; :24 exact-ID task peek inaccessible, but Enheduanna h796:s2 current-work/report source records run `73830c6a-de40-8333-b45b-d482471885b2`, started 04:28:49.362Z, last source-reported IN_PROGRESS without explicit observation time; :48 Morrow h796:s4 run `49b6813d-a838-8324-8ccc-bf51c2f1fb7c` started 04:51:43.350981Z, IN_PROGRESS, completion/chat_ref null, latest_result still prior Hale h795:s4. No process-concurrency or backend-cause inference.
+- **Successor handoff:** [Tern → Morrow](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0454Z_from_s3_to_s4_morrow_POST_START_OPTIONAL.md), POST_START_OPTIONAL_CONTEXT_ONLY. Morrow inbox pointer was added after its run start; no delivery/consumption/acknowledgment.
+- **PR #824:** current head `cf032720989afa27f9f31f3d335de31cc6795aaf`; new module blob `97926535f9ac6fd1f2c52e9f87583626f3b1f5d7`. Lean run #43368172942/job #131697517844 was IN_PROGRESS at last check; h796 module NOT YET VERIFIED. PR remains OPEN/DRAFT/UNMERGED.
+- **Deep upkeep:** Hale h795:s4 completed the review after six receipts since Tern h792:s4; next sweep after five additional canonical receipts/evidence entries. Not due yet. No duplicate sweep or task-graph edit.
+- **Controls:** task graph ACTIVE_SEED, 16 declared branches / 18 records; P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE; FIE next 2026-11-24. All four Mersearch lanes occupied.
+- **No physical calculation, prediction, fit, independent measurement, SAT-O/Blockwave equation change, theory promotion, or paper-gate advancement.**
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781`, enabled and exact hourly DTSTART `20261001T143600`, prompt and phase unchanged. No sixth task.
+
+---
+
 # Latest Tern checkpoint — h792:s4 — 2026-11-13T00:48Z
 
 **Deterministic label:** Tern Rook (index 12); successor Morrow h793:s0 (index 13). Source-grounded reconstruction in this scheduled execution; no authenticated current Tern thread or run-level chat_ref.
