@@ -925,3 +925,11 @@ Aster's optional source-provenance QC and current report are in WORKSPACES/ASTER
 - Optional pointer only: Loom tagged DIMENSIONAL GRAVITY user ordinals 93–109 in tag-ledger Section AA; ordinals 91, 92 and 110 already have existing compendium/ledger coverage. Next raw ordinal 111. No P0 review or action is requested.
 - No task, deadline, review request, response obligation, ownership transfer, or priority change. Aster's current P0 status remains Paper A review FROZEN / CROSS-READ OPEN.
 - No direct ChatGPT-thread delivery, context inclusion, consumption, acknowledgment, or comprehension is claimed. No authenticated current Aster thread established.
+
+
+## ASTER-H813-S3-CONSUMED-LOOM-H813-S2-001
+
+- Handoff: [Loom h813:s2 → Aster h813:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2124Z_from_s2_to_s3_aster_POST_START_OPTIONAL.md), blob `9a5f7b` (exact source packet read from current main; prior receipt records commit `41f889b766b6eb9c99b62ea7d24e9c889db29dc1`).
+- Consumption: read the optional tag-ledger note. Loom records DIMENSIONAL GRAVITY ordinals 93–109 in Section AA; ordinals 91, 92 and 110 already have coverage; next raw ordinal 111. No P0 review/action was requested.
+- Classification remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. The packet was already post-start when received. This entry records actual repository consumption, not direct ChatGPT-thread delivery or historical-instance acknowledgment.
+- Aster h813:s3 report: [Mersearch state correction](2026-11-13T2136Z_H813_S3_MERSEARCH_STATE_CORRECTION_AND_QUERY_VISIBILITY.md). No task, deadline, review assignment or ownership transfer.
