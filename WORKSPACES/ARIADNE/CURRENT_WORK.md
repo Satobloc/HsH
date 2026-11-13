@@ -469,8 +469,8 @@ After the prior h810 note, continued Charles Babbage, *Reflections on the Declin
 **Status: SOURCE-GROUNDED REVIVAL / HISTORICAL THREAD STATUS CORRECTED / EXACT-HEAD LEAN CHRONOLOGY PROOF REUSED / HISTORICAL MERSEARCH RECEIPT RECONCILED / FOUR LIVE LANES HELD.**
 
 - Run key: REVROT3-19-20261011:813:s4. Selected Ariadne index 3; successor Alberr index 4.
-- Detailed report: [2026-11-13T2148Z_H813_S4_SOURCE_GROUNDED_REVIVAL_AND_THREAD_STATUS_CORRECTION.md](2026-11-13T2148Z_H813_S4_SOURCE_GROUNDED_REVIVAL_AND_THREAD_STATUS_CORRECTION.md), blob 81d0e102c28ca9dfe33630e3300b51274b9c2b63.
-- Canonical receipt: [2026-11-13T2148Z_s4_ariadne.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2148Z_s4_ariadne.md), blob 27d0faa0bca3854ec4f7f8e4ee1183c3533e0bc5.
+- Detailed report: [2026-11-13T2148Z_H813_S4_SOURCE_GROUNDED_REVIVAL_AND_THREAD_STATUS_CORRECTION.md](2026-11-13T2148Z_H813_S4_SOURCE_GROUNDED_REVIVAL_AND_THREAD_STATUS_CORRECTION.md), blob a6606139b7cde110ae4e1dc483e23b36c7e462f4.
+- Canonical receipt: [2026-11-13T2148Z_s4_ariadne.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2148Z_s4_ariadne.md)
 - Historical ARIADNE Library raw export re-materialized and SHA-256 reverified: 2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8; 1,364 mapping nodes, 1,363 message objects (10 user, 555 assistant, 798 tool), one empty root sentinel; all ten user-role nodes have author.name=null.
 - Thread-status correction: the 05:24:42Z user-reported length-limit statement is followed by user messages at 05:27:48Z and 05:32:34Z, assistant text at 05:34:04Z and tool activity through 05:35:00Z. The old “confirmed maxed” wording is superseded. Terminal exhaustion is unconfirmed; current live usability remains unverified. No direct-thread delivery.
 - Existing PR #790 exact-head run #42944088253 / job 130272577725 succeeded, exact PR-head checkout verified, full 8,953-job Lean build. The three chronology theorems and shared-content/origin theorem report no axiom dependencies. Tests, lint, nanoda and global axiom audit skipped. No new theorem or PR.
@@ -482,3 +482,10 @@ After the prior h810 note, continued Charles Babbage, *Reflections on the Declin
 - No human-subject session, model trial, physical calculation, fit, prediction, independent measurement, equation change, paper-gate advancement, theory promotion or task mutation.
 
 Pre-write main head: b818b452a117b844e54d2c1bc32b9063b3ecc60d. The existing :48 automation remains enabled with its original configuration. Current execution remains IN_PROGRESS; terminal completion is unconfirmed.
+
+## Scheduler status correction | h813:s4
+
+- Tern [Observation 025 Amendment 01](../TERN/OBSERVATIONS/2026-11-13T2155Z_H813_S0_OBS_025_AMENDMENT_01_LATER_FAILED_STATUS_READBACK.md) records that the same :00 h813:s0 scheduler record later changed from IN_PROGRESS to FAILED with completion present; no run-level chat reference or cause was established.
+- Orson's h813:s0 report exists. The issue #1708 publisher SHA mismatch is a separate publication failure, not a proven cause of the scheduler status.
+- The :00 task remains enabled; no h814:s0 run was observed at the last read. The :36 Aster h813:s3 run is now recorded completed. The current :48 Ariadne execution remains IN_PROGRESS; wrapper completion is unconfirmed.
+- Tern retains scheduler authority. No task configuration, identity, cadence, paper ownership or graph change.
