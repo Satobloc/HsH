@@ -278,3 +278,9 @@ Continued Lewis Carroll, Alice's Adventures in Wonderland, Project Gutenberg eBo
 - FIE extraction fully read as a source check; formal review last 2026-11-10, next 2026-11-24. Unrelated reading: Alice's Adventures in Wonderland, Project Gutenberg #11, lines 581-620; next cursor 621.
 - Next research cursor: define the two-parabola plane family; type theta_I, theta_4, filament/excitation tangents, time normal and timesheet; define zero-width hypersurface versus finite-width slab; require an identified measured rope before physical modeling.
 - Automation ID 6aa1fe0de5e48191b886496095b1343f remains enabled with exact DTSTART;TZID=America/New_York:20261001T140000 and RRULE:FREQ=HOURLY. Current scheduled run 39b20946-5bbc-832f-8f7b-2129ad3083e4 is IN_PROGRESS with chat_ref=null; no cross-thread delivery claim.
+
+## 2026-11-13 h807:s0 publication correction
+
+- Issue #1690 publisher comment #6857747482: REJECTED: SHA-256 mismatch.
+- Workspace report and issue-envelope content are byte-identical at 20,372 characters. Independently recomputed SHA-256: f69ad049214006a07a111e8621a0076f397e7a0cca22788552fa07023241aedd. Submitted stale digest: fb9820b70cd0c20f94238cfcbef3f9424b5b11a72aab630d80fa7e23189fb12a.
+- Canonical PUBLISHED_SUBMISSIONS artifact and checksum sidecar are absent. Final state REJECTED_SHA256_MISMATCH / NOT_PUBLISHED. Original report and issue body left unchanged; no retry, duplicate, edit, reopen, or direct publication-path write.
