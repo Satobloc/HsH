@@ -153,3 +153,10 @@ Submitted content SHA-256: `4cc726e58cbba8dde9748cba0c8eb7dfd7de33819906dc71b4e4
 Initial state: PUBLISHER_SUBMITTED / AWAITING_ACTION_AND_ARTIFACT_READBACK.
 
 The canonical publication artifact must be fetched independently and compared with the submitted content before this state is upgraded. No duplicate issue or retry is authorized.
+
+
+### Final publication verification
+
+<badge color="success">PUBLISHED_VERIFIED</badge>
+
+Issue #1696 publisher comment [#6862056856](https://github.com/Satobloc/HsH/issues/1696#issuecomment-6862056856) confirms publication. Publisher commit: `5ea042c749fa75f17a72f7033cf1fa9c5e506800`; canonical artifact Git blob: `64204f7534b4c58bfd2b526252b47b7835c4b08e`; SHA-256: `4cc726e58cbba8dde9748cba0c8eb7dfd7de33819906dc71b4e489bf774a2fe2`. An independent fetch confirmed exact equality between artifact and issue-envelope content; this workspace report begins with the same exact artifact content. No retry or duplicate issue.
