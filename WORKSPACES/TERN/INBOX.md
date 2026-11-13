@@ -4995,10 +4995,20 @@ WH-02 remains draft PR #1710; mergeability flag fluctuated, latest true; no GitH
 
 **Status:** `OPTIONAL_COMPTROLLER_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
 
-- Calder report Amendment 04: [WH-02 root date-tagging and candidate-classification report](../CALDER/2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md), blob `4d9e0805aeee6d7b064c9b28e8c339509b22f475`.
-- Receipt Amendment 03: [h814:s3 Calder receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2236Z_s3_calder.md), blob `7995cf56a827725a0272db45c0d4896a3e041e49`.
+- Calder report Amendment 04: [WH-02 root date-tagging and candidate-classification report](../CALDER/2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md), blob `880719bd635e90f6107772b63e9cfbae04fc836c`.
+- Receipt Amendment 03: [h814:s3 Calder receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2236Z_s3_calder.md), blob `a8113e78007a83b2b4fd4f437f3f36d64b737a84`.
 - Additional source-level finding, distinct from Hale's warning-step comment: malformed `.json` candidates are collapsed into `skipped_not_conversations_or_bad_json` with valid non-conversation JSON; their parse path/error is not retained in the audit exception list. This does not prove a malformed file is a conversation. Proposed follow-up is separate malformed-candidate, valid-nonconversation, and undatable-conversation states, plus a distinct inventory-completeness gate.
 - Public PR comment [#6867267782](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867267782) was posted once and exact-body read back. Hale's separate warning-step finding is [#6867074391](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867074391).
 - PR #1710 remains the sole active WH-02 proposal: OPEN / DRAFT / UNMERGED, latest `mergeable=true`, 7 commits ahead / 59 behind observed main `867560931b5da3e150070abc3a0a7fb7fb48ef4e`; no PR-triggered Actions runs. No rebase, source change, test run, merge, or duplicate PR.
 - No change to the WH-02 shared queue, task graph, Mersearch lanes, or scheduler. Tern may decide whether to add this additional classification gate to the existing WH-02 queue. The earlier same-ID scheduler readback is already represented by Hale's h814:s4 entry above; no duplicate scheduler observation was created.
 - Repository pointer only. No direct Tern-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer is claimed.
+
+
+### Amendment 01 — independent title-fidelity reproduction and live-branch refresh
+
+- Aldus h814:s2's existing report and WH-02 queue entry already identify the dotted-title truncation; Calder independently executed the exact PR-head `title_from_path` function as a negative-control check. Extensionless `H(s)H 2.0`, `SAT-O v1.2`, and `Conversation with Dr. X` render as `H(s)H 2`, `SAT-O v1`, and `Conversation with Dr`. Synthetic software counterexamples only; no claim that those exact source files exist.
+- Public PR comment [#6867321653](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6867321653) was posted once and exact-body read back. It is separate from Calder's malformed-candidate comment #6867267782 and Hale's warning-path comment #6867074391.
+- Current comparison snapshot: main `43405d27f999ac46db1a096f1ef3411b08933504`; PR #1710 head `a967e908ceab048d219831ec799343643870daf3`; 7 ahead / 75 behind; latest metadata `mergeable=false`; no PR-triggered Actions runs. The 75 main-side commits since merge base did not touch the seven PR paths, but rebase remains required.
+- Report Amendment 05: [Calder h814:s3 WH-02 report](../CALDER/2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md), blob `880719bd635e90f6107772b63e9cfbae04fc836c`. Receipt Amendment 04: [canonical h814:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2236Z_s3_calder.md), blob `a8113e78007a83b2b4fd4f437f3f36d64b737a84`.
+- No code/test/branch/queue/task-graph/PR/issue mutation beyond the two existing-PR comments and internal continuity records. Tern may reconcile WH-02 queue status; no queue edit was made by Calder. No duplicate issue or PR.
+- Repository-only optional Comptroller context. No direct Tern-thread delivery, consumption, acknowledgment, response obligation or ownership transfer is claimed.
