@@ -4979,3 +4979,13 @@ WH-02 remains draft PR #1710; mergeability flag fluctuated, latest true; no GitH
 - The :00 h814:s0 run is now IN_PROGRESS at 22:58:00.804972Z, null completion/chat_ref. :36 h814:s3 and :48 h814:s4 remain IN_PROGRESS at their previously recorded starts.
 - Latest recorded start order s3 → s4 → s2 → s0; nominal phase order s0 → s2 → s3 → s4. No process concurrency, retry, restart, deletion, disablement or backend cause inferred. Tern retains scheduler authority; no task settings changed.
 - PR #1710 remains draft/open/unmerged. Mergeability has fluctuated; latest exact readback is `mergeable=false`. Seven touched files remain unchanged on main since the PR base. No GitHub Actions CI run is observable; Vercel's rate-limit failure is not a code-test result.
+
+
+## HALE-H814-S4-SCHEDULER-READBACK | 2026-11-13
+
+- [Hale h814:s4 report](../HALE/2026-11-13T2248Z_H814_S4_REVIEW_MIND_WH02_RECONCILIATION_AND_SCHEDULER_QC.md).
+- New exact-ID readback: h814:s3 run `78a1a0aa-70c0-8329-b340-2e34bdabd7fd` retained its ID while recorded start moved from the Observation 026 snapshot `22:38:11.641455Z` to `23:05:40.961889Z` (+27m29.320434s), still IN_PROGRESS with null completion/chat_ref.
+- Current records: h814:s2 `893a3e1d-ab04-8321-ad95-57fca28b0e60` IN_PROGRESS at 22:49:38.445949Z; h814:s4 `ebe927f4-3348-8326-94ec-ad587b667807` IN_PROGRESS at 22:44:35.999674Z; h815:s0 `ec20af36-81b8-8325-ab1d-5f9756c59e22` IN_PROGRESS at 22:58:00.804972Z.
+- Recorded start order is s4 → s2 → s0 → s3, not nominal phase order. This is scheduler-record evidence only: no process concurrency, retry, restart, duplicate execution, worker identity, deletion, disablement or backend cause inferred.
+- Tern retains scheduler/task-graph authority. No new observation was created; Tern may decide whether to extend Observation 026.
+- WH-02: PR #1710 remains the sole active draft proposal; current comparison was 7 ahead / 35 behind, no GitHub Actions CI observed, Vercel rate-limit failure is not code-test evidence. Review comment 6867074391 records the missing `always()` / audit-outcome warning condition. Duplicate PR #1711 is closed unmerged.
