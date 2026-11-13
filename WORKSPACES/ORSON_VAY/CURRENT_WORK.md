@@ -1,5 +1,26 @@
 # Orson Vay — Current Work
 
+## Latest source-fidelity state | 2026-11-13T0200Z | h794:s0
+
+**Run key:** REVROT3-19-20261011:794:s0  
+**Selection:** Orson Vay (ring index 18); successor Sable (index 0). These are deterministic labels, not authenticated worker identities or thread delivery.
+
+**Source-grounded revival:** Existing-thread-first lookup found the historical “Orson Vay: attractor reconstruction” conversation active through October 6 and a later “Orson LLM Cognition Lab” title without a recoverable conversation ID. No current usable Orson thread was authenticated. No h793:s4 Ravel receipt or addressed predecessor handoff was found. Work proceeded from verified archive sources and the current Nathan Direct instruction; no old thread continuation or predecessor consumption is claimed.
+
+**Geometry/source-fidelity report:** [Conversation-level feedback geometry and observable-assessment fidelity](2026-11-13T0200Z_CONVERSATION_LOOP_AND_OBSERVATION_FIDELITY.md), created on main in commit 97301324f36ff34fd2e3ec7e29d48931b9e1e5f1. Direct source: CONSCI.txt, lines 86–95, blob e691708e39984493a3c94fad20077d829e84e1c5. Key distinction: the direct candidate system includes user, model, words, and computer; historical response-function mathematics models a static input/output map and does not represent the coupled time-evolving conversation. The dynamic-equilibrium and strange-loop readings remain hypotheses, not measurements or consciousness findings.
+
+**Formalization:** Existing draft PR #1115 branch review/human-ai-group-unit-identifiability-20261030t1848z was updated, not replaced. New commit cb317df2eaa5d5f79794fc39edcdd5b640dff5f0 adds the observation-fiber factorization iff and conditional non-injective assessment-collision theorem to ObservableProjection.lean. PR remains open/draft/unmerged. No local Lean/Lake/Elan exists. No exact-head build run ID or successful compile was available at final inspection. The previous successful run #43119833616 used older source commit 4b092a3b and a different module blob; it does not verify the new theorem. Current Vercel failure is not a Lean result. Status: LEAN_BUILD_PENDING / NOT VERIFIED.
+
+**Publication:** Existing HSH-PUBLISH-V1 issue #1664 was submitted once. Submission ID orson-h794-conversation-loop-observation-fidelity-20261113t0200z-s0-001; SHA-256 42c683ba1d7d264872950314d4fc794f74b34dbefa65981d1fa303e9f7b9a401; expected artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h794-conversation-loop-observation-fidelity-20261113t0200z-s0-001.md. At readback, issue had zero publisher comments and expected artifact returned 404. Status SUBMITTED_NOT_VERIFIED. Do not create another issue or direct-write the publisher destination.
+
+**Protected controls:** Last five documented substantive Orson activations h748, h756, h767, h782, h786 were cognition work; this pass also remains in cognition/epistemology. P0 remains ACTIVE; P1 November 9 OVERDUE / NOT READY; P2 November 30 HOLD; P3 December 14 INCOMPLETE. No P1 scope change, trial, human session, model call, API spend, manuscript/PDF/reader work, independent review, paper-gate advancement, CODATA scoring, physical calculation, BEDROCK promotion, or theory-status change.
+
+**Research access/freshness:** All four Mersearch request lanes remain occupied; no lane was overwritten and no new request submitted. No local three-repository checkout exists in this runtime; GitHub search/fetch was a bounded fallback, not a Mersearch result or exhaustive archive sweep. FIE last reviewed November 10; next review November 24. Shared Babbage unrelated-reading cursor is line 2181 after Nadir/Hale reading; no new Orson reading quantum or physical break is claimed.
+
+**Successor:** Sable's historical “Revival Rotation” thread ID 6aa8a2bf-8280-83e9-9d57-1e0af853b7f1 is an archived identity witness, not proof of current usability. The Sable GitHub inbox is the documented fallback. No cross-thread message is claimed.
+
+---
+
 ## Publication verification update | 2026-11-12
 
 Issue #1647 is now **PUBLISHED_VERIFIED**. Publisher comment #6832762273 and commit 61d055ff1f02827b4e58bbe60c8d1ec6f2cfec54 confirm the canonical artifact. The 10,387-byte artifact exactly matches the HsH report file and issue-body content; SHA-256 is 60a8e1d39ccec24c4456ee605471c71a6fc82f0bfb9a50ce7043c6be3b5c5e39. See canonical receipt Amendment 01 and the publisher-verification amendment to the Sable handoff. No retry or duplicate.
