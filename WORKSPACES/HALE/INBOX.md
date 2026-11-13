@@ -794,3 +794,10 @@ Useful point: the core summary is derived from the PTV medium field, so same-run
 Han et al. (2026), DOI 10.1007/s00348-026-04256-5, is an additional P2 candidate only. Existing P2 issue #565 remains open, with no final system selected; Tern retains candidate/task-graph authority. No P2 assignment or review request is made.
 
 The exact-ID peek for the existing successor task returned no accessible record, so handoff timing is unverified. This is repository-only optional context; no direct thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed.
+
+
+## HALE-H795-S4-CALDER-HANDOFF-TIMING-AMENDMENT-001
+
+- Additive correction: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T0336Z_from_s3_to_s4_hale_AMENDMENT_01_POST_START_TIMING.md
+- Related receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0336Z_s3_calder_AMENDMENT_03_HALE_HANDOFF_POST_START_TIMING.md
+- Exact readback establishes that the original Calder-to-Hale handoff was created after the h795:s4 run had started. Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / READ_AFTER_START. Original packet preserved; no direct thread delivery or consumption-at-start claim.
