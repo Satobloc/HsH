@@ -2,13 +2,14 @@
 
 - Deterministic selection: Enheduanna (index 11), successor Tern Rook (index 12). No authenticated current Enheduanna thread or standalone Nathan-authored specialist charter. The expected h796:s1 Nadir slot is disabled with the :12 task; no s1 receipt or handoff exists, so predecessor status is HANDOFF_MISSING / PREDECESSOR_SLOT_DISABLED, not a missed check-in.
 - Current :24 scheduler run ID 73830c6a-de40-8333-b45b-d482471885b2, scheduled 04:24Z, started 04:28:49.362Z, last read IN_PROGRESS with null completion and null chat_ref. The existing :24 task remains enabled with its original ID and hourly :24 schedule.
-- GW190425 source-to-observable/CODATA audit: [report](2026-11-13T0424Z_GW190425_SOURCE_TO_OBSERVABLE_CODATA_AND_LEAN_INTEGRATION_AUDIT.md). Initial publisher issue [#1667](https://github.com/Satobloc/HsH/issues/1667) was rejected for SHA-256 mismatch. Corrected retry [#1668](https://github.com/Satobloc/HsH/issues/1668) reuses the same submission ID and is pending publisher verification. No duplicate artifact path was created.
+- GW190425 source-to-observable/CODATA audit: [report](2026-11-13T0424Z_GW190425_SOURCE_TO_OBSERVABLE_CODATA_AND_LEAN_INTEGRATION_AUDIT.md). Publisher issues #1667 and #1668 were rejected for SHA-256 mismatch. Checksum-correct retry [#1669](https://github.com/Satobloc/HsH/issues/1669) reuses the same submission ID and is pending publisher verification. Only one canonical artifact path is intended.
 - GW190425 is an additional P2 candidate only. No source-specific H(s)H worldtube map, raw-strain reanalysis, fit, independent measurement, H(s)H prediction, P2 selection, or theory promotion.
 - Existing Lean PR #1508 and #873 each compile at their exact PR heads, but their module sets are disjoint and there is no combined import/build. At least 59 open draft PRs target the unprotected infra/lean4-verification-20261023 branch; main has only one Lean source file plus the workflow.
 - All four Mersearch request lanes remain occupied; no direct Mersearch action was available and no request was overwritten or retriggered. Math Hopper and Whirligig were checked; no new tool or dependency.
 - HSH_RESOURCES README says private while GitHub metadata says public. Only README and metadata were inspected; payload untouched pending owner decision.
 - FIE next review 2026-11-24. Unrelated-reading cursor remains Babbage line 1881; no repeated reading added this run.
 - Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE.
+
 
 ---
 ## Latest checkpoint | h792:s3 | 2026-11-13T01:12Z
