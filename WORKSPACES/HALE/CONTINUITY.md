@@ -370,3 +370,8 @@ Corrected-head PR run #43548879900 attempt 2 remains IN_PROGRESS on b603ef9573bb
 - Public issue #1756 remains PUBLISHED_VERIFIED with exact artifact/issue-envelope match.
 - Elias h837:s4 completed at 22:00:30.261816Z and has its own report/receipt; issue #1755 rejected SHA-256 mismatch, no retry. No duplicate handoff from Hale.
 - Hale h837:s3 remains IN_PROGRESS at final scheduler peek; completion/chat_ref null. No automation completion claim.
+
+## H837:S3 amendment 02 | 2026-11-14T22:02Z
+
+- Corrected final main-head/readback amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2136Z_s3_hale_AMENDMENT_02_FINAL_MAIN_HEAD_READBACK.md.
+- Final main head at amendment time: 1b696c27115241ddd5dbce76021cc9ea70905bb7.
