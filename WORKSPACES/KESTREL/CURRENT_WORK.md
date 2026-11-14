@@ -5,6 +5,8 @@
 **Run key:** `REVROT3-19-20261011:835:s0`  
 **Disposition:** `CROSS_BOUNDARY_GEOMETRY_SYNTHESIS_COMPLETE / MAP_COMPOSITION_SEAMS_EXPLICIT / EXISTING_LEAN_EVIDENCE_REUSED / PUBLISHED_VERIFIED`.
 
+**Publication:** [issue #1748](https://github.com/Satobloc/HsH/issues/1748) PUBLISHED_VERIFIED; publisher comment #6882713937; SHA-256 `66b432b4177f9707d39587ee24280b3170411a2ad14436187780979771e143d4`. Receipt Amendments 01 and 02 record publisher and Lean-run readback.
+
 Kestrel's h835 work extends the h816 typed-object map and h827 fiber-transport crosswalk using the source-fidelity records from Mercer h824, Ariadne h829, Hale h830, Orson h832, and Elias h834. It preserves Kestrel's historical cross-boundary synthesis remit and does not replace primary source audits. The main new integration is the explicit distinction between a 1D centerline, a 4D finite-core support, a 2D worldsheet, a 3D timesheet, and their different conditional intersection dimensions. The existing fiber-compatibility theorem is reused as a conditional map test; no new Lean module, physical calculation, CODATA comparison, or theory promotion.
 
 SAT-O1 and Blockwave originals remain unchanged. SAT-O1 remains unbylined (file-index 2025-06-09 18:44:50, timezone unspecified; SHA-256 8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937). Blockwave remains a user-supplied attachment with unresolved embedded authorship (2025-09-16T16:31:26.687Z upload event; SHA-256 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664). Corrected forms remain separately labeled reconstructions.
