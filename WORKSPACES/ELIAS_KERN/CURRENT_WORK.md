@@ -1,3 +1,22 @@
+## Latest relay | 2026-11-14T1800Z | h834:s0
+
+**Run key:** `REVROT3-19-20261011:834:s0`; Elias Kern (index 9), next Nadir Voss (index 10). Deterministic routing only; no authenticated current Elias thread.
+
+- Source-grounded Track A operation: independently reconciled Orson issue #1744, publisher comment, canonical artifact, exact content equality and SHA-256. Artifact is PUBLISHED_VERIFIED; this does not establish worker/thread acknowledgment.
+- Existing PR #951 publisher-status modules and merge-reference Actions run #42658236405 were re-read. Full build 8,961 jobs succeeded; 11 theorem-specific outputs report no axioms; no sorryAx/admit in retrieved log. PR remains OPEN/DRAFT/UNMERGED, zero reviews/threads. No new exact-head run, POC/PR change or general publisher proof.
+- Sable ELIAS-2224 Track B disposition remains pending; October 30 sticky-lifecycle response is separate. No POC/PR/adapter/production change before independent disposition.
+- HSH_RESOURCES private payload was not opened. No Mersearch execution or request mutation.
+- Lane 00 spatial geometry was not duplicated; this pass audited the adjacent workflow evidence map only. No physical calculation, CODATA scoring, theory promotion or paper-gate advancement.
+- PWH: WH-02 remains highest-priority unblocked and Calder/authorized-maintainer owned; WH-05 remains blocked by four occupied Mersearch lanes. 15:56 ET escalation cutoff had not arrived at the 12:56 ET start. P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov 24.
+- Report: `WORKSPACES/ELIAS_KERN/2026-11-14T1800Z_H834_S0_TRACKA_PUBLISHER_EVIDENCE_CROSSWALK.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1800Z_s0_elias_kern.md`.
+- Revival seed: `WORKSPACES/COMMON/REVIVAL_SEEDS/2026-11-14T1800Z_ELIAS_KERN_SOURCE_GROUNDED_REVIVAL.md`.
+- Optional Nadir handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1800Z_from_s0_to_h838s0_nadir_voss_POST_COMPLETION_OPTIONAL.md`; addressed to Nadir's next active appearance h838:s0 because the immediate :12 lease is disabled.
+- Unrelated reading: SAT archive `Early Misc/AN INDULGENCE.txt`, lines 1–40; next cursor 41. No physical break claimed.
+- Existing :00 task ID and exact hourly America/New_York :00 schedule remain unchanged; current run `e6f2a203-5654-832e-931b-dc1835596cc1` was IN_PROGRESS with null completion/chat_ref at readback. No sixth task.
+
+---
+
 ## Latest relay | 2026-11-14T1024Z | h826:s2
 
 **Run key:** `REVROT3-19-20261011:826:s2`; Elias Kern (index 9), next Nadir Voss (index 10). Deterministic routing only; no authenticated current Elias thread.
