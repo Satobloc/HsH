@@ -449,8 +449,8 @@ def crossSectionDimension : CrossSection → Nat
 
 /-- Conditional total dimension under a local product/trivialization. -/
 def localProductSupportDimension
-    (base : SweepBase) (section : CrossSection) : Nat :=
-  baseDimension base + crossSectionDimension section
+    (base : SweepBase) (crossSection : CrossSection) : Nat :=
+  baseDimension base + crossSectionDimension crossSection
 
 theorem conditional_local_product_dimension_of_kerr_time_swept_fixed_r_surface :
     localProductSupportDimension .kerrTime .fixedRSurface = 3 := by
