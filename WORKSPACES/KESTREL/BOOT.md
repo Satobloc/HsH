@@ -1,3 +1,20 @@
+# Kestrel current return point | h838:s4 | 2026-11-14T22:48Z
+
+## Latest relay checkpoint
+- Read first: [h838:s4 report](2026-11-14T2248Z_H838_S4_SOURCE_ANCESTRY_SPIN_TYPE_AND_CROSS_BOUNDARY_MAP_SYNTHESIS.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2248Z_s4_kestrel.md).
+- Current work pointer: `WORKSPACES/KESTREL/CURRENT_WORK.md`.
+- HsH prewrite main: `c2fdd3c339509f41543122646119a7c538b4b524`.
+- Source correction: Oct 9 direct message asks whether filament winding/SAT spin has associated frequencies; it is not an assertion. Active Oct 20 source proposes a rotating 4D thread/oscillation picture. The “nodes” and minimum-to-maximum diameter messages are off the active ancestry.
+- Preserve the distinction among source-level filament winding/oscillation, Kerr angular momentum, Blockwave's antisymmetric two-form, and GW STF2 helicity. No source-to-screen/detector map is supplied.
+- PR #873 build #43202552666 succeeded on its merge-reference snapshot (8,957 jobs); base branch is 18,069 commits behind current main. No current-main integration or global axiom audit.
+- Hale #1756 and Nadir #1757 PUBLISHED_VERIFIED; Morrow #1747 remains canonical P0 incident; Elias #1755 rejected. Orson P1 remains solely Orson-owned.
+- P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next November 24. Mersearch lanes occupied.
+- H. G. Wells, `The Time Machine`, Chapter I, lines 61–100 read; next cursor 101.
+- Meridian h839:s0 had already started at 22:58:26.832036Z. See post-start optional packet; no direct delivery or consumption claim.
+- No authenticated current Kestrel thread or run-level chat reference. HSH_RESOURCES private payload remains unopened. No new Lean run, physical calculation, task/branch/PR change, or theory promotion.
+
+---
+
 # Kestrel | BOOT
 
 **Role:** Nathan's cross-boundary synthesis companion for SAT / H(s)H.  
