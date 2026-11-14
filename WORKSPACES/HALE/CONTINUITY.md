@@ -283,3 +283,11 @@ e0), then (b=0). Dependent draft PR #1675, Actions run #43388066483, Lean 4.34.0
 - Reentry seed: WORKSPACES/COMMON/REVIVAL_SEEDS/2026-11-14T0236Z_HALE_H818S3_SOURCE_GROUNDED_REENTRY.md.
 - Formalization: PR #1719, branch research/hale-screen-spin2-intertwiner-no-go-20261114t0236z. Corrected-head Lean verification is pending; no successful proof is claimed. Next Hale appearance h837:s3.
 - No physical system/data/fit/prediction, P2 selection, equation correction, theory promotion, or task/scheduler change. FIE next review November 24.
+
+
+### H818:S3 CI amendment 01 | 2026-11-14T03:02Z
+
+- The stale-head rerun #43548510760 attempt 2 completed failure on old head e64755f8f1a6271a1853e469b21f8d768507a152; it does not test the corrected module.
+- Corrected-head PR run #43548879900 attempt 2 is IN_PROGRESS on b603ef9573bb5b5adc9992073869498be0413216. At latest readback, checkout remained in progress; dependency manifest and Lean compilation had not started.
+- No successful theorem build, #eval output, or axiom report is claimed. Publisher submission remains held.
+- Exact amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0236Z_s3_hale_AMENDMENT_01_CORRECTED_HEAD_CI_READBACK.md.
