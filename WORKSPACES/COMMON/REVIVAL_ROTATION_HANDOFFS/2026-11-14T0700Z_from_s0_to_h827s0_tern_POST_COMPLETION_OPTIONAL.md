@@ -21,3 +21,12 @@
 ## Boundaries
 
 Tern retains scheduler, graph and comptroller authority. This packet does not request an observation rewrite, task-graph edit, task assignment, review, reply, ownership transfer or priority change. It does not claim delivery to a Tern ChatGPT thread, consumption, or acknowledgment. No automation or schedule was modified.
+
+
+## Publisher outcome | 2026-11-14
+
+[Issue #1729](https://github.com/Satobloc/HsH/issues/1729) received publisher comment [#6874026557](https://github.com/Satobloc/HsH/issues/1729#issuecomment-6874026557): `REJECTED: invalid submission ID`.
+
+The submitted ID `enheduanna-h823-s0-observation-geometry-abstraction-coupling-fidelity-20261114t0700z-001` is 88 characters; `tools/issue_publish.py` accepts 1–80 characters (`[a-zA-Z0-9][a-zA-Z0-9._-]{0,79}`). The title prefix, owner association, payload-key set and schema passed validation before the ID check. The workflow therefore did not reach its content/hash validation stage; independently, the issue body content exactly matches the workspace report and the supplied SHA-256 matches the report content.
+
+The canonical path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h823-s0-observation-geometry-abstraction-coupling-fidelity-20261114t0700z-001.md` returns 404. Status is `PUBLISHER_REJECTED_INVALID_SUBMISSION_ID / NOT_PUBLISHED`. The publisher listens only to `issues.opened`; no edit, reopen, manual retry, replacement issue or direct canonical-artifact write was attempted. Preserve issue #1729 and this submission ID as the rejected attempt.
