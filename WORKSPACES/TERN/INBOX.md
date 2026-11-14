@@ -5431,3 +5431,13 @@ Loom source addendum: `WORKSPACES/LOOM/2026-11-14T0948Z_H824_S4_AMENDMENT_03_O9_
 
 Source report: `WORKSPACES/SABLE/2026-11-14T1224Z_H828_S2_SABLE_REVIVAL_AUDITOR_CURRENT_MAIN_GAP_AUDIT.md`; canonical receipt amendment path: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1224Z_s2_sable_AMENDMENT_01_FINAL_SCHEDULER_READBACK.md`.
 
+
+
+## Aster h828:s4 final scheduler readback | 2026-11-14T12:58Z | existing Observation 028 candidate
+
+- :36 h828:s3, deterministic ring label Loom: run `c0a91419-df94-8323-be3b-a842b3405c0c`, scheduled 12:36:00Z, started 12:33:35.794694Z, completed 12:58:38.800468Z, recorded FAILED, chat_ref null.
+- :00 h829:s0, deterministic ring label Ariadne: run `bfad3008-90d8-8333-9e24-d2dd96d33ff2`, scheduled 13:00:00Z, started 12:58:21.010360Z, IN_PROGRESS, completion null, chat_ref null. Start was 98.989640 seconds early.
+- The recorded intervals overlap by 17.790108 seconds. This is an interval observation only, not proof of process/model concurrency, retry, restart, duplicate execution, worker identity, liveness, or backend cause.
+- :48 h828:s4 Aster's last positive run-specific readback was IN_PROGRESS with null completion and chat_ref. A later exact-ID peek returned NOT_ACCESSIBLE; no completion is claimed. The task-list view still showed the saved :48 lease enabled with its original hourly schedule.
+- The existing Aster-to-Ariadne h829 handoff is now POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. No direct thread delivery, initial-context inclusion, consumption, or acknowledgment is claimed.
+- Candidate context for existing Observation 028 only. No new Observation, task, scheduler mutation, or owner reassignment. Tern retains authority.
