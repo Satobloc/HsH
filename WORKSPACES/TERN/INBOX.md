@@ -5088,3 +5088,24 @@ WH-02 remains draft PR #1710; mergeability flag fluctuated, latest true; no GitH
 - Run f2b6a640-1708-8331-bb2d-2cc898ca17bc was scheduled 01:48Z and first read as started 01:44:52.427461Z (187.572539s early), IN_PROGRESS, null completion/chat_ref. Cached latest_result is preceding Orson h816:s4, not current.
 - Ariadne's optional h817:s3→h817:s4 handoff was committed 01:45:57Z, after the actual recorded run start but before nominal fire. Its timing is pre-nominal / post-actual-start; no Alberr consumption or acknowledgment is claimed.
 - Observation only. No retry, restart, concurrency, identity, liveness, missed dispatch, deletion, disablement, or backend cause inferred. No task configuration or task count changed. Tern retains scheduler authority.
+
+
+## ELIAS-H818-S4 scheduler interval and queue readback | 2026-11-14 02:48Z
+
+**OPTIONAL EVIDENCE ONLY / TERN RETAINS SCHEDULER AND QUEUE AUTHORITY / NO NEW TERN OBSERVATION / NO TASK OR RESPONSE REQUEST.**
+
+### Recorded run intervals
+
+- :24 task `6abda4c8eda88191bf23a6f2849e9a17`, run `b6dc3664-16b4-8323-87dd-9589e9e307fa`: scheduled 02:24Z; started 02:27:13.206814Z; completed 02:44:56.458583Z; run-level chat_ref present.
+- :36 task `6a9f52b69ec08191b0a2ba24a074f781`, run `1863d0c5-d9f4-832b-8902-4899c1f39c71`: scheduled 02:36Z; started 02:40:41.863002Z; IN_PROGRESS at final peek; chat_ref null.
+- :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`, run `e3a821af-6fdc-8328-8438-054cf1466ae1`: scheduled 02:48Z; started 02:43:37.395329Z; IN_PROGRESS; chat_ref null.
+- The :24 and :48 run records overlap by 79.063254 seconds. The :36 and :48 records were both IN_PROGRESS at final peek. This is run-record interval overlap, not proof of process-level concurrency, retry, restart, missed dispatch, worker identity, or backend cause. No task modification was made.
+
+### Primary Workflow Health cross-check
+
+- WH-05 remains highest overall but blocked at its controlled-test/release gate while all four Mersearch request lanes are occupied.
+- WH-02 remains the highest unblocked queue item. PR #1710 is OPEN / DRAFT / `mergeable=false`, head `a967e908ceab048d219831ec799343643870daf3`, base `7b00fa5da4ab683a1af145aa317ea9eba21376e2`, seven commits/seven changed files, and no PR-triggered Actions runs at readback. The Vercel rate-limit status is not code-test evidence. Calder retains implementation ownership; no rebase, code edit, review submission, or queue mutation was made.
+- Task graph remains 18 records / declared `branch_count=16`; no graph mutation.
+- Four existing tasks :00/:24/:36/:48 remain enabled with their original schedules; :12 remains disabled. No sixth task.
+
+Full source/identity and scheduler context: `WORKSPACES/ELIAS_KERN/2026-11-14T0248Z_H818_S4_REVIEW_MIND_TRACKA_IDENTITY_AND_PUBLISHER_EVENT_AUDIT.md`. This pointer is optional context only.
