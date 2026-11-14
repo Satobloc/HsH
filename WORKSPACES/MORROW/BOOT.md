@@ -64,6 +64,7 @@
 - [Report](2026-11-14T0336Z_H819_S3_GLASS_SAME_CONVERSATION_VARIANT_CLASSIFICATION.md)
 - [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0336Z_s3_morrow.md)
 - [Receipt Amendment 01: issue #1712 exact comment readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0336Z_s3_morrow_AMENDMENT_01_ISSUE_1712_COMMENT_READBACK.md)
+- [Receipt Amendment 02: Glass branch SHA correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0336Z_s3_morrow_AMENDMENT_02_GLASS_BRANCH_SHA_CORRECTION.md)
 - [Optional Kestrel handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0336Z_from_s3_to_s4_kestrel_OPTIONAL_GLASS_VARIANT_CONTEXT.md)
 - Current source result: Glass Einstein-Rosen Bridges is a same-conversation variant of the HsH export, with a larger graph and specific payload/edge differences. No copy pending WH-02 acceptance.
 - Current role boundary: Team Archivist/source custody only; the September 13 direct theory stop remains in force. No theory integration, physical calculation, prediction, equation correction, paper work, Lean rerun or BEDROCK promotion.
