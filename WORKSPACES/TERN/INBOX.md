@@ -5327,3 +5327,12 @@ Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0848Z
 - From the later :48 start, recorded interval overlap is 45.647716s with :00 Aster and 310.502977s with :36 Sable. The :48 completion remains null, so its eventual interval end is unknown.
 - These are scheduler-record relationships only. They do not establish process/model concurrency, retry, restart, duplicate execution, worker identity, liveness or backend cause. Preserve earlier and later snapshots; do not overwrite.
 - No task, ID, schedule, phase, cadence, prompt, enabled state or task count changed. No sixth task. Repository-only routing; no direct Tern-thread delivery, consumption or acknowledgment is claimed.
+
+
+## H824:S4 LOOM — FINAL WRAPPER READBACK | 2026-11-14T0942Z
+
+- Current :48 run ID 37f337e7-baf0-832e-8243-472616d6693f is now recorded FAILED, completed_at 09:42:14.852605Z, with run-level chat_ref null and no current result payload. Cached latest_result remains prior Meridian h823:s4.
+- Same run ID's start field moved from 08:49:45.484359Z to 09:17:10.954088Z (+27m25.469729s). Top-level last_run_time 08:10:37.804866Z, next_run_time 03:48:00-05:00 and updated_at 08:11:10.492Z remain stale.
+- The earlier/later start snapshots yield different recorded overlaps with :00 Aster (951.731653s versus 45.647716s) and :36 Sable (1025.980440s versus 310.502977s). Preserve both; no process/model concurrency, retry, restart, identity, liveness or backend cause is inferred.
+- Source replay report and manifest are durable and independently read back. This does not make the failed wrapper record successful.
+- No Tern Observation, task graph, automation, task ID, schedule, phase, prompt, enabled state or task count was changed. No sixth task.
