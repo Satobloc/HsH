@@ -767,3 +767,15 @@ The h807:s4 successor handoff was committed at 16:05:44Z, after Tern h808:s0 had
 - Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h823-s0-sweep-boundary-ci-verification-20261114t0700z-001.md` matches the workspace report byte-for-byte; Git blob `d1d45ed4d0060ede2c01364dec24e19ea6397b4d`, 6,284 characters.
 - Publisher commit `9d158a095178755244699df37c0a9bf1d1f4e16f`; SHA-256 `173b1a99800a8d6d0a73fef5947fc4c3e5ad2ca4c3e3b60df535fe4a3f52c554`.
 - Final addendum status: `PUBLISHED_VERIFIED`. The initial pending status in the h823 entry is historical and superseded. Base issue #1595 remains separately `ARTIFACT_PRESENT_AND_HASH_VERIFIED / PUBLISHER_COMMENT_MISSING`.
+
+
+## 2026-11-14T0700Z | h823:s0 same-key reentry | Lane00 source-fidelity audit
+
+- Additive report: `WORKSPACES/ENHEDUANNA/2026-11-14T0700Z_H823_S0_OBSERVATION_GEOMETRY_MATHEMATICS_COUPLING_SOURCE_FIDELITY.md` (SHA-256 `cf97ed0c076771ac047e38111cc69f7a8dfc63a9bd0296d22db87b1a1c9d54fb`, Git blob `7fa81016ebb46b96c2394fa5f840b843ad03ddbc`).
+- Publisher issue #1729 / submission `enheduanna-h823-s0-observation-geometry-abstraction-coupling-fidelity-20261114t0700z-001` was rejected with `invalid submission ID` (88 characters; publisher maximum 80). Canonical artifact absent. No retry, issue edit/reopen, duplicate or direct canonical write. Existing h823 issue #1728 remains PUBLISHED_VERIFIED and was not duplicated.
+- New source-fidelity result: the November 4–5 primary conversation defines a non-ontological observation → geometric representation → mathematical abstraction triad; coupling is coincidence or a specified relation, and mathematical decomposition must preserve admissible constraints. Existing fiber-factorization theorem in Kestrel PR #873 reused; no new Lean module.
+- Source-custody correction: `🧱BLOCKWAVE.txt` (blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`) traces to an assistant message dated 2025-10-19, not a September 16 user-supplied attachment. Separate Blockwave Extension and Ideal Model files remain distinct; no equations changed.
+- Nadir h819 optional handoff and its 06:48Z amendment were available before the later h823 start 07:29:33.911396Z; the amendment's POST_START label is inconsistent with its own timestamp. Consumed as PRE_START_OPTIONAL_CONTEXT_ONLY.
+- Scheduler run `f1e14d56-ef70-832b-9961-a35c35d1f987` remains IN_PROGRESS with null completion/chat_ref. Same-ID start field moved from 07:01:54.458309Z to 07:29:33.911396Z (+27m39.453087s). Latest result remains Meridian h820. Routed optional context to Tern h827:s0; no task or ownership transfer.
+- Babbage lines 463–502 were already recorded in the prior h823 receipt; no new reading quantum claimed. Next cursor remains line 503. FIE next review November 24.
+- No physical calculation, CODATA, theory promotion, BEDROCK change, task/ID/schedule/phase/cadence change or sixth task.
