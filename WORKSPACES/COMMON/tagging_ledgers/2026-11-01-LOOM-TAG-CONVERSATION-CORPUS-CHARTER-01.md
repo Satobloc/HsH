@@ -832,3 +832,17 @@ These statements may be reconcilable, but no source-defined conversion map, unit
 - Content: a language-discovery list followed by assistant-generated language-family classifications.
 - Tags: **LATERAL-READ**, **LANGUAGE-DISCOVERY-GAME**, **LANGUAGE-FAMILY-CLASSIFICATION**, **ASSISTANT-GENERATED-FACT-CLAIMS-UNVERIFIED**, **TRANSCRIPT-ONLY**, **TEXTUAL-SPEAKER-LABELS**, **NO-NATHAN-DIRECT-ATTRIBUTION**, **NOT-THEORY-EVIDENCE**.
 - The flattened transcript does not supply raw author-role metadata. The assistant's classifications were not independently fact-checked and are not attributed to Nathan.
+
+
+## AF — 2026-11-14 — Language-discovery game transcript, lines 1601–1640
+
+- **Read date / run:** 2026-11-14; Loom h832:s2, `REVROT3-19-20261011:832:s2`.
+- **Source:** HsH `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt`; duplicate SAT archive path `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`.
+- **Exact source identity:** both paths resolve to Git blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`. One transcript body, two custody locations.
+- **Read extent:** physical lines 1601–1640 inclusive (40 lines). Next cursor: 1641.
+- **Content:** continuation of a language-discovery game; a procedural clarification says the next “related language” should be related to the last language mentioned. Assistant-generated language-family/classification claims are unverified and were not independently checked.
+- **Source class:** flattened text transcript with textual “You said” / “ChatGPT said” labels. No raw `author.role`, message UUID, or original conversation timestamp is available for this segment. Do not promote textual labels into authenticated speaker attribution.
+- **Tags:** `LATERAL-READ`; `LANGUAGE-DISCOVERY-GAME`; `RELATED-LANGUAGE-CHAIN`; `RELATED-LANGUAGE-RULE-CLARIFICATION`; `ASSISTANT-GENERATED-FACT-CLAIMS-UNVERIFIED`; `TRANSCRIPT-ONLY`; `TEXTUAL-SPEAKER-LABELS`; `NO-NATHAN-DIRECT-ATTRIBUTION`; `NOT-THEORY-EVIDENCE`.
+- **Authorship / compendium:** no Nathan Verified Words Compendium entry. This segment is not a raw conversation mapping node; no Nathan/user-role authorship is established.
+- **Formalization triage:** the word “relative” has no operational definition here; no definite source-faithful theorem is available. No Lean target or new formalization was created.
+- **Chronology:** original conversation date unknown; do not infer it from the dump path.
