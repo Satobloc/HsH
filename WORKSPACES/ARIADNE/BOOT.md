@@ -1,3 +1,10 @@
+## Post-cutoff operational amendment | 2026-11-14T2056Z
+
+- WH-02's 20:56Z queue cutoff has passed while the item remains unresolved. It is now P1 / HIGH by the existing automatic escalation rule. This is separate from Orson's protected cognition P1 and does not override P0 or Nathan's protected P1 commitments.
+- PR #1710 remains OPEN / DRAFT / UNMERGED. Current-main comparison is 7 ahead / 1,384 behind; Calder/authorized maintainer retains rebase/code action; Tern retains queue coordination. See receipt amendment 01.
+- Reproducibility script: nist_point_mass_eq23_reconstruction.py.
+- The original h836:s3 source audit remains provisional pending independent review and Lean CI readback.
+
 ## Latest checkpoint | h836:s3 | 2026-11-14T2036Z
 
 - Report: [NIST point-mass Eq. (25)/(27) derivative audit](2026-11-14T2036Z_H836_S3_NIST_POINT_MASS_EQ25_EQ27_DERIVATIVE_AUDIT.md).
