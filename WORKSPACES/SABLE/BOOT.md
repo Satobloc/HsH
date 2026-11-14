@@ -2,7 +2,7 @@
 
 **Purpose:** compact role, authority, and continuity launch packet. Assistant-curated navigation, not a signed charter, identity proof, or theory authority.
 
-**Last prepared:** 2026-11-14 h824:s3 Amendment 01 (latest readback).
+**Last prepared:** 2026-11-14 h828:s2 (current-main auditor gap audit and scheduler cross-section).
 
 ## Identity and historical remit
 
@@ -33,17 +33,19 @@ Sable is selected through the fixed 19-identity ring, not a fixed automation. h8
 
 P0 remains ACTIVE, but the live [Code Grurple roster](../COMMON/CODE_GRURPLE_ROSTER.md) assigns Papers A+B presentation QA to Mercer and consolidation to Tern. The returning-instance pool is discretionary support only when a site-capable worker is actually available. No dedicated Sable P0 presentation-QA assignment is established by the live roster. Do not accept an incoming handoff's role label as an assignment unless the current roster and Nathan's authority support it.
 
-## Current continuity — h824:s3
+## Current continuity — h828:s2
 
-- Run key: `REVROT3-19-20261011:824:s3`; worker Sable (index 0), next Loom h824:s4 (index 1).
-- Current :36 lease: `6a9f52b69ec08191b0a2ba24a074f781`, enabled, exact saved hourly America/New_York :36 VEVENT unchanged.
-- Current run is scheduled 08:36:00Z and started 08:37:20.873379Z. It remains IN_PROGRESS with null completion and null run-level chat_ref.
-- Run ID changed between readbacks: 08:37:22Z `02b3ed6d-dc1f-8329-ac3e-d200d6370157`; 08:53:46Z `02b3ed6d-b180-8331-8ca1-ebb5622432ad`. Scheduled slot, start, status, completion and chat_ref remained unchanged. Classify `RUN_ID_CHANGED_SAME_SLOT_START`; preserve both IDs and infer no retry, restart, duplicate, concurrency or cause.
-- Task-level last_run_time/next_run_time/updated_at remain stale. Cached latest_result belongs to prior Kestrel h823:s3, not this Sable run. Match latest_result to both run_id and scheduled_for before treating it as current.
-- Existing :48 lease `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled and unchanged. Loom h824:s4 run `37f337e7-baf0-832e-8243-472616d6693f` started 08:49:45.484359Z; outgoing packet is POST_START_OPTIONAL_CONTEXT_ONLY.
-- No incoming h824:s2 handoff pointer was present in Sable INBOX. The main ordinary-Sable thread is historically identified, but current live usability is unverified; exact private ID is not copied here. No direct cross-thread delivery is claimed.
-- New architecture note: [projection/coarse-graining order test](2026-11-14T0836Z_H824_S3_PROJECTION_COARSE_GRAINING_ORDER_TEST.md), published intake [#1734](https://github.com/Satobloc/HsH/issues/1734), initially SUBMITTED_NOT_VERIFIED.
-- Unrelated reading: SAT archive `MIX TAPES.txt`, lines 621-660 read; next cursor **661**. FIE last reviewed November 10; next review November 24.
+- Run key: `REVROT3-19-20261011:828:s2`; worker Sable (ring index 0), next Loom h828:s3 (ring index 1).
+- Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` is enabled with exact saved VEVENT `DTSTART;TZID=America/New_York:20261001T142400 / RRULE:FREQ=HOURLY`; prompt and phase unchanged.
+- Current :24 run ID `b2ccfeac-f560-832f-830e-7311fbf76854`, scheduled 12:24:00Z, recorded start 12:47:25.846152Z, IN_PROGRESS, completion null, run-level chat_ref null. Cached latest_result is prior Kestrel h827:s2, not this run.
+- The next :36 lease `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact saved :36 VEVENT. Its h828:s3 run ID `c0a91419-df94-8323-be3b-a842b3405c0c` was scheduled 12:36:00Z and started 12:33:35.794694Z; it was already IN_PROGRESS before this h828:s2 handoff. Its cached latest_result is prior Meridian h827:s3. The cross-phase interval overlap is a scheduler-record observation only; no process-concurrency or backend-cause inference.
+- Current ordinary-Sable thread remains historically identified as `Revival Rotation`, but current usability is UNVERIFIED. Browser lookup was blocked by unavailable originating context. This is `REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN / LOOKUP_BLOCKED`, not historical-instance participation. No chat creation or cross-thread delivery.
+- New report: [h828:s2 revival-auditor current-main gap audit](2026-11-14T1224Z_H828_S2_SABLE_REVIVAL_AUDITOR_CURRENT_MAIN_GAP_AUDIT.md), blob `81da06546ba2766889e8d29bf49967fc00a7cf06`.
+- Main parser still fails the actual Kestrel unbulleted-bold receipt dialect; current main smoke workflow does not invoke the auditor or run on pull requests. Existing PR #1173 branch is 5 ahead / 11,885 behind and DIVERGED; no code/branch/PR change. Exact Python self-test and full-tree audit were not run.
+- Tern was notified through its existing INBOX about the :24/:36 cross-phase start-order record; Observation 028 itself was not modified. Loom h828:s3 received only post-start optional repository context; no task or response obligation.
+- Unrelated reading: SAT archive `MIX TAPES.txt`, lines 661–700 read; next cursor **701**. FIE last reviewed November 10; next review November 24.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. Task graph remains 18 records against declared branch_count 16; Tern owns correction. No physical calculation, CODATA comparison, H(s)H prediction, Lean build, or theory promotion.
+
 ## Evidence model: keep the channels separate
 
 For each automation peek, record one snapshot with an observation time. Do not collapse these fields:
