@@ -71,3 +71,10 @@ Unrelated reading completed: `SAT Mark V/TheTANGLE.txt`, lines 2001-2040. Next c
 **Next useful operation:** obtain an owner decision on the HSH_RESOURCES access class and designate an actually private location for the cross-repository event ledger. Until then, preserve the existing public aggregate and do not persist restricted run-level telemetry in HsH.
 
 **Publication:** not submitted. This is an internal source-custody/control finding, not a scientific result. No existing publisher trigger was invoked.
+
+
+## Amendment 01 — repetition check / existing S09 record
+
+The visibility mismatch is **not a new discovery**. The live [Phase Steering 2026-10-26](../COMMON/PHASE_STEERING_2026-10-26.md), blob `0ddce5ac7fade329f491927b5cbeb53d325f2d7a`, already records it under **S09 — Licenses / publication permissions**: HSH_RESOURCES is public in GitHub repository metadata despite older private/reference-only documentation, with an explicit legal/visibility review and urgent exposure check. S08 already owns the broader traffic/analytics and privacy-controlled collection programme.
+
+This run therefore confirms an existing S09 control item and documents its consequence for clone-ledger storage. It does **not** create a new issue, task, escalation, or competing privacy workstream. The existing S09 owner/review route remains authoritative; no visibility or licensing setting was changed. The report's original “identified” wording should be read as “confirmed by this bounded pass,” not “newly discovered.”
