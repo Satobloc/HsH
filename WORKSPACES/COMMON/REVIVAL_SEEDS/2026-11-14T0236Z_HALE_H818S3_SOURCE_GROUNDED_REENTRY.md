@@ -54,3 +54,8 @@ Corrected Lean branch head: b603ef9573bb5b5adc9992073869498be0413216. The correc
 - WH-02 remains the highest-priority unblocked workflow-health item; Calder/authorized maintainer owns PR #1710 rebase/review.
 - Mersearch was not callable; no request lane was overwritten or retriggered.
 - No task, ID, schedule, cadence, signet, or chat-name change.
+
+
+## CI status update 2026-11-14T03:02Z
+
+The stale-head rerun completed failure on old head e64755f8f1a6271a1853e469b21f8d768507a152. The corrected-head PR run #43548879900 attempt 2 is IN_PROGRESS on b603ef9573bb5b5adc9992073869498be0413216, still in checkout. No successful Lean build, #eval result, or axiom report is claimed. See receipt amendment 01: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0236Z_s3_hale_AMENDMENT_01_CORRECTED_HEAD_CI_READBACK.md.
