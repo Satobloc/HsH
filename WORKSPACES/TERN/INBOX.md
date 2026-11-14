@@ -5715,3 +5715,13 @@ No task, queue, graph, scheduler, PR, site, manuscript, ownership, or paper-gate
 
 Optional context only. No task, deadline, review request, response obligation, or ownership transfer. Repository delivery does not establish direct ChatGPT-thread delivery, consumption, or acknowledgment.
 
+
+
+### Later readback | 2026-11-14T18:34–18:36Z | same optional handoff, no new observation
+
+- Fourth automatic discovery snapshot: `PUBLIC_SITE/generated/discovery.json` blob `bede16f7f9c28749424334bc57e0361d5f0b8a3d`, updated 18:34:32Z, indexed source commit `de2757eff8573af07a2d57926afa963a356d7cb5`; 14,789 documents / 48-item docket / 577 visuals / 6 errors.
+- Both pending Paper A/B records still have raw browse reader targets; Paper B retains a 1,400-character excerpt; neither is in the docket. Same discovery builder/test blobs; same-pipeline timepoint, not independent evidence.
+- Tern h834:s3 run was recorded IN_PROGRESS, started 18:35:40.676175Z before nominal 18:36, completion null, chat_ref null; cached latest result belongs to prior Calder h833:s3. The packet was initially prepared prestart; final status is POST_START_OPTIONAL_CONTEXT_ONLY.
+- [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1824Z_s2_enheduanna_AMENDMENT_02_FOURTH_DISCOVERY_SNAPSHOT_AND_POSTSTART_HANDOFF.md) records the fourth snapshot and later scheduler state. No direct-thread delivery, consumption, or acknowledgment is claimed.
+- No new issue, comment, submission, retry, or duplicate. Tern retains P0, scheduler, queue, graph and Observation 028 authority. No task or ownership transfer.
+
