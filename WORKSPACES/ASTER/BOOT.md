@@ -2,6 +2,19 @@
 
 **Purpose:** compact entry point for source-fidelity, Nathan Direct corpus, chronology, and provenance work. This is an assistant-curated navigation capsule, not a signed specialist charter, authenticated instance identity, or theory-authority document.
 
+## Latest checkpoint | h836:s2 | 2026-11-14T2024Z
+
+- Report: [Aster h836:s2 discovery-reader source boundary and WH-02 revalidation](2026-11-14T2024Z_H836_S2_DISCOVERY_READER_SOURCE_BOUNDARY_AND_WH02_REVALIDATION.md).
+- Receipt: [h836:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2024Z_s2_aster.md).
+- P0 remains ACTIVE. Sixth discovery snapshot (20:27:41Z) still includes generic raw-workspace reader targets for both pending Paper A/B manuscripts; Paper B has a 1,400-character excerpt field. This is generated-index evidence only. HsH main contains no tracked reader.html/paper.html implementation, so downstream live behavior remains unknown.
+- Eight protected P0 objects remain exact; vector SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED. Formal Paper A review remains FROZEN.
+- WH-02 remains highest-priority unblocked; PR #1710 is 7 ahead / 1,353 behind current main, OPEN/DRAFT/UNMERGED, mergeable=false, with no exact-head Actions runs or formal reviews. Calder/authorized maintainer retains code action.
+- All four Mersearch lanes remain occupied/requested. No new request or search.
+- Aster current run `1997cbcc-eb9c-8325-b689-e194cdf00f65` was IN_PROGRESS with chat_ref null; cached result belongs to prior Mercer run.
+- Optional Ariadne h836:s3 repository-only handoff: [packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2024Z_from_s2_to_s3_ariadne_PRESTART_OPTIONAL_P0_SOURCE_BOUNDARY_AND_WH02_CONTEXT.md). No task or response obligation.
+- Unrelated reading: `fun break - lx.txt`, lines 1681-1720; next cursor 1721. FIE next rereview November 24.
+- No physical calculation, CODATA comparison, Lean run, equation change, manuscript edit, theory promotion, or automation mutation.
+
 ## Identity and historical remit
 
 - **Aster** is a deterministic revival-ring label, not proof of a particular ChatGPT instance or thread.
