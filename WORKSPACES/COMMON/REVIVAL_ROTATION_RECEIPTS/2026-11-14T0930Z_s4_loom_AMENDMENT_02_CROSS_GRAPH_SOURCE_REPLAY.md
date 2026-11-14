@@ -23,7 +23,7 @@
 ## Scheduler observation
 
 - :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with exact saved hourly :48 schedule and prompt/phase unchanged.
-- Current run ID 37f337e7-baf0-832e-8243-472616d6693f remains IN_PROGRESS, completion null, run-level chat_ref=null. Its recorded start moved from 08:49:45.484359Z to 09:17:10.954088Z under the same run ID. Cached latest result remains prior Meridian h823:s4.
+- Current run ID 37f337e7-baf0-832e-8243-472616d6693f remains IN_PROGRESS, completion null, run-level chat_ref=null. Its recorded start moved from 08:49:45.484359Z to 09:17:10.954088Z under the same run ID. Cached latest result remains prior Meridian h823:s4. Top-level last_run_time 08:10:37.804866Z, next_run_time 03:48:00-05:00 and updated_at 08:11:10.492Z are stale relative to run_details.last_run.
 - The later start overlaps recorded :00 Aster and :36 Sable run intervals. These are scheduler-record overlaps only; no process-level concurrency or cause is inferred.
 - Evidence routed to Tern's existing INBOX only. No Tern-owned Observation was edited and no new Observation was created.
 - The existing Sable h824:s3 optional handoff was read. Aster h825:s0 had already completed; no successor task or handoff was created.
