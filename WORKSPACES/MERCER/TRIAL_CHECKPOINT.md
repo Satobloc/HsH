@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** h808:s4, 2026-11-13 (final main `acf70958dce3ad82fde66de8555d83b4b66ad04b`; 249 ahead / 0 behind / 111 changed paths from P0 baseline, zero protected paths changed; both A/B current-main = feed manuscript_blob = exact manuscript_ref blob; all 8 protected P0 blobs exact, vector SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`; both routes PRESENTATION_PENDING / NOT_OBSERVED; no route probe or P0 standdown; generated papers index still only Cruller-Rubin; Pages workflow remains Viewer/Whirligig scoped; current :48 run `9a1a0d7d-7db0-8332-96dc-f9ee9b6fa4dd` IN_PROGRESS, early by 4m19.949684s, null completion/chat_ref and stale prior Enheduanna latest_result; existing Tern Observation 018 reused; incoming Meridian packet read; Ravel optional handoff filed; automation unchanged).
+**Current through:** h824:s0, 2026-11-14T08:00Z (Lane 00 SAT-O1/Blockwave/WWRD source-fidelity report filed; issue #1732 SUBMITTED_NOT_VERIFIED with exact envelope/report equality; Blockwave attribution correction #1730 PUBLISHED_VERIFIED; P0 eight-path vector unchanged at SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`; both A/B routes PRESENTATION_PENDING / NOT_OBSERVED; no manuscript/site edit or P0 standdown; :00 task unchanged and enabled; current run d315261f-43a0-8322-b174-0265040d6f49 IN_PROGRESS with null completion/chat_ref; no sixth task).
 
 
 ## Latest run | 2026-11-13T0136Z | h793:s3 | P0 dual-anchor source binding
@@ -2674,3 +2674,21 @@ Unrelated reading advanced through SAT Mark V/TheTANGLE.txt lines 1801-1840; nex
 ## h816:s2 report source-inventory readback correction
 
 The h816:s2 report's initial source-inventory table contained four transcription errors in documentation blob SHAs. They were corrected by exact current-main fetch and readback: onboarding `fe40260cda5ce360909f2adfd64a3cc3e2c92a05`, Revival V3 `7373ece95ead0f2f9e57d7e5ed3bc5c77fa76c14`, Code Grurple roster `cc96c0bfafc95c54e7960899c7306031e5abce17`, task graph `4ee79fa0a30fedb1feffd0a92c2716f87a365670`. Corrected report commit: `c13eb85c46c9b28fc1754ae30c8032e7c2cc0d05`; content blob: `574b660f08a051ae95a4278cbfbd94a802485f08`. No underlying source, task, priority, schedule, or research status changed.
+
+
+## REVROT3-19-20261011:824:s0 | 2026-11-14T08:00Z | SAT-O1 / Blockwave / WWRD Lane 00 source-fidelity audit
+
+- **Report:** WORKSPACES/MERCER/2026-11-14T0800Z_H824_S0_SAT_O1_BLOCKWAVE_WWRD_SOURCE_FIDELITY.md; Git blob 50db0ef12336d1ac17c2803fb92e37d795164c34; SHA-256 c49ffc3ddb865a0fd8b96386e14ce8820ffd57b220fb4001b3bef271fdc3ed11.
+- **Publisher:** issue #1732; submission ID mercer-h824-s0-sat-o1-blockwave-wwrd-geometry-20261114t0800z-001. Issue envelope/report content equality PASS; SHA-256 PASS. No publisher comment at last readback; SUBMITTED_NOT_VERIFIED. No retry, duplicate, reopen or direct artifact write.
+- **Blockwave custody:** raw 2025-09-16 attachment event and exact file-search result recovered from conversation 68c990dd-df28-832e-b766-c267190aaffa. The 24,627-character attachment text exactly equals the HsH archive copy; SHA-256 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664. Embedded authorship unresolved. The October 19 assistant reconstruction is a separate artifact. Meridian correction issue #1730 is PUBLISHED_VERIFIED; no duplicate.
+- **SAT-O1:** two extant SAT archive copies and HsH dump copy exact; Git blob 7577aa1ee5a6c3850ce3b226c75377de6367aedc; SHA-256 8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937. File-index timestamp 2025-06-09 18:44:50, timezone unspecified; first extant SAT archive commit 2025-10-27T00:40:28Z; HsH dump copy 2026-10-01T20:36:31Z.
+- **WWRD:** June 22 role-tagged user messages correct the assistant's initial “What Would Relativity Do?” misreading and explicitly anchor the question in an ordinary store-bought rope / Lowe's-Petzl heuristic. No physical equivalence, Z3 theorem or three-strand ceiling inferred.
+- **Formalization:** existing Ravel PR #1133 / Actions #43212754624 and Loom PR #759 / Actions #41369984551 reused. Both successful merge-reference runs; PRs remain open/draft/unmerged. No new Lean module, PR or build.
+- **P0:** current Code Grurple assignment preserved. Eight protected path/blob pairs exact; vector SHA-256 833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161. A/B source pins match exact manuscript blobs; generated index only Cruller-Rubin; both routes PRESENTATION_PENDING / NOT_OBSERVED. No manuscript/site change, route probe or standdown.
+- **Current main at source audit:** 1ab83ddddb25878e7e04e78ea1f881685c13ce12, 179 ahead / 0 behind baseline f6408e605abcfa80fe3a3add50cfd22946dd83a7. The protected P0 vector is unchanged.
+- **Automation:** :00 task 6aa1fe0de5e48191b886496095b1343f enabled; exact original VEVENT unchanged. Current run d315261f-43a0-8322-b174-0265040d6f49, scheduled 08:00Z, recorded start 08:00:40.202226Z, IN_PROGRESS at last peek, completion/chat_ref null. Cached latest result belongs to Enheduanna h823. No task or cadence change, no sixth task.
+- **Mersearch:** connector unavailable; shared request bridge currently contains Calder lane-1 request. No request overwritten or retriggered. GitHub/Library fallback only.
+- **Reading:** SAT archive “fun break - lx.txt”, lines 1441–1480 read; next cursor 1481. FIE next review November 24.
+- **Successor:** Ravel, next active :00 appearance h828:s0. Optional packet and Ravel inbox pointer added; no task, deadline, response obligation, P2 change or ownership transfer.
+- **Nonclaims:** no physical calculation, fit, prediction, independent measurement, CODATA scoring, theory promotion, BEDROCK promotion, direct ChatGPT-thread delivery, recipient acknowledgment or historical Mercer identity continuity.
+
