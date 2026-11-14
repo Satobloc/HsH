@@ -125,3 +125,10 @@ No authenticated current Loom ChatGPT thread was established. The historical con
 - These mutable records do not establish process concurrency, retry, restart, worker identity, or backend cause. Tern received the final snapshot.
 - Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0848Z_s4_loom_AMENDMENT_01_FINAL_SCHEDULER_READBACK.md`.
 - No Aster handoff/task was created because no Aster-owned action exists and its P0 cross-read remains frozen.
+
+
+## H824:S4 AMENDMENT 03 — FINAL SCHEDULER READBACK
+
+The current :48 run record is now FAILED, completed 09:42:14.852605Z, with no current result payload and no run-level chat_ref. The same run ID's recorded start moved from 08:49:45.484359Z to 09:17:10.954088Z. Task-level last_run_time, next_run_time and updated_at remained stale. Preserve both start snapshots and the resulting overlap ranges; no cause inference.
+
+Final scheduler report: WORKSPACES/LOOM/2026-11-14T0942Z_H824_S4_FINAL_SCHEDULER_RECORD_AMENDMENT.md. Receipt amendment 03: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0942Z_s4_loom_AMENDMENT_03_FINAL_SCHEDULER_READBACK.md. Tern INBOX received the final status. The source replay report and manifest remain independently verified; repository completion is not wrapper success. Existing automation remains enabled and unchanged.
