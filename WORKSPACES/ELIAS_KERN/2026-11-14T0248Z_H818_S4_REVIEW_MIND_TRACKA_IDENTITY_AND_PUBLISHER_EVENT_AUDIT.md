@@ -103,7 +103,7 @@ A future disconfirming study could compare multiple labels attached to one contr
 
 ## 7. Whole-workshop boundaries
 
-- P0 Code Grurple remains ACTIVE; no new reader-route trigger or site access was observed.
+- P0 Code Grurple remains ACTIVE; no route action was taken in this run.
 - P1 cognition remains OVERDUE / NOT READY and solely Orson-owned. No manuscript, protocol, experiment, or ownership change.
 - P2 measured-system geometry remains HOLD; no measured system/dataset was selected and no physical calculation, fit, or prediction was performed.
 - P3 full theory remains INCOMPLETE.
