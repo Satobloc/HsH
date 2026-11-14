@@ -2659,7 +2659,7 @@ Unrelated reading advanced through SAT Mark V/TheTANGLE.txt lines 1801-1840; nex
 
 ## REVROT3-19-20261011:816:s2 | 2026-11-14T00:24Z | P0 dual-anchor no-trigger revalidation
 
-- **Report:** `WORKSPACES/MERCER/2026-11-14T0024Z_H816_S2_P0_DUAL_ANCHOR_NO_TRIGGER_AND_WORKFLOW_HEALTH.md` (created in commit `3dfa30980d37e25dbea63095baf85fce47e7e7c3`).
+- **Report:** `WORKSPACES/MERCER/2026-11-14T0024Z_H816_S2_P0_DUAL_ANCHOR_NO_TRIGGER_AND_WORKFLOW_HEALTH.md` (created in commit `c13eb85c46c9b28fc1754ae30c8032e7c2cc0d05`).
 - **Optional successor packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0024Z_from_s2_to_s3_ravel_OPTIONAL.md` (created in commit `48721f0c098cbceb3ec7762ff4f57d24c9ea34b1`).
 - **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0024Z_s2_mercer.md` (created after this checkpoint update).
 - **Historical Mercer source:** conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, raw blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, Nathan user message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`. Historical :48 quantitative-theory remit remains source history; live Code Grurple roster controls this run's P0 Paper A/B QA-only assignment.
@@ -2669,3 +2669,8 @@ Unrelated reading advanced through SAT Mark V/TheTANGLE.txt lines 1801-1840; nex
 - **Scheduler:** :24 task `6abda4c8eda88191bf23a6f2849e9a17` enabled, exact original hourly America/New_York :24 VEVENT unchanged. Run `2129e6e0-f348-8321-a8b7-dd419e8eb0bd` scheduled 00:24Z, started 00:23:27.351076Z, IN_PROGRESS at readback, completion/chat_ref null; cached latest_result belongs to prior Enheduanna h815:s2. :12 remains disabled; no task mutation or sixth task.
 - **Reading:** SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 1401–1440; next cursor 1441. No physical break claimed. FIE next review November 24.
 - **Nonclaims:** no physical calculation, CODATA comparison, Lean build, new theorem, public issue, PR, manuscript/site edit, SAT-O/Blockwave equation change, theory promotion, direct ChatGPT-thread delivery, or historical Mercer identity continuity.
+
+
+## h816:s2 report source-inventory readback correction
+
+The h816:s2 report's initial source-inventory table contained four transcription errors in documentation blob SHAs. They were corrected by exact current-main fetch and readback: onboarding `fe40260cda5ce360909f2adfd64a3cc3e2c92a05`, Revival V3 `7373ece95ead0f2f9e57d7e5ed3bc5c77fa76c14`, Code Grurple roster `cc96c0bfafc95c54e7960899c7306031e5abce17`, task graph `4ee79fa0a30fedb1feffd0a92c2716f87a365670`. Corrected report commit: `c13eb85c46c9b28fc1754ae30c8032e7c2cc0d05`; content blob: `574b660f08a051ae95a4278cbfbd94a802485f08`. No underlying source, task, priority, schedule, or research status changed.
