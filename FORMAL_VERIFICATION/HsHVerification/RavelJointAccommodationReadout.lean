@@ -25,9 +25,19 @@ SHA-256 `b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba`.
   2026-09-07T07:46:38.573Z: choose a spatial Kerr section and extend it
   along the filament; do not use full 4D Kerr spacetime as the section.
 
-The HsH repository snapshot of this conversation is separately recorded
-as Git blob `c49367b0faa424491e7b3520a034b9e44fe6897f`; it is not assumed
-byte-identical to the Library export above.
+The full HsH snapshot in
+`DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.06•26.09.16•🎼 Ravel [H(s)H] Syncmathcek — raw (2).json`
+has Git blob `17cfe3feb830f70009557d063482b35adba0834b` and is byte-identical
+to the Library export above (12,408,770 bytes; SHA-256
+`b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba`).
+The earlier HsH snapshot in
+`DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.06•26.09.10•🎼 Ravel [H(s)H] Syncmathcek — raw.json`
+has Git blob `c49367b0faa424491e7b3520a034b9e44fe6897f` and is a shorter
+2026-09-06 to 2026-09-10 snapshot, not a mismatching copy of the full
+Library export. The two files are versioned snapshots of one conversation,
+not independent witnesses. Their first extant HsH commits are respectively
+2026-09-23T16:23:41Z (full snapshot) and 2026-09-12T13:25:11Z (shorter
+snapshot).
 
 ## Formal question
 
