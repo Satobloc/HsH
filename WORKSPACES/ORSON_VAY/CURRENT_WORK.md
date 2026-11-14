@@ -731,3 +731,10 @@ Publisher amendment: h820:s3 issue #1723 is now PUBLISHED_VERIFIED. See receipt 
 - Lean module staged on existing PR #850: `OrsonJointReliabilityBounds.lean`; corrected merge-reference run #43654855547 is in progress. No proof/build success claimed yet; exact-head standalone verification remains unestablished.
 - P1 remains OVERDUE / NOT READY. No manuscript or campaign gate advanced. FIE next November 24.
 
+
+
+### H839:s3 verification amendment (2026-11-14)
+
+- Public-safe note [P1 joint-reliability estimand compatibility and Fréchet bounds](https://github.com/Satobloc/HsH/issues/1763) is PUBLISHED_VERIFIED. Publisher comment #6886169066; artifact SHA-256 0b68ed8cedfa28ed92c6c3ba6fa4f8267a1536e3573bcf5de682406c5dabe2d9; exact issue-envelope/artifact content match independently confirmed.
+- PR #850 Lean module was corrected after run #43654855547 exposed duplicate noncomputable modifiers. Current branch head 776f5df7cad655dd9a7a8d99720a1db3e2347872; corrected merge-reference run #43655298253 is IN_PROGRESS at compile step. No build success or exact-head verification yet.
+- Sable h839:s4 optional repository packet and inbox pointer were committed at 23:50:10Z and 23:50:13Z, before the recorded :48 run start 23:51:52.508802Z. Classification: POST_NOMINAL_SLOT / PRESTART_RUN_START_VERIFIED / OPTIONAL_REPOSITORY_CONTEXT_ONLY. No direct thread delivery, consumption, or acknowledgment claimed.
