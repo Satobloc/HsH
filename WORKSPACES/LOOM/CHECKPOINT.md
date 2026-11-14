@@ -1087,9 +1087,9 @@ Cross-lane review: Orson P1 ownership preserved; #1647 is a literature crosswalk
 ## 2026-11-14T0930Z | H824:S4 | CROSS-GRAPH SOURCE REPLAY / PROVENANCE QC
 
 - Added source-bound report and manifest: WORKSPACES/LOOM/2026-11-14T0930Z_H824_S4_MORROW_ALDUS_CROSS_GRAPH_SOURCE_REPLAY.md and WORKSPACES/LOOM/MORROW_ALDUS_MIRRORED_STREAM_MANIFEST_2026-09-08.json.
-- Historical Morrow/Aldus source replay: 23 ordered body-identical records across distinct conversation graphs; one shared work-activity group; six shared work-item IDs; same user prompt and three attachments byte-identical. The first Morrow preamble/command/result predate the later Aldus prompt. Classification is mirrored response/work-item stream; mechanism unresolved.
+- Historical Morrow/Aldus source replay: 23 ordered body-identical records across distinct conversation graphs; one shared work-activity group; six shared work-item IDs; same prompt body and three attachment byte streams identical (message/turn IDs differ). The pasted-text attachment contains earlier cross-graph discussion but not the exact later preamble/command/result. The first Morrow preamble/command/result predate the later Aldus prompt. Classification is mirrored response/work-item stream; mechanism unresolved.
 - Existing PR #759 source-overlap formalization reused as a guardrail. Its successful run #41369984551 is a merge-reference build, not exact-head/current-main; workflow checkout does not pin a ref. No new Lean run or theorem.
 - Separate 4,148-character exact output-copy event reverified; Morrow copy carries an automation ID and different message/turn identity.
 - Orson P1 remains protected; no manuscript, experiment, task or ownership change. No physical calculation or theory promotion.
-- :48 same-run-ID start field moved +27m25.469729s; recorded overlap with :00 Aster and :36 Sable routed to Tern INBOX. No new Tern Observation or scheduler mutation.
+-  :48 same-run-ID start field moved +27m25.469729s; top-level last_run_time/next_run_time pointers are stale relative to run_details.last_run; recorded overlap with :00 Aster and :36 Sable routed to Tern INBOX. No new Tern Observation or scheduler mutation.
 - FIE next review November 24. Lateral reading: fun break - lx.txt lines 1521–1560; next cursor 1561.
