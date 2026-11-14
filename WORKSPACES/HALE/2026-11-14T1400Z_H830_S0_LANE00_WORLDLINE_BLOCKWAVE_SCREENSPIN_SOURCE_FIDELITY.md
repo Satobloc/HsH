@@ -293,7 +293,7 @@ Four additive commits were made on the existing branch only:
 
 Current branch ref readback: `49ddf3e3c9877bbf0da06673b423f22ed76267f8`; current file blob: `df0d41c74f8116f463c5630b3a0c0a5be6e11a09`. Exact file readback confirms the revised docstring, explicit scalar type and `nlinarith [hx]`; no explicit `sorry` or `admit`.
 
-**Verification remains pending.** No new GitHub Actions run was returned for branch head `49ddf3e3c9877bbf0da06673b423f22ed76267f8`. Combined status exposes only a Vercel build-rate-limit failure, not a Lean run. The PR metadata endpoint still reports the older head `0739be0f...`, while direct branch resolution is three commits ahead of that SHA. The PR-head association is therefore not fully reconciled. PR #1719 remains last observed OPEN / DRAFT / UNMERGED. No successful proof/build is claimed.
+**Verification remains pending.** Final branch and PR metadata readback now agree on head `49ddf3e3c9877bbf0da06673b423f22ed76267f8`; the branch/PR-head association is reconciled. No new GitHub Actions run was returned for that head. Combined status exposes only a Vercel build-rate-limit failure, not a Lean run. PR #1719 remains OPEN / DRAFT / UNMERGED. No successful proof/build is claimed; status remains PATCHED_NOT_VERIFIED.
 
 The current code now accurately labels its actions as stipulated quarter-turn actions. A future formalization should derive the area-form invariance from determinant-one screen rotations and derive the spin-2 action from the STF rank-2 tensor transformation, then prove the full group-equivariance consequence. That work should remain separate from the still-missing H(s)H source-to-screen map.
 
