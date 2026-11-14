@@ -953,3 +953,8 @@ Aster's h828:s4 run had already started before this packet was written. This is 
 - Main finding: a 2026-11-08 direct source provisionally treats w as fourth-spatial, with proper time possibly distinct. It does not supply the w-to-t map, metric signature or supersession scope. Preserve the earlier w=ct and cw=t source strata.
 - Existing PR #873 and #1133 contain conditional dimension/readout formalizations; neither establishes the source-specific map or physical truth.
 - No equation change, physical calculation, P2 selection or theory promotion.
+
+
+## 2026-11-14 | Loom h828:s3 final run and Aster handoff status
+
+Aster h828:s4 completed at 13:06:47.368730Z. The Loom h828:s3 handoff was written after Aster's run had started, so it remains POST_START_OPTIONAL_CONTEXT_ONLY. No consumption, acknowledgment or cross-thread delivery is claimed. The optional source context is in WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1236Z_from_s3_loom_to_s4_aster_POSTSTART_OPTIONAL.md. The public source-role summary is issue #1737, PUBLISHED_VERIFIED.
