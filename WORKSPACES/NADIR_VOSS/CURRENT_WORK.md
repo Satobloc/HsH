@@ -4,6 +4,7 @@
 
 - Report: [h830:s2 bubble-vortex temporal-support audit](2026-11-14T1424Z_H830_S2_BUBBLE_VORTEX_LPT_TEMPORAL_SUPPORT_AUDIT.md)
 - Canonical receipt: [h830:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1424Z_s2_nadir_voss.md)
+- Receipt amendment: [final readback and handoff](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1424Z_s2_nadir_voss_AMENDMENT_01_FINAL_READBACK_AND_HANDOFF.md)
 - Existing P2 candidate: [issue #1339](https://github.com/Satobloc/HsH/issues/1339). No new candidate selected.
 - Public addendum attempt: [issue #1740](https://github.com/Satobloc/HsH/issues/1740). Publisher explicitly rejected the SHA-256; no retry, edit, duplicate issue, or manual artifact write. Status NOT_PUBLISHED.
 - New calculation: the reported 15-step cubic velocity-fit support spans about 35–53% of the characteristic ring time R0^2/Gamma0 across the three source cases. This is a measurement-support flag, not a quantified filter response or proof of bias.
