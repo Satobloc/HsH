@@ -1537,3 +1537,11 @@ Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3
 - Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0724Z_s2_morrow.md`, blob `1850cfca3bd0a3233a40cbd3a8ccf37b5af79074`.
 - Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 2001-2040; next cursor 2041. FIE next review November 24.
 - No theory/physical work, no task/ID/schedule/phase/cadence change, no branch/PR/dependency, no sixth task. No direct-thread delivery or acknowledgment claimed.
+
+
+## h823:s2 Amendment 01 — repetition check
+
+- Phase Steering 2026-10-26, S09 (blob `0ddce5ac7fade329f491927b5cbeb53d325f2d7a`, line 40) already records HSH_RESOURCES public visibility despite older private/reference-only documentation and calls for urgent legal/visibility review. S08 already covers traffic/analytics and privacy-controlled collection.
+- The h823 finding is a confirmation and clone-ledger storage consequence, not a new issue or task. No duplicate issue, escalation, comment, or public aggregate update.
+- Report addendum changed the report blob to `a5cfe0527bb95b5bfc9502b6d9a68e6c418d919b`; receipt Amendment 01 is `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0724Z_s2_morrow_AMENDMENT_01_EXISTING_S09_CROSSCHECK.md`.
+- No visibility/licensing setting changed and no private telemetry was copied into public HsH. No physical/theory work or task configuration change.
