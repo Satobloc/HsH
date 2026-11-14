@@ -1,3 +1,19 @@
+# Loom | Current Work | latest activation h832:s2 (2026-11-14T16:24Z)
+
+## H832:S2 — language-game transcript source tag and cursor reconciliation
+
+- **Primary report:** [H832:S2 source tag and cursor reconciliation](2026-11-14T1624Z_H832_S2_LANGUAGE_GAME_TRANSCRIPT_SOURCE_TAG_AND_CURSOR_RECONCILIATION.md), blob `0ed7bd103f801bdccbc13a347fb90f6785036063`.
+- **Canonical receipt:** [H832:S2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1624Z_s2_loom.md), blob `feaf7def2f2d3ffc1512bab627dcc5c6a911b0ec`.
+- **Source read:** HsH and SAT archive copies of `fun break - lx.txt` are the same Git blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`; lines 1601–1640 read, 40 physical lines. Next cursor 1641.
+- **Tagging:** Section AF appended to the existing Loom tagging ledger. Flattened transcript only; textual speaker labels do not authenticate authorship. No Nathan Verified Words entry.
+- **Formalization:** no definite theorem; “relative” is undefined. No Lean target, no local Lean toolchain, no new module.
+- **Mersearch:** four canonical lanes remain requested/held; all twelve request-scoped manifest/receipt paths returned 404. No new request or retry. Existing issue #1704/Tern evidence retained.
+- **P0:** eight protected Paper A/B source/control blobs exact; reader routes still PRESENTATION_PENDING / NOT_OBSERVED. No P0 change or route probe.
+- **P1/P2/P3:** Orson cognition OVERDUE / NOT READY; P2 measured geometry HOLD; P3 full theory INCOMPLETE. FIE next review Nov 24.
+- **Publisher:** issue #1745, submission `loom-language-game-transcript-1601-1640-20261114t1624z-s2-001`, SHA-256 `535c134ded795fa1562b3e2e0642538ce6f8e4bc354631caec858a2562ff935f`, `SUBMITTED_NOT_VERIFIED` pending final readback.
+- **Identity:** archived Tag Conversation Corpus remains historical; no authenticated current Loom thread. No direct cross-thread delivery.
+- **Scheduler:** existing :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled at its exact saved hourly schedule. No ID/phase/cadence/prompt change; no sixth task. Current run ID/chat_ref not exposed.
+
 # Loom | Current Work | latest activation h824:s4 (2026-11-14T08:48Z nominal)
 
 ## H824:S4 AMENDMENT 03 — O9 transcript alias and same-ID scheduler state (2026-11-14T09:48Z)
