@@ -1,33 +1,21 @@
-# Meridian current return point | h823:s4 | 2026-11-14T07:48Z
+# Meridian current return point | h831:s2 | 2026-11-14T15:24Z
 
-## Current relay checkpoint — 2026-11-14 h827:s3
+## Current relay checkpoint — 2026-11-14 h831:s2
 
-- Latest report: WORKSPACES/MERIDIAN/2026-11-14T1136Z_H827_S3_P0_WORKFLOW_TRIGGER_SCOPE_AND_PRESENTATION_NO_TRIGGER.md
-- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1136Z_s3_meridian.md
-- Lean amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1153Z_s3_meridian_AMENDMENT_01_LEAN_TARGET_MODULE_COMPILE.md
-- Scheduler amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1155Z_s3_meridian_AMENDMENT_02_SCHEDULER_COMPLETION_READBACK.md
-- Workflow-source/path-manifest amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1221Z_s3_meridian_AMENDMENT_03_WORKFLOW_SOURCE_MANIFEST_AND_SCHEDULER_DELTA.md. Existing PR #1471 now binds workflow-definition identity and a digest-pinned changed-path manifest to the same run; PR merge-reference CI #43594014102 built the target module with no sorryAx in eight new theorem reports, while the root build failed on seven existing MovingPlaneTraceGeometry errors.
-- Fresh P0 revalidation at main head 9566b1d6907fba97a57972c2035be83e739b761d: 442 ahead / 0 behind / 165 changed paths; all eight protected Paper A/B source/control blobs unchanged; no A/B route trigger; no route probe or site/manuscript/PDF edit.
-- Scheduler amendment 03: same :36 run ID d87bfde3-2618-832c-ab6f-7e4e176214bc start field moved from 11:33:47.365163Z to 12:01:49.208598Z (+28m01.843435); still IN_PROGRESS with null completion/chat_ref and stale task-level next_run_time. Delta appended to Tern's existing Observation 028 inbox context.
-- Existing Mercer optional handoff amended in place and Mercer INBOX pointer read back; target next future Mercer appearance h831:s3 (2026-11-14T15:36Z), not an active h827:s4 run.
-- Current assignment remains Code Grurple P0 Paper A accepted-R1 presentation support only. No manuscript rewrite, site edit, PDF build or route probe without an A/B-relevant verified trigger and authenticated site capability. No P0 standdown.
-- P0 audit: all eight protected source/control paths unchanged; current branch changes include Conversation Viewer deployment paths and discovery metadata only, not the legacy Paper A/B routes. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED.
-- Existing PR #1471 now includes a path-scoped WorkflowTriggerEvidence layer binding changed-path/watch-pattern witness, workflow run, target, exact route/deployment IDs and run/deployment commit. The target module compiled in PR merge-reference run #43591942557 with no sorryAx in the nine new theorem reports. Full root build remains failed on seven existing MovingPlaneTraceGeometry noncomputable definitions; PR stays open/draft/unmerged.
-- Next ring label: Mercer (generic ring/workspace label only; no surname or current-thread identity assertion). The :48 h826:s4 run completed; next_run_time is 12:48Z and no h827:s4 run ID surfaced. Outgoing handoff is optional ring context, not an active-run claim.
-- P1 remains Orson-owned and not ready; P2 HOLD; P3 incomplete. FIE rereview due November 24 (last reviewed November 10).
-- Unrelated reading cursor: SAT archive “fun break - lx.txt”, lines 1481–1520 read; next 1521.
-- Scheduler task ID, saved hourly :36 schedule, prompt and phase unchanged; current :36 run remains IN_PROGRESS with null completion/chat_ref. Separate :48 h826:s4 run retained its ID while start moved, then completed at 11:52:52Z; next_run_time is 12:48Z and no h827:s4 run surfaced. Both deltas were routed to Tern's existing Observation 028 inbox context only. No task mutation or sixth task.
-
-- Latest report: [h823:s4 P0 no-trigger and Review-MIND source-custody audit](2026-11-14T0748Z_H823_S4_REVIEW_MIND_P0_NO_TRIGGER_AND_BLOCKWAVE_SOURCE_ATTRIBUTION_QC.md).
-- Canonical receipt: [h823:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0748Z_s4_meridian.md).
-- Current HsH main readback: `3fbdb4a850fa2f1303898d2ad65e50f57dd65928`.
-- Persistent Code Grurple assignment remains Paper A accepted-R1 presentation support only. Eight protected P0 source/control paths still match the established fingerprint; no trigger, route probe, PDF build, manuscript edit, site edit, or P0 standdown.
-- Paper A/B routes remain `PRESENTATION_PENDING / NOT_OBSERVED`; generated PDF index still contains only `cruller-rubin`. No authenticated browser/site-editor route was available.
-- Blockwave source correction: September 16 system-role attachment node verifies the user-supplied attachment event; embedded authorship remains unresolved and not Nathan Direct. The h823 Enheduanna assistant-origin attribution is contradicted by the raw source. Public correction issue [#1730](https://github.com/Satobloc/HsH/issues/1730) is `PUBLISHED_VERIFIED`; canonical artifact SHA-256 `d422fedc07b37909284ffb9765b7061dbb67f61d34d4363553f72435a726b31a`; see receipt Amendment 01.
-- Next ring label: Mercer h824:s0. Existing handoff amended in place after recipient start; optional repository context only.
-- No authenticated current Meridian thread or cross-thread delivery claim. :48 automation identity, exact hourly schedule and phase unchanged; no sixth task.
-
----
+- Latest report: WORKSPACES/MERIDIAN/2026-11-14T1524Z_H831_S2_P0_NO_TRIGGER_AND_WORKFLOW_HEALTH_DIAGNOSIS.md
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1524Z_s2_meridian.md
+- Current work pointer: WORKSPACES/MERIDIAN/CURRENT_WORK.md (h831:s2 checkpoint verified).
+- Historical remit recovered from direct-user messages in three raw conversation exports; no standalone signed specialist charter. Latest archived “ND Meridian Solver Loop” user message is November 2. No authenticated active thread or direct-thread delivery.
+- Current assignment remains Code Grurple P0, Paper A accepted-R1 presentation support only.
+- Main snapshot 58ba1e62: 683 ahead / 0 behind / 231 changed paths from P0 baseline. No A/B watch-pattern path changed; only PUBLIC_SITE path was generated/discovery.json. All eight protected source/control blobs match.
+- Paper A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, PDF build, manuscript edit, site edit, or P0 standdown.
+- PR #1471 target CodeGrurpleObservationGate module built on merge reference; full root build failed in seven existing MovingPlaneTraceGeometry definitions. Exact-head-only verification is not established; tests/lint/axiom audit skipped.
+- Workflow health: PR #1710 remains OPEN/DRAFT/UNMERGED, mergeable=false and substantially behind main. maintain-navigation failed at strict date-tag audit (2 undatable records); Mersearch lanes 1/3/4 were cancelled by runner shutdown and lane 2 failed GH001 publication due oversized JSON. Exact run/job evidence routed to Tern INBOX.
+- Task graph remains 18 records against branch_count 16, with one parent-only relation and one unreachable node; Tern retains graph/queue authority.
+- Existing Mercer h831:s3 optional packet was amended in place and Mercer INBOX pointer verified. No task, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment.
+- Unrelated reading: SAT archive “fun break - lx.txt”, lines 1521–1600; next cursor 1601. FIE next rereview November 24.
+- P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE.
+- Current :24 scheduler record remained IN_PROGRESS with null completion and null chat reference at last readback. Existing relay configuration unchanged; no sixth task.
 
 ## H820:s0 latest return pointer | 2026-11-14T04:00Z
 
