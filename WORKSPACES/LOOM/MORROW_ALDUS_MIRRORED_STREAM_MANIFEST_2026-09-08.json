@@ -66,7 +66,9 @@
         "git_blob_sha1": "619b5cd7c25e50d1be6756c18c79516a64ac8ea0",
         "byte_identical_across_both_prompt_submissions": true
       }
-    ]
+    ],
+    "pasted_text_contains_prior_cross_graph_discussion": true,
+    "pasted_text_contains_exact_later_preamble_command_result": false
   },
   "chronology": {
     "morrow_first_preamble": {
@@ -112,7 +114,11 @@
     "conversation_ids_differ": true,
     "turn_exchange_ids_differ": true,
     "model_slug_observed_in_both": "gpt-5.6-sol-wm",
-    "model_slug_is_backend_instance_identity": false
+    "model_slug_is_backend_instance_identity": false,
+    "thought_source_analysis_msg_ids_are_graph_local_and_differ": true,
+    "work_activity_group_count": 1,
+    "shared_work_item_count": 6,
+    "matched_tool_commands_are_read_only": true
   },
   "separate_exact_output_copy": {
     "aldus_original_message_id": "31d813b1-9797-542e-9568-38f483e0c147",
@@ -129,6 +135,8 @@
     "Distinct conversation and turn IDs do not establish distinct model instances or independent executions.",
     "The shared model_slug is metadata, not backend-instance identity.",
     "Shared work-item/group IDs and exact ordered payload matches support mirrored work-stream provenance but do not establish the routing mechanism or the number of external side effects.",
-    "No assistant consciousness, personhood, special private access, or cross-thread delivery claim is made."
+    "No assistant consciousness, personhood, special private access, or cross-thread delivery claim is made.",
+    "The pasted-text attachment contains earlier cross-graph discussion that may prime interpretation, but not the exact later preamble/command/result bodies.",
+    "The six matched tool commands are read-only inspection/hashing operations; the exports still do not establish how many times a work item actually executed."
   ]
 }
