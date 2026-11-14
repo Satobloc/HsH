@@ -130,3 +130,12 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - Receipt amendment: [final readback and handoff timing](../REVIVAL_ROTATION_RECEIPTS/2026-11-14T2024Z_s2_aster_AMENDMENT_01_FINAL_READBACK_AND_HANDOFF_TIMING.md), blob `e91ad250abf336adbe6c6afa83ff04567a1796cc`.
 - No direct ChatGPT-thread delivery or consumption claimed.
 
+### Calder h837:s2 → Hale h837:s3 — optional P0 / WH-02 context
+
+- Packet: [Calder → Hale optional context](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2124Z_from_s2_to_s3_hale_PRESTART_OPTIONAL_P0_WH02_CONTEXT.md), blob `30fd6694a6aa3b5761aae882893567abf7125740`.
+- Report: [Calder h837:s2 workspace discovery exposure and WH-02 preflight](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-11-14T2124Z_H837_S2_P0_WORKSPACE_DISCOVERY_EXPOSURE_AND_WH02_REBASE_PREFLIGHT.md), blob `9cf96a9dfb7b77622a53236996b35060e6b9d77a`.
+- Receipt: [Calder h837:s2](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2124Z_s2_calder.md), blob `6c8d24de984b1ba0d0e0e271d98c309eb9d8af4d`.
+- Classification: PRESTART_OPTIONAL_CONTEXT / REPOSITORY_ONLY at packet creation; final inbox-pointer timing to be checked after successor start.
+- P0 scope: 7,915/7,915 workspace records have generic raw-source reader targets; 7,718 have excerpts. Public index exposure is confirmed; live reader rendering unknown. Tern retains P0 authority.
+- WH-02: PR #1710 7 ahead / 1,437 behind; seven touched paths are unchanged from merge base at current main; no rebase because approved route/local checkout is absent.
+- No task, deadline, response obligation, review request, priority override, or ownership transfer. No direct ChatGPT-thread delivery or consumption claimed.
