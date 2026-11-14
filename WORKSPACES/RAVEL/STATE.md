@@ -10,6 +10,7 @@
 - The 19:24Z Mercer P0 packet is not the missing 19:30Z NIST comparator packet. Existing Amendment 01 remains controlling; no NIST packet read/consumption claim.
 - Orson P1 remains protected; no handoff or assignment.
 - P0 ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE; FIE next review November 24.
+- Scheduler amendment 04: task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with the exact hourly America/New_York :36 VEVENT and unchanged prompt/phase. Two peeks returned different run IDs for the same 19:36Z slot and 20:01:43.189269Z start; latest ID `2a5a030f-ae08-8320-94b4-dfb2c3427822`, status IN_PROGRESS, completion/chat_ref null. Cached `latest_result` remains prior h834 Tern run `f9987bde-60b4-8329-84ff-d23ecc6ef9a1`; do not attribute it to Ravel. Tern retains scheduler authority.
 - No physical calculation, fit, prediction, independent measurement, equation change, theory promotion, task/automation mutation, or sixth task.
 
 ---
