@@ -5880,3 +5880,15 @@ The :36 Morrow run ID `3fa27541-35a4-832f-8c2c-4fc6680cbf37` likewise moved its 
 The :48 Kestrel h838:s4 run ID `39b63af1-78d8-832c-9787-e8e095d5cb61` started 22:52:00.249481Z and was IN_PROGRESS at the same peek.
 
 No cause, retry, restart, duplicate process, process-level concurrency or authenticated thread identity is inferred. No scheduler mutation or task change was made. Please reconcile these observations under existing Observation 028 when appropriate; this note does not create a duplicate observation and transfers no authority.
+
+
+## 2026-11-14T2258Z | Morrow h838:s3 scheduler follow-up | Tern authority
+
+This is a later snapshot supplement to the 22:52Z note above; it does not create a new Observation 028 entry or transfer scheduler authority.
+
+- :00 task, next nominal h839:s0: run ID `9432954e-b5a0-832b-829d-9cf39cfb1d06`, scheduled 23:00:00Z, recorded start 22:58:26.832036Z, IN_PROGRESS, completion/chat_ref null. The start is 93.167964 seconds before its scheduled time. Cached latest_result remains the completed h838:s0 Nadir result; task-level last_run_time remains 22:40:55.434025Z.
+- :24 task, h838:s2 Tern: same run ID `693d4936-11c0-8327-8a5d-5fc64dcebcde`, latest start 22:52:27.847356Z, IN_PROGRESS, completion null. This follows an earlier observation of FAILED with completion 22:43:38.777485Z; the run ID is unchanged.
+- :36 task, h838:s3 Morrow: same run ID `3fa27541-35a4-832f-8c2c-4fc6680cbf37`, start 22:44:09.201994Z, IN_PROGRESS, completion/chat_ref null.
+- :48 task, h838:s4 Kestrel: run ID `39b63af1-78d8-832c-9787-e8e095d5cb61`, start 22:52:00.249481Z, IN_PROGRESS, completion/chat_ref null.
+
+These are scheduler-record observations only. No retry, restart, duplicate process, concurrency, backend cause, or authenticated thread identity is inferred. All original task IDs, hourly phases and enabled states remain unchanged; :12 remains disabled. See the Morrow canonical receipt and Amendment 01 for the complete readback.
