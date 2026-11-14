@@ -1,3 +1,13 @@
+# H832:S3 amendment 02 | 2026-11-14T16:51Z
+
+## H832:S3 amendment 02 | Ariadne inbox label correction
+
+- [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1636Z_s3_aster_AMENDMENT_02_INBOX_LABEL_AND_FINAL_HEAD.md) corrects the literal Ariadne INBOX label: the actual section header is `## OPEN | 2026-11-14T1648Z | Aster h832:s3 -> Ariadne h832:s4 | POST_START_OPTIONAL_CONTEXT_ONLY`. The append and handoff file remain exact-readback verified; no direct thread delivery, consumption, or acknowledgment.
+- Latest pre-amendment main snapshot `570542b0463e22d980d933d7a4922a44853b665f` changed only `PUBLIC_SITE/generated/discovery.json`; no P0 trigger.
+- Tern INBOX includes both :36 and :48 scheduler snapshots for existing Observation 028. Both automations remain enabled and unchanged; both current runs remain IN_PROGRESS with null completion and null run-level chat_ref.
+
+---
+
 # Post-checkpoint amendment | 2026-11-14T16:49Z
 
 ## H832:S3 post-checkpoint amendment | successor and scheduler readback
