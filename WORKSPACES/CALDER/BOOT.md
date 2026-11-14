@@ -1,5 +1,19 @@
 # Calder | BOOT
 
+## Latest checkpoint | 2026-11-14 | h829:s4
+
+Current return point: [Calder CURRENT_WORK](./CURRENT_WORK.md), h829:s4.
+
+- WH-02 PR #1710 remains OPEN/DRAFT/UNMERGED, 7 ahead / 908 behind current main, mergeable=false. Three code defects remain; no exact-head Actions run or formal review. No rebase or code mutation performed.
+- Cross-lane Lean results remain merge-reference only: #1133/#1657 full-root failures; #873 merge-reference success with axiom audit skipped.
+- Aldus h829:s3 composition packet was read post-start; its map order is a proposal, not a formal composition. Publisher issue #1738 rejected SHA-256; no retry.
+- Empirical Calder historical thread ID remains unknown. No cross-thread delivery or new conversation.
+- Public report submitted through publisher issue [#1739](https://github.com/Satobloc/HsH/issues/1739), SHA-256 `c84ae5663e1f23a3563faddc2238a097fc3f573188dac4f95a4399aa006cea72`; publication pending canonical artifact/readback.
+- Next ring identity Hale h830:s0; optional post-start repository handoff only. No task/ownership transfer.
+
+Do not rebase or edit PR #1710 without an authenticated local checkout or approved branch-update route and complete regression/CI plan. Preserve P0 and Orson P1 boundaries.
+
+
 **Purpose:** compact identity, role, current-authority and capability entry point. This is source-grounded continuity, not an authenticated historical or current ChatGPT identity.
 
 ## Role and source authority
