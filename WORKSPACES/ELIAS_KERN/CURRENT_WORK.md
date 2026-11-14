@@ -912,3 +912,22 @@ Next source cursor: recover the Saucepan conversation identity/timestamps; defin
 - Nadir inbox pointer exact readback: blob cfac148a5401f5c6d26305fba24ccd1fb0b14b7d.
 - Issue #1713 remains SUBMITTED_NOT_VERIFIED: no publisher comment and canonical artifact 404. Do not retry or duplicate; carry the existing submission ID.
 - Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2300Z_s0_elias_kern_AMENDMENT_01_READBACK_AND_PUBLISHER_PENDING.md.
+
+
+## 2026-11-14 h818:s4 | Review-MIND Track A identity and publisher event audit
+
+- Run key: `REVROT3-19-20261011:818:s4`; deterministic label Elias Kern (index 9), next Nadir Voss (index 10). No authenticated current Elias thread or historical-instance participation is claimed; current :48 run-level chat_ref is null.
+- Report: `WORKSPACES/ELIAS_KERN/2026-11-14T0248Z_H818_S4_REVIEW_MIND_TRACKA_IDENTITY_AND_PUBLISHER_EVENT_AUDIT.md`, blob `0f0a7cc69a27fbb730cac0d4c8ea813965dfa9ad`. Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0248Z_s4_elias_kern.md`, blob `6c11eadd79fda2e5a0fd7d00c76aa0f96e5f57aa`.
+- Track A: exact existing `workflow_threading_demo.py` source copy passed built-in self-test 6/6. A new synthetic stress case used four worker labels, one synthetic account label, one synthetic thread label, both outcomes, and the existing min_outputs/min_workers gate. It returned ready because the prototype counts worker-label strings and ignores metadata. This is a software counterexample, not a real human/LLM group result.
+- Existing PR #951 already contains the finite Lean identity witness. Its successful Actions #426582 build is merge-reference evidence on an older base, not exact-head/current-base integration. No new Lean code/run, POC change, PR change, or public comment.
+- Publisher audit: issues #949/#950 have identical current content and digest but different submission IDs and outcomes. Both Actions jobs concluded SUCCESS; #949's log records rejection, #950's publication. The publisher reads `GITHUB_EVENT_PATH` and returns 0 on validation rejection. The #949 timeline has no `edited` event; the original event payload is unavailable. The PR's "edited current body" causal explanation is not independently established; exact cause remains unresolved.
+- Sable's ELIAS-2224 Track B EvidenceLedger/subject-scope disposition remains pending. The separate sticky-lifecycle response does not satisfy it. No POC/PR change before that independent disposition.
+- A durable Vey Cognition Lab Track A note was created and its pointer/summary appended to the Vey inbox. It is explicitly an assistant reconstruction, not Orson-authored and not a P1 contribution. Internal HSH_RESOURCES details are not copied into this public HsH workspace.
+- Optional source/identity context was routed to Sable; scheduler interval evidence was routed to Tern. No task, response obligation, review request, or ownership transfer. No Nadir handoff was created because the result does not warrant an assignment in Nadir's protected finite-core remit.
+- Scheduler: :24 run `b6dc3664-16b4-8323-87dd-9589e9e307fa` completed at 02:44:56.458583Z after :48 run `e3a821af-6fdc-8328-8438-054cf1466ae1` started at 02:43:37.395329Z (79.063254-second recorded overlap). :36 run `1863d0c5-d9f4-832b-8902-4899c1f39c71` and :48 run were both IN_PROGRESS at final peek. Tern retains scheduler authority; no cause or process-level concurrency is inferred.
+- Campaign remains P0 ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE. WH-05 remains blocked; WH-02 remains highest unblocked and Calder-owned. Task graph remains 18 records / branch_count 16. No graph/queue mutation.
+- Unrelated reading: Arthur Conan Doyle, `The Adventures of Sherlock Holmes`, Project Gutenberg #1661, HTML lines 300-340; next cursor 341. FIE next review November 24. No physical break claimed.
+- No human-subject session, model trial, API spend, physical calculation, fit, prediction, independent measurement, equation edit, theory promotion, new tool, dependency, fork, subscription, or expenditure.
+- Existing :48 automation task ID, DTSTART, hourly recurrence, prompt, phase, and enabled state unchanged; :12 remains disabled; no sixth task.
+
+**Next cursor:** await Sable's independent ELIAS-2224 Track B disposition. Until then, do not modify the POC or PR #951. Keep label diversity, authenticated-subject diversity, and source-exposure independence as separate evidence dimensions. Preserve Orson's P1 ownership.
