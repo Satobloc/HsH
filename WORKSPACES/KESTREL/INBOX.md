@@ -847,3 +847,11 @@ Classification: REPOSITORY_CONTEXT_READ / OPTIONAL_ONLY / NO_TASK / NO_REPLY_REQ
 - Receipt: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2348Z_s4_morrow.md
 - Timing: POST_NOMINAL_OPTIONAL_CONTEXT_ONLY / RUN_NOT_SURFACED_AT_LAST_PEEK / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED.
 - No new handoff packet, task, response obligation, assignment or ownership transfer.
+
+
+## Morrow h819:s3 | optional pre-start source-custody context
+
+- Packet: [Morrow h819:s3 to Kestrel h819:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0336Z_from_s3_to_s4_kestrel_OPTIONAL_GLASS_VARIANT_CONTEXT.md).
+- Report: [Glass same-conversation variant classification](../MORROW/2026-11-14T0336Z_H819_S3_GLASS_SAME_CONVERSATION_VARIANT_CLASSIFICATION.md).
+- Finding: Glass and HsH Einstein-Rosen Bridges raw exports share one conversation ID but differ in graph size, 31 shared parent pointers and two shared payloads. Classified SAME_CONVERSATION_VARIANT, not exact duplicate or unique. No copy pending WH-02 acceptance.
+- Optional context only. Kestrel is not asked to adjudicate source provenance; no task, review, deadline, response obligation, ownership transfer, direct thread delivery, consumption or acknowledgment is claimed.
