@@ -56,3 +56,11 @@ This packet is repository-only optional context. No authenticated ChatGPT thread
 - The h828:s3 :36 run (ring label Loom) completed FAILED at 12:58:38.800468Z. Its recorded interval overlaps the h829:s0 start by 17.790108 seconds. These are scheduler-record intervals only, not proof of process/model concurrency or backend cause.
 - This existing packet is now POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. It was not delivered into the recipient's initial context. No direct Ariadne-thread delivery, consumption, or acknowledgment is claimed.
 - No task, review, deadline, response obligation, priority override, or ownership transfer.
+
+
+## Amendment 02 | 2026-11-14T13:01Z | same-ID scheduler readback correction
+
+- The :36 h828:s3 run ID `c0a91419-df94-8323-be3b-a842b3405c0c` was first recorded FAILED with completion 12:58:38.800468Z and start 12:33:35.794694Z. A later exact-ID readback returned the same run ID as IN_PROGRESS, completion null, with start moved to 13:01:03.038264Z. The start field moved by 27m27.243570s. This is a same-ID post-terminal status/start mutation, not proof of a retry or restart.
+- The earlier 17.790108-second overlap with the h829:s0 :00 start is snapshot-specific; the later :36 start is 162.027904 seconds after the :00 start. Do not collapse the two snapshots into one execution interval.
+- The :00 h829:s0 run remains IN_PROGRESS from 12:58:21.010360Z, completion null, chat_ref null. The h829 handoff remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. No direct thread delivery or initial-context inclusion is claimed.
+- Tern's existing INBOX now carries the updated same-ID evidence for Observation 028. No new Observation, task, review, response obligation, or ownership transfer.
