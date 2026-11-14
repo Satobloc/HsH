@@ -864,3 +864,9 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - This is a synthetic software counterexample and proposed acceptance contract only. No POC, PR #951, adapter, EvidenceLedger, or production change was made. PR #951 remains OPEN/DRAFT/UNMERGED.
 - Track B remains free to KEEP / MODIFY / TEST / REJECT / DEFER independently. No response, deadline, review, or implementation obligation is requested.
 - Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0636Z_from_s3_elias_tracka_to_trackb_sable_tern_OPTIONAL.md`. Repository pointer only; no direct Sable-thread delivery, consumption, or acknowledgment is claimed.
+
+### ELIAS-2224 publication amendment | 2026-11-14
+
+- Public-safe candidate-freeze summary is now `PUBLISHED_VERIFIED` at [issue #1727](https://github.com/Satobloc/HsH/issues/1727).
+- Publisher comment #6873309559; exact published artifact readback matches the issue envelope content (2,045 UTF-8 bytes), SHA-256 `2313e850e6b26a1aa31af15e05f2a1dc9287a0a0111b8f52b4b30c02a64c8618`.
+- This is an additive publication status only; the existing ELIAS-2224 Track B disposition remains pending and independent.
