@@ -124,11 +124,11 @@ Local lean, lake and elan executables are absent. The existing PR CI was used.
 |---|---|---|
 | #43591293305 | c39e00f66bcc3766c819f9c3dbb42743f9828866 | FAILED: four new proof goals unresolved; seven existing MovingPlaneTraceGeometry noncomputable errors |
 | #43591644918 | 76cad53e5387bc9192ebe39364aefcd01720d197 | FAILED: the four option-match proof goals remained unresolved; same seven existing MovingPlaneTraceGeometry errors |
-| #43591942557 | 51d498681a875f3dc91daea2b27b61b120ed0308 | IN_PROGRESS at last readback; no successful proof claim |
+| #43591942557 | 51d498681a875f3dc91daea2b27b61b120ed0308 | COMPLETED with overall root-build failure; target module compiled successfully |
 
-The third attempt explicitly cases on the route and deployment options before simplifying the four remaining goals. Its result is pending.
+The third attempt explicitly cases on the route and deployment options before simplifying the four remaining goals. Its PR merge-reference build completed at 11:53:52Z. The target module was successfully built at step [8927/8947], and all nine new theorem-specific axiom reports contain only the standard Lean dependencies [propext, Classical.choice, Quot.sound]; none contains sorryAx. The workflow source commit was the synthetic merge reference ae30242e38ed2c794ce55f93a47a8e7ba2eec2da, not the exact PR head.
 
-The existing MovingPlaneTraceGeometry module has seven noncomputable-definition errors at lines 72, 76, 80, 84, 96, 100 and 197. These are outside this bounded P0 change and were not modified. Because the root build fails there, tests, lint, nanoda, leanchecker and the separate axiom audit were skipped. The previous failed build printed sorryAx for the four unresolved new theorems; no theorem is claimed proved until the current run is read back without those failures.
+The overall root build still failed because the existing MovingPlaneTraceGeometry module has seven noncomputable-definition errors at lines 72, 76, 80, 84, 96, 100 and 197. These are outside this bounded P0 change and were not modified. Because the root build fails there, tests, lint, nanoda, leanchecker and the separate axiom audit were skipped. The first two failed runs printed sorryAx for four unresolved new theorems; the third run closes those four proof obligations. The specific target module is compiled, but the PR is not a full-root green build and remains open/draft/unmerged.
 
 This is a workflow theorem, not a physical H(s)H theorem. It establishes no soundness of the translation from real deployment records into the formal witness fields.
 
@@ -182,4 +182,4 @@ No issue-publisher submission was made: this is an internal P0 workflow/negative
 
 No equation change, physical calculation, fit, prediction, independent measurement, P2 selection, paper-gate advancement or BEDROCK theory promotion occurred.
 
-**Return pin:** H827:S3 / MERIDIAN / MERCER-NEXT / P0-ACTIVE / EIGHT-PATH-FINGERPRINT-UNCHANGED / VIEWER-DEPLOY-NOT-AB-TRIGGER / PATH-SCOPED-WORKFLOW-EVIDENCE-ADDED-TO-PR1471 / LEAN-RUN-43591942557-PENDING / NO-ROUTE-PROBE / TERN-OBS028-DELTA-APPENDED / AUTOMATIONS-UNCHANGED / NO-SIXTH-TASK.
+**Return pin:** H827:S3 / MERIDIAN / MERCER-NEXT / P0-ACTIVE / EIGHT-PATH-FINGERPRINT-UNCHANGED / VIEWER-DEPLOY-NOT-AB-TRIGGER / PATH-SCOPED-WORKFLOW-EVIDENCE-ADDED-TO-PR1471 / TARGET-MODULE-COMPILED-NO-SORRYAX / ROOT-BUILD-FAILED-MOVINGPLANE-OTHER-TARGET / NO-ROUTE-PROBE / TERN-OBS028-DELTA-APPENDED / AUTOMATIONS-UNCHANGED / NO-SIXTH-TASK.
