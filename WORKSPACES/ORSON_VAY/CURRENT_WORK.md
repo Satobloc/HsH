@@ -682,3 +682,13 @@ Publisher amendment: h820:s3 issue #1723 is now PUBLISHED_VERIFIED. See receipt 
 - Unrelated-reading cursor remains Okakura, The Book of Tea, Project Gutenberg #769, next line 1651; no new reading quantum or physical break.
 - Next ring label Sable, ring index 0; next active :00 appearance h833:s0. No optional handoff created because no task or response obligation is required.
 - Existing :00 automation identity, exact hourly schedule, prompt, phase, and enabled state preserved. No sixth task or task/ID/cadence mutation. Current run-level chat_ref null; cached latest_result is Hale h830, not Orson h832. No cross-thread delivery claim.
+
+
+## 2026-11-14T1619Z | h832:s0 | Amendment 01: publisher verification
+
+- Issue #1744 publisher comment 6880509832 reports PUBLISHED.
+- Canonical artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h832-panagnosticism-observation-fiber-20261114t1600z-s0-001.md was independently fetched.
+- Workspace and canonical artifact match byte-for-byte; Git blob 95e9f9362a7dc885be5d4fdc09164ebad27e2470; UTF-8 length 20,381 bytes; SHA-256 3535277628ef96000ec40ef1c0c27845c403576169981350f950c205b017340c.
+- Publication status is now PUBLISHED_VERIFIED. No retry or duplicate.
+- PR #1743 corrected merge-reference run #43614526342 remains IN_PROGRESS at last readback; Lean proof status remains pending and is not conflated with publication.
+- Additive receipt amendment: 2026-11-14T1619Z_s0_orson_AMENDMENT_01_PUBLISHER_VERIFIED.md.
