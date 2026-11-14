@@ -19,6 +19,20 @@ import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.KestrelMovingSlice
+import HsHVerification.KestrelIntersectionDimensionGate
+import HsHVerification.KestrelProjectedIncidence
+import HsHVerification.KestrelSAT4DTimelikeGate
+import HsHVerification.KestrelConsensusIdentityBlindness
+import HsHVerification.KestrelFlagInformationCounts
+import HsHVerification.KestrelGaugeNormalizationGate
+import HsHVerification.KestrelLevelSetSliceTangentV2
+import HsHVerification.SableTransverseIntersectionNondegeneracy
+-- Conditional Newtonian-coordinate algebra only; see module docstring for proof limits.
+import HsHVerification.WorldtubeInertiaCoordinate
+import HsHVerification.WorldtubeCurveCurvatureLift
+import HsHVerification.KestrelKelvinVortexReadout
+import HsHVerification.KestrelTorusCycleGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
