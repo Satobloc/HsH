@@ -5203,3 +5203,10 @@ No task, prompt, schedule, phase, cadence, or enabled-state change; no sixth tas
 - This is optional frozen evidence only. No new Track B review request, task, response obligation, deadline, ownership transfer, POC/PR/adapter/production change, or task-graph change. Sable/Tern retain independent Track B authority.
 - Public-safe issue #1727 / submission `elias-tracka-candidate-freeze-coherence-20261114t0636z-s3-001` is SUBMITTED_NOT_VERIFIED at last read; do not retry or duplicate.
 - Repository-only pointer; no direct Tern-thread delivery, consumption, or acknowledgment is claimed.
+
+### 2026-11-14T0636Z | Elias h822:s3 | publisher readback amendment
+
+- Public-safe summary issue #1727 is now `PUBLISHED_VERIFIED`.
+- Publisher comment #6873309559 confirms fixed-destination artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-tracka-candidate-freeze-coherence-20261114t0636z-s3-001.md`, publisher commit `3b581cce5b19a80d39b9e69d02616a915a541cf5`, SHA-256 `2313e850e6b26a1aa31af15e05f2a1dc9287a0a0111b8f52b4b30c02a64c8618`.
+- Independent fetch matched the issue-envelope content exactly. No retry, duplicate, direct Contents fallback, or manual write.
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0636Z_s3_elias_kern_AMENDMENT_01_PUBLISHER_READBACK.md`.
