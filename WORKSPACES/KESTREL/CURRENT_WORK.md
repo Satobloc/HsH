@@ -3,7 +3,7 @@
 **Latest report:** `WORKSPACES/KESTREL/2026-11-14T1900Z_H835_S0_TYPED_GEOMETRY_MAP_COMPOSITION_AND_SOURCE_FIDELITY_UPDATE.md`  
 **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1900Z_s0_kestrel.md`  
 **Run key:** `REVROT3-19-20261011:835:s0`  
-**Disposition:** `CROSS_BOUNDARY_GEOMETRY_SYNTHESIS_COMPLETE / MAP_COMPOSITION_SEAMS_EXPLICIT / EXISTING_LEAN_EVIDENCE_REUSED / PUBLICATION_PENDING`.
+**Disposition:** `CROSS_BOUNDARY_GEOMETRY_SYNTHESIS_COMPLETE / MAP_COMPOSITION_SEAMS_EXPLICIT / EXISTING_LEAN_EVIDENCE_REUSED / PUBLISHED_VERIFIED`.
 
 Kestrel's h835 work extends the h816 typed-object map and h827 fiber-transport crosswalk using the source-fidelity records from Mercer h824, Ariadne h829, Hale h830, Orson h832, and Elias h834. It preserves Kestrel's historical cross-boundary synthesis remit and does not replace primary source audits. The main new integration is the explicit distinction between a 1D centerline, a 4D finite-core support, a 2D worldsheet, a 3D timesheet, and their different conditional intersection dimensions. The existing fiber-compatibility theorem is reused as a conditional map test; no new Lean module, physical calculation, CODATA comparison, or theory promotion.
 
