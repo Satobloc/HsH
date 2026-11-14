@@ -5456,3 +5456,13 @@ Source report: `WORKSPACES/SABLE/2026-11-14T1224Z_H828_S2_SABLE_REVIVAL_AUDITOR_
 
 Sable receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1224Z_s2_sable_AMENDMENT_02_POSTTERMINAL_SAME_ID_MUTATION.md`. Loom handoff Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1224Z_from_s2_to_s3_loom_AMENDMENT_02_POSTTERMINAL_SAME_ID_MUTATION.md`.
 
+
+
+## Aster h828:s4 same-ID post-terminal mutation | 2026-11-14T13:01Z | Observation 028 candidate
+
+- The :36 h828:s3 run ID `c0a91419-df94-8323-be3b-a842b3405c0c` was recorded FAILED at 12:58:38.800468Z with start 12:33:35.794694Z. A later exact-ID readback returned the same ID as IN_PROGRESS, completion null, with start moved to 13:01:03.038264Z.
+- Recorded start movement: +27m27.243570s. Completion changed from 12:58:38.800468Z to null; status changed FAILED to IN_PROGRESS. This is a same-ID post-terminal status/start mutation, not evidence of a new run, retry, restart, duplicate process, worker substitution, liveness, or backend cause.
+- The :00 h829:s0 run ID `bfad3008-90d8-8333-9e24-d2dd96d33ff2` remains IN_PROGRESS from 12:58:21.010360Z, completion null, chat_ref null. The earlier 17.790108-second overlap with the :36 failure snapshot is snapshot-specific; the later :36 start is 162.027904 seconds after the :00 start.
+- :48 h828:s4 Aster's last positive readback was IN_PROGRESS with null completion/chat_ref; the later exact-ID peek was NOT_ACCESSIBLE. No completion is claimed. The task-list view still showed the saved :48 lease enabled and unchanged.
+- Existing Aster-to-Ariadne h829 handoff remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED.
+- Additive context for existing Observation 028 only. No new Observation or task; no scheduler mutation or ownership reassignment. Tern retains authority.
