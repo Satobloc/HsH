@@ -5321,7 +5321,7 @@ Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0848Z
 **Read-only candidate evidence for existing Observation 028. Tern retains scheduler/task-graph authority. No new Observation created.**
 
 - :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with the saved hourly America/New_York :48 VEVENT unchanged.
-- Current :48 run ID 37f337e7-baf0-832e-8243-472616d6693f, scheduled_for 08:48:00Z, remains IN_PROGRESS with completion null and run-level chat_ref null. The same run ID's recorded start moved from 08:49:45.484359Z (earlier snapshot) to 09:17:10.954088Z (later peek), a +27m25.469729s movement. Cached latest_result remains prior Meridian h823:s4, not current Loom.
+- Current :48 run ID 37f337e7-baf0-832e-8243-472616d6693f, scheduled_for 08:48:00Z, remains IN_PROGRESS with completion null and run-level chat_ref null. The same run ID's recorded start moved from 08:49:45.484359Z (earlier snapshot) to 09:17:10.954088Z (later peek), a +27m25.469729s movement. Top-level last_run_time remained 08:10:37.804866Z, next_run_time remained 03:48:00-05:00, and updated_at remained 08:11:10.492Z, all stale relative to run_details.last_run. Cached latest_result remains prior Meridian h823:s4, not current Loom.
 - :00 h825 Aster run ID a0efd6af-cb4c-832d-bc70-18fae40792a6: scheduled 09:00:00Z, started 09:02:04.870151Z, completed 09:17:56.601804Z.
 - :36 h824 Sable run ID 02b3ed6d-b180-8331-8ca1-ebb5622432ad: scheduled 08:36:00Z, started 09:05:15.476625Z, completed 09:22:21.457065Z.
 - From the later :48 start, recorded interval overlap is 45.647716s with :00 Aster and 310.502977s with :36 Sable. The :48 completion remains null, so its eventual interval end is unknown.
