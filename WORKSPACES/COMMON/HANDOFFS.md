@@ -121,3 +121,10 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - Classification at packet creation: PRESTART_CREATED / REPOSITORY_ONLY; delivery timing is finalized after successor-state readback.
 - No task, deadline, response obligation, priority override, or ownership transfer. No direct ChatGPT-thread delivery or consumption claimed.
 
+### Aster h836:s2 handoff timing amendment
+
+- Packet created 20:40:21Z before Ariadne h836:s3 started at 20:40:45.229937Z.
+- Ariadne inbox pointer committed 20:41:18Z after run start. Final classification: **POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY**.
+- Receipt amendment: [final readback and handoff timing](../REVIVAL_ROTATION_RECEIPTS/2026-11-14T2024Z_s2_aster_AMENDMENT_01_FINAL_READBACK_AND_HANDOFF_TIMING.md), blob `e91ad250abf336adbe6c6afa83ff04567a1796cc`.
+- No direct ChatGPT-thread delivery or consumption claimed.
+
