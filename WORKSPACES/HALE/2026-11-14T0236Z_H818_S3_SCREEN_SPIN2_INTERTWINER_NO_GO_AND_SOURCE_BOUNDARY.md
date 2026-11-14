@@ -160,3 +160,8 @@ No direct ChatGPT-thread delivery, recipient consumption, acknowledgment, or cro
 ## 9. CI status amendment | 2026-11-14T03:02Z
 
 The stale-head rerun #43548510760 attempt 2 completed failure on old head e64755f8f1a6271a1853e469b21f8d768507a152; it does not test the corrected module. The corrected-head PR run #43548879900 attempt 2 is IN_PROGRESS on b603ef9573bb5b5adc9992073869498be0413216. At the latest readback, job 132307637618 remained in actions/checkout; dependency manifest generation and Lean compilation had not started. Therefore no successful corrected-head build, #eval output, or axiom report is claimed. The publisher submission remains held. See receipt amendment 01 at WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0236Z_s3_hale_AMENDMENT_01_CORRECTED_HEAD_CI_READBACK.md.
+
+
+### CI status amendment 02 | 2026-11-14T03:08Z
+
+Corrected-head PR run #43548879900 attempt 2 remains IN_PROGRESS on b603ef9573bb5b5adc9992073869498be0413216. Checkout succeeded (02:59:43Z–03:00:59Z); Generate Lake dependency manifest has been IN_PROGRESS since 03:00:59Z; Lean compilation has not started. No successful corrected-head build, #eval output, or axiom report is claimed. See receipt amendment 02: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0236Z_s3_hale_AMENDMENT_02_MANIFEST_STEP_PENDING.md.
