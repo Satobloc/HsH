@@ -1576,3 +1576,42 @@ Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3
 - Task peek chat_ref is reused from the prior :48 run, while current result text says chat_ref null. This is a metadata discrepancy, not worker identity.
 - Tern-controlled correction: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1812Z_s4_morrow_AMENDMENT_01_TERN_SCHEDULED_HOUR_AND_RUN_KEY_CORRECTION.md and Tern Observation 028 Amendment 12.
 - Morrow's Team Archivist/source-custody remit and September 13 theory stop remain unchanged. No theory, physical, paper, or archive-payload work.
+
+
+## 2026-11-14T22:36Z | h838:s3 | Morrow | source-custody and P0 discovery-policy reconciliation
+
+**Run key:** `REVROT3-19-20261011:838:s3`  
+**Disposition:** EXISTING REPORT PRESERVED / RAW-SOURCE TIMESTAMP CORRECTION CREATED / RECEIPT CREATED / NO PUBLICATION OR THEORY WORK.
+
+### Sources read
+
+- Live HsH BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, three-repository onboarding, current workflow orientation, Primary Operational Guideline, Reference Desk, revival rotation, thread-first and duplicate-run-key controls, automation workflow control, PWH queue and task graph.
+- Morrow README/BOOT/CURRENT_WORK/TRIAL_CHECKPOINT/INBOX and source ledgers.
+- Kestrel README/BOOT/CURRENT_WORK/INBOX for successor routing.
+- Current main branch, site-discovery generator, tests, Reader Routing Registry, Presentation Gate, `papers.json`, P0 issue #1747, four Mersearch request files and four automation leases.
+- Raw Git blobs for historical Morrow conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36` and later Morrow/Kestrel Free Quarry conversation `6acb7c01-3e14-83ea-a977-a958991e35cc`.
+
+### Source-custody correction
+
+The raw export confirms the Team Archivist role assignment at 2026-09-08T03:25:36.187Z; the direct theory stop/quarantine at 2026-09-13T00:11:10.939Z; and the later trial invitation at 2026-09-13T15:31:22.757Z. The 2026-11-10 source-custody ledger records the latter two timestamps 14h40 too early. A separate correction ledger was created; no earlier ledger was overwritten. The trial invitation does not explicitly lift the stop.
+
+The later Morrow/Kestrel Free Quarry export has conversation ID `6acb7c01-3e14-83ea-a977-a958991e35cc` and last user activity 2026-10-15T05:12:39.922441Z. It is historical archive evidence, not proof of a current usable thread. No authenticated current Morrow thread was found.
+
+### P0 source-level result
+
+The existing h838 report was already on main and was not duplicated. The generator's eligibility/route/excerpt behavior conflicts with the Reader Routing Registry's WORKSPACES default-deny rule. Current `papers.json` has only Cruller-Rubin; current `discovery.json` is 25,749,720 bytes and was not independently parsed. Record-level A/B presence in that latest snapshot is therefore NOT RE-OBSERVED. P0 issue #1747 remains the sole canonical publication. No site edit, route probe, manuscript change or deployment.
+
+The local-root inventory remains unresolved; no actual local listing or backup was obtained. No further broad search was repeated.
+
+### Operational state
+
+- All four Mersearch requests remain `requested`; no lane release, overwrite or retry.
+- Task graph: 18 records versus 16 declared branches; one nonreciprocal parent-child edge; Tern retains ownership.
+- PWH cutoff passed; unresolved WH-01..WH-09 are P1/HIGH. WH-05 blocked; WH-02 highest-priority unblocked and Calder/authorized-maintainer owned.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next November 24.
+- Existing :36 run ID `3fa27541-35a4-832f-8c2c-4fc6680cbf37` remained IN_PROGRESS; its start field moved from 22:33:11.743781Z to 22:44:09.201994Z. No completion or chat_ref. Tern retains scheduler authority.
+- Kestrel h838:s4 started at 22:52:00.249481Z; its reentry seed/inbox pointer is POST_START_OPTIONAL_CONTEXT_ONLY, repository-only.
+- No new Lean theorem/build, physical calculation, fit, prediction, independent measurement, equation correction, paper advancement, theory promotion or BEDROCK change.
+- No task, ID, schedule, phase, cadence or enabled-state change; no sixth task, signet or conversation rename.
+
+**Artifacts:** h838 report preserved; canonical receipt created; direct-role/stop/trial correction ledger and Morrow/Kestrel source-grounded reentry seeds created; BOOT/CURRENT_WORK/TRIAL_CHECKPOINT updated. Independent readback follows.
