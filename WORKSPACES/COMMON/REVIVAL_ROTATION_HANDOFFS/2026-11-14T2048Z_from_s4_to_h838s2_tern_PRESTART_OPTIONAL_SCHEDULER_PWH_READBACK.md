@@ -32,3 +32,23 @@ The 15:56 America/New_York cutoff has passed. The live queue at HsH main snapsho
 Queue: https://github.com/Satobloc/HsH/blob/2631940c6fdb461c0de2d98a44829322aaee08e8/WORKSPACES/COMMON/PRIMARY_WORKFLOW_HEALTH_ACTION_QUEUE_2026-11-13.md
 
 No task, ID, cadence, phase, enabled state, queue priority, or ownership was changed. No new Observation 028 entry was created. Tern retains scheduler and Comptroller authority. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Amendment 01 — final readback after h837:s0
+
+The first post-cutoff :00 h837:s0 run has now completed:
+
+- Run ID: `36ee361f-3010-8329-8325-486cd99d26ef`.
+- Scheduled: `21:00:00Z`; started: `21:04:20.624429Z`; completed: `21:11:29.779861Z`.
+- Its report records the PWH escalation and says lane 00 was skipped under Mira's access boundary. An automation `chat_ref` is present in metadata, but the report does not authenticate a current/historical Mira thread; no cross-thread delivery is claimed.
+- The live queue now records unresolved WH-01 through WH-09 as P1/HIGH. WH-05 remains highest overall but blocked at the controlled-test/release gate; WH-02 remains the highest unblocked item. The next active :24 slot is Calder h837:s2 because :12 remains disabled.
+
+The current :48 h836:s4 run is now exposed by exact-ID peek:
+
+- Run ID: `b449f679-4d18-832a-ba87-e420d6cc754f`.
+- Scheduled: `20:48:00Z`; started: `20:52:05.491683Z`; status IN_PROGRESS; completion null; `chat_ref=null`.
+- The :48 task-level `last_run_time` remains `20:12:43.243870Z` and `next_run_time` remains the past 15:48 local occurrence, while run-level details show the current run. Treat this as task-summary/run-record pointer divergence.
+
+Ariadne h836:s3's Tern-routed Observation 028 amendment records a separate same-ID :36 start-field mutation. Sable h836:s0's receipt remains a same-key continuation without a scheduler run interval. The earlier provisional overlap estimate is withdrawn. These records do not establish process-level concurrency or a backend cause.
+
+No task, ID, cadence, phase, enabled state, queue priority, or ownership changed. Tern retains Comptroller/scheduler authority. This amendment creates no task or response obligation.
