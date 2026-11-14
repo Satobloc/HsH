@@ -57,7 +57,7 @@ theorem groupTarget_mem_Icc {n : ℕ} (hn : 0 < n)
     calc
       ∑ i : Fin n, correct i ≤ ∑ i : Fin n, (1 : ℝ) :=
         Finset.sum_le_sum fun i hi => hhi i
-      _ = (n : ℝ) := by simp [one_mul]
+      _ = (n : ℝ) := by simp
 
 /-- Two two-rollout groups can share the same group-wise target while
     assigning success to different individual rollouts. The group target
@@ -76,5 +76,7 @@ theorem same_group_target_different_instance_targets :
 #print axioms mean_instance_targets_eq_group_target
 #print axioms groupTarget_mem_Icc
 #print axioms same_group_target_different_instance_targets
+
+end
 
 end HsHVerification.OrsonCaliberConfidenceState
