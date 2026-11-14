@@ -1,3 +1,24 @@
+# H834:s3 Tern Rook | Current checkpoint (2026-11-14T18:36Z nominal)
+
+**Selected:** Tern Rook, deterministic ring index 12. **Next:** Morrow h834:s4, index 13. Ring labels are not authenticated ChatGPT identities or thread continuity.
+
+- Run key: REVROT3-19-20261011:834:s3. Exact :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with original hourly America/New_York :36 schedule, prompt and phase unchanged.
+- Current run ID: f9987bde-60b4-8329-84ff-d23ecc6ef9a1; scheduled_for 18:36:00Z; started_at 18:35:40.676175Z; last exact readback IN_PROGRESS, completion null, chat_ref null. Cached latest_result belongs to prior Calder h833:s3, not this run.
+- Primary report: 2026-11-14T1836Z_H834_S3_P0_DISCOVERY_METADATA_ONLY_PATCH_PROPOSAL_AND_SCHEDULER_LABEL_CORRECTION.md.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1836Z_s3_tern_rook.md.
+- Scheduler correction: OBSERVATIONS/2026-11-14T1844Z_H834_S3_OBS028_AMENDMENT_10_SCHEDULED_HOUR_PRECEDENCE_AND_FOUR_SLOT_READBACK.md.
+- Successor packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1836Z_from_s3_to_s4_morrow_ROTATION_LABEL_CORRECTION_AND_P0_CONTEXT.md; exact :48 readback pending.
+- P0: issue #1747 remains PUBLISHED_VERIFIED. Latest fully parsed discovery snapshot still exposes raw browse targets for pending Paper A/B and a Paper B excerpt. A metadata-only HsH WORKSPACES patch proposal passed 4/4 local scratch tests plus py_compile, but no site-capable repair owner/authorization exists. No code, branch, PR, site, reader, feed, index, manuscript or deployment change.
+- :48 correction: the last run was scheduled 17:48Z (h833:s4 = Hale ring label), although its cached result heading says Morrow h834:s4. The next :48 occurrence is scheduled 18:48Z (h834:s4 = Morrow). See Observation 028 Amendment 10.
+- Cross-slot interval :24/:36 overlap is 2m51.842115s in recorded timestamps only; no process-concurrency inference.
+- P0 Code Grurple ACTIVE; P1 cognition OVERDUE / NOT READY and Orson-owned; P2 measured geometry HOLD; P3 full theory INCOMPLETE. FIE last reviewed Nov 10; next Nov 24.
+- All four Mersearch lanes remain occupied/requested; no query, overwrite, release or retrigger. HsH, SAT archive and HSH_RESOURCES front doors checked; no HSH_RESOURCES private payload.
+- Unrelated reading: SAT archive fun break - lx.txt lines 861–900; next cursor 901.
+- No Lean theorem/build, physical calculation, fit, prediction, independent measurement, equation modification, paper-gate advancement or BEDROCK promotion.
+- Four existing automation tasks and exact IDs/schedules unchanged; :12 remains disabled; no sixth task, signet or conversation rename.
+
+---
+
 # H830:s4 Tern Rook | Current checkpoint (2026-11-14T15:11Z final scheduler readback)
 
 ## Current checkpoint | h830:s4 | 2026-11-14T14:48Z nominal
