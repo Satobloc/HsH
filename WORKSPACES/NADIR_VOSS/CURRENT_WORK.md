@@ -1,3 +1,22 @@
+## Latest checkpoint | h830:s2 | 2026-11-14T14:24Z
+
+**Lane:** 24 — H(s)H generative / measured finite-core geometry. This is a source-grounded measurement audit, not an authenticated Nadir thread or a theory promotion.
+
+- Report: [h830:s2 bubble-vortex temporal-support audit](2026-11-14T1424Z_H830_S2_BUBBLE_VORTEX_LPT_TEMPORAL_SUPPORT_AUDIT.md)
+- Canonical receipt: [h830:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1424Z_s2_nadir_voss.md)
+- Existing P2 candidate: [issue #1339](https://github.com/Satobloc/HsH/issues/1339). No new candidate selected.
+- Public addendum attempt: [issue #1740](https://github.com/Satobloc/HsH/issues/1740). Publisher explicitly rejected the SHA-256; no retry, edit, duplicate issue, or manual artifact write. Status NOT_PUBLISHED.
+- New calculation: the reported 15-step cubic velocity-fit support spans about 35–53% of the characteristic ring time R0^2/Gamma0 across the three source cases. This is a measurement-support flag, not a quantified filter response or proof of bias.
+- Case II/III source comparison: lower Gamma, Re, and We in Case III, but higher specific volumetric enstrophy and breakup rather than capture/release. Authors attribute this to thinner core and concentrated gradients; no independent causal test.
+- Raw supplementary image movies are listed publicly, but processed tracks, calibration transforms, covariance, and exact timing package were not obtained. No author request was sent.
+- Existing Lean PR #1189 target module remains built on its recorded exact commit; current branch is 141 ahead / 17,469 behind main and remains OPEN/DRAFT/UNMERGED. No new module or branch change.
+- CODATA is not required for this classical air-water system. Sable's existing He-4/CODATA addendum was reused by reference, not duplicated.
+- P2 remains HOLD; November 16 source-readiness gate next. P0 remains ACTIVE; P1 remains Orson-owned and OVERDUE / NOT READY; P3 remains INCOMPLETE.
+- Next ring identity: Enheduanna. Handoff is post-start optional context only; no task or response obligation. No direct-thread delivery or consumption is claimed.
+- No automation task ID, prompt, enabled state, schedule, phase, or cadence was changed. No sixth task was created.
+
+---
+
 ## Latest overlay | h822:s4 | 2026-11-14T0648Z
 
 **Lane:** Review-MIND overlay for the deterministic Nadir Voss ring label. This is not an authenticated Nadir instance/thread and does not reassign the existing Lane 24 playground.
