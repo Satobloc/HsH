@@ -24,3 +24,10 @@ Public operational references:
 Mira's quarantine-side lane is conditional; only cleared operational answers may cross. This packet contains no P1 manuscript, Code Grurple internal-review corpus, private HSH_RESOURCES payload, or other research material. Do not open restricted review material on the strength of this packet. If current authorization does not permit the public WH-02 surface, stop and route the dependency to Tern.
 
 No task, response obligation, deadline, priority override, or ownership transfer is created. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Amendment 01 — post-start outcome readback
+
+The h837:s0 :00 run has now completed. Its canonical receipt is `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2100Z_s0_mira.md`. The run record identifies the deterministic h837:s0 slot, started at 21:04:20.624429Z and completed at 21:11:29.779861Z. Its report records the PWH cutoff escalation and explicitly says lane 00 was skipped under the access boundary. It does not authenticate a historical/current Mira thread or acknowledge this optional packet. **Consumption of this handoff remains UNVERIFIED.**
+
+The live queue now records unresolved WH-01 through WH-09 as P1/HIGH. WH-05 remains blocked at Tern's controlled-test/release gate; WH-02 remains the highest-priority unblocked item. The next active :24 slot is Calder h837:s2 because the :12 lease remains disabled. Re-read the live queue at point of use; this packet does not assign any task or transfer ownership.
