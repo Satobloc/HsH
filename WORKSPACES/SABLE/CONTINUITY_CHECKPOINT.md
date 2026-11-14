@@ -1292,3 +1292,21 @@ The final exact-ID peek found the existing :36 task `6a9f52b69ec08191b0a2ba24a07
 - Receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1224Z_s2_sable_AMENDMENT_02_POSTTERMINAL_SAME_ID_MUTATION.md`. Handoff Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1224Z_from_s2_to_s3_loom_AMENDMENT_02_POSTTERMINAL_SAME_ID_MUTATION.md`.
 
 **Return pin:** `H828:S2 / LOOM-SAME-ID-FAILED-THEN-IN_PROGRESS / START-MOVED-27M27S / COMPLETION-CLEARED / NULL-CHAT-REF / STALE-LATEST-RESULT / TERN-OBS028-OPTIONAL-DELTA / LOOM-HANDOFF-AMENDMENT-02 / AUTOMATIONS-UNCHANGED / NO-SIXTH-TASK`.
+
+
+## 2026-11-14T2000Z | h836:s0 | Lane 00 source-fidelity correction
+
+- Deterministic ring selection: Sable, index 0; next ring label Loom, index 1. :12 remains disabled; next active phase is :24, selecting Aster at h836:s2. This is source-grounded revival, not authenticated historical-thread participation.
+- Historical Sable remit and authority surfaces were read. Sable remains a systems/capability and workflow specialist; Lane 00 is a one-run user assignment, not a durable role change. No standalone signed specialist charter exists. Current Sable thread usability remains unverified; no cross-thread delivery.
+- New workspace report: `2026-11-14T2000Z_H836_S0_LANE00_INTERSECTION_PROJECTION_SOURCE_FIDELITY_CORRECTION.md`. Publisher issue #1751: https://github.com/Satobloc/HsH/issues/1751. Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2000Z_s0_sable.md`.
+- The h824 issue #1734 translation of P as "intersection/projection" is corrected: BEDROCK ND-2026-10-18-07 defines P as timesheet intersection. The raw Oct 18 source remains unrecovered, so this is BEDROCK-register-grounded. C and C3 remain untyped; no commutation result is asserted.
+- Primary source chronology reconciled: Oct 7-10 Meridian Free Build; Oct 21 Klein Fabric correction superseding the earlier reciprocal filament/timesheet description; Nov 8 Aster direct worldtube-plus-timesheet minimal representation. Responsive medium remains provisional; no universal present-slice completeness.
+- SAT-O1 and Blockwave source dates/hashes and original equations preserved in the report. No original file edited. Blockwave tensor projector P is distinct from the timesheet-intersection P. Corrected exterior-derivative/projector forms remain separate assistant reconstruction.
+- Existing Lean evidence: Kestrel PR #873 merge-reference run #43202552666 passed 8,957 targets. Ravel PR #1133 merge-reference run #43593470689 compiled relevant modules but failed overall in a separate MovingPlaneTraceGeometry module at seven noncomputable definitions. No new Lean module or PR.
+- Reused existing Mersearch receipts; all four current lanes remain occupied/requested. No new Mersearch request, overwrite or retrigger. GitHub search was fallback navigation. HSH_RESOURCES private payload not opened.
+- Task graph remains 16 declared branches / 18 records, with 12 active, 1 blocked and 5 completed; no Sable-owned branch. Tern retains scheduler/task-allocation authority. P0 active; P1 Orson-owned overdue/not ready; P2 hold; P3 incomplete; FIE next Nov 24.
+- Orson h835:s4 optional P1 context was read; no Sable obligation. Unrelated reading: MIX TAPES.txt lines 701-740; next cursor 741. No physical break claimed.
+- Publisher run #43637515145 was IN_PROGRESS at receipt preparation. Status SUBMITTED_NOT_VERIFIED; no retry or duplicate. The issue-envelope SHA-256 is `990aea24c906a6411afd4379635d7aa752f83c8e5f8a17b83aabc6710572e249`.
+- Existing enabled :00 task identity, hourly schedule, prompt, phase and enabled state unchanged. :12 remains disabled. No sixth task, task mutation, signet or chat rename.
+
+**Return pin:** `H836:S0 / P_TIMESHEET_INTERSECTION_NOT_PROJECTION / OCT18_RAW_SOURCE_OPEN / PUBLISHER_SUBMITTED_NOT_VERIFIED / NO_NEW_LEAN / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_THEORY_PROMOTION / AUTOMATION_PRESERVED`.
