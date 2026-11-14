@@ -9,7 +9,7 @@ Current return point: [Calder CURRENT_WORK](./CURRENT_WORK.md), h829:s4.
 - Aldus h829:s3 composition packet was read post-start; its map order is a proposal, not a formal composition. Publisher issue #1738 rejected SHA-256; no retry.
 - Empirical Calder historical thread ID remains unknown. No cross-thread delivery or new conversation.
 - Public report submitted through publisher issue [#1739](https://github.com/Satobloc/HsH/issues/1739), SHA-256 `c84ae5663e1f23a3563faddc2238a097fc3f573188dac4f95a4399aa006cea72`; publication pending canonical artifact/readback.
-- Next ring identity Hale h830:s0; optional post-start repository handoff only. No task/ownership transfer.
+- Next ring identity Hale h830:s0; [post-start optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1348Z_from_s4_to_s0_hale_POSTSTART_OPTIONAL_WH02_REVIEWMIND.md) and Hale INBOX pointer are read-back verified. No task/ownership transfer.
 
 Do not rebase or edit PR #1710 without an authenticated local checkout or approved branch-update route and complete regression/CI plan. Preserve P0 and Orson P1 boundaries.
 
