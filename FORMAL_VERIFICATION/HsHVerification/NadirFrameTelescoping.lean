@@ -63,4 +63,27 @@ theorem chain_left_gauge (k start : G) (steps : List G) :
       rw [ih b]
       rw [edge_left_gauge]
 
+
+/-- The linear part of a Euclidean similarity has equal principal stretches.
+If Q is orthogonal, multiplying it by a scalar σ scales every direction by
+the same magnitude. This is a property of the assistant's Sim⁺(4) ansatz,
+not a physical claim about SAT. -/
+theorem similarity_gram_isotropic
+    {n : Type*} [Fintype n] [DecidableEq n]
+    (Q : Matrix n n ℝ) (σ : ℝ)
+    (hQ : Q.transpose * Q = 1) :
+    (σ • Q).transpose * (σ • Q) = (σ ^ 2) • (1 : Matrix n n ℝ) := by
+  calc
+    (σ • Q).transpose * (σ • Q)
+        = σ • (Q.transpose * (σ • Q)) := by
+            rw [Matrix.transpose_smul, smul_mul_assoc]
+    _ = σ • (σ • (Q.transpose * Q)) := by
+            rw [mul_smul_comm]
+    _ = (σ ^ 2) • (Q.transpose * Q) := by
+            simp [pow_two]
+    _ = (σ ^ 2) • (1 : Matrix n n ℝ) := by
+            rw [hQ]
+
+#print axioms similarity_gram_isotropic
+
 end HsHVerification.NadirFrameTelescoping
