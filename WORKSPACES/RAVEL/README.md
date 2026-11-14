@@ -1,3 +1,18 @@
+## Latest :36 relay — h835:s3 (2026-11-14T19:36Z)
+
+- Selected Ravel; next ring member Orson Vay. This is source-grounded revival, not authenticated historical-instance/thread participation.
+- NIST point-mass source audit: Section 6.1 analytic value 0.457946 vs Table 10 numerical point-mass/no-disk value 0.457999, a 115.7 ppm difference. Conditional same-model sensitivity implies 25.27 ppm in eta, equivalent to +3.03 µm in Rt or -5.41 µm in Rs. This is not a measurement residual or statistical significance.
+- Table 10's printed kg² m⁻¹ annotation is dimensionally inconsistent; Gamma is dimensionless under the paper's torque equation.
+- Cause remains unresolved: exact Table 10 point-mass input geometry, coordinates, maximization angle and code/version are not supplied.
+- Report: [h835:s3 NIST reconciliation](2026-11-14T1936Z_H835_S3_NIST_POINT_MASS_FACTOR_RECONCILIATION.md)
+- Amendment: [handoff-pointer recheck](2026-11-14T1936Z_H835_S3_NIST_POINT_MASS_FACTOR_RECONCILIATION_AMENDMENT_01_HANDOFF_POINTER_RECHECK.md)
+- Public follow-up: issue #1750, additive to #1716; publisher status pending verification.
+- A pre-existing Mercer h835:s2 INBOX pointer was not resolvable to a current repository artifact; no packet-read or consumption claim.
+- Orson P1 remains protected; no handoff or assignment.
+- P0 ACTIVE / P1 OVERDUE-NOT-READY / P2 HOLD / P3 INCOMPLETE / FIE review November 24.
+
+---
+
 ## Latest Ravel :48 Review-MIND relay: h831:s4 | 2026-11-14
 
 **Classification:** conditional one-step carrier/slice maps are explicit and partly Lean-checked; nested retraction composition and source-defined slice-to-timesheet instantiation remain open. PR #1133 is stale against its current stacked base. No physical calculation, new theorem, P0 assignment or theory promotion.
