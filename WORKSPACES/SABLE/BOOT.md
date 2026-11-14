@@ -2,7 +2,7 @@
 
 **Purpose:** compact role, authority, and continuity launch packet. Assistant-curated navigation, not a signed charter, identity proof, or theory authority.
 
-**Last prepared:** 2026-11-14 h828:s2 (current-main auditor gap audit and scheduler cross-section).
+**Last prepared:** 2026-11-14 h836:s0 (Lane 00 source-fidelity correction; publisher submitted, readback pending).
 
 ## Identity and historical remit
 
@@ -27,11 +27,28 @@
 
 Tern owns scheduler and task-allocation control. Sable may analyze, recommend, and maintain its own continuity, but must not change task IDs, schedules, phases, prompts, cadence, enabled state, task count, or ownership without explicit Nathan authorization.
 
-Sable is selected through the fixed 19-identity ring, not a fixed automation. h824:s3 selects Sable; h824:s4 selects Loom. The existing :36 lease remains enabled with its exact saved hourly schedule, prompt and phase. Four existing phases remain enabled (:00, :24, :36, :48); :12 remains disabled. No sixth task.
+Sable is selected through the fixed 19-identity ring, not a fixed Sable-specific automation. For h836:s0 the ring selects Sable; the next deterministic label is Loom at the disabled :12 slot; the next active phase is :24, selecting Aster. The existing :00 Archive task and the other enabled phases remain unchanged; :12 remains disabled. Tern retains scheduler/task-allocation authority. No task mutation or sixth task.
 
 ### Code Grurple role check
 
 P0 remains ACTIVE, but the live [Code Grurple roster](../COMMON/CODE_GRURPLE_ROSTER.md) assigns Papers A+B presentation QA to Mercer and consolidation to Tern. The returning-instance pool is discretionary support only when a site-capable worker is actually available. No dedicated Sable P0 presentation-QA assignment is established by the live roster. Do not accept an incoming handoff's role label as an assignment unless the current roster and Nathan's authority support it.
+
+## Current continuity: h836:s0
+
+- Run key: REVROT3-19-20261011:836:s0; nominal slot 2026-11-14T20:00Z. Selected Sable (ring index 0); next deterministic label Loom (index 1). The :12 phase is disabled; next active phase is :24, selecting Aster at h836:s2.
+- Lane 00 correction: [h836 report](2026-11-14T2000Z_H836_S0_LANE00_INTERSECTION_PROJECTION_SOURCE_FIDELITY_CORRECTION.md), [issue #1751](https://github.com/Satobloc/HsH/issues/1751), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2000Z_s0_sable.md). Report SHA-256 in publisher envelope: 990aea24c906a6411afd4379635d7aa752f83c8e5f8a17b83aabc6710572e249. Publisher run #43637515145 was IN_PROGRESS at receipt preparation; status SUBMITTED_NOT_VERIFIED, no retry.
+- Main branch report commit: 4b79eb0b003e2090dc379b5422d54175e7f09195. Receipt commit: 8d97eeef602bcb8bb6451406da1bb0b347ead5bc. No Sable feature branch or local checkout created. No CURRENT_WORK.md exists; BOOT, README and CONTINUITY_CHECKPOINT remain the launch surfaces.
+- Historical remit: systems/capability architecture, workflow navigation, continuity, automation-yield and source/tool/resource testing. No standalone signed charter. Lane 00 was an explicit one-run assignment, not a durable role change. Current Sable thread remains unauthenticated; no cross-thread delivery.
+- Source chronology: Oct 7-10 Meridian Free Build direct user messages; Oct 21 Meridian Minkowski Ring Analysis correction superseding the earlier reciprocal filament/timesheet description in favor of Klein Fabric; Nov 8 Aster direct source retaining worldtube plus timesheet as a minimal representation, with responsive medium provisional and no universal present-slice completeness. The raw Oct 18 source behind BEDROCK ND-2026-10-18-07 remains unrecovered.
+- Corrected operator typing: P is timesheet support intersection, not projection. C is structural coarse-graining; C3 is trace coarse-graining. P(C(G)) versus C3(P(G)) remains an open operator-order question because C/C3, timesheet transport and common comparison codomain are undefined. Projection and downstream instrument readout are separate maps.
+- SAT-O1 and Blockwave originals remain unchanged. Original provenance and hashes are in the h836 report. Blockwave tensor projector P^mu_nu is distinct from timesheet-intersection P. Corrected exterior-derivative forms remain separate assistant reconstruction.
+- Lean evidence: Kestrel PR #873 run #43202552666 is a successful merge-reference build, 8,957 targets. Ravel PR #1133 run #43593470689 compiled relevant modules but failed overall in separate MovingPlaneTraceGeometry definitions. Both PRs remain open/draft/unmerged; no new module or PR.
+- Mersearch: reused existing stable-1.0 receipts; all four current lanes remain occupied/requested. No new request, overwrite or retrigger; GitHub search was fallback, not Mersearch execution. HSH_RESOURCES private payload unopened.
+- Task graph: 16 declared branches / 18 records, 12 active, 1 blocked, 5 completed; no Sable-owned branch. Tern retains scheduler/task-allocation authority. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE last reviewed Nov 10; next Nov 24.
+- Orson h835:s4 optional P1 context packet read after slot start; no Sable task, review, deadline or ownership. Unrelated reading: MIX TAPES.txt lines 701-740; next cursor 741. No physical break claimed.
+- Existing enabled :00 task identity, hourly schedule, prompt, phase and enabled state unchanged. :12 remains disabled. No sixth task, task mutation, signet or chat rename.
+
+**Return pin:** H836:S0 / P_TIMESHEET_INTERSECTION_NOT_PROJECTION / OCT18_RAW_SOURCE_OPEN / PUBLISHER_SUBMITTED_NOT_VERIFIED / NO_NEW_LEAN / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_THEORY_PROMOTION / AUTOMATION_PRESERVED.
 
 ## Current continuity — h828:s2
 
