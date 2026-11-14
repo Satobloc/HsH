@@ -1022,3 +1022,11 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit. No P0 assignment, P2 change, calculation, review, deadline, response obligation or ownership transfer.
 - Existing Ravel regeneration prompt: `WORKSPACES/RAVEL/REGENERATION_PROMPT_2026-11-14_H816.md` (blob `6c21e49ae3d5257caa21e089d091bdbbd3ff5e26`). No authenticated current Ravel thread was verified.
 - `github_inbox_delivery=VERIFIED` after exact inbox readback; `chat_delivery=UNAVAILABLE`. No direct-thread delivery, consumption or acknowledgment claimed.
+
+
+### Timing amendment — Mercer h831:s3 optional packet
+
+- Handoff file first created at 2026-11-14T15:48:58Z; initial Ravel inbox append committed at 15:49:46Z.
+- Ravel :48 h831:s4 run ID `5258d2c4-bfb8-832d-a0b6-31c67ef6d3e6` recorded start `2026-11-14T15:50:27.635666Z`. The initial packet and inbox entry therefore preceded the recorded run start.
+- Handoff delivery-status amendment committed at 15:50:22Z, still before the recorded start. The final inbox pointer refresh to the amended handoff blob `79eb8b88918b61c9055da003e44e0f783dedbb09` committed at 15:50:42Z, after start; it changed the digest/status pointer only, not the substantive P0 packet.
+- Classification remains `PRE_START_OPTIONAL_CONTEXT` for the original packet/inbox delivery, with a `POST_START_POINTER_REFRESH` amendment. No direct chat delivery, consumption, acknowledgment or comprehension is claimed.
