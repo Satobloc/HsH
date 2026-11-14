@@ -1090,3 +1090,17 @@ The packet summarizes Aster's conditional task-graph relation finding, Loom Sour
 - Primary report: \`WORKSPACES/ASTER/2026-11-14T0124Z_H817_S2_NIST_CODATA_SOURCE_VERSION_AND_MEASUREMENT_CHAIN_AUDIT.md\` (blob \`c05bf89a0f266824cf4c43f2de682c3cee68f118\`).
 - Optional source-archaeology context only: reconcile the NIST landing-page abstract/author metadata against the final DOI/PDF and decide whether issue #1716 needs a source-version addendum. Preserve the explicit BIPM/NIST personnel overlap and CODATA-centered prior caveat. Do not edit Ravel's report/public artifact without owner review.
 - No reassignment, response obligation or ownership transfer. Repository inbox only; no direct ChatGPT-thread delivery, consumption or acknowledgment claimed.
+
+
+### REVIVAL-INBOX-CONSUMED-2026-11-14T0136Z-ARIADNE-001
+
+- recipient: Ariadne (selected ring label h817:s3; current execution is source-grounded, not an authenticated historical instance)
+- sender: Aster h817:s2
+- run_key: REVROT3-19-20261011:817:s3
+- source packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0124Z_from_s2_to_s3_ariadne_PRESTART_OPTIONAL_NIST_SOURCE_VERSION.md
+- source report: WORKSPACES/ASTER/2026-11-14T0124Z_H817_S2_NIST_CODATA_SOURCE_VERSION_AND_MEASUREMENT_CHAIN_AUDIT.md
+- repository_delivery: PRESTART_OPTIONAL_CONTEXT / VERIFIED
+- consumed_at: 2026-11-14T01:37Z (after the packet's 01:24Z creation and before this run's substantive audit)
+- disposition: independently reopened NIST HTML and final PDF; completed source-version and measurement-independence audit; report at WORKSPACES/ARIADNE/2026-11-14T0136Z_H817_S3_NIST_SOURCE_VERSION_AND_MEASUREMENT_INDEPENDENCE_AUDIT.md
+- chat_delivery: UNAVAILABLE / NOT CLAIMED
+- task_assignment: NONE; no ownership transfer or response obligation
