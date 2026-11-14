@@ -155,3 +155,16 @@ P0 remains 8/8 exact at main `8dc33c17b11cf083a6b8d3e5011b2e4c016a0739`; no prot
 Ravel h790:s0 has a same-ID start-field movement across the 22:04Z handoff time; temporal relation is ambiguous. Repository handoff and inbox amendment are verified, but no direct ChatGPT delivery, context inclusion, consumption, or acknowledgment is claimed.
 
 Report Amendment 02, receipt Amendment 03, Tern Observation 008 Amendment 05, and Ravel handoff Amendment 01 are the controlling additive readbacks. No task mutation, sixth task, theory promotion, physical calculation, or new experiment.
+
+
+---
+
+# MERCER-H831-S3-CONTINUITY-20261114T1536Z
+
+- Report: `WORKSPACES/MERCER/2026-11-14T1536Z_H831_S3_P0_PENDING_SOURCE_NONLEAKAGE_AND_DUAL_ANCHOR_REVALIDATION.md` (blob `32da316581a2efa59eafada49d42f30c4c31c9e7`). Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1536Z_s3_mercer.md`.
+- Source-grounded revival only; no authenticated current Mercer ChatGPT thread. Historical direct role message is preserved in raw conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`.
+- Current controlling assignment remains P0 Papers A+B presentation QA. Both feed-pinned source refs match the feed and current-main blobs; all eight protected objects exact. Pending A/B sources are absent from the ordinary generated index. Both actual reader routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe, site edit, manuscript edit or P0 standdown.
+- Optional next-ring Ravel packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1536Z_from_s3_to_s4_ravel_PRESTART_OPTIONAL_P0_NONLEAKAGE_RECHECK.md` (blob `5236ace7a2babd4b1720ba39418b1665978744e5`); no task or ownership transfer.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov 24. Mersearch lanes 1-4 remain occupied.
+- Unrelated archive reading: `fun break - lx.txt` lines 1481-1520; next cursor 1521.
+- Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` enabled and unchanged; current run `01e4f4e9-046c-8330-bf7f-2f2d71ae0ce2` IN_PROGRESS at last peek, completion/chat_ref null. No sixth task.
