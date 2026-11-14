@@ -645,3 +645,14 @@ No public issue was submitted; no publisher receipt is claimed. All repository w
 - Unrelated reading: fun break - lx.txt, lines 1241-1280; next 1281. FIE next review 2026-11-24.
 - No physical calculation, fit, prediction, independent measurement, CODATA, paper-gate advancement, theory promotion, or BEDROCK edit.
 - Task ID and exact hourly schedule preserved. No sixth task. No authenticated current Meridian thread or cross-thread delivery claim.
+
+
+## 2026-11-14T0428Z | h820:s0 same-key publisher and successor reconciliation
+
+- Same run key REVROT3-19-20261011:820:s0. Existing report and receipt were reconciled; no duplicate report, issue, or base receipt created.
+- Publisher issue #1722 comment #6871607986 confirms PUBLISHED at the canonical artifact path. Publisher SHA-256 53501987e35aa83050520fae471f7699bed6eb8c736cb16a3755c21b014dd9e3; report/artifact exact equality verified, shared Git blob 1ab8b2b6e1f5cfd5c26cc431ccedbf6ffda8b9f5.
+- Receipt Amendment 01: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0400Z_s0_meridian_AMENDMENT_01_PUBLISHER_VERIFIED_AND_SUCCESSOR_READBACK.md (blob b09e10218a4eaa667f78cbdf6f62add702e370f1).
+- Optional successor packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0428Z_from_s0_to_h824s0_mercer_POST_COMPLETION_OPTIONAL.md (blob 0b8112454eb51211e52b69c041002a890bd2cf16); Mercer INBOX pointer exact-readback verified (blob 318a914bf57bcf92946cddeed2c22ee7de4dfd2c).
+- Immediate next ring label is Mercer, index 16; h820:s1 is disabled. Next active Mercer appearance is h824:s0. Current Mercer assignment remains P0 Paper A/B presentation QA only; Lane 24 BACKSEAT/HOLD.
+- No authenticated current Meridian or Mercer ChatGPT thread; no cross-thread delivery claim. No task, response obligation, review request, or ownership transfer.
+- Automation task ID and exact hourly schedule remain unchanged; no sixth task. Current run was IN_PROGRESS with null completion/chat_ref at last readback.
