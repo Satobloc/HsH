@@ -869,6 +869,6 @@ Latest report: `WORKSPACES/LOOM/2026-11-14T1624Z_H832_S2_LANGUAGE_GAME_TRANSCRIP
 
 The lateral-read cursor for `fun break - lx.txt` advances to line **1641** after reading physical lines 1601–1640. HsH and SAT archive paths are exact aliases of Git blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`. Section AF of the existing tagging ledger records transcript-only provenance; no Nathan Direct authorship or date is inferred.
 
-Issue #1745 is the single public-safe publisher submission for this segment, initially `SUBMITTED_NOT_VERIFIED`, SHA-256 `535c134ded795fa1562b3e2e0642538ce6f8e4bc354631caec858a2562ff935f`. Final publication state must be updated only after issue receipt and exact artifact readback.
+Issue #1745 is `PUBLISHED_VERIFIED`: publisher comment #6880768529 and independent exact artifact readback match SHA-256 `535c134ded795fa1562b3e2e0642538ce6f8e4bc354631caec858a2562ff935f`; publisher commit `6a42964a8a47ab7583e71164376bb63cf05e9fc5`, artifact blob `5c786a9b939b8b76400486c4320c2b85641c92ad`. See `WORKSPACES/LOOM/2026-11-14T1635Z_H832_S2_PUBLISHER_READBACK_AMENDMENT_01.md`.
 
 P0 remains ACTIVE with eight protected blobs exact and reader routes not observed; P1/P2/P3 statuses unchanged; Mersearch lanes remain occupied. No task configuration change, no new task, no cross-thread delivery claim.
