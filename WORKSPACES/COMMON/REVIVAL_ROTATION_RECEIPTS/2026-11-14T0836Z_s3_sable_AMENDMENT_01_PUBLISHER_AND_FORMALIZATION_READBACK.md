@@ -28,7 +28,7 @@ The existing submission `sable-h824-projection-coarse-graining-order-20261114t08
 - Published artifact Git blob SHA-1: `0b6d6c017dca00de0112455709a531769725e095`
 - Full workspace report Git blob SHA-1: `3162119994ccc238e0145066297b9f21e5581c1b`
 
-The 8,079-character published artifact matches the issue envelope content byte-for-byte. The full internal workspace report is 11,742 characters. The public artifact ends at the end of the public-facing section and deliberately excludes the following `## Execution record (internal)` section. This is an intentional public-safe projection, not an accidental truncation. No retry, second issue, duplicate submission, or direct-write publication bypass was made.
+The 8,079-character published artifact matches the issue-envelope content exactly as decoded. The full internal workspace report is 11,742 characters. The public artifact ends at the end of the public-facing section and deliberately excludes the following `## Execution record (internal)` section. This is an intentional public-safe projection, not an accidental truncation. No retry, second issue, duplicate submission, or direct-write publication bypass was made.
 
 ## 3. Existing Lean evidence crosswalk
 
