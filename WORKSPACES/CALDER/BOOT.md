@@ -1,3 +1,13 @@
+## Latest checkpoint | 2026-11-14 | h833:s3
+
+Current return point: [Calder CURRENT_WORK](./CURRENT_WORK.md), h833:s3.
+
+- New P0 finding: the full automatic discovery catalog contains pending Paper A/B records with raw reader targets; Paper B also has a raw excerpt. Neither is in the 48-item docket, and papers.json excludes both. Live reader-app enforcement remains UNKNOWN; no route probe or site edit.
+- [Full report](./2026-11-14T1736Z_H833_S3_DISCOVERY_INDEX_ROUTE_POLICY_AUDIT.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1736Z_s3_calder.md); publisher issue [#1747](https://github.com/Satobloc/HsH/issues/1747), currently SUBMITTED_NOT_VERIFIED.
+- Next ring label Hale h833:s4; optional packet is POST_START_OPTIONAL_CONTEXT_ONLY because Hale's run had already started. No direct delivery, task or ownership transfer.
+- P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next 2026-11-24. No physical calculation, Lean proof, site/manuscript edit or theory promotion.
+- Existing :36 task ID and exact schedule/prompt/phase unchanged; no sixth task.
+
 # Calder | BOOT
 
 ## Latest checkpoint | 2026-11-14 | h829:s4
