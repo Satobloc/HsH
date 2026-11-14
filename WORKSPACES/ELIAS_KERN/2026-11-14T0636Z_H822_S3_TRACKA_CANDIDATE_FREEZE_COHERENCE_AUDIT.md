@@ -112,7 +112,7 @@ Calibration/holdout fields are not applicable to the synthetic software replay. 
 
 ## 5. Worldtube and source-authority consequence
 
-BEDROCK BR-006 is ND + WB as a framework-internal premise, not demonstrated physics. The recovered October 17 source chain distinguishes:
+BEDROCK BR-006 is ND + WB as a framework-internal premise, not demonstrated physics. The existing October 17 source-recovery record identifies raw conversation `6ad065ae-9b8c-83e9-8858-d99dd9a4a5e1`, raw export Git blob `40daedbf045ce16442fd493d2992062487b3c369`, and distinguishes:
 - Nathan Direct message `4d62333e-9a90-4aee-a3cf-2513149fe84e` at 07:49:42.233Z: each completed release revolution adds braid history; long-term planetary-system rotation is expected to approach galactic rotation-curve behavior.
 - Nathan Direct message `c293bf0e-6a8a-4f59-8e9a-c76ebb12a1f1` at 07:51:09.865Z: interbraid constrains the possible configurations of continuously interlocked worldtubes.
 - Assistant message `e7001fa7-1b3e-41a3-bdb7-5cbd06eee29f` at 07:49:43.228Z: first introduction of the scalar (B(t)) relation.
@@ -142,7 +142,7 @@ No callable Mersearch action was exposed in this runtime. All four canonical Mer
 
 No request was overwritten, retriggered, or replaced. Bounded GitHub search was used across HsH, the SAT archive, and HSH_RESOURCES as a fallback, not represented as a Mersearch execution or exhaustive search.
 
-Existing switchboard POC, PR #951, PR #1133, and prior Math Hopper/Whirligig/Lean work were considered. SciSpace is available but was unnecessary for this software-contract question. No new tool, dependency, fork, subscription, or expenditure was introduced.
+Existing switchboard POC, PR #951, PR #1133, and available Math Hopper/Whirligig/Lean references were checked. SciSpace is available but was unnecessary for this software-contract question. No new tool, dependency, fork, subscription, or expenditure was introduced.
 
 ## 8. Campaign and maintenance
 
