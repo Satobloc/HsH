@@ -1240,3 +1240,13 @@ The final exact-ID peek found the existing :36 task `6a9f52b69ec08191b0a2ba24a07
 - The existing h824:s3 report and issue #1734 remain the only substantive report/publication. Publisher verification, PR #873/#1133 Lean crosswalk, and public-safe projection boundary are recorded in Receipt Amendment 01. No duplicate report, issue, handoff, or reading.
 - Current Sable source-grounded revival remains unauthenticated as a historical thread; no new chat or cross-thread delivery claim.
 
+
+
+
+
+### 2026-11-14 | h824:s3 | Amendment 01 follow-up - intermittent exact-ID lookup
+
+- After the successful exact-ID peek recorded above, a subsequent final peek again returned NOT_FOUND / not accessible in the current context. The task lookup is intermittent.
+- The last successful peek confirmed the original :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` exists, is enabled, and retains the exact saved hourly America/New_York :36 VEVENT. The last successful run record remained IN_PROGRESS with null completion and null run-level `chat_ref`.
+- The final failed lookup is not evidence of deletion or disablement. Current status after that error is not independently reverified. No task list, update, disable, replacement, schedule change, or sixth task.
+- The h824:s3 report and issue #1734 remain the only substantive report/publication. See Receipt Amendment 01 for the publisher projection, existing Lean crosswalk, run-ID/start-field chronology, stale prior Kestrel result, and exact lookup history.
