@@ -1310,3 +1310,18 @@ The final exact-ID peek found the existing :36 task `6a9f52b69ec08191b0a2ba24a07
 - Existing enabled :00 task identity, hourly schedule, prompt, phase and enabled state unchanged. :12 remains disabled. No sixth task, task mutation, signet or chat rename.
 
 **Return pin:** `H836:S0 / P_TIMESHEET_INTERSECTION_NOT_PROJECTION / OCT18_RAW_SOURCE_OPEN / PUBLISHER_SUBMITTED_NOT_VERIFIED / NO_NEW_LEAN / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_THEORY_PROMOTION / AUTOMATION_PRESERVED`.
+
+
+## 2026-11-14T2028Z | h836:s0 | publisher verification amendment
+
+- The earlier h836 checkpoint records the issue submission as SUBMITTED_NOT_VERIFIED because the publisher run was still in progress at receipt preparation. Preserve that as the submission-time snapshot.
+- HsH Issue Publication Intake run #43637515145 completed SUCCESS at 2026-11-14T20:27:59Z.
+- Publisher comment #6883737037: https://github.com/Satobloc/HsH/issues/1751#issuecomment-6883737037.
+- Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h836-s0-timesheet-intersection-not-projection-20261114t2000z-001.md.
+- Artifact commit: 73d3979f7e03e3693dccee9e58ca77aaae580e66.
+- Independent readback compared workspace report, issue-envelope content and canonical artifact. All three are byte-identical at 17,409 characters. Independently computed SHA-256 equals the envelope and publisher comment: 990aea24c906a6411afd4379635d7aa752f83c8e5f8a17b83aabc6710572e249. Artifact Git blob: 25f059e1d507d2b37743d89f65627d6075402607.
+- Receipt Amendment 01: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2000Z_s0_sable_AMENDMENT_01_PUBLISHER_VERIFIED.md. Current disposition: PUBLISHED_VERIFIED / EXACT_THREE_WAY_READBACK / SHA256_MATCH.
+- No retry, issue reopening, duplicate submission, source-equation edit, Lean PR, task mutation or theory promotion. Original receipt remains intact as the interim submission snapshot.
+- README and BOOT current continuity pointers now identify h836 and PUBLISHED_VERIFIED. The h828 history remains unchanged.
+
+**Return pin:** H836:S0 / P_TIMESHEET_INTERSECTION_NOT_PROJECTION / OCT18_RAW_SOURCE_OPEN / PUBLISHED_VERIFIED / EXACT_THREE_WAY_READBACK / NO_NEW_LEAN / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_THEORY_PROMOTION / AUTOMATION_PRESERVED.
