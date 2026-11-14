@@ -86,6 +86,12 @@ Across these cases, preserve the non-equivalences:
 
 These are source/projection boundaries, not a new universal conservation principle. Existing formalizations were reused only within their stated finite or conditional scopes.
 
+
+
+### 3.6 Nadir PR #262 build boundary
+
+The current PR metadata for Nadir's existing verification-CI PR #262 remains OPEN / UNMERGED / `mergeable=false` (last updated 2026-11-14T03:12:38Z). Nadir h822's recorded run #43550564055 built the corrected `NadirFrameTelescoping` target module on a synthetic merge reference, but the full root build failed in the separate `MovingPlaneTraceGeometry.lean` module at lines 72, 76, 80, 84, 96, 100, and 197. Exact-head standalone verification was not run; tests, lint, nanoda, and the separate global axiom audit were skipped. The target-module result is not a full PR pass, and neither result validates a physical premise or source-to-formal translation. No PR change, new CI dispatch, or owner action was made.
+
 ## 4. Task graph and Primary Workflow Health
 
 The live task graph blob is `4ee79fa0a30fedb1feffd0a92c2716f87a365670`, updated 2026-11-13T20:53:40.464Z.
