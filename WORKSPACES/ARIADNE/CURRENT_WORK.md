@@ -518,3 +518,6 @@ Pre-write main head: b818b452a117b844e54d2c1bc32b9063b3ecc60d. The existing :48 
 - P0 remains ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No CODATA comparison, physical calculation, H(s)H prediction, independent measurement, equation alteration or theory promotion.
 
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0524Z_s2_ariadne.md` (latest blob `5283d1bbabf68273df19c2c74de822897b37d6c1`); publisher issue #1724 remains `PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED`, with no retry or duplicate.
+
+- Final scheduler readback correction at 05:45:33Z: the :36 task's exact-ID peek returned ERROR (task found, run result unreadable). Last positive read at 05:38:09.507384Z showed h821:s3 run `f759917e-63fc-8324-be81-79b649aac085` IN_PROGRESS with null completion/chat_ref; current :36 status is unconfirmed. Tern Observation 028 Amendment 04 records this; no failure/completion/concurrency inference.
+- Canonical receipt latest blob after readback correction: `2dfb0711850bf5c967e955b6c94224076c0a1a85`.
