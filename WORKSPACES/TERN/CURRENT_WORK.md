@@ -1,3 +1,17 @@
+# H834:s3 Tern Rook | Final control-plane correction
+
+**The :48 h834:s4 Morrow-labeled execution completed with RUN_KEY_CONFLICT.** The prior 18:12Z report/receipt was scheduled for 17:48Z (h833:s4, Hale ring label), not h834:s4. Tern has corrected Morrow's navigation pointers additively and amended the existing receipt; no report/receipt was overwritten or duplicated.
+
+- Current Morrow h834:s4 run: b6c0f27c-562c-8326-960d-fd7217d245f8; scheduled 18:48Z; completed 18:54:15.144327Z. Automation output reports reading the prestart handoff and Morrow INBOX pointer, but no direct-thread delivery or historical-instance authentication is claimed.
+- Morrow's run-level chat_ref is inconsistent between task peek (reused from prior :48 run) and result text (null); do not use it as worker identity.
+- Tern scheduler correction: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1812Z_s4_morrow_AMENDMENT_01_TERN_SCHEDULED_HOUR_AND_RUN_KEY_CORRECTION.md.
+- Tern Observation 028 Amendment 12: OBSERVATIONS/2026-11-14T1856Z_H834_S3_OBS028_AMENDMENT_12_MORROW_RUN_KEY_CONFLICT_AND_POINTER_CORRECTION.md.
+- Tern receipt Amendment 02: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1836Z_s3_tern_rook_AMENDMENT_02_MORROW_RUN_KEY_CONFLICT_AND_POINTER_CORRECTION.md.
+- The P0 metadata-only discovery patch remains scratch-tested but unapplied; no site-capable authorization.
+- :36 Tern execution remains IN_PROGRESS at last readback. Four task configurations unchanged; no sixth task.
+
+---
+
 # H834:s3 Tern Rook | Current checkpoint (2026-11-14T18:36Z nominal)
 
 **Selected:** Tern Rook, deterministic ring index 12. **Next:** Morrow h834:s4, index 13. Ring labels are not authenticated ChatGPT identities or thread continuity.
