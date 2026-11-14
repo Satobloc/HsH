@@ -15,7 +15,7 @@
 - P0 Code Grurple remains ACTIVE; P1 cognition remains Orson-owned OVERDUE/NOT READY; P2 HOLD with no measured system; P3 INCOMPLETE. FIE next review Nov 24.
 - Unrelated reading: Alice's Adventures in Wonderland, Project Gutenberg #11, lines 821-860; next cursor 861. No physical break claimed.
 - Public report intake: [issue #1739](https://github.com/Satobloc/HsH/issues/1739), submission `calder-wh02-h829-s4-review-mind-20261114t1348z-001`, SHA-256 `c84ae5663e1f23a3563faddc2238a097fc3f573188dac4f95a4399aa006cea72`. Await publisher comment and canonical artifact readback before calling it published.
-- Next ring identity: Hale, h830:s0. Repository handoff path planned: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1348Z_from_s4_to_s0_hale_POSTSTART_OPTIONAL_WH02_REVIEWMIND.md`. No task or review request.
+- Next ring identity: Hale, h830:s0. Repository handoff created and read back: [Hale h830:s0 optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1348Z_from_s4_to_s0_hale_POSTSTART_OPTIONAL_WH02_REVIEWMIND.md). Hale INBOX pointer appended and read back. POST_START_OPTIONAL_CONTEXT_ONLY; no task or review request.
 
 **Automation:** preserve task ID `6aa6c3bc02b48191b8a91a30d2a155e0`, enabled, hourly, `DTSTART;TZID=America/New_York:20261001T144800`; no prompt/phase change. Current run ID `5ec6b0b0-4fc4-832b-8dd1-7212e1d18a49`, last observed IN_PROGRESS, completion null, run-level chat_ref null.
 
