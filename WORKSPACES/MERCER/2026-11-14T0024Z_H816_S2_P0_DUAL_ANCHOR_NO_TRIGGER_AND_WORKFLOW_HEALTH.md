@@ -29,11 +29,11 @@ Relevant source identities:
 | HsH BEDROCK | `0253ace674bbc361464b7bbaac2c41aa3d8e8867` |
 | Steering Charter 2026-10-26 | `be44c424674764c602b5f618dfce528c0f97b0ef` |
 | Three Paper Campaign | `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4` |
-| Three-repository onboarding | `fe4029f2d8f6a3d2e7f3e2f7e0f0f7f0f0f0f0f0` |
-| Revival V3 | `7373d6c1f0d7c4f9d2f0a1b4c3d5e6f708192a3b` |
+| Three-repository onboarding | `fe40260cda5ce360909f2adfd64a3cc3e2c92a05` |
+| Revival V3 | `7373ece95ead0f2f9e57d7e5ed3bc5c77fa76c14` |
 | Revival V4 | `6761337dfcd0847226ee7baad84db0a9c496760a` |
-| Code Grurple roster | `cc96b7a1f3d9c8e7b6a5d4c3f2e1a0b9c8d7e6f5` |
-| Task branch graph | `4ee79a1d9b6c2f3e8a7d5c4b3f2e1a0d9c8b7a6f` |
+| Code Grurple roster | `cc96c0bfafc95c54e7960899c7306031e5abce17` |
+| Task branch graph | `4ee79fa0a30fedb1feffd0a92c2716f87a365670` |
 | Primary Workflow Health queue | `e9ac377e590c898bf5c40c0ef65956cc373eb080` |
 | Mercer README before pointer update | `65b70a193fc39fc64165e2ed40f44a849c5f7b1a` |
 | Mercer Trial Checkpoint before append | `0d1d2731b70e863f90db716312ac845a2041c5d3` |
