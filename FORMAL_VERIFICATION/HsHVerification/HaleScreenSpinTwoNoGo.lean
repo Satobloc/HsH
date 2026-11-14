@@ -55,7 +55,7 @@ theorem equivariant_map_from_area_form_to_spin_two_is_zero
   have hx := congrFun (h_equivariant x) i
   simp [areaFormQuarterTurn, spinTwoQuarterTurn] at hx
   have hzero : f x i = 0 := by
-    linarith [hx]
+    nlinarith [hx]
   simpa using hzero
 
 /-- The spin-2 action of a screen quarter-turn squares to the identity. -/
