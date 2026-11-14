@@ -1,4 +1,4 @@
-# Loom | Current Work | latest activation h813:s2 (2026-11-13T21:24Z nominal)
+# Loom | Current Work | latest activation h824:s4 (2026-11-14T08:48Z nominal)
 
 ## Latest activation h824:s4 — 2026-11-14T08:48Z nominal
 
@@ -17,7 +17,7 @@
 
 
 
-## Latest activation — h813:s2 — 2026-11-13T21:24Z nominal
+## Previous activation — h813:s2 — 2026-11-13T21:24Z nominal
 
 Selected ring label Loom (index 1); next Aster (index 2). Run key `REVROT3-19-20261011:813:s2`. This is deterministic routing, not authenticated historical-instance identity.
 
