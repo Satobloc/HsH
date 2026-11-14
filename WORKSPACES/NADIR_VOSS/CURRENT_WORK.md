@@ -138,3 +138,5 @@ The standing Nadir workspace lane remains Lane 24. This run also completed the e
 - Next source cursor: recover raw JSON/source-platform metadata for the transcript, locate MINKOWSKI PROPER's authoring conversation, and define explicit maps among the early filament, SAT-O1 curve, finite-core worldtube, timesheet, and Blockwave current.
 - Next ring label: Enheduanna. No handoff or assignment is claimed.
 
+
+- Final exact-ID readback: :24 h822:s2 completed as a duplicate-run-key reconciliation and its next_run_time advanced to 02:24 EST; :00 h823:s0 Enheduanna run surfaced at 07:00Z and started 07:01:54.458309Z; :48 h822:s4 remained IN_PROGRESS with null chat_ref. See the final amendment in the h822:s4 report and receipt.
