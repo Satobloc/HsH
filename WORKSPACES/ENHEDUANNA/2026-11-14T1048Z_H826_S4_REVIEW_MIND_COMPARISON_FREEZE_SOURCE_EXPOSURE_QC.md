@@ -238,3 +238,16 @@ The new run-level `chat_ref` is a current Tern execution-thread candidate for ex
 Other final records: :24 h827:s2 Kestrel run `8d15c45f-5588-8324-9a35-70077f119ab1` completed at 11:35:06.103954Z; :36 h827:s3 run `d87bfde3-2618-832c-ab6f-7e4e176214bc` remains IN_PROGRESS without chat_ref; :48 h826:s4 run `d5dad8b7-7fec-8332-9efa-562321cb3bfe` remains IN_PROGRESS without chat_ref; :12 remains disabled. All saved task IDs and VEVENT schedules remain unchanged.
 
 The :48 wrapper remains IN_PROGRESS at this readback, with null completion and null chat_ref. No sixth task, task reassignment, schedule change, or phase change.
+
+
+## Amendment 02 | final 11:42:08Z scheduler confirmation
+
+A fresh exact-ID peek at 2026-11-14T11:42:08Z confirmed the 11:38 state without further change:
+
+- :00 h827:s0 run `20ddd22c-cf4c-8331-a2c6-660e1a26de14` remains COMPLETED with chat_ref `6af5a30c-486c-83ea-b5f5-1ddf1ccde8c0`.
+- :24 h827:s2 run `8d15c45f-5588-8324-9a35-70077f119ab1` remains COMPLETED with chat_ref.
+- :36 h827:s3 run `d87bfde3-2618-832c-ab6f-7e4e176214bc` remains IN_PROGRESS, completion/chat_ref null.
+- :48 h826:s4 run `d5dad8b7-7fec-8332-9efa-562321cb3bfe` remains IN_PROGRESS, completion/chat_ref null.
+- :12 remains disabled.
+
+All four enabled task IDs and exact saved hourly VEVENTs are unchanged. The current :48 wrapper remains uncompleted. No scheduler configuration was changed.
