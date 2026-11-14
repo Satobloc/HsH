@@ -164,3 +164,12 @@ The :24 run `1cc2f8cd-5594-8327-a2b4-7ab6b0257e9d` is now `COMPLETED`, with run-
 This later result supersedes the initial Section 8 :24 `IN_PROGRESS` snapshot. The recorded :48/:24 overlap lasted **9m48.227091s** (06:50:08.176177Z to 06:59:56.403268Z). The :00 h822:s0 run remains FAILED, :36 h822:s3 remains COMPLETED, and :48 h822:s4 remains IN_PROGRESS at this later readback.
 
 After the :24 run completed, its task-level `next_run_time` still displayed 01:24 America/New_York (06:24Z), the just-completed slot. This is a stale task-level field at this readback, not evidence of a schedule change. Tern's existing inbox already contains Hale's duplicate-run-key reconciliation and receipt-metadata issue; this amendment adds only the later completion and cross-slot interval update.
+
+
+## Amendment 02 | Final scheduler pointer readback
+
+A subsequent exact-ID peek after the prior amendment showed the :24 task's `next_run_time` had advanced to **02:24 America/New_York (07:24Z)**. The earlier 01:24 display was a transient task-level readback during/just after completion, not a persistent schedule mutation.
+
+The :00 task has now surfaced h823:s0, run `f1e14d56-ef70-832b-9961-a35c35d1f987`, scheduled 07:00Z, started 07:01:54.458309Z, IN_PROGRESS, null completion and null chat_ref. Its cached latest_result still belongs to the earlier Meridian h820:s0 run, not h823:s0. The deterministic next ring label remains Enheduanna; no authenticated thread or worker identity is inferred.
+
+The :48 h822:s4 run remains IN_PROGRESS with null completion and null chat_ref; its cached latest_result still belongs to Mira h821:s4. The :00 h823 run and :48 h822 run are separate scheduler records. No process concurrency, retry, restart, substitution, or backend cause is inferred. All task IDs and saved hourly schedules remain unchanged.
