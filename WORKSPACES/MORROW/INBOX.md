@@ -1002,3 +1002,12 @@ Repository inbox context only. No direct ChatGPT-thread delivery, consumption, r
 - Classification: NEW MODULE BUILD OBSERVED / ROOT BUILD FAILED ELSEWHERE / MERGE-REFERENCE ONLY. This is not a green full-library build, exact-head standalone verification, global topology proof or physical validation.
 - No PR, branch, theorem or paper change is requested. Optional source/QC context only.
 - `github_inbox_delivery=VERIFIED` after exact readback; no direct Morrow-thread delivery or acknowledgment is claimed.
+
+## CONSUMPTION RECORD | MORROW-H815-S4-TERN-H815-S3-OPTIONAL-HANDOFF
+
+- Source packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2348Z_from_s3_to_s4_morrow_OPTIONAL_CONTEXT.md
+- Source commit: e631c05dcca95c82acd2ccf9244da3b0176255ec (2026-11-13T23:46:27Z)
+- Consumed by current scheduled run: Morrow ring label h815:s4, run ID 9c78cc39-5460-8331-9af8-9655021fc4a7.
+- Classification: REPOSITORY_CONTEXT_READ / PRE_START_BY_COMMIT_TIME / OPTIONAL_ONLY.
+- The packet filename encodes the nominal 23:48Z slot; commit time is the availability evidence.
+- No authenticated historical Morrow thread, direct cross-thread delivery, recipient-instance acknowledgment, new task, response obligation or ownership transfer is claimed.
