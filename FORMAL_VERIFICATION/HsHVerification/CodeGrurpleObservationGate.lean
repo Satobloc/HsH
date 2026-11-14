@@ -433,6 +433,9 @@ open HsHVerification.CodeGrurpleObservationGate
 structure PathScopeWitness where
   changedPath : String
   watchPattern : String
+  /-- Digest of the exact changed-path manifest from which the path-presence
+      attestation was derived. -/
+  manifestSha256 : Sha256Digest
   pathAppearsInRunDiff : Bool
   patternMatchesChangedPath : Bool
 deriving DecidableEq, Repr
@@ -440,8 +443,51 @@ deriving DecidableEq, Repr
 def pathScopeWitnessCurrent (w : PathScopeWitness) : Bool :=
   decide (w.changedPath.length > 0) &&
   decide (w.watchPattern.length > 0) &&
+  sha256Shape w.manifestSha256 &&
   w.pathAppearsInRunDiff &&
   w.patternMatchesChangedPath
+
+/-- Identity of the exact workflow definition used by one workflow run.
+    sourceCommit is intentionally not forced equal to the run commit:
+    GitHub's event semantics can select a workflow definition from a different
+    ref. sourceBindingVerified is an external attestation that the recorded
+    path/blob/commit/event identify the definition actually used by this run.
+    Lean does not resolve GitHub event semantics or hash repository bytes. -/
+structure WorkflowDefinitionWitness where
+  workflowPath : String
+  workflowBlob : GitBlobSha1
+  sourceCommit : GitCommitSha1
+  eventName : String
+  workflowRunId : String
+  sourceBindingVerified : Bool
+deriving DecidableEq, Repr
+
+def workflowDefinitionWitnessCurrent (runId : String) (w : WorkflowDefinitionWitness) : Bool :=
+  decide (w.workflowPath.length > 0) &&
+  gitBlobSha1Shape w.workflowBlob &&
+  gitCommitSha1Shape w.sourceCommit &&
+  decide (w.eventName.length > 0) &&
+  decide (w.workflowRunId = runId) &&
+  w.sourceBindingVerified
+
+/-- Content-addressed identity for the exact changed-path manifest supplied
+    for one workflow run. The digest, run ID, commit and manifestMatchesRun
+    attestation are external evidence; Lean does not fetch the GitHub run or
+    compute the changed-path manifest. -/
+structure ChangedPathManifestWitness where
+  manifestSha256 : Sha256Digest
+  workflowRunId : String
+  runCommit : GitCommitSha1
+  manifestMatchesRun : Bool
+deriving DecidableEq, Repr
+
+def changedPathManifestWitnessCurrent (runId : String) (commit : GitCommitSha1)
+    (w : ChangedPathManifestWitness) : Bool :=
+  sha256Shape w.manifestSha256 &&
+  decide (w.workflowRunId = runId) &&
+  decide (w.runCommit = commit) &&
+  gitCommitSha1Shape w.runCommit &&
+  w.manifestMatchesRun
 
 /-- A workflow event bound to the route and deployment already present in
     the base observation-gate state. -/
@@ -454,6 +500,8 @@ structure WorkflowTriggerEvidence where
   runCommit : GitCommitSha1
   deploymentCommit : GitCommitSha1
   runSucceeded : Bool
+  workflowDefinition : WorkflowDefinitionWitness
+  changedPathManifest : ChangedPathManifestWitness
   pathWitness : PathScopeWitness
 deriving DecidableEq, Repr
 
@@ -463,6 +511,9 @@ def workflowTriggerCurrent (s : State) (e : WorkflowTriggerEvidence) : Bool :=
       decide (e.workflowName.length > 0) &&
       decide (e.workflowRunId.length > 0) &&
       e.runSucceeded &&
+      workflowDefinitionWitnessCurrent e.workflowRunId e.workflowDefinition &&
+      changedPathManifestWitnessCurrent e.workflowRunId e.runCommit e.changedPathManifest &&
+      decide (e.pathWitness.manifestSha256 = e.changedPathManifest.manifestSha256) &&
       pathScopeWitnessCurrent e.pathWitness &&
       decide (e.workflowTarget = route.id.target) &&
       decide (e.routeId = route.id) &&
@@ -476,6 +527,70 @@ def workflowTriggerCurrent (s : State) (e : WorkflowTriggerEvidence) : Bool :=
     changed-path/watch-pattern witness. -/
 def routeProbeAuthorizedWithWorkflow (s : State) (e : WorkflowTriggerEvidence) : Bool :=
   routeProbeAuthorized s && workflowTriggerCurrent s e
+
+theorem unverified_workflow_definition_blocks_probe (s : State) (e : WorkflowTriggerEvidence)
+    (h : e.workflowDefinition.sourceBindingVerified = false) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  cases hr : s.route <;> cases hd : s.deployment <;>
+    simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
+      workflowDefinitionWitnessCurrent, changedPathManifestWitnessCurrent,
+      pathScopeWitnessCurrent, hr, hd, h]
+
+theorem workflow_definition_run_id_mismatch_blocks_probe (s : State) (e : WorkflowTriggerEvidence)
+    (h : e.workflowDefinition.workflowRunId ≠ e.workflowRunId) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  cases hr : s.route <;> cases hd : s.deployment <;>
+    simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
+      workflowDefinitionWitnessCurrent, changedPathManifestWitnessCurrent,
+      pathScopeWitnessCurrent, hr, hd, h]
+
+theorem malformed_workflow_definition_blob_blocks_probe (s : State) (e : WorkflowTriggerEvidence)
+    (h : gitBlobSha1Shape e.workflowDefinition.workflowBlob = false) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  cases hr : s.route <;> cases hd : s.deployment <;>
+    simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
+      workflowDefinitionWitnessCurrent, changedPathManifestWitnessCurrent,
+      pathScopeWitnessCurrent, hr, hd, h]
+
+theorem unverified_changed_path_manifest_blocks_probe (s : State) (e : WorkflowTriggerEvidence)
+    (h : e.changedPathManifest.manifestMatchesRun = false) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  cases hr : s.route <;> cases hd : s.deployment <;>
+    simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
+      workflowDefinitionWitnessCurrent, changedPathManifestWitnessCurrent,
+      pathScopeWitnessCurrent, hr, hd, h]
+
+theorem changed_path_manifest_run_id_mismatch_blocks_probe (s : State) (e : WorkflowTriggerEvidence)
+    (h : e.changedPathManifest.workflowRunId ≠ e.workflowRunId) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  cases hr : s.route <;> cases hd : s.deployment <;>
+    simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
+      workflowDefinitionWitnessCurrent, changedPathManifestWitnessCurrent,
+      pathScopeWitnessCurrent, hr, hd, h]
+
+theorem changed_path_manifest_commit_mismatch_blocks_probe (s : State) (e : WorkflowTriggerEvidence)
+    (h : e.changedPathManifest.runCommit ≠ e.runCommit) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  cases hr : s.route <;> cases hd : s.deployment <;>
+    simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
+      workflowDefinitionWitnessCurrent, changedPathManifestWitnessCurrent,
+      pathScopeWitnessCurrent, hr, hd, h]
+
+theorem changed_path_manifest_digest_mismatch_blocks_probe (s : State) (e : WorkflowTriggerEvidence)
+    (h : e.pathWitness.manifestSha256 ≠ e.changedPathManifest.manifestSha256) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  cases hr : s.route <;> cases hd : s.deployment <;>
+    simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
+      workflowDefinitionWitnessCurrent, changedPathManifestWitnessCurrent,
+      pathScopeWitnessCurrent, hr, hd, h]
+
+theorem malformed_changed_path_manifest_digest_blocks_probe (s : State) (e : WorkflowTriggerEvidence)
+    (h : sha256Shape e.changedPathManifest.manifestSha256 = false) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  cases hr : s.route <;> cases hd : s.deployment <;>
+    simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
+      workflowDefinitionWitnessCurrent, changedPathManifestWitnessCurrent,
+      pathScopeWitnessCurrent, hr, hd, h]
 
 theorem absent_changed_path_blocks_probe (s : State) (e : WorkflowTriggerEvidence)
     (h : e.pathWitness.pathAppearsInRunDiff = false) :
@@ -557,6 +672,14 @@ theorem github_pages_workflow_cannot_authorize_chatgpt_sites_route
   exact wrong_workflow_target_blocks_probe s e route deployment
     hRoute hDeployment hMismatch
 
+#print axioms unverified_workflow_definition_blocks_probe
+#print axioms workflow_definition_run_id_mismatch_blocks_probe
+#print axioms malformed_workflow_definition_blob_blocks_probe
+#print axioms unverified_changed_path_manifest_blocks_probe
+#print axioms changed_path_manifest_run_id_mismatch_blocks_probe
+#print axioms changed_path_manifest_commit_mismatch_blocks_probe
+#print axioms changed_path_manifest_digest_mismatch_blocks_probe
+#print axioms malformed_changed_path_manifest_digest_blocks_probe
 #print axioms absent_changed_path_blocks_probe
 #print axioms unmatched_watch_pattern_blocks_probe
 #print axioms wrong_workflow_target_blocks_probe
