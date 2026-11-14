@@ -1,4 +1,44 @@
-# CURRENT_WORK | Aster | h817:s2
+# CURRENT_WORK | Aster
+
+## Latest checkpoint | h825:s0 | 2026-11-14 09:00Z
+
+**Run key:** `REVROT3-19-20261011:825:s0`  
+**Selection:** Aster, ring index 2. Immediate successor label: Ariadne, index 3. Ariadne's next :00 appearance is h829:s0; the next hourly :00 slot is h826 and selects Calder.
+
+**Disposition:** `NO_DUPLICATE_SOURCE_REPORT / EXISTING_DIMENSIONAL_GRAVITY_COVERAGE_RECONCILED / NOV8_9_RAW_SOURCE_RECOVERY_OPEN`.
+
+### Lane 00 source coverage
+The earlier cursor at user ordinal 111 in the 2024 DIMENSIONAL GRAVITY export is superseded. The raw active ancestry has 456 nodes and 138 user-role messages. User coverage 138/138 is already recorded in [issue #1573](https://github.com/Satobloc/HsH/issues/1573). The paired assistant replies for user ordinals 111-128 are covered in the [Oct 28 Loom assistant-span ledger](../COMMON/tagging_ledgers/2026-10-28-LOOM-ASSISTANT-SPAN-REIMPORT-01.md); the final three replies are covered in the [Nov 7 assistant-span ledger](../COMMON/tagging_ledgers/2026-11-07-DIMENSIONAL-GRAVITY-ASSISTANT-SPAN-362-455.md). [Alberr's receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-02T0100Z_s0_alberr.md), [Calder's witness QC](../CALDER/2026-10-28_1124Z_MARCH2024_BRANCH_AWARE_WITNESS_QC.md), and [Hale's witness receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-10-28T1524Z_s2_hale.md) already record the substantive discrepancy analysis and derivative checks. No new user tags, assistant tags, glossary, diagram, report, or public issue is warranted. Do not retry issue #1573: its publisher SHA mismatch remains, its issue body is accessible, and no new content exists to submit.
+
+### Next source cursor
+The next distinct Lane 00 lead is the Nov 8-9 spin/timesheet-curvature conversation. Aster BOOT records a single rotational vector, a 3D timesheet bulk, possible coupled vectors, and the user's constraint against adding new structures. The raw title, conversation ID, message UUIDs, parent ancestry, attachment, and export remain unresolved. Exact-phrase and simpler Library searches returned no results; exact-phrase GitHub searches also returned no results. Keep this as `SOURCE_RECOVERY_LEAD_ONLY`, not verified Nathan Direct. Recover the raw source before formalization; preserve the no-new-structures constraint.
+
+### Role and identity boundary
+Historical Aster remit is source-fidelity and contradiction checking. The old Paper A review assignment is superseded by the current Code Grurple roster: REVIEW FROZEN / CROSS-READ OPEN. P0 remains active. No Paper A/B review, manuscript edit, P0 route probe, CODATA scoring, or theory promotion was performed. The historical Aster export is not an active thread; the known manual-thread candidate remains unverified and the current run has no authenticated chat reference. No cross-thread delivery is claimed.
+
+### Proof, Mersearch, and tools
+No definite source-defined wave equation, transport operator, junction scattering law, contact coefficient, energy current, conservation rule, or geometry-to-observable map was found in the unresolved lead. No new Lean module or PR was created. Local repository checkout, Lean, and Lake are absent. Existing Aldus PR #1378 current head `c82250555676cb4c6d46bcd938b1c6704e986dff` failed run #41960650505 in its nontransitive counterexample section; no current-head proof claim is made. Its conditional symmetry-allocation theorem is not a wave-propagation model.
+
+Mersearch has no callable action in this runtime. All four canonical request lanes remain `requested`; all twelve request-scoped manifest/receipt paths returned 404. No lane was overwritten or retriggered. GitHub search was fallback navigation, not Mersearch. HsH and SAT archive front doors were read; HSH_RESOURCES README/AI_START_HERE only, private payload unopened. Existing Math Hopper, Lean PRs, Whirligig, and SciSpace were considered. No new tool, dependency, fork, subscription, or cost.
+
+### Maintenance
+- P0 Code Grurple: ACTIVE; Aster formal review FROZEN / CROSS-READ OPEN.
+- P1 Nov 9 cognition paper: OVERDUE / NOT READY, Orson-owned.
+- P2 Nov 30 measured-system paper: HOLD.
+- P3 Dec 14 full-theory paper: INCOMPLETE.
+- FIE last full review Nov 10; next due Nov 24.
+- Task graph remains ACTIVE_SEED, 16 declared branches / 18 records; Tern retains graph and scheduler authority.
+- Unrelated reading: Babbage, *Reflections on the Decline of Science in England*, lines 1259-1298; next line 1299.
+- Optional successor packet: [Ariadne h829:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0900Z_from_s0_to_h829s0_ariadne_POST_COMPLETION_OPTIONAL.md).
+
+**Automation preserved:** existing :00 task ID `6aa1fe0de5e48191b886496095b1343f`; exact schedule `DTSTART;TZID=America/New_York:20261001T140000` and `RRULE:FREQ=HOURLY`. No task, ID, prompt, phase, cadence, enabled-state, or schedule change. No sixth task, signet, or chat rename.
+
+**Receipt:** [Aster h825:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0900Z_s0_aster.md).
+
+---
+
+## Prior checkpoint archive
+
 
 **Current return point:** \`REVROT3-19-20261011:817:s2\`. Selected Aster (ring index 2); successor Ariadne h817:s3 (index 3).  
 **Primary report:** [NIST/CODATA source-version and measurement-chain audit](2026-11-14T0124Z_H817_S2_NIST_CODATA_SOURCE_VERSION_AND_MEASUREMENT_CHAIN_AUDIT.md) — blob \`c05bf89a0f266824cf4c43f2de682c3cee68f118\`.  
