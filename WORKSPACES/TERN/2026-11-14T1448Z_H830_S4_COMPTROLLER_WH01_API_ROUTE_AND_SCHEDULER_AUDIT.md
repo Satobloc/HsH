@@ -95,3 +95,14 @@ FIE last reviewed November 10; next review November 24.
 No new Lean theorem or build, physical calculation, fit, prediction, independent measurement, human-subject session, model trial, SAT-O/Blockwave equation correction, paper-gate advancement, or BEDROCK theory promotion. The task-upkeep script is metadata triage, not a mathematical proof or physical result.
 
 **Final classification:** `TERN_H830_S4 / WH01_ACTIONS_RUN_LIST_ROUTE_PARTIALLY_SUPPORTED / 22_CHECKOUT_STEPS_16_RUNS_BOUNDED_SAMPLE / TRAFFIC_UNAVAILABLE / CLONE_LEDGER_16_ENTRIES / DEEP_UPKEEP_REVIEW_COMPLETE / OBS028_AMENDMENT_07 / MORROW_HANDOFF_POSTSTART / ORSON_P1_PROTECTED / AUTOMATION_PRESERVED / WRAPPER_IN_PROGRESS_AT_LAST_READBACK`.
+
+
+## Amendment 01 | scheduler same-ID mutation and Morrow attribution correction | 2026-11-14T15:06Z
+
+The earlier statement that the 14:59:45.371618Z :00 start belonged to a distinct Morrow h831:s0 run was incorrect. The latest exact-ID peek shows the same h830:s0 run ID `52cda75d-371c-832a-b82c-a370f2cdbff6`, with `scheduled_for=14:00Z` and deterministic label Hale. It was previously recorded FAILED at 14:55:38.008142Z, then reappeared IN_PROGRESS with completion null and its start moved from 14:30:35.033741Z to 14:59:45.371618Z (+29m10.337877s). The new start is 4m07.363476s after the previously recorded terminal completion. This is a same-ID post-terminal status/start mutation, not a new h831 run.
+
+The :36 h830:s3 Enheduanna run `7c8cd409-493c-8325-8f17-4e799010b468` also retained its run ID and IN_PROGRESS status while its start moved from 14:36:14.397471Z to 15:04:13.766516Z (+27m59.369045s). No terminal transition was observed for that run.
+
+No distinct h831:s0 run record was present at the 15:06Z readback. The Morrow handoff commit at 15:01:48Z is after the nominal h831:s0 slot time, but the actual h831 run start is UNOBSERVED. The handoff's current classification is `POST_NOMINAL_SLOT / NEXT_RUN_START_UNOBSERVED / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED`. The earlier PRESTART and POST_START labels are superseded. No direct Morrow-thread delivery, consumption, acknowledgment, or participation is claimed.
+
+[Observation 028 Amendment 08](OBSERVATIONS/2026-11-14T1506Z_H830_S4_OBS028_AMENDMENT_08_H830_SAME_ID_START_MUTATIONS.md) records both scheduler mutations. These are record-level observations only; no retry, restart, process concurrency, worker substitution, liveness, or backend cause is inferred.
