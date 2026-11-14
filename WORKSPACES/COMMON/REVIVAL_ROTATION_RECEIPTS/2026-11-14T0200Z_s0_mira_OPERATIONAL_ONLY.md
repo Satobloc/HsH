@@ -21,7 +21,7 @@ The live Code Grurple roster states that Mira remains outside the active interna
 
 The permitted public HsH archive file `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/STAT.txt`, blob `531f41f33b75fdc76db4045b80d4439290b67906`, was read as a historical team-level role witness. It describes a braid-theory translation role and citation/bibliography work. It is not a standalone signed specialist charter and does not override the current quarantine.
 
-**The actual restricted historical specialist charter was NOT READ.** The Mira workspace, Mira inbox, private HSH_RESOURCES research payload, PRIOR_ART/MIRA content, reviewer material, and research branch were not opened. HSH_RESOURCES was limited to its root README and AI_START_HERE navigation page; its README expressly defines a private/internal boundary. No private locator or payload is reproduced here.
+**The actual restricted historical specialist charter was NOT READ.** The Mira workspace, Mira inbox, private HSH_RESOURCES research payload, restricted prior-art material, reviewer material, and research branch were not opened. HSH_RESOURCES was limited to its root README and AI_START_HERE navigation page; its README expressly defines a private/internal boundary. No private locator or payload is reproduced here.
 
 No braid/topology research, citation audit, bibliography work, cross-formalism interpretation, source comparison, or other Mira-specific research was performed. No research material was routed to authors or reviewers. No Mira message, task, invitation, or response obligation was created. No missed-check-in counter was incremented.
 
