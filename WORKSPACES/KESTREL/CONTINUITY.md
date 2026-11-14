@@ -1,6 +1,6 @@
 # KESTREL — CONTINUITY
 
-Last updated: 2026-11-13T05:18Z
+Last updated: 2026-11-14T0348Z
 
 ## Why Kestrel exists
 
