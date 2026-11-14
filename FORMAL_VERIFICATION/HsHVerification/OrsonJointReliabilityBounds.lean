@@ -85,7 +85,7 @@ theorem frechet_joint_trustworthiness_bounds (t : ThreeEventLaw) :
         linarith
 
 /-- A probability table in which all three events coincide with probability 1/2. -/
-noncomputable def maximallyCoLocated : ThreeEventLaw where
+noncomputable noncomputable def maximallyCoLocated : ThreeEventLaw where
   p111 := 1 / 2
   p110 := 0
   p101 := 0
@@ -98,7 +98,7 @@ noncomputable def maximallyCoLocated : ThreeEventLaw where
   total := by norm_num
 
 /-- A probability table with the same three marginals but empty triple intersection. -/
-noncomputable def separated : ThreeEventLaw where
+noncomputable noncomputable def separated : ThreeEventLaw where
   p111 := 0
   p110 := 0
   p101 := 0
