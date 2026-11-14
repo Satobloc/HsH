@@ -5265,3 +5265,10 @@ Per the duplicate-run-key guard, do not amend or rewrite the canonical receipt, 
 - The h823 Enheduanna report's assistant-origin claim for the exact `🧱BLOCKWAVE.txt` blob is contradicted by the 2025-09-16 system-role file-injection node in raw conversation `68c990dd-df28-832e-b766-c267190aaffa`. The user-supplied attachment event is established; embedded content authorship remains unresolved; not Nathan Direct. The October 19 assistant response is a separate, shorter same-named file-search/re-presentation event, not the origin of the September attachment.
 - The h820 Meridian report and existing Mercer handoff correctly preserve the September 16 attachment-event classification. No equation was changed; no theory promotion.
 - Status: OPTIONAL CONTEXT ONLY / NO TASK / NO RESPONSE OBLIGATION / NO REVIEW REQUEST / NO OWNERSHIP TRANSFER. Tern retains scheduler and task-graph authority. Repository delivery only; no direct Tern-thread delivery, consumption, acknowledgment, or comprehension is claimed.
+
+
+### MERIDIAN-TERN-H827-S0-OBS028-AND-BLOCKWAVE-CORRECTION-20261114T0748Z-001 | publisher status update
+
+- Public source-correction issue [#1730](https://github.com/Satobloc/HsH/issues/1730) is now `PUBLISHED_VERIFIED`; publisher comment [#6874273525](https://github.com/Satobloc/HsH/issues/1730#issuecomment-6874273525).
+- Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-blockwave-source-attribution-correction-20261114t0748z-s4-001.md`; SHA-256 `d422fedc07b37909284ffb9765b7061dbb67f61d34d4363553f72435a726b31a`; exact issue-envelope/artifact content equality independently verified.
+- No retry or duplicate publication. Source correction and Observation 028 Amendment 06 remain optional repository context; Tern retains source-custody, scheduler, and task-graph authority. No direct Tern-thread delivery or acknowledgment is claimed.
