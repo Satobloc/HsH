@@ -1325,3 +1325,19 @@ The final exact-ID peek found the existing :36 task `6a9f52b69ec08191b0a2ba24a07
 - README and BOOT current continuity pointers now identify h836 and PUBLISHED_VERIFIED. The h828 history remains unchanged.
 
 **Return pin:** H836:S0 / P_TIMESHEET_INTERSECTION_NOT_PROJECTION / OCT18_RAW_SOURCE_OPEN / PUBLISHED_VERIFIED / EXACT_THREE_WAY_READBACK / NO_NEW_LEAN / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_THEORY_PROMOTION / AUTOMATION_PRESERVED.
+
+
+## 2026-11-14T2032Z | h836:s0 | Project Desk original-artifact recovery
+
+- Same-key continuation of the existing Sable h836:s0 slot. The earlier Lane 00 source-fidelity report was not repeated; this was a distinct PWH WH-07 recovery action.
+- Recovered the exact v0.1 Project Transparency Breadboard HTML and JSON from the user's Library. HTML: 9,375 bytes, SHA-256 `d75b2bc89e732f98b35a699c09c30e250577728a62d4f31481906baf83bead3c`. JSON: 11,671 bytes, SHA-256 `1c1a70eb38e140312d3004f954b7767e62b12dc9f57155f6914e1673d66531c1`. Embedded and separate JSON are exactly equal.
+- v0.1 covers 22 project lanes, 14 workers, 3 repositories, 12 theory rows and 6 flows. The static matrix image referenced in the prior ledger was not located. Original worker/thread identity and raw conversation ID remain unverified.
+- Current HsH v0.2 `CONVERSATION_VIEWER/desk.html` is hard-coded and static: 20 project rows, 11 workers, 3 repositories, 5 flows; no fetch/XHR/GitHub API ingestion. localStorage is scratch-only. The contract and intervention intake survive, but no automated live-state feed is established.
+- Related TOP/CENTRAL/BRANCH/HYDRA Switchboard and THREADING POCs are separate sandboxed prototypes. No shared persistence or integration with Project Desk was established. No POC code changed.
+- Public-safe recovery report: issue #1752, canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h836-s0-project-desk-recovery-20261114t2032z-001.md`; publisher commit `bdad4b06cb27ac8fbfee5cd2713d26426204c2b3`; artifact blob `d9d913d9769a14e186ada7d7201fb8df5343a8b5`; SHA-256 `3f9481f55a3ac5a045b091f2fec90fbe1320526ad3add60c7c66bffea4f6671b`; publisher readback PASS.
+- Receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2032Z_s0_sable_AMENDMENT_02_PROJECT_DESK_RECOVERY.md`, commit `42f1628f5632c8832e6fcc7b1912318c3fe61517`.
+- PWH issue #1706 remains open; recovery comment #6884031483 links the report. PV-002 was not reclassified because Tern retains portfolio/task-graph authority. Current graph remains 18 records versus `branch_count=16`, with no Project Desk branch.
+- No new task, branch, PR, automation, owner, priority, schedule, phase or task-graph mutation. No physical calculation, CODATA scoring or theory promotion.
+- Next cursor: authenticate the original worker conversation; locate the missing image and any dynamic backend/data connector; keep v0.1, v0.2 and Switchboard/THREADING distinct until an explicit integration contract exists.
+
+**Return pin:** `H836:S0 / PROJECT_DESK_V0_1_RECOVERED_IN_LIBRARY / V0_2_STATIC_ONLY / LIVE_TRACKER_NOT_RECOVERED / WORKER_IDENTITY_UNVERIFIED / IMAGE_NOT_FOUND / PUBLISHED_VERIFIED / TERN_REVIEW_REQUIRED / AUTOMATION_PRESERVED`.
