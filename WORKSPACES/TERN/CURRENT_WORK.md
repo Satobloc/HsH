@@ -7,7 +7,7 @@
 - Primary report: 2026-11-14T1836Z_H834_S3_P0_DISCOVERY_METADATA_ONLY_PATCH_PROPOSAL_AND_SCHEDULER_LABEL_CORRECTION.md.
 - Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1836Z_s3_tern_rook.md.
 - Scheduler correction: OBSERVATIONS/2026-11-14T1844Z_H834_S3_OBS028_AMENDMENT_10_SCHEDULED_HOUR_PRECEDENCE_AND_FOUR_SLOT_READBACK.md.
-- Successor packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1836Z_from_s3_to_s4_morrow_ROTATION_LABEL_CORRECTION_AND_P0_CONTEXT.md; final exact :48 readback confirms the packet and inbox pointer preceded the 18:50:36.587655Z run start; PRESTART_REPOSITORY_PACKET. See Observation 028 Amendment 11 and receipt Amendment 01.
+- Successor packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1836Z_from_s3_to_s4_morrow_ROTATION_LABEL_CORRECTION_AND_P0_CONTEXT.md; final exact :48 readback confirms the packet and inbox pointer preceded the 18:50:36.587655Z run start; POST_NOMINAL_SLOT / PRESTART_RUN_START_VERIFIED. See Observation 028 Amendment 11 and receipt Amendment 01.
 - P0: issue #1747 remains PUBLISHED_VERIFIED. Latest fully parsed discovery snapshot still exposes raw browse targets for pending Paper A/B and a Paper B excerpt. A metadata-only HsH WORKSPACES patch proposal passed 4/4 local scratch tests plus py_compile, but no site-capable repair owner/authorization exists. No code, branch, PR, site, reader, feed, index, manuscript or deployment change.
 - :48 correction: the last run was scheduled 17:48Z (h833:s4 = Hale ring label), although its cached result heading says Morrow h834:s4. The next :48 occurrence is scheduled 18:48Z (h834:s4 = Morrow). See Observation 028 Amendment 10.
 - Cross-slot interval :24/:36 overlap is 2m51.842115s in recorded timestamps only; no process-concurrency inference.
