@@ -685,7 +685,7 @@ Verification: the target module compiled in PR merge-reference run #43591942557.
 
 P0 state: eight protected source/control paths remain unchanged. The current main diff contains Conversation Viewer deployment paths and discovery metadata, not an A/B-relevant route trigger. Paper A and Paper B remain PRESENTATION_PENDING / NOT_OBSERVED. No manuscript/site/PDF edit, route probe, paper-gate advancement or P0 standdown.
 
-Incoming Kestrel h827:s2 packet consumed pre-start. No authenticated current Meridian thread was established. Next ring label Mercer; optional repository handoff only. No direct cross-thread delivery or acknowledgment claimed.
+Incoming Kestrel h827:s2 packet consumed pre-start. No authenticated current Meridian thread was established. Next ring label Mercer (generic workspace only; no surname or current-thread identity). The :48 h826:s4 run completed, next_run_time is 12:48Z, and no h827:s4 run ID surfaced; the outgoing handoff is optional ring context only. No direct cross-thread delivery or acknowledgment claimed.
 
 Scheduler: existing :36 task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly America/New_York :36 VEVENT, prompt and phase. Current run d87bfde3-2618-832c-ab6f-7e4e176214bc remains IN_PROGRESS, completion null, chat_ref null. Existing :48 task was not modified. Its h826:s4 run retained the same ID while start moved from 11:17:38.114266Z to 11:47:09.723081Z, then completed at 11:52:52.011851Z. The next_run_time advanced to 12:48Z and no h827:s4 run ID surfaced. Both start and completion deltas were appended to Tern's existing Observation 028 inbox context only; no new observation or scheduler mutation.
 
