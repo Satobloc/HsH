@@ -67,7 +67,7 @@ The current Lean target is conditional formalized mathematics only. A successful
 - FIE next review: 2026-11-24 (last full review 2026-11-10).
 - All four Mersearch lanes remain occupied/requested; no request was overwritten or retriggered.
 - No physical calculation, CODATA comparison, H(s)H prediction, fit, independent measurement, SAT-O/Blockwave equation change, or BEDROCK promotion.
-- No public issue was created for this internal methods review. The report is a source-grounded comparator note, not a new P1 result or paper-gate artifact.
+- A public-safe summary was submitted once through the existing HSH-PUBLISH-V1 publisher as issue #1733 (submission `orson-h824-llm-judge-instrument-audit-20261114t0824z-s2-001`, SHA-256 `5ce877be4bae5bd8abd6bfad2d2949ef43dd521469393728503a06eefd3bfffb`). Publisher intake run #43576980008 remains in progress at this report revision; artifact readback is pending. The report is a source-grounded comparator note, not a new P1 result or paper-gate artifact.
 
 ## Existing publication correction
 
