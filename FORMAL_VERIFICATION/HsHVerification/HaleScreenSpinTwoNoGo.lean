@@ -28,18 +28,16 @@ fixture is introduced.
 
 namespace HsHVerification.HaleScreenSpinTwoNoGo
 
-variable {K : Type*} [LinearOrderedField K]
-
 /-- The coefficient of the oriented area 2-form is invariant under a
     proper screen quarter-turn. -/
-def areaFormQuarterTurn (x : K) : K := x
+def areaFormQuarterTurn (x : ℝ) : ℝ := x
 
 /-- In the plus/cross basis, spin 2 doubles the screen angle. A screen
     quarter-turn therefore acts as a half-turn on polarization components. -/
-def spinTwoQuarterTurn (v : Fin 2 → K) : Fin 2 → K :=
+def spinTwoQuarterTurn (v : Fin 2 → ℝ) : Fin 2 → ℝ :=
   fun i => -v i
 
-/-- Any linear map intertwining the trivial area-form action with the
+/-- Any real-linear map intertwining the trivial area-form action with the
     spin-2 quarter-turn action is zero.
 
     Full SO(2)-equivariance implies this generator condition. The result
@@ -47,7 +45,7 @@ def spinTwoQuarterTurn (v : Fin 2 → K) : Fin 2 → K :=
     it does not exclude nonlinear maps or maps supplied with additional
     frame, field, derivative, or other spin-carrying data. -/
 theorem equivariant_map_from_area_form_to_spin_two_is_zero
-    (f : K →ₗ[K] (Fin 2 → K))
+    (f : ℝ →ₗ[ℝ] (Fin 2 → ℝ))
     (h_equivariant : ∀ x,
       f (areaFormQuarterTurn x) = spinTwoQuarterTurn (f x)) :
     f = 0 := by
@@ -59,22 +57,25 @@ theorem equivariant_map_from_area_form_to_spin_two_is_zero
   linarith
 
 /-- The spin-2 action of a screen quarter-turn squares to the identity. -/
-theorem spinTwoQuarterTurn_sq (v : Fin 2 → K) :
+theorem spinTwoQuarterTurn_sq (v : Fin 2 → ℝ) :
     spinTwoQuarterTurn (spinTwoQuarterTurn v) = v := by
   funext i
   simp [spinTwoQuarterTurn]
 
 /-- The area-form coefficient is fixed by the same generator. -/
-theorem areaFormQuarterTurn_fixed (x : K) :
+theorem areaFormQuarterTurn_fixed (x : ℝ) :
     areaFormQuarterTurn x = x := rfl
 
 /-- Executable plus-basis probe over rationals: one screen quarter-turn
     negates the plus component; two restore it. This is a symbolic
     representation check, not a physical simulation. -/
-def plusBasis : Fin 2 → ℚ := fun i => if i = 0 then 1 else 0
+def spinTwoQuarterTurnQ (v : Fin 2 → ℚ) : Fin 2 → ℚ :=
+  fun i => -v i
 
-#eval (spinTwoQuarterTurn plusBasis) 0
-#eval (spinTwoQuarterTurn (spinTwoQuarterTurn plusBasis)) 0
+def plusBasisQ : Fin 2 → ℚ := fun i => if i = 0 then 1 else 0
+
+#eval (spinTwoQuarterTurnQ plusBasisQ) 0
+#eval (spinTwoQuarterTurnQ (spinTwoQuarterTurnQ plusBasisQ)) 0
 
 #print axioms equivariant_map_from_area_form_to_spin_two_is_zero
 
