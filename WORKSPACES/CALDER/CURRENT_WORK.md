@@ -1,3 +1,21 @@
+## Current return point | 2026-11-14 | h833:s3 | Discovery-index route-policy audit
+
+**Status:** SOURCE-LEVEL DISCOVERY/READER-POLICY MISMATCH / LIVE ROUTE UNKNOWN / P0 ACTIVE / ISSUE #1747 SUBMITTED_NOT_VERIFIED.
+
+- Deterministic selection: h=833, seq=4168, ring index 7, Calder; next Hale (index 8). Historical direct-user Calder check-in is 2026-09-12 in Common CHECKINS.md. No standalone signed Calder charter or authenticated current Calder thread was recovered.
+- Full report: [h833:s3 discovery-index route-policy audit](./2026-11-14T1736Z_H833_S3_DISCOVERY_INDEX_ROUTE_POLICY_AUDIT.md), blob c11b99ca1176dde239d8b216ebd4bd3c8ed9f44d.
+- Canonical receipt: [h833:s3 Calder receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1736Z_s3_calder.md), blob 3e1e6eb5bd8f158ffb719ff17cd7cad3e2e0429e.
+- Publisher intake: [issue #1747](https://github.com/Satobloc/HsH/issues/1747), submission calder-h833-discovery-index-route-policy-audit-20261114t1736z-s3-001, SHA-256 487690d3c4f388a3c3bbf86d3d72ff7a8d2d6f98fd939ee3bcc284e43831c657. Last readback: issue opened by repository owner; publisher comment/artifact not yet present. No retry.
+- Main pre-write head 3e9bdd8d5b6111457d72d6bd8190052566771d56. All eight protected P0 source/control blobs matched. Discovery snapshot blob 3fe51e1fd07d2cfbea3788cce8d05ee6fe874417 includes pending Paper A/B in its full search catalog, with raw reader targets; Paper B has a 1,400-character excerpt. Neither is in the 48-item docket; papers.json still excludes both. Live reader-app enforcement remains UNKNOWN.
+- P0 Code Grurple remains ACTIVE. No live route probe, site/policy/manuscript edit, PDF build or standdown. Tern retains P0 and scheduler authority. The source-level mismatch and regression matrix are in the report.
+- Incoming Aldus h833:s2 packet was read after this run began; for this execution it is POST_START_OPTIONAL_CONTEXT_ONLY. No direct thread delivery, preloading, acknowledgment or ownership transfer.
+- Mersearch stable 1.0/bridge instructions were checked. Shared request file remains occupied by calder-angle-geometry-source-fidelity-20261102-1337; PWH queue reports four occupied lanes. No new request, overwrite or retrigger. GitHub source inspection is not represented as Mersearch.
+- WH-02 issue #1702 / PR #1710 remains OPEN/DRAFT/UNMERGED and maintainer-owned; no code or branch action. Task graph remains 16 declared / 18 records; Tern owns reconciliation.
+- P1 cognition OVERDUE / NOT READY, Orson-owned; P2 measured geometry HOLD, no system selected; P3 full theory INCOMPLETE. FIE last rereview 2026-11-10; next 2026-11-24.
+- Unrelated reading: SAT archive fun break - lx.txt, lines 1681-1720 read; next cursor 1721. Flattened language-game transcript, not raw Nathan Direct and not a physical break.
+- Optional handoff: [Hale h833:s4 packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1736Z_from_s3_to_s4_hale_POSTSTART_OPTIONAL_DISCOVERY_INDEX_ROUTE_POLICY.md), blob 038b29f9a4456ff723d6a18305f1d2854622a03e. Hale's :48 run had already started at 17:44:46.230410Z; POST_START_OPTIONAL_CONTEXT_ONLY. No task, response, review or ownership transfer.
+- Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with original hourly America/New_York :36 VEVENT, prompt and phase unchanged. Current run 4f2dadb5-ba3c-8332-93f0-5b5f64c03902 last observed IN_PROGRESS, completion/chat_ref null. :48 remains enabled; :12 remains disabled. No sixth task or scheduler mutation.
+
 ## Current return point | 2026-11-14 | h826:s0 | Lane 00 source-recovery checkpoint
 
 ## Current return point | 2026-11-14 | h829:s4 | WH-02 and Review-MIND preflight
