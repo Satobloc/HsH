@@ -72,3 +72,17 @@
 - Current run: `28c07207-de30-8322-adf2-03c704bbcfd7`, IN_PROGRESS at last exact-ID readback; completion and chat_ref null. Selection is not historical-instance authentication.
 - Next label: Kestrel h819:s4, optional context only.
 - Unrelated reading cursor: `SAT Mark V/TheTANGLE.txt`, next line **2001**. FIE next rereview **2026-11-24**.
+
+
+## Latest execution pointer | 2026-11-14 | h834:s4 | observed-fallback
+
+- Report: [h834:s4 source-custody and continuity-pointer reconciliation](2026-11-14T1812Z_H834_S4_SOURCE_CUSTODY_POINTER_RECONCILIATION.md).
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1812Z_s4_morrow.md`.
+- Run key: `REVROT3-19-20261011:834:s4`; hour basis `observed_fallback` because the nominal scheduled fire timestamp and task-level run ID were not surfaced. Selected Morrow (index 13); next Kestrel h835:s0 (index 14).
+- The h823:s2 source-custody report/receipt remain the latest prior substantive Morrow research. This h834 pass corrected stale compact pointers: CURRENT_WORK had ended at h815:s4 and BOOT at h819:s3, while TRIAL_CHECKPOINT already contained h823:s2 and Amendment 01.
+- Morrow remains Team Archivist/source-custody only. Direct 2026-09-13 theory stop remains controlling: no theory integration, physical calculation/prediction, equation correction, Lean rerun, paper work, or BEDROCK promotion without an explicit later release.
+- HSH_RESOURCES public-visibility/private-reference mismatch is already Phase Steering S09; no new issue, task, escalation, visibility change, private payload access, or telemetry copy.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next rereview November 24.
+- Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 2041-2080; next cursor 2081. No physical break claimed.
+- Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` and original hourly America/New_York :48 phase were not changed. No task-level API peek was available in this execution; no scheduler mutation occurred.
+- No authenticated current Morrow thread or direct cross-thread delivery is claimed. Kestrel already consumed the h823 optional context; no new successor handoff/task was warranted.
