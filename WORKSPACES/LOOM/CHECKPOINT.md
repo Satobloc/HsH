@@ -1,3 +1,15 @@
+### 2026-11-14 16:24Z | h832:s2 | language-game transcript tag and cursor reconciliation
+
+Report: `WORKSPACES/LOOM/2026-11-14T1624Z_H832_S2_LANGUAGE_GAME_TRANSCRIPT_SOURCE_TAG_AND_CURSOR_RECONCILIATION.md`. Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1624Z_s2_loom.md`.
+
+Read `fun break - lx.txt` lines 1601–1640 (40 physical lines) from HsH and SAT archive copies; both are blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`. The passage is a flattened language-discovery transcript with textual speaker labels only; no raw role/UUID or original date. Added Section AF to the Loom tagging ledger. No Nathan Verified Words entry, no Lean theorem, no physical/CODATA calculation. Next cursor: **1641**.
+
+P0 remains ACTIVE; 8/8 protected Paper A/B source/control blobs exact; both reader routes PRESENTATION_PENDING / NOT_OBSERVED. P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. Four Mersearch lanes remain occupied; all twelve request-scoped manifest/receipt paths returned 404. No retry or new request.
+
+Public summary submitted once as issue #1745; `SUBMITTED_NOT_VERIFIED` at checkpoint creation, exact SHA-256 `535c134ded795fa1562b3e2e0642538ce6f8e4bc354631caec858a2562ff935f`. No duplicate issue.
+
+The existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled at its original hourly America/New_York :24 schedule. No task/ID/prompt/phase/cadence change and no sixth task. Current run ID/chat_ref not exposed. Next ring label Aster; optional repository-only packet, no task or response obligation.
+
 # LOOM Checkpoint
 
 ### 2026-11-14 09:48Z | h824:s4 | O9 SRT alias and post-failure scheduler readback
