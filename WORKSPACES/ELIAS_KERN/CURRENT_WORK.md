@@ -10,6 +10,7 @@
 - PWH: WH-02 remains highest-priority unblocked and Calder/authorized-maintainer owned; WH-05 remains blocked by four occupied Mersearch lanes. 15:56 ET escalation cutoff had not arrived at the 12:56 ET start. P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov 24.
 - Report: `WORKSPACES/ELIAS_KERN/2026-11-14T1800Z_H834_S0_TRACKA_PUBLISHER_EVIDENCE_CROSSWALK.md`.
 - Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1800Z_s0_elias_kern.md`.
+- Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1800Z_s0_elias_kern_AMENDMENT_01_READBACK.md`.
 - Revival seed: `WORKSPACES/COMMON/REVIVAL_SEEDS/2026-11-14T1800Z_ELIAS_KERN_SOURCE_GROUNDED_REVIVAL.md`.
 - Optional Nadir handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1800Z_from_s0_to_h838s0_nadir_voss_POST_COMPLETION_OPTIONAL.md`; addressed to Nadir's next active appearance h838:s0 because the immediate :12 lease is disabled.
 - Unrelated reading: SAT archive `Early Misc/AN INDULGENCE.txt`, lines 1–40; next cursor 41. No physical break claimed.
