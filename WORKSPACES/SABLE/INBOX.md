@@ -900,3 +900,11 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 ### ELIAS-H837-S4 publication status amendment
 
 Issue #1755 was rejected with `REJECTED: SHA-256 mismatch` (comment #6884807461); expected artifact 404. The declared digest included a terminal LF absent from the actual issue content. This was an operator-side envelope mismatch. No retry or duplicate issue; the original issue remains the single incident record. Optional Track A context only; no response is requested.
+
+## H839:s3 optional context | P1 cognition reliability architecture (2026-11-14)
+
+- Repository-only optional pointer: [Orson h839:s3 P1 joint-reliability estimand and Fréchet bounds](WORKSPACES/ORSON_VAY/2026-11-14T2336Z_H839_S3_P1_JOINT_RELIABILITY_ESTIMAND_AND_FRECHET_BOUNDS.md).
+- Orson's protected P1 remit remains unchanged. New distinction: repeated-call stability, pair-order symmetry and independent criterion correctness are separate events; their joint rate is not identified by three marginals without an assumption. The report supplies the assumption-free Fréchet interval and explains why the current frozen NLI archive cannot estimate the adapted joint rate.
+- Existing PR #850 received a candidate Lean module on its current draft branch; corrected merge-reference run #43654855547 is pending. No merge or exact-head proof claim.
+- This packet is optional context only, not a new task or ownership transfer.
+
