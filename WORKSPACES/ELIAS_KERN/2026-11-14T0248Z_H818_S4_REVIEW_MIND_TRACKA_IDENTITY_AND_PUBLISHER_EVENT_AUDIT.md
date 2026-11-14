@@ -120,9 +120,9 @@ The deterministic successor is Nadir Voss. No Nadir handoff was created because 
 The existing :48 automation remains enabled with its original task ID, saved DTSTART, hourly recurrence, prompt, and phase unchanged. The :12 task remains disabled. No sixth task, reassignment, signet, or conversation rename.
 
 At the latest exact-ID readback:
-- :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0`; run `e3a821af-4c1e-4e2d-8b56-9d2c6f6f3a17` was IN_PROGRESS, scheduled 02:48Z, started 02:43:37.395329Z, completion null, `chat_ref=null`.
+- :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0`; run `e3a821af-6fdc-8328-8438-054cf1466ae1` was IN_PROGRESS, scheduled 02:48Z, started 02:43:37.395329Z, completion null, `chat_ref=null`.
 - :36 run `1863d0c5-d9f4-832b-8902-4899c1f39c71` was IN_PROGRESS, started 02:40:41.863002Z, completion null, `chat_ref=null`.
-- :24 run `b6dcf8c0-4a9e-8e55-8c23-7d1c5d0a8f32` completed 02:44:56.458583Z after the :48 run had started, producing 79.063254 seconds of recorded run-interval overlap.
+- :24 run `b6dc3664-16b4-8323-87dd-9589e9e307fa` completed 02:44:56.458583Z after the :48 run had started, producing 79.063254 seconds of recorded run-interval overlap.
 
 These are scheduler-record intervals, not proof of backend cause, retry, restart, worker identity, or process-level concurrency. The finding was routed to Tern's existing inbox; no Tern-owned observation or task change was made.
 
