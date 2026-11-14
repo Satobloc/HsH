@@ -231,3 +231,19 @@ No new tooling, dependency, fork, subscription, or cost was introduced.
 5. Re-run the existing PR #262 workflow and inspect the theorem-specific axiom output before claiming Lean verification. Do not merge or promote the PR.
 
 **Final epistemic status:** the direct source supports a differentiated time/space expansion question and a rotational-expansion proposal. The current assistant `Sim^+(4)` model is an isotropic similarity submodel and is not yet a faithful encoding of that question. The new Lean lemma is pending CI. No physical or observational conclusion follows.
+
+
+## 10. Post-submission Lean run amendment (2026-11-14T03:13Z)
+
+The first actual workflow run after adding `similarity_gram_isotropic`, **#43550054508**, completed with **FAILURE** on merge-ref source commit `d3f26a3c949a72f52042e44a474f84025ffe390c`.
+
+- `NadirFrameTelescoping.lean:82:39` left the scalar-smul goal `σ • σ • X = (σ * σ) • X` unsolved. The failed elaboration's `#print axioms` included `sorryAx`; this is not a proof.
+- The same full build also failed in `MovingPlaneTraceGeometry.lean` on pre-existing noncomputable real-division/slice definitions. That module was not modified.
+- The scalar-smul proof was corrected in the existing PR branch by replacing the final `simp [pow_two]` with `rw [smul_smul, pow_two]`.
+- Correction commit: `89ab283ae583aef69d6f89a36cc0e2d3b09bfe63`.
+- Corrected file blob: `3d21f0712e7793e40c1268bef4e78ef87b324fb5`.
+- Exact corrected file readback: PASS.
+- No new workflow run was returned for the corrected commit at last readback. Therefore the corrected theorem remains **NOT COMPILED / NOT VERIFIED**. The previous failure is preserved; it is not relabelled as success.
+- Nanoda and the automated axiom audit were skipped in run #43550054508.
+
+No retry of the old run was represented as a test of the corrected commit. No unrelated Lean module was changed, no rebase/merge was attempted, and no theory promotion follows.
