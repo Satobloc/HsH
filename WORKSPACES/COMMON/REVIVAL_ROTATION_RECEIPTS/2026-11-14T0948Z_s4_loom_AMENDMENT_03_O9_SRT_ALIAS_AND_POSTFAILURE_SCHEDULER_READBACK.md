@@ -27,3 +27,11 @@ Existing PR #982's relevant CI is a successful synthetic merge-reference build, 
 Primary addendum: `WORKSPACES/LOOM/2026-11-14T0948Z_H824_S4_AMENDMENT_03_O9_SRT_ALIAS_AND_POSTFAILURE_SCHEDULER_READBACK.md`.
 
 The h824:s4 wrapper remains recorded IN_PROGRESS at the final peek; completion is unconfirmed.
+
+
+## Exact report identity
+
+- Primary addendum: `WORKSPACES/LOOM/2026-11-14T0948Z_H824_S4_AMENDMENT_03_O9_SRT_ALIAS_AND_POSTFAILURE_SCHEDULER_READBACK.md`
+- Commit: `a0efb4a668d4bc41bf7e8c62f03434a36928c0ae`
+- Git blob SHA-1: `7549607561e90c24c0cc199297b4eba01c874a37`
+- Independent fetch readback matched the submitted report exactly.
