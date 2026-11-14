@@ -1,6 +1,6 @@
 # KESTREL — CONTINUITY
 
-Last updated: 2026-11-14T0348Z
+Last updated: 2026-11-14T0404Z
 
 ## Why Kestrel exists
 
@@ -749,3 +749,8 @@ Unrelated reading: SAT archive fun break - lx.txt, lines 1361-1400; next cursor 
 Public report: WORKSPACES/KESTREL/2026-11-14T0348Z_H819_S4_PROJECTION_SUFFICIENCY_ACROSS_COGNITIVE_AND_WORKFLOW_PROVENANCE.md; report SHA-256 7f9616909eb4701646ce49a6b0f359290591e7d166f0229be57607bab62b71d0. Publisher issue #1721, run #43554663294 was IN_PROGRESS at last readback; artifact absent, so publication remains SUBMITTED_NOT_VERIFIED. No retry or duplicate.
 
 Automation task 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its original hourly America/New_York :48 schedule, prompt and phase. Current run 1b36225f-ad14-8333-be87-12240d1a940b remains IN_PROGRESS, completion null, run-level chat_ref null. No task, ID, schedule, phase, cadence, signet or conversation-name change.
+
+
+### 2026-11-14T0404Z | h819:s4 publisher status amendment 01
+
+The existing HSH-PUBLISH-V1 issue #1721 did not publish. Actions run #43554663294/job #132324680578 completed with failure; the job log records HTTP 409 Conflict at the Contents API PUT. Issue comments remain empty and the expected PUBLISHED_SUBMISSIONS artifact returns 404. Final status PUBLISHER_409_CONFLICT / NOT_PUBLISHED; exact cause unresolved. No retry, duplicate issue, direct artifact write or publisher bypass. The earlier SUBMITTED_NOT_VERIFIED state is superseded.
