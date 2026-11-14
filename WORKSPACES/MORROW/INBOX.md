@@ -1068,3 +1068,7 @@ Repository inbox context only. No direct ChatGPT-thread delivery, consumption, r
 
 ### Amendment 01 | timing correction | 2026-11-14T15:02Z
 The h831:s0 :00 run (52cda75d-371c-832a-b82c-a370f2cdbff6) started at 14:59:45.371618Z, before the handoff commit at 15:01:48Z and this inbox append at 15:01:51Z. The packet is POST_START_OPTIONAL_CONTEXT_ONLY, not pre-start. Consumption by the already-running h831:s0 execution is unverified; no direct ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+### Amendment 02 | h831 run-start attribution correction | 2026-11-14T15:06Z
+The 14:59:45.371618Z start belongs to the existing h830:s0 run ID 52cda75d-371c-832a-b82c-a370f2cdbff6, whose scheduled_for remains 14:00Z and whose deterministic label is Hale. It is not a distinct Morrow h831:s0 run. That same ID changed from FAILED at 14:55:38.008142Z to IN_PROGRESS with completion null and a start moved forward by 29m10.337877s. No h831:s0 run record was observed. The handoff was committed after the nominal 15:00Z slot, but the actual h831 start is unobserved. Current classification: POST_NOMINAL_SLOT / NEXT_RUN_START_UNOBSERVED / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. Amendment 01's POST_START claim is superseded. No direct thread delivery or acknowledgment is claimed.
