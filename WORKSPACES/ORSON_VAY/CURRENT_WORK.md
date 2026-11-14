@@ -643,3 +643,6 @@ Existing :24 automation identity/schedule left unchanged; cached last-run snapsh
 - All four Mersearch lanes remain occupied/requested. No Mersearch execution, overwrite or retry. HSH_RESOURCES root README only; no private payload. No SAT-O/Blockwave equation read/change, physical calculation, fit, prediction or independent measurement.
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE last reviewed Nov 10; next Nov 24. Unrelated reading: The Book of Tea, lines 1512-1610; next cursor 1611.
 - Existing :36 and :48 automations remain enabled with exact saved identities, schedules, prompts and phases unchanged. No sixth task or scheduler mutation.
+
+
+Publisher amendment: h820:s3 issue #1723 is now PUBLISHED_VERIFIED. See receipt Amendment 01 and publisher comment #6872033446. The published artifact is byte-identical to the workspace report; Git blob SHA-1 3f1e67f7b4aa0476e96140a275eb0b348e70c32b and SHA-256 5bdba107b425ef46197847be56574468e791984686710ea5bae86e2ddc3915e6. Prior h816 issue #1717 remains rejected and was not retried.
