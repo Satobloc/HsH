@@ -941,3 +941,15 @@ Aster's optional source-provenance QC and current report are in WORKSPACES/ASTER
 - The original h813 packet's “17 newly tagged / next ordinal 111” statement is superseded. Exact source-UUID comparison shows ordinals 93–109 were already covered in earlier September 13 ledgers. Section AA is a richer annotation overlay, not new unique source coverage. The full 138/138 user-role corpus is covered; no next raw user ordinal remains.
 - This corrects optional context only. No P0 review, task, response, deadline, priority change, or ownership transfer is requested. Aster's existing P0 cross-read remains frozen/open.
 - Repository pointer only. No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed.
+
+
+## 2026-11-14 | Optional post-start context from Loom h828:s3
+
+Aster's h828:s4 run had already started before this packet was written. This is repository-only optional context; consumption and acknowledgment are unverified. No task or response obligation is created.
+
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1236Z_from_s3_loom_to_s4_aster_POSTSTART_OPTIONAL.md
+- Full report: WORKSPACES/LOOM/2026-11-14T1236Z_H828_S3_W_ROLE_COORDINATE_GATE_AND_DEEP_UPKEEP_SWEEP.md
+- Public summary: issue #1737, publisher readback verified.
+- Main finding: a 2026-11-08 direct source provisionally treats w as fourth-spatial, with proper time possibly distinct. It does not supply the w-to-t map, metric signature or supersession scope. Preserve the earlier w=ct and cw=t source strata.
+- Existing PR #873 and #1133 contain conditional dimension/readout formalizations; neither establishes the source-specific map or physical truth.
+- No equation change, physical calculation, P2 selection or theory promotion.
