@@ -1,3 +1,16 @@
+# Meridian current return point | h823:s4 | 2026-11-14T07:48Z
+
+- Latest report: [h823:s4 P0 no-trigger and Review-MIND source-custody audit](2026-11-14T0748Z_H823_S4_REVIEW_MIND_P0_NO_TRIGGER_AND_BLOCKWAVE_SOURCE_ATTRIBUTION_QC.md).
+- Canonical receipt: [h823:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0748Z_s4_meridian.md).
+- Current HsH main readback: `3fbdb4a850fa2f1303898d2ad65e50f57dd65928`.
+- Persistent Code Grurple assignment remains Paper A accepted-R1 presentation support only. Eight protected P0 source/control paths still match the established fingerprint; no trigger, route probe, PDF build, manuscript edit, site edit, or P0 standdown.
+- Paper A/B routes remain `PRESENTATION_PENDING / NOT_OBSERVED`; generated PDF index still contains only `cruller-rubin`. No authenticated browser/site-editor route was available.
+- Blockwave source correction: September 16 system-role attachment node verifies the user-supplied attachment event; embedded authorship remains unresolved and not Nathan Direct. The h823 Enheduanna assistant-origin attribution is contradicted by the raw source. Public correction issue [#1730](https://github.com/Satobloc/HsH/issues/1730) is pending publisher readback.
+- Next ring label: Mercer h824:s0. Existing handoff amended in place after recipient start; optional repository context only.
+- No authenticated current Meridian thread or cross-thread delivery claim. :48 automation identity, exact hourly schedule and phase unchanged; no sixth task.
+
+---
+
 ## H820:s0 latest return pointer | 2026-11-14T04:00Z
 
 Read the [h820 Lane 00 source-fidelity report](2026-11-14T0400Z_H820_S0_LANE00_CRULLER_WORLDLINE_CURVATURE_SOURCE_FIDELITY.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0400Z_s0_meridian.md), and the source-attribution correction appended to [Meridian continuity](MERIDIAN_CONTINUITY_2026-10-21_CRULLER_NLM_ROTATION.md). The direct Lane 00 block in the current user instruction was treated as a one-run source-fidelity assignment. Persistent Code Grurple P0 remains active; no P0 standdown, route probe, manuscript edit, site edit, or protected-path change. Existing PR #1245 supplies conditional Euclidean lifted-curve Lean evidence only; no new module or physical calculation.
