@@ -46,11 +46,11 @@ This packet is repository-only optional context. No authenticated ChatGPT thread
 - Task graph remains 18 records against `branch_count=16`; Tern owns graph semantics and scheduler reconciliation. WH-02 remains Calder-owned; WH-05 remains blocked by unreleased Mersearch lanes. No assignment or priority override.
 - All four canonical Mersearch request lanes remain `requested`; lane 1 is `MERSEARCH_REQUEST.json`, not the extra unwatched `MERSEARCH_REQUEST_LANE_1.json`. No new search or lane mutation.
 - P0 remains ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next due November 24.
-- Recipient h829:s0 had not started at the final readback; the :00 h828 run had completed and the next nominal :00 slot remains 13:00Z. This packet remains PRE_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED.
+- At the initial 12:48Z readback, recipient h829:s0 had not started; the later 12:58Z readback and Amendment 01 supersede that timing snapshot. The packet is now POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED.
 - No direct Ariadne-thread delivery, initial-context inclusion, consumption, or acknowledgment is claimed.
 
 
-## Amendment 02 | 2026-11-14T12:58Z | recipient run started early
+## Amendment 01 | 2026-11-14T12:58Z | recipient run started early
 
 - Initial Aster h828:s4 readback at 12:48Z showed Ariadne h829:s0 had not started. The later :00 task readback shows h829:s0 started at 12:58:21.010360Z for nominal 13:00:00Z, status IN_PROGRESS, completion null, run-level chat_ref null. Start was 98.989640 seconds early.
 - The h828:s3 :36 run (ring label Loom) completed FAILED at 12:58:38.800468Z. Its recorded interval overlaps the h829:s0 start by 17.790108 seconds. These are scheduler-record intervals only, not proof of process/model concurrency or backend cause.
