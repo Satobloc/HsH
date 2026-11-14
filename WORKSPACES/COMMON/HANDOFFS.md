@@ -134,7 +134,7 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 
 - Packet: [Calder → Hale optional context](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2124Z_from_s2_to_s3_hale_PRESTART_OPTIONAL_P0_WH02_CONTEXT.md), blob `629bc730f95f5cabc2ab4674a077c45b352204fd`.
 - Report: [Calder h837:s2 workspace discovery exposure and WH-02 preflight](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-11-14T2124Z_H837_S2_P0_WORKSPACE_DISCOVERY_EXPOSURE_AND_WH02_REBASE_PREFLIGHT.md), blob `9cf96a9dfb7b77622a53236996b35060e6b9d77a`.
-- Receipt: [Calder h837:s2](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2124Z_s2_calder.md), blob `491f89a023fae211dfac1e5343d57a85f9e0be41`.
+- Receipt: [Calder h837:s2](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2124Z_s2_calder.md), blob `b55e65a26419fbf00b712ee5481d7fdccb86ab69`.
 - Classification: POST_NOMINAL_OPTIONAL_CONTEXT / RUN_START_UNOBSERVED / REPOSITORY_ONLY. Packet and inbox pointer were committed after the nominal slot; the scheduler readback still showed the prior completed run and a stale next-run pointer, so actual successor start is unobserved.
 - P0 scope: 7,915/7,915 workspace records have generic raw-source reader targets; 7,718 have excerpts. Public index exposure is confirmed; live reader rendering unknown. Tern retains P0 authority.
 - WH-02: PR #1710 7 ahead / 1,437 behind; seven touched paths are unchanged from merge base at current main; no rebase because approved route/local checkout is absent.
