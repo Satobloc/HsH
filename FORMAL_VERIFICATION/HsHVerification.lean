@@ -19,6 +19,16 @@ import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.RavelCarrierSliceReconstruction
+import HsHVerification.RavelJointAccommodationReadout
+import HsHVerification.RavelCouplingDimensionalAudit
+import HsHVerification.RavelCarrierSheetDimensionGate
+import HsHVerification.RavelFiberTransportNonuniqueness
+import HsHVerification.RavelNormalConnectionReduction
+import HsHVerification.RavelRepresentationConversionCoherence
+-- Conditional local/global conversion gate with explicit evolution/readout parameters; physical maps remain uninstantiated.
+import HsHVerification.RavelTwoFormCurrentProjection
+import HsHVerification.RavelFilamentScaleDimensionAudit
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
