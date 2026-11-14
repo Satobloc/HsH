@@ -13,11 +13,13 @@ then Eq. (27) retains only degrees 4*l. The degree-2 term does cancel.
 The degree-6 term does not: its derivative combination is
   -(63/32) * sin(4 Δφ),
 or, with s = sin Δφ and c = cos Δφ,
-  -(63/8) * s * c * (c^2 - s^2).
+  -(63/8) * s * c * (c^2 - s^2),
+using s^2 + c^2 = 1.
 
 The module proves only finite polynomial identities and conditional
-non-cancellation when 0 < s < c. The scaled degree-6 derivative polynomial
-below is 16 times P₆', avoiding noncomputable real division in its definition.
+non-cancellation when s^2 + c^2 = 1 and 0 < s < c. The scaled degree-6
+derivative polynomial below is 16 times P₆', avoiding noncomputable real
+division in its definition.
 
 It does not formalize the infinite-series convergence, source transcription,
 measured η, numerical maximizer, instrument, or any physical premise. It is
@@ -48,18 +50,29 @@ theorem p2DerivativeCombination_eq_zero (s c : ℝ) :
 def p6DerivativeCombinationScaled (s c : ℝ) : ℝ :=
   -s * p6PrimeScaled c + c * p6PrimeScaled s
 
-theorem p6DerivativeCombinationScaled_factor (s c : ℝ) :
+theorem p6DerivativeCombinationScaled_factor
+    (s c : ℝ) (hunit : s ^ 2 + c ^ 2 = 1) :
     p6DerivativeCombinationScaled s c =
       -126 * s * c * (c ^ 2 - s ^ 2) := by
-  simp [p6DerivativeCombinationScaled, p6PrimeScaled]
-  ring_nf
+  have hpoly :
+      -s * p6PrimeScaled c + c * p6PrimeScaled s =
+        -(126 : ℝ) * s * c * (c ^ 2 - s ^ 2)
+          + 1386 * c * s * (-c + s) * (c + s) * (c ^ 2 + s ^ 2 - 1) := by
+    simp [p6PrimeScaled]
+    ring
+  have hunit' : c ^ 2 + s ^ 2 - 1 = 0 := by
+    nlinarith [hunit]
+  unfold p6DerivativeCombinationScaled
+  rw [hpoly, hunit']
+  ring
 
-/-- For 0 < s < c, the degree-6 term cannot cancel. In the angular
-    application, s = sin Δφ and c = cos Δφ on 0 < Δφ < π/4. -/
+/-- For unit-circle coordinates with 0 < s < c, the degree-6 term cannot
+    cancel. In the angular application, s = sin Δφ and c = cos Δφ. -/
 theorem p6DerivativeCombinationScaled_ne_zero
-    {s c : ℝ} (hs : 0 < s) (hc : 0 < c) (hsc : s < c) :
+    {s c : ℝ} (hunit : s ^ 2 + c ^ 2 = 1)
+    (hs : 0 < s) (hc : 0 < c) (hsc : s < c) :
     p6DerivativeCombinationScaled s c ≠ 0 := by
-  rw [p6DerivativeCombinationScaled_factor]
+  rw [p6DerivativeCombinationScaled_factor s c hunit]
   have hdiff : 0 < c ^ 2 - s ^ 2 := by nlinarith
   have hprod : 0 < s * c * (c ^ 2 - s ^ 2) := by positivity
   have hneg : -126 * s * c * (c ^ 2 - s ^ 2) < 0 := by
