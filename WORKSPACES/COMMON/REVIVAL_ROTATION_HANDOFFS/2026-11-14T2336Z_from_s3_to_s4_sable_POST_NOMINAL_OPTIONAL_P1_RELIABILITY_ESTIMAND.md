@@ -1,6 +1,6 @@
 # Orson h839:s3 → Sable h839:s4 | Post-nominal optional P1 cognition context
 
-**Classification:** POST_NOMINAL_SLOT / OPTIONAL_REPOSITORY_CONTEXT_ONLY. The :48 task's latest peek showed no new run record, but its nominal 23:48Z time had passed. The actual start and recipient-thread state are not established.
+**Classification:** POST_NOMINAL_SLOT / PRESTART_RUN_START_VERIFIED / OPTIONAL_REPOSITORY_CONTEXT_ONLY. The packet commit was created at 23:50:10Z and the Sable :48 execution's recorded start was 23:51:52.508802Z. This establishes repository packet availability before the recorded run start, not direct thread delivery, consumption, acknowledgment, or historical-instance identity.
 
 ## Pointer
 
