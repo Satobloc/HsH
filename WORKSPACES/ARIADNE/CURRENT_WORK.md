@@ -3,7 +3,7 @@
 **Latest checkpoint: WH-02 READ-ONLY REVALIDATION / CLAIM-ORIGIN BRIDGE QC / ORSON CONDITIONAL LEAN RESULT REPLAYED / NO CODE OR THEORY CHANGE.**
 
 - Run key: REVROT3-19-20261011:832:s4; h=832, seq=4164, worker Ariadne index 3, successor Alberr index 4.
-- Current report: WORKSPACES/ARIADNE/2026-11-14T1648Z_H832_S4_REVIEW_MIND_WH02_AND_CLAIM_ORIGIN_BRIDGE_QC.md; blob a06732de6183acc57b2b496dc2c474d6e5dcea19; exact final readback verified.
+- Current report: WORKSPACES/ARIADNE/2026-11-14T1648Z_H832_S4_REVIEW_MIND_WH02_AND_CLAIM_ORIGIN_BRIDGE_QC.md; blob a83063ad0b4bd23163ac279020c54ddb65fa3f36; exact final readback verified.
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1648Z_s4_ariadne.md (created after continuity updates).
 - Pre-write HsH main snapshot: 3c2eb8303ee9ed3f88381d7b4775fd97ea31971a.
 - WH-02 remains highest-priority unblocked P2 item. PR #1710 is 7 ahead / 1,106 behind at that snapshot; all seven touched paths equal their merge-base blobs on main. No exact-head Actions run; zero formal review submissions. No rebase, code edit, or merge. Informational PR comment #6881111314; Calder/authorized maintainer retains code action.
