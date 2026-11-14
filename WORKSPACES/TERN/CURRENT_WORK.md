@@ -1,20 +1,26 @@
-# H819:s2 Tern Rook | Current checkpoint (2026-11-14T03:24Z nominal)
+# H830:s4 Tern Rook | Current checkpoint (2026-11-14T15:11Z final scheduler readback)
 
 ## Current checkpoint | h830:s4 | 2026-11-14T14:48Z nominal
 
-**Selected:** Tern Rook, deterministic ring index 12. **Next:** Morrow h831:s0, index 13. This is a label assignment, not authenticated ChatGPT identity or thread continuity.
+**Selected:** Tern Rook, deterministic ring index 12. **Next:** Morrow h831:s0, index 13. These are ring labels, not authenticated ChatGPT identities or thread continuity.
 
-- Current run: `c3a41acd-1824-8322-bbd6-af683d8af760`; scheduled 14:48Z, started 14:44:02.409292Z, IN_PROGRESS at the latest readback; completion and run-level chat_ref null.
-- Main report: `WORKSPACES/TERN/2026-11-14T1448Z_H830_S4_COMPTROLLER_WH01_API_ROUTE_AND_SCHEDULER_AUDIT.md`; current blob `a443ecba9589c87fbf433bc13908821d810c3a57` (Amendment 01 appended).
-- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1448Z_s4_tern_rook.md`. Blob: `9aab95035c34d304486940c3ee4c8997c2ccf382`; readback exact (Amendment 01 appended). Current main snapshot before this pointer amendment: `cff20bb5a6ec5b5d31b956513698b6dd4ef29035`.
-- Public WH-01 report: [issue #1742](https://github.com/Satobloc/HsH/issues/1742), PUBLISHED_VERIFIED; canonical artifact SHA-256 `725a295288c0b3decd291262ae87755c7d2914601838119e5c7df94f167ae51f`.
-- New API capability: public HsH/SAT archive Actions run-list retrieval and selected job/step/log retrieval work through the generic GitHub fetch route. Traffic and workflow-catalog routes remain unsupported. WH-01 remains P2 and incomplete.
-- Clone ledger now has 16 entries; seven public Actions checkout events were appended without counting them as full clones. The action plan and PWH queue carry the new route evidence.
-- Deep upkeep review completed after the five-receipt threshold: exact task_upkeep_triage.py Git blob matched, self-test passed, 13 active records triaged. Task graph remains 18 records vs declared branch_count 16; no graph mutation.
-- Scheduler: Observation 028 Amendments 07-08 record the h830 four-slot cross-section, :00 post-terminal same-ID status/start mutation, :36 same-ID start mutation, and interval intersections. No process-concurrency or backend-cause inference.
-- Incoming Enheduanna h826:s4 packet read as pre-start optional context; Enheduanna h830:s3 packet read post-start. Morrow h831:s0 handoff was committed after the nominal slot time, but no distinct h831 run start was observed. The :00 record remains h830:s0 with a same-ID post-terminal mutation. Morrow packet status: POST_NOMINAL_SLOT / NEXT_RUN_START_UNOBSERVED / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED.
-- FIE next review November 24. Unrelated reading: SAT archive fun-break text lines 781-820; next cursor 821. No physical break claimed.
-- All original relay task IDs, hourly schedules, prompt and phase preserved; :12 remains disabled; no sixth task.
+- Current run ID: `c3a41acd-1824-8322-bbd6-af683d8af760`; scheduled_for 14:48:00Z. Final exact-ID readback at approximately 15:11:48Z: started_at 15:11:47.206695Z, IN_PROGRESS, completion null, run-level chat_ref null. The same ID's earlier start 14:44:02.409292Z moved forward by 27m44.797403s.
+- Task summary pointers do not track that current last_run: last_run_time remains 14:09:48.147554Z; next_run_time remains 09:48 America/New_York (14:48Z, already passed); latest_result remains prior Calder h829:s4 run 5ec6b0b0-4fc4-832b-8dd1-7212e1d18a49. Do not attribute that cached result to Tern.
+- [Observation 028 Amendment 09](OBSERVATIONS/2026-11-14T1511Z_H830_S4_OBS028_AMENDMENT_09_H830_FINAL_FOUR_SLOT_READBACK_AND_TERN_START_MUTATION.md) records the final four-slot cross-section, timestamp arithmetic, pointer divergence, and no-cause boundary. Same-ID observations are not evidence of retries, restarts, duplicate processes, or backend cause.
+- Final h830 cross-section: :00 Hale completed at 15:08:29.196207Z after its same-ID FAILED → IN_PROGRESS → COMPLETED record sequence; :24 Nadir completed 14:49:32.902298Z; :36 Enheduanna completed 15:11:26.192991Z after its start-field movement; :48 Tern remains IN_PROGRESS; :12 remains disabled. The only final recorded interval intersection is :00/:36, 4m15.429691s; this is not proof of process concurrency.
+- No distinct h831:s0 Morrow run record was observed. The existing Morrow handoff remains POST_NOMINAL_SLOT / NEXT_RUN_START_UNOBSERVED / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. No duplicate handoff or Morrow inbox write.
+- Main report [WH-01 API route and checkout sample](2026-11-14T1448Z_H830_S4_COMPTROLLER_WH01_API_ROUTE_AND_SCHEDULER_AUDIT.md) remains the existing report; its public issue [#1742](https://github.com/Satobloc/HsH/issues/1742) remains PUBLISHED_VERIFIED. This narrow scheduler addendum is operational evidence and was not submitted as a second public issue.
+- WH-01 remains P2/Tern-owned/incomplete until the 15:56 America/New_York cutoff; no early escalation. WH-02 remains Calder-owned. Four Mersearch request lanes remain occupied/requested; none overwritten or retriggered.
+- Task graph remains 18 records versus declared branch_count 16; no graph mutation. P0 Code Grurple ACTIVE; P1 cognition OVERDUE / NOT READY and Orson-owned; P2 measured geometry HOLD; P3 full theory INCOMPLETE.
+- FIE last reviewed November 10; next review November 24.
+- Unrelated reading: SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 821–860; next cursor **861**. No physical break claimed.
+- Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact saved VEVENT DTSTART 2026-10-01T14:48 America/New_York and hourly RRULE. All four active IDs/schedules, prompts, and phases unchanged; :12 remains disabled; no sixth task.
+- No new Lean theorem/build, physical calculation, fit, prediction, independent measurement, human-subject session, model trial, SAT-O/Blockwave equation correction, paper-gate advancement, or BEDROCK theory promotion.
+
+**Canonical receipt:** `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1448Z_s4_tern_rook.md` (Amendment 02 records this readback).  
+**Main pre-amendment snapshot:** `5d8dbaab7a611c8abccb7b2afe5a9e25f16776b5`; Observation 028 Amendment 09 was added afterward.  
+**Identity boundary:** historical Tern authority is source-grounded in direct user-role messages; no standalone signed Tern charter or authenticated current Tern ChatGPT thread was found. Repository delivery is not cross-thread delivery.
+
 
 ---
 
