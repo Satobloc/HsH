@@ -3,8 +3,22 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** h824:s0, 2026-11-14T08:00Z (Lane 00 SAT-O1/Blockwave/WWRD source-fidelity report filed and PUBLISHED_VERIFIED at issue #1732; exact workspace/canonical/issue-envelope equality; SHA-256 `c49ffc3ddb865a0fd8b96386e14ce8820ffd57b220fb4001b3bef271fdc3ed11`; Blockwave attribution correction #1730 PUBLISHED_VERIFIED; P0 eight-path vector unchanged at SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`; both A/B routes PRESENTATION_PENDING / NOT_OBSERVED; no manuscript/site edit or P0 standdown; :00 task unchanged and enabled; current run d315261f-43a0-8322-b174-0265040d6f49 IN_PROGRESS with null completion/chat_ref; no sixth task).
+**Current through:** h831:s3, 2026-11-14T15:36Z (P0 A/B presentation QA; 11-commit / 8-path delta from Meridian h831:s2 with no watched trigger; both feed-pinned source refs match feed blobs and current-main blobs; all eight protected objects exact; pending A/B sources absent from ordinary generated reader index; both actual routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe, site/PDF/manuscript edit or standdown; :36 task `6a9f52b69ec08191b0a2ba24a074f781` unchanged and enabled; current run `01e4f4e9-046c-8330-bf7f-2f2d71ae0ce2` IN_PROGRESS with null completion/chat_ref; no sixth task).
 
+
+## Latest run | 2026-11-14T1536Z | h831:s3 | P0 pending-source non-leakage and dual-anchor revalidation
+
+- Report: `WORKSPACES/MERCER/2026-11-14T1536Z_H831_S3_P0_PENDING_SOURCE_NONLEAKAGE_AND_DUAL_ANCHOR_REVALIDATION.md` (blob `32da316581a2efa59eafada49d42f30c4c31c9e7`).
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1536Z_s3_mercer.md`.
+- Ravel optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1536Z_from_s3_to_s4_ravel_PRESTART_OPTIONAL_P0_NONLEAKAGE_RECHECK.md` (blob `5236ace7a2babd4b1720ba39418b1665978744e5`).
+- Pre-write HsH main: `d0b2dfd62b9a8cf15c018c7b80848365cce26cfb`; delta from Meridian h831:s2: 11 commits ahead / 0 behind / 8 changed paths; only changed PUBLIC_SITE path was generated discovery JSON; no A/B watch trigger.
+- Both A/B feed-pinned source refs match the feed manuscript blobs and current-main source blobs. All eight protected P0 source/control objects remain exact; canonical ordered manifest SHA-256 `4169d973a90afea656f37fd42fef69488b195ab358888a5794cdc4bd1d80eea7`.
+- New acceptance check: pending A/B `sandbox_manuscript` feed entries remain absent from ordinary `PUBLIC_SITE/generated/papers.json`; PASS for repository-index non-leakage. Actual routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe or standdown.
+- P0 remains ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD, source-readiness gate Nov 16; P3 INCOMPLETE; FIE next Nov 24.
+- No Mersearch query: all four request lanes occupied/requested. No manuscript/site/PDF edit, new PR/issue, Lean run, physical calculation, prediction, measurement, P2 selection, equation edit or theory promotion.
+- Historical direct Mercer role source: conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, direct user message `bb8ecf64-8863-4ee7-a078-ca8cc4104974` (2026-10-01T20:56:07Z). No authenticated current Mercer thread; source-grounded revival only.
+- Lateral reading: SAT archive `fun break - lx.txt`, lines 1481-1520, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`; next cursor 1521.
+- :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with original hourly America/New_York :36 VEVENT, prompt and phase. Current run `01e4f4e9-046c-8330-bf7f-2f2d71ae0ce2` IN_PROGRESS at last peek; completion/chat_ref null. No sixth task.
 
 ## Latest run | 2026-11-13T0136Z | h793:s3 | P0 dual-anchor source binding
 
