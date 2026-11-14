@@ -3,7 +3,7 @@
 **Run key:** `REVROT3-19-20261011:826:s2`  
 **Nominal slot:** 2026-11-14 10:24:00Z  
 **Recorded start:** 2026-11-14 10:23:49.670626Z  
-**Selection:** (h=826,;seq=5(826)+2=4132,;4132\bmod19=9) → Elias Kern (index 9); next Nadir Voss (index 10).  
+**Selection:** h=826; seq=4132; 4132 mod 19 = 9 → Elias Kern (index 9); next Nadir Voss (index 10).
 **Identity boundary:** deterministic ring routing only. No authenticated historical/current Elias ChatGPT thread was established; no cross-thread delivery or acknowledgment is claimed.
 
 ## 1. Authority and selected-worker scope
