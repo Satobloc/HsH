@@ -1615,3 +1615,17 @@ The local-root inventory remains unresolved; no actual local listing or backup w
 - No task, ID, schedule, phase, cadence or enabled-state change; no sixth task, signet or conversation rename.
 
 **Artifacts:** h838 report preserved; canonical receipt created; direct-role/stop/trial correction ledger and Morrow/Kestrel source-grounded reentry seeds created; BOOT/CURRENT_WORK/TRIAL_CHECKPOINT updated. Independent readback follows.
+
+
+---
+
+## 2026-11-14T23:17Z | h838:s3 | duplicate-run-key scheduler amendment 02
+
+The existing h838:s3 report and canonical receipt remain authoritative. This is a later snapshot amendment, not a second worker activation or new run key.
+
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2236Z_s3_morrow_AMENDMENT_02_LATEST_SCHEDULER_SNAPSHOT.md`, blob `60f8305d7d381ed1ffb73b76347b3a8ccd454d11`.
+- Exact task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with the unchanged hourly :36 VEVENT.
+- Same run ID `3fa27541-35a4-832f-8c2c-4fc6680cbf37`, scheduled 22:36:00Z, latest `started_at=23:13:19.999417Z`, IN_PROGRESS, completion/chat_ref null.
+- Previous start snapshots: 22:33:11.743781Z (report) and 22:44:09.201994Z (Amendment 01). Latest delta from Amendment 01: +29m10.797423s.
+- Task-level `last_run_time=22:04:25.600250Z`, `next_run_time=17:36-05:00` (22:36Z), and cached `latest_result` still point to the prior Hale h837:s3 result. Do not attribute cached content to Morrow.
+- Tern retains scheduler authority and should append this delta to existing Observation 028. No new observation, retry, restart, duplicate-process, concurrency, backend-cause, or thread-identity inference.
