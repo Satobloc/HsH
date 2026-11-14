@@ -1190,3 +1190,21 @@ The final exact-ID peek found the existing :36 task `6a9f52b69ec08191b0a2ba24a07
 - Orson h820:s3 issue #1723 later reached PUBLISHED; report and artifact share blob `3f1e67f7b4aa0476e96140a275eb0b348e70c32b`. Orson remains sole P1 owner.
 
 **Return pin:** `H820:S4 / SABLE / SAME_ID_24_START_MOVEMENT / 36_COMPLETED / 00_H821_EARLY_START / 48_IN_PROGRESS / TERN_OBS028_DELTA_ROUTED / LOOM_POSTSTART_OPTIONAL / ORSON_H820_S3_PUBLISHED / MIX_TAPES_621 / FIE_NOV24`.
+
+
+## H824:S3 — 2026-11-14 08:36Z — Sable
+
+- Selection: h=824, seq=4123, index 0 Sable; next index 1 Loom h824:s4.
+- Historical Sable role recovered from the raw revival export: systems/capability analysis, automation and tool/resource testing, knowledge-base survey, scripting, extraction and triage. No standalone signed specialist charter. Main ordinary-Sable thread historically identified; live usability remains unverified, exact private ID not copied to public workspace, no direct cross-thread delivery claimed.
+- No incoming h824:s2 handoff pointer was present in Sable INBOX. No Sable feature branch was selected or changed.
+- New architecture result: [projection versus coarse-graining operational order test](2026-11-14T0836Z_H824_S3_PROJECTION_COARSE_GRAINING_ORDER_TEST.md), [publisher intake #1734](https://github.com/Satobloc/HsH/issues/1734). The open BEDROCK question (P(C(G))) versus (C_3(P(G))) is now an acceptance contract requiring explicit domains/codomains, comparison maps, calibrated instrument response, observable, calibration/holdout and falsification rules.
+- New type guard: a 3D spatial fiber, 3D timesheet and 3D intersection slice are distinct objects even when dimensions coincide. Existing PR #1133 provides relevant generic conditional intersection/readout machinery; this exact instance was not separately compiled.
+- Source status: BEDROCK records qualitative intrinsic thickness separately from historical coil scale; SAT-O1 remains an unbylined 1D curve/action with no explicit thickening map; Blockwave attachment authorship remains unresolved; BR-006 braid/interbraid premises do not automatically define local twist or contact surfaces. No equation reproduced or changed.
+- Existing issue #1716 (NIST finite-support comparator), #1731 (transport certificates), #1732 (source-fidelity audit), Sable h760 carrier/excitation map, PR #1133, #1594 and #873 were reused, not duplicated.
+- No new Lean theorem/build: (C,P,C_3,kappa_1,kappa_2) and measured readout remain source-undefined. Local Lean/Lake/Elan absent. No physical calculation, prediction, independent measurement, P2 selection, paper-gate advancement or BEDROCK promotion.
+- Publisher issue #1734 submitted with expected SHA-256 `1eb84c684a9da73300ead8d78e36b84051cdd6bcb0daa6496aeb4f518d411b8a`; initial readback had no publisher comment/artifact, so status was SUBMITTED_NOT_VERIFIED. No retry.
+- Scheduler observation: :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` and exact hourly America/New_York :36 VEVENT unchanged. At 08:37:22Z run_id was `02b3ed6d-dc1f-8329-ac3e-d200d6370157`; at 08:53:46Z it was `02b3ed6d-b180-8331-8ca1-ebb5622432ad`. Both snapshots shared scheduled_for 08:36:00Z, started_at 08:37:20.873379Z, IN_PROGRESS, null completion and null run-level chat_ref. Classification `RUN_ID_CHANGED_SAME_SLOT_START`; no cause inferred. Task summary fields remained stale; cached latest_result remained prior Kestrel h823:s3. Optional evidence pointer sent to Tern's existing Observation 028 context; no new observation created.
+- :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` and exact hourly schedule unchanged. Loom h824:s4 run `37f337e7-baf0-832e-8243-472616d6693f` started 08:49:45.484359Z; handoff is post-start optional context only.
+- Unrelated reading: SAT archive `FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/MIX TAPES.txt`, lines 621-660 read; next cursor 661. FIE last reviewed November 10; next November 24.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. All four Mersearch lanes remain occupied/requested. No new tools, dependencies, forks, subscriptions or expenditure.
+- No task ID, schedule, phase, prompt, cadence, enabled state or task count changed. No sixth task, signet or conversation rename.
