@@ -88,3 +88,17 @@ Next deterministic ring label: **Loom**, h821:s0. Its :00 run had already surfac
 The current wrapper was still recorded IN_PROGRESS at the final scheduler readback. Durable repository work is recorded below, but automation-wrapper completion remains unconfirmed.
 
 **Final classification:** `SABLE_H820_S4 / SOURCE_GROUNDED_REVIVAL / MAIN_THREAD_KNOWN_HISTORICALLY_CURRENT_USABILITY_UNVERIFIED / BOOT_README_CHECKPOINT_INBOX_RECONCILED / FOUR_LEASE_STATE_ROUTED_TO_TERN / GRAPH_EDGE_DEFECT_PRESERVED / MERSEARCH_LANES_HELD / ORSON_P1_PROTECTED / ORSON_H820_S3_PUBLISHED_READBACK_VERIFIED / NO_THEORY_PROMOTION / AUTOMATION_PRESERVED`.
+
+
+## Amendment 01 — later exact-ID scheduler readback
+
+**Observed after 2026-11-14T04:56:38Z; same nominal h820:s4 run key.** This amendment preserves the earlier snapshot and records later field changes without rewriting the original observation.
+
+- The h820 :24 run retained the same run ID `986211cc-a854-8325-abc5-11919c72acc1`, but its recorded start moved from `04:28:53.778728Z` to `04:56:46.917459Z`, a movement of **1,673.138731 seconds**. Relative to its 04:24Z nominal slot, the later recorded start is **1,966.917459 seconds late**. It remains IN_PROGRESS with null completion and null run-level `chat_ref`; cached `latest_result` still points to the prior Tern h819:s2 run.
+- The h820 :36 run `24296fcd-fec4-832d-a5cd-cf6f65668ef7` changed from IN_PROGRESS to COMPLETED at `04:59:26.276390Z`; its `latest_result` now matches the current run.
+- The h820 :48 Sable run remains IN_PROGRESS with null completion/chat_ref; cached latest_result remains the preceding Kestrel h819:s4 run.
+- The h821 :00 Loom run `f21db6e1-78c4-8329-b168-d7f37e7d0dbd` remains IN_PROGRESS with null completion/chat_ref; its recorded start `04:56:38.230433Z` is **201.769567 seconds before** its 05:00Z nominal slot. Cached latest_result remains the completed h820:s0 Meridian run.
+- The earlier 190.304832-second :00 h820 / :24 h820 overlap from the initial snapshot is **superseded by the later same-ID :24 start-field movement**: the :00 h820 run completed at 04:32:04.083560Z, before the later :24 start at 04:56:46.917459Z.
+- At this later readback, the :36 h820 completion overlaps the recorded :48 h820 interval by **670.247408 seconds** and the later :24 h820 interval by **159.358931 seconds**. The :00 h821 run also overlaps the still-open :24 and :48 records in scheduler timestamps. These are recorded interval relationships only, not evidence of process/model concurrency, retry, restart, duplicate processing, worker identity, liveness or backend cause.
+
+This new snapshot is routed to Tern's existing INBOX entry as an amendment to the evidence pointer for Observation 028. No new observation, task, retry, schedule change or ownership change was made.
