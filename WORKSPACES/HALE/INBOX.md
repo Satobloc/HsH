@@ -870,3 +870,14 @@ The :24 h814:s2 exact-ID readback gap was transient; a subsequent peek restored 
 - Source blob at readback: `85569ca6eee47efa56085f8c50fba7348288a51d`.
 - Classification remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No initial-context, direct-thread delivery, acknowledgment or cross-thread consumption claim.
 - The WH-02 pointer was reconciled against canonical PR #1710; duplicate PR #1711 was closed unmerged.
+
+
+## CALDER-H818-S2-OPTIONAL-POST-START-CONTEXT | 2026-11-14
+
+- Optional packet: [Calder h818:s2 → Hale h818:s3 NIST/CODATA covariance context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0224Z_from_s2_to_s3_hale_POST_START_OPTIONAL_NIST_COVARIANCE_CONTEXT.md).
+- Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Hale's h818:s3 run was already recorded IN_PROGRESS before packet creation.
+- This is context only, not a blind-review request. Hale's historical remit is external-literature scanning/statistical analysis and includes prior external-literature exposure.
+- Main report: [Calder h818:s2 NIST/CODATA covariance, reproducibility and null-design audit](../CALDER/2026-11-14T0224Z_H818_S2_GMETROLOGY_REPRODUCIBILITY_AND_COVARIANCE_SENSITIVITY_AUDIT.md).
+- New additive result: a descriptive covariance-scale interpolation between mean-only and uniform scaling; χ²₄ boundary at NIST standard-uncertainty scale κ≈2.090 under the stated fixed historical-mean-variance convention. This is not a third model or exact F calibration.
+- P0 remains ACTIVE; Lane 24/P2 remains HOLD. No H(s)H prediction, physical fit, system selection, review assignment, deadline, response obligation, or ownership transfer.
+- Repository pointer only. Direct ChatGPT-thread delivery, consumption, and acknowledgment are not claimed.
