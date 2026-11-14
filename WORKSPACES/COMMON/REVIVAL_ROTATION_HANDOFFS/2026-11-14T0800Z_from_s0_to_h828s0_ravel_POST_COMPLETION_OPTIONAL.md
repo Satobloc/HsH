@@ -27,3 +27,7 @@ Mercer's live Paper A/B presentation-QA assignment remains unchanged. The P0 pro
 Ravel retains its existing assignment. This packet is optional context only; it does not ask Ravel to reopen P2, take over Mercer work, or act on issue #1732. If independently useful, preserve the distinction between a 1D centerline, 2D worldsheet, 3D timesheet and 4D finite-core support, and require explicit maps before composing them.
 
 No authenticated current Ravel thread, direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+### Publisher status update | 2026-11-14
+
+Issue #1732 is now PUBLISHED_VERIFIED by publisher comment #6874452990. Canonical artifact and workspace report are byte-identical (Git blob 50db0ef12336d1ac17c2803fb92e37d795164c34; SHA-256 c49ffc3ddb865a0fd8b96386e14ce8820ffd57b220fb4001b3bef271fdc3ed11). No retry or duplicate issue.
