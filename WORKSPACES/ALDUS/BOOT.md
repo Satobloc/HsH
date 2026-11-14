@@ -6,22 +6,22 @@
 
 “Aldus” is a deterministic relay label, not authentication of a particular ChatGPT instance or thread. No authenticated current Aldus thread was established in this run.
 
-The historical direct-user remit is broad cross-reading, connecting information not usually combined, and scouting for overlooked leverage across domains. It was recovered from 47 user-role messages in the archived conversation export, conversation ID 6a9dea2e-bb98-83ea-a74f-4beb4baa3153, raw Git blob 2f5ea91a449446f64d298b50b0c2ef0d8533900a. Key direct-user message locators: 939e0d7c-5e9e-4c84-b4a9-4e0e8e58d832 and fcff5c18-85c4-4efc-b7e5-df7ee20c0646. There is no standalone signed specialist charter. The “Renaissance Man” label in WORKING_GROUP_1.txt is a historical working-group/assistant formulation, not Nathan Direct.
+The historical direct-user remit is broad cross-reading, connecting information not usually combined, and scouting for overlooked leverage across domains. It was recovered from 47 user-role messages in the archived conversation export, conversation ID 6a9dea2e-bb98-83ea-a74f-4beb4baa3153, raw Git blob 2f5ea91a449446f64d298b50b0c2ef0d8533900a. Key direct-user message locators: 939e0d7c-5e9e-4c84-b4a9-4e0e8e58d832 and fcff5c18-85c4-4efc-b7e5-df7ee20c0646. There is no standalone signed specialist charter. The phrase “the Renaissance man of the group” is directly attested in Nathan’s 2026-09-08T03:56:33.466Z user-role message 939e981d-72ec-451b-81a3-f0a7b3a2c48. The later WORKING_GROUP_1.txt entry is a derivative representation, not independent corroboration.
 
 
 
 
-## Latest checkpoint — h814:s2 follow-up (2026-11-13T23:02Z)
+## Latest checkpoint — h829:s3 (2026-11-14T13:36Z)
 
-- Current return point: [CURRENT_WORK.md](CURRENT_WORK.md) and [h814:s2 follow-up report](2026-11-13T2302Z_H814_S2_WH02_TITLE_FIDELITY_AND_NOTEBOOKLM_INTAKE_CROSSREAD.md).
-- Canonical follow-up receipt: [h814:s2 Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2302Z_s2_aldus_AMENDMENT_03_WH02_AND_NOTEBOOKLM_INTAKE.md).
-- Paper A/B presentation: issue #1665 is PUBLISHED_VERIFIED; the h814 methods addendum is in its existing comment thread (#6866784344). No duplicate issue/comment was created.
-- WH-02: PR #1710 has a dotted-title truncation counterexample; Calder retains code/PR ownership. PR remains draft and not CI-verified.
-- WH-03: a partial NotebookLM export has been identified as an intake candidate, not a ChatGPT conversation or verified bibliography; preserve its blob/source status and do not treat hypothetical calculations as measurements.
-- WH-05: Aster's four-lane diagnosis is complete; Tern still owns release/retry authority. All four lanes remain held.
-- Lane 24: Han paper data are available from the corresponding author on reasonable request; contact locator is in CURRENT_WORK. No raw data/calibration package or new physical result.
-- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No theory promotion or scheduler/task mutation.
-
+- Current return point: [CURRENT_WORK.md](CURRENT_WORK.md) and [h829:s3 report](2026-11-14T1336Z_H829_S3_COORDINATE_TO_INSTRUMENT_COMPOSITION_GATE.md).
+- Canonical receipt: [h829:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1336Z_s3_aldus.md).
+- New architecture integration: ordered source-role → H(s)H-to-laboratory → physical-sector → instrument → composite-readout → representation-coherence → identifiability → paired-freeze → holdout chain. This composes existing gates; it is not a new theorem or physical law.
+- Public issue #1738 was rejected by the existing publisher for SHA-256 mismatch (comment #6878285614). No canonical artifact exists. No retry, duplicate issue, issue edit or publication bypass was made.
+- Han et al. synchronized SVS/4D-PTV remains a candidate measurement-architecture example only. Raw data/calibration/covariance absent; no H(s)H forward map, physical calculation, prediction, P2 selection or new Lean build.
+- Historical role source correction: the phrase “the Renaissance man of the group” is directly attested in user-role message 939e981d-72ec-451b-81a3-f0a7b3a2c48; no standalone signed specialist charter exists. The two-thread prompt-diversity anecdote is user-reported, not controlled.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
+- Current :36 run 33561e69-9524-832e-894d-16c1f86e26f9 remains IN_PROGRESS with completion/chat_ref null at the last readback.
+- Next ring label Calder. The :48 run had already started at 13:47:04.416742Z; repository handoff is POST_START_OPTIONAL_CONTEXT_ONLY, not direct thread delivery or acknowledgment.
 ## Prior cross-lane Review-MIND overlay — h806:s4
 
 The 2026-11-13 :48 slot performed a bounded QC of the existing REVROT3 eligibility metadata auditor. The 40-case self-test passes, but source-derived counterexamples show missing/unknown statuses and malformed Boolean strings are not rejected; the full historical repository audit fails separately. See [h806:s4 report](2026-11-13T1448Z_H806_S4_REVIEW_MIND_REVROT3_ELIGIBILITY_GATE_FAIL_OPEN_AUDIT.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1448Z_s4_aldus.md).
@@ -29,6 +29,8 @@ The 2026-11-13 :48 slot performed a bounded QC of the existing REVROT3 eligibili
 This is a temporary Review-MIND slot overlay, not a permanent role transfer or a replacement for the h795:s2 Lane24 synchronized SVS/4D-PTV measurement map. No PR, task, schedule, physical calculation or theory state changed. Tern retains scheduler authority; see [Observation 015 Amendment 02](../TERN/OBSERVATIONS/2026-11-13T1452Z_H806_S4_OBS_015_AMENDMENT_02_H806_S0_START_FIELD_MOVEMENT.md).
 
 ## Current lane
+
+The scheduled :36 architecture/prediction overlay is temporary and does not reassign the persistent Lane 24 remit.
 
 Lane 24: H(s)H generation and worldtube characterization, with CODATA and measured-system discipline. Keep actual measurement, calibration, model-derived inference, fit, prediction, and proposal separate. No physical calculation without an identifiable measured system, provenance, units, uncertainties, and prediction-versus-fit separation. Geometry-bearing claims require explicit typed maps and conditions. Do not equate laboratory 3D-plus-time data with H(s)H objects by vocabulary alone.
 
@@ -58,4 +60,4 @@ Paper gates remain separate: P0 Code Grurple ACTIVE; P1 Nov 9 OVERDUE/NOT READY 
 4. Reuse existing Lean work only after exact map types and assumptions are source-grounded; verify actual module builds independently.
 5. Do not select a P2 system or promote an H(s)H claim from this source alone.
 
-Latest durable execution detail and handoff are recorded in [CURRENT_WORK.md](CURRENT_WORK.md) and the canonical h795:s2 receipt under COMMON.
+Latest durable execution detail and handoff are recorded in [CURRENT_WORK.md](CURRENT_WORK.md) and the canonical h829:s3 receipt under COMMON; h795:s2 remains historical.
