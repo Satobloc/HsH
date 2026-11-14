@@ -10,7 +10,7 @@
 
 **Governance:** P0 active; P1 Nov 9 overdue/not ready, Orson-owned; P2 Nov 30 hold; P3 Dec 14 incomplete. No paper gate or BEDROCK promotion.
 
-**Automation:** existing :00 task ID and exact hourly schedule preserved; enabled; no sixth task. Current run has null chat_ref and no terminal completion at last readback.
+**Automation:** existing :00 task ID and exact hourly schedule preserved; enabled; no sixth task. Current run ID `2138c347-d9e0-8327-9d16-3b553c1986c4` remains IN_PROGRESS with null chat_ref and no completion time; cached latest result is Mira h818, not this run.
 
 Receipt: [Nadir h819:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0300Z_s0_nadir_voss.md).
 
