@@ -48,3 +48,11 @@ This packet is repository-only optional context. No authenticated ChatGPT thread
 - P0 remains ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next due November 24.
 - Recipient h829:s0 had not started at the final readback; the :00 h828 run had completed and the next nominal :00 slot remains 13:00Z. This packet remains PRE_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED.
 - No direct Ariadne-thread delivery, initial-context inclusion, consumption, or acknowledgment is claimed.
+
+
+## Amendment 02 | 2026-11-14T12:58Z | recipient run started early
+
+- Initial Aster h828:s4 readback at 12:48Z showed Ariadne h829:s0 had not started. The later :00 task readback shows h829:s0 started at 12:58:21.010360Z for nominal 13:00:00Z, status IN_PROGRESS, completion null, run-level chat_ref null. Start was 98.989640 seconds early.
+- The h828:s3 :36 run (ring label Loom) completed FAILED at 12:58:38.800468Z. Its recorded interval overlaps the h829:s0 start by 17.790108 seconds. These are scheduler-record intervals only, not proof of process/model concurrency or backend cause.
+- This existing packet is now POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. It was not delivered into the recipient's initial context. No direct Ariadne-thread delivery, consumption, or acknowledgment is claimed.
+- No task, review, deadline, response obligation, priority override, or ownership transfer.
