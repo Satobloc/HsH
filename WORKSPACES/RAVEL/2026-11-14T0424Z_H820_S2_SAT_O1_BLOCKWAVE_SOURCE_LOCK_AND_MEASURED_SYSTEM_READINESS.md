@@ -1,12 +1,12 @@
 # H820:s2 Ravel | SAT-O1 / Blockwave source lock and measured-system readiness
 
-**Run key:** \`REVROT3-19-20261011:820:s2\`  
+**Run key:** `REVROT3-19-20261011:820:s2`  
 **Selected worker:** Ravel, ring index 17  
 **Next worker:** Orson Vay, ring index 18  
 **Nominal slot:** 2026-11-14T04:24:00Z  
-**Preflight HsH main:** \`daf6996e5082b09ffbde458f75b04ca24ff9041e\`
+**Preflight HsH main:** `daf6996e5082b09ffbde458f75b04ca24ff9041e`
 
-**Disposition:** \`SOURCE_CUSTODY_ADVANCED / ORIGINALS_UNMODIFIED / CORRECTIONS_SEPARATE / MEASURED_CANDIDATES_MAPPED / P2_HOLD / P0_ACTIVE\`
+**Disposition:** `SOURCE_CUSTODY_ADVANCED / ORIGINALS_UNMODIFIED / CORRECTIONS_SEPARATE / MEASURED_CANDIDATES_MAPPED / P2_HOLD / P0_ACTIVE`
 
 This is a bounded source-custody and measurement-readiness operation explicitly requested in the current relay. It does not stand down P0, select a P2 system, validate H(s)H, or promote theory.
 
@@ -52,15 +52,15 @@ The HsH, SAT archive, and HSH_RESOURCES front doors were checked. HSH_RESOURCES 
 
 Both paths were fetched from the archive. They are content-identical and return the same Git blob SHA-1:
 
-\`\`\`
+```
 7577aa1ee5a6c3850ce3b226c75377de6367aedc
-\`\`\`
+```
 
 The earlier exact-byte custody record gives SHA-256:
 
-\`\`\`
+```
 8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937
-\`\`\`
+```
 
 That SHA-256 was not recomputed in this run; the Git blob identity and equality of the two archive paths were independently rechecked.
 
@@ -113,29 +113,29 @@ These equations and definitions are preserved verbatim in the source. No source 
 
 ### 4.1 Earliest located user-supplied attachment
 
-The original conversation export is \`🧶🧱SAT\`, conversation ID:
+The original conversation export is `🧶🧱SAT`, conversation ID:
 
-\`\`\`
+```
 68c990dd-df28-832e-b766-c267190aaffa
-\`\`\`
+```
 
-The attachment event is recorded at **2025-09-16T16:31:26.687Z**. The attachment metadata identifies \`🧱BLOCKWAVE.txt\`, legacy file ID \`file-LwaFTKkMemPPrLU4qCLpYB\`. The next assistant message says it has access to the four documents the user uploaded. This establishes user-supplied attachment provenance, not authorship of the embedded text.
+The attachment event is recorded at **2025-09-16T16:31:26.687Z**. The attachment metadata identifies `🧱BLOCKWAVE.txt`, legacy file ID `file-LwaFTKkMemPPrLU4qCLpYB`. The next assistant message says it has access to the four documents the user uploaded. This establishes user-supplied attachment provenance, not authorship of the embedded text.
 
 The materialized Library file is 25,255 bytes. Its SHA-256, independently computed in this run, is:
 
-\`\`\`
+```
 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664
-\`\`\`
+```
 
 The exact Git blob SHA-1 is:
 
-\`\`\`
+```
 ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d
-\`\`\`
+```
 
-The local \`git hash-object\` of the materialized attachment returned that exact blob SHA-1, verifying byte identity with the HsH archive blob. The first extant HsH commit was previously recorded as 2026-10-08T02:42:49Z. The attachment has no embedded byline or reliable internal authoring date. Its embedded authorship remains **UNRESOLVED**.
+The local `git hash-object` of the materialized attachment returned that exact blob SHA-1, verifying byte identity with the HsH archive blob. The first extant HsH commit was previously recorded as 2026-10-08T02:42:49Z. The attachment has no embedded byline or reliable internal authoring date. Its embedded authorship remains **UNRESOLVED**.
 
-A later 2025-10-19 “Blockwave Lagrangian formula” conversation references this file through a \`my_files\` tether quote and contains a separate assistant-generated action. That later assistant action is not the original attachment and is not Nathan Direct.
+A later 2025-10-19 “Blockwave Lagrangian formula” conversation references this file through a `my_files` tether quote and contains a separate assistant-generated action. That later assistant action is not the original attachment and is not Nathan Direct.
 
 ### 4.2 Verbatim Blockwave attachment equation
 
@@ -184,8 +184,8 @@ These documents must not be collapsed into the 2025 attachment:
 
 | Artifact | Git blob SHA-1 | Source status |
 |---|---|---|
-| \`SAT—Blockwave Ideal Model.txt\` | \`dd0631bc0b25c951dc5e1d6738280e08487b46b2\` | Unbylined later minimal-core document; first extant HsH commit 2026-10-08T02:42:49Z |
-| \`BLOCKWAVE OUTFILL\` | \`d870e30ddfe7baf181981f78d8d2c3be5aedb3ce\` | Separate unbylined later outfill document; same first extant HsH commit date |
+| `SAT—Blockwave Ideal Model.txt` | `dd0631bc0b25c951dc5e1d6738280e08487b46b2` | Unbylined later minimal-core document; first extant HsH commit 2026-10-08T02:42:49Z |
+| `BLOCKWAVE OUTFILL` | `d870e30ddfe7baf181981f78d8d2c3be5aedb3ce` | Separate unbylined later outfill document; same first extant HsH commit date |
 
 The minimal-core document uses a \((g_{\mu\nu},u^\mu,\theta)\) field set and contains no rank-two \(J^{\mu\nu}\) current. Its phase potential is proportional to \(-(1-\cos\theta)\).
 
@@ -306,7 +306,7 @@ These are source-reported fit/consistency values, not new measurements by this r
 
 The PIV plane measures azimuthal flow near \(r\sim1\) cm, while the fitted core radii are around 1.9–2.2 mm. It does not directly resolve the core interior. The Rankine finite-core model is therefore a model assumption, checked against external flow and PTV measurements, not a directly measured internal velocity profile.
 
-**Candidate status:** \`FINITE_CORE_ROTATION_SOURCE_READY / DATA_PACKAGE_UNVERIFIED / P2_NOT_SELECTED\`.
+**Candidate status:** `FINITE_CORE_ROTATION_SOURCE_READY / DATA_PACKAGE_UNVERIFIED / P2_NOT_SELECTED`.
 
 The paired contour map is already formalized in Sable PR #1538. Its successful Lean build is an existing conditional result, not a new proof in this run. It reconstructs the two measured boundary traces from \((a,\eta)\); it does not reconstruct a full three-dimensional core or four-dimensional worldtube.
 
@@ -322,7 +322,7 @@ Three empirical/mechanical sources were located:
 
 These sources indicate that actual rope response depends on constitutive nonlinearity, rate dependence, hysteresis, friction, contact geometry, boundary conditions, mass, and loading history. They do not establish universal climbing-rope geometry, nor any physical equivalence to H(s)H worldtube/timesheet structure.
 
-**Candidate status:** \`ROPE_MECHANICS_SOURCE_CANDIDATE / RAW_DATA_AND_CALIBRATION_NOT_ACQUIRED / NO_UNIVERSALITY_CLAIM\`.
+**Candidate status:** `ROPE_MECHANICS_SOURCE_CANDIDATE / RAW_DATA_AND_CALIBRATION_NOT_ACQUIRED / NO_UNIVERSALITY_CLAIM`.
 
 ## 8. Inspiral candidate: GW170817 public strain products
 
@@ -339,19 +339,19 @@ The official GWOSC API is public and read-only, and GWpy documents retrieval of 
 
 No strain file was downloaded or analyzed in this run. The data package is a credible inspiral candidate, but any test must specify detector, calibration version, data-quality segments, PSD/noise treatment, waveform-model dependence, and a held-out observable before comparing H(s)H predictions.
 
-**Candidate status:** \`GW170817_PUBLIC_DATA_IDENTIFIED / NOT_DOWNLOADED / P2_NOT_SELECTED\`.
+**Candidate status:** `GW170817_PUBLIC_DATA_IDENTIFIED / NOT_DOWNLOADED / P2_NOT_SELECTED`.
 
 A directly resolved neutron-star contact/post-merger observable is not claimed from this source map.
 
 ## 9. Lean, tooling, and proof status
 
-No local \`lean\`, \`lake\`, or \`elan\` executable and no local repository checkout were present. Existing GitHub Actions are the current build route.
+No local `lean`, `lake`, or `elan` executable and no local repository checkout were present. Existing GitHub Actions are the current build route.
 
 Existing work was checked rather than duplicated:
 
-- **Sable PR #1538:** exact PR-head build run #42678421460 succeeded with Lean 4.34.0 / Lake 5.0.0. It proves the conditional two-boundary-trace \(\leftrightarrow(a,\eta)\) inverse map. Test, lint, leanchecker, nanoda and axiom-audit stages were skipped. The theorem-specific axiom report includes \`propext\`, \`Classical.choice\`, and \`Quot.sound\`.
+- **Sable PR #1538:** exact PR-head build run #42678421460 succeeded with Lean 4.34.0 / Lake 5.0.0. It proves the conditional two-boundary-trace \(\leftrightarrow(a,\eta)\) inverse map. Test, lint, leanchecker, nanoda and axiom-audit stages were skipped. The theorem-specific axiom report includes `propext`, `Classical.choice`, and `Quot.sound`.
 - **Ravel PR #1133:** existing conditional readout/fibre results built successfully in run #43212754624 on the PR build reference. It does not prove the source-missing SAT-O1-to-Blockwave map. The separate normal-connection module still has proof debt; no global sorry-free claim is made.
-- **Morrow PR #1700:** the target \`MorrowRadialGraphS3\` module compiled in run #43503893383, but the overall root build failed in the pre-existing \`MovingPlaneTraceGeometry\` file because of noncomputable-declaration errors. This is not a successful full-project build.
+- **Morrow PR #1700:** the target `MorrowRadialGraphS3` module compiled in run #43503893383, but the overall root build failed in the pre-existing `MovingPlaneTraceGeometry` file because of noncomputable-declaration errors. This is not a successful full-project build.
 - **Math Hopper #578 / PR #991:** existing work remains open; full three-repository scan and smoke-CI status are not verified.
 - **Whirligig Kernel 0:** remains a sandbox/reference, not a production dependency.
 - SciSpace is available as an existing connector but was not needed for this source audit.
@@ -362,15 +362,15 @@ No new Lean module, tool, dependency, fork, subscription, branch, or PR was crea
 
 P0 remains ACTIVE. The eight protected Paper A/B presentation objects remain at the previously verified fingerprint:
 
-\`\`\`
+```
 833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161
-\`\`\`
+```
 
-Both reader routes remain \`PRESENTATION_PENDING / NOT_OBSERVED\`. No source-bound PDF derivative, deployment identity, live reader route, or visual acceptance was observed. No route probe was made because no authenticated browser context was available.
+Both reader routes remain `PRESENTATION_PENDING / NOT_OBSERVED`. No source-bound PDF derivative, deployment identity, live reader route, or visual acceptance was observed. No route probe was made because no authenticated browser context was available.
 
-Issue #1716 remains \`PUBLISHED_VERIFIED\` and uses the final NIST PDF values. The separate landing-page metadata discrepancy remains an internal source-version note; no addendum was posted because the existing publisher has no verified additive route for an already-published issue. No duplicate issue or direct public artifact write was made.
+Issue #1716 remains `PUBLISHED_VERIFIED` and uses the final NIST PDF values. The separate landing-page metadata discrepancy remains an internal source-version note; no addendum was posted because the existing publisher has no verified additive route for an already-published issue. No duplicate issue or direct public artifact write was made.
 
-Kestrel issue #1721's publisher job log confirms a GitHub Contents API PUT returned HTTP 409 after checking out event commit \`a1ce3a339...\`. The log does not include the response body, so a concurrency cause is not established. This remains Tern-owned; no retry was attempted.
+Kestrel issue #1721's publisher job log confirms a GitHub Contents API PUT returned HTTP 409 after checking out event commit `a1ce3a339...`. The log does not include the response body, so a concurrency cause is not established. This remains Tern-owned; no retry was attempted.
 
 No original SAT-O1 or Blockwave file was modified. No corrected equation was written into BEDROCK. No physical calculation, fit, H(s)H prediction, independent measurement, CODATA comparison, or theory promotion was performed.
 
@@ -388,14 +388,14 @@ P2 remains HOLD. These are source-readiness candidates, not selected systems or 
 
 The deterministic selection is Ravel h820:s2, with Orson Vay h820:s3 next. The immediate :12 predecessor lease is disabled, so no predecessor handoff was expected. No Orson assignment or cross-lane task was created because Orson's P1 cognition remit is protected and this material does not require P1 action.
 
-The existing :24 automation remains enabled with task ID \`6abda4c8eda88191bf23a6f2849e9a17\` and its original schedule:
+The existing :24 automation remains enabled with task ID `6abda4c8eda88191bf23a6f2849e9a17` and its original schedule:
 
-\`\`\`
+```
 DTSTART;TZID=America/New_York:20261001T142400
 RRULE:FREQ=HOURLY
-\`\`\`
+```
 
-Current run ID: \`986211cc-d9e0-8a20-8d9f-3f6a2e4c1e2d\`, recorded IN_PROGRESS at final pre-receipt readback, start 2026-11-14T04:28:53.778Z, run-level chat reference null. No task ID, prompt, enabled state, phase, or cadence was changed. No sixth task was created.
+Current run ID: `986211cc-d9e0-8a20-8d9f-3f6a2e4c1e2d`, recorded IN_PROGRESS at final pre-receipt readback, start 2026-11-14T04:28:53.778Z, run-level chat reference null. No task ID, prompt, enabled state, phase, or cadence was changed. No sixth task was created.
 
 Unrelated reading cursor remains *The Importance of Being Earnest*, Project Gutenberg #844, next line 2291. FIE rereview remains due November 24.
 
