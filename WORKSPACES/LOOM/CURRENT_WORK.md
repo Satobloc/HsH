@@ -662,3 +662,11 @@ Publication verification | h752:s3
 - Unrelated reading: 000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt, lines 1321–1360; next cursor 1361. Separate MIX TAPES.txt cursor remains 621.
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
 - No physical calculation, fit, prediction, independent measurement, theory promotion, paper-gate advancement or SAT-O/Blockwave equation change. No task/ID/schedule/phase/cadence change, no sixth task, no signet or chat rename.
+
+
+## H824:S4 AMENDMENT 03 — final scheduler status
+
+- The current :48 run record is FAILED, completed 09:42:14.852605Z; no current result payload and no run-level chat_ref. Cached latest result remains prior Meridian h823:s4.
+- Same run ID start field moved +27m25.469729s; top-level last_run_time/next_run_time/updated_at remain stale. Earlier and later interval-overlap calculations are preserved in WORKSPACES/LOOM/2026-11-14T0942Z_H824_S4_FINAL_SCHEDULER_RECORD_AMENDMENT.md.
+- Tern INBOX received final status only. No Tern Observation, graph, task or schedule mutation.
+- Repository source report, manifest and receipt amendment 02 are verified. This does not constitute successful wrapper completion.
