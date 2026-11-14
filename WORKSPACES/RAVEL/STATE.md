@@ -592,3 +592,8 @@ Amendment 01: 2026-11-14T1936Z_H835_S3_NIST_POINT_MASS_FACTOR_RECONCILIATION_AME
 Related prior public issue: #1716. Additive follow-up: #1750, publisher verification pending.
 
 No raw torque fit, CMM point-cloud analysis, independent measurement, H(s)H prediction, P2 selection, Lean theorem/build, equation change or BEDROCK promotion. P0 remains ACTIVE; P1 remains Orson-owned and OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE.
+
+
+## h835:s3 publication correction — 2026-11-14T20:15Z
+
+The additive issue #1750 was processed by the existing publisher and rejected with SHA-256 mismatch (workflow run 43636421412; comment 6883585023). The expected artifact was not found on readback. Final status is REJECTED_SHA256_MISMATCH / NO_ARTIFACT / NO_READBACK. No retry, duplicate issue, manual comment bypass, or direct artifact write was performed. See report Amendment 02 and receipt Amendment 02. The original PUBLISH_PENDING entries are superseded.
