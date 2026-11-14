@@ -73,11 +73,11 @@ theorem frechet_joint_trustworthiness_bounds (t : ThreeEventLaw) :
     · exact h111
     · unfold repeatable orderInvariant criterionCorrect jointTrustworthy
       linarith [t.total]
-  · apply le_min.mpr
+  · rw [le_min_iff]
     constructor
     · unfold repeatable jointTrustworthy
       linarith
-    · apply le_min.mpr
+    · rw [le_min_iff]
       constructor
       · unfold orderInvariant jointTrustworthy
         linarith
@@ -85,7 +85,7 @@ theorem frechet_joint_trustworthiness_bounds (t : ThreeEventLaw) :
         linarith
 
 /-- A probability table in which all three events coincide with probability 1/2. -/
-def maximallyCoLocated : ThreeEventLaw where
+noncomputable def maximallyCoLocated : ThreeEventLaw where
   p111 := 1 / 2
   p110 := 0
   p101 := 0
@@ -98,7 +98,7 @@ def maximallyCoLocated : ThreeEventLaw where
   total := by norm_num
 
 /-- A probability table with the same three marginals but empty triple intersection. -/
-def separated : ThreeEventLaw where
+noncomputable def separated : ThreeEventLaw where
   p111 := 0
   p110 := 0
   p101 := 0
