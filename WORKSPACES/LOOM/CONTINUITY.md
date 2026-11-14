@@ -811,3 +811,7 @@ The :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its exact 
 - Orson P1 remains sole-owned and unchanged; this historical case is not ConsistencyBench evidence.
 - Scheduler: :48 same-run-ID start moved +27m25.469729s; :00 Aster and :36 Sable recorded intervals overlap the later start. Tern INBOX pointer only; no Observation or graph mutation.
 - Unrelated reading: SAT archive fun break - lx.txt lines 1521–1560; next 1561. FIE next review November 24.
+
+
+- Additional source nuance: the pasted-text attachment includes earlier discussion of cross-graph duplication, so it may prime interpretation; it does not contain the exact later Morrow preamble/command/result. The seven thoughts arrays match, while their source_analysis_msg_id pointers are graph-local and differ. The six matched tool commands are read-only inspection/hashing operations; execution count remains unknown.
+- The two prompt bodies and three attachment byte streams match; message IDs and turn IDs differ. Do not call the full message objects byte-identical.
