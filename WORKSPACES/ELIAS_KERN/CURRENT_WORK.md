@@ -936,3 +936,20 @@ Next source cursor: recover the Saucepan conversation identity/timestamps; defin
 ### h818:s4 final PR metadata correction
 
 PR #951's final exact readback is OPEN / DRAFT with `mergeable=true`, head `f9fa0aad45408ab06e5430c834530854746235f0`, base `61cc8b65ffed70296e0121dbae067892a79c81d4`, zero formal reviews, and 23 comments (20 `Satobloc`, 3 `vercel[bot]`). This mergeable flag is not CI acceptance or independent review; the successful Lean run remains the stale-base merge-reference build. No PR action.
+
+## 2026-11-14 h822:s3 | candidate-freeze coherence counterexample
+
+- Run key: `REVROT3-19-20261011:822:s3`; deterministic label Elias Kern (index 9), next Nadir Voss (index 10). No authenticated current Elias thread or historical-instance participation is claimed.
+- Report: `WORKSPACES/ELIAS_KERN/2026-11-14T0636Z_H822_S3_TRACKA_CANDIDATE_FREEZE_COHERENCE_AUDIT.md`; canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0636Z_s3_elias_kern.md`.
+- New Track A finding: the switchboard POC design requires math, provenance, and adversarial checks to share one candidate freeze hash H_N. The current `apply_checks` merges check results by type without candidate/freeze binding. A targeted replay of the exact method body produced `checked_pass` from H_A/H_B/H_B results; changing candidate ID after an H_A pass also leaves `checked_pass` active. This is a synthetic software counterexample, not a production event.
+- Proposed contract: content-derived candidate freeze ID; bind each check receipt to that ID; preserve stale results but exclude them from the active gate; require all three checks to pass against the same current freeze. Keep reviewer/source independence separate.
+- The existing seven-assertion self-test does not cover freeze coherence. The full POC script was not rerun. No POC, PR #951, adapter, or production change; Sable's ELIAS-2224 Track B disposition remains pending.
+- Existing PR #951 source-to-formal witnesses and PR #1133 were inspected. No local Lean/Lake/Elan executable; no new Lean theorem/build, PR, branch, or CI dispatch.
+- Worldtube source boundary: existing October 17 raw-source recovery record identifies conversation `6ad065ae-9b8c-83e9-8858-d99dd9a4a5e1`, raw blob `40daedbf045ce16442fd493d2992062487b3c369`. Nathan Direct braid-history/interbraid premises remain distinct from assistant-originated scalar B(t) relation. No physical map, calculation, fit, prediction, measurement, or equation change.
+- Mersearch unavailable; all four canonical request lanes remain requested. GitHub search fallback across the three repositories; no request overwritten or retriggered.
+- Public-safe submission: issue #1727, submission `elias-tracka-candidate-freeze-coherence-20261114t0636z-s3-001`, SHA-256 `2313e850e6b26a1aa31af15e05f2a1dc9287a0a0111b8f52b4b30c02a64c8618`; status SUBMITTED_NOT_VERIFIED at final check. Do not retry or duplicate.
+- Optional repository-only context routed to Sable/Tern for the existing ELIAS-2224 gate and to Nadir for geometry-test provenance only. No task, response obligation, or ownership transfer; no direct thread delivery/consumption/acknowledgment claimed.
+- Campaign: P0 ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. Unrelated reading: MIX TAPES.txt lines 701–740; next cursor 741.
+- No physical calculation, model trial, human session, API spend, tool/dependency/fork/subscription, paper-gate advancement, theory promotion, scheduler mutation, or task change.
+
+**Next cursor:** preserve the sandbox POC and PR #951 unchanged until independent Track B disposition. If disposition arrives, add a candidate-freeze ID to the typed candidate/check contract and test stale-result exclusion before any implementation. Nadir's finite-core remit remains independent; optional geometry context only.
