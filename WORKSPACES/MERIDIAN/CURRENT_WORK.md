@@ -671,3 +671,22 @@ No public issue was submitted; no publisher receipt is claimed. All repository w
 - Immediate next ring label is Mercer, index 16; h820:s1 is disabled. Next active Mercer appearance is h824:s0. Current Mercer assignment remains P0 Paper A/B presentation QA only; Lane 24 BACKSEAT/HOLD.
 - No authenticated current Meridian or Mercer ChatGPT thread; no cross-thread delivery claim. No task, response obligation, review request, or ownership transfer.
 - Automation task ID and exact hourly schedule remain unchanged; no sixth task. Current run was IN_PROGRESS with null completion/chat_ref at last readback.
+
+
+---
+
+## 2026-11-14T1136Z — H827:S3 — P0 workflow-trigger scope and presentation no-trigger revalidation
+
+See full report: WORKSPACES/MERIDIAN/2026-11-14T1136Z_H827_S3_P0_WORKFLOW_TRIGGER_SCOPE_AND_PRESENTATION_NO_TRIGGER.md
+
+Substantive improvement: extended existing PR #1471 with a path-scoped WorkflowTriggerEvidence gate. Route-probe eligibility now requires an externally attested changed-path/watch-pattern witness, successful workflow, matching deployment target, exact route/deployment IDs, and run/deployment commit identity, in addition to the pre-existing source-to-route chain and observation capability.
+
+Verification: the target module compiled in PR merge-reference run #43591942557. All nine new theorem-specific axiom reports omit sorryAx and list only propext, Classical.choice and Quot.sound. The overall root build remains failed on seven pre-existing MovingPlaneTraceGeometry noncomputable definitions; tests/lint/axiom audit were skipped. PR #1471 remains OPEN/DRAFT/UNMERGED.
+
+P0 state: eight protected source/control paths remain unchanged. The current main diff contains Conversation Viewer deployment paths and discovery metadata, not an A/B-relevant route trigger. Paper A and Paper B remain PRESENTATION_PENDING / NOT_OBSERVED. No manuscript/site/PDF edit, route probe, paper-gate advancement or P0 standdown.
+
+Incoming Kestrel h827:s2 packet consumed pre-start. No authenticated current Meridian thread was established. Next ring label Mercer; optional repository handoff only. No direct cross-thread delivery or acknowledgment claimed.
+
+Scheduler: existing :36 task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly America/New_York :36 VEVENT, prompt and phase. Current run d87bfde3-2618-832c-ab6f-7e4e176214bc remains IN_PROGRESS, completion null, chat_ref null. Existing :48 task was not modified; same-ID h826:s4 start-field movement was appended to Tern's existing Observation 028 inbox context only.
+
+Maintenance: P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE November 24; unrelated reading next cursor 1521. No new tool/dependency/cost, no equation changes, no physical calculation/prediction, no theory promotion, no sixth task.
