@@ -37,7 +37,7 @@
 - VEY-044 literature crosswalk is internal context, not a P1 protocol amendment. Nine references matched; no retraction flags.
 - PR #1743 / issue #1744 are a separate epistemic-formalization line and do not satisfy P1.
 - FIE next rereview Nov 24. Babbage unrelated-reading next cursor 1321.
-- Publisher issue #1749 remains SUBMITTED_NOT_VERIFIED / likely escaping-related SHA mismatch; no duplicate/retry until terminal outcome.
+- Publisher issue #1749 remains OPEN; publisher comment #6883490752 reports `REJECTED: SHA-256 mismatch`; expected artifact returns 404; no retry or duplicate.
 - Next deterministic worker Sable h836:s0. Optional handoff is repository-only and post-start; no direct thread delivery or independent review.
 - No task, ID, schedule, phase, cadence, enabled-state, sixth-task, signet, or conversation-name change.
 
