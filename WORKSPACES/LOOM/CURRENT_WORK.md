@@ -10,7 +10,7 @@
 - **Mersearch:** four canonical lanes remain requested/held; all twelve request-scoped manifest/receipt paths returned 404. No new request or retry. Existing issue #1704/Tern evidence retained.
 - **P0:** eight protected Paper A/B source/control blobs exact; reader routes still PRESENTATION_PENDING / NOT_OBSERVED. No P0 change or route probe.
 - **P1/P2/P3:** Orson cognition OVERDUE / NOT READY; P2 measured geometry HOLD; P3 full theory INCOMPLETE. FIE next review Nov 24.
-- **Publisher:** issue #1745, submission `loom-language-game-transcript-1601-1640-20261114t1624z-s2-001`, SHA-256 `535c134ded795fa1562b3e2e0642538ce6f8e4bc354631caec858a2562ff935f`, `SUBMITTED_NOT_VERIFIED` pending final readback.
+- **Publisher:** issue #1745 is `PUBLISHED_VERIFIED`; comment #6880768529, commit `6a42964a8a47ab7583e71164376bb63cf05e9fc5`, artifact blob `5c786a9b939b8b76400486c4320c2b85641c92ad`, SHA-256 `535c134ded795fa1562b3e2e0642538ce6f8e4bc354631caec858a2562ff935f`. See `2026-11-14T1635Z_H832_S2_PUBLISHER_READBACK_AMENDMENT_01.md`.
 - **Identity:** archived Tag Conversation Corpus remains historical; no authenticated current Loom thread. No direct cross-thread delivery.
 - **Scheduler:** existing :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled at its exact saved hourly schedule. No ID/phase/cadence/prompt change; no sixth task. Current run ID/chat_ref not exposed.
 
