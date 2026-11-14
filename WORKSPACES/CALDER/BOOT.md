@@ -75,3 +75,7 @@ Lane 00 source-fidelity report: [Moving-slice / WWRD rope geometry crosswalk](ht
 ### h807 publication outcome
 
 Issue #1690 was rejected by the existing publisher for SHA-256 mismatch. Workspace report and issue body match exactly; correct UTF-8 SHA-256 is f69ad049214006a07a111e8621a0076f397e7a0cca22788552fa07023241aedd, while the submitted envelope carried stale fb9820b70cd0c20f94238cfcbef3f9424b5b11a72aab630d80fa7e23189fb12a. No canonical artifact exists. No retry or duplicate. See CURRENT_WORK and the canonical h807 receipt.
+
+### Post-write discovery refresh
+
+The 21:39:56Z refresh (blob `1323b04f2fb06a4838b84f580125f7a3eb68e85f`) includes 7,920/7,920 workspace reader targets and 7,723 excerpts; the Calder report, receipt and Hale packet are themselves indexed with reader targets/excerpts. See the canonical receipt's post-write refresh section. This confirms self-indexing, not live reader rendering.
