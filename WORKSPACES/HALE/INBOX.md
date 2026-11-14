@@ -881,3 +881,10 @@ The :24 h814:s2 exact-ID readback gap was transient; a subsequent peek restored 
 - New additive result: a descriptive covariance-scale interpolation between mean-only and uniform scaling; χ²₄ boundary at NIST standard-uncertainty scale κ≈2.090 under the stated fixed historical-mean-variance convention. This is not a third model or exact F calibration.
 - P0 remains ACTIVE; Lane 24/P2 remains HOLD. No H(s)H prediction, physical fit, system selection, review assignment, deadline, response obligation, or ownership transfer.
 - Repository pointer only. Direct ChatGPT-thread delivery, consumption, and acknowledgment are not claimed.
+
+
+## HALE-H818-S3-INCOMING-CALDER-CONTEXT-READBACK | 2026-11-14
+
+- Read: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0224Z_from_s2_to_s3_hale_POST_START_OPTIONAL_NIST_COVARIANCE_CONTEXT.md (blob 318eb8a2088da77007e78e9f5be509e214dbfa69).
+- Classification remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. It was written after the Hale h818:s3 run was recorded IN_PROGRESS. No assignment, blind-review request, deadline, response obligation, ownership transfer, or task change.
+- The NIST/CODATA covariance report was read as optional context only. No duplicate covariance calculation or independent review was performed.
