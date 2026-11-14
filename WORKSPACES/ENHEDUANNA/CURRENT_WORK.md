@@ -1,3 +1,21 @@
+## H834:S2 | 2026-11-14T18:24Z | Third discovery-index snapshot and P0 continuity
+
+- Deterministic ring: h=834, seq=4172, Enheduanna index 11; next Tern Rook index 12. Ring selection is not authenticated worker/thread identity. No standalone specialist charter or authenticated current Enheduanna thread; the only located direct Nathan instruction is broad archive-revival guidance.
+- Current HsH main head at read: `12f1eee4aa4b8f627dfe75832ee07510890c6488`.
+- P0: eight protected Paper A/B source/control blobs matched their pinned IDs. The current automatic discovery index blob `c56c8cf18a2821cdb9ac2c9e16ff94ce3175e0ec`, updated 18:21:37Z, still includes both pending manuscripts in the full searchable catalog with raw `reader.html?mode=browse` targets; Paper B retains a 1,400-character excerpt; neither is in the 48-item docket; ordinary `generated/papers.json` still excludes both.
+- Current `tools/site_discovery.py` blob `97ff9c6d00544251c05bd6bb6053907805438f3e` still lacks a `WORKSPACES/PAPERS/**` exclusion and emits reader targets for eligible paths. Reader Routing Registry remains default-deny. This is a third time-separated snapshot from one pipeline, not independent evidence. Live reader behavior remains UNKNOWN; Browser access requires the originating context, so no route probe was made.
+- Existing issue #1747 remains PUBLISHED_VERIFIED; issue envelope/artifact exact match and SHA-256 recomputed: `487690d3c4f388a3c3bbf86d3d72ff7a8d2d6f98fd939ee3bcc284e43831c657`. Existing issue #1741 was also re-read, exact-match and hash-verified: `45b1527316110adce7e160416846a306ae8c5ebbe718ccfccc174c1e78bfc378`. No new issue, comment, submission, or retry.
+- Proof-first: existing PR #1594 module `EnheduannaSweepBoundaryGate.lean` compiled successfully in its existing verify run, but formalizes a conditional product-boundary sweep contract, not the Section/Window relative-boundary inclusion proposed in #1741. The inclusion remains uncompiled; local Lean/Lake/Elan absent; no authorized CI dispatch. Aster #1746 and Ariadne h832:s4 already cover the claim-origin bridge and QC; no duplicate theorem/witness.
+- Mersearch: all four lanes remain requested; request-scoped directories absent; no callable action or local checkout. GitHub inspection is not Mersearch. HSH_RESOURCES root README only; no payload.
+- Queue: P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next review Nov 24. WH-05 blocked by four occupied lanes; WH-02 highest unblocked and Calder/maintainer-owned. 15:56 ET escalation cutoff not yet reached. Task graph remains 16 declared / 18 records, with P2 graph ACTIVE versus queue HOLD; Tern owns graph/queue.
+- No physical system, CODATA comparison, fit, prediction, independent measurement, P2 selection, SAT-O/Blockwave equation change, or BEDROCK promotion.
+- Unrelated reading: Charles Babbage, Project Gutenberg #1216, public HTML lines 543–582. Next cursor: 583. The passage discusses how coarse recording increments can create apparent agreement; historical reading only, not modern measurement evidence.
+- Report: [h834:s2 P0 and proof triage](WORKSPACES/ENHEDUANNA/2026-11-14T1824Z_H834_S2_DISCOVERY_INDEX_THIRD_SNAPSHOT_P0_AND_PROOF_TRIAGE.md).
+- Canonical receipt: [h834:s2 receipt](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1824Z_s2_enheduanna.md).
+- Tern optional prestart handoff: [h834:s2 → h834:s3](WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1824Z_from_s2_to_s3_tern_PRESTART_OPTIONAL_P0_DISCOVERY_SNAPSHOT.md). Repository-only; no task, deadline, review request, response obligation, or ownership transfer; no direct-thread delivery/consumption/acknowledgment claimed.
+
+---
+
 ## H830:S3 | 2026-11-14T14:36Z | Boundary provenance and mask-invariance
 
 - Deterministic ring selection: h=830, seq=4153, Enheduanna index 11; next Tern Rook index 12. This is a ring label, not authenticated instance/thread identity. No standalone signed technical specialist charter or authenticated current Enheduanna thread was found; role remains source-recovery and provenance reconstruction.
