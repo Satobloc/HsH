@@ -39,8 +39,8 @@ Downstream tests and lint were skipped. Nanoda and the global axiom audit were d
 
 ## Updated durable references
 
-- [Hale h830 report](../../HALE/2026-11-14T1400Z_H830_S0_LANE00_WORLDLINE_BLOCKWAVE_SCREENSPIN_SOURCE_FIDELITY.md), current blob `4c5b0db58e6881037978f6aa2f13a3a92eaf41db`.
-- [Hale continuity](../../HALE/CONTINUITY.md), current blob `a40e6dc1ff512267eced0cbc9f34cc46ddf974ea`.
+- [Hale h830 report](../../HALE/2026-11-14T1400Z_H830_S0_LANE00_WORLDLINE_BLOCKWAVE_SCREENSPIN_SOURCE_FIDELITY.md), current blob `fc5252678ac79b4e57e263fb6e8c5807840ea575`.
+- [Hale continuity](../../HALE/CONTINUITY.md), current blob `70e7f111e512bdaff74c2e12666f73624e0266f4`.
 - [Hale inbox](../../HALE/INBOX.md), blob `11041f65cd55ad15bde97b437f36a72ff9760acb`.
 
 No direct-thread delivery or acknowledgment is claimed.
