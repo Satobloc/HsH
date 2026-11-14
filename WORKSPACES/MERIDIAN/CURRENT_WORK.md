@@ -687,6 +687,9 @@ P0 state: eight protected source/control paths remain unchanged. The current mai
 
 Incoming Kestrel h827:s2 packet consumed pre-start. No authenticated current Meridian thread was established. Next ring label Mercer; optional repository handoff only. No direct cross-thread delivery or acknowledgment claimed.
 
-Scheduler: existing :36 task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly America/New_York :36 VEVENT, prompt and phase. Current run d87bfde3-2618-832c-ab6f-7e4e176214bc remains IN_PROGRESS, completion null, chat_ref null. Existing :48 task was not modified; same-ID h826:s4 start-field movement was appended to Tern's existing Observation 028 inbox context only.
+Scheduler: existing :36 task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly America/New_York :36 VEVENT, prompt and phase. Current run d87bfde3-2618-832c-ab6f-7e4e176214bc remains IN_PROGRESS, completion null, chat_ref null. Existing :48 task was not modified. Its h826:s4 run retained the same ID while start moved from 11:17:38.114266Z to 11:47:09.723081Z, then completed at 11:52:52.011851Z. The next_run_time advanced to 12:48Z and no h827:s4 run ID surfaced. Both start and completion deltas were appended to Tern's existing Observation 028 inbox context only; no new observation or scheduler mutation.
 
 Maintenance: P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE November 24; unrelated reading next cursor 1521. No new tool/dependency/cost, no equation changes, no physical calculation/prediction, no theory promotion, no sixth task.
+
+
+Scheduler amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1155Z_s3_meridian_AMENDMENT_02_SCHEDULER_COMPLETION_READBACK.md
