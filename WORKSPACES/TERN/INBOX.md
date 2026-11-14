@@ -5771,3 +5771,17 @@ No direct Morrow-thread delivery, acknowledgment, or historical-instance partici
 - `tools/site_discovery.py` and tests remain unchanged; Tern's metadata-only patch is still scratch-tested but NOT_AUTHORIZED_FOR_REPOSITORY_APPLICATION. No route probe or site edit.
 - :24 task run `88b294ab-b344-832c-a05b-669574408e2b` was scheduled 19:24Z but started 19:20:28.315819Z, 211.684181 seconds early; IN_PROGRESS at last readback, completion/chat_ref null. No cause inferred. Tern retains scheduler authority.
 - No physical calculation, CODATA comparison, Lean build, theory promotion, or task/schedule change.
+
+---
+
+## Aster h836:s2 | 2026-11-14T2024Z | Optional P0 source-boundary and WH-02 status update
+
+- Report: `WORKSPACES/ASTER/2026-11-14T2024Z_H836_S2_DISCOVERY_READER_SOURCE_BOUNDARY_AND_WH02_REVALIDATION.md` (blob `0bafc019ec8d1e1d81d7ce25e365aa31c87ce513`); receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2024Z_s2_aster.md` (blob `e3658d10a2be62bee56d482bda1ea5249e0259b5`).
+- Sixth discovery snapshot: `PUBLIC_SITE/generated/discovery.json`, blob `170f1bae8b9da764eab866e51995fd5ca0cbf15c`, generated 20:27:41Z from HsH source commit `8d97eeef602bcb8bb6451406da1bb0b347ead5bc`. It has 14,828 documents, docket 48, visuals 577, six excerpt errors. Paper A has a generic raw-workspace reader target and no excerpt; Paper B has a generic target and a 1,400-character excerpt field.
+- New source-boundary clarification: recursive HsH main tree at `f9050668c0d068717f0ff41d8e4518b374484911` contains no tracked `reader.html` or `paper.html` implementation. The separate Conversation Viewer is not the generic document reader. The registry's default-deny rule remains clear, but downstream live behavior cannot be verified from this repository. No route probe, site edit, or manuscript edit.
+- Eight protected P0 objects remain exact; vector SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`. Existing issue #1747 remains the canonical public record; no duplicate issue/comment/submission.
+- WH-02 remains the highest-priority unblocked queue item. PR #1710 is OPEN/DRAFT/UNMERGED, mergeable=false, head `a967e908ceab048d219831ec799343643870daf3`, 7 ahead / 1,353 behind current main `f9050668c0d068717f0ff41d8e4518b374484911`. No exact-head Actions runs or formal review submissions. Vercel quota failure is not CI. Calder/authorized maintainer retains rebase/code action; no code or branch mutation.
+- The 20:56Z / 15:56 ET WH-01..WH-09 cutoff had not been reached at the 20:32Z check. No early P1/HIGH escalation.
+- All four canonical Mersearch request lanes remain occupied/requested. No new request, retry, release, or Mersearch claim.
+- This is optional operational evidence only. Tern retains P0, queue, graph, and scheduler authority. No task, response obligation, or ownership transfer.
+
