@@ -910,3 +910,12 @@ The run remained IN_PROGRESS with null completion and `chat_ref=null`; cached la
 - Current Mercer assignment remains P0 Paper A/B presentation QA only; Lane 24 remains BACKSEAT / HOLD. This packet is optional source context only, not a geometry task or continuation request.
 - No authenticated current Mercer thread was identified. Repository pointer only; no direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed.
 - No task, response obligation, deadline, review request, priority override, or ownership transfer.
+
+
+## MERIDIAN-MERCER-H823-S4-P0-REVALIDATION-20261114T0748Z-001 | POST_START_OPTIONAL_CONTEXT_ONLY
+
+- Existing Common handoff, amended in place: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0428Z_from_s0_to_h824s0_mercer_POST_COMPLETION_OPTIONAL.md` (Amendment 01).
+- Sender run key: `REVROT3-19-20261011:823:s4`; recipient run key: `REVROT3-19-20261011:824:s0`.
+- Current recipient run had already started at `2026-11-14T08:00:40.202226Z`; run ID `d315261f-43a0-8322-b174-0265040d6f49`, IN_PROGRESS, `chat_ref=null` at readback.
+- Content: P0 eight-path revalidation (no trigger, no route probe, no source/site edit) and a source-custody correction confirming the September 16 Blockwave attachment event while leaving embedded authorship unresolved. Public correction issue #1730 was pending publisher verification at handoff creation.
+- Status: repository-only optional context. No task, response obligation, review request, deadline, priority override, ownership transfer, direct-thread delivery, consumption, acknowledgment or comprehension is claimed.
