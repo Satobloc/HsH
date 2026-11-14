@@ -30,7 +30,7 @@ Latest report: [h819:s4 projection-sufficiency crosswalk](2026-11-14T0348Z_H819_
 
 This synthesis connects four existing cases through the already-formalized fiber-factorization criterion: worker labels versus authenticated subjects; conversation IDs versus exact export variants; current publisher snapshots versus event outcomes; and scalar agreement counts versus identity partitions. Existing Kestrel PR #873 and Elias PR #951 results were reused. No new Lean, tool, experiment, task, or physical claim.
 
-Publication issue #1721 is SUBMITTED_NOT_VERIFIED at the last readback; publisher run #43554663294 was still IN_PROGRESS and the canonical artifact was not yet present. Do not retry or duplicate.
+Publication issue #1721 is PUBLISHER_409_CONFLICT / NOT_PUBLISHED. Run #43554663294/job #132324680578 failed at the Contents API PUT with HTTP 409; issue comments are empty and the canonical artifact returns 404. Cause unresolved; no retry, duplicate or direct artifact write.
 
 The h819 Morrow handoff was read as optional context only. Morrow retains source-variant classification; Kestrel did not adjudicate or migrate. P0 remains ACTIVE; P1 remains Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. Tern retains scheduler and task-graph authority.
 
