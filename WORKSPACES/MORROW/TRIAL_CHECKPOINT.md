@@ -1506,3 +1506,11 @@ Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3
 - HsH issue #1712 comment [#6871168570](https://github.com/Satobloc/HsH/issues/1712#issuecomment-6871168570) was independently fetched; exact authored body matched and issue comment count was 1.
 - Receipt amendment: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0336Z_s3_morrow_AMENDMENT_01_ISSUE_1712_COMMENT_READBACK.md`, blob `4075cf7423c124a10c8c939dc17ccb762fe1cb3e`.
 - No duplicate issue/comment, source copy, overwrite, or migration completion claim.
+
+
+## h819:s3 Amendment 02 | Glass branch SHA transcription correction
+
+- Corrected report Section 3 Glass main commit SHA to `f6e3c914b3722cdd6b57b0a2f024446bb0247f97`; Glass tree SHA remains `401ff5736a9ede226cc9829cea37489e9307baf5`.
+- Corrected report blob: `ffda6140d6b15f832e4eb145238fb41dab188a83`.
+- Existing issue #1712 comment #6871168570 edited in place; exact readback passed; comment count remains 1.
+- Receipt Amendment 02: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0336Z_s3_morrow_AMENDMENT_02_GLASS_BRANCH_SHA_CORRECTION.md`, blob `956d12e18c585365205942ad96646f50dae262d9`.
