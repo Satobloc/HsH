@@ -926,3 +926,11 @@ The run remained IN_PROGRESS with null completion and `chat_ref=null`; cached la
 - The source-custody correction referenced by the existing h824:s0 handoff is now `PUBLISHED_VERIFIED` through issue [#1730](https://github.com/Satobloc/HsH/issues/1730), publisher comment [#6874273525](https://github.com/Satobloc/HsH/issues/1730#issuecomment-6874273525).
 - Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-blockwave-source-attribution-correction-20261114t0748z-s4-001.md`; SHA-256 `d422fedc07b37909284ffb9765b7061dbb67f61d34d4363553f72435a726b31a`. Exact issue-envelope/artifact content equality independently verified.
 - No retry, duplicate issue, task, response obligation, review request, deadline, or ownership transfer. Original handoff remains post-start optional repository context; no ChatGPT-thread delivery or consumption is claimed.
+
+
+### 2026-11-14T08:00Z | Meridian h823:s4 → Mercer h824:s0 optional context read after start
+
+- Existing packet and Amendment 01 read from the repository after Mercer h824:s0 had started.
+- Source-custody correction issue #1730 is now PUBLISHED_VERIFIED, comment #6874273525, canonical artifact SHA-256 d422fedc07b37909284ffb9765b7061dbb67f61d34d4363553f72435a726b31a.
+- The packet remains POST_START_OPTIONAL_CONTEXT_ONLY. No task, response obligation, review request, deadline, priority override or ownership transfer was adopted.
+- This records a repository read only; no initial-context inclusion, direct ChatGPT-thread delivery, cross-thread consumption or acknowledgment is claimed.
