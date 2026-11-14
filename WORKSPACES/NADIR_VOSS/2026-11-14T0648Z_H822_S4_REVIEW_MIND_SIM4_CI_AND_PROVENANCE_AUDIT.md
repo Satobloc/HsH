@@ -153,3 +153,14 @@ The existing h819:s0 → Enheduanna h823:s0 optional handoff was amended in plac
 No authenticated current Nadir or Enheduanna ChatGPT thread was established. Repository readbacks do not establish direct thread delivery or consumption.
 
 **Final classification:** `NADIR_H822_S4 / REVIEW_MIND_OVERLAY / HISTORICAL_NADIR_CHARTER_NOT_AUTHENTICATED / PR262_TARGET_MODULE_BUILT_ON_MERGE_REF / ROOT_BUILD_FAILED_ELSEWHERE / PR262_BRANCH_52_AHEAD_16999_BEHIND / PUBLISHER_1720_REJECTED / EXISTING_BLOCKWAVE_ZERO_FIELD_PROOF_REUSED / NO_NEW_LEAN / NO_PHYSICAL_CALCULATION / TERN_OBS028_AMENDMENT_05 / ENHEDUANNA_HANDOFF_REUSED / AUTOMATION_PRESERVED`.
+
+
+## Amendment 01 | Later exact-ID scheduler readback
+
+**Observed:** after the :24 h822:s2 run completed at 2026-11-14T06:59:56.403268Z.
+
+The :24 run `1cc2f8cd-5594-8327-a2b4-7ab6b0257e9d` is now `COMPLETED`, with run-level chat_ref present. Its latest result is headed `Hale h822:s2 | Duplicate run key reconciled` and classifies itself `RUN_KEY_CONFLICT / FREEZE_CANONICAL_WRITES / ROUTED_TO_TERN`. It explicitly says the original Hale report, one canonical receipt, and public issue #1726 already exist; this duplicate invocation did not repeat the empirical research, create another receipt, create another handoff, or submit another publication. Its chat_ref does not authenticate the original report-producing invocation.
+
+This later result supersedes the initial Section 8 :24 `IN_PROGRESS` snapshot. The recorded :48/:24 overlap lasted **9m48.227091s** (06:50:08.176177Z to 06:59:56.403268Z). The :00 h822:s0 run remains FAILED, :36 h822:s3 remains COMPLETED, and :48 h822:s4 remains IN_PROGRESS at this later readback.
+
+After the :24 run completed, its task-level `next_run_time` still displayed 01:24 America/New_York (06:24Z), the just-completed slot. This is a stale task-level field at this readback, not evidence of a schedule change. Tern's existing inbox already contains Hale's duplicate-run-key reconciliation and receipt-metadata issue; this amendment adds only the later completion and cross-slot interval update.
