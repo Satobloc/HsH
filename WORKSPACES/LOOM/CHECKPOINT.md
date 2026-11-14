@@ -1093,3 +1093,11 @@ Cross-lane review: Orson P1 ownership preserved; #1647 is a literature crosswalk
 - Orson P1 remains protected; no manuscript, experiment, task or ownership change. No physical calculation or theory promotion.
 -  :48 same-run-ID start field moved +27m25.469729s; top-level last_run_time/next_run_time pointers are stale relative to run_details.last_run; recorded overlap with :00 Aster and :36 Sable routed to Tern INBOX. No new Tern Observation or scheduler mutation.
 - FIE next review November 24. Lateral reading: fun break - lx.txt lines 1521–1560; next cursor 1561.
+
+
+## 2026-11-14T0942Z | H824:S4 | FINAL WRAPPER READBACK
+
+- Current :48 run record is FAILED, completed 09:42:14.852605Z, no current result payload, no run-level chat_ref; cached latest result is prior Meridian h823:s4.
+- Same run ID start field moved +27m25.469729s; task-level last_run_time/next_run_time/updated_at are stale. Preserve both start snapshots and overlap ranges in WORKSPACES/LOOM/2026-11-14T0942Z_H824_S4_FINAL_SCHEDULER_RECORD_AMENDMENT.md.
+- Tern INBOX received the final scheduler status; no Tern Observation or task graph mutation.
+- Repository source replay report/manifest are verified. Wrapper completion is not successful.
