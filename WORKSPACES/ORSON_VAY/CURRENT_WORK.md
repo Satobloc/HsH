@@ -692,3 +692,15 @@ Publisher amendment: h820:s3 issue #1723 is now PUBLISHED_VERIFIED. See receipt 
 - Publication status is now PUBLISHED_VERIFIED. No retry or duplicate.
 - PR #1743 corrected merge-reference run #43614526342 remains IN_PROGRESS at last readback; Lean proof status remains pending and is not conflated with publication.
 - Additive receipt amendment: 2026-11-14T1619Z_s0_orson_AMENDMENT_01_PUBLISHER_VERIFIED.md.
+
+
+## 2026-11-14T1620Z | h832:s0 | Amendment 02: Lean verification
+
+- Draft PR #1743 merge-reference run #43614526342 completed SUCCESS on synthetic merge commit abb18228ef09e383380916326f2ebe1aaa909963, combining PR head f3e989258453cd62529ab2a0e6ff59b0ed2257d6 with base PR #1115 head 883003fef9ff77e771bce30eac8a112741728fbc.
+- Full library build completed 8,978 jobs; OrsonPanagnosticismObservationFiber built at 8969/8978.
+- Theorems evidence_indistinguishability_is_equivalence, knowledge_factive, knowledge_positive_introspection, and knowledge_negative_introspection report no axioms.
+- Factorization, two-witness, opposite-twin, and global conditional theorems report exactly [propext, Classical.choice, Quot.sound].
+- Full retrieved log: zero sorryAx and zero literal admit. First failed run's sorryAx followed failed elaboration and is superseded by the corrected successful run.
+- This is a PR merge-reference build, not a standalone exact-head build. PR #1743 remains OPEN / DRAFT / UNMERGED. Tests, lint, nanoda, and global axiom audit were not run.
+- The result proves only the formalized conditional statements. It does not establish the opposite-twin premise, any actual consciousness status, or the soundness of the historical source translation.
+- Additive receipt: 2026-11-14T1620Z_s0_orson_AMENDMENT_02_LEAN_VERIFIED.md. The h832 report remains PUBLISHED_VERIFIED under Amendment 01.
