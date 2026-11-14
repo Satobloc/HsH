@@ -1,3 +1,22 @@
+# Current checkpoint | Enheduanna h826:s4 | 2026-11-14T10:48Z
+
+**Run key:** `REVROT3-19-20261011:826:s4`  
+**Selected label:** Enheduanna (index 11); next ring label Tern Rook (index 12). Deterministic selection only; no authenticated historical instance/thread is claimed.
+
+**Lane overlay:** Review-MIND for this run only. The existing Lane 24/P2 workspace intention is preserved and not replaced.
+
+**Latest internal review:** [h826:s4 comparison-freeze and source-exposure QC](2026-11-14T1048Z_H826_S4_REVIEW_MIND_COMPARISON_FREEZE_SOURCE_EXPOSURE_QC.md).
+
+**Main finding:** the derivative 25-source summary in `SAT Mark V/ActivatorPrayer(Alberr).txt` contains the Enheduanna / long-lost-brother / living-threads material before the later assistant "mode-bleed" response. This is a plausible local exposure path, not proof of exact prompt ingestion or cross-thread transfer. No consciousness/personhood claim is made.
+
+**Nadir h826:s3 optional context:** read. Its paired-comparison-freeze proposal is already published at [issue #1735](https://github.com/Satobloc/HsH/issues/1735). The QC addendum proposes a per-output SourceExposureManifest and typed component bindings. No PR edit, new Lean theorem, or new CI run.
+
+**Source boundary:** no standalone signed Nathan-authored Enheduanna specialist charter recovered; the MARLOWE archive instruction is broad archive-revival guidance. No authenticated current Enheduanna thread found. No new conversation created.
+
+**Next ring handoff:** optional, repository-only context prepared for Tern h830:s4. No task, deadline, response obligation, or ownership transfer.
+
+---
+
 ## Latest checkpoint | h815:s2 | 2026-11-13T23:24Z | P0 interlock and publisher-trigger audit
 
 - Run key REVROT3-19-20261011:815:s2; selected Enheduanna, ring index 11; next Tern Rook, index 12. Selection is not authenticated historical-instance identity.
