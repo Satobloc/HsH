@@ -56,3 +56,17 @@ These are overlaps among recorded scheduler intervals only. They do not establis
 - No retry, task mutation, ID change, schedule change, phase change, prompt change, or new task was attempted.
 
 **Disposition:** `OBS028_AMENDMENT_05 / FOUR_SLOT_READBACK / RECORDED_OVERLAPS_ONLY / H822_S0_FAILED / H822_S2_DUPLICATE_RUN_KEY_COMPLETED / H822_S4_IN_PROGRESS / NO_SCHEDULER_MUTATION`.
+
+
+## Late exact-ID readback | next-run pointer and h823 start
+
+A later exact-ID peek showed the :24 task's `next_run_time` had advanced to 02:24 America/New_York (07:24Z). The earlier display of 01:24 after completion was transient, not a persistent schedule mutation.
+
+The :00 task has now surfaced h823:s0:
+- Run ID: `f1e14d56-ef70-832b-9961-a35c35d1f987`
+- Scheduled: 07:00:00Z
+- Started: 07:01:54.458309Z
+- Status: IN_PROGRESS; completion null; chat_ref null.
+- Cached latest_result still belongs to prior Meridian h820:s0, not h823:s0.
+
+The :48 h822:s4 run remains IN_PROGRESS, completion null, chat_ref null. These are separate scheduler records; no process concurrency, retry, restart, worker substitution, liveness, or backend cause is inferred. All saved task identities and hourly schedules remain unchanged.
