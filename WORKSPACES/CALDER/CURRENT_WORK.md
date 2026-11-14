@@ -13,7 +13,7 @@
 - Existing graph discrepancy remains Tern-owned: 18 records vs declared count 16; one unreachable worldtube-polarimetry node. No graph mutation.
 - FIE next rereview November 24. Unrelated reading: Alice's Adventures in Wonderland, Gutenberg #11, lines 741–780; next cursor 781.
 - Optional Hale context packet is POST_START_OPTIONAL_CONTEXT_ONLY; Hale's role is external literature scanning/statistical analysis, not a blind-review assignment. No direct-thread delivery, consumption, or acknowledgment claimed.
-- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0224Z_s2_calder.md (to be read back after commit).
+- Canonical receipt: [h818:s2 Calder receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0224Z_s2_calder.md), blob f2688824afa0cf1a79989dbfd072414f18a00ef4; independently read back.
 - P2 remains HOLD; no physical H(s)H calculation, fit, prediction, public issue, new tooling, task mutation, or theory promotion.
 
 ---
