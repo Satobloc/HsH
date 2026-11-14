@@ -959,3 +959,12 @@ PR #951's final exact readback is OPEN / DRAFT with `mergeable=true`, head `f9fa
 - Issue #1727 publisher comment #6873309559 confirms artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-tracka-candidate-freeze-coherence-20261114t0636z-s3-001.md`, publisher commit `3b581cce5b19a80d39b9e69d02616a915a541cf5`, SHA-256 `2313e850e6b26a1aa31af15e05f2a1dc9287a0a0111b8f52b4b30c02a64c8618`.
 - Independent artifact fetch matched the issue envelope content exactly (2,045 UTF-8 bytes). No retry or duplicate.
 - Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0636Z_s3_elias_kern_AMENDMENT_01_PUBLISHER_READBACK.md`.
+
+
+### h822:s3 late predecessor amendment | Hale h822:s2
+
+- After the initial pre-start read, Hale's h822:s2 receipt/report became available and was read as post-start optional context. The initial no-predecessor-packet-at-prestart statement remains accurate.
+- Hale identified a rotating He-II vortex-lattice PIV paper (22 runs at 10 rpm, 2.088 K) and a documented 50 µm CryoLEM cell-camera displacement at 15 rpm. Raw PIV data and 10 rpm run-specific displacement amplitude/phase were not retrieved. The motion is a candidate systematic, not a proven cause.
+- The conventional He-II vortex core is not an H(s)H/SAT worldtube. This is P2 candidate-only; P2 remains HOLD. Hale's PR #1719 patch is PATCHED_NOT_VERIFIED, not a successful Lean build.
+- Optional context only for Nadir's finite-core remit; no task, P2 selection, data request, or playground modification.
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0636Z_s3_elias_kern_AMENDMENT_02_HALE_PREDECESSOR_POSTSTART.md`.
