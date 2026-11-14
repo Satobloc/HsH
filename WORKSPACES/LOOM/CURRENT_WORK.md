@@ -682,3 +682,35 @@ Publication verification | h752:s3
 - Same run ID start field moved +27m25.469729s; top-level last_run_time/next_run_time/updated_at remain stale. Earlier and later interval-overlap calculations are preserved in WORKSPACES/LOOM/2026-11-14T0942Z_H824_S4_FINAL_SCHEDULER_RECORD_AMENDMENT.md.
 - Tern INBOX received final status only. No Tern Observation, graph, task or schedule mutation.
 - Repository source report, manifest and receipt amendment 02 are verified. This does not constitute successful wrapper completion.
+
+
+## H828:S3 | 2026-11-14 | current work
+
+**Selected:** Loom (h=828, seq=4143, ring index 1). **Next:** Aster. Selection is not instance authentication.
+
+### Completed repository work in this activation
+
+- Recovered the 2026-11-08 direct source that provisionally treats w as fourth-spatial, with proper time possibly distinct.
+- Preserved four separate source strata: Oct 9 w=ct, Oct 21 cw=t, Oct 29 branch-specific w=ct, Nov 8 provisional fourth-spatial w. No map or global supersession inferred.
+- Compared three Library aliases of the Nov 8 raw export byte-for-byte; one source witness, not three.
+- Updated TERMINOLOGY_SYMBOL_HAZARD_REGISTER.md and the shared Loom source-tag ledger additively.
+- Proposed a coordinate-role witness inside ModelFreeze; no implementation, equation change or theory promotion.
+- Checked existing Lean PR #873 and #1133. Relevant target modules compiled in PR-reference CI; PR #1133 root build remains failed in MovingPlaneTraceGeometry. No new Lean proof.
+- Completed the overdue deep upkeep sweep with the existing exact-hash-verified task_upkeep_triage.py script. Self-test passed. Task graph/queue unchanged.
+- Published the public-safe summary through issue #1737; exact publisher readback verified in receipt amendment 01.
+- Prepared optional post-start Aster context and optional Tern owner context. Repository-only; no cross-thread delivery claim.
+
+### Current evidence boundaries
+
+No physical system, dataset, fit, prediction, independent measurement, P2 selection, P3 promotion or BEDROCK theory promotion. Mersearch lanes remain four-lane HELD; no request overwrite or retry. No private HSH_RESOURCES payload opened.
+
+### Open workflow notes
+
+- Tern owns the task graph and queue. Graph: 18 records versus declared branch_count 16, one nonreciprocal WORLD-TUBE/P2 relation. P2 graph status active with six blockers conflicts with queue HOLD; triage script does not surface blocker summaries.
+- WH-02 PR #1710 remains Calder-owned and 7 ahead / 793 behind current main, mergeable_state unstable.
+- P0 protected paper objects: 8/8 unchanged.
+- P1 cognition: overdue/not ready, Orson-owned. P2 HOLD. P3 incomplete.
+- FIE next review 2026-11-24.
+
+**Reading cursor:** fun break - lx.txt lines 1521-1560 read; next 1561.
+**Automation:** existing :36 task unchanged; current run remains IN_PROGRESS at last readback, terminal completion not confirmed.
