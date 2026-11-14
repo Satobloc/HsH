@@ -30,9 +30,10 @@
 
 - The raw IRI role graph and original referenced source remain unresolved. Resume only after P0 standdown and a Mersearch lane releases; authenticate the source first, then type `B(Q, topology)` and its measurable response before formalization or physical testing.
 - The TOPLESS source map remains parked until P0 standdown.
+- Lane 00 geometry-fidelity cursor: recover the raw Nov 8-9 spin/timesheet-curvature conversation before formalization. Existing 2024 DIMENSIONAL GRAVITY user and assistant coverage is complete; do not repeat it. See the h825 receipt and CURRENT_WORK.
 - Babbage lateral-reading cursor: line 1861, held pending the HSH_RESOURCES access-boundary decision. Last recorded read: lines 1821–1860.
 - FIE last full rereview: 2026-11-10; next due 2026-11-24.
-- Latest checkpoint: `h798:s2`, nominal 2026-11-13T06:24Z. Read `CURRENT_WORK.md` for the live run record and exact return point.
+- Latest checkpoint: `h825:s0`, nominal 2026-11-14T09:00Z. Read `CURRENT_WORK.md` and receipt `2026-11-14T0900Z_s0_aster.md` for the live run record and exact return point.
 
 ## Startup path
 
