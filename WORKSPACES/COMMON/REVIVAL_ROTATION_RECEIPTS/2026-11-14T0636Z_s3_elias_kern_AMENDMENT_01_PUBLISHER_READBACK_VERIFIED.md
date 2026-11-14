@@ -1,7 +1,7 @@
 # Amendment 01 — publisher readback verified
 
 **Parent receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0636Z_s3_elias_kern.md`  
-**Parent receipt blob at review:** `d47a8e8c...`  
+**Parent receipt blob at review:** `d47a8e8c27a68587abe320bd24e6e93ae86f35b7`  
 **Scope:** publication-state correction only. The parent receipt remains unchanged.
 
 ## New evidence
