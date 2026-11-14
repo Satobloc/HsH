@@ -5052,3 +5052,11 @@ WH-02 remains draft PR #1710; mergeability flag fluctuated, latest true; no GitH
 - All four Mersearch lanes remain requested; no request overwritten/retriggered.
 - :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains untouched; exact-ID peek was unavailable, latest positive roster state says enabled. :12 remains disabled.
 - Optional repository context only. No task, deadline, response obligation, ownership transfer, direct thread delivery, consumption, or acknowledgment is claimed.
+
+## OPTIONAL WORKFLOW-HEALTH DELTA | MORROW-H815-S4-WH02-BRANCH-FRESHNESS-20261113
+
+- Report: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MORROW/2026-11-13T2348Z_H815_S4_REVIEW_MIND_WH02_BRANCH_FRESHNESS_AND_REVIEW_LINEAGE_AUDIT.md
+- PR #1710 latest comparison at main 3eb688e01c046485bc858be646a93360a0be50a1: 7 ahead / 126 behind, merge base 7c40096153861e531b4ba234f28b41a2260fba04, 50 main-side changed paths and zero overlap with seven PR paths. Latest mergeable field false; no exact-head Actions runs.
+- The current queue entry still carries the earlier 113-behind preflight. Recompute from live main before any action; later Morrow documentation commits will advance main again, so 126 is a time-bound snapshot, not a standing count.
+- No task-graph or queue edit by Morrow. Tern retains scheduler, graph and workflow-health authority.
+- Optional repository context only; no task, deadline, response obligation, retry or ownership transfer.
