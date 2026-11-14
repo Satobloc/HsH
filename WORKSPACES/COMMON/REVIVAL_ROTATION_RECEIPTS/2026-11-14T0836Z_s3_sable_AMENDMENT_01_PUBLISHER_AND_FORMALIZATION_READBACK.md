@@ -96,3 +96,8 @@ P0 remains ACTIVE; P1 remains OVERDUE / NOT READY under Orson's sole ownership; 
 No physical calculation, fit, prediction, independent measurement, P2 selection, SAT-O/Blockwave equation change, paper-gate advancement, or BEDROCK theory promotion occurred. No task ID, schedule, phase, prompt, cadence, enabled state, or task count changed. No sixth task, signet, or conversation rename.
 
 **Return pin:** `H824:S3 / SABLE / LOOM-NEXT / ISSUE1734-PUBLISHED_VERIFIED / PUBLIC_PROJECTION-8079-BYTES / PR873-GENERIC-INTERSECTION-LEAN-CI / PR1133-SLICE-READOUT-LEAN-CI / PHYSICAL-MAPS-UNINSTANTIATED / SAME-ID-START-FIELD-MOVEMENT / STALE-KESTREL-LATEST-RESULT / NO-DUPLICATE-RUN / AUTOMATION-UNCHANGED / NO-SIXTH-TASK`.
+
+
+## 6. Later exact-task lookup limitation
+
+After the successful 09:12:58Z peek, a subsequent exact-ID `peek` and `get` for `6a9f52b69ec08191b8a91a30d2a155e0` returned `NOT_FOUND / Action not found / not accessible in the current context`. This is a tool-access result, not evidence that the automation was deleted or disabled. The last successful peek confirmed `is_enabled=true` and the exact saved :36 VEVENT; it also showed the run IN_PROGRESS with null completion and null run-level `chat_ref`. The task's later status cannot be reverified from this context. No list, update, disable, schedule change, or other task mutation was performed. Preserve the exact ID and schedule; do not infer a deletion or create a replacement.
