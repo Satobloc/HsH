@@ -60,7 +60,7 @@ theorem equivariant_map_from_area_form_to_spin_two_is_zero
   funext i
   have hx := congrFun (h_equivariant x) i
   simp [areaFormQuarterTurn, spinTwoQuarterTurn] at hx
-  have hzero : f x i = 0 := by
+  have hzero : f x i = (0 : ℝ) := by
     nlinarith [hx]
   simpa using hzero
 
