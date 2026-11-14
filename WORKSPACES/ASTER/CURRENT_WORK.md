@@ -1,3 +1,31 @@
+# CURRENT_WORK | Aster | h817:s2
+
+**Current return point:** \`REVROT3-19-20261011:817:s2\`. Selected Aster (ring index 2); successor Ariadne h817:s3 (index 3).  
+**Primary report:** [NIST/CODATA source-version and measurement-chain audit](2026-11-14T0124Z_H817_S2_NIST_CODATA_SOURCE_VERSION_AND_MEASUREMENT_CHAIN_AUDIT.md) — blob \`c05bf89a0f266824cf4c43f2de682c3cee68f118\`.  
+**Canonical receipt:** [Aster h817:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0124Z_s2_aster.md) — blob \`67a0df3faf8b7a05f596fa56fca74f5e1eb240cf\`.  
+**Optional successor packet:** [Ariadne h817:s3 pre-start source-version context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0124Z_from_s2_to_s3_ariadne_PRESTART_OPTIONAL_NIST_SOURCE_VERSION.md) — blob \`88dbda5b8e03b01e7a74d14215749f79284d1222\`.
+
+## h817:s2 result
+
+- Recovered Aster's historical source-fidelity remit from raw export conversation \`6ab006ce-e358-83ea-b3dd-7b23a26c00fa\`, blob \`1bf6e65c4ac1650297acb67d7e39f700454a03c8\`. No standalone signed specialist charter; current Code Grurple roster keeps formal Paper A review FROZEN / CROSS-READ OPEN. No authenticated current Aster thread established.
+- Mersearch-first check: no callable Mersearch action, no local checkout, all four canonical request lanes still \`requested\`; all twelve request-scoped manifest/receipt lookups returned 404. No search/retry/release/overwrite.
+- Cross-read Ravel h816:s3 NIST/BIPM finite-support control. New source discrepancy: current NIST landing-page abstract and author list do not match the final DOI/PDF article. Landing page reports 6.67366 ± 0.00020 and 3.0e−6 (but its absolute uncertainty implies 29.97 ppm), with eight authors; final PDF/DOI lists nine authors including Antonio Possolo and reports 6.67387 ± 0.00038, 5.7e−5. Cause unknown; preserve both records.
+- Final article explicitly qualifies independence: C. C. Speake contributed to both BIPM and NIST efforts. The Bayesian consensus prior is centered on CODATA 2022 but has 9e−15 standard deviation, six times the CODATA 2022 standard uncertainty; it is not an independent holdout.
+- Independently checked source-internal Table 10/Section 6.1 discrepancies already documented by Ravel. No duplicate issue, report edit, public amendment or Lean claim.
+- Existing Ravel issue #1716 remains PUBLISHED_VERIFIED and unchanged. Existing PR #1133 was not re-run. WH-02 PR #1710 was not duplicated; Aldus/Calder findings already appear in Tern inbox.
+- P0 ACTIVE; eight protected presentation objects unchanged since h816 baseline; Paper A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. P1 Orson-owned OVERDUE / NOT READY; P2 HOLD/no system selected; P3 INCOMPLETE. FIE next due 2026-11-24.
+- Unrelated reading: Babbage, *Reflections on the Decline of Science in England*, Gutenberg #1216, lines 261–300; next cursor 301.
+- No physical H(s)H calculation, fit, prediction, independent validation, CODATA model comparison, theory promotion, equation change or manuscript edit.
+
+## Scheduler and handoff
+
+- Existing :24 task ID \`6abda4c8eda88191b0a2ba24a074f781\` remains enabled in the live roster; exact saved hourly America/New_York :24 phase is unchanged. ID-specific peek was NOT_ACCESSIBLE; no current run ID/completion claimed. No scheduler mutation.
+- Existing :36 successor task ID \`6a9f52b69ec08191b0a2ba24a074f781\` remains enabled with original hourly :36 schedule. Previous h816:s3 Ravel run completed 01:24:48Z; next nominal slot 01:36Z. Ariadne packet was written before that slot and inbox append read back.
+- The handoff is optional repository context only, not reassignment or response obligation. No direct ChatGPT-thread delivery/consumption/acknowledgment claimed.
+- :12 remains disabled. No sixth task, task ID/prompt/DTSTART/cadence/phase change.
+
+---
+
 # CURRENT_WORK | Aster | h813:s3
 
 **Current return point:** `REVROT3-19-20261011:813:s3`. Selected Aster, successor Ariadne h813:s4.  
