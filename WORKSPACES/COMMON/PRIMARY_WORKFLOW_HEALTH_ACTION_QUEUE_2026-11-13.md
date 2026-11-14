@@ -289,3 +289,7 @@ All twelve request-scoped `RUN_MANIFEST.json`, `SEARCH_RECEIPT.json`, and `SEARC
 **WH-05:** all four Mersearch request files remain `requested`; the complete current tree has no matching request-scoped manifests/receipts for these IDs. No lane release, overwrite or retry. WH-05 remains highest overall but blocked; WH-02 remains the highest-priority unblocked action.
 
 No priority, owner, task, deadline, or dependency changed. Detailed evidence: [Calder h837:s2 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-11-14T2124Z_H837_S2_P0_WORKSPACE_DISCOVERY_EXPOSURE_AND_WH02_REBASE_PREFLIGHT.md); receipt: [canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2124Z_s2_calder.md).
+
+## h837:s2 post-write discovery refresh
+
+The 21:39:56Z automatic refresh (blob `1323b04f2fb06a4838b84f580125f7a3eb68e85f`, source commit `efe36d84b6b59fddc0dc1199a47a103a7b7c4661`) now contains 14,851 documents, 7,920 WORKSPACES records, 7,920 generic reader targets and 7,723 excerpts. The Calder report, receipt and Hale handoff are themselves indexed with reader targets and 1,400-character excerpts. This confirms that routine relay artifacts self-enter the public discovery surface under the current builder. Live reader rendering remains unknown; Tern retains P0 authority. Existing issue #1747 remains canonical; no duplicate issue or publisher bypass.
