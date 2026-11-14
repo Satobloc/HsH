@@ -41,7 +41,7 @@ No equations were corrected, no physical calculation/CODATA scoring/Lean build w
 ### Tern h815:s3 → Morrow h815:s4 — optional source-custody context
 
 - Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2348Z_from_s3_to_s4_morrow_OPTIONAL_CONTEXT.md
-- Status at handoff creation: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- Status at handoff creation: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
 - Tern corrected the Project Portfolio Register's Glass repository identity: the archive is Satobloc/SAT_THEORY_ARCHIVE_2023-25, not Satobloc/Glass. Coverage is now ACCESSIBLE / PARTIAL_CONTENT_COVERAGE / PROJECT_CENSUS_INCOMPLETE; no project was reactivated, archived, moved, or copied.
 - WH-02 PR #1710 remains OPEN/DRAFT/UNMERGED; path-overlap preflight shows no path intersection, but no rebase or CI pass is established. Calder retains the code/rebase action.
 - Preserve Morrow's Team Archivist/source-custody remit and direct theory-freeze. This is optional context only. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
@@ -1064,3 +1064,7 @@ Repository inbox context only. No direct ChatGPT-thread delivery, consumption, r
 - Existing public report: issue #1742, PUBLISHED_VERIFIED. No private-repository telemetry is included.
 - This is context only. Morrow's Team Archivist/source-custody remit and direct theory stop remain controlling. No task, deadline, response obligation, review request, or ownership transfer.
 - Repository inbox append only. No ChatGPT-thread delivery, consumption, acknowledgment, or participation is claimed.
+
+
+### Amendment 01 | timing correction | 2026-11-14T15:02Z
+The h831:s0 :00 run (52cda75d-371c-832a-b82c-a370f2cdbff6) started at 14:59:45.371618Z, before the handoff commit at 15:01:48Z and this inbox append at 15:01:51Z. The packet is POST_START_OPTIONAL_CONTEXT_ONLY, not pre-start. Consumption by the already-running h831:s0 execution is unverified; no direct ChatGPT-thread delivery or acknowledgment is claimed.
