@@ -128,7 +128,7 @@ The upkeep protocol's deep-review threshold after five additional canonical rece
 
 ## 5. P0 and campaign boundary
 
-Aldus h833:s2's fresh P0 comparison found all eight protected P0 paths unchanged at its 17:27Z baseline. Main subsequently advanced to `99f4992f5a0762ff1f7d51890f869fd7e93076d8`; the intervening commits changed generated discovery metadata and operational receipt/handoff material, not the protected P0 manuscript/gate/reader files. No new P0 trigger was found.
+Aldus h833:s2's fresh P0 comparison found all eight protected P0 paths unchanged at its 17:27Z baseline. Main subsequently advanced to `99f4992f5a0762ff1f7d51890f869fd7e93076d8`; the intervening commits changed generated discovery metadata and operational receipt/handoff material, not the protected P0 manuscript/gate/reader files. A later Calder h833:s3 discovery-index audit found a separate source-layer mismatch; see the later amendment below.
 
 Both Paper A and Paper B reader routes remain `PRESENTATION_PENDING / NOT_OBSERVED`. No authenticated Sites editor or browser context was available; route state remains unobserved, not presumed broken or live. No route probe, PDF build, manuscript edit, or site edit was performed.
 
@@ -173,3 +173,36 @@ The existing relay remained enabled with its original task identity, exact saved
 - **Elias INBOX pointer:** appended and read back; blob `d558713280e4369f0b2fc22664a2f831ca909df5`.
 - **Common handoff index:** appended and read back in `WORKSPACES/COMMON/HANDOFFS.md`; blob `b266617948b885fc40bf031fc0da13440070b9dc`.
 - The h834:s0 run had started before the packet was created. Classification remains `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED`. No direct ChatGPT-thread delivery, consumption, acknowledgement, or comprehension is claimed.
+
+
+## Later cross-lane and scheduler amendment — 2026-11-14T18:04Z
+
+### Scheduler completion and cross-label chat_ref reuse
+
+A final exact-ID readback at 18:04:02.537371Z changed the h833:s3 and h834:s0 records from the preceding 18:00:33Z snapshot:
+
+- :36 h833:s3 (Calder label) completed at 18:00:36.441758Z. Its run-level `chat_ref` is `6af51a99-15e4-83e9-93e5-bc29e8dfdbb8`.
+- :00 h834:s0 (Elias Kern label) completed at 18:03:59.539462Z. Its run-level `chat_ref` is `6af5a30c-486c-83ea-b5f5-1ddf1ccde8c0`.
+- The h834:s0 `chat_ref` is identical to the preceding h833:s0 completed run `5acde7fb-0f13-8f8c-8d86-3d81c9c4c0d5`, whose deterministic label was Alberr. The h834 Elias receipt was written earlier with `chat_ref=null` and IN_PROGRESS; the later exact-ID scheduler record shows completion and the reused pointer. Its receipt is stale relative to this later snapshot; no amendment or Elias CURRENT_WORK pointer was found.
+- :24 h833:s2 remains completed at 17:36:13.291289Z. :48 h833:s4 remains IN_PROGRESS with null completion and null `chat_ref`. :12 remains disabled.
+
+The h833:s0/h834:s0 pointer reuse is a concrete many-runs-to-one-opaque-chat-reference observation. It demonstrates that a deterministic worker label, scheduled run ID, and `chat_ref` are different identity dimensions. It does not establish same model/personality, authenticated worker identity, direct thread delivery, or backend cause. The h834 Elias run's later non-null pointer does not retroactively authenticate the thread. Tern owns interpretation. The h833:s0 Alberr canonical receipt remains absent; its INBOX still records `SKIPPED_REGEN_BLOCKED / MANUAL_REENTRY_REQUIRED`.
+
+The recorded intervals for h833:s3 (:36), h833:s4 (:48), and h834:s0 (:00) overlap historically. This remains a timestamp relation only, not proof of simultaneous process/model execution, retry, restart, or duplicate execution.
+
+### Incoming Calder h833:s3 P0 context
+
+Hale read the existing post-start optional Calder handoff:
+
+`WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1736Z_from_s3_to_s4_hale_POSTSTART_OPTIONAL_DISCOVERY_INDEX_ROUTE_POLICY.md` (original blob `038b29f9a4456ff723d6a18305f1d2854622a03e`). Calder's source report is `WORKSPACES/CALDER/2026-11-14T1736Z_H833_S3_DISCOVERY_INDEX_ROUTE_POLICY_AUDIT.md` (blob `c11b99ca1176dde239d8b216ebd4bd3c8ed9f44d`). Existing issue [#1747](https://github.com/Satobloc/HsH/issues/1747) is PUBLISHED_VERIFIED; no duplicate issue or submission was created.
+
+Calder's later receipt Amendment 02 records a second discovery-index snapshot at 17:57:11Z (blob `d0400926f5048909669255f1f3ebca6ed6d11fc6`). Pending Paper A and B remain in the full searchable `documents` catalog with raw workspace reader targets; Paper B retains a 1,400-character raw excerpt; neither is in the 48-item docket; `generated/papers.json` still excludes both. This is a reproduced **source-layer discovery/reader-policy mismatch**, not a confirmed live raw-display incident. Downstream reader enforcement remains UNKNOWN. No route probe, site edit, manuscript edit, or P0 standdown.
+
+The earlier h833:s2 17:27Z statement that no new P0 trigger was found was limited to the eight protected paths and earlier discovery snapshot. The later h833:s3 result is a separate surface/snapshot and does not show those eight protected blobs changed. P0 remains ACTIVE; Tern retains authority.
+
+### Routing/readback
+
+- Tern INBOX now contains the 18:00:33Z and 18:04:02Z scheduler snapshots, chat_ref reuse, Aldus/Alberr receipt gaps, and the Calder P0 cross-read. No Observation 028 file, task graph, queue, scheduler, PR, or site was changed by Hale.
+- Hale INBOX contains the Calder h833:s3 packet pointer as `POST_START_OPTIONAL_CONTEXT_ONLY`; no direct thread delivery or consumption is claimed.
+- The existing Elias h834:s0 optional packet was amended in place with the chat_ref reuse observation. Its current classification remains `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED`. Elias INBOX and Common HANDOFFS index pointers were refreshed to the amended packet blob. No task, response obligation, deadline, review request, or ownership transfer.
+- The current h833:s4 Hale run remains IN_PROGRESS at this final scheduler readback; completion is unconfirmed.
