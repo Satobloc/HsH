@@ -26,4 +26,4 @@ Preserve Ravel's existing finite-core/worldtube/timesheet and source-fidelity re
 
 The latest Ravel workspace pointer says no authenticated current Ravel ChatGPT thread. The latest saved Free Build export `6acb1336-f250-83ea-b330-ab3e2ff30f3e` records last user activity 2026-10-15T05:14:58Z; this does not prove current writability or successor identity. Existing source-grounded regeneration prompt: `WORKSPACES/RAVEL/REGENERATION_PROMPT_2026-11-14_H816.md`, blob `6c21e49ae3d5257caa21e089d091bdbbd3ff5e26`. It preserves Ravel's historical source IDs and role, but is not a newly created ChatGPT conversation.
 
-`github_inbox_delivery=UNVERIFIED` until Ravel INBOX exact readback. `chat_delivery=UNAVAILABLE`. No direct delivery, consumption, acknowledgment or comprehension is claimed.
+`github_inbox_delivery=VERIFIED` by exact Ravel INBOX readback; `chat_delivery=UNAVAILABLE`. `chat_delivery=UNAVAILABLE`. No direct delivery, consumption, acknowledgment or comprehension is claimed.
