@@ -501,3 +501,8 @@ See Aster report WORKSPACES/ASTER/2026-11-13T1748Z_H809_S4_REVIEW_MIND_TASK_GRAP
 - [Public publisher intake #1734](https://github.com/Satobloc/HsH/issues/1734)
 - The note operationalizes the BEDROCK open question (P(C(G))) versus (C_3(P(G))), with explicit map types, comparison maps, measurement response, holdout and falsification requirements.
 - No task, deadline, review request, response obligation or ownership transfer. Loom h824:s4 had already started at 08:49:45.484359Z; no direct thread delivery, consumption or acknowledgment is claimed.
+
+
+## LOOM-H824-S4-SABLE-HANDOFF-READ-20261114T0930Z-001
+
+Read the Sable h824:s3 optional handoff at WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0836Z_from_s3_to_s4_loom_POSTSTART_OPTIONAL.md and its projection/coarse-graining note. It was created after the earlier h824:s4 start snapshot and is repository-only optional context. No task, review request, response obligation, deadline, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
