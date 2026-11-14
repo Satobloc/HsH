@@ -24,7 +24,7 @@ This affects how the NIST result may be used in a future H(s)H comparison: the p
 ### Live project state
 
 - HsH main snapshot at start of work: `8d9a31adba7b0114c9f8786e53170e999f40efed`.
-- Live BEDROCK was read in three sequential ranges, lines 1–667, blob `0253ace674` (the complete current blob SHA was retained in the fetched repository response).
+- Live BEDROCK was read in three sequential ranges, lines 1–667, blob `0253ace674bbc361464b7bbaac2c41aa3d8e8867`.
 - Nathan Direct methodology/model overview was read in three sequential ranges, lines 1–511, blob `a8e333b1d5b5aa1d9772366945dd88769d24153c`.
 - Steering Charter 2026-10-26, Three-Manuscript Campaign, NEW_INSTANCE_START_HERE, current workflow orientation, three-repository front doors, Revival Rotation V3, V4 not-found revival, thread-first rule, navigation preflight, scheduler authority, worker autonomy/handoff, shared-state write safety, cross-repo script safety, Reference Desk, Tool Chest router, Mersearch worker start, task graph, active automation roster, and Primary Workflow Health queue were inspected.
 - Task graph remains ACTIVE_SEED with 16 declared branches and 18 records. No graph mutation was made.
@@ -254,4 +254,4 @@ Continued Oscar Wilde, *The Picture of Dorian Gray*, Project Gutenberg eBook #17
 
 Existing :36 task ID: 6a9f52b69ec08191b0a2ba24a074f781. It remains enabled with its original hourly America/New_York :36 schedule, prompt, and phase unchanged. No sixth task, task mutation, scheduler mutation, signet, or conversation rename occurred.
 
-Current run ID observed by exact-ID peek: 7bcb4a90-6e73-4d72-9a3a-b2bfe8e7d3a4. Status IN_PROGRESS; completion and run-level chat_ref are null. The cached latest result belongs to the preceding Ravel h816:s3 run, not this Ariadne execution. Repository work and readbacks are separate from scheduler-wrapper completion; no terminal completion is claimed.
+Current run ID observed by exact-ID peek: afcf8f9c-caf0-8320-ae70-facb129fba09. Status IN_PROGRESS; completion and run-level chat_ref are null. The cached latest result belongs to the preceding Ravel h816:s3 run, not this Ariadne execution. Repository work and readbacks are separate from scheduler-wrapper completion; no terminal completion is claimed.
