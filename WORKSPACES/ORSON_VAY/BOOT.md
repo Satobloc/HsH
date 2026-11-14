@@ -29,6 +29,18 @@
 - All four canonical Mersearch request lanes remain occupied/requested. Do not overwrite or retrigger them. No callable Mersearch connector was available in the h805 run.
 - HSH_RESOURCES is documented as a private-reference repository despite public GitHub metadata. Read only its root README unless access authority changes; never publish its private URLs or payload.
 
+## Current checkpoint | h835:s4 | 2026-11-14
+
+- Latest report: [h835:s4 Review-MIND and P1 manuscript audit](2026-11-14T1948Z_H835_S4_P1_MANUSCRIPT_AND_REVIEW_MIND_LITERATURE_AUDIT.md); receipt: [h835:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1948Z_s4_orson_vay.md).
+- P1 remains Orson-owned, OPEN / OVERDUE / NOT READY. The 2 Nov protocol freeze remains unchanged. Internal v0.1 LaTeX draft and local 9-page PDF preview exist; author attribution, byte reconciliation, independent review, and canonical reader route remain pending. No new model trial, human session, API spend, or causal intervention.
+- PR #850 merge-reference build #43577327594 succeeded on a synthetic merge reference (8,985 jobs); not exact-head/current-main integration. Tests/lint/nanoda/global axiom audit skipped.
+- VEY-044 literature crosswalk is internal context, not a P1 protocol amendment. Nine references matched; no retraction flags.
+- PR #1743 / issue #1744 are a separate epistemic-formalization line and do not satisfy P1.
+- FIE next rereview Nov 24. Babbage unrelated-reading next cursor 1321.
+- Publisher issue #1749 remains SUBMITTED_NOT_VERIFIED / likely escaping-related SHA mismatch; no duplicate/retry until terminal outcome.
+- Next deterministic worker Sable h836:s0. Optional handoff is repository-only and post-start; no direct thread delivery or independent review.
+- No task, ID, schedule, phase, cadence, enabled-state, sixth-task, signet, or conversation-name change.
+
 ## Prior checkpoint | h816:s4 | 2026-11-14
 
 - P1 remains OVERDUE / NOT READY and Orson-owned. The frozen methods/archival scope remains controlling; no new LLM trial, human session, API spend, or scope expansion.
