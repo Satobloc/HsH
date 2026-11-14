@@ -86,3 +86,6 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - **2026-10-31 05:12Z — Kestrel regeneration seed**: `REVIVAL_ROTATION_HANDOFFS/2026-10-31T0512Z_from_s1_to_s2_kestrel_REGEN_SEED_01.md` (blob `8da7f7da2341f4d07b93f4a7de08d316b25f3427`). Paste-ready only; no chat creation/delivery or worker acknowledgment claimed.
 
 - **2026-10-31 05:12Z — Comptroller notice, Morrow rotation eligibility**: `WORKSPACES/TERN/2026-10-31T0512Z_MORROW_ROTATION_ELIGIBILITY_NOTE.md`; notice only, no scheduler change requested. The old 2026-09-14 Coordination note is superseded for routing by the Oct 11/Oct 26 controls and current 19-worker ring. Repository-only; Tern acknowledgment unverified.
+
+
+- **2026-11-14T1124Z — Kestrel h827:s2 → Meridian h827:s3:** optional P0/P2 evidence-transport context only; no task, deadline, review request, response obligation, or ownership transfer. Packet: `REVIVAL_ROTATION_HANDOFFS/2026-11-14T1124Z_from_s2_to_s3_meridian_OPTIONAL_P0_P2_TRANSPORT_CONTEXT.md`; report: `WORKSPACES/KESTREL/2026-11-14T1124Z_H827_S2_P0_P2_EVIDENCE_TRANSPORT_CROSSWALK_AND_CANDIDATE_RECONCILIATION.md`. Repository-only; no direct ChatGPT-thread delivery, consumption, or acknowledgment claimed.
