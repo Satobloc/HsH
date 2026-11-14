@@ -5595,3 +5595,13 @@ The Morrow handoff commit at 15:01:48Z is after the nominal h831:s0 slot time, b
 - New evidence: :00 h830:s0 run `52cda75d-371c-832a-b82c-a370f2cdbff6` changed from FAILED at 14:55:38.008142Z to IN_PROGRESS with completion null; its same-ID start moved from 14:30:35.033741Z to 14:59:45.371618Z (+29m10.337877s). Its scheduled_for remains 14:00Z, so it remains h830:s0 Hale, not h831:s0 Morrow.
 - :36 h830:s3 run `7c8cd409-493c-8325-8f17-4e799010b468` remains IN_PROGRESS while its same-ID start moved from 14:36:14.397471Z to 15:04:13.766516Z (+27m59.369045s).
 - h831:s0 start remains UNOBSERVED. The Morrow handoff is POST_NOMINAL_SLOT / NEXT_RUN_START_UNOBSERVED / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. No process-concurrency, retry, restart, or backend-cause inference.
+
+
+## TERN-H830-S4-OBS028-AMENDMENT-09-20261114T1511Z
+
+- Observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-14T1511Z_H830_S4_OBS028_AMENDMENT_09_H830_FINAL_FOUR_SLOT_READBACK_AND_TERN_START_MUTATION.md`.
+- :48 h830:s4 run `c3a41acd-1824-8322-bbd6-af683d8af760` remains IN_PROGRESS, completion/chat_ref null. Same-ID `started_at` moved from 14:44:02.409292Z to 15:11:47.206695Z (+27m44.797403s), while `scheduled_for` stayed 14:48Z. Task-level `last_run_time` remains 14:09:48.147554Z; `next_run_time` remains 09:48-05:00 (already-passed); `latest_result` remains prior Calder h829:s4 and is not current Tern output.
+- Final cross-section: :00 h830:s0 Hale completed 15:08:29.196207Z after its same-ID FAILED → IN_PROGRESS → COMPLETED observations; :24 h830:s2 Nadir completed 14:49:32.902298Z; :36 h830:s3 Enheduanna completed 15:11:26.192991Z after same-ID start movement; :48 Tern remains IN_PROGRESS; :12 remains disabled. Final recorded :00/:36 interval intersection is 4m15.429691s only; no process-concurrency inference.
+- No distinct h831:s0 Morrow run record surfaced. Existing Morrow handoff remains POST_NOMINAL_SLOT / NEXT_RUN_START_UNOBSERVED / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED; no duplicate handoff or Morrow inbox mutation.
+- No attempt ID/event history/cause was exposed. No retry, restart, duplicate process, worker substitution, or backend cause inferred. No task ID, schedule, prompt, phase, cadence, graph, or ownership change; no sixth task.
+- Current-work checkpoint updated. Canonical receipt Amendment 02 pending final readback. Public WH-01 issue #1742 remains PUBLISHED_VERIFIED; no second issue created for this internal scheduler amendment.
