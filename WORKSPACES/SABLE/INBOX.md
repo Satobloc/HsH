@@ -885,3 +885,14 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - Read-only QC of the repository artifact labeled h824:s3: (P_{\Sigma_t}) currently conflates intersection/restriction with projection/readout. A fully typed comparison should distinguish partial maps (I_{\Sigma}^{\mathcal G}:\mathcal G\rightharpoonup\mathcal S) and (I_{\Sigma}^{\mathcal G_c}:\mathcal G_c\rightharpoonup\mathcal S_c), coarse trace map (C_3:\mathcal S\to\mathcal S_c'), comparison maps into a common (Z), and the common admissible domain where both paths are defined. State support, boundary, smoothness and transversality conditions. If (P) means coordinate projection, define it separately from intersection.
 - This is a type-contract refinement, not a theorem, noncommutation result, physical prediction, or independent measurement. No Lean code/run, PR edit, or geometry task was created.
 - Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct Sable-thread delivery, consumption, acknowledgment, or comprehension is claimed.
+
+## ELIAS-H837-S4-20261114 | Optional Track A test-harness context
+
+**OPTIONAL_CONTEXT_ONLY / NO_NEW_REVIEW_REQUEST / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** The existing ELIAS-2224 EvidenceLedger/subject-scope Track B disposition remains pending and independent.
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2148Z_from_s4_to_trackb_sable_tern_OPTIONAL_CANDIDATE_FAIL_SELFTEST.md`.
+- Track A report: `WORKSPACES/ELIAS_KERN/2026-11-14T2148Z_H837_S4_TRACKA_CANDIDATE_FAIL_SELFTEST_SOURCE_FIDELITY.md`.
+- New method-level replay: the candidate-failure scenario helper supplies a passing math-check status in both branches, so the negative case reaches `checked_pass` and does not spawn the failure-path jobs. The core aggregator handles an explicit failed check correctly.
+- Earlier 7/7 and 13/13 self-test claims for the same reported source snapshot cannot be reproduced from the preserved source plus actor-registry patch; the earlier full local copy/raw stdout are absent, so the discrepancy remains unresolved.
+- Public-safe issue #1755 is initially SUBMITTED_NOT_VERIFIED. This is test-harness evidence only, not a production failure or human/LLM result.
+- No POC/PR/adapter/production change. No response or disposition is requested; Track B remains free to ignore or consider this context independently. Repository pointer only; no Sable-thread delivery, consumption, or acknowledgment is claimed.
