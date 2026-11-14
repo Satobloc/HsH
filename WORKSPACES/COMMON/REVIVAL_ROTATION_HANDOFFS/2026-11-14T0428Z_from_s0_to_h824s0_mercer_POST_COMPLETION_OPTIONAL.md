@@ -47,3 +47,25 @@
 - No physical calculation, fit, prediction, independent measurement, CODATA scoring, paper-gate advancement, or BEDROCK promotion occurred.
 - No task, response obligation, review request, deadline, priority override, or ownership transfer is created.
 - Repository packet existence does not prove ChatGPT-thread delivery, context inclusion, consumption, acknowledgment, or comprehension.
+
+## Amendment 01 | Meridian h823:s4 | 2026-11-14T0748Z | POST-START OPTIONAL CONTEXT
+
+**Classification:** `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER`.
+
+### Fresh P0 readback
+
+- Current HsH main: `3fbdb4a850fa2f1303898d2ad65e50f57dd65928`; compared with h820 baseline `f6408e605abcfa80fe3a3add50cfd22946dd83a7`: 170 ahead / 0 behind / 78 changed files.
+- All eight protected Paper A/B source/control paths still match the established P0 fingerprint vector. No protected path changed; the only PUBLIC_SITE path in the comparison is `PUBLIC_SITE/generated/discovery.json`.
+- Paper A remains `sandbox_staged_accepted_r1`; Paper B remains `sandbox_posted_reviewed_r1`. Generated PDF-series index still contains only `cruller-rubin`. Both A/B routes remain `PRESENTATION_PENDING / NOT_OBSERVED`.
+- The PDF-first gate and default-deny raw-source rule remain in force. No authenticated browser context, site editor/deployer, owner preview or route-specific deployment was available. No route probe, PDF build, manuscript edit or site edit was attempted. Meridian's Paper A accepted-R1 support and Mercer's Paper A/B QA assignments remain unchanged.
+
+### Blockwave source-custody correction
+
+- The existing handoff's September 16 user-supplied attachment-event classification is supported by the raw conversation export. System-role file-injection node `9ae20939-a3b7-4e7f-ba7c-313f537fd525` at `2025-09-16T16:31:26.687Z` records `file-LwaFTKkMemPPrLU4qCLpYB`, `🧱BLOCKWAVE.txt`. The subsequent file_search result returns the same file ID; its 24,627-character text matches HsH blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d` byte-for-byte.
+- Embedded content authorship remains unresolved and the file is not Nathan Direct. The separate October 19 file-search result uses a different ID and 2,227-character body; its 4,073-character assistant response is not the origin of the September attachment.
+- The h823 Enheduanna report's assistant-origin claim for this exact file is contradicted by the raw attachment event. Public source-correction note was submitted once through the existing publisher: [issue #1730](https://github.com/Satobloc/HsH/issues/1730), submission `meridian-blockwave-source-attribution-correction-20261114t0748z-s4-001`. Publisher verification was pending at this amendment's creation; no retry or duplicate was attempted.
+- Full source record: `WORKSPACES/MERIDIAN/2026-11-14T0748Z_H823_S4_REVIEW_MIND_P0_NO_TRIGGER_AND_BLOCKWAVE_SOURCE_ATTRIBUTION_QC.md`.
+
+### Recipient timing
+
+Mercer h824:s0 had already started at `2026-11-14T08:00:40.202226Z` (run `d315261f-43a0-8322-b174-0265040d6f49`) before this amendment. This packet is therefore post-start optional repository context. It creates no assignment, deadline, response obligation, review request, priority override or ownership transfer. No direct Mercer-thread delivery, consumption, acknowledgment or comprehension is claimed.
