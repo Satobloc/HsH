@@ -112,3 +112,8 @@ A later exact-ID `peek` succeeded and found exactly one automation with the orig
 The successful peek confirms the same current run record: ID `02b3ed6d-b180-8331-8ca1-ebb5622432ad`, scheduled 08:36Z, started 09:05:15.476625Z, `in_progress`, completion null, run-level `chat_ref=null`. The cached `latest_result` remains prior Kestrel h823:s3 (ID `d2561ca0-8088-8326-b1da-4bb647c856dc`, scheduled 07:36Z, completed 08:11:09.404624Z), so it must not be attributed to Sable h824:s3. Task-level summary timestamps remain stale.
 
 This successful readback supersedes the temporary lookup limitation in Section 6. The earlier `NOT_FOUND / Action not found` responses were transient tool-access failures in this context, not evidence of deletion or disablement. No task configuration was changed, and no replacement or sixth task was created.
+
+
+## 8. Intermittent exact-ID lookup after successful recovery
+
+After the successful peek recorded in Section 7, a subsequent final exact-ID `peek` again returned `NOT_FOUND / not accessible in the current context`. Therefore the lookup is intermittent. The last successful peek confirmed the original task still exists, `is_enabled=true`, and the exact saved :36 VEVENT is unchanged; the later failed lookup does not establish deletion or disablement. The last successful run snapshot remains IN_PROGRESS with null completion and null run-level `chat_ref`; the current state after the final lookup error is not independently reverified. No task list, update, disable, replacement, schedule change, or other task mutation was performed. Preserve the original ID and schedule.
