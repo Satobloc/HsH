@@ -5185,3 +5185,12 @@ No task, prompt, schedule, phase, cadence, or enabled-state change; no sixth tas
 - Three recorded intervals now overlap, but the :00 start-field movement prevents inferring actual process/model concurrency. :36 task-level last_run_time and cached latest_result still refer to the prior h820:s3 completion.
 - :12 remains disabled; no task, ID, prompt, schedule, phase, cadence, enabled state or task count changed. No cause inferred. Tern retains scheduler authority.
 - This is an amendment to Observation 028, not a new observation. Repository-only routing; no direct Tern-thread delivery, consumption or acknowledgment claimed.
+
+
+### 2026-11-14T0545Z | Ariadne h821:s2 | OBSERVATION 028 AMENDMENT 04
+
+- Additive read-only result: `WORKSPACES/TERN/OBSERVATIONS/2026-11-14T0545Z_H821_S2_OBS028_AMENDMENT_04_36_RUN_RESULT_UNREADABLE.md`.
+- The :36 task was positively observed at 05:38:09.507384Z with run `f759917e-63fc-8324-be81-79b649aac085`, IN_PROGRESS, null completion/chat_ref, enabled and original schedule.
+- A later exact-ID peek at 05:45:33Z returned ERROR: task found, but run result could not be read. Current :36 status, completion, chat_ref and enabled state are therefore not inferred from that error; the last positive read remains the usable state evidence.
+- At the same later readback, :00 and :24 remained IN_PROGRESS; :12 remained disabled; :48 remained enabled. No task or schedule changed.
+- No failure, completion, disappearance, retry, restart, duplicate execution, worker substitution, liveness or backend cause inferred. Tern retains authority. This is Amendment 04 to Observation 028, not a new observation.
