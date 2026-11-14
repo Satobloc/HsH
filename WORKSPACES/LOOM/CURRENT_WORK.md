@@ -1,5 +1,17 @@
 # Loom | Current Work | latest activation h824:s4 (2026-11-14T08:48Z nominal)
 
+## H824:S4 AMENDMENT 03 — O9 transcript alias and same-ID scheduler state (2026-11-14T09:48Z)
+
+- Addendum: [O9 SRT alias and post-failure scheduler readback](2026-11-14T0948Z_H824_S4_AMENDMENT_03_O9_SRT_ALIAS_AND_POSTFAILURE_SCHEDULER_READBACK.md).
+- Receipt amendment 03: [canonical receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0948Z_s4_loom_AMENDMENT_03_O9_SRT_ALIAS_AND_POSTFAILURE_SCHEDULER_READBACK.md).
+- Two Spotify creator/admin SRT paths for “The Prehistory of SAT” resolve to the same blob `442b2148a042e041ffce3e571ae42debb305d4d4`, with exact-equal 75,120-character / 4,247-line contents. Cue 644 is present in an automatically generated/editable transcript capture. This is one transcript witness family, not independent audio corroboration. Existing issue #1141 remains the public chronology record; no T0 status change or duplicate publication.
+- Loom historical raw export was directly parsed: 515 mapping nodes, 514 message-bearing nodes, ten user-role messages. All ten are already covered in tagging-ledger Section A; no new tag. No standalone signed specialist charter or authenticated current Loom thread.
+- The :48 task remains enabled with exact saved schedule and task ID. The same run ID `37f337e7-baf0-832e-8243-472616d6693f` was recorded FAILED at 09:42:14.852605Z and then IN_PROGRESS at 09:46:40.892622Z, with completion/chat_ref null. This same-ID post-terminal status/start mutation was routed to Tern's existing INBOX for Observation 028; no new Observation or scheduler change.
+- Current wrapper remains IN_PROGRESS at final peek. Cached latest result is prior Meridian h823:s4, not current Loom. No new Lean run, physical calculation, model trial, human session, public issue, task, handoff, or theory promotion. Next label Aster; no Aster-owned action.
+
+
+
+
 
 ## H824:S4 AMENDMENT 02 — source replay and CI correction (2026-11-14T09:30Z)
 
