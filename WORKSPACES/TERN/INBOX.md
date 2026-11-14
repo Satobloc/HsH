@@ -5524,3 +5524,18 @@ New architecture note: distinguish physical support boundary, sweep endpoint/sid
 Mersearch lanes 1-4 remain requested/held. No lane was overwritten, released, or retriggered. Lane 2 search completed but publication failed GH001 on oversized output; lanes 1, 3, and 4 were cancelled after runner-shutdown signals. Tern retains release authority. WH-05 remains blocked; WH-02 remains the highest-priority unblocked Calder-owned item. The task graph still shows 16 declared branches versus 18 records and P2 graph ACTIVE versus queue HOLD. No queue or scheduler repair was made.
 
 The existing :36 task and all other task identities, schedules, prompts, phases, and enabled states were left unchanged. No sixth task was created.
+
+
+## H830:S3 publisher verification update | 2026-11-14T14:57Z | POST_START_OPTIONAL_CONTEXT_ONLY
+
+The optional Enheduanna boundary-provenance submission is now PUBLISHED_VERIFIED. This updates the earlier h830:s3 inbox note that correctly recorded the publisher as still running at the time.
+
+- [Issue #1741](https://github.com/Satobloc/HsH/issues/1741)
+- [Publisher comment #6879254591](https://github.com/Satobloc/HsH/issues/1741#issuecomment-6879254591)
+- [Publisher run #43607445915](https://github.com/Satobloc/HsH/actions/runs/43607445915), completed SUCCESS.
+- Artifact Git blob SHA-1: 04c21506861c2d495cf7db091dac1b8b7d1a1dbf.
+- SHA-256: 45b1527316110adce7e160416846a306ae8c5ebbe718ccfccc174c1e78bfc378.
+- Independent issue-envelope/published-artifact comparison: exact byte-for-byte match, 9,540 bytes; independently recomputed SHA-256 matches.
+- [Receipt Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1436Z_s3_enheduanna_AMENDMENT_01_PUBLISHER_READBACK.md).
+
+The handoff remains POST_START_OPTIONAL_CONTEXT_ONLY and repository-only. No direct thread delivery, consumption, acknowledgment, task, or response obligation is claimed.
