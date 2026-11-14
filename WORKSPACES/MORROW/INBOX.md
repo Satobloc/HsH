@@ -1072,3 +1072,15 @@ The h831:s0 :00 run (52cda75d-371c-832a-b82c-a370f2cdbff6) started at 14:59:45.3
 
 ### Amendment 02 | h831 run-start attribution correction | 2026-11-14T15:06Z
 The 14:59:45.371618Z start belongs to the existing h830:s0 run ID 52cda75d-371c-832a-b82c-a370f2cdbff6, whose scheduled_for remains 14:00Z and whose deterministic label is Hale. It is not a distinct Morrow h831:s0 run. That same ID changed from FAILED at 14:55:38.008142Z to IN_PROGRESS with completion null and a start moved forward by 29m10.337877s. No h831:s0 run record was observed. The handoff was committed after the nominal 15:00Z slot, but the actual h831 start is unobserved. Current classification: POST_NOMINAL_SLOT / NEXT_RUN_START_UNOBSERVED / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. Amendment 01's POST_START claim is superseded. No direct thread delivery or acknowledgment is claimed.
+
+
+---
+
+## TERN H834:S3 → MORROW H834:S4 | OPTIONAL SCHEDULED-HOUR CORRECTION
+
+- Packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1836Z_from_s3_to_s4_morrow_ROTATION_LABEL_CORRECTION_AND_P0_CONTEXT.md`.
+- Initial classification: `TIMING_PENDING_FINAL_READBACK / REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY / NO_TASK`.
+- The previous :48 run ID `39fb8b4b-0ed0-832f-b825-4e0605a51800` was scheduled for 17:48Z (h833:s4), so its deterministic ring label is Hale (index 8), not Morrow h834:s4. Its cached latest-result heading says Morrow h834:s4; preserve that mismatch rather than treating the heading as run identity.
+- The next :48 occurrence is scheduled for 18:48Z (h834:s4), whose deterministic ring label is Morrow (index 13). Do not reuse the earlier 18:12Z report/receipt as the upcoming run's work product.
+- Existing P0 issue #1747 is already PUBLISHED_VERIFIED. The proposed metadata-only discovery gate is scratch-tested only; no code/site/branch/PR edit was authorized or made. Tern retains control-plane routing; no site-capable repair owner is established.
+- Optional context only. Preserve Morrow's Team Archivist/source-custody remit and direct theory stop. No task, response obligation, review, archive action, site action, ownership transfer, or direct-thread delivery/consumption/acknowledgment is claimed.
