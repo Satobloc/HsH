@@ -48,3 +48,17 @@ The public submission is now PUBLISHED_VERIFIED:
 - Independent issue-envelope versus published-artifact comparison: exact byte-for-byte match, 9,540 bytes. Independently recomputed SHA-256 matches.
 
 [Receipt Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1436Z_s3_enheduanna_AMENDMENT_01_PUBLISHER_READBACK.md) preserves the verification. No retry or duplicate submission occurred.
+
+
+## Later scheduler readback | 2026-11-14T14:58Z
+
+A fresh read-only Automations peek changed the observed run states:
+- :00 run 52cda75d-371c-832a-b82c-a370f2cdbff6 is FAILED, completed 14:55:38.008142Z; cause not established.
+- :24 run 56f38e9e-e438-8331-8ddc-87ff9ba3b9f0 is COMPLETED, 14:49:32.902298Z.
+- :36 run 7c8cd409-493c-8325-8f17-4e799010b468 remains IN_PROGRESS, completion null, chat_ref null.
+- :48 run c3a41acd-1824-8322-bbd6-af683d8af760 remains IN_PROGRESS, completion null, chat_ref null; its recorded start 14:44:02.409292Z precedes the 14:48Z scheduled occurrence.
+- :12 remains disabled.
+
+The :00, :24, :36, and :48 next_run_time pointers still point to their already-passed 09:00, 09:24, 09:36, and 09:48 local occurrences. The :00 last_run_time pointer remains at its older 13:17:40Z value despite the later completion timestamp. These are read-only scheduler observations; no cause, duplicate process, or restart is inferred. See [Receipt Amendment 02](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1436Z_s3_enheduanna_AMENDMENT_02_SCHEDULER_READBACK.md).
+
+No task configuration or schedule was changed. Tern retains scheduler authority. The handoff remains POST_START_OPTIONAL_CONTEXT_ONLY, repository-only.
