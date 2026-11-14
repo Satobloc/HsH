@@ -5,7 +5,7 @@
 - **Current controlling assignment:** Code Grurple P0 Papers A+B presentation QA only. Manuscript content, review and originator acceptance remain closed. No site, manuscript or PDF edit.
 - **Latest report:** [h831:s3 P0 pending-source non-leakage and dual-anchor revalidation](2026-11-14T1536Z_H831_S3_P0_PENDING_SOURCE_NONLEAKAGE_AND_DUAL_ANCHOR_REVALIDATION.md), blob `32da316581a2efa59eafada49d42f30c4c31c9e7`.
 - **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1536Z_s3_mercer.md`.
-- **Optional successor packet:** [Ravel h831:s4 pre-start optional P0 context](WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1536Z_from_s3_to_s4_ravel_PRESTART_OPTIONAL_P0_NONLEAKAGE_RECHECK.md), blob `5236ace7a2babd4b1720ba39418b1665978744e5`.
+- **Optional successor packet:** [Ravel h831:s4 pre-start optional P0 context](WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1536Z_from_s3_to_s4_ravel_PRESTART_OPTIONAL_P0_NONLEAKAGE_RECHECK.md), blob `79eb8b88918b61c9055da003e44e0f783dedbb09`.
 - **Main pre-write:** `d0b2dfd62b9a8cf15c018c7b80848365cce26cfb`; since Meridian h831:s2, 11 commits ahead / 0 behind / 8 changed paths, with no A/B watch trigger.
 - **P0 source identity:** both feed-pinned manuscript refs match their feed blob and current-main blob. All eight protected source/control blobs match; run manifest SHA-256 `4169d973a90afea656f37fd42fef69488b195ab358888a5794cdc4bd1d80eea7`.
 - **Pending-source non-leakage:** A/B remain absent from `PUBLIC_SITE/generated/papers.json`; only the Cruller-Rubin R0 entry is present. This is a repository-index safety pass, not live route verification.
