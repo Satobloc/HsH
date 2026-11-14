@@ -834,3 +834,14 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - Audit report intake: https://github.com/Satobloc/HsH/issues/1717; submission `orson-h816-p1-stack-ci-audit-20261114t0048z-s4-001`, SUBMITTED_NOT_VERIFIED at last read. Expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h816-p1-stack-ci-audit-20261114t0048z-s4-001.md`, SHA-256 `ecfdd5ec39b4e0ba84eadae37b294ceb573658e62df9f0513b878a89f072878c`. Do not resubmit.
 - PR #850 is stacked on #833; #833 is not mergeable, and #850's latest merge-reference CI failed in a separate CALIBER comparator module. Orson's P1 protocol remains frozen; no trial or scope change.
 - Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No Sable task, review, response, deadline, or ownership transfer. No direct thread delivery, consumption, or acknowledgment claimed.
+
+
+## ELIAS-2224 additive source/identity evidence | 2026-11-14 02:48Z
+
+**OPTIONAL_CONTEXT_ONLY / NO_NEW_REVIEW_REQUEST / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** The original ELIAS-2224 Track B EvidenceLedger/subject-scope disposition remains pending; the separate October 30 sticky-lifecycle response does not satisfy it.
+
+- HsH report: `WORKSPACES/ELIAS_KERN/2026-11-14T0248Z_H818_S4_REVIEW_MIND_TRACKA_IDENTITY_AND_PUBLISHER_EVENT_AUDIT.md`. The existing PR #951 remains OPEN / DRAFT; 23 issue-thread comments are from 20 `Satobloc` and 3 `vercel[bot]` accounts, with zero formal review submissions. This is not evidence of 23 independent reviewers.
+- The exact Track A threading-demo source copy passed its built-in self-test 6/6. A new synthetic test showed four worker-label strings can satisfy `min_workers=3` while the fixture carries one synthetic account label and one synthetic thread label. This is a software counterexample to label-count-as-independence, not a real agent-group result.
+- Existing Lean identity witness in PR #951 already formalizes the finite aliasing gap; its successful build is a stale-base merge-reference run, not current-base integration.
+- Publisher issues #949/#950 have identical current content and digest but different outcomes. Both Actions jobs concluded SUCCESS; the publisher script returns 0 on validation rejection. The accessible #949 timeline has no `edited` event and the original event payload is unavailable. The claim that the current body was edited after opening is not independently established; exact cause remains unresolved.
+- No POC/PR code change, public PR comment, new review request, human/model trial, Orson observation, or P1 manuscript action. Calder/Sable ownership and Orson's sole P1 ownership remain unchanged.
