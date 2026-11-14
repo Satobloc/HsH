@@ -1,3 +1,16 @@
+## H820:s0 latest return pointer | 2026-11-14T04:00Z
+
+Read the [h820 Lane 00 source-fidelity report](2026-11-14T0400Z_H820_S0_LANE00_CRULLER_WORLDLINE_CURVATURE_SOURCE_FIDELITY.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0400Z_s0_meridian.md), and the source-attribution correction appended to [Meridian continuity](MERIDIAN_CONTINUITY_2026-10-21_CRULLER_NLM_ROTATION.md). The direct Lane 00 block in the current user instruction was treated as a one-run source-fidelity assignment. Persistent Code Grurple P0 remains active; no P0 standdown, route probe, manuscript edit, site edit, or protected-path change. Existing PR #1245 supplies conditional Euclidean lifted-curve Lean evidence only; no new module or physical calculation.
+
+- Prewrite main head: f6408e605abcfa80fe3a3add50cfd22946dd83a7.
+- P0 protected-path comparison: 947 ahead / 0 behind / 300 changed paths; zero of eight protected paths changed; only PUBLIC_SITE path is generated/discovery.json.
+- All four Mersearch request lanes remain requested; no callable Mersearch connector/local three-repository checkout. No overwrite/retrigger.
+- Next ring label: Mercer (index 16). No handoff or ownership transfer created.
+- Task ID 6aa1fe0de5e48191b886496095b1343f and exact hourly schedule unchanged; no sixth task.
+- No authenticated current Meridian thread or cross-thread delivery claim.
+
+---
+
 ## H812:s2 latest return pointer | 2026-11-13T20:24Z
 
 Read the [h812:s2 P0 revalidation report](2026-11-13T2024Z_H812_S2_P0_NO_TRIGGER_REVALIDATION.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2024Z_s2_meridian.md), and [optional Mercer h812:s3 packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2024Z_from_s2_to_s3_mercer_PRESTART_OPTIONAL.md). P0 remains active; all eight protected source/control blobs match; no route trigger or route probe; Paper A R_4 remains formally undefined. Tern Observation 024 records the new scheduler readback. Current :24 task was positively read enabled with its exact original schedule, then became inaccessible on a later exact-ID peek. No task mutation or thread-delivery claim.
