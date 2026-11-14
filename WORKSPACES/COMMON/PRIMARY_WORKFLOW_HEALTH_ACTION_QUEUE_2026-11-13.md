@@ -197,3 +197,24 @@ The full cross-read and source classification are in [Aldus h814:s2 follow-up re
 - The 2026-11-14 15:56 America/New_York escalation cutoff has not yet been reached. Unresolved WH-01..WH-09 items remain subject to the queue's automatic P1/HIGH escalation at that time.
 - Task graph remains 18 records / branch_count 16; no graph mutation, owner/priority change, scheduler mutation, or new task.
 - Detailed report: WORKSPACES/TERN/2026-11-13T2336Z_H815_S3_WH08_IDENTITY_CORRECTION_AND_WH02_REBASE_PREFLIGHT.md. Project scan receipt: WORKSPACES/COMMON/PROJECT_ORPHAN_SCAN_RECEIPTS/2026-11-13T2336Z_h815_s3_tern.md.
+
+
+---
+
+## H819:s2 Tern deep-upkeep refresh | 2026-11-14T03:24Z nominal
+
+**Readback through 03:34:40Z.** This refresh is a status update, not a priority promotion or ownership transfer.
+
+- **P0 Code Grurple:** remains ACTIVE. All eight protected source/control blobs still match the ordered baseline fingerprint `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`. Paper A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe or standdown.
+- **WH-02 / PR #1710:** remains OPEN / DRAFT / UNMERGED. Last source-verified PR head `a967e908ceab048d219831ec799343643870daf3` compares 7 ahead / 275 behind current main snapshot `fa5c5201fe59d35ada10cd4d76ff2ea9d1accd03`. Merge-base comparison: 115 main-side paths, 7 PR-side paths, zero path intersection. No PR-head Actions run returned. The generic `Path(name).suffix` title truncation risk remains in the PR branch, not main; existing tests do not assert dotted-title preservation. Calder/authorized maintainer retains rebase/code action. No code change or duplicate PR comment.
+- **WH-01:** census remains incomplete; existing plan records 15 directly verified checkout steps across 9 runs. Remaining per-repository job/attempt evidence and daily Traffic route are not established in this run.
+- **WH-03:** NotebookLM export remains a partial intake candidate, not a confirmed project/orphan.
+- **WH-05:** all four Mersearch lanes remain occupied/requested; no lane overwrite, retry, or release.
+- **WH-08/WH-09:** Glass/HsH migration remains partial (117 exact blob matches, 51 path candidates, 22 unmatched JSON mapping exports, one NotebookLM export); no migration.
+- **Task graph:** 18 records / declared `branch_count=16`, 7 roots, 11 parent-pointer edges, 10 child-array edges, one nonreciprocal relation, one child-traversal-unreachable node, no dangling references or cycles. Preserve the unresolved branch-count semantics and relationship; no graph mutation.
+- **Scheduler:** :00, :24, :36, :48 enabled; :12 disabled. h819:s2 current :24 run remains IN_PROGRESS with null completion/chat_ref; recorded :36/:48/:00 intervals overlap, as detailed in Tern Observation 028. This is scheduler-record evidence only.
+- **Deadline correction:** WH-01..WH-09 escalation cutoff is 2026-11-14 15:56 America/New_York (20:56Z). At 03:31:26Z, 17h24m34s remained. The h816 Mercer summary's statement that the cutoff had passed was incorrect. Do not promote unresolved WH-01..WH-09 to P1/HIGH before the actual cutoff. This operational cutoff is separate from the paper gates (P1 Nov 9 overdue; P2 Nov 30; P3 Dec 14).
+
+**Next Tern-owned cursor:** continue WH-01 read-only per-repository Actions run/job/attempt checkout reconstruction and supported Traffic capture-route discovery. WH-02 remains the highest-priority proposal but its code/rebase action belongs to Calder/authorized maintainer. WH-05 remains blocked by occupied Mersearch lanes.
+
+Full source and scheduler evidence: `WORKSPACES/TERN/2026-11-14T0324Z_H819_S2_COMPTROLLER_DEEP_UPKEEP_AND_SCHEDULER_CROSS_SECTION.md`; scheduler detail: `WORKSPACES/TERN/OBSERVATIONS/2026-11-14T0324Z_H819_S2_FOUR_LEASE_STATE_AND_CURRENT_RUN_OBS_028.md`.
