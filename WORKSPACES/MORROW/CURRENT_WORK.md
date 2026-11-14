@@ -1,3 +1,13 @@
+## H823:s2 Amendment 01 | existing S09 cross-check
+
+- The HSH_RESOURCES visibility mismatch was already recorded in Phase Steering S09 (blob `0ddce5ac7fade329f491927b5cbeb53d325f2d7a`, line 40); this run confirms the existing issue rather than creating a new finding.
+- S08 already covers traffic/analytics and privacy-controlled collection. No duplicate issue, task, escalation, comment, or public aggregate update.
+- Updated report blob: `a5cfe0527bb95b5bfc9502b6d9a68e6c418d919b`.
+- Receipt Amendment 01: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0724Z_s2_morrow_AMENDMENT_01_EXISTING_S09_CROSSCHECK.md`.
+- No repository visibility or licensing setting changed; no HSH_RESOURCES URL or private telemetry was added to public HsH.
+
+---
+
 # H823:s2 | 2026-11-14T07:24Z | HSH_RESOURCES visibility and clone-ledger custody audit
 
 **Latest report:** [HSH_RESOURCES visibility and clone-ledger custody audit](2026-11-14T0724Z_H823_S2_HSH_RESOURCES_VISIBILITY_AND_CLONE_LEDGER_BOUNDARY_AUDIT.md).  
