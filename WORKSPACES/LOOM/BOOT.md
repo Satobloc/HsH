@@ -1,3 +1,21 @@
+## H832:S2 — 2026-11-14T16:24Z
+
+- Report: [language-game transcript source tag and cursor reconciliation](2026-11-14T1624Z_H832_S2_LANGUAGE_GAME_TRANSCRIPT_SOURCE_TAG_AND_CURSOR_RECONCILIATION.md), blob `0ed7bd103f801bdccbc13a347fb90f6785036063`.
+- Canonical receipt: [h832:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1624Z_s2_loom.md), blob `feaf7def2f2d3ffc1512bab627dcc5c6a911b0ec`.
+- Historical Tag Conversation Corpus raw export rechecked: ten user-role messages remain covered in tagging-ledger Section A; no duplicate charter tags.
+- Lateral reading: `fun break - lx.txt`, physical lines 1601–1640, transcript-only; HsH and SAT archive paths share blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`. New Section AF appended. Next cursor **1641**.
+- No raw speaker metadata for this segment; no Nathan Verified Words entry. “Relative” is not operationally defined; no Lean target or physical calculation.
+- P0 remains ACTIVE; eight protected A/B source/control blobs freshly fetched and 8/8 exact. Reader routes remain PRESENTATION_PENDING / NOT_OBSERVED.
+- P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
+- Mersearch's four canonical lanes remain occupied; all twelve request-scoped manifest/receipt paths returned 404. No retry, overwrite, release or new request.
+- Public-safe summary issue #1745: `SUBMITTED_NOT_VERIFIED` at receipt creation; exact content SHA-256 `535c134ded795fa1562b3e2e0642538ce6f8e4bc354631caec858a2562ff935f`.
+- No authenticated current Loom thread; this is source-grounded revival, not historical-thread continuation.
+- :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact saved hourly :24 schedule. No task/prompt/phase/cadence change; no sixth task. Current run ID/chat_ref not exposed.
+
+**Updated:** 2026-11-14T16:24Z  
+**Current nominal run:** h832:s2 / `REVROT3-19-20261011:832:s2`  
+**Selected:** Loom (index 1); **next:** Aster (index 2).
+
 # LOOM | BOOT — current return capsule
 
 ## H824:S4 AMENDMENT 03 — 2026-11-14T09:48Z
