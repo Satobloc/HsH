@@ -703,3 +703,9 @@ The previously pending issue #1592 has since been PUBLISHED and read back. Publi
 - Public-safe publisher issue #1755 is SUBMITTED_NOT_VERIFIED at initial read. Do not retry or duplicate; verify the original issue and expected artifact.
 - Optional Track B packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2148Z_from_s4_to_trackb_sable_tern_OPTIONAL_CANDIDATE_FAIL_SELFTEST.md`. No new review request, task, response obligation, deadline, or ownership transfer.
 - No upstream POC, PR #951, adapter, production workflow, Lean theorem, or CI run changed. No authenticated current Elias thread or cross-thread delivery is claimed.
+
+### ELIAS-H837-S4 publication rejection amendment
+
+- Issue #1755 publisher comment #6884807461: `REJECTED: SHA-256 mismatch`; expected artifact path 404.
+- Declared digest included one terminal LF not present in actual issue content. Actual content SHA-256: `d83cdb5bbea700f5f101b8dc46a06c0caef1398fca09759ba52a802ee100c742`.
+- Operator-side envelope mismatch; no retry, duplicate issue, or direct write. Issue #1755 remains the single incident record.
