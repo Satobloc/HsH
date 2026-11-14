@@ -870,3 +870,11 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - Public-safe candidate-freeze summary is now `PUBLISHED_VERIFIED` at [issue #1727](https://github.com/Satobloc/HsH/issues/1727).
 - Publisher comment #6873309559; exact published artifact readback matches the issue envelope content (2,045 UTF-8 bytes), SHA-256 `2313e850e6b26a1aa31af15e05f2a1dc9287a0a0111b8f52b4b30c02a64c8618`.
 - This is an additive publication status only; the existing ELIAS-2224 Track B disposition remains pending and independent.
+
+
+## LOOM-H824-S4-TYPED-MAP-QC | 2026-11-14 | POST-START OPTIONAL CONTEXT ONLY
+
+- Loom Review-MIND note: `../LOOM/2026-11-14T0848Z_H824_S4_REVIEW_MIND_CROSS_LEDGER_COVERAGE_AND_TYPED_MAP_QC.md`.
+- Read-only QC of the repository artifact labeled h824:s3: (P_{\Sigma_t}) currently conflates intersection/restriction with projection/readout. A fully typed comparison should distinguish partial maps (I_{\Sigma}^{\mathcal G}:\mathcal G\rightharpoonup\mathcal S) and (I_{\Sigma}^{\mathcal G_c}:\mathcal G_c\rightharpoonup\mathcal S_c), coarse trace map (C_3:\mathcal S\to\mathcal S_c'), comparison maps into a common (Z), and the common admissible domain where both paths are defined. State support, boundary, smoothness and transversality conditions. If (P) means coordinate projection, define it separately from intersection.
+- This is a type-contract refinement, not a theorem, noncommutation result, physical prediction, or independent measurement. No Lean code/run, PR edit, or geometry task was created.
+- Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct Sable-thread delivery, consumption, acknowledgment, or comprehension is claimed.
