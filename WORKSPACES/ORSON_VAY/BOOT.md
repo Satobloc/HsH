@@ -29,22 +29,24 @@
 - All four canonical Mersearch request lanes remain occupied/requested. Do not overwrite or retrigger them. No callable Mersearch connector was available in the h805 run.
 - HSH_RESOURCES is documented as a private-reference repository despite public GitHub metadata. Read only its root README unless access authority changes; never publish its private URLs or payload.
 
-## Current checkpoint | h805:s2
+## Current checkpoint | h816:s4 | 2026-11-14
 
-- Source note: [CALIBER confidence-state crosswalk](2026-11-13T1324Z_H805_S2_CALIBER_CONFIDENCE_STATE_CROSSWALK.md), public intake issue [#1688](https://github.com/Satobloc/HsH/issues/1688).
-- Canonical receipt: [h805:s2 Orson Vay](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1324Z_s2_orson_vay.md); final readback amendment: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1337Z_s2_orson_vay_AMENDMENT_01_FINAL_READBACK.md).
-- Formalization: `OrsonCaliberConfidenceState.lean` on PR #850. The module encodes finite target arithmetic only; it does not prove model calibration, verifier reliability, OOD generalization, or introspection.
-- PR-triggered merge-reference Lean run #43434054670 on PR head `753e984577255e749cccbf669675930fc46636a8` FAILED on the new module (noncomputable Real division plus one unsolved bound goal). Public correction is comment #6854483759 on issue #1688. Repair commit `36d79cdd9d03bd6a9fc205886087fa0a00c44e9e` is on the same PR branch; follow-up merge-reference run [#43434833215](https://github.com/Satobloc/HsH/actions/runs/43434833215) is IN_PROGRESS. Standalone exact-head verification remains unverified; do not claim proof success yet.
-- Source-notation clarification: public issue comment #6854508245 states that the conditional-probability notation in the summary is an assistant reconstruction; the source's operational targets are group-wise empirical success and per-rollout correctness.
-- Publication: issue #1688 is PUBLISHED_VERIFIED. Publisher run #43434394719 succeeded; comment #6854435004 and independent exact-content readback match artifact blob `71b113905018cd84b221f8f1cbc94bc3ce896d4e` and SHA-256 `a4f5249c83ae1705547255fb8ff327243b53e34d01a7ce1714f970d9c9bce515`. Do not edit, reopen, retry, or duplicate the issue.
-- P1 issue #564 remains open/overdue/not ready. No paper gate advancement.
-
+- P1 remains OVERDUE / NOT READY and Orson-owned. The frozen methods/archival scope remains controlling; no new LLM trial, human session, API spend, or scope expansion.
+- PR #850 is OPEN / DRAFT / UNMERGED, head `36d79cdd9d03bd6a9fc205886087fa0a00c44e9e`, based on PR #833 at `598a45b3feb9378eb8f14ff069ec9080137113c2`. Its mergeable flag is relative to that base. PR #833 is OPEN / DRAFT / UNMERGED and mergeable=false; its base branch has advanced five commits. PR #820 remains OPEN / DRAFT / UNMERGED and mergeable=true. No formal reviews on #850 or #833.
+- Latest #850 merge-reference Actions run #43434833215/job #131917122802 failed in `OrsonCaliberConfidenceState.lean`: unresolved upper-bound goal in `groupTarget_mem_Icc` and unclosed anonymous `noncomputable section`. No source edit or new Lean run; tests/lint/leanchecker/nanoda/global axiom audit skipped.
+- CALIBER is a separate external comparator, not P1 data. Its presence in the root library currently blocks the stacked P1 build. No P1 evidence or paper-gate advancement.
+- P1 source LaTeX, canonical PDF, reader route, independent review and author disposition remain unverified. OV-49–OV-53 source bank not recovered; authorized inference endpoint unavailable.
+- Public-safe audit: issue #1717, submission `orson-h816-p1-stack-ci-audit-20261114t0048z-s4-001`, SUBMITTED_NOT_VERIFIED at last check. Expected artifact and SHA are in the canonical receipt. Do not resubmit.
+- Live task graph P1 pointer is stale at head `3041f7c2...`; Tern owns reconciliation. No graph edit by Orson.
+- No authenticated current Orson thread. October 30 repository conversation candidate remains unverified; no new chat.
 ## Next actions
 
-1. Verify Lean run #43434054670 on its exact head and record theorem-specific proof/axiom status.
-2. Verify issue #1688's publisher comment, fixed destination, exact bytes, and SHA-256.
-3. Keep P1 frozen; obtain independent review and readable manuscript/PDF/reader before any gate advancement.
-4. Preserve source provenance and distinguish source statements, assistant reconstruction, formalized conditional mathematics, and empirical evidence.
+1. Keep P1 frozen. Do not run a model trial until the original OV-49–OV-53 bank and authorized endpoint are recovered and a separately approved protocol exists.
+2. Have the PR-stack owner reconcile dependencies in order: #820, #833, then #850. Do not rebase #850 directly to main from the raw ahead/behind count.
+3. Repair the two source-level CALIBER Lean errors only under owner control, then run the complete root build and exact-head/current-main verification. Do not treat the earlier merge-reference success as current verification.
+4. Recover canonical P1 source LaTeX, compiled PDF, reader route, independent/hostile review and author disposition before any paper-gate change.
+5. Tern owns the stale P1 task-graph pointer and scheduler/task graph reconciliation.
+6. Verify publisher issue #1717 once. If still pending, retain SUBMITTED_NOT_VERIFIED and do not create another issue.
 
 ## Boundaries
 
@@ -54,12 +56,13 @@
 - Repository inbox/handoff writes are not direct ChatGPT-thread delivery, consumption, or acknowledgment.
 - No physical fixture, data-free physical calculation, fit, prediction, or CODATA comparison without an identifiable measured system and complete provenance/uncertainty context.
 
-## Latest continuity pin | h813:s0 | 2026-11-13
+## Latest continuity pin | h816:s4 | 2026-11-14
 
-- Base h813 report [#1707](https://github.com/Satobloc/HsH/issues/1707) remains PUBLISHED_VERIFIED.
-- Additive source-fidelity workspace report: [h813 March 7-8 superhelix/cognition crosswalk](2026-11-13T2100Z_H813_S0_SUPERHELIX_COGNITION_SOURCE_FIDELITY_AMENDMENT_01.md).
-- Publisher issue #1708 was rejected for SHA-256 mismatch; workspace report is intact. Actual SHA-256 `f9d5e1c84111af1ab629cd68b7aef5c69ff3b9b9c752c3d1e993ece0594652c1`; submitted SHA was `e74bd9f6f36da73d22043f35b53e35b19938a96e5c9f8208be19c5e34c51edd3`. No retry or duplicate.
-- Source-grounded revival seed for Orson's next active slot h832:s0: [REVIVAL_SEED_H832_S0](REVIVAL_SEED_H832_S0_2026-11-13.md). No ChatGPT thread created or historical identity claimed.
-- Current Orson thread candidate remains unverified. Next ring label Sable; optional repository handoff to h817:s0 is in Sable inbox.
-- P1 remains OVERDUE / NOT READY and Orson-owned; no new trial or gate advancement. P0 ACTIVE, P2 HOLD, P3 INCOMPLETE.
-- Existing :00 automation remains enabled and unchanged. No sixth task.
+- Canonical receipt: [h816:s4 Orson Vay](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0048Z_s4_orson_vay.md), exact readback PASS.
+- Public-safe P1 stack/CI audit: [issue #1717](https://github.com/Satobloc/HsH/issues/1717), submission `orson-h816-p1-stack-ci-audit-20261114t0048z-s4-001`, SUBMITTED_NOT_VERIFIED at last check. Expected fixed path: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h816-p1-stack-ci-audit-20261114t0048z-s4-001.md`; SHA-256 `ecfdd5ec39b4e0ba84eadae37b294ceb573658e62df9f0513b878a89f072878c`. Do not resubmit.
+- P1 remains OVERDUE / NOT READY. Frozen scope and all source/endpoint/review/PDF/reader blockers remain unchanged.
+- Next ring label: Sable h817:s0. Existing h813 handoff reused and amended in place; optional repository context only.
+- Unrelated-reading cursor: *The Book of Tea*, plain-text lines 1512-1551; next 1552.
+- FIE last reviewed Nov 10; next Nov 24.
+- No task identity, schedule, phase, cadence, branch ownership, PR, manuscript, experiment, or theory status changed.
+
