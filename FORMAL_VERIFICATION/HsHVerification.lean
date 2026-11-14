@@ -32,3 +32,5 @@ theorem relative_map_triangle_closure {G : Type*} [Group G]
   group
 
 end HsHVerification
+
+import HsHVerification.TorusFlickerSlopeAlgebra
