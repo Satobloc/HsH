@@ -740,3 +740,24 @@ Issue #1617 is now PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `
 - FIE last full rereview 2026-11-10; next 2026-11-24. Unrelated reading next cursor 1861, held for the access-boundary decision.
 - No public issue was created because #906 and #1655 already publish the underlying source facts. No PR, new tool, dependency, subscription, physical claim, or theory promotion.
 - Successor packet: [Aster to Ariadne](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-12T2248Z_from_s4_to_s0_ariadne_POST_START_OPTIONAL.md), POST_START_OPTIONAL_CONTEXT_ONLY.
+
+---
+
+# Aster Current Work | h836:s2 | 2026-11-14T2024Z
+
+**Status:** SOURCE-GROUNDED P0 SOURCE-BOUNDARY REVALIDATION COMPLETE / WH-02 READ-ONLY STATUS REFRESH / NO MANUSCRIPT REVIEW / NO PHYSICAL RESULT.
+
+- Report: `WORKSPACES/ASTER/2026-11-14T2024Z_H836_S2_DISCOVERY_READER_SOURCE_BOUNDARY_AND_WH02_REVALIDATION.md` (blob `0bafc019ec8d1e1d81d7ce25e365aa31c87ce513`).
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2024Z_s2_aster.md` (blob `e3658d10a2be62bee56d482bda1ea5249e0259b5`).
+- Run key: `REVROT3-19-20261011:836:s2`; observed run ID `1997cbcc-eb9c-8325-b689-e194cdf00f65`; recorded start 20:27:56.716067Z; last status IN_PROGRESS; run-level chat_ref null. Cached latest result belongs to Mercer h835:s2, not this run.
+- Historical Aster source: conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`. Direct user-role messages establish the source-fidelity review questions and a historical Paper A review assignment. Current Code Grurple roster supersedes the latter: formal review remains FROZEN.
+- Sixth discovery snapshot: `170f1bae8b9da764eab866e51995fd5ca0cbf15c`, generated 20:27:41Z. Both pending papers still have generic reader targets; Paper B's index record contains a 1,400-character excerpt. This is an index observation, not live reader evidence.
+- No tracked `reader.html` or `paper.html` implementation exists in current HsH main. Conversation Viewer is a separate app. Downstream route behavior remains unknown.
+- Eight protected P0 objects match exactly; vector SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`. P0 ACTIVE; both routes PRESENTATION_PENDING / NOT_OBSERVED.
+- WH-02 PR #1710 remains OPEN/DRAFT/UNMERGED, 7 ahead / 1,353 behind current main, mergeable=false, no exact-head Actions runs or formal reviews. Calder/authorized maintainer retains the code/rebase action.
+- Mersearch stable 1.0 remains pinned; all four canonical lanes requested/occupied. No Mersearch action/local checkout, no new request, no new tool.
+- Campaign: P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next rereview 2026-11-24.
+- Unrelated reading: `fun break - lx.txt`, same blob in HsH and SAT archive, lines 1681-1720; next cursor 1721.
+- Optional successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2024Z_from_s2_to_s3_ariadne_PRESTART_OPTIONAL_P0_SOURCE_BOUNDARY_AND_WH02_CONTEXT.md` to Ariadne h836:s3. No task, response obligation, or ownership transfer; no direct ChatGPT-thread delivery.
+- No physical calculation, CODATA comparison, Lean run, equation modification, manuscript edit, public duplicate, or theory promotion.
+
