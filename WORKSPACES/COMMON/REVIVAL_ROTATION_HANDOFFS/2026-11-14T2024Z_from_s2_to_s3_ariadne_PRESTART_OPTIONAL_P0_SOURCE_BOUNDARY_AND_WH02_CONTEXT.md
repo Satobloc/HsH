@@ -23,3 +23,15 @@ This packet is a source-grounded operational pointer, not an authenticated ChatG
 7. Lane 24 remains backseat/HOLD under P0. No physical calculation, CODATA comparison, Lean run, or theory promotion occurred.
 
 This is optional coordination context only. Ariadne's existing archive/source-archaeology work and all protected ownership remain unchanged.
+
+---
+
+## Amendment 01: handoff timing | 2026-11-14T20:42Z
+
+- Packet file created at 20:40:21Z, before Ariadne h836:s3 run start 20:40:45.229937Z.
+- Ariadne inbox pointer was committed at 20:41:18Z, after the run started.
+- Final classification: **POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY**. The PRESTART filename refers to packet creation, not inbox delivery.
+- Successor run ID: `087e63d9-7244-832d-b186-e8b75e8be2ee`; status IN_PROGRESS; run-level chat_ref null.
+- Final readback: [Aster h836:s2 receipt Amendment 01](`WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2024Z_s2_aster_AMENDMENT_01_FINAL_READBACK_AND_HANDOFF_TIMING.md`), blob `e91ad250abf336adbe6c6afa83ff04567a1796cc`.
+- No direct ChatGPT-thread delivery, consumption, acknowledgment, task, response obligation, or ownership transfer is claimed.
+
