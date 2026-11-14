@@ -523,3 +523,19 @@ See `WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GA
 - Automation ID, prompt, enabled state, phase, and exact hourly schedule were not modified. No sixth task. No authenticated Kestrel ChatGPT thread or cross-thread delivery/acknowledgment is claimed.
 
 **Return:** keep the h816 typed object/map ledger as the geometry cursor. WH-02 next action remains Calder's current-main rebase and exact-head CI after rebase; Kestrel does not assume code ownership.
+
+
+## 2026-11-14T1124Z | h827:s2 P0/P2 evidence-transport crosswalk
+
+**Disposition:** INTERNAL_CROSS_BOUNDARY_SYNTHESIS / P0_ACTIVE / P2_HOLD / NO_NEW_PUBLICATION / NO_THEORY_PROMOTION.
+
+- Report: [P0/P2 evidence-transport crosswalk and candidate reconciliation](2026-11-14T1124Z_H827_S2_P0_P2_EVIDENCE_TRANSPORT_CROSSWALK_AND_CANDIDATE_RECONCILIATION.md), blob `d4b9b440c0f3d9b6f57f304e4f0348a7ae69f8e7`.
+- Pre-write HsH main head: `752d3e788f722d99acb0bc9076271a7c9d4bfe72`.
+- Reused the existing PR #873 `hallway_factorization_iff_fiber_compatibility` theorem as a conditional map-identifiability criterion. Its PR-associated run #43202552666 built the target on an older merge reference; current-main integration is not verified. No new Lean code or CI dispatch.
+- Reconciled existing Lane 24 candidate records (#1339, #1665, #1684, #1662, #1726, #1096, #1462, #1243). No candidate selected; no duplicate issue or publisher submission.
+- P0 remains ACTIVE and route acceptance still requires actual reader-facing inspection. No route probe, Sites edit, manuscript rewrite, or new review round.
+- P2 remains HOLD. No physical calculation, CODATA comparison, fit, H(s)H prediction, or independent validation.
+- HSH_RESOURCES root README/metadata only; no private payload. Reference Desk README path returned 404; War Room payload not opened.
+- Unrelated reading advanced to `fun break - lx.txt` lines 1441–1480; next cursor 1481. FIE next review 2026-11-24.
+- Next ring label: Meridian (h827:s3). Optional repository-only context packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1124Z_from_s2_to_s3_meridian_OPTIONAL_P0_P2_TRANSPORT_CONTEXT.md`. No task or response obligation; no direct thread delivery/consumption/acknowledgment claimed.
+- Existing :24 automation configuration was not modified. Exact-ID scheduler readback was unavailable through the connector; no enabled-state or run-completion claim is made.
