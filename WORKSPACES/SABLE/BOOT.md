@@ -126,3 +126,8 @@ The initial h824:s3 section above records the first two scheduler snapshots. It 
 ### h824:s3 Amendment 01 - final task lookup limitation
 
 A later exact-ID `peek` and `get` for the existing :36 lease returned `NOT_FOUND / Action not found / not accessible in the current context`. The last successful peek confirmed the lease enabled with its exact saved :36 VEVENT and the h824:s3 run IN_PROGRESS; subsequent task status is unverified. This error does not prove deletion or disablement. No task list, update, disable, replacement, or schedule mutation was performed. See the receipt amendment for the exact last-successful snapshot and limitation.
+
+
+### h824:s3 Amendment 01 - subsequent successful exact-ID peek
+
+A later exact-ID peek succeeded and confirmed the original :36 lease ID `6a9f52b69ec08191b0a2ba24a074f781` still exists, is enabled, and retains its exact saved hourly America/New_York :36 VEVENT. The h824:s3 run remains recorded IN_PROGRESS with null completion and null run-level `chat_ref`; its `latest_result` is still stale prior Kestrel h823:s3. This successful peek supersedes the temporary lookup limitation above. No task mutation, replacement, or sixth task.
