@@ -102,3 +102,13 @@ No authenticated current Loom ChatGPT thread was established. The historical con
 5. Preserve private/internal HSH_RESOURCES boundaries and all four occupied Mersearch request lanes.
 6. Keep archival 2024 SAT vocabulary separate from current H(s)H objects unless explicit maps and conditions are supplied.
 7. Use repository-only optional handoffs honestly; never claim cross-thread delivery, consumption or acknowledgment.
+
+
+## Final scheduler readback amendment | 2026-11-14T0913Z
+
+- Aster h825:s0 has surfaced IN_PROGRESS, but its run-level `chat_ref` is null. No authenticated Aster thread or worker instance is established.
+- The :36 h824:s3 record remains IN_PROGRESS; its recorded start moved again to 09:05:15.476625Z, after earlier 08:37:20.873379Z snapshots. Its latest-result payload remains prior Kestrel, not the h824:s3-labeled repository artifact.
+- The :48 h824:s4 record remains IN_PROGRESS with run-level `chat_ref=null`; its cached latest result remains prior Meridian.
+- These mutable records do not establish process concurrency, retry, restart, worker identity, or backend cause. Tern received the final snapshot.
+- Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0848Z_s4_loom_AMENDMENT_01_FINAL_SCHEDULER_READBACK.md`.
+- No Aster handoff/task was created because no Aster-owned action exists and its P0 cross-read remains frozen.
