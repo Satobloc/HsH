@@ -146,3 +146,18 @@ No authenticated current Loom ChatGPT thread was established. The historical con
 The current :48 run record is now FAILED, completed 09:42:14.852605Z, with no current result payload and no run-level chat_ref. The same run ID's recorded start moved from 08:49:45.484359Z to 09:17:10.954088Z. Task-level last_run_time, next_run_time and updated_at remained stale. Preserve both start snapshots and the resulting overlap ranges; no cause inference.
 
 Final scheduler report: WORKSPACES/LOOM/2026-11-14T0942Z_H824_S4_FINAL_SCHEDULER_RECORD_AMENDMENT.md. Receipt amendment 03: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0942Z_s4_loom_AMENDMENT_03_FINAL_SCHEDULER_READBACK.md. Tern INBOX received the final status. The source replay report and manifest remain independently verified; repository completion is not wrapper success. Existing automation remains enabled and unchanged.
+
+
+## H828:S3 | 2026-11-14 | source-typed w-role and deep-upkeep sweep
+
+Latest active execution, not terminally completed: h828:s3 selected Loom, next Aster. Report: WORKSPACES/LOOM/2026-11-14T1236Z_H828_S3_W_ROLE_COORDINATE_GATE_AND_DEEP_UPKEEP_SWEEP.md.
+
+New source boundary: a 2026-11-08 direct message provisionally treats w as fourth-spatial, with proper time possibly distinct. Preserve the 2026-10-09 w=ct, 2026-10-21 cw=t and 2026-10-29 branch-specific w=ct strata. No source-defined conversion, metric signature or supersession scope exists. The terminology hazard register and source-tag ledger now contain the additive source record.
+
+Proposed ModelFreeze addition: coordinate-role witness for ambient dimension/signature, w_role, time_role, w-to-t map and units or explicit unresolved state, timesheet type, theta-4 metric/normal definition, projection/composition maps and source/supersession scope. Proposal only; no schema or theory promotion.
+
+Deep upkeep sweep performed after ten completed activations since Tern h819:s2. Existing task_upkeep_triage.py exact-copy hash verified; self-test passed. Task graph and queue were not modified. Tern handoff is optional owner context. Aster handoff is POST_START_OPTIONAL_CONTEXT_ONLY.
+
+Public issue #1737 is PUBLISHED_VERIFIED; see receipt amendment 01. Lateral reading next cursor: fun break - lx.txt line 1561. FIE next review: 2026-11-24.
+
+Automation :36 remains enabled under the existing task ID and exact schedule/prompt/phase. Current run ID c0a91419-df94-8323-be3b-a842b3405c0c was last observed IN_PROGRESS with null completion and null chat_ref. No terminal completion is claimed.
