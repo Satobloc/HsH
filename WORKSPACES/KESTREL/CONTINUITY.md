@@ -813,3 +813,10 @@ The Nov 9 spin/timesheet-curvature raw source remains unrecovered. The two-vecto
 P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next 2026-11-24. Mersearch remains unavailable in this runtime and all four request lanes remain occupied/requested. No task graph or scheduler mutation.
 
 Unrelated reading: H. G. Wells, The Time Machine, Chapter I, lines 29–60; next cursor 61. Lateral reading, not a physical break.
+
+
+### h835:s0 verification amendments | 2026-11-14
+
+Publisher issue #1748 is PUBLISHED_VERIFIED. Comment #6882713937 confirms canonical artifact commit ad2da0b5d2aa7488dbb689136a936a1dabc8d43d. Workspace report, issue-envelope content and published artifact are exactly equal at 22,519 characters; independently recomputed SHA-256 is 66b432b4177f9707d39587ee24280b3170411a2ad14436187780979771e143d4. No retry or duplicate.
+
+Existing Kestrel PR #873 run #43202552666/job #131129411360 was independently inspected: Lean 4.34.0/Lake 5.0.0, source commit 7ca33453a6fc74f8e165821abac942414ef9546b, build success at 8,957 jobs. The fiber-factorization theorem depends on Classical.choice; uniqueness depends on Quot.sound. Tests, lint, nanoda and global axiom audit were skipped. This remains an older PR merge-reference build, not current-main integration.
