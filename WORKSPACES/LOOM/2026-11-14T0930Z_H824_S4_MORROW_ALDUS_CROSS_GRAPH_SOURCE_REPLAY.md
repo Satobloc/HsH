@@ -34,7 +34,7 @@ The prompt bodies have SHA-256 a5b5090045f1f3d181f8fe7ecac127fb6b0232e0cf8024df4
 | Aldus raw snapshot | 6,894,179 | e871e710d4634bfed0dc8cf5f6d3eefdf9770e64 |
 | Pasted text snapshot | 12,320 | 619b5cd7c25e50d1be6756c18c79516a64ac8ea0 |
 
-The Morrow preamble (11:07:30.813981Z), first command (11:07:46.058779Z) and first result (11:07:46.165460Z) all precede the later Aldus prompt by 32.417019s, 17.172221s and 17.065540s respectively. The byte-identical attachment snapshots do not contain those later message nodes. Thus the attached files alone do not explain the appearance of those exact preamble/command/result records in the second graph.
+The Morrow preamble (11:07:30.813981Z), first command (11:07:46.058779Z) and first result (11:07:46.165460Z) all precede the later Aldus prompt by 32.417019s, 17.172221s and 17.065540s respectively. The byte-identical raw-export snapshots do not contain those later message nodes. The pasted-text attachment contains earlier discussion of cross-graph duplication and could prime interpretation, but it does not contain the exact later preamble/command/result bodies. Thus the supplied attachments alone do not reproduce those exact later records.
 
 ## 3. Ordered stream match
 
@@ -60,7 +60,7 @@ The six command/output pairs share one work-activity group ID, 01a080b2-472b-748
 - exec-87c0fb50-2d2c-47e5-a106-90e2bb72ece3
 - exec-cee3233d-f530-422e-9ea2-2086b5aa5a5d
 
-The canonical ordered-match manifest digest is SHA-256 4c39dcfe5547a4ca1ce02d8ae7b2ca0bb1554cecdafe3f40aa52edca657c1cd3. The assistant model_slug label is gpt-5.6-sol-wm in both branches, but it is not backend-instance identity. Conversation IDs and turn/working-turn IDs differ.
+The canonical ordered-match manifest digest is SHA-256 4c39dcfe5547a4ca1ce02d8ae7b2ca0bb1554cecdafe3f40aa52edca657c1cd3. The seven thoughts arrays match while their source_analysis_msg_id pointers differ because those pointers are graph-local. The six matched command bodies are read-only inspection/hashing operations. The assistant model_slug label is gpt-5.6-sol-wm in both branches, but it is not backend-instance identity. Conversation IDs and turn/working-turn IDs differ.
 
 A separate earlier event also reproduces: Aldus final node 31d813b1-9797-542e-9568-38f483e0c147 and Morrow automation node 12959526-2797-5c4c-9e5f-4dc23c465a04 have an exact 4,148-character body match (SHA-256 f6b8f5000935fabc90d24faafb5f6dd6b64d846554c86f9c9f9f9cc3b94e6761); the Morrow copy carries automation ID 6a9deb436bd0819196ab3ec694e294c2 and a different message/turn identity. Its Morrow source export blob is 342b50c3927c3466783b091234647f338990a113.
 
@@ -85,7 +85,7 @@ These are relevant guardrails, but neither models work-item/group identity, turn
 
 **CI correction:** run #41369984551 succeeded on a PR merge reference, not a standalone exact-head build. The PR's lean-verification.yml checkout step has no explicit ref, so pull-request events use the merge ref. PR #759 is OPEN/DRAFT/UNMERGED; its base snapshot d8a36337650c93ee21d8c8443639fb844e5e7c83 is 15,881 commits behind current main 5e8633cd6c02f9049ff68d24015e16b0bf79706e. No current-main integration is established. The source-overlap modules are in PR #759, not PR #951 (which contains Elias identity/publisher modules).
 
-No new Lean theorem or run was created. Local lean, lake and elan are unavailable. The existing merge-reference build is not replayed as an exact-head or current-main proof.
+No new Lean theorem or run was created. Local lean, lake and elan are unavailable. The existing merge-reference build is not replayed as an exact-head or current-main proof. No public issue was created because this internal source record contains conversation and work-item identifiers.
 
 ## 6. Whole-workshop boundaries
 
