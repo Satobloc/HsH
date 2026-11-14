@@ -1514,3 +1514,12 @@ Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3
 - Corrected report blob: `ffda6140d6b15f832e4eb145238fb41dab188a83`.
 - Existing issue #1712 comment #6871168570 edited in place; exact readback passed; comment count remains 1.
 - Receipt Amendment 02: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0336Z_s3_morrow_AMENDMENT_02_GLASS_BRANCH_SHA_CORRECTION.md`, blob `956d12e18c585365205942ad96646f50dae262d9`.
+
+
+## h819:s3 Amendment 03 | final task and successor readback
+
+- :36 task `6a9f52b69ec08191b0a2ba24a074f781` enabled=true; exact original hourly :36 VEVENT unchanged. Current run `28c07207-de30-8322-adf2-03c704bbcfd7` remains IN_PROGRESS, completion/chat_ref null, cached latest_result prior Hale h818:s3.
+- :48 task `6aa6c3bc02b48191b8a91a30d2a155e0` enabled=true; exact original hourly :48 VEVENT unchanged. No h819:s4 Kestrel run surfaced at final peek.
+- Handoff commit `40249ba62331ed6489a7dcb04e2f5e13d20a357b` at 03:42:44Z and Kestrel INBOX commit `b1653398ae6e2b38c278885442c364a00ff8d667` at 03:43:17Z precede 03:48Z.
+- Receipt Amendment 03: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0336Z_s3_morrow_AMENDMENT_03_FINAL_TASK_AND_SUCCESSOR_READBACK.md`, blob `2deab589a278f291879c52dc1cff840a156cb093`.
+- No task mutation, sixth task, or wrapper-completion claim.
