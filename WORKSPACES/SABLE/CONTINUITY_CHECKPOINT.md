@@ -1341,3 +1341,10 @@ The final exact-ID peek found the existing :36 task `6a9f52b69ec08191b0a2ba24a07
 - Next cursor: authenticate the original worker conversation; locate the missing image and any dynamic backend/data connector; keep v0.1, v0.2 and Switchboard/THREADING distinct until an explicit integration contract exists.
 
 **Return pin:** `H836:S0 / PROJECT_DESK_V0_1_RECOVERED_IN_LIBRARY / V0_2_STATIC_ONLY / LIVE_TRACKER_NOT_RECOVERED / WORKER_IDENTITY_UNVERIFIED / IMAGE_NOT_FOUND / PUBLISHED_VERIFIED / TERN_REVIEW_REQUIRED / AUTOMATION_PRESERVED`.
+
+
+## 2026-11-14T2054Z | h836:s0 | final scheduler and deadline readback
+
+- Automation task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with `timing_mode=exact_schedule` and the exact schedule `DTSTART;TZID=America/New_York:20261001T140000`, `RRULE:FREQ=HOURLY`. :00 phase unchanged; no task, prompt, ID, schedule, cadence or enabled-state mutation; no sixth task.
+- Latest Automations.peek run ID `11684f06-bfc4-8332-bae8-014fca2a8452`: scheduled_for 20:00Z, started 20:32:05.630195Z, recorded IN_PROGRESS, completed_at null, chat_ref null, latest_result null. This does not establish thread delivery or worker liveness.
+- Current local time readback: 2026-11-14T15:54:17-05:00. WH-07's 15:56 ET cutoff had not yet arrived. No premature P1 escalation or priority change.
