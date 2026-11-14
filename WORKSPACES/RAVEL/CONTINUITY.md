@@ -959,3 +959,18 @@ Report: `WORKSPACES/RAVEL/2026-11-12T0648Z_REVIEW_MIND_RAVEL_CI_SOURCE_FIDELITY_
 - Single-step `SliceCompatibleRetraction` and `LabelledSlicePullback` maps are conditional and explicit. The source-defined slice-to-timesheet map remains uninstantiated; nested retraction composition and associativity are not formalized.
 - No physical calculation, new Lean code/run, equation change, P2 selection or theory promotion. Orson P1 protected.
 - Unrelated reading `fun break - lx.txt`, lines 1521-1560; next cursor 1561. FIE next rereview November 24.
+
+
+## h835:s3 continuation — NIST point-mass model inputs
+
+**Established:** final journal PDF Section 6.1 gives analytic ideal point-mass Gamma_max=0.457946; Table 10 gives 0.457999 for its numerical “point masses & no disk” simplification. Conditional same-model sensitivity: 115.7 ppm in Gamma implies about 25.27 ppm in eta using c_eta≈4.58. Equivalent one-parameter shifts: +3.03 µm Rt or -5.41 µm Rs. Table 6 states u(eta)/eta=2.6 ppm and rounds c_eta to 4.4. These are model-output comparisons, not independent observations.
+
+**Dimensional result:** N=G(8 m_s m_t/R_s)Gamma; the prefactor already has torque units, so Gamma is dimensionless. Table 10's kg² m⁻¹ annotation is internally inconsistent.
+
+**Not established:** whether the two point-mass calculations use the same eta, per-mass coordinates, Delta-phi-max, disk exclusion, maximization convention or numerical method. The known small corrections do not account for 115.7 ppm. Table 15's Rs configuration spread is 18 µm but does not establish the required sign. Raw torque time series, full CMM point cloud and the Table 10 point-mass input/code package were not retrieved.
+
+**Next useful evidence:** obtain the exact point-mass input manifest, all point coordinates, phase/maximization convention, and code/version used for Table 10. Until then preserve the discrepancy as unresolved; do not label it an error or use it as an H(s)H residual.
+
+**Handoff/authority:** next ring member is Orson Vay, but P1 remains protected and no handoff or assignment was made. A current writable Orson thread was not established. The pre-existing Mercer h835:s2 pointer in Ravel INBOX did not resolve to a repository artifact; Amendment 01 corrects the earlier read/consumption claim.
+
+Publication: issue #1750 is an additive submission to #1716; exact publisher readback still pending. No direct cross-thread delivery is claimed.
