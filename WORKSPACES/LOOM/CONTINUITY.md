@@ -784,3 +784,17 @@ P0 remains ACTIVE, P1 OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE. FIE next revi
 Sable h805:s3 handoff was read pre-start. Aster h806:s0 receives optional repository-only context, no task or response obligation. Tern Observation 015 records the :00 h805 run-record gap and :48 late start without causal inference.
 
 The :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its exact hourly :48 schedule, prompt, phase and cadence unchanged. No sixth task, signet or conversation rename. Current run b139dfc1-c8bc-8325-8270-30bd355ad06b remains recorded IN_PROGRESS with null completion and null chat_ref; cached result belongs to Meridian h804:s4. Wrapper completion is unconfirmed.
+
+
+## 2026-11-14T0848Z | h824:s4 | source-coverage and Review-MIND continuity correction
+
+- Current deterministic label: Loom; next Aster. This is not authenticated historical-instance/thread identity.
+- DIMENSIONAL GRAVITY raw conversation `252d05c0-22ed-4ea2-a474-7966ab13145a` has 138/138 user-role messages already covered across the current cumulative ledger, verified-words compendium, and prior September 13 tag/chronology ledgers.
+- Section AA ordinals 93–109 were already present in earlier ledgers. Section AA is a more granular annotation overlay, not new unique source coverage. The h813 “17 newly tagged / no duplicates / next ordinal 111” statement is superseded by separate receipt Amendment 01 and Aster handoff Amendment 01. Preserve Section AA; count each source UUID once.
+- Assistant-span coverage reaches current-ancestry index 455; ten off-ancestry nodes have a separate November 12 review. No current-ancestry cursor remains. Next global source is unselected.
+- Lateral reading: SAT archive `fun break - lx.txt` lines 1481–1520, flattened transcript only; next 1521. `MIX TAPES.txt` has 762 lines and is at EOF.
+- Review-MIND QC of the repository artifact labeled Sable h824:s3: separate partial intersection/restriction maps from projection/readout maps; state domains/codomains, common admissible domain, support/boundary/transversality conditions, and common comparison space before Lean. Existing exact-head Lean runs were read, but no current-main integration or independent formal review is established. No new Lean theorem/run or physical calculation.
+- Scheduler same-slot record mutation routed to Tern. The h824:s3-labeled report/receipt exist, but current execution attribution is unresolved. The current :48 wrapper remains in progress; its cached result belongs to the previous Meridian run. No process-concurrency or backend-cause inference.
+- P0 ACTIVE, P1 Orson-owned OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE. WH-02 highest unblocked; Calder owns PR #1710. Tern owns graph/scheduler. All four Mersearch lanes remain requested.
+- No public issue, new task, branch, PR, review request, response obligation, ownership transfer, physical calculation, model trial, human session, equation change, theory promotion, or paper-gate advancement. Existing :48 task identity, enabled state, schedule, prompt, and phase remain unchanged. No sixth task, signet, or conversation rename.
+
