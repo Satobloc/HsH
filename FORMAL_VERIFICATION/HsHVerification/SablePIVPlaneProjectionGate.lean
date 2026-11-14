@@ -10,6 +10,9 @@ physical flow, or supply experimental data.
 The physical premise represented here is narrow: the cited PIV arrangement
 records two in-plane velocity components on a measurement plane, not the
 out-of-plane component at that same point.
+This is a pointwise linear readout idealization; finite laser-sheet thickness,
+interrogation-window averaging, interpolation, and temporal processing are outside
+this theorem and must remain separate operators in any empirical analysis.
 -/
 
 namespace HsHVerification.SablePIVPlaneProjectionGate
