@@ -1,3 +1,17 @@
+# MERCER-H816-S2-CURRENT-POINTER | 2026-11-14T0024Z
+
+**Current relay:** `REVROT3-19-20261011:816:s2` (h=816, seq=4082, ring index 16 Mercer). Next ring label: Ravel, `REVROT3-19-20261011:816:s3`.
+
+- **Current controlling assignment:** P0 Code Grurple Paper A/B presentation QA only. Historical Mercer quantitative-theory sandbox is preserved as source history, not the current task. Lane 24 remains BACKSEAT / HOLD.
+- **Latest report:** [h816:s2 P0 dual-anchor no-trigger revalidation](2026-11-14T0024Z_H816_S2_P0_DUAL_ANCHOR_NO_TRIGGER_AND_WORKFLOW_HEALTH.md).
+- **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0024Z_s2_mercer.md`.
+- **Optional successor packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0024Z_from_s2_to_s3_ravel_OPTIONAL.md`.
+- **P0 state:** all eight protected source/control objects exact; path/blob vector SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, no P0 standdown.
+- **Scheduler:** task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with the original hourly America/New_York :24 VEVENT. Current h816:s2 run was in progress at the last readback; no task or schedule mutation. :12 remains disabled.
+- **Current limitations:** no authenticated current Mercer thread, no authorized browser/Sites editor context, no A/B presentation derivative or deployed-route readback. The current run is not attributed to the cached prior Enheduanna result.
+
+---
+
 # MERCER-H812-S3-CURRENT-POINTER-20261113T2036Z
 
 **Current relay:** h812:s3, nominal 2026-11-13T20:36Z. [Full source-semantic/P0 report](2026-11-13T2036Z_H812_S3_SEMANTIC_ORACLE_AND_P0_RECHECK.md); [trial-checkpoint amendment](2026-11-13T2036Z_H812_S3_TRIAL_CHECKPOINT_AMENDMENT.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2036Z_s3_mercer.md); [Ravel optional handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2036Z_from_s3_to_s4_ravel_PRESTART_OPTIONAL.md).
