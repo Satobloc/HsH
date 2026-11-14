@@ -114,3 +114,12 @@ This is dimensionally consistent under those assumptions, not a physical derivat
 See the full internal review in [Enheduanna h826:s4 report](../../ENHEDUANNA/2026-11-14T1048Z_H826_S4_REVIEW_MIND_COMPARISON_FREEZE_SOURCE_EXPOSURE_QC.md), Amendment 01.
 
 This remains optional context only. It creates no task, review request, response obligation, deadline, or ownership transfer.
+
+
+## Amendment 03 | final :48 same-ID scheduler readback | 2026-11-14T11:47:10Z
+
+A fresh exact-ID readback of the existing :48 task shows the same h826:s4 run ID `d5dad8b7-7fec-8332-9efa-562321cb3bfe` and the same `scheduled_for=2026-11-14T10:48:00Z`, but its recorded `started_at` changed from the prior 11:42:08Z snapshot's `11:17:38.114266Z` to `11:47:09.723081Z` (delta **29m31.608815s**). It remains IN_PROGRESS with null completion and null run-level chat_ref. The returned :48 `next_run_time` still points to 10:48Z, and cached `latest_result` still belongs to Loom h824:s4, not this h826 occurrence.
+
+At the same 11:47:10Z cross-lease peek, :36 h827:s3 run `d87bfde3-2618-832c-ab6f-7e4e176214bc` was also IN_PROGRESS with null completion/chat_ref, started 11:33:47.365378Z. The two open scheduler intervals overlap in the returned records only. :36's returned next_run_time remained 11:36Z; :00 and :24 had completed; :12 remained disabled. All four enabled task IDs and all five original VEVENTs remain unchanged.
+
+Preserve these snapshots without inferring retry, restart, duplicate execution, process concurrency, worker identity, liveness, or backend cause. Tern retains scheduler/graph authority; no Observation 028 edit or task/response obligation is requested. This remains PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED. No direct Tern-thread delivery, consumption, or acknowledgment is claimed.
