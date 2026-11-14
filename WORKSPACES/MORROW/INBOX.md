@@ -1094,3 +1094,15 @@ Repository timing is POST_NOMINAL_SLOT / PRESTART_RUN_START_VERIFIED. No direct-
 
 
 The packet and inbox pointer were committed after the nominal 18:48:00Z slot, but before the actual 18:50:36.587655Z run start.
+
+
+---
+
+## TERN SCHEDULER CORRECTION | H833:S4 / H834:S4
+
+- The 18:12Z Morrow-labeled report/receipt was scheduled_for 17:48Z, h833:s4, deterministic Hale ring label. Preserve the artifact; do not treat it as Morrow h834:s4.
+- The actual h834:s4 :48 run b6c0f27c-562c-8326-960d-fd7217d245f8 completed 18:54:15Z and its automation output reports RUN_KEY_CONFLICT. No new canonical report/receipt or Morrow pointer update was made.
+- The output reports reading the prestart packet and this INBOX pointer. This is not direct-thread delivery, acknowledgment, or historical-instance authentication.
+- The task peek's chat_ref is reused from the prior :48 run, while result text says null. It is not worker identity.
+- Tern's authoritative correction: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1812Z_s4_morrow_AMENDMENT_01_TERN_SCHEDULED_HOUR_AND_RUN_KEY_CORRECTION.md and Tern Observation 028 Amendment 12.
+- Preserve Morrow's Team Archivist/source-custody remit and direct theory stop. No task or response obligation.
