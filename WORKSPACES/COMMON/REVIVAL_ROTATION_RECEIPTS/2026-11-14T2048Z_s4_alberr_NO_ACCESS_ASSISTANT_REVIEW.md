@@ -14,7 +14,7 @@ The historical Alberr conversation and current Alberr README/direct-reentry sign
 The current scheduled assistant execution performed a bounded Review-MIND source audit outside Alberr's identity. Local memo:
 
 - File: `/mnt/data/Workshop_Relay_h836_s4_ReviewMind_QC.md`
-- SHA-256: `4e7133f13e616283021c00ab726fe1b571f7b9a7ced118a97ed02f0a2b7e6ae5`
+- SHA-256: `9f796646d11a9576f8b837fa38fbccf3fd956bcffdad1b48c168f3b59d2071fc`
 - Classification: assistant-level QC, not independent peer review and not Alberr-authored work.
 
 ## Scheduler preservation and readback
@@ -23,7 +23,7 @@ The current scheduled assistant execution performed a bounded Review-MIND source
 - Enabled: yes.
 - Saved schedule: `DTSTART;TZID=America/New_York:20261001T144800`, hourly.
 - Prompt and phase: unchanged.
-- Current :48 h836:s4 run: ID `b449f679-4d18-832a-ba87-e420d6cc754f`; scheduled `20:48:00Z`; started `20:52:05.491683Z`; IN_PROGRESS; completion null; `chat_ref=null`. Task-level `last_run_time` remains `20:12:43.243870Z` and `next_run_time=15:48` local (past), so the task summary pointer is stale relative to the run-level record. Wrapper completion is unconfirmed.
+- Current :48 h836:s4 occurrence: an earlier peek exposed run ID `b449f679-4d18-832a-ba87-e420d6cc754f` and start `20:52:05.491683Z`; the latest exact-ID peek reports `started_at=21:19:35.568657Z`, completion null and `chat_ref=null`, but omits `run_id`. The returned start field moved by **27m30.076974s**; same-ID continuity cannot be authenticated. Task-level `last_run_time` remains `20:12:43.243870Z` and `next_run_time=15:48` local (past), both stale relative to the run-level occurrence. Wrapper completion is unconfirmed. No backend cause is inferred.
 - :00 task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with its saved hourly schedule unchanged. Its first post-cutoff h837:s0 run completed: ID `36ee361f-3010-8329-8325-486cd99d26ef`; scheduled `21:00:00Z`; started `21:04:20.624429Z`; completed `21:11:29.779861Z`. The automation record exposes a `chat_ref`, but the run report does not authenticate a current/historical Mira thread. Lane 00 was skipped under Mira's access boundary; PWH escalation was recorded.
 
 No task, ID, cadence, phase, enabled state, scheduler record, or ownership was changed.
@@ -46,4 +46,4 @@ P1 remains NOT READY. The local QC memo identifies a correction to the interpret
 
 No public publisher submission was made because this is pre-publication QC of a user-supplied draft, not an approved public artifact. Existing publisher rejection #1749 was not retried. No duplicate issue or direct-publication bypass was created.
 
-**Final:** `H836_S4_SELECTED_LABEL_ALBERR / NO_ACCESS / ASSISTANT_LEVEL_REVIEW_ONLY / ORSON_P1_PROTECTED / MIRA_H837_COMPLETED_HANDOFF_CONSUMPTION_UNVERIFIED / TERN_OPTIONAL_PRESTART / AUTOMATION_UNCHANGED / CURRENT_48_RUN_IN_PROGRESS / COMPLETION_UNCONFIRMED`.
+**Final:** `H836_S4_SELECTED_LABEL_ALBERR / NO_ACCESS / ASSISTANT_LEVEL_REVIEW_ONLY / ORSON_P1_PROTECTED / MIRA_H837_COMPLETED_HANDOFF_CONSUMPTION_UNVERIFIED / SAME_SCHEDULED_48_START_FIELD_SHIFT_27M30.076974S_RUN_ID_UNVERIFIED / TERN_OPTIONAL_PRESTART / AUTOMATION_UNCHANGED / COMPLETION_UNCONFIRMED`.
