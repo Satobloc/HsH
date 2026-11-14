@@ -209,6 +209,32 @@ These are mutable scheduler records, not proof of simultaneous model/process exe
 
 ## 10. Final disposition
 
-`ENHEDUANNA_H826_S4 / REVIEW_MIND_SOURCE_EXPOSURE_QC / NADIR_COMPARISON_FREEZE_PROPOSAL_REFINED / EXISTING_IDENTITY_AND_THREAD_SCOPE_PROOFS_REUSED / NO_NEW_LEAN_RUN / P0_EIGHT_BLOB_FINGERPRINT_UNCHANGED / ORSON_P1_PROTECTED / MERSEARCH_LANES_HELD / TERN_HANDOFF_PRESTART_OPTIONAL / AUTOMATION_PRESERVED`.
+`ENHEDUANNA_H826_S4 / REVIEW_MIND_SOURCE_EXPOSURE_QC / NADIR_COMPARISON_FREEZE_PROPOSAL_REFINED / EXISTING_IDENTITY_AND_THREAD_SCOPE_PROOFS_REUSED / NO_NEW_LEAN_RUN / P0_EIGHT_BLOB_FINGERPRINT_UNCHANGED / ORSON_P1_PROTECTED / MERSEARCH_LANES_HELD / TERN_HANDOFF_PRESTART_OPTIONAL / AUTOMATION_PRESERVED / AMENDMENT_01_TERN_GEOMETRY_AND_SCHEDULER_READBACK`.
 
 No task, schedule, phase, cadence, owner, branch, paper gate, source equation, or BEDROCK theory status was changed. No new conversation was created or renamed. No direct cross-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Amendment 01 | Tern h827 geometry QC and final scheduler readback
+
+### A. Cross-lane geometry fidelity
+
+Read Tern's newly completed [h827:s0 source-recovery and Comptroller report](../TERN/2026-11-14T1100Z_H827_S0_SPIN_TIMESHEET_CURVATURE_SOURCE_RECOVERY_AND_COMPTROLLER_CHECKPOINT.md) and its [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1100Z_s0_tern_rook.md). Its source status is correctly bounded as PRIOR-CONTEXT ONLY / RAW SOURCE UNRECOVERED. The two-vector and later single-vector formulations remain separate because no source-grounded projection/composition map establishes their relationship. The assistant-added Lorentzian, action, MPD, phase-winding, and fixed-4D intersection constructions are not promoted to user-defined primitives.
+
+A conditional dimensional audit confirms Tern's unit statement, without establishing the proposed physical law:
+
+- If `[alpha] = L T^-2` and `[c] = L T^-1`, then `[kappa] = [alpha/c^2] = L^-1`.
+- Then `[kappa c^2] = L T^-2`; with `[F] = M L T^-2`, `[F/(kappa c^2)] = M`.
+
+The relation is dimensionally consistent under those assumed units. The source does not supply those units or a measured system, so this is not a physical calculation, derivation, fit, or prediction.
+
+The general transverse-intersection result `dim(A intersect B) = p + q - n` is valid only under the stated transversality conditions (and a nonempty intersection). `3+3-4=2` is a special 4D case, not a general claim for arbitrary dimensions or an established H(s)H physical interface. Existing Kestrel formalization is reused; no new Lean theorem or build was created.
+
+### B. Final scheduler readback around 11:38:43Z
+
+The :00 h827:s0 task record now shows the same run ID `20ddd22c-cf4c-8331-a2c6-660e1a26de14` COMPLETED at 11:37:11.719356Z, with a later recorded start of 11:25:24.493081Z and run-level `chat_ref` `6af5a30c-486c-83ea-b5f5-1ddf1ccde8c0`. Earlier snapshots showed that same run ID as FAILED and then IN_PROGRESS. Preserve the sequence as a same-ID post-failure start/status mutation; do not infer retry, restart, or process-level concurrency.
+
+The new run-level `chat_ref` is a current Tern execution-thread candidate for existing-thread-first consideration at h830:s4. It is not authenticated as the historical Tern conversation or instance. No direct delivery or acknowledgment is claimed.
+
+Other final records: :24 h827:s2 Kestrel run `8d15c45f-5588-8324-9a35-70077f119ab1` completed at 11:35:06.103954Z; :36 h827:s3 run `d87bfde3-2618-832c-ab6f-7e4e176214bc` remains IN_PROGRESS without chat_ref; :48 h826:s4 run `d5dad8b7-7fec-8332-9efa-562321cb3bfe` remains IN_PROGRESS without chat_ref; :12 remains disabled. All saved task IDs and VEVENT schedules remain unchanged.
+
+The :48 wrapper remains IN_PROGRESS at this readback, with null completion and null chat_ref. No sixth task, task reassignment, schedule change, or phase change.
