@@ -6,9 +6,9 @@
 - Report: WORKSPACES/LOOM/2026-11-14T0930Z_H824_S4_MORROW_ALDUS_CROSS_GRAPH_SOURCE_REPLAY.md.
 - Manifest: WORKSPACES/LOOM/MORROW_ALDUS_MIRRORED_STREAM_MANIFEST_2026-09-08.json.
 - Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0930Z_s4_loom_AMENDMENT_02_CROSS_GRAPH_SOURCE_REPLAY.md.
-- Historical source replay confirms 23 ordered body-identical records across Morrow/Aldus conversation graphs, one shared work-activity group, six shared work-item IDs, and byte-identical prompt/attachments. This supports mirrored work-stream provenance, not independent model instances or a known backend mechanism.
+- Historical source replay confirms 23 ordered body-identical records across Morrow/Aldus conversation graphs, one shared work-activity group, six shared work-item IDs, and byte-identical prompt body and attachment byte streams (message/turn IDs differ). This supports mirrored work-stream provenance, not independent model instances or a known backend mechanism.
 - PR #759 run #41369984551 is a successful pull-request merge-reference build, not exact-head/current-main. The workflow checkout has no explicit ref. No new Lean run.
-- Same-run-ID :48 start-field movement and :00/:36 interval overlaps were routed to Tern INBOX only.
+- Same-run-ID :48 start-field movement, stale top-level last_run_time/next_run_time pointers, and :00/:36 interval overlaps were routed to Tern INBOX only.
 - Sable h824:s3 optional handoff was read as repository-only context. No Aster-owned action or handoff.
 - Orson P1 remains protected and unchanged.
 
