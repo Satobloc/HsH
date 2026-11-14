@@ -28,3 +28,8 @@ This extends the already-published candidate-version switchboard counterexample 
 No physical system or dataset was selected; P2 remains HOLD. No new Lean module was compiled or run. PR #262 remains non-mergeable and its full root build failed in MovingPlaneTraceGeometry; no rebase or merge was attempted. No original SAT-O/Blockwave equation was recovered or changed. Mersearch was unavailable and all four existing request lanes remain requested.
 
 This is a repository-only optional pointer. No authenticated Enheduanna thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Publication update
+
+The existing submission is now `PUBLISHED_VERIFIED`: [issue #1735 comment #6876148295](https://github.com/Satobloc/HsH/issues/1735#issuecomment-6876148295). Publisher SHA-256 `f4e875a3ebaa15009fc74558b7ff2864e28c83268a0e83effadcf7e81fe7f908`; report and published artifact exact-match readback passed. No retry or duplicate submission.
