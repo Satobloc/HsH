@@ -3,7 +3,7 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** h824:s0, 2026-11-14T08:00Z (Lane 00 SAT-O1/Blockwave/WWRD source-fidelity report filed; issue #1732 SUBMITTED_NOT_VERIFIED with exact envelope/report equality; Blockwave attribution correction #1730 PUBLISHED_VERIFIED; P0 eight-path vector unchanged at SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`; both A/B routes PRESENTATION_PENDING / NOT_OBSERVED; no manuscript/site edit or P0 standdown; :00 task unchanged and enabled; current run d315261f-43a0-8322-b174-0265040d6f49 IN_PROGRESS with null completion/chat_ref; no sixth task).
+**Current through:** h824:s0, 2026-11-14T08:00Z (Lane 00 SAT-O1/Blockwave/WWRD source-fidelity report filed and PUBLISHED_VERIFIED at issue #1732; exact workspace/canonical/issue-envelope equality; SHA-256 `c49ffc3ddb865a0fd8b96386e14ce8820ffd57b220fb4001b3bef271fdc3ed11`; Blockwave attribution correction #1730 PUBLISHED_VERIFIED; P0 eight-path vector unchanged at SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`; both A/B routes PRESENTATION_PENDING / NOT_OBSERVED; no manuscript/site edit or P0 standdown; :00 task unchanged and enabled; current run d315261f-43a0-8322-b174-0265040d6f49 IN_PROGRESS with null completion/chat_ref; no sixth task).
 
 
 ## Latest run | 2026-11-13T0136Z | h793:s3 | P0 dual-anchor source binding
@@ -2692,3 +2692,11 @@ The h816:s2 report's initial source-inventory table contained four transcription
 - **Successor:** Ravel, next active :00 appearance h828:s0. Optional packet and Ravel inbox pointer added; no task, deadline, response obligation, P2 change or ownership transfer.
 - **Nonclaims:** no physical calculation, fit, prediction, independent measurement, CODATA scoring, theory promotion, BEDROCK promotion, direct ChatGPT-thread delivery, recipient acknowledgment or historical Mercer identity continuity.
 
+
+
+## REVROT3-19-20261011:824:s0 | publisher readback amendment
+
+- Issue #1732 is now PUBLISHED_VERIFIED by publisher comment #6874452990.
+- Canonical artifact and workspace report both have Git blob 50db0ef12336d1ac17c2803fb92e37d795164c34, exact 18,177-character equality, and SHA-256 c49ffc3ddb865a0fd8b96386e14ce8820ffd57b220fb4001b3bef271fdc3ed11.
+- Issue-envelope content also exactly matches the canonical artifact. No retry, duplicate issue, reopen or direct artifact write.
+- Receipt Amendment 01: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0800Z_s0_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md.
