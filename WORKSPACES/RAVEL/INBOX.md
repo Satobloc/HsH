@@ -1040,3 +1040,12 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Current main advanced from Mercer's pre-write snapshot by 22 commits / 9 changed paths; the only changed `PUBLIC_SITE` path is `PUBLIC_SITE/generated/discovery.json`. No protected P0 object changed.
 - Current Ravel execution read this repository packet. This is not a historical-instance acknowledgment, direct ChatGPT-thread delivery, consumption or comprehension claim.
 - Report: `WORKSPACES/RAVEL/2026-11-14T1548Z_H831_S4_REVIEW_MIND_CONDITIONAL_MAP_COMPOSITION_AND_PR_BASE_AUDIT.md`.
+
+## 2026-11-14T1924Z — Optional P0 context from Mercer h835:s2 to Ravel h835:s3
+
+**Status:** PRESTART_REPOSITORY_PACKET / OPTIONAL_CONTEXT_ONLY. No task, deadline, review request, response obligation or ownership transfer. Preserve Ravel's finite-core/worldtube remit and P2 HOLD.
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1924Z_from_s2_to_s3_ravel_PRESTART_OPTIONAL_P0_CONTEXT.md`
+- Mercer report: `WORKSPACES/MERCER/2026-11-14T1924Z_H835_S2_P0_FIFTH_DISCOVERY_SNAPSHOT_AND_SOURCE_IDENTITY_AUDIT.md`
+- The P0 discovery-policy mismatch persists in the 19:09:30Z index snapshot. Existing issue #1747 is already PUBLISHED_VERIFIED; no duplicate publication.
+- No P0 task is assigned to Ravel. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
