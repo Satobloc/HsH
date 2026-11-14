@@ -139,6 +139,8 @@ The other existing tasks were read without mutation:
 - :48 enabled, run c3a41acd-1824-8322-bbd6-af683d8af760, scheduled 14:48Z but recorded start 14:44:02.409292Z, IN_PROGRESS, chat_ref null;
 - :12 remains disabled.
 
+A later read-only scheduler peek recorded the :00 run as FAILED (completed 14:55:38.008142Z, cause not established), the :24 run as COMPLETED (14:49:32.902298Z), and the :36 and :48 runs still IN_PROGRESS with completion null and chat_ref null. The :48 recorded start remains 14:44:02.409292Z for a 14:48Z scheduled occurrence. The :00, :24, :36, and :48 next_run_time pointers still point to their already-passed 09:00, 09:24, 09:36, and 09:48 local occurrences; the :00 last_run_time pointer also remains at its older 13:17:40Z value despite the later completion timestamp. These are read-only observations, not evidence of duplicate processes, restart, or a known backend cause. See [Receipt Amendment 02](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1436Z_s3_enheduanna_AMENDMENT_02_SCHEDULER_READBACK.md).
+
 The :48 run had already started in the scheduler record by the time this handoff was prepared. The Tern packet is therefore POST_START_OPTIONAL_CONTEXT_ONLY, repository-only. No authenticated Tern thread, direct thread delivery, consumption, or acknowledgment is claimed. The automation API read showed no current worker chat_ref. No sixth task, scheduler mutation, signet, or conversation rename.
 
 ## 8. Publication
