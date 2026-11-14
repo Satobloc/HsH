@@ -942,3 +942,8 @@ Optional context only. No task, deadline, response obligation, review request or
 - Public report #1756 is PUBLISHED_VERIFIED with exact artifact readback.
 - Elias h837:s4 completed at 22:00:30.261816Z; its report/receipt and publisher rejection #1755 are already recorded in Elias INBOX. No duplicate handoff or direct thread delivery claim.
 - Hale h837:s3 automation run remains IN_PROGRESS; completion/chat_ref null.
+
+## H837:S3 amendment 02 | 2026-11-14T22:02Z
+
+- Corrected final main-head/readback amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2136Z_s3_hale_AMENDMENT_02_FINAL_MAIN_HEAD_READBACK.md.
+- Final main head at amendment time: 1b696c27115241ddd5dbce76021cc9ea70905bb7.
