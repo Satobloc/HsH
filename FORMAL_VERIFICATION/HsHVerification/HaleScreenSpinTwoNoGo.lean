@@ -21,10 +21,12 @@ actions have been derived from the corresponding tensor representations.
 This is conditional representation mathematics, not a physical source-to-
 radiation map. It does not establish that the assistant-authored Blockwave
 candidate is Nathan Direct, that its 4D current is correctly projected onto a
-null screen, or that any H(s)H radiation map exists. It does not exclude
-nonlinear maps or maps that use additional frame, field, derivative, or
-other spin-carrying structure. No physical data or synthetic physical
-fixture is introduced.
+null screen, or that any H(s)H radiation map exists. The linear-map theorem below alone does not exclude nonlinear maps. The
+function-level theorem added below strengthens the result for the same
+scalar-only source and quarter-turn actions: linearity is unnecessary. Maps
+that also depend on additional frame, field, derivative, or other
+spin-carrying inputs remain outside that restricted source class. No physical
+data or synthetic physical fixture is introduced.
 -/
 
 namespace HsHVerification.HaleScreenSpinTwoNoGo
@@ -63,6 +65,27 @@ theorem equivariant_map_from_area_form_to_spin_two_is_zero
   have hzero : f x i = (0 : ℝ) := by
     nlinarith [hx]
   simpa using hzero
+
+/-- Assistant-authored strengthening (not Nathan Direct): no function, linear
+    or nonlinear, can intertwine the stipulated trivial scalar quarter-turn
+    action with the stipulated spin-2 quarter-turn action.
+
+    The source value is fixed while every target vector is negated. Equivariance
+    under this single generator therefore gives f x = -f x, hence f x = 0.
+    This does not exclude maps whose input includes additional spin-carrying
+    structure, nor does it derive the geometric actions from physical tensors. -/
+theorem equivariant_function_from_area_form_to_spin_two_is_zero
+    (f : ℝ → Fin 2 → ℝ)
+    (h_equivariant : ∀ x,
+      f (areaFormQuarterTurn x) = spinTwoQuarterTurn (f x)) :
+    f = fun _ => (0 : Fin 2 → ℝ) := by
+  funext x
+  funext i
+  have hx := congrFun (h_equivariant x) i
+  simp [areaFormQuarterTurn, spinTwoQuarterTurn] at hx
+  linarith
+
+#print axioms equivariant_function_from_area_form_to_spin_two_is_zero
 
 /-- The spin-2 action of a screen quarter-turn squares to the identity. -/
 theorem spinTwoQuarterTurn_sq (v : Fin 2 → ℝ) :
