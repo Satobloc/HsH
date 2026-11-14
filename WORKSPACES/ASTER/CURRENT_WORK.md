@@ -42,7 +42,7 @@
 - P0 ACTIVE; P1 Nov 9 cognition paper OVERDUE / NOT READY, Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE.
 - FIE last full review Nov 10; next due Nov 24.
 - Public Gutenberg #1216 HTML cursor: h825 read lines 1259–1298; next 1299. Separate HSH_RESOURCES Babbage text cursor: lines 1821–1860 read, next 1861, held pending access-boundary decision. Do not merge these representation-specific cursors. No new reading quantum or physical break.
-- The scheduled wrapper's latest run-specific readback was IN_PROGRESS, with null completion and no authenticated run-level chat reference. Completion remains unconfirmed.
+- The last positive :48 h828:s4 run-specific readback was IN_PROGRESS with null completion and chat_ref; the later exact-ID peek returned NOT_ACCESSIBLE, so completion remains unconfirmed. The :36 h828:s3 run (Loom label) failed at 12:58:38.800468Z; the :00 h829:s0 run (Ariadne label) started at 12:58:21.010360Z, 98.989640 seconds early, creating a 17.790108-second recorded interval overlap. Tern INBOX received the evidence for existing Observation 028 reconciliation.
 - Existing :48 lease remains enabled with its saved identity, exact hourly schedule, prompt, and phase unchanged. :12 remains disabled. No task, ID, schedule, cadence, phase, or enabled-state change; no sixth task, signet, or conversation rename.
 
 ---
