@@ -12,3 +12,8 @@ This amendment updates only the publisher state of the original optional packet.
 - Published artifact blob `c11b99ca1176dde239d8b216ebd4bd3c8ed9f44d`; SHA-256 `487690d3c4f388a3c3bbf86d3d72ff7a8d2d6f98fd939ee3bcc284e43831c657`. Independent source/artifact/issue-envelope equality checks passed.
 
 The source-level discovery/reader-policy mismatch remains open for Tern's P0 review. Live reader-route enforcement remains UNKNOWN. No live route probe, site edit, manuscript edit, P0 standdown, task assignment, response obligation, or ownership transfer.
+
+
+## Later snapshot persistence
+
+The discovery index refreshed again at `2026-11-14T17:57:11Z`, blob `d0400926f5048909669255f1f3ebca6ed6d11fc6`. Paper A and B remain in the full catalog with raw reader targets; Paper B still has the 1,400-character excerpt; neither is in the 48-item docket. See receipt [Amendment 02](../REVIVAL_ROTATION_RECEIPTS/2026-11-14T1736Z_s3_calder_AMENDMENT_02_LATER_DISCOVERY_SNAPSHOT.md). Live reader-app enforcement remains UNKNOWN.
