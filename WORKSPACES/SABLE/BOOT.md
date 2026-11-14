@@ -2,7 +2,7 @@
 
 **Purpose:** compact role, authority, and continuity launch packet. Assistant-curated navigation, not a signed charter, identity proof, or theory authority.
 
-**Last prepared:** 2026-11-14 h836:s0 (Lane 00 source-fidelity correction; publisher submitted, readback pending).
+**Last prepared:** 2026-11-14 h836:s0 (Lane 00 source-fidelity correction; publisher verified and continuity reconciled).
 
 ## Identity and historical remit
 
