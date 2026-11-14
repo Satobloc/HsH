@@ -480,14 +480,16 @@ def routeProbeAuthorizedWithWorkflow (s : State) (e : WorkflowTriggerEvidence) :
 theorem absent_changed_path_blocks_probe (s : State) (e : WorkflowTriggerEvidence)
     (h : e.pathWitness.pathAppearsInRunDiff = false) :
     routeProbeAuthorizedWithWorkflow s e = false := by
-  simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
-    pathScopeWitnessCurrent, h]
+  cases hGate : routeProbeAuthorized s <;>
+    simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
+      pathScopeWitnessCurrent, h, hGate]
 
 theorem unmatched_watch_pattern_blocks_probe (s : State) (e : WorkflowTriggerEvidence)
     (h : e.pathWitness.patternMatchesChangedPath = false) :
     routeProbeAuthorizedWithWorkflow s e = false := by
-  simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
-    pathScopeWitnessCurrent, h]
+  cases hGate : routeProbeAuthorized s <;>
+    simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
+      pathScopeWitnessCurrent, h, hGate]
 
 theorem wrong_workflow_target_blocks_probe
     (s : State) (e : WorkflowTriggerEvidence)
@@ -523,13 +525,15 @@ theorem workflow_run_commit_mismatch_blocks_probe
     (s : State) (e : WorkflowTriggerEvidence)
     (h : e.runCommit ≠ e.deploymentCommit) :
     routeProbeAuthorizedWithWorkflow s e = false := by
-  simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent, h]
+  cases hGate : routeProbeAuthorized s <;>
+    simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent, h, hGate]
 
 theorem failed_workflow_blocks_probe
     (s : State) (e : WorkflowTriggerEvidence)
     (h : e.runSucceeded = false) :
     routeProbeAuthorizedWithWorkflow s e = false := by
-  simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent, h]
+  cases hGate : routeProbeAuthorized s <;>
+    simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent, h, hGate]
 
 theorem existing_identity_and_capability_gate_remains_required
     (s : State) (e : WorkflowTriggerEvidence)
