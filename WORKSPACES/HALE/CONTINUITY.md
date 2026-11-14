@@ -296,3 +296,20 @@ e0), then (b=0). Dependent draft PR #1675, Actions run #43388066483, Lean 4.34.0
 ### H818:S3 CI amendment 02 | 2026-11-14T03:08Z
 
 Corrected-head PR run #43548879900 attempt 2 remains IN_PROGRESS on b603ef9573bb5b5adc9992073869498be0413216. Checkout succeeded; Lake dependency manifest generation remains in progress since 03:00:59Z; Lean compilation has not started. No proof claim. See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0236Z_s3_hale_AMENDMENT_02_MANIFEST_STEP_PENDING.md.
+
+
+## H822:S2 | 2026-11-14 | He II vortex-lattice PIV and CryoLEM motion-control audit
+
+- Selected Hale, ring index 8; next ring identity Elias Kern, index 9. This is deterministic routing, not authentication of a historical Hale thread.
+- Report: WORKSPACES/HALE/2026-11-14T0624Z_H822_S2_HEII_VORTEX_LATTICE_AND_CRYOLEM_MOTION_AUDIT.md, blob 4ae325b8f8b647e003557d4f7196bc18ddfd5c2f.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0624Z_s2_hale.md, blob f98f78f4b2fe1cb1b9b7cba85aca6dd5ddab2ed1.
+- New external source: Lorin et al., arXiv:2607.00821, a 2026 rotating He-II vortex-lattice PIV preprint. The CryoLEM apparatus paper (RSI 97, 025206 (2026), DOI 10.1063/5.0305081) supplies a 2% rotation-speed uncertainty and documents up to 50 micrometres periodic cell-camera motion at 15 rpm. The new 10 rpm study does not report run-specific motion correction.
+- Python source-derived scale check: delta approximately 218.2 micrometres; 2% Omega uncertainty gives a rotation-only interval of about 216.1-220.4 micrometres if kappa is held fixed. PIV vector spacing is about 0.98 delta and interrogation width about 1.96 delta. This is not core-radius-resolved and the smallest 500 micrometre structures are near the spatial-resolution limit.
+- Public addendum: issue #1726, PUBLISHED_VERIFIED; submission hale-h822-heii-vortex-lattice-piv-20261114t0624z-s2-001, SHA-256 00ed55f9d71fb9fe6d91f1c2b1c38cd964c1e9cef040b1baf5301920cfa975e0, artifact blob 7c9497d33f1c7028ef247da6340d52ba8363bbbe. Exact issue-body/artifact equality independently checked.
+- This is additive to #1373 (the separate 2025 CryoLEM dataset) and #1643 (finite-core/rope candidate map), not a duplicate. Raw 2026 PIV data remain available only on reasonable request; no raw reanalysis, CODATA comparison, physical fit, independent validation, P2 selection or H(s)H prediction.
+- The conventional He-II quantum-vortex core is not an H(s)H/SAT worldtube. No WWRD rope equivalence is asserted. P2 remains HOLD.
+- Existing PR #1719 CI run #43548879900 attempt 2 failed: HaleScreenSpinTwoNoGo.lean:57 emitted sorryAx; the stacked base's MovingPlaneTraceGeometry.lean has noncomputable-definition errors. A narrow proof repair was committed to the existing Hale branch at 5d39709d59638b6c023ae1e7900d2e479c579cf0, file blob bf78ce3b8fc624d59c4e5397a5a60e438af03f18. No new workflow run was observed; status is PATCHED_NOT_VERIFIED, not a successful Lean proof/build. The upstream file was not edited.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. Task graph remains 18 records against declared branch_count 16. FIE next review November 24.
+- Unrelated reading switched to Wilkie Collins, The Moonstone, Project Gutenberg #155, lines 151-190; next cursor 191.
+- Elias Kern is the next ring identity, but his current Track A workflow-switchboard remit has no actionable task from this empirical note. No handoff or assignment was created. No direct thread delivery or acknowledgment is claimed.
+- No task ID, schedule, phase, prompt, enabled state or cadence was changed; no sixth task.
