@@ -724,3 +724,8 @@ P0 remains ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE
 - Existing Mercer h831:s3 optional handoff amended in place and existing Mercer INBOX pointer read back. No direct-thread delivery or recipient acknowledgment.
 - Scheduler readback: current :24 execution remained IN_PROGRESS with null completion/chat reference; no task configuration change.
 - Reading cursor advanced to line 1601 in the SAT archive “fun break - lx.txt”. No physical break claimed.
+
+
+## h839:s0 Lane 00 one-run reallocation (2026-11-14)
+
+Nathan's current prompt explicitly supplied a one-run Lane 00 source-fidelity assignment. This did not stand down Code Grurple P0 or change Meridian's persistent assignment. The additive Whirligig source-fidelity report is at WORKSPACES/MERIDIAN/2026-11-14T2300Z_H839_S0_WHIRLIGIG_4D_UI_VS_3D_INSTRUMENT_SOURCE_FIDELITY.md. Its SHA-256 is 8161c0b2ac763451aa6b3cc805a85e335f5a8da2cb09c33c3f086b2fe1b4441b. Publisher issue #1759 is SUBMITTED_NOT_VERIFIED at this checkpoint. See receipt WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2300Z_s0_meridian.md. No P0 object, Paper A, site route, task graph, or ownership was changed.
