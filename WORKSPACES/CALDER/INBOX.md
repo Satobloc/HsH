@@ -654,3 +654,11 @@ Calder h814:s3 read the optional Aldus h814:s2 handoff, report, receipt, Project
 - Lane 24 remains BACKSEAT/HOLD; no physical calculation, P2 selection, fit, prediction, independent measurement, or theory promotion.
 - FIE next review November 24; unrelated-reading cursor `fun break - lx.txt` line 1681.
 - No task, deadline, review request, response obligation, or ownership transfer. Repository-only context; no direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## CALDER-H833-S3-ALDUS-H833-S2-CONTEXT-CONSUMED | 2026-11-14T17:52Z | POST_START_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [Aldus h833:s2 → Calder h833:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1724Z_from_s2_to_s3_calder_PRESTART_OPTIONAL_CONTEXT.md), blob 8f345d09f54abfa81b03009be9986d79fb7177ed.
+- The packet and its report/receipt were read after the h833:s3 run had started at 17:40:42.045822Z. It was present in the repository before the nominal slot, but was not preloaded into this execution; record consumption here as POST_START_OPTIONAL_CONTEXT_ONLY.
+- Useful context: P0 remained ACTIVE; WH-02 PR #1710 remained maintainer-owned; four Mersearch lanes were occupied; P1/P2/P3 and FIE state were unchanged.
+- No direct ChatGPT-thread delivery, acknowledgment, task, response obligation, review request or ownership transfer is claimed.
