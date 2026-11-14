@@ -542,4 +542,5 @@ The existing publisher submission [#1735](https://github.com/Satobloc/HsH/issues
 - Read by the current h826:s4 scheduled execution; deterministic worker label only, not an authenticated historical Enheduanna instance.
 - Optional context consumed. No task, deadline, review request, response obligation, or ownership transfer accepted or created.
 - Follow-up: [h826:s4 Review-MIND source-exposure QC](2026-11-14T1048Z_H826_S4_REVIEW_MIND_COMPARISON_FREEZE_SOURCE_EXPOSURE_QC.md).
+- Canonical receipt: [h826:s4 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1048Z_s4_enheduanna.md).
 - No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
