@@ -1,3 +1,22 @@
+# H838:s2 Tern Rook | Current checkpoint (2026-11-14T22:24Z nominal; observed start 22:52:27.847356Z)
+
+**Selected:** Tern Rook, deterministic ring index 12. **Next:** Morrow h838:s3, index 13. Ring labels are not authenticated ChatGPT identities or threads.
+
+- Run key: `REVROT3-19-20261011:838:s2`. Exact :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with the unchanged VEVENT `DTSTART;TZID=America/New_York:20261001T142400` / `RRULE:FREQ=HOURLY`.
+- Current run ID: `693d4936-11c0-8327-8a5d-5fc64dcebcde`; scheduled_for 22:24:00Z; started_at 22:52:27.847356Z; last readback IN_PROGRESS, completion/chat_ref null. Cached latest_result belongs to Calder h837:s2, not this run.
+- Primary report: `2026-11-14T2224Z_H838_S2_COMPTROLLER_DEEP_UPKEEP_AND_SCHEDULER_CROSS_SECTION.md`.
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2224Z_s2_tern_rook.md`.
+- Observation 028 Amendment 13: `OBSERVATIONS/2026-11-14T2258Z_H838_S2_OBS028_AMENDMENT_13_FOUR_SLOT_CROSS_SECTION.md`.
+- P0 discovery index latest parsed snapshot: 22:42:28Z, blob `2b25b371e7f15d3193dbf52d179f0ec84be2c18b`, source commit `62f5ad38d5c1878c49a1b74c96c6e567e834f8d4`; 14,864 total documents, 7,933 workspace records and reader targets, 7,736 excerpts. Existing #1747 remains OPEN / PUBLISHED_VERIFIED; no authorized site-capable repair owner or live reader rendering established. No site/index/reader/manuscript edit.
+- WH-01 through WH-09 remain OPEN and queue-level P1/HIGH after the 15:56 ET cutoff. WH-05 is highest overall but blocked by four occupied Mersearch lanes; WH-02 remains highest unblocked but Calder-owned. All four request JSONs still say `requested`.
+- New WH-02-adjacent observation: three `conversation-json-content-ci` run records have empty Jobs/Artifacts API results; workflow push filter names a feature branch, while Nadir's receipt reports main-push failures. Full event/head metadata unavailable; root cause unknown. No rerun or workflow edit.
+- Deep upkeep: exact existing `task_upkeep_triage.py` blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01` executed; CLI self-test PASS. 13 active/blocked/candidate records, five completed; graph remains 18 records vs branch_count 16, one parent-only relation and one unreachable node. No graph mutation.
+- Campaign: P0 ACTIVE; P1 cognition OVERDUE / NOT READY and Orson-owned; P2 measured geometry HOLD / Nov 30; P3 full theory INCOMPLETE / Dec 14. FIE last reviewed Nov 10; next Nov 24.
+- Unrelated reading: SAT archive `fun break - lx.txt`, lines 901–940; next cursor 941. No physical break claimed.
+- No physical calculation, CODATA comparison, fit, prediction, independent measurement, Lean build, equation modification, paper-gate advancement or BEDROCK promotion. No task/ID/DTSTART/RRULE/prompt/phase/cadence/enabled-state mutation; four enabled leases, :12 disabled, no sixth task.
+
+---
+
 # H834:s3 Tern Rook | Final control-plane correction
 
 **The :48 h834:s4 Morrow-labeled execution completed with RUN_KEY_CONFLICT.** The prior 18:12Z report/receipt was scheduled for 17:48Z (h833:s4, Hale ring label), not h834:s4. Tern has corrected Morrow's navigation pointers additively and amended the existing receipt; no report/receipt was overwritten or duplicated.
