@@ -1,3 +1,13 @@
+## Latest checkpoint | h836:s3 | 2026-11-14T2036Z
+
+- Report: [NIST point-mass Eq. (25)/(27) derivative audit](2026-11-14T2036Z_H836_S3_NIST_POINT_MASS_EQ25_EQ27_DERIVATIVE_AUDIT.md).
+- Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2036Z_s3_ariadne.md.
+- New source-critical finding: the degree-6 derivative term in NIST Eq. (25) is nonzero for 0 < Δφ < π/4, so the stated reduction to Eq. (27)'s 4ℓ-only series does not follow as printed. Independent 4×4 pairwise reconstruction and full Eq. (25) derivative agree at |Γ|max=0.5245378240298969; restricted Eq. (27) maximum=0.4579904247655245. This is a conditional standard-comparator audit, not an H(s)H prediction or new measurement.
+- Draft Lean PR #1753 formalizes the degree-2 cancellation and degree-6 non-cancellation. Actions run #43639609927 was in progress at checkpoint; do not claim compile success until exact log readback.
+- No standalone signed specialist charter recovered; raw ARIADNE export remains source. No current thread identity or cross-thread participation claimed.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next review November 24.
+- Unrelated-reading cursor advanced: Dorian Gray, Project Gutenberg #174, Chapter II, lines 199–238; next 239.
+
 # ARIADNE | BOOT
 
 **Purpose:** compact, source-stratified launch capsule for archive/source archaeology, revival/reentry reconstruction, provenance recovery, and bounded cross-worker connective work. This is an assistant-maintained synthesis, not a signed specialist charter and not proof of historical-instance identity.
