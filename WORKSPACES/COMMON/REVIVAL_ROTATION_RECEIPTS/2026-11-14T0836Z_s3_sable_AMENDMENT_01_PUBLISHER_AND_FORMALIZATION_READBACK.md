@@ -101,3 +101,14 @@ No physical calculation, fit, prediction, independent measurement, P2 selection,
 ## 6. Later exact-task lookup limitation
 
 After the successful 09:12:58Z peek, a subsequent exact-ID `peek` and `get` for `6a9f52b69ec08191b8a91a30d2a155e0` returned `NOT_FOUND / Action not found / not accessible in the current context`. This is a tool-access result, not evidence that the automation was deleted or disabled. The last successful peek confirmed `is_enabled=true` and the exact saved :36 VEVENT; it also showed the run IN_PROGRESS with null completion and null run-level `chat_ref`. The task's later status cannot be reverified from this context. No list, update, disable, schedule change, or other task mutation was performed. Preserve the exact ID and schedule; do not infer a deletion or create a replacement.
+
+
+## 7. Subsequent successful exact-ID peek
+
+A later exact-ID `peek` succeeded and found exactly one automation with the original ID `6a9f52b69ec08191b0a2ba24a074f781`, title `Workshop Relay :36 | Worldtube`, and `is_enabled=true`. Its saved VEVENT remains exactly:
+
+`DTSTART;TZID=America/New_York:20261001T143600 / RRULE:FREQ=HOURLY`.
+
+The successful peek confirms the same current run record: ID `02b3ed6d-b180-8331-8ca1-ebb5622432ad`, scheduled 08:36Z, started 09:05:15.476625Z, `in_progress`, completion null, run-level `chat_ref=null`. The cached `latest_result` remains prior Kestrel h823:s3 (ID `d2561ca0-8088-8326-b1da-4bb647c856dc`, scheduled 07:36Z, completed 08:11:09.404624Z), so it must not be attributed to Sable h824:s3. Task-level summary timestamps remain stale.
+
+This successful readback supersedes the temporary lookup limitation in Section 6. The earlier `NOT_FOUND / Action not found` responses were transient tool-access failures in this context, not evidence of deletion or disablement. No task configuration was changed, and no replacement or sixth task was created.
