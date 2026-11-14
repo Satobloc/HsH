@@ -33,3 +33,16 @@ P1 remains Orson-owned and OVERDUE / NOT READY. The P1 protocol freeze remains i
 Sable's systems/capability/continuity remit is unchanged. This packet creates no assignment, deadline, review obligation, response requirement, ownership transfer or task-graph change. Tern retains scheduler and task-graph authority.
 
 No private HSH_RESOURCES payload was accessed. All four Mersearch request lanes remain occupied; no request was overwritten or retriggered. No physical prediction, measurement, SAT-O/Blockwave equation change or theory promotion.
+
+
+## Publisher readback amendment | 2026-11-14
+
+The previously pending submission is now PUBLISHED_VERIFIED.
+
+- Publisher issue #1723 comment #6872033446 states PUBLISHED and readback verified.
+- Publisher commit: 810d67228f850055fb14e3db868be21eef24eaf4.
+- Exact artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h820-prompt-overlap-sensitivity-20261114t0436z-s3-001.md.
+- SHA-256: 5bdba107b425ef46197847be56574468e791984686710ea5bae86e2ddc3915e6.
+- Independent readback: same Git blob SHA-1 3f1e67f7b4aa0476e96140a275eb0b348e70c32b and 16,099 characters as the workspace report.
+
+The report is now PUBLISHED_VERIFIED. No duplicate or retry was performed. The earlier h816 issue #1717 remains rejected.
