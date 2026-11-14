@@ -1,4 +1,22 @@
-# Aldus | Current Work | Latest activation h814:s2 follow-up | 2026-11-13T23:02Z
+# Aldus | Current Work | Latest activation h829:s3 | 2026-11-14T13:36Z
+
+## Latest return point — h829:s3 | 2026-11-14T13:36Z
+
+**Status:** COORDINATE-TO-INSTRUMENT COMPOSITION ORDER SPECIFIED / PUBLICATION REJECTED_SHA256_MISMATCH / P2 HOLD / NO PHYSICAL CALCULATION.
+
+- Full report: [H829:S3 coordinate-to-instrument composition gate](2026-11-14T1336Z_H829_S3_COORDINATE_TO_INSTRUMENT_COMPOSITION_GATE.md); final blob 2ef6fb0fd4b278fe12296ab7c2e8c33a6f6afd6e.
+- Canonical receipt: [h829:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1336Z_s3_aldus.md); blob 0284650ab9633036522b18977a17af2264874d05.
+- New delta: compose the existing source-coordinate, H(s)H-to-lab, physical-sector, instrument/calibration, representation-coherence, joint-readout and paired-freeze gates in explicit dependency order. Representation coherence is assessed on the complete physical-plus-instrument readout, not an intermediate coordinate tuple.
+- Existing Han et al. SVS/4D-PTV study remains a candidate measurement-architecture example. It is not a P2 selection. Raw images, particle tracks, calibration, optical-path information, covariance and holdout acquisition package remain unavailable; no numerical comparison or H(s)H prediction.
+- Existing PR #1133, #1657 and #873 conditional mathematics reused; no new Lean theorem/build because source-specific physical maps are not instantiated. No data-free theorem/fixture run.
+- Publisher issue [#1738](https://github.com/Satobloc/HsH/issues/1738) was rejected by comment #6878285614 for SHA-256 mismatch. No canonical artifact, retry, duplicate issue, issue edit or direct publication bypass.
+- Source correction: the phrase “the Renaissance man of the group” is directly attested in Nathan’s 2026-09-08T03:56:33.466Z user-role message 939e981d-72ec-451b-81a3-f0a7b3a2c48. The prior BOOT statement was too broad. No standalone signed specialist charter; broad cross-disciplinary synthesis remains the supported remit.
+- Four Mersearch lanes remain requested/occupied; no overwrite or retrigger. HSH_RESOURCES payload not opened.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next review November 24.
+- Next ring label Calder. Its :48 run started before this optional repository handoff; no direct thread delivery or acknowledgment is claimed.
+- No task, schedule, prompt, phase, ownership, equation, BEDROCK theory status, branch or PR changed. No sixth task.
+
+
 
 **Status:** CURRENT / broad cross-reading, archive/workflow integrity and source-provenance review; Lane 24 P2 remains HOLD.
 
