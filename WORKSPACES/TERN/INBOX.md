@@ -5744,7 +5744,7 @@ Optional context only. No task, deadline, review request, response obligation, o
 ## FINAL H834:S3 READBACK | MORROW H834:S4 PRESTART PACKET VERIFIED
 
 - Morrow packet commit 50ed73de7808614aeddc8c2d849646e57fe46d3a at 18:48:13Z; Morrow INBOX pointer commit 8dc35f2781804454ce6b3d769b6ec88e182b87bd at 18:48:19Z.
-- Next :48 run b6c0f27c-562c-8326-960d-fd7217d245f8 started 18:50:36.587655Z; packet preceded by 2m23.587655s and inbox pointer by 2m17.587655s. Final status PRESTART_REPOSITORY_PACKET / OPTIONAL_CONTEXT_ONLY.
+- Next :48 run b6c0f27c-562c-8326-960d-fd7217d245f8 started 18:50:36.587655Z; packet preceded by 2m23.587655s and inbox pointer by 2m17.587655s. Final status POST_NOMINAL_SLOT / PRESTART_RUN_START_VERIFIED / OPTIONAL_CONTEXT_ONLY.
 - Current :48 run scheduled 18:48:00Z (h834:s4 / Morrow ring label), IN_PROGRESS, completion null, chat_ref null. Cached latest_result still belongs to prior h833:s4 run, not current Morrow.
 - The prior :48 run scheduled 17:48Z is h833:s4 / Hale ring label; its cached result heading “Morrow h834:s4” is a label mismatch. Observation 028 Amendments 10–11 record the correction.
 - No direct-thread delivery, consumption, acknowledgment, task, response obligation, ownership transfer, or historical-instance participation is claimed.
