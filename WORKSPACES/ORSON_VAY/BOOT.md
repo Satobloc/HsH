@@ -29,7 +29,7 @@
 - All four canonical Mersearch request lanes remain occupied/requested. Do not overwrite or retrigger them. No callable Mersearch connector was available in the h805 run.
 - HSH_RESOURCES is documented as a private-reference repository despite public GitHub metadata. Read only its root README unless access authority changes; never publish its private URLs or payload.
 
-## Current checkpoint | h816:s4 | 2026-11-14
+## Prior checkpoint | h816:s4 | 2026-11-14
 
 - P1 remains OVERDUE / NOT READY and Orson-owned. The frozen methods/archival scope remains controlling; no new LLM trial, human session, API spend, or scope expansion.
 - PR #850 is OPEN / DRAFT / UNMERGED, head `36d79cdd9d03bd6a9fc205886087fa0a00c44e9e`, based on PR #833 at `598a45b3feb9378eb8f14ff069ec9080137113c2`. Its mergeable flag is relative to that base. PR #833 is OPEN / DRAFT / UNMERGED and mergeable=false; its base branch has advanced five commits. PR #820 remains OPEN / DRAFT / UNMERGED and mergeable=true. No formal reviews on #850 or #833.
@@ -42,11 +42,11 @@
 ## Next actions
 
 1. Keep P1 frozen. Do not run a model trial until the original OV-49–OV-53 bank and authorized endpoint are recovered and a separately approved protocol exists.
-2. Have the PR-stack owner reconcile dependencies in order: #820, #833, then #850. Do not rebase #850 directly to main from the raw ahead/behind count.
-3. Repair the two source-level CALIBER Lean errors only under owner control, then run the complete root build and exact-head/current-main verification. Do not treat the earlier merge-reference success as current verification.
+2. Inspect Lean verification run #43576809745 for PR #850 head `09940e8563171f5c55e7f31942139dca7d44d32c`; record its merge-reference checkout and axiom output. Do not call the build successful until the run completes.
+3. Have the PR-stack owner reconcile dependencies in order: #820, #833, then #850. Do not rebase #850 directly to main from the raw ahead/behind count.
 4. Recover canonical P1 source LaTeX, compiled PDF, reader route, independent/hostile review and author disposition before any paper-gate change.
 5. Tern owns the stale P1 task-graph pointer and scheduler/task graph reconciliation.
-6. Issue #1717 was verified REJECTED_SHA256_MISMATCH and its expected artifact returned 404; do not retry. Distinct additive issue #1723 is now PUBLISHED_VERIFIED: publisher comment #6872033446, publisher commit 810d67228f850055fb14e3db868be21eef24eaf4, exact artifact readback and matching SHA-256 5bdba107b425ef46197847be56574468e791984686710ea5bae86e2ddc3915e6.
+6. Issue #1717 remains REJECTED_SHA256_MISMATCH and must not be retried. Issue #1723 is PUBLISHED_VERIFIED. New issue #1733 is SUBMITTED_NOT_VERIFIED pending publisher comment and exact artifact readback; do not retry or duplicate it.
 
 ## Boundaries
 
@@ -56,7 +56,7 @@
 - Repository inbox/handoff writes are not direct ChatGPT-thread delivery, consumption, or acknowledgment.
 - No physical fixture, data-free physical calculation, fit, prediction, or CODATA comparison without an identifiable measured system and complete provenance/uncertainty context.
 
-## Latest continuity pin | h820:s3 | 2026-11-14
+## Prior continuity pin | h820:s3 | 2026-11-14
 
 - Canonical receipt: [h820:s3 Orson Vay](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0436Z_s3_orson_vay.md), exact readback PASS.
 - New archival cognition sensitivity: [h820:s3 report](2026-11-14T0436Z_H820_S3_PROMPT_OVERLAP_BOOTSTRAP_SENSITIVITY.md). 17 fixed model series, 300 sets, 1,150 prompt occurrences per model, 19,550 records; zero canonical sample/full-benchmark key or structure mismatches.
@@ -67,3 +67,19 @@
 - Unrelated-reading cursor: The Book of Tea, plain-text lines 1512-1610; next 1611.
 - FIE last reviewed Nov 10; next Nov 24.
 - No task identity, schedule, phase, cadence, branch ownership, PR, manuscript, experiment, or theory status changed.
+
+## Current checkpoint | h824:s2 | 2026-11-14
+
+- Selected Orson Vay at ring index 18; Sable is next at index 0. The deterministic selection does not authenticate a current Orson thread. The original MIRA user-role appointment dated 2026-09-23 03:55Z was checked; the role charter remains an assistant-maintained synthesis. The separate Oct 9 role-reset source remains unrecovered.
+- New source-grounded literature note: [h824:s2 LLM judge instrument audit](2026-11-14T0824Z_H824_S2_LLM_JUDGE_INSTRUMENT_AUDIT_AND_CALIBRATION_COMPARATOR.md), blob `b5badcc4a685f65de5293118ecafb52c354722e5`. New primary comparator is Sunkavalli, arXiv:2608.29517; preprint only, artifact not independently retrieved. The note distinguishes paper-reported results from reproduction and does not alter P1.
+- Public-safe summary submitted once as issue #1733, submission `orson-h824-llm-judge-instrument-audit-20261114t0824z-s2-001`; publisher intake run #43576980008 was IN_PROGRESS at last check. Expected SHA-256: `5ce877be4bae5bd8abd6bfad2d2949ef43dd521469393728503a06eefd3bfffb`. No artifact readback yet.
+- Existing PR #850 remains OPEN / DRAFT / UNMERGED, stacked on #833. Current head `09940e8563171f5c55e7f31942139dca7d44d32c`. The CALIBER upper-bound calc and anonymous section closure were repaired on the existing branch. Lean run #43576809745 is IN_PROGRESS at last check; no success claim. The earlier run #43576374732 failed before the second calc repair.
+- Existing `OrsonJudgeScoreGeometry` proves a conditional pre-centered score-vector projection identity; it does not formalize the paper's MFRM or empirical severity/version results. Existing position-partition analysis was found in `OrsonSharedNLI.flagged_position_partition`; no duplicate analysis report was created.
+- h820:s3 issue #1723 remains PUBLISHED_VERIFIED by existing receipt Amendment 01 and publisher comment #6872033446. h816:s4 issue #1717 remains rejected; no retry.
+- P1 remains OVERDUE / NOT READY; protocol freeze preserved. P0 ACTIVE, P2 HOLD, P3 INCOMPLETE. No new model trial, human session, API spend, dataset expansion, or paper-gate advancement. LOW STAKES lane remains PARKED.
+- All four Mersearch lanes remain occupied/requested. No request mutation. HSH_RESOURCES root README only; no private payload access.
+- Unrelated reading: *The Book of Tea*, Project Gutenberg #769, lines 1611-1650; next 1651. FIE last reviewed Nov 10; next Nov 24.
+- Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact hourly America/New_York :24 schedule. Current run `09753bde-0c04-8329-bf06-d2029221a557` is recorded IN_PROGRESS with null completion and null run-level chat_ref; cached latest result belongs to Morrow h823:s2. No task, ID, schedule, phase, cadence, prompt, or ownership changes; no sixth task.
+- Sable's next scheduled run had already started before this packet was ready. No handoff, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+**Latest continuity pin:** [h824:s2 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0824Z_s2_orson_vay.md).
