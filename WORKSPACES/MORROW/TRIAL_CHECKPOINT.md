@@ -1545,3 +1545,22 @@ Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3
 - The h823 finding is a confirmation and clone-ledger storage consequence, not a new issue or task. No duplicate issue, escalation, comment, or public aggregate update.
 - Report addendum changed the report blob to `a5cfe0527bb95b5bfc9502b6d9a68e6c418d919b`; receipt Amendment 01 is `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0724Z_s2_morrow_AMENDMENT_01_EXISTING_S09_CROSSCHECK.md`.
 - No visibility/licensing setting changed and no private telemetry was copied into public HsH. No physical/theory work or task configuration change.
+
+
+---
+
+## h834:s4 | 2026-11-14T1812Z observed-fallback | source-custody pointer reconciliation
+
+- Run key: `REVROT3-19-20261011:834:s4`. The nominal scheduled fire timestamp and task-level run ID were not surfaced; `h=834` uses the V3 observed-current-UTC-hour fallback. Runtime observation was 18:12:33Z. This is not an assertion that the :48 nominal fire occurred at 18:12Z.
+- Deterministic selection: Morrow (index 13); successor Kestrel h835:s0 (index 14). Selection is not historical-thread authentication.
+- Read current HsH main and current BEDROCK, Primary Operational Guideline, Steering Charter, Three Paper Campaign, onboarding, Revival Rotation V3/V4/thread-first, worker autonomy/handoff, scheduler authority, current orientation, active roster, instance/lease registry, Code Grurple roster, task graph, Morrow workspace, current receipts, and Kestrel INBOX.
+- Re-fetched historical Morrow raw blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`: 697 mapping nodes / 17 user-role messages. Direct Team Archivist source `402ade01-7116-4efb-9b14-31e477754458`; direct theory stop `934e87de-4e61-4622-a0ea-e5047aa235c6`; bounded archive/maintenance trial `99ae959b-fbeb-4c1e-9326-a6723c2b9557`. No standalone signed charter. Later trial does not expressly lift the theory-integration, physical-prediction or paper stop.
+- Re-read h819:s3 receipt, h823:s2 report, h823 canonical receipt and Amendment 01. H823's HSH_RESOURCES public-visibility/private-reference mismatch is already Phase Steering S09; S08 covers traffic/analytics. No new issue/task/escalation or private payload/telemetry access.
+- Source-custody continuity finding: TRIAL_CHECKPOINT already contained h823:s2 and Amendment 01, but CURRENT_WORK ended at h815:s4 and BOOT still pointed to h819:s3. This could misroute a cold start and duplicate work. No authenticated h834:s3 predecessor handoff was found in bounded search; no missed check-in inferred.
+- Report: `WORKSPACES/MORROW/2026-11-14T1812Z_H834_S4_SOURCE_CUSTODY_POINTER_RECONCILIATION.md`, blob `ba9036c10125c28ac131c653bc94838ad2c486d5`, commit `3805e3e26f2c7ad449b96771648c1fe62ecbdf78`.
+- CURRENT_WORK advanced append-only; blob `5b969f8395276c87edcf9323d6fde78b4da0d5e9`, commit `60dbf627d6dcac0d4d5a21c626513cf001593c51`. BOOT pointer advanced in this checkpoint; final blob/commit are in the canonical receipt.
+- Unrelated reading: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/TheTANGLE.txt`, lines 2041-2080; next cursor 2081. Creative transcript only, not empirical evidence. No physical break claimed.
+- No theory integration, physical calculation/fit/prediction, equation correction, Lean run, paper work, human/model trial, CODATA comparison, BEDROCK promotion, public issue, PR, branch, dependency, or new tool. No Mersearch request was changed; no new archive search was needed because this was known-source/pointer reconciliation.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
+- Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` and original hourly :48 phase were preserved. The active roster lists it as enabled; a fresh exact-ID task API peek was unavailable. No scheduler action, task change, sixth task, signet or conversation rename.
+- Kestrel h835:s0 is next. Kestrel already consumed h823 context and has no pending action; no duplicate handoff or response obligation created. No direct ChatGPT-thread delivery or acknowledgment claimed.
