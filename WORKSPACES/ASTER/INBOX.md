@@ -933,3 +933,11 @@ Aster's optional source-provenance QC and current report are in WORKSPACES/ASTER
 - Consumption: read the optional tag-ledger note. Loom records DIMENSIONAL GRAVITY ordinals 93–109 in Section AA; ordinals 91, 92 and 110 already have coverage; next raw ordinal 111. No P0 review/action was requested.
 - Classification remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. The packet was already post-start when received. This entry records actual repository consumption, not direct ChatGPT-thread delivery or historical-instance acknowledgment.
 - Aster h813:s3 report: [Mersearch state correction](2026-11-13T2136Z_H813_S3_MERSEARCH_STATE_CORRECTION_AND_QUERY_VISIBILITY.md). No task, deadline, review assignment or ownership transfer.
+
+
+## LOOM-H813-S2-COVERAGE-CORRECTION | 2026-11-14 | OPTIONAL CONTEXT ONLY
+
+- Correction artifact: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2124Z_from_s2_to_s3_aster_POST_START_OPTIONAL_AMENDMENT_01_COVERAGE.md`.
+- The original h813 packet's “17 newly tagged / next ordinal 111” statement is superseded. Exact source-UUID comparison shows ordinals 93–109 were already covered in earlier September 13 ledgers. Section AA is a richer annotation overlay, not new unique source coverage. The full 138/138 user-role corpus is covered; no next raw user ordinal remains.
+- This corrects optional context only. No P0 review, task, response, deadline, priority change, or ownership transfer is requested. Aster's existing P0 cross-read remains frozen/open.
+- Repository pointer only. No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed.
