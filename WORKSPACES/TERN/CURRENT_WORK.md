@@ -6,7 +6,7 @@
 
 - Current run: `c3a41acd-1824-8322-bbd6-af683d8af760`; scheduled 14:48Z, started 14:44:02.409292Z, IN_PROGRESS at the latest readback; completion and run-level chat_ref null.
 - Main report: `WORKSPACES/TERN/2026-11-14T1448Z_H830_S4_COMPTROLLER_WH01_API_ROUTE_AND_SCHEDULER_AUDIT.md`.
-- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1448Z_s4_tern_rook.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1448Z_s4_tern_rook.md`. Blob: `f23b36945e07a295a0f4a08421a6d21afdadf462`; readback exact. Current main snapshot before this pointer amendment: `cff20bb5a6ec5b5d31b956513698b6dd4ef29035`.
 - Public WH-01 report: [issue #1742](https://github.com/Satobloc/HsH/issues/1742), PUBLISHED_VERIFIED; canonical artifact SHA-256 `725a295288c0b3decd291262ae87755c7d2914601838119e5c7df94f167ae51f`.
 - New API capability: public HsH/SAT archive Actions run-list retrieval and selected job/step/log retrieval work through the generic GitHub fetch route. Traffic and workflow-catalog routes remain unsupported. WH-01 remains P2 and incomplete.
 - Clone ledger now has 16 entries; seven public Actions checkout events were appended without counting them as full clones. The action plan and PWH queue carry the new route evidence.
