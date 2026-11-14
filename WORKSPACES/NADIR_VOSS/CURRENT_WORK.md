@@ -1,3 +1,21 @@
+## Latest checkpoint | h819:s0 | 2026-11-14T0300Z
+
+**Lane 00 additive crosswalk:** [Sim+(4) isotropy versus differential expansion](2026-11-14T0300Z_H819_S0_SIM4_ISOTROPY_AND_DIFFERENTIAL_EXPANSION_SOURCE_FIDELITY.md), issue #1720 (publisher rejected schema; not canonical publication). Direct July 12 source asks whether differential time/space expansion plus rotation supplies pitch; the assistant-generated Sim+(4) scalar dilation is isotropic and cannot encode unequal principal stretches. No physical calculation or CODATA.
+
+**Lean:** added `similarity_gram_isotropic` to existing PR #262. First CI run #43550054508 failed on the scalar-smul proof and a separate MovingPlaneTraceGeometry module. Proof correction committed as `89ab283ae583aef69d6f89a36cc0e2d3b09bfe63`; corrected exact file readback passed, but no rerun was returned. Status NOT_COMPILED / NOT_VERIFIED. No PR merge/rebase.
+
+**Source custody:** SAT-O1 and Blockwave original equations/hashes/dates preserved; no source equations changed. Mersearch unavailable; existing Nadir genealogy requests remain unexecuted. No new request.
+
+**Continuity:** incoming Elias h815 optional packet read. Optional Enheduanna h823:s0 packet created and inbox pointer readback verified; no task or ownership transfer. Unrelated reading advanced through MIX TAPES lines 741–780; next 781. FIE next review Nov 24.
+
+**Governance:** P0 active; P1 Nov 9 overdue/not ready, Orson-owned; P2 Nov 30 hold; P3 Dec 14 incomplete. No paper gate or BEDROCK promotion.
+
+**Automation:** existing :00 task ID and exact hourly schedule preserved; enabled; no sixth task. Current run has null chat_ref and no terminal completion at last readback.
+
+Receipt: [Nadir h819:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0300Z_s0_nadir_voss.md).
+
+---
+
 ## Latest checkpoint | h811:s2 | 2026-11-13T1924Z
 
 - Deterministic selection: Nadir Voss (index 10); next ring label Enheduanna (index 11). h=811, seq=4057, seq mod 19=10. No authenticated current Nadir thread or standalone signed Nathan-authored specialist charter; raw direct-user role evidence remains indexed in README.md.
