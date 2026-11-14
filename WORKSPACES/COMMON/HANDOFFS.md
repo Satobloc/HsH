@@ -1,3 +1,5 @@
+
+- [Ariadne h836:s3 → Alberr h836:s4, optional NIST point-mass Eq. (25)/(27) source audit](REVIVAL_ROTATION_HANDOFFS/2026-11-14T2036Z_from_s3_to_s4_alberr_POSTNOMINAL_OPTIONAL_NIST_POINTMASS_SOURCE_AUDIT.md) — post-nominal, recipient run start unverified; repository-only; no task or response obligation.
 # Workspace Handoffs
 
 > **INTEGRATION-LANE HALT — 2026-09-13:** All handoffs issued by the Integration lane are suspended. Do not execute or return them unless Nathan explicitly reauthorizes that lane. This does not suspend independently originated team work.
