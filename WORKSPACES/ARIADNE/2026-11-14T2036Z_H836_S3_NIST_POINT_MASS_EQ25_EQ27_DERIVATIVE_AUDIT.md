@@ -100,3 +100,10 @@ This audit is a source-bound calculation, not a new measurement, fit, independen
 - Unrelated reading: Oscar Wilde, The Picture of Dorian Gray, Project Gutenberg #174, Chapter II, HTML lines 199–238; next cursor 239.
 - No raw NIST torque series, CMM point cloud, instrument calibration package or independent measurement was retrieved. No fit was made.
 - No P2 selection, H(s)H prediction, independent validation, BEDROCK change, equation modification, paper-gate advancement, scheduler mutation, new automation, sixth task, signet or conversation rename occurred.
+
+
+## Reproducibility artifact
+
+The calculation is preserved as [nist_point_mass_eq23_reconstruction.py](nist_point_mass_eq23_reconstruction.py). It uses the already-installed mpmath 1.3.0 library at 50 decimal digits, scans 10,001 angles over the fourfold symmetry interval [0, π/4], then refines the stationary point. The script independently evaluates the 16-pair Newtonian torque, the literal full Eq. (25) derivative series, and the restricted Eq. (27) series. The direct pairwise and full Eq. (25) magnitudes agree to 2.04×10^-20. No additional dependency was installed.
+
+The script's output also gives the point-mass geometry sensitivity cη=4.5897341832195919 and η-only relative uncertainty contribution 11.9333088764 ppm. These are not a complete uncertainty budget.
