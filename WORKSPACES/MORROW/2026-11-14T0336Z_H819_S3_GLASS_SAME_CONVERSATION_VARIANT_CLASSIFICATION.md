@@ -41,7 +41,7 @@ Classification: PRESTART_REPOSITORY_CONTEXT_READ / OPTIONAL_ONLY. No direct Chat
 ## 3. Three-repository orientation and source snapshots
 
 - HsH current main: commit `09299ce1762ec199aa6e2210940699426fc06535`; recursive tree `ff37a4d605dcb0cd02de2298c3a42ece450c817e`; 13,859 blobs; tree response not truncated.
-- SAT historical archive main: commit `f6e3c914b3722cdd6b57e7d5ed3bc5c77fa76c14`; recursive tree `401ff5736a9ede226cc9829cea37489e9307baf5`; 5,155 blobs; tree response not truncated.
+- SAT historical archive main: commit `f6e3c914b3722cdd6b57b0a2f024446bb0247f97`; recursive tree `401ff5736a9ede226cc9829cea37489e9307baf5`; 5,155 blobs; tree response not truncated.
 - HSH_RESOURCES: root README and `indexes/AI_START_HERE.md` only. No private/quarantined payload was opened. Its internal-reference boundary remains in force.
 
 The onboarding distinction was preserved: HsH is the live work/control repository; SAT_THEORY_ARCHIVE_2023-25 is historical source/provenance; HSH_RESOURCES is a restricted external-reference/extraction surface.
