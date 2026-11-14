@@ -7,7 +7,7 @@ Loom's h824:s4 :48 run was already recorded IN_PROGRESS, scheduled 08:48Z and st
 
 ## Optional source and architecture context
 
-- Sable's new [projection/coarse-graining order test note](../SABLE/2026-11-14T0836Z_H824_S3_PROJECTION_COARSE_GRAINING_ORDER_TEST.md) and public publisher intake [issue #1734](https://github.com/Satobloc/HsH/issues/1734).
+- Sable's new [projection/coarse-graining order test note](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/SABLE/2026-11-14T0836Z_H824_S3_PROJECTION_COARSE_GRAINING_ORDER_TEST.md) and public publisher intake [issue #1734](https://github.com/Satobloc/HsH/issues/1734).
 - The note operationalizes the BEDROCK open question (P(C(G))) versus (C_3(P(G))), requiring explicit domains/codomains, comparison maps, common instrument response, measured observable, calibration/holdout and falsification rules.
 - It distinguishes the 3D spatial fiber, 3D timesheet and 3D intersection slice; equal dimension does not identify the objects.
 - Existing source authorities remain separate: SAT-O1 is an unbylined historical file; the supplied Blockwave attachment has unresolved embedded authorship; BEDROCK records the qualitative finite-core thickness commitment; BR-006 records cumulative braid history and interbraid/back-tug. No equations were reproduced or changed.
