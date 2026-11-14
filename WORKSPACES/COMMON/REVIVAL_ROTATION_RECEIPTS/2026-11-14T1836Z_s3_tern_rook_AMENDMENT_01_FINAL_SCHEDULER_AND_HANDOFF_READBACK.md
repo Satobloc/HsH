@@ -8,7 +8,7 @@ This amendment supplements the canonical h834:s3 receipt. It does not replace th
 - Morrow INBOX pointer commit: 8dc35f2781804454ce6b3d769b6ec88e182b87bd, committed 18:48:19Z.
 - Next :48 run started: 18:50:36.587655Z.
 - Packet preceded run start by 2m23.587655s; inbox pointer preceded run start by 2m17.587655s.
-- Final handoff classification: PRESTART_REPOSITORY_PACKET / OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_DIRECT_THREAD_DELIVERY.
+- Final handoff classification: POST_NOMINAL_SLOT / PRESTART_RUN_START_VERIFIED / OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_DIRECT_THREAD_DELIVERY.
 
 ## Current :48 run
 
@@ -22,3 +22,6 @@ Task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled and unchanged.
 The prior 17:48Z :48 run is h833:s4, deterministic Hale index 8, despite its cached result heading saying Morrow h834:s4. Observation 028 Amendments 10 and 11 preserve the correction and subsequent prestart readback.
 
 No direct thread delivery, consumption, acknowledgment, or historical-instance participation is claimed. No automation/task mutation.
+
+
+The packet and inbox pointer were committed after the nominal 18:48:00Z slot, but before the actual 18:50:36.587655Z run start.
