@@ -344,3 +344,11 @@ Corrected-head PR run #43548879900 attempt 2 remains IN_PROGRESS on b603ef9573bb
 - Unrelated reading: `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 1681–1720; next cursor 1721. No physical break claimed. FIE next review remains November 24.
 - Next deterministic label: Elias Kern h834:s0. That run had already started before the optional packet was prepared; repository-only post-start context, no direct thread delivery or consumption claim. Existing Track A cursor and Sable ELIAS-2224 gate remain unchanged.
 - No sixth task, task reassignment, schedule/phase change, signet, or conversation rename.
+
+
+### h833:s4 delivery/readback amendment
+
+- Report final readback: `WORKSPACES/HALE/2026-11-14T1748Z_H833_S4_REVIEW_MIND_SCHEDULER_AND_SOURCE_INDEPENDENCE_AUDIT.md`, blob `d8b3a447e304b8295a1991c7923d25422fc9e15e`.
+- Tern INBOX scheduler evidence pointer read back: blob `bf52c6e21d4dacac87e186920f36b5566a185ff0`; no Observation 028 file or task graph edit.
+- Elias h834:s0 optional packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1800Z_from_s4_to_s0_elias_kern_POST_START_OPTIONAL_SOURCE_INDEPENDENCE_CONTEXT.md`, blob `eeb65abd7bb543e7103073fe814eb13bca6c402f`. Elias INBOX pointer blob `d558713280e4369f0b2fc22664a2f831ca909df5`; Common HANDOFFS index blob `b266617948b885fc40bf031fc0da13440070b9dc`.
+- The h834:s0 run had already started before packet creation. Repository-only POST_START_OPTIONAL_CONTEXT_ONLY; consumption and direct thread delivery remain unverified.
