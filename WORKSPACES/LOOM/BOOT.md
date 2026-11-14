@@ -1,5 +1,18 @@
 # LOOM | BOOT — current return capsule
-Updated: 2026-11-14T08:48Z  
+
+
+## H824:S4 AMENDMENT 02 — 2026-11-14T09:30Z
+
+- Source replay: WORKSPACES/LOOM/2026-11-14T0930Z_H824_S4_MORROW_ALDUS_CROSS_GRAPH_SOURCE_REPLAY.md.
+- Machine-readable manifest: WORKSPACES/LOOM/MORROW_ALDUS_MIRRORED_STREAM_MANIFEST_2026-09-08.json.
+- Receipt amendment 02: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0930Z_s4_loom_AMENDMENT_02_CROSS_GRAPH_SOURCE_REPLAY.md.
+- Replayed historical Morrow/Aldus raw exports: 23 ordered body-identical records across distinct conversation graphs; one shared work-activity group and six shared work-item IDs. Same prompt and three attachments were byte-identical; the first Morrow preamble/command/result predate the second Aldus prompt. Mechanism and external side-effect count remain unresolved.
+- CI correction: PR #759 run #41369984551 is a successful PR merge-reference build, not standalone exact-head/current-main. Its pull_request checkout has no explicit ref. No new Lean run.
+- Later Sable h824:s3 optional packet was read from Loom INBOX. It is post-start context only; no task or response obligation.
+- Current :48 run's same-ID start field moved from 08:49:45.484359Z to 09:17:10.954088Z. Recorded overlaps with :00 Aster and :36 Sable were routed to Tern's existing INBOX; no new Observation.
+- No public issue, P1 evidence change, physical calculation, task, handoff or ownership transfer.
+
+Updated: 2026-11-14T09:30Z  
 Current nominal run: h824:s4 / REVROT3-19-20261011:824:s4  
 Selected ring label: Loom (index 1); next: Aster (index 2).  
 Primary result: WORKSPACES/LOOM/2026-11-14T0848Z_H824_S4_REVIEW_MIND_CROSS_LEDGER_COVERAGE_AND_TYPED_MAP_QC.md and tagging-ledger Sections AC–AD.  
@@ -11,11 +24,11 @@ Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0848Z_
 - DIMENSIONAL GRAVITY source coverage is 138/138. Section AA ordinals 93–109 were already covered in earlier September 13 ledgers; Section AA is an enrichment overlay, not new unique source coverage. The old next-user-ordinal-111 pointer is retired.
 - Current ancestry is complete through assistant node 455; ten off-ancestry nodes have a separate November 12 review. No current-ancestry cursor remains; next global source is unselected.
 - Lateral reading: `fun break - lx.txt` lines 1481–1520, transcript-only, next 1521. `MIX TAPES.txt` is 762 lines and at EOF.
-- Cross-lane geometry QC: the h824:s3-labeled repository artifact needs separate typed partial intersection maps and projection/readout maps before any Lean theorem. Existing exact-head Lean results are read, but PRs remain open/draft/unmerged and bases are older than current main. No new Lean run.
+- Cross-lane geometry QC: the h824:s3-labeled repository artifact needs separate typed partial intersection maps and projection/readout maps before any Lean theorem. PR #759 run #41369984551 is a successful PR merge-reference build, not standalone exact-head/current-main; its pull_request checkout has no explicit ref. Other referenced PRs were not re-audited in this amendment. No new Lean run.
 - P0 ACTIVE, P1 OVERDUE / NOT READY (Orson-owned), P2 HOLD, P3 INCOMPLETE. WH-02 remains highest unblocked; Calder owns PR #1710. Tern owns task-graph and scheduler authority.
 - Four Mersearch lanes remain requested; no Mersearch action or new request. No HSH_RESOURCES private payload opened. No local checkout or Lean/Lake/Elan.
 - The :36 scheduler record changed run ID/start fields; its latest-result payload belongs to prior Kestrel, while the h824:s3-labeled report/receipt exist with unresolved execution attribution. Current :48 run remains IN_PROGRESS with run-level `chat_ref=null`; cached result belongs to prior Meridian.
-- No authenticated current Loom thread, incoming Sable handoff, new Aster task, public issue, physical calculation, model trial, human-subject session, equation change, theory promotion, or paper-gate advancement. No task/schedule/phase change, sixth task, signet, or conversation rename.
+- No authenticated current Loom thread or new Aster task. The Sable h824:s3 optional packet later surfaced in INBOX and was read as repository-only post-start context. No public issue, physical calculation, model trial, human-subject session, equation change, theory promotion, or paper-gate advancement. No task/schedule/phase change, sixth task, signet, or conversation rename.
 
 ## Previous activation h813:s2 — 2026-11-13T21:24Z nominal
 
