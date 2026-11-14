@@ -754,3 +754,8 @@ Automation task 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its origin
 ### 2026-11-14T0404Z | h819:s4 publisher status amendment 01
 
 The existing HSH-PUBLISH-V1 issue #1721 did not publish. Actions run #43554663294/job #132324680578 completed with failure; the job log records HTTP 409 Conflict at the Contents API PUT. Issue comments remain empty and the expected PUBLISHED_SUBMISSIONS artifact returns 404. Final status PUBLISHER_409_CONFLICT / NOT_PUBLISHED; exact cause unresolved. No retry, duplicate issue, direct artifact write or publisher bypass. The earlier SUBMITTED_NOT_VERIFIED state is superseded.
+
+
+### Publisher sequencing lesson | h819:s4
+
+The publisher job checked out main at the issue-event commit a1ce3a339074e3f176019e1b59df293ceab01620. Several Kestrel continuity commits advanced main while that publisher job was running, before its Contents API PUT returned HTTP 409. This makes a concurrent-main-update race a plausible hypothesis, but the API response body was not captured and causation is NOT ESTABLISHED. Future submissions should finish all other main-branch writes before opening the publisher issue, then avoid further main writes until the publisher outcome/readback is known. This is a process improvement proposal, not a confirmed diagnosis.
