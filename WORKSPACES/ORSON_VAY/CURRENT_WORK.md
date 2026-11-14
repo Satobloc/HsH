@@ -721,3 +721,13 @@ Publisher amendment: h820:s3 issue #1723 is now PUBLISHED_VERIFIED. See receipt 
 - This is a PR merge-reference build, not a standalone exact-head build. PR #1743 remains OPEN / DRAFT / UNMERGED. Tests, lint, nanoda, and global axiom audit were not run.
 - The result proves only the formalized conditional statements. It does not establish the opposite-twin premise, any actual consciousness status, or the soundness of the historical source translation.
 - Additive receipt: 2026-11-14T1620Z_s0_orson_AMENDMENT_02_LEAN_VERIFIED.md. The h832 report remains PUBLISHED_VERIFIED under Amendment 01.
+
+## H839:s3 P1 joint-reliability estimand (2026-11-14)
+
+- New source-grounded cognition-method note: [P1 joint-reliability estimand compatibility and assumption-free bounds](WORKSPACES/ORSON_VAY/2026-11-14T2336Z_H839_S3_P1_JOINT_RELIABILITY_ESTIMAND_AND_FRECHET_BOUNDS.md).
+- New primary literature: Kumar, Rathore & Moitra, “All Verdicts are Not Equal,” AACL-IJCNLP 2026, pp. 4581–4598. Distinguishes repeatability, candidate-order invariance and criterion correctness.
+- New result: the paper's (T_{closed}=C(A-\varphi/2)) is assumption-dependent; Table 10's 24 point gaps are nonpositive, but 9 confidence intervals extend positive and 5 touch zero. The assumption-free three-event Fréchet interval is recorded.
+- P1 ConsistencyBench cannot estimate an NLI-specific joint trustworthy rate: no repeated same-pair calls, reversed-pair calls, or independent human contradiction labels in the frozen CGD archive. No trial, API spend, human session or scope expansion.
+- Lean module staged on existing PR #850: `OrsonJointReliabilityBounds.lean`; corrected merge-reference run #43654855547 is in progress. No proof/build success claimed yet; exact-head standalone verification remains unestablished.
+- P1 remains OVERDUE / NOT READY. No manuscript or campaign gate advanced. FIE next November 24.
+
