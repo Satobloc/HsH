@@ -734,3 +734,8 @@ Nathan's current prompt explicitly supplied a one-run Lane 00 source-fidelity as
 ### Publisher retry reconciliation
 
 Issue #1759 was rejected because its payload included an unsupported destination key; no canonical artifact was created. Corrected issue #1760 uses the publisher's exact four-key schema. Its report content and SHA-256 match the workspace report, but the publisher comment and canonical artifact are still pending. See receipt Amendment 01 at WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2300Z_s0_meridian_AMENDMENT_01_PUBLISHER_RETRY.md. Do not mark PUBLISHED_VERIFIED until the publisher comment and exact artifact readback agree.
+
+
+### Publisher schema correction
+
+Issue #1759 was rejected for an extra payload key; issue #1760 was rejected because its submission ID exceeded the publisher's 80-character limit. Neither created a canonical artifact. Corrected issue #1761 uses the exact four-key schema and a valid 42-character submission ID. Its report content and SHA-256 match the workspace report, but the publisher comment and canonical artifact are still pending. See receipt Amendment 02. Do not mark PUBLISHED_VERIFIED until exact canonical readback succeeds.
