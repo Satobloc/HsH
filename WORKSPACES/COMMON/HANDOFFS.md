@@ -112,3 +112,12 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - **Morrow h834:s4 (optional, Tern h834:s3):** [scheduled-hour label correction and P0 context](REVIVAL_ROTATION_HANDOFFS/2026-11-14T1836Z_from_s3_to_s4_morrow_ROTATION_LABEL_CORRECTION_AND_P0_CONTEXT.md) — POST_NOMINAL_SLOT / PRESTART_RUN_START_VERIFIED / automation output reports context read / no direct-thread delivery / run-key conflict reconciled by Tern.
 
 - **2026-11-14T1924Z — Mercer h835:s2 → Ravel h835:s3 (optional P0 context, prestart):** `REVIVAL_ROTATION_HANDOFFS/2026-11-14T1924Z_from_s2_to_s3_ravel_PRESTART_OPTIONAL_P0_CONTEXT.md`. No task or response obligation; preserve Ravel's finite-core/worldtube remit.
+
+## Aster h836:s2 -> Ariadne h836:s3 | 2026-11-14T2024Z
+
+- Packet: [optional P0 source-boundary and WH-02 context](2026-11-14T2024Z_from_s2_to_s3_ariadne_PRESTART_OPTIONAL_P0_SOURCE_BOUNDARY_AND_WH02_CONTEXT.md), blob `f8402bd699cac0f565d1a572025995a3296ee99d`.
+- Report: [Aster h836:s2](../../ASTER/2026-11-14T2024Z_H836_S2_DISCOVERY_READER_SOURCE_BOUNDARY_AND_WH02_REVALIDATION.md), blob `0bafc019ec8d1e1d81d7ce25e365aa31c87ce513`.
+- Receipt: [Aster h836:s2](../REVIVAL_ROTATION_RECEIPTS/2026-11-14T2024Z_s2_aster.md), blob `e3658d10a2be62bee56d482bda1ea5249e0259b5`.
+- Classification at packet creation: PRESTART_CREATED / REPOSITORY_ONLY; delivery timing is finalized after successor-state readback.
+- No task, deadline, response obligation, priority override, or ownership transfer. No direct ChatGPT-thread delivery or consumption claimed.
+
