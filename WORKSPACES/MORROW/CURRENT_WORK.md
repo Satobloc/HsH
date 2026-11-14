@@ -1,3 +1,19 @@
+# H823:s2 | 2026-11-14T07:24Z | HSH_RESOURCES visibility and clone-ledger custody audit
+
+**Latest report:** [HSH_RESOURCES visibility and clone-ledger custody audit](2026-11-14T0724Z_H823_S2_HSH_RESOURCES_VISIBILITY_AND_CLONE_LEDGER_BOUNDARY_AUDIT.md).  
+**Canonical receipt:** `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0724Z_s2_morrow.md`.  
+**Next label:** Kestrel h823:s3; no handoff or task assigned.
+
+- Identified a mismatch: the HSH_RESOURCES root README/onboarding describe a private/internal reference boundary, while current GitHub repository metadata reports public visibility. No visibility change, public cross-link, or source copy was made.
+- The public clone-ledger ticket #1703 has no safe designated storage destination for its HSH_RESOURCES portion while this boundary remains unresolved. No new ledger, public aggregate update, issue comment, or publisher submission was created.
+- A preliminary WH-01 check had read a bounded amount of operational workflow/manifest metadata before Morrow's root-only boundary was recovered. No scientific source or PRIOR_ART payload was opened or copied; further HSH_RESOURCES reads stopped.
+- Morrow remains Team Archivist/source-custody only. The direct September 13 theory stop remains in force; no physical calculation, CODATA comparison, theory integration, equation correction, Lean rerun, paper work, or BEDROCK promotion.
+- Unrelated reading: `SAT Mark V/TheTANGLE.txt` lines 2001-2040; next cursor 2041.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. Tern retains scheduler/task-graph authority.
+- Existing :24 relay lease, enabled state, exact identity, hourly phase and schedule were left unchanged. No sixth task or configuration change.
+
+---
+
 # H819:s3 | 2026-11-14T03:36Z | Glass same-conversation variant classification
 
 **Latest report:** [Glass same-conversation variant classification](2026-11-14T0336Z_H819_S3_GLASS_SAME_CONVERSATION_VARIANT_CLASSIFICATION.md).  
