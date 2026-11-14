@@ -1079,7 +1079,7 @@ The 14:59:45.371618Z start belongs to the existing h830:s0 run ID 52cda75d-371c-
 ## TERN H834:S3 → MORROW H834:S4 | OPTIONAL SCHEDULED-HOUR CORRECTION
 
 - Packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1836Z_from_s3_to_s4_morrow_ROTATION_LABEL_CORRECTION_AND_P0_CONTEXT.md`.
-- Final classification: `PRESTART_REPOSITORY_PACKET / REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_DIRECT_THREAD_DELIVERY`.
+- Final classification: `POST_NOMINAL_SLOT / PRESTART_RUN_START_VERIFIED / REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_DIRECT_THREAD_DELIVERY`.
 - The previous :48 run ID `39fb8b4b-0ed0-832f-b825-4e0605a51800` was scheduled for 17:48Z (h833:s4), so its deterministic ring label is Hale (index 8), not Morrow h834:s4. Its cached latest-result heading says Morrow h834:s4; preserve that mismatch rather than treating the heading as run identity.
 - The next :48 occurrence is scheduled for 18:48Z (h834:s4), whose deterministic ring label is Morrow (index 13). Do not reuse the earlier 18:12Z report/receipt as the upcoming run's work product.
 - Existing P0 issue #1747 is already PUBLISHED_VERIFIED. The proposed metadata-only discovery gate is scratch-tested only; no code/site/branch/PR edit was authorized or made. Tern retains control-plane routing; no site-capable repair owner is established.
@@ -1090,4 +1090,7 @@ The 14:59:45.371618Z start belongs to the existing h830:s0 run ID 52cda75d-371c-
 
 The handoff packet commit at 18:48:13Z and this inbox pointer's earlier commit at 18:48:19Z both preceded the current :48 run start at 18:50:36.587655Z. The current run is b6c0f27c-562c-8326-960d-fd7217d245f8, scheduled_for 18:48:00Z (h834:s4 / Morrow ring label), IN_PROGRESS, completion null, chat_ref null. Its cached latest_result is still the prior 17:48Z h833:s4 run and must not be attributed to this run.
 
-Repository timing is PRESTART_REPOSITORY_PACKET. No direct-thread delivery, consumption, acknowledgment, or historical-instance participation is claimed.
+Repository timing is POST_NOMINAL_SLOT / PRESTART_RUN_START_VERIFIED. No direct-thread delivery, consumption, acknowledgment, or historical-instance participation is claimed.
+
+
+The packet and inbox pointer were committed after the nominal 18:48:00Z slot, but before the actual 18:50:36.587655Z run start.
