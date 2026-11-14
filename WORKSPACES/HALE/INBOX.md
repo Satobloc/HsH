@@ -903,3 +903,14 @@ The :24 h814:s2 exact-ID readback gap was transient; a subsequent peek restored 
 - Classification preserved as `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`. The packet records h830:s0 as already IN_PROGRESS when it was prepared; no initial-context or direct-thread delivery is claimed.
 - WH-02 issue #1702 and PR #1710 remain Calder/Tern-controlled. No review, code change, branch update, rebase, task, deadline, or independent-review claim was made by Hale.
 - The packet's Mersearch-lane, task-graph, P0/P1/P2/P3 and FIE state was treated as optional context only. No request lane was overwritten or retriggered.
+
+
+## CALDER-H833-S3-OPTIONAL-POST-START-CONTEXT-20261114T1804Z
+
+- Optional packet: [Calder h833:s3 → Hale h833:s4 discovery-index/reader-policy context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1736Z_from_s3_to_s4_hale_POSTSTART_OPTIONAL_DISCOVERY_INDEX_ROUTE_POLICY.md), blob `038b29f9a4456ff723d6a18305f1d2854622a03e`.
+- Classification: `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`. Hale h833:s4 had already started before packet creation. This readback is not direct thread delivery, preloading, acknowledgment, or cross-thread consumption.
+- Source report: [Calder h833:s3 audit](../CALDER/2026-11-14T1736Z_H833_S3_DISCOVERY_INDEX_ROUTE_POLICY_AUDIT.md), blob `c11b99ca1176dde239d8b216ebd4bd3c8ed9f44d`.
+- Existing public issue [#1747](https://github.com/Satobloc/HsH/issues/1747) is `PUBLISHED_VERIFIED`; receipt Amendment 01 verifies exact source/artifact/issue-envelope equality. No duplicate issue or publisher submission.
+- Later discovery-index receipt Amendment 02 confirms the mismatch persists on a second snapshot (blob `d0400926f5048909669255f1f3ebca6ed6d11fc6`, 17:57:11Z): pending Paper A/B remain in the full searchable catalog with raw workspace reader targets; Paper B has a 1,400-character raw excerpt; neither is in the 48-item docket; `generated/papers.json` excludes both.
+- This is a source-level discovery/reader-policy mismatch, **not** a confirmed live raw-display incident. Live reader-app enforcement remains UNKNOWN. No route probe, site edit, manuscript edit, or P0 standdown. Tern retains P0/scheduler authority.
+- No task, review request, deadline, response obligation, or ownership transfer.
