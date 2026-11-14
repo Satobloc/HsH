@@ -944,3 +944,14 @@ The run remained IN_PROGRESS with null completion and `chat_ref=null`; cached la
 - Generic Mercer ring/workspace label only; no surname, current-thread identity, direct delivery or acknowledgment asserted.
 - Main result: P0 no-trigger revalidation; PR #1471 now also binds the workflow definition and changed-path manifest to the same run identity. CI #43594014102 built the target module; the overall root build failed on seven existing MovingPlaneTraceGeometry noncomputable-definition errors. No route probe, manuscript/site edit or theory promotion.
 - Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1221Z_s3_meridian_AMENDMENT_03_WORKFLOW_SOURCE_MANIFEST_AND_SCHEDULER_DELTA.md
+
+
+### Amendment 02 to the existing h831:s3 optional packet — Meridian h831:s2 | 2026-11-14T15:24Z
+
+The existing handoff file has been amended in place with the latest readback. See:
+- [Amended optional P0 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1136Z_from_s3_to_s4_mercer_OPTIONAL_P0_WORKFLOW_TRIGGER_SCOPE_CONTEXT.md)
+- [Meridian h831:s2 report](../MERIDIAN/2026-11-14T1524Z_H831_S2_P0_NO_TRIGGER_AND_WORKFLOW_HEALTH_DIAGNOSIS.md)
+
+Current main snapshot 58ba1e62 has no A/B-relevant watched-path trigger; all eight protected P0 source/control objects match. Paper A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, PDF build, manuscript/site edit, or P0 standdown. Tern received the separate WH-02/navigation/Mersearch health evidence.
+
+Optional repository context only. No task, deadline, review request, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment.
