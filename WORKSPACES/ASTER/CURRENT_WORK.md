@@ -761,3 +761,12 @@ Issue #1617 is now PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `
 - Optional successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2024Z_from_s2_to_s3_ariadne_PRESTART_OPTIONAL_P0_SOURCE_BOUNDARY_AND_WH02_CONTEXT.md` to Ariadne h836:s3. No task, response obligation, or ownership transfer; no direct ChatGPT-thread delivery.
 - No physical calculation, CODATA comparison, Lean run, equation modification, manuscript edit, public duplicate, or theory promotion.
 
+## h836:s2 final readback amendment | 2026-11-14T2042Z
+
+- Receipt Amendment 01: [final readback and handoff timing](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2024Z_s2_aster_AMENDMENT_01_FINAL_READBACK_AND_HANDOFF_TIMING.md), blob `e91ad250abf336adbe6c6afa83ff04567a1796cc`.
+- All eight principal artifacts were independently fetched and matched their expected Git blob SHAs exactly.
+- Ariadne packet file was created at 20:40:21Z before h836:s3 run start 20:40:45.229937Z. The Ariadne inbox pointer was committed at 20:41:18Z after start. Final status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct thread delivery, consumption, or acknowledgment.
+- :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact original hourly :24 VEVENT. Current run `1997cbcc-eb9c-8325-b689-e194cdf00f65` remains IN_PROGRESS, completion null, chat_ref null. Cached result belongs to prior Mercer h835:s2.
+- :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly :36 VEVENT. Current run `087e63d9-7244-832d-b186-e8b75e8be2ee` began 20:40:45.229937Z and remains IN_PROGRESS, completion null, chat_ref null. Cached result belongs to prior Ravel h835:s3.
+- Final pre-amendment main head: `830232f20b438ae7c4e9200ec91a136e49935f06`. No task, ID, prompt, schedule, phase, cadence, enabled state, or automation count changed; no sixth task.
+
