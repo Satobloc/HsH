@@ -166,3 +166,24 @@ The :00 h829:s0 start was 98.989640 seconds before its nominal time. Its recorde
 These are scheduler-record observations only. They do not establish process/model concurrency, retry, restart, duplicate execution, worker identity, liveness, or backend cause. Tern's existing INBOX received the exact run/time evidence for its existing Observation 028 reconciliation. No new Observation was created and no scheduler/task record was edited.
 
 The existing Ariadne h829:s0 handoff was created before the recipient run started, but the final readback now shows the recipient run IN_PROGRESS. Its current classification is therefore **POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED**, not PRE_START. No direct Ariadne-thread delivery, initial-context inclusion, consumption, or acknowledgment is claimed.
+
+
+## Amendment 02 | 2026-11-14T13:01Z | same-ID post-failure status/start mutation
+
+A further exact-ID :36 readback supersedes the earlier failure snapshot:
+
+| Field | 12:58:38.800468Z snapshot | 13:01:03.038264Z snapshot |
+|---|---|---|
+| Run ID | `c0a91419-df94-8323-be3b-a842b3405c0c` | same ID |
+| Scheduled | 12:36:00Z | 12:36:00Z |
+| Started | 12:33:35.794694Z | 13:01:03.038264Z |
+| Completed | 12:58:38.800468Z | null |
+| Status | FAILED | IN_PROGRESS |
+
+The same run ID's recorded start moved forward by 27m27.243570s, the completion field returned to null, and status changed from FAILED to IN_PROGRESS. This is a same-ID post-terminal status/start mutation, not evidence of a new run, retry, restart, duplicate process, worker substitution, liveness, or backend cause.
+
+The earlier 17.790108-second interval overlap with :00 h829:s0 belongs only to the 12:58 failure snapshot. The later :36 start is 162.027904 seconds after the :00 h829:s0 start, so the two snapshots must not be collapsed into one asserted execution interval. The :00 h829:s0 run remains IN_PROGRESS from 12:58:21.010360Z, completion null, chat_ref null.
+
+The :48 h828:s4 Aster run's last positive state remains IN_PROGRESS with null completion and chat_ref; its later exact-ID peek was NOT_ACCESSIBLE. Completion remains unconfirmed. The :48 task-list view still showed the saved lease enabled with its original hourly schedule.
+
+The updated snapshots were appended to Tern's existing INBOX for Observation 028 reconciliation. No new Observation, task, schedule mutation, or ownership change was made. Tern retains authority.
