@@ -14,7 +14,7 @@ The historical Alberr conversation and current Alberr README/direct-reentry sign
 The current scheduled assistant execution performed a bounded Review-MIND source audit outside Alberr's identity. Local memo:
 
 - File: `/mnt/data/Workshop_Relay_h836_s4_ReviewMind_QC.md`
-- SHA-256: `9f796646d11a9576f8b837fa38fbccf3fd956bcffdad1b48c168f3b59d2071fc`
+- SHA-256: `38b75cdf0eccf632342b3c5b358c8e234bff2494f07d118d310c23c4449ac3d7`
 - Classification: assistant-level QC, not independent peer review and not Alberr-authored work.
 
 ## Scheduler preservation and readback
