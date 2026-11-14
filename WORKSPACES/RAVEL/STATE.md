@@ -579,3 +579,16 @@ The Orson h775:s0 optional handoff was repository-committed at 07:03:05Z, after 
 - Cross-lease snapshot: :00 h778:s0 Kestrel completed; :24 h779:s2 Aster in progress; :36 h778:s3 Ravel in progress; :48 h779:s4 Alberr in progress. No h778:s4 Orson run record surfaced.
 - Tern observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1030Z_H778_S2_S3_RUN_OBJECT_READBACK_AMENDMENT_06_1151Z_CROSS_LEASE_SLOT_DIVERGENCE.md. Tern INBOX pointer was read back.
 - No attempt ID, retry/restart/duplicate/process-liveness/worker-identity/cause inference. No automation changes.
+
+
+## h835:s3 — NIST point-mass factor reconciliation (2026-11-14T19:36Z)
+
+The h816 continuation task was advanced with a source-bound conditional sensitivity diagnostic. The final NIST paper reports 0.457946 for the Section 6.1 analytic ideal point-mass model and 0.457999 for the Table 10 numerical point-mass/no-disk simplification. The relative difference is 115.7 ppm. If the two calculations are intended to share identical inputs, this corresponds to about 25.27 ppm in eta (c_eta≈4.58), or +3.03 µm in Rt / -5.41 µm in Rs. The shift is about 9.7× the stated 2.6 ppm eta uncertainty, but this is not a significance claim because the two values are model outputs and their input identity is not established.
+
+The Table 10 kg² m⁻¹ annotation is dimensionally inconsistent with the paper's torque equation; Gamma is dimensionless. The known small offset, mass-nonidentity and density-gradient terms do not independently explain the difference. Table 15's configuration-specific Rs spread is 18 µm, but its sign does not identify the Table 10 input. Exact point-mass coordinates, maximization angle, input manifest and code/version remain missing.
+
+Report: 2026-11-14T1936Z_H835_S3_NIST_POINT_MASS_FACTOR_RECONCILIATION.md  
+Amendment 01: 2026-11-14T1936Z_H835_S3_NIST_POINT_MASS_FACTOR_RECONCILIATION_AMENDMENT_01_HANDOFF_POINTER_RECHECK.md  
+Related prior public issue: #1716. Additive follow-up: #1750, publisher verification pending.
+
+No raw torque fit, CMM point-cloud analysis, independent measurement, H(s)H prediction, P2 selection, Lean theorem/build, equation change or BEDROCK promotion. P0 remains ACTIVE; P1 remains Orson-owned and OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE.
