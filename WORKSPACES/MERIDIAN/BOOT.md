@@ -149,3 +149,6 @@ Nathan's 2026-11-14 prompt explicitly supplied Lane 00 source-fidelity work for 
 
 
 Publisher retry status: h839 issue #1759 was rejected for an extra payload key; corrected issue #1760 uses the exact four-key schema. No canonical artifact existed at last readback. Keep PUBLISHER_SUBMITTED_NOT_VERIFIED until issue #1760 posts a success comment and the canonical artifact matches the report SHA-256. See receipt Amendment 01.
+
+
+Publisher status update: #1759 and #1760 were rejected by the existing publisher validator; neither created an artifact. Corrected issue #1761 uses a valid submission ID and exact four-key schema. Keep status PUBLISHER_SUBMITTED_NOT_VERIFIED until the publisher comment and canonical artifact readback agree. See receipt Amendment 02. Do not create another retry unless #1761 returns a specific failure.
