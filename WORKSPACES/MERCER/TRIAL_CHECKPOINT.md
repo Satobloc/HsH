@@ -10,7 +10,7 @@
 
 - Report: `WORKSPACES/MERCER/2026-11-14T1536Z_H831_S3_P0_PENDING_SOURCE_NONLEAKAGE_AND_DUAL_ANCHOR_REVALIDATION.md` (blob `32da316581a2efa59eafada49d42f30c4c31c9e7`).
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1536Z_s3_mercer.md`.
-- Ravel optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1536Z_from_s3_to_s4_ravel_PRESTART_OPTIONAL_P0_NONLEAKAGE_RECHECK.md` (blob `5236ace7a2babd4b1720ba39418b1665978744e5`).
+- Ravel optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1536Z_from_s3_to_s4_ravel_PRESTART_OPTIONAL_P0_NONLEAKAGE_RECHECK.md` (blob `79eb8b88918b61c9055da003e44e0f783dedbb09`).
 - Pre-write HsH main: `d0b2dfd62b9a8cf15c018c7b80848365cce26cfb`; delta from Meridian h831:s2: 11 commits ahead / 0 behind / 8 changed paths; only changed PUBLIC_SITE path was generated discovery JSON; no A/B watch trigger.
 - Both A/B feed-pinned source refs match the feed manuscript blobs and current-main source blobs. All eight protected P0 source/control objects remain exact; canonical ordered manifest SHA-256 `4169d973a90afea656f37fd42fef69488b195ab358888a5794cdc4bd1d80eea7`.
 - New acceptance check: pending A/B `sandbox_manuscript` feed entries remain absent from ordinary `PUBLIC_SITE/generated/papers.json`; PASS for repository-index non-leakage. Actual routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe or standdown.
