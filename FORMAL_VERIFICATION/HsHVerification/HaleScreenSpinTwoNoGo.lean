@@ -28,22 +28,27 @@ fixture is introduced.
 
 namespace HsHVerification.HaleScreenSpinTwoNoGo
 
-/-- The coefficient of the oriented area 2-form is invariant under a
-    proper screen quarter-turn. -/
+/-- Stipulated trivial action on the coefficient of an oriented area 2-form
+    under a proper screen quarter-turn. The geometric derivation from an
+    actual screen rotation is not formalized in this module. -/
 def areaFormQuarterTurn (x : ℝ) : ℝ := x
 
-/-- In the plus/cross basis, spin 2 doubles the screen angle. A screen
-    quarter-turn therefore acts as a half-turn on polarization components. -/
+/-- Stipulated spin-2 action on plus/cross coordinates for a screen
+    quarter-turn. The construction from an STF rank-2 tensor rotation is
+    not formalized in this module. -/
 def spinTwoQuarterTurn (v : Fin 2 → ℝ) : Fin 2 → ℝ :=
   fun i => -v i
 
-/-- Any real-linear map intertwining the trivial area-form action with the
-    spin-2 quarter-turn action is zero.
+/-- Any real-linear map intertwining these two stipulated quarter-turn
+    actions is zero.
 
-    Full SO(2)-equivariance implies this generator condition. The result
-    excludes only a nonzero linear map from the area-form coefficient alone;
-    it does not exclude nonlinear maps or maps supplied with additional
-    frame, field, derivative, or other spin-carrying data. -/
+    This proves the single-generator algebraic consequence only. A separate
+    geometric argument must derive the two actions from orientation-preserving
+    screen rotations and the STF rank-2 plus/cross representation before the
+    result can be read as a theorem about those geometric objects. It excludes
+    only a nonzero linear map from the area-form coefficient alone; it does
+    not exclude nonlinear maps or maps supplied with additional frame, field,
+    derivative, or other spin-carrying data. -/
 theorem equivariant_map_from_area_form_to_spin_two_is_zero
     (f : ℝ →ₗ[ℝ] (Fin 2 → ℝ))
     (h_equivariant : ∀ x,
