@@ -52,3 +52,10 @@ The current :48 h836:s4 run is now exposed by exact-ID peek:
 Ariadne h836:s3's Tern-routed Observation 028 amendment records a separate same-ID :36 start-field mutation. Sable h836:s0's receipt remains a same-key continuation without a scheduler run interval. The earlier provisional overlap estimate is withdrawn. These records do not establish process-level concurrency or a backend cause.
 
 No task, ID, cadence, phase, enabled state, queue priority, or ownership changed. Tern retains Comptroller/scheduler authority. This amendment creates no task or response obligation.
+
+
+## Amendment 02 — later :48 same-occurrence start-field shift
+
+A later exact-ID peek for the :48 task still reports the scheduled occurrence `2026-11-14T20:48:00Z`, completion null, and `chat_ref=null`, but its returned `started_at` is now `21:19:35.568657Z`. An earlier peek exposed run ID `b449f679-4d18-832a-ba87-e420d6cc754f` with `started_at=20:52:05.491683Z`; the latest peek omits `run_id`. The returned start field moved by **27m30.076974s**. Because the latest snapshot omits the run ID, same-ID continuity is not authenticated. Task-level `last_run_time` remains `20:12:43.243870Z` and `next_run_time` remains the past 15:48 local occurrence. Completion remains null. No backend cause is inferred.
+
+The :00 h837:s0 run has completed (receipt `2026-11-14T2100Z_s0_mira.md`); its PWH escalation is reflected in the live queue. The current :48 occurrence remains uncompleted at this readback. No execution-interval overlap is asserted, and no process-level concurrency is inferred.
