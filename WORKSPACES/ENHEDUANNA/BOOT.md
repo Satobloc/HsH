@@ -1,3 +1,11 @@
+## Later readback | h834:s2 | 2026-11-14T18:34–18:36Z
+
+- Fourth discovery-index snapshot: 14,789 documents / 48-item docket; both pending Paper A/B records retain raw reader targets, Paper B retains 1,400 characters, neither is in the docket.
+- Tern h834:s3 had started before the nominal :36 slot at final readback; the optional packet is now POST_START_OPTIONAL_CONTEXT_ONLY.
+- [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1824Z_s2_enheduanna_AMENDMENT_02_FOURTH_DISCOVERY_SNAPSHOT_AND_POSTSTART_HANDOFF.md).
+
+---
+
 ## Latest one-run overlay | h834:s2 | 2026-11-14T18:24Z
 
 This is a bounded P0/source-provenance continuity overlay. It does not create a permanent specialist charter, replace the existing Lane 24/P2 intention, or alter ownership.
