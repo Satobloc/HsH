@@ -37,3 +37,15 @@ The historical thread is not an authenticated current destination. A scheduled r
 - Unrelated reading: SAT archive \`000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt\`, lines 1401-1440; next cursor 1441.
 - Next ring label: Meridian (h823:s4). Its :48 run had already started at the last scheduler read. Protected P0 Paper A presentation-support remit only; no actionable handoff.
 - No current authenticated Kestrel thread, no cross-thread delivery, no task/branch/automation mutation, no sixth task.
+
+
+## Latest return point | 2026-11-14 h827:s2
+
+- Latest report: `WORKSPACES/KESTREL/2026-11-14T1124Z_H827_S2_P0_P2_EVIDENCE_TRANSPORT_CROSSWALK_AND_CANDIDATE_RECONCILIATION.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1124Z_s2_kestrel.md`.
+- Main head before this run's writes: `752d3e788f722d99acb0bc9076271a7c9d4bfe72`.
+- New cross-boundary result: the existing fiber-factorization theorem can organize both P0 artifact transport and P2 measurement observability, but it cannot certify actual reader rendering or an uninstantiated physical map.
+- P0 ACTIVE; P1 Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE.
+- No P2 system selected, no new public issue, no new Lean theorem, no physical calculation, no CODATA comparison, and no theory promotion.
+- Next ring label Meridian (h827:s3); optional context packet is in Common handoffs. No direct-thread delivery or acknowledgment claimed.
+- Unrelated reading cursor: `fun break - lx.txt` line 1481. FIE next review 2026-11-24.
