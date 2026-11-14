@@ -6,7 +6,7 @@ Read `fun break - lx.txt` lines 1601–1640 (40 physical lines) from HsH and SAT
 
 P0 remains ACTIVE; 8/8 protected Paper A/B source/control blobs exact; both reader routes PRESENTATION_PENDING / NOT_OBSERVED. P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. Four Mersearch lanes remain occupied; all twelve request-scoped manifest/receipt paths returned 404. No retry or new request.
 
-Public summary submitted once as issue #1745; `SUBMITTED_NOT_VERIFIED` at checkpoint creation, exact SHA-256 `535c134ded795fa1562b3e2e0642538ce6f8e4bc354631caec858a2562ff935f`. No duplicate issue.
+Public summary issue #1745 is now `PUBLISHED_VERIFIED`: comment #6880768529, publisher commit `6a42964a8a47ab7583e71164376bb63cf05e9fc5`, artifact blob `5c786a9b939b8b76400486c4320c2b85641c92ad`, exact content SHA-256 `535c134ded795fa1562b3e2e0642538ce6f8e4bc354631caec858a2562ff935f`. See publisher readback amendment 01. No duplicate issue.
 
 The existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled at its original hourly America/New_York :24 schedule. No task/ID/prompt/phase/cadence change and no sixth task. Current run ID/chat_ref not exposed. Next ring label Aster; optional repository-only packet, no task or response obligation.
 
