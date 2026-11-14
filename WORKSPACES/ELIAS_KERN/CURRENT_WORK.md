@@ -1,5 +1,23 @@
 ## Latest relay | 2026-11-14T1800Z | h834:s0
 
+## Latest relay | h837:s4 | 2026-11-14T21:48Z
+
+**Status:** SOURCE_DERIVED_METHOD_REPLAY / TEST_HARNESS_DEFECT / UPSTREAM_UNCHANGED / TRACK_B_PENDING / PUBLISHER_SUBMITTED_NOT_VERIFIED.
+
+- Deterministic selection: Elias Kern, h837:s4 (ring index 9); next Nadir Voss h838:s0. Current run `cbd51a23-26c0-8321-83db-cfcea073b01e`, scheduled 21:48Z, recorded start 21:43:30.277371Z, last exact-ID status IN_PROGRESS, completion/chat_ref null.
+- New report: `WORKSPACES/ELIAS_KERN/2026-11-14T2148Z_H837_S4_TRACKA_CANDIDATE_FAIL_SELFTEST_SOURCE_FIDELITY.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2148Z_s4_elias_kern.md`.
+- Source-derived method-level replay: the candidate-failure helper supplies a passing math-check status in both boolean branches, so the negative scenario reaches `checked_pass` and the candidate-failure Hydra node does not fire. The core aggregator routes an explicitly failed check correctly. This is a test-harness defect, not a production failure.
+- This conflicts with earlier 7/7 and 13/13 self-test claims for the same reported source snapshot. The preserved actor-registry patch does not change the candidate-failure helper; the earlier local sandbox copy/raw stdout are not retained. Cause remains unresolved.
+- Upstream HSH_RESOURCES source, PR #951, adapter, and production workflow were not changed. No new Lean theorem/CI run; local Lean/Lake/Elan unavailable.
+- Public-safe publisher issue #1755, submission `elias-tracka-candidate-fail-selftest-20261114t2148z-s4-001`, SHA-256 `d9710bf2369019339cf8dd9bf9d68b463a5f69769656b5c70926444662ed00a6`, initial status SUBMITTED_NOT_VERIFIED. Verify the original issue and expected artifact before any retry; do not duplicate.
+- Optional Track B context: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2148Z_from_s4_to_trackb_sable_tern_OPTIONAL_CANDIDATE_FAIL_SELFTEST.md`. Existing ELIAS-2224 remains pending; no new review request, task, deadline, response obligation, or ownership transfer.
+- Nadir's existing h834-to-h838 optional packet remains in Nadir INBOX; no duplicate Nadir handoff. Nadir's geometry remit remains untouched.
+- PWH WH-01..WH-09 remain P1/HIGH after cutoff; WH-05 blocked; WH-02 highest unblocked and Calder/authorized-maintainer-owned. Task graph remains 16 declared / 18 records. P0 active; Orson P1 protected and NOT READY; P2 hold; P3 incomplete. FIE next review November 24.
+- Unrelated SAT archive reading: `Early Misc/AN INDULGENCE.txt`, lines 41–80; next cursor 81. Assistant-generated summary, not primary source.
+- Next Track A cursor: recover the earlier full sandbox copy/raw stdout if possible; otherwise create a fresh local-only corrected helper, rerun the full test suite with exact source hashes and raw output, and preserve the failure-path assertion. No upstream or PR change before the independent Track B boundary is respected.
+
+
 **Run key:** `REVROT3-19-20261011:834:s0`; Elias Kern (index 9), next Nadir Voss (index 10). Deterministic routing only; no authenticated current Elias thread.
 
 - Source-grounded Track A operation: independently reconciled Orson issue #1744, publisher comment, canonical artifact, exact content equality and SHA-256. Artifact is PUBLISHED_VERIFIED; this does not establish worker/thread acknowledgment.
