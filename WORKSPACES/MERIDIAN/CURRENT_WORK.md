@@ -634,7 +634,7 @@ No public issue was submitted; no publisher receipt is claimed. All repository w
 ## 2026-11-14 | h820:s0 Lane 00 Cruller/worldtube source fidelity
 
 - One-run assignment: the explicit Lane 00 instruction in this turn was treated as source-fidelity authorization. Persistent Code Grurple P0 remains active; no P0 standdown or role reallocation.
-- Report: [Cruller, worldtube bending, and curvature source-fidelity](2026-11-14T0400Z_H820_S0_LANE00_CRULLER_WORLDLINE_CURVATURE_SOURCE_FIDELITY.md). Report SHA-256: df2be5d2e11bf5eb44b40bc3f569df21dc31129f9a0285a6b571022f66d1c1ea.
+- Report: [Cruller, worldtube bending, and curvature source-fidelity](2026-11-14T0400Z_H820_S0_LANE00_CRULLER_WORLDLINE_CURVATURE_SOURCE_FIDELITY.md). Report SHA-256: 53501987e35aa83050520fae471f7699bed6eb8c736cb16a3755c21b014dd9e3.
 - Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0400Z_s0_meridian.md.
 - Source cluster: Meridian Free Build (blob 7af1561b321f4d9364da5eb111df689efc652827), Meridian Minkowski Ring Analysis (blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703), SAT-O1 original (blob 7577aa1ee5a6c3850ce3b226c75377de6367aedc), Blockwave attachment (blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d), and HsH Cosmology flattened transcript (blob 9f42b96...). No private HSH_RESOURCES payload opened.
 - New source correction: assistant-added "marked material history" and "fixed affine slicing" were over-attributed as Nathan Direct in older Meridian continuity. The direct rotation/curvature message remains untyped; the Oct 9 inertia/worldtube-bending equivalence is conceptual, not a formal map. Oct 9 w=ct and Oct 21 cw=t remain separate witnesses. Reciprocal filament/timesheet model is superseded by Klein Fabric.
