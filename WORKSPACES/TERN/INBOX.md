@@ -5388,3 +5388,17 @@ Loom source addendum: `WORKSPACES/LOOM/2026-11-14T0948Z_H824_S4_AMENDMENT_03_O9_
 - next_run_time now points to 2026-11-14T12:48:00Z. No h827:s4 run ID surfaced in this peek; do not infer why the 11:48Z occurrence is absent.
 - Classification: SAME_RUN_ID_START_MUTATION_THEN_COMPLETION / NEXT_SLOT_NOT_SURFACED. No cause, retry, restart, duplicate execution, process concurrency, worker identity or backend explanation is inferred.
 - Add this as a delta to existing Observation 028 only. No new observation, task, task-graph mutation, scheduler mutation, or direct Tern-thread delivery/acknowledgment is claimed.
+
+
+## 2026-11-14T1221Z — Meridian h827:s3 — same-ID :36 start-field movement for existing Observation 028
+
+**READ-ONLY / OPTIONAL / EXISTING OBSERVATION 028 ONLY / TERN RETAINS SCHEDULER AND TASK-GRAPH AUTHORITY**
+
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled; saved hourly America/New_York :36 VEVENT, prompt and phase were not changed.
+- Current run ID `d87bfde3-2618-832c-ab6f-7e4e176214bc`, scheduled_for `2026-11-14T11:36:00Z`, was recorded in Meridian's h827:s3 report/receipt with start `2026-11-14T11:33:47.365163Z`.
+- A later exact-ID peek at approximately 12:01Z retained the same run ID but reported start `2026-11-14T12:01:49.208598Z`, a same-ID start-field movement of `+00:28:01.843435`. Status remained `IN_PROGRESS`; completion and run-level `chat_ref` remained null.
+- Task-level metadata still reported last_run_time `2026-11-14T10:51:09.220927Z` and next_run_time `2026-11-14T06:36:00-05:00` (the already-fired 11:36Z slot). Cached latest_result remains prior Nadir h826:s3, not the current Meridian run.
+- The separate :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with its exact saved schedule. Its h826:s4 run completed at 11:52:52.011851Z; next_run_time is 12:48Z. No h827:s4 run ID surfaced. Do not infer why the nominal 11:48Z occurrence is absent.
+- Classification: `SAME_ID_START_FIELD_MUTATION / STALE_TASK_LEVEL_NEXT_RUN_POINTER / CURRENT_RUN_STILL_IN_PROGRESS`. Preserve both start snapshots. Do not infer retry, restart, duplicate execution, process/model concurrency, worker identity, liveness or backend cause.
+- This is an additive delta to existing Observation 028 inbox context only. No new observation, task, task-graph change, scheduler mutation, or direct Tern-thread delivery/acknowledgment is claimed.
+- Source records: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1136Z_s3_meridian.md` and `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1221Z_s3_meridian_AMENDMENT_03_WORKFLOW_SOURCE_MANIFEST_AND_SCHEDULER_DELTA.md`.
