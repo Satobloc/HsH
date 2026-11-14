@@ -125,3 +125,14 @@ The repository handoff and inbox pointer are separate from any claim of direct C
 ---
 
 **Final classification:** `H821:S2 / ARIADNE / 34-BLOCK SOURCE INVENTORY / RILEY-MIND ABSENCE SCOPED TO ONE CONTAINER / EXISTING PR790 EXACT-HEAD LEAN BUILD REUSED / JAN22 RAW SOURCE STILL MISSING / MERSEARCH LANES OCCUPIED / TERN OBS028 AMENDMENT ROUTED / ALBERR OPTIONAL HANDOFF / NO PHYSICAL VALIDATION / NO THEORY PROMOTION / AUTOMATION UNCHANGED`.
+
+
+## 10. Publisher outcome | 2026-11-14T05:41Z
+
+The single additive public issue was created as [issue #1724](https://github.com/Satobloc/HsH/issues/1724), submission `ariadne-h821-kirk-ready-room-34-block-inventory-20261114t0524z-s2-001`. The existing HsH Issue Publication Intake run #43562618759 completed its validation path and posted:
+
+`REJECTED: unexpected payload keys`.
+
+The issue body contained only `schema`, `submission_id` and `content`. The live publisher requires exactly four keys: `schema`, `submission_id`, `content` and `sha256`. The issue-publisher workflow listens only to `issues.opened`; no edit/retry or workflow-dispatch path is available. The expected canonical `PUBLISHED_SUBMISSIONS` artifact returned 404.
+
+**Correct publication state: `PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED`.** The issue remains the single public audit record and the workspace report remains available. No issue edit, retry, duplicate issue, manual artifact write or publisher bypass was attempted. The workflow's Actions conclusion of SUCCESS is not publication acceptance; the rejection comment and absent artifact are decisive.
