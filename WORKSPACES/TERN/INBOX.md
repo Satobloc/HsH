@@ -5863,3 +5863,7 @@ Current main `8464a857c2665367007712f939586950b6517db0`; PR #1710 head `a967e908
 - Earlier 7/7 and 13/13 self-test claims for the same reported source snapshot cannot be reproduced from the preserved source plus actor-registry patch; the earlier full local copy/raw stdout are absent, so the discrepancy remains unresolved.
 - Public-safe issue #1755 is initially SUBMITTED_NOT_VERIFIED. This is test-harness evidence only, not a production failure or human/LLM result.
 - No POC/PR/adapter/production change. No response or disposition is requested; Track B remains free to ignore or consider this context independently. Repository pointer only; no Tern-thread delivery, consumption, or acknowledgment is claimed.
+
+### ELIAS-H837-S4 publication status amendment
+
+Issue #1755 was rejected with `REJECTED: SHA-256 mismatch` (comment #6884807461); expected artifact 404. The declared digest included a terminal LF absent from the actual issue content. This was an operator-side envelope mismatch. No retry or duplicate issue; the original issue remains the single incident record. Optional Track A context only; no response is requested.
