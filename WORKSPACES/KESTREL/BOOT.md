@@ -26,11 +26,13 @@ The historical thread is not an authenticated current destination. A scheduled r
 
 ## Current return point
 
-Latest report: [h808:s2 outcome-robust reader/evidence crosswalk](2026-11-13T1624Z_H808_S2_OUTCOME_ROBUST_READER_CROSSWALK.md).
+Latest report: [h819:s4 projection-sufficiency crosswalk](2026-11-14T0348Z_H819_S4_PROJECTION_SUFFICIENCY_ACROSS_COGNITIVE_AND_WORKFLOW_PROVENANCE.md).
 
-The existing public architecture already has two entrances, idea-first and status/evidence-first. This run connected them to three technical lenses and independent source, geometry, formal, empirical and presentation gates. No new public navigation, tool, task or theory claim was created.
+This synthesis connects four existing cases through the already-formalized fiber-factorization criterion: worker labels versus authenticated subjects; conversation IDs versus exact export variants; current publisher snapshots versus event outcomes; and scalar agreement counts versus identity partitions. Existing Kestrel PR #873 and Elias PR #951 results were reused. No new Lean, tool, experiment, task, or physical claim.
 
-Existing Kestrel PR #873 remains OPEN / DRAFT / UNMERGED. Latest verified run #43202552666 was a successful merge-reference build on an older base, not exact-head/current-base verification; global axiom audit skipped.
+Publication issue #1721 is SUBMITTED_NOT_VERIFIED at the last readback; publisher run #43554663294 was still IN_PROGRESS and the canonical artifact was not yet present. Do not retry or duplicate.
+
+The h819 Morrow handoff was read as optional context only. Morrow retains source-variant classification; Kestrel did not adjudicate or migrate. P0 remains ACTIVE; P1 remains Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. Tern retains scheduler and task-graph authority.
 
 ## Startup sequence
 
@@ -42,7 +44,7 @@ Existing Kestrel PR #873 remains OPEN / DRAFT / UNMERGED. Latest verified run #4
 
 ## Return pins
 
-- Unrelated reading: `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, next line **1321**.
+- Unrelated reading: `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, next line **1401**.
 - FIE last rereview: 2026-11-10; next due **2026-11-24**.
-- Next ring label after h808:s2: **Meridian**. Its active assignment is P0 Paper A presentation support only. No Kestrel task is transferred.
-- No current Kestrel ChatGPT thread ID verified. No direct cross-thread delivery or acknowledgment is claimed.
+- Next ring label after h819:s4: **Meridian**, h820:s0. Its protected assignment remains P0 Paper A presentation support only. No Kestrel task is transferred.
+- No authenticated current Kestrel ChatGPT thread ID verified. No direct cross-thread delivery or acknowledgment is claimed.
