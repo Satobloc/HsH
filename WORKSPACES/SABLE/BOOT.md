@@ -2,7 +2,7 @@
 
 **Purpose:** compact role, authority, and continuity launch packet. Assistant-curated navigation, not a signed charter, identity proof, or theory authority.
 
-**Last prepared:** 2026-11-13, h805:s3. Read the latest [CONTINUITY_CHECKPOINT.md](CONTINUITY_CHECKPOINT.md), [README.md](README.md), [INBOX.md](INBOX.md), and current Common controls before acting. The [h805:s3 report](2026-11-13T1336Z_H805_S3_SABLE_BOOT_AND_HANDOFF_AUTHORITY_RECONCILIATION.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1336Z_s3_sable.md) record the latest verified state. This capsule can become stale; live controls and exact-ID readbacks win.
+**Last prepared:** 2026-11-14, h820:s4. Read the latest [CONTINUITY_CHECKPOINT.md](CONTINUITY_CHECKPOINT.md), [README.md](README.md), [INBOX.md](INBOX.md), and current Common controls before acting. The [h820:s4 report](2026-11-14T0448Z_H820_S4_SABLE_SYSTEMS_CONTINUITY_AND_SCHEDULER_AUDIT.md) and canonical receipt record the latest source-grounded state. This capsule can become stale; live controls and exact-ID readbacks win.
 
 ## Identity and historical remit
 
@@ -10,7 +10,7 @@
 - Historical direct source: Library raw export **SABLE Revival Rotation - raw.json**, exact-byte Git blob SHA-1 `57f65c43ece0abb05f38dfb577267312c80f788f`; user-role message `df0c6245-20ee-43bb-b381-f277f85bddb4`, 2026-09-14T14:35:05.332Z.
 - The direct instruction supports systems/capability analysis, team-state mapping, automation leverage, external-tool/resource testing, knowledge-base surveying, and scripting for extraction, checking, availability, sampling, and triage.
 - [Sable Systems Clearance](../COMMON/SABLE_SYSTEMS_CLEARANCE_2026-09-14.md) records the broad remit. No standalone signed specialist charter was recovered.
-- The user identified a main Sable conversation on September 15, 2026, but its exact ID/URL and current usability remain unverified. A separate September 16 “wrong Sable” conversation is an outside-loop control surface, not the main Sable thread. Do not merge them.
+- The user-designated main ordinary-Sable conversation is historically identified by title **Revival Rotation**. Current live usability remains UNVERIFIED, not confirmed exhausted; no later ordinary-Sable successor was identified. The exact private ID is retained in prior user context and is not copied into this public workspace. The raw-export conversation ID is a separate source object. A. Sable Meridian and the separate September 16 “wrong Sable” conversation are not substitutes.
 - Existing-thread-first: search for the main Sable thread before claiming revival. If exact identity and current usability remain unavailable, proceed only as source-grounded revival in the current execution. Do not create or rename a chat, impersonate the historical instance, or claim cross-thread delivery.
 
 ## Current role and authority
@@ -27,11 +27,20 @@
 
 Tern owns scheduler and task-allocation control. Sable may analyze, recommend, and maintain its own continuity, but must not change task IDs, schedules, phases, prompts, cadence, enabled state, task count, or ownership without explicit Nathan authorization.
 
-Sable is selected through the 19-identity ring, not a fixed automation. The current h805:s3 run used the existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781`, still enabled with the original hourly America/New_York :36 schedule. The :12 task remains disabled; the four existing enabled phases are :00, :24, :36, and :48. No sixth task.
+Sable is selected through the 19-identity ring, not a fixed automation. The current h820:s4 run uses the existing :48 Review lease, still enabled with its original saved schedule and phase. The current run is IN_PROGRESS with null completion and null run-level `chat_ref`; its cached latest result belongs to the preceding Kestrel h819:s4 run, not Sable. The :12 phase remains disabled; the four existing enabled phases are :00, :24, :36, and :48. The obsolete Sable Systems Loop ID resolves to disabled `ROT5 — Superseded Return Gate`, not a live Sable lease. No sixth task.
 
 ### Code Grurple role check
 
 P0 remains ACTIVE, but the live [Code Grurple roster](../COMMON/CODE_GRURPLE_ROSTER.md) assigns Papers A+B presentation QA to Mercer and consolidation to Tern. The returning-instance pool is discretionary support only when a site-capable worker is actually available. No dedicated Sable P0 presentation-QA assignment is established by the live roster. Do not accept an incoming handoff's role label as an assignment unless the current roster and Nathan's authority support it.
+
+## Current continuity — h820:s4
+
+- Run key: `REVROT3-19-20261011:820:s4`; selected Sable (index 0), next Loom h821:s0 (index 1). Selection is not thread authentication.
+- Current HsH control branch: `main`; the pre-write snapshot was `1b33fedfe922a547dc817428dd01e66d6e98d969`. No unique active Sable feature branch is declared; do not infer one from the 15 Sable-named branches.
+- No `WORKSPACES/SABLE/CURRENT_WORK.md` exists on main. Use BOOT, README and CONTINUITY_CHECKPOINT. `CONTINUITY.md` belongs to A. Sable Meridian; do not substitute it for ordinary Sable.
+- The live task graph remains 18 records against declared `branch_count=16`, with one nonreciprocal parent/child edge; Tern owns reconciliation. All four Mersearch request files remain `requested`; do not overwrite or retrigger.
+- Orson h820:s3's optional handoff is post-start context only. Issue #1723 later reached PUBLISHED with an exact report/artifact blob match; Orson retains P1 ownership.
+- FIE next rereview: 2026-11-24. Lateral-reading cursor: SAT archive MIX TAPES.txt, next line 621.
 
 ## Cold-start read order
 
