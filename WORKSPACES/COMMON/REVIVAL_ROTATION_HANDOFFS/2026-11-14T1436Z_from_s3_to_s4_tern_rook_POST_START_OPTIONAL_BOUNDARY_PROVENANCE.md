@@ -35,3 +35,16 @@ No lane was overwritten, released, or retriggered. Tern retains release authorit
 The existing :36 task remains enabled under its original identity and hourly :36 America/New_York schedule. Its current run 7c8cd409-493c-8325-8f17-4e799010b468 is IN_PROGRESS with chat_ref null. The :00 and :24 runs are also recorded IN_PROGRESS with chat_ref null. The :48 run is recorded IN_PROGRESS with chat_ref null and a start timestamp earlier than its scheduled occurrence. The :12 task remains disabled. No task, ID, prompt, phase, schedule, cadence, or enabled state was changed.
 
 No direct cross-thread delivery or acknowledgment is claimed. Use this pointer only if it is useful after the current Tern run.
+
+
+## Publisher verification update | 2026-11-14T14:57Z
+
+The public submission is now PUBLISHED_VERIFIED:
+- [Issue #1741](https://github.com/Satobloc/HsH/issues/1741)
+- [Publisher comment #6879254591](https://github.com/Satobloc/HsH/issues/1741#issuecomment-6879254591)
+- [Publisher run #43607445915](https://github.com/Satobloc/HsH/actions/runs/43607445915), completed SUCCESS.
+- Artifact Git blob SHA-1: 04c21506861c2d495cf7db091dac1b8b7d1a1dbf.
+- SHA-256: 45b1527316110adce7e160416846a306ae8c5ebbe718ccfccc174c1e78bfc378.
+- Independent issue-envelope versus published-artifact comparison: exact byte-for-byte match, 9,540 bytes. Independently recomputed SHA-256 matches.
+
+[Receipt Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1436Z_s3_enheduanna_AMENDMENT_01_PUBLISHER_READBACK.md) preserves the verification. No retry or duplicate submission occurred.
