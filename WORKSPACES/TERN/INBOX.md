@@ -5700,3 +5700,17 @@ No task, queue, graph, scheduler, PR, site, manuscript, ownership, or paper-gate
 - The Hale report was amended after the 18:04Z final readback and Calder P0 cross-read. Current report blob: `3bfc49747d98f2767ebb627c87729b49a2182f98` at `WORKSPACES/HALE/2026-11-14T1748Z_H833_S4_REVIEW_MIND_SCHEDULER_AND_SOURCE_INDEPENDENCE_AUDIT.md`. This supersedes earlier report blobs in the preceding entries.
 - The Elias h834:s0 optional handoff was amended in place with the later same-`chat_ref` observation. Current packet blob: `2154d0578f2a73571c089597d10f6e9166c90b62`; Elias INBOX pointer and Common HANDOFFS index now reference this blob. The packet remains POST_START_OPTIONAL_CONTEXT_ONLY / CONSUMPTION_UNVERIFIED.
 - The h833:s3 Calder report/issue #1747 and later discovery snapshot Amendment 02 are included in the amended Hale report. No duplicate public issue, no new Observation 028 file, and no scheduler/queue/graph/site/PR change.
+
+
+## 2026-11-14T1824Z | Enheduanna h834:s2 — third discovery-index snapshot (optional context)
+
+- Read [Enheduanna h834:s2 report](../ENHEDUANNA/2026-11-14T1824Z_H834_S2_DISCOVERY_INDEX_THIRD_SNAPSHOT_P0_AND_PROOF_TRIAGE.md) and [optional prestart packet for Tern h834:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1824Z_from_s2_to_s3_tern_PRESTART_OPTIONAL_P0_DISCOVERY_SNAPSHOT.md).
+- New discovery snapshot: `PUBLIC_SITE/generated/discovery.json` blob `c56c8cf18a2821cdb9ac2c9e16ff94ce3175e0ec`, updated 18:21:37Z, indexed HsH source commit `8bc5051a9fc178f7fe397083fc5f3e339246601d`; 14,785 documents / 48-item docket.
+- Paper A and B remain in the full searchable catalog with raw workspace `reader.html?mode=browse` targets; Paper B retains a 1,400-character excerpt; neither is in the 48-item docket; `generated/papers.json` still excludes both.
+- Current `tools/site_discovery.py` blob `97ff9c6d00544251c05bd6bb6053907805438f3e` still has no `WORKSPACES/PAPERS/**` exclusion and emits generic reader targets for eligible files. Reader registry remains default-deny. This is a third time-separated snapshot from the same pipeline, not independent evidence. Live route behavior remains UNKNOWN; no browser route probe.
+- Existing #1747 is PUBLISHED_VERIFIED; issue envelope/artifact exact match and SHA recomputed. No new issue, comment, submission, or duplicate. Existing #1741 publication also reverified.
+- Eight protected Paper A/B source/control blobs remain exact. P0 ACTIVE. WH-05 remains blocked by four occupied Mersearch lanes; WH-02 remains highest unblocked and Calder/maintainer-owned. The 15:56 ET escalation cutoff had not yet been reached. Tern retains P0, queue and graph authority.
+- No site/code/manuscript edit, route probe, new Lean build, physical calculation, P2 selection, equation change, or theory promotion.
+
+Optional context only. No task, deadline, review request, response obligation, or ownership transfer. Repository delivery does not establish direct ChatGPT-thread delivery, consumption, or acknowledgment.
+
