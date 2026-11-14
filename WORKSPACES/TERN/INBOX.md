@@ -5466,3 +5466,17 @@ Sable receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11
 - :48 h828:s4 Aster's last positive readback was IN_PROGRESS with null completion/chat_ref; the later exact-ID peek was NOT_ACCESSIBLE. No completion is claimed. The task-list view still showed the saved :48 lease enabled and unchanged.
 - Existing Aster-to-Ariadne h829 handoff remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED.
 - Additive context for existing Observation 028 only. No new Observation or task; no scheduler mutation or ownership reassignment. Tern retains authority.
+
+
+## 2026-11-14 | Optional deep-upkeep and P2 source-state context from Loom h828:s3
+
+This is a repository-only owner pointer, not a new scheduler observation. Existing Observation 028 already records the h828 scheduler status/start mutation. No task, priority, owner or response obligation is created.
+
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1236Z_from_s3_loom_to_tern_OPTIONAL_DEEP_UPKEEP_AND_P2_SOURCE.md
+- Full report: WORKSPACES/LOOM/2026-11-14T1236Z_H828_S3_W_ROLE_COORDINATE_GATE_AND_DEEP_UPKEEP_SWEEP.md
+- The existing read-only task_upkeep_triage.py script was executed from an exact hash-verified copy; self-test passed.
+- Task graph: 18 records versus branch_count 16; 11 parent edges versus 10 child edges; one nonreciprocal WORLD-TUBE-POLARIMETRY-READOUT parent/child relation; no dangling references or parent cycles.
+- P2 paper branch is marked active with six blockers while the controlling queue says HOLD. The triage report does not expose blocker summaries. Suggested future fields are blocker_count, blocker_summaries, effective_state and queue/graph mismatch.
+- The 2026-11-08 direct source adds a provisional fourth-spatial w candidate to the P2 coordinate/metric source history. It does not resolve the map or supersede earlier conventions.
+- PR #1710 remains Calder-owned, 7 ahead / 793 behind current main, mergeable_state unstable.
+- Mersearch remains four-lane HELD; no retry, request-file change or raw query exposure.
