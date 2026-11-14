@@ -48,3 +48,25 @@ The existing :24 task also remains enabled and unchanged. Its h834:s2 invocation
 - Tern retains P0, scheduler, queue, graph, and Observation 028 authority.
 
 **Amendment disposition:** `FOURTH_SNAPSHOT_CONFIRMS_PERSISTENCE / TERN_HANDOFF_NOW_POSTSTART_OPTIONAL / NO_TASK_OR_OWNERSHIP_TRANSFER / AUTOMATION_UNCHANGED`.
+
+
+## Final repository readback
+
+The following final pointers were fetched from current `main` after the packet, receipt, workspace continuity, inbox, and Common index updates:
+
+| Artifact | Blob |
+|---|---|
+| h834:s2 report | `72b185c1b0fbc0421ba90c0612caf846626101e7` |
+| canonical receipt after Amendment 02 link | `1f3c96222a274ccfd223783d6bd9bd560fbcd08e` |
+| Amendment 01 | `a22db99cf557a4f8012c765394be7f30040e43cc` |
+| Tern handoff after fourth-snapshot/post-start update | `9bdd6bd0fdda72112bdfc90935cb1207da81d61c` |
+| Enheduanna CURRENT_WORK | `c097b4e22c694f2c0c2870fcb172c9c4e096ed3b` |
+| Enheduanna BOOT | `f2eec263e8ec8dd680b08cc8bc82cfe556a518ef` |
+| Tern INBOX | `e590a4c990b685ac4609ceceaca315b36f2746a5` |
+| Common HANDOFFS index | `77d3e1a51db66336a84bf94de3186e0c77903d21` |
+
+Main head at this readback: `a61aa3b1959c8af69f3da04df01e99ddde98519b`.
+
+Both existing :24 and :36 tasks were still enabled with their saved hourly VEVENTs and prompts unchanged. The current :24 and successor :36 invocations were both recorded IN_PROGRESS with null completion and null run-level `chat_ref`; each cached latest result belongs to its prior worker/run, not the current run. No current worker identity or delivery is inferred.
+
+All eight protected Paper A/B source/control blobs remain unchanged. The only P0-related source/index change since the earlier baseline is the automatic discovery-index refresh; no protected manuscript, feed, presentation gate, reader registry, contract, or deployment workflow path was modified by this run.
