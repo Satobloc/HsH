@@ -4,6 +4,8 @@
 >
 > The same h835:s3 run key was invoked again under run ID `2a5a030f-7d5a-4ed1-8c39-b5c2e8d5d18b`, scheduled 19:36Z and recorded started 20:01:43Z. A transient unverified composition candidate was added to existing PR #1133 and then removed. Final branch head `17dd47829bad180d1fa3f6fb885ff447a5e76f88`; candidate module absent; aggregator restored; no Lean CI, compilation, or proof claim. The PR remains OPEN / DRAFT / UNMERGED, 65 ahead / 11 behind its stacked parent.
 >
+> Scheduler Amendment 04: a later live peek returned a different `last_run.id` (`2a5a030f-ae08-8320-94b4-dfb2c3427822`) for the same scheduled slot and unchanged recorded start `20:01:43.189269Z`; the earlier peek had returned `2a5a030f-7d5a-4ed1-8c39-b5c2e8d5d18b`. Latest status remains IN_PROGRESS with null completion and run-level `chat_ref`. The cached `latest_result` is the completed h834:s3 Tern run, not this Ravel slot. Task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its exact hourly America/New_York :36 schedule and unchanged prompt/phase. Tern retains scheduler authority; no cause is inferred and no scheduler mutation was made.
+>
 > The 19:24Z Mercer P0 packet is distinct from the missing 19:30Z NIST comparator packet; no NIST packet read or consumption is claimed. Orson remains protected P1 owner; no handoff or assignment. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next review November 24. No physical calculation, prediction, independent measurement, equation change, or theory promotion.
 >
 > ---
