@@ -795,3 +795,40 @@ Tags: `LANGUAGE-GAME`, `LANGUAGE-KNOWLEDGE-ESTIMATE-UNVERIFIED`, `LANGUAGE-FAMIL
 Next cursor: **line 1521**. Lines 1401–1440 and 1441–1480 were already read by other runs and were not counted again here.
 
 The separate SAT archive `FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/MIX TAPES.txt`, blob `9be7a256d08fcb1aacf3e77b807db0e9555681c4`, has 762 lines and is at EOF. The stale line-621 pointer is superseded; no next cursor exists for that file.
+
+## Section X.5 | 2026-11-14 | Nov 8 provisional fourth-spatial w source and Library alias identity
+
+### Source witness
+
+- Conversation: 6aecede1-4c08-83e9-abc4-da64f59a4f51.
+- Direct user-role message: c0520975-02a0-408f-a250-364b88ab7b30.
+- Message timestamp: 2026-11-08T20:18:10.172Z.
+- Source class: **NATHAN-DIRECT / USER-ROLE / CURRENT-ANCESTRY / PROVISIONAL**.
+- Library raw export: 8,331,175 bytes; SHA-256 875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d; Git-blob-formatted SHA-1 c1793cebf08ed57881eb144ee23fe6d1d6d69f1a.
+- Three Library aliases were materialized and compared byte-for-byte: ND Workshop Relay :24 | Geometry - raw.json, ND Workshop Relay :24 | Geometry - raw(1).json, and ND Workshop Relay :24 | Geometry - raw(2).json. All three are exact duplicates. Count them as **one source witness**, not three independent sources.
+- Export structure: 1,150 mapping nodes, 1,149 message-bearing nodes, 1,005 current-ancestry nodes and 29 user-role turns in the current ancestry. The target message is on the current ancestry. Only the geometry-relevant subset was read in this bounded pass; this is not a claim that all 29 user turns were reviewed.
+
+### Source-faithful tags
+
+**NATHAN-DIRECT**, **FOURTH-SPATIAL-W-CANDIDATE**, **PROVISIONAL-COORDINATE-ROLE**, **TIME-PROPER-MAY-BE-DISTINCT**, **SAME-C-DIFFERENT-PATHS-WORKING-PREFERENCE**, **NO-EXPLICIT-W-TO-T-MAP**, **METRIC-SIGNATURE-UNSPECIFIED**, **NO-SUPERSESSION**, **SOURCE-ALIAS-ONE-WITNESS**, **NO-PHYSICAL-PREDICTION**, **NO-EQUATION-CHANGE**.
+
+The direct message provisionally treats w as a fourth spatial dimension, allows proper time to be distinct and to progress along w, and expresses a working preference for the same c with different paths. The same message labels the Crullerverse and Klein Fabric interpretations tentative. Those labels remain proposals, not established topology or physical equivalence.
+
+### Relationship to earlier source strata
+
+- 2026-10-09: direct w=ct as a time-length coordinate in meters in the classical Minkowski limit.
+- 2026-10-21: direct cw=t in a ++++ native convention; the same message does not provide a complete type, unit or coordinate chart for w.
+- 2026-10-29: direct w=ct within the branch-specific TOPLESS / Forest Normalization context.
+- 2026-11-08: provisional fourth-spatial w, with proper time possibly distinct.
+
+These statements may be reconcilable, but no source-defined conversion map, unit map, metric signature or time-parameter chart currently connects them. Do not invert, merge or globally supersede one convention with another.
+
+## Section AE | 2026-11-14 | Lateral reading: fun break - lx.txt, lines 1521-1560
+
+- Read extent: lines 1521-1560, 40 lines. Next cursor: **1561**.
+- HsH path: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt.
+- SAT archive path: 000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt.
+- Both paths resolve to the same Git blob: f33eb29fbac65efa1db054239bb9c28a04a13a42. This is one shared content witness, not two independent sources.
+- Content: a language-discovery list followed by assistant-generated language-family classifications.
+- Tags: **LATERAL-READ**, **LANGUAGE-DISCOVERY-GAME**, **LANGUAGE-FAMILY-CLASSIFICATION**, **ASSISTANT-GENERATED-FACT-CLAIMS-UNVERIFIED**, **TRANSCRIPT-ONLY**, **TEXTUAL-SPEAKER-LABELS**, **NO-NATHAN-DIRECT-ATTRIBUTION**, **NOT-THEORY-EVIDENCE**.
+- The flattened transcript does not supply raw author-role metadata. The assistant's classifications were not independently fact-checked and are not attributed to Nathan.
