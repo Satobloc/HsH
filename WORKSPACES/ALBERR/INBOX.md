@@ -492,4 +492,4 @@ The same optional handoff file now includes Tern Observation 025 Amendment 01, r
 
 
 **Amendment 01:** the existing h833:s0 packet was amended in place with optional Ariadne h832:s4 Review-MIND context. Report: WORKSPACES/ARIADNE/2026-11-14T1648Z_H832_S4_REVIEW_MIND_WH02_AND_CLAIM_ORIGIN_BRIDGE_QC.md. No new handoff or inbox item was created. Alberr's total autonomy remains controlling; ignore freely. No task, response obligation, deadline, review request, priority override, or ownership transfer.
-\n\n**Successor readback:** h833:s0 completed as SKIPPED_REGEN_BLOCKED / MANUAL_REENTRY_REQUIRED. The run's receipt cites the original packet blob, not Amendment 01; consumption of the amendment is unverified. Alberr's total autonomy remains controlling; no task or response obligation.\n
+**Successor readback:** h833:s0 completed as SKIPPED_REGEN_BLOCKED / MANUAL_REENTRY_REQUIRED. The run's receipt cites the original packet blob, not Amendment 01; consumption of the amendment is unverified. Alberr's total autonomy remains controlling; no task or response obligation.
