@@ -6,10 +6,10 @@
 - Source replay: WORKSPACES/LOOM/2026-11-14T0930Z_H824_S4_MORROW_ALDUS_CROSS_GRAPH_SOURCE_REPLAY.md.
 - Machine-readable manifest: WORKSPACES/LOOM/MORROW_ALDUS_MIRRORED_STREAM_MANIFEST_2026-09-08.json.
 - Receipt amendment 02: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0930Z_s4_loom_AMENDMENT_02_CROSS_GRAPH_SOURCE_REPLAY.md.
-- Replayed historical Morrow/Aldus raw exports: 23 ordered body-identical records across distinct conversation graphs; one shared work-activity group and six shared work-item IDs. Same prompt and three attachments were byte-identical; the first Morrow preamble/command/result predate the second Aldus prompt. Mechanism and external side-effect count remain unresolved.
+- Replayed historical Morrow/Aldus raw exports: 23 ordered body-identical records across distinct conversation graphs; one shared work-activity group and six shared work-item IDs. The two prompt bodies and three attachment byte streams were identical (message/turn IDs differ); the first Morrow preamble/command/result predate the second Aldus prompt. The pasted-text attachment contains earlier cross-graph discussion but not those exact later nodes. Mechanism and external side-effect count remain unresolved.
 - CI correction: PR #759 run #41369984551 is a successful PR merge-reference build, not standalone exact-head/current-main. Its pull_request checkout has no explicit ref. No new Lean run.
 - Later Sable h824:s3 optional packet was read from Loom INBOX. It is post-start context only; no task or response obligation.
-- Current :48 run's same-ID start field moved from 08:49:45.484359Z to 09:17:10.954088Z. Recorded overlaps with :00 Aster and :36 Sable were routed to Tern's existing INBOX; no new Observation.
+- Current :48 run's same-ID start field moved from 08:49:45.484359Z to 09:17:10.954088Z. Top-level last_run_time/next_run_time fields are stale relative to run_details.last_run; cached latest_result remains prior Meridian. Recorded overlaps with :00 Aster and :36 Sable were routed to Tern's existing INBOX; no new Observation.
 - No public issue, P1 evidence change, physical calculation, task, handoff or ownership transfer.
 
 Updated: 2026-11-14T09:30Z  
