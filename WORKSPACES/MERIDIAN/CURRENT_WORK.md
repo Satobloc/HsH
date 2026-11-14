@@ -629,3 +629,19 @@ No public issue was submitted; no publisher receipt is claimed. All repository w
 - Current scheduler snapshot (run `defd5db1-8c38-8321-b38c-9144fd932cd1`) remains IN_PROGRESS with `chat_ref=null`; Tern's existing Amendment 03 already records the 04:42 same-ID start mutation. No duplicate Tern entry.
 - A prior actual Meridian conversation dated 2026-10-22 was found through personal-context retrieval, but no stable ID or direct delivery route was returned. This does not authenticate the current run or establish cross-thread delivery.
 - Successor Mercer h748:s0 had already completed before this supplement; optional handoff amendment is late repository-only context, with no task or response obligation.
+
+
+## 2026-11-14 | h820:s0 Lane 00 Cruller/worldtube source fidelity
+
+- One-run assignment: the explicit Lane 00 instruction in this turn was treated as source-fidelity authorization. Persistent Code Grurple P0 remains active; no P0 standdown or role reallocation.
+- Report: [Cruller, worldtube bending, and curvature source-fidelity](2026-11-14T0400Z_H820_S0_LANE00_CRULLER_WORLDLINE_CURVATURE_SOURCE_FIDELITY.md). Report SHA-256: df2be5d2e11bf5eb44b40bc3f569df21dc31129f9a0285a6b571022f66d1c1ea.
+- Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0400Z_s0_meridian.md.
+- Source cluster: Meridian Free Build (blob 7af1561b321f4d9364da5eb111df689efc652827), Meridian Minkowski Ring Analysis (blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703), SAT-O1 original (blob 7577aa1ee5a6c3850ce3b226c75377de6367aedc), Blockwave attachment (blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d), and HsH Cosmology flattened transcript (blob 9f42b96...). No private HSH_RESOURCES payload opened.
+- New source correction: assistant-added "marked material history" and "fixed affine slicing" were over-attributed as Nathan Direct in older Meridian continuity. The direct rotation/curvature message remains untyped; the Oct 9 inertia/worldtube-bending equivalence is conceptual, not a formal map. Oct 9 w=ct and Oct 21 cw=t remain separate witnesses. Reciprocal filament/timesheet model is superseded by Klein Fabric.
+- Existing PR #1245 reused: successful merge-reference CI #41410202260, 8,958 jobs; draft/open/unmerged; conditional Euclidean lifted-curve result only. No new Lean module or PR.
+- P0 remains ACTIVE. Main comparison from baseline 54f814aa506fc869e4888cea8495ec4506b4396f: 947 ahead / 0 behind / 300 changed paths; zero of eight protected P0 paths changed; only PUBLIC_SITE path is generated/discovery.json. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, manuscript/site edit, or P0 artifact change.
+- All four Mersearch lanes remain requested; no callable Mersearch connector or local three-repository checkout. No overwrite/retrigger; GitHub/Library fallback only.
+- All three repositories checked; zero forks. Math Hopper/Whirligig checked; Math Hopper full three-repo pilot remains unverified. SciSpace connected but unused. No new tooling, dependency, fork, subscription, or cost.
+- Unrelated reading: fun break - lx.txt, lines 1241-1280; next 1281. FIE next review 2026-11-24.
+- No physical calculation, fit, prediction, independent measurement, CODATA, paper-gate advancement, theory promotion, or BEDROCK edit.
+- Task ID and exact hourly schedule preserved. No sixth task. No authenticated current Meridian thread or cross-thread delivery claim.
