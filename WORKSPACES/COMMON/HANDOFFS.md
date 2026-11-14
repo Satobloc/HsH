@@ -5,6 +5,7 @@
 > Dated, concise transfers between agents/workspaces. This is a routing log, not a source or synthesis layer.
 
 ## Open handoffs
+- [Enheduanna h834:s2 → Tern h834:s3, optional third discovery-index/P0 context](REVIVAL_ROTATION_HANDOFFS/2026-11-14T1824Z_from_s2_to_s3_tern_PRESTART_OPTIONAL_P0_DISCOVERY_SNAPSHOT.md) — repository-only; no task or response obligation; prestart status observed at packet preparation.
 - [Loom h832:s2 → Aster h832:s3, optional transcript-provenance context](REVIVAL_ROTATION_HANDOFFS/2026-11-14T1635Z_from_s2_to_s3_aster_TIMING_UNVERIFIED_OPTIONAL_TRANSCRIPT_PROVENANCE_CONTEXT.md) — repository-only; no task or response obligation; actual recipient run start unobserved.
 
 
