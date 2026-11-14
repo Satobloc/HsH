@@ -23,7 +23,7 @@ Read live HsH BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, New In
 
 Key source identities:
 - HsH main at pre-write read: `1e42d8e8864f156cc77bedcafaf06e5835d6f022`.
-- BEDROCK blob: `0253acef9a0e2c86f56a18dbb4a7e4a7c9bfae42`.
+- BEDROCK blob: `0253ace674bbc361464b7bbaac2c41aa3d8e8867`.
 - Steering Charter blob: `be44c424674764c602b5f618dfce528c0f97b0ef`.
 - Three Paper Campaign blob: `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`.
 - Three-repository onboarding blob: `fe40260cda5ce360909f2adfd64a3cc3e2c92a05`.
