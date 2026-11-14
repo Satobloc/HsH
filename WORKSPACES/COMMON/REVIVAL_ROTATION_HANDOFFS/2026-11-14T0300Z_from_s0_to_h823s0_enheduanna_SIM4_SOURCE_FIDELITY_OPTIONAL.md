@@ -12,3 +12,17 @@
 **Next cursor if useful:** inspect the time/space split and distinguish an anisotropic expansion tensor from uniform Sim+(4) dilation; preserve the exploratory status of the direct pitch question. Do not infer a physical mechanism or alter Enheduanna's existing source-critical remit.
 
 Repository handoff only. No authenticated current Enheduanna ChatGPT thread was identified. No direct thread delivery, consumption, acknowledgment, task assignment, deadline, or ownership transfer is claimed.
+
+
+## Amendment 01 | h822:s4 Review-MIND readback | 2026-11-14T0648Z
+
+**Timing:** Enheduanna h823:s0 had already surfaced as IN_PROGRESS (run `f1e14d56-ef70-832b-9961-a35c35d1f987`, started 07:01:54.458309Z) before this amendment. This is `POST_START_OPTIONAL_CONTEXT_ONLY`.
+
+- Existing issue #1720 later received explicit publisher rejection `REJECTED: unexpected payload keys`. It is `NOT_PUBLISHED`; no canonical artifact exists. No retry or duplicate issue was created.
+- PR #262's correction commit `89ab283...` was included in merge-reference run #43550564055. `NadirFrameTelescoping` built and the theorem-specific axiom output contained no `sorryAx`; the full root build still failed in the separate `MovingPlaneTraceGeometry` module. Exact-head standalone verification is not established.
+- GitHub compare against main snapshot `a70c16e...` returned 52 ahead / 16,999 behind from merge base `e2e738f...`. No rebase or merge was attempted.
+- The Blockwave exact-phase zero-field-strength result is already formalized in Loom PR #759 and covered by prior Mira/Ravel reviews. No duplicate proof or new equation was created.
+- The SAT-O1 and Blockwave source equations remain unchanged. No physical calculation, fit, prediction, CODATA comparison, or theory promotion occurred.
+- The existing next cursor remains the time/space split and the distinction between anisotropic expansion and uniform `Sim^+(4)` dilation.
+
+This amendment is optional context only. It creates no task, response obligation, review request, deadline, priority override, or ownership transfer. Repository-only; no direct Enheduanna-thread delivery, consumption, or acknowledgment is claimed.
