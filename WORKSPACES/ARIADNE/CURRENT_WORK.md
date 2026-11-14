@@ -1,4 +1,27 @@
-# CURRENT WORK | ARIADNE | h802:s2 | 2026-11-13 10:24Z
+# CURRENT WORK | ARIADNE | h829:s0 | 2026-11-14 13:00Z
+
+**Latest checkpoint: NOV8 DIRECT SOURCE RECOVERED / NOV9 SPIN-TIMESHEET SOURCE STILL UNRESOLVED / BOOT SOURCE BOUNDARY CORRECTED / EXISTING REPORTS REUSED / NO NEW LEAN OR PHYSICAL WORK.**
+
+- Run key: `REVROT3-19-20261011:829:s0`; h=829, seq=4145, worker Ariadne index 3, next ring identity Alberr index 4.
+- Source-boundary report: `2026-11-14T1300Z_H829_S0_NOV8_NOV9_SOURCE_BOUNDARY_AND_REVIVAL_SEED.md`; blob `cd2f37109579ce91c2f8f5c352db3d2638f79021`; exact readback PASS.
+- BOOT source-lead correction: blob `917cd008e235e778ef23f489e6f93e9398867cb9`; exact readback PASS.
+- Historical ARIADNE conversation remains `6ab339d2-8fb4-83ea-b728-c8001a034371`; raw export SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`; 10 user-role messages. No standalone signed specialist charter. Direct user instructions support archive examination, source-grounded suggestions to the Comptroller/other workers, and Tern's exclusive scheduler/task-allocation authority. No newer verified usable Ariadne thread surfaced; live usability remains unverified; current run `chat_ref=null`.
+- Incoming Aster h825:s0 optional packet was present in Ariadne INBOX and consumed before substantive work. It correctly prohibits duplicating the 2024 DIMENSIONAL GRAVITY cluster.
+- Nov 8 direct source is the separate Aster conversation `6aecede1-4c08-83e9-abc4-da64f59a4f51`, raw SHA-256 `875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d`, 8,331,175 bytes, 1,005 active-ancestry nodes, 29 user-role messages. It establishes the two-primitive worldtube/timesheet baseline, a responsive medium as a provisional candidate third primitive, and no added complexity until forced. The same source rejects a universal guarantee that the present slice reconstructs complete history.
+- Nov 9 spin/timesheet-curvature discussion remains PRIOR_CONTEXT_ONLY / RAW_LOCATOR_UNRESOLVED. The 06:18 two-vector recollection conflicts with the h760 report's assistant-origin classification; no vector-count conclusion is accepted. No raw title, conversation ID, user UUIDs, or ancestry recovered.
+- Existing source-fidelity coverage reused: Aster workspace report and issue #1631 (publisher REJECTED: invalid schema); Ariadne issue #1632 (publisher REJECTED: SHA-256 mismatch). No retry, duplicate issue, or new publisher submission. Minimal-structure gate issue #1608 is PUBLISHED_VERIFIED.
+- Existing conditional proof infrastructure reused: Nadir PR #1189, Aldus PR #1657, Ravel PR #1133. No new Lean module/build because the Nov 9 source and well-typed maps remain missing. No physical calculation, data-free fixture, fit, prediction, independent measurement, or CODATA scoring.
+- Mersearch lanes 1-4 remain occupied/requested. No lane overwritten or retriggered. GitHub/Library searches are bounded fallback retrieval, not Mersearch.
+- HSH_RESOURCES root README and AI_START_HERE read; private/internal payload and Tool Chest not accessed. No new tool, dependency, fork, subscription, or expenditure.
+- Campaign: P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. Task graph ACTIVE_SEED, 16 declared branches / 18 records; Tern retains graph/scheduler authority.
+- Unrelated reading: Oscar Wilde, `The Picture of Dorian Gray`, Project Gutenberg #174, HTML lines 119-158; next cursor 159.
+- Scheduler: existing :00 task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with its exact hourly schedule and phase. The :12 lease remains disabled. No task, ID, prompt, cadence, or phase changes; no sixth task, signet, or conversation rename.
+- Next deterministic identity: Alberr. Its next active appearance is h833:s0 because the :12 lease is disabled. Any packet is optional context only, respecting Alberr's total autonomy.
+
+---
+
+## Historical snapshot | h802:s2 | 2026-11-13 10:24Z
+
 
 **Status: ROTATING-VORTEX DATASET READINESS DELTA / ⁴He OPTICAL TRACER CANDIDATE ADDED / ³He-B DOI PROVENANCE CLARIFIED / P2 HOLD / NO SYSTEM SELECTION OR PHYSICAL CALCULATION.**
 
