@@ -142,13 +142,13 @@ No physical calculation, fit, prediction, independent measurement, human-subject
 - This report is an internal Review-MIND/P0 control record. No new public issue was created because no new public claim warranted publication and existing public source corrections were not duplicated.
 - The canonical receipt records this run's disposition and the report blob.
 - Aster BOOT and CURRENT_WORK were advanced to h828:s4.
-- The existing Aster-to-Ariadne h829:s0 optional handoff was amended in place. The :00 h828 run completed at 12:18:21Z and the next nominal :00 run remains 13:00Z; h829:s0 had not started at the final readback. The packet therefore remains PRE_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED.
+- The existing Aster-to-Ariadne h829:s0 optional handoff was amended in place. At the initial 12:48Z readback, h829:s0 had not started. The later 12:58Z scheduler readback and Amendment 01 supersede that timing snapshot: h829:s0 started early and the packet is now POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED.
 - Ariadne's existing INBOX pointer already names that handoff; no duplicate pointer or new handoff was created.
 - No direct Ariadne-thread delivery, consumption, or acknowledgment is claimed.
 
 **Automation preservation:** the existing enabled :48 lease remains on its saved hourly schedule, identity, prompt, and phase. The :12 lease remains disabled. No task, ID, schedule, cadence, phase, or enabled-state change; no sixth task, signet, or conversation rename.
 
-**Final classification:** `ASTER_H828_S4 / P0_NO_TRIGGER / 8_OF_8_PROTECTED_BLOBS_EXACT / CROSS_LANE_QC_BOUNDED / PR951_CURRENT_MODULE_NOT_COVERED_BY_OLD_CI / MERSEARCH_LANES_HELD / TASK_GRAPH_UNCHANGED / ORSON_P1_PROTECTED / ARIADNE_PRESTART_OPTIONAL_HANDOFF / AUTOMATION_PRESERVED / WRAPPER_IN_PROGRESS`.
+**Final classification:** `ASTER_H828_S4 / P0_NO_TRIGGER / 8_OF_8_PROTECTED_BLOBS_EXACT / CROSS_LANE_QC_BOUNDED / PR951_CURRENT_MODULE_NOT_COVERED_BY_OLD_CI / MERSEARCH_LANES_HELD / TASK_GRAPH_UNCHANGED / ORSON_P1_PROTECTED / ARIADNE_POST_START_OPTIONAL_HANDOFF / AUTOMATION_PRESERVED / WRAPPER_IN_PROGRESS`.
 
 
 ## Amendment 01 | 2026-11-14T12:58Z | final scheduler readback
