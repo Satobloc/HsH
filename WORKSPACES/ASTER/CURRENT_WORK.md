@@ -1,3 +1,14 @@
+# Post-checkpoint amendment | 2026-11-14T16:49Z
+
+## H832:S3 post-checkpoint amendment | successor and scheduler readback
+
+- Receipt Amendment 01: [successor and scheduler readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1636Z_s3_aster_AMENDMENT_01_SUCCESSOR_AND_SCHEDULER_READBACK.md).
+- Ariadne handoff: [POST_START_OPTIONAL_CONTEXT_ONLY](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1636Z_from_s3_to_s4_ariadne_POSTSTART_OPTIONAL_CLAIM_ORIGIN_BRIDGE.md), exact readback verified. Ariadne INBOX append commit `55218e686d014754257ce56aa88e48d84887aa9c`; no direct thread delivery or acknowledgment.
+- Tern INBOX now records both current scheduler snapshots for Observation 028: :36 run `51596d32-3840-8327-8453-f0bf638a01ad` (63.639782 s early) and :48 run `a5171abc-0ba4-8324-857c-8e58cd0cfe56` (78.388321 s early). No cause or retry inference. Tern retains scheduler authority.
+- Both automations remain enabled under original IDs, hourly schedules, prompts and phases. Both current run records remain IN_PROGRESS with null completion and null run-level chat_ref. No task mutation, no sixth task.
+
+---
+
 # Current checkpoint | 2026-11-14T16:36Z | h832:s3
 
 ## H832:S3 | Claim-origin boundary provenance bridge
