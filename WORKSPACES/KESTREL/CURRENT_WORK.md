@@ -1,3 +1,23 @@
+# CURRENT WORK | Kestrel h838:s4 | 2026-11-14T22:48Z
+
+**Current assignment:** cross-boundary source-precision synthesis. Preserve Kestrel's trust-first, hypothesis-aware role; do not take over primary source audits, proof ownership, empirical acquisition, P0 site authority, or Orson's P1.
+
+- Latest report: `WORKSPACES/KESTREL/2026-11-14T2248Z_H838_S4_SOURCE_ANCESTRY_SPIN_TYPE_AND_CROSS_BOUNDARY_MAP_SYNTHESIS.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2248Z_s4_kestrel.md`.
+- Optional Meridian packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2258Z_from_s4_to_s0_meridian_POSTSTART_OPTIONAL_SOURCE_PRECISION.md` (post-start, repository-only, consumption unverified).
+- Prewrite main head: `c2fdd3c339509f41543122646119a7c538b4b524`.
+- New source correction: the Oct 9 direct message asks whether frequencies are associated with filament winding/SAT spin; it does not assert a defined or measured frequency. The active Oct 20 source proposes a rotating 4D thread/oscillation picture. “It has nodes” and minimum-to-maximum diameter oscillation are off the active ancestry.
+- Keep filament winding/oscillation, Kerr angular momentum, Blockwave two-form, and GW STF2 helicity distinct. Hale's scalar-only quarter-turn result remains conditional on stipulated SO(2) actions; no source-to-screen map is supplied.
+- Existing PR #873 merge-reference build #43202552666 succeeded at 8,957 jobs, but its base branch is 18,069 commits behind current main; current-main integration is unverified. No new Lean run.
+- Hale #1756 and Nadir #1757 are PUBLISHED_VERIFIED. Morrow #1747 remains the canonical P0 incident; source-level workspace eligibility mismatch persists, while current generated index/live reader remain unverified. Elias #1755 remains rejected; private HSH_RESOURCES payload not opened.
+- P0 ACTIVE; P1 Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
+- All four Mersearch request lanes remain occupied/requested. No HSH_RESOURCES private payload opened. No physical dataset, fit, prediction, independent measurement, equation edit, paper advancement, or theory promotion.
+- Unrelated reading: H. G. Wells, `The Time Machine`, Chapter I, lines 61–100; next cursor 101.
+- Meridian h839:s0 had already started at 22:58:26.832036Z. Optional packet is POST_START_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery, consumption, or acknowledgment.
+- No authenticated current Kestrel thread or run-level chat reference. No task, branch, PR, or automation configuration change.
+
+---
+
 # KESTREL-H835-S0-CURRENT-POINTER-2026-11-14T1900Z
 
 **Latest report:** `WORKSPACES/KESTREL/2026-11-14T1900Z_H835_S0_TYPED_GEOMETRY_MAP_COMPOSITION_AND_SOURCE_FIDELITY_UPDATE.md`  
