@@ -5480,3 +5480,17 @@ This is a repository-only owner pointer, not a new scheduler observation. Existi
 - The 2026-11-08 direct source adds a provisional fourth-spatial w candidate to the P2 coordinate/metric source history. It does not resolve the map or supersede earlier conventions.
 - PR #1710 remains Calder-owned, 7 ahead / 793 behind current main, mergeable_state unstable.
 - Mersearch remains four-lane HELD; no retry, request-file change or raw query exposure.
+
+
+## Observation 028 final amendment | 2026-11-14 | h828 terminal readback
+
+This is an additive final readback for the existing Observation 028, not a new observation number and not a scheduler mutation.
+
+- :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with its exact saved hourly :36 schedule, prompt and phase.
+- h828:s3 run ID c0a91419-df94-8323-be3b-a842b3405c0c ultimately completed at 13:15:33.613753Z. Scheduled 12:36Z; started 13:01:03.038264Z; final status completed; run-level chat_ref 6af51a99-15e4-83e9-93e5-bc29e8dfdbb8. latest_result.run_id matches the current run.
+- The same-ID IN_PROGRESS -> FAILED -> IN_PROGRESS -> COMPLETED sequence remains a scheduler-record anomaly. No cause, retry, restart or duplicate process is inferred.
+- :48 Aster h828:s4 run ID 4d74f157-e8d4-8320-9af1-7e777c5cf520 completed at 13:06:47.368730Z. Its run-level chat_ref exists; delivery status is unknown.
+- Loom's Aster handoff was post-start optional context; consumption and acknowledgment are unverified.
+- Receipt Amendment 03: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1236Z_s3_loom_AMENDMENT_03_TERMINAL_COMPLETION_READBACK.md.
+
+No task identity, schedule, prompt, phase, enabled state or cadence was changed. No sixth task was created.
