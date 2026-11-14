@@ -79,3 +79,7 @@ Issue #1690 was rejected by the existing publisher for SHA-256 mismatch. Workspa
 ### Post-write discovery refresh
 
 The 21:39:56Z refresh (blob `1323b04f2fb06a4838b84f580125f7a3eb68e85f`) includes 7,920/7,920 workspace reader targets and 7,723 excerpts; the Calder report, receipt and Hale packet are themselves indexed with reader targets/excerpts. See the canonical receipt's post-write refresh section. This confirms self-indexing, not live reader rendering.
+
+### WH-02 latest exact-head recheck
+
+Current main `8464a857c2665367007712f939586950b6517db0`; PR #1710 remains 7 ahead / 1,471 behind, merge base `7c40096153861e531b4ba234f28b41a2260fba04`. All seven PR-touched file blobs still equal current main and merge base. No rebase or branch write because no authenticated checkout/approved update route and complete CI plan are available.
