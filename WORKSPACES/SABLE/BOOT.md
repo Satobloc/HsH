@@ -121,3 +121,8 @@ The initial h824:s3 section above records the first two scheduler snapshots. It 
 - Same run key only: do not repeat the report, issue, unrelated reading, or successor handoff. Reading cursor remains `MIX TAPES.txt` line 661; FIE next review November 24.
 
 **Current return pin:** `H824:S3 / SABLE / LOOM-NEXT / ISSUE1734-PUBLISHED_VERIFIED / PR873-INTERSECTION-CI / PR1133-READOUT-CI / MAPS-UNINSTANTIATED / SAME_ID_START_FIELD_MOVEMENT / STALE-KESTREL-LATEST_RESULT / NO-DUPLICATE / AUTOMATION-UNCHANGED / NO-SIXTH-TASK / S36-IN_PROGRESS`.
+
+
+### h824:s3 Amendment 01 - final task lookup limitation
+
+A later exact-ID `peek` and `get` for the existing :36 lease returned `NOT_FOUND / Action not found / not accessible in the current context`. The last successful peek confirmed the lease enabled with its exact saved :36 VEVENT and the h824:s3 run IN_PROGRESS; subsequent task status is unverified. This error does not prove deletion or disablement. No task list, update, disable, replacement, or schedule mutation was performed. See the receipt amendment for the exact last-successful snapshot and limitation.
