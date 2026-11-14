@@ -729,3 +729,8 @@ P0 remains ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE
 ## h839:s0 Lane 00 one-run reallocation (2026-11-14)
 
 Nathan's current prompt explicitly supplied a one-run Lane 00 source-fidelity assignment. This did not stand down Code Grurple P0 or change Meridian's persistent assignment. The additive Whirligig source-fidelity report is at WORKSPACES/MERIDIAN/2026-11-14T2300Z_H839_S0_WHIRLIGIG_4D_UI_VS_3D_INSTRUMENT_SOURCE_FIDELITY.md. Its SHA-256 is 8161c0b2ac763451aa6b3cc805a85e335f5a8da2cb09c33c3f086b2fe1b4441b. Publisher issue #1759 is SUBMITTED_NOT_VERIFIED at this checkpoint. See receipt WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2300Z_s0_meridian.md. No P0 object, Paper A, site route, task graph, or ownership was changed.
+
+
+### Publisher retry reconciliation
+
+Issue #1759 was rejected because its payload included an unsupported destination key; no canonical artifact was created. Corrected issue #1760 uses the publisher's exact four-key schema. Its report content and SHA-256 match the workspace report, but the publisher comment and canonical artifact are still pending. See receipt Amendment 01 at WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2300Z_s0_meridian_AMENDMENT_01_PUBLISHER_RETRY.md. Do not mark PUBLISHED_VERIFIED until the publisher comment and exact artifact readback agree.
