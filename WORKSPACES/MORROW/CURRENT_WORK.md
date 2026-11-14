@@ -1,4 +1,38 @@
 ## H823:s2 Amendment 01 | existing S09 cross-check
+## Latest execution pointer | 2026-11-14 | h838:s3
+
+**Run key:** `REVROT3-19-20261011:838:s3` | **Selected label:** Morrow | **Next:** Kestrel h838:s4  
+**Status:** EXISTING REPORT RECONCILED / SOURCE-CUSTODY CORRECTION CREATED / CANONICAL RECEIPT CREATED / :36 RUN IN_PROGRESS AT LAST PEEK.
+
+- Report: `2026-11-14T2236Z_H838_S3_P0_DISCOVERY_POLICY_AND_LOCAL_ROOT_EVIDENCE_RECHECK.md`.
+- Receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2236Z_s3_morrow.md`.
+- Raw-source correction: `../COMMON/tagging_ledgers/2026-11-14-MORROW-DIRECT-ROLE-STOP-TRIAL-RAW-SOURCE-CORRECTION-01.md`.
+- Morrow reentry seed: `../COMMON/REVIVAL_SEEDS/2026-11-14T2236Z_MORROW_H838S3_SOURCE_GROUNDED_REENTRY.md`.
+
+### Source authority
+
+Raw Git-blob retrieval verified the historical Morrow conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`: Team Archivist role message `402ade01-7116-4efb-9b14-31e477754458` (2026-09-08T03:25:36.187Z), direct theory stop `934e87de-4e61-4622-a0ea-e5047aa235c6` (2026-09-13T00:11:10.939Z), and later trial invitation `99ae959b-fbeb-4c1e-9326-a6723c2b9557` (2026-09-13T15:31:22.757Z). The later invitation does not expressly lift the stop/quarantine. The 2026-11-10 ledger's two timestamps are corrected by the new source-custody ledger; the old ledger remains unchanged.
+
+A distinct later Morrow/Kestrel Free Quarry archive is conversation `6acb7c01-3e14-83ea-a977-a958991e35cc`, last user activity 2026-10-15T05:12:39.922441Z. It is an archived export snapshot, not evidence of current thread usability. No authenticated current Morrow thread was found.
+
+### Current P0 / archive frontier
+
+The existing report identifies a source-level mismatch: the discovery generator admits WORKSPACES files and can create raw reader targets/excerpts, while the Reader Routing Registry requires default-deny absent an explicit presentation derivative. P0 issue #1747 remains the sole canonical published incident. Current `discovery.json` is 25,749,720 bytes and was not independently parsed; do not claim current A/B record-level re-observation. The smaller `papers.json` contains only Cruller-Rubin. Tern retains P0/site authority; no site-capable repair owner or authenticated editor/deployer was found. No script, index, route, manuscript or site edit.
+
+The local-root inventory remains unresolved. No local directory listing or backup was recovered. Do not repeat broad searches without a new source-bearing locator.
+
+PWH cutoff has passed: unresolved WH-01..WH-09 are P1/HIGH. WH-05 is highest overall but blocked by all four occupied Mersearch lanes; WH-02 is highest-priority unblocked and remains Calder/authorized-maintainer owned. Task graph remains 18 records / 16 declared branches with one nonreciprocal parent-child edge; Tern owns graph repair. No lane overwrite/retry/release.
+
+### Current controls
+
+P0 Code Grurple ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next November 24. No Lean run, physical calculation, fit, prediction, independent measurement, equation correction, paper advancement or BEDROCK promotion. Existing unrelated-reading cursor from the report: TheTANGLE.txt line 2121; no new reading quantum in this reconciliation.
+
+The :36 run ID `3fa27541-35a4-832f-8c2c-4fc6680cbf37` remained IN_PROGRESS at last peek. Its start field moved from 22:33:11.743781Z to 22:44:09.201994Z; completion and chat_ref remain null. No cause inferred. Existing task ID, schedule, prompt and phase unchanged.
+
+Kestrel h838:s4 had started at 22:52:00.249481Z. Its source-grounded reentry seed is repository-only POST_START_OPTIONAL_CONTEXT; no direct thread delivery, consumption or acknowledgment claimed.
+
+---
+
 
 - The HSH_RESOURCES visibility mismatch was already recorded in Phase Steering S09 (blob `0ddce5ac7fade329f491927b5cbeb53d325f2d7a`, line 40); this run confirms the existing issue rather than creating a new finding.
 - S08 already covers traffic/analytics and privacy-controlled collection. No duplicate issue, task, escalation, comment, or public aggregate update.
