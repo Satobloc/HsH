@@ -64,13 +64,24 @@ def composeSliceCompatibleRetractions
         _ = R₂.carrierEmbed c := R₂.embed_zero _
     preservesSlice := by
       intro t s h
-      apply R₂.preservesSlice
+      have h₂ :
+          R₂.tubeEmbed (R₁.projectCarrier t) =
+            R₂.sheetEmbed (R₁.sheetReparameterization s) := by
+        calc
+          R₂.tubeEmbed (R₁.projectCarrier t)
+              = R₁.carrierEmbed (R₁.projectCarrier t) := by rw [hTube]
+          _ = R₁.sheetEmbed (R₁.sheetReparameterization s) :=
+            R₁.preservesSlice t s h
+          _ = R₂.sheetEmbed (R₁.sheetReparameterization s) := by rw [hSheet]
       calc
-        R₂.tubeEmbed (R₁.projectCarrier t)
-            = R₁.carrierEmbed (R₁.projectCarrier t) := by rw [hTube]
-        _ = R₁.sheetEmbed (R₁.sheetReparameterization s) :=
-          R₁.preservesSlice t s h
-        _ = R₂.sheetEmbed (R₁.sheetReparameterization s) := by rw [hSheet]
+        R₂.carrierEmbed (R₂.projectCarrier (R₁.projectCarrier t)) =
+            R₂.sheetEmbed
+              (R₂.sheetReparameterization (R₁.sheetReparameterization s)) :=
+          R₂.preservesSlice (R₁.projectCarrier t)
+            (R₁.sheetReparameterization s) h₂
+        _ = R₁.sheetEmbed
+              (R₂.sheetReparameterization (R₁.sheetReparameterization s)) := by
+          rw [hSheet]
   }
 
 /-- The composite carrier projection is exactly the ordered composition
