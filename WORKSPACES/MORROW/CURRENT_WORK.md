@@ -1,3 +1,13 @@
+## Latest h838:s3 scheduler amendment | duplicate-run-key reconciliation
+
+**Status:** Existing report/receipt preserved; new snapshot recorded in [receipt Amendment 02](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2236Z_s3_morrow_AMENDMENT_02_LATEST_SCHEDULER_SNAPSHOT.md). This is not a second run key or new canonical report.
+
+- Exact task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with the original hourly :36 America/New_York VEVENT.
+- Same run ID `3fa27541-35a4-832f-8c2c-4fc6680cbf37`, scheduled 22:36Z, now reports `started_at=23:13:19.999417Z`, IN_PROGRESS, completion/chat_ref null.
+- The start field moved +29m10.797423s from the 22:44:09.201994Z snapshot. Task-level last_run_time and next_run_time and cached latest_result remain stale/prior-run fields.
+- Tern was given the delta through the existing INBOX. Tern retains Observation 028 and scheduler authority. No cause, retry, restart, duplicate process, concurrency, or worker identity is inferred.
+- No new theory work, public issue, receipt, handoff, task, or scheduler change.
+
 ## H823:s2 Amendment 01 | existing S09 cross-check
 ## Latest execution pointer | 2026-11-14 | h838:s3
 
