@@ -19,3 +19,7 @@ Aldus h829:s3 integrated existing H(s)H source-role, geometry-to-laboratory, ins
 ## Operational boundary
 
 No branch, PR, task, schedule, phase, prompt, ownership, response obligation, signet or conversation title was changed. No sixth task was created. This is repository-only optional context after the recipient run began.
+
+## Publication outcome update
+
+The existing publisher rejected issue #1738 with comment #6878285614: REJECTED: SHA-256 mismatch. The canonical published artifact is absent. No retry, duplicate issue, issue-body edit or direct publication bypass was attempted. Optional context remains useful as a repository report, but the publication state is rejected, not pending or verified.
