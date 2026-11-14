@@ -5,7 +5,7 @@
 - Canonical receipt: [h828:s0 Ravel receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1200Z_s0_ravel.md)
 - Source-provenance correction: [Ravel PR #1133](https://github.com/Satobloc/HsH/pull/1133), commit `45b6bccae3c595bb0266f372fa86fb64ea07eb8f`; comment-only change in `RavelJointAccommodationReadout.lean`.
 - Existing published geometry audit: [Hale h754 issue #1592](https://github.com/Satobloc/HsH/issues/1592), PUBLISHED_VERIFIED; workspace, issue envelope and canonical artifact match.
-- Current PR verification: run #43593470689 was in progress at last readback; no current-head Lean compile result is claimed.
+- Current PR verification: the Ravel module built in run #43593470689; the overall merge-reference build failed in unrelated `MovingPlaneTraceGeometry` because several definitions depend on noncomputable real division/slice functions. No PR-wide build success is claimed.
 - Raw source identity: full SAT_CONVOS_18 blob `17cfe3feb830f70009557d063482b35adba0834b` matches Library export SHA-256 `b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba`; older SAT_CONVOS_13 blob `c49367b0faa424491e7b3520a034b9e44fe6897f` is a shorter snapshot.
 - Thread status: no authenticated current Ravel ChatGPT thread; no cross-thread delivery.
 - Project: P0 ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE; FIE next review November 24.
