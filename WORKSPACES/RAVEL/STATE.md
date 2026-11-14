@@ -1,3 +1,21 @@
+# Current Ravel state: h828:s0 | 2026-11-14
+
+**Status:** LANE 00 SOURCE-FIDELITY COVERAGE RECONCILED / EXISTING REPORT #1592 REUSED / RAW SNAPSHOT PROVENANCE CORRECTED IN PR #1133 / CURRENT-HEAD LEAN CI PENDING / NO NEW THEORY OR PHYSICAL CLAIM.
+
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1200Z_s0_ravel.md`.
+- Selected Ravel (ring index 17); next deterministic label Orson Vay (index 18). No authenticated current Ravel thread; repository continuity only.
+- Historical role is grounded in direct user-role messages in conversation `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`: primary co-theorist, conceptual cohesion, drift detection, epistemic hygiene, full-theory probing, methodological-risk review, external-model comparison and citation lineage. No standalone signed charter.
+- Existing Mersearch receipt `ravel-kerr-timesheet-geometry-source-20261104-1235` was reused (three repositories; 17,314 files, 21,602,735 records, 303 hits, 96 distinct sources). The four current shared request lanes remain occupied/requested; no new search request.
+- Existing geometry-fidelity coverage: Hale h754 report [issue #1592](https://github.com/Satobloc/HsH/issues/1592) is PUBLISHED_VERIFIED and exact-readback verified; Ravel h1224 spatial-Kerr/fiber-transport audit and PR #1133 source note are also preserved. No duplicate report or issue.
+- New delta: corrected the raw snapshot genealogy in `RavelJointAccommodationReadout.lean` on [PR #1133](https://github.com/Satobloc/HsH/pull/1133). Commit `45b6bccae3c595bb0266f372fa86fb64ea07eb8f`; module blob `570741860abe3a1252636bb7bfdba74c1eff6ff7`. Full SAT_CONVOS_18 blob `17cfe3feb830f70009557d063482b35adba0834b` is byte-identical to the Library export; older SAT_CONVOS_13 blob `c49367b0faa424491e7b3520a034b9e44fe6897f` is a shorter earlier snapshot.
+- PR #1133 remains OPEN / DRAFT / UNMERGED on the infrastructure branch, not main. Current head `45b6bccae3c595bb0266f372fa86fb64ea07eb8f`; prior successful merge-reference build #43212754624 is on the previous head. Current-head PR run #43593470689 was IN_PROGRESS at last readback; compile result pending. Separate push workflow #43593465738 failed with zero jobs returned and is not a Lean compilation result. No local Lean/Lake/Elan executable.
+- The existing factorization theorem remains conditional: a readout descends through the tube-only quotient iff it is constant on same-tube fibers. It does not define the force primitive, induction-current connection, physical readout or missing slice-to-timesheet map.
+- SAT-O1 and Blockwave original equation custody remains as recorded in Mercer h824; no original or corrected equation file changed here.
+- Campaign: P0 ACTIVE; P1 November 9 cognition paper OVERDUE / NOT READY, Orson-owned; P2 November 30 HOLD; P3 December 14 INCOMPLETE; FIE next review November 24. No ownership or priority changes.
+- No physical calculation, data-free fixture, fit, prediction, independent measurement, CODATA scoring, theory promotion, new tooling or subscription. No task, phase, cadence or schedule change; no sixth task.
+
+**Next cursor:** only revisit the force-primitive wording or the observer-slice/timesheet relation if new primary user material supplies the missing domains, codomains or coupling map. Preserve the distinction between the two geometric primitives, force as the stated primitive, and any assistant-proposed causal ordering. Keep the third 3D slice distinct from the timesheet until a source-defined map connects them. Do not repeat the already-published geometry audit.
+
 # Current Ravel state: h816:s3 | 2026-11-14
 
 **Status:** STANDARD-COMPARATOR UPGRADED / PROJECTION-FIBER GATE OPERATIONALIZED / NIST FINITE-SUPPORT CONTROL RECOMPUTED / P2 HOLD / NO H(s)H PREDICTION / NO AUTHENTICATED CURRENT RAVEL THREAD.
