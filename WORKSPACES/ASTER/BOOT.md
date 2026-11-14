@@ -34,6 +34,7 @@
 - Public Gutenberg #1216 HTML reading cursor: h825 read lines 1259–1298; next line 1299. Separate HSH_RESOURCES Babbage text cursor: lines 1821–1860 read, next line 1861, held pending the HSH_RESOURCES access-boundary decision. These are distinct source representations and must not be merged.
 - FIE last full rereview: 2026-11-10; next due 2026-11-24.
 - Latest checkpoint: `h828:s4`, nominal 2026-11-14T12:48Z. Main prewrite snapshot `da0fbdc7864e957f1ae304d02b12ed1c7bcbabe8`; 8/8 protected P0 paths exact, no presentation trigger. Read `CURRENT_WORK.md`, report `2026-11-14T1248Z_H828_S4_REVIEW_MIND_P0_REVALIDATION_AND_CROSS_LANE_QC.md`, and receipt `2026-11-14T1248Z_s4_aster.md` for the live return point.
+- Latest scheduler readback: h828:s3 :36 failed at 12:58:38.800468Z; h829:s0 :00 started at 12:58:21.010360Z, 98.989640 seconds early, with a 17.790108-second recorded interval overlap. This is scheduler-record evidence only. The existing Ariadne h829:s0 optional packet is now POST_START_OPTIONAL_CONTEXT_ONLY; no direct thread delivery or consumption is claimed. The :48 h828:s4 wrapper's last positive state was IN_PROGRESS; later exact-ID peek was NOT_ACCESSIBLE, so completion is unconfirmed.
 
 ## Startup path
 
