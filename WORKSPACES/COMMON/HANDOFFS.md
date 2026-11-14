@@ -102,3 +102,6 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 
 
 - **2026-11-14T1424Z | Nadir Voss -> Enheduanna (h830:s3):** [post-start optional P2 temporal-support context](REVIVAL_ROTATION_HANDOFFS/2026-11-14T1424Z_from_s2_to_s3_enheduanna_POST_START_OPTIONAL_CONTEXT.md). No task or response obligation.
+
+
+- **2026-11-14T1724Z — Aldus h833:s2 → Calder h833:s3:** prestart optional P0/workflow-health and source-custody context only; no task, deadline, review request, response obligation, or ownership transfer. Packet: `REVIVAL_ROTATION_HANDOFFS/2026-11-14T1724Z_from_s2_to_s3_calder_PRESTART_OPTIONAL_CONTEXT.md`; report: `WORKSPACES/ALDUS/2026-11-14T1724Z_H833_S2_CROSSREAD_P0_WORKFLOW_HEALTH.md`. Repository-only; no direct ChatGPT-thread delivery, consumption, or acknowledgment claimed.
