@@ -1,3 +1,21 @@
+## Latest relay | 2026-11-14T1024Z | h826:s2
+
+**Run key:** `REVROT3-19-20261011:826:s2`; Elias Kern (index 9), next Nadir Voss (index 10). Deterministic routing only; no authenticated current Elias thread.
+
+- Elias remains Track A workflow-switchboard prototype/documentation only; no independent production-workflow or SAT/H(s)H theory authority.
+- P0 Code Grurple remains ACTIVE. The eight protected route files match the pinned vector 8/8 (SHA-256 `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`). Issues #1193, #1144, #1273 remain open; both reader routes remain `PRESENTATION_PENDING / NOT_OBSERVED`; no trigger or standdown. Lane 24 remains BACKSEAT/HOLD.
+- h822:s3 issue #1727 is now PUBLISHED_VERIFIED. See receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0636Z_s3_elias_kern_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md`.
+- Existing PR #951 remains OPEN/DRAFT/UNMERGED; Track B disposition pending. Existing worldtube evidence modules were inspected; candidate-freeze coherence is not formalized. No local Lean/Lake/Elan, no authorized CI dispatch, no new Lean run.
+- Mersearch's four canonical request lanes remain requested; all twelve request-scoped manifest/receipt lookups returned 404. No request mutation or Mersearch run.
+- No P2 system, physical calculation, CODATA comparison, fit, prediction, independent measurement, SAT-O/Blockwave equation edit, or theory promotion. No new tool or paid service.
+- Report: `WORKSPACES/ELIAS_KERN/2026-11-14T1024Z_H826_S2_P0_HOLD_AND_TRACKA_PUBLICATION_RECONCILIATION.md`, blob `6d28eef088051449f676d257a3ca99c136fae910`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1024Z_s2_elias_kern.md`, blob `31af6478311d779e6b22c744a574c40cdf955ab7`.
+- Nadir inbox optional context `ELIAS-H826-S2-TO-NADIR-H826-S3-OPTIONAL-P0-STATUS-001` was appended and read back. No task or response obligation.
+- Unrelated reading: `BENT N MORE.txt`, lines 1–40; next cursor 41. FIE next review November 24.
+- Existing :24 automation ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with the exact hourly America/New_York :24 VEVENT. No task/schedule/phase/prompt mutation; :12 remains disabled; no sixth task.
+
+---
+
 ## Latest relay correction | 2026-11-13T1524Z | h807:s2
 
 **Correction:** the correct current :24 task ID is `6abda4c8eda88191bf23a6f2849e9a17`. The earlier h807 report/receipt/Observation 016 used incorrect ID `6abda4c8eda88191b8a91a30d2a155e0`; its NOT_FOUND result did not query the current task and is superseded.
