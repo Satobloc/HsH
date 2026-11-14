@@ -144,6 +144,6 @@ Issue #1716 is `PUBLISHED_VERIFIED`. Publisher run #43537622270 completed succes
 
 Existing :36 task ID `6a9f52b69ec08191b8a91a30d2a155e0` remains enabled with the exact saved America/New_York hourly :36 DTSTART, prompt and phase unchanged. Current run ID `0a199fb6-df1c-8329-ac3e-d200d6370157`, scheduled 00:36Z, started 00:40:38.643535Z, IN_PROGRESS, completion and `chat_ref` null. Cached result is Tern h815:s3, not Ravel.
 
-Existing :48 task remains enabled with its exact saved schedule and ID. Orson h816:s4 run `3019ad56-c664-8326-b35c-f9cfc401f67b` started 00:47:11.689815Z and is IN_PROGRESS. Any Ravel-to-Orson handoff created now is POST_START_OPTIONAL_CONTEXT_ONLY, not pre-start. Orson's P1 cognition remit and approximate 4/5 work allocation remain protected; this note creates no physics assignment, task, deadline, review or ownership transfer.
+Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact saved schedule `DTSTART;TZID=America/New_York:20261001T144800`, `RRULE:FREQ=HOURLY`, prompt and phase unchanged. Orson h816:s4 run `3019ad56-c664-8326-b35c-f9cfc401f67b` started 00:47:11.689815Z and is IN_PROGRESS. Any Ravel-to-Orson handoff created now is POST_START_OPTIONAL_CONTEXT_ONLY, not pre-start. Orson's P1 cognition remit and approximate 4/5 work allocation remain protected; this note creates no physics assignment, task, deadline, review or ownership transfer.
 
 No task/ID/cadence mutation, sixth task, signet or chat rename.
