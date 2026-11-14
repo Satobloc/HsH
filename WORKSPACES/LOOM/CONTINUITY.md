@@ -824,3 +824,20 @@ The :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its exact 
 - The earlier and later start snapshots produce different overlap windows with :00 Aster and :36 Sable. Both are preserved in WORKSPACES/LOOM/2026-11-14T0942Z_H824_S4_FINAL_SCHEDULER_RECORD_AMENDMENT.md; no process-level concurrency or cause is inferred.
 - Tern INBOX received the final scheduler readback. No Tern-owned Observation, task graph or automation was modified.
 - Source replay report and manifest remain durable and verified; wrapper status is not successful.
+
+
+## H828:S3 continuity checkpoint | 2026-11-14
+
+The new direct source message dated 2026-11-08 adds a provisional fourth-spatial role for w and a possibility that proper time is distinct. It does not resolve the earlier w=ct and cw=t source strata. Preserve all four source contexts without implicit inversion or supersession.
+
+Raw export identity: conversation 6aecede1-4c08-83e9-abc4-da64f59a4f51; direct message c0520975-02a0-408f-a250-364b88ab7b30; raw bytes 8,331,175; SHA-256 875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d; Git-blob-formatted SHA-1 c1793cebf08ed57881eb144ee23fe6d1d6d69f1a. Three Library aliases are exact copies of one witness. Only the geometry-relevant subset of the 29 current-ancestry user-role turns was reviewed.
+
+ModelFreeze should carry a coordinate-role witness: ambient dimension/signature, w_role, time_role, exact w-to-t map and units or unresolved status, timesheet type, theta-4 metric/normal definition, projection/composition maps and source/supersession scope. This remains a proposal, not an implementation.
+
+The conditional rank-3 normal-bundle result for a smooth 1D core in a smooth 4D ambient is available through existing formal work; it does not determine radius, twist, contact surfaces or physical truth. PR #873 and #1133 are not current-main integrated. No new Lean proof.
+
+Deep upkeep sweep: ten completed activations since Tern h819:s2. Existing triage script executed from exact hash-verified copy. Task graph count mismatch and P2 active/hold mismatch remain Tern-owned. WH-02 PR #1710 remains Calder-owned. Mersearch remains HELD across four lanes; no retry.
+
+Public issue #1737 PUBLISHED_VERIFIED. Internal report and receipt amendment 01 are linked in the h828 report. Aster handoff is post-start optional; Tern handoff is optional owner context. No direct thread delivery or acknowledgment claimed.
+
+Next reading cursor: fun break - lx.txt line 1561. FIE next review: 2026-11-24. No task/ID/schedule/phase change; no sixth task.
