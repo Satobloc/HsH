@@ -1,3 +1,24 @@
+# Current Ravel state: h816:s3 | 2026-11-14
+
+**Status:** STANDARD-COMPARATOR UPGRADED / PROJECTION-FIBER GATE OPERATIONALIZED / NIST FINITE-SUPPORT CONTROL RECOMPUTED / P2 HOLD / NO H(s)H PREDICTION / NO AUTHENTICATED CURRENT RAVEL THREAD.
+
+- Latest report: `WORKSPACES/RAVEL/2026-11-14T0036Z_H816_S3_STANDARD_COMPARATOR_PROJECTION_FIBER_NIST_CONTROL.md`
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0036Z_s3_ravel.md`
+- Regeneration prompt: `WORKSPACES/RAVEL/REGENERATION_PROMPT_2026-11-14_H816.md`
+- Published artifact: issue #1716, submission ID `ravel-projection-fiber-nist-finite-support-control-20261114t0036z-s3-001`, SHA-256 `413b043a8817f335017dc58fa86db08076ce3182cc4ff01e2160b4d05ea52a32`, PUBLISHED_VERIFIED; publisher run #43537622270, exact destination readback and SHA-256 match; blob `6f7a34c22b20fb574dc14ed9c7f98150151607a5`.
+- Rejected intake #1715 was closed as not_planned and wrote no artifact.
+- Existing formal source: PR #1133, OPEN / DRAFT / UNMERGED; successful merge-reference build #43212754624, not current-base integration.
+- Standard measured-system control: NIST/BIPM torsion balance. Point-mass/no-disk versus actual finite-mass-support no-disk \(\Gamma_{\max}\) contrast is about \(-55{,}865\) ppm. This is a model-adequacy control, not an H(s)H prediction or P2 selection.
+- Source issues preserved: Section 6.1 point-mass \(\Gamma_{\max}=0.457946\) versus Table 10 0.457999 (~116 ppm difference); Table 10 \(\Gamma\) unit header conflicts with symbol list/Eq. (1). No silent correction.
+- Incoming Mercer h816:s2 optional handoff read. Kestrel h816:s0 cross-boundary report/receipt read; no duplication of issue #1714.
+- No authenticated current Ravel thread; source-grounded revival only. No new ChatGPT conversation.
+
+**Campaign:** P0 ACTIVE; P1 cognition OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE; P2 source-readiness gate 2026-11-16; FIE next review 2026-11-24. Task graph remains ACTIVE_SEED, 18 records vs `branch_count=16`; Tern retains reconciliation authority.
+
+**Next useful work:** reconcile the NIST source-internal values/units from exact inputs; if raw torque time series and CMM point cloud become available, assess independent holdout and covariance. Do not select NIST as P2 without owner authority. Require explicit projection, evolution, response and instrument maps before any H(s)H prediction.
+
+---
+
 # Current Ravel state: h812:s4 | 2026-11-13
 
 **Status:** REVIEW-MIND SOURCE/MAP AUDIT COMPLETE / MERSEARCH LANES OCCUPIED / WH-06 BOUNDED SNAPSHOT VERIFIED / NO PHYSICAL CALCULATION / P2 HOLD / NO AUTHENTICATED CURRENT RAVEL THREAD.
