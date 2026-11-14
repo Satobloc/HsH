@@ -5,8 +5,9 @@
 - Table 10's printed kg² m⁻¹ annotation is dimensionally inconsistent; Gamma is dimensionless under the paper's torque equation.
 - Cause remains unresolved: exact Table 10 point-mass input geometry, coordinates, maximization angle and code/version are not supplied.
 - Report: [h835:s3 NIST reconciliation](2026-11-14T1936Z_H835_S3_NIST_POINT_MASS_FACTOR_RECONCILIATION.md)
-- Amendment: [handoff-pointer recheck](2026-11-14T1936Z_H835_S3_NIST_POINT_MASS_FACTOR_RECONCILIATION_AMENDMENT_01_HANDOFF_POINTER_RECHECK.md)
-- Public follow-up: issue #1750, additive to #1716; publisher status pending verification.
+- Amendment 01: [handoff-pointer recheck](2026-11-14T1936Z_H835_S3_NIST_POINT_MASS_FACTOR_RECONCILIATION_AMENDMENT_01_HANDOFF_POINTER_RECHECK.md)
+- Amendment 02: [publisher rejection](2026-11-14T1936Z_H835_S3_NIST_POINT_MASS_FACTOR_RECONCILIATION_AMENDMENT_02_PUBLISHER_REJECTION.md)
+- Public follow-up: issue #1750, additive to #1716; publisher rejected issue #1750 with SHA-256 mismatch; no artifact or readback. See Amendment 02.
 - A pre-existing Mercer h835:s2 INBOX pointer was not resolvable to a current repository artifact; no packet-read or consumption claim.
 - Orson P1 remains protected; no handoff or assignment.
 - P0 ACTIVE / P1 OVERDUE-NOT-READY / P2 HOLD / P3 INCOMPLETE / FIE review November 24.
