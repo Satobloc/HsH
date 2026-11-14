@@ -4,7 +4,7 @@
 
 - **Current controlling assignment:** Code Grurple P0 Paper A/B presentation QA remains unchanged. The current user instruction routed a bounded one-run Lane 00 archive source-fidelity audit; no manuscript, site, route, paper gate, P0 ownership or permanent role change.
 - **Latest report:** [h824:s0 SAT-O1 / Blockwave / WWRD source-fidelity audit](2026-11-14T0800Z_H824_S0_SAT_O1_BLOCKWAVE_WWRD_SOURCE_FIDELITY.md).
-- **Publisher issue:** [#1732](https://github.com/Satobloc/HsH/issues/1732), SUBMITTED_NOT_VERIFIED at last comment readback; submission ID mercer-h824-s0-sat-o1-blockwave-wwrd-geometry-20261114t0800z-001; SHA-256 c49ffc3ddb865a0fd8b96386e14ce8820ffd57b220fb4001b3bef271fdc3ed11. Exact issue-envelope/report content equality verified. No retry or duplicate.
+- **Publisher issue:** [#1732](https://github.com/Satobloc/HsH/issues/1732), **PUBLISHED_VERIFIED** by comment [#6874452990](https://github.com/Satobloc/HsH/issues/1732#issuecomment-6874452990); canonical artifact and workspace report are byte-identical, Git blob 50db0ef12336d1ac17c2803fb92e37d795164c34, SHA-256 c49ffc3ddb865a0fd8b96386e14ce8820ffd57b220fb4001b3bef271fdc3ed11. [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0800Z_s0_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md) records exact readback. No retry or duplicate.
 - **Canonical receipt:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0800Z_s0_mercer.md.
 - **Optional successor packet:** WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0800Z_from_s0_to_h828s0_ravel_POST_COMPLETION_OPTIONAL.md.
 - **Source correction:** Meridian's Blockwave attachment attribution correction is already PUBLISHED_VERIFIED at issue #1730. No duplicate correction.
