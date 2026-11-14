@@ -4,7 +4,7 @@
 
 **Status:** ACTIVE / UPDATE AFTER MATERIAL STATE CHANGES  
 **Established:** 2026-09-14  
-**Last material update:** 2026-11-13 (h809:s2 task-branch and lease-integrity audit; see appended section for exact evidence)
+**Last material update:** 2026-11-14 (h820:s4 systems continuity and scheduler-state audit; see appended section for exact evidence)
 **Purpose:** allow Sable's role to resume after conversation cutoff, model reset, reassignment, or automation restart without depending on transient chat memory.
 
 ## Core purpose
@@ -43,7 +43,7 @@ Hard UX rule: **no instance, automation, consultant, revival worker, or script s
 
 ## Dashboard / Q&A
 
-Nathan's Dashboard remains the central human-facing switchboard. Standing worker questions should route through Sable via `QNA_TRIAGE_QUEUE.md`: answer locally, route sideways, merge duplicates, defer non-blockers, escalate only genuinely Nathan-dependent items. Escalated items use sticky `🔶` under `NATHAN_ATTENTION_FLAG_PROTOCOL.md` until resolved. Current Sable INBOX has no open items as of this update.
+Nathan's Dashboard remains the central human-facing switchboard. Standing worker questions should route through Sable via `QNA_TRIAGE_QUEUE.md`: answer locally, route sideways, merge duplicates, defer non-blockers, escalate only genuinely Nathan-dependent items. Escalated items use sticky `🔶` under `NATHAN_ATTENTION_FLAG_PROTOCOL.md` until resolved. Current Sable INBOX contains the original direct requests plus later optional context; the earlier “no open items” statement is superseded. Preserve all original items and consult the live OPEN/CLOSED sections.
 
 ## Current live status corrections
 
@@ -1154,3 +1154,26 @@ The final exact-ID peek found the existing :36 task `6a9f52b69ec08191b0a2ba24a07
 - Tern inbox current blob: `dff8d880ec215e12e57cea9f8e7055bda65fef36`.
 - Canonical receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1724Z_s2_sable_AMENDMENT_02_SUCCESSOR_EARLY_START_AND_HANDOFF_STATUS.md`, blob `88da4d6ec24ef2d5c9c1618e89b8576cf0d3ab88`.
 - No task, ID, schedule, phase, prompt, cadence, enabled state, task count, or ownership changed. No sixth task.
+
+
+## 2026-11-14 | h820:s4 | Systems continuity and scheduler-state audit
+
+- **Run key / selection:** `REVROT3-19-20261011:820:s4`; h=820, seq=4104, index 0 Sable; next Loom h821:s0, index 1. Selection is a deterministic label, not historical-thread authentication.
+- **Historical source:** raw Library export `SABLE Revival Rotation — raw.json`, direct user-role message `df0c6245-20ee-43bb-b381-f277f85bddb4` (2026-09-14). It supports systems/capability analysis, workflow architecture, automation/tool testing, knowledge-base surveying and scripting for extraction/checking/triage. No standalone signed specialist charter.
+- **Thread-first correction:** ordinary Sable's main conversation is historically identified as `Revival Rotation`; current live usability remains UNVERIFIED, not confirmed exhausted. No newer ordinary-Sable successor was found. The exact private ID is not copied into this public workspace. Keep it separate from A. Sable Meridian and the wrong-Sable conversation. Browser tab verification was unavailable because the originating browser context was absent; this is not proof of inaccessibility.
+- **Workspace corrections:** BOOT and README now point to h820:s4. The stale h805:s3/:36 “current run” text was removed. No `CURRENT_WORK.md` exists at the current main path. No unique active Sable feature branch is declared; 15 Sable-named branches remain unassigned. `CONTINUITY.md` belongs to A. Sable Meridian and was not modified.
+- **INBOX correction:** the prior fixed nine-entry routing count is stale because later optional context has accumulated. The OPEN/CLOSED sections are authoritative. No original request was closed, answered, reassigned or accepted as a new assignment.
+- **Live scheduler cross-section:** four existing phases remain enabled (:00/:24/:36/:48); :12 remains disabled. At readback, :00 h820 completed; :24, :36 and :48 h820 records were IN_PROGRESS with null completion/chat_ref and stale latest-result pointers. :00 and :24 recorded intervals overlapped by 190.304832 seconds. A later :00 h821 Loom run surfaced early and was already IN_PROGRESS before nominal. These are record-level observations only, not proof of process concurrency, retry, restart, identity or backend cause. Tern retains scheduler authority; no task, ID, schedule, phase, prompt, cadence, enabled state or task count changed.
+- **Tern routing:** the nearest existing record is Observation 028. No new observation was created or Tern-owned observation edited; a read-only optional evidence pointer was appended to Tern's INBOX.
+- **Task graph:** current blob `4ee79fa0a30fedb1feffd0a92c2716f87a365670`; 18 records versus declared `branch_count=16`; 11 parent edges versus 10 child edges; one nonreciprocal parent/child relation remains. No dangling references found. Tern owns the definition and any repair; no graph write.
+- **Existing tools:** `tools/audit_revival_rotation_v3.py` and `WORKSPACES/COMMON/task_upkeep_triage.py` were located. The latter is a priority/status sorter, not a graph validator. Math Hopper #578 / PR #991 and Whirligig PR #897 remain existing work; SciSpace is available but was not needed. No new tooling, Lean theorem/build, dependency, fork, subscription or expenditure.
+- **Mersearch:** all four current request files remain `requested`; no lane was free. No request was created, overwritten, retriggered or released; no Mersearch run is claimed.
+- **Orson h820:s3:** incoming optional post-start context was read. Issue #1723 subsequently reached PUBLISHED; the published artifact and Orson report share blob `3f1e67f7b4aa0476e96140a275eb0b348e70c32b`, and the publisher comment reports SHA-256 `5bdba107b425ef46197847be56574468e791984686710ea5bae86e2ddc3915e6`. No retry or duplicate. Orson retains sole P1 ownership; P1 remains OVERDUE / NOT READY.
+- **Campaign:** P0 ACTIVE (Mercer owns Papers A+B presentation QA; Tern consolidates); P2 HOLD; P3 INCOMPLETE. FIE last reviewed Nov 10; next Nov 24.
+- **Lateral reading:** SAT archive `FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/MIX TAPES.txt`, lines 581–620; next cursor 621. Genuine unrelated reading; no physical break claimed.
+- **No physical calculation, fit, prediction, independent measurement, human session, model trial, equation correction, paper-gate advancement or BEDROCK promotion.**
+- **Successor:** Loom h821:s0 had already started before the optional packet; handoff is POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. No task, review, deadline or ownership transfer.
+
+**Report:** `WORKSPACES/SABLE/2026-11-14T0448Z_H820_S4_SABLE_SYSTEMS_CONTINUITY_AND_SCHEDULER_AUDIT.md`, blob `e2d420aa927768308499f9ed166a23f8925b92b8`.
+**Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0448Z_s4_sable.md` (created after report and continuity updates).
+**Return pin:** `H820:S4 / SABLE / THREAD_KNOWN_HISTORICALLY_CURRENT_USABILITY_UNVERIFIED / BOOT_README_CHECKPOINT_INBOX_RECONCILED / TERN_OBS028_DELTA_ROUTED / ORSON_H820_S3_PUBLISHED / LOOM_H821_S0_POSTSTART_OPTIONAL / MIX_TAPES_621 / FIE_NOV24`.
