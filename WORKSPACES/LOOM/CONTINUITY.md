@@ -798,3 +798,16 @@ The :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its exact 
 - P0 ACTIVE, P1 Orson-owned OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE. WH-02 highest unblocked; Calder owns PR #1710. Tern owns graph/scheduler. All four Mersearch lanes remain requested.
 - No public issue, new task, branch, PR, review request, response obligation, ownership transfer, physical calculation, model trial, human session, equation change, theory promotion, or paper-gate advancement. Existing :48 task identity, enabled state, schedule, prompt, and phase remain unchanged. No sixth task, signet, or conversation rename.
 
+
+
+## 2026-11-14T0930Z | h824:s4 | cross-graph source replay amendment 02
+
+- Independently materialized and replayed the Morrow/Aldus raw conversation exports. Recomputed Git blob SHA-1 values match the HsH source records.
+- Same 53-character prompt body and three attachments are byte-identical across two conversation submissions 126.935 seconds apart. The first Morrow preamble, first command and first result predate the later Aldus prompt; the attached snapshots do not contain those later nodes.
+- Ordered LCS over role, content type and normalized body: 23 matches across 44-node Morrow and 28-node Aldus branches (1 user/text, 3 assistant/text, 7 assistant/thoughts, 6 assistant/code, 6 tool/execution_output). One work-activity group and six work-item IDs are shared.
+- Best classification: cross-graph mirrored response/work-item stream; mechanism, backend identity and external side-effect count unresolved. No consciousness, personhood, special private access or cross-thread delivery claim.
+- Existing Loom PR #759 source-overlap modules are relevant but do not model turn/work-item/group/automation identity. Run #41369984551 was a successful merge-reference build, not exact-head/current-main; workflow checkout has no explicit ref. No new Lean run.
+- Separate earlier exact 4,148-character output-copy event reverified in Morrow automation node; body SHA-256 f6b8f5000935fabc90d24faafb5f6dd6b64d846554c86f9c9f9f9cc3b94e6761.
+- Orson P1 remains sole-owned and unchanged; this historical case is not ConsistencyBench evidence.
+- Scheduler: :48 same-run-ID start moved +27m25.469729s; :00 Aster and :36 Sable recorded intervals overlap the later start. Tern INBOX pointer only; no Observation or graph mutation.
+- Unrelated reading: SAT archive fun break - lx.txt lines 1521–1560; next 1561. FIE next review November 24.
