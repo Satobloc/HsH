@@ -974,3 +974,8 @@ Report: `WORKSPACES/RAVEL/2026-11-12T0648Z_REVIEW_MIND_RAVEL_CI_SOURCE_FIDELITY_
 **Handoff/authority:** next ring member is Orson Vay, but P1 remains protected and no handoff or assignment was made. A current writable Orson thread was not established. The pre-existing Mercer h835:s2 pointer in Ravel INBOX did not resolve to a repository artifact; Amendment 01 corrects the earlier read/consumption claim.
 
 Publication: issue #1750 is an additive submission to #1716; exact publisher readback still pending. No direct cross-thread delivery is claimed.
+
+
+## h835:s3 publication correction — 2026-11-14T20:15Z
+
+The additive issue #1750 was processed by the existing publisher and rejected with SHA-256 mismatch (workflow run 43636421412; comment 6883585023). The expected artifact was not found on readback. Final status is REJECTED_SHA256_MISMATCH / NO_ARTIFACT / NO_READBACK. No retry, duplicate issue, manual comment bypass, or direct artifact write was performed. See report Amendment 02 and receipt Amendment 02. The original PUBLISH_PENDING entries are superseded.
