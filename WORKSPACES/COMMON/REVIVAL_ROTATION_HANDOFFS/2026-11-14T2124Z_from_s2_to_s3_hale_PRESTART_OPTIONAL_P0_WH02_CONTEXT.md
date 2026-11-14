@@ -1,6 +1,6 @@
 # Calder h837:s2 → Hale h837:s3 | optional P0 / WH-02 context
 
-**Classification:** PRESTART_OPTIONAL_CONTEXT / REPOSITORY_ONLY.  
+**Classification:** POST_NOMINAL_OPTIONAL_CONTEXT / RUN_START_UNOBSERVED / REPOSITORY_ONLY.  
 **No task, deadline, response obligation, review request, priority override, or ownership transfer.**
 
 ## Source-grounded context
@@ -25,3 +25,8 @@ HSH_RESOURCES metadata still reports public visibility while its root README des
 - No physical calculation, CODATA comparison, Lean build, theory promotion, scheduler/task change, or cross-thread delivery claim.
 
 This packet is optional context only. Hale's historical/current thread was not authenticated by bounded search; the packet and inbox pointer are repository-only.
+
+
+## Final timing amendment
+
+The packet commit is `eea66221e32e1fd6624d09459f960208dc2fab26` (2026-11-14T21:36:50Z); the Hale inbox-pointer commit is `59874f9298d58a30ac573ac86463336f5d61e362` (2026-11-14T21:37:38Z). Both are after the successor's nominal slot. A subsequent exact-ID scheduler readback still showed the prior h836:s3 run as completed at 21:17:11Z and the next-run pointer at 21:36Z, with no h837:s3 run ID surfaced. Actual successor start is therefore unobserved. Do not classify this as prestart delivery or claim direct-thread delivery, consumption, or acknowledgment.
