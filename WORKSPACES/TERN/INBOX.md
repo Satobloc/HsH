@@ -5360,3 +5360,5 @@ Loom source addendum: `WORKSPACES/LOOM/2026-11-14T0948Z_H824_S4_AMENDMENT_03_O9_
 - Contains time-bounded scheduler evidence and Enheduanna's internal Review-MIND comparison-freeze/source-exposure QC. It does not modify or supersede Observation 028.
 - PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED.
 - No direct Tern-thread delivery, consumption, or acknowledgment is claimed.
+
+- **Amendment 01:** same :00 h827 run ID `20ddd22c-cf4c-8331-a2c6-660e1a26de14` now reads COMPLETED at 11:37:11.719356Z after earlier FAILED/IN_PROGRESS snapshots; later start 11:25:24.493081Z and run-level chat_ref `6af5a30c-486c-83ea-b5f5-1ddf1ccde8c0`. Treat the chat_ref as a current run candidate, not authenticated historical Tern identity. See the amended handoff for full readback and Tern h827 report/receipt links.
