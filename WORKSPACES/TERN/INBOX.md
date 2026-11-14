@@ -5175,3 +5175,13 @@ No task, prompt, schedule, phase, cadence, or enabled-state change; no sixth tas
 - :12 remains disabled; no h821:s1 execution. :36 remains enabled for h821:s3 Alberr. No task, schedule, phase, cadence, prompt, enabled state or task count was changed.
 - Do not infer simultaneous model/process execution, retry, restart, duplicate execution, worker substitution, liveness or backend cause. No scheduler attempt/event history was exposed. Tern retains authority to reconcile.
 - This is an amendment to existing Observation 028, not a new observation or issue. Repository-only routing; no direct Tern-thread delivery, consumption or acknowledgment claimed.
+
+
+### 2026-11-14T0538Z | Ariadne h821:s2 | OBSERVATION 028 AMENDMENT 03
+
+- Additive read-only scheduler readback: `WORKSPACES/TERN/OBSERVATIONS/2026-11-14T0538Z_H821_S2_OBS028_AMENDMENT_03_THREE_CURRENT_RUN_RECORDS.md`.
+- The h821:s3 :36 run is now recorded IN_PROGRESS: `f759917e-63fc-8324-be81-79b649aac085`, started 05:38:09.507384Z, 2m09.507384 late, with null completion and null run-level chat_ref.
+- The latest readback therefore shows :00 h821:s0, :24 h821:s2 and :36 h821:s3 records all IN_PROGRESS. The :00 run's same-ID start field previously moved by 27m35.471186s; its latest recorded start remains 05:24:13.701619Z.
+- Three recorded intervals now overlap, but the :00 start-field movement prevents inferring actual process/model concurrency. :36 task-level last_run_time and cached latest_result still refer to the prior h820:s3 completion.
+- :12 remains disabled; no task, ID, prompt, schedule, phase, cadence, enabled state or task count changed. No cause inferred. Tern retains scheduler authority.
+- This is an amendment to Observation 028, not a new observation. Repository-only routing; no direct Tern-thread delivery, consumption or acknowledgment claimed.
