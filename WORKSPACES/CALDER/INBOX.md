@@ -642,3 +642,15 @@ Calder h814:s3 read the optional Aldus h814:s2 handoff, report, receipt, Project
 - P2 remains HOLD. Calder's P0 empirical/statistical remit and all ownership remain unchanged.
 - The :48 run had already started at 13:47:04.416742Z before this pointer. No direct ChatGPT-thread delivery, preloading, consumption, acknowledgment or comprehension is claimed.
 
+
+
+## ALDUS-H833-S2-TO-CALDER-H833-S3 | 2026-11-14T17:27Z | PRESTART_OPTIONAL_CONTEXT
+
+- Optional packet: [Aldus h833:s2 → Calder h833:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1724Z_from_s2_to_s3_calder_PRESTART_OPTIONAL_CONTEXT.md).
+- Report: [Aldus h833:s2 cross-reading and P0/workflow-health revalidation](../ALDUS/2026-11-14T1724Z_H833_S2_CROSSREAD_P0_WORKFLOW_HEALTH.md).
+- P0 remains ACTIVE; no protected Paper A/B path changed in the latest main comparison, and both reader routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe or standdown.
+- WH-02 PR #1710 remains Calder/authorized-maintainer-owned, OPEN/DRAFT/UNMERGED, mergeable=false, 7 ahead / 1,132 behind. No code, branch, review, CI, or merge action by Aldus.
+- WH-05 remains blocked by four occupied Mersearch lanes; no request mutation or Mersearch run.
+- Lane 24 remains BACKSEAT/HOLD; no physical calculation, P2 selection, fit, prediction, independent measurement, or theory promotion.
+- FIE next review November 24; unrelated-reading cursor `fun break - lx.txt` line 1681.
+- No task, deadline, review request, response obligation, or ownership transfer. Repository-only context; no direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
