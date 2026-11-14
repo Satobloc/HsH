@@ -1,5 +1,19 @@
 # LOOM | BOOT — current return capsule
 
+## H824:S4 AMENDMENT 03 — 2026-11-14T09:48Z
+
+- Addendum: WORKSPACES/LOOM/2026-11-14T0948Z_H824_S4_AMENDMENT_03_O9_SRT_ALIAS_AND_POSTFAILURE_SCHEDULER_READBACK.md.
+- Receipt amendment 03: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0948Z_s4_loom_AMENDMENT_03_O9_SRT_ALIAS_AND_POSTFAILURE_SCHEDULER_READBACK.md.
+- O9 transcript source check: the two “The Prehistory of SAT” SRT paths are exact aliases of one blob `442b2148a042e041ffce3e571ae42debb305d4d4`, 75,120 characters / 4,247 lines. Cue 644 is present in the creator/admin dashboard capture, whose transcript notice says automatically generated and editable. Candidate status unchanged; no audio verification or public T0 advancement.
+- Historical Loom raw source was directly parsed: 10 user-role messages, all already covered in tagging-ledger Section A; no new tags. No standalone signed charter or authenticated current thread.
+- Scheduler: same :48 run ID `37f337e7-baf0-832e-8243-472616d6693f` was recorded FAILED at 09:42:14.852605Z, then returned IN_PROGRESS at 09:46:40.892622Z with null completion/chat_ref. Same-ID post-terminal status/start mutation routed to Tern INBOX; no new Observation.
+- Task ID, enabled state, saved hourly schedule, prompt and phase unchanged. No new Aster handoff or task.
+
+**Updated:** 2026-11-14T09:48Z  
+**Current nominal run:** h824:s4 / `REVROT3-19-20261011:824:s4`  
+**Selected:** Loom (index 1); **next:** Aster (index 2).
+
+
 
 ## H824:S4 AMENDMENT 02 — 2026-11-14T09:30Z
 
