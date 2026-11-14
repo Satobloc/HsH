@@ -1114,3 +1114,19 @@ Cross-lane review: Orson P1 ownership preserved; #1647 is a literature crosswalk
 - Same run ID start field moved +27m25.469729s; task-level last_run_time/next_run_time/updated_at are stale. Preserve both start snapshots and overlap ranges in WORKSPACES/LOOM/2026-11-14T0942Z_H824_S4_FINAL_SCHEDULER_RECORD_AMENDMENT.md.
 - Tern INBOX received the final scheduler status; no Tern Observation or task graph mutation.
 - Repository source replay report/manifest are verified. Wrapper completion is not successful.
+
+
+## H828:S3 checkpoint | 2026-11-14
+
+- Rotation: h=828, seq=4143, Loom index 1, Aster next.
+- Source update: Nov 8 direct provisional fourth-spatial w role; proper time may be distinct. Earlier w=ct / cw=t contexts preserved separately.
+- Raw export: 8,331,175 bytes; SHA-256 875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d; Git-blob-formatted SHA-1 c1793cebf08ed57881eb144ee23fe6d1d6d69f1a. Three aliases = one source.
+- Updated: terminology hazard register and shared source-tag ledger. Added lateral reading tags for lines 1521-1560. Next cursor 1561.
+- ModelFreeze: proposed coordinate-role witness; not implemented.
+- Lean: existing PR #873/#1133 conditional modules reviewed; no new theorem. PR #1133 root build failed in MovingPlaneTraceGeometry.
+- Deep sweep: existing task_upkeep_triage.py exact source copy hash verified, self-test passed; 13 active/blocked candidates, 5 completed. Graph has 18 records versus declared 16, one nonreciprocal parent/child relation. P2 active in graph versus HOLD in queue. No graph/queue change.
+- WH-02 PR #1710: Calder-owned, 7 ahead / 793 behind current main, mergeable_state unstable.
+- Mersearch: all four lanes HELD; no retry. P0 8/8 protected blobs unchanged. P1 overdue/not ready; P2 HOLD; P3 incomplete. FIE 2026-11-24.
+- Public issue #1737: PUBLISHED_VERIFIED; receipt amendment 01 contains exact publisher readback.
+- Handoff: Aster post-start optional; Tern optional owner context. No direct cross-thread delivery or acknowledgment.
+- Automation: :36 task ID and exact schedule/prompt/phase unchanged. Current run c0a91419-df94-8323-be3b-a842b3405c0c last observed IN_PROGRESS, completion null, chat_ref null. No terminal completion claim.
