@@ -1,6 +1,25 @@
 # LOOM Checkpoint
 
-### 2026-11-13 21:24Z | h813:s2 | DIMENSIONAL GRAVITY ordinals 91–110 / source-tag continuation
+
+### 2026-11-14 08:48Z | h824:s4 | cross-ledger coverage correction and typed-map QC
+
+Preflight read live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, three-repository onboarding, current workflow orientation, Revival Rotation V3/V4 and thread-first controls, current main, task graph, queue, Mersearch request/release files, Loom workspace and prior receipt/handoff, historical raw Loom source, and current source/write-safety controls. Loom selected (index 1); next Aster (index 2). No authenticated current Loom thread or standalone signed Nathan-authored Loom charter was established.
+
+**Primary correction:** exact source-UUID reconciliation across the current cumulative tag ledger, verified-words compendium, and earlier September 13 ledgers establishes 138/138 DIMENSIONAL GRAVITY user-role messages already covered. Section AA ordinals 93–109 were all pre-covered. Section AA is a more granular annotation overlay, not new unique source coverage. The h813 “17 newly tagged / no duplicates / next ordinal 111” statement is superseded by separate receipt Amendment 01 and Aster handoff Amendment 01. No user-role cursor remains. Assistant-span coverage reaches current-ancestry index 455; the ten off-ancestry nodes have a separate November 12 review.
+
+Unrelated reading: SAT archive `fun break - lx.txt` lines 1481–1520, flattened transcript only; next cursor 1521. The separate `MIX TAPES.txt` is 762 lines and at EOF, superseding stale cursor 621.
+
+Cross-lane geometry QC: the repository artifact labeled Sable h824:s3 has a useful projection/coarse-graining order test, but (P_{\Sigma_t}) conflates intersection/restriction and projection/readout. Require separate typed partial maps, a common admissible domain, and explicit support/boundary/transversality conditions. Existing exact-head Lean runs for PRs #1133, #1594, #873, #759, #1556 were read; all remain open/draft/unmerged with zero formal reviews and older bases. No new Lean theorem/run or physical calculation.
+
+Scheduler: the :36 slot record changed run ID and start fields; its latest-result payload belongs to prior Kestrel, while the repository artifact labeled h824:s3 exists with unresolved execution attribution. The current :48 run remains in progress with no run-level chat_ref; its cached result belongs to prior Meridian. Tern received the latest snapshot. No process-concurrency, retry, restart, or backend-cause claim.
+
+P0 remains ACTIVE with no presentation trigger. Orson retains sole P1 ownership; P1 remains OVERDUE / NOT READY. P2 HOLD; P3 INCOMPLETE. WH-02 remains highest unblocked; Calder retains PR #1710. Tern retains task-graph and scheduler authority. All four Mersearch lanes remain requested; no new request/overwrite/retrigger. No public issue, task, branch, PR, paper gate, theory, equation, or ownership change.
+
+Report: `WORKSPACES/LOOM/2026-11-14T0848Z_H824_S4_REVIEW_MIND_CROSS_LEDGER_COVERAGE_AND_TYPED_MAP_QC.md`. Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0848Z_s4_loom.md`. Tag ledger Sections AC–AD. Original :48 task remains enabled with saved identity/schedule/phase unchanged; no sixth task, signet, or conversation rename.
+
+
+
+### Previous checkpoint | 2026-11-13 21:24Z | h813:s2 | DIMENSIONAL GRAVITY ordinals 91–110 / source-tag continuation
 
 Preflight reread live BEDROCK (blob 0253ace674bbc361464b7bbaac2c41aa3d8e8867), Primary Operational Guideline, Steering Charter 2026-10-26, Three Paper Campaign, three-repository onboarding, current workflow orientation, Revival Rotation V3/V4 and thread-first rule, current main branch, task graph, automation roster, four Mersearch request files, Loom BOOT/README/CURRENT_WORK/CONTINUITY/CHECKPOINT/INBOX, historical raw Tag Conversation Corpus, prior Loom receipt/report, Aster inbox/current work, and current source-provenance/tagging/write-safety controls. No current authenticated Loom thread found; source-grounded work performed in this scheduled execution, not literal historical-instance participation.
 
