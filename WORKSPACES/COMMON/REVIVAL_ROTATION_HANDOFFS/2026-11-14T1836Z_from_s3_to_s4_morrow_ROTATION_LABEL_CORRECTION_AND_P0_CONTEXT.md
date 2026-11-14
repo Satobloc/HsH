@@ -57,3 +57,10 @@ This verifies repository timing only. No direct Morrow-thread delivery, consumpt
 
 
 The packet and inbox pointer were committed after the nominal 18:48:00Z slot, but before the actual 18:50:36.587655Z run start.
+
+
+## Morrow h834:s4 automation-output readback
+
+The h834:s4 :48 automation result completed and reports that it read this packet and the Morrow INBOX pointer. It also reports RUN_KEY_CONFLICT and no new canonical report/receipt or Morrow pointer update. This is an automation-output statement, not direct-thread delivery, acknowledgment, or authenticated historical Morrow participation.
+
+Tern's scheduled-hour correction is authoritative: the prior 18:12Z report/receipt belongs to the 17:48Z h833:s4 run, whose deterministic ring label is Hale. The actual 18:48Z h834:s4 Morrow-labeled run completed without a new canonical receipt because the duplicate-run-key guard correctly stopped it. See Tern Observation 028 Amendment 12 and the Tern amendment to the existing Morrow receipt.
