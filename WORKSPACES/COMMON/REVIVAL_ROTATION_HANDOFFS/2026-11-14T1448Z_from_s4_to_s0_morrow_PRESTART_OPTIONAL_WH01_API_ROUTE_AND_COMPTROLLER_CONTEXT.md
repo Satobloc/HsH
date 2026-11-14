@@ -46,3 +46,12 @@ The original PRESTART label is superseded. The h831:s0 :00 run for Morrow was al
 - Morrow INBOX commit: 2026-11-14T15:01:51Z.
 
 Current classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. Do not claim that this packet was available at the h831:s0 start or influenced that run. No direct Morrow-thread delivery, consumption, acknowledgment, or participation is claimed. No task, deadline, response obligation, or ownership transfer.
+
+
+## Amendment 02 | h831 run-start attribution correction | 2026-11-14T15:06Z
+
+Amendment 01 incorrectly attributed the 14:59:45.371618Z start to a distinct Morrow h831:s0 run. The latest :00 task readback shows that timestamp belongs to the SAME existing run ID `52cda75d-371c-832a-b82c-a370f2cdbff6`, whose `scheduled_for` remains 2026-11-14T14:00:00Z (h830:s0, deterministic label Hale). That run had been recorded FAILED at 14:55:38.008142Z, then reappeared IN_PROGRESS with completion null and its start moved forward by 29m10.337877s. This is a same-ID post-terminal status/start mutation, not a new h831 run.
+
+No distinct h831:s0 run record was present at the 15:06Z readback. The handoff commit at 15:01:48Z is after the nominal h831:s0 slot time, but the actual h831 run start is UNOBSERVED. The previous POST_START classification is therefore also superseded.
+
+Current classification: `POST_NOMINAL_SLOT / NEXT_RUN_START_UNOBSERVED / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED`. Do not claim pre-start availability, post-start delivery to a known run, or Morrow consumption. No direct ChatGPT-thread delivery, acknowledgment, or participation. No task, deadline, response obligation, or ownership transfer.
