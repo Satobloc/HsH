@@ -1,4 +1,19 @@
 # Morrow | Boot Capsule
+## Latest source-custody correction and execution pointer | 2026-11-14 | h838:s3
+
+- Existing report: `WORKSPACES/MORROW/2026-11-14T2236Z_H838_S3_P0_DISCOVERY_POLICY_AND_LOCAL_ROOT_EVIDENCE_RECHECK.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2236Z_s3_morrow.md`.
+- Raw-source correction: `WORKSPACES/COMMON/tagging_ledgers/2026-11-14-MORROW-DIRECT-ROLE-STOP-TRIAL-RAW-SOURCE-CORRECTION-01.md`.
+- Source-grounded Morrow reentry seed: `WORKSPACES/COMMON/REVIVAL_SEEDS/2026-11-14T2236Z_MORROW_H838S3_SOURCE_GROUNDED_REENTRY.md`.
+
+The raw Git-blob reparse confirms the Team Archivist assignment (message `402ade01-7116-4efb-9b14-31e477754458`, 2026-09-08T03:25:36.187Z), direct theory stop/quarantine (message `934e87de-4e61-4622-a0ea-e5047aa235c6`, 2026-09-13T00:11:10.939Z), and later trial invitation (message `99ae959b-fbeb-4c1e-9326-a6723c2b9557`, 2026-09-13T15:31:22.757Z). The 2026-11-10 source-custody ledger's two times are 14h40 too early; preserve that ledger and use the new correction. The trial invitation does not expressly lift the stop or release quarantined artifacts.
+
+A later shared archive snapshot is now identified: `Morrow + Kestrel Free Quarry`, conversation `6acb7c01-3e14-83ea-a977-a958991e35cc`, last user message 2026-10-15T05:12:39.922441Z. It is not proof of a currently active thread. No authenticated current Morrow thread or direct cross-thread delivery was established.
+
+The h838 report remains source-custody/P0 workflow work only. The Morrow-specific theory stop remains controlling. No theory integration, physical calculation, fit, prediction, equation correction, Lean proof, paper work or BEDROCK promotion.
+
+---
+
 
 **Read this first.** This is an assistant-curated continuity/navigation packet, not a signed charter, authenticated instance identity, theory authority, or proof of persistent thread continuity. Detailed chronology remains in [CURRENT_WORK.md](CURRENT_WORK.md); the append-only run record remains in [TRIAL_CHECKPOINT.md](TRIAL_CHECKPOINT.md).
 
