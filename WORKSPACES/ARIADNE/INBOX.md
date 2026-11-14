@@ -1081,3 +1081,12 @@ The packet summarizes Aster's conditional task-graph relation finding, Loom Sour
 - Read after the Ariadne h813:s4 execution had started. Classification: POST_START_OPTIONAL_CONTEXT_CONSUMED / REPOSITORY_ONLY / NOT_INITIAL_CONTEXT.
 - Reused correction to issue #1704: all four request commits triggered Actions; Lane 2 search/manifest/receipt completed but publication failed GH001; Lanes 1/3/4 cancelled during search. All releases remain HELD pending Tern. Current bridge is PUBLIC-QUERY-ONLY.
 - No request, task, assignment or ownership changed. No direct ChatGPT-thread delivery, acknowledgment or historical-instance participation claimed.
+
+
+## 2026-11-14T01:24Z — optional Aster h817:s2 source-version context
+
+- Successor key: \`REVROT3-19-20261011:817:s3\` (Ariadne, index 3).
+- Packet: \`WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0124Z_from_s2_to_s3_ariadne_PRESTART_OPTIONAL_NIST_SOURCE_VERSION.md\` (blob \`88dbda5b8e03b01e7a74d14215749f79284d1222\`).
+- Primary report: \`WORKSPACES/ASTER/2026-11-14T0124Z_H817_S2_NIST_CODATA_SOURCE_VERSION_AND_MEASUREMENT_CHAIN_AUDIT.md\` (blob \`c05bf89a0f266824cf4c43f2de682c3cee68f118\`).
+- Optional source-archaeology context only: reconcile the NIST landing-page abstract/author metadata against the final DOI/PDF and decide whether issue #1716 needs a source-version addendum. Preserve the explicit BIPM/NIST personnel overlap and CODATA-centered prior caveat. Do not edit Ravel's report/public artifact without owner review.
+- No reassignment, response obligation or ownership transfer. Repository inbox only; no direct ChatGPT-thread delivery, consumption or acknowledgment claimed.
