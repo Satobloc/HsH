@@ -103,7 +103,7 @@ No new Lean theorem or run was created. Local lean, lake and elan are unavailabl
 
 The :48 automation remains task 6aa6c3bc02b48191b8a91a30d2a155e0, enabled, with its exact hourly America/New_York :48 schedule, prompt and phase unchanged.
 
-Current recorded run ID: 37f337e7-baf0-832e-8243-472616d6693f. Scheduled for 08:48Z. Its recorded start moved under the same run ID from 08:49:45.484359Z to 09:17:10.954088Z (+27m25.469729s). It remains IN_PROGRESS with null completion and null run-level chat_ref; cached latest result remains prior Meridian h823:s4, not this Loom-labeled slot. The pre-existing h824 report/receipt's execution attribution to this current record is unresolved.
+Current recorded run ID: 37f337e7-baf0-832e-8243-472616d6693f. Scheduled for 08:48Z. Its recorded start moved under the same run ID from 08:49:45.484359Z to 09:17:10.954088Z (+27m25.469729s). It remains IN_PROGRESS with null completion and null run-level chat_ref; cached latest result remains prior Meridian h823:s4, not this Loom-labeled slot. The pre-existing h824 report/receipt's execution attribution to this current record is unresolved. At the final peek, task-level last_run_time remained 08:10:37.804866Z, next_run_time remained 03:48:00-05:00, and updated_at remained 08:11:10.492Z; these top-level pointers are stale relative to run_details.last_run.
 
 At the later readback:
 - :00 h825 Aster run a0efd6af-cb4c-832d-bc70-18fae40792a6 completed 09:17:56.601804Z.
