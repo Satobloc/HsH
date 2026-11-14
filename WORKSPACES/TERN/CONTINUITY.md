@@ -1424,7 +1424,7 @@ No task/ID/schedule/phase/cadence change, no sixth task, no signet, no conversat
 
 ## h834:s3 final scheduler/handoff readback | 2026-11-14T18:52Z
 
-The Morrow h834:s4 optional packet was committed at 18:48:13Z and its INBOX pointer at 18:48:19Z. The next :48 run started at 18:50:36.587655Z. Packet lead time 2m23.587655s; inbox-pointer lead time 2m17.587655s. Final classification: PRESTART_REPOSITORY_PACKET / OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_DIRECT_THREAD_DELIVERY.
+The Morrow h834:s4 optional packet was committed at 18:48:13Z and its INBOX pointer at 18:48:19Z. The next :48 run started at 18:50:36.587655Z. Packet lead time 2m23.587655s; inbox-pointer lead time 2m17.587655s. Final classification: POST_NOMINAL_SLOT / PRESTART_RUN_START_VERIFIED / OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_DIRECT_THREAD_DELIVERY.
 
 Current :48 run: b6c0f27c-562c-8326-960d-fd7217d245f8, scheduled 18:48:00Z (h834:s4 / Morrow ring label), started 18:50:36.587655Z, IN_PROGRESS, completion null, chat_ref null. Its cached latest_result remains the prior 17:48Z h833:s4 run 39fb8b4b-0ed0-832f-b825-4e0605a51800, deterministic Hale ring label, despite the prior result heading saying Morrow h834:s4. Do not attribute that cached result to the current run.
 
