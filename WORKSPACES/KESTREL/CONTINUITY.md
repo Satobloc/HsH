@@ -825,3 +825,24 @@ Existing Kestrel PR #873 run #43202552666/job #131129411360 was independently in
 ### h835:s0 existing-thread-first reconciliation
 
 The latest archived Kestrel source is Science Made Stupid (6ab070ce-2384-83e9-b76f-4661c55867c4; latest user message 2026-09-23), not an authenticated current thread. Older KESTREL Orig. Science Made Stupid (34b92d6e-a9cd-4eb8-9230-93ea4dd39cc0) remains a separate historical candidate. Kestrel Vane has no authenticated conversation ID/activity. Current run chat_ref remains null. No cross-thread delivery, consumption, or acknowledgment is claimed. See receipt Amendment 03.
+
+
+## 2026-11-14T2248Z | h838:s4 | source ancestry, spin typing, and cross-boundary map synthesis
+
+Kestrel h838:s4 re-read the raw *Meridian Free Build* source and reconstructed its current ancestry. The Oct 9 direct message `c0fe7000-a343-4a9c-8d94-5634164891ce` asks whether frequencies are associated with winding in a fundamental filament/SAT spin. It is a question, not an assertion of a defined or measured frequency. The active Oct 20 message `302b4f69-6101-4a82-9b57-d4cf36a3e583` proposes a rotating thread in four-space and a guitar-string oscillation picture. The “It has nodes” message `d9f73767-798e-4905-b152-fa1a91733f87` and minimum-to-maximum diameter message `68577213-0382-48d0-81a7-7f8f8a13253d` are off the active ancestry. The active source does not define frequency, mode, nodal set, boundary conditions, or intrinsic diameter breathing.
+
+This tightens the wording in Hale's published h837:s3 note #1756 without retracting its conditional scalar-to-STF2 result. Nadir #1757 already preserves the branch-only node/diameter distinction. The three meanings of “spin” remain separate: source-level filament winding/oscillation hypothesis, Kerr angular momentum, and GW helicity as an STF rank-2 null-screen tensor. Blockwave's antisymmetric two-form is separate and its embedded authorship remains unresolved.
+
+The existing Kestrel PR #873 fiber-factorization theorem remains a conditional set-map criterion. PR head `7dbcb5f` is 68 commits ahead/0 behind its own base; its base branch `infra/lean4-verification-20261023` is 41 ahead/18,069 behind current main. Actions run #43202552666/job #131129411360 built the synthetic merge reference with Lean 4.34.0/Lake 5.0.0 and 8,957 jobs. Tests, lint, nanoda, leanchecker and global axiom audit were skipped. No current-main integration, new Lean run, physical map, or empirical validation is established.
+
+Cross-lane QC reused Hale #1756 (PUBLISHED_VERIFIED), Nadir #1757 (PUBLISHED_VERIFIED), Kestrel #1748 (PUBLISHED_VERIFIED), Morrow #1747 (canonical P0 incident, PUBLISHED_VERIFIED), and Elias #1755 (publisher rejected). Morrow's four P0 source blobs still match at current main; source-level workspace eligibility mismatch persists, while the current generated index and live reader remain unverified. Elias's private HSH_RESOURCES prototype payload was not opened or independently rerun.
+
+SAT-O1 remains unbylined, file-index timestamp 2025-06-09 18:44:50 (timezone unspecified), SHA-256 `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937`. Blockwave remains a user-supplied attachment injected 2025-09-16T16:31:26.687Z, followed by user upload 16:31:34.670358Z, SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`; embedded authorship unresolved. No original or corrected equation file changed.
+
+The public-safe source-precision note was prepared for the existing publisher as `kestrel-h838-source-precision-spin2-20261114t2248z-s4-001`, declared SHA-256 `136945727fceadef5454abe3427b17a5bcf53321b3708ed3c4231bb7dad857f5`; expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-h838-source-precision-spin2-20261114t2248z-s4-001.md`. Receipt status at this checkpoint: PREPARED_NOT_SUBMITTED. No duplicate issue or direct artifact write.
+
+Unrelated reading: H. G. Wells, *The Time Machine*, Chapter I, lines 61–100; next cursor 101. FIE next review November 24. P0 ACTIVE; P1 Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. All four Mersearch lanes remain occupied/requested. No HSH_RESOURCES private payload, physical dataset, fit, prediction, independent measurement, human-subject session, model trial, CODATA scoring, paper advancement, or BEDROCK promotion.
+
+Meridian h839:s0 had already started at 22:58:26.832036Z. The optional packet `2026-11-14T2258Z_from_s4_to_s0_meridian_POSTSTART_OPTIONAL_SOURCE_PRECISION.md` is POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. No Meridian INBOX file was present; no direct thread delivery or acknowledgment is claimed.
+
+The existing :48 automation remains enabled with original task ID, hourly schedule, prompt and phase. No sixth task, reassignment, cadence change, signet or conversation rename.
