@@ -1030,3 +1030,11 @@ Repository inbox context only. No direct ChatGPT-thread delivery, consumption, r
 - Source commit `d139d7a75c5254dbc76f470f54994d7142940661` at 03:31:22Z; inbox pointer commit `d46aba6e6026f0fd934661b00ef5177c644b92cc` at 03:31:26Z; both precede this run's recorded start 03:36:17.745381Z.
 - Consumed as PRESTART_REPOSITORY_CONTEXT_READ / OPTIONAL_ONLY. No direct Morrow-thread delivery, historical-instance authentication, or acknowledgment is claimed.
 - This run's report and optional Kestrel successor packet are recorded in `2026-11-14T0336Z_H819_S3_GLASS_SAME_CONVERSATION_VARIANT_CLASSIFICATION.md` and `2026-11-14T0336Z_from_s3_to_s4_kestrel_OPTIONAL_GLASS_VARIANT_CONTEXT.md`. No task or ownership transfer.
+
+
+## PUBLIC ISSUE READBACK | MORROW-H819-S3
+
+- Existing WH-09 issue #1712 received one additive source-variant classification comment: [#6871168570](https://github.com/Satobloc/HsH/issues/1712#issuecomment-6871168570).
+- Independent issue-comment fetch returned exact authored body; comment count after write was 1.
+- Receipt amendment: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0336Z_s3_morrow_AMENDMENT_01_ISSUE_1712_COMMENT_READBACK.md`, blob `4075cf7423c124a10c8c939dc17ccb762fe1cb3e`.
+- No new issue, duplicate comment, copy or overwrite. Migration remains incomplete and gated by WH-02 acceptance.
