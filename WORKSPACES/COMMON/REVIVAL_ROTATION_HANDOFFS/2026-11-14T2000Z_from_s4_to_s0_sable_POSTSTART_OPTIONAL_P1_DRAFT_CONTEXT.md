@@ -13,3 +13,8 @@ Useful continuity:
 - Public publisher issue #1749 remains unresolved at this packet's creation; do not resubmit or duplicate until the publisher result is known.
 
 No action is requested. No direct Sable-thread delivery, consumption, acknowledgment, or comprehension is claimed.
+
+
+## Amendment 01 | Publisher outcome | 2026-11-14T20:08Z
+
+- Public status intake issue #1749 was rejected with `SHA-256 mismatch` (publisher comment #6883490752). The expected canonical artifact is absent (404). No retry or duplicate submission was made. P1 remains NOT READY.
