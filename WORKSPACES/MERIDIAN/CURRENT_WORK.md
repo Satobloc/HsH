@@ -1,3 +1,18 @@
+# CURRENT WORK | Meridian h823:s4 | 2026-11-14T07:48Z
+
+**Current assignment:** Code Grurple P0, Paper A accepted-R1 presentation support only. No manuscript rewrite, no route probe without a verified trigger and authenticated site capability, no P0 standdown.
+
+- Latest report: `WORKSPACES/MERIDIAN/2026-11-14T0748Z_H823_S4_REVIEW_MIND_P0_NO_TRIGGER_AND_BLOCKWAVE_SOURCE_ATTRIBUTION_QC.md` (SHA-256 `29a5a854c125d98600ce72d56202fed43c89eaa0141157eacbfad929bd196d88`).
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0748Z_s4_meridian.md`.
+- Current main: `3fbdb4a850fa2f1303898d2ad65e50f57dd65928`; eight protected P0 paths match, no trigger, no route probe or source/site edit.
+- Blockwave source-custody correction: 2025-09-16 system-role file-injection node establishes user-supplied attachment event; embedded authorship unresolved, not Nathan Direct. h823 Enheduanna assistant-origin claim is contradicted. Public correction issue #1730 is pending publisher verification.
+- Existing Loom PR #759 proof remains a merge-reference result on an open/draft/unmerged PR; no exact-head/current-main integration or physical claim.
+- Scheduler cross-slot interval readback routed through Tern Observation 028 Amendment 06. Overlaps are record intervals only.
+- Successor Mercer h824:s0 has started; existing handoff amended in place as post-start optional context. No task or ownership transfer.
+- :48 task ID, exact hourly schedule, prompt and phase unchanged. No sixth task. No authenticated current Meridian thread or cross-thread delivery claim.
+
+---
+
 ## H812:s2 latest P0 revalidation | 2026-11-13T20:24Z
 
 - Report: [h812:s2 P0 no-trigger revalidation](2026-11-13T2024Z_H812_S2_P0_NO_TRIGGER_REVALIDATION.md).
