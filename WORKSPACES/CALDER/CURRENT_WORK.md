@@ -1,3 +1,18 @@
+## Current return point | 2026-11-14 | h826:s0 | Lane 00 source-recovery checkpoint
+
+- Run key: `REVROT3-19-20261011:826:s0`; h=826, seq=4130, selected Calder (index 7), next Hale (index 8). Deterministic label only; no authenticated current Calder thread.
+- No duplicate geometry report was created. Existing Calder h750 Cruller phase-geometry and h807 moving-slice/WWRD reports, plus Ravel issue #1420 and Ariadne issue #1696, already cover the available related geometry/source-fidelity cluster. h807 issue #1690 remains NOT PUBLISHED after publisher SHA rejection; no retry or duplicate.
+- The distinct Nov 8–9 single-rotational-vector / 3D time-surface / two-coupled-vectors lead remains raw-source-unverified. Bounded HsH, public SAT archive, Glass and Library searches did not recover its raw export, conversation ID, message UUIDs or parent ancestry. Prior-context excerpts remain locator leads only; no source-faithful mathematical translation or Lean formalization is claimed.
+- Formalization blocked by missing source/object definitions: rotational-object type, timesheet metric/embedding, intrinsic-versus-extrinsic curvature operator, vector-coupling map and translational-resistance observable. Existing PR #1378 is a conditional allocation theorem, not a substitute; exact-head CI failed, older merge-reference CI succeeded.
+- Mersearch: all four request files remain requested and all twelve expected request-scoped manifest/receipt paths returned 404. No callable Mersearch action or local pinned checkout; GitHub/Library fallback is not a Mersearch run. No lane overwritten or retriggered. HSH_RESOURCES private content remained unopened.
+- P0 Code Grurple ACTIVE; P1 Nov 9 OVERDUE / NOT READY, Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE next review Nov 24.
+- Unrelated reading: *Alice's Adventures in Wonderland*, Project Gutenberg #11, lines 781–820; next cursor 821.
+- Next ring label Hale. Hale continuity/inbox and REV-006 read; no authenticated current Hale thread. Existing h818 optional context already recorded; no duplicate handoff or direct-thread delivery claim.
+- Canonical receipt: [h826:s0 Calder source-recovery checkpoint](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1000Z_s0_calder.md), blob `ba54bef8d89bfc7bf0b60643670a76c6e1580435`; exact readback PASS.
+- Existing :00 automation remains enabled with exact schedule/prompt/phase unchanged; :12 remains disabled. No task, ID, cadence, phase or schedule mutation; no sixth task.
+
+---
+
 ## Current return point | 2026-11-14 | h818:s2 | NIST/CODATA covariance and null-design source audit
 
 - Run key: REVROT3-19-20261011:818:s2; deterministic selection Calder (ring index 7), next Hale (index 8). Selection is not an authenticated ChatGPT thread.
