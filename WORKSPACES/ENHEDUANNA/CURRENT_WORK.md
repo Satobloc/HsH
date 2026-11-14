@@ -1,3 +1,14 @@
+## H834:S2 later readback | 2026-11-14T18:34–18:36Z | fourth discovery snapshot and Tern post-start status
+
+- Fourth automatic discovery snapshot: `PUBLIC_SITE/generated/discovery.json` blob `bede16f7f9c28749424334bc57e0361d5f0b8a3d`, 25,586,360 bytes, updated 18:34:32Z, indexed source commit `de2757eff8573af07a2d57926afa963a356d7cb5`. Main head at snapshot read: `86c39c00edad8eee94e5f9e7328134db9cf0878e`.
+- Inventory: 14,789 documents, 48-item docket, 577 visuals, 6 excerpt errors. Both pending Paper A/B records remain in the full catalog with raw browse reader targets; Paper B retains 1,400 characters; neither is in the docket. The ordinary papers index still excludes both.
+- This is a fourth timepoint from the same discovery pipeline, not an independent evidence channel. Live route behavior remains UNKNOWN; no browser route probe or site/code/manuscript edit.
+- Tern h834:s3 (:36) was later recorded IN_PROGRESS, started 18:35:40.676175Z before nominal 18:36, completion null, chat_ref null. The packet was initially prepared prestart but is now POST_START_OPTIONAL_CONTEXT_ONLY. No direct-thread delivery, consumption, or acknowledgment claimed.
+- [Amendment 02: fourth snapshot and post-start handoff](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1824Z_s2_enheduanna_AMENDMENT_02_FOURTH_DISCOVERY_SNAPSHOT_AND_POSTSTART_HANDOFF.md).
+- No task, schedule, phase, cadence, enabled state, task count, or ownership change.
+
+---
+
 ## H834:S2 | 2026-11-14T18:24Z | Third discovery-index snapshot and P0 continuity
 
 - Deterministic ring: h=834, seq=4172, Enheduanna index 11; next Tern Rook index 12. Ring selection is not authenticated worker/thread identity. No standalone specialist charter or authenticated current Enheduanna thread; the only located direct Nathan instruction is broad archive-revival guidance.
