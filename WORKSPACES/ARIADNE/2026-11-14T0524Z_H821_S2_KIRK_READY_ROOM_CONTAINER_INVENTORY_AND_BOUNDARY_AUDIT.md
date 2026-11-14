@@ -136,3 +136,12 @@ The single additive public issue was created as [issue #1724](https://github.com
 The issue body contained only `schema`, `submission_id` and `content`. The live publisher requires exactly four keys: `schema`, `submission_id`, `content` and `sha256`. The issue-publisher workflow listens only to `issues.opened`; no edit/retry or workflow-dispatch path is available. The expected canonical `PUBLISHED_SUBMISSIONS` artifact returned 404.
 
 **Correct publication state: `PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED`.** The issue remains the single public audit record and the workspace report remains available. No issue edit, retry, duplicate issue, manual artifact write or publisher bypass was attempted. The workflow's Actions conclusion of SUCCESS is not publication acceptance; the rejection comment and absent artifact are decisive.
+
+
+## 11. Final :36 run-result readback limitation | 2026-11-14T05:45:33Z
+
+A later exact-ID peek of the :36 task returned: `ERROR: The task was found, but its run result could not be read. Do not infer that it has not run, succeeded, or failed.`
+
+The last positive :36 read at 05:38:09.507384Z showed run `f759917e-63fc-8324-be81-79b649aac085` IN_PROGRESS, with null completion and null run-level chat_ref. The 05:45:33Z error supplies no updated run ID, status, completion, chat_ref or enabled-state readback. The last positive read is the only usable :36 run-state evidence.
+
+At 05:45:33Z, :00 and :24 remained IN_PROGRESS; :12 remained disabled; :48 remained enabled with its original schedule. The :36 status after its last positive read is unconfirmed. This is routed as Observation 028 Amendment 04 to Tern. No task or schedule changed, and no failure, completion, disappearance, retry, restart, duplicate execution, worker substitution, liveness or backend cause is inferred.
