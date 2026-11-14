@@ -693,3 +693,18 @@ Maintenance: P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE
 
 
 Scheduler amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1155Z_s3_meridian_AMENDMENT_02_SCHEDULER_COMPLETION_READBACK.md
+
+
+---
+
+## 2026-11-14T1221Z — H827:S3 — Amendment 03: workflow-source identity and scheduler delta
+
+See full amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1221Z_s3_meridian_AMENDMENT_03_WORKFLOW_SOURCE_MANIFEST_AND_SCHEDULER_DELTA.md`.
+
+Substantive improvement: existing PR #1471 now binds the exact workflow definition (path, blob, source commit, event, run ID) and a digest-pinned changed-path manifest (SHA-256, run ID, run commit) to the path-scope witness. Eight new Lean theorems block route authorization on missing, malformed or mismatched witnesses. CI #43594014102 compiled the target module; all eight theorem axiom reports omit sorryAx. The overall root build failed on seven existing MovingPlaneTraceGeometry noncomputable-definition errors; global tests/lint/axiom audit were skipped. PR remains OPEN/DRAFT/UNMERGED and exact-head-only build is unverified.
+
+P0 no-trigger revalidation was repeated at main head `9566b1d6907fba97a57972c2035be83e739b761d`: 442 ahead / 0 behind / 165 changed paths, all eight protected Paper A/B blobs unchanged, no A/B route trigger. No route probe, site/manuscript/PDF edit or P0 standdown.
+
+The same :36 run ID `d87bfde3-2618-832c-ab6f-7e4e176214bc` changed its recorded start from `11:33:47.365163Z` to `12:01:49.208598Z` (+28m01.843435). It remained IN_PROGRESS with null completion/chat_ref; task-level next_run_time remained stale at 11:36Z. This delta was appended to Tern's existing Observation 028 inbox context only. The existing Mercer handoff and pointer were amended for the next future Mercer appearance h831:s3 at 15:36Z; no active h827:s4 run or cross-thread delivery is claimed.
+
+P0 remains ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE November 24; unrelated reading cursor 1521. No physical calculation, prediction, equation change, theory promotion, task mutation, sixth task, new issue or automation.
