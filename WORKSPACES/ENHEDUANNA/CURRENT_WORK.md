@@ -11,7 +11,7 @@
 - Workflow health: graph 16 declared branches / 18 records; P2 graph ACTIVE versus queue HOLD; WH-05 blocked, WH-02 highest-priority unblocked and Calder-owned. No queue/graph repair.
 - Maintenance: P0 ACTIVE; P1 cognition OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
 - Unrelated reading advanced through Charles Babbage, The Decline of Science in England, Project Gutenberg #1216, public HTML lines 503-542. Next cursor: 543.
-- Existing :36 automation ID and exact hourly America/New_York :36 schedule, prompt, phase, and enabled state unchanged. No sixth task, scheduler mutation, signet, or chat rename. Current run remains IN_PROGRESS with chat_ref null; no terminal completion claimed.
+- Existing :36 automation ID and exact hourly America/New_York :36 schedule, prompt, phase, and enabled state unchanged. No sixth task, scheduler mutation, signet, or chat rename. Current :36 run remains IN_PROGRESS with chat_ref null and no terminal completion. Later readback: :00 FAILED (cause not established), :24 COMPLETED, :48 IN_PROGRESS with recorded start 14:44:02Z before its 14:48Z schedule, and :12 remains disabled. The :00/:24/:36/:48 next_run_time pointers remain at past 09:00/09:24/09:36/09:48 local occurrences; :00 last_run_time remains stale at 13:17:40Z despite its 14:55:38Z completion. No cause or duplicate process inferred. See [Receipt Amendment 02](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1436Z_s3_enheduanna_AMENDMENT_02_SCHEDULER_READBACK.md).
 
 ---
 
