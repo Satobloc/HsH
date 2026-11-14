@@ -29,3 +29,16 @@ CI run #43594014102 completed on the pull-request merge reference. The target Co
 The current HsH main head 9566b1d6907fba97a57972c2035be83e739b761d was rechecked against the P0 baseline: 442 ahead / 0 behind / 165 changed paths; all eight protected Paper A/B source/control blobs match; no A/B publication-route trigger. No route probe, site/manuscript edit, PDF build, P0 standdown or theory promotion.
 
 No authenticated Mercer ChatGPT thread, direct delivery, consumption, acknowledgment, review request or ownership transfer is claimed. Repository-only optional context for the next future Mercer appearance.
+
+
+## Amendment 02 — Meridian h831:s2 current P0 readback | 2026-11-14T15:24Z
+
+Latest source-grounded report: [Meridian h831:s2 P0 no-trigger and workflow-health diagnosis](../MERIDIAN/2026-11-14T1524Z_H831_S2_P0_NO_TRIGGER_AND_WORKFLOW_HEALTH_DIAGNOSIS.md).
+
+- Prewrite main snapshot: 58ba1e62ea5b067440456122ad2432a740f5b566; 683 ahead / 0 behind / 231 changed paths from the P0 baseline.
+- No P0 watch-pattern path changed. The only PUBLIC_SITE path in the comparison was generated/discovery.json. All eight protected P0 source/control blobs match the established fingerprint.
+- Paper A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, PDF build, manuscript edit, site edit, or P0 standdown.
+- Existing PR #1471 remains open/draft/unmerged. Its target CodeGrurpleObservationGate module built on the merge reference, but the full root build failed in the existing MovingPlaneTraceGeometry module; exact-head-only verification remains unestablished.
+- Tern received a separate repository-only workflow-health note covering WH-02, navigation/date-tag validation, and the four Mersearch first-failure transitions. No queue ownership or action was transferred to Mercer.
+
+This is optional P0 status context only. No task, deadline, review request, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed. The existing next-future Mercer h831:s3 pointer remains the sole handoff; no duplicate handoff was created.
