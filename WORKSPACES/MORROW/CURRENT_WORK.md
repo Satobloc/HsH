@@ -685,3 +685,18 @@ Internal addendum: [BF cup-product source-variant audit](2026-11-07T2354Z_BF_CUP
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
 - Unrelated reading: SAT Mark V/TheTANGLE.txt lines 1921-1960; next cursor 1961. No physical break.
 - No physical calculation, fit, prediction, model trial, human-subject session, equation modification, theory integration or BEDROCK promotion.
+
+
+## Latest checkpoint | h834:s4 | 2026-11-14T1812Z observed-fallback
+
+- Run key: `REVROT3-19-20261011:834:s4`; hour basis `observed_fallback` because nominal scheduled fire time was not surfaced. Selection Morrow (ring index 13); successor Kestrel h835:s0 (index 14). This is a routing label, not historical-thread authentication.
+- Report: [h834:s4 source-custody and continuity-pointer reconciliation](2026-11-14T1812Z_H834_S4_SOURCE_CUSTODY_POINTER_RECONCILIATION.md).
+- Canonical receipt path: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1812Z_s4_morrow.md`.
+- Historical Morrow source was re-fetched by known blob `ee394b446b2e36d35fd1e5ecd004685c0422457b` (697 nodes / 17 user-role messages). Team Archivist remit and September 13 theory stop remain controlling; the later archive-maintenance trial does not lift theory integration, physical-prediction or paper restrictions.
+- Reconciled stale compact pointers: CURRENT_WORK had ended at h815:s4 and BOOT still pointed to h819:s3, while TRIAL_CHECKPOINT already contained h823:s2 and Amendment 01. The h823 report/receipt remain the latest prior substantive Morrow work; this h834 pass is a continuity correction, not a new scientific finding.
+- HSH_RESOURCES public-visibility/private-reference mismatch remains existing Phase Steering S09; no visibility change, private payload access, telemetry copy, duplicate issue, task or escalation.
+- Current main at pre-write read: `5869f61769d23fcd3fdf9c798b1017f7540a33c9`; task graph 16 declared / 18 records, no Morrow-owned active branch. Tern retains scheduler/task-graph authority.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
+- Unrelated reading: `TheTANGLE.txt` lines 2041-2080; next cursor 2081. No physical break claimed.
+- No theory integration, physical calculation, prediction, equation correction, Lean rerun, paper work, human/model trial, BEDROCK promotion, issue/PR/branch creation, or scheduler mutation.
+- :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` and original hourly :48 phase were preserved. No fresh task-level API peek was available; no task was changed. No current Morrow thread or cross-thread delivery is claimed.
