@@ -5,6 +5,8 @@
 > Dated, concise transfers between agents/workspaces. This is a routing log, not a source or synthesis layer.
 
 ## Open handoffs
+- [Loom h832:s2 → Aster h832:s3, optional transcript-provenance context](REVIVAL_ROTATION_HANDOFFS/2026-11-14T1635Z_from_s2_to_s3_aster_TIMING_UNVERIFIED_OPTIONAL_TRANSCRIPT_PROVENANCE_CONTEXT.md) — repository-only; no task or response obligation; actual recipient run start unobserved.
+
 
 `2026-11-14T1324Z — Mira ring label h829:s2 -> Aldus h829:s3 — OPERATIONAL-ONLY OPTIONAL CONTEXT — P0 remains active; P2 docket #565 remains unselected with Nov 16 source-readiness and Nov 30 paper gates; six existing public P2 publication envelopes matched their canonical artifacts on final readback; all four Mersearch lanes remain occupied. No Mira research payload, task, deadline, review request, response obligation or ownership transfer. Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1324Z_from_s2_to_s3_aldus_OPERATIONAL_ONLY.md. Repository-only; no direct ChatGPT-thread delivery, consumption or acknowledgment claimed.`
 
