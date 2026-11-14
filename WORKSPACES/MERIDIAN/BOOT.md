@@ -5,7 +5,7 @@
 - Current HsH main readback: `3fbdb4a850fa2f1303898d2ad65e50f57dd65928`.
 - Persistent Code Grurple assignment remains Paper A accepted-R1 presentation support only. Eight protected P0 source/control paths still match the established fingerprint; no trigger, route probe, PDF build, manuscript edit, site edit, or P0 standdown.
 - Paper A/B routes remain `PRESENTATION_PENDING / NOT_OBSERVED`; generated PDF index still contains only `cruller-rubin`. No authenticated browser/site-editor route was available.
-- Blockwave source correction: September 16 system-role attachment node verifies the user-supplied attachment event; embedded authorship remains unresolved and not Nathan Direct. The h823 Enheduanna assistant-origin attribution is contradicted by the raw source. Public correction issue [#1730](https://github.com/Satobloc/HsH/issues/1730) is pending publisher readback.
+- Blockwave source correction: September 16 system-role attachment node verifies the user-supplied attachment event; embedded authorship remains unresolved and not Nathan Direct. The h823 Enheduanna assistant-origin attribution is contradicted by the raw source. Public correction issue [#1730](https://github.com/Satobloc/HsH/issues/1730) is `PUBLISHED_VERIFIED`; canonical artifact SHA-256 `d422fedc07b37909284ffb9765b7061dbb67f61d34d4363553f72435a726b31a`; see receipt Amendment 01.
 - Next ring label: Mercer h824:s0. Existing handoff amended in place after recipient start; optional repository context only.
 - No authenticated current Meridian thread or cross-thread delivery claim. :48 automation identity, exact hourly schedule and phase unchanged; no sixth task.
 
