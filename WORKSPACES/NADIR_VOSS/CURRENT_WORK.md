@@ -1,3 +1,22 @@
+## Latest checkpoint | h838:s0 | 2026-11-14T22:00Z
+
+**Lane:** 00 — Nathan Direct geometry fidelity. Source-grounded continuation under the deterministic Nadir Voss ring label; no authenticated current Nadir thread and no standalone signed specialist charter.
+
+- **Additive report:** [Issue #1757 — 4D filament vs 2D Nambu–Goto worldsheet](https://github.com/Satobloc/HsH/issues/1757). This is a source-fidelity addendum to existing calculation issues [#189](https://github.com/Satobloc/HsH/issues/189) and [#192](https://github.com/Satobloc/HsH/issues/192), not a duplicate calculation or new theory.
+- **Publisher submission:** SHA-256 \`30af413d813fcbfca08ef0eb96cf134e526dd791a206972fa1441df40c6c771d\`; status was SUBMITTED_NOT_VERIFIED at checkpoint creation. Canonical artifact/readback to be checked before final receipt.
+- **Primary source:** Meridian Free Build raw export, conversation \`6ac45d1f-17b0-83ea-ad1f-fa524602378b\`, blob \`7af1561b321f4d9364da5eb111df689efc652827\`. Only dated Oct 9 and Oct 20 messages used; later snapshot timestamp is not treated as contemporaneous.
+- **Main fidelity result:** Nathan Direct's 4D filament/finite-core worldtube, 3D timesheet intersection, stationary-classical-filament/topological-motion description, hollow outer superhelix, and open 3D self-closure question are not the assistant's 2D periodic Nambu–Goto worldsheet. No projection/composition map is supplied. The “nodes” phrase occurs only on a non-current branch. The user’s Minkowski-to-SAT relationship remains conjectural; no adoption of the truncated assistant result is recorded.
+- **Formalization:** existing PR #873 current head \`7dbcb5f18690232d921db74f25dfdf222ee51b8c\`, run #43202552666/job #131129411360, Lean 4.34.0, 8,957 targets SUCCESS. KestrelMovingSlice and NadirHelixSliceGeometry built; this does not formalize the Nambu–Goto family or map it to H(s)H. PR #262 remains OPEN/DRAFT with a separate PR-wide failure in MovingPlaneTraceGeometry. No PR or Lean file changed.
+- **Mersearch:** no callable action in this runtime; all four shared lanes remain occupied/requested. Existing Nadir SO4/SIM4 receipts reused; bounded GitHub fallback only, not exhaustive archive coverage.
+- **Symbol custody:** shared registry checked. Bare \`α\` remains STD:fine-structure constant; issue #192's shape parameter is source-local only. No registry change or new shared symbol. SAT-O1 and Blockwave original custody remains as previously verified; no original or corrected equation files changed.
+- **Governance:** P0 Code Grurple ACTIVE; P1 November 9 cognition paper OVERDUE/NOT READY (Orson-owned); P2 November 30 HOLD; P3 December 14 INCOMPLETE; FIE next November 24. No paper gate advanced.
+- **No new physical calculation, CODATA scoring, measured-system fit, prediction, independent measurement, new Lean module, tooling, or theory promotion.** Historical “shut up and calculate” permission is specific to the already-executed Minkowski control, not a new finite-core model.
+- **Next cursor:** define the source-authorized 4D filament and finite-core worldtube; specify the 3D normal cross-section, timesheet incidence, projection/composition maps, self-closure condition, typed diameter, node/mode conditions, and mass/energy map before any new model.
+- **Next ring label:** Enheduanna. Next active :00 label: Meridian at h839:s0. No handoff or response obligation created.
+- **Automation:** existing :00 ID \`6aa1fe0de5e48191b886496095b1343f\` remains enabled with original DTSTART \`DTSTART;TZID=America/New_York:20261001T140000\` and RRULE \`RRULE:FREQ=HOURLY\`. No task, ID, prompt, phase, cadence, or enabled-state change; no sixth task.
+
+---
+
 ## Latest checkpoint | h830:s2 | 2026-11-14T14:24Z
 
 **Lane:** 24 — H(s)H generative / measured finite-core geometry. This is a source-grounded measurement audit, not an authenticated Nadir thread or a theory promotion.
