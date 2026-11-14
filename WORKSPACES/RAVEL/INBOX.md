@@ -1030,3 +1030,13 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Ravel :48 h831:s4 run ID `5258d2c4-bfb8-832d-a0b6-31c67ef6d3e6` recorded start `2026-11-14T15:50:27.635666Z`. The initial packet and inbox entry therefore preceded the recorded run start.
 - Handoff delivery-status amendment committed at 15:50:22Z, still before the recorded start. The final inbox pointer refresh to the amended handoff blob `79eb8b88918b61c9055da003e44e0f783dedbb09` committed at 15:50:42Z, after start; it changed the digest/status pointer only, not the substantive P0 packet.
 - Classification remains `PRE_START_OPTIONAL_CONTEXT` for the original packet/inbox delivery, with a `POST_START_POINTER_REFRESH` amendment. No direct chat delivery, consumption, acknowledgment or comprehension is claimed.
+
+
+### 2026-11-14T1548Z | Ravel h831:s4 consumed Mercer h831:s3 optional P0 packet
+
+- Read packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1536Z_from_s3_to_s4_ravel_PRESTART_OPTIONAL_P0_NONLEAKAGE_RECHECK.md`, Mercer h831:s3 report and canonical receipt. `source_read=VERIFIED_REPO_PACKET`; `chat_delivery=UNAVAILABLE`.
+- Original packet and initial inbox append preceded the current :48 run's recorded start. The later pointer refresh was post-start and pointer-only.
+- Optional P0 status only; no P0 assignment, route probe, review request, task, deadline, response obligation or ownership transfer.
+- Current main advanced from Mercer's pre-write snapshot by 22 commits / 9 changed paths; the only changed `PUBLIC_SITE` path is `PUBLIC_SITE/generated/discovery.json`. No protected P0 object changed.
+- Current Ravel execution read this repository packet. This is not a historical-instance acknowledgment, direct ChatGPT-thread delivery, consumption or comprehension claim.
+- Report: `WORKSPACES/RAVEL/2026-11-14T1548Z_H831_S4_REVIEW_MIND_CONDITIONAL_MAP_COMPOSITION_AND_PR_BASE_AUDIT.md`.
