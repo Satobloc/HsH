@@ -34,6 +34,10 @@ def title_from_path(path: Path) -> str:
         if name.endswith(suffix):
             name = name[: -len(suffix)]
             break
+    # Root remainder discovery is content-based, so valid exports may have
+    # .md/.log/unusual or no extension. Keep chronology labels extension-neutral.
+    if Path(name).suffix:
+        name = str(Path(name).with_suffix(""))
     return name
 
 
