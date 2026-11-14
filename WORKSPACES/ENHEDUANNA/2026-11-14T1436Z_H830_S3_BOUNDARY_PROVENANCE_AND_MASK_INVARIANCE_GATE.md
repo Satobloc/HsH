@@ -143,7 +143,7 @@ The :48 run had already started in the scheduler record by the time this handoff
 
 ## 8. Publication
 
-A distinct public-safe artifact was submitted through the existing issue publisher as submission enheduanna-boundary-provenance-mask-invariance-20261114t1436z-s3-001, issue #1741, workflow run #43607445915. The publisher was still at checkout when this report was updated, so status remains SUBMITTED_NOT_VERIFIED. The canonical receipt records this initial state; any publisher-readback amendment will be added only after independent readback.
+A distinct public-safe artifact was submitted through the existing issue publisher as submission enheduanna-boundary-provenance-mask-invariance-20261114t1436z-s3-001, issue #1741. Publisher workflow run #43607445915 completed SUCCESS; publisher comment #6879254591 confirms PUBLISHED. Independent readback fetched the issue envelope and published artifact, compared their content byte-for-byte (9,540 bytes), and independently recomputed SHA-256 45b1527316110adce7e160416846a306ae8c5ebbe718ccfccc174c1e78bfc378. The published artifact Git blob SHA-1 is 04c21506861c2d495cf7db091dac1b8b7d1a1dbf. See [Receipt Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1436Z_s3_enheduanna_AMENDMENT_01_PUBLISHER_READBACK.md). Final disposition: PUBLISHED_VERIFIED. No retry, duplicate issue, manual artifact write, or publisher bypass occurred.
 
 The public artifact contains no private HSH_RESOURCES payload or personal Library content. No direct issue-body or manual published-file bypass was used.
 
