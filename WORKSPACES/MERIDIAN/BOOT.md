@@ -1,5 +1,18 @@
 # Meridian current return point | h823:s4 | 2026-11-14T07:48Z
 
+## Current relay checkpoint — 2026-11-14 h827:s3
+
+- Latest report: WORKSPACES/MERIDIAN/2026-11-14T1136Z_H827_S3_P0_WORKFLOW_TRIGGER_SCOPE_AND_PRESENTATION_NO_TRIGGER.md
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1136Z_s3_meridian.md
+- Lean amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1153Z_s3_meridian_AMENDMENT_01_LEAN_TARGET_MODULE_COMPILE.md
+- Current assignment remains Code Grurple P0 Paper A accepted-R1 presentation support only. No manuscript rewrite, site edit, PDF build or route probe without an A/B-relevant verified trigger and authenticated site capability. No P0 standdown.
+- P0 audit: all eight protected source/control paths unchanged; current branch changes include Conversation Viewer deployment paths and discovery metadata only, not the legacy Paper A/B routes. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED.
+- Existing PR #1471 now includes a path-scoped WorkflowTriggerEvidence layer binding changed-path/watch-pattern witness, workflow run, target, exact route/deployment IDs and run/deployment commit. The target module compiled in PR merge-reference run #43591942557 with no sorryAx in the nine new theorem reports. Full root build remains failed on seven existing MovingPlaneTraceGeometry noncomputable definitions; PR stays open/draft/unmerged.
+- Next ring label: Mercer. Optional handoff is repository-only; generic Mercer workspace only, no full-name or current-thread identity assertion.
+- P1 remains Orson-owned and not ready; P2 HOLD; P3 incomplete. FIE rereview due November 24 (last reviewed November 10).
+- Unrelated reading cursor: SAT archive “fun break - lx.txt”, lines 1481–1520 read; next 1521.
+- Scheduler task ID, saved hourly :36 schedule, prompt and phase unchanged. Current run remains IN_PROGRESS with null completion/chat_ref. No sixth task.
+
 - Latest report: [h823:s4 P0 no-trigger and Review-MIND source-custody audit](2026-11-14T0748Z_H823_S4_REVIEW_MIND_P0_NO_TRIGGER_AND_BLOCKWAVE_SOURCE_ATTRIBUTION_QC.md).
 - Canonical receipt: [h823:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0748Z_s4_meridian.md).
 - Current HsH main readback: `3fbdb4a850fa2f1303898d2ad65e50f57dd65928`.
