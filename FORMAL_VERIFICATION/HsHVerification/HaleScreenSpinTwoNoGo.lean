@@ -13,9 +13,10 @@ polarization transforms with twice the screen angle (spin 2). A screen
 quarter-turn therefore acts as negative identity on the two polarization
 components.
 
-The theorem below uses only that generator action. It proves that a linear
-SO(2)-equivariant map from the area-form coefficient alone to the spin-2
-plus/cross pair must be zero.
+The theorem below uses only the two stipulated quarter-turn actions. It
+proves that a linear map intertwining those actions is zero. This is a
+necessary condition for full SO(2)-equivariance only after the geometric
+actions have been derived from the corresponding tensor representations.
 
 This is conditional representation mathematics, not a physical source-to-
 radiation map. It does not establish that the assistant-authored Blockwave
