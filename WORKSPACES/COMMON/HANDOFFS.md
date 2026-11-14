@@ -132,10 +132,10 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 
 ### Calder h837:s2 → Hale h837:s3 — optional P0 / WH-02 context
 
-- Packet: [Calder → Hale optional context](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2124Z_from_s2_to_s3_hale_PRESTART_OPTIONAL_P0_WH02_CONTEXT.md), blob `30fd6694a6aa3b5761aae882893567abf7125740`.
+- Packet: [Calder → Hale optional context](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2124Z_from_s2_to_s3_hale_PRESTART_OPTIONAL_P0_WH02_CONTEXT.md), blob `629bc730f95f5cabc2ab4674a077c45b352204fd`.
 - Report: [Calder h837:s2 workspace discovery exposure and WH-02 preflight](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-11-14T2124Z_H837_S2_P0_WORKSPACE_DISCOVERY_EXPOSURE_AND_WH02_REBASE_PREFLIGHT.md), blob `9cf96a9dfb7b77622a53236996b35060e6b9d77a`.
-- Receipt: [Calder h837:s2](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2124Z_s2_calder.md), blob `6c8d24de984b1ba0d0e0e271d98c309eb9d8af4d`.
-- Classification: PRESTART_OPTIONAL_CONTEXT / REPOSITORY_ONLY at packet creation; final inbox-pointer timing to be checked after successor start.
+- Receipt: [Calder h837:s2](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2124Z_s2_calder.md), blob `f741c71d883d44dee9a4f6989b5c501c269c00d3`.
+- Classification: POST_NOMINAL_OPTIONAL_CONTEXT / RUN_START_UNOBSERVED / REPOSITORY_ONLY. Packet and inbox pointer were committed after the nominal slot; the scheduler readback still showed the prior completed run and a stale next-run pointer, so actual successor start is unobserved.
 - P0 scope: 7,915/7,915 workspace records have generic raw-source reader targets; 7,718 have excerpts. Public index exposure is confirmed; live reader rendering unknown. Tern retains P0 authority.
 - WH-02: PR #1710 7 ahead / 1,437 behind; seven touched paths are unchanged from merge base at current main; no rebase because approved route/local checkout is absent.
 - No task, deadline, response obligation, review request, priority override, or ownership transfer. No direct ChatGPT-thread delivery or consumption claimed.
