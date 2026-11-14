@@ -45,7 +45,7 @@ The following current-main documents were fetched and reviewed:
 | Three Paper Campaign 2026-10-26 | 2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4 |
 | New Instance Start Here | 43b577d42b8cced83f8836934598081685ea3ff3 |
 | Three-repository onboarding | fe40260cda5ce360909f2adfd64a3cc3e2c92a05 |
-| Revival Rotation V3 | 7373d8d1f0f0b00d9b50c8c8c7f0c4d2a7c1c2d0 |
+| Revival Rotation V3 | 7373ece95ead0f2f9e57d7e5ed3bc5c77fa76c14 |
 | Revival Rotation V4 not-found/revival procedure | 6761337dfcd0847226ee7baad84db0a9c496760a |
 | Thread-first rule | e79707587914edb76afca1c32f9f4dad4d0324b7 |
 | Mersearch worker start | 086778737a004c467b0b52142d71aa5b961fc166 |
