@@ -104,8 +104,10 @@ A new module, `FORMAL_VERIFICATION/HsHVerification/OrsonJointReliabilityBounds.l
 
 - PR #850 remains OPEN / DRAFT / UNMERGED and stacked on PR #833.
 - The first merge-reference run #43654453303 failed on a missing `le_min` lemma name and noncomputable real-valued witness definitions.
-- Those source errors were corrected in commit `e0f4564b08e3cf63b45f1f21815e07e8406f2005`.
-- Corrected merge-reference run #43654855547 was still IN_PROGRESS at the last readback, stalled at “Generate Lake dependency manifest”; the Lean compile step had not started.
+- Commit `e0f4564b08e3cf63b45f1f21815e07e8406f2005` corrected the min lemma name but accidentally duplicated the `noncomputable` modifier.
+- Merge-reference run #43654855547 failed at lines 88 and 101 with “unexpected token 'noncomputable'; expected 'lemma'.” The Fréchet theorem body itself elaborated and its axiom print listed only `propext`, `Classical.choice`, and `Quot.sound`, but the module target failed because the witness definitions did not parse.
+- The duplicate modifiers were corrected in commit `776f5df7cad655dd9a7a8d99720a1db3e2347872`; current module blob is `11a6aeb305d21a502fc20ccf2ad10aa28e157cee`.
+- Corrected merge-reference run #43655298253 is currently IN_PROGRESS at the Lean compile step. No terminal success or failure is yet claimed.
 - No exact-head standalone build, current-main integration, merge, formal review, tests, lint, nanoda, leanchecker, or global axiom audit is claimed.
 - No local Lean/Lake/Elan toolchain is installed in this runtime. The existing PR/Actions route was used; no new tooling, dependency, fork, or paid service was created.
 
