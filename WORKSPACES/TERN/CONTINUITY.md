@@ -1418,3 +1418,16 @@ Historical Tern role evidence comes from two direct user-role messages in the Ar
 Unrelated reading advanced through SAT archive fun break - lx.txt, blob f33eb29fbac65efa1db054239bb9c28a04a13a42, lines 861–900; next cursor 901. FIE last reviewed Nov 10; next Nov 24. P0 ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE. No physical calculation, fit, prediction, independent measurement, Lean theorem/build, equation edit, paper-gate advancement or BEDROCK promotion.
 
 No task/ID/schedule/phase/cadence change, no sixth task, no signet, no conversation rename.
+
+
+---
+
+## h834:s3 final scheduler/handoff readback | 2026-11-14T18:52Z
+
+The Morrow h834:s4 optional packet was committed at 18:48:13Z and its INBOX pointer at 18:48:19Z. The next :48 run started at 18:50:36.587655Z. Packet lead time 2m23.587655s; inbox-pointer lead time 2m17.587655s. Final classification: PRESTART_REPOSITORY_PACKET / OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_DIRECT_THREAD_DELIVERY.
+
+Current :48 run: b6c0f27c-562c-8326-960d-fd7217d245f8, scheduled 18:48:00Z (h834:s4 / Morrow ring label), started 18:50:36.587655Z, IN_PROGRESS, completion null, chat_ref null. Its cached latest_result remains the prior 17:48Z h833:s4 run 39fb8b4b-0ed0-832f-b825-4e0605a51800, deterministic Hale ring label, despite the prior result heading saying Morrow h834:s4. Do not attribute that cached result to the current run.
+
+The :36 Tern run f9987bde-60b4-8329-84ff-d23ecc6ef9a1 remains IN_PROGRESS with completion/chat_ref null; latest_result remains prior Calder h833:s3. No process-concurrency or backend-cause inference.
+
+See Observation 028 Amendment 11, receipt Amendment 01, and report Amendment 01. No task, ID, schedule, phase, cadence, signet, conversation name, or ownership mutation.
