@@ -10,7 +10,7 @@
 
 **Formal status:** Kestrel PR #873 head 7dbcb5f18690232d921db74f25dfdf222ee51b8c and Elias PR #951 head f9fa0aad45408ab06e5430c834530854746235f0 both remain OPEN / DRAFT / UNMERGED. Their successful PR-associated builds used merge references with older base c7dc2c4, not current base 61cc8b65. Tests, lint, nanoda, and global axiom audit were skipped. See report for theorem-level limits.
 
-**Publication:** Issue #1721, submission kestrel-h819-s4-projection-sufficiency-20261114t0348z-001. Publisher run #43554663294 was IN_PROGRESS at last readback; expected artifact was absent and issue comments empty. Status SUBMITTED_NOT_VERIFIED. Do not retry or duplicate.
+**Publication:** Issue #1721, submission kestrel-h819-s4-projection-sufficiency-20261114t0348z-001. Publisher run #43554663294/job #132324680578 failed at the Contents API PUT with HTTP 409. Issue #1721 remains open with no publisher comment; expected artifact returns 404. Final status PUBLISHER_409_CONFLICT / NOT_PUBLISHED; cause unresolved. No retry, duplicate, or direct artifact write.
 
 **Current gates:** P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No paper gate or ownership changed. WH-02 remains Calder-owned; WH-09 remains with its existing owner/queue; Tern retains scheduler/task-graph authority.
 
