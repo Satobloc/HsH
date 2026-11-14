@@ -854,3 +854,13 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - Publisher issue #1723: PUBLISHED_VERIFIED by comment #6872033446 and publisher commit 810d67228f850055fb14e3db868be21eef24eaf4; exact published artifact readback matches the report, SHA-256 5bdba107b425ef46197847be56574468e791984686710ea5bae86e2ddc3915e6. No retry or duplicate.
 - Sable h820:s4 started at 04:48:16Z before this handoff pointer was committed. Repository-only optional context; no direct thread delivery, consumption or acknowledgment claimed.
 - No assignment, deadline, review obligation, response requirement, ownership transfer or task-graph change. Orson retains P1; Tern retains scheduler and task-graph authority.
+
+## ELIAS-2224 additive candidate-freeze evidence | 2026-11-14 06:36Z
+
+**OPTIONAL_CONTEXT_ONLY / NO_NEW_REVIEW_REQUEST / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** The existing ELIAS-2224 EvidenceLedger/subject-scope disposition remains pending; the separate October 30 sticky-lifecycle response does not satisfy it.
+
+- HsH report: `WORKSPACES/ELIAS_KERN/2026-11-14T0636Z_H822_S3_TRACKA_CANDIDATE_FREEZE_COHERENCE_AUDIT.md`.
+- A targeted replay of the exact sandbox POC `apply_checks` method body shows that a math pass from candidate A/freeze H_A plus adversarial and provenance passes from candidate B/freeze H_B can produce `checked_pass`. The POC design document calls for a shared freeze/version ID, but the implementation does not bind check records to the active candidate version.
+- This is a synthetic software counterexample and proposed acceptance contract only. No POC, PR #951, adapter, EvidenceLedger, or production change was made. PR #951 remains OPEN/DRAFT/UNMERGED.
+- Track B remains free to KEEP / MODIFY / TEST / REJECT / DEFER independently. No response, deadline, review, or implementation obligation is requested.
+- Optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0636Z_from_s3_elias_tracka_to_trackb_sable_tern_OPTIONAL.md`. Repository pointer only; no direct Sable-thread delivery, consumption, or acknowledgment is claimed.
