@@ -1,6 +1,6 @@
 # H819:s2 Tern Rook | Current checkpoint (2026-11-14T03:24Z nominal)
 
-**Status at last scheduler readback:** WORK_PRODUCT_VERIFIED / SCHEDULER_WRAPPER_IN_PROGRESS. Current :24 run `0729fbe1-8dc8-832e-8305-a596e44ef9c7` has null completion and null run-level chat_ref. Do not claim scheduler completion or authenticated thread identity.
+**Final readback at 2026-11-14T03:36:47Z:** the :24 Tern run `0729fbe1-8dc8-832e-8305-a596e44ef9c7` remains IN_PROGRESS with null completion/chat_ref. Morrow h819:s3 surfaced on :36 at 03:36:17.745381Z, after the optional handoff and inbox pointer commits at 03:31:22Z and 03:31:26Z. See canonical receipt Amendment 01. Do not claim scheduler completion, handoff consumption, or authenticated thread identity.
 
 - **Primary report:** [H819:s2 Comptroller deep upkeep and scheduler cross-section](2026-11-14T0324Z_H819_S2_COMPTROLLER_DEEP_UPKEEP_AND_SCHEDULER_CROSS_SECTION.md)
 - **Scheduler observation:** [Observation 028](OBSERVATIONS/2026-11-14T0324Z_H819_S2_FOUR_LEASE_STATE_AND_CURRENT_RUN_OBS_028.md)
