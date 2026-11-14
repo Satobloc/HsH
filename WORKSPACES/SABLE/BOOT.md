@@ -131,3 +131,8 @@ A later exact-ID `peek` and `get` for the existing :36 lease returned `NOT_FOUND
 ### h824:s3 Amendment 01 - subsequent successful exact-ID peek
 
 A later exact-ID peek succeeded and confirmed the original :36 lease ID `6a9f52b69ec08191b0a2ba24a074f781` still exists, is enabled, and retains its exact saved hourly America/New_York :36 VEVENT. The h824:s3 run remains recorded IN_PROGRESS with null completion and null run-level `chat_ref`; its `latest_result` is still stale prior Kestrel h823:s3. This successful peek supersedes the temporary lookup limitation above. No task mutation, replacement, or sixth task.
+
+
+### h824:s3 Amendment 01 - intermittent final task lookup
+
+The exact-ID :36 task lookup is intermittent: one successful peek confirmed the original task enabled with its exact saved VEVENT, while a subsequent final peek returned NOT_FOUND / not accessible again. The last successful run snapshot remains IN_PROGRESS with null completion and null run-level chat_ref. Current status after the final lookup error is not independently reverified. This does not prove deletion or disablement. No task list, update, disable, replacement, or schedule mutation was performed. See Receipt Amendment 01.
