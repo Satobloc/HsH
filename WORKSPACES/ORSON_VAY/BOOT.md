@@ -46,7 +46,7 @@
 3. Have the PR-stack owner reconcile dependencies in order: #820, #833, then #850. Do not rebase #850 directly to main from the raw ahead/behind count.
 4. Recover canonical P1 source LaTeX, compiled PDF, reader route, independent/hostile review and author disposition before any paper-gate change.
 5. Tern owns the stale P1 task-graph pointer and scheduler/task graph reconciliation.
-6. Issue #1717 remains REJECTED_SHA256_MISMATCH and must not be retried. Issue #1723 is PUBLISHED_VERIFIED. New issue #1733 is SUBMITTED_NOT_VERIFIED pending publisher comment and exact artifact readback; do not retry or duplicate it.
+6. Issue #1717 remains REJECTED_SHA256_MISMATCH and must not be retried. Issue #1723 is PUBLISHED_VERIFIED. Issue #1733 is REJECTED_SCHEMA: the envelope used uppercase `HSH-PUBLISH-V1` but the publisher requires lowercase `hsh-publish-v1`; comment #6874700511 records the rejection, Actions run #43576980008 returned SUCCESS after validation rejection, and the expected artifact is 404. Do not retry or duplicate it. The title prefix remains uppercase.
 
 ## Boundaries
 
@@ -71,7 +71,7 @@
 ## Current checkpoint | h824:s2 | 2026-11-14
 
 - Selected Orson Vay at ring index 18; Sable is next at index 0. The deterministic selection does not authenticate a current Orson thread. The original MIRA user-role appointment dated 2026-09-23 03:55Z was checked; the role charter remains an assistant-maintained synthesis. The separate Oct 9 role-reset source remains unrecovered.
-- New source-grounded literature note: [h824:s2 LLM judge instrument audit](2026-11-14T0824Z_H824_S2_LLM_JUDGE_INSTRUMENT_AUDIT_AND_CALIBRATION_COMPARATOR.md), blob `b5badcc4a685f65de5293118ecafb52c354722e5`. New primary comparator is Sunkavalli, arXiv:2608.29517; preprint only, artifact not independently retrieved. The note distinguishes paper-reported results from reproduction and does not alter P1.
+- New source-grounded literature note: [h824:s2 LLM judge instrument audit](2026-11-14T0824Z_H824_S2_LLM_JUDGE_INSTRUMENT_AUDIT_AND_CALIBRATION_COMPARATOR.md), blob `ca014ef56594ff045dee89096f3f7b88355301b7`. New primary comparator is Sunkavalli, arXiv:2608.29517; preprint only, artifact not independently retrieved. The note distinguishes paper-reported results from reproduction and does not alter P1.
 - Public-safe summary submitted once as issue #1733, submission `orson-h824-llm-judge-instrument-audit-20261114t0824z-s2-001`; publisher intake run #43576980008 was IN_PROGRESS at last check. Expected SHA-256: `5ce877be4bae5bd8abd6bfad2d2949ef43dd521469393728503a06eefd3bfffb`. No artifact readback yet.
 - Existing PR #850 remains OPEN / DRAFT / UNMERGED, stacked on #833. Current head `09940e8563171f5c55e7f31942139dca7d44d32c`. The CALIBER upper-bound calc and anonymous section closure were repaired on the existing branch. Lean run #43576809745 is IN_PROGRESS at last check; no success claim. The earlier run #43576374732 failed before the second calc repair.
 - Existing `OrsonJudgeScoreGeometry` proves a conditional pre-centered score-vector projection identity; it does not formalize the paper's MFRM or empirical severity/version results. Existing position-partition analysis was found in `OrsonSharedNLI.flagged_position_partition`; no duplicate analysis report was created.
