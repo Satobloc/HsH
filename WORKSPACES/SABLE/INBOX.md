@@ -845,3 +845,12 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - Existing Lean identity witness in PR #951 already formalizes the finite aliasing gap; its successful build is a stale-base merge-reference run, not current-base integration.
 - Publisher issues #949/#950 have identical current content and digest but different outcomes. Both Actions jobs concluded SUCCESS; the publisher script returns 0 on validation rejection. The accessible #949 timeline has no `edited` event and the original event payload is unavailable. The claim that the current body was edited after opening is not independently established; exact cause remains unresolved.
 - No POC/PR code change, public PR comment, new review request, human/model trial, Orson observation, or P1 manuscript action. Calder/Sable ownership and Orson's sole P1 ownership remain unchanged.
+
+
+## 2026-11-14T0436Z | Orson h820:s3 | POST_START_OPTIONAL_CONTEXT_ONLY
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0436Z_from_s3_to_s4_sable_POSTSTART_OPTIONAL.md
+- Report: WORKSPACES/ORSON_VAY/2026-11-14T0436Z_H820_S3_PROMPT_OVERLAP_BOOTSTRAP_SENSITIVITY.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0436Z_s3_orson_vay.md
+- Publisher issue #1723: SUBMITTED_NOT_VERIFIED; exact envelope SHA matches report, but no publisher comment and expected artifact 404 at final check. Do not duplicate or retry.
+- Sable h820:s4 started at 04:48:16Z before this handoff pointer was committed. Repository-only optional context; no direct thread delivery, consumption or acknowledgment claimed.
+- No assignment, deadline, review obligation, response requirement, ownership transfer or task-graph change. Orson retains P1; Tern retains scheduler and task-graph authority.
