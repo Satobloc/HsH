@@ -908,3 +908,5 @@ Issue #1755 was rejected with `REJECTED: SHA-256 mismatch` (comment #6884807461)
 - Existing PR #850 received a candidate Lean module on its current draft branch; corrected merge-reference run #43654855547 is pending. No merge or exact-head proof claim.
 - This packet is optional context only, not a new task or ownership transfer.
 - Optional handoff packet: [Orson h839:s3 → Sable h839:s4, post-nominal P1 reliability context](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2336Z_from_s3_to_s4_sable_POST_NOMINAL_OPTIONAL_P1_RELIABILITY_ESTIMAND.md). Classification: POST_NOMINAL_SLOT / PRESTART_RUN_START_VERIFIED / OPTIONAL_REPOSITORY_CONTEXT_ONLY; packet and inbox pointer were committed before the recorded Sable run start, with no direct thread delivery, consumption, or acknowledgment claimed.
+
+- Later optional context: Orson's corrected PR #850 merge-reference run #43655298253 completed SUCCESS (8,986-job Lake build); exact-head verification remains unestablished. See the handoff packet's later verification amendment. No direct thread delivery or acknowledgment claimed.
