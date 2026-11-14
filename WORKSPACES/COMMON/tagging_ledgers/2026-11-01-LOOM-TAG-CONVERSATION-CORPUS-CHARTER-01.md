@@ -763,3 +763,35 @@ Tags: FLATTENED-TRANSCRIPT; SPEAKER-LABEL-ONLY; NO-RAW-ROLE-METADATA; NO-NATHAN-
 - **Tags:** `LANGUAGE-GAME`, `OBSCURE-LANGUAGE-TRIVIA`, `GAME-RULE-CORRECTION`, `LURI`, `TSAKONIAN`, `FLATTENED-TRANSCRIPT`, `SPEAKER-ROLE-NOT-RAW-VERIFIED`.
 - **Attribution limit:** “You said” / “ChatGPT said” labels in this flattened transcript are not raw ChatGPT `author.role` fields or message UUIDs. The assistant-provided facts are not Nathan Direct; no user turn is promoted as a raw-author-verified quotation from this representation.
 - **Next reading cursor:** line 1401. This is a source-reading break, not a claimed physical posture break.
+
+
+## Section AC | 2026-11-14 | Cross-ledger coverage reconciliation and h813 correction
+
+**Source:** DIMENSIONAL GRAVITY raw conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`, blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`. Current-node ancestry: 456 nodes, 138 user-role messages, 192 assistant messages, 125 tool messages. The ten off-ancestry nodes (seven assistant, three tool) were separately reviewed in the existing 2026-11-12 off-path report.
+
+A cross-ledger exact-UUID comparison confirms **138/138 user-role messages have existing tag coverage** across this cumulative ledger, the verified-words compendium, and prior September 13 chronology/tag ledgers. The coverage chain includes: current cumulative ledger Sections B onward (ordinals 1–60 and its later specific entries); SAT-naming/early-prediction/compendium coverage (61–71); current ledger and chronology/compendium coverage (72–92); 0349–0428 (92–95); 0429–0057 (95–104); 0102–0210 (104–128); 0214–0219 (129–131); June reopen (131–134); June 1750–1753 (134–137); and final 1817 (138).
+
+### Section AA source-overlap correction
+
+All 17 source IDs in Section AA, ordinals 93–109, were already covered:
+- 93–95: `2026-09-13-TIMELINE-DIMENSIONAL-GRAVITY-0349-0428-05.md`.
+- 95–104: `2026-09-13-DIMENSIONAL-GRAVITY-0429-MAR28-0057-07.md`.
+- 104–109: `2026-09-13-DIMENSIONAL-GRAVITY-0102-0210-08.md`.
+
+Section AA is a richer second annotation layer, not a new source-coverage tranche. It adds more granular semantic and epistemic descriptors, but zero new unique source-message IDs. Preserve it. The h813:s2 receipt/checkpoint/BOOT and optional Aster packet statements “17 newly tagged” and “no duplicate entries” are superseded by the separate receipt and handoff amendments. Correct count: **17 pre-covered messages enriched; zero new unique messages**.
+
+The prior “next raw user ordinal 111” pointer is retired. No uncovered user-role ordinal remains. The earlier assistant-span reimport and the November 7 assistant-span ledger collectively cover the current ancestry through index 455; the ten off-ancestry nodes have a separate source review. No current-ancestry cursor remains. The next global source is not selected.
+
+This is source-ID coverage reconciliation, not independent corroboration. Multiple annotations of one message are not independent witnesses.
+
+## Section AD | 2026-11-14 | Lateral reading: fun break transcript, lines 1481–1520
+
+**Source:** SAT archive `Satobloc/SAT_THEORY_ARCHIVE_2023-25`, `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 1481–1520.
+
+The passage moves from a language-knowledge estimate to a request for language-family classification and synonym/outmoded-name checks. It is a flattened transcript with textual “You said” and “ChatGPT said” labels, not a raw role/UUID export. No Nathan Direct attribution is inferred from those labels, and the assistant's language-knowledge estimate is not treated as verified linguistic fact.
+
+Tags: `LANGUAGE-GAME`, `LANGUAGE-KNOWLEDGE-ESTIMATE-UNVERIFIED`, `LANGUAGE-FAMILY-CLASSIFICATION-REQUEST`, `SYNONYM-AND-OUTMODED-NAME-CHECK`, `TRANSCRIPT-ONLY`, `TEXTUAL-SPEAKER-LABELS`.
+
+Next cursor: **line 1521**. Lines 1401–1440 and 1441–1480 were already read by other runs and were not counted again here.
+
+The separate SAT archive `FUN STUFF/GREAT MOMENTS IN PERSONAL SICENCE HISTORY/MIX TAPES.txt`, blob `9be7a256d08fcb1aacf3e77b807db0e9555681c4`, has 762 lines and is at EOF. The stale line-621 pointer is superseded; no next cursor exists for that file.
