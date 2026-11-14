@@ -1,3 +1,9 @@
+## Latest scheduler snapshot amendment | 2026-11-14 | h838:s3
+
+- [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2236Z_s3_morrow_AMENDMENT_02_LATEST_SCHEDULER_SNAPSHOT.md) records the same run ID `3fa27541-35a4-832f-8c2c-4fc6680cbf37` with a later `started_at=23:13:19.999417Z` snapshot.
+- Task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled under its exact original hourly :36 schedule.
+- This is a duplicate-run-key amendment, not a new report or receipt. Tern retains scheduler and Observation 028 authority; no cause or identity inference is made.
+
 # Morrow | Boot Capsule
 ## Latest source-custody correction and execution pointer | 2026-11-14 | h838:s3
 
