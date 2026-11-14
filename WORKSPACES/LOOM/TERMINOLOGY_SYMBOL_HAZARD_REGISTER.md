@@ -219,3 +219,65 @@ The former October 29 row's “raw export absent” status was accurate only at 
 The September 28 `SAT_HowTo_AnalogueToCalibration (3).pdf` uses a `ct=w`-style coordinate convention but has no “Forest” occurrence. The 2025 SAT Big Paper contains the BPHZ forest formula, which is a renormalization procedure, not the named Forest Normalization. Bounded searches across HsH, SAT_THEORY_ARCHIVE_2023-25, HSH_RESOURCES, and these attachments did not recover an authoritative Forest Normalization source. Do not substitute the standard `w=ct` map or the BPHZ forest formula.
 
 Detailed source chronology, scope-relative necessity matrix, local/global wavefront alternatives, and prediction-admission gate: `WORKSPACES/LOOM/2026-11-10T1336Z_SCOPE_RELATIVE_GEOMETRY_NECESSITY_AND_NORMALIZATION_SOURCE_REPAIR.md`. This is a source/architecture control, not a BEDROCK theory promotion.
+
+
+## 2026-11-14 Addendum: direct provisional spatial-w role
+
+### Source and provenance
+
+- Raw conversation: 6aecede1-4c08-83e9-abc4-da64f59a4f51.
+- Direct user-role message: c0520975-02a0-408f-a250-364b88ab7b30.
+- Timestamp: 2026-11-08T20:18:10.172Z.
+- Source class: NATHAN-DIRECT / USER-ROLE / CURRENT-ANCESTRY / PROVISIONAL.
+- Library raw export: 8,331,175 bytes; SHA-256 875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d; Git-blob-formatted SHA-1 c1793cebf08ed57881eb144ee23fe6d1d6d69f1a.
+- Three Library aliases are byte-identical. They represent one source witness, not three independent witnesses.
+- The target message is on the current ancestry. The raw export contains 29 user-role turns on that ancestry; only the geometry-relevant subset was examined in this bounded pass.
+
+### New source content and status
+
+The direct message provisionally treats w as a fourth spatial dimension, allows proper time to be distinct and to progress along w, and expresses a working preference for the same c with different paths. The same message treats the Crullerverse and Klein Fabric interpretations as tentative. This is a provisional coordinate-role proposal, not a complete geometric definition or a physical result.
+
+### Reconciliation boundary
+
+Preserve the existing source strata separately:
+
+1. 2026-10-09: w=ct as a time-length coordinate in meters in the classical Minkowski limit.
+2. 2026-10-21: cw=t in a ++++ native convention. The direct message does not supply a complete type, unit or coordinate chart for w.
+3. 2026-10-29: w=ct in the branch-specific TOPLESS / Forest Normalization context.
+4. 2026-11-08: provisional fourth-spatial w, with proper time possibly distinct.
+
+The 2026-11-08 message is additive. It does not explicitly supersede the earlier conventions, and no source-defined conversion map, unit map, metric signature or time-parameter chart connects the four strata. Do not invert cw=t, equate it to w=ct, or globally replace one convention with another.
+
+The earlier 2026-11-04 note that the direct source did not provide a complete metric/time chart remains valid, but is now incomplete in one respect: a provisional spatial role for w is directly stated on 2026-11-08. The complete chart is still absent.
+
+### Geometry and prediction consequences
+
+- The source-level 4D tube / 1D core / 3D boundary / 2D worldsheet statements remain distinct objects. The new w-role proposal does not by itself establish whether the four-dimensional ambient is a spacetime manifold or a four-spatial-dimensional manifold with a separate evolution parameter.
+- A smooth 1D core embedded in a smooth 4D ambient has a rank-3 normal bundle under the usual tubular-neighborhood assumptions. This is a conditional dimensional statement, not a measured core radius or physical tube profile.
+- The metric on the normal bundle and its connection group cannot be fixed until the ambient signature and the core's causal or spatial character are specified.
+- A 2D worldsheet is not the 3D boundary. A projection or inclusion map must identify which object is being read out.
+- Finite tube support does not determine a numerical thickness or radial profile. A scalar twist is not forced by the minimal tube/core pair. Contact surfaces require explicit incidence, intersection, gluing or boundary maps.
+- The theta-4 angle remains underdefined until its metric, tangent/normal vectors and time role are explicit.
+
+### Proposed ModelFreeze coordinate-role witness
+
+Add a proposed coordinate-role witness inside ModelFreeze, without changing the existing paired comparison-freeze design:
+
+- ambient object type and dimension;
+- ambient metric signature;
+- w_role and time_role;
+- exact w-to-t map, with domain, codomain, units and branch scope, or explicit unresolved status;
+- timesheet type;
+- metric and normal definition used by theta-4;
+- projection and composition maps with their domains and codomains;
+- direct-source locators, timestamps, authorship class and supersession scope.
+
+A candidate that uses w should not pass checked_pass while silently changing its coordinate role. If the role is unresolved, the candidate must either remain definition-blocked or explicitly restrict the claim to a branch that does not use w.
+
+### Existing formalization boundary
+
+- PR #873 contains conditional transverse-intersection dimension results. The relevant module compiled in CI run #43202552666; this is a PR-merge-reference build.
+- PR #1133 contains carrier-normal-rank and readout-descent results. The relevant module compiled in CI run #43593470689, but the root build failed in MovingPlaneTraceGeometry and the full verification suite was not completed.
+- Neither PR formalizes the source-specific w-to-t map or establishes the physical premises. No new Lean theorem, equation change, physical calculation, P2 selection or theory promotion is claimed.
+
+No change to SYMBOL_REGISTRY is required: this is a source-role clarification for an existing symbol, not a new symbol definition.
