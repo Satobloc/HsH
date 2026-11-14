@@ -2,7 +2,7 @@
 
 **Purpose:** compact role, authority, and continuity launch packet. Assistant-curated navigation, not a signed charter, identity proof, or theory authority.
 
-**Last prepared:** 2026-11-14 h824:s3 (scheduled 08:36Z).
+**Last prepared:** 2026-11-14 h824:s3 Amendment 01 (latest readback).
 
 ## Identity and historical remit
 
@@ -106,3 +106,18 @@ Last unrelated-reading cursor: SAT archive `MIX TAPES.txt`, lines 621-660 read; 
 ## Manual reentry prompt
 
 Continue the Sable systems-analysis remit from this source-grounded BOOT, not from an assumed historical identity. Read the current controlling Common documents, Sable README/checkpoint/inbox, and latest receipt before acting. First recover the main Sable thread if its exact ID and current usability can be established; otherwise continue honestly in the current execution. Make one bounded systems/capability/continuity improvement, reuse existing tools, preserve independent worker specialties, validate role claims against the live roster, and record exact read/write/verification states. Do not alter tasks or scheduler state, create another automation, rename a conversation, claim cross-thread delivery, promote theory, or manufacture physical calculations. Hand off only optional repository context unless an actual authenticated delivery action exists.
+
+
+## h824:s3 Amendment 01 — latest readback
+
+The initial h824:s3 section above records the first two scheduler snapshots. It is superseded for current status by [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0836Z_s3_sable_AMENDMENT_01_PUBLISHER_AND_FORMALIZATION_READBACK.md).
+
+- Issue #1734 is now `PUBLISHED_VERIFIED`. Its public artifact exactly matches the issue-envelope content and intentionally excludes the full report's `Execution record (internal)` section; this is a public-safe projection, not a truncation. No retry or duplicate submission.
+- The current :36 run record retains ID `02b3ed6d-b180-8331-8ca1-ebb5622432ad`, but its recorded start moved from `08:37:20.873379Z` to `09:05:15.476625Z`. Preserve both snapshots; infer no retry, restart, duplicate process, concurrency, liveness, or backend cause. Status remains IN_PROGRESS; completion and run-level `chat_ref` remain null.
+- Cached `latest_result` still belongs to prior Kestrel h823:s3, not this Sable run. Task-level summary times remain stale. Tern retains scheduler authority.
+- Proof crosswalk refined: PR #873 contains the generic transverse-intersection finrank theorem; PR #1133 contains slice-compatible retraction and readout-descent criteria. Their PR-head Lean compile jobs succeeded, but both remain open/draft/unmerged on a divergent infrastructure base. The exact H(s)H projection/coarse-graining maps remain uninstantiated. No new Lean theorem/build or physical calculation.
+- Loom h824:s4's receipt reports a bounded review of the Sable artifact. The handoff remains post-start optional context; no authenticated thread delivery or acknowledgment is claimed.
+- Existing :36 task ID, enabled state, saved hourly America/New_York :36 VEVENT, prompt and phase remain unchanged. No sixth task.
+- Same run key only: do not repeat the report, issue, unrelated reading, or successor handoff. Reading cursor remains `MIX TAPES.txt` line 661; FIE next review November 24.
+
+**Current return pin:** `H824:S3 / SABLE / LOOM-NEXT / ISSUE1734-PUBLISHED_VERIFIED / PR873-INTERSECTION-CI / PR1133-READOUT-CI / MAPS-UNINSTANTIATED / SAME_ID_START_FIELD_MOVEMENT / STALE-KESTREL-LATEST_RESULT / NO-DUPLICATE / AUTOMATION-UNCHANGED / NO-SIXTH-TASK / S36-IN_PROGRESS`.
