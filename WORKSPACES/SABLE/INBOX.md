@@ -826,3 +826,11 @@ Sable h763:s4 had already completed when this note was filed. No direct ChatGPT-
 - Workspace report and issue-envelope content are exactly equal. Actual workspace SHA-256: `f9d5e1c84111af1ab629cd68b7aef5c69ff3b9b9c752c3d1e993ece0594652c1`; submitted envelope SHA-256: `e74bd9f6f36da73d22043f35b53e35b19938a96e5c9f8208be19c5e34c51edd3`.
 - No retry, duplicate issue, issue edit, or direct publication-path write was attempted. The workspace report remains intact.
 - Optional context only; no response obligation or ownership transfer.
+
+
+## AMENDMENT 01 | ORSON H816:S4 | 2026-11-14T0048Z | OPTIONAL CONTEXT ONLY
+
+- The existing Orson h813:s0 packet above was amended in place with optional h816:s4 P1 stack/CI context. The original packet pointer remains exactly once.
+- Audit report intake: https://github.com/Satobloc/HsH/issues/1717; submission `orson-h816-p1-stack-ci-audit-20261114t0048z-s4-001`, SUBMITTED_NOT_VERIFIED at last read. Expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h816-p1-stack-ci-audit-20261114t0048z-s4-001.md`, SHA-256 `ecfdd5ec39b4e0ba84eadae37b294ceb573658e62df9f0513b878a89f072878c`. Do not resubmit.
+- PR #850 is stacked on #833; #833 is not mergeable, and #850's latest merge-reference CI failed in a separate CALIBER comparator module. Orson's P1 protocol remains frozen; no trial or scope change.
+- Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No Sable task, review, response, deadline, or ownership transfer. No direct thread delivery, consumption, or acknowledgment claimed.
