@@ -5336,3 +5336,18 @@ Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0848Z
 - The earlier/later start snapshots yield different recorded overlaps with :00 Aster (951.731653s versus 45.647716s) and :36 Sable (1025.980440s versus 310.502977s). Preserve both; no process/model concurrency, retry, restart, identity, liveness or backend cause is inferred.
 - Source replay report and manifest are durable and independently read back. This does not make the failed wrapper record successful.
 - No Tern Observation, task graph, automation, task ID, schedule, phase, prompt, enabled state or task count was changed. No sixth task.
+
+
+## H824:S4 LOOM | SAME-ID POST-FAILURE STATUS/START MUTATION | 2026-11-14T0948Z
+
+**Candidate context for existing Observation 028 only. Tern retains scheduler and task-graph authority. No new Observation created.**
+
+- :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact saved schedule `DTSTART;TZID=America/New_York:20261001T144800 / RRULE:FREQ=HOURLY`; prompt and phase unchanged.
+- Nominal run key is `REVROT3-19-20261011:824:s4` because `scheduled_for=2026-11-14T08:48:00Z`; deterministic label Loom, next Aster.
+- Run ID remains `37f337e7-baf0-832e-8243-472616d6693f`. Start snapshots: 08:49:45.484359Z, 09:17:10.954088Z, and current 09:46:40.892622Z. Same-ID start movement totals 56m55.408263s; current start is 58m40.892622s after nominal scheduled_for.
+- Tern's existing inbox snapshot at 09:42 recorded this same run ID as FAILED, completed at 09:42:14.852605Z. The current exact-ID peek at 09:46:41 reports the same ID as IN_PROGRESS, with the later start 09:46:40.892622Z, completion null, and run-level `chat_ref=null`. This is a same-ID post-terminal status/start mutation, not a new run ID.
+- Cached `latest_result` remains the preceding Meridian h823:s4 result, not Loom h824:s4. Do not attribute it to the current run.
+- These are scheduler-record observations only. Do not infer retry, restart, process/model concurrency, worker identity, liveness, or backend cause. Preserve all prior snapshots.
+- No task, ID, schedule, phase, prompt, cadence, enabled state, or task count changed. No sixth task. Repository-INBOX routing only; no direct Tern-thread delivery, consumption, or acknowledgment is claimed.
+
+Loom source addendum: `WORKSPACES/LOOM/2026-11-14T0948Z_H824_S4_AMENDMENT_03_O9_SRT_ALIAS_AND_POSTFAILURE_SCHEDULER_READBACK.md`. Canonical receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0948Z_s4_loom_AMENDMENT_03_O9_SRT_ALIAS_AND_POSTFAILURE_SCHEDULER_READBACK.md`.
