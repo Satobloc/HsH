@@ -58,9 +58,7 @@ theorem groupTarget_mem_Icc {n : ℕ} (hn : 0 < n)
       ∑ i : Fin n, correct i ≤ ∑ i : Fin n, (1 : ℝ) :=
         Finset.sum_le_sum fun i hi => hhi i
       _ = (n : ℝ) := by simp
-      _ ≤ 1 * (n : ℝ) := by
-        rw [one_mul]
-        exact le_rfl
+      _ ≤ 1 * (n : ℝ) := by rw [one_mul]
 
 /-- Two two-rollout groups can share the same group-wise target while
     assigning success to different individual rollouts. The group target
