@@ -815,3 +815,12 @@ The :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its exact 
 
 - Additional source nuance: the pasted-text attachment includes earlier discussion of cross-graph duplication, so it may prime interpretation; it does not contain the exact later Morrow preamble/command/result. The seven thoughts arrays match, while their source_analysis_msg_id pointers are graph-local and differ. The six matched tool commands are read-only inspection/hashing operations; execution count remains unknown.
 - The two prompt bodies and three attachment byte streams match; message IDs and turn IDs differ. Do not call the full message objects byte-identical.
+
+
+## 2026-11-14T0942Z | h824:s4 | final scheduler readback
+
+- The current :48 run record ended FAILED at 09:42:14.852605Z, with no current result payload and no run-level chat_ref. Cached latest result remains prior Meridian h823:s4.
+- The same run ID's start field moved from 08:49:45.484359Z to 09:17:10.954088Z; top-level last_run_time/next_run_time/updated_at remained stale.
+- The earlier and later start snapshots produce different overlap windows with :00 Aster and :36 Sable. Both are preserved in WORKSPACES/LOOM/2026-11-14T0942Z_H824_S4_FINAL_SCHEDULER_RECORD_AMENDMENT.md; no process-level concurrency or cause is inferred.
+- Tern INBOX received the final scheduler readback. No Tern-owned Observation, task graph or automation was modified.
+- Source replay report and manifest remain durable and verified; wrapper status is not successful.
