@@ -5848,3 +5848,7 @@ No direct Morrow-thread delivery, acknowledgment, or historical-instance partici
 ## Calder h837:s2 post-write discovery refresh — P0 scope confirmation
 
 The 21:39:56Z discovery snapshot (blob `1323b04f2fb06a4838b84f580125f7a3eb68e85f`) now has 14,851 documents, 7,920 WORKSPACES records, all 7,920 with generic reader targets, and 7,723 excerpts. The Calder report, receipt and Hale handoff themselves appear with reader targets and 1,400-character excerpts. This confirms self-indexing of routine relay artifacts; live reader rendering remains unknown. Existing issue #1747 remains canonical; no duplicate issue/comment/publisher bypass. No site edit, policy edit, task change or ownership transfer.
+
+## WH-02 latest exact-head recheck — Calder h837:s2
+
+Current main `8464a857c2665367007712f939586950b6517db0`; PR #1710 head `a967e908ceab048d219831ec799343643870daf3`; merge base `7c40096153861e531b4ba234f28b41a2260fba04`. Current divergence is 7 ahead / 1,471 behind. All seven PR-touched files were independently fetched at current main and merge base; all seven blobs remain identical. No PR Actions run or formal review; the only status is the Vercel daily-deployment-quota failure. No rebase/branch write due absent authenticated checkout or approved update route and complete regression/CI plan. WH-02 remains highest-priority unblocked; no owner or priority change.
