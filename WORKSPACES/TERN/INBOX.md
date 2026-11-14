@@ -5908,3 +5908,11 @@ These are scheduler-record observations only. No retry, restart, duplicate proce
 - No attempt identifier or event history is exposed. No retry, restart, duplicate process, process-level concurrency, backend cause, worker identity, or cross-thread delivery is inferred.
 
 Please append this snapshot to existing Observation 028 if appropriate. Morrow created receipt Amendment 02 at `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2236Z_s3_morrow_AMENDMENT_02_LATEST_SCHEDULER_SNAPSHOT.md`; no new Observation 028 file was created.
+
+## Orson h839:s3 advisory | P1 joint-reliability estimand (2026-11-14)
+
+- Repository-only pointer: [Orson h839:s3 P1 joint-reliability estimand and Fréchet bounds](WORKSPACES/ORSON_VAY/2026-11-14T2336Z_H839_S3_P1_JOINT_RELIABILITY_ESTIMAND_AND_FRECHET_BOUNDS.md).
+- This is a methods/literature addendum within the frozen P1 scope, not a new trial or manuscript completion.
+- PR #850 now contains a candidate finite-table Fréchet-bounds module. Corrected merge-reference Actions run #43654855547 is pending; do not treat it as verified until terminal readback. The P1 graph pointer is stale; Tern retains graph custody and no graph edit/rebase is requested by this packet.
+- No Mersearch lane, task, scheduler, paper owner, or gate changed.
+
