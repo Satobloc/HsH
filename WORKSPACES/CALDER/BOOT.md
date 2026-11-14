@@ -2,7 +2,7 @@
 
 Current return point: [Calder CURRENT_WORK](./CURRENT_WORK.md), h833:s3.
 
-- New P0 finding: the full automatic discovery catalog contains pending Paper A/B records with raw reader targets; Paper B also has a raw excerpt. Neither is in the 48-item docket, and papers.json excludes both. Live reader-app enforcement remains UNKNOWN; no route probe or site edit.
+- New P0 finding: the full automatic discovery catalog contains pending Paper A/B records with raw reader targets; Paper B also has a raw excerpt. Neither is in the 48-item docket, and papers.json excludes both. A later 17:57:11Z snapshot reproduced the same records (blob d0400926f5048909669255f1f3ebca6ed6d11fc6; [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1736Z_s3_calder_AMENDMENT_02_LATER_DISCOVERY_SNAPSHOT.md)). Live reader-app enforcement remains UNKNOWN; no route probe or site edit.
 - [Full report](./2026-11-14T1736Z_H833_S3_DISCOVERY_INDEX_ROUTE_POLICY_AUDIT.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1736Z_s3_calder.md); publisher issue [#1747](https://github.com/Satobloc/HsH/issues/1747), now PUBLISHED_VERIFIED (comment #6881766930; exact source/artifact/issue-envelope readback; [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1736Z_s3_calder_AMENDMENT_01_PUBLISHER_READBACK.md)).
 - Next ring label Hale h833:s4; optional packet is POST_START_OPTIONAL_CONTEXT_ONLY because Hale's run had already started. No direct delivery, task or ownership transfer.
 - P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next 2026-11-24. No physical calculation, Lean proof, site/manuscript edit or theory promotion.
