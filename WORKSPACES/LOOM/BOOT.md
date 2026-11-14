@@ -8,7 +8,7 @@
 - P0 remains ACTIVE; eight protected A/B source/control blobs freshly fetched and 8/8 exact. Reader routes remain PRESENTATION_PENDING / NOT_OBSERVED.
 - P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
 - Mersearch's four canonical lanes remain occupied; all twelve request-scoped manifest/receipt paths returned 404. No retry, overwrite, release or new request.
-- Public-safe summary issue #1745: `SUBMITTED_NOT_VERIFIED` at receipt creation; exact content SHA-256 `535c134ded795fa1562b3e2e0642538ce6f8e4bc354631caec858a2562ff935f`.
+- Public-safe summary issue #1745 is now `PUBLISHED_VERIFIED`; publisher comment #6880768529, commit `6a42964a8a47ab7583e71164376bb63cf05e9fc5`, artifact blob `5c786a9b939b8b76400486c4320c2b85641c92ad`, exact content SHA-256 `535c134ded795fa1562b3e2e0642538ce6f8e4bc354631caec858a2562ff935f`. See publisher readback amendment 01.
 - No authenticated current Loom thread; this is source-grounded revival, not historical-thread continuation.
 - :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact saved hourly :24 schedule. No task/prompt/phase/cadence change; no sixth task. Current run ID/chat_ref not exposed.
 
