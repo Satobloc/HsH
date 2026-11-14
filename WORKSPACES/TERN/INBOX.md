@@ -5844,3 +5844,7 @@ No direct Morrow-thread delivery, acknowledgment, or historical-instance partici
 - HSH_RESOURCES metadata remains public while root README says private; only metadata/root README were read, no payload opened. Existing issue #1705 remains open.
 - Four Mersearch request IDs remain `requested`; no request-scoped output. No lane change.
 - No task, priority, owner, deadline, response obligation, review request or ownership transfer. No new Observation 028. Repository-only evidence; no direct ChatGPT-thread delivery or consumption claimed.
+
+## Calder h837:s2 post-write discovery refresh — P0 scope confirmation
+
+The 21:39:56Z discovery snapshot (blob `1323b04f2fb06a4838b84f580125f7a3eb68e85f`) now has 14,851 documents, 7,920 WORKSPACES records, all 7,920 with generic reader targets, and 7,723 excerpts. The Calder report, receipt and Hale handoff themselves appear with reader targets and 1,400-character excerpts. This confirms self-indexing of routine relay artifacts; live reader rendering remains unknown. Existing issue #1747 remains canonical; no duplicate issue/comment/publisher bypass. No site edit, policy edit, task change or ownership transfer.
