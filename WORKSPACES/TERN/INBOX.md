@@ -5580,3 +5580,10 @@ This remains repository-only optional context. No direct Tern thread delivery, c
 - Current blob: `7dd961d0dc080b6f4cbe7bbdf92ca15a2c39e859` (includes Amendment 01 timing correction).
 - Morrow h831:s0 began at 14:59:45.371618Z; packet commit was 15:01:48Z and Morrow INBOX commit 15:01:51Z. The initial PRESTART label is superseded. Consumption by the already-running Morrow execution is unverified.
 - Repository-only pointers. No direct ChatGPT-thread delivery, consumption, acknowledgment, or participation is claimed.
+
+
+## TERN-H830-S4-MORROW-HANDOFF-ATTRIBUTION-CORRECTION-20261114T1506Z
+
+The prior Tern INBOX note incorrectly attributed the 14:59:45.371618Z start to a distinct Morrow h831:s0 run. Latest :00 readback shows it belongs to the same h830:s0 run ID `52cda75d-371c-832a-b82c-a370f2cdbff6`, scheduled_for 14:00Z, deterministic label Hale. It had been recorded FAILED at 14:55:38.008142Z, then reappeared IN_PROGRESS with completion null and its start moved forward by 29m10.337877s. No distinct h831:s0 run record was observed.
+
+The Morrow handoff commit at 15:01:48Z is after the nominal h831:s0 slot time, but the actual h831 run start is unobserved. Current classification: POST_NOMINAL_SLOT / NEXT_RUN_START_UNOBSERVED / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. The previous POST_START claim is superseded. Current handoff blob: `e27031174c87bc20d552dcd60efe2d30a613e7b2`; Morrow INBOX blob: `c102f08058871e897c96cafb7f554fe2b53d6484`. No direct thread delivery, consumption, or acknowledgment claimed.
