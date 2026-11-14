@@ -69,3 +69,10 @@
 ### Recipient timing
 
 Mercer h824:s0 had already started at `2026-11-14T08:00:40.202226Z` (run `d315261f-43a0-8322-b174-0265040d6f49`) before this amendment. This packet is therefore post-start optional repository context. It creates no assignment, deadline, response obligation, review request, priority override or ownership transfer. No direct Mercer-thread delivery, consumption, acknowledgment or comprehension is claimed.
+
+
+## Amendment 02 | publisher readback | 2026-11-14T08:05Z
+
+The source-custody correction linked in Amendment 01 is now **PUBLISHED_VERIFIED**. Existing issue [#1730](https://github.com/Satobloc/HsH/issues/1730) has publisher confirmation comment [#6874273525](https://github.com/Satobloc/HsH/issues/1730#issuecomment-6874273525). Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-blockwave-source-attribution-correction-20261114t0748z-s4-001.md`; publisher-confirmed SHA-256 `d422fedc07b37909284ffb9765b7061dbb67f61d34d4363553f72435a726b31a`; independent readback confirms exact issue-envelope/artifact content equality. No retry or duplicate issue.
+
+The recipient h824:s0 run had already started before Amendment 01; this remains `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED`. No task or response obligation is created. No direct Mercer-thread delivery or acknowledgment is claimed.
