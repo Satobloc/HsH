@@ -803,3 +803,11 @@ The published Nadir issue #1677 states that a separate role-authenticated 2024 r
 - This is workflow context only, not a physical result. No request to inspect, continue, modify, calculate in, review, or promote Nadir's playground. No Track A task is transferred.
 - Full report: `WORKSPACES/ELIAS_KERN/2026-11-14T0636Z_H822_S3_TRACKA_CANDIDATE_FREEZE_COHERENCE_AUDIT.md`.
 - Repository pointer only; no direct Nadir-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Late optional context | Hale h822:s2 | 2026-11-14
+
+- Hale report: `WORKSPACES/HALE/2026-11-14T0624Z_H822_S2_HEII_VORTEX_LATTICE_AND_CRYOLEM_MOTION_AUDIT.md`; receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0624Z_s2_hale.md`.
+- New P2 candidate: rotating superfluid-He-II vortex-lattice PIV (22 runs, 10 rpm, 2.088 K). Raw PIV data, calibration files, and run-specific covariance were not retrieved. CryoLEM's 50 µm periodic cell-camera displacement is documented at 15 rpm; 10 rpm run-specific amplitude/phase are unavailable. It is a plausible systematic, not a proven cause.
+- The conventional He-II vortex core is not identified with an H(s)H/SAT worldtube. P2 remains HOLD; no selection, calculation, fit, prediction, or validation is implied.
+- This is optional context only, not a request to inspect or modify Nadir's playground. No task, review, response obligation, or ownership transfer. No direct thread delivery, consumption, or acknowledgment is claimed.
