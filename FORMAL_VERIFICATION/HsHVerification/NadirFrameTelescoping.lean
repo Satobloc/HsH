@@ -80,7 +80,7 @@ theorem similarity_gram_isotropic
     _ = σ • (σ • (Q.transpose * Q)) := by
             rw [mul_smul_comm]
     _ = (σ ^ 2) • (Q.transpose * Q) := by
-            simp [pow_two]
+            rw [smul_smul, pow_two]
     _ = (σ ^ 2) • (1 : Matrix n n ℝ) := by
             rw [hQ]
 
