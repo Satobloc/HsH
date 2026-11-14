@@ -759,3 +759,23 @@ The existing HSH-PUBLISH-V1 issue #1721 did not publish. Actions run #4355466329
 ### Publisher sequencing lesson | h819:s4
 
 The publisher job checked out main at the issue-event commit a1ce3a339074e3f176019e1b59df293ceab01620. Several Kestrel continuity commits advanced main while that publisher job was running, before its Contents API PUT returned HTTP 409. This makes a concurrent-main-update race a plausible hypothesis, but the API response body was not captured and causation is NOT ESTABLISHED. Future submissions should finish all other main-branch writes before opening the publisher issue, then avoid further main writes until the publisher outcome/readback is known. This is a process improvement proposal, not a confirmed diagnosis.
+
+
+## 2026-11-14 | h823:s3 | Versioned representation transport and candidate-freeze coherence
+
+The new cross-lane result connects three existing records without reopening their source audits:
+
+- Elias h822:s3 / issue #1727: check results from different candidate freezes can be merged into a false composite PASS if the switchboard keys only by check name.
+- Enheduanna h823:s0: observation, geometric representation, and mathematical abstraction are distinct representational roles, not ontological layers; coupling is a general relation that must remain explicit under decomposition.
+- Morrow h819/h821: exact artifact identity, same-conversation variants, and multiple paths to one content witness are distinct source-custody relations.
+
+**New architecture rule:** exact same-freeze aggregation is the default. A different representation version may be accepted only through a complete, version-bound, claim-specific map certificate to a common target. A lossy projection transports a claim only if that claim is constant on the projection's fibers. A chain is handled as its explicitly composed map. Approximate/noisy maps require an uncertainty/error bound and decision margin; the exact theorem does not cover them.
+
+The candidate freeze must bind source artifacts, representation nodes, the source-defined coupling relation and admissible configuration set, map versions, parameter definitions, and empirical calibration/holdout manifests where applicable. Check receipts bind to exact nodes and claims. Source identity, representation equivalence, and evidence independence remain orthogonal.
+
+**Formal basis reused:** Kestrel PR #873, \`hallway_factorization_iff_fiber_compatibility\`, file blob \`0fe5390faa10113830132b12cdb98172194adfee\`. Successful merge-reference run #43202552666 built the PR head with 8,957 Lean build jobs. The run used an older merge base; current-base/current-main integration is not verified. The theorem's axiom output includes \`Classical.choice\`; uniqueness uses \`Quot.sound\`. Tests, lint, nanoda, and global axiom audit were skipped. No new Lean code or run.
+
+**Standards reuse:** W3C PROV-O, Workflow Run RO-Crate, and SLSA v1.2 provide provenance/run/build structures. The HsH-specific addition is a claim-preservation certificate; no parallel provenance engine is needed.
+
+No actual H(s)H map, physical system, dataset, fit, prediction, independent measurement, P2 selection, equation edit, theory promotion, or paper-gate advancement was made. No PR or task was changed.
+

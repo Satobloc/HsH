@@ -285,3 +285,15 @@ For P2, use the existing issue #1341 map contract and actual measured-system gat
 
 The full internal crosswalk, including failure/partial-survival/substantial-success paths and the current PR #873 build limitation, is in [h808:s2 report](2026-11-13T1624Z_H808_S2_OUTCOME_ROBUST_READER_CROSSWALK.md). This is a decision aid, not a new task, public-site edit, paper gate, or theory promotion.
 
+
+
+## 13. Versioned representation and claim transport
+
+- How should the exact candidate-freeze gate accept a legitimate representation change without allowing checks from different candidate versions to be mixed?
+- Can each representation edge bind source-version and target-version IDs, exact map digest, domain/codomain, assumptions, and the specific claim it preserves?
+- For a lossy projection, is the claim constant on every projection fiber? The existing Kestrel PR #873 fiber-factorization theorem gives the exact set-map criterion.
+- How are the source-defined coupling relation R and admissible configuration set carried through observation -> geometry -> mathematics without silently allowing independent variation?
+- Which claims require exact preservation, and which could use an approximate/noisy map with a quantified error bound, uncertainty propagation, calibration, and a predeclared decision margin?
+- How do we keep source identity, representation equivalence, and independent evidence as separate axes?
+
+Status: architecture proposal only. No map, physical system, or empirical holdout is instantiated. No new task or theory claim follows from this question.

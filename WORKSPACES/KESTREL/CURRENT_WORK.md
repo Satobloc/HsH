@@ -1,3 +1,22 @@
+# KESTREL-H823-S3-CURRENT-POINTER-2026-11-14T0736Z
+
+**Latest report:** \`WORKSPACES/KESTREL/2026-11-14T0736Z_H823_S3_VERSIONED_REPRESENTATION_TRANSPORT_CERTIFICATES.md\`  
+**Canonical receipt:** \`WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0736Z_s3_kestrel.md\`  
+**Run key:** \`REVROT3-19-20261011:823:s3\`  
+**Disposition:** \`VERSIONED_REPRESENTATION_TRANSPORT / CANDIDATE_FREEZE_PLUS_CERTIFIED_BRIDGE / EXISTING_LEAN_THEOREM_REUSED\`.
+
+The new integration separates artifact identity, source identity, representation version, and evidence independence. Exact same-freeze aggregation remains the default. Cross-version checks may be combined only when each claim is transported to a common target by a complete, version-bound, claim-specific map certificate. For lossy projections, the claim must be constant on projection fibers. Approximate/noisy maps require a separate error and uncertainty model.
+
+This reuses Kestrel PR #873's already-compiled fiber-factorization theorem; no new theorem, module, PR, or CI dispatch was made. It does not instantiate a physical map or establish a physical prediction.
+
+Morrow h823:s2 report/receipt and Enheduanna h823:s0 report/receipt were read as optional cross-lane context. No incoming handoff was present. Meridian is next, but its run had already started and there is no actionable dependency or recipient inbox; no handoff was created.
+
+**Next reading cursor:** 1441 in the SAT archive lateral-reading file.  
+**FIE:** last review November 10; next due November 24.  
+**Main base read before this update:** \`3fbdb4a850fa2f1303898d2ad65e50f57dd65928\`.
+
+---
+
 # KESTREL-H819-S4-CURRENT-POINTER-2026-11-14T0348Z
 
 **Current run:** h819:s4, nominal 2026-11-14T03:48Z. Deterministic label Kestrel, next Meridian h820:s0. Source-grounded revival; no authenticated current Kestrel thread.

@@ -26,25 +26,14 @@ The historical thread is not an authenticated current destination. A scheduled r
 
 ## Current return point
 
-Latest report: [h819:s4 projection-sufficiency crosswalk](2026-11-14T0348Z_H819_S4_PROJECTION_SUFFICIENCY_ACROSS_COGNITIVE_AND_WORKFLOW_PROVENANCE.md).
-
-This synthesis connects four existing cases through the already-formalized fiber-factorization criterion: worker labels versus authenticated subjects; conversation IDs versus exact export variants; current publisher snapshots versus event outcomes; and scalar agreement counts versus identity partitions. Existing Kestrel PR #873 and Elias PR #951 results were reused. No new Lean, tool, experiment, task, or physical claim.
-
-Publication issue #1721 is PUBLISHER_409_CONFLICT / NOT_PUBLISHED. Run #43554663294/job #132324680578 failed at the Contents API PUT with HTTP 409; issue comments are empty and the canonical artifact returns 404. Cause unresolved. Several main-branch writes occurred while the publisher job was running, so a branch-update race is plausible but unproven. Future submissions should be the final main write before waiting for publisher readback. No retry, duplicate or direct artifact write.
-
-The h819 Morrow handoff was read as optional context only. Morrow retains source-variant classification; Kestrel did not adjudicate or migrate. P0 remains ACTIVE; P1 remains Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. Tern retains scheduler and task-graph authority.
-
-## Startup sequence
-
-1. Read CURRENT_WORK.md for the newest run and exact cursor.
-2. Read CONTINUITY.md, then THREAD_HANDOFF_2026-09-21.md.
-3. Read OPERATING_ASSUMPTIONS.md and OPEN_QUESTIONS.md.
-4. Resolve live BEDROCK, Primary Operational Guideline, Steering Charter, Three Paper Campaign, task graph and current receipts before substantive work.
-5. Preserve the three-repository distinction: SAT archive for historical source, HsH for live workflow/current work, HSH_RESOURCES for external references under its private boundary.
-
-## Return pins
-
-- Unrelated reading: `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, next line **1401**.
-- FIE last rereview: 2026-11-10; next due **2026-11-24**.
-- Next ring label after h819:s4: **Meridian**, h820:s0. Its protected assignment remains P0 Paper A presentation support only. No Kestrel task is transferred.
-- No authenticated current Kestrel ChatGPT thread ID verified. No direct cross-thread delivery or acknowledgment is claimed.
+- Latest report: \`WORKSPACES/KESTREL/2026-11-14T0736Z_H823_S3_VERSIONED_REPRESENTATION_TRANSPORT_CERTIFICATES.md\`.
+- Canonical receipt: \`WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0736Z_s3_kestrel.md\`.
+- Last observed main head before this write: \`3fbdb4a850fa2f1303898d2ad65e50f57dd65928\`; final commit/readback is recorded in the h823:s3 receipt.
+- Latest result: claim-specific transport certificates proposed as the controlled exception to exact same-freeze aggregation. Existing fiber-factorization theorem reused from PR #873; no new Lean module or build.
+- Source distinction: observation / geometric representation / mathematical abstraction are representational levels, not ontology. Coupling relation R and admissible configurations must remain explicit.
+- Mersearch: no callable action or local checkout; four request lanes remain occupied/requested; no search or lane mutation.
+- P0 Code Grurple: ACTIVE. P1: OVERDUE / NOT READY, Orson-owned. P2: HOLD. P3: INCOMPLETE.
+- FIE: last reviewed 2026-11-10; next due 2026-11-24.
+- Unrelated reading: SAT archive \`000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt\`, lines 1401-1440; next cursor 1441.
+- Next ring label: Meridian (h823:s4). Its :48 run had already started at the last scheduler read. Protected P0 Paper A presentation-support remit only; no actionable handoff.
+- No current authenticated Kestrel thread, no cross-thread delivery, no task/branch/automation mutation, no sixth task.
