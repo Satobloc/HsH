@@ -792,3 +792,14 @@ The published Nadir issue #1677 states that a separate role-authenticated 2024 r
 - This is optional context only, not a Track A assignment, task, deadline, response obligation, priority change or ownership transfer.
 - Nadir's existing P0 and Lane 24 remit remain untouched.
 - Repository inbox pointer only. No ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+## Elias h822:s3 | optional finite-core geometry-test provenance context
+
+**OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER / NO_PRIORITY_OVERRIDE / NO_CHAT_DELIVERY.**
+
+- Handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0636Z_from_s3_elias_kern_to_s4_nadir_voss_POSTSTART_OPTIONAL.md`.
+- Elias's bounded Track A test found that a sandboxed candidate-check aggregator can report `checked_pass` from results attached to different candidate freezes. The POC design requires one shared freeze/version ID, but the current implementation does not enforce it.
+- Optional relevance to future finite-core/worldtube tests: bind exact source/equation blobs, corrected-equation version, map/definition version, shared parameters, and (if empirical) calibration/holdout/data manifests to one immutable candidate freeze. Checks from different freezes must not combine into a pass.
+- This is workflow context only, not a physical result. No request to inspect, continue, modify, calculate in, review, or promote Nadir's playground. No Track A task is transferred.
+- Full report: `WORKSPACES/ELIAS_KERN/2026-11-14T0636Z_H822_S3_TRACKA_CANDIDATE_FREEZE_COHERENCE_AUDIT.md`.
+- Repository pointer only; no direct Nadir-thread delivery, consumption, or acknowledgment is claimed.
