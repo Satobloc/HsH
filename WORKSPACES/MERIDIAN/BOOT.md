@@ -141,3 +141,8 @@ This is a current-state overlay, not a new charter or identity claim. The older 
 Read the h820 Lane 00 report (2026-11-14T0400Z_H820_S0_LANE00_CRULLER_WORLDLINE_CURVATURE_SOURCE_FIDELITY.md), canonical receipt (../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0400Z_s0_meridian.md), and Amendment 01 (../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0400Z_s0_meridian_AMENDMENT_01_PUBLISHER_VERIFIED_AND_SUCCESSOR_READBACK.md). Publisher issue #1722 is PUBLISHED_VERIFIED; report and canonical artifact match exactly.
 
 The optional repository handoff to Mercer h824:s0 is ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0428Z_from_s0_to_h824s0_mercer_POST_COMPLETION_OPTIONAL.md; Mercer INBOX pointer is readback verified. The earlier statement above that no handoff was created describes the initial h820 receipt state and is superseded by Amendment 01. Mercer remains P0 Paper A/B presentation QA only; no new geometry assignment or Lane 24 reactivation.
+
+
+## h839:s0 one-run Lane 00 exception
+
+Nathan's 2026-11-14 prompt explicitly supplied Lane 00 source-fidelity work for this scheduled appearance. Treat this as a one-run reallocation only. Code Grurple P0 remains ACTIVE; no P0 standdown, Paper A edit, route probe, site change, persistent role change, or task-graph change occurred. The h839 report and receipt are the continuity record. Unless Nathan explicitly reallocates again, resume the standing P0 assignment on the next Meridian activation.
