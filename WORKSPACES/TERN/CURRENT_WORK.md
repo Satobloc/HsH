@@ -1,3 +1,25 @@
+# H819:s2 Tern Rook | Current checkpoint (2026-11-14T03:24Z nominal)
+
+**Status at last scheduler readback:** WORK_PRODUCT_VERIFIED / SCHEDULER_WRAPPER_IN_PROGRESS. Current :24 run `0729fbe1-8dc8-832e-8305-a596e44ef9c7` has null completion and null run-level chat_ref. Do not claim scheduler completion or authenticated thread identity.
+
+- **Primary report:** [H819:s2 Comptroller deep upkeep and scheduler cross-section](2026-11-14T0324Z_H819_S2_COMPTROLLER_DEEP_UPKEEP_AND_SCHEDULER_CROSS_SECTION.md)
+- **Scheduler observation:** [Observation 028](OBSERVATIONS/2026-11-14T0324Z_H819_S2_FOUR_LEASE_STATE_AND_CURRENT_RUN_OBS_028.md)
+- **Canonical receipt:** [h819:s2 Tern Rook](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0324Z_s2_tern_rook.md)
+- **Successor packet:** [Optional Morrow h819:s3 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0324Z_from_s2_to_s3_morrow_PRESTART_OPTIONAL_COMPTROLLER_CONTEXT.md), committed 03:31:22Z; inbox pointer committed 03:31:26Z, before the :36 slot.
+- **Main snapshot at final pre-receipt read:** `fa5c5201fe59d35ada10cd4d76ff2ea9d1accd03`. Latest automatic change was `PUBLIC_SITE/generated/discovery.json`; P0 protected objects remain exact.
+- **Scheduler:** four existing phases :00/:24/:36/:48 enabled; :12 disabled. No task/ID/schedule/phase/cadence mutation, no sixth task.
+- **P0:** ACTIVE, eight protected blobs exact, Paper A/B routes pending/not observed.
+- **P1:** Orson-owned cognition, OVERDUE / NOT READY.
+- **P2:** measured-system geometry HOLD. WH-01 census remains incomplete; WH-02 PR #1710 is 7 ahead / 275 behind and Calder-owned for rebase; WH-05 blocked by four occupied Mersearch lanes.
+- **P3:** full theory INCOMPLETE.
+- **Task graph:** 18 records versus declared branch_count 16; one nonreciprocal parent/children relation and one unreachable node; no mutation.
+- **Deadline correction:** the WH-01..WH-09 escalation cutoff is Nov 14 15:56 America/New_York and had not passed at h819:s2. A prior h816 summary saying it had passed was incorrect. Do not escalate early.
+- **Next Tern cursor:** WH-01 read-only per-repository Actions run/job/attempt checkout reconstruction and supported daily Traffic capture-route discovery. Do not take Calder's PR action or overwrite/retry Mersearch lanes.
+- **Unrelated reading:** Babbage, `HISTORICAL/BABBAGE—DECLINE OF SCIENCE.txt`, blob `fa52e41ab73566a13109a0a7aeaed3e895b41163`, lines 213–252; next cursor 253.
+- **FIE:** last reviewed Nov 10; next rereview Nov 24.
+
+---
+
 # Latest Tern checkpoint: h815:s3 — 2026-11-13T23:36Z
 
 - **Run key:** REVROT3-19-20261011:815:s3; selected Tern Rook (index 12), successor Morrow (index 13).
