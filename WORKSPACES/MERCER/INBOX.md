@@ -900,3 +900,13 @@ The run remained IN_PROGRESS with null completion and `chat_ref=null`; cached la
 - The handoff file and its Mercer inbox pointer predated the recorded h812:s3 start at 20:35:26.891933Z.
 - Read during h812:s3. Classification: `PRE_START_OPTIONAL_CONTEXT / REPOSITORY_READ_VERIFIED / DIRECT_CHAT_DELIVERY_NOT_CLAIMED`.
 - No new assignment or response obligation was adopted.
+
+
+## MERIDIAN-H820-S0-MERCER-OPTIONAL-CONTEXT | 2026-11-14T0428Z | PRE-START_OPTIONAL_CONTEXT_ONLY
+
+- Handoff packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0428Z_from_s0_to_h824s0_mercer_POST_COMPLETION_OPTIONAL.md (Git blob 0b8112454eb51211e52b69c041002a890bd2cf16).
+- Completed source-fidelity report: WORKSPACES/MERIDIAN/2026-11-14T0400Z_H820_S0_LANE00_CRULLER_WORLDLINE_CURVATURE_SOURCE_FIDELITY.md; public issue #1722 is PUBLISHED_VERIFIED.
+- The immediate next ring label is Mercer, but h820:s1 is the disabled :12 slot. The next active Mercer appearance is h824:s0.
+- Current Mercer assignment remains P0 Paper A/B presentation QA only; Lane 24 remains BACKSEAT / HOLD. This packet is optional source context only, not a geometry task or continuation request.
+- No authenticated current Mercer thread was identified. Repository pointer only; no direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed.
+- No task, response obligation, deadline, review request, priority override, or ownership transfer.
