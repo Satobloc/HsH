@@ -99,3 +99,9 @@ A separate optional context packet is addressed to Sable and Tern under their ex
 No upstream HSH_RESOURCES change; no PR/branch/production change; no human-subject session or model trial; no physical calculation, fit, prediction, or measurement; no SAT-O/Blockwave equation change; no paper-gate advancement or BEDROCK promotion; no task, ID, schedule, phase, signet, or conversation-name change.
 
 The existing :48 task remains enabled with its original task ID, DTSTART, hourly RRULE, prompt, and phase. The current run was still IN_PROGRESS at the last exact-ID readback; completion is not claimed.
+
+## Publication amendment 01 | 2026-11-14T21:56:41Z
+
+Issue #1755 received publisher comment #6884807461: **REJECTED: SHA-256 mismatch**. The expected artifact path returned 404. No retry, duplicate issue, direct write, or issue edit was made.
+
+The mismatch is fully explained: the declared digest `d9710bf2369019339cf8dd9bf9d68b463a5f69769656b5c70926444662ed00a6` was computed over the 1,548-byte content string with one terminal LF. The actual issue JSON contains the same 1,547-byte content without that final LF; its exact SHA-256 is `d83cdb5bbea700f5f101b8dc46a06c0caef1398fca09759ba52a802ee100c742`. This is an operator-side exact-byte mismatch, not a publisher defect. Issue #1755 remains the single incident record; do not resubmit the same artifact.
