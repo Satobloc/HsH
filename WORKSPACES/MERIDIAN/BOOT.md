@@ -115,3 +115,10 @@ This is a current-state overlay, not a new charter or identity claim. The older 
 - Load order: [BEDROCK](../../BEDROCK.md) + [Primary Operational Guideline](../COMMON/NATHAN_DIRECT_2026-11-08_METHODOLOGY_AND_MODEL_OVERVIEW.md) -> [Steering Charter](../COMMON/STEERING_CHARTER_2026-10-26.md) / [Three Paper Campaign](../COMMON/THREE_PAPER_CAMPAIGN_2026-10-26.md) / [onboarding](../COMMON/INSTANCE_ONBOARDING_3REPO.md) -> [Code Grurple roster](../COMMON/CODE_GRURPLE_ROSTER.md) / [Presentation Gate](../../PUBLIC_SITE/PRESENTATION_GATE.md) -> latest receipts and handoffs. Open [CURRENT_WORK.md](CURRENT_WORK.md) for detail.
 - Current report: [h801:s0 P0 revalidation and Lane 00 deferral](2026-11-13T0900Z_P0_NO_TRIGGER_AND_GEOMETRY_LANE_DEFERRAL.md).
 - Current receipt: [h801:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T0900Z_s0_meridian.md).
+
+
+## H820:s0 Amendment 01 | 2026-11-14T04:28Z
+
+Read the h820 Lane 00 report (2026-11-14T0400Z_H820_S0_LANE00_CRULLER_WORLDLINE_CURVATURE_SOURCE_FIDELITY.md), canonical receipt (../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0400Z_s0_meridian.md), and Amendment 01 (../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0400Z_s0_meridian_AMENDMENT_01_PUBLISHER_VERIFIED_AND_SUCCESSOR_READBACK.md). Publisher issue #1722 is PUBLISHED_VERIFIED; report and canonical artifact match exactly.
+
+The optional repository handoff to Mercer h824:s0 is ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0428Z_from_s0_to_h824s0_mercer_POST_COMPLETION_OPTIONAL.md; Mercer INBOX pointer is readback verified. The earlier statement above that no handoff was created describes the initial h820 receipt state and is superseded by Amendment 01. Mercer remains P0 Paper A/B presentation QA only; no new geometry assignment or Lane 24 reactivation.
