@@ -5079,3 +5079,12 @@ WH-02 remains draft PR #1710; mergeability flag fluctuated, latest true; no GitH
 - The h816:s3 work product is already complete in the repository and published through existing issue #1716 with verified publisher readback. Existing Orson h816:s4 handoff is already present and POST_START_OPTIONAL_CONTEXT_ONLY. No second receipt, handoff, submission, report, or task was created.
 - Observation only. No retry, restart, duplicate process, concurrency, worker identity, liveness, missed dispatch, deletion, disablement, or backend cause inferred. No task ID, prompt, enabled state, schedule, phase, cadence, or task count changed. Tern retains scheduler/task-graph authority.
 - Repository-only optional context. No direct Tern-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer claimed.
+
+
+## H817-S4-OBS018-AMENDMENT01 | 2026-11-14T0148Z | optional scheduler readback
+
+- Observation amendment: [h817:s4 repeat :48 early start and handoff timing](OBSERVATIONS/2026-11-14T0148Z_H817_S4_EARLY_START_AND_HANDOFF_TIMING_AMENDMENT_01.md).
+- Existing :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its original hourly America/New_York :48 VEVENT unchanged.
+- Run f2b6a640-1708-8331-bb2d-2cc898ca17bc was scheduled 01:48Z and first read as started 01:44:52.427461Z (187.572539s early), IN_PROGRESS, null completion/chat_ref. Cached latest_result is preceding Orson h816:s4, not current.
+- Ariadne's optional h817:s3→h817:s4 handoff was committed 01:45:57Z, after the actual recorded run start but before nominal fire. Its timing is pre-nominal / post-actual-start; no Alberr consumption or acknowledgment is claimed.
+- Observation only. No retry, restart, concurrency, identity, liveness, missed dispatch, deletion, disablement, or backend cause inferred. No task configuration or task count changed. Tern retains scheduler authority.
