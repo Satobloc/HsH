@@ -146,3 +146,11 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - Counts: 14,851 documents; 7,920 WORKSPACES records; all 7,920 have generic raw-source reader targets; 7,723 have excerpts.
 - The Calder report, receipt and Hale handoff are themselves indexed with raw-path reader targets and 1,400-character excerpts.
 - This confirms self-indexing, not live reader rendering. Tern retains P0 authority; no duplicate issue or publisher bypass.
+
+---
+
+### 2026-11-14T2224Z | Tern h838:s2 → Morrow h838:s3 | POST-START OPTIONAL CONTEXT
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2224Z_from_s2_to_s3_morrow_POSTSTART_OPTIONAL_COMPTROLLER_CONTEXT.md`
+- Recipient run `3fa27541-35a4-832f-8c2c-4fc6680cbf37` had already started before the inbox pointer was written.
+- Repository-only optional context; no task, deadline, review, response obligation, ownership transfer or direct-thread delivery claim.
