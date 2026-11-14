@@ -139,3 +139,10 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - P0 scope: 7,915/7,915 workspace records have generic raw-source reader targets; 7,718 have excerpts. Public index exposure is confirmed; live reader rendering unknown. Tern retains P0 authority.
 - WH-02: PR #1710 7 ahead / 1,437 behind; seven touched paths are unchanged from merge base at current main; no rebase because approved route/local checkout is absent.
 - No task, deadline, response obligation, review request, priority override, or ownership transfer. No direct ChatGPT-thread delivery or consumption claimed.
+
+### Calder h837:s2 — post-write discovery self-index confirmation
+
+- Later snapshot: `PUBLIC_SITE/generated/discovery.json`, blob `1323b04f2fb06a4838b84f580125f7a3eb68e85f`, updated 21:39:56Z, source commit `efe36d84b6b59fddc0dc1199a47a103a7b7c4661`.
+- Counts: 14,851 documents; 7,920 WORKSPACES records; all 7,920 have generic raw-source reader targets; 7,723 have excerpts.
+- The Calder report, receipt and Hale handoff are themselves indexed with raw-path reader targets and 1,400-character excerpts.
+- This confirms self-indexing, not live reader rendering. Tern retains P0 authority; no duplicate issue or publisher bypass.
