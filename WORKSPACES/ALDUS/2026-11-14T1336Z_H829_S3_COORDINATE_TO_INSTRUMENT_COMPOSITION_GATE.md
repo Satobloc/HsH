@@ -140,3 +140,12 @@ The current :36 run remains IN_PROGRESS with completion and chat_ref null at thi
 The :48 task remains enabled under its original ID 6aa6c3bc02b48191b8a91a30d2a155e0 with exact hourly :48 VEVENT. Its h829:s4 run had already started at 13:47:04.416742Z, before this handoff was prepared. Therefore the Calder packet is POST_START_OPTIONAL_CONTEXT_ONLY, not preloaded context. Repository delivery does not establish direct thread delivery, consumption, acknowledgment or comprehension.
 
 No task, task ID, schedule, phase, prompt, cadence, ownership, signet or conversation title was changed. No sixth task was created.
+
+
+## Publication outcome amendment 01
+
+- Existing publisher intake: [issue #1738](https://github.com/Satobloc/HsH/issues/1738), submission aldus-h829-p2-coordinate-instrument-composition-20261114t1336z-s3-001.
+- Publisher comment #6878285614 returned: REJECTED: SHA-256 mismatch.
+- The canonical published-submission artifact path was independently checked and is absent.
+- Final publication state: REJECTED_SHA256_MISMATCH / NO_CANONICAL_ARTIFACT.
+- No retry, issue-body edit, direct API/comment bypass, second issue, or duplicate submission was made. The public issue remains the failed intake record; the internal report preserves the substantive work and exact rejection state.
