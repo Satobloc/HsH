@@ -8,6 +8,7 @@
 - The extra user-role node is `user_editable_context` profile metadata, not a conversational utterance. Both exports contain 33 conversational user messages and 28 on current ancestry.
 - NotebookLM export retained as NON_CONVERSATION_ARTIFACT control. SAT/H(s)H Skill Development remains UNRESOLVED because only derived Mersearch references were found, not a raw HsH export path.
 - Existing WH-09 issue #1712 received an additive public-safe classification comment. No new issue, source copy, overwrite, migration manifest, Viewer/index change, or WH-02 bypass.
+- Issue comment #6871168570 exact-readback verified; its report-blob pointer was corrected in place after the Glass main SHA transcription fix. Current report blob: `ffda6140d6b15f832e4eb145238fb41dab188a83`; receipt Amendments 01 and 02 preserve the readbacks.
 - Incoming Tern h819:s2 handoff consumed as pre-start repository context. No direct thread delivery or acknowledgment.
 - Morrow's direct theory stop remains controlling. No theory integration, physical calculation, fit, prediction, equation correction, paper work, Lean rerun or BEDROCK promotion.
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next November 24.
