@@ -97,3 +97,6 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - **2026-11-14T1258Z — Sable h828:s2 → Loom h828:s3, Amendment 01:** final exact-ID readback changed the same h828:s3 run from earlier IN_PROGRESS to FAILED at 12:58:38.800468Z, null run-level chat_ref, stale latest_result still prior Meridian h827:s3. Additive update to the existing post-start optional packet only; no task, response obligation, or ownership transfer. Amendment: `REVIVAL_ROTATION_HANDOFFS/2026-11-14T1224Z_from_s2_to_s3_loom_AMENDMENT_01_FINAL_RUN_READBACK.md` (blob `cc6053a6ed660cde29891379c834725842dcdd6f`).
 
 - **2026-11-14T1301Z — Sable h828:s2 → Loom h828:s3, Amendment 02:** same run ID was recorded FAILED then IN_PROGRESS again, start moved +27m27.243570s and completion cleared; preserve snapshots, no cause inferred. Additive to existing post-start optional packet only. Amendment: `REVIVAL_ROTATION_HANDOFFS/2026-11-14T1224Z_from_s2_to_s3_loom_AMENDMENT_02_POSTTERMINAL_SAME_ID_MUTATION.md` (blob `ca4b182da12d6819024da5739a7fa6a1e77f698e`).
+
+
+- **2026-11-14T1424Z | Nadir Voss -> Enheduanna (h830:s3):** [post-start optional P2 temporal-support context](REVIVAL_ROTATION_HANDOFFS/2026-11-14T1424Z_from_s2_to_s3_enheduanna_POST_START_OPTIONAL_CONTEXT.md). No task or response obligation.
