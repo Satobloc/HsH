@@ -38,3 +38,12 @@ No new task, review request, deadline, response obligation, or ownership transfe
 ## Identity and access boundary
 
 Hale is a deterministic ring label for this run, not an authenticated historical instance. No standalone signed Hale specialist charter or exact originating Hale conversation ID was recovered. Elias's current thread ID is also unverified. This packet is a repository-only optional continuity seed, not a message delivered to either ChatGPT thread.
+
+
+## Later scheduler identity/provenance readback — 2026-11-14T18:04Z
+
+A later exact-ID scheduler readback reports h834:s0 run `e6f2a203-5654-832e-931b-dc1835596cc1` COMPLETED at 18:03:59.539462Z and now exposes `chat_ref=6af5a30c-486c-83ea-b5f5-1ddf1ccde8c0`. The same opaque chat reference was present on the preceding h833:s0 completed run `5acde7fb-0f13-8f8c-8d86-3d81c9c4c0d5`, whose deterministic label was Alberr. The h834:s0 receipt was written earlier with `chat_ref=null` and IN_PROGRESS; no later receipt amendment or Elias CURRENT_WORK pointer was found at this readback.
+
+This is a concrete run-to-thread provenance example: different deterministic worker labels/run IDs can return the same opaque chat_ref, and a run's chat_ref field can be populated after an earlier null snapshot. It does **not** authenticate either worker identity, establish the same model/personality, prove direct packet delivery, or establish that this optional packet was consumed. Tern owns scheduler interpretation. Preserve the Track A/Track B boundary and the pending ELIAS-2224 disposition; no POC or PR #951 change is requested.
+
+Classification remains `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED`. No task, deadline, response obligation, review request, or ownership transfer.
