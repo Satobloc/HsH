@@ -9,12 +9,12 @@ This is an additive amendment to existing Observation 028. It does not create a 
 
 ## 1. Exact task/run readback
 
-| Phase | Existing task ID | Current run ID | scheduled_for | started_at | Last observed status | completion | chat_ref |
+| Phase | Exact saved VEVENT | Existing task ID | Current run ID | scheduled_for | started_at | Last observed status | completion | chat_ref |
 |---|---|---|---|---|---|---|---|
-| :00 | `6aa1fe0de5e48191b886496095b1343f` | `9432954e-b5a0-832b-829d-9cf39cfb1d06` | 23:00:00Z (h839:s0, Meridian) | 22:58:26.832036Z | IN_PROGRESS | null | null |
-| :24 | `6abda4c8eda88191bf23a6f2849e9a17` | `693d4936-11c0-8327-8a5d-5fc64dcebcde` | 22:24:00Z (h838:s2, Tern) | 22:52:27.847356Z | IN_PROGRESS | null | null |
-| :36 | `6a9f52b69ec08191b0a2ba24a074f781` | `3fa27541-35a4-832f-8c2c-4fc6680cbf37` | 22:36:00Z (h838:s3, Morrow) | 22:44:09.201994Z | IN_PROGRESS | null | null |
-| :48 | `6aa6c3bc02b48191b8a91a30d2a155e0` | `39b63af1-78d8-832c-9787-e8e095d5cb61` | 22:48:00Z (h838:s4, Kestrel) | 22:52:00.249481Z | IN_PROGRESS | null | null |
+| :00 | `DTSTART;TZID=America/New_York:20261001T140000; RRULE:FREQ=HOURLY` | `6aa1fe0de5e48191b886496095b1343f` | `9432954e-b5a0-832b-829d-9cf39cfb1d06` | 23:00:00Z (h839:s0, Meridian) | 22:58:26.832036Z | IN_PROGRESS | null | null |
+| :24 | `DTSTART;TZID=America/New_York:20261001T142400; RRULE:FREQ=HOURLY` | `6abda4c8eda88191bf23a6f2849e9a17` | `693d4936-11c0-8327-8a5d-5fc64dcebcde` | 22:24:00Z (h838:s2, Tern) | 22:52:27.847356Z | IN_PROGRESS | null | null |
+| :36 | `DTSTART;TZID=America/New_York:20261001T143600; RRULE:FREQ=HOURLY` | `6a9f52b69ec08191b0a2ba24a074f781` | `3fa27541-35a4-832f-8c2c-4fc6680cbf37` | 22:36:00Z (h838:s3, Morrow) | 22:44:09.201994Z | IN_PROGRESS | null | null |
+| :48 | `DTSTART;TZID=America/New_York:20261001T144800; RRULE:FREQ=HOURLY` | `6aa6c3bc02b48191b8a91a30d2a155e0` | `39b63af1-78d8-832c-9787-e8e095d5cb61` | 22:48:00Z (h838:s4, Kestrel) | 22:52:00.249481Z | IN_PROGRESS | null | null |
 
 The distinct prior :00 h838:s0 Nadir run `b6050f4c-ea04-8320-b54b-6672fde04330` has a completed latest result at 22:40:53.622692Z. It is not the current :00 h839 run.
 
