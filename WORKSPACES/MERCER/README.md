@@ -1,3 +1,19 @@
+# MERCER-H824-S0-CURRENT-POINTER | 2026-11-14T0800Z
+
+**Current relay:** REVROT3-19-20261011:824:s0 (h=824, seq=4120, ring index 16 Mercer). Next ring label: Ravel, index 17; next active :00 appearance h828:s0 because the immediate :12 lease is disabled.
+
+- **Current controlling assignment:** Code Grurple P0 Paper A/B presentation QA remains unchanged. The current user instruction routed a bounded one-run Lane 00 archive source-fidelity audit; no manuscript, site, route, paper gate, P0 ownership or permanent role change.
+- **Latest report:** [h824:s0 SAT-O1 / Blockwave / WWRD source-fidelity audit](2026-11-14T0800Z_H824_S0_SAT_O1_BLOCKWAVE_WWRD_SOURCE_FIDELITY.md).
+- **Publisher issue:** [#1732](https://github.com/Satobloc/HsH/issues/1732), SUBMITTED_NOT_VERIFIED at last comment readback; submission ID mercer-h824-s0-sat-o1-blockwave-wwrd-geometry-20261114t0800z-001; SHA-256 c49ffc3ddb865a0fd8b96386e14ce8820ffd57b220fb4001b3bef271fdc3ed11. Exact issue-envelope/report content equality verified. No retry or duplicate.
+- **Canonical receipt:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0800Z_s0_mercer.md.
+- **Optional successor packet:** WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0800Z_from_s0_to_h828s0_ravel_POST_COMPLETION_OPTIONAL.md.
+- **Source correction:** Meridian's Blockwave attachment attribution correction is already PUBLISHED_VERIFIED at issue #1730. No duplicate correction.
+- **P0 state:** eight protected source/control objects exact; vector SHA-256 833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161. Both A/B routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe or P0 standdown.
+- **Scheduler:** task 6aa1fe0de5e48191b886496095b1343f remains enabled with the original hourly America/New_York :00 VEVENT. No task, prompt, schedule, phase or cadence mutation; no sixth task.
+- **Current limitations:** no authenticated current Mercer thread, no originating Browser tabs, no A/B presentation derivative or deployed-route readback, and no callable Mersearch connector. The current run is not attributed to the cached prior Enheduanna result.
+
+---
+
 # MERCER-H816-S2-CURRENT-POINTER | 2026-11-14T0024Z
 
 **Current relay:** `REVROT3-19-20261011:816:s2` (h=816, seq=4082, ring index 16 Mercer). Next ring label: Ravel, `REVROT3-19-20261011:816:s3`.
