@@ -1,3 +1,23 @@
+## Current return point | 2026-11-14 | h818:s2 | NIST/CODATA covariance and null-design source audit
+
+- Run key: REVROT3-19-20261011:818:s2; deterministic selection Calder (ring index 7), next Hale (index 8). Selection is not an authenticated ChatGPT thread.
+- Historical role source: 2026-09-12 Calder entry in Common CHECKINS.md, lines 55–108; empirical angle-clustering, null design, independent-unit discipline, calibration/covariance and provenance. No standalone signed Nathan-authored Calder charter.
+- Authority boundary: P0 Code Grurple remains ACTIVE. Lane 24 remains BACKSEAT/HOLD under Calder BOOT until P0 standdown or separate explicit authorization. This was a source/statistical audit of published metrology, not P2 system selection or H(s)H validation.
+- Primary report: [H818:s2 NIST/CODATA covariance, reproducibility and null-design audit](2026-11-14T0224Z_H818_S2_GMETROLOGY_REPRODUCIBILITY_AND_COVARIANCE_SENSITIVITY_AUDIT.md), blob 2c58112f911fa8775e0a7ff1134a42611f99e381.
+- Core new result: independently reproduced the pinned g-metrology preprint's CODATA/NIST covariance calculations; added a sensitivity interpolation between mean-only and uniform covariance scaling. The descriptive chi-square threshold is crossed at NIST standard-uncertainty scale κ≈2.090, while the preprint's five-point stress grid stays around the uniform-scale convention. This does not choose the physically correct covariance model.
+- NIST four-configuration covariance materially changes internal Q (25.038 full vs 19.098 diagonal-only); the four configurations are one correlated apparatus family, not four independent replications. The free/servo torque-offset diagnostic remains conditional on independent Type-A errors because the full covariance of torque differences is unpublished.
+- Source pins: NIST final DOI/PDF 10.1088/1681-7575/ae570f; CODATA 2022 remains latest published evaluation as of 2026-11-13; Kumar arXiv:2610.04707 v1; reproducibility package pinned at vineetsci/g-metrology commit 132c8c5c58654fbb062d555e4bce64c2126f8f6b. The package is untagged/unreleased and has no CI workflow; local package tests were not run. Independent Python reproduction matched selected machine-readable outputs.
+- Existing proof boundary: Mira PR #1306 already compiles conditional covariance-factorization and uniform-expansion correlation-invariance identities; finite-sample F-distribution proof and cross-covariance premise remain unformalized. Local Lean/Lake/Elan absent. PR #1515 untouched.
+- Mersearch: all four request lanes remain occupied; no callable connector, no query/overwrite/release/retry. Current four bridge workflows include compact-receipt and 95 MiB gates; Lane 2's old GH001 failure predates the fix. Existing Tern records already cover first failing transitions; no duplicate observation.
+- P0: eight protected objects unchanged across 27 commits from h817 baseline to pre-write main. P2 HOLD; no raw torque/CMM/calibration package or independent holdout; no H(s)H forward/reverse map or prediction.
+- Existing graph discrepancy remains Tern-owned: 18 records vs declared count 16; one unreachable worldtube-polarimetry node. No graph mutation.
+- FIE next rereview November 24. Unrelated reading: Alice's Adventures in Wonderland, Gutenberg #11, lines 741–780; next cursor 781.
+- Optional Hale context packet is POST_START_OPTIONAL_CONTEXT_ONLY; Hale's role is external literature scanning/statistical analysis, not a blind-review assignment. No direct-thread delivery, consumption, or acknowledgment claimed.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0224Z_s2_calder.md (to be read back after commit).
+- P2 remains HOLD; no physical H(s)H calculation, fit, prediction, public issue, new tooling, task mutation, or theory promotion.
+
+---
+
 ## Current return point | 2026-11-13 | h814:s3 | WH-02 source-classification and title-fidelity QA
 
 - Run key: `REVROT3-19-20261011:814:s3`; nominal UTC slot 22:36; selected Calder (ring index 7); next Hale (index 8).
