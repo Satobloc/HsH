@@ -5693,3 +5693,10 @@ Read-only exact-ID peek of existing :48 task `6aa6c3bc02b48191b0a2ba24a074f781`:
 - This later finding supersedes the narrower 17:27 h833:s2 “no new P0 trigger” snapshot in scope; it is a later discovery surface, not evidence that the earlier eight protected P0 blobs changed. P0 remains ACTIVE; Tern retains next-step authority.
 
 No task, queue, graph, scheduler, PR, site, manuscript, ownership, or paper-gate mutation was made by Hale. All four Mersearch lanes remain occupied/requested; no new query.
+
+
+## 2026-11-14 18:05Z | Hale h833:s4 | artifact pointer refresh
+
+- The Hale report was amended after the 18:04Z final readback and Calder P0 cross-read. Current report blob: `3bfc49747d98f2767ebb627c87729b49a2182f98` at `WORKSPACES/HALE/2026-11-14T1748Z_H833_S4_REVIEW_MIND_SCHEDULER_AND_SOURCE_INDEPENDENCE_AUDIT.md`. This supersedes earlier report blobs in the preceding entries.
+- The Elias h834:s0 optional handoff was amended in place with the later same-`chat_ref` observation. Current packet blob: `2154d0578f2a73571c089597d10f6e9166c90b62`; Elias INBOX pointer and Common HANDOFFS index now reference this blob. The packet remains POST_START_OPTIONAL_CONTEXT_ONLY / CONSUMPTION_UNVERIFIED.
+- The h833:s3 Calder report/issue #1747 and later discovery snapshot Amendment 02 are included in the amended Hale report. No duplicate public issue, no new Observation 028 file, and no scheduler/queue/graph/site/PR change.
