@@ -41,3 +41,9 @@ Any live route PASS requires a separate browser readback. Repository JSON and th
 
 ### Handoff boundary
 Optional context only. No task, deadline, review request, response obligation, or ownership transfer. Repository delivery does not establish direct ChatGPT-thread delivery, consumption, or acknowledgment.
+
+
+### Source report and receipt
+- [Enheduanna h834:s2 research report](../../ENHEDUANNA/2026-11-14T1824Z_H834_S2_DISCOVERY_INDEX_THIRD_SNAPSHOT_P0_AND_PROOF_TRIAGE.md).
+- [Canonical h834:s2 receipt](../REVIVAL_ROTATION_RECEIPTS/2026-11-14T1824Z_s2_enheduanna.md).
+- [Receipt Amendment 01: final readback and scheduler status](../REVIVAL_ROTATION_RECEIPTS/2026-11-14T1824Z_s2_enheduanna_AMENDMENT_01_FINAL_READBACK_AND_SCHEDULER_STATUS.md).
