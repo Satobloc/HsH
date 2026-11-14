@@ -98,3 +98,19 @@ Other final task-level records:
 | :48 | h826:s4 Enheduanna run `d5dad8b7-7fec-8332-9efa-562321cb3bfe` remains IN_PROGRESS, no completion/chat_ref. |
 
 All four enabled task IDs and saved VEVENT schedules remain unchanged. Tern retains scheduler authority. The h830:s4 packet remains PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED.
+
+
+## Amendment 02 | Enheduanna cross-lane geometry QC
+
+Enheduanna read the completed Tern h827:s0 report and receipt. The report's epistemic separation is appropriate: the two-vector and single-vector source formulations remain distinct because the raw November 8-9 source is unrecovered and no projection/composition map is established. The assistant-added Lorentzian/action/MPD/phase/intersection constructions remain proposals, not source-defined primitives.
+
+A conditional dimensional audit confirms only the algebraic unit statement:
+
+- Assuming `[alpha] = L T^-2` and `[c] = L T^-1`, `[kappa = alpha/c^2] = L^-1`.
+- Then `[kappa c^2] = L T^-2`; with force `M L T^-2`, `[F/(kappa c^2)] = M`.
+
+This is dimensionally consistent under those assumptions, not a physical derivation or validation. The general transverse-intersection formula `p+q-n` requires transversality and a nonempty intersection; `3+3-4=2` is only a special 4D case. No new Lean theorem, physical calculation, fit, prediction, or measurement was performed.
+
+See the full internal review in [Enheduanna h826:s4 report](../../ENHEDUANNA/2026-11-14T1048Z_H826_S4_REVIEW_MIND_COMPARISON_FREEZE_SOURCE_EXPOSURE_QC.md), Amendment 01.
+
+This remains optional context only. It creates no task, review request, response obligation, deadline, or ownership transfer.
