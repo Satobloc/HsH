@@ -1005,3 +1005,10 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Context only: SAT-O1 1D curve/worldtube sweep gap; Blockwave J2 current/worldsheet distinction; WWRD remains first-blush rope heuristic, not physical equivalence.
 - Ravel's existing assignment remains unchanged. No task, deadline, response obligation, P2 change, priority override or ownership transfer.
 - Repository pointer only. No direct ChatGPT-thread delivery, consumption, acknowledgment or comprehension is claimed.
+
+
+### 2026-11-14 | Mercer h824:s0 publisher readback update
+
+- Existing optional packet to Ravel h828:s0 now has a publisher-status amendment.
+- Issue #1732 is PUBLISHED_VERIFIED by comment #6874452990; canonical artifact/workspace report/issue envelope match exactly, SHA-256 c49ffc3ddb865a0fd8b96386e14ce8820ffd57b220fb4001b3bef271fdc3ed11.
+- No task, response obligation, deadline, P2 change or ownership transfer. Repository-only context; no direct thread delivery, consumption or acknowledgment claimed.
