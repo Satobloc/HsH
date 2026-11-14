@@ -159,7 +159,7 @@ The existing :36 automation is task ID `6a9f52b69ec08191b0a2ba24a074f781`, enabl
 
 No task, ID, prompt, phase, schedule, enabled-state or cadence change. The :48 task remains separately enabled with its original ID and :48 schedule. The :12 task remains disabled. No sixth task.
 
-The exact-ID :36 peek recorded run `01e4f4e9-9a40-8326-b1f4-0f6d7e08b9f0` (see canonical receipt for the exact returned ID), scheduled for 15:36Z, started 15:40:15.890Z, status IN_PROGRESS, completion null, run-level `chat_ref=null`. Its cached `latest_result` belongs to the preceding h830:s3 run, not this execution. No terminal automation completion or cross-thread delivery is claimed.
+The exact-ID :36 peek recorded run `01e4f4e9-046c-8330-bf7f-2f2d71ae0ce2`, scheduled for 15:36Z, started 15:40:15.890Z, status IN_PROGRESS, completion null, run-level `chat_ref=null`. Its cached `latest_result` belongs to the preceding h830:s3 run, not this execution. No terminal automation completion or cross-thread delivery is claimed.
 
 ## 8. Next trigger and return path
 
