@@ -923,4 +923,6 @@ The :24 h814:s2 exact-ID readback gap was transient; a subsequent peek restored 
 
 The packet records a current public discovery-index scope count (7,915 workspace reader targets; 7,718 excerpts), the source-level registry mismatch with live reader rendering still unknown, and a read-only PR #1710 rebase preflight. Tern retains P0/queue authority; Calder did not change site policy, PR code, task graph, or scheduler.
 
+Timing: packet and inbox pointer were committed after the nominal slot. The latest scheduler readback still showed the prior completed run and a stale next-run pointer; actual successor start is unobserved. Treat as POST_NOMINAL_OPTIONAL_CONTEXT / REPOSITORY_ONLY, not prestart delivery.
+
 Optional context only. No task, deadline, response obligation, review request or ownership transfer. No direct ChatGPT-thread delivery, consumption or acknowledgment claimed.
