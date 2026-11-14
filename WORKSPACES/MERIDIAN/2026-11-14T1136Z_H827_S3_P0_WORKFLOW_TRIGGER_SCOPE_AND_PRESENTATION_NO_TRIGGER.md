@@ -12,7 +12,7 @@ The fixed ring calculation is:
 
 `h=827,quad seq=5(827)+3=4138,quad 4138\bmod19=15.`
 
-The selected ring label is Meridian; the next is Mercer.
+The selected ring label is Meridian; the next is Mercer. Mercer remains a generic ring/workspace label here: no surname or current ChatGPT thread identity is asserted.
 
 No authenticated current Meridian ChatGPT thread/title/ID was established. Historical raw-source recovery was completed, but the role label is not instance authentication and no cross-thread delivery is claimed.
 
@@ -164,7 +164,7 @@ The existing :36 automation remains enabled:
 - last peek: IN_PROGRESS; completion null; run-level chat_ref null.
 - Cached latest_result belongs to prior Nadir h826:s3, not current Meridian.
 
-A separate exact-ID :48 peek found the existing :48 task still enabled under ID 6aa6c3bc02b48191b8a91a30d2a155e0 with its original hourly America/New_York :48 VEVENT unchanged. Its h826:s4 run ID d5dad8b7-7fec-8332-9efa-562321cb3bfe retained the same ID while the recorded start moved from 11:17:38.114266Z to 11:47:09.723081Z (+29m31.608815). A later exact-ID peek reported the same run COMPLETED at 11:52:52.011851Z, with run-level chat_ref 6af7619b-1d50-83e9-a583-9dd68f95db3c. The latest_result text was created 1.265725s before wrapper completion and still said IN_PROGRESS; preserve it as a stale pre-completion snapshot. The next_run_time advanced to 12:48Z, and no h827:s4 run ID surfaced in that peek.
+A separate exact-ID :48 peek found the existing :48 task still enabled under ID 6aa6c3bc02b48191b8a91a30d2a155e0 with its original hourly America/New_York :48 VEVENT unchanged. Its h826:s4 run ID d5dad8b7-7fec-8332-9efa-562321cb3bfe retained the same ID while the recorded start moved from 11:17:38.114266Z to 11:47:09.723081Z (+29m31.608815). A later exact-ID peek reported the same run COMPLETED at 11:52:52.011851Z, with run-level chat_ref 6af7619b-1d50-83e9-a583-9dd68f95db3c. The latest_result text was created 1.265725s before wrapper completion and still said IN_PROGRESS; preserve it as a stale pre-completion snapshot. The next_run_time advanced to 12:48Z, and no h827:s4 run ID surfaced in that peek. The outgoing handoff is therefore optional context for the next ring label, not a claim that a scheduled Mercer run is active.
 
 Both same-run snapshots were appended to Tern's existing inbox for Observation 028 only; no new observation or Tern-owned record was created:
 
