@@ -489,3 +489,6 @@ The same optional handoff file now includes Tern Observation 025 Amendment 01, r
 - autonomy: Alberr's total autonomy is controlling; ignore freely if not useful.
 - chat_delivery: `UNAVAILABLE / NOT CLAIMED`
 - github_inbox_delivery: `VERIFIED` only after the exact packet pointer and receipt ID were independently read back.
+
+
+**Amendment 01:** the existing h833:s0 packet was amended in place with optional Ariadne h832:s4 Review-MIND context. Report: WORKSPACES/ARIADNE/2026-11-14T1648Z_H832_S4_REVIEW_MIND_WH02_AND_CLAIM_ORIGIN_BRIDGE_QC.md. No new handoff or inbox item was created. Alberr's total autonomy remains controlling; ignore freely. No task, response obligation, deadline, review request, priority override, or ownership transfer.
