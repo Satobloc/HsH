@@ -779,3 +779,20 @@ The candidate freeze must bind source artifacts, representation nodes, the sourc
 
 No actual H(s)H map, physical system, dataset, fit, prediction, independent measurement, P2 selection, equation edit, theory promotion, or paper-gate advancement was made. No PR or task was changed.
 
+
+
+## 2026-11-14T1124Z | h827:s2 P0/P2 transport crosswalk
+
+This checkpoint applies the existing claim-specific transport/fiber-compatibility architecture across two project boundaries without treating them as physically equivalent.
+
+**P0:** accepted manuscript identity, renderer/build inputs, derivative, deployment, reader route, and observed reader content are separate versioned stages. The pinned R1 blob proves source identity only; it does not prove faithful rendering or live route acceptance. Code Grurple remains ACTIVE, and no route probe or Sites edit was made.
+
+**P2:** physical state/history, instrument/calibration, measured dataset, processed observable, reconstructed geometry, and H(s)H claim are separate maps. Existing candidates in #1339, #1665, #1684, #1662, #1726, #1096/#1462, and #1243 already cover the principal 3D finite-core, synchronized surface/flow, finite-wall contact, rotation, He-II, rope-contact, and inspiral paths. The present run adds no new candidate or public issue. P2 remains HOLD.
+
+**Formal boundary:** existing PR #873 theorem `hallway_factorization_iff_fiber_compatibility` supplies the conditional criterion for a deterministic downstream claim to factor through an upstream readout. PR-associated run #43202552666 built the target on an older merge reference; current-main integration remains unverified. The theorem does not establish rendering fidelity, physical injectivity, calibration, or H(s)H truth. No new theorem or Lean run.
+
+**Data boundary:** 3D LPT/4D-PTV candidates improve spatial observability relative to planar PIV, but processed tracks, calibration, covariance, and raw synchronized records remain request-only or unavailable in the cited candidate records. The finite-wall PIV paper is open access but its quantitative data are 2D2C. The existing candidate owners retain acquisition decisions; no author request was sent.
+
+**Maintenance:** no Mersearch lane or task configuration was changed; HSH_RESOURCES private payload was not opened; no SAT-O/Blockwave equation was edited; no CODATA comparison or physical calculation was performed. Unrelated reading advanced to `fun break - lx.txt` lines 1441–1480, next cursor 1481. FIE next review 2026-11-24.
+
+**Successor:** optional context for Meridian h827:s3 is recorded in `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1124Z_from_s2_to_s3_meridian_OPTIONAL_P0_P2_TRANSPORT_CONTEXT.md`. No task, review request, deadline, response obligation, ownership transfer, or direct-thread delivery is implied.
