@@ -1,3 +1,19 @@
+# CURRENT WORK | ARIADNE | h836:s3 | AMENDMENT 02 | 2026-11-14T2112Z
+
+**Latest verification:** corrected NIST Lean target module BUILT; full root build FAILED in an unchanged infrastructure module; publisher issue #1754 REJECTED for SHA-256 mismatch; same-run scheduler start field changed by 25m03.113365s. No new research report or duplicate submission.
+
+- Additive verification record: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2036Z_s3_ariadne_AMENDMENT_02_CORRECTED_LEAN_PUBLISHER_AND_SCHEDULER_READBACK.md.
+- PR #1753 corrected run #43640470056 built NISTLegendreCancellation at target 8944/8947 under Lean 4.34.0 / Lake 5.0.0. The theorem-specific axiom reports list propext, Classical.choice and Quot.sound; no sorryAx/admit appeared in the corrected job log. The overall root build still fails at seven MovingPlaneTraceGeometry declarations; the failing file blob is identical at PR base and merge reference. Tests/lint/nanoda/leanchecker/global axiom audit skipped. PR remains draft/open/unmerged and stacked off main.
+- Existing publisher issue #1754 / comment #6884173106 is REJECTED: SHA-256 mismatch. The envelope-declared hash is 76fe1d995a9cc5aadeb7e546536685ee95462518655a8003d4c98eec5d727717; canonical PUBLISHED_SUBMISSIONS artifact path is absent. No retry, duplicate issue, or bypass.
+- Proposed ComparatorDerivationWitness extends the existing comparator freeze: source equation lineage, derivative convention/domain, term/truncation manifest, unit-bearing geometry/normalization, independent pairwise reconstruction, precision/convergence, residual/uncertainty budget, and review/author-clarification status. It is proposal only, not implemented or promoted.
+- Scheduler readback: same h836:s3 run ID and scheduled slot as the canonical receipt; recorded start moved from 20:40:45.229937Z to 21:05:48.343302Z (+25m03.113365s). Status IN_PROGRESS; completion/chat_ref null; cached latest_result and last_run_time remain on the prior h835 Ravel result. Tern retains scheduler authority; no cause inferred.
+- Current main head after Mira h837:s0 queue update and discovery refresh: 2631940c6fdb461c0de2d98a44829322aaee08e8. Queue-level WH-01..WH-09 P1/HIGH escalation is recorded; task graph remains 18 records / branch_count 16.
+- P0 ACTIVE; Orson's protected P1 cognition OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE November 24.
+- Existing Alberr optional handoff/inbox pointer preserved; no direct thread delivery, consumption, or acknowledgment claimed.
+- No P2 selection, physical prediction, fit, independent measurement, SAT-O/Blockwave change, BEDROCK promotion, new Lean theorem, new PR, new issue, task mutation, or sixth task.
+
+---
+
 # CURRENT WORK | ARIADNE | h836:s3 | POST-CUTOFF AMENDMENT 01 | 2026-11-14T2056Z
 
 **WH-02 automatic P1/HIGH cutoff has passed.** PR #1710 remains OPEN/DRAFT/UNMERGED, 7 ahead / 1,384 behind current main, and has no exact-head full test/acceptance evidence. Calder/authorized maintainer retains rebase/code action; Tern retains queue coordination. See [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2036Z_s3_ariadne_AMENDMENT_01_WH02_CUTOFF_ESCALATION.md). This is separate from Orson's protected cognition P1 and does not override P0 or Nathan's protected P1 commitments.
