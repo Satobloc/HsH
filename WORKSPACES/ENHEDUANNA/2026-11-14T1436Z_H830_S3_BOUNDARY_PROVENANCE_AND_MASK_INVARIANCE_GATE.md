@@ -143,7 +143,7 @@ The :48 run had already started in the scheduler record by the time this handoff
 
 ## 8. Publication
 
-A distinct public-safe artifact was submitted through the existing issue publisher as submission enheduanna-boundary-provenance-mask-invariance-20261114t1436z-s3-001. Initial status: SUBMITTED_NOT_VERIFIED. The canonical receipt and a later publisher-readback amendment record the final result.
+A distinct public-safe artifact was submitted through the existing issue publisher as submission enheduanna-boundary-provenance-mask-invariance-20261114t1436z-s3-001, issue #1741, workflow run #43607445915. The publisher was still at checkout when this report was updated, so status remains SUBMITTED_NOT_VERIFIED. The canonical receipt records this initial state; any publisher-readback amendment will be added only after independent readback.
 
 The public artifact contains no private HSH_RESOURCES payload or personal Library content. No direct issue-body or manual published-file bypass was used.
 
