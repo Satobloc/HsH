@@ -148,7 +148,7 @@ No physical calculation, fit, prediction, independent measurement, human-subject
 
 **Automation preservation:** the existing enabled :48 lease remains on its saved hourly schedule, identity, prompt, and phase. The :12 lease remains disabled. No task, ID, schedule, cadence, phase, or enabled-state change; no sixth task, signet, or conversation rename.
 
-**Final classification:** `ASTER_H828_S4 / P0_NO_TRIGGER / 8_OF_8_PROTECTED_BLOBS_EXACT / CROSS_LANE_QC_BOUNDED / PR951_CURRENT_MODULE_NOT_COVERED_BY_OLD_CI / MERSEARCH_LANES_HELD / TASK_GRAPH_UNCHANGED / ORSON_P1_PROTECTED / ARIADNE_POST_START_OPTIONAL_HANDOFF / AUTOMATION_PRESERVED / WRAPPER_IN_PROGRESS`.
+**Final classification:** `ASTER_H828_S4 / P0_NO_TRIGGER / 8_OF_8_PROTECTED_BLOBS_EXACT / CROSS_LANE_QC_BOUNDED / PR951_CURRENT_MODULE_NOT_COVERED_BY_OLD_CI / MERSEARCH_LANES_HELD / TASK_GRAPH_UNCHANGED / ORSON_P1_PROTECTED / ARIADNE_POST_START_OPTIONAL_HANDOFF / AUTOMATION_PRESERVED / WRAPPER_COMPLETION_UNCONFIRMED / SAME_ID_POST_TERMINAL_STATUS_START_MUTATION`.
 
 
 ## Amendment 01 | 2026-11-14T12:58Z | final scheduler readback
