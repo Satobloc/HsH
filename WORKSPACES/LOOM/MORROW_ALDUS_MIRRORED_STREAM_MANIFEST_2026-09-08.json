@@ -1,0 +1,134 @@
+{
+  "schema": "loom.cross_graph_stream_provenance.v1",
+  "run_key": "REVROT3-19-20261011:824:s4",
+  "source_case_date": "2026-09-08",
+  "classification": "historical cross-graph mirrored response/work-item stream; mechanism unresolved",
+  "source_exports": [
+    {
+      "label": "Morrow later export",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.07•26.09.08•MORROW [Reconstruct H(s)H Synthesis] — raw (3).json",
+      "conversation_id": "6a9ee7ca-d340-83ea-b99d-6a3097429f36",
+      "git_blob_sha1": "362075c5e32ec9e97579bd1de58fba7f612cb6bb",
+      "sha256": "4f79b15eabfa8ba3b15d774fd873c72d91529ec601986a9fb97b9e9a860bc856",
+      "bytes": 1752700,
+      "compared_branch_nodes": 44
+    },
+    {
+      "label": "Aldus later export",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.06•26.09.08•Aldus [AUTO H(s)H Gitter] — raw (2).json",
+      "conversation_id": "6a9dea2e-bb98-83ea-a74f-4beb4baa3153",
+      "git_blob_sha1": "2f5ea91a449446f64d298b50b0c2ef0d8533900a",
+      "sha256": "3bb287674a40c16cf10a134fc7608baf5f4f116af59f0db70184a2f3b794987b",
+      "bytes": 7155846,
+      "compared_branch_nodes": 28
+    },
+    {
+      "label": "Morrow earlier export for exact-output-copy event",
+      "path": "DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_7/26.09.07•26.09.08•MORROW [Reconstruct H(s)H Synthesis] — raw.json",
+      "conversation_id": "6a9ee7ca-d340-83ea-b99d-6a3097429f36",
+      "git_blob_sha1": "342b50c3927c3466783b091234647f338990a113",
+      "sha256": "def05b3fae0e88bcfff2451133711321f9793416b9d8a114913ae1d928fdc38b",
+      "bytes": 375125
+    }
+  ],
+  "prompt_submissions": {
+    "prompt_text": "And in a little more detail, with thinking exposed:",
+    "prompt_length_chars": 53,
+    "prompt_sha256": "a5b5090045f1f3d181f8fe7ecac127fb6b0232e0cf8024df42c8066d67b35a12",
+    "same_prompt_body": true,
+    "elapsed_seconds": 126.935,
+    "morrow": {
+      "message_id": "46c4efd0-7acd-4701-a274-b2ec4d5c0de5",
+      "timestamp_utc": "2026-09-08T11:05:56.296Z",
+      "turn_exchange_id": "9c962fdb-6402-4c57-84c2-e56d7a34ba1a"
+    },
+    "aldus": {
+      "message_id": "6de1c746-6789-4ea5-82c2-47437e64a83e",
+      "timestamp_utc": "2026-09-08T11:08:03.231Z",
+      "turn_exchange_id": "6303afcc-66eb-4427-b4d0-d0e220bbe235"
+    },
+    "attachments": [
+      {
+        "logical_name": "Morrow raw snapshot",
+        "bytes": 403152,
+        "git_blob_sha1": "e32873cd17c1d96003dced0310ebf4d3cd954d07",
+        "byte_identical_across_both_prompt_submissions": true
+      },
+      {
+        "logical_name": "Aldus raw snapshot",
+        "bytes": 6894179,
+        "git_blob_sha1": "e871e710d4634bfed0dc8cf5f6d3eefdf9770e64",
+        "byte_identical_across_both_prompt_submissions": true
+      },
+      {
+        "logical_name": "Pasted text snapshot",
+        "bytes": 12320,
+        "git_blob_sha1": "619b5cd7c25e50d1be6756c18c79516a64ac8ea0",
+        "byte_identical_across_both_prompt_submissions": true
+      }
+    ]
+  },
+  "chronology": {
+    "morrow_first_preamble": {
+      "message_id": "1db3c441-0af5-5b1e-abac-ad217d5ae3ac",
+      "timestamp_utc": "2026-09-08T11:07:30.813981Z"
+    },
+    "morrow_first_command": {
+      "message_id": "e06e6d98-ab50-4cec-ad21-5df097f91f60",
+      "timestamp_utc": "2026-09-08T11:07:46.058779Z"
+    },
+    "morrow_first_result": {
+      "message_id": "53f7536f-f468-482d-8df4-5b08ef0aaf3e",
+      "timestamp_utc": "2026-09-08T11:07:46.165460Z"
+    },
+    "aldus_prompt": "2026-09-08T11:08:03.231Z",
+    "morrow_preamble_precedes_aldus_prompt_seconds": 32.417019,
+    "morrow_command_precedes_aldus_prompt_seconds": 17.172221,
+    "morrow_result_precedes_aldus_prompt_seconds": 17.06554,
+    "second_prompt_attachments_contain_these_later_nodes": false
+  },
+  "ordered_match": {
+    "method": "Longest common subsequence over outer role, content_type and normalized body. Parts/text/code/tool-output bodies compared exactly; thoughts arrays compared exactly. Graph-local source_analysis_msg_id pointers are not treated as body.",
+    "morrow_branch_nodes": 44,
+    "aldus_branch_nodes": 28,
+    "matched_records": 23,
+    "record_types": {
+      "user/text": 1,
+      "assistant/text": 3,
+      "assistant/thoughts": 7,
+      "assistant/code": 6,
+      "tool/execution_output": 6
+    },
+    "shared_work_activity_group_id": "01a080b2-472b-7483-9bff-db4953144c87",
+    "shared_work_item_ids": [
+      "exec-10689270-6bfc-4566-8c86-15c20f2d854a",
+      "exec-21ea2584-97af-493c-b089-9451f1a3470b",
+      "exec-c31e1fe1-e439-462b-ae3f-cbd53b49ab4c",
+      "exec-e751a989-b48d-4972-accb-5e70d17daf2d",
+      "exec-87c0fb50-2d2c-47e5-a106-90e2bb72ece3",
+      "exec-cee3233d-f530-422e-9ea2-2086b5aa5a5d"
+    ],
+    "sequence_manifest_sha256": "4c39dcfe5547a4ca1ce02d8ae7b2ca0bb1554cecdafe3f40aa52edca657c1cd3",
+    "conversation_ids_differ": true,
+    "turn_exchange_ids_differ": true,
+    "model_slug_observed_in_both": "gpt-5.6-sol-wm",
+    "model_slug_is_backend_instance_identity": false
+  },
+  "separate_exact_output_copy": {
+    "aldus_original_message_id": "31d813b1-9797-542e-9568-38f483e0c147",
+    "aldus_timestamp_utc": "2026-09-08T08:42:05.352771Z",
+    "morrow_automation_copy_message_id": "12959526-2797-5c4c-9e5f-4dc23c465a04",
+    "morrow_timestamp_utc": "2026-09-08T08:42:36.612339Z",
+    "automation_id": "6a9deb436bd0819196ab3ec694e294c2",
+    "body_length_chars": 4148,
+    "body_sha256": "f6b8f5000935fabc90d24faafb5f6dd6b64d846554c86f9c9f9f9cc3b94e6761",
+    "exact_body_match": true
+  },
+  "interpretation_limits": [
+    "This is a historical naturalistic source case, not a controlled human-subject or model experiment.",
+    "Distinct conversation and turn IDs do not establish distinct model instances or independent executions.",
+    "The shared model_slug is metadata, not backend-instance identity.",
+    "Shared work-item/group IDs and exact ordered payload matches support mirrored work-stream provenance but do not establish the routing mechanism or the number of external side effects.",
+    "No assistant consciousness, personhood, special private access, or cross-thread delivery claim is made."
+  ]
+}
