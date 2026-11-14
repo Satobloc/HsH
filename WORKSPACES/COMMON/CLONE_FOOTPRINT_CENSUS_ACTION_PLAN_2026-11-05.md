@@ -185,3 +185,17 @@ This is a read-only evidence extension, not a period-wide clone estimate.
 - The 19/19 ring-label dispositions remain recorded (17 reconstructed; Elias Kern and Ravel UNAVAILABLE/UNKNOWN); authenticated first-hand current-thread replies remain 0/19. No new Mersearch request or lane mutation.
 
 **Next bounded step:** inspect remaining source-inventory job records, then SAT archive and HsH checkout steps; obtain daily Traffic/Pages only through a supported route; investigate provisioning only with authorized evidence. Preserve the current sample as a lower bound, not a census.
+
+## 2026-11-14 h830:s4 | Public Actions API route and checkout-sample update
+
+**Correction to the earlier connector limitation:** the generic GitHub repository-fetch action does expose GET /repos/{owner}/{repo}/actions/runs for the public HsH and SAT archive repositories. This is broader than the PR/commit-specific workflow-run wrapper. The /actions/workflows catalog route, /actions/workflows/{id}/runs, and GitHub Traffic routes remain unsupported. A workflow_id query did not narrow the returned run set, so do not assume that filter works through this connector.
+
+- SAT archive, 2026-11-08 through 2026-11-14: 33 runs returned on one page. Six runs received job/step inspection, yielding six successful primary checkout steps. Two job logs confirm repository/ref main; four are supported by step summaries only. Two SAT Mention Extraction jobs checked out successfully but skipped extraction after finding no changed request.
+- HsH, same date window: total_count=2500, 100 records on page 1. One successful HsH Issue Publication Intake run/job was inspected and its primary checkout step succeeded; its log confirms repository/ref main. The 2,500-result window is incomplete.
+- Seven new run/attempt/job/step records were appended to CLONE_LEDGER.jsonl as CONFIRMED NOT A FULL CLONE; traffic_clone_expected=UNKNOWN and fresh_environment=UNKNOWN. These are Actions checkout events, not worker-initiated local clones.
+- The earlier 15 directly inspected checkout steps across 9 workflow runs plus these 7 additional distinct run/job records produce a bounded sample of 22 checkout steps across 16 workflow runs. This is not a full period census. The seven new event IDs are encoded in the append-only ledger.
+- No private-repository Actions or Traffic metadata was accessed. No daily Traffic snapshot, unique cloner count, Pages contribution, or cloud-provisioning history is established.
+
+**Next bounded work:** continue public-repository job/attempt reconstruction from the supported actions/runs route; inspect remaining 27 SAT archive runs at job level if useful; keep the HsH 2,500-result cap explicit; obtain Traffic only through an authorized supported route. Do not infer clone counts from checkout steps.
+
+**Priority gate unchanged:** WH-01 remains P2 until the existing 15:56 America/New_York cutoff. No priority, owner, deadline, task, or acceptance-criterion change is made by this update.
