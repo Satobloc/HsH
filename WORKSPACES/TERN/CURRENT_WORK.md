@@ -691,3 +691,12 @@ Additive status update to the preceding h837 scheduler interval observation; no 
 
 - Corrected final main-head/readback amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2136Z_s3_hale_AMENDMENT_02_FINAL_MAIN_HEAD_READBACK.md.
 - Final main head at amendment time: 1b696c27115241ddd5dbce76021cc9ea70905bb7.
+
+## h837 scheduler field correction | 2026-11-14T22:03Z
+
+Correction to the earlier note that both :36 and :48 task-level fields were stale:
+- :36 remains IN_PROGRESS; its task-level last_run_time 21:17:12.845259Z and next_run_time 16:36 America/New_York remain stale relative to run_details.
+- :48 completed at 22:00:30.261816Z; task-level last_run_time updated to 22:00:32.544423Z and next_run_time 17:48 America/New_York (22:48Z) is the next hourly slot. These :48 fields are current at this sample.
+- The :48 run-level chat_ref is present but does not authenticate a historical worker instance or cross-thread delivery.
+- No task/ID/DTSTART/RRULE/prompt/phase/cadence change; four enabled tasks, :12 disabled, no sixth task.
+- Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2136Z_s3_hale_AMENDMENT_03_S48_TASK_FIELD_CORRECTION.md.
