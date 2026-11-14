@@ -237,3 +237,45 @@ WH-01 remains P2 / Tern-owned / INCOMPLETE. No priority, owner, deadline, or acc
 - Remaining issues: strict-audit failure can skip its warning; malformed JSON is conflated with valid non-conversation JSON; generic Path.suffix truncates dotted extensionless titles. The root content-sniffer tests are useful but do not cover malformed JSON or title fidelity.
 - Informational comment #6881111314 added to existing PR #1710, not a formal review. Detailed evidence: WORKSPACES/ARIADNE/2026-11-14T1648Z_H832_S4_REVIEW_MIND_WH02_AND_CLAIM_ORIGIN_BRIDGE_QC.md.
 - Smallest next action: Calder/authorized maintainer reconciles the seven-commit patch onto current main, fixes the three gaps, runs exact-head/full CI, and obtains review. No ownership or priority change.
+
+
+---
+
+## 2026-11-14 h837:s0 — deadline escalation and live-control readback
+
+**Readback context:** scheduled nominal slot 2026-11-14T21:00Z; invocation record started 21:04:20.624429Z. The Nathan Direct cutoff of 15:56 America/New_York was 20:56Z and had passed. The automatic escalation therefore applies now.
+
+**Queue-level priority disposition:** WH-01 through WH-09 remain unresolved and are **P1 / HIGH** under the existing deadline rule. This is the mandated queue-level escalation, not a task-graph edit, issue-label change, ownership transfer, or new automation.
+
+**Issue-state check (all still OPEN at this readback):**
+- WH-01 / HsH #1703 — updated 2026-11-13T20:45:54Z.
+- WH-02 / HsH #1702 — updated 2026-11-13T23:02:42Z.
+- WH-03 / Factory Floor #16 — updated 2026-11-13T20:45:48Z.
+- WH-04 / Factory Floor #17 and #18 — updated 2026-11-13T20:45:50Z and 20:45:51Z.
+- WH-05 / HsH #1704 — updated 2026-11-13T21:46:59Z.
+- WH-06 / HsH #1705 — updated 2026-11-13T20:59:16Z.
+- WH-07 / HsH #1706 — updated 2026-11-14T20:52:20Z.
+- WH-08 / Factory Floor #19 — updated 2026-11-13T22:44:36Z.
+- WH-09 / HsH #1712 — updated 2026-11-14T03:44:35Z.
+
+Open issue state is not itself the entire acceptance test, but no issue is closed and the current queue/issue evidence does not establish any WH exit criteria as met.
+
+**WH-05 lane-state recheck:** all four canonical request files remain `status=requested`, with request IDs unchanged:
+1. `calder-angle-geometry-source-fidelity-20261102-1337`
+2. `archive-harvest-20261025-optics-01`
+3. `calder-iri-worldtube-geometry-fidelity-20261104t2230z-s0-001`
+4. `kestrel-finite-core-geometry-source-fidelity-20261102-2200`
+
+All twelve request-scoped `RUN_MANIFEST.json`, `SEARCH_RECEIPT.json`, and `SEARCH_RECEIPT.md` paths returned 404 on this readback. This is OUTPUT_MISSING / execution state not established, **not** evidence that any lane is free. No request was overwritten, retriggered, released, or retried. WH-05 remains the highest-priority overall item but blocked at Tern's lane-release/controlled-test gate. Tern retains that authority.
+
+**Next-action ownership:** WH-02 remains the highest-priority unblocked archive/navigation repair in the last queue evidence, but its PR #1710 rebase/code action belongs to Calder/authorized maintainer; no takeover or duplicate PR. WH-01/WH-05/WH-06 coordination remains Tern-owned. WH-07's latest recovery evidence is the Sable h836:s0 v0.1 snapshot recovery; issue #1706 remains open, the live tracker and original author/thread remain unrecovered, and Tern retains portfolio-register disposition.
+
+**Additional exposure observation:** GitHub repository metadata read at this activation reports `Satobloc/HSH_RESOURCES` as `public` (`private=false`), while its root README still calls it private research infrastructure and prohibits public cross-linking. Only the root README was read; no internal payload, index, or private research material was opened. No visibility/access change was attempted. Treat the metadata/documentation mismatch as an unresolved governance exposure requiring authorized review, not as permission to inspect or republish contents.
+
+**Task-graph readback (unchanged):** blob `4ee79fa0a30fedb1feffd0a92c2716f87a365670`; 18 records versus declared `branch_count=16`; 7 roots; 11 parent references; 10 child references; one nonreciprocal parent-only relation (`P2-REAL-SYSTEM-GEOMETRY-2026-11-30` → `WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03`); 17 nodes reachable from roots; one child-traversal-unreachable node; no dangling references or cycles. No relation repair or graph mutation; Tern retains authority.
+
+**Read-only triage replay:** inspected `task_upkeep_triage.py` blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01` and replayed its ranking logic in a temporary JavaScript calculation against the live graph as of 2026-11-14 (the Python file itself was not executed in this runtime). It returns 13 active/blocked/candidate records; priority counts P0=3, P1=1, P2=4, P3=1, P4=1, UNCLASSIFIED=3; metadata gaps priority=3, owner_instance=7, due_date=10, last_reviewed=11; five completed records. No missing metadata was inferred and no graph fields were changed.
+
+**Scheduler readback:** the four existing tasks remain enabled with their original hourly America/New_York phases and IDs: :00 `6aa1fe0de5e48191b886496095b1343f`; :24 `6abda4c8eda88191bf23a6f2849e9a17`; :36 `6a9f52b69ec08191b0a2ba24a074f781`; :48 `6aa6c3bc02b48191b8a91a30d2a155e0`. The existing :12 ID `6aa61b3b2e4081918927a35b61007acc` remains disabled. Read-only peeks showed :24 completed and :00/:36/:48 in progress; the three in-progress records have null `chat_ref`. Start order differs from nominal phase order. No attempt history or cause is exposed; no retry, concurrency, identity, or delivery cause is inferred. No task ID, prompt, phase, DTSTART, RRULE, or enabled state was changed.
+
+**Next pickup:** first, Tern must authorize a single occupied Mersearch lane for the WH-05 controlled public-only test; until then do not touch any request. If that dependency remains blocked, the smallest unblocked core repair is WH-02's Calder/authorized-maintainer rebase and exact-head CI, not a generalist takeover. Preserve all owners and the existing four-lease scheduler.
