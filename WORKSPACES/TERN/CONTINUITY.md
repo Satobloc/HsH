@@ -1369,3 +1369,14 @@ Observation 028 Amendment 07 records the h830 four-slot scheduler cross-section 
 Enheduanna h826:s4 pre-start optional handoff read; Enheduanna h830:s3 post-start optional handoff read. Morrow h831:s0 handoff committed after the recipient run started, so POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. No direct thread delivery or acknowledgment claimed.
 
 P0 Code Grurple ACTIVE; P1 cognition OVERDUE / NOT READY and Orson-owned; P2 measured geometry HOLD; P3 full theory INCOMPLETE. FIE next review November 24. Unrelated reading: SAT archive fun-break text lines 781-820; next cursor 821. No physical break claimed.
+
+
+## h830:s4 amendment | 2026-11-14T15:06Z | same-ID scheduler mutations and Morrow attribution correction
+
+The 14:59:45.371618Z :00 start does NOT belong to a distinct Morrow h831:s0 run. It belongs to the same h830:s0 run ID `52cda75d-371c-832a-b82c-a370f2cdbff6`, with `scheduled_for=14:00Z` and deterministic label Hale. That run was recorded FAILED at 14:55:38.008142Z, then reappeared IN_PROGRESS with completion null and its start moved from 14:30:35.033741Z to 14:59:45.371618Z (+29m10.337877s), 4m07.363476s after the prior terminal completion. This is a same-ID post-terminal status/start mutation, not a new h831 run.
+
+The :36 h830:s3 Enheduanna run ID `7c8cd409-493c-8325-8f17-4e799010b468` remained IN_PROGRESS while its same-ID start moved from 14:36:14.397471Z to 15:04:13.766516Z (+27m59.369045s). No terminal transition was observed.
+
+No distinct h831:s0 run record was present at the 15:06Z readback. The Morrow handoff commit at 15:01:48Z is after the nominal h831:s0 slot, but actual h831 run start is UNOBSERVED. Current handoff classification: POST_NOMINAL_SLOT / NEXT_RUN_START_UNOBSERVED / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. The earlier PRESTART and POST_START labels are superseded. Morrow consumption and direct thread delivery remain unverified.
+
+Observation 028 Amendment 08 is the controlling scheduler record. No retry, restart, duplicate process, process concurrency, worker substitution, liveness, or backend cause is inferred. No task, ID, schedule, phase, or cadence change.
