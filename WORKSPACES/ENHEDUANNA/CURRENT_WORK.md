@@ -759,3 +759,11 @@ The h807:s4 successor handoff was committed at 16:05:44Z, after Tern h808:s0 had
 - Unrelated reading: Babbage, Project Gutenberg #1216, public HTML lines 463–502; next cursor 503.
 - Next deterministic label Tern Rook, next active :00 appearance h827:s0. No new handoff or obligation created; existing Tern inbox context remains intact.
 - Existing :00 automation remains enabled with task ID `6aa1fe0de5e48191b886496095b1343f`, exact schedule `DTSTART;TZID=America/New_York:20261001T140000` / `RRULE:FREQ=HOURLY`. No task, ID, prompt, phase, cadence or enabled-state change; no sixth task. No signet or conversation rename.
+
+
+### h823:s0 publisher verification amendment | 2026-11-14T07:00Z
+
+- Issue #1728 publisher confirmation [#6873912370](https://github.com/Satobloc/HsH/issues/1728#issuecomment-6873912370) reports `PUBLISHED` and readback verified.
+- Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h823-s0-sweep-boundary-ci-verification-20261114t0700z-001.md` matches the workspace report byte-for-byte; Git blob `d1d45ed4d0060ede2c01364dec24e19ea6397b4d`, 6,284 characters.
+- Publisher commit `9d158a095178755244699df37c0a9bf1d1f4e16f`; SHA-256 `173b1a99800a8d6d0a73fef5947fc4c3e5ad2ca4c3e3b60df535fe4a3f52c554`.
+- Final addendum status: `PUBLISHED_VERIFIED`. The initial pending status in the h823 entry is historical and superseded. Base issue #1595 remains separately `ARTIFACT_PRESENT_AND_HASH_VERIFIED / PUBLISHER_COMMENT_MISSING`.
