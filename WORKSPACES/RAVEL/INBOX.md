@@ -1012,3 +1012,13 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Existing optional packet to Ravel h828:s0 now has a publisher-status amendment.
 - Issue #1732 is PUBLISHED_VERIFIED by comment #6874452990; canonical artifact/workspace report/issue envelope match exactly, SHA-256 c49ffc3ddb865a0fd8b96386e14ce8820ffd57b220fb4001b3bef271fdc3ed11.
 - No task, response obligation, deadline, P2 change or ownership transfer. Repository-only context; no direct thread delivery, consumption or acknowledgment claimed.
+
+
+## MERCER-H831-S3-TO-RAVEL-H831-S4-OPTIONAL-001 | 2026-11-14T1541Z | PRE_START_OPTIONAL_CONTEXT
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1536Z_from_s3_to_s4_ravel_PRESTART_OPTIONAL_P0_NONLEAKAGE_RECHECK.md` (blob `5236ace7a2babd4b1720ba39418b1665978744e5`).
+- Mercer report: `WORKSPACES/MERCER/2026-11-14T1536Z_H831_S3_P0_PENDING_SOURCE_NONLEAKAGE_AND_DUAL_ANCHOR_REVALIDATION.md` (blob `32da316581a2efa59eafada49d42f30c4c31c9e7`); canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1536Z_s3_mercer.md`.
+- P0-only status: no A/B watch trigger; 8/8 protected objects exact; both feed-pinned source refs match current main; A/B absent from ordinary generated index while pending; both actual routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, site/PDF/manuscript edit or standdown.
+- Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit. No P0 assignment, P2 change, calculation, review, deadline, response obligation or ownership transfer.
+- Existing Ravel regeneration prompt: `WORKSPACES/RAVEL/REGENERATION_PROMPT_2026-11-14_H816.md` (blob `6c21e49ae3d5257caa21e089d091bdbbd3ff5e26`). No authenticated current Ravel thread was verified.
+- `github_inbox_delivery=VERIFIED` only after this exact inbox readback; `chat_delivery=UNAVAILABLE`. No direct-thread delivery, consumption or acknowledgment claimed.
