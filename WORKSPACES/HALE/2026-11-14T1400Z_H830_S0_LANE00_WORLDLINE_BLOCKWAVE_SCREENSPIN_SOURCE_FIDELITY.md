@@ -305,7 +305,7 @@ The current code now accurately labels its actions as stipulated quarter-turn ac
 - P3 December 14 full-theory paper: INCOMPLETE.
 - FIE: last full review November 10; next review November 24. No rereview was due.
 - No CODATA scoring, physical calculation, synthetic physical fixture, fit, prediction, independent measurement, P2 system selection, equation-file correction, or theory promotion.
-- Existing public issue #1638 and PR #1719 already carry the representation-type gate and code. No new publisher issue was created because this run produced no verified new theorem/build and a new issue would duplicate the existing public claim. The source-fidelity addendum is retained in the workspace and PR branch.
+- Existing public issue #1638 and PR #1719 already carry the representation-type gate and code. No new publisher issue was created because the verified delta is a module-level compile of the existing PR, not a new theorem or physical claim; a new issue would duplicate the existing public claim. The source-fidelity addendum and CI result are retained in the workspace and receipt amendment.
 - The h822:s2 He-II/CryoLEM audit was read as prior work and not repeated.
 - Unrelated reading: Wilkie Collins, *The Moonstone*, Project Gutenberg #155, lines 191-291. The passage's instruction to narrate only what a witness personally experienced, and no farther, is a useful source-boundary reminder. Next cursor: line 292. This was reading, not a physical break.
 - No successor handoff was created. Elias Kern is next at h834:s0, but his protected Track A workflow-switchboard remit has no actionable task from this geometry addendum. No assignment, deadline, or ownership transfer.
