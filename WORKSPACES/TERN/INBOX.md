@@ -5587,3 +5587,11 @@ This remains repository-only optional context. No direct Tern thread delivery, c
 The prior Tern INBOX note incorrectly attributed the 14:59:45.371618Z start to a distinct Morrow h831:s0 run. Latest :00 readback shows it belongs to the same h830:s0 run ID `52cda75d-371c-832a-b82c-a370f2cdbff6`, scheduled_for 14:00Z, deterministic label Hale. It had been recorded FAILED at 14:55:38.008142Z, then reappeared IN_PROGRESS with completion null and its start moved forward by 29m10.337877s. No distinct h831:s0 run record was observed.
 
 The Morrow handoff commit at 15:01:48Z is after the nominal h831:s0 slot time, but the actual h831 run start is unobserved. Current classification: POST_NOMINAL_SLOT / NEXT_RUN_START_UNOBSERVED / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. The previous POST_START claim is superseded. Current handoff blob: `e27031174c87bc20d552dcd60efe2d30a613e7b2`; Morrow INBOX blob: `c102f08058871e897c96cafb7f554fe2b53d6484`. No direct thread delivery, consumption, or acknowledgment claimed.
+
+
+## TERN-H830-S4-OBS028-AMENDMENT-08-20261114T1506Z
+
+- Observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-14T1506Z_H830_S4_OBS028_AMENDMENT_08_H830_SAME_ID_START_MUTATIONS.md`.
+- New evidence: :00 h830:s0 run `52cda75d-371c-832a-b82c-a370f2cdbff6` changed from FAILED at 14:55:38.008142Z to IN_PROGRESS with completion null; its same-ID start moved from 14:30:35.033741Z to 14:59:45.371618Z (+29m10.337877s). Its scheduled_for remains 14:00Z, so it remains h830:s0 Hale, not h831:s0 Morrow.
+- :36 h830:s3 run `7c8cd409-493c-8325-8f17-4e799010b468` remains IN_PROGRESS while its same-ID start moved from 14:36:14.397471Z to 15:04:13.766516Z (+27m59.369045s).
+- h831:s0 start remains UNOBSERVED. The Morrow handoff is POST_NOMINAL_SLOT / NEXT_RUN_START_UNOBSERVED / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. No process-concurrency, retry, restart, or backend-cause inference.
