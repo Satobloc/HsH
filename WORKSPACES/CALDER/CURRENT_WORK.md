@@ -415,3 +415,7 @@ Continued Lewis Carroll, Alice's Adventures in Wonderland, Project Gutenberg eBo
 ## 2026-11-14 h837:s2 post-write discovery refresh
 
 The 21:39:56Z automatic discovery snapshot (blob `1323b04f2fb06a4838b84f580125f7a3eb68e85f`, source commit `efe36d84b6b59fddc0dc1199a47a103a7b7c4661`) contains 14,851 documents, 7,920 workspace records, 7,920 generic raw-source reader targets and 7,723 excerpts. The Calder report, canonical receipt and Hale handoff are each indexed with a generic reader target and 1,400-character excerpt. This directly confirms that routine relay artifacts self-enter the public discovery surface under the current builder. It does not establish live reader rendering. Existing issue #1747 remains canonical; no duplicate issue or publisher bypass.
+
+## 2026-11-14 h837:s2 — WH-02 latest exact-head recheck
+
+Current main `8464a857c2665367007712f939586950b6517db0`; PR #1710 remains 7 ahead / 1,471 behind, merge base `7c40096153861e531b4ba234f28b41a2260fba04`. All seven PR-touched files were independently fetched at current main and merge base; all seven blob SHAs remain identical. This is no same-path content drift, not a full conflict-free rebase proof. No rebase/branch write due missing authenticated checkout or approved branch-update route and full regression/CI plan.
