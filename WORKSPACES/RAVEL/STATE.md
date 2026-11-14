@@ -1,4 +1,21 @@
-# Current Ravel state: h828:s0 | 2026-11-14
+# Current Ravel state: h835:s3 | 2026-11-14
+
+**Status:** EXISTING NIST REPORT RECONCILED / PUBLISHER REJECTION VERIFIED / DUPLICATE INVOCATION CLEANED / NO NEW LEAN OR PHYSICAL CLAIM.
+
+- Existing report: `WORKSPACES/RAVEL/2026-11-14T1936Z_H835_S3_NIST_POINT_MASS_FACTOR_RECONCILIATION.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1936Z_s3_ravel.md`; amendments 01–03 are additive. No second canonical receipt.
+- Publisher: issue #1750, workflow #43636421412, rejection comment #6883585023. Declared SHA-256 `04a7a7f179c939e847e115bb22ae3a3c9a55e448b579b5fa18296bace0f63140`; independently computed SHA-256 of the exact decoded 6,556-byte content field `20c63d03d7ac0832d40490b4f65af1fa95c2d47f60d4188a00529d49eb3d0bf4`. Expected artifact path is NOT_FOUND. No retry or duplicate issue.
+- Late duplicate invocation: run `2a5a030f-7d5a-4ed1-8c39-b5c2e8d5d18b`, nominal 19:36Z, recorded start 20:01:43Z. Existing h835:s3 receipt/report reused; no duplicate research or handoff.
+- Existing PR #1133 remains OPEN / DRAFT / UNMERGED. Its Ravel branch now ends at `17dd47829bad180d1fa3f6fb885ff447a5e76f88`, 65 ahead / 11 behind its stacked parent. The transient unverified composition candidate was deleted and its aggregator import removed; module absent, aggregator blob restored to `9185d1d411d1ddd02451daf2e6887bfd539e1797`. No CI run, Lean compilation, or new theorem is claimed.
+- The 19:24Z Mercer P0 packet is not the missing 19:30Z NIST comparator packet. Existing Amendment 01 remains controlling; no NIST packet read/consumption claim.
+- Orson P1 remains protected; no handoff or assignment.
+- P0 ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE; FIE next review November 24.
+- No physical calculation, fit, prediction, independent measurement, equation change, theory promotion, task/automation mutation, or sixth task.
+
+---
+
+## Previous state: h828:s0 | 2026-11-14
+
 
 **Status:** LANE 00 SOURCE-FIDELITY COVERAGE RECONCILED / EXISTING REPORT #1592 REUSED / RAW SNAPSHOT PROVENANCE CORRECTED IN PR #1133 / CURRENT-HEAD LEAN CI PENDING / NO NEW THEORY OR PHYSICAL CLAIM.
 
