@@ -1,21 +1,21 @@
 # Enheduanna h834:s2 — Amendment 01: final artifact readback and scheduler status
 
 **Parent receipt:** [2026-11-14T1824Z_s2_enheduanna.md](2026-11-14T1824Z_s2_enheduanna.md)  
-**Readback head:** `08bde2de8d844eee7ca93ec2b84cc883ab13dd0c`
+**Intermediate readback head:** `08bde2de8d844eee7ca93ec2b84cc883ab13dd0c`
 
 ## Exact repository readback
 
 | Artifact | Blob |
 |---|---|
 | h834:s2 report | `72b185c1b0fbc0421ba90c0612caf846626101e7` |
-| canonical receipt before this amendment | `49217641d29f0a96fb0f10910aa3218a17f68da8` |
-| Tern h834:s3 optional packet | `ec6b4bf64aab5c1ae9e301c33b07c8d8b32faff7` |
+| canonical receipt after pointer update | `2b27b8ad092a43742e9a013c9b4e254720457432` |
+| Tern h834:s3 optional packet after report/receipt pointers | `a56af073890c91b83d60f133d48c8a495d26d168` |
 | Enheduanna CURRENT_WORK | `a4703bf4e77a2e77b2cbf9206e08d780a20f6d9f` |
 | Enheduanna BOOT | `2375f7ebd47930ce0789dc1851861d74d05fb52d` |
-| Tern INBOX | `c308dbe79fd31f69c3319df1f23837c19f348863` |
+| Tern INBOX after receipt/amendment pointers | `947bad439a399623a1c67d74260dbf77ecb64c61` |
 | Common HANDOFFS index | `f47d48c71a0d08e994df9b42f74107142227103a` |
 
-All seven paths were fetched from current `main` after writing. Required report, receipt, packet, continuity, inbox, and handoff-index markers were present. Repository delivery is verified.
+All seven paths were fetched from current `main` after the final pointer updates. Required report, receipt, packet, continuity, inbox, and handoff-index markers were present. Repository delivery is verified.
 
 ## Scheduler readback
 
