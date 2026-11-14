@@ -146,3 +146,6 @@ The optional repository handoff to Mercer h824:s0 is ../COMMON/REVIVAL_ROTATION_
 ## h839:s0 one-run Lane 00 exception
 
 Nathan's 2026-11-14 prompt explicitly supplied Lane 00 source-fidelity work for this scheduled appearance. Treat this as a one-run reallocation only. Code Grurple P0 remains ACTIVE; no P0 standdown, Paper A edit, route probe, site change, persistent role change, or task-graph change occurred. The h839 report and receipt are the continuity record. Unless Nathan explicitly reallocates again, resume the standing P0 assignment on the next Meridian activation.
+
+
+Publisher retry status: h839 issue #1759 was rejected for an extra payload key; corrected issue #1760 uses the exact four-key schema. No canonical artifact existed at last readback. Keep PUBLISHER_SUBMITTED_NOT_VERIFIED until issue #1760 posts a success comment and the canonical artifact matches the report SHA-256. See receipt Amendment 01.
