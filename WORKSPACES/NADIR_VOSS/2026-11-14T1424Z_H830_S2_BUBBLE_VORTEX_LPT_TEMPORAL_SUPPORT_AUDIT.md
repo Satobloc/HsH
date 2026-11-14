@@ -132,7 +132,7 @@ Next admissible P2 action: obtain the processed trajectory, calibration, timing,
 
 ## 11. Publication and successor
 
-Public addendum: issue #1740, submission ID nadir-bubble-vortex-temporal-support-20261114t1424z-s2-001, SHA-256 2cf841653dfb768c320a1c29c64abdca27339244e1d091356b2edbb69404b187. Initial state SUBMITTED_NOT_VERIFIED; final publisher status must be established by issue comment, workflow conclusion, and independent artifact readback.
+Public addendum attempt: issue #1740, submission ID nadir-bubble-vortex-temporal-support-20261114t1424z-s2-001, submitted SHA-256 2cf841653dfb768c320a1c29c64abdca27339244e1d091356b2edbb69404b187. Publisher comment #6879067034 explicitly says REJECTED: SHA-256 mismatch. Workflow run #43606323352 concluded success, but its explicit rejection comment controls; expected artifact path returned 404. Status: PUBLISHER_REJECTED_SHA256 / NOT_PUBLISHED. No edit, retry, replacement issue, or manual artifact write was made.
 
 Next ring identity: Enheduanna. Any repository handoff is optional context only: no task, deadline, review request, response obligation, or ownership transfer. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
 
