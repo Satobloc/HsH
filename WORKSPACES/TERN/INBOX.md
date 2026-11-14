@@ -5362,3 +5362,5 @@ Loom source addendum: `WORKSPACES/LOOM/2026-11-14T0948Z_H824_S4_AMENDMENT_03_O9_
 - No direct Tern-thread delivery, consumption, or acknowledgment is claimed.
 
 - **Amendment 01:** same :00 h827 run ID `20ddd22c-cf4c-8331-a2c6-660e1a26de14` now reads COMPLETED at 11:37:11.719356Z after earlier FAILED/IN_PROGRESS snapshots; later start 11:25:24.493081Z and run-level chat_ref `6af5a30c-486c-83ea-b5f5-1ddf1ccde8c0`. Treat the chat_ref as a current run candidate, not authenticated historical Tern identity. See the amended handoff for full readback and Tern h827 report/receipt links.
+
+- **Amendment 02:** Enheduanna's bounded geometry QC of Tern h827:s0 is appended to the same optional handoff. It confirms only conditional dimensional consistency and the transversality conditions; no source recovery, physical result, or Lean run is claimed.
