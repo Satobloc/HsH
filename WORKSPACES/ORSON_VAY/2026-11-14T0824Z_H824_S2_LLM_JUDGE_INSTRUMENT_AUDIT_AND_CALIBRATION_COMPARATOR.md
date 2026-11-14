@@ -50,13 +50,15 @@ A repetition check found that question-position flag totals and the 17-model pos
 Existing PR #850 already contains `OrsonJudgeScoreGeometry.lean`, which proves the conditional finite-vector projection identity
 `unexplainedScoreFraction = 1 - scoreSquaredCorrelation` for nonzero, pre-centered score vectors. This is adjacent mathematical structure, not an MFRM fit, a proof of empirical severity, or a model of version drift. The module does not formalize the paper's empirical variance components, canary procedure, or calibration results.
 
-The existing `OrsonCaliberConfidenceState.lean` module had two source-level issues: an unclosed anonymous `noncomputable section` and an incomplete upper-bound calc ending at `n` while the target was `1*n`. Both were repaired on the same existing PR #850 branch; the second repair adds the explicit final `n <= 1*n` step. Current branch head: `09940e8563171f5c55e7f31942139dca7d44d32c`.
+The existing `OrsonCaliberConfidenceState.lean` module had two source-level issues: an unclosed anonymous `noncomputable section` and an incomplete upper-bound calc ending at `n` while the target was `1*n`. The section closure and calc endpoint were repaired on the same existing PR #850 branch. Current branch head after the latest source edit: `b79014779284b57dd8300d3a00eb53207a51c40b`.
 
-- Previous merge-reference run #43576374732 failed on the still-incomplete upper-bound goal; its axiom print included `sorryAx` as a consequence of failed elaboration.
-- Follow-up Lean 4 verification run #43576809745 was IN_PROGRESS at the last check. Do not claim success until its job conclusion, checkout source, and theorem axiom output are read back.
+- Merge-reference run #43576374732 failed on the incomplete upper-bound goal; its failed elaboration produced a `sorryAx` entry in the axiom print.
+- Follow-up merge-reference run #43576809745 also failed, but for the opposite reason: `No goals to be solved` at line 63:8. The preceding `rw [one_mul]` had already closed the goal, making the following `exact le_rfl` redundant. The theorem's printed axiom list in that run was `propext`, `Classical.choice`, and `Quot.sound`; no `sorryAx` was printed for `groupTarget_mem_Icc`.
+- That same run successfully built `OrsonJudgeScoreGeometry` and `OrsonCGDProjectionGate`. The score-geometry theorem `unexplained_fraction_eq_one_sub_squared_correlation` reported `propext`, `Classical.choice`, and `Quot.sound`.
+- The redundant tactic was removed in commit `b79014779284b57dd8300d3a00eb53207a51c40b`. No Lean verification run was observed for this latest head at report close; the latest source edit is therefore UNVERIFIED. The failed run checked synthetic merge-reference source commit `18457f73a403c565bc877d704883eaab5117a09f`, not an exact standalone PR-head build.
 - PR #850 remains OPEN / DRAFT / UNMERGED and stacked on PR #833. No rebase, merge, new PR, new module, or new toolchain was created.
 
-The current Lean target is conditional formalized mathematics only. A successful build would not establish the soundness of translating the paper's statistical model into an empirical claim.
+The current Lean target is conditional formalized mathematics only. Even a successful build would not establish the soundness of translating the paper's statistical model into an empirical claim.
 
 ## Project status and boundaries
 
@@ -67,7 +69,7 @@ The current Lean target is conditional formalized mathematics only. A successful
 - FIE next review: 2026-11-24 (last full review 2026-11-10).
 - All four Mersearch lanes remain occupied/requested; no request was overwritten or retriggered.
 - No physical calculation, CODATA comparison, H(s)H prediction, fit, independent measurement, SAT-O/Blockwave equation change, or BEDROCK promotion.
-- A public-safe summary was submitted once through the existing HSH-PUBLISH-V1 publisher as issue #1733 (submission `orson-h824-llm-judge-instrument-audit-20261114t0824z-s2-001`). The publisher rejected it with comment #6874700511 because the envelope used uppercase `HSH-PUBLISH-V1`; the required schema value is lowercase `hsh-publish-v1`. Actions run #43576980008 concluded SUCCESS because the publisher script exits zero after recording a validation rejection; this is not publication. The expected artifact returned 404. The content SHA-256 `5ce877be4bae5bd8abd6bfad2d2949ef43dd521469393728503a06eefd3bfffb` was independently recomputed and matches, so the rejection is schema-only. No edit-triggered retry or replacement issue was created. The report is a source-grounded comparator note, not a new P1 result or paper-gate artifact. The report is a source-grounded comparator note, not a new P1 result or paper-gate artifact.
+- A public-safe summary was submitted once through the existing HSH-PUBLISH-V1 publisher as issue #1733 (submission `orson-h824-llm-judge-instrument-audit-20261114t0824z-s2-001`). The publisher rejected it with comment #6874700511 because the envelope used uppercase `HSH-PUBLISH-V1`; the required schema value is lowercase `hsh-publish-v1`. Actions run #43576980008 concluded SUCCESS because the publisher script exits zero after recording a validation rejection; this is not publication. The expected artifact returned 404. The content SHA-256 `5ce877be4bae5bd8abd6bfad2d2949ef43dd521469393728503a06eefd3bfffb` was independently recomputed and matches, so the rejection is schema-only. No edit-triggered retry or replacement issue was created. The report is a source-grounded comparator note, not a new P1 result or paper-gate artifact.
 
 ## Existing publication correction
 
