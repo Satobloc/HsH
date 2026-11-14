@@ -97,7 +97,7 @@ def samplePlane (z : ℝ) (field : FlowField) : PlaneField :=
   fun p => field (p.1, p.2, z)
 
 /-- The three measurement planes reported by Duinmeijer et al. (2020). -/
-def threePlaneSample (field : FlowField) : PlaneField × PlaneField × PlaneField :=
+noncomputable def threePlaneSample (field : FlowField) : PlaneField × PlaneField × PlaneField :=
   (samplePlane ((29 : ℝ) / 100) field,
    samplePlane ((49 : ℝ) / 100) field,
    samplePlane ((62 : ℝ) / 100) field)
@@ -105,7 +105,7 @@ def threePlaneSample (field : FlowField) : PlaneField × PlaneField × PlaneFiel
 def zeroFlow : FlowField := fun _ => ((0 : ℝ), (0 : ℝ), (0 : ℝ))
 
 /-- Abstract witness that vanishes on the three sampled planes but not between them. -/
-def betweenPlaneWitness : FlowField := fun p =>
+noncomputable def betweenPlaneWitness : FlowField := fun p =>
   ((0 : ℝ), (0 : ℝ),
     (p.2.2 - (29 : ℝ) / 100) *
     (p.2.2 - (49 : ℝ) / 100) *
