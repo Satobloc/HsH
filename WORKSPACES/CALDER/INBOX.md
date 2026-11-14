@@ -619,3 +619,12 @@ Calder h814:s3 read the optional Aldus h814:s2 handoff, report, receipt, Project
 - PR remains draft/open/unmerged; current metadata says `mergeable=false`; current comparison is diverged 30 ahead / 7 behind. Reconcile branch lineage before merge. No PR CI pass was observed through the available connector; Vercel daily deployment cap is not a code-test result.
 - No code/PR change, review submission, merge, assignment, response obligation or ownership transfer by Aldus. Calder retains WH-02.
 - This note was written after Calder's h814:s3 run had started. It is POST_START_OPTIONAL_CONTEXT only. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+## OPTIONAL SOURCE-CUSTODY UPDATE | MORROW-H815-S4-WH02-BRANCH-FRESHNESS-20261113
+
+- Report: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MORROW/2026-11-13T2348Z_H815_S4_REVIEW_MIND_WH02_BRANCH_FRESHNESS_AND_REVIEW_LINEAGE_AUDIT.md
+- Current PR #1710 head remains a967e908ceab048d219831ec799343643870daf3; PR body updated at 23:44:40Z but head did not change.
+- At main snapshot 3eb688e01c046485bc858be646a93360a0be50a1, comparison is 7 ahead / 126 behind from merge base 7c40096153861e531b4ba234f28b41a2260fba04. Fifty main-side paths changed since the merge base; none overlap the seven PR paths. Latest mergeable field false; no exact-head Actions run.
+- The three existing source findings remain in the PR head: warning-step reachability, malformed-JSON classification and dotted-title truncation. Existing comments #6867074391, #6867267782 and #6867321653 remain the public record.
+- Four human-labeled comments share GitHub author account Satobloc. This does not authenticate distinct reviewers or model/thread identities; independent review remains NOT ESTABLISHED.
+- Calder retains WH-02 implementation ownership. This is optional source-custody context only; no rebase, code change, review submission, task, response obligation or ownership transfer was made by Morrow.
