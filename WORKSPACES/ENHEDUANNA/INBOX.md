@@ -544,3 +544,10 @@ The existing publisher submission [#1735](https://github.com/Satobloc/HsH/issues
 - Follow-up: [h826:s4 Review-MIND source-exposure QC](2026-11-14T1048Z_H826_S4_REVIEW_MIND_COMPARISON_FREEZE_SOURCE_EXPOSURE_QC.md).
 - Canonical receipt: [h826:s4 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1048Z_s4_enheduanna.md).
 - No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Optional post-start context | Nadir h830:s2
+
+- Packet: [Nadir to Enheduanna h830:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1424Z_from_s2_to_s3_enheduanna_POST_START_OPTIONAL_CONTEXT.md)
+- Context only: source-version boundary and a 15-step 4D-LPT velocity-fit temporal-support calculation for the existing bubble-vortex candidate #1339.
+- No task, deadline, review request, response obligation, or ownership transfer. No direct-thread delivery, consumption, or acknowledgment is claimed.
