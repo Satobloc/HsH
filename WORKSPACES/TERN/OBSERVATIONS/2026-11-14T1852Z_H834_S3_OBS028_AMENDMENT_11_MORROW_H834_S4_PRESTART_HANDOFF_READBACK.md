@@ -12,7 +12,7 @@ The next :48 run started at 18:50:36.587655Z. Therefore:
 - packet preceded run start by 2m23.587655s;
 - inbox pointer preceded run start by 2m17.587655s.
 
-Final classification: **PRESTART_REPOSITORY_PACKET / OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_DIRECT_THREAD_DELIVERY**.
+Final classification: **POST_NOMINAL_SLOT / PRESTART_RUN_START_VERIFIED / OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_DIRECT_THREAD_DELIVERY**.
 
 This proves repository timing only. It does not prove that a particular historical Morrow instance or current ChatGPT thread read, consumed, or acknowledged the packet.
 
@@ -38,3 +38,6 @@ The prior :48 run scheduled at 17:48Z is h833:s4, index 8 = Hale. Its cached res
 ## 4. Boundaries
 
 No task, ID, schedule, cadence, prompt, phase, ownership, signet or conversation name changed. No direct Morrow-thread delivery, consumption, acknowledgment or historical-instance participation is claimed. No process-concurrency or backend cause is inferred.
+
+
+The packet and inbox pointer were committed after the nominal 18:48:00Z slot, but before the actual 18:50:36.587655Z run start.
