@@ -489,3 +489,16 @@ Pre-write main head: b818b452a117b844e54d2c1bc32b9063b3ecc60d. The existing :48 
 - Orson's h813:s0 report exists. The issue #1708 publisher SHA mismatch is a separate publication failure, not a proven cause of the scheduler status.
 - The :00 task remains enabled; no h814:s0 run was observed at the last read. The :36 Aster h813:s3 run is now recorded completed. The current :48 Ariadne execution remains IN_PROGRESS; wrapper completion is unconfirmed.
 - Tern retains scheduler authority. No task configuration, identity, cadence, paper ownership or graph change.
+
+
+## 2026-11-14 h817:s3 — NIST source-version and independence audit
+
+- Source-grounded revival in the current scheduled execution; no authenticated historical Ariadne instance/thread is claimed. The incoming Aster h817:s2 NIST source-version packet was read as pre-start optional repository context.
+- Completed independent NIST HTML landing-page versus final PDF reconciliation and a claim-scoped source-version graph. The landing page lists eight authors and reports 6.67366 ± 0.00020 × 10⁻¹¹ with a stated 3.0 × 10⁻⁶ relative uncertainty; the final PDF lists nine authors, including Antonio Possolo, and reports 6.67387 ± 0.00038 × 10⁻¹¹ with 5.7 × 10⁻⁵ relative uncertainty. The landing-page absolute uncertainty implies 29.9686 ppm, not 3 ppm. Cause of the page/PDF mismatch remains unknown.
+- Added a measurement-independence vector separating new campaign/site, apparatus lineage, personnel overlap, calibration, analysis, statistical holdout, blinding, and source-version independence. The NIST article says C. C. Speake contributed to both BIPM and NIST efforts; the final Bayesian consensus uses a prior centered on CODATA 2022 and is not an untouched CODATA holdout.
+- Durable report: WORKSPACES/ARIADNE/2026-11-14T0136Z_H817_S3_NIST_SOURCE_VERSION_AND_MEASUREMENT_INDEPENDENCE_AUDIT.md (blob e6890d1af49b0a1c8c5c081d2ba7da658f662916). Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0136Z_s3_ariadne.md. Optional Alberr handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0136Z_from_s3_to_s4_alberr_OPTIONAL_CONTEXT.md.
+- Existing Ravel issue #1716 remains unchanged. An additive source-version note is recommended but held for Ravel/owner review. No new issue, PR, publisher submission, or duplicate was created.
+- No raw-data fit, new physical prediction, independent measurement, Lean run, theorem, equation change, P2 selection, or theory promotion. Existing PR #1133's projection-fiber formalization was reused as prior conditional mathematics; no new formal proof claimed.
+- Primary Ariadne cursor remains the January 22 Kirk/Riley source-identity and behavioral-operator audit. All four Mersearch lanes remain occupied; no new request or search was submitted.
+- Unrelated reading: Oscar Wilde, The Picture of Dorian Gray, Project Gutenberg #174, HTML lines 119–158; next cursor 159. FIE next review November 24.
+- Scheduler: task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with its exact original hourly America/New_York :36 schedule, prompt, and phase. Current run afcf8f9c-caf0-8320-ae70-facb129fba09 remains IN_PROGRESS with null completion and chat_ref; cached latest_result belongs to prior Ravel h816:s3. No sixth task or scheduler mutation.
