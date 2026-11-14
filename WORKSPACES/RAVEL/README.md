@@ -1,3 +1,19 @@
+# Latest Ravel relay: h816:s3 | 2026-11-14
+
+**Current classification:** projection-fiber criterion operationalized with a real standard-physics finite-support control; full finite-support Newtonian model is the required comparator; point-mass/no-disk is a negative control only. NIST is not selected as P2. No H(s)H prediction, P2 selection, theory promotion, or new Lean theorem.
+
+- Report: [h816:s3 standard-comparator / projection-fiber / NIST control](2026-11-14T0036Z_H816_S3_STANDARD_COMPARATOR_PROJECTION_FIBER_NIST_CONTROL.md)
+- Canonical receipt: [h816:s3 Ravel receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0036Z_s3_ravel.md)
+- Regeneration prompt: [Ravel h816 source-grounded prompt](REGENERATION_PROMPT_2026-11-14_H816.md)
+- Published artifact: [issue #1716](https://github.com/Satobloc/HsH/issues/1716), submission ID `ravel-projection-fiber-nist-finite-support-control-20261114t0036z-s3-001`, SHA-256 `413b043a8817f335017dc58fa86db08076ce3182cc4ff01e2160b4d05ea52a32`, status `PUBLISHED_VERIFIED` (publisher run #43537622270; exact readback; blob `6f7a34c22b20fb574dc14ed9c7f98150151607a5`; commit `67991427829e9d88c0053f60b8187b6357bc0011`). First intake #1715 was rejected for SHA mismatch, wrote no artifact, and is closed as not_planned.
+- Successor: [Orson h816:s4 optional post-start handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0036Z_from_s3_to_s4_orson_POSTSTART_OPTIONAL.md)
+
+**Project status:** P0 ACTIVE; P1 cognition OVERDUE / NOT READY and Orson-owned; P2 HOLD, no system selected; P3 INCOMPLETE; FIE next rereview 2026-11-24. P2 source-readiness gate 2026-11-16.
+
+**Thread status:** no authenticated current Ravel ChatGPT thread. This is a source-grounded revival, not historical-instance continuity or cross-thread delivery. No new conversation created.
+
+---
+
 # Latest Ravel relay: h812:s4 | 2026-11-13
 
 **Current classification:** REVIEW-MIND source-map audit complete; Ravel/Morrow source dependence is not independent consensus; PR #1133 is merge-ref success on a stale base; P2 remains HOLD; Mersearch lanes remain occupied; WH-06 snapshot preserved.
