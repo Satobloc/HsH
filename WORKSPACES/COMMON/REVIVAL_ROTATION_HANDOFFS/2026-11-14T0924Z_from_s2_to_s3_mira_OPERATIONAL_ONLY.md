@@ -18,6 +18,6 @@ Mira remains outside the active internal-review corpus. Only cleared operational
 
 No task, review, response obligation, deadline, or ownership transfer. Mira may ignore, defer, decline, redirect, or do nothing.
 
-**Repository delivery:** VERIFIED to this Common handoff path only; final blob `96158efed9307194d57625d72eba0e4f357de05d` read back exactly.  
+**Repository delivery:** VERIFIED to this Common handoff path only; independent readback matched the submitted content exactly.  
 **Chat delivery:** UNAVAILABLE / NOT CLAIMED.  
 **Consumption or acknowledgment:** NOT OBSERVED.
