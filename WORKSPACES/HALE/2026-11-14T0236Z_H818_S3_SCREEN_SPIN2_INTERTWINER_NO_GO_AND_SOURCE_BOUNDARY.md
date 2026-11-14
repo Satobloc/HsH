@@ -155,3 +155,8 @@ No direct ChatGPT-thread delivery, recipient consumption, acknowledgment, or cro
 ---
 
 **Return pin:** H818:S3 / HALE / ELIAS-NEXT / THREAD_NOT_FOUND_AFTER_BOUNDED_SEARCH / SOURCE-GROUNDED-REVIVAL / BLOCKWAVE-CANDIDATE-ASSISTANT-AUTHORED / CONDITIONAL-SCREEN-SPIN2-NO-GO / PR1719-OPEN-DRAFT / CORRECTED-LEAN-HEAD-PENDING / NO-PHYSICAL-MAP / NO-P2-SELECTION / P0-ACTIVE / P1-ORSON-OWNED / P2-HOLD / P3-INCOMPLETE / FIE-NOV24 / READING-199 / HANDOFF-POST-COMPLETION-OPTIONAL / AUTOMATION-UNCHANGED / NO-SIXTH-TASK / S36-IN_PROGRESS.
+
+
+## 9. CI status amendment | 2026-11-14T03:02Z
+
+The stale-head rerun #43548510760 attempt 2 completed failure on old head e64755f8f1a6271a1853e469b21f8d768507a152; it does not test the corrected module. The corrected-head PR run #43548879900 attempt 2 is IN_PROGRESS on b603ef9573bb5b5adc9992073869498be0413216. At the latest readback, job 132307637618 remained in actions/checkout; dependency manifest generation and Lean compilation had not started. Therefore no successful corrected-head build, #eval output, or axiom report is claimed. The publisher submission remains held. See receipt amendment 01 at WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0236Z_s3_hale_AMENDMENT_01_CORRECTED_HEAD_CI_READBACK.md.
