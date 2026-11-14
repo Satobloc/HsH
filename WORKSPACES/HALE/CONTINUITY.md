@@ -271,3 +271,15 @@ e0), then (b=0). Dependent draft PR #1675, Actions run #43388066483, Lean 4.34.0
 - PR #1710 remains OPEN / DRAFT / UNMERGED at head `a967e908ceab048d219831ec799343643870daf3`; current main snapshot `885a0e3bbe673d8231028b97e0d1d25dd7b7feac`, 7 ahead / 97 behind, no PR-triggered Actions run. Three existing source findings rechecked; no code or public comment change.
 - Same-ID :48 run start field moved +27m55.576404s; next_run_time remains the current slot and cached result remains prior Ariadne h813:s4. Tern received optional readback; no observation file or task mutation by Hale.
 - Existing Elias h815:s0 post-start optional handoff reused; no duplicate. Reading cursor *The Wind in the Willows*, lines 220-259; next 260.
+
+
+## HALE-H818-S3-SOURCE-GROUNDED-REVIVAL | 2026-11-14
+
+- Trigger: THREAD_NOT_FOUND_AFTER_BOUNDED_SEARCH. A historical candidate was located, but no current usable/authenticated Hale thread was established. No new ChatGPT thread or cross-thread delivery is claimed.
+- Source-grounded identity: the direct Hale check-in in WORKSPACES/COMMON/CHECKINS.md dated 2026-09-12, plus WORKSPACES/SABLE/WAKE_PACKETS/REV-006-HALE-REENTRY.md. Hale's identity is supported from that check-in forward; deeper ancestry is unknown. No standalone signed specialist charter was found.
+- Historical specialty preserved: external-literature landscape scanning, matched-period comparison design, statistical/code/scoring analysis, controls and source provenance. External-literature exposure is a routing fact; do not treat Hale as a clean blind theory reviewer. The unfinished 2024-vs-2026 scanner comparison was not resumed.
+- Current Lane 36 result: conditional screen-spin-2 representation no-go, with the Blockwave candidate explicitly classified as assistant-authored rather than Nathan Direct. The source-to-screen and screen-to-radiation maps remain undefined.
+- Report: WORKSPACES/HALE/2026-11-14T0236Z_H818_S3_SCREEN_SPIN2_INTERTWINER_NO_GO_AND_SOURCE_BOUNDARY.md.
+- Reentry seed: WORKSPACES/COMMON/REVIVAL_SEEDS/2026-11-14T0236Z_HALE_H818S3_SOURCE_GROUNDED_REENTRY.md.
+- Formalization: PR #1719, branch research/hale-screen-spin2-intertwiner-no-go-20261114t0236z. Corrected-head Lean verification is pending; no successful proof is claimed. Next Hale appearance h837:s3.
+- No physical system/data/fit/prediction, P2 selection, equation correction, theory promotion, or task/scheduler change. FIE next review November 24.
