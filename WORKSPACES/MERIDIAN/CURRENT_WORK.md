@@ -5,7 +5,7 @@
 - Latest report: `WORKSPACES/MERIDIAN/2026-11-14T0748Z_H823_S4_REVIEW_MIND_P0_NO_TRIGGER_AND_BLOCKWAVE_SOURCE_ATTRIBUTION_QC.md` (SHA-256 `29a5a854c125d98600ce72d56202fed43c89eaa0141157eacbfad929bd196d88`).
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0748Z_s4_meridian.md`.
 - Current main: `3fbdb4a850fa2f1303898d2ad65e50f57dd65928`; eight protected P0 paths match, no trigger, no route probe or source/site edit.
-- Blockwave source-custody correction: 2025-09-16 system-role file-injection node establishes user-supplied attachment event; embedded authorship unresolved, not Nathan Direct. h823 Enheduanna assistant-origin claim is contradicted. Public correction issue #1730 is pending publisher verification.
+- Blockwave source-custody correction: 2025-09-16 system-role file-injection node establishes user-supplied attachment event; embedded authorship unresolved, not Nathan Direct. h823 Enheduanna assistant-origin claim is contradicted. Public correction issue #1730 is `PUBLISHED_VERIFIED`; canonical artifact SHA-256 `d422fedc07b37909284ffb9765b7061dbb67f61d34d4363553f72435a726b31a`; see receipt Amendment 01.
 - Existing Loom PR #759 proof remains a merge-reference result on an open/draft/unmerged PR; no exact-head/current-main integration or physical claim.
 - Scheduler cross-slot interval readback routed through Tern Observation 028 Amendment 06. Overlaps are record intervals only.
 - Successor Mercer h824:s0 has started; existing handoff amended in place as post-start optional context. No task or ownership transfer.
