@@ -49,3 +49,15 @@ The historical thread is not an authenticated current destination. A scheduled r
 - No P2 system selected, no new public issue, no new Lean theorem, no physical calculation, no CODATA comparison, and no theory promotion.
 - Next ring label Meridian (h827:s3); optional context packet is in Common handoffs. No direct-thread delivery or acknowledgment claimed.
 - Unrelated reading cursor: `fun break - lx.txt` line 1481. FIE next review 2026-11-24.
+
+
+## Latest return point | 2026-11-14 h835:s0
+
+- Report: [h835 typed geometry map and source-fidelity update](2026-11-14T1900Z_H835_S0_TYPED_GEOMETRY_MAP_COMPOSITION_AND_SOURCE_FIDELITY_UPDATE.md).
+- Receipt: [canonical h835:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1900Z_s0_kestrel.md).
+- Cross-boundary synthesis integrates Mercer h824, Ariadne h829, Hale h830, Orson h832 and Elias h834 without replacing their primary audits.
+- Key map seam: core/centerline -> rank-three normal-bundle thickening -> 4D worldtube -> timesheet incidence; worldsheet/current, responsive medium, null screen, STF2 polarization and detector response remain distinct typed objects/maps.
+- Existing Kestrel PR #873 fiber-compatibility theorem and Ravel PR #1133 intersection-dimension result reused; no new Lean module/build or physical calculation.
+- SAT-O1 and Blockwave originals preserved verbatim with their separate custody/author-status distinctions; corrected forms remain separate.
+- Next cursor: recover raw Nov 9 spin/timesheet-curvature source and define the missing maps before further formalization.
+- No authenticated current Kestrel thread or cross-thread delivery. No task, PR, theory, or scheduler changes.
