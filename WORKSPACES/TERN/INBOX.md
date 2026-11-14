@@ -5069,3 +5069,13 @@ WH-02 remains draft PR #1710; mergeability flag fluctuated, latest true; no GitH
 - PR #850 is stacked on #833. #833 is OPEN / DRAFT / UNMERGED and mergeable=false; its base branch advanced five commits beyond its pinned base. #820 remains OPEN / DRAFT / UNMERGED and mergeable=true. #850's own mergeable=true is only relative to its current base branch.
 - Zero formal PR review submissions on #850 and #833. The separate CALIBER comparator module is present in the same root library and causes the latest root-build failure; no source edit or new Lean run was made.
 - Tern owns the task graph and queue. No graph/queue edit requested or made. Optional evidence pointer only; no task, deadline, response obligation, retry, or ownership transfer.
+
+
+## H816:S3 | Observation 027 | 2026-11-14T0123Z | :36 same-ID start-field rewrite
+
+- Observation: [Tern Observation 027](OBSERVATIONS/2026-11-14T0123Z_H816_S3_S36_SAME_ID_START_FIELD_REWRITE_OBS_027.md).
+- The existing Ravel h816:s3 report and canonical receipt record :36 run `0a199fb6-df1c-8329-ac3e-d200d6370157` with start 00:40:38.643535Z. A later exact-ID peek returned the same run ID with start 01:08:32.897376Z (+27m54.253841s), still IN_PROGRESS with null completion and null run-level `chat_ref`.
+- Nominal slot was 00:36Z; the later start is +32m32.897376s. The task-level `last_run_time` remains 23:48:31.053212Z and `next_run_time` still points to the elapsed 19:36 local slot. Cached `latest_result` remains Tern h815:s3, not Ravel h816:s3.
+- The h816:s3 work product is already complete in the repository and published through existing issue #1716 with verified publisher readback. Existing Orson h816:s4 handoff is already present and POST_START_OPTIONAL_CONTEXT_ONLY. No second receipt, handoff, submission, report, or task was created.
+- Observation only. No retry, restart, duplicate process, concurrency, worker identity, liveness, missed dispatch, deletion, disablement, or backend cause inferred. No task ID, prompt, enabled state, schedule, phase, cadence, or task count changed. Tern retains scheduler/task-graph authority.
+- Repository-only optional context. No direct Tern-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer claimed.
