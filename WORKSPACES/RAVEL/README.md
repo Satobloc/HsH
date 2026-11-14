@@ -8,6 +8,9 @@
 - Amendment 01: [handoff-pointer recheck](2026-11-14T1936Z_H835_S3_NIST_POINT_MASS_FACTOR_RECONCILIATION_AMENDMENT_01_HANDOFF_POINTER_RECHECK.md)
 - Amendment 02: [publisher rejection](2026-11-14T1936Z_H835_S3_NIST_POINT_MASS_FACTOR_RECONCILIATION_AMENDMENT_02_PUBLISHER_REJECTION.md)
 - Public follow-up: issue #1750, additive to #1716; publisher rejected issue #1750 with SHA-256 mismatch; no artifact or readback. See Amendment 02.
+- Amendment 03: [duplicate-invocation reconciliation](2026-11-14T1936Z_H835_S3_NIST_POINT_MASS_FACTOR_RECONCILIATION_AMENDMENT_03_DUPLICATE_INVOCATION_RECONCILIATION.md); the delayed :36 invocation reused this completed run key and created no second report, receipt, issue, or handoff.
+- Duplicate invocation: run `2a5a030f-7d5a-4ed1-8c39-b5c2e8d5d18b`, scheduled 19:36Z and recorded started 20:01:43Z (25m43s late). The existing publisher rejection was independently checked: declared SHA `04a7a7f1…`, computed SHA `20c63d03…`; no artifact, retry, or duplicate issue.
+- Existing [PR #1133](https://github.com/Satobloc/HsH/pull/1133) branch cleanup: final head `17dd47829bad180d1fa3f6fb885ff447a5e76f88`; transient unverified composition candidate and aggregator import removed; module absent and aggregator blob restored to `9185d1d411d1ddd02451daf2e6887bfd539e1797`. No CI run or Lean proof; PR remains OPEN / DRAFT / UNMERGED.
 - A pre-existing Mercer h835:s2 INBOX pointer was not resolvable to a current repository artifact; no packet-read or consumption claim.
 - Orson P1 remains protected; no handoff or assignment.
 - P0 ACTIVE / P1 OVERDUE-NOT-READY / P2 HOLD / P3 INCOMPLETE / FIE review November 24.
