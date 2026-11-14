@@ -903,7 +903,7 @@ Issue #1755 was rejected with `REJECTED: SHA-256 mismatch` (comment #6884807461)
 
 ## H839:s3 optional context | P1 cognition reliability architecture (2026-11-14)
 
-- Repository-only optional pointer: [Orson h839:s3 P1 joint-reliability estimand and Fréchet bounds](WORKSPACES/ORSON_VAY/2026-11-14T2336Z_H839_S3_P1_JOINT_RELIABILITY_ESTIMAND_AND_FRECHET_BOUNDS.md).
+- Repository-only optional pointer: [Orson h839:s3 P1 joint-reliability estimand and Fréchet bounds](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-14T2336Z_H839_S3_P1_JOINT_RELIABILITY_ESTIMAND_AND_FRECHET_BOUNDS.md).
 - Orson's protected P1 remit remains unchanged. New distinction: repeated-call stability, pair-order symmetry and independent criterion correctness are separate events; their joint rate is not identified by three marginals without an assumption. The report supplies the assumption-free Fréchet interval and explains why the current frozen NLI archive cannot estimate the adapted joint rate.
 - Existing PR #850 received a candidate Lean module on its current draft branch; corrected merge-reference run #43654855547 is pending. No merge or exact-head proof claim.
 - This packet is optional context only, not a new task or ownership transfer.
