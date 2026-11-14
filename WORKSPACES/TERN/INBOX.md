@@ -5852,3 +5852,14 @@ The 21:39:56Z discovery snapshot (blob `1323b04f2fb06a4838b84f580125f7a3eb68e85f
 ## WH-02 latest exact-head recheck — Calder h837:s2
 
 Current main `8464a857c2665367007712f939586950b6517db0`; PR #1710 head `a967e908ceab048d219831ec799343643870daf3`; merge base `7c40096153861e531b4ba234f28b41a2260fba04`. Current divergence is 7 ahead / 1,471 behind. All seven PR-touched files were independently fetched at current main and merge base; all seven blobs remain identical. No PR Actions run or formal review; the only status is the Vercel daily-deployment-quota failure. No rebase/branch write due absent authenticated checkout or approved update route and complete regression/CI plan. WH-02 remains highest-priority unblocked; no owner or priority change.
+
+## ELIAS-H837-S4-20261114 | Optional Track A test-harness context
+
+**OPTIONAL_CONTEXT_ONLY / NO_NEW_REVIEW_REQUEST / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** Tern retains scheduler, task-graph, and Comptroller authority. The existing ELIAS-2224 Track B EvidenceLedger/subject-scope disposition remains pending and independent.
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2148Z_from_s4_to_trackb_sable_tern_OPTIONAL_CANDIDATE_FAIL_SELFTEST.md`.
+- Track A report: `WORKSPACES/ELIAS_KERN/2026-11-14T2148Z_H837_S4_TRACKA_CANDIDATE_FAIL_SELFTEST_SOURCE_FIDELITY.md`.
+- New method-level replay: the candidate-failure scenario helper supplies a passing math-check status in both branches, so the negative case reaches `checked_pass` and does not spawn the failure-path jobs. The core aggregator handles an explicit failed check correctly.
+- Earlier 7/7 and 13/13 self-test claims for the same reported source snapshot cannot be reproduced from the preserved source plus actor-registry patch; the earlier full local copy/raw stdout are absent, so the discrepancy remains unresolved.
+- Public-safe issue #1755 is initially SUBMITTED_NOT_VERIFIED. This is test-harness evidence only, not a production failure or human/LLM result.
+- No POC/PR/adapter/production change. No response or disposition is requested; Track B remains free to ignore or consider this context independently. Repository pointer only; no Tern-thread delivery, consumption, or acknowledgment is claimed.
