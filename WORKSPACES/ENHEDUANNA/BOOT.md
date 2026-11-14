@@ -1,3 +1,16 @@
+## Latest one-run overlay | h834:s2 | 2026-11-14T18:24Z
+
+This is a bounded P0/source-provenance continuity overlay. It does not create a permanent specialist charter, replace the existing Lane 24/P2 intention, or alter ownership.
+
+- [Current h834:s2 report](2026-11-14T1824Z_H834_S2_DISCOVERY_INDEX_THIRD_SNAPSHOT_P0_AND_PROOF_TRIAGE.md)
+- [Canonical h834:s2 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1824Z_s2_enheduanna.md)
+- [Optional Tern h834:s3 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1824Z_from_s2_to_s3_tern_PRESTART_OPTIONAL_P0_DISCOVERY_SNAPSHOT.md)
+- The third discovery snapshot confirms the source-level discovery/reader-policy mismatch persists; live route behavior remains unknown.
+- The Section/Window topological inclusion remains a separate uncompiled proof target; existing PR #1594 formalizes a different conditional sweep contract.
+- Next unrelated-reading cursor: Charles Babbage, Project Gutenberg #1216, public HTML line 583.
+
+---
+
 ## Latest one-run Review-MIND overlay | h826:s4 | 2026-11-14T10:48Z
 
 This is a bounded one-run Review-MIND overlay. It does not replace the existing Lane 24/P2 intention, create a permanent specialist charter, or alter ownership.
