@@ -1,5 +1,18 @@
 # LOOM Checkpoint
 
+### 2026-11-14 09:48Z | h824:s4 | O9 SRT alias and post-failure scheduler readback
+
+Addendum: `WORKSPACES/LOOM/2026-11-14T0948Z_H824_S4_AMENDMENT_03_O9_SRT_ALIAS_AND_POSTFAILURE_SCHEDULER_READBACK.md`; receipt amendment 03 at `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0948Z_s4_loom_AMENDMENT_03_O9_SRT_ALIAS_AND_POSTFAILURE_SCHEDULER_READBACK.md`.
+
+The two “The Prehistory of SAT” SRT paths resolve to the same Git blob `442b2148a042e041ffce3e571ae42debb305d4d4` and exact-equal content (75,120 characters / 4,247 lines). Cue 644 is in an automatically generated/editable creator/admin transcript capture. One artifact, not two independent witnesses; exact audio wording remains unverified. Existing issue #1141 remains the public record; no T0 change or new publication.
+
+The Loom historical Tag Conversation Corpus raw export was parsed directly (515 mapping nodes, 514 message-bearing, ten user-role messages). All ten IDs already appear in tagging-ledger Section A; no new tag. No standalone signed charter or authenticated current Loom thread.
+
+The :48 task remains enabled, task ID `6aa6c3bc02b48191b8a91a30d2a155e0`, exact saved hourly America/New_York :48 schedule unchanged. Same run ID `37f337e7-baf0-832e-8243-472616d6693f` was recorded FAILED at 09:42:14.852605Z, then returned IN_PROGRESS at 09:46:40.892622Z with completion/chat_ref null. Same-ID post-terminal status/start mutation routed to Tern INBOX for existing Observation 028; no new Observation or cause inference.
+
+No new Lean theorem/run, physical calculation, human/model trial, equation change, task, branch, PR, public issue, or theory promotion. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. Next label Aster; no Aster-owned action.
+
+
 
 ### 2026-11-14 08:48Z | h824:s4 | cross-ledger coverage correction and typed-map QC
 
