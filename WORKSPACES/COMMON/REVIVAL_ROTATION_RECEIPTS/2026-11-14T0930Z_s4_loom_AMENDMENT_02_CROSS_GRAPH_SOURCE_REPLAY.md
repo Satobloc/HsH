@@ -9,7 +9,7 @@
 - Report: WORKSPACES/LOOM/2026-11-14T0930Z_H824_S4_MORROW_ALDUS_CROSS_GRAPH_SOURCE_REPLAY.md.
 - Machine-readable manifest: WORKSPACES/LOOM/MORROW_ALDUS_MIRRORED_STREAM_MANIFEST_2026-09-08.json.
 - Replayed two raw conversation exports and the exact prompt attachment snapshots. Git blob SHA-1 values were recomputed from materialized bytes and match the HsH source blobs.
-- Reproduced a 23-record ordered body match across 44-node Morrow and 28-node Aldus branches, with one shared work-activity group and six shared work-item IDs. The two user prompts and all three attachments are byte-identical; Morrow's first preamble/command/result predate the later Aldus prompt.
+- Reproduced a 23-record ordered body match across 44-node Morrow and 28-node Aldus branches, with one shared work-activity group and six shared work-item IDs. The two prompt bodies and all three attachment byte streams are identical; message and turn IDs differ; Morrow's first preamble/command/result predate the later Aldus prompt.
 - Interpretation remains cross-graph mirrored response/work-item stream; mechanism, backend identity and external side-effect count unresolved.
 - Existing Loom PR #759 source-overlap modules reused as conceptual guardrails. Run #41369984551 is a successful PR merge-reference build, not standalone exact-head/current-main verification. No new Lean code or run; local Lean/Lake/Elan unavailable.
 
@@ -28,4 +28,4 @@
 - Evidence routed to Tern's existing INBOX only. No Tern-owned Observation was edited and no new Observation was created.
 - The existing Sable h824:s3 optional handoff was read. Aster h825:s0 had already completed; no successor task or handoff was created.
 
-No sixth task, task/ID/cadence change, signet, conversation rename, direct cross-thread delivery, consumption or acknowledgment is claimed.
+No public issue was created because the internal source record contains conversation/work-item identifiers. No sixth task, task/ID/cadence change, signet, conversation rename, direct cross-thread delivery, consumption or acknowledgment is claimed.
