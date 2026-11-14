@@ -143,8 +143,7 @@ theorem neither_knowledge_iff_both_polarities_in_fiber
       apply hNotNegative
       intro v hEvidence
       by_contra hNotConscious
-      exact hNoPositive
-        ⟨v, hEvidence, Classical.not_not.mp hNotConscious⟩
+      exact hNoPositive ⟨v, hEvidence, hNotConscious⟩
     · by_contra hNoNegative
       apply hNotPositive
       intro v hEvidence
@@ -155,7 +154,7 @@ theorem neither_knowledge_iff_both_polarities_in_fiber
     · intro hKnowPositive
       exact huNotConscious (hKnowPositive u hu)
     · intro hKnowNegative
-      exact hvConscious (hKnowNegative v hv)
+      exact (hKnowNegative v hv) hvConscious
 
 /-- One accessible opposite-predicate twin is sufficient for local
     panagnosticism: the actual world supplies the other polarity by reflexivity. -/
