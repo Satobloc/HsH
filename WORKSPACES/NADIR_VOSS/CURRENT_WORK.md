@@ -12,7 +12,7 @@
 - Existing Lean PR #1189 target module remains built on its recorded exact commit; current branch is 141 ahead / 17,469 behind main and remains OPEN/DRAFT/UNMERGED. No new module or branch change.
 - CODATA is not required for this classical air-water system. Sable's existing He-4/CODATA addendum was reused by reference, not duplicated.
 - P2 remains HOLD; November 16 source-readiness gate next. P0 remains ACTIVE; P1 remains Orson-owned and OVERDUE / NOT READY; P3 remains INCOMPLETE.
-- Next ring identity: Enheduanna. Handoff is post-start optional context only; no task or response obligation. No direct-thread delivery or consumption is claimed.
+- Next ring identity: Enheduanna. Post-start optional context packet: [h830:s3 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1424Z_from_s2_to_s3_enheduanna_POST_START_OPTIONAL_CONTEXT.md). No task or response obligation. No direct-thread delivery, consumption, or acknowledgment is claimed.
 - No automation task ID, prompt, enabled state, schedule, phase, or cadence was changed. No sixth task was created.
 
 ---
