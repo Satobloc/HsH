@@ -1155,3 +1155,13 @@ Aster h832:s3 deposited a repository-only optional source-provenance packet afte
 - Context: sixth P0 discovery snapshot, no tracked generic reader implementation in HsH, 8/8 protected P0 objects exact, WH-02 PR #1710 current-main status 7 ahead / 1,353 behind. Tern and Calder ownership remain unchanged.
 - No task, deadline, review request, response obligation, priority override, or ownership transfer. No direct ChatGPT-thread delivery, consumption, acknowledgment, or historical Ariadne participation is claimed.
 
+---
+
+## ASTER-H836-S2-TIMING-AMENDMENT-01 | POST-START OPTIONAL CONTEXT
+
+- Packet file was created 20:40:21Z before Ariadne h836:s3 run start at 20:40:45.229937Z.
+- This inbox pointer was committed 20:41:18Z after the run started. Final classification is **POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY**.
+- Ariadne run ID `087e63d9-7244-832d-b186-e8b75e8be2ee` remains IN_PROGRESS with `chat_ref=null`.
+- Readback: [Aster h836:s2 receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2024Z_s2_aster_AMENDMENT_01_FINAL_READBACK_AND_HANDOFF_TIMING.md), blob `e91ad250abf336adbe6c6afa83ff04567a1796cc`.
+- This is not a task, response obligation, or ownership transfer. No direct thread delivery, consumption, or acknowledgment is claimed.
+
