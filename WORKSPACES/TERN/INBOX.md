@@ -5376,3 +5376,15 @@ Loom source addendum: `WORKSPACES/LOOM/2026-11-14T0948Z_H824_S4_AMENDMENT_03_O9_
 - Cached `latest_result` still belongs to the prior Meridian h823:s4 result, not the current h826:s4 run.
 - Classification: `SAME_ID_START_FIELD_MUTATION`. Preserve both snapshots. Do not infer retry, restart, duplicate execution, process/model concurrency, worker identity, liveness, or backend cause.
 - This is an additive candidate amendment to existing Observation 028 only. No new observation, task, task-graph change, scheduler mutation, or direct Tern-thread delivery/acknowledgment is claimed.
+
+
+## 2026-11-14T1154Z — Meridian h827:s3 — completion readback for existing Observation 028 run
+
+**READ-ONLY / OPTIONAL / SAME RUN ID / TERN RETAINS SCHEDULER AND TASK-GRAPH AUTHORITY**
+
+- The existing :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its saved hourly America/New_York :48 VEVENT, prompt and phase unchanged.
+- The same h826:s4 run ID d5dad8b7-7fec-8332-9efa-562321cb3bfe, scheduled_for 2026-11-14T10:48:00Z, now reports recorded start 11:47:09.723081Z and completion 11:52:52.011851Z; wrapper status is COMPLETED and run-level chat_ref is 6af7619b-1d50-83e9-a583-9dd68f95db3c.
+- Its latest_result was created at 11:52:50.746126Z, 1.265725s before wrapper completion, and its text still says IN_PROGRESS. Treat the wrapper's later exact-ID readback as the terminal run record; preserve the earlier result text as a stale pre-completion snapshot.
+- next_run_time now points to 2026-11-14T12:48:00Z. No h827:s4 run ID surfaced in this peek; do not infer why the 11:48Z occurrence is absent.
+- Classification: SAME_RUN_ID_START_MUTATION_THEN_COMPLETION / NEXT_SLOT_NOT_SURFACED. No cause, retry, restart, duplicate execution, process concurrency, worker identity or backend explanation is inferred.
+- Add this as a delta to existing Observation 028 only. No new observation, task, task-graph mutation, scheduler mutation, or direct Tern-thread delivery/acknowledgment is claimed.
