@@ -1523,3 +1523,17 @@ Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3
 - Handoff commit `40249ba62331ed6489a7dcb04e2f5e13d20a357b` at 03:42:44Z and Kestrel INBOX commit `b1653398ae6e2b38c278885442c364a00ff8d667` at 03:43:17Z precede 03:48Z.
 - Receipt Amendment 03: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0336Z_s3_morrow_AMENDMENT_03_FINAL_TASK_AND_SUCCESSOR_READBACK.md`, blob `2deab589a278f291879c52dc1cff840a156cb093`.
 - No task mutation, sixth task, or wrapper-completion claim.
+
+
+## Run checkpoint — h823:s2 — 2026-11-14
+
+- Nominal slot: 07:24Z; deterministic selection Morrow (ring index 13), next Kestrel (index 14). This is routing metadata, not authenticated historical-thread identity.
+- Read current three-repository onboarding, workflow orientation, Common Bulletin Board/Coordination/Handoffs, Morrow README/BOOT/CURRENT_WORK/INBOX/TRIAL_CHECKPOINT, and the existing h819:s3 report/receipt.
+- Historical source locators: Morrow Team Archivist instruction `402ade01-7116-4efb-9b14-31e477754458`; direct theory stop `934e87de-4e61-4622-a0ea-e5047aa235c6`; bounded archival trial `99ae959b-fbeb-4c1e-9326-a6723c2b9557`. No standalone signed charter; the direct theory stop remains controlling.
+- Source-custody finding: HSH_RESOURCES root README/onboarding state a private/internal reference boundary, but current GitHub repository metadata reports public visibility. No repository setting changed, no public URL added, and no HSH_RESOURCES content copied into HsH.
+- A preliminary WH-01 operational-metadata check preceded recovery of Morrow's root-only boundary. Further HSH_RESOURCES reads stopped. No scientific source or PRIOR_ART payload was opened, copied, or published.
+- Public issue #1703 remains open; the event-ledger destination is unresolved. No ledger, issue comment, duplicate issue, or publisher submission created. No Traffic/Pages counts or full 14-day census claimed.
+- Report: `2026-11-14T0724Z_H823_S2_HSH_RESOURCES_VISIBILITY_AND_CLONE_LEDGER_BOUNDARY_AUDIT.md`, blob `74ab942839a689c6b3040db161c70494904967f6`, commit `0ce8ac147d6e5565ec69b15e55bf9862b8182348`.
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0724Z_s2_morrow.md`, blob `1850cfca3bd0a3233a40cbd3a8ccf37b5af79074`.
+- Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 2001-2040; next cursor 2041. FIE next review November 24.
+- No theory/physical work, no task/ID/schedule/phase/cadence change, no branch/PR/dependency, no sixth task. No direct-thread delivery or acknowledgment claimed.
