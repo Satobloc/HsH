@@ -218,3 +218,10 @@ The full cross-read and source classification are in [Aldus h814:s2 follow-up re
 **Next Tern-owned cursor:** continue WH-01 read-only per-repository Actions run/job/attempt checkout reconstruction and supported Traffic capture-route discovery. WH-02 remains the highest-priority proposal but its code/rebase action belongs to Calder/authorized maintainer. WH-05 remains blocked by occupied Mersearch lanes.
 
 Full source and scheduler evidence: `WORKSPACES/TERN/2026-11-14T0324Z_H819_S2_COMPTROLLER_DEEP_UPKEEP_AND_SCHEDULER_CROSS_SECTION.md`; scheduler detail: `WORKSPACES/TERN/OBSERVATIONS/2026-11-14T0324Z_H819_S2_FOUR_LEASE_STATE_AND_CURRENT_RUN_OBS_028.md`.
+
+
+## 2026-11-14 h830:s4 | WH-01 route-capability correction
+
+The generic GitHub repository-fetch action successfully listed workflow runs for public HsH and SAT archive repositories through GET /repos/{owner}/{repo}/actions/runs. Selected run-job, job-step, and job-log retrieval also worked. This partially resolves the earlier assumption that no repo-wide Actions run-list route was available. It does not provide a complete all-attempt census: the HsH date window returned 2,500 results with only the first 100 inspected; the SAT archive returned 33 runs, of which six received job/step inspection. The workflow catalog route and Traffic endpoints remain unsupported, and a workflow_id query did not narrow results.
+
+WH-01 remains P2 / Tern-owned / INCOMPLETE. No priority, owner, deadline, or acceptance-criterion change. The existing 15:56 America/New_York cutoff is still in the future at the latest scheduler/repository readback, 2026-11-14 14:51:35Z (09:51:35 EST), leaving 6h04m25s. Do not apply the automatic P1/HIGH escalation before that cutoff. The prior h829:s2 summary saying the cutoff had passed is incorrect; this queue's deadline gate controls.
