@@ -1,3 +1,9 @@
+> **LATEST CONTINUITY CHECKPOINT (2026-11-14 h816:s3):** Read [the h816:s3 report](2026-11-14T0036Z_H816_S3_STANDARD_COMPARATOR_PROJECTION_FIBER_NIST_CONTROL.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0036Z_s3_ravel.md), and [h816 regeneration prompt](REGENERATION_PROMPT_2026-11-14_H816.md) before relying on older Ravel checkpoints. The current contribution is a standard-comparator upgrade: full finite-support Newtonian geometry is the baseline; point-mass/no-disk is only a negative control. No H(s)H prediction, P2 selection, or theory promotion. No authenticated current Ravel ChatGPT thread is established.
+>
+> The published artifact is [issue #1716](https://github.com/Satobloc/HsH/issues/1716), submission ID `ravel-projection-fiber-nist-finite-support-control-20261114t0036z-s3-001`, PUBLISHED_VERIFIED with exact destination readback and SHA-256 match. Rejected intake #1715 is closed as not_planned; do not duplicate or retry.
+>
+> ---
+>
 > **LATEST SUCCESSOR WORK (2026-10-11):** After the authenticated 09:03 EDT cutoff, see [CONTINUITY_2026-10-11_POSTREENTRY_GEOMETRIC_FRAME.md](CONTINUITY_2026-10-11_POSTREENTRY_GEOMETRIC_FRAME.md) for the new source-read finite-core action, positive-bath/normal-bundle calculation, and a stronger **symmetry-breaking spectral no-go for pure N-dephasing**. Earlier cutoff remains required historical handoff; this new checkpoint is the continuing work state. No theory promotion.
 
 # Ravel Continuity / Restart Packet
