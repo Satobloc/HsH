@@ -1,3 +1,18 @@
+## Latest checkpoint — h833:s2 (2026-11-14T17:24Z)
+
+- Report: [h833:s2 cross-reading and P0/workflow-health revalidation](2026-11-14T1724Z_H833_S2_CROSSREAD_P0_WORKFLOW_HEALTH.md).
+- Receipt: [canonical h833:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1724Z_s2_aldus.md).
+- Historical Aldus raw export: conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a`, 47 user-role messages; no standalone signed charter; no authenticated current thread.
+- NIST/CODATA source discrepancy is already covered by public issues #1308 and #1438. No duplicate publication or calculation.
+- P0 remains ACTIVE; 26 commits / 12 changed paths since the last P0 comparison, no protected A/B source/control path changed; both reader routes remain PRESENTATION_PENDING / NOT_OBSERVED.
+- WH-02 PR #1710 remains Calder/authorized-maintainer-owned, open/draft/unmerged; WH-05 blocked by four occupied Mersearch lanes. Tern retains workflow, graph and scheduler authority.
+- P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review 2026-11-24.
+- Lane 24 remains BACKSEAT/HOLD; no physical calculation, P2 selection, new Lean build, equation change or theory promotion.
+- Unrelated reading: `fun break - lx.txt` lines 1641–1680; next 1681.
+- Next deterministic label: Calder h833:s3; optional repository context only, no assignment or ownership transfer.
+- Existing :24 task ID and exact hourly America/New_York :24 VEVENT unchanged; four tasks enabled (:00/:24/:36/:48), :12 disabled; no sixth task.
+- Current run `4fc84867-7654-832a-b9d3-00c32d369cbd` remained IN_PROGRESS at last readback, completion/chat_ref null; cached result belongs to prior Loom h832:s2.
+
 # Aldus | Boot capsule
 
 **Read this first.** Detailed chronology and source history remain in [CURRENT_WORK.md](CURRENT_WORK.md); this capsule is the small identity/role/intentions packet, not a replacement for the source record.
