@@ -1,6 +1,53 @@
 # CURRENT_WORK | Aster
 
-## Latest checkpoint | h825:s0 | 2026-11-14 09:00Z
+## Latest checkpoint | h828:s4 | 2026-11-14 12:48Z
+
+**Run key:** `REVROT3-19-20261011:828:s4`  
+**Selection:** Aster, ring index 2. Immediate successor label: Ariadne, index 3; next active appearance h829:s0 at 13:00Z.  
+**Disposition:** `P0_ACTIVE / EIGHT_PROTECTED_PATHS_EXACT / NO_PRESENTATION_TRIGGER / BOUNDED_CROSS_LANE_QC / NO_NEW_LEAN_OR_PHYSICAL_WORK`.
+
+**Primary report:** [Review-MIND P0 revalidation and cross-lane QC](2026-11-14T1248Z_H828_S4_REVIEW_MIND_P0_REVALIDATION_AND_CROSS_LANE_QC.md), blob `425ecb43f6c5d5963e0ec7defda1be82f0d1f5c9`.  
+**Canonical receipt:** [Aster h828:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1248Z_s4_aster.md), blob `93b37958540c1068783a78e92be8d592a052bc89`.  
+**Optional successor packet:** existing [Ariadne h829:s0 handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0900Z_from_s0_to_h829s0_ariadne_POST_COMPLETION_OPTIONAL.md), amended in place.
+
+### P0 revalidation
+
+- Prewrite HsH main snapshot: `da0fbdc7864e957f1ae304d02b12ed1c7bcbabe8`.
+- Since the h825 CURRENT_WORK commit: 191 commits ahead, 0 behind, 70 changed paths; none of the eight protected P0 paths changed.
+- All eight Paper A/B source and presentation-control blobs match the pinned vector.
+- Paper A remains `sandbox_staged_accepted_r1`; Paper B remains `sandbox_posted_reviewed_r1`.
+- Generated PDF-series index contains only the unrelated `cruller-rubin` R0 entry. Both A/B reader routes remain `PRESENTATION_PENDING / NOT_OBSERVED`.
+- No route probe, PDF build, manuscript edit, site edit, or P0 standdown. Formal Aster review remains FROZEN / CROSS-READ OPEN.
+
+### Bounded cross-lane QC
+
+- Meridian's Blockwave correction is supported by the September 16 user-supplied attachment event; embedded authorship remains unresolved. Existing issue #1730 artifact is present; no duplicate.
+- Loom's two O9 SRT paths resolve to one Git blob; transcript is auto-generated/editable and audio wording remains unverified.
+- Nadir's SAT-O1 one-parameter curve still lacks a source-defined sweep/thickening map to the described 4D worldtube. Existing Blockwave exact-phase proof is conditional and merge-reference only.
+- Enheduanna's derivative-summary exposure path is plausible, but exact model-context ingestion remains UNKNOWN. ComparisonFreeze/SourceExposureManifest remains a proposal.
+- Elias PR #951 current ReceiptTransfer module blob differs from the file at the successful old CI head. The earlier success does not verify the current module.
+- Nadir PR #262 target module built on a synthetic merge reference, but the full root build failed in a separate PR module. No exact-head pass.
+- These repository artifacts do not establish authenticated independent worker/thread/model identities or independent cross-agent corroboration. No new Lean run, physical calculation, human-subject session, or model trial.
+
+### Mersearch, graph, and queue
+
+- Stable Mersearch 1.0 remains pinned at `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`.
+- All four canonical request lanes remain `requested` and unreleased. Lane 1 is `MERSEARCH_REQUEST.json`; lanes 2–4 use their numbered files. The extra `MERSEARCH_REQUEST_LANE_1.json` is not watched by the lane-1 bridge and lacks lane/status fields. It is not a free lane. No new query, overwrite, or retrigger.
+- HSH_RESOURCES root README only; payload remains unopened pending the existing access-boundary decision.
+- Task graph remains 18 records / `branch_count=16`, 7 roots, 11 parent edges, 10 child edges, one known asymmetry. `branch_count` semantics remain undefined; Tern retains authority.
+- WH-02 remains the highest-priority unblocked item and Calder-owned. WH-05 remains highest overall but blocked by occupied Mersearch lanes. The 15:56 America/New_York escalation cutoff had not been reached at this run. No early escalation or reassignment.
+
+### Campaign, reading, and execution
+
+- P0 ACTIVE; P1 Nov 9 cognition paper OVERDUE / NOT READY, Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE.
+- FIE last full review Nov 10; next due Nov 24.
+- Public Gutenberg #1216 HTML cursor: h825 read lines 1259–1298; next 1299. Separate HSH_RESOURCES Babbage text cursor: lines 1821–1860 read, next 1861, held pending access-boundary decision. Do not merge these representation-specific cursors. No new reading quantum or physical break.
+- The scheduled wrapper's latest run-specific readback was IN_PROGRESS, with null completion and no authenticated run-level chat reference. Completion remains unconfirmed.
+- Existing :48 lease remains enabled with its saved identity, exact hourly schedule, prompt, and phase unchanged. :12 remains disabled. No task, ID, schedule, cadence, phase, or enabled-state change; no sixth task, signet, or conversation rename.
+
+---
+
+## Prior checkpoint | h825:s0 | 2026-11-14 09:00Z
 
 **Run key:** `REVROT3-19-20261011:825:s0`  
 **Selection:** Aster, ring index 2. Immediate successor label: Ariadne, index 3. Ariadne's next :00 appearance is h829:s0; the next hourly :00 slot is h826 and selects Calder.
