@@ -182,3 +182,14 @@ Separate Cruller preprint:
 
 **HANDOFF MESSAGE TO NEXT MERIDIAN:**  
 Start with the **marked four-dimensional rotating material**, not with the field strength of a pure SO4 gauge connection. The three-dimensional orbit is already a bent 4D worldline in the native construction. Work out what those histories physically constrain *before* asking whether they alter the optical geometry. Then close the bridge to standard physics with minimal pairs, independent constraints, real units and honest failures. No more accidental "rotation isn't curvature."
+
+
+## Source-fidelity correction | 2026-11-14 | h820:s0
+
+The raw October 21 Meridian Minkowski Ring Analysis source (conversation 6ad7e9c0-e8a0-83e9-984e-94d020de3abf, blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703) contains direct user message 59cdedb4-be76-455a-87c8-a6089de951b3: "3D rotation absolutely is 4D curvature. All 3D acceleration is." The message does not define the curvature object, the marked object, the 3D-to-4D map, or the time parameter. The immediate assistant response interpreted this as bending of a marked material history/worldtube in a fixed affine time slicing. No subsequent user message on the recovered branch confirms those added conditions. Therefore "marked material history" and "fixed affine time slicing" are assistant-added assumptions, not Nathan Direct.
+
+The later handoff sentence "the three-dimensional orbit is already a bent 4D worldline in the native construction" is too strong as source attribution. Preserve it only as a conditional assistant reconstruction. The separate October 9 direct statement that inertia and worldtube bending are equivalent descriptions (Meridian Free Build raw blob 7af1561b321f4d9364da5eb111df689efc652827, message 5a929b5e-515e-4f77-a32a-e49feef42812) is a conceptual equivalence claim, not a typed mathematical map.
+
+Keep the October 9 direct w=ct witness and October 21 direct cw=t witness separate. No conversion, normalization, or supersession map is established. The older reciprocal filament/timesheet-deformation model is superseded by the Klein Fabric update per direct message 090f5160-1020-486d-9c42-df3d7dff2063. Do not present it as the current operative model.
+
+See the h820 Lane 00 source-fidelity report for the full discrepancy ledger, original SAT-O1/Blockwave custody, existing Lean evidence, and next cursor.
