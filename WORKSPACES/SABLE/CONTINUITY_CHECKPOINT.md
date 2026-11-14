@@ -1227,3 +1227,16 @@ The final exact-ID peek found the existing :36 task `6a9f52b69ec08191b0a2ba24a07
 - Main branch pre-checkpoint-update head: 8ae5cf1cd49c6ab7a6237d94d46cb8226509ca4f. Full details: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0836Z_s3_sable_AMENDMENT_01_PUBLISHER_AND_FORMALIZATION_READBACK.md.
 
 **Return pin:** H824:S3 / SABLE / LOOM-NEXT / ISSUE1734-PUBLISHED_VERIFIED / PR873-INTERSECTION-CI / PR1133-READOUT-CI / MAPS-UNINSTANTIATED / SAME_ID_START_FIELD_MOVEMENT / FINAL_TASK_LOOKUP_UNAVAILABLE / NO-TASK-MUTATION / NO-DUPLICATE.
+
+
+
+
+### 2026-11-14 | h824:s3 | Amendment 01 follow-up - exact task peek recovered
+
+- A later exact-ID `peek` succeeded and found the original :36 automation ID `6a9f52b69ec08191b0a2ba24a074f781`, title `Workshop Relay :36 | Worldtube`, `is_enabled=true`, with the exact saved VEVENT `DTSTART;TZID=America/New_York:20261001T143600 / RRULE:FREQ=HOURLY`.
+- Current run record remains ID `02b3ed6d-b180-8331-8ca1-ebb5622432ad`, scheduled 08:36Z, started 09:05:15.476625Z, `in_progress`, completion null, run-level `chat_ref=null`.
+- Cached `latest_result` is still prior Kestrel h823:s3, run ID `d2561ca0-8088-8326-b1da-4bb647c856dc`, scheduled 07:36Z, completed 08:11:09.404624Z. It is not this Sable run. Task-level summary timestamps remain stale.
+- The earlier exact-ID `peek`/`get` 404s are superseded by the later successful peek and are treated as transient access failures, not evidence of deletion or disablement. No task mutation, replacement, list-driven disablement, schedule change, or sixth task.
+- The existing h824:s3 report and issue #1734 remain the only substantive report/publication. Publisher verification, PR #873/#1133 Lean crosswalk, and public-safe projection boundary are recorded in Receipt Amendment 01. No duplicate report, issue, handoff, or reading.
+- Current Sable source-grounded revival remains unauthenticated as a historical thread; no new chat or cross-thread delivery claim.
+
