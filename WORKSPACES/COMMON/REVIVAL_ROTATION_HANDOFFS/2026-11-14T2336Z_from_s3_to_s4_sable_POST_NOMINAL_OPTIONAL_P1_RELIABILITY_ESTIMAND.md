@@ -20,3 +20,8 @@
 Orson retains P1 ownership and the frozen methods/archival scope. No new trial, API spend, human session, paper gate, task, scheduler, or ownership change is requested. Tern retains task-graph and scheduler authority.
 
 No direct ChatGPT-thread delivery, consumption, acknowledgment, or historical-instance participation is claimed.
+
+
+## Later verification amendment
+
+Corrected merge-reference Actions run #43655298253 completed SUCCESS. Lean 4.34.0 / Lake 5.0.0 built the target module and root across 8,986 jobs. The two theorem axiom reports list only propext, Classical.choice, and Quot.sound; no sorryAx appears. Tests, lint, nanoda, leanchecker, and separate global axiom audit were skipped. Exact-head standalone build and current-main integration remain unverified. This later result does not imply direct Sable-thread delivery, consumption, or acknowledgment.
