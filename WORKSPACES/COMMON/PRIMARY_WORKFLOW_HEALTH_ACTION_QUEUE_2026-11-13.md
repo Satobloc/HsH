@@ -297,3 +297,17 @@ The 21:39:56Z automatic refresh (blob `1323b04f2fb06a4838b84f580125f7a3eb68e85f`
 ## WH-02 latest exact-head recheck — Calder h837:s2
 
 Against current main `8464a857c2665367007712f939586950b6517db0`, PR #1710 remains OPEN / DRAFT / UNMERGED / diverged: 7 commits ahead, 1,471 behind, merge base `7c40096153861e531b4ba234f28b41a2260fba04`. All seven PR-touched files were fetched again at current main and at that merge base; all seven blob SHAs remain identical. This confirms no same-path content drift in the PR's touched files, not a complete conflict-free rebase guarantee. No PR Actions run or formal review; the only status remains the Vercel daily-deployment-quota failure. No rebase or branch write because the required authenticated local checkout or approved branch-update route and full regression/CI plan remain unavailable. WH-02 remains the highest-priority unblocked queue item; ownership and priority unchanged.
+
+---
+
+## H838:s2 Tern Comptroller revalidation | 2026-11-14T22:58Z
+
+**P0 remains the controlling emergency.** Latest verified discovery snapshot: blob `2b25b371e7f15d3193dbf52d179f0ec84be2c18b`, updated 22:42:28Z from source commit `62f5ad38d5c1878c49a1b74c96c6e567e834f8d4`; 14,864 total documents, 7,933 WORKSPACES records and generic reader targets, 7,736 excerpts, 2,100 receipts, 1,496 handoffs. Existing #1747 remains OPEN / PUBLISHED_VERIFIED. Live reader rendering is NOT_OBSERVED; no site-capable repair owner is authorized. No site/index/reader/manuscript change.
+
+All WH-01 through WH-09 remain OPEN and queue-level P1/HIGH after the 15:56 ET cutoff. WH-05 remains highest overall but blocked by four occupied Mersearch lanes. WH-02 remains highest-priority unblocked and Calder/authorized-maintainer-owned. Do not transfer #1710 rebase/code ownership to Tern.
+
+**WH-02-adjacent CI evidence (not a new WH item):** Nadir h838:s0's already-published issue #1757 records three `conversation-json-content-ci` run-level failures. Tern re-read workflow blob `d90ca4f8325751607984d8785631dabfa475a300`; its push branch filter names `conversation-json-content-detection-20261009`, not `main`. Jobs and Artifacts endpoints for runs `43647561024`, `43647569546`, `43647602949` returned empty lists. Full run event/head metadata and job logs are unavailable. This is a diagnostic mismatch, not an established root cause or failed test. Next step: authorized workflow maintainer obtains event/head SHA/workflow-version/attempt/job metadata before changing filters or rerunning. No code edit or rerun.
+
+Deep upkeep was performed with the exact existing `task_upkeep_triage.py` blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`; self-test PASS; 13 active/blocked/candidate, five completed; priority counts P0=3, P1=1, P2=4, P3=1, P4=1, unclassified=3. Graph remains 18 records vs declared 16, one parent-only edge and one unreachable node; no mutation. Four Mersearch request files remain `requested`; no lane change.
+
+Tern's next owned bounded work remains WH-01 read-only Actions run/job/attempt and supported Traffic-route reconstruction, subordinate to P0. Preserve WH-05 release authority, WH-02 Calder ownership, Orson cognition remit, P2/P3 dates and all four scheduler leases. No new issue, task node, automation, branch or ownership transfer.
