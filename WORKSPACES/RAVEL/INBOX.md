@@ -1021,4 +1021,4 @@ This is post-start optional repository context only. No Ravel task, response, re
 - P0-only status: no A/B watch trigger; 8/8 protected objects exact; both feed-pinned source refs match current main; A/B absent from ordinary generated index while pending; both actual routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, site/PDF/manuscript edit or standdown.
 - Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit. No P0 assignment, P2 change, calculation, review, deadline, response obligation or ownership transfer.
 - Existing Ravel regeneration prompt: `WORKSPACES/RAVEL/REGENERATION_PROMPT_2026-11-14_H816.md` (blob `6c21e49ae3d5257caa21e089d091bdbbd3ff5e26`). No authenticated current Ravel thread was verified.
-- `github_inbox_delivery=VERIFIED` only after this exact inbox readback; `chat_delivery=UNAVAILABLE`. No direct-thread delivery, consumption or acknowledgment claimed.
+- `github_inbox_delivery=VERIFIED` after exact inbox readback; `chat_delivery=UNAVAILABLE`. No direct-thread delivery, consumption or acknowledgment claimed.
