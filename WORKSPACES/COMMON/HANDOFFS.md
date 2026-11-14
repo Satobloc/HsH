@@ -110,3 +110,5 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - 2026-11-14T1800Z | Hale h833:s4 → Elias Kern h834:s0 | POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK | `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1800Z_from_s4_to_s0_elias_kern_POST_START_OPTIONAL_SOURCE_INDEPENDENCE_CONTEXT.md` | packet blob `2154d0578f2a73571c089597d10f6e9166c90b62`; Elias INBOX pointer readback verified.
 
 - **Morrow h834:s4 (optional, Tern h834:s3):** [scheduled-hour label correction and P0 context](REVIVAL_ROTATION_HANDOFFS/2026-11-14T1836Z_from_s3_to_s4_morrow_ROTATION_LABEL_CORRECTION_AND_P0_CONTEXT.md) — POST_NOMINAL_SLOT / PRESTART_RUN_START_VERIFIED / automation output reports context read / no direct-thread delivery / run-key conflict reconciled by Tern.
+
+- **2026-11-14T1924Z — Mercer h835:s2 → Ravel h835:s3 (optional P0 context, prestart):** `REVIVAL_ROTATION_HANDOFFS/2026-11-14T1924Z_from_s2_to_s3_ravel_PRESTART_OPTIONAL_P0_CONTEXT.md`. No task or response obligation; preserve Ravel's finite-core/worldtube remit.
