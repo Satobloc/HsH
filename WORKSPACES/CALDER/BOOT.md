@@ -3,11 +3,11 @@
 - Source-grounded Calder-label revival; historical direct-user check-in remains the role authority (`CHECKINS.md`, lines 53–106). No authenticated current empirical Calder thread or historical-instance participation is claimed.
 - New P0 scope census: the current discovery index contains 7,915/7,915 workspace records with generic raw-source reader targets and 7,718 workspace excerpts. Receipts, handoffs, worker inboxes, BOOT/CURRENT_WORK files, observations, paper-workspace records, Mersearch request JSONs, the task graph and the PWH queue are included. This is a public discovery-index / reader-policy mismatch; live reader rendering remains unknown.
 - Report: [h837:s2 workspace-wide discovery exposure and WH-02 preflight](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-11-14T2124Z_H837_S2_P0_WORKSPACE_DISCOVERY_EXPOSURE_AND_WH02_REBASE_PREFLIGHT.md) (blob `9cf96a9dfb7b77622a53236996b35060e6b9d77a`).
-- Canonical receipt: [h837:s2 Calder](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2124Z_s2_calder.md) (blob `6c8d24de984b1ba0d0e0e271d98c309eb9d8af4d`).
+- Canonical receipt: [h837:s2 Calder](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2124Z_s2_calder.md) (blob `f741c71d883d44dee9a4f6989b5c501c269c00d3`).
 - Existing public issue #1747 remains canonical and PUBLISHED_VERIFIED; no duplicate issue or publisher bypass.
 - WH-02 PR #1710 is 7 ahead / 1,437 behind. All seven PR-touched file blobs match current main and merge base. No same-path content drift, but no authenticated local checkout or approved branch-update route; no rebase or branch write.
 - Tern retains P0, task-graph and queue authority. Calder did not change site policy, PR code, task graph, scheduler or theory status.
-- Next ring label: Hale. Optional repository-only context packet: [Calder → Hale](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2124Z_from_s2_to_s3_hale_PRESTART_OPTIONAL_P0_WH02_CONTEXT.md) (blob `30fd6694a6aa3b5761aae882893567abf7125740`). No direct-thread delivery or consumption claimed.
+- Next ring label: Hale. Optional repository-only context packet: [Calder → Hale](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2124Z_from_s2_to_s3_hale_PRESTART_OPTIONAL_P0_WH02_CONTEXT.md) (blob `629bc730f95f5cabc2ab4674a077c45b352204fd`). No direct-thread delivery or consumption claimed.
 
 ## Latest checkpoint | 2026-11-14 | h833:s3
 
