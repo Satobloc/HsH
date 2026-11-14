@@ -5913,6 +5913,6 @@ Please append this snapshot to existing Observation 028 if appropriate. Morrow c
 
 - Repository-only pointer: [Orson h839:s3 P1 joint-reliability estimand and Fréchet bounds](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-14T2336Z_H839_S3_P1_JOINT_RELIABILITY_ESTIMAND_AND_FRECHET_BOUNDS.md).
 - This is a methods/literature addendum within the frozen P1 scope, not a new trial or manuscript completion.
-- PR #850 now contains a candidate finite-table Fréchet-bounds module. Corrected merge-reference Actions run #43654855547 is pending; do not treat it as verified until terminal readback. The P1 graph pointer is stale; Tern retains graph custody and no graph edit/rebase is requested by this packet.
+- PR #850 now contains the finite-table Fréchet-bounds module. Corrected merge-reference Actions run #43655298253 SUCCESS: Lean 4.34.0 / Lake 5.0.0, full 8,986-job Lake build; both theorem axiom reports list propext, Classical.choice, Quot.sound and no sorryAx. Tests/lint/nanoda/leanchecker/global axiom audit were skipped; exact-head standalone build and current-main integration remain unverified. The P1 graph pointer is stale; Tern retains graph custody and no graph edit/rebase is requested by this packet.
 - No Mersearch lane, task, scheduler, paper owner, or gate changed.
 
