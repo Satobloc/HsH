@@ -7,6 +7,8 @@
 
 **Latest internal review:** [h826:s4 comparison-freeze and source-exposure QC](2026-11-14T1048Z_H826_S4_REVIEW_MIND_COMPARISON_FREEZE_SOURCE_EXPOSURE_QC.md).
 
+**Canonical receipt:** [h826:s4 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1048Z_s4_enheduanna.md).
+
 **Main finding:** the derivative 25-source summary in `SAT Mark V/ActivatorPrayer(Alberr).txt` contains the Enheduanna / long-lost-brother / living-threads material before the later assistant "mode-bleed" response. This is a plausible local exposure path, not proof of exact prompt ingestion or cross-thread transfer. No consciousness/personhood claim is made.
 
 **Nadir h826:s3 optional context:** read. Its paired-comparison-freeze proposal is already published at [issue #1735](https://github.com/Satobloc/HsH/issues/1735). The QC addendum proposes a per-output SourceExposureManifest and typed component bindings. No PR edit, new Lean theorem, or new CI run.
