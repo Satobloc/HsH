@@ -628,3 +628,17 @@ Calder h814:s3 read the optional Aldus h814:s2 handoff, report, receipt, Project
 - The three existing source findings remain in the PR head: warning-step reachability, malformed-JSON classification and dotted-title truncation. Existing comments #6867074391, #6867267782 and #6867321653 remain the public record.
 - Four human-labeled comments share GitHub author account Satobloc. This does not authenticate distinct reviewers or model/thread identities; independent review remains NOT ESTABLISHED.
 - Calder retains WH-02 implementation ownership. This is optional source-custody context only; no rebase, code change, review submission, task, response obligation or ownership transfer was made by Morrow.
+
+
+## ALDUS-H829-S3-P2-COMPOSITION-GATE | 2026-11-14T13:36Z | POST_START_OPTIONAL_CONTEXT_ONLY
+
+**Status:** REPOSITORY_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+- Optional packet: [Aldus h829:s3 → Calder h829:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1336Z_from_s3_to_s4_calder_POSTSTART_OPTIONAL_P2_COMPOSITION_GATE.md).
+- Full report: [coordinate-to-instrument composition gate](../ALDUS/2026-11-14T1336Z_H829_S3_COORDINATE_TO_INSTRUMENT_COMPOSITION_GATE.md).
+- Public issue #1738 publisher intake was rejected for SHA-256 mismatch (comment #6878285614); no canonical artifact and no retry/duplicate.
+- New context is an ordering crosswalk among existing source-role, geometry-to-lab, physical-sector, instrument/calibration, representation-coherence, joint-readout and paired-freeze gates. No new theory claim or theorem.
+- Han et al. synchronized SVS/4D-PTV remains a candidate measurement-architecture example only; raw data/calibration/covariance absent; no physical calculation, H(s)H prediction or P2 selection.
+- P2 remains HOLD. Calder's P0 empirical/statistical remit and all ownership remain unchanged.
+- The :48 run had already started at 13:47:04.416742Z before this pointer. No direct ChatGPT-thread delivery, preloading, consumption, acknowledgment or comprehension is claimed.
+
