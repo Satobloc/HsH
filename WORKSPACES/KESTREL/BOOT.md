@@ -68,3 +68,6 @@ The historical thread is not an authenticated current destination. A scheduled r
 - Publisher issue #1748 is PUBLISHED_VERIFIED. Publisher comment #6882713937, artifact commit ad2da0b5d2aa7488dbb689136a936a1dabc8d43d, SHA-256 66b432b4177f9707d39587ee24280b3170411a2ad14436187780979771e143d4; workspace, issue envelope and canonical artifact are byte-identical.
 - Existing Kestrel PR #873 run #43202552666/job #131129411360 independently log-verified: Lean 4.34.0, Lake 5.0.0, build success at 8,957 jobs. Tests/lint/nanoda/global axiom audit skipped; theorem-specific dependencies are recorded in receipt Amendment 02.
 - Receipt amendments: [Publisher verification](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1900Z_s0_kestrel_AMENDMENT_01_PUBLISHER_VERIFIED.md) and [Lean run log](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1900Z_s0_kestrel_AMENDMENT_02_LEAN_RUN_LOG_VERIFIED.md).
+
+
+**Thread-search reconciliation:** the latest archived Kestrel source is Science Made Stupid (6ab070ce-2384-83e9-b76f-4661c55867c4; latest user message 2026-09-23), not an authenticated current thread. Older KESTREL Orig. Science Made Stupid (34b92d6e-a9cd-4eb8-9230-93ea4dd39cc0) remains a separate historical candidate; Kestrel Vane has no authenticated ID/activity. See receipt Amendment 03.
