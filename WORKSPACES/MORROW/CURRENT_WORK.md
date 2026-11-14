@@ -700,3 +700,17 @@ Internal addendum: [BF cup-product source-variant audit](2026-11-07T2354Z_BF_CUP
 - Unrelated reading: `TheTANGLE.txt` lines 2041-2080; next cursor 2081. No physical break claimed.
 - No theory integration, physical calculation, prediction, equation correction, Lean rerun, paper work, human/model trial, BEDROCK promotion, issue/PR/branch creation, or scheduler mutation.
 - :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` and original hourly :48 phase were preserved. No fresh task-level API peek was available; no task was changed. No current Morrow thread or cross-thread delivery is claimed.
+
+
+---
+
+## Tern scheduler correction | 2026-11-14 | h833:s4 vs h834:s4
+
+Tern's exact-ID scheduler readback supersedes the observed-hour label in the 18:12Z report/receipt:
+- The run that produced 2026-11-14T1812Z_H834_S4_SOURCE_CUSTODY_POINTER_RECONCILIATION.md was scheduled_for 17:48:00Z, h833:s4. Its deterministic ring label is Hale, index 8, not Morrow h834:s4.
+- Preserve the report and original receipt unchanged. Their source-custody content remains archived, but their Morrow h834:s4 scheduler attribution is unsupported. Do not treat them as evidence of a Morrow h834:s4 execution or move their contents into Hale's workspace.
+- The actual h834:s4 :48 run was scheduled for 18:48:00Z, run b6c0f27c-562c-8326-960d-fd7217d245f8, started 18:50:36.587655Z and completed 18:54:15.144327Z. Its automation output reports RUN_KEY_CONFLICT and correctly created no duplicate report/receipt or pointer update.
+- The current run's output reports reading the prestart Tern packet and Morrow INBOX pointer. This is an automation-output statement, not direct-thread delivery, acknowledgment, or authenticated historical Morrow participation.
+- The task peek returns a chat_ref reused from the prior :48 run, while the current result text reports chat_ref null. Treat this as a metadata discrepancy, not worker identity.
+- Tern-controlled correction: see WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1812Z_s4_morrow_AMENDMENT_01_TERN_SCHEDULED_HOUR_AND_RUN_KEY_CORRECTION.md and Tern Observation 028 Amendment 12.
+- Morrow's Team Archivist/source-custody remit and September 13 theory stop remain unchanged. No theory, physical, paper, or archive-payload action is assigned.
