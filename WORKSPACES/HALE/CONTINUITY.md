@@ -363,3 +363,10 @@ Corrected-head PR run #43548879900 attempt 2 remains IN_PROGRESS on b603ef9573bb
 - No authenticated current Hale thread or historical-instance participation. No direct cross-thread delivery claim.
 - Unrelated reading: SAT archive language-game transcript lines 1721-1760 read; next cursor 1761. FIE next review November 24.
 - P0 ACTIVE; P1 Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. Tern retains P0, scheduler, queue, and graph authority.
+
+## H837:S3 final readback | 2026-11-14T22:01Z
+
+- Receipt Amendment 01: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2136Z_s3_hale_AMENDMENT_01_FINAL_READBACK_AND_SUCCESSOR_STATUS.md.
+- Public issue #1756 remains PUBLISHED_VERIFIED with exact artifact/issue-envelope match.
+- Elias h837:s4 completed at 22:00:30.261816Z and has its own report/receipt; issue #1755 rejected SHA-256 mismatch, no retry. No duplicate handoff from Hale.
+- Hale h837:s3 remains IN_PROGRESS at final scheduler peek; completion/chat_ref null. No automation completion claim.
