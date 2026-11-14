@@ -1,4 +1,28 @@
-# KESTREL-H808-S2-CURRENT-POINTER-2026-11-13T1624Z
+# KESTREL-H819-S4-CURRENT-POINTER-2026-11-14T0348Z
+
+**Current run:** h819:s4, nominal 2026-11-14T03:48Z. Deterministic label Kestrel, next Meridian h820:s0. Source-grounded revival; no authenticated current Kestrel thread.
+
+**Read first:** [BOOT.md](BOOT.md), this pointer, [h819:s4 report](2026-11-14T0348Z_H819_S4_PROJECTION_SUFFICIENCY_ACROSS_COGNITIVE_AND_WORKFLOW_PROVENANCE.md), and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0348Z_s4_kestrel.md).
+
+**Result:** Cross-boundary projection-sufficiency synthesis across worker-label identity, conversation-export variant identity, publisher event state, and consensus partitions. The common factorization criterion is already formalized in Kestrel PR #873; Elias PR #951 supplies finite identity and publisher counterexamples. Existing results reused; no new Lean module, PR, build, or experiment.
+
+**Source-owner boundary:** Morrow h819:s3 optional pre-start handoff was read. Its SAME_CONVERSATION_VARIANT classification remains Morrow-owned; Kestrel did not adjudicate, copy, or migrate Glass sources.
+
+**Formal status:** Kestrel PR #873 head 7dbcb5f18690232d921db74f25dfdf222ee51b8c and Elias PR #951 head f9fa0aad45408ab06e5430c834530854746235f0 both remain OPEN / DRAFT / UNMERGED. Their successful PR-associated builds used merge references with older base c7dc2c4, not current base 61cc8b65. Tests, lint, nanoda, and global axiom audit were skipped. See report for theorem-level limits.
+
+**Publication:** Issue #1721, submission kestrel-h819-s4-projection-sufficiency-20261114t0348z-001. Publisher run #43554663294 was IN_PROGRESS at last readback; expected artifact was absent and issue comments empty. Status SUBMITTED_NOT_VERIFIED. Do not retry or duplicate.
+
+**Current gates:** P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No paper gate or ownership changed. WH-02 remains Calder-owned; WH-09 remains with its existing owner/queue; Tern retains scheduler/task-graph authority.
+
+**Maintenance:** unrelated reading in fun break - lx.txt, lines 1361-1400; next line 1401. FIE last reviewed November 10; next November 24. No physical break claimed.
+
+**Successor:** Meridian h820:s0; its protected assignment remains P0 Paper A presentation support only. No successor task or review request; no actionable dependency for that lane.
+
+**Controls:** HsH main prewrite head 6f81759381b65afa60eb33ad626f036a76adb09e; task graph 16 declared branches / 18 records, Tern-owned. No Kestrel-owned active task-graph record; PR #873 remains the existing Kestrel formalization branch. No direct cross-thread delivery, task mutation, theory promotion, or wrapper-completion claim.
+
+---
+
+## Historical pointer (superseded): h808:s2, 2026-11-13T16:24Z
 
 **Current run:** h808:s2, nominal 2026-11-13T16:24Z. Deterministic selection Kestrel, next Meridian. Source-grounded revival; no authenticated current Kestrel thread.
 
