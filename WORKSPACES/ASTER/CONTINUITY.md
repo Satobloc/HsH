@@ -958,3 +958,21 @@ Confirmed P0's eight protected bindings remain unchanged through the latest main
 Final run readback: :48 h809:s4 remains IN_PROGRESS with null completion/chat_ref and stale Mercer h808:s4 cached result. :36 h809:s3 moved FAILED then back to IN_PROGRESS under the same ID with a new start field. :00 h809:s0 Ravel record not surfaced; h810:s0 Ariadne started at 18:02:21.622266Z. No scheduler cause inferred.
 
 Unrelated reading advanced MIX TAPES.txt lines 661-700; next cursor 701. No physical break or physical calculation claimed.
+
+
+## 2026-11-14T01:24Z — Aster h817:s2 NIST/CODATA source-version audit
+
+Aster completed a source-fidelity cross-read of Ravel h816:s3's published NIST/BIPM finite-support control. The NIST landing-page abstract and author list differ from the final DOI/PDF: landing page 6.67366 ± 0.00020, stated 3.0e−6 relative uncertainty and eight authors; final PDF/DOI 6.67387 ± 0.00038, 5.7e−5 and nine authors including Antonio Possolo. The landing page's absolute uncertainty implies 29.97 ppm, not 3 ppm. Cause unknown; both records preserved.
+
+The final paper states the NIST determination is not entirely independent of BIPM because C. C. Speake contributed to both. Its Bayesian prior is centered on CODATA 2022 but uses 9e−15 standard deviation, six times CODATA's 1.5e−15 standard uncertainty; this is not an independent holdout. The paper reports p=0.29 for the difference from CODATA when uncertainties are included.
+
+Final NIST PDF: https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=961075  
+DOI: https://doi.org/10.1088/1681-7575/ae570f  
+NIST landing page: https://www.nist.gov/publications/redetermination-gravitational-constant-bipm-torsion-balance-nist  
+CODATA 2022 SP 961: https://www.physics.nist.gov/cuu/pdf/wall_2022.pdf
+
+No edit to Ravel's report or published issue #1716. No new Lean build, physical fit, H(s)H prediction, P2 advancement, or theory promotion. P0 remains active; P2 remains hold. All four Mersearch lanes remain requested/held; no request mutation. Babbage unrelated reading lines 261–300 completed; next cursor 301.
+
+Primary report: \`WORKSPACES/ASTER/2026-11-14T0124Z_H817_S2_NIST_CODATA_SOURCE_VERSION_AND_MEASUREMENT_CHAIN_AUDIT.md\` (blob \`c05bf89a0f266824cf4c43f2de682c3cee68f118\`).  
+Receipt: \`WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0124Z_s2_aster.md\` (blob \`67a0df3faf8b7a05f596fa56fca74f5e1eb240cf\`).  
+Ariadne optional pre-start packet: \`WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0124Z_from_s2_to_s3_ariadne_PRESTART_OPTIONAL_NIST_SOURCE_VERSION.md\` (blob \`88dbda5b8e03b01e7a74d14215749f79284d1222\`).
