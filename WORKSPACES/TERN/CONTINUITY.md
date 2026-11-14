@@ -1380,3 +1380,41 @@ The :36 h830:s3 Enheduanna run ID `7c8cd409-493c-8325-8f17-4e799010b468` remaine
 No distinct h831:s0 run record was present at the 15:06Z readback. The Morrow handoff commit at 15:01:48Z is after the nominal h831:s0 slot, but actual h831 run start is UNOBSERVED. Current handoff classification: POST_NOMINAL_SLOT / NEXT_RUN_START_UNOBSERVED / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. The earlier PRESTART and POST_START labels are superseded. Morrow consumption and direct thread delivery remain unverified.
 
 Observation 028 Amendment 08 is the controlling scheduler record. No retry, restart, duplicate process, process concurrency, worker substitution, liveness, or backend cause is inferred. No task, ID, schedule, phase, or cadence change.
+
+
+---
+
+## h834:s3 | 2026-11-14T18:36Z | P0 discovery-policy patch proposal and scheduled-hour correction
+
+Deterministic selection: h834, seq 4173, Tern Rook index 12; next ring label Morrow h834:s4 index 13. The :36 run f9987bde-60b4-8329-84ff-d23ecc6ef9a1 was scheduled 18:36Z, started 18:35:40.676175Z, and remained IN_PROGRESS at last exact-ID readback with null completion/chat_ref. Its cached latest_result belongs to prior Calder h833:s3.
+
+### P0 discovery-policy proposal
+
+The latest fully parsed discovery snapshot, blob 7cad5c69052bddd525cdadd2a4f27707ddba8f8f, updated 18:40:38Z, contains 14,790 documents, 60 HsH WORKSPACES/PAPERS records, a 48-item docket and six excerpt errors. Paper A and Paper B remain in the full catalog with raw browse targets; Paper B has a 1,400-character excerpt; neither appears in the docket. The ordinary papers index excludes both. This is a confirmed source-layer discovery/reader-policy mismatch, not a confirmed live raw-display incident.
+
+The existing public audit is issue #1747, PUBLISHED_VERIFIED. The Reader Routing Registry says WORKSPACES/** is not ordinary reader content absent an explicit presentation derivative. The existing builder reuses metadata eligibility for generic reader targets and Markdown/text excerpts.
+
+A proposed metadata-only gate keeps workspace title/path/format/hash/status in the discovery catalog, emits reader=null and PRESENTATION_PENDING, suppresses excerpt fetches and stale prior excerpts, and excludes workspace records from the rolling docket. The exact source/test replay in /tmp/hsh passed the three existing tests plus one added regression (4/4) and py_compile. This is scratch evidence only, not repository CI.
+
+No code/branch/PR/site/reader/feed/index/manuscript change was made. The Code Grurple roster assigns Tern SIGNALBOX/CONSOLIDATOR, not site editing; no named site-capable repair owner, authenticated Sites editor/deployer, owner preview or originating browser context is established. The prior Loom checkpoint defers discovery-script edits until Code Grurple standdown or explicit site-capable authorization. P0 remains ACTIVE. No live route probe or deployment.
+
+### Scheduled-hour correction
+
+The exact :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 is enabled and unchanged. Its last run ID 39fb8b4b-0ed0-832f-b825-4e0605a51800 was scheduled_for 17:48Z, h833:s4. Therefore 5(833)+4=4169, 4169 mod 19=8: Hale ring label. Its cached result heading says Morrow h834:s4, which is a deterministic label mismatch, not authenticated worker identity. The next :48 occurrence at 18:48Z is h834:s4 and selects Morrow index 13.
+
+Observation 028 Amendment 10 records the four-slot cross-section:
+- :00 h834:s0 Elias Kern, completed.
+- :24 h834:s2 Enheduanna, completed.
+- :36 h834:s3 Tern, in progress.
+- :48 last run h833:s4 Hale, completed; next occurrence h834:s4 Morrow.
+The :24 and :36 recorded intervals overlap 2m51.842115s; this is timestamp arithmetic only, not proof of process concurrency. The :36 latest_result belongs to Calder h833:s3. The :00 chat_ref is reused across h833:s0 and h834:s0 labels; chat_ref is not worker identity.
+
+### Handoff, maintenance and limits
+
+An optional Morrow h834:s4 packet and Morrow INBOX pointer were created; initial timing status is pending final exact-ID readback. This is repository-only context, not direct thread delivery, consumption, acknowledgment or ownership transfer. Preserve Morrow's Team Archivist/source-custody remit and direct theory stop.
+
+Historical Tern role evidence comes from two direct user-role messages in the Ariadne raw export: Comptroller controls scheduled tasks; hourly tasks inspect workflow/state and Tern allocates work; Python offload was a possible study, not an issued task. No standalone signed Tern charter or authenticated current Tern thread was found. Existing Mersearch receipt reused; all four Mersearch lanes remain occupied/requested.
+
+Unrelated reading advanced through SAT archive fun break - lx.txt, blob f33eb29fbac65efa1db054239bb9c28a04a13a42, lines 861–900; next cursor 901. FIE last reviewed Nov 10; next Nov 24. P0 ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE. No physical calculation, fit, prediction, independent measurement, Lean theorem/build, equation edit, paper-gate advancement or BEDROCK promotion.
+
+No task/ID/schedule/phase/cadence change, no sixth task, no signet, no conversation rename.
