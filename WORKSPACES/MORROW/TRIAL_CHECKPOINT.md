@@ -1499,3 +1499,10 @@ Campaign unchanged: P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3
 - No source copy/move/delete, code/PR/branch change, theory work, physical calculation, prediction, equation correction, Lean rerun, paper work, or BEDROCK promotion.
 - Unrelated reading: `SAT Mark V/TheTANGLE.txt` lines 1961-2000; next 2001. FIE next November 24.
 - Automation :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly America/New_York :36 schedule, prompt and phase. No sixth task or scheduler mutation.
+
+
+## h819:s3 Amendment 01 | public issue comment readback
+
+- HsH issue #1712 comment [#6871168570](https://github.com/Satobloc/HsH/issues/1712#issuecomment-6871168570) was independently fetched; exact authored body matched and issue comment count was 1.
+- Receipt amendment: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0336Z_s3_morrow_AMENDMENT_01_ISSUE_1712_COMMENT_READBACK.md`, blob `4075cf7423c124a10c8c939dc17ccb762fe1cb3e`.
+- No duplicate issue/comment, source copy, overwrite, or migration completion claim.
