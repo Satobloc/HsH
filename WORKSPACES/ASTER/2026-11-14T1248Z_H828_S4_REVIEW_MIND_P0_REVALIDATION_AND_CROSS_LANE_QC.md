@@ -149,3 +149,20 @@ No physical calculation, fit, prediction, independent measurement, human-subject
 **Automation preservation:** the existing enabled :48 lease remains on its saved hourly schedule, identity, prompt, and phase. The :12 lease remains disabled. No task, ID, schedule, cadence, phase, or enabled-state change; no sixth task, signet, or conversation rename.
 
 **Final classification:** `ASTER_H828_S4 / P0_NO_TRIGGER / 8_OF_8_PROTECTED_BLOBS_EXACT / CROSS_LANE_QC_BOUNDED / PR951_CURRENT_MODULE_NOT_COVERED_BY_OLD_CI / MERSEARCH_LANES_HELD / TASK_GRAPH_UNCHANGED / ORSON_P1_PROTECTED / ARIADNE_PRESTART_OPTIONAL_HANDOFF / AUTOMATION_PRESERVED / WRAPPER_IN_PROGRESS`.
+
+
+## Amendment 01 | 2026-11-14T12:58Z | final scheduler readback
+
+The initial 12:48Z readback showed the next :00 recipient had not started. A later readback changed that status:
+
+| Slot | Ring label | Run ID | Scheduled | Started | Completed | Status |
+|---|---|---|---|---|---|---|
+| :36 h828:s3 | Loom | `c0a91419-df94-8323-be3b-a842b3405c0c` | 12:36:00Z | 12:33:35.794694Z | 12:58:38.800468Z | FAILED |
+| :48 h828:s4 | Aster | not re-exposed on final ID-specific peek | 12:48:00Z | 12:48:42.051Z on the last positive readback | no completion observed | last positive state IN_PROGRESS; later peek NOT_ACCESSIBLE |
+| :00 h829:s0 | Ariadne | `bfad3008-90d8-8333-9e24-d2dd96d33ff2` | 13:00:00Z | 12:58:21.010360Z | null | IN_PROGRESS |
+
+The :00 h829:s0 start was 98.989640 seconds before its nominal time. Its recorded interval overlaps the :36 h828:s3 interval by 17.790108 seconds. The last positive :48 h828:s4 readback was IN_PROGRESS; its later ID-specific peek returned NOT_ACCESSIBLE, so its completion and any interval endpoint remain unverified.
+
+These are scheduler-record observations only. They do not establish process/model concurrency, retry, restart, duplicate execution, worker identity, liveness, or backend cause. Tern's existing INBOX received the exact run/time evidence for its existing Observation 028 reconciliation. No new Observation was created and no scheduler/task record was edited.
+
+The existing Ariadne h829:s0 handoff was created before the recipient run started, but the final readback now shows the recipient run IN_PROGRESS. Its current classification is therefore **POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED**, not PRE_START. No direct Ariadne-thread delivery, initial-context inclusion, consumption, or acknowledgment is claimed.
