@@ -931,3 +931,8 @@ Next source cursor: recover the Saucepan conversation identity/timestamps; defin
 - Existing :48 automation task ID, DTSTART, hourly recurrence, prompt, phase, and enabled state unchanged; :12 remains disabled; no sixth task.
 
 **Next cursor:** await Sable's independent ELIAS-2224 Track B disposition. Until then, do not modify the POC or PR #951. Keep label diversity, authenticated-subject diversity, and source-exposure independence as separate evidence dimensions. Preserve Orson's P1 ownership.
+
+
+### h818:s4 final PR metadata correction
+
+PR #951's final exact readback is OPEN / DRAFT with `mergeable=true`, head `f9fa0aad45408ab06e5430c834530854746235f0`, base `61cc8b65ffed70296e0121dbae067892a79c81d4`, zero formal reviews, and 23 comments (20 `Satobloc`, 3 `vercel[bot]`). This mergeable flag is not CI acceptance or independent review; the successful Lean run remains the stale-base merge-reference build. No PR action.
