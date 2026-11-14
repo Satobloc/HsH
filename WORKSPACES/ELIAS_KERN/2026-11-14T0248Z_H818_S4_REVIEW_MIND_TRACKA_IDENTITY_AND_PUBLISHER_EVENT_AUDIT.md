@@ -127,3 +127,8 @@ At the latest exact-ID readback:
 These are scheduler-record intervals, not proof of backend cause, retry, restart, worker identity, or process-level concurrency. The finding was routed to Tern's existing inbox; no Tern-owned observation or task change was made.
 
 The current run remains IN_PROGRESS at final readback. Wrapper completion is unconfirmed.
+
+
+## Final PR metadata readback
+
+At the final exact readback, PR #951 remained OPEN / DRAFT with GitHub's `mergeable=true` flag, head `f9fa0aad45408ab06e5430c834530854746235f0`, and base `61cc8b65ffed70296e0121dbae067892a79c81d4`. Formal review submissions remained zero; the 23 issue-thread comments remained 20 by `Satobloc` and 3 by `vercel[bot]`. The mergeable flag is not a test result, independent review, or P1/Track B acceptance. The successful Lean run remains the older-base merge-reference build described above. No PR action was taken.
