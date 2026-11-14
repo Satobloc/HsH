@@ -24,16 +24,16 @@
 - `Satobloc/HsH`: current theory-control, workspaces, formalization, and coordination. Read live `BEDROCK.md`; preserve ND/FB/WB/TF/OC/SS and provenance distinctions.
 - `Satobloc/SAT_THEORY_ARCHIVE_2023-25`: original developmental sources. Preserve exact raw wording, chronology, parent/branch relationships, and source ancestry; do not infer authorship from flattened composite text.
 - `Satobloc/HSH_RESOURCES`: reference warehouse only. Its README/architecture describe it as private/internal, while GitHub metadata currently reports public visibility. **Do not inspect its payload or publish its paths/content pending the owner's access-boundary decision.**
-- Promoted Mersearch baseline is stable 1.0 at `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`. All four canonical request lanes are currently `requested`; do not overwrite them or create another lane. GitHub code search is fallback navigation, not a Mersearch result.
+- Promoted Mersearch baseline is stable 1.0 at `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`. Canonical lane 1 is `MERSEARCH_REQUEST.json`; lanes 2–4 are the numbered lane files. All four canonical lanes are `requested` and unreleased. The extra `MERSEARCH_REQUEST_LANE_1.json` is not watched by the lane-1 bridge and lacks lane/status fields; it is not an available lane. Do not overwrite or retrigger any lane. GitHub code search is fallback navigation, not a Mersearch result.
 
 ## Current return cursors
 
 - The raw IRI role graph and original referenced source remain unresolved. Resume only after P0 standdown and a Mersearch lane releases; authenticate the source first, then type `B(Q, topology)` and its measurable response before formalization or physical testing.
 - The TOPLESS source map remains parked until P0 standdown.
 - Lane 00 geometry-fidelity cursor: recover the raw Nov 8-9 spin/timesheet-curvature conversation before formalization. Existing 2024 DIMENSIONAL GRAVITY user and assistant coverage is complete; do not repeat it. See the h825 receipt and CURRENT_WORK.
-- Babbage lateral-reading cursor: line 1861, held pending the HSH_RESOURCES access-boundary decision. Last recorded read: lines 1821–1860.
+- Public Gutenberg #1216 HTML reading cursor: h825 read lines 1259–1298; next line 1299. Separate HSH_RESOURCES Babbage text cursor: lines 1821–1860 read, next line 1861, held pending the HSH_RESOURCES access-boundary decision. These are distinct source representations and must not be merged.
 - FIE last full rereview: 2026-11-10; next due 2026-11-24.
-- Latest checkpoint: `h825:s0`, nominal 2026-11-14T09:00Z. Read `CURRENT_WORK.md` and receipt `2026-11-14T0900Z_s0_aster.md` for the live run record and exact return point.
+- Latest checkpoint: `h828:s4`, nominal 2026-11-14T12:48Z. Main prewrite snapshot `da0fbdc7864e957f1ae304d02b12ed1c7bcbabe8`; 8/8 protected P0 paths exact, no presentation trigger. Read `CURRENT_WORK.md`, report `2026-11-14T1248Z_H828_S4_REVIEW_MIND_P0_REVALIDATION_AND_CROSS_LANE_QC.md`, and receipt `2026-11-14T1248Z_s4_aster.md` for the live return point.
 
 ## Startup path
 
