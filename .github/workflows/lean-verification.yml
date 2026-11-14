@@ -26,7 +26,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
           persist-credentials: false
+      - name: Assert exact pull-request head checkout
+        if: github.event_name == 'pull_request'
+        shell: bash
+        env:
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          checked_out_sha="$(git rev-parse HEAD)"
+          printf 'PR head SHA: %s\nChecked-out commit: %s\n' "$PR_HEAD_SHA" "$checked_out_sha"
+          if [[ "$checked_out_sha" != "$PR_HEAD_SHA" ]]; then
+            echo "::error::The checked-out commit is not the pull-request head."
+            exit 1
+          fi
       - name: Generate Lake dependency manifest
         working-directory: FORMAL_VERIFICATION
         shell: bash
@@ -47,9 +61,13 @@ jobs:
         if: always()
         working-directory: FORMAL_VERIFICATION
         shell: bash
+        env:
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha || '' }}
         run: |
           set -euo pipefail
-          echo "Source commit: $GITHUB_SHA"
+          echo "Event GITHUB_SHA: $GITHUB_SHA"
+          echo "Checked-out commit: $(git rev-parse HEAD)"
+          echo "PR head SHA: ${PR_HEAD_SHA:-none}"
           cat lean-toolchain
           if command -v lean >/dev/null; then lean --version; fi
           if command -v lake >/dev/null; then lake --version; fi
