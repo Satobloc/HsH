@@ -403,3 +403,164 @@ theorem empty_route_ref_blocks_probe
 #print axioms empty_route_ref_blocks_probe
 
 end HsHVerification.CodeGrurpleObservationGate
+
+
+/-!
+## Workflow-trigger scope layer
+
+The typed source/feed/adapter/derivative/deployment/route chain above is necessary
+but not sufficient to establish that a particular workflow event is relevant
+to a particular reader route. This layer adds an explicit path-scope witness,
+workflow-run status, commit binding, and route/deployment identity binding.
+
+The path-match booleans below are external attestations: this module does not
+implement GitHub Actions glob semantics, inspect a Git diff, fetch a workflow
+run, or observe a deployment. The external evidence producer must bind the
+exact changed path, workflow watch pattern, run ID, run commit, deployment
+commit, deployment target, and route to their actual sources.
+
+This remains an operational gate model. It does not establish browser access,
+live rendering, manuscript correctness, or any physical H(s)H claim.
+-/
+
+namespace HsHVerification.CodeGrurpleWorkflowScope
+
+open HsHVerification.CodeGrurpleObservationGate
+
+/-- One exact changed-path / workflow-watch-pattern witness.
+    The two Bool fields must be supplied from independently inspected
+    workflow and diff evidence; Lean does not compute glob matching. -/
+structure PathScopeWitness where
+  changedPath : String
+  watchPattern : String
+  pathAppearsInRunDiff : Bool
+  patternMatchesChangedPath : Bool
+deriving DecidableEq, Repr
+
+def pathScopeWitnessCurrent (w : PathScopeWitness) : Bool :=
+  decide (w.changedPath.length > 0) &&
+  decide (w.watchPattern.length > 0) &&
+  w.pathAppearsInRunDiff &&
+  w.patternMatchesChangedPath
+
+/-- A workflow event bound to the route and deployment already present in
+    the base observation-gate state. -/
+structure WorkflowTriggerEvidence where
+  workflowName : String
+  workflowRunId : String
+  workflowTarget : DeploymentTarget
+  routeId : RouteId
+  deploymentId : DeploymentId
+  runCommit : GitCommitSha1
+  deploymentCommit : GitCommitSha1
+  runSucceeded : Bool
+  pathWitness : PathScopeWitness
+deriving DecidableEq, Repr
+
+def workflowTriggerCurrent (s : State) (e : WorkflowTriggerEvidence) : Bool :=
+  match s.route, s.deployment with
+  | some route, some deployment =>
+      decide (e.workflowName.length > 0) &&
+      decide (e.workflowRunId.length > 0) &&
+      e.runSucceeded &&
+      pathScopeWitnessCurrent e.pathWitness &&
+      decide (e.workflowTarget = route.id.target) &&
+      decide (e.routeId = route.id) &&
+      decide (e.deploymentId = deployment.id) &&
+      decide (e.runCommit = e.deploymentCommit)
+  | _, _ => false
+
+/-- A route probe now requires both the original source-to-route identity
+    chain plus observation capability, and a successful same-target,
+    same-route, same-deployment-commit workflow event with a matching
+    changed-path/watch-pattern witness. -/
+def routeProbeAuthorizedWithWorkflow (s : State) (e : WorkflowTriggerEvidence) : Bool :=
+  routeProbeAuthorized s && workflowTriggerCurrent s e
+
+theorem absent_changed_path_blocks_probe (s : State) (e : WorkflowTriggerEvidence)
+    (h : e.pathWitness.pathAppearsInRunDiff = false) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
+    pathScopeWitnessCurrent, h]
+
+theorem unmatched_watch_pattern_blocks_probe (s : State) (e : WorkflowTriggerEvidence)
+    (h : e.pathWitness.patternMatchesChangedPath = false) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
+    pathScopeWitnessCurrent, h]
+
+theorem wrong_workflow_target_blocks_probe
+    (s : State) (e : WorkflowTriggerEvidence)
+    (route : RouteArtifact) (deployment : DeploymentArtifact)
+    (hRoute : s.route = some route)
+    (hDeployment : s.deployment = some deployment)
+    (h : e.workflowTarget ≠ route.id.target) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
+    hRoute, hDeployment, h]
+
+theorem mismatched_route_identity_blocks_probe
+    (s : State) (e : WorkflowTriggerEvidence)
+    (route : RouteArtifact) (deployment : DeploymentArtifact)
+    (hRoute : s.route = some route)
+    (hDeployment : s.deployment = some deployment)
+    (h : e.routeId ≠ route.id) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
+    hRoute, hDeployment, h]
+
+theorem mismatched_deployment_identity_blocks_probe
+    (s : State) (e : WorkflowTriggerEvidence)
+    (route : RouteArtifact) (deployment : DeploymentArtifact)
+    (hRoute : s.route = some route)
+    (hDeployment : s.deployment = some deployment)
+    (h : e.deploymentId ≠ deployment.id) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent,
+    hRoute, hDeployment, h]
+
+theorem workflow_run_commit_mismatch_blocks_probe
+    (s : State) (e : WorkflowTriggerEvidence)
+    (h : e.runCommit ≠ e.deploymentCommit) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent, h]
+
+theorem failed_workflow_blocks_probe
+    (s : State) (e : WorkflowTriggerEvidence)
+    (h : e.runSucceeded = false) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  simp [routeProbeAuthorizedWithWorkflow, workflowTriggerCurrent, h]
+
+theorem existing_identity_and_capability_gate_remains_required
+    (s : State) (e : WorkflowTriggerEvidence)
+    (h : routeProbeAuthorized s = false) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  simp [routeProbeAuthorizedWithWorkflow, h]
+
+theorem github_pages_workflow_cannot_authorize_chatgpt_sites_route
+    (s : State) (e : WorkflowTriggerEvidence)
+    (route : RouteArtifact) (deployment : DeploymentArtifact)
+    (hRoute : s.route = some route)
+    (hDeployment : s.deployment = some deployment)
+    (hWorkflow : e.workflowTarget = DeploymentTarget.githubPages)
+    (hRouteTarget : route.id.target = DeploymentTarget.chatgptSites) :
+    routeProbeAuthorizedWithWorkflow s e = false := by
+  have hMismatch : e.workflowTarget ≠ route.id.target := by
+    intro hEqual
+    have hImpossible : DeploymentTarget.githubPages = DeploymentTarget.chatgptSites :=
+      hWorkflow.symm.trans (hEqual.trans hRouteTarget)
+    exact github_pages_ne_chatgpt_sites hImpossible
+  exact wrong_workflow_target_blocks_probe s e route deployment
+    hRoute hDeployment hMismatch
+
+#print axioms absent_changed_path_blocks_probe
+#print axioms unmatched_watch_pattern_blocks_probe
+#print axioms wrong_workflow_target_blocks_probe
+#print axioms mismatched_route_identity_blocks_probe
+#print axioms mismatched_deployment_identity_blocks_probe
+#print axioms workflow_run_commit_mismatch_blocks_probe
+#print axioms failed_workflow_blocks_probe
+#print axioms existing_identity_and_capability_gate_remains_required
+#print axioms github_pages_workflow_cannot_authorize_chatgpt_sites_route
+
+end HsHVerification.CodeGrurpleWorkflowScope
