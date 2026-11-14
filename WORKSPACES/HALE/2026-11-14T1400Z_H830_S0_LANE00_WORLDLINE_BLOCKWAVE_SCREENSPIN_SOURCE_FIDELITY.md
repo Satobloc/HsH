@@ -70,7 +70,7 @@ This is a direct descriptive equivalence. The source does not define a unique cu
 
 **2026-10-09 02:46:38.173Z, message `5a929b5e-515e-4f77-a32a-e49feef42812`.**
 
-The user reaffirms that inertia and worldtube bending are equivalent descriptions, and rejects a passive-readout interpretation of the timesheet: matter and timesheet must interact. The `H_0+c` split is expressly shorthand pending conversion to common units. The outward propagation-at-`c` explanation is proposed, not measured or derived here.
+The user reaffirms that inertia and worldtube bending are equivalent descriptions, and rejects a passive-readout interpretation of the timesheet: matter and timesheet must interact. The message begins with a quoted assistant sentence, "No elastic modulus. No invented filament tension. No microscopic spring constant." That quotation is not independent Nathan authorship. The user's own earlier message asks for flexibility/tension values to be determined from known systems, and the direct correction identifies the relevant property as inertia. Therefore no blanket no-tension rule is attributed to Nathan here. The `H_0+c` split is expressly shorthand pending conversion to common units. The outward propagation-at-`c` explanation is proposed, not measured or derived here.
 
 **2026-10-09 07:39:31.044Z, message `28b2378a-846d-4c3f-a242-91f9007ce261`.**
 
@@ -217,7 +217,7 @@ The diagram is intentionally incomplete. A rank-two index pair does not make an 
 
 1. **Curve versus worldtube.** SAT-O1 writes a 1D curve and describes a 4D swept volume, but does not define the sweep. The 2026 direct source insists on a 4D filament and 3D trace. The 1D curve must not be substituted for the 4D support.
 
-2. **Old tension model versus current inertia description.** SAT-O1 includes intrinsic tension and a tension potential. The 2026 direct source rejects invented elastic modulus, tension and microscopic spring constants, and identifies the classical observable as inertia/worldtube bending. Preserve the chronology and do not merge the two models without an explicit supersession map.
+2. **Old tension model versus current inertia description.** SAT-O1 includes intrinsic tension and a tension potential. The 2026 direct source identifies the classical description with inertia/worldtube bending and proposes deriving flexibility/tension values from known systems. A quoted assistant sentence about avoiding invented tension appears inside a user message, but is not itself independent Nathan authorship. Preserve that provenance distinction. No new tension law or explicit supersession map is supplied.
 
 3. **Core count and nested geometry.** The direct source explicitly says one core, no second-order core, and a hollow outer coil. Any assistant reconstruction with a second core or independent carrier contradicts this source.
 
@@ -284,7 +284,7 @@ The previous corrected-head run #43548879900 attempt 2 failed:
 - The same build failed separately in `MovingPlaneTraceGeometry.lean` at seven noncomputable definitions (lines 72, 76, 80, 84, 96, 100 and 197). No upstream file was changed.
 - The unchanged symbolic `#eval` probe did execute and printed `-1` then `1`; this is a symbolic representation check, not a physical simulation.
 
-Three additive commits were made on the existing branch only:
+Four additive commits were made on the existing branch only:
 
 1. `0739be0f42e99d9a3851ac4fe7cf8527e0231b48`: replace the failing `linarith` tactic with `nlinarith`.
 2. `5113d175b5b7fb6122965fb281c2739857f38284`: clarify that the actions are stipulated, not derived from tensor geometry.
