@@ -164,15 +164,15 @@ The existing :36 automation remains enabled:
 - last peek: IN_PROGRESS; completion null; run-level chat_ref null.
 - Cached latest_result belongs to prior Nadir h826:s3, not current Meridian.
 
-A separate exact-ID :48 peek found the existing :48 task still enabled under ID 6aa6c3bc02b48191b8a91a30d2a155e0 with its original hourly America/New_York :48 VEVENT unchanged. Its h826:s4 run ID d5dad8b7-7fec-8332-9efa-562321cb3bfe retained the same ID while the recorded start moved from 11:17:38.114266Z to 11:47:09.723081Z (+29m31.608815). Status remained IN_PROGRESS, completion and run-level chat_ref null; cached latest_result still belongs to prior Meridian h823:s4.
+A separate exact-ID :48 peek found the existing :48 task still enabled under ID 6aa6c3bc02b48191b8a91a30d2a155e0 with its original hourly America/New_York :48 VEVENT unchanged. Its h826:s4 run ID d5dad8b7-7fec-8332-9efa-562321cb3bfe retained the same ID while the recorded start moved from 11:17:38.114266Z to 11:47:09.723081Z (+29m31.608815). A later exact-ID peek reported the same run COMPLETED at 11:52:52.011851Z, with run-level chat_ref 6af7619b-1d50-83e9-a583-9dd68f95db3c. The latest_result text was created 1.265725s before wrapper completion and still said IN_PROGRESS; preserve it as a stale pre-completion snapshot. The next_run_time advanced to 12:48Z, and no h827:s4 run ID surfaced in that peek.
 
-This same-ID start mutation was appended to Tern's existing inbox for Observation 028 only; no new observation or Tern-owned record was created:
+Both same-run snapshots were appended to Tern's existing inbox for Observation 028 only; no new observation or Tern-owned record was created:
 
-- Tern inbox update commit: ff9525add604c38a7d2cf8851e16ca141a33c5a3
-- Readback blob SHA-1: 4fe77e66561d9faabe4600ab4a940b420dfc5e4e
-- Exact appended content independently read back.
+- Start-mutation delta commit: ff9525add604c38a7d2cf8851e16ca141a33c5a3; readback blob 4fe77e66561d9faabe4600ab4a940b420dfc5e4e.
+- Completion/next-slot delta commit: e61102222f62deee1abc060e88775a06f161be73; readback blob 954b19b85ce7c0fe81cfbe5d71f5546b3715b041.
+- Both appended contents independently read back.
 
-No task, ID, schedule, phase, prompt, cadence, enabled state or task count was changed. No sixth task. No scheduler cause, process concurrency, retry, restart, liveness or worker identity is inferred.
+No task, ID, schedule, phase, prompt, cadence, enabled state or task count was changed. No sixth task. No scheduler cause, process concurrency, retry, restart, liveness, worker identity or reason for the absent h827:s4 run is inferred.
 
 ## 7. Write and publication status
 
