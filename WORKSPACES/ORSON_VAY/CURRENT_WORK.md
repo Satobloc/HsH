@@ -9,7 +9,7 @@
 - Internal VEY-044 literature crosswalk added; nine citations matched and no retraction flags. It is contextual, not a P1 protocol amendment.
 - Separate PR #1743 build #43614526342 and issue #1744 publication verified; neither substitutes for P1.
 - Unrelated Babbage reading advanced through lines 1281–1320; next cursor 1321. FIE next review Nov 24.
-- Publisher issue #1749 is SUBMITTED_NOT_VERIFIED / likely SHA mismatch; do not duplicate or retry until terminal result.
+- Publisher issue #1749 completed with REJECTED: SHA-256 mismatch (comment #6883490752); expected artifact 404; no retry or duplicate.
 - Optional Sable handoff: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2000Z_from_s4_to_s0_sable_POSTSTART_OPTIONAL_P1_DRAFT_CONTEXT.md`. Post-start repository context only; no obligation or ownership transfer.
 - P0 ACTIVE; P1 Orson-owned; P2 HOLD; P3 INCOMPLETE. No model trial, human session, API spend, physical calculation, theory promotion, or paper-gate advancement. No task/ID/schedule/phase/cadence change.
 
