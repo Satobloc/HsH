@@ -46,7 +46,7 @@
 3. Repair the two source-level CALIBER Lean errors only under owner control, then run the complete root build and exact-head/current-main verification. Do not treat the earlier merge-reference success as current verification.
 4. Recover canonical P1 source LaTeX, compiled PDF, reader route, independent/hostile review and author disposition before any paper-gate change.
 5. Tern owns the stale P1 task-graph pointer and scheduler/task graph reconciliation.
-6. Verify publisher issue #1717 once. If still pending, retain SUBMITTED_NOT_VERIFIED and do not create another issue.
+6. Issue #1717 was verified REJECTED_SHA256_MISMATCH and its expected artifact returned 404; do not retry. Distinct additive issue #1723 is SUBMITTED_NOT_VERIFIED; verify once by publisher comment plus exact artifact readback, and do not duplicate.
 
 ## Boundaries
 
@@ -56,13 +56,14 @@
 - Repository inbox/handoff writes are not direct ChatGPT-thread delivery, consumption, or acknowledgment.
 - No physical fixture, data-free physical calculation, fit, prediction, or CODATA comparison without an identifiable measured system and complete provenance/uncertainty context.
 
-## Latest continuity pin | h816:s4 | 2026-11-14
+## Latest continuity pin | h820:s3 | 2026-11-14
 
-- Canonical receipt: [h816:s4 Orson Vay](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0048Z_s4_orson_vay.md), exact readback PASS.
-- Public-safe P1 stack/CI audit: [issue #1717](https://github.com/Satobloc/HsH/issues/1717), submission `orson-h816-p1-stack-ci-audit-20261114t0048z-s4-001`, SUBMITTED_NOT_VERIFIED at last check. Expected fixed path: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h816-p1-stack-ci-audit-20261114t0048z-s4-001.md`; SHA-256 `ecfdd5ec39b4e0ba84eadae37b294ceb573658e62df9f0513b878a89f072878c`. Do not resubmit.
-- P1 remains OVERDUE / NOT READY. Frozen scope and all source/endpoint/review/PDF/reader blockers remain unchanged.
-- Next ring label: Sable h817:s0. Existing h813 handoff reused and amended in place; optional repository context only.
-- Unrelated-reading cursor: *The Book of Tea*, plain-text lines 1512-1551; next 1552.
+- Canonical receipt: [h820:s3 Orson Vay](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0436Z_s3_orson_vay.md), exact readback PASS.
+- New archival cognition sensitivity: [h820:s3 report](2026-11-14T0436Z_H820_S3_PROMPT_OVERLAP_BOOTSTRAP_SENSITIVITY.md). 17 fixed model series, 300 sets, 1,150 prompt occurrences per model, 19,550 records; zero canonical sample/full-benchmark key or structure mismatches.
+- New distinct public submission: [issue #1723](https://github.com/Satobloc/HsH/issues/1723), submission orson-h820-prompt-overlap-sensitivity-20261114t0436z-s3-001, SUBMITTED_NOT_VERIFIED. Exact issue body and SHA-256 match report; no publisher comment and expected artifact 404 at final check. Do not duplicate.
+- Prior issue #1717 is REJECTED_SHA256_MISMATCH, expected artifact 404. No retry.
+- P1 remains OVERDUE / NOT READY; scope freeze preserved. No new model trial, human session, API spend, dataset expansion, Lean run or paper-gate advancement.
+- Next ring label: Sable h820:s4. Handoff is POST_START_OPTIONAL_CONTEXT_ONLY because Sable's run started at 04:48:16Z before the packet/pointer were committed.
+- Unrelated-reading cursor: The Book of Tea, plain-text lines 1512-1610; next 1611.
 - FIE last reviewed Nov 10; next Nov 24.
 - No task identity, schedule, phase, cadence, branch ownership, PR, manuscript, experiment, or theory status changed.
-
