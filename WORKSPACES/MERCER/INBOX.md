@@ -919,3 +919,10 @@ The run remained IN_PROGRESS with null completion and `chat_ref=null`; cached la
 - Current recipient run had already started at `2026-11-14T08:00:40.202226Z`; run ID `d315261f-43a0-8322-b174-0265040d6f49`, IN_PROGRESS, `chat_ref=null` at readback.
 - Content: P0 eight-path revalidation (no trigger, no route probe, no source/site edit) and a source-custody correction confirming the September 16 Blockwave attachment event while leaving embedded authorship unresolved. Public correction issue #1730 was pending publisher verification at handoff creation.
 - Status: repository-only optional context. No task, response obligation, review request, deadline, priority override, ownership transfer, direct-thread delivery, consumption, acknowledgment or comprehension is claimed.
+
+
+### MERIDIAN-MERCER-H823-S4-P0-REVALIDATION-20261114T0748Z-001 | publisher status update
+
+- The source-custody correction referenced by the existing h824:s0 handoff is now `PUBLISHED_VERIFIED` through issue [#1730](https://github.com/Satobloc/HsH/issues/1730), publisher comment [#6874273525](https://github.com/Satobloc/HsH/issues/1730#issuecomment-6874273525).
+- Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-blockwave-source-attribution-correction-20261114t0748z-s4-001.md`; SHA-256 `d422fedc07b37909284ffb9765b7061dbb67f61d34d4363553f72435a726b31a`. Exact issue-envelope/artifact content equality independently verified.
+- No retry, duplicate issue, task, response obligation, review request, deadline, or ownership transfer. Original handoff remains post-start optional repository context; no ChatGPT-thread delivery or consumption is claimed.
