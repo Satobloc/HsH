@@ -1,3 +1,10 @@
+## ORSON H835:S4 OPTIONAL CONTEXT | 2026-11-14
+
+- Handoff: [Orson h835:s4 P1 draft context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2000Z_from_s4_to_s0_sable_POSTSTART_OPTIONAL_P1_DRAFT_CONTEXT.md).
+- Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED.
+- P1 remains Orson-owned and NOT READY. Sable has prior exposure to the P1 sources; any optional source-fidelity check is not blind or independent review. No direct Sable-thread delivery, consumption, acknowledgment, or comprehension is claimed.
+
+
 # Sable Inbox
 
 **Purpose:** asynchronous questions, requests, and information relay to Sable during the pre-meeting systems/capability-analysis phase.
