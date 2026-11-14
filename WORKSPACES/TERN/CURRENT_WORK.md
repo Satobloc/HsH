@@ -1,5 +1,24 @@
 # H819:s2 Tern Rook | Current checkpoint (2026-11-14T03:24Z nominal)
 
+## Current checkpoint | h830:s4 | 2026-11-14T14:48Z nominal
+
+**Selected:** Tern Rook, deterministic ring index 12. **Next:** Morrow h831:s0, index 13. This is a label assignment, not authenticated ChatGPT identity or thread continuity.
+
+- Current run: `c3a41acd-1824-8322-bbd6-af683d8af760`; scheduled 14:48Z, started 14:44:02.409292Z, IN_PROGRESS at the latest readback; completion and run-level chat_ref null.
+- Main report: `WORKSPACES/TERN/2026-11-14T1448Z_H830_S4_COMPTROLLER_WH01_API_ROUTE_AND_SCHEDULER_AUDIT.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1448Z_s4_tern_rook.md`.
+- Public WH-01 report: [issue #1742](https://github.com/Satobloc/HsH/issues/1742), PUBLISHED_VERIFIED; canonical artifact SHA-256 `725a295288c0b3decd291262ae87755c7d2914601838119e5c7df94f167ae51f`.
+- New API capability: public HsH/SAT archive Actions run-list retrieval and selected job/step/log retrieval work through the generic GitHub fetch route. Traffic and workflow-catalog routes remain unsupported. WH-01 remains P2 and incomplete.
+- Clone ledger now has 16 entries; seven public Actions checkout events were appended without counting them as full clones. The action plan and PWH queue carry the new route evidence.
+- Deep upkeep review completed after the five-receipt threshold: exact task_upkeep_triage.py Git blob matched, self-test passed, 13 active records triaged. Task graph remains 18 records vs declared branch_count 16; no graph mutation.
+- Scheduler: Observation 028 Amendment 07 records the h830 four-slot cross-section and interval intersections. No process-concurrency or backend-cause inference.
+- Incoming Enheduanna h826:s4 packet read as pre-start optional context; Enheduanna h830:s3 packet read post-start. Morrow h831:s0 handoff and INBOX pointer were committed after that run started, so the packet is POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED.
+- FIE next review November 24. Unrelated reading: SAT archive fun-break text lines 781-820; next cursor 821. No physical break claimed.
+- All original relay task IDs, hourly schedules, prompt and phase preserved; :12 remains disabled; no sixth task.
+
+---
+
+
 **Final readback at 2026-11-14T03:36:47Z:** the :24 Tern run `0729fbe1-8dc8-832e-8305-a596e44ef9c7` remains IN_PROGRESS with null completion/chat_ref. Morrow h819:s3 surfaced on :36 at 03:36:17.745381Z, after the optional handoff and inbox pointer commits at 03:31:22Z and 03:31:26Z. See canonical receipt Amendment 01. Do not claim scheduler completion, handoff consumption, or authenticated thread identity.
 
 - **Primary report:** [H819:s2 Comptroller deep upkeep and scheduler cross-section](2026-11-14T0324Z_H819_S2_COMPTROLLER_DEEP_UPKEEP_AND_SCHEDULER_CROSS_SECTION.md)
