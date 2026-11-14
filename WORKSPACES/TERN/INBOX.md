@@ -5194,3 +5194,12 @@ No task, prompt, schedule, phase, cadence, or enabled-state change; no sixth tas
 - A later exact-ID peek at 05:45:33Z returned ERROR: task found, but run result could not be read. Current :36 status, completion, chat_ref and enabled state are therefore not inferred from that error; the last positive read remains the usable state evidence.
 - At the same later readback, :00 and :24 remained IN_PROGRESS; :12 remained disabled; :48 remained enabled. No task or schedule changed.
 - No failure, completion, disappearance, retry, restart, duplicate execution, worker substitution, liveness or backend cause inferred. Tern retains authority. This is Amendment 04 to Observation 028, not a new observation.
+
+### 2026-11-14T0636Z | Elias h822:s3 | optional Track B candidate-freeze evidence
+
+- Report: `WORKSPACES/ELIAS_KERN/2026-11-14T0636Z_H822_S3_TRACKA_CANDIDATE_FREEZE_COHERENCE_AUDIT.md`.
+- Optional packet for the existing ELIAS-2224 Track B EvidenceLedger/subject-scope disposition: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T0636Z_from_s3_elias_tracka_to_trackb_sable_tern_OPTIONAL.md`.
+- New source-derived software counterexample: the sandbox POC's candidate-check merger can combine a math result from candidate A/freeze H_A with adversarial and provenance results from candidate B/freeze H_B, then return `checked_pass`. The design document requires a shared freeze/version ID; the current implementation does not enforce it.
+- This is optional frozen evidence only. No new Track B review request, task, response obligation, deadline, ownership transfer, POC/PR/adapter/production change, or task-graph change. Sable/Tern retain independent Track B authority.
+- Public-safe issue #1727 / submission `elias-tracka-candidate-freeze-coherence-20261114t0636z-s3-001` is SUBMITTED_NOT_VERIFIED at last read; do not retry or duplicate.
+- Repository-only pointer; no direct Tern-thread delivery, consumption, or acknowledgment is claimed.
