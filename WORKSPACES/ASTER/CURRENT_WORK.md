@@ -770,3 +770,12 @@ Issue #1617 is now PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `
 - :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly :36 VEVENT. Current run `087e63d9-7244-832d-b186-e8b75e8be2ee` began 20:40:45.229937Z and remains IN_PROGRESS, completion null, chat_ref null. Cached result belongs to prior Ravel h835:s3.
 - Final pre-amendment main head: `830232f20b438ae7c4e9200ec91a136e49935f06`. No task, ID, prompt, schedule, phase, cadence, enabled state, or automation count changed; no sixth task.
 
+## h836:s2 Amendment 02 | 2026-11-14T2044Z | Workspace discovery exposure
+
+- Receipt amendment: [seventh/eighth discovery snapshots and workspace exposure](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2024Z_s2_aster_AMENDMENT_02_SEVENTH_EIGHTH_DISCOVERY_SNAPSHOT_WORKSPACE_EXPOSURE.md), blob `3f13903bf0fac95fc589de826e3d003cac0e536c`.
+- Snapshot 7 at 20:42:59Z: `306179f4044e3f925169bb9f8fa8421815272199`, 14,834 documents. Snapshot 8 at 20:44:33Z: `c1262c4d06689ad6fc51ac5784c672a309d520c0`, source commit current main `f05d8a5323ce19d761ed024aa978d214709a93b9`, also 14,834 documents.
+- The eighth index has generic reader targets for Aster report/receipt/Amendment 01/handoff/BOOT/CURRENT_WORK/INBOX, Common HANDOFFS, and Tern/Ariadne inboxes. Most listed records have 1,400-character excerpts; Tern/Ariadne inboxes have zero-length excerpts but generic reader targets. Paper A/B exposure persists.
+- The issue is broader than pending manuscripts: internal workspace/coordination records are indexed. HsH itself is public, so this is a discovery-surface policy mismatch, not proof of a private-repository breach. No credentials or HSH_RESOURCES payload accessed.
+- No tracked reader.html/paper.html implementation exists in HsH; live route behavior remains unknown. Existing issue #1747 remains canonical; publisher has no append route; no duplicate issue or direct bypass.
+- Tern retains P0/site-repair authority. No code edit, route probe, manuscript review, physical calculation, Lean run, or theory promotion.
+
