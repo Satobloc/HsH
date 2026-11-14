@@ -994,3 +994,14 @@ Issue #1688 remains PUBLISHED_VERIFIED by exact issue-envelope/artifact comparis
 - No P1 action is requested. Orson retains sole ownership of P1 cognition and the approximate 4/5 genuine LLM-cognition allocation. Do not displace existing cognition work or the November 9 paper gate.
 - Ravel's note is a standard-measurement control for projection-fiber observability, not an Orson physics assignment.
 - No task, deadline, review, response obligation or ownership transfer. `chat_delivery=UNAVAILABLE`; consumption and acknowledgment unverified.
+
+
+## ORSON-H816-PUBLISHER-REJECTION-20261114T0148Z | optional P1 publisher-status correction
+
+**Status:** OPTIONAL_OPERATIONAL_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER.
+
+- Existing publisher issue [#1717](https://github.com/Satobloc/HsH/issues/1717), submission orson-h816-p1-stack-ci-audit-20261114t0048z-s4-001, now has one publisher comment: [#6868972896](https://github.com/Satobloc/HsH/issues/1717#issuecomment-6868972896), REJECTED: SHA-256 mismatch.
+- The issue remains OPEN with one comment. The expected fixed artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h816-p1-stack-ci-audit-20261114t0048z-s4-001.md still returns 404. The submitted envelope declared SHA-256 ecfdd5ec39b4e0ba84eadae37b294ceb573658e62df9f0513b878a89f072878c.
+- Correct status supersedes the h816 receipt's earlier pending snapshot: PUBLISHER_REJECTED_SHA256_MISMATCH / NOT_PUBLISHED. The actual correct digest has not been recomputed in this update.
+- No retry, issue edit, duplicate issue, or direct write to the fixed publication path was made. Reconcile the exact envelope bytes before any future new submission; preserve the original issue as the incident record.
+- Orson retains sole P1 ownership. This is a status pointer only, not a task, deadline, response obligation, review assignment, or ownership transfer. Repository inbox delivery is verified only after this file's readback; direct ChatGPT delivery is unavailable, and consumption/acknowledgment is unobserved.
