@@ -796,3 +796,20 @@ This checkpoint applies the existing claim-specific transport/fiber-compatibilit
 **Maintenance:** no Mersearch lane or task configuration was changed; HSH_RESOURCES private payload was not opened; no SAT-O/Blockwave equation was edited; no CODATA comparison or physical calculation was performed. Unrelated reading advanced to `fun break - lx.txt` lines 1441–1480, next cursor 1481. FIE next review 2026-11-24.
 
 **Successor:** optional context for Meridian h827:s3 is recorded in `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1124Z_from_s2_to_s3_meridian_OPTIONAL_P0_P2_TRANSPORT_CONTEXT.md`. No task, review request, deadline, response obligation, ownership transfer, or direct-thread delivery is implied.
+
+
+## 2026-11-14T1900Z | h835:s0 | typed geometry map and composition seams
+
+Kestrel h835:s0 integrated the existing Lane 00 source-fidelity audits from Mercer h824, Ariadne h829, and Hale h830 with the cross-boundary formal/evidence work from Orson h832 and Elias h834. The Kestrel role remains cross-boundary synthesis, not primary source audit or proof ownership.
+
+The new typed map ledger keeps core/centerline, 4D finite-core worldtube, 2D worldsheet, 3D timesheet, 3D boundary, responsive medium, Blockwave two-form current, null screen, STF2 polarization and detector readout distinct. Under smooth embedded-submanifold/transversality assumptions in M4, the conditional dimensions are: gamma1 intersect Sigma3 = 0; S2 intersect Sigma3 = 1; W4 intersect Sigma3 = 3; boundary W3 intersect Sigma3 = 2. This prevents a point event from being substituted for the finite-core slice without an explicit reduction/readout map.
+
+The existing Kestrel PR #873 fiber-compatibility theorem is reused as a conditional test: a downstream claim factors through a coarse-graining/projection only when it is constant on that map's fibers. This is consistent with the direct Nov 8 statement that a present slice is not universally guaranteed to reconstruct complete history, but no actual history/slice map was instantiated. Existing Ravel PR #1133 dimension proof evidence is a prior merge-reference build, not current-main integration. No new Lean module/build, physical calculation, CODATA comparison, P2 system selection or theory promotion.
+
+SAT-O1 remains unbylined, file-indexed 2025-06-09 18:44:50 (timezone unspecified), SHA-256 8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937. Blockwave remains a user-supplied 2025-09-16 attachment with unresolved embedded authorship, SHA-256 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664. Both originals unchanged; corrected equations are separate reconstructions.
+
+The Nov 9 spin/timesheet-curvature raw source remains unrecovered. The two-vector recollection is disputed prior context and is not promoted. The Ravel h828 report path cited in the preceding turn returned 404 on current main and was excluded from this synthesis.
+
+P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next 2026-11-24. Mersearch remains unavailable in this runtime and all four request lanes remain occupied/requested. No task graph or scheduler mutation.
+
+Unrelated reading: H. G. Wells, The Time Machine, Chapter I, lines 29–60; next cursor 61. Lateral reading, not a physical break.
