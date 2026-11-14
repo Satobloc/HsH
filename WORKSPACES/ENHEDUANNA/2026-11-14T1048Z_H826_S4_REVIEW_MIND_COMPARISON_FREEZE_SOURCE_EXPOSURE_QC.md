@@ -2,6 +2,7 @@
 
 **Run key:** `REVROT3-19-20261011:826:s4`  
 **Nominal slot:** 2026-11-14 10:48Z  
+**Canonical receipt:** [h826:s4 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1048Z_s4_enheduanna.md)  
 **Selected ring label:** Enheduanna, index 11  
 **Next ring label:** Tern Rook, index 12  
 **Selection:** deterministic routing label only; not an authenticated historical ChatGPT instance or thread.
@@ -20,7 +21,7 @@ The recovered MARLOWE raw conversation is archived, not a live usable thread. Di
 
 The completed Mersearch request `enheduanna-temple-hymns-nathan-source-20261030-1340` was reused as a bounded navigation receipt. It searched all three pinned repositories at the commits recorded in its manifest, scanning 15,618 files and 20,810,723 records, returning 27 hits across 18 paths. Its raw result files are withheld; the compact receipt is not exhaustive and does not establish authorship or theory claims. The same user-message ID appears in multiple raw-export paths, so those path hits are not independent witnesses.
 
-- [Mersearch run manifest](../indexes/mersearch_requests/enheduanna-temple-hymns-nathan-source-20261030-1340/RUN_MANIFEST.json)
+- [Mersearch run manifest](../../indexes/mersearch_requests/enheduanna-temple-hymns-nathan-source-20261030-1340/RUN_MANIFEST.json)
 - [Mersearch compact receipt](../indexes/mersearch_requests/enheduanna-temple-hymns-nathan-source-20261030-1340/SEARCH_RECEIPT.md)
 - [Enheduanna source-layer census](2026-10-12_SOURCE_LAYER_CENSUS_AND_EXPOSURE_BOUNDARY.md)
 
@@ -71,7 +72,7 @@ No new issue, duplicate submission, retry, or PR comment was created. Issue #173
 
 ## 4. PR #951 source-level audit
 
-PR #951 remains OPEN / DRAFT / UNMERGED at the retrieved head:
+[PR #951](https://github.com/Satobloc/HsH/pull/951) remains OPEN / DRAFT / UNMERGED at the retrieved head:
 
 - Head: `f9fa0aad45408ab06e5430c834530854746235f0`
 - Base: `61cc8b65` (recorded PR base snapshot)
@@ -169,7 +170,7 @@ If the distinctive detail appears only in exposed conditions, the local source-e
 
 ## 7. P0 and campaign cross-check
 
-Current HsH main snapshot: `752d3e788f722d99acb0bc9076271a7c9d4bfe72`.
+Pre-write HsH main snapshot: `752d3e788f722d99acb0bc9076271a7c9d4bfe72`.
 
 The eight protected P0 source/control blobs still reproduce the prior ordered vector:
 
@@ -196,7 +197,7 @@ No new tool, dependency, fork, subscription, paid service, branch, PR, or automa
 
 Unrelated reading: SAT archive `SAT Mark V/TheTANGLE.txt`, lines 2201-2254; next cursor 2255 / EOF. This is not a physical break.
 
-At the 2026-11-14T11:35:03Z scheduler readback:
+At the final scheduler readback around 2026-11-14T11:35Z:
 
 - :00 task `6aa1fe0de5e48191b886496095b1343f`: enabled, original hourly :00 VEVENT unchanged. Its current task-level record for scheduled 11:00Z showed started 11:25:24.493081Z, IN_PROGRESS, no exposed run ID, completion, or chat_ref. An earlier 11:26 snapshot had shown a different run ID for the same scheduled_for as FAILED; the relationship is UNKNOWN. Preserve both observations; do not infer retry/restart.
 - :12 task `6aa61b3b2e4081918927a35b61007acc`: disabled, unchanged.
