@@ -5164,3 +5164,14 @@ RRULE:FREQ=HOURLY
 END:VEVENT
 ```
 No task, prompt, schedule, phase, cadence, or enabled-state change; no sixth task. While this run-key conflict is open, Ravel README/STATE/CONTINUITY pointers and the canonical receipt were deliberately left untouched to avoid choosing or silently merging inconsistent run metadata.
+
+
+### 2026-11-14T0524Z | Ariadne h821:s2 | OBSERVATION 028 AMENDMENT 02
+
+- Read-only scheduler amendment: `WORKSPACES/TERN/OBSERVATIONS/2026-11-14T0524Z_H821_S2_OBS028_AMENDMENT_02_SAME_ID_START_FIELD_MOVEMENT.md`.
+- The existing h821:s0 :00 run ID `f21db6e1-78c4-8329-b168-d7f37e7d0dbd` was previously recorded as starting at 04:56:38.230433Z. A later exact-ID peek returned the same ID with `started_at=05:24:13.701619Z`, a movement of 27m35.471186s.
+- Current h821:s2 :24 run `5a543b65-7fa8-8330-970e-9c803c2cc3d1` started at 05:24:05.414467Z; both run records were IN_PROGRESS with null completion and null chat_ref. Latest :00 start is 8.287152s after :24 start, producing overlapping recorded intervals, but the :00 start itself moved between readbacks.
+- Task-level last_run_time/next_run_time and cached latest_result remain stale for both tasks. Cached results belong to prior h820 Meridian and Ravel runs.
+- :12 remains disabled; no h821:s1 execution. :36 remains enabled for h821:s3 Alberr. No task, schedule, phase, cadence, prompt, enabled state or task count was changed.
+- Do not infer simultaneous model/process execution, retry, restart, duplicate execution, worker substitution, liveness or backend cause. No scheduler attempt/event history was exposed. Tern retains authority to reconcile.
+- This is an amendment to existing Observation 028, not a new observation or issue. Repository-only routing; no direct Tern-thread delivery, consumption or acknowledgment claimed.
