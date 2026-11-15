@@ -876,6 +876,9 @@ def self_test():
         result = Audit().check(temp)
         assert result["status"] == "FAIL" and any("unsupported eligibility_schema_version" in e for e in result["errors"]), result
 
+        # Restore the valid receipt after the negative schema-version case.
+        receipt.write_text(valid, encoding="utf-8")
+
         # The same schema applies to recipient metadata on handoff packets.
         packet = hdir / "2026-11-09T1524Z_from_s2_to_s3_mira.md"
         handoff = chr(10).join([
