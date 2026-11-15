@@ -14,6 +14,8 @@
 
 **Automation:** existing :48 task remains enabled and unchanged; current run ba51a2fb-b678-832a-90f7-82b4c50eea99 remains IN_PROGRESS at last readback.
 
+**Scheduler amendment:** the existing :36 h855 run 0b37b661-f0a8-8322-9211-a390720f76ac subsequently returned FAILED at 16:58:39.282967Z. Its start field moved from 15:36:08.184598Z to 16:33:34.916923Z during the observed IN_PROGRESS interval, a 57m26.732325s movement. The latest result was the generic message "There was a problem with your scheduled task." No cause is inferred. The existing Tern packet and INBOX pointer were amended in place. No task or schedule change.
+
 ---
 
 # Current work pointer - Elias Kern
