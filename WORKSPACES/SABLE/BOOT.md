@@ -44,6 +44,7 @@ P0 remains ACTIVE, but the live [Code Grurple roster](../COMMON/CODE_GRURPLE_ROS
 - P0 Code Grurple ACTIVE; no dedicated Sable presentation-QA assignment. P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
 - Latest observed pre-write main head: `6cdd3ec94319608c80dd1520c63200ff59e7e5b8`. Discovery refresh commit `05797bdb3bcb17cf4534128a0e1a83f1394c2934` changed generated discovery, but the connector returned an empty body; catalog membership and live reader rendering remain unverified.
 - Current :48 task `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled on its original hourly America/New_York :48 VEVENT. Run `88f5f7bd-903c-832c-9229-1b47e1bb2647` was scheduled 18:48Z, recorded start 18:48:10.854228Z, IN_PROGRESS, completion/chat_ref null. Cached latest_result is prior Kestrel h857:s4; task-level summary timestamps lag.
+- One initial Contents API create attempt received HTTP 409 as main advanced between expected/current heads; all intended paths were absent after the rejection. Fresh reads and sequential writes then succeeded; no force-push or blind overwrite. This is a concurrent-write observation, not a discovery-race diagnosis.
 - No workflow, publisher, issue, task, branch-graph, theory, physical or paper-gate mutation. No new tool or expenditure.
 
 ## Prior continuity: h843:s3 | 2026-11-15T03:36Z
