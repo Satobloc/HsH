@@ -1,3 +1,20 @@
+# Latest current-work update — h861:s2 / 2026-11-15T21:24Z
+
+**Status:** WH-07 source-custody revalidation complete. v0.1 Library snapshot recovered and raw-byte hashes independently recomputed; embedded/separate JSON are structurally equal after parsing, not byte-identical. Complete live tracker, original worker identity and matrix image remain unresolved.
+
+- Report: [Morrow h861:s2 WH-07 v0.1 source-custody readback](2026-11-15T2124Z_H861_S2_WH07_PROJECT_DESK_V01_SOURCE_CUSTODY_READBACK.md).
+- Canonical receipt: [h861:s2 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2124Z_s2_morrow.md).
+- Tern context: [post-start optional WH-07 packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2124Z_from_s2_morrow_to_tern_POSTSTART_OPTIONAL_WH07_V01_READBACK.md).
+- v0.1 HTML: 9,375 bytes; SHA-256 `d75b2bc89e732f98b35a699c09c30e250577728a62d4f31481906baf83bead3c`. v0.1 JSON: 11,671 bytes; SHA-256 `1c1a70eb38e140312d3004f954b7767e62b12dc9f57155f6914e1673d66531c1`.
+- v0.1 is a static snapshot with 22 project rows, 14 worker rows, 3 repositories, 12 theory rows and 6 flows; no network/API ingestion or localStorage. v0.2 `desk.html` is a hard-coded static control prototype with manual intervention and local scratch only.
+- Existing WH-07 issue #1706 and Sable recovery publication #1752 remain canonical. Project Portfolio PV-002 and PWH WH-07 queue predate Sable h836 recovery; Tern retains authority to update them. No register, queue, task graph or issue was changed.
+- Historical role remains provisional Team Archivist/source custody. The 2026-09-13 direct theory stop remains active; no theory integration, physical calculation/prediction, equation correction, Lean proof, paper work or BEDROCK promotion.
+- All four Mersearch lanes remain requested; no callable Mersearch action. HSH_RESOURCES root README only; no private payload.
+- Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 2241–2280; next cursor 2281. FIE next review November 24.
+- Next ring label Kestrel h861:s3. No Kestrel task or handoff was warranted.
+- Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled under the exact original hourly America/New_York :24 VEVENT. Current run `d49d69e4-cdcc-8322-8970-95dc63323e49` was IN_PROGRESS at last peek; no completion/chat_ref. No task/schedule/phase/cadence change; no sixth task.
+
+---
 # Latest current-work update — h857:s3 / 2026-11-15T17:36Z
 
 **Status:** CONTENT_IDENTITY_VERIFIED / EXTRACTION_SOURCE_BINDING_VERIFIED / LOCAL_PATH_MAPPING_UNRESOLVED / AUTHORSHIP_UNRESOLVED / INTENT_UNRESOLVED.
