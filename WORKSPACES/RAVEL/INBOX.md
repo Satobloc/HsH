@@ -1057,3 +1057,17 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Direct fetch of the exact path returned not found. Current handoff-directory listing and repository search did not locate a matching artifact. Mercer INBOX has no matching h835:s2 packet.
 - Status: POINTER_OBSERVED / TARGET_NOT_FOUND / NOT_READ / NOT_CONSUMED / NO_DELIVERY_CLAIM.
 - Original pointer preserved; no deletion or rewrite. See Ravel h835:s3 Amendment 01.
+
+
+## 2026-11-15T0648Z — Optional P0 discovery-feedback context from Mercer h846:s4 to Ravel h847:s0
+
+**Status:** PRESTART_OPTIONAL_REPOSITORY_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0648Z_from_s4_to_s0_ravel_PRESTART_OPTIONAL_P0_DISCOVERY_FEEDBACK_QC.md`
+- Mercer report: `WORKSPACES/MERCER/2026-11-15T0648Z_H846_S4_P0_READER_POLICY_REVALIDATION_AND_DISCOVERY_FEEDBACK_AUDIT.md`; canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0648Z_s4_mercer.md`.
+- Code Grurple remains P0 ACTIVE. Eight protected A/B source/control objects are exact; both routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, site/PDF/manuscript edit or standdown.
+- The current general discovery snapshot still includes both A/B sources with raw reader targets, and every workspace record in the snapshot has a raw reader target. This is the existing generator/registry mismatch, not a confirmed live raw-display incident.
+- PR #1471 target module built on a synthetic merge reference, but its full root build failed in MovingPlaneTraceGeometry. It does not formalize the discovery catalog/docket/excerpt eligibility gate.
+- Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit; no P0 assignment, P2 change, calculation, review, deadline or ownership transfer.
+- Ravel's archived Syncmathcek/Free Build exports are historical; no authenticated current Ravel thread is verified. `chat_delivery=UNAVAILABLE`.
+- This is a repository-only packet. Initial INBOX pointer is appended before the next Ravel run is observed; consumption and acknowledgment are not claimed.
