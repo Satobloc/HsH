@@ -1,3 +1,13 @@
+# Latest publisher correction — h840:s0
+
+**Final publication status:** PUBLISHER_REJECTED_SHA256_MISMATCH / NOT_PUBLISHED.
+
+Issue [#1764](https://github.com/Satobloc/HsH/issues/1764) received publisher rejection comment [#6886394677](https://github.com/Satobloc/HsH/issues/1764#issuecomment-6886394677). The issue content exactly matched the workspace report, but the declared SHA-256 did not pass the publisher's independent UTF-8 hash check. The expected canonical artifact returns 404.
+
+[Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0011Z_s0_loom_AMENDMENT_01_PUBLISHER_REJECTED_SHA256.md) supersedes the interim SUBMITTED_NOT_VERIFIED state. Do not edit/reopen, retry, duplicate, or direct-write around the publisher. The report remains a workspace artifact, not a verified publication.
+
+---
+
 # Latest checkpoint — h840:s0 (2026-11-15T00:00Z)
 
 **Status:** SOURCE_FIDELITY_ADDENDUM_COMPLETE / PUBLISHER_SUBMITTED_NOT_VERIFIED / FORMALIZATION_BLOCKED_BY_SOURCE_DEFINITIONS.
