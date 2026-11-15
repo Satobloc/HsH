@@ -21,3 +21,17 @@ The :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact or
 Current :48 run `f56858b5-121c-8329-beeb-f2d11a829411`: IN_PROGRESS; completion/chat_ref null at final readback. Cached latest result belongs to Loom h862:s4, not this run. Other lease observations are in the report.
 
 **Classification:** `ALDUS_H863_S4 / REVIEW_MIND / PUBLISHED_VERIFIED / P1_ORSON_PROTECTED / NO_LEAN_RUN / NO_PHYSICAL_CALCULATION / TERN_CONTROL_AUTHORITY_PRESERVED / CALDER_OPTIONAL_SUCCESSOR / AUTOMATION_PRESERVED / WRAPPER_IN_PROGRESS`.
+
+
+## Amendment 01 | 2026-11-15T2358Z | Same-ID scheduler status mutation
+
+A later exact-ID readback changed the :00 h863:s0 run `2840a26a-a3c8-8331-826f-7e4b59310f7c`:
+
+- Scheduled time remains 23:00Z.
+- Earlier observation: FAILED, completed 23:51:21.565181Z; recorded start 23:26:19.477402Z.
+- Later observation: IN_PROGRESS, completion null, chat_ref null; recorded start moved to 23:55:38.510646Z.
+- Start-field displacement: 29m19.033244s.
+
+This is a same-ID post-terminal status/start-field mutation. No retry, restart, duplicate process, concurrency or backend cause is inferred. The cached result still belongs to h856:s0, not this run. Task-level next-run pointer remains stale at 23:00Z.
+
+The :36 h863:s3 run subsequently completed at 23:53:28.432716Z with a run-level chat_ref; this is not proof of message delivery. The :48 h863:s4 run remains IN_PROGRESS with null completion/chat_ref. All task configurations remain unchanged.
