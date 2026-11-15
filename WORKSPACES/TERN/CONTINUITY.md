@@ -1,3 +1,11 @@
+## h853:s3 final branch and automation readback | 2026-11-15T14:21Z
+
+- Main head 7146fefb5e758587645f98c43f7faba37f62e3d9; Tern PR #824 remains draft/unmerged, diverged 92 ahead / 18,850 behind; no rebase/merge.
+- :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact hourly :36 schedule and prompt/phase unchanged. Current run 0adb1d15-fa00-8320-b75c-65ae3f0f420c remains IN_PROGRESS, completion/chat_ref null.
+- Other active task IDs/schedules unchanged; :12 disabled; no sixth task.
+
+---
+
 ## h853:s3 Kestrel terminal update | 2026-11-15T14:21Z
 
 - [Observation 028 Amendment 21](OBSERVATIONS/2026-11-15T1420Z_H853_S3_OBS028_AMENDMENT_21_KST00_TERMINAL_AND_CURRENT_FOUR_SLOT_READBACK.md).
