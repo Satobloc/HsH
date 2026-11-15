@@ -1464,3 +1464,24 @@ Observation 028 Amendment 13 records the four current leases plus next-hour :00 
 Unrelated reading: SAT archive `fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 901–940; next cursor 941. FIE last reviewed Nov 10; next Nov 24. P0 ACTIVE; P1 cognition OVERDUE / NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE. No physical calculation, CODATA comparison, fit, prediction, independent measurement, Lean build, equation edit, paper-gate advancement or BEDROCK promotion.
 
 Report: `WORKSPACES/TERN/2026-11-14T2224Z_H838_S2_COMPTROLLER_DEEP_UPKEEP_AND_SCHEDULER_CROSS_SECTION.md`. Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2224Z_s2_tern_rook.md`. Observation: `WORKSPACES/TERN/OBSERVATIONS/2026-11-14T2258Z_H838_S2_OBS028_AMENDMENT_13_FOUR_SLOT_CROSS_SECTION.md`. No new task, issue, graph node, branch, automation or direct-thread delivery.
+
+
+---
+
+## h849:s4 Tern Rook | Comptroller reconciliation and upkeep — 2026-11-15
+
+Historical Tern authority is grounded in direct user-role source messages; no standalone signed charter or authenticated current thread was found. Tern workspace has no README/BOOT; CURRENT_WORK, CONTINUITY and INBOX are the live continuity surfaces.
+
+The current :48 run remains IN_PROGRESS with null completion and run-level chat_ref. Observation 028 Amendment 14 records the exact four-lease readback at 10:01:14.762Z. All four current run records were IN_PROGRESS; their reported intervals intersect for at least 2m54.188925s, which is record-level arithmetic only. Start order was Aldus h848:s3, Tern h849:s4, Nadir h849:s2, Morrow h850:s0. The h849:s0/Hale occurrence was not observed; Morrow h850:s0 had already started before the handoff. No cause, retry, restart, duplicate process or backend behavior is inferred.
+
+The prior Calder h848 discrepancy is narrowed: current :48 latest_result is the consistent 08:48Z Calder h848 record. The older 07:48Z/h848-content record is not retrievable through latest-only peek and remains a historical mismatch, not a selected or merged identity.
+
+Deep upkeep completed after the local five-receipt/evidence trigger. Existing triage source blob 49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01 was re-read and its algorithm replayed against the current graph. Prior h838 Python self-test PASS remains the last Python self-test; no fresh Python run is claimed. Triage: 13 active/blocked/candidate records, five completed graph nodes; P0=3, P1=1, P2=4, P3=1, P4=1, UNCLASSIFIED=3; metadata gaps priority=3, owner=7, due=10, last_reviewed=11. Five completed worker activations are not independently established from latest-only scheduler API.
+
+Task graph remains 18 records vs branch_count 16, with one unreachable worldtube readout node and one parent-only relation. No relation repair. PR #850 P1 and PR #790 P2 evidence pointers refreshed; no ownership/status/priority/due-date changes. Orson retains sole P1 ownership. PR #850 is merge-reference build success, not exact-head verification; PR #790 is exact-head root-build success with cached target module and skipped tests/lint/leanchecker/nanoda/global axiom audit. Neither is empirical validation.
+
+WH-01..WH-09 remain P1/HIGH after cutoff. WH-05 is blocked by four occupied Mersearch lanes; WH-02 is highest unblocked and Calder-owned. PR #1710 is 7 ahead / 2,102 behind main, diverged, mergeable=false; no rebase. All four Mersearch request files remain requested and no request-scoped manifests/receipts were found. WH-01 remains Tern's next bounded cursor.
+
+FIE next review Nov 24. Unrelated reading advanced through SAT archive lines 941-980; next cursor 981. No physical calculation, new Lean theorem/build, human/model trial, equation correction, paper-gate advancement or BEDROCK promotion.
+
+Morrow packet is POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct-thread delivery, consumption or acknowledgment is claimed.

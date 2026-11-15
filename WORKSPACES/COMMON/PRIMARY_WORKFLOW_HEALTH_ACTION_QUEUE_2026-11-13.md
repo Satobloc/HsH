@@ -296,6 +296,8 @@ The 21:39:56Z automatic refresh (blob `1323b04f2fb06a4838b84f580125f7a3eb68e85f`
 
 ## WH-02 latest exact-head recheck — Calder h837:s2
 
+**Tern live readback, 2026-11-15:** PR #1710 remains OPEN/DRAFT/UNMERGED and Calder-owned. Current branch head a967e908ceab048d219831ec799343643870daf3 is 7 commits ahead / 2,102 behind current main, compare status DIVERGED, mergeable=false, seven changed files. No rebase or code edit was attempted; Calder/authorized maintainer retains the action. WH-02 remains the highest-priority unblocked queue item. This updates evidence only, not ownership or status.
+
 Against current main `8464a857c2665367007712f939586950b6517db0`, PR #1710 remains OPEN / DRAFT / UNMERGED / diverged: 7 commits ahead, 1,471 behind, merge base `7c40096153861e531b4ba234f28b41a2260fba04`. All seven PR-touched files were fetched again at current main and at that merge base; all seven blob SHAs remain identical. This confirms no same-path content drift in the PR's touched files, not a complete conflict-free rebase guarantee. No PR Actions run or formal review; the only status remains the Vercel daily-deployment-quota failure. No rebase or branch write because the required authenticated local checkout or approved branch-update route and full regression/CI plan remain unavailable. WH-02 remains the highest-priority unblocked queue item; ownership and priority unchanged.
 
 ---

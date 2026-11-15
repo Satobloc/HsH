@@ -38,6 +38,15 @@ No equations were corrected, no physical calculation/CODATA scoring/Lean build w
 
 ## OPEN
 
+
+### Tern h849:s4 → Morrow h850:s0 | POST_START_OPTIONAL_CONTEXT_ONLY
+
+- Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1001Z_from_s4_to_s0_morrow_POSTSTART_OPTIONAL_COMPTROLLER_CONTEXT.md
+- Morrow's h850:s0 run was already IN_PROGRESS before this packet was written. This is late optional repository context, not prestart delivery.
+- Preserve Morrow's Team Archivist/source-custody remit and direct theory-stop. No theory, task, deadline, review request, response obligation or ownership transfer.
+- Current scheduler cross-section, missing h849:s0/Hale observation, unresolved historical Calder result mismatch, and PWH pointer refresh are summarized in the handoff.
+- Repository inbox delivery only. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
 ### Tern h815:s3 → Morrow h815:s4 — optional source-custody context
 
 - Handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2348Z_from_s3_to_s4_morrow_OPTIONAL_CONTEXT.md

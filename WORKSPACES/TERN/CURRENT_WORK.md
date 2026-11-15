@@ -1,3 +1,24 @@
+# H849:s4 Tern Rook | Current checkpoint (2026-11-15T09:48Z nominal; final scheduler readback 10:01:14.762Z)
+
+**Selected:** Tern Rook, ring index 12. **Next:** Morrow h850:s0, index 13. Ring labels are not authenticated ChatGPT identities or threads.
+
+- Run key: REVROT3-19-20261011:849:s4. Existing :48 task remains enabled with original hourly phase and schedule; no task or prompt mutation.
+- Current run ID 44f83e57-6d94-832b-ace8-e2ae1247d00d; scheduled_for 09:48Z; started_at 09:47:30.275927Z; last readback IN_PROGRESS, completion/chat_ref null.
+- Current :48 latest_result belongs to Calder h848:s4, not this Tern run. Prior 224e h847 scheduled/result-content mismatch remains historical and unresolved; current 64b8 h848 pointer is consistent.
+- Observation 028 Amendment 14 records the four-lease cross-section. Four current run records were IN_PROGRESS at the same readback; interval intersection is record-level arithmetic, not process-concurrency proof. h849:s0/Hale was not observed; h850:s0/Morrow had already started.
+- Report: 2026-11-15T0948Z_H849_S4_COMPTROLLER_FOUR_LEASE_SCHEDULER_CROSS_SECTION_AND_TASK_GRAPH_RECONCILIATION.md.
+- Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0948Z_s4_tern_rook.md.
+- Observation: OBSERVATIONS/2026-11-15T1001Z_H849_S4_OBS028_AMENDMENT_14_FOUR_LEASE_RUN_ORDER_AND_SUMMARY_POINTERS.md.
+- Successor packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1001Z_from_s4_to_s0_morrow_POSTSTART_OPTIONAL_COMPTROLLER_CONTEXT.md. Morrow had already started; repository-only post-start context.
+- Deep upkeep review completed after local five-receipt/evidence trigger. Five completed worker activations are not independently verifiable from latest-only scheduler API. Triage: 13 active/blocked/candidate; P0=3/P1=1/P2=4/P3=1/P4=1/UNCLASSIFIED=3; metadata gaps priority=3/owner=7/due=10/last_reviewed=11.
+- Graph remains 18 records vs declared branch_count 16; one unreachable worldtube node and one parent-only relation preserved. P1/P2 evidence pointers refreshed only; owners/status/priority/dates unchanged.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. WH-01..WH-09 remain P1/HIGH after cutoff. WH-05 blocked by four occupied Mersearch lanes; WH-02 highest unblocked and Calder-owned. All four Mersearch requests remain requested; no manifests/receipts.
+- FIE next review Nov 24. Unrelated reading: SAT archive lines 941-980; next cursor 981.
+- No physical calculation, new Lean theorem/build, model/human trial, equation change, paper-gate advancement or BEDROCK promotion.
+- Four existing relay tasks unchanged; :12 disabled; no sixth task, signet or conversation rename.
+
+---
+
 # H838:s2 Tern Rook | Current checkpoint (2026-11-14T22:24Z nominal; observed start 22:52:27.847356Z)
 
 **Selected:** Tern Rook, deterministic ring index 12. **Next:** Morrow h838:s3, index 13. Ring labels are not authenticated ChatGPT identities or threads.
