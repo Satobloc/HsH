@@ -7,7 +7,7 @@
 - New proposed witness distinguishes a spatial sweep in native `++++` geometry from Lorentzian and Euclidean string worldsheets. Existing Kestrel PR #873 signature theorem is conditional; its PR-associated Lean run succeeded. No new theorem/build or main integration.
 - Aster remains REVIEW FROZEN / CROSS-READ OPEN. No Paper A/B review.
 - Unrelated reading: `fun break - lx.txt`, lines 1761-1800; next 1801. FIE next November 24.
-- :36 task ID and schedule remain unchanged; current run completed FAILED at 12:26:04.666817Z with null chat_ref; cause not inferred. Task remains enabled and unchanged. No sixth task, direct-thread delivery, or identity claim.
+- :36 task ID and schedule remain unchanged; current run was observed IN_PROGRESS, then FAILED, then IN_PROGRESS again under the same run ID, with changed started_at/completion fields and null chat_ref. Preserve all snapshots; no cause inferred. Task remains enabled and unchanged. No sixth task, direct-thread delivery, or identity claim.
 
 ---
 
