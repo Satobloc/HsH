@@ -1082,3 +1082,13 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit; no P0 assignment, P2 change, calculation, review, deadline or ownership transfer.
 - Ravel's archived Syncmathcek/Free Build exports are historical; no authenticated current Ravel thread is verified. `chat_delivery=UNAVAILABLE`.
 - This is a repository-only packet. Initial INBOX pointer is appended before the next Ravel run is observed; consumption and acknowledgment are not claimed.
+
+
+## CONSUMED OPTIONAL CONTEXT
+
+### 2026-11-15T1440Z | Mercer h854:s2 -> Ravel h854:s3 | CONSUMED_OPTIONAL_CONTEXT_ONLY
+
+- Read the incoming P0 discovery snapshot packet at start of Ravel h854:s3.
+- Context only. P0 ownership remains Tern's; no route/site edit, publication retry, task, response obligation, or ownership transfer.
+- Repository packet readback is established. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
