@@ -186,6 +186,9 @@ theorem error_sentinel_indistinguishable_from_consistent :
 
 end HsHVerification.OrsonCGDProjectionGate
 
+
+namespace HsHVerification.OrsonCGDProjectionGate
+
 /-!
 ## Substring acceptance of negated and uncertain response text
 
@@ -218,6 +221,85 @@ theorem exact_consistent_token_is_not_flagged :
     sourceNliParserUpper "CONSISTENT" = false := by
   decide
 
+/-!
+## Archived trigger-pair uncertainty bounds
+
+The following per-file row counts were independently replayed from the 17
+immutable JSON blobs listed in OrsonCGDManifestBounds.lean, all at
+ConsistencyBench commit bfc676baa848c7f1715bb73aee148180de15516e.
+
+For each flagged later-position row, somePriorRevisionRowsByFile counts
+rows having at least one earlier item with a non-null revision_response;
+somePriorLabelChangeRowsByFile counts rows having at least one earlier item
+whose extracted_answer differs from initial_answer. They are candidate-row
+counts, not identified NLI trigger indices or API-call counts.
+
+The first item in each question set has no earlier history and cannot itself
+be revised. Therefore every flagged row has at least one unrevised prior
+candidate. With the actual first-positive trigger index absent from the
+archive, the lower bound on flagged rows whose trigger used a revised prior
+answer is zero; the upper bound is the count of rows with any revised prior.
+The same logic applies to prior extracted-label changes.
+Lean below checks the transcribed finite arithmetic only. It does not verify
+JSON parsing, source-to-table transcription, or identify the actual trigger.
+-/
+
+def flaggedRowsByFile : List Nat :=
+  [366, 414, 476, 391, 384, 480, 421, 409, 375, 385, 337, 334, 321, 465, 365, 426, 353]
+
+def somePriorRevisionRowsByFile : List Nat :=
+  [134, 182, 211, 172, 145, 223, 165, 152, 126, 138, 127, 118, 107, 181, 112, 174, 122]
+
+def somePriorLabelChangeRowsByFile : List Nat :=
+  [24, 36, 110, 82, 78, 138, 78, 47, 25, 54, 60, 23, 34, 59, 19, 56, 15]
+
+#eval flaggedRowsByFile.length
+#eval flaggedRowsByFile.sum
+#eval somePriorRevisionRowsByFile.sum
+#eval somePriorLabelChangeRowsByFile.sum
+#eval flaggedRowsByFile.sum - somePriorRevisionRowsByFile.sum
+#eval flaggedRowsByFile.sum - somePriorLabelChangeRowsByFile.sum
+
+theorem flagged_model_file_count : flaggedRowsByFile.length = 17 := by
+  decide
+
+theorem flagged_row_total : flaggedRowsByFile.sum = 6702 := by
+  decide
+
+theorem rows_with_any_prior_revision_total :
+    somePriorRevisionRowsByFile.sum = 2589 := by
+  decide
+
+theorem rows_with_any_prior_label_change_total :
+    somePriorLabelChangeRowsByFile.sum = 938 := by
+  decide
+
+theorem rows_with_no_prior_revision_total :
+    flaggedRowsByFile.sum - somePriorRevisionRowsByFile.sum = 4113 := by
+  decide
+
+theorem rows_with_no_prior_label_change_total :
+    flaggedRowsByFile.sum - somePriorLabelChangeRowsByFile.sum = 5764 := by
+  decide
+
+theorem revised_trigger_candidate_upper_bound :
+    somePriorRevisionRowsByFile.sum ≤ flaggedRowsByFile.sum := by
+  decide
+
+theorem label_changed_trigger_candidate_upper_bound :
+    somePriorLabelChangeRowsByFile.sum ≤ flaggedRowsByFile.sum := by
+  decide
+
 #print axioms negated_phrase_is_flagged
 #print axioms uncertain_phrase_is_flagged
 #print axioms exact_consistent_token_is_not_flagged
+#print axioms flagged_model_file_count
+#print axioms flagged_row_total
+#print axioms rows_with_any_prior_revision_total
+#print axioms rows_with_any_prior_label_change_total
+#print axioms rows_with_no_prior_revision_total
+#print axioms rows_with_no_prior_label_change_total
+#print axioms revised_trigger_candidate_upper_bound
+#print axioms label_changed_trigger_candidate_upper_bound
+
+end HsHVerification.OrsonCGDProjectionGate
