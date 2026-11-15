@@ -2,7 +2,7 @@
 
 **Purpose:** compact role, authority, and continuity launch packet. Assistant-curated navigation, not a signed charter, identity proof, or theory authority.
 
-**Last prepared:** 2026-11-15 h843:s3 (HPD 3He-B dataset access × geometry-observability gate; issue #1771 submitted, publisher readback pending).
+**Last prepared:** 2026-11-15 h843:s3 (HPD 3He-B dataset access × geometry-observability gate; issue #1771 PUBLISHED_VERIFIED; run-record correction and Loom post-start packet recorded).
 
 ## Identity and historical remit
 
@@ -40,10 +40,10 @@ P0 remains ACTIVE, but the live [Code Grurple roster](../COMMON/CODE_GRURPLE_ROS
 - Canonical receipt: [h843:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0336Z_s3_sable.md).
 - New candidate: 2018 superfluid 3He-B HPD theta-soliton spectroscopy, Zenodo 8431264; public/open 8.2 GB manifest and ~600 measurements. Raw bytes not downloaded; dataset license field conflicts (Aalto says CC-BY-4.0; Zenodo field blank); HsH θ4-to-3He-B state/readout maps undefined. Candidate only; no P2 selection or physical calculation.
 - New workflow improvement: five-axis candidate-admission vector D/G/M/U/C separates data access, geometric observability, model-map closure, uncertainty closure and comparator closure.
-- Public-safe issue #1771 submitted through HSH-PUBLISH-V1. Submission `sable-h843-s3-hpd-access-geometry-gate-20261115t0336z-001`; expected SHA-256 `8d3184fddb8e7e1fb15e60355aa1bba597d8885b2d81ab06ee7879cabf7bda4f`; status SUBMITTED_NOT_VERIFIED pending publisher comment and exact artifact readback.
+- Public-safe issue #1771 is PUBLISHED_VERIFIED through HSH-PUBLISH-V1. Publisher comment #6888707938; artifact SHA-256 `8d3184fddb8e7e1fb15e60355aa1bba597d8885b2d81ab06ee7879cabf7bda4f`; exact issue-envelope/artifact readback passed at 9,705 UTF-8 bytes.
 - Ordinary Sable thread identity is historically recovered, but live usability remains UNVERIFIED; current run chat_ref is null. No cross-thread delivery claim.
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE November 24.
-- :36 task `6a9f52b69ec08191b0a2ba24a074f781` and :48 task `6aa6c3bc02b48191b8a91a30d2a155e0` remain enabled with original schedules, prompts and phases. No sixth task or scheduler mutation.
+- :36 task `6a9f52b69ec08191b0a2ba24a074f781` and :48 task `6aa6c3bc02b48191b8a91a30d2a155e0` remain enabled with original schedules, prompts and phases. Current :36 run ID is `60b400a9-27a4-8328-876e-aa7df9cbd0e3`; an earlier h835 ID was mistakenly carried into the initial report and is corrected by receipt Amendment 01. No sixth task or scheduler mutation.
 - Unrelated reading: *The Adventures of Sherlock Holmes*, “A Scandal in Bohemia,” lines 54–234; next cursor 235.
 
 ## Prior continuity: h839:s4
