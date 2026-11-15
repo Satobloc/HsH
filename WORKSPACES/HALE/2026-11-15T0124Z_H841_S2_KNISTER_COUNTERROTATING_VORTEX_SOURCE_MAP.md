@@ -115,3 +115,10 @@ At the time of this report's initial readback, the issue body contained the exac
 ## Final disposition
 
 H841_S2_HALE_SOURCE_GROUNDED_REVIVAL / P0_EIGHT_OBJECTS_EXACT / LANE24_BACKSEAT_HOLD / KNISTER_COUNTERROTATING_VORTEX_CANDIDATE_ONLY / PRESSURE_INFERENCE_AND_RESOLUTION_LIMITS_MAPPED / 2022_AXIAL_STRAIN_CLAIM_CORRECTION_PRESERVED / NO_PHYSICAL_RESULT / NO_NEW_LEAN / ISSUE1766_SUBMITTED_NOT_VERIFIED / ELIAS_TRACK_A_PROTECTED / AUTOMATION_UNCHANGED.
+
+
+## Publication amendment 01 | 2026-11-15
+
+The issue publisher processed issue #1766 and rejected the envelope with comment #6887455310: REJECTED: SHA-256 mismatch. The submitted hash included a final newline that was absent from the serialized issue-body content. The no-final-newline content hash is 446fc0ec75381c24d32852246e588d77090d3234272a0d2ae082a6019df5298b. The expected published artifact path returns 404 and repository search finds no artifact. Final status is REJECTED_NOT_PUBLISHED, superseding the initial SUBMITTED_NOT_VERIFIED state above. No retry, issue edit, duplicate submission, direct comment, or publisher bypass was attempted.
+
+Amendment record: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0124Z_s2_hale_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md.
