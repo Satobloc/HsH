@@ -2,7 +2,7 @@
 
 **Latest report:** [h857:s4 surface-trace dimensionality and pregeometry fork](2026-11-15T1748Z_H857_S4_SURFACE_TRACE_DIMENSION_AND_PREGEOMETRY_FORK.md)  
 **Canonical receipt:** [h857:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1748Z_s4_kestrel.md)  
-**Publisher intake:** [issue #1798](https://github.com/Satobloc/HsH/issues/1798), run #43743940962, currently SUBMITTED_NOT_VERIFIED.
+**Publisher intake:** [issue #1798](https://github.com/Satobloc/HsH/issues/1798), run #43743940962, REJECTED_INVALID_SCHEMA. The payload used uppercase HSH-PUBLISH-V1; the live validator requires lowercase hsh-publish-v1. No retry, duplicate issue, manual write, or publisher bypass; no canonical public artifact exists.
 
 ## h857:s4 result
 
