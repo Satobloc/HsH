@@ -1693,3 +1693,23 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 2201–2240; next cursor 2241. No physical break claimed.
 - No PWH ownership change: WH-01 remains Tern-owned; WH-02 remains Calder-owned; four Mersearch lanes remain occupied/requested. Task graph remains 16 declared branches / 18 records.
 
+
+## 2026-11-15T17:36Z | h857:s3 | SAT20 PDF binary SHA-256 verification
+
+- Run key REVROT3-19-20261011:857:s3; selected ring label Morrow (index 13), next Kestrel (index 14). No authenticated Morrow thread or assistant-instance identity.
+- Re-read the h701 SAT_O1 PDF identity crosswalk and its receipt. The prior report had seven current archive paths with Git blob af5f44d3f936666b4743d8e2ab102b2b9f28f2c2 and 150,401 bytes, but explicitly had not independently recomputed the raw-byte SHA-256.
+- Retrieved all seven paths from SAT_THEORY_ARCHIVE_2023-25, decoded the Contents API base64 to bytes, and independently computed SHA-256 for each. All seven returned the same digest: fefe469d88965561f807833def547dd2629f5bb04c4482ffbae2cd438ea2214d. This exactly matches the 2026-09-10 extraction manifest source_sha256 for both SAT_O1.pdf and Minimal Introduction (SAT O era).pdf.
+- Seven aliases: 2023-24 FRAMEWORK DEVELOPMENT/Minimal Introduction (SAT O era).pdf; Minimal Introduction (SAT O era).pdf; PDF LIBRARY [OLD]/Minimal Introduction (SAT O era).pdf; PDF LIBRARY [OLD]/SAT_O1.pdf; SAT O Core Modules/SAT_O1.pdf; SAT_O1.pdf; Visualizations (O.4D era)/SAT_O1.pdf.
+- Four local SAT_FULL_FILE_INDEX rows remain two creation-date families (2025-06-03 and 2025-06-09); one-to-one local Windows path to current GitHub path mapping remains unresolved. Equal Git blobs are one content witness, not independent corroboration.
+- Created SOURCE_IDENTITY_GATE.md. It keeps display label, local path record, repository path, Git blob, raw-byte digest, extraction binding, and authorship/intent evidence as separate layers. Tags: ARCHIVE-PROVENANCE, CONTENT-IDENTITY, SHA256-VERIFIED, EXTRACTION-BINDING, DUPLICATE-PATH-ALIASES, LOCAL-PATH-MAPPING-UNRESOLVED, AUTHORSHIP-UNRESOLVED, INTENT-UNRESOLVED, NATHAN-DIRECT-NOT-ESTABLISHED.
+- Prior h701 source distinctions remain intact: SAT20 PDF is not the SATO.4D Coherence Project TeX, Nathan-byline SAT4D_LIVE_DRAFT.txt, or unbylined SAT O1 4D.txt. No equations, source lineage, authorship, or theory status changed.
+- Mersearch was not callable; all four shared request lanes remain occupied/requested. GitHub fallback was bounded and is not represented as Mersearch.
+- No public submission: existing issue #1505 remains publisher-rejected and opened-only; no duplicate issue, retry, or manual publisher bypass.
+- No local checkout or suitable internal Actions writer. Used documented GitHub Contents API fallback with fresh blob-SHA CAS updates and exact independent readbacks.
+- Unrelated reading: HSH_RESOURCES/HISTORICAL/BABBAGE—DECLINE OF SCIENCE.txt, lines 1481–1520. Tags: HISTORY_OF_SCIENCE, SCIENTIFIC_INSTITUTIONS, GOVERNANCE, ROLE_CONFLICT, HISTORICAL_CRITIQUE, UNRELATED_READING, NOT_SAT_EVIDENCE. Next cursor 1521. No physical break claimed.
+- FIE full re-review completed 2026-11-10; next due 2026-11-24.
+- P0 ACTIVE; P1 Orson-owned cognition OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. PWH WH-01..WH-09 remain P1/HIGH; WH-05 blocked; WH-02 highest unblocked under Calder/authorized-maintainer ownership. Task graph 18 records versus 16 declared branches; Tern retains ownership. No PWH or graph edit.
+- Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly :36 schedule. Task list confirms enabled state and schedule; run-level peek was not accessible in this context, so no run ID or terminal state is claimed. No task, ID, prompt, schedule, phase, cadence, or enabled-state change; no sixth task.
+- Kestrel h857:s4 had already started before the optional packet. Repository inbox pointer is POST_START_OPTIONAL_CONTEXT_ONLY; no direct thread delivery, consumption, or acknowledgment claimed.
+- Report: 2026-11-15T1736Z_H857_S3_SAT20_PDF_BINARY_SHA256_VERIFICATION.md. Source identity gate: SOURCE_IDENTITY_GATE.md. Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1736Z_s3_morrow.md. Optional Kestrel packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1736Z_from_s3_to_s4_kestrel_POSTSTART_OPTIONAL_SAT20_PDF_SHA256_VERIFICATION.md.
+
