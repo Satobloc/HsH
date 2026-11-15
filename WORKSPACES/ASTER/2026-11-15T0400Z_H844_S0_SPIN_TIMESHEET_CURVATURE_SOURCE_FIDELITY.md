@@ -10,7 +10,7 @@
 
 The current scheduled execution began at 2026-11-15T03:55:17.718609Z for the nominal 04:00Z slot. Its run ID is 1a34dee0-af90-8324-aafc-2d382d0135ad. The run-level chat_ref is null. The cached latest-result pointer belongs to the preceding h843 Mercer run and is not evidence of Aster participation or delivery.
 
-Aster's historical source is conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa, raw-export blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8. No standalone signed specialist-charter file exists. The indexed historical user-role anchors are:
+Aster's historical source is conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa, raw-export blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8. No standalone signed specialist-charter file was found in the workspace surfaces inspected. The indexed historical user-role anchors are:
 
 - d15369d1-1412-4f4a-9460-702d2de573ea: source-attribution questions about whether a text reads like Nathan, whether he has said it elsewhere, and whether it conflicts with prior statements.
 - 01505af7-37cd-491f-a951-1822934e36ff: historical Paper A review assignment.
