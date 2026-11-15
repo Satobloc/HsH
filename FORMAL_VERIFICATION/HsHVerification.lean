@@ -1,3 +1,4 @@
+import HsHVerification.AriadneFreeFallMassRatio
 import HsHVerification.ArchiveEQ0001
 import HsHVerification.ArchiveEQ0002
 import HsHVerification.ArchiveEQ0003
@@ -23,8 +24,6 @@ import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
     Compilation proves only the stated mathematics, not a physical model. -/
-
-import HsHVerification.AriadneFreeFallMassRatio
 
 namespace HsHVerification
 
