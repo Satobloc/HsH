@@ -987,3 +987,10 @@ Read the optional Loom h832:s2 packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOF
 - No raw bytes, physical calculation, fit, prediction, Lean run, P2 selection or theory promotion.
 
 Historical Aster candidate conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa is archived through 2026-10-17; current usability/authentication remains unverified. Repository pointer only; no direct ChatGPT-thread delivery or acknowledgment claim.
+
+
+### Run-start readback | 2026-11-15T03:56Z
+
+- Current h844:s0 run: 1a34dee0-af90-8324-aafc-2d382d0135ad, scheduled 04:00Z, started 03:55:17.718609Z, IN_PROGRESS, completion null, chat_ref null.
+- This INBOX pointer was committed at 03:55:07Z, 10.718609 seconds before the recorded start. Repository timing only; no consumption, direct-thread delivery or acknowledgment claimed.
+- Saved task conversation_id/latest_result chat_ref 6af5a30c-486c-83ea-b5f5-1ddf1ccde8c0 belong to the previous h843:s0 result, not this current run.
