@@ -1,3 +1,9 @@
+## H862:S4 PUBLISHER_VERIFIED_AMENDMENT_01 | 2026-11-15T2303Z
+
+The distinct source-correction/conditional-ADM report is now PUBLISHED_VERIFIED via issue #1809. Publisher run 43772527252 succeeded; comment #6902853905; canonical artifact commit a65a21af64f24c436ec1ece385869d0a73c0af9c; SHA-256 af57df8049242eacfe94f2c1b46f30efefdb36a3e8e1ad86b4147380de53f22a. Workspace and canonical artifact share Git blob 772511335fbeb8a9b9efdb6732ab523e70155280 and exact 12,834-character content. Issue #1809 remains open/unlabeled because the publisher has no close/label step. No retry or duplicate issue.
+
+Aster h863:s0 had already started at 22:59:11.023910Z. The optional packet is POST-START_OPTIONAL_CONTEXT_ONLY and is indexed in Aster INBOX and Common HANDOFFS. No direct thread delivery or acknowledgment is claimed.
+
 ## H862:S4 | 2026-11-15T2248Z | O0-A/D4 source correction and conditional ADM map
 
 - Report: [source-hash correction and conditional extrinsic-curvature bridge](WORKSPACES/LOOM/2026-11-15T2248Z_H862_S4_O0A_D4_SOURCE_HASH_CORRECTION_AND_CONDITIONAL_EXTRINSIC_CURVATURE_BRIDGE.md).
