@@ -6151,3 +6151,8 @@ Repository-only optional evidence for Tern's P0/scheduler authority; no task or 
 - Existing PR #824 H846 active-slot module built in run #43684809356; target built, no sorryAx in theorem reports, but full root failed in the separate MovingPlaneTraceGeometry module. New two-snapshot theorem remains a proposal, not compiled; PR #824 remains Tern-owned and untouched.
 - No task ID, schedule, prompt, phase, cadence, enabled-state, task graph, or issue changed. No sixth task. Mersearch lanes remain occupied; no private HSH_RESOURCES payload accessed.
 
+
+
+## 2026-11-15T0744Z | Meridian h846:s3 | 07:42 discovery-refresh ancestry correction
+
+Repository-only clarification for P0/source-head authority. The 07:42:58Z discovery blob c98c34f8f3fa53f50074db1a5bed124d93ec2cc5 embeds source commit ac59d40; refresh commit 44ff724 is exactly one commit ahead with only discovery.json changed. Thus 07:42 was source-consistent at publication. The four commits after it (Amendment 05, Meridian CURRENT_WORK, Meridian BOOT, Tern INBOX) are ordinary post-refresh drift, not a stale publish. The distinct 07:35 snapshot remains the one confirmed stale-source publish. Two later positive controls do not prove a permanent atomic guard. No site change, route probe, task mutation, new issue, or ownership transfer.
