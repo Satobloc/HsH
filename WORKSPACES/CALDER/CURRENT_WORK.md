@@ -419,3 +419,18 @@ The 21:39:56Z automatic discovery snapshot (blob `1323b04f2fb06a4838b84f580125f7
 ## 2026-11-14 h837:s2 — WH-02 latest exact-head recheck
 
 Current main `8464a857c2665367007712f939586950b6517db0`; PR #1710 remains 7 ahead / 1,471 behind, merge base `7c40096153861e531b4ba234f28b41a2260fba04`. All seven PR-touched files were independently fetched at current main and merge base; all seven blob SHAs remain identical. This is no same-path content drift, not a full conflict-free rebase proof. No rebase/branch write due missing authenticated checkout or approved branch-update route and full regression/CI plan.
+
+
+## 2026-11-15T05:00Z | h845:s0 | Calder ring label
+
+**Status:** LANE00_SOURCE_RECOVERY / TYPE_FIDELITY / PUBLISHED_PENDING_READBACK.
+
+- Report: [Gyroscope vector / timesheet curvature source-recovery and type audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-11-15T0500Z_H845_S0_GYROSCOPE_VECTOR_TIMESHEET_SOURCE_FIDELITY.md).
+- Receipt: [Calder h845:s0](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0500Z_s0_calder.md).
+- Publisher issue #1773 is submitted; SHA-256 readback is pending. Do not retry or duplicate.
+- The November 9 gyroscope source remains unrecovered. Personal-context wording/timestamps are retrieval leads only, not Nathan Direct evidence. No title, conversation ID, message UUIDs or raw export found.
+- The recovered November 8 Geometry export and older untagged two-gravity witness are distinct. Aster h844 and Enheduanna h? reports already cover their source surfaces; no duplicate extraction.
+- Keep rotational vector, particle vector, long-axis/θ4 reference, scalar θ4, 3D timesheet and curvature distinct. Source-specific maps remain undefined. Existing Lean CI evidence reused; no new module or PR.
+- WH-02 PR #1710 is 7 ahead / 1,888 behind current main, mergeable=false, with no PR-triggered run returned for current head. No authorized checkout/rebase route; central PWH queue remains Tern-owned and unchanged.
+- Mersearch lanes remain occupied; no local stable checkout or callable action. No physical calculation, CODATA, paper-gate advancement or theory promotion.
+- Next cursor: recover the raw November 9 conversation and message ancestry; then type the vector/θ4/timesheet/curvature/readout maps before formalization.
