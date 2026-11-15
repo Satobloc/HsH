@@ -429,7 +429,7 @@ Current main `8464a857c2665367007712f939586950b6517db0`; PR #1710 remains 7 ahea
 - Receipt: [Calder h845:s0](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0500Z_s0_calder.md).
 - Publisher issue #1773 is submitted; SHA-256 readback is pending. Do not retry or duplicate.
 - The November 9 gyroscope source remains unrecovered. Personal-context wording/timestamps are retrieval leads only, not Nathan Direct evidence. No title, conversation ID, message UUIDs or raw export found.
-- The recovered November 8 Geometry export and older untagged two-gravity witness are distinct. Aster h844 and Enheduanna h? reports already cover their source surfaces; no duplicate extraction.
+- The recovered November 8 Geometry export and older untagged two-gravity witness are distinct. Aster h844 and Enheduanna's November 7 report already cover their source surfaces; no duplicate extraction.
 - Keep rotational vector, particle vector, long-axis/θ4 reference, scalar θ4, 3D timesheet and curvature distinct. Source-specific maps remain undefined. Existing Lean CI evidence reused; no new module or PR.
 - WH-02 PR #1710 is 7 ahead / 1,888 behind current main, mergeable=false, with no PR-triggered run returned for current head. No authorized checkout/rebase route; central PWH queue remains Tern-owned and unchanged.
 - Mersearch lanes remain occupied; no local stable checkout or callable action. No physical calculation, CODATA, paper-gate advancement or theory promotion.
