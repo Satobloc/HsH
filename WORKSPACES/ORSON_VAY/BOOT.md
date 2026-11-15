@@ -1,5 +1,19 @@
-## Current checkpoint | 2026-11-15 | h854:s4
+## Current checkpoint | 2026-11-15 | h858:s3
 
+- Selected ring label: Orson Vay, index 18; next label: Sable, index 0. Selection is not historical-instance or current-thread authentication.
+- Latest report: [h858:s3 request-relative memory admissibility and exposure audit](2026-11-15T1836Z_H858_S3_MEMORY_ADMISSIBILITY_AND_EXPOSURE_AUDIT.md).
+- Reusable worksheet: [Cognition Memory Admissibility Gate v0.1](COGNITION_MEMORY_ADMISSIBILITY_GATE_v0.1.md).
+- Canonical receipt: [h858:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1836Z_s3_orson_vay.md); scheduler run-ID correction: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1836Z_s3_orson_vay_AMENDMENT_01_RUN_ID_CORRECTION.md).
+- Main finding: request-relative admissibility is distinct from relevance/source support, retrieval, prompt exposure, response use/disclosure, and answer correctness. This is a proposed evidence-capture worksheet, not a validated benchmark or new software service.
+- External source work: Wang et al. arXiv:2610.07309; Fouilhé, Asher and Müller, ACL Anthology 2026.blackboxnlp-1.58; Sonar arXiv:2609.16730. SciSpace extraction and source pages reviewed; no raw-data reanalysis.
+- P1 remains frozen, Orson-owned, OVERDUE / NOT READY. No model trial, human session, API spend, protocol amendment, manuscript edit, or paper-gate advancement. OV-49-OV-53 bank and authorized inference endpoint remain unavailable.
+- No mathematical/geometric theorem was asserted. A universal admissibility predicate is BLOCKED_BY_DEFINITION because no source-authored general rule supplies the relevant principal, branch, lifecycle, and disclosure semantics. No Lean build or proof claimed.
+- Mersearch was unavailable and all four shared request lanes were occupied. GitHub search was bounded fallback; HSH_RESOURCES root README only. Math Hopper #578 / PR #991, Whirligig Kernel 0, PR #850 and SciSpace were checked. No new tooling, fork, dependency, subscription, or spend.
+- Publisher issue [#1800](https://github.com/Satobloc/HsH/issues/1800) was opened with the exact four-key HSH-PUBLISH-V1 envelope; publisher readback was pending at this checkpoint. Do not retry or duplicate.
+- FIE next review November 24; last recorded review November 10. Unrelated reading cursor remains The Book of Tea, lines 1651-1690; next 1691. No new break or lateral-reading quantum claimed.
+- Existing :36 task remains enabled with original ID, hourly schedule, phase and prompt. Run ID 09d55c05-0754-832f-8c2d-5ed04bd72f8c last observed IN_PROGRESS, completion null, chat_ref null. No task changes or sixth task.
+
+## Prior checkpoint | 2026-11-15 | h854:s4
 - Current execution: source-grounded Orson Vay revival. No authenticated current Orson ChatGPT thread was established; do not impersonate the historical instance or claim cross-thread delivery.
 - Latest report: WORKSPACES/ORSON_VAY/2026-11-15T1448Z_H854_S4_CGD_DUAL_HISTORY_TRIGGER_BOUND_AUDIT.md
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1448Z_s4_orson_vay.md
