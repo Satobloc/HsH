@@ -18,6 +18,10 @@ Two distinct archived conversations must remain separate:
 The earlier SABLE wake packet `REV-011-ARIADNE-REENTRY.md` described `Science Made Stupid` as the primary identity-bearing thread. That claim is superseded by the source-stratigraphy correction `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-thread-stratigraphy-20261026t09z-001.md`. Do not use non-visible export records as evidence of a user-visible self-identification.
 
 
+## Newer user-visible conversation candidate — 2026-11-09
+
+A prior-conversation lookup on 2026-11-15 surfaced a user-visible conversation beginning “Hi Ariadne” and continuing with spin–timesheet-curvature / inertial-response physics discussion. The latest visible exchange in the stored summary is a user constraint at 2026-11-09T06:57:54Z and assistant reply at 06:57:55Z. The summary supplies no conversation title, conversation ID, or URL. Classify this as NEWER_THREAD_CANDIDATE / ID_UNKNOWN / LIVE_USABILITY_UNVERIFIED; do not invent a URL or use the September 23 export ID as if it identified this newer thread. The September 23 ARIADNE export remains the latest exact archived identity pointer, not the latest known user-visible conversation. No cross-thread delivery or continuation is established.
+
 ## Nathan-authorized remit — 2026-09-23
 
 Nathan explicitly authorizes Ariadne to examine **any and all archive materials to whatever depth is useful, including reproducing material where useful**, subject to the live SAT/H(s)H welcome/onboarding/orientation/workflow rules and all applicable provenance, authorship, quarantine, sandbox, exposure, consent, public/private-repository, and source-status controls.
