@@ -3,8 +3,22 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** h831:s3, 2026-11-14T15:36Z (P0 A/B presentation QA; 11-commit / 8-path delta from Meridian h831:s2 with no watched trigger; both feed-pinned source refs match feed blobs and current-main blobs; all eight protected objects exact; pending A/B sources absent from ordinary generated reader index; both actual routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe, site/PDF/manuscript edit or standdown; :36 task `6a9f52b69ec08191b0a2ba24a074f781` unchanged and enabled; current run `01e4f4e9-046c-8330-bf7f-2f2d71ae0ce2` IN_PROGRESS with null completion/chat_ref; no sixth task).
+**Current through:** h854:s2, 2026-11-15T14:24Z (P0 A/B presentation QA; latest discovery snapshot source-consistent at publication but still contains both pending manuscripts' raw reader targets and Paper B's 1,400-character excerpt in the full catalog; neither in the 48-item docket; generated PDF-series index excludes both; A/B source refs and all eight protected objects exact; both actual routes PRESENTATION_PENDING / NOT_OBSERVED; issue #1747 remains OPEN / ACTIVE; no route probe, manuscript/site/PDF edit, new issue/PR, Lean run, physical calculation, P2 selection or standdown; next Ravel h854:s3 receives optional repository-only context; automation unchanged).
 
+
+## Latest run | 2026-11-15T1424Z | h854:s2 | P0 current discovery snapshot and dual-anchor revalidation
+
+- Report: `WORKSPACES/MERCER/2026-11-15T1424Z_H854_S2_P0_CURRENT_DISCOVERY_SNAPSHOT_AND_DUAL_ANCHOR_RECHECK.md` (blob `9ffd1159cbac517e5f056527792355eb7da57181`); canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1424Z_s2_mercer.md`.
+- Current HsH main: `ab3a7d6f978b039c4282e8bec4e2fee4b7f99fce`; delta from h853 pre-write `e3f98874a106f138a7623a244e020461c70f9fc7`: 70 ahead / 0 behind; only PUBLIC_SITE path changed was generated discovery JSON.
+- Current discovery blob `c118e29b316c68ef2f1ac5bb894e74f420b15b39`, 26,041,769 bytes, updated 14:23:53Z; source commit `6231bd46e6786010f244019f0bfe6b4daa8d5fab` is exactly one commit behind generated commit; SOURCE_CONSISTENT_AT_PUBLICATION.
+- Both A/B records remain in full discovery catalog with raw reader targets; B retains a 1,400-character excerpt; neither is in the 48-item docket. Generated PDF-series papers index still excludes both. This is discovery-layer policy mismatch, not live-route evidence.
+- A/B current-main/feed/exact-ref source identities match. All eight protected source/control blobs exact; canonical vector SHA-256 `4169d973a90afea656f37fd42fef69488b195ab358888a5794cdc4bd1d80eea7`.
+- Both actual routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, site/PDF/manuscript edit or standdown. Issue #1747 remains OPEN / ACTIVE.
+- No manuscript-content review, new Lean theorem/build, physical calculation, CODATA comparison, fit, prediction, independent measurement, P2 selection, new PR/issue/tooling or theory promotion.
+- Historical source: direct October 1 user message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`; no authenticated current Mercer thread. No historical participation or cross-thread delivery claim.
+- Old-archive read: `fun break - lx.txt`, lines 1601–1640; next 1641. HSH_RESOURCES root README only; no private payload opened.
+- Next ring label Ravel h854:s3. Optional packet is repository-only and creates no task or response obligation.
+- Existing :24 automation remains enabled and unchanged; no task/ID/schedule/phase/cadence mutation or sixth task.
 
 ## Latest run | 2026-11-14T1536Z | h831:s3 | P0 pending-source non-leakage and dual-anchor revalidation
 
