@@ -28,7 +28,7 @@ The audited report cluster consists of:
 - [Nadir #1757](https://github.com/Satobloc/HsH/issues/1757)
 - [Kestrel #1758](https://github.com/Satobloc/HsH/issues/1758)
 
-All four issue bodies cite the same Meridian Free Build conversation, conversation ID 6ac45d1f-17b0-83ea-ad1f-fa524602378b. The latest full export is LIVE CONVOS/26.10.05-26.10.20-Meridian Free Build raw.json, blob 7af1561b321f4d9364da5eb111df689efc652827. The full export has 2,500 mapping nodes, 2,309 nodes on the active current-node ancestry, 80 user messages, 956 assistant messages, 1,463 tool messages, and one empty node.
+All four issue bodies cite the same Meridian Free Build conversation, conversation ID 6ac45d1f-17b0-83ea-ad1f-fa524602378b. The latest full export is LIVE CONVOS/26.10.05•26.10.20•Meridian Free Build — raw.json, blob 7af1561b321f4d9364da5eb111df689efc652827. The full export has 2,500 mapping nodes, 2,309 nodes on the active current-node ancestry, 80 user messages, 956 assistant messages, 1,463 tool messages, and one empty node.
 
 Three archived exports carry the same conversation ID at different extents: approximately 362 KB, 7.7 MB, and 11.7 MB. These are snapshots of one conversation, not three independent source families.
 
