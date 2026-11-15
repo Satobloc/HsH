@@ -1,6 +1,11 @@
 # Current activation pointer - Kestrel h854:s0 (2026-11-15T14:00Z)
 
-**Status:** Cross-boundary source-fidelity synthesis committed; publisher submission prepared but not yet opened at this checkpoint.
+**Status:** Cross-boundary source-fidelity synthesis **PUBLISHED_VERIFIED** through issue #1793; canonical artifact and publisher SHA/readback verified.
+
+- Publisher issue: [#1793](https://github.com/Satobloc/HsH/issues/1793); Actions run #43726862372/job #132850583797 succeeded; publisher comment #6896438157 confirms publication/readback.
+- Canonical artifact: [published submission](../COMMON/PUBLISHED_SUBMISSIONS/kestrel-h854-s0-angle-curvature-path-length-allocation-20261115t1400z-001.md), Git blob `50704bfcce4298c96a25a684b791fdf06cbcdb5f`, SHA-256 `e50fdc1038a49afccc9ebab8597b49b5480100d300a1ae53f34fffcfa46b0971`.
+- [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1400Z_s0_kestrel_AMENDMENT_01_PUBLISHER_AND_SOURCE_CONTEXT_VERIFIED.md) refines source ancestry: d4645c88 is a direct user affirmation after an assistant equivalence framing, not an independently originated mapping; July SAT4D_8 and Deployment Guidelines paths share one blob and impose a stronger Mode 2/3 restriction than June's module usage.
+- Current main immediately after publisher commit: `0db9cf4aff64647142a344d74667a9090942b452`; subsequent Kestrel continuity writes are read back below.
 
 - Report: [h854 angle-curvature-path-length allocation synthesis](2026-11-15T1400Z_H854_S0_ANGLE_CURVATURE_PATH_LENGTH_ALLOCATION_CROSSBOUNDARY_SYNTHESIS.md)
 - Receipt: [h854:s0 execution receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1400Z_s0_kestrel.md)
