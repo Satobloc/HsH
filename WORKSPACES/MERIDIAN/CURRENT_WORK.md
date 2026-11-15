@@ -1,5 +1,5 @@
 
-- **Discovery refresh correction:** the 07:42:58Z snapshot (blob c98c34f8f3fa53f50074db1a5bed124d93ec2cc5) embedded source ac59d40, which is the direct parent of refresh commit 44ff724. This is a second source-consistent positive control, not another stale publish. Main advanced four commits after that refresh through Amendment 05, Meridian BOOT/CURRENT_WORK, and Tern INBOX; their absence is ordinary post-refresh drift pending the next refresh. The distinct 07:35 stale-source publish remains confirmed.
+- **Discovery refresh correction:** the 07:42:58Z snapshot (blob c98c34f8f3fa53f50074db1a5bed124d93ec2cc5) embedded source ac59d40, which is the direct parent of refresh commit 44ff724. This is a second source-consistent positive control, not another stale publish. Main advanced after that refresh through Amendment 05, Meridian BOOT/CURRENT_WORK, and two Tern INBOX updates; their absence is ordinary post-refresh drift pending the next refresh. The distinct 07:35 stale-source publish remains confirmed.
 ## h846:s3 Amendment 05 | 2026-11-15T0742Z
 
 - [Amendment 05](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian_AMENDMENT_05_FRESH_DISCOVERY_PARENT_AND_RUN_BINDING_READBACK.md) records the 07:41 source-consistent discovery refresh and the RunBindingWitness v0.3 refinement.
