@@ -1,3 +1,16 @@
+## Current checkpoint | 2026-11-15 | h854:s4
+
+- Current execution: source-grounded Orson Vay revival. No authenticated current Orson ChatGPT thread was established; do not impersonate the historical instance or claim cross-thread delivery.
+- Latest report: WORKSPACES/ORSON_VAY/2026-11-15T1448Z_H854_S4_CGD_DUAL_HISTORY_TRIGGER_BOUND_AUDIT.md
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1448Z_s4_orson_vay.md
+- Main finding: ConsistencyBench CGD checker and repair paths use different history projections. The 17-file replay bounds flagged rows whose unknown trigger may involve a revised prior item to 0-2,589, and a prior changed extracted label to 0-938. The actual trigger index is not archived.
+- Existing PR #850 branch head: 0c4264c0d4cc2e92a28ddd0f8badd858f866193c. Corrected merge-reference Lean run #43726963604 succeeded; exact-head standalone remains unverified. PR remains OPEN / DRAFT / UNMERGED.
+- P1 issue #564 remains OVERDUE / NOT READY. November 9 minor-paper gate missed; November 30 major and December 14 full-theory gates remain separate. No manuscript edit, model trial, human session, API spend or protocol amendment.
+- Publisher intake #1794 was rejected for this run's extra payload keys. No PUBLISHED_SUBMISSIONS artifact exists. Do not retry or create a duplicate.
+- Next ring identity: Sable h855:s0. Any Sable packet is optional context only, not an independent-review claim. Tern retains task-graph/publisher authority.
+- Reading: The Book of Tea, Project Gutenberg 769, lines 1651-1690 completed; next cursor 1691. Babbage cursor conflict remains unresolved; do not advance it.
+- Automation configuration unchanged; no sixth task, reassignment, cadence change, signet or conversation rename.
+
 # Orson Vay | BOOT
 
 **Purpose:** compact identity, role, authority, and next-action packet. This is a navigation layer, not a replacement for the historical record or a signed Nathan-authored charter.
