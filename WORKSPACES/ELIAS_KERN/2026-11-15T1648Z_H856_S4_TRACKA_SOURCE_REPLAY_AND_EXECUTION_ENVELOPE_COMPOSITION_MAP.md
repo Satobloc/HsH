@@ -229,3 +229,22 @@ The :36 lease also had a delayed h855 run still IN_PROGRESS at last readback, sc
 ## 7. Final classification
 
 ELIAS_H856_S4 / SOURCE_EXACT_POC_REPLAY_23_OF_23 / BUILTIN_SELF_TEST_7_OF_7 / CANDIDATE_FREEZE_COUNTEREXAMPLE_RECONFIRMED / NEGATIVE_HELPER_CORRECTION_RECONFIRMED / ELIAS_ACTOR_REGISTRATION_ABSENT / EXECUTION_ENVELOPE_PULLBACK_PROPOSED / PYTHON_DESIGN_PROBE_ONLY / NO_NEW_LEAN_PROOF / TRACK_B_PENDING / NO_POC_PR_ADAPTER_OR_PRODUCTION_CHANGE / ORSON_P1_PROTECTED / NADIR_NO_ASSIGNMENT_SEED / AUTOMATION_PRESERVED / WRAPPER_IN_PROGRESS.
+
+
+## Amendment 01 | later scheduler readback | 2026-11-15T16:58:43Z
+
+The previously recorded :36 h855 run was still IN_PROGRESS at the 15:50Z readback. A later exact-ID readback at 16:58:43.067069Z returned the same run ID, 0b37b661-f0a8-8322-9211-a390720f76ac, as FAILED:
+
+- Earlier start: 15:36:08.184598Z.
+- Later start field: 16:33:34.916923Z.
+- Start-field movement: 57m26.732325s.
+- Completion: 16:58:39.282967Z.
+- Latest result text: "There was a problem with your scheduled task."
+- Run-level chat_ref: null.
+- Task summary next_run_time advanced to 17:36Z; last_run_time 16:58:43.067069Z.
+
+This is a same-ID start-field mutation during the observed IN_PROGRESS interval, followed by a terminal FAILED result. The generic failure text contains no diagnostic cause. No retry, restart, duplicate process, concurrency, liveness, or backend explanation is inferred.
+
+The current :48 h856 run remains IN_PROGRESS: run ID ba51a2fb-b678-832a-90f7-82b4c50eea99, scheduled 16:48Z, started 16:52:58.816625Z, completion and run-level chat_ref null. Its task-level last_run_time and next_run_time still lag the detailed run record.
+
+The existing Tern packet and INBOX pointer were amended in place. Tern retains scheduler and Observation 028 authority. No new Observation 028 file, task, issue, deadline, response obligation, or ownership transfer was created.
