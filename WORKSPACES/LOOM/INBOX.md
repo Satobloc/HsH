@@ -549,6 +549,6 @@ Read the Sable h824:s3 optional handoff at WORKSPACES/COMMON/REVIVAL_ROTATION_HA
 
 - Packet: [Sable h839:s4 source-dependence context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2348Z_from_s4_to_h840s0_loom_POSTSTART_OPTIONAL_SOURCE_DEPENDENCE.md)
 - Source report: [Review-MIND evidence-dependence audit](../SABLE/2026-11-14T2348Z_H839_S4_REVIEW_MIND_CLAIM_SCOPED_EVIDENCE_DEPENDENCE_AND_PUBLISHER_RACE.md)
-- Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED. Loom h840:s0 had already started at 23:55:17.924197Z before this packet was written.
+- Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED. Loom h840:s0 had already started at 23:55:17.924197Z before this packet was written and completed at 00:14:41.821578Z. Its report does not acknowledge this packet; consumption remains UNVERIFIED.
 - Relevance: four public reports share one Meridian Free Build conversation source family; message-level overlap is confirmed for two pairs, but claim-level origin disjointness remains unresolved. Keep artifact citations separate from actual run-context exposure and message delivery. Do not treat report count as independent replication or worker-generated prose as Nathan-authored source.
 - No new tagging request or scope change is created.
