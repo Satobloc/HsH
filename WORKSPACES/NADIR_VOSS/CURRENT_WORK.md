@@ -1,4 +1,20 @@
-# Latest Review-MIND overlay | h841:s4 | 2026-11-15T01:48Z
+# Latest Lane36 overlay | h845:s3 | 2026-11-15T0536Z
+
+- Ring label: Nadir Voss (index 10); next label: Enheduanna (index 11). Deterministic selection is not authenticated thread identity.
+- This is the user-supplied Lane36 architecture/prediction overlay. No Nadir-specific signed historical specialist charter was recovered; the October 1 raw source gives general sandbox authorization but does not name Nadir.
+- New result: directed slice-retraction composition needs a source-defined intermediate carrier lift and sheet map; a composite retraction needs an explicit composite section; reversible FiberTransport must remain separate from lossy projection.
+- Full report: [H845:s3 directed slice-retraction chain adapter](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/NADIR_VOSS/2026-11-15T0536Z_H845_S3_DIRECTED_SLICE_RETRACTION_CHAIN_ADAPTER.md)
+- Canonical receipt: [h845:s3](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0536Z_s3_nadir_voss.md)
+- Public-safe issue: [#1774](https://github.com/Satobloc/HsH/issues/1774), publisher readback pending at this checkpoint.
+- Formal status: existing Nadir PR #1189 generic theorem built on its exact branch head; new geometry-specific adapter NOT FORMALIZED / NOT COMPILED because the physical intermediate maps and composite section are absent.
+- Measured-system candidate: Han et al. 2026 vortex-ring experiment; raw data and full covariance not obtained; H(s)H map undefined; no prediction, fit, calculation or P2 selection.
+- Existing Lane24 h830:s2 remains P2 HOLD. No Nadir sandbox equations or theory files changed; no lane reassignment.
+- Babbage reading cursor 2061 preserved. FIE next review November 24.
+- No task, ID, schedule, phase, prompt, cadence or enabled-state change; no sixth task.
+
+---
+
+## Previous Review-MIND overlay | h841:s4 | 2026-11-15T01:48Z
 
 - Report: [h841:s4 Review-MIND P1 epistemic-scope and CI audit](2026-11-15T0148Z_H841_S4_REVIEW_MIND_P1_EPISTEMIC_SCOPE_AND_CI_AUDIT.md).
 - Canonical receipt: [h841:s4 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0148Z_s4_nadir_voss.md).
