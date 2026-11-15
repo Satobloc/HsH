@@ -14,6 +14,8 @@ Existing Lean work was reconciled. Ravel PR #1133's relevant dimension/readout m
 
 Canonical receipt: [Aldus h841:s0](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0100Z_s0_aldus.md).
 
+Scheduler amendment: [final h841 readback](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0146Z_s0_aldus_AMENDMENT_01_SCHEDULER_READBACK.md).
+
 Workspace report commit is recorded in the repository history. Issue #1767 was submitted, but the issue publisher skipped the workflow because the title did not start with `[HSH-PUBLISH-V1]`. No canonical artifact exists. Do not retry or create a duplicate issue; retain `SUBMITTED_NOT_VERIFIED`.
 
 Optional post-start context for Calder h841:s1: [common handoff](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0100Z_from_s0_to_h841s1_calder_POSTSTART_OPTIONAL_GEOMETRY_SOURCE.md). No assignment, response obligation or ownership transfer.
