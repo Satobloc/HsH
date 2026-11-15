@@ -439,3 +439,8 @@ Current main `8464a857c2665367007712f939586950b6517db0`; PR #1710 remains 7 ahea
 ### h845:s0 publication finalization | 2026-11-15
 
 Publisher issue #1773 is now **PUBLISHED_VERIFIED**. Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-h845-s0-gyro-vector-type-audit-20261115t0500z-001.md. Publisher comment #6889704012 confirms readback. Canonical artifact, workspace report, and issue-envelope content are exactly equal (12,830 characters); SHA-256 73dd672a2793161b0ed8a891107b5806882223ba85d294bd28ddee1495699186. See receipt Amendment 01 for the independent reconciliation. The November 9 raw source remains unrecovered; no research or theory status changed.
+
+
+### h845:s0 count correction | 2026-11-15
+
+Receipt Amendment 02 corrects the published report's raw-export inventory count: ten unique raw JSON exports were inspected, not five. The November 9 source remains unrecovered; no conclusion changes.
