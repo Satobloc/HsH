@@ -713,7 +713,6 @@ namespace HsHVerification.CodeGrurplePresentationOutcome
 open HsHVerification.CodeGrurpleObservationGate
 open HsHVerification.CodeGrurpleWorkflowScope
 
-/-- Reader-facing checks are outcomes, not authorization flags. -/
 /-- The first eight fields mirror the PDF acceptance bullets in
     PUBLIC_SITE/PRESENTATION_GATE.md. The final four add the routing and
     artifact requirements in PRESENTATION_CONTRACT.md and
@@ -874,7 +873,11 @@ theorem unauthorized_probe_state_makes_observation_unbound
     (s : State) (e : WorkflowTriggerEvidence) (w : RouteObservationWitness)
     (h : routeProbeAuthorizedWithWorkflow s e = false) :
     presentationStatus s e (some w) = .unbound := by
-  simp [presentationStatus, routeObservationCurrent, h]
+  cases hs : s.source <;>
+    cases hd : s.derivative <;>
+    cases hdep : s.deployment <;>
+    cases hr : s.route <;>
+    simp [presentationStatus, routeObservationCurrent, hs, hd, hdep, hr, h]
 
 /-- Changing the source invalidates the old route/deployment/derivative chain,
     so an observation captured for the prior source becomes unbound. -/
