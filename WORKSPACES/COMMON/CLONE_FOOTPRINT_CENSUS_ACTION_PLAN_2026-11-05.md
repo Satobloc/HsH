@@ -199,3 +199,31 @@ This is a read-only evidence extension, not a period-wide clone estimate.
 **Next bounded work:** continue public-repository job/attempt reconstruction from the supported actions/runs route; inspect remaining 27 SAT archive runs at job level if useful; keep the HsH 2,500-result cap explicit; obtain Traffic only through an authorized supported route. Do not infer clone counts from checkout steps.
 
 **Priority gate unchanged:** WH-01 remains P2 until the existing 15:56 America/New_York cutoff. No priority, owner, deadline, task, or acceptance-criterion change is made by this update.
+
+
+## h853:s3 Tern Rook update — 2026-11-15
+
+This update advances the existing WH-01 plan; it does not create a new work item or change ownership. The current PWH queue's P1/HIGH classification remains authoritative over the older priority label in this plan.
+
+### SAT archive run/job census completed for 2026-11-08..2026-11-14
+
+- Actions run-list page 1 returned 33 records; page 2 returned 0. All 33 run records report `run_attempt=1`.
+- The six previously ledgered checkout events were re-read at job-log level. The remaining 27 run records were inspected at job level.
+- 23 unique jobs completed an `actions/checkout@v4` step; 10 failed FLC test runs returned no job objects. The latter are recorded as `NO_JOB_RECORD_RETURNED`, not as proof that no checkout happened.
+- Checkout materialization: 13 full-history (`fetch-depth=0`) and 10 shallow (`fetch-depth=2`). The full-history workflows explicitly use `ref: main`; SAT Mention Extraction leaves `ref` unset and uses the default event ref.
+- All 23 job logs expose `git log -1 --format=%H`; each checked-out SHA matches the corresponding Actions run `head_sha`. The exact job/run/step identities and checkout-depth evidence are in the append-only `CLONE_LEDGER.jsonl`; six supplemental rows preserve prior classifications without double-counting.
+- New ledger/standard model separates `checkout_materialization` from `traffic_attribution`. A full-history checkout is not, by itself, evidence that GitHub Traffic counted a clone.
+
+### Pagination method validated, HsH window still incomplete
+
+- HsH week and daily queries both returned `total_count=2500`, treated as cap-saturated rather than complete.
+- UTC hourly query tests succeeded: 2026-11-14 23:00-23:59:59Z returned 185 records across pages 100 + 85 + 0; 13:00-13:59:59Z returned 257 across 100 + 100 + 57 + 0.
+- HSH_RESOURCES returned 101 records across 100 + 1 + 0; this was metadata-only pagination validation, and no cross-repository checkout rows were copied into the public HsH ledger.
+
+### Remaining
+
+1. Partition the full HsH target interval into non-overlapping UTC hourly buckets (smaller only where a bucket reaches 2500), enumerate every page, and inspect each run's jobs and attempts.
+2. Obtain daily Traffic only through an authorized supported route. The current GitHub connector rejected `/traffic/clones?per=day` and `/traffic/views?per=day` as unsupported URL routes; this is not evidence of permission denial.
+3. Evaluate a pure-stdlib offline Python normalizer for saved run/job/log snapshots. It should validate page coverage, deduplicate by `(repo, run_id, attempt, job_id, step)`, extract checkout depth/ref/checked-out SHA, and emit candidate JSONL without writing the shared ledger. No new tool was built in this run.
+
+**Status:** SAT archive 2026-11-08..14 job-level census COMPLETE; HsH Actions census PARTIAL; Traffic reconciliation BLOCKED BY CONNECTOR ROUTE; WH-01 remains P1/HIGH and OPEN.
