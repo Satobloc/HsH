@@ -2,7 +2,7 @@
 
 **Purpose:** compact role, authority, and continuity launch packet. Assistant-curated navigation, not a signed charter, identity proof, or theory authority.
 
-**Last prepared:** 2026-11-14 h836:s0 (Lane 00 source-fidelity correction; publisher verified and continuity reconciled).
+**Last prepared:** 2026-11-14 h839:s4 (Review-MIND source-dependence audit, publisher 409 diagnosis, and authority-pointer correction).
 
 ## Identity and historical remit
 
@@ -10,7 +10,7 @@
 - Historical direct source: Library raw export **SABLE Revival Rotation - raw.json**, exact-byte Git blob SHA-1 `57f65c43ece0abb05f38dfb577267312c80f788f`; user-role message `df0c6245-20ee-43bb-b381-f277f85bddb4`, 2026-09-14T14:35:05.332Z.
 - The direct instruction supports systems/capability analysis, team-state mapping, automation leverage, external-tool/resource testing, knowledge-base surveying, and scripting for extraction, checking, availability, sampling, and triage.
 - [Sable Systems Clearance](../COMMON/SABLE_SYSTEMS_CLEARANCE_2026-09-14.md) records the broad remit. No standalone signed specialist charter was recovered.
-- The user-designated main ordinary-Sable conversation is historically identified by title **Revival Rotation**. Current live usability remains UNVERIFIED, not confirmed exhausted; no later ordinary-Sable successor was identified. The exact private ID is retained in prior user context and is not copied into this public workspace. The raw-export conversation ID is a separate source object. A. Sable Meridian and the separate September 16 “wrong Sable” conversation are not substitutes.
+- The user-designated main ordinary-Sable conversation is historically identified by title **Revival Rotation**. Its exact historical ID is recoverable from the ordinary raw export and prior context, but is not repeated in this capsule. A fresh memory search found no evidence that it was reopened, exhausted, or superseded; current live usability remains UNVERIFIED. Browser tab lookup could not access the originating browser context. The raw-export conversation ID is a separate source object from the SABLE Revival Rotation export and from the automation conversation. A. Sable Meridian and the separate September 16 “wrong Sable” conversation are not substitutes.
 - Existing-thread-first: search for the main Sable thread before claiming revival. If exact identity and current usability remain unavailable, proceed only as source-grounded revival in the current execution. Do not create or rename a chat, impersonate the historical instance, or claim cross-thread delivery.
 
 ## Current role and authority
@@ -33,7 +33,26 @@ Sable is selected through the fixed 19-identity ring, not a fixed Sable-specific
 
 P0 remains ACTIVE, but the live [Code Grurple roster](../COMMON/CODE_GRURPLE_ROSTER.md) assigns Papers A+B presentation QA to Mercer and consolidation to Tern. The returning-instance pool is discretionary support only when a site-capable worker is actually available. No dedicated Sable P0 presentation-QA assignment is established by the live roster. Do not accept an incoming handoff's role label as an assignment unless the current roster and Nathan's authority support it.
 
-## Current continuity: h836:s0
+## Current continuity: h839:s4
+
+- Run key: REVROT3-19-20261011:839:s4; nominal slot 2026-11-14T23:48Z. Selected Sable (ring index 0); next ring label Loom (index 1), h840:s0.
+- Current run ID: daebca35-0b0c-83e9-93f2-47bfe18081b6; started 23:51:52.508802Z; last observed IN_PROGRESS, completion null, chat_ref null. Cached latest result remains prior Kestrel h838:s4. Task-summary last_run_time/next_run_time lag the run-details record.
+- Existing :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled on the exact hourly DTSTART 2026-10-01 14:48 America/New_York; prompt and phase unchanged. :12 remains disabled. No sixth task, reassignment, cadence change, or task mutation.
+- [Current report](2026-11-14T2348Z_H839_S4_REVIEW_MIND_CLAIM_SCOPED_EVIDENCE_DEPENDENCE_AND_PUBLISHER_RACE.md). Canonical receipt path: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2348Z_s4_sable.md. Public-safe submission ID: sable-h839-s4-source-dependence-20261114t2348z-001; final publisher status belongs in the receipt.
+- Four public reports (#1751, #1756, #1757, #1758) cite one Meridian Free Build conversation source family. Sable/Nadir share four active user-message locators plus one branch-only locator; Nadir/Kestrel share four active plus two branch-only. Other pairs share only the conversation-level ID in their issue bodies. Report reuse/correction edges are explicit, but actual run-context exposure and cross-thread delivery are unobserved. Classification: MULTI-REPORT SOURCE-AUDIT CLUSTER; claim-level origin disjointness UNRESOLVED; not four independent confirmations or agent consensus.
+- PR #790 exact-head Lean run #42944088253 built 8,953 jobs and verified the claim-scoped lineage/simulation-provenance modules; the schema still cannot emit disjointInAuditedScope. PR #850 remains Orson-owned; current head 776f5df, run #43655298253 completed its 8,986-job root build, but no module-specific source-overlap trace or exact-head assertion. No new Lean module or build.
+- Kestrel #1758 publisher run #43651297751 failed with HTTP 409 at Contents API PUT. Validation passed; no canonical artifact or publisher comment. Concurrent main writes make a branch-update race likely. No retry or bypass. Recommended bounded 409 re-read/retry is a maintainer change, not performed here.
+- Live task graph remains 16 declared / 18 records. Its P1 PR #850 and P2 PR #790 head/run pointers are stale; Tern owns graph/PWH correction. No graph edit.
+- The September 18 Sable README authority language was relabeled historical/superseded. Tern owns scheduler/task allocation; Sable may analyze/recommend and maintain its own continuity, not mutate tasks.
+- H836 receipt Amendment 01 already records issue #1751 PUBLISHED_VERIFIED with exact three-way readback; no duplicate amendment.
+- Campaign: P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. No P1 manuscript, trial, paper gate, or ownership change.
+- Unrelated reading: SAT archive MIX TAPES.txt, lines 741-762; file EOF at 762, no next cursor. This corrects the prior 741-780 / 781 pointer. Passage is assistant-authored archival transcript; no physical break.
+- The ordinary Sable Revival Rotation thread ID is recovered from its raw export, but live usability remains UNVERIFIED; originating browser context was unavailable. No direct-thread delivery or historical-instance participation.
+- Next h840:s0 Loom run had already started at 23:55:17.924197Z. The optional packet is POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED.
+
+**Return pin:** SABLE_H839_S4 / CLAIM_LEVEL_ORIGIN_UNRESOLVED / PR790_EXACT_HEAD_BUILD_REPLAYED / PR850_ORSON_OWNED / PUBLISHER_1758_HTTP409 / README_AUTHORITY_SUPERSESSION / READING_EOF_762 / AUTOMATION_PRESERVED.
+
+## Prior continuity: h836:s0
 
 - Run key: REVROT3-19-20261011:836:s0; nominal slot 2026-11-14T20:00Z. Selected Sable (ring index 0); next deterministic label Loom (index 1). The :12 phase is disabled; next active phase is :24, selecting Aster at h836:s2.
 - Lane 00 correction: [h836 report](2026-11-14T2000Z_H836_S0_LANE00_INTERSECTION_PROJECTION_SOURCE_FIDELITY_CORRECTION.md), [issue #1751](https://github.com/Satobloc/HsH/issues/1751), [canonical published artifact](../COMMON/PUBLISHED_SUBMISSIONS/sable-h836-s0-timesheet-intersection-not-projection-20261114t2000z-001.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2000Z_s0_sable.md), [publisher amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2000Z_s0_sable_AMENDMENT_01_PUBLISHER_VERIFIED.md). Publisher run #43637515145 completed SUCCESS; comment #6883737037; exact report/issue/artifact equality at 17,409 characters; SHA-256 990aea24c906a6411afd4379635d7aa752f83c8e5f8a17b83aabc6710572e249; canonical artifact commit 73d3979f7e03e3693dccee9e58ca77aaae580e66. Status PUBLISHED_VERIFIED; no retry or duplicate.
