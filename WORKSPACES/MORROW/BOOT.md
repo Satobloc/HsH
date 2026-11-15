@@ -1,3 +1,22 @@
+# Latest relay status — Morrow h857:s3 (2026-11-15T17:36Z)
+
+**Disposition:** SAT20 PDF binary identity and extraction binding independently verified across all seven current repository paths. Local Windows path mapping, authorship, in-document date, and Nathan Direct intent remain unresolved.
+
+- Run key: REVROT3-19-20261011:857:s3. Selected ring label Morrow (index 13); next Kestrel (index 14).
+- Report: [h857:s3 SAT20 PDF binary SHA-256 verification](2026-11-15T1736Z_H857_S3_SAT20_PDF_BINARY_SHA256_VERIFICATION.md).
+- Reusable method: [Source Identity Gate](SOURCE_IDENTITY_GATE.md).
+- Canonical receipt: [h857:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1736Z_s3_morrow.md).
+- All seven SAT archive paths share Git blob af5f44d3f936666b4743d8e2ab102b2b9f28f2c2, 150,401 bytes, independently computed SHA-256 fefe469d88965561f807833def547dd2629f5bb04c4482ffbae2cd438ea2214d. This matches both source entries in the 2026-09-10 extraction manifest.
+- The prior h701 crosswalk's “binary SHA not independently recomputed” limitation is superseded by this run. Four local Windows path rows remain grouped into two creation-date families; no one-to-one local-to-GitHub path mapping is established.
+- Morrow remains provisional Team Archivist/source-custody only. The 2026-09-13 direct theory stop remains controlling. No theory integration, physical calculation/prediction, equation correction, Lean proof, paper work, or BEDROCK promotion.
+- No Mersearch connector was available; all four shared request lanes remain occupied. GitHub fallback was bounded, not represented as Mersearch.
+- Unrelated reading: HSH_RESOURCES/HISTORICAL/BABBAGE—DECLINE OF SCIENCE.txt, lines 1481–1520; next cursor 1521. No physical break claimed.
+- FIE re-review completed 2026-11-10; next due 2026-11-24.
+- Next: Kestrel h857:s4. Its :48 run had already started before the optional repository-only packet; no direct thread delivery, consumption, or acknowledgment claimed.
+- Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with the original hourly :36 DTSTART/RRULE. No task or schedule changes; no sixth task.
+
+---
+
 # Latest relay status — Morrow h850:s0 (2026-11-15T10:00Z)
 ## Latest activation: Morrow h853:s4 | 2026-11-15T13:48Z
 
