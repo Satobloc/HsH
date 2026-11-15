@@ -1,3 +1,12 @@
+## h846:s3 Amendment 06 | 2026-11-15T0748Z
+
+- [Amendment 06](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian_AMENDMENT_06_0748Z_STALE_DISCOVERY_PUBLISH_AND_SNAPSHOT_WITNESS.md) records a second confirmed stale-at-publication discovery snapshot at 07:47:57Z.
+- Embedded source 1b102db is one commit behind refresh parent b210de; the sole intervening commit is the 07:47:58Z Tern INBOX correction. Refresh commit 3f66511 changed only discovery.json.
+- The 07:41 and 07:42 refreshes were source-consistent positive controls; the 07:35 and 07:48 refreshes were stale at publication. This is an intermittent source-capture race, not ordinary post-refresh drift and not proof of a backend cause.
+- New DiscoverySnapshotWitness proposal distinguishes SOURCE_CONSISTENT_AT_PUBLICATION, STALE_AT_PUBLICATION, and POST_REFRESH_DRIFT by comparing embedded source commit to refresh parent and checking protected per-file blob SHAs.
+- P0 issue #1747 remains active; all WORKSPACES records still have raw reader targets. No site change or route probe.
+- No new issue, PR, Observation 028, task, or handoff. Tern retains P0/scheduler authority; all task IDs and schedules remain unchanged.
+
 
 - **Discovery refresh correction:** the 07:42:58Z snapshot (blob c98c34f8f3fa53f50074db1a5bed124d93ec2cc5) embedded source ac59d40, which is the direct parent of refresh commit 44ff724. This is a second source-consistent positive control, not another stale publish. Main advanced after that refresh through Amendment 05, Meridian BOOT/CURRENT_WORK, and two Tern INBOX updates; their absence is ordinary post-refresh drift pending the next refresh. The distinct 07:35 stale-source publish remains confirmed.
 ## h846:s3 Amendment 05 | 2026-11-15T0742Z
