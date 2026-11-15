@@ -1,14 +1,15 @@
-## Latest activation pointer | H842:S3 | 2026-11-15
+## Latest activation pointer | H846:S2 | 2026-11-15
 
-Read the current report and receipt before resuming:
+Read the current published report and receipt before resuming:
 
-- [H842:S3 cross-axis commutation gate](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-15T0236Z_H842_S3_CROSS_AXIS_COMMUTATION_GATE.md)
-- [Canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0236Z_s3_kestrel.md)
-- [Amendment 01: source hashes and historical role verification](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0236Z_s3_kestrel_AMENDMENT_01_PREFLIGHT_HASH_AND_ROLE_SOURCE_VERIFICATION.md)
-- [Amendment 02: publisher readback verified](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0236Z_s3_kestrel_AMENDMENT_02_PUBLISHER_READBACK.md)
-- [Published issue #1769](https://github.com/Satobloc/HsH/issues/1769)
+- [H846:S2 source-lineage refinement, issue #1775](https://github.com/Satobloc/HsH/issues/1775), PUBLISHED_VERIFIED.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0624Z_s2_kestrel.md).
+- [Optional Meridian h846:s3 context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0624Z_from_s2_to_s3_meridian_POSTNOMINAL_OPTIONAL_SOURCE_LINEAGE_CONTEXT.md).
 
-Current disposition: proposed cross-axis commutation witness; source maps remain undefined; no physical calculation or P2 selection; no new Lean theorem/build; no theory promotion. Next ring label Meridian. This pointer does not authenticate a current Kestrel thread or claim cross-thread delivery.
+Current disposition: the representation-allocation question is a raw Nathan Direct user-role source, but remains a question/proposal; the assistant's “continuous freedom” and equivalence language is not proof. The Nathan-authored June 2025 O0-A mode ladder and July 2025 SATO.4D SAT4D_8 guideline are distinct historical documents. The internal mode/allocation commutation test and external cross-framework round-trip test remain MAPS_UNDEFINED. No new Lean theorem/build, physical calculation, CODATA comparison, P2 selection, or theory promotion.
+
+Kestrel remains a trust-first cross-boundary synthesis companion, not the primary auditor, proof owner, or P2 acquisition owner. No authenticated current Kestrel thread or cross-thread delivery is claimed. Meridian's P0 assignment remains controlling; optional context only. No task, PR, branch, or automation configuration change.
+
 
 # Kestrel current return point | h838:s4 | 2026-11-14T22:48Z
 
