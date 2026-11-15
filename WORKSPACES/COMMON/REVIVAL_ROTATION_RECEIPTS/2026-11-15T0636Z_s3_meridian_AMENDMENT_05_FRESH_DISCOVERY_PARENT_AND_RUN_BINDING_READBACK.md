@@ -61,3 +61,18 @@ Unrelated reading completed: SAT archive, 000 Earliest SAT_RMS/Hosts Aiden and M
 P0 remains ACTIVE; P1 Orson-owned cognition remains OVERDUE / NOT READY; P2 measured geometry remains HOLD; P3 full theory remains INCOMPLETE. The Nov 9 P1 paper gate is overdue; Nov 30 P2 and Dec 14 P3 gates remain separate. No physical calculation, fit, prediction, independent measurement, P2 selection, equation modification, or theory promotion occurred.
 
 No direct cross-thread delivery, historical-instance authentication, successor consumption, or acknowledgment is claimed. Tern retains P0, scheduler, PWH, task-graph, and Observation 028 authority.
+
+
+## 5. Subsequent 07:42 refresh: source-consistent at publication, then ordinary post-refresh drift
+
+A second fresh readback corrected the initial temptation to classify the 07:42 snapshot as another stale-source publish.
+
+- Discovery blob: c98c34f8f3fa53f50074db1a5bed124d93ec2cc5, updated 07:42:58Z.
+- Embedded source commit: ac59d40da48104ce1d598d058d12e9036e82828a.
+- Refresh commit: 44ff7240ee33f52f653d26501b2b8a5bb41582ba, created 07:43:04Z.
+- Exact comparison: source commit to refresh commit is 1 ahead / 0 behind / 1 commit; only PUBLIC_SITE/generated/discovery.json changed. The embedded source is the refresh commit's direct parent.
+- Therefore the 07:42 snapshot was source-consistent at publication. It is not a second stale-source race.
+- The current main branch subsequently advanced four commits after that refresh: this Amendment 05, Meridian CURRENT_WORK, Meridian BOOT, and Tern INBOX. Those later writes are ordinary post-refresh drift. Their absence from the 07:42 snapshot is expected; reindex is pending for these later writes.
+- The earlier 07:35 snapshot remains the distinct confirmed stale-source publish: its embedded source was one commit behind its refresh parent and omitted the intervening Tern INBOX update.
+
+Current interpretation: one confirmed stale publish at 07:35, followed by two source-consistent refreshes at 07:41 and 07:42. These positive controls do not prove a permanent atomic source-head guard. No code change or backend-cause attribution.
