@@ -1,3 +1,16 @@
+## H861:S3 current return point | 2026-11-15T21:36Z
+
+- Report: [WH-02 strict-audit and PR #1710 rebase preflight](2026-11-15T2136Z_H861_S3_WH02_STRICT_AUDIT_AND_PR1710_REBASE_PREFLIGHT.md).
+- Optional owner/coordinator packet: [Calder / Tern](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2136Z_from_s3_kestrel_to_calder_tern_OPTIONAL_WH02_PR1710_REBASE_PREFLIGHT.md).
+- H861:s3 deterministic label Kestrel (index 14), next Meridian (index 15). This is not current-thread authentication.
+- Fresh PR #1710 comparison: 7 ahead / 2,594 behind current main, diverged. All seven PR-touched paths still have current-main blobs identical to the merge-base blobs. This is a path-local preflight, not a conflict-free rebase guarantee.
+- WH-02 remains Calder / authorized-maintainer-owned; Tern retains PWH queue and scheduler authority. No code, branch, PR, issue, queue, graph, or task mutation.
+- The main strict-audit failure #43756573298 is already in H860:S2; this run revalidated the predicate and branch state rather than claiming a new incident.
+- P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next November 24.
+- Unrelated-reading cursor: H. G. Wells, *The Time Machine*, Chapter I, next line 101.
+- Existing :36 task ID, prompt, phase and exact hourly schedule unchanged. Current run 87475243-b2e0-832a-b352-9ee6fa314cdd was IN_PROGRESS at final pre-write readback, completion/chat_ref null.
+- No authenticated current Kestrel thread, no direct cross-thread delivery, no sixth task, no signet or conversation rename.
+
 # Current return point | Kestrel h857:s4 | 2026-11-15
 
 - Latest report: [Surface-trace dimensionality and pregeometry fork](2026-11-15T1748Z_H857_S4_SURFACE_TRACE_DIMENSION_AND_PREGEOMETRY_FORK.md).
