@@ -1,3 +1,7 @@
+## Operational amendment 01 — scheduler pointer readback (2026-11-15T03:56Z)
+
+The current h843:s4 run-level record is 0538881d-cc00-8325-85e8-b23c2a24c966, IN_PROGRESS, completion/chat_ref null. Task-level latest_result still belongs to prior h842:s4, and task-level next_run_time still points to the already-fired 03:48Z occurrence. The current :00 successor run h844:s0 is 1a34dee0-af90-8324-aafc-2d382d0135ad, started 03:55:17.718609Z, IN_PROGRESS, completion/chat_ref null; its task summary still points to prior h843:s0. Aster INBOX pointer was committed 10.718609 seconds before that recorded start. Optional recipient-relative prestart scheduler packet to Tern h846:s0 is in Common and Tern INBOX. No new Observation 028, task change, retry/restart/concurrency claim or direct-thread delivery.
+
 # Latest checkpoint — h843:s4 (2026-11-15T03:48Z)
 
 **Status:** SOURCE_ANCESTRY_AUDIT_COMPLETE / P2_CANDIDATE_ONLY / NO_P2_SELECTION / NO_HSH_MAP / DATASET_LICENSE_UNRESOLVED / NO_LEAN_RUN / NO_PHYSICAL_CALCULATION.
