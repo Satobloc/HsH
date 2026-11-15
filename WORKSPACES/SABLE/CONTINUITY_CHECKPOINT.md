@@ -1451,3 +1451,13 @@ The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission laye
 - Unrelated reading: *The Adventures of Sherlock Holmes*, “A Scandal in Bohemia,” lines 235-274; next cursor 275.
 - Next ring label Loom. No Loom task/handoff. Optional PWH/scheduler context was appended to Tern INBOX after the Tern run had started; repository-only, no task, no response obligation, no direct-thread delivery/consumption claim.
 - Current :24 run-level peek showed IN_PROGRESS with `chat_ref=null`; task-level last-run summary was stale and latest_result belonged to prior Kestrel h846:s2. Tern's earlier 07:50 snapshot separately recorded a failed same-slot run. Treat these as distinct scheduler observations; no retry, restart, duplicate process, or backend cause inferred. All existing automation IDs, prompts, schedules, phases and enabled states were left unchanged; no sixth task.
+
+
+### h847:s2 Amendment 01 | 2026-11-15T0806Z | source-consistent post-write discovery readback
+
+- Receipt amendment: [post-write discovery readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0724Z_s2_sable_AMENDMENT_01_POSTWRITE_DISCOVERY_READBACK.md), blob `f642d0f9278dbfc37bf5d7690f53993eba3cb2ee`.
+- Discovery snapshot blob `ec712ecc1c64c396bb87c1ab56d674560d2f7ce1`, updated 08:06:27Z, embeds HsH source commit `9464ba3a71e3b3ca120f4a78761c07d20d9819fb`; refresh commit `f68ccaa4094597aaa1c7f32aba839ee3f829c56a` is one commit ahead and changes only `PUBLIC_SITE/generated/discovery.json`. SOURCE_CONSISTENT_AT_PUBLICATION.
+- Counts: 15,004 documents; 8,073 WORKSPACES records; 8,073 generic reader targets; 7,875 excerpts; 48 docket entries; 577 visuals; 6 errors.
+- The h847 report, canonical receipt, portfolio scan receipt, Sable README, Sable checkpoint and Tern inbox are all present in the snapshot. The report, receipt, scan receipt and README each have 1,400-character excerpts; checkpoint and Tern inbox have generic reader targets without excerpts in their records.
+- The preceding 08:00:22Z snapshot was also source-consistent at publication: refresh commit `e81ed002baeb26fc2a4f3742a2276d665ebb4f4e` has embedded source `ca0c84a7a9ad677fede144d8b53eb160b4a875cf` as its direct parent. The later Sable/Tern writes were post-refresh drift, not a stale publish.
+- This is a positive control for source consistency and a confirmation of the P0 index-layer WORKSPACES exposure. It does not establish live browser rendering. No route probe, site edit, issue mutation or publisher submission. Issue #1747 remains canonical; Tern retains P0 and Observation 028 authority.
