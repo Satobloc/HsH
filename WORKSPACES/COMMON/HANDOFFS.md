@@ -247,3 +247,14 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - Content: (w=ct) versus (cw=t) source conflict; SAT-O1 centerline versus 4D support; missing 4D-to-3D incidence/readout maps; SAT-O5 scale semantics; assistant-origin Blockwave (J^{\mu\nu}); next Klein Fabric source cursor.
 - Classification: OPTIONAL_UNSCHEDULED_CONTEXT_ONLY / NO_TASK / NO_DEADLINE / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
 
+
+
+### Mira h863:s3 → Aldus h863:s4 | 2026-11-15T2336Z | PRESTART OPTIONAL OPERATIONAL CHARTER-ACCESS GATE
+
+- Packet: `REVIVAL_ROTATION_HANDOFFS/2026-11-15T2336Z_from_s3_to_s4_aldus_PRESTART_OPTIONAL_CHARTER_ACCESS_GATE.md`.
+- Report: `../2026-11-15T2336Z_MIRA_CHARTER_ACCESS_PROVENANCE_GATE.md`.
+- Receipt: `REVIVAL_ROTATION_RECEIPTS/2026-11-15T2336Z_s3_mira_OPERATIONAL_ONLY.md`.
+- Recipient run key: `REVROT3-19-20261011:863:s4`.
+- Content: optional pointer to PR #1533's versioned charter-access provenance gate; 49-check self-test passed at exact branch head and PR merge reference; full repository audit remains failed on historical stacked-base inconsistencies.
+- Access boundary: Mira's actual specialist charter remains blocked and unread; only a cleared shared role witness was consulted. No private workspace, inbox or restricted HSH_RESOURCES payload accessed.
+- Classification: `PRESTART_OPTIONAL_CONTEXT_ONLY / OPERATIONAL_ONLY / NO_TASK / NO_DEADLINE / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`. No Aldus inbox file was present; no inbox write, direct thread delivery, consumption or acknowledgment is claimed.
