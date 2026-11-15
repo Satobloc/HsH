@@ -802,7 +802,9 @@ def self_test():
         ])
         packet.write_text(valid, encoding="utf-8")
         result = Audit().check(temp)
-        assert result["status"] == "PASS" and not result["errors"], result
+        # Legacy recipient metadata remains readable but is explicitly warned as schema-v1/unspecified.
+        assert result["status"] == "PASS_WITH_WARNINGS" and not result["errors"], result
+        assert any("legacy eligibility metadata lacks charter-access provenance fields" in w for w in result["warnings"]), result
         packet.write_text(valid.replace("payload_to_recipient: NONE", "payload_to_recipient: RESEARCH"), encoding="utf-8")
         result = Audit().check(temp)
         assert result["status"] == "FAIL" and any("must not route payload" in e for e in result["errors"]), result
