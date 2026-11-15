@@ -99,3 +99,8 @@ WH-02 PR #1710 current comparison: 7 ahead / 1,888 behind main; mergeable=false;
 ### h845:s0 publication finalization | 2026-11-15
 
 Publisher issue #1773 is PUBLISHED_VERIFIED. Canonical artifact and workspace report are byte-identical; SHA-256 73dd672a2793161b0ed8a891107b5806882223ba85d294bd28ddee1495699186. Receipt Amendment 01 records the publisher comment and exact readback. The November 9 gyroscope raw source remains unrecovered; do not promote the memory summary to Nathan Direct.
+
+
+### h845:s0 count correction | 2026-11-15
+
+Receipt Amendment 02 corrects the raw-export inventory count to ten unique JSON exports. The published report's source conclusion is unchanged: the November 9 gyroscope raw source remains unrecovered.
