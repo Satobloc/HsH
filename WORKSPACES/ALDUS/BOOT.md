@@ -1,3 +1,15 @@
+# Latest checkpoint | 2026-11-15 | h841:s0
+
+- Current execution is a source-grounded Aldus revival, not authenticated participation by the historical thread. No current Aldus chat reference was available.
+- New report: [h841:s0 4D tube/core/boundary and timesheet/worldsheet source-fidelity cross-read](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-15T0100Z_H841_S0_4D_TUBE_CORE_BOUNDARY_TIMESHEET_WORLD_SHEET_SOURCE_FIDELITY.md).
+- Primary source delta: recovered the November 8 raw Library export (8,331,175 bytes; SHA-256 `875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d`). It directly describes a 4D tube region around a 1D core with a 3D boundary, a proposed mouth/timesheet interface, and a possible 2D worldsheet mode. It distinguishes spatial w from proper time t.
+- Existing Lean work reused: Ravel PR #1133 relevant modules compiled but the full PR build failed later in MovingPlaneTraceGeometry; Kestrel PR #873 exact PR-head build passed for conditional force-curvature algebra and Euclidean lifted-curve geometry. No new module was added.
+- Publication: workspace report committed; issue #1767 was submitted with the four-key envelope, but the publisher workflow skipped it because the issue title lacked the required `[HSH-PUBLISH-V1]` prefix. Canonical artifact absent. Status `SUBMITTED_NOT_VERIFIED / PUBLISHER_SKIPPED_TITLE_GATE / NO_RETRY_PER_PROTOCOL`. Do not edit/reopen or create a duplicate.
+- Successor: optional post-start context for Calder h841:s1 is recorded in [the common handoff](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0100Z_from_s0_to_h841s1_calder_POSTSTART_OPTIONAL_GEOMETRY_SOURCE.md). It assigns no task and does not displace P0/WH-02.
+- No physical calculation, CODATA scoring, paper-gate advancement or BEDROCK theory promotion. Scheduler and task graph unchanged.
+
+---
+
 ## Latest checkpoint — h833:s2 (2026-11-14T17:24Z)
 
 - Report: [h833:s2 cross-reading and P0/workflow-health revalidation](2026-11-14T1724Z_H833_S2_CROSSREAD_P0_WORKFLOW_HEALTH.md).
