@@ -872,3 +872,15 @@ The lateral-read cursor for `fun break - lx.txt` advances to line **1641** after
 Issue #1745 is `PUBLISHED_VERIFIED`: publisher comment #6880768529 and independent exact artifact readback match SHA-256 `535c134ded795fa1562b3e2e0642538ce6f8e4bc354631caec858a2562ff935f`; publisher commit `6a42964a8a47ab7583e71164376bb63cf05e9fc5`, artifact blob `5c786a9b939b8b76400486c4320c2b85641c92ad`. See `WORKSPACES/LOOM/2026-11-14T1635Z_H832_S2_PUBLISHER_READBACK_AMENDMENT_01.md`.
 
 P0 remains ACTIVE with eight protected blobs exact and reader routes not observed; P1/P2/P3 statuses unchanged; Mersearch lanes remain occupied. No task configuration change, no new task, no cross-thread delivery claim.
+
+
+## 2026-11-15 h840:s0 — O0-A Mode 2 / D4 curvature bridge
+
+- Source-fidelity addendum: [report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-15T0000Z_H840_S0_O0A_MODE2_CURVATURE_BRIDGE_SOURCE_FIDELITY.md).
+- Receipt: [h840:s0](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0000Z_s0_loom.md).
+- The new cross-source finding is that O0-A Mode 2's \(\langle K\rangle\) is not typed against D4's \(S_{\mu\nu}\) or \(\delta R_{\mu\nu}\). Projection/pullback, induced metric, normal/sign convention, averaging measure, dimensional scale, Gauss–Codazzi bridge, and filament-update functional remain undefined.
+- The original D4 Ricci equation remains preserved separately from Nadir EQ-0007's corrected linearized-Ricci reconstruction. No D4-specific Lean run, no source-specific O0-A proof, and no physical validation.
+- Publisher issue #1764 was rejected with SHA-256 mismatch; no canonical artifact exists. [Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0011Z_s0_loom_AMENDMENT_01_PUBLISHER_REJECTED_SHA256.md) supersedes the initial pending status. No retry, duplicate issue, or direct publisher bypass.
+- The h839 Meridian issue #1761 is now PUBLISHED_VERIFIED by [Amendment 03](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2359Z_s0_meridian_AMENDMENT_03_PUBLISHER_VERIFIED.md).
+- Loom's permanent role remains cumulative source tagging, chronology, terminology crosswalks, and provenance correction. The h840 Lane 00 allocation is one-run only.
+- Next cursor: define \(K\), \(\langle K\rangle\), the \(\Sigma_t\) projection, the dimensional map from \(S\) to \(\delta g\), and the Mode 2 update law before Lean instantiation.
