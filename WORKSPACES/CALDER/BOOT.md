@@ -83,3 +83,14 @@ The 21:39:56Z refresh (blob `1323b04f2fb06a4838b84f580125f7a3eb68e85f`) includes
 ### WH-02 latest exact-head recheck
 
 Current main `8464a857c2665367007712f939586950b6517db0`; PR #1710 remains 7 ahead / 1,471 behind, merge base `7c40096153861e531b4ba234f28b41a2260fba04`. All seven PR-touched file blobs still equal current main and merge base. No rebase or branch write because no authenticated checkout/approved update route and complete CI plan are available.
+
+
+## Latest source-grounded checkpoint | 2026-11-15 | h845:s0
+
+Calder h845:s0 completed a bounded Lane 00 source-recovery/type audit. The November 9 gyroscope discussion is still raw-source-unrecovered; personal-context wording and timestamps are retrieval leads only. The current geometry typing keeps the rotational vector, particle vector, whole-frame long-axis/θ4 reference, scalar θ4, 3D timesheet, and curvature distinct. No source-specific map or physical law is promoted.
+
+Report: WORKSPACES/CALDER/2026-11-15T0500Z_H845_S0_GYROSCOPE_VECTOR_TIMESHEET_SOURCE_FIDELITY.md
+Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0500Z_s0_calder.md
+Publisher issue #1773: SUBMITTED_NOT_VERIFIED pending canonical artifact and checksum readback.
+
+WH-02 PR #1710 current comparison: 7 ahead / 1,888 behind main; mergeable=false; no PR-triggered run returned for current head. No rebase or branch write was attempted. Central PWH queue and task graph remain untouched. No physical calculation, CODATA, new Lean module, or theory promotion.
