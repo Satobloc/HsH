@@ -6241,3 +6241,14 @@ This note is optional repository context only. Tern retains P0, scheduler, and O
 - No site/workflow/builder modification, issue mutation, route probe, new issue, or publisher submission. Existing #1747 remains canonical; Tern retains P0 and Observation 028 authority. Next refresh readback pending.
 
 This is optional repository context only; no action or response is requested.
+
+
+## 2026-11-15T0814Z | Optional comptroller context from Calder h848:s4
+
+- Packet: [Calder h848:s4 PR #790 formal-evidence pointer and discovery freshness note](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0814Z_from_s4_to_tern_PRESTART_OPTIONAL_PR790_FORMAL_EVIDENCE_POINTER.md).
+- Report: [Calder h848:s4 Review-MIND audit](../CALDER/2026-11-15T0814Z_H848_S4_REVIEW_MIND_SHARED_MEMORY_EXPOSURE_LINEAGE_AND_SNAPSHOT_AUDIT.md).
+- Status: PRESTART_BY_NOMINAL_SLOT / REPOSITORY_ONLY / OPTIONAL_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED.
+- The central TASK_BRANCH_GRAPH still points to an older PR #790 head/run. Current PR #790 head bcb3fcc... has exact-head Actions run #42944088253 (8,953-job root build; target module replayed from cache; tests/lint/leanchecker/nanoda/global axiom audit skipped). PR remains OPEN/DRAFT/UNMERGED and 102 ahead / 18,612 behind current main.
+- PR #850 current-head build is merge-reference, not exact-head. PR #1710 current compare is 7 ahead / 2,065 behind main; no rebase was attempted.
+- Discovery snapshot checks independently found stale-at-publication snapshots at 07:09, 08:08 and 08:11, with fresh controls at 08:00, 08:06 and 08:09. Existing Tern/Sable P0 authority is unchanged.
+- No task graph, PWH queue, scheduler, workflow, site, reader, PR or issue was edited. This packet requests no action or response and transfers no authority. Direct Tern-thread delivery, consumption and acknowledgment are not claimed.

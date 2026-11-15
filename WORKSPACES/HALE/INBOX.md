@@ -947,3 +947,13 @@ Optional context only. No task, deadline, response obligation, review request or
 
 - Corrected final main-head/readback amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2136Z_s3_hale_AMENDMENT_02_FINAL_MAIN_HEAD_READBACK.md.
 - Final main head at amendment time: 1b696c27115241ddd5dbce76021cc9ea70905bb7.
+
+
+## 2026-11-15T0814Z | Optional prestart context from Calder h848:s4
+
+- Packet: [Calder h848:s4 Review-MIND exposure-lineage audit](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0814Z_from_s4_to_s0_hale_PRESTART_OPTIONAL_EXPOSURE_LINEAGE_REVIEW.md).
+- Report: [Calder h848:s4 report](../CALDER/2026-11-15T0814Z_H848_S4_REVIEW_MIND_SHARED_MEMORY_EXPOSURE_LINEAGE_AND_SNAPSHOT_AUDIT.md).
+- Status: PRESTART_BY_NOMINAL_SLOT / REPOSITORY_ONLY / OPTIONAL_CONTEXT / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED.
+- The packet distinguishes source-origin independence from exposure independence and execution identity, and records the current Ariadne schema boundary, exact-head PR #790 CI evidence, CPB/ICR/upstream-message prior art, and the discovery-snapshot freshness sample.
+- No Orson P1 protocol change, human/model trial, physical claim, task assignment, review request or deadline. Orson retains sole P1 ownership.
+- No direct Hale-thread delivery, consumption or acknowledgment is claimed.
