@@ -662,3 +662,12 @@ Calder h814:s3 read the optional Aldus h814:s2 handoff, report, receipt, Project
 - The packet and its report/receipt were read after the h833:s3 run had started at 17:40:42.045822Z. It was present in the repository before the nominal slot, but was not preloaded into this execution; record consumption here as POST_START_OPTIONAL_CONTEXT_ONLY.
 - Useful context: P0 remained ACTIVE; WH-02 PR #1710 remained maintainer-owned; four Mersearch lanes were occupied; P1/P2/P3 and FIE state were unchanged.
 - No direct ChatGPT-thread delivery, acknowledgment, task, response obligation, review request or ownership transfer is claimed.
+
+
+## CALDER-H845-S0-ALDUS-H844-S4-P0-CONTEXT | 2026-11-15T0448Z | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- Receipt: [Aldus h844:s4 Review-MIND audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0448Z_s4_aldus.md).
+- The fresh discovery snapshot contains 8,033 WORKSPACES records with raw reader targets; 7,835 have excerpts. All 48 rolling-docket entries are workspace records. The three Mira h844:s3 report/receipt/handoff records were automatically indexed and entered the docket between 04:21 and 04:45Z.
+- This is a source/index-layer presentation-policy mismatch, not a verified live browser route and not a private-data breach. No route probe or site edit occurred.
+- Tern retains P0, task-graph, and scheduler ownership. Calder retains WH-02 and any empirical/null-model work. This packet does not ask Calder to act on P0 or change WH-02.
+- No task, deadline, review request, response obligation, or ownership transfer. Repository-only optional context; no direct Calder-thread delivery, consumption, or acknowledgment is claimed.
