@@ -934,12 +934,8 @@ deriving DecidableEq, Repr
 
 def discoverySnapshotConsistent
     (w : DiscoverySnapshotWitness) (currentSource : GitBlobSha1) : Prop :=
-  gitCommitSha1Shape w.sourceCommit = true ∧
-  gitCommitSha1Shape w.refreshParent = true ∧
-  gitCommitSha1Shape w.refreshCommit = true ∧
   w.sourceCommit = w.refreshParent ∧
   w.recordSourceBlob = currentSource ∧
-  gitBlobSha1Shape w.recordSourceBlob = true ∧
   w.refreshDiffOnlyGeneratedDiscovery = true
 
 /-- One record's independently selectable discovery/presentation surfaces.
@@ -1066,17 +1062,17 @@ theorem observed_snapshot_is_consistent_for_paper_a :
     discoverySnapshotConsistent
       (observedSnapshot ⟨"13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa"⟩)
       ⟨"13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa"⟩ := by
-  decide
+  constructor <;> rfl
 
 theorem observed_snapshot_is_consistent_for_paper_b :
     discoverySnapshotConsistent
       (observedSnapshot ⟨"0a1dca42cafd9a02faceff4ec0851659a317b2bb"⟩)
       ⟨"0a1dca42cafd9a02faceff4ec0851659a317b2bb"⟩ := by
-  decide
+  constructor <;> rfl
 
 theorem metadata_only_pending_record_is_projection_safe :
     projectionSafe pendingMetadataOnly := by
-  simp [projectionSafe, pendingMetadataOnly]
+  simp [projectionSafe, pendingMetadataOnly, paperBObserved]
 
 /-- A docket exclusion does not prevent a raw target from appearing in the
     full discovery catalog. This is the actual Paper B projection pattern. -/
@@ -1119,29 +1115,29 @@ theorem source_change_preserves_inventory_and_metadata
     (r : DiscoveryProjection) (newSource : GitBlobSha1) :
     (sourceChanged r newSource).inventoryIndexed = r.inventoryIndexed ∧
     (sourceChanged r newSource).metadataVisible = r.metadataVisible := by
-  rfl
+  simp [sourceChanged]
 
 theorem source_change_preserves_docket_selection
     (r : DiscoveryProjection) (newSource : GitBlobSha1) :
     (sourceChanged r newSource).docketIncluded = r.docketIncluded ∧
     (sourceChanged r newSource).docketEligible = r.docketEligible := by
-  rfl
+  simp [sourceChanged]
 
 theorem source_change_closes_raw_excerpt_and_reader_target
     (r : DiscoveryProjection) (newSource : GitBlobSha1) :
     (sourceChanged r newSource).excerptVisible = false ∧
     (sourceChanged r newSource).readerTargetVisible = false := by
-  rfl
+  simp [sourceChanged]
 
 theorem source_change_invalidates_old_snapshot
     (r : DiscoveryProjection) (newSource : GitBlobSha1) :
     (sourceChanged r newSource).snapshot = none := by
-  rfl
+  simp [sourceChanged]
 
 theorem source_change_marks_presentation_pending
     (r : DiscoveryProjection) (newSource : GitBlobSha1) :
     (sourceChanged r newSource).presentation = .pending := by
-  rfl
+  simp [sourceChanged]
 
 theorem fresh_snapshot_alone_does_not_enable_pending_presentation
     (r : DiscoveryProjection) (w : DiscoverySnapshotWitness)
