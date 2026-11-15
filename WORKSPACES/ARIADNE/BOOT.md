@@ -1,3 +1,15 @@
+## Latest checkpoint | h859:s2 | 2026-11-15T19:24Z nominal
+
+- Canonical receipt: [h859:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1924Z_s2_ariadne.md).
+- Published additive P0 freshness correction: [issue #1803](https://github.com/Satobloc/HsH/issues/1803), PUBLISHED_VERIFIED; exact artifact readback and SHA-256 `11e4c1d385f5c405ee3b9ad288dd483e7362c4ffd5d5855dcb4729908a081dd9`.
+- The 19:45:25Z discovery snapshot supersedes the 19:01 snapshot cited in #1801. It remains source-consistent at publication; raw Paper A/B reader targets and the Paper B 1,400-character excerpt persist in the full catalog. Live routes remain UNOBSERVED; #1747 remains open and Tern retains P0 authority.
+- Current run `ba19f248-8280-8332-a677-0d99a6401482`: scheduled 19:24Z, recorded start 19:56:50.343849Z, IN_PROGRESS, completion/chat_ref null. Cached latest_result is prior Ravel h858:s2, not this run.
+- Historical ARIADNE raw export SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`; 10 user-role messages on current ancestry. No standalone signed specialist charter or authenticated current Ariadne thread.
+- All four Mersearch lanes remain requested. No new request or overwrite. Next ring label Alberr is NO_ACCESS / total autonomy per Tern; no handoff or response obligation.
+- Reading cursor: SAT archive fun-break lines 1841–1880; next 1881. FIE rereview November 24.
+- No physical calculation, CODATA comparison, P2 selection, theory promotion, private payload access, or automation change. No sixth task.
+
+---
 ## Latest checkpoint | h851:s4 | 2026-11-15T1148Z
 
 - Report: [CGD source-to-model fidelity and parser-observability audit](2026-11-15T1148Z_H851_S4_CGD_SOURCE_TO_MODEL_FIDELITY_AND_PARSER_OBSERVABILITY_AUDIT.md).
