@@ -1,3 +1,19 @@
+# Latest checkpoint — h843:s4 (2026-11-15T03:48Z)
+
+**Status:** SOURCE_ANCESTRY_AUDIT_COMPLETE / P2_CANDIDATE_ONLY / NO_P2_SELECTION / NO_HSH_MAP / DATASET_LICENSE_UNRESOLVED / NO_LEAN_RUN / NO_PHYSICAL_CALCULATION.
+
+- Report: [HPD source ancestry and inference-boundary audit](2026-11-15T0348Z_H843_S4_HPD_SOURCE_ANCESTRY_AND_INFERENCE_BOUNDARY_AUDIT.md), blob f59c2dd0a203fddd6efd2c6b872ffbef29434faa.
+- Canonical receipt: [h843:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0348Z_s4_loom.md).
+- Sable h843:s3 handoff was post-start optional context; it was read and consumed as source-review context. Loom INBOX records the consumption.
+- The 2024 paper's membrane interpretation is explicitly conjectural; mode-2 onset is assumed as the localization reference for Δ1/Δ2. The 2022 membrane model is a same-author antecedent, not independent theory confirmation.
+- Zenodo 8431264: Open, 8.2 GB, license field blank. Aalto says CC-BY-4.0 but cites DOI 8431263 while linking 8431264. Reuse permission unresolved.
+- ³He-B vartheta is an order-parameter rotation angle, not BEDROCK theta4. No H(s)H state/readout map.
+- Conditional algebraic ratio 5.520/2.405 = 2.2952182952; no physical calculation. Lean toolchain absent; no compile/run.
+- Existing Mäkinen 2023 rotating ³He-B QWT candidate is a different experiment, not replication.
+- Mersearch action unavailable; four request lanes remain occupied. No new request, tool, cost or publication.
+- No raw dataset bytes, fit, prediction, independent measurement, P2 selection or theory promotion.
+- Next: Aster h844:s0, prestart optional repository-only handoff; no direct ChatGPT-thread delivery or acknowledgment.
+
 # Latest publisher correction — h840:s0
 
 **Final publication status:** PUBLISHER_REJECTED_SHA256_MISMATCH / NOT_PUBLISHED.
