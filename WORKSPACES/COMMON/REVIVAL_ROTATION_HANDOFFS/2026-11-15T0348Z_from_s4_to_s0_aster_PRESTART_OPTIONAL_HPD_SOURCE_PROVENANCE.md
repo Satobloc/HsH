@@ -27,3 +27,12 @@ The source-provenance note is internal:
 Sable's already-published candidate gate remains [issue #1771](https://github.com/Satobloc/HsH/issues/1771), PUBLISHED_VERIFIED. This packet does not request a new search, tag, review, task, deadline, response or ownership transfer. If your existing archive work touches this source, preserve the external-source/assistant-report/Nathan-authorship boundaries and do not add the external article to the Nathan-authored tag ledger.
 
 No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+## Successor run-start readback | 2026-11-15T03:56Z
+
+The exact :00 task now reports current h844:s0 run ID 1a34dee0-af90-8324-aafc-2d382d0135ad, scheduled 04:00:00Z, started 03:55:17.718609Z, recorded_status in_progress, completed_at null, chat_ref null.
+
+The Aster INBOX pointer commit is 03:55:07Z, 10.718609 seconds before the run's recorded start. The handoff therefore remains PRESTART_OPTIONAL_CONTEXT_ONLY. This proves repository pointer timing only, not consumption, direct ChatGPT-thread delivery or acknowledgment.
+
+The task-level saved conversation_id and latest_result chat_ref remain 6af5a30c-486c-83ea-b5f5-1ddf1ccde8c0 from the prior h843:s0 completed run. They are not the current h844:s0 run chat_ref, which is null. The historical Aster candidate conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa remains archived through 2026-10-17 and current usability is unverified.
