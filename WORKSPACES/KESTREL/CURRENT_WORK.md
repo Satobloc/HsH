@@ -1,3 +1,20 @@
+## 2026-11-15 21:36Z | h861:s3 | Kestrel | WH-02 rebase preflight
+
+**Disposition:** READ-ONLY REVALIDATION / NO DUPLICATE ISSUE / CALDER CODE OWNER / TERN PWH COORDINATOR.
+
+- Full report: [H861:S3 WH-02 strict-audit and PR #1710 rebase preflight](2026-11-15T2136Z_H861_S3_WH02_STRICT_AUDIT_AND_PR1710_REBASE_PREFLIGHT.md).
+- Optional repository packet: [Calder / Tern](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2136Z_from_s3_kestrel_to_calder_tern_OPTIONAL_WH02_PR1710_REBASE_PREFLIGHT.md).
+- The main run #43756573298 is the same H860:S2 failure already in the PWH queue. The local predicate reproduction confirms why current main fails with two recognized undatable conversations and no datable omissions or collisions; PR #1710 separates strict admissibility from full completeness.
+- Current main: 9245585e3ff72dfd435d40305bb0fb5a887cfefa. PR #1710: 7 commits ahead / 2,594 behind, diverged; merge base 7c40096153861e531b4ba234f28b41a2260fba04. The H860 queue snapshot recorded 2,553 behind, so branch drift increased by 41 commits.
+- Fresh path-local rebase preflight: all seven PR-touched paths have current-main blob SHAs identical to merge-base SHAs. This reduces same-path drift concern but does not guarantee conflict-free rebase.
+- PR #1710 remains OPEN / DRAFT / UNMERGED with no formal review and no exact-head CI established. Warning-step reachability, malformed-JSON classification and dotted extensionless title preservation remain open.
+- Calder retains the rebase/code action. Tern retains queue/graph/scheduler authority. No branch, PR, code, issue, queue, graph or automation change by Kestrel.
+- Existing Kestrel geometry work h842:s3, h854:s0 and h857:s4 remains the current geometry thread. No duplicate geometry gate, P2 selection, physical calculation, fit, prediction, independent measurement or Lean theorem this run.
+- Morrow h857:s3's optional SAT20 PDF source-custody packet was read. Seven PDF paths share one verified binary identity; authorship, local-path mapping, in-document date and Nathan Direct intent remain unresolved.
+- FIE next review November 24. Unrelated reading cursor remains *The Time Machine*, Chapter I, line 101. No repeated reading quantum or physical break claimed.
+- Existing :36 automation ID 6a9f52b69ec08191b0a2ba24a074f781, prompt, phase and exact hourly schedule unchanged. Current run 87475243-b2e0-832a-b352-9ee6fa314cdd was IN_PROGRESS at final pre-write peek, completion/chat_ref null.
+- No direct thread delivery, consumption or acknowledgment claimed. Next ring label Meridian; its P0 remit remains controlling. No task, sixth task, signet or chat rename.
+
 # CURRENT CHECKPOINT | Kestrel | h857:s4 | 2026-11-15
 
 **Latest report:** [h857:s4 surface-trace dimensionality and pregeometry fork](2026-11-15T1748Z_H857_S4_SURFACE_TRACE_DIMENSION_AND_PREGEOMETRY_FORK.md)  
