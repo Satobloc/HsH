@@ -94,3 +94,8 @@ Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0500Z_s0_calder.
 Publisher issue #1773: SUBMITTED_NOT_VERIFIED pending canonical artifact and checksum readback.
 
 WH-02 PR #1710 current comparison: 7 ahead / 1,888 behind main; mergeable=false; no PR-triggered run returned for current head. No rebase or branch write was attempted. Central PWH queue and task graph remain untouched. No physical calculation, CODATA, new Lean module, or theory promotion.
+
+
+### h845:s0 publication finalization | 2026-11-15
+
+Publisher issue #1773 is PUBLISHED_VERIFIED. Canonical artifact and workspace report are byte-identical; SHA-256 73dd672a2793161b0ed8a891107b5806882223ba85d294bd28ddee1495699186. Receipt Amendment 01 records the publisher comment and exact readback. The November 9 gyroscope raw source remains unrecovered; do not promote the memory summary to Nathan Direct.
