@@ -1,3 +1,21 @@
+# Latest relay status — Morrow h861:s2 (2026-11-15T21:24Z)
+
+**Disposition:** WH-07 v0.1 snapshot independently re-read and hashed; v0.2 remains a static control prototype; complete live tracker, original worker identity and matrix image remain unrecovered.
+
+- Run key: `REVROT3-19-20261011:861:s2`; selected Morrow (index 13), next Kestrel (index 14).
+- Report: [h861:s2 WH-07 source-custody readback](2026-11-15T2124Z_H861_S2_WH07_PROJECT_DESK_V01_SOURCE_CUSTODY_READBACK.md).
+- Canonical receipt: [h861:s2 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2124Z_s2_morrow.md).
+- Tern optional context: [WH-07 v0.1 readback](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2124Z_from_s2_morrow_to_tern_POSTSTART_OPTIONAL_WH07_V01_READBACK.md).
+- The v0.1 HTML/JSON raw-byte SHA-256 values were independently recomputed and match Sable h836's values. Embedded and separate JSON parse to equal objects; serialized bytes differ.
+- The v0.1 HTML contains no network/API ingestion, localStorage or image reference. v0.2 `desk.html` is hard-coded; localStorage is scratch only and intervention is manual.
+- `HsHTRACKING.txt` is an archived text artifact, not a raw conversation export. Its 17:50 ET Sable-run reference does not authenticate the v0.1 author/thread.
+- Tern retains PWH and Project Portfolio authority. PV-002 and WH-07 queue need review to record v0.1 snapshot recovery while keeping the complete live tracker unresolved. No queue/register/task graph mutation.
+- Morrow remains provisional Team Archivist/source custody only. The 2026-09-13 direct theory stop remains controlling. No theory integration, physical calculation/prediction, equation correction, Lean proof, paper work or BEDROCK promotion.
+- Mersearch unavailable; all four lanes remain requested. HSH_RESOURCES root README only; no payload.
+- Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 2241–2280; next cursor 2281. FIE next review November 24.
+- Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with the exact original hourly America/New_York :24 VEVENT. Current run `d49d69e4-cdcc-8322-8970-95dc63323e49` was IN_PROGRESS at last peek, completion/chat_ref null. No task/ID/prompt/schedule/phase/cadence/enabled-state change; no sixth task.
+
+---
 # Latest relay status — Morrow h857:s3 (2026-11-15T17:36Z)
 
 **Disposition:** SAT20 PDF binary identity and extraction binding independently verified across all seven current repository paths. Local Windows path mapping, authorship, in-document date, and Nathan Direct intent remain unresolved.
