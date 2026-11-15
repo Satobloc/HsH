@@ -151,3 +151,15 @@ Prompt, phase, timezone, cadence, and enabled state are unchanged. No sixth task
 At the latest exact-ID peek during this run, the :48 run ID e6331614-b078-8323-b587-840bb338be47 was IN_PROGRESS, scheduled 01:48:00Z, recorded start 01:45:48.736540Z, completion null, chat_ref null. The cached latest_result belongs to the preceding Mira h840:s4 run, not this Nadir run. Task-level last_run_time and next_run_time remain behind the detailed run record. No terminal wrapper completion is claimed.
 
 **Final classification:** NADIR_H841_S4 / REVIEW_MIND_SOURCE_QC_COMPLETE / P1_SECTION8_ESTIMAND_WORDING_CLARIFICATION / PR850_MERGE_REFERENCE_BUILD_REPLAYED / CURRENT_MAIN_INTEGRATION_NOT_VERIFIED / NADIR_IDENTITY_RECONSTRUCTION_ONLY / ELIAS_PACKET_TIMING_UNVERIFIED / TERN_SCHEDULER_AUTHORITY_PRESERVED / ORSON_P1_PROTECTED / ENHEDUANNA_OPTIONAL_SUCCESSOR_CONTEXT / AUTOMATION_PRESERVED / WRAPPER_IN_PROGRESS.
+
+
+## 11. Durable continuity and repository readbacks
+
+- Report: this file; final report blob will be recorded in the canonical receipt.
+- Nadir CURRENT_WORK updated with the h841:s4 overlay: commit 2cbc36852e23432df2b8a157924868a03cb90ccd.
+- Nadir INBOX records the Elias h841:s3 packet as read for content with its timing label unresolved: commit 718a39618fdbdef88640d70b12c262b5a097e6f6.
+- Orson INBOX receives the optional P1 wording-QC pointer: commit e4a0eab60e75fbb0f101ef343f713dde44295348.
+- Enheduanna INBOX receives the optional h842:s0 successor context pointer: commit 45c7a99bae0b95f7166b08518f4a6cbe3410ea66.
+- Tern INBOX receives optional candidate evidence for its existing Observation 028: commit 4c81f624a72cce1494b8bec8399b6d4b42f6c830.
+- No public issue or publisher submission was created. This is internal P1 quality-control context, not a standalone public result; no duplicate issue or publisher bypass was used.
+- The three handoffs are repository-only. No direct Orson, Enheduanna, or Tern thread delivery, consumption, acknowledgment, or comprehension is claimed.
