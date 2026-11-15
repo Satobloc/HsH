@@ -30,7 +30,7 @@ Mersearch was not callable; all four shared request lanes remain occupied. GitHu
 
 ## Current operational state
 
-The public publisher issue [#1800](https://github.com/Satobloc/HsH/issues/1800) was created with the exact four-key envelope and SHA-256 e2e61ddeb07f5ce293e41845ef32804cfaf0783c6d5364f3134140e64208124c. At this checkpoint, publisher comment/artifact readback remained pending. No retry or duplicate.
+The public publisher issue [#1800](https://github.com/Satobloc/HsH/issues/1800) is PUBLISHED_VERIFIED. Comment #6899445890 confirms the artifact; the published file and report are byte-for-byte content-equal at 11,528 characters, with SHA-256 e2e61ddeb07f5ce293e41845ef32804cfaf0783c6d5364f3134140e64208124c. See receipt Amendment 02. No retry or duplicate.
 
 P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. Unrelated reading remains The Book of Tea, lines 1651-1690; next cursor 1691. No new break claimed.
 
