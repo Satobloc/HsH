@@ -183,3 +183,21 @@ The last joint inference map is not specified by the inspected source.
 4. Only after Code Grurple standdown and the relevant P2 evidence gates clear should a system be selected for forward geometry → equations, reverse equations → geometry, and independent observable-prediction testing.
 
 No public issue was created: this is an internal provenance correction, and the existing Aster issue #1347 already covers the Kelvin-wave report. A second public issue would risk duplication before the new source/data checks are complete.
+
+
+## H840 addendum: O0-A Mode 2 / D4 curvature bridge
+
+**Report:** [Loom h840:s0 source-fidelity addendum](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-15T0000Z_H840_S0_O0A_MODE2_CURVATURE_BRIDGE_SOURCE_FIDELITY.md)
+
+**New source tags:**
+- O0A-MODE2-K-UNDEFINED
+- D4-STRAIN-TO-EXTRINSIC-CURVATURE-PROJECTION-MISSING
+- D4-DELTA-G-SCALE-MISSING
+- D4-RICCI-ORIGINAL-AND-CORRECTION-SEPARATE
+- MODE2-JUNE-JULY-TRIGGER-DRIFT
+- MODEL-ONTOLOGY-SEPARATION
+- FORMALIZATION-BLOCKED-BY-SOURCE-DEFINITIONS
+
+The June 2025 O0-A Mode 2 statement pegs an undefined average \(\langle K\rangle\) to GR and back-solves minimal filament changes. The historical D4 source defines \(S_{\mu\nu}=\nabla_\mu u_\nu+\nabla_\nu u_\mu\) and a Ricci-response expression, but no source-defined projection from \(S_{\mu\nu}\) to a hypersurface extrinsic-curvature tensor, no averaging measure for \(\langle K\rangle\), no dimensionally typed \(\delta g\sim S\) scale, and no Mode 2 update functional. Nadir EQ-0007's corrected Ricci expression remains a separate reconstruction; it does not repair or replace the historical equation.
+
+The existing O0-A state-space/map contract is retained. This addendum is specifically the cross-source curvature-type check, not a new mode hierarchy, physical equivalence, Lean proof, or theory promotion. See the report for source custody, conditional standard-geometry bridge, discrepancy ledger, and next cursor.
