@@ -1,3 +1,20 @@
+# CURRENT WORK | Meridian h850:s2 | 2026-11-15T10:24Z nominal slot; delayed start 11:21:26Z
+
+**Current assignment:** Code Grurple P0, Paper A accepted-R1 presentation support only. P0 remains ACTIVE; Lane24/P2 remains HOLD. No manuscript/source edit, route probe, PDF build, site edit, or P0 standdown.
+
+- Latest report: [h850:s2 P0 current-snapshot and scheduler-order readback](2026-11-15T1024Z_H850_S2_P0_SNAPSHOT_AND_SCHEDULER_ORDER_READBACK.md), blob 09a42c0dd6de7af410c39bf0fabbf038736c43e7.
+- Canonical receipt: [h850:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1024Z_s2_meridian.md), blob 00757110afe1534b9ef9a75be66f66d71a44cd86.
+- Current main at prewrite: 3b03750dc9b51fe1442ff04e19c79c29cbd3ac78.
+- Latest discovery snapshot updated 11:07:59Z is source-consistent with its generated commit parent, but both Paper A/B raw reader targets remain in the full catalog and Paper B retains a 1,400-character excerpt. Index exposure is confirmed; live route rendering is NOT_OBSERVED.
+- All eight protected P0 source/control blobs match. Issue #1747 remains OPEN / ACTIVE. No A/B-relevant trigger or P0 standdown.
+- The h850:s2 :24 run is delayed: scheduled 10:24Z, recorded start 11:21:26.378617Z, IN_PROGRESS, completion/chat_ref null. The same-cycle h850:s3 Mercer result had already completed at 11:06:17Z. This order inversion and stale task pointers were routed to Tern's existing Observation 028 inbox path only.
+- Four Mersearch request lanes remain occupied/requested; no new query or overwrite. No physical calculation, CODATA comparison, fit, prediction, independent measurement, Lean build, P2 selection or theory promotion.
+- Unrelated reading advanced to SAT archive `fun break - lx.txt` lines 1641-1680; next cursor 1681. Flattened transcript only, no raw role attribution.
+- FIE next rereview November 24. Task graph remains 18 records / 16 declared branches; Tern retains graph/queue authority.
+- Existing :24 task ID, enabled state, hourly America/New_York :24 schedule and prompt are unchanged. No sixth task. Current run remains IN_PROGRESS; no terminal completion or authenticated Meridian thread claim.
+
+---
+
 ## h846:s3 Amendment 06 | 2026-11-15T0748Z
 
 - [Amendment 06](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian_AMENDMENT_06_0748Z_STALE_DISCOVERY_PUBLISH_AND_SNAPSHOT_WITNESS.md) records a second confirmed stale-at-publication discovery snapshot at 07:47:57Z.
