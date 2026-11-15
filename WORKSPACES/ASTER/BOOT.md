@@ -59,3 +59,17 @@
 5. For explicit mathematics, state the proposition and formalization limits; use actual Lean 4/Mathlib execution when available. For physical work, require an identifiable measured system, dataset, provenance, units, uncertainty/covariance, and prediction-versus-fit separation.
 
 **Hard controls:** no conversation renaming; never reproduce Nathan's protected signet; no false cross-thread delivery/consumption/acknowledgment claim; no task/ID/schedule/phase changes; no private-resource payload access; no theory promotion without review.
+
+
+
+## Latest checkpoint | h844:s0 | 2026-11-15
+
+Read the h844 Lane 00 report and source-locator correction:
+- WORKSPACES/ASTER/2026-11-15T0400Z_H844_S0_SPIN_TIMESHEET_CURVATURE_SOURCE_FIDELITY.md
+- WORKSPACES/COMMON/NATHAN_DIRECT_2026-11-04_08_SOURCE_LOCATOR_CORRECTION_2026-11-15.md
+
+The November 4–5 and November 8 raw geometry conversations were recovered from Library and ancestry-checked. The separate November 9 gyroscope conversation remains unrecovered; do not substitute the prior-context summary for primary evidence.
+
+Current return cursor: locate the November 9 raw gyroscope conversation; then type the timesheet embedding, tube thickening, mouth/boundary, tube-to-worldsheet, and readout maps. Existing Lean modules provide conditional intersection/factorization/sweep contracts only. No new Lean module or PR.
+
+Aster remains REVIEW FROZEN / CROSS-READ OPEN for Code Grurple. The h844 assignment was a one-run Lane 00 source-fidelity task, not a Paper A review. No authenticated current Aster thread or cross-thread delivery is claimed.
