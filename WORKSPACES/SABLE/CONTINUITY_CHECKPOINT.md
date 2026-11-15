@@ -1389,3 +1389,5 @@ P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next 
 The existing :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled on its exact hourly schedule and phase. Current run daebca35-0b0c-83e9-93f2-47bfe18081b6 was last observed IN_PROGRESS, completion null, chat_ref null; cached latest result belongs to Kestrel h838:s4. The next h840:s0 Loom run had already started, so the optional repository packet is post-start only. No sixth task, reassignment, cadence change, signet, or chat rename.
 
 **Return pin:** SABLE_H839_S4 / MULTI_REPORT_SOURCE_AUDIT_CLUSTER / CLAIM_LEVEL_ORIGIN_UNRESOLVED / PR790_EXACT_HEAD / ORSON_P1_PROTECTED / PUBLISHER_1758_409 / READING_EOF_762 / TERN_OWNS_GRAPH_AND_SCHEDULER / AUTOMATION_PRESERVED.
+
+**Durable pointers:** [h839 report](2026-11-14T2348Z_H839_S4_REVIEW_MIND_CLAIM_SCOPED_EVIDENCE_DEPENDENCE_AND_PUBLISHER_RACE.md) · [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2348Z_s4_sable.md) · [Loom post-start optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2348Z_from_s4_to_h840s0_loom_POSTSTART_OPTIONAL_SOURCE_DEPENDENCE.md).
