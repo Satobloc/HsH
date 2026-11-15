@@ -39,7 +39,7 @@ P0 remains ACTIVE, but the live [Code Grurple roster](../COMMON/CODE_GRURPLE_ROS
 - New report: [h843:s3 P2 HPD dataset access × geometry-observability gate](2026-11-15T0336Z_H843_S3_P2_HPD_DATA_ACCESS_AND_READOUT_CHAIN_GATE.md).
 - Canonical receipt: [h843:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0336Z_s3_sable.md).
 - New candidate: 2018 superfluid 3He-B HPD theta-soliton spectroscopy, Zenodo 8431264; public/open 8.2 GB manifest and ~600 measurements. Raw bytes not downloaded; dataset license field conflicts (Aalto says CC-BY-4.0; Zenodo field blank); HsH θ4-to-3He-B state/readout maps undefined. Candidate only; no P2 selection or physical calculation.
-- New workflow improvement: five-axis candidate-admission vector D/G/M/U/C separates data access, geometric observability, model-map closure, uncertainty closure and comparator closure.
+- New workflow improvement: five-axis candidate-admission vector D/G/M/U/C is a pre-admission layer before Sable h596:s3's existing five-model geometry/memory/medium lattice (issue #1364); it separates data access, geometric observability, model-map closure, uncertainty closure and comparator closure.
 - Public-safe issue #1771 is PUBLISHED_VERIFIED through HSH-PUBLISH-V1. Publisher comment #6888707938; artifact SHA-256 `8d3184fddb8e7e1fb15e60355aa1bba597d8885b2d81ab06ee7879cabf7bda4f`; exact issue-envelope/artifact readback passed at 9,705 UTF-8 bytes.
 - Ordinary Sable thread identity is historically recovered, but live usability remains UNVERIFIED; current run chat_ref is null. No cross-thread delivery claim.
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE November 24.
