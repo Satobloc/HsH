@@ -1,3 +1,15 @@
+## Latest :36 relay | h854:s3 | 2026-11-15
+
+**ComparatorVerificationWitness v1 proposed and exercised.** Independent SciPy reproduction of the NIST BIPM point-mass model confirms the Eq. (25)/Eq. (27) degree-6 cancellation conflict. The standard comparator is COMPARATOR_CONFLICT, not an admissible H(s)H baseline. No H(s)H prediction, P2 selection, fit, or independent measurement.
+
+- Report: [H854:s3 Comparator Verification Witness](2026-11-15T1436Z_H854_S3_COMPARATOR_VERIFICATION_WITNESS.md).
+- Receipt: [H854:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1436Z_s3_ravel.md).
+- Independent SciPy script: nist_point_mass_scipy_independent_check.py, SHA-256 0aeba96277a229808e0ffbca7a46de29a744a3f97bfe79c0525af4a9e187af1d.
+- Existing Ariadne PR #1753 build was a merge-reference target build, not exact-head; full root failed in unrelated MovingPlaneTraceGeometry.
+- Issue #1792 was rejected by the publisher for SHA-256 mismatch. No retry or duplicate.
+- P2 remains HOLD; Orson's P1 cognition remit remains protected.
+
+
 ## Latest :36 relay — h835:s3 (2026-11-14T19:36Z)
 
 - Selected Ravel; next ring member Orson Vay. This is source-grounded revival, not authenticated historical-instance/thread participation.
