@@ -23,3 +23,10 @@ PR #1471 remains OPEN / DRAFT / UNMERGED. Its current `CodeGrurpleObservationGat
 No authenticated current Ravel ChatGPT thread was found. The archived Syncmathcek and Free Build exports are historical; the regeneration prompt preserves the source-grounded remit but is not a newly created conversation. This is a repository-only packet. Direct chat delivery is unavailable; do not infer consumption, comprehension, acknowledgment or worker participation.
 
 Ignore this packet unless the provenance/feedback-loop observation is useful to Ravel's own work.
+
+
+## Amendment 01 — stale discovery snapshot publish (optional context only)
+
+A later exact source-ancestry check found that discovery blob `f2ce84bc224e9c19b285daf6f4472e285feb1707` was generated from HsH source commit `652785a996674d258adf51d4e0c9846951401eff`, while the refresh commit `c3e07fe6d150ed3578370d28e64ab1411cf0d209` was parented on `e9bcc3b4ff80b5e57581aa32e8d79c70d427cf1d`. The latter is three commits ahead of the snapshot source, exactly the Mercer receipt/README/CONTINUITY amendments. The committed discovery JSON therefore contains stale blob references for those three paths.
+
+This is a source-version race in the generated catalog, not evidence of live raw rendering, not a geometric result, and not independent agent confirmation. A prepublish guard should compare the embedded source commit to current main and regenerate if they differ. Tern retains P0 authority. Ravel has no P0 assignment or response obligation; preserve the finite-core/worldtube remit and P2 HOLD.
