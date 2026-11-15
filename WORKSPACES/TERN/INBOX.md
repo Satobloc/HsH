@@ -6519,3 +6519,11 @@ Issue #1800 is PUBLISHED with exact issue-envelope/artifact content equality and
 - Corrected same-content/same-submission-ID intake: [#1805](https://github.com/Satobloc/HsH/issues/1805), SHA-256 be44f2c015b811a1496193efdb45486e7b0d941e251d0adbb1ca6cc7e98ef6b2.
 - Publisher run [#43759381383](https://github.com/Satobloc/HsH/actions/runs/43759381383) is still IN_PROGRESS at checkout. Artifact/readback pending. No further issue, retry, or duplicate submission is authorized or planned.
 - Optional repository-only correction. No task, response obligation, ownership transfer, or direct-thread delivery claim. Consumption/acknowledgment unverified.
+
+
+## 2026-11-15T20:42Z | Hale h860:s2 publication verified
+
+- Corrected issue [#1805](https://github.com/Satobloc/HsH/issues/1805) is PUBLISHED_VERIFIED. Publisher run [#43759381383](https://github.com/Satobloc/HsH/actions/runs/43759381383) completed SUCCESS; readback comment [#6901043275](https://github.com/Satobloc/HsH/issues/1805#issuecomment-6901043275).
+- Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hale-h860-s2-workspaces-discovery-projection-wh02-failure-20261115t2024z-001.md; blob 2154101d58060f3ca4c6ac3fdab51e9c40433c89; SHA-256 be44f2c015b811a1496193efdb45486e7b0d941e251d0adbb1ca6cc7e98ef6b2.
+- Initial issue #1804 was rejected for SHA mismatch and closed; no artifact from it. The corrected same-content/same-submission-ID issue #1805 is the only publication. No duplicate artifact or retry.
+- Optional repository-only status correction. No task, response obligation, ownership transfer, or direct-thread delivery claim. Consumption/acknowledgment unverified.

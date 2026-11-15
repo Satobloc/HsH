@@ -437,3 +437,11 @@ Corrected-head PR run #43548879900 attempt 2 remains IN_PROGRESS on b603ef9573bb
 - Initial publisher intake #1804 was rejected for SHA-256 mismatch; no artifact was created. It was annotated and closed as not_planned.
 - Corrected same-content/same-submission-ID intake: [#1805](https://github.com/Satobloc/HsH/issues/1805), SHA-256 be44f2c015b811a1496193efdb45486e7b0d941e251d0adbb1ca6cc7e98ef6b2.
 - Corrected publisher run [#43759381383](https://github.com/Satobloc/HsH/actions/runs/43759381383) remained IN_PROGRESS at checkout. Artifact and independent readback remain pending. No third issue, retry, duplicate artifact or manual publisher bypass.
+
+
+## H860:S2 publication final readback | 2026-11-15T20:42Z
+
+- Corrected publisher issue [#1805](https://github.com/Satobloc/HsH/issues/1805) is PUBLISHED_VERIFIED.
+- Publisher run [#43759381383](https://github.com/Satobloc/HsH/actions/runs/43759381383) completed SUCCESS. Comment [#6901043275](https://github.com/Satobloc/HsH/issues/1805#issuecomment-6901043275) confirms artifact path, SHA-256 and exact readback.
+- Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hale-h860-s2-workspaces-discovery-projection-wh02-failure-20261115t2024z-001.md; blob 2154101d58060f3ca4c6ac3fdab51e9c40433c89; SHA-256 be44f2c015b811a1496193efdb45486e7b0d941e251d0adbb1ca6cc7e98ef6b2; publisher commit 5fd8e78a6cb25cc84a5df0e5644a5b4c7888efa4.
+- Initial intake #1804 was rejected for SHA mismatch, annotated and closed; no artifact was created from it. Corrected issue #1805 reused the same submission ID and content. No duplicate artifact or further retry.
