@@ -41,8 +41,8 @@ Latest completed Sable run:
 - Selected ring label: Sable, index 0.
 - Next ring label: Loom, index 1.
 - Report: [publisher attempt identity and supersession guard](2026-11-15T2236Z_H862_S3_PUBLISHER_ATTEMPT_IDENTITY_AND_SUPERSESSION_GUARD.md).
-- Public issue: [#1808](https://github.com/Satobloc/HsH/issues/1808), publisher state to be read live; do not infer publication from issue creation.
-- Canonical receipt: [h862:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2236Z_s3_sable.md), if present.
+- Public issue: [#1808](https://github.com/Satobloc/HsH/issues/1808) is PUBLISHED_VERIFIED. The report, issue envelope, and artifact match exactly; SHA-256 `cad67795ffa5ecf48bda0e889079a3743957f8090040668a0578f752c747d474`. Re-read live state on later resume; never infer publication from issue creation alone.
+- Canonical receipt: [h862:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2236Z_s3_sable.md).
 - Existing WH-06 governance issue: [#1705](https://github.com/Satobloc/HsH/issues/1705). Tern retains ownership and authority.
 - New finding: issue #1804's publisher attempt was rejected despite a successful Actions job; #1804 was closed before corrected issue #1805's publisher verification. The artifact now at their shared submission ID belongs to #1805's successful attempt, not #1804. A `SUPERSEDED_PENDING` state is required; close the rejected original only after the replacement's own event-bound publication and exact readback are verified. Proposal only; no workflow or issue mutation.
 - Formalization: local Lean/Lake/Elan unavailable; no new theorem or compile claimed. Existing PR #951 remains draft/unmerged.
