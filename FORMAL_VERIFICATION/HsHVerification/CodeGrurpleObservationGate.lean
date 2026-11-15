@@ -850,4 +850,23 @@ theorem acceptance_requires_current_observation
 #print axioms failed_reader_check_is_not_accepted
 #print axioms acceptance_requires_current_observation
 
+/-- If the existing workflow gate does not authorize a probe, a supplied
+    observation cannot be treated as current evidence for this state. -/
+theorem unauthorized_probe_state_makes_observation_unbound
+    (s : State) (e : WorkflowTriggerEvidence) (w : RouteObservationWitness)
+    (h : routeProbeAuthorizedWithWorkflow s e = false) :
+    presentationStatus s e (some w) = .unbound := by
+  simp [presentationStatus, routeObservationCurrent, h]
+
+/-- Changing the source invalidates the old route/deployment/derivative chain,
+    so an observation captured for the prior source becomes unbound. -/
+theorem source_change_makes_previous_observation_unbound
+    (s : State) (e : WorkflowTriggerEvidence) (w : RouteObservationWitness) :
+    presentationStatus (step s .sourceChanged) e (some w) = .unbound := by
+  apply unauthorized_probe_state_makes_observation_unbound
+  simp [routeProbeAuthorizedWithWorkflow, source_change_invalidates_probe]
+
+#print axioms unauthorized_probe_state_makes_observation_unbound
+#print axioms source_change_makes_previous_observation_unbound
+
 end HsHVerification.CodeGrurplePresentationOutcome
