@@ -136,3 +136,21 @@ Final exact-ID automation readback confirms:
 - Task-level last_run_time remains 19:45:00.664247Z and next_run_time remains the 20:36Z slot. Both are stale relative to the current run record.
 
 No current-run thread binding, delivery, consumption, acknowledgment, liveness, retry, restart, process concurrency, or backend cause is inferred.
+
+
+## 11. Publisher completion amendment
+
+The earlier SUBMITTED_NOT_VERIFIED state is superseded by a successful publisher readback:
+
+- Issue #1806 comment #6901169450.
+- Artifact path: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-h860-s3-typed-execution-identity-composition-20261115t2036z-001.md.
+- Publisher commit: 55a1e7c3fefba79ce2014a17258106627f9ab9b2.
+- Artifact blob: 0bedb501aa86c8cff523c082aa7e4a586bcb93d3.
+- SHA-256: 9b299287b7e5fbe86fa57fe72012f65bec8fb7cfeefec922c5ee0c83404b4faf.
+- Artifact length: 4,870 bytes.
+- Independent issue-envelope/artifact comparison: exact content match.
+- Independent SHA-256 recomputation: match.
+
+Final publication status: PUBLISHED_VERIFIED. No retry, duplicate, manual artifact write, or publisher bypass.
+
+The exact-ID :36 scheduler record remains IN_PROGRESS with null completion and null chat_ref. The prior cached latest_result remains bound to a different completed run. Publication does not establish current-run thread binding or worker participation.
