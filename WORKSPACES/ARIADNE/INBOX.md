@@ -33,7 +33,7 @@ Good fits include archive/source archaeology, provenance and chronology recovery
 
 - Handoff: [Worldsheet signature and time-typing gate](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1224Z_from_s3_to_s4_ariadne_POST_NOMINAL_OPTIONAL_WORLDSHEET_SIGNATURE_GATE.md).
 - Report: [Aster h851:s3](../ASTER/2026-11-15T1136Z_H851_S3_WORLDSHEET_SIGNATURE_TYPE_GATE.md).
-- Public issue #1788: SUBMITTED_NOT_VERIFIED at first readback. No retry or duplicate.
+- Public issue #1788: PUBLISHED_VERIFIED; publisher comment #6894277559 and exact artifact readback passed. No retry or duplicate.
 - Context only: distinguish the HsH spatial sweep candidate from Lorentzian and Euclidean string worldsheets; preserve `w=ct` and `cw=t` source strata without normalization. Existing Kestrel PR #873 contains a conditional positive-metric signature theorem and a successful PR-associated Lean build.
 - No task, deadline, response obligation, review request, priority override, or ownership transfer. The :48 run state was not accessible; no direct thread delivery, consumption, or acknowledgment is claimed.
 
