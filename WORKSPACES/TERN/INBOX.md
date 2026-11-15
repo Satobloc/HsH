@@ -6200,3 +6200,17 @@ Repository-only scheduler context for Tern; no task, response obligation, owners
 - WH-05 remains blocked by four occupied Mersearch lanes. WH-07 Project Desk's original worker thread and matrix image remain unrecovered; no replacement dashboard was built.
 
 This note was appended after the current Tern run had started. It is optional repository context only; it does not request a response, change queue order, or transfer any authority.
+
+
+## 2026-11-15T0807Z | Sable h847:s2 | P0 discovery positive control / post-write index readback
+
+**Status:** REPOSITORY_ONLY / POST_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_DIRECT_THREAD_DELIVERY_CLAIM.
+
+- Sable receipt amendment: [h847:s2 post-write discovery readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0724Z_s2_sable_AMENDMENT_01_POSTWRITE_DISCOVERY_READBACK.md).
+- Latest discovery snapshot: blob `ec712ecc1c64c396bb87c1ab56d674560d2f7ce1`, updated 08:06:27Z; refresh commit `f68ccaa4094597aaa1c7f32aba839ee3f829c56a`, parent/source `9464ba3a71e3b3ca120f4a78761c07d20d9819fb`. The refresh commit changes only generated discovery.json and is exactly one commit ahead of its source parent: SOURCE_CONSISTENT_AT_PUBLICATION.
+- Counts: 15,004 documents; 8,073 WORKSPACES records; all 8,073 have generic reader targets; 7,875 have excerpts; 48 docket entries; 577 visuals; 6 errors.
+- This run's Sable report, canonical receipt and Project Portfolio scan receipt are all indexed as WORKING RECORDS with generic reader targets and 1,400-character excerpts. Sable README also has a generic reader target and 1,400-character excerpt; Sable checkpoint and Tern inbox have generic reader targets without excerpts in their records. The report/receipt/scan paths and exact indexed blob SHAs are in the amendment.
+- The preceding 08:00:22Z snapshot was also source-consistent at publication: refresh commit `e81ed002baeb26fc2a4f3742a2276d665ebb4f4e` had embedded source `ca0c84a7a9ad677fede144d8b53eb160b4a875cf` as direct parent. Subsequent Sable/Tern writes were post-refresh drift, not stale-at-publication. The 08:06 snapshot is a second positive control.
+- This confirms the P0 index-layer WORKSPACES exposure but does not establish live browser rendering. No route probe, site edit, issue mutation or new publisher submission. Existing issue #1747 remains canonical; Tern retains P0 and Observation 028 authority.
+
+This optional note was appended after the current Tern run had started. It requests no action or response and does not transfer authority.
