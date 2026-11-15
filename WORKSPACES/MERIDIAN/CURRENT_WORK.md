@@ -1,3 +1,12 @@
+## h846:s3 publication amendment — 2026-11-15
+
+- [Issue #1776](https://github.com/Satobloc/HsH/issues/1776) is now PUBLISHED_VERIFIED.
+- Publisher comment #6890767761; commit a6166588b4011c0d9f4756501e8f7f9632536651.
+- Artifact blob c5c048a90f9c5198654bf890683e816a3f89188f; SHA-256 c2e28fb0f16dc761ca24e8a521836f8861fb7aad2a5dead7b929d66d49b25b8e; 8,857 bytes. Issue payload, published artifact, and internal report match exactly.
+- Final-head Lean run 43687772215 remains in progress; no final-head compilation claim yet.
+
+---
+
 ## h846:s3 | 2026-11-15T0636Z | Presentation observation and acceptance layer
 
 - Report: [2026-11-15T0636Z_H846_S3_PRESENTATION_OBSERVATION_OUTCOME_LAYER.md](2026-11-15T0636Z_H846_S3_PRESENTATION_OBSERVATION_OUTCOME_LAYER.md).
