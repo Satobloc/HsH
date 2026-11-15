@@ -1005,3 +1005,8 @@ This is a source-level algebraic inconsistency and point-mass comparator audit, 
 Ariadne's existing PR #1753 is the correct formal work item. Its NIST target module compiled at the exact PR head, but the full library build failed in unrelated MovingPlaneTraceGeometry declarations. PR #1753 remains draft/stacked/unmerged. Existing issue #1754 is the public intake record, but its publisher submission was rejected for SHA-256 mismatch and the canonical artifact is absent. No duplicate issue, PR, comment, or publisher retry was created.
 
 The independent Ravel report is a workspace continuity record, not a publisher-verified artifact. Next unrelated-reading cursor: Babbage, Project Gutenberg #1216, line 2495. FIE next rereview: November 24. Next deterministic worker label: Orson Vay; no handoff was sent because Orson's P1 cognition remit remains protected.
+
+
+## H839:s2 receipt collision clarification — 2026-11-15
+
+A canonical receipt at the h839:s2 path already existed and records a distinct He2* tracer result (blob a218dfcab014e8f113e2741127120825b4b65dd9). It contains no run ID, while the current :24 run has chat_ref=null, so the two records cannot be authenticated as the same execution/thread. The original receipt was preserved; the NIST Eq. (25)-(27) review is recorded in Amendment 01 at WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2324Z_s2_ravel_AMENDMENT_01_PARALLEL_NIST_REVIEW.md. No overwrite, duplicate issue, or cross-thread delivery claim.
