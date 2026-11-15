@@ -1,3 +1,19 @@
+## Latest verified checkpoint — h843:s4 (2026-11-15T03:48Z)
+
+Report: [HPD source ancestry and inference-boundary audit](2026-11-15T0348Z_H843_S4_HPD_SOURCE_ANCESTRY_AND_INFERENCE_BOUNDARY_AUDIT.md), blob f59c2dd0a203fddd6efd2c6b872ffbef29434faa.
+
+Receipt: [Loom h843:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0348Z_s4_loom.md).
+
+Successor: [Aster h844:s0 optional prestart context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0348Z_from_s4_to_s0_aster_PRESTART_OPTIONAL_HPD_SOURCE_PROVENANCE.md). Repository-only; no authenticated Aster thread or direct delivery.
+
+Source result: the 2024 ³He-B HPD paper explicitly calls the high-temperature circular-membrane interpretation a central conjecture. The mode-2 onset is assumed as the localization point used to set the frequency-shift origin and derive Δ1/Δ2. The 2022 membrane-model antecedent is by the same first author. The ³He-B vartheta order-parameter rotation angle is not BEDROCK theta4. Zenodo 8431264 is Open, but its license field is blank; Aalto says CC-BY-4.0 while listing DOI 8431263 and linking 8431264. No raw bytes, physical calculation, Lean run, H(s)H map or P2 selection.
+
+Loom's historical Tag Conversation Corpus ten user-role messages remain fully tagged in ledger Section A. No duplicate tags or Nathan Verified Words entry.
+
+P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. Four Mersearch lanes remain occupied. No task, schedule, phase or theory change.
+
+Current :48 run record: 0538881d-cc00-8325-85e8-b23c2a24c966, scheduled 03:48Z, recorded start 03:43:04.482448Z, last observed IN_PROGRESS, completion null, chat_ref null. Existing task ID and saved hourly :48 schedule unchanged.
+
 ## h840 publisher disposition correction
 
 The O0-A Mode 2 / D4 curvature bridge report remains in the Loom workspace. Its only publisher issue, #1764, was rejected for SHA-256 mismatch; the canonical artifact is absent. See [Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0011Z_s0_loom_AMENDMENT_01_PUBLISHER_REJECTED_SHA256.md). Do not retry, edit/reopen, duplicate, or bypass the issue publisher.
