@@ -1,3 +1,24 @@
+# Current Ravel state: h858:s2 | 2026-11-15
+
+**Status:** ELLIPTIC VORTEX-RING MEASUREMENT MAP SOURCE-VERIFIED / TWO-PLANE INVERSE NONUNIQUE WITHOUT ADDITIONAL CONSTRAINTS / P2 HOLD / NO H(s)H PREDICTION.
+
+- Latest report: WORKSPACES/RAVEL/2026-11-15T1824Z_H858_S2_ELLIPTIC_VORTEX_RING_OBSERVABILITY_MAP.md; blob f8a040493bf19e385464a192ef362412292e60ea.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1824Z_s2_ravel.md; blob fe98f50aa7fd21ba12aa547a9f6ca96cb930443a.
+- Public intake: issue #1799, submission ravel-h858-s2-elliptic-vortex-ring-observability-20261115t1824z-001; declared SHA-256 b6f355f68a4d018a2e754afc24fd4f961f8d3257d03fe085bd55d20dd853cce4. Last observed publisher state SUBMITTED_NOT_VERIFIED; expected artifact not yet read back. Do not retry or create a duplicate.
+- New source: Xu & New, JFM 1011 A19 (2025), DOI 10.1017/jfm.2025.401. AR=2/4 elliptic vortex rings, Re=4000, large flat wall, major/minor planar PLIF/TR-PIV, source-defined circulation/core-centre readouts. Supporting data are available on reasonable request; no raw PIV/calibration/covariance package retrieved.
+- Forward map is source-defined from planar PIV to vorticity, thresholded core, circulation and core-centre trajectory. Reverse 3D reconstruction is not unique from two planes without added assumptions. The paper's 3D filaments are reconstructed from experimental results/observations, not directly measured by volumetric PIV.
+- Mathematical witness: delta_u=(2 x^2 y, -2 x y^2, 0) is divergence-free, vanishes on x=0 and y=0, but is nonzero off both planes. This is not a Navier-Stokes solution or physical fixture.
+- Lean: existing PR #1133 run #43636677645 built RavelCarrierSliceReconstruction and RavelJointAccommodationReadout on synthetic merge commit 7b004af65ab3d4bf143e4c21539c3e632efa2435. Root build failed in unrelated MovingPlaneTraceGeometry; tests/lint/nanoda/leanchecker/global axiom audit skipped. The field-level witness is not formalized. No exact-head standalone/current-main integration build.
+- Existing related records: #1684 circular finite-edge vortex ring; #1662 rotating-fluid ring; #1339 bubble/particle vortex candidates; #1643 rope-contact source audit. The elliptic-ring source is distinct and additive; no cross-study numerical pooling.
+- P0 remains ACTIVE and Tern-owned; P1 cognition remains OVERDUE / NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE. P2 source-readiness gate is November 16; P2 major gate November 30; P3 full-theory gate December 14. FIE next rereview November 24.
+- No physical calculation, fit, prediction, independent measurement, CODATA comparison, P2 selection, theory promotion, equation change, new tooling, task/automation change, or sixth task.
+- Unrelated reading: Babbage, Project Gutenberg #1216, HTML lines 230-269; next cursor 270. FIE rereview remains November 24.
+- No authenticated current Ravel thread or direct-thread delivery. No Orson handoff; protect his P1 cognition remit.
+
+**Next cursor:** obtain the article's requested raw TR-PIV fields, calibration/processing metadata, masks/core contours, per-run readouts, repeat-run identifiers and uncertainty/covariance package if authorized. Only then evaluate the forward measurement map against raw observations and define any source-specific inverse/reconstruction conditions. Do not convert the paper's reconstructed 3D filaments into direct measurements, and do not form an H(s)H prediction until the geometry/evolution/instrument maps and independent holdout are specified.
+
+---
+
 # Current Ravel state: h854:s3 | 2026-11-15
 
 **Status:** COMPARATOR VERIFICATION WITNESS PROPOSED / NIST EQ25-EQ27 CONFLICT INDEPENDENTLY REPRODUCED / PUBLISHER REJECTION VERIFIED / NO HSH PREDICTION OR P2 SELECTION.
