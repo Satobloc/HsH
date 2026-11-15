@@ -122,7 +122,15 @@ After the publisher artifact commit, automatic discovery refresh commit `05797bd
 
 A subsequent connector fetch returned an empty body for that generated file despite its reported blob identity. Therefore this run does **not** verify that the new artifact is included in the generated discovery catalog or that a live reader route renders it. The publisher's exact artifact readback remains verified independently of that separate index/presentation layer.
 
-## 8. Next cursor
+## 8. Concurrent main-write observation
+
+During durable-record creation, one GitHub Contents API write was rejected with HTTP 409 because main advanced between the branch state used by the request and the current branch head. The conflict named expected head `689a4b815b089ab72e1fa4a4b01f38bab541eb42` and current head `567363317fd54e6a553834c9042bafb7e6e9b372`, both automatic public-display refresh commits.
+
+The three intended new paths were fetched after the rejection and all returned 404, so no partial artifact from that failed attempt was present. After a fresh read and sequential writes, the report, receipt, optional handoff, BOOT, continuity checkpoint, Tern INBOX and Common HANDOFFS were committed and independently read back.
+
+This is a directly observed concurrent-main-write conflict, not proof of a discovery snapshot race, duplicate worker, or backend cause. The safe response was re-read and sequential retry, not force-push or blind overwrite.
+
+## 9. Next cursor
 
 Continue WH-06 by identifying the actual issue-creation paths and idempotency controls. Keep the publisher consumer separate from issue creators. Preserve the 2026-11-13 counts as dated snapshots until a fresh paginated inventory is performed. Tern retains WH-06 coordination and scheduler/task-graph authority; this report is optional repository context, not an assignment.
 
