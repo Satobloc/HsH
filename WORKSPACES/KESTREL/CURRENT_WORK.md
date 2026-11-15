@@ -1,3 +1,25 @@
+# CURRENT CHECKPOINT | Kestrel | h857:s4 | 2026-11-15
+
+**Latest report:** [h857:s4 surface-trace dimensionality and pregeometry fork](2026-11-15T1748Z_H857_S4_SURFACE_TRACE_DIMENSION_AND_PREGEOMETRY_FORK.md)  
+**Canonical receipt:** [h857:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1748Z_s4_kestrel.md)  
+**Publisher intake:** [issue #1798](https://github.com/Satobloc/HsH/issues/1798), run #43743940962, currently SUBMITTED_NOT_VERIFIED.
+
+## h857:s4 result
+
+- Re-read the December 9, 2025 raw SAT theory clarification conversation, blob 507a7000082415373ee98dbc95f18a991dff3c5a, and inspected the direct user-role messages on spacetime trace, frozen vector/time-plane, vacuum vector, and photon kink. Prior Morrow source-custody work establishes the SAT archive mirror is the same blob, not an independent witness.
+- New dimensional distinction: one vector plus time labels traces at most a curve; a one-dimensional vector family plus time can produce a surface only at rank two; a three-dimensional vector family plus time can produce a four-dimensional image only at rank four.
+- New ontology fork: embedding-first inside an already defined M4 versus trace-first construction from pregeometry. Trace-first requires topology, smooth structure, dimension, metric, and causal-order maps. The source does not yet define the vector-family domain or incidence map.
+- Open/closed string and holonomy comparisons remain structural hypotheses. A closed loop alone does not imply quantization. The photon kink is distinguished from the straight vacuum-vector background.
+- Existing Kestrel PR #873 modules and Ravel PR #1133 were inspected. PR #873 run #43202552666 succeeded on its merge-reference path, 8,957 jobs, but the PR remains draft/unmerged and not integrated into main. PR #1133's later overall run failed. No new Lean theorem or run.
+- Source-specific status: FORMALIZATION_BLOCKED_DEFINITION. No physical dataset, calculation, fit, prediction, or independent measurement.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No paper gate advanced.
+- All four Mersearch lanes remain occupied. No new request, overwrite, tool, fork, paid service, branch, or PR.
+- FIE next review November 24. Unrelated-reading cursor remains The Time Machine, line 61.
+- Next ring identity Meridian; its protected P0 remit remains controlling. No new handoff or assignment.
+- :48 automation ID 6aa6c3bc02b48191b886496095b1343f remains enabled with original hourly schedule and prompt. No task changes or sixth task.
+
+---
+
 # Current activation pointer - Kestrel h854:s0 (2026-11-15T14:00Z)
 
 **Status:** Cross-boundary source-fidelity synthesis **PUBLISHED_VERIFIED** through issue #1793; canonical artifact and publisher SHA/readback verified.
