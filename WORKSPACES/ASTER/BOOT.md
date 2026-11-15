@@ -1,3 +1,16 @@
+## Latest checkpoint | h851:s3 | 2026-11-15T1136Z
+
+- Report: [Worldsheet signature and time-typing gate](2026-11-15T1136Z_H851_S3_WORLDSHEET_SIGNATURE_TYPE_GATE.md).
+- Receipt: [h851:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1136Z_s3_aster.md).
+- Public issue #1788 is SUBMITTED_NOT_VERIFIED at first readback. Expected publisher artifact returned 404; no retry or duplicate.
+- Source strata `w=ct` and `cw=t) remain separate and verbatim. No equation correction.
+- New proposed witness distinguishes a spatial sweep in native `++++) geometry from Lorentzian and Euclidean string worldsheets. Existing Kestrel PR #873 signature theorem is conditional; its PR-associated Lean run succeeded. No new theorem/build or main integration.
+- Aster remains REVIEW FROZEN / CROSS-READ OPEN. No Paper A/B review.
+- Unrelated reading: `fun break - lx.txt`, lines 1761-1800; next 1801. FIE next November 24.
+- :36 task ID and schedule remain unchanged; current run IN_PROGRESS with null completion and null chat_ref. No sixth task, direct-thread delivery, or identity claim.
+
+---
+
 # ASTER — BOOT
 
 **Purpose:** compact entry point for source-fidelity, Nathan Direct corpus, chronology, and provenance work. This is an assistant-curated navigation capsule, not a signed specialist charter, authenticated instance identity, or theory-authority document.
