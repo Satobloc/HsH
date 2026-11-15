@@ -344,6 +344,64 @@ theorem global_panagnosticism_of_opposite_twins
   exact opposite_evidence_twin_implies_neither_knowledge
     observe conscious a e w (hTwins a e w hDistinct)
 
+/-!
+## Bridge from functional equivalence to epistemic evidence
+
+A separate Nathan-bylined, explicitly AI-assisted manuscript dated 2025-11-16
+defines functional equivalence by equality of outputs for every allowable
+input. That is equality of complete response functions. The later archive-native
+Over 1/2/3 manuscript family uses observer-indexed evidence indistinguishability
+and an opposite-consciousness world; its authorship/date remain unresolved.
+These are distinct relations and distinct source artifacts.
+
+The bridge below is conditional: an observer's evidence must be a deterministic
+encoding of the complete response function. This factorization is not supplied
+by either manuscript family. Additional side channels, internal-state access,
+metadata, or interaction history not represented in the response function can
+invalidate it.
+-/
+
+/-- If observer evidence factors through a system's complete response function,
+    exact functional equivalence implies evidence indistinguishability. -/
+theorem functional_equivalence_implies_observer_evidence_indistinguishability_of_response_factorization
+    {Observer System Input Output Evidence : Type*}
+    (respond : System → Input → Output)
+    (observe : Observer → System → Evidence)
+    (encode : Observer → (Input → Output) → Evidence)
+    (hFactors : ∀ a s, observe a s = encode a (respond s))
+    (a : Observer) {s₁ s₂ : System}
+    (hEquivalent : ObservableProjection.sameResponses respond s₁ s₂) :
+    observe a s₁ = observe a s₂ := by
+  calc
+    observe a s₁ = encode a (respond s₁) := hFactors a s₁
+    _ = encode a (respond s₂) := by
+      apply congrArg (encode a)
+      funext input
+      exact hEquivalent input
+    _ = observe a s₂ := (hFactors a s₂).symm
+
+/-- A functionally equivalent opposite-consciousness world is an epistemic
+    opposite-twin only under the explicit response-to-evidence factorization
+    assumption. The resulting ignorance theorem remains conditional. -/
+theorem functionally_equivalent_opposite_twin_implies_neither_knowledge
+    {Observer Entity World System Input Output Evidence : Type*}
+    (systemAt : World → System)
+    (respond : System → Input → Output)
+    (observe : Observer → System → Evidence)
+    (encode : Observer → (Input → Output) → Evidence)
+    (conscious : Entity → World → Prop)
+    (hFactors : ∀ a s, observe a s = encode a (respond s))
+    (a : Observer) (e : Entity) (w v : World)
+    (hEquivalent :
+      ObservableProjection.sameResponses respond (systemAt w) (systemAt v))
+    (hOpposite : conscious e v ↔ ¬ conscious e w) :
+    ¬ knows (fun a w => observe a (systemAt w)) conscious a e w ∧
+    ¬ knows (fun a w => fun e' w' => ¬ conscious e' w') a e w := by
+  apply opposite_evidence_twin_implies_neither_knowledge
+  refine ⟨v, ?_, hOpposite⟩
+  exact functional_equivalence_implies_observer_evidence_indistinguishability_of_response_factorization
+    respond observe encode hFactors a hEquivalent
+
 #print axioms evidence_indistinguishability_is_equivalence
 #print axioms knowledge_factive
 #print axioms knowledge_positive_introspection
