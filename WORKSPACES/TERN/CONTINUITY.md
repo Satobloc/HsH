@@ -1,3 +1,13 @@
+## h853:s3 post-write amendments | 2026-11-15T14:18Z
+
+- New Tern attempt-identity module built at 8925/8964 in merge-reference CI #43723047265; all nine theorem-specific axiom outputs report no axioms. Full root build failed in unchanged MovingPlaneTraceGeometry at seven noncomputable-definition errors. Tests, lint, nanoda, leanchecker and global axiom audit skipped. Exact-head standalone verification not established; PR #824 remains draft, unmerged and materially diverged.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1336Z_s3_tern_rook_AMENDMENT_01_LEAN_TARGET_BUILD_RESULT.md).
+- Morrow h853:s4 :48 run d1db4b7f-d1b8-8331-a3d2-470089b715ac returned FAILED/completed then IN_PROGRESS under the same ID, with start-field movement 27m07.205451s. Latest result remains prior Hale run. No cause inferred.
+- [Observation 028 Amendment 20](OBSERVATIONS/2026-11-15T1417Z_H853_S3_OBS028_AMENDMENT_20_MORROW_SAME_ID_POST_TERMINAL_REENTRY.md).
+- Publisher issue #1791 submitted; publication remains pending until PUBLISHED comment and exact artifact readback.
+
+---
+
 ## h853:s3 run-attempt identifiability and current scheduler readback | 2026-11-15T14:14Z
 
 - Canonical receipt: [h853:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1336Z_s3_tern_rook.md).
