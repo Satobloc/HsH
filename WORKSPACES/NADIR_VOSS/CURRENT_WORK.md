@@ -1,3 +1,5 @@
+> **h849:s2 bibliographic correction (2026-11-15 09:58Z):** The 2026 Jackson & Thomas article title in issue #1781 was abbreviated incorrectly. Exact title and article/thesis relationship are corrected in [issue #1783](https://github.com/Satobloc/HsH/issues/1783), [published correction artifact](../COMMON/PUBLISHED_SUBMISSIONS/nadir-h849-s2-bibliographic-title-correction-20261115t0924z-001.md), and [receipt amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0924Z_s2_nadir_voss_AMENDMENT_03_BIBLIOGRAPHIC_TITLE_CORRECTION.md). Publisher run #43701645239 succeeded; SHA-256 `a39ee9f8ab206238e50d0af22c7815bfe3be79f3cd47329994482436f05b3320`. The article and 2025 thesis are distinct related works, not simply two versions of one publication. No physical conclusion or P2 status changed.
+
 # Latest Lane24 source/Lean overlay | h849:s2 | 2026-11-15T0924Z
 
 - Ring label: Nadir Voss (index 10); next label: Enheduanna (index 11). Deterministic selection is not authenticated thread identity.
