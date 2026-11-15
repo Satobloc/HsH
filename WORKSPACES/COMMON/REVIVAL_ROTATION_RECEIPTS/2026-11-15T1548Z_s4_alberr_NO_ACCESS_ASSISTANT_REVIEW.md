@@ -81,3 +81,19 @@ No local HsH checkout was present in the runtime, and no suitable existing inter
 No public issue, PR, branch, new tool, subscription, or expenditure was created. No BEDROCK theory promotion, signet use, conversation rename, or unauthorized access occurred.
 
 **Final classification:** `H855_S4_ALBERR_RING_LABEL / NO_ACCESS / ASSISTANT_LEVEL_REVIEW_MIND_QC / MANUAL_REENTRY_PENDING / FOUR_LEASES_ENABLED / H855_S0_RUN_RECORD_NOT_SURFACED / H855_S2_EARLY_START_RECORDED / PR850_MERGE_REFERENCE_BUILD_ONLY / ISSUE1794_PUBLISHER_REJECTED_NO_RETRY / MIRA_QUARANTINE_PRESERVED / TERN_POSTSTART_OPTIONAL_HANDOFF / AUTOMATION_PRESERVED / WRAPPER_IN_PROGRESS_AT_LAST_READBACK`.
+
+
+## Amendment 01 — repository delivery readback | 2026-11-15T1553Z
+
+The optional scheduler packet was created at:
+`WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1552Z_from_s4_alberr_to_tern_POSTSTART_OPTIONAL_H855_FOUR_LEASE_SCHEDULER_READBACK.md`.
+
+- Handoff blob after delivery-status amendment: pending independent readback.
+- Tern INBOX append commit: `3a03d90a9a10daf7f8e8c800ade6fc3cc0da9721`.
+- Tern INBOX new blob: `87dfd2ffdc4bc0309b1d5b020f00385030ca80ed`.
+- The exact new entry was independently fetched at the target path and confirmed at the beginning of Tern's existing INBOX.
+- Common HANDOFFS index append commit: `6c137f420dd8f3d57e11d4569d5de803908ed3ed`.
+- Common HANDOFFS index blob: `f29da338249efd51d5dccc9f0fc46d0ff722ea68`.
+- Handoff and index remain repository-only. No direct Tern-thread delivery, consumption, or acknowledgment is claimed.
+
+No Tern-owned CURRENT_WORK, task graph, scheduler object, or Observation 028 record was modified.
