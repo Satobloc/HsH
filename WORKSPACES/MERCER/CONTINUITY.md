@@ -185,3 +185,13 @@ Report Amendment 02, receipt Amendment 03, Tern Observation 008 Amendment 05, an
 - FIE next review November 24 (last November 10).
 - Unrelated SAT archive reading: `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 1521–1560; next cursor 1561.
 - No physical calculation, prediction, fit, human/LLM trial, new Lean theorem, equation edit, theory promotion, new tool or scheduler mutation.
+
+
+## Amendment 01 — post-write discovery refresh (2026-11-15T0708Z)
+
+- Final main checkpoint: `652785a996674d258adf51d4e0c9846951401eff`.
+- Discovery blob `cd6b567d197fff03d749ee97f629cbdd73b62db3`, updated 07:08Z from HsH source commit `617f703ae5a0c8df2f65b2f5c45bbe87027ea41d`.
+- 14,991 documents; 8,060 workspace records, all with raw reader targets; 7,862 workspace excerpts; 48-item docket, all 48 workspace records/all 48 raw reader targets/44 excerpts; 577 visuals; 6 errors.
+- The h846 report, receipt, Ravel handoff, Mercer README, Mercer CONTINUITY and Ravel INBOX all appear in the full catalog and in the 48-item docket, each with a raw reader target and 1,400-character excerpt. This is direct self-indexing evidence, not independent corroboration.
+- Ravel INBOX pointer exact readback succeeded. No Ravel h847:s0 run or direct thread delivery was visible at final check; repository-only handoff, consumption/acknowledgment unverified.
+- Existing P0 issue #1747 remains canonical and Tern-owned. No new public issue or publisher submission.
