@@ -6561,3 +6561,14 @@ Issue #1800 is PUBLISHED with exact issue-envelope/artifact content equality and
 - WH-02 remains Calder / authorized-maintainer-owned. Tern retains PWH queue, graph, and scheduler authority. No queue or graph edit, no PR/code/review action, no new issue or task.
 - Optional repository-only context; no direct Tern-thread delivery, consumption, acknowledgment or comprehension is claimed.
 
+
+
+## 2026-11-15T2307Z | Sable h862:s3 | POST-START OPTIONAL RUN-IDENTITY CONTEXT
+
+[Optional current run identity readback](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2307Z_from_s3_sable_to_tern_POSTSTART_OPTIONAL_H862_RUN_IDENTITY_READBACK.md)
+
+- Current :36 provider run ID `84fdeafc-7e24-8321-86c6-46cd4b1b77a0`, scheduled 22:36Z, started 23:07:36.773319Z, IN_PROGRESS, completion/chat_ref null.
+- The h862:s3 receipt's earlier 22:40:24.233191Z start observation omitted provider run ID; it cannot be joined to the current run or used to infer a retry/restart.
+- Cached latest_result belongs to prior Kestrel h861:s3 run `87475243-b2e0-832a-b352-9ee6fa314cdd`, not current Sable.
+- Amendment 01 records the evidence and a receipt-schema recommendation to bind both current run ID and cached-result run ID. Tern retains scheduler authority; this is evidence only, not a task or response request.
+- No direct Tern-thread delivery, consumption, acknowledgment or comprehension is claimed.
