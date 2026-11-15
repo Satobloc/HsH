@@ -24,21 +24,21 @@ that a fitted GCS shell is a physical flux rope, nor any H(s)H equivalence.
 namespace HsHVerification.MeridianGCSAlgebra
 
 /-- The transverse offset X₀ of the GCS centerline at the apex. -/
-def apexAxisOffset (H s κ : ℝ) : ℝ :=
+noncomputable def apexAxisOffset (H s κ : ℝ) : ℝ :=
   H * (s + κ ^ 2) / (1 - κ ^ 2)
 
 /-- Heliocentric radius of the GCS apex cross-section center. -/
-def apexCenterRadius (H s κ : ℝ) : ℝ :=
+noncomputable def apexCenterRadius (H s κ : ℝ) : ℝ :=
   H * (1 + s) / (1 - κ ^ 2)
 
 /-- GCS cross-section radius at the apex, a = κ R_c. -/
-def apexCrossSectionRadius (H s κ : ℝ) : ℝ :=
+noncomputable def apexCrossSectionRadius (H s κ : ℝ) : ℝ :=
   κ * apexCenterRadius H s κ
 
 /-- Local centerline curvature radius obtained by differentiating the
     GCS skeleton at β = π/2. The differentiation itself is source-derived
     in the research note; this definition records its resulting expression. -/
-def apexAxisCurvatureRadius (H s κ : ℝ) : ℝ :=
+noncomputable def apexAxisCurvatureRadius (H s κ : ℝ) : ℝ :=
   H * (s + κ ^ 2) ^ 2 / ((1 - κ ^ 2) * (s + 2 * κ ^ 2))
 
 /-- The GCS apex cross-section radius minus its centerline offset.
@@ -71,6 +71,5 @@ theorem apex_axis_curvature_radius_ratio
     nlinarith [mul_pos hleft hright]
   have hden : 1 - κ ^ 2 ≠ 0 := ne_of_gt hdenpos
   field_simp [hH, hden, hs, hsp]
-  ring
 
 end HsHVerification.MeridianGCSAlgebra
