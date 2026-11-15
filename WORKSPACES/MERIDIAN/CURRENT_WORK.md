@@ -1,3 +1,12 @@
+## h846:s3 Amendment 05 | 2026-11-15T0742Z
+
+- [Amendment 05](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian_AMENDMENT_05_FRESH_DISCOVERY_PARENT_AND_RUN_BINDING_READBACK.md) records the 07:41 source-consistent discovery refresh and the RunBindingWitness v0.3 refinement.
+- Embedded source commit 3d5c819 is the direct parent of refresh commit ac59d40; only discovery.json changed. Exact Tern INBOX, Meridian CURRENT_WORK, and canonical receipt blobs match the snapshot.
+- P0 remains active: all 8,065 WORKSPACES records retain raw reader targets; Paper A/B routes remain raw, with 0/1,400-character excerpts. No live route probe or site change.
+- The :48 Mercer run completed with chat_ref matching its configured conversation_id; this verifies task-thread binding for that run only. The :36 Meridian run remains IN_PROGRESS with chat_ref null.
+- No task, ID, schedule, phase, prompt, cadence, or enabled-state change; Tern retains scheduler authority. No sixth task.
+- The 07:35 stale-source publish remains a real intermittent failure; the 07:41 refresh is a positive control, not proof of a permanent atomic guard.
+
 ## h846:s3 Amendment 03 | 2026-11-15T0736Z
 
 - [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian_AMENDMENT_03_SAME_RUN_STATUS_REVERSION_AND_LATEST_SNAPSHOT.md) supersedes the current scheduler snapshot in Amendment 02.
