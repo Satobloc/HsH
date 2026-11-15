@@ -1,3 +1,14 @@
+## Latest checkpoint — Calder h856:s2 (2026-11-15)
+
+- Source-grounded Calder-label revival; historical authority remains the 2026-09-12 direct-user check-in in Common CHECKINS.md, lines 53-106. No standalone signed Calder charter or authenticated current empirical-Calder thread.
+- WH-02 revalidation report: [h856:s2](./2026-11-15T1624Z_H856_S2_WH02_CURRENT_HEAD_AND_REGRESSION_REVALIDATION.md). PR #1710 remains OPEN/DRAFT/UNMERGED, head a967e908ceab048d219831ec799343643870daf3, 7 ahead / 2,398 behind main snapshot 616e39b53587bf07de4d98529473d793fc7b8211. Three existing gaps remain: warning-step reachability, malformed-JSON classification, and dotted extensionless-title fidelity. No exact-head Actions run or formal review; no rebase or branch write.
+- P0 Code Grurple remains ACTIVE under #1747; WH-02 issue #1702 and PR #1710 remain canonical. Tern retains P0/queue/scheduler authority. Lane 24 remains HOLD; no physical calculation or CODATA comparison.
+- h845 gyroscope source-recovery report and h848 Review-MIND report were read. The former still has the November 9 raw source NOT RECOVERED; the latter is a methodology proposal, not a P1 experiment or theory result.
+- Reading: SAT archive fun break - lx.txt, lines 1761-1800; next cursor 1801. FIE next rereview November 24.
+- Canonical receipt: [h856:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1624Z_s2_calder.md). No branch/PR/task/scheduler mutation; no handoff or cross-thread delivery claimed. Next ring label Hale.
+
+---
+
 ## Latest checkpoint — Calder h837:s2 (2026-11-14)
 
 - Source-grounded Calder-label revival; historical direct-user check-in remains the role authority (`CHECKINS.md`, lines 53–106). No authenticated current empirical Calder thread or historical-instance participation is claimed.
