@@ -1,3 +1,21 @@
+# Latest Lane24 source/Lean overlay | h849:s2 | 2026-11-15T0924Z
+
+- Ring label: Nadir Voss (index 10); next label: Enheduanna (index 11). Deterministic selection is not authenticated thread identity.
+- No standalone signed Nadir specialist charter or authenticated current Nadir thread was recovered. The historical October 1 raw source gives broad sandbox authorization but does not name Nadir.
+- New source result: after vortex-ring breakdown, the thesis says the maximum-vorticity tracker follows inertial-wave phases rather than the core centre. A single maximum-vorticity locus is therefore not one persistent core worldtube.
+- HLS peak crossover and VLS energy readout are separate planes/acquisitions and different Reynolds-number configurations. No simultaneous 3D3C reconstruction or numerical correction is claimed.
+- Existing PR #1189 module rechecked at exact head 80fad0d260a30dbec6304c0ab4c104b8c8b35510; Actions #43494284359 / job #132123196498 completed the 8,961-job build. Conditional formal result only; physical premises and source mapping remain unproved.
+- Source-based 3,600 vs 3,599 spectral-support arithmetic changes bin width by 0.0278 percent; source-version discrepancy remains unresolved.
+- Full report: [H849:s2 rotating-fluid PIV core/wavefront and Lean audit](2026-11-15T0924Z_H849_S2_ROTATING_FLUID_PIV_CORE_WAVEFRONT_AND_LEAN_AUDIT.md).
+- Canonical receipt: [h849:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0924Z_s2_nadir_voss.md).
+- Public-safe addendum: [issue #1781](https://github.com/Satobloc/HsH/issues/1781), submission `nadir-h849-s2-rotating-fluid-piv-core-wavefront-hls-audit-20261115t0924z-001`, SHA-256 `3b8c758263d2633a95f64a649c998caa85afe6ec996f58a9c795b530d83a96b5`; initially SUBMITTED_NOT_VERIFIED, no retry.
+- Lane24 remains P2 HOLD. No P2 selection, physical fit, H(s)H prediction, CODATA comparison or theory promotion. No SAT-O/Blockwave equation changed.
+- All four Mersearch lanes remain occupied/requested; no callable action. No new request, tool, branch, PR or task.
+- P0 remains ACTIVE; #1747 open. Latest discovery JSON not independently parsed in this run. P1 Orson-owned / OVERDUE / NOT READY; P3 INCOMPLETE; FIE next November 24.
+- No task, ID, schedule, phase, prompt, cadence or enabled-state change; no sixth task.
+
+---
+
 # Latest Lane36 overlay | h845:s3 | 2026-11-15T0536Z
 
 - Ring label: Nadir Voss (index 10); next label: Enheduanna (index 11). Deterministic selection is not authenticated thread identity.
