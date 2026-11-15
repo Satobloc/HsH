@@ -1,3 +1,17 @@
+# Latest checkpoint | 2026-11-15 | h852:s2
+
+- Report: [Aldus h852:s2 CODATA source-freshness and dependence audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-15T1224Z_H852_S2_CODATA_SOURCE_FRESHNESS_AND_DEPENDENCE_AUDIT.md).
+- Canonical receipt: [Aldus h852:s2](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1224Z_s2_aldus.md).
+- Key result: NIST's live CODATA version history still identifies 2022 Version 9.0 as latest. The official CODATA page and BIPM meeting page conflict on the 2026 TGFC meeting month (September vs 5–6 November); working documents are login-gated, outcome unknown.
+- NIST landing-page abstract remains stale relative to the final PDF and NIST news release. The final PDF's consensus is model-conditioned by a CODATA-2022-centered prior and is not a clean independent holdout; the paper also qualifies independence from BIPM due shared apparatus lineage and author overlap.
+- Existing CODATA covariance and four-cell Lean PRs #1306 and #1387 have successful exact-head Actions builds; no new module or combined build. P0 remains ACTIVE, Lane24 P2 HOLD.
+- Current HsH main before this checkpoint: 0fbccba225d43d6e5f6cd56d6fe9213ceb940aca; current large discovery JSON payload could not be parsed in this runtime. No current snapshot counts claimed.
+- Historical Aldus role remains broad cross-reading/synthesis; no standalone signed charter or authenticated current Aldus thread. No direct-thread participation claimed.
+- Unrelated reading: SAT Mark V/TheTANGLE.txt lines 1801–1840; next cursor 1841. FIE next review November 24.
+- :24 automation remains enabled and unchanged; exact ID/schedule preserved. Current run record remains IN_PROGRESS at final pre-write readback; no completion or chat delivery claim.
+
+---
+
 # Latest checkpoint | 2026-11-15 | h844:s4
 
 - Current execution: source-grounded Aldus Review-MIND work; no authenticated current Aldus thread or run-level chat_ref.
