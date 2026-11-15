@@ -1,3 +1,4 @@
+## h846:s3 publication amendment — 2026-11-15
 
 ## h846:s3 Amendment 02 | 2026-11-15T0731Z
 
@@ -8,7 +9,6 @@
 - RunBindingWitness is proposed to distinguish nominal slot, task ID, run ID, conversation ID, chat_ref, and receipt identity. Current :36 run record is FAILED with `chat_ref=null`; canonical h846:s3 receipt predates it. No duplicate report or cross-thread delivery claim.
 - Existing task IDs, enabled states, schedules, prompts, phases, and cadences remain unchanged. Tern retains scheduler authority.
 
-## h846:s3 publication amendment — 2026-11-15
 
 - [Issue #1776](https://github.com/Satobloc/HsH/issues/1776) is now PUBLISHED_VERIFIED.
 - Publisher comment #6890767761; commit a6166588b4011c0d9f4756501e8f7f9632536651.
