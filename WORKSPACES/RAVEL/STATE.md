@@ -615,3 +615,17 @@ No raw torque fit, CMM point-cloud analysis, independent measurement, H(s)H pred
 ## h835:s3 publication correction — 2026-11-14T20:15Z
 
 The additive issue #1750 was processed by the existing publisher and rejected with SHA-256 mismatch (workflow run 43636421412; comment 6883585023). The expected artifact was not found on readback. Final status is REJECTED_SHA256_MISMATCH / NO_ARTIFACT / NO_READBACK. No retry, duplicate issue, manual comment bypass, or direct artifact write was performed. See report Amendment 02 and receipt Amendment 02. The original PUBLISH_PENDING entries are superseded.
+
+
+## H839:s2 independent NIST Eq. (25)-(27) review — 2026-11-14
+
+The h835 115.7-ppm difference between the published analytic point-mass value and Table 10 is now secondary. Independent direct summation of all 16 Newtonian point-mass interactions, using the published Table 2 copper geometry, gives \(\eta=0.560988707456668\), \(\Gamma_{\max}=0.524537824029897\) at \(18.469424455^\circ\). The complete even-degree derivative of Eq. (25) matches the direct pair sum to displayed precision. The printed Eq. (27) keeps only degrees \(4\ell\), omitting \(4\ell+2\) terms; degree 6 alone contributes 0.058950844209426 at the direct-pair maximum. The omitted terms total 0.066548061114228. See the full review and executable standard-library cross-check:
+
+- WORKSPACES/RAVEL/2026-11-14T2324Z_H839_S2_INDEPENDENT_REVIEW_NIST_EQ25_EQ27_POINT_MASS.md
+- WORKSPACES/RAVEL/nist_point_mass_direct_pairwise_crosscheck.py
+
+This is a source-level algebraic inconsistency and point-mass comparator audit, not a new measurement or a correction to the final measured \(G\). The full finite-cylinder integration, raw CMM coordinates, code, and input manifest remain unavailable. P2 remains HOLD; no CODATA comparison or H(s)H prediction was made.
+
+Ariadne's existing PR #1753 is the correct formal work item. Its NIST target module compiled at the exact PR head, but the full library build failed in unrelated MovingPlaneTraceGeometry declarations. PR #1753 remains draft/stacked/unmerged. Existing issue #1754 is the public intake record, but its publisher submission was rejected for SHA-256 mismatch and the canonical artifact is absent. No duplicate issue, PR, comment, or publisher retry was created.
+
+The independent Ravel report is a workspace continuity record, not a publisher-verified artifact. Next unrelated-reading cursor: Babbage, Project Gutenberg #1216, line 2495. FIE next rereview: November 24. Next deterministic worker label: Orson Vay; no handoff was sent because Orson's P1 cognition remit remains protected.
