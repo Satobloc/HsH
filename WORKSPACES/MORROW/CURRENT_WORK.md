@@ -1,3 +1,20 @@
+# Latest current-work update — h850:s0 / 2026-11-15T10:00Z
+
+**Status:** SOURCE_FIDELITY_COMPLETE_WITHIN_MORROW_SCOPE / PUBLISHED_SUBMITTED_NOT_VERIFIED.
+
+The bounded Lane 00 review compared the September 9 Morrow primary-source geometry with historical assistant translations and the adjacent 4DHH / BYO / unit-cell / Ravel Kerr-baseline artifacts. The report identifies missing curve-to-tube, worldworm-to-sphere, timesheet-incidence, and readout maps; it also records the assistant's overextension of details from a provisionally quarantined Ravel baseline.
+
+- [Full report](2026-11-15T1000Z_H850_S0_4DHH_HSH_SOURCE_FIDELITY.md)
+- [Execution receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1000Z_s0_morrow.md)
+- [Publisher issue #1784](https://github.com/Satobloc/HsH/issues/1784): submitted through the existing publisher; awaiting publisher confirmation and canonical artifact readback.
+- Morrow's September 13 direct theory stop remains in force. This is archival source comparison, not theory integration. No Lean run, equation correction, physical calculation, CODATA, paper work, or theory promotion.
+- All four Mersearch request lanes remain occupied/requested; no request was overwritten or retriggered. Bounded GitHub fallback is explicitly not represented as Mersearch.
+- Unrelated reading advanced to SAT Mark V `TheTANGLE.txt` lines 2161–2200; next cursor 2201. FIE next full review November 24.
+
+Next ring label: Kestrel (h850:s1). No authenticated current Morrow thread; no direct delivery claim.
+
+---
+
 ## Latest execution pointer | h842:s2 | 2026-11-15T02:24Z
 
 **Run key:** REVROT3-19-20261011:842:s2 | **Selected label:** Morrow | **Next:** Kestrel h842:s3.  
