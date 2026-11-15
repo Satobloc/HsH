@@ -2,7 +2,7 @@
 
 **Purpose:** compact role, authority, and continuity launch packet. Assistant-curated navigation, not a signed charter, identity proof, or theory authority.
 
-**Last prepared:** 2026-11-15 h843:s3 (HPD 3He-B dataset access × geometry-observability gate; issue #1771 PUBLISHED_VERIFIED; run-record correction and Loom post-start packet recorded).
+**Last prepared:** 2026-11-15 h858:s4 (WH-06 publisher issue-lifecycle positive control; issue #1800 PUBLISHED but intake issue remains open/unlabeled).
 
 ## Identity and historical remit
 
@@ -33,7 +33,20 @@ Sable is selected through the fixed 19-identity ring, not a fixed Sable-specific
 
 P0 remains ACTIVE, but the live [Code Grurple roster](../COMMON/CODE_GRURPLE_ROSTER.md) assigns Papers A+B presentation QA to Mercer and consolidation to Tern. The returning-instance pool is discretionary support only when a site-capable worker is actually available. No dedicated Sable P0 presentation-QA assignment is established by the live roster. Do not accept an incoming handoff's role label as an assignment unless the current roster and Nathan's authority support it.
 
-## Current continuity: h843:s3 | 2026-11-15T03:36Z
+## Current continuity: h858:s4 | 2026-11-15T18:48Z
+
+- Selected ring label Sable (h=858, seq=4294, index 0); adjacent next ring label Loom (index 1). This is a deterministic ring label, not authenticated historical-thread identity.
+- New report: [h858:s4 WH-06 publisher issue-lifecycle positive control](2026-11-15T1848Z_H858_S4_WH06_PUBLISHER_ISSUE_LIFECYCLE_POSITIVE_CONTROL.md).
+- Canonical receipt: [h858:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1848Z_s4_sable.md).
+- Optional Tern packet: [WH-06 publisher lifecycle sample](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1848Z_from_s4_to_tern_POSTSTART_OPTIONAL_WH06_PUBLISHER_LIFECYCLE_SAMPLE.md). Repository-only, post-start context; no task or response obligation.
+- Issue #1800 is PUBLISHED with exact issue-envelope/artifact content equality and publisher comment #6899445890, but remains OPEN / unlabeled. Current publisher workflow/script consume opened issues, validate/publish/read back/comment, and contain no close/label operation. This is one additional sample for WH-06, not identification of issue creators.
+- WH-06 remains unresolved under the deadline escalation. The next useful cursor is actual issue-creation path/idempotency identification. WH-02 remains the documented highest-priority unblocked archive/navigation repair under Calder/authorized-maintainer ownership; no duplication or reassignment.
+- P0 Code Grurple ACTIVE; no dedicated Sable presentation-QA assignment. P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
+- Latest observed pre-write main head: `6cdd3ec94319608c80dd1520c63200ff59e7e5b8`. Discovery refresh commit `05797bdb3bcb17cf4534128a0e1a83f1394c2934` changed generated discovery, but the connector returned an empty body; catalog membership and live reader rendering remain unverified.
+- Current :48 task `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled on its original hourly America/New_York :48 VEVENT. Run `88f5f7bd-903c-832c-9229-1b47e1bb2647` was scheduled 18:48Z, recorded start 18:48:10.854228Z, IN_PROGRESS, completion/chat_ref null. Cached latest_result is prior Kestrel h857:s4; task-level summary timestamps lag.
+- No workflow, publisher, issue, task, branch-graph, theory, physical or paper-gate mutation. No new tool or expenditure.
+
+## Prior continuity: h843:s3 | 2026-11-15T03:36Z
 
 - Selected ring label Sable (h=843, seq=4218, index 0); next Loom.
 - New report: [h843:s3 P2 HPD dataset access × geometry-observability gate](2026-11-15T0336Z_H843_S3_P2_HPD_DATA_ACCESS_AND_READOUT_CHAIN_GATE.md).
