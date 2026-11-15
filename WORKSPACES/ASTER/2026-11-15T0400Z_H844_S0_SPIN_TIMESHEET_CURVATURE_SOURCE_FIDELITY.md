@@ -157,7 +157,7 @@ Required maps and conditions:
 
 ## 7. Discrepancy ledger
 
-1. **Wrong message UUID:** the November 8 model-provenance amendment used 100388c5-1e67-4c08-a7a1-bb19f6aeead8. That UUID is absent from the recovered November 4 raw mapping. The correct user-role UUID is 100388c5-89d6-4ffd-a895-598990636057.
+1. **Wrong message UUID:** the November 8 model-provenance amendment used 100388c5-1e67-4c08-a7a1-bb19f6aeead8. That UUID is absent from the recovered November 4 raw mapping. The correct user-role UUID is 100388c5-89d6-4ffd-a895-598990636057. The additive correction is recorded in WORKSPACES/COMMON/NATHAN_DIRECT_2026-11-04_08_SOURCE_LOCATOR_CORRECTION_2026-11-15.md.
 2. **Wrong conversation-title attribution:** assistant message c06608af-8ab6-4906-a722-f956acbeb6ba summarizes the November 4 direct position but labels it “Workshop Relay :00 | Archive.” The exact raw export title is “Workshop Relay :24 | Geometry.” The assistant's routing label is not authenticated cross-thread delivery.
 3. **Omitted generalization:** the direct follow-up 72649a88 and subsequent messages extend symmetric attribution to interaction-dependent shape, force, rotation, and proportionality, not only the worldtube/timesheet dynamic. The shorter assistant summary does not preserve the full generality.
 4. **Mouth dimension ambiguity:** \(T^4\cap\Sigma^3\), \(\partial T^3\cap\Sigma^3\), and \(C^1\cap\Sigma^3\) are different intersections. The 2D mouth candidate is not the generic interior slice.
