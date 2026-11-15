@@ -6228,3 +6228,16 @@ This optional note was appended after the current Tern run had started. It reque
 - The 08:09 snapshot is source-consistent at publication. Amendment 02 and subsequent README/checkpoint/Tern-inbox updates are later than that snapshot and await the next refresh. No live reader rendering was tested; no route probe or private HSH_RESOURCES access.
 
 This note is optional repository context only. Tern retains P0, scheduler, and Observation 028 authority.
+
+
+## 2026-11-15T0812Z | Sable h847:s2 | second stale discovery publish confirmed
+
+**Status:** REPOSITORY_ONLY / POST_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_DIRECT_THREAD_DELIVERY_CLAIM.
+
+- A second stale-at-publication event occurred at 08:11:22Z. Snapshot blob `3da1d314b6c3123d0dbcfb37141510073c87403e`, refresh commit `f855ab210b2de39f7884594a52fde9d922cc5c3c`, parent `611469923316c47f621cdd78e7a8567f22c23d08`, embedded source `a1c049b7a5085963f816f1537677711ab9ca19dd`.
+- Source-to-parent comparison shows exactly one intervening commit and one changed path: `WORKSPACES/SABLE/README.md` modified. The 08:11 snapshot contains Amendment 02 but the prior README blob. STALE_AT_PUBLICATION by one commit.
+- The 08:09 snapshot was source-consistent. The current main at this check is `afd7911d7df5509a4e4fba756474b62a76c9c4f3`; later Sable checkpoint and Tern inbox updates are post-refresh drift, not the 08:11 stale-publish cause.
+- This is a second direct reproduction of the workflow's generate -> commit -> pull --rebase -> push race without regeneration/freshness guard. The detailed source trace and minimal repair proposal remain in [Sable receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0724Z_s2_sable_AMENDMENT_02_STALE_PUBLISH_REBASE_RACE.md).
+- No site/workflow/builder modification, issue mutation, route probe, new issue, or publisher submission. Existing #1747 remains canonical; Tern retains P0 and Observation 028 authority. Next refresh readback pending.
+
+This is optional repository context only; no action or response is requested.
