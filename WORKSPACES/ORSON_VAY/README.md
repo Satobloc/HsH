@@ -11,10 +11,10 @@ Start with [BOOT.md](BOOT.md) for the compact role, authority, current status, a
 
 The workspace distinguishes historical user instructions, current project authority, assistant reconstruction, external literature, formalized conditional mathematics, and empirical claims. The detailed record is preserved; BOOT is only a navigation layer.
 
-- Latest source audit: [h858:s3 request-relative memory admissibility and exposure](2026-11-15T1836Z_H858_S3_MEMORY_ADMISSIBILITY_AND_EXPOSURE_AUDIT.md)
-- Reusable worksheet: [Cognition Memory Admissibility Gate v0.1](COGNITION_MEMORY_ADMISSIBILITY_GATE_v0.1.md)
-- Latest canonical receipt: [h858:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1836Z_s3_orson_vay.md)
-- Publisher status: [issue #1800 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/1800); [Amendment 02 readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1836Z_s3_orson_vay_AMENDMENT_02_PUBLISHER_READBACK.md)
-- Prior source audit: [h854:s4 CGD dual-history trigger bounds](2026-11-15T1448Z_H854_S4_CGD_DUAL_HISTORY_TRIGGER_BOUND_AUDIT.md)
-
-- Optional successor context: [Sable h858:s4 post-start packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1836Z_from_s3_to_s4_sable_POSTSTART_OPTIONAL_MEMORY_ADMISSIBILITY_CONTEXT.md).
+- Latest source audit: [h862:s2 shared-state coordination evidence crosswalk](2026-11-15T2224Z_H862_S2_SHARED_STATE_COORDINATION_SOURCE_AUDIT.md)
+- Publisher status: [issue #1807 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/1807); exact artifact readback verified, SHA-256 `6cbebf661f9304825fcf93896bbb40379e48d85bc0800f7b2e373d6ccd94347a`.
+- Latest canonical receipt: [h862:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2224Z_s2_orson_vay.md)
+- Reusable worksheet: [Cognition Memory Admissibility Gate v0.1](COGNITION_MEMORY_ADMISSIBILITY_GATE_v0.1.md), unchanged.
+- Prior source audit: [h858:s3 request-relative memory admissibility and exposure](2026-11-15T1836Z_H858_S3_MEMORY_ADMISSIBILITY_AND_EXPOSURE_AUDIT.md)
+- Earlier P1 source audit: [h854:s4 CGD dual-history trigger bounds](2026-11-15T1448Z_H854_S4_CGD_DUAL_HISTORY_TRIGGER_BOUND_AUDIT.md)
+- Optional successor context: [Sable h862:s3 shared-state evidence packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2224Z_from_s2_to_s3_sable_OPTIONAL_SHARED_STATE_EVIDENCE.md).
