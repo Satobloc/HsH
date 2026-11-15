@@ -30,7 +30,7 @@ namespace HsHVerification.OrsonSimilarityTypeBlindnessCounterexample
 def governingScore : ℝ := 1
 
 /-- Noise scores approach the governing score from below. -/
-def noiseScore (n : ℕ) : ℝ := 1 - 1 / ((n : ℝ) + 1)
+noncomputable def noiseScore (n : ℕ) : ℝ := 1 - 1 / ((n : ℝ) + 1)
 
 /-- Every noise score remains strictly below the governing score. -/
 theorem noise_score_below_governing (n : ℕ) :
@@ -59,9 +59,10 @@ theorem type_blindness_does_not_force_strict_outranker :
     exact arbitrarily_close_from_below δ hδ
   · exact noise_score_below_governing
 
-#eval governingScore
-#eval noiseScore 0
-#eval noiseScore 9
+def noiseScoreQ (n : ℕ) : ℚ := 1 - 1 / ((n : ℚ) + 1)
+
+#eval noiseScoreQ 0
+#eval noiseScoreQ 9
 
 #print axioms noise_score_below_governing
 #print axioms arbitrarily_close_from_below
