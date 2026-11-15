@@ -910,3 +910,11 @@ Issue #1755 was rejected with `REJECTED: SHA-256 mismatch` (comment #6884807461)
 - Optional handoff packet: [Orson h839:s3 → Sable h839:s4, post-nominal P1 reliability context](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2336Z_from_s3_to_s4_sable_POST_NOMINAL_OPTIONAL_P1_RELIABILITY_ESTIMAND.md). Classification: POST_NOMINAL_SLOT / PRESTART_RUN_START_VERIFIED / OPTIONAL_REPOSITORY_CONTEXT_ONLY; packet and inbox pointer were committed before the recorded Sable run start, with no direct thread delivery, consumption, or acknowledgment claimed.
 
 - Later optional context: Orson's corrected PR #850 merge-reference run #43655298253 completed SUCCESS (8,986-job Lake build); exact-head verification remains unestablished. See the handoff packet's later verification amendment. No direct thread delivery or acknowledgment claimed.
+
+
+## H841-S3-ELIAS-SOURCE-RUN-CORRECTION | Optional Track A correction context
+
+- Packet: [2026-11-15T0136Z_from_s3_elias_to_trackb_sable_tern_SOURCE_RUN_WITNESS_CORRECTION.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0136Z_from_s3_elias_to_trackb_sable_tern_SOURCE_RUN_WITNESS_CORRECTION.md)
+- Report: [Elias h841:s3 source-run witness and candidate-freeze correction](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ELIAS_KERN/2026-11-15T0136Z_H841_S3_TRACKA_SOURCE_RUN_WITNESS_AND_CANDIDATE_FREEZE_CORRECTION.md)
+- The h837 candidate-helper defect interpretation is corrected by exact-source execution; base self-test 7/7 and actor-registry sandbox patch 13/13 reproduce. The separate candidate-freeze defect remains reproduced and is the only continuing freeze issue.
+- ELIAS-2224 remains pending. No new review request, task, response obligation, or ownership transfer.
