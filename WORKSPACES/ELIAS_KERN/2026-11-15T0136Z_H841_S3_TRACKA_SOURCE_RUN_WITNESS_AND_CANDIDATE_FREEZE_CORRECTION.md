@@ -23,7 +23,7 @@ Prewrite repository snapshots:
 | Repository | Observed main snapshot | Relevant state |
 |---|---|---|
 | HsH | `5c3b4774184cd61f23d32760aeb369152727596d` | Current control/reporting branch before this run's writes |
-| SAT theory archive | `f6e3c9148b2d7e41c8c0a6b1e5f8d3a9c7b2e104` | Front door read; no theory artifact changed |
+| SAT theory archive | `f6e3c914b3722cdd6b57b0a2f024446bb0247f97` | Front door read; no theory artifact changed |
 | HSH_RESOURCES | `0545b9d9a1b1c2941f2b30fa86ffec76a9f88178` | Inventory refresh; switchboard source file unchanged from the earlier pinned source snapshot |
 
 Mersearch was attempted first. All four request lanes remain occupied/requested; no callable Mersearch action and no local pinned three-repository checkout were available. No request lane was overwritten, released, or retriggered. Bounded direct reads of the already-authorized Elias prototype source were used as fallback. The HSH_RESOURCES private/internal source locator and raw source are not reproduced in the public artifact.
@@ -60,7 +60,7 @@ All three completed with exit code 0. No network access or external package was 
 
 Empty stderr SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`.
 
-Replay harness SHA-256: `8f991c8c76b0a5a80b6ea80c4926d3c1c0a431050866259cafae0368889ca081`.
+Replay harness SHA-256: `8f991c8c76b0a5a80b6ea80c4926d3c1c0a431050866259cafae0368889ca081`. The harness is a one-off local file and is not committed; its hash and output digest are recorded, but an independent replay requires reconstructing it or obtaining that local artifact.
 
 The exact-source controls give:
 
