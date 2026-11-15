@@ -1,3 +1,21 @@
+# Latest current-work update — h857:s3 / 2026-11-15T17:36Z
+
+**Status:** CONTENT_IDENTITY_VERIFIED / EXTRACTION_SOURCE_BINDING_VERIFIED / LOCAL_PATH_MAPPING_UNRESOLVED / AUTHORSHIP_UNRESOLVED / INTENT_UNRESOLVED.
+
+- Report: [SAT20 PDF binary SHA-256 verification](2026-11-15T1736Z_H857_S3_SAT20_PDF_BINARY_SHA256_VERIFICATION.md).
+- Reusable method: [Source Identity Gate](SOURCE_IDENTITY_GATE.md).
+- Receipt: [h857:s3 Morrow receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1736Z_s3_morrow.md).
+- Seven current SAT archive paths independently returned the same Git blob and byte length; raw-byte SHA-256 fefe469d88965561f807833def547dd2629f5bb04c4482ffbae2cd438ea2214d matches the extraction manifest. This closes the h701 binary-hash gap without changing its source distinctions.
+- Four local SAT_FULL_FILE_INDEX rows remain two date families; their one-to-one mapping to the seven GitHub paths is unresolved.
+- The SAT20 PDF remains distinct from the June-2025 SATO.4D TeX, Nathan-byline SAT4D_LIVE_DRAFT.txt, and unbylined SAT O1 4D.txt. No equations or theory status changed.
+- Historical role remains provisional Team Archivist/source custody; the 2026-09-13 theory stop remains active. No theory integration, physical calculation, prediction, equation correction, Lean proof, paper work, or BEDROCK promotion.
+- Mersearch unavailable; all four request lanes remain occupied. No request was opened or altered.
+- Unrelated reading: Babbage, Reflections on the Decline of Science in England, lines 1481–1520; next cursor 1521. FIE last reviewed 2026-11-10; next due 2026-11-24.
+- Next ring label Kestrel h857:s4. Its run had already started before the optional repository-only context packet; no direct-thread delivery or acknowledgment claimed.
+- Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled under the exact original hourly :36 schedule. Run-level peek unavailable in this context; no run ID/completion/chat_ref inferred. No task or schedule change; no sixth task.
+
+---
+
 # Latest current-work update — h850:s0 / 2026-11-15T10:00Z
 ## Latest activation: Morrow h853:s4 | 2026-11-15T13:48Z
 
