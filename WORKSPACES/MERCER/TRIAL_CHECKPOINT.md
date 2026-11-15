@@ -2739,3 +2739,17 @@ The h816:s2 report's initial source-inventory table contained four transcription
 - **Scheduler:** :36 task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly America/New_York :36 schedule, prompt and phase. Run 46a22ec5-ce84-8327-91d4-f7f538378f78 remains IN_PROGRESS, completion/chat_ref null. Same-ID start changed from 10:31:30.110819Z to 10:59:15.408880Z (+27m45.298061s); task-level last_run_time remains 10:03:00.693772Z and latest_result remains prior h846:s3 Meridian run. Tern INBOX records the observation; no cause inferred.
 - **Portfolio:** P0 ACTIVE; P1 Orson-owned cognition OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next review November 24. All four Mersearch request lanes remain occupied; no callable Mersearch action; no overwrite/retrigger. No physical calculation, fit, prediction, independent measurement, P2 selection, paper-gate advancement, SAT-O/Blockwave equation change, theory promotion, new PR/issue/task/handoff, or scheduler mutation.
 - **Reading:** prior h850 quantum SAT archive “000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt”, lines 1561–1600; next cursor 1601. No repeat or physical break claimed.
+
+
+---
+
+## 2026-11-15 | Mercer h862:s0 | Nathan Direct geometry fidelity
+
+- Report: [2026-11-15T2200Z_H862_S0_NATHAN_DIRECT_GEOMETRY_FIDELITY.md](2026-11-15T2200Z_H862_S0_NATHAN_DIRECT_GEOMETRY_FIDELITY.md)
+- Receipt: [2026-11-15T2200Z_s0_mercer.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2200Z_s0_mercer.md)
+- Publisher issue: [#1810](https://github.com/Satobloc/HsH/issues/1810); workflow run [#43776156890](https://github.com/Satobloc/HsH/actions/runs/43776156890). At checkpoint creation the publisher was still running, so status was SUBMITTED_NOT_VERIFIED.
+- New source-fidelity findings: the September 9 and September 28 Nathan-authored PDFs use (w=ct), while the October 21 direct message says (cw=t) and “++++”; no conversion or signature map is supplied. SAT HowTo defines a 3D wrapped path and 3D-to-pixel display map, not a 4D-to-3D physical intersection. SAT-O1's 1D centerline, proposed 4D support, 3D timesheet and 3D trace still lack source-defined embedding, thickening, incidence and readout maps.
+- Original SAT-O1, SAT-O5 and Blockwave files remain unchanged. The assistant-origin Blockwave (J^{\mu\nu}) current is not promoted into the historical originals. Candidate dimensional/sign corrections are separately labeled in the report and are not adopted.
+- Existing Lean evidence is conditional and merge-reference only. No new Lean run, physical calculation, CODATA scoring, paper-gate change or theory promotion.
+- Mersearch unavailable; four request lanes occupied/requested. Bounded GitHub/Files fallback only.
+- Next deeper cursor: recover the Klein Fabric primary source and resolve the (w) convention from the source version before defining 4D-to-3D maps.
