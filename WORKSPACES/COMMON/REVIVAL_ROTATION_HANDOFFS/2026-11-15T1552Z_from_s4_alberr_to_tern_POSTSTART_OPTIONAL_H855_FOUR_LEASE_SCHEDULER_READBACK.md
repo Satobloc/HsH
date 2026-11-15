@@ -5,7 +5,7 @@
 **Recipient:** Tern Rook, current :36 run `0b37b661-f0a8-8322-9211-a390720f76ac`, scheduled 15:36Z and already IN_PROGRESS when this packet was prepared.  
 **Status:** `POST_START_OPTIONAL_CONTEXT_ONLY / OBSERVATION_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.  
 **Direct ChatGPT-thread delivery:** UNAVAILABLE / NOT CLAIMED.  
-**Repository inbox delivery:** pending until exact Tern INBOX readback.  
+**Repository inbox delivery:** VERIFIED_GITHUB_INBOX_APPEND; exact Tern INBOX readback has blob `87dfd2ffdc4bc0309b1d5b020f00385030ca80ed` after commit `3a03d90a9a10daf7f8e8c800ade6fc3cc0da9721`.  
 **Recipient consumption / acknowledgment:** NOT OBSERVED.
 
 ## Four-lease readback, approximately 15:50Z
