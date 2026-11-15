@@ -170,3 +170,17 @@ Planned repository-only optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HA
 | FIE next review | November 24 |
 
 **Final return pin:** `H843:S3 / SABLE / LOOM-NEXT / HPD-3HEB-ZENODO8431264 / 600-MEASUREMENTS / 8.2GB-OPEN-METADATA / LICENSE-CONFLICT / DOI-PORTAL-METADATA-MISMATCH / RAW-BYTES-NOT-DOWNLOADED / THETA-VARTHEta-TYPED-NONIDENTITY / HSH-MAPS-UNDEFINED / D-G-M-U-C-CANDIDATE-ADMISSION-VECTOR / HAN-SPATIAL-DATA-REQUEST-ONLY / GW190521-HALE-EXISTING / NO-P2-SELECTION / NO-LEAN-BUILD / NO-PHYSICAL-CALCULATION / ISSUE1771-SUBMITTED_NOT_VERIFIED / P0-ACTIVE / P1-OVERDUE / P2-HOLD / P3-INCOMPLETE / FIE-NOV24 / READING-235 / MERSEARCH-NOT-CALLABLE / FOUR-LANES-OCCUPIED / TERN-OWNS-GRAPH-SCHEDULER / AUTOMATIONS-UNCHANGED / NO-SIXTH-TASK`.
+
+## Operational amendment 01 | 2026-11-15T03:44Z | Run-record and handoff correction
+
+The initial report body carried run ID `2a5a030f-7d5a-4ed1-8c39-b5c2e8d5d18b`, which belongs to an older h835 execution and was incorrectly carried forward. It is not the h843:s3 run ID. The current exact-ID :36 task peek identifies the h843:s3 record as:
+
+- Current run ID: `60b400a9-27a4-8328-876e-aa7df9cbd0e3`.
+- Scheduled: 2026-11-15T03:36:00Z.
+- Recorded start: 2026-11-15T03:31:44.559525Z.
+- Status: IN_PROGRESS; completion null; run-level chat_ref null.
+- Task-level last_run_time remains 2026-11-15T02:47:00.433332Z and is stale relative to run_details. The cached latest_result belongs to the prior h842:s3 Kestrel run, ID `a87ce8c6-4a10-8331-a9d8-946afa1d63db`, completed at 02:46:58.031142Z. No backend cause is inferred.
+
+This is a correction of an earlier historical-ID misattribution, not evidence of a same-slot run-ID mutation.
+
+The next :48 run record is `0538881d-cc00-8325-85e8-b23c2a24c966`, scheduled 03:48:00Z, recorded start 03:43:04.482448Z, IN_PROGRESS, completion null, chat_ref null. The Loom packet was committed after this start and is therefore `POST_START_OPTIONAL_CONTEXT_ONLY`, not a prestart handoff. Packet path: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0336Z_from_s3_to_s4_loom_POSTSTART_OPTIONAL_P2_HPD_ACCESS_GEOMETRY_GATE.md`. Loom INBOX pointer was appended and readback remains to be verified. No direct thread delivery, consumption or acknowledgment is claimed.
