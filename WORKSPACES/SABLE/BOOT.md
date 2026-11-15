@@ -2,7 +2,7 @@
 
 **Purpose:** compact role, authority, and continuity launch packet. Assistant-curated navigation, not a signed charter, identity proof, or theory authority.
 
-**Last prepared:** 2026-11-15 h839:s4 (same-ID scheduler start-field amendment and publisher verification).
+**Last prepared:** 2026-11-15 h843:s3 (HPD 3He-B dataset access × geometry-observability gate; issue #1771 submitted, publisher readback pending).
 
 ## Identity and historical remit
 
@@ -33,7 +33,20 @@ Sable is selected through the fixed 19-identity ring, not a fixed Sable-specific
 
 P0 remains ACTIVE, but the live [Code Grurple roster](../COMMON/CODE_GRURPLE_ROSTER.md) assigns Papers A+B presentation QA to Mercer and consolidation to Tern. The returning-instance pool is discretionary support only when a site-capable worker is actually available. No dedicated Sable P0 presentation-QA assignment is established by the live roster. Do not accept an incoming handoff's role label as an assignment unless the current roster and Nathan's authority support it.
 
-## Current continuity: h839:s4
+## Current continuity: h843:s3 | 2026-11-15T03:36Z
+
+- Selected ring label Sable (h=843, seq=4218, index 0); next Loom.
+- New report: [h843:s3 P2 HPD dataset access × geometry-observability gate](2026-11-15T0336Z_H843_S3_P2_HPD_DATA_ACCESS_AND_READOUT_CHAIN_GATE.md).
+- Canonical receipt: [h843:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0336Z_s3_sable.md).
+- New candidate: 2018 superfluid 3He-B HPD theta-soliton spectroscopy, Zenodo 8431264; public/open 8.2 GB manifest and ~600 measurements. Raw bytes not downloaded; dataset license field conflicts (Aalto says CC-BY-4.0; Zenodo field blank); HsH θ4-to-3He-B state/readout maps undefined. Candidate only; no P2 selection or physical calculation.
+- New workflow improvement: five-axis candidate-admission vector D/G/M/U/C separates data access, geometric observability, model-map closure, uncertainty closure and comparator closure.
+- Public-safe issue #1771 submitted through HSH-PUBLISH-V1. Submission `sable-h843-s3-hpd-access-geometry-gate-20261115t0336z-001`; expected SHA-256 `8d3184fddb8e7e1fb15e60355aa1bba597d8885b2d81ab06ee7879cabf7bda4f`; status SUBMITTED_NOT_VERIFIED pending publisher comment and exact artifact readback.
+- Ordinary Sable thread identity is historically recovered, but live usability remains UNVERIFIED; current run chat_ref is null. No cross-thread delivery claim.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE November 24.
+- :36 task `6a9f52b69ec08191b0a2ba24a074f781` and :48 task `6aa6c3bc02b48191b8a91a30d2a155e0` remain enabled with original schedules, prompts and phases. No sixth task or scheduler mutation.
+- Unrelated reading: *The Adventures of Sherlock Holmes*, “A Scandal in Bohemia,” lines 54–234; next cursor 235.
+
+## Prior continuity: h839:s4
 
 - Run key: REVROT3-19-20261011:839:s4; nominal slot 2026-11-14T23:48Z. Selected Sable (ring index 0); next ring label Loom (index 1), h840:s0.
 - Run ID first observed as daebca35-0b0c-83e9-93f2-47bfe18081b6, later as daeb03da-cd70-8323-94af-9a804bd01d8a; the first two snapshots shared started_at 23:51:52.508802Z. A later exact-ID peek of daeb03da returned started_at 2026-11-15T00:19:43.161905Z, a +27m50.653103s movement under the same run ID. Classify RUN_ID_CHANGED_SAME_SLOT_START + SAME_ID_START_FIELD_MOVEMENT; no cause inferred. Current status IN_PROGRESS, completion null, chat_ref null. Task-level last_run_time remains 2026-11-14T23:12:16.308049Z; next_run_time remains 2026-11-14T18:48:00-05:00; cached latest_result remains prior Kestrel h838:s4. Run-details record is current; task summary/cache has not advanced.
@@ -135,7 +148,11 @@ At h805:s3:
 - FIE next rereview: November 24, 2026.
 - Task graph: ACTIVE_SEED, branch_count 16, 18 branch records. The 16/18 semantics remain unresolved; do not silently normalize them.
 
-## Current return pin
+## Current return pin | h843:s3
+
+`H843:S3 / SABLE / LOOM-NEXT / HPD-3HEB-ZENODO8431264 / PUBLIC-OPEN-MANIFEST / RAW-BYTES-NOT-RETRIEVED / LICENSE-CONFLICT / DOI-PORTAL-METADATA-MISMATCH / THETA-VARTHEta-TYPED-NONIDENTITY / HSH-MAPS-UNDEFINED / D-G-M-U-C-CANDIDATE-ADMISSION / NO-P2-SELECTION / ISSUE1771-SUBMITTED_NOT_VERIFIED / P0-ACTIVE / P1-OVERDUE / P2-HOLD / P3-INCOMPLETE / FIE-NOV24 / READING-235 / AUTOMATIONS-UNCHANGED / NO-SIXTH-TASK`
+
+## Prior return pin (h839:s4)
 
 `H824:S3 / SABLE / LOOM-NEXT / PROJECTION-COARSE-GRAINING-ORDER-TEST / ISSUE1734-SUBMITTED_NOT_VERIFIED / RUN_ID_CHANGED_SAME_SLOT_START / READING-661 / FIE-NOV24 / AUTOMATIONS-UNCHANGED / NO-SIXTH-TASK / S36-IN_PROGRESS`
 
