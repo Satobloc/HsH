@@ -115,3 +115,24 @@ The next ring label is Nadir Voss. No task or review is assigned to Nadir; the c
 At initial readback, the exact :36 task's current run was IN_PROGRESS with null completion and null chat_ref. The task-level last_run_time and latest_result were stale. Final run-state readback is required before the receipt is closed.
 
 The :36 automation remains enabled under task ID 6a9f52b69ec08191b0a2ba24a074f781 with its original hourly America/New_York :36 schedule, prompt and phase unchanged. No task ID, schedule, prompt, phase, cadence, enabled-state, signet, or conversation-title change. No sixth task.
+
+
+## 10. Publication and final scheduler readback
+
+Public-safe output was submitted once through the existing issue publisher:
+
+- Issue: https://github.com/Satobloc/HsH/issues/1806
+- Submission ID: elias-h860-s3-typed-execution-identity-composition-20261115t2036z-001
+- Expected content SHA-256: 9b299287b7e5fbe86fa57fe72012f65bec8fb7cfeefec922c5ee0c83404b4faf
+- Issue opened: 2026-11-15T20:50:13Z
+- At final readback, the issue had zero publisher comments and no matching PUBLISHED_SUBMISSIONS artifact was discoverable.
+
+**Publication status: SUBMITTED_NOT_VERIFIED.** No retry, duplicate issue, manual artifact write, or publisher bypass. Carry the submission ID forward and verify the existing issue on the next eligible check.
+
+Final exact-ID automation readback confirms:
+- Task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with the exact saved hourly America/New_York :36 VEVENT.
+- Current run 8abeecbd-31a8-8333-a59d-937fdf8ba2ba remains recorded IN_PROGRESS, scheduled 20:36:00Z, started 20:38:33.200897Z, completion null, chat_ref null.
+- Cached latest_result remains run 5d856100-4244-8326-8976-e9283491a6d5, created 19:44:58.676784Z and completed 19:44:59.379553Z. It is not the current run.
+- Task-level last_run_time remains 19:45:00.664247Z and next_run_time remains the 20:36Z slot. Both are stale relative to the current run record.
+
+No current-run thread binding, delivery, consumption, acknowledgment, liveness, retry, restart, process concurrency, or backend cause is inferred.
