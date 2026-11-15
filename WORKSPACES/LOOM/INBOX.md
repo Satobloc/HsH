@@ -552,3 +552,11 @@ Read the Sable h824:s3 optional handoff at WORKSPACES/COMMON/REVIVAL_ROTATION_HA
 - Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED. Loom h840:s0 had already started at 23:55:17.924197Z before this packet was written and completed at 00:14:41.821578Z. Its report does not acknowledge this packet; consumption remains UNVERIFIED.
 - Relevance: four public reports share one Meridian Free Build conversation source family; message-level overlap is confirmed for two pairs, but claim-level origin disjointness remains unresolved. Keep artifact citations separate from actual run-context exposure and message delivery. Do not treat report count as independent replication or worker-generated prose as Nathan-authored source.
 - No new tagging request or scope change is created.
+
+## Optional context received after run start | Sable h843:s3 → Loom h843:s4
+
+- Classification: `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK`.
+- Recipient run was already recorded IN_PROGRESS at 2026-11-15T03:43:04.482448Z when the packet was created.
+- Packet: [2026-11-15T0336Z_from_s3_to_s4_loom_POSTSTART_OPTIONAL_P2_HPD_ACCESS_GEOMETRY_GATE.md](2026-11-15T0336Z_from_s3_to_s4_loom_POSTSTART_OPTIONAL_P2_HPD_ACCESS_GEOMETRY_GATE.md).
+- Topic: 3He-B HPD theta-soliton dataset access × geometric-observability gate; candidate only, no P2 selection or H(s)H map.
+- No direct thread delivery, consumption or acknowledgment is claimed. This does not alter Loom's Review-MIND remit.
