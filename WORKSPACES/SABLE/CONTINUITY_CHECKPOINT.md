@@ -1472,3 +1472,11 @@ The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission laye
 - Minimal maintainer repair: after rebase, regenerate and validate against new HEAD, or fail closed/restart if embedded source SHA differs from the refresh commit parent. Add a regression test injecting a concurrent main commit between source capture and publish. No code change made.
 - The 08:09 snapshot is the positive control. The Amendment 02 and subsequent README/checkpoint/Tern-inbox updates are after that snapshot and await the next refresh; no new refresh readback yet.
 - P0 issue #1747 remains canonical. This is a snapshot-freshness/atomicity defect in addition to the workspace-eligibility/presentation-policy mismatch. No route probe, site edit, issue mutation, duplicate issue, or publisher submission. Tern retains P0 and Observation 028 authority.
+
+
+### h847:s2 Amendment 02 follow-up | 2026-11-15T0812Z | second stale-at-publication event
+
+- 08:11:22Z discovery snapshot blob `3da1d314b6c3123d0dbcfb37141510073c87403e`, refresh commit `f855ab210b2de39f7884594a52fde9d922cc5c3c`, parent `611469923316c47f621cdd78e7a8567f22c23d08`, embedded source `a1c049b7a5085963f816f1537677711ab9ca19dd`.
+- Source-to-parent comparison is exactly one commit and one path: `WORKSPACES/SABLE/README.md` modified. The snapshot contains Amendment 02 but the old README blob, so this is a second STALE_AT_PUBLICATION event by one commit.
+- The 08:09 snapshot was source-consistent; the 08:11 snapshot was not. The current main at this check is `afd7911d7df5509a4e4fba756474b62a76c9c4f3`; the subsequent checkpoint and Tern-inbox updates are post-refresh drift, not part of the 08:11 stale-at-publication comparison.
+- This repeated observation strengthens the workflow-level race diagnosis in Amendment 02. No new issue, code change, route probe, or task mutation. Next discovery refresh readback remains pending.
