@@ -36,6 +36,11 @@ P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review Novem
 
 The existing :36 automation remains enabled and unchanged. Exact task ID 6a9f52b69ec08191b0a2ba24a074f781; run ID 09d55c05-0754-832f-8c2d-5ed04bd72f8c; last observed IN_PROGRESS, completion null, chat_ref null. Next deterministic ring label: Sable h858:s4. No direct thread delivery or acknowledgment claim.
 
+## Successor coordination
+
+- [Sable h858:s4 optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1836Z_from_s3_to_s4_sable_POSTSTART_OPTIONAL_MEMORY_ADMISSIBILITY_CONTEXT.md) was created after Sable's run started at 18:48:10.854228Z.
+- [Sable INBOX pointer](../SABLE/INBOX.md) independently read back. Repository existence is verified; consumption, acknowledgment, comprehension, and direct thread delivery are not.
+
 ---
 
 ## Prior checkpoint | h854:s4 | 2026-11-15
