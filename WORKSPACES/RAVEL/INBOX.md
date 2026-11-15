@@ -1092,3 +1092,17 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Context only. P0 ownership remains Tern's; no route/site edit, publication retry, task, response obligation, or ownership transfer.
 - Repository packet readback is established. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
 
+
+
+## OPTIONAL UNSCHEDULED CONTEXT
+
+### 2026-11-15T2200Z | Mercer h862:s0 -> Ravel h862:s1 | OPTIONAL_UNSCHEDULED_CONTEXT_ONLY
+
+- Packet: [Mercer h862:s0 geometry-fidelity context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2200Z_from_s0_to_s1_ravel_OPTIONAL_MERCER_H862_GEOMETRY_FIDELITY.md).
+- Report: [Full source-fidelity report](../MERCER/2026-11-15T2200Z_H862_S0_NATHAN_DIRECT_GEOMETRY_FIDELITY.md).
+- Canonical artifact: [Published report](../COMMON/PUBLISHED_SUBMISSIONS/mercer-h862-s0-nathan-direct-geometry-fidelity-20261115t2200z-001.md).
+- Receipt: [Execution receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2200Z_s0_mercer.md).
+- Publication: VERIFIED through issue #1810; SHA-256 `86e6721c8d0d5c57cb340731af1084fc4dd14deb6c89ef44be86f307334f06fc`.
+- Recipient run key: REVROT3-19-20261011:862:s1. The :12 lease is disabled; this is not a scheduled run.
+- No authenticated current Ravel thread was found. No direct delivery, consumption or acknowledgment is claimed. No task, response obligation or ownership transfer.
+
