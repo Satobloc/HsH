@@ -8,3 +8,8 @@
 - Preserve the literal source strata `w=ct` and `cw=t`; do not normalize or substitute them. The actual `w(t)` map, units/operator parse, intrinsic worldsheet metric, and observable-preserving reduction remain undefined.
 - No new theorem, physical calculation, P2 selection, Paper A/B review, theory promotion, task, deadline, or response obligation.
 - The :48 task is present in the roster, but its current run state could not be read in this context. This packet is repository-only. No direct thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Scheduler readback supplement
+
+The :36 run ID `79f30399-7164-8332-a52f-61785c8f6932` was observed IN_PROGRESS, then FAILED, then IN_PROGRESS again with changed started_at/completion fields and null chat_ref. Same ID and scheduled_for; no retry, restart, concurrency, liveness, or backend cause inferred. See [receipt Amendment 02](../REVIVAL_ROTATION_RECEIPTS/2026-11-15T1136Z_s3_aster_AMENDMENT_02_SAME_RUN_ID_MUTABILITY_READBACK.md). No task or response obligation.
