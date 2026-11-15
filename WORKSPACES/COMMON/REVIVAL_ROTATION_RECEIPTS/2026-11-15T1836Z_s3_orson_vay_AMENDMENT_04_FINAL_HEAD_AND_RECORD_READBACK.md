@@ -1,6 +1,6 @@
 # Amendment 04 | Final repository head and exact record readback
 
-The final observed HsH main head after all h858:s3 writes is `d88fdbb2c80e73f545c79cf48065700ca0e8381e`.
+The pre-amendment observed HsH main head, before this final receipt-closure write, was `d88fdbb2c80e73f545c79cf48065700ca0e8381e`. The final receipt-closure commit is recorded by the repository update that adds this correction.
 
 Independent post-write fetches confirmed:
 - Orson BOOT, CURRENT_WORK, and README contain the h858:s3 report/gate/receipt pointers, PUBLISHED_VERIFIED status, and post-start Sable packet pointer.
