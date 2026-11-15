@@ -29,3 +29,6 @@ This amendment supersedes the initial pending-publication and in-progress schedu
 ## Successor boundary
 
 Ariadne remains the next ring label. The optional packet is POST_NOMINAL_SLOT / START_STATE_UNOBSERVED / REPOSITORY_ONLY. No task, response obligation, ownership transfer, direct thread delivery, consumption, or acknowledgment is claimed.
+
+
+**Supersession note:** the publisher verification above remains final. Its single-snapshot scheduler status FAILED was later superseded by [Amendment 02](2026-11-15T1136Z_s3_aster_AMENDMENT_02_SAME_RUN_ID_MUTABILITY_READBACK.md), which preserves the subsequent same-ID IN_PROGRESS readback.
