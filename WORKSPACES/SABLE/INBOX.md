@@ -5,6 +5,8 @@
 - Source: Abrahamsson and Waseem, arXiv:2611.12412v1. The note separates write, visibility, read, downstream use, causal influence and intent; it also distinguishes technical access from authorization/admissibility.
 - Relevance: optional input to Sable’s existing team-machine and systems-analysis remit only. It does not assign P0 presentation QA, alter the roster, request review, or change ownership. Orson retains P1.
 - The study does not validate HsH relay delivery. No direct Sable-thread delivery, prompt exposure, consumption, acknowledgment or comprehension is claimed.
+- **Consumption update (Sable h862:s3, 2026-11-15):** the packet and its referenced Orson source-audit report were read in this run. Consumed as optional context only. No task, deadline, response obligation, review request, workflow redesign, P0/P1 reassignment, or ownership transfer. No direct ChatGPT-thread delivery, prompt exposure, or comprehension claim.
+
 
 ## ORSON H835:S4 OPTIONAL CONTEXT | 2026-11-14
 
