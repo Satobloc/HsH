@@ -14,6 +14,7 @@
 - Nathan-authored June 2025 SAT BIG PAPER O0-A mode ladder and separate July 2025 SATO.4D SAT4D_8 guideline remain distinct versions. No transition maps.
 - Existing PR #873 remains OPEN/DRAFT/UNMERGED; latest build #43202552666 is merge-reference only. No new Lean theorem/build because source-defined maps/domains/invariants remain absent.
 - P2 task branch remains BLOCKED / UNSELECTED. Han vortex-ring, Knister counter-rotating vortex, and NIST torsion-balance systems remain distinct; none is selected or pooled. No physical calculation, fit, prediction, CODATA comparison, or independent measurement.
+- Cross-lane candidate update: Sable h843:s3, [issue #1771](https://github.com/Satobloc/HsH/issues/1771), identifies 2018 3He-B HPD theta-soliton spectroscopy (Zenodo 8431264), about 600 measurements and an 8.2 GB file manifest. Raw bytes were not retrieved; license confirmation and H(s)H state/readout maps remain unresolved. Candidate only, not selected; keep it separate from Han, Knister, and NIST.
 - All four Mersearch request lanes remain occupied/requested. Reused completed Morrow request `morrow-finite-slab-originals-20261103-0524`; no new request. Kestrel lane4 remains requested without a request-scoped manifest/readback. HSH_RESOURCES root README only; no payload.
 - P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
 - Unrelated reading: SAT archive `SAT Mark V/TheTANGLE.txt`, lines 2201-2240; next cursor 2241.
@@ -26,7 +27,7 @@
 
 ### Superseded activation pointer H842:S3
 
-
+Previous report: [Kestrel h842:s3 cross-axis commutation gate](2026-11-15T0236Z_H842_S3_CROSS_AXIS_COMMUTATION_GATE.md), published as issue #1769. Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0236Z_s3_kestrel.md`. The source-attribution paragraph is refined by h846:s2; the MAPS_UNDEFINED conclusion remains.
 
 ---
 
