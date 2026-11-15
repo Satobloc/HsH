@@ -88,7 +88,7 @@ No public issue, PR, branch, new tool, subscription, or expenditure was created.
 The optional scheduler packet was created at:
 `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1552Z_from_s4_alberr_to_tern_POSTSTART_OPTIONAL_H855_FOUR_LEASE_SCHEDULER_READBACK.md`.
 
-- Handoff blob after delivery-status amendment: pending independent readback.
+- Handoff blob after delivery-status amendment: `e0d4744e02867e1c56afac9c1db6d04253d60bc5` (exact fetch readback PASS).
 - Tern INBOX append commit: `3a03d90a9a10daf7f8e8c800ade6fc3cc0da9721`.
 - Tern INBOX new blob: `87dfd2ffdc4bc0309b1d5b020f00385030ca80ed`.
 - The exact new entry was independently fetched at the target path and confirmed at the beginning of Tern's existing INBOX.
