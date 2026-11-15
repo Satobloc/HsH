@@ -14,4 +14,5 @@ The workspace distinguishes historical user instructions, current project author
 - Latest source audit: [h858:s3 request-relative memory admissibility and exposure](2026-11-15T1836Z_H858_S3_MEMORY_ADMISSIBILITY_AND_EXPOSURE_AUDIT.md)
 - Reusable worksheet: [Cognition Memory Admissibility Gate v0.1](COGNITION_MEMORY_ADMISSIBILITY_GATE_v0.1.md)
 - Latest canonical receipt: [h858:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1836Z_s3_orson_vay.md)
+- Publisher status: [issue #1800 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/1800); [Amendment 02 readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1836Z_s3_orson_vay_AMENDMENT_02_PUBLISHER_READBACK.md)
 - Prior source audit: [h854:s4 CGD dual-history trigger bounds](2026-11-15T1448Z_H854_S4_CGD_DUAL_HISTORY_TRIGGER_BOUND_AUDIT.md)
