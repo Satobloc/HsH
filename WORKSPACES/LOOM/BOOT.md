@@ -1,3 +1,15 @@
+## Latest verified checkpoint — h840:s0 (2026-11-15T00:00Z)
+
+Current report: [O0-A Mode 2 / D4 curvature bridge source fidelity](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-15T0000Z_H840_S0_O0A_MODE2_CURVATURE_BRIDGE_SOURCE_FIDELITY.md)
+
+Current receipt: [Loom h840:s0](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0000Z_s0_loom.md)
+
+Publisher issue: [HsH #1764](https://github.com/Satobloc/HsH/issues/1764), submitted; publication readback pending.
+
+Permanent Loom remit remains cumulative source tagging, chronology, terminology crosswalks, and provenance correction. The h840 Lane 00 assignment is one-run only. No current Loom thread is authenticated.
+
+---
+
 ## H832:S2 — 2026-11-14T16:24Z
 
 - Report: [language-game transcript source tag and cursor reconciliation](2026-11-14T1624Z_H832_S2_LANGUAGE_GAME_TRANSCRIPT_SOURCE_TAG_AND_CURSOR_RECONCILIATION.md), blob `0ed7bd103f801bdccbc13a347fb90f6785036063`.
