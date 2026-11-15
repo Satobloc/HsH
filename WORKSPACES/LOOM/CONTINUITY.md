@@ -884,3 +884,18 @@ P0 remains ACTIVE with eight protected blobs exact and reader routes not observe
 - The h839 Meridian issue #1761 is now PUBLISHED_VERIFIED by [Amendment 03](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2359Z_s0_meridian_AMENDMENT_03_PUBLISHER_VERIFIED.md).
 - Loom's permanent role remains cumulative source tagging, chronology, terminology crosswalks, and provenance correction. The h840 Lane 00 allocation is one-run only.
 - Next cursor: define \(K\), \(\langle K\rangle\), the \(\Sigma_t\) projection, the dimensional map from \(S\) to \(\delta g\), and the Mode 2 update law before Lean instantiation.
+
+
+## H843:S4 | 2026-11-15 | HPD source ancestry and inference-boundary audit
+
+Latest report: WORKSPACES/LOOM/2026-11-15T0348Z_H843_S4_HPD_SOURCE_ANCESTRY_AND_INFERENCE_BOUNDARY_AUDIT.md. Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0348Z_s4_loom.md.
+
+The Sable h843:s3 optional HPD packet was read and consumed as source-review context. The 2024 ³He-B HPD article explicitly calls the high-temperature circular-membrane interpretation a central conjecture; mode-2 onset is assumed as the localization point for the frequency-shift origin and gap extraction. The 2022 membrane-model antecedent is by the same first author. ³He-B vartheta is an order-parameter rotation angle, not BEDROCK theta4.
+
+Zenodo 8431264 is Open and 8.2 GB, but its license field is blank. Aalto labels CC-BY-4.0 while citing DOI 8431263 and linking 8431264. Reuse permission unresolved. No raw bytes, physical calculation, fit, prediction, Lean build, P2 selection or H(s)H map.
+
+All ten historical Tag Conversation Corpus user-role messages remain covered in tagging-ledger Section A. No duplicate tags or Nathan Verified Words entry. The external article and Sable report are not Nathan-authored.
+
+No new public issue; Sable issue #1771 remains PUBLISHED_VERIFIED. P2 remains HOLD. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P3 INCOMPLETE. FIE next review 2026-11-24. Unrelated-reading cursor remains fun break - lx.txt line 1641.
+
+Next deterministic worker Aster h844:s0. Optional prestart repository-only handoff exists; historical Aster thread candidate 6ab006ce-e358-83ea-b3dd-7b23a26c00fa remains archived through 2026-10-17 and current usability unverified. No direct ChatGPT-thread delivery or acknowledgment claim.
