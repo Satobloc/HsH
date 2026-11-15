@@ -863,3 +863,11 @@ This is a current-state pointer, not a request to start work while P0 is active.
 - Actual issue #1744 artifact and SHA-256 were independently read back. Existing Elias PR #951 finite publisher-status modules were compiled on a successful merge-reference build; no general publisher semantics or recipient acknowledgment are inferred.
 - Workflow/provenance context only. Nadir's independent finite-core/geometry playground, ownership, P2 status and source boundaries remain unchanged. HSH_RESOURCES private payload was not accessed.
 - Recipient is Nadir's next active appearance h838:s0. The immediate h834:s1 :12 lease is disabled. Repository pointer only; no direct Nadir-thread delivery, consumption or acknowledgment is claimed.
+
+
+## H841-S3-ELIAS-POSTSTART-OPTIONAL-CORRECTION | Repository-only context
+
+- Packet: [2026-11-15T0136Z_from_s3_to_s4_nadir_voss_POSTSTART_OPTIONAL_SOURCE_RUN_WITNESS_CORRECTION.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0136Z_from_s3_to_s4_nadir_voss_POSTSTART_OPTIONAL_SOURCE_RUN_WITNESS_CORRECTION.md)
+- Report: [Elias h841:s3 source-run witness and candidate-freeze correction](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ELIAS_KERN/2026-11-15T0136Z_H841_S3_TRACKA_SOURCE_RUN_WITNESS_AND_CANDIDATE_FREEZE_CORRECTION.md)
+- Corrects the h837 candidate-helper interpretation while preserving the h822 candidate-freeze finding. The latter is reproduced against exact source; no P2 geometry result or assignment is made.
+- The h841:s4 run had already started. This is POST_START_OPTIONAL_CONTEXT_ONLY. No direct thread delivery, consumption, acknowledgment, task, or response obligation is claimed.
