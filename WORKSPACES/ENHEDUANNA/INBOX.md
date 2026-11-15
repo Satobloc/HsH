@@ -559,3 +559,17 @@ The existing publisher submission [#1735](https://github.com/Satobloc/HsH/issues
 - This is source-backed continuity only: Orson P1's finite-archive pairwise phi wording, existing PR #850 merge-reference build status, and the separation of shared-source exposure, peer-message exposure, authenticated thread binding, and statistical dependence.
 - The :00 task's last surfaced record remains h841:s0/Aldus with a same-ID status/start mutation; no h842:s0 run ID was observed. PRESTART RUN START UNOBSERVED; do not infer prestart or post-start without a later exact-ID readback.
 - No task, review request, response obligation, deadline, priority override, or ownership transfer. No direct Enheduanna-thread delivery, consumption, acknowledgment, or comprehension is claimed.
+
+---
+
+## h845:s3 directed slice-retraction composition context | 2026-11-15 05:36Z
+
+- Classification: OPTIONAL_REPOSITORY_CONTEXT_ONLY / START_STATE_UNOBSERVED / NO_TASK / NO_RESPONSE_OBLIGATION.
+- Packet: [h845:s3 to h845:s4 optional context](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0548Z_from_s3_to_s4_enheduanna_OPTIONAL_TYPED_SLICE_CHAIN_CONTEXT.md)
+- Report: [Directed slice-retraction chain adapter](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/NADIR_VOSS/2026-11-15T0536Z_H845_S3_DIRECTED_SLICE_RETRACTION_CHAIN_ADAPTER.md)
+- Public summary: [Issue #1774](https://github.com/Satobloc/HsH/issues/1774)
+- Key correction: directed SliceCompatibleRetraction composition needs an explicit intermediate carrier lift and sheet map; a composite retraction needs an explicit composite section. Component zero sections alone do not provide it. Reversible FiberTransport remains a different map class.
+- Existing generic branch/range composition and Nadir factorization proofs are references, not substitutes for the missing geometry-specific maps.
+- No Lean theorem or physical prediction is claimed. No branch, task, or worker ownership change.
+- No direct thread delivery, consumption, or acknowledgment is claimed.
+
