@@ -419,3 +419,14 @@ Corrected-head PR run #43548879900 attempt 2 remains IN_PROGRESS on b603ef9573bb
 - Unrelated SAT archive reading advanced to lines 1841–1880 in SAT Mark V/TheTANGLE.txt; next cursor 1881. No physical break claimed.
 - Next deterministic ring identity: Elias Kern, h853:s0. His protected Track A remit has no actionable task from this P2 source-method note; no successor handoff or assignment created.
 - Current :48 run fb0491d8-c320-8326-b6db-5b25bf98534f remains recorded IN_PROGRESS at last readback; completion/chat_ref null. Cached latest result belongs to Ariadne h851:s4. No scheduler configuration change.
+
+
+## H860:S2 | 2026-11-15T20:24Z | P0 discovery scope and WH-02 failure revalidation
+
+- Report: [Hale h860:s2](2026-11-15T2024Z_H860_S2_DISCOVERY_SCOPE_AND_WH02_FAILURE_REVALIDATION.md).
+- Publisher submission: [#1804](https://github.com/Satobloc/HsH/issues/1804), HSH-PUBLISH-V1; run [#43759039082](https://github.com/Satobloc/HsH/actions/runs/43759039082) was IN_PROGRESS at checkout at the time of receipt preparation. Artifact readback pending; do not duplicate/retry.
+- Current discovery snapshot blob ef2d8527939d44ce1b31c0c58f6bfddee7f969fa: 8,211 WORKSPACES records all have generic reader targets; 8,011 excerpts. Source-consistent at publication. Live routes UNOBSERVED.
+- WH-02 run #43756573298 confirms strict audit failure on two undatable conversations; PR #1710 remains 7 ahead / 2,553 behind, diverged, no exact-head CI. Calder/authorized maintainer retains code action.
+- P0 remains ACTIVE; P2 remains HOLD. No physical result, theory promotion, code/site/PR/graph/task/scheduler change.
+- Historical Hale remit remains external literature/scanner and statistical evidence QC; September 12 check-in is a historical self-report, not a signed specialist charter. No authenticated current Hale thread.
+- Next ring label: Elias Kern. No task or cross-thread delivery claim.
