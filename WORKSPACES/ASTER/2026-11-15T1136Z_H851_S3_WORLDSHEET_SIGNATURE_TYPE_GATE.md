@@ -89,3 +89,10 @@ If the model claims an induced Lorentzian worldsheet directly from a positive-de
 - Portfolio: P0 ACTIVE; P1 Orson-owned cognition OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next review November 24. Tern retains graph and scheduler authority.
 - Automation: existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with the exact original hourly :36 schedule, prompt, and phase. Current run `79f30399-7164-8332-a52f-61785c8f6932` was IN_PROGRESS, scheduled 11:36Z, started 12:01:02.118293Z, completion null, chat_ref null. Task-level cached timestamp/result remained stale. The :48 task's current run state was not accessible; no successor start, delivery, consumption, or acknowledgment is claimed.
 - No physical calculation, fit, prediction, independent measurement, P2 selection, equation correction, theory promotion, task mutation, sixth task, signet, or conversation rename.
+
+
+## Amendment 01 | final publication and execution readback
+
+- Issue #1788 is **PUBLISHED_VERIFIED**. Publisher comment #6894277559 reports artifact path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-worldsheet-signature-type-gate-20261115t1136z-s3-001.md`, publisher commit `e2cba62cbac573b41f493a0dbdbe3e89392f207c`, SHA-256 `2d7731e8aa9626509ddbbf431715d9e5cde829f5e5553c0f7d50ea85d63e9566`. Independent issue-envelope/artifact comparison passed exactly at 8,188 characters.
+- The :36 run record subsequently completed as FAILED at 12:26:04.666817Z, with null chat_ref. The task remains enabled with its original ID and schedule. The failure cause is not inferred. Repository work and publication were completed and verified.
+- Full readback details: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1136Z_s3_aster_AMENDMENT_01_PUBLISHER_AND_FINAL_RUN_READBACK.md).
