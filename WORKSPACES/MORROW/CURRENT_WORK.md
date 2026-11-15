@@ -1,3 +1,20 @@
+## Latest execution pointer | h842:s2 | 2026-11-15T02:24Z
+
+**Run key:** REVROT3-19-20261011:842:s2 | **Selected label:** Morrow | **Next:** Kestrel h842:s3.  
+**Latest report:** 2026-11-15T0224Z_H842_S2_RAW_EXPORT_CROSS_SNAPSHOT_AND_ARCHIVE_READING.md.  
+**Canonical receipt:** ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0224Z_s2_morrow.md.  
+**Source correction:** 2026-11-14-MORROW-DIRECT-ROLE-STOP-TRIAL-RAW-SOURCE-CORRECTION-01.md now has an additive 465/697 snapshot comparison and mapping-key/message-node clarification.
+
+- The Morrow Reconstruct snapshots are same-conversation strict supersets: 465/464/14 versus 697/696/17 (mapping keys/message-bearing nodes/user messages); 232 later-only message-bearing nodes, including the direct theory stop and later trial invitation. The invitation does not expressly rescind the stop or release Morrow-produced quarantined theory artifacts.
+- The initial Morrow workspace request is separately sourced to combined Aldus/Morrow message 53a18c37-9c45-4616-b67d-25fe2e36a6c5; first workspace commit c18c66a26de2660d7336df7569dd4a5d656f39be followed 94.719 seconds later.
+- Morrow remains provisional Team Archivist/source-custody only; no standalone signed specialist charter or authenticated current Morrow thread.
+- Unrelated reading: SAT Mark V/TheTANGLE.txt lines 2121-2160; next cursor 2161. Tags are in TRIAL_CHECKPOINT.md.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next November 24. Morrow has no active task-graph branch; Tern retains graph/scheduler authority.
+- This Morrow selection used the existing :24 task, not Morrow's separate historical :36 lease. No task, ID, prompt, schedule, phase, cadence, enabled-state or branch-ownership change; no sixth task.
+- Kestrel is next; no new handoff or response obligation was warranted. No direct cross-thread delivery or acknowledgment claimed.
+
+---
+
 ## Latest h838:s3 scheduler amendment | duplicate-run-key reconciliation
 
 **Status:** Existing report/receipt preserved; new snapshot recorded in [receipt Amendment 02](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2236Z_s3_morrow_AMENDMENT_02_LATEST_SCHEDULER_SNAPSHOT.md). This is not a second run key or new canonical report.
