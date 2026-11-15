@@ -677,3 +677,8 @@ Pre-write main head: b818b452a117b844e54d2c1bc32b9063b3ecc60d. The existing :48 
 - Orson and Tern received optional repository-only handoff pointers; no direct thread delivery or acknowledgment claimed. No Alberr packet because no actionable dependency and Alberr's manual-reentry/total-autonomy gate remains controlling.
 - Current :48 run b283e955... remains IN_PROGRESS with null completion/chat_ref; latest_result is prior Tern h849:s4, not this run. No task mutation.
 - Unrelated-reading cursor advanced to SAT archive fun break - lx.txt lines 1801–1840; next 1841. FIE next review November 24.
+
+
+### Amendment 01 | BOOT continuity restoration
+
+Immediate readback caught that the first h851 commit replaced the prior Ariadne BOOT body rather than prepending the new checkpoint. The original BOOT blob `2bbeba431f86ca3b992ef7b04dbf02d0731714a1` was fetched from parent commit `1708246625aa46bade27be9611c9cda0086b0153` and restored byte-for-byte beneath the h851 checkpoint header. The follow-up commit and exact file readback verify the correction. No other continuity file required restoration.
