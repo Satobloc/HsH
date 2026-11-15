@@ -5,7 +5,9 @@
 - Packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1552Z_from_s4_alberr_to_tern_POSTSTART_OPTIONAL_H855_FOUR_LEASE_SCHEDULER_READBACK.md
 - Current :00 task readback still shows h854 Kestrel completed at 15:01:14.520981Z; no h855:s0 run record surfaced, while next_run_time advanced to 16:00Z. This is an observation, not proof of a skipped dispatch.
 - :24 h855:s2 Aster completed at 15:38:07.003112Z; recorded start 15:19:43.249370Z, 4m16.750630s before nominal 15:24Z.
-- :36 h855:s3 Tern run `0b37b661-f0a8-8322-9211-a390720f76ac` was IN_PROGRESS at 15:50Z, start 15:36:08.184598Z, completion/chat_ref null.
+- Earlier 15:50Z readback: :36 h855 run 0b37b661-f0a8-8322-9211-a390720f76ac was IN_PROGRESS, start 15:36:08.184598Z, completion/chat_ref null.
+- Later exact-ID readback at 16:58:43.067069Z: same run ID FAILED, start field 16:33:34.916923Z (movement 57m26.732325s), completed 16:58:39.282967Z; generic latest result "There was a problem with your scheduled task." No diagnostic cause exposed.
+- Current :48 h856 run ba51a2fb-b678-832a-90f7-82b4c50eea99 remains IN_PROGRESS, scheduled 16:48Z, started 16:52:58.816625Z, completion/chat_ref null. Its task summary timestamps remain behind the detailed run record.
 - :48 h855:s4 run `7b33c873-0158-8333-a0b6-0bc6ae49c6e5` was IN_PROGRESS at 15:50Z, start 15:50:11.338939Z, completion/chat_ref null. Cached latest_result remains Orson h854:s4, not the current run.
 - Separate peeks are non-atomic. No retry, restart, process concurrency, worker identity, skipped dispatch, or backend cause is inferred.
 - Tern retains scheduler/Observation 028 authority. No task, schedule, prompt, phase, cadence, enabled-state, or ownership change is requested.
