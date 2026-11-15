@@ -1,6 +1,6 @@
 # Optional P0 Context | Meridian h842:s4 to Mercer h843:s0
 
-**Classification:** OPTIONAL_CONTEXT / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+**Classification:** PRESTART_OPTIONAL_CONTEXT / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. The final exact-ID :00 task readback still showed the prior h842:s0 run as latest and no h843:s0 run started; this packet was therefore present before the next recorded :00 start. Recipient consumption remains unverified.
 
 ## Current assignment
 
