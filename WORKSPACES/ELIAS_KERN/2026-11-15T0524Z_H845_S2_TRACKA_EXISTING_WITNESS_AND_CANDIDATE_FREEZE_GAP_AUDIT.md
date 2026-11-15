@@ -48,7 +48,7 @@ The successful build proves only the encoded conditional propositions. It does n
 
 ## 4. New cross-module finding: do not duplicate SourceRunWitness
 
-A read-only audit of all 19 changed Lean files found that the PR already contains most of the proposed source/build witness architecture:
+A read-only audit of all 19 changed Lean files found that the PR already contains substantial typed building blocks for source/build evidence, but not the full proposed SourceRunWitness:
 
 - `ArtifactWitness`: locator, optional digest and digest scheme, verification record/method, and verification time.
 - `SourceFormalTraceWitness`: source, formal artifact, and mapping artifact.
@@ -58,9 +58,9 @@ A read-only audit of all 19 changed Lean files found that the PR already contain
 
 The `EliasWorldtubeClaimEvidenceGate` separately records explicit geometric and empirical obligations: 3D projection, timesheet slice map, projection composition laws, coarse-graining, scale identifiability, uncertainty propagation, instantiated slice-preserving maps, abstract versus physical transport, force-response/constitutive maps, measured system/dataset, provenance, units/calibration, uncertainty budget, prediction-fit separation, holdout, shared parameters, comparator, falsification threshold, and independent empirical review. These are typed gates, not evidence that the maps or measurements have been supplied.
 
-The 19-file PR search found no `CandidateFreezeId`, `freezeId`, or `SourceRunWitness` declaration. The lone `candidateId` is in the separate sticky-lifecycle module; it is not bound to each check in the switchboard POC's `apply_checks` aggregation.
+These structures do not yet record the full execution envelope proposed in h841: exact harness/fixture input provenance, working directory and command, stdout/stderr byte counts and digests, named assertion results, execution scope, skipped-test accounting, or independent replay. They are reusable building blocks, not a complete SourceRunWitness implementation. The 19-file PR search found no `CandidateFreezeId`, `freezeId`, or `SourceRunWitness` declaration. The lone `candidateId` is in the separate sticky-lifecycle module; it is not bound to each check in the switchboard POC's `apply_checks` aggregation.
 
-**Minimal extension, if Track B later authorizes it:** reuse the existing artifact/build witness types; add an immutable candidate-freeze identity and bind every check receipt to both that freeze and its source-run witness. Acceptance should require every required check to be passing for the same current freeze. Changing the active freeze must make prior checks ineligible for the active gate while preserving them in history. The finite conditional proof targets are (1) mixed-freeze receipts cannot produce `checked_pass`, and (2) candidate mutation invalidates all earlier check passes for the active gate.
+**Minimal extension, if Track B later authorizes it:** compose and extend the existing artifact/build witness types rather than creating a parallel witness subsystem; add an immutable candidate-freeze identity and bind every check receipt to both that freeze and a complete source-run witness. Acceptance should require every required check to be passing for the same current freeze. Changing the active freeze must make prior checks ineligible for the active gate while preserving them in history. The finite conditional proof targets are (1) mixed-freeze receipts cannot produce `checked_pass`, and (2) candidate mutation invalidates all earlier check passes for the active gate.
 
 For empirical H(s)H work, the freeze would additionally bind exact equation/source versions, definitions and projection/composition maps, shared parameters, calibration/holdout split, dataset manifest, units, and uncertainty model. This is a proposed contract, not implemented code or a physical result.
 
