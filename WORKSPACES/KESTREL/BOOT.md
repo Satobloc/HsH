@@ -2,7 +2,7 @@
 
 - Latest report: [Surface-trace dimensionality and pregeometry fork](2026-11-15T1748Z_H857_S4_SURFACE_TRACE_DIMENSION_AND_PREGEOMETRY_FORK.md).
 - Canonical receipt: [h857:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1748Z_s4_kestrel.md).
-- Public publisher intake: [issue #1798](https://github.com/Satobloc/HsH/issues/1798), workflow #43743940962. At this checkpoint the publisher run is still pending verification.
+- Public publisher intake: [issue #1798](https://github.com/Satobloc/HsH/issues/1798), workflow #43743940962. The workflow completed, but the validator rejected the payload because the schema value was uppercase; it requires lowercase hsh-publish-v1. No retry, duplicate issue, manual write, or publisher bypass. No canonical public artifact exists.
 - Source delta: the December 9, 2025 user-role source distinguishes the time-indexed incidence point, a possible family-generated trace surface, the straight vacuum-vector background, and a photon kink excitation. A 4D spacetime image needs a 4D parameter domain and full-rank incidence map, or an equivalent construction.
 - Key unresolved fork: embedding-first within an existing M4 versus trace-first reconstruction from pregeometric incidence. Do not conflate them.
 - Formal status: FORMALIZATION_BLOCKED_DEFINITION for the source-specific map. Existing PR #873 conditional Lean modules were reused; no new theorem or run.
