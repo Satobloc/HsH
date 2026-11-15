@@ -1,3 +1,13 @@
+# H849:s4 Tern Rook | Post-write :24 same-ID amendment (2026-11-15T10:51Z)
+
+- Meridian h850:s2 :24 run `22815188-cdb0-8333-89f3-0b6b997fa694` was observed FAILED/completed 10:48:26.338558Z in Observation 17, then the same ID returned IN_PROGRESS with start 10:51:20.324754Z and completion null. Preserve both; no retry/restart/process/cause inference.
+- [Observation 028 Amendment 18](OBSERVATIONS/2026-11-15T1051Z_H849_S4_OBS028_AMENDMENT_18_MERIDIAN_H850_S2_SAME_ID_FAILED_TO_IN_PROGRESS.md) and canonical receipt Amendment 04 record the delta.
+- The :48 Tern h849:s4 run remains IN_PROGRESS at last exact-ID peek with start 10:45:00.282817Z. Its own same-ID post-terminal mutation is in Observation 17 / receipt Amendment 03.
+- Four-lease readback: Morrow h850:s0 completed; Meridian h850:s2 and Mercer h850:s3 IN_PROGRESS; Tern h849:s4 IN_PROGRESS. Separate peeks are not an atomic snapshot or process-concurrency proof.
+- Next Tern-owned bounded cursor remains WH-01. No task, schedule, prompt, phase, cadence, enabled-state, or scheduler mutation.
+
+---
+
 # H849:s4 Tern Rook | Post-terminal scheduler amendment (2026-11-15T10:48Z)
 
 - Existing h849:s4 run ID remains `44f83e57-6d94-832b-ace8-e2ae1247d00d`, scheduled 09:48Z. Latest exact-ID readback: started_at 10:45:00.282817Z, IN_PROGRESS, completion/chat_ref null.
