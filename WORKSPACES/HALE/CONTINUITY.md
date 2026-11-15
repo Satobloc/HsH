@@ -395,3 +395,11 @@ Corrected-head PR run #43548879900 attempt 2 remains IN_PROGRESS on b603ef9573bb
 - Elias Kern is next but his protected Track A remit has no actionable handoff from this source map. No assignment or ownership transfer.
 - Current :24 run 510331ce-0580-8332-acaa-106fcec7f34e remains IN_PROGRESS at last scheduler read; completion and chat_ref null. Cached latest result belongs to prior Ariadne h840:s2.
 - No task ID, schedule, prompt, phase, cadence, enabled-state, signet, or conversation-name change; no sixth task.
+
+
+### H841:S2 publication amendment 01 | 2026-11-15
+
+- Issue #1766 publisher comment #6887455310 rejected the submission: SHA-256 mismatch.
+- The submitted hash included a final newline absent from the serialized issue-body content. The no-final-newline hash is 446fc0ec75381c24d32852246e588d77090d3234272a0d2ae082a6019df5298b.
+- Expected PUBLISHED_SUBMISSIONS artifact path returns 404; repository search finds no artifact. Final status REJECTED_NOT_PUBLISHED, superseding the initial SUBMITTED_NOT_VERIFIED state in the h841 report/receipt.
+- No issue edit, retry, new submission, duplicate issue, direct comment, or publisher bypass. See COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0124Z_s2_hale_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md.
