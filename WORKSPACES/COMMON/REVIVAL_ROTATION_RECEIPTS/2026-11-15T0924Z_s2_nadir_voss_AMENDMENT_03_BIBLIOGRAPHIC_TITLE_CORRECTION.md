@@ -31,3 +31,13 @@ No new physical calculation, fit, prediction, P2 admission, Lean theorem, or the
 The raw October 1 Nadir source authorizes a broad independent sandbox but contains no occurrence of the label “Nadir Voss”; the workspace/ring name is assistant-derived. No standalone signed Nadir specialist charter or authenticated current Nadir thread was recovered. This correction is an assistant-level source/provenance repair, not a claim of Nadir-instance participation or cross-thread delivery.
 
 No scheduler configuration, task ID, schedule, phase, prompt or enabled state was changed.
+
+
+## Successor routing | h849:s3 | Enheduanna | repository-only optional context
+
+- Recipient run key: `REVROT3-19-20261011:849:s3`; ring label Enheduanna, not authenticated worker/thread identity.
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0958Z_from_s2_to_s3_enheduanna_POSTSTART_OPTIONAL_NADIR_BIBLIOGRAPHIC_CORRECTION.md`.
+- Inbox ID: `RELAY-H849S2-ENH-20261115T0958Z-001`.
+- Start state: `UNOBSERVED`; the nominal successor slot time had passed when this packet was prepared, but no exact-ID successor run readback was available. Do not label PRESTART or POSTSTART without evidence.
+- Delivery: repository inbox only, independently read back. No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension claimed.
+- Scope: optional bibliographic/source-lineage correction only; no task, review request, deadline, response obligation, priority override, or ownership transfer.
