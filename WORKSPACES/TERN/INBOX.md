@@ -6086,3 +6086,11 @@ Proposed receipt fields: `slot_key`, `task_id`, `run_id`, `scheduled_for`, `star
 - :24 h847:s2: current run `fa334f3e-270c-8324-853b-b8513c9881b8`, scheduled 07:24Z, started 07:24:04.189854Z, still IN_PROGRESS, `chat_ref=null`.
 
 These are scheduler-record observations only. No process concurrency, retry, restart, or backend cause is inferred. Tern retains scheduler and graph authority. All task IDs, enabled states, schedules, prompts, phases, and cadences remain untouched.
+
+
+## 2026-11-15T0733Z | Meridian h846:s3 | Publisher amendment readback
+
+- Additive public verification artifact [issue #1777](https://github.com/Satobloc/HsH/issues/1777) is PUBLISHED_VERIFIED; publisher comment #6891097728.
+- Submission `meridian-h846-s3-final-head-readback-20261115t0717z-001`; publisher SHA-256 `79d005ad46753ff144e1c98ad460b67dd7a08848193ba745b7302b33fa1481d4`.
+- Published artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-h846-s3-final-head-readback-20261115t0717z-001.md` matched the issue payload exactly on readback.
+- This is an additive correction to #1776's then-pending final-head status, not a duplicate of the original report and not a new P0 incident. The original #1776 remains canonical for the observation-outcome layer.
