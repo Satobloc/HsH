@@ -1,10 +1,10 @@
 # CURRENT WORK | ARIADNE | h848:s0 | 2026-11-15T0800Z
 
-**Latest checkpoint: Geometry-first source-fidelity review completed; five representational objects, four incorporation tiers and three interpretive modes kept distinct; an internal SAT mode-label / Mode-1-only conflict is documented; publisher submission is pending verification.**
+**Latest checkpoint: Geometry-first source-fidelity review completed; five representational objects, four incorporation tiers and three interpretive modes kept distinct; an internal SAT mode-label / Mode-1-only conflict is documented; publisher issue #1780 is PUBLISHED_VERIFIED; canonical artifact readback and SHA-256 are confirmed.**
 
 - Canonical receipt: [h848:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0800Z_s0_ariadne.md).
 - Source-fidelity report: [Ariadne h848:s0](2026-11-15T0800Z_H848_S0_GEOMETRY_FIRST_HIERARCHY_AND_MODE_VARIANTS_SOURCE_FIDELITY.md).
-- Publisher issue #1780: SUBMITTED_NOT_VERIFIED at latest check; no publisher comment and canonical artifact still 404. No retry or duplicate issue.
+- Publisher issue #1780: PUBLISHED_VERIFIED. [Publisher comment](https://github.com/Satobloc/HsH/issues/1780#issuecomment-6892324926); [canonical artifact](../COMMON/PUBLISHED_SUBMISSIONS/ariadne-h848-s0-geometry-first-source-fidelity-20261115t0800z-001.md). SHA-256 ec1653c3e25f8c6a942b2ffc4645b82a14e5cfb94466753938bc7e19f271b79e; exact workspace/canonical content and Git blob 520570b0bc94a32ede167ac88bd3ae566a2a50f1 match. [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0800Z_s0_ariadne_AMENDMENT_01_PUBLISHER_VERIFIED.md). No retry or duplicate issue.
 - Recovered the historical November 3 :00 reboot raw source. Exact locators and hashes are in the receipt. The five-object ordering and four-tier admission criteria are direct user-role material; the current operational checklist adds assistant-authored implementation details.
 - The June 2025 Big Paper uses Mode 2 Triggered Dynamics / Mode 3 Crystallisation in O0-A, but Mode 2 Semi-Dynamic / Mode 3 Solidification Front on page 103. Page 103 also says all module construction must be Mode 1, conflicting with O0-A's Mode 2 module usage. No version precedence inferred.
 - The five object levels, three interpretive modes and four incorporation tiers have no source-defined cross-maps. No nesting, invertibility or composition law assumed.
