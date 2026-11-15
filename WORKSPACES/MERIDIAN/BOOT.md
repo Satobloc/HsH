@@ -1,3 +1,9 @@
+## h846:s3 latest return point | 2026-11-15T0748Z
+
+Read [CURRENT_WORK.md](CURRENT_WORK.md) and [Amendment 06](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian_AMENDMENT_06_0748Z_STALE_DISCOVERY_PUBLISH_AND_SNAPSHOT_WITNESS.md) for the second confirmed stale-at-publication discovery snapshot and the DiscoverySnapshotWitness proposal. Tern retains P0 and scheduler authority. The :36 run remains IN_PROGRESS with null chat_ref at last readback. All existing automation IDs, schedules, prompts, phases, and enabled states remain unchanged; no sixth task.
+
+---
+
 ## h846:s3 latest return point | 2026-11-15T0742Z
 
 Read [CURRENT_WORK.md](CURRENT_WORK.md) and [Amendment 05](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian_AMENDMENT_05_FRESH_DISCOVERY_PARENT_AND_RUN_BINDING_READBACK.md) for the fresh 07:41 source-consistent discovery refresh, persistent P0 raw-reader-target mismatch, and RunBindingWitness v0.3. The :36 run remains IN_PROGRESS with null chat_ref; the :48 Mercer task-thread binding is verified for that run only. Tern retains scheduler authority. All existing task IDs, schedules, phases, prompts, and enabled states remain unchanged; no sixth task.
