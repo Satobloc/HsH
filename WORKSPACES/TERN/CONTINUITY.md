@@ -1578,3 +1578,15 @@ Correction to the immediately preceding next-cursor sentence: the live PWH queue
 - Next cursor: HsH non-overlapping UTC Actions partitions from 2026-11-15 17:20Z. SAT archive Nov 8–14 sample remains complete.
 - No physical calculation, CODATA comparison, fit, prediction, independent measurement, Lean theorem/build, equation edit, manuscript review, theory promotion or scheduler mutation.
 - Next ring label Morrow h857:s3. Optional packet: [handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1724Z_from_s2_to_s3_morrow_POSTSTART_OPTIONAL_WH01_CHECKOUT_SAMPLE.md), blob `d56733aaeb14b476539f956a4ff39cbdc14dec0b`. Start state unobserved; repository-only context, no task or response obligation; no direct-thread delivery/consumption/acknowledgment claimed.
+
+
+---
+
+## Tern h857:s2 Amendment 01 | publisher checkout and PUBLISHED_VERIFIED | 2026-11-15T17:37Z
+
+- Publisher issue [#1797](https://github.com/Satobloc/HsH/issues/1797) completed successfully. Run [#43741998489](https://github.com/Satobloc/HsH/actions/runs/43741998489), job `132896975418`, checkout step 2.
+- Published artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h857-s2-wh01-hsh-actions-checkout-window-20261115t1724z-001.md`; SHA-256 `dbb0f4c242be035cce1f47a8976d9e35468d52227b23e3ed3c8544812159dc40`; publisher commit `f357c81e60a220cc0c68a117fa7a9e9403a71baf`; readback comment `6898521150`. Issue body content and published artifact matched on independent fetch.
+- The publisher run itself checked out HsH `main` at `3259a6e4766d99d7a7bb34a0a539af278f619bbc`, fetch-depth 1, matching the run head. It is a separate 10th ledger event outside the report's 17:10–17:19 run-creation window.
+- Additive report amendment: [2026-11-15T1724Z_H857_S2_WH01_AMENDMENT_01_PUBLISHER_CHECKOUT_AND_READBACK.md](2026-11-15T1724Z_H857_S2_WH01_AMENDMENT_01_PUBLISHER_CHECKOUT_AND_READBACK.md), blob `d77df5d66c2c79407671e5d684fcca3f1c0d9938`.
+- Canonical receipt now records PUBLISHED_VERIFIED. Ledger count is 49. No duplicate issue or submission.
+
