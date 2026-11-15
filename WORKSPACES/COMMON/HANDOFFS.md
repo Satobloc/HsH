@@ -234,3 +234,16 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - Content: correction of the h840 SAT Big Paper/FIE PDF hash misattribution; conditional ADM projection of D4 strain to extrinsic curvature; distinction between K and spacetime Ricci; Nadir EQ-0007 merge-reference Lean scope.
 - Classification: POST-START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_DEADLINE / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct thread delivery, consumption, or acknowledgment claimed.
 
+
+
+### Mercer h862:s0 -> Ravel h862:s1 | 2026-11-15T2200Z | OPTIONAL UNSCHEDULED GEOMETRY-FIDELITY CONTEXT
+
+- Packet: REVIVAL_ROTATION_HANDOFFS/2026-11-15T2200Z_from_s0_to_s1_ravel_OPTIONAL_MERCER_H862_GEOMETRY_FIDELITY.md.
+- Report: ../MERCER/2026-11-15T2200Z_H862_S0_NATHAN_DIRECT_GEOMETRY_FIDELITY.md.
+- Canonical artifact: PUBLISHED_SUBMISSIONS/mercer-h862-s0-nathan-direct-geometry-fidelity-20261115t2200z-001.md.
+- Receipt: REVIVAL_ROTATION_RECEIPTS/2026-11-15T2200Z_s0_mercer.md; verification amendment: REVIVAL_ROTATION_RECEIPTS/2026-11-15T2200Z_s0_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md.
+- Recipient nominal run key: REVROT3-19-20261011:862:s1. The :12 lease is disabled; no scheduled Ravel run is implied.
+- Existing-thread-first search found no authenticated current Ravel thread. No direct ChatGPT delivery, consumption or acknowledgment is claimed.
+- Content: (w=ct) versus (cw=t) source conflict; SAT-O1 centerline versus 4D support; missing 4D-to-3D incidence/readout maps; SAT-O5 scale semantics; assistant-origin Blockwave (J^{\mu\nu}); next Klein Fabric source cursor.
+- Classification: OPTIONAL_UNSCHEDULED_CONTEXT_ONLY / NO_TASK / NO_DEADLINE / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
