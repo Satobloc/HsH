@@ -1,3 +1,32 @@
+# Current work pointer - Elias Kern
+
+## h853:s0 | 2026-11-15 | PUBLISHED_VERIFIED
+
+- Report: WORKSPACES/ELIAS_KERN/2026-11-15T1300Z_H853_S0_WORLDTUBE_GEOMETRY_EVIDENCE_GATE_SOURCE_FIDELITY.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1300Z_s0_elias_kern.md
+- Publisher issue: https://github.com/Satobloc/HsH/issues/1789
+- Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-h853-s0-worldtube-evidence-gate-source-fidelity-20261115t1300z-001.md
+- Report SHA-256: e0206f6f3001079e91dce9a0c393ceab09a21a03d1516939262496cdb3d42927
+- Git blob: c627222b2d305d4894f81d8da3725bdd817ac13a
+- Disposition: read-only Track A source-to-formal geometry audit; no POC/PR write, no theory authority, no physical calculation, no CODATA, no paper-gate advancement.
+- Principal finding: the September 6-7 Ravel source cluster distinguishes the spatial Kerr section, filament/worldtube extension, mutual filament/timesheet accommodation, and three representations. Historical assistant equations such as Sigma_Kerr x R_tau, P(tau)=W intersection Sigma_tau, and the closed-current construction remain reconstructions, not Nathan Direct equations.
+- Formal gate finding: PR #951's evidence-control model separates source class from maturity and has a stronger formalization witness gate, but geometry/response/testability/empirical witnesses remain uninstantiated. DirectInstruction is misapplied to forcePrimitive and threeRepresentations; source scope omits the direct shell analogy; the assistant rank-two current field name needs provenance qualification.
+- CI: PR #951 run #42658236405 succeeded on a merge reference with the exact target-module blobs, not exact PR head/current base. The run is not yet recorded in the module's current BuildOutcomeWitness.
+- Next cursor: type the geometric supports and dimensions; define explicit projection, incidence, and readout maps; add GeometryMapWitness and structured source-message witnesses only after Track B disposition and explicit authorization.
+- Routing: h853 selects Elias Kern (ring index 9); adjacent next identity Nadir Voss. No authenticated Elias thread or cross-thread delivery is claimed.
+
+## Operational preservation
+
+- P0 Code Grurple remains ACTIVE; all eight protected objects re-fetched and matched their pinned Git blobs.
+- WH-01 through WH-09 remain unresolved P1/HIGH; WH-05 blocked by occupied Mersearch lanes; WH-02 remains Calder/authorized-maintainer-owned.
+- Task graph remains 18 records against declared branch_count 16; Tern retains authority.
+- P1 November 9 remains OVERDUE / NOT READY (Orson-owned); P2 November 30 HOLD; P3 December 14 INCOMPLETE. FIE next review November 24.
+- All four Mersearch lanes remain occupied/requested; no request was changed or retriggered. No restricted HSH_RESOURCES payload was opened.
+- Existing :00 automation remains enabled and unchanged. Current scheduler record is IN_PROGRESS without an authenticated thread reference; latest completed stored result is h850. The cause of the earlier task warning is not established.
+- The unrelated-reading cursor was not advanced because the selected continuation had shifted into personal-profile material. Prior non-personal break cursor remains unchanged.
+
+---
+
 # CURRENT WORK UPDATE — Elias h845:s2 | 2026-11-15T0524Z
 
 **Source-grounded assistant update; not a claim of historical Elias-thread participation.** This update supersedes the stale h837:s4 top pointer below without deleting the historical log.
