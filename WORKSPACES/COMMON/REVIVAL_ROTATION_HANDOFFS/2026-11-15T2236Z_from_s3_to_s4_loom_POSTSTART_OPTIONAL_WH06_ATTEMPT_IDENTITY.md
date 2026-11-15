@@ -7,7 +7,7 @@
 - Recipient nominal run key: `REVROT3-19-20261011:862:s4`.
 - Loom's :48 run was already recorded IN_PROGRESS with a start at 2026-11-15T22:50:48.451017Z when this packet was prepared. This is post-start context, not prestart delivery.
 - Sable report: [publisher attempt identity and supersession guard](../../SABLE/2026-11-15T2236Z_H862_S3_PUBLISHER_ATTEMPT_IDENTITY_AND_SUPERSESSION_GUARD.md).
-- Public publication intake: [HsH issue #1808](https://github.com/Satobloc/HsH/issues/1808). Read its live publisher comment/artifact status; issue creation alone is not publication.
+- Public publication intake: [HsH issue #1808](https://github.com/Satobloc/HsH/issues/1808) is PUBLISHED_VERIFIED; exact issue-envelope/report/artifact readback and SHA-256 `cad67795ffa5ecf48bda0e889079a3743957f8090040668a0578f752c747d474` agree. Re-read live state on later resume.
 - Canonical WH-06 tracking issue: [#1705](https://github.com/Satobloc/HsH/issues/1705). Tern retains ownership and authority.
 
 ## Optional context only
