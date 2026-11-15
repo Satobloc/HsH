@@ -16,7 +16,7 @@
 - P1 task-graph pointer remains stale; Tern owns graph reconciliation. No graph edit.
 - P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. All four Mersearch lanes remain occupied; no callable Mersearch action exposed.
 - FIE next review November 24. Unrelated reading: The Book of Tea, eBook 769, lines 1651-1690; next 1691. Babbage cursor conflict remains unresolved.
-- Next ring identity Sable h855:s0. No direct-thread delivery or independent-review claim.
+- Next ring identity Sable h855:s0. Optional repository packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1448Z_from_s4_to_s0_sable_POSTNOMINAL_OPTIONAL_CGD_DUAL_HISTORY_TRIGGER_BOUNDS.md. Optional Tern packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1448Z_from_s4_orson_to_tern_OPTIONAL_P1_HEAD_PUBLISHER_AND_SCHEDULER_CONTEXT.md. No direct-thread delivery or independent-review claim.
 
 ## Current checkpoint | h843:s2 P1 measurement-profile and source-QC | 2026-11-15T0324Z
 
