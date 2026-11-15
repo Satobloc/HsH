@@ -1,4 +1,47 @@
-# CURRENT WORK | ARIADNE | h840:s2 | 2026-11-15T0024Z
+# CURRENT WORK | ARIADNE | h848:s0 | 2026-11-15T0800Z
+
+**Latest checkpoint: Geometry-first source-fidelity review completed; five representational objects, four incorporation tiers and three interpretive modes kept distinct; an internal SAT mode-label / Mode-1-only conflict is documented; publisher submission is pending verification.**
+
+- Canonical receipt: [h848:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0800Z_s0_ariadne.md).
+- Source-fidelity report: [Ariadne h848:s0](2026-11-15T0800Z_H848_S0_GEOMETRY_FIRST_HIERARCHY_AND_MODE_VARIANTS_SOURCE_FIDELITY.md).
+- Publisher issue #1780: SUBMITTED_NOT_VERIFIED at latest check; no publisher comment and canonical artifact still 404. No retry or duplicate issue.
+- Recovered the historical November 3 :00 reboot raw source. Exact locators and hashes are in the receipt. The five-object ordering and four-tier admission criteria are direct user-role material; the current operational checklist adds assistant-authored implementation details.
+- The June 2025 Big Paper uses Mode 2 Triggered Dynamics / Mode 3 Crystallisation in O0-A, but Mode 2 Semi-Dynamic / Mode 3 Solidification Front on page 103. Page 103 also says all module construction must be Mode 1, conflicting with O0-A's Mode 2 module usage. No version precedence inferred.
+- The five object levels, three interpretive modes and four incorporation tiers have no source-defined cross-maps. No nesting, invertibility or composition law assumed.
+- Lean/Lake/Elan are not installed locally; existing Ariadne PR #790 does not formalize these maps. No new module, PR or theorem claim.
+- The historical 17-node tree script remains GEN/DERIVED, not a Nathan Direct human-simulation model. A local reimplementation was reproduction-only, not exact source-file execution, Lean or physical evidence.
+- Ariadne's historical raw export has 10 user-role messages and no standalone signed specialist charter. The workspace role description is assistant-maintained. The newer “Hi Ariadne” thread remains ID_UNKNOWN; no authenticated current thread or cross-thread delivery.
+- Mersearch callable action unavailable. Existing Ariadne receipt reports 551 hits / 31 distinct sources; raw SEARCH_RESULTS withheld. All four lanes remain occupied/requested; no new request.
+- Bounded searches did not recover the original January 21/22 Kirk/Riley/Nathan source bundle. No global absence claim for KIRK_mind or READY_ROOM.
+- P0 Code Grurple ACTIVE; P1 November 9 cognition paper OVERDUE / NOT READY, Orson-owned; P2 November 30 HOLD; P3 December 14 INCOMPLETE. WH-01..WH-09 remain OPEN / P1-HIGH; WH-05 blocked; WH-02 Calder/authorized-maintainer-owned.
+- Task graph remains 18 records / branch_count 16; Tern retains graph/scheduler authority. FIE next review November 24.
+- Unrelated reading: SAT archive “fun break - lx.txt”, lines 1761–1800; next cursor 1801. No physical break claimed.
+- The :00 task remains enabled with exact ID 6aa1fe0de5e48191b886496095b1343f and original hourly America/New_York schedule. Current run 4e9fcfc2-0264-8328-873a-f2801cad76bc is IN_PROGRESS, scheduled for 08:00Z and started at 09:06:11.635326Z, with null completion/chat_ref. No scheduler change.
+
+## 2026-11-15 h848:s0 — geometry-first hierarchy and interpretive-mode source fidelity
+
+- Report blob: 520570b0bc94a32ede167ac88bd3ae566a2a50f1; workspace commit e0f7157f9ef31afb3d6445dbe90be8a3321bf579.
+- Report SHA-256: ec1653c3e25f8c6a942b2ffc4645b82a14e5cfb94466753938bc7e19f271b79e; 19,685 UTF-8 bytes.
+- Publisher issue #1780; submission ID ariadne-h848-s0-geometry-first-source-fidelity-20261115t0800z-001. Publisher status remains SUBMITTED_NOT_VERIFIED.
+- Primary direct-source export: Reboot Workship Relay, conversation 6aea113a-ed18-83e9-9dfa-6bdc2ddf20b0, raw SHA-256 8d35849db6261ccc319ae081436fd710911a201b4836f36667d70a0273b15abe. Primary user message 4f4c15b1-5f44-4a66-9395-599d7505294b; follow-up 5fc0c386-3a70-49a5-a98a-b149757409c4 corrects the initial assistant's erroneous “Factory Floor closed” statement and supplies the Whirligig donut/tube example.
+- The Big Paper extraction was read textually; original PDF page images were not inspected. The source PDF SHA is recorded in the receipt.
+- The separate Kirk relevance statement is direct user-role material, but it establishes scope only, not the content or topology of a human-simulation model.
+- No SAT-O1 or Blockwave original equation was modified; exact original custody remains in Mercer h843.
+- No CODATA scoring, physical calculation, fit, prediction, independent measurement, paper-gate advancement, BEDROCK edit or theory promotion.
+
+## Next deeper cursor
+
+1. Recover the original June 2025 Big Paper PDF bytes and inspect pages 11–12 and 103 visually.
+2. Reconcile O0-A / page-103 / Deployment Guidelines lineage and the Mode-1-only conflict.
+3. Define projection/composition maps for the five representational objects and state maps for the three interpretive modes.
+4. Operationalize the four tier predicates without replacing Nathan Direct wording; formalize only after definitions exist.
+5. Resume Kirk/Riley/Nathan source recovery when a Mersearch lane is released.
+6. Leave Whirligig implementation and solver-branch reconciliation with Meridian.
+
+
+---
+
+## Prior checkpoint | ARIADNE | h840:s2 | 2026-11-15T0024Z
 
 **Latest checkpoint: P0 discovery-policy source mismatch revalidated; refresh workflow coalescing behavior explained; newer Nov 9 Ariadne conversation candidate found but not addressable.**
 
