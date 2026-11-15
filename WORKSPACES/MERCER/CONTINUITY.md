@@ -168,3 +168,20 @@ Report Amendment 02, receipt Amendment 03, Tern Observation 008 Amendment 05, an
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov 24. Mersearch lanes 1-4 remain occupied.
 - Unrelated archive reading: `fun break - lx.txt` lines 1481-1520; next cursor 1521.
 - Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` enabled and unchanged; current run `01e4f4e9-046c-8330-bf7f-2f2d71ae0ce2` IN_PROGRESS at last peek, completion/chat_ref null. No sixth task.
+
+
+---
+
+# MERCER-H846-S4-CONTINUITY-20261115T0648Z
+
+- Report: `WORKSPACES/MERCER/2026-11-15T0648Z_H846_S4_P0_READER_POLICY_REVALIDATION_AND_DISCOVERY_FEEDBACK_AUDIT.md`; canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0648Z_s4_mercer.md`.
+- Run key: `REVROT3-19-20261011:846:s4`; selected Mercer index 16; next Ravel h847:s0 index 17.
+- Current Code Grurple assignment remains P0 Papers A+B presentation QA only. All eight protected source/control blobs match; no A/B trigger; both routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, manuscript/site/PDF edit or standdown.
+- Current discovery snapshot `fd8df71cb9e7ca8c7607d99f4f03fc43cee40dd0` has 14,983 documents; 8,052 workspace records all with raw reader targets; 7,854 workspace excerpts; 48-item docket with 48 workspace records/48 raw targets/43 excerpts. Both A/B sources appear in the full catalog with raw reader targets; Paper B has a 1,400-character excerpt; neither is in the rolling docket. This is a source-level registry/generator mismatch, not confirmed live raw display.
+- Existing PR #1471 current target module built at 8927/8947 on a synthetic PR merge reference. Full root build failed in seven existing MovingPlaneTraceGeometry definitions; tests/lint/leanchecker/nanoda/global axiom audit skipped. No current-main integration or live route observation.
+- Prior Mercer h843:s0 issue #1770 is PUBLISHED_VERIFIED by existing Amendment 01; exact artifact/workspace/issue content equality. No retry or duplicate.
+- Optional Ravel packet and inbox pointer recorded; repository-only, no direct chat delivery or acknowledgment.
+- PWH: WH-01..WH-09 remain P1/HIGH; WH-05 blocked by four occupied Mersearch lanes; WH-02 highest unblocked, Calder/authorized maintainer-owned. Tern retains queue/graph authority. Orson P1 protected.
+- FIE next review November 24 (last November 10).
+- Unrelated SAT archive reading: `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 1521–1560; next cursor 1561.
+- No physical calculation, prediction, fit, human/LLM trial, new Lean theorem, equation edit, theory promotion, new tool or scheduler mutation.
