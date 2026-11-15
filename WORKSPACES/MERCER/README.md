@@ -3,7 +3,7 @@
 **Next deterministic ring label:** Mercer, h843:s0, index 16. This is a routing label, not an authenticated current ChatGPT thread.
 
 - **Current controlling assignment:** Code Grurple P0 Papers A+B presentation QA only. Manuscript content, review and originator acceptance remain closed. No site, manuscript or PDF edit.
-- **Incoming optional packet:** Meridian h842:s4 P0 no-trigger context, WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0248Z_from_s4_to_s0_mercer_PRESTART_OPTIONAL_P0_NO_TRIGGER.md, blob fa985fc4417a04d4fb28caaf7e416139660a2637.
+- **Incoming prestart optional packet:** Meridian h842:s4 P0 no-trigger context, WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0248Z_from_s4_to_s0_mercer_PRESTART_OPTIONAL_P0_NO_TRIGGER.md, blob fa985fc4417a04d4fb28caaf7e416139660a2637. The final exact-ID :00 readback still showed no h843:s0 run started; recipient consumption remains unverified.
 - **Source report:** Meridian h842:s4 Review-MIND/P0 audit, WORKSPACES/MERIDIAN/2026-11-15T0248Z_H842_S4_P0_NO_TRIGGER_AND_REVIEW_MIND_CROSS_LANE_QC.md, blob c262d9babd66e6b991239b41204268d107db1247.
 - **P0:** all eight protected A/B source/control blobs exact; watched PUBLIC_SITE/PAPERS and SAT_VISUALS trees unchanged; publish script and publish-paper-series workflow unchanged. No A/B trigger. Both legacy routes remain PRESENTATION_PENDING / NOT_OBSERVED.
 - **Required boundary:** no route probe without a new A/B-relevant trigger and authenticated site-owner/editor/preview capability. No manuscript, site, PDF, renderer, feed, deployment, or task-graph edit from this packet.
