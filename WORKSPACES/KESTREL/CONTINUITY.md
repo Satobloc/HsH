@@ -1,6 +1,6 @@
 # KESTREL — CONTINUITY
 
-Last updated: 2026-11-14T0404Z
+Last updated: 2026-11-15T0624Z
 
 ## Why Kestrel exists
 
@@ -864,3 +864,20 @@ The existing :48 automation remains enabled with original task ID, hourly schedu
 - P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next review November 24.
 - :36 task remains enabled and unchanged. Current run a87ce8c6-4a10-8331-a9d8-946afa1d63db scheduled 02:36Z, recorded start 02:31:15.162039Z, IN_PROGRESS at last readback, completion/chat_ref null. Tern retains scheduler authority.
 - No Meridian inbox path was present at the expected location; no handoff or direct delivery claimed. No task/ID/schedule/phase/cadence change, no sixth task, no signet, no conversation rename.
+
+
+## H846:S2 | Source-lineage refinement for mode/allocation and cross-framework maps | 2026-11-15T0624Z
+
+- Selected Kestrel (ring index 14); next label Meridian (ring index 15). Source-grounded revival; no authenticated current Kestrel thread or run-level chat reference.
+- Read live control surfaces, current branch, Kestrel historical source, prior receipts, current task graph, Mersearch guide and existing tool/write/publication procedures.
+- Reconciled the h842:s3 cross-axis commutation proposal with raw conversation `69378c7f-6320-8325-9e10-83e42fe1433c`, blob `507a7000082415373ee98dbc95f18a991dff3c5a`. HsH and SAT archive copies are byte-identical. The allocation message `07e8d0d0-5790-4f61-98b5-6af71acc7d8c` is Nathan Direct, but a question/proposal, not a proved equivalence. Assistant child `63d479f5-e0ef-4dff-8cd5-2c021bba1d65` adds “continuous freedom” and unqualified equivalence without maps.
+- Additional direct proposals: zero-anchor/single-anchor/round-trip loop (`52ba3717`, `39c3b3d8`, `755b695a`); SAT helix to ST-mode projection (`3a13c737`); intersection placement (`069faa90`); worldline bridge conjecture (`6185865e`) later qualified by direct fidelity/completeness requirement (`d7ab406e`). These are distinct proposals, not one theorem.
+- Nathan-authored June 2025 SAT BIG PAPER O0-A mode ladder (source PDF SHA-256 `77eb9e652c45650e29cd08be1a86198f05572573b452d170ce274e53bfde9f93`) and July 2025 SATO.4D SAT4D_8 guideline remain distinct versions. No transition maps.
+- Existing PR #873 and generic fiber-factorization theorem reused; latest run #43202552666 is merge-reference evidence, not exact-head/current-main integration. No new Lean theorem/build because source-defined maps/domains/invariants remain absent.
+- P2 remains BLOCKED / UNSELECTED; existing Han vortex-ring, Knister counter-rotating-vortex, and NIST torsion-balance systems remain distinct. No physical calculation, fit, prediction, CODATA comparison, or independent measurement.
+- Completed Morrow Mersearch request reused; 16,884 files, 21,032,761 records, 68 hits, 21 path-level sources, full results withheld. Four current lanes remain occupied/requested; no new request. HSH_RESOURCES root README only.
+- Published distinct source-lineage synthesis: issue #1775 PUBLISHED_VERIFIED; artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-source-lineage-cross-axis-map-refinement-20261115t0624z-s2-001.md`, SHA-256 `0a4ac8c9300eed3ef11a5b1715c1f6ece814e6ec4c8025e9d5bc58637aab5d63`, commit `84da0ed23bacaf4cfb8abeaf54c6ae875e2325b8`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0624Z_s2_kestrel.md`.
+- Optional Meridian packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0624Z_from_s2_to_s3_meridian_POSTNOMINAL_OPTIONAL_SOURCE_LINEAGE_CONTEXT.md`. Meridian has no INBOX.md or authenticated current thread; existing P0 assignment remains controlling. No direct delivery, consumption, or acknowledgment claimed.
+- Unrelated reading: SAT archive `SAT Mark V/TheTANGLE.txt`, lines 2201-2240; next cursor 2241. FIE next review November 24.
+- No task, branch, PR, Mersearch request, tool, automation, cadence, or ownership change. No sixth task or theory promotion. Current :24 scheduler run state was not independently returned by the connector; no terminal completion claim.
