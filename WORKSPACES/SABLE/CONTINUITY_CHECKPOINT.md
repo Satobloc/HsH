@@ -1506,3 +1506,11 @@ The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission laye
 - Source-to-parent comparison is exactly one commit and one path: `WORKSPACES/SABLE/README.md` modified. The snapshot contains Amendment 02 but the old README blob, so this is a second STALE_AT_PUBLICATION event by one commit.
 - The 08:09 snapshot was source-consistent; the 08:11 snapshot was not. The current main at this check is `afd7911d7df5509a4e4fba756474b62a76c9c4f3`; the subsequent checkpoint and Tern-inbox updates are post-refresh drift, not part of the 08:11 stale-at-publication comparison.
 - This repeated observation strengthens the workflow-level race diagnosis in Amendment 02. No new issue, code change, route probe, or task mutation. Next discovery refresh readback remains pending.
+
+
+## h862:s3 additive scheduler readback | 2026-11-15T23:07Z
+
+- [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2236Z_s3_sable_AMENDMENT_01_CURRENT_RUN_IDENTITY_READBACK.md) records the current exact-ID :36 run: `84fdeafc-7e24-8321-86c6-46cd4b1b77a0`, scheduled 22:36Z, started 23:07:36.773319Z, IN_PROGRESS, completion/chat_ref null.
+- The earlier h862 receipt recorded a 22:40:24.233191Z start but omitted provider run ID. Do not join the timestamps or infer a retry/restart/attempt identity.
+- Cached latest_result is prior Kestrel h861:s3 run `87475243-b2e0-832a-b352-9ee6fa314cdd`, not current Sable.
+- Issue #1808 remains PUBLISHED_VERIFIED; no duplicate report or public submission. Tern received optional repository-only scheduler context. No task or automation configuration change.
