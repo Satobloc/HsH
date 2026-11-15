@@ -181,6 +181,152 @@ theorem opposite_evidence_twin_implies_neither_knowledge
       observe conscious a e w).2
     exact ⟨⟨v, hEvidence, hTwinPositive⟩, ⟨w, rfl, hCurrent⟩⟩
 
+
+/-!
+## Multiple observation channels and deterministic compression
+
+The direct 2024 transcript argues from epistemic indistinguishability but does
+not define observation maps. The later OV-82 artifact describes a synthetic
+two-channel communication fixture, but reports no actual LLM trials. The maps
+below are an abstract assistant reconstruction connecting those surfaces.
+They do not assert that any real observer, model, or communication protocol
+instantiates them.
+-/
+
+/-- Pair two declared observation channels. -/
+def jointObserve
+    {Observer World EvidenceA EvidenceB : Type*}
+    (observeA : Observer → World → EvidenceA)
+    (observeB : Observer → World → EvidenceB) :
+    Observer → World → EvidenceA × EvidenceB :=
+  fun a w => (observeA a w, observeB a w)
+
+/-- Deterministically compress a pair of observations into a message. -/
+def compressJointObserve
+    {Observer World EvidenceA EvidenceB Message : Type*}
+    (observeA : Observer → World → EvidenceA)
+    (observeB : Observer → World → EvidenceB)
+    (compress : EvidenceA × EvidenceB → Message) :
+    Observer → World → Message :=
+  fun a w => compress (jointObserve observeA observeB a w)
+
+/-- A joint-observation fiber is exactly the intersection of the two
+    individual observation fibers. -/
+theorem joint_indistinguishability_iff
+    {Observer World EvidenceA EvidenceB : Type*}
+    (observeA : Observer → World → EvidenceA)
+    (observeB : Observer → World → EvidenceB)
+    (a : Observer) (w v : World) :
+    indistinguishable (jointObserve observeA observeB) a w v ↔
+      (indistinguishable observeA a w v ∧
+       indistinguishable observeB a w v) := by
+  simp [indistinguishable, jointObserve]
+
+/-- An assessment factors through the joint observation exactly when it is
+    constant on intersections of the two individual fibers. -/
+theorem joint_assessment_factors_through_iff_intersection_constant
+    {Observer Entity World EvidenceA EvidenceB : Type*}
+    (observeA : Observer → World → EvidenceA)
+    (observeB : Observer → World → EvidenceB)
+    (assessment : Entity → World → Prop)
+    (a : Observer) (e : Entity) :
+    (∃ factor : Set.range (jointObserve observeA observeB a) → Prop,
+      ∀ w, assessment e w =
+        factor ⟨jointObserve observeA observeB a w, ⟨w, rfl⟩⟩) ↔
+    (∀ w v,
+      indistinguishable observeA a w v →
+      indistinguishable observeB a w v →
+      assessment e w = assessment e v) := by
+  simpa [indistinguishable, jointObserve] using
+    (consciousness_factors_through_evidence_iff_fiber_constant
+      (jointObserve observeA observeB) assessment a e)
+
+/-- Conditional separation: if the assessment is constant on intersections
+    of the two fibers but not on either individual fiber, then it factors
+    through the joint observation and through neither channel alone.
+    This is a conditional theorem, not an existence claim about a real system. -/
+theorem joint_identifiability_can_exceed_each_channel
+    {Observer Entity World EvidenceA EvidenceB : Type*}
+    (observeA : Observer → World → EvidenceA)
+    (observeB : Observer → World → EvidenceB)
+    (assessment : Entity → World → Prop)
+    (a : Observer) (e : Entity)
+    (hJoint : ∀ w v,
+      indistinguishable observeA a w v →
+      indistinguishable observeB a w v →
+      assessment e w = assessment e v)
+    (hANot : ¬ ∀ w v,
+      indistinguishable observeA a w v →
+      assessment e w = assessment e v)
+    (hBNot : ¬ ∀ w v,
+      indistinguishable observeB a w v →
+      assessment e w = assessment e v) :
+    (∃ factor : Set.range (jointObserve observeA observeB a) → Prop,
+      ∀ w, assessment e w =
+        factor ⟨jointObserve observeA observeB a w, ⟨w, rfl⟩⟩) ∧
+    ¬ (∃ factor : Set.range (observeA a) → Prop,
+      ∀ w, assessment e w = factor ⟨observeA a w, ⟨w, rfl⟩⟩) ∧
+    ¬ (∃ factor : Set.range (observeB a) → Prop,
+      ∀ w, assessment e w = factor ⟨observeB a w, ⟨w, rfl⟩⟩) := by
+  constructor
+  · exact
+      (joint_assessment_factors_through_iff_intersection_constant
+        observeA observeB assessment a e).2 hJoint
+  constructor
+  · intro hFactor
+    exact hANot
+      ((consciousness_factors_through_evidence_iff_fiber_constant
+        observeA assessment a e).1 hFactor)
+  · intro hFactor
+    exact hBNot
+      ((consciousness_factors_through_evidence_iff_fiber_constant
+        observeB assessment a e).1 hFactor)
+
+/-- Equality of raw joint observations implies equality after deterministic
+    compression; compression can only merge fibers, never split them. -/
+theorem compression_coarsens_joint_fiber
+    {Observer World EvidenceA EvidenceB Message : Type*}
+    (observeA : Observer → World → EvidenceA)
+    (observeB : Observer → World → EvidenceB)
+    (compress : EvidenceA × EvidenceB → Message)
+    (a : Observer) (w v : World)
+    (h : indistinguishable (jointObserve observeA observeB) a w v) :
+    indistinguishable
+      (compressJointObserve observeA observeB compress) a w v := by
+  simpa [indistinguishable, compressJointObserve, jointObserve] using
+    congrArg compress h
+
+/-- If an assessment is identifiable after deterministic compression, it
+    was already identifiable from the uncompressed joint observation. -/
+theorem compressed_factorization_implies_raw_joint_factorization
+    {Observer Entity World EvidenceA EvidenceB Message : Type*}
+    (observeA : Observer → World → EvidenceA)
+    (observeB : Observer → World → EvidenceB)
+    (compress : EvidenceA × EvidenceB → Message)
+    (assessment : Entity → World → Prop)
+    (a : Observer) (e : Entity)
+    (hCompressed : ∃ factor :
+      Set.range (compressJointObserve observeA observeB compress a) → Prop,
+      ∀ w, assessment e w =
+        factor ⟨compressJointObserve observeA observeB compress a w,
+          ⟨w, rfl⟩⟩) :
+    ∃ factor : Set.range (jointObserve observeA observeB a) → Prop,
+      ∀ w, assessment e w =
+        factor ⟨jointObserve observeA observeB a w, ⟨w, rfl⟩⟩ := by
+  apply
+    (consciousness_factors_through_evidence_iff_fiber_constant
+      (jointObserve observeA observeB) assessment a e).2
+  intro w v hJoint
+  have hCompressedFiber :
+      indistinguishable
+        (compressJointObserve observeA observeB compress) a w v :=
+    compression_coarsens_joint_fiber
+      observeA observeB compress a w v hJoint
+  exact
+    ((consciousness_factors_through_evidence_iff_fiber_constant
+      (compressJointObserve observeA observeB compress) assessment a e).1
+      hCompressed) w v hCompressedFiber
+
 /-- The manuscript's universal conclusion is obtained only if the opposite-twin
     premise is supplied for every observer, distinct target, and world. -/
 theorem global_panagnosticism_of_opposite_twins
@@ -206,5 +352,12 @@ theorem global_panagnosticism_of_opposite_twins
 #print axioms neither_knowledge_iff_both_polarities_in_fiber
 #print axioms opposite_evidence_twin_implies_neither_knowledge
 #print axioms global_panagnosticism_of_opposite_twins
+
+
+#print axioms joint_indistinguishability_iff
+#print axioms joint_assessment_factors_through_iff_intersection_constant
+#print axioms joint_identifiability_can_exceed_each_channel
+#print axioms compression_coarsens_joint_fiber
+#print axioms compressed_factorization_implies_raw_joint_factorization
 
 end HsHVerification.OrsonPanagnosticismObservationFiber
