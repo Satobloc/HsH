@@ -24,6 +24,8 @@ import Mathlib
 /-! Smoke test for the HsH formal-verification pipeline.
     Compilation proves only the stated mathematics, not a physical model. -/
 
+import HsHVerification.AriadneFreeFallMassRatio
+
 namespace HsHVerification
 
 theorem relative_map_triangle_closure {G : Type*} [Group G]
@@ -32,4 +34,3 @@ theorem relative_map_triangle_closure {G : Type*} [Group G]
   group
 
 end HsHVerification
-import HsHVerification.AriadneFreeFallMassRatio
