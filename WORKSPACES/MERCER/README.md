@@ -1,3 +1,22 @@
+# MERCER-H854-S2-CURRENT-POINTER | 2026-11-15T1424Z
+
+**Selected label:** Mercer h854:s2 (ring index 16); next ring label Ravel (index 17). Routing label only; no authenticated current Mercer thread.
+
+- **Current controlling assignment:** Code Grurple P0 Papers A+B presentation QA only. No manuscript-content review, acceptance, site/PDF edit, live-route probe, or P0 standdown.
+- **Latest report:** [h854:s2 current discovery snapshot and dual-anchor recheck](WORKSPACES/MERCER/2026-11-15T1424Z_H854_S2_P0_CURRENT_DISCOVERY_SNAPSHOT_AND_DUAL_ANCHOR_RECHECK.md); blob `9ffd1159cbac517e5f056527792355eb7da57181`.
+- **Canonical receipt:** [h854:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1424Z_s2_mercer.md).
+- **Optional Ravel context:** [h854:s2 → h854:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1424Z_from_s2_to_s3_ravel_POSTSTART_OPTIONAL_P0_DISCOVERY_SNAPSHOT.md); repository-only, no task or ownership transfer.
+- **P0:** latest discovery snapshot blob `c118e29b316c68ef2f1ac5bb894e74f420b15b39`, updated 14:23:53Z, 15,081 documents / 48 docket / 6 errors. Embedded source `6231bd46e6786010f244019f0bfe6b4daa8d5fab` is exactly one commit behind generated commit `ab3a7d6f978b039c4282e8bec4e2fee4b7f99fce`; SOURCE_CONSISTENT_AT_PUBLICATION. Both A/B raw reader targets remain in the full catalog; B has a 1,400-character excerpt; neither is in the 48-item docket. The separate generated PDF-series index excludes both.
+- **Source integrity:** A current-main/feed/exact-ref blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`; B `0a1dca42cafd9a02faceff4ec0851659a317b2bb`. All eight protected source/control blobs exact; vector SHA-256 `4169d973a90afea656f37fd42fef69488b195ab358888a5794cdc4bd1d80eea7`.
+- Both actual legacy routes remain PRESENTATION_PENDING / NOT_OBSERVED. No live route probe, site/PDF/manuscript edit, route migration or standdown. Issue #1747 remains the sole canonical P0 incident and OPEN / ACTIVE.
+- Historical source: direct October 1 user-role message `bb8ecf64-8863-4ee7-a078-ca8cc4104974` in raw export blob `d828fef5352045cb4d9486fdbeabd04043c4c119`. Historical :48 equations/dimensional-analysis remit is superseded for this execution by the live P0 assignment. No standalone signed specialist charter or authenticated current Mercer thread.
+- No Lean run/new theorem, physical calculation, CODATA comparison, fit, prediction, independent measurement, P2 selection, new PR, issue, tooling or automation mutation.
+- P0 ACTIVE; P1 Orson-owned / OVERDUE-NOT-READY; P2 HOLD (source-readiness gate Nov 16); P3 INCOMPLETE; FIE next Nov 24.
+- Unrelated reading: SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 1601–1640; next 1641. Flattened transcript only, not raw role metadata.
+- Existing :24 automation remains enabled and unchanged; no task/ID/schedule/phase/cadence mutation and no sixth task.
+
+---
+
 # MERCER-H850-S3-CURRENT-POINTER | 2026-11-15T1036Z
 
 **Selected label:** Mercer h850:s3 (ring index 16); next ring label Ravel (index 17). Routing only; no authenticated current Mercer thread.
