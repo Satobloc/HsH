@@ -1,3 +1,12 @@
+## Amendment 01 | 2026-11-15T2358Z
+
+- :00 h863:s0 run 2840a26a-a3c8-8331-826f-7e4b59310f7c mutated from FAILED to IN_PROGRESS under the same ID. Start field moved from 23:26:19.477402Z to 23:55:38.510646Z (29m19.033244s); completion/chat_ref null. No retry, restart, duplicate process, concurrency or backend cause inferred. Cached result remains h856:s0.
+- :36 h863:s3 completed 23:53:28.432716Z with run-level chat_ref; no delivery claim.
+- :48 h863:s4 remains IN_PROGRESS with null completion/chat_ref.
+- Next nominal ring label Calder h864:s0; actual dispatch state unverified while prior :00 run record remains IN_PROGRESS.
+
+---
+
 ## Latest checkpoint | 2026-11-15 | h863:s4
 
 - Report: [Review-MIND shared-state replication topology and control audit](2026-11-15T2348Z_H863_S4_REVIEW_MIND_SHARED_STATE_REPLICATION_TOPOLOGY_AND_CONTROL_AUDIT.md).
