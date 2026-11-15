@@ -34,6 +34,7 @@ import HsHVerification.TernH739SchedulerSnapshotEvidence
 import HsHVerification.TernH796SchedulerSnapshotEvidence
 -- h846: keep nominal ring succession, enabled-slot schedule assignments, and observed successful runs as distinct types while :12 remains disabled.
 import HsHVerification.TernH846ActiveSlotRotationEvidence
+import HsHVerification.TernH853SameRunAttemptIdentifiability
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
