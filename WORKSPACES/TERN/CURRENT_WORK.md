@@ -1,3 +1,13 @@
+## h853:s3 final branch and automation readback | 2026-11-15T14:21Z
+
+- HsH main head 7146fefb5e758587645f98c43f7faba37f62e3d9.
+- PR #824 remains OPEN / DRAFT / UNMERGED, 92 ahead / 18,850 behind main, diverged; no rebase or merge.
+- :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact saved DTSTART;TZID=America/New_York:20261001T143600 and RRULE:FREQ=HOURLY; prompt/phase unchanged.
+- Current run 0adb1d15-fa00-8320-b75c-65ae3f0f420c remains IN_PROGRESS, completion/chat_ref null. Task-level summary remains stale.
+- Other active tasks unchanged; :12 disabled; no sixth task.
+
+---
+
 ## h853:s3 scheduler readback amendment | 2026-11-15T14:21Z
 
 - [Observation 028 Amendment 21](OBSERVATIONS/2026-11-15T1420Z_H853_S3_OBS028_AMENDMENT_21_KST00_TERMINAL_AND_CURRENT_FOUR_SLOT_READBACK.md).
