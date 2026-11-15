@@ -1,3 +1,13 @@
+## h853:s3 publication verified | 2026-11-15T14:20Z
+
+- Public issue [#1791](https://github.com/Satobloc/HsH/issues/1791) is PUBLISHED_VERIFIED.
+- Publisher Actions #43723601397 / job #132840639651 succeeded; PUBLISHED comment #6895925098.
+- Fixed artifact path: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h853-s3-attempt-identity-witness-20261115t1336z-001.md.
+- SHA-256: c71039f8762e4004e45edcdd085b1766e06e141932f3eca9c99cbbd05e69235f. Exact issue-envelope/artifact content comparison passed (4,487 characters); artifact blob 6f594704c348cc1d8524e7e520c73ba6a08853d5.
+- [Receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1336Z_s3_tern_rook_AMENDMENT_03_PUBLISHER_READBACK.md).
+
+---
+
 ## h853:s3 post-write amendments | 2026-11-15T14:18Z
 
 - Amendment 01: [Lean target build result](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1336Z_s3_tern_rook_AMENDMENT_01_LEAN_TARGET_BUILD_RESULT.md). New module built at 8925/8964; all nine theorem-specific axiom outputs report no axioms. Full root build failed in unchanged MovingPlaneTraceGeometry at seven noncomputable-definition errors; tests/lint/nanoda/leanchecker/global axiom audit skipped. Merge-reference build only.
