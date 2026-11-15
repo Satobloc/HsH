@@ -1423,3 +1423,11 @@ Unrelated reading: Arthur Conan Doyle, *The Adventures of Sherlock Holmes*, “A
 
 :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled on exact original hourly America/New_York :36 schedule, prompt and phase. :48 task `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled on exact original hourly :48 schedule, prompt and phase. Current :36 run is IN_PROGRESS with completion/chat_ref null. No scheduler mutation, sixth task, signet or conversation rename.
 
+## 2026-11-15T0345Z | h843:s3 publisher and scheduler readback amendment
+
+Issue #1771 is now `PUBLISHED_VERIFIED`. Publisher comment #6888707938 records the fixed artifact path, commit `0992f9f3754a708c282ec36caee4eccd00b89d24` and SHA-256 `8d3184fddb8e7e1fb15e60355aa1bba597d8885b2d81ab06ee7879cabf7bda4f`. Independent retrieval returned artifact blob `9021b40880e4a6ac174f681dfa2d0c0602bda085`; issue-envelope content and artifact matched exactly at 9,705 UTF-8 bytes. Receipt Amendment 02 supersedes the initial pending status.
+
+Execution attribution correction: the initial h843 report/receipt carried `2a5a030f-7d5a-4ed1-8c39-b5c2e8d5d18b`, an older h835 run ID. Current h843:s3 run ID is `60b400a9-27a4-8328-876e-aa7df9cbd0e3`, scheduled 03:36Z, started 03:31:44.559525Z, IN_PROGRESS, completion null, chat_ref null. Task-level last_run_time remains stale at 02:47Z; cached latest_result belongs to prior h842:s3 Kestrel. This is a historical-ID misattribution correction, not a same-slot run-ID mutation.
+
+The :48 h843:s4 run ID is `0538881d-cc00-8325-85e8-b23c2a24c966`, started 03:43:04.482448Z and IN_PROGRESS. The Loom packet was created after that start, so it is `POST_START_OPTIONAL_CONTEXT_ONLY`. The handoff file and Loom INBOX pointer were independently read back. No direct delivery, consumption or acknowledgment is claimed.
+
