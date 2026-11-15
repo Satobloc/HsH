@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "ACTIVE_SEED",
-  "updated": "2026-11-13T20:53:40.464Z",
+  "updated": "2026-11-15T17:24:00Z",
   "human_routing_semantics": "WORKSPACES/COMMON/WORKFLOW_BRANCHING_MAP.md",
   "orientation": "WORKSPACES/COMMON/CURRENT_WORKFLOW_ORIENTATION_V2.md",
   "instance_lease_state": "WORKSPACES/COMMON/INSTANCE_REGISTRY_EXECUTION_LEASES.md",
@@ -703,7 +703,8 @@
       "next_cursor": "Continue by inspecting the remaining 46 successful and 29 cancelled source-inventory job records, then inspect SAT archive and HsH job-level checkout steps. Obtain daily GitHub Traffic/Pages only through a supported route; investigate cloud provisioning only through authorized evidence. Keep 19/19 ring-label dispositions and 0/19 authenticated first-hand current-thread replies. No extrapolation from workflow-run counts to clones. Next deep review after five additional canonical receipts/evidence entries following h811:s4; scheduler starts alone do not count.",
       "exit_criterion": "Each of the 19 ring labels has one honest evidence-bounded response or explicit unavailable/unknown disposition; actual clone-producing operations are counted by repository/run/job/attempt/day; comparison with daily Traffic yields a documented internal estimate and residual range.",
       "return_route": "Issue #1315 and CLONE_FOOTPRINT_CENSUS_ACTION_PLAN_2026-11-05.md",
-      "updated": "2026-11-13T20:11:14.707Z"
+      "updated": "2026-11-13T20:11:14.707Z",
+      "last_reviewed": "2026-11-15"
     },
     {
       "id": "WORKFLOW-UPKEEP-PRIORITY-2026-11-05",
@@ -737,7 +738,7 @@
       "exit_criterion": "The four active relays execute lightweight upkeep each activation; a deeper review occurs at least every five actual activations; action plans and scripted triage are used for material multi-step goals; no protected work is displaced.",
       "return_route": "WORKSPACES/COMMON/WORKER_UPKEEP_AND_PRIORITY_REVIEW_PROTOCOL_2026-11-05.md",
       "updated": "2026-11-13T21:05:00Z",
-      "last_reviewed": "2026-11-13"
+      "last_reviewed": "2026-11-15"
     }
   ],
   "branch_count": 16
