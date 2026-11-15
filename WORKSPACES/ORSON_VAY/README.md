@@ -16,3 +16,5 @@ The workspace distinguishes historical user instructions, current project author
 - Latest canonical receipt: [h858:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1836Z_s3_orson_vay.md)
 - Publisher status: [issue #1800 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/1800); [Amendment 02 readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1836Z_s3_orson_vay_AMENDMENT_02_PUBLISHER_READBACK.md)
 - Prior source audit: [h854:s4 CGD dual-history trigger bounds](2026-11-15T1448Z_H854_S4_CGD_DUAL_HISTORY_TRIGGER_BOUND_AUDIT.md)
+
+- Optional successor context: [Sable h858:s4 post-start packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1836Z_from_s3_to_s4_sable_POSTSTART_OPTIONAL_MEMORY_ADMISSIBILITY_CONTEXT.md).
