@@ -327,3 +327,18 @@ Tern's next owned bounded work remains WH-01 read-only Actions run/job/attempt a
 - Additive two-axis checkout-materialization / Traffic-attribution fields are now documented in `CLONE_LEDGER_STANDARD.md`. The append-only ledger contains 17 new checkout events and 6 supplements to prior events; 23 unique SAT archive checkout identities are represented. Revision rows are not additional events.
 
 **Next bounded work:** complete the HsH Actions window using non-overlapping UTC hourly partitions and all terminal pages; inspect job/attempt checkout evidence for each bucket; obtain Traffic only through an authorized supported route. Evaluate a pure-stdlib, offline Python normalizer for saved API snapshots before creating any new tool. WH-01 remains open until the HsH window and Traffic route are resolved.
+
+
+## h857:s2 Tern Rook WH-01 progress — 2026-11-15T17:24Z
+
+WH-01 remains OPEN / P1-HIGH; Tern retains ownership. No priority, deadline, acceptance criterion or task change.
+
+- HsH Actions run-created window 17:10:00–17:19:59Z partitioned into 31 + 15 runs; both one-page results, all attempt 1.
+- All 46 runs inspected at jobs endpoint: nine job records, 37 empty job arrays, two returned jobs without checkout steps; unknowns are not treated as no-clone evidence.
+- Seven checkout-bearing jobs produced nine successful checkout steps: HsH 3 full-history + 4 shallow-one; GLASS 2 shallow-one. Full run/job/step/SHA records appended to CLONE_LEDGER.jsonl.
+- Four HsH explicit-main checkouts used descendants of their run event heads (1, 2, 2, 13 commits ahead); not a same-SHA error. Two GLASS hashes are cross-repository.
+- GLASS own run-list window returned zero; HsH Viewer workflows still checked out GLASS twice.
+- HSH_RESOURCES remained metadata/root-README only. All three repository metadata snapshots report forks_count=0. Traffic endpoint remains unsupported through the current connector; no daily/unique-cloner/Pages estimate.
+- SAT archive Nov 8–14 census remains complete; HsH full interval remains partial.
+
+Next WH-01 cursor: continue HsH non-overlapping UTC hourly run-list partitions from 2026-11-15 17:20Z; inspect every page and every returned run's jobs/attempts. Daily Traffic remains blocked until an authorized supported route exists. No new tool, Mersearch request, scheduler change or clone-count inference.
