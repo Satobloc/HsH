@@ -396,11 +396,14 @@ theorem functionally_equivalent_opposite_twin_implies_neither_knowledge
       ObservableProjection.sameResponses respond (systemAt w) (systemAt v))
     (hOpposite : conscious e v ↔ ¬ conscious e w) :
     ¬ knows (fun a w => observe a (systemAt w)) conscious a e w ∧
-    ¬ knows (fun a w => fun e' w' => ¬ conscious e' w') a e w := by
+    ¬ knows (fun a w => observe a (systemAt w)) (fun e' w' => ¬ conscious e' w') a e w := by
   apply opposite_evidence_twin_implies_neither_knowledge
   refine ⟨v, ?_, hOpposite⟩
   exact functional_equivalence_implies_observer_evidence_indistinguishability_of_response_factorization
     respond observe encode hFactors a hEquivalent
+
+#print axioms functional_equivalence_implies_observer_evidence_indistinguishability_of_response_factorization
+#print axioms functionally_equivalent_opposite_twin_implies_neither_knowledge
 
 #print axioms evidence_indistinguishability_is_equivalence
 #print axioms knowledge_factive
