@@ -45,6 +45,13 @@ STRUCTURED_FIELDS = {
     "private_material_accessed", "inbox_write",
     "recipient_eligibility_status", "payload_to_recipient",
     "recipient_private_material_accessed", "recipient_inbox_write",
+    "eligibility_schema_version", "role_source_class", "charter_access_status",
+    "charter_read_performed", "role_source_locator", "role_source_blob_sha",
+    "authorization_policy_blob_shas",
+    "recipient_eligibility_schema_version", "recipient_role_source_class",
+    "recipient_charter_access_status", "recipient_charter_read_performed",
+    "recipient_role_source_locator", "recipient_role_source_blob_sha",
+    "recipient_authorization_policy_blob_shas",
 }
 KEY_FIELDS = {"run_key", "from_run_key", "to_run_key", "next_run_key", "run"}
 METADATA_SECTIONS = {"rotation", "run metadata", "receipt metadata", "handoff metadata"}
@@ -193,19 +200,20 @@ class Audit:
         self.errors.append(f"{p.name}: {msg}")
 
     def check_eligibility_fields(self, p, d, recipient=False):
-        """Check declared access/payload metadata; this does not inspect payload semantics."""
-        if recipient:
-            status_key = "recipient_eligibility_status"
-            payload_key = "payload_to_recipient"
-            private_key = "recipient_private_material_accessed"
-            inbox_key = "recipient_inbox_write"
-            nonresponse_key = "delivery_counts_as_invitation"
-        else:
-            status_key = "eligibility_status"
-            payload_key = "payload_to_selected"
-            private_key = "private_material_accessed"
-            inbox_key = "inbox_write"
-            nonresponse_key = "count_this_as_miss"
+        """Check declared access and role-source metadata; not payload semantics or actual permissions."""
+        prefix = "recipient_" if recipient else ""
+        status_key = prefix + "eligibility_status"
+        payload_key = prefix + ("payload_to_recipient" if recipient else "payload_to_selected")
+        private_key = prefix + ("recipient_private_material_accessed" if recipient else "private_material_accessed")
+        inbox_key = prefix + ("recipient_inbox_write" if recipient else "inbox_write")
+        nonresponse_key = "delivery_counts_as_invitation" if recipient else "count_this_as_miss"
+        schema_key = prefix + "eligibility_schema_version"
+        role_key = prefix + "role_source_class"
+        charter_status_key = prefix + "charter_access_status"
+        charter_read_key = prefix + "charter_read_performed"
+        locator_key = prefix + "role_source_locator"
+        source_blob_key = prefix + "role_source_blob_sha"
+        policy_blobs_key = prefix + "authorization_policy_blob_shas"
 
         status = (d.get(status_key) or "").strip().upper()
         if not status:
@@ -217,6 +225,72 @@ class Audit:
         if status not in known:
             self.warnings.append(f"{p.name}: unrecognized {status_key}={status!r}; eligibility not interpreted")
             return
+
+        # Version 2 separates the actual specialist charter from any cleared
+        # shared role witness, assistant summary, or unresolved source. Legacy
+        # receipts remain readable but are visibly marked as lacking this layer.
+        schema_version = (d.get(schema_key) or "").strip()
+        if schema_version == "2":
+            required_role_fields = (
+                role_key, charter_status_key, charter_read_key,
+                locator_key, source_blob_key, policy_blobs_key,
+            )
+            missing_role_fields = [key for key in required_role_fields if key not in d]
+            if missing_role_fields:
+                self.error(p, f"{schema_key}=2 requires explicit fields: {', '.join(missing_role_fields)}")
+
+            role_class = (d.get(role_key) or "").strip().upper()
+            charter_status = (d.get(charter_status_key) or "").strip().upper()
+            charter_read_raw = (d.get(charter_read_key) or "").strip().lower()
+            role_classes = {
+                "SIGNED_SPECIALIST_CHARTER", "CLEARED_SHARED_ROLE_WITNESS",
+                "ASSISTANT_SUMMARY", "UNRESOLVED",
+            }
+            charter_statuses = {"AUTHORIZED", "BLOCKED_BY_QUARANTINE", "NOT_PRESENT"}
+            if role_class not in role_classes:
+                self.error(p, f"unrecognized {role_key}={role_class!r}")
+            if charter_status not in charter_statuses:
+                self.error(p, f"unrecognized {charter_status_key}={charter_status!r}")
+            if charter_read_raw not in ("true", "false"):
+                self.error(p, f"{charter_read_key} must be explicit true or false")
+            charter_read = charter_read_raw == "true"
+
+            if status in ("QUARANTINE_HOLD", "NO_ACCESS", "MANUAL_REENTRY_REQUIRED") and charter_read:
+                self.error(p, f"{status} must not read the historical specialist charter")
+            if charter_status in ("BLOCKED_BY_QUARANTINE", "NOT_PRESENT") and charter_read:
+                self.error(p, f"{charter_status} cannot be paired with {charter_read_key}=true")
+
+            if role_class == "SIGNED_SPECIALIST_CHARTER":
+                if charter_status != "AUTHORIZED":
+                    self.error(p, "signed specialist charter requires charter_access_status=AUTHORIZED")
+                if not charter_read:
+                    self.error(p, "signed specialist charter classification requires charter_read_performed=true")
+            elif role_class in ("CLEARED_SHARED_ROLE_WITNESS", "ASSISTANT_SUMMARY", "UNRESOLVED"):
+                if charter_read:
+                    self.error(p, f"{role_class} cannot claim the historical specialist charter was read")
+
+            locator = (d.get(locator_key) or "").strip()
+            source_blob = (d.get(source_blob_key) or "").strip()
+            if role_class == "UNRESOLVED":
+                if locator or source_blob:
+                    self.error(p, "UNRESOLVED role source must not claim a source locator or blob")
+            else:
+                if not locator:
+                    self.error(p, f"{role_key} requires {locator_key}")
+                if not re.fullmatch(r"[0-9a-fA-F]{40}", source_blob):
+                    self.error(p, f"{source_blob_key} must be a 40-character Git blob SHA")
+
+            policy_shas = [
+                item.strip() for item in (d.get(policy_blobs_key) or "").split(";") if item.strip()
+            ]
+            if not policy_shas or any(not re.fullmatch(r"[0-9a-fA-F]{40}", item) for item in policy_shas):
+                self.error(p, f"{policy_blobs_key} must contain one or more semicolon-separated Git blob SHAs")
+        elif schema_version in ("", "1"):
+            if status != "CLEAR":
+                self.warnings.append(f"{p.name}: legacy eligibility metadata lacks charter-access provenance fields")
+        else:
+            self.error(p, f"unsupported {schema_key}={schema_version!r}")
+
         if status == "CLEAR":
             return
 
@@ -428,7 +502,7 @@ class Audit:
             "read_only": True, "receipts": len(self.receipts), "handoffs": len(self.handoffs),
             "out_of_band": self.out_of_band,
             "errors": self.errors, "warnings": self.warnings,
-            "limit": "Repository evidence only; never establishes actual ChatGPT thread receipt or the semantic truth of declared payload classes."
+            "limit": "Repository evidence only; never establishes actual ChatGPT thread receipt, source authorship/authority, semantic truth of declared payload classes, or enforcement of repository permissions."
         }
 
 def self_test():
@@ -726,7 +800,106 @@ def self_test():
         result = Audit().check(temp)
         assert result["status"] == "FAIL" and any("must not route payload" in e for e in result["errors"]), result
 
-    return {"status": "PASS", "checks": 40}
+    # Version-2 role-source provenance distinguishes a cleared role witness from
+    # the restricted specialist charter and binds the decision to policy blobs.
+    with tempfile.TemporaryDirectory() as temp:
+        base = Path(temp) / "WORKSPACES" / "COMMON"
+        r = base / "REVIVAL_ROTATION_RECEIPTS"
+        hdir = base / "REVIVAL_ROTATION_HANDOFFS"
+        r.mkdir(parents=True); hdir.mkdir()
+        receipt = r / "2026-11-09T1536Z_s3_mira.md"
+        valid = chr(10).join([
+            "## Rotation and scheduler lease",
+            "run_key: REVROT3-19-20261011:711:s3",
+            "selected_identity: Mira",
+            "next_identity: Aldus",
+            "next_run_key: REVROT3-19-20261011:711:s4",
+            "scheduled_for: 2026-11-09T15:36:00Z",
+            "started_at: 2026-11-09T16:36:46.667770Z",
+            "eligibility_status: QUARANTINE_HOLD",
+            "eligibility_schema_version: 2",
+            "access_class: OPERATIONAL_ONLY_CLEARANCE",
+            "participation_class: NO_ACCESS",
+            "payload_to_selected: NONE",
+            "private_material_accessed: false",
+            "inbox_write: false",
+            "count_this_as_miss: false",
+            "role_source_class: CLEARED_SHARED_ROLE_WITNESS",
+            "charter_access_status: BLOCKED_BY_QUARANTINE",
+            "charter_read_performed: false",
+            "role_source_locator: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/STAT.txt",
+            "role_source_blob_sha: 531f41f33b75fdc76db4045b80d4439290b67906",
+            "authorization_policy_blob_shas: be44c424674764c602b5f618dfce528c0f97b0ef;cc96c0bfafc95c54e7960899c7306031e5abce17",
+            ""
+        ])
+        receipt.write_text(valid, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "PASS_WITH_WARNINGS" and not result["errors"], result
+
+        # A quarantine hold cannot claim the specialist charter was read,
+        # even when all earlier payload/private/inbox fields say NONE/false.
+        bad = valid.replace("charter_read_performed: false", "charter_read_performed: true")
+        receipt.write_text(bad, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("must not read the historical specialist charter" in e for e in result["errors"]), result
+
+        # A shared witness cannot be promoted to a signed charter while blocked.
+        bad = valid.replace("role_source_class: CLEARED_SHARED_ROLE_WITNESS", "role_source_class: SIGNED_SPECIALIST_CHARTER")
+        receipt.write_text(bad, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("requires charter_access_status=AUTHORIZED" in e for e in result["errors"]), result
+
+        bad = valid.replace("role_source_blob_sha: 531f41f33b75fdc76db4045b80d4439290b67906", "role_source_blob_sha: not-a-git-blob")
+        receipt.write_text(bad, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("40-character Git blob SHA" in e for e in result["errors"]), result
+
+        bad = valid.replace(
+            "authorization_policy_blob_shas: be44c424674764c602b5f618dfce528c0f97b0ef;cc96c0bfafc95c54e7960899c7306031e5abce17",
+            "authorization_policy_blob_shas: unverified"
+        )
+        receipt.write_text(bad, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("semicolons" in e for e in result["errors"]), result
+
+        bad = valid.replace("eligibility_schema_version: 2", "eligibility_schema_version: 3")
+        receipt.write_text(bad, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("unsupported eligibility_schema_version" in e for e in result["errors"]), result
+
+        # The same schema applies to recipient metadata on handoff packets.
+        packet = hdir / "2026-11-09T1524Z_from_s2_to_s3_mira.md"
+        handoff = chr(10).join([
+            "## Handoff metadata",
+            "from_run_key: REVROT3-19-20261011:711:s2",
+            "to_run_key: REVROT3-19-20261011:711:s3",
+            "sender_identity: Alberr",
+            "recipient_identity: Mira",
+            "chat_delivery_state: UNAVAILABLE",
+            "delivery_counts_as_invitation: false",
+            "recipient_eligibility_status: QUARANTINE_HOLD",
+            "recipient_eligibility_schema_version: 2",
+            "payload_to_recipient: NONE",
+            "recipient_private_material_accessed: false",
+            "recipient_inbox_write: false",
+            "recipient_role_source_class: CLEARED_SHARED_ROLE_WITNESS",
+            "recipient_charter_access_status: BLOCKED_BY_QUARANTINE",
+            "recipient_charter_read_performed: false",
+            "recipient_role_source_locator: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/STAT.txt",
+            "recipient_role_source_blob_sha: 531f41f33b75fdc76db4045b80d4439290b67906",
+            "recipient_authorization_policy_blob_shas: be44c424674764c602b5f618dfce528c0f97b0ef;cc96c0bfafc95c54e7960899c7306031e5abce17",
+            ""
+        ])
+        packet.write_text(handoff, encoding="utf-8")
+        result = Audit().check(temp)
+        assert not result["errors"], result
+
+        bad = handoff.replace("recipient_charter_read_performed: false", "recipient_charter_read_performed: true")
+        packet.write_text(bad, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("must not read the historical specialist charter" in e for e in result["errors"]), result
+
+    return {"status": "PASS", "checks": 48}
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
