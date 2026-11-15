@@ -1,3 +1,12 @@
+## h853:s3 scheduler readback amendment | 2026-11-15T14:21Z
+
+- [Observation 028 Amendment 21](OBSERVATIONS/2026-11-15T1420Z_H853_S3_OBS028_AMENDMENT_21_KST00_TERMINAL_AND_CURRENT_FOUR_SLOT_READBACK.md).
+- Kestrel h854:s0 :00 run 1dcbc431-6e50-8330-87a8-2820ee1a41d5 changed from IN_PROGRESS to FAILED/completed 14:20:08.180419Z. Cached latest_result remains prior Elias h853:s0, so current failure diagnostic is unavailable through the task-level pointer.
+- Latest four-slot readback: :00 Kestrel FAILED; :24 Enheduanna COMPLETED; :36 Tern IN_PROGRESS; :48 Morrow IN_PROGRESS after earlier same-ID FAILED-to-IN_PROGRESS transition. Separate peeks, not atomic; no cause/retry/restart/concurrency/liveness/identity inference.
+- All task configurations unchanged; :12 disabled; no sixth task.
+
+---
+
 ## h853:s3 publication verified | 2026-11-15T14:20Z
 
 - Public issue [#1791](https://github.com/Satobloc/HsH/issues/1791) is PUBLISHED_VERIFIED.
