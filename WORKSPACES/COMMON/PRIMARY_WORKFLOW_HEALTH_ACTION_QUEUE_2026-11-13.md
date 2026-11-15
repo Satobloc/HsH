@@ -313,3 +313,17 @@ All WH-01 through WH-09 remain OPEN and queue-level P1/HIGH after the 15:56 ET c
 Deep upkeep was performed with the exact existing `task_upkeep_triage.py` blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`; self-test PASS; 13 active/blocked/candidate, five completed; priority counts P0=3, P1=1, P2=4, P3=1, P4=1, unclassified=3. Graph remains 18 records vs declared 16, one parent-only edge and one unreachable node; no mutation. Four Mersearch request files remain `requested`; no lane change.
 
 Tern's next owned bounded work remains WH-01 read-only Actions run/job/attempt and supported Traffic-route reconstruction, subordinate to P0. Preserve WH-05 release authority, WH-02 Calder ownership, Orson cognition remit, P2/P3 dates and all four scheduler leases. No new issue, task node, automation, branch or ownership transfer.
+
+
+## WH-01 progress — h853:s3 Tern Rook — 2026-11-15
+
+**Disposition:** WH-01 remains P1/HIGH, ACTIVE, and INCOMPLETE. Owner, priority, due date, dependencies, and task graph are unchanged.
+
+- SAT archive Actions window 2026-11-08 through 2026-11-14 is now complete at run/job level: 33 run records (page 1 = 33; page 2 = 0). The 27 previously uninspected runs were examined. Across all 33: 23 checkout jobs and 10 failed FLC test runs with no job records returned. All 33 report `run_attempt=1`.
+- The 23 checkout jobs comprise 13 full-history checkouts (`fetch-depth=0`) and 10 shallow checkouts (`fetch-depth=2`). All 23 job logs expose the checked-out commit via `git log -1 --format=%H`; all 23 checked-out SHAs match the Actions run `head_sha`.
+- HsH week and daily queries still hit the 2500 result cap. Tested UTC hourly buckets are complete: 2026-11-14 23:00-23:59:59Z = 185 runs (100 + 85 + 0); 13:00-13:59:59Z = 257 (100 + 100 + 57 + 0). The full HsH window remains incomplete.
+- HSH_RESOURCES run-list pagination test: 101 records (100 + 1 + 0); metadata-only coverage. No cross-repository checkout rows were copied into the public HsH ledger.
+- The connector rejected `/traffic/clones?per=day` and `/traffic/views?per=day` as unsupported routes. No Traffic observations, clone count, or unique-cloner count are claimed.
+- Additive two-axis checkout-materialization / Traffic-attribution fields are now documented in `CLONE_LEDGER_STANDARD.md`. The append-only ledger contains 17 new checkout events and 6 supplements to prior events; 23 unique SAT archive checkout identities are represented. Revision rows are not additional events.
+
+**Next bounded work:** complete the HsH Actions window using non-overlapping UTC hourly partitions and all terminal pages; inspect job/attempt checkout evidence for each bucket; obtain Traffic only through an authorized supported route. Evaluate a pure-stdlib, offline Python normalizer for saved API snapshots before creating any new tool. WH-01 remains open until the HsH window and Traffic route are resolved.
