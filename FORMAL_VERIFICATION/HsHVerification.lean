@@ -32,7 +32,7 @@ import HsHVerification.TernH659SchedulerSnapshotEvidence
 import HsHVerification.TernH705SchedulerSnapshotEvidence
 import HsHVerification.TernH739SchedulerSnapshotEvidence
 import HsHVerification.TernH796SchedulerSnapshotEvidence
--- h846: keep the nominal ring successor distinct from the next active slot while :12 remains disabled.
+-- h846: keep nominal ring succession, enabled-slot schedule assignments, and observed successful runs as distinct types while :12 remains disabled.
 import HsHVerification.TernH846ActiveSlotRotationEvidence
 import Mathlib
 

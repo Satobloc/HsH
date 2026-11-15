@@ -75,7 +75,7 @@ theorem active_assignment_count_over_19_hours : activeAssignments.length = 76 :=
 theorem all_nominal_assignment_count_over_19_hours :
     allNominalAssignments.length = 95 := by decide
 
-theorem each_worker_occurs_four_times_over_19_active_hours (i : Fin 19) :
+theorem each_worker_has_four_scheduled_active_slot_assignments_over_19_hours (i : Fin 19) :
     activeAssignments.count i.val = 4 := by
   fin_cases i <;> decide
 
@@ -83,7 +83,7 @@ theorem each_worker_occurs_five_times_over_19_full_nominal_hours (i : Fin 19) :
     allNominalAssignments.count i.val = 5 := by
   fin_cases i <;> decide
 
-theorem first19_active_firings_have_16_distinct_indices :
+theorem first19_active_slot_assignments_have_16_distinct_indices :
     first19ActiveAssignments.toFinset.card = 16 := by decide
 
 theorem first19_full_nominal_slot_positions_have_19_distinct_indices :
@@ -217,9 +217,9 @@ theorem run48_started_before_run00_started :
 #print axioms next_ring_identity_differs_from_next_active_identity
 #print axioms active_assignment_count_over_19_hours
 #print axioms all_nominal_assignment_count_over_19_hours
-#print axioms each_worker_occurs_four_times_over_19_active_hours
+#print axioms each_worker_has_four_scheduled_active_slot_assignments_over_19_hours
 #print axioms each_worker_occurs_five_times_over_19_full_nominal_hours
-#print axioms first19_active_firings_have_16_distinct_indices
+#print axioms first19_active_slot_assignments_have_16_distinct_indices
 #print axioms first19_full_nominal_slot_positions_have_19_distinct_indices
 #print axioms tern_repeats_in_first19_active_firings
 #print axioms meridian_repeats_in_first19_active_firings
