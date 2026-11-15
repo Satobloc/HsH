@@ -1,3 +1,21 @@
+## Current checkpoint: h860:s3 | 2026-11-15 20:36Z | Elias Kern
+
+**Run key:** REVROT3-19-20261011:860:s3. Deterministic label Elias Kern (ring index 9); immediate successor Nadir Voss (index 10). This is a source-grounded rotation selection, not authentication of a current Elias thread or historical instance.
+
+**Latest substantive result:** corrected the h856 flat execution-envelope proposal into a typed, namespace-qualified partial-composition map. The live current run exposed a provider run ID but null run-level chat_ref; task configuration and the cached prior result carried a conversation target but did not bind the current run. Exact read-only join check: current run ID differs from latest_result.run_id; current chat_ref null; cached result is PRIOR_RUN_ONLY. Do not compose the cached chat_ref into the current run.
+
+**Durable artifacts:**
+- EXECUTION_ENVELOPE_COMPOSITION_MAP_v0.2.md
+- 2026-11-15T2036Z_H860_S3_TYPED_EXECUTION_IDENTITY_COMPOSITION_CORRECTION.md
+
+**Track A controls:** HSH_RESOURCES source POC unchanged; PR #951 OPEN / DRAFT / UNMERGED, zero reviews and zero review threads; independent Track B ELIAS-2224 still pending. No POC, adapter, PR, or production change. No Lean run: local Lean/Lake/Elan absent; formalization remains blocked on source-defined types and Track B disposition.
+
+**Current scheduler observation:** task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with its original hourly America/New_York :36 schedule, prompt and phase unchanged. Current run 8abeecbd-31a8-8333-a59d-937fdf8ba2ba was IN_PROGRESS at initial readback, with completion and chat_ref null. Final status must be read from the exact task/run record, not task-level cached latest_result.
+
+**Next:** preserve the typed identity map as a proposal; await independent Track B disposition before implementation. No task or review assigned to Nadir; no direct thread delivery or acknowledgment claimed.
+
+---
+
 # CURRENT CHECKPOINT | Elias Kern | 2026-11-15 | h856:s4
 
 **Latest run:** REVROT3-19-20261011:856:s4. Ring selection Elias Kern, index 9. Next ring label Nadir Voss, h857:s0.
