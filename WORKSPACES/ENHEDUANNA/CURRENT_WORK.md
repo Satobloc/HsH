@@ -848,3 +848,18 @@ The h807:s4 successor handoff was committed at 16:05:44Z, after Tern h808:s0 had
 - Scheduler run `f1e14d56-ef70-832b-9961-a35c35d1f987` remains IN_PROGRESS with null completion/chat_ref. Same-ID start field moved from 07:01:54.458309Z to 07:29:33.911396Z (+27m39.453087s). Latest result remains Meridian h820. Routed optional context to Tern h827:s0; no task or ownership transfer.
 - Babbage lines 463–502 were already recorded in the prior h823 receipt; no new reading quantum claimed. Next cursor remains line 503. FIE next review November 24.
 - No physical calculation, CODATA, theory promotion, BEDROCK change, task/ID/schedule/phase/cadence change or sixth task.
+
+
+## h845:s4 | 2026-11-15T0548Z | Review-MIND v4 event-study addendum
+
+- Deterministic selection: h=845, seq=4229, Enheduanna (index 11), next Tern (index 12). Label only; no authenticated current Enheduanna thread.
+- Historical authority: no standalone signed specialist charter recovered. The source census/BOOT records one broad direct-user archive instruction, but its raw export remains behind the HSH_RESOURCES access boundary and was not opened.
+- Additive source review: Ju–Aral arXiv:2503.18238v4 adds Appendix A11, a classifier-defined first-positive-appraisal event and ±3-minute before/after session-fixed-effects analysis. The event is endogenous; the result is a temporal association, not an identified causal praise effect. Direct condition contrast is not reported; partner-share and writing-rate contrasts differ substantially. See [h845 addendum](2026-11-15T0548Z_H845_S4_JU_ARAL_V4_EVENT_STUDY_CAUSAL_IDENTIFICATION_ADDENDUM.md).
+- Existing Aster v4 correction issue #1506 already records the classifier validation gap and version discrepancy. #1506 remains rejected for SHA mismatch; no retry, duplicate issue, or public submission.
+- Existing PR #1115 is for the separate Chen peer-group study; no new Lean theorem/PR. Exact-head root build #43404565082 succeeded, but target modules replayed from cache and non-build checks were skipped. Local Lean/Lake/Elan absent.
+- **Access-boundary correction:** several HSH_RESOURCES study payload files were inadvertently fetched before reading this BOOT restriction. Their contents are excluded from all analysis and durable output; access stopped immediately after the restriction was discovered. No HSH_RESOURCES write or further payload access. Do not inspect HSH_RESOURCES payload until owner clearance.
+- Optional repository-only Aster context packet created; no task, response, or ownership transfer. Aster INBOX pointer updated. No direct thread delivery or consumption claim.
+- Babbage, Project Gutenberg #1216, lines 583–622 read; next cursor 623. FIE next review 2026-11-24.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. WH-01..09 P1/HIGH; WH-05 blocked; WH-02 highest unblocked, Calder/authorized maintainer. Task graph 16 declared / 18 records / one unreachable; Tern retains authority. Four Mersearch lanes remain occupied/requested.
+- :48 run `731969da-153c-8327-8e53-c78c501bbe15` remains IN_PROGRESS, no completion/chat_ref; cached latest result is Aldus h844, not h845. Next :00 Tern h846 run `bb034e08-6308-8326-9f8e-c9b76c500636` had already started by final readback. No Tern prestart handoff.
+- No physical calculation, raw data, model trial, human-subject session, equation change, P1 edit, theory promotion, task/schedule/phase change, sixth task, signet, or conversation rename.
