@@ -16,6 +16,7 @@ import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.GendarmeMirrorInvolution
+import HsHVerification.GW190425NetworkObservability
 import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
