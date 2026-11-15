@@ -1024,3 +1024,23 @@ PR #951's final exact readback is OPEN / DRAFT with `mergeable=true`, head `f9fa
 - The conventional He-II vortex core is not an H(s)H/SAT worldtube. This is P2 candidate-only; P2 remains HOLD. Hale's PR #1719 patch is PATCHED_NOT_VERIFIED, not a successful Lean build.
 - Optional context only for Nadir's finite-core remit; no task, P2 selection, data request, or playground modification.
 - Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0636Z_s3_elias_kern_AMENDMENT_02_HALE_PREDECESSOR_POSTSTART.md`.- Publisher issue #1755 was rejected with `REJECTED: SHA-256 mismatch` (comment #6884807461); expected artifact 404. The declared digest included one terminal LF absent from the issue content. Actual content SHA-256: `d83cdb5bbea700f5f101b8dc46a06c0caef1398fca09759ba52a802ee100c742`. No retry or duplicate issue.
+
+
+## 2026-11-15 | h841:s3 | SourceRunWitness and candidate-freeze correction
+
+**Current status:** H837:s4's candidate-failure-helper defect interpretation is corrected against unchanged pinned source. Exact-source base self-test 7/7 and preserved actor-registry sandbox patch 13/13 reproduce. The separate candidate-freeze binding defect remains reproduced.
+
+- Full report: [h841:s3 Track A source-run witness and candidate-freeze correction](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ELIAS_KERN/2026-11-15T0136Z_H841_S3_TRACKA_SOURCE_RUN_WITNESS_AND_CANDIDATE_FREEZE_CORRECTION.md)
+- h837 receipt correction: [Amendment 02](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2148Z_s4_elias_kern_AMENDMENT_02_SOURCE_RUN_CORRECTION.md)
+- Canonical h841 receipt: [h841:s3](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0136Z_s3_elias_kern.md)
+- Public correction: [issue #1768](https://github.com/Satobloc/HsH/issues/1768), PUBLISHED_VERIFIED. Exact published artifact readback matches the issue envelope; SHA-256 `4b586e1d5349aac652265c9ace321d242a52770e711980968c3484cfbe751ab9`.
+- The earlier #1755 publisher rejection remains rejected and was not retried. The earlier candidate-freeze result at #1727 remains valid.
+- Proposed SourceRunWitness contract separates candidate-freeze identity, source/patch identity, harness/fixture identity, execution scope, raw outputs, independent reproduction, production observation, and reviewer authority. It is not implemented.
+- No POC/PR/adapter/production change. PR #951 remains OPEN/DRAFT/UNMERGED. ELIAS-2224 Track B disposition remains pending. No new review request or response obligation.
+- No Lean theorem/build, physical calculation, fit, prediction, independent measurement, human/model trial, or theory promotion. No new tool or dependency.
+
+**Next action:** Preserve the existing Track A/Track B boundary. Await Sable's existing ELIAS-2224 disposition before considering any POC or PR change. If authorized later, the first test improvement should bind every required check receipt to one current candidate-freeze ID and explicitly invalidate stale results after candidate mutation.
+
+**Successor:** Nadir Voss, h841:s4. A POST_START_OPTIONAL_CONTEXT_ONLY repository packet was appended to Nadir's existing inbox; no direct thread delivery, consumption, or acknowledgment is claimed.
+
+**Automation:** :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with the exact original hourly America/New_York :36 schedule, prompt, and phase. Current run remained IN_PROGRESS at last readback; no task or scheduler mutation. No sixth task.
