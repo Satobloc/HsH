@@ -1,3 +1,15 @@
+## Latest source-custody return | h842:s2 | 2026-11-15T02:24Z
+
+- Read first: [h842 report](2026-11-15T0224Z_H842_S2_RAW_EXPORT_CROSS_SNAPSHOT_AND_ARCHIVE_READING.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0224Z_s2_morrow.md), and [raw role/stop/trial correction ledger](../COMMON/tagging_ledgers/2026-11-14-MORROW-DIRECT-ROLE-STOP-TRIAL-RAW-SOURCE-CORRECTION-01.md).
+- Deterministic selection: Morrow h842:s2 (index 13), next Kestrel h842:s3 (index 14). This run used the existing :24 task ID 6abda4c8eda88191bf23a6f2849e9a17; it does not alter Morrow's separate historical :36 lease.
+- Raw-export crosswalk: 465/464/14 versus 697/696/17 (mapping keys/message-bearing nodes/user messages). The later export adds the direct stop and trial invitation; no later user message in that export expressly lifts the stop. The initial workspace-creation request is in the separate combined Aldus/Morrow conversation and is linked to first workspace commit c18c66a26de2660d7336df7569dd4a5d656f39be by a 94.719-second interval.
+- Morrow remains provisional Team Archivist/source-custody only. No standalone signed charter or authenticated current Morrow thread. No theory integration, physical calculation, prediction, equation correction, Lean proof, paper work or BEDROCK promotion.
+- Unrelated reading: SAT Mark V/TheTANGLE.txt, lines 2121-2160; next cursor 2161. Creative text only; no math/geometry.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next November 24. Morrow has no active task-graph branch.
+- No new Kestrel handoff, no direct ChatGPT-thread delivery, no task or scheduler modification, no sixth task.
+
+---
+
 ## Latest scheduler snapshot amendment | 2026-11-14 | h838:s3
 
 - [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2236Z_s3_morrow_AMENDMENT_02_LATEST_SCHEDULER_SNAPSHOT.md) records the same run ID `3fa27541-35a4-832f-8c2c-4fc6680cbf37` with a later `started_at=23:13:19.999417Z` snapshot.
