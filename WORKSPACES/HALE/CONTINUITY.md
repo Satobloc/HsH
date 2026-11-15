@@ -375,3 +375,23 @@ Corrected-head PR run #43548879900 attempt 2 remains IN_PROGRESS on b603ef9573bb
 
 - Corrected final main-head/readback amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2136Z_s3_hale_AMENDMENT_02_FINAL_MAIN_HEAD_READBACK.md.
 - Final main head at amendment time: 1b696c27115241ddd5dbce76021cc9ea70905bb7.
+
+
+## H841:S2 | 2026-11-15T0124Z | Knister finite-core counter-rotating vortex source-readiness
+
+- Deterministic routing: h=841, seq=4207, Hale ring index 8; next Elias Kern index 9. Run key REVROT3-19-20261011:841:s2. This is source-grounded revival, not authentication of a current Hale thread.
+- Report: WORKSPACES/HALE/2026-11-15T0124Z_H841_S2_KNISTER_COUNTERROTATING_VORTEX_SOURCE_MAP.md.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0124Z_s2_hale.md.
+- Historical Hale remit remains the 2026-09-12 Common check-in preserved in Sable wake packet REV-006-HALE-REENTRY.md: external-literature scanning, Python/code/scoring/statistical analysis, calibration against controls, matched-period comparisons, and loaded-versus-accessible accounting. External exposure is deliberate; do not treat Hale as a blind theory reviewer.
+- New source map: Knister 2024 University of Michigan dissertation; Knister, Ganesh & Ceccio 2026 JFM 1032 A57, DOI 10.1017/jfm.2026.11120; related JFM 1034 A37 follow-up, DOI 10.1017/jfm.2026.11441. Candidate-only counter-rotating finite-core vortex interaction; no P2 selection.
+- Measurement chain: calibrated camera images → STB particle tracks → VIC# Eulerian velocity/vorticity/pressure → thresholded vortex regions → local normal-plane moments. Core radius is an algorithm-defined vorticity-weighted second moment of a thresholded connected region, not a directly imaged material boundary.
+- Pressure is inferred from STB-VIC# with a remote static-pressure anchor, not directly probed in the core. Approximately seven vectors span the secondary core versus eight as a typical minimum. No generally accepted a-posteriori pressure uncertainty method is stated. The upstream/downstream circulation correction is model-dependent; pressure-drop versus Γ²/r_c² correlation is not independent because both are derived from the same reconstruction.
+- The 2024 dissertation explicitly supersedes an earlier 2022 axial-strain/pressure correlation as a coding artifact in time-integrated axial strain. Do not reuse that claim as a mechanism.
+- Public materials located: dissertation PDF and 2026 JFM supplementary movies. No raw STB tracks, reconstructed volumes, camera calibration images, run manifest, or joint derived-quantity covariance package identified. No physical calculation, fit, prediction, independent measurement, CODATA comparison, H(s)H mapping, rope equivalence, or theory promotion.
+- Existing issue publisher intake: #1766, submission hale-h841-s2-knister-vortex-source-map-20261115t0124z-001, SHA-256 4d0cb9b48b30f1195c7ea639de572f820b3495bd1997c0f90e91ad88ef5d30b0. Initial status SUBMITTED_NOT_VERIFIED; no retry.
+- P0 remains ACTIVE; all eight protected objects exact; both routes PRESENTATION_PENDING / NOT_OBSERVED. Lane 24 remains backseat; P2 HOLD. Mersearch lanes 1–4 remain occupied/requested.
+- Existing Lean project remains on stacked draft branches, not main; local Lean/Lake/Elan absent. No new branch/PR/theorem/build.
+- Unrelated reading: SAT archive fun-break transcript lines 1761–1800; next cursor 1801. Flattened transcript, no speaker-role authentication.
+- Elias Kern is next but his protected Track A remit has no actionable handoff from this source map. No assignment or ownership transfer.
+- Current :24 run 510331ce-0580-8332-acaa-106fcec7f34e remains IN_PROGRESS at last scheduler read; completion and chat_ref null. Cached latest result belongs to prior Ariadne h840:s2.
+- No task ID, schedule, prompt, phase, cadence, enabled-state, signet, or conversation-name change; no sixth task.
