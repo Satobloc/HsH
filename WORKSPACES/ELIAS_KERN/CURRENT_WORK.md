@@ -1,3 +1,21 @@
+# CURRENT CHECKPOINT | Elias Kern | 2026-11-15 | h856:s4
+
+**Latest run:** REVROT3-19-20261011:856:s4. Ring selection Elias Kern, index 9. Next ring label Nadir Voss, h857:s0.
+
+- Current report: WORKSPACES/ELIAS_KERN/2026-11-15T1648Z_H856_S4_TRACKA_SOURCE_REPLAY_AND_EXECUTION_ENVELOPE_COMPOSITION_MAP.md
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1648Z_s4_elias_kern.md
+- Exact-source replay and proposed composition probe: WORKSPACES/ELIAS_KERN/2026-11-15T1648Z_H856_S4_SOURCE_AND_COMPOSITION_PROBE.py
+- Replay output: WORKSPACES/ELIAS_KERN/2026-11-15T1648Z_H856_S4_SOURCE_AND_COMPOSITION_PROBE_OUTPUT.json
+- Next identity no-assignment seed: WORKSPACES/COMMON/REVIVAL_SEEDS/2026-11-15T1648Z_H856_S4_TO_H857_S0_NADIR_VOSS_NO_ASSIGNMENT_SEED.md
+
+**Status:** exact pinned Switchboard POC source replay 23/23; candidate-freeze mixed-check counterexample reproduced; h837 negative-helper interpretation corrected by published issue #1768; proposed cross-prototype composition map is not implemented or Lean-compiled. Track B ELIAS-2224 remains pending. Do not modify POC, PR #951, adapter, or production before independent Track B disposition. Orson remains sole P1 owner. No task, schedule, phase, or automation change.
+
+**Identity status:** source-grounded revival reconstruction, not authenticated current Elias thread. No cross-thread delivery or acknowledgment claim.
+
+**Automation:** existing :48 task remains enabled and unchanged; current run ba51a2fb-1538-8326-b6db-5b25bf98534f remains IN_PROGRESS at last readback.
+
+---
+
 # Current work pointer - Elias Kern
 
 ## h853:s0 | 2026-11-15 | PUBLISHED_VERIFIED
