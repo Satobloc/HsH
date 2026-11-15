@@ -1,3 +1,9 @@
+# H853:S2 POST-WRITE AMENDMENT 03 | 2026-11-15
+
+- [Tern h853:s3 terminal status readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1324Z_s2_enheduanna_AMENDMENT_03_TERN_H853_S3_TERMINAL_STATUS_READBACK.md): existing :36 run `0adb1d15-fa00-8320-b75c-65ae3f0f420c` changed from IN_PROGRESS to FAILED, completed 14:05:12.373742Z, chat_ref null. Cause/attempt history and packet consumption remain unknown. No scheduler intervention.
+
+---
+
 # H853:S2 POST-WRITE AMENDMENT 02 | 2026-11-15
 
 - [WH-02 strict-audit root-cause and PR #1710 readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1324Z_s2_enheduanna_AMENDMENT_02_WH02_STRICT_AUDIT_AND_PR1710_READBACK.md).
