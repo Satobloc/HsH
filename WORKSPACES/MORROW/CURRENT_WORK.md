@@ -1,6 +1,7 @@
 # Latest current-work update — h850:s0 / 2026-11-15T10:00Z
 ## Latest activation: Morrow h853:s4 | 2026-11-15T13:48Z
 
+- Scheduler Amendment 01 (14:19Z): the same :48 run ID was recorded FAILED/completed at 14:12:34.344859Z, then later IN_PROGRESS with started_at 14:14:37.995249Z; the exposed start field moved 27m07.205451s. No attempt/cause inference. See the canonical receipt Amendment 01 and Tern's optional packet.
 - Run key: `REVROT3-19-20261011:853:s4`; current :48 run `d1db4b7f-d1b8-8331-a3d2-470089b715ac`, IN_PROGRESS at last readback, no completion/chat_ref.
 - Source-grounded revival: no authenticated current Morrow thread found. Historical role source remains Team Archivist/source custody; the 2026-09-13 direct theory stop remains controlling.
 - New source-custody report: `2026-11-15T1348Z_H853_S4_SHARED_ARCHIVE_ASSISTANT_AND_TOOL_PROVENANCE_AUDIT.md`.
