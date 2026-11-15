@@ -11,7 +11,7 @@ This note corrects two prior locator statements without rewriting either histori
 
 - Conversation title: Workshop Relay :24 | Geometry
 - Conversation ID: 6aea46dd-dc60-83ea-8d50-689c152340e3
-- Library raw export: Workshop Relay _24 _ Geometry - raw (1).json
+- Library raw export: Workshop Relay :24 | Geometry - raw (1).json
 - Raw size: 5,160,151 bytes
 - Raw SHA-256: de035c9ee69a0a1916d9fb938e32355be23bf05054cd77bc4a810c5af3f7cf0e
 - Mapping: 1,011 nodes; recovered current ancestry: 1,009 nodes.
@@ -40,7 +40,7 @@ The November 8 geometry source is a different raw conversation:
 
 - Title: ND Workshop Relay :24 | Geometry
 - Conversation ID: 6aecede1-4c08-83e9-abc4-da64f59a4f51
-- Library raw export: ND Workshop Relay _24 _ Geometry - raw.json
+- Library raw export: ND Workshop Relay :24 | Geometry - raw.json
 - Raw size: 8,331,175 bytes
 - Raw SHA-256: 875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d
 
