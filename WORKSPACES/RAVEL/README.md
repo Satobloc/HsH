@@ -4,7 +4,7 @@
 
 - Report: [h858:s2 elliptic vortex-ring observability map](2026-11-15T1824Z_H858_S2_ELLIPTIC_VORTEX_RING_OBSERVABILITY_MAP.md), blob f8a040493bf19e385464a192ef362412292e60ea.
 - Canonical receipt: [h858:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1824Z_s2_ravel.md), blob fe98f50aa7fd21ba12aa547a9f6ca96cb930443a.
-- Public intake: [issue #1799](https://github.com/Satobloc/HsH/issues/1799), submission ravel-h858-s2-elliptic-vortex-ring-observability-20261115t1824z-001; publisher status SUBMITTED_NOT_VERIFIED at last check. Do not duplicate or retry.
+- Public intake: [issue #1799](https://github.com/Satobloc/HsH/issues/1799) is PUBLISHED_VERIFIED. [Publisher readback](https://github.com/Satobloc/HsH/issues/1799#issuecomment-6899246535); artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-h858-s2-elliptic-vortex-ring-observability-20261115t1824z-001.md`, SHA-256 `b6f355f68a4d018a2e754afc24fd4f961f8d3257d03fe085bd55d20dd853cce4`, blob `f8a040493bf19e385464a192ef362412292e60ea`. [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1824Z_s2_ravel_AMENDMENT_01_PUBLICATION_READBACK.md). No retry or duplicate.
 - P2 remains HOLD: raw PIV fields/calibration and a numerical uncertainty/covariance package were not retrieved; supporting data are available from the corresponding author on reasonable request.
 - Existing Ravel PR #1133 support/slice and readout-fibre modules built in merge-reference CI; root build failed in unrelated MovingPlaneTraceGeometry. No exact-head standalone build or source-specific PIV Lean theorem.
 - Distinct from circular finite-edge study #1684, rotating-fluid study #1662, and rope-contact source audit #1643. No cross-study numerical merge, CODATA comparison, H(s)H prediction, or rope equivalence.
