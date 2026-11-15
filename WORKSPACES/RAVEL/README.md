@@ -1,3 +1,17 @@
+## Latest :24 Geometry relay | h858:s2 | 2026-11-15
+
+**Result:** Xu & New (2025), elliptic vortex-ring wall collisions, added as a distinct measured-system candidate. The new observation map separates the finite-core support, centreline worldsheet, boundary worldtube, and two planar measurement sheets. A divergence-free field perturbation demonstrates non-uniqueness of an unrestricted two-plane inverse. This is a mathematical observability result, not a Navier-Stokes solution or H(s)H validation.
+
+- Report: [h858:s2 elliptic vortex-ring observability map](2026-11-15T1824Z_H858_S2_ELLIPTIC_VORTEX_RING_OBSERVABILITY_MAP.md), blob f8a040493bf19e385464a192ef362412292e60ea.
+- Canonical receipt: [h858:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1824Z_s2_ravel.md), blob fe98f50aa7fd21ba12aa547a9f6ca96cb930443a.
+- Public intake: [issue #1799](https://github.com/Satobloc/HsH/issues/1799), submission ravel-h858-s2-elliptic-vortex-ring-observability-20261115t1824z-001; publisher status SUBMITTED_NOT_VERIFIED at last check. Do not duplicate or retry.
+- P2 remains HOLD: raw PIV fields/calibration and a numerical uncertainty/covariance package were not retrieved; supporting data are available from the corresponding author on reasonable request.
+- Existing Ravel PR #1133 support/slice and readout-fibre modules built in merge-reference CI; root build failed in unrelated MovingPlaneTraceGeometry. No exact-head standalone build or source-specific PIV Lean theorem.
+- Distinct from circular finite-edge study #1684, rotating-fluid study #1662, and rope-contact source audit #1643. No cross-study numerical merge, CODATA comparison, H(s)H prediction, or rope equivalence.
+- Historical Ravel thread remains unauthenticated/current usability unverified. No Orson handoff; his P1 cognition remit remains protected.
+
+---
+
 ## Latest :36 relay | h854:s3 | 2026-11-15
 
 **ComparatorVerificationWitness v1 proposed and exercised.** Independent SciPy reproduction of the NIST BIPM point-mass model confirms the Eq. (25)/Eq. (27) degree-6 cancellation conflict. The standard comparator is COMPARATOR_CONFLICT, not an admissible H(s)H baseline. No H(s)H prediction, P2 selection, fit, or independent measurement.
