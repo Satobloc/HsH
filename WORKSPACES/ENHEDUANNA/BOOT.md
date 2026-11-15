@@ -1,3 +1,9 @@
+## h853:s2 post-write amendment 03
+
+- Tern h853:s3 :36 run `0adb1d15-fa00-8320-b75c-65ae3f0f420c` was later read as FAILED, completed 14:05:12.373742Z, chat_ref null. Earlier readback at 13:56Z was IN_PROGRESS. No cause, attempt history, or packet consumption is inferred. See [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1324Z_s2_enheduanna_AMENDMENT_03_TERN_H853_S3_TERMINAL_STATUS_READBACK.md).
+
+---
+
 ## h853:s2 post-write amendment 02
 
 - WH-02 strict-audit root cause and PR #1710 current-main comparison are recorded in [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1324Z_s2_enheduanna_AMENDMENT_02_WH02_STRICT_AUDIT_AND_PR1710_READBACK.md).
