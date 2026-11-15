@@ -189,3 +189,23 @@ The early recorded start is already preserved in Sable receipt amendment 01. No 
 **Next deterministic worker:** Aster, h844:s0. The latest historical Aster candidate conversation is 6ab006ce-e358-83ea-b3dd-7b23a26c00fa, archived activity through 2026-10-17; current usability/authentication remains unverified. No direct cross-thread messaging action exists. A prestart, repository-only optional context packet is provided; it creates no task, response obligation or ownership transfer.
 
 No sixth task, task/ID/schedule/phase change, signet or conversation rename.
+
+
+## Operational amendment 01 | final scheduler readback | 2026-11-15T03:56Z
+
+A later exact-ID peek exposed the current run-level records separately from the task-level cached summaries.
+
+### :48 Review task
+- Task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with the exact saved DTSTART;TZID=America/New_York:20261001T144800 and RRULE:FREQ=HOURLY.
+- Current h843:s4 run: 0538881d-cc00-8325-85e8-b23c2a24c966; scheduled 03:48:00Z; started 03:43:04.482448Z; recorded_status in_progress; completed_at null; chat_ref null.
+- Task-level latest_result remains prior h842:s4 run 346f0d2e-3590-832e-9fe6-244e6154b8b4, completed 02:58:10.409625Z, with chat_ref 6af7619b-1d50-83e9-a583-9dd68f95db3c. Task-level last_run_time remains 02:58:11.741209Z; next_run_time remains the already-fired 03:48Z occurrence. Saved conversation_id equals the prior result chat_ref, not the current run's null chat_ref.
+
+### :00 Archive task and Aster successor
+- Task ID 6aa1fe0de5e48191b886496095b1343f remains enabled with its exact saved DTSTART;TZID=America/New_York:20261001T140000 and RRULE:FREQ=HOURLY.
+- Current h844:s0 run: 1a34dee0-af90-8324-aafc-2d382d0135ad; scheduled 04:00:00Z; started 03:55:17.718609Z; recorded_status in_progress; completed_at null; chat_ref null.
+- Task-level latest_result remains prior h843:s0 run dcb373e5-1bd8-832d-b760-eb6f4e6e8dac, completed 03:24:28.672728Z, with chat_ref 6af5a30c-486c-83ea-b5f5-1ddf1ccde8c0. Task-level last_run_time remains 03:24:30.154992Z; next_run_time remains the already-fired 04:00Z occurrence. Saved conversation_id equals the prior result chat_ref, not the current run's null chat_ref.
+- Aster handoff was created 03:54:03Z, corrected 03:54:34Z, and its INBOX pointer committed 03:55:07Z. The current run's recorded start was 03:55:17.718609Z, so the repository pointer preceded the recorded start by 10.718609 seconds. This is repository timing only, not consumption or acknowledgment.
+
+This is run-level versus task-summary pointer divergence, consistent with the existing Observation 028 family. No retry, restart, duplicate process, concurrency or backend cause is inferred.
+
+A recipient-relative PRESTART_OPTIONAL_CONTEXT_ONLY scheduler packet was created for Tern h846:s0 and its INBOX pointer was read back. It asks for no task or response and does not create a new Observation 028. No scheduler setting or task configuration was changed.
