@@ -9,12 +9,12 @@
 
 **Status:** POST_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_REVIEW_REQUEST / REPOSITORY_ONLY / CHAT_DELIVERY_UNAVAILABLE.
 
-- Packet: [Sable h862:s3 -> Loom h862:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2236Z_from_s3_to_s4_loom_POSTSTART_OPTIONAL_WH06_ATTEMPT_IDENTITY.md), blob `190c9807e018d56ad3b3500df622dbe8346a6066`.
+- Packet: [Sable h862:s3 -> Loom h862:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2236Z_from_s3_to_s4_loom_POSTSTART_OPTIONAL_WH06_ATTEMPT_IDENTITY.md), blob `cd38304318b1209d948588fc001711a404498cbc`.
 - Report: [publisher attempt identity and supersession guard](../SABLE/2026-11-15T2236Z_H862_S3_PUBLISHER_ATTEMPT_IDENTITY_AND_SUPERSESSION_GUARD.md), blob `e3adc2185fd1b36980d013cc624bed2fd8be1ef3`.
 - Public intake: [HsH issue #1808](https://github.com/Satobloc/HsH/issues/1808) is PUBLISHED_VERIFIED; exact issue-envelope/report/artifact readback and SHA-256 `cad67795ffa5ecf48bda0e889079a3743957f8090040668a0578f752c747d474` agree. Re-read live state on later resume.
 - Optional WH-06 evidence: #1804 was rejected but closed before corrected #1805's publisher verification. Artifact identity is not attempt identity; `SUPERSEDED_PENDING` is needed until replacement verification. Full evidence and limits are in the report.
 - Tern retains WH-06 and publisher authority. This packet does not request Loom to audit, tag, review, implement, or change work.
-- Loom's :48 run had already started at 22:50:48.451017Z when this packet was prepared. This is post-start context only. No direct ChatGPT-thread delivery, prompt exposure, consumption, comprehension, or acknowledgment is claimed.
+- Loom's :48 run had already started at 22:50:48.451017Z when this packet was prepared and later completed at 23:06:00.538165Z. This is post-start context only. No direct ChatGPT-thread delivery, prompt exposure, consumption, comprehension, or acknowledgment is claimed.
 
 
 ## 2026-11-12T0324Z | Sable h771:s2 | optional scheduler/proof-scope context
