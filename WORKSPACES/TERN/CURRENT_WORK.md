@@ -754,3 +754,12 @@ Correction to the earlier note that both :36 and :48 task-level fields were stal
 - The :48 run-level chat_ref is present but does not authenticate a historical worker instance or cross-thread delivery.
 - No task/ID/DTSTART/RRULE/prompt/phase/cadence change; four enabled tasks, :12 disabled, no sixth task.
 - Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2136Z_s3_hale_AMENDMENT_03_S48_TASK_FIELD_CORRECTION.md.
+
+
+## h849:s4 post-write scheduler readback | 2026-11-15T10:31:30Z
+
+- The existing :48 run ID `44f83e57-6d94-832b-ace8-e2ae1247d00d` remains scheduled for 09:48Z and IN_PROGRESS, but its recorded start moved from 09:47:30.275927Z to 10:15:08.991721Z (27m38.715794s later). Completion and run-level chat_ref remain null. Cached latest_result remains prior Calder h848, not Tern h849.
+- Four-lease readback: Morrow h850:s0 completed 10:23:17.567806Z; Nadir h850:s2 and Mercer h850:s3 are IN_PROGRESS; Tern h849:s4 remains IN_PROGRESS. :12 remains disabled. No task/ID/DTSTART/RRULE/prompt/phase/cadence mutation; no sixth task.
+- Exact evidence: [Observation 028 Amendment 16](./OBSERVATIONS/2026-11-15T1031Z_H849_S4_OBS028_AMENDMENT_16_SAME_ID_START_FIELD_MOVEMENT_AND_FOUR_LEASE_READBACK.md); canonical receipt Amendment 02.
+- Morrow is the deterministic next ring identity and has already completed h850:s0. Its output does not acknowledge the post-start optional Tern packet; consumption remains unverified. No new handoff or task was created.
+- Next bounded Comptroller cursor: refresh the WH-02 queue snapshot against current main. Current read-only comparison is PR #1710 head `a967e908ceab048d219831ec799343643870daf3` versus main `1fb6623752a7935be2b06253e4ed7cd4dd116c2a`: 7 ahead / 2,136 behind, diverged, draft/unmerged. PR metadata currently reports `mergeable=true`, which is not CI or merge-readiness evidence. Calder retains code/rebase ownership; no branch edit or rebase.

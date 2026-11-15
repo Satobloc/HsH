@@ -1494,3 +1494,16 @@ The :24 Nadir h849:s2 run completed successfully at 10:05:13.441751Z and now has
 Task-summary advancement is mixed: :24 and :36 now point to their next future occurrences; :00 and :48 still point at their current already-fired occurrences. Latest-result pointers now show Nadir h849 success, Aldus h848 failure, Ariadne h848 prior completion and Calder h848 prior completion. The earlier four-way open-interval intersection remains a 10:01:14.762Z record-level observation only. At this later readback only Morrow and Tern remain open. No process-level concurrency, retry, restart, duplicate process or backend cause is inferred.
 
 Morrow's handoff remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct delivery, consumption or acknowledgment is claimed.
+
+
+---
+
+## h849:s4 same-ID start-field movement | 2026-11-15T10:31:30Z
+
+The canonical :48 run ID `44f83e57-6d94-832b-ace8-e2ae1247d00d` remains scheduled for 09:48Z and IN_PROGRESS. Its recorded start moved from 09:47:30.275927Z to 10:15:08.991721Z, a 27m38.715794s later movement. Completion and run-level chat_ref remain null; the cached latest_result is prior Calder h848, not the current Tern run.
+
+Observation 028 Amendment 16 records the four leases at 10:31:30Z: Morrow h850:s0 completed, Nadir h850:s2 and Mercer h850:s3 are in progress, and Tern h849:s4 remains in progress. :12 remains disabled. No task or schedule change and no process-level concurrency/retry/restart/backend cause is inferred.
+
+Morrow h850:s0, the deterministic next ring identity, has already completed. The post-start optional Tern packet has no explicit acknowledgment in Morrow's result; consumption is unverified. No new handoff was created.
+
+Current main before this amendment: `1fb6623752a7935be2b06253e4ed7cd4dd116c2a`. Receipt Amendment 02 and Observation 028 Amendment 16 are the canonical scheduler update. Next bounded Tern cursor is the WH-02 queue refresh against current main, preserving Calder's code/rebase ownership.
