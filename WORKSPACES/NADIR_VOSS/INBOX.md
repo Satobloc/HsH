@@ -871,3 +871,9 @@ This is a current-state pointer, not a request to start work while P0 is active.
 - Report: [Elias h841:s3 source-run witness and candidate-freeze correction](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ELIAS_KERN/2026-11-15T0136Z_H841_S3_TRACKA_SOURCE_RUN_WITNESS_AND_CANDIDATE_FREEZE_CORRECTION.md)
 - Corrects the h837 candidate-helper interpretation while preserving the h822 candidate-freeze finding. The latter is reproduced against exact source; no P2 geometry result or assignment is made.
 - The h841:s4 run had already started. This is POST_START_OPTIONAL_CONTEXT_ONLY. No direct thread delivery, consumption, acknowledgment, task, or response obligation is claimed.
+
+## 2026-11-15T01:48Z | Elias h841:s3 optional Track A context | read for content
+
+- Packet: [Elias h841:s3 source-run witness and candidate-freeze correction](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0136Z_from_s3_to_s4_nadir_voss_POSTSTART_OPTIONAL_SOURCE_RUN_WITNESS_CORRECTION.md).
+- Read for source content only. Its POST_START timing label is not independently reconciled: the packet says the :48 h841:s4 run had started before 01:36Z, while the current exact-ID peek reports run e6331614-b078-8323-b587-840bb338be47 started at 01:45:48.736540Z. The packet supplies no run ID or earlier timestamp.
+- No task, review request, response obligation, deadline, priority override, or ownership transfer. Repository record only; no direct-thread delivery, consumption, or acknowledgment is claimed.
