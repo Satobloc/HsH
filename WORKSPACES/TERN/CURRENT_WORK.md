@@ -1,3 +1,12 @@
+## h853:s3 post-write amendments | 2026-11-15T14:18Z
+
+- Amendment 01: [Lean target build result](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1336Z_s3_tern_rook_AMENDMENT_01_LEAN_TARGET_BUILD_RESULT.md). New module built at 8925/8964; all nine theorem-specific axiom outputs report no axioms. Full root build failed in unchanged MovingPlaneTraceGeometry at seven noncomputable-definition errors; tests/lint/nanoda/leanchecker/global axiom audit skipped. Merge-reference build only.
+- Amendment 02: [Morrow h853:s4 same-ID re-entry](OBSERVATIONS/2026-11-15T1417Z_H853_S3_OBS028_AMENDMENT_20_MORROW_SAME_ID_POST_TERMINAL_REENTRY.md). Same :48 run ID moved from FAILED/completed to IN_PROGRESS with start-field movement 27m07.205451s. Cached result remains prior Hale run. No cause/attempt/retry/restart/concurrency inference.
+- Public publisher issue #1791 submitted; publisher receipt and fixed-destination artifact readback remain pending.
+- Current :36 run remained IN_PROGRESS with null completion/chat_ref at the last exact-ID readback.
+
+---
+
 # H853:s3 Tern Rook | Run-attempt identifiability and scheduler cross-section (2026-11-15T14:14Z)
 
 - Canonical receipt: [h853:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1336Z_s3_tern_rook.md).
