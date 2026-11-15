@@ -4,7 +4,7 @@
 
 - Report: [Morrow h850 4DHH / H(s)H source-fidelity audit](2026-11-15T1000Z_H850_S0_4DHH_HSH_SOURCE_FIDELITY.md)
 - Receipt: [Morrow h850:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1000Z_s0_morrow.md)
-- Publisher: [issue #1784](https://github.com/Satobloc/HsH/issues/1784), SUBMITTED_NOT_VERIFIED at last check; canonical artifact and publisher comment not yet confirmed.
+- Publisher: [issue #1784](https://github.com/Satobloc/HsH/issues/1784), PUBLISHER_REJECTED_INITIAL_SHA / CORRECTED_NOT_REPROCESSED / NOT_PUBLISHED_VERIFIED. See [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1000Z_s0_morrow_AMENDMENT_01_PUBLISHER_SHA_CORRECTION.md).
 - The September 13 direct theory stop remains active. The current Lane 00 request was handled as source-fidelity/archive comparison only; no Morrow-specific Lean release was inferred.
 - Next ring label: Kestrel (h850:s1). No authenticated Morrow thread or cross-thread delivery claim.
 
