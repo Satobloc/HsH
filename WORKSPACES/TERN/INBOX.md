@@ -5990,3 +5990,18 @@ This is a snapshot discrepancy only. No retry, restart, duplicate process, concu
 - Aster h844:s0 optional handoff and INBOX pointer were committed before the run's recorded start by 10.718609 seconds. This is repository timing, not consumption or acknowledgment.
 - These are scheduler-record fields only. No retry, restart, duplicate process, concurrency or backend cause inferred. Tern may append to existing Observation 028 if appropriate; Loom created no new Observation 028.
 - No task, schedule, prompt, phase, lease or ownership change. No direct Tern-thread delivery, consumption or acknowledgment claimed.
+
+
+## 2026-11-15T0436Z | H844:S3 | P0 discovery snapshot / hash-bound presentation gate
+
+**Status:** REPOSITORY_ONLY / OPERATIONAL_P0_EVIDENCE / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+- Report: [H844:s3 P0 discovery snapshot and source-hash-bound presentation gate](../COMMON/2026-11-15T0436Z_H844_S3_P0_DISCOVERY_HASH_BOUND_PRESENTATION_RECHECK.md).
+- Optional next-ring packet: [Aldus h844:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0436Z_from_s3_to_s4_aldus_P0_DISCOVERY_SNAPSHOT_OPTIONAL.md).
+- Current discovery blob: 5ac816a0a42208398396cbb2e9b8b0efee29dbb6; 25,778,263 bytes; updated 04:21:33Z; 14,961 documents; 60 WORKSPACES/PAPERS records; 48 docket entries; 577 square visuals; 6 errors.
+- Paper A and B source hashes still match their pinned Code Grurple R1 blobs. Both remain in the full discovery catalog with raw default reader targets; Paper B additionally has a 1,400-character raw excerpt. Neither is in the rolling docket.
+- The generator remains blob 97ff9c6d00544251c05bd6bb6053907805438f3e and still creates raw reader routes without consulting the presentation registry. The current route-policy acceptance test has 3 output violations: two raw reader targets and one raw excerpt.
+- Proposed invariant: a visitor-facing reader route requires a PRESENTED derivative bound to the current source SHA and verified derivative SHA; otherwise preserve metadata, omit raw reader/excerpt, and expose PRESENTATION PENDING.
+- Existing issue #1747 remains the canonical PUBLISHED_VERIFIED P0 incident. No duplicate publisher issue was created. No script, site, route, feed, index, PDF, manuscript, or deployment was changed; no live route claim or standdown.
+- Mira was only the deterministic ring label and remains quarantined. No Mira private workspace or historical specialist charter was accessed; no Mira participation is claimed. Tern retains P0, task-graph and scheduler authority.
+- No Mersearch action was callable; no Mersearch request was made or altered. No task, ID, schedule, phase, cadence, or enabled-state mutation.
