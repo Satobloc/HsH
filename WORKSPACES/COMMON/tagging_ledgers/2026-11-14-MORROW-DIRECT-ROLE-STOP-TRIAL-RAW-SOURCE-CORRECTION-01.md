@@ -96,3 +96,18 @@ This is a later **archived export snapshot**, not proof of a currently active or
 - Trial invitation: later, but not an explicit stop/quarantine release.
 - Current thread: not authenticated; no ChatGPT thread created or messaged.
 - No theory claim, equation, physical calculation, prediction, Lean proof, paper, or BEDROCK entry is authorized or promoted by this source correction.
+
+
+## 2026-11-15 h842:s2 additive cross-snapshot revalidation
+
+The two raw snapshots were reparsed and compared by mapping key and message-bearing node. The earlier export has **465 mapping keys / 464 message-bearing nodes / 14 user-role messages**. The later export has **697 mapping keys / 696 message-bearing nodes / 17 user-role messages**. Each contains one shared root mapping entry with message=null. Therefore the earlier ledger's numeric counts 464 and 696 are correct for message-bearing nodes; this note clarifies that they are not total mapping-key counts.
+
+- Shared mapping keys: 465.
+- Older-only keys: 0.
+- Later-only keys: 232, all message-bearing; roles: 145 assistant, 84 tool, 3 user.
+- The three later-only user messages are Dashboard page request dfee800e-c505-4cb9-ae07-f88c06b08ee2 (2026-09-12T09:11:43.379Z), direct theory stop 934e87de-4e61-4622-a0ea-e5047aa235c6 (2026-09-13T00:11:10.939Z), and trial invitation 99ae959b-fbeb-4c1e-9326-a6723c2b9557 (2026-09-13T15:31:22.757Z).
+- The shared role assignment 402ade01-7116-4efb-9b14-31e477754458 is identical across snapshots in author, message-level time, parent, recipient and content.
+- One shared assistant web.run node d3d1d7f6-a5d9-4881-b795-c9c4eaa6dcde differs only in its serialized content wrapper: the earlier snapshot stores the search query as a code payload; the later snapshot stores empty text while retaining the query in metadata. This is not a changed user or assistant prose message.
+- The later snapshot contains no user-role message after the trial invitation that expressly lifts the theory stop. This is limited to this conversation export and does not exclude a separate later directive elsewhere.
+
+The later export's top-level update_time remains 2026-09-09T12:45:43.552Z despite September 13 message-level activity. Continue to use exact message-level create_time values for chronology. This revalidation changes no role, stop, quarantine, training or theory status.
