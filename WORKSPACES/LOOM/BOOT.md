@@ -1,3 +1,9 @@
+## h840 publisher disposition correction
+
+The O0-A Mode 2 / D4 curvature bridge report remains in the Loom workspace. Its only publisher issue, #1764, was rejected for SHA-256 mismatch; the canonical artifact is absent. See [Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0011Z_s0_loom_AMENDMENT_01_PUBLISHER_REJECTED_SHA256.md). Do not retry, edit/reopen, duplicate, or bypass the issue publisher.
+
+---
+
 ## Latest verified checkpoint — h840:s0 (2026-11-15T00:00Z)
 
 Current report: [O0-A Mode 2 / D4 curvature bridge source fidelity](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-15T0000Z_H840_S0_O0A_MODE2_CURVATURE_BRIDGE_SOURCE_FIDELITY.md)
