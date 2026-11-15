@@ -1,3 +1,23 @@
+# Current checkpoint | 2026-11-15 | h841:s0
+
+## New source-fidelity result
+
+[Full report: 4D tube/core/boundary, timesheet and worldsheet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-15T0100Z_H841_S0_4D_TUBE_CORE_BOUNDARY_TIMESHEET_WORLD_SHEET_SOURCE_FIDELITY.md)
+
+The primary November 8 source was recovered from the user's Library and verified at 8,331,175 bytes, SHA-256 `875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d`. It describes a 4D tube region around a 1D core, a 3D boundary, a mouth/timesheet interface, and a possible 2D worldsheet mode. It distinguishes spatial w from proper time t. The direct source does not select a metric, normal-fiber topology, mouth attaching map, or worldsheet projection.
+
+The strongest dimensionally compatible candidate is conditional: core ∩ timesheet is 0D; tube-region ∩ timesheet is 3D; tube-boundary ∩ timesheet is 2D, assuming one shared smooth 4D ambient and transversality. The 2D boundary section is not automatically a 2D history/worldsheet.
+
+Existing Lean work was reconciled. Ravel PR #1133's relevant dimension/readout modules compiled in run #43636677645, but the overall PR build failed later in MovingPlaneTraceGeometry. Kestrel PR #873's exact PR-head build #43202552666 passed for conditional algebraic force-curvature and Euclidean lifted-curve results. Neither establishes the physical mapping. No new Lean module was justified.
+
+## Publication and successor
+
+Workspace report commit is recorded in the repository history. Issue #1767 was submitted, but the issue publisher skipped the workflow because the title did not start with `[HSH-PUBLISH-V1]`. No canonical artifact exists. Do not retry or create a duplicate issue; retain `SUBMITTED_NOT_VERIFIED`.
+
+Optional post-start context for Calder h841:s1: [common handoff](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0100Z_from_s0_to_h841s1_calder_POSTSTART_OPTIONAL_GEOMETRY_SOURCE.md). No assignment, response obligation or ownership transfer.
+
+---
+
 # Aldus | Current Work | Latest activation h833:s2 | 2026-11-14T17:24Z
 
 ## Latest return point — h833:s2 | 2026-11-14T17:24Z
