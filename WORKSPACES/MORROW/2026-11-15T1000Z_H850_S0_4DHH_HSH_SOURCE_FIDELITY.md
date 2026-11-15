@@ -148,7 +148,48 @@ The inspected source set supports a more precise statement than “all the Lagra
 
 The exact source equations were preserved as encountered. No corrected equation, replacement Lagrangian, or new physical model was authored.
 
-## 8. Discrepancy ledger
+## 8. Original SAT-O1 and Blockwave custody — inherited unchanged
+
+These two originals were not re-fetched or rehashed in this Morrow run. The exact custody values and verbatim source surfaces below are inherited from the independently read Mercer h843 publication and its cited source audit; no original or corrected equation file was edited.
+
+### SAT-O1 original
+
+- Path: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SAT O1 4D.txt`
+- Git blob: `7577aa1ee5a6c3850ce3b226c75377de6367aedc`
+- SHA-256: `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937`
+- File-index timestamp: `2025-06-09 18:44:50`; timezone unspecified and not a composition date.
+- Attribution: unbylined historical artifact.
+
+Verbatim core equations:
+
+```tex
+\gamma^\mu(\lambda) = \left( \lambda, A_x \sin(k_x \lambda + \phi_x), A_y \sin(k_y \lambda + \phi_y), A_z \sin(k_z \lambda + \phi_z) \right)
+v^\mu(\lambda) = \frac{d \gamma^\mu}{d \lambda}
+S[\gamma] = \int d\lambda \, L(\gamma^\mu, v^\mu)
+L = \frac{1}{2} m v^\mu v_\mu - V_{\text{tension}}(\gamma)
+```
+
+The prose describes a swept vibrating filament as a 4D worldtube; the displayed equations define a 1D curve. No sweep/thickening map, cross-section, or finite-core embedding is supplied in this source surface.
+
+### Blockwave original
+
+- Path: `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt`
+- Git blob: `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`
+- SHA-256: `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`
+- Upload event: `2025-09-16T16:31:26.687Z`; attachment event, not a composition date.
+- Attribution: user-supplied attachment; embedded prose is assistant-voiced, author unresolved.
+
+Verbatim core source surface:
+
+```tex
+\nabla_\mu J^{\mu\nu} = 0
+J^{\mu\nu} = \frac{1}{2}\epsilon^{\mu\nu\rho\sigma}\nabla_\rho B_\sigma
+u^\mu u_\mu = -1
+```
+
+The Blockwave object is a conserved rank-two / two-form current in its own source surface. It is not silently identified with SAT-O1's 1D curve, the 4DHH curve generator, or a He-3 constituent count. Existing corrected forms remain separate assistant reconstructions; this report makes no correction.
+
+## 9. Discrepancy ledger
 
 | ID | Discrepancy | Classification | Disposition |
 |---|---|---|---|
@@ -164,13 +205,13 @@ The exact source equations were preserved as encountered. No corrected equation,
 | M850-10 | RMS could be merged with SAT by broad “same methodology” language | Category error risk | Preserve direct distinction: related method/epistemics, different theories |
 | M850-11 | Assistant reports 215 lines for Ravel baseline; current file has 225 lines | Snapshot/version uncertainty | Do not call error without the contemporaneous baseline blob; retain both counts and seek version history |
 
-## 9. Formalization and physical-calculation gate
+## 10. Formalization and physical-calculation gate
 
 **No Lean module or run.** The global proof-first rule was applied as a formalization triage, but Morrow's worker-specific direct stop still excludes Lean proof absent an explicit Morrow-specific release. Independently, the source does not define the projection/thickening/composition maps needed to state the proposed equivalences as precise propositions. Local `lean`, `lake`, and `elan` are not installed in this runtime. No existing CI build is represented as a new proof.
 
 No physical calculation, data-free fixture, numerical fit, prediction, CODATA scoring, or observational validation. The Ravel baseline's electron-scale assignment remains quarantined; no measured system/dataset, provenance, units, uncertainties, or prediction-versus-fit separation was supplied for a physical calculation.
 
-## 10. Search, governance, and reading controls
+## 11. Search, governance, and reading controls
 
 - Mersearch was attempted first by inspecting the documented four-lane bridge. All four request files remain `status=requested`; all twelve request-scoped manifest/receipt paths returned 404. No lane was free. No request was overwritten or retriggered. No local pinned checkout exists in this runtime. Bounded GitHub code search was used as fallback, not represented as a Mersearch result. HSH_RESOURCES root README and AI start page were read; no research payload was searched/opened.
 - HsH, SAT archive, and HSH_RESOURCES onboarding/root orientation was read. HsH main branch at the pre-write check: `d0531d08a8657f299649cff36a901f68239b69b6` (the verified main head immediately before this report commit).
@@ -181,7 +222,7 @@ No physical calculation, data-free fixture, numerical fit, prediction, CODATA sc
 - FIE last recorded full review: November 10; next due November 24.
 - Unrelated source reading completed: SAT Mark V `TheTANGLE.txt`, lines 2161–2200. Next cursor: line 2201. This is a reading quantum, not a physical break.
 
-## 11. Next deeper cursor
+## 12. Next deeper cursor
 
 1. Recover the source-authored 4DHH / hyperhelical / BYO Lagrangian originals and role-authenticated message ancestry; do not treat the LLM DROP or assistant-voice documents as Nathan Direct.
 2. Resolve the exact relation among `SAT.4DHH.UC.pdf`, `SAT_4DHH_UC.pdf`, and `4DHH LAGRANGIAN (nolat).pdf` from source manifests and original author messages.
