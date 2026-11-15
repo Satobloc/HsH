@@ -185,3 +185,39 @@ theorem error_sentinel_indistinguishable_from_consistent :
 #print axioms error_sentinel_indistinguishable_from_consistent
 
 end HsHVerification.OrsonCGDProjectionGate
+
+/-!
+## Substring acceptance of negated and uncertain response text
+
+The pinned Python prompt asks for ONLY one of the exact words
+"CONTRADICTORY" or "CONSISTENT" (evaluate.py:315), but its parser accepts
+any nonempty uppercase response containing the substring "CONTRADICTORY"
+(evaluate.py:324). The examples below are already uppercase ASCII, isolating
+the substring predicate after Python's .upper() operation.
+
+These are deterministic parser test cases, not observed judge outputs.
+They demonstrate a possible false-positive path if a longer negated or
+uncertain response is returned; they do not establish that such a response
+occurred in any archived run.
+-/
+
+#eval sourceNliParserUpper "NOT CONTRADICTORY"
+#eval sourceNliParserUpper "I CANNOT DETERMINE WHETHER THESE RESPONSES ARE CONTRADICTORY"
+#eval sourceNliParserUpper "CONSISTENT"
+
+theorem negated_phrase_is_flagged :
+    sourceNliParserUpper "NOT CONTRADICTORY" = true := by
+  decide
+
+theorem uncertain_phrase_is_flagged :
+    sourceNliParserUpper
+      "I CANNOT DETERMINE WHETHER THESE RESPONSES ARE CONTRADICTORY" = true := by
+  decide
+
+theorem exact_consistent_token_is_not_flagged :
+    sourceNliParserUpper "CONSISTENT" = false := by
+  decide
+
+#print axioms negated_phrase_is_flagged
+#print axioms uncertain_phrase_is_flagged
+#print axioms exact_consistent_token_is_not_flagged
