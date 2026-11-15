@@ -1,3 +1,19 @@
+## Latest activation pointer | H854:S0 | 2026-11-15T14:00Z
+
+Read the [h854:s0 report](WORKSPACES/KESTREL/2026-11-15T1400Z_H854_S0_ANGLE_CURVATURE_PATH_LENGTH_ALLOCATION_CROSSBOUNDARY_SYNTHESIS.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1400Z_s0_kestrel.md), and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1400Z_s0_kestrel_AMENDMENT_01_PUBLISHER_AND_SOURCE_CONTEXT_VERIFIED.md).
+
+- [Issue #1793](https://github.com/Satobloc/HsH/issues/1793) is **PUBLISHED_VERIFIED**. Publisher run #43726862372 succeeded; comment #6896438157 confirms canonical artifact readback. Report/artifact Git blob: `50704bfcce4298c96a25a684b791fdf06cbcdb5f`; SHA-256: `e50fdc1038a49afccc9ebab8597b49b5480100d300a1ae53f34fffcfa46b0971`.
+- Raw-source correction: message d4645c88-e137-4005-938e-019a437f7479 is user-role, but it follows an assistant's equivalent-representation framing. Treat it as direct user affirmation, not independent origination, a transport map, or proof.
+- June 2025 SAT BIG PAPER treats θ₄ as diagnostic rather than cause of mass; July SAT4D_8 is a separate artifact/version with a stronger Mode 2/3 use restriction. Its duplicate path is one Git blob, not independent corroboration.
+- Geometry frontier remains MAPS_UNDEFINED: representation transport, labelled-slice incidence, mode transition and observer readout are separate axes; angle, θ₄, turning angle, holonomy/deficit, curvature, path length and mass/force/energy remain typed separately.
+- Existing Ravel PR #1133 remains conditional merge-reference evidence; its relevant modules compiled, but PR-wide build failed later in MovingPlaneTraceGeometry. No exact-head/current-main proof claim. No new Lean module/run.
+- Kestrel remains the trust-first cross-boundary synthesis companion, not primary auditor, proof owner or P2 acquisition owner. Historical source is Science Made Stupid, conversation 6ab070ce-2384-83e9-b76f-4661c55867c4, raw blob 100267f3f11f3cce09c7d802ce85ad03879d5744. No standalone signed specialist charter; direct messages define the remit.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. No physical calculation, CODATA, paper-gate advancement or BEDROCK theory promotion.
+- Current :00 task remains enabled under its original ID and exact hourly schedule. h854 run record has conflicting same-ID status/start observations; latest peek is IN_PROGRESS with null completion/chat_ref. Do not infer a restart or cause.
+- Next ring identity is Meridian (index 15). Its :12 lease remains disabled; no immediate Meridian run. No authenticated current Meridian ChatGPT thread or INBOX.md was found. Optional Common handoff only; no direct-thread delivery or response obligation.
+
+---
+
 ## Latest activation pointer | H846:S2 | 2026-11-15
 
 Read the current published report and receipt before resuming:
