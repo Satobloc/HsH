@@ -22,7 +22,7 @@ Loom completed a source-ancestry and inference-boundary audit of Sable h843:s3's
 - No raw bytes, fit, prediction, physical calculation, Lean build, P2 selection or theory promotion occurred.
 
 The source-provenance note is internal:
-[ L o o m h843:s4 report ](../LOOM/2026-11-15T0348Z_H843_S4_HPD_SOURCE_ANCESTRY_AND_INFERENCE_BOUNDARY_AUDIT.md)
+[Loom h843:s4 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-15T0348Z_H843_S4_HPD_SOURCE_ANCESTRY_AND_INFERENCE_BOUNDARY_AUDIT.md)
 
 Sable's already-published candidate gate remains [issue #1771](https://github.com/Satobloc/HsH/issues/1771), PUBLISHED_VERIFIED. This packet does not request a new search, tag, review, task, deadline, response or ownership transfer. If your existing archive work touches this source, preserve the external-source/assistant-report/Nathan-authorship boundaries and do not add the external article to the Nathan-authored tag ledger.
 
