@@ -891,3 +891,279 @@ theorem source_change_makes_previous_observation_unbound
 #print axioms source_change_makes_previous_observation_unbound
 
 end HsHVerification.CodeGrurplePresentationOutcome
+
+
+
+/-!
+## Discovery projection and eligibility layer
+
+The discovery catalog has several distinct projections: internal inventory,
+public metadata, excerpts, rolling-docket membership, and default reader
+targets. Docket selection is not an access-control boundary. A record may be
+indexed and excluded from the docket while still carrying a raw reader target.
+
+This model keeps those decisions separate. Raw excerpts and default reader
+targets require a current presentation derivative bound to the exact source
+blob and a source-consistent discovery snapshot. Metadata-only discovery may
+remain visible while presentation is pending.
+
+The snapshot, derivative-existence, and digest-binding fields are external
+evidence inputs. Lean checks the stated contract; it does not inspect GitHub
+commits, compute hashes, inspect generated JSON, or observe a live reader.
+-/
+namespace HsHVerification.CodeGrurpleDiscoveryProjection
+
+open HsHVerification.CodeGrurpleObservationGate
+
+inductive PresentationEligibility where
+  | pending
+  | sourceOnly
+  | presented
+deriving DecidableEq, Repr
+
+/-- External witness for one discovery refresh and one record's source blob.
+    The compare result must establish that sourceCommit is the refresh commit's
+    parent and that the refresh changed only the generated discovery index. -/
+structure DiscoverySnapshotWitness where
+  sourceCommit : GitCommitSha1
+  refreshParent : GitCommitSha1
+  refreshCommit : GitCommitSha1
+  recordSourceBlob : GitBlobSha1
+  refreshDiffOnlyGeneratedDiscovery : Bool
+deriving DecidableEq, Repr
+
+def discoverySnapshotConsistent
+    (w : DiscoverySnapshotWitness) (currentSource : GitBlobSha1) : Prop :=
+  gitCommitSha1Shape w.sourceCommit = true ∧
+  gitCommitSha1Shape w.refreshParent = true ∧
+  gitCommitSha1Shape w.refreshCommit = true ∧
+  w.sourceCommit = w.refreshParent ∧
+  w.recordSourceBlob = currentSource ∧
+  gitBlobSha1Shape w.recordSourceBlob = true ∧
+  w.refreshDiffOnlyGeneratedDiscovery = true
+
+/-- One record's independently selectable discovery/presentation surfaces.
+    readerTargetVisible means a raw/default reader target was serialized into
+    the discovery record; it does not mean that a live route rendered it. -/
+structure DiscoveryProjection where
+  sourceBlob : GitBlobSha1
+  inventoryIndexed : Bool
+  metadataVisible : Bool
+  docketEligible : Bool
+  docketIncluded : Bool
+  excerptVisible : Bool
+  readerTargetVisible : Bool
+  presentation : PresentationEligibility
+  derivativeSourceBlob : Option GitBlobSha1
+  derivativeDigest : Option Sha256Digest
+  derivativeExists : Bool
+  derivativeDigestVerified : Bool
+  snapshot : Option DiscoverySnapshotWitness
+deriving DecidableEq, Repr
+
+def derivativeCurrent (r : DiscoveryProjection) : Prop :=
+  match r.derivativeSourceBlob, r.derivativeDigest with
+  | some source, some digest =>
+      source = r.sourceBlob ∧
+      gitBlobSha1Shape source = true ∧
+      sha256Shape digest = true ∧
+      r.derivativeExists = true ∧
+      r.derivativeDigestVerified = true
+  | _, _ => False
+
+def snapshotCurrent (r : DiscoveryProjection) : Prop :=
+  match r.snapshot with
+  | some w => discoverySnapshotConsistent w r.sourceBlob
+  | none => False
+
+def presentationReady (r : DiscoveryProjection) : Prop :=
+  r.presentation = .presented ∧ derivativeCurrent r ∧ snapshotCurrent r
+
+/-- Safe projection contract. Inventory, metadata, docket, excerpt, and reader
+    target are separate decisions. Only the last two require a current,
+    source-bound presentation derivative and a source-consistent snapshot. -/
+def projectionSafe (r : DiscoveryProjection) : Prop :=
+  (r.metadataVisible = true → r.inventoryIndexed = true) ∧
+  (r.docketIncluded = true → r.inventoryIndexed = true ∧ r.docketEligible = true) ∧
+  (r.excerptVisible = true → presentationReady r) ∧
+  (r.readerTargetVisible = true → presentationReady r)
+
+theorem metadata_visibility_requires_inventory
+    (r : DiscoveryProjection) (h : projectionSafe r)
+    (hm : r.metadataVisible = true) :
+    r.inventoryIndexed = true :=
+  h.1 hm
+
+theorem docket_membership_requires_explicit_eligibility
+    (r : DiscoveryProjection) (h : projectionSafe r)
+    (hd : r.docketIncluded = true) :
+    r.inventoryIndexed = true ∧ r.docketEligible = true :=
+  h.2.1 hd
+
+theorem excerpt_visibility_requires_current_presentation
+    (r : DiscoveryProjection) (h : projectionSafe r)
+    (he : r.excerptVisible = true) :
+    presentationReady r :=
+  h.2.2.1 he
+
+theorem reader_target_requires_current_presentation
+    (r : DiscoveryProjection) (h : projectionSafe r)
+    (hr : r.readerTargetVisible = true) :
+    presentationReady r :=
+  h.2.2.2 hr
+
+/-- The observed 2026-11-15 10:25Z refresh: the embedded HsH source commit
+    equals the refresh parent; compare_commits reports one later commit whose
+    only changed path is PUBLIC_SITE/generated/discovery.json. These values
+    are source-readback inputs, not computed by Lean. -/
+def observedSnapshot (recordSource : GitBlobSha1) : DiscoverySnapshotWitness :=
+  { sourceCommit := ⟨"209dd13d543ca8ef93ae7d2b8c09f08d71136743"⟩
+    refreshParent := ⟨"209dd13d543ca8ef93ae7d2b8c09f08d71136743"⟩
+    refreshCommit := ⟨"1fb6623752a7935be2b06253e4ed7cd4dd116c2a"⟩
+    recordSourceBlob := recordSource
+    refreshDiffOnlyGeneratedDiscovery := true }
+
+/-- Paper A's actual R1 source blob in the fresh discovery snapshot. -/
+def paperAObserved : DiscoveryProjection :=
+  { sourceBlob := ⟨"13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa"⟩
+    inventoryIndexed := true
+    metadataVisible := true
+    docketEligible := false
+    docketIncluded := false
+    excerptVisible := false
+    readerTargetVisible := true
+    presentation := .pending
+    derivativeSourceBlob := none
+    derivativeDigest := none
+    derivativeExists := false
+    derivativeDigestVerified := false
+    snapshot := some (observedSnapshot ⟨"13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa"⟩) }
+
+/-- Paper B's actual R1 source blob and 1,400-character excerpt in the fresh
+    discovery snapshot. -/
+def paperBObserved : DiscoveryProjection :=
+  { sourceBlob := ⟨"0a1dca42cafd9a02faceff4ec0851659a317b2bb"⟩
+    inventoryIndexed := true
+    metadataVisible := true
+    docketEligible := false
+    docketIncluded := false
+    excerptVisible := true
+    readerTargetVisible := true
+    presentation := .pending
+    derivativeSourceBlob := none
+    derivativeDigest := none
+    derivativeExists := false
+    derivativeDigestVerified := false
+    snapshot := some (observedSnapshot ⟨"0a1dca42cafd9a02faceff4ec0851659a317b2bb"⟩) }
+
+/-- Metadata-only discovery remains admissible while presentation is pending. -/
+def pendingMetadataOnly : DiscoveryProjection :=
+  { paperBObserved with
+    excerptVisible := false
+    readerTargetVisible := false }
+
+theorem observed_snapshot_is_consistent_for_paper_a :
+    discoverySnapshotConsistent
+      (observedSnapshot ⟨"13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa"⟩)
+      ⟨"13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa"⟩ := by
+  decide
+
+theorem observed_snapshot_is_consistent_for_paper_b :
+    discoverySnapshotConsistent
+      (observedSnapshot ⟨"0a1dca42cafd9a02faceff4ec0851659a317b2bb"⟩)
+      ⟨"0a1dca42cafd9a02faceff4ec0851659a317b2bb"⟩ := by
+  decide
+
+theorem metadata_only_pending_record_is_projection_safe :
+    projectionSafe pendingMetadataOnly := by
+  simp [projectionSafe, pendingMetadataOnly]
+
+/-- A docket exclusion does not prevent a raw target from appearing in the
+    full discovery catalog. This is the actual Paper B projection pattern. -/
+theorem docket_exclusion_does_not_imply_reader_denial :
+    paperBObserved.docketIncluded = false ∧
+    paperBObserved.readerTargetVisible = true := by
+  constructor <;> rfl
+
+theorem paper_a_snapshot_violates_projection_gate :
+    ¬ projectionSafe paperAObserved := by
+  intro h
+  have hReady :=
+    reader_target_requires_current_presentation paperAObserved h rfl
+  simp [presentationReady, paperAObserved] at hReady
+
+theorem paper_b_snapshot_violates_projection_gate :
+    ¬ projectionSafe paperBObserved := by
+  intro h
+  have hReady :=
+    reader_target_requires_current_presentation paperBObserved h rfl
+  simp [presentationReady, paperBObserved] at hReady
+
+/-- A source change closes raw surfaces and invalidates the old derivative and
+    snapshot while preserving inventory, metadata, and the independent docket
+    selection. A later refresh alone cannot restore presentation eligibility. -/
+def sourceChanged (r : DiscoveryProjection) (newSource : GitBlobSha1) :
+    DiscoveryProjection :=
+  { r with
+    sourceBlob := newSource
+    presentation := .pending
+    derivativeSourceBlob := none
+    derivativeDigest := none
+    derivativeExists := false
+    derivativeDigestVerified := false
+    excerptVisible := false
+    readerTargetVisible := false
+    snapshot := none }
+
+theorem source_change_preserves_inventory_and_metadata
+    (r : DiscoveryProjection) (newSource : GitBlobSha1) :
+    (sourceChanged r newSource).inventoryIndexed = r.inventoryIndexed ∧
+    (sourceChanged r newSource).metadataVisible = r.metadataVisible := by
+  rfl
+
+theorem source_change_preserves_docket_selection
+    (r : DiscoveryProjection) (newSource : GitBlobSha1) :
+    (sourceChanged r newSource).docketIncluded = r.docketIncluded ∧
+    (sourceChanged r newSource).docketEligible = r.docketEligible := by
+  rfl
+
+theorem source_change_closes_raw_excerpt_and_reader_target
+    (r : DiscoveryProjection) (newSource : GitBlobSha1) :
+    (sourceChanged r newSource).excerptVisible = false ∧
+    (sourceChanged r newSource).readerTargetVisible = false := by
+  rfl
+
+theorem source_change_invalidates_old_snapshot
+    (r : DiscoveryProjection) (newSource : GitBlobSha1) :
+    (sourceChanged r newSource).snapshot = none := by
+  rfl
+
+theorem source_change_marks_presentation_pending
+    (r : DiscoveryProjection) (newSource : GitBlobSha1) :
+    (sourceChanged r newSource).presentation = .pending := by
+  rfl
+
+theorem fresh_snapshot_alone_does_not_enable_pending_presentation
+    (r : DiscoveryProjection) (w : DiscoverySnapshotWitness)
+    (h : r.presentation = .pending) :
+    ¬ presentationReady { r with snapshot := some w } := by
+  simp [presentationReady, h]
+
+#print axioms metadata_visibility_requires_inventory
+#print axioms docket_membership_requires_explicit_eligibility
+#print axioms excerpt_visibility_requires_current_presentation
+#print axioms reader_target_requires_current_presentation
+#print axioms observed_snapshot_is_consistent_for_paper_a
+#print axioms observed_snapshot_is_consistent_for_paper_b
+#print axioms metadata_only_pending_record_is_projection_safe
+#print axioms docket_exclusion_does_not_imply_reader_denial
+#print axioms paper_a_snapshot_violates_projection_gate
+#print axioms paper_b_snapshot_violates_projection_gate
+#print axioms source_change_preserves_inventory_and_metadata
+#print axioms source_change_preserves_docket_selection
+#print axioms source_change_closes_raw_excerpt_and_reader_target
+#print axioms source_change_invalidates_old_snapshot
+#print axioms source_change_marks_presentation_pending
+#print axioms fresh_snapshot_alone_does_not_enable_pending_presentation
+
+end HsHVerification.CodeGrurpleDiscoveryProjection
