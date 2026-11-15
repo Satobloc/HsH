@@ -881,3 +881,14 @@ The existing :48 automation remains enabled with original task ID, hourly schedu
 - Optional Meridian packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0624Z_from_s2_to_s3_meridian_POSTNOMINAL_OPTIONAL_SOURCE_LINEAGE_CONTEXT.md`. Meridian has no INBOX.md or authenticated current thread; existing P0 assignment remains controlling. No direct delivery, consumption, or acknowledgment claimed.
 - Unrelated reading: SAT archive `SAT Mark V/TheTANGLE.txt`, lines 2201-2240; next cursor 2241. FIE next review November 24.
 - No task, branch, PR, Mersearch request, tool, automation, cadence, or ownership change. No sixth task or theory promotion. Current :24 scheduler run state was not independently returned by the connector; no terminal completion claim.
+
+
+## 2026-11-15 | h854:s0 cross-boundary geometry-fidelity return
+
+- Report: [Kestrel h854:s0](2026-11-15T1400Z_H854_S0_ANGLE_CURVATURE_PATH_LENGTH_ALLOCATION_CROSSBOUNDARY_SYNTHESIS.md); receipt: [h854:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1400Z_s0_kestrel.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1400Z_s0_kestrel_AMENDMENT_01_PUBLISHER_AND_SOURCE_CONTEXT_VERIFIED.md).
+- Published and verified as [issue #1793](https://github.com/Satobloc/HsH/issues/1793). Canonical artifact Git blob matches the workspace report; SHA-256 `e50fdc1038a49afccc9ebab8597b49b5480100d300a1ae53f34fffcfa46b0971`.
+- Raw December 9 source confirms d4645c88 is a user-role affirmation of an assistant's immediately prior equivalent-representation framing. Direct attribution is valid; independent origination, parameterization and transport maps are not established.
+- June SAT BIG PAPER's θ₄ diagnostic/strain distinction and July SAT4D_8 mode restrictions remain separate historical versions. July duplicate paths share one blob; no independent corroboration.
+- Reuse Ravel PR #1133 conditional formalization; no new Lean run. Geometry/readout maps remain undefined. No physical calculation, CODATA or theory promotion.
+- Next deterministic ring label: Meridian. Its :12 lease is disabled; no current authenticated Meridian thread or INBOX.md. Repository-only optional handoff is not ChatGPT delivery.
+- FIE last reviewed November 10; next review November 24.
