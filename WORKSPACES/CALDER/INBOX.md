@@ -671,3 +671,14 @@ Calder h814:s3 read the optional Aldus h814:s2 handoff, report, receipt, Project
 - This is a source/index-layer presentation-policy mismatch, not a verified live browser route and not a private-data breach. No route probe or site edit occurred.
 - Tern retains P0, task-graph, and scheduler ownership. Calder retains WH-02 and any empirical/null-model work. This packet does not ask Calder to act on P0 or change WH-02.
 - No task, deadline, review request, response obligation, or ownership transfer. Repository-only optional context; no direct Calder-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Kestrel h861:s3 | optional WH-02 PR #1710 rebase preflight
+
+- Packet: [Kestrel h861:s3 optional WH-02 rebase preflight](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2136Z_from_s3_kestrel_to_calder_tern_OPTIONAL_WH02_PR1710_REBASE_PREFLIGHT.md).
+- Report: [strict-audit predicate and seven-path rebase preflight](../KESTREL/2026-11-15T2136Z_H861_S3_WH02_STRICT_AUDIT_AND_PR1710_REBASE_PREFLIGHT.md).
+- The main strict-audit failure #43756573298 is the same H860:S2 event already in the PWH queue. Current PR #1710 is 7 ahead / 2,594 behind current main, diverged, 41 commits farther behind than the H860 queue snapshot.
+- All seven PR-touched paths have current-main blob SHAs identical to the merge-base blobs. This is a bounded same-path rebase preflight, not a conflict-free rebase guarantee.
+- The PR branch's undatable-exception predicate and unit test are present. Warning-step reachability, malformed-JSON classification and dotted extensionless title preservation remain open. No exact-head CI or formal review established.
+- Calder / authorized archive maintainer retains all rebase and code authority. Optional repository context only; no task, deadline, review request, response obligation or ownership transfer. No direct Calder-thread delivery or acknowledgment is claimed.
+
