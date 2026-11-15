@@ -1431,3 +1431,6 @@ Execution attribution correction: the initial h843 report/receipt carried `2a5a0
 
 The :48 h843:s4 run ID is `0538881d-cc00-8325-85e8-b23c2a24c966`, started 03:43:04.482448Z and IN_PROGRESS. The Loom packet was created after that start, so it is `POST_START_OPTIONAL_CONTEXT_ONLY`. The handoff file and Loom INBOX pointer were independently read back. No direct delivery, consumption or acknowledgment is claimed.
 
+## 2026-11-15T0346Z | h843:s3 architecture non-duplication note
+
+The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission layer, not a replacement for Sable h596:s3's five-model geometry/memory/medium lattice in issue #1364. Layer 1 decides whether data access, geometric observability, H(s)H state/readout maps, uncertainty/covariance and standard comparator/holdout are closed for a particular claim. Layer 2 applies the existing geometry-only / derived-memory / independently measured medium / combined model lattice and orthogonal geometry-history-medium acquisition contrasts. HPD and Han remain non-admitted because their H(s)H maps are undefined and their uncertainty packets are incomplete; HPD also has a dataset-license conflict, while Han's raw data are request-only. No P2 selection or issue #565 mutation.
