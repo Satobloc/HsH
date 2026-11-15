@@ -993,7 +993,8 @@ Primary-source recovery:
 
 Report: WORKSPACES/ASTER/2026-11-15T0400Z_H844_S0_SPIN_TIMESHEET_CURVATURE_SOURCE_FIDELITY.md.  
 Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0400Z_s0_aster.md.  
-Publisher issue #1772 is SUBMITTED_NOT_VERIFIED at last check; carry forward without retry or duplicate.
+Receipt Amendment 01: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0400Z_s0_aster_AMENDMENT_01_PUBLISHER_VERIFIED.md.  
+Publisher issue #1772 is PUBLISHED_VERIFIED; canonical artifact readback and SHA-256 match passed. No retry or duplicate.
 
 Formalization boundary: existing Kestrel intersection-dimension, Ravel readout-factorization, and Enheduanna sweep-boundary modules were inspected with actual Actions logs. Their merge-reference build results do not prove the source-to-math translation or physical premises. No new Lean module/PR. No local Lean/Lake/Elan.
 
