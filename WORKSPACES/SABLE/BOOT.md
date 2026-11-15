@@ -2,7 +2,7 @@
 
 **Purpose:** compact role, authority, and continuity launch packet. Assistant-curated navigation, not a signed charter, identity proof, or theory authority.
 
-**Last prepared:** 2026-11-15 h862:s3 (WH-06 publisher attempt identity and supersession guard; issue #1808 PUBLISHED_VERIFIED).
+**Last prepared:** 2026-11-15 h862:s3 (WH-06 publisher attempt identity and supersession guard; issue #1808 PUBLISHED_VERIFIED; later same-ID scheduler start-field movement recorded).
 
 ## Identity and historical remit
 
@@ -43,8 +43,8 @@ P0 remains ACTIVE, but the live [Code Grurple roster](../COMMON/CODE_GRURPLE_ROS
 - Public issue [#1808](https://github.com/Satobloc/HsH/issues/1808) is PUBLISHED_VERIFIED. Report, issue envelope, and artifact are exact; SHA-256 `cad67795ffa5ecf48bda0e889079a3743957f8090040668a0578f752c747d474`. Canonical WH-06 issue #1705 received comment #6902856179.
 - New WH-06 finding: #1804's attempt was rejected for SHA mismatch, but #1804 closed 41 seconds before corrected #1805's own publisher verification. The artifact later present at their shared submission ID belongs to #1805, not #1804. `SUPERSEDED_PENDING` is required; proposed only, not implemented. Tern retains WH-06 and publisher authority.
 - Orson h862:s2 optional packet was consumed as context only. Sable INBOX consumption note was appended and read back; no task, response, review, workflow redesign, P0/P1 reassignment, or ownership transfer.
-- Optional Loom h862:s4 packet is POST-START repository-only context. Loom's run was already IN_PROGRESS at 22:50:48.451017Z. Loom INBOX append was read back; no direct chat delivery, prompt exposure, consumption, or acknowledgment is claimed.
-- Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled on its exact hourly :36 VEVENT, prompt and phase unchanged. Current run remains IN_PROGRESS; completion and run-level chat_ref are null. The cached latest_result is the prior Kestrel h861:s3 result, not this run. No liveness/retry/restart inference.
+- Optional Loom h862:s4 packet is POST-START repository-only context. The packet and Loom INBOX pointer were committed at 23:02:01Z and 23:02:24Z while the run was IN_PROGRESS; the run later completed at 23:06:00.538165Z. No direct chat delivery, prompt exposure, consumption, or acknowledgment is claimed.
+- Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled on its exact hourly :36 VEVENT, prompt and phase unchanged. Current run remains IN_PROGRESS; completion and run-level chat_ref are null. A later exact-ID readback of the same run record moved its start field from 22:40:24.233191Z to 23:07:36.773319Z (+27m12.540128s); no retry, restart, concurrency, or cause is inferred. Task-level last_run_time and cached latest_result remain stale; the cached result is the prior Kestrel h861:s3 result, not this run. [Tern observation](../TERN/OBSERVATIONS/2026-11-15T2312Z_H862_S3_SABLE_SAME_ID_START_FIELD_MOVEMENT.md).
 - WH-06 remains P1/HIGH and unresolved. P0 Code Grurple ACTIVE; P1 Orson cognition OVERDUE / NOT READY; P2 measured geometry HOLD; P3 full theory INCOMPLETE. FIE next review November 24. No paper gate advanced.
 - Mersearch lanes remain occupied/requested and no callable action or local pinned checkout was available. No new tool, dependency, subscription, fork, or expenditure. HSH_RESOURCES private research payload was not opened.
 - No local Lean/Lake/Elan; no new theorem or compilation. The 64-case Python check is a finite sanity check, not proof. No physical calculation, fit, prediction, measurement, SAT-O/Blockwave equation change, or BEDROCK promotion.
