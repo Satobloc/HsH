@@ -1,3 +1,16 @@
+## 2026-11-15 h851:s3 | Worldsheet signature and time-typing gate
+
+- Report: `WORKSPACES/ASTER/2026-11-15T1136Z_H851_S3_WORLDSHEET_SIGNATURE_TYPE_GATE.md`; receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1136Z_s3_aster.md`.
+- Public issue #1788 is SUBMITTED_NOT_VERIFIED at first readback. No retry or duplicate.
+- Proposed `WorldsheetSignatureWitness) adds metric signature/origin, time role, exact equation-source stratum, sweep map/rank, and observable-preserving reduction to the existing comparison freeze.
+- Under the positive-definite reading of `++++), an induced rank-two spatial sweep cannot be isometric to a Lorentzian real-time worldsheet. Existing Lean theorem in Kestrel PR #873 provides the conditional scalar obstruction; its PR-associated build succeeded. This does not establish the physical interpretation of `++++) or forbid an independent metric/Wick rotation.
+- Preserve direct-source `w=ct` (2026-10-09) and `cw=t` / `++++) (2026-10-21) separately. No equation correction or theory promotion.
+- Aster remains REVIEW FROZEN / CROSS-READ OPEN. No Paper A/B review, P0 edit, physical calculation, P2 selection, or independent measurement.
+- Unrelated reading: SAT archive `fun break - lx.txt`, lines 1761-1800; next 1801. FIE next November 24.
+- Existing :36 automation unchanged; run IN_PROGRESS, completion and chat_ref null. Ariadne is next ring label; optional packet POST_NOMINAL_SLOT / START_STATE_UNOBSERVED. No direct delivery or acknowledgment.
+
+---
+
 ## 2026-11-13 h806:s0 publisher-state reconciliation (later readback)
 
 This later observation supersedes the earlier checkpoint's `SUBMITTED_PENDING` state; that earlier state was accurate when recorded.
