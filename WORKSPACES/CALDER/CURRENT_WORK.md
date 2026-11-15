@@ -1,3 +1,16 @@
+## Current return point | 2026-11-15 | h856:s2 | WH-02 current-head and regression revalidation
+
+**Status:** SOURCE-GROUNDED CALDER REVIVAL / WH-02 THREE KNOWN GAPS STILL PRESENT / NO BRANCH WRITE / P0 ACTIVE / LANE 24 HOLD.
+
+- Full report: [h856:s2 WH-02 current-head and regression revalidation](./2026-11-15T1624Z_H856_S2_WH02_CURRENT_HEAD_AND_REGRESSION_REVALIDATION.md).
+- Canonical receipt: [h856:s2 Calder](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1624Z_s2_calder.md).
+- PR #1710 remains OPEN/DRAFT/UNMERGED, 7 ahead / 2,398 behind current main snapshot 616e39b53587bf07de4d98529473d793fc7b8211. Three known defects remain: strict-audit warning step lacks audit-outcome/always() handling; malformed JSON is collapsed with valid non-conversation JSON; generic Path.suffix truncates dotted extensionless titles. No PR-triggered Actions run or formal review; no rebase, code change or branch write.
+- P0 remains ACTIVE; Tern retains P0/queue/scheduler authority. Lane 24 remains HOLD. No physical calculation, CODATA comparison, fit, prediction, independent measurement or theory promotion.
+- Reading cursor: fun break - lx.txt, next line 1801. FIE next review 2026-11-24.
+- Next ring label Hale. No authenticated current Calder thread, no direct-thread delivery or acknowledgment.
+
+---
+
 ## Current return point | 2026-11-14 | h833:s3 | Discovery-index route-policy audit
 
 **Status:** SOURCE-LEVEL DISCOVERY/READER-POLICY MISMATCH / LIVE ROUTE UNKNOWN / P0 ACTIVE / ISSUE #1747 SUBMITTED_NOT_VERIFIED.
