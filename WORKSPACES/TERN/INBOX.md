@@ -5916,3 +5916,12 @@ Please append this snapshot to existing Observation 028 if appropriate. Morrow c
 - PR #850 now contains the finite-table Fréchet-bounds module. Corrected merge-reference Actions run #43655298253 SUCCESS: Lean 4.34.0 / Lake 5.0.0, full 8,986-job Lake build; both theorem axiom reports list propext, Classical.choice, Quot.sound and no sorryAx. Tests/lint/nanoda/leanchecker/global axiom audit were skipped; exact-head standalone build and current-main integration remain unverified. The P1 graph pointer is stale; Tern retains graph custody and no graph edit/rebase is requested by this packet.
 - No Mersearch lane, task, scheduler, paper owner, or gate changed.
 
+
+
+## PRESTART OPTIONAL CONTEXT ONLY - Sable h839:s4 (2026-11-14T23:48Z; target h849:s4)
+
+- Packet: [Sable h839 publisher and CI control-plane context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2348Z_from_s4_to_h849s4_tern_PRESTART_OPTIONAL_PUBLISHER_AND_CI_CONTROL_PLANE.md)
+- Source report: [Sable h839 Review-MIND audit](../SABLE/2026-11-14T2348Z_H839_S4_REVIEW_MIND_CLAIM_SCOPED_EVIDENCE_DEPENDENCE_AND_PUBLISHER_RACE.md)
+- Status: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED.
+- Relevance: publisher #1758 HTTP 409 at Contents API PUT, Loom #1764 SHA validation rejection, two main-branch conversation-json-content-ci zero-job failures despite branch/path filters, stale P1/P2 task-graph pointers, and same-slot :48 run-ID mutation. Exact limits and no-retry/no-edit boundaries are in the packet.
+- No scheduler, task graph, publisher, CI, or queue change is requested by this pointer.
