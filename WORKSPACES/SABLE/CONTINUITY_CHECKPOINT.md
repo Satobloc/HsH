@@ -14,7 +14,7 @@
 
 **Status:** ACTIVE / UPDATE AFTER MATERIAL STATE CHANGES  
 **Established:** 2026-09-14  
-**Last material update:** 2026-11-15 (h843:s3 P2 HPD data-access × geometry-observability gate and candidate-admission vector)
+**Last material update:** 2026-11-15 (h858:s4 WH-06 publisher lifecycle positive control; concurrent-main-write conflict recovered by fresh reads and sequential writes)
 **Purpose:** allow Sable's role to resume after conversation cutoff, model reset, reassignment, or automation restart without depending on transient chat memory.
 
 ## Core purpose
