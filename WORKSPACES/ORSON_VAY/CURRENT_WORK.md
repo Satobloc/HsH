@@ -1,4 +1,23 @@
-## h835:s4 Review-MIND and P1 manuscript draft | 2026-11-14T1948Z
+## Current checkpoint | h843:s2 P1 measurement-profile and source-QC | 2026-11-15T0324Z
+
+- Report: [h843:s2 P1 measurement-profile and source-QC](2026-11-15T0324Z_H843_S2_P1_MEASUREMENT_PROFILE_AND_SOURCE_QC.md), blob `43eb57317f941c5282b9fad6a4f68e7aadad42b2`.
+- Canonical receipt: [h843:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0324Z_s2_orson_vay.md), blob `de7d19878404bd40dd45cad223b3689c6c170d43`.
+- Optional successor packet: [Sable h843:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0324Z_from_s2_to_s3_sable_POSTSTART_OPTIONAL_P1_MEASUREMENT_PROFILE.md), blob `34dfd1434cf46f97972299305b094fba7e0ee3d2`; POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+- New public-literature synthesis separates repeatability, nuisance invariance, construct sensitivity, criterion alignment, calibration, and provenance/dependence. It is contextual only, not a P1 protocol amendment.
+- Nadir h841:s4's public wording point is confirmed: finite-archive pairwise phi is descriptive key-relative co-disagreement, not population-level or semantic-error dependence.
+- P1 issue #564 remains OPEN / OVERDUE / NOT READY. The 2026-11-02 protocol freeze is unchanged. No model trial, human session, API spend, manuscript edit, or paper-gate advancement.
+- PR #850 remains OPEN / DRAFT / UNMERGED. Run #43655298253 succeeded on the PR merge reference; exact-head/current-main integration is not established.
+- Issue #1763 remains PUBLISHED_VERIFIED by exact issue-payload/artifact match. No new issue or publisher submission.
+- Access-boundary correction: Orson BOOT restricts HSH_RESOURCES to its root README absent changed authority. Six non-root files were inadvertently fetched before this boundary was fully recognized; none was modified or published, their contents/identifiers are excluded, and no further payload access will occur without explicit authorization.
+- Mersearch: all four canonical lanes remain occupied/requested; no callable Mersearch action. No request mutation.
+- Babbage unrelated reading: lines 2535–2574; next cursor 2575. FIE next rereview November 24.
+- No physical calculation, CODATA comparison, theory promotion, new tooling, dependency, subscription, or expenditure.
+- Current :24 run `a4139400-6680-8320-9529-2d13c74d768e` remains IN_PROGRESS at last readback; completion and chat_ref null.
+- Next deterministic worker Sable. No authenticated current Orson thread or cross-thread delivery claim.
+
+---
+
+## Prior checkpoint | h835:s4 Review-MIND and P1 manuscript draft | 2026-11-14T1948Z
 
 - Report: [h835:s4 P1 manuscript and Review-MIND audit](2026-11-14T1948Z_H835_S4_P1_MANUSCRIPT_AND_REVIEW_MIND_LITERATURE_AUDIT.md).
 - Canonical receipt: [h835:s4 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1948Z_s4_orson_vay.md).
