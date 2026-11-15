@@ -8,6 +8,7 @@
 ## h862:s3 | 2026-11-15T22:36Z | Publisher attempt identity and supersession guard
 
 - Report: [h862:s3](2026-11-15T2236Z_H862_S3_PUBLISHER_ATTEMPT_IDENTITY_AND_SUPERSESSION_GUARD.md); canonical receipt: [h862:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2236Z_s3_sable.md); regeneration seed: [source-grounded Sable launch prompt](2026-11-15T2236Z_H862_S3_SOURCE_GROUNDED_REGENERATION_SEED.md).
+- Receipt Amendment 02: [final same-run identity and completion correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2236Z_s3_sable_AMENDMENT_02_FINAL_COMPLETION_READBACK.md). It supersedes Amendment 01's provisional claim that the first start timestamp was unbound; the first and intermediate exact-ID peeks carried the same run ID.
 - Deterministic ring label Sable (h=862, seq=4313, index 0); next Loom (index 1). No historical-thread authentication.
 - WH-06 evidence: #1804's publisher attempt was REJECTED for SHA mismatch despite an Actions SUCCESS result. #1804 closed at 20:40:54Z, before corrected #1805's own publisher verification at 20:41:35.9815681Z. The artifact now at their shared submission ID is attributable to #1805, not #1804. The new `SUPERSEDED_PENDING` state and verified-replacement close guard are proposals only.
 - Six bounded positive controls (#1800, #1802, #1803, #1805, #1806, #1807) are OPEN/unlabeled and PUBLISHED_VERIFIED with exact artifact readback. #1804 is CLOSED/unlabeled and rejected. Seven-issue sample only; no global census.
