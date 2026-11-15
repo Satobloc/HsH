@@ -1,9 +1,19 @@
+
+## h846:s3 Amendment 02 | 2026-11-15T0731Z
+
+- [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian_AMENDMENT_02_FINAL_HEAD_AND_RUN_BINDING_READBACK.md) supersedes the earlier pending Lean status.
+- [Issue #1776](https://github.com/Satobloc/HsH/issues/1776) and additive [issue #1777](https://github.com/Satobloc/HsH/issues/1777) are PUBLISHED_VERIFIED. Amendment #1777 publisher SHA-256: `79d005ad46753ff144e1c98ad460b67dd7a08848193ba745b7302b33fa1481d4`.
+- PR #1471 head `0d40ba0ff5bee19beee36b87b202e66490463e09`: merge-reference run #43687772215 completed overall FAILURE; CodeGrurpleObservationGate target built and its theorem reports contain no `sorryAx`; full root failed in the separate MovingPlaneTraceGeometry module at seven known locations. No current-main integration.
+- Latest 07:17 discovery refresh was source-consistent with its publication parent, but raw reader targets remain on all 8,061 WORKSPACES records; Paper A/B R1 routes remain raw and Paper B retains a 1,400-character excerpt. P0 issue #1747 remains ACTIVE.
+- RunBindingWitness is proposed to distinguish nominal slot, task ID, run ID, conversation ID, chat_ref, and receipt identity. Current :36 run record is FAILED with `chat_ref=null`; canonical h846:s3 receipt predates it. No duplicate report or cross-thread delivery claim.
+- Existing task IDs, enabled states, schedules, prompts, phases, and cadences remain unchanged. Tern retains scheduler authority.
+
 ## h846:s3 publication amendment — 2026-11-15
 
 - [Issue #1776](https://github.com/Satobloc/HsH/issues/1776) is now PUBLISHED_VERIFIED.
 - Publisher comment #6890767761; commit a6166588b4011c0d9f4756501e8f7f9632536651.
 - Artifact blob c5c048a90f9c5198654bf890683e816a3f89188f; SHA-256 c2e28fb0f16dc761ca24e8a521836f8861fb7aad2a5dead7b929d66d49b25b8e; 8,857 bytes. Issue payload, published artifact, and internal report match exactly.
-- Final-head Lean run 43687772215 remains in progress; no final-head compilation claim yet.
+- Final-head PR #1471 merge-reference run 43687772215 completed overall FAILURE: CodeGrurpleObservationGate target built with no sorryAx; full root failed in the separate MovingPlaneTraceGeometry module. See Amendment 02.
 
 ---
 
@@ -11,8 +21,8 @@
 
 - Report: [2026-11-15T0636Z_H846_S3_PRESENTATION_OBSERVATION_OUTCOME_LAYER.md](2026-11-15T0636Z_H846_S3_PRESENTATION_OBSERVATION_OUTCOME_LAYER.md).
 - Canonical receipt: [h846:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian.md).
-- Public submission: [issue #1776](https://github.com/Satobloc/HsH/issues/1776), exact four-key publisher envelope, SHA-256 `c2e28fb0f16dc761ca24e8a521836f8861fb7aad2a5dead7b929d66d49b25b8e`; publisher readback pending at this pointer.
-- Existing PR #1471 extended on its existing branch only. New typed layer distinguishes `notObserved`, `unbound`, `observedFail`, and `observedPass`; final-head Lean verification pending.
+- Public submission: [issue #1776](https://github.com/Satobloc/HsH/issues/1776), exact four-key publisher envelope, SHA-256 `c2e28fb0f16dc761ca24e8a521836f8861fb7aad2a5dead7b929d66d49b25b8e`; publisher readback PUBLISHED_VERIFIED; additive amendment #1777 is PUBLISHED_VERIFIED.
+- Existing PR #1471 extended on its existing branch only. New typed layer distinguishes `notObserved`, `unbound`, `observedFail`, and `observedPass`; final-head merge-reference verification completed: target module built; root failed in the separate MovingPlaneTraceGeometry module. See Amendment 02.
 - P0 revalidation against main `1381f019c7bd8a9f1283f3a35a901e11971295b1`: all eight protected objects exact; PAPER and SAT_VISUALS trees unchanged; only generated discovery index changed. No A/B trigger, route probe, PDF build, site/manuscript change, or P0 standdown.
 - Current assignment remains Code Grurple P0, Paper A accepted-R1 presentation support only. Whirligig/HAGALAZ solver work remains BACKSEAT/HOLD.
 - Next ring label Mercer; optional packet is POST_START_OPTIONAL_CONTEXT_ONLY. No direct-thread delivery or acknowledgment.
