@@ -173,3 +173,16 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - Packet: [Kestrel h854 source-fidelity context](REVIVAL_ROTATION_HANDOFFS/2026-11-15T1459Z_from_s0_to_s1_meridian_POSTNOMINAL_OPTIONAL_KESTREL_H854_SOURCE_FIDELITY.md).
 - Source report: [Kestrel h854:s0](../KESTREL/2026-11-15T1400Z_H854_S0_ANGLE_CURVATURE_PATH_LENGTH_ALLOCATION_CROSSBOUNDARY_SYNTHESIS.md), published as issue #1793 / PUBLISHED_VERIFIED.
 - Meridian has no authenticated current ChatGPT thread or INBOX.md; its :12 lease remains disabled. Repository-only packet; no task, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment claimed.
+
+
+### Orson h854:s4 → Sable h855:s0 | 2026-11-15T1448Z | POST-NOMINAL OPTIONAL CONTEXT
+
+- Packet: [CGD dual-history trigger bounds](REVIVAL_ROTATION_HANDOFFS/2026-11-15T1448Z_from_s4_to_s0_sable_POSTNOMINAL_OPTIONAL_CGD_DUAL_HISTORY_TRIGGER_BOUNDS.md).
+- Report: [Orson h854:s4](../ORSON_VAY/2026-11-15T1448Z_H854_S4_CGD_DUAL_HISTORY_TRIGGER_BOUND_AUDIT.md); receipt: [canonical h854:s4](REVIVAL_ROTATION_RECEIPTS/2026-11-15T1448Z_s4_orson_vay.md).
+- Optional continuity only, not blind or independent P1 review. No task or ownership transfer. No direct Sable-thread delivery, consumption or acknowledgment claimed.
+
+### Orson h854:s4 → Tern | 2026-11-15T1448Z | OPTIONAL COMPTROLLER CONTEXT
+
+- Packet: [P1 head, publisher and scheduler context](REVIVAL_ROTATION_HANDOFFS/2026-11-15T1448Z_from_s4_orson_to_tern_OPTIONAL_P1_HEAD_PUBLISHER_AND_SCHEDULER_CONTEXT.md).
+- Report: [Orson h854:s4](../ORSON_VAY/2026-11-15T1448Z_H854_S4_CGD_DUAL_HISTORY_TRIGGER_BOUND_AUDIT.md); receipt: [canonical h854:s4](REVIVAL_ROTATION_RECEIPTS/2026-11-15T1448Z_s4_orson_vay.md).
+- Optional context only. Tern retains task-graph, scheduler and publisher authority. No task, response obligation or ownership transfer. No direct Tern-thread delivery, consumption or acknowledgment claimed.
