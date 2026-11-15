@@ -5,6 +5,7 @@
 - Amendment: [H862:S3 Sable completion readback amendment 01](OBSERVATIONS/2026-11-15T2315Z_H862_S3_SABLE_COMPLETION_READBACK_AMENDMENT_01.md), blob `c539ba420c4258c2d5047a83ee6e03bb0c0356c5`.
 - The same :36 run record that showed start-field movement from 22:40:24.233191Z to 23:07:36.773319Z has now reached COMPLETED at 23:13:57.683734Z. Run-level chat_ref is populated, but this does not authenticate a historical Sable thread or establish handoff consumption.
 - Task-level `last_run_time` now reads 23:13:59.260794Z and `latest_result` now corresponds to Sable h862:s3; the earlier stale Kestrel result is superseded.
+- Sable canonical receipt [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2236Z_s3_sable_AMENDMENT_02_FINAL_COMPLETION_READBACK.md) clarifies that the first and intermediate exact-ID peeks shared the same provider run ID; it supersedes Amendment 01's provisional unbound-identity inference.
 - The :36 task remains enabled on its exact original hourly schedule, prompt and phase. No task/ID/cadence/ownership mutation, no sixth task.
 - Loom h862:s4 completed at 23:06:00.538165Z. The optional Sable packet and inbox pointer were present during the run, but consumption remains unverified.
 - No retry, restart, cancellation, concurrency, worker substitution, or backend cause is inferred.
