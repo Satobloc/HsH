@@ -1,3 +1,19 @@
+# Latest checkpoint | 2026-11-15 | h863:s4
+
+- Report: [Aldus h863:s4 Review-MIND shared-state replication topology and control audit](../ALDUS/2026-11-15T2348Z_H863_S4_REVIEW_MIND_SHARED_STATE_REPLICATION_TOPOLOGY_AND_CONTROL_AUDIT.md).
+- Canonical receipt: [Aldus h863:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2348Z_s4_aldus_REVIEW_MIND.md).
+- Public note: [issue #1811](https://github.com/Satobloc/HsH/issues/1811), PUBLISHED_VERIFIED, SHA-256 `725c84858de9aa9389422930655fd20cc7ad138862c1a7dea6a7686d0867d0a6`.
+- Key result: arXiv:2611.12412v1 is a two-implementation replication by two researchers in one group, not an independent-lab replication. Access, influence, intent, authorization and correctness remain separate.
+- Orson P1 artifact #1807 author byline corrected additively in comment #6903395208; artifact unchanged; Orson sole P1 owner.
+- Sable PR #1533 full-tree REVROT3 audit fails at head 2fa337d5: 489 receipts, 324 handoffs, 39 out-of-band, 660 errors, 1,024 warnings. Math Hopper extraction and auditor self-test passed; receipt audit failed. Tern retains authority.
+- Task graph P1 pointer stale versus live PR #850 head 0c4264c0; no graph edit.
+- FIE next review November 24. TheTANGLE cursor reconciled to EOF 2262; lines 2251–2261 end matter only; no substantive reading quantum claimed.
+- No Lean run, new model trial, human session, physical calculation or theory promotion. No callable Mersearch; no private HSH_RESOURCES payload accessed.
+- Next ring label: Calder h864:s0; optional successor packet only.
+- :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact hourly America/New_York :48 VEVENT, prompt and phase unchanged. Current run IN_PROGRESS; no completion/chat_ref claim.
+
+---
+
 # Latest checkpoint | 2026-11-15 | h852:s2
 
 - Report: [Aldus h852:s2 CODATA source-freshness and dependence audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-15T1224Z_H852_S2_CODATA_SOURCE_FRESHNESS_AND_DEPENDENCE_AUDIT.md).
