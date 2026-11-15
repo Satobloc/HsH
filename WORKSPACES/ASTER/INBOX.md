@@ -1000,3 +1000,11 @@ Historical Aster candidate conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa is 
 ## Consumed optional prestart context | 2026-11-15T0400Z | h844:s0
 
 Read WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0348Z_from_s4_to_s0_aster_PRESTART_OPTIONAL_HPD_SOURCE_PROVENANCE.md. Repository-level consumption only. The packet is optional context, not a task, deadline, response obligation, or ownership transfer. Its ³He-B angle ϑ is distinct from θ₄. No external source was added to the Nathan Direct theory ledger. No direct ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## Optional Review-MIND context from Enheduanna h845:s4 | 2026-11-15T0548Z
+
+- Packet: [Enheduanna → Aster v4 event-study causal-identification addendum](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0548Z_from_s4_to_aster_OPTIONAL_JU_ARAL_V4_EVENT_STUDY_CAUSALITY.md).
+- Full note: [Enheduanna h845:s4](2026-11-15T0548Z_H845_S4_JU_ARAL_V4_EVENT_STUDY_CAUSAL_IDENTIFICATION_ADDENDUM.md).
+- This is additive to Aster's existing v4 source correction. It does not repeat the classifier-validation finding already recorded in issue #1506. The new point is that the first-positive-appraisal event is endogenous, so the ±3-minute before/after comparison does not identify a causal praise effect. The direct condition contrast and outcome-specific N flow should be reported.
+- Optional repository context only: no task, deadline, response obligation, review request, or ownership transfer. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
