@@ -202,11 +202,18 @@ class Audit:
     def check_eligibility_fields(self, p, d, recipient=False):
         """Check declared access and role-source metadata; not payload semantics or actual permissions."""
         prefix = "recipient_" if recipient else ""
-        status_key = prefix + "eligibility_status"
-        payload_key = prefix + ("payload_to_recipient" if recipient else "payload_to_selected")
-        private_key = prefix + ("recipient_private_material_accessed" if recipient else "private_material_accessed")
-        inbox_key = prefix + ("recipient_inbox_write" if recipient else "inbox_write")
-        nonresponse_key = "delivery_counts_as_invitation" if recipient else "count_this_as_miss"
+        if recipient:
+            status_key = "recipient_eligibility_status"
+            payload_key = "payload_to_recipient"
+            private_key = "recipient_private_material_accessed"
+            inbox_key = "recipient_inbox_write"
+            nonresponse_key = "delivery_counts_as_invitation"
+        else:
+            status_key = "eligibility_status"
+            payload_key = "payload_to_selected"
+            private_key = "private_material_accessed"
+            inbox_key = "inbox_write"
+            nonresponse_key = "count_this_as_miss"
         schema_key = prefix + "eligibility_schema_version"
         role_key = prefix + "role_source_class"
         charter_status_key = prefix + "charter_access_status"
@@ -860,7 +867,7 @@ def self_test():
         )
         receipt.write_text(bad, encoding="utf-8")
         result = Audit().check(temp)
-        assert result["status"] == "FAIL" and any("semicolons" in e for e in result["errors"]), result
+        assert result["status"] == "FAIL" and any("semicolon-separated Git blob SHAs" in e for e in result["errors"]), result
 
         bad = valid.replace("eligibility_schema_version: 2", "eligibility_schema_version: 3")
         receipt.write_text(bad, encoding="utf-8")
