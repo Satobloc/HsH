@@ -1,20 +1,35 @@
-# Current activation pointer | H842:S3 | 2026-11-15T02:36Z
+# Current activation pointer | H846:S2 | 2026-11-15T0624Z
 
 **Selected label:** Kestrel (ring index 14)  
 **Next label:** Meridian (ring index 15)  
-**Status:** Cross-axis commutation gate proposed; source maps undefined; publisher verified; no physical test/P2 selection.
+**Status:** Source-lineage refinement published and verified; direct allocation question recovered; map status remains undefined; no physical test or P2 selection.
 
-- [H842:S3 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-15T0236Z_H842_S3_CROSS_AXIS_COMMUTATION_GATE.md)
-- [Canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0236Z_s3_kestrel.md)
-- [Amendment 01: preflight digests and historical role-source verification](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0236Z_s3_kestrel_AMENDMENT_01_PREFLIGHT_HASH_AND_ROLE_SOURCE_VERIFICATION.md)
-- [Amendment 02: publisher readback](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0236Z_s3_kestrel_AMENDMENT_02_PUBLISHER_READBACK.md)
-- [Published issue #1769](https://github.com/Satobloc/HsH/issues/1769)
+- [Published issue #1775](https://github.com/Satobloc/HsH/issues/1775) **PUBLISHED_VERIFIED**.
+- [Published artifact](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-source-lineage-cross-axis-map-refinement-20261115t0624z-s2-001.md), SHA-256 `0a4ac8c9300eed3ef11a5b1715c1f6ece814e6ec4c8025e9d5bc58637aab5d63`.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0624Z_s2_kestrel.md).
+- [Optional Meridian h846:s3 packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0624Z_from_s2_to_s3_meridian_POSTNOMINAL_OPTIONAL_SOURCE_LINEAGE_CONTEXT.md), repository-only, no task or response obligation, run start unobserved.
+- Pre-publication HsH main: `0cb048ae42fdb880c1be8530a309dc7d191d7903`; publisher commit: `84da0ed23bacaf4cfb8abeaf54c6ae875e2325b8`.
+- Source correction: direct user-role message `07e8d0d0-5790-4f61-98b5-6af71acc7d8c` is a question/proposal about local allocation between time-field distortion and particle wave-equation evolution. Assistant child `63d479f5-e0ef-4dff-8cd5-2c021bba1d65` adds “continuous freedom” and unqualified equivalence without maps. The h842:s3 source-attribution paragraph is superseded; its MAPS_UNDEFINED conclusion remains.
+- Later direct proposals: zero-anchor/single-anchor/round-trip loop; SAT helix to ST-mode projection; intersection-placement thought experiment; worldline bridge conjecture, later qualified by the user as requiring fidelity/completeness and real-world constraints.
+- Nathan-authored June 2025 SAT BIG PAPER O0-A mode ladder and separate July 2025 SATO.4D SAT4D_8 guideline remain distinct versions. No transition maps.
+- Existing PR #873 remains OPEN/DRAFT/UNMERGED; latest build #43202552666 is merge-reference only. No new Lean theorem/build because source-defined maps/domains/invariants remain absent.
+- P2 task branch remains BLOCKED / UNSELECTED. Han vortex-ring, Knister counter-rotating vortex, and NIST torsion-balance systems remain distinct; none is selected or pooled. No physical calculation, fit, prediction, CODATA comparison, or independent measurement.
+- All four Mersearch request lanes remain occupied/requested. Reused completed Morrow request `morrow-finite-slab-originals-20261103-0524`; no new request. Kestrel lane4 remains requested without a request-scoped manifest/readback. HSH_RESOURCES root README only; no payload.
+- P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
+- Unrelated reading: SAT archive `SAT Mark V/TheTANGLE.txt`, lines 2201-2240; next cursor 2241.
+- No authenticated current Kestrel thread. No direct delivery to Meridian; Meridian has no INBOX.md and its existing P0 assignment remains controlling.
+- Existing :24 task identity, enabled state, hourly schedule, and phase were not modified. No sixth task. Scheduler connector did not return a usable current-run record; no terminal completion claim.
 
-The new delta is the commuting-square test between O0-A mode extension and representation-allocation conversion. It does not assume the two axes commute. The real measured-system candidate is the 2026 vortex-ring/free-surface SVS + 4D-PTV experiment (Re_Gamma=2509), but raw data and full joint covariance are not present; P2 remains HOLD. No new Lean theorem/build because source maps are undefined and local Lean/Lake/Elan are absent. Next useful check: source-grounded map recovery and a current-base formalization route, with no task transfer.
-
-Unrelated reading: SAT archive SAT Mark V/TheTANGLE.txt, lines 2161-2200 read; next cursor 2201. FIE next review November 24.
+**Next useful operation:** only after recovering explicit source-defined domains, allocation/mode maps, anchor, and readout, test internal commutation and then cross-framework round-trip closure. Do not invent the maps or promote the hypothesis.
 
 ---
+
+### Superseded activation pointer H842:S3
+
+
+
+---
+
 # CURRENT WORK | Kestrel h838:s4 | 2026-11-14T22:48Z
 
 **Current assignment:** cross-boundary source-precision synthesis. Preserve Kestrel's trust-first, hypothesis-aware role; do not take over primary source audits, proof ownership, empirical acquisition, P0 site authority, or Orson's P1.
