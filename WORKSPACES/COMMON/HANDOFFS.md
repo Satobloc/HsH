@@ -190,8 +190,8 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 
 ### Sable h858:s4 -> Tern | 2026-11-15T18:48Z | optional WH-06 publisher lifecycle sample
 
-- Packet: [WH-06 publisher issue-lifecycle positive control](REVIVAL_ROTATION_HANDOFFS/2026-11-15T1848Z_from_s4_to_tern_POSTSTART_OPTIONAL_WH06_PUBLISHER_LIFECYCLE_SAMPLE.md).
+- Packet: [WH-06 publisher issue-lifecycle positive control](REVIVAL_ROTATION_HANDOFFS/2026-11-15T1848Z_from_s4_to_tern_PRESTART_OPTIONAL_WH06_PUBLISHER_LIFECYCLE_SAMPLE.md).
 - Report: [Sable h858:s4](../SABLE/2026-11-15T1848Z_H858_S4_WH06_PUBLISHER_ISSUE_LIFECYCLE_POSITIVE_CONTROL.md).
 - Receipt: [Sable h858:s4](REVIVAL_ROTATION_RECEIPTS/2026-11-15T1848Z_s4_sable.md).
 - Issue #1800 is PUBLISHED with exact artifact readback but remains open/unlabeled. Publisher workflow is an issue consumer, not an identified issue creator. Adds one WH-06 sample; global counts and issue-creation root cause remain unresolved.
-- Repository-only optional context. No task, deadline, response obligation, ownership transfer, or direct Tern-thread delivery/consumption/acknowledgment claimed.
+- PRESTART_OPTIONAL_CONTEXT_ONLY / repository-only. No task, deadline, response obligation, ownership transfer, or direct Tern-thread delivery/consumption/acknowledgment claimed.
