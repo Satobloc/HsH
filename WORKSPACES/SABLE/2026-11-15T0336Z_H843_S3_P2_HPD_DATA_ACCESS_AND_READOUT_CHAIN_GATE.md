@@ -198,3 +198,16 @@ Issue #1771 publisher comment #6888707938 reports:
 - Parsed issue-envelope content and retrieved artifact matched byte-for-byte at 9,705 UTF-8 bytes (9,606 JavaScript string code units).
 
 The initial `SUBMITTED_NOT_VERIFIED` state was correct at receipt creation and is superseded by this verified publication amendment. No retry or duplicate issue was created.
+
+## Architecture amendment 03 | 2026-11-15T03:46Z | Non-duplication and two-layer admission
+
+A source-history check found Sable's earlier h596:s3 model-comparison architecture, published as [issue #1364](https://github.com/Satobloc/HsH/issues/1364). That work already defines a five-model lattice (standard baseline; minimal geometry-only H(s)H; geometry plus derived memory; geometry plus independently measured medium; and a combined model only when separately identifiable) and three orthogonal acquisition contrasts (geometry, preparation/history, measured medium). It also requires shared acquisition, instrument model, nuisance budget, calibration and held-out blocks.
+
+The h843 D/G/M/U/C vector is not a replacement or repetition of that lattice. It is a **pre-admission layer** that decides whether a candidate dataset is sufficiently accessible, observable and source-mapped to enter the h596 comparison protocol:
+
+1. **Layer 1 — Candidate readiness:** D data access; G geometric observability; M H(s)H-to-physical-state and instrument-map closure; U uncertainty/covariance closure; C standard-comparator and holdout closure.
+2. **Layer 2 — Mechanism discrimination:** once Layer 1 passes for the selected claim, apply the existing five-model geometry/memory/medium lattice and the independent acquisition contrasts.
+
+Applied to the two current candidates, the constraints are orthogonal: HPD has public/open file metadata but spectral/inferred geometry, unresolved license, incomplete uncertainty packet and no H(s)H map; Han has synchronized direct spatial surface/velocity readouts but request-only raw data, incomplete uncertainty packet and no H(s)H map. Neither passes admission. This explains why the open HPD dataset is not automatically the better geometry test, and why the spatially richer Han experiment is not currently the more actionable data source.
+
+No P2 issue #565 status, owner, task graph, model lattice, or candidate selection was changed. The existing h596 lattice remains authoritative for the later mechanism-comparison stage. This amendment makes the new pre-admission layer explicitly interoperable with it rather than duplicating it.
