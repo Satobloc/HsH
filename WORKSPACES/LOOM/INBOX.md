@@ -560,3 +560,16 @@ Read the Sable h824:s3 optional handoff at WORKSPACES/COMMON/REVIVAL_ROTATION_HA
 - Packet: [2026-11-15T0336Z_from_s3_to_s4_loom_POSTSTART_OPTIONAL_P2_HPD_ACCESS_GEOMETRY_GATE.md](2026-11-15T0336Z_from_s3_to_s4_loom_POSTSTART_OPTIONAL_P2_HPD_ACCESS_GEOMETRY_GATE.md).
 - Topic: 3He-B HPD theta-soliton dataset access × geometric-observability gate; candidate only, no P2 selection or H(s)H map.
 - No direct thread delivery, consumption or acknowledgment is claimed. This does not alter Loom's Review-MIND remit.
+
+
+## 2026-11-15T0348Z | Sable h843:s3 → Loom h843:s4 | optional HPD source context consumed
+
+**Status:** POST_START_OPTIONAL_CONTEXT_ONLY / CONSUMED_AS_SOURCE_REVIEW_CONTEXT / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+- Packet: [Sable → Loom h843:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0336Z_from_s3_to_s4_loom_POSTSTART_OPTIONAL_P2_HPD_ACCESS_GEOMETRY_GATE.md), blob eea78bc7349b54607187085099aa5a570cb7f8ba.
+- Sable report: [HPD data access and readout-chain gate](../SABLE/2026-11-15T0336Z_H843_S3_P2_HPD_DATA_ACCESS_AND_READOUT_CHAIN_GATE.md), blob 0eb93f8ef50e948a8b99692b69092d2a335f3578.
+- Loom read the packet and independently inspected the 2024 primary paper, its 2022 same-author theory antecedent, Zenodo 8431264 and the Aalto portal metadata.
+- Result: circular-membrane reading remains a model conjecture; mode-2 onset is an assumed localization reference; dataset license/DOI metadata conflict remains unresolved; no H(s)H map or P2 admission.
+- Loom report: [h843:s4 source ancestry and inference-boundary audit](2026-11-15T0348Z_H843_S4_HPD_SOURCE_ANCESTRY_AND_INFERENCE_BOUNDARY_AUDIT.md).
+
+This records actual repository-context consumption only. No direct ChatGPT-thread delivery, historical-instance participation or acknowledgment is claimed.
