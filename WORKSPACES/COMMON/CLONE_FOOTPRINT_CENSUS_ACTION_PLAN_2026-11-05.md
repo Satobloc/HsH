@@ -2,9 +2,9 @@
 
 **Plan ID:** CLONE-FOOTPRINT-CENSUS-2026-11-03  
 **Created:** 2026-11-05  
-**Updated:** 2026-11-08T03:00Z  
-**Status:** ACTIVE / 19-of-19 identity dispositions recorded 2026-11-08T03:00Z / telemetry still incomplete  
-**Priority:** P2 / time-bounded operational investigation  
+**Updated:** 2026-11-15T17:24Z  
+**Status:** ACTIVE / SAT archive week complete / HsH Actions partial / daily Traffic unavailable  
+**Priority:** P1 / HIGH after 2026-11-14 15:56 America/New_York cutoff  
 **Priority authority:** Nathan Direct, 2026-11-05 upkeep/priority instruction; complements the already-open issue #1315 and existing GitHub Traffic investigation.  
 **Coordinator / control owner:** Tern (Comptroller), as task-graph and workflow-reconciliation owner.  
 **Contributors:** each distinct selected identity in the existing 19-label ring, once; coordinator may reconstruct when first-hand access is unavailable.  
@@ -227,3 +227,28 @@ This update advances the existing WH-01 plan; it does not create a new work item
 3. Evaluate a pure-stdlib offline Python normalizer for saved run/job/log snapshots. It should validate page coverage, deduplicate by `(repo, run_id, attempt, job_id, step)`, extract checkout depth/ref/checked-out SHA, and emit candidate JSONL without writing the shared ledger. No new tool was built in this run.
 
 **Status:** SAT archive 2026-11-08..14 job-level census COMPLETE; HsH Actions census PARTIAL; Traffic reconciliation BLOCKED BY CONNECTOR ROUTE; WH-01 remains P1/HIGH and OPEN.
+
+
+## h857:s2 Tern Rook update — 2026-11-15T17:24Z
+
+This additive update continues WH-01 under issue #1703. It does not change owner, priority, deadline or acceptance criteria.
+
+### HsH bounded run/job window
+
+Two non-overlapping run-created partitions were completed for 2026-11-15 17:10:00–17:19:59Z: 31 runs in 17:10–17:14:59Z and 15 in 17:15–17:19:59Z. Both were single-page results; all 46 run objects report attempt 1. All 46 were inspected at the jobs endpoint: nine job objects returned, 37 empty job arrays; two returned jobs had no checkout step. These are unknown/no-step records, not proof of no clone.
+
+Seven jobs yielded nine successful checkout steps with full job-log inputs and checked-out SHA. HsH: 3 full-history and 4 shallow-one; GLASS: 2 shallow-one. Four HsH explicit-main checkouts materialized descendants of the run event head by 1, 2, 2 and 13 commits. This is expected from explicit ref=main and is not, by itself, a failure. The two GLASS checkouts are cross-repository and not compared as same-repo SHA mismatches. All nine events are appended to the ledger with run/attempt/job/step identity and Traffic attribution UNKNOWN.
+
+The GLASS Actions run-list query for the same ten-minute interval returned zero runs; HsH's Viewer workflow nevertheless performed two GLASS checkouts. HSH_RESOURCES remained metadata/root-README only. Current repo metadata reports forks_count=0 for all three repositories; HSH_RESOURCES metadata says public while its README's internal-reference boundary remains honored.
+
+### Traffic and remaining scope
+
+The GitHub connector did not return a usable /traffic/clones?per=day response; prior clones/views routes were rejected as unsupported. This is a connector-route limitation, not permission denial. No daily Traffic, unique-cloner, Pages or residual estimate is claimed.
+
+SAT archive 2026-11-08..14 remains complete at 33 runs, 23 verified checkout steps. HsH's full target interval remains incomplete; continue non-overlapping UTC hourly partitions and inspect every page/job/attempt. Next cursor begins 2026-11-15 17:20Z. No normalizer or new tool was built; reuse the existing ledger, GitHub routes, Math Hopper, Whirligig, Lean/Mathlib infrastructure and installed SciSpace connector where relevant.
+
+### Deep upkeep
+
+The exact task_upkeep_triage.py source blob 49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01 was executed from a source-faithful temporary Python copy after recomputing and matching its Git blob SHA-1. Self-test PASS. The 18-record graph yielded 13 active/blocked/candidate and five completed records; priorities P0=3/P1=1/P2=4/P3=1/P4=1/UNCLASSIFIED=3. Pre-update metadata gaps: priority=3, owner=7, due=10, last_reviewed=11. The graph remains branch_count=16 vs 18 records, seven roots, 11 parent edges vs 10 child edges, one parent-only P2→worldtube relation, one unreachable worldtube node, no dangling references/cycles. Only the two Tern-owned review dates were refreshed; no task status, priority, owner, due date, branch count, edge or identity changed.
+
+P0 remains ACTIVE; P1 Orson cognition OVERDUE / NOT READY; P2 measured geometry HOLD; P3 full theory INCOMPLETE. FIE next review November 24. No physical calculation, CODATA comparison, Lean theorem/build, equation edit or theory promotion.
