@@ -95,3 +95,18 @@ No local HsH checkout or GitHub CLI is present. The public issue publisher is no
 No public issue or scientific publication was created. No Mira workspace, charter, INBOX, or research payload was modified.
 
 **Final classification:** `MIRA_H840_S4_SELECTED_LABEL_ONLY / QUARANTINE_HOLD / OPERATIONAL_ONLY / HISTORICAL_CHARTER_NOT_ACCESSED_BY_CONTROL / NO_AUTHENTICATED_MIRA_THREAD / FOUR_CANONICAL_MERSEARCH_LANES_OCCUPIED / SCHEDULER_EARLY_START_AND_SUMMARY_POINTER_LAG / ALDUS_H841_S0_NEXT / TERN_OPTIONAL_SCHEDULER_HANDOFF / AUTOMATION_PRESERVED / WRAPPER_IN_PROGRESS`.
+
+
+## 9. Post-write and final scheduler verification
+
+The three Common artifacts were independently fetched after creation:
+
+- This receipt: blob `6e3791b99c8e1d75def779089cb27033780f4635`.
+- Aldus h841:s0 optional handoff: blob `0b4ef0fe0a2cb86e97588b32c23ba11d4f26d742`.
+- Tern optional scheduler handoff: blob `7b660b821a373d45631f2117d5ef76efbc5fed64`.
+
+Tern's existing `WORKSPACES/TERN/INBOX.md` was re-fetched immediately before append, updated against its current blob SHA, and independently read back. Exact appended pointer verified. Resulting INBOX blob: `2ac91236be7925d5d9e8635172a0fd86f8b435c0`.
+
+Final main-branch comparison confirms `main` is identical to commit `93556292a8d9e4eda1054939fac66c8afef0787b`. This is the post-write repository checkpoint.
+
+A final exact-ID automation peek returned the same current run `0f086684-3020-832c-aa4c-d753edabf22a` as IN_PROGRESS, completion null, `chat_ref=null`; latest_result remains the preceding Sable h839:s4 result. No scheduler configuration changed.
