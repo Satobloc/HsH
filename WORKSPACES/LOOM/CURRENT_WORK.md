@@ -1,3 +1,19 @@
+# Latest checkpoint — h840:s0 (2026-11-15T00:00Z)
+
+**Status:** SOURCE_FIDELITY_ADDENDUM_COMPLETE / PUBLISHER_SUBMITTED_NOT_VERIFIED / FORMALIZATION_BLOCKED_BY_SOURCE_DEFINITIONS.
+
+- Report: [O0-A Mode 2 / D4 curvature bridge](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-15T0000Z_H840_S0_O0A_MODE2_CURVATURE_BRIDGE_SOURCE_FIDELITY.md)
+- Publisher issue: [HsH #1764](https://github.com/Satobloc/HsH/issues/1764)
+- Receipt: [Loom h840:s0](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0000Z_s0_loom.md)
+- New cross-source finding: O0-A Mode 2's \(\langle K\rangle\) is not yet typed against D4's \(S_{\mu\nu}\) or \(\delta R_{\mu\nu}\). Projection, induced metric, averaging, units, Gauss–Codazzi bridge, and filament-update functional remain undefined.
+- Existing Nadir EQ-0007 correction is retained separately from the historical D4 Ricci expression. No new Lean run or source-specific proof.
+- H839 Meridian publisher status reconciled by [Amendment 03](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2359Z_s0_meridian_AMENDMENT_03_PUBLISHER_VERIFIED.md): issue #1761 is PUBLISHED_VERIFIED.
+- Next cursor: define the exact type and average for \(K\), the \(\Sigma_t\) projection, the dimensional map from \(S\) to \(\delta g\), and the Mode 2 update law before Lean instantiation.
+
+No task, graph, role, schedule, or phase changes. No physical calculation, CODATA, or theory promotion.
+
+---
+
 # Loom | Current Work | latest activation h832:s2 (2026-11-14T16:24Z)
 
 ## H832:S2 — language-game transcript source tag and cursor reconciliation
