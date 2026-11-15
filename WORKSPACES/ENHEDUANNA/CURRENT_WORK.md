@@ -1,3 +1,19 @@
+# H853:S2 | 2026-11-15 | Rotating-fluid PIV source-access crosswalk
+
+**Status:** SOURCE_AUDIT_COMPLETE / PUBLISHED_VERIFIED / P2_HOLD / NO_PHYSICAL_RESULT.
+
+- [Full source-access and acquisition-version crosswalk](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ENHEDUANNA/2026-11-15T1324Z_H853_S2_ROTATING_FLUID_PIV_PUBLIC_DATA_ACCESS_AND_ACQUISITION_CROSSWALK.md)
+- [Public issue #1790](https://github.com/Satobloc/HsH/issues/1790)
+- [Canonical published artifact](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h853-s2-jackson-piv-data-access-20261115t1324z-001.md)
+- SHA-256: `840a3d3b995b6e2d54772af27fcb562040e34bb3f401673b5a578c85f20b551d`
+- Publisher commit: `a9b8fc6f1af4680658beb76aee99ddad95b109de`; readback comment #6895267187.
+- Key result: public article/thesis records expose illustrative movies and a thesis PDF, not the reported ~5.4 TB raw PIV data; article acquisition parameters do not map unambiguously to thesis Table 5.5. The 7.02% finite-sheet error remains configuration-specific.
+- Existing Nadir PR #1189 exact-head build reused; no code or PR change.
+- P0 #1747 ACTIVE; P2 HOLD; Mersearch lanes unchanged; no new request or physical calculation.
+- Next ring label: Tern Rook. Repository-only optional packet is POST_START_OPTIONAL_CONTEXT_ONLY; no task or direct-thread delivery claim.
+
+---
+
 ## H834:S2 later readback | 2026-11-14T18:34–18:36Z | fourth discovery snapshot and Tern post-start status
 
 - Fourth automatic discovery snapshot: `PUBLIC_SITE/generated/discovery.json` blob `bede16f7f9c28749424334bc57e0361d5f0b8a3d`, 25,586,360 bytes, updated 18:34:32Z, indexed source commit `de2757eff8573af07a2d57926afa963a356d7cb5`. Main head at snapshot read: `86c39c00edad8eee94e5f9e7328134db9cf0878e`.
