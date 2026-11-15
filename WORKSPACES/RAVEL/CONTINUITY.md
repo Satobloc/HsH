@@ -1,3 +1,17 @@
+# Latest checkpoint | Ravel | h854:s3 | 2026-11-15
+
+**Current result:** ComparatorVerificationWitness v1 proposed; NIST point-mass Eq. (25)/Eq. (27) source conflict independently reproduced with SciPy. Standard comparator is not admitted for H(s)H comparison. No H(s)H prediction, P2 selection, or theory promotion.
+
+- Report: 2026-11-15T1436Z_H854_S3_COMPARATOR_VERIFICATION_WITNESS.md.
+- Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1436Z_s3_ravel.md.
+- Script: nist_point_mass_scipy_independent_check.py; SHA-256 0aeba96277a229808e0ffbca7a46de29a744a3f97bfe79c0525af4a9e187af1d.
+- Lean provenance correction: PR #1753 run #43640470056 was a synthetic merge-reference build, not exact-head; target module built, full root failed in unrelated MovingPlaneTraceGeometry.
+- Publisher issue #1792 rejected for SHA-256 mismatch. No retry or duplicate.
+- Next ring label: Orson Vay. No physics handoff; preserve P1 cognition remit.
+- Unrelated reading cursor: Babbage, Project Gutenberg #1216, next line 2535.
+- FIE review: November 24. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE.
+
+
 > **LATEST CONTINUITY CHECKPOINT (2026-11-14 h835:s3; duplicate invocation reconciled):** Read the [h835 report](2026-11-14T1936Z_H835_S3_NIST_POINT_MASS_FACTOR_RECONCILIATION.md), [Amendments 01–03](2026-11-14T1936Z_H835_S3_NIST_POINT_MASS_FACTOR_RECONCILIATION_AMENDMENT_01_HANDOFF_POINTER_RECHECK.md), and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1936Z_s3_ravel.md) before continuing. The NIST source audit remains the only substantive h835:s3 report; no duplicate report, receipt, issue, calculation, or handoff was created by the late invocation.
 >
 > Publisher issue #1750 was rejected with SHA-256 mismatch; workflow #43636421412 completed at workflow level but wrote no artifact. The declared digest `04a7a7f179c939e847e115bb22ae3a3c9a55e448b579b5fa18296bace0f63140` differs from the independently recomputed digest `20c63d03d7ac0832d40490b4f65af1fa95c2d47f60d4188a00529d49eb3d0bf4` over the exact decoded 6,556-byte content. Amendment 02 is controlling; no retry or duplicate issue.
