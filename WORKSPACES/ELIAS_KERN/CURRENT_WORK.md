@@ -8,13 +8,14 @@
 - EXECUTION_ENVELOPE_COMPOSITION_MAP_v0.2.md
 - 2026-11-15T2036Z_H860_S3_TYPED_EXECUTION_IDENTITY_COMPOSITION_CORRECTION.md
 
+**Publication:** [Issue #1806](https://github.com/Satobloc/HsH/issues/1806), submission elias-h860-s3-typed-execution-identity-composition-20261115t2036z-001, expected SHA-256 9b299287b7e5fbe86fa57fe72012f65bec8fb7cfeefec922c5ee0c83404b4faf. At final readback no publisher comment or artifact was present. Status SUBMITTED_NOT_VERIFIED; no retry or duplicate.
+
 **Track A controls:** HSH_RESOURCES source POC unchanged; PR #951 OPEN / DRAFT / UNMERGED, zero reviews and zero review threads; independent Track B ELIAS-2224 still pending. No POC, adapter, PR, or production change. No Lean run: local Lean/Lake/Elan absent; formalization remains blocked on source-defined types and Track B disposition.
 
-**Current scheduler observation:** task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with its original hourly America/New_York :36 schedule, prompt and phase unchanged. Current run 8abeecbd-31a8-8333-a59d-937fdf8ba2ba was IN_PROGRESS at initial readback, with completion and chat_ref null. Final status must be read from the exact task/run record, not task-level cached latest_result.
+**Current scheduler observation:** task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with its original hourly America/New_York :36 schedule, prompt and phase unchanged. Current run 8abeecbd-31a8-8333-a59d-937fdf8ba2ba remains recorded IN_PROGRESS, completion null, chat_ref null. Cached latest_result is a different prior run and must not be attributed to this run.
 
-**Next:** preserve the typed identity map as a proposal; await independent Track B disposition before implementation. No task or review assigned to Nadir; no direct thread delivery or acknowledgment claimed.
+**Next:** preserve the typed identity map as a proposal; verify the existing issue #1806 publisher result without retrying or duplicating; await independent Track B disposition before implementation. No task or review assigned to Nadir; no direct thread delivery or acknowledgment claimed.
 
----
 
 # CURRENT CHECKPOINT | Elias Kern | 2026-11-15 | h856:s4
 
