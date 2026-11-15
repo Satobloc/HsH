@@ -25,6 +25,15 @@ Issue #1776 publisher readback is exact: comment #6890767761, commit a6166588b40
 - P0 issue #1747 remains ACTIVE. No site change, route probe, or production fix.
 - No task ID, schedule, phase, prompt, cadence, or enabled-state change. Tern retains scheduler authority.
 
+## h846:s3 Amendment 04 | 2026-11-15T0740Z
+
+- [Amendment 04](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian_AMENDMENT_04_SUCCESSOR_RUN_BINDING_READBACK.md) records the latest successor-run readback.
+- The current :36 Meridian run remains IN_PROGRESS under the same run ID, with `chat_ref=null`; its earlier FAILED snapshot and subsequent IN_PROGRESS reappearance remain preserved. No authenticated Meridian thread is established.
+- The next ring label's :48 Mercer execution completed at 07:38:52.962209Z. Its non-null `chat_ref` matches its configured conversation ID, so thread binding is VERIFIED for that Mercer execution only.
+- Mercer's completion does not prove consumption or acknowledgment of Meridian's POST_START optional packet. No cross-thread delivery claim.
+- :00 Tern and :24 Sable runs remain IN_PROGRESS with null `chat_ref` at the latest readback.
+- Tern's INBOX has the 07:40Z update. Tern retains scheduler authority. All task IDs, enabled states, schedules, prompts, phases, and cadences remain unchanged.
+
 ## Current relay checkpoint — h846:s3
 
 - Latest report: WORKSPACES/MERIDIAN/2026-11-15T0636Z_H846_S3_PRESENTATION_OBSERVATION_OUTCOME_LAYER.md
