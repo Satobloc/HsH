@@ -6511,3 +6511,11 @@ Issue #1800 is PUBLISHED with exact issue-envelope/artifact content equality and
 - Report: [Hale h860:s2](../HALE/2026-11-15T2024Z_H860_S2_DISCOVERY_SCOPE_AND_WH02_FAILURE_REVALIDATION.md).
 - Public-safe publisher submission: [#1804](https://github.com/Satobloc/HsH/issues/1804), run #43759039082; at pointer creation publisher run was still IN_PROGRESS, artifact readback pending.
 - Optional repository-only context. No task, deadline, response obligation, review request, ownership transfer or direct-thread delivery claim. Consumption/acknowledgment unverified.
+
+
+## 2026-11-15T20:41Z | Hale h860:s2 publisher correction
+
+- Initial intake #1804 was rejected for SHA-256 mismatch, annotated and closed as not_planned; no artifact was created.
+- Corrected same-content/same-submission-ID intake: [#1805](https://github.com/Satobloc/HsH/issues/1805), SHA-256 be44f2c015b811a1496193efdb45486e7b0d941e251d0adbb1ca6cc7e98ef6b2.
+- Publisher run [#43759381383](https://github.com/Satobloc/HsH/actions/runs/43759381383) is still IN_PROGRESS at checkout. Artifact/readback pending. No further issue, retry, or duplicate submission is authorized or planned.
+- Optional repository-only correction. No task, response obligation, ownership transfer, or direct-thread delivery claim. Consumption/acknowledgment unverified.

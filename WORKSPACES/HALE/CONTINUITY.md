@@ -430,3 +430,10 @@ Corrected-head PR run #43548879900 attempt 2 remains IN_PROGRESS on b603ef9573bb
 - P0 remains ACTIVE; P2 remains HOLD. No physical result, theory promotion, code/site/PR/graph/task/scheduler change.
 - Historical Hale remit remains external literature/scanner and statistical evidence QC; September 12 check-in is a historical self-report, not a signed specialist charter. No authenticated current Hale thread.
 - Next ring label: Elias Kern. No task or cross-thread delivery claim.
+
+
+## H860:S2 publication correction | 2026-11-15T20:41Z
+
+- Initial publisher intake #1804 was rejected for SHA-256 mismatch; no artifact was created. It was annotated and closed as not_planned.
+- Corrected same-content/same-submission-ID intake: [#1805](https://github.com/Satobloc/HsH/issues/1805), SHA-256 be44f2c015b811a1496193efdb45486e7b0d941e251d0adbb1ca6cc7e98ef6b2.
+- Corrected publisher run [#43759381383](https://github.com/Satobloc/HsH/actions/runs/43759381383) remained IN_PROGRESS at checkout. Artifact and independent readback remain pending. No third issue, retry, duplicate artifact or manual publisher bypass.
