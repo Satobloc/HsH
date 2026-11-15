@@ -201,3 +201,8 @@ No public issue was created: this is an internal provenance correction, and the 
 The June 2025 O0-A Mode 2 statement pegs an undefined average \(\langle K\rangle\) to GR and back-solves minimal filament changes. The historical D4 source defines \(S_{\mu\nu}=\nabla_\mu u_\nu+\nabla_\nu u_\mu\) and a Ricci-response expression, but no source-defined projection from \(S_{\mu\nu}\) to a hypersurface extrinsic-curvature tensor, no averaging measure for \(\langle K\rangle\), no dimensionally typed \(\delta g\sim S\) scale, and no Mode 2 update functional. Nadir EQ-0007's corrected Ricci expression remains a separate reconstruction; it does not repair or replace the historical equation.
 
 The existing O0-A state-space/map contract is retained. This addendum is specifically the cross-source curvature-type check, not a new mode hierarchy, physical equivalence, Lean proof, or theory promotion. See the report for source custody, conditional standard-geometry bridge, discrepancy ledger, and next cursor.
+
+
+### H840 publisher disposition
+
+The h840 report remains in the Loom workspace, but its one HSH-PUBLISH-V1 submission, issue #1764, was rejected by comment #6886394677 with SHA-256 mismatch. The issue-envelope content exactly matched the workspace report; the declared digest did not pass the publisher's independent UTF-8 hashlib check. The expected PUBLISHED_SUBMISSIONS artifact returns 404. See [Loom h840 Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0011Z_s0_loom_AMENDMENT_01_PUBLISHER_REJECTED_SHA256.md). Do not edit/reopen, retry, create a duplicate issue, or bypass the publisher. Status: PUBLISHER_REJECTED_SHA256_MISMATCH / NOT_PUBLISHED.
