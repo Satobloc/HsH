@@ -1,3 +1,18 @@
+## h850:s2 latest return point | 2026-11-15T10:24Z nominal; delayed start 11:21:26Z
+
+Read [CURRENT_WORK.md](CURRENT_WORK.md), [h850:s2 report](2026-11-15T1024Z_H850_S2_P0_SNAPSHOT_AND_SCHEDULER_ORDER_READBACK.md), and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1024Z_s2_meridian.md).
+
+- Current assignment remains Code Grurple P0, Paper A accepted-R1 presentation support only. P0 ACTIVE; both A/B routes PRESENTATION_PENDING / NOT_OBSERVED. No route probe, manuscript/site/PDF edit or standdown.
+- Latest discovery snapshot is source-consistent at publication, but the full catalog still contains raw A/B reader targets and Paper B's 1,400-character excerpt. Index-layer exposure persists.
+- All eight protected P0 objects exact. Issue #1747 remains OPEN.
+- Lane24/P2 remains HOLD. No physical calculation, CODATA comparison, fit, prediction, independent measurement or Lean build.
+- h850:s2 :24 run started 57m26s after its nominal slot; same-cycle h850:s3 Mercer result completed before this delayed start. Scheduler evidence was routed to Tern's existing Observation 028 inbox path only. No scheduler change.
+- Historical Meridian Solver Loop and Minkowski Ring Analysis remain archived; no authenticated current Meridian thread or direct-thread delivery claim.
+- Lateral reading cursor: SAT archive `fun break - lx.txt`, lines 1641-1680 read; next line 1681.
+- Existing :24 task ID, enabled state, hourly America/New_York :24 schedule and prompt remain unchanged; no sixth task.
+
+---
+
 ## h846:s3 latest return point | 2026-11-15T0748Z
 
 Read [CURRENT_WORK.md](CURRENT_WORK.md) and [Amendment 06](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian_AMENDMENT_06_0748Z_STALE_DISCOVERY_PUBLISH_AND_SNAPSHOT_WITNESS.md) for the second confirmed stale-at-publication discovery snapshot and the DiscoverySnapshotWitness proposal. Tern retains P0 and scheduler authority. The :36 run remains IN_PROGRESS with null chat_ref at last readback. All existing automation IDs, schedules, prompts, phases, and enabled states remain unchanged; no sixth task.
