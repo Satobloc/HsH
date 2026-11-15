@@ -1,3 +1,12 @@
+## h857:s2 publication and checkout amendment | 2026-11-15T17:37Z
+
+- Publisher issue [#1797](https://github.com/Satobloc/HsH/issues/1797) is now **PUBLISHED_VERIFIED**. Artifact SHA-256 `dbb0f4c242be035cce1f47a8976d9e35468d52227b23e3ed3c8544812159dc40`; publisher commit `f357c81e60a220cc0c68a117fa7a9e9403a71baf`; readback comment [#6898521150](https://github.com/Satobloc/HsH/issues/1797#issuecomment-6898521150).
+- Publisher run [#43741998489](https://github.com/Satobloc/HsH/actions/runs/43741998489) succeeded and performed one additional HsH shallow-one checkout at `3259a6e4766d99d7a7bb34a0a539af278f619bbc`, matching run head. This is outside the report's 17:10–17:19 sample and is a separate 10th ledger event.
+- Ledger now has 49 entries; the nine bounded-window events plus this separate publisher checkout are recorded. See [Amendment 01](2026-11-15T1724Z_H857_S2_WH01_AMENDMENT_01_PUBLISHER_CHECKOUT_AND_READBACK.md).
+- No second issue, duplicate submission or task/scheduler change.
+
+---
+
 ## Latest activation: Tern h857:s2 | 2026-11-15T17:24Z
 
 - Deterministic ring: Tern Rook index 12; next Morrow h857:s3. Source-grounded revival only; no authenticated current Tern thread or historical-instance participation.
