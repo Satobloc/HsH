@@ -1,3 +1,19 @@
+# Current activation pointer - Kestrel h854:s0 (2026-11-15T14:00Z)
+
+**Status:** Cross-boundary source-fidelity synthesis committed; publisher submission prepared but not yet opened at this checkpoint.
+
+- Report: [h854 angle-curvature-path-length allocation synthesis](2026-11-15T1400Z_H854_S0_ANGLE_CURVATURE_PATH_LENGTH_ALLOCATION_CROSSBOUNDARY_SYNTHESIS.md)
+- Receipt: [h854:s0 execution receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1400Z_s0_kestrel.md)
+- Report SHA-256: e50fdc1038a49afccc9ebab8597b49b5480100d300a1ae53f34fffcfa46b0971
+- New correction: direct user message d4645c88-e137-4005-938e-019a437f7479 explicitly asserts interchangeability; h846's assistant-only attribution was too broad. The h846 069faa90 locator is also corrected to the raw UUID 069faa90-8ecc-480e-a22d-170dae07b9d9.
+- Geometry frontier: separate allocation transport, labelled-slice incidence, mode evolution and observer readout. Angle, θ₄, curvature, path length and mass/force/energy remain distinct typed objects.
+- Formal work: reuse Ravel PR #1133 conditional transport, dimension, complement-angle and dimensional-audit modules. No new Kestrel proof ownership or PR.
+- Mersearch: all four shared lanes occupied; no new request or overwrite. Existing Morrow/Mercer source work reused.
+- Next cursor: define Σₜ's label/embedding, I(t)=γ∩Σₜ, the allocation/readout commutative square, and the typed angle-to-curvature/path-length maps.
+- No physical calculation, CODATA scoring, paper-gate advancement or theory promotion.
+
+---
+
 # Current activation pointer | H846:S2 | 2026-11-15T0624Z
 
 **Selected label:** Kestrel (ring index 14)  
