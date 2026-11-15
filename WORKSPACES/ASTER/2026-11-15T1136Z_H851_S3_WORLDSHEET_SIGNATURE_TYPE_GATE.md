@@ -96,3 +96,8 @@ If the model claims an induced Lorentzian worldsheet directly from a positive-de
 - Issue #1788 is **PUBLISHED_VERIFIED**. Publisher comment #6894277559 reports artifact path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-worldsheet-signature-type-gate-20261115t1136z-s3-001.md`, publisher commit `e2cba62cbac573b41f493a0dbdbe3e89392f207c`, SHA-256 `2d7731e8aa9626509ddbbf431715d9e5cde829f5e5553c0f7d50ea85d63e9566`. Independent issue-envelope/artifact comparison passed exactly at 8,188 characters.
 - The :36 run record subsequently completed as FAILED at 12:26:04.666817Z, with null chat_ref. The task remains enabled with its original ID and schedule. The failure cause is not inferred. Repository work and publication were completed and verified.
 - Full readback details: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1136Z_s3_aster_AMENDMENT_01_PUBLISHER_AND_FINAL_RUN_READBACK.md).
+
+
+## Amendment 02 | same-ID scheduler record mutation
+
+The :36 run ID `79f30399-7164-8332-a52f-61785c8f6932` was observed in three states: IN_PROGRESS with start 12:01:02.118293Z; FAILED with the same start and completion 12:26:04.666817Z; then IN_PROGRESS with start 12:30:40.785515Z and null completion. The run ID and scheduled_for remain unchanged. This is a mutable/conflicting record; no retry, restart, duplicate process, concurrency, liveness, or backend cause is inferred. The task remains enabled with its original schedule, prompt, and phase. See [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1136Z_s3_aster_AMENDMENT_02_SAME_RUN_ID_MUTABILITY_READBACK.md).
