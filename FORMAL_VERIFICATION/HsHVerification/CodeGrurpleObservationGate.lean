@@ -714,28 +714,45 @@ open HsHVerification.CodeGrurpleObservationGate
 open HsHVerification.CodeGrurpleWorkflowScope
 
 /-- Reader-facing checks are outcomes, not authorization flags. -/
+/-- The first eight fields mirror the PDF acceptance bullets in
+    PUBLIC_SITE/PRESENTATION_GATE.md. The final four add the routing and
+    artifact requirements in PRESENTATION_CONTRACT.md and
+    READER_ROUTING_REGISTRY.md. These are observed outcomes, not permissions. -/
 structure ReaderAcceptanceChecks where
-  documentTypography : Bool
-  mathematicsRendered : Bool
-  citationsAndLinksUsable : Bool
-  responsiveLayout : Bool
-  sandboxAndProvenanceVisible : Bool
-  rawSourceAbsent : Bool
+  sectionHierarchyRendered : Bool
+  mathematicsTypeset : Bool
+  pageObjectsWithinBounds : Bool
+  longEquationsAndUrlsBreakSafely : Bool
+  noTextOrBoxOverflow : Bool
+  narrowScreenViewerUsable : Bool
+  audienceCalibratedPrefacePresent : Bool
+  technicalReaderPointersPresent : Bool
+  rawSourceNotDefault : Bool
+  relativeLinksVerified : Bool
+  artifactProvenancePinned : Bool
+  figuresAndReferencesResolved : Bool
 deriving DecidableEq, Repr
 
 def readerAcceptanceChecksPass (c : ReaderAcceptanceChecks) : Bool :=
-  c.documentTypography &&
-  c.mathematicsRendered &&
-  c.citationsAndLinksUsable &&
-  c.responsiveLayout &&
-  c.sandboxAndProvenanceVisible &&
-  c.rawSourceAbsent
+  c.sectionHierarchyRendered &&
+  c.mathematicsTypeset &&
+  c.pageObjectsWithinBounds &&
+  c.longEquationsAndUrlsBreakSafely &&
+  c.noTextOrBoxOverflow &&
+  c.narrowScreenViewerUsable &&
+  c.audienceCalibratedPrefacePresent &&
+  c.technicalReaderPointersPresent &&
+  c.rawSourceNotDefault &&
+  c.relativeLinksVerified &&
+  c.artifactProvenancePinned &&
+  c.figuresAndReferencesResolved
 
 /-- A route observation is bound to the exact run, route, deployment,
     source and derivative being accepted. The timestamp, browser-context
     digest, capture digest and binding flags are external evidence inputs. -/
 structure RouteObservationWitness where
-  workflowRunId : String
+  triggerWorkflowRunId : String
+  observationRunId : String
   routeId : RouteId
   deploymentId : DeploymentId
   sourceBlob : GitBlobSha1
@@ -756,7 +773,8 @@ def routeObservationCurrent (s : State) (e : WorkflowTriggerEvidence)
   match s.source, s.derivative, s.deployment, s.route with
   | some source, some derivative, some deployment, some route =>
       routeProbeAuthorizedWithWorkflow s e &&
-      decide (w.workflowRunId = e.workflowRunId) &&
+      decide (w.triggerWorkflowRunId = e.workflowRunId) &&
+      decide (w.observationRunId.length > 0) &&
       decide (w.routeId = route.id) &&
       decide (w.deploymentId = deployment.id) &&
       decide (w.sourceBlob = source.id) &&
