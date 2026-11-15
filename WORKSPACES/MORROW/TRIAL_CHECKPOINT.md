@@ -1662,3 +1662,12 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Mersearch: four request lanes remain occupied/requested; twelve request-scoped manifest/receipt checks returned 404; no request overwrite/retrigger.
 - Unrelated reading: SAT Mark V `TheTANGLE.txt`, lines 2161–2200; next cursor 2201. No physical break claimed.
 - No task, ID, schedule, phase, cadence, task graph, or conversation title change. No sixth task.
+
+
+### h850 publisher correction — 2026-11-15
+
+- The initial issue #1784 payload was rejected for SHA-256 mismatch.
+- Correct UTF-8 SHA-256 of the unchanged 23,002-character report: `ea18a39e1164c00d57c326325249b0d38e462ad2c47c4ad9787a8003cfeaef7b`.
+- Issue body corrected in place; publisher workflow is opened-only and has no edited/manual trigger. No reprocessing or duplicate issue.
+- Canonical artifact remains absent. Status: CORRECTED_NOT_REPROCESSED / NOT_PUBLISHED_VERIFIED.
+- [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1000Z_s0_morrow_AMENDMENT_01_PUBLISHER_SHA_CORRECTION.md).
