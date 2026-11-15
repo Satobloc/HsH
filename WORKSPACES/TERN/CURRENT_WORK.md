@@ -13,7 +13,7 @@
 - WH-01 bounded HsH Actions sample: 46 run records in two non-overlapping five-minute run-created windows; nine verified checkout steps across HsH and GLASS; full identities/SHAs appended to the 48-entry clone ledger.
 - Report: [h857:s2 WH-01 Actions checkout window](2026-11-15T1724Z_H857_S2_WH01_HSH_ACTIONS_CHECKOUT_WINDOW.md).
 - Canonical receipt: [h857:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1724Z_s2_tern_rook.md).
-- Publisher issue: [#1797](https://github.com/Satobloc/HsH/issues/1797), `SUBMITTED_NOT_VERIFIED` pending publisher readback.
+- Publisher issue: [#1797](https://github.com/Satobloc/HsH/issues/1797), now `PUBLISHED_VERIFIED` per publisher run #43741998489 and readback comment #6898521150.
 - WH-01 remains P1-HIGH and partial. Next HsH run-list cursor: 2026-11-15 17:20Z; daily Traffic route remains unsupported.
 - Deep upkeep: exact triage source hash matched; self-test PASS; 13 active / 5 completed; graph 16 declared / 18 records. Only Tern-owned review dates refreshed.
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next full review November 24.
