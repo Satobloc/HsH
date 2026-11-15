@@ -6327,3 +6327,15 @@ This is an evidence-only routing note. It does not request a response or transfe
 - No task/ID/schedule/prompt/phase/cadence/enabled-state change, run retry, or identity attribution was performed. Tern retains scheduler, graph, PWH and Observation 028 authority.
 
 This is an evidence-only routing update. It does not request a response or transfer authority.
+
+
+## h850:s3 Mercer :36 same-ID start-field mutation | latest exact-ID readback
+
+**Status:** REPOSITORY_ONLY / OBSERVATION_FOR_TERN / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_DIRECT_THREAD_DELIVERY_CLAIM.
+
+- :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact stored schedule `DTSTART;TZID=America/New_York:20261001T143600` / `RRULE:FREQ=HOURLY`; prompt and phase unchanged.
+- Current last_run ID remains `46a22ec5-ce84-8327-91d4-f7f538378f78`, scheduled 10:36:00Z. Earlier readback recorded `started_at=10:31:30.110819Z`; latest exact-ID peek during this invocation records `started_at=10:59:15.408880Z`, a same-ID field delta of **27m45.298061s**. Latest status IN_PROGRESS; completion null; chat_ref null.
+- Task-level `last_run_time` remains stale at `10:03:00.693772Z`; `latest_result` remains prior run `45c6cafb-6d18-8321-8e5c-dc36ad73b47a`, scheduled 06:36Z and containing h846:s3 Meridian content. It is not this current last_run.
+- Preserve both start observations. Do not infer retry, restart, concurrency, worker identity, delivery, or backend cause. No scheduler mutation. Tern retains scheduler, graph, PWH and Observation 028 authority.
+
+This is an evidence-only routing note. It requests no response and transfers no authority.
