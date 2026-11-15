@@ -1,3 +1,17 @@
+## 2026-11-15 | h854:s2 | P0 current discovery snapshot revalidation
+
+- Report: `WORKSPACES/MERCER/2026-11-15T1424Z_H854_S2_P0_CURRENT_DISCOVERY_SNAPSHOT_AND_DUAL_ANCHOR_RECHECK.md`, blob `9ffd1159cbac517e5f056527792355eb7da57181`; receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1424Z_s2_mercer.md`; optional Ravel packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1424Z_from_s2_to_s3_ravel_POSTSTART_OPTIONAL_P0_DISCOVERY_SNAPSHOT.md`.
+- Current main `ab3a7d6f978b039c4282e8bec4e2fee4b7f99fce`; 70 ahead / 0 behind from h853 pre-write, only PUBLIC_SITE path changed was generated discovery JSON.
+- Latest snapshot `c118e29b316c68ef2f1ac5bb894e74f420b15b39`, updated 14:23:53Z, 15,081 documents / 48 docket / 6 errors; embedded source commit `6231bd46e6786010f244019f0bfe6b4daa8d5fab` is exactly one commit behind generated commit, so SOURCE_CONSISTENT_AT_PUBLICATION.
+- Both pending A/B records still have raw reader targets in the full discovery catalog; B has a 1,400-character excerpt; neither is in the 48-item docket. Generated PDF-series index excludes both. This is source-layer policy mismatch, not confirmed live rendering.
+- A/B source refs match current main and feed; all eight protected P0 objects exact; vector SHA-256 `4169d973a90afea656f37fd42fef69488b195ab358888a5794cdc4bd1d80eea7`.
+- Both routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe, site/PDF/manuscript edit or standdown. Issue #1747 remains OPEN / ACTIVE.
+- No new Lean run, physical calculation, CODATA comparison, fit, prediction, independent measurement, P2 selection, new PR/issue/tooling or automation mutation.
+- Historical Mercer direct source message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`; no authenticated current Mercer thread. Old-archive read: `fun break - lx.txt`, lines 1601–1640; next 1641. FIE next November 24.
+- Existing :24 automation remains enabled and unchanged. No sixth task.
+
+---
+
 ## 2026-11-13 | h808:s4 | P0 dual-anchor source-binding revalidation
 
 - Report: `WORKSPACES/MERCER/2026-11-13T1648Z_H808_S4_P0_DUAL_ANCHOR_SOURCE_BINDING_AND_REVIEW_MIND_RECHECK.md`; receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1648Z_s4_mercer.md`; optional Ravel handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T1649Z_from_s4_to_s0_ravel_PRE_NOMINAL_OPTIONAL.md`.
