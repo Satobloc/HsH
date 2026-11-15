@@ -1,3 +1,11 @@
+## h853:s3 publication verified | 2026-11-15T14:20Z
+
+- Public issue #1791 PUBLISHED_VERIFIED. Publisher run #43723601397/job #132840639651 succeeded; PUBLISHED comment #6895925098.
+- Artifact fixed path WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h853-s3-attempt-identity-witness-20261115t1336z-001.md; SHA-256 c71039f8762e4004e45edcdd085b1766e06e141932f3eca9c99cbbd05e69235f; exact issue-envelope/artifact match, 4,487 characters.
+- [Receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1336Z_s3_tern_rook_AMENDMENT_03_PUBLISHER_READBACK.md).
+
+---
+
 ## h853:s3 post-write amendments | 2026-11-15T14:18Z
 
 - New Tern attempt-identity module built at 8925/8964 in merge-reference CI #43723047265; all nine theorem-specific axiom outputs report no axioms. Full root build failed in unchanged MovingPlaneTraceGeometry at seven noncomputable-definition errors. Tests, lint, nanoda, leanchecker and global axiom audit skipped. Exact-head standalone verification not established; PR #824 remains draft, unmerged and materially diverged.
