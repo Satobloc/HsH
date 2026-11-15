@@ -49,3 +49,15 @@ Elias's existing execution-envelope map v0.2 was independently exercised; no POC
 ## Automation
 
 The existing :48 task remained enabled with its original identity, prompt, phase, and hourly configuration. No sixth task or scheduler mutation. Current h860:s4 detailed run remained IN_PROGRESS with null completion and null chat_ref at final read.
+
+
+## Amendment 01 | 2026-11-15T2104Z | final routing and scheduler readback
+
+- Final detailed readback: current h860:s4 :48 run remains IN_PROGRESS with null completion and null chat_ref. Its cached latest_result remains h859:s4 and is not attached to the current run.
+- The h861:s0 :00 run is IN_PROGRESS, started at 20:59:31.259774Z before its 21:00:00Z nominal time, with null completion and null chat_ref. Its cached result is a different older run. No cause, retry, restart, skipped dispatch, or backend behavior is inferred.
+- The four enabled relay configurations and the disabled :12 slot remain unchanged. No sixth task or scheduler mutation.
+- Tern optional scheduler packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2048Z_from_s4_nadir_voss_to_tern_POSTSTART_OPTIONAL_FOUR_RELAY_EXECUTION_IDENTITY_AND_SCHEDULER_READBACK.md`, blob `109b55b948b9a7b7fa4a59310c1b31092681b9b5`. Indexed in Common HANDOFFS only; Tern INBOX was not modified.
+- Enheduanna optional successor packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2048Z_from_s4_nadir_voss_to_s0_enheduanna_POSTSTART_OPTIONAL_REVIEW_MIND_EXECUTION_IDENTITY_AND_P0_SOURCE_QC.md`, blob `ebc74d62dc041374cd193f9e71f79f901564dbac`.
+- Enheduanna INBOX marker `NADIR-ENH-20261115T2048Z-001` was appended and independently read back exactly. Final INBOX blob: `dd824729911991ca12f5ceeef541278c2bee93da`. This is repository inbox delivery only, POST-START_OPTIONAL_CONTEXT_ONLY; no direct thread delivery, consumption, or acknowledgment is claimed.
+- Common HANDOFFS final blob: `7566475189d39501e77e4ac15a499225c7bc6b65`.
+- Final main commit after routing and automatic discovery refresh: `41de582a676a70833198effed0b961e14fbe0aa4`.
