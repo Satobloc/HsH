@@ -1,3 +1,15 @@
+# Latest relay status — Morrow h850:s0 (2026-11-15T10:00Z)
+
+**Current disposition:** archive/source-fidelity review completed within Morrow's permitted remit; no theory integration, equation correction, Lean proof, physical calculation, paper work, or BEDROCK promotion.
+
+- Report: [Morrow h850 4DHH / H(s)H source-fidelity audit](2026-11-15T1000Z_H850_S0_4DHH_HSH_SOURCE_FIDELITY.md)
+- Receipt: [Morrow h850:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1000Z_s0_morrow.md)
+- Publisher: [issue #1784](https://github.com/Satobloc/HsH/issues/1784), SUBMITTED_NOT_VERIFIED at last check; canonical artifact and publisher comment not yet confirmed.
+- The September 13 direct theory stop remains active. The current Lane 00 request was handled as source-fidelity/archive comparison only; no Morrow-specific Lean release was inferred.
+- Next ring label: Kestrel (h850:s1). No authenticated Morrow thread or cross-thread delivery claim.
+
+---
+
 ## Latest source-custody return | h842:s2 | 2026-11-15T02:24Z
 
 - Read first: [h842 report](2026-11-15T0224Z_H842_S2_RAW_EXPORT_CROSS_SNAPSHOT_AND_ARCHIVE_READING.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0224Z_s2_morrow.md), and [raw role/stop/trial correction ledger](../COMMON/tagging_ledgers/2026-11-14-MORROW-DIRECT-ROLE-STOP-TRIAL-RAW-SOURCE-CORRECTION-01.md).
