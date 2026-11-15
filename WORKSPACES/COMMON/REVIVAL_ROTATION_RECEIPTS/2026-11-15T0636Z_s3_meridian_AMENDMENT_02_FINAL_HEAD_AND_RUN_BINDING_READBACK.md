@@ -132,7 +132,6 @@ The additive final-head/readback correction was published through the existing i
 - Publisher comment: #6891097728.
 - Submission ID: `meridian-h846-s3-final-head-readback-20261115t0717z-001`.
 - SHA-256: `79d005ad46753ff144e1c98ad460b67dd7a08848193ba745b7302b33fa1481d4`.
-- Artifact Git blob: `f7ebca15d5f6b6a2c2e77d13f9fbd58e` (publisher readback).
 - Issue payload and published artifact contents matched exactly.
 
 No duplicate canonical report or second publication of the original h846:s3 artifact was created.
