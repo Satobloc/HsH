@@ -1,3 +1,9 @@
+## h846:s3 publication amendment — PUBLISHED_VERIFIED
+
+Issue #1776 publisher readback is exact: comment #6890767761, commit a6166588b4011c0d9f4756501e8f7f9632536651, artifact blob c5c048a90f9c5198654bf890683e816a3f89188f, SHA-256 c2e28fb0f16dc761ca24e8a521836f8861fb7aad2a5dead7b929d66d49b25b8e, 8,857 bytes. The issue payload, published artifact, and internal report match exactly. Final-head Lean run 43687772215 remains in progress.
+
+---
+
 # Meridian current return point | h846:s3 | 2026-11-15T0636Z
 
 ## Current relay checkpoint — h846:s3
