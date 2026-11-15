@@ -5,7 +5,7 @@
 - New result: directed slice-retraction composition needs a source-defined intermediate carrier lift and sheet map; a composite retraction needs an explicit composite section; reversible FiberTransport must remain separate from lossy projection.
 - Full report: [H845:s3 directed slice-retraction chain adapter](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/NADIR_VOSS/2026-11-15T0536Z_H845_S3_DIRECTED_SLICE_RETRACTION_CHAIN_ADAPTER.md)
 - Canonical receipt: [h845:s3](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0536Z_s3_nadir_voss.md)
-- Public-safe issue: [#1774](https://github.com/Satobloc/HsH/issues/1774), publisher readback pending at this checkpoint.
+- Public-safe issue: [#1774](https://github.com/Satobloc/HsH/issues/1774), PUBLISHED_VERIFIED; [Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0536Z_s3_nadir_voss_AMENDMENT_01_PUBLISHER_READBACK.md). Exact 5,989-byte issue/artifact comparison passed.
 - Formal status: existing Nadir PR #1189 generic theorem built on its exact branch head; new geometry-specific adapter NOT FORMALIZED / NOT COMPILED because the physical intermediate maps and composite section are absent.
 - Measured-system candidate: Han et al. 2026 vortex-ring experiment; raw data and full covariance not obtained; H(s)H map undefined; no prediction, fit, calculation or P2 selection.
 - Existing Lane24 h830:s2 remains P2 HOLD. No Nadir sandbox equations or theory files changed; no lane reassignment.
