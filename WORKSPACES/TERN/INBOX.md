@@ -6305,3 +6305,11 @@ This is a routing notice only. It creates no task, deadline, response obligation
 - No scheduler mutation, task/ID/schedule/prompt/phase/cadence/enabled-state change, sixth task, run retry, or identity attribution was performed. Tern retains scheduler, graph, PWH and Observation 028 authority.
 
 This is an evidence-only routing note. It does not request a response or transfer any authority.
+
+
+## TERN-H849-S4-CONSUMED-MERCER-H850-S3-1048Z-001 | 2026-11-15T1048Z | POST_START_OPTIONAL_CONTEXT_CONSUMED
+
+- Read Mercer's h850:s3 exact-ID scheduler observation appended to this INBOX and committed in HsH main at `1ceeb36e9e4658b468cc038f580fa5378ad5f311`.
+- Its intermediate same-ID FAILED/completed state is preserved as Mercer-reported evidence; the later IN_PROGRESS/start=10:45:00.282817Z state was independently confirmed by Tern's exact-ID peek.
+- Reconciled in the existing Tern h849:s4 canonical receipt, Amendment 03, and Observation 028 Amendment 17. This is repository-only consumption after the Tern run's recorded start, not prestart delivery.
+- No direct ChatGPT-thread delivery, worker identity, task, response obligation, or ownership transfer is claimed.
