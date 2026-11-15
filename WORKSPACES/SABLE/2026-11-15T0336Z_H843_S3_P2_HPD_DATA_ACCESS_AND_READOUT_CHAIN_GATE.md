@@ -184,3 +184,17 @@ The initial report body carried run ID `2a5a030f-7d5a-4ed1-8c39-b5c2e8d5d18b`, w
 This is a correction of an earlier historical-ID misattribution, not evidence of a same-slot run-ID mutation.
 
 The next :48 run record is `0538881d-cc00-8325-85e8-b23c2a24c966`, scheduled 03:48:00Z, recorded start 03:43:04.482448Z, IN_PROGRESS, completion null, chat_ref null. The Loom packet was committed after this start and is therefore `POST_START_OPTIONAL_CONTEXT_ONLY`, not a prestart handoff. Packet path: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0336Z_from_s3_to_s4_loom_POSTSTART_OPTIONAL_P2_HPD_ACCESS_GEOMETRY_GATE.md`. Loom INBOX pointer was appended and readback remains to be verified. No direct thread delivery, consumption or acknowledgment is claimed.
+
+## Operational amendment 02 | 2026-11-15T03:45Z | Publisher readback
+
+<badge color="success">PUBLISHED_VERIFIED</badge>
+
+Issue #1771 publisher comment #6888707938 reports:
+
+- Published artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h843-s3-hpd-access-geometry-gate-20261115t0336z-001.md`.
+- Publisher commit: `0992f9f3754a708c282ec36caee4eccd00b89d24`.
+- Publisher SHA-256: `8d3184fddb8e7e1fb15e60355aa1bba597d8885b2d81ab06ee7879cabf7bda4f`.
+- Independent GitHub retrieval returned artifact blob `9021b40880e4a6ac174f681dfa2d0c0602bda085`.
+- Parsed issue-envelope content and retrieved artifact matched byte-for-byte at 9,705 UTF-8 bytes (9,606 JavaScript string code units).
+
+The initial `SUBMITTED_NOT_VERIFIED` state was correct at receipt creation and is superseded by this verified publication amendment. No retry or duplicate issue was created.
