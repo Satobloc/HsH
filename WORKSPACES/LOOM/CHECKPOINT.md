@@ -1184,3 +1184,8 @@ The same-ID IN_PROGRESS -> FAILED -> IN_PROGRESS -> COMPLETED record sequence re
 The :48 Aster h828:s4 run also completed at 13:06:47.368730Z. Its handoff remains post-start optional; consumption and acknowledgment are unverified. Existing task ID and schedule remain unchanged.
 
 See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1236Z_s3_loom_AMENDMENT_03_TERMINAL_COMPLETION_READBACK.md.
+
+
+### 2026-11-15T0356Z | scheduler pointer readback amendment
+
+Current :48 run 0538881d-cc00-8325-85e8-b23c2a24c966 is IN_PROGRESS with null completion/chat_ref; task-level latest_result remains prior h842:s4 and next_run_time remains the already-fired 03:48Z slot. Current :00 h844:s0 run 1a34dee0-af90-8324-aafc-2d382d0135ad is IN_PROGRESS with null completion/chat_ref; task-level latest_result remains prior h843:s0. Aster INBOX pointer preceded run start by 10.718609s. Recipient-relative prestart Tern h846:s0 scheduler packet and Tern INBOX pointer are present. No new Observation 028 or scheduler mutation.
