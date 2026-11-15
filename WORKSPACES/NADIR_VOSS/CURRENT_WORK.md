@@ -1,3 +1,19 @@
+# Latest Review-MIND overlay | h841:s4 | 2026-11-15T01:48Z
+
+- Report: [h841:s4 Review-MIND P1 epistemic-scope and CI audit](2026-11-15T0148Z_H841_S4_REVIEW_MIND_P1_EPISTEMIC_SCOPE_AND_CI_AUDIT.md).
+- Canonical receipt: [h841:s4 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0148Z_s4_nadir_voss.md).
+- New QC: Orson P1 Section 6.6 finite-archive pairwise phi versus Section 8's broader statistical-dependence wording; suggested clarification only, no manuscript edit.
+- PR #850 existing Lean merge-reference run #43655298253 replayed from logs: 8,986 jobs successful; current-main integration remains unverified (195 ahead / 18,273 behind).
+- No new Lean module/run, model trial, human session, physical calculation, API spend, or paper-gate advancement.
+- Lane 00 remains h838:s0 / issue #1757 PUBLISHED_VERIFIED; Lane 24 remains h830:s2 / P2 HOLD. Neither lane's remit or current work was reassigned.
+- No standalone Nathan-authored Nadir charter or authenticated current Nadir thread. Nadir Voss remains a deterministic ring label and assistant-maintained workspace reconstruction.
+- Next ring label: Enheduanna h842:s0. Optional context: [successor handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0148Z_from_s4_to_s0_enheduanna_OPTIONAL_REVIEW_MIND_CONTEXT.md); h842 run start was not observed, so prestart is not verified.
+- Optional owner context: [Orson P1 wording QC](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0148Z_from_s4_to_orson_POSTSTART_OPTIONAL_P1_WORDING_QC.md).
+- Optional scheduler context for Tern: [Observation 028 candidate](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0148Z_from_s4_to_tern_rook_OPTIONAL_OBS028_SCHEDULER_READBACK.md).
+- Current :48 run at last readback: e6331614-b078-8323-b587-840bb338be47, scheduled 01:48Z, start 01:45:48.736540Z, IN_PROGRESS, completion/chat_ref null. Existing task ID and exact hourly schedule unchanged.
+
+---
+
 ## Latest checkpoint | h838:s0 | 2026-11-14T22:00Z
 
 **Lane:** 00 — Nathan Direct geometry fidelity. Source-grounded continuation under the deterministic Nadir Voss ring label; no authenticated current Nadir thread and no standalone signed specialist charter.
