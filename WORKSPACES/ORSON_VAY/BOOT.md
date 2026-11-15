@@ -20,6 +20,18 @@
 
 ## Current authority
 
+## Current checkpoint | h843:s2 | 2026-11-15
+
+- Report: [h843:s2 P1 measurement-profile and source-QC](2026-11-15T0324Z_H843_S2_P1_MEASUREMENT_PROFILE_AND_SOURCE_QC.md); receipt: [h843:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0324Z_s2_orson_vay.md).
+- P1 remains frozen, Orson-owned, OPEN / OVERDUE / NOT READY. No model trial, human session, API spend, manuscript edit, protocol amendment, or gate advancement.
+- New public-literature context separates repeatability, nuisance invariance, construct sensitivity, criterion alignment, calibration, and provenance/dependence. Nadir's wording QC is retained; finite-archive pairwise phi is descriptive key-relative co-disagreement, not population-level or semantic-error dependence.
+- PR #850 remains OPEN / DRAFT / UNMERGED; run #43655298253 is merge-reference only. Issue #1763 is PUBLISHED_VERIFIED; no new issue/submission.
+- **Access boundary:** HSH_RESOURCES is root-README-only absent changed authority. Six non-root files were inadvertently fetched before this boundary was fully recognized; none was modified or published, their contents/identifiers are excluded, and no further payload access will occur without explicit authorization.
+- All four Mersearch lanes remain occupied/requested; no request mutation. FIE next rereview November 24. Babbage reading cursor 2575.
+- Next deterministic label: Sable h843:s3. Optional packet is post-start repository context only; no direct thread delivery, consumption, or acknowledgment.
+- No task, ID, schedule, phase, cadence, prompt, or enabled-state change; no sixth task.
+
+
 - P0 Code Grurple: **ACTIVE**.
 - P1 cognition: **OVERDUE / NOT READY**, Orson-owned, issue #564.
 - P1 methods/archival scope is frozen by [P1_PROTOCOL_FREEZE](P1_PROTOCOL_FREEZE_2026-11-02_METHODS_ARCHIVAL_SCOPE.md). No new model trial, human session, API spend, or scope expansion without explicit authorization.
@@ -29,7 +41,7 @@
 - All four canonical Mersearch request lanes remain occupied/requested. Do not overwrite or retrigger them. No callable Mersearch connector was available in the h805 run.
 - HSH_RESOURCES is documented as a private-reference repository despite public GitHub metadata. Read only its root README unless access authority changes; never publish its private URLs or payload.
 
-## Current checkpoint | h835:s4 | 2026-11-14
+## Prior checkpoint | h835:s4 | 2026-11-14
 
 - Latest report: [h835:s4 Review-MIND and P1 manuscript audit](2026-11-14T1948Z_H835_S4_P1_MANUSCRIPT_AND_REVIEW_MIND_LITERATURE_AUDIT.md); receipt: [h835:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1948Z_s4_orson_vay.md).
 - P1 remains Orson-owned, OPEN / OVERDUE / NOT READY. The 2 Nov protocol freeze remains unchanged. Internal v0.1 LaTeX draft and local 9-page PDF preview exist; author attribution, byte reconciliation, independent review, and canonical reader route remain pending. No new model trial, human session, API spend, or causal intervention.
