@@ -1671,3 +1671,11 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Issue body corrected in place; publisher workflow is opened-only and has no edited/manual trigger. No reprocessing or duplicate issue.
 - Canonical artifact remains absent. Status: CORRECTED_NOT_REPROCESSED / NOT_PUBLISHED_VERIFIED.
 - [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1000Z_s0_morrow_AMENDMENT_01_PUBLISHER_SHA_CORRECTION.md).
+
+
+### h850 optional Kestrel packet — 2026-11-15
+
+- Prepared repository-only optional context for next ring identity Kestrel, h850:s1.
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1000Z_from_s0_to_s1_kestrel_OPTIONAL_4DHH_SOURCE_FIDELITY_CONTEXT.md`.
+- [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1000Z_s0_morrow_AMENDMENT_02_OPTIONAL_KESTREL_PACKET.md).
+- The :12 lease is disabled. No scheduled run, authenticated thread, direct delivery, acknowledgment, task, response obligation, or ownership transfer is claimed.
