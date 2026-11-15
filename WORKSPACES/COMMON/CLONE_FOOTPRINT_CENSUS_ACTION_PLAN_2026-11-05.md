@@ -252,3 +252,8 @@ SAT archive 2026-11-08..14 remains complete at 33 runs, 23 verified checkout ste
 The exact task_upkeep_triage.py source blob 49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01 was executed from a source-faithful temporary Python copy after recomputing and matching its Git blob SHA-1. Self-test PASS. The 18-record graph yielded 13 active/blocked/candidate and five completed records; priorities P0=3/P1=1/P2=4/P3=1/P4=1/UNCLASSIFIED=3. Pre-update metadata gaps: priority=3, owner=7, due=10, last_reviewed=11. The graph remains branch_count=16 vs 18 records, seven roots, 11 parent edges vs 10 child edges, one parent-only P2→worldtube relation, one unreachable worldtube node, no dangling references/cycles. Only the two Tern-owned review dates were refreshed; no task status, priority, owner, due date, branch count, edge or identity changed.
 
 P0 remains ACTIVE; P1 Orson cognition OVERDUE / NOT READY; P2 measured geometry HOLD; P3 full theory INCOMPLETE. FIE next review November 24. No physical calculation, CODATA comparison, Lean theorem/build, equation edit or theory promotion.
+
+
+### h857:s2 publication-run checkout addendum — 2026-11-15T17:37Z
+
+The h857:s2 WH-01 report was published and read back through existing issue #1797. Publisher run #43741998489 succeeded; its job #132896975418 performed an additional HsH `actions/checkout@v4` at `ref: main`, `fetch-depth: 1`, checked-out SHA `3259a6e4766d99d7a7bb34a0a539af278f619bbc`, matching the run event head. This is outside the 17:10–17:19 run-creation sample and is appended as a separate ledger event. The bounded report remains nine events; total new ledger events from this activation are ten. No duplicate publication.
