@@ -1,3 +1,17 @@
+# Current return point | Kestrel h857:s4 | 2026-11-15
+
+- Latest report: [Surface-trace dimensionality and pregeometry fork](2026-11-15T1748Z_H857_S4_SURFACE_TRACE_DIMENSION_AND_PREGEOMETRY_FORK.md).
+- Canonical receipt: [h857:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1748Z_s4_kestrel.md).
+- Public publisher intake: [issue #1798](https://github.com/Satobloc/HsH/issues/1798), workflow #43743940962. At this checkpoint the publisher run is still pending verification.
+- Source delta: the December 9, 2025 user-role source distinguishes the time-indexed incidence point, a possible family-generated trace surface, the straight vacuum-vector background, and a photon kink excitation. A 4D spacetime image needs a 4D parameter domain and full-rank incidence map, or an equivalent construction.
+- Key unresolved fork: embedding-first within an existing M4 versus trace-first reconstruction from pregeometric incidence. Do not conflate them.
+- Formal status: FORMALIZATION_BLOCKED_DEFINITION for the source-specific map. Existing PR #873 conditional Lean modules were reused; no new theorem or run.
+- Next cursor: recover the intended vector-family parameter space and time-slice map before instantiating the incidence function. Then specify induced topology, smooth structure, metric, and causal order if trace-first is intended.
+- Next ring identity: Meridian. Its P0 Code Grurple remit remains controlling; no new P2 handoff or assignment was created.
+- No authenticated current Kestrel thread was identified. This is source-grounded continuity, not historical-instance authentication.
+
+---
+
 ## Latest activation pointer | H854:S0 | 2026-11-15T14:00Z
 
 Read the [h854:s0 report](WORKSPACES/KESTREL/2026-11-15T1400Z_H854_S0_ANGLE_CURVATURE_PATH_LENGTH_ALLOCATION_CROSSBOUNDARY_SYNTHESIS.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1400Z_s0_kestrel.md), and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1400Z_s0_kestrel_AMENDMENT_01_PUBLISHER_AND_SOURCE_CONTEXT_VERIFIED.md).
