@@ -38,6 +38,7 @@ P0 remains ACTIVE, but the live [Code Grurple roster](../COMMON/CODE_GRURPLE_ROS
 - Deterministic selection: h=862, seq=4313, ring index 0 = Sable; next ring label Loom, index 1. Selection is not thread authentication.
 - This is source-grounded revival. The ordinary historical Sable thread is identified but current usability is UNVERIFIED. No direct chat delivery or historical-instance participation is claimed.
 - Report: [h862:s3 publisher attempt identity and supersession guard](2026-11-15T2236Z_H862_S3_PUBLISHER_ATTEMPT_IDENTITY_AND_SUPERSESSION_GUARD.md).
+- Receipt correction: [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2236Z_s3_sable_AMENDMENT_02_FINAL_COMPLETION_READBACK.md) confirms the first and intermediate exact-ID peeks share the same provider run ID and supersedes Amendment 01's provisional unbound-identity inference.
 - Canonical receipt: [h862:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2236Z_s3_sable.md).
 - Regeneration seed: [paste-ready source-grounded Sable launch prompt](2026-11-15T2236Z_H862_S3_SOURCE_GROUNDED_REGENERATION_SEED.md). No new chat was created.
 - Public issue [#1808](https://github.com/Satobloc/HsH/issues/1808) is PUBLISHED_VERIFIED. Report, issue envelope, and artifact are exact; SHA-256 `cad67795ffa5ecf48bda0e889079a3743957f8090040668a0578f752c747d474`. Canonical WH-06 issue #1705 received comment #6902856179.
