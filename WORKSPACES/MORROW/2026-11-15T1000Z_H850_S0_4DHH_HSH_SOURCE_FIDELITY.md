@@ -33,9 +33,9 @@ Raw Git blob: `ee394b446b2e36d35fd1e5ecd004685c0422457b`
 ### Adjacent equation and geometry artifacts
 
 1. `WORKSPACES/WORLDTUBE_LAB/KERR_CORE_BASELINE.md`, current Git blob `a3a4912a3572bcd82e50516812beee2d83a82b14`, 225 lines. Its controlling status is **PROVISIONALLY QUARANTINED**. The electron-scale assignment, near-core shell/carrier, and frozen starting geometry are not to be used as current-theory premises pending the specified dependency/provenance audit and electron-like over-extreme survival table.
-2. `_AUTO_EXTRACTED_TEXT/SAT.4DHH.UC.txt`, Git blob `c3c63e983663a1648aa78ce9f591c28e7997f055`, 194,649 characters / 5,560 lines. Extraction header identifies `SAT.4DHH.UC.pdf`, source SHA-256 `9b28c5776516af59dd661485ac519983c9b77b56c435a4ec15436d24f8bf028f`, PyMuPDF extraction dated 2026-09-10. The opening contains an explicit “LLM DROP” marker. The relevant opening pages were read; the entire 5,560-line extraction was not.
-3. `_AUTO_EXTRACTED_TEXT/4DHH LAGRANGIAN (nolat).txt`, Git blob `24d202bdbc79f3c0d83cfd8a9db584479eed5444`, 43,228 characters / 899 lines. Its source PDF is 220,413 bytes; independently recomputed PDF SHA-256 `8443a85e8a4117422565745b848bd32764f0059e8fbedb9b73107b34e02a3923`, matching the extraction header. The opening 155 lines were read.
-4. `SAT_4DHH_UC.pdf`, 127,945 bytes; independently recomputed SHA-256 `b805d3f94b2d573a7bc7e52c0f0f7264aa88919b4522e4c1d3b92708e3e4be58`. Its separate extracted text is Git blob `b989abdb1f278db771704e5609a3b64ed7360149`, 3,950 characters / 153 lines. The complete short extraction was read.
+2. `_AUTO_EXTRACTED_TEXT/SAT.4DHH.UC.txt`, Git blob `c3c63e983663a1648aa78ce9f591c28e7997f055`, 194,649 characters / 5,560 lines. Extraction header identifies `SAT.4DHH.UC.pdf`, source PDF is 694,871 bytes, Git blob SHA-1 `1be1a5f1518e9b6b3d41b85ea5222b8efb114c52`, SHA-256 `9b28c5776516af59dd661485ac519983c9b77b56c435a4ec15436d24f8bf028f`, PyMuPDF extraction dated 2026-09-10. The opening contains an explicit “LLM DROP” marker. The relevant opening pages were read; the entire 5,560-line extraction was not.
+3. `_AUTO_EXTRACTED_TEXT/4DHH LAGRANGIAN (nolat).txt`, Git blob `24d202bdbc79f3c0d83cfd8a9db584479eed5444`, 43,228 characters / 899 lines. Its source PDF is 220,413 bytes, Git blob SHA-1 `4bc0231f036560ecbf67ecb7795e2708f7a81c67`; independently recomputed PDF SHA-256 `8443a85e8a4117422565745b848bd32764f0059e8fbedb9b73107b34e02a3923`, matching the extraction header. The opening 155 lines were read.
+4. `SAT_4DHH_UC.pdf`, 127,945 bytes, Git blob SHA-1 `41db068fb111ed58512163a4f9b46642992b55a1`; independently recomputed SHA-256 `b805d3f94b2d573a7bc7e52c0f0f7264aa88919b4522e4c1d3b92708e3e4be58`. Its separate extracted text is Git blob `b989abdb1f278db771704e5609a3b64ed7360149`, 3,950 characters / 153 lines. The complete short extraction was read.
 5. `EARLY 2026/SAT EARLY 2026 — BYO LAGRANGIAN.txt`, Git blob `47ee684888525d9d71a6dd701041685681f3dc49`, 4,178 characters / 41 lines. The complete file was read.
 6. `EARLY 2026/SAT EARLY 2026 — UNIT CELL LAGRANGIANS.txt`, Git blob `8adfdc9e5fcd8474c69f1dded679eda5d4434608`, 58,596 characters / 1,430 lines. The opening 130 lines were read.
 
@@ -162,6 +162,7 @@ The exact source equations were preserved as encountered. No corrected equation,
 | M850-08 | “Line-based” primitive coexists with 4D bulk actions and separate sphere/unit-cell Lagrangians | Representation-level conflation | Distinguish generator, action domain, and unit-cell model |
 | M850-09 | “nolat” filename coexists with lattice references in body | Version/title mismatch | Preserve both; no supersession inferred |
 | M850-10 | RMS could be merged with SAT by broad “same methodology” language | Category error risk | Preserve direct distinction: related method/epistemics, different theories |
+| M850-11 | Assistant reports 215 lines for Ravel baseline; current file has 225 lines | Snapshot/version uncertainty | Do not call error without the contemporaneous baseline blob; retain both counts and seek version history |
 
 ## 9. Formalization and physical-calculation gate
 
@@ -172,7 +173,7 @@ No physical calculation, data-free fixture, numerical fit, prediction, CODATA sc
 ## 10. Search, governance, and reading controls
 
 - Mersearch was attempted first by inspecting the documented four-lane bridge. All four request files remain `status=requested`; all twelve request-scoped manifest/receipt paths returned 404. No lane was free. No request was overwritten or retriggered. No local pinned checkout exists in this runtime. Bounded GitHub code search was used as fallback, not represented as a Mersearch result. HSH_RESOURCES root README and AI start page were read; no research payload was searched/opened.
-- HsH, SAT archive, and HSH_RESOURCES onboarding/root orientation was read. HsH main branch at the pre-write check: `fc1fcc49a6bdfc...` (exact full SHA recorded in the execution receipt).
+- HsH, SAT archive, and HSH_RESOURCES onboarding/root orientation was read. HsH main branch at the pre-write check: `d0531d08a8657f299649cff36a901f68239b69b6` (the verified main head immediately before this report commit).
 - The live task graph remains 18 records / declared `branch_count=16`; no graph edit or inferred branch.
 - The four existing relay leases remain :00, :24, :36, :48 enabled; :12 remains disabled. The :00 task ID and original hourly schedule were not changed. No sixth task.
 - P0 Code Grurple remains ACTIVE. WH-01..WH-09 remain unresolved P1/HIGH; WH-05 is blocked by the occupied Mersearch lanes; WH-02 remains Calder/authorized-maintainer-owned. No queue ownership or priority change.
