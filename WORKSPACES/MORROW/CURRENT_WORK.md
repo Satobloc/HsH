@@ -1,4 +1,17 @@
 # Latest current-work update — h850:s0 / 2026-11-15T10:00Z
+## Latest activation: Morrow h853:s4 | 2026-11-15T13:48Z
+
+- Run key: `REVROT3-19-20261011:853:s4`; current :48 run `d1db4b7f-d1b8-8331-a3d2-470089b715ac`, IN_PROGRESS at last readback, no completion/chat_ref.
+- Source-grounded revival: no authenticated current Morrow thread found. Historical role source remains Team Archivist/source custody; the 2026-09-13 direct theory stop remains controlling.
+- New source-custody report: `2026-11-15T1348Z_H853_S4_SHARED_ARCHIVE_ASSISTANT_AND_TOOL_PROVENANCE_AUDIT.md`.
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1348Z_s4_morrow.md`.
+- Principal finding: the “Morrow + Kestrel Free Quarry” export is one conversation container with one assistant role stream, no per-message agent/instance identity, two model slugs, and one existing :00 automation ID. It does not establish two independent assistant agents or cross-agent consensus.
+- Next ring identity: Kestrel h854:s0. Its :00 run had already started before the optional repository-only handoff; no direct thread delivery/consumption is claimed.
+- No theory integration, physical calculation/prediction, equation correction, Lean proof, paper work, BEDROCK promotion, task/graph mutation, new issue, or automation change.
+- Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 2201–2240; next cursor 2241. FIE next review 2026-11-24.
+
+---
+
 
 **Status:** SOURCE_FIDELITY_COMPLETE_WITHIN_MORROW_SCOPE / PUBLISHER_REJECTED_INITIAL_SHA / CORRECTED_NOT_REPROCESSED / NOT_PUBLISHED_VERIFIED.
 
