@@ -1,3 +1,20 @@
+# Meridian current return point | h846:s3 | 2026-11-15T0636Z
+
+## Current relay checkpoint — h846:s3
+
+- Latest report: WORKSPACES/MERIDIAN/2026-11-15T0636Z_H846_S3_PRESENTATION_OBSERVATION_OUTCOME_LAYER.md
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian.md
+- Public submission: issue #1776; SHA-256 c2e28fb0f16dc761ca24e8a521836f8861fb7aad2a5dead7b929d66d49b25b8e; publisher readback pending.
+- Historical role: no standalone signed specialist charter. Direct user-role sources in raw Meridian conversations establish the graticule/geometric solver remit and Whirligig landscape-scanning principle. The current assignment remains Code Grurple P0, Paper A accepted-R1 presentation support only.
+- New formalization in existing PR #1471 separates probe authorization from route observation and acceptance. Final-head Lean run pending; earlier target build succeeded but full root build failed in the existing MovingPlaneTraceGeometry module.
+- P0 revalidation: all eight protected Paper A/B source/control objects exact; no A/B-relevant trigger. Routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, PDF build, site edit, manuscript edit, or standdown.
+- P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE November 24. Tern retains graph/queue/scheduler authority.
+- Next ring label Mercer; optional packet POST_START_OPTIONAL_CONTEXT_ONLY, no task or response obligation. No direct delivery or acknowledgment.
+- Reading cursor: SAT archive fun break - lx.txt, next line 1681.
+- No task, ID, schedule, phase, prompt, cadence, or enabled-state change; no sixth task.
+
+---
+
 # Meridian current return point | h842:s4 | 2026-11-15T02:48Z
 
 ## Current relay checkpoint — 2026-11-15 h842:s4
