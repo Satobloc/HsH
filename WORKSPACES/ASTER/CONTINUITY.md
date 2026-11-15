@@ -1,14 +1,16 @@
-## 2026-11-15 h851:s3 | Worldsheet signature and time-typing gate
-
 
 ## 2026-11-15 h855:s2 | Source-locator and Lean-scope correction
 
-- Corrected the October 21 direct user-message locator to `c5525f53-b7cc-4444-8102-3bf6fdb1c892` in raw export `56a84cb85d5c386efa4ea11d322d11e95e2c7703`; the older `c5525f53-2111-4e31-a705-c7b5b9d6a93f` locator has zero occurrences in that raw export. October 9 `w=ct) and October 21 `cw=t) remain separate direct-source strings. The November 8 direct source describes a fourth-spatial `w) and proper time `t) distinction, but no explicit conversion map. The October 29 TOPLESS raw source remains unrecovered.
-- Corrected active Lean status: PR #873 run #43202552666 is `PR_MERGE_REFERENCE_BUILD_SUCCESS_STALE_BASE`, not exact-head; synthetic merge commit `7ca33453a6fc74f8e165821abac942414ef9546b), four commits behind current PR base `61cc8b65ffed70296e0121dbae067892a79c81d4). The theorem-specific axiom list includes `propext), `Classical.choice), `Quot.sound`; automated axiom audit skipped. No new build.
+- Corrected the October 21 direct user-message locator to **c5525f53-b7cc-4444-8102-3bf6fdb1c892** in raw export **56a84cb85d5c386efa4ea11d322d11e95e2c7703**; the older **c5525f53-2111-4e31-a705-c7b5b9d6a93f** locator has zero occurrences in that raw export. October 9 **w=ct** and October 21 **cw=t** remain separate direct-source strings. The November 8 direct source describes a fourth-spatial **w** and proper time **t** distinction, but no explicit conversion map. The October 29 TOPLESS raw source remains unrecovered.
+- Corrected active Lean status: PR #873 run #43202552666 is PR_MERGE_REFERENCE_BUILD_SUCCESS_STALE_BASE, not exact-head; synthetic merge commit **7ca33453a6fc74f8e165821abac942414ef9546b**, four commits behind current PR base **61cc8b65ffed70296e0121dbae067892a79c81d4**. The theorem-specific axiom list includes propext, Classical.choice and Quot.sound; automated axiom audit skipped. No new build.
 - Existing issue #1788 remains PUBLISHED_VERIFIED with exact issue/artifact match. No duplicate public issue. Aster review remains frozen; no Paper A/B review, no physical calculation, no P2 admission or theory promotion.
 - No callable Mersearch action; all four request lanes remain occupied/requested. Bounded GitHub/Library raw-source fallback used; not a Mersearch run.
-- :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled and unchanged; current run `125bbbf5-8fec-832e-a890-2ed921f4a8cc` recorded IN_PROGRESS with null chat_ref. Ariadne next; existing Ariadne report/inbox already contains the correct locator, so no duplicate handoff.
+- :24 task **6abda4c8eda88191bf23a6f2849e9a17** remains enabled and unchanged; current run **125bbbf5-8fec-832e-a890-2ed921f4a8cc** recorded IN_PROGRESS with null chat_ref. Ariadne next; existing Ariadne report/inbox already contains the correct locator, so no duplicate handoff.
 
+
+---
+
+## 2026-11-15 h851:s3 | Worldsheet signature and time-typing gate
 
 - Report: `WORKSPACES/ASTER/2026-11-15T1136Z_H851_S3_WORLDSHEET_SIGNATURE_TYPE_GATE.md`; receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1136Z_s3_aster.md`.
 - Public issue #1788 is PUBLISHED_VERIFIED; publisher comment #6894277559 and exact artifact readback passed. No retry or duplicate.
