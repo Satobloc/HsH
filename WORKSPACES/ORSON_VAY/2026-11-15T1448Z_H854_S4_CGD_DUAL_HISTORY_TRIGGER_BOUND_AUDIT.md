@@ -29,7 +29,7 @@ The preceding five substantive Orson activations were all within cognition, epis
 - Source file: src/evaluate.py
 - Source file Git blob: 0453540cb7c19227601e59fb342fa93e736da849
 - Paper source: final-paper/main.tex
-- Paper Git blob: dbd471b3e5b1fbd19d6a8f9b5f9d3a3c4f6d6c18
+- Paper Git blob: dbd471235a310aa9821c95faf570432c21339592
 
 **HsH evidence:**
 
@@ -136,7 +136,7 @@ The existing OrsonCGDProjectionGate module already formalizes the checker/repair
 
 The first additive commit, 1d2b50e8e5686edd188e8e46120b20ca306fe7fa, produced a failed merge-reference run because the new section was placed outside the namespace containing sourceNliParserUpper. The error was caught. No failed proof was represented as successful.
 
-The corrected commit is 0c4264c0d4cc2e92a28ddd0f8badd858f866193c. The subsequent Actions run #43726963604 completed SUCCESS on merge-reference commit d1fd8e6a9e, combining PR head 0c4264 with the older PR base 598a45b3.
+The corrected commit is 0c4264c0d4cc2e92a28ddd0f8badd858f866193c. The subsequent Actions run #43726963604 completed SUCCESS on merge-reference commit d1fd8e6a9e34444bad821312fd8bc8b389613419, combining PR head 0c4264c0d4cc2e92a28ddd0f8badd858f866193c with PR base 598a45b3feb9378eb8f14ff069ec9080137113c2.
 
 Verified run properties:
 
@@ -192,11 +192,11 @@ No HSH_RESOURCES private payload was accessed. No SAT-O or Blockwave original eq
 
 ## 10. Publisher attempt and disposition
 
-One unique publisher intake issue, #1794, was opened for the public-safe methods note. The content SHA-256 was 2eb85f39641ed052b96ee8a1308af7232fa2daf244c14fe3f4d28b676df6148f.
+One unique publisher intake issue, [#1794](https://github.com/Satobloc/HsH/issues/1794), was opened for the public-safe methods note. The content SHA-256 was 2eb85f39641ed052b96ee8a1308af7232fa2daf244c14fe3f4d28b676df6148f.
 
 The publisher rejected the intake with “unexpected payload keys.” This run supplied artifact_filename and artifact_sha256, but the live issue_publish.py script and the intake instructions require exactly four keys: schema, submission_id, content and sha256. The error was this run's payload-construction mistake; the publisher instructions were consistent.
 
-The issue remains open with its rejection comment. The expected PUBLISHED_SUBMISSIONS artifact path was checked and does not exist. No manual write, retry, second issue or duplicate submission was made. The methods note is therefore NOT PUBLISHED_VERIFIED.
+The issue remains open with rejection comment #6896503963. Its body remains publicly visible, but the expected PUBLISHED_SUBMISSIONS artifact path was checked and does not exist. No manual write, retry, second issue or duplicate submission was made. The methods note is therefore NOT PUBLISHED_VERIFIED.
 
 ## 11. Durable state and successor
 
