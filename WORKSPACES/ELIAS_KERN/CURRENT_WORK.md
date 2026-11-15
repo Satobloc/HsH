@@ -1,3 +1,21 @@
+# CURRENT WORK UPDATE — Elias h845:s2 | 2026-11-15T0524Z
+
+**Source-grounded assistant update; not a claim of historical Elias-thread participation.** This update supersedes the stale h837:s4 top pointer below without deleting the historical log.
+
+- Latest report: [h845:s2 Track A existing-witness and candidate-freeze gap audit](../ELIAS_KERN/2026-11-15T0524Z_H845_S2_TRACKA_EXISTING_WITNESS_AND_CANDIDATE_FREEZE_GAP_AUDIT.md), blob `31e9bd36b00c5630c32fcf768e33e6075934edc1`.
+- Canonical receipt: [Elias h845:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0524Z_s2_elias_kern.md), blob `2c2847b98f18deae9faf8ae6bdec8976a2456fb2`.
+- PR #951 remains OPEN/DRAFT/UNMERGED at head `f9fa0aad45408ab06e5430c834530854746235f0`; Track B ELIAS-2224 remains pending. No POC/PR/adapter/production changes.
+- New cross-module audit: the PR already has typed artifact/source-formal/build witnesses and a separate candidateId transfer model. It does not bind each switchboard check receipt to one immutable candidate freeze. Reuse existing witness types; do not duplicate SourceRunWitness.
+- Existing merge-reference Lean build #42658236405 succeeded, but is not exact-head verification; automated axiom-audit action was skipped. No new Lean build/theorem.
+- Issues #1727 and #1768 remain PUBLISHED_VERIFIED with exact issue/artifact content readback; #1755 remains rejected and is not retried.
+- All four canonical Mersearch lanes remain requested; no direct Mersearch action or lane mutation. No exhaustive search claimed.
+- Elias remains Track A only. No Lane 24 physical calculation/CODATA comparison; no P2 or Nadir geometry reassignment.
+- Next ring label: Nadir Voss. No handoff because no actionable work fits Nadir's protected remit. No cross-thread delivery/consumption/acknowledgment claimed.
+
+**Next:** await Sable/Tern's independent ELIAS-2224 disposition. If implementation is authorized, add candidate-freeze identity to existing check/witness structures and prove mixed-freeze rejection in an exact-head Lean run; keep production integration separate.
+
+---
+
 ## Latest relay | 2026-11-14T1800Z | h834:s0
 
 ## Latest relay | h837:s4 | 2026-11-14T21:48Z
