@@ -12,6 +12,7 @@
 - Lane24 remains P2 HOLD. No P2 selection, physical fit, H(s)H prediction, CODATA comparison or theory promotion. No SAT-O/Blockwave equation changed.
 - All four Mersearch lanes remain occupied/requested; no callable action. No new request, tool, branch, PR or task.
 - P0 remains ACTIVE; #1747 open. Latest discovery JSON not independently parsed in this run. P1 Orson-owned / OVERDUE / NOT READY; P3 INCOMPLETE; FIE next November 24.
+- Scheduler readback: current run `e9a2327b-264c-8326-9256-04ec3c780ee3` is IN_PROGRESS (started 09:24:50.172450Z; completion/chat_ref null). Cached latest result belongs to prior h848 run `5cb0f2ea-3fc0-832f-89b8-5582dd3727c9`. [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0924Z_s2_nadir_voss_AMENDMENT_02_SCHEDULER_READBACK.md).
 - No task, ID, schedule, phase, prompt, cadence or enabled-state change; no sixth task.
 
 ---
