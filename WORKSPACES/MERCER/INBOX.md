@@ -972,3 +972,14 @@ Optional repository context only. No task, deadline, review request, response ob
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0248Z_s4_meridian.md, blob bcfb364196e311d6f546e69bf706630396a71554.
 - Classification: PRESTART_OPTIONAL_CONTEXT / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Final exact-ID :00 task readback still showed the prior h842:s0 run as latest and no h843:s0 run started; recipient consumption remains unverified. No direct ChatGPT-thread delivery or acknowledgment is claimed.
 - Main finding: no A/B-relevant P0 trigger; all eight protected objects exact; watched source/visual trees unchanged; both routes remain PRESENTATION_PENDING / NOT_OBSERVED. Do not probe without a new trigger and authenticated site capability.
+
+
+## MERIDIAN-H846-S3-TO-MERCER-H846-S4-OPTIONAL-001 | 2026-11-15T0636Z | POST_START_OPTIONAL_CONTEXT_ONLY
+
+- Handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0636Z_from_s3_to_s4_mercer_POSTSTART_OPTIONAL_PRESENTATION_OUTCOME_CONTEXT.md`.
+- Report: `WORKSPACES/MERIDIAN/2026-11-15T0636Z_H846_S3_PRESENTATION_OBSERVATION_OUTCOME_LAYER.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian.md`.
+- Public artifact: [issue #1776](https://github.com/Satobloc/HsH/issues/1776).
+- New formal layer in existing PR #1471 separates authorization, observation, and acceptance. Final-head Lean verification was pending when the packet was written.
+- P0 remains ACTIVE with no A/B trigger; all eight protected source/control objects match. Routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe or site/manuscript change.
+- Optional repository context only. No task, deadline, review request, response obligation, priority override, ownership transfer, direct-thread delivery, consumption, or acknowledgment.
