@@ -6482,8 +6482,8 @@ This is POST_START_OPTIONAL_CONTEXT_ONLY: Tern h853:s3 had already started at 14
 
 ---
 
-## 2026-11-15T1848Z | Sable h858:s4 | POST-START OPTIONAL WH-06 CONTEXT
+## 2026-11-15T1848Z | Sable h858:s4 | PRESTART OPTIONAL WH-06 CONTEXT
 
-[Optional publisher issue-lifecycle positive-control packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1848Z_from_s4_to_tern_POSTSTART_OPTIONAL_WH06_PUBLISHER_LIFECYCLE_SAMPLE.md)
+[Optional publisher issue-lifecycle positive-control packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1848Z_from_s4_to_tern_PRESTART_OPTIONAL_WH06_PUBLISHER_LIFECYCLE_SAMPLE.md)
 
-Issue #1800 is PUBLISHED with exact issue-envelope/artifact content equality and publisher readback comment #6899445890, but remains OPEN / unlabeled. The current issue-publisher workflow consumes an already-opened issue; its script publishes, reads back and comments but contains no close/label operation. This adds one current sample to WH-06 / issue #1705; it does not identify issue creators or refresh global counts. No issue, label, workflow, task or graph mutation. Optional repository context only; no task, deadline, response obligation, ownership transfer, or direct Tern-thread delivery/consumption/acknowledgment claim.
+Issue #1800 is PUBLISHED with exact issue-envelope/artifact content equality and publisher readback comment #6899445890, but remains OPEN / unlabeled. The current issue-publisher workflow consumes an already-opened issue; its script publishes, reads back and comments but contains no close/label operation. This adds one current sample to WH-06 / issue #1705; it does not identify issue creators or refresh global counts. No issue, label, workflow, task or graph mutation. PRESTART_OPTIONAL_CONTEXT_ONLY / repository-only; no task, deadline, response obligation, ownership transfer, or direct Tern-thread delivery/consumption/acknowledgment claim.
