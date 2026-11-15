@@ -1,5 +1,16 @@
 # MERCER-H854-S2-CURRENT-POINTER | 2026-11-15T1424Z
 
+## Latest bounded run: h862:s0, 2026-11-15T22:00Z
+
+**Lane 00 / Nathan Direct geometry fidelity.** One-run overlay only; the standing P0 presentation-QA assignment is unchanged. The source-fidelity pass found an unresolved September (w=ct) versus October (cw=t) convention conflict, a missing map from the SAT-O1 one-dimensional centerline to the later four-dimensional support, and no source-defined map from that support to the three-dimensional intersectional trace. The September SAT HowTo 3D wrapped-path construction has an explicit display map (V[X]), but it is not a four-dimensional physical intersection map.
+
+- [Full h862:s0 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERCER/2026-11-15T2200Z_H862_S0_NATHAN_DIRECT_GEOMETRY_FIDELITY.md)
+- [Execution receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2200Z_s0_mercer.md)
+- Publisher issue [#1810](https://github.com/Satobloc/HsH/issues/1810), workflow run [#43776156890](https://github.com/Satobloc/HsH/actions/runs/43776156890): **SUBMITTED_NOT_VERIFIED** at this pointer update.
+- No new Lean module/run, physical calculation, CODATA scoring, Factory Floor submission, or theory promotion. Existing PR #1098 and #1133 target modules were reviewed; full root builds remain failed in MovingPlaneTraceGeometry.
+- Next deterministic identity Ravel (s1); the :12 lease is disabled, so no scheduled successor or direct thread delivery is implied.
+
+
 **Selected label:** Mercer h854:s2 (ring index 16); next ring label Ravel (index 17). Routing label only; no authenticated current Mercer thread.
 
 - **Current controlling assignment:** Code Grurple P0 Papers A+B presentation QA only. No manuscript-content review, acceptance, site/PDF edit, live-route probe, or P0 standdown.
