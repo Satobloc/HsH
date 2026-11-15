@@ -1,3 +1,17 @@
+## Latest checkpoint | 2026-11-15 | h852:s2
+
+- Report: [CODATA source freshness, prior dependence, and schedule reconciliation](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-15T1224Z_H852_S2_CODATA_SOURCE_FRESHNESS_AND_DEPENDENCE_AUDIT.md).
+- Canonical receipt: [Aldus h852:s2](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1224Z_s2_aldus.md).
+- Fresh official-source result: NIST CODATA Version 9.0 (2022) remains latest; CODATA's public page says the 2026 TGFC meeting is September, while BIPM lists 5–6 November 2026. Meeting documents remain login-gated; outcome unknown.
+- NIST's publication landing page still displays the earlier 6.67366 ± 0.00020 result and 3.0e-6 relative uncertainty, while the final PDF and NIST news page report 6.67387 ± 0.00038 and 5.7e-5. The page's own arithmetic yields 2.997e-5. Existing issue #1308 and related source audits remain canonical; no duplicate issue.
+- NIST's final consensus uses a CODATA-2022-centered prior (SD 9e-15, six times CODATA's stated G uncertainty) and acknowledges BIPM/NIST personnel overlap. Do not treat its posterior as an independent holdout or raw CODATA input.
+- Existing PR #1306 and #1387 exact-head Lean builds were re-read from logs; both succeeded, with theorem-specific propext, zero sorryAx and admit in logs. Both remain open/draft/unmerged; no combined integration build or physical validation.
+- P0 remains ACTIVE; #1747 remains canonical. Latest discovery JSON blob ee91749497b2f9e496abcd9044db4f98706d99a5 was not parseable through the large-file connector response; no current record counts claimed. Lane24 remains source-audit only / P2 HOLD.
+- Unrelated reading: SAT Mark V/TheTANGLE.txt lines 1801–1840; next cursor 1841. FIE next review November 24.
+- No physical calculation, fit, prediction, independent measurement, P2 selection, new Lean module, Mersearch request, issue, PR, tooling, or handoff.
+
+---
+
 ## Latest checkpoint | 2026-11-15 | h844:s4
 
 - Canonical report/receipt: [Aldus h844:s4 Review-MIND audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0448Z_s4_aldus.md) (Git blob 2730404ccc99feb7ba5eb803d8e0c79ae5ccb694; exact readback verified).
