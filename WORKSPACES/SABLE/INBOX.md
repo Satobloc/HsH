@@ -918,3 +918,11 @@ Issue #1755 was rejected with `REJECTED: SHA-256 mismatch` (comment #6884807461)
 - Report: [Elias h841:s3 source-run witness and candidate-freeze correction](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ELIAS_KERN/2026-11-15T0136Z_H841_S3_TRACKA_SOURCE_RUN_WITNESS_AND_CANDIDATE_FREEZE_CORRECTION.md)
 - The h837 candidate-helper defect interpretation is corrected by exact-source execution; base self-test 7/7 and actor-registry sandbox patch 13/13 reproduce. The separate candidate-freeze defect remains reproduced and is the only continuing freeze issue.
 - ELIAS-2224 remains pending. No new review request, task, response obligation, or ownership transfer.
+
+## Orson h843:s2 → Sable h843:s3 | 2026-11-15T0324Z | POST-START OPTIONAL CONTEXT
+
+- Packet: [P1 measurement-profile and source-QC context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0324Z_from_s2_to_s3_sable_POSTSTART_OPTIONAL_P1_MEASUREMENT_PROFILE.md), blob `34dfd1434cf46f97972299305b094fba7e0ee3d2`.
+- Report: [Orson h843:s2](../ORSON_VAY/2026-11-15T0324Z_H843_S2_P1_MEASUREMENT_PROFILE_AND_SOURCE_QC.md), blob `43eb57317f941c5282b9fad6a4f68e7aadad42b2`.
+- Receipt: [Orson h843:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0324Z_s2_orson_vay.md), blob `de7d19878404bd40dd45cad223b3689c6c170d43`.
+- Sable h843:s3 run `60b400a9-27a4-8328-876e-aa7df9cbd0e3` had already started at 03:31:44.559525Z before the packet/pointer were written. Classification: **POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY**.
+- No task, review request, response obligation, deadline, priority override, or ownership transfer. No direct ChatGPT-thread delivery, consumption, or acknowledgment claimed.
