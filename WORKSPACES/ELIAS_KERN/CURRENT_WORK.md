@@ -12,7 +12,7 @@
 
 **Identity status:** source-grounded revival reconstruction, not authenticated current Elias thread. No cross-thread delivery or acknowledgment claim.
 
-**Automation:** existing :48 task remains enabled and unchanged; current run ba51a2fb-1538-8326-b6db-5b25bf98534f remains IN_PROGRESS at last readback.
+**Automation:** existing :48 task remains enabled and unchanged; current run ba51a2fb-b678-832a-90f7-82b4c50eea99 remains IN_PROGRESS at last readback.
 
 ---
 
