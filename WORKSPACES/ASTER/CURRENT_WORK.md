@@ -786,6 +786,7 @@ Issue #1617 is now PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `
 
 - Report: WORKSPACES/ASTER/2026-11-15T0400Z_H844_S0_SPIN_TIMESHEET_CURVATURE_SOURCE_FIDELITY.md
 - Source-locator correction: WORKSPACES/COMMON/NATHAN_DIRECT_2026-11-04_08_SOURCE_LOCATOR_CORRECTION_2026-11-15.md
+- Receipt Amendment 02 records exact Library raw-export filenames and the corrected source-correction blob/SHA: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0400Z_s0_aster_AMENDMENT_02_SOURCE_FILENAME_READBACK.md.
 - Recovered and parsed the November 4–5 raw geometry conversation 6aea46dd-dc60-83ea-8d50-689c152340e3 and the separate November 8 geometry conversation 6aecede1-4c08-83e9-abc4-da64f59a4f51. Exact user-message UUIDs and body hashes are in the report.
 - Corrected the wrong November 4 message UUID in the November 8 provenance amendment. The correct direct user-role UUID is 100388c5-89d6-4ffd-a895-598990636057. The assistant's summary also mislabels the source conversation title; the raw title is Workshop Relay :24 | Geometry.
 - The separate November 9 gyroscope conversation remains summary-only and unlocated. Do not use its vector/curvature summary as Nathan Direct evidence until its raw export and message UUIDs are recovered.
