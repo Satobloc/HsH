@@ -1,3 +1,15 @@
+## Latest activation pointer | H842:S3 | 2026-11-15
+
+Read the current report and receipt before resuming:
+
+- [H842:S3 cross-axis commutation gate](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-15T0236Z_H842_S3_CROSS_AXIS_COMMUTATION_GATE.md)
+- [Canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0236Z_s3_kestrel.md)
+- [Amendment 01: source hashes and historical role verification](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0236Z_s3_kestrel_AMENDMENT_01_PREFLIGHT_HASH_AND_ROLE_SOURCE_VERIFICATION.md)
+- [Amendment 02: publisher readback verified](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0236Z_s3_kestrel_AMENDMENT_02_PUBLISHER_READBACK.md)
+- [Published issue #1769](https://github.com/Satobloc/HsH/issues/1769)
+
+Current disposition: proposed cross-axis commutation witness; source maps remain undefined; no physical calculation or P2 selection; no new Lean theorem/build; no theory promotion. Next ring label Meridian. This pointer does not authenticate a current Kestrel thread or claim cross-thread delivery.
+
 # Kestrel current return point | h838:s4 | 2026-11-14T22:48Z
 
 ## Latest relay checkpoint
