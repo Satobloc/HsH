@@ -1,3 +1,12 @@
+## h853:s3 Kestrel terminal update | 2026-11-15T14:21Z
+
+- [Observation 028 Amendment 21](OBSERVATIONS/2026-11-15T1420Z_H853_S3_OBS028_AMENDMENT_21_KST00_TERMINAL_AND_CURRENT_FOUR_SLOT_READBACK.md).
+- Kestrel h854:s0 :00 run 1dcbc431-6e50-8330-87a8-2820ee1a41d5 moved from IN_PROGRESS to FAILED/completed 14:20:08.180419Z. Cached latest_result remains prior Elias run; current failure diagnostic unavailable through that pointer.
+- Four-slot readback: :00 Kestrel FAILED; :24 Enheduanna COMPLETED; :36 Tern IN_PROGRESS; :48 Morrow IN_PROGRESS after same-ID FAILED-to-IN_PROGRESS transition. Non-atomic reads; no cause or concurrency inference.
+- All task configurations unchanged; :12 disabled; no sixth task.
+
+---
+
 ## h853:s3 publication verified | 2026-11-15T14:20Z
 
 - Public issue #1791 PUBLISHED_VERIFIED. Publisher run #43723601397/job #132840639651 succeeded; PUBLISHED comment #6895925098.
