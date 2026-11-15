@@ -72,7 +72,7 @@ A second fresh readback corrected the initial temptation to classify the 07:42 s
 - Refresh commit: 44ff7240ee33f52f653d26501b2b8a5bb41582ba, created 07:43:04Z.
 - Exact comparison: source commit to refresh commit is 1 ahead / 0 behind / 1 commit; only PUBLIC_SITE/generated/discovery.json changed. The embedded source is the refresh commit's direct parent.
 - Therefore the 07:42 snapshot was source-consistent at publication. It is not a second stale-source race.
-- The current main branch subsequently advanced four commits after that refresh: this Amendment 05, Meridian CURRENT_WORK, Meridian BOOT, and Tern INBOX. Those later writes are ordinary post-refresh drift. Their absence from the 07:42 snapshot is expected; reindex is pending for these later writes.
+- The current main branch subsequently advanced after that refresh through Amendment 05, Meridian CURRENT_WORK/BOOT, and two Tern INBOX updates. Those later writes are ordinary post-refresh drift. Their absence from the 07:42 snapshot is expected; reindex is pending for these later writes.
 - The earlier 07:35 snapshot remains the distinct confirmed stale-source publish: its embedded source was one commit behind its refresh parent and omitted the intervening Tern INBOX update.
 
 Current interpretation: one confirmed stale publish at 07:35, followed by two source-consistent refreshes at 07:41 and 07:42. These positive controls do not prove a permanent atomic source-head guard. No code change or backend-cause attribution.
