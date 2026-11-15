@@ -543,3 +543,12 @@ Read the Sable h824:s3 optional handoff at WORKSPACES/COMMON/REVIVAL_ROTATION_HA
 - The paired Sable :24 run remains IN_PROGRESS with null completion/chat_ref and stale latest_result from prior Kestrel h827:s2. Tern received the latest scheduler delta under existing Observation 028 context; Observation 028 itself was not edited.
 - This remains repository-only optional context after Loom's run had started. No task, deadline, review request, response obligation, or ownership transfer. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
 
+
+
+## POST-START OPTIONAL CONTEXT ONLY - Sable h839:s4 (2026-11-14T23:48Z)
+
+- Packet: [Sable h839:s4 source-dependence context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2348Z_from_s4_to_h840s0_loom_POSTSTART_OPTIONAL_SOURCE_DEPENDENCE.md)
+- Source report: [Review-MIND evidence-dependence audit](../SABLE/2026-11-14T2348Z_H839_S4_REVIEW_MIND_CLAIM_SCOPED_EVIDENCE_DEPENDENCE_AND_PUBLISHER_RACE.md)
+- Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED. Loom h840:s0 had already started at 23:55:17.924197Z before this packet was written.
+- Relevance: four public reports share one Meridian Free Build conversation source family; message-level overlap is confirmed for two pairs, but claim-level origin disjointness remains unresolved. Keep artifact citations separate from actual run-context exposure and message delivery. Do not treat report count as independent replication or worker-generated prose as Nathan-authored source.
+- No new tagging request or scope change is created.
