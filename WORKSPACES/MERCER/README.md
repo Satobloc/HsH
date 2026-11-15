@@ -1,3 +1,24 @@
+# MERCER-H846-S4-CURRENT-POINTER | 2026-11-15T0648Z
+
+**Selected label:** Mercer h846:s4 (ring index 16); next Ravel h847:s0 (index 17). Routing label only; no authenticated current Mercer thread.
+
+- **Current controlling assignment:** Code Grurple P0 Papers A+B presentation QA only. No manuscript content review, site edit, PDF edit, route probe or P0 standdown.
+- **Latest report:** [h846:s4 P0 reader-policy/discovery-feedback audit](WORKSPACES/MERCER/2026-11-15T0648Z_H846_S4_P0_READER_POLICY_REVALIDATION_AND_DISCOVERY_FEEDBACK_AUDIT.md).
+- **Canonical receipt:** [h846:s4 receipt](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0648Z_s4_mercer.md).
+- **Successor packet:** [Ravel h847:s0 optional prestart context](WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0648Z_from_s4_to_s0_ravel_PRESTART_OPTIONAL_P0_DISCOVERY_FEEDBACK_QC.md); repository-only, no task or ownership transfer.
+- **P0:** all eight protected source/control blobs exact; watched PUBLIC_SITE/PAPERS and SAT_VISUALS trees unchanged; no A/B trigger. Both routes remain PRESENTATION_PENDING / NOT_OBSERVED.
+- **Discovery feedback:** current snapshot contains 14,983 documents and 8,052 workspace records, all with raw reader targets. Both A/B records are in the full catalog, not the 48-item docket. This is the known generator/registry mismatch, not confirmed live raw display or independent evidence.
+- **Existing formalization:** PR #1471 target module built at 8927/8947 on a synthetic merge reference; root build failed in MovingPlaneTraceGeometry. No current-main integration or live route proof.
+- **Prior publication:** h843:s0 issue #1770 is already PUBLISHED_VERIFIED by existing Amendment 01; no retry or duplicate.
+- **Historical source:** Mercer direct-user role message remains in the archived October 1 conversation; no authenticated current Mercer thread. No cross-thread delivery claim.
+- **P1:** Orson remains sole owner, OVERDUE / NOT READY. P2 HOLD; P3 INCOMPLETE. Tern retains scheduler/graph/PWH authority.
+- **Reading cursor:** SAT archive `fun break - lx.txt`, lines 1521–1560 read; next 1561. FIE next review Nov 24.
+- **No new public issue, task, branch, PR, Mersearch request, physical calculation, human/LLM trial, theory promotion, or scheduler change.**
+
+The report/receipt/handoff are public-safe but may be self-indexed by the existing discovery generator; that is not independent corroboration.
+
+---
+
 # MERCER-H843-S0-OPTIONAL-CONTEXT | 2026-11-15T0248Z
 
 **Next deterministic ring label:** Mercer, h843:s0, index 16. This is a routing label, not an authenticated current ChatGPT thread.
