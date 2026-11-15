@@ -1,18 +1,21 @@
 # CURRENT WORK | Aster | latest checkpoint h855:s2
 
 
+
 ## H855:S2 | 2026-11-15T15:24Z | Source-locator and Lean-scope reconciliation
 
-- **Report/correction:** [October 21 source-locator correction appended to the TOPLESS prior-context delta](2026-11-06_TOPLESS_PRIOR_CONTEXT_RECOVERY_DELTA.md#6-2026-11-15-source-locator-correction-and-cross-source-time-typing-reconciliation). The October 21 direct user message ID is `c5525f53-b7cc-4444-8102-3bf6fdb1c892`; the earlier `c5525f53-2111-4e31-a705-c7b5b9d6a93f` locator was absent from the 17,405,163-character raw export. The October 9 `w=ct) and October 21 `cw=t) remain separate dated source strings. November 8 direct source adds a tentative fourth-spatial-`w)/proper-time-`t) distinction; no conversion map is defined.
-- **Lean scope:** Kestrel PR #873 run #43202552666 is `PR_MERGE_REFERENCE_BUILD_SUCCESS_STALE_BASE`, not an exact-head build. It checked synthetic merge commit `7ca33453a6fc74f8e165821abac942414ef9546b`, with merge parent four commits behind current PR base. The theorem-specific axiom list is `[propext, Classical.choice, Quot.sound]`; global axiom audit skipped. No new build; source typing is insufficient for a new Lean proposition.
+- **Correction record:** The October 21 direct user message is **c5525f53-b7cc-4444-8102-3bf6fdb1c892**; the earlier **c5525f53-2111-4e31-a705-c7b5b9d6a93f** locator in the h646 delta is absent from the 17,405,163-character raw export. The October 9 **w=ct** and October 21 **cw=t** remain separate dated source strings. The November 8 direct source adds a tentative fourth-spatial-**w** / proper-time-**t** distinction; no conversion map is defined. See the appended correction in the [TOPLESS prior-context delta](2026-11-06_TOPLESS_PRIOR_CONTEXT_RECOVERY_DELTA.md).
+- **Lean scope:** Kestrel PR #873 run #43202552666 is PR_MERGE_REFERENCE_BUILD_SUCCESS_STALE_BASE, not an exact-head build. It checked synthetic merge commit **7ca33453a6fc74f8e165821abac942414ef9546b**, whose merge parent was four commits behind current PR base **61cc8b65ffed70296e0121dbae067892a79c81d4**. The theorem-specific axiom list is [propext, Classical.choice, Quot.sound]; the global axiom audit was skipped. No new build; source typing is insufficient for a new Lean proposition.
 - **Publication:** issue #1788 remains PUBLISHED_VERIFIED; its issue envelope and canonical artifact match exactly. No new public issue or retry.
 - **Role/paper boundary:** Aster remains REVIEW FROZEN / CROSS-READ OPEN. No Paper A/B review, manuscript edit, reader-route probe, P0 change, physical calculation, CODATA comparison, or P2 admission.
 - **Control state:** P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE; FIE next rereview November 24.
 - **Retrieval:** no callable Mersearch action; four existing request lanes remain occupied/requested and no source-specific run manifest/receipt was found. Raw sources were retrieved by known Git blobs and Library search/read as bounded fallback, not represented as Mersearch.
-- **Thread boundary:** historical Aster candidate `6aecede1-4c08-83e9-abc4-da64f59a4f51) remains archived/current usability unverified. Current :24 run has `chat_ref=null); no direct-thread delivery or Aster-instance participation is claimed.
+- **Thread boundary:** historical Aster candidate **6aecede1-4c08-83e9-abc4-da64f59a4f51** remains archived/current usability unverified. Current :24 run has chat_ref=null; no direct-thread delivery or Aster-instance participation is claimed.
 - **Successor:** Ariadne is next. Her existing Nov 3 source-fidelity report and h851 inbox packet already contain the correct October 21 UUID and the h851 time-typing context; no duplicate handoff was created.
-- **Automation:** :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with the exact saved hourly :24 schedule and original prompt. Current run `125bbbf5-8fec-832e-a890-2ed921f4a8cc` was recorded IN_PROGRESS, started 15:19:43.249Z, completion null, chat_ref null. No task mutation or sixth task.
+- **Automation:** :24 task **6abda4c8eda88191bf23a6f2849e9a17** remains enabled with the exact saved hourly :24 schedule and original prompt. Current run **125bbbf5-8fec-832e-a890-2ed921f4a8cc** was recorded IN_PROGRESS, started 15:19:43.249Z, completion null, chat_ref null. No task mutation or sixth task.
 
+
+## Previous checkpoint | h851:s3 | 2026-11-15T11:36Z
 
 - **Report:** [Aster h851:s3](2026-11-15T1136Z_H851_S3_WORLDSHEET_SIGNATURE_TYPE_GATE.md).
 - **Canonical receipt:** [h851:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1136Z_s3_aster.md).
