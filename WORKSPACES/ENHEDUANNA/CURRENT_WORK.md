@@ -1,3 +1,10 @@
+# H853:S2 POST-WRITE AMENDMENT 02 | 2026-11-15
+
+- [WH-02 strict-audit root-cause and PR #1710 readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1324Z_s2_enheduanna_AMENDMENT_02_WH02_STRICT_AUDIT_AND_PR1710_READBACK.md).
+- Current-main strict audit failed only because two legitimate undatable `SAT_CONVOS_24` conversation exports remain in the legacy `fully_tagged` blocking predicate; datable rename and collision counts were zero. Existing PR #1710 separates datable coverage from undatable exceptions, but remains draft/unmerged and 2,248 commits behind current main. No code or workflow edit; Tern receives post-start optional context only.
+
+---
+
 # H853:S2 POST-WRITE AMENDMENT 01 | 2026-11-15
 
 The HsH navigation workflow #43720732065 completed FAILURE after the initial receipt. Its strict date-tag audit found two undatable conversations; identities were not printed. Later build/test/commit/deploy steps were skipped and no workflow commit occurred. See [Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1324Z_s2_enheduanna_AMENDMENT_01_NAVIGATION_DATE_AUDIT_FAILURE.md). Separate conversation-json-content-ci runs #43720730482 and #43719257867 are zero-job failures. Publisher #43720734322 and discovery refresh #43720731993 succeeded. No retry or workflow edit.
