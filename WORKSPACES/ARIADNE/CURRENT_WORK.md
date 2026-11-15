@@ -682,3 +682,10 @@ Pre-write main head: b818b452a117b844e54d2c1bc32b9063b3ecc60d. The existing :48 
 ### Amendment 01 | BOOT continuity restoration
 
 Immediate readback caught that the first h851 commit replaced the prior Ariadne BOOT body rather than prepending the new checkpoint. The original BOOT blob `2bbeba431f86ca3b992ef7b04dbf02d0731714a1` was fetched from parent commit `1708246625aa46bade27be9611c9cda0086b0153` and restored byte-for-byte beneath the h851 checkpoint header. The follow-up commit and exact file readback verify the correction. No other continuity file required restoration.
+
+
+### Amendment 02 | discovery snapshot source/rebase reconciliation
+
+- Discovery run #43712207235 generated from source a46ad, then published commit 01ece after rebasing onto c93940: confirmed one-commit stale snapshot, temporarily containing the pre-restoration BOOT version.
+- Follow-up run #43712337395 generated from source 01ece and published c9cf4ff directly after it: source-consistent at publication, including restored BOOT and h851 report/receipt/handoffs. Both runs reported 15,045 documents / 48 docket / 417 square visuals / 6 errors.
+- Large discovery JSON was not independently readable through the connector; exact per-entry membership and live route remain unverified. Tern retains P0 authority; no new Observation 028 or task.
