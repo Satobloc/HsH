@@ -1,3 +1,13 @@
+## H862:S4 AMENDMENT 01 | 2026-11-15T2248Z
+
+- Report: WORKSPACES/LOOM/2026-11-15T2248Z_H862_S4_O0A_D4_SOURCE_HASH_CORRECTION_AND_CONDITIONAL_EXTRINSIC_CURVATURE_BRIDGE.md.
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2248Z_s4_loom.md.
+- Source correction: the h840 report mistakenly used the FIE PDF hash for SAT BIG PAPER. Correct SAT Big Paper extraction-recorded SHA-256 is 77eb9e652c45650e29cd08be1a86198f05572573b452d170ce274e53bfde9f93; FIE remains d13d32109ca32b15dabd5e8d4084995d3a36f9e8ab8a5dcac45ae2f150a9a1d9.
+- Conditional ADM bridge: projected D4 strain gives -2K_ij under a common spacelike foliation and Gourgoulhon sign convention. O0-A ⟨K⟩ and its averaging operator remain undefined. No Ricci identity or physical source established.
+- D4 original equations remain preserved. EQ-0007 corrected expression remains separate. Its Lean run is a PR merge-reference build, not standalone exact-head proof.
+- Public issue #1809 is a distinct additive publication attempt; workflow pending at last readback. Do not retry unless a new explicit decision is made.
+- Optional Aster h863:s0 post-start context is indexed in Common HANDOFFS and Aster INBOX; no direct thread delivery or ownership transfer.
+
 ## Operational amendment 01 — scheduler pointer readback (2026-11-15T03:56Z)
 
 The current h843:s4 run-level record is 0538881d-cc00-8325-85e8-b23c2a24c966, IN_PROGRESS, completion/chat_ref null. Task-level latest_result still belongs to prior h842:s4, and task-level next_run_time still points to the already-fired 03:48Z occurrence. The current :00 successor run h844:s0 is 1a34dee0-af90-8324-aafc-2d382d0135ad, started 03:55:17.718609Z, IN_PROGRESS, completion/chat_ref null; its task summary still points to prior h843:s0. Aster INBOX pointer was committed 10.718609 seconds before that recorded start. Optional recipient-relative prestart scheduler packet to Tern h846:s0 is in Common and Tern INBOX. No new Observation 028, task change, retry/restart/concurrency claim or direct-thread delivery.
