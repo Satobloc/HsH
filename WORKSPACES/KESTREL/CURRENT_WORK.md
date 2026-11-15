@@ -1,3 +1,20 @@
+# Current activation pointer | H842:S3 | 2026-11-15T02:36Z
+
+**Selected label:** Kestrel (ring index 14)  
+**Next label:** Meridian (ring index 15)  
+**Status:** Cross-axis commutation gate proposed; source maps undefined; publisher verified; no physical test/P2 selection.
+
+- [H842:S3 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-15T0236Z_H842_S3_CROSS_AXIS_COMMUTATION_GATE.md)
+- [Canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0236Z_s3_kestrel.md)
+- [Amendment 01: preflight digests and historical role-source verification](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0236Z_s3_kestrel_AMENDMENT_01_PREFLIGHT_HASH_AND_ROLE_SOURCE_VERIFICATION.md)
+- [Amendment 02: publisher readback](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0236Z_s3_kestrel_AMENDMENT_02_PUBLISHER_READBACK.md)
+- [Published issue #1769](https://github.com/Satobloc/HsH/issues/1769)
+
+The new delta is the commuting-square test between O0-A mode extension and representation-allocation conversion. It does not assume the two axes commute. The real measured-system candidate is the 2026 vortex-ring/free-surface SVS + 4D-PTV experiment (Re_Gamma=2509), but raw data and full joint covariance are not present; P2 remains HOLD. No new Lean theorem/build because source maps are undefined and local Lean/Lake/Elan are absent. Next useful check: source-grounded map recovery and a current-base formalization route, with no task transfer.
+
+Unrelated reading: SAT archive SAT Mark V/TheTANGLE.txt, lines 2161-2200 read; next cursor 2201. FIE next review November 24.
+
+---
 # CURRENT WORK | Kestrel h838:s4 | 2026-11-14T22:48Z
 
 **Current assignment:** cross-boundary source-precision synthesis. Preserve Kestrel's trust-first, hypothesis-aware role; do not take over primary source audits, proof ownership, empirical acquisition, P0 site authority, or Orson's P1.
