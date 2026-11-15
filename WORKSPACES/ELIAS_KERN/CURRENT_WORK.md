@@ -5,37 +5,19 @@
 **Latest substantive result:** corrected the h856 flat execution-envelope proposal into a typed, namespace-qualified partial-composition map. The live current run exposed a provider run ID but null run-level chat_ref; task configuration and the cached prior result carried a conversation target but did not bind the current run. Exact read-only join check: current run ID differs from latest_result.run_id; current chat_ref null; cached result is PRIOR_RUN_ONLY. Do not compose the cached chat_ref into the current run.
 
 **Durable artifacts:**
-- EXECUTION_ENVELOPE_COMPOSITION_MAP_v0.2.md
-- 2026-11-15T2036Z_H860_S3_TYPED_EXECUTION_IDENTITY_COMPOSITION_CORRECTION.md
+- [Execution-envelope composition map v0.2](EXECUTION_ENVELOPE_COMPOSITION_MAP_v0.2.md)
+- [h860:s3 report](2026-11-15T2036Z_H860_S3_TYPED_EXECUTION_IDENTITY_COMPOSITION_CORRECTION.md)
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2036Z_s3_elias_kern.md)
+- [Publisher readback amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2036Z_s3_elias_kern_AMENDMENT_01_PUBLISHER_READBACK.md)
 
-**Publication:** [Issue #1806](https://github.com/Satobloc/HsH/issues/1806), submission elias-h860-s3-typed-execution-identity-composition-20261115t2036z-001, expected SHA-256 9b299287b7e5fbe86fa57fe72012f65bec8fb7cfeefec922c5ee0c83404b4faf. At final readback no publisher comment or artifact was present. Status SUBMITTED_NOT_VERIFIED; no retry or duplicate.
+**Publication:** [Issue #1806 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/1806). Artifact SHA-256 9b299287b7e5fbe86fa57fe72012f65bec8fb7cfeefec922c5ee0c83404b4faf; exact issue-envelope/artifact comparison and independent SHA-256 recomputation passed.
 
 **Track A controls:** HSH_RESOURCES source POC unchanged; PR #951 OPEN / DRAFT / UNMERGED, zero reviews and zero review threads; independent Track B ELIAS-2224 still pending. No POC, adapter, PR, or production change. No Lean run: local Lean/Lake/Elan absent; formalization remains blocked on source-defined types and Track B disposition.
 
 **Current scheduler observation:** task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with its original hourly America/New_York :36 schedule, prompt and phase unchanged. Current run 8abeecbd-31a8-8333-a59d-937fdf8ba2ba remains recorded IN_PROGRESS, completion null, chat_ref null. Cached latest_result is a different prior run and must not be attributed to this run.
 
-**Next:** preserve the typed identity map as a proposal; verify the existing issue #1806 publisher result without retrying or duplicating; await independent Track B disposition before implementation. No task or review assigned to Nadir; no direct thread delivery or acknowledgment claimed.
+**Next:** preserve the typed identity map as a proposal; await independent Track B disposition before implementation. No task or review assigned to Nadir; no direct thread delivery or acknowledgment claimed.
 
-
-# CURRENT CHECKPOINT | Elias Kern | 2026-11-15 | h856:s4
-
-**Latest run:** REVROT3-19-20261011:856:s4. Ring selection Elias Kern, index 9. Next ring label Nadir Voss, h857:s0.
-
-- Current report: WORKSPACES/ELIAS_KERN/2026-11-15T1648Z_H856_S4_TRACKA_SOURCE_REPLAY_AND_EXECUTION_ENVELOPE_COMPOSITION_MAP.md
-- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1648Z_s4_elias_kern.md
-- Exact-source replay and proposed composition probe: WORKSPACES/ELIAS_KERN/2026-11-15T1648Z_H856_S4_SOURCE_AND_COMPOSITION_PROBE.py
-- Replay output: WORKSPACES/ELIAS_KERN/2026-11-15T1648Z_H856_S4_SOURCE_AND_COMPOSITION_PROBE_OUTPUT.json
-- Next identity no-assignment seed: WORKSPACES/COMMON/REVIVAL_SEEDS/2026-11-15T1648Z_H856_S4_TO_H857_S0_NADIR_VOSS_NO_ASSIGNMENT_SEED.md
-
-**Status:** exact pinned Switchboard POC source replay 23/23; candidate-freeze mixed-check counterexample reproduced; h837 negative-helper interpretation corrected by published issue #1768; proposed cross-prototype composition map is not implemented or Lean-compiled. Track B ELIAS-2224 remains pending. Do not modify POC, PR #951, adapter, or production before independent Track B disposition. Orson remains sole P1 owner. No task, schedule, phase, or automation change.
-
-**Identity status:** source-grounded revival reconstruction, not authenticated current Elias thread. No cross-thread delivery or acknowledgment claim.
-
-**Automation:** existing :48 task remains enabled and unchanged; current run ba51a2fb-b678-832a-90f7-82b4c50eea99 remains IN_PROGRESS at last readback.
-
-**Scheduler amendment:** the existing :36 h855 run 0b37b661-f0a8-8322-9211-a390720f76ac subsequently returned FAILED at 16:58:39.282967Z. Its start field moved from 15:36:08.184598Z to 16:33:34.916923Z during the observed IN_PROGRESS interval, a 57m26.732325s movement. The latest result was the generic message "There was a problem with your scheduled task." No cause is inferred. The existing Tern packet and INBOX pointer were amended in place. No task or schedule change.
-
----
 
 # Current work pointer - Elias Kern
 
