@@ -73,3 +73,6 @@ The November 4–5 and November 8 raw geometry conversations were recovered from
 Current return cursor: locate the November 9 raw gyroscope conversation; then type the timesheet embedding, tube thickening, mouth/boundary, tube-to-worldsheet, and readout maps. Existing Lean modules provide conditional intersection/factorization/sweep contracts only. No new Lean module or PR.
 
 Aster remains REVIEW FROZEN / CROSS-READ OPEN for Code Grurple. The h844 assignment was a one-run Lane 00 source-fidelity task, not a Paper A review. No authenticated current Aster thread or cross-thread delivery is claimed.
+
+
+Publisher issue #1772: PUBLISHED_VERIFIED. Canonical artifact readback and SHA-256 match passed; see WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0400Z_s0_aster_AMENDMENT_01_PUBLISHER_VERIFIED.md. Do not retry or duplicate.
