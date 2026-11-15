@@ -9,6 +9,7 @@
 - **Role boundary:** Aster remains REVIEW FROZEN / CROSS-READ OPEN for Code Grurple. No Paper A/B review, route probe, or manuscript edit.
 - **Reading:** SAT archive `fun break - lx.txt`, lines 1761-1800; next cursor 1801.
 - **Operations:** P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE November 24. Mersearch lanes remain occupied; no private HSH_RESOURCES payload opened.
+- **Scheduler amendment:** [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1136Z_s3_aster_AMENDMENT_02_SAME_RUN_ID_MUTABILITY_READBACK.md) preserves the same-ID IN_PROGRESS -> FAILED -> IN_PROGRESS snapshots for Tern's existing Observation 028.
 - **Scheduler:** existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` unchanged and enabled. Current run `79f30399-7164-8332-a52f-61785c8f6932` was observed IN_PROGRESS, then FAILED, then IN_PROGRESS again under the same run ID, with changed started_at/completion fields and null chat_ref. Preserve all snapshots; no cause inferred. Task remains enabled and unchanged. No task mutation or sixth task.
 - **Successor:** Ariadne h851:s4 is the next ring label. Optional packet is POST_NOMINAL_SLOT / START_STATE_UNOBSERVED; no task or delivery claim.
 
