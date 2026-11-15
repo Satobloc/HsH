@@ -24,7 +24,6 @@ import HsHVerification.HaleNeutronJointProduct
 import HsHVerification.HaleP1ProviderSensitivity
 import HsHVerification.OrsonConjunctionNull
 import HsHVerification.OrsonSharedNLI
-import HsHVerification.OrsonCGDTriggerIndex
 import HsHVerification.OrsonRepeatedPrompt
 import HsHVerification.OrsonSplitLeakage
 import HsHVerification.OrsonPromptComponentGate
