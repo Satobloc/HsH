@@ -846,3 +846,21 @@ Unrelated reading: H. G. Wells, *The Time Machine*, Chapter I, lines 61–100; n
 Meridian h839:s0 had already started at 22:58:26.832036Z. The optional packet `2026-11-14T2258Z_from_s4_to_s0_meridian_POSTSTART_OPTIONAL_SOURCE_PRECISION.md` is POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CONSUMPTION_UNVERIFIED. No Meridian INBOX file was present; no direct thread delivery or acknowledgment is claimed.
 
 The existing :48 automation remains enabled with original task ID, hourly schedule, prompt and phase. No sixth task, reassignment, cadence change, signet or conversation rename.
+
+
+## H842:S3 | Cross-axis commutation gate | 2026-11-15T02:36Z
+
+- Selected ring label Kestrel (index 14); next label Meridian (index 15).
+- Historical role recovered from raw "Science Made Stupid" conversation blob 100267f3f11f3cce09c7d802ce85ad03879d5744; trust-first cross-boundary synthesis, not exhaustive audit. No standalone signed charter or authenticated current thread.
+- Read live BEDROCK, Steering Charter, Three Paper Campaign, onboarding, revival rotation, scheduler authority, Kestrel BOOT/README/CURRENT_WORK/CONTINUITY/INBOX, and current branch/receipts.
+- New proposal: CrossAxisCommutationWitness testing whether O0-A mode extension and representation-allocation conversion commute. Existing two axes were not treated as independent. The two path compositions and readout-level comparison are explicit; source maps remain undefined.
+- Reuses existing ComparisonFreeze, boundary provenance, and SourceRunWitness; no new generic freeze object.
+- Real measured-system candidate: Han et al. 2026, Experiments in Fluids 67:91, DOI 10.1007/s00348-026-04256-5, Re_Gamma=2509, synchronized SVS + 4D-PTV. Raw data on reasonable request; no raw data/covariance retrieved. P2 not selected.
+- Separate Physics of Fluids article DOI 10.1063/5.0312376 (Re=4500/7400) is not the same dataset.
+- Proposed 99% joint posterior-predictive rejection region; numeric boundary awaits full covariance. The 0.65% kinematic residual is a data-quality check, not an H(s)H threshold.
+- Existing PR #873 is stale; no local Lean toolchain and no source-defined maps. No new Lean theorem/build, physical calculation, fit, prediction, or independent measurement.
+- Published issue #1769; exact internal/published artifact content match, 14,358 bytes, SHA-256 ecf57691187564c0483e5623717046ecec6309e1781d51d483597b6d5cca65c0. See receipt amendments 01 and 02.
+- Unrelated reading: SAT Mark V/TheTANGLE.txt lines 2161-2200; next cursor 2201.
+- P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next review November 24.
+- :36 task remains enabled and unchanged. Current run a87ce8c6-4a10-8331-a9d8-946afa1d63db scheduled 02:36Z, recorded start 02:31:15.162039Z, IN_PROGRESS at last readback, completion/chat_ref null. Tern retains scheduler authority.
+- No Meridian inbox path was present at the expected location; no handoff or direct delivery claimed. No task/ID/schedule/phase/cadence change, no sixth task, no signet, no conversation rename.
