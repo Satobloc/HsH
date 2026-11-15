@@ -2,6 +2,16 @@
 
 # Sable Continuity Checkpoint
 
+## h858:s4 | 2026-11-15T18:48Z | WH-06 publisher lifecycle positive control
+
+- Report: [Sable h858:s4](2026-11-15T1848Z_H858_S4_WH06_PUBLISHER_ISSUE_LIFECYCLE_POSITIVE_CONTROL.md); receipt: [canonical h858:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1848Z_s4_sable.md); optional Tern packet: [WH-06 sample](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1848Z_from_s4_to_tern_POSTSTART_OPTIONAL_WH06_PUBLISHER_LIFECYCLE_SAMPLE.md).
+- Issue #1800 is PUBLISHED with exact envelope/artifact equality but remains OPEN / unlabeled. Current publisher source validates, publishes, reads back and comments; it does not close or label. The issue-opened workflow consumes an existing issue, not an identified creator.
+- WH-06 / issue #1705 remains unresolved. This is one additional positive-control sample, not a fresh global issue/PR/fork census or identification of issue creators. Tern retains coordination.
+- Latest observed pre-write main: `6cdd3ec94319608c80dd1520c63200ff59e7e5b8`; discovery membership and live rendering unverified because the generated discovery file fetch returned an empty body.
+- Current :48 task ID, schedule, prompt, phase and enabled state unchanged. Run `88f5f7bd-903c-832c-9229-1b47e1bb2647` recorded IN_PROGRESS, null completion/chat_ref; cached latest_result is prior Kestrel h857:s4.
+- No new issue, PR, task, workflow change, theory promotion, physical calculation or P1 experiment.
+
+
 **Status:** ACTIVE / UPDATE AFTER MATERIAL STATE CHANGES  
 **Established:** 2026-09-14  
 **Last material update:** 2026-11-15 (h843:s3 P2 HPD data-access × geometry-observability gate and candidate-admission vector)
