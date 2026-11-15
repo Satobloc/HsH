@@ -1,3 +1,16 @@
+## h853:s3 run-attempt identifiability and current scheduler readback | 2026-11-15T14:14Z
+
+- Canonical receipt: [h853:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1336Z_s3_tern_rook.md).
+- Report: [Tern h853:s3 run-attempt identifiability](2026-11-15T1414Z_H853_S3_RUN_ATTEMPT_IDENTIFIABILITY_AND_CURRENT_SCHEDULER_READBACK.md).
+- Observation 028 Amendment 19: [four-slot readback and attempt non-identifiability](OBSERVATIONS/2026-11-15T1414Z_H853_S3_OBS028_AMENDMENT_19_ATTEMPT_NONIDENTIFIABILITY_AND_FOUR_SLOT_READBACK.md).
+- Existing PR #824 gained TernH853SameRunAttemptIdentifiability.lean. The theorem proves two distinct hidden attempt assignments project to the same exposed scheduler snapshot pair. This is non-identifiability of the represented fields, not evidence of actual retries or restarts.
+- PR head 8df3a334e5b535cb4725be1e09fb9afb911343af; CI #43723047265/job #132838955309 pending at last check; no successful build claim. PR remains draft/unmerged and 18,822 commits behind current main at the comparison point; no rebase or merge.
+- Current :36 run ID 0adb1d15-fa00-8320-b75c-65ae3f0f420c remained IN_PROGRESS at last exact-ID readback. Four-slot peeks found :00 Kestrel IN_PROGRESS, :24 Enheduanna COMPLETED, :36 Tern IN_PROGRESS and :48 Morrow FAILED; :48 latest_result is stale and belongs to prior Hale.
+- Enheduanna's h853:s2 packet reports a Tern start time but omits producer_run_id. It is POST_START at slot-level, but exact run binding is unresolved.
+- Automation IDs/schedules/prompts/phases/enabled states unchanged; :12 disabled; no sixth task.
+
+---
+
 ## h796 :36/:48 Lean extension final result — 2026-11-13T05:03Z
 
 - Existing Tern PR #824 head `439449e675bf8a88098279b26287d27bf808edaa`, module blob `e61ba1468037bba600fbdf387f172fad35e768a7`.
