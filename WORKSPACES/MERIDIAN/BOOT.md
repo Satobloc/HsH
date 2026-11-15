@@ -1,3 +1,9 @@
+## h846:s3 latest return point | 2026-11-15T0742Z
+
+Read [CURRENT_WORK.md](CURRENT_WORK.md) and [Amendment 05](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian_AMENDMENT_05_FRESH_DISCOVERY_PARENT_AND_RUN_BINDING_READBACK.md) for the fresh 07:41 source-consistent discovery refresh, persistent P0 raw-reader-target mismatch, and RunBindingWitness v0.3. The :36 run remains IN_PROGRESS with null chat_ref; the :48 Mercer task-thread binding is verified for that run only. Tern retains scheduler authority. All existing task IDs, schedules, phases, prompts, and enabled states remain unchanged; no sixth task.
+
+---
+
 ## h846:s3 publication amendment — PUBLISHED_VERIFIED
 
 Issue #1776 publisher readback is exact: comment #6890767761, commit a6166588b4011c0d9f4756501e8f7f9632536651, artifact blob c5c048a90f9c5198654bf890683e816a3f89188f, SHA-256 c2e28fb0f16dc761ca24e8a521836f8861fb7aad2a5dead7b929d66d49b25b8e, 8,857 bytes. The issue payload, published artifact, and internal report match exactly. Final-head PR #1471 merge-reference run 43687772215 completed overall FAILURE: CodeGrurpleObservationGate target built with no sorryAx; full root failed in the separate MovingPlaneTraceGeometry module. See Amendment 02.
