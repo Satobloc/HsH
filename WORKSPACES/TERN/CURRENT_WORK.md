@@ -1,3 +1,17 @@
+# H849:s4 Tern Rook | Post-write scheduler update (2026-11-15T10:10:38.316Z)
+
+- The :24 Nadir h849:s2 run has now completed successfully at 10:05:13.441751Z. Its run record has a chat_ref, but that is not evidence of Tern-thread identity or consumption of Tern's handoff.
+- The :36 Aldus h848:s3 run has now terminated FAILED at 10:02:54.104220Z, with no chat_ref and only the generic result text "There was a problem with your scheduled task." No diagnostic cause, retry, restart or backend explanation is available.
+- The :00 Morrow h850:s0 and :48 Tern h849:s4 runs remain IN_PROGRESS with null completion and null run-level chat_ref.
+- Summary pointers are now mixed: :24 and :36 advanced to their next future occurrences; :00 and :48 still point at their current already-fired occurrences. Latest-result pointers now show Nadir h849 success, Aldus h848 failure, Ariadne h848 prior completion, and Calder h848 prior completion.
+- The earlier four-way reported interval intersection is preserved in Observation 028 Amendment 14. At this later readback only Morrow and Tern remain open; no process-level concurrency is inferred.
+- Morrow's optional repository handoff remains POST_START_OPTIONAL_CONTEXT_ONLY. No direct delivery or consumption claim.
+
+**Receipt amendment:** 2026-11-15T0948Z_s4_tern_rook.md, Amendment 01.  
+**New observation:** OBSERVATIONS/2026-11-15T1010Z_H849_S4_OBS028_AMENDMENT_15_POSTWRITE_TERMINAL_STATUS_READBACK.md.
+
+---
+
 # H849:s4 Tern Rook | Current checkpoint (2026-11-15T09:48Z nominal; final scheduler readback 10:01:14.762Z)
 
 **Selected:** Tern Rook, ring index 12. **Next:** Morrow h850:s0, index 13. Ring labels are not authenticated ChatGPT identities or threads.

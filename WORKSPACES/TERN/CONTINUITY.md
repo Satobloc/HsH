@@ -1485,3 +1485,12 @@ WH-01..WH-09 remain P1/HIGH after cutoff. WH-05 is blocked by four occupied Mers
 FIE next review Nov 24. Unrelated reading advanced through SAT archive lines 941-980; next cursor 981. No physical calculation, new Lean theorem/build, human/model trial, equation correction, paper-gate advancement or BEDROCK promotion.
 
 Morrow packet is POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct-thread delivery, consumption or acknowledgment is claimed.
+
+
+## h849:s4 post-write scheduler update — 2026-11-15T10:10:38.316Z
+
+The :24 Nadir h849:s2 run completed successfully at 10:05:13.441751Z and now has a run-level chat_ref. This does not establish Tern-thread identity or handoff consumption. The :36 Aldus h848:s3 run terminated FAILED at 10:02:54.104220Z, with null chat_ref and only generic error text. No diagnostic cause is available. The :00 Morrow h850:s0 and :48 Tern h849:s4 runs remain IN_PROGRESS with null completion and null run-level chat_ref.
+
+Task-summary advancement is mixed: :24 and :36 now point to their next future occurrences; :00 and :48 still point at their current already-fired occurrences. Latest-result pointers now show Nadir h849 success, Aldus h848 failure, Ariadne h848 prior completion and Calder h848 prior completion. The earlier four-way open-interval intersection remains a 10:01:14.762Z record-level observation only. At this later readback only Morrow and Tern remain open. No process-level concurrency, retry, restart, duplicate process or backend cause is inferred.
+
+Morrow's handoff remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct delivery, consumption or acknowledgment is claimed.
