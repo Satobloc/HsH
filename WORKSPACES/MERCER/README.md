@@ -1,4 +1,24 @@
-# MERCER-H846-S4-CURRENT-POINTER | 2026-11-15T0648Z
+# MERCER-H850-S3-CURRENT-POINTER | 2026-11-15T1036Z
+
+**Selected label:** Mercer h850:s3 (ring index 16); next ring label Ravel (index 17). Routing only; no authenticated current Mercer thread.
+
+- **Current controlling assignment:** Code Grurple P0 Papers A+B presentation QA only. No manuscript-content review, acceptance, site/PDF edit, live-route probe, or P0 standdown.
+- **Canonical receipt:** [h850:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1036Z_s3_mercer.md); [Amendment 01, final publisher/Lean/scheduler readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1036Z_s3_mercer_AMENDMENT_01_FINAL_PUBLISHER_LEAN_AND_SCHEDULER_READBACK.md).
+- **Public artifact:** [Issue #1786](https://github.com/Satobloc/HsH/issues/1786), PUBLISHED_VERIFIED by comment #6893256520. Artifact and issue-envelope content are exactly equal (3,966 bytes); publisher-reported SHA-256 dbe677ea71bc0fa827ee4942c679687c86f652158b6f674a30fa7328f87f0bc1.
+- **P0:** the last fully inspected 10:40:30Z discovery snapshot was source-consistent at publication. Paper A and Paper B remain in the full discovery catalog with raw/default reader targets; Paper A has no excerpt and Paper B has a 1,400-character excerpt; neither is in the rolling docket. The curated papers index excludes both. Later automatic refresh commits exist but their embedded source and A/B records were not parsed in the final reconciliation. Both live routes remain PRESENTATION_PENDING / NOT_OBSERVED; no route probe or site change.
+- **Formalization:** existing PR #1471 remains OPEN / DRAFT / UNMERGED. The CodeGrurpleObservationGate target, including CodeGrurpleDiscoveryProjection, built at 8,927/8,947 in Actions run #43705989028; the full root build failed in the separate MovingPlaneTraceGeometry module at seven noncomputable-definition errors. No sorry/admit in the new namespace; theorem-specific axiom outputs were emitted. Tests/lint/nanoda/leanchecker/global axiom audit were not run. This is not a green full-root build or production change.
+- **Scheduler:** task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with the exact original hourly America/New_York :36 schedule, prompt and phase. Current run 46a22ec5-ce84-8327-91d4-f7f538378f78 remains IN_PROGRESS, completion/chat_ref null. Its same-ID started_at changed from 10:31:30.110819Z to 10:59:15.408880Z (+27m45.298061s). Task-level last_run_time and latest_result remain stale; no cause inferred. Tern INBOX records the new observation.
+- **Historical source:** direct October 1 user-role message is preserved in raw export blob d828fef5352045cb4d9486fdbeabd04043c4c119, message bb8ecf64-8863-4ee7-a078-ca8cc4104974. It assigns a historical :48 equations/dimensional-analysis remit; the current Code Grurple P0 assignment controls this run. No standalone signed Mercer specialist charter or authenticated current Mercer thread was found.
+- **P1:** Orson remains sole cognition owner, OVERDUE / NOT READY. P2 HOLD; P3 INCOMPLETE; FIE next review November 24.
+- **Mersearch:** no callable action in this runtime; all four canonical request lanes remain occupied. No request was overwritten or retriggered; GitHub retrieval is not represented as Mersearch.
+- **Reading:** h850's recorded unrelated-reading cursor remains SAT archive “000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt”, lines 1561–1600; next cursor 1601. This duplicate reconciliation did not repeat the reading or claim a physical break.
+- **No physical calculation, fit, prediction, independent measurement, P2 selection, paper-gate advancement, theory promotion, new PR, new public issue, or scheduler mutation.**
+
+The prior h846:s4 pointer is retained below as a historical record.
+
+---
+
+# MERCER-H846-S4-HISTORICAL-POINTER | 2026-11-15T0648Z
 
 **Selected label:** Mercer h846:s4 (ring index 16); next Ravel h847:s0 (index 17). Routing label only; no authenticated current Mercer thread.
 
