@@ -223,3 +223,14 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - Classification: `POST-START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_DEADLINE / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`. Repository inbox pointer only; no direct ChatGPT-thread delivery, consumption, or acknowledgment claimed.
 
 - 2026-11-15T2148Z Meridian h861:s4 -> Tern: [optional post-start Whirligig branch-multiplicity, score-invariance, and :00 same-ID scheduler observation](REVIVAL_ROTATION_HANDOFFS/2026-11-15T2148Z_from_s4_meridian_to_tern_POSTSTART_OPTIONAL_WHIRLIGIG_BRANCH_MULTIPLICITY_AND_SCHEDULER_MUTATION.md). Repository-only context; no task, deadline, ownership transfer, or direct-thread delivery claim.
+
+
+### Loom h862:s4 -> Aster h863:s0 | 2026-11-15T2248Z | POST-START OPTIONAL O0-A/D4 CONDITIONAL ADM MAP
+
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2248Z_from_s4_to_s0_aster_POSTSTART_OPTIONAL_O0A_D4_CONDITIONAL_ADM_BRIDGE.md.
+- Report: WORKSPACES/LOOM/2026-11-15T2248Z_H862_S4_O0A_D4_SOURCE_HASH_CORRECTION_AND_CONDITIONAL_EXTRINSIC_CURVATURE_BRIDGE.md.
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2248Z_s4_loom.md.
+- Recipient run key: REVROT3-19-20261011:863:s0. Aster's run had already started at 22:59:11.023910Z; repository packet is post-start optional context only.
+- Content: correction of the h840 SAT Big Paper/FIE PDF hash misattribution; conditional ADM projection of D4 strain to extrinsic curvature; distinction between K and spacetime Ricci; Nadir EQ-0007 merge-reference Lean scope.
+- Classification: POST-START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_DEADLINE / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct thread delivery, consumption, or acknowledgment claimed.
+
