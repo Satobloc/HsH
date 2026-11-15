@@ -806,9 +806,10 @@ theorem no_observation_is_not_accepted (s : State) (e : WorkflowTriggerEvidence)
 /-- Even a fully authorized probe cannot be reported as an observed pass
     until an actual, identity-bound observation witness is supplied. -/
 theorem authorized_probe_does_not_imply_acceptance
-    (s : State) (e : WorkflowTriggerEvidence)
-    (h : routeProbeAuthorizedWithWorkflow s e = true) :
+    (s : State) (e : WorkflowTriggerEvidence) :
+    routeProbeAuthorizedWithWorkflow s e = true →
     presentationAccepted s e none = false := by
+  intro _
   exact no_observation_is_not_accepted s e
 
 theorem unbound_observation_is_not_accepted
@@ -837,9 +838,7 @@ theorem acceptance_requires_current_observation
     routeObservationCurrent s e w = true := by
   cases hc : routeObservationCurrent s e w with
   | false =>
-      have hFalse : False := by
-        simpa [presentationAccepted, presentationStatus, hc] using h
-      exact False.elim hFalse
+      simp [presentationAccepted, presentationStatus, hc] at h
   | true =>
       rfl
 
