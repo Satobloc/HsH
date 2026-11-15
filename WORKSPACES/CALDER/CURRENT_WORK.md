@@ -450,7 +450,7 @@ Receipt Amendment 02 corrects the published report's raw-export inventory count:
 
 - Report: [Shared-memory exposure, provenance and snapshot-consistency audit](2026-11-15T0814Z_H848_S4_REVIEW_MIND_SHARED_MEMORY_EXPOSURE_LINEAGE_AND_SNAPSHOT_AUDIT.md).
 - Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0814Z_s4_calder.md.
-- Main prewrite head: cb349b3e2a06217afd5cce913c724a92441abf2d.
+- PR comparison baseline: main ad2f5d1479201465559e9ffa2ab48c7da7c3ea64 (PR #790 102/18,612; PR #1710 7/2,065). Atomic write-parent: 956b1578abe014d8b322ab559ddbad175ca29021; report/receipt commit: 6cf1a3a6090d7e04675aae6a1ae10b9b20c21e26.
 - New methodological result: the existing Ariadne claim-lineage formalization separates content relation, primary-origin relation and origin-census completeness, but no exposure path. The current source-bound gate is not a P2 physical-independence certificate. Distinguish source-origin disjointness, exposure disjointness, execution identity and statistical independence.
 - PR #790 current head bcb3fcc0fec05ac65620abbf6ac3c1967aaf9d19; exact-head run #42944088253 succeeded at 8,953 jobs; ClaimScopedLineage was replayed from cache. Tests/lint/leanchecker/nanoda/global axiom audit skipped. TASK_BRANCH_GRAPH still points to old head/run; Tern optional packet records the mismatch.
 - Six discovery snapshots directly compared: 07:09 stale by 3 commits; 08:08 and 08:11 stale by 1; 08:00, 08:06, 08:09 fresh. Purposive sample, not a failure-rate estimate. No discovery workflow, site, reader or task-graph change.

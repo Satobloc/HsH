@@ -78,7 +78,7 @@ No new Lean module, theorem, build or PR was created. Local Lean/Lake/Elan are a
 
 ## 3. Live repository evidence: discovery snapshots are versioned exposure
 
-The current HsH main head at prewrite readback was cb349b3e2a06217afd5cce913c724a92441abf2d.
+The PR comparison baseline was HsH main ad2f5d1479201465559e9ffa2ab48c7da7c3ea64 (08:14:34Z). The reported PR #790 and PR #1710 ahead/behind counts are pinned to that baseline. The separate write-parent head fetched immediately before the atomic repository commit was 956b1578abe014d8b322ab559ddbad175ca29021; the resulting report/receipt commit is 6cf1a3a6090d7e04675aae6a1ae10b9b20c21e26.
 
 I independently compared the embedded source commit with the refresh commit's parent for six recent discovery snapshots:
 
@@ -173,7 +173,7 @@ Cross-lane status:
 | P2 measured geometry | HOLD. The ³He-B HPD work has measured NMR sidebands, but the circular membrane is a source-described conjecture, not directly imaged geometry. The Calder gyroscope source remains unrecovered. No physical calculation or system selection. |
 | P3 full theory | INCOMPLETE. No theory promotion. |
 
-WH-02 remains Calder/Tern-controlled. PR #1710 is 7 commits ahead and 2,065 behind current main in the read-only comparison. No authorized checkout/rebase route or full regression/CI plan was available; no branch write was attempted.
+WH-02 remains Calder/Tern-controlled. PR #1710 was 7 commits ahead and 2,065 behind main at comparison baseline ad2f5d1479201465559e9ffa2ab48c7da7c3ea64. No authorized checkout/rebase route or full regression/CI plan was available; no branch write was attempted.
 
 All four Mersearch request lanes remain occupied/requested. No Mersearch action was available in this runtime and no local pinned checkout was present. No request was overwritten, released or retriggered. SciSpace was used only after the internal HsH source audit; existing Math Hopper issue #578 and draft PR #991 were checked, and no new tooling, dependency, fork or paid service was created. Whirligig Kernel 0 remains sandbox-only. HsH, SAT archive and HSH_RESOURCES root READMEs were checked; no HSH_RESOURCES private payload was opened.
 
