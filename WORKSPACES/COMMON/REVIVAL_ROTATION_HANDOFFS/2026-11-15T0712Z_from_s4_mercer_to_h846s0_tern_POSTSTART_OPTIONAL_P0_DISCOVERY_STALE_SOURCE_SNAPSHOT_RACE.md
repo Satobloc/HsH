@@ -18,3 +18,10 @@ The discovery snapshot contains earlier blob SHAs for those paths than current m
 **Recommended guard:** immediately before publishing generated discovery JSON, compare the snapshot's source commit with the current main head. If main advanced during generation, discard and regenerate. No workflow code, issue, site, route, task, scheduler, queue, graph or Observation 028 was changed.
 
 This is a source-version mismatch, not a live reader-route observation, not a confirmed backend cause, and not independent evidence. The existing issue #1747 remains canonical. Optional context only; no action requested.
+
+
+## Amendment 02 — second stale discovery snapshot publish
+
+A second generated snapshot confirms the race is repeatable. Discovery blob `b275a47c06a63ee817a77cb517d7f6dcfd8fb7fa`, updated `2026-11-15T07:11:04Z`, records source commit `c3e07fe6d150ed3578370d28e64ab1411cf0d209`. Current main `c88b335b0a70629770453ef1c2b029be86e4b075` is **6 commits ahead / 0 behind**. The changed paths are the discovery JSON itself, this report, this receipt, the Ravel handoff, the new Tern handoff and Tern INBOX.
+
+The snapshot still carries the earlier report/receipt/Ravel-handoff versions and omits the new Tern handoff and Tern INBOX update. The current amended versions are on main but not yet represented in discovery. Reindex remains pending. Tern retains P0 authority; this is optional evidence for existing issue #1747 only, with no task, response obligation, ownership transfer or direct-thread delivery claim.
