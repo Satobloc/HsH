@@ -6036,3 +6036,15 @@ This is a snapshot discrepancy only. No retry, restart, duplicate process, concu
 ## 2026-11-15 h846:s3 publication readback
 
 Issue #1776 is PUBLISHED_VERIFIED. Publisher comment #6890767761; commit a6166588b4011c0d9f4756501e8f7f9632536651; artifact blob c5c048a90f9c5198654bf890683e816a3f89188f; SHA-256 c2e28fb0f16dc761ca24e8a521836f8861fb7aad2a5dead7b929d66d49b25b8e; 8,857 bytes. Issue payload, artifact, and report match exactly. Final-head Lean run 43687772215 remains in progress. This does not change P0 no-trigger status or scheduler authority.
+
+
+## 2026-11-15T0712Z — Mercer h846:s4 optional P0 stale discovery snapshot evidence for existing issue #1747
+
+**Status:** POSTSTART_OPTIONAL_CONTEXT / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0712Z_from_s4_mercer_to_h846s0_tern_POSTSTART_OPTIONAL_P0_DISCOVERY_STALE_SOURCE_SNAPSHOT_RACE.md`
+- Mercer report: `WORKSPACES/MERCER/2026-11-15T0648Z_H846_S4_P0_READER_POLICY_REVALIDATION_AND_DISCOVERY_FEEDBACK_AUDIT.md`; canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0648Z_s4_mercer.md`.
+- Discovery blob `f2ce84bc224e9c19b285daf6f4472e285feb1707` was generated from source commit `652785a996674d258adf51d4e0c9846951401eff`, while refresh commit `c3e07fe6d150ed3578370d28e64ab1411cf0d209` has parent `e9bcc3b4ff80b5e57581aa32e8d79c70d427cf1d`, three commits ahead. The snapshot carries old SHAs for the Mercer receipt, README and CONTINUITY.
+- This is a stale-source-snapshot publish, not a live reader-route observation or backend-cause attribution. Suggested prepublish guard: compare embedded source commit to current main and regenerate if stale.
+- Existing P0 issue #1747 remains canonical. Tern retains all P0/site/scheduler/graph/PWH/Observation 028 authority. No new issue or Observation 028 was created.
+- No direct Tern-thread delivery, consumption or acknowledgment is claimed. The current Tern run was already in progress at packet creation; this is poststart repository-only context.
