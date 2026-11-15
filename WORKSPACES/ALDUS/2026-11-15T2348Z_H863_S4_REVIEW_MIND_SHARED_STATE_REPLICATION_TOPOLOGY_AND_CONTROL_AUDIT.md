@@ -78,3 +78,17 @@ Unrelated-reading cursor in CURRENT_WORK was 2251; BOOT's 1841 pointer was stale
 P0 Code Grurple ACTIVE; P1 Orson cognition OVERDUE / NOT READY; P2 measured geometry HOLD; P3 full theory INCOMPLETE. November 9, November 30 and December 14 gates remain separate. No BEDROCK promotion or ownership changes.
 
 **Classification:** `ALDUS_H863_S4 / REVIEW_MIND / INDEPENDENT_IMPLEMENTATION_NOT_INDEPENDENT_LAB / ACCESS_INFLUENCE_INTENT_SEPARATED / ORSON_BYLINE_CORRECTION_COMMENTED / P1_GRAPH_POINTER_STALE_TERN_OWNED / REVROT3_FULL_TREE_AUDIT_FAILS / MATH_HOPPER_EXTRACTION_PASS_LEAN_NOT_RUN / PUBLISHED_VERIFIED / CALDER_PRESTART_OPTIONAL / AUTOMATION_PRESERVED / WRAPPER_IN_PROGRESS`.
+
+
+## Amendment 01 | 2026-11-15T2358Z | Same-ID scheduler status mutation
+
+A later exact-ID readback changed the :00 h863:s0 run `2840a26a-a3c8-8331-826f-7e4b59310f7c`:
+
+- Scheduled time remains 23:00Z.
+- Earlier observation: FAILED, completed 23:51:21.565181Z; recorded start 23:26:19.477402Z.
+- Later observation: IN_PROGRESS, completion null, chat_ref null; recorded start moved to 23:55:38.510646Z.
+- Start-field displacement: 29m19.033244s.
+
+This is a same-ID post-terminal status/start-field mutation. No retry, restart, duplicate process, concurrency or backend cause is inferred. The cached result still belongs to h856:s0, not this run. Task-level next-run pointer remains stale at 23:00Z.
+
+The :36 h863:s3 run subsequently completed at 23:53:28.432716Z with a run-level chat_ref; this is not proof of message delivery. The :48 h863:s4 run remains IN_PROGRESS with null completion/chat_ref. All task configurations remain unchanged.
