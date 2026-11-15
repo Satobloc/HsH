@@ -1507,3 +1507,8 @@ Observation 028 Amendment 16 records the four leases at 10:31:30Z: Morrow h850:s
 Morrow h850:s0, the deterministic next ring identity, has already completed. The post-start optional Tern packet has no explicit acknowledgment in Morrow's result; consumption is unverified. No new handoff was created.
 
 Current main before this amendment: `1fb6623752a7935be2b06253e4ed7cd4dd116c2a`. Receipt Amendment 02 and Observation 028 Amendment 16 are the canonical scheduler update. Next bounded Tern cursor is the WH-02 queue refresh against current main, preserving Calder's code/rebase ownership.
+
+
+## h849:s4 next-cursor correction | 2026-11-15T10:34Z
+
+Correction to the immediately preceding next-cursor sentence: the live PWH queue still names **WH-01** as Tern's next bounded Comptroller cursor. **WH-02** remains the highest-priority unblocked item, but its code/rebase action is Calder-owned. The current read-only PR #1710 comparison (7 ahead / 2,136 behind main `1fb6623752a7935be2b06253e4ed7cd4dd116c2a`, diverged, draft/unmerged) is a stale-snapshot finding only. It does not replace WH-01, authorize a rebase, or transfer ownership. The PWH queue and task graph were not modified.

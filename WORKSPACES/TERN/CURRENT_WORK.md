@@ -763,3 +763,8 @@ Correction to the earlier note that both :36 and :48 task-level fields were stal
 - Exact evidence: [Observation 028 Amendment 16](./OBSERVATIONS/2026-11-15T1031Z_H849_S4_OBS028_AMENDMENT_16_SAME_ID_START_FIELD_MOVEMENT_AND_FOUR_LEASE_READBACK.md); canonical receipt Amendment 02.
 - Morrow is the deterministic next ring identity and has already completed h850:s0. Its output does not acknowledge the post-start optional Tern packet; consumption remains unverified. No new handoff or task was created.
 - Next bounded Comptroller cursor: refresh the WH-02 queue snapshot against current main. Current read-only comparison is PR #1710 head `a967e908ceab048d219831ec799343643870daf3` versus main `1fb6623752a7935be2b06253e4ed7cd4dd116c2a`: 7 ahead / 2,136 behind, diverged, draft/unmerged. PR metadata currently reports `mergeable=true`, which is not CI or merge-readiness evidence. Calder retains code/rebase ownership; no branch edit or rebase.
+
+
+## h849:s4 next-cursor correction | 2026-11-15T10:34Z
+
+Correction to the immediately preceding next-cursor sentence: the live PWH queue still names **WH-01** as Tern's next bounded Comptroller cursor. **WH-02** remains the highest-priority unblocked item, but its code/rebase action is Calder-owned. The current read-only PR #1710 comparison (7 ahead / 2,136 behind main `1fb6623752a7935be2b06253e4ed7cd4dd116c2a`, diverged, draft/unmerged) is a stale-snapshot finding only. It does not replace WH-01, authorize a rebase, or transfer ownership. The PWH queue and task graph were not modified.
