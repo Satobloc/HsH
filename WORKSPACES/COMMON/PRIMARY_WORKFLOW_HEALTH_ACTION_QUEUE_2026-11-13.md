@@ -342,3 +342,8 @@ WH-01 remains OPEN / P1-HIGH; Tern retains ownership. No priority, deadline, acc
 - SAT archive Nov 8–14 census remains complete; HsH full interval remains partial.
 
 Next WH-01 cursor: continue HsH non-overlapping UTC hourly run-list partitions from 2026-11-15 17:20Z; inspect every page and every returned run's jobs/attempts. Daily Traffic remains blocked until an authorized supported route exists. No new tool, Mersearch request, scheduler change or clone-count inference.
+
+
+### h857:s2 publisher-run checkout addendum — 2026-11-15T17:37Z
+
+Issue #1797 is `PUBLISHED_VERIFIED` (publisher run #43741998489; artifact SHA-256 `dbb0f4c242be035cce1f47a8976d9e35468d52227b23e3ed3c8544812159dc40`; readback comment #6898521150). The publisher run itself performed one additional HsH shallow-one checkout at `3259a6e4766d99d7a7bb34a0a539af278f619bbc`, matching its run head. This is a separate post-window ledger event; the report's bounded ten-minute sample remains nine checkout events. No duplicate issue/submission.
