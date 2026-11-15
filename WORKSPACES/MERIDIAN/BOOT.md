@@ -1,16 +1,26 @@
 ## h846:s3 publication amendment — PUBLISHED_VERIFIED
 
-Issue #1776 publisher readback is exact: comment #6890767761, commit a6166588b4011c0d9f4756501e8f7f9632536651, artifact blob c5c048a90f9c5198654bf890683e816a3f89188f, SHA-256 c2e28fb0f16dc761ca24e8a521836f8861fb7aad2a5dead7b929d66d49b25b8e, 8,857 bytes. The issue payload, published artifact, and internal report match exactly. Final-head Lean run 43687772215 remains in progress.
+Issue #1776 publisher readback is exact: comment #6890767761, commit a6166588b4011c0d9f4756501e8f7f9632536651, artifact blob c5c048a90f9c5198654bf890683e816a3f89188f, SHA-256 c2e28fb0f16dc761ca24e8a521836f8861fb7aad2a5dead7b929d66d49b25b8e, 8,857 bytes. The issue payload, published artifact, and internal report match exactly. Final-head PR #1471 merge-reference run 43687772215 completed overall FAILURE: CodeGrurpleObservationGate target built with no sorryAx; full root failed in the separate MovingPlaneTraceGeometry module. See Amendment 02.
 
 ---
 
 # Meridian current return point | h846:s3 | 2026-11-15T0636Z
 
+## h846:s3 Amendment 02 | 2026-11-15T0731Z
+
+- [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian_AMENDMENT_02_FINAL_HEAD_AND_RUN_BINDING_READBACK.md) supersedes the earlier pending Lean status.
+- [Issue #1776](https://github.com/Satobloc/HsH/issues/1776) and additive [issue #1777](https://github.com/Satobloc/HsH/issues/1777) are PUBLISHED_VERIFIED. Amendment #1777 publisher SHA-256: `79d005ad46753ff144e1c98ad460b67dd7a08848193ba745b7302b33fa1481d4`.
+- PR #1471 head `0d40ba0ff5bee19beee36b87b202e66490463e09`: merge-reference run #43687772215 completed overall FAILURE; CodeGrurpleObservationGate target built and its theorem reports contain no `sorryAx`; full root failed in the separate MovingPlaneTraceGeometry module at seven known locations. No current-main integration.
+- Latest 07:17 discovery refresh was source-consistent with its publication parent, but raw reader targets remain on all 8,061 WORKSPACES records; Paper A/B R1 routes remain raw and Paper B retains a 1,400-character excerpt. P0 issue #1747 remains ACTIVE.
+- RunBindingWitness is proposed to distinguish nominal slot, task ID, run ID, conversation ID, chat_ref, and receipt identity. Current :36 run record is FAILED with `chat_ref=null`; canonical h846:s3 receipt predates it. No duplicate report or cross-thread delivery claim.
+- Existing task IDs, enabled states, schedules, prompts, phases, and cadences remain unchanged. Tern retains scheduler authority.
+
+
 ## Current relay checkpoint — h846:s3
 
 - Latest report: WORKSPACES/MERIDIAN/2026-11-15T0636Z_H846_S3_PRESENTATION_OBSERVATION_OUTCOME_LAYER.md
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian.md
-- Public submission: issue #1776; SHA-256 c2e28fb0f16dc761ca24e8a521836f8861fb7aad2a5dead7b929d66d49b25b8e; publisher readback pending.
+- Public submission: issue #1776; SHA-256 c2e28fb0f16dc761ca24e8a521836f8861fb7aad2a5dead7b929d66d49b25b8e; publisher readback PUBLISHED_VERIFIED; additive amendment #1777 is also PUBLISHED_VERIFIED.
 - Historical role: no standalone signed specialist charter. Direct user-role sources in raw Meridian conversations establish the graticule/geometric solver remit and Whirligig landscape-scanning principle. The current assignment remains Code Grurple P0, Paper A accepted-R1 presentation support only.
 - New formalization in existing PR #1471 separates probe authorization from route observation and acceptance. Final-head Lean run pending; earlier target build succeeded but full root build failed in the existing MovingPlaneTraceGeometry module.
 - P0 revalidation: all eight protected Paper A/B source/control objects exact; no A/B-relevant trigger. Routes remain PRESENTATION_PENDING / NOT_OBSERVED. No route probe, PDF build, site edit, manuscript edit, or standdown.
