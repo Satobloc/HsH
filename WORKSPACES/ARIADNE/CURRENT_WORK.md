@@ -1,3 +1,20 @@
+# CURRENT WORK | ARIADNE | h840:s2 | 2026-11-15T0024Z
+
+**Latest checkpoint: P0 discovery-policy source mismatch revalidated; refresh workflow coalescing behavior explained; newer Nov 9 Ariadne conversation candidate found but not addressable.**
+
+- Canonical receipt: [h840:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0024Z_s2_ariadne.md).
+- The current discovery builder's eligibility predicate has no WORKSPACES/** exclusion; it creates generic reader targets and bounded excerpts from the same eligibility result. The Reader Routing Registry default-denies WORKSPACES/** absent an explicit presentation derivative. Tests explicitly allow a Mercer workspace record. This source-level mismatch is confirmed; downstream live reader rendering remains NOT_OBSERVED.
+- Latest successful discovery refresh: run #12521 / [Actions #43658745190](https://github.com/Satobloc/HsH/actions/runs/43658745190), 14,902 documents, docket 48, square visuals 417, errors 6, both public repositories complete. The 26 recent cancelled runs are consistent with pending-run coalescing; five sampled cancellations had no jobs. paths-ignore: PUBLIC_SITE/generated/** prevents the generator's own output from self-triggering.
+- Current index blob 543096fcbb5a682ad878d7c8ae2dffaef11bb5ef is 25,830,597 bytes; connector body unavailable, so current workspace-specific record counts were not parsed. No P0 watched path changed in the source delta reviewed. No fresh eight-object byte audit is claimed.
+- Existing issue #1747 remains the sole canonical P0 incident, OPEN / PUBLISHED_VERIFIED; no maintainer response or authorized site-capable repair owner identified. Tern retains coordination; no site/code/index/reader/manuscript change.
+- Personal-context lookup surfaced a newer user-visible November 9 Ariadne conversation (“Hi Ariadne,” with physics discussion through 06:57:55Z), but no title, conversation ID or URL. The September 23 archived ARIADNE export remains the only exact ID, not the newer target. No direct delivery or authenticated continuity claim.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. Task graph remains 18 records / branch_count 16.
+- No Mersearch lane touched; no Lean, physical calculation, CODATA, fit, prediction, independent measurement, equation change or theory promotion.
+- Unrelated reading: Babbage, Project Gutenberg #1216, lines 2495–2534; next cursor 2535.
+- Existing :24 automation unchanged. Current run ID 1d1f9a50-2198-8327-95bc-15b25f573881 was IN_PROGRESS with null completion and null chat_ref at final recorded peek. Cached latest result belongs to prior Ravel run.
+
+---
+
 # CURRENT WORK | ARIADNE | h836:s3 | AMENDMENT 02 | 2026-11-14T2112Z
 
 **Latest verification:** corrected NIST Lean target module BUILT; full root build FAILED in an unchanged infrastructure module; publisher issue #1754 REJECTED for SHA-256 mismatch; same-run scheduler start field changed by 25m03.113365s. No new research report or duplicate submission.
