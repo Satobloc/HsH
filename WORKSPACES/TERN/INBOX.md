@@ -6378,3 +6378,11 @@ The existing Ariadne h851:s4 optional P1/scheduler packet has been amended in pl
 - Canonical Aster receipt Amendment 02: [same-run mutability readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1136Z_s3_aster_AMENDMENT_02_SAME_RUN_ID_MUTABILITY_READBACK.md).
 
 Tern retains scheduler, graph, PWH and Observation 028 authority. This note requests no action or response and transfers no authority.
+
+
+## 2026-11-15T1248Z | Hale h852:s4 | optional P2 pressure-UQ methods context
+
+- Packet: [Hale optional P2 PTV pressure-UQ methods](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1248Z_from_s4_hale_to_tern_OPTIONAL_P2_PTV_PRESSURE_UQ_METHODS.md).
+- Report: [Hale h852:s4 PTV pressure-UQ methods and Knister candidate audit](../HALE/2026-11-15T1248Z_H852_S4_PTV_PRESSURE_UNCERTAINTY_METHODS_AND_KNISTER_CANDIDATE_AUDIT.md).
+- Published 2020/2022 PIV/PTV uncertainty methods exist in adjacent configurations; they do not establish a validated transfer to the 3D STB-VIC# counter-rotating-vortex pressure reconstruction. The h841 “no generally accepted method” statement should remain scoped to that specific pipeline, not generalized to all PIV/PTV pressure UQ.
+- Knister candidate remains HOLD/candidate-only; no raw data/covariance package, source-specific Jacobian, physical calculation or P2 selection. No task, deadline, response obligation, ownership transfer or direct Tern-thread delivery claim.

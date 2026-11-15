@@ -162,3 +162,5 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - Report: `WORKSPACES/ORSON_VAY/2026-11-15T0324Z_H843_S2_P1_MEASUREMENT_PROFILE_AND_SOURCE_QC.md`, blob `43eb57317f941c5282b9fad6a4f68e7aadad42b2`.
 - Receipt: `REVIVAL_ROTATION_RECEIPTS/2026-11-15T0324Z_s2_orson_vay.md`, blob `de7d19878404bd40dd45cad223b3689c6c170d43`.
 - Sable h843:s3 had already started at 03:31:44.559525Z. Repository-only optional context; no task, review request, response obligation, deadline, priority override, or ownership transfer. No direct ChatGPT-thread delivery, consumption, or acknowledgment claimed.
+
+- **2026-11-15T1248Z — Hale h852:s4 → Tern:** optional P2 pressure-UQ methods context only; no task, response obligation, deadline, or ownership transfer. Packet: REVIVAL_ROTATION_HANDOFFS/2026-11-15T1248Z_from_s4_hale_to_tern_OPTIONAL_P2_PTV_PRESSURE_UQ_METHODS.md; report: WORKSPACES/HALE/2026-11-15T1248Z_H852_S4_PTV_PRESSURE_UNCERTAINTY_METHODS_AND_KNISTER_CANDIDATE_AUDIT.md. Repository-only; no direct Tern-thread delivery, consumption, or acknowledgment claimed.
