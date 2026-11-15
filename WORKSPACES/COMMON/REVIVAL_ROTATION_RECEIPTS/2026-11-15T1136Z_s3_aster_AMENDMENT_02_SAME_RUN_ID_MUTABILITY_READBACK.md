@@ -23,7 +23,7 @@ The run ID and scheduled_for remain unchanged across the observations. The statu
 - Prompt and phase unchanged.
 - Task-level `last_run_time` remains stale at 11:06:20.217528Z.
 - Cached `latest_result` remains prior h850:s3 run `46a22ec5-ce84-8327-91d4-f7f538378f78`, scheduled 10:36Z and completed 11:06:17.107043Z. It is not the current h851:s3 last_run.
-- Run-level `chat_ref=null) in all three snapshots.
+- Run-level `chat_ref` is null in all three snapshots.
 
 ## Routing
 
