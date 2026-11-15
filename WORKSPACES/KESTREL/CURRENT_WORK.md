@@ -1,3 +1,5 @@
+- Canonical receipt: [h861:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2136Z_s3_kestrel.md), blob 3d273c9a1ea13eb3c76c18889d08f1ce1f935e35.
+
 ## 2026-11-15 21:36Z | h861:s3 | Kestrel | WH-02 rebase preflight
 
 **Disposition:** READ-ONLY REVALIDATION / NO DUPLICATE ISSUE / CALDER CODE OWNER / TERN PWH COORDINATOR.
