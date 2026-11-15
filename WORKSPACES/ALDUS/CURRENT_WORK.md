@@ -1,5 +1,19 @@
 # Current checkpoint | 2026-11-15 | h841:s0
 
+
+## Amendment 02 — source-surface and Lean evidence correction
+
+[Full correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0155Z_s0_aldus_AMENDMENT_02_SOURCE_AND_LEAN_EVIDENCE_CORRECTION.md).
+
+The h841 report remains a focused late-November-8 tube/core/boundary/timesheet/worldsheet cross-read, but its full-source completeness label is narrowed. The active Library branch also contains direct source on projection maps, field description versus mechanism, the provisional responsive-medium alternative, observer-slice epistemology, the map-examine-identify method, the angle/curvature/rigidity/mass/inertia/gravity proposal chain, theta-four as the canonical vacuum/matter distinction, and the w versus proper-time distinction. The relation among these objects remains untyped.
+
+SAT-O1 and Blockwave custody is reused from the existing Mercer h824 audit; originals and corrected assistant reconstructions remain separate. Mersearch was not callable and no Mersearch execution is claimed.
+
+The Kestrel #873 successful run was a PR merge-reference build, not an exact-head build. The exact-head push run failed with no job payload. Ravel #1133 compiled relevant modules on a merge reference but failed PR-wide in MovingPlaneTraceGeometry; its exact-head push run also failed with no job payload. Exact-head success is not verified.
+
+The h841 publication remains SUBMITTED_NOT_VERIFIED because issue #1767 was skipped at the title gate. No retry, title edit, duplicate issue, or direct bypass. The same automation run ID was retried; the later attempt was IN_PROGRESS at the pre-final readback. No task or schedule mutation.
+
+
 ## New source-fidelity result
 
 [Full report: 4D tube/core/boundary, timesheet and worldsheet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-15T0100Z_H841_S0_4D_TUBE_CORE_BOUNDARY_TIMESHEET_WORLD_SHEET_SOURCE_FIDELITY.md)
@@ -8,7 +22,7 @@ The primary November 8 source was recovered from the user's Library and verified
 
 The strongest dimensionally compatible candidate is conditional: core ∩ timesheet is 0D; tube-region ∩ timesheet is 3D; tube-boundary ∩ timesheet is 2D, assuming one shared smooth 4D ambient and transversality. The 2D boundary section is not automatically a 2D history/worldsheet.
 
-Existing Lean work was reconciled. Ravel PR #1133's relevant dimension/readout modules compiled in run #43636677645, but the overall PR build failed later in MovingPlaneTraceGeometry. Kestrel PR #873's exact PR-head build #43202552666 passed for conditional algebraic force-curvature and Euclidean lifted-curve results. Neither establishes the physical mapping. No new Lean module was justified.
+Existing Lean work was reconciled. Ravel PR #1133 run #43636677645 compiled relevant dimension/readout modules on a PR merge reference, but the overall build failed in MovingPlaneTraceGeometry; its exact-head push run #43636672845 failed with no job payload. Kestrel PR #873 run #43202552666 succeeded at 8,957 targets on a PR merge reference, not the exact PR head; its exact-head push run #43202543611 failed with no job payload. No exact-head successful build is verified for either PR. These runs establish only their formalized conditional statements, not the source-to-model or physical mapping. No new Lean module was justified.
 
 ## Publication and successor
 
