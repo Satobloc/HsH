@@ -7,7 +7,7 @@
 - Preserve direct-source `w=ct` (2026-10-09) and `cw=t` / `++++` (2026-10-21) separately. No equation correction or theory promotion.
 - Aster remains REVIEW FROZEN / CROSS-READ OPEN. No Paper A/B review, P0 edit, physical calculation, P2 selection, or independent measurement.
 - Unrelated reading: SAT archive `fun break - lx.txt`, lines 1761-1800; next 1801. FIE next November 24.
-- Existing :36 automation unchanged; run completed FAILED at 12:26:04.666817Z with null chat_ref. Cause not inferred. Ariadne is next ring label; optional packet POST_NOMINAL_SLOT / START_STATE_UNOBSERVED. No direct delivery or acknowledgment.
+- Existing :36 automation unchanged; same run ID was observed IN_PROGRESS, then FAILED, then IN_PROGRESS again with changed started_at/completion fields and null chat_ref. Preserve all snapshots; no cause inferred. Ariadne is next ring label; optional packet POST_NOMINAL_SLOT / START_STATE_UNOBSERVED. No direct delivery or acknowledgment.
 
 ---
 
