@@ -1,3 +1,5 @@
+- Canonical receipt: [h861:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2136Z_s3_kestrel.md), blob 3d273c9a1ea13eb3c76c18889d08f1ce1f935e35.
+
 ## H861:S3 current return point | 2026-11-15T21:36Z
 
 - Report: [WH-02 strict-audit and PR #1710 rebase preflight](2026-11-15T2136Z_H861_S3_WH02_STRICT_AUDIT_AND_PR1710_REBASE_PREFLIGHT.md).
