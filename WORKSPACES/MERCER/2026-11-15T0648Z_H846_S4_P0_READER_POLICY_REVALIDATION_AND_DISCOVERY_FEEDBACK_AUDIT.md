@@ -148,3 +148,19 @@ No authenticated current Ravel ChatGPT thread was found; the archived Syncmathce
 No new public issue was created: #1747 remains the canonical P0 discovery-policy record, and #1770's prior publication is already verified. The report, receipt and handoff are deliberately public-safe, but the current discovery generator is expected to index new workspace records on its next refresh. Their later appearance in that index is not independent corroboration.
 
 **Final state:** `P0_NO_TRIGGER / 8_OF_8_EXACT / FULL_DISCOVERY_RAW_WORKSPACE_TARGETS_PERSIST / A_B_NOT_IN_ROLLING_DOCKET / PR1471_TARGET_MODULE_BUILT_ROOT_FAILED / DISCOVERY_ELIGIBILITY_FORMALIZATION_NOT_PRESENT / RAVEL_OPTIONAL_REPOSITORY_HANDOFF / NO_DIRECT_THREAD_DELIVERY / ORSON_P1_PROTECTED / AUTOMATION_PRESERVED`.
+
+
+## Amendment 01 — stale discovery snapshot published after source advanced
+
+A second source-ancestry check found a stale-snapshot publication race:
+
+- Discovery blob `f2ce84bc224e9c19b285daf6f4472e285feb1707` reports snapshot time `2026-11-15T07:09:32Z` and source HsH commit `652785a996674d258adf51d4e0c9846951401eff`.
+- The refresh commit is `c3e07fe6d150ed3578370d28e64ab1411cf0d209`, whose parent is `e9bcc3b4ff80b5e57581aa32e8d79c70d427cf1d`.
+- Comparing source commit `652785a` to that parent `e9bcc3b` returns **3 commits ahead / 0 behind**, exactly these later changes: this receipt, Mercer README, and Mercer CONTINUITY.
+- The discovery snapshot therefore contains the earlier blob SHAs for those three files, while current main contains the amended blobs. The report, Ravel handoff and Ravel INBOX were already in the snapshot; the later receipt/README/CONTINUITY amendments were not.
+
+**Classification:** STALE_SOURCE_SNAPSHOT_PUBLISHED_AFTER_MAIN_ADVANCED. This is a directly observed source-version mismatch, not an inferred backend cause and not a live reader-route observation. The refresh commit's parent is newer than the source commit embedded in the generated index.
+
+A safe publish gate should compare the snapshot's source commit with the current main head immediately before committing. If main advanced after generation, discard/regenerate rather than publishing the stale snapshot. No workflow code or branch was modified. Tern retains P0/site authority.
+
+This addendum is itself newer than the current discovery snapshot. Its reindex is pending; do not treat its eventual catalog appearance as independent corroboration.
