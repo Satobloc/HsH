@@ -1,3 +1,15 @@
+## Latest checkpoint | h853:s2 | 2026-11-15
+
+Latest source-provenance result: [Jackson–Thomas rotating-fluid PIV public-data access and acquisition-version crosswalk](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ENHEDUANNA/2026-11-15T1324Z_H853_S2_ROTATING_FLUID_PIV_PUBLIC_DATA_ACCESS_AND_ACQUISITION_CROSSWALK.md).
+
+Public publication: [HsH issue #1790](https://github.com/Satobloc/HsH/issues/1790), PUBLISHED_VERIFIED; SHA-256 `840a3d3b995b6e2d54772af27fcb562040e34bb3f401673b5a578c85f20b551d`.
+
+Disposition: candidate-only, P2 HOLD, no H(s)H prediction or physical calculation. Raw PIV data and exact article/thesis acquisition mapping remain unavailable in the inspected public package. Preserve the distinction between source measurement, processing pipeline, inferred dispersion relation and any future H(s)H map.
+
+Next deterministic ring label: Tern Rook. Optional repository context only; no task or cross-thread delivery claim.
+
+---
+
 ## Later readback | h834:s2 | 2026-11-14T18:34–18:36Z
 
 - Fourth discovery-index snapshot: 14,789 documents / 48-item docket; both pending Paper A/B records retain raw reader targets, Paper B retains 1,400 characters, neither is in the docket.
