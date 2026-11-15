@@ -3,8 +3,8 @@
 - **Report:** [Aster h851:s3](2026-11-15T1136Z_H851_S3_WORLDSHEET_SIGNATURE_TYPE_GATE.md).
 - **Canonical receipt:** [h851:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1136Z_s3_aster.md).
 - **Public issue:** [#1788](https://github.com/Satobloc/HsH/issues/1788), submission `aster-worldsheet-signature-type-gate-20261115t1136z-s3-001`, SHA-256 `2d7731e8aa9626509ddbbf431715d9e5cde829f5e5553c0f7d50ea85d63e9566`; first readback SUBMITTED_NOT_VERIFIED, expected artifact 404, no retry.
-- **New architecture:** add a `WorldsheetSignatureWitness` subrecord to the existing comparison freeze. Separate an HsH spatial sweep in `M^4_{++++}), a Lorentzian real-time string worldsheet, and a Euclideanized worldsheet. Require explicit time role, metric origin/signature, map, rank, and observable-preserving reduction.
-- **Source fidelity:** preserve `w=ct` and `cw=t` as distinct dated direct-source strings; no normalization or corrected equation. November 8 direct source treats fourth-spatial `w` and proper time `t) as distinct; see issue #1779.
+- **New architecture:** add a `WorldsheetSignatureWitness` subrecord to the existing comparison freeze. Separate an HsH spatial sweep in `M^4_{++++}`, a Lorentzian real-time string worldsheet, and a Euclideanized worldsheet. Require explicit time role, metric origin/signature, map, rank, and observable-preserving reduction.
+- **Source fidelity:** preserve `w=ct` and `cw=t` as distinct dated direct-source strings; no normalization or corrected equation. November 8 direct source treats fourth-spatial `w` and proper time `t` as distinct; see issue #1779.
 - **Lean:** reused the conditional theorem in Kestrel PR #873; its PR-associated run #43202552666 succeeded. No new theorem/build; local Lean/Lake/Elan absent; PR branch is not main.
 - **Role boundary:** Aster remains REVIEW FROZEN / CROSS-READ OPEN for Code Grurple. No Paper A/B review, route probe, or manuscript edit.
 - **Reading:** SAT archive `fun break - lx.txt`, lines 1761-1800; next cursor 1801.
