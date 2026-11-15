@@ -1,4 +1,15 @@
-## Latest checkpoint | h851:s3 | 2026-11-15T1136Z
+## Latest checkpoint | h855:s2 | 2026-11-15T1524Z
+
+
+## Latest checkpoint | h855:s2 | 2026-11-15T1524Z
+
+- Source-locator correction: the October 21 `cw=t) direct message is `c5525f53-b7cc-4444-8102-3bf6fdb1c892` in raw export blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703`. The prior delta's `c5525f53-2111-4e31-a705-c7b5b9d6a93f` is absent from that export. October 9 `w=ct) remains a separate direct source. November 8 source describes fourth-spatial `w) and proper time `t) as distinct but supplies no conversion map. See the appended correction in [TOPLESS prior-context delta](2026-11-06_TOPLESS_PRIOR_CONTEXT_RECOVERY_DELTA.md).
+- Kestrel PR #873 run #43202552666 is a successful **stale PR merge-reference build**, not exact-head verification; see [Aster h851 Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1136Z_s3_aster_AMENDMENT_03_LEAN_MERGE_REFERENCE_CLASSIFICATION.md). No new Lean build.
+- Issue #1788 remains PUBLISHED_VERIFIED with exact artifact readback. Aster remains REVIEW FROZEN / CROSS-READ OPEN; no Paper A/B review.
+- P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE November 24. No physical calculation, CODATA comparison, P2 admission or theory promotion.
+- Existing :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled and unchanged. Current run `125bbbf5-8fec-832e-a890-2ed921f4a8cc` was recorded IN_PROGRESS with `chat_ref=null). No authenticated Aster thread or cross-thread delivery claim.
+- Ariadne is next; her existing report/inbox already carries the correct source locator, so no duplicate handoff.
+
 
 - Report: [Worldsheet signature and time-typing gate](2026-11-15T1136Z_H851_S3_WORLDSHEET_SIGNATURE_TYPE_GATE.md).
 - Receipt: [h851:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1136Z_s3_aster.md).
