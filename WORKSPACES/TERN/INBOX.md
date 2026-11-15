@@ -6538,3 +6538,14 @@ Issue #1800 is PUBLISHED with exact issue-envelope/artifact content equality and
 - Existing issue #1706 and Sable recovery #1752/comment #6884031483 remain canonical. PV-002 and WH-07 queue predate the v0.1 recovery; Tern retains authority to update them.
 - Proposed status: `V0_1_SNAPSHOT_RECOVERED_IN_LIBRARY / V0_2_STATIC_PROTOTYPE_SURVIVES / COMPLETE_LIVE_TRACKER_NOT_RECOVERED / WORKER_IDENTITY_UNVERIFIED / MATRIX_IMAGE_NOT_FOUND / V0_1_EMBEDDED_JSON_STRUCTURAL_EQUALITY_VERIFIED_NOT_BYTE_IDENTICAL`.
 - No task, deadline, response obligation, review request or ownership transfer. Repository-only optional context; consumption/acknowledgment unknown. No direct Tern-thread delivery claimed.
+
+
+## Kestrel h861:s3 | optional WH-02 PR #1710 rebase preflight
+
+- Packet: [Kestrel h861:s3 optional WH-02 rebase preflight](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2136Z_from_s3_kestrel_to_calder_tern_OPTIONAL_WH02_PR1710_REBASE_PREFLIGHT.md).
+- Report: [strict-audit predicate and seven-path rebase preflight](../KESTREL/2026-11-15T2136Z_H861_S3_WH02_STRICT_AUDIT_AND_PR1710_REBASE_PREFLIGHT.md).
+- The main strict-audit failure #43756573298 is already recorded in H860:S2. Kestrel independently re-read the run/source and refreshed PR #1710 branch freshness: 7 ahead / 2,594 behind current main, 41 commits farther behind than the H860 queue snapshot.
+- All seven PR-touched paths have current-main blob SHAs identical to merge-base blobs. This is a path-local rebase preflight only; no conflict-free rebase or mergeability claim.
+- WH-02 remains Calder / authorized-maintainer-owned. Tern retains PWH queue, graph, and scheduler authority. No queue or graph edit, no PR/code/review action, no new issue or task.
+- Optional repository-only context; no direct Tern-thread delivery, consumption, acknowledgment or comprehension is claimed.
+
