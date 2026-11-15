@@ -1062,13 +1062,13 @@ theorem observed_snapshot_is_consistent_for_paper_a :
     discoverySnapshotConsistent
       (observedSnapshot ⟨"13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa"⟩)
       ⟨"13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa"⟩ := by
-  constructor <;> rfl
+  simp [discoverySnapshotConsistent, observedSnapshot]
 
 theorem observed_snapshot_is_consistent_for_paper_b :
     discoverySnapshotConsistent
       (observedSnapshot ⟨"0a1dca42cafd9a02faceff4ec0851659a317b2bb"⟩)
       ⟨"0a1dca42cafd9a02faceff4ec0851659a317b2bb"⟩ := by
-  constructor <;> rfl
+  simp [discoverySnapshotConsistent, observedSnapshot]
 
 theorem metadata_only_pending_record_is_projection_safe :
     projectionSafe pendingMetadataOnly := by
