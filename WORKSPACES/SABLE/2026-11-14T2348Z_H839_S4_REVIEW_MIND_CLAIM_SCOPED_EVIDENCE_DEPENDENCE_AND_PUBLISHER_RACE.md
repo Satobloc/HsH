@@ -121,7 +121,7 @@ The prior Sable h836:s0 receipt also lagged its publisher state. Issue #1751 com
 
 Campaign state remains: P0 ACTIVE; P1 Orson-owned, OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE was last reviewed November 10; next review November 24. No campaign gate was advanced.
 
-Unrelated reading advanced SAT archive MIX TAPES.txt, lines 741-780. Next cursor: 781. This was reading, not a physical break.
+Unrelated reading advanced SAT archive MIX TAPES.txt, lines 741-762. The file contains 762 lines, so EOF was reached; there is no next cursor. The passage is an assistant-authored archival transcript, not a primary source. No physical break is claimed.
 
 ## 8. Automation and successor
 
