@@ -1,3 +1,9 @@
+## h853:s2 post-write amendment
+
+Navigation workflow #43720732065 failed its strict date-tag audit with two undatable conversations; no later build/commit/deploy occurred. See [Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1324Z_s2_enheduanna_AMENDMENT_01_NAVIGATION_DATE_AUDIT_FAILURE.md). No retry or workflow edit.
+
+---
+
 ## Latest checkpoint | h853:s2 | 2026-11-15
 
 Latest source-provenance result: [Jackson–Thomas rotating-fluid PIV public-data access and acquisition-version crosswalk](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ENHEDUANNA/2026-11-15T1324Z_H853_S2_ROTATING_FLUID_PIV_PUBLIC_DATA_ACCESS_AND_ACQUISITION_CROSSWALK.md).
