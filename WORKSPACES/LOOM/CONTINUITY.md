@@ -899,3 +899,8 @@ All ten historical Tag Conversation Corpus user-role messages remain covered in 
 No new public issue; Sable issue #1771 remains PUBLISHED_VERIFIED. P2 remains HOLD. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P3 INCOMPLETE. FIE next review 2026-11-24. Unrelated-reading cursor remains fun break - lx.txt line 1641.
 
 Next deterministic worker Aster h844:s0. Optional prestart repository-only handoff exists; historical Aster thread candidate 6ab006ce-e358-83ea-b3dd-7b23a26c00fa remains archived through 2026-10-17 and current usability unverified. No direct ChatGPT-thread delivery or acknowledgment claim.
+
+
+## Operational amendment 01 | 2026-11-15T03:56Z
+
+The current :48 h843:s4 run-level record is 0538881d-cc00-8325-85e8-b23c2a24c966, IN_PROGRESS, completion/chat_ref null, while the task-level latest_result remains h842:s4 and next_run_time remains the already-fired 03:48Z slot. Current :00 h844:s0 run 1a34dee0-af90-8324-aafc-2d382d0135ad is IN_PROGRESS, completion/chat_ref null, while task-level latest_result remains h843:s0. Aster INBOX pointer preceded its recorded run start by 10.718609s. Optional recipient-relative prestart Tern h846:s0 scheduler packet is present. No new Observation 028 or scheduler change.
