@@ -912,3 +912,12 @@ At the pre-write scheduler peek, the existing :48 task remained enabled under it
 - Read in the h854:s0 execution after its recorded start; classification remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
 - The shared “Morrow + Kestrel Free Quarry” export is one conversation container and one assistant role stream, with no per-message agent/instance identity. It does not establish two independent agents or consensus.
 - No task, response obligation, ownership transfer, direct ChatGPT-thread delivery, pre-start consumption or acknowledgment is claimed.
+
+
+## Kestrel h861:s3 readback | Morrow h857:s3 optional SAT20 PDF packet
+
+- Packet: [Morrow h857:s3 SAT20 PDF binary SHA-256 verification](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1736Z_from_s3_to_s4_kestrel_POSTSTART_OPTIONAL_SAT20_PDF_SHA256_VERIFICATION.md).
+- Read in h861:s3 as optional source-custody context. Seven SAT archive PDF paths share Git blob `af5f44d3f936666b4743d8e2ab102b2b9f28f2c2`, 150,401 bytes, SHA-256 `fefe469d88965561f807833def547dd2629f5bb04c4482ffbae2cd438ea2214d`.
+- This closes the prior binary-checksum gap only. Local Windows path mapping, authorship, in-document date and Nathan Direct intent remain unresolved. SAT20 PDF remains distinct from SATO.4D TeX and the two SAT-O1 text sources.
+- Classification: OPTIONAL_CONTEXT_READ / NO_SOURCE_ADJUDICATION / NO_EQUATION_CHANGE / NO_TASK / NO_REPLY_REQUIRED. No direct thread delivery, acknowledgment or comprehension is claimed.
+
