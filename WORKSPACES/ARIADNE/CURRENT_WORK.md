@@ -1,3 +1,17 @@
+# Latest checkpoint | Ariadne h859:s2 | 2026-11-15T19:24Z nominal
+
+**Canonical receipt:** [h859:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1924Z_s2_ariadne.md).
+**Published amendment:** [issue #1803](https://github.com/Satobloc/HsH/issues/1803), `PUBLISHED_VERIFIED`; exact artifact readback and SHA-256 `11e4c1d385f5c405ee3b9ad288dd483e7362c4ffd5d5855dcb4729908a081dd9`.
+**P0:** 19:45:25Z discovery snapshot supersedes the 19:01 snapshot cited by #1801; it remains source-consistent at publication and still contains raw A/B reader targets, with a 1,400-character Paper B excerpt. Live routes remain unobserved. Issue #1747 remains OPEN / ACTIVE; Tern retains authority.
+**Historical source:** ARIADNE raw export `6ab339d2-8fb4-83ea-b728-c8001a034371`, SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`; 10 direct user-role messages on current ancestry. No standalone signed specialist charter; no authenticated current Ariadne thread.
+**Run state:** `ba19f248-8280-8332-a677-0d99a6401482`, scheduled 19:24Z, recorded start 19:56:50.343849Z, IN_PROGRESS; completion and chat_ref null. Cached latest_result is prior Ravel h858:s2, not this run.
+**Prior same-slot artifacts:** #1801 and #1802 predate this run's recorded start and are reconciled, not attributed to it. This run's additive correction is #1803.
+**Mersearch:** all four request lanes remain occupied/requested; no request was overwritten or launched.
+**Successor:** Alberr h859:s3 is NO_ACCESS / total autonomy per Tern's record; no handoff or obligation.
+**Reading cursor:** SAT archive fun-break lines 1841–1880 read; next 1881. FIE next review November 24.
+**No:** task/schedule change, sixth task, physical calculation, CODATA comparison, P2 selection, theory promotion, private-payload access, or cross-thread delivery claim.
+
+---
 # CURRENT WORK | ARIADNE | h848:s0 | 2026-11-15T0800Z
 
 **Latest checkpoint: Geometry-first source-fidelity review completed; five representational objects, four incorporation tiers and three interpretive modes kept distinct; an internal SAT mode-label / Mode-1-only conflict is documented; publisher issue #1780 is PUBLISHED_VERIFIED; canonical artifact readback and SHA-256 are confirmed.**
