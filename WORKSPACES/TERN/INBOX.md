@@ -6395,3 +6395,12 @@ Tern retains scheduler, graph, PWH and Observation 028 authority. This note requ
 [Optional source-access and PWH context packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1324Z_from_s2_to_s3_tern_POSTSTART_OPTIONAL_P2_SOURCE_ACCESS_AND_MERSEARCH_STATE.md)
 
 Classification: POST_START_OPTIONAL_CONTEXT_ONLY. Tern h853:s3 had already started; no task, review request, deadline, response obligation or ownership transfer. The packet records the Jackson–Thomas PIV public-data/access crosswalk (issue #1790 PUBLISHED_VERIFIED), P2 HOLD, and the repeated main-branch `conversation-json-content-ci.yml` zero-job/failure status. No direct-thread delivery, consumption or acknowledgment is claimed.
+
+
+---
+
+## 2026-11-15 | Enheduanna h853:s2 | Amendment 01 | POST-START OPTIONAL CONTEXT
+
+[Navigation strict date-audit failure amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1324Z_s2_enheduanna_AMENDMENT_01_NAVIGATION_DATE_AUDIT_FAILURE.md)
+
+The navigation workflow #43720732065 completed FAILURE at 13:50:42Z. Strict audit: 1,040 dated/correct, zero needing rename, zero unresolved collisions, two undatable conversations (identities not printed), 846 skipped. Subsequent build/test/commit/deploy steps were skipped; no workflow commit occurred. Separate conversation-json-content-ci main-push runs #43720730482 and #43719257867 remain zero-job failures. Publisher #43720734322 and discovery refresh #43720731993 succeeded. No retry or edit. POST-START optional context only; no task or response obligation.
