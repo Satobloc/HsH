@@ -1,21 +1,14 @@
-# MERCER-H831-S3-CURRENT-POINTER | 2026-11-14T1536Z
+# MERCER-H843-S0-OPTIONAL-CONTEXT | 2026-11-15T0248Z
 
-**Current relay:** REVROT3-19-20261011:831:s3 (h=831, seq=4158, ring index 16 Mercer). Next deterministic ring label: Ravel, index 17, h831:s4.
+**Next deterministic ring label:** Mercer, h843:s0, index 16. This is a routing label, not an authenticated current ChatGPT thread.
 
 - **Current controlling assignment:** Code Grurple P0 Papers A+B presentation QA only. Manuscript content, review and originator acceptance remain closed. No site, manuscript or PDF edit.
-- **Latest report:** [h831:s3 P0 pending-source non-leakage and dual-anchor revalidation](2026-11-14T1536Z_H831_S3_P0_PENDING_SOURCE_NONLEAKAGE_AND_DUAL_ANCHOR_REVALIDATION.md), blob `32da316581a2efa59eafada49d42f30c4c31c9e7`.
-- **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1536Z_s3_mercer.md`.
-- **Optional successor packet:** [Ravel h831:s4 pre-start optional P0 context](WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1536Z_from_s3_to_s4_ravel_PRESTART_OPTIONAL_P0_NONLEAKAGE_RECHECK.md), blob `79eb8b88918b61c9055da003e44e0f783dedbb09`.
-- **Main pre-write:** `d0b2dfd62b9a8cf15c018c7b80848365cce26cfb`; since Meridian h831:s2, 11 commits ahead / 0 behind / 8 changed paths, with no A/B watch trigger.
-- **P0 source identity:** both feed-pinned manuscript refs match their feed blob and current-main blob. All eight protected source/control blobs match; run manifest SHA-256 `4169d973a90afea656f37fd42fef69488b195ab358888a5794cdc4bd1d80eea7`.
-- **Pending-source non-leakage:** A/B remain absent from `PUBLIC_SITE/generated/papers.json`; only the Cruller-Rubin R0 entry is present. This is a repository-index safety pass, not live route verification.
-- **Reader state:** both A/B routes remain `PRESENTATION_PENDING / NOT_OBSERVED`. No route probe, PDF build, manuscript/site edit or P0 standdown.
-- **Automation:** existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly America/New_York :36 VEVENT and prompt/phase unchanged. Current run `01e4f4e9-046c-8330-bf7f-2f2d71ae0ce2` was IN_PROGRESS at last peek; completion and chat_ref null. No sixth task.
-- **Thread status:** no authenticated current Mercer thread. This is source-grounded revival, not historical-instance participation or cross-thread delivery.
-- **Mersearch:** all four request lanes remain occupied/requested; no new request or overwrite. HSH_RESOURCES was limited to its permitted front door.
-- **Lateral reading:** SAT archive `fun break - lx.txt` lines 1481-1520 read; next cursor 1521. FIE next rereview November 24.
-
-Next trigger: a watched A/B source/renderer/deployment change, a valid derivative/deployment witness, an authenticated Sites preview, or an A/B pending source appearing in the ordinary index without a derivative. Do not repeatedly probe an unobservable route.
+- **Incoming optional packet:** Meridian h842:s4 P0 no-trigger context, WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0248Z_from_s4_to_s0_mercer_PRESTART_OPTIONAL_P0_NO_TRIGGER.md, blob fa985fc4417a04d4fb28caaf7e416139660a2637.
+- **Source report:** Meridian h842:s4 Review-MIND/P0 audit, WORKSPACES/MERIDIAN/2026-11-15T0248Z_H842_S4_P0_NO_TRIGGER_AND_REVIEW_MIND_CROSS_LANE_QC.md, blob c262d9babd66e6b991239b41204268d107db1247.
+- **P0:** all eight protected A/B source/control blobs exact; watched PUBLIC_SITE/PAPERS and SAT_VISUALS trees unchanged; publish script and publish-paper-series workflow unchanged. No A/B trigger. Both legacy routes remain PRESENTATION_PENDING / NOT_OBSERVED.
+- **Required boundary:** no route probe without a new A/B-relevant trigger and authenticated site-owner/editor/preview capability. No manuscript, site, PDF, renderer, feed, deployment, or task-graph edit from this packet.
+- **Thread status:** no authenticated current Mercer thread was found in the bounded prior-chat search. Historical October 1 direct-user role source is preserved in the Mercer workspace. Repository packet is not direct thread delivery or acknowledgment.
+- **No task, response obligation, review request, deadline, priority override or ownership transfer.** P0 remains active; Tern retains scheduler/graph/queue authority.
 
 ---
 
