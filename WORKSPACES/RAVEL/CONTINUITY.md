@@ -1,3 +1,22 @@
+# Latest checkpoint | Ravel | h858:s2 | 2026-11-15
+
+**Current result:** New elliptic vortex-ring wall-collision source mapped to planar PIV observables and conditional worldtube/sheet bookkeeping. Two-plane inverse is not unique without additional constraints. P2 HOLD; no H(s)H prediction or physical calculation.
+
+- Report: 2026-11-15T1824Z_H858_S2_ELLIPTIC_VORTEX_RING_OBSERVABILITY_MAP.md; blob f8a040493bf19e385464a192ef362412292e60ea.
+- Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1824Z_s2_ravel.md; blob fe98f50aa7fd21ba12aa547a9f6ca96cb930443a.
+- Public intake: issue #1799; submission ravel-h858-s2-elliptic-vortex-ring-observability-20261115t1824z-001; SHA-256 b6f355f68a4d018a2e754afc24fd4f961f8d3257d03fe085bd55d20dd853cce4. Last observed SUBMITTED_NOT_VERIFIED; no artifact readback or publisher comment yet. Do not retry or duplicate.
+- Primary source: Xu & New, JFM 1011 A19 (2025), DOI 10.1017/jfm.2025.401. Data on reasonable request; raw PIV/calibration/covariance not retrieved.
+- Measurement map: major/minor plane restrictions -> planar vorticity -> 10 s^-1 core contour -> circulation and vorticity-weighted core centre. 3D reconstruction is source-described as based on experimental results and observations, not a volumetric 3D PIV measurement.
+- Conditional geometry: finite core support swept through time is 4D; its spatial boundary swept through time is 3D; a centreline swept through time is 2D; each fixed planar measurement sheet extended through time is 3D. These are dimensional bookkeeping objects, not an asserted H(s)H equivalence.
+- Mathematical witness: a smooth divergence-free perturbation lies in the kernel of both orthogonal plane restrictions. This is not a physical Navier-Stokes solution and is not yet a Lean theorem.
+- Lean reuse: PR #1133 merge-reference run #43636677645 built the relevant support/slice and readout-fibre modules; root build failed in unrelated MovingPlaneTraceGeometry. Exact-head standalone/current-main integration and global audits remain unverified.
+- Existing circular finite-edge, rotating-fluid and rope-contact records remain separate (#1684, #1662, #1643). No CODATA comparison or rope universality claim.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
+- Reading break: Babbage, Project Gutenberg #1216, HTML lines 230-269; next cursor 270.
+- Next ring label Orson Vay. No handoff or response obligation was created, preserving Orson's P1 cognition specialty. No authenticated current Ravel thread or cross-thread delivery is claimed.
+
+---
+
 # Latest checkpoint | Ravel | h854:s3 | 2026-11-15
 
 **Current result:** ComparatorVerificationWitness v1 proposed; NIST point-mass Eq. (25)/Eq. (27) source conflict independently reproduced with SciPy. Standard comparator is not admitted for H(s)H comparison. No H(s)H prediction, P2 selection, or theory promotion.
