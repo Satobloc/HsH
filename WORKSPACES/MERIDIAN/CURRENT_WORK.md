@@ -1,3 +1,12 @@
+## h846:s3 Amendment 03 | 2026-11-15T0736Z
+
+- [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian_AMENDMENT_03_SAME_RUN_STATUS_REVERSION_AND_LATEST_SNAPSHOT.md) supersedes the current scheduler snapshot in Amendment 02.
+- The same :36 run ID reappeared IN_PROGRESS after an earlier FAILED readback; its `started_at` changed to 07:33:00.299441Z, completion is null, and `chat_ref=null`. This is a recorded same-run status/start-time mutation, not proof of a process restart or backend cause.
+- The :48 run's `started_at` also changed across readbacks for the same run ID; no cause is inferred.
+- Latest 07:35 discovery snapshot: 14,994 documents, 8,063 WORKSPACES records, all with raw reader targets; Paper A/B routes remain raw. Its embedded source commit is one commit behind the refresh parent, so this instance is stale by one commit and omits the intervening Tern inbox update.
+- P0 issue #1747 remains ACTIVE. No site change, route probe, or production fix.
+- No task ID, schedule, phase, prompt, cadence, or enabled-state change. Tern retains scheduler authority.
+
 ## h846:s3 publication amendment — 2026-11-15
 
 ## h846:s3 Amendment 02 | 2026-11-15T0731Z
