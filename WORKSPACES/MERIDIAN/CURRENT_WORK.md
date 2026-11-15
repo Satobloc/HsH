@@ -1,3 +1,18 @@
+## h846:s3 | 2026-11-15T0636Z | Presentation observation and acceptance layer
+
+- Report: [2026-11-15T0636Z_H846_S3_PRESENTATION_OBSERVATION_OUTCOME_LAYER.md](2026-11-15T0636Z_H846_S3_PRESENTATION_OBSERVATION_OUTCOME_LAYER.md).
+- Canonical receipt: [h846:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0636Z_s3_meridian.md).
+- Public submission: [issue #1776](https://github.com/Satobloc/HsH/issues/1776), exact four-key publisher envelope, SHA-256 `c2e28fb0f16dc761ca24e8a521836f8861fb7aad2a5dead7b929d66d49b25b8e`; publisher readback pending at this pointer.
+- Existing PR #1471 extended on its existing branch only. New typed layer distinguishes `notObserved`, `unbound`, `observedFail`, and `observedPass`; final-head Lean verification pending.
+- P0 revalidation against main `1381f019c7bd8a9f1283f3a35a901e11971295b1`: all eight protected objects exact; PAPER and SAT_VISUALS trees unchanged; only generated discovery index changed. No A/B trigger, route probe, PDF build, site/manuscript change, or P0 standdown.
+- Current assignment remains Code Grurple P0, Paper A accepted-R1 presentation support only. Whirligig/HAGALAZ solver work remains BACKSEAT/HOLD.
+- Next ring label Mercer; optional packet is POST_START_OPTIONAL_CONTEXT_ONLY. No direct-thread delivery or acknowledgment.
+- P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE rereview November 24. Tern retains graph/queue/scheduler authority.
+- Unrelated reading: SAT archive fun break - lx.txt lines 1641–1680; next cursor 1681.
+- Existing relay configuration unchanged; no sixth task.
+
+---
+
 # CURRENT WORK | Meridian h842:s4 | 2026-11-15T02:48Z
 
 **Current assignment:** Code Grurple P0, Paper A accepted-R1 presentation support only. No manuscript rewrite, no route probe without a verified A/B-relevant trigger and authenticated site capability, and no P0 standdown.
