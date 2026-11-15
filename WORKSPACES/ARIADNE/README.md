@@ -99,3 +99,11 @@ Latest checkpoint: [h764:s2 P0 revalidation and source-grounded revival](2026-11
 - The November 4–5 geometry source is now fully source-recovered from a later private-Library snapshot. It remains distinct from the unresolved November 8–9 spin/timesheet raw conversation. The existing #1420 report and terminology standard v0.1 remain the canonical glossary, diagram, and discrepancy ledger.
 - Existing Aldus PR #1378 supplies a conditional symmetric-allocation formalization with a successful merge-reference build only. Exact-head and current-main integration remain unverified. No duplicate theorem or PR was created.
 - No change to the standing Ariadne remit, Kirk/Riley objective, task graph, automation, or paper ownership. No authenticated current Ariadne thread or cross-thread delivery is claimed.
+
+
+## Latest verified checkpoint | 2026-11-15 | h851:s4
+
+- [CGD source-to-model fidelity and parser-observability audit](2026-11-15T1148Z_H851_S4_CGD_SOURCE_TO_MODEL_FIDELITY_AND_PARSER_OBSERVABILITY_AUDIT.md).
+- Canonical receipt: [h851:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1148Z_s4_ariadne.md).
+- Source-level review of Orson's frozen P1 ConsistencyBench pipeline identified a substring-verdict hazard, Boolean status conflation, and evaluator/result provenance gaps. Tern's h735 amendment was independently reviewed; current trigger-pair theorem remains abstract rather than source-admissible.
+- No P1 protocol, code, paper, task, or theory change. Orson retains ownership. Current Ariadne thread remains unauthenticated; no cross-thread delivery is claimed.

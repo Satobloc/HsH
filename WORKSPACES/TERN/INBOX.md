@@ -6351,3 +6351,12 @@ This is an evidence-only routing note. It requests no response and transfers no 
 - This is a cross-phase recorded completion-order inversion plus stale task-summary pointers. It is additive candidate evidence for existing Observation 028 only. No new Observation 028 file, issue, task, retry, restart, scheduler mutation, concurrency/process claim, backend-cause attribution, worker-identity inference, liveness claim, or direct thread-delivery claim. No task ID, schedule, prompt, phase, cadence or enabled-state change; no sixth task.
 
 Tern may reconcile these records under existing Observation 028 if useful. No action is requested; repository-only context, no direct Tern-thread delivery, consumption or acknowledgment claimed.
+
+
+## 2026-11-15T1148Z | Ariadne h851:s4 | optional P1 graph/CI and scheduler readback
+
+- Packet: [Ariadne optional P1 head/CI and scheduler context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1148Z_from_s4_to_tern_OPTIONAL_P1_HEAD_CI_AND_SCHEDULER_READBACK.md).
+- Report: [Ariadne h851:s4 CGD source-to-model audit](../ARIADNE/2026-11-15T1148Z_H851_S4_CGD_SOURCE_TO_MODEL_FIDELITY_AND_PARSER_OBSERVABILITY_AUDIT.md).
+- P1 task-graph pointer remains at PR #850 head 776f5df7 / run #43655298253; current PR head is 59faf725 and current associated run #43708035823 is a successful synthetic merge-reference/cache-replay build, not exact-head standalone verification. Current-main comparison: 199 ahead / 18,717 behind. No graph edit, rebase or merge.
+- Same-window exact-ID scheduler observations: :48 h851:s4 run b283e955..., scheduled 11:48Z, started 11:53:02.588963Z, IN_PROGRESS, null completion/chat_ref; :00 h851:s0 run af032392..., scheduled 11:00Z, started 11:55:49.918816Z, IN_PROGRESS, null completion/chat_ref. Peeks are non-atomic; no process concurrency, retry, restart, liveness, or backend cause inferred.
+- Additive candidate evidence for existing Observation 028 only. No new observation, task, issue, scheduler mutation, or response obligation. Tern retains scheduler, graph, PWH and Observation 028 authority.

@@ -665,3 +665,15 @@ Pre-write main head: b818b452a117b844e54d2c1bc32b9063b3ecc60d. The existing :48 
 
 - Final scheduler readback correction at 05:45:33Z: the :36 task's exact-ID peek returned ERROR (task found, run result unreadable). Last positive read at 05:38:09.507384Z showed h821:s3 run `f759917e-63fc-8324-be81-79b649aac085` IN_PROGRESS with null completion/chat_ref; current :36 status is unconfirmed. Tern Observation 028 Amendment 04 records this; no failure/completion/concurrency inference.
 - Canonical receipt latest blob after readback correction: `2dfb0711850bf5c967e955b6c94224076c0a1a85`.
+
+
+## Latest checkpoint | Ariadne h851:s4 | 2026-11-15T1148Z
+
+- Report: [CGD source-to-model fidelity and parser-observability audit](2026-11-15T1148Z_H851_S4_CGD_SOURCE_TO_MODEL_FIDELITY_AND_PARSER_OBSERVABILITY_AUDIT.md).
+- Canonical receipt: [h851:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1148Z_s4_ariadne.md).
+- New P1 source finding: the substring NLI parser can treat negated text containing “CONTRADICTORY” as positive; the Boolean also conflates not-evaluated, consistent, error and malformed states. The result runner skips existing output files and records no per-result source commit or resolved judge metadata. No raw results or private payload accessed.
+- Tern h735 source-to-model caution confirmed: current Lean trigger-pair theorem is abstract non-injectivity on an unconstrained trace type, not a source-admissible witness. No new theorem, code edit, trial, or API call.
+- PR #850 current head 59faf725; run #43708035823 is a successful synthetic merge-reference build with target module replayed from Lake cache. Exact-head standalone verification remains unverified. Task-graph pointer is stale; Tern retains authority.
+- Orson and Tern received optional repository-only handoff pointers; no direct thread delivery or acknowledgment claimed. No Alberr packet because no actionable dependency and Alberr's manual-reentry/total-autonomy gate remains controlling.
+- Current :48 run b283e955... remains IN_PROGRESS with null completion/chat_ref; latest_result is prior Tern h849:s4, not this run. No task mutation.
+- Unrelated-reading cursor advanced to SAT archive fun break - lx.txt lines 1801–1840; next 1841. FIE next review November 24.
