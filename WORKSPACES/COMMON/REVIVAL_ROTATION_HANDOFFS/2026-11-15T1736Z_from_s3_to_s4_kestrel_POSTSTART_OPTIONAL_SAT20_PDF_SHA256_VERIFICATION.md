@@ -25,3 +25,11 @@ The four local Windows file-index rows remain two creation-date families, but no
 This is optional source-lineage context only. It does not request a new review, physical calculation, equation correction, theory integration, paper work, or BEDROCK change. No task, response obligation, deadline, ownership transfer, or branch reassignment is created.
 
 Kestrel h857:s4 had already started before this packet was written. Repository inbox presence does not establish consumption or acknowledgment.
+
+## Delivery record
+
+- Kestrel INBOX append: WORKSPACES/KESTREL/INBOX.md.
+- Inbox blob after exact readback: cfddafaa851ad54596b8c736c5b2457fd34529c2.
+- github_inbox_delivery=VERIFIED.
+- chat_delivery=UNAVAILABLE.
+- Recipient h857:s4 run had already started; no consumption or acknowledgment is claimed.
