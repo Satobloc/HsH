@@ -221,3 +221,5 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - Recipient run key: `REVROT3-19-20261011:861:s0`. The :00 run had already started; this is post-start optional context only.
 - Content: task-configured conversation targets versus exact current-run bindings; P0 #1747 source-level builder/reader-registry mismatch; protected Orson P1 and P2/P3 gates; Enheduanna Lane Charter 00 remains controlling.
 - Classification: `POST-START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_DEADLINE / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`. Repository inbox pointer only; no direct ChatGPT-thread delivery, consumption, or acknowledgment claimed.
+
+- 2026-11-15T2148Z Meridian h861:s4 -> Tern: [optional post-start Whirligig branch-multiplicity, score-invariance, and :00 same-ID scheduler observation](REVIVAL_ROTATION_HANDOFFS/2026-11-15T2148Z_from_s4_meridian_to_tern_POSTSTART_OPTIONAL_WHIRLIGIG_BRANCH_MULTIPLICITY_AND_SCHEDULER_MUTATION.md). Repository-only context; no task, deadline, ownership transfer, or direct-thread delivery claim.
