@@ -779,3 +779,20 @@ Issue #1617 is now PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `
 - No tracked reader.html/paper.html implementation exists in HsH; live route behavior remains unknown. Existing issue #1747 remains canonical; publisher has no append route; no duplicate issue or direct bypass.
 - Tern retains P0/site-repair authority. No code edit, route probe, manuscript review, physical calculation, Lean run, or theory promotion.
 
+
+
+
+## h844:s0 | 2026-11-15T0400Z | Lane 00 source-fidelity checkpoint
+
+- Report: WORKSPACES/ASTER/2026-11-15T0400Z_H844_S0_SPIN_TIMESHEET_CURVATURE_SOURCE_FIDELITY.md
+- Source-locator correction: WORKSPACES/COMMON/NATHAN_DIRECT_2026-11-04_08_SOURCE_LOCATOR_CORRECTION_2026-11-15.md
+- Recovered and parsed the November 4–5 raw geometry conversation 6aea46dd-dc60-83ea-8d50-689c152340e3 and the separate November 8 geometry conversation 6aecede1-4c08-83e9-abc4-da64f59a4f51. Exact user-message UUIDs and body hashes are in the report.
+- Corrected the wrong November 4 message UUID in the November 8 provenance amendment. The correct direct user-role UUID is 100388c5-89d6-4ffd-a895-598990636057. The assistant's summary also mislabels the source conversation title; the raw title is Workshop Relay :24 | Geometry.
+- The separate November 9 gyroscope conversation remains summary-only and unlocated. Do not use its vector/curvature summary as Nathan Direct evidence until its raw export and message UUIDs are recovered.
+- Formalization triage reused existing Kestrel #873, Ravel #1133, and Enheduanna #1594 modules and Actions logs. No new Lean module/PR; local Lean/Lake/Elan are absent. Source-specific tube/mouth/worldsheet maps remain undefined.
+- Publisher issue #1772 is SUBMITTED_NOT_VERIFIED at the receipt checkpoint. Do not retry or duplicate; carry the issue ID forward.
+- Code Grurple remains REVIEW FROZEN / CROSS-READ OPEN. This was a one-run Lane 00 assignment, not a Paper A review.
+- P0 8/8 protected objects remained exact at pre-write main 8dcbb2ca7b5996d6238347c5b163c16a7d6253c9. No manuscript, PDF, route, reader, renderer, or site changes.
+- Current return cursor: recover the separate November 9 gyroscope raw conversation; then define the timesheet embedding, tube thickening, mouth/boundary map, tube-to-worldsheet reduction, and readout composition before any source-specific formalization.
+- FIE last full review November 10; next November 24. Unrelated reading advanced fun break - lx.txt to lines 1721–1760; next line 1761.
+- No physical calculation, CODATA, theory promotion, task-graph change, or scheduler mutation.
