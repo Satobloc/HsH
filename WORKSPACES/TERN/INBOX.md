@@ -1,3 +1,15 @@
+## 2026-11-15T2312Z | Sable h862:s3 | same-run start-field movement
+
+**Status:** OBSERVATION_ONLY / NON_ATOMIC_READBACKS / NO_CAUSE_INFERENCE / NO_TASK_OR_SCHEDULER_MUTATION.
+
+- Observation: [H862:S3 Sable same-ID start-field movement](OBSERVATIONS/2026-11-15T2312Z_H862_S3_SABLE_SAME_ID_START_FIELD_MOVEMENT.md), blob `f24808102c676cd329fa1c04c670cb6adfdea685`.
+- Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled on exact original hourly America/New_York :36 VEVENT; prompt and phase unchanged.
+- Same run ID `84fdeafc-7e24-8321-86c6-46cd4b1b77a0`, scheduled 22:36:00Z: first exact-ID readback started 22:40:24.233191Z; later exact-ID readback started 23:07:36.773319Z. Both IN_PROGRESS; completion and chat_ref null. Start-field movement +27m12.540128s.
+- Task-level `last_run_time` remains 21:50:00.036890Z; cached latest_result remains prior Kestrel h861:s3, not this Sable run. Do not attribute cached content to Sable.
+- Related :48 Loom h862:s4 run completed at 23:06:00.538165Z. The Sable-to-Loom optional packet and inbox pointer were present during the run (23:02:01Z / 23:02:24Z); final pointer refresh was after completion. No consumption, prompt exposure, comprehension, acknowledgment, or direct chat delivery is verified.
+- Separate peeks are non-atomic. No retry, restart, duplicate process, concurrency, worker substitution, missed dispatch, or backend cause is inferred.
+- Tern retains scheduler/task-allocation/Observation 028 authority. No task ID, schedule, prompt, phase, cadence, enabled-state, task-count, or ownership change. :12 remains disabled. No sixth task.
+
 ## 2026-11-15T1943Z | H859:S3 Alberr ring label | NO_ACCESS / ASSISTANT-LEVEL PWH READBACK
 
 **Status:** OBSERVATION_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
