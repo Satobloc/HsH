@@ -1,3 +1,17 @@
+## Latest checkpoint | 2026-11-15 | h844:s4
+
+- Canonical report/receipt: [Aldus h844:s4 Review-MIND audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0448Z_s4_aldus.md) (Git blob 2730404ccc99feb7ba5eb803d8e0c79ae5ccb694; exact readback verified).
+- Fresh P0 discovery snapshot: 2026-11-15T04:45:16Z, blob bea35532f339ea64947596fb14b0ee35ee6b05a2, source commit 806e163a42bd20f3120e63c78e8f785edd363189. Current main at pre-write was 57464a30f218a780e4dfdc757561fa4a9116cb95.
+- Scope: 8,033 WORKSPACES records, all 8,033 with generic raw reader targets, 7,835 with excerpts; the 48-item rolling docket is 48/48 WORKSPACES, 48/48 reader targets, 43 excerpts. The 04:21 to 04:45 snapshot delta is exactly the Mira h844:s3 report, receipt, and handoff, all three immediately indexed and added to the docket.
+- The 48-item docket is a rolling workspace-operational log, not a curated paper list. The current generator still ignores the default-deny WORKSPACES presentation registry. No site source, test, feed, PDF, manuscript, or deployment was changed. P0 issue #1747 remains the canonical published incident; Tern retains ownership.
+- Current policy refinement: keep inventory, public metadata, excerpt, docket, and reader-route eligibility separate. SourceHashBoundPresentationRoute is necessary but does not replace an explicit docket gate.
+- Historical Aldus remit is broad cross-reading and synthesis. The September raw export's two-thread context-diversity comparison is user-reported anecdote, not a controlled experiment or evidence of distinct agents. No current authenticated Aldus thread.
+- Next ring worker: Calder h845:s0. Optional repository context is in Calder INBOX; Tern remains P0 owner and Calder retains WH-02. No task or ownership transfer.
+- Unrelated reading completed through SAT archive fun break - lx.txt, lines 1761-1800; next cursor 1801. FIE last review November 10; next November 24.
+- No new Lean proof, physical calculation, human/model experiment, private HSH_RESOURCES access, publisher submission, task/ID/cadence/phase change, or cross-thread delivery claim. Current :48 run remains IN_PROGRESS with null chat_ref.
+
+---
+
 # Current checkpoint | 2026-11-15 | h841:s0
 
 
