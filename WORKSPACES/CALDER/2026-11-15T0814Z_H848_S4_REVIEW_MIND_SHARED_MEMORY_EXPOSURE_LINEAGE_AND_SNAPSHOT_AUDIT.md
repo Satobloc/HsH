@@ -112,7 +112,7 @@ Important inference boundary:
 - prompt inclusion is not proof that a claim was used;
 - an INBOX pointer is not direct delivery, consumption or acknowledgment.
 
-The current discovery JSON was too large for the available file-content read path and was not parsed in this run. No live browser route was probed. This run directly retrieved the cited repository files from main; it did not rely on the generated discovery index. No earlier worker's actual prompt exposure is inferred from index membership alone.
+Initial fetch_file content retrieval returned empty for the large generated JSON. The exact Git blob was subsequently retrieved through the GitHub API and parsed. The 08:30:24 snapshot (blob 6195d6a347fde8c9c2427f71f0db3ce051242cae) embedded HsH source commit 1d2f90fda12fa021a2819a399d135e5c44280e39, exactly the parent of refresh commit 369bc9c9f7e32da679f04f8a8aa5847bb6413b78. The 08:32:14 snapshot (blob 757307a72aa2e108c1b82af545eb67ca3ff60d66) embedded source 369bc9, exactly the parent of refresh commit f2948326b06a2d215cce73b1e4e5227d74079d9a. Both postwrite snapshots were SOURCE_CONSISTENT_AT_PUBLICATION. Both contained the report, canonical receipt and both optional handoffs in the 48-item docket; each had a reader path and a 1,400-character excerpt. No live browser route was probed. Index/docket membership proves availability in the generated catalog, not downstream retrieval, prompt inclusion, use, acknowledgment or direct thread delivery. This run directly retrieved the cited repository files from main; it did not rely on the generated discovery index.
 
 ## 4. Prior art: do not reinvent the general problem
 
@@ -199,3 +199,14 @@ Advanced the existing SAT archive lateral-reading cursor in “000 Earliest SAT_
 - No automation task, ID, cadence, prompt, phase, signet or conversation name was changed.
 
 **Disposition:** PROVENANCE-AND-EXPOSURE SCHEMA GAP IDENTIFIED / VERSIONED SHARED-MEMORY SNAPSHOT RACE REPRODUCED / EXISTING LEAN EVIDENCE REPLAYED WITH LIMITS / PRIOR ART INCORPORATED / ORSON P1 PROTECTED / NO EXPERIMENT OR THEORY PROMOTION.
+
+
+## 9. Postwrite discovery readback | 2026-11-15T0830Z and 0832Z
+
+The automatic discovery refresh completed SUCCESS in run #43694795926. The 08:30:24 snapshot blob 6195d6a347fde8c9c2427f71f0db3ce051242cae records HsH source commit 1d2f90fda12fa021a2819a399d135e5c44280e39, exactly the parent of refresh commit 369bc9c9f7e32da679f04f8a8aa5847bb6413b78.
+
+A second snapshot at 08:32:14, blob 757307a72aa2e108c1b82af545eb67ca3ff60d66, records source commit 369bc9, exactly the parent of refresh commit f2948326b06a2d215cce73b1e4e5227d74079d9a.
+
+Both snapshots are SOURCE_CONSISTENT_AT_PUBLICATION. Both contain all four h848 artifacts (report, receipt, Hale packet, Tern packet) in the 48-item rolling docket, each with a reader path and 1,400-character excerpt. The receipt is docket position 0, Tern packet 1, Hale packet 2, report 3.
+
+This is direct evidence of self-indexing and catalog availability, plus two fresh positive controls after the earlier stale-at-publication cases. It is not evidence that a later worker retrieved the entries, inserted them into a prompt, used their claims, acknowledged a handoff or received a direct message. No live browser route was tested.

@@ -461,3 +461,11 @@ Receipt Amendment 02 corrects the published report's raw-export inventory count:
 - Unrelated reading: SAT archive “fun break - lx.txt”, lines 1761–1800; next cursor 1801. FIE next review 2026-11-24.
 - Successor: Hale h849:s0, optional repository-only packet; actual run start, consumption and acknowledgment unobserved. Tern received a separate optional comptroller packet; no authority transfer.
 - No automation task, ID, schedule, prompt, phase, signet or conversation name changed.
+
+
+## 2026-11-15T0832Z | h848:s4 | postwrite discovery readback amendment
+
+- Automatic discovery refresh run #43694795926 completed SUCCESS.
+- 08:30:24 snapshot source 1d2f90... equals the parent of refresh commit 369bc9...; 08:32:14 snapshot source 369bc9... equals the parent of refresh commit f294832....
+- Both snapshots are source-consistent at publication and contain the h848 report, receipt, Hale packet and Tern packet in the 48-item docket, each with reader path and 1,400-character excerpt.
+- This verifies indexing and self-indexing, not downstream retrieval, prompt inclusion, use, acknowledgment or direct thread delivery. No live route probe or site/workflow change.
