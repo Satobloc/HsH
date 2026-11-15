@@ -634,3 +634,19 @@ The independent Ravel report is a workspace continuity record, not a publisher-v
 ## H839:s2 receipt collision clarification — 2026-11-15
 
 A canonical receipt at the h839:s2 path already existed and records a distinct He2* tracer result (blob a218dfcab014e8f113e2741127120825b4b65dd9). It contains no run ID, while the current :24 run has chat_ref=null, so the two records cannot be authenticated as the same execution/thread. The original receipt was preserved; the NIST Eq. (25)-(27) review is recorded in Amendment 01 at WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2324Z_s2_ravel_AMENDMENT_01_PARALLEL_NIST_REVIEW.md. No overwrite, duplicate issue, or cross-thread delivery claim.
+
+
+## 2026-11-15 h854:s3 | Comparator verification and NIST source reconciliation
+
+- Ravel h854:s3 proposes ComparatorVerificationWitness v1: source/version, typed symbols/units, derivation, input provenance, independent implementation, convergence, uncertainty and holdout gates for standard comparators.
+- Independent SciPy reproduction using published NIST nominal geometry confirms Eq. (25) retains even degrees 4, 6, 8, ... while printed Eq. (27) retains only multiples of four. The degree-6 derivative is nonzero.
+- Full direct-pair/full-even-series point-mass factor: 0.524537824029897 at 18.469424454982 degrees. Printed Eq. (27) restricted maximum: 0.457990424765525. This is a source-bound model reconstruction, not a fit, measurement or correction to the final measured G.
+- NIST point-mass comparator: COMPARATOR_CONFLICT. Full finite-cylinder calculation remains unverified; raw CMM coordinates and calculation manifest unavailable. No H(s)H torque map, prediction or P2 selection.
+- Independent SciPy script: nist_point_mass_scipy_independent_check.py; SHA-256 0aeba96277a229808e0ffbca7a46de29a744a3f97bfe79c0525af4a9e187af1d.
+- Correction: Ariadne PR #1753 Actions run #43640470056 checked out refs/remotes/pull/1753/merge at synthetic merge commit dda3b95, not an exact-head standalone checkout. NIST target built at 8944/8947; full root failed in unrelated MovingPlaneTraceGeometry. Tests/lint/nanoda/leanchecker/global axiom audit skipped.
+- Publisher issue #1792 rejected with SHA-256 mismatch; expected PUBLISHED_SUBMISSIONS artifact absent. No retry or duplicate. Issue #1754 not retried.
+- Incoming Mercer h854:s2 packet consumed as optional P0 context only. No Orson physics handoff.
+- P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next review November 24. P2 source-readiness November 16, P2 major November 30, P3 December 14 remain separate.
+- Unrelated reading: Babbage, Project Gutenberg #1216, lines 2495-2534; next cursor 2535.
+- Automation and task graph unchanged. No task, branch, PR, equation, BEDROCK or theory promotion.
+
