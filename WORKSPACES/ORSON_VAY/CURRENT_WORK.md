@@ -1,3 +1,23 @@
+# Current work checkpoint | h854:s4 | 2026-11-15
+
+**Latest report:** [CGD dual-history source audit and trigger bounds](2026-11-15T1448Z_H854_S4_CGD_DUAL_HISTORY_TRIGGER_BOUND_AUDIT.md)  
+**Canonical receipt:** [h854:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1448Z_s4_orson_vay.md)
+
+## h854:s4 source and data work
+
+- Replayed all 17 immutable ConsistencyBench result blobs from the existing OrsonCGDManifestBounds manifest at source commit bfc676baa848c7f1715bb73aee148180de15516e.
+- 5,100 sets, 19,550 records, 14,450 eligible later positions, 6,702 flags.
+- Among flagged rows: 2,589 had any prior revision response; 4,113 had none. 938 had any prior extracted-label change; 5,764 had none. Actual first-positive trigger index is absent, so the revised-prior trigger bound is 0-2,589 and the changed-label trigger bound is 0-938.
+- Source map: paper algorithm uses answer history; implementation stores final answer and raw response but NLI checks prior raw/current raw, while repair uses prior final answer and omits current raw. This is a representation gap, not proof of an erroneous outcome.
+- Added negated/uncertain substring parser examples and aggregate arithmetic to existing PR #850 module OrsonCGDProjectionGate. Corrected head 0c4264c0d4cc2e92a28ddd0f8badd858f866193c. Actions #43726963604 SUCCESS on merge reference; no exact-head standalone build. No sorryAx/admit in corrected log. Tests, lint, nanoda, leanchecker and global axiom audit skipped.
+- Initial namespace-placement build failure was corrected; both the failed and corrected runs remain in history.
+- P1 issue #564 remains OVERDUE / NOT READY. No paper gate advanced, manuscript edited, model trial, human session, API spend or protocol amendment.
+- Publisher issue #1794 was rejected because this run supplied extra artifact_filename/artifact_sha256 keys. Live script/intake schema requires exactly schema, submission_id, content, sha256. No canonical artifact exists; no retry or duplicate.
+- P1 task-graph pointer remains stale; Tern owns graph reconciliation. No graph edit.
+- P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. All four Mersearch lanes remain occupied; no callable Mersearch action exposed.
+- FIE next review November 24. Unrelated reading: The Book of Tea, eBook 769, lines 1651-1690; next 1691. Babbage cursor conflict remains unresolved.
+- Next ring identity Sable h855:s0. No direct-thread delivery or independent-review claim.
+
 ## Current checkpoint | h843:s2 P1 measurement-profile and source-QC | 2026-11-15T0324Z
 
 - Report: [h843:s2 P1 measurement-profile and source-QC](2026-11-15T0324Z_H843_S2_P1_MEASUREMENT_PROFILE_AND_SOURCE_QC.md), blob `43eb57317f941c5282b9fad6a4f68e7aadad42b2`.
