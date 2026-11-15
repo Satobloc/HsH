@@ -691,3 +691,164 @@ theorem github_pages_workflow_cannot_authorize_chatgpt_sites_route
 #print axioms github_pages_workflow_cannot_authorize_chatgpt_sites_route
 
 end HsHVerification.CodeGrurpleWorkflowScope
+
+
+/-!
+## Presentation observation and acceptance layer
+
+The workflow-scope layer above establishes only that a route probe is authorized.
+It does not establish that a probe occurred, what the browser actually returned,
+or whether the rendered paper passed the reader acceptance checklist.
+
+This layer keeps those three claims separate. An absent observation is pending,
+a supplied but stale/unbound observation is not evidence for the current route,
+and an identity-bound observation can pass only when the route resolved and
+every declared reader check passed. The Boolean binding fields are external
+attestations; Lean does not inspect browser captures, recompute hashes, or
+verify the truth of those attestations.
+-/
+
+namespace HsHVerification.CodeGrurplePresentationOutcome
+
+open HsHVerification.CodeGrurpleObservationGate
+open HsHVerification.CodeGrurpleWorkflowScope
+
+/-- Reader-facing checks are outcomes, not authorization flags. -/
+structure ReaderAcceptanceChecks where
+  documentTypography : Bool
+  mathematicsRendered : Bool
+  citationsAndLinksUsable : Bool
+  responsiveLayout : Bool
+  sandboxAndProvenanceVisible : Bool
+  rawSourceAbsent : Bool
+deriving DecidableEq, Repr
+
+def readerAcceptanceChecksPass (c : ReaderAcceptanceChecks) : Bool :=
+  c.documentTypography &&
+  c.mathematicsRendered &&
+  c.citationsAndLinksUsable &&
+  c.responsiveLayout &&
+  c.sandboxAndProvenanceVisible &&
+  c.rawSourceAbsent
+
+/-- A route observation is bound to the exact run, route, deployment,
+    source and derivative being accepted. The timestamp, browser-context
+    digest, capture digest and binding flags are external evidence inputs. -/
+structure RouteObservationWitness where
+  workflowRunId : String
+  routeId : RouteId
+  deploymentId : DeploymentId
+  sourceBlob : GitBlobSha1
+  derivativeDigest : Sha256Digest
+  observedAtUnix : Nat
+  browserContextDigest : Sha256Digest
+  captureDigest : Sha256Digest
+  sourceBindingVerified : Bool
+  derivativeBindingVerified : Bool
+  routeBindingVerified : Bool
+  captureBindingVerified : Bool
+  routeResolved : Bool
+  checks : ReaderAcceptanceChecks
+deriving DecidableEq, Repr
+
+def routeObservationCurrent (s : State) (e : WorkflowTriggerEvidence)
+    (w : RouteObservationWitness) : Bool :=
+  match s.source, s.derivative, s.deployment, s.route with
+  | some source, some derivative, some deployment, some route =>
+      routeProbeAuthorizedWithWorkflow s e &&
+      decide (w.workflowRunId = e.workflowRunId) &&
+      decide (w.routeId = route.id) &&
+      decide (w.deploymentId = deployment.id) &&
+      decide (w.sourceBlob = source.id) &&
+      decide (w.derivativeDigest = derivative.id) &&
+      decide (w.observedAtUnix > 0) &&
+      sha256Shape w.browserContextDigest &&
+      sha256Shape w.captureDigest &&
+      w.sourceBindingVerified &&
+      w.derivativeBindingVerified &&
+      w.routeBindingVerified &&
+      w.captureBindingVerified
+  | _, _, _, _ => false
+
+inductive PresentationStatus where
+  | notObserved
+  | unbound
+  | observedFail
+  | observedPass
+deriving DecidableEq, Repr
+
+/-- No observation exists => pending. A present but mismatched witness is
+    unbound, not a route failure. A current observation fails if the route
+    did not resolve or any reader check failed. -/
+def presentationStatus (s : State) (e : WorkflowTriggerEvidence)
+    (observation : Option RouteObservationWitness) : PresentationStatus :=
+  match observation with
+  | none => .notObserved
+  | some w =>
+      match routeObservationCurrent s e w,
+            (w.routeResolved && readerAcceptanceChecksPass w.checks) with
+      | true, true => .observedPass
+      | true, false => .observedFail
+      | false, _ => .unbound
+
+def presentationAccepted (s : State) (e : WorkflowTriggerEvidence)
+    (observation : Option RouteObservationWitness) : Bool :=
+  decide (presentationStatus s e observation = .observedPass)
+
+theorem no_observation_remains_not_observed (s : State) (e : WorkflowTriggerEvidence) :
+    presentationStatus s e none = .notObserved := by
+  rfl
+
+theorem no_observation_is_not_accepted (s : State) (e : WorkflowTriggerEvidence) :
+    presentationAccepted s e none = false := by
+  simp [presentationAccepted, presentationStatus]
+
+/-- Even a fully authorized probe cannot be reported as an observed pass
+    until an actual, identity-bound observation witness is supplied. -/
+theorem authorized_probe_does_not_imply_acceptance
+    (s : State) (e : WorkflowTriggerEvidence)
+    (h : routeProbeAuthorizedWithWorkflow s e = true) :
+    presentationAccepted s e none = false := by
+  exact no_observation_is_not_accepted s e
+
+theorem unbound_observation_is_not_accepted
+    (s : State) (e : WorkflowTriggerEvidence) (w : RouteObservationWitness)
+    (h : routeObservationCurrent s e w = false) :
+    presentationAccepted s e (some w) = false := by
+  simp [presentationAccepted, presentationStatus, h]
+
+theorem unresolved_route_is_not_accepted
+    (s : State) (e : WorkflowTriggerEvidence) (w : RouteObservationWitness)
+    (h : w.routeResolved = false) :
+    presentationAccepted s e (some w) = false := by
+  cases hc : routeObservationCurrent s e w <;>
+    simp [presentationAccepted, presentationStatus, hc, h]
+
+theorem failed_reader_check_is_not_accepted
+    (s : State) (e : WorkflowTriggerEvidence) (w : RouteObservationWitness)
+    (h : readerAcceptanceChecksPass w.checks = false) :
+    presentationAccepted s e (some w) = false := by
+  cases hc : routeObservationCurrent s e w <;>
+    simp [presentationAccepted, presentationStatus, hc, h]
+
+theorem acceptance_requires_current_observation
+    (s : State) (e : WorkflowTriggerEvidence) (w : RouteObservationWitness)
+    (h : presentationAccepted s e (some w) = true) :
+    routeObservationCurrent s e w = true := by
+  cases hc : routeObservationCurrent s e w with
+  | false =>
+      have hFalse : False := by
+        simpa [presentationAccepted, presentationStatus, hc] using h
+      exact False.elim hFalse
+  | true =>
+      rfl
+
+#print axioms no_observation_remains_not_observed
+#print axioms no_observation_is_not_accepted
+#print axioms authorized_probe_does_not_imply_acceptance
+#print axioms unbound_observation_is_not_accepted
+#print axioms unresolved_route_is_not_accepted
+#print axioms failed_reader_check_is_not_accepted
+#print axioms acceptance_requires_current_observation
+
+end HsHVerification.CodeGrurplePresentationOutcome
