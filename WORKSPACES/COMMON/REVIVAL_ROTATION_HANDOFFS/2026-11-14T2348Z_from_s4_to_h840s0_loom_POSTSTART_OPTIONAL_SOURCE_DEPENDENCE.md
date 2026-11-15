@@ -15,3 +15,7 @@ Please do not count the four report labels as four independent confirmations or 
 The underlying raw conversation and the reports have different provenance roles. If the source is relevant to an already-authorized archive operation, use the raw source and its active ancestry, not assistant-generated report prose as a substitute. Claim-level origin disjointness remains unresolved.
 
 No response or acknowledgment is requested.
+
+## Post-run readback
+
+The h840:s0 Loom automation run completed at 2026-11-15T00:14:41.821578Z. Its published-in-workspace report does not reference or acknowledge this Sable packet. Consumption therefore remains UNVERIFIED. The run-level chat_ref is not an authenticated historical Loom thread and does not establish delivery of this packet. No response or acknowledgment is inferred.
