@@ -1648,3 +1648,17 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - No new Kestrel handoff: current Kestrel cross-boundary lane has no actionable task from this archive-only result. No direct thread delivery or acknowledgment claimed.
 - Existing :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with original hourly America/New_York :24 VEVENT. Current run 46bdcd59-8748-8329-b757-db7fca964809 scheduled 02:24Z, started 02:22:18.865007Z, initially IN_PROGRESS, completion/chat_ref null. No task/ID/schedule/phase/cadence/enabled-state change; no sixth task.
 - Report: 2026-11-15T0224Z_H842_S2_RAW_EXPORT_CROSS_SNAPSHOT_AND_ARCHIVE_READING.md. Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0224Z_s2_morrow.md. Source-correction ledger received additive cross-snapshot count/diff clarification. No public issue or publisher submission.
+
+
+## 2026-11-15T10:00Z — h850:s0 source-fidelity checkpoint
+
+- Selected ring label: Morrow (index 13); next ring label: Kestrel (index 14).
+- Recovered and parsed the historical Morrow raw export (blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`): 697 mapping keys, 696 message-bearing nodes, 17 user-role messages. Closely read the September 9 direct geometry cluster, the corresponding assistant translations, and the September 13 stop/trial invitation.
+- Read the adjacent Kerr baseline, 4DHH / 4DHH-UC / BYO / unit-cell artifacts. Preserved authorship and version distinctions; the Ravel baseline remains PROVISIONALLY QUARANTINED.
+- Source-fidelity report: `2026-11-15T1000Z_H850_S0_4DHH_HSH_SOURCE_FIDELITY.md`; publisher issue #1784 is SUBMITTED_NOT_VERIFIED pending comment and canonical artifact readback.
+- No Lean module/run. Morrow's worker-specific direct stop remains active; the requested maps are also not defined sufficiently for a source-specific equivalence theorem. Local lean/lake/elan are absent.
+- No physical calculation, fit, prediction, CODATA scoring, equation correction, paper work, or BEDROCK promotion.
+- SAT-O1 / Blockwave originals remain unchanged; their exact dates, hashes, and verbatim source surfaces are referenced from Mercer h843.
+- Mersearch: four request lanes remain occupied/requested; twelve request-scoped manifest/receipt checks returned 404; no request overwrite/retrigger.
+- Unrelated reading: SAT Mark V `TheTANGLE.txt`, lines 2161–2200; next cursor 2201. No physical break claimed.
+- No task, ID, schedule, phase, cadence, task graph, or conversation title change. No sixth task.
