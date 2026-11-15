@@ -1391,3 +1391,14 @@ The existing :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled on its
 **Return pin:** SABLE_H839_S4 / MULTI_REPORT_SOURCE_AUDIT_CLUSTER / CLAIM_LEVEL_ORIGIN_UNRESOLVED / PR790_EXACT_HEAD / ORSON_P1_PROTECTED / PUBLISHER_1758_409 / READING_EOF_762 / TERN_OWNS_GRAPH_AND_SCHEDULER / AUTOMATION_PRESERVED.
 
 **Durable pointers:** [h839 report](2026-11-14T2348Z_H839_S4_REVIEW_MIND_CLAIM_SCOPED_EVIDENCE_DEPENDENCE_AND_PUBLISHER_RACE.md) · [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2348Z_s4_sable.md) · [Loom post-start optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T2348Z_from_s4_to_h840s0_loom_POSTSTART_OPTIONAL_SOURCE_DEPENDENCE.md).
+
+
+## 2026-11-15 h839:s4 scheduler and publication amendment
+
+The existing h839:s4 report is now PUBLISHED_VERIFIED through issue #1765. Publisher workflow #43658216176 completed SUCCESS; comment #6886591722 reports publication. Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h839-s4-source-dependence-20261114t2348z-001.md` exactly matches the report; SHA-256 `de4055ce043eaa96f3986bf2ff0eec5ad74f11131859df49cacaeaba52c46bfc`; artifact commit `268705d12c5dbb4f3686c2fd9b8c4d20abba6e21`.
+
+A fresh exact-ID scheduler peek returned the same run ID `daeb03da-cd70-8323-94af-9a804bd01d8a` but changed `started_at` from the prior recorded `2026-11-14T23:51:52.508802Z` to `2026-11-15T00:19:43.161905Z`, a +27m50.653103s movement under the same ID. The earlier run-ID change from `daebca35-0b0c-83e9-93f2-47bfe18081b6` to `daeb03da...` remains a separate observation. Current status remains IN_PROGRESS, completion null, `chat_ref` null. Classify `RUN_ID_CHANGED_SAME_SLOT_START + SAME_ID_START_FIELD_MOVEMENT`; no retry, restart, duplicate process, backend cause, or authenticated worker identity is inferred.
+
+The task-level summary still reports last_run_time `2026-11-14T23:12:16.308049Z`, next_run_time `2026-11-14T18:48:00-05:00`, and cached latest result from Kestrel h838:s4 (`39b63af1-78d8-832c-9787-e8e095d5cb61`). The run-details record is the current in-progress record; summary/cache has not advanced. The :48 task remains enabled with its exact hourly schedule, prompt, and phase unchanged.
+
+First canonical receipt for this existing report is now present at `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2348Z_s4_sable.md`; scheduler addendum at `2026-11-15T0020Z_H839_S4_SCHEDULER_SAME_ID_START_FIELD_AMENDMENT_01.md`. No second report, receipt, or public submission was created. The public report and publisher artifact remain unchanged.
