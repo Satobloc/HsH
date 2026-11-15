@@ -1,0 +1,56 @@
+{
+  "builtin_self_test": {
+    "actor_overlays_differ": true,
+    "directive_preempts": true,
+    "failed_candidate_prunes": true,
+    "lease_has_receipt_gate": true,
+    "nested_depth_present": true,
+    "passed_candidate_papers": true,
+    "war_room_first": true
+  },
+  "classification": "SOURCE_EXACT_POC_REPLAY_PLUS_SYNTHETIC_COMPOSITION_PROBE",
+  "composition_checks": {
+    "aligned_scope_accepts": true,
+    "attempt_mismatch_rejects": true,
+    "complete_disjoint_exposure_is_auditable": true,
+    "delivery_thread_mismatch_rejects": true,
+    "delivery_without_ack_stays_unacknowledged": true,
+    "different_labels_do_not_authenticate_subjects": true,
+    "distinct_subjects_with_overlap_not_independent": true,
+    "freeze_mismatch_rejects": true,
+    "publisher_event_mismatch_rejects": true,
+    "publisher_readback_mismatch_rejects": true,
+    "seed_mismatch_rejects": true,
+    "thread_mismatch_rejects": true
+  },
+  "limitations": [
+    "Source checks execute the exact pinned POC, but only deterministic software fixtures.",
+    "Composition checks exercise a proposed join contract with synthetic identifiers; they do not execute the POC.",
+    "No production workflow, scheduler, human/LLM subject, or physical system was exercised.",
+    "No POC/PR/adapter/production code was changed; this is not a Lean proof."
+  ],
+  "passed": 23,
+  "python": "3.13.5",
+  "source": {
+    "bytes": 18924,
+    "commit": "186b2088f0a883a763cf4f6491d1b7900c2c22fd",
+    "git_blob_sha1": "49988a769389b2baf264a27d596ba7c3ff822b36",
+    "path": "tools/workflow_switchboard_demo.py",
+    "repo": "Satobloc/HSH_RESOURCES",
+    "sha256": "876393e188134f059a1e3f4f6daecd7465495e7124e7b6c1d9d44b7063dcdf2a"
+  },
+  "source_checks": {
+    "builtin_self_test_all_seven_pass": true,
+    "candidate_state_has_no_freeze_binding": true,
+    "cross_freeze_checks_can_reach_checked_pass": true,
+    "elias_missing_from_actor_registry": true,
+    "elias_wake_fails_closed_with_keyerror": true,
+    "fresh_directive_preempts_task": true,
+    "negative_helper_branch_is_checked_fail": true,
+    "negative_helper_branch_prunes": true,
+    "positive_helper_branch_is_checked_pass": true,
+    "restore_depends_on_durable_receipt_job": true,
+    "war_room_is_first_source_route": true
+  },
+  "total": 23
+}
