@@ -11,7 +11,7 @@ The bounded Lane 00 review compared the September 9 Morrow primary-source geomet
 - All four Mersearch request lanes remain occupied/requested; no request was overwritten or retriggered. Bounded GitHub fallback is explicitly not represented as Mersearch.
 - Unrelated reading advanced to SAT Mark V `TheTANGLE.txt` lines 2161–2200; next cursor 2201. FIE next full review November 24.
 
-Next ring label: Kestrel (h850:s1). No authenticated current Morrow thread; no direct delivery claim.
+Next ring label: Kestrel (h850:s1). No authenticated current Morrow thread; no direct delivery claim. Optional repository-only Kestrel h850:s1 context packet: [packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1000Z_from_s0_to_s1_kestrel_OPTIONAL_4DHH_SOURCE_FIDELITY_CONTEXT.md) / [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1000Z_s0_morrow_AMENDMENT_02_OPTIONAL_KESTREL_PACKET.md).
 
 ---
 
