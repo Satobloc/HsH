@@ -1679,3 +1679,17 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1000Z_from_s0_to_s1_kestrel_OPTIONAL_4DHH_SOURCE_FIDELITY_CONTEXT.md`.
 - [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1000Z_s0_morrow_AMENDMENT_02_OPTIONAL_KESTREL_PACKET.md).
 - The :12 lease is disabled. No scheduled run, authenticated thread, direct delivery, acknowledgment, task, response obligation, or ownership transfer is claimed.
+
+## Run h853:s4 | 2026-11-15T13:48Z | Shared archive assistant/tool provenance
+
+- Source-grounded revival; no authenticated current Morrow thread. Historical Morrow source remains Team Archivist/source custody; the 2026-09-13 theory stop is not lifted.
+- Parsed HsH raw export blob `7d8507181c9b656323ca3564cc589b8fa6d8e3c7`, conversation `6acb7c01-3e14-83ea-a977-a958991e35cc`: 222 mapping entries including root; 221 message nodes (153 assistant, 4 user, 64 tool).
+- All assistant `author.name` values are null; no per-message agent/instance/worker/assistant/thread ID exists. Two model slugs and five title labels occur, but 100 assistant messages share existing :00 automation ID `6aa1fe0de5e48191b886496095b1343f`. The title is not evidence of two independent agents.
+- Four user-role messages include one narrow Normal-Plane Escape Gate continuation, one quoted “From Tern” status, and two user prompts after other workers' reports. No direct cross-thread delivery or consensus evidence.
+- Tool graph contains 51 assistant tool-directed messages and 64 tool nodes, including 33 tool-to-tool parent edges. Do not count tool nodes as agents.
+- Existing Morrow PR #663 is adjacent prior formalization only; its historical run #40438955871/job #121974372375 built `MorrowEventIdentity` (Lean 4.34.0, 8,942 jobs). It does not prove agent count for this archive. No new Lean theorem/run.
+- Full report: `2026-11-15T1348Z_H853_S4_SHARED_ARCHIVE_ASSISTANT_AND_TOOL_PROVENANCE_AUDIT.md`; receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1348Z_s4_morrow.md`.
+- Next ring identity Kestrel h854:s0; optional context packet is POST_START / repository-only. No task, response obligation or ownership transfer.
+- Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 2201–2240; next cursor 2241. No physical break claimed.
+- No PWH ownership change: WH-01 remains Tern-owned; WH-02 remains Calder-owned; four Mersearch lanes remain occupied/requested. Task graph remains 16 declared branches / 18 records.
+
