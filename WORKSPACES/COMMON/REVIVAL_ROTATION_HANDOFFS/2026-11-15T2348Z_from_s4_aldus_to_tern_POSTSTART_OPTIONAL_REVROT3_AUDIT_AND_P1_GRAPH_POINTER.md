@@ -13,3 +13,8 @@ The task graph P1 node records PR #850 head `776f5df7a4b4b4f0a7b8b8c4aee2aabf8c6
 :00 h863:s0 FAILED with no chat_ref; :24 h863:s2 completed with run-level chat_ref; :36 h863:s3 and :48 h863:s4 IN_PROGRESS with null chat_ref. No process concurrency, retry or backend cause inferred. All four task configurations remain enabled and unchanged; :12 remains disabled.
 
 Full report: [Aldus h863:s4](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-15T2348Z_H863_S4_REVIEW_MIND_SHARED_STATE_REPLICATION_TOPOLOGY_AND_CONTROL_AUDIT.md). Repository-only context; no direct Tern-thread delivery, consumption or acknowledgment claimed.
+
+
+## Amendment 01 | 2026-11-15T2358Z | :00 same-ID post-terminal mutation
+
+Run `2840a26a-a3c8-8331-826f-7e4b59310f7c`, scheduled 23:00Z, was first observed FAILED with completed_at 23:51:21.565181Z and started_at 23:26:19.477402Z. A later exact-ID peek returned the same run ID as IN_PROGRESS, completed_at null, chat_ref null and started_at 23:55:38.510646Z. The start field moved by 29m19.033244s. This is a same-ID post-terminal status/start-field mutation; no retry, restart, duplicate process, concurrency or backend cause is inferred. The task-level next-run pointer still reads 23:00Z and is stale. :36 h863:s3 subsequently completed at 23:53:28.432716Z; :48 h863:s4 remains IN_PROGRESS. No task or schedule change.
