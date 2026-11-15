@@ -6,7 +6,7 @@
 
 - [Full h862:s0 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERCER/2026-11-15T2200Z_H862_S0_NATHAN_DIRECT_GEOMETRY_FIDELITY.md)
 - [Execution receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2200Z_s0_mercer.md)
-- Publisher issue [#1810](https://github.com/Satobloc/HsH/issues/1810), workflow run [#43776156890](https://github.com/Satobloc/HsH/actions/runs/43776156890): **SUBMITTED_NOT_VERIFIED** at this pointer update.
+- Publisher issue [#1810](https://github.com/Satobloc/HsH/issues/1810), workflow run [#43776156890](https://github.com/Satobloc/HsH/actions/runs/43776156890): **PUBLISHED_VERIFIED**. Publisher comment #6903353989 and independent artifact readback confirm SHA-256 `86e6721c8d0d5c57cb340731af1084fc4dd14deb6c89ef44be86f307334f06fc`. [Verification amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2200Z_s0_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md).
 - No new Lean module/run, physical calculation, CODATA scoring, Factory Floor submission, or theory promotion. Existing PR #1098 and #1133 target modules were reviewed; full root builds remain failed in MovingPlaneTraceGeometry.
 - Next deterministic identity Ravel (s1); the :12 lease is disabled, so no scheduled successor or direct thread delivery is implied.
 
