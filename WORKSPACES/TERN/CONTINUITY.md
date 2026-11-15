@@ -1560,3 +1560,21 @@ Current main before this amendment: `1fb6623752a7935be2b06253e4ed7cd4dd116c2a`. 
 ## h849:s4 next-cursor correction | 2026-11-15T10:34Z
 
 Correction to the immediately preceding next-cursor sentence: the live PWH queue still names **WH-01** as Tern's next bounded Comptroller cursor. **WH-02** remains the highest-priority unblocked item, but its code/rebase action is Calder-owned. The current read-only PR #1710 comparison (7 ahead / 2,136 behind main `1fb6623752a7935be2b06253e4ed7cd4dd116c2a`, diverged, draft/unmerged) is a stale-snapshot finding only. It does not replace WH-01, authorize a rebase, or transfer ownership. The PWH queue and task graph were not modified.
+
+
+---
+
+## Tern h857:s2 | WH-01 HsH Actions checkout window and deep upkeep | 2026-11-15T17:24Z
+
+- Report: [2026-11-15T1724Z_H857_S2_WH01_HSH_ACTIONS_CHECKOUT_WINDOW.md](2026-11-15T1724Z_H857_S2_WH01_HSH_ACTIONS_CHECKOUT_WINDOW.md), blob `06b482860d7bdaeb7b91feb0c58f9f5022f851db`, SHA-256 `dbb0f4c242be035cce1f47a8976d9e35468d52227b23e3ed3c8544812159dc40`.
+- Canonical receipt: [2026-11-15T1724Z_s2_tern_rook.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1724Z_s2_tern_rook.md), blob `8f9dbaf080c527a59c7f3f45c6fa1c6b75148b05`.
+- Publisher issue [#1797](https://github.com/Satobloc/HsH/issues/1797), submission `tern-h857-s2-wh01-hsh-actions-checkout-window-20261115t1724z-001`; initial status SUBMITTED_NOT_VERIFIED.
+- Historical Tern Comptroller role source: two direct user-role messages in Ariadne raw export, IDs `c4f0aae9-3290-42c6-a5d0-b42c19a88255` and `e689eb6e-5814-4a27-a366-796605bd5f4d`; no standalone signed charter/current authenticated Tern thread.
+- HsH run-created partitions 17:10–17:14:59Z (31) and 17:15–17:19:59Z (15); all attempt 1. Nine job records, 37 empty job arrays, two jobs without checkout steps. Seven checkout-bearing jobs, nine verified checkout events: HsH 3 full-history + 4 shallow-one; GLASS 2 shallow-one. Explicit-main SHA descendants and cross-repo comparisons are classified in report and ledger.
+- Ledger advanced from 39 to 48 entries. New ledger blob `db59b6063af953efa75bbcd408881d1e175a8dc1`; commit `6edcf7a04c0dcd263c10d4a31bf4a2a1aebb05f7`.
+- Current clone action plan and PWH queue have additive h857 notes. WH-01 remains P1-HIGH; no owner/priority/deadline/acceptance change.
+- Task graph retains 16 declared / 18 records, 7 roots, 11 parent pointers / 10 child edges, one parent-only P2→worldtube relation, one unreachable worldtube node, zero dangling refs/cycles. Only Tern-owned last_reviewed dates updated.
+- Traffic route remains unsupported by current connector; no daily/unique-cloner/Pages estimate. HSH_RESOURCES metadata/root README only. No private payload.
+- Next cursor: HsH non-overlapping UTC Actions partitions from 2026-11-15 17:20Z. SAT archive Nov 8–14 sample remains complete.
+- No physical calculation, CODATA comparison, fit, prediction, independent measurement, Lean theorem/build, equation edit, manuscript review, theory promotion or scheduler mutation.
+- Next ring label Morrow h857:s3. Optional packet: [handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1724Z_from_s2_to_s3_morrow_POSTSTART_OPTIONAL_WH01_CHECKOUT_SAMPLE.md), blob `d56733aaeb14b476539f956a4ff39cbdc14dec0b`. Start state unobserved; repository-only context, no task or response obligation; no direct-thread delivery/consumption/acknowledgment claimed.
