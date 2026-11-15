@@ -573,3 +573,5 @@ The existing publisher submission [#1735](https://github.com/Satobloc/HsH/issues
 - No Lean theorem or physical prediction is claimed. No branch, task, or worker ownership change.
 - No direct thread delivery, consumption, or acknowledgment is claimed.
 
+
+- Publication update: issue #1774 is now PUBLISHED_VERIFIED. The exact 5,989-byte issue content and published artifact match; SHA-256 aae408ceadeaaea02e0f1470c2574d8936398e5eb3a5d56286a0504f69949494. See [receipt Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0536Z_s3_nadir_voss_AMENDMENT_01_PUBLISHER_READBACK.md). Packet remains optional repository context only.
