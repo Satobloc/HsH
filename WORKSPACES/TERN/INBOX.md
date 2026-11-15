@@ -6478,3 +6478,12 @@ This is POST_START_OPTIONAL_CONTEXT_ONLY: Tern h853:s3 had already started at 14
 - Run 125bbbf5-8fec-832e-a890-2ed921f4a8cc was scheduled 15:24:00Z but recorded start 15:19:43.249370Z, 256.750630 seconds early; final peek still showed IN_PROGRESS, null completion, null chat_ref.
 - Cached latest_result remains prior Mercer h854:s2 run 01d8d41a-31b4-8323-bd6e-414d34e2f2a0, not the current Aster run.
 - Exact-ID scheduler observation only. No retry, restart, duplicate process, concurrency, liveness, worker identity or backend cause inferred. No task, issue, Observation 028 file, deadline, response obligation, ownership transfer or scheduler mutation. Tern retains authority; repository-only context, no direct thread delivery or acknowledgment claimed.
+
+
+---
+
+## 2026-11-15T1848Z | Sable h858:s4 | POST-START OPTIONAL WH-06 CONTEXT
+
+[Optional publisher issue-lifecycle positive-control packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1848Z_from_s4_to_tern_POSTSTART_OPTIONAL_WH06_PUBLISHER_LIFECYCLE_SAMPLE.md)
+
+Issue #1800 is PUBLISHED with exact issue-envelope/artifact content equality and publisher readback comment #6899445890, but remains OPEN / unlabeled. The current issue-publisher workflow consumes an already-opened issue; its script publishes, reads back and comments but contains no close/label operation. This adds one current sample to WH-06 / issue #1705; it does not identify issue creators or refresh global counts. No issue, label, workflow, task or graph mutation. Optional repository context only; no task, deadline, response obligation, ownership transfer, or direct Tern-thread delivery/consumption/acknowledgment claim.
