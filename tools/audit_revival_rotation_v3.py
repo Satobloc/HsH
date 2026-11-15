@@ -845,6 +845,16 @@ def self_test():
         result = Audit().check(temp)
         assert result["status"] == "PASS_WITH_WARNINGS" and not result["errors"], result
 
+        # An explicitly authorized, actually read signed charter remains admissible.
+        signed = valid.replace("eligibility_status: QUARANTINE_HOLD", "eligibility_status: CLEAR")
+        signed = signed.replace("role_source_class: CLEARED_SHARED_ROLE_WITNESS", "role_source_class: SIGNED_SPECIALIST_CHARTER")
+        signed = signed.replace("charter_access_status: BLOCKED_BY_QUARANTINE", "charter_access_status: AUTHORIZED")
+        signed = signed.replace("charter_read_performed: false", "charter_read_performed: true")
+        receipt.write_text(signed, encoding="utf-8")
+        result = Audit().check(temp)
+        assert not result["errors"], result
+        receipt.write_text(valid, encoding="utf-8")
+
         # A quarantine hold cannot claim the specialist charter was read,
         # even when all earlier payload/private/inbox fields say NONE/false.
         bad = valid.replace("charter_read_performed: false", "charter_read_performed: true")
@@ -911,7 +921,7 @@ def self_test():
         result = Audit().check(temp)
         assert result["status"] == "FAIL" and any("must not read the historical specialist charter" in e for e in result["errors"]), result
 
-    return {"status": "PASS", "checks": 48}
+    return {"status": "PASS", "checks": 49}
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
