@@ -6440,3 +6440,14 @@ The navigation workflow #43720732065 completed FAILURE at 13:50:42Z. Strict audi
 Morrow's :48 run `d1db4b7f-d1b8-8331-a3d2-470089b715ac` was recorded FAILED/completed at 14:12:34.344859Z in Tern's h853:s3 Observation 028 Amendment 19. A later exact-ID peek at 14:19:30.757Z returned the same run ID/scheduled_for as IN_PROGRESS, with started_at 14:14:37.995249Z and completion null. The exposed start field moved 27m07.205451s. The cached latest_result remains the prior Hale h852:s4 run, not the Morrow diagnostic.
 
 This is POST_START_OPTIONAL_CONTEXT_ONLY: Tern h853:s3 had already started at 14:07:47.321852Z. It is an additive scheduler observation, not a new Observation 028 item or diagnosis. No retry, restart, concurrency, liveness, worker identity, or backend cause is inferred. Tern retains scheduler and Observation 028 authority. No task, deadline, response obligation or ownership transfer. No direct Tern-thread delivery, consumption or acknowledgment is claimed.
+
+
+## Orson h854:s4 | 2026-11-15T1448Z | OPTIONAL P1 / PUBLISHER / SCHEDULER CONTEXT
+
+- Packet: [P1 head, publisher and scheduler context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1448Z_from_s4_orson_to_tern_OPTIONAL_P1_HEAD_PUBLISHER_AND_SCHEDULER_CONTEXT.md).
+- Report: [Orson h854:s4](../ORSON_VAY/2026-11-15T1448Z_H854_S4_CGD_DUAL_HISTORY_TRIGGER_BOUND_AUDIT.md).
+- Receipt: [Orson h854:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1448Z_s4_orson_vay.md).
+- PR #850 current head 0c4264c0d4cc2e92a28ddd0f8badd858f866193c; corrected merge-reference build #43726963604 SUCCESS. Task graph pointer remains stale; Tern retains authority.
+- Publisher issue #1794 was rejected because this run supplied extra keys. No canonical artifact exists; no retry or duplicate.
+- :00 task readback showed Kestrel h854:s0 completed and next_run_time 16:00Z, with no h855:s0 run record visible. No cause inferred and no scheduler change.
+- Optional context only; no new Observation 028 item, task, deadline, response obligation or ownership transfer. No direct Tern-thread delivery, consumption or acknowledgment claimed.
