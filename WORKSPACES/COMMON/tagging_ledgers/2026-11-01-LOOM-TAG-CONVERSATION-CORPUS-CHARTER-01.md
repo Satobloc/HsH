@@ -972,8 +972,8 @@ The strings `w=ct`, `cw=t`, `(++++)`, and provisional fourth-spatial `w` remain 
 
 - Source-bundle ID: `loom-h885-s3-p2-source-bundle-20261116`.
 - Machine-readable witness: `WORKSPACES/LOOM/2026-11-16_H885_S3_P2_SOURCE_GEOMETRY_VERSION_WITNESS.json`.
-- Final witness SHA-256: `241d7134fb49d22b86342c873c02ae6d97fa4343fbaf6df56fc014609d60142f`.
-- Final witness Git blob SHA-1: `22457c22156fb932f8b79843808c543e3e151257`.
+- Final witness SHA-256: `bfe682b624b9c8546116bd9de43602e72aca0624caf8031df9a03a9c560eb616`.
+- Final witness Git blob SHA-1: `624e45b49e942f15ea2ed85eb246fa2445ce1b55`.
 - Report: `WORKSPACES/LOOM/2026-11-16_H885_S3_P2_SOURCE_GEOMETRY_VERSION_WITNESS.md`.
 - Public issue: `#1857`; publisher comment `#6930774895`; artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-h885-s3-p2-source-bundle-witness-20261116-001.md`; publisher commit `26ae23b687cd16ae49eed93a18ab84e3c79f1b49`; report SHA-256 `a195df812412560f762175bda8798808b160d46a231a386f9acc9f43c8dbdfcb`; artifact/workspace Git blob SHA-1 `b71f3f89bad00c118c3e1f094127862e47e21b6b`; readback verified. Amendment 01 source-role comment `#6931025257` links the mixed-source clarification.
 - The witness instantiates Kestrel's proposed `SnapshotBoundMapEdge` for the current H1 source bundle. It is not an implemented schema or a source-defined map.
