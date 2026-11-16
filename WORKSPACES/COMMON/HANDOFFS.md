@@ -281,3 +281,5 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - Publisher issue: #1817; publication was pending at packet creation.
 - Content: 2026-10/29 and 2026-11/08 direct source expansion of worldtube/timesheet/Crullerverse geometry; unresolved gamma-to-worldtube thickening, worldtube/timesheet incidence and readout, w/t/Forest normalization, and Blockwave J-current support map.
 - Status: OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_DEADLINE / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No authenticated Morrow thread, direct delivery, consumption or acknowledgment is claimed. Preserve Morrow's Team Archivist/source-custody remit and direct theory stop.
+
+- Addendum 01: h865:s0 June supplement issue #1816; h865:s0 geometry report #1817; checksum/lineage correction file WORKSPACES/TERN/2026-11-16T0218Z_H865_S0_NATHAN_DIRECT_GEOMETRY_FIDELITY_AMENDMENT_01.md; issue comment #6905509223. No new issue.
