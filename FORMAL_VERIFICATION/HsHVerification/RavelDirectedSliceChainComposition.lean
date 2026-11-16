@@ -134,7 +134,7 @@ def compositeZeroSection
 really is a retraction of the constructed composite zero section. -/
 theorem compositeCarrierProjection_retracts
     (W : K.CompositeSectionWitness) (c : Carrier2) :
-    K.compositeCarrierProjection (W.compositeZeroSection c) = c := by
+    K.compositeCarrierProjection (K.compositeZeroSection W c) = c := by
   change R12.projectCarrier
     (K.carrierLift
       (R01.projectCarrier (R01.zeroSection (W.sectionLift c)))) = c
