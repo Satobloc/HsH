@@ -112,3 +112,32 @@ Otherwise the extra structure remains optional representation, proposal or unres
 - No task graph, BEDROCK, SAT-O or Blockwave equation, P2 ownership, automation, schedule, phase or cadence was changed.
 
 **Return pin:** `H864:S3 / NADIR-VOSS-RING-LABEL / ENHEDUANNA-NEXT / P2-TWO-AXIS-GATE / HAN-SVS-4DPTV-HIGHEST-GEOMETRY-LEAD-NOT-SELECTED / BUBBLE-4DLPT-SECOND / GW190425-PUBLIC-DATA-LEAD / ALL-D-AXES-BLOCKED-BY-MISSING-HSH-MAP / P2-HOLD / NO-PHYSICAL-CALCULATION / NO-HSH-PREDICTION / NO-NEW-LEAN-THEOREM / PR1189-PR1309-REUSED-NOT-MODIFIED / PUBLISHER-STATUS-RECORDED-IN-RECEIPT / NO-THEORY-PROMOTION`.
+
+
+
+
+## 10. Amendment 01 | ordered gate composition, source boundary and freeze identity
+
+This section applies existing public contracts to the six candidates above; it does not create another P2 issue or duplicate gate.
+
+The current P2 matrix now composes #1737 source-role typing, #1341 geometry-to-observation mapping, #1738 the ordered coordinate-to-instrument chain, #1301 map closure and joint-readout identifiability, #1261 calibration/holdout, and #1735 paired comparison freeze. The counterexample in #1727 shows why evidence from different candidate versions must not be combined into one PASS. Existing PR #951 remains open/draft/unmerged and does not yet bind all P2 witnesses to one common comparison-freeze identity.
+
+The ordered dependency is source/coordinate freeze -> H(s)H-to-laboratory map -> physical-sector map -> instrument map -> composite readout -> representation coherence -> identifiability/uncertainty -> paired comparison freeze -> held-out prediction and independent review. No downstream stage passes while an upstream map is missing.
+
+**P2 admission refinement:**
+
+\[
+P2_{\mathrm{ready}} = E_{\mathrm{pass}} \land D_{\mathrm{pass}} \land F_{\mathrm{pass}} \land R_{\mathrm{pass}}.
+\]
+
+Here E is the empirical package, D is the source-to-observable map and identifiability chain, F is paired comparison-freeze coherence, and R is held-out prediction plus independent review. All are non-compensatory.
+
+Each candidate comparison needs one content-addressed comparison_freeze_id binding exact source/equation versions, H0 comparator, H1 geometry/map, dataset manifest, calibration/covariance, shared parameters, calibration/holdout split, observable operator, analysis code and decision rule. Every witness must carry the same candidate and comparison-freeze IDs. H0 and H1 share the same data, calibration, covariance, nuisance/shared parameters, holdout and decision rule. Any change to a bound component creates a new freeze; old evidence remains historical but is not active for the new comparison.
+
+No candidate currently has a complete comparison-freeze ID. All six remain candidate-only and P2 HOLD.
+
+**Source-to-geometry constraint:** the directly re-fetched SAT-O1 source is SATOBLOC/SAT O1 4D.txt, blob 7577aa1ee5a6c3850ce3b226c75377de6367aedc. It declares a one-parameter filament gamma:R->R^(3,1) and separately calls the worldtube the 4D volume swept out by vibration, but gives no thickening map, fiber, profile, embedding, normal bundle or contact law. The verbatim curve/action family is preserved in the [Amendment 01 source record](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0036Z_s3_nadir_voss_AMENDMENT_01_P2_GATE_COMPOSITION_AND_LEAN_LOG_RECONCILIATION.md). Therefore thickness is not forced by this source alone; twist and contact surfaces remain unresolved until their maps and laws are source-defined and tied to an identifiable held-out observable. The SAT4D draft and Blockwave source identities/limits are recorded in that amendment; no equation was corrected or promoted.
+
+**Lean log correction:** exact-head Actions run #43783028748 / job #133024336601 checked out PR #1189 head 8a6a0c288b0091a19b604ab96f94fec05adcc40e. The log records NadirVortexTwoChannelReadout built at 8959/8961 and a successful 8961-job build, with dependency caches restored. This supersedes the earlier “cache-replay only” description. It remains a conditional algebraic readout result, not a physical acquisition or H(s)H map proof. Tests, lint, nanoda, leanchecker and global axiom audit were skipped; PR #1189 remains open/draft/unmerged.
+
+**No P2 system selection, physical calculation, fit, prediction, independent measurement, paper-gate advancement or BEDROCK promotion.** No new issue or PR was opened; the existing public gates remain canonical.
