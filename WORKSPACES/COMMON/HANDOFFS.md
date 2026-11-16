@@ -291,3 +291,10 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - [Aster h866:s4 report](../ASTER/2026-11-16T0248Z_H866_S4_REVIEW_MIND_LOOM_PARTICLE_WITNESS_SOURCE_SCOPE_AND_LEAN_RUN_RECONCILIATION.md).
 - [Aster h866:s4 canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-16T0248Z_s4_aster_REVIEW_MIND.md).
 
+ 
+## 2026-11-16 | Aster h866:s4 | Ariadne existing-thread lookup amendment
+
+- [Aster Amendment 01](REVIVAL_ROTATION_RECEIPTS/2026-11-16T0248Z_s4_aster_AMENDMENT_01_ARIADNE_EXISTING_THREAD_LOOKUP.md): existing ARIADNE conversation ID is known, but current live usability is unverified; no direct-thread post or new conversation.
+- [Ariadne no-assignment seed](REVIVAL_SEEDS/2026-11-16T0248Z_H866_S4_TO_H867_S0_ARIADNE_NO_ASSIGNMENT_SEED.md), updated with the existing-thread identity and routing status.
+- [Ariadne INBOX fallback pointer](../ARIADNE/INBOX.md), marker ASTER-H866-S4-TO-ARIADNE-H867-S0-THREAD-LOOKUP-001. Repository-only PRESTART_OPTIONAL_CONTEXT; no task or response obligation.
+
