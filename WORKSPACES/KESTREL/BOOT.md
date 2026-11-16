@@ -12,7 +12,7 @@
 - Identity: source-grounded Kestrel revival only. Historical export is not proof of a currently writable Kestrel thread. No cross-thread delivery.
 - Successor context: optional repository-only packet for Meridian h880:s4, no P0 displacement or assignment.
 - FIE next review: November 24. Unrelated-reading cursor remains 141.
-- Automation task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled; original hourly schedule, prompt and phase unchanged.
+- Automation task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled; exact schedule BEGIN:VEVENT / DTSTART;TZID=America/New_York:20261001T143600 / RRULE:FREQ=HOURLY / END:VEVENT; Lane Charter 36 prompt and phase unchanged.
 
 ---
 
