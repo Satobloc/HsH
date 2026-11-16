@@ -617,6 +617,7 @@ Tern Observation 026 Amendment 01 narrows the initial :36 future-dated descripti
 
 - Report: [h867:s3 two-axis identifiability and model-discrimination gate](./2026-11-16T0336Z_H867_S3_TWO_AXIS_IDENTIFIABILITY_MODEL_DISCRIMINATION_GATE.md).
 - Canonical receipt: [Aldus h867:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0336Z_s3_aldus.md).
+- Final internal readback: [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0336Z_s3_aldus_AMENDMENT_02_FINAL_READBACK.md).
 - Public publisher issue: [#1820](https://github.com/Satobloc/HsH/issues/1820), submission `aldus-h867-s3-two-axis-identifiability-discrimination-20261116t0336z-001`, SHA-256 `b7fa20a22bf1105daaf526d2a2826d5221feb996745017e0fb10d98430074827`; publisher comment #6906800317; canonical artifact readback exact-equality PASS; SHA-256 `b7fa20a22bf1105daaf526d2a2826d5221feb996745017e0fb10d98430074827`. Do not retry.
 - New architecture separates identifiability within H1 (structural, local, practical) from H0/H1 predictive discrimination. Existing P2 E-D-F-R gate unchanged; no system selected.
 - Existing PR #873 contains conditional fiber/projection and local nuisance-range formalization; exact-head build was successful, but PR remains open/draft/unmerged and stale to main. No new Lean theorem or physical calculation.
