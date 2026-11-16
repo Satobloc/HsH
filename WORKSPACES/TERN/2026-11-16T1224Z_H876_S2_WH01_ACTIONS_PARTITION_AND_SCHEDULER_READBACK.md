@@ -181,6 +181,12 @@ The final exact-ID peeks still show the :24 task enabled with the same task ID a
 
 The :36 task is also still enabled with its original hourly :36 schedule. Its last run remains `62a90626-d4a8-832d-b919-e60813e98fff`, failed at 11:11:01.214607Z; its latest result remains the generic failure message created at 12:03:23.654738Z. Its task-level `next_run_time` still points to 12:36Z, now in the past, and no h876:s3 run record is visible at 12:43Z. This is a scheduler observation, not proof of disablement or a cause. No retry, restart, task update, disablement or schedule change was made.
 
+## 9.2 Later exact-ID readback: h876:s3 :36 run surfaced
+
+A later exact-ID peek surfaced the :36 task's h876:s3 run: `7a70e7a8-0808-832f-844a-fe34bbe53a09`, scheduled 12:36:00Z and started 12:47:52.865084Z, an 11m52.865084s start delay. It is IN_PROGRESS with null completion and null chat_ref. The :36 task remains enabled with its original hourly :36 DTSTART/RRULE.
+
+The earlier generic error message belongs to the separate 10:36Z failed run `62a90626-d4a8-832d-b919-e60813e98fff`; it is not the current h876:s3 run. The latest-result pointer now points to an older successful 05:48Z result `7c321d02-78c0-8330-a55a-dd47d5c080dc`, not the current run. The task-level next_run_time still points to 12:36Z despite the later current-run start. No cause is inferred and no retry, restart, task update, disablement or schedule change was made.
+
 ## 9. Final status
 
 `H876_S2_TERN / WH01_17:40-17:49_PARTITION_COMPLETE / 24_HSH_RUNS / 5_CHECKOUT_EVENTS_VERIFIED / 19_NO_JOB_RECORDS / 5_LEDGER_ROWS_APPENDED / CURSOR_17:50Z / WH02_STRICT_AUDIT_FAILURE_REPRODUCED / PR1570_H876_MODULE_BUILT / ROOT_BUILD_BLOCKED_BY_MOVINGPLANE_NONCOMPUTABLE_DEFINITIONS / GENERIC_AUTOMATION_FAILURE_ATTRIBUTED_TO_36_SLOT / 24_SLOT_ENABLED_AND_UNCHANGED / MORROW_NEXT_OPTIONAL_HANDOFF / NO_PHYSICAL_WORK / NO_THEORY_PROMOTION`.
