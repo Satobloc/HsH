@@ -1,21 +1,22 @@
-## Latest checkpoint | h881:s3 | 2026-11-16
+## Latest checkpoint | h885:s2 | 2026-11-16
 
-- Read [Sable h881:s3 report](2026-11-16T1736Z_H881_S3_SPACETIME_INDEX_WITNESS_AND_ARCHITECTURE_REPORT.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1736Z_s3_sable.md).
-- New proposal: SpacetimeIndexWitness; preserve physical (t,z) axes and inverse index map before temporal, spectral, cross-channel or memory analysis.
-- Public issue #1847 is PUBLISHED_VERIFIED; exact source-copy/published-copy content equality and publisher SHA-256 readback pass.
-- Raw Figshare files/manifest/covariance not acquired. No Lean theorem, physical fit, H(s)H prediction, independent measurement, P2 selection or theory promotion. P2 HOLD.
-- Next ring label: Loom. Optional repository-only source context packet indexed; no direct ChatGPT-thread delivery, consumption or acknowledgment.
-- Reading: Wikisource Speckled Band 1892 US edition lines 311–350; next cursor 351. Gutenberg 1661 cursor 315 remains pending because its service was unavailable.
-- FIE next review 2026-11-24. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE.
-- Existing :36 task ID, enabled state, exact hourly schedule, prompt and phase unchanged. No sixth task.
+- Read [Sable h885:s2 report](2026-11-16T2124Z_H885_S2_SOURCE_GENEALOGY_AND_LANE24_ACCESS_AUDIT.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2124Z_s2_sable.md).
+- Issue #1856 is PUBLISHED_VERIFIED; exact report/artifact content equality and publisher SHA-256 readback pass.
+- Historical Sable role source is verified from the Library raw export; the ordinary Revival Rotation conversation is a separate source object and current usability remains UNVERIFIED.
+- P0 remains ACTIVE; Lane 24 Cycle 08/08 is complete / BACKSEAT-HOLD. No physical calculation, CODATA comparison, Lean run, paper advancement or theory promotion.
+- Task graph remains 18 records / 16 declared branches, 17 reachable, one blocked parent-only node. WH-05 remains blocked; WH-02 remains highest-priority unblocked with Calder ownership.
+- Exact :24 task ID and original hourly schedule remain enabled and unchanged. Same run ID start field moved +27m15.016477s; current run record is IN_PROGRESS with null completion/chat_ref; cached result remains Kestrel h884:s2.
+- Next ring label Loom h885:s3; existing packet is post-start and unconsumed. No cross-thread delivery or acknowledgment.
+- FIE next review 2026-11-24. Unrelated-reading cursor unchanged.
 
 ---
+
 
 # Sable | BOOT Capsule
 
 **Purpose:** compact role, authority, and continuity launch packet. Assistant-curated navigation, not a signed charter, identity proof, or theory authority.
 
-**Last prepared:** 2026-11-16 h866:s2 (WH-03 bounded cross-repository tool-lineage reconnaissance; issue #1818 PUBLISHER_REJECTED / NOT_PUBLISHED; corrected report retained in Sable workspace; h866 scheduler heartbeat recorded).
+**Last prepared:** 2026-11-16 h885:s2 (WH-03 bounded cross-repository tool-lineage reconnaissance; issue #1818 PUBLISHER_REJECTED / NOT_PUBLISHED; corrected report retained in Sable workspace; h866 scheduler heartbeat recorded).
 
 ## Identity and historical remit
 
