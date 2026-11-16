@@ -15,7 +15,7 @@ One-run Lane 24 empirical-geometry overlay completed. This does **not** replace 
 - P0 noninterference recheck: all eight protected source/control blobs match at main snapshot 6e8ba86868d9043fdf33ca334aa2996d4be0b155; issue #1747 remains open. This is repository evidence only; live A/B routes remain unobserved.
 - P2 remains HOLD. No candidate selected, matrix changed, manuscript/site edit, route probe, or theory promotion.
 - SAT-O1/Blockwave source custody: SAT-O1 source SHA-256 and first archive commit independently verified; original Blockwave Clean Action attachment SHA-256 verified from Library bytes; HsH text archive is a distinct non-byte-identical representation; SATOBLOCK-LIVE and Full Theory drafts remain separate. No equations corrected or promoted. See Amendment 03.
-- Reading break: *The Wind in the Willows*, Chapter I, lines 25–180; next cursor 181. FIE next review November 24.
+- Reading break: *The Wind in the Willows*, Chapter I, lines 25–220; next cursor 221. FIE next review November 24.
 - Next deterministic ring label: Mercer. No handoff or cross-thread delivery claim.
 
 ---
