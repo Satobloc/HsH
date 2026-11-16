@@ -70,3 +70,16 @@ Required fields:
 Recommended statuses: `SNAPSHOT_MEMBERSHIP_VERIFIED`, `SNAPSHOT_MEMBERSHIP_NOT_VERIFIED`, `SNAPSHOT_HISTORY_UNRESOLVED`, `COMMIT_SIGNATURE_UNSIGNED`, and `SOURCE_AUTHORSHIP_UNRESOLVED`.
 
 Applied witness: [h876:s3 Morrow repository snapshot witness](2026-11-16T1236Z_H876_S3_REPOSITORY_SNAPSHOT_WITNESS.json). It records two exports of conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36` at exact HsH main commit/tree, their distinct Git blobs and SHA-256 digests, and their node-level delta. The witness is source-custody evidence only; it does not lift the theory stop.
+
+## Layer 8 clarification — negative path membership vs content retrieval
+
+Path membership and content retrieval are separate observations:
+
+- `path_membership_status`: `PRESENT`, `ABSENT`, or `UNKNOWN`.
+- `content_retrieval_status`: `READ`, `EMPTY`, `ERROR`, or `NOT_ATTEMPTED`.
+
+Record `PATH_ABSENT` only when the exact commit/tree is pinned, a recursive tree enumeration is complete (`truncated=false`), and the exact path is not present. A failed or empty path-content fetch is not evidence of absence. If the exact tree contains the path but the content reader fails, record `PATH_PRESENT_CONTENT_UNREADABLE`. If the tree is unavailable or truncated, record `PATH_MEMBERSHIP_UNKNOWN`.
+
+An exact tree-membership witness can establish that a path exists even when a separate content-read operation fails. Conversely, a successful current-path read does not establish membership in an earlier snapshot unless it is fetched at that exact commit/ref.
+
+Applied correction: h876:s3 Amendment 03 confirms `WORKSPACES/MORROW/INBOX.md` and `WORKSPACES/MORROW/TRIAL_CHECKPOINT.md` were present in the pinned 2026-11-16T12:57Z tree; the earlier report's absence statement was incorrect. See `2026-11-16T1322Z_H876_S3_NEGATIVE_PATH_MEMBERSHIP_CORRECTION.md`.
