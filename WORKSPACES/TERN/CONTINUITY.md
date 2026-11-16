@@ -1662,3 +1662,14 @@ Exact-ID Automations peeks confirm the four existing relay slots remain enabled 
 - :12 remains disabled per existing rotation record. No fifth/sixth relay slot or task/ID/prompt/phase/cadence mutation.
 - Last peeks: :00 IN_PROGRESS, :24 COMPLETED, :36 COMPLETED, :48 IN_PROGRESS. :00 and :48 have null completion/chat_ref. Separate peeks are not an atomic snapshot; no liveness, process-concurrency, retry/restart or cause inference.
 - [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0100Z_s0_tern_rook_AMENDMENT_02_SCHEDULER_PRESERVATION.md).
+
+## h884:s0 Amendment 01 | issue #1817 SHA-256 readback correction | 2026-11-16T20:31Z
+
+The h884 report and receipt were already present at this run's readback. Their copied SHA-256 for issue #1817 was wrong; the public artifact itself is correct and unchanged.
+
+- Incorrect value in h884 report/receipt: `290884d3b77a57f2d901cc1c6ccaaef79b60a109dfcb45f39c9eab9e9f8ef7d9`.
+- Correct SHA-256: `290884280165398e85c6d160e3e53179738ce3bc2750e55e21699cebe0e806da`.
+- Issue #1817 body, canonical artifact, and workspace source are exact-content matches at 22,077 UTF-8 characters; both files have blob `fea67c9382c3b184b31152da8f63a1599a9532c5`. Publisher verification comment #6905471817 confirms the same hash and successful readback. Issue #1817 remains PUBLISHED_VERIFIED.
+- Full receipt amendment: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2031Z_s0_tern_rook_AMENDMENT_01_ISSUE1817_SHA256_CORRECTION.md`, blob `d19b172c8693fddd6eab074c22424e541922c68b`. Original h884 report/receipt are preserved; no new public issue, comment, artifact edit, or publisher reprocessing.
+- The existing optional Morrow h888:s0 repository handoff remains the only handoff; Morrow INBOX points to this amendment. No direct-thread delivery, consumption, acknowledgment, or ownership transfer.
+- Task ID `6aa1fe0de5e48191b886496095b1343f`, exact hourly schedule and :00 phase remain unchanged and enabled. No sixth task. No theory promotion or physical calculation.
