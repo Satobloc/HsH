@@ -909,3 +909,9 @@ The h884:s2 report and canonical receipt are linked above. This activation added
 - P0 #1747 remains open; P2 #565 remains open; Lane 24 remains held. No new Lean build, physical calculation, CODATA comparison, fit, prediction, independent measurement, or theory promotion.
 - No Mersearch request, branch, PR, code, schema, source equation, paper gate, or automation was changed. Next ring label Meridian; no handoff or cross-thread acknowledgment.
 
+### h884:s2 publication and source amendment
+
+- Publisher issue #1854 / submission kestrel-h884-s2-codata-cycle-measured-system-map-20261116t2024z-001 remains SUBMITTED_NOT_VERIFIED at the latest check; issue-triggered run #43952329926 is in progress. Expected artifact SHA-256: ffd443e244ddabbcd44581d38ed180ee8b3dce25b1376cc7a888f4be62de02d8. Verify this same issue before any retry.
+- Amendment 01 is stored at WORKSPACES/KESTREL/2026-11-16T2024Z_H884_S2_AMENDMENT_01_PRL_FULLTEXT_DATA_ACCESS.md (SHA-256 98326122e636ecd32592c03e741511d8c0f44a0511070d6a484a9a981a62d576). SciSpace full-text extraction reports the PRL data are not public and are available from authors on reasonable request; treat as secondary evidence pending direct APS PDF verification.
+- No new raw data, physical calculation, Lean run, or P2 selection.
+
