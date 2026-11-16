@@ -1,0 +1,143 @@
+{
+  "schema": "hsh-discovery-snapshot-witness-v0.1",
+  "witness_id": "mercer-h869-s3-discovery-snapshot-20261116t0536z",
+  "classification": "SOURCE_CONSISTENT_AT_PUBLICATION",
+  "observation_started_at_utc": "2026-11-16T05:39:53Z",
+  "repository": {
+    "full_name": "Satobloc/HsH",
+    "branch": "main",
+    "generated_commit_sha1": "171add23561a0cee2129b3e107ee3f94f20daf7b",
+    "generated_commit_created_at_utc": "2026-11-16T05:38:55Z",
+    "refresh_parent_commit_sha1": "99b788a19aeffbb74ddf5e8ba9c13c83299e6a20"
+  },
+  "snapshot": {
+    "path": "PUBLIC_SITE/generated/discovery.json",
+    "git_blob_sha1": "b121b059344bd970efdbcc81371e3d9fd6ca8824",
+    "updated_at_utc": "2026-11-16T05:38:49+00:00",
+    "schema_version": 1,
+    "hsh_source_commit_sha1": "99b788a19aeffbb74ddf5e8ba9c13c83299e6a20",
+    "sat_source_commit_sha1": "f6e3c914b3722cdd6b57b0a2f024446bb0247f97",
+    "hsh_source_status": "complete",
+    "sat_source_status": "complete",
+    "source_checked_at_utc": "2026-11-16T05:38:49+00:00"
+  },
+  "publication_relation": {
+    "embedded_hsh_source_equals_refresh_parent": true,
+    "refresh_parent_to_generated_commit_ahead_by": 1,
+    "refresh_parent_to_generated_commit_behind_by": 0,
+    "changed_paths": [
+      "PUBLIC_SITE/generated/discovery.json"
+    ],
+    "classification_rule": "SOURCE_CONSISTENT_AT_PUBLICATION when embedded HsH source commit equals refresh parent and indexed protected source blobs match the current source tree."
+  },
+  "counts": {
+    "documents": 15278,
+    "workspace_records": 8347,
+    "workspace_records_with_generic_reader_target": 8347,
+    "workspace_records_without_reader_target": 0,
+    "rolling_docket": 48,
+    "excerpt_errors": 6
+  },
+  "paper_records": {
+    "paper_a": {
+      "path": "WORKSPACES/PAPERS/CONVERGENT_GEOMETRIC_MOTIFS_2026-09-22/DRAFT_R1.tex",
+      "indexed_blob_sha1": "13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa",
+      "current_main_blob_sha1": "13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa",
+      "in_full_catalog": true,
+      "in_rolling_docket": false,
+      "default_reader_target_is_raw_workspace_path": true,
+      "excerpt_present": false,
+      "excerpt_length": 0
+    },
+    "paper_b": {
+      "path": "WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/DRAFT_R1.md",
+      "indexed_blob_sha1": "0a1dca42cafd9a02faceff4ec0851659a317b2bb",
+      "current_main_blob_sha1": "0a1dca42cafd9a02faceff4ec0851659a317b2bb",
+      "in_full_catalog": true,
+      "in_rolling_docket": false,
+      "default_reader_target_is_raw_workspace_path": true,
+      "excerpt_present": true,
+      "excerpt_length": 1400,
+      "excerpt_scope": "first 1400 cleaned characters; not full text",
+      "excerpt_text_included": false
+    }
+  },
+  "feed_metadata": {
+    "feed_blob_sha1": "e3552fdac0f187b066b59a9742563094efffe011",
+    "paper_a": {
+      "id": "convergent-motifs-r1",
+      "status": "sandbox_staged_accepted_r1",
+      "site_display": "sandbox_manuscript",
+      "website_url": "https://glass-sausage-factory.nathanmcknight.chatgpt.site/paper.html?id=convergent-motifs-r1",
+      "site_version": null,
+      "posted_date": null
+    },
+    "paper_b": {
+      "id": "boundary-weak-emission-r1",
+      "status": "sandbox_posted_reviewed_r1",
+      "site_display": "sandbox_manuscript",
+      "website_url": "https://glass-sausage-factory.nathanmcknight.chatgpt.site/paper.html?id=boundary-weak-emission-r1",
+      "site_version": 34,
+      "posted_date": "2026-09-23"
+    },
+    "interpretation_limit": "Feed URLs and site_version metadata are not current deployment or live-route observations."
+  },
+  "generated_papers_index": {
+    "path": "PUBLIC_SITE/generated/papers.json",
+    "blob_sha1": "7c26eb59cbcd2f0091c9c5c599546376f1d7d3d7",
+    "contains_paper_a": false,
+    "contains_paper_b": false,
+    "entries": [
+      "cruller-rubin"
+    ]
+  },
+  "protected_current_objects": {
+    "paper_a_source": "13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa",
+    "paper_b_source": "0a1dca42cafd9a02faceff4ec0851659a317b2bb",
+    "papers_feed": "e3552fdac0f187b066b59a9742563094efffe011",
+    "presentation_gate": "5f91020d0a71034ad6bed2de0a82ead1f1e48d98",
+    "reader_routing_registry": "277a94c553e2e17b61bb046a04781b4e44f2229f",
+    "presentation_contract": "b871249564a45278383e41eebd8aaa5d8c64aa3c",
+    "generated_papers_index": "7c26eb59cbcd2f0091c9c5c599546376f1d7d3d7",
+    "viewer_pages_workflow": "6f3e843b6a327db76b21e8b0b61a26c210b600ac"
+  },
+  "implementation_witness": {
+    "site_discovery_py_blob_sha1": "97ff9c6d00544251c05bd6bb6053907805438f3e",
+    "test_site_discovery_py_blob_sha1": "4d646dba614f50b912391c13cd516616700d2ac3",
+    "observed_rule": "eligible(path) does not exclude WORKSPACES/**; the current test suite explicitly expects WORKSPACES/MERCER/2026-10-11_note.md to be eligible.",
+    "source_layer_policy_mismatch": true,
+    "live_route_behavior_established": false
+  },
+  "route_observation": {
+    "paper_a": "NOT_OBSERVED",
+    "paper_b": "NOT_OBSERVED",
+    "live_route_probe_performed": false,
+    "no_raw_rendering_claim": true
+  },
+  "canonical_incident": {
+    "issue": 1747,
+    "url": "https://github.com/Satobloc/HsH/issues/1747",
+    "state": "open",
+    "role": "sole canonical P0 discovery-index/reader-policy incident",
+    "duplicate_issue_created": false
+  },
+  "formalization": {
+    "existing_pr": 1471,
+    "state": "open",
+    "draft": true,
+    "head_sha1": "b8f76827c7766b9838b734915b7eff863d1dc747",
+    "base_ref": "infra/lean4-verification-20261023",
+    "base_sha1": "c7dc2c483f50ae03fc7a7c530829170135e18d92",
+    "exact_snapshot_blob_and_timestamp_bound_in_current_model": false,
+    "new_lean_theorem_or_build": false,
+    "local_lean_lake_elan_available": false
+  },
+  "limitations": [
+    "The source-consistent snapshot classification does not cure the raw-reader-target policy mismatch.",
+    "A discovery record, raw reader target, feed URL, and generated papers index are different surfaces; none proves live rendering.",
+    "No live route probe or Sites editor/deployer operation was performed.",
+    "No manuscript-content review was performed. A short prefix of Paper B's 1400-character discovery excerpt was inadvertently surfaced in a tool response; it was not analyzed or quoted. Only excerpt presence, scope, and length are used here.",
+    "HSH_RESOURCES was not part of the public discovery snapshot; only its root README and repository metadata were inspected. No private research payload was opened.",
+    "No Mersearch execution was available; all four canonical request lanes remain requested and their expected request-scoped manifests/receipts were absent."
+  ]
+}
