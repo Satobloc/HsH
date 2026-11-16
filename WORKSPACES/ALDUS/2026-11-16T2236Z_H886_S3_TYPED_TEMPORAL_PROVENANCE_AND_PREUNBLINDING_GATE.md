@@ -82,7 +82,7 @@ The formal distinction is deliberate: public mention is not analyst access, and 
 
 ### Verification status
 
-<badge>LEAN_PENDING</badge>
+**LEAN_PENDING**
 
 The exact-head run for the final PR head is queued:
 
