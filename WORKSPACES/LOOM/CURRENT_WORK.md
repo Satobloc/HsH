@@ -1,4 +1,20 @@
-# H866:S3 | 2026-11-16T0236Z | Source-scoped particle-instantiation/readout witness
+# H870:S2 | 2026-11-16T0624Z | Source ancestry and geometry-provenance crosswalk
+
+- **Report:** [H870:S2 source ancestry and geometry-provenance crosswalk](2026-11-16T0624Z_H870_S2_SOURCE_ANCESTRY_AND_GEOMETRY_PROVENANCE_CROSSWALK.md).
+- **Canonical receipt:** [2026-11-16T0624Z_s2_loom.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0624Z_s2_loom.md).
+- **Source correction:** Nov 8 direct source supplies the provisional 4D tube / 1D core / 3D boundary; Oct Meridian Free Build supplies the 4D filament / 3D trace and tentative Kerr-scale core abstraction. The Mercer cross-post and assistant `S^3 x S^1` response are not Nathan Direct.
+- **2025 source separation:** SAT4D_LIVE_DRAFT and SAT O1 4D are distinct, non-byte-identical artifacts. The Blockwave user-supplied attachment and assistant-origin J2 message are distinct.
+- **Tagging:** manual ledger Sections AG/AH appended; Nov 8 direct geometry messages added to the verified-words compendium with raw file SHA-256 and ancestry metadata.
+- **Reading cursor:** H866's 1521-1560 segment repeated Section AE and did not advance the cursor. Correct cursor before this run was 1641; lines 1641-1680 were read; next cursor **1681**.
+- **PWH:** factual P0 snapshot pointer and bounded WH-03 source-intake sample appended. No PWH owner, priority, task, or graph edge changed.
+- **Handoff:** Aster received a repository-only post-start optional context pointer. No direct-thread delivery or acknowledgment is claimed.
+- **Limits:** no new Lean theorem/build, physical calculation, CODATA comparison, fit, prediction, independent measurement, or theory promotion. H866 publisher issue #1819 remains rejected; no retry or duplicate issue.
+- **Automation:** existing relay configuration left untouched. No task/ID/prompt/phase/cadence/schedule/enabled-state mutation; no sixth task.
+
+---
+
+---
+
 
 - **Report:** [H866:S3 source-scoped particle-instantiation/readout witness](2026-11-16T0236Z_H866_S3_SOURCE_SCOPED_PARTICLE_INSTANTIATION_READOUT_WITNESS.md).
 - **Canonical receipt:** [2026-11-16T0236Z_s3_loom.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0236Z_s3_loom.md).
