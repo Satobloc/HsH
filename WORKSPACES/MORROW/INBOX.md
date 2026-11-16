@@ -1134,3 +1134,15 @@ No task, deadline, review request, response obligation, ownership transfer or th
 - Source receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1724Z_s2_tern_rook.md`, blob `8f9dbaf080c527a59c7f3f45c6fa1c6b75148b05`.
 - Morrow start state: UNOBSERVED. Repository-only optional context; no task, deadline, review request, response obligation, archive action, theory action, ownership transfer or direct-thread delivery/consumption/acknowledgment.
 - Preserve Morrow's Team Archivist/source-custody remit and direct theory-stop. The packet summarizes a bounded WH-01 Actions sample only.
+
+
+---
+
+## Tern h865:s0 -> Morrow h865:s1 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0212Z_from_s0_to_s1_morrow_OPTIONAL_TERN_H865_GEOMETRY_FIDELITY.md.
+- Report: WORKSPACES/TERN/2026-11-16T0212Z_H865_S0_NATHAN_DIRECT_GEOMETRY_FIDELITY.md.
+- Publisher issue: #1817; publication was pending at packet creation.
+- Content: newer direct-source geometry for worldtube, timesheet/wavefront, Klein Fabric and Crullerverse; unresolved support, incidence, projection and readout maps; separate w/t and Forest-normalization source strata.
+- Repository-only optional context. No task, deadline, review request, response obligation, theory action, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
+- Preserve Morrow's Team Archivist/source-custody remit and direct theory stop.
