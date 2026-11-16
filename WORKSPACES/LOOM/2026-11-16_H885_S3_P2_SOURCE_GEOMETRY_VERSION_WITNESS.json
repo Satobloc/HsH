@@ -1,0 +1,452 @@
+{
+  "schema": "hsh-source-bundle-witness-v1",
+  "witness_id": "loom-h885-s3-p2-source-bundle-20261116",
+  "authorship": "assistant-created source-custody index; not Nathan Direct and not an accepted repository schema",
+  "run": {
+    "ring_label": "Loom",
+    "ring_index": 1,
+    "next_ring_label": "Aster",
+    "next_ring_index": 2,
+    "nominal_hour_h": 885,
+    "sequence": 4428,
+    "sequence_mod_19": 1
+  },
+  "status": {
+    "source_bundle": "PINNED_TO_EXACT_DIRECT_SOURCE_MESSAGES",
+    "old_reciprocal_filament_timesheet_construction": "EXPLICITLY_RETIRED",
+    "current_geometry_direction": "KLEIN_FABRIC_CONCEPTUAL_PARENT_WITH_POSSIBLE_LOCAL_DUAL_SHELL_REALIZATION",
+    "global_local_equivalence": "NOT_ESTABLISHED",
+    "coordinate_and_signature_map": "UNDEFINED",
+    "lab_projection_map": "UNDEFINED",
+    "p2_admission": "NOT_ADMITTED",
+    "physical_result": "NONE"
+  },
+  "source_strata": [
+    {
+      "id": "KF-GLOBAL-2026-08-26",
+      "authority": "Nathan Direct / user-role / current ancestry",
+      "conversation_title": "⚗️ CALDER [Construction Story Retelling]",
+      "conversation_id": "6a8eacca-c470-83ea-af92-8fb8df194de9",
+      "raw_export_git_blob_sha1": "92454acdaad701193e2a0c6cf64a7d7b70a03dbb",
+      "message_id": "062ad8ee-ef20-4857-9077-75fe57a6974f",
+      "timestamp_utc": "2026-08-26T23:41:28.815Z",
+      "current_ancestry": true,
+      "claims": [
+        "global torus/Klein-like fabric is a conceptual parent",
+        "each worldtube is described as a twisted ER-bridge structure extending back through the Big Bang",
+        "finite Kerr/Kerr-like local core is proposed",
+        "long axis is expected along w",
+        "local dual-shell expansion is a probable near-flat-space realization but is not asserted equivalent to the global fabric"
+      ],
+      "tags": [
+        "NATHAN-DIRECT",
+        "GLOBAL-KLEIN-FABRIC-CONCEPTUAL-PARENT",
+        "LOCAL-DUAL-SHELL-POSSIBLE-REALIZATION",
+        "NO-EQUIVALENCE-ASSERTED",
+        "TWISTED-ER-BRIDGE-PROPOSAL",
+        "FINITE-KERRLIKE-CORE-PROPOSAL",
+        "LONG-AXIS-W-CANDIDATE"
+      ],
+      "duplicate_control": {
+        "near_duplicate_message_id": "aa13431d-598a-4ff2-9f5b-88ae9fd876aa",
+        "near_duplicate_timestamp_utc": "2026-08-26T23:17:43.741Z",
+        "near_duplicate_current_ancestry": false,
+        "count_as_independent_confirmation": false
+      }
+    },
+    {
+      "id": "MINKOWSKI-WORLDTUBE-CLASSICAL-CLAIM-2026-10-09",
+      "authority": "Nathan Direct / user-role / current ancestry",
+      "conversation_title": "Meridian Free Build",
+      "conversation_id": "6ac45d1f-17b0-83ea-ad1f-fa524602378b",
+      "raw_export_git_blob_sha1": "7af1561b321f4d9364da5eb111df689efc652827",
+      "message_id": "3c657387-b80b-4982-a61a-8e6d8568b8d1",
+      "timestamp_utc": "2026-10-09T01:50:55.112Z",
+      "current_ancestry": true,
+      "claims": [
+        "w=ct is described as a time-length scale in meters in the classical Minkowski limit",
+        "worldtube curvature and inertia are asserted equivalent by construction in the classical limit",
+        "d²x/dw² is distinguished from intrinsic four-dimensional curvature"
+      ],
+      "tags": [
+        "NATHAN-DIRECT",
+        "CLASSICAL-MINKOWSKI-LIMIT",
+        "W-EQUAL-CT-SOURCE-STRING",
+        "WORLDTUBE-CURVATURE-INERTIA-CLAIM",
+        "COORDINATE-BENDING-NOT-INTRINSIC-4D-CURVATURE"
+      ]
+    },
+    {
+      "id": "TIME-SLICE-BULK-NO-PASSIVE-READOUT-2026-10-09",
+      "authority": "Nathan Direct / user-role / current ancestry",
+      "conversation_title": "Meridian Free Build",
+      "conversation_id": "6ac45d1f-17b0-83ea-ad1f-fa524602378b",
+      "raw_export_git_blob_sha1": "7af1561b321f4d9364da5eb111df689efc652827",
+      "message_id": "5a929b5e-515e-4f77-a32a-e49feef42812",
+      "timestamp_utc": "2026-10-09T02:46:38.173Z",
+      "current_ancestry": true,
+      "claims": [
+        "time is described as a three-dimensional slice/bulk, not a thin sheet",
+        "the time structure is not a passive readout; interaction is asserted",
+        "no elastic modulus, invented filament tension, or microscopic spring constant is to be introduced",
+        "the balanced H0±c shorthand is explicitly not dimensionally normalized"
+      ],
+      "tags": [
+        "NATHAN-DIRECT",
+        "TIME-SLICE-BULK",
+        "NO-PASSIVE-READOUT",
+        "NO-INVENTED-ELASTIC-MODULUS",
+        "NO-INVENTED-FILAMENT-TENSION",
+        "DIMENSIONAL-NORMALIZATION-UNRESOLVED"
+      ]
+    },
+    {
+      "id": "CORE-TRACE-COIL-RADIUS-2026-10-09",
+      "authority": "Nathan Direct / user-role / current ancestry",
+      "conversation_title": "Meridian Free Build",
+      "conversation_id": "6ac45d1f-17b0-83ea-ad1f-fa524602378b",
+      "raw_export_git_blob_sha1": "7af1561b321f4d9364da5eb111df689efc652827",
+      "message_id": "1178f25c-9f92-4d1c-b43b-06482e6bf1b1",
+      "timestamp_utc": "2026-10-09T07:40:38.859Z",
+      "current_ancestry": true,
+      "claims": [
+        "one helical core and hollow outer superhelix",
+        "approximately 0.7 fm is a coil-radius candidate, not filament thickness",
+        "a three-dimensional intersectional trace is not the four-dimensional filament itself"
+      ],
+      "tags": [
+        "NATHAN-DIRECT",
+        "ONE-CORE-HOLLOW-OUTER-SUPERHELIX",
+        "COIL-RADIUS-NOT-FILAMENT-THICKNESS",
+        "4D-FILAMENT-VS-3D-TRACE"
+      ]
+    },
+    {
+      "id": "SURFACE-OF-SIMULTANEITY-CURVATURE-CORRECTION-2026-10-20",
+      "authority": "Nathan Direct / user-role / current ancestry",
+      "conversation_title": "Meridian Minkowski Ring Analysis",
+      "conversation_id": "6ad7e9c0-e8a0-83e9-984e-94d020de3abf",
+      "raw_export_git_blob_sha1": "56a84cb85d5c386efa4ea11d322d11e95e2c7703",
+      "message_id": "bc09cf32-9952-462a-a02b-2c67a3cf4c91",
+      "timestamp_utc": "2026-10-20T23:12:49.986Z",
+      "current_ancestry": true,
+      "claims": [
+        "older two-shell-lambda description is not the current construction except possibly as a UI approximation",
+        "current proposal is a surface-of-simultaneity-to-Hubble-radius metric-curvature correction",
+        "balanced half-sum remains shorthand pending dimensionally appropriate expression"
+      ],
+      "tags": [
+        "NATHAN-DIRECT",
+        "TWO-SHELL-LAMBDA-NOT-CURRENT",
+        "SIMULTANEITY-TO-HUBBLE-RADIUS-CURVATURE-PROPOSAL",
+        "HALF-SUM-TENTATIVE",
+        "DIMENSIONAL-FORM-UNRESOLVED"
+      ]
+    },
+    {
+      "id": "RECIPROCAL-CONSTRUCTION-RETIRED-2026-10-21",
+      "authority": "Nathan Direct / user-role / current ancestry",
+      "conversation_title": "Meridian Minkowski Ring Analysis",
+      "conversation_id": "6ad7e9c0-e8a0-83e9-984e-94d020de3abf",
+      "raw_export_git_blob_sha1": "56a84cb85d5c386efa4ea11d322d11e95e2c7703",
+      "message_id": "090f5160-1020-486d-9c42-df3d7dff2063",
+      "timestamp_utc": "2026-10-21T00:17:23.235Z",
+      "current_ancestry": true,
+      "claims": [
+        "reciprocal filament/timesheet-deformation construction is explicitly no longer the current model",
+        "Back Hallways are metaphorical mathematical corridors"
+      ],
+      "tags": [
+        "NATHAN-DIRECT",
+        "RECIPROCAL-FILAMENT-TIMESHEET-RETIRED",
+        "BACK-HALLWAYS-MATHEMATICAL-METAPHOR"
+      ]
+    },
+    {
+      "id": "BACK-HALLWAYS-SUPERSESSION-CLARIFICATION-2026-10-21",
+      "authority": "Nathan Direct / user-role / current ancestry",
+      "conversation_title": "Meridian Minkowski Ring Analysis",
+      "conversation_id": "6ad7e9c0-e8a0-83e9-984e-94d020de3abf",
+      "raw_export_git_blob_sha1": "56a84cb85d5c386efa4ea11d322d11e95e2c7703",
+      "message_id": "47cf2603-bf28-439c-82b3-1f0e0c2a7dc8",
+      "timestamp_utc": "2026-10-21T00:31:23.968Z",
+      "current_ancestry": true,
+      "claims": [
+        "Back Hallways formalism is older, different and somewhat sloppy",
+        "Loop and Star-Shaped Derivation Map remain a conceptual research programme, not a completed equation set"
+      ],
+      "tags": [
+        "NATHAN-DIRECT",
+        "BACK-HALLWAYS-SUPERSEDED-FORMALISM",
+        "LOOP-STAR-SHAPED-DERIVATION-MAP-CONCEPTUAL"
+      ]
+    },
+    {
+      "id": "CURRENT-NOTATION-STRATUM-2026-10-21",
+      "authority": "Nathan Direct / user-role / current ancestry",
+      "conversation_title": "Meridian Minkowski Ring Analysis",
+      "conversation_id": "6ad7e9c0-e8a0-83e9-984e-94d020de3abf",
+      "raw_export_git_blob_sha1": "56a84cb85d5c386efa4ea11d322d11e95e2c7703",
+      "message_id": "c5525f53-b7cc-4444-8102-3bf6fdb1c892",
+      "timestamp_utc": "2026-10-21T13:55:40.205Z",
+      "current_ancestry": true,
+      "claims": [
+        "cw=t is stated as a working source string",
+        "Forest Normalizatin is the exact source spelling",
+        "(++++) is stated as a working source convention",
+        "±(c+H0)/2 is explicitly tentative and awaits the proper dimensional expression"
+      ],
+      "tags": [
+        "NATHAN-DIRECT",
+        "CW-EQUAL-T-SOURCE-STRING",
+        "PLUS-PLUS-PLUS-PLUS-WORKING-CONVENTION",
+        "FOREST-NORMALIZATIN-VERBATIM",
+        "HALF-SUM-TENTATIVE",
+        "NO-UNIT-MAP"
+      ]
+    },
+    {
+      "id": "PROVISIONAL-FOURTH-SPATIAL-W-2026-11-08",
+      "authority": "Nathan Direct / user-role / current ancestry / provisional",
+      "conversation_title": "ND Workshop Relay :24 | Geometry",
+      "conversation_id": "6aecede1-4c08-83e9-abc4-da64f59a4f51",
+      "raw_export_sha256": "875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d",
+      "raw_export_git_blob_sha1": "c1793cebf08ed57881eb144ee23fe6d1d6d69f1a",
+      "message_id": "c0520975-02a0-408f-a250-364b88ab7b30",
+      "timestamp_utc": "2026-11-08T20:18:10.172Z",
+      "claims": [
+        "w is provisionally treated as a fourth spatial dimension",
+        "proper time may be distinct and progress along w",
+        "same c with different paths is a working preference",
+        "Crullerverse and Klein Fabric interpretations remain tentative"
+      ],
+      "tags": [
+        "NATHAN-DIRECT",
+        "FOURTH-SPATIAL-W-CANDIDATE",
+        "PROVISIONAL-COORDINATE-ROLE",
+        "TIME-PROPER-MAY-BE-DISTINCT",
+        "NO-EXPLICIT-W-TO-T-MAP",
+        "METRIC-SIGNATURE-UNSPECIFIED",
+        "NO-SUPERSESSION"
+      ]
+    }
+  ],
+  "supersession_edges": [
+    {
+      "from": "RECIPROCAL-FILAMENT-TIMESHEET-DEFORMATION",
+      "relation": "EXPLICITLY_RETIRED_AS_CURRENT_MODEL",
+      "evidence_message_id": "090f5160-1020-486d-9c42-df3d7dff2063",
+      "timestamp_utc": "2026-10-21T00:17:23.235Z",
+      "to": "KLEIN_FABRIC_CURRENT_DIRECTION",
+      "interpretation_limit": "retirement is direct; no equivalence or replacement map is thereby established"
+    }
+  ],
+  "unresolved_source_pairs": [
+    {
+      "left": "w=ct",
+      "left_source_message_id": "3c657387-b80b-4982-a61a-8e6d8568b8d1",
+      "right": "cw=t",
+      "right_source_message_id": "c5525f53-b7cc-4444-8102-3bf6fdb1c892",
+      "status": "NO_SOURCE_DEFINED_CONVERSION_OR_UNIT_MAP"
+    },
+    {
+      "left": "cw=t and (++++) working convention",
+      "left_source_message_id": "c5525f53-b7cc-4444-8102-3bf6fdb1c892",
+      "right": "provisional fourth-spatial w; proper time may be distinct",
+      "right_source_message_id": "c0520975-02a0-408f-a250-364b88ab7b30",
+      "status": "NO_SUPERSESSION_OR_SOURCE_DEFINED_MAP"
+    },
+    {
+      "left": "global Klein-like fabric",
+      "left_source_message_id": "062ad8ee-ef20-4857-9077-75fe57a6974f",
+      "right": "local dual-shell expansion",
+      "status": "POSSIBLE_REALIZATION_NOT_EQUIVALENCE; MAP_UNDEFINED"
+    }
+  ],
+  "map_edges": [
+    {
+      "from": "standard_Lorentzian_Minkowski_control",
+      "to": "current_Klein_Fabric_coordinate_metric_convention",
+      "status": "MAP_UNDEFINED",
+      "required": [
+        "coordinate_chart",
+        "unit_map",
+        "metric_signature",
+        "causal_structure",
+        "time_parameter",
+        "projection_and_composition_conditions"
+      ]
+    },
+    {
+      "from": "global_Klein_like_fabric",
+      "to": "local_dual_shell_expansion",
+      "status": "POSSIBLE_LOCAL_REALIZATION_NOT_EQUIVALENCE",
+      "map": "UNDEFINED",
+      "required": [
+        "domain",
+        "codomain",
+        "metric",
+        "signature",
+        "causal_structure",
+        "projection",
+        "composition_conditions"
+      ]
+    },
+    {
+      "from": "global_Klein_like_fabric",
+      "to": "twisted_ER_bridge_worldtube_family",
+      "status": "CONCEPTUAL_PROPOSAL_NOT_TYPED",
+      "map": "UNDEFINED",
+      "required": [
+        "support_dimension",
+        "embedding",
+        "normal_fibre",
+        "twist_connection_or_equivalent",
+        "time_axis",
+        "causal_character"
+      ]
+    },
+    {
+      "from": "twisted_ER_bridge_worldtube_family",
+      "to": "finite_Kerr_or_Kerrlike_core",
+      "status": "RELATION_UNRESOLVED",
+      "map": "UNDEFINED",
+      "required": [
+        "core_support",
+        "boundary_or_shell",
+        "metric",
+        "scale_map",
+        "composition_conditions"
+      ]
+    },
+    {
+      "from": "worldtube_geometry",
+      "to": "air_water_kelvin_vortex_measurements",
+      "status": "NO_SOURCE_DEFINED_PHYSICAL_MAP",
+      "map": "UNDEFINED",
+      "required": [
+        "Minkowski_control",
+        "material_to_geometry_map",
+        "lab_axis_projection",
+        "instrument_operator",
+        "calibration",
+        "uncertainty_propagation"
+      ]
+    }
+  ],
+  "equation_custody": {
+    "SAT_O1": {
+      "source_path": "SATOBLOC/SAT O1 4D.txt",
+      "git_blob_sha1": "7577aa1ee5a6c3850ce3b226c75377de6367aedc",
+      "recorded_sha256": "8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937",
+      "file_index_created": "2025-06-07",
+      "file_index_modified": "2025-06-09T18:44:50 (timezone unspecified)",
+      "authorship": "unbylined; composition date unresolved",
+      "equations": "verbatim preserved in Ravel h885:s0 source-fidelity report; not reproduced or corrected here"
+    },
+    "Blockwave": {
+      "source_path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt",
+      "git_blob_sha1": "ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d",
+      "recorded_sha256": "3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664",
+      "attachment_event": "2025-09-16T16:31:26.687Z",
+      "first_extant_archive_timestamp": "2026-10-08T02:42:49Z",
+      "embedded_authorship": "unresolved",
+      "equations": "verbatim preserved in Ravel h885:s0 source-fidelity report; not reproduced or corrected here"
+    }
+  },
+  "comparison_freeze_binding": {
+    "existing_formalization": "PR #1852 NadirComparisonFreezeCoherence",
+    "existing_formalization_status": "exact-head Lean/Mathlib build passed on PR head; PR remains open/draft/unmerged",
+    "source_bundle_id_field": "present but opaque in current formalization",
+    "required_binding": [
+      "source_bundle_id",
+      "source_geometry_version_witness_id",
+      "source_raw_export_blob_sha1s",
+      "source_message_ids",
+      "supersession_edges",
+      "map_edge_ids",
+      "map_artifact_digest",
+      "comparison_freeze_id",
+      "calibration_acquisition_unit_ids",
+      "holdout_acquisition_unit_ids",
+      "source_bundle_witness_digest"
+    ],
+    "version_change_rule": "if any source claim or map definition changes after calibration freeze, issue a new comparison freeze or a claim-specific transport certificate",
+    "status": "PROPOSED_INSTANCE_NOT_IMPLEMENTED"
+  },
+  "formalization_links": [
+    {
+      "module": "HsHVerification.NadirReadoutMetricSignature",
+      "pr": 1515,
+      "head_sha": "4cfb6803d5d1fdcb2f5cc7c06c4e9a6d5a9d8e0b",
+      "workflow_run": 42722996625,
+      "result": "exact-head Lean build passed; theorem formalizes an adapted rank-one readout metric and a real-congruence obstruction; does not establish a physical resolving field"
+    },
+    {
+      "module": "HsHVerification.NadirVortexTwoChannelReadout",
+      "pr": 1515,
+      "head_sha": "4cfb6803d5d1fdcb2f5cc7c06c4e9a6d5a9d8e0b",
+      "workflow_run": 42722996625,
+      "result": "exact-head Lean build passed; m and m+2 alias under the source single-harmonic radial ansatz and antipodal two-point readout; full camera pipeline outside model"
+    },
+    {
+      "module": "HsHVerification.CalderKelvinAngularSampling",
+      "pr": 1515,
+      "head_sha": "4cfb6803d5d1fdcb2f5cc7c06c4e9a6d5a9d8e0b",
+      "workflow_run": 42722996625,
+      "result": "exact-head Lean build passed; conditional necessary N > 2M bound for complete real Fourier band; no camera or acquisition claim"
+    },
+    {
+      "module": "HsHVerification.CalderUnitLineageHoldout",
+      "pr": 1515,
+      "head_sha": "4cfb6803d5d1fdcb2f5cc7c06c4e9a6d5a9d8e0b",
+      "workflow_run": 42722996625,
+      "result": "exact-head Lean build passed; channel fold assignment factors through declared acquisition-unit map iff unit-consistent; does not establish empirical independence or authenticate IDs"
+    },
+    {
+      "module": "HsHVerification.NadirComparisonFreezeCoherence",
+      "pr": 1852,
+      "head_sha": "0bc31d2aafac9d3639c06aa93aaf4643033b7718",
+      "workflow_run": 43942772738,
+      "result": "exact-head Lean build passed; 14 theorem reports with no axiom dependencies reported; opaque sourceBundleId content remains unauthenticated"
+    }
+  ],
+  "p2_test_gate": {
+    "candidate": "air-water Kelvin-vortex campaigns",
+    "system_selected": false,
+    "h0": "standard Kelvin-wave and fluid-mechanics comparator",
+    "h1": "current source geometry bundle above; not admissible for prediction until map is defined",
+    "shared_parameters": [
+      "circulation Γ",
+      "core radius a0",
+      "vertical velocity vz",
+      "forcing",
+      "instrument calibration",
+      "joint uncertainty/covariance",
+      "analysis plan",
+      "decision rule",
+      "observable operator"
+    ],
+    "holdout": "split by verified independent acquisition units, not frames, pixels, spatial slices, or derived statistics",
+    "predicted_observable": "not yet specifiable for H1; requires source-faithful map to instrument channels",
+    "standard_comparator": "published Kelvin-wave dispersion / Rankine or hollow-core fluid model",
+    "falsification_threshold": "not set; requires exact raw dataset, acquisition IDs, units, covariance, uncertainty and frozen prediction",
+    "data_status": {
+      "Nature_Physics_DOI": "10.1038/s41567-026-03175-w",
+      "Figshare_DOI": "10.6084/m9.figshare.30903347",
+      "Figshare_version_file_inventory_and_raw_checksums": "not retrieved",
+      "PRL_DOI": "10.1103/t3bt-m431",
+      "PRL_raw_data": "not public; author request would be required; none sent",
+      "independent_lab_replication": "not established; campaigns share research group/authors and apparatus family"
+    }
+  },
+  "limitations": [
+    "The source bundle is an assistant-created index, not a source-authored ontology.",
+    "The global Klein-like fabric is not a defined standard Klein-bottle manifold.",
+    "No global-to-local, worldtube-to-core, time-coordinate, signature, or lab-instrument map is defined.",
+    "The source's 'twisted ER bridge' wording does not define a normal-bundle connection or quantitative twist field.",
+    "The source's Kerr-like core is not the air-water vortex core; no map connects them.",
+    "The 0.7 fm coil radius is not a filament thickness and is not a fluid-core scale.",
+    "No measured system was selected; no raw data, fit, prediction, independent measurement, or numeric falsification threshold exists."
+  ]
+}
