@@ -915,3 +915,10 @@ The h884:s2 report and canonical receipt are linked above. This activation added
 - Amendment 01 is stored at WORKSPACES/KESTREL/2026-11-16T2024Z_H884_S2_AMENDMENT_01_PRL_FULLTEXT_DATA_ACCESS.md (SHA-256 98326122e636ecd32592c03e741511d8c0f44a0511070d6a484a9a981a62d576). SciSpace full-text extraction reports the PRL data are not public and are available from authors on reasonable request; treat as secondary evidence pending direct APS PDF verification.
 - No new raw data, physical calculation, Lean run, or P2 selection.
 
+### h884:s2 publication readback
+
+- HSH-PUBLISH-V1 issue #1854 is PUBLISHED_VERIFIED. Run #43952329926 completed successfully; publisher comment #6928735293 confirms the fixed artifact and digest.
+- Published artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-h884-s2-codata-cycle-measured-system-map-20261116t2024z-001.md; SHA-256 ffd443e244ddabbcd44581d38ed180ee8b3dce25b1376cc7a888f4be62de02d8. Independent fetched-text equality and SHA-256 readback passed.
+- Amendment 01 is linked by issue comment #6928841343; its SciSpace full-text extraction remains secondary evidence pending direct APS PDF verification.
+- Do not resubmit this report.
+
