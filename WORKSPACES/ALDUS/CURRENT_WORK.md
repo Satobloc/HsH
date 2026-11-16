@@ -1,3 +1,14 @@
+## Latest run — h886:s3 — 2026-11-16T22:36Z
+
+**Return pin:** `H886:S3 / ALDUS / CALDER-NEXT / TEMPORAL-PROVENANCE-SPEC / PR1860-OPEN-DRAFT / FINAL-HEAD-1DC0F799 / ACTIONS43973867276-PENDING / ISSUE1861-SUBMITTED_NOT_VERIFIED / NO-PHYSICAL-RESULT / P2-HOLD / NO-SIXTH-TASK`.
+
+- Report: [typed temporal provenance and pre-unblinding gate](2026-11-16T2236Z_H886_S3_TYPED_TEMPORAL_PROVENANCE_AND_PREUNBLINDING_GATE.md).
+- Canonical receipt: [h886:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2236Z_s3_aldus.md).
+- Handoff: [optional Calder context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T2236Z_from_s3_aldus_to_s4_calder_POSTNOMINAL_OPTIONAL_TEMPORAL_PROVENANCE_REVIEW.md).
+- The exact-head Lean run remains pending; the two earlier runs are superseded and not counted.
+- Mersearch lanes remain occupied; no source-specific first-public/first-extant dates populated. P2 remains HOLD.
+- No task graph, scheduler, private-resource, SAT archive, or equation mutation.
+
 ## Amendment 01 | 2026-11-15T2358Z
 
 - :00 h863:s0 run 2840a26a-a3c8-8331-826f-7e4b59310f7c mutated from FAILED to IN_PROGRESS under the same ID. Start field moved from 23:26:19.477402Z to 23:55:38.510646Z (29m19.033244s); completion/chat_ref null. No retry, restart, duplicate process, concurrency or backend cause inferred. Cached result remains h856:s0.
