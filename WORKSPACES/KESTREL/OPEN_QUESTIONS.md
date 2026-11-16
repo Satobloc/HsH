@@ -297,3 +297,21 @@ The full internal crosswalk, including failure/partial-survival/substantial-succ
 - How do we keep source identity, representation equivalence, and independent evidence as separate axes?
 
 Status: architecture proposal only. No map, physical system, or empirical holdout is instantiated. No new task or theory claim follows from this question.
+
+## 2026-11-16 | Directional response-range criterion for primitive reduction
+
+This additive Kestrel synthesis clarifies the direction of the existing PR #873 response-range theorem for the Lane 24 minimal-generative-model question.
+
+For a fixed readout and calibration point, let (J_B) be the baseline worldtube/timesheet response map and (J_R) a candidate extra responsive-medium response map. The proposed local first-order absorbability condition is:
+
+[
+operatorname{range}(J_R)subseteqoperatorname{range}(J_B).
+]
+
+The reverse inclusion is not the same claim. Equality gives equal local response subspaces for that readout/point; neither inclusion gives response directions unavailable to the other. A non-inclusion witness is a candidate discriminator, not evidence that observed data require the extra primitive.
+
+This is distinct from global/dynamical elimination. A reduction (pi:S	o B) also requires a reduced evolution (arPhi) with (picircPhi=arPhicircpi), and every relevant readout (O_a) to factor through (pi). The existing PR #873 fiber-factorization result supplies the generic set-map condition; no physical (pi,Phi,O_a) are source-defined here.
+
+The proposed Jacobian instantiation is assistant reconstruction, not a Nathan Direct physical equation. The generic Lean theorem is already present in the current PR branch; the latest observed build was a successful synthetic merge-reference build, not current-head/current-base integration. No new Lean theorem/build or physical calculation was made.
+
+The response locus (path-neighbourhood, timesheet bulk, support boundary) remains distinct from excitation support. No source-grounded coupling/placement/readout map, joint covariance, or selected measured system is available. P2 remains HOLD. See [Kestrel h865:s2 report](2026-11-16T0124Z_H865_S2_DIRECTIONAL_RESPONSE_RANGE_PRIMITIVE_REDUCTION.md) and [publication issue #1814](https://github.com/Satobloc/HsH/issues/1814).
