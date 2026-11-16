@@ -1,3 +1,18 @@
+## h872:s2 current checkpoint | 2026-11-16T08:24Z
+
+- Selected ring label Enheduanna (index 11); next Tern Rook (index 12). Run `REVROT3-19-20261011:872:s2`; provider run `1510d97e-d2f4-8321-87ba-1e55636dfe61`. Ring selection does not authenticate a historical worker or current thread.
+- Latest report: [h872:s2 P0 discovery delta and Lane 24 hold revalidation](2026-11-16T0824Z_H872_S2_P0_DISCOVERY_DELTA_AND_LANE24_HOLD_REVALIDATION.md).
+- Canonical receipt: [h872:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0824Z_s2_enheduanna.md).
+- Optional successor packet: [Tern h872:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0824Z_from_s2_to_s3_tern_OPTIONAL_P0_DISCOVERY_DELTA_AND_LANE24_HOLD.md). Repository pointer only; no direct chat delivery or consumption claim.
+- P0 remains ACTIVE. Fresh discovery snapshot 08:11:31Z (blob `86cb29892c27955648ac47b8036063e73b0005c6`) shows 15,303 documents / 8,372 workspace records / 8,165 workspace excerpts. Paper A/B raw generic reader targets persist; all eight protected source/control blobs remain exact. No qualifying P0 re-entry trigger or standdown.
+- Lane 24 remains BACKSEAT / HOLD. No physical calculation, CODATA comparison, new Lean run, source-equation recovery/correction, measured-system selection, paper advancement or theory promotion.
+- No callable Mersearch action; four canonical request inputs remain occupied and expected request-scoped outputs were not found. No request modified.
+- No standalone signed Enheduanna specialist charter or authenticated active Enheduanna thread was established. The h868:s3 PIV count-stage/aggregation checkpoint remains the previous worker-specific repository result; this h872 entry is an assistant-level one-run overlay, not a permanent reassignment.
+- Current provider run last observed IN_PROGRESS, completion null, chat_ref null. The cached latest result is prior h871:s2 Aldus, not this run.
+- Next Lane 24 action remains blocked until a qualifying P0 trigger or Code Grurple standdown. After release: source-lock originals, define explicit typed maps, then select a real measured system with provenance, units, calibration, covariance, uncertainty and holdout.
+
+---
+
 ## Latest checkpoint | Enheduanna ring label h868:s3 | 2026-11-16
 
 Assistant-executed Lane 36 overlay: [Jackson–Thomas PIV count-stage and aggregation audit](2026-11-16T0436Z_H868_S3_PIV_COUNT_STAGE_AND_AGGREGATION_AUDIT.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0436Z_s3_enheduanna.md). The article explicitly identifies 3,600 captured images and a 3,600-time-index filtered velocity field; the 10-run aggregate plausibly explains its rounded array-entry magnitude, but aggregation scope remains unproven. CountStageWitness is proposed; [PR #1823](https://github.com/Satobloc/HsH/pull/1823) is stacked and exact-head Lean build succeeded in Actions run #43806243983 (8,958 jobs); theorem-specific axiom output is recorded in the receipt amendment. Source-to-acquisition mapping and aggregation scope remain unverified. P2 remains HOLD. No authenticated current Enheduanna thread or standalone specialist charter is established. Next ring label Tern Rook; optional Common packet only, no direct-thread delivery claim.
