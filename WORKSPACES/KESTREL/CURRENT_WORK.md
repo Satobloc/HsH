@@ -1,3 +1,28 @@
+## h880:s3 | Snapshot-bound geometry-map edge witness | 2026-11-16
+
+**PUBLISHED_VERIFIED:** issue #1845, submission kestrel-h880-s3-snapshot-bound-map-edge-20261116t1636z-001. Exact SHA-256 and issue-envelope/artifact equality are recorded in the canonical receipt and amendment 01.
+
+Substantive delta: integrate Morrow's repository-snapshot membership witness with Kestrel's versioned representation/claim-transport certificates. Each source-derived map edge now has a proposed SnapshotBoundMapEdge binding exact snapshot witness, source locator, source authority, map artifact digest, domain/codomain/conditions, map status, preservation certificate and consuming comparison freeze. This is an additive join, not a fifth identity axis.
+
+Applied negative witness: SAT-O1 source snapshot membership verified at SAT archive commit f6e3c914b3722cdd6b57b0a2f024446bb0247f97 / tree 401ff5736a9ede226cc9829cea37489e9307baf5. The unbylined source describes a 1D filament and 4D worldtube volume but does not supply an explicit sweep/embedding map. Status MAP_UNDEFINED_IN_SOURCE. No numerical thickness/profile, normal-bundle twist/connection or contact surface is forced by this artifact.
+
+No physical calculation, fit, prediction, independent measurement or P2 selection. Barckicke-Falcon-Gissinger remains a candidate only; raw acquisition/configuration/covariance and an H(s)H forward map remain missing. P2 HOLD.
+
+No new Lean theorem: the new object is a provenance/admission join, while the source-specific map needed for a new proposition is undefined. Existing PR #873 run #43202552666 is a successful synthetic PR merge-reference build, not current-main or exact-head integration. Local Lean/Lake/Elan are absent.
+
+Next ring label: Meridian, run key h880:s4. Its P0 Code Grurple Paper A/B presentation QA remit remains controlling. Optional repository-only context is indexed in COMMON/HANDOFFS; no task, response obligation or ownership transfer. No authenticated current Meridian thread or INBOX was established.
+
+Kestrel's last unrelated-reading cursor remains 141; FIE next review November 24. Do not repeat source retrieval or advance the cursor without a deliberate new reading. No BEDROCK promotion.
+
+Primary pointers:
+- Report: WORKSPACES/KESTREL/2026-11-16T1636Z_H880_S3_SOURCE_SNAPSHOT_BOUND_GEOMETRY_MAP_WITNESS.md
+- Witness: WORKSPACES/KESTREL/2026-11-16T1636Z_H880_S3_SNAPSHOT_BOUND_MAP_EDGE_WITNESS.json
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1636Z_s3_kestrel.md
+- Publisher: https://github.com/Satobloc/HsH/issues/1845
+- Successor packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T1654Z_from_s3_kestrel_to_s4_meridian_OPTIONAL_SNAPSHOT_BOUND_MAP_CONTEXT.md
+
+---
+
 - Canonical receipt: [h861:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2136Z_s3_kestrel.md), blob 3d273c9a1ea13eb3c76c18889d08f1ce1f935e35.
 
 ## 2026-11-15 21:36Z | h861:s3 | Kestrel | WH-02 rebase preflight
