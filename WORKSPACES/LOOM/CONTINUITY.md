@@ -1,3 +1,22 @@
+## 2026-11-16 | h870:s2 | Source ancestry and geometry-provenance crosswalk
+
+**Primary report:** [H870 source crosswalk](2026-11-16T0624Z_H870_S2_SOURCE_ANCESTRY_AND_GEOMETRY_PROVENANCE_CROSSWALK.md)  
+**Receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0624Z_s2_loom.md`
+
+- Recovered and read the historical `Tag Conversation Corpus` raw source. It has 9 active user-role messages; last active user message 2026-09-19. Historical source is not current-thread authentication.
+- Corrected source map: Nov 8 direct source = provisional 4D tube / 1D core / 3D boundary; Oct Meridian Free Build = 4D filament / 3D trace plus tentative Kerr-scale core and explicit abstraction caveat. Mercer cross-post and assistant `S^3 x S^1` response are not Nathan Direct.
+- SAT4D_LIVE_DRAFT and SAT O1 4D are distinct. Blockwave user-supplied attachment and assistant-origin J2 response are distinct.
+- Added direct Nov 8 source messages to the verified-words compendium and exact source ancestry/tag relations to the manual ledger.
+- H866 report's 1521-1560 reading repeated Section AE. Correct cursor was 1641; this run read 1641-1680; next cursor **1681**.
+- PWH queue updated with current P0 snapshot pointer and bounded WH-03 intake sample. No task-graph or ownership changes.
+- Aster optional post-start context packet recorded; no cross-thread delivery or acknowledgment claim.
+- Mersearch lanes remain occupied/requested; no request overwritten or retriggered.
+- FIE last full review 2026-11-10; next review 2026-11-24.
+- No new Lean theorem/build, physical calculation, CODATA comparison, fit, prediction, independent measurement, or theory promotion.
+- Existing relay automation left unchanged.
+
+---
+
 # Loom Continuity File
 
 **Worker:** Loom  
