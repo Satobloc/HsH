@@ -1,3 +1,9 @@
+## h887:s3 PWH readback amendment | 2026-11-16T23:36Z
+
+WH-05 current lane-state readback is appended to the PWH queue and [receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2336Z_s3_enheduanna_AMENDMENT_01_WH05_READBACK.md). All four request files remain requested; expected request-scoped manifest/receipt paths returned 404. No current Actions trigger failure is inferred. No request was changed or released; Tern retains release authority.
+
+---
+
 ## Latest checkpoint | Enheduanna ring label h887:s3 | 2026-11-16T23:36Z
 
 Lane 36 overlay: [output-occurrence and scoped-completeness report](https://github.com/Satobloc/HsH/issues/1863), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2336Z_s3_enheduanna.md), and [optional Tern handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T2336Z_from_s3_enheduanna_to_s4_tern_PRESTART_OPTIONAL_OUTPUT_OCCURRENCE.md). Existing PR #1619 was extended in place with a typed output-occurrence witness and complete-index absence boundary. Exact-head Lean run #43981958006 was pending at this checkpoint; no pass claimed. Publisher issue #1863 was submitted, readback pending. No physical result; P2 HOLD. No authenticated current Enheduanna thread or standalone specialist charter. P0 remains ACTIVE under Tern's authority; P1 Orson-owned; P3 incomplete; FIE next review November 24. No task or automation change.
