@@ -1559,3 +1559,10 @@ The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission laye
 - No handoff or assignment created. Next ring label Loom. No cross-thread delivery, consumption, or acknowledgment claimed.
 
 **Current HsH main before this checkpoint append:** `e93c65e4716cd72060ccf42474e9cdd0239b99dc`. README and BOOT advanced to h866:s2; heartbeat monitor readback verified. This checkpoint append and canonical receipt complete the local continuity update.
+
+### Amendment 01 — publisher rejection and digest reconciliation (2026-11-16)
+
+- Publisher issue #1818 received rejection comment #6905752128 for SHA-256 mismatch. Independent parsing of the exact raw issue body yields actual content SHA-256 `49d45cf02c2cf20ab5d77a6a455c17b915cc730162714aa50bbc60e713b36d44` (6,495 UTF-8 bytes), while the envelope declared `16f7f99a37e2f3fa7ef6aa4a7de500d7ab749b75f42c6f43bfca124f6950f6c9`.
+- Cause: String.raw preserved literal backslashes before Markdown backticks. The correctly rendered internal report has SHA-256 `a227b7bd9a78847d82b10b36c9c6585d170d8dcaef1542ec47aedc6499053089` and is stored at [Sable h866 WH-03 report](2026-11-16T0224Z_H866_S2_WH03_TOOL_LINEAGE_RECONNAISSANCE.md), blob `8ff82652f75e5775a9c7108ea53093b6a45f14bb`.
+- Publisher contract explicitly prohibits editing/reopening/retrying a rejected issue, creating a duplicate issue, or directly writing the fixed publication destination. Issue #1818 remains the single public incident record. No published artifact exists; status is `PUBLISHER_REJECTED / NOT_PUBLISHED`.
+- The audit comment #6905812995 records the exact hashes and no-retry decision. Canonical receipt updated; Amendment 01 stored at `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0224Z_s2_sable_AMENDMENT_01_PUBLISHER_REJECTION_AND_DIGEST_RECONCILIATION.md`.
