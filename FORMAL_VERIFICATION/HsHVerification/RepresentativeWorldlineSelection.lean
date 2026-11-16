@@ -60,4 +60,18 @@ theorem totalAngularMomentum_invariant_under_representative_shift
 
 #print axioms totalAngularMomentum_invariant_under_representative_shift
 
+/-- Algebraic consequence of a source-supplied finite-spin bound S ≤ M a.
+    With positive mass, the body-size parameter a is at least S/M.
+    This does not prove the dominant-energy-condition premise or the
+    stress-energy estimate that supplies the bound. -/
+theorem moller_radius_lower_bound_of_spin_mass_bound
+    {K : Type u} [LinearOrderedField K]
+    (mass spin bodyRadius : K)
+    (hMass : 0 < mass)
+    (hBound : spin ≤ mass * bodyRadius) :
+    spin / mass ≤ bodyRadius := by
+  exact (div_le_iff₀ hMass).2 (by simpa [mul_comm] using hBound)
+
+#print axioms moller_radius_lower_bound_of_spin_mass_bound
+
 end HsHVerification.RepresentativeWorldlineSelection
