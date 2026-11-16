@@ -316,3 +316,10 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - Publisher intake: [issue #1821](https://github.com/Satobloc/HsH/issues/1821), SUBMITTED_NOT_VERIFIED; no retry/duplicate.
 - Hale h868:s0 was already IN_PROGRESS before packet creation. POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no direct thread delivery, consumption, acknowledgment, task, response obligation or ownership transfer.
 
+
+
+## CALDER-H867-S4-TO-HALE-H868-S0-POSTSTART-OPTIONAL-001 | Publisher verification amendment
+
+- [Publisher verification Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0348Z_from_s4_to_s0_hale_POSTSTART_OPTIONAL_REVIEW_MIND_PARTIAL_CROSSING_BOOTSTRAP_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Issue #1821 is PUBLISHED_VERIFIED; SHA-256 and exact artifact readback match. The original handoff remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+
