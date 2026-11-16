@@ -3211,3 +3211,39 @@ The message asks whether coiling conflicts with conservation or empirical eviden
 The message distinguishes the fourth spatial coordinate `w` from proper time `t`. It leaves the global Crullerverse topology provisional.
 
 **Excluded from this direct-word index:** assistant response `02ad70b2-811f-415a-aa18-77599916b7df` at 2026-11-08T20:22:39.215Z, which introduces an `S^3 x S^1` topology and phase-field reconstruction. It is retained as assistant-origin material in the Loom tag ledger, not as Nathan Direct.
+
+
+## 2026-11-16 | Klein-Fabric primary-source completion and October correction span
+
+This entry completes the missing primary-source locators for the August 26 global Klein-Fabric statement and the October 20–21 correction sequence. It supplements, rather than duplicates, the existing October 9, October 21 retirement/notation, and November 8 entries above.
+
+### 2026-08-26 | Global Klein-like fabric and local dual-shell proposal
+
+- **Source:** `⚗️ CALDER [Construction Story Retelling]`; conversation ID `6a8eacca-c470-83ea-af92-8fb8df194de9`; raw Git blob `92454acdaad701193e2a0c6cf64a7d7b70a03dbb`.
+- **Direct message:** `062ad8ee-ef20-4857-9077-75fe57a6974f`; 2026-08-26T23:41:28.815Z; user-role message on current ancestry.
+- **Current-ancestry check:** raw export contains 2,207 mapping nodes, 315 user-role messages, 479 current-ancestry nodes and 86 user-role messages on that ancestry.
+- **Tags:** `NATHAN-DIRECT`, `GLOBAL-KLEIN-FABRIC-CONCEPTUAL-PARENT`, `LOCAL-DUAL-SHELL-POSSIBLE-REALIZATION`, `NO-EQUIVALENCE-ASSERTED`, `TWISTED-ER-BRIDGE-PROPOSAL`, `FINITE-KERRLIKE-CORE-PROPOSAL`, `LONG-AXIS-W-CANDIDATE`.
+- **Source content:** the global torus/Klein-like fabric is described as a conceptual parent; worldtubes are described as twisted ER-bridge structures; a finite Kerr/Kerr-like core and a long axis along \(w\) are proposed. The local dual-shell expansion is described as a probable near-flat-space realization, not an equivalent representation.
+- **Duplicate/branch control:** earlier message `aa13431d-598a-4ff2-9f5b-88ae9fd876aa` (2026-08-26T23:17:43.741Z) is off the recorded current ancestry. It is a near-duplicate source span, not independent confirmation.
+- **Status:** direct conceptual proposal. No Klein-bottle manifold, atlas, quotient/gluing, metric, signature, causal structure, or global-to-local map is defined.
+
+### 2026-10-20 | Surface-of-simultaneity to Hubble-radius curvature correction
+
+- **Source:** Meridian Minkowski Ring Analysis; conversation ID `6ad7e9c0-e8a0-83e9-984e-94d020de3abf`; raw Git blob `56a84cb85d5c386efa4ea11d322d11e95e2c7703`.
+- **Direct message:** `bc09cf32-9952-462a-a02b-2c67a3cf4c91`; 2026-10-20T23:12:49.986Z; user-role message on current ancestry.
+- **Current-ancestry check:** raw export contains 3,678 mapping nodes, 112 user-role messages, 3,660 current-ancestry nodes and 106 user-role messages on that ancestry.
+- **Tags:** `NATHAN-DIRECT`, `TWO-SHELL-LAMBDA-NOT-CURRENT`, `SIMULTANEITY-TO-HUBBLE-RADIUS-CURVATURE-PROPOSAL`, `HALF-SUM-TENTATIVE`, `DIMENSIONAL-FORM-UNRESOLVED`.
+- **Source content:** the older two-shell-lambda description is not the current construction, except possibly as a UI approximation. The current proposal is a surface-of-simultaneity-to-Hubble-radius metric-curvature correction. The balanced half-sum remains shorthand pending a dimensionally appropriate expression.
+- **Status:** direct proposal, not a completed equation or calibrated physical relation.
+
+### 2026-10-21 | Back Hallways and Loop/Star programme boundary
+
+- **Source:** Meridian Minkowski Ring Analysis; same conversation/blob as above.
+- **Direct message:** `47cf2603-bf28-439c-82b3-1f0e0c2a7dc8`; 2026-10-21T00:31:23.968Z; user-role message on current ancestry.
+- **Tags:** `NATHAN-DIRECT`, `BACK-HALLWAYS-SUPERSEDED-FORMALISM`, `LOOP-STAR-SHAPED-DERIVATION-MAP-CONCEPTUAL`.
+- **Source content:** Back Hallways is characterized as an older, different, somewhat sloppy formalism. The Loop and Star-Shaped Derivation Map remain a conceptual research programme, not a completed equation set.
+- **Status:** source-boundary clarification. Do not use Back Hallways as a substitute for a missing current map.
+
+**Cross-source constraint:** the October 21 direct retirement of the reciprocal filament/timesheet-deformation construction is already indexed above. It does not define a replacement map. The August 26 global-fabric proposal, October 9 \(w=ct\) / active 3D time-slice statements, October 21 \(cw=t\) / \((++++)\) notation, and November 8 provisional fourth-spatial \(w\) statement remain separate source strata. No coordinate, unit, metric-signature, causal, or projection map has been supplied between them.
+
+**Attribution and custody:** all entries above are direct user-role source messages, not assistant reconstructions. The raw exports were inspected by bounded message/ancestry queries; this is not a claim that every message in either conversation was semantically reviewed. SAT-O1 and Blockwave equation custody remains in the existing source-separation entry and the Ravel h885:s0 source-fidelity report. No original equation was changed or corrected.
