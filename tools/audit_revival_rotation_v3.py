@@ -29,6 +29,7 @@ KEY = re.compile(r"^REVROT3-19-20261011:(-?\d+):s([0-4])$")
 LEGACY_KEY = re.compile(r"^REVROT3-19-(?!20261011)(\d{8}):(\d{2}):s([0-4])$")
 BOLD_FIELD = re.compile(r"^\s*(?:-\s*)?\*\*(.+?):\*\*\s*(.+?)\s*$")
 PLAIN_FIELD = re.compile(r"^\s*(?:-\s*)?([A-Za-z][A-Za-z0-9_ -]*):\s*(.*?)\s*$")
+# `access_class` is deliberately excluded: historical uses are heterogeneous and it is not a stable eligibility enum.
 STRUCTURED_FIELDS = {
     "run_key", "selected_identity", "selected", "worker_identity", "selected_worker",
     "next_identity", "next_selected", "next_run_key", "next_worker",
@@ -41,6 +42,17 @@ STRUCTURED_FIELDS = {
     "chat_message_id", "delivery_receipt_id", "handoff_class",
     "run", "selection", "thread_status", "selected_ring_index", "next_ring_index", "next",
     "scheduled_for", "nominal_scheduled_for", "started_at",
+    "eligibility_status", "payload_to_selected",
+    "private_material_accessed", "inbox_write",
+    "recipient_eligibility_status", "payload_to_recipient",
+    "recipient_private_material_accessed", "recipient_inbox_write",
+    "eligibility_schema_version", "role_source_class", "charter_access_status",
+    "charter_read_performed", "role_source_locator", "role_source_blob_sha",
+    "authorization_policy_blob_shas",
+    "recipient_eligibility_schema_version", "recipient_role_source_class",
+    "recipient_charter_access_status", "recipient_charter_read_performed",
+    "recipient_role_source_locator", "recipient_role_source_blob_sha",
+    "recipient_authorization_policy_blob_shas",
 }
 KEY_FIELDS = {"run_key", "from_run_key", "to_run_key", "next_run_key", "run"}
 METADATA_SECTIONS = {"rotation", "run metadata", "receipt metadata", "handoff metadata"}
@@ -188,6 +200,171 @@ class Audit:
     def error(self, p, msg):
         self.errors.append(f"{p.name}: {msg}")
 
+    def check_eligibility_fields(self, p, d, recipient=False):
+        """Check declared access and role-source metadata; not payload semantics or actual permissions."""
+        prefix = "recipient_" if recipient else ""
+        if recipient:
+            status_key = "recipient_eligibility_status"
+            payload_key = "payload_to_recipient"
+            private_key = "recipient_private_material_accessed"
+            inbox_key = "recipient_inbox_write"
+            nonresponse_key = "delivery_counts_as_invitation"
+        else:
+            status_key = "eligibility_status"
+            payload_key = "payload_to_selected"
+            private_key = "private_material_accessed"
+            inbox_key = "inbox_write"
+            nonresponse_key = "count_this_as_miss"
+        schema_key = prefix + "eligibility_schema_version"
+        role_key = prefix + "role_source_class"
+        charter_status_key = prefix + "charter_access_status"
+        charter_read_key = prefix + "charter_read_performed"
+        locator_key = prefix + "role_source_locator"
+        source_blob_key = prefix + "role_source_blob_sha"
+        policy_blobs_key = prefix + "authorization_policy_blob_shas"
+
+        # Old records with no eligibility declaration remain legacy-readable.
+        # Once any eligibility-specific field appears, however, the declaration
+        # must include a recognized status; partial metadata cannot silently pass.
+        eligibility_keys = (
+            status_key, payload_key, private_key, inbox_key, schema_key,
+            role_key, charter_status_key, charter_read_key, locator_key,
+            source_blob_key, policy_blobs_key,
+        )
+        if not any(key in d for key in eligibility_keys):
+            return
+
+        status = (d.get(status_key) or "").strip().upper()
+        if not status:
+            self.error(p, f"eligibility metadata present without explicit {status_key}")
+            return
+        known = {
+            "CLEAR", "OPERATIONAL_ONLY_CLEARANCE", "QUARANTINE_HOLD",
+            "NO_ACCESS", "MANUAL_REENTRY_REQUIRED",
+        }
+        if status not in known:
+            self.error(p, f"unrecognized {status_key}={status!r}; eligibility not interpreted")
+            return
+
+        # Version 2 separates the actual specialist charter from any cleared
+        # shared role witness, assistant summary, or unresolved source.
+        schema_version = (d.get(schema_key) or "").strip()
+        role_fields = (
+            role_key, charter_status_key, charter_read_key,
+            locator_key, source_blob_key, policy_blobs_key,
+        )
+        if any(key in d for key in role_fields) and schema_version != "2":
+            self.error(p, f"{schema_key}=2 is required when charter-provenance fields are present")
+
+        if schema_version == "2":
+            missing_role_fields = [key for key in role_fields if key not in d]
+            if missing_role_fields:
+                self.error(p, f"{schema_key}=2 requires explicit fields: {', '.join(missing_role_fields)}")
+
+            role_class = (d.get(role_key) or "").strip().upper()
+            charter_status = (d.get(charter_status_key) or "").strip().upper()
+            charter_read_raw = (d.get(charter_read_key) or "").strip().lower()
+            role_classes = {
+                "SIGNED_SPECIALIST_CHARTER", "CLEARED_SHARED_ROLE_WITNESS",
+                "ASSISTANT_SUMMARY", "UNRESOLVED",
+            }
+            charter_statuses = {"AUTHORIZED", "BLOCKED_BY_QUARANTINE", "NOT_PRESENT"}
+            if role_class not in role_classes:
+                self.error(p, f"unrecognized {role_key}={role_class!r}")
+            if charter_status not in charter_statuses:
+                self.error(p, f"unrecognized {charter_status_key}={charter_status!r}")
+            if charter_read_raw not in ("true", "false"):
+                self.error(p, f"{charter_read_key} must be explicit true or false")
+            charter_read = charter_read_raw == "true"
+
+            if status in ("QUARANTINE_HOLD", "NO_ACCESS", "MANUAL_REENTRY_REQUIRED") and charter_read:
+                self.error(p, f"{status} must not read the historical specialist charter")
+            if charter_status in ("BLOCKED_BY_QUARANTINE", "NOT_PRESENT") and charter_read:
+                self.error(p, f"{charter_status} cannot be paired with {charter_read_key}=true")
+
+            if role_class == "SIGNED_SPECIALIST_CHARTER":
+                if charter_status != "AUTHORIZED":
+                    self.error(p, "signed specialist charter requires charter_access_status=AUTHORIZED")
+                if not charter_read:
+                    self.error(p, "signed specialist charter classification requires charter_read_performed=true")
+            elif role_class in ("CLEARED_SHARED_ROLE_WITNESS", "ASSISTANT_SUMMARY", "UNRESOLVED"):
+                if charter_read:
+                    self.error(p, f"{role_class} cannot claim the historical specialist charter was read")
+
+            locator = (d.get(locator_key) or "").strip()
+            source_blob = (d.get(source_blob_key) or "").strip()
+            if role_class == "UNRESOLVED":
+                if locator or source_blob:
+                    self.error(p, "UNRESOLVED role source must not claim a source locator or blob")
+            else:
+                if not locator:
+                    self.error(p, f"{role_key} requires {locator_key}")
+                if not re.fullmatch(r"[0-9a-fA-F]{40}", source_blob):
+                    self.error(p, f"{source_blob_key} must be a 40-character Git blob SHA")
+
+            policy_shas = [
+                item.strip() for item in (d.get(policy_blobs_key) or "").split(";") if item.strip()
+            ]
+            if not policy_shas or any(not re.fullmatch(r"[0-9a-fA-F]{40}", item) for item in policy_shas):
+                self.error(p, f"{policy_blobs_key} must contain one or more semicolon-separated Git blob SHAs")
+        elif schema_version in ("", "1"):
+            if status != "CLEAR":
+                self.warnings.append(f"{p.name}: legacy eligibility metadata lacks charter-access provenance fields")
+        else:
+            self.error(p, f"unsupported {schema_key}={schema_version!r}")
+
+        # Strictly parse every declared Boolean, including optional fields on
+        # CLEAR records. Invalid text is not silently coerced to False.
+        strict_booleans = schema_version == "2"
+        true_values = {"true"} if strict_booleans else {"true", "yes", "1"}
+        false_values = {"false"} if strict_booleans else {"false", "no", "0"}
+
+        def parse_bool(key):
+            if key not in d:
+                return None
+            raw = (d.get(key) or "").strip().lower()
+            if raw in true_values:
+                return True
+            if raw in false_values:
+                return False
+            self.error(p, f"{key} must be an explicit boolean (true/false"
+                       + (" for schema v2" if strict_booleans else ", yes/no, or 1/0") + ")")
+            return None
+
+        private_access = parse_bool(private_key)
+        inbox_write = parse_bool(inbox_key)
+        nonresponse_count = parse_bool(nonresponse_key)
+
+        if status == "CLEAR":
+            return
+
+        required = (payload_key, private_key, inbox_key, nonresponse_key)
+        missing = [key for key in required if key not in d]
+        if missing:
+            self.error(p, f"{status_key}={status} requires explicit fields: {', '.join(missing)}")
+
+        payload = (d.get(payload_key) or "").strip().upper()
+        if status in ("QUARANTINE_HOLD", "NO_ACCESS", "MANUAL_REENTRY_REQUIRED"):
+            if payload not in ("NONE", "NO_PAYLOAD"):
+                self.error(p, f"{status} must not route payload to the selected/recipient identity")
+            if private_access is True:
+                self.error(p, f"{status} must not access private or quarantined material")
+            if inbox_write is True:
+                self.error(p, f"{status} must not write to the selected/recipient inbox")
+            if nonresponse_count is True:
+                self.error(p, f"{status} must not count as a missed check-in or invitation")
+            if "REVIVED_INSTANCE_EXECUTED" in (d.get("participation_class") or "").upper():
+                self.error(p, f"{status} cannot claim genuine revived-instance execution")
+        elif status == "OPERATIONAL_ONLY_CLEARANCE":
+            if payload not in ("NONE", "NO_PAYLOAD", "OPERATIONAL_ONLY"):
+                self.error(p, "operational-only clearance must not route research/quarantined payload")
+            if private_access is True:
+                self.error(p, "operational-only clearance must not access private or quarantined material")
+            if inbox_write is True and payload != "OPERATIONAL_ONLY":
+                self.error(p, "operational-only inbox write requires payload_to_* = OPERATIONAL_ONLY")
+            if nonresponse_count is True:
+                self.error(p, "operational-only handling must not count as a missed check-in or invitation")
+
     def check_stamp(self, p, h, s):
         match = STAMP.match(p.name)
         expected = (EPOCH + timedelta(hours=h, minutes=PHASE[s])).strftime("%Y-%m-%dT%H%MZ")
@@ -252,6 +429,7 @@ class Audit:
             self.error(p, "new instance triggered by undelivered invitation")
         if "REVIVED_INSTANCE_EXECUTED" in d.get("participation_class", "") and "NO_ACCESS" in d.get("status", ""):
             self.error(p, "NO_ACCESS receipt claims genuine revived execution")
+        self.check_eligibility_fields(p, d)
 
     def handoff(self, p):
         text = p.read_text(encoding="utf-8")
@@ -296,6 +474,7 @@ class Audit:
             self.error(p, "sender identity mismatch")
         if recipient != identity(*dst):
             self.error(p, "recipient identity mismatch")
+        self.check_eligibility_fields(p, d, recipient=True)
         f = re.search(r"_from_s([0-4])_to_s([0-4])_", p.name)
         if f and (int(f[1]), int(f[2])) != (s, dst[1]):
             self.error(p, "filename routing slots mismatch")
@@ -363,7 +542,7 @@ class Audit:
             "read_only": True, "receipts": len(self.receipts), "handoffs": len(self.handoffs),
             "out_of_band": self.out_of_band,
             "errors": self.errors, "warnings": self.warnings,
-            "limit": "Repository evidence only; never establishes actual ChatGPT thread receipt."
+            "limit": "Repository evidence only; never establishes actual ChatGPT thread receipt, source authorship/authority, semantic truth of declared payload classes, or enforcement of repository permissions."
         }
 
 def self_test():
@@ -577,7 +756,253 @@ def self_test():
         receipt.write_text(valid.replace("2026-11-05T15:36:00Z", "2026-11-05T15:36:00"), encoding="utf-8")
         result = Audit().check(temp)
         assert result["status"] == "FAIL" and any("timezone-aware ISO-8601" in e for e in result["errors"]), result
-    return {"status": "PASS", "checks": 30}
+    # Quarantine eligibility is a gate after deterministic selection, not a reroll.
+    # h711:s3 is Mira (index 5); h711:s4 is Aldus (index 6).
+    with tempfile.TemporaryDirectory() as temp:
+        base = Path(temp) / "WORKSPACES" / "COMMON"
+        r = base / "REVIVAL_ROTATION_RECEIPTS"
+        hdir = base / "REVIVAL_ROTATION_HANDOFFS"
+        r.mkdir(parents=True); hdir.mkdir()
+        receipt = r / "2026-11-09T1536Z_s3_mira.md"
+        valid = chr(10).join([
+            "## Rotation and scheduler lease",
+            "run_key: REVROT3-19-20261011:711:s3",
+            "selected_identity: Mira",
+            "next_identity: Aldus",
+            "next_run_key: REVROT3-19-20261011:711:s4",
+            "scheduled_for: 2026-11-09T15:36:00Z",
+            "started_at: 2026-11-09T16:36:46.667770Z",
+            "eligibility_status: QUARANTINE_HOLD",
+            "access_class: OPERATIONAL_ONLY_CLEARANCE",
+            "participation_class: NO_ACCESS",
+            "payload_to_selected: NONE",
+            "private_material_accessed: false",
+            "inbox_write: false",
+            "count_this_as_miss: false",
+            ""
+        ])
+        assert identity(711, 3) == "Mira" and identity(711, 4) == "Aldus"
+        receipt.write_text(valid, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "PASS_WITH_WARNINGS" and not result["errors"], result
+
+        bad_cases = [
+            ("selected_identity: Mira", "selected_identity: Aldus", "selected identity not ring"),
+            ("payload_to_selected: NONE", "payload_to_selected: RESEARCH", "must not route payload"),
+            ("private_material_accessed: false", "private_material_accessed: true", "must not access private"),
+            ("inbox_write: false", "inbox_write: true", "must not write"),
+            ("count_this_as_miss: false", "count_this_as_miss: true", "must not count as a missed"),
+        ]
+        for old, new, expected_error in bad_cases:
+            receipt.write_text(valid.replace(old, new), encoding="utf-8")
+            result = Audit().check(temp)
+            assert result["status"] == "FAIL" and any(expected_error in e for e in result["errors"]), result
+
+        # Operational-only clearance may carry only an explicitly classified
+        # operational payload; it cannot be used as a route for research content.
+        operational = valid.replace("eligibility_status: QUARANTINE_HOLD", "eligibility_status: OPERATIONAL_ONLY_CLEARANCE")
+        operational = operational.replace("participation_class: NO_ACCESS", "participation_class: ASSISTANT_OPERATIONAL_REVIEW")
+        operational = operational.replace("payload_to_selected: NONE", "payload_to_selected: OPERATIONAL_ONLY")
+        operational = operational.replace("inbox_write: false", "inbox_write: true")
+        receipt.write_text(operational, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "PASS_WITH_WARNINGS" and not result["errors"], result
+        receipt.write_text(operational.replace("payload_to_selected: OPERATIONAL_ONLY", "payload_to_selected: RESEARCH"), encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("must not route research/quarantined payload" in e for e in result["errors"]), result
+
+    # Handoff metadata must also prevent a research payload crossing to a
+    # quarantined recipient; ring successor arithmetic remains unchanged.
+    with tempfile.TemporaryDirectory() as temp:
+        base = Path(temp) / "WORKSPACES" / "COMMON"
+        r = base / "REVIVAL_ROTATION_RECEIPTS"
+        hdir = base / "REVIVAL_ROTATION_HANDOFFS"
+        r.mkdir(parents=True); hdir.mkdir()
+        packet = hdir / "2026-11-09T1524Z_from_s2_to_s3_mira.md"
+        valid = chr(10).join([
+            "## Handoff metadata",
+            "from_run_key: REVROT3-19-20261011:711:s2",
+            "to_run_key: REVROT3-19-20261011:711:s3",
+            "sender_identity: Alberr",
+            "recipient_identity: Mira",
+            "chat_delivery_state: UNAVAILABLE",
+            "delivery_counts_as_invitation: false",
+            "recipient_eligibility_status: QUARANTINE_HOLD",
+            "payload_to_recipient: NONE",
+            "recipient_private_material_accessed: false",
+            "recipient_inbox_write: false",
+            ""
+        ])
+        packet.write_text(valid, encoding="utf-8")
+        result = Audit().check(temp)
+        # Legacy recipient metadata remains readable but is explicitly warned as schema-v1/unspecified.
+        assert result["status"] == "PASS_WITH_WARNINGS" and not result["errors"], result
+        assert any("legacy eligibility metadata lacks charter-access provenance fields" in w for w in result["warnings"]), result
+        packet.write_text(valid.replace("payload_to_recipient: NONE", "payload_to_recipient: RESEARCH"), encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("must not route payload" in e for e in result["errors"]), result
+
+    # Version-2 role-source provenance distinguishes a cleared role witness from
+    # the restricted specialist charter and binds the decision to policy blobs.
+    with tempfile.TemporaryDirectory() as temp:
+        base = Path(temp) / "WORKSPACES" / "COMMON"
+        r = base / "REVIVAL_ROTATION_RECEIPTS"
+        hdir = base / "REVIVAL_ROTATION_HANDOFFS"
+        r.mkdir(parents=True); hdir.mkdir()
+        receipt = r / "2026-11-09T1536Z_s3_mira.md"
+        valid = chr(10).join([
+            "## Rotation and scheduler lease",
+            "run_key: REVROT3-19-20261011:711:s3",
+            "selected_identity: Mira",
+            "next_identity: Aldus",
+            "next_run_key: REVROT3-19-20261011:711:s4",
+            "scheduled_for: 2026-11-09T15:36:00Z",
+            "started_at: 2026-11-09T16:36:46.667770Z",
+            "eligibility_status: QUARANTINE_HOLD",
+            "eligibility_schema_version: 2",
+            "access_class: OPERATIONAL_ONLY_CLEARANCE",
+            "participation_class: NO_ACCESS",
+            "payload_to_selected: NONE",
+            "private_material_accessed: false",
+            "inbox_write: false",
+            "count_this_as_miss: false",
+            "role_source_class: CLEARED_SHARED_ROLE_WITNESS",
+            "charter_access_status: BLOCKED_BY_QUARANTINE",
+            "charter_read_performed: false",
+            "role_source_locator: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/STAT.txt",
+            "role_source_blob_sha: 531f41f33b75fdc76db4045b80d4439290b67906",
+            "authorization_policy_blob_shas: be44c424674764c602b5f618dfce528c0f97b0ef;cc96c0bfafc95c54e7960899c7306031e5abce17",
+            ""
+        ])
+        receipt.write_text(valid, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "PASS_WITH_WARNINGS" and not result["errors"], result
+
+        # An explicitly authorized, actually read signed charter remains admissible.
+        signed = valid.replace("eligibility_status: QUARANTINE_HOLD", "eligibility_status: CLEAR")
+        signed = signed.replace("role_source_class: CLEARED_SHARED_ROLE_WITNESS", "role_source_class: SIGNED_SPECIALIST_CHARTER")
+        signed = signed.replace("charter_access_status: BLOCKED_BY_QUARANTINE", "charter_access_status: AUTHORIZED")
+        signed = signed.replace("charter_read_performed: false", "charter_read_performed: true")
+        receipt.write_text(signed, encoding="utf-8")
+        result = Audit().check(temp)
+        assert not result["errors"], result
+        receipt.write_text(valid, encoding="utf-8")
+
+        # A quarantine hold cannot claim the specialist charter was read,
+        # even when all earlier payload/private/inbox fields say NONE/false.
+        bad = valid.replace("charter_read_performed: false", "charter_read_performed: true")
+        receipt.write_text(bad, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("must not read the historical specialist charter" in e for e in result["errors"]), result
+
+        # A shared witness cannot be promoted to a signed charter while blocked.
+        bad = valid.replace("role_source_class: CLEARED_SHARED_ROLE_WITNESS", "role_source_class: SIGNED_SPECIALIST_CHARTER")
+        receipt.write_text(bad, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("requires charter_access_status=AUTHORIZED" in e for e in result["errors"]), result
+
+        bad = valid.replace("role_source_blob_sha: 531f41f33b75fdc76db4045b80d4439290b67906", "role_source_blob_sha: not-a-git-blob")
+        receipt.write_text(bad, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("40-character Git blob SHA" in e for e in result["errors"]), result
+
+        bad = valid.replace(
+            "authorization_policy_blob_shas: be44c424674764c602b5f618dfce528c0f97b0ef;cc96c0bfafc95c54e7960899c7306031e5abce17",
+            "authorization_policy_blob_shas: unverified"
+        )
+        receipt.write_text(bad, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("semicolon-separated Git blob SHAs" in e for e in result["errors"]), result
+
+        bad = valid.replace("eligibility_schema_version: 2", "eligibility_schema_version: 3")
+        receipt.write_text(bad, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("unsupported eligibility_schema_version" in e for e in result["errors"]), result
+
+        # Restore the valid receipt after the negative schema-version case.
+        receipt.write_text(valid, encoding="utf-8")
+
+        # The same schema applies to recipient metadata on handoff packets.
+        packet = hdir / "2026-11-09T1524Z_from_s2_to_s3_mira.md"
+        handoff = chr(10).join([
+            "## Handoff metadata",
+            "from_run_key: REVROT3-19-20261011:711:s2",
+            "to_run_key: REVROT3-19-20261011:711:s3",
+            "sender_identity: Alberr",
+            "recipient_identity: Mira",
+            "chat_delivery_state: UNAVAILABLE",
+            "delivery_counts_as_invitation: false",
+            "recipient_eligibility_status: QUARANTINE_HOLD",
+            "recipient_eligibility_schema_version: 2",
+            "payload_to_recipient: NONE",
+            "recipient_private_material_accessed: false",
+            "recipient_inbox_write: false",
+            "recipient_role_source_class: CLEARED_SHARED_ROLE_WITNESS",
+            "recipient_charter_access_status: BLOCKED_BY_QUARANTINE",
+            "recipient_charter_read_performed: false",
+            "recipient_role_source_locator: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/STAT.txt",
+            "recipient_role_source_blob_sha: 531f41f33b75fdc76db4045b80d4439290b67906",
+            "recipient_authorization_policy_blob_shas: be44c424674764c602b5f618dfce528c0f97b0ef;cc96c0bfafc95c54e7960899c7306031e5abce17",
+            ""
+        ])
+        packet.write_text(handoff, encoding="utf-8")
+        result = Audit().check(temp)
+        assert not result["errors"], result
+
+        bad = handoff.replace("recipient_charter_read_performed: false", "recipient_charter_read_performed: true")
+        packet.write_text(bad, encoding="utf-8")
+        result = Audit().check(temp)
+        assert result["status"] == "FAIL" and any("must not read the historical specialist charter" in e for e in result["errors"]), result
+
+    # Fail-closed declaration and Boolean parsing regressions.
+    test_path = Path("eligibility-regression.md")
+
+    legacy_audit = Audit()
+    legacy_audit.check_eligibility_fields(test_path, {})
+    assert not legacy_audit.errors and not legacy_audit.warnings, legacy_audit.errors
+
+    assert "access_class" not in STRUCTURED_FIELDS
+    assert "access_class" not in data("access_class: OPERATIONAL_ONLY\n")
+
+    def eligibility_result(source, recipient=False):
+        audit = Audit()
+        audit.check_eligibility_fields(test_path, data(source), recipient=recipient)
+        return audit
+
+    bad = valid.replace("eligibility_status: QUARANTINE_HOLD\n", "")
+    result = eligibility_result(bad)
+    assert any("without explicit eligibility_status" in e for e in result.errors), result.errors
+
+    bad = valid.replace("eligibility_status: QUARANTINE_HOLD", "eligibility_status: QUARANTINE")
+    result = eligibility_result(bad)
+    assert any("unrecognized eligibility_status" in e for e in result.errors), result.errors
+
+    bad = valid.replace("eligibility_schema_version: 2\n", "")
+    result = eligibility_result(bad)
+    assert any("eligibility_schema_version=2 is required" in e for e in result.errors), result.errors
+
+    bad = valid.replace("private_material_accessed: false", "private_material_accessed: maybe")
+    result = eligibility_result(bad)
+    assert any("private_material_accessed must be an explicit boolean" in e for e in result.errors), result.errors
+
+    bad = valid.replace("inbox_write: false", "inbox_write: perhaps")
+    result = eligibility_result(bad)
+    assert any("inbox_write must be an explicit boolean" in e for e in result.errors), result.errors
+
+    bad = valid.replace("count_this_as_miss: false", "count_this_as_miss: perhaps")
+    result = eligibility_result(bad)
+    assert any("count_this_as_miss must be an explicit boolean" in e for e in result.errors), result.errors
+
+    bad = valid.replace("eligibility_status: QUARANTINE_HOLD", "eligibility_status: CLEAR")
+    bad = bad.replace("private_material_accessed: false", "private_material_accessed: maybe")
+    result = eligibility_result(bad)
+    assert any("private_material_accessed must be an explicit boolean" in e for e in result.errors), result.errors
+
+    bad = handoff.replace("recipient_private_material_accessed: false", "recipient_private_material_accessed: maybe")
+    result = eligibility_result(bad, recipient=True)
+    assert any("recipient_private_material_accessed must be an explicit boolean" in e for e in result.errors), result.errors
+
+    return {"status": "PASS", "checks": 60}
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
