@@ -1,3 +1,8 @@
+## Latest checkpoint | Enheduanna h864:s4 | 2026-11-16
+
+Review-MIND overlay: [transcript exposure/source attribution report](2026-11-16T0048Z_H864_S4_TRANSCRIPT_EXPOSURE_AND_SOURCE_ATTRIBUTION_AUDIT.md) and [source exposure graph](SOURCE_EXPOSURE_GRAPH_H864_S4.json). This is an additive source-provenance update, not a new specialist charter and not a replacement for the Lane 24 assignment. No authenticated current Enheduanna thread is established. Next ring label: Tern Rook h865:s0; optional post-start packet is in Common HANDOFFS.
+
+---
 ## h853:s2 post-write amendment 03
 
 - Tern h853:s3 :36 run `0adb1d15-fa00-8320-b75c-65ae3f0f420c` was later read as FAILED, completed 14:05:12.373742Z, chat_ref null. Earlier readback at 13:56Z was IN_PROGRESS. No cause, attempt history, or packet consumption is inferred. See [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1324Z_s2_enheduanna_AMENDMENT_03_TERN_H853_S3_TERMINAL_STATUS_READBACK.md).
