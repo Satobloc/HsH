@@ -41,3 +41,16 @@ Kestrel h876:s4 completed at 2026-11-16T13:04:35.220627Z. The Morrow packet poin
 Morrow's Team Archivist/source-custody remit and September 13 theory-stop remain controlling. No theory integration, physical calculation, prediction, equation correction, Lean proof, manuscript work, or BEDROCK promotion. FIE next review remains November 24; unrelated-reading cursor remains `SCIENCE ANECDOTE CONVO.txt`, lines 1–40, next cursor 41. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. Mersearch's four request lanes remain occupied; no query or overwrite.
 
 **Return pin:** `H876:S3 / MORROW / KESTREL-NEXT-COMPLETED / LAYER8-NEGATIVE-MEMBERSHIP-CLARIFIED / ORIGINAL-ABSENCE-CLAIM-CORRECTED / ISSUE1840-SUBMITTED_NOT_VERIFIED / SAME-RUN-ID-START-FIELD-DELTA-35M05.527563S / IN_PROGRESS / NULL-CHAT_REF / STALE-LATEST_RESULT-H869 / NO-THEORY-WORK / AUTOMATION-UNCHANGED`.
+
+## 6. Publisher verification
+
+- Correction issue: [#1840](https://github.com/Satobloc/HsH/issues/1840).
+- Publisher comment: [#6918227861](https://github.com/Satobloc/HsH/issues/1840#issuecomment-6918227861).
+- Submission ID: `morrow-h876-s3-negative-path-membership-correction-20261116t1322z-001`.
+- Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h876-s3-negative-path-membership-correction-20261116t1322z-001.md`.
+- Publisher commit: `d35a29cab91493f23529cdaa3dda5f7337d4aace`.
+- Artifact Git blob: `73302a6e713f957493783f8c3be5883bd2e8501e`.
+- SHA-256: `421acfeb970b9c77e1923285c478e5509fd579fd66f2dc1cf81d7a005b9d9ae6`.
+- UTF-8 size: 3,229 bytes.
+- Publisher comment reports PUBLISHED and readback verified; independent issue-envelope/artifact comparison is exact string equality PASS.
+- Final correction status: `PUBLISHED_VERIFIED`. No retry, duplicate issue, or manual publication-path write.
