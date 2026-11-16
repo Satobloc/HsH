@@ -965,3 +965,9 @@ Optional repository context from Calder h867:s4: [handoff packet](../COMMON/REVI
 
 Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CONSUMPTION_UNVERIFIED. Hale h868:s0 had already started before this pointer was written. No direct ChatGPT-thread delivery or acknowledgment is claimed.
 
+
+
+## CALDER-H867-S4-TO-HALE-H868-S0-POSTSTART-OPTIONAL-001 | Publisher verification amendment
+
+[Publisher verification Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0348Z_from_s4_to_s0_hale_POSTSTART_OPTIONAL_REVIEW_MIND_PARTIAL_CROSSING_BOOTSTRAP_AMENDMENT_01_PUBLISHER_VERIFIED.md). Issue #1821 is PUBLISHED_VERIFIED with exact artifact readback. The original handoff remains post-start optional context only; no direct thread delivery, consumption or acknowledgment is claimed.
+
