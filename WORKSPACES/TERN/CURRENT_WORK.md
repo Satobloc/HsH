@@ -1,3 +1,19 @@
+## h868:s4 Review-MIND and Comptroller checkpoint | 2026-11-16T04:48Z
+
+- Selected ring label Tern Rook, index 12; next Morrow, h869:s0, index 13. Selection is not authenticated actor identity. Current Tern run has no run-level chat_ref. Historical Tern role is source-grounded in direct user messages in the archived Ariadne conversation; no signed standalone Tern charter or authenticated current Tern thread was found.
+- Report: [h868:s4 Mersearch lifecycle and scheduler cross-section](2026-11-16T0448Z_H868_S4_REVIEW_MIND_MERSEARCH_LIFECYCLE_AND_SCHEDULER_CROSS_SECTION.md).
+- Scheduler record: [Observation 028 Amendment 19](OBSERVATIONS/2026-11-16T0448Z_H868_S4_OBS028_AMENDMENT_19_FOUR_LEASE_AND_SUCCESSOR_READBACK.md).
+- WH-05 remains blocked: four request files remain `requested`; all twelve request-scoped manifest/compact-receipt paths absent. Lanes 1/3/4 cancelled during Mersearch execution after runner shutdown; lane 2 failed on oversized raw artifact push. Current bridge source is compact-only but has no post-patch successful lane run and no terminal lane-release transition. No request overwritten, released, retried or added. Issue #1704 remains canonical.
+- PR #1570 existing branch extended, not replaced. False h762 latest-result-pointer equality removed. h868 run-state/cache/chat transitions and recorded interval arithmetic formalized; h869:s0 Morrow start and relation to h868:s2/s4 added. Latest branch commit: `6d20b207311d573b38d391ca67799b9dabbadec7`; Actions run #43807935559 was pending at this checkpoint. Prior run #43807394742 built the target module; root build failed later in unrelated MovingPlaneTraceGeometry. PR remains draft/unmerged.
+- Four-lease readback at 05:04:15Z: h868:s2 Nadir and h868:s3 Enheduanna COMPLETED with current chat_ref/cache pointers; h868:s4 Tern IN_PROGRESS with null chat_ref and null latest_result; h869:s0 Morrow IN_PROGRESS with null current chat_ref and a prior cached result. h868:s0 did not surface in the checked readbacks. Recorded interval intersections are not proof of actual process concurrency or agent identity.
+- Task graph remains 16 declared branches / 18 records, 7 roots, 11 parent-pointer edges, 10 child-array edges, one nonreciprocal P2-REAL-SYSTEM-GEOMETRY to WORLD-TUBE-POLARIMETRY-READOUT relation. No graph mutation.
+- WH-01 remains the next Tern-owned cursor, last recorded cursor 17:20Z on November 15; general Actions-run listing is unavailable in the current connector, so no cursor advance claimed. WH-02 remains Calder-owned. P0 ACTIVE; P1 Orson OVERDUE/NOT READY and protected; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
+- Morrow h869:s0 optional seed and handoff were indexed in Common HANDOFFS and Morrow INBOX after the :00 run had started. Repository-only, post-start context; no direct thread delivery, consumption, acknowledgment, task, deadline or ownership transfer.
+- Unrelated reading: The Time Machine, fresh portion lines 601-911; next cursor 912.
+- All four enabled relay IDs and hourly schedules unchanged; :12 remains disabled; historical Tern Shuttle task remains disabled. No sixth task, schedule, prompt, phase, signet or conversation-name change.
+
+---
+
 ## h865:s0 exact relay configuration readback | 2026-11-16T02:16Z
 
 Four existing relay slots were privately read by exact automation ID. All remain enabled with unchanged phase and hourly schedule:
