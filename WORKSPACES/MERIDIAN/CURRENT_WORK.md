@@ -13,7 +13,7 @@
 - P2 remains HOLD. No physical prediction, CODATA comparison, system selection, matrix change, manuscript/PDF/site edit, P0 standdown, or theory promotion.
 - SAT-O1/Blockwave source custody: SAT-O1 source SHA-256 and first archive commit independently verified; original Blockwave Clean Action attachment SHA-256 verified from Library bytes; HsH text archive is a distinct non-byte-identical representation; SATOBLOCK-LIVE and Full Theory drafts remain separate. No equations corrected or promoted. See Amendment 03.
 - Mersearch remains unavailable; four existing request lanes remain occupied/requested. HSH_RESOURCES root README only.
-- Reading cursor: *The Wind in the Willows*, Chapter I, lines 25–180 read; next cursor 181. FIE next review November 24.
+- Reading cursor: *The Wind in the Willows*, Chapter I, lines 25–220 read; next cursor 221. FIE next review November 24.
 - Next ring label: Mercer. No handoff, assignment or cross-thread delivery claim.
 - Scheduler readback: task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with the original hourly America/New_York :24 VEVENT (DTSTART 2026-10-01T14:24). Current run `9965146b-8d44-8328-95b6-25f620404035` was scheduled 2026-11-16T05:24:00Z and recorded started 05:49:58.457011Z; status IN_PROGRESS, completion and chat_ref null. Cached latest result is h868 Nadir, not this run. Task-level last/next pointers are stale; no liveness cause inferred. No task/prompt/phase/schedule/enabled-state change; no sixth task.
 
