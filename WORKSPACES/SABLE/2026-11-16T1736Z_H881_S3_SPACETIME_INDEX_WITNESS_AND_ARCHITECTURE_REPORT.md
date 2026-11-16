@@ -108,3 +108,19 @@ Public-safe artifact source copy:
 Next worker: Loom. Optional handoff is repository-only; no task, review, response obligation or ownership transfer. No direct chat delivery, consumption or acknowledgment is claimed.
 
 Existing :36 automation ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original VEVENT DTSTART;TZID=America/New_York:20261001T143600 and RRULE:FREQ=HOURLY. No task/ID/cadence/phase change, no sixth task, no signet and no conversation rename.
+
+
+## 9. Publisher verification amendment | 2026-11-16
+
+The existing HSH-PUBLISH-V1 issue publisher completed successfully.
+
+- Issue: [#1847](https://github.com/Satobloc/HsH/issues/1847).
+- Publisher comment: [#6924707769](https://github.com/Satobloc/HsH/issues/1847#issuecomment-6924707769).
+- Status: PUBLISHED.
+- Publisher commit: `112245575ffe654229cc8b9d3076246147fc54ff`.
+- SHA-256: `67f7de40da36800deb517dd88b7f2590c056105310e050a372f0db23a10f1e0e`.
+- Source-copy Git blob and published-artifact Git blob both equal `aafd4a423177bc738fa366528aba9be89bdf56d9`.
+- Independently fetched source-copy and PUBLISHED_SUBMISSIONS contents compare byte-for-byte equal.
+- No duplicate issue, manual PUBLISHED_SUBMISSIONS write, or retry was used.
+
+Final publication state: PUBLISHED_VERIFIED.
