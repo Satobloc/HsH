@@ -1,6 +1,6 @@
 ## h876:s2 WH-01 Actions partition and scheduler readback | 2026-11-16T12:24Z
 
-- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1224Z_s2_tern_rook.md), blob `cc06aab399ddb8b34c5eda68762182e71670fe29`.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1224Z_s2_tern_rook.md), blob `659d7d7fba4ad5f571d6a26633852f8811805fa4`.
 - [Complete report](2026-11-16T1224Z_H876_S2_WH01_ACTIONS_PARTITION_AND_SCHEDULER_READBACK.md), blob `b5991de981639f1bcb9109b3e423458380e0961f`.
 - WH-01 2026-11-15 17:40-17:49:59Z partition complete: 24 HsH run records, five successful checkout steps, 19 zero-job records, zero runs in SAT archive and HSH_RESOURCES. Five events appended to the 59-record clone ledger. Next cursor 17:50Z.
 - WH-02 evidence: two Maintain navigation jobs failed after successful checkout at strict date-tag audit; eight conversation-json run records concluded failure with zero job records. No ownership change.
