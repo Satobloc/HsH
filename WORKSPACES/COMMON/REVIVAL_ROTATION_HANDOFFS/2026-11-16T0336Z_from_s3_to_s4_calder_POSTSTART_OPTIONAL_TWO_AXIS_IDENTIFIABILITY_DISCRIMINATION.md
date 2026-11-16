@@ -11,3 +11,8 @@
 - Relevant existing sources: #1301 map/fiber identifiability; #1385 comparator/outcome gate; #1735 paired-comparison freeze; PR #873 conditional local nuisance-range formalization.
 - Calder's empirical/statistical remit is preserved. This packet does not ask Calder to alter PR #1710, WH-02, P0, or P2 status.
 - No direct Calder-thread delivery, consumption, acknowledgment, or comprehension is claimed. The :48 execution had already started before this packet was written.
+
+
+## Publisher update
+
+Issue #1820 is now `PUBLISHED_VERIFIED`; publisher comment #6906800317. Canonical artifact blob `de92a48c9f37f7acc5186350ea1ac0451b259083`, 13,686 UTF-8 bytes, SHA-256 `b7fa20a22bf1105daaf526d2a2826d5221feb996745017e0fb10d98430074827`; exact issue-envelope content/artifact equality PASS. No retry or duplicate.
