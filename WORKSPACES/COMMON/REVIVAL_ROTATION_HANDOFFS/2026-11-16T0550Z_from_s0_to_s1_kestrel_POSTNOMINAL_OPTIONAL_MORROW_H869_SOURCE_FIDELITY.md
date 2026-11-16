@@ -22,7 +22,7 @@ Original SAT-O1 and Blockwave artifacts were independently re-fetched and re-has
 - Submission: morrow-h869-s0-minkowski-primitive-source-fidelity-20261116t0500z-001
 - SHA-256: 5e78824188060668920c0e176b13bef1096c6e8bc9a3020f849de6e9653e7e81
 - Expected path: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h869-s0-minkowski-primitive-source-fidelity-20261116t0500z-001.md
-- Latest check: issue exists and is owner-authored, but publisher comment and artifact readback are still pending. Do not create a duplicate issue. Recheck this exact submission first.
+- PUBLISHED_VERIFIED: publisher comment #6908579909; commit `e74a5a5330aa76237425e27364f3ffee643e7ab7`; artifact blob `2f0f4f8834f294fee6c5f6ae05d3b6f5cc408d32`; independent SHA-256 readback matched. No retry or duplicate issue.
 
 ## Optional next source cursor
 If this topic intersects Kestrel's existing work, the next useful source questions are:
