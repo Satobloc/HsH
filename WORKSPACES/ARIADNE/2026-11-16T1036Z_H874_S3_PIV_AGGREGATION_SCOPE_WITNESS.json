@@ -1,0 +1,60 @@
+{
+  "schema": "hsh-aggregation-scope-evidence-v0.1",
+  "case_id": "JFM-2026-11199-section-3.4.1",
+  "source": {
+    "citation": "Jackson and Thomas, An experimental study investigating the inertial-wave field accompanying vortex rings translating through a rotating fluid, Journal of Fluid Mechanics 1029 (2026), A47",
+    "doi": "10.1017/jfm.2026.11199",
+    "section": "3.4.1",
+    "source_class": "published_article_text",
+    "raw_dataset_retrieved": false
+  },
+  "source_statements": [
+    {
+      "statement": "149 x 239 spatial grid; 3600 images/time indices per experiment",
+      "evidence_class": "EXPLICIT_SOURCE",
+      "scope_interpretation": "EXPERIMENT_SCOPE_AS_WRITTEN"
+    },
+    {
+      "statement": "ten runs per condition; ten run-level propagation-angle values averaged",
+      "evidence_class": "EXPLICIT_SOURCE",
+      "scope_interpretation": "RUN_LEVEL_ANGLE_AVERAGING"
+    },
+    {
+      "statement": "approximately 12.8 x 10^8 entries for a frequency-filtered velocity field",
+      "evidence_class": "EXPLICIT_SOURCE",
+      "scope_interpretation": "FIELD_SCOPE_AMBIGUOUS"
+    }
+  ],
+  "derived_counts": {
+    "spatial_points_per_frame": 35611,
+    "time_indices_per_field": 3600,
+    "entries_per_3600_index_field": 128199600,
+    "ten_field_total_if_aggregated": 1281996000,
+    "reported_rounded_entries": 1280000000,
+    "ten_field_total_relative_difference": 0.001559375
+  },
+  "aggregation_scope_claims": [
+    {
+      "candidate_scope": "PER_RUN",
+      "basis": "CONTEXTUAL_SOURCE",
+      "assertion_status": "INFERRED_NOT_VERIFIED"
+    },
+    {
+      "candidate_scope": "ACROSS_RUNS",
+      "basis": "ARITHMETIC_MATCH_ONLY",
+      "assertion_status": "UNRESOLVED"
+    }
+  ],
+  "rule": "ARITHMETIC_MATCH_ONLY never establishes aggregation scope.",
+  "missing_evidence": [
+    "per-run raw PIV arrays",
+    "processing manifest",
+    "run-level covariance",
+    "explicit aggregation operator and contributing-run set"
+  ],
+  "physical_model_calculation": false,
+  "fit": false,
+  "hsh_prediction": false,
+  "independent_measurement": false,
+  "p2_status": "HOLD"
+}
