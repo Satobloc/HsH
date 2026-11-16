@@ -11,19 +11,20 @@ arXiv:2610.01042v1 (2026-10-01), §§3.2–3.3, equations (5)–(8).
 This is an external-comparator formalization. It does not alter the frozen
 ConsistencyBench P1 empirical scope and is not P1 data.
 
-Lean checks only the encoded metric identities and conditional finite-mixture
-bound. It does not validate the source transcription, experiment, bootstrap,
-causal interpretation, message use, or internal cognition.
+Lean checks only the encoded metric identities and conditional four-stratum
+mixture bound. It does not validate the source transcription, experiment,
+bootstrap, causal interpretation, message use, or internal cognition.
 -/
 
 namespace HsHVerification
 namespace OrsonICRSelectiveRevision
 
+noncomputable section
+
 /-- The two mixed-correctness revision rates used by ICR. -/
 structure RevisionProfile where
   correction : ℝ
   preservation : ℝ
-deriving DecidableEq
 
 /-- Corruption is the complement of preservation. -/
 def corruptionRate (p : RevisionProfile) : ℝ :=
@@ -93,7 +94,7 @@ def compensatingTransfer (δ : ℝ) (p : RevisionProfile) : RevisionProfile :=
 theorem selectivity_invariant_under_compensating_transfer
     (δ : ℝ) (p : RevisionProfile) :
     selectivityIndex (compensatingTransfer δ p) = selectivityIndex p := by
-  simp [selectivityIndex, compensatingTransfer]
+  unfold selectivityIndex compensatingTransfer
   ring
 
 /-- Equal selectivity is exactly equality of the sum of the two rates. -/
@@ -119,45 +120,33 @@ theorem mixed_direction_accuracy_eq_selectivity
   unfold postRevisionAccuracy selectivityIndex
   ring
 
-/-- The four initial-correctness strata used by ICR's law-of-total-probability
-decomposition. -/
-inductive InitialCorrectnessStratum where
-  | bothWrong
-  | receiverWrongSenderRight
-  | receiverRightSenderWrong
-  | bothRight
-deriving DecidableEq, Fintype
-
-/-- Finite weighted mean of the post-revision correctness rates over the four
-initial-correctness strata. -/
-def weightedRevisionAccuracy
-    (w r : InitialCorrectnessStratum → ℝ) : ℝ :=
-  ∑ s : InitialCorrectnessStratum, w s * r s
-
-/-- A normalized nonnegative mixture of stratum-specific probabilities remains
-in [0,1]. This is conditional mathematics, not an empirical result. -/
-theorem weighted_revision_accuracy_bounded
-    (w r : InitialCorrectnessStratum → ℝ)
-    (hw : ∀ s, 0 ≤ w s)
-    (hr0 : ∀ s, 0 ≤ r s)
-    (hr1 : ∀ s, r s ≤ 1)
-    (hsum : ∑ s : InitialCorrectnessStratum, w s = 1) :
-    0 ≤ weightedRevisionAccuracy w r ∧
-      weightedRevisionAccuracy w r ≤ 1 := by
-  classical
+/-- If the four initial-correctness weights are nonnegative and normalized,
+and each stratum-specific post-revision rate lies in [0,1], the Eq. (8)
+aggregate accuracy also lies in [0,1]. -/
+theorem post_revision_accuracy_bounded
+    (w01 w10 w00 w11 cr pr sr scr : ℝ)
+    (hw01 : 0 ≤ w01) (hw10 : 0 ≤ w10)
+    (hw00 : 0 ≤ w00) (hw11 : 0 ≤ w11)
+    (hsum : w01 + w10 + w00 + w11 = 1)
+    (hcr0 : 0 ≤ cr) (hcr1 : cr ≤ 1)
+    (hpr0 : 0 ≤ pr) (hpr1 : pr ≤ 1)
+    (hsr0 : 0 ≤ sr) (hsr1 : sr ≤ 1)
+    (hscr0 : 0 ≤ scr) (hscr1 : scr ≤ 1) :
+    0 ≤ postRevisionAccuracy w01 w10 w00 w11 cr pr sr scr ∧
+      postRevisionAccuracy w01 w10 w00 w11 cr pr sr scr ≤ 1 := by
   constructor
-  · unfold weightedRevisionAccuracy
-    exact Finset.sum_nonneg (fun s hs => mul_nonneg (hw s) (hr0 s))
-  · unfold weightedRevisionAccuracy
-    calc
-      (∑ s : InitialCorrectnessStratum, w s * r s) ≤
-          ∑ s : InitialCorrectnessStratum, w s := by
-        apply Finset.sum_le_sum
-        intro s hs
-        have hnonneg : 0 ≤ w s * (1 - r s) :=
-          mul_nonneg (hw s) (sub_nonneg.mpr (hr1 s))
-        nlinarith
-      _ = 1 := hsum
+  · unfold postRevisionAccuracy
+    positivity
+  · unfold postRevisionAccuracy
+    have h01 : w01 * cr ≤ w01 := by
+      nlinarith [mul_nonneg hw01 (sub_nonneg.mpr hcr1)]
+    have h10 : w10 * pr ≤ w10 := by
+      nlinarith [mul_nonneg hw10 (sub_nonneg.mpr hpr1)]
+    have h00 : w00 * sr ≤ w00 := by
+      nlinarith [mul_nonneg hw00 (sub_nonneg.mpr hsr1)]
+    have h11 : w11 * scr ≤ w11 := by
+      nlinarith [mul_nonneg hw11 (sub_nonneg.mpr hscr1)]
+    nlinarith
 
 #print axioms selectivity_centered_identity
 #print axioms selectivity_bounded
@@ -167,7 +156,8 @@ theorem weighted_revision_accuracy_bounded
 #print axioms selectivity_invariant_under_compensating_transfer
 #print axioms selectivity_equal_iff_sum_equal
 #print axioms mixed_direction_accuracy_eq_selectivity
-#print axioms weighted_revision_accuracy_bounded
+#print axioms post_revision_accuracy_bounded
 
+end
 end OrsonICRSelectiveRevision
 end HsHVerification
