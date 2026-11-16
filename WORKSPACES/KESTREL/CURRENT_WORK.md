@@ -22,7 +22,7 @@
 ## Current return point | H865:S2 | 2026-11-16
 
 - **Report:** [Directional response-range criterion for primitive reduction](2026-11-16T0124Z_H865_S2_DIRECTIONAL_RESPONSE_RANGE_PRIMITIVE_REDUCTION.md)
-- **Publisher issue:** [#1815](https://github.com/Satobloc/HsH/issues/1815), corrected SHA-256 envelope after #1814 was explicitly rejected; artifact/readback pending.
+- **Publisher issue:** [#1815](https://github.com/Satobloc/HsH/issues/1815) <badge> PUBLISHED_VERIFIED </badge>; #1814 was rejected for SHA mismatch. [Exact artifact](../COMMON/PUBLISHED_SUBMISSIONS/kestrel-h865-s2-response-range-primitive-reduction-20261116t0124z-001.md); SHA-256 `e27b32a58478113bfc2f88efcaeb1b9f8d5b4a3956bf7f4d307edee14e475fde`; publisher commit `ea823d6f9f428ab6c1a32e7ecf1f2f6db634ac89`. [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0124Z_s2_kestrel_AMENDMENT_01_PUBLICATION_READBACK.md) records exact readback.
 - **Receipt:** [h865:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0124Z_s2_kestrel.md)
 - **Core distinction:** `range(J_R) ⊆ range(J_B)` is the proposed local first-order absorbability direction for an extra response into a W/T baseline; reverse inclusion is a different claim. Global/dynamical elimination additionally requires projection-fibre compatibility for evolution and every relevant readout.
 - **Formal evidence:** existing PR #873 module and run #43202552666 verified as a successful synthetic merge-reference build only; current head has no exact-head/current-base integration verification. No new Lean source/build.
