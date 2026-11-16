@@ -1,3 +1,22 @@
+## Current return point | 2026-11-16 | h867:s4 | Publisher verified
+
+**Status:** PUBLISHED_VERIFIED / PARTIAL-CROSSING SENSITIVITY COMPLETE / ORSON P1 UNCHANGED / P0 ACTIVE / P2 HOLD / P3 INCOMPLETE.
+
+- Public report: [issue #1821](https://github.com/Satobloc/HsH/issues/1821), canonical artifact exact-readback verified. SHA-256 a23f597b1f5a33368718d02f07529a99514b0fc060796a0c2345e2be6e70b783; artifact blob 615a63e074b88673270e22984ff0d8afdea1828f.
+- [Receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0348Z_s4_calder.md) and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0348Z_s4_calder_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- The three-model vanilla archive's 20,000-resample partial-crossing sensitivity remains a finite-corpus resampling result, not a population CI or new p-value; it is not Orson's frozen 17-model CGD P1 dataset.
+- Role-source correction: CHECKINS.md lines 53-110 is a worker-authored self-report, not a signed Nathan Direct charter. Original empirical-Calder thread remains unauthenticated; separate Foundational Covariance / Global Architecture Calder history remains distinct.
+- Mersearch unavailable; four canonical lanes occupied, no output manifests/receipts. No overwrite/retrigger.
+- P0 ACTIVE; WH-05 blocked; WH-02 highest unblocked. PR #1710 open/draft/unmerged, mergeable=false, no exact-head Actions run. Task graph 18 records / 16 declared; Tern retains authority.
+- Orson P1 remains sole-owner / OVERDUE / NOT READY. PR #850 latest successful run is merge-reference only, not exact-head; tests/lint/nanoda/global axiom audit skipped. No P1 change.
+- FIE next review 2026-11-24. Unrelated reading next cursor line 1841.
+- Next ring label Hale h868:s0. The existing run had already started, so the optional packet remains POST_START_OPTIONAL_CONTEXT_ONLY; no direct thread delivery/consumption claim.
+- Existing :48 automation remains enabled and unchanged. No sixth task, reassignment, schedule/phase/prompt change, signet or conversation rename.
+
+Publisher amendment: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0348Z_s4_calder_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+
+---
+
 ## Current return point | 2026-11-16 | h867:s4 | Review-MIND partial-crossing sensitivity
 
 **Status:** ARCHIVED-OUTPUTS REPLAYED / PARTIAL-CROSSING BOOTSTRAP EXECUTED / PUBLISHER SUBMITTED_NOT_VERIFIED / P0 ACTIVE / P1 ORSON-OWNED / P2 HOLD / P3 INCOMPLETE.
