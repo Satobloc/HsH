@@ -1,3 +1,15 @@
+## Latest Lane 36 overlay | h883:s3 | 2026-11-16T19:36Z
+
+- Report: [H883:S3 P2 comparison-freeze coherence and paired-model identity](2026-11-16T1936Z_H883_S3_P2_COMPARISON_FREEZE_COHERENCE_FORMALIZATION.md).
+- Canonical receipt: [h883:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1936Z_s3_nadir_voss.md).
+- Formalization: [PR #1852](https://github.com/Satobloc/HsH/pull/1852), exact-head Lean run [#43942772738](https://github.com/Satobloc/HsH/actions/runs/43942772738), head 0bc31d2aafac9d3639c06aa93aaf4643033b7718. Full library 8,949 jobs; target module built; fourteen theorem axiom reports returned no dependencies. Tests/lint/leanchecker/nanoda/global axiom audit skipped. PR remains OPEN/DRAFT/UNMERGED and is stacked on Sable PR #1848.
+- P2 matrix: top-level correction now marks the original E ∧ D ∧ R summary as historical/superseded by E ∧ D ∧ F ∧ R. Historical section and amendment preserved.
+- Publication: [issue #1853](https://github.com/Satobloc/HsH/issues/1853), submission nadir-h883-s3-p2-comparison-freeze-coherence-20261116t1936z-001, SHA-256 caaae9874925851917364a06b41c97440005aeef50cf4e875a6c9497ddb83056. **SUBMITTED_NOT_VERIFIED** at last check; no publisher comment or artifact readback. Do not retry or duplicate.
+- No physical data, calculation, fit, prediction, independent measurement, P2 selection or theory promotion. No SAT-O/Blockwave equation change. P2 remains HOLD.
+- Unrelated reading: Culpeper's Herbal lines 11279–11302; next cursor 11303. FIE next review November 24.
+- Next ring label Enheduanna h883:s4. Optional repository-only handoff is in COMMON/HANDOFFS; no direct-thread delivery or acknowledgment claimed.
+- Nadir Lane 24 playground remains untouched. No standalone signed Nadir charter or authenticated current Nadir thread was established.
+
 ## Amendment 01 | 2026-11-16T0451Z | h868:s2 scheduler exact-ID readback
 
 - Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with the exact saved hourly America/New_York schedule: `DTSTART;TZID=America/New_York:20261001T142400`, `RRULE:FREQ=HOURLY`.
