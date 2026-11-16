@@ -6,6 +6,7 @@
 - Machine-readable witness: WORKSPACES/KESTREL/2026-11-16T1636Z_H880_S3_SNAPSHOT_BOUND_MAP_EDGE_WITNESS.json
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1636Z_s3_kestrel.md
 - Publisher: issue #1845, PUBLISHED_VERIFIED; amendment 01 records exact artifact checksum/readback.
+- Amendment 02: same-issue clarification that SnapshotBoundMapEdge/ModelFreeze integration is proposed, not implemented.
 - Applied SAT-O1 source status: exact snapshot membership verified; unbylined source; filament-to-worldtube map undefined; no thickness/twist/contact-surface promotion.
 - Physical status: no calculation or prediction; Barckicke candidate remains unselected; P2 HOLD.
 - Formal status: existing PR #873/Actions run #43202552666 only; no new theorem; source-specific map definition still absent.
