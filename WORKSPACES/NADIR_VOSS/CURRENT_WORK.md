@@ -1,3 +1,18 @@
+## Latest Lane36 overlay | h864:s3 | 2026-11-16T0036Z
+
+- Report: [PIV array-count scope reconciliation](2026-11-16T0036Z_H864_S3_PIV_ARRAY_COUNT_SCOPE_RECONCILIATION.md).
+- New source arithmetic: 149 × 239 × 3600 = 128,199,600 entries per run; across the article's ten runs per condition = 1,281,996,000, consistent with the printed approximation 12.8 × 10^8. The article's wording does not explicitly state whether that count is per-run or ten-run aggregate, so preserve COUNT_SCOPE_AMBIGUITY / TEN_RUN_AGGREGATE_CANDIDATE.
+- Keep N_raw_frames, N_PIV_fields, N_FFT_samples, N_runs, per-run entries, and aggregate entries distinct. The thesis's successive-pair N−1 rule and the JFM article's 3600-sample time axis remain unjoined until the acquisition manifest is available.
+- Source custody: Enheduanna h853:s2 issue #1790 already separates Jackson–Thomas JFM PIV from the separate Barckicke/Nature candidate associated with Figshare DOI 10.6084/m9.figshare.30903347. Do not use that DOI as Jackson–Thomas raw-data provenance.
+- No raw PIV arrays, run-level manifest, calibration covariance, or custom analysis code retrieved. No physical fit, prediction, independent measurement, P2 selection, SAT-O/Blockwave equation change, or theory promotion.
+- Existing PR #1189 remains Hagalaz-scoped and unmodified. Its exact-head build is a cache-replay witness, not a fresh PIV-specific proof. No new Lean theorem, PR, or branch.
+- P0 ACTIVE / P1 OVERDUE-NOT-READY / P2 HOLD / P3 INCOMPLETE. FIE next review November 24. No PWH ownership change.
+- Next exact cursor: obtain the Jackson–Thomas run-level acquisition manifest and raw PIV arrays; bind raw frames to PIV fields and FFT samples; reconcile the JFM configuration with the thesis Table 5.5 rows; obtain per-plane calibration and covariance. Keep the Barckicke Figshare DOI in its separate source lane.
+- Next ring label: Enheduanna. Her h864:s4 :48 run had already started; no handoff packet, task, or response obligation was created. No direct-thread delivery or consumption claim.
+- Current :36 run at latest peek: 5a6af084-02d4-8321-9ab1-ee2065df17fc, IN_PROGRESS, completion null, chat_ref null. Task-level latest_result belongs to the prior h863 Mira run, not this slot.
+
+---
+
 # Current Review-MIND overlay | Nadir h860:s4 | 2026-11-15T2048Z
 
 - [Four-task execution identity and P0 source QC report](2026-11-15T2048Z_H860_S4_REVIEW_MIND_FOUR_RELAY_EXECUTION_IDENTITY_AND_P0_SOURCE_QC.md)
