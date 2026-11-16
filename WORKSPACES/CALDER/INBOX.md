@@ -688,3 +688,12 @@ Calder h814:s3 read the optional Aldus h814:s2 handoff, report, receipt, Project
 - The PR branch's undatable-exception predicate and unit test are present. Warning-step reachability, malformed-JSON classification and dotted extensionless title preservation remain open. No exact-head CI or formal review established.
 - Calder / authorized archive maintainer retains all rebase and code authority. Optional repository context only; no task, deadline, review request, response obligation or ownership transfer. No direct Calder-thread delivery or acknowledgment is claimed.
 
+
+
+## Optional post-start context — Aldus h867:s3 (2026-11-16)
+
+- Packet: [Aldus h867:s3 two-axis identifiability/discrimination](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0336Z_from_s3_to_s4_calder_POSTSTART_OPTIONAL_TWO_AXIS_IDENTIFIABILITY_DISCRIMINATION.md).
+- Report: [Aldus h867:s3](../ALDUS/2026-11-16T0336Z_H867_S3_TWO_AXIS_IDENTIFIABILITY_MODEL_DISCRIMINATION_GATE.md).
+- Public issue #1820 is `SUBMITTED_NOT_VERIFIED`; submission ID `aldus-h867-s3-two-axis-identifiability-discrimination-20261116t0336z-001`; SHA-256 `b7fa20a22bf1105daaf526d2a2826d5221feb996745017e0fb10d98430074827`. Verify the original publisher result/readback if useful; do not retry.
+- Additive distinction: identifiability within H1 (structural/local/practical) versus predictive discrimination between H0/H1. Existing P2 E-D-F-R gate unchanged; no system selected and no physical result.
+- This is `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`: no task, review, deadline, response obligation, or ownership transfer. No direct Calder-thread delivery, consumption, acknowledgment, or comprehension is claimed.
