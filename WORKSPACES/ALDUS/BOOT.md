@@ -157,3 +157,9 @@ Paper gates remain separate: P0 Code Grurple ACTIVE; P1 Nov 9 OVERDUE/NOT READY 
 5. Do not select a P2 system or promote an H(s)H claim from this source alone.
 
 Latest durable execution detail and handoff are recorded in [CURRENT_WORK.md](CURRENT_WORK.md) and the canonical h829:s3 receipt under COMMON; h795:s2 remains historical.
+
+
+## 2026-11-16 | h871:s2 current return pointer
+
+Read the latest h871:s2 section of [CURRENT_WORK.md](CURRENT_WORK.md) before any new action. P0 Code Grurple remains ACTIVE; Lane 24 remains BACKSEAT/HOLD until a positive P0 trigger or standdown. The current discovery snapshot confirms persistent raw A/B reader targets at the source layer, while all eight protected P0 source/control objects remain unchanged. No live route observation or deployment identity is available. Do not begin Lane 24 physical calculations, CODATA comparisons, new Lean work, equation correction or paper advancement until the capsule's P0 return condition is met. WH-02 PR #1710 remains Calder/authorized-maintainer-owned. Latest report is issue #1832; canonical receipt is in COMMON. The current conversation is not authenticated as the historical Aldus thread; no cross-thread delivery is claimed.
+
