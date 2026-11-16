@@ -1568,3 +1568,19 @@ The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission laye
 - The audit comment #6905812995 records the exact hashes and no-retry decision. Canonical receipt updated; Amendment 01 stored at `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0224Z_s2_sable_AMENDMENT_01_PUBLISHER_REJECTION_AND_DIGEST_RECONCILIATION.md`.
 
 - **Queue evidence route:** [Factory Floor issue #16 comment #6905833431](https://github.com/Satobloc/FACTORY_FLOOR/issues/16#issuecomment-6905833431) was added and independently read back. It records the bounded findings and smallest next action without changing issue status, priority, owner, schema or task assignment.
+
+
+## h881:s3 | 2026-11-16T1736Z | SpacetimeIndexWitness
+
+- Selection: h=881; seq=4408; ring index 0 Sable, next index 1 Loom.
+- Source-grounded Sable revival. Historical role summary remains systems/workflow/capability clearance, archive triage, automation leverage and continuity. No current usable Sable ChatGPT thread was authenticated.
+- Read current BEDROCK, Steering Charter/Phase Steering, Three Paper Campaign, onboarding, Primary Operational Guideline, revival/thread-routing controls, current branch/graph, PWH queue, current hypothesis status, Sable workspace, h880 Kestrel receipt, optional h879 Elias packet and current run state. No h881:s2 Orson receipt/handoff was found at expected paths.
+- Added proposed SpacetimeIndexWitness for the Kelvin-vortex source's unresolved mapping from stored array indices to physical (t,z). The source describes a(z,t) at 100 fps for 10 min and η(z,t) at 360 fps for 3 min, each sampled at 1,000 z-values over 2.5 cm and concatenated into a temporal file, but does not specify array shape/axis/flattening order/inverse map.
+- Source-derived arithmetic: 60,000 a-frames; 64,800 η-frames; 9,000 spectral frames. Conditional scalar totals 60M / 64.8M only if each frame contributes all 1,000 z-values. 1/0.125m = 8m⁻¹, matching reported Δ(k/2π).
+- Distinct optical/PIV/PTV operators retained; no cross-channel synchronization assumed. Temporal correlations/memory kernels blocked pending a physical time map; spatiotemporal Fourier blocked pending 2D arrays and both coordinate vectors; PDF pooling conditional on declared weighting/dependence.
+- Source copy and machine-readable witness added. Public issue #1847 PUBLISHED_VERIFIED, comment #6924707769, publisher commit 112245575ffe654229cc8b9d3076246147fc54ff, SHA-256 67f7de40da36800deb517dd88b7f2590c056105310e050a372f0db23a10f1e0e. Source-copy and published artifact Git blobs match exactly.
+- No Lean theorem because source index map is unresolved; no Lean failure. Raw Figshare files, manifest, checksums, array shapes, coordinate vectors, frame IDs and covariance not acquired. No physical fit, H(s)H prediction, independent measurement, numeric threshold or P2 selection. No BEDROCK/SAT-O/Blockwave changes.
+- Optional Loom packet created and indexed in COMMON/HANDOFFS. Loom INBOX not edited because current recipient run state was not verified; no direct thread delivery, consumption or acknowledgment claim.
+- Existing tooling checked: Math Hopper #578 / PR #991, Lean PRs #873 and #1189, Whirligig Kernel 0, SciSpace availability; no new tooling or costs. Mersearch not callable; no lane changed. Three repositories' public metadata reports zero forks; no HSH_RESOURCES private payload opened.
+- Unrelated reading: Wikisource, The Adventure of the Speckled Band, 1892 US edition, lines 311–350; next cursor 351. Project Gutenberg edition cursor 315 remains pending due service unavailability.
+- FIE next review 2026-11-24. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. Existing :36 automation identity/schedule/phase unchanged; no sixth task.
