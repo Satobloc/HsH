@@ -1,3 +1,24 @@
+## 2026-11-16 | h885:s3 | Source-bound comparison evidence
+
+**Primary report:** [H885 source-bound comparison specification](2026-11-16T2136Z_H885_S3_SOURCE_BOUND_COMPARISON_EVIDENCE_SPECIFICATION.md)  
+**Receipt:** ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2136Z_s3_loom.md  
+**PR:** [#1858](https://github.com/Satobloc/HsH/pull/1858), OPEN / DRAFT / UNMERGED  
+**Publication:** issue #1859 submitted, publisher readback pending at receipt creation.
+
+The existing comparison-freeze contract declared sourceBundleId but did not bind it to E/D/F/R or H0/H1 receipts. The new additive Lean module requires a single nonempty source-bundle ID across all six records, nonempty comparison identity fields, and preserves the existing P2EvidenceBundle as a forgetful projection. Exact-head Lean build passed at 8,950 jobs; five new theorem-specific axiom reports state no axiom dependencies. Tests, lint, leanchecker, nanoda and separate axiom-audit skipped.
+
+The proof is schema-level only. It does not hash or authenticate source bytes, validate manifest contents, establish independent review or pre-unblinding, define the H(s)H physical map, or promote P2. P2 remains HOLD. No physical system, calculation, fit, prediction, independent measurement or equation correction.
+
+Mersearch was unavailable; four requests remain requested and twelve request-scoped manifest/receipt paths are absent. HSH_RESOURCES root README only; no private payload. Historical Loom role source was fetched directly from raw conversation blob 6668ca60e451f8737903423727da7f9a430484e1; no current-thread authentication.
+
+Lateral reading advanced to line 1721 in fun break - lx.txt; Section AI records lines 1681-1720, with matching HsH/SAT archive Git blob f33eb29fbac65efa1db054239bb9c28a04a13a42.
+
+Aster h885:s4 had completed before this run began. The optional handoff is post-nominal repository context only; no inbox write, direct-thread delivery, consumption or acknowledgment.
+
+The :36 automation remains enabled under its existing ID and exact schedule/prompt/phase. No task mutation or sixth task.
+
+---
+
 ## 2026-11-16 | h870:s2 | Source ancestry and geometry-provenance crosswalk
 
 **Primary report:** [H870 source crosswalk](2026-11-16T0624Z_H870_S2_SOURCE_ANCESTRY_AND_GEOMETRY_PROVENANCE_CROSSWALK.md)  
