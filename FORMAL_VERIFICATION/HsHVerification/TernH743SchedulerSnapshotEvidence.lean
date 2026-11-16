@@ -1016,13 +1016,16 @@ def h762S4TaskMetadataAfterCompletion : TaskMetadataObservation :=
     updatedUs := us 19 12 17 544534
     nextRunUs := us 19 48 0 0 }
 
+/-- The same current run, scheduled slot, start, and chat binding persist
+across these readbacks. The latest-result pointer is deliberately excluded:
+the later snapshot points to a prior cached result, while the final snapshot
+points to this run (proved separately below). -/
 theorem h762_s0_final_same_run_and_start_as_later :
     h762S0LaterReadback.runId = h762S0FinalReadback.runId ∧
     h762S0LaterReadback.scheduledUs = h762S0FinalReadback.scheduledUs ∧
     h762S0LaterReadback.startedUs = h762S0FinalReadback.startedUs ∧
-    h762S0LaterReadback.latestResultRunId = h762S0FinalReadback.latestResultRunId ∧
     h762S0LaterReadback.chatRef = h762S0FinalReadback.chatRef := by
-  exact ⟨rfl, rfl, rfl, rfl, rfl⟩
+  exact ⟨rfl, rfl, rfl, rfl⟩
 
 theorem h762_s0_final_status_returned_failed :
     h762S0LaterReadback.status = .inProgress ∧
