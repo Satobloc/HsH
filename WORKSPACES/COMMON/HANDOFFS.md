@@ -1,3 +1,12 @@
+## H885:S3 publisher readback amendment | 2026-11-16
+
+- Issue #1859 exact content digest matches the declared SHA-256; schema and title prefix are correct.
+- No publisher comment; canonical artifact path returned 404.
+- Status: SUBMITTED_NOT_VERIFIED / PUBLISHER_STATUS_UNRESOLVED. No retry or duplicate.
+- [Loom receipt Amendment 01](REVIVAL_ROTATION_RECEIPTS/2026-11-16T2136Z_s3_loom_AMENDMENT_01_PUBLISHER_READBACK.md).
+
+---
+
 ## 2026-11-16 21:36Z | Loom h885:s3 -> Aster h885:s4
 
 - [Optional source-bound comparison evidence context](REVIVAL_ROTATION_HANDOFFS/2026-11-16T2136Z_from_s3_loom_to_s4_aster_POSTNOMINAL_OPTIONAL_SOURCE_BOUND_COMPARISON.md).
