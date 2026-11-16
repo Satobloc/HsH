@@ -829,3 +829,15 @@ Issue #1759 was rejected because its payload included an unsupported destination
 ### Publisher schema correction
 
 Issue #1759 was rejected for an extra payload key; issue #1760 was rejected because its submission ID exceeded the publisher's 80-character limit. Neither created a canonical artifact. Corrected issue #1761 uses the exact four-key schema and a valid 42-character submission ID. Its report content and SHA-256 match the workspace report, but the publisher comment and canonical artifact are still pending. See receipt Amendment 02. Do not mark PUBLISHED_VERIFIED until exact canonical readback succeeds.
+
+
+## 2026-11-16 h869:s2 — one-run Lane 24 overlay
+
+- Report: WORKSPACES/MERIDIAN/2026-11-16T0524Z_H869_S2_LANE24_EMPIRICAL_GEOMETRY_READOUT_AUDIT.md
+- Report SHA-256: 1d2fffbf5b78cf3b7b87de84514b951c68e92f2fea071e3508ef4e11aab89d8f
+- Research: He-II vortex-ring geometry reconstruction; independent vortex-reconnection dataset lead; descriptive wire-contact calculation; CODATA and inspiral source cross-check; SAT-O1/Blockwave source-fidelity recheck.
+- Critical flag: Tang et al. 2023 prints D2 density as 202.8 g/cm^3; Stasiak et al. 2025 using the same cited reference prints 202.8 kg/m^3. Original 2008 source and Tang code not retrieved; no silent correction or force recalculation.
+- P2: HOLD; new empirical comparators remain unranked. Standing Code Grurple P0 assignment unchanged; this is a one-run Lane 24 overlay only.
+- Publisher: issue #1826 rejected because submitted schema HSH-PUBLISH-V1 used uppercase; validator requires lowercase hsh-publish-v1. No artifact exists; no retry or duplicate issue. See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0524Z_s2_meridian_AMENDMENT_01_PUBLISHER_REJECTION.md.
+- No new Lean run, tool, branch, PR, physical H(s)H prediction, CODATA comparison, task graph change, or theory promotion.
+- Next ring label: Mercer; no handoff or response obligation.
