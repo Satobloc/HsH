@@ -1,3 +1,9 @@
+## H885:S3 task lookup discontinuity
+
+Last successful peek: existing :36 task enabled, original hourly schedule unchanged; run 29d71c7d-7118-8330-8271-0e53b032c420 IN_PROGRESS. Subsequent peek/get: task unavailable / 404. No mutation or replacement. Current state UNVERIFIABLE. See receipt Amendment 02.
+
+---
+
 ## H885:S3 publisher readback | SUBMITTED_NOT_VERIFIED
 
 Issue #1859 schema/title and exact content SHA-256 match PASS; no publisher comment; canonical artifact 404. Cause unresolved. No retry, edit, reopen, duplicate, direct write or bypass. See ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2136Z_s3_loom_AMENDMENT_01_PUBLISHER_READBACK.md.
