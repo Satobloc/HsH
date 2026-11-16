@@ -31,7 +31,7 @@ This strengthens the operational distinction:
 - PRL 2026: the secondary full-text extraction reports author-request-only data access and no public repository.
 - No dataset identity, acquisition overlap, or independent replication relationship between the two papers is established.
 
-SciSpace metadata caveat: its record lists the first author as “Anonymous” and gives 8 July 2026, while the APS final bibliographic record identifies the published authors and 21 September 2026 publication. Use the APS DOI record for final bibliographic identity; do not use the SciSpace metadata fields as primary citation metadata.
+SciSpace metadata caveat: its record lists the first author as “Anonymous” and gives 8 July 2026. The date matches the APS accepted-paper date (8 July 2026); the APS final record gives the later publication date of 21 September 2026. The date is therefore not a conflict. The incomplete “Anonymous” author field is the metadata problem; use the APS DOI record for final author and publication metadata.
 
 ## Effect on the parent report
 
