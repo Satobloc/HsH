@@ -230,6 +230,6 @@ Authoritative scheduler correction: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-
 ## h876:s3 correction | 2026-11-16T13:22Z reconciliation
 
 - [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1236Z_s3_morrow_AMENDMENT_03_NEGATIVE_PATH_AND_RUN_READBACK.md) corrects the original report's false claim that Morrow INBOX and TRIAL_CHECKPOINT were absent. Both exact paths were present in the pinned complete tree; Layer 8 now separates path membership from content retrieval.
-- Public correction issue [#1840](https://github.com/Satobloc/HsH/issues/1840) is submitted; publisher readback is pending. Original issue #1839 remains PUBLISHED_VERIFIED and immutable.
+- Public correction issue [#1840](https://github.com/Satobloc/HsH/issues/1840) is PUBLISHED_VERIFIED; publisher comment [#6918227861](https://github.com/Satobloc/HsH/issues/1840#issuecomment-6918227861), artifact SHA-256 `421acfeb970b9c77e1923285c478e5509fd579fd66f2dc1cf81d7a005b9d9ae6`. Original issue #1839 remains PUBLISHED_VERIFIED and immutable.
 - Same h876 provider run ID remains IN_PROGRESS; exact-ID `started_at` changed from 12:47:52.865084Z to 13:22:58.392647Z. No cause inferred; `chat_ref` and completion remain null.
 - Kestrel h876:s4 completed; optional packet pointer present, consumption/acknowledgment not verified. No new handoff.
