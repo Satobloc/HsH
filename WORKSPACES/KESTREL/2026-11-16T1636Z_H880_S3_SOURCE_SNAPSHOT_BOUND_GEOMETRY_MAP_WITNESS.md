@@ -43,9 +43,24 @@ The existing ModelFreeze references all map-edge witnesses; ComparisonFreeze bin
 
 Source: unbylined historical artifact SATOBLOC/SAT O1 4D.txt. Current observed SAT archive snapshot: commit f6e3c914b3722cdd6b57b0a2f024446bb0247f97, tree 401ff5736a9ede226cc9829cea37489e9307baf5, recursive tree truncated=false. Canonical path maps to Git blob 7577aa1ee5a6c3850ce3b226c75377de6367aedc, 3,521 bytes. SHA-256 8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937 is inherited from h835's prior verification and was not recomputed this run. The commit is unsigned. Three paths in that tree share the same blob.
 
-The source defines a 1D filament curve in R^(3,1) and describes its worldtube as a 4D volume swept by vibration. It does not provide an explicit sweep/thickening/embedding map. The source is unbylined and authorship remains unresolved. Status: snapshot membership VERIFIED; source authority UNBYLINED_HISTORICAL_SOURCE; filament-to-worldtube map MAP_UNDEFINED_IN_SOURCE; transport certificate NOT_ISSUED; model/comparison freeze BLOCKED_MAP_UNDEFINED.
+The source is unbylined and authorship remains unresolved. Its file-index metadata records creation on 2025-06-07 and modification on 2025-06-09 at 18:44:50 (timezone unspecified); the first extant archive commit recorded in the h835 crosswalk is 2025-10-27T00:40:28Z. These are file/archive metadata, not a verified composition date.
 
-The source does not specify a numerical finite-core radius/profile, normal-bundle twist/connection, or contact surface. Its three phase parameters are not automatically a normal-bundle connection. The phrase 4D volume does not determine a numerical thickness. No corrected SAT-O1 equations were created. The exact source equations remain unchanged.
+Verbatim equation family in the source blob:
+
+\[
+\gamma^\mu(\lambda) = \left( \lambda, A_x \sin(k_x \lambda + \phi_x), A_y \sin(k_y \lambda + \phi_y), A_z \sin(k_z \lambda + \phi_z) \right)
+\]
+\[
+v^\mu(\lambda) = \frac{d \gamma^\mu}{d \lambda}
+\]
+\[
+S[\gamma] = \int d\lambda \, L(\gamma^\mu, v^\mu), \qquad
+L = \frac{1}{2} m v^\mu v_\mu - V_{\text{tension}}(\gamma)
+\]
+
+The source defines a 1D filament curve in R^(3,1) and describes its worldtube as a 4D volume swept by vibration. It does not provide an explicit sweep/thickening/embedding map. Status: snapshot membership VERIFIED; source authority UNBYLINED_HISTORICAL_SOURCE; filament-to-worldtube map MAP_UNDEFINED_IN_SOURCE; transport certificate NOT_ISSUED; model/comparison freeze BLOCKED_MAP_UNDEFINED.
+
+The source does not specify a numerical finite-core radius/profile, normal-bundle twist/connection, or contact surface. Its three phase parameters are not automatically a normal-bundle connection. The phrase 4D volume does not determine a numerical thickness. No corrected SAT-O1 equations were created. Blockwave was not reopened in this run; no Blockwave equations were copied, corrected or reattributed. The exact source equations remain unchanged.
 
 Machine-readable witness: WORKSPACES/KESTREL/2026-11-16T1636Z_H880_S3_SNAPSHOT_BOUND_MAP_EDGE_WITNESS.json.
 
