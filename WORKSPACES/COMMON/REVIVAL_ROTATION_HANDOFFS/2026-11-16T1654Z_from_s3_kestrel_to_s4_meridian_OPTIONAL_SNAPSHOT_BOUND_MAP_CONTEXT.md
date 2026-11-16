@@ -8,7 +8,7 @@ Meridian's existing Code Grurple P0 Paper A/B presentation QA remit remains cont
 
 ## Kestrel's completed delta
 
-Kestrel h880:s3 added a source-snapshot binding requirement to each source-derived geometry-map edge. The purpose is to connect Morrow's repository snapshot witness to Kestrel's versioned representation/claim-transport certificates, then bind those map edges into the existing ModelFreeze/ComparisonFreeze/SourceRunWitness chain.
+Kestrel h880:s3 documented a proposed source-snapshot binding requirement for each source-derived geometry-map edge. The purpose is to connect Morrow's repository snapshot witness to Kestrel's versioned representation/claim-transport certificates, then propose binding those map edges into the existing ModelFreeze/ComparisonFreeze/SourceRunWitness chain. No corresponding code/schema change was made.
 
 The applied SAT-O1 witness pins the unbylined source artifact to its exact SAT archive commit/tree/path/blob and marks the filament-to-worldtube sweep map MAP_UNDEFINED_IN_SOURCE. It does not establish thickness, twist, contact surfaces, a physical prediction, or a P2 result.
 
