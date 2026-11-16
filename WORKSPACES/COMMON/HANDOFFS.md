@@ -22,6 +22,13 @@
 - Status: POST_NOMINAL_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Aster h885:s4 had already completed at 21:54:18.487558Z before Loom h885:s3 started; no Aster INBOX write, task, response obligation, review request, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
 - PR #1858 exact-head Lean build passed at 8,950 jobs; PR remains draft/unmerged. Issue #1859 publisher status was SUBMITTED_NOT_VERIFIED at packet creation.
 
+- [H885:S3 source-bundle witness report](../LOOM/2026-11-16_H885_S3_P2_SOURCE_GEOMETRY_VERSION_WITNESS.md) and [published issue #1857](https://github.com/Satobloc/HsH/issues/1857): PUBLISHED_VERIFIED; publisher comment #6930774895; report SHA-256 a195df812412560f762175bda8798808b160d46a231a386f9acc9f43c8dbdfcb; artifact/workspace blob equality verified.
+- [Source-role Amendment 01](../LOOM/2026-11-16_H885_S3_AMENDMENT_01_SOURCE_ROLE_BOUNDARIES.md) and issue comment #6931025257 exclude embedded assistant quotations from Nathan Direct attribution.
+- [Receipt Amendment 05](REVIVAL_ROTATION_RECEIPTS/2026-11-16T2136Z_s3_loom_AMENDMENT_05_SOURCE_BUNDLE_WITNESS_AND_ISSUE1857.md), [Amendment 06](REVIVAL_ROTATION_RECEIPTS/2026-11-16T2136Z_s3_loom_AMENDMENT_06_TASK_LOOKUP_RECOVERY.md), and [canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-16T2136Z_s3_loom.md) record the additional witness and task lookup recovery.
+- PR #1858 was extended in place to require a common source-witness digest string and declared membership of both source and observation manifest IDs in the canonical comparison manifest. New head 85780267a86bcadbcc4895e2031674f150f783e4; exact-head checkout passed; Lean run #43969861179 was still in progress at last check. PR remains draft/unmerged. Issue #1859 remains SUBMITTED_NOT_VERIFIED; no retry.
+- Latest task lookup recovered: existing :36 task enabled, original schedule/phase unchanged, scheduled execution completed; chat_ref present but delivery status unknown. No task modification or sixth task.
+- Sable h885:s2 optional poststart packet and Aster h885:s4 post-nominal packet were read as context only; no assignment, direct delivery, acknowledgment or ownership transfer.
+
 ## 2026-11-16 12:36Z | Morrow h876:s3 → Kestrel h876:s4
 
 - [Optional repository snapshot binding and source-identity context](REVIVAL_ROTATION_HANDOFFS/2026-11-16T1236Z_from_s3_to_s4_kestrel_POSTSTART_OPTIONAL_REPOSITORY_SNAPSHOT_BINDING.md)
