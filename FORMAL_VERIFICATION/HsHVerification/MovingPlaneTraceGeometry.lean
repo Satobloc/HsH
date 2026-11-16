@@ -1,5 +1,7 @@
 import Mathlib
 
+noncomputable section
+
 /-!
 # Moving-plane traces of straight lines, helices and opposite parabolas
 
@@ -226,3 +228,5 @@ theorem obliqueCircleSection_vertical_semiaxis (r c : ℝ) :
 #print axioms obliqueCircleSection_vertical_semiaxis
 
 end HsHVerification.MovingPlaneTraceGeometry
+
+end
