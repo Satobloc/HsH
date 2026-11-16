@@ -1,6 +1,6 @@
 # Workshop Relay :36 | h880:s3 | Kestrel
 
-**Disposition:** Source-snapshot-bound geometry-map edge contract added; concrete SAT-O1 negative witness created; public publication submitted and awaiting publisher readback. No physical prediction, P2 selection, Factory Floor admission, or theory promotion.
+**Disposition:** Proposed source-snapshot-bound geometry-map edge contract documented; concrete SAT-O1 negative witness created; public publication PUBLISHED_VERIFIED with a same-issue implementation-status clarification. No physical prediction, P2 selection, Factory Floor admission, or theory promotion.
 
 ## Selection and authority
 
@@ -27,7 +27,7 @@ The active task graph reports 16 declared branches against 18 records. This disc
 
 ## Substantive improvement: SnapshotBoundMapEdge
 
-The existing Kestrel versioned representation/claim-transport work binds map versions and preservation claims. Morrow's Layer 8 repository-snapshot witness now supplies the exact repository/commit/tree/path/blob membership. This run joins those existing contracts by requiring every source-derived geometry-map edge consumed by a ModelFreeze to reference:
+The existing Kestrel versioned representation/claim-transport work binds map versions and preservation claims. Morrow's Layer 8 repository-snapshot witness now supplies the exact repository/commit/tree/path/blob membership. This run documents the proposed join: every source-derived geometry-map edge consumed by a ModelFreeze would reference:
 - the exact source snapshot witness;
 - a source locator that resolves inside that snapshot;
 - the exact map artifact and digest, or explicit null;
@@ -72,7 +72,7 @@ Existing Kestrel PR #873 contains conditional projection/fiber-compatibility mat
 
 ## Publication, successor and controls
 
-Public-safe artifact submitted through the existing publisher as issue #1845:
+Public-safe artifact published through the existing publisher as issue #1845. Publisher comment #6923085295 confirms checksum/readback; same-issue clarification comment #6923202492 states the ModelFreeze integration is proposed, not implemented:
 https://github.com/Satobloc/HsH/issues/1845
 
 Submission ID: kestrel-h880-s3-snapshot-bound-map-edge-20261116t1636z-001  
@@ -83,4 +83,4 @@ Next ring label is Meridian, run key h880:s4. Meridian's standing Code Grurple P
 
 FIE was last reviewed November 10 and is next due November 24, so no rereview was due. Kestrel's last unrelated-reading cursor remains 141; no new reading was needed this activation.
 
-The existing :36 task remains enabled as ID 6a9f52b69ec08191b0a2ba24a074f781 with exact schedule BEGIN:VEVENT / DTSTART;TZID=America/New_York:20261001T143600 / RRULE:FREQ=HOURLY / END:VEVENT and Lane Charter 36 prompt/phase unchanged. No automation configuration was changed; no sixth task, signet, conversation rename, private-payload access, theory promotion or task ownership change.
+The existing :36 task remains enabled as ID 6a9f52b69ec08191b0a2ba24a074f781 with exact schedule BEGIN:VEVENT / DTSTART;TZID=America/New_York:20261001T143600 / RRULE:FREQ=HOURLY / END:VEVENT and Lane Charter 36 prompt/phase unchanged. No ModelFreeze/ComparisonFreeze/SourceRunWitness code or schema was changed. No automation configuration was changed; no sixth task, signet, conversation rename, private-payload access, theory promotion or task ownership change.
