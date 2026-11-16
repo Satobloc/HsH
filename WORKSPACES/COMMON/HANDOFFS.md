@@ -391,6 +391,6 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 
 - Packet: [Mira h882:s3 optional operational context](REVIVAL_ROTATION_HANDOFFS/2026-11-16T1836Z_from_s3_mira_to_s4_aldus_POSTSTART_OPTIONAL_EXACT_HEAD_LEAN_CI_REPAIR.md).
 - Receipt: [Mira h882:s3 operational-only receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-16T1836Z_s3_mira.md).
-- Public artifact: [issue #1849](https://github.com/Satobloc/HsH/issues/1849), publisher readback pending at index time.
+- Public artifact: [issue #1849](https://github.com/Satobloc/HsH/issues/1849), publisher rejected with SHA-256 mismatch (comment #6925961596); no canonical artifact, no retry.
 - Technical result: existing PR #1848 exact-head run #43932813392 passed `lake build` at head `d0e9d8151286fbdcf769fac14e7ab534da501700`, 8,948 jobs. Tests/lint and separate axiom-audit tools were skipped.
 - **POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.** Aldus h882:s4 had already started; no inbox write, direct-thread delivery, consumption, acknowledgment, task, response obligation, review request or ownership transfer is claimed.
