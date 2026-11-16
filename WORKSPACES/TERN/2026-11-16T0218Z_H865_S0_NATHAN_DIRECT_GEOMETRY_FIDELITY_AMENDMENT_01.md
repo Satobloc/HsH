@@ -14,7 +14,7 @@ Independent UTF-8 SHA-256 recomputation from both current SAT archive paths give
 - Path: SATOBLOC/SAT4D_LIVE_DRAFT.txt
 - Path: SAT_O REWRITE/SAT 4D/SAT4D_LIVE_DRAFT.txt
 - Both paths have the same Git blob: 2a79fe25018cce7e99a2c33786d88b0551db6ae7
-- Both contents are byte-identical at 114,901 characters.
+- Both texts are identical at 114,901 characters; the shared Git blob establishes identical stored bytes.
 - Correct SHA-256: c3f90cdeda667f20c7ab9ab33eea2e23c5245d94c1e4f99f3aec5e3e7f1f6cb7
 
 The SAT-O1 standalone SHA-256 was independently recomputed and matches 8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937. The September 16 Blockwave clean-action SHA-256 was independently recomputed and matches 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664.
