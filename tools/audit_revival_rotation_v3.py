@@ -29,6 +29,7 @@ KEY = re.compile(r"^REVROT3-19-20261011:(-?\d+):s([0-4])$")
 LEGACY_KEY = re.compile(r"^REVROT3-19-(?!20261011)(\d{8}):(\d{2}):s([0-4])$")
 BOLD_FIELD = re.compile(r"^\s*(?:-\s*)?\*\*(.+?):\*\*\s*(.+?)\s*$")
 PLAIN_FIELD = re.compile(r"^\s*(?:-\s*)?([A-Za-z][A-Za-z0-9_ -]*):\s*(.*?)\s*$")
+# `access_class` is deliberately excluded: historical uses are heterogeneous and it is not a stable eligibility enum.
 STRUCTURED_FIELDS = {
     "run_key", "selected_identity", "selected", "worker_identity", "selected_worker",
     "next_identity", "next_selected", "next_run_key", "next_worker",
@@ -41,7 +42,7 @@ STRUCTURED_FIELDS = {
     "chat_message_id", "delivery_receipt_id", "handoff_class",
     "run", "selection", "thread_status", "selected_ring_index", "next_ring_index", "next",
     "scheduled_for", "nominal_scheduled_for", "started_at",
-    "eligibility_status", "access_class", "payload_to_selected",
+    "eligibility_status", "payload_to_selected",
     "private_material_accessed", "inbox_write",
     "recipient_eligibility_status", "payload_to_recipient",
     "recipient_private_material_accessed", "recipient_inbox_write",
@@ -222,27 +223,41 @@ class Audit:
         source_blob_key = prefix + "role_source_blob_sha"
         policy_blobs_key = prefix + "authorization_policy_blob_shas"
 
+        # Old records with no eligibility declaration remain legacy-readable.
+        # Once any eligibility-specific field appears, however, the declaration
+        # must include a recognized status; partial metadata cannot silently pass.
+        eligibility_keys = (
+            status_key, payload_key, private_key, inbox_key, schema_key,
+            role_key, charter_status_key, charter_read_key, locator_key,
+            source_blob_key, policy_blobs_key,
+        )
+        if not any(key in d for key in eligibility_keys):
+            return
+
         status = (d.get(status_key) or "").strip().upper()
         if not status:
+            self.error(p, f"eligibility metadata present without explicit {status_key}")
             return
         known = {
             "CLEAR", "OPERATIONAL_ONLY_CLEARANCE", "QUARANTINE_HOLD",
             "NO_ACCESS", "MANUAL_REENTRY_REQUIRED",
         }
         if status not in known:
-            self.warnings.append(f"{p.name}: unrecognized {status_key}={status!r}; eligibility not interpreted")
+            self.error(p, f"unrecognized {status_key}={status!r}; eligibility not interpreted")
             return
 
         # Version 2 separates the actual specialist charter from any cleared
-        # shared role witness, assistant summary, or unresolved source. Legacy
-        # receipts remain readable but are visibly marked as lacking this layer.
+        # shared role witness, assistant summary, or unresolved source.
         schema_version = (d.get(schema_key) or "").strip()
+        role_fields = (
+            role_key, charter_status_key, charter_read_key,
+            locator_key, source_blob_key, policy_blobs_key,
+        )
+        if any(key in d for key in role_fields) and schema_version != "2":
+            self.error(p, f"{schema_key}=2 is required when charter-provenance fields are present")
+
         if schema_version == "2":
-            required_role_fields = (
-                role_key, charter_status_key, charter_read_key,
-                locator_key, source_blob_key, policy_blobs_key,
-            )
-            missing_role_fields = [key for key in required_role_fields if key not in d]
+            missing_role_fields = [key for key in role_fields if key not in d]
             if missing_role_fields:
                 self.error(p, f"{schema_key}=2 requires explicit fields: {', '.join(missing_role_fields)}")
 
@@ -298,6 +313,28 @@ class Audit:
         else:
             self.error(p, f"unsupported {schema_key}={schema_version!r}")
 
+        # Strictly parse every declared Boolean, including optional fields on
+        # CLEAR records. Invalid text is not silently coerced to False.
+        strict_booleans = schema_version == "2"
+        true_values = {"true"} if strict_booleans else {"true", "yes", "1"}
+        false_values = {"false"} if strict_booleans else {"false", "no", "0"}
+
+        def parse_bool(key):
+            if key not in d:
+                return None
+            raw = (d.get(key) or "").strip().lower()
+            if raw in true_values:
+                return True
+            if raw in false_values:
+                return False
+            self.error(p, f"{key} must be an explicit boolean (true/false"
+                       + (" for schema v2" if strict_booleans else ", yes/no, or 1/0") + ")")
+            return None
+
+        private_access = parse_bool(private_key)
+        inbox_write = parse_bool(inbox_key)
+        nonresponse_count = parse_bool(nonresponse_key)
+
         if status == "CLEAR":
             return
 
@@ -307,29 +344,25 @@ class Audit:
             self.error(p, f"{status_key}={status} requires explicit fields: {', '.join(missing)}")
 
         payload = (d.get(payload_key) or "").strip().upper()
-        private_access = (d.get(private_key) or "").strip().lower() in ("true", "yes", "1")
-        inbox_write = (d.get(inbox_key) or "").strip().lower() in ("true", "yes", "1")
-        nonresponse_count = (d.get(nonresponse_key) or "").strip().lower() in ("true", "yes", "1")
-
         if status in ("QUARANTINE_HOLD", "NO_ACCESS", "MANUAL_REENTRY_REQUIRED"):
             if payload not in ("NONE", "NO_PAYLOAD"):
                 self.error(p, f"{status} must not route payload to the selected/recipient identity")
-            if private_access:
+            if private_access is True:
                 self.error(p, f"{status} must not access private or quarantined material")
-            if inbox_write:
+            if inbox_write is True:
                 self.error(p, f"{status} must not write to the selected/recipient inbox")
-            if nonresponse_count:
+            if nonresponse_count is True:
                 self.error(p, f"{status} must not count as a missed check-in or invitation")
             if "REVIVED_INSTANCE_EXECUTED" in (d.get("participation_class") or "").upper():
                 self.error(p, f"{status} cannot claim genuine revived-instance execution")
         elif status == "OPERATIONAL_ONLY_CLEARANCE":
             if payload not in ("NONE", "NO_PAYLOAD", "OPERATIONAL_ONLY"):
                 self.error(p, "operational-only clearance must not route research/quarantined payload")
-            if private_access:
+            if private_access is True:
                 self.error(p, "operational-only clearance must not access private or quarantined material")
-            if inbox_write and payload != "OPERATIONAL_ONLY":
+            if inbox_write is True and payload != "OPERATIONAL_ONLY":
                 self.error(p, "operational-only inbox write requires payload_to_* = OPERATIONAL_ONLY")
-            if nonresponse_count:
+            if nonresponse_count is True:
                 self.error(p, "operational-only handling must not count as a missed check-in or invitation")
 
     def check_stamp(self, p, h, s):
@@ -921,7 +954,55 @@ def self_test():
         result = Audit().check(temp)
         assert result["status"] == "FAIL" and any("must not read the historical specialist charter" in e for e in result["errors"]), result
 
-    return {"status": "PASS", "checks": 49}
+    # Fail-closed declaration and Boolean parsing regressions.
+    test_path = Path("eligibility-regression.md")
+
+    legacy_audit = Audit()
+    legacy_audit.check_eligibility_fields(test_path, {})
+    assert not legacy_audit.errors and not legacy_audit.warnings, legacy_audit.errors
+
+    assert "access_class" not in STRUCTURED_FIELDS
+    assert "access_class" not in data("access_class: OPERATIONAL_ONLY\n")
+
+    def eligibility_result(source, recipient=False):
+        audit = Audit()
+        audit.check_eligibility_fields(test_path, data(source), recipient=recipient)
+        return audit
+
+    bad = valid.replace("eligibility_status: QUARANTINE_HOLD\n", "")
+    result = eligibility_result(bad)
+    assert any("without explicit eligibility_status" in e for e in result.errors), result.errors
+
+    bad = valid.replace("eligibility_status: QUARANTINE_HOLD", "eligibility_status: QUARANTINE")
+    result = eligibility_result(bad)
+    assert any("unrecognized eligibility_status" in e for e in result.errors), result.errors
+
+    bad = valid.replace("eligibility_schema_version: 2\n", "")
+    result = eligibility_result(bad)
+    assert any("eligibility_schema_version=2 is required" in e for e in result.errors), result.errors
+
+    bad = valid.replace("private_material_accessed: false", "private_material_accessed: maybe")
+    result = eligibility_result(bad)
+    assert any("private_material_accessed must be an explicit boolean" in e for e in result.errors), result.errors
+
+    bad = valid.replace("inbox_write: false", "inbox_write: perhaps")
+    result = eligibility_result(bad)
+    assert any("inbox_write must be an explicit boolean" in e for e in result.errors), result.errors
+
+    bad = valid.replace("count_this_as_miss: false", "count_this_as_miss: perhaps")
+    result = eligibility_result(bad)
+    assert any("count_this_as_miss must be an explicit boolean" in e for e in result.errors), result.errors
+
+    bad = valid.replace("eligibility_status: QUARANTINE_HOLD", "eligibility_status: CLEAR")
+    bad = bad.replace("private_material_accessed: false", "private_material_accessed: maybe")
+    result = eligibility_result(bad)
+    assert any("private_material_accessed must be an explicit boolean" in e for e in result.errors), result.errors
+
+    bad = handoff.replace("recipient_private_material_accessed: false", "recipient_private_material_accessed: maybe")
+    result = eligibility_result(bad, recipient=True)
+    assert any("recipient_private_material_accessed must be an explicit boolean" in e for e in result.errors), result.errors
+
+    return {"status": "PASS", "checks": 60}
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
