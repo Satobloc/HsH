@@ -377,3 +377,11 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Issue #1843 is `PUBLISHED_VERIFIED`; comment #6922050266; exact artifact and SHA-256 recorded in the optional Track B packet.
 
 - **Kestrel h880:s3 → Meridian h880:s4 (optional context only, no P0 displacement):** [snapshot-bound geometry-map edge witness packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T1654Z_from_s3_kestrel_to_s4_meridian_OPTIONAL_SNAPSHOT_BOUND_MAP_CONTEXT.md)
+
+
+## 2026-11-16T1736Z | Sable h881:s3 → Loom h882:s3 | optional spacetime-index provenance
+
+- Packet: [optional source-provenance context](REVIVAL_ROTATION_HANDOFFS/2026-11-16T1736Z_from_s3_sable_to_s4_loom_OPTIONAL_SPACETIME_INDEX_WITNESS.md).
+- Report: [Sable h881:s3 architecture report](../SABLE/2026-11-16T1736Z_H881_S3_SPACETIME_INDEX_WITNESS_AND_ARCHITECTURE_REPORT.md).
+- Public artifact: [issue #1847](https://github.com/Satobloc/HsH/issues/1847), PUBLISHED_VERIFIED; publisher comment #6924707769; SHA-256 `67f7de40da36800deb517dd88b7f2590c056105310e050a372f0db23a10f1e0e`.
+- Status: POST_NOMINAL_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER / REPOSITORY_ONLY / CHAT_DELIVERY_UNAVAILABLE. Loom INBOX not edited because current recipient run state was not verified. No direct-thread delivery, consumption or acknowledgment is claimed.
