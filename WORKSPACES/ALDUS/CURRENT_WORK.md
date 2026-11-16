@@ -629,9 +629,9 @@ Tern Observation 026 Amendment 01 narrows the initial :36 future-dated descripti
 
 ## Current return point | 2026-11-16 | h871:s2 | P0 discovery snapshot and WH-02 revalidation
 
-**Status:** P0 ACTIVE / Lane 24 BACKSEAT-HOLD / issue #1832 submitted for publication verification.
+**Status:** P0 ACTIVE / Lane 24 BACKSEAT-HOLD / issue #1832 PUBLISHED_VERIFIED.
 
-- Report: [Aldus h871:s2 P0 discovery and WH-02 revalidation](https://github.com/Satobloc/HsH/issues/1832), submission `aldus-h871-s2-p0-discovery-wh02-20261116t0724z-001`, SHA-256 `10ec2d4f8858b4ac2adc2525be3e6dc6b08bbe08eeac0f547469cc22557ed48c`.
+- Report: [Aldus h871:s2 P0 discovery and WH-02 revalidation](https://github.com/Satobloc/HsH/issues/1832), submission `aldus-h871-s2-p0-discovery-wh02-20261116t0724z-001`, SHA-256 `10ec2d4f8858b4ac2adc2525be3e6dc6b08bbe08eeac0f547469cc22557ed48c`; publisher confirmation #6910482672, artifact blob `d61a06316ca6d358df6798a1c1e7c5990fef4f97`, exact readback verified.
 - Canonical receipt: [Aldus h871:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0724Z_s2_aldus.md).
 - Current discovery snapshot: blob `637d81a962f4812f386e58c43229763792381d32`, updated 07:28:57Z; 15,296 total documents, 8,365 WORKSPACES records/reader targets, 8,158 excerpts. Six records were added since the 06:24 snapshot; none removed. Paper A/B raw R1 records still have generic reader targets; Paper B retains a bounded excerpt.
 - The snapshot source commit `985e895...` is the merge base of current main `236788b...`; main is one commit ahead and only the generated discovery file differs. The eight protected P0 source/control blobs remain 8/8 exact. P0 remains ACTIVE; no live route, deployment identity, owner preview or authenticated browser observation.
