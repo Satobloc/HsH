@@ -1,3 +1,9 @@
+## H885:S3 PR preview status
+
+Vercel preview failed at the free-tier daily deployment limit (>100/day); Lean exact-head build remains PASS. No human review/approval, paid upgrade or retry. See [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2136Z_s3_loom_AMENDMENT_03_PR_PREVIEW_STATUS.md).
+
+---
+
 ## H885:S3 task lookup discontinuity
 
 Last successful peek: task 6a9f52b69ec08191b8a91a30d2a155e0 enabled, original :36 hourly America/New_York schedule intact; run 29d71c7d-7118-8330-8271-0e53b032c420 IN_PROGRESS, started 21:59:26.267210Z, completion/chat_ref null. Subsequent peek and get returned task unavailable / HTTP 404. No task mutation, substitute ID or replacement task. Final enabled/run state UNVERIFIABLE; cause unknown. See receipt Amendment 02.
