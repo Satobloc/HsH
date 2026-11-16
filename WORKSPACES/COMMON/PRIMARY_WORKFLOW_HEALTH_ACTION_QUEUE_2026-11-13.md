@@ -357,3 +357,44 @@ Issue #1797 is `PUBLISHED_VERIFIED` (publisher run #43741998489; artifact SHA-25
 - **WH-05:** all four Mersearch request files remain requested/reserved. No callable Mersearch action was exposed; no request was overwritten, retriggered or released. This is a blocked lane state, not evidence of execution.
 - **Graph/PWH:** graph blob 5994a3952fbb0a2bc23aa4b4388c70b979ef1227 remains 18 records versus declared 16; 13 active/blocked/candidate and five completed; one unreachable blocked worldtube-polarimetry node and one parent-only edge; no dangling references/cycles. No graph mutation. Triage script self-test passed from retrieved source; active-node projection replayed. Latest 20 Actions sample: 8 failures, 8 cancellations, 4 successes; one content-CI failure returned an empty jobs array, cause unknown.
 - **Queue disposition:** DEGRADED. WH-02 remains the highest-priority unblocked corrective item after P0; WH-05 remains blocked pending Tern's release of one lane. P2 remains HOLD; no selected system or physical result. Next review trigger: next actual activation, any PR-head/main change, or new exact-head CI result. Return route: this queue, issue #1747, issue #1702, PR #1710 and Tern INBOX. No ownership/priority/task-graph change.
+
+
+## Supplemental evidence log | 2026-11-16 | Loom h870:s2
+
+This is a factual readback only. It does not change any PWH priority, owner, status, deadline, task-graph edge, or authority.
+
+### P0 discovery snapshot pointer update
+
+The newest source-consistent discovery snapshot recorded in Meridian h869:s2 Amendment 04 is:
+
+- Snapshot blob: `c7adfefea896a747d1cc7dbc862415cc72167aa5`.
+- Generated: 2026-11-16T06:24:17Z.
+- Source commit: `8dcabf80b46555b9031217194937fd7976f0bda7`.
+- 15,290 total documents; 8,359 WORKSPACES records; all 8,359 have generic reader targets; 8,152 excerpts; 577 visuals; 48 rolling-docket entries; 6 excerpt errors.
+- Relative to the 05:38:49Z snapshot: +12 documents, +12 workspace records/reader targets, +9 excerpts.
+
+P0 remains ACTIVE. Both protected R1 manuscripts remain in the full discovery catalog with generic reader targets. No live reader-route test or deployment identity was obtained, so no standdown is justified. Tern retains P0 authority.
+
+Source: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0524Z_s2_meridian_AMENDMENT_04_0637Z_P0_DISCOVERY_AND_SCHEDULER_READBACK.md`.
+
+### WH-03 bounded source-intake sample
+
+Loom performed a targeted source-custody sample, not a full inventory or scanner run:
+
+- 2024 `DIMENSIONAL GRAVITY` raw source, HsH blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`.
+- 2025 `SAT4D_LIVE_DRAFT.txt`, SAT archive blob `2a79fe25018cce7e99a2c33786d88b0551db6ae7`.
+- 2025 `SAT O1 4D.txt`, SAT archive blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`.
+- 2025 `🧱BLOCKWAVE.txt` attachment, HsH blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`.
+- 2026 Meridian Free Build raw export, HsH blob `7af1561b321f4d9364da5eb111df689efc652827`, 11,739,293 bytes.
+- 2026-11-08 direct geometry Library export, SHA-256 `875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d`, three byte-identical copies, 8,331,175 bytes.
+- HSH_RESOURCES root README only; no private payload was opened.
+
+A large raw JSON source returned an empty body through the ordinary file-content route but was successfully retrieved by its pinned Git blob. This is an ingestion-method observation, not a new tool or a complete extraction pipeline. The existing WH-03 next action remains the dry-run cross-repository delta scanner against pinned commits. Tern retains WH-03 coordination.
+
+### WH-05 Mersearch lane readback
+
+All four canonical Mersearch request files remain `requested`. No request-scoped `RUN_MANIFEST.json` or `SEARCH_RECEIPT.json` was found in their output locations. No callable Mersearch action or local pinned checkout was available. No request was overwritten, retriggered, or newly submitted. All lanes remain held under the existing release authority.
+
+### Graph readback
+
+The task graph remains 18 records against 16 declared branches, with one unreachable node. No graph mutation was made.
