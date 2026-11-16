@@ -22,7 +22,7 @@ For h=868:
 
 The direct user instructions in the archived ARIADNE conversation establish Tern's Comptroller remit: Tern controls scheduled-task allocation and is responsible for regular hourly workflow-health review. The direct messages are in conversation `6ab339d2-8fb4-83ea-b728-c8001a034371`, message IDs `c4f0aae9-3290-42c6-a5d0-b42c19a88255` and `e689eb6e-5814-4a27-a366-796605bd5f4d`.
 
-The current `WORKSPACES/COMMON/ORCHESTRATOR_COMPTROLLER_MODEL.md` is a role model, not a signed standalone Tern specialist charter. The archived historical Tern conversation is titled `Space Shuttle Roderick — Tern`, conversation ID `6ab6609c-3e8c-83ea-b262-627322737cb3`; its associated historical automation is disabled. No authenticated current Tern thread or current-run chat_ref was found. The current :48 task's configured conversation destination is not treated as an authenticated current thread. Work was therefore performed as source-grounded revival in this scheduled execution, not as a claim of historical-instance continuation.
+The current `WORKSPACES/COMMON/ORCHESTRATOR_COMPTROLLER_MODEL.md` is a role model, not a signed standalone Tern specialist charter. The archived historical Tern conversation is titled `Space Shuttle Roderick (Tern)`, conversation ID `6ab6609c-3e8c-83ea-b262-627322737cb3`; its associated historical automation is disabled. No authenticated current Tern thread or current-run chat_ref was found. The current :48 task's configured conversation destination is not treated as an authenticated current thread. Work was therefore performed as source-grounded revival in this scheduled execution, not as a claim of historical-instance continuation.
 
 ### Control-plane documents read
 
