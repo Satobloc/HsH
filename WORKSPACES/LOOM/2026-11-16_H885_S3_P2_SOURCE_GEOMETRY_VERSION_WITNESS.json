@@ -119,7 +119,8 @@
       "mapping_nodes": 2500,
       "user_role_messages": 80,
       "current_ancestry_nodes": 2309,
-      "current_ancestry_user_role_messages": 75
+      "current_ancestry_user_role_messages": 75,
+      "mixed_source_boundary": "The user-role message begins with an embedded quotation of prior assistant text. Exclude that quoted block from Nathan Direct attribution; only the user's correction after the quote supports the 3D slice/bulk, interaction-not-passive-readout, and no-invented-elasticity constraints."
     },
     {
       "id": "CORE-TRACE-COIL-RADIUS-2026-10-09",
@@ -202,7 +203,8 @@
       "mapping_nodes": 3678,
       "user_role_messages": 112,
       "current_ancestry_nodes": 3660,
-      "current_ancestry_user_role_messages": 106
+      "current_ancestry_user_role_messages": 106,
+      "mixed_source_boundary": "The user-role message contains quoted material marked as prior text. Exclude those quoted blocks from Nathan Direct attribution; only the final user correction explicitly retiring the reciprocal construction and describing Back Hallways as metaphorical is treated as direct."
     },
     {
       "id": "BACK-HALLWAYS-SUPERSESSION-CLARIFICATION-2026-10-21",
