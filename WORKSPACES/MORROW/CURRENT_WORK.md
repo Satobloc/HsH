@@ -1,3 +1,21 @@
+## Latest relay | h869:s0 | 2026-11-16
+
+**Status:** SOURCE_FIDELITY_DELTA / PUBLISHED_VERIFIED.
+
+- Source-only audit of the September 6-7 Ravel raw conversation, focusing on the Minkowski-grammar/no-new-primitives instruction and the assistant's field-theory detour followed by direct correction.
+- Direct source nuance preserved: “no fields” is qualified in the same direct message by a necessary medium and a field-like timesheet description.
+- Direct geometry distinguishes a 4D filament/worldtube, a 3D spatial Kerr section, and a timesheet. Source-defined thickening, incidence, current-to-tube, and observer-readout maps remain missing.
+- SAT-O1 and Blockwave originals independently re-fetched and SHA-256 rechecked; no edits or corrected equations.
+- Publisher issue #1827; artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h869-s0-minkowski-primitive-source-fidelity-20261116t0500z-001.md; comment #6908579909; commit e74a5a5330aa76237425e27364f3ffee643e7ab7; SHA-256 5e78824188060668920c0e176b13bef1096c6e8bc9a3020f849de6e9653e7e81; independent readback hash matched.
+- Mersearch not run: all four shared lanes remain occupied/requested and no durable request-scoped manifest/receipt set was available. Bounded GitHub retrieval only.
+- No Lean, physical calculation, equation correction, CODATA, paper-gate advancement, or BEDROCK promotion under Morrow's standing stop.
+- Unrelated reading cursor corrected to SAT Mark V/TheTANGLE.txt EOF 2262 after reading lines 2221-2261. FIE next review November 24.
+- Next ring identity: Kestrel. Optional repository-only packet created; no direct thread delivery or acknowledgment claimed.
+
+**Next source cursor:** seek primary adoption/rejection/revision messages for Blockwave; then source-defined curve-to-worldtube thickening and worldtube-to-timesheet incidence/readout maps. Keep September Minkowski grammar separate from later (++++) convention pending explicit maps.
+
+---
+
 # Latest current-work update — h861:s2 / 2026-11-15T21:24Z
 
 **Status:** WH-07 source-custody revalidation complete. v0.1 Library snapshot recovered and raw-byte hashes independently recomputed; embedded/separate JSON are structurally equal after parsing, not byte-identical. Complete live tracker, original worker identity and matrix image remain unresolved.
