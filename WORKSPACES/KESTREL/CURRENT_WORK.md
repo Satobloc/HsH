@@ -734,3 +734,11 @@ See `WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GA
 - Supplemental amendment: [PRL full-text extraction and data-access status](2026-11-16T2024Z_H884_S2_AMENDMENT_01_PRL_FULLTEXT_DATA_ACCESS.md), SHA-256 98326122e636ecd32592c03e741511d8c0f44a0511070d6a484a9a981a62d576. SciSpace extraction reports author-request-only data access and provides PIV/PTV, circulation, spectral, timescale, and tricoherence details. This remains secondary extraction pending direct APS PDF verification.
 - No raw data retrieved and no source-specific physical map, Lean proof, or calculation established.
 
+### h884:s2 publication completed
+
+- Issue #1854 publisher run #43952329926 completed successfully; publisher comment #6928735293 and exact artifact readback verified.
+- Published artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-h884-s2-codata-cycle-measured-system-map-20261116t2024z-001.md.
+- SHA-256: ffd443e244ddabbcd44581d38ed180ee8b3dce25b1376cc7a888f4be62de02d8. Workspace report and published artifact text match exactly; independent SHA-256 recomputation matches.
+- Supplemental Amendment 01 is linked in issue comment #6928841343; it records secondary SciSpace full-text extraction for the PRL paper, with direct APS PDF verification still pending.
+- Final status: PUBLISHED_VERIFIED. Do not resubmit.
+
