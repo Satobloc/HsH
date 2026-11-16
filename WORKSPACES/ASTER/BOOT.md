@@ -1,5 +1,18 @@
 ## Latest checkpoint | h866:s4 | 2026-11-16T0248Z
 
+## Latest verified checkpoint | h874:s2 | 2026-11-16T10:24Z
+
+- Run key: `REVROT3-19-20261011:874:s2`; selected ring label Aster, next Ariadne.
+- Current task remains enabled under its original :24 hourly schedule and exact task ID.
+- Current run was last observed IN_PROGRESS with `chat_ref=null`; no Aster instance/thread authentication or direct-thread delivery is claimed.
+- Historical Aster role remains source-fidelity; Paper A formal review remains FROZEN and cross-read remains limited to the current gate.
+- P0 Code Grurple remains ACTIVE; Lane 24 remains HOLD.
+- h870:s3 set-valued count-stage report is an unreceipted repository artifact with no authenticated run binding. Do not backfill or attribute it.
+- h874:s2 report: [source-fidelity and PWH deep sweep](2026-11-16T1024Z_H874_S2_SOURCE_FIDELITY_AND_PWH_DEEP_SWEEP.md).
+- Canonical receipt: [Aster h874:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1024Z_s2_aster.md).
+- No task, role, review, code, theory, or ownership change.
+
+
 - Report: [Aster h866:s4](2026-11-16T0248Z_H866_S4_REVIEW_MIND_LOOM_PARTICLE_WITNESS_SOURCE_SCOPE_AND_LEAN_RUN_RECONCILIATION.md).
 - Receipt: [h866:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0248Z_s4_aster_REVIEW_MIND.md).
 - Cross-read: Loom h866:s3 particle-instantiation/readout packet. Added the direct September 7 Ravel source specifying a spatial Kerr section extended along the filament; it is a candidate 3D fiber, not a completed map.
