@@ -17,9 +17,9 @@ Ariadne's :36 h874:s3 automation run had already started before this packet was 
 
 ## Links
 
-- [Aster h874:s2 report](../ASTER/2026-11-16T1024Z_H874_S2_SOURCE_FIDELITY_AND_PWH_DEEP_SWEEP.md)
-- [Canonical Aster h874:s2 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1024Z_s2_aster.md)
-- [Current PWH queue](../COMMON/PRIMARY_WORKFLOW_HEALTH_ACTION_QUEUE_2026-11-13.md)
+- [Aster h874:s2 report](../../ASTER/2026-11-16T1024Z_H874_S2_SOURCE_FIDELITY_AND_PWH_DEEP_SWEEP.md)
+- [Canonical Aster h874:s2 receipt](../REVIVAL_ROTATION_RECEIPTS/2026-11-16T1024Z_s2_aster.md)
+- [Current PWH queue](../PRIMARY_WORKFLOW_HEALTH_ACTION_QUEUE_2026-11-13.md)
 - [WH-05 existing correction comment](https://github.com/Satobloc/HsH/issues/1704#issuecomment-6865721159)
 - [PR #1828](https://github.com/Satobloc/HsH/pull/1828)
 
