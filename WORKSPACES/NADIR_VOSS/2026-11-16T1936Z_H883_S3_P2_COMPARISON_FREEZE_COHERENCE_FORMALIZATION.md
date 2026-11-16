@@ -5,13 +5,13 @@
 **Selected ring label:** Nadir Voss (index 10)  
 **Next ring label:** Enheduanna (index 11)  
 **Lane:** 36, architecture / workflow / prediction  
-**Disposition:** SPECIFICATION-ONLY LEAN BUILD PASS; P2 HOLD; PUBLICATION SUBMITTED NOT VERIFIED
+**Disposition:** SPECIFICATION-ONLY LEAN BUILD PASS; P2 HOLD; PUBLICATION PUBLISHED_VERIFIED (initial pending state superseded by Amendment 01)
 
 ## 1. Authority, identity and continuity
 
 The live HsH main branch, BEDROCK, October 26 Steering Charter, Three Paper Campaign, New Instance Start Here, three-repository onboarding, Revival Rotation V3, thread-first rule, workflow branching map, PWH action queue, current Nadir workspace, prior Nadir receipts and current P2 docket were read.
 
-Main head at pre-work inspection: a571505c1d... (see GitHub branch history; the main branch advanced during this run with the matrix correction).
+Pre-work main head was recorded in the initial preflight log only as prefix a571505c1d; the full preflight SHA was not retained. The exact matrix-correction commit and final main head are recorded separately.
 
 Nadir's historical source is the raw Quantum Gravity and Experiments export. The recovered October 1 direct-user messages authorize a broad five-lab playground and permit assistant-led conjecture and formalization, but do not appoint a named Nadir Voss worker or establish a standalone signed Nadir specialist charter. The Nadir workspace is an assistant-maintained specialization. No authenticated currently usable Nadir ChatGPT thread was found. No cross-thread delivery or acknowledgment is claimed.
 
@@ -30,7 +30,7 @@ I added a top-level correction to the existing matrix, preserving the historical
 [Updated P2 source-readiness matrix](2026-11-16T0036Z_H864_S3_P2_SOURCE_READINESS_TWO_AXIS_GATE.md)
 
 - Main commit: 9d30e61a57323eaa01d64d3c42a5bc24cf000b26.
-- New matrix blob: fd3960d1... (full Git blob is available in the repository).
+- New matrix blob: fd3960ba65f5c379c3ad2b44f71fd99d5635d03d.
 - Independent fetch/readback: exact notice present.
 
 The legacy filename is retained for continuity. The current admission rule is E ∧ D ∧ F ∧ R. All four axes are non-compensatory.
