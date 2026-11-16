@@ -846,3 +846,56 @@ These statements may be reconcilable, but no source-defined conversion map, unit
 - **Authorship / compendium:** no Nathan Verified Words Compendium entry. This segment is not a raw conversation mapping node; no Nathan/user-role authorship is established.
 - **Formalization triage:** the word “relative” has no operational definition here; no definite source-faithful theorem is available. No Lean target or new formalization was created.
 - **Chronology:** original conversation date unknown; do not infer it from the dump path.
+
+
+## Section AG | 2026-11-16 | Lateral reading continuation and cursor correction
+
+**Source:** `fun break - lx.txt`, HsH path `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt`; SAT archive path `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`.
+
+- Both repository copies resolve to Git blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, 199,558 characters, 3,372 lines.
+- Read lines 1641-1680. Next cursor: **1681**.
+- Content: continuation of a language-discovery game. The segment contains a correction that the next language should be related to the last language named.
+- Tags reused from Sections AE/AF: `LATERAL-READ`, `LANGUAGE-DISCOVERY-GAME`, `RELATED-LANGUAGE-CHAIN`, `GAME-RULE-CORRECTION`, `TRANSCRIPT-FLAT`, `TEXTUAL-SPEAKER-LABELS`, `NO-RAW-ROLE-METADATA`, `NO-NATHAN-DIRECT-ATTRIBUTION`, `NOT-THEORY-EVIDENCE`.
+- The transcript is flattened and its textual speaker labels are not raw role metadata. No real-world speaker attribution is inferred.
+
+**Cursor correction:** Section AE already records lines 1521-1560. Section AF records lines 1601-1640 and next cursor 1641. The h866:s3 report's claim that 1521-1560 was newly read repeated Section AE and did not advance the cursor. It is not counted as a new reading quantum. This run continues from 1641 and advances to 1681.
+
+## Section AH | 2026-11-16 | Source-ancestry and geometry-provenance crosswalk
+
+### AH.1 | Nov 8 direct geometry source
+
+- Library raw export: `ND Workshop Relay _24 _ Geometry - raw.json`, conversation ID `6aecede1-4c08-83e9-abc4-da64f59a4f51`.
+- SHA-256: `875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d`; 8,331,175 bytes. Three exports were byte-identical.
+- 1,150 mapping nodes; 33 user-role nodes; 1,005 nodes on current ancestry; 29 user-role nodes on current ancestry.
+- Direct user-role current-ancestry messages: `bcbe9ee8-b621-4a40-9edb-b34c17783be5`, `f9356192-0ec6-4a9c-ab53-ab76bf75c42e`, `6db8c5e8-a2db-4621-922e-adab214e025e`, `c0520975-02a0-408f-a250-364b88ab7b30`.
+- Tags: `NATHAN-DIRECT`, `WORKING-HYPOTHESIS`, `4D-TUBE-REGION`, `1D-CORE`, `3D-BOUNDARY`, `TIMESHEET-MOUTH-POSSIBLE`, `WORLDSHEET-MODE-POSSIBLE`, `TOPOLOGICAL-SPLIT-HYPOTHESIS`, `THETA4-VACUUM-MATTER-DISCRIMINATOR-CLAIM`, `FOURTH-SPATIAL-W`, `PROPER-TIME-DISTINCT`, `GLOBAL-TOPOLOGY-TENTATIVE`, `CONSTRUCTION-MAP-MISSING`.
+- Assistant response `02ad70b2-811f-415a-aa18-77599916b7df` is separately tagged `ASSISTANT-RECONSTRUCTION`, `S3X-S1-PROPOSAL`, `NOT-NATHAN-DIRECT`, `NOT-ADOPTED`.
+
+### AH.2 | Meridian Free Build ancestry and span-level attribution
+
+- HsH raw blob: `7af1561b321f4d9364da5eb111df689efc652827`; conversation ID `6ac45d1f-17b0-83ea-ad1f-fa524602378b`; 11,739,293 bytes.
+- 2,500 mapping nodes; 80 user-role nodes; 2,309 current-ancestry nodes; 75 user-role nodes on current ancestry.
+- `1178f25c-9f92-4d1c-b43b-06482e6bf1b1` is current ancestry. `28b2378a-846d-4c3f-a242-91f9007ce261` is a near-duplicate off current ancestry and is not an independent witness.
+- `6f00a97a-aa84-45bf-9429-4ff70736014a` and `7aec988d-0398-4eb1-9bb1-cb6d133e9a7d` are direct user-role messages on current ancestry. They support a tentative Kerr-ring core scale, one helical core, hollow outer coil, and an explicit abstraction caveat if a core is used.
+- `b27ec702-f976-4273-8d87-166ecccdfeb8` is an outer user-role message on current ancestry that begins “Cross-posting from Mercer for visibility.” Its quoted ER/Kerr/worldtube span is tagged `CROSSPOSTED-MERCER-CONTENT`, `EMBEDDED-AUTHOR-UNRESOLVED`, `NOT-NATHAN-DIRECT`. The later operational instruction in the same message is separately `NATHAN-DIRECT`.
+- The Meridian source supports a 4D-filament / 3D-intersectional-trace statement and a tentative core-scale abstraction. It does not itself define the Nov 8 4D tube / 1D core / 3D boundary construction.
+
+### AH.3 | 2025 SAT and Blockwave source separation
+
+- `SAT4D_LIVE_DRAFT.txt`, SAT archive blob `2a79fe25018cce7e99a2c33786d88b0551db6ae7`: document-level Nathan McKnight byline, June 2025, internal draft, AI assistance acknowledged; line-level equation authorship not independently established.
+- `SAT O1 4D.txt`, SAT archive blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`: 75 lines, 3,521 characters, unbylined; file-index last-write 2025-06-09 18:44:50 with timezone unspecified; composition date/author unresolved. The two SAT files are not byte-identical.
+- Blockwave attachment `🧱BLOCKWAVE.txt`: user-supplied attachment event 2025-09-16T16:31:26.687Z; archived blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`; SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`; embedded document author unresolved.
+- Separate assistant message `3039b226-02d4-41a3-a2d3-c338e25204a9`, raw conversation blob `1f074cc67057ae9df1e92bab45e8ba34c96b0d77`, 2025-10-19T12:31:03.318Z, defines a two-form `J^{mu nu}` worldsheet current. Tags: `ASSISTANT-ORIGIN`, `J2-WORLDSHEET-CURRENT`, `NOT-NATHAN-DIRECT`, `NO-MAP-TO-1D-CURVE-CURRENT`.
+
+### AH.4 | 2024 heuristic qualifier and existing-tag preservation
+
+The 2024 `DIMENSIONAL GRAVITY` messages `aaa2269b-7eab-4781-9454-647098d6747f`, `aaa2d0b1-017d-453e-b95a-b23915f87d32`, `aaa2a1cc-e884-4f6a-800f-8afc29ab221a`, and `aaa26f3d-e831-49cd-976e-a85c5e3b749d` were already tagged in Section A. The final message explicitly keeps spherical expansion optional and describes the construction as an abstraction/potential heuristic, not true ontology. Existing tags are preserved; no duplicate entries are added.
+
+### AH.5 | H866 report status and Kestrel source-comment note
+
+- H866:s3 `SOURCE-SCOPED-PARTICLE-INSTANTIATION-READOUT-WITNESS` is an assistant-authored workflow proposal, not a direct source, implemented witness, physical result, or accepted theory primitive.
+- Its phrase “finite-core support explicit in the 2026 direct-source lineage” is now source-qualified: the Nov 8 direct source provides the provisional 4D tube / 1D core / 3D boundary; the Meridian source provides a tentative core-scale abstraction and 3D trace. These are separate source families.
+- Existing Kestrel PR #873 module `KestrelIntersectionDimensionGate.lean`, blob `64c9202a9a6f87f8abe269467b13e2f7200bc2b3`, should receive an owner-authored source-comment crosswalk if Kestrel agrees. Loom made no change to Kestrel's branch or PR.
+- No source-defined carrier selector, particle readout, support profile, tube thickening, boundary embedding, or projection/composition map was found. No new Lean theorem or physical result.
+
+**Ledger status:** manual additive source tags and ancestry notes only. The proposed `SOURCE_PROVENANCE_GATE.md` remains PROPOSAL / NON-OPERATIVE. No global tag dictionary, automated harvester, source file, equation, or theory was modified.
