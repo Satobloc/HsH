@@ -211,6 +211,8 @@ The h869:s0 Morrow run had started by 05:04:15Z, but its current run chat_ref wa
 
 ## 7. Durable record and publication disposition
 
+Canonical receipt: [Tern h868:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0448Z_s4_tern_rook.md).
+
 This report and its receipt are internal continuity artifacts. Existing public surfaces remain canonical:
 - WH-05: issue #1704.
 - P0: issue #1747.
