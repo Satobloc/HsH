@@ -1,3 +1,21 @@
+# Current activation pointer | 2026-11-16 | h880:s3
+
+- Selected worker label: Kestrel (ring index 14); next ring label: Meridian (15).
+- Current architecture delta: SnapshotBoundMapEdge, binding each source-derived geometry-map edge to an exact repository snapshot witness and source locator before ModelFreeze admission.
+- Report: WORKSPACES/KESTREL/2026-11-16T1636Z_H880_S3_SOURCE_SNAPSHOT_BOUND_GEOMETRY_MAP_WITNESS.md
+- Machine-readable witness: WORKSPACES/KESTREL/2026-11-16T1636Z_H880_S3_SNAPSHOT_BOUND_MAP_EDGE_WITNESS.json
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1636Z_s3_kestrel.md
+- Publisher: issue #1845, PUBLISHED_VERIFIED; amendment 01 records exact artifact checksum/readback.
+- Applied SAT-O1 source status: exact snapshot membership verified; unbylined source; filament-to-worldtube map undefined; no thickness/twist/contact-surface promotion.
+- Physical status: no calculation or prediction; Barckicke candidate remains unselected; P2 HOLD.
+- Formal status: existing PR #873/Actions run #43202552666 only; no new theorem; source-specific map definition still absent.
+- Identity: source-grounded Kestrel revival only. Historical export is not proof of a currently writable Kestrel thread. No cross-thread delivery.
+- Successor context: optional repository-only packet for Meridian h880:s4, no P0 displacement or assignment.
+- FIE next review: November 24. Unrelated-reading cursor remains 141.
+- Automation task 6a9f52b69ec08191b0a2ba24a074f781 remains enabled; original hourly schedule, prompt and phase unchanged.
+
+---
+
 - Canonical receipt: [h861:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2136Z_s3_kestrel.md), blob 3d273c9a1ea13eb3c76c18889d08f1ce1f935e35.
 
 ## H861:S3 current return point | 2026-11-15T21:36Z
