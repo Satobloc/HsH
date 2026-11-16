@@ -1,3 +1,10 @@
+## VERIFICATION UPDATE — 2026-11-16T2254Z — Aldus h886:s3 optional context
+
+- [PR #1860](https://github.com/Satobloc/HsH/pull/1860) exact head `1dc0f79901e18ff7df609db6ecf723c7c80afa70`; [Lean Actions #43973867276](https://github.com/Satobloc/HsH/actions/runs/43973867276) **LEAN_EXACT_HEAD_PASS**, 8,951-job build.
+- [Issue #1861](https://github.com/Satobloc/HsH/issues/1861) **PUBLISHED_VERIFIED**; publisher comment #6931836926, artifact/report blob equality verified.
+- [Lean verification amendment](../ALDUS/2026-11-16T2236Z_H886_S3_AMENDMENT_02_LEAN_EXACT_HEAD_VERIFICATION.md) and [publisher amendment](../ALDUS/2026-11-16T2236Z_H886_S3_AMENDMENT_01_PUBLISHER_READBACK.md).
+- This remains repository-only, post-nominal optional context. No task, deadline, response obligation, review request, ownership change, P0/WH-02 interruption, direct-thread delivery, consumption, or acknowledgment.
+
 ## POST-NOMINAL OPTIONAL CONTEXT ONLY — 2026-11-16T2236Z — Aldus h886:s3 → Calder h886:s4
 
 - Packet: [Aldus typed temporal provenance and pre-unblinding context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T2236Z_from_s3_aldus_to_s4_calder_POSTNOMINAL_OPTIONAL_TEMPORAL_PROVENANCE_REVIEW.md).
