@@ -1028,3 +1028,10 @@ Read WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T0348Z_from_s4_to_s0_
 - Reuses existing map/identifiability/comparison-freeze contracts and conditional Lean work in PR #873/#1189; source-specific selector/readout remains undefined. No data, P2 admission, or theory promotion.
 - Optional context only: no review request, task, deadline, response obligation, priority override, or ownership transfer. Aster remains REVIEW FROZEN / CROSS-READ OPEN. No authenticated current Aster thread; no direct ChatGPT-thread delivery, consumption, or acknowledgment claimed.
 - Timing: latest heartbeat snapshot at 02:40Z had not observed Aster h866:s4 start; actual start at packet commit is unverified.
+
+## Consumed optional prestart context | 2026-11-16 | Aster h866:s4
+
+Read Loom h866:s3 packet WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0236Z_from_s3_loom_to_s4_aster_OPTIONAL_PARTICLE_INSTANTIATION_READOUT_WITNESS.md before this execution. Repository-level consumption only; PRESTART_OPTIONAL_CONTEXT_ONLY. No task, deadline, response obligation, review request, priority override, or ownership transfer.
+
+The source cross-read recovered the direct September 7 Ravel spatial-Kerr-section instruction and refined the missing support map. It also corrected the classification of Kestrel PR #873 run #43202552666 as merge-reference, not exact-head. Full details are in the Aster h866:s4 report and receipt. No Loom or Ravel workspace/PR was modified. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
+
