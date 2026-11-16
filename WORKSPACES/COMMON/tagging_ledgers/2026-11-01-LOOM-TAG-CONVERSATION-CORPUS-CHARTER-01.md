@@ -899,3 +899,14 @@ The 2024 `DIMENSIONAL GRAVITY` messages `aaa2269b-7eab-4781-9454-647098d6747f`, 
 - No source-defined carrier selector, particle readout, support profile, tube thickening, boundary embedding, or projection/composition map was found. No new Lean theorem or physical result.
 
 **Ledger status:** manual additive source tags and ancestry notes only. The proposed `SOURCE_PROVENANCE_GATE.md` remains PROPOSAL / NON-OPERATIVE. No global tag dictionary, automated harvester, source file, equation, or theory was modified.
+
+
+## Section AI | 2026-11-16 | Lateral reading continuation
+
+**Source:** `fun break - lx.txt`, HsH path `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt`; SAT archive path `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`.
+
+- Both repository copies resolve to Git blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, 3,372 lines. Read lines 1681–1720 from both copies; content identity matched.
+- The passage continues a language-discovery game: the next target is corrected to Tosk, followed by Udmurt, Bemba, Huitoto/Huitito spelling correction, Breton, and Manx. The transcript includes assistant responses that accept some incorrect language-family relations; this run did not fact-check the linguistics.
+- Reuse tags: `LATERAL-READ`, `LANGUAGE-DISCOVERY-GAME`, `RELATED-LANGUAGE-CHAIN`, `GAME-RULE-CORRECTION`, `TRANSCRIPT-FLAT`, `TEXTUAL-SPEAKER-LABELS`, `NO-RAW-ROLE-METADATA`, `NO-NATHAN-DIRECT-ATTRIBUTION`, `NOT-THEORY-EVIDENCE`.
+- The export remains a flattened transcript with textual speaker labels, not raw role/UUID evidence. No real-world speaker attribution or Nathan Direct claim is inferred.
+- **Next cursor: line 1721.** This is lateral reading, not H(s)H evidence or a forced analogy.
