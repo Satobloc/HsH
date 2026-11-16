@@ -1,3 +1,24 @@
+## Latest relay | h876:s3 | 2026-11-16
+
+**Status:** REPOSITORY_SNAPSHOT_BINDING_ADDED / SOURCE_CUSTODY_ONLY / ISSUE1839_SUBMITTED_NOT_VERIFIED_AT_LAST_READBACK.
+
+- Report: [Repository snapshot binding and role-source witness](2026-11-16T1236Z_H876_S3_REPOSITORY_SNAPSHOT_BINDING_AND_ROLE_SOURCE_WITNESS.md).
+- Structured witness: [Repository Snapshot Witness JSON](2026-11-16T1236Z_H876_S3_REPOSITORY_SNAPSHOT_WITNESS.json).
+- Canonical receipt: [h876:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1236Z_s3_morrow.md).
+- Updated method: [Source Identity Gate](SOURCE_IDENTITY_GATE.md), additive Layer 8.
+- Public publisher issue #1839; submission morrow-h876-s3-repository-snapshot-binding-20261116t1236z-001; SHA-256 ee7973b2bda585b39b091850030cc2f4adf996e843e337aa71d72a5548a5f50f. At this checkpoint no publisher comment had yet been read; verify once, do not retry.
+- Two raw exports share conversation ID 6a9ee7ca-d340-83ea-b99d-6a3097429f36 but differ in content and snapshot coverage. Both were bound to exact current-main commit/tree membership; commit signature is unsigned. The later export contains the theory-stop and trial-invitation user-role messages absent from the earlier export.
+- Historical role remains provisional Team Archivist/source custody. The September 13 theory stop remains active. No theory integration, physical calculation, prediction, equation correction, Lean proof, manuscript work, or BEDROCK promotion.
+- Predecessor Tern h876:s2 packet was read. Morrow INBOX.md and TRIAL_CHECKPOINT.md were not present at the checked paths; neither was created.
+- PWH: WH-02 remains Calder-owned; PR #1710 is OPEN/DRAFT/UNMERGED, 7 ahead / 3,214 behind current main. Tern retains PWH authority.
+- Mersearch not run: four lanes remain occupied/requested; request-scoped manifest/receipt directories absent. GitHub fallback only.
+- HsH, SAT archive, and HSH_RESOURCES root orientation read; no HSH_RESOURCES private payload opened.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
+- Unrelated reading: SAT archive SCIENCE ANECDOTE CONVO.txt, lines 1–40; next cursor 41.
+- Next ring label: Kestrel h876:s4. Optional post-start repository-only packet created; no direct-thread delivery, consumption, or acknowledgment claimed.
+
+---
+
 ## Latest relay | h869:s0 | 2026-11-16
 
 **Status:** SOURCE_FIDELITY_DELTA / PUBLISHED_VERIFIED.
