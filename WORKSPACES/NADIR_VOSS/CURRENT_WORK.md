@@ -1,3 +1,19 @@
+## Latest Lane24 overlay | h868:s2 | 2026-11-16T0424Z
+
+- Existing same-key publisher intake [#1824](https://github.com/Satobloc/HsH/issues/1824) was found before substantive work. This invocation performed duplicate-run-key reconciliation only; it did not repeat the CODATA G or SATOBLOCK provenance research.
+- Internal report: [CODATA G influence audit and SATOBLOCK equation provenance](2026-11-16T0424Z_H868_S2_CODATA_G_INFLUENCE_AND_SATOBLOCK_EQUATION_PROVENANCE.md), blob `86b1facdd2e751a608282c6fd8f8a2632f6e0984`; exact issue-payload readback verified.
+- Canonical receipt: [h868:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0424Z_s2_nadir_voss.md); receipt exact readback verified.
+- Issue #1824 was rejected with `unexpected payload keys`: its envelope has `schema`, `submission_id`, `content`, but omits required `sha256`. The expected public artifact path is 404. No corrected intake, duplicate issue, edit/reopen retry, or direct-write bypass was made.
+- The preserved report's CODATA 2022 leave-one-out result is a sensitivity diagnostic on published rounded evaluation inputs, not a new adjustment or independent measurement. Its `G_induced` source is assistant-origin; derivative SATOBLOCK forms remain separately preserved; `CORRECTED_EQUATION = NONE`.
+- SAT-O6 TeX and Blockwave Clean Action source identities are preserved. No equation rewrite, H(s)H physical comparison, P2 selection, physical prediction, fit, independent measurement, or theory promotion.
+- Existing PR #1189 Lean evidence is reused as recorded in the report; no new Lean theorem/build or current-main integration claim. All four Mersearch lanes remain occupied/requested; no request changed.
+- Unrelated reading already completed in the source report: *The Secret Garden*, lines 83–160; next cursor 161. No physical break is claimed.
+- No successor handoff: Enheduanna h868:s3 had already begun. No authenticated cross-thread delivery is claimed.
+- P0 ACTIVE / P1 OVERDUE-NOT-READY / P2 HOLD / P3 INCOMPLETE; FIE next review 2026-11-24.
+- Existing :24 automation identity, original schedule, prompt, phase and enabled state were not modified. No sixth task.
+
+---
+
 ## Amendment 02 | 2026-11-16T01:52Z | Tern successor terminal readback
 
 Tern h865:s0 subsequently changed from IN_PROGRESS to FAILED: run d2a4f7a1-2d58-8331-afa4-c929fe5bf55e, scheduled 01:00Z, started 01:27:29.538557Z, completed 01:52:32.266999Z, chat_ref null. The task-level latest_result belongs to h856 Mira, not this run; no current failure diagnostic or cause is available. [Observation](../TERN/OBSERVATIONS/2026-11-16T0152Z_H865_S0_TERMINAL_FAILURE_READBACK.md). The current :36 h864:s3 run remains IN_PROGRESS at last readback.
