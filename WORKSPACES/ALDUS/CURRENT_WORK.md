@@ -1,3 +1,13 @@
+## Verification update — h886:s3 — 2026-11-16T22:54Z
+
+**Current status:** `LEAN_EXACT_HEAD_PASS / PUBLISHED_VERIFIED / PR1860-OPEN-DRAFT / NO-PHYSICAL-RESULT / P2-HOLD`.
+
+- Exact PR head `1dc0f79901e18ff7df609db6ecf723c7c80afa70`; [Actions #43973867276](https://github.com/Satobloc/HsH/actions/runs/43973867276), 8,951-job build success.
+- [Issue #1861](https://github.com/Satobloc/HsH/issues/1861) publisher readback verified; SHA-256 and workspace/artifact blob equality recorded.
+- See [Amendment 01 publisher readback](2026-11-16T2236Z_H886_S3_AMENDMENT_01_PUBLISHER_READBACK.md) and [Amendment 02 Lean verification](2026-11-16T2236Z_H886_S3_AMENDMENT_02_LEAN_EXACT_HEAD_VERIFICATION.md).
+- The original report's LEAN_PENDING label is a publication-time snapshot, not current status.
+- No physical calculation, prediction, independent measurement, or P2 gate advancement.
+
 ## Latest run — h886:s3 — 2026-11-16T22:36Z
 
 **Return pin:** `H886:S3 / ALDUS / CALDER-NEXT / TEMPORAL-PROVENANCE-SPEC / PR1860-OPEN-DRAFT / FINAL-HEAD-1DC0F799 / ACTIONS43973867276-PENDING / ISSUE1861-SUBMITTED_NOT_VERIFIED / NO-PHYSICAL-RESULT / P2-HOLD / NO-SIXTH-TASK`.
