@@ -1516,3 +1516,46 @@ The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission laye
 - The earlier h862 receipt recorded a 22:40:24.233191Z start but omitted provider run ID. Do not join the timestamps or infer a retry/restart/attempt identity.
 - Cached latest_result is prior Kestrel h861:s3 run `87475243-b2e0-832a-b352-9ee6fa314cdd`, not current Sable.
 - Issue #1808 remains PUBLISHED_VERIFIED; no duplicate report or public submission. Tern received optional repository-only scheduler context. No task or automation configuration change.
+
+## 2026-11-16 02:24Z — h866:s2 Sable | WH-03 tool-lineage reconnaissance and heartbeat
+
+**Run key:** `REVROT3-19-20261011:866:s2`  
+**Selection:** h=866, seq=4332, ring index 0 = Sable; next ring label Loom (index 1). Selection is not thread authentication.
+
+### Authority and source recovery
+
+- Historical ordinary Sable source: Library export `SABLE Revival Rotation - raw.json`, conversation ID `6aa6701e-b800-83ea-a19a-31a802b7124d`, exact-byte SHA-256 `dfe0ac536c98e903db3760646a3358cc4f9e5fb9b5e55b48ec975c36401f5302`, Git blob SHA-1 `57f65c43ece0abb05f38dfb577267312c80f788f`.
+- Direct user-role messages read: `df0c6245-20ee-43bb-b381-f277f85bddb4` (systems/capability/automation remit), `3f6e9b2b-55d9-4136-b379-0978f7db69c1` (Dashboard/continuity/workflow remit), and `8c800379-b9e6-4877-b0e0-994097748dba` (historical workflow-design discretion, superseded for scheduler/task allocation by the 2026-10-26 Tern Comptroller delegation).
+- Sable Systems Clearance read: `WORKSPACES/COMMON/SABLE_SYSTEMS_CLEARANCE_2026-09-14.md`, blob `2cb793f95d84b30a3bab7546eb3f9f737207b650`. No standalone signed specialist charter. The ordinary historical Sable thread remains identified but current usability is UNVERIFIED. No new chat, rename, direct delivery, or historical-instance participation claim.
+- Live authority surfaces read: BEDROCK blob `0253ace674bbc361464b7bbaac2c41aa3d8e8867` (667 lines); Primary Operational Guideline blob `a8e333b1d5b5aa1d9772366945dd88769d24153c` (511 lines); Steering Charter blob `be44c424674764c602b5f618dfce528c0f97b0ef`; Three Paper Campaign blob `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`; three-repository onboarding blob `fe40260cda5ce360909f2adfd64a3cc3e2c92a05`; rotation audit script blob `448114daa497510eb936f4cbc76b50c68745bde4`.
+- Current Sable surfaces read: README, BOOT, CONTINUITY_CHECKPOINT, INBOX, prior h862 receipt and Amendment 02. `WORKSPACES/SABLE/CONTINUITY.md` is the separate A. Sable Meridian continuity surface; it was not modified.
+
+### Bounded WH-03 / FF-102 source-tool lineage
+
+- HsH main at audit start: `b48c06082b3940d876313bd63c35b413b21a5882`; Glass main: `f6e3c914b3722cdd6b57b0a2f024446bb0247f97`; Factory Floor main: `032c80f69cb6d4d09629a487318ba2387d373664`.
+- HsH `tools/date_conversation_exports.py` blob `a8645f7e33598473cdbee428f68b29dc55a52972`, 10,494 bytes. Glass same-path file blob `aed82bb3b6079952e5aee4a9ffe349d124bd3398`, 9,430 bytes.
+- The HsH version adds `conversation_json_sniff`, `INDEX_EXCLUDED_DIRS`, deterministic collision-safe target naming, `--resolve-collisions`, and `--atomic`; default behavior isolates a collision to the affected source. Glass retains all-or-nothing blocking when any collision exists. Same path/name does not mean same implementation. Required key: repository + pinned commit + path + blob SHA.
+- Factory Floor issue #16 remains OPEN. `FLOORROOM_TODO.md` records FF-102 as P0 / PARTIAL; HsH PWH queue records WH-03 as P1 / HIGH after the November 15 cutoff. These labels belong to different control surfaces. Factory Floor has no `tools/` directory at the inspected main head; its lifecycle contract/schema remain PROPOSAL / NON-OPERATIVE.
+- Math Hopper #578 and PR #991 checked. Existing Math Hopper is a downstream equation/document extractor; its 100-file-per-repository pilot remains execution-unverified. HsH `WORKSPACES/MERCER/validate_cross_source_integrity.py` is a bounded HsH metadata validator, not a cross-repository scanner. No general cross-repo delta scanner found in the bounded search.
+- The third repository's internal source details are not reproduced in the public report. No private research payload was included. No new tool, branch, PR, dependency, subscription, paid service, or source modification.
+- Public report submission: [HsH issue #1818](https://github.com/Satobloc/HsH/issues/1818), submission ID `sable-h866-s2-wh03-tool-lineage-20261116t0224z-001`, SHA-256 `16f7f99a37e2f3fa7ef6aa4a7de500d7ab749b75f42c6f43bfca124f6950f6c9`. At last check no publisher comment or artifact existed: `SUBMITTED_NOT_VERIFIED`. Expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h866-s2-wh03-tool-lineage-20261116t0224z-001.md`. Do not retry or create a duplicate; check this exact issue/submission first.
+
+### Scheduler and health snapshot
+
+- Five fixed ring offsets recomputed for h866: :00 Ravel, :12 Orson Vay (disabled), :24 Sable, :36 Loom, :48 Aster. Four existing relay tasks enabled; :12 disabled; no fifth/sixth task. No task identity, prompt, phase, DTSTART, RRULE, cadence, enabled-state, or ownership change.
+- Shared [Instance Heartbeat Monitor](../COMMON/INSTANCE_HEARTBEAT_MONITOR.md) updated and independently read back. It corrects an initial UTC-hour labeling error: 01:00–01:59Z Nov 16 is h865, while 02:00–02:59Z is h866.
+- :00 h865:s0 Tern Rook run `d2a4f7a1-2d58-8331-afa4-c929fe5bf55e` scheduled 01:00Z, started 01:57:22.868799Z, failed 02:22:25.500433Z, `chat_ref=null`; h866:s0 Ravel run was not observed and next :00 slot is h867:s0 at 03:00Z. Cause unknown; no retry.
+- :24 h866:s2 Sable run `0c39d119-881c-832f-8afa-a783a636130d` first observed scheduled 02:24Z, started 02:25:22.277328Z, IN_PROGRESS, `chat_ref=null`; a later exact-ID peek returned no task object. Terminal state NOT_OBSERVED.
+- :36 h866:s3 Loom run `5a6af084-02d4-8321-9ab1-ee2065df17fc` scheduled 02:36Z, started 02:31:32.728999Z (4m27s early), IN_PROGRESS, `chat_ref=null`. No cause inferred.
+- :48 h865:s4 Mercer run `a049cb3c-3e8c-8b4d-92cc-50ef4a8cbf37` scheduled 01:48Z, started 02:14:30.616621Z, completed 02:33:20.325326Z, run-level `chat_ref` populated; this does not authenticate a historical thread or prove delivery/consumption. h866:s4 Aster slot at 02:48Z had not started at the snapshot.
+- All run/slot labels are scheduler evidence only, not authenticated worker identity or productive output. No task mutation.
+
+### PWH, project and reading status
+
+- Task graph blob `5994a3952fbb0a2bc23aa4b4388c70b979ef1227`: 18 records / 16 declared branches, 13 active-class / 5 completed, one unreachable node and one parent-only edge. Read-only triage ranking was replayed in JavaScript against the live graph and the existing Python source logic; the Python script itself was not executed. No graph or PWH queue write; Tern retains coordination.
+- P0 Code Grurple ACTIVE; P1 Orson cognition OVERDUE / NOT READY; P2 measured geometry HOLD; P3 full theory INCOMPLETE; FIE next review November 24. No paper gate advanced.
+- Mersearch lanes remain occupied/requested; no callable Mersearch action was available. No mathematical/theory work, Lean build, physical calculation, CODATA comparison, fit, prediction, independent measurement, equation modification, or BEDROCK promotion.
+- Unrelated reading: *The Adventures of Sherlock Holmes*, “A Scandal in Bohemia,” lines 275–314; next cursor 315. No bodily break is claimed.
+- No handoff or assignment created. Next ring label Loom. No cross-thread delivery, consumption, or acknowledgment claimed.
+
+**Current HsH main before this checkpoint append:** `e93c65e4716cd72060ccf42474e9cdd0239b99dc`. README and BOOT advanced to h866:s2; heartbeat monitor readback verified. This checkpoint append and canonical receipt complete the local continuity update.
