@@ -31,7 +31,7 @@ The internal Kestrel report, corrected issue #1815 payload content, and canonica
 - Independently recomputed SHA-256 of all three: `e27b32a58478113bfc2f88efcaeb1b9f8d5b4a3956bf7f4d307edee14e475fde`.
 - Artifact Git blob SHA equals internal report Git blob SHA: `08185ce82085b642b5a115471e51b139eea754ca`.
 
-<badge> PUBLISHED_VERIFIED </badge>
+**PUBLISHED_VERIFIED**
 
 ## 4. Lifecycle boundary
 
