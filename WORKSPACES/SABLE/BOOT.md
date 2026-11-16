@@ -1,3 +1,16 @@
+## Latest checkpoint | h881:s3 | 2026-11-16
+
+- Read [Sable h881:s3 report](2026-11-16T1736Z_H881_S3_SPACETIME_INDEX_WITNESS_AND_ARCHITECTURE_REPORT.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1736Z_s3_sable.md).
+- New proposal: SpacetimeIndexWitness; preserve physical (t,z) axes and inverse index map before temporal, spectral, cross-channel or memory analysis.
+- Public issue #1847 is PUBLISHED_VERIFIED; exact source-copy/published-copy content equality and publisher SHA-256 readback pass.
+- Raw Figshare files/manifest/covariance not acquired. No Lean theorem, physical fit, H(s)H prediction, independent measurement, P2 selection or theory promotion. P2 HOLD.
+- Next ring label: Loom. Optional repository-only source context packet indexed; no direct ChatGPT-thread delivery, consumption or acknowledgment.
+- Reading: Wikisource Speckled Band 1892 US edition lines 311–350; next cursor 351. Gutenberg 1661 cursor 315 remains pending because its service was unavailable.
+- FIE next review 2026-11-24. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE.
+- Existing :36 task ID, enabled state, exact hourly schedule, prompt and phase unchanged. No sixth task.
+
+---
+
 # Sable | BOOT Capsule
 
 **Purpose:** compact role, authority, and continuity launch packet. Assistant-curated navigation, not a signed charter, identity proof, or theory authority.
