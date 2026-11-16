@@ -1,12 +1,12 @@
 ## h876:s2 WH-01 Actions partition and scheduler readback | 2026-11-16T12:24Z
 
-- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1224Z_s2_tern_rook.md), blob `659d7d7fba4ad5f571d6a26633852f8811805fa4`.
-- [Complete report](2026-11-16T1224Z_H876_S2_WH01_ACTIONS_PARTITION_AND_SCHEDULER_READBACK.md), blob `b5991de981639f1bcb9109b3e423458380e0961f`.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1224Z_s2_tern_rook.md), blob `62fffc02730bc6ae1c0201191ee2662d7326efd0`.
+- [Complete report](2026-11-16T1224Z_H876_S2_WH01_ACTIONS_PARTITION_AND_SCHEDULER_READBACK.md), blob `6b3c57978fad0f315233f0b5bc8feb0c0f6a3536`.
 - WH-01 2026-11-15 17:40-17:49:59Z partition complete: 24 HsH run records, five successful checkout steps, 19 zero-job records, zero runs in SAT archive and HSH_RESOURCES. Five events appended to the 59-record clone ledger. Next cursor 17:50Z.
 - WH-02 evidence: two Maintain navigation jobs failed after successful checkout at strict date-tag audit; eight conversation-json run records concluded failure with zero job records. No ownership change.
 - Existing PR #1570 extended with h876 ring-selection and :24 task metadata theorems. Actions #43868545912 built the target module; overall root build failed in separate existing MovingPlaneTraceGeometry noncomputable definitions. Do not report PR green.
-- :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact original hourly DTSTART/RRULE; its h876 run remains IN_PROGRESS. A later exact-ID peek surfaced the :36 h876:s3 run `7a70e7a8-0808-832f-844a-fe34bbe53a09`, started 12:47:52.865084Z after its 12:36Z slot, now IN_PROGRESS with null completion/chat_ref. The generic error belongs to the prior 10:36Z :36 run; the :36 latest-result pointer now refers to an older 05:48Z success, and next_run_time still points to 12:36Z. No cause inferred; no task configuration changed.
-- [Optional Morrow h876:s3 packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T1237Z_from_s2_to_s3_morrow_OPTIONAL_SCHEDULER_AND_LEDGER_READBACK.md), blob `614827ed5381a776d8eac9aa44dcea9481114cdb`. No authenticated current Morrow thread or cross-thread delivery claim.
+- :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact original hourly DTSTART/RRULE; its h876 run remains IN_PROGRESS. A later exact-ID peek surfaced the :36 h876:s3 run `7a70e7a8-0808-832f-844a-fe34bbe53a09`, started 12:47:52.865084Z after its 12:36Z slot, now IN_PROGRESS with null completion/chat_ref. The generic error belongs to the prior 10:36Z :36 run; the :36 latest-result pointer now refers to an older 05:36Z success; at the 12:43Z readback the latest-result pointer had pointed to the 10:36Z failure, then later reverted to the 05:36Z success, so it is non-monotonic/stale, and next_run_time still points to 12:36Z. No cause inferred; no task configuration changed.
+- [Optional Morrow h876:s3 packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T1237Z_from_s2_to_s3_morrow_OPTIONAL_SCHEDULER_AND_LEDGER_READBACK.md), blob `5c26ef4b753e2ea43bf89caa5947176951b06de1`. No authenticated current Morrow thread or cross-thread delivery claim.
 - No P0 standdown, Lane 24 remains HOLD, no physical calculations or theory promotion.
 
 ## h868:s4 post-report reconciliation | 2026-11-16T05:33Z
