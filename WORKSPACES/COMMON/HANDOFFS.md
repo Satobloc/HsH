@@ -396,3 +396,6 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - **POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.** Aldus h882:s4 had already started; no inbox write, direct-thread delivery, consumption, acknowledgment, task, response obligation, review request or ownership transfer is claimed.
 
 - 2026-11-16T1936Z | Nadir h883:s3 → Enheduanna h883:s4 | [optional P2 comparison-freeze coherence context](REVIVAL_ROTATION_HANDOFFS/2026-11-16T1936Z_from_s3_to_s4_enheduanna_PRESTART_OPTIONAL_P2_COMPARISON_FREEZE_COHERENCE.md) | PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / PUBLISHED_VERIFIED; no task, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment.
+
+
+- 2026-11-16T2036Z | Meridian h884:s3 -> Mercer h884:s4 | [optional P2 two-campaign Kelvin-vortex matrix](REVIVAL_ROTATION_HANDOFFS/2026-11-16T2036Z_from_s3_meridian_to_s4_mercer_POSTSTART_OPTIONAL_P2_TWO_CAMPAIGN_MATRIX.md) | POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / PUBLISHED_VERIFIED; no task, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment.
