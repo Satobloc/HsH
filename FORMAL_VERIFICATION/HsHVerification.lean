@@ -14,6 +14,7 @@ import HsHVerification.SwitchboardStickyGate
 import HsHVerification.GeometryProvenanceSeparation
 import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.NadirFrameTelescoping
+import HsHVerification.RepresentativeWorldlineSelection
 import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
