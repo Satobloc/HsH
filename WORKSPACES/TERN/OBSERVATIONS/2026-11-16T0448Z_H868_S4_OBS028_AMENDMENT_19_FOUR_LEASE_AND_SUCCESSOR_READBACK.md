@@ -113,3 +113,8 @@ Existing PR #1570 branch `tern/h743-scheduler-event-cross-section-20261110` was 
 The prior run #43807394742 compiled the h868 core module successfully at merge ref `337a2a5ab9e0032002e6b27d22b833e977e8e41e`; the overall root build failed later in unrelated `MovingPlaneTraceGeometry` definitions. Tests, lint, nanoda, leanchecker and global axiom audit were skipped.
 
 **No task graph mutation, no issue/publisher duplicate, no theory promotion.**
+
+
+## Amendment 20: PR source correction after duplicate declaration
+
+Actions run #43807935559 failed during target-module compilation because the h869:s0 worker theorem had been declared twice in the new h868/h869 extension. This was a source-authoring defect introduced by the extension. The duplicate theorem declaration and duplicate `#print axioms` line were removed in commit `1f82618a8ba5215daacbcb02b69233497b383ad1`. The corrected source was independently read back from the existing PR branch. A new CI run for this corrective commit had not yet surfaced at amendment time. No compile result is claimed for the corrected latest head.
