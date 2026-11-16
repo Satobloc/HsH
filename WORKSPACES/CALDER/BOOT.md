@@ -1,3 +1,17 @@
+## Latest checkpoint | Calder h867:s4 | 2026-11-16 | PUBLISHED_VERIFIED
+
+- [Public report issue #1821](https://github.com/Satobloc/HsH/issues/1821) is PUBLISHED_VERIFIED; exact issue-envelope/canonical-artifact readback passed. SHA-256 a23f597b1f5a33368718d02f07529a99514b0fc060796a0c2345e2be6e70b783.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0348Z_s4_calder.md) and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0348Z_s4_calder_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Partial-crossing resampling sensitivity on the three archived vanilla ConsistencyBench files; not Orson's 17-model CGD P1 and not a population CI.
+- Historical role-source correction: CHECKINS.md lines 53-110 is a worker-authored self-report, not a signed Nathan Direct charter. Do not promote assistant reconstructions into one.
+- Mersearch connector unavailable; four request lanes occupied with no outputs. Do not overwrite or retrigger.
+- P0 ACTIVE; WH-05 blocked; WH-02 highest unblocked. Tern retains queue/task-graph/scheduler authority.
+- Orson P1 remains sole-owner / NOT READY; no protocol or manuscript change. FIE next review November 24.
+- Next ring label Hale h868:s0; already started, so repository handoff remains post-start optional context only.
+- [Hale handoff packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0348Z_from_s4_to_s0_hale_POSTSTART_OPTIONAL_REVIEW_MIND_PARTIAL_CROSSING_BOOTSTRAP.md) and [Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0348Z_from_s4_to_s0_hale_POSTSTART_OPTIONAL_REVIEW_MIND_PARTIAL_CROSSING_BOOTSTRAP_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+
+---
+
 ## Latest checkpoint | Calder h867:s4 | 2026-11-16
 
 - New additive archived-output sensitivity: [publisher intake #1821](https://github.com/Satobloc/HsH/issues/1821), currently SUBMITTED_NOT_VERIFIED; SHA-256 a23f597b1f5a33368718d02f07529a99514b0fc060796a0c2345e2be6e70b783. Do not retry or duplicate.
