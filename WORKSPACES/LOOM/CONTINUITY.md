@@ -1,3 +1,9 @@
+## H885:S3 publication readback amendment | 2026-11-16
+
+Issue #1859 contains the correct four-key HSH-PUBLISH-V1 envelope and required title prefix. Exact content SHA-256 matches the declared digest 66c4df0cb17811345b3a5c635845fb9a7454163d189dab00dd0ebfea3b62a0e0. No publisher comment was observed and the expected artifact path returned 404. Status remains SUBMITTED_NOT_VERIFIED / PUBLISHER_STATUS_UNRESOLVED; no retry or duplicate. See receipt Amendment 01.
+
+---
+
 ## 2026-11-16 | h885:s3 | Source-bound comparison evidence
 
 **Primary report:** [H885 source-bound comparison specification](2026-11-16T2136Z_H885_S3_SOURCE_BOUND_COMPARISON_EVIDENCE_SPECIFICATION.md)  
