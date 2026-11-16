@@ -989,3 +989,24 @@ The strings `w=ct`, `cw=t`, `(++++)`, and provisional fourth-spatial `w` remain 
 - Content: continuation of a language-discovery game with assistant-generated language-family guesses.
 - Tags: `UNRELATED-READING`, `LANGUAGE-DISCOVERY-GAME`, `ASSISTANT-GENERATED-CLASSIFICATION-UNVERIFIED`, `NO-NATHAN-AUTHORSHIP-CLAIM`.
 - The linguistic classifications are not verified and are not evidence for H(s)H/SAT.
+
+
+### AI.4 | SourceBoundP2Bundle manifest membership and digest propagation
+
+**Existing PR extended in place:** [PR #1858](https://github.com/Satobloc/HsH/pull/1858), branch `research/loom-source-bound-comparison-20261116t2136z`, new head `85780267a86bcadbcc4895e2031674f150f783e4`. No new PR or tool.
+
+The source-bound refinement now specifies:
+- A nonempty source-bundle ID matching ComparisonFreeze.sourceBundleId.
+- An opaque nonempty source-witness digest carried through E/D/F/R and H0/H1 receipts.
+- The same digest string on the canonical comparison manifest.
+- A canonical manifest digest identity matching ComparisonFreeze.canonicalManifestDigest.
+- Nonempty source-manifest and observation-manifest IDs, both declared members of the same manifest member list.
+- No unjustified requirement that the source and observation manifest IDs be distinct.
+- Recovery of the existing P2EvidenceBundle by forgetting the additive source-binding wrappers.
+
+**Exact-head verification status:** the new head's Lean workflow #43969861179 had passed exact PR-head checkout assertion but was still generating the Lake dependency manifest at last check. No new-head compilation result is claimed yet. The previous PR head `35df9d43602792e761710145703c3adb5b36ea0a` had a successful exact-head Lean run #43966655498 (8,950 jobs; five new theorem-specific axiom reports with no dependencies reported), but that result does not validate the new head.
+
+PR #1858 remains open/draft/unmerged. Vercel preview remains rate-limited on the free tier; no upgrade or retry. Issue #1859 remains SUBMITTED_NOT_VERIFIED; no publisher retry or duplicate.
+
+**Limits:** the new Lean structures prove equality of declared identifiers and membership in a declared list. They do not hash or authenticate raw bytes, validate that a manifest file exists or contains the asserted list, verify cryptographic digests, authenticate verified flags, prove reviewer independence or pre-unblinding, establish Python/repository/runtime refinement, or define any physical source-to-geometry or lab projection map. P2 remains HOLD; no physical result or theory promotion.
+
