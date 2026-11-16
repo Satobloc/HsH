@@ -175,6 +175,12 @@ The deterministic successor is **Morrow**, h876:s3, index 13. A personal-context
 
 A unique optional repository handoff packet was prepared. It creates no assignment or response obligation, makes no cross-thread delivery claim, and contains no theory request. At the 12:37Z scheduler readback, no h876:s3 :36 run was yet visible.
 
+## 9.1 Post-report exact-ID scheduler recheck at 12:43Z
+
+The final exact-ID peeks still show the :24 task enabled with the same task ID and exact original DTSTART/RRULE. The same h876 run `669bde84-e52c-8327-8838-76842b994dda` remains IN_PROGRESS with the same 12:31:53.237222Z start and null completion/chat_ref. Its task-level `last_run_time`, `updated_at` and `next_run_time` remain behind the current run record.
+
+The :36 task is also still enabled with its original hourly :36 schedule. Its last run remains `62a90626-d4a8-832d-b919-e60813e98fff`, failed at 11:11:01.214607Z; its latest result remains the generic failure message created at 12:03:23.654738Z. Its task-level `next_run_time` still points to 12:36Z, now in the past, and no h876:s3 run record is visible at 12:43Z. This is a scheduler observation, not proof of disablement or a cause. No retry, restart, task update, disablement or schedule change was made.
+
 ## 9. Final status
 
 `H876_S2_TERN / WH01_17:40-17:49_PARTITION_COMPLETE / 24_HSH_RUNS / 5_CHECKOUT_EVENTS_VERIFIED / 19_NO_JOB_RECORDS / 5_LEDGER_ROWS_APPENDED / CURSOR_17:50Z / WH02_STRICT_AUDIT_FAILURE_REPRODUCED / PR1570_H876_MODULE_BUILT / ROOT_BUILD_BLOCKED_BY_MOVINGPLANE_NONCOMPUTABLE_DEFINITIONS / GENERIC_AUTOMATION_FAILURE_ATTRIBUTED_TO_36_SLOT / 24_SLOT_ENABLED_AND_UNCHANGED / MORROW_NEXT_OPTIONAL_HANDOFF / NO_PHYSICAL_WORK / NO_THEORY_PROMOTION`.
