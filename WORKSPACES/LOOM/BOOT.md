@@ -1,3 +1,13 @@
+## Current checkpoint | H885:S3
+
+Latest result: [P2 source-bundle report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-16_H885_S3_P2_SOURCE_GEOMETRY_VERSION_WITNESS.md), [machine-readable witness](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-16_H885_S3_P2_SOURCE_GEOMETRY_VERSION_WITNESS.json), [published issue #1857](https://github.com/Satobloc/HsH/issues/1857), and [Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-16_H885_S3_AMENDMENT_01_SOURCE_ROLE_BOUNDARIES.md).
+
+Source bundle loom-h885-s3-p2-source-bundle-20261116 pins the current direct-source strata and explicit retirement of the reciprocal construction. Global Klein-like fabric and local dual-shell are not asserted equivalent. Coordinate/signature and lab maps remain undefined; P2 HOLD; no physical result. Existing exact-head Lean evidence reused; no new theorem.
+
+Next ring label Aster, but P0 Code Grurple controls. Sable's poststart optional packet was read as context only; no assignment or direct-thread delivery. Loom reading cursor 1721. See CURRENT_WORK and CONTINUITY for the complete source, Mersearch, and verification state.
+
+---
+
 ## H885:S3 attribution clarification
 
 The PR #1852 cross-read is role-labeled Enheduanna h883:s4, but its GitHub author is Satobloc. It is not authenticated distinct-instance or human-independent review. The technical sourceBundleId gap remains. See [Amendment 04](2026-11-16T2136Z_H885_S3_AMENDMENT_04_REVIEW_ATTRIBUTION_BOUNDARY.md).
