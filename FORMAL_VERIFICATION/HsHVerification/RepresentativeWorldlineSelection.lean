@@ -1,117 +1,63 @@
 import Mathlib
 
 /-!
-# Representative-worldline selection and observable invariance
+# Representative-worldline shift and angular-momentum compensation
 
-This module formalizes a representation-level contract for an extended support
-whose reduced description uses one or more admissible representative curves.
+This module formalizes one algebraic part of the standard extended-body
+representative-worldline construction. A shift of the reference curve is
+paired with a compensating change in the spin bivector so that total angular
+momentum is unchanged.
 
-It does not define a physical worldtube, choose a spin supplementary condition,
-or establish any H(s)H/GR correspondence. Those remain source- and model-level
-inputs. The results state what follows once an admissibility relation and a
-readout map have been supplied.
+The physical application uses the antisymmetrized orbital bivector
+2 z^[mu P^nu]. Antisymmetry, the MPD equations, a spin supplementary condition,
+the Moller-radius bound, and the validity of any H(s)H/GR map are not proved
+here. They must be supplied by source-specific physics.
 -/
 
 namespace HsHVerification.RepresentativeWorldlineSelection
 
 universe u v w
 
-variable {Support : Type u} {Curve : Type v} {Observable : Type w}
+variable {R : Type u} [Ring R]
+variable {V : Type v} [AddCommGroup V] [Module R V]
+variable {B : Type w} [AddCommGroup B] [Module R B]
 
-/-- At least one curve is admitted as a representative of a support. -/
-def HasRepresentative
-    (selects : Support → Curve → Prop) (support : Support) : Prop :=
-  ∃ curve, selects support curve
+/-- A bilinear map representing the antisymmetrized orbital bivector
+    2 z^[mu P^nu]. The algebraic theorem below needs bilinearity; the
+    physical instantiation must additionally establish antisymmetry. -/
+abbrev OrbitalBivectorMap := V →ₗ[R] V →ₗ[R] B
 
-/-- Exactly one curve is admitted as a representative of a support. -/
-def UniqueRepresentative
-    (selects : Support → Curve → Prop) (support : Support) : Prop :=
-  ∃! curve, selects support curve
+/-- Orbital angular momentum about a chosen representative point. -/
+def orbitalAngularMomentum
+    (orbitalBivector : OrbitalBivectorMap) (z p : V) : B :=
+  orbitalBivector z p
 
-/-- A readout is invariant when every admissible representative gives
-    the same observable value for the fixed support. -/
-def ReadoutInvariant
-    (selects : Support → Curve → Prop)
-    (readout : Curve → Observable)
-    (support : Support) : Prop :=
-  ∀ curve₁ curve₂,
-    selects support curve₁ →
-    selects support curve₂ →
-    readout curve₁ = readout curve₂
+/-- Total angular momentum: orbital contribution plus spin bivector. -/
+def totalAngularMomentum
+    (orbitalBivector : OrbitalBivectorMap)
+    (z p : V) (spin : B) : B :=
+  orbitalAngularMomentum orbitalBivector z p + spin
 
-/-- Two distinct admissible representatives refute uniqueness. -/
-theorem distinct_admissible_representatives_refute_uniqueness
-    (selects : Support → Curve → Prop)
-    (support : Support)
-    (curve₁ curve₂ : Curve)
-    (h₁ : selects support curve₁)
-    (h₂ : selects support curve₂)
-    (hDistinct : curve₁ ≠ curve₂) :
-    ¬ UniqueRepresentative selects support := by
-  rintro ⟨chosen, hChosen, hUnique⟩
-  apply hDistinct
-  exact (hUnique curve₁ h₁).trans (hUnique curve₂ h₂).symm
+/-- Compensating spin change under a reference-point shift. -/
+def shiftedSpin
+    (orbitalBivector : OrbitalBivectorMap)
+    (shift momentum : V) (spin : B) : B :=
+  spin - orbitalAngularMomentum orbitalBivector shift momentum
 
-/-- A unique representative makes every readout invariant on that
-    singleton admissible set. -/
-theorem unique_selection_implies_readout_invariant
-    (selects : Support → Curve → Prop)
-    (readout : Curve → Observable)
-    (support : Support)
-    (hUnique : UniqueRepresentative selects support) :
-    ReadoutInvariant selects readout support := by
-  rcases hUnique with ⟨representative, hRepresentative, hUnique⟩
-  intro curve₁ curve₂ h₁ h₂
-  calc
-    readout curve₁ = readout representative :=
-      congrArg readout (hUnique curve₁ h₁)
-    _ = readout curve₂ :=
-      congrArg readout (hUnique curve₂ h₂).symm
+/-- If the representative point shifts by a, and the spin bivector is
+    shifted by the corresponding negative orbital bivector, total angular
+    momentum is unchanged. This is an algebraic identity, not an MPD
+    dynamics theorem or an empirical statement. -/
+theorem totalAngularMomentum_invariant_under_representative_shift
+    (orbitalBivector : OrbitalBivectorMap)
+    (z shift momentum : V) (spin : B) :
+    totalAngularMomentum orbitalBivector (z + shift) momentum
+      (shiftedSpin orbitalBivector shift momentum spin)
+      =
+    totalAngularMomentum orbitalBivector z momentum spin := by
+  simp [totalAngularMomentum, orbitalAngularMomentum, shiftedSpin,
+    LinearMap.map_add, add_assoc, add_comm, add_left_comm]
 
-/-- For a nonempty admissible set, readout invariance is equivalent to
-    existence of one common observable value for all admissible choices. -/
-theorem readout_invariant_iff_common_value
-    (selects : Support → Curve → Prop)
-    (readout : Curve → Observable)
-    (support : Support)
-    (hNonempty : HasRepresentative selects support) :
-    ReadoutInvariant selects readout support ↔
-      ∃ value, ∀ curve, selects support curve → readout curve = value := by
-  constructor
-  · intro hInvariant
-    rcases hNonempty with ⟨representative, hRepresentative⟩
-    refine ⟨readout representative, ?_⟩
-    intro curve hCurve
-    exact hInvariant curve representative hCurve hRepresentative
-  · rintro ⟨value, hValue⟩ curve₁ curve₂ h₁ h₂
-    exact (hValue curve₁ h₁).trans (hValue curve₂ h₂).symm
-
-/-!
-The following finite logical control is deliberately synthetic. It shows that
-nonunique representation and readout invariance can coexist. It is not a
-physical fixture, a worldtube model, or observational evidence.
--/
-
-def allBoolRepresentatives (_ : Unit) (_ : Bool) : Prop := True
-
-def constantObservable (_ : Bool) : Unit := ()
-
-theorem nonunique_selection_can_be_readout_invariant :
-    ¬ UniqueRepresentative allBoolRepresentatives () ∧
-    ReadoutInvariant allBoolRepresentatives constantObservable () := by
-  constructor
-  · intro hUnique
-    rcases hUnique with ⟨chosen, hChosen, hUnique⟩
-    have hFalse : false = chosen := hUnique false trivial
-    have hTrue : true = chosen := hUnique true trivial
-    have hContradiction : false = true := hFalse.trans hTrue.symm
-    cases hContradiction
-  · intro curve₁ curve₂ h₁ h₂
-    rfl
-
-#print axioms distinct_admissible_representatives_refute_uniqueness
-#print axioms unique_selection_implies_readout_invariant
-#print axioms readout_invariant_iff_common_value
-#print axioms nonunique_selection_can_be_readout_invariant
+#print axioms totalAngularMomentum_invariant_under_representative_shift
 
 end HsHVerification.RepresentativeWorldlineSelection
