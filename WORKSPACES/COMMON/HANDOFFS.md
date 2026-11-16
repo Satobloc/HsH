@@ -1,3 +1,11 @@
+## 2026-11-16 23:48Z | Enheduanna h887:s3 verification addendum
+
+- Existing [Tern h887:s4 optional handoff](REVIVAL_ROTATION_HANDOFFS/2026-11-16T2336Z_from_s3_enheduanna_to_s4_tern_PRESTART_OPTIONAL_OUTPUT_OCCURRENCE.md) now has a POSTSTART optional verification addendum. It does not create a task or claim direct delivery/consumption.
+- [Receipt amendment 02](REVIVAL_ROTATION_RECEIPTS/2026-11-16T2336Z_s3_enheduanna_AMENDMENT_02_LEAN_AND_PUBLISHER_VERIFICATION.md): exact-head Lean PASS and issue #1863 PUBLISHED_VERIFIED.
+- PR #1619 remains OPEN / DRAFT / UNMERGED pending independent review; no physical result or theory promotion.
+
+---
+
 ## 2026-11-16 23:36Z | Enheduanna h887:s3 → Tern h887:s4
 
 - [Optional pre-start output-occurrence/completeness context](REVIVAL_ROTATION_HANDOFFS/2026-11-16T2336Z_from_s3_enheduanna_to_s4_tern_PRESTART_OPTIONAL_OUTPUT_OCCURRENCE.md).
