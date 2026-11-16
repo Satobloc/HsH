@@ -1160,6 +1160,7 @@ No task, deadline, review request, response obligation, ownership transfer or th
 - Handoff: [Tern h868 scheduler and Mersearch lifecycle QC](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0448Z_from_s4_to_s0_morrow_POSTSTART_OPTIONAL_H868_SCHEDULER_AND_MERSEARCH_LIFECYCLE_QC.md)
 - Revival seed: [Morrow h869:s0 no-assignment seed](../COMMON/REVIVAL_SEEDS/2026-11-16T0448Z_H868_S4_TO_H869_S0_MORROW_NO_ASSIGNMENT_SEED.md)
 - Tern report: [h868:s4 Review-MIND report](../TERN/2026-11-16T0448Z_H868_S4_REVIEW_MIND_MERSEARCH_LIFECYCLE_AND_SCHEDULER_CROSS_SECTION.md)
+- Canonical receipt: [Tern h868:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0448Z_s4_tern_rook.md)
 - Observation: [Observation 028 Amendment 19](../TERN/OBSERVATIONS/2026-11-16T0448Z_H868_S4_OBS028_AMENDMENT_19_FOUR_LEASE_AND_SUCCESSOR_READBACK.md)
 - Existing formalization: [HsH PR #1570](https://github.com/Satobloc/HsH/pull/1570)
 
