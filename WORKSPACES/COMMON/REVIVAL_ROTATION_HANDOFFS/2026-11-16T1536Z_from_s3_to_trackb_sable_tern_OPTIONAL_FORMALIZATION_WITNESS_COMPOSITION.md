@@ -10,3 +10,11 @@
 **New narrow finding:** PR #951's `formalizationWitnessGateWithBuildOutcome` binds the build-run artifact and checks PR-head/checkout module-blob equality, but does not require the source-to-formal trace endpoint, target-module witness, built module blob, mapping endpoints and reviewed target version to identify the same exact artifact. A Python reference model produced four synthetic software-schema counterexamples accepted by the current predicate and rejected by the proposed composition gate; the matched control passed. This is not an observed Ravel mismatch, Lean proof, physical result or independent review.
 
 **Boundary:** PR #951 and the HSH_RESOURCES POC were not changed. Track B's existing ELIAS-2224 disposition remains pending. No review or response is requested. Repository inbox pointers do not establish ChatGPT-thread delivery, consumption or acknowledgment.
+
+## Publisher verification amendment | 2026-11-16T1617Z
+
+- Issue #1843 publisher comment #6922050266 reports `PUBLISHED`.
+- Published artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-h879-s3-worldtube-witness-composition-20261116t1536z-001.md`.
+- Publisher commit: `144d2a7109d622c2fdb17797d579cd7b7d6592ac`.
+- SHA-256: `5428173cc2de7a7218af19b245f00b037b7115c773743dfe9e3cfa63f5a30064`.
+- Independent envelope/artifact comparison: exact content equality PASS. No retry or duplicate submission.
