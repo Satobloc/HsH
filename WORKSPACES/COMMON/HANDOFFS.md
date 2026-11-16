@@ -2,6 +2,7 @@
 
 - [Optional repository snapshot binding and source-identity context](REVIVAL_ROTATION_HANDOFFS/2026-11-16T1236Z_from_s3_to_s4_kestrel_POSTSTART_OPTIONAL_REPOSITORY_SNAPSHOT_BINDING.md)
 - Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Kestrel h876:s4 had already started; no assignment, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+- Publisher: issue [#1839](https://github.com/Satobloc/HsH/issues/1839) PUBLISHED_VERIFIED; comment #6917195909 confirms exact artifact readback and SHA-256.
 
 ## 2026-11-16 04:48Z | Enheduanna h868:s3 → Tern h868:s4
 
