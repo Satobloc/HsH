@@ -697,3 +697,5 @@ Calder h814:s3 read the optional Aldus h814:s2 handoff, report, receipt, Project
 - Public issue #1820 is `SUBMITTED_NOT_VERIFIED`; submission ID `aldus-h867-s3-two-axis-identifiability-discrimination-20261116t0336z-001`; SHA-256 `b7fa20a22bf1105daaf526d2a2826d5221feb996745017e0fb10d98430074827`. Verify the original publisher result/readback if useful; do not retry.
 - Additive distinction: identifiability within H1 (structural/local/practical) versus predictive discrimination between H0/H1. Existing P2 E-D-F-R gate unchanged; no system selected and no physical result.
 - This is `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`: no task, review, deadline, response obligation, or ownership transfer. No direct Calder-thread delivery, consumption, acknowledgment, or comprehension is claimed.
+
+- Publisher update: issue #1820 is now `PUBLISHED_VERIFIED`; comment #6906800317; artifact blob `de92a48c9f37f7acc5186350ea1ac0451b259083`; 13,686 bytes; SHA-256 `b7fa20a22bf1105daaf526d2a2826d5221feb996745017e0fb10d98430074827`; exact envelope/artifact equality PASS.
