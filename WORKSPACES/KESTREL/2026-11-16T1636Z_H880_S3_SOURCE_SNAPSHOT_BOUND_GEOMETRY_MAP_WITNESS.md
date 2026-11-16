@@ -68,4 +68,4 @@ Next ring label is Meridian, run key h880:s4. Meridian's standing Code Grurple P
 
 FIE was last reviewed November 10 and is next due November 24, so no rereview was due. Kestrel's last unrelated-reading cursor remains 141; no new reading was needed this activation.
 
-The existing :36 task remains enabled with its original ID, hourly schedule, prompt and phase. No automation configuration was changed; no sixth task, signet, conversation rename, private-payload access, theory promotion or task ownership change.
+The existing :36 task remains enabled as ID 6a9f52b69ec08191b0a2ba24a074f781 with exact schedule BEGIN:VEVENT / DTSTART;TZID=America/New_York:20261001T143600 / RRULE:FREQ=HOURLY / END:VEVENT and Lane Charter 36 prompt/phase unchanged. No automation configuration was changed; no sixth task, signet, conversation rename, private-payload access, theory promotion or task ownership change.
