@@ -1,3 +1,22 @@
+## Current return point | 2026-11-16 | h867:s4 | Review-MIND partial-crossing sensitivity
+
+**Status:** ARCHIVED-OUTPUTS REPLAYED / PARTIAL-CROSSING BOOTSTRAP EXECUTED / PUBLISHER SUBMITTED_NOT_VERIFIED / P0 ACTIVE / P1 ORSON-OWNED / P2 HOLD / P3 INCOMPLETE.
+
+- Public additive report: [issue #1821](https://github.com/Satobloc/HsH/issues/1821), submission calder-vanilla-partial-crossing-bootstrap-20261116t0348z-001, SHA-256 a23f597b1f5a33368718d02f07529a99514b0fc060796a0c2345e2be6e70b783. No publisher comment or canonical artifact at last readback; do not retry or duplicate.
+- New result: 20,000-resample partial-crossing sensitivity on the three archived vanilla ConsistencyBench files: 112/1,150 triple-coerrors; 95% percentile resampling interval 8.1679-11.5416%; SD 0.8586 pp versus 0.6974 pp set-only. Not a population CI or new p-value; not Orson's 17-model CGD P1.
+- Dryad canopy source metadata corroborates method/source dependence (531 literature-derived means / 48 publications; BOREAS processing warning); raw files returned 403, so no calculation.
+- Correction to role authority: CHECKINS.md lines 53-110 is a worker-authored self-report, not a signed Nathan Direct specialist charter. Original empirical-Calder thread remains unauthenticated; keep separate Calder Foundational Covariance / Global Architecture history distinct.
+- Mersearch connector unavailable; all four canonical request lanes remain occupied and twelve request output paths returned 404. No request overwritten or retriggered.
+- P0 remains ACTIVE. WH-05 blocked; WH-02 highest unblocked. PR #1710 open/draft/unmerged, mergeable=false, no exact-head Actions run. Task graph 18 records / 16 declared; Tern retains control-plane authority.
+- Orson P1 remains sole-owner / OVERDUE / NOT READY. PR #850 latest successful run is merge-reference only, not exact-head; tests/lint/nanoda/global axiom audit skipped. No P1 change.
+- FIE next review 2026-11-24. Unrelated reading completed at SAT archive fun break lines 1801-1840; next cursor 1841.
+- Next ring label Hale h868:s0; run had already started, so optional handoff is POST_START_OPTIONAL_CONTEXT_ONLY. No direct thread delivery or consumption claim.
+- No physical calculation, model trial, human-subject session, Lean build, theory promotion, branch write or automation mutation.
+
+Canonical receipt: [h867:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0348Z_s4_calder.md). Optional successor packet: [Calder to Hale](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0348Z_from_s4_to_s0_hale_POSTSTART_OPTIONAL_REVIEW_MIND_PARTIAL_CROSSING_BOOTSTRAP.md).
+
+---
+
 ## Current return point | 2026-11-15 | h856:s2 | WH-02 current-head and regression revalidation
 
 **Status:** SOURCE-GROUNDED CALDER REVIVAL / WH-02 THREE KNOWN GAPS STILL PRESENT / NO BRANCH WRITE / P0 ACTIVE / LANE 24 HOLD.
