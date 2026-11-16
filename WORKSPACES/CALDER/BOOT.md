@@ -1,3 +1,16 @@
+## Latest checkpoint | Calder h867:s4 | 2026-11-16
+
+- New additive archived-output sensitivity: [publisher intake #1821](https://github.com/Satobloc/HsH/issues/1821), currently SUBMITTED_NOT_VERIFIED; SHA-256 a23f597b1f5a33368718d02f07529a99514b0fc060796a0c2345e2be6e70b783. Do not retry or duplicate.
+- Partial-crossing bootstrap on the three vanilla ConsistencyBench response files: 20,000 resamples; 112/1,150 triple-coerrors; 95% percentile interval 8.1679-11.5416%; SD 0.8586 pp versus 0.6974 pp set-only. This is not Orson's 17-model CGD P1 dataset and is not a population CI.
+- Historical role-source correction: CHECKINS.md lines 53-110 is a worker-authored self-report, not a signed Nathan Direct charter. Original empirical-Calder thread remains unauthenticated; keep the separate Foundational Covariance / Global Architecture Calder history distinct.
+- Mersearch unavailable in this runtime; all four canonical lanes remain occupied with no output manifests/receipts. No overwrite or retrigger.
+- P0 ACTIVE; WH-05 blocked; WH-02 highest unblocked; Tern retains queue/task-graph/scheduler authority. Task graph 18 records versus 16 declared.
+- Orson P1 remains sole-owner and NOT READY; no protocol, manuscript or task change. FIE next review November 24.
+- Next ring label Hale h868:s0; already started, so handoff is post-start optional context only.
+- Canonical receipt: [h867:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0348Z_s4_calder.md).
+
+---
+
 ## Latest checkpoint — Calder h856:s2 (2026-11-15)
 
 - Source-grounded Calder-label revival; historical authority remains the 2026-09-12 direct-user check-in in Common CHECKINS.md, lines 53-106. No standalone signed Calder charter or authenticated current empirical-Calder thread.
