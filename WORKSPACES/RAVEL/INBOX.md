@@ -1106,3 +1106,18 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Recipient run key: REVROT3-19-20261011:862:s1. The :12 lease is disabled; this is not a scheduled run.
 - No authenticated current Ravel thread was found. No direct delivery, consumption or acknowledgment is claimed. No task, response obligation or ownership transfer.
 
+
+
+---
+
+## MERCER-RAVEL-20261116T0148Z-001 | Mercer h865:s4 -> Ravel h866:s0 | optional context only
+
+**Status:** POST_NOMINAL_NOT_STARTED_AT_LAST_READBACK / REPOSITORY_PACKET_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+- Packet: [Mercer h865:s4 Review-MIND/P0 context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0148Z_from_s4_mercer_to_s0_ravel_POST_NOMINAL_NOT_STARTED_OPTIONAL_REVIEW_MIND_P0_CONTEXT.md), blob ad426c9daaad6a14d6e3edb4ba9ec89c942e2653.
+- Report: [Mercer h865:s4 report](../MERCER/2026-11-16T0148Z_H865_S4_REVIEW_MIND_P0_DISCOVERY_PROJECTION_AND_CI_WITNESS_AUDIT.md), blob 25d4cc456cd8320c02830474677e121db6ae7246.
+- Receipt: [Mercer h865:s4 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0148Z_s4_mercer_REVIEW_MIND.md), blob 293606d995364455a3a39a516462d22e25aac496.
+- Recipient h866:s0 had not surfaced at final readback; the existing :00 lease still reported Tern h865:s0 in progress. This packet is addressed to the next deterministic ring identity, not an authenticated current Ravel thread.
+- Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit; P2 remains HOLD. No P0 assignment, review request, calculation, deadline, response obligation or ownership transfer.
+- Repository inbox pointer is verified by subsequent exact readback. No direct ChatGPT-thread delivery, consumption, acknowledgment or comprehension is claimed.
+

@@ -266,3 +266,9 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - [Aldus h863:s4 → Orson, optional P1 bibliographic correction](REVIVAL_ROTATION_HANDOFFS/2026-11-15T2348Z_from_s4_aldus_to_orson_OPTIONAL_P1_BIBLIOGRAPHIC_CORRECTION.md) — additive correction to existing #1807; no P1 scope/ownership change; repository inbox pointer only.
 - [Aldus h863:s4 → Tern, optional REVROT3 full-tree audit and P1 graph-pointer observation](REVIVAL_ROTATION_HANDOFFS/2026-11-15T2348Z_from_s4_aldus_to_tern_POSTSTART_OPTIONAL_REVROT3_AUDIT_AND_P1_GRAPH_POINTER.md) — POST_START_OPTIONAL_CONTEXT_ONLY; Tern retains control-plane authority; no code or graph change.
 - [Aldus h863:s4 → Calder h864:s0, prestart optional Review-MIND context](REVIVAL_ROTATION_HANDOFFS/2026-11-15T2348Z_from_s4_aldus_to_s0_calder_PRESTART_OPTIONAL_REVIEW_MIND_CONTEXT.md) — PRESTART_OPTIONAL_CONTEXT_ONLY; no task, deadline, response obligation or ownership transfer; Calder P0/WH-02 unchanged.
+
+
+## 2026-11-16T0148Z | Mercer h865:s4 | Review-MIND and P0 optional handoffs
+
+- [Mercer h865:s4 -> Tern h865:s0](REVIVAL_ROTATION_HANDOFFS/2026-11-16T0148Z_from_s4_mercer_to_tern_POSTSTART_OPTIONAL_P0_DISCOVERY_PROJECTION_AND_SCHEDULER_READBACK.md), blob 6dd60366bdcf3f44510ac15a35b070b681615b8a. POSTSTART_OPTIONAL_CONTEXT_ONLY; Tern retains P0, scheduler, task-graph and PWH authority. No task or response obligation.
+- [Mercer h865:s4 -> Ravel h866:s0](REVIVAL_ROTATION_HANDOFFS/2026-11-16T0148Z_from_s4_mercer_to_s0_ravel_POST_NOMINAL_NOT_STARTED_OPTIONAL_REVIEW_MIND_P0_CONTEXT.md), blob ad426c9daaad6a14d6e3edb4ba9ec89c942e2653. POST_NOMINAL_NOT_STARTED_AT_LAST_READBACK; optional continuity only. Preserve Ravel's existing geometry remit and P2 HOLD. No task or ownership transfer.

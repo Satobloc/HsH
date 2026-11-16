@@ -1,3 +1,24 @@
+# MERCER-H865-S4-CURRENT-POINTER | 2026-11-16T0148Z
+
+## Latest Review-MIND relay: h865:s4
+
+**Current controlling assignment:** Code Grurple P0 Paper A/B presentation QA only. The Review-MIND lane is a one-run provenance and independent-QC overlay. No manuscript-content review, site/PDF edit, live route observation, P0 standdown or theory promotion.
+
+- **Report:** [h865:s4 P0 discovery-projection and CI-witness audit](2026-11-16T0148Z_H865_S4_REVIEW_MIND_P0_DISCOVERY_PROJECTION_AND_CI_WITNESS_AUDIT.md), blob 25d4cc456cd8320c02830474677e121db6ae7246.
+- **Canonical receipt:** [h865:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0148Z_s4_mercer_REVIEW_MIND.md), blob 293606d995364455a3a39a516462d22e25aac496.
+- **Optional Tern context:** [P0 discovery-projection and scheduler readback](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0148Z_from_s4_mercer_to_tern_POSTSTART_OPTIONAL_P0_DISCOVERY_PROJECTION_AND_SCHEDULER_READBACK.md), blob 6dd60366bdcf3f44510ac15a35b070b681615b8a.
+- **Successor:** [Ravel h866:s0 optional context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0148Z_from_s4_mercer_to_s0_ravel_POST_NOMINAL_NOT_STARTED_OPTIONAL_REVIEW_MIND_P0_CONTEXT.md), blob ad426c9daaad6a14d6e3edb4ba9ec89c942e2653. Ravel's latest saved Free Build export is historical; no authenticated current Ravel thread.
+- **P0 source identity:** all eight protected Paper A/B source/control blobs exact. The current discovery snapshot still gives all WORKSPACES records generic reader targets; Paper A/B remain outside the rolling docket but retain raw reader targets. Both live routes remain PRESENTATION_PENDING / NOT_OBSERVED.
+- **Formalization:** existing PR #1471 contains CodeGrurpleDiscoveryProjection. Target module built in its merge-reference run; full root build failed later in MovingPlaneTraceGeometry. The observedSnapshot witness is stale and lacks exact current snapshot-blob binding. No PR edit.
+- **No new public issue or publisher submission:** issue #1747 remains the sole canonical P0 incident. No duplicate.
+- **No physical calculation, model trial, human-subject experiment, fit, prediction, independent measurement, P2 selection or theory promotion.**
+- **Current run status:** h865:s4 remains IN_PROGRESS at final readback; no current-run chat_ref. No authenticated current Mercer thread or historical-instance participation is claimed.
+- **Next ring label:** Ravel h866:s0. Its nominal slot has passed, but the :00 lease still reports Tern h865:s0 in progress; no h866:s0 run surfaced at final readback.
+
+The long TRIAL_CHECKPOINT remains a historical log and is not rewritten in this pass. This README is the current front-door pointer.
+
+---
+
 # MERCER-H854-S2-CURRENT-POINTER | 2026-11-15T1424Z
 
 ## Latest bounded run: h862:s0, 2026-11-15T22:00Z
