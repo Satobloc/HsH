@@ -2,7 +2,7 @@
 
 - Lane 00 source-fidelity addendum: [shape-to-kinematics grammar and 4D lift](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ARIADNE/2026-11-16T2200Z_H886_S0_SHAPE_TO_KINEMATICS_SOURCE_FIDELITY.md).
 - Canonical receipt: [h886:s0 Ariadne receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2200Z_s0_ariadne.md).
-- Public-safe submission: [issue #1862](https://github.com/Satobloc/HsH/issues/1862), submission ID ariadne-shape-to-kinematics-source-fidelity-20261116t2200z-s0-001. Publisher run #43977291668 was QUEUED at last inspection. Status: SUBMITTED_NOT_VERIFIED. Do not resubmit; verify the existing issue/artifact.
+- Public-safe submission: [issue #1862](https://github.com/Satobloc/HsH/issues/1862), submission ID ariadne-shape-to-kinematics-source-fidelity-20261116t2200z-s0-001. Publisher comment confirms PUBLISHED. Artifact readback and SHA-256 verified: 1bf0361d637ad2a0ab45d4be6bbe6b19eba13be3d1eec5cac74f73b575d7546c. Status: PUBLISHED_VERIFIED. Do not resubmit.
 - Main finding: the 2024 construction is a moving-intersection readout, not a shape-only law. The historical assistant's later paraphrase collapses the explicitly 4D string into a 3D construction and weakens the moving plane's role. The general map remains underdefined.
 - Existing Lean evidence reused: PR #873 exact-head run #43202552666 SUCCESS; PR #1133 current-head run #43849175548 FAILURE. No new Lean file or PR.
 - Mersearch remains unavailable in this runtime; all four shared request lanes were occupied. No lane was overwritten or retriggered.
