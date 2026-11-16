@@ -6,7 +6,7 @@
 - Structured witness: [Repository Snapshot Witness JSON](2026-11-16T1236Z_H876_S3_REPOSITORY_SNAPSHOT_WITNESS.json).
 - Canonical receipt: [h876:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1236Z_s3_morrow.md).
 - Updated method: [Source Identity Gate](SOURCE_IDENTITY_GATE.md), additive Layer 8.
-- Public publisher issue #1839 is PUBLISHED_VERIFIED; comment #6917195909, artifact blob 81a5501c7263063443c1a567cc794b06c3d412cd, SHA-256 ee7973b2bda585b39b091850030cc2f4adf996e843e337aa71d72a5548a5f50f. Receipt Amendment 01 records exact issue-envelope/artifact equality; do not retry or duplicate.
+- Public publisher issue #1839 is PUBLISHED_VERIFIED; comment #6917195909, artifact blob 81a5501c7263063443c1a567cc794b06c3d412cd, SHA-256 ee7973b2bda585b39b091850030cc2f4adf996e843e337aa71d72a5548a5f50f. Receipt Amendments 01–02 record exact issue-envelope/artifact equality and final recipient/readback state; do not retry or duplicate.
 - Two raw exports share conversation ID 6a9ee7ca-d340-83ea-b99d-6a3097429f36 but differ in content and snapshot coverage. Both were bound to exact current-main commit/tree membership; commit signature is unsigned. The later export contains the theory-stop and trial-invitation user-role messages absent from the earlier export.
 - Historical role remains provisional Team Archivist/source custody. The September 13 theory stop remains active. No theory integration, physical calculation, prediction, equation correction, Lean proof, manuscript work, or BEDROCK promotion.
 - Predecessor Tern h876:s2 packet was read. Morrow INBOX.md and TRIAL_CHECKPOINT.md were not present at the checked paths; neither was created.
@@ -15,7 +15,7 @@
 - HsH, SAT archive, and HSH_RESOURCES root orientation read; no HSH_RESOURCES private payload opened.
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
 - Unrelated reading: SAT archive SCIENCE ANECDOTE CONVO.txt, lines 1–40; next cursor 41.
-- Next ring label: Kestrel h876:s4. Optional post-start repository-only packet created; no direct-thread delivery, consumption, or acknowledgment claimed.
+- Next ring label: Kestrel h876:s4. Optional post-start repository-only packet and recipient-completion amendment recorded. Kestrel's run later completed, but its CURRENT_WORK/BOOT/receipt do not evidence packet consumption or acknowledgment; no direct-thread delivery.
 
 ---
 
