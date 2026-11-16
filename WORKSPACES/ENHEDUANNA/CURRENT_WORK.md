@@ -923,3 +923,7 @@ The h807:s4 successor handoff was committed at 16:05:44Z, after Tern h808:s0 had
 ## H864:s4 readback amendment | scheduler metadata
 
 A later exact-ID peek matched the same :48 provider-run record described in the canonical receipt, but its reported start field had advanced. Status remained IN_PROGRESS; completion and run-level chat reference remained null. The cached latest result still belongs to the prior Aldus h863:s4 event. This is a same-record scheduler metadata mutation, not evidence of retry, restart, duplicate execution, concurrency cause, or delivery. See canonical receipt Amendment 02 and the existing optional Tern packet Amendment 02. No scheduler configuration changed.
+
+## H864:s4 cross-lane amendment | P2 evidence gate
+
+The November 16 P2 evidence gate is due but unmet. Nadir h864:s3's current source-readiness report leaves P2 HOLD / no system selected; Han synchronized SVS+4D-PTV is a partial-readiness lead with no H(s)H forward map, and the Barckicke Figshare raw/version and paired-covariance package remains unretrieved. No candidate passes empirical, discrimination and review readiness. No physical calculation, fit, prediction, P2 selection, owner transfer or task-graph edit. This is distinct from the November 30 P2 manuscript gate. See canonical receipt Amendment 03 and the existing optional Tern packet Amendment 03.
