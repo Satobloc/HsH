@@ -11,6 +11,7 @@
 - Existing PR #1189 exact-head Lean build #43783028748 succeeded; no new theorem/build or physical H(s)H mapping. The separate conversation-JSON CI failed.
 - Eight protected P0 source/control blobs re-fetched at main snapshot f5a0bb22e4b5794b7a5b22ebc768a290ad803502: 8/8 exact. Issue #1747 remains OPEN. No live route probe; route rendering remains NOT_OBSERVED.
 - P2 remains HOLD. No physical prediction, CODATA comparison, system selection, matrix change, manuscript/PDF/site edit, P0 standdown, or theory promotion.
+- SAT-O1/Blockwave source custody: SAT-O1 source SHA-256 and first archive commit independently verified; original Blockwave Clean Action attachment SHA-256 verified from Library bytes; HsH text archive is a distinct non-byte-identical representation; SATOBLOCK-LIVE and Full Theory drafts remain separate. No equations corrected or promoted. See Amendment 03.
 - Mersearch remains unavailable; four existing request lanes remain occupied/requested. HSH_RESOURCES root README only.
 - Reading cursor: *The Wind in the Willows*, Chapter I, lines 25–180 read; next cursor 181. FIE next review November 24.
 - Next ring label: Mercer. No handoff, assignment or cross-thread delivery claim.
