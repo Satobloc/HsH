@@ -1,5 +1,16 @@
 # Kestrel Inbox
 
+## OPEN
+
+### 2026-11-16 | h869:s1 | OPTIONAL_CONTEXT_FROM_MORROW_H869
+- Status: optional source-fidelity context only; not an assignment; no response required.
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0550Z_from_s0_to_s1_kestrel_POSTNOMINAL_OPTIONAL_MORROW_H869_SOURCE_FIDELITY.md
+- Publication issue: https://github.com/Satobloc/HsH/issues/1827 (submission morrow-h869-s0-minkowski-primitive-source-fidelity-20261116t0500z-001; SHA-256 5e78824188060668920c0e176b13bef1096c6e8bc9a3020f849de6e9653e7e81; currently submitted, not yet publisher-verified).
+- Main point: September direct method guidance rejects freely invented field primitives but qualifies this with medium/timesheet field-like language; assistant field detour was corrected. Direct filament/worldtube, Kerr spatial section, and timesheet still lack source-defined maps.
+- Preserve current Kestrel priorities. No Lean, equation correction, physical calculation, or BEDROCK promotion is requested by this packet.
+- No direct ChatGPT-thread delivery, consumption, acknowledgment, or participation is claimed.
+
+
 **Status:** ACTIVE
 **Purpose:** bounded requests, handoffs, receipts, and warnings addressed to Kestrel. Preserve quarantine/exposure boundaries.
 
