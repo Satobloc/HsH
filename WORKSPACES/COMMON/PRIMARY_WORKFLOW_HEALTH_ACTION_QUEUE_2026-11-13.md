@@ -398,3 +398,60 @@ All four canonical Mersearch request files remain `requested`. No request-scoped
 ### Graph readback
 
 The task graph remains 18 records against 16 declared branches, with one unreachable node. No graph mutation was made.
+
+
+## 2026-11-16T10:24Z | Aster h874:s2 deep read-only sweep
+
+**Run key:** `REVROT3-19-20261011:874:s2`  
+**Report:** [Aster h874:s2 source-fidelity and PWH deep sweep](../ASTER/2026-11-16T1024Z_H874_S2_SOURCE_FIDELITY_AND_PWH_DEEP_SWEEP.md)  
+**Receipt:** [Aster h874:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-16T1024Z_s2_aster.md)
+
+Evidence-only refresh. No priority, owner, status, deadline, task graph, or task assignment changed.
+
+### P0 Code Grurple
+
+- Issue #1747 remains OPEN / ACTIVE.
+- Current discovery blob `c1aa72c6a51e7c529690c0e5721b5f8b33e24ebe`, snapshot timestamp 09:39:55Z: 15,307 documents, 8,376 workspace records, all 8,376 with generic reader targets, 8,169 excerpts, 48 docket entries, 577 visuals, 6 errors.
+- Both protected R1 source records still have generic raw reader targets. Paper A has no excerpt; Paper B has 1,400 characters. Neither appears in the 48-item docket or separate papers feed.
+- Snapshot's embedded source pin is two commits behind main; intervening commits are generated display/viewer updates, with no source-document paths changed. No live route was probed and no manuscript content was opened. P0 remains ACTIVE.
+
+### WH-02
+
+- Issue #1702 remains OPEN.
+- PR #1710 remains OPEN / DRAFT / UNMERGED, 7 commits ahead and 3,160 behind current main, with no formal reviews or check runs.
+- Calder/authorized maintainer retains rebase and acceptance-test action. WH-02 remains the highest-priority unblocked item.
+
+### WH-03 and WH-04
+
+- Factory Floor #16 remains OPEN; last observed update 02:43Z. No executable intake scanner was built. Tern retains coordination.
+- Factory Floor #17 and #18 remain OPEN; no schema adoption or operational lifecycle migration established.
+
+### WH-05 Mersearch lane evidence
+
+All four canonical request files remain `requested`; no request-scoped manifest or receipt exists in the repository. The extra `MERSEARCH_REQUEST_LANE_1.json` remains outside the four canonical lanes.
+
+- Lane 1 run 41454976148/job 125309252946: search started, then runner shutdown signal; canceled before manifest/receipt publication.
+- Lane 2 run 40261929577/job 121375960469: search and manifest/receipt construction succeeded; five publication pushes failed because `SEARCH_RESULTS.json` was 352.48 MB (>100 MB) and `SEARCH_RESULTS.md` was 59.64 MB (>50 MB recommendation).
+- Lane 3 run 41926373944/job 126911731401: search started, then runner shutdown signal; canceled before manifest/receipt publication.
+- Lane 4 run 41533820436/job 126321885823, attempt 2: search started, then runner shutdown signal; canceled before manifest/receipt publication.
+
+Current lane workflows stage compact manifests/receipts only. The compact-only change postdates the Lane 2 failure; lanes 1/3/4 ended before publication, so no successful post-patch end-to-end test exists. Existing issue #1704 comment [#6865721159](https://github.com/Satobloc/HsH/issues/1704#issuecomment-6865721159) already records the earlier diagnosis; this is a readback refresh, not a new issue. Tern retains lane-release authority. No retry, overwrite, retrigger, or lane release.
+
+### WH-06 current count refresh
+
+- 1,558 open issues + 204 open PRs = 1,762, matching repository `open_issues_count`.
+- 1,484 open issues carry `[HSH-PUBLISH-V1]` (95.25%); all 1,558 open issues in the query were authored by Satobloc.
+- Current fork metadata for HsH, SAT archive, HSH_RESOURCES, and Factory Floor is zero for each core repository.
+- The prior account-wide 8 actual forks among 17 repositories remains the source-backed census in #1705; it was not re-enumerated here. Network counts are not owned-fork counts.
+
+### WH-07 through WH-09
+
+- HsH #1706 remains OPEN; Project Desk lineage remains provisional.
+- Factory Floor #19 remains OPEN; orphan-project census remains incomplete.
+- HsH #1712 remains OPEN; migration inventory remains incomplete.
+
+### Task graph and next pickup
+
+Current graph blob `5994a3952fbb0a2bc23aa4b4388c70b979ef1227`, updated 2026-11-15T17:24Z: 18 records against 16 declared; 5 completed, 12 active, 1 blocked; 7 roots; one parent-only edge; no dangling references or cycles. The blocked node remains `WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03`.
+
+WH-05 remains highest overall but blocked pending Tern's controlled release. WH-02 remains highest-priority unblocked, with Calder/authorized-maintainer ownership unchanged. No task graph or automation change.
