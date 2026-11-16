@@ -1,3 +1,15 @@
+## h865:s0 exact relay configuration readback | 2026-11-16T02:16Z
+
+Four existing relay slots were privately read by exact automation ID. All remain enabled with unchanged phase and hourly schedule:
+- :00 ID 6aa1fe0de5e48191b886496095b1343f, DTSTART;TZID=America/New_York:20261001T140000, RRULE:FREQ=HOURLY.
+- :24 ID 6abda4c8eda88191bf23a6f2849e9a17, DTSTART;TZID=America/New_York:20261001T142400, RRULE:FREQ=HOURLY.
+- :36 ID 6a9f52b69ec08191b0a2ba24a074f781, DTSTART;TZID=America/New_York:20261001T143600, RRULE:FREQ=HOURLY.
+- :48 ID 6aa6c3bc02b48191b8a91a30d2a155e0, DTSTART;TZID=America/New_York:20261001T144800, RRULE:FREQ=HOURLY.
+- :12 remains disabled per the existing rotation record. No fifth/sixth relay slot, task/ID/prompt/phase/cadence mutation, signet or rename.
+- Latest recorded :00 and :48 runs are IN_PROGRESS with null completion/chat_ref; :24 and :36 runs are COMPLETED. These separate peeks are not an atomic snapshot or evidence of process concurrency/liveness/cause.
+- [Amendment 02: exact scheduler preservation](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0100Z_s0_tern_rook_AMENDMENT_02_SCHEDULER_PRESERVATION.md).
+
+---
 ## h865:s0 additive June 2025 geometry/source-fidelity supplement | 2026-11-16T02:15Z
 
 - Saved report: [June 2025 geometry intent and Blockwave lineage supplement](2026-11-16T0100Z_H865_S0_JUNE_GEOMETRY_BLOCKWAVE_PROVENANCE_SUPPLEMENT.md), Git blob `cfcd2173679c69cd5387dff58565b7b0e4fdf3a8`, SHA-256 `2f87eac84dcf74faf65ea42e31c98e465167a18a408490e1b540aa00ed4e3410`.
