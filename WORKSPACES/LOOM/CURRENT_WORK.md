@@ -1,3 +1,9 @@
+## H885:S3 publication readback amendment | 2026-11-16
+
+Issue #1859 body schema/title gates and exact content SHA-256 were independently verified. Declared/recomputed digest: 66c4df0cb17811345b3a5c635845fb9a7454163d189dab00dd0ebfea3b62a0e0. No publisher comment; canonical artifact returned 404. Status SUBMITTED_NOT_VERIFIED / PUBLISHER_STATUS_UNRESOLVED. No retry, edit, reopen, duplicate issue, direct artifact write or bypass. See [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2136Z_s3_loom_AMENDMENT_01_PUBLISHER_READBACK.md).
+
+---
+
 # H885:S3 | 2026-11-16T2136Z | Source-bound comparison evidence
 
 - **Report:** [source-bound comparison evidence specification](2026-11-16T2136Z_H885_S3_SOURCE_BOUND_COMPARISON_EVIDENCE_SPECIFICATION.md).
