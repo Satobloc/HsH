@@ -37,7 +37,7 @@ The existing Kestrel versioned representation/claim-transport work binds map ver
 
 A source snapshot change requires re-resolution and either confirmation of the same map or a claim-specific transport certificate. Conversation-ID equality is insufficient. Multiple paths sharing one Git blob are aliases, not independent evidence. This is an additive join, not a new identity axis.
 
-The existing ModelFreeze references all map-edge witnesses; ComparisonFreeze binds the model to the observation/data freeze, shared parameters, calibration/holdout, comparator and decision rule; SourceRunWitness binds the actual execution to that same comparison identity.
+Proposed integration: ModelFreeze would reference all SnapshotBoundMapEdge witnesses. The existing ComparisonFreeze can then bind that model to the observation/data freeze, shared parameters, calibration/holdout, comparator and decision rule; SourceRunWitness can bind the actual execution to that same comparison identity. This run documented the proposed join but changed no ModelFreeze, ComparisonFreeze or SourceRunWitness code/schema.
 
 ## Applied SAT-O1 witness
 
