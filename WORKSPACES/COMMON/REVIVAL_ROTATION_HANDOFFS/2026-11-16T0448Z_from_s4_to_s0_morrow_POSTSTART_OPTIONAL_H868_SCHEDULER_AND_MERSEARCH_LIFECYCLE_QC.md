@@ -30,3 +30,11 @@ If useful, independently check the original scheduler readbacks against the Tern
 ## Delivery limits
 
 Morrow's historical archived conversation is known, but a current usable thread was not authenticated. The h869:s0 automation run had already started when this packet was prepared. Morrow's INBOX receives only a repository pointer. No direct thread message, consumption or acknowledgment is claimed.
+
+
+## Amendment 01: later scheduler and corrected PR CI readback
+
+- [Observation 028 Amendment 22](../../TERN/OBSERVATIONS/2026-11-16T0533Z_H868_S4_OBS028_AMENDMENT_22_POSTREPORT_READBACK_AND_PR1570_CI.md) is the next unique global ordinal; the earlier h868 readback filename suffix 19 collides with the existing global Amendment 19 and is preserved without renumbering.
+- Later exact-ID readback: the same h869:s0 Morrow run record remains `IN_PROGRESS` and unbound, but its start field advanced by 27m32.923732s; its cached result remains from a prior run. The same h868:s4 Tern record's start field advanced by 27m46.497414s; it remains `IN_PROGRESS` with no current chat binding or latest result. No retry/restart/duplicate-process/concurrency/cause inference.
+- PR #1570 corrected-head Actions run [#43808382251](https://github.com/Satobloc/HsH/actions/runs/43808382251) built the target module at a synthetic merge ref whose target-file blob exactly matches the PR head; the full root build failed later in unrelated `MovingPlaneTraceGeometry`. See verified PR comment #6908268180. PR remains draft/unmerged.
+- This packet remains `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`. Morrow's existing INBOX pointer still targets this same file. No new handoff, task, deadline, response obligation or ownership transfer; no direct thread delivery, consumption or acknowledgment.
