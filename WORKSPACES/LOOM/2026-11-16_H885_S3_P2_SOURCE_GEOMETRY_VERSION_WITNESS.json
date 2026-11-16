@@ -422,7 +422,7 @@
   },
   "comparison_freeze_binding": {
     "existing_formalization": "PR #1852 NadirComparisonFreezeCoherence plus PR #1858 LoomSourceBoundComparison",
-    "existing_formalization_status": "PR #1858 current head 85780267a86bcadbcc4895e2031674f150f783e4: exact-head checkout passed; Lean run #43969861179 was in progress at Lake dependency-manifest generation; no new-head compilation result yet",
+    "existing_formalization_status": "PR #1858 head 85780267a86bcadbcc4895e2031674f150f783e4 compiled successfully on exact PR head with Lean 4.34.0, Lake 5.0.0 and 8,950 build jobs; 10 theorem-specific axiom reports had no axiom dependencies reported",
     "source_bundle_id_field": "PR #1858 SourceBoundP2Bundle requires one nonempty source-bundle ID matching ComparisonFreeze.sourceBundleId and carries the same ID through E/D/F/R and H0/H1 prediction receipts; an opaque nonempty source-witness digest is also carried through those receipts and the canonical manifest",
     "required_binding": [
       "source_bundle_id",
@@ -442,7 +442,7 @@
       "holdout_acquisition_unit_ids"
     ],
     "version_change_rule": "if any source claim or map definition changes after calibration freeze, issue a new comparison freeze or a claim-specific transport certificate",
-    "status": "SOURCE_BUNDLE_ID_AND_DECLARED_MANIFEST_MEMBERSHIP_FORMALIZED_IN_OPEN_DRAFT_PR_1858; BYTE_AUTHENTICATION_AND_PHYSICAL_MAP_UNDEFINED",
+    "status": "SOURCE_BUNDLE_ID_AND_DECLARED_MANIFEST_MEMBERSHIP_FORMALIZED_IN_OPEN_DRAFT_PR_1858; EXACT_HEAD_LEAN_BUILD_PASS; BYTE_AUTHENTICATION_AND_PHYSICAL_MAP_UNDEFINED",
     "formalized_in_pr1858": [
       "nonempty source-bundle ID matching ComparisonFreeze.sourceBundleId",
       "same source-bundle ID on empirical, discrimination, freeze, review, H0 and H1 prediction receipts",
@@ -474,15 +474,18 @@
       "lean": "4.34.0",
       "lake": "5.0.0",
       "exact_head_checkout": "PASS",
-      "last_observed_step": "Generate Lake dependency manifest",
-      "last_observed_status": "IN_PROGRESS",
-      "new_head_compilation": "NOT_YET_OBSERVED",
+      "build_status": "COMPLETED_SUCCESS",
+      "build_jobs": 8950,
+      "module_theorem_axiom_reports": 10,
+      "module_theorem_axiom_dependencies": "none reported",
+      "test": "SKIPPED",
+      "lint": "SKIPPED",
+      "leanchecker": "SKIPPED",
+      "nanoda": "SKIPPED",
+      "global_axiom_audit": "SKIPPED",
       "previous_verified_head": "35df9d43602792e761710145703c3adb5b36ea0a",
       "previous_verified_workflow_run": 43966655498,
       "previous_verified_build_jobs": 8950,
-      "previous_verified_new_theorem_axiom_reports": 5,
-      "previous_verified_new_theorem_axiom_dependencies": "none reported",
-      "tests_lint_leanchecker_nanoda_global_axiom_audit": "skipped on previous head; not yet run on current head",
       "pr_status": "OPEN_DRAFT_UNMERGED",
       "base_pr": 1852,
       "vercel_preview": "RATE_LIMITED_FREE_TIER_NO_UPGRADE_OR_RETRY"
@@ -523,6 +526,13 @@
       "head_sha": "0bc31d2aafac9d3639c06aa93aaf4643033b7718",
       "workflow_run": 43942772738,
       "result": "exact-head Lean build passed; 14 theorem reports with no axiom dependencies reported; opaque sourceBundleId content remains unauthenticated"
+    },
+    {
+      "module": "HsHVerification.LoomSourceBoundComparison",
+      "pr": 1858,
+      "head_sha": "85780267a86bcadbcc4895e2031674f150f783e4",
+      "workflow_run": 43969861179,
+      "result": "exact-head Lean 4.34.0 build passed; 8,950 jobs; 10 module theorem axiom reports with no axiom dependencies reported; tests, lint, leanchecker, nanoda and global axiom audit skipped"
     }
   ],
   "p2_test_gate": {
@@ -561,7 +571,8 @@
     "The source's 'twisted ER bridge' wording does not define a normal-bundle connection or quantitative twist field.",
     "The source's Kerr-like core is not the air-water vortex core; no map connects them.",
     "The 0.7 fm coil radius is not a filament thickness and is not a fluid-core scale.",
-    "No measured system was selected; no raw data, fit, prediction, independent measurement, or numeric falsification threshold exists."
+    "No measured system was selected; no raw data, fit, prediction, independent measurement, or numeric falsification threshold exists.",
+    "Source and observation manifest membership is proved only against a declared Lean List String; actual manifest-file existence, bytes, digest authenticity and membership contents remain external."
   ],
   "source_bundle_id": "loom-h885-s3-p2-source-bundle-20261116"
 }
