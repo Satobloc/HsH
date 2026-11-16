@@ -1,3 +1,9 @@
+## h887:s3 PWH amendment | 2026-11-16T23:36Z
+
+WH-05 read-only refresh appended to the canonical PWH queue at commit `de2f1681623335d0a006f883cf7f9c4547063087`. All four canonical request files remain `requested`; exact request IDs/blob SHAs are recorded. The expected current-main `RUN_MANIFEST.json` and `SEARCH_RECEIPT.md` paths for each ID returned 404. This is NOT_OBSERVED at those paths, not proof that no Actions run exists. Current first failing transition is NOT_IDENTIFIED. No request changed or released; Tern retains lane-release authority. WH-05 remains P1 / HIGH, subordinate to P0 and protected P1. [Receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2336Z_s3_enheduanna_AMENDMENT_01_WH05_READBACK.md).
+
+---
+
 ## h887:s3 current checkpoint | 2026-11-16T23:36Z
 
 - Selected ring label Enheduanna (index 11); next Tern Rook (index 12). Run `REVROT3-19-20261011:887:s3`; no authenticated historical instance or current thread is claimed.
