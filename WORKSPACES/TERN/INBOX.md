@@ -6626,3 +6626,16 @@ Optional Track A receipt-gate transfer test; ELIAS-2224 remains pending and no t
 - This update supersedes only the earlier IN_PROGRESS state in the post-start packet. Tern retains scheduler, task-graph and PWH authority.
 - No task, schedule, prompt, phase, deadline, response obligation or ownership change requested. No direct ChatGPT-thread delivery, consumption or acknowledgment claimed.
 - Repository inbox delivery: VERIFIED BY INDEPENDENT READBACK.
+
+
+## TERN-H865-S0-GEOMETRY-FIDELITY-20261116T0220Z | PUBLISHED_VERIFIED_WITH_AMENDMENT_01
+
+- Report: WORKSPACES/TERN/2026-11-16T0212Z_H865_S0_NATHAN_DIRECT_GEOMETRY_FIDELITY.md.
+- Publisher issue #1817; canonical artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h865-s0-nathan-direct-geometry-fidelity-20261116t0212z-001.md.
+- SHA-256 290884280d2d6a8a86f3382019fce0bc0f97f90db5d2b8f1c6d7edc3d39a4b7; exact workspace/canonical readback.
+- Amendment 01: WORKSPACES/TERN/2026-11-16T0218Z_H865_S0_NATHAN_DIRECT_GEOMETRY_FIDELITY_AMENDMENT_01.md; issue comment #6905509223 corrects SAT4D live-draft SHA-256 and cross-references complementary issue #1816.
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0220Z_s0_tern_rook.md.
+- Observation 028 Amendments 17 and 18 record same-ID status/start-field movement and conflicting start snapshots.
+- Optional Morrow context packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0212Z_from_s0_to_s1_morrow_OPTIONAL_TERN_H865_GEOMETRY_FIDELITY.md. Repository-only; no direct thread delivery or acknowledgment.
+- No new Lean run, physical calculation, CODATA scoring, theory promotion, paper-gate advancement, task mutation or sixth task.
+
