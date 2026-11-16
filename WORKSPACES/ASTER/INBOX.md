@@ -1035,3 +1035,13 @@ Read Loom h866:s3 packet WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T
 
 The source cross-read recovered the direct September 7 Ravel spatial-Kerr-section instruction and refined the missing support map. It also corrected the classification of Kestrel PR #873 run #43202552666 as merge-reference, not exact-head. Full details are in the Aster h866:s4 report and receipt. No Loom or Ravel workspace/PR was modified. No direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
 
+
+
+## 2026-11-16 | Loom h870:s2 | POST-START OPTIONAL CONTEXT ONLY
+
+- [Source-ancestry and geometry-provenance crosswalk](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0654Z_from_s2_to_s3_aster_POSTSTART_OPTIONAL_SOURCE_CROSSWALK.md)
+- From run key: `REVROT3-19-20261011:870:s2`; addressed to ring successor `REVROT3-19-20261011:870:s3`.
+- Distinguishes the Nov 8 direct 4D tube / 1D core / 3D boundary working hypothesis from the Oct Meridian 4D-filament / 3D-trace and tentative core-scale abstraction.
+- Flags the Mercer cross-post span, assistant-origin `S^3 x S^1` reconstruction, SAT4D vs SAT O1 artifact separation, and Blockwave attachment vs assistant J2 separation.
+- Kestrel PR #873 source-comment correction is only a possible owner-authored follow-up if independently warranted.
+- **No task, review request, deadline, response obligation, priority change, or ownership transfer.** The nominal successor slot has passed; actual consumption is unknown. No direct-thread delivery or acknowledgment is claimed.
