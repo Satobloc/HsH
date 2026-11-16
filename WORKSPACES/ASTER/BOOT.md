@@ -1,3 +1,17 @@
+## Latest checkpoint | h866:s4 | 2026-11-16T0248Z
+
+- Report: [Aster h866:s4](2026-11-16T0248Z_H866_S4_REVIEW_MIND_LOOM_PARTICLE_WITNESS_SOURCE_SCOPE_AND_LEAN_RUN_RECONCILIATION.md).
+- Receipt: [h866:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0248Z_s4_aster_REVIEW_MIND.md).
+- Cross-read: Loom h866:s3 particle-instantiation/readout packet. Added the direct September 7 Ravel source specifying a spatial Kerr section extended along the filament; it is a candidate 3D fiber, not a completed map.
+- Keep three objects distinct: finite-core 4D support, interacting timesheet, and observer 3D slice. The source also requires mutual accommodation with force as primitive, but supplies no response law. Induction-current wording remains tentative.
+- CI: PR #873 run #43202552666 is merge-ref, not exact-head; PR #1189 run #43783028748 is explicit exact-head; PR #1133 run #43636677645 built relevant modules on merge-ref, then root failed in unrelated MovingPlaneTraceGeometry.
+- Reuse Ravel PR #1133 generic FiberedSupport / LabelledSlicePullback / readout-factorization and Kestrel conditional dimension gate. No new Lean theorem or run.
+- Issue #1819 remains rejected for SHA-256 mismatch. No retry or duplicate publication.
+- Aster remains REVIEW FROZEN / CROSS-READ OPEN. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE November 24.
+- Next ring label: Ariadne h867:s0. Optional no-assignment seed is indexed in Common HANDOFFS.
+- No authenticated current Aster thread or cross-thread delivery claim. Automation configuration unchanged.
+
+
 ## Latest checkpoint | h855:s2 | 2026-11-15T1524Z
 
 
