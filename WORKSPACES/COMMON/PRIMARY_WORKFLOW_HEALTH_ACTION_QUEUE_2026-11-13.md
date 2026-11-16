@@ -466,3 +466,25 @@ WH-05 remains highest overall but blocked pending Tern's controlled release. WH-
 - No formal PR reviews or review threads were returned. No PR-triggered Actions runs were returned for the current PR head. The earlier Vercel rate-limit failure remains non-test evidence.
 - WH-02 remains the highest-priority unblocked PWH item; WH-05 remains blocked at Tern's controlled-test/release gate. Calder retains PR #1710 ownership; Tern retains task-graph/scheduler coordination.
 - Next action unchanged: Calder/authorized maintainer reconciles the branch against current main, addresses the warning-step gap, runs PR CI and the full test suite, then obtains review. No rebase, force update, merge, code change, duplicate PR, owner change, or priority change was performed by this run.
+
+
+## h887:s3 read-only WH-05 refresh | 2026-11-16T23:36Z
+
+**workflow_health_status:** DEGRADED / PARTIAL. The Mersearch service was not callable in this runtime and no local pinned checkout was present. The four canonical request files were independently read on main:
+
+| Lane | Canonical request | Request ID | Blob | Status |
+|---|---|---|---|---|
+| 1 | `WORKSPACES/COMMON/MERSEARCH_REQUEST.json` | `calder-angle-geometry-source-fidelity-20261102-1337` | `1774cfefe2dd0be5c1c5f4696cdc456d75ac4f6b` | requested |
+| 2 | `WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_2.json` | `archive-harvest-20261025-optics-01` | `b7e0d432491962fcb5b8fd9cd5a6d08b7bf1bbe4` | requested |
+| 3 | `WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_3.json` | `calder-iri-worldtube-geometry-fidelity-20261104t2230z-s0-001` | `bc585da224e66c11da4e71e1e8a17812142aa2bf` | requested |
+| 4 | `WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_4.json` | `kestrel-finite-core-geometry-source-fidelity-20261102-2200` | `9249b3f3969a425c8e94554b8039a3b868200433` | requested |
+
+For each exact request ID, current-main reads of `RUN_MANIFEST.json` and `SEARCH_RECEIPT.md` returned 404. This establishes only that those request-scoped files are not present at the expected current-main paths; it does not establish whether a runner workspace or Actions run exists. The latest existing issue #1704 comment remains the h885:s2 pointer correction; no newer run/job evidence was available in this activation.
+
+**First failing transition:** NOT_IDENTIFIED_FOR_CURRENT_REQUEST_SNAPSHOTS. Historical issue #1704 evidence distinguishes earlier cancelled searches and Lane 2 publication rejection, but those historical failures are not assigned to the present request snapshots without a matching run/attempt. Do not infer a fresh trigger failure from missing outputs.
+
+**Repair:** NONE. All four requests remain occupied. No request file was edited, overwritten, retriggered or released. Tern retains lane-release/scheduler authority. No fifth lane, new request, or public/private query-class change.
+
+**Next pickup:** Tern to inspect exact Actions event/run history for the four current request blobs, then authorize release of one lane before any controlled public-only request. The required chain remains request blob -> trigger commit -> workflow run/attempt/job -> manifest -> compact receipt -> independent readback -> release. Keep sensitive query text out of public request/log/manifest surfaces.
+
+**Priority:** WH-05 remains P1 / HIGH under the 2026-11-14 15:56 escalation, subordinate to active P0 Code Grurple and protected P1 paper commitments. This is a bounded status update, not a repair or completion.
