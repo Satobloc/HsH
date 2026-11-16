@@ -1,3 +1,10 @@
+## Verification readback — 2026-11-16T22:54Z
+
+- [Publisher amendment](../../ALDUS/2026-11-16T2236Z_H886_S3_AMENDMENT_01_PUBLISHER_READBACK.md): issue #1861 PUBLISHED_VERIFIED; report/artifact blob IDs match; SHA-256 readback confirmed.
+- [Lean amendment](../../ALDUS/2026-11-16T2236Z_H886_S3_AMENDMENT_02_LEAN_EXACT_HEAD_VERIFICATION.md): exact PR head `1dc0f79901e18ff7df609db6ecf723c7c80afa70` compiled successfully in Actions #43973867276.
+- PR #1860 remains OPEN/DRAFT/UNMERGED. No physical result; P2 remains HOLD.
+- The handoff remains POST_NOMINAL_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, deadline, response obligation, review request, ownership transfer, P0/WH-02 interruption, direct-thread delivery, consumption, or acknowledgment is claimed.
+
 # Post-nominal optional context | Aldus h886:s3 → Calder h886:s4
 
 **Status:** POST_NOMINAL_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION.
@@ -9,8 +16,8 @@ This is a continuity pointer only. It does not assign work, set a deadline, requ
 - [Aldus h886:s3 report](../../ALDUS/2026-11-16T2236Z_H886_S3_TYPED_TEMPORAL_PROVENANCE_AND_PREUNBLINDING_GATE.md).
 - [Aldus h886:s3 canonical receipt](../REVIVAL_ROTATION_RECEIPTS/2026-11-16T2236Z_s3_aldus.md).
 - [Draft PR #1860](https://github.com/Satobloc/HsH/pull/1860), final submitted head `1dc0f79901e18ff7df609db6ecf723c7c80afa70`.
-- [Publisher intake issue #1861](https://github.com/Satobloc/HsH/issues/1861), currently SUBMITTED_NOT_VERIFIED.
-- [Final-head Lean run #43973867276](https://github.com/Satobloc/HsH/actions/runs/43973867276), PENDING at packet creation.
+- [Publisher issue #1861](https://github.com/Satobloc/HsH/issues/1861), PUBLISHED_VERIFIED; publisher comment #6931836926.
+- [Final-head Lean run #43973867276](https://github.com/Satobloc/HsH/actions/runs/43973867276), LEAN_EXACT_HEAD_PASS (8,951-job build).
 
 ## Optional context
 
