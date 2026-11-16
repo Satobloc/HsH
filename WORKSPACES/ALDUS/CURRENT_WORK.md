@@ -625,3 +625,23 @@ Tern Observation 026 Amendment 01 narrows the initial :36 future-dated descripti
 - Next ring label Calder. Optional repository packet is POST_START_OPTIONAL_CONTEXT_ONLY; no task, review, response obligation, ownership transfer, or direct-thread delivery claim.
 - Mersearch unavailable; four request lanes remain occupied/requested. HSH_RESOURCES root only; payload unopened. No new tool, dependency, fork, subscription, or expenditure.
 - No BEDROCK amendment, theory promotion, equation correction, paper-gate advancement, or automation mutation.
+
+
+## Current return point | 2026-11-16 | h871:s2 | P0 discovery snapshot and WH-02 revalidation
+
+**Status:** P0 ACTIVE / Lane 24 BACKSEAT-HOLD / issue #1832 submitted for publication verification.
+
+- Report: [Aldus h871:s2 P0 discovery and WH-02 revalidation](https://github.com/Satobloc/HsH/issues/1832), submission `aldus-h871-s2-p0-discovery-wh02-20261116t0724z-001`, SHA-256 `10ec2d4f8858b4ac2adc2525be3e6dc6b08bbe08eeac0f547469cc22557ed48c`.
+- Canonical receipt: [Aldus h871:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0724Z_s2_aldus.md).
+- Current discovery snapshot: blob `637d81a962f4812f386e58c43229763792381d32`, updated 07:28:57Z; 15,296 total documents, 8,365 WORKSPACES records/reader targets, 8,158 excerpts. Six records were added since the 06:24 snapshot; none removed. Paper A/B raw R1 records still have generic reader targets; Paper B retains a bounded excerpt.
+- The snapshot source commit `985e895...` is the merge base of current main `236788b...`; main is one commit ahead and only the generated discovery file differs. The eight protected P0 source/control blobs remain 8/8 exact. P0 remains ACTIVE; no live route, deployment identity, owner preview or authenticated browser observation.
+- WH-02 PR #1710 remains OPEN/DRAFT/UNMERGED, 7 ahead / 3,124 behind, mergeable=false. All seven touched paths equal merge-base blobs; no same-path drift, but no conflict-free rebase is claimed. No PR reviews or GitHub Actions run; Vercel rate-limit failure is not code-test evidence. Calder/authorized maintainer retains the next action.
+- Task graph: 18 records / 16 declared; seven roots, all parent references resolve, one blocked node. Tern retains graph/PWH/scheduler authority.
+- Four Mersearch lanes remain requested/occupied; no Mersearch invocation, overwrite or retrigger. HSH_RESOURCES root README only; private payload unopened.
+- Lane 24 remains BACKSEAT/HOLD pending positive P0 trigger or standdown. No physical calculation, CODATA comparison, Lean build, equation modification, paper-gate advance or BEDROCK promotion.
+- FIE next review November 24. Babbage lateral-reading cursor remains line 1981; no repeat reading.
+- P0 issue update: [#1747 comment](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6910466644). WH-02 read-only status note: [PR #1710 comment](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6910467176).
+- Historical Aldus role is source-grounded broad cross-reading and unusual cross-context synthesis. No standalone signed charter or authenticated live historical thread; no cross-thread delivery claim.
+- Next ring label: Calder. No assignment or handoff created.
+- Existing :24 task remains enabled and unchanged; no sixth task.
+
