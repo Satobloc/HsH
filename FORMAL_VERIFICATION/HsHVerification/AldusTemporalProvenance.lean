@@ -285,6 +285,7 @@ structure TemporalEvidence where
   evidenceId : String
   subjectId : String
   actorId : String
+  comparisonId : Option String
   eventKind : EventKind
   eventTime : Option TimeInterval
   observedAt : Option TimeInterval
@@ -430,10 +431,10 @@ structure ChronologyBoundP2Bundle (F : ComparisonFreeze) where
     predictionSeal.subjectId = comparisonId
   unblindingSubjectMatches :
     holdoutUnblinding.subjectId = comparisonId
-  predictionCoverageMatches :
-    predictionSeal.coverageId = comparisonId
-  unblindingCoverageMatches :
-    holdoutUnblinding.coverageId = comparisonId
+  predictionComparisonMatches :
+    predictionSeal.comparisonId = some comparisonId
+  unblindingComparisonMatches :
+    holdoutUnblinding.comparisonId = some comparisonId
   predictionTimeMatches :
     predictionSeal.eventTime = some predictionFreezeTime
   unblindingTimeMatches :
