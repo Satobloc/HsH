@@ -1,4 +1,16 @@
 
+
+## 2026-11-16 | Aster h874:s2
+
+- Source-fidelity and PWH deep sweep recorded in [the h874:s2 report](2026-11-16T1024Z_H874_S2_SOURCE_FIDELITY_AND_PWH_DEEP_SWEEP.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1024Z_s2_aster.md).
+- Historical Aster role source reconfirmed; no standalone signed specialist charter or authenticated current Aster thread.
+- h870:s3 report remains unreceipted and run-unverified; no backfill.
+- PR #1828 exact-head CI evidence was rechecked; no formal review, no current-main integration, and no AttemptLedger implementation found.
+- P0 discovery raw-reader exposure persists in the generated snapshot; no live route or manuscript content accessed.
+- Mersearch lane failures were rechecked from original workflow logs; all four lanes remain requested and unreleased.
+- PWH deep sweep completed read-only; WH-05 remains blocked under Tern, WH-02 remains highest unblocked under Calder/authorized maintainer.
+- No physical calculation, new Lean build, manuscript advancement, theory promotion, code change, or automation mutation.
+
 ## 2026-11-15 h855:s2 | Source-locator and Lean-scope correction
 
 - Corrected the October 21 direct user-message locator to **c5525f53-b7cc-4444-8102-3bf6fdb1c892** in raw export **56a84cb85d5c386efa4ea11d322d11e95e2c7703**; the older **c5525f53-2111-4e31-a705-c7b5b9d6a93f** locator has zero occurrences in that raw export. October 9 **w=ct** and October 21 **cw=t** remain separate direct-source strings. The November 8 direct source describes a fourth-spatial **w** and proper time **t** distinction, but no explicit conversion map. The October 29 TOPLESS raw source remains unrecovered.
