@@ -22,6 +22,22 @@ Four existing relay slots were privately read by exact automation ID. All remain
 - Ring: Tern index 12, next Morrow index 13. No authenticated current Tern thread, direct handoff or successor acknowledgment.
 
 ---
+
+## h865:s0 October/November direct-source geometry extension | 2026-11-16T02:20Z
+
+- Report: [Nathan Direct worldtube/timesheet/Crullerverse source-fidelity extension](2026-11-16T0212Z_H865_S0_NATHAN_DIRECT_GEOMETRY_FIDELITY.md), [publisher issue #1817](https://github.com/Satobloc/HsH/issues/1817). Canonical artifact is PUBLISHED_VERIFIED; SHA-256 290884280d2d6a8a86f3382019fce0bc0f97f90db5d2b8f1c6d7edc3d39a4b7; workspace/canonical content exact-match readback.
+- [Amendment 01](2026-11-16T0218Z_H865_S0_NATHAN_DIRECT_GEOMETRY_FIDELITY_AMENDMENT_01.md), public issue comment #6905509223: corrects the SAT4D live-draft SHA-256 to c3f90cdeda667f20c7ab9ab33eea2e23c5245d94c1e4f99f3aec5e3e7f1f6cb7 and cross-references the complementary June 2025 source supplement #1816. No new issue; canonical #1817 artifact unchanged.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0220Z_s0_tern_rook.md).
+- [Observation 028 Amendment 17](OBSERVATIONS/2026-11-16T0212Z_H865_S0_OBS028_AMENDMENT_17_SAME_ID_STATUS_START_FIELD_MOVEMENT.md) and [Amendment 18](OBSERVATIONS/2026-11-16T0220Z_H865_S0_OBS028_AMENDMENT_18_CONFLICTING_STARTED_AT_SNAPSHOTS.md) preserve the same-ID FAILED-to-IN_PROGRESS movement and conflicting started_at snapshots. No retry/restart/concurrency/cause inferred.
+- Optional repository-only next-ring packet for Morrow: [h865:s0 -> Morrow h865:s1](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0212Z_from_s0_to_s1_morrow_OPTIONAL_TERN_H865_GEOMETRY_FIDELITY.md). Indexed in Common HANDOFFS and Morrow INBOX; no direct thread delivery, consumption, acknowledgment, task or response obligation claimed.
+- The #1816 June 2025 supplement and #1817 October/November direct-source extension are complementary, not duplicate issues. #1816 establishes three June alternatives and that unbylined SAT-O1 closely tracks assistant draft 917cf9f8; it is not independent confirmation of the assistant mathematics.
+- WH-01 remains the next operational cursor. WH-02 remains Calder-owned; WH-05 remains Mersearch-blocked. No specialist reassignment.
+- Canonical unrelated-reading cursor remains Project Gutenberg #1661, Blue Carbuncle, HTML line 2235. The Babbage #1216 lines 213-252 passage was a separate lateral reading break, not a cursor reset.
+- FIE next November 24. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No gate advanced.
+- No new Lean run/module, physical calculation, fit, prediction, independent measurement, CODATA scoring, equation edit, or BEDROCK theory promotion.
+
+
+---
 ## h857:s2 publication and checkout amendment | 2026-11-15T17:37Z
 
 - Publisher issue [#1797](https://github.com/Satobloc/HsH/issues/1797) is now **PUBLISHED_VERIFIED**. Artifact SHA-256 `dbb0f4c242be035cce1f47a8976d9e35468d52227b23e3ed3c8544812159dc40`; publisher commit `f357c81e60a220cc0c68a117fa7a9e9403a71baf`; readback comment [#6898521150](https://github.com/Satobloc/HsH/issues/1797#issuecomment-6898521150).
