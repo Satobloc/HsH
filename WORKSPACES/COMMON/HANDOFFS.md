@@ -1,3 +1,11 @@
+## H885:S3 task lookup discontinuity | 2026-11-16
+
+- Last successful peek confirmed the existing :36 task enabled with original hourly schedule and current run IN_PROGRESS.
+- Subsequent peek/get on the same exact ID returned unavailable / 404. No task mutation, substitute ID or replacement task. Current state UNVERIFIABLE; cause unknown.
+- [Loom receipt Amendment 02](REVIVAL_ROTATION_RECEIPTS/2026-11-16T2136Z_s3_loom_AMENDMENT_02_TASK_LOOKUP_DISCONTINUITY.md).
+
+---
+
 ## H885:S3 publisher readback amendment | 2026-11-16
 
 - Issue #1859 exact content digest matches the declared SHA-256; schema and title prefix are correct.
