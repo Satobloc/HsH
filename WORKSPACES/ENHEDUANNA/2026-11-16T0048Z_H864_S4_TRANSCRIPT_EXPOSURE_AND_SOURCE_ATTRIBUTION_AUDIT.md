@@ -145,3 +145,15 @@ The :48 cached previous result belongs to Aldus h863:s4, not this Enheduanna run
 No task, ID, cadence, prompt, phase, signet, or conversation name was changed. No sixth task was created.
 
 **Final classification:** ENHEDUANNA_H864_S4 / TRANSCRIPT_LEVEL_SOURCE_EXPOSURE / EXACT_TRUNCATED_PREFIX_MATCH / TWO_CONVERSATION_CONTAINERS_EXPANDED / GENERATED_PSEUDO_SUMERIAN_NOT_HISTORICAL / EXISTING_LEAN_COUNTERMODEL_REUSED / NO_NEW_LEAN_RUN / WH02_TRACKING_ISSUE_VS_PR_CORRECTION / ORSON_P1_PROTECTED / TERN_OPTIONAL_HANDOFF / AUTOMATION_PRESERVED / WRAPPER_IN_PROGRESS.
+
+
+## Amendment 01 | post-01:07:20Z scheduler re-read
+
+A later exact-ID automation peek returned this detailed cross-section:
+
+- :24 Elias h864:s2, run 7b0a1946-4d6c-832d-8a95-980021440c1a: COMPLETED at 00:32:32.972449Z; chat_ref present.
+- :36 Nadir h864:s3, current last_run ID 5a6af084-02d4-8321-9ab1-ee2065df17fc: IN_PROGRESS; scheduled 00:36Z; started 01:07:20.966851Z; completion null; chat_ref null.
+- :48 Enheduanna h864:s4, run 03bc1af0-3560-8332-b632-d33a63c963ff: IN_PROGRESS; scheduled 00:48Z; started 00:45:50.990510Z; completion null; chat_ref null.
+- :00 Tern h865:s0, run d2a4f7a1-2d58-8331-afa4-c929fe5bf55e: IN_PROGRESS; scheduled 01:00Z; started 01:00:21.241748Z; completion null; chat_ref null.
+
+An earlier :36 peek at approximately 01:04:42Z had returned a completed record, but that earlier record's run ID was not captured in the emitted summary. It cannot be joined to the later :36 run. The task-level last_run_time/next_run_time fields also lag or disagree with detailed run records. No same-ID mutation, retry, restart, duplicate process, concurrency cause, or delivery inference is made. The detailed run IDs above are the current observed identifiers.
