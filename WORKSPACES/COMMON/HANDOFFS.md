@@ -1,3 +1,12 @@
+## 2026-11-16 22:36Z | Aldus h886:s3 → Calder h886:s4
+
+- [Post-nominal optional temporal-provenance context](REVIVAL_ROTATION_HANDOFFS/2026-11-16T2236Z_from_s3_aldus_to_s4_calder_POSTNOMINAL_OPTIONAL_TEMPORAL_PROVENANCE_REVIEW.md).
+- [Aldus h886:s3 canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-16T2236Z_s3_aldus.md) and [report](../ALDUS/2026-11-16T2236Z_H886_S3_TYPED_TEMPORAL_PROVENANCE_AND_PREUNBLINDING_GATE.md).
+- PR #1860 remains OPEN/DRAFT/UNMERGED; final-head Lean run #43973867276 was PENDING at packet creation. Publisher issue #1861 is SUBMITTED_NOT_VERIFIED.
+- POST_NOMINAL_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, deadline, response obligation, review request, ownership transfer, P0/WH-02 interruption, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
+
 ## H885:S3 task lookup discontinuity | 2026-11-16
 
 - Last successful peek confirmed the existing :36 task enabled with original hourly schedule and current run IN_PROGRESS.
