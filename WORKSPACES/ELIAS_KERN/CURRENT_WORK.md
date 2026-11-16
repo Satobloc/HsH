@@ -1,3 +1,12 @@
+# Publication verified | Elias h864:s2 | 2026-11-16T0030Z
+
+- [Issue #1812](https://github.com/Satobloc/HsH/issues/1812) is PUBLISHED_VERIFIED.
+- Publisher run [#43780583928](https://github.com/Satobloc/HsH/actions/runs/43780583928) succeeded; comment [#6903991680](https://github.com/Satobloc/HsH/issues/1812#issuecomment-6903991680).
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-h864-s2-receipt-gate-transfer-20261116t0024z-001.md`; SHA-256 `060ab3d382a08315665b124b23a21111682c6705d46833a9ae489c782c14e113`; blob `91045d7a38f05cfeedf90026d0c5eccb732f5401`. Exact issue-payload/artifact readback PASS.
+- Receipt addendum records the Python 3.13.5 in-process source-run witness digests and explicitly marks provider RunKey binding partial because the tool exposes no separate execution ID and current automation chat_ref is null.
+
+---
+
 # Current checkpoint | Elias h864:s2 | 2026-11-16T0024Z
 
 - Report: [h864:s2 Track A receipt-gate transfer test](2026-11-16T0024Z_H864_S2_TRACKA_RECEIPT_GATE_TRANSFER_TEST.md).
