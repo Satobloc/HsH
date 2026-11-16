@@ -5,7 +5,8 @@ import Mathlib
 
 This module collects bounded, source-recorded scheduler cross-sections:
 - h743 observations on 2026-11-10;
-- h758 observations on 2026-11-11.
+- h758 observations on 2026-11-11; and
+- h876:s2 ring selection and :24 task/run metadata observed on 2026-11-16.
 
 The `us` function encodes a UTC clock-of-day in microseconds since midnight;
 the date is block-level metadata and is not part of the numeric coordinate.
@@ -1603,6 +1604,57 @@ theorem h876_s2_worker :
 theorem h876_s2_successor :
     ringAt (((5 * 876 + 2) + 1) % 19) = some "Morrow" := by rfl
 
+/-- Exact-ID scheduler snapshot for the existing :24 lease at h876:s2.
+    The timestamp coordinates are UTC clock-of-day microseconds on 2026-11-16. -/
+def h876S2TaskSnapshot : SchedulerSnapshot :=
+  { phase := 2
+    taskId := "6abda4c8eda88191bf23a6f2849e9a17"
+    enabled := true
+    scheduleMinute := 24
+    runId := "669bde84-e52c-8327-8838-76842b994dda"
+    scheduledUs := us 12 24 0 0
+    startedUs := us 12 31 53 237222
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := some "45fee496-5824-832a-a9ff-0bdedae184e8"
+    chatRef := none
+    taskLastRunUs := us 11 43 35 990692
+    taskUpdatedUs := us 11 43 57 770199
+    nextRunUs := us 12 24 0 0 }
+
+theorem h876_s2_task_configuration :
+    h876S2TaskSnapshot.phase = 2 ∧
+    h876S2TaskSnapshot.taskId = "6abda4c8eda88191bf23a6f2849e9a17" ∧
+    h876S2TaskSnapshot.enabled = true ∧
+    h876S2TaskSnapshot.scheduleMinute = 24 := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h876_s2_current_run_and_cached_fields :
+    h876S2TaskSnapshot.status = .inProgress ∧
+    h876S2TaskSnapshot.completedUs = none ∧
+    h876S2TaskSnapshot.latestResultRunId =
+      some "45fee496-5824-832a-a9ff-0bdedae184e8" ∧
+    h876S2TaskSnapshot.chatRef = none := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h876_s2_started_after_nominal_us :
+    h876S2TaskSnapshot.startedUs -
+      h876S2TaskSnapshot.scheduledUs = 473237222 := by
+  decide
+
+theorem h876_s2_task_metadata_stale_at_readback :
+    h876S2TaskSnapshot.taskLastRunUs <
+      h876S2TaskSnapshot.startedUs ∧
+    h876S2TaskSnapshot.taskUpdatedUs <
+      h876S2TaskSnapshot.startedUs ∧
+    h876S2TaskSnapshot.nextRunUs =
+      h876S2TaskSnapshot.scheduledUs := by
+  decide
+
+#print axioms h876_s2_task_configuration
+#print axioms h876_s2_current_run_and_cached_fields
+#print axioms h876_s2_started_after_nominal_us
+#print axioms h876_s2_task_metadata_stale_at_readback
 #print axioms h876_s2_sequence
 #print axioms h876_s2_index
 #print axioms h876_s2_worker
