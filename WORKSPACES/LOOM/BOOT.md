@@ -1,3 +1,18 @@
+## Latest checkpoint | h866:s3 | 2026-11-16T0236Z
+
+- Report: [source-scoped particle-instantiation/readout witness](2026-11-16T0236Z_H866_S3_SOURCE_SCOPED_PARTICLE_INSTANTIATION_READOUT_WITNESS.md).
+- Canonical receipt: [h866:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0236Z_s3_loom.md).
+- New architecture: add a `ParticleInstantiationWitness` to existing ModelFreeze/ComparisonFreeze. It separates carrier selection, intersection, particle extraction, physical readout, instrument response, and frozen H0/H1 comparison. This is a workflow proposal, not a new physical primitive or implementation.
+- Source distinction: 2024 line/plane point intersection, unbylined 2025 SAT O1 4D 1D filament/4D volume, 2026 finite-core source, and assistant-origin Blockwave worldsheet remain separate. No equation correction or promotion.
+- Lean: reused existing PR #873 and #1189 exact-head CI successes on stale bases; no new theorem because the source-defined selector/readout is missing. No local Lean/Lake/Elan.
+- Publication: issue #1819 was rejected by the publisher for SHA-256 mismatch; expected artifact absent. No retry, duplicate issue, or direct publisher-path write. Internal report exact readback verified.
+- Aster h866:s4 received a repository-only optional packet and INBOX pointer. No authenticated current Aster thread; no direct ChatGPT-thread delivery, consumption or acknowledgment claim.
+- P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE; FIE next review November 24.
+- Unrelated reading: `fun break - lx.txt`, lines 1521-1560; next cursor 1561.
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` and original hourly :36 schedule/prompt/phase/enabled state unchanged. No sixth task. Current run `5a6af084-02d4-8321-9ab1-ee2065df17fc` last observed IN_PROGRESS, `chat_ref=null`; cached result belongs to prior execution.
+
+---
+
 ## H862:S4 PUBLISHER_VERIFIED_AMENDMENT_01 | 2026-11-15T2303Z
 
 The distinct source-correction/conditional-ADM report is now PUBLISHED_VERIFIED via issue #1809. Publisher run 43772527252 succeeded; comment #6902853905; canonical artifact commit a65a21af64f24c436ec1ece385869d0a73c0af9c; SHA-256 af57df8049242eacfe94f2c1b46f30efefdb36a3e8e1ad86b4147380de53f22a. Workspace and canonical artifact share Git blob 772511335fbeb8a9b9efdb6732ab523e70155280 and exact 12,834-character content. Issue #1809 remains open/unlabeled because the publisher has no close/label step. No retry or duplicate issue.
