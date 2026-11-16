@@ -692,3 +692,20 @@ A canonical receipt at the h839:s2 path already existed and records a distinct H
 - Unrelated reading: Babbage, Project Gutenberg #1216, lines 2495-2534; next cursor 2535.
 - Automation and task graph unchanged. No task, branch, PR, equation, BEDROCK or theory promotion.
 
+
+
+## H885 source-fidelity delta | 2026-11-16
+
+The h885 Lane 00 report is WORKSPACES/RAVEL/2026-11-16T2100Z_H885_S0_LANE00_2024_HELIX_TO_KLEIN_FABRIC_SOURCE_FIDELITY.md (Git blob SHA-1 81e74252e466056c7800bb6dbcff5b2f3e14b170; commit d810bdf73e32af3fb2ab34897cfcc9b08d8a558c). Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2100Z_s0_ravel.md (Git blob SHA-1 ff427e2cd442facde914f0aa932b3893814911b4; commit 105fd0b13f157d7c1e58295030e842db8cfc77e5).
+
+Current source status, not theory promotion:
+- The March 2024 helix/moving-plane construction is a lower-dimensional slice toy. Its direct claims are one intersection point per transverse slice, circular in-plane trace, radius independent of pitch and phase rate dependent on pitch and slice speed.
+- SAT-O1's one-parameter γ is a curve; the prose-defined 4D swept worldtube needs additional structure not present in the displayed equation/action.
+- Blockwave J^{μν} is a separate rank-two worldsheet-associated artifact; its embedded authorship remains unresolved and no map to a 1D filament current is supplied.
+- October 21, 2026 direct source retires the earlier reciprocal filament/timesheet-deformation model. Back Hallways are mathematical corridors, not physical wormholes. Loop and Star-Shaped Derivation Map remain conceptual programme.
+- Global Klein-like fabric is a conceptual parent; local dual-shell expansion is a probable local realization, not established equivalence. One helical core and hollow outer superhelix remain distinct from the 3D trace of a 4D filament.
+- Projection, tubular embedding, time-bulk intersection, local/global and scale-recursion maps remain open. No physical calculation or theory promotion.
+
+Existing Lean PR evidence remains conditional and unmerged: PR #262 exact-head run #43948452979 succeeded; PR #1133 remains open/draft with supplied DirectPathCoherence and a failed full workflow. No new Lean run or data-free fixture was created. P2 source-readiness remains unmet because no measured system/data package is identified.
+
+Unrelated reading side-pass: Babbage Project Gutenberg #1216, web-rendered lines 503-542. Canonical sequential cursor remains line 2535. FIE next review November 24.
