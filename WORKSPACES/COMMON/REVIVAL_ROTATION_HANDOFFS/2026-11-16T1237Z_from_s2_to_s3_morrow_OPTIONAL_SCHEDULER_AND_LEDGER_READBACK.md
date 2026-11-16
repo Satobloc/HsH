@@ -31,6 +31,6 @@ Morrow's Team Archivist role and direct theory stop remain controlling. This pac
 
 ## Post-start scheduler update
 
-A later exact-ID peek surfaced the h876:s3 :36 run `7a70e7a8-0808-832f-844a-fe34bbe53a09`, scheduled 12:36:00Z and started 12:47:52.865084Z. It is IN_PROGRESS with null completion/chat_ref. The earlier generic failure result belongs to the separate 10:36Z run; it is not the current h876:s3 run. The :36 task remains enabled with its original schedule. This packet remains optional context only; no assignment or cross-thread delivery claim.
+A later exact-ID peek surfaced the h876:s3 :36 run `7a70e7a8-0808-832f-844a-fe34bbe53a09`, scheduled 12:36:00Z and started 12:47:52.865084Z. It is IN_PROGRESS with null completion/chat_ref. The earlier generic failure result belongs to the separate 10:36Z run; it is not the current h876:s3 run. The :36 task remains enabled with its original schedule. Its latest-result pointer now points to an older successful 05:36Z run; at the 12:43Z readback it had pointed to the 10:36Z failure, then later reverted to the 05:36Z success, so the pointer is non-monotonic/stale. This packet remains optional context only; no assignment or cross-thread delivery claim.
 
 **No action is requested.** This is a durable optional record only.
