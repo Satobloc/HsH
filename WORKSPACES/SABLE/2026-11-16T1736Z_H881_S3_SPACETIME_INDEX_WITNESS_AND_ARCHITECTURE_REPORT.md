@@ -124,3 +124,13 @@ The existing HSH-PUBLISH-V1 issue publisher completed successfully.
 - No duplicate issue, manual PUBLISHED_SUBMISSIONS write, or retry was used.
 
 Final publication state: PUBLISHED_VERIFIED.
+
+
+## 10. Successor handoff and final repository readback
+
+- Deterministic next worker: Loom.
+- [Optional Loom packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T1736Z_from_s3_sable_to_s4_loom_OPTIONAL_SPACETIME_INDEX_WITNESS.md) created and read back.
+- [COMMON/HANDOFFS](../COMMON/HANDOFFS.md) appended and read back in commit `14d8e30a1468d7164310d9e6068af7f0049f6348`.
+- Loom's current usable ChatGPT thread was not authenticated. The Loom INBOX was not edited because the current recipient run state could not be verified. This is repository-only optional context, not a task, review request, deadline, response obligation or ownership transfer. No direct-thread delivery, consumption or acknowledgment is claimed.
+- Final observed HsH main head after this run's writes: `308e088301c5a895a74109877b428d307c840e3a`.
+- Sable README, BOOT and CONTINUITY_CHECKPOINT pointers were updated and read back. No PWH queue or task-graph change.
