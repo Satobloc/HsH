@@ -3167,3 +3167,47 @@ Tags: NATHAN-DIRECT; EDITORIAL-ACCEPTANCE; APPENDIX-FOOTNOTE-REQUEST; NOT-MATHEM
 - **Status:** direct assertion. The curvature type, metric/connection, parameterization, and observable map remain undefined.
 
 **Cross-source architecture note:** the 2026-10-09 classical statement “particle motion is filament topology” is not the same proposition as a Lagrangian material-flow map. The 2026-10-20 Cruller birth/rotation description does not supply material labels. The only explicit marked-material construction located in the 2026-10-22 Meridian sandbox is assistant reconstruction with declared fixture values; it is not Nathan Direct or empirical evidence. Keep material flow unassumed unless a later direct source defines it.
+
+
+## 2026-11-08 | Cruller Phase Geometry Fidelity | direct-source additions
+
+**Raw source:** `ND Workshop Relay _24 _ Geometry - raw.json`  
+**Conversation ID:** `6aecede1-4c08-83e9-abc4-da64f59a4f51`  
+**Library SHA-256:** `875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d`  
+**Size and duplicate check:** 8,331,175 bytes; three materialized exports were byte-identical. The export contains 1,150 mapping nodes, 33 user-role nodes, 1,005 current-ancestry nodes, and 29 user-role messages on that ancestry.
+
+The entries below are raw user-role messages on the current ancestry. The raw role establishes the message role; it does not authenticate a current worker instance. The conversation is historical source, not a live-thread identity claim.
+
+### 2026-11-08T18:05:28.410Z | `bcbe9ee8-b621-4a40-9edb-b34c17783be5`
+
+**Tags:** `NATHAN-DIRECT`, `WORKING-HYPOTHESIS`, `4D-TUBE-REGION`, `1D-CORE`, `3D-BOUNDARY`, `TIMESHEET-MOUTH-POSSIBLE`, `WORLDSHEET-MODE-POSSIBLE`, `CONSTRUCTION-MAP-MISSING`.
+
+**Exact excerpt:** “We are talking about a 4D tube region surrounding a 1D core and bounded by a 3D boundary.”
+
+The same message qualifies the mouth to the timesheet and a 2D worldsheet mode as possibilities. This is a provisional geometric proposal, not a measured support or completed construction.
+
+### 2026-11-08T18:36:17.730Z | `f9356192-0ec6-4a9c-ab53-ab76bf75c42e`
+
+**Tags:** `NATHAN-DIRECT-COMMENTARY`, `TOPOLOGICAL-SPLIT-HYPOTHESIS`, `PAIR-OF-PANTS-SPECIAL-CASE`, `ALEXANDER-HORNED-SPHERE-PROPOSAL`, `EMBEDDED-EXTERNAL-ARTICLE`.
+
+**Exact excerpt:** “the pants is a particular case of a split, not the straight (for vacuum) or coiled (for matter) tubes that we envision.”
+
+The message tentatively suggests Alexander's Horned Sphere for more general splitting/merging. A pasted Futurism article is embedded in this user-role message; the article itself is external text and is not attributed to Nathan.
+
+### 2026-11-08T18:58:38.020Z | `6db8c5e8-a2db-4621-922e-adab214e025e`
+
+**Tags:** `NATHAN-DIRECT`, `THETA4-VACUUM-MATTER-DISCRIMINATOR-CLAIM`, `CONSERVATION-QUESTION-OPEN`, `EMPIRICAL-CHECK-REQUESTED`, `NO-BARYOGENESIS-RESULT`.
+
+**Exact excerpt:** “What distinguishes vacuum and matter, in SAT, is canonically theta_4.”
+
+The message asks whether coiling conflicts with conservation or empirical evidence. It does not supply a conservation proof, baryogenesis mechanism, or observational result.
+
+### 2026-11-08T20:18:10.172Z | `c0520975-02a0-408f-a250-364b88ab7b30`
+
+**Tags:** `NATHAN-DIRECT`, `FOURTH-SPATIAL-W`, `PROPER-TIME-DISTINCT`, `GLOBAL-TOPOLOGY-TENTATIVE`, `CRULLERVERSE-PROPOSAL`.
+
+**Exact excerpt:** “We'd prefer to remain in a four-dimensional universe, but I'm open to 5th or more dimensions if necessary.”
+
+The message distinguishes the fourth spatial coordinate `w` from proper time `t`. It leaves the global Crullerverse topology provisional.
+
+**Excluded from this direct-word index:** assistant response `02ad70b2-811f-415a-aa18-77599916b7df` at 2026-11-08T20:22:39.215Z, which introduces an `S^3 x S^1` topology and phase-field reconstruction. It is retained as assistant-origin material in the Loom tag ledger, not as Nathan Direct.
