@@ -1,3 +1,9 @@
+## Subsequent run boundary | H886:S3
+
+At the latest read-only task peek, the completed H885:S3 result remained the latest result with chat_ref present and delivery unknown. The task's current last_run is the next hourly execution: h=886, seq=4433, ring index 6, Aldus; it was IN_PROGRESS with chat_ref null. This is not a continuation of H885:S3. The existing task remains enabled with its original schedule and phase unchanged. See canonical receipt Amendment 10.
+
+---
+
 ## H885:S3 final verification | PR #1858 exact-head build PASS
 
 The manifest-membership extension on PR #1858 now has an actual exact-head Lean build result:
