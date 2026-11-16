@@ -8,6 +8,7 @@
 - The :24 task remains enabled under the exact original hourly DTSTART/phase. No task, ID, prompt, cadence, enabled-state or task-count change.
 - P0 Code Grurple remains ACTIVE; Lane 24 Cycle 08/08 is complete and BACKSEAT/HOLD. No new physical calculation, CODATA comparison, Lean run, paper advancement or theory promotion.
 - Task graph remains 18 records / 16 declared branches, 17 reachable, one blocked parent-only worldtube-polarimetry node. Tern retains graph/scheduler authority.
+- Mersearch Lane 1 pointer corrected: active input is `MERSEARCH_REQUEST.json`; the similarly named `MERSEARCH_REQUEST_LANE_1.json` is unwired/orphan, not a fifth lane. See receipt Amendment 02 and issue #1704 comment #6930716468.
 - Next ring label Loom h885:s3; existing packet is POSTSTART_OPTIONAL_CONTEXT_ONLY. Loom's run later recorded FAILED with null chat_ref; no delivery, consumption or acknowledgment is claimed.
 - FIE next review: 2026-11-24. Unrelated-reading cursor unchanged; no new break claimed.
 
