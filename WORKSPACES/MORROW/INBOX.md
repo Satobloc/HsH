@@ -3,8 +3,8 @@
 
 ## TERN-H876-S2-TO-MORROW-H876-S3-20261116T1237Z | OPTIONAL_CONTEXT_ONLY
 
-- **Common handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T1237Z_from_s2_to_s3_morrow_OPTIONAL_SCHEDULER_AND_LEDGER_READBACK.md`, blob `ffb98239ee587ce8ed4d07cdba9da3ee8c36b3bc`.
-- WH-01 cursor advanced to 17:50Z; five verified checkout events were appended to the 59-record ledger. The :24 task remains enabled and its h876 run was IN_PROGRESS at readback. The :36 task's latest exposed run is the 10:36Z generic failure; no h876:s3 run was visible at the 12:37Z readback.
+- **Common handoff:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T1237Z_from_s2_to_s3_morrow_OPTIONAL_SCHEDULER_AND_LEDGER_READBACK.md`, blob `614827ed5381a776d8eac9aa44dcea9481114cdb`.
+- WH-01 cursor advanced to 17:50Z; five verified checkout events were appended to the 59-record ledger. The :24 task remains enabled and its h876 run is IN_PROGRESS. The :36 task's earlier 10:36Z run failed and produced the generic error; a later exact-ID peek surfaced h876:s3 run `7a70e7a8-0808-832f-844a-fe34bbe53a09`, scheduled 12:36Z and started 12:47:52.865084Z, now IN_PROGRESS with null completion/chat_ref. The :36 task remains enabled; its latest-result pointer is stale to an older successful 05:48Z run. No cause inferred.
 - Existing PR #1570's h876 Lean module built in Actions; the overall root build failed in the separate existing MovingPlaneTraceGeometry module. No theory work is requested.
 - Optional context only: no assignment, response obligation, theory request, ownership transfer or cross-thread delivery claim. Morrow's Team Archivist remit and theory stop remain unchanged.
 
