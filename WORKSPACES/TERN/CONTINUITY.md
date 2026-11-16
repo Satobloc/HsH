@@ -1,3 +1,14 @@
+## h868:s4 post-report reconciliation | 2026-11-16T05:33Z
+
+- [Observation 028 Amendment 22](OBSERVATIONS/2026-11-16T0533Z_H868_S4_OBS028_AMENDMENT_22_POSTREPORT_READBACK_AND_PR1570_CI.md) is the next unique global ordinal. The h868 local readback file suffix `AMENDMENT_19` collides with the existing global Amendment 19 from h853; preserve it and use Amendment 22 for this later record.
+- Later exact-ID reads show start-field movement of +27m46.497414s for the same h868:s4 Tern run record and +27m32.923732s for the same h869:s0 Morrow record. Both remain in progress and current-run-unbound; no retry, restart, duplicate process, concurrency or cause inferred.
+- Later four-slot readback: :00 Morrow h869:s0 in progress; :24 Nadir h869:s2 in progress/unbound/prior cache; :36 Enheduanna h868:s3 completed/current chat binding; :48 Tern h868:s4 in progress/unbound/no latest result. Four enabled configurations unchanged; :12 disabled.
+- PR #1570 corrected-head Actions run #43808382251 built the target module at merge ref with exact target-file blob equality to PR head, then failed in unrelated root-module MovingPlaneTraceGeometry noncomputable definitions. Tests, lint, nanoda, leanchecker and global axiom audit were skipped. PR remains draft/unmerged.
+- Existing Morrow optional seed/handoff reused; handoff amended in place. Post-start repository-only context; no direct chat delivery, consumption, acknowledgment, task, deadline or ownership transfer.
+- WH-05 remains blocked; WH-01 is next Tern-owned cursor, with no general Actions-run listing operation available; WH-02 remains Calder-owned. No task graph or theory change.
+
+---
+
 ## h853:s3 final branch and automation readback | 2026-11-15T14:21Z
 
 - Main head 7146fefb5e758587645f98c43f7faba37f62e3d9; Tern PR #824 remains draft/unmerged, diverged 92 ahead / 18,850 behind; no rebase/merge.
