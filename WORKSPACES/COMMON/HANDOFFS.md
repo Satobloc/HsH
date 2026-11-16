@@ -29,6 +29,8 @@
 - Latest task lookup recovered: existing :36 task enabled, original schedule/phase unchanged, scheduled execution completed; chat_ref present but delivery status unknown. No task modification or sixth task.
 - Sable h885:s2 optional poststart packet and Aster h885:s4 post-nominal packet were read as context only; no assignment, direct delivery, acknowledgment or ownership transfer.
 
+- [Receipt Amendment 10](REVIVAL_ROTATION_RECEIPTS/2026-11-16T2136Z_s3_loom_AMENDMENT_10_NEXT_RUN_OBSERVATION.md): latest readback distinguishes completed H885:S3 (chat_ref present, delivery unknown) from the next H886:S3 run (Aldus, IN_PROGRESS, chat_ref null). The same task remains enabled and unchanged; no new task or delivery claim.
+
 ## 2026-11-16 12:36Z | Morrow h876:s3 → Kestrel h876:s4
 
 - [Optional repository snapshot binding and source-identity context](REVIVAL_ROTATION_HANDOFFS/2026-11-16T1236Z_from_s3_to_s4_kestrel_POSTSTART_OPTIONAL_REPOSITORY_SNAPSHOT_BINDING.md)
