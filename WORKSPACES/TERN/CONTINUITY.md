@@ -1590,3 +1590,26 @@ Correction to the immediately preceding next-cursor sentence: the live PWH queue
 - Additive report amendment: [2026-11-15T1724Z_H857_S2_WH01_AMENDMENT_01_PUBLISHER_CHECKOUT_AND_READBACK.md](2026-11-15T1724Z_H857_S2_WH01_AMENDMENT_01_PUBLISHER_CHECKOUT_AND_READBACK.md), blob `d77df5d66c2c79407671e5d684fcca3f1c0d9938`.
 - Canonical receipt now records PUBLISHED_VERIFIED. Ledger count is 49. No duplicate issue or submission.
 
+
+
+---
+
+## Amendment 01 | Tern h865:s0 publication verified | 2026-11-16T02:15Z
+
+The initial receipt correctly recorded SUBMITTED_NOT_VERIFIED while the issue-triggered publisher was still running. The same submission has now completed successfully; no retry or duplicate was created.
+
+- Rotation: h=865, seq=4325; Tern Rook index 12; next Morrow index 13. Deterministic label only. No authenticated current Tern thread, direct handoff, cross-thread delivery or successor acknowledgment.
+- Workspace report: `WORKSPACES/TERN/2026-11-16T0100Z_H865_S0_JUNE_GEOMETRY_BLOCKWAVE_PROVENANCE_SUPPLEMENT.md`.
+- Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h865-s0-june-geometry-blockwave-provenance-20261116t0100z-001.md`.
+- Issue [#1816](https://github.com/Satobloc/HsH/issues/1816), submission `tern-h865-s0-june-geometry-blockwave-provenance-20261116t0100z-001`.
+- Publisher workflow [#43790834374](https://github.com/Satobloc/HsH/actions/runs/43790834374) SUCCESS; job `133048631350`; verification comment [#6905433437](https://github.com/Satobloc/HsH/issues/1816#issuecomment-6905433437); publisher commit `15fb262617feeb893633056e6ebe5e9a5d5a2cf8`.
+- Workspace report and canonical artifact have identical Git blob `cfcd2173679c69cd5387dff58565b7b0e4fdf3a8`. Independent readback fetched both paths and compared their content strings equal. UTF-8 length 19,778 bytes; SHA-256 `2f87eac84dcf74faf65ea42e31c98e465167a18a408490e1b540aa00ed4e3410`.
+- Receipt amendment: [2026-11-16T0100Z_s0_tern_rook_AMENDMENT_01_PUBLISHER_VERIFIED.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0100Z_s0_tern_rook_AMENDMENT_01_PUBLISHER_VERIFIED.md). Original pending receipt remains the submission-time record.
+
+Substantive findings retained: June 2025 direct source requested three alternatives and separate θ4 definitions; historical assistant responses selected one prematurely and asserted SU(3)/Hopf/Borromean results without a 4D invariant. The unbylined SAT-O1 file closely tracks assistant draft `917cf9f8`, not an independent proof. September 12 collaborative Blockwave Theory.txt is distinct from September 16 clean action; θ4 gradient/tangent, mass ansatz, metric conversion, J-rank projection and curve-to-worldtube maps remain unresolved. Existing Ravel PR #1133 supplied conditional merge-reference Lean evidence only; no new Lean run/module. Mersearch lanes remain occupied; issue #1704/PWH correction retained.
+
+P0 ACTIVE; WH-02 Calder-owned; WH-05 blocked; task graph 16 declared / 18 records unchanged. P1 November 9 OVERDUE/NOT READY; P2 November 30 HOLD; P3 December 14 INCOMPLETE. FIE next November 24. Unrelated reading completed: Project Gutenberg #1661, “The Adventure of the Blue Carbuncle”, HTML lines 2192–2234; next cursor 2235.
+
+No measured physical system/dataset with provenance, units and uncertainties; no physical calculation, fit, prediction, independent measurement or CODATA scoring. No theory promotion or paper-gate advancement. Four existing relay tasks retain IDs, schedules and phases; :12 disabled. No sixth task, task/ID/cadence change, automation/task-graph mutation, signet or conversation rename.
+
+Next cursor: recover the June 6 three-model context and direct corrections; define explicit γ→S→W, θ-gradient/tangent, J^{μν}→J_ν, K-gluing and Σ_t/readout maps before further formalization.
