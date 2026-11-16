@@ -1450,4 +1450,165 @@ theorem h868_initial_readback_within_three_run_overlap :
 #eval [h867S0FailedReadback.status, h868S2Readback.status,
       h868S3CompletedReadback.status, h868S4Readback.status]
 
+
+/-! ## h868:s2 completion and h869:s0 successor start
+
+A 05:04:15Z exact-ID collection shows h868:s2 completed and acquired its
+run-level chat binding; its task-level last-run/update fields caught up.
+The h869:s0 :00 run had started at 05:03:08.683277Z but remained
+IN_PROGRESS with no current chat binding. Its latest cached result still
+referred to a prior run, and its task-level last-run/update fields remained
+at the h867:s0 values.
+
+The :24 completion precedes the :00 successor start by 8,530,531
+microseconds in the returned run records. The :48 h868 run and :00 h869
+run have a right-censored recorded-interval overlap of at least
+66,316,723 microseconds at the 05:04:15Z readback. These are record-level
+relations, not claims about actual process concurrency or causal scheduling.
+-/
+
+def h868S2CompletedReadback : RunRecordObservation :=
+  { runId := "8c9a4f46-4478-8331-94ca-89c7db3a906a"
+    scheduledUs := us 4 24 0 0
+    startedUs := us 4 51 37 308539
+    completedUs := some (us 5 3 0 152746)
+    status := .completed
+    latestResultRunId := some "8c9a4f46-4478-8331-94ca-89c7db3a906a"
+    chatRef := some "6af0cffc-7e10-83e9-9385-22e7347fef4b" }
+
+def h868S4LaterReadback : RunRecordObservation :=
+  { runId := "e04c8549-6180-8322-8bda-b4b69d920aaf"
+    scheduledUs := us 4 48 0 0
+    startedUs := us 4 44 57 715383
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := none
+    chatRef := none }
+
+def h869S0Readback : RunRecordObservation :=
+  { runId := "bbc22399-1778-8321-82ce-de683e80fd96"
+    scheduledUs := us 5 0 0 0
+    startedUs := us 5 3 8 683277
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := some "3d4617de-bf24-8332-8f14-8d87fa9c51f9"
+    chatRef := none }
+
+def h868S2TaskMetadataAfterCompletion : TaskMetadataObservation :=
+  { lastRunUs := us 5 3 3 545209
+    updatedUs := us 5 3 27 809715
+    nextRunUs := us 5 24 0 0 }
+
+def h869S0TaskMetadataAtReadback : TaskMetadataObservation :=
+  { lastRunUs := us 4 24 48 289064
+    updatedUs := us 4 25 11 656575
+    nextRunUs := us 5 0 0 0 }
+
+def h869ReadbackAtUs : Nat := us 5 4 15 0
+
+theorem h868_s2_same_run_schedule_and_start :
+    h868S2Readback.runId = h868S2CompletedReadback.runId ∧
+    h868S2Readback.scheduledUs = h868S2CompletedReadback.scheduledUs ∧
+    h868S2Readback.startedUs = h868S2CompletedReadback.startedUs := by
+  exact ⟨rfl, rfl, rfl⟩
+
+theorem h868_s2_completion_cache_and_chat_transition :
+    h868S2Readback.status = .inProgress ∧
+    h868S2Readback.completedUs = none ∧
+    h868S2Readback.latestResultRunId =
+      some "6ac3f176-38f4-8326-8608-73790a1009cd" ∧
+    h868S2Readback.chatRef = none ∧
+    h868S2CompletedReadback.status = .completed ∧
+    h868S2CompletedReadback.completedUs = some (us 5 3 0 152746) ∧
+    h868S2CompletedReadback.latestResultRunId =
+      some "8c9a4f46-4478-8331-94ca-89c7db3a906a" ∧
+    h868S2CompletedReadback.chatRef =
+      some "6af0cffc-7e10-83e9-9385-22e7347fef4b" := by
+  exact ⟨rfl, rfl, rfl, rfl, rfl, rfl, rfl, rfl⟩
+
+theorem h868_s2_completion_after_nominal_us :
+    h868S2CompletedReadback.completedUs.getD 0 -
+      h868S2CompletedReadback.scheduledUs = 2340152746 := by
+  decide
+
+theorem h868_s2_run_duration_us :
+    h868S2CompletedReadback.completedUs.getD 0 -
+      h868S2CompletedReadback.startedUs = 682844207 := by
+  decide
+
+theorem h868_s2_task_metadata_caught_up :
+    h868S2TaskMetadataAfterCompletion.lastRunUs >
+      h868S2CompletedReadback.completedUs.getD 0 ∧
+    h868S2TaskMetadataAfterCompletion.updatedUs >
+      h868S2TaskMetadataAfterCompletion.lastRunUs ∧
+    h868S2TaskMetadataAfterCompletion.nextRunUs = us 5 24 0 0 := by
+  decide
+
+theorem h869_s0_worker :
+    ringAt ((5 * 869 + 0) % 19) = some "Morrow" := by rfl
+
+theorem h869_s0_started_after_nominal_us :
+    h869S0Readback.startedUs - h869S0Readback.scheduledUs = 188683277 := by
+  decide
+
+theorem h869_s0_current_unbound_with_prior_cache :
+    h869S0Readback.status = .inProgress ∧
+    h869S0Readback.completedUs = none ∧
+    h869S0Readback.latestResultRunId =
+      some "3d4617de-bf24-8332-8f14-8d87fa9c51f9" ∧
+    h869S0Readback.chatRef = none := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h869_s0_task_metadata_still_stale :
+    h869S0TaskMetadataAtReadback.lastRunUs <
+      h869S0Readback.startedUs ∧
+    h869S0TaskMetadataAtReadback.updatedUs <
+      h869S0Readback.startedUs ∧
+    h869S0TaskMetadataAtReadback.nextRunUs =
+      h869S0Readback.scheduledUs := by
+  decide
+
+theorem h868_s2_to_h869_s0_recorded_gap_us :
+    h869S0Readback.startedUs -
+      h868S2CompletedReadback.completedUs.getD 0 = 8530531 := by
+  decide
+
+theorem h868_s4_same_run_and_start_across_later_readback :
+    h868S4Readback.runId = h868S4LaterReadback.runId ∧
+    h868S4Readback.scheduledUs = h868S4LaterReadback.scheduledUs ∧
+    h868S4Readback.startedUs = h868S4LaterReadback.startedUs := by
+  exact ⟨rfl, rfl, rfl⟩
+
+theorem h868_s4_h869_s0_both_in_progress_at_readback :
+    h868S4LaterReadback.status = .inProgress ∧
+    h868S4LaterReadback.completedUs = none ∧
+    h868S4LaterReadback.chatRef = none ∧
+    h869S0Readback.status = .inProgress ∧
+    h869S0Readback.completedUs = none ∧
+    h869S0Readback.chatRef = none := by
+  exact ⟨rfl, rfl, rfl, rfl, rfl, rfl⟩
+
+theorem h868_s4_h869_s0_recorded_overlap_lower_bound_us :
+    h869ReadbackAtUs -
+      max h868S4LaterReadback.startedUs h869S0Readback.startedUs =
+        66316723 := by
+  decide
+
+#print axioms h868_s2_same_run_schedule_and_start
+#print axioms h868_s2_completion_cache_and_chat_transition
+#print axioms h868_s2_completion_after_nominal_us
+#print axioms h868_s2_run_duration_us
+#print axioms h868_s2_task_metadata_caught_up
+#print axioms h869_s0_worker
+#print axioms h869_s0_started_after_nominal_us
+#print axioms h869_s0_current_unbound_with_prior_cache
+#print axioms h869_s0_task_metadata_still_stale
+#print axioms h868_s2_to_h869_s0_recorded_gap_us
+#print axioms h868_s4_same_run_and_start_across_later_readback
+#print axioms h868_s4_h869_s0_both_in_progress_at_readback
+#print axioms h868_s4_h869_s0_recorded_overlap_lower_bound_us
+
+#eval [h868S2CompletedReadback.status, h868S3CompletedReadback.status,
+      h868S4LaterReadback.status, h869S0Readback.status]
+
 end HsHVerification.TernH743SchedulerSnapshotEvidence
