@@ -44,7 +44,7 @@ Source: DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Narration
 - Mersearch-pinned HsH commit and current main resolve to the same blob.
 - 19 mapping nodes; five user-role hits containing Enheduanna, all within this one conversation. These are successive revisions of one narrative prompt, not five independent source witnesses.
 
-The initial user message attaches ActivatorPrayer.txt (attachment locator file-6qGJwYB7ZdwfgiheEXswjs; metadata size 161,427 bytes). The logged file_search tool output 9a443bcc-d75d-47cb-a012-e2bcdec3a4b6 is a 107,859-character tether_quote containing seven Enheduanna mentions. Its first 107,799 characters match exactly the prefix of SAT archive ActivatorPrayer(Alberr).txt at pinned commit 50ce2aad8f8969275886ee5308669b6c2097c599, blob 3bf6385a. The remaining 60 characters are the truncation notice. This is an exact text-prefix match, not proof of full attachment byte identity; the complete attachment bytes were not recovered.
+The initial user message attaches ActivatorPrayer.txt (attachment locator file-6qGJwYB7ZdwfgiheEXswjs; metadata size 161,427 bytes). The logged file_search tool output 9a443bcc-d75d-47cb-a012-e2bcdec3a4b6 is a 107,859-character tether_quote containing seven Enheduanna mentions. Its first 107,799 characters match exactly the prefix of SAT archive ActivatorPrayer(Alberr).txt at pinned commit 50ce2aad8f8969275886ee5308669b6c2097c599, blob prefix 3bf6385a. The remaining 60 characters are the truncation notice. This is an exact text-prefix match, not proof of full attachment byte identity; the complete attachment bytes were not recovered.
 
 The quoted composite includes a 25-source summary and a section titled “Enheduanna: The Ancient Anchor of Memory Filaments (text.txt).” That is derivative summary material, not the primary Enheduanna text. The file_search output is in the parent chain preceding assistant narration message 56554abb-ebcd-4836-ba49-93b5995862f1. The assistant output then generates an Alberr narrative using Enheduanna as a sister/character reference.
 
@@ -129,12 +129,18 @@ The existing :48 task remains enabled with ID 6aa6c3bc02b48191b8a91a30d2a155e0 a
 Current detailed run:
 - Run ID: 03bc1af0-3560-8332-b632-d33a63c963ff.
 - Scheduled: 2026-11-16T00:48:00Z.
-- Started: 2026-11-16T00:45:50.990Z (129.010 seconds before nominal).
-- Status at last readback: IN_PROGRESS.
+- Started: 2026-11-16T00:45:50.990510Z (129.010 seconds before nominal).
+- Final readback: still IN_PROGRESS at 2026-11-16T01:04:42Z.
 - Completion: null.
 - Run-level chat_ref: null.
 
-The cached previous result belongs to Aldus h863:s4, not this Enheduanna run. No current-thread identity, direct cross-thread delivery, or acknowledgment is claimed.
+Four-task cross-section at final readback:
+- :24, Elias h864:s2: completed 00:32:32.972Z; run-level chat_ref present.
+- :36, Nadir h864:s3: completed 01:04:42.016Z; run-level chat_ref null.
+- :48, Enheduanna h864:s4: IN_PROGRESS; run-level chat_ref null.
+- :00, Tern h865:s0: IN_PROGRESS; started 01:00:21.242Z; run-level chat_ref null.
+
+The :48 cached previous result belongs to Aldus h863:s4, not this Enheduanna run. Task-level last_run_time/next_run_time fields did not align consistently with the detailed run records; detailed run IDs and timestamps were used. These observations do not establish restart, duplicate process, concurrency cause, or delivery. No current-thread identity, direct cross-thread delivery, or acknowledgment is claimed.
 
 No task, ID, cadence, prompt, phase, signet, or conversation name was changed. No sixth task was created.
 
