@@ -9,7 +9,7 @@
 - D2 density source discrepancy remains unresolved: 202.8 g/cm³ in Tang 2023 versus 202.8 kg/m³ in Stasiak 2025, both citing Xu & Van Sciver 2008. No silent correction; original 2008 source/code not retrieved.
 - PNAS reconnection work is an independent measured comparator; the approximately 5% normal-fluid energy jump is simulated, not measured. Data files not retrieved.
 - Existing PR #1189 exact-head Lean build #43783028748 succeeded; no new theorem/build or physical H(s)H mapping. The separate conversation-JSON CI failed.
-- Eight protected P0 source/control blobs re-fetched at main snapshot be24a0cc18a438063e96c076a21b35e37023ffe5: 8/8 exact. Issue #1747 remains OPEN. No live route probe; route rendering remains NOT_OBSERVED.
+- Eight protected P0 source/control blobs re-fetched at main snapshot 6e8ba86868d9043fdf33ca334aa2996d4be0b155: 8/8 exact. Issue #1747 remains OPEN. No live route probe; route rendering remains NOT_OBSERVED.
 - P2 remains HOLD. No physical prediction, CODATA comparison, system selection, matrix change, manuscript/PDF/site edit, P0 standdown, or theory promotion.
 - SAT-O1/Blockwave source custody: SAT-O1 source SHA-256 and first archive commit independently verified; original Blockwave Clean Action attachment SHA-256 verified from Library bytes; HsH text archive is a distinct non-byte-identical representation; SATOBLOCK-LIVE and Full Theory drafts remain separate. No equations corrected or promoted. See Amendment 03.
 - Mersearch remains unavailable; four existing request lanes remain occupied/requested. HSH_RESOURCES root README only.
