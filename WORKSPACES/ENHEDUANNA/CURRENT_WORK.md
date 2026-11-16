@@ -919,3 +919,7 @@ The h807:s4 successor handoff was committed at 16:05:44Z, after Tern h808:s0 had
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. WH-01..09 P1/HIGH; WH-05 blocked; WH-02 highest unblocked, Calder/authorized maintainer. Task graph 16 declared / 18 records / one unreachable; Tern retains authority. Four Mersearch lanes remain occupied/requested.
 - :48 run `731969da-153c-8327-8e53-c78c501bbe15` remains IN_PROGRESS, no completion/chat_ref; cached latest result is Aldus h844, not h845. Next :00 Tern h846 run `bb034e08-6308-8326-9f8e-c9b76c500636` had already started by final readback. No Tern prestart handoff.
 - No physical calculation, raw data, model trial, human-subject session, equation change, P1 edit, theory promotion, task/schedule/phase change, sixth task, signet, or conversation rename.
+
+## H864:s4 readback amendment | scheduler metadata
+
+A later exact-ID peek matched the same :48 provider-run record described in the canonical receipt, but its reported start field had advanced. Status remained IN_PROGRESS; completion and run-level chat reference remained null. The cached latest result still belongs to the prior Aldus h863:s4 event. This is a same-record scheduler metadata mutation, not evidence of retry, restart, duplicate execution, concurrency cause, or delivery. See canonical receipt Amendment 02 and the existing optional Tern packet Amendment 02. No scheduler configuration changed.
