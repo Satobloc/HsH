@@ -182,3 +182,10 @@ At the latest exact-ID peek, the current run was 5a6af084-02d4-8321-9ab1-ee2065d
 The next :48 run is Enheduanna h864:s4. Its run 03bc1af0-3560-8332-b632-d33a63c963ff had already started at 2026-11-16T01:13:19.084852Z and remained IN_PROGRESS with chat_ref null at the last peek. No handoff packet was created; no direct-thread delivery, prompt exposure, consumption, comprehension, or acknowledgment is claimed.
 
 **Final pin:** H864:S3 / NADIR-VOSS-RING-LABEL / ENHEDUANNA-NEXT / JFM-COUNT-SCOPE-RECONCILED / TEN-RUN-AGGREGATE-CANDIDATE / RAW-PIV-MANIFEST-MISSING / FIGSHARE-30903347-SEPARATE-BARCKICKE-LANE / PR1189-HAGALAZ-SCOPE-UNMODIFIED / EXISTING-LEAN-BUILD-CACHE-REPLAY / NO-PIV-SPECIFIC-LEAN-PROOF / P0-ACTIVE / P1-OVERDUE / P2-HOLD / P3-INCOMPLETE / FIE-NOV24 / READING-2061 / AUTOMATION-UNCHANGED / NO-SIXTH-TASK.
+
+
+
+
+## Amendment 01 | exact-head Lean log re-read (2026-11-16T01:36Z)
+
+The earlier sentence describing the relevant Nadir module as “replayed from the CI cache, not demonstrably freshly recompiled” is superseded by a targeted read of exact-head Actions run #43783028748, job #133024336601. The log reports NadirVortexTwoChannelReadout built at 8959/8961 and Build completed successfully (8961 jobs). Lean 4.34.0 / Lake 5.0.0. A dependency cache was restored, so this is not a cache-free rebuild. The inspected target log shows theorem-specific axiom reports including propext; no sorryAx or admit line appeared in the inspected target log, but no global axiom audit ran. Tests, lint, nanoda and leanchecker were skipped; tactic-linter warnings remain. This is a conditional algebraic two-channel readout build, not a PIV acquisition proof, H(s)H-to-instrument map, physical validation or independent measurement. See [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0036Z_s3_nadir_voss_AMENDMENT_01_P2_GATE_COMPOSITION_AND_LEAN_LOG_RECONCILIATION.md).
