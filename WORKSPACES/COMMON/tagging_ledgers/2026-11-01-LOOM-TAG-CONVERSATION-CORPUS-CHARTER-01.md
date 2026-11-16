@@ -1004,7 +1004,7 @@ The source-bound refinement now specifies:
 - No unjustified requirement that the source and observation manifest IDs be distinct.
 - Recovery of the existing P2EvidenceBundle by forgetting the additive source-binding wrappers.
 
-**Exact-head verification status:** the new head's Lean workflow #43969861179 had passed exact PR-head checkout assertion but was still generating the Lake dependency manifest at last check. No new-head compilation result is claimed yet. The previous PR head `35df9d43602792e761710145703c3adb5b36ea0a` had a successful exact-head Lean run #43966655498 (8,950 jobs; five new theorem-specific axiom reports with no dependencies reported), but that result does not validate the new head.
+**Exact-head verification status:** the new head `85780267a86bcadbcc4895e2031674f150f783e4` completed [Lean workflow #43969861179](https://github.com/Satobloc/HsH/actions/runs/43969861179) successfully on the exact PR head: Lean 4.34.0, Lake 5.0.0, 8,950 build jobs, and ten theorem-specific axiom reports in LoomSourceBoundComparison with no axiom dependencies reported. Tests, lint, leanchecker, nanoda and global axiom audit were skipped. The previous PR head `35df9d43602792e761710145703c3adb5b36ea0a` also had a successful exact-head Lean run #43966655498 (8,950 jobs; five theorem-specific axiom reports with no dependencies reported).
 
 PR #1858 remains open/draft/unmerged. Vercel preview remains rate-limited on the free tier; no upgrade or retry. Issue #1859 remains SUBMITTED_NOT_VERIFIED; no publisher retry or duplicate.
 
