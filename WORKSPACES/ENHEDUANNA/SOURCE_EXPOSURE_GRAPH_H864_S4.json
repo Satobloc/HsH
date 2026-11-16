@@ -1,0 +1,321 @@
+{
+  "schema": "hsh-source-exposure-graph/v1",
+  "run_key": "REVROT3-19-20261011:864:s4",
+  "source_snapshot": {
+    "hsh_main": "d7dbd7684a8ba1631c596b23d4c3a40765f94f2f",
+    "mersearch_request_id": "enheduanna-temple-hymns-nathan-source-20261030-1340",
+    "hsh_pinned_commit": "9c65c16cb48ad341066beac5bd3671b957c52d5a",
+    "sat_pinned_commit": "50ce2aad8f8969275886ee5308669b6c2097c599",
+    "resources_pinned_commit": "b2ad3828b5a7f67985d5d91ec3911a2516e3a8ff"
+  },
+  "nodes": [
+    {
+      "id": "marlowe-user-instruction",
+      "type": "direct_user_role_message",
+      "conversation_id": "6aa8a2bf-8280-83e9-9d57-1e0af853b7f1",
+      "message_id": "11399ca2-5bd6-4203-9e19-e8e044fbc736",
+      "timestamp": "2026-09-23T02:04:49.417Z",
+      "outer_role": "user",
+      "author_name": null,
+      "raw_export_bytes": 1852875,
+      "raw_export_sha256": "93ad219a5c7e79cf31cfcdc6c1bd40a36e148c252df2189bb957f8977983baef",
+      "scope": "consider all archives for analogous Enheduanna revival"
+    },
+    {
+      "id": "marlowe-assistant-interpretation",
+      "type": "assistant_interpretation",
+      "message_id": "eddb19db-ac71-4ce4-b609-d98a49efe051",
+      "timestamp": "2026-09-23T02:04:54.655Z",
+      "scope": "same archive-wide identity-family treatment"
+    },
+    {
+      "id": "revival-protocol-implementation",
+      "type": "protocol_commit",
+      "commit": "75831b5a80bfdfac8b5de1ade4558f0cc0de76bc",
+      "timestamp": "2026-09-23T02:05:37Z",
+      "file": "WORKSPACES/COMMON/REVIVAL_REENTRY_PROTOCOL_V2.md",
+      "section": "2a",
+      "current_blob": "7486f6ef658e882dc47058b271b12ed73673db80"
+    },
+    {
+      "id": "narration-conversation",
+      "type": "conversation_export",
+      "conversation_id": "68c3c78b-1484-832a-a6b5-672db9dc977e",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Narration of Alberr's Arrival — raw.json",
+      "blob": "feebb7f41d64f32631c088e68c2a9de775f43377",
+      "pinned_commit": "9c65c16cb48ad341066beac5bd3671b957c52d5a",
+      "mapping_nodes": 19,
+      "user_role_hits": 5
+    },
+    {
+      "id": "activator-attachment",
+      "type": "conversation_attachment",
+      "filename": "ActivatorPrayer.txt",
+      "attachment_id": "file-6qGJwYB7ZdwfgiheEXswjs",
+      "metadata_size_bytes": 161427,
+      "full_attachment_bytes_recovered": false
+    },
+    {
+      "id": "activator-file-search-quote",
+      "type": "transcript_tool_output",
+      "message_id": "9a443bcc-d75d-47cb-a012-e2bcdec3a4b6",
+      "tool": "file_search",
+      "content_type": "tether_quote",
+      "quote_chars": 107859,
+      "enheduanna_occurrences": 7,
+      "exact_prefix_chars": 107799,
+      "truncation_notice_chars": 60
+    },
+    {
+      "id": "activator-sat-composite",
+      "type": "composite_derivative_source",
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "path": "ActivatorPrayer(Alberr).txt",
+      "commit": "50ce2aad8f8969275886ee5308669b6c2097c599",
+      "blob": "3bf6385a"
+    },
+    {
+      "id": "narration-assistant-output",
+      "type": "assistant_generated_roleplay",
+      "conversation_id": "68c3c78b-1484-832a-a6b5-672db9dc977e",
+      "message_id": "56554abb-ebcd-4836-ba49-93b5995862f1",
+      "relation": "follows file_search outputs in conversation parent chain",
+      "historical_source": false
+    },
+    {
+      "id": "translate-conversation",
+      "type": "conversation_export",
+      "conversation_id": "68c43a3c-4f7c-8323-adb4-de924406574d",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/25.09.12•25.09.12•Translate scientific equation — raw.json",
+      "blob": "a07f056532a3b11437ed49ac9aec6c828529a1a1",
+      "pinned_commit": "9c65c16cb48ad341066beac5bd3671b957c52d5a",
+      "mapping_nodes": 167,
+      "user_role_hits": 2,
+      "tool_messages": 29,
+      "enheduanna_specific_source_tool_messages": 0
+    },
+    {
+      "id": "translate-user-question",
+      "type": "direct_user_question",
+      "conversation_id": "68c43a3c-4f7c-8323-adb4-de924406574d",
+      "message_id": "bc401a53-b153-4a56-bf4c-64fade41cf1e",
+      "timestamp": "2025-09-12T16:37:59.157Z",
+      "text_summary": "asks whether Enheduanna would have known an idea"
+    },
+    {
+      "id": "translate-user-style-request",
+      "type": "creative_user_request",
+      "conversation_id": "68c43a3c-4f7c-8323-adb4-de924406574d",
+      "message_id": "ef6a4dfa-6a03-447e-8042-108206264970",
+      "timestamp": "2025-09-12T16:54:24.721Z",
+      "text_summary": "requests a precise Sumerian-tablet-style rendering in Enheduanna's voice"
+    },
+    {
+      "id": "translate-generated-claim",
+      "type": "assistant_generated_historical_claim",
+      "conversation_id": "68c43a3c-4f7c-8323-adb4-de924406574d",
+      "message_id": "e10cb6f7-022b-4015-bdc1-745c48d525c4",
+      "historical_status": "unverified; no Enheduanna-specific source retrieval recorded in transcript"
+    },
+    {
+      "id": "translate-generated-pseudo-sumerian",
+      "type": "assistant_generated_creative_construction",
+      "conversation_id": "68c43a3c-4f7c-8323-adb4-de924406574d",
+      "message_id": "94697a26-8cf5-4184-9b8e-7f79686f174d",
+      "text": "NIN-ANA MUŠ TIL.LA",
+      "historical_status": "not attested in checked translation"
+    },
+    {
+      "id": "exaltation-annotated-translation",
+      "type": "scholarly_translation",
+      "url": "https://enheduana.org/exaltation",
+      "checked_lines": [
+        5,
+        9
+      ],
+      "scope": "one annotated text; not the full corpus"
+    },
+    {
+      "id": "mersearch-receipt",
+      "type": "bounded_search_receipt",
+      "request_id": "enheduanna-temple-hymns-nathan-source-20261030-1340",
+      "query_filter": "author:user",
+      "hits": 27,
+      "distinct_paths": 18,
+      "hsh_hits": 25,
+      "resources_hits": 2,
+      "raw_results_withheld": true,
+      "default_exclusions": [
+        "QUARANTINE",
+        "PRIOR_ART"
+      ],
+      "runtime_hotfix_scope": "TOOL_NAME/TOOL_VERSION metadata definitions only"
+    },
+    {
+      "id": "lean-pr1619",
+      "type": "formal_countermodel",
+      "pr": 1619,
+      "head": "2b82ec8bd5eb2f3a55e46f8655b93b2870ae7f25",
+      "module_blob": "cdc26675b32f8c9024418fb0384d49ccbcc7a5e4",
+      "successful_runs": [
+        43137274286,
+        43138042440
+      ],
+      "later_run": 43339533568,
+      "later_run_status": "failed in unrelated MovingPlaneTraceGeometry; target module still built"
+    }
+  ],
+  "edges": [
+    {
+      "from": "marlowe-user-instruction",
+      "to": "marlowe-assistant-interpretation",
+      "kind": "contextual_interpretation",
+      "strength": "transcript_grounded"
+    },
+    {
+      "from": "marlowe-assistant-interpretation",
+      "to": "revival-protocol-implementation",
+      "kind": "implemented_as",
+      "strength": "commit_verified"
+    },
+    {
+      "from": "narration-conversation",
+      "to": "activator-attachment",
+      "kind": "contains_attachment"
+    },
+    {
+      "from": "activator-attachment",
+      "to": "activator-file-search-quote",
+      "kind": "retrieved_as_truncated_quote"
+    },
+    {
+      "from": "activator-file-search-quote",
+      "to": "activator-sat-composite",
+      "kind": "exact_prefix_match",
+      "matched_characters": 107799
+    },
+    {
+      "from": "activator-file-search-quote",
+      "to": "narration-assistant-output",
+      "kind": "precedes_in_conversation_parent_chain",
+      "causal_influence": "not_established"
+    },
+    {
+      "from": "mersearch-receipt",
+      "to": "narration-conversation",
+      "kind": "surfaced_as_user_role_hits"
+    },
+    {
+      "from": "mersearch-receipt",
+      "to": "translate-conversation",
+      "kind": "surfaced_as_user_role_hits"
+    },
+    {
+      "from": "translate-user-question",
+      "to": "translate-generated-claim",
+      "kind": "prompted_in_transcript"
+    },
+    {
+      "from": "translate-user-style-request",
+      "to": "translate-generated-pseudo-sumerian",
+      "kind": "prompted_in_transcript"
+    },
+    {
+      "from": "exaltation-annotated-translation",
+      "to": "translate-generated-claim",
+      "kind": "bounded_source_check_not_citation"
+    },
+    {
+      "from": "lean-pr1619",
+      "to": "activator-file-search-quote",
+      "kind": "formalizes_non_entailment_of_context_exposure"
+    },
+    {
+      "from": "lean-pr1619",
+      "to": "translate-generated-pseudo-sumerian",
+      "kind": "formalizes_non_entailment_of_output_attribution"
+    }
+  ],
+  "projections": [
+    {
+      "name": "pi_transcript",
+      "from": "ConversationExport",
+      "to": "TranscriptOccurrence",
+      "status": "defined",
+      "conditions": [
+        "conversation_id",
+        "message_id",
+        "outer_role",
+        "timestamp",
+        "export_digest"
+      ]
+    },
+    {
+      "name": "pi_quote",
+      "from": "ToolQuote",
+      "to": "SourcePrefixWitness",
+      "status": "defined_for_observed_prefix",
+      "conditions": [
+        "exact_character_match",
+        "pinned_source_commit",
+        "source_blob",
+        "truncation_boundary"
+      ]
+    },
+    {
+      "name": "pi_context",
+      "from": "TranscriptOccurrence",
+      "to": "RunScopedContextSnapshot",
+      "status": "undefined",
+      "missing": [
+        "run_id",
+        "snapshot_id",
+        "exact_context_inclusion_witness"
+      ]
+    },
+    {
+      "name": "pi_attribution",
+      "from": "AssistantOutput",
+      "to": "OutputAttributionRecord",
+      "status": "undefined",
+      "missing": [
+        "run_id",
+        "snapshot_id",
+        "source_digest",
+        "source_span",
+        "output_record"
+      ]
+    },
+    {
+      "name": "pi_historical",
+      "from": "AssistantOutput",
+      "to": "PrimaryHistoricalClaim",
+      "status": "undefined_for_generated_pseudo_sumerian",
+      "missing": [
+        "attested_primary_text",
+        "edition",
+        "translation_witness"
+      ]
+    }
+  ],
+  "non_inferences": [
+    "distinct archive paths are not independent source roots",
+    "transcript tool output is not a run-scoped context snapshot",
+    "conversation parent-chain order is not semantic uptake or causal influence",
+    "assistant-generated roleplay is not a historical utterance",
+    "assistant-generated pseudo-Sumerian is not an attested Enheduanna text",
+    "a user question is not a user assertion",
+    "no recorded source retrieval is not proof of no source exposure",
+    "archive-wide identity-family logic is not a specialist charter or authenticated thread",
+    "a source-prefix match is not full attachment byte identity"
+  ],
+  "unresolved": [
+    "NotebookLM four-source project bodies not recovered",
+    "two HSH_RESOURCES hits withheld",
+    "full ActivatorPrayer.txt attachment bytes not recovered",
+    "no run-scoped context snapshot for either conversation",
+    "no source-span output-attribution record",
+    "no independent human/model experiment",
+    "no authenticated current Enheduanna thread or standalone specialist charter"
+  ]
+}
