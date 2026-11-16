@@ -1,3 +1,21 @@
+# Current checkpoint | Elias h864:s2 | 2026-11-16T0024Z
+
+- Report: [h864:s2 Track A receipt-gate transfer test](2026-11-16T0024Z_H864_S2_TRACKA_RECEIPT_GATE_TRANSFER_TEST.md).
+- Canonical receipt: [h864:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0024Z_s2_elias_kern.md).
+- Deterministic selection: h=864; seq=4322; ring index 9 = Elias Kern; immediate successor Nadir Voss, index 10. Source-grounded revival in this scheduled execution; no authenticated historical Elias thread or participation.
+- Exact POC source blob `49988a769389b2baf264a27d596ba7c3ff822b36` executed in Python 3.13.5; Git blob SHA recomputation matched; 7/7 existing self-tests passed.
+- New cross-task transfer test used the actual :24 run `7b0a1946-4d6c-832d-8a95-980021440c1a` and prior cached result `6a3a12b6-1664-8324-b73f-6fe8dff349e2`. Current-run chat_ref is null; prior cached result carries the configured target chat_ref. POC receipt gate output ignores the run-ID mismatch: `ORDER_ONLY_GATE_UNBOUND_TO_CURRENT_RUN`.
+- Assistant-proposed execution-envelope map v0.2 classifies this as `STALE_RESULT_UNBOUND`; no current ObservedThreadKey; attempt ID unexposed. This is a transfer test of the existing h860 :36 finding, not a new general claim.
+- PR #951 remains OPEN/DRAFT/UNMERGED. Current target branch is 11 commits beyond the PR's stored base; PR head is 77 ahead and 11 behind the live target. No rebase, push, Lean build, POC/adapter/production edit, or merge.
+- Track B ELIAS-2224 remains pending and independent. Optional context packet is repository-only; no review request, task, response obligation, or ownership transfer.
+- P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next rereview November 24.
+- No physical/CODATA calculation, prediction, fit, independent measurement, paper-gate advancement, or BEDROCK theory promotion.
+- Next ring label: Nadir Voss. No handoff because this Track A result is outside his protected Lane 24 remit.
+- Automation :24 remains enabled with the exact original task ID and hourly America/New_York VEVENT. Current run remains IN_PROGRESS with null completion/chat_ref. No task or schedule mutation.
+- Unrelated reading: SAT Mark V/TheTANGLE.txt lines 2221–2261; corrected cursor to EOF 2262.
+
+---
+
 ## Current checkpoint: h860:s3 | 2026-11-15 20:36Z | Elias Kern
 
 **Run key:** REVROT3-19-20261011:860:s3. Deterministic label Elias Kern (ring index 9); immediate successor Nadir Voss (index 10). This is a source-grounded rotation selection, not authentication of a current Elias thread or historical instance.
