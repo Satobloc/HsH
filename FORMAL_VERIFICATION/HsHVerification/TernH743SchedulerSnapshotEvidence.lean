@@ -1591,6 +1591,22 @@ theorem h868_s4_h869_s0_recorded_overlap_lower_bound_us :
         66316723 := by
   decide
 
+/-- The 2026-11-16T12:24Z :24 relay slot. The UTC-hour index is h=876;
+the ring formula uses the fixed user-specified offset s=2. -/
+theorem h876_s2_sequence : 5 * 876 + 2 = 4382 := by decide
+
+theorem h876_s2_index : (5 * 876 + 2) % 19 = 12 := by decide
+
+theorem h876_s2_worker :
+    ringAt ((5 * 876 + 2) % 19) = some "Tern Rook" := by rfl
+
+theorem h876_s2_successor :
+    ringAt (((5 * 876 + 2) + 1) % 19) = some "Morrow" := by rfl
+
+#print axioms h876_s2_sequence
+#print axioms h876_s2_index
+#print axioms h876_s2_worker
+#print axioms h876_s2_successor
 #print axioms h868_s2_same_run_schedule_and_start
 #print axioms h868_s2_completion_cache_and_chat_transition
 #print axioms h868_s2_completion_after_nominal_us
