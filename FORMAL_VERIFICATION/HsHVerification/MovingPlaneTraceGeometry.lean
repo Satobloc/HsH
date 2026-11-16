@@ -64,6 +64,8 @@ intersection. No physical dynamics, metric, or time-surface law is encoded.
 
 namespace HsHVerification.MovingPlaneTraceGeometry
 
+noncomputable section
+
 /-- A straight line in R^3, parameterized by s. -/
 def linePoint (x0 y0 z0 dx dy dz s : ℝ) : ℝ × ℝ × ℝ :=
   (x0 + dx * s, y0 + dy * s, z0 + dz * s)
@@ -224,5 +226,7 @@ theorem obliqueCircleSection_vertical_semiaxis (r c : ℝ) :
 #print axioms parabolicSeparation_strictly_increases_with_positive_slice
 #print axioms obliqueCircleSection_on_ellipse
 #print axioms obliqueCircleSection_vertical_semiaxis
+
+end
 
 end HsHVerification.MovingPlaneTraceGeometry
