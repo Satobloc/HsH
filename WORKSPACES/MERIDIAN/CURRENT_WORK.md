@@ -873,3 +873,15 @@ Issue #1759 was rejected for an extra payload key; issue #1760 was rejected beca
 - Publisher: issue #1826 rejected because submitted schema HSH-PUBLISH-V1 used uppercase; validator requires lowercase hsh-publish-v1. No artifact exists; no retry or duplicate issue. See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0524Z_s2_meridian_AMENDMENT_01_PUBLISHER_REJECTION.md.
 - No new Lean run, tool, branch, PR, physical H(s)H prediction, CODATA comparison, task graph change, or theory promotion.
 - Next ring label: Mercer; no handoff or response obligation.
+
+
+## 2026-11-16 h884:s3 - one-run Lane 36 overlay
+
+- Report: WORKSPACES/MERIDIAN/2026-11-16T2036Z_H884_S3_TWO_CAMPAIGN_KELVIN_VORTEX_P2_DISCRIMINATION_MATRIX.md
+- Public artifact: issue #1855, PUBLISHED_VERIFIED; SHA-256 b1c91f9899b3cf21092b898c2fa8016213fcb8d802c62e194dc6e0de2d3e5709.
+- Amendments: 01 exact SAT-O1 source literalness / Blockwave access status; 02 Nature supplementary m=1/m=2 readout and Kestrel h884:s2 predecessor crosswalk.
+- Substantive delta: candidate-specific two-campaign Kelvin-vortex matrix; separates acquired channels from deterministic derived statistics and separate campaigns from independent laboratory replication.
+- Nature Figshare remains a public locator only; raw bytes/version/covariance unretrieved. PRL raw data are request-only. H(s)H source-to-observation map remains undefined.
+- No physical calculation, fit, numerical prediction, independent measurement, new Lean theorem/build, P2 system selection, or theory promotion. P2 remains HOLD.
+- Kestrel h884:s2 issue #1854 is published; its task-level run still reported IN_PROGRESS/chat_ref null. Mercer h884:s4 had already started before the optional handoff; no direct-thread delivery, consumption, or acknowledgment is claimed.
+- Standing Code Grurple P0 assignment unchanged. This is a one-run Lane 36 overlay only; no task graph, branch, PR, automation, schedule, or role change.
