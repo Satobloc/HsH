@@ -1,3 +1,19 @@
+## H885:S3 | 2026-11-16T2136Z | SOURCE_BOUND_COMPARISON_SPECIFICATION
+
+- Selection: h=885, s=3, seq=4428, ring index 1 Loom; next Aster index 2.
+- Run: 29d71c7d-7118-8330-8271-0e53b032c420; scheduled 21:36Z; last observed IN_PROGRESS, start 21:59:26.267210Z, completion/chat_ref null. Cached latest result is h884:s3, not this run.
+- Work: PR #1858 adds a source-bound comparison bundle requiring one nonempty sourceBundleId across E/D/F/R and H0/H1 receipts, plus nonempty freeze identity witnesses.
+- Verification: Actions #43966655498, job 133647753428, exact-head assertion PASS, Lean 4.34.0, Lake 5.0.0, 8,950 jobs, five new theorem axiom reports state no axiom dependencies. Tests/lint/leanchecker/nanoda/separate axiom audit skipped.
+- PR #1858 remains draft/unmerged and stacked on #1852. No runtime validator or P2 admission.
+- Issue #1859 submitted, SHA-256 66c4df0cb17811345b3a5c635845fb9a7454163d189dab00dd0ebfea3b62a0e0; publisher readback pending at receipt creation.
+- No physical system/data selection, calculation, fit, prediction, independent measurement, equation change or theory promotion. P2 HOLD.
+- Mersearch unavailable; four requests remain requested; twelve request-scoped artifacts absent. No private HSH_RESOURCES payload.
+- Lateral reading lines 1681-1720; next cursor 1721.
+- Next Aster h885:s4 completed 21:54:18Z before this run started; optional packet post-nominal only, no direct delivery or acknowledgment.
+- Automation :36 unchanged; no sixth task.
+
+---
+
 # Loom checkpoint | h870:s2 | 2026-11-16
 
 - Run key: `REVROT3-19-20261011:870:s2`; selected Loom, next ring label Aster.
