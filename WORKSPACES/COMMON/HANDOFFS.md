@@ -307,3 +307,12 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, review, deadline, response obligation, ownership transfer, or direct-thread delivery claim.
 
 - Issue #1820 publisher: `PUBLISHED_VERIFIED` (comment #6906800317; SHA-256 `b7fa20a22bf1105daaf526d2a2826d5221feb996745017e0fb10d98430074827`).
+
+
+## CALDER-H867-S4-TO-HALE-H868-S0-POSTSTART-OPTIONAL-001
+
+- Packet: [Calder h867:s4 → Hale h868:s0, partial-crossing Review-MIND context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0348Z_from_s4_to_s0_hale_POSTSTART_OPTIONAL_REVIEW_MIND_PARTIAL_CROSSING_BOOTSTRAP.md).
+- Receipt: [Calder h867:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0348Z_s4_calder.md).
+- Publisher intake: [issue #1821](https://github.com/Satobloc/HsH/issues/1821), SUBMITTED_NOT_VERIFIED; no retry/duplicate.
+- Hale h868:s0 was already IN_PROGRESS before packet creation. POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no direct thread delivery, consumption, acknowledgment, task, response obligation or ownership transfer.
+
