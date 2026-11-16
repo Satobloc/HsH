@@ -18,10 +18,10 @@ It does not prove that the prediction was cryptographically sealed, that the
 holdout was inaccessible, that source/context exposure was absent, or that a
 reviewer was independent.
 
-The existing Enheduanna source-attestation/context-snapshot formalization
-addresses a different relation: source identity/read extent does not determine
-whether a source was included in a particular execution context. This module
-does not duplicate or replace that theorem.
+A separate draft formalization in Enheduanna PR #1619 addresses a different
+relation: source identity/read extent does not determine whether a source was
+included in a particular execution context. This module does not duplicate or
+replace that draft.
 -/
 
 namespace HsHVerification.AldusTemporalProvenance
@@ -81,13 +81,21 @@ inductive TemporalOrder where
 
 /-- Strict ordering is permitted only within the same clock and scale, and
     only when the intervals do not overlap. -/
-def definitelyBefore (a b : TimeInterval) : Prop :=
+def sameKnownClock (a b : TimeInterval) : Prop :=
   a.clockDomain = b.clockDomain ∧
   a.clockScale = b.clockScale ∧
-  a.upper < b.lower
+  a.clockDomain ≠ .unknown ∧
+  a.clockScale ≠ .unknown
+
+def definitelyBefore (a b : TimeInterval) : Prop :=
+  sameKnownClock a b ∧ a.upper < b.lower
 
 def compareIntervals (a b : TimeInterval) : TemporalOrder :=
-  if hDomain : a.clockDomain = b.clockDomain then
+  if a.clockDomain = .unknown then .unknown
+  else if b.clockDomain = .unknown then .unknown
+  else if a.clockScale = .unknown then .unknown
+  else if b.clockScale = .unknown then .unknown
+  else if hDomain : a.clockDomain = b.clockDomain then
     if hScale : a.clockScale = b.clockScale then
       if a.upper < b.lower then .before
       else if b.upper < a.lower then .after
@@ -104,7 +112,7 @@ def compareOptionalTimes
 theorem definitelyBefore_irreflexive (a : TimeInterval) :
     ¬ definitelyBefore a a := by
   intro h
-  have hlt : a.upper < a.lower := h.2.2
+  have hlt : a.upper < a.lower := h.2
   have hlt' : a.upper < a.upper :=
     Nat.lt_of_lt_of_le hlt a.ordered
   exact Nat.lt_irrefl a.upper hlt'
@@ -114,38 +122,93 @@ theorem definitelyBefore_transitive
     (hab : definitelyBefore a b)
     (hbc : definitelyBefore b c) :
     definitelyBefore a c := by
-  refine ⟨hab.1.trans hbc.1, hab.2.1.trans hbc.2.1, ?_⟩
-  exact Nat.lt_trans (Nat.lt_of_lt_of_le hab.2.2 b.ordered) hbc.2.2
+  rcases hab with ⟨habClock, habTime⟩
+  rcases hbc with ⟨hbcClock, hbcTime⟩
+  rcases habClock with ⟨habDomain, habRest⟩
+  rcases habRest with ⟨habScale, habKnown⟩
+  rcases habKnown with ⟨habDomainKnown, habScaleKnown⟩
+  rcases hbcClock with ⟨hbcDomain, hbcRest⟩
+  rcases hbcRest with ⟨hbcScale, _⟩
+  have hacClock : sameKnownClock a c :=
+    ⟨habDomain.trans hbcDomain,
+      ⟨habScale.trans hbcScale, ⟨habDomainKnown, habScaleKnown⟩⟩⟩
+  exact ⟨hacClock,
+    Nat.lt_trans (Nat.lt_of_lt_of_le habTime b.ordered) hbcTime⟩
 
 theorem no_order_across_clock_domains
     (a b : TimeInterval)
     (h : a.clockDomain ≠ b.clockDomain) :
     ¬ definitelyBefore a b := by
   intro hBefore
-  exact h hBefore.1
+  exact h hBefore.1.1
 
 theorem no_order_across_clock_scales
     (a b : TimeInterval)
     (h : a.clockScale ≠ b.clockScale) :
     ¬ definitelyBefore a b := by
   intro hBefore
-  exact h hBefore.2.1
+  exact h hBefore.1.2.1
 
-theorem incomparable_when_clock_domains_differ
+theorem unknown_left_clock_domain_is_unknown
     (a b : TimeInterval)
+    (h : a.clockDomain = .unknown) :
+    compareIntervals a b = .unknown := by
+  simp [compareIntervals, h]
+
+theorem unknown_right_clock_domain_is_unknown
+    (a b : TimeInterval)
+    (h : b.clockDomain = .unknown) :
+    compareIntervals a b = .unknown := by
+  unfold compareIntervals
+  by_cases hLeft : a.clockDomain = .unknown
+  · simp [hLeft]
+  · simp [hLeft, h]
+
+theorem unknown_left_clock_scale_is_unknown
+    (a b : TimeInterval)
+    (h : a.clockScale = .unknown) :
+    compareIntervals a b = .unknown := by
+  unfold compareIntervals
+  by_cases hLeftDomain : a.clockDomain = .unknown
+  · simp [hLeftDomain]
+  · by_cases hRightDomain : b.clockDomain = .unknown
+    · simp [hLeftDomain, hRightDomain]
+    · simp [hLeftDomain, hRightDomain, h]
+
+theorem unknown_right_clock_scale_is_unknown
+    (a b : TimeInterval)
+    (h : b.clockScale = .unknown) :
+    compareIntervals a b = .unknown := by
+  unfold compareIntervals
+  by_cases hLeftDomain : a.clockDomain = .unknown
+  · simp [hLeftDomain]
+  · by_cases hRightDomain : b.clockDomain = .unknown
+    · simp [hLeftDomain, hRightDomain]
+    · by_cases hLeftScale : a.clockScale = .unknown
+      · simp [hLeftDomain, hRightDomain, hLeftScale]
+      · simp [hLeftDomain, hRightDomain, hLeftScale, h]
+
+theorem incomparable_when_known_clock_domains_differ
+    (a b : TimeInterval)
+    (ha : a.clockDomain ≠ .unknown)
+    (hb : b.clockDomain ≠ .unknown)
+    (hsa : a.clockScale ≠ .unknown)
+    (hsb : b.clockScale ≠ .unknown)
     (h : a.clockDomain ≠ b.clockDomain) :
     compareIntervals a b = .incomparable := by
-  unfold compareIntervals
-  simp [h]
+  simp [compareIntervals, ha, hb, hsa, hsb, h]
 
-theorem incomparable_when_clock_scales_differ
+theorem incomparable_when_known_clock_scales_differ
     (a b : TimeInterval)
+    (ha : a.clockDomain ≠ .unknown)
+    (hb : b.clockDomain ≠ .unknown)
+    (hsa : a.clockScale ≠ .unknown)
+    (hsb : b.clockScale ≠ .unknown)
     (h : a.clockScale ≠ b.clockScale) :
     compareIntervals a b = .incomparable := by
-  unfold compareIntervals
   by_cases hDomain : a.clockDomain = b.clockDomain
-  · simp [hDomain, h]
-  · simp [hDomain]
+  · simp [compareIntervals, ha, hb, hsa, hsb, hDomain, h]
+  · simp [compareIntervals, ha, hb, hsa, hsb, hDomain]
 
 theorem missing_left_time_is_unknown
     (b : Option TimeInterval) :
@@ -275,6 +338,8 @@ structure ScopedFirstWitness (C : CoverageManifest) where
   witnessTimeMatches : witness.eventTime = some witnessTime
   witnessClockDomainMatches : witnessTime.clockDomain = C.clockDomain
   witnessClockScaleMatches : witnessTime.clockScale = C.clockScale
+  coverageClockDomainKnown : C.clockDomain ≠ .unknown
+  coverageClockScaleKnown : C.clockScale ≠ .unknown
   coverageStatusKnown : C.coverageStatus ≠ .unknown
   candidateTimesKnown :
     ∀ candidate, candidate ∈ C.candidateEvents →
@@ -412,8 +477,12 @@ theorem chronology_bound_bundle_keeps_first_claims_scoped
 #print axioms definitelyBefore_transitive
 #print axioms no_order_across_clock_domains
 #print axioms no_order_across_clock_scales
-#print axioms incomparable_when_clock_domains_differ
-#print axioms incomparable_when_clock_scales_differ
+#print axioms unknown_left_clock_domain_is_unknown
+#print axioms unknown_right_clock_domain_is_unknown
+#print axioms unknown_left_clock_scale_is_unknown
+#print axioms unknown_right_clock_scale_is_unknown
+#print axioms incomparable_when_known_clock_domains_differ
+#print axioms incomparable_when_known_clock_scales_differ
 #print axioms missing_left_time_is_unknown
 #print axioms missing_right_time_is_unknown
 #print axioms first_extant_and_first_public_are_distinct_claims
