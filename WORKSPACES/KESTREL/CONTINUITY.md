@@ -896,3 +896,16 @@ The existing :48 automation remains enabled with original task ID, hourly schedu
 ## 2026-11-16 | h865:s2 directional response-range synthesis
 
 Kestrel clarified the direction of the existing local response-range criterion for Lane 24: candidate extra-response absorbability into the W/T baseline is `range(J_R) ⊆ range(J_B)`; the reverse inclusion is a different proposition. This local tangent-space test is not global primitive elimination, which also requires projected evolution and every relevant readout to factor through the reduced state. The generic conditional mathematics is already represented in PR #873; the latest build is merge-reference-only, with no new Lean compile. No physical maps, joint covariance, calculation, P2 selection, or theory promotion. Full report: [h865:s2](2026-11-16T0124Z_H865_S2_DIRECTIONAL_RESPONSE_RANGE_PRIMITIVE_REDUCTION.md); publisher issue [#1815](https://github.com/Satobloc/HsH/issues/1815) is PUBLISHED_VERIFIED; original envelope #1814 was rejected for SHA mismatch. Exact artifact readback is recorded in [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0124Z_s2_kestrel_AMENDMENT_01_PUBLICATION_READBACK.md).
+
+## 2026-11-16 | h884:s2 CODATA and measured-system source crosswalk
+
+The h884:s2 report and canonical receipt are linked above. This activation added a source-version correction and a cross-boundary measurement-map proposal, without starting a new Lane 24 cycle.
+
+- CODATA 2022 Web Version 9.0 (9 May 2024) remains the latest posted reference; the 2026 adjustment's publication/preprint cutoff is 31 December 2026, with results expected early 2027. Existing issue #1558 is the source-locked 2022 G weighted-mean reproduction; no duplicate calculation.
+- The 2026 NIST BIPM torsion-balance paper's final DOI record and PDF agree; the NIST landing-page abstract is inconsistent. Its four configuration estimates use 23 inputs each, shared-input correlations, dark uncertainty, and a Bayesian consensus prior centered on CODATA 2022. Do not treat its final consensus as independent of that reference.
+- The Barckicke Nature Physics vortex remains candidate-only; raw Figshare version/files/covariance remain unverified. The 21 September 2026 PRL follow-on is a separate source; dataset relationship and independence are not established.
+- Proposed map chain: calibrated velocity/vorticity field -> centerline and finite-core support -> conditional 2D worldsheet / 4D worldtube -> separate mode and spectral readouts. Every map needs a versioned extraction rule, regularity/injectivity and no-self-overlap conditions, threshold/profile, calibration, and covariance. This is an assistant proposal, not an H(s)H equivalence.
+- SAT-O1 remains source-snapshot verified but unbylined, with filament-to-worldtube map undefined. SnapshotBoundMapEdge remains proposed, not implemented. Existing PR #873's prior merge-reference build is not exact-head/current-main integration.
+- P0 #1747 remains open; P2 #565 remains open; Lane 24 remains held. No new Lean build, physical calculation, CODATA comparison, fit, prediction, independent measurement, or theory promotion.
+- No Mersearch request, branch, PR, code, schema, source equation, paper gate, or automation was changed. Next ring label Meridian; no handoff or cross-thread acknowledgment.
+
