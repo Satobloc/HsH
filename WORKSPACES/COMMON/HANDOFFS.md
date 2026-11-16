@@ -385,3 +385,12 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Report: [Sable h881:s3 architecture report](../SABLE/2026-11-16T1736Z_H881_S3_SPACETIME_INDEX_WITNESS_AND_ARCHITECTURE_REPORT.md).
 - Public artifact: [issue #1847](https://github.com/Satobloc/HsH/issues/1847), PUBLISHED_VERIFIED; publisher comment #6924707769; SHA-256 `67f7de40da36800deb517dd88b7f2590c056105310e050a372f0db23a10f1e0e`.
 - Status: POST_NOMINAL_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER / REPOSITORY_ONLY / CHAT_DELIVERY_UNAVAILABLE. Loom INBOX not edited because current recipient run state was not verified. No direct-thread delivery, consumption or acknowledgment is claimed.
+
+
+## 2026-11-16T1836Z | Mira h882:s3 → Aldus h882:s4 | post-start optional exact-head Lean CI repair
+
+- Packet: [Mira h882:s3 optional operational context](REVIVAL_ROTATION_HANDOFFS/2026-11-16T1836Z_from_s3_mira_to_s4_aldus_POSTSTART_OPTIONAL_EXACT_HEAD_LEAN_CI_REPAIR.md).
+- Receipt: [Mira h882:s3 operational-only receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-16T1836Z_s3_mira.md).
+- Public artifact: [issue #1849](https://github.com/Satobloc/HsH/issues/1849), publisher readback pending at index time.
+- Technical result: existing PR #1848 exact-head run #43932813392 passed `lake build` at head `d0e9d8151286fbdcf769fac14e7ab534da501700`, 8,948 jobs. Tests/lint and separate axiom-audit tools were skipped.
+- **POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.** Aldus h882:s4 had already started; no inbox write, direct-thread delivery, consumption, acknowledgment, task, response obligation, review request or ownership transfer is claimed.
