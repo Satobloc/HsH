@@ -1,3 +1,25 @@
+## H885:S3 final verification | PR #1858 exact-head build PASS
+
+The manifest-membership extension on PR #1858 now has an actual exact-head Lean build result:
+
+- Head 85780267a86bcadbcc4895e2031674f150f783e4.
+- [Actions run #43969861179](https://github.com/Satobloc/HsH/actions/runs/43969861179), job 133658858335: PASS.
+- Lean 4.34.0 / Lake 5.0.0; 8,950 build jobs.
+- Ten theorem-specific axiom reports in LoomSourceBoundComparison; no axiom dependencies reported.
+- Tests, lint, leanchecker, nanoda and global axiom audit skipped.
+- PR #1858 remains OPEN / DRAFT / UNMERGED. Vercel preview is rate-limited on the free tier; no upgrade or retry.
+- The contract formalizes one source-bundle ID and opaque witness-digest string across E/D/F/R/H0/H1 and manifest; canonical manifest digest identity; and nonempty source/observation manifest IDs as members of one declared manifest list. The IDs are not forced distinct.
+- It does not hash/authenticate bytes, validate manifest file existence or contents, authenticate verified flags, establish reviewer independence or pre-unblinding, prove runtime refinement, or define the physical maps.
+- [Issue #1857 Amendment 03](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-16_H885_S3_AMENDMENT_03_LEAN_BUILD_READBACK.md), issue comment #6931416569, records the build.
+- Final source-bundle JSON SHA-256: bfe682b624b9c8546116bd9de43602e72aca0624caf8031df9a03a9c560eb616; Git blob SHA-1: 624e45b49e942f15ea2ed85eb246fa2445ce1b55.
+- Issue #1859 remains SUBMITTED_NOT_VERIFIED; no publisher retry or duplicate.
+
+A later task readback found the existing :36 task enabled, original schedule/phase unchanged, scheduled execution completed, chat_ref present and delivery status unknown. This is not authentication of the historical Loom instance or proof of delivery. No task edit or sixth task.
+
+P2 remains HOLD; no physical calculation, fit, prediction, independent measurement, equation correction or theory promotion.
+
+---
+
 ## H885:S3 follow-up | SourceBoundP2Bundle manifest membership and task readback
 
 PR #1858 has been extended in place, not duplicated. The existing SourceBoundP2Bundle now carries an opaque source-witness digest through E/D/F/R and H0/H1 receipts, binds a canonical comparison-manifest identity to the freeze, and requires both source-manifest and observation-manifest IDs to be nonempty members of the same declared manifest list. IDs may coincide; no unjustified distinctness rule was added.
@@ -21,7 +43,7 @@ The current P2 H1 source is pinned as an assistant-created index, not a Nathan-a
 
 Global Klein-like fabric is a conceptual parent; local dual-shell is a possible realization, not equivalence. No source-defined manifold, coordinate conversion, metric/signature map, normal-bundle twist, worldtube/core map, or lab projection exists. Minkowski kinematics remains the control. No invented thickness, contact surface, elasticity, filament tension or spring constant.
 
-Source bundle: loom-h885-s3-p2-source-bundle-20261116. Report and JSON are in WORKSPACES/LOOM; issue #1857 is PUBLISHED_VERIFIED. Publisher comment #6930774895; Amendment 01 source-role comment #6931025257. JSON SHA-256 241d7134fb49d22b86342c873c02ae6d97fa4343fbaf6df56fc014609d60142f.
+Source bundle: loom-h885-s3-p2-source-bundle-20261116. Report and JSON are in WORKSPACES/LOOM; issue #1857 is PUBLISHED_VERIFIED. Publisher comment #6930774895; Amendment 01 source-role comment #6931025257. JSON SHA-256 bfe682b624b9c8546116bd9de43602e72aca0624caf8031df9a03a9c560eb616.
 
 No new Lean theorem: existing exact-head PR #1515 and #1852 builds cover the conditional signature/readout, sampling, acquisition-unit holdout and comparison-freeze obligations. They do not authenticate source-bundle contents or supply the missing physical map. P2 HOLD; no data acquisition, fit, prediction or independent measurement.
 
