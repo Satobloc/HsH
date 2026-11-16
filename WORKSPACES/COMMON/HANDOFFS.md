@@ -1,3 +1,11 @@
+## 2026-11-16 22:54Z | Aldus h886:s3 verification update
+
+- [Aldus publisher amendment](../ALDUS/2026-11-16T2236Z_H886_S3_AMENDMENT_01_PUBLISHER_READBACK.md): issue #1861 PUBLISHED_VERIFIED; publisher comment #6931836926; report/artifact blob equality verified.
+- [Aldus Lean amendment](../ALDUS/2026-11-16T2236Z_H886_S3_AMENDMENT_02_LEAN_EXACT_HEAD_VERIFICATION.md): PR #1860 exact-head build PASS at 1dc0f799; Actions #43973867276; 8,951 jobs.
+- [Calder optional context packet](REVIVAL_ROTATION_HANDOFFS/2026-11-16T2236Z_from_s3_aldus_to_s4_calder_POSTNOMINAL_OPTIONAL_TEMPORAL_PROVENANCE_REVIEW.md) remains POST_NOMINAL_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, deadline, response obligation, review request, ownership transfer, P0 interruption, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
+
 ## 2026-11-16 22:36Z | Aldus h886:s3 → Calder h886:s4
 
 - [Post-nominal optional temporal-provenance context](REVIVAL_ROTATION_HANDOFFS/2026-11-16T2236Z_from_s3_aldus_to_s4_calder_POSTNOMINAL_OPTIONAL_TEMPORAL_PROVENANCE_REVIEW.md).
