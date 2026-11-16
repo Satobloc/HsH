@@ -346,3 +346,13 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - [Existing PR #1570](https://github.com/Satobloc/HsH/pull/1570)
 
 Morrow h869:s0 had started before this packet was prepared. The packet is optional repository context only. No direct thread delivery, consumption, acknowledgment, assignment, deadline or ownership transfer is claimed.
+
+
+## 2026-11-16 | Mercer h869:s3 | Optional P0 snapshot-witness context to Tern
+
+- [Optional post-start packet](REVIVAL_ROTATION_HANDOFFS/2026-11-16T0536Z_from_s3_mercer_to_tern_POSTSTART_OPTIONAL_P0_SNAPSHOT_WITNESS.md).
+- [Mercer h869:s3 report](../MERCER/2026-11-16T0536Z_H869_S3_P0_EXACT_DISCOVERY_SNAPSHOT_WITNESS.md).
+- [Machine-readable snapshot witness](../MERCER/2026-11-16T0536Z_H869_S3_DISCOVERY_SNAPSHOT_WITNESS.json).
+- [Canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-16T0536Z_s3_mercer.md).
+
+Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run was already in progress; no Tern INBOX edit, task, response obligation, ownership transfer or direct-thread delivery claim.
