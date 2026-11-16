@@ -1,3 +1,9 @@
+## Latest verification | h887:s3 | 2026-11-16T23:48Z
+
+PR #1619 exact-head Lean build passed: run #43981958006, head `275b5396a97d4f7efc4d7d2248bfa08218f01b35`, Lean 4.34.0 / Lake 5.0.0, 8,946 jobs. Two new theorems have no axiom dependencies; the partial-index countermodel uses `propext` only. Global axiom audit and tests/lint/leanchecker/nanoda were skipped. Issue #1863 is PUBLISHED_VERIFIED; SHA-256 `fc46645223024d61e7b0c6e4ef29f47aa4c8c82420c5c045757e0d3f838f77e7`. PR remains draft/unmerged pending independent review. OutputId uniqueness, certificate-to-manifest binding/authentication and capture-time semantics remain open. No physical result; P2 HOLD.
+
+---
+
 ## h887:s3 PWH readback amendment | 2026-11-16T23:36Z
 
 WH-05 current lane-state readback is appended to the PWH queue and [receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2336Z_s3_enheduanna_AMENDMENT_01_WH05_READBACK.md). All four request files remain requested; expected request-scoped manifest/receipt paths returned 404. No current Actions trigger failure is inferred. No request was changed or released; Tern retains release authority.
