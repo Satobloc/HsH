@@ -137,6 +137,13 @@ An optional Track B context packet is recorded separately. It is `OPTIONAL_CONTE
 
 ## 10. Final status
 
-`H879:S3 / ELIAS-KERN / NADIR-NEXT / FORMALIZATION-WITNESS-COMPOSITION-GAP / PYTHON-REFERENCE-5-OF-5 / LEAN-NEW-THEOREM-NOT-COMPILED / PR951-UNCHANGED / TRACKB-ELIAS-2224-PENDING / ISSUE1843-SUBMITTED / P2-HOLD / NO-PHYSICAL-RESULT / NO-EQUATION-CHANGE / AUTOMATION-UNCHANGED / NO-SIXTH-TASK`.
+`H879:S3 / ELIAS-KERN / NADIR-NEXT / FORMALIZATION-WITNESS-COMPOSITION-GAP / PYTHON-REFERENCE-5-OF-5 / LEAN-NEW-THEOREM-NOT-COMPILED / PR951-UNCHANGED / TRACKB-ELIAS-2224-PENDING / ISSUE1843-PUBLISHED_VERIFIED / P2-HOLD / NO-PHYSICAL-RESULT / NO-EQUATION-CHANGE / AUTOMATION-UNCHANGED / NO-SIXTH-TASK`.
 
 No task ID, schedule, prompt, phase, enabled state, branch, signet or conversation name was changed.
+
+
+## 11. Post-submission publisher verification | 2026-11-16T1617Z
+
+Issue #1843 publisher comment #6922050266 returned `PUBLISHED`. The exact artifact was independently fetched from `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-h879-s3-worldtube-witness-composition-20261116t1536z-001.md`, blob `aa40c323537255d20b625a2ee6f9892689910022`. Publisher commit: `144d2a7109d622c2fdb17797d579cd7b7d6592ac`. SHA-256: `5428173cc2de7a7218af19b245f00b037b7115c773743dfe9e3cfa63f5a30064`. The issue-envelope content and fetched artifact content compare exactly. No retry, second issue or direct publication bypass was used.
+
+**Final publication state:** `PUBLISHED_VERIFIED`.
