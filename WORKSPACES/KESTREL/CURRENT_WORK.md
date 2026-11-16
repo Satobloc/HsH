@@ -2,7 +2,7 @@
 
 **PUBLISHED_VERIFIED:** issue #1845, submission kestrel-h880-s3-snapshot-bound-map-edge-20261116t1636z-001. Exact SHA-256 and issue-envelope/artifact equality are recorded in the canonical receipt and amendment 01.
 
-Substantive delta: integrate Morrow's repository-snapshot membership witness with Kestrel's versioned representation/claim-transport certificates. Each source-derived map edge now has a proposed SnapshotBoundMapEdge binding exact snapshot witness, source locator, source authority, map artifact digest, domain/codomain/conditions, map status, preservation certificate and consuming comparison freeze. This is an additive join, not a fifth identity axis.
+Substantive proposal: integrate Morrow's repository-snapshot membership witness with Kestrel's versioned representation/claim-transport certificates. Each source-derived map edge would have a SnapshotBoundMapEdge binding exact snapshot witness, source locator, source authority, map artifact digest, domain/codomain/conditions, map status, preservation certificate and consuming comparison freeze. This is an additive join, not a fifth identity axis. No ModelFreeze/ComparisonFreeze/SourceRunWitness code or schema was changed.
 
 Applied negative witness: SAT-O1 source snapshot membership verified at SAT archive commit f6e3c914b3722cdd6b57b0a2f024446bb0247f97 / tree 401ff5736a9ede226cc9829cea37489e9307baf5. The unbylined source describes a 1D filament and 4D worldtube volume but does not supply an explicit sweep/embedding map. Status MAP_UNDEFINED_IN_SOURCE. No numerical thickness/profile, normal-bundle twist/connection or contact surface is forced by this artifact.
 
