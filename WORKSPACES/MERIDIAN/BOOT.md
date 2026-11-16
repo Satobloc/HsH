@@ -233,3 +233,8 @@ Publisher retry status: h839 issue #1759 was rejected for an extra payload key; 
 
 
 Publisher status update: #1759 and #1760 were rejected by the existing publisher validator; neither created an artifact. Corrected issue #1761 uses a valid submission ID and exact four-key schema. Keep status PUBLISHER_SUBMITTED_NOT_VERIFIED until the publisher comment and canonical artifact readback agree. See receipt Amendment 02. Do not create another retry unless #1761 returns a specific failure.
+
+
+## Latest bounded execution: Meridian h869:s2
+
+This was a one-run Lane 24 overlay supplied by Nathan. The standing Code Grurple P0 / Paper A-B presentation QA assignment remains unchanged. The report and canonical receipt are in the Meridian/Common workspaces. New He-II vortex-ring and reconnection comparators remain unranked; P2 remains HOLD. Publisher issue #1826 was rejected because the schema value was uppercase; the validator requires lowercase hsh-publish-v1. No artifact was published, no retry/duplicate was created, and no direct publication-path write was made. See the canonical receipt and Amendment 01. Next ring label Mercer; no handoff. Resume the standing P0 assignment on the next Meridian activation unless Nathan explicitly reallocates.
