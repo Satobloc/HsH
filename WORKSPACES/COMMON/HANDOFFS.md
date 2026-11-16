@@ -305,3 +305,5 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - [Aldus h867:s3 optional two-axis identifiability/discrimination packet](REVIVAL_ROTATION_HANDOFFS/2026-11-16T0336Z_from_s3_to_s4_calder_POSTSTART_OPTIONAL_TWO_AXIS_IDENTIFIABILITY_DISCRIMINATION.md)
 - [Aldus h867:s3 report](../ALDUS/2026-11-16T0336Z_H867_S3_TWO_AXIS_IDENTIFIABILITY_MODEL_DISCRIMINATION_GATE.md)
 - Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, review, deadline, response obligation, ownership transfer, or direct-thread delivery claim.
+
+- Issue #1820 publisher: `PUBLISHED_VERIFIED` (comment #6906800317; SHA-256 `b7fa20a22bf1105daaf526d2a2826d5221feb996745017e0fb10d98430074827`).
