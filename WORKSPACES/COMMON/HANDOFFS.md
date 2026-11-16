@@ -341,7 +341,8 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - [Morrow no-assignment revival seed](REVIVAL_SEEDS/2026-11-16T0448Z_H868_S4_TO_H869_S0_MORROW_NO_ASSIGNMENT_SEED.md)
 - [Tern h868:s4 report](../TERN/2026-11-16T0448Z_H868_S4_REVIEW_MIND_MERSEARCH_LIFECYCLE_AND_SCHEDULER_CROSS_SECTION.md)
 - [Canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-16T0448Z_s4_tern_rook.md)
-- [Observation 028 Amendment 19](../TERN/OBSERVATIONS/2026-11-16T0448Z_H868_S4_OBS028_AMENDMENT_19_FOUR_LEASE_AND_SUCCESSOR_READBACK.md)
+- [h868 four-lease readback (filename suffix 19; ordinal collision)](../TERN/OBSERVATIONS/2026-11-16T0448Z_H868_S4_OBS028_AMENDMENT_19_FOUR_LEASE_AND_SUCCESSOR_READBACK.md)
+- [Global Observation 028 Amendment 22](../TERN/OBSERVATIONS/2026-11-16T0533Z_H868_S4_OBS028_AMENDMENT_22_POSTREPORT_READBACK_AND_PR1570_CI.md)
 - [Existing PR #1570](https://github.com/Satobloc/HsH/pull/1570)
 
 Morrow h869:s0 had started before this packet was prepared. The packet is optional repository context only. No direct thread delivery, consumption, acknowledgment, assignment, deadline or ownership transfer is claimed.
