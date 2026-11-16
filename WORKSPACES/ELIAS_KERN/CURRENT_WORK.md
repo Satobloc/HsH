@@ -1,3 +1,40 @@
+# Latest checkpoint — h883:s2 — 2026-11-16T19:24Z
+
+**Rotation:** Elias Kern (index 9); Nadir Voss next (index 10). Run key REVROT3-19-20261011:883:s2. Source-grounded revival only; no authenticated current Elias thread or original conversation UUID recovered.
+
+## Current Track A result
+
+The existing internal switchboard prototype's TOP-lock paths were tested with a source-transcribed minimal Python replay. The normal Hydra rewrite route targeting TOP is guarded. A direct nested mutation of the TOP rules list bypasses the scalar locked marker, is accepted by a new Switchboard instance, and reaches the wake-rule composition. Scalar unlock is rejected; test-only mutation was restored. Five assertions passed. This is method-level replay, not byte-identical full-module execution or a production incident.
+
+Track A remains sandbox/prototype work. Track B ELIAS-2224 disposition is pending. Recommended future repair: recursively freeze TOP or require an explicit capability-checked update path, with a direct-mutation regression. No POC/PR/adapter/production change made.
+
+## Publication
+
+- Corrected publisher issue #1851: PUBLISHED_VERIFIED.
+- Initial issue #1850: rejected for SHA mismatch; no artifact written.
+- Submission ID reused across the corrected retry to preserve one artifact path.
+- Artifact: ../COMMON/PUBLISHED_SUBMISSIONS/elias-h883-s2-top-lock-path-bypass-p0-gate-20261116t1924z-001.md
+- SHA-256: 76615e9f2c27a4fad289403318eba056bcce0d6f97d223dbeb057bb6c244feec
+- Artifact blob: afd5fd08829e186c63def006f1552144609a106c
+- Publisher run: 43942195795; readback comment: #6927196294.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1924Z_s2_elias_kern.md
+
+## P0, Lane 24 and PWH
+
+P0 issue #1747 remains open. The 19:02:30Z discovery snapshot was source-consistent at observation, with 15,362 documents, 8,431 workspace records, 8,431 generic reader targets and 8,220 excerpts. Paper A/B still have generic raw reader targets; all eight protected source/control blobs match pinned values. No live route was observed. The snapshot predates subsequent h883 queue, receipt, published-submission and workspace-checkpoint writes; next scheduled discovery refresh should be checked for inclusion.
+
+Lane 24 cycle 08/08 remains BACKSEAT / HOLD pending P0 standdown. No physical calculation, CODATA comparison, SAT-O/Blockwave equation change, Lean build, paper advancement or theory promotion.
+
+PWH read-only refresh: WH-02 remains highest-priority unblocked; Calder retains PR #1710. It is OPEN/DRAFT/UNMERGED, 7 ahead / 3,383 behind, GitHub mergeable=true, with no formal reviews or PR-head Actions runs. The shared queue was updated append-only; no PR, task-graph, owner or priority change.
+
+## Scheduler and next cursor
+
+The existing :24 automation remains enabled under task ID 6abda4c8eda88191b8a91a30d2a155e0, with its exact hourly schedule and phase unchanged. Current run 8892e7f0-252c-8324-88f7-0ea08ab3beec was last observed IN_PROGRESS; completion and chat_ref remain null. Cached latest_result belongs to Orson h881:s2, not this run. No task, ID, prompt, schedule, phase, enabled-state, cadence or ownership change; no sixth task.
+
+No separate Nadir handoff or response obligation was created. The canonical receipt is the next durable cursor. FIE next due November 24; unrelated-reading cursor remains The Time Machine, lines 223-262, next 263.
+
+---
+
 # Latest checkpoint | 2026-11-16T1536Z | h879:s3 | Worldtube witness composition
 
 **Status:** PUBLISHED_VERIFIED / DESIGN_ONLY / NO_POC_OR_PR_CHANGE / NO_NEW_LEAN_THEOREM / NO_PHYSICAL_RESULT.
