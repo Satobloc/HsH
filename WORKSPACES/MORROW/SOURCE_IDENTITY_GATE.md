@@ -51,7 +51,7 @@ Use only the statuses supported by the recorded evidence. Preserve unresolved ed
 
 A Git blob identifies content bytes, not the repository snapshot, tree, path membership, or chronology in which those bytes were observed. For every version-specific source claim, record the pinned tuple:
 
-\`(repository_full_name, commit_sha, tree_sha, path_at_commit, blob_sha)\`
+`(repository_full_name, commit_sha, tree_sha, path_at_commit, blob_sha)`
 
 Required fields:
 - repository full name and ref observed;
@@ -69,4 +69,4 @@ Required fields:
 
 Recommended statuses: `SNAPSHOT_MEMBERSHIP_VERIFIED`, `SNAPSHOT_MEMBERSHIP_NOT_VERIFIED`, `SNAPSHOT_HISTORY_UNRESOLVED`, `COMMIT_SIGNATURE_UNSIGNED`, and `SOURCE_AUTHORSHIP_UNRESOLVED`.
 
-Applied witness: [h876:s3 Morrow repository snapshot witness](2026-11-16T1236Z_H876_S3_REPOSITORY_SNAPSHOT_WITNESS.json). It records two exports of conversation \`6a9ee7ca-d340-83ea-b99d-6a3097429f36\` at exact HsH main commit/tree, their distinct Git blobs and SHA-256 digests, and their node-level delta. The witness is source-custody evidence only; it does not lift the theory stop.
+Applied witness: [h876:s3 Morrow repository snapshot witness](2026-11-16T1236Z_H876_S3_REPOSITORY_SNAPSHOT_WITNESS.json). It records two exports of conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36` at exact HsH main commit/tree, their distinct Git blobs and SHA-256 digests, and their node-level delta. The witness is source-custody evidence only; it does not lift the theory stop.
