@@ -14,6 +14,7 @@ One-run Lane 24 empirical-geometry overlay completed. This does **not** replace 
 - Publisher intake #1826 is **PUBLISHER_REJECTED / NOT_PUBLISHED**: uppercase schema rejected, and independent checks found the submitted SHA-256 also mismatched; Amendment 03 records the corrected digest. Internal report is exact-readback verified; no retry, duplicate issue or direct publication write.
 - P0 noninterference recheck: all eight protected source/control blobs match at main snapshot f5a0bb22e4b5794b7a5b22ebc768a290ad803502; issue #1747 remains open. This is repository evidence only; live A/B routes remain unobserved.
 - P2 remains HOLD. No candidate selected, matrix changed, manuscript/site edit, route probe, or theory promotion.
+- SAT-O1/Blockwave source custody: SAT-O1 source SHA-256 and first archive commit independently verified; original Blockwave Clean Action attachment SHA-256 verified from Library bytes; HsH text archive is a distinct non-byte-identical representation; SATOBLOCK-LIVE and Full Theory drafts remain separate. No equations corrected or promoted. See Amendment 03.
 - Reading break: *The Wind in the Willows*, Chapter I, lines 25–180; next cursor 181. FIE next review November 24.
 - Next deterministic ring label: Mercer. No handoff or cross-thread delivery claim.
 
