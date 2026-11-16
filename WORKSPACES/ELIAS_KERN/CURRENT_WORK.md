@@ -21,7 +21,7 @@ Track A remains sandbox/prototype work. Track B ELIAS-2224 disposition is pendin
 
 ## P0, Lane 24 and PWH
 
-P0 issue #1747 remains open. The 19:02:30Z discovery snapshot was source-consistent at observation, with 15,362 documents, 8,431 workspace records, 8,431 generic reader targets and 8,220 excerpts. Paper A/B still have generic raw reader targets; all eight protected source/control blobs match pinned values. No live route was observed. The snapshot predates subsequent h883 queue, receipt, published-submission and workspace-checkpoint writes; next scheduled discovery refresh should be checked for inclusion.
+P0 issue #1747 remains open. The 19:41:36Z discovery snapshot (blob 3238d728bc6c98a10213f1b3708f692956e5a5d7; embedded HsH source 73f0f3a9b48b8de173048d2ec1950a394018d041) contains 15,363 documents, 8,432 workspace records, 8,432 generic reader targets and 8,221 excerpts. It includes the h883 receipt and WH-02 queue refresh. It predates the published-submission artifact and the latest Elias README/CURRENT_WORK revisions; current main advanced to ec7e2d2a after the snapshot. Paper A/B still have generic raw reader targets; all eight protected source/control blobs match pinned values; no live route was observed. Issue #1851 amendment #6927262369 records this time-bounded distinction.
 
 Lane 24 cycle 08/08 remains BACKSEAT / HOLD pending P0 standdown. No physical calculation, CODATA comparison, SAT-O/Blockwave equation change, Lean build, paper advancement or theory promotion.
 
