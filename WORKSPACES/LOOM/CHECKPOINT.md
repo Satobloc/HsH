@@ -1,3 +1,9 @@
+## H885:S3 publisher readback | SUBMITTED_NOT_VERIFIED
+
+Issue #1859 schema/title and exact content SHA-256 match PASS; no publisher comment; canonical artifact 404. Cause unresolved. No retry, edit, reopen, duplicate, direct write or bypass. See ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2136Z_s3_loom_AMENDMENT_01_PUBLISHER_READBACK.md.
+
+---
+
 ## H885:S3 | 2026-11-16T2136Z | SOURCE_BOUND_COMPARISON_SPECIFICATION
 
 - Selection: h=885, s=3, seq=4428, ring index 1 Loom; next Aster index 2.
