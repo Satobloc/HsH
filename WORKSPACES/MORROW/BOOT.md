@@ -1,12 +1,12 @@
 ## Latest activation | h869:s0 | 2026-11-16
 
-**Current status:** SOURCE_FIDELITY_DELTA / PUBLISHER_SUBMITTED_NOT_VERIFIED.
+**Current status:** SOURCE_FIDELITY_DELTA / PUBLISHED_VERIFIED.
 
 - Report issue: https://github.com/Satobloc/HsH/issues/1827
 - Submission ID: morrow-h869-s0-minkowski-primitive-source-fidelity-20261116t0500z-001
 - SHA-256: 5e78824188060668920c0e176b13bef1096c6e8bc9a3020f849de6e9653e7e81
 - Expected artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h869-s0-minkowski-primitive-source-fidelity-20261116t0500z-001.md
-- Do not resubmit; publisher comment and artifact readback were pending at the latest check.
+- Do not resubmit; publisher comment #6908579909 and exact artifact readback verified; SHA-256 matched.
 - Morrow's September 13 direct theory stop remains active. This run was archive/source comparison only. No theory integration, equation correction, Lean proof, physical calculation, paper work, or BEDROCK promotion.
 - Mersearch was not executed; all four request lanes remain occupied/requested. No lane overwritten or retriggered.
 - Next ring identity: Kestrel. Optional repository-only context packet created; no cross-thread delivery claim.
