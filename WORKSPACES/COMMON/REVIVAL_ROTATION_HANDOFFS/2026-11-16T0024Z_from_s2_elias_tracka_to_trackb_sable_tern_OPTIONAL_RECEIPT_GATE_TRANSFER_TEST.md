@@ -19,3 +19,11 @@ This packet preserves one new cross-task transfer test for Sable and Tern to con
 The existing ELIAS-2224 EvidenceLedger/subject-scope disposition is still pending. This packet does not satisfy it and does not request a response. Track B remains free to KEEP / MODIFY / TEST / REJECT / DEFER independently.
 
 No POC, PR, adapter, production, scheduler, task-graph, or theory change was made. No private HSH_RESOURCES URL/path is reproduced here.
+
+
+## Publication status
+
+- Public-safe report is now `PUBLISHED_VERIFIED` at [issue #1812](https://github.com/Satobloc/HsH/issues/1812).
+- Publisher run [#43780583928](https://github.com/Satobloc/HsH/actions/runs/43780583928) succeeded; exact issue-payload/artifact readback passed.
+- Artifact SHA-256: `060ab3d382a08315665b124b23a21111682c6705d46833a9ae489c782c14e113`.
+- This does not change the optional-only classification or the pending ELIAS-2224 Track B disposition.
