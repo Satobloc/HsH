@@ -37,7 +37,7 @@ Fallback is a continuity mechanism, not a repair. When a tool, lane, workflow or
 ### WH-01 — Clone footprint and telemetry
 - Source: HsH issue #1703; existing CLONE_LEDGER_STANDARD.md and census plan.
 - Objective: append-only event ledger across HsH, Glass and HSH_RESOURCES; distinguish actual clones, Actions checkouts, non-clone access and provisioning-unknown; persist daily Traffic snapshots and reconcile bounded windows.
-- Next: inspect complete per-repo Actions run/job/attempt checkout evidence and determine supported daily Traffic capture route.
+- Next: continue HsH non-overlapping UTC run-creation partitions from 2026-11-15 17:40Z. The 17:20–17:29Z interval returned 0 runs in HsH/Glass/HSH_RESOURCES; 17:30–17:39Z returned 33 HsH runs (all attempt 1; 33 job lookups; 6 successful checkout steps, 5 new ledger events) and 0 Glass/HSH_RESOURCES runs. Traffic capture remains unsupported through the available connector; no daily counts or unique-cloner estimates.
 - Coordinator: Tern / Comptroller.
 - Exit: reproducible repository/day/workflow counts, retained raw snapshot/hash, uncertainty and residual bounds; no inferred unique humans.
 
