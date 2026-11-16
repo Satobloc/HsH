@@ -1,3 +1,17 @@
+## h887:s3 verification amendment | 2026-11-16T23:48Z
+
+<badge color="success">LEAN_EXACT_HEAD_PASS</badge> <badge color="success">PUBLISHED_VERIFIED</badge>
+
+- PR #1619 remains OPEN / DRAFT / UNMERGED. Exact expected and actual checkout: `275b5396a97d4f7efc4d7d2248bfa08218f01b35`. [Actions #43981958006](https://github.com/Satobloc/HsH/actions/runs/43981958006) succeeded, job #133700427619. Lean 4.34.0, Lake 5.0.0, full library 8,946 jobs. New module built at 8,944/8,946.
+- New theorem axiom reports: exact-key theorem NONE; complete-index absence theorem NONE; partial-index countermodel `[propext]` only. No `sorryAx` or custom axiom in the new module. Global axiom audit skipped; tests/lint/leanchecker/nanoda not run. Vercel status FAILURE, cause not independently established.
+- [PR verification comment #6933008042](https://github.com/Satobloc/HsH/pull/1619#issuecomment-6933008042).
+- Issue #1863 publisher comment #6932934938 reports PUBLISHED and readback verified. Artifact SHA-256 `fc46645223024d61e7b0c6e4ef29f47aa4c8c82420c5c045757e0d3f838f77e7`; file present, 10,069 bytes, Git blob `7fca9f2bd35b2002258ef6ed1931e826ef741253`.
+- Remaining formal limits: `OutputId` uniqueness/versioning is assumed, not proved; integrity certificate is not bound/authenticated against the manifest; capture-time semantics remain opaque. No semantic-support/causal claim.
+- No physical result; P2 HOLD. No theory promotion or paper-gate advancement.
+- [Receipt amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2336Z_s3_enheduanna_AMENDMENT_02_LEAN_AND_PUBLISHER_VERIFICATION.md).
+
+---
+
 ## h887:s3 PWH amendment | 2026-11-16T23:36Z
 
 WH-05 read-only refresh appended to the canonical PWH queue at commit `de2f1681623335d0a006f883cf7f9c4547063087`. All four canonical request files remain `requested`; exact request IDs/blob SHAs are recorded. The expected current-main `RUN_MANIFEST.json` and `SEARCH_RECEIPT.md` paths for each ID returned 404. This is NOT_OBSERVED at those paths, not proof that no Actions run exists. Current first failing transition is NOT_IDENTIFIED. No request changed or released; Tern retains lane-release authority. WH-05 remains P1 / HIGH, subordinate to P0 and protected P1. [Receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2336Z_s3_enheduanna_AMENDMENT_01_WH05_READBACK.md).
