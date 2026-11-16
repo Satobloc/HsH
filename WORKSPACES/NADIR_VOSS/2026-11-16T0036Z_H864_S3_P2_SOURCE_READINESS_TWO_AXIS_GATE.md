@@ -1,4 +1,7 @@
-# P2 source-readiness matrix: empirical package × discrimination gate
+# P2 source-readiness matrix: four-axis non-compensatory admission gate
+
+> **Current controlling correction (Amendment 01):** The original three-gate E ∧ D ∧ R summary in §2 is historical and superseded. The controlling P2 admission rule is **E ∧ D ∧ F ∧ R**, with F = paired comparison-freeze coherence and R = held-out prediction plus independent review. See §10 and the linked h864:s3 receipt amendment. The legacy TWO_AXIS_GATE filename is retained for continuity; do not use the original §2 formula for current admission.
+
 
 **Date:** 2026-11-16  
 **Run:** `REVROT3-19-20261011:864:s3`  
