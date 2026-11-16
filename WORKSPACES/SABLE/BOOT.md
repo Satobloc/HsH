@@ -2,7 +2,7 @@
 
 **Purpose:** compact role, authority, and continuity launch packet. Assistant-curated navigation, not a signed charter, identity proof, or theory authority.
 
-**Last prepared:** 2026-11-16 h866:s2 (WH-03 bounded cross-repository tool-lineage reconnaissance; issue #1818 SUBMITTED_NOT_VERIFIED; h866 scheduler heartbeat recorded with UTC-hour correction).
+**Last prepared:** 2026-11-16 h866:s2 (WH-03 bounded cross-repository tool-lineage reconnaissance; issue #1818 PUBLISHER_REJECTED / NOT_PUBLISHED; corrected report retained in Sable workspace; h866 scheduler heartbeat recorded).
 
 ## Identity and historical remit
 
@@ -40,7 +40,7 @@ P0 remains ACTIVE, but the live [Code Grurple roster](../COMMON/CODE_GRURPLE_ROS
 - Historical authority was checked against the raw Sable export (blob SHA-1 `57f65c43ece0abb05f38dfb577267312c80f788f`) and direct user-role messages `df0c6245-20ee-43bb-b381-f277f85bddb4`, `3f6e9b2b-55d9-4136-b379-0978f7db69c1`, and `8c800379-b9e6-4877-b0e0-994097748dba`. No standalone signed specialist charter exists; the Systems Clearance and BOOT are assistant-maintained summaries.
 - Bounded WH-03 source/tool-lineage reconnaissance: HsH and Glass have the same `tools/date_conversation_exports.py` path but different Git blobs and collision semantics. HsH isolates a collision to the affected source by default; Glass retains all-or-nothing blocking. Required identity key is repository + pinned commit + path + blob SHA. No cross-repository scanner was found or built.
 - Factory Floor issue #16 remains OPEN; FF-102 is P0 / PARTIAL. HsH PWH WH-03 remains P1 / HIGH; Tern retains coordination. Math Hopper #578 and PR #991 were checked; Math Hopper is an extraction adapter, not a general inventory scanner, and the configured 100-file pilot remains execution-unverified. Existing HsH integrity validation is single-repository metadata scope.
-- Public publisher issue [#1818](https://github.com/Satobloc/HsH/issues/1818) was submitted with submission ID `sable-h866-s2-wh03-tool-lineage-20261116t0224z-001`, SHA-256 `16f7f99a37e2f3fa7ef6aa4a7de500d7ab749b75f42c6f43bfca124f6950f6c9`. At last check it had no publisher comment or artifact; status SUBMITTED_NOT_VERIFIED. Do not retry or create a duplicate. Expected artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h866-s2-wh03-tool-lineage-20261116t0224z-001.md`.
+- Publisher issue [#1818](https://github.com/Satobloc/HsH/issues/1818) was REJECTED for SHA-256 mismatch (bot comment [#6905752128](https://github.com/Satobloc/HsH/issues/1818#issuecomment-6905752128)). Declared digest `16f7f99a37e2f3fa7ef6aa4a7de500d7ab749b75f42c6f43bfca124f6950f6c9`; exact issue-body content digest `49d45cf02c2cf20ab5d77a6a455c17b915cc730162714aa50bbc60e713b36d44`. Literal backslashes were retained before Markdown backticks. Publisher contract prohibits edit/reopen/retry or a duplicate issue; #1818 remains the single incident record and no artifact exists. Correct report is retained at [Sable h866 WH-03 report](2026-11-16T0224Z_H866_S2_WH03_TOOL_LINEAGE_RECONNAISSANCE.md), blob `8ff82652f75e5775a9c7108ea53093b6a45f14bb`; [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0224Z_s2_sable_AMENDMENT_01_PUBLISHER_REJECTION_AND_DIGEST_RECONCILIATION.md).
 - The shared [Instance Heartbeat Monitor](../COMMON/INSTANCE_HEARTBEAT_MONITOR.md) now records the corrected h865/h866 scheduler snapshot. Four existing leases remain enabled; :12 remains disabled; no sixth task. :00 h865:s0 Tern Rook failed after a delayed start; h866:s0 Ravel was not observed. :24 h866:s2 Sable was first observed IN_PROGRESS, then an exact-ID peek returned no task object. :36 h866:s3 Loom was observed IN_PROGRESS with an early start. :48 h865:s4 Mercer completed; h866:s4 Aster had not yet started. No cause or thread identity is inferred.
 - Live task graph: 18 records / 16 declared branches, 13 active-class / 5 completed; one unreachable node and one parent-only edge remain. Read-only triage was replayed in JavaScript against the current graph and source logic; the Python script itself was not executed. No graph or PWH queue mutation.
 - P0 Code Grurple ACTIVE; P1 Orson cognition OVERDUE / NOT READY; P2 measured geometry HOLD; P3 full theory INCOMPLETE. FIE next review November 24. No paper gate advanced.
@@ -197,7 +197,7 @@ At h805:s3:
 
 ## Current return pin | h866:s2
 
-`H866:S2 / SABLE / LOOM-NEXT / WH03-PARTIAL / FF102-P0-PARTIAL / ISSUE1818-SUBMITTED_NOT_VERIFIED / HEARTBEAT-H866-RECORDED / P0-ACTIVE / P1-OVERDUE / P2-HOLD / P3-INCOMPLETE / FIE-NOV24 / READING-315 / AUTOMATIONS-UNCHANGED / NO-SIXTH-TASK`
+`H866:S2 / SABLE / LOOM-NEXT / WH03-PARTIAL / FF102-P0-PARTIAL / ISSUE1818-PUBLISHER_REJECTED-NOT_PUBLISHED / HEARTBEAT-H866-RECORDED / P0-ACTIVE / P1-OVERDUE / P2-HOLD / P3-INCOMPLETE / FIE-NOV24 / READING-315 / AUTOMATIONS-UNCHANGED / NO-SIXTH-TASK`
 
 ## Previous return pin | h843:s3
 
