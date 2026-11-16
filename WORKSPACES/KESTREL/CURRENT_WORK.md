@@ -19,6 +19,7 @@ Primary pointers:
 - Witness: WORKSPACES/KESTREL/2026-11-16T1636Z_H880_S3_SNAPSHOT_BOUND_MAP_EDGE_WITNESS.json
 - Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1636Z_s3_kestrel.md
 - Publisher: https://github.com/Satobloc/HsH/issues/1845
+- Schema-status clarification: issue comment #6923202492 and receipt amendment 02 explicitly mark ModelFreeze integration as proposed, not implemented.
 - Successor packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T1654Z_from_s3_kestrel_to_s4_meridian_OPTIONAL_SNAPSHOT_BOUND_MAP_CONTEXT.md
 
 ---
