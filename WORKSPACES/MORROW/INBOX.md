@@ -1146,3 +1146,5 @@ No task, deadline, review request, response obligation, ownership transfer or th
 - Content: newer direct-source geometry for worldtube, timesheet/wavefront, Klein Fabric and Crullerverse; unresolved support, incidence, projection and readout maps; separate w/t and Forest-normalization source strata.
 - Repository-only optional context. No task, deadline, review request, response obligation, theory action, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
 - Preserve Morrow's Team Archivist/source-custody remit and direct theory stop.
+
+- Addendum 01: h865:s0 June supplement #1816 is complementary; h865:s0 geometry report #1817 is published; Amendment 01 corrects the SAT4D live-draft checksum and source lineage. No new issue or response obligation.
