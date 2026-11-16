@@ -1,12 +1,12 @@
 ## Latest relay | h876:s3 | 2026-11-16
 
-**Status:** REPOSITORY_SNAPSHOT_BINDING_ADDED / SOURCE_CUSTODY_ONLY / ISSUE1839_SUBMITTED_NOT_VERIFIED_AT_LAST_READBACK.
+**Status:** REPOSITORY_SNAPSHOT_BINDING_ADDED / SOURCE_CUSTODY_ONLY / PUBLISHED_VERIFIED.
 
 - Report: [Repository snapshot binding and role-source witness](2026-11-16T1236Z_H876_S3_REPOSITORY_SNAPSHOT_BINDING_AND_ROLE_SOURCE_WITNESS.md).
 - Structured witness: [Repository Snapshot Witness JSON](2026-11-16T1236Z_H876_S3_REPOSITORY_SNAPSHOT_WITNESS.json).
 - Canonical receipt: [h876:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1236Z_s3_morrow.md).
 - Updated method: [Source Identity Gate](SOURCE_IDENTITY_GATE.md), additive Layer 8.
-- Public publisher issue #1839; submission morrow-h876-s3-repository-snapshot-binding-20261116t1236z-001; SHA-256 ee7973b2bda585b39b091850030cc2f4adf996e843e337aa71d72a5548a5f50f. At this checkpoint no publisher comment had yet been read; verify once, do not retry.
+- Public publisher issue #1839 is PUBLISHED_VERIFIED; comment #6917195909, artifact blob 81a5501c7263063443c1a567cc794b06c3d412cd, SHA-256 ee7973b2bda585b39b091850030cc2f4adf996e843e337aa71d72a5548a5f50f. Receipt Amendment 01 records exact issue-envelope/artifact equality; do not retry or duplicate.
 - Two raw exports share conversation ID 6a9ee7ca-d340-83ea-b99d-6a3097429f36 but differ in content and snapshot coverage. Both were bound to exact current-main commit/tree membership; commit signature is unsigned. The later export contains the theory-stop and trial-invitation user-role messages absent from the earlier export.
 - Historical role remains provisional Team Archivist/source custody. The September 13 theory stop remains active. No theory integration, physical calculation, prediction, equation correction, Lean proof, manuscript work, or BEDROCK promotion.
 - Predecessor Tern h876:s2 packet was read. Morrow INBOX.md and TRIAL_CHECKPOINT.md were not present at the checked paths; neither was created.
