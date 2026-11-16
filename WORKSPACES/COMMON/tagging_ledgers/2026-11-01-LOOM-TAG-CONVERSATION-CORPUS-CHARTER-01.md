@@ -910,3 +910,82 @@ The 2024 `DIMENSIONAL GRAVITY` messages `aaa2269b-7eab-4781-9454-647098d6747f`, 
 - Reuse tags: `LATERAL-READ`, `LANGUAGE-DISCOVERY-GAME`, `RELATED-LANGUAGE-CHAIN`, `GAME-RULE-CORRECTION`, `TRANSCRIPT-FLAT`, `TEXTUAL-SPEAKER-LABELS`, `NO-RAW-ROLE-METADATA`, `NO-NATHAN-DIRECT-ATTRIBUTION`, `NOT-THEORY-EVIDENCE`.
 - The export remains a flattened transcript with textual speaker labels, not raw role/UUID evidence. No real-world speaker attribution or Nathan Direct claim is inferred.
 - **Next cursor: line 1721.** This is lateral reading, not H(s)H evidence or a forced analogy.
+
+
+## AI. 2026-11-16 | H885:S3 | Klein-Fabric source-bundle version and P2 admission
+
+**Purpose:** add a source-version lock for the current P2 H1 geometry candidate, preserving direct-source strata and explicit supersession without inventing a replacement map. This is a bounded source-tagging pass, not a claim that every message in the conversations was semantically reviewed.
+
+### AI.1 Raw source identities and bounded ancestry
+
+**Calder Construction Story Retelling**
+- HsH path: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Calder Construction Story Retelling.json`.
+- Conversation: `6a8eacca-c470-83ea-af92-8fb8df194de9`; raw Git blob: `92454acdaad701193e2a0c6cf64a7d7b70a03dbb`.
+- 2,207 mapping nodes; 315 user-role messages; 479 nodes on the recorded current ancestry; 86 user-role messages on that ancestry.
+- Direct current-ancestry message `062ad8ee-ef20-4857-9077-75fe57a6974f`, 2026-08-26T23:41:28.815Z, supplies the global Klein-like fabric / possible local dual-shell realization / twisted-ER-bridge / finite Kerr-like core / long-axis-w proposal.
+- Earlier near-duplicate `aa13431d-598a-4ff2-9f5b-88ae9fd876aa`, 2026-08-26T23:17:43.741Z, is off the recorded current ancestry and is not an independent confirmation.
+
+**Meridian Free Build**
+- HsH path: `LIVE CONVOS/26.10.05•26.10.20•Meridian Free Build — raw.json`.
+- Conversation: `6ac45d1f-17b0-83ea-ad1f-fa524602378b`; raw Git blob: `7af1561b321f4d9364da5eb111df689efc652827`.
+- 2,500 mapping nodes; 80 user-role messages; 2,309 nodes on the recorded current ancestry; 75 user-role messages on that ancestry.
+- Direct current-ancestry messages: `3c657387-b80b-4982-a61a-8e6d8568b8d1` (2026-10-09T01:50:55.112Z, `w=ct` as a time-length scale and classical Minkowski/worldtube-curvature/inertia claim); `5a929b5e-515e-4f77-a32a-e49feef42812` (2026-10-09T02:46:38.173Z, active 3D time-slice/bulk and no-invented-elasticity correction); `1178f25c-9f92-4d1c-b43b-06482e6bf1b1` (2026-10-09T07:40:38.859Z, one helical core/hollow outer superhelix; approximately 0.7 fm is a coil-radius candidate, not filament thickness).
+- **Mixed-source boundary:** `5a929...` begins with an embedded assistant quotation. That quoted block is not Nathan Direct; only the user's correction after it is tagged as direct.
+
+**Meridian Minkowski Ring Analysis**
+- HsH path: `LIVE CONVOS/26.10.20•26.10.21•Meridian Minkowski Ring Analysis — raw.json`.
+- Conversation: `6ad7e9c0-e8a0-83e9-984e-94d020de3abf`; raw Git blob: `56a84cb85d5c386efa4ea11d322d11e95e2c7703`.
+- 3,678 mapping nodes; 112 user-role messages; 3,660 nodes on the recorded current ancestry; 106 user-role messages on that ancestry.
+- Direct current-ancestry messages: `bc09cf32-9952-462a-a02b-2c67a3cf4c91` (2026-10-20T23:12:49.986Z, surface-of-simultaneity-to-Hubble-radius metric-curvature proposal; older two-shell-lambda not current except possibly as UI approximation; half-sum remains dimensionally unresolved); `090f5160-1020-486d-9c42-df3d7dff2063` (2026-10-21T00:17:23.235Z, explicit reciprocal-construction retirement); `47cf2603-bf28-439c-82b3-1f0e0c2a7dc8` (2026-10-21T00:31:23.968Z, Back Hallways older/different/sloppy; Loop/Star remains conceptual); `c5525f53-b7cc-4444-8102-3bf6fdb1c892` (2026-10-21T13:55:40.205Z, verbatim `cw=t`, `(++++)`, `Forest Normalizatin`, tentative half-sum).
+- **Mixed-source boundary:** `090f...` contains quoted prior material. Those blocks are not Nathan Direct; only the final user correction retiring the reciprocal construction and describing Back Hallways as metaphorical is direct.
+
+**November 8 geometry source:** existing Section AH.1 remains canonical. Its Library raw export SHA-256 is `875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d`; conversation `6aecede1-4c08-83e9-abc4-da64f59a4f51`; direct message `c0520975-02a0-408f-a250-364b88ab7b30`; provisional fourth-spatial `w`, proper time possibly distinct, no supersession. The export contains 1,150 mapping nodes, 33 user-role messages, 1,005 current-ancestry nodes and 29 user-role messages on that ancestry; three Library aliases were byte-identical. Do not duplicate Section AH.1.
+
+### AI.2 Tag set and source boundaries
+
+Applied tags:
+- `GLOBAL-KLEIN-FABRIC-CONCEPTUAL-PARENT`
+- `LOCAL-DUAL-SHELL-POSSIBLE-REALIZATION-NOT-EQUIVALENCE`
+- `TWISTED-ER-BRIDGE-PROPOSAL`
+- `FINITE-KERRLIKE-CORE-PROPOSAL`
+- `LONG-AXIS-W-CANDIDATE`
+- `RECIPROCAL-FILAMENT-TIMESHEET-RETIRED`
+- `BACK-HALLWAYS-METAPHORICAL`
+- `LOOP-STAR-DERIVATION-MAP-CONCEPTUAL`
+- `TIME-3D-SLICE-BULK-NOT-THIN-SHEET`
+- `W-CT-TIME-LENGTH-SOURCE-STRING`
+- `CW-T-SOURCE-STRING`
+- `PLUS-PLUS-PLUS-PLUS-WORKING-CONVENTION`
+- `PROVISIONAL-FOURTH-SPATIAL-W`
+- `NO-SOURCE-DEFINED-COORDINATE-UNIT-OR-SIGNATURE-MAP`
+- `WORLD-TUBE-CURVATURE-INERTIA-CLASSICAL-CLAIM`
+- `NO-INVENTED-ELASTIC-MODULUS-TENSION-OR-SPRING`
+- `COIL-RADIUS-NOT-FILAMENT-THICKNESS`
+- `KERRLIKE-CORE-NOT-FLUID-VORTEX-CORE`
+- `P2-SOURCE-BUNDLE-MUST-BE-FROZEN`
+
+Only one explicit supersession edge is recorded: the reciprocal filament/timesheet-deformation construction is retired as the current model by the final direct correction in `090f...`. This does not prove equivalence between the Klein-like fabric and the local dual-shell.
+
+The strings `w=ct`, `cw=t`, `(++++)`, and provisional fourth-spatial `w` remain separate source strata. No source-defined conversion, unit map, metric signature, causal map, or projection map is supplied. The live BEDROCK's Minkowski-kinematics default remains the control.
+
+### AI.3 P2 source-bundle use
+
+- Source-bundle ID: `loom-h885-s3-p2-source-bundle-20261116`.
+- Machine-readable witness: `WORKSPACES/LOOM/2026-11-16_H885_S3_P2_SOURCE_GEOMETRY_VERSION_WITNESS.json`.
+- Final witness SHA-256: `241d7134fb49d22b86342c873c02ae6d97fa4343fbaf6df56fc014609d60142f`.
+- Final witness Git blob SHA-1: `22457c22156fb932f8b79843808c543e3e151257`.
+- Report: `WORKSPACES/LOOM/2026-11-16_H885_S3_P2_SOURCE_GEOMETRY_VERSION_WITNESS.md`.
+- Public issue: `#1857`; publisher comment `#6930774895`; artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-h885-s3-p2-source-bundle-witness-20261116-001.md`; publisher commit `26ae23b687cd16ae49eed93a18ab84e3c79f1b49`; report SHA-256 `a195df812412560f762175bda8798808b160d46a231a386f9acc9f43c8dbdfcb`; artifact/workspace Git blob SHA-1 `b71f3f89bad00c118c3e1f094127862e47e21b6b`; readback verified. Amendment 01 source-role comment `#6931025257` links the mixed-source clarification.
+- The witness instantiates Kestrel's proposed `SnapshotBoundMapEdge` for the current H1 source bundle. It is not an implemented schema or a source-defined map.
+- Nadir's `ComparisonFreeze` has an opaque `sourceBundleId`; the source bundle must be bound to exact raw-export blobs, direct message IDs, supersession edges, map-edge IDs and map-artifact digest. A source or map change after calibration requires a new comparison freeze or a claim-specific transport certificate.
+- The global-to-local, Minkowski-to-current-convention, worldtube-to-core and worldtube-to-laboratory maps remain undefined. P2 remains HOLD. No physical calculation, fit, prediction, independent measurement, or theory promotion was performed.
+- SAT-O1 and Blockwave equation custody remains in existing Section AH.3 and the Ravel h885:s0 report. No equation was edited or corrected.
+
+## AJ. 2026-11-16 | Unrelated reading quantum | cursor 1681–1720
+
+- Source: `fun break - lx.txt`, lines 1681–1720.
+- HsH and SAT archive copies resolve to the same Git blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`; one content witness, not independent corroboration.
+- Read extent: exactly 40 lines; next cursor 1721.
+- Content: continuation of a language-discovery game with assistant-generated language-family guesses.
+- Tags: `UNRELATED-READING`, `LANGUAGE-DISCOVERY-GAME`, `ASSISTANT-GENERATED-CLASSIFICATION-UNVERIFIED`, `NO-NATHAN-AUTHORSHIP-CLAIM`.
+- The linguistic classifications are not verified and are not evidence for H(s)H/SAT.
