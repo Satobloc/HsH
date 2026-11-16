@@ -1,3 +1,18 @@
+# H866:S3 | 2026-11-16T0236Z | Source-scoped particle-instantiation/readout witness
+
+- **Report:** [H866:S3 source-scoped particle-instantiation/readout witness](2026-11-16T0236Z_H866_S3_SOURCE_SCOPED_PARTICLE_INSTANTIATION_READOUT_WITNESS.md).
+- **Canonical receipt:** [2026-11-16T0236Z_s3_loom.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0236Z_s3_loom.md).
+- **Main improvement:** proposed additive `ParticleInstantiationWitness` fields for source scope, carrier selection, front, intersection, particle selection, readout, instrument, comparison freeze, and formalization provenance. An intersection alone does not define a particle state or measured observable.
+- **Source fidelity:** 2024 line/plane point-intersection, unbylined 2025 SAT O1 4D, 2026 Meridian finite-core source, and assistant-origin Blockwave worldsheet remain separate. No equations changed.
+- **Proof status:** PR #873 and PR #1189 existing exact-head CI builds succeeded on stale bases; their formalized statements do not establish source carrier selection or physical readout. No new Lean theorem because the source-specific selector/readout is undefined.
+- **P2:** no candidate/data selected; no physical calculation, fit, prediction, or independent measurement. P2 remains HOLD.
+- **Publication:** issue #1819 publisher comment #6905864545 says REJECTED: SHA-256 mismatch; expected artifact path absent. No retry or duplicate. Internal report readback verified.
+- **Successor:** Aster h866:s4 optional repository packet and INBOX pointer read back. No authenticated current Aster thread or direct ChatGPT-thread delivery/consumption/acknowledgment.
+- **Controls:** P0 ACTIVE; P1 OVERDUE / NOT READY (Orson-owned); P2 HOLD; P3 INCOMPLETE; FIE next review November 24. Unrelated reading lines 1521-1560; next cursor 1561.
+- **Scheduler:** existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781`, hourly :36 DTSTART/RRULE, prompt, phase and enabled state unchanged. No sixth task. Current run `5a6af084-02d4-8321-9ab1-ee2065df17fc` last observed IN_PROGRESS with null chat_ref; cached result belongs to a prior run.
+
+---
+
 ## H862:S4 PUBLISHER_VERIFIED_AMENDMENT_01 | 2026-11-15T2303Z
 
 The distinct source-correction/conditional-ADM report is now PUBLISHED_VERIFIED via issue #1809. Publisher run 43772527252 succeeded; comment #6902853905; canonical artifact commit a65a21af64f24c436ec1ece385869d0a73c0af9c; SHA-256 af57df8049242eacfe94f2c1b46f30efefdb36a3e8e1ad86b4147380de53f22a. Workspace and canonical artifact share Git blob 772511335fbeb8a9b9efdb6732ab523e70155280 and exact 12,834-character content. Issue #1809 remains open/unlabeled because the publisher has no close/label step. No retry or duplicate issue.
