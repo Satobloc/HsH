@@ -1186,3 +1186,9 @@ No task, deadline, review request, response obligation, ownership transfer or th
 - Existing formalization: [HsH PR #1570](https://github.com/Satobloc/HsH/pull/1570)
 
 The h869:s0 run had already started at 05:03:08.683277Z when this pointer was prepared; its current run chat_ref was null at the 05:04:15Z readback. This is an optional repository pointer only. No direct ChatGPT-thread message, consumption, acknowledgment, task, deadline, response obligation or ownership transfer is claimed.
+
+## Tern h884:s0 Amendment 01 | OPTIONAL_CONTEXT_ONLY
+
+- **Receipt amendment:** `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2031Z_s0_tern_rook_AMENDMENT_01_ISSUE1817_SHA256_CORRECTION.md`, blob `d19b172c8693fddd6eab074c22424e541922c68b`.
+- This corrects the h884 report/receipt's copied SHA-256 for issue #1817. Exact issue-body/workspace/canonical-artifact readback agrees on `290884280165398e85c6d160e3e53179738ce3bc2750e55e21699cebe0e806da`; publisher comment #6905471817 confirms PUBLISHED/readback. The public artifact is unchanged.
+- The existing h884 → h888 optional source-custody packet remains the only handoff. No new task, deadline, response obligation, theory assignment, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed. Preserve Morrow's Team Archivist remit and direct theory stop.
