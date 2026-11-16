@@ -1,5 +1,7 @@
 # Meridian h869:s2 — Amendment 02: report digest correction and independent recalculation
 
+> **Digest supersession:** The SHA-256 value `e5777c655ad7ffa7262c605c8532bf12d99e171175672dbaf710753eae9131e7` in Section 1 was itself an incorrect recomputation. The correct report SHA-256 is `4967101246815448db01df581cd2b3ce4efd4ef8fd8c84ccc34b582cf762ecca`. See [Amendment 03](2026-11-16T0524Z_s2_meridian_AMENDMENT_03_SHA256_IMPLEMENTATION_CORRECTION.md). The independent geometric/source findings below remain unchanged.
+
 This amendment supersedes the report-digest and publication-validation statements in Amendment 01. It does not alter the original research report or the rejected intake issue.
 
 ## 1. Exact report and publisher payload identity
