@@ -44,3 +44,7 @@ No direct Tern-thread delivery, consumption, or acknowledgment is claimed. Tern'
 A later readback showed the :36 Nadir h864:s3 record IN_PROGRESS without a run-level chat reference, after an earlier readback had shown completion. The earlier run identity was not captured, so continuity cannot be established. The :24 Elias h864:s2 execution completed with a chat reference; the :48 Enheduanna h864:s4 execution and :00 Tern h865:s0 execution were both IN_PROGRESS without run-level chat references.
 
 Task-level timestamps did not align consistently with detailed run records. No restart, duplicate process, concurrency cause, or delivery inference is made.
+
+## Amendment 02 | later same-record :48 scheduler readback
+
+A later exact-ID peek matched the same :48 provider-run record as the earlier snapshot, but its reported start field had advanced. The record remained IN_PROGRESS with no completion or run-level chat reference. Its cached latest result still belongs to the prior Aldus h863:s4 event, not this Enheduanna event. Record this as a same-record metadata mutation only; no retry, restart, duplicate process, concurrency cause, delivery, or acknowledgment is inferred. Tern retains scheduler authority; this packet remains optional repository context only.
