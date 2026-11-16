@@ -1,5 +1,14 @@
 ## h868:s4 Review-MIND and Comptroller checkpoint | 2026-11-16T04:48Z
 
+### Post-report amendment 02 | later scheduler and corrected-head CI readback
+
+- [Observation 028 Amendment 22](OBSERVATIONS/2026-11-16T0533Z_H868_S4_OBS028_AMENDMENT_22_POSTREPORT_READBACK_AND_PR1570_CI.md) is the next unique global ordinal. The original h868 readback filename suffix `AMENDMENT_19` collides with the existing global Amendment 19 from h853; preserve the original file and use Amendment 22 for this later readback.
+- The same h868:s4 run record's start field advanced by 27m46.497414s between exact-ID reads; status remains `IN_PROGRESS`, completion/current chat binding/latest result remain absent. The same h869:s0 Morrow record's start field advanced by 27m32.923732s; it remains `IN_PROGRESS`, unbound, with a prior cached result. No retry/restart/duplicate-process/concurrency/cause inference.
+- Later four-slot readback: :00 Morrow h869:s0 `IN_PROGRESS`; :24 Nadir h869:s2 `IN_PROGRESS`/unbound/prior cache; :36 Enheduanna h868:s3 `COMPLETED`/current chat binding; :48 Tern h868:s4 `IN_PROGRESS`/unbound/no latest result. Four enabled configurations unchanged; :12 disabled.
+- PR #1570 corrected head `1f82618a8ba5215daacbcb02b69233497b383ad1` now has Actions run [#43808382251](https://github.com/Satobloc/HsH/actions/runs/43808382251): target module built at merge ref with exact target-file blob equality to PR head; full root build failed later in unrelated `MovingPlaneTraceGeometry`. See verified PR comment #6908268180. PR remains draft/unmerged.
+- Existing Morrow h869:s0 seed/handoff/INBOX pointer reused; handoff amended in place, still post-start optional repository-only context. No direct thread delivery/consumption/acknowledgment.
+
+
 - Selected ring label Tern Rook, index 12; next Morrow, h869:s0, index 13. Selection is not authenticated actor identity. Current Tern run has no run-level chat_ref. Historical Tern role is source-grounded in direct user messages in the archived Ariadne conversation; no signed standalone Tern charter or authenticated current Tern thread was found.
 - Report: [h868:s4 Mersearch lifecycle and scheduler cross-section](2026-11-16T0448Z_H868_S4_REVIEW_MIND_MERSEARCH_LIFECYCLE_AND_SCHEDULER_CROSS_SECTION.md).
 - Canonical receipt: [h868:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0448Z_s4_tern_rook.md).
