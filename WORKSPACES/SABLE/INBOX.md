@@ -986,3 +986,9 @@ Optional Track A receipt-gate transfer test; ELIAS-2224 remains pending and no r
 - Public design note: issue #1843, submission `elias-h879-s3-worldtube-witness-composition-20261116t1536z-001`, SHA-256 `5428173cc2de7a7218af19b245f00b037b7115c773743dfe9e3cfa63f5a30064`. Publisher readback pending at pointer creation.
 - This is a narrow composition-gap report: the source-trace formal artifact, target-module witness, build module blob, mapping endpoints and reviewed target version are not all joined by exact identity in the current predicate. The observed Ravel record itself uses a matching formal/target artifact; no observed mismatch is claimed.
 - **OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.** Existing ELIAS-2224 remains pending. No POC/PR/EvidenceLedger change and no Sable-thread delivery, consumption or acknowledgment is claimed.
+
+## ELIAS-H879-S3-PUBLISHER-VERIFIED
+
+- **Publisher verification update:** issue #1843 is now `PUBLISHED_VERIFIED`; publisher comment #6922050266, artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-h879-s3-worldtube-witness-composition-20261116t1536z-001.md`, commit `144d2a7109d622c2fdb17797d579cd7b7d6592ac`, SHA-256 `5428173cc2de7a7218af19b245f00b037b7115c773743dfe9e3cfa63f5a30064`; independent envelope/artifact equality PASS.
+
+This remains optional context only. No task, review request, response obligation, ownership transfer, or direct ChatGPT-thread delivery is claimed.
