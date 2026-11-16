@@ -25,7 +25,7 @@ The current HsH BEDROCK was read in full (667 lines), together with the 2026-10-
 
 Existing Ravel PR #1133 has advanced since h858. Its current head is 48c3d3489dfd705c814663a273385a2184654599 on branch research/ravel-carrier-slice-reconstruction-20261031t0212z. The current base branch infra/lean4-verification-20261023 is 89ab283ae583aef69d6f89a36cc0e2d3b09bfe63. PR #1133 remains OPEN / DRAFT / UNMERGED.
 
-The new module is FORMAL_VERIFICATION/HsHVerification/RavelDirectedSliceChainComposition.lean, blob 8f1d6d1d... (exact module blob is recorded by the branch source; see PR #1133). It adds an explicit two-stage adapter rather than relying on a verbal nesting analogy:
+The new module is FORMAL_VERIFICATION/HsHVerification/RavelDirectedSliceChainComposition.lean, blob ba74e32c19f5a3b3ac188ac0d714bb75a9b30988. It adds an explicit two-stage adapter rather than relying on a verbal nesting analogy:
 
 - ambient comparison map;
 - carrier lift;
