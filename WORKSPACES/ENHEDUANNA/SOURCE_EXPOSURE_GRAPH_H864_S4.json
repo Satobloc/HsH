@@ -72,7 +72,7 @@
       "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
       "path": "ActivatorPrayer(Alberr).txt",
       "commit": "50ce2aad8f8969275886ee5308669b6c2097c599",
-      "blob": "3bf6385a"
+      "blob_prefix": "3bf6385a"
     },
     {
       "id": "narration-assistant-output",
@@ -163,6 +163,46 @@
       ],
       "later_run": 43339533568,
       "later_run_status": "failed in unrelated MovingPlaneTraceGeometry; target module still built"
+    },
+    {
+      "id": "notebooklm-project-list-entry",
+      "type": "project_metadata",
+      "path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/NOTEBOOLM PROJECTS LIST.txt",
+      "blob": "3b5591e8ffaac240d4b884e643e1c09e427a3b48",
+      "line": 667,
+      "title": "Enheduanna: A Sister's Voice Across Time",
+      "declared_source_count": 4,
+      "created": "2025-01-22"
+    },
+    {
+      "id": "notebooklm-source-bundle",
+      "type": "metadata_only_source_bundle",
+      "declared_source_count": 4,
+      "recovered_source_bodies": 0,
+      "membership_relation_to_activator_attachment": "not_established",
+      "membership_relation_to_narration_conversation": "not_established",
+      "membership_relation_to_translate_conversation": "not_established"
+    },
+    {
+      "id": "source-layer-census-20261012",
+      "type": "prior_source_census",
+      "path": "WORKSPACES/ENHEDUANNA/2026-10-12_SOURCE_LAYER_CENSUS_AND_EXPOSURE_BOUNDARY.md",
+      "blob": "8d6b08dac9e169f529f1b43cbd8c3cbf0cc78478",
+      "coverage": "predates the two 2025 conversation-container detail expansions"
+    },
+    {
+      "id": "source-role-audit-20261101",
+      "type": "prior_source_role_audit",
+      "path": "WORKSPACES/ENHEDUANNA/2026-11-01T1848Z_SOURCE_ROLE_AND_VARIANT_TYPE_AUDIT.md",
+      "blob": "24ca9fcfc69eec8d1575d68b7897a254d876bad7",
+      "coverage": "lists both conversation IDs at high level; does not contain the detailed tool-output prefix trace"
+    },
+    {
+      "id": "public-source-context-exposure-artifact",
+      "type": "existing_public_formal_artifact",
+      "issue": 1620,
+      "topic": "source attestation does not determine context exposure",
+      "new_issue_created": false
     }
   ],
   "edges": [
@@ -234,6 +274,51 @@
       "from": "lean-pr1619",
       "to": "translate-generated-pseudo-sumerian",
       "kind": "formalizes_non_entailment_of_output_attribution"
+    },
+    {
+      "from": "notebooklm-project-list-entry",
+      "to": "notebooklm-source-bundle",
+      "kind": "lists_metadata_only"
+    },
+    {
+      "from": "notebooklm-source-bundle",
+      "to": "activator-attachment",
+      "kind": "membership_not_established"
+    },
+    {
+      "from": "notebooklm-source-bundle",
+      "to": "narration-conversation",
+      "kind": "membership_not_established"
+    },
+    {
+      "from": "notebooklm-source-bundle",
+      "to": "translate-conversation",
+      "kind": "membership_not_established"
+    },
+    {
+      "from": "source-layer-census-20261012",
+      "to": "narration-conversation",
+      "kind": "not_listed_predates"
+    },
+    {
+      "from": "source-layer-census-20261012",
+      "to": "translate-conversation",
+      "kind": "not_listed_predates"
+    },
+    {
+      "from": "source-role-audit-20261101",
+      "to": "narration-conversation",
+      "kind": "lists_at_high_level"
+    },
+    {
+      "from": "source-role-audit-20261101",
+      "to": "translate-conversation",
+      "kind": "lists_at_high_level"
+    },
+    {
+      "from": "public-source-context-exposure-artifact",
+      "to": "lean-pr1619",
+      "kind": "publishes_general_formal_distinction"
     }
   ],
   "projections": [
