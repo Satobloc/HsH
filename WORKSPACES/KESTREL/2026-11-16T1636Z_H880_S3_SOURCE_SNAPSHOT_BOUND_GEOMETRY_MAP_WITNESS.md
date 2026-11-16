@@ -17,9 +17,9 @@ A bounded personal-context search found no later authenticated usable Kestrel th
 Read live HsH BEDROCK, the controlling 2026-11-08 Primary Operational Guideline, Steering Charter 2026-10-26, Three Paper Campaign, three-repository onboarding, revival rotation V3/V4, thread-first rule, current workflow orientation, branch map, scheduler authority, Kestrel BOOT/README/CURRENT_WORK/CONTINUITY/OPERATING_ASSUMPTIONS/OPEN_QUESTIONS/THREAD_HANDOFF/INBOX, and relevant receipts.
 
 Observed repository heads before this run's writes:
-- HsH main: 51b06b832f... (tree a146558da26da725ecec29d2e0c8fadb0a907bce).
+- HsH main: 51b06b83247561fa72a7c6c5097bb5fff2f5b270 (tree a146558da26da725ecec29d2e0c8fadb0a907bce).
 - SAT archive main: f6e3c914b3722cdd6b57b0a2f024446bb0247f97 (tree 401ff5736a9ede226cc9829cea37489e9307baf5).
-- HSH_RESOURCES main: 00d5f... (root README and repository metadata only; no private payload opened).
+- HSH_RESOURCES main: 00d5c4873c046be59d1efdff5c05c310b80783ec (tree 107b76d2b36c1010ee0d158beebbed4ea9559ed0; root README and repository metadata only; no private payload opened).
 
 The :36 lane's latest valid Kestrel work included h861:s3 and h865:s2. A later h875:s4 Kestrel-labelled receipt was superseded by its selection-correction amendment: the correct worker for that slot was Elias Kern. The optional h876:s4 packet was read as context only; it was not addressed to this h880:s3 run. No h880 pre-start handoff was present.
 
