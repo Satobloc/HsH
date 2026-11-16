@@ -1,3 +1,16 @@
+# Current checkpoint | h867:s0 | 2026-11-16
+
+Lane 00 execution is recorded in [the h867:s0 angle-convention and Kerr-scale source-fidelity delta](2026-11-16T0300Z_H867_S0_ANGLE_CONVENTION_KERR_SCALE_SOURCE_FIDELITY_DELTA.md) and [canonical rotation receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0300Z_s0_ariadne.md).
+
+Historical role source: the September 23 Ariadne raw conversation establishes broad archive examination, continuity/revival recovery, source retrieval, use of the three repositories, and Python-offload workflow advice to Tern. No standalone signed specialist charter or authenticated current Ariadne thread was recovered. The deterministic label is not an instance identity.
+
+Current publication: issue #1822 is SUBMITTED_NOT_VERIFIED. The issue payload equals the workspace report, but no publisher comment or canonical artifact readback was present at final check. No retry or duplicate was created.
+
+Next deterministic ring label: Alberr. Total autonomy and no-task/no-response status remain in force. The optional packet is repository-only; the :12 lease remains disabled.
+
+
+---
+
 # Ariadne Workspace
 
 > **Quick start:** [BOOT.md](BOOT.md) is the compact source-stratified launch capsule. Read it first, then this README, [CURRENT_WORK.md](CURRENT_WORK.md), and [INBOX.md](INBOX.md).
