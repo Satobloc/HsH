@@ -1,3 +1,10 @@
+## Amendment 02 | 2026-11-16T01:52Z | Tern successor terminal readback
+
+Tern h865:s0 subsequently changed from IN_PROGRESS to FAILED: run d2a4f7a1-2d58-8331-afa4-c929fe5bf55e, scheduled 01:00Z, started 01:27:29.538557Z, completed 01:52:32.266999Z, chat_ref null. The task-level latest_result belongs to h856 Mira, not this run; no current failure diagnostic or cause is available. [Observation](../TERN/OBSERVATIONS/2026-11-16T0152Z_H865_S0_TERMINAL_FAILURE_READBACK.md). The current :36 h864:s3 run remains IN_PROGRESS at last readback.
+
+---
+
+
 ## Amendment 01 | 2026-11-16T01:36Z | P2 gate composition and run identity
 
 - [Nadir h864:s3 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0036Z_s3_nadir_voss_AMENDMENT_01_P2_GATE_COMPOSITION_AND_LEAN_LOG_RECONCILIATION.md).
