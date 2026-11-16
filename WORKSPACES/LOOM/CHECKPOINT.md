@@ -1,3 +1,21 @@
+# H885:S3 checkpoint | 2026-11-16
+
+**Return pin:** H885:S3 / LOOM / ASTER-NEXT / SOURCE-BUNDLE-PINNED / RECIPROCAL-MODEL-RETIRED / MAPS-UNDEFINED / P2-HOLD / NO-PHYSICAL-RESULT / NO-NEW-LEAN / PUBLISHED-VERIFIED / MIXED-SOURCE-AMENDMENT-01 / READING-1721 / NO-ASTER-HANDOFF / AUTOMATION-UNCHANGED.
+
+- Source bundle: loom-h885-s3-p2-source-bundle-20261116.
+- Report: WORKSPACES/LOOM/2026-11-16_H885_S3_P2_SOURCE_GEOMETRY_VERSION_WITNESS.md
+- JSON: WORKSPACES/LOOM/2026-11-16_H885_S3_P2_SOURCE_GEOMETRY_VERSION_WITNESS.json
+- JSON SHA-256: 241d7134fb49d22b86342c873c02ae6d97fa4343fbaf6df56fc014609d60142f
+- Issue #1857 publisher comment #6930774895; report SHA-256 a195df812412560f762175bda8798808b160d46a231a386f9acc9f43c8dbdfcb; readback verified.
+- Amendment 01 mixed-source boundary comment #6931025257.
+- Existing Lean exact-head builds: PR #1515 run #42722996625; PR #1852 run #43942772738.
+- No source-defined map from global fabric to local dual-shell, Minkowski control, worldtube/core or Kelvin-vortex instruments.
+- P2 HOLD; no raw dataset, fit, prediction, independent measurement or numeric threshold.
+- Next Aster, but P0 Code Grurple controls; no handoff.
+- Reading cursor 1721; FIE next review November 24.
+
+---
+
 ## H885:S3 task lookup discontinuity
 
 Last successful peek: existing :36 task enabled, original hourly schedule unchanged; run 29d71c7d-7118-8330-8271-0e53b032c420 IN_PROGRESS. Subsequent peek/get: task unavailable / 404. No mutation or replacement. Current state UNVERIFIABLE. See receipt Amendment 02.
