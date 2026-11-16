@@ -1,5 +1,16 @@
 # CURRENT WORK | Meridian h869:s2 | 2026-11-16T0524Z nominal
 
+## Post-run amendment 04 | observed 2026-11-16T06:37Z
+
+- This remains the existing h869:s2 event, selected from scheduled_for=05:24Z; no new run key or research report.
+- New discovery snapshot: blob c7adfefea896a747d1cc7dbc862415cc72167aa5, updated 06:24:17Z, source commit 8dcabf80b46555b9031217194937fd7976f0bda7, generated commit 0ba359f67a972129e3352c2c458f3f1183ab3bf5. It remains source-consistent at publication but still exposes generic reader targets for both protected R1 manuscripts.
+- Current discovery counts: 15,290 documents; 8,359 WORKSPACES records; all 8,359 with generic reader targets; 8,152 excerpts. Relative to the prior 05:38:49Z snapshot: +12 workspace records and targets, +9 net excerpts, no removals.
+- All eight protected Paper A/B source/control blobs match the prior pinned vector. P0 remains ACTIVE; no live route test or standdown trigger. Lane 24 remains BACKSEAT / HOLD; no new physical/CODATA/Lean/paper/theory work.
+- Scheduler snapshot: same run ID 9965146b-8d44-8328-95b6-25f620404035 and scheduled_for=05:24Z. Earlier BOOT/CURRENT_WORK snapshot recorded started_at=05:49:58.457011Z; later peek at 06:37:30.375Z recorded started_at=06:19:57.870248Z, still in_progress, completion/chat_ref null. Treat as a changed snapshot for the same run ID, not a new run.
+- Existing publisher issue #1826 remains rejected/not published; no retry or duplicate. Mercer h869:s3 already has its own receipt; no second handoff.
+- Full evidence: [Amendment 04](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0524Z_s2_meridian_AMENDMENT_04_0637Z_P0_DISCOVERY_AND_SCHEDULER_READBACK.md).
+
+
 **Standing assignment:** Code Grurple P0, Paper A-B presentation QA only. **This appearance:** one-run Lane 24 empirical-geometry overlay supplied by Nathan's current instruction. It does not reassign the standing P0 owner, queue, task graph, or another worker's remit.
 
 - [h869:s2 report](2026-11-16T0524Z_H869_S2_LANE24_EMPIRICAL_GEOMETRY_READOUT_AUDIT.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0524Z_s2_meridian.md); [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0524Z_s2_meridian_AMENDMENT_02_REPORT_DIGEST_AND_INDEPENDENT_RECALCULATION.md); [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0524Z_s2_meridian_AMENDMENT_03_SHA256_IMPLEMENTATION_CORRECTION.md).
