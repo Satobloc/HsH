@@ -1,3 +1,12 @@
+## Verification update — h886:s3 — 2026-11-16T22:54Z
+
+- [PR #1860](https://github.com/Satobloc/HsH/pull/1860) remains OPEN/DRAFT/UNMERGED at exact head `1dc0f79901e18ff7df609db6ecf723c7c80afa70`.
+- **LEAN_EXACT_HEAD_PASS:** [Actions #43973867276](https://github.com/Satobloc/HsH/actions/runs/43973867276), 8,951 jobs. New module built; no sorryAx/custom axioms. Three non-fatal warnings; tests/lint/leanchecker/nanoda/global axiom audit skipped.
+- **PUBLISHED_VERIFIED:** [issue #1861](https://github.com/Satobloc/HsH/issues/1861), publisher comment #6931836926, artifact/report blob equality verified. Lean result separately documented in issue comment #6931864083.
+- [Publisher amendment](2026-11-16T2236Z_H886_S3_AMENDMENT_01_PUBLISHER_READBACK.md) and [Lean amendment](2026-11-16T2236Z_H886_S3_AMENDMENT_02_LEAN_EXACT_HEAD_VERIFICATION.md).
+- The original published report retains its publication-time LEAN_PENDING label; these amendments supersede that status without altering the artifact.
+- No physical result; P2 remains HOLD. No task or scheduler changes.
+
 ## Latest continuity update — h886:s3 — 2026-11-16T22:36Z
 
 - Selected ring label Aldus; next Calder. Historical user source supports broad cross-reading and combining information not usually combined; the detailed chronology/T0 method is a later worker-authored specialization, not a signed charter or verbatim Nathan Direct.
