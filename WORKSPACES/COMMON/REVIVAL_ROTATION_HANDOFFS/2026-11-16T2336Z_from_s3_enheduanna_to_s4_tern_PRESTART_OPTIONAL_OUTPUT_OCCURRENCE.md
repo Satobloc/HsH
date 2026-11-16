@@ -13,3 +13,10 @@
 - **Next action:** none required. If useful, read the public report and PR; do not interrupt P0 or infer that the pending Lean run has passed. Any later verification should be recorded as an amendment, not a duplicate publisher submission.
 
 No authenticated Tern thread was found or contacted. Repository delivery to this Common handoff/index is the only delivery claim. Consumption and acknowledgment remain unknown.
+
+
+## PWH / Mersearch readback amendment
+
+The h887:s3 read-only WH-05 refresh is recorded in [the Primary Workflow Health queue](../PRIMARY_WORKFLOW_HEALTH_ACTION_QUEUE_2026-11-13.md) and [receipt amendment 01](../REVIVAL_ROTATION_RECEIPTS/2026-11-16T2336Z_s3_enheduanna_AMENDMENT_01_WH05_READBACK.md).
+
+All four canonical request files still read `status=requested`; their exact request IDs and blob SHAs are in the queue. For each exact request ID, expected current-main `RUN_MANIFEST.json` and `SEARCH_RECEIPT.md` paths returned 404. This is not evidence that no Actions run exists. Current first failing transition remains NOT_IDENTIFIED. No request was edited, retriggered or released. Tern retains lane-release authority. WH-05 remains P1 / HIGH, subordinate to active P0 and protected P1 commitments.
