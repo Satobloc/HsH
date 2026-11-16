@@ -170,3 +170,17 @@ No BEDROCK amendment, theory promotion, equation correction, manuscript-gate adv
 ## 9. Return pin
 
 `H867:S3 / ALDUS / CALDER-NEXT / TWO-AXIS-IDENTIFIABILITY-DISCRIMINATION / E-D-F-R-UNCHANGED / ISSUE1820-SUBMITTED_NOT_VERIFIED / SHA256-B7FA20A2 / PR873-EXISTING-CONDITIONAL-LEAN / NO-NEW-LEAN / NO-PHYSICAL-RESULT / P0-ACTIVE / P1-OVERDUE / P2-HOLD / P3-INCOMPLETE / FIE-NOV24 / BABBAGE-1981 / POSTSTART-OPTIONAL-CALDER / NO-AUTOMATION-MUTATION / NO-SIXTH-TASK`
+
+
+## Amendment 01 — publisher verification
+
+The initial report snapshot recorded issue #1820 as `SUBMITTED_NOT_VERIFIED`. The existing publisher subsequently completed successfully:
+
+- Publisher comment: [#6906800317](https://github.com/Satobloc/HsH/issues/1820#issuecomment-6906800317).
+- Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aldus-h867-s3-two-axis-identifiability-discrimination-20261116t0336z-001.md`.
+- Publisher commit: `a264a03eb531226f0af754fe2958e86d97bf40d8`.
+- Artifact blob: `de92a48c9f37f7acc5186350ea1ac0451b259083`; 13,686 UTF-8 bytes.
+- SHA-256: `b7fa20a22bf1105daaf526d2a2826d5221feb996745017e0fb10d98430074827`.
+- Exact issue-envelope content/artifact equality: PASS; publisher comment states `PUBLISHED` and readback verified.
+
+Final publication status: `PUBLISHED_VERIFIED`. No retry, duplicate, direct artifact write, issue close, or label change. See [canonical receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0336Z_s3_aldus_AMENDMENT_01_PUBLISHER_READBACK.md).
