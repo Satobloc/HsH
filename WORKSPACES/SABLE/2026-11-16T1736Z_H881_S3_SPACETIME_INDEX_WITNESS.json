@@ -1,0 +1,147 @@
+{
+  "schema": "hsh-spacetime-index-witness-v1",
+  "run_key": "REVROT3-19-20261011:881:s3",
+  "run_label": "Sable h881:s3, nominal 2026-11-16T17:36:00Z",
+  "status": "SOURCE_INDEX_AMBIGUITY / RAW_DATA_NOT_ACQUIRED",
+  "source": {
+    "title": "Kelvin wave propagation along vortex cores",
+    "authors": [
+      "Barckicke",
+      "Falcon",
+      "Gissinger"
+    ],
+    "journal": "Nature Physics",
+    "volume": 22,
+    "year": 2026,
+    "article_doi": "10.1038/s41567-026-03175-w",
+    "article_pdf": "https://labo.msc.u-paris.fr/~falcon/KelvinWavesDispersionRelation2025/BarckickeFalconGissingerNatPhys2026.pdf",
+    "data_doi": "10.6084/m9.figshare.30903347",
+    "locator": "Methods: optical/PIV/PTV acquisition and data-analysis descriptions",
+    "authority": "STANDARD_REFERENCE"
+  },
+  "acquisitions": [
+    {
+      "id": "a_pdf_input",
+      "observable": "a(z,t)",
+      "duration_s": 600,
+      "fps": 100,
+      "frame_interval_s": 0.01,
+      "frame_count": 60000,
+      "z_sample_count_reported": 1000,
+      "z_span_m": 0.025,
+      "array_shape": null,
+      "axis_order": null,
+      "flattening_order": null,
+      "coordinate_vectors": null,
+      "time_origin": null,
+      "frame_ids": null,
+      "status": "SOURCE_REPORTED / INDEX_MAP_UNRESOLVED"
+    },
+    {
+      "id": "eta_pdf_input",
+      "observable": "η(z,t)",
+      "duration_s": 180,
+      "fps": 360,
+      "frame_interval_s": 0.002777777777777778,
+      "frame_count": 64800,
+      "z_sample_count_reported": 1000,
+      "z_span_m": 0.025,
+      "array_shape": null,
+      "axis_order": null,
+      "flattening_order": null,
+      "coordinate_vectors": null,
+      "time_origin": null,
+      "frame_ids": null,
+      "status": "SOURCE_REPORTED / INDEX_MAP_UNRESOLVED"
+    },
+    {
+      "id": "spectral_optical",
+      "duration_s": 30,
+      "fps": 300,
+      "frame_interval_s": 0.0033333333333333335,
+      "frame_count": 9000,
+      "z_window_m": 0.125,
+      "array_shape": null,
+      "axis_order": null,
+      "flattening_order": null,
+      "status": "SOURCE_REPORTED / RAW_ARRAY_NOT_ACQUIRED"
+    }
+  ],
+  "measurement_channels": [
+    {
+      "id": "optical_contour",
+      "instrument": "Basler acA2040-120um",
+      "pixels": [
+        2064,
+        1564
+      ],
+      "pixel_scale_um_per_px": 60,
+      "contour_width_mm": 0.5,
+      "radius_position_uncertainty_mm": 0.1,
+      "lenses_mm": [
+        8,
+        12
+      ]
+    },
+    {
+      "id": "PIV",
+      "instrument": "Phantom V1840",
+      "fps": 6000,
+      "duration_s": 0.1,
+      "grid": [
+        37,
+        23
+      ],
+      "spatial_resolution_mm": 2.7,
+      "tracer_diameter_um": 10,
+      "stokes_number_reported": 0.1,
+      "circulation_uncertainty_m2_s": 0.005
+    },
+    {
+      "id": "PTV",
+      "tracer": "expanded polystyrene",
+      "tracer_diameter_mm": 1.5,
+      "tracking_condition": "r=a(z)",
+      "vertical_velocity_uncertainty_m_s": 0.05
+    }
+  ],
+  "derived_bookkeeping": {
+    "a_scalar_count_if_1000_z_values_per_frame": 60000000,
+    "eta_scalar_count_if_1000_z_values_per_frame": 64800000,
+    "conditional_assumption": "Every captured frame contributes all 1,000 reported z-values; not verified from raw bytes.",
+    "reciprocal_window_m_inv": 8,
+    "reciprocal_window_calculation": "1 / 0.125 m = 8 m^-1",
+    "wavenumber_resolution_reported": "Δ(k/2π) = 8 m^-1"
+  },
+  "admissibility": {
+    "temporal_correlation": "BLOCKED_PENDING_PHYSICAL_TIME_INDEX_MAP",
+    "lagged_regression": "BLOCKED_PENDING_PHYSICAL_TIME_INDEX_MAP",
+    "memory_kernel": "UNSCORABLE_PENDING_INDEX_AND_COARSE_TRANSFER_MAP",
+    "spatiotemporal_fourier": "BLOCKED_PENDING_2D_ARRAY_AND_BOTH_COORDINATE_VECTORS",
+    "pdf_pooling": "CONDITIONAL_ON_DECLARED_POOLING_WEIGHTS_AND_DEPENDENCE",
+    "cross_channel": "BLOCKED_PENDING_RUN_ID_AND_SYNCHRONIZATION_MAP"
+  },
+  "unresolved": [
+    "raw Figshare files not acquired",
+    "raw file manifest and checksums absent",
+    "array shapes and axis order not verified",
+    "flattening order and inverse index map not specified",
+    "coordinate vectors and time origin absent",
+    "frame IDs and missing-frame record absent",
+    "run-level covariance not acquired",
+    "cross-channel synchronization not established"
+  ],
+  "epistemic_status": {
+    "primary_article": "STANDARD_REFERENCE / SOURCE_REPORTED",
+    "frame_counts": "DERIVED_BOOKKEEPING",
+    "scalar_totals": "CONDITIONAL_INFERENCE",
+    "witness_schema": "ASSISTANT_PROPOSAL",
+    "H0": "CLASSICAL_KELVIN_WAVE_HOLLOW_CORE_AND_RANKINE_CORE_COMPARATOR",
+    "H1": "NOT_FORMED",
+    "physical_fit": "NONE",
+    "independent_measurement": "NONE",
+    "BEDROCK_change": false,
+    "SAT_O_equations_modified": false,
+    "Blockwave_equations_modified": false
+  }
+}
