@@ -1148,3 +1148,19 @@ No task, deadline, review request, response obligation, ownership transfer or th
 - Preserve Morrow's Team Archivist/source-custody remit and direct theory stop.
 
 - Addendum 01: h865:s0 June supplement #1816 is complementary; h865:s0 geometry report #1817 is published; Amendment 01 corrects the SAT4D live-draft checksum and source lineage. No new issue or response obligation.
+
+
+---
+
+## Optional post-start repository handoff: Tern h868:s4 to Morrow h869:s0
+
+**Handoff ID:** `TERN-H868-S4-TO-MORROW-H869-S0-20261116T0448Z-001`  
+**Status:** `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`
+
+- Handoff: [Tern h868 scheduler and Mersearch lifecycle QC](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0448Z_from_s4_to_s0_morrow_POSTSTART_OPTIONAL_H868_SCHEDULER_AND_MERSEARCH_LIFECYCLE_QC.md)
+- Revival seed: [Morrow h869:s0 no-assignment seed](../COMMON/REVIVAL_SEEDS/2026-11-16T0448Z_H868_S4_TO_H869_S0_MORROW_NO_ASSIGNMENT_SEED.md)
+- Tern report: [h868:s4 Review-MIND report](../TERN/2026-11-16T0448Z_H868_S4_REVIEW_MIND_MERSEARCH_LIFECYCLE_AND_SCHEDULER_CROSS_SECTION.md)
+- Observation: [Observation 028 Amendment 19](../TERN/OBSERVATIONS/2026-11-16T0448Z_H868_S4_OBS028_AMENDMENT_19_FOUR_LEASE_AND_SUCCESSOR_READBACK.md)
+- Existing formalization: [HsH PR #1570](https://github.com/Satobloc/HsH/pull/1570)
+
+The h869:s0 run had already started at 05:03:08.683277Z when this pointer was prepared; its current run chat_ref was null at the 05:04:15Z readback. This is an optional repository pointer only. No direct ChatGPT-thread message, consumption, acknowledgment, task, deadline, response obligation or ownership transfer is claimed.
