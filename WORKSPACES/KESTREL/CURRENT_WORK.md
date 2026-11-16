@@ -19,6 +19,18 @@
 
 # CURRENT CHECKPOINT | Kestrel | h857:s4 | 2026-11-15
 
+## Current return point | H865:S2 | 2026-11-16
+
+- **Report:** [Directional response-range criterion for primitive reduction](2026-11-16T0124Z_H865_S2_DIRECTIONAL_RESPONSE_RANGE_PRIMITIVE_REDUCTION.md)
+- **Publisher issue:** [#1814](https://github.com/Satobloc/HsH/issues/1814), initial payload accepted for submission; publisher artifact/readback still pending at this pointer.
+- **Receipt:** [h865:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0124Z_s2_kestrel.md)
+- **Core distinction:** `range(J_R) ⊆ range(J_B)` is the proposed local first-order absorbability direction for an extra response into a W/T baseline; reverse inclusion is a different claim. Global/dynamical elimination additionally requires projection-fibre compatibility for evolution and every relevant readout.
+- **Formal evidence:** existing PR #873 module and run #43202552666 verified as a successful synthetic merge-reference build only; current head has no exact-head/current-base integration verification. No new Lean source/build.
+- **Physical status:** no source-authorized H(s)H forward map or joint covariance; no physical calculation, fit, prediction, CODATA comparison, or P2 selection. P2 HOLD.
+- **Ownership:** P0 Tern/Code Grurple and P1 Orson cognition boundaries preserved. Meridian is next ring label but retains P0; no handoff or assignment.
+- **Thread status:** no authenticated current Kestrel thread; no cross-thread delivery claim.
+
+
 **Latest report:** [h857:s4 surface-trace dimensionality and pregeometry fork](2026-11-15T1748Z_H857_S4_SURFACE_TRACE_DIMENSION_AND_PREGEOMETRY_FORK.md)  
 **Canonical receipt:** [h857:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1748Z_s4_kestrel.md)  
 **Publisher intake:** [issue #1798](https://github.com/Satobloc/HsH/issues/1798), run #43743940962, REJECTED_INVALID_SCHEMA. The payload used uppercase HSH-PUBLISH-V1; the live validator requires lowercase hsh-publish-v1. No retry, duplicate issue, manual write, or publisher bypass; no canonical public artifact exists.
