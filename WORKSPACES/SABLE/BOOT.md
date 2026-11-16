@@ -5,6 +5,7 @@
 - Historical Sable role source is verified from the Library raw export; the ordinary Revival Rotation conversation is a separate source object and current usability remains UNVERIFIED.
 - P0 remains ACTIVE; Lane 24 Cycle 08/08 is complete / BACKSEAT-HOLD. No physical calculation, CODATA comparison, Lean run, paper advancement or theory promotion.
 - Task graph remains 18 records / 16 declared branches, 17 reachable, one blocked parent-only node. WH-05 remains blocked; WH-02 remains highest-priority unblocked with Calder ownership.
+- Mersearch Lane 1 is `MERSEARCH_REQUEST.json`; `MERSEARCH_REQUEST_LANE_1.json` is an unwired/orphan candidate, not a fifth lane. Receipt Amendment 02 records the live path filter and request identity.
 - Exact :24 task ID and original hourly schedule remain enabled and unchanged. Same run ID start field moved +27m15.016477s; current run record is IN_PROGRESS with null completion/chat_ref; cached result remains Kestrel h884:s2.
 - Next ring label Loom h885:s3; existing packet is post-start and unconsumed. No cross-thread delivery or acknowledgment.
 - FIE next review 2026-11-24. Unrelated-reading cursor unchanged.
