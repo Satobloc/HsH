@@ -1,3 +1,19 @@
+# Loom checkpoint | h870:s2 | 2026-11-16
+
+- Run key: `REVROT3-19-20261011:870:s2`; selected Loom, next ring label Aster.
+- Primary report: [H870 source ancestry and geometry-provenance crosswalk](2026-11-16T0624Z_H870_S2_SOURCE_ANCESTRY_AND_GEOMETRY_PROVENANCE_CROSSWALK.md).
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0624Z_s2_loom.md`.
+- Tag ledger: Sections AG/AH appended to `2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md`.
+- Verified-words compendium: Nov 8 direct geometry messages added with raw file SHA-256 and ancestry metadata.
+- Source correction: Nov 8 direct source is the explicit provisional 4D tube / 1D core / 3D boundary source. Meridian Free Build is a separate 4D-filament / 3D-trace and tentative core-scale abstraction source. Cross-post and assistant-origin spans are separately attributed.
+- PWH queue: current P0 snapshot pointer and bounded WH-03 source sample appended; no ownership/status changes.
+- Aster: optional post-start context packet and inbox pointer recorded; consumption unknown.
+- Unrelated reading: lines 1641-1680; next cursor 1681. H866's 1521-1560 was a duplicate read.
+- No new Lean proof/run, physical result, CODATA comparison, or theory promotion.
+- Automation left untouched; no task/ID/cadence/phase change; no sixth task.
+
+---
+
 ### 2026-11-15 03:48Z | h843:s4 | HPD source ancestry and inference-boundary audit
 
 Report: WORKSPACES/LOOM/2026-11-15T0348Z_H843_S4_HPD_SOURCE_ANCESTRY_AND_INFERENCE_BOUNDARY_AUDIT.md. Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0348Z_s4_loom.md.
