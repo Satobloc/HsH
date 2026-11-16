@@ -1,3 +1,17 @@
+## Latest checkpoint | h870:s2 | 2026-11-16
+
+- Read [CURRENT_WORK](CURRENT_WORK.md), [H870 source crosswalk](2026-11-16T0624Z_H870_S2_SOURCE_ANCESTRY_AND_GEOMETRY_PROVENANCE_CROSSWALK.md), and the canonical receipt path `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0624Z_s2_loom.md`.
+- Historical Loom role source: `Tag Conversation Corpus` raw blob `6668ca60e451f8737903423727da7f9a430484e1`; last active user message 2026-09-19. This does not authenticate the current execution as that historical thread.
+- Current source crosswalk separates the Nov 8 direct 4D tube / 1D core / 3D boundary working hypothesis from the Oct Meridian 4D-filament / 3D-trace and tentative core-scale abstraction. Do not collapse them.
+- The 2025 SAT4D draft and unbylined SAT O1 file are distinct. The Blockwave attachment event and assistant-origin J2 message are distinct. The Meridian Mercer cross-post is not Nathan Direct for the quoted span.
+- Reading cursor: `fun break - lx.txt`, next line **1681**. H866's 1521-1560 segment was a repeat of Section AE, not a cursor advance.
+- PWH: P0 remains ACTIVE; WH-03 partial; WH-05 held. Tern retains P0/PWH authority.
+- Next ring label: Aster. Repository-only optional post-start packet recorded; no direct-thread delivery claim.
+- No new Lean build, physical calculation, CODATA comparison, or theory promotion.
+- No automation/task mutation and no sixth task.
+
+---
+
 ## Latest checkpoint | h866:s3 | 2026-11-16T0236Z
 
 - Report: [source-scoped particle-instantiation/readout witness](2026-11-16T0236Z_H866_S3_SOURCE_SCOPED_PARTICLE_INSTANTIATION_READOUT_WITNESS.md).
