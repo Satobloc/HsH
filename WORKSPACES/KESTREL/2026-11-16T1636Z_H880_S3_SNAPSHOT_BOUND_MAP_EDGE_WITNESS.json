@@ -1,0 +1,106 @@
+{
+  "schema": "snapshot-bound-map-edge-witness-v1",
+  "run_key": "REVROT3-19-20261011:880:s3",
+  "worker_label": "Kestrel",
+  "next_ring_label": "Meridian",
+  "status": "MAP_UNDEFINED_IN_SOURCE",
+  "repository_snapshot": {
+    "repository_full_name": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "observed_ref": "refs/heads/main",
+    "commit_sha": "f6e3c914b3722cdd6b57b0a2f024446bb0247f97",
+    "tree_sha": "401ff5736a9ede226cc9829cea37489e9307baf5",
+    "commit_signature_verified": false,
+    "tree_lookup": {
+      "recursive": true,
+      "truncated": false
+    },
+    "exact_path_to_blob_membership_verified": true
+  },
+  "source_artifact": {
+    "canonical_path": "SATOBLOC/SAT O1 4D.txt",
+    "git_blob_sha1": "7577aa1ee5a6c3850ce3b226c75377de6367aedc",
+    "utf8_byte_length": 3521,
+    "sha256": "8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937",
+    "sha256_status": "INHERITED_FROM_H835_PRIOR_VERIFICATION_NOT_RECOMPUTED_THIS_RUN",
+    "source_type": "UNBYLINED_HISTORICAL_SOURCE",
+    "authorship": "UNRESOLVED",
+    "source_composition_date": "UNRESOLVED"
+  },
+  "source_claim": {
+    "claim_id": "SAT-O1-WORLDTUBE-SWEEP",
+    "locator": {
+      "section": "Definitions",
+      "lines": [
+        13,
+        16
+      ],
+      "equation_lines": [
+        [
+          21,
+          28
+        ],
+        [
+          36,
+          42
+        ]
+      ]
+    },
+    "statement": "Source defines a 1D filament curve in R^(3,1) and describes its worldtube as a 4D volume swept by vibration.",
+    "attribution": "SOURCE_TEXT_VERIFIED_AUTHORSHIP_UNRESOLVED"
+  },
+  "map_edge": {
+    "edge_id": "SAT-O1-FILAMENT-TO-WORLDTUBE",
+    "domain": "Smooth one-dimensional filament curve gamma: R -> R^(3,1), affine parameter lambda",
+    "codomain": "Four-dimensional worldtube volume in spacetime",
+    "map_artifact_ref": null,
+    "map_status": "MAP_UNDEFINED_IN_SOURCE",
+    "missing_definitions": [
+      "Explicit vibration-family/sweep/embedding map",
+      "Support or cross-section/fiber specification",
+      "Parameter-to-time relation",
+      "Boundary and regularity conditions",
+      "Explicit metric/signature and frame conventions needed by the readout",
+      "Timesheet/intersection projection",
+      "Instrument/readout map"
+    ],
+    "not_defined_or_not_forced_by_this_artifact": [
+      "Numerical finite-core radius or thickness profile",
+      "Normal-bundle twist or connection (phase shifts are present but are not automatically such a connection)",
+      "Contact surface",
+      "Timesheet dynamics or responsive-medium constitutive law"
+    ]
+  },
+  "repository_aliases": [
+    "SATOBLOC/SAT O1 4D.txt",
+    "SATOBLOC MISC/SAT O1 4D.txt",
+    "SAT_O REWRITE/SAT 4D/SAT O1 4D.txt"
+  ],
+  "alias_relation": "ALL_THREE_PATHS_SHARE_ONE_GIT_BLOB_NOT_INDEPENDENT_SOURCES",
+  "transport_certificate_id": null,
+  "model_freeze_id": null,
+  "comparison_freeze_id": null,
+  "admission_status": "BLOCKED_MAP_UNDEFINED",
+  "physical_candidate": {
+    "name": "Barckicke-Falcon-Gissinger air-water Kelvin vortex",
+    "paper_doi": "10.1038/s41567-026-03175-w",
+    "data_doi": "10.6084/m9.figshare.30903347",
+    "selection_status": "CANDIDATE_ONLY",
+    "raw_data_retrieved": false,
+    "hsh_forward_map": "NOT_FORMED",
+    "physical_calculation_performed": false
+  },
+  "formalization": {
+    "existing_pr": 873,
+    "existing_actions_run": 43202552666,
+    "run_status": "SUCCESS_ON_SYNTHETIC_PR_MERGE_REFERENCE",
+    "new_theorem_created": false,
+    "reason": "New object is a provenance/admission join; source-specific geometry map is undefined.",
+    "local_lean_lake_elan_available": false
+  },
+  "epistemic_limits": [
+    "Repository membership does not establish authorship or source composition date.",
+    "A source statement does not establish a sound source-to-geometry translation.",
+    "Lean compilation does not establish physical premises or observational validity.",
+    "No physical calculation, fit, prediction, independent measurement, P2 selection, Factory Floor admission, or theory promotion occurred."
+  ]
+}
