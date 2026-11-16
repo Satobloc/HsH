@@ -52,7 +52,14 @@
         "near_duplicate_timestamp_utc": "2026-08-26T23:17:43.741Z",
         "near_duplicate_current_ancestry": false,
         "count_as_independent_confirmation": false
-      }
+      },
+      "repository": "Satobloc/HsH",
+      "ref": "main",
+      "raw_export_path": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/Calder Construction Story Retelling.json",
+      "mapping_nodes": 2207,
+      "user_role_messages": 315,
+      "current_ancestry_nodes": 479,
+      "current_ancestry_user_role_messages": 86
     },
     {
       "id": "MINKOWSKI-WORLDTUBE-CLASSICAL-CLAIM-2026-10-09",
@@ -74,7 +81,14 @@
         "W-EQUAL-CT-SOURCE-STRING",
         "WORLDTUBE-CURVATURE-INERTIA-CLAIM",
         "COORDINATE-BENDING-NOT-INTRINSIC-4D-CURVATURE"
-      ]
+      ],
+      "repository": "Satobloc/HsH",
+      "ref": "main",
+      "raw_export_path": "LIVE CONVOS/26.10.05•26.10.20•Meridian Free Build — raw.json",
+      "mapping_nodes": 2500,
+      "user_role_messages": 80,
+      "current_ancestry_nodes": 2309,
+      "current_ancestry_user_role_messages": 75
     },
     {
       "id": "TIME-SLICE-BULK-NO-PASSIVE-READOUT-2026-10-09",
@@ -98,7 +112,14 @@
         "NO-INVENTED-ELASTIC-MODULUS",
         "NO-INVENTED-FILAMENT-TENSION",
         "DIMENSIONAL-NORMALIZATION-UNRESOLVED"
-      ]
+      ],
+      "repository": "Satobloc/HsH",
+      "ref": "main",
+      "raw_export_path": "LIVE CONVOS/26.10.05•26.10.20•Meridian Free Build — raw.json",
+      "mapping_nodes": 2500,
+      "user_role_messages": 80,
+      "current_ancestry_nodes": 2309,
+      "current_ancestry_user_role_messages": 75
     },
     {
       "id": "CORE-TRACE-COIL-RADIUS-2026-10-09",
@@ -119,7 +140,14 @@
         "ONE-CORE-HOLLOW-OUTER-SUPERHELIX",
         "COIL-RADIUS-NOT-FILAMENT-THICKNESS",
         "4D-FILAMENT-VS-3D-TRACE"
-      ]
+      ],
+      "repository": "Satobloc/HsH",
+      "ref": "main",
+      "raw_export_path": "LIVE CONVOS/26.10.05•26.10.20•Meridian Free Build — raw.json",
+      "mapping_nodes": 2500,
+      "user_role_messages": 80,
+      "current_ancestry_nodes": 2309,
+      "current_ancestry_user_role_messages": 75
     },
     {
       "id": "SURFACE-OF-SIMULTANEITY-CURVATURE-CORRECTION-2026-10-20",
@@ -141,7 +169,14 @@
         "SIMULTANEITY-TO-HUBBLE-RADIUS-CURVATURE-PROPOSAL",
         "HALF-SUM-TENTATIVE",
         "DIMENSIONAL-FORM-UNRESOLVED"
-      ]
+      ],
+      "repository": "Satobloc/HsH",
+      "ref": "main",
+      "raw_export_path": "LIVE CONVOS/26.10.20•26.10.21•Meridian Minkowski Ring Analysis — raw.json",
+      "mapping_nodes": 3678,
+      "user_role_messages": 112,
+      "current_ancestry_nodes": 3660,
+      "current_ancestry_user_role_messages": 106
     },
     {
       "id": "RECIPROCAL-CONSTRUCTION-RETIRED-2026-10-21",
@@ -160,7 +195,14 @@
         "NATHAN-DIRECT",
         "RECIPROCAL-FILAMENT-TIMESHEET-RETIRED",
         "BACK-HALLWAYS-MATHEMATICAL-METAPHOR"
-      ]
+      ],
+      "repository": "Satobloc/HsH",
+      "ref": "main",
+      "raw_export_path": "LIVE CONVOS/26.10.20•26.10.21•Meridian Minkowski Ring Analysis — raw.json",
+      "mapping_nodes": 3678,
+      "user_role_messages": 112,
+      "current_ancestry_nodes": 3660,
+      "current_ancestry_user_role_messages": 106
     },
     {
       "id": "BACK-HALLWAYS-SUPERSESSION-CLARIFICATION-2026-10-21",
@@ -179,7 +221,14 @@
         "NATHAN-DIRECT",
         "BACK-HALLWAYS-SUPERSEDED-FORMALISM",
         "LOOP-STAR-SHAPED-DERIVATION-MAP-CONCEPTUAL"
-      ]
+      ],
+      "repository": "Satobloc/HsH",
+      "ref": "main",
+      "raw_export_path": "LIVE CONVOS/26.10.20•26.10.21•Meridian Minkowski Ring Analysis — raw.json",
+      "mapping_nodes": 3678,
+      "user_role_messages": 112,
+      "current_ancestry_nodes": 3660,
+      "current_ancestry_user_role_messages": 106
     },
     {
       "id": "CURRENT-NOTATION-STRATUM-2026-10-21",
@@ -203,7 +252,14 @@
         "FOREST-NORMALIZATIN-VERBATIM",
         "HALF-SUM-TENTATIVE",
         "NO-UNIT-MAP"
-      ]
+      ],
+      "repository": "Satobloc/HsH",
+      "ref": "main",
+      "raw_export_path": "LIVE CONVOS/26.10.20•26.10.21•Meridian Minkowski Ring Analysis — raw.json",
+      "mapping_nodes": 3678,
+      "user_role_messages": 112,
+      "current_ancestry_nodes": 3660,
+      "current_ancestry_user_role_messages": 106
     },
     {
       "id": "PROVISIONAL-FOURTH-SPATIAL-W-2026-11-08",
@@ -228,7 +284,15 @@
         "NO-EXPLICIT-W-TO-T-MAP",
         "METRIC-SIGNATURE-UNSPECIFIED",
         "NO-SUPERSESSION"
-      ]
+      ],
+      "source_store": "Library raw export",
+      "raw_export_path": null,
+      "mapping_nodes": 1150,
+      "user_role_messages": 33,
+      "current_ancestry_nodes": 1005,
+      "current_ancestry_user_role_messages": 29,
+      "raw_export_byte_size": 8331175,
+      "byte_identical_alias_count": 3
     }
   ],
   "supersession_edges": [
