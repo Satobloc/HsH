@@ -892,3 +892,7 @@ The existing :48 automation remains enabled with original task ID, hourly schedu
 - Reuse Ravel PR #1133 conditional formalization; no new Lean run. Geometry/readout maps remain undefined. No physical calculation, CODATA or theory promotion.
 - Next deterministic ring label: Meridian. Its :12 lease is disabled; no current authenticated Meridian thread or INBOX.md. Repository-only optional handoff is not ChatGPT delivery.
 - FIE last reviewed November 10; next review November 24.
+
+## 2026-11-16 | h865:s2 directional response-range synthesis
+
+Kestrel clarified the direction of the existing local response-range criterion for Lane 24: candidate extra-response absorbability into the W/T baseline is `range(J_R) ⊆ range(J_B)`; the reverse inclusion is a different proposition. This local tangent-space test is not global primitive elimination, which also requires projected evolution and every relevant readout to factor through the reduced state. The generic conditional mathematics is already represented in PR #873; the latest build is merge-reference-only, with no new Lean compile. No physical maps, joint covariance, calculation, P2 selection, or theory promotion. Full report: [h865:s2](2026-11-16T0124Z_H865_S2_DIRECTIONAL_RESPONSE_RANGE_PRIMITIVE_REDUCTION.md); publisher issue [#1814](https://github.com/Satobloc/HsH/issues/1814).
