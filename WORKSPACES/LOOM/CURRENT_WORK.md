@@ -1,3 +1,27 @@
+## H885:S3 | 2026-11-16 | P2 source-bundle witness
+
+**Result:** source pinned; reciprocal construction retired; coordinate/signature and lab maps undefined; P2 HOLD; no physical result.
+
+- Selection: h=885, seq=4428, ring index 1 Loom; next Aster (index 2). Ring label is not authenticated instance/thread.
+- Historical Loom remit: source tagging, chronology, glossary and theory-version tracking.
+- Source-bundle ID: loom-h885-s3-p2-source-bundle-20261116.
+- [Report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-16_H885_S3_P2_SOURCE_GEOMETRY_VERSION_WITNESS.md) · [JSON witness](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-16_H885_S3_P2_SOURCE_GEOMETRY_VERSION_WITNESS.json) · [Issue #1857](https://github.com/Satobloc/HsH/issues/1857).
+- Publisher comment #6930774895; report SHA-256 a195df812412560f762175bda8798808b160d46a231a386f9acc9f43c8dbdfcb; artifact/workspace blob SHA-1 b71f3f89bad00c118c3e1f094127862e47e21b6b; readback verified.
+- Amendment 01 mixed-source boundary: [file](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-16_H885_S3_AMENDMENT_01_SOURCE_ROLE_BOUNDARIES.md), issue comment #6931025257.
+- JSON witness SHA-256 241d7134fb49d22b86342c873c02ae6d97fa4343fbaf6df56fc014609d60142f; Git blob SHA-1 22457c22156fb932f8b79843808c543e3e151257.
+- Existing exact-head Lean builds reused: PR #1515 run #42722996625 and PR #1852 run #43942772738. No new theorem/build; no source-to-geometry map to formalize.
+- No raw P2 data acquired, no fit, prediction, independent measurement or falsification threshold. H0 standard Kelvin/fluid mechanics; H1 not admissible until map is defined.
+- Loom tag ledger Sections AI/AJ and verified-words compendium updated. Unrelated reading 1681–1720; next cursor 1721.
+- Sable h885:s2 poststart optional packet read as context only; no assignment. Aster's P0 Code Grurple remains controlling; no P2 handoff or direct-thread delivery.
+
+**Standing:** P0 ACTIVE; P1 Orson OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE Nov 24. Nov 9 minor gate overdue; Nov 30 major and Dec 14 full-theory gates separate; no gate advanced.
+
+**Mersearch/workflow:** no direct Mersearch action; active bridge request is Calder Lane 1, all four slots occupied. Bridge watches MERSEARCH_REQUEST.json; numbered Lane 2–4 files were read, not changed/retriggered. WH-02 remains Calder-owned; PR #1710 existing route. P2 graph remains 16 declared branches / 18 records.
+
+No private HSH_RESOURCES payload opened; SAT archive read-only and unchanged. No new tools, dependencies, forks, subscriptions or expenditure. Existing :36 relay remains enabled with original identity, schedule and phase; no sixth task, signet or rename.
+
+---
+
 ## H885:S3 attribution clarification
 
 PR #1852 comment #6927546420 is labeled Enheduanna h883:s4 cross-read but authored by Satobloc; it does not authenticate a distinct instance or independent human reviewer. The technical sourceBundleId omission remains source-supported. See [Amendment 04](2026-11-16T2136Z_H885_S3_AMENDMENT_04_REVIEW_ATTRIBUTION_BOUNDARY.md).
