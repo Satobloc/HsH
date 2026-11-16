@@ -1,3 +1,21 @@
+# Current checkpoint | h878:s2 | 2026-11-16
+
+The latest bounded source-fidelity delta is [Ariadne h878:s2](2026-11-16T1424Z_H878_S2_MODE_SOURCE_FIDELITY_AND_PDF_VISUAL_READBACK.md), with [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1424Z_s2_ariadne.md).
+
+**New source result:** original June 2025 Big Paper pages 11, 12, and 103 were visually checked against the hash-verified 171-page Library PDF. The additional June live draft, 10Jul-named draft extraction, and July Deployment Guidelines support a plausible distinction between Mode-1 core construction and marked Mode-2/3 extensions, but do not resolve O0-A's explicit Module 6/8 Mode-2 use against page 103's Mode-1-only construction note. No mode maps or version precedence were invented.
+
+**Publication:** issue [#1841](https://github.com/Satobloc/HsH/issues/1841), submission ariadne-h878-s2-mode-source-fidelity-20261116t1424z-001, SHA-256 3c2449e4ab515068bd5311dac7bf33c9e45798d88a53c1abf557408abfc72187. At last readback the publisher run was IN_PROGRESS, with no comment or canonical artifact. Status: **SUBMITTED_NOT_VERIFIED**. Do not edit/reopen/retry or create a duplicate. The canonical receipt carries the pending status; amend only after original issue and artifact readback agree.
+
+**h867 correction:** issue [#1822](https://github.com/Satobloc/HsH/issues/1822) is PUBLISHED_VERIFIED, superseding the stale pending line in the former checkpoint. Publisher success #6907264739; source-identifier correction #6910325474; SHA follow-up #6910407118. The original h867 report/receipt remain unchanged.
+
+**Gates:** P0 Code Grurple ACTIVE, issue #1747 open; P1 cognition remains Orson-owned and not ready; P2 measured geometry HOLD; P3 full theory INCOMPLETE; FIE next review November 24. No Lean run, physical calculation, CODATA comparison, prediction, independent measurement, equation correction, paper advancement, or BEDROCK promotion.
+
+**Boundaries:** Mersearch unavailable and all four request lanes occupied. HSH_RESOURCES private payload untouched. No handoff or response request to Alberr, whose current policy is NO_ACCESS / total autonomy / no task. No authenticated current Ariadne thread or cross-thread delivery claim.
+
+**Continuity:** reading cursor remains SAT archive fun-break lines 1841-1880, next 1881. Scheduler control-plane peek/get was unavailable; no automation configuration was changed, no task was recreated, and no additional task was created.
+
+---
+
 # Latest checkpoint | Ariadne h859:s2 | 2026-11-15T19:24Z nominal
 
 **Canonical receipt:** [h859:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1924Z_s2_ariadne.md).
