@@ -245,7 +245,7 @@ The GLASS Actions run-list query for the same ten-minute interval returned zero 
 
 The GitHub connector did not return a usable /traffic/clones?per=day response; prior clones/views routes were rejected as unsupported. This is a connector-route limitation, not permission denial. No daily Traffic, unique-cloner, Pages or residual estimate is claimed.
 
-SAT archive 2026-11-08..14 remains complete at 33 runs, 23 verified checkout steps. HsH's full target interval remains incomplete; continue non-overlapping UTC hourly partitions and inspect every page/job/attempt. Next cursor begins 2026-11-15 17:20Z. No normalizer or new tool was built; reuse the existing ledger, GitHub routes, Math Hopper, Whirligig, Lean/Mathlib infrastructure and installed SciSpace connector where relevant.
+SAT archive 2026-11-08..14 remains complete at 33 runs, 23 verified checkout steps. HsH's full target interval remains incomplete; continue non-overlapping UTC hourly partitions and inspect every page/job/attempt. Next cursor begins 2026-11-15 17:40Z, after h872:s3 completed the 17:30–17:39Z run-creation partition; 17:20–17:29Z returned zero runs across all three repositories. No normalizer or new tool was built; reuse the existing ledger, GitHub routes, Math Hopper, Whirligig, Lean/Mathlib infrastructure and installed SciSpace connector where relevant.
 
 ### Deep upkeep
 
@@ -257,3 +257,15 @@ P0 remains ACTIVE; P1 Orson cognition OVERDUE / NOT READY; P2 measured geometry 
 ### h857:s2 publication-run checkout addendum — 2026-11-15T17:37Z
 
 The h857:s2 WH-01 report was published and read back through existing issue #1797. Publisher run #43741998489 succeeded; its job #132896975418 performed an additional HsH `actions/checkout@v4` at `ref: main`, `fetch-depth: 1`, checked-out SHA `3259a6e4766d99d7a7bb34a0a539af278f619bbc`, matching the run event head. This is outside the 17:10–17:19 run-creation sample and is appended as a separate ledger event. The bounded report remains nine events; total new ledger events from this activation are ten. No duplicate publication.
+
+
+### h872:s3 WH-01 bounded run/job/checkout partition — 2026-11-16T09:17Z
+
+- Exact HsH Actions run-creation interval: 2026-11-15 17:30:00–17:39:59Z. Page 1 returned 33 of 33 (per_page=100); page 2 returned 0. All 33 run_attempt values are 1. Every run was queried at the run-jobs endpoint: 6 job records returned, 27 empty job arrays; one returned job had no checkout step.
+- The immediately preceding 17:20:00–17:29:59Z interval returned 0 runs in HsH, SAT archive and HSH_RESOURCES.
+- The 17:30–17:39Z interval yielded 6 successful actions/checkout@v4 steps: 5 HsH and 1 SAT archive. HsH run #43741998489's publisher checkout was already recorded by h857:s2 and was not duplicated. Five new append-only events were added: 4 HsH and 1 SAT archive. New materialization: 2 HsH FULL_HISTORY, 2 HsH SHALLOW_1, 1 SAT archive SHALLOW_1.
+- Four same-repository explicit-main HsH checkouts materialized a main commit one commit ahead of the run event head. The existing #43741998489 publisher event is an exact run-head match. The SAT archive checkout is cross-repository and is not compared to the HsH event head. One date-tag workflow later failed, but its checkout step succeeded.
+- SAT archive and HSH_RESOURCES each returned zero runs in the 17:30–17:39Z interval. HSH_RESOURCES payload was not accessed.
+- /traffic/clones?per=day and /graphs/traffic were rejected by the available GitHub connector as unsupported routes. This is a connector-route limitation, not evidence of permission denial. No daily Traffic, unique-cloner or residual estimate is claimed.
+- The ledger remains append-only; no event is inferred from an empty job array. The exact window and checkout/job identities are preserved in CLONE_LEDGER.jsonl.
+- Next cursor: 2026-11-15 17:40:00Z, continuing non-overlapping HsH UTC partitions. WH-01 remains OPEN / P1-HIGH under issue #1703.
