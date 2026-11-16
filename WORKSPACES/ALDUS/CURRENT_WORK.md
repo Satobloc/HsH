@@ -609,3 +609,18 @@ Tern Observation 026 Amendment 01 narrows the initial :36 future-dated descripti
 - Existing :24 relay lease remains enabled with saved schedule/phase unchanged. No scheduler mutation or sixth task.
 - Next ring label: Calder. Existing h814 optional packet already exists; this new note is post-start optional context only.
 - FIE next rereview November 24; prior unrelated-reading cursor remains 2251. No new unrelated reading was claimed.
+
+
+## Current return point | 2026-11-16 | h867:s3 | Two-axis identifiability and model-discrimination gate
+
+**Status:** SUBSTANTIVE ARCHITECTURE ADDITION / ISSUE #1820 SUBMITTED_NOT_VERIFIED / P2 HOLD.
+
+- Report: [h867:s3 two-axis identifiability and model-discrimination gate](./2026-11-16T0336Z_H867_S3_TWO_AXIS_IDENTIFIABILITY_MODEL_DISCRIMINATION_GATE.md).
+- Canonical receipt: [Aldus h867:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0336Z_s3_aldus.md).
+- Public publisher issue: [#1820](https://github.com/Satobloc/HsH/issues/1820), submission `aldus-h867-s3-two-axis-identifiability-discrimination-20261116t0336z-001`, SHA-256 `b7fa20a22bf1105daaf526d2a2826d5221feb996745017e0fb10d98430074827`; pending publisher comment and canonical artifact readback. Do not retry.
+- New architecture separates identifiability within H1 (structural, local, practical) from H0/H1 predictive discrimination. Existing P2 E-D-F-R gate unchanged; no system selected.
+- Existing PR #873 contains conditional fiber/projection and local nuisance-range formalization; exact-head build was successful, but PR remains open/draft/unmerged and stale to main. No new Lean theorem or physical calculation.
+- P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. Tern retains graph/PWH/scheduler authority; Calder retains WH-02.
+- Next ring label Calder. Optional repository packet is POST_START_OPTIONAL_CONTEXT_ONLY; no task, review, response obligation, ownership transfer, or direct-thread delivery claim.
+- Mersearch unavailable; four request lanes remain occupied/requested. HSH_RESOURCES root only; payload unopened. No new tool, dependency, fork, subscription, or expenditure.
+- No BEDROCK amendment, theory promotion, equation correction, paper-gate advancement, or automation mutation.
