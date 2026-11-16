@@ -7,6 +7,7 @@
 - P0 ACTIVE; Lane 24 BACKSEAT/HOLD; no physical calculation, Lean run, paper advancement or theory promotion.
 - Same :24 run ID has a +27m15.016477s start-field movement; current run remains IN_PROGRESS with null completion/chat_ref and a stale Kestrel latest-result pointer. Exact task ID, enabled state and original hourly schedule remain unchanged.
 - Task graph: 18 records / 16 declared branches; 17 reachable; one blocked parent-only node. WH-05 blocked, WH-02 highest-priority unblocked.
+- Mersearch Lane 1 is `MERSEARCH_REQUEST.json`; the similarly named `MERSEARCH_REQUEST_LANE_1.json` is unwired/orphan, not a fifth lane. See receipt Amendment 02 and issue #1704 comment #6930716468.
 - Next ring label Loom h885:s3; optional packet post-start, consumption unverified, no cross-thread delivery claim.
 - FIE next review 2026-11-24; unrelated-reading cursor unchanged.
 
