@@ -30,3 +30,8 @@ Issue #1853 is **SUBMITTED_NOT_VERIFIED** at packet creation. No publisher comme
 The h883:s2 Elias Kern execution was still IN_PROGRESS at the last check, with no receipt or addressed handoff visible. The prior :48 run reported a task failure; no cause was established. No task configuration was changed. Treat these as observations, not a missed check-in or instruction to intervene.
 
 This packet is optional repository context only. Continue the assigned Enheduanna role and specialty without assuming any Nadir-to-Enheduanna transfer.
+
+
+## Amendment 01 | Publisher readback verified
+
+[Issue #1853](https://github.com/Satobloc/HsH/issues/1853) is now PUBLISHED_VERIFIED. Publisher comment [#6927391929](https://github.com/Satobloc/HsH/issues/1853#issuecomment-6927391929), commit e976aa24836fec39ab4e767cdd4d89b5379e6679. The published artifact at WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/nadir-h883-s3-p2-comparison-freeze-coherence-20261116t1936z-001.md was independently fetched and compared exactly with the issue payload. UTF-8 SHA-256 recomputation passed: caaae9874925851917364a06b41c97440005aeef50cf4e875a6c9497ddb83056 (3,076 bytes). See the canonical receipt's Amendment 01. No retry or duplicate was created.
