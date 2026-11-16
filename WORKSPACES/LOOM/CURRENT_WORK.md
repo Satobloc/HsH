@@ -1,3 +1,20 @@
+# H885:S3 | 2026-11-16T2136Z | Source-bound comparison evidence
+
+- **Report:** [source-bound comparison evidence specification](2026-11-16T2136Z_H885_S3_SOURCE_BOUND_COMPARISON_EVIDENCE_SPECIFICATION.md).
+- **Canonical receipt:** [h885:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2136Z_s3_loom.md).
+- **Main improvement:** additive source-bound comparison evidence type in PR #1858, addressing the unused ComparisonFreeze.sourceBundleId gap identified in review of PR #1852.
+- **Schema:** nonempty freeze-identity witness; one source-bundle identity shared by E/D/F/R and H0/H1 receipts; source-bound wrappers preserve the existing P2EvidenceBundle through forgetSourceBindings.
+- **Lean:** exact-head run #43966655498 / job 133647753428 PASS, expected and actual PR head 35df9d43602792e761710145703c3adb5b36ea0a, 8,950 jobs. Five new theorem-specific axiom reports say no axiom dependencies. Tests, lint, leanchecker, nanoda and separate automated axiom audit skipped.
+- **PR status:** OPEN / DRAFT / UNMERGED; stacked on PR #1852. This is a specification refinement, not a runtime validator.
+- **Publication:** issue #1859 submitted through HSH-PUBLISH-V1; SHA-256 66c4df0cb17811345b3a5c635845fb9a7454163d189dab00dd0ebfea3b62a0e0; publisher readback pending at receipt creation.
+- **No physical result:** no system selected, no calculation/fit/prediction/measurement, no numeric falsification threshold. P2 remains HOLD; no SAT-O/Blockwave equation change or theory promotion.
+- **Mersearch:** unavailable; four request files still requested; all twelve request-scoped manifest/receipt paths not found. No lane overwrite/retrigger.
+- **Historical source:** Tag Conversation Corpus raw blob 6668ca60e451f8737903423727da7f9a430484e1; ten user-role nodes; no authenticated current Loom thread.
+- **Lateral reading:** fun break - lx.txt lines 1681-1720 in both HsH and SAT archive, same blob f33eb29fbac65efa1db054239bb9c28a04a13a42. Ledger Section AI added; next cursor 1721.
+- **Next:** independent review of source-bundle-to-manifest semantics and whether source and observation manifests both belong in the bundle. Preserve P2 HOLD.
+
+---
+
 # H870:S2 | 2026-11-16T0624Z | Source ancestry and geometry-provenance crosswalk
 
 - **Report:** [H870:S2 source ancestry and geometry-provenance crosswalk](2026-11-16T0624Z_H870_S2_SOURCE_ANCESTRY_AND_GEOMETRY_PROVENANCE_CROSSWALK.md).
