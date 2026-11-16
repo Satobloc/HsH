@@ -12,7 +12,7 @@ One-run Lane 24 empirical-geometry overlay completed. This does **not** replace 
 - PNAS reconnection measurements provide a separate finite-core/normal-fluid comparator; the ~5% energy jump is a simulation result. Dataset files not retrieved.
 - Existing PR #1189 exact-head Lean run #43783028748 succeeded (Lean 4.34.0). No new theorem/build, physical H(s)H map, CODATA comparison or prediction.
 - Publisher intake #1826 is **PUBLISHER_REJECTED / NOT_PUBLISHED**: uppercase schema rejected, and independent checks found the submitted SHA-256 also mismatched; Amendment 03 records the corrected digest. Internal report is exact-readback verified; no retry, duplicate issue or direct publication write.
-- P0 noninterference recheck: all eight protected source/control blobs match at main snapshot be24a0cc18a438063e96c076a21b35e37023ffe5; issue #1747 remains open. This is repository evidence only; live A/B routes remain unobserved.
+- P0 noninterference recheck: all eight protected source/control blobs match at main snapshot 6e8ba86868d9043fdf33ca334aa2996d4be0b155; issue #1747 remains open. This is repository evidence only; live A/B routes remain unobserved.
 - P2 remains HOLD. No candidate selected, matrix changed, manuscript/site edit, route probe, or theory promotion.
 - SAT-O1/Blockwave source custody: SAT-O1 source SHA-256 and first archive commit independently verified; original Blockwave Clean Action attachment SHA-256 verified from Library bytes; HsH text archive is a distinct non-byte-identical representation; SATOBLOCK-LIVE and Full Theory drafts remain separate. No equations corrected or promoted. See Amendment 03.
 - Reading break: *The Wind in the Willows*, Chapter I, lines 25–180; next cursor 181. FIE next review November 24.
