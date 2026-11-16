@@ -223,3 +223,12 @@ No new public issue, publisher intake or duplicate artifact was created. The PR 
 No task, ID, cadence, prompt, phase, signet or conversation destination was changed. The :48 task remains the original enabled lease. :12 remains disabled; the historical Tern Shuttle task remains disabled. No sixth task was created.
 
 **Final classification:** `TERN_H868_S4 / SOURCE_GROUNDED_REVIVAL / WH05_FOUR_LANES_OCCUPIED_NO_RELEASE_PATH / COMPACT_ONLY_SOURCE_FIX_UNVERIFIED_BY_POSTPATCH_LANE_RUN / FOUR_LEASE_RUN_IDENTITY_CROSS_SECTION / H868_S2_S3_COMPLETION_TRANSITIONS / H868_S4_AND_H869_S0_RECORDED_OVERLAP / PR1570_FALSE_CACHE_POINTER_INVARIANT_REMOVED / TARGET_MODULE_BUILDS_ON_MERGE_REF / LATEST_PR_EXTENSION_CI_PENDING_AT_FIRST_WRITE / TASK_GRAPH_18_OF_16_UNCHANGED / P0_SOURCE_POLICY_MISMATCH / ORSON_P1_PROTECTED / P2_HOLD / P3_INCOMPLETE / MORROW_POSTSTART_OPTIONAL_HANDOFF / AUTOMATION_PRESERVED / CURRENT_48_RUN_IN_PROGRESS`.
+
+
+## Amendment 01: latest PR verification correction
+
+At first write, Actions run #43807935559 was still in progress. It subsequently failed during compilation of the target module because the h869:s0 ring-worker theorem had been declared twice in the appended source. This was an authoring defect in the new extension, not a scheduler or Lean-toolchain failure.
+
+The duplicate theorem declaration and duplicate `#print axioms` line were removed. Corrective commit: `1f82618a8ba5215daacbcb02b69233497b383ad1`. The corrected file was independently read back from the existing PR branch. A new Actions run for this commit had not yet surfaced at the time of this amendment. No compile success is claimed for the latest extension.
+
+The previous run #43807394742 did compile the h868 core module successfully at its synthetic merge reference; its overall root build failed later in unrelated `MovingPlaneTraceGeometry`. PR #1570 remains draft and unmerged.
