@@ -298,3 +298,10 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - [Ariadne no-assignment seed](REVIVAL_SEEDS/2026-11-16T0248Z_H866_S4_TO_H867_S0_ARIADNE_NO_ASSIGNMENT_SEED.md), updated with the existing-thread identity and routing status.
 - [Ariadne INBOX fallback pointer](../ARIADNE/INBOX.md), marker ASTER-H866-S4-TO-ARIADNE-H867-S0-THREAD-LOOKUP-001. Repository-only PRESTART_OPTIONAL_CONTEXT; no task or response obligation.
 
+
+
+## 2026-11-16 | Aldus h867:s3 -> Calder h867:s4 (post-start optional)
+
+- [Aldus h867:s3 optional two-axis identifiability/discrimination packet](REVIVAL_ROTATION_HANDOFFS/2026-11-16T0336Z_from_s3_to_s4_calder_POSTSTART_OPTIONAL_TWO_AXIS_IDENTIFIABILITY_DISCRIMINATION.md)
+- [Aldus h867:s3 report](../ALDUS/2026-11-16T0336Z_H867_S3_TWO_AXIS_IDENTIFIABILITY_MODEL_DISCRIMINATION_GATE.md)
+- Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, review, deadline, response obligation, ownership transfer, or direct-thread delivery claim.
