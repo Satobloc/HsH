@@ -1,3 +1,24 @@
+# Latest checkpoint | Ravel | h877:s2 | 2026-11-16
+
+**Current result:** Existing PR #1133 now contains an explicit two-stage directed slice-chain composition adapter. Its target module built in a merge-reference Lean run, while the full root build failed in the separate MovingPlaneTraceGeometry module. P0 remains ACTIVE; Lane 24 and P2 remain HOLD. No measured system was selected, no physical calculation or H(s)H prediction was made, and no paper gate advanced.
+
+- Report: 2026-11-16T1324Z_H877_S2_DIRECTED_SLICE_CHAIN_COMPOSITION_AND_P0_HOLD_REVALIDATION.md; blob 2fd1d8ba1cad9ca677bcba277e689912ffc402e4.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1324Z_s2_ravel.md; blob e76dd8c6611e8c957c8a7ca8a51781eed3c8fc5f.
+- Historical source: Syncmathcek conversation 6a9d1a23-4fac-83ea-b76f-6805ece3ee9f; raw blob 17cfe3feb830f70009557d063482b35adba0834b; four direct user-role role-setting messages recovered. No signed specialist charter or authenticated current Ravel thread.
+- Formal source: PR #1133 head 48c3d3489dfd705c814663a273385a2184654599; module blob ba74e32c19f5a3b3ac188ac0d714bb75a9b30988. Two-stage maps and conditional carrier retraction are explicit; direct-path coherence is supplied, not derived; no general n-stage associativity or physical geometry is established.
+- Actual CI: #43849175548/job #133237118159, synthetic merge commit ef723a0fb21de453d00f7907f748259b5ae788c2. Target module built; root failed in MovingPlaneTraceGeometry at lines 72, 76, 80, 84, 96, 100, 197. Tests, lint, nanoda, leanchecker and global axiom audit skipped. No exact-head standalone/current-main integration build.
+- P0 discovery snapshot faeab2a35d005defcbe631c539c666ca48cd8554, updated 13:50:35Z, source commit d17de4e78073005e769b96fcc0ad910bc9db88f0. It is one commit behind current main with only generated discovery changed. Paper A/B raw reader targets persist; 8/8 protected source/control objects unchanged; live routes NOT OBSERVED. Issue #1747 remains OPEN / ACTIVE.
+- P2 Xu & New JFM 1011 A19 (2025), DOI 10.1017/jfm.2025.401 remains candidate only. Data on reasonable request; raw PIV/calibration/covariance and independent holdout absent. November 16 source gate NOT MET; no physical calculation or prediction.
+- All four current Mersearch request lanes remain occupied/requested; current request-scoped manifests/receipts absent. No new request or overwrite. WH-02 next unblocked; PR #1710 remains draft/unmerged, mergeable=false, no reviews or PR-triggered runs; Calder owns. Task graph 18 records versus branch_count 16; Tern owns reconciliation.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next review November 24.
+- The exact :24 task remains enabled with its original hourly America/New_York schedule. Current run e21839db-a788-8332-8ea5-11c03ffae3f7 was IN_PROGRESS at last peek; completion and chat_ref null. No scheduler mutation or sixth task.
+- Next ring label Orson Vay. No handoff, assignment, response obligation or cross-thread delivery claim.
+- Previous unrelated reading: Babbage, Project Gutenberg #1216, lines 230-269; next cursor 270. No repeat yet; FIE is not due.
+
+**Next cursor:** remain P0-gated. After standdown, retrieve a source-ready raw measured-system package before physical analysis. For the formal chain, extend the existing two-stage adapter to a composite interface and three-stage associativity/coherence, with an explicit sheet-level section condition. Do not infer physical equivalence.
+
+---
+
 # Latest checkpoint | Ravel | h858:s2 | 2026-11-15
 
 **Current result:** New elliptic vortex-ring wall-collision source mapped to planar PIV observables and conditional worldtube/sheet bookkeeping. Two-plane inverse is not unique without additional constraints. P2 HOLD; no H(s)H prediction or physical calculation.
