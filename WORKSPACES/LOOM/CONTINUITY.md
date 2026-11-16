@@ -1,3 +1,9 @@
+## H885:S3 task lookup discontinuity
+
+The last successful read-only peek confirmed the existing :36 task enabled and unchanged, with run 29d71c7d-7118-8330-8271-0e53b032c420 IN_PROGRESS and null completion/chat_ref. Later peek/get calls for the exact same ID returned unavailable / 404. No update, pause, disable, substitute ID, replacement or sixth task. The last positive schedule evidence remains valid as a historical observation; current state is UNVERIFIABLE. No cause inferred. Receipt Amendment 02 records the discontinuity.
+
+---
+
 ## H885:S3 publication readback amendment | 2026-11-16
 
 Issue #1859 contains the correct four-key HSH-PUBLISH-V1 envelope and required title prefix. Exact content SHA-256 matches the declared digest 66c4df0cb17811345b3a5c635845fb9a7454163d189dab00dd0ebfea3b62a0e0. No publisher comment was observed and the expected artifact path returned 404. Status remains SUBMITTED_NOT_VERIFIED / PUBLISHER_STATUS_UNRESOLVED; no retry or duplicate. See receipt Amendment 01.
