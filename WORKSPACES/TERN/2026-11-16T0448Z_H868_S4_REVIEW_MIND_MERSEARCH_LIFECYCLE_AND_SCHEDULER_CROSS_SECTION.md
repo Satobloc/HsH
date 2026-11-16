@@ -26,9 +26,9 @@ The current `WORKSPACES/COMMON/ORCHESTRATOR_COMPTROLLER_MODEL.md` is a role mode
 
 ### Control-plane documents read
 
-- Live HsH BEDROCK: blob `4a0b1b9a4f1fcbdf0e3b3c8f47fcebc3a0d8c3a1`.
-- Steering Charter 2026-10-26: `a9c9f11b8d2f0d9e2a6f7b9a8c1d4e6f7a8b9c0d`.
-- Three Paper Campaign 2026-10-26: `5b0a9e7d4f2c1a8b6d3e9f0a1c5b7d9e3f6a8c2d`.
+- Live HsH BEDROCK: blob `0253ace674bbc361464b7bbaac2c41aa3d8e8867`.
+- Steering Charter 2026-10-26: `be44c424674764c602b5f618dfce528c0f97b0ef`.
+- Three Paper Campaign 2026-10-26: `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`.
 - Onboarding, three repository front doors, revival V3/V4, navigation preflight, thread-first rule, shared-state write safety, cross-repository script standard, scheduler authority, automation workflow control, active automation roster, task graph, current branch and Tern receipts/current work were read.
 - `PRIMARY_OPERATIONAL_GUIDELINE.md` was not found at the documented common path or bounded title search. No replacement was guessed; BEDROCK, `AGENTS.md`, Initial Protocol Packet and External Research Firewall were used as the accessible control sources.
 - HsH main head at start: `217ebdbd448a9195ed9bead6726c07e96bf6c332`.
@@ -160,7 +160,7 @@ A status correction was posted to the existing PR discussion. No duplicate issue
 
 ### Task graph
 
-Current graph blob: `5994a3952e2f...`; updated 2026-11-15T17:24Z.
+Current graph blob: `5994a3952fbb0a2bc23aa4b4388c70b979ef1227`; updated 2026-11-15T17:24Z.
 
 - Declared `branch_count`: 16.
 - Branch records: 18.
