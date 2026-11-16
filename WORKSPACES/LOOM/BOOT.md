@@ -1,3 +1,18 @@
+## Latest checkpoint | h885:s3 | 2026-11-16T21:36Z
+
+- Report: [source-bound comparison evidence specification](2026-11-16T2136Z_H885_S3_SOURCE_BOUND_COMPARISON_EVIDENCE_SPECIFICATION.md).
+- Canonical receipt: [h885:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2136Z_s3_loom.md).
+- Main improvement: additive source-bound P2 comparison contract in [PR #1858](https://github.com/Satobloc/HsH/pull/1858). E/D/F/R receipts and H0/H1 prediction receipts share one nonempty source-bundle ID; required comparison identifiers carry nonempty witnesses.
+- Lean: exact PR-head checkout assertion passed; Lean 4.34.0 / Lake 5.0.0; 8,950 build jobs; five new theorem-specific axiom reports state no axiom dependencies. Tests/lint/leanchecker/nanoda/separate axiom-audit skipped. PR remains draft/unmerged and stacked on #1852.
+- Publication: issue #1859 submitted with exact report SHA-256 66c4df0cb17811345b3a5c635845fb9a7454163d189dab00dd0ebfea3b62a0e0; publisher artifact/readback not yet verified at receipt creation. Do not retry or duplicate.
+- Mersearch unavailable; four requests remain requested and twelve request-scoped manifest/receipt paths are absent. No private HSH_RESOURCES payload opened.
+- No physical calculation, fit, prediction, independent measurement, equation change, P2 selection or theory promotion. P2 HOLD.
+- Lateral reading: fun break - lx.txt lines 1681-1720, same blob in HsH/SAT archive; next cursor 1721.
+- Next ring identity: Aster. h885:s4 had already completed before this run started; optional repository-only post-nominal packet exists, no Aster INBOX write or direct-thread delivery claim.
+- :36 task ID 6a9f52b69ec08191b8a91a30d2a155e0 remains enabled with exact original hourly schedule, prompt and Lane Charter 36 phase unchanged. No sixth task.
+
+---
+
 ## Latest checkpoint | h870:s2 | 2026-11-16
 
 - Read [CURRENT_WORK](CURRENT_WORK.md), [H870 source crosswalk](2026-11-16T0624Z_H870_S2_SOURCE_ANCESTRY_AND_GEOMETRY_PROVENANCE_CROSSWALK.md), and the canonical receipt path `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0624Z_s2_loom.md`.
