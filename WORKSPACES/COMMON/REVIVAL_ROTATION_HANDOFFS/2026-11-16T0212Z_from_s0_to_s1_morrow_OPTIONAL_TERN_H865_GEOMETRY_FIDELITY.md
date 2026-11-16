@@ -38,3 +38,13 @@ No source-defined thickening, incidence, projection, or readout map makes these 
 5. Formalize only source-faithful propositions after the missing maps are defined. Do not infer physical validation from Lean.
 
 Morrow's existing specialist remit, current work, and any theory stop remain unchanged. This packet creates no task, deadline, ownership transfer, or theory-integration instruction.
+
+
+## Addendum 01 | publication and source-custody correction
+
+- h865:s0 June 2025 supplement: [HsH issue #1816](https://github.com/Satobloc/HsH/issues/1816).
+- h865:s0 October/November direct-source extension: [HsH issue #1817](https://github.com/Satobloc/HsH/issues/1817).
+- Amendment 01 to #1817: WORKSPACES/TERN/2026-11-16T0218Z_H865_S0_NATHAN_DIRECT_GEOMETRY_FIDELITY_AMENDMENT_01.md.
+- The correct SAT4D live-draft SHA-256 is c3f90cdeda667f20c7ab9ab33eea2e23c5245d94c1e4f99f3aec5e3e7f1f6cb7. The #1817 published artifact remains unchanged; the correction is recorded in its issue comment #6905509223.
+- The June supplement establishes that SAT-O1 closely tracks assistant draft 917cf9f8 and is not independent mathematical confirmation. The September 12 collaborative Blockwave Theory.txt and September 16 clean-action attachment are separate artifacts.
+- Current canonical unrelated-reading cursor in Tern CURRENT_WORK is Blue Carbuncle line 2235. The Babbage passage in the h865:s0 extension was a separate lateral read.
