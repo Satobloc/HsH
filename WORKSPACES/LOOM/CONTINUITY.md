@@ -1,3 +1,19 @@
+## 2026-11-16 | H885:S3 | Source-bundle continuity
+
+The current P2 H1 source is pinned as an assistant-created index, not a Nathan-authored ontology. The direct chronology preserves the August 26 Klein-like fabric proposal; October 9 Minkowski/worldtube and active 3D time-slice statements; October 20 curvature correction; October 21 reciprocal-model retirement and separate cw=t / (++++) notation; and November 8 provisional fourth-spatial w. Embedded assistant quotations in messages 5a929... and 090f... are excluded from Nathan Direct attribution.
+
+Global Klein-like fabric is a conceptual parent; local dual-shell is a possible realization, not equivalence. No source-defined manifold, coordinate conversion, metric/signature map, normal-bundle twist, worldtube/core map, or lab projection exists. Minkowski kinematics remains the control. No invented thickness, contact surface, elasticity, filament tension or spring constant.
+
+Source bundle: loom-h885-s3-p2-source-bundle-20261116. Report and JSON are in WORKSPACES/LOOM; issue #1857 is PUBLISHED_VERIFIED. Publisher comment #6930774895; Amendment 01 source-role comment #6931025257. JSON SHA-256 241d7134fb49d22b86342c873c02ae6d97fa4343fbaf6df56fc014609d60142f.
+
+No new Lean theorem: existing exact-head PR #1515 and #1852 builds cover the conditional signature/readout, sampling, acquisition-unit holdout and comparison-freeze obligations. They do not authenticate source-bundle contents or supply the missing physical map. P2 HOLD; no data acquisition, fit, prediction or independent measurement.
+
+Lateral reading advanced 40 lines, 1681–1720, in fun break - lx.txt; next cursor 1721. HsH and SAT archive copies share one blob, not independent sources.
+
+Sable h885:s2's optional packet arrived after this run started and was read only as context. Aster is next by ring label, but P0 Code Grurple remains controlling; no P2 handoff or cross-thread delivery. Existing :36 relay unchanged.
+
+---
+
 ## H885:S3 task lookup discontinuity
 
 The last successful read-only peek confirmed the existing :36 task enabled and unchanged, with run 29d71c7d-7118-8330-8271-0e53b032c420 IN_PROGRESS and null completion/chat_ref. Later peek/get calls for the exact same ID returned unavailable / 404. No update, pause, disable, substitute ID, replacement or sixth task. The last positive schedule evidence remains valid as a historical observation; current state is UNVERIFIABLE. No cause inferred. Receipt Amendment 02 records the discontinuity.
