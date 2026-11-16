@@ -1179,4 +1179,275 @@ theorem h762_followup_four_lease_chat_ref_vector :
 #eval [h762S0FinalReadback.status, h762S2FollowupReadback.status,
       h762S3MorrowReadback.status, h762S4CompletedReadback.status]
 
+
+/-! ## h868 four-lease scheduler readbacks and same-run lifecycle
+
+The nominal hour is 2026-11-16T04:00Z (h868). The first readback clock
+was 04:53:10Z, immediately before exact-ID peeks of the :24, :36, and :48
+leases. The :36 run was later returned COMPLETED at 04:56:00.202342Z; a
+second exact-ID collection was bounded below by 04:58:08Z. The :24 and :48
+records remained IN_PROGRESS at that later collection.
+
+The :00 task's latest returned record was still h867:s0 (Ariadne), FAILED;
+no h868:s0 run record surfaced, and the task metadata pointed to 05:00Z.
+That absence is bounded to this readback. It does not establish why no
+h868:s0 record was returned.
+
+The overlap theorem below concerns the intersection of the *recorded*
+run intervals, using the returned start/completion fields and right-censoring
+the two still-IN_PROGRESS records at 04:58:08Z. It is not proof of actual
+process concurrency, backend causation, authenticated worker identity,
+or thread delivery. These are normalized scheduler observations, not raw
+provider event bytes.
+-/
+
+def h867S0FailedReadback : RunRecordObservation :=
+  { runId := "8c09d5f5-d580-8333-b9be-e35e3e06fddf"
+    scheduledUs := us 3 0 0 0
+    startedUs := us 3 59 37 839667
+    completedUs := some (us 4 24 43 904984)
+    status := .failed
+    latestResultRunId := some "8c09d5f5-d580-8333-b9be-e35e3e06fddf"
+    chatRef := none }
+
+/-- h868:s2 Nadir Voss, still IN_PROGRESS at the 04:58:08Z readback. -/
+def h868S2Readback : RunRecordObservation :=
+  { runId := "8c9a4f46-4478-8331-94ca-89c7db3a906a"
+    scheduledUs := us 4 24 0 0
+    startedUs := us 4 51 37 308539
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := some "6ac3f176-38f4-8326-8608-73790a1009cd"
+    chatRef := none }
+
+/-- h868:s3 Enheduanna, first returned IN_PROGRESS at 04:53:10Z. -/
+def h868S3InitialReadback : RunRecordObservation :=
+  { runId := "e7bb47f1-c688-8325-9f36-b68a709fa7a1"
+    scheduledUs := us 4 36 0 0
+    startedUs := us 4 37 31 424796
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := some "8880bfb2-7598-832e-a64d-27571f13c650"
+    chatRef := none }
+
+/-- Same h868:s3 run after completion, returned at the 04:58:08Z collection. -/
+def h868S3CompletedReadback : RunRecordObservation :=
+  { runId := "e7bb47f1-c688-8325-9f36-b68a709fa7a1"
+    scheduledUs := us 4 36 0 0
+    startedUs := us 4 37 31 424796
+    completedUs := some (us 4 56 0 202342)
+    status := .completed
+    latestResultRunId := some "e7bb47f1-c688-8325-9f36-b68a709fa7a1"
+    chatRef := some "6af51a99-15e4-83e9-93e5-bc29e8dfdbb8" }
+
+/-- h868:s4 Tern Rook, still IN_PROGRESS at the 04:58:08Z readback. -/
+def h868S4Readback : RunRecordObservation :=
+  { runId := "e04c8549-6180-8322-8bda-b4b69d920aaf"
+    scheduledUs := us 4 48 0 0
+    startedUs := us 4 44 57 715383
+    completedUs := none
+    status := .inProgress
+    latestResultRunId := none
+    chatRef := none }
+
+/-- No h868:s0 run record was returned by the 04:58:08Z :00 lease peek. -/
+def h868S0Readback : Option RunRecordObservation := none
+
+def h868InitialReadbackAtUs : Nat := us 4 53 10 0
+def h868ReadbackAtUs : Nat := us 4 58 8 0
+
+def h868S0TaskMetadata : TaskMetadataObservation :=
+  { lastRunUs := us 4 24 48 289064
+    updatedUs := us 4 25 11 656575
+    nextRunUs := us 5 0 0 0 }
+
+def h868S2TaskMetadata : TaskMetadataObservation :=
+  { lastRunUs := us 3 37 11 520522
+    updatedUs := us 3 37 34 410348
+    nextRunUs := us 4 24 0 0 }
+
+def h868S3TaskMetadataAfterCompletion : TaskMetadataObservation :=
+  { lastRunUs := us 4 56 2 805829
+    updatedUs := us 4 56 24 645669
+    nextRunUs := us 5 36 0 0 }
+
+def h868S4TaskMetadata : TaskMetadataObservation :=
+  { lastRunUs := us 4 7 27 443340
+    updatedUs := us 4 7 49 837550
+    nextRunUs := us 4 48 0 0 }
+
+theorem h867_s0_worker :
+    ringAt ((5 * 867 + 0) % 19) = some "Ariadne" := by rfl
+
+theorem h868_s0_sequence : 5 * 868 + 0 = 4340 := by decide
+
+theorem h868_s0_index : (5 * 868 + 0) % 19 = 8 := by decide
+
+theorem h868_s0_expected_worker :
+    ringAt ((5 * 868 + 0) % 19) = some "Hale" := by rfl
+
+theorem h868_s2_sequence : 5 * 868 + 2 = 4342 := by decide
+
+theorem h868_s2_index : (5 * 868 + 2) % 19 = 10 := by decide
+
+theorem h868_s2_worker :
+    ringAt ((5 * 868 + 2) % 19) = some "Nadir Voss" := by rfl
+
+theorem h868_s3_index : (5 * 868 + 3) % 19 = 11 := by decide
+
+theorem h868_s3_worker :
+    ringAt ((5 * 868 + 3) % 19) = some "Enheduanna" := by rfl
+
+theorem h868_s4_sequence : 5 * 868 + 4 = 4344 := by decide
+
+theorem h868_s4_index : (5 * 868 + 4) % 19 = 12 := by decide
+
+theorem h868_s4_worker :
+    ringAt ((5 * 868 + 4) % 19) = some "Tern Rook" := by rfl
+
+theorem h868_s4_successor :
+    ringAt (((5 * 868 + 4) + 1) % 19) = some "Morrow" := by rfl
+
+theorem h869_s0_worker :
+    ringAt ((5 * 869 + 0) % 19) = some "Morrow" := by rfl
+
+theorem h867_s0_failure_timing :
+    h867S0FailedReadback.status = .failed ∧
+    h867S0FailedReadback.startedUs - h867S0FailedReadback.scheduledUs = 3577839667 ∧
+    h867S0FailedReadback.completedUs.getD 0 -
+      h867S0FailedReadback.scheduledUs = 5083904984 := by
+  decide
+
+theorem h868_s0_not_surfaced :
+    h868S0Readback = none := by rfl
+
+theorem h868_s0_task_metadata_after_prior_failure :
+    h868S0TaskMetadata.lastRunUs >
+      h867S0FailedReadback.completedUs.getD 0 ∧
+    h868S0TaskMetadata.updatedUs > h868S0TaskMetadata.lastRunUs ∧
+    h868S0TaskMetadata.nextRunUs = us 5 0 0 0 := by
+  decide
+
+theorem h868_s2_run_fields :
+    h868S2Readback.status = .inProgress ∧
+    h868S2Readback.completedUs = none ∧
+    h868S2Readback.latestResultRunId =
+      some "6ac3f176-38f4-8326-8608-73790a1009cd" ∧
+    h868S2Readback.chatRef = none := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h868_s2_started_after_nominal_us :
+    h868S2Readback.startedUs - h868S2Readback.scheduledUs = 1657308539 := by
+  decide
+
+theorem h868_s2_task_metadata_still_precedes_current_start :
+    h868S2TaskMetadata.lastRunUs < h868S2Readback.startedUs ∧
+    h868S2TaskMetadata.updatedUs < h868S2Readback.startedUs ∧
+    h868S2TaskMetadata.nextRunUs = h868S2Readback.scheduledUs := by
+  decide
+
+theorem h868_s3_same_run_schedule_and_start :
+    h868S3InitialReadback.runId = h868S3CompletedReadback.runId ∧
+    h868S3InitialReadback.scheduledUs = h868S3CompletedReadback.scheduledUs ∧
+    h868S3InitialReadback.startedUs = h868S3CompletedReadback.startedUs := by
+  exact ⟨rfl, rfl, rfl⟩
+
+theorem h868_s3_state_cache_and_chat_transition :
+    h868S3InitialReadback.status = .inProgress ∧
+    h868S3InitialReadback.completedUs = none ∧
+    h868S3InitialReadback.latestResultRunId =
+      some "8880bfb2-7598-832e-a64d-27571f13c650" ∧
+    h868S3InitialReadback.chatRef = none ∧
+    h868S3CompletedReadback.status = .completed ∧
+    h868S3CompletedReadback.completedUs = some (us 4 56 0 202342) ∧
+    h868S3CompletedReadback.latestResultRunId =
+      some "e7bb47f1-c688-8325-9f36-b68a709fa7a1" ∧
+    h868S3CompletedReadback.chatRef =
+      some "6af51a99-15e4-83e9-93e5-bc29e8dfdbb8" := by
+  exact ⟨rfl, rfl, rfl, rfl, rfl, rfl, rfl, rfl⟩
+
+theorem h868_s3_started_after_nominal_us :
+    h868S3CompletedReadback.startedUs -
+      h868S3CompletedReadback.scheduledUs = 91424796 := by
+  decide
+
+theorem h868_s3_run_duration_us :
+    h868S3CompletedReadback.completedUs.getD 0 -
+      h868S3CompletedReadback.startedUs = 1108777546 := by
+  decide
+
+theorem h868_s3_task_metadata_caught_up :
+    h868S3TaskMetadataAfterCompletion.lastRunUs >
+      h868S3CompletedReadback.completedUs.getD 0 ∧
+    h868S3TaskMetadataAfterCompletion.updatedUs >
+      h868S3TaskMetadataAfterCompletion.lastRunUs ∧
+    h868S3TaskMetadataAfterCompletion.nextRunUs = us 5 36 0 0 := by
+  decide
+
+theorem h868_s4_run_fields :
+    h868S4Readback.status = .inProgress ∧
+    h868S4Readback.completedUs = none ∧
+    h868S4Readback.latestResultRunId = none ∧
+    h868S4Readback.chatRef = none := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h868_s4_started_before_nominal_us :
+    h868S4Readback.scheduledUs - h868S4Readback.startedUs = 182284617 := by
+  decide
+
+theorem h868_s4_task_metadata_still_precedes_current_start :
+    h868S4TaskMetadata.lastRunUs < h868S4Readback.startedUs ∧
+    h868S4TaskMetadata.updatedUs < h868S4Readback.startedUs ∧
+    h868S4TaskMetadata.nextRunUs = h868S4Readback.scheduledUs := by
+  decide
+
+theorem h868_three_run_recorded_overlap_us :
+    min (min (h868S2Readback.completedUs.getD h868ReadbackAtUs)
+             (h868S3CompletedReadback.completedUs.getD h868ReadbackAtUs))
+        (h868S4Readback.completedUs.getD h868ReadbackAtUs) -
+      max (max h868S2Readback.startedUs h868S3CompletedReadback.startedUs)
+          h868S4Readback.startedUs = 262893803 := by
+  decide
+
+theorem h868_initial_readback_within_three_run_overlap :
+    h868S2Readback.startedUs ≤ h868InitialReadbackAtUs ∧
+    h868S3CompletedReadback.startedUs ≤ h868InitialReadbackAtUs ∧
+    h868S4Readback.startedUs ≤ h868InitialReadbackAtUs ∧
+    h868InitialReadbackAtUs ≤ h868S3CompletedReadback.completedUs.getD 0 := by
+  decide
+
+#print axioms h867_s0_worker
+#print axioms h868_s0_sequence
+#print axioms h868_s0_index
+#print axioms h868_s0_expected_worker
+#print axioms h868_s2_sequence
+#print axioms h868_s2_index
+#print axioms h868_s2_worker
+#print axioms h868_s3_index
+#print axioms h868_s3_worker
+#print axioms h868_s4_sequence
+#print axioms h868_s4_index
+#print axioms h868_s4_worker
+#print axioms h868_s4_successor
+#print axioms h869_s0_worker
+#print axioms h867_s0_failure_timing
+#print axioms h868_s0_not_surfaced
+#print axioms h868_s0_task_metadata_after_prior_failure
+#print axioms h868_s2_run_fields
+#print axioms h868_s2_started_after_nominal_us
+#print axioms h868_s2_task_metadata_still_precedes_current_start
+#print axioms h868_s3_same_run_schedule_and_start
+#print axioms h868_s3_state_cache_and_chat_transition
+#print axioms h868_s3_started_after_nominal_us
+#print axioms h868_s3_run_duration_us
+#print axioms h868_s3_task_metadata_caught_up
+#print axioms h868_s4_run_fields
+#print axioms h868_s4_started_before_nominal_us
+#print axioms h868_s4_task_metadata_still_precedes_current_start
+#print axioms h868_three_run_recorded_overlap_us
+#print axioms h868_initial_readback_within_three_run_overlap
+
+#eval [h867S0FailedReadback.status, h868S2Readback.status,
+      h868S3CompletedReadback.status, h868S4Readback.status]
+
 end HsHVerification.TernH743SchedulerSnapshotEvidence
