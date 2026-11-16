@@ -1,3 +1,9 @@
+## Latest checkpoint | Enheduanna ring label h868:s3 | 2026-11-16
+
+Assistant-executed Lane 36 overlay: [Jackson–Thomas PIV count-stage and aggregation audit](2026-11-16T0436Z_H868_S3_PIV_COUNT_STAGE_AND_AGGREGATION_AUDIT.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0436Z_s3_enheduanna.md). The article explicitly identifies 3,600 captured images and a 3,600-time-index filtered velocity field; the 10-run aggregate plausibly explains its rounded array-entry magnitude, but aggregation scope remains unproven. CountStageWitness is proposed; [PR #1823](https://github.com/Satobloc/HsH/pull/1823) is stacked and exact-head Lean verification is pending. P2 remains HOLD. No authenticated current Enheduanna thread or standalone specialist charter is established. Next ring label Tern Rook; optional Common packet only, no direct-thread delivery claim.
+
+---
+
 ## Latest checkpoint | Enheduanna h864:s4 | 2026-11-16
 
 Review-MIND overlay: [transcript exposure/source attribution report](2026-11-16T0048Z_H864_S4_TRANSCRIPT_EXPOSURE_AND_SOURCE_ATTRIBUTION_AUDIT.md) and [source exposure graph](SOURCE_EXPOSURE_GRAPH_H864_S4.json). This is an additive source-provenance update, not a new specialist charter and not a replacement for the Lane 24 assignment. No authenticated current Enheduanna thread is established. Next ring label: Tern Rook h865:s0; optional post-start packet is in Common HANDOFFS.
