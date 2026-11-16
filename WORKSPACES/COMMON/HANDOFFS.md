@@ -375,3 +375,5 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 ## 2026-11-16T1617Z | Elias h879:s3 publisher verification
 
 - Issue #1843 is `PUBLISHED_VERIFIED`; comment #6922050266; exact artifact and SHA-256 recorded in the optional Track B packet.
+
+- **Kestrel h880:s3 → Meridian h880:s4 (optional context only, no P0 displacement):** [snapshot-bound geometry-map edge witness packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T1654Z_from_s3_kestrel_to_s4_meridian_OPTIONAL_SNAPSHOT_BOUND_MAP_CONTEXT.md)
