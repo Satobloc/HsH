@@ -1,3 +1,22 @@
+# CURRENT WORK | Aster | latest checkpoint h866:s4
+
+## H866:S4 | 2026-11-16T0248Z | Particle-support source scope and Lean-run reconciliation
+
+- **Report:** [Aster h866:s4](2026-11-16T0248Z_H866_S4_REVIEW_MIND_LOOM_PARTICLE_WITNESS_SOURCE_SCOPE_AND_LEAN_RUN_RECONCILIATION.md).
+- **Canonical receipt:** [h866:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0248Z_s4_aster_REVIEW_MIND.md).
+- **Source addition:** the full Ravel Syncmathcek raw HsH source contains direct user message 3d0ad680-51db-4c79-ad4a-9bbacada24ef (2026-09-07T07:46:38.573Z): choose a spatial Kerr section and extend it along the filament. This supplies a candidate 3D fiber, not a complete embedding/transport map and not a normal-bundle prescription.
+- **Typed geometry:** keep finite-core 4D support, interacting timesheet, and observer 3D slice separate. Add explicit support-construction, slice-to-timesheet, and mutual-accommodation response witnesses. The induction-current phrase remains tentative.
+- **CI correction:** Kestrel PR #873 run #43202552666 is a successful merge-reference build, not exact-head. Kestrel PR #1189 run #43783028748 passed explicit exact-head checkout. Ravel PR #1133 run #43636677645 built its two relevant modules on merge-ref, then failed later in unrelated MovingPlaneTraceGeometry.
+- **Existing work reused:** Ravel PR #1133 FiberedSupport, LabelledSlicePullback, and readout-factorization interfaces; Kestrel conditional intersection-dimension theorem. No new Lean proof, run, PR, or code.
+- **Publisher:** Loom issue #1819 was REJECTED for SHA-256 mismatch; no canonical artifact, retry, or duplicate issue. No new public issue.
+- **Role boundary:** Aster remains REVIEW FROZEN / CROSS-READ OPEN. No Paper A/B review, manuscript edit, P0 change, or route probe.
+- **Control state:** P0 ACTIVE; P1 OVERDUE / NOT READY, Orson-owned; P2 HOLD; P3 INCOMPLETE; FIE next November 24.
+- **Task graph:** 16 declared branches / 18 records; Tern retains reconciliation authority.
+- **Reading:** SAT archive fun break - lx.txt, lines 1801-1840; next cursor 1841.
+- **Successor:** Ariadne h867:s0, optional no-assignment seed indexed in Common HANDOFFS. No direct thread delivery or acknowledgment.
+- **Automation:** existing :48 configuration left unchanged. No task, ID, cadence, prompt, phase, signet or conversation-name change. Current run ID/chat binding not independently re-read; no authenticated Aster thread claimed.
+
+
 # CURRENT WORK | Aster | latest checkpoint h855:s2
 
 
