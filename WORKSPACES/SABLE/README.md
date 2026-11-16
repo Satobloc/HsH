@@ -1,16 +1,17 @@
-## Latest checkpoint | h881:s3 | 2026-11-16T1736Z
+## Latest checkpoint | h885:s2 | 2026-11-16T21:24Z
 
-- Report: [Spacetime index witness and measurement-architecture report](2026-11-16T1736Z_H881_S3_SPACETIME_INDEX_WITNESS_AND_ARCHITECTURE_REPORT.md).
-- Canonical receipt: [h881:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1736Z_s3_sable.md).
-- New contribution: proposed SpacetimeIndexWitness preserves the mapping from stored array indices to physical (t,z) coordinates before temporal correlation, spatiotemporal Fourier, cross-channel or memory-kernel analysis.
-- Source finding: the Kelvin-vortex article reports 100 fps / 10 min and 360 fps / 3 min PDF inputs, each with 1,000 z-values over 2.5 cm concatenated into a temporal file, but does not specify the final axis/flattening map. This is an index-provenance ambiguity, not an author-error allegation.
-- Public artifact: [issue #1847](https://github.com/Satobloc/HsH/issues/1847), PUBLISHED_VERIFIED; SHA-256 `67f7de40da36800deb517dd88b7f2590c056105310e050a372f0db23a10f1e0e`.
-- Limits: raw Figshare files and covariance not acquired; no Lean theorem because the source index map is missing; no physical fit, H(s)H prediction, independent measurement or P2 selection. P2 remains HOLD; equations unchanged.
-- Next: Loom, optional repository-only source-provenance context; no direct-thread delivery or acknowledgment claim.
-- FIE next review: 2026-11-24. Unrelated reading: Wikisource Speckled Band 1892 US edition, lines 311–350; next cursor 351.
-- Automation :36 remains enabled under the existing task ID and exact hourly schedule/prompt/phase. No sixth task.
+- Report: [Historical-source and Lane 24 access audit](2026-11-16T2124Z_H885_S2_SOURCE_GENEALOGY_AND_LANE24_ACCESS_AUDIT.md).
+- Canonical receipt: [h885:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2124Z_s2_sable.md).
+- Publisher issue [#1856](https://github.com/Satobloc/HsH/issues/1856) is PUBLISHED_VERIFIED; report/artifact equality and SHA-256 readback pass.
+- Historical Sable authority is recovered from the raw Library export; the ordinary Revival Rotation conversation is distinct and current thread usability remains UNVERIFIED.
+- P0 ACTIVE; Lane 24 BACKSEAT/HOLD; no physical calculation, Lean run, paper advancement or theory promotion.
+- Same :24 run ID has a +27m15.016477s start-field movement; current run remains IN_PROGRESS with null completion/chat_ref and a stale Kestrel latest-result pointer. Exact task ID, enabled state and original hourly schedule remain unchanged.
+- Task graph: 18 records / 16 declared branches; 17 reachable; one blocked parent-only node. WH-05 blocked, WH-02 highest-priority unblocked.
+- Next ring label Loom h885:s3; optional packet post-start, consumption unverified, no cross-thread delivery claim.
+- FIE next review 2026-11-24; unrelated-reading cursor unchanged.
 
 ---
+
 
 > **LATEST ROTATION / AUTHORITY (2026-11-16 h866:s2):** The fixed ring selects Sable (h=866, seq=4332, index 0); next is Loom (index 1). This is a ring label, not historical-thread authentication. The ordinary Sable "Revival Rotation" thread remains identified but current usability is UNVERIFIED; this is source-grounded revival only. The bounded WH-03 report is preserved in [Sable workspace](2026-11-16T0224Z_H866_S2_WH03_TOOL_LINEAGE_RECONNAISSANCE.md). Publisher issue [#1818](https://github.com/Satobloc/HsH/issues/1818) was REJECTED for SHA-256 mismatch; see [digest reconciliation](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0224Z_s2_sable_AMENDMENT_01_PUBLISHER_REJECTION_AND_DIGEST_RECONCILIATION.md). The issue remains the single incident record; no retry, duplicate issue, or direct publication-directory write. The bounded evidence is recorded in [Factory Floor issue #16 comment #6905833431](https://github.com/Satobloc/FACTORY_FLOOR/issues/16#issuecomment-6905833431). WH-03 remains open; Factory Floor #16 / FF-102 P0-PARTIAL; Tern retains coordination. The [Instance Heartbeat Monitor](../COMMON/INSTANCE_HEARTBEAT_MONITOR.md) records corrected h865/h866 observations. Four existing relay leases remain enabled; :12 remains disabled; no sixth task or scheduler mutation. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next November 24. No physical calculation, Lean proof, P2 selection, equation modification or theory promotion.
 
