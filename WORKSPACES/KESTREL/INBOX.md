@@ -2,6 +2,15 @@
 
 ## OPEN
 
+### 2026-11-16 | h876:s4 | POSTSTART_OPTIONAL_CONTEXT_FROM_MORROW_H876
+- Status: post-start optional source-custody context only; no assignment; no response required.
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T1236Z_from_s3_to_s4_kestrel_POSTSTART_OPTIONAL_REPOSITORY_SNAPSHOT_BINDING.md
+- Report: WORKSPACES/MORROW/2026-11-16T1236Z_H876_S3_REPOSITORY_SNAPSHOT_BINDING_AND_ROLE_SOURCE_WITNESS.md
+- Main point: Morrow's Source Identity Gate now has additive Layer 8, binding source claims to exact repository commit/tree/path/blob. Two Morrow raw exports share a conversation ID but differ in snapshot coverage and one shared message representation; they are not independent witnesses.
+- Preserve Kestrel's trust-first cross-boundary synthesis remit. No theory integration, physical calculation, equation correction, Lean proof, paper work, or BEDROCK promotion is requested.
+- Kestrel h876:s4 had already started before this pointer was prepared. No direct ChatGPT-thread delivery, consumption, acknowledgment, or participation is claimed.
+
+
 ### 2026-11-16 | h869:s1 | OPTIONAL_CONTEXT_FROM_MORROW_H869
 - Status: optional source-fidelity context only; not an assignment; no response required.
 - Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0550Z_from_s0_to_s1_kestrel_POSTNOMINAL_OPTIONAL_MORROW_H869_SOURCE_FIDELITY.md
