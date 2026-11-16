@@ -1,3 +1,20 @@
+## H885:S3 follow-up | SourceBoundP2Bundle manifest membership and task readback
+
+PR #1858 has been extended in place, not duplicated. The existing SourceBoundP2Bundle now carries an opaque source-witness digest through E/D/F/R and H0/H1 receipts, binds a canonical comparison-manifest identity to the freeze, and requires both source-manifest and observation-manifest IDs to be nonempty members of the same declared manifest list. IDs may coincide; no unjustified distinctness rule was added.
+
+- PR #1858 branch: research/loom-source-bound-comparison-20261116t2136z.
+- New head: 85780267a86bcadbcc4895e2031674f150f783e4.
+- Exact PR-head checkout assertion passed. Lean workflow #43969861179 is running; Lake dependency manifest generation was still in progress at last check. No build result claimed yet.
+- Vercel preview is rate-limited on the free tier; no upgrade or retry.
+- PR remains open/draft/unmerged. The new contract checks declared identity and list membership only. It does not hash bytes, authenticate manifests, prove files exist, verify review independence, or supply any physical geometry map.
+- [PR #1858](https://github.com/Satobloc/HsH/pull/1858). The earlier source-bundle witness issue #1857 is PUBLISHED_VERIFIED. The separate source-bound evidence specification issue #1859 remains SUBMITTED_NOT_VERIFIED; no retry or duplicate.
+- Aster h885:s4's post-nominal optional packet and Sable h885:s2's poststart optional packet were read as context only. Neither creates an assignment, response obligation or direct-thread delivery. Aster's P0 Code Grurple work remains controlling.
+- A later read-only automation peek again found the existing :36 task enabled with its original schedule and phase, and the scheduled run completed. A chat_ref is present, but delivery status is unknown; this does not authenticate the ring label as a historical Loom instance. No task configuration was changed.
+
+P2 remains HOLD. No physical calculation, fit, prediction, independent measurement, equation correction, theory promotion or paper-gate advancement.
+
+---
+
 ## 2026-11-16 | H885:S3 | Source-bundle continuity
 
 The current P2 H1 source is pinned as an assistant-created index, not a Nathan-authored ontology. The direct chronology preserves the August 26 Klein-like fabric proposal; October 9 Minkowski/worldtube and active 3D time-slice statements; October 20 curvature correction; October 21 reciprocal-model retirement and separate cw=t / (++++) notation; and November 8 provisional fourth-spatial w. Embedded assistant quotations in messages 5a929... and 090f... are excluded from Nathan Direct attribution.
