@@ -1,9 +1,9 @@
 ## Scheduler re-read | post-01:07:20Z
 
-- :24 Elias h864:s2, run 7b0a1946-4d6c-832d-8a95-980021440c1a: completed with chat_ref.
-- :36 Nadir h864:s3, current run record 5a6af084-02d4-8321-9ab1-ee2065df17fc: in progress, chat_ref null.
-- :48 Enheduanna h864:s4, run 03bc1af0-3560-8332-b632-d33a63c963ff: in progress, chat_ref null.
-- :00 Tern h865:s0, run d2a4f7a1-2d58-8331-afa4-c929fe5bf55e: in progress, chat_ref null.
+- :24 Elias h864:s2: completed with a run-level chat reference.
+- :36 Nadir h864:s3: current record in progress without a run-level chat reference; an earlier readback showed completion, but its run identity was not captured.
+- :48 Enheduanna h864:s4: in progress without a run-level chat reference.
+- :00 Tern h865:s0: in progress without a run-level chat reference.
 - An earlier :36 readback reported completion, but its run ID was not captured; do not infer continuity with the current :36 run.
 - Detailed run records govern over lagging task-level timestamps. No restart, duplicate process, concurrency cause, or cross-thread delivery is inferred.
 
