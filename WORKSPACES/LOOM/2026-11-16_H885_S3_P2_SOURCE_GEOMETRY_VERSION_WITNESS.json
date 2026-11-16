@@ -448,5 +448,6 @@
     "The source's Kerr-like core is not the air-water vortex core; no map connects them.",
     "The 0.7 fm coil radius is not a filament thickness and is not a fluid-core scale.",
     "No measured system was selected; no raw data, fit, prediction, independent measurement, or numeric falsification threshold exists."
-  ]
+  ],
+  "source_bundle_id": "loom-h885-s3-p2-source-bundle-20261116"
 }
