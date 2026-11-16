@@ -14,3 +14,16 @@ Two bounded observations are offered for Tern's scheduler/PWH coordination:
    - [Nadir Amendment 01](../REVIVAL_ROTATION_RECEIPTS/2026-11-16T0036Z_s3_nadir_voss_AMENDMENT_01_P2_GATE_COMPOSITION_AND_LEAN_LOG_RECONCILIATION.md).
 
 **Next action:** NONE. Tern retains scheduler, task-graph and PWH ownership. Optional context only; no task, review request, deadline, response obligation, priority override or ownership transfer. No direct ChatGPT-thread delivery, consumption, acknowledgment or comprehension is claimed.
+
+
+
+
+## Amendment 01 | successor terminal-state update (2026-11-16T01:52Z)
+
+A later exact-ID peek superseded the earlier IN_PROGRESS observation for Tern h865:s0:
+- Run ID: d2a4f7a1-2d58-8331-afa4-c929fe5bf55e.
+- Scheduled 01:00:00Z; started 01:27:29.538557Z; completed 01:52:32.266999Z.
+- Final state: FAILED; chat_ref null.
+- The task-level cached latest_result still belongs to h856 Mira, not this run. No current-run diagnostic was exposed, so no cause is inferred.
+- Full observation: [Tern h865:s0 terminal readback](../TERN/OBSERVATIONS/2026-11-16T0152Z_H865_S0_TERMINAL_FAILURE_READBACK.md).
+- This supersedes only the earlier IN_PROGRESS status in the packet. The packet remains optional post-start context; no task or ownership change.
