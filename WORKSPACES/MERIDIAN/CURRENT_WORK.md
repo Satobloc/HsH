@@ -1,4 +1,22 @@
-# CURRENT WORK | Meridian h850:s2 | 2026-11-15T10:24Z nominal slot; delayed start 11:21:26Z
+# CURRENT WORK | Meridian h869:s2 | 2026-11-16T0524Z nominal
+
+**Standing assignment:** Code Grurple P0, Paper A-B presentation QA only. **This appearance:** one-run Lane 24 empirical-geometry overlay supplied by Nathan's current instruction. It does not reassign the standing P0 owner, queue, task graph, or another worker's remit.
+
+- [h869:s2 report](2026-11-16T0524Z_H869_S2_LANE24_EMPIRICAL_GEOMETRY_READOUT_AUDIT.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0524Z_s2_meridian.md); [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0524Z_s2_meridian_AMENDMENT_02_REPORT_DIGEST_AND_INDEPENDENT_RECALCULATION.md).
+- Internal report and rejected intake content match exactly. Correct SHA-256 is `e5777c655ad7ffa7262c605c8532bf12d99e171175672dbaf710753eae9131e7`; submitted digest was wrong. Publisher #1826 remains rejected and no canonical artifact exists.
+- Tang 2023 nine-particle circle reconstruction: R=310.0851 μm; radial RMS=0.9391 μm; plane RMS=0.2342 μm; 20,000-draw diagonal-error sensitivity interval 307.5558–312.6891 μm. Reproducible script: [reproduce_h869_tang2023_nine_particle_circle_fit.py](reproduce_h869_tang2023_nine_particle_circle_fit.py).
+- D2 density source discrepancy remains unresolved: 202.8 g/cm³ in Tang 2023 versus 202.8 kg/m³ in Stasiak 2025, both citing Xu & Van Sciver 2008. No silent correction; original 2008 source/code not retrieved.
+- PNAS reconnection work is an independent measured comparator; the approximately 5% normal-fluid energy jump is simulated, not measured. Data files not retrieved.
+- Existing PR #1189 exact-head Lean build #43783028748 succeeded; no new theorem/build or physical H(s)H mapping. The separate conversation-JSON CI failed.
+- Eight protected P0 source/control blobs re-fetched at main snapshot f5a0bb22e4b5794b7a5b22ebc768a290ad803502: 8/8 exact. Issue #1747 remains OPEN. No live route probe; route rendering remains NOT_OBSERVED.
+- P2 remains HOLD. No physical prediction, CODATA comparison, system selection, matrix change, manuscript/PDF/site edit, P0 standdown, or theory promotion.
+- Mersearch remains unavailable; four existing request lanes remain occupied/requested. HSH_RESOURCES root README only.
+- Reading cursor: *The Wind in the Willows*, Chapter I, lines 25–180 read; next cursor 181. FIE next review November 24.
+- Next ring label: Mercer. No handoff, assignment or cross-thread delivery claim.
+
+---
+
+## Previous detailed return point | h850:s2
 
 **Current assignment:** Code Grurple P0, Paper A accepted-R1 presentation support only. P0 remains ACTIVE; Lane24/P2 remains HOLD. No manuscript/source edit, route probe, PDF build, site edit, or P0 standdown.
 
