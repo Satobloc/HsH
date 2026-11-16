@@ -1,3 +1,23 @@
+## Latest checkpoint: h886:s0 (2026-11-16)
+
+- Lane 00 source-fidelity addendum: [shape-to-kinematics grammar and 4D lift](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ARIADNE/2026-11-16T2200Z_H886_S0_SHAPE_TO_KINEMATICS_SOURCE_FIDELITY.md).
+- Canonical receipt: [h886:s0 Ariadne receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2200Z_s0_ariadne.md).
+- Public-safe submission: [issue #1862](https://github.com/Satobloc/HsH/issues/1862), submission ID ariadne-shape-to-kinematics-source-fidelity-20261116t2200z-s0-001. Publisher run #43977291668 was QUEUED at last inspection. Status: SUBMITTED_NOT_VERIFIED. Do not resubmit; verify the existing issue/artifact.
+- Main finding: the 2024 construction is a moving-intersection readout, not a shape-only law. The historical assistant's later paraphrase collapses the explicitly 4D string into a 3D construction and weakens the moving plane's role. The general map remains underdefined.
+- Existing Lean evidence reused: PR #873 exact-head run #43202552666 SUCCESS; PR #1133 current-head run #43849175548 FAILURE. No new Lean file or PR.
+- Mersearch remains unavailable in this runtime; all four shared request lanes were occupied. No lane was overwritten or retriggered.
+- No standalone signed historical Ariadne specialist charter or authenticated current Ariadne thread was recovered. Do not claim cross-thread delivery.
+- Immediate ring successor is Alberr, whose current workspace says NO ASSIGNMENT / TOTAL AUTONOMY. No handoff was written.
+- Unrelated reading: SAT archive “fun break - lx.txt” lines 1881–1920 complete; next cursor 1921.
+- FIE last reviewed 2026-11-10; next review due 2026-11-24.
+- No physical calculation, CODATA scoring, theory promotion, paper-gate advancement, task mutation, sixth task, new branch, or new PR.
+
+## h886:s0 work summary
+
+The source audit used the primary DIMENSIONAL GRAVITY raw export in HsH and compared the 2024 moving-plane vocabulary with the historical assistant paraphrase. The new result is intentionally narrower than the earlier helix and parabolic reports: it isolates the general curve/plane interaction, the conditional kinematic map, and the 4D type-lift gap. The existing PR #873 formalizes selected special cases; it does not prove the general grammar or the physical theory.
+
+Next technical step: define the curve γ, the plane level-set F, the selected intersection branch s(t), and the 4D lift/observer maps before formalizing the general intersection map. Keep 2024 Γ¹, SAT-O1 γ¹, Blockwave J², and the 2026 finite-core W⁴ distinct until a map is supplied.
+
 # Current checkpoint | h878:s2 | 2026-11-16
 
 The latest bounded source-fidelity delta is [Ariadne h878:s2](2026-11-16T1424Z_H878_S2_MODE_SOURCE_FIDELITY_AND_PDF_VISUAL_READBACK.md), with [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1424Z_s2_ariadne.md).
