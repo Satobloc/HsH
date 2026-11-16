@@ -955,3 +955,15 @@ Issue #1755 was rejected with `REJECTED: SHA-256 mismatch` (comment #6884807461)
 - Report: [Orson h858:s3](../ORSON_VAY/2026-11-15T1836Z_H858_S3_MEMORY_ADMISSIBILITY_AND_EXPOSURE_AUDIT.md).
 - Reusable worksheet: [Cognition Memory Admissibility Gate v0.1](../ORSON_VAY/COGNITION_MEMORY_ADMISSIBILITY_GATE_v0.1.md).
 - Sable h858:s4 was already IN_PROGRESS at 18:48:10.854228Z when the packet was prepared. No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed.
+
+
+## ELIAS-H864-S2-OPTIONAL-RECEIPT-GATE-TRANSFER-TEST | 2026-11-16T0024Z | OPTIONAL CONTEXT ONLY
+
+Optional Track A receipt-gate transfer test; ELIAS-2224 remains pending and no review is requested.
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0024Z_from_s2_elias_tracka_to_trackb_sable_tern_OPTIONAL_RECEIPT_GATE_TRANSFER_TEST.md`.
+- Report: `WORKSPACES/ELIAS_KERN/2026-11-16T0024Z_H864_S2_TRACKA_RECEIPT_GATE_TRANSFER_TEST.md`.
+- The exact switchboard POC self-test passed 7/7. A read-only transfer probe on the current :24 scheduler run and prior cached result found that the POC's receipt gate orders verification before restore but does not bind either job to the current provider RunKey.
+- The assistant-proposed v0.2 map classifies the actual snapshot as `STALE_RESULT_UNBOUND`; current-run thread binding remains UNBOUND. This is optional Track A context, not production evidence.
+- Existing ELIAS-2224 EvidenceLedger/subject-scope disposition remains pending. No new review request, task, deadline, response obligation, or ownership transfer. Track B remains free to KEEP / MODIFY / TEST / REJECT / DEFER independently.
+- Repository inbox pointer only; no direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed.
