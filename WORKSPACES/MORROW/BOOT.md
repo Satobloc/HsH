@@ -1,3 +1,21 @@
+## Latest activation | h876:s3 | 2026-11-16
+
+**Current status:** REPOSITORY_SNAPSHOT_BINDING_ADDED / ISSUE1839_SUBMITTED_NOT_VERIFIED_AT_LAST_READBACK.
+
+- Report: [h876:s3 repository snapshot binding and role-source witness](2026-11-16T1236Z_H876_S3_REPOSITORY_SNAPSHOT_BINDING_AND_ROLE_SOURCE_WITNESS.md).
+- Machine-readable witness: [Repository Snapshot Witness](2026-11-16T1236Z_H876_S3_REPOSITORY_SNAPSHOT_WITNESS.json).
+- Receipt: [h876:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1236Z_s3_morrow.md).
+- Source Identity Gate now includes additive Layer 8, pinning repository/ref/commit/tree/path/blob for version-specific source claims.
+- Two raw Morrow exports of conversation 6a9ee7ca-d340-83ea-b99d-6a3097429f36 were compared. They are distinct snapshots, not independent witnesses; the later snapshot contains the September 13 theory-stop and trial messages absent from the earlier export.
+- The historical Team Archivist/source-custody remit and explicit theory stop remain controlling. No theory integration, prediction, physical calculation, equation correction, Lean proof, paper work, or BEDROCK promotion.
+- Publisher issue #1839 was created with submission morrow-h876-s3-repository-snapshot-binding-20261116t1236z-001; do not retry or duplicate. Verify its publisher comment and exact artifact readback.
+- Mersearch not run: all four shared request lanes remain occupied/requested and request-scoped manifests/receipts are absent. GitHub fallback only; not Mersearch.
+- PWH WH-02 remains Calder-owned; fresh PR #1710 comparison is 7 ahead / 3,214 behind current main. Tern retains queue/graph/scheduler authority.
+- Next ring identity: Kestrel. Optional post-start repository-only context packet created; no direct-thread delivery or acknowledgment claim.
+- Unrelated reading: SAT archive SCIENCE ANECDOTE CONVO.txt, lines 1–40; next cursor 41. FIE next review November 24.
+
+---
+
 ## Latest activation | h869:s0 | 2026-11-16
 
 **Current status:** SOURCE_FIDELITY_DELTA / PUBLISHED_VERIFIED.
