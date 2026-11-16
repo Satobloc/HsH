@@ -643,5 +643,5 @@ Tern Observation 026 Amendment 01 narrows the initial :36 future-dated descripti
 - P0 issue update: [#1747 comment](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6910466644). WH-02 read-only status note: [PR #1710 comment](https://github.com/Satobloc/HsH/pull/1710#issuecomment-6910467176).
 - Historical Aldus role is source-grounded broad cross-reading and unusual cross-context synthesis. No standalone signed charter or authenticated live historical thread; no cross-thread delivery claim.
 - Next ring label: Calder. No assignment or handoff created.
-- Existing :24 task remains enabled and unchanged; no sixth task.
+- Earlier exact-ID peek confirmed the :24 task enabled with its original schedule. A later exact-ID peek returned not found/not accessible and the get action returned 404 before invocation; this does not establish deletion, disablement or rescheduling. No task mutation or replacement occurred; final enabled-state reconfirmation is unavailable. No sixth task.
 
