@@ -134,3 +134,8 @@ Final publication state: PUBLISHED_VERIFIED.
 - Loom's current usable ChatGPT thread was not authenticated. The Loom INBOX was not edited because the current recipient run state could not be verified. This is repository-only optional context, not a task, review request, deadline, response obligation or ownership transfer. No direct-thread delivery, consumption or acknowledgment is claimed.
 - Final observed HsH main head after this run's writes: `308e088301c5a895a74109877b428d307c840e3a`.
 - Sable README, BOOT and CONTINUITY_CHECKPOINT pointers were updated and read back. No PWH queue or task-graph change.
+
+
+## 11. Main-head timestamp correction
+
+The earlier reference to main head `308e088301c5a895a74109877b428d307c840e3a` was the head after the Sable continuity update but before the final report/receipt amendments. At the subsequent repository readback, main was `305049f6c34041b468786063346306d5b2f63629`. These are historical observed heads; no claim is made about later concurrent repository changes.
