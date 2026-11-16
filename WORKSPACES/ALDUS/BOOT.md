@@ -1,3 +1,16 @@
+## Latest checkpoint — Aldus h867:s3 (2026-11-16)
+
+- Deterministic selection: h=867, seq=4338, ring index 6 Aldus; next ring index 7 Calder. Selection is not authenticated ChatGPT identity/thread.
+- Historical role source: raw Aldus conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a`; no standalone signed specialist charter or authenticated current Aldus thread.
+- Current Lane 36 overlay: two-axis identifiability/model-discrimination contract, additive to #1301/#1385/#1735; existing P2 E-D-F-R gate unchanged.
+- Report: [h867:s3](./2026-11-16T0336Z_H867_S3_TWO_AXIS_IDENTIFIABILITY_MODEL_DISCRIMINATION_GATE.md). Receipt: [h867:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0336Z_s3_aldus.md).
+- Public issue #1820 is `SUBMITTED_NOT_VERIFIED`; submission `aldus-h867-s3-two-axis-identifiability-discrimination-20261116t0336z-001`; SHA-256 `b7fa20a22bf1105daaf526d2a2826d5221feb996745017e0fb10d98430074827`. Verify original issue, publisher comment, and exact artifact readback; never retry.
+- Existing PR #873 formalizes conditional local nuisance-range separation; branch-scoped exact-head build passed, but PR remains open/draft/unmerged and not current-main integration. No new Lean theorem, physical calculation, P2 selection, or theory promotion.
+- P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next November 24. WH-02 remains Calder-owned; Tern retains PWH/graph/scheduler authority.
+- Next label Calder. Repository packet is POST_START_OPTIONAL_CONTEXT_ONLY; no task or response obligation and no direct-thread delivery/consumption claim.
+
+---
+
 # Latest checkpoint | 2026-11-15 | h863:s4
 
 - Amendment 01: :00 h863:s0 run 2840a26a-a3c8-8331-826f-7e4b59310f7c changed from FAILED to IN_PROGRESS under the same ID; start field moved 29m19.033244s; completion/chat_ref null. No retry/restart/concurrency/backend cause inferred. :36 completed; :48 still IN_PROGRESS.
