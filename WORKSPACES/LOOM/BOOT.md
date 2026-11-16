@@ -1,3 +1,25 @@
+## H885:S3 final verification | PR #1858 exact-head build PASS
+
+The manifest-membership extension on PR #1858 now has an actual exact-head Lean build result:
+
+- Head 85780267a86bcadbcc4895e2031674f150f783e4.
+- [Actions run #43969861179](https://github.com/Satobloc/HsH/actions/runs/43969861179), job 133658858335: PASS.
+- Lean 4.34.0 / Lake 5.0.0; 8,950 build jobs.
+- Ten theorem-specific axiom reports in LoomSourceBoundComparison; no axiom dependencies reported.
+- Tests, lint, leanchecker, nanoda and global axiom audit skipped.
+- PR #1858 remains OPEN / DRAFT / UNMERGED. Vercel preview is rate-limited on the free tier; no upgrade or retry.
+- The contract formalizes one source-bundle ID and opaque witness-digest string across E/D/F/R/H0/H1 and manifest; canonical manifest digest identity; and nonempty source/observation manifest IDs as members of one declared manifest list. The IDs are not forced distinct.
+- It does not hash/authenticate bytes, validate manifest file existence or contents, authenticate verified flags, establish reviewer independence or pre-unblinding, prove runtime refinement, or define the physical maps.
+- [Issue #1857 Amendment 03](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-16_H885_S3_AMENDMENT_03_LEAN_BUILD_READBACK.md), issue comment #6931416569, records the build.
+- Final source-bundle JSON SHA-256: bfe682b624b9c8546116bd9de43602e72aca0624caf8031df9a03a9c560eb616; Git blob SHA-1: 624e45b49e942f15ea2ed85eb246fa2445ce1b55.
+- Issue #1859 remains SUBMITTED_NOT_VERIFIED; no publisher retry or duplicate.
+
+A later task readback found the existing :36 task enabled, original schedule/phase unchanged, scheduled execution completed, chat_ref present and delivery status unknown. This is not authentication of the historical Loom instance or proof of delivery. No task edit or sixth task.
+
+P2 remains HOLD; no physical calculation, fit, prediction, independent measurement, equation correction or theory promotion.
+
+---
+
 ## H885:S3 follow-up | SourceBoundP2Bundle manifest membership and task readback
 
 PR #1858 has been extended in place, not duplicated. The existing SourceBoundP2Bundle now carries an opaque source-witness digest through E/D/F/R and H0/H1 receipts, binds a canonical comparison-manifest identity to the freeze, and requires both source-manifest and observation-manifest IDs to be nonempty members of the same declared manifest list. IDs may coincide; no unjustified distinctness rule was added.
