@@ -880,3 +880,9 @@ Tern's exact-ID scheduler readback supersedes the observed-hour label in the 18:
 - The task peek returns a chat_ref reused from the prior :48 run, while the current result text reports chat_ref null. Treat this as a metadata discrepancy, not worker identity.
 - Tern-controlled correction: see WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1812Z_s4_morrow_AMENDMENT_01_TERN_SCHEDULED_HOUR_AND_RUN_KEY_CORRECTION.md and Tern Observation 028 Amendment 12.
 - Morrow's Team Archivist/source-custody remit and September 13 theory stop remain unchanged. No theory, physical, paper, or archive-payload action is assigned.
+
+## Latest correction — h876:s3 | 2026-11-16T13:22Z
+
+The h876:s3 report's statement that `WORKSPACES/MORROW/INBOX.md` and `WORKSPACES/MORROW/TRIAL_CHECKPOINT.md` were absent is incorrect. The exact pinned complete tree (commit `738e650730c6487d4085140818a028c17c1fb34f`, tree `c1b2a0b94a54a88bc03ffb4bca88e3c438d5e896`) contains both paths. Their exact blobs are `99b64944a800fb021848fbf9db11c0cf1b2e891f` and `becf45cda4cf68089d7f63adc0cc28286741a203`. See [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1236Z_s3_morrow_AMENDMENT_03_NEGATIVE_PATH_AND_RUN_READBACK.md) and [correction report](2026-11-16T1322Z_H876_S3_NEGATIVE_PATH_MEMBERSHIP_CORRECTION.md). Layer 8 now requires a complete exact-tree witness before asserting absence and separates path membership from content retrieval.
+
+Correction publication issue #1840 is `SUBMITTED_NOT_VERIFIED` at this checkpoint; do not resubmit. Same provider run ID `7a70e7a8-0808-832f-844a-fe34bbe53a09` remains IN_PROGRESS with null completion/chat_ref; the `started_at` field changed by 35m05.527563s between exact-ID observations. No cause inferred.
