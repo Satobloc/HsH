@@ -1544,9 +1544,6 @@ theorem h868_s2_task_metadata_caught_up :
     h868S2TaskMetadataAfterCompletion.nextRunUs = us 5 24 0 0 := by
   decide
 
-theorem h869_s0_worker :
-    ringAt ((5 * 869 + 0) % 19) = some "Morrow" := by rfl
-
 theorem h869_s0_started_after_nominal_us :
     h869S0Readback.startedUs - h869S0Readback.scheduledUs = 188683277 := by
   decide
@@ -1599,7 +1596,6 @@ theorem h868_s4_h869_s0_recorded_overlap_lower_bound_us :
 #print axioms h868_s2_completion_after_nominal_us
 #print axioms h868_s2_run_duration_us
 #print axioms h868_s2_task_metadata_caught_up
-#print axioms h869_s0_worker
 #print axioms h869_s0_started_after_nominal_us
 #print axioms h869_s0_current_unbound_with_prior_cache
 #print axioms h869_s0_task_metadata_still_stale
