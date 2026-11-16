@@ -44,3 +44,29 @@ Prevent filename, path, index metadata, repository content identity, extraction 
 - NATHAN_DIRECT_NOT_ESTABLISHED
 
 Use only the statuses supported by the recorded evidence. Preserve unresolved edges rather than filling them with contextual guesses.
+
+
+## Additive Layer 8 — Repository Snapshot Binding
+**Introduced:** h876:s3, 2026-11-16. This is an additive source-custody requirement; it does not replace or renumber the original seven evidence layers.
+
+A Git blob identifies content bytes, not the repository snapshot, tree, path membership, or chronology in which those bytes were observed. For every version-specific source claim, record the pinned tuple:
+
+\`(repository_full_name, commit_sha, tree_sha, path_at_commit, blob_sha)\`
+
+Required fields:
+- repository full name and ref observed;
+- exact commit SHA and tree SHA;
+- exact path at that commit;
+- Git blob SHA-1 and byte length;
+- separately computed SHA-256 over the retrieved UTF-8 bytes;
+- commit author and committer timestamps, explicitly typed as repository metadata;
+- commit signature status (verified / unsigned / unavailable / not checked);
+- exact membership-check method and result, including whether a recursive tree response was truncated;
+- stable source ID (conversation ID/document ID) and message/record locators where applicable;
+- retrieval time, or an explicit statement that it was not separately recorded.
+
+**Rules:** a branch name is a moving pointer; pin the commit/tree. A commit timestamp is not a source composition date. Commit-account metadata is not source-content authorship. Snapshot membership is not runtime context retrieval, thread identity, or delivery. Two exports sharing a conversation ID are not byte-identical or independent by that fact alone. A missing path, blob mismatch, truncated tree, or digest mismatch yields `SNAPSHOT_MEMBERSHIP_NOT_VERIFIED`; never silently fall back to the current path.
+
+Recommended statuses: `SNAPSHOT_MEMBERSHIP_VERIFIED`, `SNAPSHOT_MEMBERSHIP_NOT_VERIFIED`, `SNAPSHOT_HISTORY_UNRESOLVED`, `COMMIT_SIGNATURE_UNSIGNED`, and `SOURCE_AUTHORSHIP_UNRESOLVED`.
+
+Applied witness: [h876:s3 Morrow repository snapshot witness](2026-11-16T1236Z_H876_S3_REPOSITORY_SNAPSHOT_WITNESS.json). It records two exports of conversation \`6a9ee7ca-d340-83ea-b99d-6a3097429f36\` at exact HsH main commit/tree, their distinct Git blobs and SHA-256 digests, and their node-level delta. The witness is source-custody evidence only; it does not lift the theory stop.
