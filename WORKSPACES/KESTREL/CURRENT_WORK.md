@@ -731,7 +731,7 @@ See `WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GA
 ### Publication and supplemental extraction (h884:s2)
 
 - Existing publisher issue #1854 is SUBMITTED_NOT_VERIFIED; issue-triggered run #43952329926 is in progress. Expected fixed artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-h884-s2-codata-cycle-measured-system-map-20261116t2024z-001.md. Expected SHA-256: ffd443e244ddabbcd44581d38ed180ee8b3dce25b1376cc7a888f4be62de02d8. Do not resubmit; verify the original issue and artifact first.
-- Supplemental amendment: [PRL full-text extraction and data-access status](2026-11-16T2024Z_H884_S2_AMENDMENT_01_PRL_FULLTEXT_DATA_ACCESS.md), SHA-256 98326122e636ecd32592c03e741511d8c0f44a0511070d6a484a9a981a62d576. SciSpace extraction reports author-request-only data access and provides PIV/PTV, circulation, spectral, timescale, and tricoherence details. This remains secondary extraction pending direct APS PDF verification.
+- Supplemental amendment: [PRL full-text extraction and data-access status](2026-11-16T2024Z_H884_S2_AMENDMENT_01_PRL_FULLTEXT_DATA_ACCESS.md), SHA-256 30bcc28d7889b88f6647d9603309ede2fb8e4c675d128c93dfd2d8a7e3479d72. SciSpace extraction reports author-request-only data access and provides PIV/PTV, circulation, spectral, timescale, and tricoherence details. This remains secondary extraction pending direct APS PDF verification.
 - No raw data retrieved and no source-specific physical map, Lean proof, or calculation established.
 
 ### h884:s2 publication completed
