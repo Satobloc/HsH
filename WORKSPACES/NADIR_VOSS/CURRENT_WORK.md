@@ -1,3 +1,20 @@
+## Latest Lane 24 hold/readback | h887:s2 | 2026-11-16T23:24Z
+
+- Canonical receipt: [h887:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2324Z_s2_nadir_voss.md).
+- Public-safe source-fidelity/hold report: [publisher issue #1864](https://github.com/Satobloc/HsH/issues/1864), submission `nadir-h887-s2-lane24-hold-source-fidelity-20261116t2324z-001`, expected SHA-256 `b8231fc29fcec83724e9c7ba8e4920447200e3153776bb31f7e0d11adfab3ea6`. Status at this checkpoint: SUBMITTED_NOT_VERIFIED; no duplicate submission.
+- P0 issue #1747 remains OPEN / ACTIVE. Lane24 capsule remains Cycle 08/08 complete and prohibits Cycle 09 until positive P0 trigger or standdown. This activation is read-only hold/provenance reconciliation only; P2 remains HOLD.
+- SAT-O1 source blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`; SAT-O6 source blob `19fa30ed3c0d8a85b4729c98aa11b9f73984d0b0`; Blockwave attachment blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, prior byte-verified SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`. Originals preserved; embedded Blockwave authorship unresolved; CORRECTED_EQUATION=NONE.
+- Source-level map gap remains: SAT-O1's 1D curve has no explicit 4D sweep/thickening map; Blockwave's conserved 2-form current is worldsheet support, not automatically finite-core 4D support. Assistant-derived phase-flatness/winding observation is a future theorem candidate, not yet formalized.
+- Existing PR #1189 current head `8a6a0c288b0091a19b604ab96f94fec05adcc40e` exact-head build #43783028748/job #133024336601 succeeded. Interconnected projection/fibre factorization, witness-carrying composition, PIV readout, two-channel vortex readout and abstract connector-holonomy modules were built. No new Lean run; tests/lint/nanoda/leanchecker/global axiom audit skipped; PR remains OPEN/DRAFT/UNMERGED.
+- Jackson–Thomas rotating-water vortex-ring experiment remains the measured-system base, but VLS/HLS are separate planar acquisitions; post-breakdown maximum-vorticity tracking follows inertial-wave phases rather than the coherent core. Raw run-level arrays, manifest and calibration/covariance package remain the admission gap.
+- PIVBook 36 MB / 12-set stereo-PIV vortex-ring archive identified as an unselected future calibration/readout lead; archive bytes and uncertainty package not retrieved. No P2 admission.
+- Mersearch unavailable; all four shared lanes remain occupied/requested. Bounded GitHub fallback is not represented as Mersearch. HsH/SAT/HSH_RESOURCES front doors read; no HSH_RESOURCES private payload accessed.
+- FIE next review 2026-11-24; unrelated-reading cursor remains Culpeper's Herbal lines 11279–11302, next 11303. No new reading quantum.
+- Next ring label Enheduanna. No handoff or response obligation; no authenticated cross-thread delivery.
+- No task/schedule/phase mutation, no sixth task. P0_ACTIVE / P1_OVERDUE-NOT-READY / P2_HOLD / P3_INCOMPLETE.
+
+---
+
 ## Latest Lane 36 overlay | h883:s3 | 2026-11-16T19:36Z
 
 - Report: [H883:S3 P2 comparison-freeze coherence and paired-model identity](2026-11-16T1936Z_H883_S3_P2_COMPARISON_FREEZE_COHERENCE_FORMALIZATION.md).
