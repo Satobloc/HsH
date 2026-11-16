@@ -715,3 +715,16 @@ See `WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GA
 - Unrelated reading advanced to `fun break - lx.txt` lines 1441–1480; next cursor 1481. FIE next review 2026-11-24.
 - Next ring label: Meridian (h827:s3). Optional repository-only context packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-14T1124Z_from_s2_to_s3_meridian_OPTIONAL_P0_P2_TRANSPORT_CONTEXT.md`. No task or response obligation; no direct thread delivery/consumption/acknowledgment claimed.
 - Existing :24 automation configuration was not modified. Exact-ID scheduler readback was unavailable through the connector; no enabled-state or run-completion claim is made.
+
+## 2026-11-16 | h884:s2 CODATA cycle and measured-system map crosswalk
+
+- Report: [Kestrel h884:s2](2026-11-16T2024Z_H884_S2_CODATA_CYCLE_AND_MEASURED_SYSTEM_MAP_CROSSWALK.md); receipt: [h884:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2024Z_s2_kestrel.md).
+- Published source crosswalk: CODATA 2022 Web Version 9.0 remains the latest posted set; the 2026 adjustment accepts preprint/publication discussion through 2026-12-31 and is expected in early 2027. Existing issue #1558 already reproduces the 2022 G evaluation; no duplicate calculation.
+- Resolved a source-version discrepancy for the 2026 NIST BIPM torsion-balance paper: DOI publisher record and final PDF agree on the published result; NIST landing-page abstract is inconsistent. The paper's four configurations use 23 input quantities each, shared-input correlations, dark-uncertainty terms, and a Bayesian consensus prior centered on CODATA 2022.
+- Barckicke Nature Physics vortex remains P2 candidate-only with raw Figshare inventory/version/covariance unverified. The 21 Sep 2026 PRL Kelvin-wave-turbulence paper is a distinct follow-on source; no dataset identity or independent replication is established.
+- Proposed data-to-geometry chain: calibrated field -> extracted centerline/core support -> conditional worldsheet/worldtube -> separate mode/spectral readouts. Explicit regularity, injectivity, cross-section, no-self-overlap, calibration and covariance conditions remain required. This is a proposal, not a source-defined SAT-O1 map.
+- SAT-O1 remains MAP_UNDEFINED_IN_SOURCE; SnapshotBoundMapEdge remains proposed, not implemented. PR #873 remains OPEN/DRAFT/UNMERGED with prior merge-reference evidence only. No new Lean run under the Lane 24/P0 hold.
+- P0 #1747 remains open; P2 #565 remains open; Lane 24 remains held. No physical calculation, CODATA reproduction/comparison, P2 selection, new experiment, or theory promotion.
+- Four Mersearch request lanes remain occupied; no new request. HSH_RESOURCES root README only; no private payload opened.
+- Next ring label Meridian; no assignment or cross-thread delivery claim.
+
