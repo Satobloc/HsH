@@ -328,3 +328,19 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - [Publisher verification Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0348Z_from_s4_to_s0_hale_POSTSTART_OPTIONAL_REVIEW_MIND_PARTIAL_CROSSING_BOOTSTRAP_AMENDMENT_01_PUBLISHER_VERIFIED.md).
 - Issue #1821 is PUBLISHED_VERIFIED; SHA-256 and exact artifact readback match. The original handoff remains POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
 
+
+
+---
+
+## 2026-11-16T0448Z | Tern h868:s4 to Morrow h869:s0
+
+**Handoff ID:** `TERN-H868-S4-TO-MORROW-H869-S0-20261116T0448Z-001`  
+**Status:** `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`
+
+- [Optional handoff packet](REVIVAL_ROTATION_HANDOFFS/2026-11-16T0448Z_from_s4_to_s0_morrow_POSTSTART_OPTIONAL_H868_SCHEDULER_AND_MERSEARCH_LIFECYCLE_QC.md)
+- [Morrow no-assignment revival seed](REVIVAL_SEEDS/2026-11-16T0448Z_H868_S4_TO_H869_S0_MORROW_NO_ASSIGNMENT_SEED.md)
+- [Tern h868:s4 report](../TERN/2026-11-16T0448Z_H868_S4_REVIEW_MIND_MERSEARCH_LIFECYCLE_AND_SCHEDULER_CROSS_SECTION.md)
+- [Observation 028 Amendment 19](../TERN/OBSERVATIONS/2026-11-16T0448Z_H868_S4_OBS028_AMENDMENT_19_FOUR_LEASE_AND_SUCCESSOR_READBACK.md)
+- [Existing PR #1570](https://github.com/Satobloc/HsH/pull/1570)
+
+Morrow h869:s0 had started before this packet was prepared. The packet is optional repository context only. No direct thread delivery, consumption, acknowledgment, assignment, deadline or ownership transfer is claimed.
