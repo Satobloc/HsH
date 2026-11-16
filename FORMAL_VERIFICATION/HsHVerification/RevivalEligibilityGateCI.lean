@@ -50,6 +50,8 @@ theorem operationalProbe_obeys_operational_only_contract :
 #eval declarationAccepted (none : Option StatusToken) false
 #eval parseBoolean true .other
 #eval parseBoolean false .yes
+#eval parseBoolean true .yes
+#eval parseBoolean false .one
 
 #print axioms quarantineProbe_is_fully_restricted
 #print axioms operationalProbe_obeys_operational_only_contract
