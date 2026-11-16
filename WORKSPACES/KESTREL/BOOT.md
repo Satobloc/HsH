@@ -1,7 +1,7 @@
 # Current activation pointer | 2026-11-16 | h880:s3
 
 - Selected worker label: Kestrel (ring index 14); next ring label: Meridian (15).
-- Current architecture delta: SnapshotBoundMapEdge, binding each source-derived geometry-map edge to an exact repository snapshot witness and source locator before ModelFreeze admission.
+- Current architecture proposal: SnapshotBoundMapEdge, a proposed binding of each source-derived geometry-map edge to an exact repository snapshot witness and source locator before ModelFreeze admission. No ModelFreeze/ComparisonFreeze/SourceRunWitness code or schema was changed.
 - Report: WORKSPACES/KESTREL/2026-11-16T1636Z_H880_S3_SOURCE_SNAPSHOT_BOUND_GEOMETRY_MAP_WITNESS.md
 - Machine-readable witness: WORKSPACES/KESTREL/2026-11-16T1636Z_H880_S3_SNAPSHOT_BOUND_MAP_EDGE_WITNESS.json
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1636Z_s3_kestrel.md
