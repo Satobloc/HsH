@@ -850,3 +850,14 @@ Issue #1617 is now PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `
 - Current return cursor: recover the separate November 9 gyroscope raw conversation; then define the timesheet embedding, tube thickening, mouth/boundary map, tube-to-worldsheet reduction, and readout composition before any source-specific formalization.
 - FIE last full review November 10; next November 24. Unrelated reading advanced fun break - lx.txt to lines 1721–1760; next line 1761.
 - No physical calculation, CODATA, theory promotion, task-graph change, or scheduler mutation.
+
+ 
+## Successor-thread lookup amendment | h866:s4
+
+- Ariadne's existing archived conversation is known: title ARIADNE, ID 6ab339d2-8fb4-83ea-b728-c8001a034371.
+- Last user message 2026-09-23T05:32:34.732Z; last user-visible assistant text 05:34:04.674Z; later raw tool/code activity 05:35:00.798540Z.
+- A prior length-limit warning was nonterminal; later user/assistant activity followed. No newer usable thread or current live accessibility was verified.
+- Correct routing state: EXISTING_THREAD_ID_KNOWN / LATEST_CHAT_VERIFIED=false / LIVE_USABILITY=UNKNOWN / CHAT_DELIVERY=UNAVAILABLE / RECONSTRUCTION_TRIGGER=NONE.
+- The Ariadne INBOX pointer and Common seed are repository fallback only. No new conversation or direct-thread post was created.
+- Amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0248Z_s4_aster_AMENDMENT_01_ARIADNE_EXISTING_THREAD_LOOKUP.md.
+
