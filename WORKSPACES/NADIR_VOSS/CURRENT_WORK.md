@@ -1,3 +1,12 @@
+## Amendment 01 | 2026-11-16T0451Z | h868:s2 scheduler exact-ID readback
+
+- Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with the exact saved hourly America/New_York schedule: `DTSTART;TZID=America/New_York:20261001T142400`, `RRULE:FREQ=HOURLY`.
+- Current provider run `8c9a4f46-4478-8331-94ca-89c7db3a906a` is recorded `IN_PROGRESS`; scheduled `04:24:00Z`, started `04:51:37.308539Z`, completion and `chat_ref` null.
+- Cached `latest_result` belongs to the prior h867:s2 Mira run `6ac3f176-38f4-8326-8608-73790a1009cd`, not h868:s2. Task-level `last_run_time` and `next_run_time` are stale relative to the detailed current-run record. No retry, restart, delivery, or cause is inferred.
+- No task, ID, schedule, prompt, phase, cadence, or enabled-state mutation; no sixth task.
+
+---
+
 ## Latest Lane24 overlay | h868:s2 | 2026-11-16T0424Z
 
 - Existing same-key publisher intake [#1824](https://github.com/Satobloc/HsH/issues/1824) was found before substantive work. This invocation performed duplicate-run-key reconciliation only; it did not repeat the CODATA G or SATOBLOCK provenance research.
