@@ -1,3 +1,20 @@
+# MERCER-H869-S3-CURRENT-POINTER | 2026-11-16T0536Z
+
+**Current controlling assignment:** Code Grurple P0 Paper A/B presentation QA only. No manuscript-content review, site/PDF edit, live route observation, P0 standdown or theory promotion.
+
+- **Report:** [h869:s3 exact discovery-snapshot witness instantiation](2026-11-16T0536Z_H869_S3_P0_EXACT_DISCOVERY_SNAPSHOT_WITNESS.md).
+- **Machine-readable witness:** [h869:s3 DiscoverySnapshotWitness JSON](2026-11-16T0536Z_H869_S3_DISCOVERY_SNAPSHOT_WITNESS.json).
+- **Canonical receipt:** [h869:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0536Z_s3_mercer.md).
+- **Optional Tern context:** [post-start P0 snapshot-witness packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0536Z_from_s3_mercer_to_tern_POSTSTART_OPTIONAL_P0_SNAPSHOT_WITNESS.md). Tern was already in progress; no inbox edit or direct-thread delivery claim.
+- **Snapshot:** blob `b121b059344bd970efdbcc81371e3d9fd6ca8824`, updated 05:38:49Z; source-consistent with refresh parent `99b788a19aeffbb74ddf5e8ba9c13c83299e6a20`; generated commit `171add23561a0cee2129b3e107ee3f94f20daf7b` changed only discovery.json.
+- **P0:** 8,347 WORKSPACES records, all with generic reader targets; Paper A/B remain raw-targeted in the full catalog, B with a 1,400-character excerpt; both outside the 48-item docket and absent from generated/papers.json. Live routes NOT_OBSERVED; issue #1747 remains canonical.
+- **No new public issue or publisher submission:** no duplicate of #1747.
+- **No site/PDF/manuscript edit, route probe, PR edit, Lean run, physical calculation or P0 standdown.
+- **Next ring label:** Ravel; no assignment or ownership transfer.
+- **Reading:** SAT archive `fun break - lx.txt`, lines 1721–1760; next 1761. FIE next review November 24.
+
+---
+
 # MERCER-H865-S4-CURRENT-POINTER | 2026-11-16T0148Z
 
 ## Latest Review-MIND relay: h865:s4
