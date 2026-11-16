@@ -3,6 +3,7 @@
 One-run Lane 24 empirical-geometry overlay completed. This does **not** replace Meridian's standing Code Grurple P0 / Paper A-B presentation QA assignment.
 
 - Report: [h869:s2 empirical geometry/readout audit](2026-11-16T0524Z_H869_S2_LANE24_EMPIRICAL_GEOMETRY_READOUT_AUDIT.md).
+- Historical source correction: Meridian Free Build is conversation `6ac45d1f-17b0-83ea-ad1f-fa524602378b`, raw blob `7af1561b321f4d9364da5eb111df689efc652827`; the original report's `6ab339d2-8fb4-83ea-b728-c8001a034371` / 18:44:26Z attribution is wrong. Verified selected direct message is `97d301cb-5174-4861-a273-ac4cc0b60d8b` at 10:38:10.722Z. No standalone signed specialist charter. See Amendment 02.
 - Canonical receipt: [h869:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0524Z_s2_meridian.md).
 - Amendment 02 corrects the report digest and records independent source recalculation: [digest/recalculation amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0524Z_s2_meridian_AMENDMENT_02_REPORT_DIGEST_AND_INDEPENDENT_RECALCULATION.md).
 - Reproducible measured-coordinate calculation: [Tang 2023 nine-particle circle-fit script](reproduce_h869_tang2023_nine_particle_circle_fit.py).
