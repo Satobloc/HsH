@@ -38,7 +38,10 @@ The materialized Library export was byte-checked against the HsH Git blob using 
 
 | UTC timestamp | Message UUID | Source proposition |
 |---|---|---|
+| 2026-09-06 20:10:29 | a63b981d-d614-4da8-9cd3-7a018ed221e3 | Defines the filament as the totality of a four-dimensional particle trajectory, not a trajectory-bearing one-dimensional object; allows deformation and oscillation |
 | 2026-09-06 20:55:31 | 59a38049-e410-455d-afe9-87fcbc6f5264 | Distinguishes hard filament nonintersection from softer, potentially overcome coil-to-coil intermesh; identifies a possible medium/Kelvin-vortex role |
+| 2026-09-07 05:41:08 | 43d93585-e8ce-4324-8e46-544218a1b693 | Says a billiard-ball model might fit a three-dimensional cross-section, depending on ER slicing |
+| 2026-09-07 05:42:06 | a8e381ce-ce10-4e2d-8b72-0abba069ba42 | Requests a clearer account of filament structure |
 | 2026-09-07 05:58:50 | 2a34f106-0dd0-488f-a0e6-97748320c955 | Corrects the proposed core hierarchy: Kerr core, then ergosphere or another shell layer, then coiling |
 | 2026-09-07 06:54:57 | ce837c4f-30cb-43c1-ac55-511b41c12d53 | Says the filament-timesheet intersection angle varies with coil pitch and motion in three-space |
 | 2026-09-07 06:59:46 | 2c61aa1e-a9d4-466b-93ff-840371ebcdc7 | Accepts \(3.86\times10^{-13}\,\mathrm m\) as an idealized case; does not specify it as local core thickness |
@@ -47,22 +50,25 @@ The materialized Library export was byte-checked against the HsH Git blob using 
 | 2026-09-07 07:39:29 | 8471543a-6ed1-4743-9073-74735f019da4 | Proposes a four-dimensional worldtube extension with a Kerr cross-section |
 | 2026-09-07 07:46:38 | 3d0ad680-51db-4c79-ad4a-9bbacada24ef | Clarifies that the cross-section should be a spatial Kerr section, not the full four-dimensional Kerr spacetime; says the ER-bridge mouth opens to become the current surface of simultaneity |
 | 2026-09-07 08:06:58 | b9805319-9d77-4b43-874a-5af50c0b6ef7 | Corrects the “wave on an object” account: filament and timesheet distortions mutually accommodate; force is treated as primitive |
+| 2026-09-07 08:08:34 | 5c5a5747-9a7e-4bcb-9ea6-4c618fb7cd59 | Requests cross-sectional metrics, which the assistant then supplies without a measured system |
 | 2026-09-07 08:28:03 | c0d7fc1c-dc72-4cc7-b2a0-1e2cb686be4e | Offers Kerr-core/Pauli and shell/closed-string/string-vibration correspondences as hypotheses |
 | 2026-09-07 10:06:12 | 496a15ea-0263-459d-b815-908f52155b90 | Separates a 3D Minkowski diagram, a full 4D bulk, and an actual 4D view with a 3D slice; describes the induction-current connection as tentative |
 
-These are descriptive proposals and working hypotheses. “Kerr core,” “shell,” “coil,” “timesheet,” and “intersection current” are not yet fully typed mathematical objects.
+These 15 direct user-role messages are on the export's current-node ancestry. They are descriptive proposals and working hypotheses. “Kerr core,” “shell,” “coil,” “timesheet,” and “intersection current” are not yet fully typed mathematical objects.
 
 ### Historical assistant translations
 
 The principal assistant messages examined were:
 
-- b53af7a2-6c7b-4d6c-9b9b-5b9c1e6e7c01 (2026-09-07 06:55): plane-angle oblique-cut formula.
-- 10abe1d8-46d5-457a-997b-261a7f47ca64 (07:00): identifies \(D_0=2a\) with the electron Kerr parameter and reuses it in the oblique-cut expression.
-- 5daa8e99-4b7d-4b18-8c7f-3c5b1e7c4a20 (07:18): uses zero angle for alignment with timesheet propagation.
-- b2a72e5b-9c14-4f1b-9c38-8a4f9f1c1a21 (07:39): proposes a product construction for a Kerr section extended along a parameter.
-- 8de36fe2-3e18-4e0c-8e3b-1c7b9e5d1a42 (07:47): replaces the product picture with a connected core/neck/flaring-surface narrative.
-- a794da96-7d51-4c5e-9a0e-3d8c4b2f1a67 (08:07): revises the f-boson account toward mutual accommodation.
-- a31ce441-1e8d-4c4e-9d1f-7c6a5b4d3e2f (08:12): uses the propagation-angle secant form and imports Kerr-coordinate shell formulas.
+- 1654c3cd-18f9-499e-9b9d-81dc04f426e3 (2026-09-07 06:51): explicitly distinguishes Kerr ring diameter \(2a\) from the still-unknown local filament/core thickness.
+- b53af7a2-0003-48ed-9b78-5e27fd27a736 (06:55): defines a plane angle and introduces the \(D_0/\sin\alpha\) oblique-cut form.
+- 10abe1d8-46d5-457a-997b-261a7f47ca64 (07:00): reuses \(D_0=2a\) as the baseline Kerr-core diameter.
+- 5daa8e99-4c7d-48cc-b4d4-d29916ebbf15 (07:18): uses zero angle for alignment with timesheet propagation.
+- b2a72e5b-d10b-4e74-8800-6aa6092c963d (07:39): proposes a product construction for a Kerr section extended along a parameter.
+- 8de36fe2-ae17-434e-8272-2bd893d268b1 (07:47): replaces the product picture with a connected core/neck/flaring-surface narrative.
+- a794da96-ed3e-4c3c-b301-5b80f38b1636 (08:07): revises the f-boson account toward mutual accommodation.
+- a31ce441-66b7-4cf2-a89f-ddad6032b1df (08:12): uses the propagation-angle secant form and imports Kerr-coordinate shell formulas.
+- a2c80d0e-49ba-46d5-8b9f-5a9d389b229f (08:29): develops the Kerr-core/Pauli and shell/string correspondence.
 - 9e36cf0e-6d48-4eca-93df-e6e99600b516 (10:06): formalizes three representation levels with a proposed intersection/readout map.
 
 The assistant message identifiers above are archive locators, not proof that the associated equations were accepted by Nathan. The direct messages and assistant reconstructions are kept separate.
@@ -81,7 +87,7 @@ The most precise source-level chain available in this cluster is:
 8. A three-dimensional diagram, the full four-dimensional bulk, and an actual four-dimensional view with a three-dimensional slice are distinct representations.
 9. An induction-current connection within timesheet thickness is suggested, not defined.
 
-The source does **not** yet specify: a unique ambient metric and angle type; the timesheet normal; a local tangent/coil-pitch map; the finite-core transverse radius; the exact spatial Kerr slice; the ER-mouth topology; a current's tensor rank; or the observer/readout map.
+The current Primary Operational Guideline adopts a revisable Minkowski geometric representational grammar and identifies worldline/worldtube and timesheet as the minimal working primitives, with responsive medium still provisional. This source cluster does **not** specify the local metric/angle type needed for the assistant's trigonometric formula, the timesheet normal, a local tangent/coil-pitch map, the finite-core transverse radius, the exact spatial Kerr slice, the ER-mouth topology, a current's tensor rank, or the observer/readout map.
 
 ## 3. The angle pair and the missing complement map
 
@@ -294,7 +300,7 @@ Existing PR #1133, branch research/ravel-carrier-slice-reconstruction-20261031t0
 
 The theorem's logical content is narrow: if the two real angles are complementary, the sine and secant expressions agree. It does not prove the direct source-to-angle map, the sheet-normal premise, the finite-core shape, or the \(D_0\) type.
 
-The inspected Actions run #43636677645 / job #132628836752 used an older merge reference, not the current PR head. The relevant angle module compiled in that run, but the full root build later failed in MovingPlaneTraceGeometry at the Real.instDivInvMonoid noncomputable-instance errors. The current PR head has no verified exact-head/current-base build in this audit. The theorem's reported axiom dependencies include propext, Classical.choice, and Quot.sound.
+The current PR head at inspection was 3ba3880c70256e79f0ced72e40d0e11dc384e7e0. The inspected Actions run #43636677645 / job #132628836752 used older merge reference 7b004af65ab3d4bf143e4c21539c3e632efa2435, not the current PR head. The relevant angle module compiled in that run, but the full root build later failed in MovingPlaneTraceGeometry at the Real.instDivInvMonoid noncomputable-instance errors. The current PR head has no verified exact-head/current-base build in this audit. The theorem's reported axiom dependencies include propext, Classical.choice, and Quot.sound.
 
 No local lean, lake, or elan executable is installed. No new module or CI run was created. PR #1133 remains open/draft/unmerged. This is conditional formal evidence, not physical or source-translation validation.
 
