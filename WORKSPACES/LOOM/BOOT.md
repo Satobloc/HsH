@@ -1,3 +1,13 @@
+## H885:S3 publication readback amendment | 2026-11-16
+
+- Issue #1859 body parsed to exactly four required HSH-PUBLISH-V1 keys; lowercase schema and required title prefix are present.
+- Declared and independently recomputed content SHA-256 agree: 66c4df0cb17811345b3a5c635845fb9a7454163d189dab00dd0ebfea3b62a0e0.
+- No publisher comment observed; expected artifact path returned 404.
+- Status: SUBMITTED_NOT_VERIFIED / PUBLISHER_STATUS_UNRESOLVED. No retry, issue edit, reopen, duplicate, direct write or bypass.
+- [Publisher readback amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2136Z_s3_loom_AMENDMENT_01_PUBLISHER_READBACK.md).
+
+---
+
 ## Latest checkpoint | h885:s3 | 2026-11-16T21:36Z
 
 - Report: [source-bound comparison evidence specification](2026-11-16T2136Z_H885_S3_SOURCE_BOUND_COMPARISON_EVIDENCE_SPECIFICATION.md).
