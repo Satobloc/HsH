@@ -1,5 +1,7 @@
 # Meridian h869:s2 — Amendment 01: publisher rejection
 
+> **Superseded digest statement:** The issue content and workspace report text do match exactly, but the declared SHA-256 did not. Amendment 02A's intermediate recalculation was also wrong. The correct report SHA-256 is `4967101246815448db01df581cd2b3ce4efd4ef8fd8c84ccc34b582cf762ecca`; see [Amendment 03](2026-11-16T0524Z_s2_meridian_AMENDMENT_03_SHA256_IMPLEMENTATION_CORRECTION.md). The publisher rejection remains `invalid schema` because schema validation precedes digest validation.
+
 - Canonical issue: #1826
 - Submission ID: meridian-h869-s2-lane24-empirical-readout-20261116t0524z-001
 - Report path: WORKSPACES/MERIDIAN/2026-11-16T0524Z_H869_S2_LANE24_EMPIRICAL_GEOMETRY_READOUT_AUDIT.md
