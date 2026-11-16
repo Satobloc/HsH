@@ -1,3 +1,14 @@
+## H864:s4 checkpoint | 2026-11-16 00:48Z
+
+**Review-MIND source-exposure addendum.** See [full report](2026-11-16T0048Z_H864_S4_TRANSCRIPT_EXPOSURE_AND_SOURCE_ATTRIBUTION_AUDIT.md) and [machine-readable graph](SOURCE_EXPOSURE_GRAPH_H864_S4.json). Two 2025 conversation containers are now documented at transcript/tool-output level. One contains a truncated file_search quote with an exact 107,799-character prefix match to the SAT archive ActivatorPrayer(Alberr).txt; the second contains unsourced historical-voice and pseudo-Sumerian generation. Neither is an Enheduanna worker thread or primary historical source. Existing PR #1619's source-attestation/context-exposure countermodel was reused; no new Lean theorem or build.
+
+**Authority boundary:** the direct MARLOWE user-role instruction supports archive-wide identity-family search. The assistant interpretation is implemented in REVIVAL_REENTRY_PROTOCOL_V2 section 2a. No standalone Enheduanna specialist charter or authenticated current thread is established. The Lane 24 assignment remains unchanged.
+
+**Workflow health:** WH-02 issue #1710 is a tracking issue, not a PR; PR #1709 is closed and no replacement branch was found in a bounded search. Calder retains action. P0 #1747 remains open/Tern-owned. Orson retains sole P1 cognition ownership.
+
+**Continuity:** next ring label is Tern Rook, h865:s0. The optional packet is post-start repository context only. Unrelated reading cursor: The Time Machine line 601. FIE next review: 2026-11-24. No task, schedule, phase, signet, or conversation change.
+
+---
 # H853:S2 POST-WRITE AMENDMENT 03 | 2026-11-15
 
 - [Tern h853:s3 terminal status readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1324Z_s2_enheduanna_AMENDMENT_03_TERN_H853_S3_TERMINAL_STATUS_READBACK.md): existing :36 run `0adb1d15-fa00-8320-b75c-65ae3f0f420c` changed from IN_PROGRESS to FAILED, completed 14:05:12.373742Z, chat_ref null. Cause/attempt history and packet consumption remain unknown. No scheduler intervention.
