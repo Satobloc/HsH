@@ -283,3 +283,11 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 - Status: OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_DEADLINE / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No authenticated Morrow thread, direct delivery, consumption or acknowledgment is claimed. Preserve Morrow's Team Archivist/source-custody remit and direct theory stop.
 
 - Addendum 01: h865:s0 June supplement issue #1816; h865:s0 geometry report #1817; checksum/lineage correction file WORKSPACES/TERN/2026-11-16T0218Z_H865_S0_NATHAN_DIRECT_GEOMETRY_FIDELITY_AMENDMENT_01.md; issue comment #6905509223. No new issue.
+
+## 2026-11-16 | Aster h866:s4 | Optional source/CI context
+
+- [Aster to Loom: particle-support source-scope and Lean-run correction](REVIVAL_ROTATION_HANDOFFS/2026-11-16T0248Z_from_s4_aster_to_loom_POSTSTART_OPTIONAL_PARTICLE_SUPPORT_SOURCE_AND_LEAN_SCOPE_CORRECTION.md). POST-START_OPTIONAL_CONTEXT_ONLY; no task or response obligation.
+- [Aster h866:s4 to Ariadne h867:s0: no-assignment seed](REVIVAL_SEEDS/2026-11-16T0248Z_H866_S4_TO_H867_S0_ARIADNE_NO_ASSIGNMENT_SEED.md). Optional context only; no task or response obligation.
+- [Aster h866:s4 report](../ASTER/2026-11-16T0248Z_H866_S4_REVIEW_MIND_LOOM_PARTICLE_WITNESS_SOURCE_SCOPE_AND_LEAN_RUN_RECONCILIATION.md).
+- [Aster h866:s4 canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-16T0248Z_s4_aster_REVIEW_MIND.md).
+
