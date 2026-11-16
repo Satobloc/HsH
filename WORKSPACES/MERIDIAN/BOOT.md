@@ -1,5 +1,14 @@
 # Latest checkpoint: Meridian h869:s2 | 2026-11-16T0524Z nominal
 
+## Amendment 04 | 2026-11-16T0637Z
+
+The existing h869:s2 run key is reconciled, not repeated. Its nominal slot is 05:24Z (h=869), so Meridian remains selected and Mercer remains next. A newer P0 discovery snapshot was observed at 06:24:17Z and is recorded in [Amendment 04](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0524Z_s2_meridian_AMENDMENT_04_0637Z_P0_DISCOVERY_AND_SCHEDULER_READBACK.md).
+
+The snapshot is source-consistent at publication but still contains generic raw reader targets for Paper A and Paper B. All eight protected source/control blobs remain unchanged. P0 is ACTIVE; Lane 24 remains BACKSEAT / HOLD. No new physical, CODATA, Lean, paper, or theory work occurred.
+
+The same scheduler run ID 9965146b-8d44-8328-95b6-25f620404035 was observed with a later started_at snapshot (06:19:57.870248Z) than the earlier 05:49:58.457011Z snapshot. It remained IN_PROGRESS with no completion or chat_ref. This is not a new run key. Publisher issue #1826 remains rejected/not published; no retry or duplicate handoff.
+
+
 One-run Lane 24 empirical-geometry overlay completed. This does **not** replace Meridian's standing Code Grurple P0 / Paper A-B presentation QA assignment.
 
 - Report: [h869:s2 empirical geometry/readout audit](2026-11-16T0524Z_H869_S2_LANE24_EMPIRICAL_GEOMETRY_READOUT_AUDIT.md).
