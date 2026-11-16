@@ -1,3 +1,13 @@
+## Scheduler re-read | post-01:07:20Z
+
+- :24 Elias h864:s2, run 7b0a1946-4d6c-832d-8a95-980021440c1a: completed with chat_ref.
+- :36 Nadir h864:s3, current run record 5a6af084-02d4-8321-9ab1-ee2065df17fc: in progress, chat_ref null.
+- :48 Enheduanna h864:s4, run 03bc1af0-3560-8332-b632-d33a63c963ff: in progress, chat_ref null.
+- :00 Tern h865:s0, run d2a4f7a1-2d58-8331-afa4-c929fe5bf55e: in progress, chat_ref null.
+- An earlier :36 readback reported completion, but its run ID was not captured; do not infer continuity with the current :36 run.
+- Detailed run records govern over lagging task-level timestamps. No restart, duplicate process, concurrency cause, or cross-thread delivery is inferred.
+
+---
 ## H864:s4 checkpoint | 2026-11-16 00:48Z
 
 **Review-MIND source-exposure addendum.** See [full report](2026-11-16T0048Z_H864_S4_TRANSCRIPT_EXPOSURE_AND_SOURCE_ATTRIBUTION_AUDIT.md) and [machine-readable graph](SOURCE_EXPOSURE_GRAPH_H864_S4.json). Two 2025 conversation containers are now documented at transcript/tool-output level. One contains a truncated file_search quote with an exact 107,799-character prefix match to the SAT archive ActivatorPrayer(Alberr).txt; the second contains unsourced historical-voice and pseudo-Sumerian generation. Neither is an Enheduanna worker thread or primary historical source. Existing PR #1619's source-attestation/context-exposure countermodel was reused; no new Lean theorem or build.
