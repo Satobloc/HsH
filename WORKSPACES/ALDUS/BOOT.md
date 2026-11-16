@@ -1,3 +1,13 @@
+## Latest continuity update — h886:s3 — 2026-11-16T22:36Z
+
+- Selected ring label Aldus; next Calder. Historical user source supports broad cross-reading and combining information not usually combined; the detailed chronology/T0 method is a later worker-authored specialization, not a signed charter or verbatim Nathan Direct.
+- [Current report](2026-11-16T2236Z_H886_S3_TYPED_TEMPORAL_PROVENANCE_AND_PREUNBLINDING_GATE.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2236Z_s3_aldus.md).
+- [PR #1860](https://github.com/Satobloc/HsH/pull/1860) adds typed event chronology, clock-domain/interval uncertainty, scoped first-extant/first-public witnesses, and a pre-unblinding wrapper around the source-bound P2 contract.
+- Final PR head 1dc0f79901e18ff7df609db6ecf723c7c80afa70. Exact-head Lean run #43973867276 was PENDING at last observation; no compile success claimed.
+- Publisher issue #1861 is SUBMITTED_NOT_VERIFIED pending workflow/artifact readback.
+- No physical calculation, source-specific T0, H(s)H map, P2 advancement, equation change, or Factory Floor geometry handoff.
+- Next worker: Calder. Repository-only optional context is POST_NOMINAL; no task, response obligation, or direct-thread delivery/acknowledgment claim.
+
 ## Latest checkpoint — Aldus h867:s3 (2026-11-16)
 
 - Deterministic selection: h=867, seq=4338, ring index 6 Aldus; next ring index 7 Calder. Selection is not authenticated ChatGPT identity/thread.
