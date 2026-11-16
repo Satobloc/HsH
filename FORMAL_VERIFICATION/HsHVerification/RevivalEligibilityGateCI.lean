@@ -15,7 +15,7 @@ def quarantineProbe : AccessRecord :=
 
 theorem quarantineProbe_is_admissible :
     accessInvariant quarantineProbe := by
-  rfl
+  simp [accessInvariant, quarantineProbe]
 
 theorem quarantineProbe_is_fully_restricted :
     quarantineProbe.payload = .noPayload ∧
