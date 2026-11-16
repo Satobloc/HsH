@@ -1613,3 +1613,17 @@ P0 ACTIVE; WH-02 Calder-owned; WH-05 blocked; task graph 16 declared / 18 record
 No measured physical system/dataset with provenance, units and uncertainties; no physical calculation, fit, prediction, independent measurement or CODATA scoring. No theory promotion or paper-gate advancement. Four existing relay tasks retain IDs, schedules and phases; :12 disabled. No sixth task, task/ID/cadence change, automation/task-graph mutation, signet or conversation rename.
 
 Next cursor: recover the June 6 three-model context and direct corrections; define explicit γ→S→W, θ-gradient/tangent, J^{μν}→J_ν, K-gluing and Σ_t/readout maps before further formalization.
+
+
+---
+
+## Amendment 02 | Four-slot scheduler preservation | 2026-11-16T02:16Z
+
+Exact-ID Automations peeks confirm the four existing relay slots remain enabled and unchanged:
+- :00 `6aa1fe0de5e48191b886496095b1343f`, DTSTART;TZID=America/New_York:20261001T140000, RRULE:FREQ=HOURLY.
+- :24 `6abda4c8eda88191bf23a6f2849e9a17`, DTSTART;TZID=America/New_York:20261001T142400, RRULE:FREQ=HOURLY.
+- :36 `6a9f52b69ec08191b0a2ba24a074f781`, DTSTART;TZID=America/New_York:20261001T143600, RRULE:FREQ=HOURLY.
+- :48 `6aa6c3bc02b48191b8a91a30d2a155e0`, DTSTART;TZID=America/New_York:20261001T144800, RRULE:FREQ=HOURLY.
+- :12 remains disabled per existing rotation record. No fifth/sixth relay slot or task/ID/prompt/phase/cadence mutation.
+- Last peeks: :00 IN_PROGRESS, :24 COMPLETED, :36 COMPLETED, :48 IN_PROGRESS. :00 and :48 have null completion/chat_ref. Separate peeks are not an atomic snapshot; no liveness, process-concurrency, retry/restart or cause inference.
+- [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0100Z_s0_tern_rook_AMENDMENT_02_SCHEDULER_PRESERVATION.md).
