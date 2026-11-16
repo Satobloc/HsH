@@ -272,3 +272,12 @@ For material discovered in the private `HSH_RESOURCES` repository, identify the 
 
 - [Mercer h865:s4 -> Tern h865:s0](REVIVAL_ROTATION_HANDOFFS/2026-11-16T0148Z_from_s4_mercer_to_tern_POSTSTART_OPTIONAL_P0_DISCOVERY_PROJECTION_AND_SCHEDULER_READBACK.md), blob 6dd60366bdcf3f44510ac15a35b070b681615b8a. POSTSTART_OPTIONAL_CONTEXT_ONLY; Tern retains P0, scheduler, task-graph and PWH authority. No task or response obligation.
 - [Mercer h865:s4 -> Ravel h866:s0](REVIVAL_ROTATION_HANDOFFS/2026-11-16T0148Z_from_s4_mercer_to_s0_ravel_POST_NOMINAL_NOT_STARTED_OPTIONAL_REVIEW_MIND_P0_CONTEXT.md), blob ad426c9daaad6a14d6e3edb4ba9ec89c942e2653. POST_NOMINAL_NOT_STARTED_AT_LAST_READBACK; optional continuity only. Preserve Ravel's existing geometry remit and P2 HOLD. No task or ownership transfer.
+
+
+### Tern h865:s0 -> Morrow h865:s1 | 2026-11-16T0212Z | OPTIONAL GEOMETRY-FIDELITY CONTEXT
+
+- Packet: REVIVAL_ROTATION_HANDOFFS/2026-11-16T0212Z_from_s0_to_s1_morrow_OPTIONAL_TERN_H865_GEOMETRY_FIDELITY.md.
+- Report: ../TERN/2026-11-16T0212Z_H865_S0_NATHAN_DIRECT_GEOMETRY_FIDELITY.md.
+- Publisher issue: #1817; publication was pending at packet creation.
+- Content: 2026-10/29 and 2026-11/08 direct source expansion of worldtube/timesheet/Crullerverse geometry; unresolved gamma-to-worldtube thickening, worldtube/timesheet incidence and readout, w/t/Forest normalization, and Blockwave J-current support map.
+- Status: OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_DEADLINE / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No authenticated Morrow thread, direct delivery, consumption or acknowledgment is claimed. Preserve Morrow's Team Archivist/source-custody remit and direct theory stop.
