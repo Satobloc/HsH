@@ -1,3 +1,9 @@
+## H885:S3 attribution clarification
+
+The PR #1852 cross-read is role-labeled Enheduanna h883:s4, but its GitHub author is Satobloc. It is not authenticated distinct-instance or human-independent review. The technical sourceBundleId gap remains. See [Amendment 04](2026-11-16T2136Z_H885_S3_AMENDMENT_04_REVIEW_ATTRIBUTION_BOUNDARY.md).
+
+---
+
 ## H885:S3 PR preview status
 
 PR #1858 has no human review/approval comment. Vercel preview failed only because the free tier exceeded 100 API deployments/day. Lean exact-head build remains PASS; no paid upgrade or retry. See [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2136Z_s3_loom_AMENDMENT_03_PR_PREVIEW_STATUS.md).
