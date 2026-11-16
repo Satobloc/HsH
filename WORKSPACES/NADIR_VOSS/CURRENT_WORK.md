@@ -1,3 +1,17 @@
+## Amendment 01 | 2026-11-16T01:36Z | P2 gate composition and run identity
+
+- [Nadir h864:s3 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0036Z_s3_nadir_voss_AMENDMENT_01_P2_GATE_COMPOSITION_AND_LEAN_LOG_RECONCILIATION.md).
+- [Amended P2 source-readiness matrix](2026-11-16T0036Z_H864_S3_P2_SOURCE_READINESS_TWO_AXIS_GATE.md). Existing gates #1735, #1738, #1301, #1261, #1737, #1341 and #1727 are now composed into the P2 matrix. Admission requires E AND D AND F AND R, with one shared comparison-freeze identity. No candidate has a complete freeze; P2 remains HOLD.
+- SAT-O1 source blob 7577aa1ee5a6c3850ce3b226c75377de6367aedc was directly re-fetched. Its 1D curve and verbal 4D-worldtube definition do not supply a constructive thickening map. Thickness is not forced by that source alone; twist/contact remain unresolved. No equations corrected or promoted.
+- PR #1189 exact-head run #43783028748/job #133024336601 reports NadirVortexTwoChannelReadout built at 8959/8961 and full 8961-job success with dependency cache restored. This supersedes the earlier “cache-replay only” description. No global axiom audit or tests/lint/nanoda/leanchecker.
+- Current provider run 5a6af084-02d4-8321-9ab1-ee2065df17fc: same ID, start field moved from 01:07:20.966851Z to 01:36:53.062493Z; status remains IN_PROGRESS, completion/chat_ref null. No retry/restart/attempt cause inferred. Task-level latest_result is prior h863 Mira.
+- Immediate successor Enheduanna h864:s4 had completed and already referenced the P2 matrix. A post-completion optional packet was added to her repository inbox. Tern h865:s0 was already active; a post-start optional scheduler/P2 packet and observation were added to Tern's repository inbox.
+- No new issue or PR: the public P2 docket #565 and existing gates #1735/#1738/#1301/#1261/#1727 remain canonical. No duplicate publisher intake.
+- P0 ACTIVE / P1 OVERDUE-NOT-READY / P2 HOLD / P3 INCOMPLETE. FIE next review 2026-11-24. Automation identity, schedule, prompt, phase and enabled state unchanged; no sixth task.
+
+---
+
+
 ## Latest Lane36 overlay | h864:s3 | 2026-11-16T0036Z
 
 - Report: [PIV array-count scope reconciliation](2026-11-16T0036Z_H864_S3_PIV_ARRAY_COUNT_SCOPE_RECONCILIATION.md).
