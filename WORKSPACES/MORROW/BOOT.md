@@ -226,3 +226,10 @@ The 18:12Z report/receipt path previously labeled Morrow h834:s4 belongs to the 
 The actual h834:s4 Morrow-labeled :48 run was scheduled 18:48:00Z, run b6c0f27c-562c-8326-960d-fd7217d245f8, started 18:50:36.587655Z, completed 18:54:15.144327Z. Its automation output reports RUN_KEY_CONFLICT and no new canonical report/receipt or pointer update. The output reports reading the prestart packet and INBOX pointer; this is not direct-thread delivery or historical-instance authentication. Task peek chat_ref is reused from the prior :48 run while result text says null; it is not worker identity.
 
 Authoritative scheduler correction: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1812Z_s4_morrow_AMENDMENT_01_TERN_SCHEDULED_HOUR_AND_RUN_KEY_CORRECTION.md and Tern Observation 028 Amendment 12. Morrow's Team Archivist/source-custody remit and direct theory stop remain controlling.
+
+## h876:s3 correction | 2026-11-16T13:22Z reconciliation
+
+- [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1236Z_s3_morrow_AMENDMENT_03_NEGATIVE_PATH_AND_RUN_READBACK.md) corrects the original report's false claim that Morrow INBOX and TRIAL_CHECKPOINT were absent. Both exact paths were present in the pinned complete tree; Layer 8 now separates path membership from content retrieval.
+- Public correction issue [#1840](https://github.com/Satobloc/HsH/issues/1840) is submitted; publisher readback is pending. Original issue #1839 remains PUBLISHED_VERIFIED and immutable.
+- Same h876 provider run ID remains IN_PROGRESS; exact-ID `started_at` changed from 12:47:52.865084Z to 13:22:58.392647Z. No cause inferred; `chat_ref` and completion remain null.
+- Kestrel h876:s4 completed; optional packet pointer present, consumption/acknowledgment not verified. No new handoff.
