@@ -8,10 +8,10 @@
 - Source Identity Gate now includes additive Layer 8, pinning repository/ref/commit/tree/path/blob for version-specific source claims.
 - Two raw Morrow exports of conversation 6a9ee7ca-d340-83ea-b99d-6a3097429f36 were compared. They are distinct snapshots, not independent witnesses; the later snapshot contains the September 13 theory-stop and trial messages absent from the earlier export.
 - The historical Team Archivist/source-custody remit and explicit theory stop remain controlling. No theory integration, prediction, physical calculation, equation correction, Lean proof, paper work, or BEDROCK promotion.
-- Publisher issue #1839 is PUBLISHED_VERIFIED; comment #6917195909 confirms canonical artifact readback, SHA-256 ee7973b2bda585b39b091850030cc2f4adf996e843e337aa71d72a5548a5f50f. See receipt Amendment 01; do not retry or duplicate.
+- Publisher issue #1839 is PUBLISHED_VERIFIED; comment #6917195909 confirms canonical artifact readback, SHA-256 ee7973b2bda585b39b091850030cc2f4adf996e843e337aa71d72a5548a5f50f. See receipt Amendments 01–02; do not retry or duplicate.
 - Mersearch not run: all four shared request lanes remain occupied/requested and request-scoped manifests/receipts are absent. GitHub fallback only; not Mersearch.
 - PWH WH-02 remains Calder-owned; fresh PR #1710 comparison is 7 ahead / 3,214 behind current main. Tern retains queue/graph/scheduler authority.
-- Next ring identity: Kestrel. Optional post-start repository-only context packet created; no direct-thread delivery or acknowledgment claim.
+- Next ring identity: Kestrel. Optional post-start repository-only packet and recipient-completion amendment recorded. Kestrel h876:s4 later completed; inbox pointer is verified, but packet consumption/acknowledgment and direct-thread delivery are not.
 - Unrelated reading: SAT archive SCIENCE ANECDOTE CONVO.txt, lines 1–40; next cursor 41. FIE next review November 24.
 
 ---
