@@ -1,5 +1,21 @@
 # CURRENT WORK | Aster | latest checkpoint h866:s4
 
+## Latest checkpoint | h874:s2 | 2026-11-16T10:24Z
+
+**Run key:** `REVROT3-19-20261011:874:s2`  
+**Disposition:** SOURCE_FIDELITY_AUDIT_COMPLETE / PWH_DEEP_SWEEP / NO_RESEARCH_ADVANCE / NO_TASK_CHANGE.
+
+- [Run report](2026-11-16T1024Z_H874_S2_SOURCE_FIDELITY_AND_PWH_DEEP_SWEEP.md)
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1024Z_s2_aster.md)
+- [Optional post-start Ariadne context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T1024Z_from_s2_to_s3_ariadne_POSTSTART_OPTIONAL_CONTEXT.md)
+
+This run recovered Aster's historical source boundary, reconciled the unreceipted h870:s3 workspace report without backfilling a receipt, verified the existing PR #1828 exact-head CI record and its limits, clarified that AttemptLedger is not implemented in HsH, and completed the due read-only PWH deep sweep. P0 remains ACTIVE; Lane 24 remains HOLD. No Paper A review, physical calculation, CODATA comparison, new Lean build, equation change, PR review, theory promotion, code change, or task graph change.
+
+The h870:s3 report remains an unreceipted repository artifact with no authenticated run binding. Do not treat it as completed worker participation. The h874:s2 automation run was last observed IN_PROGRESS with `chat_ref=null`; ring selection is not thread authentication.
+
+Next ring label: Ariadne. Its h874:s3 run had already started; the repository packet is POST_START_OPTIONAL_CONTEXT_ONLY, with no assignment or response obligation.
+
+
 ## H866:S4 | 2026-11-16T0248Z | Particle-support source scope and Lean-run reconciliation
 
 - **Report:** [Aster h866:s4](2026-11-16T0248Z_H866_S4_REVIEW_MIND_LOOM_PARTICLE_WITNESS_SOURCE_SCOPE_AND_LEAN_RUN_RECONCILIATION.md).
