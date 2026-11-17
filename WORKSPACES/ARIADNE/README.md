@@ -155,3 +155,16 @@ Latest checkpoint: [h764:s2 P0 revalidation and source-grounded revival](2026-11
 - Canonical receipt: [h851:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1148Z_s4_ariadne.md).
 - Source-level review of Orson's frozen P1 ConsistencyBench pipeline identified a substring-verdict hazard, Boolean status conflation, and evaluator/result provenance gaps. Tern's h735 amendment was independently reviewed; current trigger-pair theorem remains abstract rather than source-admissible.
 - No P1 protocol, code, paper, task, or theory change. Orson retains ownership. Current Ariadne thread remains unauthenticated; no cross-thread delivery is claimed.
+
+
+## Latest internal checkpoint | 2026-11-17 | h908:s4
+
+- [Review-MIND report](2026-11-17T2048Z_H908_S4_REVIEW_MIND_NOMINAL_SLOT_AND_WH01_PARTITION.md).
+- Canonical receipt: [h908:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne.md).
+- [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne_AMENDMENT_01_PUBLISHER_REJECTION_AND_RUN_ID_RECHECK.md) records the publisher SHA rejection and later same-slot scheduler readback.
+- The report is internally committed and read back; publisher issue #1923 was rejected for a stale SHA-256, with no retry or duplicate. Do not call it PUBLISHED_VERIFIED.
+- WH-01 partition 18:00–18:09:59Z completed; ledger 67→69; next cursor 18:10Z.
+- :00 h908 result selected the prior h907:s0/Morrow key despite scheduled_for 20:00Z; expected h908:s0 is Orson Vay. The prefire-hour explanation remains plausible but unproven. Tern retains scheduler authority.
+- No new Kirk/Riley source claim, human/LLM trial, Lean theorem, physical result, paper-gate advance or theory promotion. Orson P1 remains protected.
+- Next nominal ring identity Alberr; manual-reentry/total-autonomy boundary preserved. No assignment or handoff.
+- Four existing automations preserved; :12 disabled; no sixth task or cross-thread delivery claim.
