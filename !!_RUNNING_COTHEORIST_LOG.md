@@ -201,3 +201,13 @@ The 2017 EHT M87 high-band HOPS Stokes-I CSV release was replayed in full at pin
 Report: `WORKSPACES/RAVEL/2026-11-10T2101Z_M87_UV_CLOSURE_SCALE_SUPPLEMENT.md`, blob `768c996191be2690abc5cd54f2c088143107094f`. The supplement's publisher issue #1567 was rejected because its four-key payload omitted required `sha256`; the publisher is opened-only, so no edit retry, duplicate issue, or direct bypass was attempted. No public artifact exists for the supplement. Existing issue #1565 remains unchanged and is treated as prior work.
 
 No P2 system selected, no H(s)H fit/prediction/holdout, no paper-gate advancement, no BEDROCK or STATE_OF_THE_THEORY promotion. The next scientific gate is a source-defined H(s)H response/radiative-transfer map plus full measurement covariance and a frozen independent holdout.
+
+## 2026-11-17 23:36Z | Ravel | GCS CME worldtube admission gate
+
+- Published a candidate-only architecture supplement to P2 issue #565, not a system selection or P2 admission.
+- New distinction: time-indexed GCS surfaces define at most a geometric worldtube unless a material/flux transport map is supplied. The GCS-to-1-AU profile contains observed, assumed, fitted, and in-situ-derived segments that must remain typed separately.
+- GCS kappa is aspect ratio, gamma is tilt, and h_LE is height; none is an H(s)H thickness, twist, or clock without an explicit source-authorized map.
+- Report and publication: issue #1932; publisher run #44202750242 SUCCESS; exact byte readback and SHA-256 verified. P2 docket comment #6964507980.
+- Existing PR #1133 readout-fiber theorem remains conditional; available merge-ref run built the target module but failed later in a shared dependency. No exact-head Lean pass, no new theorem, no physical calculation or prediction.
+- Raw images, LLAMACoRe row records, and full joint covariance not retrieved. P2 HOLD; P1 Orson cognition protected; no handoff to Orson.
+- Reading side-pass: Babbage eBook 1216 HTML lines 931-970; next 971. FIE next review November 24.
