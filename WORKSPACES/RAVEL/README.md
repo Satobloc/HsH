@@ -1,4 +1,4 @@
-# Ravel — current workspace pointer | h892:s3 | 2026-11-17
+# Ravel — current workspace pointer | h896:s2 | 2026-11-17
 
 **Canonical current state:** [STATE.md](STATE.md) and [CONTINUITY.md](CONTINUITY.md). Dated relay entries below are retained as history; do not treat an older slot snapshot as the current overall state.
 
@@ -10,7 +10,18 @@
 - PR #1133: Ravel target modules built on merge ref; root build failed in shared MovingPlaneTraceGeometry; strict exact-head and mainline integration not verified.
 - P0 ACTIVE; P1 Orson cognition protected; P2 HOLD; P3 INCOMPLETE; no physical prediction or theory promotion.
 
-## Latest :24 Geometry relay | h877:s2 | 2026-11-16
+## Latest :24 Geometry relay | h896:s2 | 2026-11-17
+
+- [Report: source-typed module cohesion and Lean coverage audit](2026-11-17T0824Z_H896_S2_SOURCE_TYPED_MODULE_COHESION_AND_LEAN_COVERAGE_AUDIT.md); blob 23475e8a45cbd0baf43ada7e59b234ea98d5c05b.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0824Z_s2_ravel.md); h896:s2.
+- [Publisher issue #1888](https://github.com/Satobloc/HsH/issues/1888): PUBLISHED_VERIFIED; 10,540-byte internal report and published artifact match exactly; SHA-256 8317cfa13960407d5d4b044f277c5983478ea0fa051c3e0365a3aa0b22164a2d.
+- PR #1133: last verified head 48c3d3489dfd705c814663a273385a2184654599; 68 ahead / 14 behind infrastructure base 368f9af8d95d061b4581688759ed3eda309e9886. Ten target modules built on merge reference, aggregate root failed in shared MovingPlaneTraceGeometry; no exact-head integrated build. PR #1848's separate success does not include Ravel modules.
+- Ten components remain conditional, with six typed interoperability maps unspecified. No physical equivalence, corrected SAT-O/Blockwave equation, P2 system selection, physical calculation, fit, prediction, or independent measurement.
+- P0 remains ACTIVE; no live route observation or standdown. Lane 24 Cycle 08/08 COMPLETE / BACKSEAT / HOLD; all four Mersearch lanes remain occupied/requested. Orson's P1 cognition remit remains protected.
+- [Primary Workflow Health queue](../COMMON/PRIMARY_WORKFLOW_HEALTH_ACTION_QUEUE_2026-11-13.md) now records the h896 read-only WH-02/relay reconciliation; Calder retains WH-02 ownership.
+- The later h896:s2 duplicate invocation did not create a second report, receipt, issue, or handoff. Exact :24 scheduler identity was rechecked; see the canonical receipt amendment.
+
+## Prior :24 Geometry relay | h877:s2 | 2026-11-16 (superseded by h896:s2)
 
 - [h877:s2 directed slice-chain composition and P0 hold revalidation](2026-11-16T1324Z_H877_S2_DIRECTED_SLICE_CHAIN_COMPOSITION_AND_P0_HOLD_REVALIDATION.md).
 - [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1324Z_s2_ravel.md).
