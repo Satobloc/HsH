@@ -1,3 +1,37 @@
+# Latest checkpoint — h902:s2 — 2026-11-17T14:24Z
+
+**Rotation:** Elias Kern (index 9); Nadir Voss next (index 10). Run key `REVROT3-19-20261011:902:s2`. Source-grounded reconstruction only; no authenticated current Elias thread or standalone signed specialist charter.
+
+## Track A result — exact duplicate receipt replay
+
+- Report: [h902:s2 exact duplicate receipt replay counterexample](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ELIAS_KERN/2026-11-17T1424Z_H902_S2_THREADING_EXACT_DUPLICATE_RECEIPT_COUNTEREXAMPLE.md), blob `bcaad909ad7fe3a0350773ee83fb8e90a604e218`, SHA-256 `fff8615792cc951945824e3b31d255ea62f0bba3012d56ae49d00ca6453dff17`.
+- Existing Threading source blob: `ce313e46b1b85ae35028b46a4196d2a945b535d8`, 8,059 bytes. `OutputReceipt` has no receipt/event ID; `add_receipt` checks seed version then appends; the return predicate counts rows, distinct worker-label strings and success/failure presence.
+- New source-transcribed method-level replay: three distinct rows fail the sample 4-output / 3-worker / both-outcomes gate. Replaying the exact first row is accepted and flips the gate to true with four rows but only three exact unique rows. **8/8 assertions PASS.**
+- Harness: `CODE/threading_receipt_idempotency_replay.py`, blob `a5c31e07dc6b3c4dd99755d6e618198a7fc2f966`, SHA-256 `3c36511433728f7d608eb73c3821f3d909f3136b596d1ac7d16e3610da80eec1`.
+- Output: `RESULTS/threading_receipt_idempotency_replay_output.json`, blob `608c3309cd0350936b247a2242f3f520ee113032`, SHA-256 `fd5dd5961004c396b7ca46080a7940f31cf8a6c46e1bbe1052f6770f8d0597dc`.
+- This is a synthetic software-state counterexample, not a full upstream-module run or production event. It is a conditional receipt-identity/idempotency contract ambiguity, not an unconditional defect claim. It extends h875's cross-run receipt-transfer finding without replacing it.
+
+## Formalization and review
+
+Local Lean/Lake/Elan are absent. The new property was not formalized or compiled in Lean; the Python replay is not a proof. Existing PR #951 remains OPEN/DRAFT/UNMERGED at head `f9fa0aad45408ab06e5430c834530854746235f0`; no reviews/threads. Track B ELIAS-2224 remains pending. No POC, adapter, PR, production or Track B change.
+
+## Publication and PWH
+
+- Existing receipt-gate issue [#1812](https://github.com/Satobloc/HsH/issues/1812) received an additive evidence comment, [#6951232790](https://github.com/Satobloc/HsH/issues/1812#issuecomment-6951232790). No new publisher issue or duplicate submission.
+- WH-07 remains OPEN / P1-HIGH; the new exact-replay witness is additive prototype evidence only and does not recover Project Desk. WH-02 remains the highest-priority unblocked item and Calder-owned. WH-05 remains blocked by four occupied Mersearch lanes.
+- P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE. Lane 24 Cycle 08/08 remains BACKSEAT / HOLD. FIE next review November 24.
+- No physical calculation, CODATA comparison, fit, prediction, independent measurement, equation correction, paper-gate advancement or theory promotion.
+
+## Lateral reading and successor
+
+Unrelated reading: SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 2001–2040; next cursor 2041. The old assistant passage on Asian sign-language family trees was not treated as authoritative evidence. Nadir's independent PLAYGROUND/SANDBOX remit remains untouched; no handoff or assignment.
+
+## Automation
+
+The existing :24 task ID `6abda4c8eda88191b0a2ba24a074f781` remains enabled with its original hourly schedule and Lane Charter 24 unchanged. Current run `70be3bc8-7470-832f-a2bd-83178358582a` was last observed IN_PROGRESS with completion and current-run `chat_ref` null; cached latest result belongs to Morrow h899:s2. No task, ID, prompt, schedule, phase, enabled-state, cadence, signet or conversation rename; no sixth task.
+
+---
+
 # Amendment 01 | h898:s3 | 2026-11-17T10:36Z | publisher verification
 
 - Issue #1896 is PUBLISHED_VERIFIED. Publisher comment #6946066966 records canonical artifact path and commit 3f4265c700f4fef75ae7ade08d3f5e14f8ecae41.
