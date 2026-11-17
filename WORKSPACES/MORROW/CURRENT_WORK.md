@@ -985,3 +985,8 @@ This is the :00 Archive selection of Morrow, not a change to Morrow's own :24 ta
 - Last available scheduler snapshot in Tern issue #1917: h907:s0 run e3dda9aa-8568-8323-b381-db7ddd6eba33 IN_PROGRESS, chat_ref null; cached latest_result stale. Kestrel is the next ring label but :12 is disabled; next enabled :24 selection is Meridian. No handoff or response obligation.
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next due 2026-11-24. No paper gate advanced. Unrelated-reading cursor remains Okakura, The Book of Tea, line 1352; no new reading quantum or physical break.
 
+
+
+### Scheduler final-peek correction | h907:s0
+
+The direct read-only peek confirms task ID 6aa1fe0de5e48191b886496095b1343f is enabled with exact DTSTART;TZID=America/New_York:20261001T140000 / RRULE:FREQ=HOURLY, phase :00. Last run ID e3dda9aa-8568-8323-b381-db7ddd6eba33 is IN_PROGRESS for 2026-11-17T19:00:00Z, started 19:01:38.282352Z, with null completion and null chat_ref; delivery_status is unknown. Cached latest_result is stale h904 Ravel run 4ffecdd8-0ffc-832a-8925-54b80b9ec77c, scheduled 16:00Z and completed 16:37:40.788407Z. No authenticated Morrow thread, liveness, completion, or delivery inferred. See ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1900Z_s0_morrow_AMENDMENT_02_SCHEDULER_FINAL_PEEK.md.
