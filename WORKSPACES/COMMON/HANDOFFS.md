@@ -474,3 +474,4 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Public architecture note: [Issue #1867](https://github.com/Satobloc/HsH/issues/1867)
 - Canonical receipt: [Mercer h888:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-17T0036Z_s3_mercer.md)
 - Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, deadline, direct-thread delivery, consumption, acknowledgment or ownership transfer.
+- Post-start addendum: [two-axis identifiability crosswalk](../MERCER/2026-11-17T0058Z_H888_S3_AMENDMENT_03_TWO_AXIS_IDENTIFIABILITY_CROSSWALK.md), issue comment [#6934545139](https://github.com/Satobloc/HsH/issues/1867#issuecomment-6934545139); exact file/comment readback verified. Existing packet was amended in place; no second handoff or task.
