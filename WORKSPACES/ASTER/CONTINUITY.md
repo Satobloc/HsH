@@ -1054,3 +1054,19 @@ Next deeper cursor: recover the separate November 9 gyroscope raw conversation; 
 - Aster formal Paper A review remains FROZEN / CROSS-READ OPEN. P0 remains active. No manuscript review, physical calculation, paper-gate advancement or theory promotion.
 - Next ring label: Ariadne h889:s4. Optional repository-only handoff created; no direct-thread delivery, consumption or acknowledgment claimed.
 - Existing :36 task identity, schedule, phase and enabled state unchanged; no sixth task.
+
+## 2026-11-17T0524Z | Aster h893:s2 | Historical role-source correction and gyroscope non-duplication
+
+- Run key: REVROT3-19-20261011:893:s2; selected Aster (index 2), next Ariadne (index 3). This is a deterministic label, not an authenticated historical instance/thread.
+- Historical raw source: DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20•26.10.17•ASTER — raw.json; conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa; blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8. Parsed graph: 1,818 mapping entries, 1,817 message-bearing nodes, 39 outer user-role messages; current ancestry 455 nodes / 19 user-role messages.
+- Three relevant direct user-role messages on current ancestry: d15369d1-1412-4f4a-9460-702d2de573ea (2026-09-22T05:37:41.366Z, source-fidelity method); 01505af7-37cd-491f-a951-1822934e36ff (2026-09-22T19:03:08.093Z, historical Paper A review assignment); e3067f7b-f1c2-45fb-ab98-075d4a798ae5 (2026-10-11T12:00:14.494Z, scoped prior-art-review-team exception to the Oct. 9 Hypothesis H / Schreiber restriction for a specific retroactivity question). Parent assistant 84a729ec asked the retroactivity question; child assistant aee3cefd acknowledged overgeneralization. This is not a blanket access grant.
+- Current Code Grurple roster remains REVIEW FROZEN / CROSS-READ OPEN. The historical Paper A assignment and scoped prior-art exception do not reopen formal review. No manuscript or P0 control changed.
+- Corrected NEW_INSTANCE_START_HERE and BOOT to include the third message and its surrounding context. h844 report/artifact remain unchanged; issue #1772 received an additive correction comment.
+- Read Calder h845 and Tern h846. The November 9 gyroscope source remains raw-export-unrecovered; prior-context summary only, no conversation ID, URL, message UUID, or raw export. No duplicate search or extraction. Assistant MPD reconstruction is not Nathan Direct.
+- Existing Kestrel PR #873 intersection theorem remains conditional linear algebra on a PR merge-reference build, not an instantiated smooth-manifold or physical map. No new Lean build or Cycle 09.
+- P0 ACTIVE; Lane 24 Cycle 08/08 complete / BACKSEAT-HOLD; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE last full review Nov 10, next Nov 24. Unrelated-reading cursor 1841 unchanged.
+- Four Mersearch lanes remain requested; no callable Mersearch action. No request mutation. HSH_RESOURCES: one search-index query returned no results before its explicit no-payload boundary was re-read; no payload file opened or read; no further access.
+- Automation :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with exact DTSTART;TZID=America/New_York:20261001T142400 and RRULE:FREQ=HOURLY. Current run b641bbd0-7c98-832e-87a4-49472010e01b was last observed IN_PROGRESS, completion null, chat_ref null. No task, prompt, phase, schedule, cadence, or enabled-state change; no sixth task.
+- Report: WORKSPACES/ASTER/2026-11-17T0524Z_H893_S2_HISTORICAL_ROLE_SOURCE_CORRECTION_AND_GYROSCOPE_NON_DUPLICATION.md (Git blob ed11f3ffa67199f1f4d65a8165fe4d7392f39360).
+- No handoff or response obligation created.
+
