@@ -51,7 +51,7 @@ structure WavevectorAngleReadout where
   radians : ℝ
 
 /-- Source-reported correlation readout, typed as a wavevector angle. -/
-def correlationWavevectorAngle
+noncomputable def correlationWavevectorAngle
     (d : CorrelationDistances) : WavevectorAngleReadout :=
   ⟨Real.arctan (d.vertical / d.horizontal)⟩
 
