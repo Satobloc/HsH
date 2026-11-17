@@ -1,3 +1,17 @@
+## Latest return point | 2026-11-17
+
+- [Source cross-read report](2026-11-17_CODATA_MEETING_LISTINGS_NIST_G_WALLACE_PROVENANCE_CROSSREAD.md).
+- [Canonical revival receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17_aldus.md).
+- [Publisher issue #1871](https://github.com/Satobloc/HsH/issues/1871); submission is awaiting independent artifact/hash readback.
+- New source result: CODATA's September 2026 meeting statement conflicts with BIPM's 5-6 November listing, which still says Upcoming on 17 November. Occurrence/outcome are unverified.
+- NIST 2026 G final PDF differs from its landing-page abstract; the final posterior is CODATA-prior-dependent and not a clean independent holdout.
+- Lateral reading: Wallace, *The Malay Archipelago*, Volume I, preface 67-112 and Chapter I 113-178; next cursor 179.
+- P0 remains ACTIVE; Lane 24 remains Cycle 08/08 BACKSEAT/HOLD. No Cycle 09, new Lean build, physical calculation, or theory promotion.
+- Optional repository-only context packet delivered to Calder's existing inbox; no ChatGPT-thread delivery or consumption claim.
+- Existing Workshop Relay automation remained enabled and unchanged; no additional task.
+
+---
+
 ## Verification update — h886:s3 — 2026-11-16T22:54Z
 
 - [PR #1860](https://github.com/Satobloc/HsH/pull/1860) remains OPEN/DRAFT/UNMERGED at exact head `1dc0f79901e18ff7df609db6ecf723c7c80afa70`.
