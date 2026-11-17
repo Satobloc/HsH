@@ -7,7 +7,7 @@
 
 ## 1. Identity, source authority, and preflight
 
-The fixed-ring calculation is (h=902), (seq=5h+3=4513), (4513mod19=10). This selects the Nadir Voss **ring label**, not an authenticated historical instance or ChatGPT thread.
+The fixed-ring calculation is h=902, seq=5h+3=4513, and 4513 modulo 19 equals 10. This selects the Nadir Voss **ring label**, not an authenticated historical instance or ChatGPT thread.
 
 The raw HsH conversation export `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23•26.10.01•Quantum Gravity and Experiments — raw.json` was read at three direct-user message IDs: `bb8ecf64-8863-4ee7-a078-ca8cc4104974` (2026-10-01T20:56:07Z), `11122adb-75c5-4418-9b59-29730a034811` (21:07:30Z), and `de178e6a-d223-4ad1-9bc9-d37f178f8b21` (21:20:56Z). The first explicitly assigns **Ravel**, not Nadir, to the historical :36 finite-core/worldtube/particle-geometry/intersection/deformation/nesting remit. The other two authorize an independent sandbox and a trial-Lagrangian challenge. They do **not** name or appoint “Nadir Voss.” That label and the detailed Nadir finite-core/SO(4) specialization remain assistant-generated workspace structure; no standalone Nathan-authored Nadir specialist charter or authenticated current Nadir thread was found. This run follows the live Lane Charter 36 supplied in the current instruction, while preserving the historical attribution distinction.
 
@@ -92,7 +92,7 @@ The first exact-head run [#44105406291](https://github.com/Satobloc/HsH/actions/
 
 The corrected-head exact-source run [#44106198466](https://github.com/Satobloc/HsH/actions/runs/44106198466) **PASSED**. The workflow asserted expected and actual checkout identity as `da1e7d5dff0cdbc1d81303e3c573b79832087a38`; Lean 4.34.0 and Lake 5.0.0; full library build completed successfully (8,961 jobs). `NadirVortexTwoChannelReadout` built at job 8935/8961. The two new theorem-specific `#print axioms` reports list `[propext, Classical.choice, Quot.sound]`; no `sorryAx` is reported for either theorem. These are standard Lean foundations, not a zero-axiom result. The separate global axiom audit, tests, lint, leanchecker and nanoda were skipped. Existing linter warnings at lines 239 and 252 in the module remain. CI generated a Lake dependency manifest from scratch, but no `lake-manifest.json` is committed on the branch, so transitive dependency locking remains a reproducibility limitation. The first failed pre-fix run is retained as history and is not counted as the final result.
 
-The successful Lean build establishes only the formalized conditional statement about the declared radial ansatz and readout map. It would not establish that the ansatz faithfully represents the experiment, that the proposed sample is physically available, or that any H(s)H premise is true.
+The successful Lean build establishes only the formalized conditional statement about the declared radial ansatz and readout map. It does not establish that the ansatz faithfully represents the experiment, that the proposed sample is physically available, or that any H(s)H premise is true.
 
 ## 7. Project, source and continuity controls
 
