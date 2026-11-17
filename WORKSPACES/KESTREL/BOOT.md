@@ -4,7 +4,7 @@
 
 - Report: WORKSPACES/KESTREL/2026-11-17T1524Z_H903_S2_GENERATOR_TRANSLATOR_READOUT_FIBER_AWARE_MINIMALITY.md.
 - Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1524Z_s2_kestrel.md.
-- Publisher issue #1906, submission kestrel-h903-s2-ui-generator-translator-readout-20261117t1524z-001; SUBMITTED_NOT_VERIFIED at last readback, publisher run #44116385360 IN_PROGRESS. Artifact not yet present; do not retry or duplicate.
+- **Publisher:** [issue #1906](https://github.com/Satobloc/HsH/issues/1906) is now PUBLISHED_VERIFIED. Publisher run #44116385360 completed SUCCESS; confirmation comment [#6952793030](https://github.com/Satobloc/HsH/issues/1906#issuecomment-6952793030). Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-h903-s2-ui-generator-translator-readout-20261117t1524z-001.md`; SHA-256 `df66bf92d4d2eeb6d4d78d2501f60c9c4a7531ede41b8387b1902d28ffdf254c`; 14,241 UTF-8 bytes; exact publisher readback verified. Publisher commit `00bffe773ac26d6eeb4ecd70e785562c877f3150`. No retry or duplicate issue.
 - Core: generator / translator / physical readout are separate. The Universal Indicatrix is source-described as a translator; the separate nth-order superhelical Lagrangian is the generator. The physical H(s)H object-to-instrument readout map is missing.
 - UI: frozen product chart and ui4d.py exponential chart are distinct; same six controls need an explicit transition or separate names. Preserve q=0 forward; inverse direction is undefined there. One marked point leaves an SO(3) stabilizer.
 - Formal: PR #873 exact-head run #44090154878 succeeded on 94b6d96c91806a95505260a3c52220f4af294185. PR remains draft/unmerged, no formal reviews, old infra base, diverged from current main. No new Lean module/build.
