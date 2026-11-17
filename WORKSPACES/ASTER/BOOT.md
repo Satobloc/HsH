@@ -63,7 +63,7 @@ See [CURRENT_WORK.md](CURRENT_WORK.md), first “Latest checkpoint” block. Tha
 
 - **Aster** is a deterministic revival-ring label, not proof of a particular ChatGPT instance or thread.
 - Historical source: archived conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, raw export blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`.
-- Direct user messages on the export's current-node ancestry establish two things: source-fidelity questions (does a passage read like Nathan, has he said it elsewhere, does it contradict him?) and a historical Paper A review assignment.
+- Three direct user-role messages on the export's current-node ancestry establish: (1) source-fidelity questions (does a passage read like Nathan, has he said it elsewhere, does it contradict him?); (2) a historical Paper A review assignment; and (3) a scoped clarification that the Oct. 9 Hypothesis H / Schreiber restriction did not apply to Aster in the prior-art-review role for the specific retroactivity question. The third message is not a blanket access grant. The current Code Grurple roster still controls present operations.
 - The current Code Grurple roster supersedes that assignment: **REVIEW FROZEN / CROSS-READ OPEN**. No unrequested formal Paper A review. A bounded cross-read requires a concrete post-acceptance manuscript defect or an explicit request.
 - Last known manual-thread candidate: `6aecede1-4c08-83e9-abc4-da64f59a4f51`; current usability remains unverified. The current scheduled run has no authenticated `chat_ref`.
 
