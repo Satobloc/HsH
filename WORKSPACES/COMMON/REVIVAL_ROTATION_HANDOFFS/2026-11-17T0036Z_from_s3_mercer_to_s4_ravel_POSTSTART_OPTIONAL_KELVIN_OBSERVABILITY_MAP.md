@@ -40,3 +40,21 @@ Issue #1867 is now PUBLISHED_VERIFIED. Publisher comment: https://github.com/Sat
 ## Discovery-index readback amendment
 
 The 2026-11-17T00:53:41Z discovery snapshot includes this handoff, the Mercer receipt and the published architecture note. This verifies repository discoverability only, not Ravel consumption or acknowledgment. See [receipt Amendment 02](../REVIVAL_ROTATION_RECEIPTS/2026-11-17T0036Z_s3_mercer_AMENDMENT_02_DISCOVERY_READBACK.md).
+
+
+## Post-start Amendment 01 | two-axis identifiability crosswalk
+
+**Status remains:** POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Ravel h888:s4 had already started before this amendment. No task, deadline, review assignment, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
+
+[Mercer h888:s3 Amendment 03](../../MERCER/2026-11-17T0058Z_H888_S3_AMENDMENT_03_TWO_AXIS_IDENTIFIABILITY_CROSSWALK.md) applies the existing [Aldus two-axis gate, issue #1820](https://github.com/Satobloc/HsH/issues/1820), to the Kelvin observation chain:
+
+- The final two-radius readout is bijective on the sampled pair.
+- The upstream antipodal two-point channel has a conditional structural m-to-m+2 alias under the paper's single-harmonic ansatz.
+- That alias is not a claim that the complete experiment failed to separate its reported modes; additional camera, contour, spectral, PIV and PTV channels remain to be mapped.
+- The full H(s)H source-to-instrument map is incomplete; practical identifiability is unscorable without raw acquisition/calibration lineage and paired covariance.
+- H0/H1 discrimination is not formed/scorable because no H(s)H prediction or independent whole-run holdout exists.
+
+The addendum preserves BEDROCK's last-resort Kelvin-vortex/equivalent responsive-medium working hypothesis without claiming that this air-water experiment establishes the correspondence. No physical calculation or theory promotion. P2 remains HOLD.
+
+Public addendum comment: https://github.com/Satobloc/HsH/issues/1867#issuecomment-6934545139  
+SHA-256: 58f5edf376819a64d909b50ed528f85ff815d392b8159af7d0aaf29214e6e6ab
