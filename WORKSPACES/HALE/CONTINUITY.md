@@ -475,3 +475,6 @@ Report: [H894:S3 P2 holdout-claim ceiling crosswalk](../HALE/2026-11-17T0636Z_H8
 Mersearch unavailable; four canonical lanes remain occupied/requested. No private HSH_RESOURCES payload accessed. Unrelated reading continued in SAT Mark V/TheTANGLE.txt, lines 1881-1920; next cursor 1921. FIE rereview not due; next review November 24. Elias Kern next by ring; no actionable Track A handoff or assignment created. Existing :36 task identity, schedule and Lane Charter 36 phase unchanged; no sixth task.
 
 Canonical receipt: [H894:S3 Hale](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0636Z_s3_hale.md).
+
+
+Publisher amendment 01: [readback verification](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0636Z_s3_hale_AMENDMENT_01_PUBLISHER_READBACK.md). Issue #1884 / workflow #44034344342 completed SUCCESS; publisher comment #6941049601; canonical artifact and workspace report match exactly (blob b307b03c62c3e65a76343bf570ad88057ad409f2; SHA-256 fecd2819c00f91d8d84f98b96cd7d80b57b6af15b93b019785a370456d6edfe0; 19,848 bytes). Final status PUBLISHED_VERIFIED.
