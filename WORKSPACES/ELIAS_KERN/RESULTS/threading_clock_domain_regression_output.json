@@ -1,0 +1,55 @@
+{
+  "builtin_self_test": {
+    "status": "PASS",
+    "tests": 6
+  },
+  "checks": {
+    "aware_offsets_compare_by_instant": true,
+    "aware_start_naive_now_rejected": true,
+    "backward_clock_delays_time_cap": true,
+    "forward_clock_triggers_time_cap": true,
+    "naive_pair_can_trigger_time_cap": true,
+    "naive_start_aware_now_rejected": true
+  },
+  "passed": 6,
+  "results": {
+    "aware_offsets_compare_by_instant": {
+      "elapsed_hours": 0.0,
+      "expected": 0.0
+    },
+    "aware_start_naive_now_rejected": {
+      "exception": "TypeError",
+      "message": "can't subtract offset-naive and offset-aware datetimes"
+    },
+    "backward_clock_delays_time_cap": {
+      "elapsed_hours": -1.0,
+      "outputs": 0,
+      "ready": false,
+      "reason": "not-yet",
+      "workers": 0
+    },
+    "forward_clock_triggers_time_cap": {
+      "elapsed_hours": 6.0,
+      "outputs": 0,
+      "ready": true,
+      "reason": "time-cap",
+      "workers": 0
+    },
+    "naive_pair_can_trigger_time_cap": {
+      "elapsed_hours": 3.017,
+      "outputs": 0,
+      "ready": true,
+      "reason": "time-cap",
+      "workers": 0
+    },
+    "naive_start_aware_now_rejected": {
+      "exception": "TypeError",
+      "message": "can't subtract offset-naive and offset-aware datetimes"
+    }
+  },
+  "scope": "exact-source import; built-in self-test plus targeted method-level temporal-input tests; no scheduler or production execution",
+  "source": "Satobloc/HSH_RESOURCES/tools/workflow_threading_demo.py",
+  "source_bytes": 8059,
+  "source_git_blob_sha1": "ce313e46b1b85ae35028b46a4196d2a945b535d8",
+  "total": 6
+}
