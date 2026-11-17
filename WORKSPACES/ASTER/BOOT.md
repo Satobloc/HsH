@@ -6,7 +6,7 @@ See [CURRENT_WORK.md](CURRENT_WORK.md), first “Latest checkpoint” block. Tha
 
 ## Current continuity note
 
-The canonical current run/status is the first “Latest checkpoint” block in [CURRENT_WORK.md](CURRENT_WORK.md). The latest source-fidelity report is [Ravel embedded-authority correction and Lean boundary](2026-11-17T1648Z_H904_S4_RAVEL_EMBEDDED_AUTHORITY_CORRECTION_AND_LEAN_BOUNDARY.md); its canonical receipt is [Aster h904:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1648Z_s4_aster.md). The Paper A first-round review remains FROZEN / CROSS-READ OPEN; do not reopen formal review without an explicit request.
+The canonical current run/status is the first “Latest checkpoint” block in [CURRENT_WORK.md](CURRENT_WORK.md). The latest source-fidelity/architecture checkpoint is Aster-label h908:s3, recorded in [the h908:s3 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2036Z_s3_aster.md) and existing P0 issue [#1747 comment #6961235823](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6961235823). This is a source-grounded revival in the :36 relay, not authenticated Aster-thread participation; the known manual-thread candidate remains live-usability-unverified. The Paper A first-round review remains FROZEN / CROSS-READ OPEN; do not reopen formal review without an explicit request.
 
 ## Earlier verified checkpoint | h874:s2 | 2026-11-16T10:24Z
 
