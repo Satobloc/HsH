@@ -990,3 +990,17 @@ This is the :00 Archive selection of Morrow, not a change to Morrow's own :24 ta
 ### Scheduler final-peek correction | h907:s0
 
 The direct read-only peek confirms task ID 6aa1fe0de5e48191b886496095b1343f is enabled with exact DTSTART;TZID=America/New_York:20261001T140000 / RRULE:FREQ=HOURLY, phase :00. Last run ID e3dda9aa-8568-8323-b381-db7ddd6eba33 is IN_PROGRESS for 2026-11-17T19:00:00Z, started 19:01:38.282352Z, with null completion and null chat_ref; delivery_status is unknown. Cached latest_result is stale h904 Ravel run 4ffecdd8-0ffc-832a-8925-54b80b9ec77c, scheduled 16:00Z and completed 16:37:40.788407Z. No authenticated Morrow thread, liveness, completion, or delivery inferred. See ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1900Z_s0_morrow_AMENDMENT_02_SCHEDULER_FINAL_PEEK.md.
+ 
+## Cross-lane source-fidelity amendment | h907:s0 | 2026-11-17T19:31Z
+
+- Addendum: [SAT4D cross-version geometry and source-fidelity ledger](2026-11-17T1931Z_H907_S0_AMENDMENT_03_SAT4D_CROSS_VERSION_GEOMETRY_FIDELITY.md).
+- Common receipt amendment: [h907 Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1931Z_s0_morrow_AMENDMENT_03_SAT4D_CROSS_VERSION_FIDELITY.md).
+- Report blob SHA-1: `6fea224956b0bedef906a3fd8a5d82e1c65707ba`; exact fetch/readback verified. Receipt-amendment blob SHA-1: `4ea0b023f68c970ddd891977303cea537de9f63e`; exact fetch/readback verified.
+- Expanded source cluster: SAT.O1, SAT.O4, SAT4D_4/_6/_8/_9, O4 status files, the O1 duplicate inside SAT4D_LIVE_DRAFT, and the November 8 direct geometry conversation. New findings: the July glossary's metric/connection dependency affects normality and theta4 as well as strain; O4's topological stability claim lacks a defined ambient link object and recovered derivation; SAT4D_8's mode requirement is not declared in O1; O4 completion labels do not supply the placeholders still present in SAT4D_9.
+- November 8 direct geometry confirms a 4D tube around a 1D core with a 3D boundary as a working hypothesis; pair-of-pants is a particular split, not the generic tube; worldsheet reduction and w/time relation remain tentative.
+- Proof-first status: FORMALIZATION_BLOCKED_SOURCE_OBJECT_AND_METRIC_CONNECTION. No well-typed source theorem; no Lean run, physical calculation, CODATA scoring, equation correction, theory integration, or paper work.
+- Existing publisher issue #1919 remains rejected; no retry or duplicate. Amendment 03 is internal-only.
+- Main pre-amendment head observed: `dc271cf2d29b78d563f974f7f11b88a174fd8df6`. Task graph 16 declared / 18 records; 17 reachable, one blocked/unreachable. No graph change.
+- :00 task ID `6aa1fe0de5e48191b886496095b1343f` and exact hourly :00 schedule remain unchanged; :12 disabled; no sixth task. Morrow's own :24 task and BOOT pointer remain unchanged.
+- Next ring label Kestrel (:12 disabled); next enabled :24 selection Meridian. No handoff, authenticated thread, or cross-thread delivery claim.
+- Next source cursor: recover O1/O4 authoring sources, define the link ambient space and metric/connection contract, then identify source-authorized core-to-tube, tube-to-boundary, and mouth-to-timesheet maps before admitting a Lean target.
