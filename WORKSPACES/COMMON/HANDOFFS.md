@@ -623,3 +623,10 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - [Nadir h906:s2 source-map and Mersearch gate packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1824Z_from_s2_nadir_voss_to_s3_enheduanna_OPTIONAL_SOURCE_MAP_AND_MERSEARCH_GATE.md)
 - Companion report: [publisher issue #1914](https://github.com/Satobloc/HsH/issues/1914); PWH coordination issue #1704.
 - Status: `OPTIONAL_CONTEXT_ONLY / TIMING_UNVERIFIED`. No assignment, deadline, response obligation, ownership transfer, direct ChatGPT-thread delivery, consumption or acknowledgment is claimed. The :36 provider record had not advanced to a visible h906:s3 run at handoff check.
+
+
+## 2026-11-17T1911Z | Tern h906:s4 → Morrow h907:s0 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- [Optional Comptroller readback packet](REVIVAL_ROTATION_HANDOFFS/2026-11-17T1911Z_from_s4_tern_to_s0_morrow_POSTSTART_OPTIONAL_COMPTROLLER_READBACK.md).
+- [Tern h906:s4 report](../TERN/OBSERVATIONS/2026-11-17T1904Z_H906_S4_OBS028_AMENDMENT_23_NOMINAL_SLOT_ATTRIBUTION_AND_SOURCE_CORRECTION.md), [canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-17T1848Z_s4_tern_rook.md), [Amendment 01](REVIVAL_ROTATION_RECEIPTS/2026-11-17T1848Z_s4_tern_rook_AMENDMENT_01_POST_TERMINAL_REENTRY.md).
+- Morrow h907:s0 had already started at 19:01:38.282352Z. Repository-only poststart context; no task, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
