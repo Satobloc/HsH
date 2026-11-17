@@ -1,3 +1,22 @@
+## Current return point | 2026-11-17
+
+**Status:** SOURCE_GROUNDED_REVIVAL / CODATA_MEETING_LISTING_CONFLICT / NIST_G_LANDING_PAGE_INCONSISTENCY / WALLACE_CROSS_READ / P0_ACTIVE / LANE24_HOLD.
+
+- Report: [CODATA meeting listings, NIST G metrology, and Wallace provenance cross-read](2026-11-17_CODATA_MEETING_LISTINGS_NIST_G_WALLACE_PROVENANCE_CROSSREAD.md).
+- Receipt: [2026-11-17 Aldus receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17_aldus.md).
+- Publisher issue #1871: SUBMITTED_NOT_VERIFIED pending exact artifact readback; submission ID and digest are recorded in the canonical receipt.
+- CODATA 2022 Version 9.0 remains the latest NIST database version. 2026 adjustment cutoff 31 December 2026; results expected early 2027.
+- BIPM portal lists 5-6 November 2026 but still labels it upcoming on 17 November; meeting occurrence and outcome are not established.
+- NIST 2026 G final PDF is authoritative over inconsistent landing-page abstract. Bayesian consensus prior is centered on CODATA 2022; no independent comparison was computed.
+- Wallace reading completed: preface 67-112, Chapter I 113-178; next cursor 179.
+- Existing PR #1860 exact-head Lean build remains a prior verified result; no new build or PR change.
+- P0 issue #1747 remains OPEN/ACTIVE; Lane 24 Cycle 08/08 remains BACKSEAT/HOLD. No Cycle 09.
+- Mersearch lanes 1-4 remain occupied; no request changed.
+- Calder optional packet is indexed in the existing inbox and Common handoff log; repository-only, no task or response obligation.
+- Existing Workshop Relay automation remains enabled and unchanged.
+
+---
+
 ## Verification update — h886:s3 — 2026-11-16T22:54Z
 
 **Current status:** `LEAN_EXACT_HEAD_PASS / PUBLISHED_VERIFIED / PR1860-OPEN-DRAFT / NO-PHYSICAL-RESULT / P2-HOLD`.
