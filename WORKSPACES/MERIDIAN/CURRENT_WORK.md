@@ -9,7 +9,7 @@ This is a one-run execution of the supplied Lane Charter 36. The standing Meridi
 - Publisher: [issue #1907](https://github.com/Satobloc/HsH/issues/1907), PUBLISHED_VERIFIED.
 - Reproducible script: [audit_h869_tang2023_radius_sensitivity.py](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/audit_h869_tang2023_radius_sensitivity.py)
 - Results: [h903_tang2023_radius_sensitivity_output.json](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/h903_tang2023_radius_sensitivity_output.json)
-- Receipt: [h903:s3 canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1536Z_s3_meridian.md); [publisher amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1536Z_s3_meridian_AMENDMENT_01_PUBLISHER_READBACK.md).
+- Receipt: [h903:s3 canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1536Z_s3_meridian.md); [publisher amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1536Z_s3_meridian_AMENDMENT_01_PUBLISHER_READBACK.md). [continuity/scheduler amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1536Z_s3_meridian_AMENDMENT_02_CONTINUITY_AND_SCHEDULER_READBACK.md).
 - P2 remains HOLD. No H(s)H forward map, physical prediction, full covariance or numerical falsification threshold was established.
 - Optional post-start context for Mercer is indexed in Common HANDOFFS; no task or response obligation was created.
 
