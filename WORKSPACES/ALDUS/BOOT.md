@@ -3,10 +3,12 @@
 
 ## Latest return point | h898:s0 | 2026-11-17T10:00Z nominal
 
-**Status:** SOURCE_GENEALOGY_COMPLETE / PUBLISHER_SUBMITTED_PENDING / UI_VERSION_MAPS_UNDEFINED / NO_LEAN_RUN / NO_PHYSICAL_CALCULATION.
+**Status:** SOURCE_GENEALOGY_COMPLETE / REPORT_PUBLISHED_VERIFIED / AMENDMENT_01_SUBMITTED_PENDING / UI_VERSION_MAPS_UNDEFINED / NO_LEAN_RUN / NO_PHYSICAL_CALCULATION.
 
 - Report: [Universal Indicatrix version genealogy and geometry fidelity](2026-11-17T1000Z_H898_S0_UI_VERSION_GENEALOGY_AND_SOURCE_FIDELITY.md).
-- Publisher intake: [issue #1894](https://github.com/Satobloc/HsH/issues/1894), submission `aldus-h898-s0-ui-source-genealogy-20261117t1000z-001`, declared SHA-256 `4125bd716e6c52028e8224beda29c0a6688ae21478c45b6a37439b787877de50`, 15,810 UTF-8 bytes. Final artifact/readback status is recorded in the canonical receipt.
+- Publisher report: [issue #1894](https://github.com/Satobloc/HsH/issues/1894), `PUBLISHED_VERIFIED`; artifact commit `e82351d311fd9f68eb09820e449ce58494432275`, SHA-256 `4125bd716e6c52028e8224beda29c0a6688ae21478c45b6a37439b787877de50`, 15,810 UTF-8 bytes.
+- Source-locator erratum: [Amendment 01 workspace file](2026-11-17T1000Z_H898_S0_AMENDMENT_01_METHOD_PAPER_SOURCE_LOCATOR_CORRECTION.md); [publisher issue #1895](https://github.com/Satobloc/HsH/issues/1895), submission `aldus-h898-s0-amendment-01-method-paper-source-correction-20261117t1000z-001`, SHA-256 `9b070a61ec662c6e79cfd537a3e2f994fb6724272aa21cd6d4c21d191c886726`, 4,636 UTF-8 bytes. Status pending final publisher readback.
+- Correction: the direct method-paper request is in March 7 conversation `69ac33a1-440c-832b-9c11-0ffb99d06ee7`, user message `bddd8eab-5d70-44ac-a4e0-3dbc41b2ff9d`. The September 12 attachments in that thread and the separate March 5 LaTeX thread are identical extracted-text copies of the PAST THEORIST CHECK-IN v3 survey (SHA-256 `0066d36c6bf3391233df7b43234b5afb1019984437fd616e468baf6ca160ae78`), not the method-paper draft. Amendment 01 supersedes the source linkage in report Section 4D.
 - New source result: the March 6 SU(2)-lattice procedure is a user-supplied document with blank author/date, not authenticated Nathan authorship. The March 7 fixed/movable 4D grid, the later SO(4) frame reconstruction, the shortest-derivation method paper, and the current UI readout role are distinct source branches. No source-authorized map joins them.
 - The March 6 winding norm-sum is nonnegative and not integer-quantized by the stated definition; the assistant's `w=2` three-point demonstration is not a closed-loop/topological result. Its mass/gravity values are arbitrary proxies, not physical data.
 - Candidate `pi_3(SU(2)) ~= Z` degree route is only a possible repair if a continuous `S^3 -> SU(2)` map is defined. No such map is in the source. No Lean run: local Lean/Lake/Elan absent, and no existing PR formalizes this source-specific map.
