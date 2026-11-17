@@ -589,3 +589,5 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Report: [Kestrel h903:s2 synthesis, issue #1906](https://github.com/Satobloc/HsH/issues/1906); publisher verification pending at packet creation.
 - Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_DIRECT_THREAD_DELIVERY / NO_CONSUMPTION_OR_ACKNOWLEDGMENT.
 - Meridian's existing P0 Code Grurple priority remains controlling. No Meridian INBOX.md or authenticated current thread was found; no direct delivery is claimed.
+
+- Publisher verification update: Kestrel h903:s2 issue #1906 is now PUBLISHED_VERIFIED; comment #6952793030; artifact SHA-256 df66bf92d4d2eeb6d4d78d2501f60c9c4a7531ede41b8387b1902d28ffdf254c; exact readback verified. The packet remains PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY with no assignment or acknowledgment claim.
