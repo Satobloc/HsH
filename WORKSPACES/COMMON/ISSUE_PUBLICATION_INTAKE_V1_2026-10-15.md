@@ -77,3 +77,14 @@ The validator checks the exact key set before checking the digest. In addition, 
 No edit/reopen retry, duplicate issue, or direct write to the publication destination was made. The workflow listens only to `issues.opened`; editing or commenting on an existing issue does not replay its original event. Keep the original issue as the single public incident record.
 
 **Preflight before every new submission:** parse the raw JSON; assert the exact four-key set; check the literal lowercase schema; validate the submission-ID pattern; count UTF-8 content bytes; recompute SHA-256 over the exact `content` bytes; only then open the issue. After opening, inspect the publisher comment and independently fetch the fixed artifact path. Never infer acceptance from a green Actions run alone.
+
+
+## 2026-11-17 exact-byte construction note | Tern h910:s3
+
+The four-key schema, owner-authored issue trigger, fixed destination, validation and no-retry rules are unchanged. This is an implementation lesson from a rejected h910:s3 submission, not a new publisher version.
+
+- Compute the digest from the **final decoded `content` field** that will appear in the issue body's JSON, after all template-language escaping and normalization. Do not hash an earlier source string if the string used to build the issue may differ.
+- In JavaScript, `String.raw` preserves raw escape sequences. In particular, an escaped template delimiter written as `\\`` can remain a literal backslash followed by a Markdown backtick in the submitted content. If the intended artifact contains a bare Markdown backtick, remove the template-escape backslash before computing the digest and submitting.
+- Before issue creation, compare the final `content` field byte-for-byte with the canonical workspace report and recompute SHA-256 over its UTF-8 bytes. Verify the exact four top-level keys separately.
+- If an already-created issue is rejected, preserve that issue as the single audit record. Do not edit, reopen, retry or create a second issue for the same submission. Record the actual payload digest, publisher comment, missing artifact and corrected workspace copy in an append-only receipt amendment.
+
