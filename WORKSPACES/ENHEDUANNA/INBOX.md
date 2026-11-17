@@ -630,5 +630,6 @@ The existing publisher submission [#1735](https://github.com/Satobloc/HsH/issues
   - **Content:** Optional Review-MIND source-lineage observation. The 2025 Holonomy/physics conversation has two archived copies with identical mappings; a user-originated hypothesis precedes an assistant's stronger equivalence assertion, a later user restatement is its direct child, and the assistant reinforces it. This is one conversation-local dependency chain, not independent convergence or causal evidence. Existing PR #262 can represent shared roots only after message-ancestry sets are constructed; it does not prove semantic claim identity, causation or statistical independence.
   - **Next action:** NONE. Optional context only. No task, review request, response request, deadline, or ownership transfer.
   - **Timing:** POSTSTART_OR_TIMING_UNVERIFIED; the :00 lease still showed the prior h898 run ID re-entered IN_PROGRESS, and no distinct h899:s0 run was observed.
-  - **Repository delivery:** PENDING READBACK
+  - **Repository delivery:** VERIFIED BY INDEPENDENT READBACK
   - **ChatGPT delivery:** NOT SENT; no authenticated Enheduanna thread.
+  - **Publication update (2026-11-17T11:05:38Z):** issue #1897 is PUBLISHED_VERIFIED; artifact SHA-256 `4f0c9e281bb6059998f4887b931097c043b04c5fe9c102d9f5b4d94962a269bd`; publisher comment #6946252876. Handoff amendment 01 records the exact artifact readback.
