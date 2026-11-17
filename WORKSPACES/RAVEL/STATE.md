@@ -1,12 +1,32 @@
+# Current Ravel state: h904:s0 | 2026-11-17
+
+**Status:** RAW-SOURCE REPARSE COMPLETE / SPRING-IS-A-DERIVED-REPRESENTATION CORRECTION RECOVERED / PASTED ASSISTANT TEXT EXCLUDED FROM NATHAN DIRECT / 4D-TO-SPRING MAP UNDEFINED / ISSUE #1908 SUBMITTED_NOT_VERIFIED / NO PHYSICAL RESULT.
+
+- Latest report: [h904:s0 spring-as-derived-representation source-fidelity audit](2026-11-17T1600Z_H904_S0_SPRING_AS_DERIVED_4D_REPRESENTATION_SOURCE_FIDELITY.md).
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1600Z_s0_ravel.md; exact readback verified after correcting the issue reference to #1908.
+- Public intake: [issue #1908](https://github.com/Satobloc/HsH/issues/1908), publisher run #44123751499 IN_PROGRESS at last observation; no artifact or readback yet.
+- Full Ravel raw export: conversation 6a9d1a23-4fac-83ea-b76f-6805ece3ee9f, SHA-256 b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba, HsH blob 17cfe3feb830f70009557d063482b35adba0834b. Direct source says the spring is a representation of 4D oscillation, not the construction base. User-role pasted GR/QM-isomorphism text was excluded from Nathan Direct.
+- SAT-O1 and Blockwave originals read; original SHA/date custody preserved; no corrected equations.
+- PR #1133 remains open/draft/unmerged; merge-reference root build failed in MovingPlaneTraceGeometry. PR #1848 has a separate exact-head success, but the noncomputable fix exists only on that PR head. The current infra base file lacks the noncomputable section (blob 9a266991672f2b2d1c9de04f5ddf3f5da6f5e189); PR #1848 head has it (blob 0a60139722090b2f57d5969b000b6b3262b11215). The fix is not integrated into the infra base or PR #1133.
+- No new Lean theorem; source-authorized 4D-to-spring projection remains undefined. Existing abstract #eval fixture not rerun; no prior-permission record recovered.
+- All four Mersearch lanes remain occupied/requested; all twelve request-scoped manifest/receipt paths returned 404. No Mersearch run, lane overwrite or retrigger. HSH_RESOURCES limited to root README.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. No paper gate advanced.
+- Unrelated reading: Babbage, Reflections on the Decline of Science in England, lines 931–990; next cursor 991.
+- Deterministic successor Orson Vay; :12 remains disabled, so no handoff. Next enabled :24 phase selects Sable. No task, ID, schedule, prompt, phase, enabled-state or cadence mutation; no sixth task.
+
+**Return pin:** H904:S0 / RAVEL / SPRING_AS_REPRESENTATION / PASTED_ASSISTANT_TEXT_EXCLUDED / 4D_PROJECTION_UNDEFINED / PR1133_ROOT_FAIL_MERGE_REF / PR1848_FIX_BRANCH_LOCAL / ISSUE1908_PENDING / P0_ACTIVE / P1_ORSON_PROTECTED / P2_HOLD / P3_INCOMPLETE / FIE_NOV24 / NO_PHYSICAL_RESULT / TASKS_UNCHANGED.
+
+---
+
 # Current Ravel state: h896:s2 | 2026-11-17
 
-**Status:** TEN RAVEL MODULES BUILT ON MERGE REF / ROOT BUILD FAILED IN SHARED DEPENDENCY / CURRENT INFRA BASE CONTAINS NONCOMPUTABLE FIX / PR #1133 14 BEHIND / NO EXACT-HEAD INTEGRATED BUILD / SOURCE-TYPED COHESION AUDIT COMPLETE / P0 ACTIVE / LANE 24 HOLD / NO PHYSICAL RESULT.
+**Status:** TEN RAVEL MODULES BUILT ON MERGE REF / ROOT BUILD FAILED IN SHARED DEPENDENCY / NONCOMPUTABLE FIX EXISTS ONLY ON SEPARATE PR #1848 HEAD / INFRA BASE STILL LACKS FIX / PR #1133 14 BEHIND / NO EXACT-HEAD INTEGRATED BUILD / SOURCE-TYPED COHESION AUDIT COMPLETE / P0 ACTIVE / LANE 24 HOLD / NO PHYSICAL RESULT.
 
 - Latest report: [h896:s2 source-typed module cohesion and Lean coverage audit](2026-11-17T0824Z_H896_S2_SOURCE_TYPED_MODULE_COHESION_AND_LEAN_COVERAGE_AUDIT.md); blob `23475e8a45cbd0baf43ada7e59b234ea98d5c05b`.
 - Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0824Z_s2_ravel.md; exact readback passed.
 - Publisher issue #1888: PUBLISHED_VERIFIED; PR #1133 status comment #6943254141 posted and independently read back (no approval, branch update, or merge).
 - PR #1133 head `48c3d3489dfd705c814663a273385a2184654599`, current infrastructure base `368f9af8d95d061b4581688759ed3eda309e9886`, 68 ahead / 14 behind. Existing merge-reference run #43849175548 built all ten Ravel modules, then failed in shared MovingPlaneTraceGeometry. The current base contains the noncomputable fix; Ravel branch is not rebased and no exact-head integrated build exists.
-- PR #1848 exact-head run #43932813392 is a separate successful build; its aggregator does not import Ravel modules. Do not treat it as Ravel integration.
+- PR #1848 exact-head run #43932813392 is a separate successful build; its aggregator does not import Ravel modules. Direct file comparison confirms the noncomputable fix exists on the PR #1848 head only, not on the infra base or PR #1133. Do not treat it as Ravel integration.
 - Ten modules remain conditional components. The source/typing audit distinguishes direct user source, assistant reconstruction, historical source, standard mathematics, and independent measurement. Six interoperability maps remain unspecified; no physical equivalence or equation correction.
 - P0 remains ACTIVE; no live route observation or standdown. Lane 24 Cycle 08/08 COMPLETE / BACKSEAT / HOLD. All four Mersearch request lanes remain occupied/requested.
 - No new Lean build, physical calculation, CODATA comparison, P2 selection, fit, prediction, independent measurement, paper-gate advancement, or theory promotion. No local Lean/Lake/Elan or repository checkout.
