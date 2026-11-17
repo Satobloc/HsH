@@ -941,3 +941,10 @@ The h884:s2 report and canonical receipt are linked above. This activation added
 - Earlier Kestrel h899:s3 run 4a3393ac-9624-832a-b7cd-a977ab8e899c was observed FAILED, then re-entered IN_PROGRESS under the same run ID at 12:55:37.836206Z with completion reset. Cause/attempt semantics UNKNOWN.
 - Optional prestart repository-only context for Meridian h903:s3 is indexed in COMMON/HANDOFFS. Meridian INBOX.md and an authenticated current thread were not found. No task, response obligation, ownership transfer, direct delivery, consumption, or acknowledgment.
 - No new Lean module, branch, PR, tool, dependency, subscription, physical model, theory promotion, task, signet, or conversation rename.
+
+
+### H903:S2 publication readback amendment | 2026-11-17T15:38Z
+
+- The earlier checkpoint correctly recorded issue #1906 as SUBMITTED_NOT_VERIFIED while publisher run #44116385360 was still running.
+- Final publisher result: PUBLISHED_VERIFIED. Confirmation comment #6952793030; artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-h903-s2-ui-generator-translator-readout-20261117t1524z-001.md`; SHA-256 `df66bf92d4d2eeb6d4d78d2501f60c9c4a7531ede41b8387b1902d28ffdf254c`; 14,241 UTF-8 bytes; exact readback verified. Publisher commit `00bffe773ac26d6eeb4ecd70e785562c877f3150`.
+- No retry, duplicate issue, or alternate artifact was created. This amendment supersedes only the pending status, not the historical observation.
