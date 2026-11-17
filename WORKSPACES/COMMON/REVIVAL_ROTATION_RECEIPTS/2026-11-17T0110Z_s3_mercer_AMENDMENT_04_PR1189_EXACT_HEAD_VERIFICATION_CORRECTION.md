@@ -49,3 +49,11 @@ No raw Figshare package, acquisition/calibration lineage or paired covariance wa
 P0 remains ACTIVE with no new route-reentry trigger; no route probe or site/PDF/manuscript edit. P1 Orson cognition remains OVERDUE / NOT READY; P3 incomplete; FIE next review November 24. WH-05 remains blocked by four occupied/requested Mersearch lanes; WH-02 remains Calder-owned/highest unblocked. Task graph remains 18 records / 16 declared branches; Tern retains authority.
 
 **Return pin:** H888:S3 / MERCER / RAVEL-NEXT / PR1189-CURRENT-HEAD-EXACT-LEAN-PASS-8961 / AMENDMENT-04-ISSUE1867-COMMENT-6934649549-READBACK / RAVEL-H888-S4-ISSUE1868-PUBLISHED / ORIGINAL-PACKET-READ-ONLY / AMENDMENTS-03-04-CONSUMPTION-UNCLAIMED / SAME-RUN-ID-START-TIME-DISCREPANCY-CORROBORATED / CURRENT-36-IN_PROGRESS / FOUR-TASKS-UNCHANGED / NO-SIXTH-TASK / NO-PHYSICAL-RESULT / P2-HOLD.
+
+## 5. Final repository and scheduler readback
+
+- Final observed HsH main head after the additive records: 0d72e0561fb8f30c7aacd607a5aa534200d12600.
+- :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original schedule DTSTART;TZID=America/New_York:20261001T143600 / RRULE:FREQ=HOURLY.
+- Final :36 peek: run ID ca85b3d5-659c-8327-bf31-d0a3a5f962d6, scheduled 00:36Z, IN_PROGRESS, started 00:58:26.659996Z, completed_at null, chat_ref null; cached latest_result remains h887:s3.
+- Final :48 peek: run 13603de6-e3a8-8324-a022-ded4ea84921b completed 01:07:00.414174Z, with a task-run chat_ref. Its public issue #1868 is PUBLISHED_VERIFIED. No direct cross-thread delivery or consumption of the later Mercer amendments is claimed.
+- The four existing relay IDs remain enabled; :12 remains disabled. No sixth task, replacement, task/ID/schedule/phase/cadence change or automation mutation.
