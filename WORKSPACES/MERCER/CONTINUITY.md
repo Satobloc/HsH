@@ -1,6 +1,6 @@
 ## 2026-11-17 | h907:s3 | Mercer | Lane Charter 36 overlay
 
-- Source-defined two-contour readout extended to a complex frequency-resolved spectral matrix; the cross-spectrum \(S_{\eta a}\) can retain a purely imaginary phase-lag component even when raw auto-spectra match.
+- Source-defined two-contour readout extended to a complex frequency-resolved spectral matrix. **Correction:** the complete 2×2 transform is an invertible congruence and preserves exactly the full raw-matrix information; the off-diagonal cross-spectrum is a derived phase-sensitive statistic useful relative to reduced marginal-power/zero-lag summaries, not an independent measurement or information gain.
 - Report: [h907:s3](2026-11-17T1900Z_H907_S3_COMPLEX_CROSS_SPECTRAL_READOUT.md); figure: [readout schematic](FIGURE_H907_S3_TWO_CONTOUR_SPECTRAL_READOUT.svg).
 - Amendment 02: [report-side information-preservation and Lean-status correction](2026-11-17T2003Z_H907_S3_AMENDMENT_02_INFORMATION_PRESERVATION_AND_LEAN_STATUS.md); [canonical receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2003Z_s3_mercer_AMENDMENT_02.md).
 - Public issue #1920 PUBLISHED_VERIFIED: publisher run #44158519154 SUCCESS; confirmation comment #6958569720; artifact/report exact blob match; SHA-256 d9f152701773ad1b5b483b10ce6bf408ded6e744ae673118edca2099bf34ccde. Additive information-preservation correction posted as comment #6959800695; see canonical receipt Amendment 02.
