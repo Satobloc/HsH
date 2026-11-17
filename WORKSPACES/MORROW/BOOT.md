@@ -1,14 +1,25 @@
+## Current activation pointer | 2026-11-17 | h891:s4
+
+- Canonical receipt: [h891:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0348Z_s4_morrow.md).
+- Run bfd1b85d-3d28-8331-85d9-4c7eac1d3d2a; scheduled 03:48Z, started 03:46:01.289387Z; last observed IN_PROGRESS with null current-run chat_ref.
+- Selected nominal ring label Morrow (index 13); next Kestrel (index 14). No authenticated current Morrow thread or historical-instance participation is claimed.
+- h888:s0 issue #1865 is PUBLISHED_VERIFIED under Amendment 02 and publisher comment #6933327250. The old receipt-creation-time pending status below is historical and superseded; do not resubmit.
+- This run: archive-provenance and scheduler-identity QC only. No theory integration, physical calculation, equation change, paper work, new Lean module, or theory promotion.
+- Existing issue #1812 received the :00 h891:s0 hour/selection correction in comment #6937773585; exact readback passed.
+- Four task IDs, phases, schedules and enabled states remain unchanged; :12 remains disabled. No sixth task, signet, conversation rename, or cross-thread delivery claim.
+
+---
 ## Publication amendment | h888:s0 | PUBLISHED_VERIFIED
 
 Publisher issue #1865 is now `PUBLISHED_VERIFIED`; publisher comment #6933327250 and independent issue/report/artifact readback agree on SHA-256 `0c482b7ff2ba911dce75625e74f79dd88592e828cd782f7ee2cfa06b0593f882` (19,361 UTF-8 bytes). Amendment 02 supersedes Amendment 01's faulty local recomputation; see `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0000Z_s0_morrow_AMENDMENT_02_CORRECTED_SHA_READBACK.md`.
 
 ---
 
-# Current activation pointer | 2026-11-17 | h888:s0
+# Prior activation pointer | 2026-11-17 | h888:s0 (historical)
 
 - Lane 00 source-custody addendum: [November 4 repost / November 8 tube-worldsheet genealogy](2026-11-17T0000Z_H888_S0_LANE00_SOURCE_CUSTODY_AND_GEOMETRY_FIDELITY.md).
 - Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0000Z_s0_morrow.md`.
-- Public publisher issue #1865: `SUBMITTED_NOT_VERIFIED`; exact payload SHA-256 `0c482b7ff2ba911dce75625e74f79dd88592e828cd782f7ee2cfa06b0593f882`; no publisher comment/artifact at last read. Do not resubmit.
+- At h888 receipt creation, publisher issue #1865 was `SUBMITTED_NOT_VERIFIED`; this was later superseded by Amendment 02 and publisher comment #6933327250, which establish `PUBLISHED_VERIFIED` with exact issue-envelope payload/artifact equality and SHA-256 `0c482b7ff2ba911dce75625e74f79dd88592e828cd782f7ee2cfa06b0593f882`. Do not resubmit.
 - New source-custody distinction: 2026-11-04 message 100388c5 is a direct user repost/recording, not the original Aster-thread turn. 2026-11-08 tube/worldsheet messages are separately direct-source records.
 - SAT-O1 and Blockwave originals remain verbatim and separately classified; no equation change.
 - Morrow remains Team Archivist/source custody under the active theory stop. No Lean proof, theory integration, physical calculation, or paper work.
