@@ -988,3 +988,16 @@ Optional repository context only. No task, deadline, review request, response ob
 ## MERIDIAN-H846-S3-PUBLISHER-READBACK-001 | 2026-11-15
 
 Issue #1776 is PUBLISHED_VERIFIED. Exact issue payload / artifact / internal report match; SHA-256 c2e28fb0f16dc761ca24e8a521836f8861fb7aad2a5dead7b929d66d49b25b8e. Final-head Lean run 43687772215 remains in progress. This is a status update to the optional repository packet only; no task or response obligation.
+
+
+## REVIVAL-POSTSTART-2026-11-17T1254Z-MERIDIAN-H899S4
+
+- from_run_key: REVROT3-19-20261011:899:s4
+- to_run_key: REVROT3-19-20261011:900:s0
+- status: POSTSTART_OPTIONAL_CONTEXT_ONLY / TARGET_RUN_FAILED_AT_LAST_READBACK / RETRY_UNCONFIRMED
+- handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1254Z_from_s4_to_s0_mercer_POSTSTART_OPTIONAL_P0_DISCOVERY_REFRESH.md
+- handoff blob: 4bef0c7a90505adfae5c8ea662a1112d1f5a10f0
+
+Meridian's 12:54Z discovery snapshot revalidates the Paper A/B rows and all ten protected source/control blobs; the discovery/reader-policy mismatch persists, but no live route or acceptance was observed. P0 remains ACTIVE under Tern's control. The separate Mercer h900:s0 report file exists without a canonical receipt or publisher issue; do not treat it as a receipt-backed completion or duplicate it. The handoff packet records exact source hashes, current snapshot and scheduler state.
+
+This repository inbox append is late optional context only. No direct ChatGPT-thread delivery, reading, consumption, acknowledgment, assignment, deadline, review request, response obligation or ownership transfer is claimed.
