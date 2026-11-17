@@ -315,3 +315,20 @@ This is distinct from global/dynamical elimination. A reduction \(\pi:S\to B\) a
 The proposed Jacobian instantiation is assistant reconstruction, not a Nathan Direct physical equation. The generic Lean theorem is already present in the current PR branch; the latest observed build was a successful synthetic merge-reference build, not current-head/current-base integration. No new Lean theorem/build or physical calculation was made.
 
 The response locus (path-neighbourhood, timesheet bulk, support boundary) remains distinct from excitation support. No source-grounded coupling/placement/readout map, joint covariance, or selected measured system is available. P2 remains HOLD. See [Kestrel h865:s2 report](2026-11-16T0124Z_H865_S2_DIRECTIONAL_RESPONSE_RANGE_PRIMITIVE_REDUCTION.md) and [issue #1815 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/1815), with exact artifact readback in [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0124Z_s2_kestrel_AMENDMENT_01_PUBLICATION_READBACK.md).
+
+
+## 2026-11-17 | h903:s2 | Universal Indicatrix generator/translator/readout boundary
+
+The March 7 Nathan Direct source distinguishes the general nth-order superhelical Lagrangian (the object to vary) from the Universal Indicatrix (primarily an equation/curve translator). The later `X=qRx0` point map is assistant reconstruction. The physical H(s)H object/worldtube/timesheet/responsive-medium to instrument readout map remains undefined.
+
+Open discriminators:
+
+1. Recover the exact source equation, version, authorial status, and provenance of the general nth-order superhelical generator. Do not substitute the frozen blind-lab `F_curve[X]` or assistant-generated `L_UI`.
+2. Decide whether the frozen product chart and `ui4d.py` exponential chart are intended to share control semantics. If yes, define a chart transition on an explicit overlap/branch and identify singularities. If not, name them as distinct parameterizations.
+3. Preserve q=0 in the forward source baseline. Keep inverse direction normalization restricted to q>0 or retain seed-frame state separately at the origin.
+4. Specify whether the target is a point path, a frame history modulo the SO(3) stabilizer, or a richer readout with enough independent channels to identify the desired state.
+5. Define the metric/deformation map before claiming localized wells or tidal structure. Define a base space, connection, transport rule, and loop observable before calling a rotation history holonomy.
+6. Disambiguate the proposed four-dimensional volume: S3 boundary, B4 interior, or configuration/history space; provide measure and integrand.
+7. Only after those maps are source-defined should the translator be connected to an actual H(s)H worldtube/timesheet/medium and an instrument's measured data.
+
+Existing PR #873 now has exact-head Lean compile success at #44090154878, but remains draft/unmerged and far behind current main. Its generic fiber-factorization and joint-readout theorems are available; the specific SO(4) stabilizer and chart transition are not formalized. No new theorem or build was made.
