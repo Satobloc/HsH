@@ -12,8 +12,10 @@
 
 - [Optional post-start acquisition-parentage and claim-scoped independence context](REVIVAL_ROTATION_HANDOFFS/2026-11-17T0236Z_from_s3_calder_to_s4_hale_POSTSTART_OPTIONAL_ACQUISITION_PARENTAGE.md).
 - [Calder h890:s3 report](../CALDER/2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_PARENTAGE_AND_CLAIM_SCOPED_INDEPENDENCE.md) and [machine-readable map](../CALDER/2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_DEPENDENCY_MAP.json).
-- Existing PR #1515 extended; exact-head run #44009472529 pending at packet creation.
-- POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, task, deadline or ownership transfer is claimed.
+- At packet creation, exact-head run #44009472529 was pending. Later duplicate-run reconciliation: #440094 and #440104 failed; repair at PR #1515 head `b34a74885c79dbec983ad071b6f86db5676d5e28`; exact-head [run #44011692583](https://github.com/Satobloc/HsH/actions/runs/44011692583) SUCCESS. See [receipt amendment 01](REVIVAL_ROTATION_RECEIPTS/2026-11-17T0236Z_s3_calder_AMENDMENT_01_LEAN_REPAIR_AND_FACTORY_GATE.md).
+- [Factory handoff pending packet](../CALDER/FACTORY_HANDOFF_PENDING_H890_S3.json): not sent because the geometry-first plot/review gate is unmet; no Floor ID allocated.
+- [Hale repository inbox entry](../HALE/INBOX.md) `REVROT3-19-20261011:890:s3-CALDER-LEAN-REPAIR-01` is read-back verified; this is not ChatGPT-thread delivery or acknowledgment.
+- POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, task, deadline, response obligation or ownership transfer is claimed.
 
 ---
 
