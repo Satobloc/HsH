@@ -35,3 +35,14 @@ No new Lean theorem, numerical calculation, physical result, or theory promotion
 The four enabled relay leases overlap in execution time, and the :00 h904 run started before its nominal minute. Run labels, provider run IDs, cached results, chat references, and named-worker identity are separate evidence objects. No cross-worker consensus or direct message is inferred from shared repository sources.
 
 Use this packet only as optional context if it is useful to Ravel's existing work. Preserve Ravel's specialist scope and the existing task/scheduler configuration.
+
+## Addendum 01 — later scheduler observation (16:06Z)
+
+The same :36 h903 provider run ID 54e1ca21-bbd0-832e-964d-c9e39afd9fbb was observed first with started_at 15:38:17.771222Z and later with started_at 16:05:59.208763Z, both IN_PROGRESS with no completion and null chat_ref. No intervening terminal state or new run ID was exposed.
+
+At the later peek, :00 h904 Ravel, :36 h903 Nadir and :48 h903 Mercer were simultaneously IN_PROGRESS, all with null chat_ref. The :48 and :00 h904 intervals overlapped for at least 10m57.09s. This is scheduler-record evidence only; cause, provider attempt semantics, named-worker identity, direct communication and independent consensus remain unknown.
+
+Existing scheduler issue #1812 records the observation at comment #6953546595:
+https://github.com/Satobloc/HsH/issues/1812#issuecomment-6953546595
+
+This addendum creates no task, assignment, deadline, response obligation, ownership transfer or direct-thread delivery claim.
