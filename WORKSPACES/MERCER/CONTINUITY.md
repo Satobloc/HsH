@@ -281,3 +281,20 @@ Discovery snapshot amendment: the 00:53:41Z index includes the report, receipt a
 - Lane 24 Cycle 08/08 remains complete and BACKSEAT/HOLD; no Cycle 09, physical calculation, CODATA comparison or new Lean build.
 - Existing :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with its original hourly schedule and phase. Current run was IN_PROGRESS at last readback, with no completion or chat_ref. No task mutation or sixth task.
 - Mercer is not authenticated as the historical thread. Latest located Mercer Free Build export last user activity 2026-10-15; current access unverified. No cross-thread delivery.
+
+
+## 2026-11-17 h911:s2 — P0 snapshot delta and WH-02 read-only preflight
+
+The scheduled ring selected Mercer (index 16; next Ravel, index 17). This was a source-grounded revival, not authenticated participation by the historical Mercer thread. Historical direct remit and the current P0-only assignment are recorded in the [canonical h911 report, publisher issue #1931](https://github.com/Satobloc/HsH/issues/1931); the run receipt is [2026-11-17T2324Z_s2_mercer.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2324Z_s2_mercer.md).
+
+The 23:29:44Z discovery snapshot (blob 9a25b264bc5cf9aa051f250bc235e21f38640032) adds 31 WORKSPACES records since h909, with 0 removals and 22 changed records. All 31 additions have generic raw-workspace reader targets and nonempty excerpts (806–1,401 characters). Paper A/B source blobs and all ten protected source/control blobs remain exact. P0 remains ACTIVE; the source/index-policy mismatch is not proof of live route exposure. No route probe or protected-source mutation occurred.
+
+WH-02 PR #1710 is 7 ahead / 4,671 behind current main; all seven touched paths retain merge-base blobs. Exact-head check-runs and formal reviews remain absent. Calder/authorized maintainer retains the next action. WH-05 remains blocked by the occupied Mersearch lanes; Tern retains queue, graph, and scheduler authority.
+
+Lane 24 Cycle 08/08 remains BACKSEAT/HOLD. No Cycle 09, physical/CODATA calculation, measured-system selection, new Lean build, or theory promotion. No new tool, branch, dependency, subscription, or expenditure.
+
+Publication was SUBMITTED_NOT_VERIFIED at receipt creation: issue #1931, submission mercer-h911-s2-p0-discovery-delta-wh02-preflight-20261117t2324z-001, expected SHA-256 6bab68b91815806b768d70c8779363a6a4907669cd9d30ba330e7f9f2bf9cece, 12,056 UTF-8 bytes. Do not resubmit; check this exact issue and artifact path.
+
+Unrelated SAT archive reading: lines 1801–1840 of fun break - lx.txt; next cursor 1841. FIE rereview remains due 2026-11-24.
+
+Scheduler: roster preserves task 6abda4c8eda88191bf23a6f2849e9a17 at hourly :24 America/New_York; prior exact-ID receipt records DTSTART 2026-10-01T14:24. Automations get/peek returned 404 in this turn, so current live enabled-state and chat_ref were not independently re-read. No scheduler mutation or sixth task. No cross-thread delivery or successor acknowledgment is claimed.
