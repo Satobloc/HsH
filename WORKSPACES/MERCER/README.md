@@ -1,15 +1,16 @@
 ## Latest :36 Worldtube relay | h907:s3 | 2026-11-17
 
-**Disposition:** source-defined complex cross-spectral readout published and read back (PUBLISHED_VERIFIED); formal Lean extension remains LEAN_NOT_VERIFIED. This is a one-run Lane Charter 36 overlay, not a permanent role reassignment. The standing Code Grurple P0 Paper A/B presentation-QA assignment remains unchanged.
+**Disposition:** source-defined complex cross-spectral readout published and read back (PUBLISHED_VERIFIED), with an additive information-preservation correction. Formal Lean extension remains LEAN_NOT_VERIFIED. This is a one-run Lane Charter 36 overlay, not a permanent role reassignment. The standing Code Grurple P0 Paper A/B presentation-QA assignment remains unchanged.
 
 - **Report:** [Mercer h907:s3 complex cross-spectral readout](2026-11-17T1900Z_H907_S3_COMPLEX_CROSS_SPECTRAL_READOUT.md)
+- **Amendment 02:** [information-preservation and Lean-status correction](2026-11-17T2003Z_H907_S3_AMENDMENT_02_INFORMATION_PRESERVATION_AND_LEAN_STATUS.md). The complete 2×2 spectral transform is invertible and preserves the full raw-matrix information; the off-diagonal cross-spectrum is a derived phase-sensitive statistic, not an independent measurement or information gain.
 - **Figure:** [two-contour readout schematic](FIGURE_H907_S3_TWO_CONTOUR_SPECTRAL_READOUT.svg)
-- **Public issue:** [#1920](https://github.com/Satobloc/HsH/issues/1920), publisher run #44158519154 SUCCESS; confirmation comment #6958569720; artifact/report blob match; SHA-256 d9f152701773ad1b5b483b10ce6bf408ded6e744ae673118edca2099bf34ccde.
-- **Formalization:** [draft PR #1918](https://github.com/Satobloc/HsH/pull/1918), stacked on #1309; LEAN_NOT_VERIFIED, no build or review claimed.
-- **Canonical receipt:** [h907:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1900Z_s3_mercer.md); [Amendment 01: publisher readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1900Z_s3_mercer_AMENDMENT_01_PUBLISHER_READBACK.md)
-- **Next ring label:** Ravel h907:s4; optional repository-only context packet prepared, no assignment or direct-thread delivery claimed.
-- **P2:** HOLD. No raw Figshare bytes, physical calculation, fit, H(s)H prediction, or independent measurement.
-
+- **Public issue:** [#1920](https://github.com/Satobloc/HsH/issues/1920), publisher run #44158519154 SUCCESS; confirmation comment #6958569720; artifact/report exact blob match; SHA-256 `d9f152701773ad1b5b483b10ce6bf408ded6e744ae673118edca2099bf34ccde`. Additive correction comment #6959800695.
+- **Formalization:** [draft PR #1918](https://github.com/Satobloc/HsH/pull/1918), OPEN / DRAFT / UNMERGED. Exact-head run #44157386235 failed at 8,927/8,946 with unsolved goals and `sorryAx`. Repair commit `07925ba32039bcb3d90e04f4ed5eb8a8ff865273` adds explicit inverse and full-transform injectivity; exact-head checkout passed in run #44167422061, but Lake manifest generation was still in progress at last read. LEAN_NOT_VERIFIED; no theorem promotion.
+- **Canonical receipt:** [h907:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1900Z_s3_mercer.md); [Amendment 01: publisher readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1900Z_s3_mercer_AMENDMENT_01_PUBLISHER_READBACK.md); [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2003Z_s3_mercer_AMENDMENT_02.md).
+- **Scheduler:** existing :36 task remains enabled and unchanged. Same run `56ba98ff-6278-8332-858a-dfc2f7bbaa77` has a moved `started_at` (19:35:39.596521Z → 20:03:23.035602Z), remains IN_PROGRESS with null completion/chat_ref; cause and attempt identity unknown. Tern retains scheduler authority.
+- **Next ring label:** Ravel h907:s4; optional repository-only context packet already prepared; no assignment or direct-thread delivery claimed.
+- **P2:** HOLD. No raw Figshare bytes, joint contour covariance, sample-level cross-spectrum, physical calculation, fit, H(s)H prediction, or independent measurement.
 
 ## Latest :48 Review-MIND relay | h903:s4 | 2026-11-17
 
