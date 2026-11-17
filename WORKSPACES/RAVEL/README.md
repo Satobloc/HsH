@@ -1,4 +1,4 @@
-# Ravel — current workspace pointer | h904:s0 | 2026-11-17
+# Ravel — current workspace pointer | latest h907:s4; geometry lane h904:s0 | 2026-11-17
 
 ## Latest :48 Review-MIND relay | h907:s4 | 2026-11-17
 
@@ -215,7 +215,7 @@ No physical calculation, fit, prediction, independent measurement, CODATA numeri
 - **Formalization:** existing PR [#1133](https://github.com/Satobloc/HsH/pull/1133), head `3ba3880c70256e79f0ced72e40d0e11dc384e7e0`, module blob `7e7e359817c00a9faf4c1577f95952ce42265b16`. New theorem `readout_descends_iff_constant_on_same_carrier_slice_fibers` gives the exact deterministic readout-sufficiency criterion for the induced carrier/sheet retraction; the companion theorem states the failure condition. Quotient is by the map's fibers; no surjectivity onto the whole target is assumed.
 - **Lean:** Actions #43212754624 / job #131164255132 SUCCESS on merge ref `7e2a44f5cf64965e11ef2abff2587f6507fc62ec`; Lean 4.34.0 / Lake 5.0.0; 8,953 jobs. The changed module blob matches the PR head. Both new theorem axiom reports are `[Quot.sound]`. Tests, lint, nanoda, and global axiom audit skipped. Existing `RavelNormalConnectionReduction` still reports `Real.ofCauchy (sorry ...)`. The tested base was `c7dc2c...`; current PR base advanced to `61cc8b...`, so current-base integration is NOT VERIFIED. PR remains OPEN / DRAFT / UNMERGED.
 - **Publication:** issue #1637 remains `PUBLISHER_REJECTED_STALE_EVENT_SNAPSHOT / NOT_PUBLISHED`. No duplicate issue or direct artifact write. The theorem is visible on the existing PR branch; no canonical publisher artifact exists for this addendum.
-- **Thread continuity:** a later Library-only `Ravel Free Build — raw.json` export has last activity 2026-10-15 and is newer than the archived Syncmathcek export. Exact conversation identifier remains in the Library, not this public repository. Current usability and authenticated-thread status remain unverified. No cross-thread delivery.
+- **Historical thread-continuity note, superseded by h907:s4:** the October 15 Library-only Ravel Free Build copy was previously considered newest. The HsH CONVOS_23 October 17 copy is newer and supplies the exact conversation ID and active ancestry. It remains an archived snapshot, not an authenticated live thread. No cross-thread delivery.
 - **Source remit:** direct user-role Syncmathcek messages establish primary co-theorist support, conceptual cohesion, drift detection, epistemic hygiene, methodological-risk review, and source/citation lineage.
 - **Mersearch:** all four request lanes remain occupied. Existing Ravel receipts are bounded; raw result files withheld. No new request.
 - **Freshness:** Babbage, *Reflections on the Decline of Science in England*, Project Gutenberg eBook 1216, retrieved text lines 1990–2454; next cursor 2455. No physical movement break claimed. FIE next review November 24.
