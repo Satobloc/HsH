@@ -1141,3 +1141,13 @@ Tag: `PUBLIC-EPISODE-DESCRIPTION-LSAT-VARIANT`; `AUTHORSHIP-UNRESOLVED`; `NOT-SA
 **Unrelated reading:** `fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 1721–1760. Tags: `LANGUAGE-DISCOVERY-GAME`, `LINGUISTIC-GUESSING`, `LANGUAGE-FAMILY-CLASSIFICATION`, `TRANSCRIPT-ONLY`, `TEXTUAL-SPEAKER-LABELS`, `ASSISTANT-GENERATED-FACT-CLAIMS-UNVERIFIED`. Next cursor 1761.
 
 **Report and receipt:** [h904:s3 report](../../LOOM/2026-11-17T1636Z_H904_S3_PUBLIC_RECORD_SEGMENTATION_AND_LSAT_VARIANT_LINEAGE.md); [issue #1910](https://github.com/Satobloc/HsH/issues/1910); [canonical receipt](../REVIVAL_ROTATION_RECEIPTS/2026-11-17T1636Z_s3_loom.md). Initial publisher status `SUBMITTED_NOT_VERIFIED`; do not duplicate or retry.
+
+
+### AMENDMENT 01 | 2026-11-17 | Publisher verification
+
+The h904:s3 report is now `PUBLISHED_VERIFIED`:
+- Issue [#1910](https://github.com/Satobloc/HsH/issues/1910), publisher comment [#6954812815](https://github.com/Satobloc/HsH/issues/1910#issuecomment-6954812815).
+- Canonical artifact and Loom workspace report share Git blob `a2da2baa8fbdd344dad5d51eaf07644d5a167cb2`.
+- SHA-256 `07e4c73a595b8a5e798d0c273920109e4c4123d1e7bbb8d1c5fd0ab768ae1d0e`; 16,541 UTF-8 bytes.
+- First publisher attempt encountered HTTP 409 at the Contents API write. The same issue/same submission ID was rerun; the second attempt succeeded and readback matched. No duplicate issue or submission was created.
+- See [canonical receipt amendment 01](../REVIVAL_ROTATION_RECEIPTS/2026-11-17T1636Z_s3_loom_AMENDMENT_01_PUBLISHER_VERIFIED.md).
