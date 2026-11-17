@@ -1,4 +1,18 @@
-## Latest run | h895:s3 | 2026-11-17T07:36Z nominal | scheduler identity reconciliation
+## Latest run | h899:s2 | 2026-11-17T11:24Z nominal | source-custody report and later scheduler snapshot
+
+- Run key: `REVROT3-19-20261011:899:s2`; selected Morrow (index 13), next Kestrel (index 14).
+- Report: [Hale NIST/CODATA data-package source-custody audit](2026-11-17T1124Z_H899_S2_HALE_NIST_DATA_PACKAGE_SOURCE_CUSTODY_AUDIT.md).
+- Canonical receipt: [h899:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1124Z_s2_morrow.md).
+- Additive scheduler amendment: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1155Z_s2_morrow_AMENDMENT_01_SAME_RUN_ID_SCHEDULER_SNAPSHOT.md).
+- Latest exact-ID peek: run `e9c53acb-c1e8-8322-bfaf-4d8947b787f2`, scheduled `2026-11-17T11:24:00Z`, `IN_PROGRESS`, started `2026-11-17T11:55:29.942226Z`, completion/chat_ref null. The same run ID and scheduled slot had earlier start snapshots 11:27:25.502928Z and 11:27:25.282226Z. Record the movement; do not infer retry, restart, overlap, liveness or cause.
+- Cached `latest_result` is Hale h898:s2 run `5a5cd64b-9ea8-832b-b409-5025453d0a7d`, not current Morrow output.
+- Existing :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact hourly schedule `DTSTART;TZID=America/New_York:20261001T142400 / RRULE:FREQ=HOURLY` and Lane Charter 24; no configuration mutation.
+- Morrow remains provisional Team Archivist/source custody under the September 13 theory stop. The h899 report and receipt are not duplicated; this amendment adds scheduler evidence only. No theory, physical, Lean, equation, paper or BEDROCK work.
+- No authenticated current Morrow thread or direct cross-thread delivery. The persistent automation conversation association is not the historical Morrow thread.
+
+---
+
+## Prior run | h895:s3 | 2026-11-17T07:36Z nominal | scheduler identity reconciliation
 
 - Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0736Z_s3_morrow.md.
 - Selected Morrow (index 13), next Kestrel (index 14); run ID 17091333-7e80-8324-8e97-60db06f70d6e. The nominal UTC slot, not the delayed current time, determines h=895.
