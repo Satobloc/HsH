@@ -21,17 +21,17 @@ No callable Mersearch action was present in this runtime. All four canonical Mer
 
 The existing `NadirVortexTwoChannelReadout.lean` module formalizes a local two-antipode reduction of the source paper's single-harmonic radial ansatz:
 
-\\[
+\[
 r_m(\theta)=a_0+\varepsilon\cos(\phi+m\theta).
-\\]
+\]
 
-The two antipodal samples at (\theta=0,\pi) are transformed into a displacement/radius pair. The existing theorem states that the (m=1) and (m=2) reduced readouts coincide exactly when (\varepsilon\cos\phi=0). Thus the two-scalar reduction has a nodal blind spot even when the harmonic amplitude is nonzero.
+The two antipodal samples at theta=0 and theta=pi are transformed into a displacement/radius pair. The existing theorem states that the m=1 and m=2 reduced readouts coincide exactly when epsilon*cos(phi)=0. Thus the two-scalar reduction has a nodal blind spot even when the harmonic amplitude is nonzero.
 
 A new assistant-proposed augmentation was added on the existing PR #1189 branch:
 
-[
+\[
 R'_m=(R_m, r_m(\pi/2)).
-]
+\]
 
 The new theorem `quarterTurn_resolves_nodal_one_two_alias` states:
 
@@ -60,13 +60,13 @@ The paper measures (a_0), fits (\Gamma) and (v_z) to its Rankine-core dispersion
 
 The source-grounded standard chain is:
 
-[
+\[
 \text{camera/calibration}
 \to r_L(z,t),r_R(z,t)
 \to (\eta(z,t),a(z,t))
 \to (S_\eta(\omega,k),S_a(\omega,k))
 \to \text{Kelvin/Rankine dispersion comparison}.
-]
+\]
 
 The standard comparator (H_0) is the paper's classical Kelvin-wave hollow-core relation in its long-wavelength regime and Rankine-core relation with uniform axial flow for the broader measured range. The paper's measured (a_0) and fitted ((\Gamma,v_z)) must remain explicitly labelled as measured versus fitted inputs.
 
@@ -92,7 +92,7 @@ The first exact-head run [#44105406291](https://github.com/Satobloc/HsH/actions/
 
 The corrected-head exact-source run [#44106198466](https://github.com/Satobloc/HsH/actions/runs/44106198466) **PASSED**. The workflow asserted expected and actual checkout identity as `da1e7d5dff0cdbc1d81303e3c573b79832087a38`; Lean 4.34.0 and Lake 5.0.0; full library build completed successfully (8,961 jobs). `NadirVortexTwoChannelReadout` built at job 8935/8961. The two new theorem-specific `#print axioms` reports list `[propext, Classical.choice, Quot.sound]`; no `sorryAx` is reported for either theorem. These are standard Lean foundations, not a zero-axiom result. The separate global axiom audit, tests, lint, leanchecker and nanoda were skipped. Existing linter warnings at lines 239 and 252 in the module remain. CI generated a Lake dependency manifest from scratch, but no `lake-manifest.json` is committed on the branch, so transitive dependency locking remains a reproducibility limitation. The first failed pre-fix run is retained as history and is not counted as the final result.
 
-The theorem, if successfully compiled, would establish only the formalized conditional statement about the declared radial ansatz and readout map. It would not establish that the ansatz faithfully represents the experiment, that the proposed sample is physically available, or that any H(s)H premise is true.
+The successful Lean build establishes only the formalized conditional statement about the declared radial ansatz and readout map. It would not establish that the ansatz faithfully represents the experiment, that the proposed sample is physically available, or that any H(s)H premise is true.
 
 ## 7. Project, source and continuity controls
 
