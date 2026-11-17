@@ -1731,3 +1731,15 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - No theory integration, equation correction, physical calculation/fit/prediction, Lean run, paper work, BEDROCK promotion, task graph/register/PWH mutation, branch/PR/dependency or new tool.
 - Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled under exact original hourly America/New_York :24 schedule. Run `d49d69e4-cdcc-8322-8970-95dc63323e49`, scheduled 21:24Z, started 21:26:48.310028Z, remained IN_PROGRESS at last peek with completion/chat_ref null. Cached latest result belongs to Hale h860:s2. No scheduler mutation or sixth task.
 - Report: `2026-11-15T2124Z_H861_S2_WH07_PROJECT_DESK_V01_SOURCE_CUSTODY_READBACK.md`; receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2124Z_s2_morrow.md`; optional Tern packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2124Z_from_s2_morrow_to_tern_POSTSTART_OPTIONAL_WH07_V01_READBACK.md`.
+
+
+## h888:s0 | 2026-11-17T00:00Z | Lane 00 source-custody checkpoint
+
+- Report: `2026-11-17T0000Z_H888_S0_LANE00_SOURCE_CUSTODY_AND_GEOMETRY_FIDELITY.md`.
+- Receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0000Z_s0_morrow.md`.
+- Main pre-write head `88bc62ff02fdd6500a0633ac70bf407453a63bea`; current task graph remains 16 declared / 18 records.
+- Source delta: 2026-11-04 message 100388c5 is a direct repost/recording of the current tentative position, not the original Aster turn. 2026-11-08 messages bcbe9ee8 and f9356192 directly describe the 4D tube / 1D core / 3D boundary proposal and leave the worldsheet map open.
+- SAT-O1 and Blockwave originals preserved with exact blob/SHA/date strata. No equation changed.
+- Morrow direct theory stop remains active. No new Lean proof, physical calculation, prediction, CODATA, paper work, or theory integration.
+- Issue #1865 submitted with exact SHA; publication remains pending at checkpoint creation. No duplicate.
+- Next ring label Kestrel. No handoff or cross-thread delivery claim.
