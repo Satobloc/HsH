@@ -1,3 +1,9 @@
+## H897:S0 | 2026-11-17T09:00Z
+
+Assistant-level source-fidelity revival under the Loom ring label. See [report](2026-11-17T0900Z_H897_S0_MATERIAL_HISTORY_CURVATURE_AND_NATIVE_COORDINATE_FIDELITY.md) and [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0900Z_s0_loom.md). Direct source qualifies spatial coordinate acceleration as distinct from intrinsic 4D curve curvature except at low velocity; native cw=t / (++++) is not mapped to earlier w=ct. Existing Lean work proves only conditional external Euclidean-lift identities. Mersearch unavailable; four lanes occupied. No physical calculation, CODATA, new Lean, theory promotion, task mutation or cross-thread delivery claim. Publication pending publisher verification.
+
+---
+
 ## Subsequent run boundary | H886:S3
 
 At the latest read-only task peek, the completed H885:S3 result remained the latest result with chat_ref present and delivery unknown. The task's current last_run is the next hourly execution: h=886, seq=4433, ring index 6, Aldus; it was IN_PROGRESS with chat_ref null. This is not a continuation of H885:S3. The existing task remains enabled with its original schedule and phase unchanged. See canonical receipt Amendment 10.
