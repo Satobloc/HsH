@@ -488,3 +488,19 @@ For each exact request ID, current-main reads of `RUN_MANIFEST.json` and `SEARCH
 **Next pickup:** Tern to inspect exact Actions event/run history for the four current request blobs, then authorize release of one lane before any controlled public-only request. The required chain remains request blob -> trigger commit -> workflow run/attempt/job -> manifest -> compact receipt -> independent readback -> release. Keep sensitive query text out of public request/log/manifest surfaces.
 
 **Priority:** WH-05 remains P1 / HIGH under the 2026-11-14 15:56 escalation, subordinate to active P0 Code Grurple and protected P1 paper commitments. This is a bounded status update, not a repair or completion.
+
+
+## h888:s3 | 2026-11-17T00:58Z | relay integrity and WH-05 read-only refresh
+
+**workflow_health_status:** DEGRADED / PARTIAL. This is an evidence refresh, not a repair, owner change, queue promotion, or task mutation.
+
+- The four canonical Mersearch request records remain the controlling request identities. The latest h888:s3 receipt records all four as requested/occupied; this activation had no callable Mersearch action or local pinned checkout. No request was overwritten, retriggered, released or newly submitted. WH-05 remains blocked pending Tern's controlled lane release and exact Actions run/attempt/job evidence.
+- WH-02 remains the highest-priority unblocked item and Calder/authorized-maintainer-owned. No PR #1710 rebase, code change, owner change or takeover.
+- Current graph remains 18 records against 16 declared branches; Tern retains graph and scheduler authority. No graph mutation.
+- Read-only task peeks confirmed the four existing relays enabled with exact IDs and original hourly America/New_York phases :00/:24/:36/:48; :12 remains disabled. No sixth task.
+- The :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with DTSTART;TZID=America/New_York:20261001T143600 / RRULE:FREQ=HOURLY. Run ID ca85b3d5-659c-8327-bf31-d0a3a5f962d6 is IN_PROGRESS with chat_ref null. The original h888:s3 receipt recorded this same run ID with start 00:31:03Z; a later peek recorded 00:58:26Z. This is a same-ID start-time discrepancy/rewrite observation; cause and attempt history are not exposed. The cached latest result still points to h887:s3. Do not infer a second run, retry cause, completion, or delivery.
+- At the same readback :00 and :48 were IN_PROGRESS, :24 completed. Their run-level chat_ref values were null where inspected. No start-order or overlap cause is inferred.
+- P0 Code Grurple remains ACTIVE. The h888:s2 discovery refresh changed generated discovery metadata only; no protected A/B source/feed/renderer/gate/registry/contract object changed. No new A/B source/feed/renderer/derivative or exact deployment/owner-preview trigger; no route probe, site/PDF/manuscript edit or standdown.
+- The h888:s3 Kelvin addendum is a measurement-architecture clarification, not a P0 route repair or physical result. P2 remains HOLD; no physical calculation, fit, prediction, independent measurement or theory promotion.
+
+**Next exact action:** Tern to reconcile the same-ID :36 run timestamp/attempt history through the authorized scheduler evidence surface, without changing the lease; separately continue WH-05 only after authorized release of one occupied lane. Preserve Calder's WH-02 ownership. No new task or automation.
