@@ -6,7 +6,7 @@
 - Core correction: the direct source distinguishes d²x/dw² from intrinsic 4D curve curvature except at the low-velocity leading approximation. Later native cw=t / (++++) remains unmapped to earlier w=ct.
 - Existing PR #873 and #1245 formalize only conditional external Euclidean-lift mathematics; no native map or physical validation is established.
 - Mersearch was not callable; all four request lanes remain occupied. No request, branch, PR, task, scheduler, BEDROCK or paper-gate state changed.
-- Publication: PENDING at receipt creation; publisher status will be recorded by numbered amendment after exact readback.
+- Publication: PUBLISHED_VERIFIED. Issue #1889, run #44054436927, publisher comment #6943915817, artifact SHA-256 `da84b3885890df8aef96c70bccb11d43884441ad3dd1c1d35469986ebdfb7cb7`; see receipt Amendment 01.
 
 ---
 
