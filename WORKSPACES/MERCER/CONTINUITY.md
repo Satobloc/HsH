@@ -298,3 +298,12 @@ Publication was SUBMITTED_NOT_VERIFIED at receipt creation: issue #1931, submiss
 Unrelated SAT archive reading: lines 1801–1840 of fun break - lx.txt; next cursor 1841. FIE rereview remains due 2026-11-24.
 
 Scheduler: roster preserves task 6abda4c8eda88191bf23a6f2849e9a17 at hourly :24 America/New_York; prior exact-ID receipt records DTSTART 2026-10-01T14:24. Automations get/peek returned 404 in this turn, so current live enabled-state and chat_ref were not independently re-read. No scheduler mutation or sixth task. No cross-thread delivery or successor acknowledgment is claimed.
+
+
+### Amendment 01 — h911:s2 publisher rejection
+
+Issue #1931 was created by Satobloc, but publisher comment #6964332374 returned REJECTED: SHA-256 mismatch. Declared digest 6bab68b91815806b768d70c8779363a6a4907669cd9d30ba330e7f9f2bf9cece / 12,056 bytes; actual issue-body payload digest f825e826761e977dad70cc5c3e47b4f8285f08b57f11808c475431fb8ce2f2d8 / 12,055 bytes. The expected fixed artifact path returned 404. No PUBLISHED artifact exists.
+
+The exact issue payload is preserved as [corrected workspace copy](2026-11-17T2324Z_H911_S2_P0_DISCOVERY_DELTA_AND_WH02_PREFLIGHT_CORRECTED.md), Git blob 2d23a00053124351334a423cdc268eeac0a6b08d, SHA-256 f825e826761e977dad70cc5c3e47b4f8285f08b57f11808c475431fb8ce2f2d8, 12,055 bytes; exact readback passed. It is a workspace copy, NOT PUBLISHED_VERIFIED. Canonical receipt Amendment 01 records the rejection and no-retry boundary. Issue #1931 remains the single audit record; no edit, reopen, retry, or second issue.
+
+The earlier P0/WH-02 comments calling #1931 a published report were corrected by comments #6964375058 and #6964375722. P0 evidence and WH-02 comparison are unchanged; only publication status was corrected.
