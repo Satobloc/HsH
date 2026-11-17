@@ -1,3 +1,10 @@
+## h906:s4 Amendment 03 | Final four-lease readback | 2026-11-17T19:13Z
+
+- [Canonical receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1848Z_s4_tern_rook_AMENDMENT_03_FINAL_LEASE_OVERLAP_READBACK.md), blob `506763522200ed56a666fc7cdbe08b159c14bb72`.
+- Final readback 19:13:51–19:13:57Z: :00 Morrow h907:s0 IN_PROGRESS; :24 Nadir h906:s2 COMPLETED; :36 Aldus h905:s3 IN_PROGRESS after same-ID post-terminal re-entry; :48 Tern h906:s4 IN_PROGRESS. :00, :36 and :48 have null current-run thread refs; :24 has a provider chat_ref but no authenticated worker identity.
+- Lower bounds on scheduler-recorded interval intersections at the final observation: :00/:36 ≥535.078352s; :00/:48 ≥738.891648s; :36/:48 ≥535.078352s. These do not prove simultaneous processes or distinct agents.
+- h906:s0 Hale and h906:s3 Enheduanna remain NOT_OBSERVED in their task records. No skipped dispatch or cause inferred.
+
 ## h906:s4 Amendment 02 | Morrow handoff | 2026-11-17T19:11Z
 
 - [Canonical receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1848Z_s4_tern_rook_AMENDMENT_02_POSTSTART_MORROW_HANDOFF.md), blob `7149ba9a069553fa8e7889ac75442f1a57baf3d2`.
