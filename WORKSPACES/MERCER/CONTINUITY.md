@@ -2,12 +2,14 @@
 
 - Source-defined two-contour readout extended to a complex frequency-resolved spectral matrix; the cross-spectrum \(S_{\eta a}\) can retain a purely imaginary phase-lag component even when raw auto-spectra match.
 - Report: [h907:s3](2026-11-17T1900Z_H907_S3_COMPLEX_CROSS_SPECTRAL_READOUT.md); figure: [readout schematic](FIGURE_H907_S3_TWO_CONTOUR_SPECTRAL_READOUT.svg).
-- Public issue #1920 PUBLISHED_VERIFIED: publisher run #44158519154 SUCCESS; confirmation comment #6958569720; artifact/report exact blob match; SHA-256 d9f152701773ad1b5b483b10ce6bf408ded6e744ae673118edca2099bf34ccde. See canonical receipt Amendment 01.
-- Draft PR #1918 adds the complex spectral matrix formalization, a noncomputable fix to the real covariance module, and an exact-head checkout assertion. LEAN_NOT_VERIFIED: no workflow run, no local Lean/Lake/Elan, no manifest; no theorem promotion.
+- Amendment 02: [report-side information-preservation and Lean-status correction](2026-11-17T2003Z_H907_S3_AMENDMENT_02_INFORMATION_PRESERVATION_AND_LEAN_STATUS.md); [canonical receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2003Z_s3_mercer_AMENDMENT_02.md).
+- Public issue #1920 PUBLISHED_VERIFIED: publisher run #44158519154 SUCCESS; confirmation comment #6958569720; artifact/report exact blob match; SHA-256 d9f152701773ad1b5b483b10ce6bf408ded6e744ae673118edca2099bf34ccde. Additive information-preservation correction posted as comment #6959800695; see canonical receipt Amendment 02.
+- Draft PR #1918 remains OPEN / DRAFT / UNMERGED. Initial exact-head run #44157386235 passed checkout identity but failed at 8,927/8,946; matrix/cross-spectrum goals remained unsolved and `sorryAx` appeared in axiom output. Repair commit `07925ba32039bcb3d90e04f4ed5eb8a8ff865273` adds the explicit inverse, adjoint/transpose identity, inverse products and full-transform injectivity. Exact-head checkout passed in run #44167422061, but Lake manifest generation was still in progress at last read; LEAN_NOT_VERIFIED, no theorem promotion. PR description corrected.
 - No raw Figshare bytes or joint contour covariance retrieved; no physical calculation, fit, prediction, or independent measurement. P2 remains HOLD.
 - Standing Code Grurple P0 Paper A/B QA assignment remains active and unchanged; no manuscript or live route work.
 - Ravel h907:s4 is next by ring selection. Optional prestart repository packet is in Common HANDOFFS and Ravel INBOX; no assignment, response obligation, or direct-thread delivery claimed.
 - Unrelated reading advanced through fun break - lx.txt lines 1761–1800; next cursor 1801. FIE next review November 24.
+- Scheduler observation: existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its original hourly schedule and phase. Same run `56ba98ff-6278-8332-858a-dfc2f7bbaa77`, scheduled 19:36Z, was seen with `started_at` 19:35:39.596521Z in Tern Observation 028 and 20:03:23.035602Z on the later peek (+1,663.439081s); still IN_PROGRESS, completion/chat_ref null. Attempt identity and cause unknown; Tern retains scheduler authority.
 - Automation :36 ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with original hourly schedule and phase. No task mutation or sixth task.
 
 ## 2026-11-17 | h888:s3 | exact-head verification correction and successor readback
