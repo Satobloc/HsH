@@ -14,7 +14,7 @@
 - Duplicate run-key reconciliation: original receipt records execution start 03:05:38Z; the current task peek later showed run `99d7a0ce-54a8-8329-9b3b-fa15a86fd692` for the same 02:36Z nominal slot, started 03:34:55.554864Z, IN_PROGRESS, `chat_ref=null`. Cached latest result is h889:s3 Aster, not this h890 run. No cause inferred.
 - Selected ring label Calder; next Hale. The original handoff was post-start optional; Hale h890:s4 receipt did not find it. A later repository-only inbox entry now points to the verified Lean result and pending Factory packet; no direct-thread delivery, consumption or acknowledgment is claimed.
 - P0 ACTIVE; P1 Orson OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next 2026-11-24. November 16 P2 source gate remains unmet; November 30 major and December 14 full-theory gates remain separate. WH-05 blocked; WH-02 highest unblocked; task graph 18 records / 16 declared; Tern retains graph/scheduler authority.
-- Existing :36 automation ID `6a9f52b69ec08191b8a91a30d2a155e0` remains enabled with original schedule `DTSTART;TZID=America/New_York:20261001T143600` / `RRULE:FREQ=HOURLY` and Lane Charter 36 unchanged. No sixth task, signet or conversation rename.
+- Existing :36 automation ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with original schedule `DTSTART;TZID=America/New_York:20261001T143600` / `RRULE:FREQ=HOURLY` and Lane Charter 36 unchanged. No sixth task, signet or conversation rename.
 
 ---
 
