@@ -101,8 +101,9 @@ theorem unknown_parentage_blocks_claim
       (ParentageEvidence.unknown : ParentageEvidence AcquisitionUnit)
       profile policy := by
   intro h
-  change False at h.1
-  exact h.1
+  rcases h with ⟨hReady, _⟩
+  change False at hReady
+  exact hReady
 
 theorem ambiguous_parentage_blocks_claim
     {AcquisitionUnit : Type}
@@ -113,8 +114,9 @@ theorem ambiguous_parentage_blocks_claim
       (ParentageEvidence.ambiguous evidence : ParentageEvidence AcquisitionUnit)
       profile policy := by
   intro h
-  change False at h.1
-  exact h.1
+  rcases h with ⟨hReady, _⟩
+  change False at hReady
+  exact hReady
 
 theorem unknown_required_axis_blocks_claim
     {AcquisitionUnit : Type}
@@ -136,7 +138,6 @@ theorem shared_required_axis_blocks_claim
     (profile : DependencyProfile)
     (policy : IndependenceClaimPolicy)
     (axis : DependencyAxis)
-    (hParentage : parentageReady parentage)
     (hRequired : policy.requiredDistinct axis = true)
     (hShared : (profile axis).state = .shared) :
     ¬ IndependenceClaimAdmissible parentage profile policy := by
@@ -151,7 +152,6 @@ theorem partially_shared_required_axis_blocks_claim
     (profile : DependencyProfile)
     (policy : IndependenceClaimPolicy)
     (axis : DependencyAxis)
-    (hParentage : parentageReady parentage)
     (hRequired : policy.requiredDistinct axis = true)
     (hPartial : (profile axis).state = .partiallyShared) :
     ¬ IndependenceClaimAdmissible parentage profile policy := by
