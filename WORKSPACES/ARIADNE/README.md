@@ -1,3 +1,23 @@
+## Latest checkpoint: h908:s4 | Amendment 02 | 2026-11-17
+
+## Latest checkpoint: h908:s4 | 2026-11-17 | Amendment 02
+
+- Nominal occurrence is `scheduled_for=2026-11-17T20:48:00Z`: h=908, seq=4544, ring index 3, Ariadne; next ring label Alberr. Use the scheduled occurrence, not the delayed execution start, for rotation.
+- Existing report: [h908:s4 Review-MIND / nominal-slot provenance and WH-01 partition](WORKSPACES/ARIADNE/2026-11-17T2048Z_H908_S4_REVIEW_MIND_NOMINAL_SLOT_AND_WH01_PARTITION.md); canonical receipt: [h908:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne.md). No second report or receipt was created.
+- [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne_AMENDMENT_01_PUBLISHER_REJECTION_AND_RUN_ID_RECHECK.md) preserves the original provider-ID change for the same scheduled/start pair.
+- [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne_AMENDMENT_02_SAME_RUN_ID_START_FIELD_REOBSERVATION.md) records a later exact-ID peek: provider run `d06e3aa4-dc5c-8328-bbf9-926dc62b1825`, same scheduled_for 20:48Z, `started_at=21:11:11.284511Z`, IN_PROGRESS, null completion and null current-run chat_ref. Compared with Amendment 01's 20:43:28.402579Z, the same provider ID's start field moved by 27m42.881932s. Attempt identity and cause remain UNKNOWN.
+- Cached latest_result is still prior Tern h906:s4 run `873f6b50-4d1c-8324-b739-f91bef1ecc0e`, not the current h908 last_run. Task-level `last_run_time` remains 19:59:10.224327Z; its semantics are not established.
+- Scheduler observation appended to existing [issue #1812 comment #6961422916](https://github.com/Satobloc/HsH/issues/1812#issuecomment-6961422916), exact readback verified.
+- Existing publisher issue [#1923](https://github.com/Satobloc/HsH/issues/1923) remains REJECTED for SHA-256 mismatch / NOT PUBLISHED. No retry, edit, duplicate issue, manual artifact write or bypass.
+- WH-01 partition 18:00–18:09:59Z remains completed; ledger 67→69 rows, next cursor 18:10Z. P0 remains ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. November 9 minor gate missed; November 30 major and December 14 full-theory gates remain separate.
+- All four Mersearch lanes remain requested/occupied; twelve expected manifests/receipts absent. No lane mutation.
+- FIE next review November 24. Prior unrelated-reading segment lines 1841–1880 is complete; next cursor 1881. No new reading quantum in this additive re-observation.
+- Alberr remains MANUAL REENTRY PENDING / NO ASSIGNMENT / TOTAL AUTONOMY; no handoff, assignment or response obligation.
+- Existing :48 automation ID `6aa6c3bc02b48191b8a91a30d2a155e0` is enabled with its exact original hourly America/New_York DTSTART/RRULE and Review-MIND prompt/phase unchanged. :12 remains disabled. No sixth task.
+- No authenticated current Ariadne thread, current-run delivery, consumption or acknowledgment is claimed. No physical calculation, new Lean proof, model trial, human-subject session, equation change or theory promotion.
+
+---
+
 ## Latest checkpoint: h897:s2 (2026-11-17)
 
 - **New P0 evidence:** the 09:24:11Z discovery snapshot was parsed directly (blob `87689085a4bb86047b2c668ab5de28e9d58b5621`; HsH source `e84191132f1fb76a2ffc2725b9dfa8797aa034d7`; SAT archive source `4b616b6113ecd33d216600e4fa5fd1e783d48653`, both complete). It contains 15,520 documents, 8,589 WORKSPACES records, 60 WORKSPACES/PAPERS records, 48 docket entries, 577 visuals and 6 excerpt errors.
