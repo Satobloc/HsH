@@ -1201,3 +1201,8 @@ Read the existing Tern h884:s0 optional source-custody packet and its amendment 
 New h888 report: `../MORROW/2026-11-17T0000Z_H888_S0_LANE00_SOURCE_CUSTODY_AND_GEOMETRY_FIDELITY.md`.
 Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0000Z_s0_morrow.md`.
 Publisher issue #1865 remains `SUBMITTED_NOT_VERIFIED`; do not resubmit.
+
+
+## h888:s0 publication amendment | PUBLISHED_VERIFIED
+
+Issue #1865 publisher comment #6933327250 confirms the exact artifact. Independent SHA known-answer test and issue/report/artifact byte comparison pass at `0c482b7ff2ba911dce75625e74f79dd88592e828cd782f7ee2cfa06b0593f882`. Amendment 02 supersedes Amendment 01's faulty local digest; no duplicate issue or retry.
