@@ -98,6 +98,7 @@ The direct classical-limit statement is that resistance of a worldtube to change
 The same conversation rejects the passive "readout" interpretation of the timesheet: the intended relation is interactive. The precise response/coupling map remains open.
 
 Relevant direct messages:
+- 6f00a97a-aa84-45bf-9429-4ff70736014a, 2026-10-09T01:13:43Z (one-core / hollow-coil description);
 - 3c657387-b80b-4982-a61a-8e6d8568b8d1, 2026-10-09T01:50:55Z;
 - 5a929b5e-515e-4f77-a32a-e49feef42812, 2026-10-09T02:46:38Z;
 - 59c5c4c6-c914-48d4-af4c-5f53a1698f37, 2026-10-10T03:15:17Z;
