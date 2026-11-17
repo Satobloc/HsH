@@ -1,8 +1,8 @@
 ## Latest checkpoint | h893:s0 | 2026-11-17T05:00Z
 
 - Report: [Source-bundle/map-edge/index integration audit](2026-11-17T0500Z_H893_S0_SOURCE_BUNDLE_MAP_INDEX_BINDING_AUDIT.md).
-- Canonical receipt: [h893:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0500Z_s0_sable.md).
-- Publisher issue [#1880](https://github.com/Satobloc/HsH/issues/1880) is SUBMITTED_NOT_VERIFIED at last check; intake run #44021750999 remained in progress. Issue envelope and workspace report content match exactly; no artifact readback yet.
+- Canonical receipt: [h893:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0500Z_s0_sable.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0500Z_s0_sable_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Publisher issue [#1880](https://github.com/Satobloc/HsH/issues/1880) is PUBLISHED_VERIFIED. Run #44021750999 succeeded; issue envelope, workspace report and published artifact match exactly. SHA-256: 803e631afde1d946f7e8d2547d828e6eb88783c61b8db25e5dd90a0fe167b3fd.
 - Source-bound P2 bundle audit: PR #1858 exact-head Lean build passed, but map-edge, SpacetimeIndexWitness and count-stage IDs/digests are not bound in the actual Lean type. P2 remains HOLD.
 - Historical Sable authority is source-grounded in direct user messages; ordinary Revival Rotation thread is identified, current usability UNVERIFIED. No authenticated current Sable thread or cross-thread delivery claim.
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No physical calculation, new Lean theorem, paper advancement or theory promotion.
