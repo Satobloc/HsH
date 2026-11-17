@@ -1,8 +1,8 @@
 ## Latest checkpoint | h893:s0 | 2026-11-17T05:00Z
 
 - Report: [Source-bundle/map-edge/index integration audit](2026-11-17T0500Z_H893_S0_SOURCE_BUNDLE_MAP_INDEX_BINDING_AUDIT.md).
-- Canonical receipt: [h893:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0500Z_s0_sable.md).
-- Publisher issue [#1880](https://github.com/Satobloc/HsH/issues/1880) is SUBMITTED_NOT_VERIFIED at last check; intake run #44021750999 remained in progress. Issue envelope and workspace report content match exactly; no artifact readback yet.
+- Canonical receipt: [h893:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0500Z_s0_sable.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0500Z_s0_sable_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Publisher issue [#1880](https://github.com/Satobloc/HsH/issues/1880) is PUBLISHED_VERIFIED. Run #44021750999 succeeded; issue envelope, workspace report and published artifact match exactly. SHA-256: 803e631afde1d946f7e8d2547d828e6eb88783c61b8db25e5dd90a0fe167b3fd.
 - Source-bound P2 bundle audit: PR #1858 exact-head Lean build passed, but map-edge, SpacetimeIndexWitness and count-stage IDs/digests are not bound in the actual Lean type. P2 remains HOLD.
 - Historical Sable authority is source-grounded in direct user messages; ordinary Revival Rotation thread is identified, current usability UNVERIFIED. No authenticated current Sable thread or cross-thread delivery claim.
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No physical calculation, new Lean theorem, paper advancement or theory promotion.
@@ -1612,3 +1612,11 @@ The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission laye
 - Four Mersearch lanes remain requested; no lane changed. Existing Math Hopper #578 / PR #991, Whirligig Kernel 0, Lean PRs #1823/#1852/#1858/#262/#873 and SciSpace connector checked; no new tool or expense. All three repo metadata fork counts zero; HSH_RESOURCES root only.
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next Nov 24. No physical calculation, CODATA, paper-gate advancement or theory promotion.
 - Sable reading cursor Babbage line 439 unchanged; recent h892 runs supplied unrelated reading, so no duplicate quantum. Next ring label Loom; no :12 handoff because disabled; next active :24 selects Aster. No task/ID/schedule/phase/enabled-state change, no sixth task.
+
+## h893:s0 publication amendment 01 — PUBLISHED_VERIFIED
+
+- Publisher issue #1880 comment #6939110967 records PUBLISHED and successful readback. Workflow run #44021750999 / job #133832610230 completed SUCCESS.
+- Published artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h893-s0-source-bundle-map-index-binding-audit-20261117t0500z-001.md`; publisher commit `a2383999e486b033bea879ce419d0fe14963fa37`.
+- Workspace report and published artifact share blob SHA-1 `e49a0a827b3ddd851b4ded732da53af35f3f6b26`; issue envelope content, workspace report and artifact were independently compared byte-for-byte.
+- SHA-256 `803e631afde1d946f7e8d2547d828e6eb88783c61b8db25e5dd90a0fe167b3fd`, 10,226 UTF-8 bytes; independently recomputed with Python hashlib.
+- Amendment `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0500Z_s0_sable_AMENDMENT_01_PUBLISHER_VERIFIED.md` supersedes only the earlier SUBMITTED_NOT_VERIFIED status. Original receipt remains unchanged. No retry, duplicate, manual artifact write or publisher bypass.
