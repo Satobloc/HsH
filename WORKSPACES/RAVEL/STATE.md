@@ -4,6 +4,8 @@
 
 - Latest report: [h904:s0 spring-as-derived-representation source-fidelity audit](2026-11-17T1600Z_H904_S0_SPRING_AS_DERIVED_4D_REPRESENTATION_SOURCE_FIDELITY.md).
 - Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1600Z_s0_ravel.md; exact readback verified after correcting the issue reference to #1908. Amendment 01 publisher verification: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1600Z_s0_ravel_AMENDMENT_01_PUBLISHER_VERIFIED.md.
+- Amendment 02: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1622Z_s0_ravel_AMENDMENT_02_SOURCE_FIDELITY_AND_SCHEDULER_REENTRY.md. Adds the force-as-primitive-relation typing question and the same-provider-ID post-terminal re-entry observation; no new report or issue.
+- Final bounded :00 peek for this reconciliation: provider run `4ffecdd8-0ffc-832a-8925-54b80b9ec77c` (scheduled 16:00Z) is IN_PROGRESS with start 16:22:49.782772Z, completion null and `chat_ref=null`; cached `latest_result` is prior h903 Tern run `57575199-bb04-8333-8d92-91004dca0033`, not h904. Earlier issue #1812 comment #6953939009 recorded the same ID FAILED at 16:20:03.907766Z. Same-ID post-terminal re-entry is observed; provider attempt semantics and causal linkage to issue #1908 publication remain unestablished.
 - Public intake: [issue #1908](https://github.com/Satobloc/HsH/issues/1908), publisher run #44123751499 completed SUCCESS; exact artifact readback verified; Amendment 01 records SHA-256 3bba55caf291dad808b4dccc6a23a3fa17df59eef3f26ec949de90d940a6d488 (18,247 bytes).
 - Full Ravel raw export: conversation 6a9d1a23-4fac-83ea-b76f-6805ece3ee9f, SHA-256 b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba, HsH blob 17cfe3feb830f70009557d063482b35adba0834b. Direct source says the spring is a representation of 4D oscillation, not the construction base. User-role pasted GR/QM-isomorphism text was excluded from Nathan Direct.
 - SAT-O1 and Blockwave originals read; original SHA/date custody preserved; no corrected equations.
@@ -14,7 +16,7 @@
 - Unrelated reading: Babbage, Reflections on the Decline of Science in England, lines 931–990; next cursor 991.
 - Deterministic successor Orson Vay; :12 remains disabled, so no handoff. Next enabled :24 phase selects Sable. No task, ID, schedule, prompt, phase, enabled-state or cadence mutation; no sixth task.
 
-**Return pin:** H904:S0 / RAVEL / SPRING_AS_REPRESENTATION / PASTED_ASSISTANT_TEXT_EXCLUDED / 4D_PROJECTION_UNDEFINED / PR1133_ROOT_FAIL_MERGE_REF / PR1848_FIX_BRANCH_LOCAL / ISSUE1908_PENDING / P0_ACTIVE / P1_ORSON_PROTECTED / P2_HOLD / P3_INCOMPLETE / FIE_NOV24 / NO_PHYSICAL_RESULT / TASKS_UNCHANGED.
+**Return pin:** H904:S0 / RAVEL / SPRING_AS_REPRESENTATION / PASTED_ASSISTANT_TEXT_EXCLUDED / 4D_PROJECTION_UNDEFINED / PR1133_ROOT_FAIL_MERGE_REF / PR1848_FIX_BRANCH_LOCAL / ISSUE1908_PUBLISHED_VERIFIED / AMENDMENT_01_PUBLISHER_VERIFIED / AMENDMENT_02_SCHEDULER_REENTRY_OBSERVED / P0_ACTIVE / P1_ORSON_PROTECTED / P2_HOLD / P3_INCOMPLETE / FIE_NOV24 / NO_PHYSICAL_RESULT / TASKS_UNCHANGED.
 
 ---
 
