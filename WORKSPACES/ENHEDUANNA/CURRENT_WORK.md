@@ -1030,3 +1030,8 @@ The November 16 P2 evidence gate is due but unmet. Nadir h864:s3's current sourc
 - Materialized `MARLOWE — raw.json` from the Library and computed its SHA-256 and Git blob SHA-1 directly. SHA-256 `93ad219a5c7e79cf31cfcdc6c1bd40a36e148c252df2189bb957f8977983baef` confirmed; correct Git blob SHA-1 is `d41ca92f15b6cb6a328738b388b44c39a34a85b9`.
 - The h902 report's earlier Git blob string was a transcription error. Internal report corrected and read back; new report blob `5e6e7ff78daad6efe622ca2f367553b6b317d3b8`.
 - Publisher issue #1904 remains rejected and unchanged; no retry or duplicate. See receipt Amendment 02.
+
+
+### h902:s4 final current-main recheck | 2026-11-17
+
+- Current main `293fdf89d8aba4bddd0afe1f6444fffa1b14bb6a`; PR #1619 unchanged, 53 ahead / 20,786 behind; merge base `e2e738facee0890bdfbbc563e9936db174f63074`. Earlier 20,762-behind figure is the pre-write snapshot. No rebase or PR change. See receipt Amendment 03.
