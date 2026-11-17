@@ -1010,3 +1010,63 @@ PR #1858 remains open/draft/unmerged. Vercel preview remains rate-limited on the
 
 **Limits:** the new Lean structures prove equality of declared identifiers and membership in a declared list. They do not hash or authenticate raw bytes, validate that a manifest file exists or contains the asserted list, verify cryptographic digests, authenticate verified flags, prove reviewer independence or pre-unblinding, establish Python/repository/runtime refinement, or define any physical source-to-geometry or lab projection map. P2 remains HOLD; no physical result or theory promotion.
 
+
+
+
+## AK. 2026-11-17 | Forces Across Temporal Points: raw source binding
+
+**Run:** `REVROT3-19-20261011:889:s2`. **Status:** additive source recovery and speaker-boundary correction; no physical validation or theory promotion.
+
+### Raw HsH source
+
+- Repository: `Satobloc/HsH`.
+- Path: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_11/24.08.08•24.08.08•Forces Across Temporal Points — raw.json`.
+- Conversation ID: `2ea9d090-c0c0-4c8e-8e05-a2263bfa5c3d`.
+- Raw Git blob SHA-1: `b63f27eb69b2b22b09b9a68c070588ffa1f4e46c`.
+- Raw mapping: 3 nodes including root; 2 message objects; 1 user, 1 assistant, 0 tools. Selected ancestry complete.
+- Conversation create_time: 2024-08-09T02:32:38.109983Z. First user message: 2024-08-09T02:32:38.117Z (2024-08-08 22:32:38 EDT).
+- Conversation update_time: 2026-06-01T22:04:04.558526Z; export metadata, not a later message timestamp.
+
+| Message ID | Role | UTC | Tags | Source-grounded classification |
+|---|---|---|---|---|
+| `aaa278fe-49c1-4f0c-af4a-29efb6cdacaa` | user | 2024-08-09 02:32:38.117Z | `BLOCK-UNIVERSE-QUESTION`; `CENTRAL-INTERACTION`; `TEMPORAL-EXTENTS`; `FORCE-AT-SEPARATED-TIME-POINTS-QUESTION`; `OUTER-USER-ROLE`; `NO-FORCE-LAW` | Asks whether an interaction at the central point of a 4D block-universe axis could exert force at separated temporal extents. Question only; does not mention SAT, filaments, retrocausality, or a cross-temporal force law. |
+| `d27a719e-21c4-42a6-8296-f0dd8233ed5d` | assistant | 2024-08-09 02:32:57.530Z | `ASSISTANT-INTRODUCES-SAT-CONTEXT`; `ASSISTANT-FILAMENT-DYNAMICS-INTERPRETATION`; `ASSISTANT-CROSS-TEMPORAL-FORCE-PROPOSAL`; `NOT-NATHAN-DIRECT`; `NO-DERIVATION`; `NOT-VALIDATED` | Introduces the SAT/filament framing and possible cross-temporal influence on filament tension/configuration. No user adoption or correction follows in this two-message ancestry. |
+
+The archive's outer user role is a source-attribution convention, not independent real-world identity authentication. No signet or separate authorship proof is present in this source.
+
+### SAT archive transcript crosswalk
+
+Two SAT archive paths resolve to one byte-identical text body:
+
+- `000 Earliest SAT_RMS/002 Forces Across Temporal Points - to 8-13-24.txt`
+- `000 Earliest SAT_RMS/Hosts Aiden and Maya/SEASON ONE/002 Forces Across Temporal Points - to 8-13-24.txt`
+
+Both have Git blob SHA-1 `42c1faee4e75b254a52161535d667d2d105769ae`, 3,911 characters. One body, two paths; not independent witnesses.
+
+The transcript's `You said:` segment exactly matches the raw HsH user message (550 characters). Its `ChatGPT said:` segment is not byte-identical but matches the raw assistant text after Markdown/whitespace normalization (raw 3,244 characters; transcript 3,184 characters).
+
+The filename suffix `to 8-13-24` is not the message date. The raw JSON gives August 9 UTC. The March 22, 2024 `DIMENSIONAL GRAVITY` conversation predates this exchange and already contains a user-role cross-temporal-tug hypothesis. This August exchange is not the origin of that hypothesis.
+
+### Attribution and theory-version boundary
+
+- The direct user content is a block-universe question.
+- The explicit SAT/filament/cross-temporal-force interpretation appears in the assistant response, not in the user question.
+- The assistant may have been using prior context; `memory_scope=global_enabled` does not identify its source. Do not infer copying, causal influence, or independent derivation.
+- This is not independent confirmation of the March 2024 hypothesis.
+- The assistant's classical-mechanics, relativity, quantum-mechanics and retrocausality discussion is not a sourced standard-reference review.
+- Keep this August 2024 exchange, March 2024 time-surface/tug vocabulary, and current 2026 timesheet/time-wavefront primitives as separate source strata.
+
+### Formalization and physical boundary
+
+No typed 4-manifold/metric, worldline parameterization, interaction operator, force law, temporal boundary condition, propagation kernel, units, or observation map is supplied. No faithful cross-temporal-force theorem is defined. Existing projection/intersection modules do not prove force propagation.
+
+No new Lean module/build, physical calculation, CODATA comparison, fit, prediction, independent measurement, or equation correction.
+
+### Navigation and next cursor
+
+- Mersearch 1.0 release, Worker Start Here, Reference Desk and navigation preflight were read. Stable commit: `89933c358b67ccbfbbaa680aadeb1f35d22d91b2`.
+- No Mersearch connector action or local checkout was available. Four active request lanes remain occupied; all 12 request-scoped manifest/receipt paths were checked and absent. No request was modified or retriggered.
+- HsH Conversation Chronology located the raw source; the raw HsH JSON and both SAT archive aliases were fetched and compared. HSH_RESOURCES root/AI start guidance was read; no private payload was opened.
+- This was known-path source recovery, not a Mersearch search result or exhaustive three-repository search.
+- Public-safe source report: issue #1870, submission `loom-forces-across-temporal-points-source-recovery-20261117t0124z-s2-001`, content SHA-256 `81457604148e3e2cc75393726245d9a3ddce95c993ad9ee0b1b3e46961cab15a`. Publisher status must be read back separately; issue creation alone is not publication.
+- This two-message ancestry is complete. Do not retag the already-covered 138/138 DIMENSIONAL GRAVITY user-role turns. Next source work: a distinct adjacent raw conversation or the full later Scalar-Angular-Torsion source with exact bytes/provenance, before any cross-variant map.
