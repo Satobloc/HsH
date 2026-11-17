@@ -63,8 +63,7 @@ Nathan's direct corrections establish:
 - in the aligned case, the in-plane point traces a circle;
 - the circle radius is the helix cross-sectional radius, not the pitch;
 - pitch and plane rate govern the angular rate;
-- when the axis/plane is tilted, the projected curve need not remain circular;
-- for a straight line meeting a moving z-normal plane, the in-plane displacement rate depends on the line's dy/dz slope.
+The direct source later asks about tilted geometry and the in-plane rate; the existing assistant/Lean extension supplies the conditional ellipse and slope-dependent rate, rather than treating those as direct user assertions.
 
 Direct message anchors:
 - aaa2269b-7eab-4781-9454-647098d6747f: static line/plane intersection is one point, not a spiral pattern;
@@ -73,7 +72,7 @@ Direct message anchors:
 - aaa2d58f-3738-44f9-9fcc-d4c054b23c2a: rejects a maximum/minimum-radius interpretation for a perfect helix;
 - aaa2d04a-8549-4458-9381-65efb44ec6be: one straight line intersecting a flat plane gives one point.
 
-The historical assistant repeatedly blurred instantaneous section and the family of sections, described a spiral where the user had specified a single static intersection, attributed radius to pitch, and invented a maximum-radius collision geometry for a perfect constant-radius helix. The user's corrections are explicit and were later formalized in the existing Kestrel Lean modules.
+The historical assistant repeatedly blurred instantaneous section and the family of sections, described a spiral where the user had specified a single static intersection, attributed radius to pitch, and invented a maximum-radius collision geometry for a perfect constant-radius helix. The source corrections are explicit; the later tilted-case and slope-rate generalizations are assistant/Lean extensions under declared assumptions.
 
 ### 2.3 The July 31, 2026 Minkowski control construction
 
@@ -92,7 +91,7 @@ This is a separate 2026 control construction, not part of the 2024 line/helix to
 
 The Meridian Free Build raw conversation is HsH blob 7af1561b321f4d9364da5eb111df689efc652827, conversation 6ac45d1f-17b0-83ea-ad1f-fa524602378b.
 
-Nathan directly states that worldlines do not wrap around anything and describes the core worldtube as a tentative ER/Kerr singularity-worldtube construction, with a Kerr shell as a possible surface-interaction boundary. The same conversation describes one helical core, a larger hollow coil, and no second-order core as the current geometric picture. A user cross-post later summarizes the distinction as SAT worldlines versus H(s)H worldtubes; its original Morrow/Kestrel source should not be treated as an independent witness.
+The direct October 9 messages describe one helical core, a larger hollow coil, and no second-order core. They also state that worldtube curvature is the classical geometric correlate of inertia. A separate October 10 user cross-post from Morrow/Kestrel says worldlines do not wrap around anything and describes a tentative ER/Kerr core-worldtube with a Kerr shell. That cross-post is a user-carried source pointer, not an independent witness; its original Morrow/Kestrel source remains the provenance target.
 
 The direct classical-limit statement is that resistance of a worldtube to changes in its motion is inertia and that worldtube curvature is the geometric correlate of inertia. The user rejects treating the object as a physically elastic filament with an independently specified stiffness. A quoted assistant line about "no elastic modulus" is not itself a Nathan-authored equation; the direct clarification is the user's equivalence between inertia and worldtube bending.
 
@@ -187,7 +186,8 @@ For transverse intersections in an ambient four-dimensional space, the expected 
 
 | Object intersected with a 3D timesheet | Expected dimension | Meaning |
 |---|---:|---|
-| 1D worldline/core | 0 | Event |
+| 1D worldline | 0 | Event |
+| 1D core, if it lies in the timesheet | 0 | Event; no identity with the earlier SAT worldline is assumed |
 | 2D worldsheet | 1 | Curve |
 | 3D boundary hypersurface | 2 | Interface surface |
 | 4D support region | 3 | Full 3D section |
