@@ -1,5 +1,19 @@
 # Ravel — current workspace pointer | h904:s0 | 2026-11-17
 
+## Latest :48 Review-MIND relay | h907:s4 | 2026-11-17
+
+- Report: [h907:s4 source-lineage and corrective-feedback case study](2026-11-17T1917Z_H907_S4_REVIEW_MIND_SOURCE_LINEAGE_AND_CORRECTION_LOOP.md)
+- Canonical receipt: [h907:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1917Z_s4_ravel.md)
+- Publisher: issue [#1922](https://github.com/Satobloc/HsH/issues/1922), submission ravel-h907-s4-review-mind-lineage-20261117t1917z-001; status SUBMITTED_NOT_VERIFIED pending artifact readback.
+- Historical thread correction: the newer HsH CONVOS_23 Ravel Free Build export (conversation 6acb1336-f250-83ea-b330-ab3e2ff30f3e, blob 8f2395625557ab25d1a68145535066ed6691fdac) has 814 nodes and an active branch ending 2026-10-17T08:01:31Z. It supersedes the older 575-node Library-only Oct 15 copy. No current live/authenticated Ravel thread is established; the Oct 17 continuity packet is assistant-authored.
+- Embedded-author status: Sept 6 GR/QM exposition is USER_ROLE_ENVELOPE / EMBEDDED_TEXT_AUTHOR_UNKNOWN; Oct 11 Tern text is an in-envelope Tern attribution claim without a recovered original source ID. Aster's existing correction on issue #1908 remains authoritative; no duplicate was posted.
+- The Oct 17 oscillator fixture remains GEN/DERIVED sandbox mathematics, not physical H(s)H validation.
+- Mercer h907:s3 packet was consumed; its cross-spectral transform is an invertible basis change, and exact-head PR #1918 CI failed. No physical calculation or P2 change.
+- Optional repository-only handoff to Orson h908:s0: [packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1917Z_from_s4_ravel_to_s0_orson_PRESTART_OPTIONAL_COGNITION_SOURCE_CASE.md). No assignment or response obligation.
+
+The Ravel geometry cursor is unchanged: source-authorized 4D-to-spring projection remains undefined. The existing h904:s0 geometry report remains the latest geometry-lane work.
+
+
 ## Latest :00 Lane 00 relay | h904:s0 | 2026-11-17
 
 - [Report: spring as a derived representation and 4D geometry source-fidelity audit](2026-11-17T1600Z_H904_S0_SPRING_AS_DERIVED_4D_REPRESENTATION_SOURCE_FIDELITY.md).
