@@ -25,13 +25,31 @@ The WKBJ broadening theorem is deliberately conditional on an interval for the
 logarithmic bracket. Python independently evaluates that bracket; this Lean
 module does not prove the logarithm interval.
 
-The Barckicke 2026 resolution/uncertainty values are kept in a separate
-namespace below. Its published dispersion analysis uses measured a0 but fits
-(Gamma, v_z) to the dispersion data, then checks those fitted parameters
-a posteriori against PIV/PTV measurements; that curve match is not a blind
-holdout prediction. The rendered Methods PDF page 6 confirms k0/(2 pi)=25
-m^-1 in the WKBJ estimate; use the rendered page rather than lossy text
-extraction when resolving that digit.
+Paper-specific scope must remain separate:
+
+* Nature Physics 22 (2026): the article defines both displacement eta and
+  mean-radius a from the two opposing contours. Its Methods says eta selects
+  m=1 while a selects the other modes (m=0,2,3,...). Its dispersion analysis
+  uses measured a0, fits (Gamma, v_z) to the dispersion data, and checks that
+  fitted pair a posteriori against PIV/PTV. This is fit-conditioned, not a
+  blind holdout prediction.
+* Physical Review Letters 137 (2026): the follow-up defines eta by the same
+  antipodal difference and analyzes S_eta. Figure 2 says other patches are
+  higher-m modes, including m=2 flattening. Under the same two-point operator,
+  an even m=2 contribution belongs to the common-mode/radius channel, not the
+  displacement channel. This is an unresolved cross-paper mode-channel seam:
+  it may reflect additional image processing, nonlinear coupling, or a
+  different inference path. It is not evidence of an experimental error.
+  Do not assign m=2 from S_eta alone without the raw contour pipeline.
+* Do not transfer the Nature paper's fit/validation classification to the
+  PRL follow-up. The PRL labels its Fig. 2 parameters as measured, uses a
+  different figure-specific a0 in Figs. 3-5, and states that its research data
+  and software are not publicly available. The Nature Figshare package is a
+  separate data product, not a substitute for PRL raw data.
+
+The rendered Nature Methods PDF page 6 confirms k0/(2 pi)=25 m^-1 in the
+WKBJ estimate; use the rendered page rather than lossy text extraction when
+resolving that digit.
 -/
 
 namespace HsHVerification.KestrelKelvinVortexReadout
