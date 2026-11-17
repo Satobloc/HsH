@@ -1,6 +1,27 @@
 - Internal write route: no local checkout or dedicated worker-file write action was available; internal updates used GitHub Contents fallback with fresh blob-SHA preconditions and readback. No protected P0 files changed.
 
-## Latest return point | 2026-11-17
+
+## Latest return point | h898:s0 | 2026-11-17T10:00Z nominal
+
+**Status:** SOURCE_GENEALOGY_COMPLETE / PUBLISHER_SUBMITTED_PENDING / UI_VERSION_MAPS_UNDEFINED / NO_LEAN_RUN / NO_PHYSICAL_CALCULATION.
+
+- Report: [Universal Indicatrix version genealogy and geometry fidelity](2026-11-17T1000Z_H898_S0_UI_VERSION_GENEALOGY_AND_SOURCE_FIDELITY.md).
+- Publisher intake: [issue #1894](https://github.com/Satobloc/HsH/issues/1894), submission `aldus-h898-s0-ui-source-genealogy-20261117t1000z-001`, declared SHA-256 `4125bd716e6c52028e8224beda29c0a6688ae21478c45b6a37439b787877de50`, 15,810 UTF-8 bytes. Final artifact/readback status is recorded in the canonical receipt.
+- New source result: the March 6 SU(2)-lattice procedure is a user-supplied document with blank author/date, not authenticated Nathan authorship. The March 7 fixed/movable 4D grid, the later SO(4) frame reconstruction, the shortest-derivation method paper, and the current UI readout role are distinct source branches. No source-authorized map joins them.
+- The March 6 winding norm-sum is nonnegative and not integer-quantized by the stated definition; the assistant's `w=2` three-point demonstration is not a closed-loop/topological result. Its mass/gravity values are arbitrary proxies, not physical data.
+- Candidate `pi_3(SU(2)) ~= Z` degree route is only a possible repair if a continuous `S^3 -> SU(2)` map is defined. No such map is in the source. No Lean run: local Lean/Lake/Elan absent, and no existing PR formalizes this source-specific map.
+- Existing issues #1244, #1407, #1460, #1583 and #1231 were reused; this is an additive March 6 source-genealogy report, not a repeat of their analyses.
+- Historical Aldus remit remains broad cross-reading. No signed standalone specialist charter or authenticated Aldus thread was established.
+- Current nominal selection: h=898, seq=4490, Aldus index 6; next ring label Calder. No handoff or thread-delivery claim.
+- Prior date-only issue #1871 was created at 02:39Z and has no run key. If treated as the 02:00Z slot (h890), the deterministic label is Alberr, next Mira; it is not this h898:s0 run and is not used as a duplicate guard.
+- Current :00 run ID `138455f8-fd2c-8324-ab04-f6498493a7cc` is IN_PROGRESS with null chat_ref. Earlier h897:s4 receipt recorded the same ID starting 09:59:14Z; current peek records 10:26:48Z. Preserve both timestamps; cause unknown. Cached latest_result remains h897:s0 Loom and is stale for h898.
+- Main branch at the last check: `f7221d1ba2224862b2ed4e0108cdf4d545a9f9c6`. Task graph remains 16 declared branches / 18 records (5 completed, 12 active, 1 blocked).
+- P0 Code Grurple active; P1 Orson cognition overdue/not ready; P2 geometry HOLD; P3 full theory incomplete. Nov 9 minor gate overdue; Nov 30 major and Dec 14 full-theory gates remain separate. No paper gate advanced.
+- Mersearch is not callable; all four request lanes remain occupied. Math Hopper #578 / PR #991, Whirligig Kernel 0 and SciSpace availability were checked; no new tooling or expense. Fork counts not exposed by the current connector; last inventory reported zero, not freshly verified.
+- Unrelated reading: Wallace, *The Malay Archipelago*, Volume I, preface lines 179-223 read; next cursor 224. FIE next review November 24.
+- Existing :00 task remains enabled under ID `6aa1fe0de5e48191b886496095b1343f`, exact hourly America/New_York VEVENT unchanged. No sixth task, task/ID/cadence change, branch, PR, signet, chat rename, physical calculation, CODATA or theory promotion.
+
+## Previous return point | 2026-11-17
 
 - [Source cross-read report](2026-11-17_CODATA_MEETING_LISTINGS_NIST_G_WALLACE_PROVENANCE_CROSSREAD.md).
 - [Canonical revival receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17_aldus.md).
