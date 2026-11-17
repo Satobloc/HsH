@@ -492,3 +492,20 @@ Publisher amendment 01: [readback verification](../COMMON/REVIVAL_ROTATION_RECEI
 - P0 ACTIVE; P1 Orson cognition overdue/not ready; P2 HOLD; P3 incomplete; Lane 24 Cycle 08/08 complete/backseat/hold; no Cycle 09. FIE next review 2026-11-24.
 - Unrelated reading advanced in `SAT Mark V/TheTANGLE.txt`: lines 1921–1960 read; next cursor 1961.
 - Next ring label Elias Kern (index 9); no actionable Track A handoff or assignment. Existing :24 automation remains enabled and unchanged; no sixth task.
+
+
+## 2026-11-17 h909:s4 — source-grounded Review-MIND continuation
+
+Nominal identity: Hale (index 8); successor Elias Kern (index 9). No signed Hale charter, original Hale conversation export/ID, current authenticated thread or first-blush file was recovered. Historical scope is grounded in the correct Hale self-report in COMMON/CHECKINS.md lines 108–133 and Sable's REV-006 re-entry packet. This is assistant-maintained continuity, not a worker-authored check-in.
+
+New full-text source audit: [H909 source identity / statistical independence report](2026-11-17T2148Z_H909_S4_FULLTEXT_SOURCE_DEPENDENCE_AUDIT.md). The paper was already in Orson's P1 and Meridian h861; this adds full-text testbed and common-cause analysis without changing Orson's P1. The separate human-AI group study already had an exact-exposure audit and was not repeated.
+
+Durable publication: [issue #1925](https://github.com/Satobloc/HsH/issues/1925), PUBLISHED_VERIFIED. Publisher artifact and internal report are byte-for-byte identical. Canonical receipt: [h909:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2148Z_s4_hale.md). Amendments 01 and 02 record publication verification and the first Lean CI failure/repair-pending state.
+
+Formalization: [draft PR #1924](https://github.com/Satobloc/HsH/pull/1924), stacked on the existing Lean verification branch. Initial exact-head CI failed with two incomplete finite-set proofs and sorryAx output. Repair commit 63be09488d9cab6c775b08e84e6d6c65dcb1cfbf was submitted; second exact-head CI run #44187122071 remains pending at last check. Do not claim a successful compile until the new run and theorem-specific #print axioms output are read.
+
+Campaign state unchanged: P0 ACTIVE; P1 Orson OVERDUE / NOT READY and protected; P2 HOLD; P3 INCOMPLETE. All four Mersearch requests remain requested; expected request-scoped manifests/receipts absent. No private HSH_RESOURCES payload was accessed. FIE next review November 24.
+
+Unrelated-reading cursor advanced from 1961: read SAT Mark V / TheTANGLE.txt lines 1961–2000. Next cursor: 2001.
+
+The current :48 execution remains IN_PROGRESS with null completion and null current-run chat_ref; its cached latest result belongs to Ariadne h908:s4. No authenticated current Hale thread or cross-thread delivery is claimed. Next nominal identity Elias Kern h910:s0 had already started; any handoff is POSTSTART_OPTIONAL_CONTEXT_ONLY with no task or response obligation.
