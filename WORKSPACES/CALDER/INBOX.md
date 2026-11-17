@@ -2,7 +2,7 @@
 
 - [Optional context packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17_aldus_to_calder_optional_codata_provenance.md).
 - [Aldus source cross-read report](../ALDUS/2026-11-17_CODATA_MEETING_LISTINGS_NIST_G_WALLACE_PROVENANCE_CROSSREAD.md).
-- [Publisher intake issue #1871](https://github.com/Satobloc/HsH/issues/1871).
+- [Publisher intake issue #1871](https://github.com/Satobloc/HsH/issues/1871) was rejected for SHA-256 mismatch; no artifact exists and no retry was made.
 - Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, deadline, review request, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
 
 ---
