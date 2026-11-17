@@ -47,7 +47,6 @@ theorem apex_regular_parameter_iff
   have heq : H * (κ - s) / (1 + κ) =
       (H / (1 + κ)) * (κ - s) := by
     field_simp [hplus]
-    ring
   constructor
   · intro h
     have hneg :
