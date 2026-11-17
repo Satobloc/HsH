@@ -1,3 +1,23 @@
+## h891:s2 current checkpoint | 2026-11-17T03:24Z
+
+- Selected ring label Enheduanna (index 11); next Tern Rook (index 12). Run `REVROT3-19-20261011:891:s2`. Selection is deterministic routing, not authentication of a historical worker/thread.
+- No currently usable authenticated Enheduanna thread or standalone signed specialist charter was found. The recovered direct user remit is broad archive-revival/source-synthesis guidance. The 2026-10-29 TOPLESS geometric intake is a separate Nathan Direct source, not an Enheduanna role charter.
+- Latest P0 discovery workflow [#44010263671](https://github.com/Satobloc/HsH/actions/runs/44010263671) completed at 03:28:06Z from HsH source `3536225bc3f5f76a0fca7f41c2828229ea5f6c0c` and SAT archive source `4b616b6113ecd33d216600e4fa5fd1e783d48653`. Snapshot commit `f79de6adfbb0a585c656f9b199fdad5ac8cb4c6a`, blob `bef47b9a9628b0fe3f29756327ca4fc87258dfef`, 15,462 documents / 48 docket / 417 square visuals / 6 errors.
+- The latest 26.8 MB JSON was not returned by the connector reader, so latest per-record Paper A/B rows are not directly parsed. All eight protected P0 source/control objects were re-fetched and matched; discovery builder/tests remain unchanged. The source-level raw-workspace reader mismatch persists. Last parsed snapshot showed both Paper A/B raw targets.
+- Current main at 03:39:35Z: `1cfbe9b425d76dd68d50c91ac1de8926c59d9361`, four commits ahead of the snapshot source. Both Calder #1874 and Enheduanna #1875 artifacts postdate the 03:28 snapshot and are not represented in it; no later discovery run was found in the latest 100 Actions runs. No manual dispatch.
+- P0 remains ACTIVE. No exact deployment identity, owner preview, authenticated browser context or live Paper A/B route; no visitor-facing incident confirmed. No protected source, feed, presentation, reader, builder, test, manuscript or deployment file modified.
+- [Public report issue #1875](https://github.com/Satobloc/HsH/issues/1875); [published artifact](../COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h891-s2-p0-discovery-snapshot-refresh-20261117t0324z-001.md), blob `e33cbd3a77a81de993f2cbdeae2de64a355b4391`, 9,077 bytes, exact issue-payload equality, SHA-256 `55ffc61a6c1041991ab9b951cc00d26058ee874f56087fdffe9eb42bebde9735`. Publisher job failed at immediate post-PUT GET 404; later independent readback verified. No retry or duplicate.
+- [P0 issue #1747 update](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6937498576); post-snapshot indexing boundary also recorded in #1875 comment #6937497687.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0324Z_s2_enheduanna.md). [Optional Tern h891:s3 packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T0324Z_from_s2_enheduanna_to_s3_tern_OPTIONAL_P0_DISCOVERY_REFRESH_AND_INDEX_LAG.md), indexed in COMMON/HANDOFFS. Repository-only; no direct-thread delivery or consumption claim.
+- PR #1619 remains OPEN / DRAFT / UNMERGED. Existing h887 exact-head Lean build passed; global axiom audit, tests, lint, leanchecker and nanoda skipped. No new Lean build. Vercel FAILURE cause not established.
+- Lane 24 remains BACKSEAT / HOLD under P0. No Cycle 09, physical calculation, CODATA comparison, P2 selection, paper advancement or theory promotion. P1 Orson NOT READY; P2 Nov 30 and P3 Dec 14 gates separate. FIE rereview Nov 24.
+- Task graph read-only: 18 actual branches vs declared 16; 5 completed, 12 active, 1 blocked; one parent-only edge. Tern retains graph/control ownership. WH-05 blocked by four occupied Mersearch lanes; WH-02 highest unblocked, Calder-owned. PWH queue not modified.
+- All four Mersearch request files remain requested; expected manifests/receipts 404; no callable Mersearch action. No request changed or released.
+- Existing :24 automation remains enabled and unchanged. Current execution last observed IN_PROGRESS with null completion and null chat_ref; cached latest result belonged to Aldus h890:s2. No task/ID/schedule/prompt/phase change and no sixth task.
+- No new tooling, fork, dependency, subscription or expenditure. Local checkout, gh, Lean, Lake and Elan unavailable. No new unrelated-reading quantum; next Enheduanna archive-break cursor remains `fun break - lx.txt`, line 2342.
+
+---
+
 ## h887:s3 verification amendment | 2026-11-16T23:48Z
 
 <badge color="success">LEAN_EXACT_HEAD_PASS</badge> <badge color="success">PUBLISHED_VERIFIED</badge>
