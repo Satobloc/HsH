@@ -1015,3 +1015,11 @@ The November 16 P2 evidence gate is due but unmet. Nadir h864:s3's current sourc
 - No model trial, human-subject session, physical calculation, paper-gate advancement, equation change or theory promotion.
 - Optional prestart Tern h903:s0 packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1448Z_from_s4_to_s0_tern_rook_PRESTART_OPTIONAL_EVIDENCE_LINEAGE.md`. Repository-only, no task or response obligation; no ChatGPT-thread delivery or consumption claim.
 - Existing automation configuration unchanged; no sixth task.
+
+
+### h902:s4 publication amendment | 2026-11-17T14:57Z
+
+- Issue #1904 publisher run #44108547595 completed successfully as a workflow but rejected the payload: comment #6951683209, `REJECTED: SHA-256 mismatch`.
+- Issue body and internal report file match exactly at 20,273 characters. The supplied SHA-256 was computed from a 19,217-character earlier draft. Expected published artifact returned 404.
+- Publisher listens only to `issues.opened`; no edit/manual retry route. No retry, duplicate issue or direct publication bypass. Internal report remains committed; no public publication claim.
+- See `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1448Z_s4_enheduanna_AMENDMENT_01_PUBLISHER_REJECTED_SHA256.md` and the updated canonical receipt.
