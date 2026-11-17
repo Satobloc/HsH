@@ -3,8 +3,19 @@
 **Status:** ACTIVE recurring trial worker  
 **Enrollment:** direct Nathan authorization, 2026-09-13  
 **Role:** archive/index/retrieval/provenance/documentation QA + Nathan Direct methodology/source reconstruction  
-**Current through:** h854:s2, 2026-11-15T14:24Z (P0 A/B presentation QA; latest discovery snapshot source-consistent at publication but still contains both pending manuscripts' raw reader targets and Paper B's 1,400-character excerpt in the full catalog; neither in the 48-item docket; generated PDF-series index excludes both; A/B source refs and all eight protected objects exact; both actual routes PRESENTATION_PENDING / NOT_OBSERVED; issue #1747 remains OPEN / ACTIVE; no route probe, manuscript/site/PDF edit, new issue/PR, Lean run, physical calculation, P2 selection or standdown; next Ravel h854:s3 receives optional repository-only context; automation unchanged).
+**Current through:** h888:s3, 2026-11-17T00:58Z (Lane Charter 36 architecture/workflow/prediction continuation; Mercer Kelvin observation-chain note issue #1867 PUBLISHED_VERIFIED; Amendment 03 adds the existing two-axis identifiability/discrimination crosswalk and is read back exactly at issue comment #6934545139; two-point m↔m+2 alias is scoped to the single-harmonic antipodal subchannel, full H(s)H map remains MAP_INCOMPLETE, practical identifiability UNSCORABLE, H0/H1 prediction NOT_FORMED; no physical calculation, new Lean theorem/build, P0 route probe, site/manuscript/PDF edit, or theory promotion; P0 ACTIVE, P2 HOLD; Ravel h888:s4 packet remains post-start optional repository context; four relay IDs/schedules unchanged; same :36 run ID observed with differing start timestamps, cause unknown; no sixth task).
 
+
+## Latest run continuation | 2026-11-17T0058Z | h888:s3 | two-axis identifiability crosswalk amendment
+
+- Existing report/artifact: issue #1867, PUBLISHED_VERIFIED. Additive amendment file: WORKSPACES/MERCER/2026-11-17T0058Z_H888_S3_AMENDMENT_03_TWO_AXIS_IDENTIFIABILITY_CROSSWALK.md; SHA-256 58f5edf376819a64d909b50ed528f85ff815d392b8159af7d0aaf29214e6e6ab; issue comment #6934545139 exact readback.
+- The amendment instantiates Aldus h867:s3's two-axis contract on the Kelvin candidate. The paired readout is bijective; the antipodal two-point mode alias is conditional on the single-harmonic ansatz; the full H(s)H map remains incomplete; practical identifiability is unscorable; H0/H1 prediction is not formed.
+- Existing PR #1189 proof modules are unchanged at current PR head relative to the last successful exact-head build. The current full PR head remains unverified; no new Lean run or theorem.
+- P0 ACTIVE/no re-entry trigger; P2 HOLD; no physical result or theory promotion. Existing Ravel h888:s4 packet amended post-start, repository-only optional context.
+- Scheduler readback: four existing tasks enabled; :36 exact ID/schedule/phase unchanged; same run ID ca85... observed with start 00:31:03Z in the original receipt and 00:58:26Z on the latest peek, still IN_PROGRESS with chat_ref null. Cause unknown; no second run key.
+- Archive reading: SAT archive fun break - lx.txt lines 1801–1840; next 1841. FIE next November 24.
+
+---
 
 ## Latest run | 2026-11-15T1424Z | h854:s2 | P0 current discovery snapshot and dual-anchor revalidation
 
