@@ -1,7 +1,7 @@
 # H907:s0 Amendment 03 | SAT4D cross-version geometry and source-fidelity ledger
 
 **Amendment time:** 2026-11-17T19:31Z observation  
-**Parent run key:** \`REVROT3-19-20261011:907:s0\`  
+**Parent run key:** `REVROT3-19-20261011:907:s0`  
 **Selected identity:** Morrow, ring index 13; next Kestrel, index 14  
 **Classification:** INTERNAL SOURCE-FIDELITY AMENDMENT / NOT A NEW RUN / NOT A THEORY-INTEGRATION PASS
 
@@ -11,18 +11,18 @@ This amendment extends the existing h907 report rather than creating a second re
 
 The raw Morrow source conversation was fetched by its known Git blob:
 
-- Conversation ID: \`6a9ee7ca-d340-83ea-b99d-6a3097429f36\`
-- Raw export blob: \`ee394b446b2e36d35fd1e5ecd004685c0422457b\`
+- Conversation ID: `6a9ee7ca-d340-83ea-b99d-6a3097429f36`
+- Raw export blob: `ee394b446b2e36d35fd1e5ecd004685c0422457b`
 - Parsed size: 3,013,273 characters; 697 mapping nodes; 17 user-role messages.
 - This is one conversation snapshot, not independent corroboration.
 
 The original user-role messages establish:
 
-- \`402ade01-7116-4efb-9b14-31e477754458\` (2026-09-08): provisional Team Archivist remit, broad archive appraisal, source comparison, and a warning not to treat the initial priority list as exhaustive.
-- \`934e87de-4e61-4622-a0ea-e5047aa235c6\` (2026-09-13): explicit instruction to stop work on the theory and quarantine unique artifacts.
-- \`99ae959b-fbeb-4c1e-9326-a6723c2b9557\` (2026-09-13): later invitation to an archive/maintenance/reconstruction trial, expressly allowing source comparison, theory-material reading and note-taking, mathematical/equation checking, provenance, chronology and constructive critique.
+- `402ade01-7116-4efb-9b14-31e477754458` (2026-09-08): provisional Team Archivist remit, broad archive appraisal, source comparison, and a warning not to treat the initial priority list as exhaustive.
+- `934e87de-4e61-4622-a0ea-e5047aa235c6` (2026-09-13): explicit instruction to stop work on the theory and quarantine unique artifacts.
+- `99ae959b-fbeb-4c1e-9326-a6723c2b9557` (2026-09-13): later invitation to an archive/maintenance/reconstruction trial, expressly allowing source comparison, theory-material reading and note-taking, mathematical/equation checking, provenance, chronology and constructive critique.
 
-The later invitation does not expressly lift the theory stop. It authorizes bounded source work, not theory integration, physical prediction or paper production. No standalone signed specialist charter was recovered; these primary user messages are the authority. The September 9 messages \`87cf1b1c-5ed7-4082-a0fe-6ed5c79dce3b\` and \`fa3afa98-8d69-4bf1-878a-4d148d4473d2\` further distinguish RMS from SAT and describe the archive as preserved developmental history rather than a settled policy manual.
+The later invitation does not expressly lift the theory stop. It authorizes bounded source work, not theory integration, physical prediction or paper production. No standalone signed specialist charter was recovered; these primary user messages are the authority. The September 9 messages `87cf1b1c-5ed7-4082-a0fe-6ed5c79dce3b` and `fa3afa98-8d69-4bf1-878a-4d148d4473d2` further distinguish RMS from SAT and describe the archive as preserved developmental history rather than a settled policy manual.
 
 Browser tab access failed because this runtime did not have the originating browser context. No authenticated current Morrow thread was found, reopened, or messaged. This is assistant-level source-grounded work, not participation by the historical Morrow instance.
 
@@ -32,14 +32,14 @@ Mersearch was checked first but no callable Mersearch action was available. The 
 
 | Artifact | Source status and date | Git blob SHA-1 | Additional identity |
 |---|---|---|---|
-| \`SATOBLOC/SAT O1 4D.txt\` | Unbylined; file-index created 2025-06-07 08:38:16, modified 2025-06-09 18:44:50 | \`7577aa1ee5a6c3850ce3b226c75377de6367aedc\` | Recorded SHA-256 \`8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937\` |
-| \`SATOBLOC/SAT4D_LIVE_DRAFT.txt\` | Document-level byline Nathan McKnight; header June 2025; explicitly DRAFT / development bible / theory to be redeveloped | \`2a79fe25018cce7e99a2c33786d88b0551db6ae7\` | Recorded SHA-256 \`c3f90cdeda667f20c7ab9ab33eea2e23c5245d94c1e4f99f3aec5e3e7f1f6cb7\` |
-| \`SATOBLOC/SAT O4 4D.txt\` | Unbylined; file-index created 2025-06-07 09:28:41, modified 2025-06-09 18:45:20 | \`32462848d9927619624928df3a1df35feb0f126d\` | Separate O4 stability-claim artifact |
-| \`SAT 4D Theory Work/SAT4D_4.txt\` | Byline SATO.4D Coherence Project; document date July 2025 | \`efc88f4523b2fd616e64898737c2aa45e5f39b9a\` | Glossary / mathematical vocabulary |
-| \`SAT 4D Theory Work/SAT4D_6.txt\` | Unbylined; document date July 2025 | \`167136310cdf33ca8f986f33634692314c1a0946\` | Deployment / derivation constraints |
-| \`SAT 4D Theory Work/SAT4D_8.txt\` | Byline SATO.4D Coherence Project; document date July 2025 | \`6a1ef773c40f805aace5fd61e3584ba50c21241d\` | Interpretive-mode definitions |
-| \`SAT 4D Theory Work/SAT4D_9.txt\` | No author attribution; date field is \`\\today\` | \`19610d8eb16878ace3a2cf50047bff9319ed1b27\` | Derivation index with placeholders |
-| \`SAT 4D Theory Work/SAT4D_3.txt\` / \`SAT4D_7.txt\` | July 2025 status documents | \`f2a2540da5bb399ed4218d65a65e3b983dc00d01\` / \`597060293196a8017fbbb144a3393733e76ee267\` | Both mark O4 complete; this is not proof of its claimed theorem |
+| `SATOBLOC/SAT O1 4D.txt` | Unbylined; file-index created 2025-06-07 08:38:16, modified 2025-06-09 18:44:50 | `7577aa1ee5a6c3850ce3b226c75377de6367aedc` | Recorded SHA-256 `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937` |
+| `SATOBLOC/SAT4D_LIVE_DRAFT.txt` | Document-level byline Nathan McKnight; header June 2025; explicitly DRAFT / development bible / theory to be redeveloped | `2a79fe25018cce7e99a2c33786d88b0551db6ae7` | Recorded SHA-256 `c3f90cdeda667f20c7ab9ab33eea2e23c5245d94c1e4f99f3aec5e3e7f1f6cb7` |
+| `SATOBLOC/SAT O4 4D.txt` | Unbylined; file-index created 2025-06-07 09:28:41, modified 2025-06-09 18:45:20 | `32462848d9927619624928df3a1df35feb0f126d` | Separate O4 stability-claim artifact |
+| `SAT 4D Theory Work/SAT4D_4.txt` | Byline SATO.4D Coherence Project; document date July 2025 | `efc88f4523b2fd616e64898737c2aa45e5f39b9a` | Glossary / mathematical vocabulary |
+| `SAT 4D Theory Work/SAT4D_6.txt` | Unbylined; document date July 2025 | `167136310cdf33ca8f986f33634692314c1a0946` | Deployment / derivation constraints |
+| `SAT 4D Theory Work/SAT4D_8.txt` | Byline SATO.4D Coherence Project; document date July 2025 | `6a1ef773c40f805aace5fd61e3584ba50c21241d` | Interpretive-mode definitions |
+| `SAT 4D Theory Work/SAT4D_9.txt` | No author attribution; date field is `\\today` | `19610d8eb16878ace3a2cf50047bff9319ed1b27` | Derivation index with placeholders |
+| `SAT 4D Theory Work/SAT4D_3.txt` / `SAT4D_7.txt` | July 2025 status documents | `f2a2540da5bb399ed4218d65a65e3b983dc00d01` / `597060293196a8017fbbb144a3393733e76ee267` | Both mark O4 complete; this is not proof of its claimed theorem |
 
 The O1 body embedded at lines 133–207 of the larger live draft matches the 58 nonblank body lines of the standalone O1 file after heading and whitespace normalization. These are not independent mathematical witnesses. The larger draft's document-level byline does not establish Nathan Direct authorship of every embedded equation.
 
@@ -73,7 +73,7 @@ O4 asserts the following stability function:
 
 Its accompanying prose identifies \(n=2\) with a Hopf link, \(n=3\) with a Borromean link, and \(n\geq4\) with unstable interlocks. It then maps those claims to meson/baryon stability and rapid decay of higher-constituent exotics. This is an asserted model proposition, not a recovered derivation.
 
-The separately user-supplied Blockwave attachment remains an independent source object with unresolved embedded authorship. Attachment event: 2025-09-16; earliest accessible HsH repository copy: 2025-09-18. Git blob SHA-1 \`ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d\`; recorded SHA-256 \`3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664\`.
+The separately user-supplied Blockwave attachment remains an independent source object with unresolved embedded authorship. Attachment event: 2025-09-16; earliest accessible HsH repository copy: 2025-09-18. Git blob SHA-1 `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`; recorded SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`.
 
 Its original central strings remain:
 
@@ -91,13 +91,13 @@ No SAT-O1, O4, or Blockwave equation was corrected or substituted in this amendm
 
 ## 3. Nathan Direct geometry recovered from the November 8 raw conversation
 
-The Library raw export \`ND Workshop Relay _24 _ Geometry - raw(1).json\` is 8,331,175 bytes and contains conversation \`6aecede1-4c08-83e9-abc4-da64f59a4f51\`; the prior source-custody record identifies raw-export SHA-256 \`875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d\`.
+The Library raw export `ND Workshop Relay _24 _ Geometry - raw(1).json` is 8,331,175 bytes and contains conversation `6aecede1-4c08-83e9-abc4-da64f59a4f51`; the prior source-custody record identifies raw-export SHA-256 `875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d`.
 
 Three user-role messages are especially relevant:
 
-- \`bcbe9ee8-b621-4a40-9edb-b34c17783be5\`, 2026-11-08 18:05:28.410Z: working hypothesis of a four-dimensional tube region around a one-dimensional core, bounded by a three-dimensional boundary; a possible mouth opening onto the timesheet; and a two-dimensional worldsheet as a possible simplification, not a settled identity.
-- \`f9356192-0ec6-4a9c-ab53-ab76bf75c42e\`, 18:36:17.730Z: pair-of-pants is a particular split, not the generic straight-vacuum or coiled-matter tube. The worldsheet reduction is explicitly unresolved; it may be an approximation, and need not discard information.
-- \`c0520975-02a0-408f-a250-364b88ab7b30\`, 20:18:10.172Z: \(w\) is described as a fourth spatial dimension, distinct from proper time \(t\); time moves along \(w\). Several time-surface / bosonic-wavefront / Crullerverse interpretations remain alternatives or tentative constructions. The message also states a preference to remain in a four-dimensional universe and proposes, without formal definition, that a sufficiently convolutable line could map arbitrarily complex information.
+- `bcbe9ee8-b621-4a40-9edb-b34c17783be5`, 2026-11-08 18:05:28.410Z: working hypothesis of a four-dimensional tube region around a one-dimensional core, bounded by a three-dimensional boundary; a possible mouth opening onto the timesheet; and a two-dimensional worldsheet as a possible simplification, not a settled identity.
+- `f9356192-0ec6-4a9c-ab53-ab76bf75c42e`, 18:36:17.730Z: pair-of-pants is a particular split, not the generic straight-vacuum or coiled-matter tube. The worldsheet reduction is explicitly unresolved; it may be an approximation, and need not discard information.
+- `c0520975-02a0-408f-a250-364b88ab7b30`, 20:18:10.172Z: \(w\) is described as a fourth spatial dimension, distinct from proper time \(t\); time moves along \(w\). Several time-surface / bosonic-wavefront / Crullerverse interpretations remain alternatives or tentative constructions. The message also states a preference to remain in a four-dimensional universe and proposes, without formal definition, that a sufficiently convolutable line could map arbitrarily complex information.
 
 These are direct user-authored geometry statements with explicit tentative language. They are not retroactive definitions of the June O1 action. In particular, the June \(\mathbb{R}^{3,1}\) curve, July \(M^4\) glossary, November \(w\)-spatial description, and current native \(++++\) convention remain distinct representations until a source-authorized map connects them.
 
@@ -168,7 +168,7 @@ NOVEMBER 8 NATHAN DIRECT
   not an established identity with T^4.
 ~~~
 
-The assistant-authored \`SAT4D_MATHEMATICAL_BACKBONE.txt\` introduces an ensemble co-metric, inverse metric, emergent connection, scalar fields, and further field equations. These are assistant reconstructions/proposals, not independent source witnesses. They do not repair the missing O1 curve-to-tube map or derive the July glossary's metric/connection contract from its “none assumed a priori” opening.
+The assistant-authored `SAT4D_MATHEMATICAL_BACKBONE.txt` introduces an ensemble co-metric, inverse metric, emergent connection, scalar fields, and further field equations. These are assistant reconstructions/proposals, not independent source witnesses. They do not repair the missing O1 curve-to-tube map or derive the July glossary's metric/connection contract from its “none assumed a priori” opening.
 
 ## 6. Discrepancy ledger
 
@@ -190,7 +190,7 @@ The November 3 BEDROCK clarification states that “static 4D block” is a meth
 
 ## 7. Proof-first disposition
 
-**Status: \`FORMALIZATION_BLOCKED_SOURCE_OBJECT_AND_METRIC_CONNECTION\`.**
+**Status: `FORMALIZATION_BLOCKED_SOURCE_OBJECT_AND_METRIC_CONNECTION`.**
 
 The geometry is explicit enough to trigger proof triage, but no source-faithful nontrivial theorem is currently well-typed:
 
@@ -203,12 +203,12 @@ The generic mathematical fact that an angle requires an inner product is not a f
 
 ## 8. Operational and publication status
 
-- HsH main pre-amendment head: \`dc271cf2d29b78d563f974f7f11b88a174fd8df6\` (2026-11-17T19:31:35Z).
-- Task graph blob \`48cfe002495cabae9ff5a67cd72fc210b4fbfd36\`: 16 declared branches / 18 records; 17 reachable; one blocked/unreachable. No graph edit.
+- HsH main pre-amendment head: `dc271cf2d29b78d563f974f7f11b88a174fd8df6` (2026-11-17T19:31:35Z).
+- Task graph blob `48cfe002495cabae9ff5a67cd72fc210b4fbfd36`: 16 declared branches / 18 records; 17 reachable; one blocked/unreachable. No graph edit.
 - WH-02 remains Calder / authorized-maintainer owned; WH-05 Mersearch remains blocked. Tern retains scheduler and task-graph authority. No reassignment.
 - P0 Code Grurple ACTIVE; P1 Orson cognition OVERDUE / NOT READY and ownership protected; P2 measured geometry HOLD; P3 full theory INCOMPLETE. FIE review next due 2026-11-24. No paper gate advanced.
-- The existing :00 task ID \`6aa1fe0de5e48191b886496095b1343f\` remains enabled with its exact stored hourly DTSTART \`DTSTART;TZID=America/New_York:20261001T140000\`, \`RRULE:FREQ=HOURLY\`, and :00 phase. :12 remains disabled. No task/ID/schedule/phase change and no sixth task.
-- Last scheduler evidence in Tern issue #1917: h907:s0 run \`e3dda9aa-8568-8323-b381-db7ddd6eba33\` remained IN_PROGRESS with null completion and null \`chat_ref\`; cached latest result was stale. No completion, liveness, authenticated Morrow-thread participation, or cross-thread delivery inferred.
+- The existing :00 task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with its exact stored hourly DTSTART `DTSTART;TZID=America/New_York:20261001T140000`, `RRULE:FREQ=HOURLY`, and :00 phase. :12 remains disabled. No task/ID/schedule/phase change and no sixth task.
+- Last scheduler evidence in Tern issue #1917: h907:s0 run `e3dda9aa-8568-8323-b381-db7ddd6eba33` remained IN_PROGRESS with null completion and null `chat_ref`; cached latest result was stale. No completion, liveness, authenticated Morrow-thread participation, or cross-thread delivery inferred.
 - Kestrel is the next ring label but :12 is disabled; the next enabled :24 selection is Meridian. No handoff or response obligation created.
 - Existing publisher issue #1919 remains rejected for SHA-256 mismatch. Its prior hash correction is preserved in Amendment 02. No issue edit, retry, duplicate issue, direct artifact write, or publisher bypass. This amendment is internal-only and is not a published artifact.
 - Morrow's unrelated-reading cursor remains Okakura, *The Book of Tea*, line 1352. No new reading quantum or physical break is claimed.
@@ -222,4 +222,4 @@ The generic mathematical fact that an angle requires an inner product is not a f
 5. Recover O4's missing derivations before treating its “Theorem” label as mathematical evidence.
 6. Only then admit a faithful Lean target. Keep the original SAT-O and Blockwave equations unchanged until a unique, source-supported correction is established.
 
-**Final disposition:** \`H907_S0_AMENDMENT_03 / SOURCE_FIDELITY_ONLY / NOV08_NATHAN_DIRECT_GEOMETRY_READ / JULY_METRIC_CONNECTION_GAP_EXPANDED / O4_THEOREM_DERIVATION_NOT_FOUND / MODE_DECLARATION_OPEN / NO_NEW_LEAN / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_EQUATION_CORRECTION / NO_THEORY_INTEGRATION / NO_PUBLICATION_RETRY / TASKS_UNCHANGED\`.
+**Final disposition:** `H907_S0_AMENDMENT_03 / SOURCE_FIDELITY_ONLY / NOV08_NATHAN_DIRECT_GEOMETRY_READ / JULY_METRIC_CONNECTION_GAP_EXPANDED / O4_THEOREM_DERIVATION_NOT_FOUND / MODE_DECLARATION_OPEN / NO_NEW_LEAN / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_EQUATION_CORRECTION / NO_THEORY_INTEGRATION / NO_PUBLICATION_RETRY / TASKS_UNCHANGED`.
