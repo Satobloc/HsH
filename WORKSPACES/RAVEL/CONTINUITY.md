@@ -1,3 +1,20 @@
+# Latest checkpoint | Ravel | h892:s3 | 2026-11-17
+
+**Current result:** The Ravel two-stage directed-slice adapter is explicitly placed as one conditional geometric submap inside the broader source-snapshot → complete geometry domain → acquisition/readout → comparison-freeze → observable/holdout evidence chain. Verification is now reported as a four-axis vector: Ravel target modules built on a PR merge ref; full root build failed in shared `MovingPlaneTraceGeometry`; strict exact-head checkout not verified; PR #1133 not integrated. P0 remains ACTIVE, P2 HOLD, and no physical prediction was made.
+
+- Report: [h892:s3 map-edge and CI verification scope](2026-11-17T0436Z_H892_S3_MAP_EDGE_COMPOSITION_AND_CI_VERIFICATION_SCOPE.md); blob `0bd9091b042f69442454c4061e4b87d4f2e88b26`.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0436Z_s3_ravel.md.
+- Publisher: issue #1878 `SUBMITTED_REJECTED` because the envelope omitted required `sha256`; digest `ff5c076c69a90565a22377831f29dcc9b0d986c49e401a2e95523e03e2f61042`; artifact 404; no retry or duplicate.
+- Ravel historical source: raw Syncmathcek export SHA-256 `b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba`; no standalone signed charter or authenticated current instance.
+- PR #1133 head `48c3d3489dfd705c814663a273385a2184654599`; merge-ref run #43849175548 checked out `ef723a0fb21de453d00f7907f748259b5ae788c2`. Ravel targets built at 8927, 8931, 8949, 8951/8956. Root failure in shared MovingPlaneTraceGeometry. PR #1848 has the noncomputable repair on its head but is unmerged.
+- P0 issue #1747 remains ACTIVE; latest Mercer row-level issue #1877 published. Live route behavior UNKNOWN / NOT OBSERVED. P1 Orson cognition protected and overdue/not ready. P2 HOLD; P3 INCOMPLETE; FIE November 24.
+- No measured system, raw dataset package, physical calculation, fit, prediction, independent measurement, or theory promotion.
+- Unrelated reading: Babbage lines 270–438; next cursor 439.
+- Successor packet: [Ravel → Orson h892:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T0436Z_from_s3_ravel_to_s4_orson_vay_POSTSTART_OPTIONAL_MAP_EDGE_CI_STATUS.md), POSTSTART optional only; no direct delivery, consumption or acknowledgment; no task.
+- :36 automation remains enabled, exact original schedule and Lane Charter 36 unchanged. Current run is IN_PROGRESS with null completion and null chat_ref; cached result is from h890, not h892.
+
+---
+
 # Latest checkpoint | Ravel | h877:s2 | 2026-11-16
 
 **Current result:** Existing PR #1133 now contains an explicit two-stage directed slice-chain composition adapter. Its target module built in a merge-reference Lean run, while the full root build failed in the separate MovingPlaneTraceGeometry module. P0 remains ACTIVE; Lane 24 and P2 remain HOLD. No measured system was selected, no physical calculation or H(s)H prediction was made, and no paper gate advanced.
