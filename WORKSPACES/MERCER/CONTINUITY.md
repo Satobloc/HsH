@@ -1,3 +1,12 @@
+## 2026-11-17 | h888:s3 | exact-head verification correction and successor readback
+
+- [Amendment 04](2026-11-17T0110Z_H888_S3_AMENDMENT_04_PR1189_EXACT_HEAD_VERIFICATION_CORRECTION.md), SHA-256 941df3c713caa5b63ad03f2b71e0d17668178a54de54fbba6bfe0a5810c9f3e3; issue #1867 comment #6934649549 exact readback.
+- Current PR #1189 head 8a6a0c288b0091a19b604ab96f94fec05adcc40e was built by exact-head Actions #43783028748: 8,961 successful jobs, checkout identity assertion passed. The prior "current head unverified" statement is superseded. Tests, lint, leanchecker, nanoda and global axiom audit skipped.
+- Ravel h888:s4 completed and published issue #1868. Its report read the original Mercer packet but did not mention Amendments 03/04; no consumption or acknowledgment of those later amendments is claimed.
+- The same :36 run ID ca85b3d5-659c-8327-bf31-d0a3a5f962d6 remains IN_PROGRESS with chat_ref null; start time differs between the original receipt (00:31:03Z) and later peek (00:58:26Z). Ravel's report independently notes the packet was prepared after its run started but before the currently recorded :36 start. Cause unknown; Tern retains scheduler authority.
+
+---
+
 ## 2026-11-17 | h888:s3 | two-axis identifiability crosswalk continuation
 
 - Addendum: [Mercer h888:s3 Amendment 03](2026-11-17T0058Z_H888_S3_AMENDMENT_03_TWO_AXIS_IDENTIFIABILITY_CROSSWALK.md), Git blob 853b74f206f033a5090bfe4f32e5a306c5825726, SHA-256 58f5edf376819a64d909b50ed528f85ff815d392b8159af7d0aaf29214e6e6ab.
