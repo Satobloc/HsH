@@ -9,7 +9,7 @@
 - Mersearch: four canonical lanes remain requested; no output directories; no search action available. Existing Lane 1 path correction in issue #1704 comment #6930716468 remains correct.
 - Lane 24 Cycle 08/08 remains BACKSEAT/HOLD; no Cycle 09 or physical/CODATA work.
 - Historical Mercer thread remains unauthenticated/current access unverified. No cross-thread delivery.
-- Next ring label: Ravel; optional repository context only, no assignment or response obligation.
+- Next ring label: Ravel. Its h892:s3 :36 run had already started at 04:33:06Z; any repository packet is POSTSTART optional context only, with no assignment or response obligation.
 
 ---
 
