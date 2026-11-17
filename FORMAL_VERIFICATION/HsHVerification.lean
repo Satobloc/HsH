@@ -23,6 +23,7 @@ import HsHVerification.NadirVortexTwoChannelReadout
 import HsHVerification.EnheduannaFourViewReadout
 import HsHVerification.CalderKelvinAngularSampling
 import HsHVerification.CalderUnitLineageHoldout
+import HsHVerification.CalderIndependenceProfile
 import HsHVerification.NadirGPBFourGyroGate
 import HsHVerification.NadirGPBJointCovariance
 import HsHVerification.NadirGPBNiAxialBound
