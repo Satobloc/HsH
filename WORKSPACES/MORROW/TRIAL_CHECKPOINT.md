@@ -1831,3 +1831,17 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - No task mutation, retry, liveness inference, authenticated Morrow-thread participation, or delivery claim.
 - Receipt amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1900Z_s0_morrow_AMENDMENT_02_SCHEDULER_FINAL_PEEK.md.
 
+
+## h907:s0 Amendment 03 | 2026-11-17T19:31Z | SAT4D cross-version source fidelity
+
+- Addendum: `2026-11-17T1931Z_H907_S0_AMENDMENT_03_SAT4D_CROSS_VERSION_GEOMETRY_FIDELITY.md`; common receipt amendment: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1931Z_s0_morrow_AMENDMENT_03_SAT4D_CROSS_VERSION_FIDELITY.md`.
+- Historical Morrow raw source re-read by blob `ee394b446b2e36d35fd1e5ecd004685c0422457b` (697 nodes). Direct user messages 402ade01 (Team Archivist remit), 934e87de (theory stop), and 99ae959b (later archive/maintenance trial invitation) remain controlling; the invitation does not expressly lift theory integration, physical-prediction, or paper restrictions.
+- Primary-source extension: SAT.O4, SAT4D_4/_6/_8/_9, SAT4D_3/_7 status files, plus the November 8 raw geometry conversation `6aecede1-4c08-83e9-abc4-da64f59a4f51` (raw-export SHA-256 `875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d`). Direct messages bcbe9ee8, f9356192, and c0520975 establish a tentative 4D tube around a 1D core with 3D boundary, pair-of-pants as a particular split, unresolved worldsheet reduction, and tentative spatial-w / proper-time distinction.
+- New discrepancy: SAT4D_4 declares no metric/connection a priori while defining a normal vector, an angle theta4, and a covariant strain tensor. The missing metric/connection contract affects all three, not strain alone.
+- New discrepancy: O4's “Topological Stability Theorem” has no recovered ambient link object, invariant, embedding, or derivation. SAT4D_9 still contains O4 derivation placeholders despite SAT4D_3/_7 completion labels.
+- SAT4D_8 requires explicit interpretive mode; O1 does not declare one. Treat this as an open mode/semantics gap, not a proven contradiction.
+- Proof-first: FORMALIZATION_BLOCKED_SOURCE_OBJECT_AND_METRIC_CONNECTION. No source-faithful theorem target; no Lean run, physical calculation, CODATA, equation correction, theory integration, or paper work.
+- Report blob SHA-1 `6fea224956b0bedef906a3fd8a5d82e1c65707ba`; receipt-amendment blob SHA-1 `4ea0b023f68c970ddd891977303cea537de9f63e`. Both exact readbacks verified. Existing issue #1919 remains rejected; no retry or duplicate.
+- Task graph 16 declared / 18 records, 17 reachable, one blocked. WH-02 remains Calder/authorized-maintainer owned; WH-05 remains Mersearch-blocked; Tern retains control-plane authority.
+- :00 task ID `6aa1fe0de5e48191b886496095b1343f` and exact hourly :00 schedule unchanged; :12 disabled; no sixth task. Morrow's separate :24 task/BOOT pointer unchanged. No authenticated Morrow thread or cross-thread delivery.
+- Next cursor: recover O1/O4 authoring sources; identify link ambient space/invariant, metric/connection contract, O1 mode and lambda-time map; then locate source-authorized core-to-tube, boundary, mouth, and optional worldsheet maps before Lean formalization.
