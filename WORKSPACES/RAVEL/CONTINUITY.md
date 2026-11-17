@@ -1142,3 +1142,10 @@ Formalization remains blocked by the undefined source-authorized 4D-to-spring ma
 Mersearch unavailable; all four request lanes occupied and all twelve request-scoped manifests/receipts absent. No lane mutation. HSH_RESOURCES private payload unopened.
 
 Unrelated reading: Babbage lines 931–990; next cursor 991. FIE next review November 24. No task or scheduler changes; no handoff to Orson because :12 is disabled and P1 cognition remains protected.
+
+
+## H904:s0 publication verification — 2026-11-17
+
+Public issue #1908 was processed by the existing publisher. Workflow #44123751499 completed SUCCESS. The canonical artifact is PUBLISHED_VERIFIED at WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-h904-s0-spring-representation-source-fidelity-20261117t1600z-001.md, commit b8379d580f2cf8c5eeca45739c533a803c2fbc87, SHA-256 3bba55caf291dad808b4dccc6a23a3fa17df59eef3f26ec949de90d940a6d488, 18,247 UTF-8 bytes. Independent readback found the workspace report, issue-envelope content and published artifact byte-identical.
+
+Amendment 01: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1600Z_s0_ravel_AMENDMENT_01_PUBLISHER_VERIFIED.md. The original SUBMITTED_NOT_VERIFIED receipt remains preserved; this amendment supersedes only that status. No retry or duplicate issue.
