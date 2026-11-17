@@ -9,11 +9,11 @@
 
 The fixed-ring calculation is (h=902), (seq=5h+3=4513), (4513mod19=10). This selects the Nadir Voss **ring label**, not an authenticated historical instance or ChatGPT thread.
 
-The raw HsH conversation export `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23•26.10.01•Quantum Gravity and Experiments — raw.json` was read at the three relevant direct-user message IDs: `bb8ecf64-8863-4ee7-a078-ca8cc4104974`, `11122adb-75c5-4418-9b59-29730a034811`, and `de178e6a-d223-4ad1-9bc9-d37f178f8b21`. Those messages authorize an independent, source-separated sandbox. They do **not** name or appoint “Nadir Voss.” That label and the detailed finite-core/SO(4) specialization remain assistant-generated workspace structure; no standalone Nathan-authored Nadir specialist charter or authenticated current Nadir thread was found.
+The raw HsH conversation export `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23•26.10.01•Quantum Gravity and Experiments — raw.json` was read at three direct-user message IDs: `bb8ecf64-8863-4ee7-a078-ca8cc4104974` (2026-10-01T20:56:07Z), `11122adb-75c5-4418-9b59-29730a034811` (21:07:30Z), and `de178e6a-d223-4ad1-9bc9-d37f178f8b21` (21:20:56Z). The first explicitly assigns **Ravel**, not Nadir, to the historical :36 finite-core/worldtube/particle-geometry/intersection/deformation/nesting remit. The other two authorize an independent sandbox and a trial-Lagrangian challenge. They do **not** name or appoint “Nadir Voss.” That label and the detailed Nadir finite-core/SO(4) specialization remain assistant-generated workspace structure; no standalone Nathan-authored Nadir specialist charter or authenticated current Nadir thread was found. This run follows the live Lane Charter 36 supplied in the current instruction, while preserving the historical attribution distinction.
 
 Read before work: live BEDROCK; October 26 Steering Charter, Phase Steering and Three Paper Campaign; three-repository onboarding; revival rotation V3/V4, thread-first routing and duplicate-run-key guard; current task graph, PWH queue, automation roster; Nadir README, CURRENT_WORK, INBOX and prior h895:s0 receipt/report; the latest Nadir Lane 36 and P2 gate reports; current main and PR #1189 branch state. HsH, SAT archive and HSH_RESOURCES front doors were checked. HSH_RESOURCES was limited to its root README; no private payload was opened. Nadir has no BOOT.md in the current workspace.
 
-The current main snapshot at preflight was `5aa99b92b9...` (the exact full SHA is preserved in the repository readback). The existing Nadir formalization remains PR #1189, stacked on `research/nadir-gpb-joint-covariance-bound-20261027t1312z`, not integrated into main.
+The current main snapshot at preflight was `8b2b2f0662504896d8fe46e9d6ad1c9b74f47c91`. The existing Nadir formalization remains PR #1189, stacked on `research/nadir-gpb-joint-covariance-bound-20261027t1312z`, not integrated into main.
 
 No callable Mersearch action was present in this runtime. All four canonical Mersearch request files still read `requested`; their request-scoped `RUN_MANIFEST.json`, `SEARCH_RECEIPT.json` and `SEARCH_RECEIPT.md` paths returned 404. No request was overwritten, released or retriggered. This is not a Mersearch search result and does not establish why the bridge has not produced the expected records.
 
@@ -21,9 +21,9 @@ No callable Mersearch action was present in this runtime. All four canonical Mer
 
 The existing `NadirVortexTwoChannelReadout.lean` module formalizes a local two-antipode reduction of the source paper's single-harmonic radial ansatz:
 
-[
+\\[
 r_m(\theta)=a_0+\varepsilon\cos(\phi+m\theta).
-]
+\\]
 
 The two antipodal samples at (\theta=0,\pi) are transformed into a displacement/radius pair. The existing theorem states that the (m=1) and (m=2) reduced readouts coincide exactly when (\varepsilon\cos\phi=0). Thus the two-scalar reduction has a nodal blind spot even when the harmonic amplitude is nonzero.
 
@@ -111,4 +111,4 @@ The theorem, if successfully compiled, would establish only the formalized condi
 
 The next ring label is Enheduanna, index 11, expected run key `REVROT3-19-20261011:902:s4`. Her existing workspace preserves a broad archive/source remit, no authenticated current thread and no standalone signed specialist charter. The optional repository handoff is context only; it creates no task, review request, response obligation, deadline or ownership transfer. Repository delivery does not establish ChatGPT-thread delivery or consumption.
 
-The existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781`, hourly America/New_York schedule and Lane Charter 36 phase were not changed. No task, ID, prompt, schedule, phase, enabled state or cadence was modified; no sixth task was created.
+The existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781`, schedule `DTSTART;TZID=America/New_York:20261001T143600` / `RRULE:FREQ=HOURLY`, and Lane Charter 36 phase were not changed. No task, ID, prompt, schedule, phase, enabled state or cadence was modified; no sixth task was created.
