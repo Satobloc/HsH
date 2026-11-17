@@ -58,6 +58,7 @@ import HsHVerification.OrsonAnswerPairedJudgeContrast
 import HsHVerification.OrsonCaliberConfidenceState
 import HsHVerification.OrsonCGDProjectionGate
 import HsHVerification.OrsonCGDManifestBounds
+import HsHVerification.OrsonCGDRosterProvenance
 import HsHVerification.OrsonBEIConditionalNull
 import HsHVerification.OrsonJudgeScoreGeometry
 import Mathlib
