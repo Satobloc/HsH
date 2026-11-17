@@ -1,5 +1,17 @@
 ## Current return point | 2026-11-17 | h890:s3 | Kelvin acquisition parentage and claim-scoped independence
 
+## Latest checkpoint — h894:s2 (2026-11-17T06:24Z)
+
+- **Run key:** REVROT3-19-20261011:894:s2. Selected empirical/statistical Calder (ring index 7); next ring label Hale (index 8). No authenticated historical Calder thread established.
+- **WH-02:** refreshed PR #1710 against current main 3a2b46f9eb9e907ed72f06160aebea24582e0e93. Existing head a967e908ceab048d219831ec799343643870daf3; merge base 7c40096153861e531b4ba234f28b41a2260fba04; compare diverged 7 ahead / 3,926 behind. All seven touched paths still match current main at merge-base blobs. No branch write/rebase/CI/review/merge. Four source-level gaps remain documented in the report. PR comment #6940759570 read back.
+- **P0:** 06:19Z discovery snapshot (blob 6245175e26b154ba7394a5e7192399e32199cd01) contains 15,493 documents / 8,562 workspace records / 48 docket entries. Paper A and B R1 both remain in full discovery with generic raw-workspace browse targets; Paper B has 1,400-character excerpt. Eight protected source/control objects exact. Live route remains NOT_OBSERVED. This h894:s2 report postdates the snapshot and will enter a later refresh.
+- **PWH triage:** existing task_upkeep_triage.py exact source blob 49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01; self-test PASS; 13 active/blocked candidates, P0=3, P1=1 (Orson 8 days overdue), P2=4, P3=1, P4=1, UNCLASSIFIED=3. Metadata gaps priority=3, owner=7, due=10, last_reviewed=11. Graph remains 18 records vs declared branch_count 16. No graph/queue/priority/owner change; Tern retains control-plane authority.
+- **Mersearch:** not callable; four lanes remain requested; 12 expected request-scoped receipt/manifest paths absent. No lane mutation or private HSH_RESOURCES access.
+- **Lane 24:** Cycle 08/08 complete, BACKSEAT/HOLD; no Cycle 09. P2 Nov16 source/data gate unmet; Nov30 major-paper and Dec14 full-theory gates remain separate. No physical calculation, CODATA comparison, new Lean build, or theory promotion.
+- **Publication:** issue #1883 PUBLISHED_VERIFIED. Internal report and published artifact exact byte equality; SHA-256 01b7dd7953128c2cba1cfc24d9179b814731a7aa3982362122bd12b5b9af2673. Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0624Z_s2_calder.md.
+- **Automation:** :24 ID 6abda4c8eda88191bf23a6f2849e9a17 and original hourly America/New_York 14:24 phase preserved; no task mutation or sixth task. Private exact-ID readback unavailable in this runtime.
+
+
 **Status:** SOURCE-BASED DEPENDENCY MAP COMPLETE / PR #1515 EXACT-HEAD LEAN PASS / ISSUE #1874 PUBLISHED_VERIFIED / FACTORY_HANDOFF_PENDING_GEOMETRY_GATE / P2 HOLD / NO PHYSICAL RESULT.
 
 - [Original report](2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_PARENTAGE_AND_CLAIM_SCOPED_INDEPENDENCE.md) and [machine-readable dependency map](2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_DEPENDENCY_MAP.json) remain the canonical research artifacts.
