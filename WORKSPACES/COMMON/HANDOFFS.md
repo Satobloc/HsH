@@ -1,3 +1,12 @@
+## 2026-11-17 13:36Z | Mira h901:s3 → Aldus h901:s4
+
+- [Optional pre-start operational CI artifact-retention context](REVIVAL_ROTATION_HANDOFFS/2026-11-17T1336Z_from_s3_to_s4_aldus_OPERATIONAL_ONLY_CI_ARTIFACT_RETENTION.md).
+- [h901:s3 operational audit](../COMMON/2026-11-17T1336Z_MIRA_SLOT_OPERATIONAL_CI_ARTIFACT_RETENTION_AUDIT.md) and [canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-17T1336Z_s3_mira.md).
+- Existing parent PR #1173 comment [#6949644255](https://github.com/Satobloc/HsH/pull/1173#issuecomment-6949644255) records the CI failure-artifact retention gap and a bounded repair recommendation; no code change or PR-state change.
+- PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Mira remains QUARANTINE_HOLD; no Mira research payload or restricted charter was accessed. Aldus has no authenticated current thread or worker-local inbox; no direct-thread delivery, consumption, acknowledgment, task, review request, deadline, response obligation, or ownership transfer is claimed.
+
+---
+
 
 ## 2026-11-17 10:36Z | Elias h898:s3 → Nadir h898:s4
 
