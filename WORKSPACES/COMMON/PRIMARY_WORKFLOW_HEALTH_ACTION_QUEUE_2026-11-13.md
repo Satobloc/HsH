@@ -577,3 +577,20 @@ Evidence-only correction; no queue, owner, task or scheduler mutation.
 - Review trigger: next PR-head/base/main change, exact-head Actions run, or independent review; otherwise retain the existing owner and return route.
 
 This update is evidence-only. It does not claim completion of WH-02, WH-05, P0, or any physical/theory result.
+
+
+## h906:s2 WH-05 four-lane current workflow readback | 2026-11-17
+
+**workflow_health_status:** BLOCKED / source-level containment verified; post-patch execution NOT VERIFIED. This is an additive evidence update, not a lane release, retry authorization, priority change or ownership transfer.
+
+- Current HsH main at source check: `b7106d7b403f560d043dce2f79f84966a1e91915`.
+- All four canonical requests remain `requested`; all twelve expected request-scoped manifests/receipts returned 404. No lane is free. No request was overwritten, retriggered, retried or released.
+- Lane 1 request `calder-angle-geometry-source-fidelity-20261102-1337`, commit `5e1674334562695b5d13e34c8dd82d561a1f58dd`; run #41454976148/job #125309252946 cancelled during Mersearch after runner-shutdown signal.
+- Lane 2 request `archive-harvest-20261025-optics-01`, commit `05f3fb8b2ff89ef8715b964d8890580955f3ee3b`; run #40261929577/job #121375960469 completed search and compact receipt, but publication failed on 352.48 MB JSON / 59.64 MB Markdown with GH001. Five retries did not change the deterministic size rejection.
+- Lane 3 request `calder-iri-worldtube-geometry-fidelity-20261104t2230z-s0-001`, commit `c234b776961bfdc597771511d82f385e2f293dbf`; run #41926373944/job #126911731401 cancelled during Mersearch after runner-shutdown signal.
+- Lane 4 request `kestrel-finite-core-geometry-source-fidelity-20261102-2200`, commit `88daa36f8144598bacb342572bc630699128144b`; run #41533820436/job #126321885823 cancelled during Mersearch after runner-shutdown signal.
+- Current workflow source blobs are now compact-only: lane1 `045b99e1cf218e474b92e0340bfeb62056986d99`; lane2 `a53d20013aca2a3394c6745df757ceaf0e337ae2`; lane3 `d4af505b3a579c05f0c98e241dd85c3891b0249d`; lane4 `dab45d3a308aea48de034de2c7d59f5ad965ab09`. They publish only `RUN_MANIFEST.json`, `SEARCH_RECEIPT.json`, and `SEARCH_RECEIPT.md`; raw result files are withheld. This is source-level containment only; no post-patch successful run has been observed.
+- Lane 2's generic publisher retry still treats any failed push as a possible concurrent update; deterministic GH001/permission/branch-protection failures should be classified separately from non-fast-forward races.
+- Full evidence report: [Nadir h906:s2 report](https://github.com/Satobloc/HsH/issues/1914). Existing coordination issue: [#1704](https://github.com/Satobloc/HsH/issues/1704).
+- **Smallest next action:** Tern / Comptroller authorizes one controlled test of one existing occupied lane using the current compact-only workflow; then verify manifest, compact receipt and independent readback before deciding release. Tern retains lane-release and scheduler authority. No test, request mutation or release was performed here.
+
