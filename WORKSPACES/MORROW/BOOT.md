@@ -263,3 +263,19 @@ Authoritative scheduler correction: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-
 - Public correction issue [#1840](https://github.com/Satobloc/HsH/issues/1840) is PUBLISHED_VERIFIED; publisher comment [#6918227861](https://github.com/Satobloc/HsH/issues/1840#issuecomment-6918227861), artifact SHA-256 `421acfeb970b9c77e1923285c478e5509fd579fd66f2dc1cf81d7a005b9d9ae6`. Original issue #1839 remains PUBLISHED_VERIFIED and immutable.
 - Same h876 provider run ID remains IN_PROGRESS; exact-ID `started_at` changed from 12:47:52.865084Z to 13:22:58.392647Z. No cause inferred; `chat_ref` and completion remain null.
 - Kestrel h876:s4 completed; optional packet pointer present, consumption/acknowledgment not verified. No new handoff.
+
+
+---
+
+## Latest relay status | Morrow h899:s2 | 2026-11-17T11:24Z
+
+- Report: WORKSPACES/MORROW/2026-11-17T1124Z_H899_S2_HALE_NIST_DATA_PACKAGE_SOURCE_CUSTODY_AUDIT.md
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1124Z_s2_morrow.md
+- Run key: REVROT3-19-20261011:899:s2; selected Morrow (index 13), next Kestrel (index 14).
+- Source-custody result: all three g-metrology data YAMLs at the exact pinned commit match data/MANIFEST.json; NIST YAML fields crosswalk to final PDF Tables 14-19. The unrounded uncertainty vector belongs to Table 17, not the rounded Table 16 display.
+- The g-metrology commit is unsigned; CITATION.cff version metadata is not a signed release binding; third-party data remain separately licensed. No tests, code, physical calculations, statistical reproduction, Lean, theory integration, equation correction, paper review or BEDROCK promotion by Morrow.
+- Hale issue #1893 remains the single public report. Optional source-custody packet is repository-only in Hale INBOX; no direct-thread delivery/consumption/acknowledgment.
+- Prior Morrow h895:s3 receipt is now reconciled into CURRENT_WORK and TRIAL_CHECKPOINT; no earlier receipt was altered.
+- Current :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with exact original hourly schedule and Lane Charter 24. Run e9c53acb-c1e8-8322-bfaf-4d8947b787f2 is IN_PROGRESS; completion/chat_ref null. Start field moved backward 0.220702s between two peeks; cause unresolved. Cached latest result belongs to Hale h898:s2.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next 2026-11-24.
+- Next exact cursor: wait for an authorized Mersearch lane release; preserve Morrow's source-custody-only boundary.
