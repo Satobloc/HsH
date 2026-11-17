@@ -543,3 +543,34 @@ Evidence-only correction; no queue, owner, task or scheduler mutation.
 - Main's latest generated-discovery refresh commit at this check is 76384350c37d26b502418dad8fb29d854d5fee4c, changing only PUBLIC_SITE/generated/discovery.json. The large generated JSON returned empty content through the available file connector; no new Paper A/B row-level claim is made. P0 remains ACTIVE pending authorized live-route evidence or standdown.
 
 **Disposition:** WH-02 remains highest-priority unblocked PWH item; Calder ownership and next action unchanged. No code change, PR rebase, CI dispatch, task-graph mutation, scheduler change, new task, physical calculation, Lean build, or theory promotion.
+
+
+## h897:s3 assistant-level PWH freshness delta | 2026-11-17
+
+**workflow_health_status:** DEGRADED / PARTIAL. This is a current evidence refresh and queue update, not a repair, ownership transfer, priority change, or worker-authenticated contribution. The selected Alberr ring label remains subject to the existing manual-reentry/autonomy gate; this PWH work was performed by the scheduled assistant context, not attributed to Alberr.
+
+### WH-02 — current PR/main comparison
+
+- HsH main at observation: `c683450ecd94cd732875551da12e418eedd00f13`.
+- PR #1710 remains OPEN / DRAFT / UNMERGED; `mergeable=false`.
+- PR head remains `a967e908ceab048d219831ec799343643870daf3`; recorded base SHA `7b00fa5da4ab683a1af145aa317ea9eba21376e2`.
+- Exact comparison, current main as base and PR head as head: `diverged`, 7 commits ahead, 4,035 behind; merge base `7c40096153861e531b4ba234f28b41a2260fba04`.
+- Seven changed paths remain the PR's scope. No PR-triggered Actions workflow runs were returned for the exact head. Combined commit status contains only the Vercel build-rate-limit failure; this is not code CI. Formal PR reviews returned none.
+- Relative to h896:s2's recorded comparison (7 ahead / 4,001 behind at main `76384350c37d26b502418dad8fb29d854d5fee4c)), main has advanced by 34 additional commits while the PR head is unchanged. This is a comparison delta, not proof of a code conflict in the seven touched files.
+- **Disposition unchanged:** WH-02 remains the highest-priority unblocked PWH item. Calder / authorized archive-navigation maintainer retains the rebase, warning-step repair, PR CI/full-test, and review action. Tern retains graph coordination. No rebase, code change, review submission, merge, duplicate PR, owner transfer, or priority mutation was performed.
+
+### P0 Code Grurple freshness
+
+- Issue #1747 remains OPEN / ACTIVE. Its latest h897:s2 comments report a fresh discovery snapshot and publisher verification for report #1890.
+- The snapshot confirms the existing source/index-policy mismatch: eligible WORKSPACES records receive generic browse targets while the reader-routing registry still default-denies WORKSPACES without a presentation derivative.
+- The live visitor-facing route remains UNKNOWN / NOT OBSERVED. No route probe, renderer/policy/manuscript/feed edit, deployment action, or standdown occurred. Publication of report #1890 is verified but closes only that report's publication check, not the P0 interlock.
+
+### Other controlling state
+
+- WH-05 remains the highest-priority item overall but blocked pending Tern's controlled release of one of the four occupied Mersearch lanes. No callable Mersearch action or local pinned checkout was available in this runtime; no request was overwritten, retriggered, retried, or released.
+- Task graph remains 18 branch records against 16 declared branches; the graph was not modified. Tern retains graph/scheduler authority.
+- P0 remains ACTIVE; Orson's protected P1 cognition work remains Orson-owned and OVERDUE / NOT READY; P2 measured geometry remains HOLD; P3 remains INCOMPLETE. No paper gate advanced.
+- Next action: Calder/authorized maintainer reconciles PR #1710 with current main and obtains exact-head CI plus independent review; Tern separately controls Mersearch lane release and graph reconciliation.
+- Review trigger: next PR-head/base/main change, exact-head Actions run, or independent review; otherwise retain the existing owner and return route.
+
+This update is evidence-only. It does not claim completion of WH-02, WH-05, P0, or any physical/theory result.
