@@ -1,4 +1,5 @@
 ## Latest checkpoint — Meridian h899:s4 | 2026-11-17T11:48Z
+- Post-publication Amendment 02: [2026-11-17T1254Z revalidation](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1254Z_s4_meridian_AMENDMENT_02_POSTREPORT_REVALIDATION.md). Fresh discovery snapshot 12:54Z confirms Paper A/B rows unchanged and all ten protected source/control blobs exact; scheduler same-run-ID re-entry and cross-lane Review-MIND findings recorded. Existing issue #1898 remains PUBLISHED_VERIFIED; no duplicate submission or P0 route change.
 
 - Status: source-grounded revival in the current scheduled execution; no authenticated current Meridian thread or run-level chat reference.
 - Current assignment: Paper A accepted-R1 presentation support only. Tern retains P0 control and authorization; Mercer remains A/B QA. No site, manuscript, PDF, feed, renderer or deployment changes.
