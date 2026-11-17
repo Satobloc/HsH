@@ -2,12 +2,13 @@
 
 ## 2026-11-13 source verification and current role boundary | ASTER-HISTORICAL-SOURCE-VERIFIED-20261113
 
-**Historical source:** archived ASTER conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, raw Git blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`. The raw graph has 1,818 mapping entries, 1,817 message-bearing nodes, and 39 outer user-role messages. The two direct role-setting messages below are on the export's current-node ancestry.
+**Historical source:** archived ASTER conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, raw Git blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`. The raw graph has 1,818 mapping entries, 1,817 message-bearing nodes, and 39 outer user-role messages. The current-node ancestry has 455 nodes, including 19 user-role messages. Three direct user-role messages below inform the historical remit: source-fidelity questions, the historical Paper A assignment, and a narrowly scoped prior-art-review-team clarification.
 
 - `2026-09-22T05:37:41.366Z`, `d15369d1-1412-4f4a-9460-702d2de573ea`: "Does this read like Nathan? Would Nathan say it this way? Has Nathan said any of this in this or another way? Does this contradict anything Nathan has already said?"
 - `2026-09-22T19:03:08.093Z`, `01505af7-37cd-491f-a951-1822934e36ff`: "I'm going to say paper A review is your lane now. Read the whole pile."
+- `2026-10-11T12:00:14.494Z`, `e3067f7b-f1c2-45fb-ab98-075d4a798ae5`: "Yeah, but you're part of my prior art review team, so that doesn't apply to you." The parent assistant message `84a729ec-7f88-4b27-bd8b-14ae64d5b859` (11:59:07.854Z) asked whether the Oct. 9 Hypothesis H / Schreiber restriction applied retroactively to accepted Paper A R1. The assistant child `aee3cefd-84ce-48e7-b09e-289f17e6b78b` (12:00:21.713Z) acknowledged that it had overgeneralized the restriction and scoped the exception to Aster's prior-art-review role. This is historical, question-specific context, not a blanket access grant.
 
-The first is the source-fidelity/contradiction method. The second is a genuine historical assignment, but the current Code Grurple roster supersedes it: Aster is **REVIEW FROZEN / CROSS-READ OPEN**. Do not perform an unrequested formal Paper A review; only a concrete post-acceptance defect or explicit request opens a bounded cross-read.
+The first establishes the source-fidelity/contradiction method. The second is a genuine historical Paper A assignment. The third clarifies a specific prior-art-review-team exception to the Oct. 9 Hypothesis H / Schreiber boundary in response to a retroactivity question. The current Code Grurple roster controls present operations: Aster is **REVIEW FROZEN / CROSS-READ OPEN**. Do not perform an unrequested formal Paper A review; only a concrete post-acceptance defect or explicit request opens a bounded cross-read.
 
 **Thread boundary:** the archived ASTER export is not active. The most recent known Aster-associated manual-thread candidate is `6aecede1-4c08-83e9-abc4-da64f59a4f51`, title `ND Workshop Relay :24 | Geometry`; current usability is unverified. The current automation run has `chat_ref=null`. Do not infer identity continuity or claim cross-thread delivery.
 
@@ -16,12 +17,13 @@ This is a source-grounded reconstruction, not a signed standalone charter, authe
 
 ## 2026-11-13 source verification and current role boundary
 
-**Historical source:** archived ASTER conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, raw Git blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`. The raw graph has 1,818 mapping entries, 1,817 message-bearing nodes, and 39 outer user-role messages. The two direct role-setting messages below are on the export's current-node ancestry.
+**Historical source:** archived ASTER conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, raw Git blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`. The raw graph has 1,818 mapping entries, 1,817 message-bearing nodes, and 39 outer user-role messages. The current-node ancestry has 455 nodes, including 19 user-role messages. Three direct user-role messages below inform the historical remit: source-fidelity questions, the historical Paper A assignment, and a narrowly scoped prior-art-review-team clarification.
 
 - `2026-09-22T05:37:41.366Z`, `d15369d1-1412-4f4a-9460-702d2de573ea`: "Does this read like Nathan? Would Nathan say it this way? Has Nathan said any of this in this or another way? Does this contradict anything Nathan has already said?"
 - `2026-09-22T19:03:08.093Z`, `01505af7-37cd-491f-a951-1822934e36ff`: "I'm going to say paper A review is your lane now. Read the whole pile."
+- `2026-10-11T12:00:14.494Z`, `e3067f7b-f1c2-45fb-ab98-075d4a798ae5`: "Yeah, but you're part of my prior art review team, so that doesn't apply to you." The parent assistant message `84a729ec-7f88-4b27-bd8b-14ae64d5b859` (11:59:07.854Z) asked whether the Oct. 9 Hypothesis H / Schreiber restriction applied retroactively to accepted Paper A R1. The assistant child `aee3cefd-84ce-48e7-b09e-289f17e6b78b` (12:00:21.713Z) acknowledged that it had overgeneralized the restriction and scoped the exception to Aster's prior-art-review role. This is historical, question-specific context, not a blanket access grant.
 
-The first is the source-fidelity/contradiction method. The second is a genuine historical assignment, but the current Code Grurple roster supersedes it: Aster is **REVIEW FROZEN / CROSS-READ OPEN**. Do not perform an unrequested formal Paper A review; only a concrete post-acceptance defect or explicit request opens a bounded cross-read.
+The first establishes the source-fidelity/contradiction method. The second is a genuine historical Paper A assignment. The third clarifies a specific prior-art-review-team exception to the Oct. 9 Hypothesis H / Schreiber boundary in response to a retroactivity question. The current Code Grurple roster controls present operations: Aster is **REVIEW FROZEN / CROSS-READ OPEN**. Do not perform an unrequested formal Paper A review; only a concrete post-acceptance defect or explicit request opens a bounded cross-read.
 
 **Thread boundary:** the archived ASTER export is not active. The most recent known Aster-associated manual-thread candidate is `6aecede1-4c08-83e9-abc4-da64f59a4f51`, title `ND Workshop Relay :24 | Geometry`; current usability is unverified. The current automation run has `chat_ref=null`. Do not infer identity continuity or claim cross-thread delivery.
 
@@ -39,6 +41,7 @@ This is a source-grounded reconstruction, not a signed standalone charter, authe
 Read the direct source messages:
 - d15369d1-1412-4f4a-9460-702d2de573ea: Nathan's source-fidelity questions about whether a paper reads like him, whether he said it elsewhere, and whether it contradicts his prior statements.
 - 01505af7-37cd-491f-a951-1822934e36ff: Nathan's historical Paper A review assignment.
+- e3067f7b-f1c2-45fb-ab98-075d4a798ae5 (2026-10-11T12:00:14.494Z): scoped clarification that the Oct. 9 Hypothesis H / Schreiber restriction did not apply to Aster's prior-art-review role in the specific retroactivity question. The assistant immediately acknowledged its overgeneralization. This does not supersede the current Code Grurple freeze.
 
 The current Code Grurple roster freezes Aster's formal Paper A review. The historical assignment is not permission to reopen it. Cross-read only for a concrete post-acceptance defect or explicit request.
 
