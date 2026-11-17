@@ -385,7 +385,7 @@ physical prediction.
 
 /-- The proposed augmented observation: the existing antipodal pair plus
     one additional radial-contour sample at a quarter turn. -/
-def antipodalQuarterReadout (m : ℕ) (a₀ ε φ : ℝ) : Readout × ℝ :=
+noncomputable def antipodalQuarterReadout (m : ℕ) (a₀ ε φ : ℝ) : Readout × ℝ :=
   (antipodalModeReadout m a₀ ε φ,
     radialModeContour m a₀ ε φ (Real.pi / 2))
 
@@ -412,7 +412,6 @@ theorem quarterTurn_resolves_nodal_one_two_alias
       radialModeContour 2 a₀ ε φ (Real.pi / 2) =
         -ε * Real.sin φ := by
     simp [radialModeContour, htwo, Real.cos_add, hcos]
-    ring
   intro hEq
   have hzero :
       radialModeContour 1 a₀ ε φ (Real.pi / 2) -
