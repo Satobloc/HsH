@@ -781,3 +781,15 @@ See `WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GA
 - Supplemental Amendment 01 is linked in issue comment #6928841343; it records secondary SciSpace full-text extraction for the PRL paper, with direct APS PDF verification still pending.
 - Final status: PUBLISHED_VERIFIED. Do not resubmit.
 
+
+
+## Cross-lane :00 h911:s0 - Kestrel source-preserving geometry translation
+
+- Status: SUBMITTED_NOT_VERIFIED; publisher issue [#1930](https://github.com/Satobloc/HsH/issues/1930), workflow [#44199184634](https://github.com/Satobloc/HsH/actions/runs/44199184634) in progress at receipt creation.
+- Report: [H911 source-preserving geometry translation](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-17T2300Z_H911_S0_SOURCE_PRESERVING_GEOMETRY_TRANSLATION.md)
+- Receipt: [H911 canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2300Z_s0_kestrel.md)
+- Source scope: 2003-04 sketch chronology (retrospective, images not re-opened); 2024 moving-plane section/trace; July 2026 SRENA worldline-only Minkowski stage; October 9 worldtube/inertia/timesheet refinement; November 8 tube/core/mouth geometry; SAT-O1 and Blockwave equation custody.
+- Main result: distinguish 1D worldline, 1D core, 4D support, 3D boundary, 3D timesheet, 2D worldsheet, and the different intersections. Assistant-added normal-bundle/aperture/rim and Blockwave current maps remain proposals unless source-authorized.
+- Existing Lean evidence reused; no new Lean, physical calculation, CODATA, theory promotion, or paper-gate advancement.
+- Next ring label Meridian; immediate next enabled :24 selection Mercer; Meridian's next actual :00 appearance h915:s0. Optional repository-only context packet pending publication reconciliation.
+- Kestrel BOOT remains h903:s2; this is a cross-lane :00 pointer. No authenticated Kestrel thread or cross-thread delivery is claimed.
