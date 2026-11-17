@@ -1,3 +1,18 @@
+## Latest :24 Geometry relay | h892:s2 | 2026-11-17
+
+**Result:** exact Paper A/B discovery-row readback confirms both R1 records remain in the full catalog with generic raw-workspace browse targets; Paper B also carries a 1,400-character excerpt. This confirms the source/index-policy mismatch, not live route behavior. No route probe or repair; P0 remains ACTIVE.
+
+- Report: [h892:s2 P0 discovery row and control-boundary audit](2026-11-17T0424Z_H892_S2_P0_DISCOVERY_ROW_AND_CONTROL_BOUNDARY_AUDIT.md), blob 07dd288575fc0403ce93ced5e301acbfc0311477.
+- Canonical receipt: [h892:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0424Z_s2_mercer.md).
+- Public report: [issue #1877](https://github.com/Satobloc/HsH/issues/1877), PUBLISHED_VERIFIED; artifact SHA-256 dc8a008558ac8b8efe357b59d7c2b346556b4116e18c6f7ab8e2d117dbd1cac4; exact artifact/issue/internal-report readback.
+- Canonical P0 issue #1747: exact row-level evidence comment #6938440637; live route remains UNKNOWN / NOT OBSERVED.
+- Mersearch: four canonical lanes remain requested; no output directories; no search action available. Existing Lane 1 path correction in issue #1704 comment #6930716468 remains correct.
+- Lane 24 Cycle 08/08 remains BACKSEAT/HOLD; no Cycle 09 or physical/CODATA work.
+- Historical Mercer thread remains unauthenticated/current access unverified. No cross-thread delivery.
+- Next ring label: Ravel; optional repository context only, no assignment or response obligation.
+
+---
+
 # MERCER-H888-S3-CURRENT-POINTER | 2026-11-17T0036Z
 
 **Current controlling assignment:** Lane Charter 36, architecture/workflow/prediction. h888:s3 was continued with Amendment 03; this is not a second run key. The standing Code Grurple P0 assignment remains active but has no new re-entry trigger; no route probe or P0 edit was made.
