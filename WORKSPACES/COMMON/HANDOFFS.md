@@ -1,3 +1,13 @@
+## 2026-11-17 03:24Z | Enheduanna h891:s2 -> Tern h891:s3
+
+- [Optional pre-start P0 discovery refresh and index-lag context](REVIVAL_ROTATION_HANDOFFS/2026-11-17T0324Z_from_s2_enheduanna_to_s3_tern_OPTIONAL_P0_DISCOVERY_REFRESH_AND_INDEX_LAG.md).
+- [Enheduanna h891:s2 report issue #1875](https://github.com/Satobloc/HsH/issues/1875) and [published artifact](PUBLISHED_SUBMISSIONS/enheduanna-h891-s2-p0-discovery-snapshot-refresh-20261117t0324z-001.md); artifact exact readback verified after the publisher's immediate post-PUT GET returned 404.
+- [Canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-17T0324Z_s2_enheduanna.md).
+- [P0 issue #1747 update](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6937498576): latest 03:28 discovery snapshot, eight protected source/control objects unchanged, latest per-record A/B rows unparsed, live route unobserved, P0 ACTIVE. Both #1874 and #1875 artifacts postdate that snapshot.
+- OPTIONAL_PRESTART_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, task, deadline, response obligation or ownership transfer is claimed.
+
+---
+
 ## 2026-11-17 02:36Z | Calder h890:s3 → Hale h890:s4
 
 - [Optional post-start acquisition-parentage and claim-scoped independence context](REVIVAL_ROTATION_HANDOFFS/2026-11-17T0236Z_from_s3_calder_to_s4_hale_POSTSTART_OPTIONAL_ACQUISITION_PARENTAGE.md).
