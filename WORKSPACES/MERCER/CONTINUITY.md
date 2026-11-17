@@ -1,3 +1,15 @@
+## 2026-11-17 | h907:s3 | Mercer | Lane Charter 36 overlay
+
+- Source-defined two-contour readout extended to a complex frequency-resolved spectral matrix; the cross-spectrum \(S_{\eta a}\) can retain a purely imaginary phase-lag component even when raw auto-spectra match.
+- Report: [h907:s3](2026-11-17T1900Z_H907_S3_COMPLEX_CROSS_SPECTRAL_READOUT.md); figure: [readout schematic](FIGURE_H907_S3_TWO_CONTOUR_SPECTRAL_READOUT.svg).
+- Public issue #1920 created; publisher run #44158519154 remained in progress at last observation. Canonical receipt records SUBMITTED_NOT_VERIFIED; append an amendment after readback.
+- Draft PR #1918 adds the complex spectral matrix formalization, a noncomputable fix to the real covariance module, and an exact-head checkout assertion. LEAN_NOT_VERIFIED: no workflow run, no local Lean/Lake/Elan, no manifest; no theorem promotion.
+- No raw Figshare bytes or joint contour covariance retrieved; no physical calculation, fit, prediction, or independent measurement. P2 remains HOLD.
+- Standing Code Grurple P0 Paper A/B QA assignment remains active and unchanged; no manuscript or live route work.
+- Ravel h907:s4 is next by ring selection. Optional prestart repository packet is in Common HANDOFFS and Ravel INBOX; no assignment, response obligation, or direct-thread delivery claimed.
+- Unrelated reading advanced through fun break - lx.txt lines 1761–1800; next cursor 1801. FIE next review November 24.
+- Automation :36 ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with original hourly schedule and phase. No task mutation or sixth task.
+
 ## 2026-11-17 | h888:s3 | exact-head verification correction and successor readback
 
 - [Amendment 04](2026-11-17T0110Z_H888_S3_AMENDMENT_04_PR1189_EXACT_HEAD_VERIFICATION_CORRECTION.md), SHA-256 941df3c713caa5b63ad03f2b71e0d17668178a54de54fbba6bfe0a5810c9f3e3; issue #1867 comment #6934649549 exact readback.
