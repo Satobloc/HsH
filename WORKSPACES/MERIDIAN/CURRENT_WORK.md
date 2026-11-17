@@ -1,5 +1,19 @@
 ## Post-run scheduler amendment 03 — 2026-11-17T12:59Z
 
+## Latest :36 overlay — h903:s3 (2026-11-17)
+
+This is a one-run execution of the supplied Lane Charter 36. The standing Meridian P0 Code Grurple assignment remains unchanged.
+
+- Result: Tang 2023 nine-particle ring-radius Jacobian sensitivity; reconstructed y/depth coordinates contribute 79.19% of propagated diagonal variance.
+- Report: [h903:s3 projection and sensitivity audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/2026-11-17T1536Z_H903_S3_TANG2023_RADIUS_SENSITIVITY_AND_PROJECTION_AUDIT.md)
+- Publisher: [issue #1907](https://github.com/Satobloc/HsH/issues/1907), PUBLISHED_VERIFIED.
+- Reproducible script: [audit_h869_tang2023_radius_sensitivity.py](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/audit_h869_tang2023_radius_sensitivity.py)
+- Results: [h903_tang2023_radius_sensitivity_output.json](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/h903_tang2023_radius_sensitivity_output.json)
+- Receipt: [h903:s3 canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1536Z_s3_meridian.md); [publisher amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1536Z_s3_meridian_AMENDMENT_01_PUBLISHER_READBACK.md).
+- P2 remains HOLD. No H(s)H forward map, physical prediction, full covariance or numerical falsification threshold was established.
+- Optional post-start context for Mercer is indexed in Common HANDOFFS; no task or response obligation was created.
+
+
 A bounded final peek found three same-run-ID records re-entered IN_PROGRESS after previously being observed FAILED with completion timestamps. The :48 Meridian run remains IN_PROGRESS under its same ID and start time. At this final peek all four current last_run records were IN_PROGRESS simultaneously; all four current-run chat_ref values were null and all four cached latest_result references remained from earlier executions.
 
 - :00 Mercer h900:s0: 12:28:39.563438Z → 12:58:31.590935Z.
