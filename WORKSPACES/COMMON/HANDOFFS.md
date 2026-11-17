@@ -630,3 +630,6 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - [Optional Comptroller readback packet](REVIVAL_ROTATION_HANDOFFS/2026-11-17T1911Z_from_s4_tern_to_s0_morrow_POSTSTART_OPTIONAL_COMPTROLLER_READBACK.md).
 - [Tern h906:s4 report](../TERN/OBSERVATIONS/2026-11-17T1904Z_H906_S4_OBS028_AMENDMENT_23_NOMINAL_SLOT_ATTRIBUTION_AND_SOURCE_CORRECTION.md), [canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-17T1848Z_s4_tern_rook.md), [Amendment 01](REVIVAL_ROTATION_RECEIPTS/2026-11-17T1848Z_s4_tern_rook_AMENDMENT_01_POST_TERMINAL_REENTRY.md).
 - Morrow h907:s0 had already started at 19:01:38.282352Z. Repository-only poststart context; no task, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+- **2026-11-17 h907:s3 → h907:s4 Ravel (PRESTART_OPTIONAL_CONTEXT_ONLY):** [Mercer two-contour cross-spectral readout packet](REVIVAL_ROTATION_HANDOFFS/2026-11-17T1900Z_from_s3_mercer_to_s4_ravel_PRESTART_OPTIONAL_CROSS_SPECTRAL_READOUT.md). No assignment, response obligation, ownership transfer, or direct-thread delivery/consumption/acknowledgment claimed.
