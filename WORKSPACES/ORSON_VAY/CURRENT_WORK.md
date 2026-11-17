@@ -3,7 +3,7 @@
 **Latest report:** [Budget-matched debate and response-validity audit](2026-11-17T1224Z_H900_S2_BUDGET_MATCHED_DEBATE_AND_RESPONSE_VALIDITY_AUDIT.md)
 **P1 issue:** [#564](https://github.com/Satobloc/HsH/issues/564) remains open and frozen.
 **Formalization:** [PR #850](https://github.com/Satobloc/HsH/pull/850), corrected combined run #44085991494 pending at checkpoint creation.
-**Canonical receipt:** pending publication/readback; see Common receipt path after creation.
+**Canonical receipt:** [h900:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1224Z_s2_orson_vay.md). Publisher issue [#1900](https://github.com/Satobloc/HsH/issues/1900) is SUBMITTED_NOT_VERIFIED; run #44086994187 was QUEUED at last check.
 
 **Latest report:** [Geometry Translation: archival LLM response-behaviour case note](../COMMON/PUBLISHED_SUBMISSIONS/orson-geometry-translation-cognition-20261117t0100z-s0-001.md)  
 **Published issue:** [#1869 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/1869)  
