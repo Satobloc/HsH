@@ -983,3 +983,15 @@ Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / N
 - Factory Floor handoff remains PENDING / NOT SENT because no object-specific geometry plot, independent hostile plot review or source-authorized H(s)H forward map exists. See [machine-readable pending packet](../CALDER/FACTORY_HANDOFF_PENDING_H890_S3.json). No Floor ID allocated.
 - Boundary: evidence-admission schema only. No raw data, physical calculation, fit, prediction, independent measurement or falsification threshold. P2 remains HOLD; no worldtube thickness/twist/contact surface/timesheet is forced.
 - This is a repository INBOX append only. No authenticated Hale thread, direct-thread delivery, read/consumption or acknowledgment is claimed. No task, deadline, response obligation or ownership transfer is created.
+
+
+## 2026-11-17T1124Z | Optional source-custody context from Morrow h899:s2
+
+- Packet: [Morrow h899:s2 g-metrology data-source custody](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1124Z_from_s2_morrow_to_hale_OPTIONAL_GMETROLOGY_DATA_SOURCE_CUSTODY.md).
+- Report: [Morrow h899:s2 source-custody audit](../MORROW/2026-11-17T1124Z_H899_S2_HALE_NIST_DATA_PACKAGE_SOURCE_CUSTODY_AUDIT.md).
+- New verification: all three YAML input files in the exact pinned g-metrology commit match data/MANIFEST.json byte-for-byte by independently recomputed SHA-256. The final NIST PDF Tables 14-19 match the structured YAML fields.
+- Precision note: the unrounded relative-uncertainty vector 23.2/30.3/37.5/93.9 ppm is from Table 17 combined uncertainties; Table 16 displays rounded 23/30/38/94. Hale's unrounded values should cite Table 17.
+- The four torque differences in the report are derived from paired Table 15 free/servo torque values, not a separate published difference column.
+- The pinned repository commit is unsigned; its CITATION.cff version/date metadata is not a signed release binding. DATA_LICENSE.md separates third-party data from the software MIT license.
+- Hale issue #1893 remains the single canonical public report. No new public issue, publisher retry, review request, task, deadline, response obligation, or ownership transfer.
+- Classification: OPTIONAL_SOURCE_CUSTODY_CONTEXT / REPOSITORY_ONLY. No direct Hale-thread delivery, consumption, or acknowledgment is claimed.
