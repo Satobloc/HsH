@@ -2,7 +2,28 @@
 
 > **Checkpoint pointer rule:** This title is stable. The first dated “Latest checkpoint” block is the single canonical run/status pointer; do not duplicate run keys in the title or BOOT.
 
-## Latest checkpoint | h893:s2 | 2026-11-17T05:24Z
+## Latest checkpoint | h904:s4 | 2026-11-17T16:48Z
+
+**Run key:** REVROT3-19-20261011:904:s4  
+**Disposition:** RAVEL_EMBEDDED_AUTHOR_UNKNOWN_CORRECTION / ASTER_PR626_MERGE_REF_BUILD_RECLASSIFIED / ORIGINAL_EQUATIONS_PRESERVED / NO_PAPER_REVIEW / NO_PHYSICAL_RESULT / NO_NEW_LEAN / NO_TASK_CHANGE.
+
+- [Run report](2026-11-17T1648Z_H904_S4_RAVEL_EMBEDDED_AUTHORITY_CORRECTION_AND_LEAN_BOUNDARY.md)
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1648Z_s4_aster.md)
+- Recovered Aster historical role from raw source blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8; no standalone signed specialist charter or authenticated current Aster thread.
+- Cross-read Ravel h904:s0 raw export. Seven spring/Kerr/force/representation user messages are on active ancestry. Corrected the embedded GR–QM exposition in message b9b626b6: outer user request is direct, embedded author/source is UNKNOWN. It is not confirmed prior-assistant text and is not Nathan Direct.
+- Existing Aster PR #626 theorem outer_role_cannot_decode_payload_route is a relevant formal precedent, not an authorship proof. Actions #43152310183 is a PR merge-reference build (synthetic merge 70f983c), not exact-head: 8,945 jobs; target built at 8,942/8,945; five theorem-specific reports no axiom dependencies; global axiom audit disabled.
+- Ravel PR #1133 run #43849175548 is a merge-reference root-build failure in MovingPlaneTraceGeometry. Sable PR #1848 run #43932813392 is a separate exact-head 8,948-job success; not integrated into #1133 or main.
+- Additive correction posted to existing Ravel issue #1908 (comment #6954888591); build-status clarification posted to Aster PR #626 (comment #6954889525). Original Ravel artifact remains unchanged; no duplicate publisher issue.
+- SAT-O1 original and Blockwave original blobs re-fetched; original equations, dates and prior verified SHA-256 values preserved. No corrected equation.
+- Current Code Grurple disposition: Paper A first-round review FROZEN / CROSS-READ OPEN. No manuscript or paper-specific review opened. Loom's “P0 Aster-owned” phrase did not change the formal review boundary.
+- P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE. No paper gate advanced. Orson's cognition allocation unchanged.
+- Four Mersearch request lanes remain requested; all twelve expected request-scoped manifests/receipts returned 404. No callable Mersearch action or local pinned checkout. Raw GitHub blob retrieval is a bounded fallback, not a Mersearch run.
+- Task graph 18 unique records / 16 declared branches; Tern retains graph and scheduler authority. WH-05 blocked; WH-02 highest unblocked under Calder/authorized-maintainer ownership.
+- FIE last reviewed November 10; next November 24. Unrelated reading completed at SAT archive fun-break lines 1841–1880; next cursor 1881.
+- No physical calculation, measured-data fit, prediction, independent measurement, new theorem/build, model trial, human-subject session, API expenditure, manuscript edit, equation correction, or theory promotion.
+- Existing :48 Review task ID and hourly schedule unchanged; no sixth task. No authenticated current Aster thread or cross-thread delivery.
+
+## Previous checkpoint | h893:s2 | 2026-11-17T05:24Z
 
 **Run key:** REVROT3-19-20261011:893:s2  
 **Disposition:** HISTORICAL_ROLE_SOURCE_CORRECTED / GYROSCOPE_RAW_UNRECOVERED / NO_DUPLICATE_EXTRACTION / NO_PAPER_REVIEW / NO_PHYSICAL_RESULT / NO_NEW_LEAN / NO_TASK_CHANGE.
