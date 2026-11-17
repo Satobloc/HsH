@@ -95,7 +95,7 @@ The direct October 9 messages describe one helical core, a larger hollow coil, a
 
 The direct classical-limit statement is that resistance of a worldtube to changes in its motion is inertia and that worldtube curvature is the geometric correlate of inertia. The user rejects treating the object as a physically elastic filament with an independently specified stiffness. A quoted assistant line about "no elastic modulus" is not itself a Nathan-authored equation; the direct clarification is the user's equivalence between inertia and worldtube bending.
 
-The same conversation rejects the passive "readout" interpretation of the timesheet: the intended relation is interactive. The precise response/coupling map remains open.
+The same conversation rejects the passive "readout" interpretation of the timesheet: the intended relation is interactive. The November 8 direct source also calls force the true primitive and describes mutual accommodation between worldtube and timesheet. A safe type candidate is an interaction relation between the two structures, but the source does not settle whether that relation is reducible to mutual curvature or independent. The November 4 working hypothesis is mutual worldtube-timesheet curvature; worldline-only and timesheet-only descriptions remain open as potentially equivalent representations. No map establishes those equivalences. The precise response/coupling map remains open.
 
 Relevant direct messages:
 - 6f00a97a-aa84-45bf-9429-4ff70736014a, 2026-10-09T01:13:43Z (one-core / hollow-coil description);
@@ -333,7 +333,7 @@ Local Lean/Lake/Elan were absent in this runtime. No new Lean module, PR, or bui
 | 6 | October/November H(s)H distinguishes worldline, core, and finite-core worldtube | Treats line, tube, and support as interchangeable | Distinct object types required |
 | 7 | 2026 direct source describes a 4D tube around a 1D core, 3D boundary, possible mouth | Adds D3 normal fibers, S2 boundary fibers, aperture, rim, and loop | Candidate assistant construction, not direct source |
 | 8 | Worldsheet is a possible simplification, not identity with the tube | Blockwave identifies string as a timesheet trace of J without typing W | Map and type remain undefined |
-| 9 | Timesheet is interactive, not merely passive | Treats every intersection as a passive observation | Need separate geometric intersection and response/coupling map |
+| 9 | Timesheet is interactive, not merely passive; force is identified as primitive | Treats every intersection as a passive observation or silently inserts a third medium | Type the interaction relation and test mutual-curvature, worldline-only, and timesheet-only representations separately |
 | 10 | w and t occur in different source conventions | Merges Minkowski t, w=ct, cw=t, and native ++++ descriptions | Coordinate/metric map unresolved |
 | 11 | theta_4 is a geometric angle; Blockwave theta is compact phase | Reuses one glyph as if the meanings coincide | Namespace collision; no map |
 | 12 | Later direct clarification identifies inertia with worldtube bending | Historical tension/stiffness terms are treated as one settled action | Historical equation preserved; version disposition open |
@@ -354,11 +354,12 @@ For every proposed hierarchy or nesting:
 1. type the source and target objects;
 2. state intrinsic and ambient dimensions;
 3. declare the coordinate/metric and parameter;
-4. define the projection, thickening, slice, or response map;
-5. give the conditions under which maps compose;
-6. state which observables are constant on projection fibers;
-7. preserve source equations verbatim and place corrections separately;
-8. use intersection/instantiation/observable-slice language rather than defaulting to "readout".
+4. type the interaction/force relation without assuming a third independent carrier;
+5. define the projection, thickening, slice, or response map;
+6. give the conditions under which maps compose;
+7. state which observables are constant on projection fibers;
+8. preserve source equations verbatim and place corrections separately;
+9. use intersection/instantiation/observable-slice language rather than defaulting to "readout".
 
 No new canonical symbol is registered in this report. All labels used for the geometry diagram are local namespace labels.
 
@@ -370,9 +371,10 @@ No new canonical symbol is registered in this report. All labels used for the ge
 4. Decide whether the timesheet is an exact 3D hypersurface, a finite-thickness 4D support, or an interactive structure requiring a response map.
 5. Define the mouth/interface, any aperture/rim, and the family of intersections needed to obtain a 2D worldsheet.
 6. Supply the map between the July Minkowski t convention and the later w / Forest Normalization / native ++++ conventions.
-7. Reconcile the historical SAT-O1 tension potential with the later direct inertia/worldtube-curvature statement without silently rewriting either.
-8. Keep theta_4 distinct from Blockwave compact phase and identify any actual source-authorized mapping.
-9. Only after those definitions exist, extend the existing Lean modules rather than creating another parallel formalization.
+7. Type force as the proposed interaction primitive and compare mutual-curvature, worldline-only, and timesheet-only descriptions without presuming equivalence.
+8. Reconcile the historical SAT-O1 tension potential with the later direct inertia/worldtube-curvature statement without silently rewriting either.
+9. Keep theta_4 distinct from Blockwave compact phase and identify any actual source-authorized mapping.
+10. Only after those definitions exist, extend the existing Lean modules rather than creating another parallel formalization.
 
 ## 11. Workflow and evidence boundaries
 
