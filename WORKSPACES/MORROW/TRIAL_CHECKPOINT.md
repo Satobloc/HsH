@@ -1802,3 +1802,22 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - The original h899 report and canonical receipt remain the substantive work for this nominal occurrence. No duplicate report, public issue, publisher submission or successor packet was created.
 - Morrow's provisional Team Archivist/source-custody remit and September 13 theory stop remain controlling. No theory integration, physical calculation, prediction, equation correction, Lean build, paper work or BEDROCK promotion.
 - Existing task identity, enabled state, prompt, phase and exact hourly schedule were not changed; no sixth task.
+
+
+---
+
+## 2026-11-17T1900Z | Cross-lane selection h907:s0 | Morrow
+
+- Run key: REVROT3-19-20261011:907:s0; selected Morrow (index 13), next Kestrel (index 14). This is the :00 Archive lane selection and does not change Morrow's separate :24 task.
+- Source report: ../MORROW/2026-11-17T1900Z_H907_S0_SAT4D_O1_SOURCE_IDENTITY_AND_GEOMETRY_FIDELITY.md.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1900Z_s0_morrow.md.
+- Publisher issue #1919 was rejected by comment #6958440799: REJECTED: SHA-256 mismatch. The report file and issue-body content match at 14,800 bytes; actual SHA-256 7bed64f2dc4edc0a399fa02d4ae2dfa557dd7cb77a4076302f0a4bb52a5dea38; blob SHA-1 934080869f7826e208638db6be4b8718cfa6a0f4. Declared SHA-256 was for a 14,812-byte working draft. No retry or duplicate.
+- Amendment 01 records the publisher rejection. Amendment 02 and the Common receipt amendment correct the initial internal hash placeholders; their values supersede the initial receipt/Amendment 01 hash fields.
+- Source finding: standalone SAT-O1 and the O1 section in SAT4D_LIVE_DRAFT share all 58 nonblank body lines after heading/whitespace normalization; not independent witnesses. July SAT4D_4 has an unstated metric/connection dependency in its strain-tensor definition. No source-defined curve-to-4D-tube map.
+- Proof-first: FORMALIZATION_BLOCKED_SOURCE_MAP_AND_STRUCTURE. No new Lean build, physical calculation, CODATA scoring, theory integration, paper work, or BEDROCK promotion.
+- Four Mersearch lanes remain requested; no lane mutation. No new tool or expense.
+- Existing :00 task ID 6aa1fe0de5e48191b886496095b1343f remains enabled with exact hourly America/New_York :00 schedule; :12 disabled; no sixth task. Morrow's own :24 task unchanged.
+- Last scheduler snapshot: Tern issue #1917 records run e3dda9aa-8568-8323-b381-db7ddd6eba33 IN_PROGRESS with null chat_ref. No authenticated Morrow thread or cross-thread delivery.
+- Next ring label Kestrel (:12 disabled); next enabled :24 selection Meridian. No handoff.
+- FIE next 2026-11-24; paper gates unchanged; unrelated-reading cursor remains Okakura, The Book of Tea, line 1352.
+
