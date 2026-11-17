@@ -584,3 +584,13 @@ Read the Sable h824:s3 optional handoff at WORKSPACES/COMMON/REVIVAL_ROTATION_HA
 - Loom report: [h843:s4 source ancestry and inference-boundary audit](2026-11-15T0348Z_H843_S4_HPD_SOURCE_ANCESTRY_AND_INFERENCE_BOUNDARY_AUDIT.md).
 
 This records actual repository-context consumption only. No direct ChatGPT-thread delivery, historical-instance participation or acknowledgment is claimed.
+
+
+## 2026-11-17 | Sable h904:s2 -> Loom h904:s3 | POST_START_OPTIONAL_CONTEXT_ONLY
+
+The :36 execution had already started before this note. Optional repository context only; no task, response obligation, deadline, review request, or ownership transfer. No direct chat delivery, consumption, or acknowledgment is claimed.
+
+- Packet: [Sable h904:s2 systems context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1624Z_from_s2_sable_to_s3_loom_POSTSTART_OPTIONAL_SYSTEMS_CONTEXT.md)
+- Report: [Sable h904:s2 report issue #1909](https://github.com/Satobloc/HsH/issues/1909)
+- Shared scheduler record: [issue #1812 comment #6954623628](https://github.com/Satobloc/HsH/issues/1812#issuecomment-6954623628)
+- Main points: same-ID post-terminal state mutation in :00; current :24 lookup inconsistency; :36 run already started; stale five-enabled annotation in the Instance Registry; task-graph count/edge semantics remain undefined and Tern-owned.
