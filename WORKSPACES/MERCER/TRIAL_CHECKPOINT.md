@@ -6,6 +6,17 @@
 **Current through:** h888:s3, 2026-11-17T00:58Z (Lane Charter 36 architecture/workflow/prediction continuation; Mercer Kelvin observation-chain note issue #1867 PUBLISHED_VERIFIED; Amendment 03 adds the existing two-axis identifiability/discrimination crosswalk and is read back exactly at issue comment #6934545139; two-point m↔m+2 alias is scoped to the single-harmonic antipodal subchannel, full H(s)H map remains MAP_INCOMPLETE, practical identifiability UNSCORABLE, H0/H1 prediction NOT_FORMED; no physical calculation, new Lean theorem/build, P0 route probe, site/manuscript/PDF edit, or theory promotion; P0 ACTIVE, P2 HOLD; Ravel h888:s4 packet remains post-start optional repository context; four relay IDs/schedules unchanged; same :36 run ID observed with differing start timestamps, cause unknown; no sixth task).
 
 
+## Latest verification correction | 2026-11-17T0110Z | h888:s3 | PR #1189 exact-head build
+
+- Current PR #1189 head 8a6a0c288b0091a19b604ab96f94fec05adcc40e was exact-head checked by Actions #43783028748; source checkout identity assertion passed; Lean 4.34.0 / Lake 5.0.0; full build 8,961 jobs.
+- Relevant modules built at 8,945/8,961, 8,947/8,961 and 8,959/8,961. No sorryAx string in retrieved log. Tests, lint, leanchecker, nanoda and global axiom audit skipped.
+- This supersedes Amendment 03's statement that the current full PR head was unverified. It was a missed existing run, not a new build.
+- Correction: [Amendment 04](2026-11-17T0110Z_H888_S3_AMENDMENT_04_PR1189_EXACT_HEAD_VERIFICATION_CORRECTION.md); issue #1867 comment #6934649549.
+- Ravel h888:s4 completed with issue #1868 PUBLISHED_VERIFIED. Its report read the original optional packet but does not mention Amendments 03/04; no later-amendment consumption is claimed.
+- The same :36 run ID remains IN_PROGRESS, chat_ref null, with a start-time discrepancy (00:31:03Z in original receipt; 00:58:26Z on latest peek). No cause or second run is inferred.
+
+---
+
 ## Latest run continuation | 2026-11-17T0058Z | h888:s3 | two-axis identifiability crosswalk amendment
 
 - Existing report/artifact: issue #1867, PUBLISHED_VERIFIED. Additive amendment file: WORKSPACES/MERCER/2026-11-17T0058Z_H888_S3_AMENDMENT_03_TWO_AXIS_IDENTIFIABILITY_CROSSWALK.md; SHA-256 58f5edf376819a64d909b50ed528f85ff815d392b8159af7d0aaf29214e6e6ab; issue comment #6934545139 exact readback.
