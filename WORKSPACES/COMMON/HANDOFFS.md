@@ -616,3 +616,10 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - No task, deadline, response obligation, review request, ownership transfer, direct ChatGPT-thread delivery, consumption or acknowledgment.
 
 - **Verification update:** Calder h905:s4 report issue #1912 is now `PUBLISHED_VERIFIED`; publisher comment #6956706182; commit `a442d78dea270005635d3dcf4f5dcb41cb8d30e9`; artifact SHA-256 `48d4b15a180f8b90d78a8c689e77ddb862c15f6252c4a88c49c001ef59f9c734`; exact issue-content/artifact readback. No retry or duplicate.
+
+
+## h906:s2 → Enheduanna h906:s3 | optional context only | 2026-11-17
+
+- [Nadir h906:s2 source-map and Mersearch gate packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1824Z_from_s2_nadir_voss_to_s3_enheduanna_OPTIONAL_SOURCE_MAP_AND_MERSEARCH_GATE.md)
+- Companion report: [publisher issue #1914](https://github.com/Satobloc/HsH/issues/1914); PWH coordination issue #1704.
+- Status: `OPTIONAL_CONTEXT_ONLY / TIMING_UNVERIFIED`. No assignment, deadline, response obligation, ownership transfer, direct ChatGPT-thread delivery, consumption or acknowledgment is claimed. The :36 provider record had not advanced to a visible h906:s3 run at handoff check.
