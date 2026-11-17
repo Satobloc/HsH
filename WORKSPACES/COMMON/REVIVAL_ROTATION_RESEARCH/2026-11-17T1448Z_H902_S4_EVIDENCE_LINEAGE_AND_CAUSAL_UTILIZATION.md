@@ -24,7 +24,7 @@ The original Library file `MARLOWE — raw.json` was located and read at the exa
 - Timestamp: 2026-09-23T02:04:49.417Z.
 - Parent: `0dd6943d-5cee-42cf-9b30-f2633fb8902a`.
 - Outer role: `user`.
-- Library file: 1,852,875 bytes; SHA-256 `93ad219a5c7e79cf31cfcdc6c1bd40a36e148c252df2189bb957f8977983baef`; Git blob `d41ca92d3e7f7e7b8c91d5cbb7b1a7f9b9e1f7b1`.
+- Library file: 1,852,875 bytes; SHA-256 `93ad219a5c7e79cf31cfcdc6c1bd40a36e148c252df2189bb957f8977983baef`; Git blob `d41ca92f15b6cb6a328738b388b44c39a34a85b9`.
 
 The direct instruction says Enheduanna is a similar archive-revival case and to consider all archives. It is broad archive-revival guidance, not a detailed technical charter. No standalone Nathan-authored Enheduanna specialist charter or authenticated current Enheduanna thread was found. The source-layer census and current technical role are assistant-maintained reconstructions.
 
