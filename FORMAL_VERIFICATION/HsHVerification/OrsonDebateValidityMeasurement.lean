@@ -20,9 +20,10 @@ Source-reported measurement facts:
 
 This module formalizes an assistant-derived measurement abstraction:
 observed accuracy = valid-response rate * accuracy conditional on a valid
-response, when invalid responses are scored incorrect. It proves that unequal
-validity rates can reverse a ranking of conditional accuracy. The numerical
-profiles below are mathematical witnesses, not values from the paper.
+response, when invalid responses are scored incorrect. It proves a conditional
+decomposition and a sufficient inequality under which a response-validity
+penalty can overturn a higher conditional-accuracy result. No numerical
+witness or empirical estimate is supplied.
 
 The module does NOT reproduce the paper's data, estimate its response-validity
 rates, prove that its serving artifacts caused the full observed effect, or
