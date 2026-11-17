@@ -240,6 +240,7 @@ Existing tooling checks:
 - Math Hopper issue #578 and draft PR #991 remain existing work, not a completed production pipeline.
 - Whirligig Kernel 0 remains sandbox-only; no production integration was found.
 - SciSpace is available, but no external literature search was needed for this source-attribution delta.
+- Repository fork counts at audit: 0 for HsH, SAT_THEORY_ARCHIVE_2023-25, and HSH_RESOURCES.
 - No new tool, dependency, subscription, or cost was introduced.
 - HsH, SAT archive, and HSH_RESOURCES entry documentation were checked. No private HSH_RESOURCES research payload was opened.
 
@@ -247,11 +248,11 @@ Unrelated reading advanced through lines 2001-2040 of the existing SAT archive f
 
 ## 8. Identity, handoff, and next cursor
 
-The historical Aster role is source-fidelity auditing: the original user instruction asks whether material reads like Nathan, whether Nathan has said it, and whether it contradicts prior statements. The raw Aster export is DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20•26.10.17•ASTER — raw.json, Git blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8.
+The historical Aster role is source-fidelity auditing: the original user instruction asks whether material reads like Nathan, whether Nathan has said it, and whether it contradicts prior statements. No standalone signed specialist charter was recovered; the remit is grounded in the original user messages. The raw Aster export is DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20•26.10.17•ASTER — raw.json, Git blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8.
 
 Aster's Paper A review assignment is frozen by the current Code Grurple roster. This run used only the source-fidelity remit.
 
-No authenticated active Aster thread was established. The latest archived manual-thread candidate remains usability-unverified. No Aster CURRENT_WORK or private workspace state was rewritten, and no cross-thread delivery is claimed.
+No authenticated active Aster thread was established. The archived manual-thread candidate 6aecede1-4c08-83e9-abc4-da64f59a4f51 remains usability-unverified. No Aster CURRENT_WORK or private workspace state was rewritten, and no cross-thread delivery is claimed.
 
 Next ring label: Ariadne. Her current P0 work is protected, so no handoff or response obligation was created.
 
