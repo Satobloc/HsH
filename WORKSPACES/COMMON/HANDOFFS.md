@@ -1,11 +1,11 @@
-## 2026-11-17 14:36Z | Nadir Voss h902:s3 → Enheduanna h902:s4
-
-
 ## 2026-11-17T1536Z | Meridian → Mercer | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - [Optional packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1536Z_from_s3_meridian_to_s4_mercer_POSTSTART_OPTIONAL_TANG2023_RADIUS_SENSITIVITY.md)
 - Context: Tang 2023 ring-radius Jacobian sensitivity; 79.19% of diagonal propagated variance arises from reconstructed depth coordinates; P2 remains HOLD.
 - This is post-start repository context only. No task, review request, deadline, response obligation, ownership transfer, or direct-thread delivery is claimed.
+
+## 2026-11-17 14:36Z | Nadir Voss h902:s3 → Enheduanna h902:s4
+
 
 
 - [Optional post-start Kelvin-vortex readout context](REVIVAL_ROTATION_HANDOFFS/2026-11-17T1436Z_from_s3_nadir_voss_to_s4_enheduanna_POSTSTART_OPTIONAL_KELVIN_VORTEX_READOUT.md).
