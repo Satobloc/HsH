@@ -54,14 +54,14 @@ inductive DependencyAxis
   | analysis
   | evaluation
   | laboratory
-  deriving DecidableEq, Fintype
+  deriving DecidableEq
 
 /-- Relationship on one dependency axis. Partial is not silently treated as distinct. -/
 inductive DependencyState
   | unknown
   | shared
   | distinct
-  | partial
+  | partiallyShared
   deriving DecidableEq
 
 /-- A source-backed state for one dependency axis. -/
@@ -100,7 +100,7 @@ theorem unknown_parentage_blocks_claim
     ¬ IndependenceClaimAdmissible
       (ParentageEvidence.unknown : ParentageEvidence AcquisitionUnit)
       profile policy := by
-  simp [IndependenceClaimAdmissible, parentageReady]
+  simp [IndependenceClaimAdmissible]
 
 theorem ambiguous_parentage_blocks_claim
     {AcquisitionUnit : Type}
@@ -142,7 +142,7 @@ theorem shared_required_axis_blocks_claim
   rw [hShared] at hDistinct
   contradiction
 
-theorem partial_required_axis_blocks_claim
+theorem partially_shared_required_axis_blocks_claim
     {AcquisitionUnit : Type}
     (parentage : ParentageEvidence AcquisitionUnit)
     (profile : DependencyProfile)
@@ -150,7 +150,7 @@ theorem partial_required_axis_blocks_claim
     (axis : DependencyAxis)
     (hParentage : parentageReady parentage)
     (hRequired : policy.requiredDistinct axis = true)
-    (hPartial : (profile axis).state = .partial) :
+    (hPartial : (profile axis).state = .partiallyShared) :
     ¬ IndependenceClaimAdmissible parentage profile policy := by
   intro h
   have hDistinct := (h.2 axis hRequired).1
