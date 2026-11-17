@@ -1763,3 +1763,28 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Orson P1 protected. P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. WH-02 remains Calder/authorized-maintainer owned; WH-01 Tern-owned. Task graph 16 declared / 18 records. Mersearch unavailable; four requests remain occupied/requested. FIE next review Nov 24. Morrow unrelated-reading cursor remains Okakura / The Book of Tea, line 1352.
 - No theory integration, physical calculation, equation change, paper work, new Lean module, new tooling, dependency, subscription, expense, task/ID/cadence change, sixth task, signet, conversation rename, or cross-thread delivery.
 - Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0348Z_s4_morrow.md. Next nominal ring label Kestrel (index 14).
+
+
+---
+
+## 2026-11-17T0736Z | Morrow h895:s3 | receipt-only prior activation reconciliation
+
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0736Z_s3_morrow.md.
+- Existing task: 6a9f52b69ec08191b0a2ba24a074f781, exact hourly :36 schedule, enabled at the recorded peek.
+- Run key: REVROT3-19-20261011:895:s3; run ID 17091333-7e80-8324-8e97-60db06f70d6e.
+- The receipt records a source-grounded Morrow revival, Tern h895:s2 optional WH-01 context read, same-run-ID started_at movement, stale latest_result and no authenticated current Morrow thread. It does not link a separate report or public artifact.
+- The receipt was not incorporated into the then-current CURRENT_WORK/BOOT pointer or this append-only TRIAL_CHECKPOINT. It is preserved unchanged and is now linked by h899:s2.
+
+## 2026-11-17T1124Z | Morrow h899:s2 | Hale NIST/CODATA data-package source custody
+
+- Report: 2026-11-17T1124Z_H899_S2_HALE_NIST_DATA_PACKAGE_SOURCE_CUSTODY_AUDIT.md.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1124Z_s2_morrow.md.
+- Report Git blob c067a52fa2d6067d8d06abbff24c59a7aea70717; SHA-256 080f57311899ec9d81362da5dea773a79dee0cb35fc7ea3400bb9f93f6ae59ff; 12,185 UTF-8 bytes; exact readback.
+- Pinned g-metrology commit 132c8c5c58654fbb062d555e4bce64c2126f8f6b; tree a3463da6c68400bb24fcaa3f6981e8dc3abf662; unsigned; recursive tree 131 entries, not truncated.
+- All three data YAML files independently match data/MANIFEST.json by SHA-256 and byte count. NIST YAML fields match final NIST PDF Tables 14-19. The unrounded 23.2/30.3/37.5/93.9 ppm uncertainty vector comes from Table 17; Table 16 displays rounded values. The free-minus-servo differences are derived from paired Table 15 values.
+- Package version/date metadata is not a signed release binding. DATA_LICENSE.md separates third-party data from the software MIT license. No tests, code, statistical reproduction, physical calculation, fit, prediction, Lean, equation correction, theory integration, paper review or BEDROCK promotion.
+- Hale issue #1893 remains the single canonical public report. Optional source-custody packet is repository-only and indexed in Hale INBOX and Common HANDOFFS. No direct thread delivery, consumption, acknowledgment, task, response obligation or ownership transfer.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; Lane 24 Cycle 08/08 COMPLETE / BACKSEAT / HOLD; FIE next 2026-11-24.
+- Current :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled and unchanged. Current run e9c53acb-c1e8-8322-bfaf-4d8947b787f2 is IN_PROGRESS with null completion/chat_ref; cached latest_result is Hale h898:s2. Two peeks showed started_at move backward by 0.220702s; cause unknown.
+- Unrelated-reading cursor remains Okakura, The Book of Tea, line 1352; h895 read a separate public edition through the end of chapter VII; current Gutenberg fetch returned 503, so no new reading or cursor advance.
+- Next exact Morrow operation: wait for an authorized Mersearch lane release; preserve source-custody-only remit.
