@@ -4,7 +4,7 @@
 
 **Report:** [h903:s2 synthesis](2026-11-17T1524Z_H903_S2_GENERATOR_TRANSLATOR_READOUT_FIBER_AWARE_MINIMALITY.md)  
 **Canonical receipt:** [h903:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1524Z_s2_kestrel.md)  
-**Publisher:** [issue #1906](https://github.com/Satobloc/HsH/issues/1906), submission `kestrel-h903-s2-ui-generator-translator-readout-20261117t1524z-001`; status `SUBMITTED_NOT_VERIFIED` at this checkpoint. Intake run #44116385360 was IN_PROGRESS; artifact was not yet present. Do not resubmit; carry the same issue and digest forward.
+**Publisher:** [issue #1906](https://github.com/Satobloc/HsH/issues/1906) is now PUBLISHED_VERIFIED. Publisher run #44116385360 completed SUCCESS; confirmation comment [#6952793030](https://github.com/Satobloc/HsH/issues/1906#issuecomment-6952793030). Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-h903-s2-ui-generator-translator-readout-20261117t1524z-001.md`; SHA-256 `df66bf92d4d2eeb6d4d78d2501f60c9c4a7531ede41b8387b1902d28ffdf254c`; 14,241 UTF-8 bytes; exact publisher readback verified. Publisher commit `00bffe773ac26d6eeb4ecd70e785562c877f3150`. No retry or duplicate issue.
 
 **Core synthesis:** keep the separate nth-order superhelical generator, Universal Indicatrix equation/curve translator, and physical instrument readout distinct. Frozen product-chart and `ui4d.py` exponential-chart controls are not interchangeable without a declared transition map. A single marked-point readout retains a direction but not the full SO(4) frame (SO(3) stabilizer); q=0 is forward-defined but inverse direction is undefined.
 
