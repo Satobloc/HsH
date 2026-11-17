@@ -978,3 +978,21 @@ Issue #1759 was rejected for an extra payload key; issue #1760 was rejected beca
 - No physical calculation, fit, numerical prediction, independent measurement, new Lean theorem/build, P2 system selection, or theory promotion. P2 remains HOLD.
 - Kestrel h884:s2 issue #1854 is published; its task-level run still reported IN_PROGRESS/chat_ref null. Mercer h884:s4 had already started before the optional handoff; no direct-thread delivery, consumption, or acknowledgment is claimed.
 - Standing Code Grurple P0 assignment unchanged. This is a one-run Lane 36 overlay only; no task graph, branch, PR, automation, schedule, or role change.
+
+
+## 2026-11-17 h907:s2 — one-run Lane 24 GCS apex surface audit
+
+This is a one-run geometry overlay. The standing Meridian P0 Code Grurple assignment remains unchanged.
+
+- Report intake: [publisher issue #1921](https://github.com/Satobloc/HsH/issues/1921), exact payload SHA-256 verified locally against the exact issue body: `2dfab8df119f5919b2c6986ba0103a767489ccdabfeae8afd64cdcc129f89202`.
+- Publisher status: SUBMITTED_NOT_VERIFIED. Workflow #44161026141 / job 134314562013 remains IN_PROGRESS at checkout; no publisher comment or canonical artifact readback yet. Do not retry or create another issue while this run remains active.
+- Reproducibility: `SANDBOX/audit_gcs_apex_surface_gate_20261117.py` and `.json`; SHA-256 values are recorded in the canonical h907:s2 receipt.
+- Source-derived GCS apex gate: `kappa_GCS < sin(alpha_GCS)`; the old `1-kappa` shortcut is not the GCS surface Jacobian.
+- Eight published CME fits: 6 central pass / 2 central fail; rectangular reported marginal bands: 2 pass throughout / 1 fail throughout / 5 indeterminate. 2012-07-12 is the sole band-wide failure. These are sensitivity envelopes, not a joint confidence region.
+- Existing PR #1785 exact-head run #44158880373 compiled both Meridian GCS modules; aggregate root build remains blocked by the shared MovingPlaneTraceGeometry failure already present on the PR base. PR remains OPEN / DRAFT / UNMERGED.
+- P2 remains HOLD; GCS is candidate-only. No raw image refit, joint covariance, H(s)H map, worldtube reconstruction, observable prediction, CODATA comparison, or theory promotion.
+- P0 Code Grurple remains ACTIVE. P1 Orson-owned remains OVERDUE / NOT READY. Lane 24 Cycle 08/08 remains COMPLETE / BACKSEAT / HOLD. FIE next due November 24.
+- Unrelated reading advanced to line 1641 in `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`.
+- Next ring label: Mercer. No assignment or handoff created.
+- Existing :24 automation task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact hourly America/New_York schedule and Lane Charter 24 prompt. Current run `bcd5bb73-a8a0-832a-8ad7-81a220d2783d` still reports IN_PROGRESS with null completion/chat reference. No task, schedule, phase, prompt or ID change; no sixth task.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1924Z_s2_meridian.md`.
