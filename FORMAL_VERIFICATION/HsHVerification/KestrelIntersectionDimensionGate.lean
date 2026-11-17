@@ -160,4 +160,25 @@ theorem transverse_slice_preserves_poincare_dual_degree
 #print axioms transverse_worldsheet_hypersurface_finrank_one
 #print axioms transverse_full_core_hypersurface_finrank_three
 
+
+
+/-- Two three-dimensional hypersurface tangent spaces in a four-dimensional
+ambient tangent space have a two-dimensional intersection when they are
+transverse. If a proposed Kerr-shell boundary and a timesheet are each
+three-dimensional hypersurfaces, this is a possible local type for their
+intersectional trace. The source does not yet provide both embeddings or
+establish transversality; this theorem does not assert that a physical
+intersection exists or that it is a string/worldsheet. -/
+theorem transverse_hypersurface_hypersurface_finrank_two
+    (U W : Submodule K V)
+    (hU : finrank K U = 3)
+    (hW : finrank K W = 3)
+    (hV : finrank K V = 4)
+    (htrans : U ⊔ W = ⊤) :
+    finrank K (U ⊓ W : Submodule K V) = 2 := by
+  have h := transverse_intersection_finrank U W htrans
+  omega
+
+#print axioms transverse_hypersurface_hypersurface_finrank_two
+
 end HsHVerification.KestrelIntersectionDimensionGate
