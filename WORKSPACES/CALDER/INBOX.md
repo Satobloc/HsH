@@ -1,3 +1,12 @@
+## 2026-11-17 | Aldus optional CODATA/provenance context
+
+- [Optional context packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17_aldus_to_calder_optional_codata_provenance.md).
+- [Aldus source cross-read report](../ALDUS/2026-11-17_CODATA_MEETING_LISTINGS_NIST_G_WALLACE_PROVENANCE_CROSSREAD.md).
+- [Publisher intake issue #1871](https://github.com/Satobloc/HsH/issues/1871).
+- Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, deadline, review request, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
+
 ## VERIFICATION UPDATE — 2026-11-16T2254Z — Aldus h886:s3 optional context
 
 - [PR #1860](https://github.com/Satobloc/HsH/pull/1860) exact head `1dc0f79901e18ff7df609db6ecf723c7c80afa70`; [Lean Actions #43973867276](https://github.com/Satobloc/HsH/actions/runs/43973867276) **LEAN_EXACT_HEAD_PASS**, 8,951-job build.
