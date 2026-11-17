@@ -1,6 +1,6 @@
 ## H897:S0 | 2026-11-17T09:00Z
 
-Assistant-level source-fidelity revival under the Loom ring label. See [report](2026-11-17T0900Z_H897_S0_MATERIAL_HISTORY_CURVATURE_AND_NATIVE_COORDINATE_FIDELITY.md) and [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0900Z_s0_loom.md). Direct source qualifies spatial coordinate acceleration as distinct from intrinsic 4D curve curvature except at low velocity; native cw=t / (++++) is not mapped to earlier w=ct. Existing Lean work proves only conditional external Euclidean-lift identities. Mersearch unavailable; four lanes occupied. No physical calculation, CODATA, new Lean, theory promotion, task mutation or cross-thread delivery claim. Publication pending publisher verification.
+Assistant-level source-fidelity revival under the Loom ring label. See [report](2026-11-17T0900Z_H897_S0_MATERIAL_HISTORY_CURVATURE_AND_NATIVE_COORDINATE_FIDELITY.md) and [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0900Z_s0_loom.md). Direct source qualifies spatial coordinate acceleration as distinct from intrinsic 4D curve curvature except at low velocity; native cw=t / (++++) is not mapped to earlier w=ct. Existing Lean work proves only conditional external Euclidean-lift identities. Mersearch unavailable; four lanes occupied. No physical calculation, CODATA, new Lean, theory promotion, task mutation or cross-thread delivery claim. Publication PUBLISHED_VERIFIED: issue #1889, run #44054436927, artifact SHA-256 `da84b3885890df8aef96c70bccb11d43884441ad3dd1c1d35469986ebdfb7cb7`; see receipt Amendment 01.
 
 ---
 
