@@ -15,6 +15,17 @@ import HsHVerification.GeometryProvenanceSeparation
 import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.MiraSgrACovarianceGate
 import HsHVerification.NadirFrameTelescoping
+import HsHVerification.NadirAffineTranslationQuotient
+import HsHVerification.NadirAffineObstructionDimension
+import HsHVerification.NadirProjectedFrameCurvature
+import HsHVerification.NadirReadoutMetricSignature
+import HsHVerification.NadirVortexTwoChannelReadout
+import HsHVerification.NadirRotatingFluidPIVEnergyReadout
+import HsHVerification.NadirProjectionCoarseGrainFactorization
+import HsHVerification.NadirWitnessCarryingComposition
+import HsHVerification.NadirRobustReadoutSeparation
+import HsHVerification.NadirConnectorWitnessHolonomy
+import HsHVerification.NadirRotoexpandoUIProjection
 import HsHVerification.NadirGPBFourGyroGate
 import HsHVerification.NadirGPBJointCovariance
 import HsHVerification.NadirGPBPhaseReadout
@@ -24,6 +35,7 @@ import HsHVerification.NadirE989ClosureProjection
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import Mathlib
+import HsHVerification.NadirAngleConvention
 
 /-! Smoke test for the HsH formal-verification pipeline.
     Compilation proves only the stated mathematics, not a physical model. -/
