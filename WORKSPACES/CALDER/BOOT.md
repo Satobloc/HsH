@@ -1,14 +1,15 @@
-## Latest checkpoint | Calder h867:s4 | 2026-11-16 | PUBLISHED_VERIFIED
+## Latest checkpoint | Calder h890:s3 | 2026-11-17 | LEAN_VERIFIED / FACTORY_HANDOFF_PENDING
 
-- [Public report issue #1821](https://github.com/Satobloc/HsH/issues/1821) is PUBLISHED_VERIFIED; exact issue-envelope/canonical-artifact readback passed. SHA-256 a23f597b1f5a33368718d02f07529a99514b0fc060796a0c2345e2be6e70b783.
-- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0348Z_s4_calder.md) and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0348Z_s4_calder_AMENDMENT_01_PUBLISHER_VERIFIED.md).
-- Partial-crossing resampling sensitivity on the three archived vanilla ConsistencyBench files; not Orson's 17-model CGD P1 and not a population CI.
-- Historical role-source correction: CHECKINS.md lines 53-110 is a worker-authored self-report, not a signed Nathan Direct charter. Do not promote assistant reconstructions into one.
-- Mersearch connector unavailable; four request lanes occupied with no outputs. Do not overwrite or retrigger.
-- P0 ACTIVE; WH-05 blocked; WH-02 highest unblocked. Tern retains queue/task-graph/scheduler authority.
-- Orson P1 remains sole-owner / NOT READY; no protocol or manuscript change. FIE next review November 24.
-- Next ring label Hale h868:s0; already started, so repository handoff remains post-start optional context only.
-- [Hale handoff packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0348Z_from_s4_to_s0_hale_POSTSTART_OPTIONAL_REVIEW_MIND_PARTIAL_CROSSING_BOOTSTRAP.md) and [Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0348Z_from_s4_to_s0_hale_POSTSTART_OPTIONAL_REVIEW_MIND_PARTIAL_CROSSING_BOOTSTRAP_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- [CURRENT_WORK](CURRENT_WORK.md) is the canonical return point; its first dated block is h890:s3.
+- [Original h890:s3 report](2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_PARENTAGE_AND_CLAIM_SCOPED_INDEPENDENCE.md), [machine-readable dependency map](2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_DEPENDENCY_MAP.json), and [public issue #1874](https://github.com/Satobloc/HsH/issues/1874) remain canonical; publisher artifact exact-readback verified.
+- Existing [PR #1515](https://github.com/Satobloc/HsH/pull/1515) head `b34a74885c79dbec983ad071b6f86db5676d5e28`; [exact-head run #44011692583](https://github.com/Satobloc/HsH/actions/runs/44011692583) SUCCESS, Lean 4.34.0 / Lake 5.0.0 / Mathlib v4.34.0, 8,958 build jobs. Five theorem reports have no axiom dependencies; one uses `propext`. Global axiom audit/tests/lint/leanchecker/nanoda skipped; Lake manifest not committed; PR remains OPEN/DRAFT/UNMERGED with zero reviews.
+- [Receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0236Z_s3_calder_AMENDMENT_01_LEAN_REPAIR_AND_FACTORY_GATE.md) records the three failed attempts, successful repair, duplicate-run-key reconciliation, issue comment readback and limits.
+- [Factory handoff pending packet](FACTORY_HANDOFF_PENDING_H890_S3.json) is verified. No Factory Floor intake or Floor ID: the mandatory object-specific geometry plot and independent hostile fidelity review are absent.
+- No raw data, physical calculation, fit, prediction, independent measurement or falsification threshold. H(s)H map undefined; P2 HOLD; no theory promotion or SAT-O/Blockwave equation change.
+- Historical empirical-Calder role evidence remains a worker-authored self-report, not a signed Nathan Direct charter; no authenticated current Calder thread or historical-instance participation is claimed.
+- Next ring label Hale. Existing optional handoff was post-start; Hale h890:s4 did not find it. A repository-only Hale inbox entry now carries the exact-head result and pending packet; no chat delivery/consumption/acknowledgment claimed.
+- Mersearch unavailable; four canonical lanes remain occupied/requested. P0 ACTIVE; P1 Orson OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov 24. Tern retains PWH/task-graph/scheduler authority.
+- Existing :36 task ID `6a9f52b69ec08191b8a91a30d2a155e0` remains enabled, exact hourly schedule and Lane Charter 36 unchanged. No sixth task, signet or conversation rename.
 
 ---
 
