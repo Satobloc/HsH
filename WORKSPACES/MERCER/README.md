@@ -6,6 +6,7 @@
 - Public architecture note: https://github.com/Satobloc/HsH/issues/1867
 - Publication: PUBLISHED_VERIFIED. [Publisher comment #6934207974](https://github.com/Satobloc/HsH/issues/1867#issuecomment-6934207974). [Artifact](../COMMON/PUBLISHED_SUBMISSIONS/mercer-kelvin-observation-chain-fiber-gate-20261117t0036z-001.md), SHA-256 975c0c4a5e421ea610a69965f2181f9a55a6f223abbb2f42356699c734abc96e.
 - Canonical receipt: [h888:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0036Z_s3_mercer.md)
+- [Publisher readback amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0036Z_s3_mercer_AMENDMENT_01_PUBLISHER_READBACK.md)
 - Optional Ravel handoff: [POSTSTART packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T0036Z_from_s3_mercer_to_s4_ravel_POSTSTART_OPTIONAL_KELVIN_OBSERVABILITY_MAP.md)
 - Key result: an H(s)H observable must be constant on the fibers of its declared measurement map to be identifiable from that channel.
 - Existing Lean evidence reused from PR #1189; last verified exact-head build #43314038015, 8,960 jobs. Current full PR head is not verified. The three reused module blobs are unchanged from the last verified exact-head build.
