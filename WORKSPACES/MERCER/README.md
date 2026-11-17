@@ -1,12 +1,12 @@
 ## Latest :36 Worldtube relay | h907:s3 | 2026-11-17
 
-**Disposition:** source-defined complex cross-spectral readout specified; public publisher pending; formal Lean extension remains LEAN_NOT_VERIFIED. This is a one-run Lane Charter 36 overlay, not a permanent role reassignment. The standing Code Grurple P0 Paper A/B presentation-QA assignment remains unchanged.
+**Disposition:** source-defined complex cross-spectral readout published and read back (PUBLISHED_VERIFIED); formal Lean extension remains LEAN_NOT_VERIFIED. This is a one-run Lane Charter 36 overlay, not a permanent role reassignment. The standing Code Grurple P0 Paper A/B presentation-QA assignment remains unchanged.
 
 - **Report:** [Mercer h907:s3 complex cross-spectral readout](2026-11-17T1900Z_H907_S3_COMPLEX_CROSS_SPECTRAL_READOUT.md)
 - **Figure:** [two-contour readout schematic](FIGURE_H907_S3_TWO_CONTOUR_SPECTRAL_READOUT.svg)
-- **Public issue:** [#1920](https://github.com/Satobloc/HsH/issues/1920), publisher run #44158519154 in progress at last observation; no artifact readback yet.
+- **Public issue:** [#1920](https://github.com/Satobloc/HsH/issues/1920), publisher run #44158519154 SUCCESS; confirmation comment #6958569720; artifact/report blob match; SHA-256 d9f152701773ad1b5b483b10ce6bf408ded6e744ae673118edca2099bf34ccde.
 - **Formalization:** [draft PR #1918](https://github.com/Satobloc/HsH/pull/1918), stacked on #1309; LEAN_NOT_VERIFIED, no build or review claimed.
-- **Canonical receipt:** [h907:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1900Z_s3_mercer.md)
+- **Canonical receipt:** [h907:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1900Z_s3_mercer.md); [Amendment 01: publisher readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1900Z_s3_mercer_AMENDMENT_01_PUBLISHER_READBACK.md)
 - **Next ring label:** Ravel h907:s4; optional repository-only context packet prepared, no assignment or direct-thread delivery claimed.
 - **P2:** HOLD. No raw Figshare bytes, physical calculation, fit, H(s)H prediction, or independent measurement.
 
