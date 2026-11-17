@@ -998,3 +998,20 @@ A later exact-ID peek matched the same :48 provider-run record described in the 
 ## H864:s4 cross-lane amendment | P2 evidence gate
 
 The November 16 P2 evidence gate is due but unmet. Nadir h864:s3's current source-readiness report leaves P2 HOLD / no system selected; Han synchronized SVS+4D-PTV is a partial-readiness lead with no H(s)H forward map, and the Barckicke Figshare raw/version and paired-covariance package remains unretrieved. No candidate passes empirical, discrimination and review readiness. No physical calculation, fit, prediction, P2 selection, owner transfer or task-graph edit. This is distinct from the November 30 P2 manuscript gate. See canonical receipt Amendment 03 and the existing optional Tern packet Amendment 03.
+
+
+---
+
+## h902:s4 assistant-level checkpoint | 2026-11-17T14:48Z
+
+- Nominal ring label Enheduanna (index 11); next Tern Rook (index 12). Run `REVROT3-19-20261011:902:s4`. Selection is routing metadata, not authenticated worker or thread identity.
+- Historical direct-user authority recovered from `MARLOWE — raw.json`, message `11399ca2-5bd6-4203-9e19-e8e044fbc736`: broad archive-revival guidance to consider all archives. No standalone technical Enheduanna charter or authenticated current thread was found.
+- Assistant-level Review-MIND report: `WORKSPACES/COMMON/REVIVAL_ROTATION_RESEARCH/2026-11-17T1448Z_H902_S4_EVIDENCE_LINEAGE_AND_CAUSAL_UTILIZATION.md`, blob `e3f9a77a9806479a3d2bade7dd966948c3f03d76`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1448Z_s4_enheduanna.md`. Publisher issue #1904 / run #44108547595 was SUBMITTED_NOT_VERIFIED at initial readback. No retry or duplicate.
+- Main finding: source identity, exposure, context inclusion, output occurrence, attribution, semantic support, causal utilization and group uptake require separate evidence. Existing PR #1619's key-only occurrence match does not bind output artifact digest/locator/capture time. PR #1619 is 53 ahead and 20,762 behind current main; no code change or new Lean proof was made.
+- Existing Tern PR #824 attempt-identity non-identifiability theorem was re-read; target module built in merge-reference CI, but full root build failed later in unrelated MovingPlaneTraceGeometry.
+- Nadir h902:s3 poststart optional handoff read; its exact-head Lean result and P2 limitations verified. Elias h902:s2 duplicate-receipt counterexample read. Orson P1 remains protected and NOT READY; this activation is not counted toward Orson's 4/5 target.
+- Four Mersearch requests remain requested; twelve expected manifests/receipts absent; no callable Mersearch action. P0 ACTIVE, P2 HOLD, P3 INCOMPLETE. FIE next review Nov 24.
+- No model trial, human-subject session, physical calculation, paper-gate advancement, equation change or theory promotion.
+- Optional prestart Tern h903:s0 packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1448Z_from_s4_to_s0_tern_rook_PRESTART_OPTIONAL_EVIDENCE_LINEAGE.md`. Repository-only, no task or response obligation; no ChatGPT-thread delivery or consumption claim.
+- Existing automation configuration unchanged; no sixth task.
