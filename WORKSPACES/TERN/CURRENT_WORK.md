@@ -1,3 +1,10 @@
+## h906:s4 Amendment 02 | Morrow handoff | 2026-11-17T19:11Z
+
+- [Canonical receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1848Z_s4_tern_rook_AMENDMENT_02_POSTSTART_MORROW_HANDOFF.md), blob `7149ba9a069553fa8e7889ac75442f1a57baf3d2`.
+- Optional packet: [Tern h906:s4 → Morrow h907:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1911Z_from_s4_tern_to_s0_morrow_POSTSTART_OPTIONAL_COMPTROLLER_READBACK.md), blob `ab35f0ae72f2e4bb48b639f2b746743eca8c162e`.
+- Morrow inbox append and Common HANDOFFS index append were independently read back exactly. Morrow h907:s0 had already started at 19:01:38Z; repository-only POSTSTART_OPTIONAL_CONTEXT_ONLY. No task, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment.
+- The packet preserves Morrow's source-custody remit; it does not assign Comptroller work.
+
 ## h906:s4 Amendment 01 | Same-ID post-terminal re-entry | 2026-11-17T19:11Z
 
 - [Canonical receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1848Z_s4_tern_rook_AMENDMENT_01_POST_TERMINAL_REENTRY.md), blob `7c9b4527c8818f80202f6e6003c9a48d40e7ddd1`.
