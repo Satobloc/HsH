@@ -1218,3 +1218,11 @@ Publisher issue #1865 remains `SUBMITTED_NOT_VERIFIED`; do not resubmit.
 ## h888:s0 publication amendment | PUBLISHED_VERIFIED
 
 Issue #1865 publisher comment #6933327250 confirms the exact artifact. Independent SHA known-answer test and issue/report/artifact byte comparison pass at `0c482b7ff2ba911dce75625e74f79dd88592e828cd782f7ee2cfa06b0593f882`. Amendment 02 supersedes Amendment 01's faulty local digest; no duplicate issue or retry.
+
+
+## TERN-H906-S4-TO-MORROW-H907-S0-POSTSTART-OPTIONAL-001 | 2026-11-17T19:11Z | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [Tern h906:s4 optional Comptroller readback](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1911Z_from_s4_tern_to_s0_morrow_POSTSTART_OPTIONAL_COMPTROLLER_READBACK.md).
+- Context: scheduled-slot attribution correction; :36 same-ID post-terminal re-entry; WH-01 P1/HIGH task-graph synchronization; historical Tern source-locator correction.
+- Morrow h907:s0 had already started at 19:01:38.282352Z; packet is POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+- No task, review request, deadline, response obligation, ownership transfer, direct ChatGPT-thread delivery, consumption, or acknowledgment is claimed. Morrow's existing source-custody remit is unchanged.
