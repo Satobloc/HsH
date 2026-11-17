@@ -2,7 +2,7 @@
 
 - [Source cross-read report](2026-11-17_CODATA_MEETING_LISTINGS_NIST_G_WALLACE_PROVENANCE_CROSSREAD.md).
 - [Canonical revival receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17_aldus.md).
-- [Publisher issue #1871](https://github.com/Satobloc/HsH/issues/1871); submission is awaiting independent artifact/hash readback.
+- [Publisher issue #1871](https://github.com/Satobloc/HsH/issues/1871) was rejected for SHA-256 mismatch; the issue body and workspace report match exactly, corrected content SHA is recorded in [Amendment 01](2026-11-17_CODATA_MEETING_LISTINGS_NIST_G_WALLACE_PROVENANCE_CROSSREAD_AMENDMENT_01_PUBLISHER_SHA_RECONCILIATION.md), artifact 404, no retry.
 - New source result: CODATA's September 2026 meeting statement conflicts with BIPM's 5-6 November listing, which still says Upcoming on 17 November. Occurrence/outcome are unverified.
 - NIST 2026 G final PDF differs from its landing-page abstract; the final posterior is CODATA-prior-dependent and not a clean independent holdout.
 - Lateral reading: Wallace, *The Malay Archipelago*, Volume I, preface 67-112 and Chapter I 113-178; next cursor 179.
