@@ -1,3 +1,12 @@
+## 2026-11-17 | Aldus → Calder | optional CODATA/provenance context
+
+- [Repository-only packet](REVIVAL_ROTATION_HANDOFFS/2026-11-17_aldus_to_calder_optional_codata_provenance.md).
+- [Aldus receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-17_aldus.md).
+- [Publisher issue #1871](https://github.com/Satobloc/HsH/issues/1871).
+- Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, deadline, response obligation, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
+
 ## 2026-11-16 23:48Z | Enheduanna h887:s3 verification addendum
 
 - Existing [Tern h887:s4 optional handoff](REVIVAL_ROTATION_HANDOFFS/2026-11-16T2336Z_from_s3_enheduanna_to_s4_tern_PRESTART_OPTIONAL_OUTPUT_OCCURRENCE.md) now has a POSTSTART optional verification addendum. It does not create a task or claim direct delivery/consumption.
