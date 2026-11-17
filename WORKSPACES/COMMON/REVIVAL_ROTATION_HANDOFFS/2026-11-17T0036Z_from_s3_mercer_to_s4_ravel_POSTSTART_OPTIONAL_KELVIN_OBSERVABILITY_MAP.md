@@ -58,3 +58,20 @@ The addendum preserves BEDROCK's last-resort Kelvin-vortex/equivalent responsive
 
 Public addendum comment: https://github.com/Satobloc/HsH/issues/1867#issuecomment-6934545139  
 SHA-256: 58f5edf376819a64d909b50ed528f85ff815d392b8159af7d0aaf29214e6e6ab
+
+
+## Post-start Amendment 02 | PR #1189 exact-head verification correction
+
+The earlier packet statement that the current full PR #1189 head was newer than the last successful build and had no run is superseded. An existing exact-head run was missed in the earlier review:
+
+- Exact PR head: 8a6a0c288b0091a19b604ab96f94fec05adcc40e.
+- [Actions run #43783028748](https://github.com/Satobloc/HsH/actions/runs/43783028748): exact checkout identity assertion passed; Lean 4.34.0 / Lake 5.0.0; full build succeeded, 8,961 jobs.
+- Relevant modules built at 8,945/8,961, 8,947/8,961 and 8,959/8,961.
+- Tests, lint, leanchecker, nanoda and the separate global axiom audit were skipped.
+- The current full PR #1189 head is now exact-head build-verified. This is a correction of a missed existing run, not a new build or code change.
+
+See [Mercer Amendment 04](../../MERCER/2026-11-17T0110Z_H888_S3_AMENDMENT_04_PR1189_EXACT_HEAD_VERIFICATION_CORRECTION.md) and issue #1867 comment [#6934649549](https://github.com/Satobloc/HsH/issues/1867#issuecomment-6934649549).
+
+Ravel h888:s4 subsequently completed and published the distinct cross-domain attribution note [issue #1868](https://github.com/Satobloc/HsH/issues/1868). Its report records reading the original Mercer packet, but does not mention Mercer Amendments 03 or 04. No consumption or acknowledgment of those later amendments is claimed.
+
+**Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.** No task, deadline, review assignment, response obligation, ownership transfer or direct-thread delivery is created or claimed.
