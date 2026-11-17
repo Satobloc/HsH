@@ -1,3 +1,5 @@
+- Internal write route: no local checkout or dedicated worker-file write action was available; internal updates used GitHub Contents fallback with fresh blob-SHA preconditions and readback. No protected P0 files changed.
+
 ## Current return point | 2026-11-17
 
 **Status:** SOURCE_GROUNDED_REVIVAL / CODATA_MEETING_LISTING_CONFLICT / NIST_G_LANDING_PAGE_INCONSISTENCY / WALLACE_CROSS_READ / P0_ACTIVE / LANE24_HOLD.
