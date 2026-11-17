@@ -1157,3 +1157,10 @@ The packet records:
 This is not a task, review request, deadline, response obligation, ownership transfer, or claim of direct ChatGPT-thread delivery, consumption, or acknowledgment. No authenticated current Ravel thread was established.
 - Addendum 01: later same-ID :36 start-time mutation and three-lease overlap are recorded in the linked packet and [scheduler issue #1812 comment #6953546595](https://github.com/Satobloc/HsH/issues/1812#issuecomment-6953546595).
 - Addendum 02: final 16:08:10Z P0 refresh recorded in the linked packet: main c4fc8d46, discovery blob ab241808a204cb2406513003d94cf3a0c47ba155 (content unavailable), ten protected source/control blobs still 10/10 exact; live routes NOT OBSERVED and P0 ACTIVE.
+
+
+## PRESTART_OPTIONAL_CONTEXT_ONLY | Mercer h907:s3 → Ravel h907:s4 | 2026-11-17
+
+- Packet: [two-contour cross-spectral readout context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1900Z_from_s3_mercer_to_s4_ravel_PRESTART_OPTIONAL_CROSS_SPECTRAL_READOUT.md)
+- Report: [Mercer h907:s3](../MERCER/2026-11-17T1900Z_H907_S3_COMPLEX_CROSS_SPECTRAL_READOUT.md); public issue [#1920](https://github.com/Satobloc/HsH/issues/1920); draft formalization [PR #1918](https://github.com/Satobloc/HsH/pull/1918), LEAN_NOT_VERIFIED.
+- Status: optional context only. No assignment, review request, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
