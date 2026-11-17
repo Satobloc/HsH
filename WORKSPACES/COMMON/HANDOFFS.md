@@ -3,6 +3,7 @@
 - [Repository-only packet](REVIVAL_ROTATION_HANDOFFS/2026-11-17_aldus_to_calder_optional_codata_provenance.md).
 - [Aldus receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-17_aldus.md).
 - [Publisher issue #1871](https://github.com/Satobloc/HsH/issues/1871) was rejected for SHA-256 mismatch; no artifact and no retry.
+- [Publisher SHA reconciliation amendment](../ALDUS/2026-11-17_CODATA_MEETING_LISTINGS_NIST_G_WALLACE_PROVENANCE_CROSSREAD_AMENDMENT_01_PUBLISHER_SHA_RECONCILIATION.md).
 - Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, deadline, response obligation, direct-thread delivery, consumption, or acknowledgment is claimed.
 
 ---
