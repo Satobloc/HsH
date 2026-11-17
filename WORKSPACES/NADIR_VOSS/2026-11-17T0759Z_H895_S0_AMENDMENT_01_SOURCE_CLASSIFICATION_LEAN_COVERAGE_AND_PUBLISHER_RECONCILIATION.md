@@ -95,3 +95,26 @@ The successful GitHub Actions conclusion means the validator ran; it does not me
 - All three repository front doors were read; HSH_RESOURCES README was read as routing guidance, with no deeper private research payload opened.
 - No physical calculation, fit, prediction, CODATA comparison, independent measurement, theory promotion, or paper-gate advancement.
 - The next source cursor remains the original authoring context for the Universal Indicatrix and the source-defined map from its fixed hypersphere/rotation/scale representation to the proposed point path. Recover and classify the exact original statements before defining path space or holonomy.
+
+
+## 6. Primary Workflow Health and upkeep snapshot
+
+Inspected the live Steering Charter, current workflow orientation, task graph, active automation roster, execution-lease registry, scheduler authority, Nadir current-work/inbox/README, recent receipts and handoffs, Primary Workflow Health queue, all four canonical Mersearch request files, publisher issue #1886, and the :00 automation's exact-ID state.
+
+| Surface | Status | Evidence / limitation |
+|---|---|---|
+| :00 task | PASS | Exact ID `6aa1fe0de5e48191b886496095b1343f`, enabled, original hourly America/New_York schedule and :00 phase unchanged. |
+| Other relay tasks | PASS | :24, :36, :48 remain enabled with their existing IDs/schedules; :12 remains disabled. No fifth/sixth task. |
+| Task graph | PASS | 16 declared branches, 18 records; 5 completed, 12 active, 1 blocked. No graph mutation. |
+| Main branch | PASS | Final readback head `17ffd463a811fe94859f3298402db96e7eed34e5`; report and amendment are on main. |
+| Receipt / CURRENT_WORK | PASS | Amendment appended; receipt, amendment file and CURRENT_WORK were independently fetched after writes and matched expected content/blob identities. |
+| Publisher | DEGRADED | Issue #1886 is application-level rejected for schema mismatch; expected artifact absent. No retry. |
+| Mersearch | BLOCKED | No Mersearch tool in the available tool registry and no local `mersearch` executable/checkout. All four canonical lanes remain occupied/requested; no request was overwritten, retriggered or released. |
+| Local formalization tools | NOT_AVAILABLE | No local `lean`, `lake`, or `elan`; existing PR CI evidence was reused, not rerun. |
+| HSH_RESOURCES | PARTIAL | Root README/front door read; no deeper private/quarantined payload opened. |
+| Factory Floor intake/lifecycle | NOT_OBSERVED | No full cross-repository intake/assay/lifecycle run was performed in this duplicate-slot reconciliation. |
+| Archive/index rebuild | NOT_OBSERVED | The WH-02 status in the shared queue was read; no date-tag/index rebuild or deployment was run. |
+
+The visible PWH queue still identifies WH-01 as P1-HIGH under Tern/Comptroller and WH-02 as P1-HIGH under Calder/authorized archive maintainer; WH-05 remains blocked by the occupied Mersearch lanes. No reassignment or duplicate maintenance issue was created. The one safe bounded repair in this invocation was reconciling the already-existing h895 receipt and Nadir CURRENT_WORK pointer to the verified publication/source/Lean state. The queue itself was not mutated.
+
+**Health disposition:** relay/scheduler state PASS; task-graph state PASS; h895 publication DEGRADED / NOT PUBLISHED; Mersearch BLOCKED; full Factory Floor and archive-index execution NOT OBSERVED. This is a bounded upkeep snapshot, not a claim that all workflow-health domains passed.
