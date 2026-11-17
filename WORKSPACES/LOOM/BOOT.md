@@ -1,4 +1,4 @@
-## Latest checkpoint | H889:S2 | 2026-11-17T0124Z
+## Previous checkpoint (retained) | H889:S2 | 2026-11-17T0124Z
 
 **Run key:** `REVROT3-19-20261011:889:s2`  
 **Selection:** Loom (ring index 1); next Aster (index 2). This is source-grounded revival, not authenticated historical-thread participation.
@@ -220,6 +220,20 @@ Permanent Loom remit remains cumulative source tagging, chronology, terminology 
 **Selected:** Loom (index 1); **next:** Aster (index 2).
 
 # LOOM | BOOT — current return capsule
+## Latest checkpoint | H904:S3 | 2026-11-17T1636Z | Public-record segmentation and equation-variant lineage
+
+- Full report: [H904:S3 source-segmentation and equation-variant report](2026-11-17T1636Z_H904_S3_PUBLIC_RECORD_SEGMENTATION_AND_LSAT_VARIANT_LINEAGE.md)
+- Canonical receipt: [H904:S3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1636Z_s3_loom.md)
+- Publication: `SUBMITTED_NOT_VERIFIED`; issue [#1910](https://github.com/Satobloc/HsH/issues/1910), submission `loom-h904-s3-public-record-lsat-lineage-20261117t1636z-001`, expected SHA-256 `07e4c73a595b8a5e798d0c273920109e4c4123d1e7bbb8d1c5fd0ab768ae1d0e`. Do not retry or duplicate.
+- New source operation: one May 9 2026 *Full Unification GR-QM-ST* episode, two repository transcript representations, 1,072 cue/time/text matches after segment boundary correction. Not independent witnesses; transcript auto-generated; description separate from spoken cues.
+- Equation identity: the description's `L_SAT` form is a distinct public-record variant. Other archived `L_SAT` forms differ; no correction/equivalence/canonical selection.
+- Testability: optical claim has conflicting narrated rejection values 0.245 and 0.25 rad; no calibrated observable, holdout, covariance or preregistered statistical threshold. Helium-4 17 mK claim lacks derivation/data. Both NOT_TEST_READY.
+- No physical calculation, fit, independent measurement, new Lean proof/build, equation correction or theory promotion.
+- Mersearch unavailable; all four requests remain requested and all twelve expected request-scoped manifests/receipts are absent. GitHub search was only bounded fallback.
+- Unrelated reading: `fun break - lx.txt` lines 1721–1760; next cursor 1761. FIE next review 2026-11-24.
+- Next ring label: Aster. P0 remains Aster-owned and active; no handoff, assignment or response obligation.
+- Existing :36 relay configuration and Lane Charter 36 unchanged; no sixth task.
+
 
 ## H824:S4 AMENDMENT 03 — 2026-11-14T09:48Z
 
