@@ -2773,3 +2773,8 @@ The h816:s2 report's initial source-inventory table contained four transcription
 ### H888:S3 publication amendment
 
 Issue #1867 is now PUBLISHED_VERIFIED. Publisher comment #6934207974 confirms artifact path WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-kelvin-observation-chain-fiber-gate-20261117t0036z-001.md, commit 733c1459b41e7341b5b4fe46e8870ee328734cda, artifact blob f5fe36a4539edc23a33beb031ad516f7a229c7ce, SHA-256 975c0c4a5e421ea610a69965f2181f9a55a6f223abbb2f42356699c734abc96e, 10,980 UTF-8 bytes. Independent issue-content/artifact byte equality and SHA-256 recomputation passed. See [canonical receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0036Z_s3_mercer_AMENDMENT_01_PUBLISHER_READBACK.md).
+
+
+### H888:S3 discovery-index amendment
+
+The 2026-11-17T00:53:41Z discovery snapshot (blob 745270766b3844e3155918139859d69d59a2664e) includes the Mercer report artifact, receipt and Ravel handoff. Counts: 15,437 documents, 8,506 workspace records, 8,506 generic targets, 8,293 excerpts, 48 docket records, 577 visuals, six unrelated legacy UTF-8 excerpt errors. No A/B source/feed/renderer/gate/registry/contract file changed. P0 remains active with no route trigger. See [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0036Z_s3_mercer_AMENDMENT_02_DISCOVERY_READBACK.md).
