@@ -1,0 +1,160 @@
+{
+  "schema": "hsh-factory-floor-handoff-pending-v1",
+  "status": "FACTORY_HANDOFF_PENDING",
+  "created_at": "2026-11-17T03:43:55Z",
+  "stable_hsh_item_id": "calder-h890-s3-kelvin-acquisition-dependency-profile-20261117t0236z-001",
+  "floor_id": null,
+  "floor_id_status": "NOT_ALLOCATED_BY_FACTORY_AUTHORITY",
+  "route": {
+    "prescribed_sequence": [
+      "NEEDS + FIXES",
+      "1 GLASS+HSH",
+      "2 WORKSHOP",
+      "3 LIVE",
+      "4 ARTIFACTS",
+      "5 WEBSITE"
+    ],
+    "intake_mechanism": "EXISTS",
+    "route_status": "NOT_SENT",
+    "eligibility": "BLOCKED",
+    "blockers": [
+      "Factory Floor 2026-11-03 geometry-first admission gate requires a precise object-specific geometric plot and independent hostile fidelity review of that exact plot; neither exists for this evidence-admission schema.",
+      "The Kelvin-vortex candidate has no source-authorized H(s)H forward map from H(s)H object to physical vortex state to camera/readout observables.",
+      "FORMAL_VERIFICATION/lake-manifest.json is not committed; CI generated a dependency manifest during the run, but the exact transitive dependency lock was not preserved."
+    ]
+  },
+  "source": {
+    "repository": "Satobloc/HsH",
+    "report_path": "WORKSPACES/CALDER/2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_PARENTAGE_AND_CLAIM_SCOPED_INDEPENDENCE.md",
+    "report_blob_sha": "c53d6f4c62c241da77afed9b2c3df909cfbf4b1b",
+    "published_issue": "https://github.com/Satobloc/HsH/issues/1874",
+    "published_artifact_path": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-h890-s3-kelvin-acquisition-dependency-profile-20261117t0236z-001.md",
+    "published_artifact_blob_sha": "c53d6f4c62c241da77afed9b2c3df909cfbf4b1b",
+    "published_artifact_sha256": "9c7dc5f095c174c34acade9f49a2d727f5d136fa3627dd60877e7c2a59a2d807",
+    "issue_artifact_readback": "EXACT_CONTENT_MATCH",
+    "formal_module_path": "FORMAL_VERIFICATION/HsHVerification/CalderIndependenceProfile.lean",
+    "formal_module_blob_sha": "a13ecced2609d1e6eb9b79aaf58e741f78d8d126",
+    "source_commit": "b34a74885c79dbec983ad071b6f86db5676d5e28",
+    "pull_request": "https://github.com/Satobloc/HsH/pull/1515",
+    "pull_request_state": "OPEN_DRAFT_UNMERGED"
+  },
+  "formal_verification": {
+    "module": "HsHVerification.CalderIndependenceProfile",
+    "run_id": 44011692583,
+    "run_url": "https://github.com/Satobloc/HsH/actions/runs/44011692583",
+    "conclusion": "SUCCESS",
+    "expected_and_checked_out_pr_head": "b34a74885c79dbec983ad071b6f86db5676d5e28",
+    "exact_head_checkout_assertion": "PASS",
+    "event_github_sha": "69c0cc27cc2cf1e505c78fc468a25cbb1097a439",
+    "lean_toolchain": "leanprover/lean4:v4.34.0",
+    "lean_version": "4.34.0",
+    "lake_version": "5.0.0-src+293d5d0",
+    "mathlib_tag": "v4.34.0",
+    "dependency_manifest": {
+      "status": "GENERATED_IN_CI_NOT_COMMITTED",
+      "exact_transitive_manifest": "NOT_PRESERVED",
+      "note": "lakefile.toml pins Mathlib v4.34.0; workflow ran lake update; lake-manifest.json is absent from the PR branch."
+    },
+    "full_library_build_jobs": 8958,
+    "module_build_position": "8929/8958",
+    "theorem_axiom_reports": [
+      {
+        "theorem": "unknown_parentage_blocks_claim",
+        "dependencies": []
+      },
+      {
+        "theorem": "ambiguous_parentage_blocks_claim",
+        "dependencies": []
+      },
+      {
+        "theorem": "unknown_required_axis_blocks_claim",
+        "dependencies": []
+      },
+      {
+        "theorem": "shared_required_axis_blocks_claim",
+        "dependencies": []
+      },
+      {
+        "theorem": "partially_shared_required_axis_blocks_claim",
+        "dependencies": []
+      },
+      {
+        "theorem": "verified_parentage_alone_does_not_admit_independence_claim",
+        "dependencies": [
+          "propext"
+        ]
+      }
+    ],
+    "module_sorryAx_reported": false,
+    "module_source_contains_sorry_or_admit": false,
+    "skipped_checks": [
+      "tests",
+      "lint",
+      "leanchecker",
+      "nanoda",
+      "separate_global_axiom_audit"
+    ],
+    "independent_review_count": 0
+  },
+  "theorem_scope": {
+    "purpose": "Formalize evidence-admission conditions for acquisition parentage and claim-specific dependency axes.",
+    "statements": [
+      "Unknown acquisition parentage cannot satisfy the independence-claim admission predicate.",
+      "Ambiguous acquisition parentage cannot satisfy the independence-claim admission predicate.",
+      "An unknown dependency state on an axis required to be distinct blocks admission.",
+      "A shared dependency state on an axis required to be distinct blocks admission.",
+      "A partially shared dependency state on an axis required to be distinct blocks admission.",
+      "Verified acquisition parentage alone does not imply an admissible independence claim; a claim policy and required-axis evidence remain separate inputs."
+    ],
+    "assumptions": [
+      "The dependency profile and claim policy supplied to the formal predicate faithfully represent the intended source and claim.",
+      "The `verified` parentage constructor is treated as an input witness; the theorem does not authenticate the underlying locator or source manifest."
+    ],
+    "interpretation_ceiling": "A proof of the encoded evidence-admission schema only; not proof of empirical independence, independent replication, source authenticity, or physical truth."
+  },
+  "primary_sources": [
+    {
+      "kind": "primary_paper",
+      "title": "Kelvin wave propagation along vortex cores",
+      "date": "2026-02-10",
+      "doi": "10.1038/s41567-026-03175-w",
+      "data_locator": "10.6084/m9.figshare.30903347",
+      "raw_data_status": "EXACT_PACKAGE_VERSION_FILES_RAW_BYTES_ACQUISITION_IDS_AND_COVARIANCE_NOT_RETRIEVED"
+    },
+    {
+      "kind": "primary_paper",
+      "title": "Experimental Evidence of Kelvin-Wave Turbulence along a Vortex Core",
+      "date": "2026-09-21",
+      "doi": "10.1103/t3bt-m431",
+      "raw_data_status": "DATA_AND_SOFTWARE_NOT_PUBLIC; NO_AUTHOR_REQUEST_SENT"
+    }
+  ],
+  "testing": {
+    "python_tests": "NOT_RUN",
+    "numerical_calculation": "NOT_RUN",
+    "physical_calculation": "NOT_RUN",
+    "fit": "NOT_RUN",
+    "prediction": "NOT_PRODUCED",
+    "independent_measurement": "NOT_PERFORMED",
+    "falsification_threshold": "NOT_SPECIFIED"
+  },
+  "physical_status": {
+    "measured_system": "Kelvin-vortex candidate described by the two cited papers; not selected as an H(s)H validation system.",
+    "hsh_forward_map": "UNDEFINED",
+    "worldtube_thickness": "NOT_FORCED",
+    "normal_bundle_twist_or_connection": "NOT_FORCED",
+    "contact_surface": "NOT_FORCED",
+    "distinct_timesheet": "NOT_FORCED",
+    "p2_status": "HOLD"
+  },
+  "visibility": {
+    "hsh_report": "PUBLISHED_VERIFIED",
+    "public_reader": "GitHub issue #1874",
+    "factory_floor": "NOT_SENT",
+    "factory_floor_geometry_plot": "MISSING",
+    "independent_hostile_plot_review": "MISSING",
+    "workshop_presentation": "NOT_ADMITTED",
+    "theory_promotion": "NONE"
+  },
+  "next_step": "Preserve the exact generated Lake dependency manifest on the existing PR branch, obtain a source-authorized geometric construction and exact object-specific plot for any proposed H(s)H representation, and obtain independent hostile fidelity review before submitting through Factory Floor 1 GLASS+HSH -> 2 WORKSHOP."
+}
