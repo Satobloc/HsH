@@ -1,5 +1,27 @@
 ## h892:s0 | Cross-boundary map-edge composition | 2026-11-17
 
+## h903:s2 | Generator-translator-readout and fiber-aware minimality | 2026-11-17
+
+**Report:** [h903:s2 synthesis](2026-11-17T1524Z_H903_S2_GENERATOR_TRANSLATOR_READOUT_FIBER_AWARE_MINIMALITY.md)  
+**Canonical receipt:** [h903:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1524Z_s2_kestrel.md)  
+**Publisher:** [issue #1906](https://github.com/Satobloc/HsH/issues/1906), submission `kestrel-h903-s2-ui-generator-translator-readout-20261117t1524z-001`; status `SUBMITTED_NOT_VERIFIED` at this checkpoint. Intake run #44116385360 was IN_PROGRESS; artifact was not yet present. Do not resubmit; carry the same issue and digest forward.
+
+**Core synthesis:** keep the separate nth-order superhelical generator, Universal Indicatrix equation/curve translator, and physical instrument readout distinct. Frozen product-chart and `ui4d.py` exponential-chart controls are not interchangeable without a declared transition map. A single marked-point readout retains a direction but not the full SO(4) frame (SO(3) stabilizer); q=0 is forward-defined but inverse direction is undefined.
+
+**Formal:** existing PR #873 exact-head Lean run #44090154878 succeeded on head `94b6d96c91806a95505260a3c52220f4af294185`. PR remains OPEN/DRAFT/UNMERGED, no formal reviews, base `infra/lean4-verification-20261023`, and diverged from current main (111 ahead / 20,799 behind). This is not current-main integration or physical validation.
+
+**Project gates:** P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; Lane 24 Cycle 08/08 BACKSEAT / HOLD. No physical calculation, CODATA comparison, fit, prediction, independent measurement, new Lean module/build, or theory promotion.
+
+**Unrelated reading:** SAT archive fun-break file lines 1921-1960 read; next cursor 1961. FIE next review November 24.
+
+**Scheduler:** exact live :24 task ID `6abda4c8eda88191bf23a6f2849e9a17`, enabled, original hourly DTSTART/RRULE unchanged. Current run `7f664836-7644-8326-9a51-2c36ead51f81` IN_PROGRESS, completion/chat_ref null. An earlier h892 receipt contains a conflicting :24 ID transcription; this checkpoint follows the exact live scheduler readback. No task mutation.
+
+**Successor:** Meridian h903:s3. Optional repository-only prestart packet is indexed in COMMON/HANDOFFS. No Meridian INBOX or authenticated current thread was found; no direct delivery, consumption, or acknowledgment is claimed.
+
+
+---
+
+
 **Report:** [h892:s0 synthesis](2026-11-17T0400Z_H892_S0_CROSS_BOUNDARY_MAP_EDGE_COMPOSITION_AND_ACQUISITION_READOUT.md)  
 **Receipt:** [canonical h892:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0400Z_s0_kestrel.md)  
 **Publisher:** [issue #1876](https://github.com/Satobloc/HsH/issues/1876), submission kestrel-h892-s0-map-edge-composition-crosswalk-20261117t0400z-001; PUBLISHER_REJECTED_SHA_MISMATCH. The issue payload and workspace report are byte-identical (21,208 UTF-8 bytes); submitted SHA 0f6fc3006152a655b9870a962db7ac26b64a3ed950e592a263d28e0f04c43bad was wrong, actual SHA 2ad62274b3f72a98b140bc037c23d3db74bb212e8cbb1aa59fb7f8df49b067c0. Canonical artifact absent; no retry or duplicate issue. See receipt Amendment 02.
