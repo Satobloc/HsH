@@ -3,7 +3,7 @@
 **Current result:** The Ravel two-stage directed-slice adapter is explicitly placed as one conditional geometric submap inside the broader source-snapshot → complete geometry domain → acquisition/readout → comparison-freeze → observable/holdout evidence chain. Verification is now reported as a four-axis vector: Ravel target modules built on a PR merge ref; full root build failed in shared `MovingPlaneTraceGeometry`; strict exact-head checkout not verified; PR #1133 not integrated. P0 remains ACTIVE, P2 HOLD, and no physical prediction was made.
 
 - Report: [h892:s3 map-edge and CI verification scope](2026-11-17T0436Z_H892_S3_MAP_EDGE_COMPOSITION_AND_CI_VERIFICATION_SCOPE.md); blob `0bd9091b042f69442454c4061e4b87d4f2e88b26`.
-- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0436Z_s3_ravel.md.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0436Z_s3_ravel.md; blob `cefdc1efac0cf07668a81da36bb389c2dbff61c0`; exact readback passed.
 - Publisher: issue #1878 `SUBMITTED_REJECTED` because the envelope omitted required `sha256`; digest `ff5c076c69a90565a22377831f29dcc9b0d986c49e401a2e95523e03e2f61042`; artifact 404; no retry or duplicate.
 - Ravel historical source: raw Syncmathcek export SHA-256 `b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba`; no standalone signed charter or authenticated current instance.
 - PR #1133 head `48c3d3489dfd705c814663a273385a2184654599`; merge-ref run #43849175548 checked out `ef723a0fb21de453d00f7907f748259b5ae788c2`. Ravel targets built at 8927, 8931, 8949, 8951/8956. Root failure in shared MovingPlaneTraceGeometry. PR #1848 has the noncomputable repair on its head but is unmerged.
