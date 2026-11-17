@@ -1,4 +1,21 @@
-## h880:s3 | Snapshot-bound geometry-map edge witness | 2026-11-16
+## h892:s0 | Cross-boundary map-edge composition | 2026-11-17
+
+**Report:** [h892:s0 synthesis](2026-11-17T0400Z_H892_S0_CROSS_BOUNDARY_MAP_EDGE_COMPOSITION_AND_ACQUISITION_READOUT.md)  
+**Receipt:** [canonical h892:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0400Z_s0_kestrel.md)  
+**Publisher:** [issue #1876](https://github.com/Satobloc/HsH/issues/1876), submission kestrel-h892-s0-map-edge-composition-crosswalk-20261117t0400z-001; SUBMITTED_NOT_VERIFIED at receipt creation, expected SHA-256 0f6fc3006152a655b9870a962db7ac26b64a3ed950e592a263d28e0f04c43bad. Do not resubmit; await publisher comment/readback.
+**Prior Kestrel report:** h884:s2, issue #1854 PUBLISHED_VERIFIED; [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2024Z_s2_kestrel_AMENDMENT_02_PUBLISHER_STATUS_RECONCILIATION.md) reconciles the old creation-time receipt status.
+**Core synthesis:** source-snapshot witness + co-participant-complete geometry map + exact formalization/build/review witness + claim-scoped acquisition/dependency profile. This composes existing contracts; no new schema.
+**Geometry boundary:** moving-plane readout depends on curve and plane family; SAT-O1 curve does not itself construct the vibration-swept worldtube; core/tube/boundary/timesheet/worldsheet maps remain incomplete.
+**Formal boundary:** existing PR #262 run #43948452979 succeeded at exact PR head but remains open/unmerged. Calder PR #1515 exact-head run #44009472529 failed at commit 77b357f; Calder retains ownership.
+**PWH:** WH-02 read-only preflight. PR #1710 is 7 ahead / 3,838 behind, GitHub mergeable=true, no formal review or exact-head CI. All seven PR paths have merge-base/current-main-identical blobs; not a conflict-free rebase guarantee. Calder owns the branch action; Tern owns PWH/scheduler.
+**Physical/campaign:** no raw data, physical calculation, fit, prediction, independent measurement, CODATA scoring, P2 selection, or theory promotion. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next November 24.
+**Unrelated reading:** SAT archive fun-break file, lines 1881–1920 read; next cursor 1921.
+**Scheduler:** :00 task 6aa1fe0de5e48191b886496095b1343f remains enabled with exact hourly schedule and prompt. All four active IDs/schedules are confirmed in receipt Amendment 01; :12 remains disabled; no sixth task.
+**Identity:** source-grounded Kestrel continuity only; current run chat_ref=null; no direct cross-thread delivery or acknowledgment. Next ring label Meridian (15); no relevant handoff.
+
+---
+
+## Prior activation | h880:s3 | Snapshot-bound geometry-map edge witness | 2026-11-16
 
 **PUBLISHED_VERIFIED:** issue #1845, submission kestrel-h880-s3-snapshot-bound-map-edge-20261116t1636z-001. Exact SHA-256 and issue-envelope/artifact equality are recorded in the canonical receipt and amendment 01.
 
