@@ -1101,3 +1101,43 @@ No new Lean module/build, physical calculation, CODATA comparison, fit, predicti
 **Tags:** `SPATIAL-SECOND-DERIVATIVE-NOT-INTRINSIC-CURVATURE`; `LOW-VELOCITY-LEADING-CURVATURE-APPROXIMATION`; `COORDINATE-ACCELERATION-VS-CURVE-CURVATURE`; `AMBIENT-RIEMANN-VS-MATERIAL-HISTORY-CURVATURE`; `EXTERNAL-EUCLIDEAN-LIFT-COMPARATOR`; `CW-T-NATIVE-MAP-UNDEFINED`; `W-CT-EARLIER-SOURCE-STRATUM`; `WORLD-TUBE-INERTIA-REPRESENTATIONAL-CLAIM`; `TIMESHEET-3D-BULK-NOT-2D-SHEET`; `KLEIN-FABRIC-DONUT-WORKING-HYPOTHESIS`; `RECIPROCAL-FILAMENT-TIMESHEET-MODEL-RETIRED`.
 
 No new Lean, physical calculation, CODATA, independent measurement, SAT-O/Blockwave equation edit or theory promotion. Next cursor: define native `cw=t` types/units and a source-authorized map, if any, between coordinate acceleration and the selected curve-curvature scalar.
+
+
+## AM. 2026-11-17 | Full Unification GR-QM-ST public-record segmentation and equation identity
+
+**Source family:** `PUBLIC-RECORD-EPISODE` / `SPOTIFY-CREATOR-EXPORT` / `AUTO-GENERATED-TIMED-TRANSCRIPT` / `EPISODE-DESCRIPTION`. Episode: *Scalar-Angular Theory: Field Notes — Full Unification GR-QM-ST*. Platform display: Published May 9, 2026 at 5:06 AM local (timezone unspecified).
+
+**Custody and duplicate status**
+- HsH creator-side SRT: `DEVELOPMENT_FULL_CONVOS/6OCT26_BIG_HAUL/Scalar-Angular Theory_ Field Notes - Full Unification GR-QM-ST.srt`, blob `4461e1b0aa0e055bb3e4edb485539d2ceca91062`.
+- SAT archive transcript: `__SAT_Public_Record_Transcripts/FULL_Scalar-Angular Theory_ Field Notes - Full Unification GR-QM-ST.txt`, blob `4b70ba98d172ff54afd86272a9b32dd4740ccf09`.
+- Both contain 1,072 cues. After separating the archive TXT's episode description appended after cue 1072, all cue numbers, timestamps and cue texts match exactly. These are two representations of one episode, not independent witnesses.
+- The SRT states that transcripts/chapters were automatically generated. Platform metadata, episode description, timed transcript, keyword tags and creator-interface residue are distinct segments.
+- The `L_SAT` formula is in the episode-description segment before cue 1, not in the spoken timed transcript. Authorship of the description is not authenticated as Nathan Direct.
+
+**Exact equation variant**
+```text
+L_{SAT} = \sum_{i,o} \left[ \frac{1}{2} \mu_i \left|\frac{d\lambda}{dH}\right|^2 + \sum_j \kappa F_{braid} + \alpha \left(\frac{d\lambda}{dH} \cdot \hat{T}\right)^2 + V_{geom}(\lambda) \right]
+```
+Tag: `PUBLIC-EPISODE-DESCRIPTION-LSAT-VARIANT`; `AUTHORSHIP-UNRESOLVED`; `NOT-SAT-O6-OR-BLOCKWAVE-SOURCE`.
+
+**Variant identity warnings**
+- PRE HsH and Roundup refinement-summary paths share blob `139a0a972c0900585aac8a83358683d67b6bf967`; this is one source. It adds `+ 1/2 I_p Ω_p²` and writes `V_geom` without `(λ)`.
+- SAT26 Math Roundup blob `1f690930cdd585e0db6e7c29cdfcd6e25d49127e` uses `dH/dλ`, a separate `L_total`, and a fourth-order equation.
+- 2026 Backbone blob `1854995be3311f565739f2be64269cbb0385a82f` uses `dλ/dH_{i,o}` in the first term and `dλ/dH` in the timewave term.
+- SAT archive May snapshot blob `c29c49b697208294d705b0a280d91808a57edc66` uses `H''(λ)`, `dλ/dX`, `E_f`, `L_0`, and `T_hist`.
+- Exact original authoring dates for those four archival variants were not established in this pass. No equivalence, correction or supersession relation is established. Do not normalize `dλ/dH` and `dH/dλ` or treat the shared `L_SAT` label as a unique equation identity.
+- Existing Morrow SAT-O6/Blockwave crosswalk remains separate. No SAT-O or Blockwave equation was edited or promoted.
+
+**Claim/status tags**
+- Optical narration: cues 350–363 and 932–938 state target `0.246 rad` at `0.2387 c`, achromatic. One passage says `0.245 rad` falsifies; another says `0.25 rad` falsifies. No calibration, covariance, holdout, comparator or preregistered statistical threshold. `OPTICAL-PHASE-CLAIM-NOT-TEST-READY`; `FALSIFICATION-THRESHOLD-INCONSISTENT`.
+- The transcript says `B` and `Phi` are locked without deriving the relation. Keep `B`, `Phi`, `theta_obs`, and `theta4` distinct.
+- Cue 886 asserts a 17 mK helium-4 transition-width shift and explicitly says it is not derived from thermodynamic observation. No dataset, baseline, uncertainty, comparator or holdout. `HELIUM-4-17MK-NOT-TEST-READY`.
+- Spoken dynamic-climbing-rope opening is an analogy in an auto-generated transcript, not a constitutive map or physical equivalence. Apply Nathan's direct first-blush heuristic boundary.
+- Existing `LoomOpticalClaimProvenance.lean` on open draft PR #759 encodes manually specified outer-role/provenance/parent fields only. Current PR head is not verified by the earlier exact-head build. No new Lean theorem/build, physical calculation or measurement.
+- Prior February 25 0.246 source genealogy remains unresolved at embedded-document authorship; May 9 episode chronology does not prove textual descent. The earlier source-genealogy/QC workspace records are not accepted public artifacts; issue #1093 was rejected and not retried.
+
+**Tags:** `PUBLIC-RECORD-TRANSCRIPT`; `SPOTIFY-CREATOR-EXPORT`; `AUTO-GENERATED-TRANSCRIPT`; `EPISODE-DESCRIPTION-SEPARATE`; `TRANSCRIPT-COPY-DUPLICATE-NOT-INDEPENDENT`; `SPEAKER-AUTHORSHIP-UNRESOLVED`; `LSAT-LABEL-NONUNIQUE`; `EQUATION-VARIANT-IDENTITY`; `NO-IMPLICIT-CORRECTION`; `OPTICAL-PHASE-CLAIM-NOT-TEST-READY`; `FALSIFICATION-THRESHOLD-INCONSISTENT`; `HELIUM-4-17MK-NOT-TEST-READY`; `ROPE-ANALOGY-ONLY`.
+
+**Unrelated reading:** `fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 1721–1760. Tags: `LANGUAGE-DISCOVERY-GAME`, `LINGUISTIC-GUESSING`, `LANGUAGE-FAMILY-CLASSIFICATION`, `TRANSCRIPT-ONLY`, `TEXTUAL-SPEAKER-LABELS`, `ASSISTANT-GENERATED-FACT-CLAIMS-UNVERIFIED`. Next cursor 1761.
+
+**Report and receipt:** [h904:s3 report](../LOOM/2026-11-17T1636Z_H904_S3_PUBLIC_RECORD_SEGMENTATION_AND_LSAT_VARIANT_LINEAGE.md); [issue #1910](https://github.com/Satobloc/HsH/issues/1910); [canonical receipt](../REVIVAL_ROTATION_RECEIPTS/2026-11-17T1636Z_s3_loom.md). Initial publisher status `SUBMITTED_NOT_VERIFIED`; do not duplicate or retry.
