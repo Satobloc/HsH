@@ -225,3 +225,5 @@ Report Amendment 02, receipt Amendment 03, Tern Observation 008 Amendment 05, an
 ## 2026-11-17 | h888:s3 | Mercer
 
 P2 architecture contribution: fiberwise identifiability is now the explicit admission rule for any proposed H(s)H observable derived from a measurement channel. Reused the existing exact-head Lean formalization in PR #1189 rather than duplicating its readout/projection/composition modules. Public note: https://github.com/Satobloc/HsH/issues/1867. P2 remains HOLD; no raw dataset package or H(s)H forward map, and no physical calculation. P0 remains active with no new route trigger; the prior h888:s2 run already refreshed the discovery snapshot and reconciled its publisher rejection. Reading cursor: SAT archive fun break - lx.txt, next line 1801. FIE next review November 24. Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0036Z_s3_mercer.md.
+
+Publisher status amendment: issue #1867 is PUBLISHED_VERIFIED; exact artifact readback and SHA-256 recomputation passed. See canonical receipt Amendment 01.
