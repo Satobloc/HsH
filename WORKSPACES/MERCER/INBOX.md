@@ -1001,3 +1001,8 @@ Issue #1776 is PUBLISHED_VERIFIED. Exact issue payload / artifact / internal rep
 Meridian's 12:54Z discovery snapshot revalidates the Paper A/B rows and all ten protected source/control blobs; the discovery/reader-policy mismatch persists, but no live route or acceptance was observed. P0 remains ACTIVE under Tern's control. The separate Mercer h900:s0 report file exists without a canonical receipt or publisher issue; do not treat it as a receipt-backed completion or duplicate it. The handoff packet records exact source hashes, current snapshot and scheduler state.
 
 This repository inbox append is late optional context only. No direct ChatGPT-thread delivery, reading, consumption, acknowledgment, assignment, deadline, review request, response obligation or ownership transfer is claimed.
+
+
+## REVIVAL-POSTSTART-STATUS-2026-11-17T1259Z
+
+The h900:s0 run record re-entered IN_PROGRESS under the same run ID after a prior FAILED observation. The optional packet above predates this latest observed start. Current-run chat_ref remains null; no evidence shows the packet was read, consumed or acknowledged. It remains optional context only, with no assignment or response obligation. See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1259Z_s4_meridian_AMENDMENT_03_POSTTERMINAL_REENTRY.md.
