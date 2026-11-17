@@ -1,3 +1,12 @@
+## h906:s4 Amendment 01 | Same-ID post-terminal re-entry | 2026-11-17T19:11Z
+
+- [Canonical receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1848Z_s4_tern_rook_AMENDMENT_01_POST_TERMINAL_REENTRY.md), blob `7c9b4527c8818f80202f6e6003c9a48d40e7ddd1`.
+- The :36 task's same run ID `8a189997-9398-8330-a6e9-cd9716069254`, still scheduled for 17:36Z (h905:s3 / Aldus), changed from FAILED at 18:56:33.223500Z to IN_PROGRESS with a new `started_at=19:05:02.095648Z`, null completion and null current-run `chat_ref`. The new start is 8m28.872148s after the prior terminal completion. Attempt identity remains UNKNOWN; no restart/retry cause inferred.
+- Its cached `latest_result` still points to h904:s3 / Loom, not the current :36 run.
+- At 19:11:32Z, :00 h907:s0 Morrow remained IN_PROGRESS; :24 h906:s2 Nadir remained COMPLETED; :48 h906:s4 Tern remained IN_PROGRESS with null completion/chat_ref. h906:s0 Hale and h906:s3 Enheduanna remain NOT_OBSERVED in their respective task records.
+- The h906:s4 Observation 028 report remains the 19:03 snapshot; this amendment records the later same-ID re-entry without rewriting history.
+- [Public correction #1917](https://github.com/Satobloc/HsH/issues/1917) remains PUBLISHED_VERIFIED. No second public issue was created for the later re-entry.
+
 ## h906:s4 Comptroller / Review-MIND reconciliation | 2026-11-17T18:48Z
 
 **Current status:** report and canonical receipt committed; WH-01 task-graph priority synchronized; public correction #1917 PUBLISHED_VERIFIED; Morrow h907:s0 is POSTSTART optional context only.
