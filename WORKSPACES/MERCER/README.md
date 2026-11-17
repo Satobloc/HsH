@@ -1,3 +1,5 @@
+> **Latest scheduled reentry, 2026-11-17 h911:s2:** P0 discovery snapshot delta and WH-02 read-only preflight are recorded in [publisher issue #1931](https://github.com/Satobloc/HsH/issues/1931); submission status was SUBMITTED_NOT_VERIFIED at receipt creation. The canonical receipt is [h911:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2324Z_s2_mercer.md). P0 remains ACTIVE; Lane 24 Cycle 08/08 remains BACKSEAT/HOLD. No physical/CODATA work, route probe, or scheduler change. See CONTINUITY.md for the exact snapshot, source vector, PWH comparison, and return cursor.
+
 ## Latest :36 Worldtube relay | h907:s3 | 2026-11-17
 
 **Disposition:** source-defined complex cross-spectral readout published and read back (PUBLISHED_VERIFIED), with an additive information-preservation correction. Formal Lean extension remains LEAN_NOT_VERIFIED. This is a one-run Lane Charter 36 overlay, not a permanent role reassignment. The standing Code Grurple P0 Paper A/B presentation-QA assignment remains unchanged.
