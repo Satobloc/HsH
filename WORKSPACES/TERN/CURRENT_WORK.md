@@ -1,3 +1,14 @@
+## h906:s4 Amendment 05 | Existing Lean formalization crosswalk | 2026-11-17T19:56Z
+
+- [Observation 028 Amendment 25](../TERN/OBSERVATIONS/2026-11-17T1956Z_H906_S4_OBS028_AMENDMENT_25_EXISTING_LEAN_FORMALIZATION_CROSSWALK.md), Git blob `c078ad4e260389eefdd05dfb5d600e87204a0274`, SHA-256 `1693c8cda55968c3fa976e3497ff3f456dd61d6db8b40550dbc0681f9bd8737f`.
+- [Canonical receipt Amendment 05](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1848Z_s4_tern_rook_AMENDMENT_05_EXISTING_LEAN_FORMALIZATION_CROSSWALK.md), Git blob `5e992f36358495ce0485c1dd98ea5522d872e9ed`.
+- Existing PR #824 supplies a directly relevant reusable pattern. On PR head `8df3a334e5b535cb4725be1e09fb9afb911343af`, `TernH659SchedulerSnapshotEvidence.lean` blob `d01e9e0829024368888501468472dc6a0cb131ab` matches the workflow's synthetic merge-ref blob exactly. Actions #43723047265/job #132838955309 built it at 8962/8964; nine same-ID/start-shift theorem reports have no axiom dependencies.
+- The same run built `TernH853SameRunAttemptIdentifiability` at 8925/8964 and `TernH796SchedulerSnapshotEvidence` at 8960/8964. The H853 result is a distinct hidden-attempt projection proof over a different historical FAILED→IN_PROGRESS pair.
+- Full root build failed in unrelated `MovingPlaneTraceGeometry` noncomputable definitions. Tests, lint, leanchecker, nanoda and global axiom audit skipped. This is merge-reference target-module evidence, not a green full build or exact-head standalone build.
+- The current h906 same-ID IN_PROGRESS→IN_PROGRESS observation is structurally analogous to H659 but is not encoded with h906's actual timestamps. No new theorem, PR, code or build. Existing h906 run key, prior amendments and Morrow handoff remain unchanged.
+
+---
+
 ## h906:s4 Amendment 04 | Same-ID start-field movement and fresh four-lease readback | 2026-11-17
 
 - [Observation 028 Amendment 24](OBSERVATIONS/2026-11-17T1946Z_H906_S4_OBS028_AMENDMENT_24_SAME_ID_START_FIELD_MOVEMENT_AND_FOUR_LEASE_READBACK.md), Git blob `9132b06091d0ce25130586d4a767c3e180a705b7`, SHA-256 `9f6dd962bb66c191b6b7c03e6d8d511c6426babe564d127a30a26bed4f7aac9f`.
