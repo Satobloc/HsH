@@ -9,10 +9,12 @@
 
 [Source-attribution delta](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RESEARCH/2026-11-17_ASTER_NAMBU_GOTO_SOURCE_ATTRIBUTION_DELTA.md)
 
-- Report commit: ca2dab5b1b19b2a5804b909c8a7ab39491bb671d
-- Git blob SHA-1: 131a57f2f0c282c0d0aa41fc3d05ee1ba807393a
-- UTF-8 characters: 16407
+- Report commit: 50ac9a093f9a7774d3aff49b864b1dbf4f6f69df
+- Git blob SHA-1: e58ebfa466e7c5afe360516039651b1ee1e8fef6
+- UTF-8 characters: 16638
 - Exact independent GitHub readback: PASS.
+- HsH main before this report write: fd78694b1a1a08e1a453d3c0ff2cae66c0741422.
+- HsH main after final receipt write: recorded by the receipt commit.
 - Report is stored in COMMON. Aster CURRENT_WORK, BOOT, and INBOX were not rewritten because the scheduled label does not authenticate the historical owner thread.
 
 ## Work completed
