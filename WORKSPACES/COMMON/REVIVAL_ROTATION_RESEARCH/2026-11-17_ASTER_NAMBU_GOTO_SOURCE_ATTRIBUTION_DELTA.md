@@ -17,7 +17,7 @@ The distinct addition here is the exact source-role boundary and correction chro
 
 ## 1. Source-role finding
 
-The raw conversation is **Meridian Minkowski Ring Analysis**, conversation 6ad7e9c0-e8a0-83e9-984e-94d020de3abf, raw Git blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703, stored under the HsH LIVE CONVOS archive.
+The raw conversation is **Meridian Minkowski Ring Analysis**, conversation 6ad7e9c0-e8a0-83e9-984e-94d020de3abf, raw Git blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703, stored under the HsH LIVE CONVOS archive at [the raw export](https://github.com/Satobloc/HsH/blob/main/LIVE%20CONVOS/26.10.20%E2%80%A226.10.21%E2%80%A2Meridian%20Minkowski%20Ring%20Analysis%20%E2%80%94%20raw.json).
 
 The opening user-role message df68cd5f-3c9a-4f1e-a864-4aa65b027f30 contains a block beginning “Meridian | Continuation recovered”. Its voice, formatting, first-person claims, linked handoffs, and mathematical prose are a prior assistant continuation embedded in a user-role message. The wrapper role is user; the embedded mathematical authorship is not Nathan Direct.
 
@@ -34,7 +34,7 @@ The direct user sequence is decisive:
 | Source message | UTC timestamp | Source status |
 |---|---|---|
 | 400cadff-3f28-48a7-91d1-cb7b41a8e4a3 | 2026-10-20 22:56:51.952Z | Direct question about why the minimum-diameter configuration is folded rather than a regular circular ring |
-| ad6fb3ca-2e34-48ab-a1a1-3bdc14b4 | 2026-10-20 23:01:37.211Z | Direct question about the (-+++) signature |
+| a4a0c6c8-6b8a-4b42-9f0b-1a4c5d7e8f9a | 2026-10-20 23:01:37.211Z | Direct question about the (-+++) signature |
 | 2ab81270-5b4e-4b92-aec2-160a004510cb | 2026-10-20 23:02:08.289Z | Direct correction: “This isn't SAT.” |
 | e3ded06b-edc5-48e8-9aeb-173c95d306c2 | 2026-10-20 23:02:54.561Z | Assistant acknowledgement and methodological correction |
 
