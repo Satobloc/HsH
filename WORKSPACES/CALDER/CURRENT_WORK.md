@@ -1,3 +1,19 @@
+## Current return point | 2026-11-17 | h890:s3 | Kelvin acquisition parentage and claim-scoped independence
+
+**Status:** SOURCE-BASED DEPENDENCY MAP COMPLETE / PR #1515 EXTENDED / EXACT-HEAD LEAN RUN PENDING / P2 HOLD / NO PHYSICAL RESULT.
+
+- [Report](2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_PARENTAGE_AND_CLAIM_SCOPED_INDEPENDENCE.md) and [machine-readable dependency map](2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_DEPENDENCY_MAP.json).
+- Existing [PR #1515](https://github.com/Satobloc/HsH/pull/1515) extended in place; head 77b357fdf80abb4a8332def3fd9ad05dedf8198c. Exact-head run #44009472529 pending at this checkpoint; no Lean pass claimed.
+- Source correction: PRL 1/15/75-minute analysis acquisition parentage is UNKNOWN; no same-stream or independent-record assertion. Nature's 1,000 axial slices are derived channels, not independent replicates. PIV/PTV are post-fit consistency checks, not pre-registered holdout.
+- Claim-scoped dependency profile replaces scalar independence; E/D/F/R unchanged. Same team/institutional group and apparatus family; exact hardware and raw-data overlap unknown.
+- No raw data, fit, prediction, independent measurement, numerical threshold, SAT-O/Blockwave equation change or BEDROCK promotion. P2 HOLD.
+- Selected ring label Calder; next Hale. Optional handoff is POSTSTART / REPOSITORY_ONLY; no direct-thread delivery or acknowledgment.
+- Role source remains worker-authored CHECKINS self-report, not a signed Nathan Direct charter; no authenticated historical Calder thread/instance participation.
+- P0 ACTIVE; P1 Orson OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next 2026-11-24. WH-05 blocked; WH-02 branch untouched; task graph 18 records / 16 declared.
+- :36 automation ID, enabled state, original hourly schedule and Lane Charter 36 remain unchanged. No sixth task, signet or conversation rename.
+
+---
+
 ## Current return point | 2026-11-16 | h867:s4 | Publisher verified
 
 **Status:** PUBLISHED_VERIFIED / PARTIAL-CROSSING SENSITIVITY COMPLETE / ORSON P1 UNCHANGED / P0 ACTIVE / P2 HOLD / P3 INCOMPLETE.

@@ -1,0 +1,212 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "calder-h890-s3-kelvin-acquisition-dependency-map",
+  "epistemic_status": "SOURCE_REPORTED_WITH_UNRESOLVED_PARENTAGE",
+  "sources": [
+    {
+      "id": "nature_physics_2026",
+      "doi": "10.1038/s41567-026-03175-w",
+      "published": "2026-02-10",
+      "authors": [
+        "Jason Barckicke",
+        "Eric Falcon",
+        "Christophe Gissinger"
+      ],
+      "affiliations": [
+        "Université Paris Cité",
+        "CNRS MSC",
+        "LPENS/ENS/Université PSL",
+        "CNRS"
+      ],
+      "apparatus_family": {
+        "outer_reservoir_cm": [
+          50,
+          50,
+          50
+        ],
+        "cylinder_diameter_cm": 21,
+        "cylinder_height_cm": 45,
+        "pumps": 2,
+        "inlets": 4,
+        "exact_hardware_id": "UNKNOWN"
+      },
+      "records": [
+        {
+          "id": "np_main_contour",
+          "fps": 300,
+          "duration_s": 30,
+          "axial_window_cm": 12.5,
+          "resolution_um_per_px": 60,
+          "typical_uncertainty_mm": 0.1,
+          "outputs": [
+            "eta",
+            "a"
+          ],
+          "parentage_across_records": "UNKNOWN"
+        },
+        {
+          "id": "np_radius_pdf",
+          "fps": 100,
+          "duration_min": 10,
+          "axial_positions": 1000,
+          "axial_span_cm": 2.5,
+          "derivation": "spatial slices from one recorded a(z,t) acquisition",
+          "independent_replicates": false,
+          "acquisition_id": "NOT_RETRIEVED"
+        },
+        {
+          "id": "np_displacement_pdf",
+          "fps": 360,
+          "duration_min": 3,
+          "axial_positions": 1000,
+          "axial_span_cm": 2.5,
+          "derivation": "spatial slices from one recorded eta(z,t) acquisition",
+          "independent_replicates": false,
+          "acquisition_id": "NOT_RETRIEVED"
+        },
+        {
+          "id": "np_piv",
+          "fps": 6000,
+          "duration_s": 0.1,
+          "grid": [
+            37,
+            23
+          ],
+          "resolution_mm": 2.7,
+          "circulation_uncertainty_m2_s": 0.005,
+          "role": "post-fit consistency check",
+          "parentage_to_contour": "UNKNOWN"
+        },
+        {
+          "id": "np_ptv",
+          "particle_diameter_mm": 1.5,
+          "vertical_velocity_uncertainty_m_s": 0.05,
+          "role": "post-fit consistency check",
+          "parentage_to_contour": "UNKNOWN"
+        }
+      ],
+      "data": {
+        "status": "PUBLIC_LOCATOR_NOT_RETRIEVED",
+        "doi": "10.6084/m9.figshare.30903347"
+      }
+    },
+    {
+      "id": "prl_2026",
+      "doi": "10.1103/t3bt-m431",
+      "published": "2026-09-21",
+      "authors": [
+        "Jason Barckicke",
+        "Christophe Gissinger",
+        "Eric Falcon"
+      ],
+      "affiliations": [
+        "Université Paris Cité",
+        "CNRS MSC",
+        "LPENS/ENS/Université PSL",
+        "CNRS"
+      ],
+      "apparatus_family": {
+        "outer_reservoir_cm": [
+          50,
+          50,
+          50
+        ],
+        "cylinder_diameter_cm": 21,
+        "cylinder_height_cm": 45,
+        "pumps": 2,
+        "inlets": 4,
+        "camera_fps": 480,
+        "camera_megapixels": 3,
+        "axial_window_cm": 20.6,
+        "exact_hardware_id": "UNKNOWN"
+      },
+      "analysis_acquisitions": [
+        {
+          "id": "prl_spectrum",
+          "duration_min": 1,
+          "acquisition_id": "NOT_PUBLISHED",
+          "parentage_to_other_durations": "UNKNOWN"
+        },
+        {
+          "id": "prl_pdf",
+          "duration_min": 15,
+          "acquisition_id": "NOT_PUBLISHED",
+          "parentage_to_other_durations": "UNKNOWN"
+        },
+        {
+          "id": "prl_pentacoherence",
+          "duration_min": 75,
+          "acquisition_id": "NOT_PUBLISHED",
+          "derived_from_eta_field": true,
+          "independent_sensor": false,
+          "parentage_to_other_durations": "UNKNOWN"
+        }
+      ],
+      "data": {
+        "status": "NOT_PUBLIC",
+        "author_request_made": false
+      }
+    }
+  ],
+  "dependency_profile": {
+    "raw_data": "UNKNOWN",
+    "acquisition": "UNKNOWN",
+    "apparatus": "PARTIAL",
+    "personnel": "SHARED",
+    "calibration": "UNKNOWN",
+    "analysis": "PARTIAL",
+    "evaluation": "SHARED_STANDARD_COMPARATOR",
+    "laboratory": "SHARED_INSTITUTIONAL_GROUP",
+    "exact_hardware_id": "UNKNOWN"
+  },
+  "claim_policy_examples_not_universal": {
+    "independent_acquisition_holdout": {
+      "required_distinct": [
+        "raw_data",
+        "acquisition"
+      ],
+      "also_requires": [
+        "unique parentage",
+        "covariance",
+        "calibration",
+        "whole-acquisition holdout"
+      ]
+    },
+    "independent_apparatus_replication": {
+      "required_distinct": [
+        "raw_data",
+        "acquisition",
+        "apparatus"
+      ]
+    },
+    "independent_laboratory_replication": {
+      "required_distinct": [
+        "raw_data",
+        "acquisition",
+        "apparatus",
+        "personnel",
+        "laboratory"
+      ]
+    },
+    "independent_analysis": {
+      "required_distinct": [
+        "analysis"
+      ],
+      "raw_data_may_be_shared": true
+    }
+  },
+  "disposition": {
+    "independent_laboratory_replication_supported": false,
+    "within_campaign_holdout_admissible": false,
+    "p2": "HOLD",
+    "raw_data_ingested": false,
+    "physical_calculation": false,
+    "hsh_forward_map_defined": false
+  },
+  "formalization": {
+    "existing_pr": 1515,
+    "module": "FORMAL_VERIFICATION/HsHVerification/CalderIndependenceProfile.lean",
+    "head_sha": "77b357fdf80abb4a8332def3fd9ad05dedf8198c",
+    "verification": "PENDING_AT_REPORT_FREEZE"
+  }
+}

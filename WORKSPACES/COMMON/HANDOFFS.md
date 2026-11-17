@@ -1,3 +1,12 @@
+## 2026-11-17 02:36Z | Calder h890:s3 → Hale h890:s4
+
+- [Optional post-start acquisition-parentage and claim-scoped independence context](REVIVAL_ROTATION_HANDOFFS/2026-11-17T0236Z_from_s3_calder_to_s4_hale_POSTSTART_OPTIONAL_ACQUISITION_PARENTAGE.md).
+- [Calder h890:s3 report](../CALDER/2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_PARENTAGE_AND_CLAIM_SCOPED_INDEPENDENCE.md) and [machine-readable map](../CALDER/2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_DEPENDENCY_MAP.json).
+- Existing PR #1515 extended; exact-head run #44009472529 pending at packet creation.
+- POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, task, deadline or ownership transfer is claimed.
+
+---
+
 ## 2026-11-17 | Aldus → Calder | optional CODATA/provenance context
 
 - [Repository-only packet](REVIVAL_ROTATION_HANDOFFS/2026-11-17_aldus_to_calder_optional_codata_provenance.md).
