@@ -1,3 +1,23 @@
+## Current checkpoint | 2026-11-17 | h892:s4
+
+- Nominal ring selection: Orson Vay, index 18; next Sable, index 0. Run key REVROT3-19-20261011:892:s4. Selection is not authentication of a historical instance or current thread.
+- Historical Orson cognition remit was rechecked against ROLE_CHARTER_2026-10-09_LLM_COGNITION.md and its source notes. The workspace charter is an assistant-maintained synthesis of direct-user instructions, not a standalone signed charter.
+- Existing-thread-first result: the latest located private Library export is “ND Orson LLM Cognition Lab - raw (1).json”. Its exact conversation locator is retained only in the private Library source. Last user message: 2026-11-06T04:26:31Z (“Ok, what's next”); last assistant final: 04:27:02Z, continuing geometry work. Live-thread writability remains unverified, and the latest exchange is off the protected LLM-cognition specialty. No direct thread message or cross-thread delivery is claimed.
+- Latest prior Orson case note: issue #1869, h889:s0, PUBLISHED_VERIFIED. It is an archival geometry-translation response-behaviour case note, not P1 data.
+- New Review-MIND external comparator note: [issue #1879](https://github.com/Satobloc/HsH/issues/1879), submission orson-h892-s4-human-llm-group-source-topology-crosswalk-20261117t0448z-001. At this checkpoint it is SUBMITTED_NOT_VERIFIED; declared content SHA-256 324ed0414322023be7271fdacd0cf16370be5db068abe46586e9230e579df5f5. Await publisher comment and exact artifact readback. Do not retry or duplicate.
+- Main head before this checkpoint: e87fb243f491220739532a0f5323f8998824d561. The current report is a separate external-literature comparator, not a change to the frozen P1 dataset or protocol.
+- Human-group evidence crosswalk: Parisi et al. report 879 participants in 293 independent groups with repeated rounds; no aggregate consensus gain but exploratory allocation steering and a perception/process divergence. Salahshour et al. distinguish shared production noise from receiver-specific comprehension noise in human-only groups; their GPT-agent comparison is separate. Nixon et al. report 33 teams, with unresolved participant-count arithmetic and a possible team-clustering issue in participant-level RQ2 tests. Full source and limitations are in issue #1879.
+- Existing PR #850 head 1c3c327a54a1f1fa01992138bbb5bc254a6409db remains OPEN / DRAFT / UNMERGED. Run #43921521002 built 8,987 jobs on a synthetic PR merge reference containing that head; this is MERGE_REFERENCE_BUILD_SUCCESS, not standalone EXACT_HEAD verification. No new Lean theorem or build was made.
+- P1 issue #564 remains OPEN / OVERDUE / NOT READY and Orson-owned. The frozen scope remains ConsistencyBench CGD within-model self-history plus one shared GPT-4o-mini NLI checker. No new model trial, human session, API spend, protocol amendment, manuscript edit, PDF/reader completion, or paper-gate advancement.
+- P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. November 9 minor gate remains missed; November 30 major and December 14 full-theory gates remain separate. FIE next review November 24.
+- Unrelated reading remains Okakura, The Book of Tea, lines 1691-1743; next cursor 1744 / EOF. No new reading quantum or physical break claimed.
+- Mersearch was not used for this public external-literature review. All four canonical Mersearch request lanes remain requested/occupied. No request was changed, released, or retriggered.
+- Math Hopper #578 and PR #991, Whirligig Kernel0, existing Lean PRs, and SciSpace were checked. SciSpace was used for discovery/extraction. No new tool, fork, dependency, subscription, API spend, or expense. Local lean/lake/elan are absent.
+- Ravel h892:s3 packet was created at 04:50Z, after this :48 run began at 04:49:30Z. It was read as POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Its issue #1878 was rejected because the SHA field was missing; no retry or duplicate was made. No task, review, response obligation, or ownership transfer is inferred.
+- Current :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its original hourly America/New_York :48 schedule, prompt, and phase. Current run 7222f6ec-32d4-8328-8e0f-5250f31d9155 was IN_PROGRESS at last readback, with null completion and null current-run chat_ref. No sixth task, task mutation, signet, or chat rename.
+
+## Prior checkpoint | 2026-11-15 | h862:s2
+
 ## Current checkpoint | 2026-11-15 | h862:s2
 
 - Selected ring label Orson Vay, index 18; next Sable, index 0. Selection is not historical-instance or current-thread authentication.
