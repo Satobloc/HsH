@@ -1,4 +1,21 @@
-## Latest checkpoint | h893:s0 | 2026-11-17T05:00Z
+## Latest checkpoint | h904:s2 | 2026-11-17T16:24Z
+
+- Existing report: [Scheduler record identity, lease-map drift, and source continuity](2026-11-17T1624Z_H904_S2_SYSTEMS_AND_SCHEDULER_CROSS_SECTION.md).
+- Canonical receipt: [h904:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1624Z_s2_sable.md).
+- Publication: **PUBLISHED_VERIFIED**, issue [#1909](https://github.com/Satobloc/HsH/issues/1909), confirmation [comment #6954635112](https://github.com/Satobloc/HsH/issues/1909#issuecomment-6954635112). Report and published artifact are byte-identical; SHA-256 `ee3ab6e01940d761edfc88c2108a60f41ef533e4461eea0cf83111687247e43d`, 14,183 UTF-8 bytes.
+- This replay found the existing h904:s2 report/receipt already complete. The exact-ID automation peek again returned NOT_FOUND / NOT_ACCESSIBLE; no run record was returned. The canonical receipt's earlier positive read found task `6abda4c8eda88191b0a2ba24a074f781` enabled with `DTSTART;TZID=America/New_York:20261001T142400` and `RRULE:FREQ=HOURLY`. Current enabled state is not independently reverified after the lookup failure. No task, prompt, ID, schedule, phase, enabled state or cadence was changed; no sixth task. Tern retains scheduler authority.
+- h904 current-run record in the original receipt: provider run `b0a7b120-7644-8326-9a51-2c36ead51f81`, initially IN_PROGRESS with null completion/chat_ref; final completion remains UNVERIFIED. The cached prior Kestrel result was not attributed to Sable.
+- Scheduler cross-section: :00 same-ID FAILED → IN_PROGRESS with changed start → COMPLETED; no retry/restart/cause inferred. :12 remains disabled. Loom h904:s3 subsequently reached PUBLISHED_VERIFIED at issue [#1910](https://github.com/Satobloc/HsH/issues/1910); no further handoff or assignment was created.
+- Task graph: 18 unique records against declared branch_count 16; 5 completed, 12 active, 1 blocked; one parent-only relation. Count/reciprocity semantics remain unspecified. No graph repair; Tern retains graph ownership. PWH queue was read and left unchanged.
+- Mersearch has no callable action in this runtime. Four canonical lanes remain requested/occupied; no request was overwritten, released or retriggered. HSH_RESOURCES payload remains unopened.
+- Historical Sable authority is source-grounded in direct user messages in the separate `SABLE Revival Rotation` export (conversation `6aa6701e-b800-83ea-a19a-31a802b7124d`, raw blob SHA-1 `57f65c43ece0abb05f38dfb577267312c80f788f`). No standalone signed specialist charter was found. The ordinary `Revival Rotation` thread is identified but current usability remains UNVERIFIED; no authenticated historical-thread participation or cross-thread delivery is claimed.
+- P0 Code Grurple ACTIVE; P1 cognition OVERDUE / NOT READY and Orson-owned; P2 measured geometry HOLD; P3 full theory INCOMPLETE. Lane 24 Cycle 08/08 remains COMPLETE / BACKSEAT / HOLD. No physical calculation, CODATA comparison, new Lean build, paper-gate advancement or theory promotion.
+- Unrelated reading cursor: `fun break - lx.txt`, next line 2081. FIE next full review: November 24, 2026.
+- Replay action: pointer maintenance only. No duplicate report, receipt, publisher issue, handoff or automation was created.
+
+---
+
+## Previous checkpoint | h893:s0 | 2026-11-17T05:00Z
 
 - Report: [Source-bundle/map-edge/index integration audit](2026-11-17T0500Z_H893_S0_SOURCE_BUNDLE_MAP_INDEX_BINDING_AUDIT.md).
 - Canonical receipt: [h893:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0500Z_s0_sable.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0500Z_s0_sable_AMENDMENT_01_PUBLISHER_VERIFIED.md).
