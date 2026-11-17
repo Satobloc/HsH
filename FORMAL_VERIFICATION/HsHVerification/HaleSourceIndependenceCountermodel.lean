@@ -20,9 +20,9 @@ def event (X : Bool → Bool) (a : Bool) : Finset Bool :=
 def jointEvent (X Y : Bool → Bool) (a b : Bool) : Finset Bool :=
   Finset.univ.filter (fun ω => X ω = a ∧ Y ω = b)
 
-/-- Under the uniform counting measure on `Bool`, independence is the
+/-- Under the uniform counting measure on Bool, independence is the
 factorization of each joint-cell probability. Cross-multiplying by four
-gives this cardinality equation because `Fintype.card Bool = 2`. -/
+gives this cardinality equation because Fintype.card Bool = 2. -/
 def Independent (X Y : Bool → Bool) : Prop :=
   ∀ a b, 2 * (jointEvent X Y a b).card =
     (event X a).card * (event Y b).card
@@ -30,19 +30,17 @@ def Independent (X Y : Bool → Bool) : Prop :=
 lemma event_commonCause_false :
     event commonCause false = {false} := by
   ext ω
-  simp [event, commonCause]
+  simp [event, commonCause, Finset.mem_filter]
 
 lemma jointEvent_commonCause_false :
     jointEvent commonCause commonCause false false = {false} := by
   ext ω
-  simp [jointEvent, commonCause]
+  simp [jointEvent, commonCause, Finset.mem_filter]
 
 theorem commonCause_not_independent :
     ¬ Independent commonCause commonCause := by
   intro h
   have h00 := h false false
-  rw [jointEvent_commonCause_false, event_commonCause_false,
-    event_commonCause_false] at h00
   norm_num at h00
 
 theorem distinct_source_ids_share_common_cause :
