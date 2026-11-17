@@ -9,7 +9,7 @@
 - Historical empirical-Calder role evidence remains a worker-authored self-report, not a signed Nathan Direct charter; no authenticated current Calder thread or historical-instance participation is claimed.
 - Next ring label Hale. Existing optional handoff was post-start; Hale h890:s4 did not find it. A repository-only Hale inbox entry now carries the exact-head result and pending packet; no chat delivery/consumption/acknowledgment claimed.
 - Mersearch unavailable; four canonical lanes remain occupied/requested. P0 ACTIVE; P1 Orson OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov 24. Tern retains PWH/task-graph/scheduler authority.
-- Existing :36 task ID `6a9f52b69ec08191b8a91a30d2a155e0` remains enabled, exact hourly schedule and Lane Charter 36 unchanged. No sixth task, signet or conversation rename.
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled, exact hourly schedule and Lane Charter 36 unchanged. No sixth task, signet or conversation rename.
 
 ---
 
