@@ -20,6 +20,7 @@ import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.HaleGW250114DirectWave
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
