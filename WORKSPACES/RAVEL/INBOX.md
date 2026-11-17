@@ -1155,3 +1155,4 @@ The packet records:
 - The historical SAT-O1 filament/worldtube action is separate from the UI mapping layer.
 
 This is not a task, review request, deadline, response obligation, ownership transfer, or claim of direct ChatGPT-thread delivery, consumption, or acknowledgment. No authenticated current Ravel thread was established.
+- Addendum 01: later same-ID :36 start-time mutation and three-lease overlap are recorded in the linked packet and [scheduler issue #1812 comment #6953546595](https://github.com/Satobloc/HsH/issues/1812#issuecomment-6953546595).
