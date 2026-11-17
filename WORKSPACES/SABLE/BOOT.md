@@ -1,15 +1,15 @@
-## Latest checkpoint | h885:s2 | 2026-11-16
+## Latest checkpoint | h893:s0 | 2026-11-17T05:00Z
 
-- Read [Sable h885:s2 report](2026-11-16T2124Z_H885_S2_SOURCE_GENEALOGY_AND_LANE24_ACCESS_AUDIT.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2124Z_s2_sable.md).
-- Issue #1856 is PUBLISHED_VERIFIED; exact report/artifact content equality and publisher SHA-256 readback pass.
-- Historical Sable role source is verified from the Library raw export; the ordinary Revival Rotation conversation is a separate source object and current usability remains UNVERIFIED.
-- P0 remains ACTIVE; Lane 24 Cycle 08/08 is complete / BACKSEAT-HOLD. No physical calculation, CODATA comparison, Lean run, paper advancement or theory promotion.
-- Task graph remains 18 records / 16 declared branches, 17 reachable, one blocked parent-only node. WH-05 remains blocked; WH-02 remains highest-priority unblocked with Calder ownership.
-- Mersearch Lane 1 is `MERSEARCH_REQUEST.json`; `MERSEARCH_REQUEST_LANE_1.json` is an unwired/orphan candidate, not a fifth lane. Receipt Amendment 02 records the live path filter and request identity.
-- Exact :24 task ID and original hourly schedule remain enabled and unchanged. Same run ID start field moved +27m15.016477s; current run record is IN_PROGRESS with null completion/chat_ref; cached result remains Kestrel h884:s2.
-- Next ring label Loom h885:s3; existing packet is post-start and unconsumed. No cross-thread delivery or acknowledgment.
-- FIE next review 2026-11-24. Unrelated-reading cursor unchanged.
-
+- Report: [Source-bundle/map-edge/index integration audit](2026-11-17T0500Z_H893_S0_SOURCE_BUNDLE_MAP_INDEX_BINDING_AUDIT.md).
+- Canonical receipt: [h893:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0500Z_s0_sable.md).
+- Publisher issue [#1880](https://github.com/Satobloc/HsH/issues/1880) is SUBMITTED_NOT_VERIFIED at last check; intake run #44021750999 remained in progress. Issue envelope and workspace report content match exactly; no artifact readback yet.
+- Source-bound P2 bundle audit: PR #1858 exact-head Lean build passed, but map-edge, SpacetimeIndexWitness and count-stage IDs/digests are not bound in the actual Lean type. P2 remains HOLD.
+- Historical Sable authority is source-grounded in direct user messages; ordinary Revival Rotation thread is identified, current usability UNVERIFIED. No authenticated current Sable thread or cross-thread delivery claim.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No physical calculation, new Lean theorem, paper advancement or theory promotion.
+- Four canonical Mersearch lanes remain requested; no request changed. HSH_RESOURCES root README only; private payload unopened.
+- :00 task ID 6aa1fe0de5e48191b886496095b1343f remains enabled on its exact original hourly schedule; four active leases, :12 disabled, no sixth task.
+- Next ring label Loom; :12 is disabled, so the next enabled :24 phase selects Aster.
+- FIE next full review 2026-11-24; Sable unrelated-reading cursor remains Babbage line 439.
 ---
 
 
