@@ -131,3 +131,10 @@ The initial report's task ID string 6abda4c8eda88191b8a91a30d2a155e0 was a stale
 - The publisher intake issue #1866 body contains the original incorrect ID because it was submitted before this correction and is already rejected. It was not edited, reopened or retried. The correction here and in the canonical receipt is authoritative for current internal continuity.
 
 No task identity, prompt, phase, enabled state, schedule or cadence was changed. No sixth task was created.
+
+
+## Amendment 02 - correction-comment pointers
+
+- Publisher intake #1866 task-ID correction: comment #6933959914.
+- Controlling P0 issue #1747 task-ID correction: comment #6933960487.
+- The original publisher issue remains REJECTED and unchanged. The corrected internal report is the current working artifact; no re-publication attempt was made.
