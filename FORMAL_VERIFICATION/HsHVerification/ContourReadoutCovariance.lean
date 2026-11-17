@@ -31,6 +31,8 @@ namespace HsHVerification.ContourReadoutCovariance
 
 open Matrix
 
+noncomputable section
+
 /-- Linear map from the two opposed contour radii (r_0, r_pi) to (eta, a). -/
 def contourToReadout : Matrix (Fin 2) (Fin 2) ℝ :=
   !![(1 : ℝ) / 2, -(1 : ℝ) / 2; (1 : ℝ) / 2, (1 : ℝ) / 2]
@@ -68,5 +70,7 @@ theorem eta_radius_uncorrelated_of_equal_raw_variances
 
 #print axioms readoutCovariance_formula
 #print axioms eta_radius_uncorrelated_of_equal_raw_variances
+
+end
 
 end HsHVerification.ContourReadoutCovariance
