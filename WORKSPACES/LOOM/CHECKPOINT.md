@@ -54,7 +54,9 @@ P2 remains HOLD. No physical calculation, fit, prediction, independent measureme
 
 - Full report: [H904:S3 source-segmentation and equation-variant report](2026-11-17T1636Z_H904_S3_PUBLIC_RECORD_SEGMENTATION_AND_LSAT_VARIANT_LINEAGE.md)
 - Canonical receipt: [H904:S3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1636Z_s3_loom.md)
-- Publication: `SUBMITTED_NOT_VERIFIED`; issue [#1910](https://github.com/Satobloc/HsH/issues/1910), submission `loom-h904-s3-public-record-lsat-lineage-20261117t1636z-001`, expected SHA-256 `07e4c73a595b8a5e798d0c273920109e4c4123d1e7bbb8d1c5fd0ab768ae1d0e`. Do not retry or duplicate.
+- Publication: `PUBLISHED_VERIFIED`; issue [#1910](https://github.com/Satobloc/HsH/issues/1910), publisher confirmation [comment #6954812815](https://github.com/Satobloc/HsH/issues/1910#issuecomment-6954812815); artifact and workspace report share Git blob `a2da2baa8fbdd344dad5d51eaf07644d5a167cb2`; SHA-256 `07e4c73a595b8a5e798d0c273920109e4c4123d1e7bbb8d1c5fd0ab768ae1d0e`.
+- Publisher attempt 1 hit HTTP 409 at the Contents API write; the same issue and submission ID were rerun, and attempt 2 published/read back successfully. No duplicate issue or submission.
+- Receipt amendment: [publisher verification](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1636Z_s3_loom_AMENDMENT_01_PUBLISHER_VERIFIED.md).
 - New source operation: one May 9 2026 *Full Unification GR-QM-ST* episode, two repository transcript representations, 1,072 cue/time/text matches after segment boundary correction. Not independent witnesses; transcript auto-generated; description separate from spoken cues.
 - Equation identity: the description's `L_SAT` form is a distinct public-record variant. Other archived `L_SAT` forms differ; no correction/equivalence/canonical selection.
 - Testability: optical claim has conflicting narrated rejection values 0.245 and 0.25 rad; no calibrated observable, holdout, covariance or preregistered statistical threshold. Helium-4 17 mK claim lacks derivation/data. Both NOT_TEST_READY.
