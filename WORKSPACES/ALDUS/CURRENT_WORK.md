@@ -1,6 +1,16 @@
 - Internal write route: no local checkout or dedicated worker-file write action was available; internal updates used GitHub Contents fallback with fresh blob-SHA preconditions and readback. No protected P0 files changed.
 
 
+## Amendment 01 | exact scheduler-ID reconciliation | 2026-11-17T21:36:43Z
+
+**Correction:** the authoritative live :24 task ID is `6abda4c8eda88191bf23a6f2849e9a17`, confirmed by exact-ID peek and automation listing. It is enabled with its unchanged hourly schedule `DTSTART;TZID=America/New_York:20261001T142400` and Lane Charter 24 phase. The stale ID in the original h909 block, `6abda4c8eda88191b0a2ba24a074f781`, was an outdated continuity value and is superseded; its lookup correctly returned not found.
+
+- Current :24 run `8c97316c-0848-832e-8658-bacb1bf6a27e`: scheduled 21:24Z, started 21:23:24.731608Z, IN_PROGRESS, completion/chat_ref null. Cached latest result is prior Meridian h907:s2, not this run.
+- Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled at its original hourly :36 schedule. Current h909:s3 run `d16f11e5-1db4-8322-8daf-22b55ea1d371` started 21:36:43.013400Z, IN_PROGRESS, completion/chat_ref null; cached result is prior Aster h908:s3.
+- Calder inbox packet commit `c042b55913ebc1f56d790ba9f31c9cf9786628ac` predates the :36 start. Repository inbox only; no direct-thread delivery, consumption or acknowledgment claim.
+- Canonical receipt Amendment 01: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2124Z_s2_aldus.md; Git blob `a89fb0b62a33d4fac17ab4e79949a0946333f8c8`; SHA-256 `0704f035a408db8626b1a94688865aae9e021584240037228b790cc8597aa44d`.
+- No task, ID, prompt, schedule, phase or enabled state was changed. No sixth task.
+
 ## Latest return point | h909:s2 | 2026-11-17T21:24Z nominal
 
 **Status:** P0_SNAPSHOT_DELTA_COMMENT_VERIFIED / P0_ACTIVE / LANE24_HOLD / NO_PHYSICAL_RESULT / NO_NEW_LEAN / SCHEDULER_READBACK_DEGRADED.
