@@ -2,7 +2,26 @@
 
 > **Checkpoint pointer rule:** This title is stable. The first dated “Latest checkpoint” block is the single canonical run/status pointer; do not duplicate run keys in the title or BOOT.
 
-## Latest checkpoint | h889:s3 | 2026-11-17T01:36Z
+## Latest checkpoint | h893:s2 | 2026-11-17T05:24Z
+
+**Run key:** REVROT3-19-20261011:893:s2  
+**Disposition:** HISTORICAL_ROLE_SOURCE_CORRECTED / GYROSCOPE_RAW_UNRECOVERED / NO_DUPLICATE_EXTRACTION / NO_PAPER_REVIEW / NO_PHYSICAL_RESULT / NO_NEW_LEAN / NO_TASK_CHANGE.
+
+- [Run report](2026-11-17T0524Z_H893_S2_HISTORICAL_ROLE_SOURCE_CORRECTION_AND_GYROSCOPE_NON_DUPLICATION.md)
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0524Z_s2_aster.md)
+- Historical Aster raw source parsed from blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8: 1,818 mapping entries / 1,817 message-bearing nodes / 39 outer user-role messages; current ancestry 455 nodes / 19 user-role messages.
+- Reconciled three direct user-role messages: d15369d1 (source-fidelity method), 01505af7 (historical Paper A assignment; exact time 19:03:08.093Z), and e3067f7b (2026-10-11 prior-art-review-team clarification scoped to the Oct. 9 Hypothesis H / Schreiber retroactivity question). Parent/child context verified. The third is not a blanket access grant.
+- Updated NEW_INSTANCE_START_HERE and BOOT. Current Code Grurple roster remains REVIEW FROZEN / CROSS-READ OPEN; no Paper A review.
+- Read Calder h845 and Tern h846. November 9 gyroscope raw source remains unrecovered; prior-context summary only. No duplicate search or extraction. Assistant MPD reconstruction is not Nathan Direct.
+- Existing Kestrel #873 intersection theorem is conditional linear algebra on a PR merge-reference build, not an instantiated smooth-manifold/physical map. No new Lean build or Cycle 09.
+- P0 ACTIVE; Mercer h892 directly verified the Paper A/B discovery rows; no live route observation. Lane 24 Cycle 08/08 complete / BACKSEAT-HOLD. P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE.
+- FIE last full review November 10; next November 24. Unrelated-reading cursor remains 1841; no new quantum.
+- Four Mersearch lanes remain requested/occupied; no callable Mersearch action. No request mutation. HSH_RESOURCES: one search-index query returned no results before its explicit no-payload boundary was re-read; no payload file opened or read; no further access.
+- Current Aster manual-thread candidate remains usability-unverified; no newer authenticated Aster thread established. Current run chat_ref=null; no cross-thread delivery.
+- Automation task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with exact DTSTART;TZID=America/New_York:20261001T142400 and RRULE:FREQ=HOURLY. Current run b641bbd0-7c98-832e-87a4-49472010e01b last observed IN_PROGRESS, completion null, chat_ref null. No task, prompt, phase, schedule, cadence, or enabled-state change; no sixth task.
+- No handoff or response obligation created.
+
+## Previous checkpoint | h889:s3 | 2026-11-17T01:36Z
 
 **Run key:** REVROT3-19-20261011:889:s3  
 **Disposition:** SOURCE_CHRONOLOGY_CROSSCHECK_COMPLETE / ROLE-TIME-SCHEMA-GAP_IDENTIFIED / CHECKPOINT_POINTER_CANONICALIZED / PWH_DEGRADED_NOT_OBSERVED / NO_PAPER_REVIEW / NO_PHYSICAL_RESULT / NO_TASK_CHANGE.
