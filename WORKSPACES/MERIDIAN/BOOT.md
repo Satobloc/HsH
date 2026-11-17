@@ -11,6 +11,7 @@ This one-run geometry overlay does not replace the standing P0 Code Grurple assi
 - P0 remains ACTIVE; Lane 24 Cycle 08/08 remains BACKSEAT / HOLD. FIE next due November 24.
 - Next ring label Mercer; no assignment or handoff.
 - Existing :24 task remains enabled and unchanged. No sixth task.
+- **Post-run Amendment 02 (20:37Z):** [canonical receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2037Z_s2_meridian_AMENDMENT_02_SAME_ID_START_AND_P0_SNAPSHOT.md). Exact-ID peek still confirms the same :24 task enabled and unchanged; same run ID has a third observed start-field value (20:37:12.610632Z), remains IN_PROGRESS with null completion/chat_ref. Current discovery snapshot parsed; A/B raw browse targets persist; P0 remains ACTIVE. Existing issue #1921 remains PUBLIC_INTAKE_ONLY / NOT_PUBLISHED; no retry or duplicate.
 
 ---
 
