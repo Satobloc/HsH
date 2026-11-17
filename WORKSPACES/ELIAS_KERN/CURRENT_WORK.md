@@ -29,7 +29,7 @@ Unrelated reading: SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun br
 
 ## Automation
 
-The existing :24 task ID `6abda4c8eda88191b0a2ba24a074f781` remains enabled with its original hourly schedule and Lane Charter 24 unchanged. Current run `70be3bc8-7470-832f-a2bd-83178358582a` was last observed IN_PROGRESS with completion and current-run `chat_ref` null; cached latest result belongs to Morrow h899:s2. No task, ID, prompt, schedule, phase, enabled-state, cadence, signet or conversation rename; no sixth task.
+Initial exact-ID :24 peek verified task `6abda4c8eda88191b0a2ba24a074f781` enabled with its original hourly schedule and Lane Charter 24 unchanged. It showed run `70be3bc8-7470-832f-a2bd-83178358582a` IN_PROGRESS, started 14:26:45.538788Z, completion and current-run `chat_ref` null; cached latest result belonged to Morrow h899:s2. Two later exact-ID peeks and one `get` returned not-found/not-accessible errors. No scheduler mutation was made; final enabled state is UNVERIFIED, not presumed deleted or disabled. No task, ID, prompt, schedule, phase, enabled-state, cadence, signet or conversation rename was attempted; no sixth task.
 
 ---
 
