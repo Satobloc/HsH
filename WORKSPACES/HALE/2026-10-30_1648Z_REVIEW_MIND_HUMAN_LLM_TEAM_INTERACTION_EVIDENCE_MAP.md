@@ -7,10 +7,10 @@
 
 ## Executive finding
 
-A bounded primary-source scan found a recurring split:
+A bounded primary-source scan found a recurring split, with an important counterexample identified in a later source check:
 
-1. Human-group studies with a live LLM generally embed one LLM as an adviser, critic, or teammate. They do not test several independent LLM peers deliberating inside a human group.
-2. Multi-agent LLM studies test agent-agent communication without human participants.
+1. Human-group studies range from one-LLM adviser/critic setups to at least one mixed human–multi-LLM group experiment (Chen et al., 2026 preprint).
+2. The mixed human–multi-LLM study uses a 40-round convention-formation game with 24 participants per session and eight conditions. Its reported counts imply one group/session per condition, so independent group-level replication is absent. It is a genuine group interaction, but not a general-purpose collaborative problem-solving team.
 3. Some studies described as human-AI team experiments use abstract advice labels or Wizard-of-Oz confederates rather than an actual AI model.
 
 This is not a systematic review and does not establish that no counterexample exists. It identifies a gap in the inspected sources: a controlled study combining multiple human participants, multiple live LLM agents, reciprocal human-agent and agent-agent communication, source-provenance separation, and independent adjudication.
@@ -93,7 +93,7 @@ Within the inspected sources:
 - some human-AI studies use abstract advice labels or Wizard-of-Oz confederates rather than actual AI systems;
 - a nested human-AI team study is a lead, but LLM identity is unconfirmed.
 
-I did not find a study in this bounded scan that combines multiple human participants, multiple live LLM peers, reciprocal human-agent and agent-agent communication, independently traceable evidence packets, and independent outcome adjudication.
+A later source check identified Chen et al. (2026), which supplies the multiple-human/multiple-live-LLM reciprocal-interaction component. It does not supply independently traceable source packets or independent outcome adjudication, and the reported counts imply one group/session per condition. The remaining gap is therefore narrower: replicated group-level conditions with source-provenance separation and independent adjudication, especially for collaborative problem-solving rather than convention formation.
 
 ## 4. Candidate disconfirming experiment
 
@@ -194,7 +194,9 @@ Orson's existing draft PR #850 contains:
 - OrsonSharedRecordIdentifiability.lean
 - OrsonFinitePatternDistribution.lean
 
-The current PR head inspected was 0efbc7ae1577c37ee36b6bcdb4a0fb7c17ee619c. Exact-head Actions run #41079040914 was SUCCESS. The CognitionSourceOverlap module formalizes that bijective source-ID relabeling preserves source overlap and that a non-injective relabeling can create false overlap. Its theorem-specific reports showed standard dependencies only; the separate automated axiom audit was skipped.
+The PR head inspected at the time was 0efbc7ae1577c37ee36b6bcdb4a0fb7c17ee619c. Run #41079040914 completed successfully, but a later job-log replay (2026-11-02) shows it checked out `refs/remotes/pull/850/merge` and merge commit `4af7e256...`, combining that PR head with base `598a45b3...`. It is a successful merge-ref build, not exact-head. Later run #41326800775 also completed successfully on merge commit `79d10ef9...`, combining current head `6b08ffbc...` with the same base; it is also merge-ref. Run #40998970710 was likewise a pull-request merge-ref build. No exact-head-only build is verified for PR #850. The Actions API `head_sha` field is not the commit actually checked out by the job.
+
+The CognitionSourceOverlap module formalizes that bijective source-ID relabeling preserves source overlap and that a non-injective relabeling can create false overlap. The relevant builds compiled the included modules, but theorem-specific `#print axioms` output includes standard dependencies; the separate automated axiom audit was skipped.
 
 That is useful existing formal work, but it does not formalize the typed interaction graph, prove statistical independence, establish causal influence, or validate the physical/semantic translation. No new Lean theorem was written or compiled. Local lean, lake, and elan are absent; Orson's PR ownership and Code Grurple controls were preserved.
 
@@ -215,3 +217,34 @@ That is useful existing formal work, but it does not formalize the typed interac
 Preserve this as optional methods context for Orson, not an assignment and not a manuscript change. The highest-value future experiment is a team-randomized comparison of parallel outputs, one-way peer exposure, and reciprocal human-LLM interaction, with separate source ancestry and independent adjudication.
 
 **Current conclusion:** agreement, interaction, influence, and independent evidence are four different observables.
+
+
+## Source update and CI replay correction — 2026-11-02
+
+### Chen et al. (2026): a real mixed human–multi-LLM group interaction
+
+The arXiv preprint *AI agents reshape consensus formation in human groups* (arXiv:2609.02122, submitted 2026-09-02) is a direct counterexample to the earlier broad claim that the inspected literature lacked human groups with multiple live LLM agents.
+
+The paper reports:
+- 127 human participants and 65 LLM agents;
+- eight experimental conditions;
+- 24 participants per session;
+- 40 rounds of random pairwise communication around one shared tangram;
+- five agent-proportion conditions (0%, 12.5%, 33.3%, 50%, 75%), plus high-adoption, high-persistence, and weaker-model conditions at 33.3%;
+- Tsinghua University IRB approval (IRB202643) and electronic informed consent.
+
+The reported human/agent counts across the eight conditions sum to 192 participant slots (8 × 24). This implies one group/session per condition; the paper describes the eight conditions and 24-person sessions, while the one-session-per-condition conclusion is an arithmetic inference from those counts. It is not independent group-level replication.
+
+The study is a genuine human–multi-LLM group interaction, but its task is convention formation in a collaborative description game, not a general-purpose problem-solving team. It uses one tangram stimulus, one Qwen2.5-VL model family at two capability levels, and an LLM-as-judge annotation stage. The paper reports 495 observations for its M5 OLS model (55 human participants × 9 sampled interactions); it specifies HC3 heteroskedasticity-consistent errors but does not report participant- or session-clustered errors in that model. Those repeated ratings are not 495 independent participants. With one group/session per condition, condition effects remain confounded with group-specific variation.
+
+The correct remaining research gap is not “no mixed human–multi-LLM group study.” It is a replicated design with multiple independent groups per condition, traceable source provenance, independent adjudication, and preferably a collaborative problem-solving task in addition to convention formation. The study measures observable communication, adoption, and consensus; it does not establish assistant consciousness or a hidden group mental state.
+
+Primary source: https://arxiv.org/abs/2609.02122
+
+### PR #850 CI provenance
+
+Runs #40998970710, #41079040914, and #41326800775 are successful pull-request merge-ref builds. Their job logs check out `refs/remotes/pull/850/merge`; none is an exact-head-only build. The run API's `head_sha` field must not be mistaken for the checked-out commit. The successful builds are useful compilation evidence for their respective combined trees, but the exact-head claim is unsupported.
+
+The full inspected logs contain no `sorryAx` occurrence. This is not a substitute for the separate axiom audit: the axiom-audit, nanoda, lint, and tests steps were skipped. Theorem-specific outputs include `propext`, `Classical.choice`, and `Quot.sound`; report those dependencies rather than calling the branch globally axiom-free.
+
+PR #850 remains draft and unmerged. No Orson P1 code, protocol, or November 9 paper gate was changed by this review.
