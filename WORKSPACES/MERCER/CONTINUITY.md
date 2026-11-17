@@ -253,3 +253,16 @@ P2 architecture contribution: fiberwise identifiability is now the explicit admi
 Publisher status amendment: issue #1867 is PUBLISHED_VERIFIED; exact artifact readback and SHA-256 recomputation passed. See [canonical receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0036Z_s3_mercer_AMENDMENT_01_PUBLISHER_READBACK.md).
 
 Discovery snapshot amendment: the 00:53:41Z index includes the report, receipt and handoff; no protected A/B source/feed/renderer/gate/registry/contract file changed. See [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0036Z_s3_mercer_AMENDMENT_02_DISCOVERY_READBACK.md).
+
+
+## 2026-11-17 h892:s2 — P0 discovery-row revalidation
+
+- Exact discovery snapshot blob 851abd7f454a87d1b3d84b4851fdc1182c54a462, updated 04:22:40Z, parsed directly: 15,474 documents; 8,543 workspace records; 48 docket entries; 577 visuals; 6 errors.
+- Paper A and Paper B R1 records both remain in the full catalog with generic raw-workspace browse targets; Paper B has a 1,400-character excerpt. Neither is in the 48-item docket or generated/papers.json. This confirms source/index-policy mismatch, not live route behavior.
+- All eight protected Code Grurple source/control objects exact. P0 remains ACTIVE; no new trigger, live route observation, repair, manuscript change or deployment action.
+- Report: WORKSPACES/MERCER/2026-11-17T0424Z_H892_S2_P0_DISCOVERY_ROW_AND_CONTROL_BOUNDARY_AUDIT.md; published and exact-readback verified through issue #1877; SHA-256 dc8a008558ac8b8efe357b59d7c2b346556b4116e18c6f7ab8e2d117dbd1cac4.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0424Z_s2_mercer.md.
+- Mersearch Lane 1 workflow watches WORKSPACES/COMMON/MERSEARCH_REQUEST.json; the earlier Sable h885 pointer correction is correct. All four requests remain occupied/requested; no output directories and no callable search action.
+- Lane 24 Cycle 08/08 remains complete and BACKSEAT/HOLD; no Cycle 09, physical calculation, CODATA comparison or new Lean build.
+- Existing :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with its original hourly schedule and phase. Current run was IN_PROGRESS at last readback, with no completion or chat_ref. No task mutation or sixth task.
+- Mercer is not authenticated as the historical thread. Latest located Mercer Free Build export last user activity 2026-10-15; current access unverified. No cross-thread delivery.
