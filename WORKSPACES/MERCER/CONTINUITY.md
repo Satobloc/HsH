@@ -1,3 +1,18 @@
+## 2026-11-17 | h888:s3 | two-axis identifiability crosswalk continuation
+
+- Addendum: [Mercer h888:s3 Amendment 03](2026-11-17T0058Z_H888_S3_AMENDMENT_03_TWO_AXIS_IDENTIFIABILITY_CROSSWALK.md), Git blob 853b74f206f033a5090bfe4f32e5a306c5825726, SHA-256 58f5edf376819a64d909b50ed528f85ff815d392b8159af7d0aaf29214e6e6ab.
+- Existing public note: issue #1867 remains PUBLISHED_VERIFIED; additive comment #6934545139 read back exactly. No new issue or publisher submission.
+- Axis A is now scope-specific: paired two-radius readout bijective; antipodal two-point channel structurally aliases m and m+2 only under the paper's single-harmonic ansatz; full H(s)H map MAP_INCOMPLETE; practical identifiability UNSCORABLE. Axis B: PREDICTION_NOT_FORMED / UNSCORABLE. No full-experiment non-identifiability claim.
+- Existing PR #1189 modules are unchanged at current PR head versus last verified commit; full current PR head remains unverified. No new Lean run, theorem, PR or branch.
+- P0 ACTIVE with no route-reentry trigger; no route probe or site/manuscript/PDF edit. P2 HOLD; no physical result or theory promotion. BEDROCK's Kelvin-vortex/equivalent responsive-medium working hypothesis is preserved without claiming this air-water experiment establishes it.
+- Ravel's existing h888:s4 packet was amended in place after its run started; POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption or acknowledgment.
+- PWH and task graph read. WH-05 remains blocked by four occupied/requested Mersearch lanes; WH-02 remains Calder-owned/highest unblocked. Task graph 18 records / 16 declared branches; Tern retains authority.
+- Same :36 run ID ca85b3d5-659c-8327-bf31-d0a3a5f962d6 was observed with start 00:31:03Z in the original h888 receipt and 00:58:26Z on the latest peek; status IN_PROGRESS, chat_ref null. Cause unknown; no second run key or scheduler mutation.
+- Four existing relay tasks remain enabled with exact schedules; :36 ID and phase unchanged; :12 remains disabled. No sixth task.
+- SAT archive fun break - lx.txt, lines 1801–1840; next cursor 1841. FIE next November 24. Paper gates unchanged.
+
+---
+
 ## 2026-11-15 | h854:s2 | P0 current discovery snapshot revalidation
 
 - Report: `WORKSPACES/MERCER/2026-11-15T1424Z_H854_S2_P0_CURRENT_DISCOVERY_SNAPSHOT_AND_DUAL_ANCHOR_RECHECK.md`, blob `9ffd1159cbac517e5f056527792355eb7da57181`; receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1424Z_s2_mercer.md`; optional Ravel packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T1424Z_from_s2_to_s3_ravel_POSTSTART_OPTIONAL_P0_DISCOVERY_SNAPSHOT.md`.
