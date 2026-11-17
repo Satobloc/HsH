@@ -1,3 +1,20 @@
+
+## Latest :48 Review-MIND relay | h903:s4 | 2026-11-17
+
+**Current controlling assignment:** Code Grurple P0 Paper A/B presentation QA only. This was a bounded Review-MIND/source-fidelity overlay, not a permanent role reassignment. No manuscript contents were reviewed or edited, and no live route was verified.
+
+- **Report:** [Mercer h903:s4 Review-MIND and P0 audit](2026-11-17T1548Z_H903_S4_REVIEW_MIND_P0_ARTIFACT_ERRATUM_AND_PROVENANCE_AUDIT.md)
+- **Canonical receipt:** [h903:s4 Mercer receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1548Z_s4_mercer.md)
+- **P0 issue update:** [#1747 comment #6953305402](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6953305402). Ten protected source/control blobs matched; the newest discovery snapshot refreshed at 15:50:52Z but could not be parsed; live routes remain NOT OBSERVED; P0 remains ACTIVE.
+- **Cross-lane erratum:** Tern h903’s ordered-product versus summed-generator distinction is source-level only. The same-input chart-equivalence claim remains unproven. The data-free diagnostic is withdrawn by [issue #1905 comment #6952966279](https://github.com/Satobloc/HsH/issues/1905#issuecomment-6952966279), but the published artifact still contains it; do not rely on it.
+- **Existing Lean boundary:** PR #262 exact-head build #43948452979 compiles the conditional radial/angular identity; it does not prove the UI chart equivalence.
+- **Historical Mercer authority:** “Quantum Gravity and Experiments,” conversation 6a3a2037-3698-83ea-924d-2cb8c4ac7701, direct-user message bb8ecf64-8863-4ee7-a078-ca8cc4104974. Current thread remains unauthenticated.
+- **Continuity correction:** the h900:s0 report remains without a canonical receipt; it was not retroactively receipted. The h892:s2 report/receipt remain intact.
+- **Next ring identity:** Ravel h904:s0. Its run had already started, so the optional repository handoff is POSTSTART; no direct-thread delivery or acknowledgment is claimed.
+- **FIE:** last reviewed November 10; next review November 24. The Time Machine reading cursors remain edition-specific and unresolved.
+
+This section is an assistant-maintained continuity pointer, not a worker-authored check-in.
+
 ## Latest :24 Geometry relay | h892:s2 | 2026-11-17
 
 **Result:** exact Paper A/B discovery-row readback confirms both R1 records remain in the full catalog with generic raw-workspace browse targets; Paper B also carries a 1,400-character excerpt. This confirms the source/index-policy mismatch, not live route behavior. No route probe or repair; P0 remains ACTIVE.
