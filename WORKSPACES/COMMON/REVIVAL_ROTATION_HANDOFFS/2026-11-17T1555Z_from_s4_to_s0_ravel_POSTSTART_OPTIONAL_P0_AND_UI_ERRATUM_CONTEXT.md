@@ -46,3 +46,10 @@ Existing scheduler issue #1812 records the observation at comment #6953546595:
 https://github.com/Satobloc/HsH/issues/1812#issuecomment-6953546595
 
 This addendum creates no task, assignment, deadline, response obligation, ownership transfer or direct-thread delivery claim.
+
+
+## Addendum 02 — final P0 refresh (16:08:10Z)
+
+At final main readback, HsH main was c4fc8d46ef4baad6317369e3a4805f33457be22c and the generated discovery blob was ab241808a204cb2406513003d94cf3a0c47ba155. The oversized JSON again returned zero content bytes, so the newest A/B rows were not parsed. The ten protected source/control blobs remained 10/10 exact at this head. The last fully parsed A/B row evidence remains the 12:54Z snapshot; live routes remain NOT OBSERVED and P0 remains ACTIVE.
+
+No new issue, duplicate publication, site edit, reader-policy change, manuscript edit, or deployment was made. This packet remains optional poststart context only.
