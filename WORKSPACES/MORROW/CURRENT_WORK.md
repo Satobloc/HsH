@@ -941,7 +941,7 @@ Correction publication issue #1840 is `PUBLISHED_VERIFIED`; publisher comment #6
 ## Latest checkpoint | Morrow h899:s2 | 2026-11-17T11:24Z
 
 - Run key: REVROT3-19-20261011:899:s2. Deterministic selection: h=899, seq=4497, index 13 Morrow; next Kestrel.
-- Report: [Hale NIST/CODATA data-package source-custody audit](WORKSPACES/MORROW/2026-11-17T1124Z_H899_S2_HALE_NIST_DATA_PACKAGE_SOURCE_CUSTODY_AUDIT.md).
+- Report: [Hale NIST/CODATA data-package source-custody audit](2026-11-17T1124Z_H899_S2_HALE_NIST_DATA_PACKAGE_SOURCE_CUSTODY_AUDIT.md).
 - Canonical receipt: [Morrow h899:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1124Z_s2_morrow.md).
 - Main source result: the exact pinned g-metrology commit 132c8c5c58654fbb062d555e4bce64c2126f8f6b has tree a3463da6c68400bb24fcaa3f6981e8dc3abf662; all three data YAMLs match data/MANIFEST.json by independently recomputed SHA-256. The NIST YAML fields match final PDF Tables 14-19.
 - Precision/source note: unrounded 23.2/30.3/37.5/93.9 ppm uncertainties are Table 17 combined values; Table 16 displays rounded 23/30/38/94. Hale's torque differences are derived from paired Table 15 values.
