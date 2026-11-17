@@ -3,7 +3,7 @@
 **Run key:** `REVROT3-19-20261011:902:s3`  
 **Nominal slot:** 2026-11-17T14:36Z  
 **Ring selection:** Nadir Voss, index 10; successor Enheduanna, index 11.  
-**Status:** SOURCE-CONDITIONAL FORMALIZATION ADDED / CORRECTED-HEAD LEAN RUN IN PROGRESS / P2 HOLD / NO PHYSICAL RESULT.
+**Status:** SOURCE-CONDITIONAL FORMALIZATION ADDED / CORRECTED-HEAD EXACT-SOURCE LEAN PASS / P2 HOLD / NO PHYSICAL RESULT.
 
 ## 1. Identity, source authority, and preflight
 
@@ -90,7 +90,7 @@ The change is on existing PR [#1189](https://github.com/Satobloc/HsH/pull/1189),
 
 The first exact-head run [#44105406291](https://github.com/Satobloc/HsH/actions/runs/44105406291) checked out its exact head `72aad011dc994ab071b3f07a324286bf2f1376ff` but failed in the target module: the augmented definition needed `noncomputable`, and a trailing `ring` tactic was redundant after simplification. Both source defects were corrected on `da1e7d5d`.
 
-The corrected-head exact-source run [#44106198466](https://github.com/Satobloc/HsH/actions/runs/44106198466) had passed checkout identity and was still IN_PROGRESS at Lake dependency-manifest generation at the time of this report. **No successful corrected-head Lean build is claimed.** The first failed run printed partial theorem axiom output, but that is not a successful module build and is not counted as proof verification. Tests, lint, nanoda and the separate global axiom audit have not been completed for the corrected head.
+The corrected-head exact-source run [#44106198466](https://github.com/Satobloc/HsH/actions/runs/44106198466) **PASSED**. The workflow asserted expected and actual checkout identity as `da1e7d5dff0cdbc1d81303e3c573b79832087a38`; Lean 4.34.0 and Lake 5.0.0; full library build completed successfully (8,961 jobs). `NadirVortexTwoChannelReadout` built at job 8935/8961. The two new theorem-specific `#print axioms` reports list `[propext, Classical.choice, Quot.sound]`; no `sorryAx` is reported for either theorem. These are standard Lean foundations, not a zero-axiom result. The separate global axiom audit, tests, lint, leanchecker and nanoda were skipped. Existing linter warnings at lines 239 and 252 in the module remain. CI generated a Lake dependency manifest from scratch, but no `lake-manifest.json` is committed on the branch, so transitive dependency locking remains a reproducibility limitation. The first failed pre-fix run is retained as history and is not counted as the final result.
 
 The theorem, if successfully compiled, would establish only the formalized conditional statement about the declared radial ansatz and readout map. It would not establish that the ansatz faithfully represents the experiment, that the proposed sample is physically available, or that any H(s)H premise is true.
 
