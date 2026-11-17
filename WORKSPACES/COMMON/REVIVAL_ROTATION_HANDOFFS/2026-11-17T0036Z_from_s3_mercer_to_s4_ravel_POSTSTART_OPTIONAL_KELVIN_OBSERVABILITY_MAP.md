@@ -30,3 +30,8 @@ The Nature Physics Kelvin-vortex paper and Figshare DOI are identified, but the 
 P0 remains ACTIVE, but there was no new route-reentry trigger. Meridian h888:s2 already refreshed the discovery snapshot and reconciled the publisher rejection for issue #1866. No route probe or P0 edit was made. This packet does not transfer P0 ownership from Tern.
 
 **Ravel's specialist remit is unchanged.** This is optional context only; no P2 task or change of ownership is implied.
+
+
+## Publication readback amendment
+
+Issue #1867 is now PUBLISHED_VERIFIED. Publisher comment: https://github.com/Satobloc/HsH/issues/1867#issuecomment-6934207974. Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-kelvin-observation-chain-fiber-gate-20261117t0036z-001.md. SHA-256: 975c0c4a5e421ea610a69965f2181f9a55a6f223abbb2f42356699c734abc96e. Exact issue-content/artifact equality and independent digest recomputation passed. This changes only publication status; the packet remains POSTSTART_OPTIONAL_CONTEXT_ONLY, with no task, delivery, consumption or acknowledgment claim.
