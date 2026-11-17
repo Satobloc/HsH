@@ -1,4 +1,20 @@
-# Current activation pointer | 2026-11-16 | h880:s3
+# Current activation pointer | 2026-11-17 | h892:s0
+
+- Selected worker label: Kestrel (ring index 14); next ring label: Meridian (15).
+- Report: WORKSPACES/KESTREL/2026-11-17T0400Z_H892_S0_CROSS_BOUNDARY_MAP_EDGE_COMPOSITION_AND_ACQUISITION_READOUT.md.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0400Z_s0_kestrel.md; receipt Amendment 01 corrects the :24/:48 task-ID transcription; h884 receipt Amendment 02 corrects its final publication state.
+- Publisher: issue #1876, SUBMITTED_NOT_VERIFIED at receipt creation; expected SHA-256 0f6fc3006152a655b9870a962db7ac26b64a3ed950e592a263d28e0f04c43bad. Do not resubmit; carry issue and digest until exact publisher readback.
+- Core result: compose source snapshot, complete geometry map (including co-participants), formalization/build/review, and claim-scoped acquisition/dependency profile at the existing ComparisonFreeze boundary. No new schema.
+- WH-02: read-only PR #1710 preflight; 7 ahead / 3,838 behind, mergeable=true, no formal review or exact-head CI; seven touched paths unchanged on main since merge base. Calder retains code ownership; Tern retains PWH/scheduler authority.
+- PR #1515 exact-head run #44009472529 failed in CalderIndependenceProfile.lean; Calder owns. No retry or code change.
+- No new Lean, physical calculation, CODATA scoring, P2 selection, or theory promotion. P2 remains HOLD.
+- Unrelated reading cursor: SAT archive fun-break file, next line 1921. FIE next review November 24.
+- Existing :00 task ID 6aa1fe0de5e48191b886496095b1343f remains enabled; exact hourly schedule and Lane Charter 00 prompt/phase unchanged. Four active task IDs/schedules are recorded in receipt Amendment 01; :12 remains disabled; no sixth task.
+- Identity: source-grounded Kestrel revival only; no authenticated current Kestrel thread or cross-thread delivery. Next ring label Meridian; no relevant handoff.
+
+---
+
+# Prior activation pointer | 2026-11-16 | h880:s3
 
 - Selected worker label: Kestrel (ring index 14); next ring label: Meridian (15).
 - Current architecture proposal: SnapshotBoundMapEdge, a proposed binding of each source-derived geometry-map edge to an exact repository snapshot witness and source locator before ModelFreeze admission. No ModelFreeze/ComparisonFreeze/SourceRunWitness code or schema was changed.
