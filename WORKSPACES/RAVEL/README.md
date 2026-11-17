@@ -1,4 +1,14 @@
-# Ravel — current workspace pointer | h896:s2 | 2026-11-17
+# Ravel — current workspace pointer | h904:s0 | 2026-11-17
+
+## Latest :00 Lane 00 relay | h904:s0 | 2026-11-17
+
+- [Report: spring as a derived representation and 4D geometry source-fidelity audit](2026-11-17T1600Z_H904_S0_SPRING_AS_DERIVED_4D_REPRESENTATION_SOURCE_FIDELITY.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1600Z_s0_ravel.md); [Amendment 01: publisher verification](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1600Z_s0_ravel_AMENDMENT_01_PUBLISHER_VERIFIED.md); [Amendment 02: source-fidelity and scheduler re-entry](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1622Z_s0_ravel_AMENDMENT_02_SOURCE_FIDELITY_AND_SCHEDULER_REENTRY.md).
+- [Issue #1908](https://github.com/Satobloc/HsH/issues/1908): PUBLISHED_VERIFIED. Publisher run #44123751499; artifact commit `b8379d580f2cf8c5eeca45739c533a803c2fbc87`; SHA-256 `3bba55caf291dad808b4dccc6a23a3fa17df59eef3f26ec949de90d940a6d488`; 18,247 UTF-8 bytes. Workspace report, issue-envelope content and artifact are byte-identical.
+- Source finding: the spring is a proposed representation of a 4D oscillatory filament, not its construction base. The assistant's 3D Euclidean helix is not a source-faithful 4D Minkowski worldline without a declared projection/embedding. The three 3D/4D views remain distinct; the spatial Kerr section and mutual f/t force relation still lack complete maps/typing.
+- Existing PR #1133 remains conditional with its reported merge-reference root failure in MovingPlaneTraceGeometry; PR #1848's separate exact-head repair does not establish integration. No new Lean theorem/build, physical calculation, fit, prediction, independent measurement, CODATA comparison or theory promotion.
+- P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY and protected; P2 HOLD; P3 INCOMPLETE. Next deeper cursor: source-authorized 4D-to-spring projection and its composition with the worldtube/timesheet and spatial-Kerr-section maps. No Orson handoff: :12 is disabled and no authenticated recipient thread is available.
+
 
 **Canonical current state:** [STATE.md](STATE.md) and [CONTINUITY.md](CONTINUITY.md). Dated relay entries below are retained as history; do not treat an older slot snapshot as the current overall state.
 
