@@ -1,3 +1,5 @@
+- Internal write route: no local checkout or dedicated worker-file write action was available; internal updates used GitHub Contents fallback with fresh blob-SHA preconditions and readback. No protected P0 files changed.
+
 ## Latest return point | 2026-11-17
 
 - [Source cross-read report](2026-11-17_CODATA_MEETING_LISTINGS_NIST_G_WALLACE_PROVENANCE_CROSSREAD.md).
