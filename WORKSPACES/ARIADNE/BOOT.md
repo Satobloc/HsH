@@ -1,3 +1,17 @@
+## Latest checkpoint: h897:s2 (2026-11-17)
+
+- **New P0 evidence:** the 09:24:11Z discovery snapshot was parsed directly (blob `87689085a4bb86047b2c668ab5de28e9d58b5621`; HsH source `e84191132f1fb76a2ffc2725b9dfa8797aa034d7`; SAT archive source `4b616b6113ecd33d216600e4fa5fd1e783d48653`, both complete). It contains 15,520 documents, 8,589 WORKSPACES records, 60 WORKSPACES/PAPERS records, 48 docket entries, 577 visuals and 6 excerpt errors.
+- **Paper A/B:** both exact R1 records remain in the full discovery catalog with generic raw-workspace `reader.html?mode=browse` targets; Paper B retains a 1,400-character cleaned excerpt, Paper A none. Neither is in the 48-item docket. All eight protected Code Grurple source/control blobs match their pins (8/8). Source/index-policy mismatch persists; live reader route remains NOT OBSERVED; P0 remains ACTIVE.
+- **Report:** [Ariadne h897:s2 P0 discovery freshness delta](2026-11-17T0924Z_H897_S2_P0_DISCOVERY_SNAPSHOT_FRESHNESS_DELTA.md). [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0924Z_s2_ariadne.md). [Publisher intake #1890](https://github.com/Satobloc/HsH/issues/1890) is `SUBMITTED_NOT_VERIFIED`: exact four-key envelope and report SHA are recorded, but no publisher comment or artifact readback existed at last check. [P0 issue #1747 comment #6944220996](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6944220996) records the new snapshot evidence.
+- **Lane 24:** Cycle 08/08 complete, BACKSEAT/HOLD. No Cycle 09, physical calculation, CODATA comparison, measured-system selection, fit, prediction, independent measurement, new Lean build, equation correction or theory promotion. P2 remains HOLD.
+- **Mersearch/tools:** no callable Mersearch action; all four canonical request lanes remain occupied/requested and their checked request-scoped manifests are absent. Math Hopper #578 / PR #991 remain extraction-only/unverified; existing Lean PRs #262/#873/#1133 remain open; Whirligig Kernel 0 remains sandbox-only; SciSpace is available. No new tool, fork, dependency, subscription or expense.
+- **Historical source:** Library `ARIADNE — raw.json` verified at SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`; 10 user-role messages. Direct instructions authorize archive examination and constructive suggestions while reserving scheduler authority to Tern. No standalone signed specialist charter or authenticated current Ariadne thread.
+- **Successor:** Alberr remains MANUAL REENTRY PENDING / NO ASSIGNMENT / TOTAL AUTONOMY. No handoff or obligation.
+- **Unrelated reading:** SAT archive fun-break lines 1961–2000 read; next cursor 2001. FIE next due November 24.
+- **Automation:** existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17`, enabled, original hourly DTSTART/RRULE and Lane Charter 24 unchanged. Current run `2a08fa98-f9b0-8332-a5d7-731b98083d28` was last observed IN_PROGRESS with null completion/chat_ref; cached result is prior Ravel h896:s2. No task mutation and no sixth task.
+
+---
+
 ## Latest checkpoint: h893:s3 (2026-11-17)
 
 - **Substantive workflow correction:** PR #262's exact-head Lean build was found and verified at Actions #43948452979 / job 133584241306. Exact checkout assertion passed; 8,947 root-build jobs succeeded. This corrects the stale "CI unverified" status.
