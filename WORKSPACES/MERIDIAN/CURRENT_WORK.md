@@ -1,3 +1,18 @@
+## Post-run scheduler amendment 03 — 2026-11-17T12:59Z
+
+A bounded final peek found three same-run-ID records re-entered IN_PROGRESS after previously being observed FAILED with completion timestamps. The :48 Meridian run remains IN_PROGRESS under its same ID and start time. At this final peek all four current last_run records were IN_PROGRESS simultaneously; all four current-run chat_ref values were null and all four cached latest_result references remained from earlier executions.
+
+- :00 Mercer h900:s0: 12:28:39.563438Z → 12:58:31.590935Z.
+- :24 Orson h900:s2: 12:28:01.886187Z → 12:56:02.152169Z.
+- :36 Kestrel h899:s3: 12:21:44.215218Z → 12:55:37.836206Z.
+- :48 Meridian h899:s4: same 12:50:41.698878Z start.
+
+The same-ID post-terminal re-entry is directly observed for :00, :24 and :36. Cause and underlying attempt count remain unknown. This is not evidence of distinct authenticated agents or cross-thread communication. See [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1259Z_s4_meridian_AMENDMENT_03_POSTTERMINAL_REENTRY.md) and scheduler issue #1812 comment #6948999117.
+
+The optional Mercer h900:s0 inbox packet predates this re-entry; no read, consumption or acknowledgment is observed. No task, schedule, ID, prompt, phase, ownership or graph change.
+
+---
+
 ## Post-run revalidation amendment 02 — 2026-11-17T12:54Z
 
 This is an additive reconciliation of the already-published h899:s4 report, not a second report or submission.
