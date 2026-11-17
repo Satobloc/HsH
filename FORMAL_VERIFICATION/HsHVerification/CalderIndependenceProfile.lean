@@ -100,7 +100,9 @@ theorem unknown_parentage_blocks_claim
     ¬ IndependenceClaimAdmissible
       (ParentageEvidence.unknown : ParentageEvidence AcquisitionUnit)
       profile policy := by
-  simp [IndependenceClaimAdmissible]
+  intro h
+  change False at h.1
+  exact h.1
 
 theorem ambiguous_parentage_blocks_claim
     {AcquisitionUnit : Type}
@@ -110,7 +112,9 @@ theorem ambiguous_parentage_blocks_claim
     ¬ IndependenceClaimAdmissible
       (ParentageEvidence.ambiguous evidence : ParentageEvidence AcquisitionUnit)
       profile policy := by
-  simp [IndependenceClaimAdmissible, parentageReady]
+  intro h
+  change False at h.1
+  exact h.1
 
 theorem unknown_required_axis_blocks_claim
     {AcquisitionUnit : Type}
@@ -118,14 +122,13 @@ theorem unknown_required_axis_blocks_claim
     (profile : DependencyProfile)
     (policy : IndependenceClaimPolicy)
     (axis : DependencyAxis)
-    (hParentage : parentageReady parentage)
     (hRequired : policy.requiredDistinct axis = true)
     (hUnknown : (profile axis).state = .unknown) :
     ¬ IndependenceClaimAdmissible parentage profile policy := by
   intro h
   have hDistinct := (h.2 axis hRequired).1
   rw [hUnknown] at hDistinct
-  contradiction
+  cases hDistinct
 
 theorem shared_required_axis_blocks_claim
     {AcquisitionUnit : Type}
@@ -140,7 +143,7 @@ theorem shared_required_axis_blocks_claim
   intro h
   have hDistinct := (h.2 axis hRequired).1
   rw [hShared] at hDistinct
-  contradiction
+  cases hDistinct
 
 theorem partially_shared_required_axis_blocks_claim
     {AcquisitionUnit : Type}
@@ -155,7 +158,7 @@ theorem partially_shared_required_axis_blocks_claim
   intro h
   have hDistinct := (h.2 axis hRequired).1
   rw [hPartial] at hDistinct
-  contradiction
+  cases hDistinct
 
 /--
 Even verified acquisition parentage alone does not admit an independence
@@ -175,16 +178,17 @@ theorem verified_parentage_alone_does_not_admit_independence_claim
     ⟨fun axis => decide (axis = .laboratory),
       ⟨.laboratory, by simp⟩⟩
   refine ⟨profile, policy, ?_, ?_⟩
-  · simp [parentageReady]
+  · trivial
   · intro h
     have hDistinct := (h.2 .laboratory (by simp [policy])).1
-    simp [profile] at hDistinct
+    change DependencyState.unknown = DependencyState.distinct at hDistinct
+    cases hDistinct
 
 #print axioms unknown_parentage_blocks_claim
 #print axioms ambiguous_parentage_blocks_claim
 #print axioms unknown_required_axis_blocks_claim
 #print axioms shared_required_axis_blocks_claim
-#print axioms partial_required_axis_blocks_claim
+#print axioms partially_shared_required_axis_blocks_claim
 #print axioms verified_parentage_alone_does_not_admit_independence_claim
 
 end HsHVerification.CalderIndependenceProfile
