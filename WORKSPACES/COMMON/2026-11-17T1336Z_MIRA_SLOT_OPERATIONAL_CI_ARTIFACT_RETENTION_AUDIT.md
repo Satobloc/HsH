@@ -19,7 +19,7 @@ The fixed ring therefore selects Mira, with Aldus next. The ring label is not an
 
 Read the live HsH operational front doors and relevant controls:
 
-- BEDROCK.md, current main blob `0253ace9f2f0c7d9c3f1b18a2d2a3d3d5a2f5c6e` (full file retrieved; relevant authority and operational sections inspected).
+- BEDROCK.md, current main blob `0253ace674bbc361464b7bbaac2c41aa3d8e8867` (full file retrieved; relevant authority and operational sections inspected).
 - Primary Operational Guideline, 2026-11-08, blob `a8e333b1d5b5aa1d9772366945dd88769d24153c`; this supersedes BEDROCK where directly contradictory.
 - Steering Charter 2026-10-26, blob `be44c424674764c602b5f618dfce528c0f97b0ef`.
 - Three Paper Campaign 2026-10-26, blob `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`.
