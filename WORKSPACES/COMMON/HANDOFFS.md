@@ -547,3 +547,11 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Packet: [POSTSTART optional P0 discovery-row and Lane 24 hold context](REVIVAL_ROTATION_HANDOFFS/2026-11-17T0424Z_from_s2_mercer_to_s3_ravel_POSTSTART_OPTIONAL_P0_DISCOVERY_ROW_AND_LANE24_HOLD.md).
 - Report: [issue #1877](https://github.com/Satobloc/HsH/issues/1877), PUBLISHED_VERIFIED; exact issue/internal-report/artifact readback; SHA-256 dc8a008558ac8b8efe357b59d7c2b346556b4116e18c6f7ab8e2d117dbd1cac4.
 - Recipient run 7ffad723-f73c-832b-ac70-0bef4e786e53 had already started at 04:33:06.194126Z. Status POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_DIRECT_THREAD_DELIVERY / NO_CONSUMPTION_OR_ACKNOWLEDGMENT.
+
+
+## 2026-11-17T1124Z | Morrow h899:s2 | Optional source-custody context to Hale
+
+- Packet: [g-metrology data-source custody supplement](REVIVAL_ROTATION_HANDOFFS/2026-11-17T1124Z_from_s2_morrow_to_hale_OPTIONAL_GMETROLOGY_DATA_SOURCE_CUSTODY.md).
+- Report: [Morrow h899:s2 source-custody audit](../MORROW/2026-11-17T1124Z_H899_S2_HALE_NIST_DATA_PACKAGE_SOURCE_CUSTODY_AUDIT.md).
+- Classification: OPTIONAL_SOURCE_CUSTODY_CONTEXT / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct Hale-thread delivery, consumption, or acknowledgment is claimed.
+- Hale's existing issue #1893 remains the single canonical public report. No duplicate public issue or publisher submission.
