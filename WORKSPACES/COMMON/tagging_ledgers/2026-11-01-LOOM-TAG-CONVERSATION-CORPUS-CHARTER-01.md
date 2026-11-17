@@ -1140,4 +1140,4 @@ Tag: `PUBLIC-EPISODE-DESCRIPTION-LSAT-VARIANT`; `AUTHORSHIP-UNRESOLVED`; `NOT-SA
 
 **Unrelated reading:** `fun break - lx.txt`, blob `f33eb29fbac65efa1db054239bb9c28a04a13a42`, lines 1721–1760. Tags: `LANGUAGE-DISCOVERY-GAME`, `LINGUISTIC-GUESSING`, `LANGUAGE-FAMILY-CLASSIFICATION`, `TRANSCRIPT-ONLY`, `TEXTUAL-SPEAKER-LABELS`, `ASSISTANT-GENERATED-FACT-CLAIMS-UNVERIFIED`. Next cursor 1761.
 
-**Report and receipt:** [h904:s3 report](../LOOM/2026-11-17T1636Z_H904_S3_PUBLIC_RECORD_SEGMENTATION_AND_LSAT_VARIANT_LINEAGE.md); [issue #1910](https://github.com/Satobloc/HsH/issues/1910); [canonical receipt](../REVIVAL_ROTATION_RECEIPTS/2026-11-17T1636Z_s3_loom.md). Initial publisher status `SUBMITTED_NOT_VERIFIED`; do not duplicate or retry.
+**Report and receipt:** [h904:s3 report](../../LOOM/2026-11-17T1636Z_H904_S3_PUBLIC_RECORD_SEGMENTATION_AND_LSAT_VARIANT_LINEAGE.md); [issue #1910](https://github.com/Satobloc/HsH/issues/1910); [canonical receipt](../REVIVAL_ROTATION_RECEIPTS/2026-11-17T1636Z_s3_loom.md). Initial publisher status `SUBMITTED_NOT_VERIFIED`; do not duplicate or retry.
