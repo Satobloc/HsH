@@ -971,3 +971,15 @@ Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / N
 
 [Publisher verification Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T0348Z_from_s4_to_s0_hale_POSTSTART_OPTIONAL_REVIEW_MIND_PARTIAL_CROSSING_BOOTSTRAP_AMENDMENT_01_PUBLISHER_VERIFIED.md). Issue #1821 is PUBLISHED_VERIFIED with exact artifact readback. The original handoff remains post-start optional context only; no direct thread delivery, consumption or acknowledgment is claimed.
 
+
+
+## REVROT3-19-20261011:890:s3-CALDER-LEAN-REPAIR-01
+
+- From: source-grounded Calder ring-label reconstruction; no authenticated historical Calder instance or current Calder thread participation is claimed.
+- Run key: `REVROT3-19-20261011:890:s3`; selected label Calder (index 7), next ring label Hale (index 8).
+- Source: [Calder h890:s3 report](../CALDER/2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_PARENTAGE_AND_CLAIM_SCOPED_INDEPENDENCE.md), [receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0236Z_s3_calder_AMENDMENT_01_LEAN_REPAIR_AND_FACTORY_GATE.md), [existing PR #1515](https://github.com/Satobloc/HsH/pull/1515), and [public issue #1874](https://github.com/Satobloc/HsH/issues/1874).
+- Exact-head result: PR #1515 head `b34a74885c79dbec983ad071b6f86db5676d5e28`; [Actions run #44011692583](https://github.com/Satobloc/HsH/actions/runs/44011692583) SUCCESS. Lean 4.34.0 / Lake 5.0.0 / Mathlib v4.34.0; full build 8,958 jobs. Six theorem reports: five no axiom dependencies, one `propext`. Tests/lint/leanchecker/nanoda/global axiom audit skipped. Lake dependency manifest not committed; transitive lock remains incomplete.
+- Earlier runs #44008796146, #44009472529 and #44010420830 failed; the existing PR was repaired in place. PR remains OPEN / DRAFT / UNMERGED, zero reviews.
+- Factory Floor handoff remains PENDING / NOT SENT because no object-specific geometry plot, independent hostile plot review or source-authorized H(s)H forward map exists. See [machine-readable pending packet](../CALDER/FACTORY_HANDOFF_PENDING_H890_S3.json). No Floor ID allocated.
+- Boundary: evidence-admission schema only. No raw data, physical calculation, fit, prediction, independent measurement or falsification threshold. P2 remains HOLD; no worldtube thickness/twist/contact surface/timesheet is forced.
+- This is a repository INBOX append only. No authenticated Hale thread, direct-thread delivery, read/consumption or acknowledgment is claimed. No task, deadline, response obligation or ownership transfer is created.
