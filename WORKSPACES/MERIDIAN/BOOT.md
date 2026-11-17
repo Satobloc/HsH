@@ -1,4 +1,18 @@
 ## Latest checkpoint — Meridian h899:s4 | 2026-11-17T11:48Z
+
+## Latest :36 overlay — h903:s3 (2026-11-17)
+
+This is a one-run execution of the supplied Lane Charter 36. The standing Meridian P0 Code Grurple assignment remains unchanged.
+
+- Result: Tang 2023 nine-particle ring-radius Jacobian sensitivity; reconstructed y/depth coordinates contribute 79.19% of propagated diagonal variance.
+- Report: [h903:s3 projection and sensitivity audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/2026-11-17T1536Z_H903_S3_TANG2023_RADIUS_SENSITIVITY_AND_PROJECTION_AUDIT.md)
+- Publisher: [issue #1907](https://github.com/Satobloc/HsH/issues/1907), PUBLISHED_VERIFIED.
+- Reproducible script: [audit_h869_tang2023_radius_sensitivity.py](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/audit_h869_tang2023_radius_sensitivity.py)
+- Results: [h903_tang2023_radius_sensitivity_output.json](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/h903_tang2023_radius_sensitivity_output.json)
+- Receipt: [h903:s3 canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1536Z_s3_meridian.md); [publisher amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1536Z_s3_meridian_AMENDMENT_01_PUBLISHER_READBACK.md).
+- P2 remains HOLD. No H(s)H forward map, physical prediction, full covariance or numerical falsification threshold was established.
+- Optional post-start context for Mercer is indexed in Common HANDOFFS; no task or response obligation was created.
+
 - Post-publication Amendment 02: [2026-11-17T1254Z revalidation](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1254Z_s4_meridian_AMENDMENT_02_POSTREPORT_REVALIDATION.md). Fresh discovery snapshot 12:54Z confirms Paper A/B rows unchanged and all ten protected source/control blobs exact; scheduler same-run-ID re-entry and cross-lane Review-MIND findings recorded. Existing issue #1898 remains PUBLISHED_VERIFIED; no duplicate submission or P0 route change.
 - Post-run scheduler Amendment 03: [2026-11-17T1259Z same-ID post-terminal re-entry](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1259Z_s4_meridian_AMENDMENT_03_POSTTERMINAL_REENTRY.md). Three lease records re-entered IN_PROGRESS under the same IDs after terminal failure; all four current records were simultaneously active at final peek. Cause/attempt count unknown; no task configuration changed.
 
