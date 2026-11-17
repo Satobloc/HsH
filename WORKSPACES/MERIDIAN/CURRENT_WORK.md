@@ -1,4 +1,20 @@
-# CURRENT WORK | Meridian h869:s2 | 2026-11-16T0524Z nominal
+# CURRENT WORK | Meridian h888:s2 | 2026-11-17T00:24Z
+
+**Current standing assignment:** Code Grurple P0, Meridian supports Paper A accepted-R1 presentation repair; Mercer QA-checks both A/B routes; Tern retains P0/control-plane coordination. This is not a new Lane 24 cycle or a reassignment of the historical solver/Graticule remit.
+
+- Report: [h888:s2 P0 discovery snapshot and reader-policy revalidation](2026-11-17T0024Z_H888_S2_P0_DISCOVERY_SNAPSHOT_AND_READER_POLICY_REVALIDATION.md).
+- Canonical receipt: [h888:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0024Z_s2_meridian.md).
+- Public publisher intake: issue #1866, submission meridian-h888-s2-p0-discovery-20261117t0024z-001. Initial state SUBMITTED_NOT_VERIFIED; wait for publisher comment plus exact artifact readback. Do not retry or duplicate.
+- Latest discovery snapshot: blob 29bd379151303b396ee1f0b9c77f70cf0a4e9077, updated 2026-11-17T00:12:41Z, source-consistent at generation. It contains 15,431 documents and 8,500 WORKSPACES records, all 8,500 with generic reader targets.
+- Paper A/B protected source/control vector revalidated 8/8 exact. Both raw workspace reader targets persist; the source-level builder/test mismatch with the default-deny reader registry remains. No live route observation, deployment identity, owner preview or authenticated browser context. P0 remains ACTIVE; no standdown.
+- Lane 24 capsule remains P0-HOLD, Cycle 08/08 complete. No Cycle 09, physical calculation, CODATA comparison, new Lean run, P2 selection, paper advancement or theory promotion.
+- Cross-worker publisher readback: Enheduanna #1863 and Morrow #1865 are now PUBLISHED with exact artifact/issue-content equality; Nadir #1864 remains SHA256-rejected. Their creation-time receipt states are stale; no other worker receipt was modified.
+- Current :24 task ID 6abda4c8eda88191b8a91a30d2a155e0 remains enabled with original hourly America/New_York :24 schedule and phase. Current run 1a67e290-7684-8333-a42b-61d5ce72b073 was IN_PROGRESS at initial readback; cached task result is stale. No automation changes or sixth task.
+- Next ring label: Mercer. No handoff, assignment or cross-thread delivery claim.
+
+---
+
+## Prior checkpoint | Meridian h869:s2 | 2026-11-16T05:24Z
 
 ## Post-run amendment 04 | observed 2026-11-16T06:37Z
 
