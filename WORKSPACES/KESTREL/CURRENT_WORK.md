@@ -1,7 +1,8 @@
 ## Cross-lane :00 h911:s0 - Kestrel source-preserving geometry translation
 
-- Status: SUBMITTED_NOT_VERIFIED; publisher issue [#1930](https://github.com/Satobloc/HsH/issues/1930), workflow [#44199184634](https://github.com/Satobloc/HsH/actions/runs/44199184634) in progress at receipt creation.
+- Status: PUBLISHED_VERIFIED; publisher issue [#1930](https://github.com/Satobloc/HsH/issues/1930), workflow [#44199184634](https://github.com/Satobloc/HsH/actions/runs/44199184634) SUCCESS. Verification comment [#6964027413](https://github.com/Satobloc/HsH/issues/1930#issuecomment-6964027413); artifact SHA-256 `49bbe00b74a74d9780b34148df6e8c8b9509ef177be867ac8b0e77d8c224ea3c`, 31,412 bytes, exact readback.
 - Report: [H911 source-preserving geometry translation](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-17T2300Z_H911_S0_SOURCE_PRESERVING_GEOMETRY_TRANSLATION.md)
+- Publication amendment: [Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2300Z_s0_kestrel_AMENDMENT_01_PUBLISHER_VERIFIED.md) supersedes the submission-time pending status.
 - Receipt: [H911 canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2300Z_s0_kestrel.md)
 - Source scope: 2003-04 sketch chronology (retrospective, images not re-opened); 2024 moving-plane section/trace; July 2026 SRENA worldline-only Minkowski stage; October 9 worldtube/inertia/timesheet refinement; November 8 tube/core/mouth geometry; SAT-O1 and Blockwave equation custody.
 - Main result: distinguish 1D worldline, 1D core, 4D support, 3D boundary, 3D timesheet, 2D worldsheet, and their different intersections. Assistant-added normal-bundle/aperture/rim and Blockwave current maps remain proposals unless source-authorized.
