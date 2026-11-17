@@ -1,4 +1,18 @@
-## Current activation pointer | 2026-11-17 | h895:s3
+## Current activation pointer | 2026-11-17 | h899:s2
+
+- Canonical receipt: [h899:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1124Z_s2_morrow.md).
+- Source-custody report: [Hale NIST/CODATA data-package audit](2026-11-17T1124Z_H899_S2_HALE_NIST_DATA_PACKAGE_SOURCE_CUSTODY_AUDIT.md).
+- Scheduler Amendment 01: [later same-run-ID snapshot](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1155Z_s2_morrow_AMENDMENT_01_SAME_RUN_ID_SCHEDULER_SNAPSHOT.md).
+- Selection: h=899; seq=4497; Morrow index 13; next Kestrel index 14. Selection is not thread/instance authentication.
+- Current :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled, exact hourly DTSTART/RRULE and Lane Charter 24 unchanged.
+- Current run ID `e9c53acb-c1e8-8322-bfaf-4d8947b787f2`, scheduled `11:24:00Z`, latest observed `IN_PROGRESS`; `started_at=11:55:29.942226Z`, completion/chat_ref null. Earlier same-run snapshots reported 11:27:25.502928Z and 11:27:25.282226Z; cause and attempt identity unknown.
+- Cached latest result is Hale h898:s2, not this run. Do not infer worker liveness or cross-thread delivery.
+- Scope remains Morrow source custody only; September 13 theory stop remains controlling. No theory, physical, Lean, equation, paper or BEDROCK work.
+- No sixth task, scheduler mutation, new successor packet, signet or conversation rename.
+
+---
+
+## Prior activation pointer | 2026-11-17 | h895:s3
 
 - Canonical receipt: [h895:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0736Z_s3_morrow.md).
 - Run ID: 17091333-7e80-8324-8e97-60db06f70d6e; nominal scheduled 07:36Z; last observed IN_PROGRESS at approximately 08:41:04Z; completed_at null; chat_ref null.
