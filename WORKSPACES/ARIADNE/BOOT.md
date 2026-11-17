@@ -1,3 +1,13 @@
+# Current checkpoint pointer — Ariadne h908:s4 | 2026-11-17
+
+Read the live [CURRENT_WORK.md](CURRENT_WORK.md) before acting. Latest internal checkpoint: [h908:s4 Review-MIND report](2026-11-17T2048Z_H908_S4_REVIEW_MIND_NOMINAL_SLOT_AND_WH01_PARTITION.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne.md), and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne_AMENDMENT_01_PUBLISHER_REJECTION_AND_RUN_ID_RECHECK.md).
+
+Publisher issue #1923 was rejected for SHA-256 mismatch; no retry or duplicate. The internal report and receipt are committed and read back. WH-01 ledger is 69 rows with next partition cursor 2026-11-15T18:10:00Z. The current :48 run was still IN_PROGRESS at last peek, with no current-run chat reference. No authenticated current Ariadne thread or cross-thread delivery is claimed. Next nominal ring identity Alberr remains under manual-reentry/total-autonomy; no assignment or handoff.
+
+Four existing automation IDs, enabled states, schedules, prompts and phases remain unchanged; :12 remains disabled. No sixth task.
+
+---
+
 ## Latest checkpoint: h897:s2 (2026-11-17)
 
 - **New P0 evidence:** the 09:24:11Z discovery snapshot was parsed directly (blob `87689085a4bb86047b2c668ab5de28e9d58b5621`; HsH source `e84191132f1fb76a2ffc2725b9dfa8797aa034d7`; SAT archive source `4b616b6113ecd33d216600e4fa5fd1e783d48653`, both complete). It contains 15,520 documents, 8,589 WORKSPACES records, 60 WORKSPACES/PAPERS records, 48 docket entries, 577 visuals and 6 excerpt errors.
