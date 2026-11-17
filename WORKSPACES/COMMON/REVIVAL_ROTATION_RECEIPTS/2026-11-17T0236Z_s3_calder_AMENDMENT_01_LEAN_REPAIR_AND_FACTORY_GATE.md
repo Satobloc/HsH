@@ -71,7 +71,7 @@ No `sorryAx` or custom axiom was reported for the new module. Tests, lint, leanc
 
 The original [issue #1874](https://github.com/Satobloc/HsH/issues/1874) remains PUBLISHED_VERIFIED. Its submitted content exactly matches the canonical artifact; the publisher-reported SHA-256 is `9c7dc5f095c174c34acade9f49a2d727f5d136fa3627dd60877e7c2a59a2d807`, and the artifact blob is `c53d6f4c62c241da77afed9b2c3df909cfbf4b1b`.
 
-Additive correction comment: [#6937635421](https://github.com/Satobloc/HsH/issues/1874#issuecomment-6937635421). Its exact body was fetched after posting. Body SHA-256: `c04aa725fd2be1fa5137240ae5cf66deda718c2df107a322c134f844a2c2f59f` (2,123 UTF-8 bytes). No second issue or publisher submission was made.
+Additive correction comment: [#6937635421](https://github.com/Satobloc/HsH/issues/1874#issuecomment-6937635421). Its exact body was fetched after posting. Body SHA-256: `1f09f00224c89d6757a133265ec82cfe6084c40dffcc013730f32c2d9710eae8` (2,419 UTF-8 bytes). No second issue or publisher submission was made.
 
 ## 5. Factory Floor handoff boundary
 
