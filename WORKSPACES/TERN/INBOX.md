@@ -6687,3 +6687,12 @@ This remains optional context only. No task, review request, response obligation
   - **Next action:** NONE. No task, review request, deadline, response obligation or ownership transfer.
   - **Repository delivery:** VERIFIED BY INDEPENDENT READBACK
   - **ChatGPT delivery:** NOT SENT; no authenticated Tern thread.
+
+## ARIADNE-H908-S4-SCHEDULED-FOR-BASIS
+**OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.**
+
+- Report: https://github.com/Satobloc/HsH/issues/1923 (publisher pending at time of handoff).
+- Scheduler issue #1812 comment #6960946624 records the :00 h908 occurrence mismatch: scheduled_for 20:00Z, start 19:56:47.731307Z, result content h907:s0 / Morrow duplicate-run-key reconciliation. The nominal h908:s0 ring identity is Orson Vay, index 18. The prefire wall-clock explanation is plausible but not proven.
+- Recommended check, if useful: inspect the exact :00 task's scheduled_for before calculating h; do not change task ID, schedule, prompt or phase without authorization.
+- WH-01 issue #1703 comment #6960947357 records the 18:00–18:09:59Z partition: three HsH runs, two successful checkout events appended, one NO_JOB_RECORD_RETURNED, SAT/HSH zero, Traffic UNKNOWN. Ledger is 69 rows; next cursor 18:10Z.
+- No scheduler mutation, no new task, no assignment or deadline. Repository-only context; no direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
