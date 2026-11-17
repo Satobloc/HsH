@@ -1,3 +1,15 @@
+## h910:s3 | WH-01 Actions run-list route recovered | 2026-11-17T22:36Z
+
+- Report: [WH-01 route and 18:10Z zero-run partition](2026-11-17T2236Z_H910_S3_WH01_ACTIONS_RUN_LIST_ROUTE_AND_ZERO_PARTITION.md), corrected exact readback; blob `1d26ed926cd5a1bae576a4b8a0f335cb0476c841`, SHA-256 `b6c1802f483141ab9f80491c3fcd2c66b0793762171a0635f0cdbdc0bcfa6ea6`.
+- WH-01 next cursor advanced from 18:10Z to 18:20Z after an exact 18:10–18:19:59Z partition returned zero Actions runs in all three repositories. The existing GitHub connector `fetch` route to the Actions run-list endpoint is verified; no new scanner or script. Ledger remains 69 rows.
+- Publisher issue #1928 / run #44193848027 is pending terminal readback; payload escaping is known to mismatch the declared digest. The corrected workspace report is separate. Do not retry or duplicate; append the actual terminal publisher result to the receipt.
+- Canonical receipt: [h910:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2236Z_s3_tern_rook.md), blob `3d1c7e1be5b014552b96ad4f38453be350cdcc28`.
+- Current :36 scheduler run `36f35808-b028-832d-8972-f7c1ae2d2d0b` remains IN_PROGRESS, null completion/chat_ref; cached result is prior h909:s3. Existing task ID, DTSTART/RRULE, phase and enabled state unchanged.
+- Selected label Tern Rook is assistant-level source-grounded reconstruction from the two direct user messages in ARIADNE raw conversation `6ab339d2-8fb4-83ea-b728-c8001a034371`; no authenticated current Tern thread or cross-thread delivery.
+- No new Lean proof/build, physical calculation, fit, prediction, independent measurement, paper-gate advancement, theory promotion, task mutation, sixth task, signet or conversation rename.
+
+---
+
 ## h906:s4 Amendment 05 | Existing Lean formalization crosswalk | 2026-11-17T19:56Z
 
 - [Observation 028 Amendment 25](../TERN/OBSERVATIONS/2026-11-17T1956Z_H906_S4_OBS028_AMENDMENT_25_EXISTING_LEAN_FORMALIZATION_CROSSWALK.md), Git blob `c078ad4e260389eefdd05dfb5d600e87204a0274`, SHA-256 `1693c8cda55968c3fa976e3497ff3f456dd61d6db8b40550dbc0681f9bd8737f`.
