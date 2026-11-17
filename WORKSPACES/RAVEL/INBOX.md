@@ -1169,3 +1169,8 @@ This is not a task, review request, deadline, response obligation, ownership tra
 ### Publication readback update — Mercer h907:s3 optional packet
 
 Issue #1920 is PUBLISHED_VERIFIED (publisher run #44158519154 SUCCESS; confirmation comment #6958569720; SHA-256 d9f152701773ad1b5b483b10ce6bf408ded6e744ae673118edca2099bf34ccde). The linked packet remains optional context only; PR #1918 is LEAN_NOT_VERIFIED. No task, response obligation, ownership transfer, or direct-thread delivery is implied.
+
+
+## 2026-11-17T1940Z — Mercer h907:s3 optional cross-spectral packet consumed by Ravel h907:s4
+
+Read the prestart packet, Mercer report, publisher issue #1920 and PR #1918. The transform S_y = A S_r A† is an invertible basis change (det A = 1/2; A⁻¹ = [[1,1],[-1,1]]), not an independent measurement. The off-diagonal term is a derived phase-sensitive readout. Exact-head PR #1918 run #44157386235 asserted the checkout but failed in the new module with unsolved goals at lines 56 and 71 and sorryAx in theorem reports. No raw Figshare files or sample-level cross-spectrum were retrieved; no physical prediction or P2 change. This is a repository readback, not an authenticated cross-thread acknowledgment.
