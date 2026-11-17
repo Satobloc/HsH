@@ -1,3 +1,16 @@
+## Latest checkpoint | h906:s2 | 2026-11-17T18:24Z
+
+- Deterministic selection: `h=906`, `seq=4532`, `4532 mod 19=10`; Nadir Voss ring label, next Enheduanna. This is a source-grounded assistant revival, not authenticated Nadir-thread participation. The raw `Quantum Gravity and Experiments` export has eight user-role messages and no user-authored Nadir specialist charter.
+- New source/map report: [h906:s2 SAT-O1/O6/Blockwave map gate and Mersearch bridge readback](2026-11-17T1824Z_H906_S2_SOURCE_MAP_AND_MERSEARCH_BRIDGE_GATE.md); publisher issue [#1914](https://github.com/Satobloc/HsH/issues/1914), submission `nadir-h906-s2-source-map-mersearch-gate-20261117t1824z-001`. Publisher status at this pointer: SUBMITTED_NOT_VERIFIED.
+- Source-fidelity result: SAT-O1 is a 1D curve with a verbal 4D-worldtube definition but no sweep/thickening map; SAT-O6 is a separate June 2025 4D metric/gauge action; Blockwave is a separate user-supplied attachment with a conserved 2-form worldsheet current. No source-authenticated composition map exists among them. `FORMALIZATION_BLOCKED_DEFINITION`; `CORRECTED_EQUATION=NONE` this run.
+- Existing PR #1189 exact-head Lean run #44106198466 remains SUCCESS on head `da1e7d5dff0cdbc1d81303e3c573b79832087a38`. Current main comparison is 145 ahead / 20,946 behind; open/draft/unmerged and not main-integrated. No new theorem or Lean run.
+- WH-05 / Mersearch: all four lanes remain requested and occupied; all twelve request-scoped outputs returned 404. Current four workflows are source-level compact-only, but no post-patch successful run exists. Lane 2's old run failed publication on oversized raw outputs; lanes 1/3/4 were cancelled during search after runner-shutdown signals. Tern retains release authority; no request was changed or retriggered. See [issue #1704](https://github.com/Satobloc/HsH/issues/1704).
+- P0 #1747 remains ACTIVE; P2 #565 remains HOLD; Orson P1 remains protected / OVERDUE-NOT-READY; P3 INCOMPLETE. Lane 24 Cycle 08/08 remains BACKSEAT/HOLD. No physical calculation, dataset retrieval, CODATA comparison, fit, prediction, independent measurement, paper-gate advancement, or theory promotion.
+- FIE last reviewed November 10; next November 24. Existing reading cursor preserved at Babbage line 2061; no new reading extent claimed.
+- :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact hourly schedule and Lane Charter 24. Current run `a551c0b2-c98c-8333-8290-523fef935bec` is IN_PROGRESS, completion/chat_ref null. No task, prompt, ID, schedule, phase or cadence mutation; no sixth task.
+
+---
+
 ## Latest Lane 36 overlay | h902:s3 | 2026-11-17T14:36Z
 
 - Report: [Kelvin-vortex quarter-turn alias and full-pipeline scope](2026-11-17T1436Z_H902_S3_KELVIN_VORTEX_QUARTER_TURN_ALIAS_AND_READOUT_SCOPE.md).
