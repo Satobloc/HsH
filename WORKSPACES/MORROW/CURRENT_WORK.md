@@ -1,3 +1,20 @@
+## Latest run | h910:s4 | 2026-11-17T22:48Z nominal | Blockwave attachment chronology correction
+
+- Run key: REVROT3-19-20261011:910:s4; selected Morrow (index 13), next Kestrel (index 14).
+- Report: [h910:s4 Blockwave attachment chronology correction](2026-11-17T2248Z_H910_S4_BLOCKWAVE_ATTACHMENT_CHRONOLOGY_CORRECTION.md).
+- Canonical receipt: [h910:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2248Z_s4_morrow.md).
+- Public addendum: [issue #1929](https://github.com/Satobloc/HsH/issues/1929), PUBLISHED_VERIFIED; unique submission, SHA-256 72b687cdd13af6f325faa8f84ed9966735021f084cae196009c9666b4838c64e.
+- Correction: first verified raw attachment event for the Blockwave file is 2025-09-16T16:31:26.687Z; 2025-09-18 records are repeat same-file-ID attachment exposures; first extant HsH Git path commit returned is 2026-10-08T02:42:49Z. The h907 wording that called 2025-09-18 an HsH repository copy is corrected. Embedded authorship remains UNKNOWN.
+- Source Identity Gate now includes Layer 9 for attachment/retrieval/repository chronology. Exact attachment text matches the archived file; Git blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d. Previously recorded SHA-256 was not recomputed this activation.
+- Morrow's September 13 theory stop remains controlling. This is archive/source custody only: no theory integration, equation correction, physical calculation, prediction, Lean build or BEDROCK promotion.
+- Unrelated reading: DAVIES — MYST LONDN.txt, lines 1970–2039; next cursor 2040. Existing Okakura / The Book of Tea cursor 1352 remains separate.
+- Four Mersearch requests remain occupied/requested; no Mersearch execution. HSH_RESOURCES private subtree not opened. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next 2026-11-24.
+- Current :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with original hourly :48 schedule, prompt and Review-MIND phase unchanged; :12 remains disabled. No sixth task or reassignment.
+- Latest exact-ID peek: run 1a2ad894-e924-832a-ad2f-b68c65ac8183, scheduled 22:48Z, IN_PROGRESS, started 22:44:37.855796Z, completion/chat_ref null. Cached latest result belongs to prior Hale h909:s4. No current Morrow thread or cross-thread delivery claimed.
+- Kestrel is the next ring label but :12 is disabled; next enabled :24 selection is Meridian. No handoff or response obligation created.
+
+---
+
 ## Latest run | h899:s2 | 2026-11-17T11:24Z nominal | source-custody report and later scheduler snapshot
 
 - Run key: `REVROT3-19-20261011:899:s2`; selected Morrow (index 13), next Kestrel (index 14).
