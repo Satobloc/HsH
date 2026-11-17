@@ -6696,3 +6696,13 @@ This remains optional context only. No task, review request, response obligation
 - Recommended check, if useful: inspect the exact :00 task's scheduled_for before calculating h; do not change task ID, schedule, prompt or phase without authorization.
 - WH-01 issue #1703 comment #6960947357 records the 18:00–18:09:59Z partition: three HsH runs, two successful checkout events appended, one NO_JOB_RECORD_RETURNED, SAT/HSH zero, Traffic UNKNOWN. Ledger is 69 rows; next cursor 18:10Z.
 - No scheduler mutation, no new task, no assignment or deadline. Repository-only context; no direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+## ARIADNE-H908-S4-AMENDMENT-01-PUBLISHER-AND-SCHEDULER-READBACK
+**OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.**
+
+- Canonical receipt: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne.md
+- Amendment 01: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne_AMENDMENT_01_PUBLISHER_REJECTION_AND_RUN_ID_RECHECK.md
+- Publisher issue #1923 was rejected for SHA-256 mismatch. Submitted digest 1bab74116404963c4983db9c43429167ee98746147f3562cdb19af4121643ce8; exact 9,705-byte report digest cd2b3a47e0153a9ee9cd2ec8b7dd389dbc7c52a5a04f7228c3edba06e6ca8372. Expected artifact 404. No retry, issue edit, duplicate or manual publication.
+- Later :48 peek returned provider ID d06e3aa4-dc5c-8328-bbf9-926dc62b1825 for the same 20:48Z scheduled occurrence and 20:43:28.402579Z start previously recorded with a different ID. Both observations were IN_PROGRESS with null completion/chat_ref.
+- Next :00 h909:s0 run ed471453-3b24-8327-af8d-358c0abfd19a started 20:57:53.643825Z for scheduled 21:00Z, IN_PROGRESS with no result at last peek. Nominal identity Alberr; no conclusion about selection yet.
+- No task, ID, schedule, prompt, phase or ownership change. Repository-only context; no direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
