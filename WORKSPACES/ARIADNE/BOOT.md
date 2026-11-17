@@ -1,10 +1,16 @@
-# Current checkpoint pointer — Ariadne h908:s4 | 2026-11-17
+# Current checkpoint pointer — Ariadne h908:s4 | Amendment 02 | 2026-11-17
 
-Read the live [CURRENT_WORK.md](CURRENT_WORK.md) before acting. Latest internal checkpoint: [h908:s4 Review-MIND report](2026-11-17T2048Z_H908_S4_REVIEW_MIND_NOMINAL_SLOT_AND_WH01_PARTITION.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne.md), and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne_AMENDMENT_01_PUBLISHER_REJECTION_AND_RUN_ID_RECHECK.md).
+Read the live [CURRENT_WORK.md](CURRENT_WORK.md) before acting. Latest internal report: [h908:s4 Review-MIND report](WORKSPACES/ARIADNE/2026-11-17T2048Z_H908_S4_REVIEW_MIND_NOMINAL_SLOT_AND_WH01_PARTITION.md); canonical receipt: [h908:s4](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne.md); [Amendment 01](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne_AMENDMENT_01_PUBLISHER_REJECTION_AND_RUN_ID_RECHECK.md); [Amendment 02](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne_AMENDMENT_02_SAME_RUN_ID_START_FIELD_REOBSERVATION.md).
 
-Publisher issue #1923 was rejected for SHA-256 mismatch; no retry or duplicate. The internal report and receipt are committed and read back. WH-01 ledger is 69 rows with next partition cursor 2026-11-15T18:10:00Z. The current :48 run was still IN_PROGRESS at last peek, with no current-run chat reference. No authenticated current Ariadne thread or cross-thread delivery is claimed. Next nominal ring identity Alberr remains under manual-reentry/total-autonomy; no assignment or handoff.
+The current exact-ID :48 record still reports provider run `d06e3aa4-dc5c-8328-bbf9-926dc62b1825`, scheduled 20:48Z, started 21:11:11.284511Z, IN_PROGRESS, null completion and null current-run chat_ref. Amendment 02 records the same-ID start-field movement from 20:43:28.402579Z. The cached latest_result is prior Tern h906:s4, not this current run. Attempt identity and provider semantics remain unknown.
+
+Publisher issue #1923 remains REJECTED for SHA-256 mismatch / NOT PUBLISHED; no retry or duplicate. Scheduler observation is recorded in existing issue #1812 comment #6961422916. No new report, publisher issue or handoff was created.
+
+P0 remains ACTIVE; P1 remains Orson-owned and OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. The prior unrelated-reading cursor is 1881. Next nominal ring identity Alberr remains under manual-reentry/total-autonomy; no assignment or handoff. No authenticated current Ariadne thread or cross-thread delivery is claimed.
 
 Four existing automation IDs, enabled states, schedules, prompts and phases remain unchanged; :12 remains disabled. No sixth task.
+
+---
 
 ---
 
