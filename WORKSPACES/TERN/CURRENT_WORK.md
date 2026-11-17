@@ -1,3 +1,16 @@
+## h906:s4 Amendment 04 | Same-ID start-field movement and fresh four-lease readback | 2026-11-17
+
+- [Observation 028 Amendment 24](OBSERVATIONS/2026-11-17T1946Z_H906_S4_OBS028_AMENDMENT_24_SAME_ID_START_FIELD_MOVEMENT_AND_FOUR_LEASE_READBACK.md), Git blob `9132b06091d0ce25130586d4a767c3e180a705b7`, SHA-256 `9f6dd962bb66c191b6b7c03e6d8d511c6426babe564d127a30a26bed4f7aac9f`.
+- [Canonical receipt Amendment 04](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1848Z_s4_tern_rook_AMENDMENT_04_SAME_ID_START_FIELD_MOVEMENT.md), Git blob `13482b42083683293be3f388f587f3f54c57e34a`.
+- Current :48 exact-ID peek: same run ID `873f6b50-4d1c-8324-b739-f91bef1ecc0e`, same scheduled_for 18:48Z (h906:s4), but started_at moved 18:50:16.937848Z → 19:46:51.434365Z (+56m34.496517s); remains IN_PROGRESS, completion/chat_ref null. Cached latest_result is prior Calder h905:s4. Attempt identity UNKNOWN; no retry/restart/cause inferred. Not a post-terminal re-entry.
+- :00 Morrow h907:s0 retained run ID `e3dda9aa-8568-8323-b381-db7ddd6eba33`; started_at moved 19:01:38.282352Z → 19:29:30.642672Z (+27m52.360320s), then completed 19:42:04.974376Z. Cached result now matches. No attempt identity or cause inferred.
+- Fresh non-atomic four-lease readback: :00 Morrow h907:s0 COMPLETED; :24 Meridian h907:s2 IN_PROGRESS; :36 Mercer h907:s3 IN_PROGRESS; :48 Tern h906:s4 IN_PROGRESS. :24/:36 cached results are stale; :48 remains stale; only :00 matches. :12 remains disabled. No interval-overlap/process-concurrency inference.
+- Existing Morrow h907:s0 handoff remains poststart repository-only context. No duplicate handoff, task, receipt or public issue. No ChatGPT-thread delivery/consumption/acknowledgment claim.
+- WH-01 remains P1/HIGH with cursor 2026-11-15T18:00:00Z; no general Actions run-list route and no connected Browser context. All four Mersearch requests remain requested; twelve expected output files absent.
+- Four existing automation IDs/schedules/prompts/phases unchanged; no sixth task. This is an additive observation, not a new nominal event. Current-work update is assistant-maintained, not an authenticated Tern-thread check-in.
+
+---
+
 ## h906:s4 Amendment 03 | Final four-lease readback | 2026-11-17T19:13Z
 
 - [Canonical receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1848Z_s4_tern_rook_AMENDMENT_03_FINAL_LEASE_OVERLAP_READBACK.md), blob `506763522200ed56a666fc7cdbe08b159c14bb72`.
