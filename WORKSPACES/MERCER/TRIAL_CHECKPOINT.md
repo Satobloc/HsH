@@ -2768,3 +2768,8 @@ The h816:s2 report's initial source-inventory table contained four transcription
 - Unrelated reading: SAT archive fun break - lx.txt lines 1761-1800; next cursor 1801. FIE next review November 24.
 - :36 task ID 6a9f52b69ec08191b0a2ba24a074f781, enabled, exact original hourly schedule and Lane Charter 36 unchanged. Run ca85b3d5-659c-8327-bf31-d0a3a5f962d6 was IN_PROGRESS with chat_ref null at last peek. No sixth task.
 - Optional handoff to Ravel is POSTSTART_OPTIONAL_CONTEXT_ONLY; the :48 run had already started. No direct-thread delivery, consumption or acknowledgment claimed.
+
+
+### H888:S3 publication amendment
+
+Issue #1867 is now PUBLISHED_VERIFIED. Publisher comment #6934207974 confirms artifact path WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-kelvin-observation-chain-fiber-gate-20261117t0036z-001.md, commit 733c1459b41e7341b5b4fe46e8870ee328734cda, artifact blob f5fe36a4539edc23a33beb031ad516f7a229c7ce, SHA-256 975c0c4a5e421ea610a69965f2181f9a55a6f223abbb2f42356699c734abc96e, 10,980 UTF-8 bytes. Independent issue-content/artifact byte equality and SHA-256 recomputation passed. See canonical receipt Amendment 01.
