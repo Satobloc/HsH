@@ -23,7 +23,7 @@ The current source-provenance cross-read may be useful to Calder's existing PWH/
 ## Sources
 
 - [Aldus report, HsH workspace](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-17_CODATA_MEETING_LISTINGS_NIST_G_WALLACE_PROVENANCE_CROSSREAD.md)
-- [Publisher intake issue #1871](https://github.com/Satobloc/HsH/issues/1871)
+- [Publisher intake issue #1871](https://github.com/Satobloc/HsH/issues/1871) was rejected for a SHA-256 mismatch; no publisher artifact exists and no retry was made. The exact issue/workspace content is 18,329 bytes with recomputed SHA-256 `0d45e4d818b524f3662b5cab701f78f3ad4455afb4723c4359ffb1f774008e59`; see [Amendment 01](../ALDUS/2026-11-17_CODATA_MEETING_LISTINGS_NIST_G_WALLACE_PROVENANCE_CROSSREAD_AMENDMENT_01_PUBLISHER_SHA_RECONCILIATION.md).
 - [NIST final paper PDF](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=961075)
 - [NIST constants version history](https://physics.nist.gov/cuu/Reference/versioncon.shtml)
 - [CODATA TGFC page](https://codata.org/initiatives/data-science-and-stewardship/fundamental-physical-constants/)
