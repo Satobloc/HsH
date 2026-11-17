@@ -83,3 +83,18 @@ Record `PATH_ABSENT` only when the exact commit/tree is pinned, a recursive tree
 An exact tree-membership witness can establish that a path exists even when a separate content-read operation fails. Conversely, a successful current-path read does not establish membership in an earlier snapshot unless it is fetched at that exact commit/ref.
 
 Applied correction: h876:s3 Amendment 03 confirms `WORKSPACES/MORROW/INBOX.md` and `WORKSPACES/MORROW/TRIAL_CHECKPOINT.md` were present in the pinned 2026-11-16T12:57Z tree; the earlier report's absence statement was incorrect. See `2026-11-16T1322Z_H876_S3_NEGATIVE_PATH_MEMBERSHIP_CORRECTION.md`.
+
+
+## 9. Attachment / retrieval / repository chronology
+
+Treat these as distinct typed events, not interchangeable dates:
+
+1. **Attachment event:** a raw conversation's system attachment metadata records a file ID in the context of a user turn. It supports that the file was supplied/available in that conversation; it does not establish the embedded author's identity.
+2. **Repeat attachment record:** the same file ID appears again in a later raw conversation or later system injection. Record the new exposure timestamp, but do not call it a new content version or independent source witness without a new file identity or changed bytes.
+3. **Retrieval event:** a file-search/tether-quote/tool result returns content for an existing file ID. This is retrieval, not a second upload.
+4. **Repository path commit:** pin the exact repository, path, commit, tree and blob. The first commit returned for a path establishes tracked repository history at that commit; it does not establish the file's composition date or first existence outside that repository.
+5. **Composition/authorship event:** require a source-specific authoring turn, byline, or direct user-role statement tied to the artifact. If absent, retain UNKNOWN even when the prose has a recognizable voice.
+
+Do not call an attachment event a repository copy, a retrieval event an upload, or a Git commit timestamp a composition date. When one file ID recurs across raw exports, group the events by that ID while retaining every conversation/node/timestamp separately. Bind content identity independently through exact text comparison, Git blob identity, and a recomputed raw-byte digest when available.
+
+Applied correction: h910:s4 distinguishes the first verified BLOCKWAVE.txt attachment event (2025-09-16), repeat same-file-ID attachment records (2025-09-18), the file-search retrieval event (2025-09-16), and the first extant HsH path commit returned (2026-10-08). Embedded authorship remains UNKNOWN.
