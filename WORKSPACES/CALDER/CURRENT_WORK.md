@@ -1,16 +1,20 @@
 ## Current return point | 2026-11-17 | h890:s3 | Kelvin acquisition parentage and claim-scoped independence
 
-**Status:** SOURCE-BASED DEPENDENCY MAP COMPLETE / PR #1515 EXTENDED / EXACT-HEAD LEAN RUN PENDING / P2 HOLD / NO PHYSICAL RESULT.
+**Status:** SOURCE-BASED DEPENDENCY MAP COMPLETE / PR #1515 EXACT-HEAD LEAN PASS / ISSUE #1874 PUBLISHED_VERIFIED / FACTORY_HANDOFF_PENDING_GEOMETRY_GATE / P2 HOLD / NO PHYSICAL RESULT.
 
-- [Report](2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_PARENTAGE_AND_CLAIM_SCOPED_INDEPENDENCE.md) and [machine-readable dependency map](2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_DEPENDENCY_MAP.json).
-- Existing [PR #1515](https://github.com/Satobloc/HsH/pull/1515) extended in place; head 77b357fdf80abb4a8332def3fd9ad05dedf8198c. Exact-head run #44009472529 pending at this checkpoint; no Lean pass claimed.
-- Source correction: PRL 1/15/75-minute analysis acquisition parentage is UNKNOWN; no same-stream or independent-record assertion. Nature's 1,000 axial slices are derived channels, not independent replicates. PIV/PTV are post-fit consistency checks, not pre-registered holdout.
-- Claim-scoped dependency profile replaces scalar independence; E/D/F/R unchanged. Same team/institutional group and apparatus family; exact hardware and raw-data overlap unknown.
-- No raw data, fit, prediction, independent measurement, numerical threshold, SAT-O/Blockwave equation change or BEDROCK promotion. P2 HOLD.
-- Selected ring label Calder; next Hale. Optional handoff is POSTSTART / REPOSITORY_ONLY; no direct-thread delivery or acknowledgment.
-- Role source remains worker-authored CHECKINS self-report, not a signed Nathan Direct charter; no authenticated historical Calder thread/instance participation.
-- P0 ACTIVE; P1 Orson OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next 2026-11-24. WH-05 blocked; WH-02 branch untouched; task graph 18 records / 16 declared.
-- :36 automation ID, enabled state, original hourly schedule and Lane Charter 36 remain unchanged. No sixth task, signet or conversation rename.
+- [Original report](2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_PARENTAGE_AND_CLAIM_SCOPED_INDEPENDENCE.md) and [machine-readable dependency map](2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_DEPENDENCY_MAP.json) remain the canonical research artifacts.
+- [Public issue #1874](https://github.com/Satobloc/HsH/issues/1874) and its canonical artifact remain PUBLISHED_VERIFIED; exact issue-envelope/artifact content match. Publisher SHA-256 `9c7dc5f095c174c34acade9f49a2d727f5d136fa3627dd60877e7c2a59a2d807`.
+- Additive [exact-head verification correction comment #6937635421](https://github.com/Satobloc/HsH/issues/1874#issuecomment-6937635421) was read back exactly; no second publisher submission or issue.
+- Existing [PR #1515](https://github.com/Satobloc/HsH/pull/1515) remains OPEN / DRAFT / UNMERGED, with zero submitted reviews; no rebase or merge. Current head `b34a74885c79dbec983ad071b6f86db5676d5e28`; exact-head [Actions run #44011692583](https://github.com/Satobloc/HsH/actions/runs/44011692583) SUCCESS. Lean 4.34.0, Lake 5.0.0, Mathlib tag v4.34.0; full library 8,958 jobs. Six theorem-specific reports: five no axiom dependencies, one `propext`; no `sorryAx` or custom axiom in the new module. Tests/lint/leanchecker/nanoda/global axiom audit skipped. The CI-generated `lake-manifest.json` is not committed, so transitive dependency lock is not preserved.
+- Earlier exact-head runs #44008796146, #44009472529 and #44010420830 failed; the failure causes and repair are documented in [receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0236Z_s3_calder_AMENDMENT_01_LEAN_REPAIR_AND_FACTORY_GATE.md).
+- [Factory handoff pending packet](FACTORY_HANDOFF_PENDING_H890_S3.json) is valid JSON and read back exactly. No Factory Floor intake was sent: the 2026-11-03 geometry-first gate requires an object-specific precise plot and independent hostile review, neither available for this evidence-admission schema. Floor ID not allocated.
+- Source correction remains: PRL 1/15/75-minute analysis acquisition parentage is UNKNOWN; Nature's 1,000 axial slices are derived channels, not independent replicates. PIV/PTV are post-fit consistency checks, not pre-registered holdout. Claim-scoped dependency profile replaces scalar independence; E/D/F/R unchanged.
+- No raw data, fit, prediction, independent measurement, numerical threshold, SAT-O/Blockwave equation change or BEDROCK promotion. H(s)H forward map undefined; no worldtube thickness, twist, contact surface or distinct timesheet forced. P2 HOLD.
+- Historical Calder role evidence is the worker-authored CHECKINS self-report, not a signed Nathan Direct charter. No authenticated historical/current Calder thread or instance participation is claimed.
+- Duplicate run-key reconciliation: original receipt records execution start 03:05:38Z; the current task peek later showed run `99d7a0ce-54a8-8329-9b3b-fa15a86fd692` for the same 02:36Z nominal slot, started 03:34:55.554864Z, IN_PROGRESS, `chat_ref=null`. Cached latest result is h889:s3 Aster, not this h890 run. No cause inferred.
+- Selected ring label Calder; next Hale. The original handoff was post-start optional; Hale h890:s4 receipt did not find it. A later repository-only inbox entry now points to the verified Lean result and pending Factory packet; no direct-thread delivery, consumption or acknowledgment is claimed.
+- P0 ACTIVE; P1 Orson OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next 2026-11-24. November 16 P2 source gate remains unmet; November 30 major and December 14 full-theory gates remain separate. WH-05 blocked; WH-02 highest unblocked; task graph 18 records / 16 declared; Tern retains graph/scheduler authority.
+- Existing :36 automation ID `6a9f52b69ec08191b8a91a30d2a155e0` remains enabled with original schedule `DTSTART;TZID=America/New_York:20261001T143600` / `RRULE:FREQ=HOURLY` and Lane Charter 36 unchanged. No sixth task, signet or conversation rename.
 
 ---
 
