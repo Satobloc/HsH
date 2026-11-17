@@ -4,7 +4,7 @@
 
 - Report: [CODATA meeting listings, NIST G metrology, and Wallace provenance cross-read](2026-11-17_CODATA_MEETING_LISTINGS_NIST_G_WALLACE_PROVENANCE_CROSSREAD.md).
 - Receipt: [2026-11-17 Aldus receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17_aldus.md).
-- Publisher issue #1871: SUBMITTED_NOT_VERIFIED pending exact artifact readback; submission ID and digest are recorded in the canonical receipt.
+- Publisher issue #1871: PUBLISHER_REJECTED / NO_ARTIFACT / NO_RETRY. Issue body and workspace report are exactly equal; declared digest was wrong. Correct SHA and 404 artifact readback are recorded in Amendment 01 and the canonical receipt.
 - CODATA 2022 Version 9.0 remains the latest NIST database version. 2026 adjustment cutoff 31 December 2026; results expected early 2027.
 - BIPM portal lists 5-6 November 2026 but still labels it upcoming on 17 November; meeting occurrence and outcome are not established.
 - NIST 2026 G final PDF is authoritative over inconsistent landing-page abstract. Bayesian consensus prior is centered on CODATA 2022; no independent comparison was computed.
