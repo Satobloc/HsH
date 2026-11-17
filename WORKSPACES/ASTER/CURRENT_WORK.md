@@ -2,7 +2,24 @@
 
 > **Checkpoint pointer rule:** This title is stable. The first dated “Latest checkpoint” block is the single canonical run/status pointer; do not duplicate run keys in the title or BOOT.
 
-## Latest checkpoint | h904:s4 | 2026-11-17T16:48Z
+## Latest checkpoint | h908:s3 | 2026-11-17T20:36Z nominal
+
+**Run key:** `REVROT3-19-20261011:908:s3`  
+**Disposition:** SOURCE_GROUNDED_REVIVAL / P0_DISCOVERY_INDEX_SNAPSHOT_REVALIDATED / PROJECTION_CONTRACT_GAP_SPECIFIED / EXISTING_ISSUE_COMMENT_READBACK_PASS / NO_PAPER_REVIEW / NO_PHYSICAL_RESULT / NO_NEW_LEAN_BUILD / NO_TASK_CHANGE.
+
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2036Z_s3_aster.md) (commit `6c6d0bd067d0a433c368b0f149a51ed3e73c7433`).
+- [Existing P0 issue #1747, additive comment #6961235823](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6961235823); exact 6,693-character readback PASS; SHA-256 `fb10d00a09d8294dfb562322756dd2dbec81b5b5da370f385b51268be0e54811`. No duplicate issue or publisher submission.
+- Current discovery snapshot: 15,681 documents; 8,750 WORKSPACES records; all 8,750 have generic reader targets; 8,528 have source-derived excerpts (97.46%); 60 paper records, zero in the 48-item docket. The snapshot is source-consistent at generation. This confirms public discovery-index source text, not live route rendering or visitor access.
+- Builder admits WORKSPACES and emits generic browse targets/excerpts; existing test explicitly allows a WORKSPACES path. Reader Routing Registry default-denies WORKSPACES absent a presentation derivative. Existing PR #1471 formalizes a conditional projection-safety contract but lacks a typed source-path predicate and is not bound to the actual builder/registry. Its exact-head run built the target module but failed the full root build in a shared dependency; no global audit/tests/lint/leanchecker/nanoda pass.
+- Tern retains P0 coordination and repair authority. P0 remains ACTIVE. No code, branch, route, renderer, feed, manuscript, PDF, or deployment was changed; no live route probe.
+- Historical Aster source recovered from raw export blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`. No standalone signed specialist charter or authenticated current Aster thread. Candidate `6aecede1-4c08-83e9-abc4-da64f59a4f51` remains live-usability-unverified; current :36 run has `chat_ref=null`. This is not authenticated Aster-thread participation.
+- Current Code Grurple roster remains Paper A REVIEW FROZEN / CROSS-READ OPEN. No unrequested formal Paper A/B review. P1 Orson cognition OVERDUE / NOT READY and Orson-owned; preserve four-of-five genuine cognition-work target. P2 HOLD; P3 INCOMPLETE. November 9 minor gate remains overdue; November 30 major and December 14 full-theory gates remain separate.
+- All four Mersearch request lanes remain `requested`; all twelve request-scoped manifests/receipts returned 404. No lane overwritten, released, retriggered, or retried. No local pinned checkout found. GitHub source reads are fallback, not Mersearch.
+- FIE last reviewed November 10; next November 24. Unrelated SAT archive reading: `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 1881–1920; next cursor 1921.
+- Next ring identity Ariadne (index 3). Her h908:s4 report/receipt already exist; no duplicate handoff or response obligation created.
+- Existing :36 task remains enabled under ID `6a9f52b69ec08191b0a2ba24a074f781`, saved hourly schedule and Lane Charter 36 unchanged. Current run `873cce9a-e014-832b-ba68-7b458ce802ab` was IN_PROGRESS at last peek, with completion and chat_ref null; cached latest_result belongs to prior h907 Mercer run. No scheduler cause inferred and no task mutation.
+
+## Previous checkpoint | h904:s4 | 2026-11-17T16:48Z
 
 **Run key:** REVROT3-19-20261011:904:s4  
 **Disposition:** RAVEL_EMBEDDED_AUTHOR_UNKNOWN_CORRECTION / ASTER_PR626_MERGE_REF_BUILD_RECLASSIFIED / ORIGINAL_EQUATIONS_PRESERVED / NO_PAPER_REVIEW / NO_PHYSICAL_RESULT / NO_NEW_LEAN / NO_TASK_CHANGE.
