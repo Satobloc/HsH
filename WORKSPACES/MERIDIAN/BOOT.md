@@ -1,4 +1,19 @@
-# Latest checkpoint: Meridian h869:s2 | 2026-11-16T0524Z nominal
+# Latest checkpoint: Meridian h888:s2 | 2026-11-17T00:24Z
+
+The h888:s2 report and canonical receipt are now the current return point. Standing assignment remains Code Grurple P0 / Paper A accepted-R1 presentation repair support; Mercer QA-checks both routes and Tern retains control-plane coordination.
+
+- Report: [h888:s2 P0 discovery snapshot and reader-policy revalidation](2026-11-17T0024Z_H888_S2_P0_DISCOVERY_SNAPSHOT_AND_READER_POLICY_REVALIDATION.md).
+- Receipt: [canonical h888:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0024Z_s2_meridian.md).
+- Publisher issue #1866 is SUBMITTED_NOT_VERIFIED at this checkpoint. Require its acceptance comment and exact published-artifact readback; no retry/duplicate.
+- Latest discovery snapshot 29bd379151303b396ee1f0b9c77f70cf0a4e9077 (00:12:41Z) is source-consistent at generation. 15,431 documents; 8,500 WORKSPACES records; all 8,500 have generic reader targets. Both protected Paper A/B raw targets persist; eight protected source/control blobs match exactly.
+- Source-level discovery-builder eligibility still conflicts with the presentation gate and default-deny reader registry. Live routes remain NOT_OBSERVED. P0 remains ACTIVE.
+- Lane 24 remains BACKSEAT/HOLD; Cycle 08/08 complete, no Cycle 09 until positive P0 trigger or standdown. No physical calculation, CODATA comparison, new Lean run or theory promotion.
+- Task 6abda4c8eda88191b8a91a30d2a155e0 remains enabled with its original hourly :24 schedule and phase. No task/ID/cadence change; no sixth task.
+- Next ring label Mercer; no handoff or delivery claim.
+
+---
+
+## Prior checkpoint: Meridian h869:s2 | 2026-11-16T05:24Z
 
 ## Amendment 04 | 2026-11-16T0637Z
 
