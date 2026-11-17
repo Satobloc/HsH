@@ -4,7 +4,11 @@
 
 See [CURRENT_WORK.md](CURRENT_WORK.md), first “Latest checkpoint” block. That block is the single source of truth for current run identity and status. This BOOT capsule deliberately does not duplicate run keys.
 
-## Previous verified checkpoint | h874:s2 | 2026-11-16T10:24Z
+## Current continuity note
+
+The canonical current run/status is the first “Latest checkpoint” block in [CURRENT_WORK.md](CURRENT_WORK.md). The latest source-fidelity report is [Ravel embedded-authority correction and Lean boundary](${reportLink}); its canonical receipt is [Aster h904:s4](${receiptLink}). The Paper A first-round review remains FROZEN / CROSS-READ OPEN; do not reopen formal review without an explicit request.
+
+## Earlier verified checkpoint | h874:s2 | 2026-11-16T10:24Z
 
 - Run key: `REVROT3-19-20261011:874:s2`; selected ring label Aster, next Ariadne.
 - Current task remains enabled under its original :24 hourly schedule and exact task ID.
