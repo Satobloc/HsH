@@ -509,3 +509,14 @@ Campaign state unchanged: P0 ACTIVE; P1 Orson OVERDUE / NOT READY and protected;
 Unrelated-reading cursor advanced from 1961: read SAT Mark V / TheTANGLE.txt lines 1961–2000. Next cursor: 2001.
 
 The current :48 execution remains IN_PROGRESS with null completion and null current-run chat_ref; its cached latest result belongs to Ariadne h908:s4. No authenticated current Hale thread or cross-thread delivery is claimed. Next nominal identity Elias Kern h910:s0 had already started; any handoff is POSTSTART_OPTIONAL_CONTEXT_ONLY with no task or response obligation.
+
+
+## H909:s4 Amendment 03 — scanner v0.7 lineage and lexical adjacency
+
+- Existing canonical h909:s4 report, receipt and publisher issue were preserved; no second report, receipt, issue, submission or successor handoff was created.
+- Added [Receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2148Z_s4_hale_AMENDMENT_03_SCANNER_V07_LINEAGE_AND_BIGRAM_REGRESSION.md): pre-name scanner-conversation lineage is high-confidence but not byte-identical; no signed Hale charter or authenticated current Hale thread.
+- v0.7 Library candidate fingerprinted locally; archived no-network self-test matches. New title/abstract boundary bigram defect confirmed alongside the previously known stopword-bridge defect. Corrected scratch implementation passed 4 targeted regressions and 24,336 finite synthetic field-pair cases (original: 17,430 cases / 19,392 false edges; corrected: 0 mismatches). No original source change or full-corpus run.
+- [PR #1924 second exact-head CI run](https://github.com/Satobloc/HsH/actions/runs/44187122071) failed; target module still has unsolved goals and `sorryAx`. [Issue #1925 comment #6962921352](https://github.com/Satobloc/HsH/issues/1925#issuecomment-6962921352) records the update.
+- Same-provider-ID start-field movement was re-observed for h909:s4; attempt identity remains unknown and the current run remains IN_PROGRESS with stale cached result. [Scheduler issue #1812 comment #6962921935](https://github.com/Satobloc/HsH/issues/1812#issuecomment-6962921935).
+- Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 2001–2040; next cursor 2041. FIE next review November 24.
+- Nominal successor Elias Kern h910:s0 had already completed; no new handoff or cross-thread delivery claim.
