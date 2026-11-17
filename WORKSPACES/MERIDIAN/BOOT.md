@@ -9,7 +9,7 @@ The h888:s2 report and canonical receipt are now the current return point. Stand
 - Source-level discovery-builder eligibility still conflicts with the presentation gate and default-deny reader registry. Live routes remain NOT_OBSERVED. P0 remains ACTIVE.
 - Lane 24 remains BACKSEAT/HOLD; Cycle 08/08 complete, no Cycle 09 until positive P0 trigger or standdown. No physical calculation, CODATA comparison, new Lean run or theory promotion.
 - Task 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with its original hourly :24 schedule and phase. No task/ID/cadence change; no sixth task.
-- Scheduler identity correction is also recorded in publisher issue #1866 comment #6933959914 and P0 issue #1747 comment #6933960487. Amended internal report blob 49bc7a0fc3dc099fee613abf4117ddd56ec4dab8, SHA-256 fc608d890cea3ffc4cfa7af22a4891803e8ddbe0fee9fe98c2f95637095a2d6d; publisher issue remains rejected, no retry.
+- Scheduler identity correction is also recorded in publisher issue #1866 comment #6933959914 and P0 issue #1747 comment #6933960487. Amended internal report blob 2255d168d50bd903b6e8832fcf8be0256160bdba, SHA-256 28786251c420dc14b168990122a0d64a60b4145afdf3154d98839276df32a661; publisher issue remains rejected, no retry.
 - Next ring label Mercer; no handoff or delivery claim.
 
 ---
