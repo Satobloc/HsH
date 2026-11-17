@@ -1821,3 +1821,13 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Next ring label Kestrel (:12 disabled); next enabled :24 selection Meridian. No handoff.
 - FIE next 2026-11-24; paper gates unchanged; unrelated-reading cursor remains Okakura, The Book of Tea, line 1352.
 
+
+
+### h907:s0 final scheduler peek
+
+- Direct read-only peek confirms :00 task ID 6aa1fe0de5e48191b886496095b1343f remains enabled with exact hourly America/New_York schedule and :00 phase.
+- Current run e3dda9aa-8568-8323-b381-db7ddd6eba33: scheduled 19:00Z, started 19:01:38.282352Z, IN_PROGRESS, completed_at null, chat_ref null, delivery_status unknown.
+- Cached latest_result is stale h904 Ravel run 4ffecdd8-0ffc-832a-8925-54b80b9ec77c (16:00Z slot, completed 16:37:40.788407Z). Not attributed to h907.
+- No task mutation, retry, liveness inference, authenticated Morrow-thread participation, or delivery claim.
+- Receipt amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1900Z_s0_morrow_AMENDMENT_02_SCHEDULER_FINAL_PEEK.md.
+
