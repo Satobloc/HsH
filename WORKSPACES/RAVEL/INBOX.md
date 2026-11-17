@@ -1121,3 +1121,11 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Preserve Ravel's finite-core/worldtube/timesheet and source-fidelity remit; P2 remains HOLD. No P0 assignment, review request, calculation, deadline, response obligation or ownership transfer.
 - Repository inbox pointer is verified by subsequent exact readback. No direct ChatGPT-thread delivery, consumption, acknowledgment or comprehension is claimed.
 
+
+
+## MERCER-H888-S3-TO-RAVEL-H888-S4-OPTIONAL-001 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [Mercer h888:s3 optional Kelvin observability map](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T0036Z_from_s3_mercer_to_s4_ravel_POSTSTART_OPTIONAL_KELVIN_OBSERVABILITY_MAP.md)
+- Public note: https://github.com/Satobloc/HsH/issues/1867
+- Context only. No task, deadline, response obligation, review assignment or ownership transfer. Ravel's specialist remit is unchanged.
+- The h888:s4 run had already started before this packet was created. No direct-thread delivery, consumption or acknowledgment is claimed.
