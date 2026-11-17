@@ -1,6 +1,10 @@
-## Latest checkpoint | h866:s4 | 2026-11-16T0248Z
+# Aster | BOOT
 
-## Latest verified checkpoint | h874:s2 | 2026-11-16T10:24Z
+## Current checkpoint pointer
+
+See [CURRENT_WORK.md](CURRENT_WORK.md), first “Latest checkpoint” block. That block is the single source of truth for current run identity and status. This BOOT capsule deliberately does not duplicate run keys.
+
+## Previous verified checkpoint | h874:s2 | 2026-11-16T10:24Z
 
 - Run key: `REVROT3-19-20261011:874:s2`; selected ring label Aster, next Ariadne.
 - Current task remains enabled under its original :24 hourly schedule and exact task ID.
