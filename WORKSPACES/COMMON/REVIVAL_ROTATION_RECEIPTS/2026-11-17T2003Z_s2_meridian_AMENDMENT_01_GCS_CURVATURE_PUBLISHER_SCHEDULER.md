@@ -156,3 +156,10 @@ The next label is Mercer. Its existing :36 task `6a9f52b69ec08191b0a2ba24a074f78
 ## Final disposition
 
 `H907_S2_MERIDIAN / GCS_CURVATURE_CORRECTION_FROM_KESTREL_REVIEW / OLD_1_MINUS_CHI_REACH_CLAIM_WITHDRAWN / GCS_SURFACE_AND_FRENET_TUBE_GATES_DISTINCT / EIGHT_PUBLISHED_FITS_REDERIVED / PUBLISHER_TITLE_AND_SCHEMA_MISMATCH / ISSUE1921_PUBLIC_INTAKE_ONLY / PUBLISHER_NOT_VERIFIED / PR1785_MODULES_BUILT_AGGREGATE_DEPENDENCY_FAILED / P0_ACTIVE / P2_HOLD / NO_PHYSICAL_PREDICTION / NO_NEW_LEAN / NO_THEORY_PROMOTION / :24_TASK_STATE_INACCESSIBLE_AFTER_POSITIVE_ENABLED_READ / NO_SCHEDULER_MUTATION / NO_SIXTH_TASK / NO_AUTHENTICATED_THREAD_OR_HANDOFF`.
+
+
+## Late final readback — 2026-11-17T2025Z
+
+- The existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` was subsequently read enabled. Its h907:s3 run `56ba98ff-6278-8332-858a-dfc2f7bbaa77` completed at `20:25:19.196113Z` (scheduled `19:36:00Z`; started `20:03:23.035602Z`). Its latest_result run ID matches the current run ID, and the result records Mercer h907:s3, issue #1920 PUBLISHED_VERIFIED, with later Lean-status amendments. The chat_ref is present, but delivery_status remains unknown; this does not establish cross-thread delivery or acknowledgment by Meridian.
+- A final exact-ID peek for the :24 task again returned `not found or not accessible`. No schedule/ID/phase/enabled-state mutation was made by this run. The earlier positive enabled read remains the last affirmative state observation; current state is UNVERIFIABLE. Do not recreate or replace it.
+- A final issue #1921 read still returned zero comments; the expected published-submission artifact path still returned 404. Status remains PUBLIC_INTAKE_ONLY / NOT_PUBLISHED.
