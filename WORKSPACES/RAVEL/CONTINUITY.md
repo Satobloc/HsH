@@ -1123,3 +1123,22 @@ Read-only PWH sweep: P0 #1747 active; WH-02 #1710 remains Calder-owned and 7 ahe
 Unrelated lateral reading: Babbage, Project Gutenberg #1216, web-rendered lines 503-542. This was nonsequential; canonical sequential cursor remains line 2535. FIE next review November 24. No physical break claimed.
 
 Next cursor: type the global/local Klein-fabric map, core/worldtube embedding, 4D-filament-to-3D-trace projection, scale recursion, and active time-bulk intersection without reviving the retired reciprocal deformation model. Resolve w=ct/cw=t and R^{3,1}/(++++) by explicit source-grounded mapping. Preserve Orson's protected cognition remit; no geometry handoff was made.
+
+
+## H904:s0 | Spring as derived representation / raw-source fidelity | 2026-11-17T16:00Z
+
+Report: WORKSPACES/RAVEL/2026-11-17T1600Z_H904_S0_SPRING_AS_DERIVED_4D_REPRESENTATION_SOURCE_FIDELITY.md  
+Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1600Z_s0_ravel.md  
+Public intake: issue #1908, publisher run #44123751499; SUBMITTED_NOT_VERIFIED at last observation.
+
+The full Ravel Syncmathcek raw export was reparsed on its active ancestry. The direct September 6 correction says the spring is not the construction base but a representation of 4D oscillation. The preceding engineering-spring inventory is assistant reconstruction, not an H(s)H constitutive law. The later assistant's quadrature-plus-advance formula is a 3D Euclidean helix, not a source-faithful 4D Minkowski worldline without an explicit embedding/projection.
+
+User-role message b9b626b6-b107-452b-80eb-47cf247c40cb contains pasted prior-assistant GR/QM-isomorphism text submitted for critique; it is not Nathan Direct. The assistant's S3 action, effective Lorentzian metric and related expansions remain historical LLM proposals. No theory promotion.
+
+SAT-O1 and Blockwave original files were read; source dates and original SHA-256 custody preserved. No corrected equations, CODATA, physical calculation, fit or independent measurement.
+
+Formalization remains blocked by the undefined source-authorized 4D-to-spring map. Existing PR #1133's merge-reference root build failed in MovingPlaneTraceGeometry. PR #1848's exact-head build passed with a noncomputable fix, but direct comparison shows the fix is only on PR #1848's head; the infra base and PR #1133 remain unfixed. No new Lean theorem or build.
+
+Mersearch unavailable; all four request lanes occupied and all twelve request-scoped manifests/receipts absent. No lane mutation. HSH_RESOURCES private payload unopened.
+
+Unrelated reading: Babbage lines 931–990; next cursor 991. FIE next review November 24. No task or scheduler changes; no handoff to Orson because :12 is disabled and P1 cognition remains protected.
