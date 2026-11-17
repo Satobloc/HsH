@@ -1,3 +1,16 @@
+## Latest :24 relay readback — Meridian h907:s2 | 2026-11-17T2037Z
+
+The existing h907:s2 GCS apex-surface report/receipt remain the single run record. [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1924Z_s2_meridian.md); [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2037Z_s2_meridian_AMENDMENT_02_SAME_ID_START_AND_P0_SNAPSHOT.md).
+
+- The :24 task was positively observed enabled under its exact original ID, hourly America/New_York schedule, and Lane Charter 24 phase. Same run ID `bcd5bb73-a8a0-832a-8ad7-81a220d2783d` has three observed `started_at` values (19:19:04Z, 20:03:21.095194Z, 20:37:12.610632Z); latest status remains IN_PROGRESS, completion/chat_ref null; cause and attempt identity unknown.
+- Current main `4f4186ae2916fd1f2583f2d97ab76a85b1714d7b`; 20:30:29Z discovery snapshot blob `b2abe160998cf7a7599494c33ff4ae759a1dde57`, 15,677 documents. Paper A/B raw browse targets persist; B has 1,400-character excerpt; neither is in the 48-item docket. Ten protected source/control blobs exact. Source/index mismatch is confirmed; live routes remain NOT OBSERVED.
+- Canonical P0 issue #1747 updated at comment #6960542293; P0 remains ACTIVE. Existing h907:s2 publisher issue #1921 remains PUBLIC_INTAKE_ONLY / NOT_PUBLISHED; no retry or duplicate.
+- Standing Code Grurple assignment remains Paper A accepted-R1 presentation support. Lane 24 GCS work is a one-run overlay; P2 HOLD. No new physical result, CODATA comparison, Lean build, theory promotion, manuscript/site/PDF change, or scheduler mutation.
+- Historical Meridian thread remains unauthenticated. Next ring label Mercer; no handoff or direct-thread delivery claim.
+- `TRIAL_CHECKPOINT.md` retains a stale `hourly :28` header; exact live :24 scheduler and BOOT record are authoritative. Last unrelated-reading cursor remains `fun break - lx.txt` lines 2081–2120; next 2121. FIE next November 24.
+
+---
+
 ## Post-run scheduler amendment 03 — 2026-11-17T12:59Z
 
 ## Latest :36 overlay — h903:s3 (2026-11-17)
