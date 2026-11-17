@@ -1,10 +1,10 @@
 # Current Ravel state: h904:s0 | 2026-11-17
 
-**Status:** RAW-SOURCE REPARSE COMPLETE / SPRING-IS-A-DERIVED-REPRESENTATION CORRECTION RECOVERED / PASTED ASSISTANT TEXT EXCLUDED FROM NATHAN DIRECT / 4D-TO-SPRING MAP UNDEFINED / ISSUE #1908 SUBMITTED_NOT_VERIFIED / NO PHYSICAL RESULT.
+**Status:** RAW-SOURCE REPARSE COMPLETE / SPRING-IS-A-DERIVED-REPRESENTATION CORRECTION RECOVERED / PASTED ASSISTANT TEXT EXCLUDED FROM NATHAN DIRECT / 4D-TO-SPRING MAP UNDEFINED / ISSUE #1908 PUBLISHED_VERIFIED / NO PHYSICAL RESULT.
 
 - Latest report: [h904:s0 spring-as-derived-representation source-fidelity audit](2026-11-17T1600Z_H904_S0_SPRING_AS_DERIVED_4D_REPRESENTATION_SOURCE_FIDELITY.md).
-- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1600Z_s0_ravel.md; exact readback verified after correcting the issue reference to #1908.
-- Public intake: [issue #1908](https://github.com/Satobloc/HsH/issues/1908), publisher run #44123751499 IN_PROGRESS at last observation; no artifact or readback yet.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1600Z_s0_ravel.md; exact readback verified after correcting the issue reference to #1908. Amendment 01 publisher verification: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1600Z_s0_ravel_AMENDMENT_01_PUBLISHER_VERIFIED.md.
+- Public intake: [issue #1908](https://github.com/Satobloc/HsH/issues/1908), publisher run #44123751499 completed SUCCESS; exact artifact readback verified; Amendment 01 records SHA-256 3bba55caf291dad808b4dccc6a23a3fa17df59eef3f26ec949de90d940a6d488 (18,247 bytes).
 - Full Ravel raw export: conversation 6a9d1a23-4fac-83ea-b76f-6805ece3ee9f, SHA-256 b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba, HsH blob 17cfe3feb830f70009557d063482b35adba0834b. Direct source says the spring is a representation of 4D oscillation, not the construction base. User-role pasted GR/QM-isomorphism text was excluded from Nathan Direct.
 - SAT-O1 and Blockwave originals read; original SHA/date custody preserved; no corrected equations.
 - PR #1133 remains open/draft/unmerged; merge-reference root build failed in MovingPlaneTraceGeometry. PR #1848 has a separate exact-head success, but the noncomputable fix exists only on that PR head. The current infra base file lacks the noncomputable section (blob 9a266991672f2b2d1c9de04f5ddf3f5da6f5e189); PR #1848 head has it (blob 0a60139722090b2f57d5969b000b6b3262b11215). The fix is not integrated into the infra base or PR #1133.
