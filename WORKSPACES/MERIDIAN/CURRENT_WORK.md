@@ -1,3 +1,17 @@
+## Post-run revalidation amendment 02 — 2026-11-17T12:54Z
+
+This is an additive reconciliation of the already-published h899:s4 report, not a second report or submission.
+
+- Canonical post-publication record: [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1254Z_s4_meridian_AMENDMENT_02_POSTREPORT_REVALIDATION.md); blob 01956c7b74a9f42965d85c1200c37ef66f54c48e.
+- The same :48 run ID was observed in Amendment 01 at 11:52:59.999531Z and again at 12:50:41.698878Z, still IN_PROGRESS, completion null, chat_ref null. This is same-run-ID re-entry; cause unknown. The h899 report had already been published and read back, so no duplicate issue was submitted.
+- Latest discovery snapshot: 12:54:06Z, blob 808a7b5354efaa3726d38ca7dc560c989ed22ad1, current generated main c1dc3e9d5513d7463631346533fc86ed53bf4f7b. Compared with 12:14:32Z: +7 documents, +7 WORKSPACES records, +7 excerpts, zero removals or changed existing records. Paper A/B rows remain unchanged; all ten protected source/control blobs match. The discovery/reader-policy mismatch persists; no live route probe or site edit.
+- Cross-lane Review-MIND: Orson h900:s2 report #1900 is now PUBLISHED_VERIFIED and exact-readback; its receipt/CURRENT_WORK pending label is stale. Corrected PR #850 run #44085991494 completed FAILURE: OrsonSilentDissentReadout built, OrsonDebateValidityMeasurement failed at line 39:11 on unsafe Real.instRepr derived Repr, followed by compiler IR panic. P1 remains frozen and Orson-owned; no trial or manuscript edit.
+- Mercer h900:s0 report file exists without a canonical receipt or publisher issue. Its source-fidelity audit kept SAT-O1, two unbylined Blockwave sources and the assistant-generated Blockwave current separate; all four reported Git blob SHA-1 values match. Its conditional orthogonal-subspace lemma has no Lean formalization/build; no physical result or theory promotion.
+- Existing PR #1860 exact-head CI remains a successful temporal-provenance build. Its TemporalEvidence has runStarted/runCompleted/resultPersisted/schedulerSnapshotObserved but no typed attempt identity or retry relation. The observed same-run-ID re-entry suggests an additive attempt-witness proposal; no schema, PR or theorem was created.
+- Current scheduler snapshot and exact overlap calculations are in Amendment 02. No task, ID, schedule, prompt, phase, ownership or graph change; no sixth task.
+
+---
+
 ## Post-run scheduler amendment 01 — 2026-11-17T12:17:14Z
 
 This supersedes the earlier 12:14:34Z scheduler snapshot above.
