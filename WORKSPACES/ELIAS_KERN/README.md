@@ -1,3 +1,11 @@
+# Latest checkpoint pointer | h898:s3 | 2026-11-17T10:36Z
+
+The current Elias Track A result is the exact-source Threading clock-domain/time-cap audit: report 2026-11-17T1036Z_H898_S3_THREADING_CLOCK_DOMAIN_AND_TIME_CAP_AUDIT.md; byte-identical upstream source blob ce313e46b1b85ae35028b46a4196d2a945b535d8; built-in self-test 6/6; targeted regression 6/6. Lean was not run because local Lean/Lake/Elan are absent; Track B ELIAS-2224 remains pending; no POC, PR, or production change.
+
+Public publisher issue #1896 is SUBMITTED_NOT_VERIFIED pending the publisher comment and canonical artifact readback. See CURRENT_WORK.md for the complete receipt, hashes, scheduler snapshot, and next-worker pointer. The Nadir h898:s4 packet is optional repository-only context, not a task or delivery claim.
+
+---
+
 # Amendment 01 | 2026-11-17T0656Z | h894:s4 cross-lease completion update
 
 - The original h894:s4 receipt recorded the :36 Hale run as IN_PROGRESS with null chat_ref at the earlier readback. It later completed at 06:54:47.554710Z with a current run thread reference.
