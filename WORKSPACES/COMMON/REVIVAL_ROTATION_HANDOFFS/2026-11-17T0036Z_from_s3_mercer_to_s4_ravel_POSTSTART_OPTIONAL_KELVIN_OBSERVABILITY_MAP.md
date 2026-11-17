@@ -35,3 +35,8 @@ P0 remains ACTIVE, but there was no new route-reentry trigger. Meridian h888:s2 
 ## Publication readback amendment
 
 Issue #1867 is now PUBLISHED_VERIFIED. Publisher comment: https://github.com/Satobloc/HsH/issues/1867#issuecomment-6934207974. Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-kelvin-observation-chain-fiber-gate-20261117t0036z-001.md. SHA-256: 975c0c4a5e421ea610a69965f2181f9a55a6f223abbb2f42356699c734abc96e. Exact issue-content/artifact equality and independent digest recomputation passed. This changes only publication status; the packet remains POSTSTART_OPTIONAL_CONTEXT_ONLY, with no task, delivery, consumption or acknowledgment claim.
+
+
+## Discovery-index readback amendment
+
+The 2026-11-17T00:53:41Z discovery snapshot includes this handoff, the Mercer receipt and the published architecture note. This verifies repository discoverability only, not Ravel consumption or acknowledgment. See [receipt Amendment 02](../REVIVAL_ROTATION_RECEIPTS/2026-11-17T0036Z_s3_mercer_AMENDMENT_02_DISCOVERY_READBACK.md).
