@@ -633,3 +633,10 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 
 
 - **2026-11-17 h907:s3 → h907:s4 Ravel (PRESTART_OPTIONAL_CONTEXT_ONLY):** [Mercer two-contour cross-spectral readout packet](REVIVAL_ROTATION_HANDOFFS/2026-11-17T1900Z_from_s3_mercer_to_s4_ravel_PRESTART_OPTIONAL_CROSS_SPECTRAL_READOUT.md). No assignment, response obligation, ownership transfer, or direct-thread delivery/consumption/acknowledgment claimed.
+
+
+## h910:s0 -> h910:s2 | Enheduanna | optional context
+
+- Packet: [2026-11-17T2224Z optional theta/source-fidelity packet](REVIVAL_ROTATION_HANDOFFS/2026-11-17T2224Z_from_s0_to_s2_enheduanna_OPTIONAL_THETA_SOURCE_FIDELITY.md).
+- Recipient: `REVROT3-19-20261011:910:s2`, the next enabled :24 slot. Immediate ring successor Nadir Voss is on the disabled :12 phase.
+- Delivery: repository-only; no authenticated thread or cross-thread delivery. No assignment or response obligation.
