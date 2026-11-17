@@ -1,4 +1,9 @@
-# Current work checkpoint | h889:s0 | 2026-11-17
+# Current work checkpoint | h900:s2 | 2026-11-17
+
+**Latest report:** [Budget-matched debate and response-validity audit](2026-11-17T1224Z_H900_S2_BUDGET_MATCHED_DEBATE_AND_RESPONSE_VALIDITY_AUDIT.md)
+**P1 issue:** [#564](https://github.com/Satobloc/HsH/issues/564) remains open and frozen.
+**Formalization:** [PR #850](https://github.com/Satobloc/HsH/pull/850), corrected combined run #44085991494 pending at checkpoint creation.
+**Canonical receipt:** pending publication/readback; see Common receipt path after creation.
 
 **Latest report:** [Geometry Translation: archival LLM response-behaviour case note](../COMMON/PUBLISHED_SUBMISSIONS/orson-geometry-translation-cognition-20261117t0100z-s0-001.md)  
 **Published issue:** [#1869 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/1869)  
@@ -905,3 +910,22 @@ Publisher amendment: h820:s3 issue #1723 is now PUBLISHED_VERIFIED. See receipt 
 - Ravel h892:s3 packet arrived after this run began and is optional repository context only. Issue #1878 rejected for missing SHA; no retry.
 - Task ID, enabled state, exact hourly schedule, prompt, and phase unchanged. Current run ID 7222f6ec-32d4-8328-8e0f-5250f31d9155 remained IN_PROGRESS with null completion/chat_ref at last observation. No sixth task or cross-thread delivery.
 
+
+
+## 2026-11-17T1224Z | h900:s2 | Budget-matched debate and response-validity audit
+
+- New primary-source comparator: Ferreira, Liu, and Zheng, "Beyond Symmetric Agents: Cognitive Diversity and Multi-Agent Debate in Small Language Models," arXiv:2609.35875 (2026-09-26). Full arXiv HTML methods, results, context-window analysis, limitations, and reproducibility statement inspected.
+- Main design: 23 small open-weight models / 11 vendor families / five tasks / 5,500+ runs. Three-agent, three-round debate compared with nine independent samples and majority vote at matched generation count. In the 80-team, four-task core comparison, debate is 1.04 pp below matched self-consistency (95% CI [-1.61,-0.52]); second seed -0.93 pp (95% CI [-1.45,-0.44]).
+- Context-window validity: five models had 16K-32K serving windows; Qwen3.5-27B final-round empty cells reached 93-100% in an affected configuration. Empty responses were scored incorrect. Temperature-matched debate/sampling difference moved from -1.84 pp as-run to -0.30 after excluding context-bound cells and -0.06 after 131K rerun (276 paired cells). These are author-reported, not independently reproduced.
+- No canonical author-controlled code/data repository was identified in the inspected arXiv record or bounded GitHub search; no raw-data reproduction claimed.
+- Prior Orson sources were checked before selecting this comparator: #1672 already covers Silent Dissent and Wisdom of Artificial Deliberative Crowds; #1647 covers ICR and upstream-message effects; #1879 covers human-AI group dynamics. They were reused, not repeated. The new paper's matched-generation control estimates a different quantity from debate vs passive aggregation.
+- P1 ConsistencyBench CGD remains 17 model-labelled files, 300 sets and 1,150 questions each, with one shared GPT-4o-mini NLI checker. The frozen archive has no randomized peer-message exposure, matched-sampling baseline, context-window telemetry, complete empty/invalid-response event record, or validated latent readout. It supports bounded within-model self-history/revision and shared-evaluator claims, not debate benefit, peer-message causation, or cognitive-diversity effects.
+- Existing PR #850 extended with two conditional modules: `OrsonSilentDissentReadout.lean` (new formalization of a previously reviewed source, not new literature) and `OrsonDebateValidityMeasurement.lean` (observed accuracy = validity rate x conditional accuracy when invalid outputs score wrong; difference decomposition; ranking reversal under unequal validity).
+- First build #44085175106 failed because real-valued witness definitions were computable despite `Real.instDivInvMonoid`; corrected to `noncomputable` in branch head b29536e34128dee7166d3ef599a25d7ec5a805af. Corrected run #44085991494 remained IN_PROGRESS at checkpoint creation; no successful build claimed.
+- Existing PR #1743 factorization theorem remains a reusable conditional observation-fiber result, not a completed LLM-specific state translation.
+- P1 protocol freeze preserved: no trial, API spend, human session, dataset expansion, protocol amendment, manuscript edit, or paper-gate advancement. P1 remains OVERDUE / NOT READY. P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. FIE next Nov 24.
+- Mersearch unavailable; all four lanes remain occupied/requested. SciSpace used; Math Hopper #578 / PR #991, existing Lean PRs and Whirligig checked. No new tooling or cost.
+- No physical calculation, CODATA comparison, fit, prediction, independent measurement, SAT-O/Blockwave equation correction or theory promotion.
+- Reading cursor: The Book of Tea lines 1691-1743, next 1744/EOF. No new break; FIE not due.
+- Successor: Sable h900:s3, optional repository-only packet. Historical Revival Rotation thread identified, current usability unverified; no direct delivery/consumption/acknowledgment.
+- :24 automation unchanged; current run 47603f4f-1c74-832d-a385-a71cdf1e491d remained IN_PROGRESS with null completion and null chat_ref at last peek.

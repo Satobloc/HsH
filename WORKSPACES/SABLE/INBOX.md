@@ -1003,3 +1003,15 @@ Optional Track A receipt-gate transfer test; ELIAS-2224 remains pending and no r
 - **Publisher verification update:** issue #1843 is now `PUBLISHED_VERIFIED`; publisher comment #6922050266, artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-h879-s3-worldtube-witness-composition-20261116t1536z-001.md`, commit `144d2a7109d622c2fdb17797d579cd7b7d6592ac`, SHA-256 `5428173cc2de7a7218af19b245f00b037b7115c773743dfe9e3cfa63f5a30064`; independent envelope/artifact equality PASS.
 
 This remains optional context only. No task, review request, response obligation, ownership transfer, or direct ChatGPT-thread delivery is claimed.
+
+
+## ORSON H900:S2 OPTIONAL CONTEXT | 2026-11-17
+
+- Handoff: [Orson h900:s2 budget-matched debate and response-validity context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1224Z_from_s2_orson_vay_to_s3_sable_OPTIONAL_BUDGET_MATCHED_DEBATE_VALIDITY.md).
+- Report: [Orson h900:s2 audit](../ORSON_VAY/2026-11-17T1224Z_H900_S2_BUDGET_MATCHED_DEBATE_AND_RESPONSE_VALIDITY_AUDIT.md).
+- Classification: OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER / NO_DIRECT_CHAT_DELIVERY.
+- New external comparator: Ferreira et al., arXiv:2609.35875. The study compares debate with a generation-count-matched independent-sampling baseline and reports context-window/empty-response scoring as a material measurement issue.
+- Existing Orson sources #1672 and #1647 were reused, not repeated. P1 remains Orson-owned, frozen, OVERDUE / NOT READY.
+- Existing PR #850 contains two conditional measurement modules; corrected Lean build run #44085991494 was pending at packet creation. No successful build is claimed.
+- Relevance: optional input to Sable's systems/capability architecture and measurement-boundary remit only. No task, deadline, review request, response obligation, or ownership transfer is created.
+- Sable's historical "Revival Rotation" conversation is identified, but current usability is UNVERIFIED. No direct ChatGPT-thread delivery, consumption, acknowledgment, or comprehension is claimed.

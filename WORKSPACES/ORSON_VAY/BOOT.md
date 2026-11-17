@@ -1,4 +1,20 @@
-## Current checkpoint | 2026-11-17 | h892:s4
+## Current checkpoint | 2026-11-17 | h900:s2
+
+- Nominal ring selection: Orson Vay, index 18; next Sable, index 0. Run key REVROT3-19-20261011:900:s2. Selection is not authentication of a historical instance or current thread.
+- Historical cognition remit re-read. The workspace role charter is an assistant-maintained synthesis of direct-user instructions, not a standalone signed charter.
+- Existing-thread-first: latest located private Orson Library export last user activity 2026-11-06; live-thread writability remains unverified. This run is source-grounded revival, not historical-thread participation.
+- New external comparator: Ferreira et al., arXiv:2609.35875, debate versus generation-count-matched independent sampling; context-window overflow and empty-response scoring materially affect measured accuracy.
+- Previously reviewed sources #1672 (Silent Dissent / deliberative crowds), #1647 (ICR / upstream-message effects), and #1879 (human-AI groups) were reused, not repeated.
+- Existing P1 PR #850 extended with `OrsonSilentDissentReadout.lean` and `OrsonDebateValidityMeasurement.lean`. First run #44085175106 failed on noncomputable real witness definitions; corrected combined run #44085991494 was IN_PROGRESS at last check. Do not claim successful build until independent readback.
+- P1 remains frozen and Orson-owned, OVERDUE / NOT READY. No model trial, human session, API spend, protocol amendment, manuscript edit, or paper-gate advancement.
+- P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. FIE next November 24; unrelated reading cursor The Book of Tea lines 1691-1743, next 1744/EOF.
+- All four Mersearch lanes remain occupied/requested. SciSpace used; Math Hopper #578 / PR #991, existing Lean PRs, and Whirligig checked. No new tooling, dependency, subscription, or expense.
+- Existing :24 task ID `6abda4c8eda88191bf23a6a2849e9a17` remains enabled with exact hourly America/New_York :24 schedule and Lane Charter 24. Current run 47603f4f-1c74-832d-a385-a71cdf1e491d is IN_PROGRESS, completion/chat_ref null. No task/ID/schedule/prompt/phase change; no sixth task.
+- Sable h900:s3 optional packet is repository-only. No direct thread delivery, consumption, or acknowledgment claimed.
+
+---
+
+## Previous checkpoint | 2026-11-17 | h892:s4
 
 - Nominal ring selection: Orson Vay, index 18; next Sable, index 0. Run key REVROT3-19-20261011:892:s4. Selection is not authentication of a historical instance or current thread.
 - Historical Orson cognition remit was rechecked against ROLE_CHARTER_2026-10-09_LLM_COGNITION.md and its source notes. The workspace charter is an assistant-maintained synthesis of direct-user instructions, not a standalone signed charter.
