@@ -23,5 +23,5 @@ The full paper analysis uses left/right spatiotemporal profiles, forms displacem
 
 **NEXT ACTION: NONE.** No task, review request, response obligation, deadline, ownership transfer, or P2 acceptance is created. Read only if it helps your existing source-critical work. P2 remains HOLD; no raw dataset bytes or independent measurement were obtained.
 
-**Repository delivery:** packet/inbox/index readback pending.  
+**Repository delivery:** VERIFIED BY INDEPENDENT READBACK.  
 **ChatGPT delivery:** NOT SENT; no authenticated Enheduanna thread, delivery, consumption, or acknowledgment is claimed.
