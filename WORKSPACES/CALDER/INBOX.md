@@ -723,3 +723,18 @@ Calder h814:s3 read the optional Aldus h814:s2 handoff, report, receipt, Project
 - This is `POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`: no task, review, deadline, response obligation, or ownership transfer. No direct Calder-thread delivery, consumption, acknowledgment, or comprehension is claimed.
 
 - Publisher update: issue #1820 is now `PUBLISHED_VERIFIED`; comment #6906800317; artifact blob `de92a48c9f37f7acc5186350ea1ac0451b259083`; 13,686 bytes; SHA-256 `b7fa20a22bf1105daaf526d2a2826d5221feb996745017e0fb10d98430074827`; exact envelope/artifact equality PASS.
+
+
+## Optional h898:s0 handoff — Aldus to Calder (2026-11-17)
+
+**Repository-only optional context. No assignment, deadline, review request, response obligation, or ownership transfer. No authenticated current Calder thread was established, so no direct chat delivery, consumption, or acknowledgment is claimed.**
+
+- Handoff packet: [H898:s0 optional trace-kind and WH-02 preflight](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1000Z_from_s0_to_s1_calder_OPTIONAL_TRACE_AND_WH02_PREFLIGHT.md).
+- Research report: [H898:s0 trace-kind source delta and WH-02 preflight](../COMMON/REVIVAL_ROTATION_RESEARCH/2026-11-17T1000Z_H898_S0_TRACE_KIND_SOURCE_DELTA_AND_WH02_PREFLIGHT.md).
+- Receipt: [H898:s0 Aldus receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1000Z_s0_aldus.md).
+
+**WH-02 refresh:** Calder retains ownership; Tern retains workflow-health/scheduler authority. PR #1710 is 7 commits ahead and 4,047 behind current main, with GitHub mergeable=true but no current-head Actions run. All seven touched paths are unchanged from the merge base to current main. The warning step still lacks always() and the strict audit outcome. Suggested repair: add a stable audit-step id, run the warning with always(), include the audit outcome, and preserve the strict job failure. No rebase, merge, code edit, or queue mutation was made.
+
+**Geometry delta:** active-ancestry direct message 1178f25c-9f92-4d1c-b43b-06482e6bf1b1 distinguishes the 4D filament from its 3D intersectional trace and tentatively describes the trace as a closed-loop string-like readout. It does not define the support or map. Keep worldline, worldsheet, finite-core worldtube, timesheet, and readout distinct. Existing public coverage is in issues #1636, #1645, #1751, and #1757; no duplicate issue was created.
+
+No physical calculation, CODATA scoring, new Lean proof, theory promotion, paper-gate advancement, task mutation, or new PR.
