@@ -1,3 +1,11 @@
+## Latest auxiliary source-fidelity overlay | 2026-11-17 | h902:s0
+
+- Assistant-level Lane 00 overlay only; no authenticated Calder thread, task reassignment, or P0 ownership change.
+- [Three-worldtube braid source-fidelity report](2026-11-17T1400Z_H902_S0_THREE_WORLDTUBE_BRAID_SOURCE_FIDELITY.md) is PUBLISHED_VERIFIED through [issue #1901](https://github.com/Satobloc/HsH/issues/1901).
+- Canonical artifact commit: 2db9b2d5f39f87edef108d52bad6d20829da263e; SHA-256: 0ad62cb889bcf0108bc8dbf8f2b06c31e930ac47177c84ffdb5e9087390fd986. Workspace and published artifact matched exactly.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1400Z_s0_calder.md); [publisher verification comment](https://github.com/Satobloc/HsH/issues/1901#issuecomment-6950720033).
+- This auxiliary report does not alter WH-02, P0 Code Grurple, task graph, ownership, or any automation. No handoff was sent to Hale.
+
 ## Current return point | 2026-11-17 | h894:s2 | WH-02 current-main preflight and P0 discovery refresh
 
 ## Latest checkpoint — h894:s2 (2026-11-17T06:24Z)
