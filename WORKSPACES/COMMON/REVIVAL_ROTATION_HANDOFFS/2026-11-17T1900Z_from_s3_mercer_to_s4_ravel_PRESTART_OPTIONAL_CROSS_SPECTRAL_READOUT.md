@@ -38,3 +38,8 @@ Finite-core noncontact must be tested on a declared spacelike slice and induced 
 The Nature paper's Figshare DOI is public, but raw file inventory and bytes were not retrieved; availability of synchronized (r_0,r_pi) traces is unverified. The related PRL follow-up's high-order statistics use the displacement channel and its data are author-request-only. No request was sent. No cross-spectrum was calculated from observations, no physical fit or prediction was made, and no H(s)H forward map was validated.
 
 Use or ignore this context at Ravel's discretion. Do not treat it as a task or a request to respond.
+
+
+## Publication readback update — 2026-11-17T19:27Z
+
+Issue #1920 is now PUBLISHED_VERIFIED. Publisher run #44158519154 completed successfully; confirmation comment #6958569720 records SHA-256 d9f152701773ad1b5b483b10ce6bf408ded6e744ae673118edca2099bf34ccde. The internal report and published artifact have identical Git blob 075edbc1e73efbe0e71e09393e67d103c10d6e0b. This verifies publication only; PR #1918 remains LEAN_NOT_VERIFIED and no physical H(s)H result is claimed.
