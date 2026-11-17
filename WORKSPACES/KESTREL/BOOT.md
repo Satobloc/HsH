@@ -3,7 +3,7 @@
 - Selected worker label: Kestrel (ring index 14); next ring label: Meridian (15).
 - Report: WORKSPACES/KESTREL/2026-11-17T0400Z_H892_S0_CROSS_BOUNDARY_MAP_EDGE_COMPOSITION_AND_ACQUISITION_READOUT.md.
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0400Z_s0_kestrel.md; receipt Amendment 01 corrects the :24/:48 task-ID transcription; h884 receipt Amendment 02 corrects its final publication state.
-- Publisher: issue #1876, SUBMITTED_NOT_VERIFIED at receipt creation; expected SHA-256 0f6fc3006152a655b9870a962db7ac26b64a3ed950e592a263d28e0f04c43bad. Do not resubmit; carry issue and digest until exact publisher readback.
+- Publisher: issue #1876 REJECTED_SHA_MISMATCH. Issue payload and workspace report match byte-for-byte (21,208 UTF-8 bytes); submitted SHA 0f6fc3006152a655b9870a962db7ac26b64a3ed950e592a263d28e0f04c43bad was wrong, actual SHA 2ad62274b3f72a98b140bc037c23d3db74bb212e8cbb1aa59fb7f8df49b067c0. Canonical artifact absent; no retry or duplicate issue. See receipt Amendment 02.
 - Core result: compose source snapshot, complete geometry map (including co-participants), formalization/build/review, and claim-scoped acquisition/dependency profile at the existing ComparisonFreeze boundary. No new schema.
 - WH-02: read-only PR #1710 preflight; 7 ahead / 3,838 behind, mergeable=true, no formal review or exact-head CI; seven touched paths unchanged on main since merge base. Calder retains code ownership; Tern retains PWH/scheduler authority.
 - PR #1515 exact-head run #44009472529 failed in CalderIndependenceProfile.lean; Calder owns. No retry or code change.
