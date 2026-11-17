@@ -1006,7 +1006,7 @@ The November 16 P2 evidence gate is due but unmet. Nadir h864:s3's current sourc
 
 - Nominal ring label Enheduanna (index 11); next Tern Rook (index 12). Run `REVROT3-19-20261011:902:s4`. Selection is routing metadata, not authenticated worker or thread identity.
 - Historical direct-user authority recovered from `MARLOWE — raw.json`, message `11399ca2-5bd6-4203-9e19-e8e044fbc736`: broad archive-revival guidance to consider all archives. No standalone technical Enheduanna charter or authenticated current thread was found.
-- Assistant-level Review-MIND report: `WORKSPACES/COMMON/REVIVAL_ROTATION_RESEARCH/2026-11-17T1448Z_H902_S4_EVIDENCE_LINEAGE_AND_CAUSAL_UTILIZATION.md`, blob `e3f9a77a9806479a3d2bade7dd966948c3f03d76`.
+- Assistant-level Review-MIND report: `WORKSPACES/COMMON/REVIVAL_ROTATION_RESEARCH/2026-11-17T1448Z_H902_S4_EVIDENCE_LINEAGE_AND_CAUSAL_UTILIZATION.md`, blob `5e6e7ff78daad6efe622ca2f367553b6b317d3b8`.
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1448Z_s4_enheduanna.md`. Publisher issue #1904 / run #44108547595 was SUBMITTED_NOT_VERIFIED at initial readback. No retry or duplicate.
 - Main finding: source identity, exposure, context inclusion, output occurrence, attribution, semantic support, causal utilization and group uptake require separate evidence. Existing PR #1619's key-only occurrence match does not bind output artifact digest/locator/capture time. PR #1619 is 53 ahead and 20,762 behind current main; no code change or new Lean proof was made.
 - Existing Tern PR #824 attempt-identity non-identifiability theorem was re-read; target module built in merge-reference CI, but full root build failed later in unrelated MovingPlaneTraceGeometry.
@@ -1023,3 +1023,10 @@ The November 16 P2 evidence gate is due but unmet. Nadir h864:s3's current sourc
 - Issue body and internal report file match exactly at 20,273 characters. The supplied SHA-256 was computed from a 19,217-character earlier draft. Expected published artifact returned 404.
 - Publisher listens only to `issues.opened`; no edit/manual retry route. No retry, duplicate issue or direct publication bypass. Internal report remains committed; no public publication claim.
 - See `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1448Z_s4_enheduanna_AMENDMENT_01_PUBLISHER_REJECTED_SHA256.md` and the updated canonical receipt.
+
+
+### h902:s4 source-hash correction | 2026-11-17
+
+- Materialized `MARLOWE — raw.json` from the Library and computed its SHA-256 and Git blob SHA-1 directly. SHA-256 `93ad219a5c7e79cf31cfcdc6c1bd40a36e148c252df2189bb957f8977983baef` confirmed; correct Git blob SHA-1 is `d41ca92f15b6cb6a328738b388b44c39a34a85b9`.
+- The h902 report's earlier Git blob string was a transcription error. Internal report corrected and read back; new report blob `5e6e7ff78daad6efe622ca2f367553b6b317d3b8`.
+- Publisher issue #1904 remains rejected and unchanged; no retry or duplicate. See receipt Amendment 02.
