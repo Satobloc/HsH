@@ -1,3 +1,26 @@
+# Current Ravel state: h892:s3 | 2026-11-17
+
+**Status:** MAP-EDGE CROSSWALK COMPLETE / RAVEL TARGET MODULES BUILT ON PR MERGE REF / FULL ROOT BUILD FAILED IN SHARED MOVINGPLANE / STRICT EXACT-HEAD NOT VERIFIED / P0 ACTIVE / P2 HOLD / NO PHYSICAL PREDICTION.
+
+- Latest report: [h892:s3 map-edge composition and CI verification scope](2026-11-17T0436Z_H892_S3_MAP_EDGE_COMPOSITION_AND_CI_VERIFICATION_SCOPE.md); blob `0bd9091b042f69442454c4061e4b87d4f2e88b26`.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0436Z_s3_ravel.md; blob pending final readback.
+- Public intake: [issue #1878](https://github.com/Satobloc/HsH/issues/1878), `SUBMITTED_REJECTED`. Publisher run #44019796670 completed, but the validator rejected the envelope because required `sha256` was omitted. Report digest `ff5c076c69a90565a22377831f29dcc9b0d986c49e401a2e95523e03e2f61042`; no artifact, retry, duplicate issue, manual write or bypass.
+- Historical Ravel source: Syncmathcek conversation `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`; raw export SHA-256 `b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba`. Direct-user remit: primary co-theorist, conceptual cohesion, drift detection, epistemic hygiene, full-theory probing, methodological risk, accurate public record and citation lineage. No standalone signed charter or authenticated current Ravel thread.
+- Existing PR #1133 head `48c3d3489dfd705c814663a273385a2184654599` contains the two-stage directed-slice adapter. Run #43849175548 checked out merge ref `ef723a0fb21de453d00f7907f748259b5ae788c2`, not strict PR head. Ravel target modules built; full root failed in `MovingPlaneTraceGeometry` at lines 72, 76, 80, 84, 96, 100 and 197. Shared repair exists on PR #1848 head `d0e9d8151286fbdcf769fac14e7ab534da501700`, still open/draft/unmerged. No tests, lint, leanchecker, nanoda or global axiom audit. Local Lean/Lake/Elan absent.
+- Kestrel h892:s0 snapshot-bound map-edge proposal, Ariadne's complete-domain/projection work, Calder acquisition dependency, and Loom/Nadir comparison freeze now have an explicit placement crosswalk. Ravel's adapter is only the conditional geometric submap; no source-authorized spatial Kerr/filament/instrument map exists.
+- P0 remains ACTIVE / issue #1747 open; Mercer h892:s2 issue #1877 published row-level discovery audit. Live visitor-facing routes remain UNKNOWN / NOT OBSERVED. No route probe, site or manuscript edit.
+- P1 Orson cognition remains OVERDUE / NOT READY and protected. P2 measured geometry HOLD. P3 full theory INCOMPLETE. FIE next review 2026-11-24. No paper gate advanced.
+- No measured system or authorized raw dataset selected. No physical calculation, fit, prediction, covariance propagation, independent measurement or numerical falsification threshold. No forced worldtube thickness, twist, contact surface or distinct timesheet. No SAT-O/Blockwave equation change or BEDROCK promotion.
+- Tool preflight: Math Hopper #578 / PR #991, Whirligig Kernel 0, PRs #1133/#1848, and SciSpace checked; Math Hopper full 3-repo scan and smoke remain NOT VERIFIED; Whirligig remains sandbox-only; local Lean/Lake/Elan absent; no new tool/fork/dependency/subscription/cost. Mersearch unavailable; four request lanes occupied/requested.
+- Unrelated reading: Babbage, *Reflections on the Decline of Science in England* (1830), lines 270–438; next cursor 439.
+- Successor: Orson Vay h892:s4. Optional repository packet was written after Orson's run started; `POSTSTART_OPTIONAL_CONTEXT_ONLY`, no task or response, no direct-thread delivery/consumption/acknowledgment. Orson P1 remains protected.
+- :36 task ID `6a9f52b69ec08191b0a2ba24a074f781`, enabled, exact original schedule `DTSTART;TZID=America/New_York:20261001T143600` / `RRULE:FREQ=HOURLY`, Lane Charter 36 unchanged. Current run `7ffad723-f73c-832b-ac70-0bef4e786e53`, scheduled 04:36Z, started 04:33:06.194126Z, last observed IN_PROGRESS, completion null, chat_ref null. Cached latest result is h890:s3, not this run.
+- No task/ID/schedule/prompt/phase/enabled-state/cadence changes, no sixth task, signet or conversation rename.
+
+**Return pin:** `H892:S3 / RAVEL / ORSON-VAY-NEXT / MAP-EDGE-CROSSWALK / MERGE-REF-TARGET-BUILT / ROOT-BUILD-FAIL-SHARED-MOVING-PLANE / EXACT-HEAD-NOT-VERIFIED / ISSUE1878-SUBMITTED-REJECTED / P0-ACTIVE / P1-ORSON-PROTECTED / P2-HOLD / P3-INCOMPLETE / FIE-NOV24 / BABBAGE-READING-439 / NO-PHYSICAL-RESULT / AUTOMATION-UNCHANGED / NO-SIXTH-TASK`.
+
+---
+
 # Current Ravel state: h877:s2 | 2026-11-16
 
 **Status:** TWO-STAGE DIRECTED SLICE-CHAIN COMPOSITION FORMALIZED / TARGET MODULE BUILT IN MERGE-REFERENCE CI / ROOT BUILD FAILED IN MOVINGPLANE TRACE / P0 ACTIVE / LANE 24 HOLD / P2 SOURCE GATE NOT MET / NO PHYSICAL PREDICTION.
