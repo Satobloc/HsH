@@ -5,7 +5,7 @@
 
 - **Report:** [Mercer h903:s4 Review-MIND and P0 audit](2026-11-17T1548Z_H903_S4_REVIEW_MIND_P0_ARTIFACT_ERRATUM_AND_PROVENANCE_AUDIT.md)
 - **Canonical receipt:** [h903:s4 Mercer receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1548Z_s4_mercer.md)
-- **P0 issue update:** [#1747 comment #6953305402](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6953305402). Ten protected source/control blobs matched; the newest discovery snapshot refreshed at 15:50:52Z but could not be parsed; live routes remain NOT OBSERVED; P0 remains ACTIVE.
+- **P0 issue update:** [#1747 comment #6953305402](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6953305402). At final 16:08:10Z readback, main was c4fc8d46 and discovery blob ab241808a204cb2406513003d94cf3a0c47ba155; its oversized content remained unavailable, so current A/B rows were not parsed. Ten protected source/control blobs were re-fetched at that head and remained 10/10 exact. Live routes remain NOT OBSERVED; P0 remains ACTIVE.
 - **Cross-lane erratum:** Tern h903’s ordered-product versus summed-generator distinction is source-level only. The same-input chart-equivalence claim remains unproven. The data-free diagnostic is withdrawn by [issue #1905 comment #6952966279](https://github.com/Satobloc/HsH/issues/1905#issuecomment-6952966279), but the published artifact still contains it; do not rely on it.
 - **Existing Lean boundary:** PR #262 exact-head build #43948452979 compiles the conditional radial/angular identity; it does not prove the UI chart equivalence.
 - **Historical Mercer authority:** “Quantum Gravity and Experiments,” conversation 6a3a2037-3698-83ea-924d-2cb8c4ac7701, direct-user message bb8ecf64-8863-4ee7-a078-ca8cc4104974. Current thread remains unauthenticated.
