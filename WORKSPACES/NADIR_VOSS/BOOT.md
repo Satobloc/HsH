@@ -14,7 +14,7 @@
 
 - Latest checkpoint: `REVROT3-19-20261011:906:s2`.
 - Report: `2026-11-17T1824Z_H906_S2_SOURCE_MAP_AND_MERSEARCH_BRIDGE_GATE.md`.
-- Publisher intake: [issue #1914](https://github.com/Satobloc/HsH/issues/1914), currently `SUBMITTED_NOT_VERIFIED` at BOOT creation.
+- Publisher intake: [issue #1914](https://github.com/Satobloc/HsH/issues/1914), now `PUBLISHED_VERIFIED`; artifact SHA-256 `45bfcf9b627354d0cb0804efe8136a05f0d138f7831749c3ad2ec71456ab88f9`.
 - Standing lane: Lane Charter 24, H(s)H generative / CODATA. P0 remains ACTIVE and P2 remains HOLD.
 
 ## Identity and method boundaries
