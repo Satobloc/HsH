@@ -1,3 +1,20 @@
+# Latest checkpoint | Ravel | h896:s2 | 2026-11-17
+
+**Current result:** All ten Ravel modules built on the existing PR merge reference, but the aggregate root build failed in a shared dependency. The current infrastructure base now contains the noncomputable fix; PR #1133 remains 14 commits behind and has no exact-head integrated build. The ten modules are source-typed conditional components, not one interoperable physical model. P0 remains ACTIVE; Lane 24 remains HOLD; no physical result.
+
+- Report: [h896:s2 source-typed module cohesion and Lean coverage audit](../RAVEL/2026-11-17T0824Z_H896_S2_SOURCE_TYPED_MODULE_COHESION_AND_LEAN_COVERAGE_AUDIT.md); blob `23475e8a45cbd0baf43ada7e59b234ea98d5c05b`.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0824Z_s2_ravel.md; blob `09d74717fb374af272b96905f5b08bea3334d91d`.
+- Publisher issue #1888 submitted with exact four-key schema and digest `8317cfa13960407d5d4b044f277c5983478ea0fa051c3e0365a3aa0b22164a2d`; first artifact readback pending.
+- All ten Ravel modules built in merge-reference run #43849175548; root failed in MovingPlaneTraceGeometry. Current infrastructure base contains the fix at `368f9af8...`; PR #1133 remains OPEN / DRAFT / UNMERGED, 68 ahead / 14 behind, no exact-head integration build.
+- PR #1848 exact-head success is separate and does not include Ravel modules.
+- Source-typed review preserves apparatus tube != SAT worldtube, assistant-authored Blockwave rank-2 current != SAT4D rank-1 current, and no unproven representation equivalence. Six typed interoperability maps remain unspecified.
+- P0 ACTIVE; no live visitor route observation. Lane 24 Cycle 08/08 COMPLETE / BACKSEAT / HOLD; all four Mersearch lanes occupied/requested. No physical calculation, CODATA, P2 selection, fit, prediction, independent measurement, or theory promotion.
+- Babbage side-pass: Project Gutenberg #1216, old HTML lines 794-930; canonical plain-text cursor remains 2535; next side-pass HTML line 931. FIE next review November 24.
+- Mercer h896:s1 predecessor handoff not found. Orson Vay is next; no geometry handoff sent because P1 cognition remains protected.
+- Existing :24 relay configuration unchanged; no task mutation or sixth task.
+
+---
+
 # Latest checkpoint | Ravel | h892:s3 | 2026-11-17
 
 **Current result:** The Ravel two-stage directed-slice adapter is explicitly placed as one conditional geometric submap inside the broader source-snapshot → complete geometry domain → acquisition/readout → comparison-freeze → observable/holdout evidence chain. Verification is now reported as a four-axis vector: Ravel target modules built on a PR merge ref; full root build failed in shared `MovingPlaneTraceGeometry`; strict exact-head checkout not verified; PR #1133 not integrated. P0 remains ACTIVE, P2 HOLD, and no physical prediction was made.
