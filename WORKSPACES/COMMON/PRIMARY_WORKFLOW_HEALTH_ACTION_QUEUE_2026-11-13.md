@@ -518,3 +518,28 @@ Evidence-only correction; no queue, owner, task or scheduler mutation.
 - WH-05 remains blocked by the four occupied/requested Mersearch lanes; WH-02 remains highest unblocked and Calder-owned. Task graph remains 18 records / 16 declared branches. No Mersearch retry, release, request overwrite or owner transfer.
 - P0 ACTIVE/no route trigger; P2 HOLD/no physical result. No site/PDF/manuscript edit or theory promotion.
 
+
+## h896:s2 read-only WH-02 and relay reconciliation | 2026-11-17
+
+**workflow_health_status:** DEGRADED / PARTIAL. This is a bounded read-only refresh; no task-graph, PR, owner, priority, or scheduler mutation.
+
+### WH-02 — current branch evidence
+- The existing WH-02 branch proposal remains PR #1710, owned by Calder / authorized archive-navigation maintainer. The live branch fix/wh02-root-date-audit-semantics-20261113t2236z-main-7c400961 is identical to its last verified head a967e908ceab048d219831ec799343643870daf3.
+- Current main tip at this check is 76384350c37d26b502418dad8fb29d854d5fee4c. Comparison: 7 commits ahead / 4,001 behind; merge base 7c40096153861e531b4ba234f28b41a2260fba04.
+- All seven PR-touched paths were fetched from current main and the merge base; every blob SHA is identical. Thus no same-path drift is observed, but the branch is still substantially behind. No PR-triggered Actions runs were returned for the recorded head; combined status shows only Vercel failure, which is not code CI. PR remains the sole known draft proposal; no rebase, mergeability, review, or exact-head CI pass is claimed.
+- Next action unchanged: Calder / authorized maintainer reconciles the branch against current main, preserves title fidelity, separates malformed JSON from legitimate non-conversation JSON, repairs warning reachability to include the audit outcome and always(), runs PR CI plus the full test suite, and obtains independent review. No duplicate PR or ownership transfer.
+
+### Graph and triage
+- Current graph blob 5994a3952fbb0a2bc23aa4b4388c70b979ef1227, graph timestamp 2026-11-15T17:24:00Z: 18 records against 16 declared branches; 5 completed, 12 active, 1 blocked. No graph mutation.
+- The graph contains the general PWH upkeep branch but no separate WH-02 node; the PWH queue remains the controlling WH-02 action record. The graph's 18/16 discrepancy remains unresolved.
+- Existing task_upkeep_triage.py was inspected. It was not executed: no local HsH checkout is present and the container could not resolve GitHub. A one-off JavaScript reproduction of its published ordering logic over the live graph (as of 2026-11-17) returned 13 active/blocked candidates: three P0 Code Grurple branches, overdue P1 Orson cognition (8 days), P2 measured geometry, P2 upkeep/clone work, one blocked P2 readout, P3 full theory, P4 exploration, and three unclassified branches. This is not claimed as execution of the Python script or as a change to priority.
+
+### Scheduler identity correction
+- Exact read-only peek confirms the :24 task ID is 6abda4c8eda88191bf23a6f2849e9a17, enabled, with DTSTART;TZID=America/New_York:20261001T142400 and RRULE:FREQ=HOURLY; prompt and phase are unchanged.
+- Current provider run at last peek: 76aaca1b-..., scheduled 2026-11-17T08:24:00Z, recorded start 2026-11-17T08:53:58.976Z, status IN_PROGRESS, completion and chat_ref null. Cached latest result still points to h895:s2, not this run.
+- The h895:s2 Tern receipt currently records a different :24 task ID (6abda4c8eda88191b0a2ba24a074f781), inconsistent with the active roster and exact scheduler peek. This is recorded as a prior receipt transcription discrepancy for Tern's control-plane reconciliation; the receipt was not edited and no automation was changed.
+
+### Post-report source freshness
+- Main's latest generated-discovery refresh commit at this check is 76384350c37d26b502418dad8fb29d854d5fee4c, changing only PUBLIC_SITE/generated/discovery.json. The large generated JSON returned empty content through the available file connector; no new Paper A/B row-level claim is made. P0 remains ACTIVE pending authorized live-route evidence or standdown.
+
+**Disposition:** WH-02 remains highest-priority unblocked PWH item; Calder ownership and next action unchanged. No code change, PR rebase, CI dispatch, task-graph mutation, scheduler change, new task, physical calculation, Lean build, or theory promotion.
