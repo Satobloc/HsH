@@ -8,7 +8,7 @@ The h888:s2 report and canonical receipt are now the current return point. Stand
 - Latest discovery snapshot 29bd379151303b396ee1f0b9c77f70cf0a4e9077 (00:12:41Z) is source-consistent at generation. 15,431 documents; 8,500 WORKSPACES records; all 8,500 have generic reader targets. Both protected Paper A/B raw targets persist; eight protected source/control blobs match exactly.
 - Source-level discovery-builder eligibility still conflicts with the presentation gate and default-deny reader registry. Live routes remain NOT_OBSERVED. P0 remains ACTIVE.
 - Lane 24 remains BACKSEAT/HOLD; Cycle 08/08 complete, no Cycle 09 until positive P0 trigger or standdown. No physical calculation, CODATA comparison, new Lean run or theory promotion.
-- Task 6abda4c8eda88191b8a91a30d2a155e0 remains enabled with its original hourly :24 schedule and phase. No task/ID/cadence change; no sixth task.
+- Task 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with its original hourly :24 schedule and phase. No task/ID/cadence change; no sixth task.
 - Next ring label Mercer; no handoff or delivery claim.
 
 ---
