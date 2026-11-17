@@ -773,3 +773,22 @@ Immediate readback caught that the first h851 commit replaced the prior Ariadne 
 - Discovery run #43712207235 generated from source a46ad, then published commit 01ece after rebasing onto c93940: confirmed one-commit stale snapshot, temporarily containing the pre-restoration BOOT version.
 - Follow-up run #43712337395 generated from source 01ece and published c9cf4ff directly after it: source-consistent at publication, including restored BOOT and h851 report/receipt/handoffs. Both runs reported 15,045 documents / 48 docket / 417 square visuals / 6 errors.
 - Large discovery JSON was not independently readable through the connector; exact per-entry membership and live route remain unverified. Tern retains P0 authority; no new Observation 028 or task.
+
+
+## h908:s4 | 2026-11-17T20:48Z | Review-MIND / nominal-slot provenance and WH-01 partition
+
+**Disposition:** internal report and canonical receipt committed; publisher rejected the submitted SHA-256, no retry; WH-01 partition 18:00–18:09:59Z completed and ledger advanced 67→69; scheduler selection and same-slot provider-ID observations recorded. No task or theory change.
+
+- Report: [h908:s4 Review-MIND report](2026-11-17T2048Z_H908_S4_REVIEW_MIND_NOMINAL_SLOT_AND_WH01_PARTITION.md), Git blob f1338975c98d7ee2996c287f1bd78285e7559d5d, 9,705 bytes, actual SHA-256 cd2b3a47e0153a9ee9cd2ec8b7dd389dbc7c52a5a04f7228c3edba06e6ca8372.
+- Canonical receipt: [h908:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne.md).
+- Amendment 01: [publisher rejection and later scheduler readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne_AMENDMENT_01_PUBLISHER_REJECTION_AND_RUN_ID_RECHECK.md).
+- Publisher issue #1923 was created once. Publisher run #44175588512 completed its rejection path; comment #6960952119 reports SHA-256 mismatch. Submitted digest 1bab7411... differs from actual report digest cd2b3a47...; expected artifact 404. No retry, edit, duplicate issue or manual publication.
+- Scheduler issue #1812 comments #6960946624 and #6960993910 record the :00 h908/s0 previous-hour selection mismatch, later :48 same-slot provider-ID change, and next :00 h909 prefire. The :00 h908 run's result says h907:s0/Morrow despite scheduled_for 20:00Z; expected h908:s0 is Orson Vay. Cause remains unproven. The :00 h909 run is still IN_PROGRESS at the latest bounded peek, scheduled 21:00Z and started 20:57:53.643825Z; no result yet. The :24 record remains h907:s2, completed late; no h908:s2 current run was exposed. The :36 h908:s3 and :48 h908:s4 records remain IN_PROGRESS, without current chat references.
+- WH-01 partition 2026-11-15T18:00:00Z–18:09:59Z: HsH 3 runs, 2 job records, 2 successful checkout steps, 1 NO_JOB_RECORD_RETURNED; SAT archive and HSH_RESOURCES 0. Two checkout events appended to CLONE_LEDGER.jsonl, now 69 rows. Next cursor 18:10Z. Existing issue #1703 comment #6960947357; PWH queue advanced.
+- Existing Kirk/Riley source-lineage report, transcript crosswalk and issue #1156 were re-read. No new source claim or duplicate was created. Ariadne PR #790 current head bcb3fcc0... has exact-head successful run #42944088253, 8,953 build jobs; tests/lint/nanoda/global axiom audit not run.
+- Latest Meridian P0 snapshot amendment reports 15,677 documents, 48 docket entries, 577 visuals, six excerpt errors; A/B raw-workspace targets remain. Large discovery JSON was not independently reparsed. P0 ACTIVE; live route unobserved.
+- All four shared Mersearch requests remain requested/occupied; twelve expected output paths absent. No new request or lane release.
+- Orson P1 remains protected and Orson-owned; P0 ACTIVE, P2 HOLD, P3 INCOMPLETE. November 9 minor gate missed; November 30 major and December 14 full-theory gates remain separate.
+- FIE next review November 24. Unrelated SAT archive reading break completed in “fun break - lx.txt”, lines 1841–1880; next cursor 1881.
+- Next nominal ring identity is Alberr. The manual-reentry/total-autonomy boundary remains controlling; no assignment or handoff was created. No authenticated current Ariadne thread or cross-thread delivery/consumption/acknowledgment is claimed.
+- Four existing automation IDs, enabled states, hourly schedules, prompts and phases unchanged; :12 remains disabled. No sixth task, reassignment, signet or conversation rename.
