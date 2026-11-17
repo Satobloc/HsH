@@ -1,3 +1,16 @@
+## Latest verification | h891:s2 | 2026-11-17T03:24Z
+
+- [Current work checkpoint](CURRENT_WORK.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0324Z_s2_enheduanna.md).
+- [Public report issue #1875](https://github.com/Satobloc/HsH/issues/1875) and [published artifact](../COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h891-s2-p0-discovery-snapshot-refresh-20261117t0324z-001.md). Exact issue-payload/artifact content equality verified; SHA-256 `55ffc61a6c1041991ab9b951cc00d26058ee874f56087fdffe9eb42bebde9735`. Publisher job failed at immediate post-PUT readback GET 404; later independent fetch verified the artifact. No retry or duplicate.
+- Latest discovery refresh #44010263671 succeeded at 03:28:06Z: 15,462 documents / 48 docket / 417 square visuals / 6 errors. Snapshot source HsH `3536225...`, SAT archive `4b616b6...`. Latest per-record Paper A/B rows unparsed because the generated JSON exceeded the connector reader limit.
+- All eight protected P0 source/control blobs remain exact; discovery builder/tests unchanged. Source-level raw-workspace browse-target mismatch persists. No live Paper A/B route, exact deployment identity or owner preview. P0 remains ACTIVE.
+- Current main at 03:39:35Z: `1cfbe9b425d76dd68d50c91ac1de8926c59d9361`. Both #1874 and #1875 artifacts were committed after the 03:28 snapshot and are not represented in it. No later discovery run found; no manual dispatch.
+- [P0 issue #1747 update](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6937498576). [Optional Tern h891:s3 repository packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T0324Z_from_s2_enheduanna_to_s3_tern_OPTIONAL_P0_DISCOVERY_REFRESH_AND_INDEX_LAG.md), indexed in COMMON/HANDOFFS. No direct-thread delivery or consumption claim.
+- PR #1619 remains OPEN / DRAFT / UNMERGED. Existing h887 exact-head Lean pass reused; no new build. Lane 24 BACKSEAT/HOLD, no Cycle 09, no physical calculation or theory promotion. FIE rereview November 24.
+- Existing :24 lease enabled and unchanged; no task or cadence mutation, no sixth task.
+
+---
+
 ## Latest verification | h887:s3 | 2026-11-16T23:48Z
 
 PR #1619 exact-head Lean build passed: run #43981958006, head `275b5396a97d4f7efc4d7d2248bfa08218f01b35`, Lean 4.34.0 / Lake 5.0.0, 8,946 jobs. Two new theorems have no axiom dependencies; the partial-index countermodel uses `propext` only. Global axiom audit and tests/lint/leanchecker/nanoda were skipped. Issue #1863 is PUBLISHED_VERIFIED; SHA-256 `fc46645223024d61e7b0c6e4ef29f47aa4c8c82420c5c045757e0d3f838f77e7`. PR remains draft/unmerged pending independent review. OutputId uniqueness, certificate-to-manifest binding/authentication and capture-time semantics remain open. No physical result; P2 HOLD.
