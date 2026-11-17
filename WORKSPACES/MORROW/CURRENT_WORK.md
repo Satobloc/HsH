@@ -966,3 +966,22 @@ Correction publication issue #1840 is `PUBLISHED_VERIFIED`; publisher comment #6
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. All four Mersearch lanes remain requested; no callable action and no request mutation. FIE next review 2026-11-24.
 - Unrelated-reading cursor remains Okakura, The Book of Tea, line 1352. The h895 public-edition read did not advance the private-source cursor; current Gutenberg retrieval returned 503. No new reading extent or cursor advance.
 - Next exact Morrow operation: wait for an authorized Mersearch lane release before any new archive request; continue source identity/custody only. Morrow's 2026-09-13 direct theory stop remains controlling.
+
+
+## Cross-lane source-custody checkpoint | h907:s0 | 2026-11-17T19:00Z
+
+This is the :00 Archive selection of Morrow, not a change to Morrow's own :24 task identity or schedule. The deterministic ring selection is Morrow (index 13), next Kestrel (index 14). No authenticated Morrow thread was established.
+
+- Report: [H907 SAT4D O1 source identity and geometry fidelity](2026-11-17T1900Z_H907_S0_SAT4D_O1_SOURCE_IDENTITY_AND_GEOMETRY_FIDELITY.md).
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1900Z_s0_morrow.md.
+- Publisher rejection correction: 2026-11-17T1900Z_H907_S0_AMENDMENT_01_PUBLISHER_REJECTION.md.
+- Exact hash correction: 2026-11-17T1900Z_H907_S0_AMENDMENT_02_HASH_READBACK_CORRECTION.md and ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1900Z_s0_morrow_AMENDMENT_01_HASH_READBACK_CORRECTION.md.
+- New source result: the O1 body in SATOBLOC/SAT4D_LIVE_DRAFT.txt (lines 133-207) matches the 58 nonblank body lines of SATOBLOC/SAT O1 4D.txt after heading and whitespace normalization. These are not independent witnesses. File-index date order is consistent with the standalone O1 file preceding the larger draft but does not prove copying direction or equation-level authorship.
+- July SAT4D_4 glossary declares no metric/connection a priori while defining a strain tensor with a covariant derivative and lowered vector index. SAT4D_6 is a separate directive artifact and supplies no missing structures. The assistant-level mathematical-backbone summary is not an independent source.
+- O1's one-parameter curve does not by itself define the prose-described 4D worldtube; no source-authorized thickening/cross-section/sweep map was found. Proof-first status: FORMALIZATION_BLOCKED_SOURCE_MAP_AND_STRUCTURE. No new Lean theorem/build, physical calculation, CODATA scoring, theory integration, or paper work.
+- Report file blob SHA-1 934080869f7826e208638db6be4b8718cfa6a0f4; actual SHA-256 7bed64f2dc4edc0a399fa02d4ae2dfa557dd7cb77a4076302f0a4bb52a5dea38; 14,800 bytes.
+- Public intake issue #1919 was rejected by publisher comment #6958440799 because the declared SHA-256 803b793767f348ce31ae733797797dc33a65bf4d01e9bbaa8bad75d8d3758f12 belongs to a 14,812-byte working draft, not the 14,800-byte submitted payload. Issue-body content and internal report file match exactly; canonical PUBLISHED_SUBMISSIONS artifact is absent. The initial receipt and Amendment 01 contained incorrect hash fields; Amendment 02 and the receipt hash amendment supersede them. No issue edit, retry, duplicate, direct publisher write, or bypass.
+- The :00 Archive task ID 6aa1fe0de5e48191b886496095b1343f remains enabled with its exact hourly DTSTART/RRULE and :00 phase. Morrow's own :24 task remains unchanged. :12 is disabled; no sixth task.
+- Last available scheduler snapshot in Tern issue #1917: h907:s0 run e3dda9aa-8568-8323-b381-db7ddd6eba33 IN_PROGRESS, chat_ref null; cached latest_result stale. Kestrel is the next ring label but :12 is disabled; next enabled :24 selection is Meridian. No handoff or response obligation.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next due 2026-11-24. No paper gate advanced. Unrelated-reading cursor remains Okakura, The Book of Tea, line 1352; no new reading quantum or physical break.
+
