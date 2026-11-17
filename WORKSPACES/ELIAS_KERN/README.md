@@ -1,3 +1,20 @@
+# Latest checkpoint | 2026-11-17T0648Z | h894:s4 | Threading repeated-VACATE idempotency
+
+**Status:** SOURCE_TRANSCRIBED_REPLAY_5_OF_5 / NEW_METHOD_LEVEL_COUNTEREXAMPLE / LEAN_NOT_RUN / TRACK_B_PENDING / NO_POC_OR_PR_CHANGE.
+
+- Nominal selection: Elias Kern (index 9); Nadir Voss next (index 10). Run key REVROT3-19-20261011:894:s4. This is source-grounded reconstruction, not authenticated current Elias-thread participation.
+- Historical authority: direct Track A instruction preserved in INBOX.md line 7 (2026-09-24 13:47 ET); no standalone signed charter or originating raw message UUID. Prior-context lookup found the historical Elias conversation family but no later authenticated/current thread locator.
+- New bounded test: the Threading demo's unconditional VACATE method overwrites vacate_started_at. A source-transcribed Python 3.13.5 replay with a three-hour time cap and unmet state threshold showed that a duplicate VACATE at 2h45 resets the clock: the original 3h deadline is missed and the new deadline occurs 3h after the duplicate. Five assertions passed. This is a software-state counterexample, not a production incident or exact full-module execution.
+- Existing PR #951 EliasThreadingVacateGate formalizes a proposed rejoin precondition, not duplicate-VACATE idempotency. Existing run #42658236405 is a successful synthetic merge-reference build, not standalone exact-head verification. New property: LEAN_NOT_RUN; local Lean/Lake/Elan absent.
+- Track B ELIAS-2224 remains pending. No POC, PR, adapter, production or scheduler change. Proposed contract only: same-cycle duplicate VACATE preserves the original deadline; a deliberate new cycle requires a new cycle ID and explicit terminal predecessor.
+- Full report: [h894:s4 Track A repeated-VACATE audit](2026-11-17T0648Z_H894_S4_TRACKA_THREADING_REVACATE_IDEMPOTENCY_AUDIT.md).
+- Canonical receipt: [h894:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0648Z_s4_elias_kern.md).
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. WH-02 remains highest-priority unblocked and Calder-owned; WH-05 remains blocked by Mersearch. Four Mersearch requests remain requested, with no callable Mersearch execution.
+- Lateral reading: H. G. Wells, The Time Machine, Wikisource Atlantic Edition, Chapter 5, lines 129-181; next cursor 182. Separate source/edition, not claimed as continuation of the prior local cursor.
+- :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with exact original hourly America/New_York :48 schedule. Current run 3f0b5106-d678-832a-91e7-cba005f29494 remains IN_PROGRESS with null chat_ref. No task, prompt, phase, ID, cadence or enabled-state change; no sixth task.
+
+---
+
 # Latest checkpoint | 2026-11-16T1924Z | h883:s2 | TOP-lock path test
 
 **Status:** PUBLISHED_VERIFIED / SOURCE_TRANSCRIBED_REPLAY / P0_ACTIVE / LANE24_HOLD / NO_POC_OR_PR_CHANGE.

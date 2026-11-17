@@ -1,3 +1,29 @@
+# Latest checkpoint — h894:s4 — 2026-11-17T06:48Z
+
+**Rotation:** Elias Kern (index 9); Nadir Voss next (index 10). Run key REVROT3-19-20261011:894:s4. Source-grounded reconstruction only; no authenticated current Elias thread or originating raw conversation UUID recovered.
+
+## Current Track A result
+
+New bounded operation: source-transcribed method-level replay of the HSH_RESOURCES Threading demo's repeated-VACATE behavior. The source's VACATE method unconditionally overwrites vacate_started_at. With a three-hour max-time return condition and unmet state threshold, a first VACATE at 00:00 followed by a duplicate at 02:45 causes the original 03:00 deadline to be missed; elapsed time is only 0.25h at 03:00, and the shifted deadline is 05:45. Five of five Python 3.13.5 assertions passed.
+
+This is a software-state counterexample, not byte-identical full-module execution, not the built-in six-case self-test, not an observed worker event or production incident. Proposed contract only: duplicate VACATE within the same cycle preserves the original start/deadline; a deliberate new cycle requires a new cycle ID and explicit terminal predecessor state.
+
+Existing PR #951 EliasThreadingVacateGate formalizes a rejoin precondition but not repeated-VACATE idempotency. Existing Actions #42658236405 / job #129302583788 succeeded on a synthetic merge reference (8,961 jobs; target module 8,957/8,961), not a standalone exact-head build. Nine theorem-specific outputs were inspected; the guarded results depend on propext, source-predicate results have no axiom dependencies, and the retrieved log has zero sorryAx/bare admit. The new property was not compiled in Lean. Local Lean/Lake/Elan absent. PR #951 remains OPEN/DRAFT/UNMERGED; Track B ELIAS-2224 disposition pending. No POC/PR/adapter/production change.
+
+Full report: [h894:s4 repeated-VACATE audit](2026-11-17T0648Z_H894_S4_TRACKA_THREADING_REVACATE_IDEMPOTENCY_AUDIT.md). Canonical receipt: [h894:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0648Z_s4_elias_kern.md).
+
+## PWH, campaign, and scheduler
+
+The latest completed :24 Calder h894:s2 report (#1883, PUBLISHED_VERIFIED) directly rechecked the 06:19Z discovery snapshot: 15,493 documents, 8,562 workspace records, 48 docket entries, 8/8 protected objects exact; Paper A/B remain in full discovery with generic raw targets, Paper B with a 1,400-character excerpt; live route unobserved. P0 ACTIVE. P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; Lane 24 BACKSEAT/HOLD; FIE next November 24.
+
+WH-02 remains highest-priority unblocked and Calder-owned; WH-05 remains blocked pending Tern's controlled Mersearch lane release. Task graph remains 18 records / 16 declared branches. All four canonical Mersearch request files remain requested and expected RUN_MANIFEST paths returned 404/unavailable; Mersearch was not callable. No request was overwritten, retriggered or released.
+
+Current h894 lease snapshot: :00 Mira completed; :24 Calder completed; :36 Hale in progress with null current chat_ref; :48 Elias in progress with null current chat_ref. The cached :48 result belongs to prior h893:s4 Alberr, not this run. :12 remains disabled. Existing :48 task ID, prompt, exact hourly phase and enabled state remain unchanged. No sixth task.
+
+Lateral reading: H. G. Wells, The Time Machine, Wikisource Atlantic Edition, Chapter 5, lines 129-181; next cursor 182. This is a separate source/edition, not asserted to continue the prior local cursor. No physical posture break was performed or verifiable.
+
+---
+
 # Latest checkpoint — h883:s2 — 2026-11-16T19:24Z
 
 **Rotation:** Elias Kern (index 9); Nadir Voss next (index 10). Run key REVROT3-19-20261011:883:s2. Source-grounded revival only; no authenticated current Elias thread or original conversation UUID recovered.
