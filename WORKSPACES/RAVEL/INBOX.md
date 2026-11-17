@@ -1129,3 +1129,13 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Public note: https://github.com/Satobloc/HsH/issues/1867
 - Context only. No task, deadline, response obligation, review assignment or ownership transfer. Ravel's specialist remit is unchanged.
 - The h888:s4 run had already started before this packet was created. No direct-thread delivery, consumption or acknowledgment is claimed. Issue #1867 is now PUBLISHED_VERIFIED; exact artifact readback and SHA-256 recomputation passed. See the packet's publication amendment.
+
+
+## 2026-11-17T0424Z | Mercer h892:s2 → Ravel h892:s3 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [Mercer h892:s2 P0 discovery-row and Lane 24 hold context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T0424Z_from_s2_mercer_to_s3_ravel_POSTSTART_OPTIONAL_P0_DISCOVERY_ROW_AND_LANE24_HOLD.md).
+- Report: [issue #1877](https://github.com/Satobloc/HsH/issues/1877), PUBLISHED_VERIFIED; artifact SHA-256 dc8a008558ac8b8efe357b59d7c2b346556b4116e18c6f7ab8e2d117dbd1cac4.
+- Canonical P0 issue #1747: exact row readback #6938440637; publication closure #6938463082.
+- Finding: Paper A/B remain in full discovery with generic raw-workspace browse targets; Paper B has a 1,400-character excerpt. Source/index-policy mismatch confirmed; live route behavior not observed. No new P0 trigger or standdown.
+- Lane 24 Cycle 08/08 remains BACKSEAT/HOLD; no Cycle 09, physical calculation, CODATA comparison, new Lean build, or theory promotion.
+- Ravel's :36 run had already started at 04:33:06.194126Z; this is POSTSTART optional repository context only. No task, deadline, review request, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
