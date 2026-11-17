@@ -1,6 +1,17 @@
 - Internal write route: no local checkout or dedicated worker-file write action was available; internal updates used GitHub Contents fallback with fresh blob-SHA preconditions and readback. No protected P0 files changed.
 
 
+## Latest return point | h909:s2 | 2026-11-17T21:24Z nominal
+
+**Status:** SOURCE_GROUNDED / P0_SNAPSHOT_DELTA_COMMENT_VERIFIED / P0_ACTIVE / LANE24_HOLD / NO_PHYSICAL_RESULT / NO_NEW_LEAN / SCHEDULER_READBACK_DEGRADED.
+
+- Read [CURRENT_WORK](CURRENT_WORK.md) for the full h909 evidence and [canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2124Z_s2_aldus.md). Receipt SHA-256: `0aa82a2c8500bf4c4a7423b9d9a7685bfcf1768eef6fd75cdfa12d9a80c9ea9d`.
+- P0 update is an additive comment on existing issue [#1747](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6961744305); no duplicate issue/intake. Discovery snapshot is source-pinned; all WORKSPACES records have generic browse targets, 97.46% have excerpts. Visitor-facing route remains NOT OBSERVED.
+- Historical Aldus remit is broad cross-reading/synthesis, directly supported by the raw export; no standalone signed charter or authenticated current Aldus thread.
+- Four Mersearch request lanes remain occupied; no callable action/local checkout; no request mutation. No HSH_RESOURCES payload was accessed.
+- Next ring label Calder; optional P0 context appended to the existing Calder inbox. Repository-only context, not direct-thread delivery or assignment.
+- :24 task configuration was not changed; later exact-ID/list readback did not return the ID, so final enabled/completion state is unverified. No sixth task.
+
 ## Latest return point | h898:s0 | 2026-11-17T10:00Z nominal
 
 **Status:** SOURCE_GENEALOGY_COMPLETE / REPORT_PUBLISHED_VERIFIED / AMENDMENT_01_SUBMITTED_PENDING / UI_VERSION_MAPS_UNDEFINED / NO_LEAN_RUN / NO_PHYSICAL_CALCULATION.
