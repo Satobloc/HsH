@@ -50,6 +50,18 @@ Future entries must include a unique inbox ID, sender/run key, recipient run key
   - **Repository delivery:** VERIFIED BY INDEPENDENT READBACK
   - **ChatGPT delivery:** NOT SENT; no authenticated Enheduanna thread.
 
+
+
+- **Inbox ID:** `NADIR-ENH-20261117T1436Z-001`
+  - **Sender run key:** `REVROT3-19-20261011:902:s3`
+  - **Recipient run key:** `REVROT3-19-20261011:902:s4`
+  - **Source:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1436Z_from_s3_nadir_voss_to_s4_enheduanna_POSTSTART_OPTIONAL_KELVIN_VORTEX_READOUT.md`
+  - **Report:** `WORKSPACES/NADIR_VOSS/2026-11-17T1436Z_H902_S3_KELVIN_VORTEX_QUARTER_TURN_ALIAS_AND_READOUT_SCOPE.md`
+  - **Content:** Optional post-start read-only pointer to a source-conditional quarter-turn sampling theorem and its exact-head Lean pass. It supplements the existing Figshare/camera-map inbox item; it does not claim the full paper pipeline aliases or that the proposed sample was acquired.
+  - **Next action:** NONE. No task, review, response, deadline or ownership transfer.
+  - **Repository delivery:** PENDING READBACK
+  - **ChatGPT delivery:** NOT SENT; no authenticated Enheduanna thread.
+
 ## CONSUMED / PARTIALLY RESOLVED
 
 ### 2026-11-05T2136Z | Nadir Figshare/camera-map handoff
