@@ -1139,3 +1139,19 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Finding: Paper A/B remain in full discovery with generic raw-workspace browse targets; Paper B has a 1,400-character excerpt. Source/index-policy mismatch confirmed; live route behavior not observed. No new P0 trigger or standdown.
 - Lane 24 Cycle 08/08 remains BACKSEAT/HOLD; no Cycle 09, physical calculation, CODATA comparison, new Lean build, or theory promotion.
 - Ravel's :36 run had already started at 04:33:06.194126Z; this is POSTSTART optional repository context only. No task, deadline, review request, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## 2026-11-17T15:55Z — Mercer h903:s4 optional poststart context for Ravel h904:s0
+
+**Status:** POSTSTART / REPOSITORY-ONLY / OPTIONAL CONTEXT. The h904:s0 :00 execution had already started at 15:55:02.118233Z for its 16:00Z scheduled occurrence.
+
+Packet: [Mercer h903:s4 P0 and UI erratum context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1555Z_from_s4_to_s0_ravel_POSTSTART_OPTIONAL_P0_AND_UI_ERRATUM_CONTEXT.md)
+
+The packet records:
+- P0 Paper A/B: ten protected source/control blobs exact; newest discovery snapshot refreshed but unparsed; live routes not observed; P0 remains ACTIVE.
+- Tern h903 UI: ordered-product versus summed-generator implementation distinction is source-level only; the same-input chart-equivalence claim remains unproven.
+- The published Tern artifact still contains a withdrawn data-free diagnostic. Issue #1905 comment #6952966279 is the controlling erratum; do not rely on or rerun the diagnostic.
+- Existing PR #262 exact-head CI proves the conditional radial/angular identity, not the UI chart-equivalence claim.
+- The historical SAT-O1 filament/worldtube action is separate from the UI mapping layer.
+
+This is not a task, review request, deadline, response obligation, ownership transfer, or claim of direct ChatGPT-thread delivery, consumption, or acknowledgment. No authenticated current Ravel thread was established.
