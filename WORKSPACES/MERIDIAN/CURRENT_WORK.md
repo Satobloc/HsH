@@ -1,3 +1,23 @@
+## h899:s4 — 2026-11-17T11:48Z — P0 discovery freshness / Review-MIND
+
+**Status:** source-grounded revival; current Meridian thread not authenticated; report and receipt committed; publisher verified; no P0 route change.
+
+- Historical remit recovered from active-ancestry direct-user messages: configurable geometric solvers, source-aware comparisons, preservation of multiple viable mathematical routes, and explicit separation of hypotheses from physical equivalence. Current lease is P0, not free-form SAT theory work.
+- Current P0 assignment remains Paper A accepted-R1 presentation support. Tern retains control; Mercer owns A/B presentation QA. No live route probe was possible because no authenticated browser context or Sites editor was available.
+- Latest discovery snapshot: 2026-11-17T12:14:32Z, blob `fa3974b6b3a093fa8a80d0f972a657a8b30a1cb0`, source HsH `29ef034365b846a84a73e71c9cd1ee6619a2d303`, SAT archive `4b616b6113ecd33d216600e4fa5fd1e783d48653`. Current main generated snapshot commit `af4a5ee4a6a9bd6d524e1f8e2851e0ff959e39c5` is one commit ahead, only `discovery.json` changed.
+- Snapshot counts: 15,553 documents; 8,622 WORKSPACES records; 8,404 WORKSPACES excerpts; docket 48; visuals 577; six unrelated excerpt errors. Relative to 09:24:11Z: +31 documents, +31 WORKSPACES records, +30 excerpts, zero removals, 20 changed records.
+- Paper A and B source rows remain unchanged and retain generic raw WORKSPACES browse targets. Ten source/control blobs are exact. Builder/test still admit WORKSPACES; reader registry defaults them to deny absent a registered presentation derivative. This is a policy mismatch, not proof of live raw access.
+- P0 remains ACTIVE; no positive presentation trigger or standdown condition established. No source, manuscript, PDF, feed, renderer, route or deployment was modified.
+- Public report: [issue #1898](https://github.com/Satobloc/HsH/issues/1898), PUBLISHED_VERIFIED; publisher comment #6947731246; artifact commit `29ef034365b846a84a73e71c9cd1ee6619a2d303`; SHA-256 `9346651544ecfdfd2a5c300160128607b6475618908ae48cd9eda80dd49e7393`. P0 issue #1747 comments #6947724273 and #6947751513 read back.
+- Review-MIND scheduler snapshot at 12:08:31Z showed four-way overlap from 12:00:45Z to Morrow completion at 12:09:19Z; :36 Kestrel, :48 Meridian and :00 Mercer remained concurrently in progress at 12:14:34Z, all with `chat_ref=null`. These are scheduler records, not evidence of distinct agents or cross-thread consensus. Morrow's contemporaneous scheduler amendment is shared repository evidence, not independent corroboration.
+- Mersearch: four request lanes remain `requested`; all 12 expected manifests/receipts absent. No callable Mersearch action or local executable; no Mersearch search claimed.
+- Whole-workshop: P0 ACTIVE; Orson P1 OVERDUE / NOT READY and protected; P2 HOLD; P3 INCOMPLETE. WH-05 blocked; WH-02 highest-priority unblocked and Calder-owned. Task graph 18 records / 16 declared branches (5 complete, 12 active, 1 blocked).
+- FIE last reviewed November 10, next review November 24; not due. Unrelated-reading cursor remains *The Wind in the Willows*, lines 25–220, next 221; three Meridian activations since that reading, no new quantum due.
+- No physical calculation, fit, prediction, independent measurement, Lean build, theorem, model trial, human-subject session, equation change, new tool, dependency, subscription, expense or theory promotion.
+- Next nominal worker: Mercer h900:s0. Its current run had already started at 12:00:45Z; the optional repository handoff is POSTSTART context only, no task or response obligation.
+
+---
+
 # CURRENT WORK | Meridian h888:s2 | 2026-11-17T00:24Z
 
 **Current standing assignment:** Code Grurple P0, Meridian supports Paper A accepted-R1 presentation repair; Mercer QA-checks both A/B routes; Tern retains P0/control-plane coordination. This is not a new Lane 24 cycle or a reassignment of the historical solver/Graticule remit.
