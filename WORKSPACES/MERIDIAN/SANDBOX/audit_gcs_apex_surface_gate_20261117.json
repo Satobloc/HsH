@@ -1,0 +1,338 @@
+{
+  "counts": {
+    "central_fail": 2,
+    "central_pass": 6,
+    "events": 8,
+    "indeterminate_within_reported_marginal_bands": 5,
+    "robust_fail_within_reported_marginal_bands": 1,
+    "robust_pass_within_reported_marginal_bands": 2
+  },
+  "events": [
+    {
+      "J_apex_interval_rectangular": [
+        -0.043220843004750084,
+        0.3986380004547885
+      ],
+      "J_apex_min_normalized": 0.21841253685972334,
+      "J_hypothetical_Frenet_tube_not_GCS_gate": 0.11371801190604192,
+      "J_naive_1_minus_kappa_not_GCS_surface_jacobian": 0.77,
+      "OC1_apex_center_heliocentric_Rsun": 10.975609756097562,
+      "R_apex_cross_section_Rsun": 2.5243902439024395,
+      "X0_apex_transverse_offset_Rsun": 3.2298243804473237,
+      "X0_minus_R_Rsun": 0.7054341365448842,
+      "X0_minus_R_interval_Rsun_rectangular": [
+        -0.12738140922173363,
+        1.646181559878059
+      ],
+      "alpha_GCS_fit_deg": 20.0,
+      "alpha_GCS_interval_deg": [
+        14.0,
+        26.0
+      ],
+      "alpha_fractional_uncertainty": 0.3,
+      "central_apex_status": "PASS",
+      "class": "fast",
+      "date": "2011-06-02",
+      "h_LE_Rsun": 13.5,
+      "kappa_GCS_fit": 0.23,
+      "kappa_GCS_interval": [
+        0.2,
+        0.26
+      ],
+      "marginal_band_status": "INDETERMINATE_WITHIN_REPORTED_MARGINAL_BANDS",
+      "rho_axis_local_curvature_Rsun": 2.8482923920539154,
+      "sigma_h_Rsun": 1.4,
+      "sigma_kappa_GCS": 0.03,
+      "sin_alpha_minus_kappa": 0.1120201433256687
+    },
+    {
+      "J_apex_interval_rectangular": [
+        -0.16507891408221692,
+        -0.030070200777669864
+      ],
+      "J_apex_min_normalized": -0.09195570485704004,
+      "J_hypothetical_Frenet_tube_not_GCS_gate": -0.6032271042172799,
+      "J_naive_1_minus_kappa_not_GCS_surface_jacobian": 0.39,
+      "OC1_apex_center_heliocentric_Rsun": 9.254658385093169,
+      "R_apex_cross_section_Rsun": 5.645341614906833,
+      "X0_apex_transverse_offset_Rsun": 5.169936463353087,
+      "X0_minus_R_Rsun": -0.47540515155374585,
+      "X0_minus_R_interval_Rsun_rectangular": [
+        -0.8694039734149469,
+        -0.1435969479344555
+      ],
+      "alpha_GCS_fit_deg": 25.0,
+      "alpha_GCS_interval_deg": [
+        18.75,
+        31.25
+      ],
+      "alpha_fractional_uncertainty": 0.25,
+      "central_apex_status": "FAIL",
+      "class": "fast",
+      "date": "2012-07-12",
+      "h_LE_Rsun": 14.9,
+      "kappa_GCS_fit": 0.61,
+      "kappa_GCS_interval": [
+        0.58,
+        0.64
+      ],
+      "marginal_band_status": "ROBUST_APEX_IMMERSION_FAIL_WITHIN_REPORTED_MARGINAL_BANDS",
+      "rho_axis_local_curvature_Rsun": 3.5212363863215597,
+      "sigma_h_Rsun": 1.5,
+      "sigma_kappa_GCS": 0.03,
+      "sin_alpha_minus_kappa": -0.18738173825930055
+    },
+    {
+      "J_apex_interval_rectangular": [
+        -0.04611845977105055,
+        0.31232458876288577
+      ],
+      "J_apex_min_normalized": 0.1419700206411613,
+      "J_hypothetical_Frenet_tube_not_GCS_gate": -0.045174481137407074,
+      "J_naive_1_minus_kappa_not_GCS_surface_jacobian": 0.6,
+      "OC1_apex_center_heliocentric_Rsun": 11.642857142857144,
+      "R_apex_cross_section_Rsun": 4.6571428571428575,
+      "X0_apex_transverse_offset_Rsun": 5.427715778209636,
+      "X0_minus_R_Rsun": 0.7705729210667789,
+      "X0_minus_R_interval_Rsun_rectangular": [
+        -0.2635821879371225,
+        2.1073010639558056
+      ],
+      "alpha_GCS_fit_deg": 35.0,
+      "alpha_GCS_interval_deg": [
+        24.5,
+        45.5
+      ],
+      "alpha_fractional_uncertainty": 0.3,
+      "central_apex_status": "PASS",
+      "class": "fast",
+      "date": "2013-04-11",
+      "h_LE_Rsun": 16.3,
+      "kappa_GCS_fit": 0.4,
+      "kappa_GCS_interval": [
+        0.33,
+        0.47000000000000003
+      ],
+      "marginal_band_status": "INDETERMINATE_WITHIN_REPORTED_MARGINAL_BANDS",
+      "rho_axis_local_curvature_Rsun": 4.455852052639804,
+      "sigma_h_Rsun": 2.4,
+      "sigma_kappa_GCS": 0.07,
+      "sin_alpha_minus_kappa": 0.17357643635104603
+    },
+    {
+      "J_apex_interval_rectangular": [
+        -0.04580690598217616,
+        0.09030885433661232
+      ],
+      "J_apex_min_normalized": 0.01706746643984335,
+      "J_hypothetical_Frenet_tube_not_GCS_gate": -0.3358045761178703,
+      "J_naive_1_minus_kappa_not_GCS_surface_jacobian": 0.4,
+      "OC1_apex_center_heliocentric_Rsun": 9.499999999999998,
+      "R_apex_cross_section_Rsun": 5.699999999999998,
+      "X0_apex_transverse_offset_Rsun": 5.798973790555841,
+      "X0_minus_R_Rsun": 0.09897379055584299,
+      "X0_minus_R_interval_Rsun_rectangular": [
+        -0.29082502340844446,
+        0.5813342027225982
+      ],
+      "alpha_GCS_fit_deg": 40.0,
+      "alpha_GCS_interval_deg": [
+        32.0,
+        48.0
+      ],
+      "alpha_fractional_uncertainty": 0.2,
+      "central_apex_status": "PASS",
+      "class": "fast",
+      "date": "2013-09-29",
+      "h_LE_Rsun": 15.2,
+      "kappa_GCS_fit": 0.6,
+      "kappa_GCS_interval": [
+        0.54,
+        0.6599999999999999
+      ],
+      "marginal_band_status": "INDETERMINATE_WITHIN_REPORTED_MARGINAL_BANDS",
+      "rho_axis_local_curvature_Rsun": 4.267091236178723,
+      "sigma_h_Rsun": 1.5,
+      "sigma_kappa_GCS": 0.06,
+      "sin_alpha_minus_kappa": 0.042787609686539274
+    },
+    {
+      "J_apex_interval_rectangular": [
+        0.08127657343372101,
+        0.3200238517707446
+      ],
+      "J_apex_min_normalized": 0.21841253685972362,
+      "J_hypothetical_Frenet_tube_not_GCS_gate": 0.11371801190604247,
+      "J_naive_1_minus_kappa_not_GCS_surface_jacobian": 0.77,
+      "OC1_apex_center_heliocentric_Rsun": 12.276422764227641,
+      "R_apex_cross_section_Rsun": 2.8235772357723574,
+      "X0_apex_transverse_offset_Rsun": 3.6126183810929327,
+      "X0_minus_R_Rsun": 0.7890411453205752,
+      "X0_minus_R_interval_Rsun_rectangular": [
+        0.23286759615649716,
+        1.408833296206236
+      ],
+      "alpha_GCS_fit_deg": 20.0,
+      "alpha_GCS_interval_deg": [
+        16.0,
+        24.0
+      ],
+      "alpha_fractional_uncertainty": 0.2,
+      "central_apex_status": "PASS",
+      "class": "slow",
+      "date": "2008-12-12",
+      "h_LE_Rsun": 15.1,
+      "kappa_GCS_fit": 0.23,
+      "kappa_GCS_interval": [
+        0.22,
+        0.24000000000000002
+      ],
+      "marginal_band_status": "ROBUST_APEX_IMMERSION_PASS_WITHIN_REPORTED_MARGINAL_BANDS",
+      "rho_axis_local_curvature_Rsun": 3.1858677866677136,
+      "sigma_h_Rsun": 1.5,
+      "sigma_kappa_GCS": 0.01,
+      "sin_alpha_minus_kappa": 0.1120201433256687
+    },
+    {
+      "J_apex_interval_rectangular": [
+        -0.05383876700326658,
+        0.1949442971191293
+      ],
+      "J_apex_min_normalized": 0.06718583969129859,
+      "J_hypothetical_Frenet_tube_not_GCS_gate": -0.15787542411653033,
+      "J_naive_1_minus_kappa_not_GCS_surface_jacobian": 0.63,
+      "OC1_apex_center_heliocentric_Rsun": 9.999999999999998,
+      "R_apex_cross_section_Rsun": 3.6999999999999993,
+      "X0_apex_transverse_offset_Rsun": 3.9664921025379134,
+      "X0_minus_R_Rsun": 0.2664921025379141,
+      "X0_minus_R_interval_Rsun_rectangular": [
+        -0.2175927258174443,
+        0.8453238907553633
+      ],
+      "alpha_GCS_fit_deg": 25.5,
+      "alpha_GCS_interval_deg": [
+        21.675,
+        29.325
+      ],
+      "alpha_fractional_uncertainty": 0.15,
+      "central_apex_status": "PASS",
+      "class": "slow",
+      "date": "2010-04-03",
+      "h_LE_Rsun": 13.7,
+      "kappa_GCS_fit": 0.37,
+      "kappa_GCS_interval": [
+        0.32,
+        0.42
+      ],
+      "marginal_band_status": "INDETERMINATE_WITHIN_REPORTED_MARGINAL_BANDS",
+      "rho_axis_local_curvature_Rsun": 3.19550784387978,
+      "sigma_h_Rsun": 0.7,
+      "sigma_kappa_GCS": 0.05,
+      "sin_alpha_minus_kappa": 0.06051109680829514
+    },
+    {
+      "J_apex_interval_rectangular": [
+        0.2945507570626097,
+        0.5151215037251332
+      ],
+      "J_apex_min_normalized": 0.4144168416256102,
+      "J_hypothetical_Frenet_tube_not_GCS_gate": 0.36005006831014685,
+      "J_naive_1_minus_kappa_not_GCS_surface_jacobian": 0.72,
+      "OC1_apex_center_heliocentric_Rsun": 10.78125,
+      "R_apex_cross_section_Rsun": 3.0187500000000003,
+      "X0_apex_transverse_offset_Rsun": 5.155117521446846,
+      "X0_minus_R_Rsun": 2.136367521446846,
+      "X0_minus_R_interval_Rsun_rectangular": [
+        1.3259944745163366,
+        2.981496573011604
+      ],
+      "alpha_GCS_fit_deg": 50.0,
+      "alpha_GCS_interval_deg": [
+        40.0,
+        60.0
+      ],
+      "alpha_fractional_uncertainty": 0.2,
+      "central_apex_status": "PASS",
+      "class": "slow",
+      "date": "2010-04-08",
+      "h_LE_Rsun": 13.8,
+      "kappa_GCS_fit": 0.28,
+      "kappa_GCS_interval": [
+        0.24000000000000002,
+        0.32
+      ],
+      "marginal_band_status": "ROBUST_APEX_IMMERSION_PASS_WITHIN_REPORTED_MARGINAL_BANDS",
+      "rho_axis_local_curvature_Rsun": 4.717165907071328,
+      "sigma_h_Rsun": 0.7,
+      "sigma_kappa_GCS": 0.04,
+      "sin_alpha_minus_kappa": 0.486044443118978
+    },
+    {
+      "J_apex_interval_rectangular": [
+        -0.1530896366277243,
+        0.14294795688950046
+      ],
+      "J_apex_min_normalized": -0.006925867208905719,
+      "J_hypothetical_Frenet_tube_not_GCS_gate": -0.3133867665298089,
+      "J_naive_1_minus_kappa_not_GCS_surface_jacobian": 0.5700000000000001,
+      "OC1_apex_center_heliocentric_Rsun": 9.86013986013986,
+      "R_apex_cross_section_Rsun": 4.23986013986014,
+      "X0_apex_transverse_offset_Rsun": 4.210697408750252,
+      "X0_minus_R_Rsun": -0.029162731109887652,
+      "X0_minus_R_interval_Rsun_rectangular": [
+        -0.6461810985042512,
+        0.6666741720687398
+      ],
+      "alpha_GCS_fit_deg": 25.0,
+      "alpha_GCS_interval_deg": [
+        18.75,
+        31.25
+      ],
+      "alpha_fractional_uncertainty": 0.25,
+      "central_apex_status": "FAIL",
+      "class": "slow",
+      "date": "2011-09-13",
+      "h_LE_Rsun": 14.1,
+      "kappa_GCS_fit": 0.43,
+      "kappa_GCS_interval": [
+        0.37,
+        0.49
+      ],
+      "marginal_band_status": "INDETERMINATE_WITHIN_REPORTED_MARGINAL_BANDS",
+      "rho_axis_local_curvature_Rsun": 3.2281885640302064,
+      "sigma_h_Rsun": 0.7,
+      "sigma_kappa_GCS": 0.06,
+      "sin_alpha_minus_kappa": -0.007381738259300552
+    }
+  ],
+  "method": {
+    "apex_area_factor": "R_apex * (X0_apex + R_apex*sin(u))",
+    "equivalent_parameter_condition": "kappa_GCS < sin(alpha_GCS)",
+    "local_axis_curvature_radius": "H_GCS*(sin(alpha_GCS)+kappa_GCS^2)^2 / ((1-kappa_GCS^2)*(sin(alpha_GCS)+2*kappa_GCS^2))",
+    "local_immersion_condition": "X0_apex > R_apex",
+    "normalized_apex_margin": "(X0_apex-R_apex)/X0_apex",
+    "scope_limit": "A local apex immersion test only; not a global embedding, self-intersection, physical-instability, standard Frenet-tube, or worldtube test.",
+    "surface_parameterization": "P(beta,u)=p(beta)+r(beta)*(cos(u), sin(u)*cos(beta), sin(u)*sin(beta))",
+    "uncertainty_interpretation": "Rectangular sensitivity envelope from reported marginal uncertainty scales; not a joint confidence region. Parameter covariance is not supplied."
+  },
+  "source": {
+    "mishra_agarwal_srivastava_2026": {
+      "doi": "10.1093/mnras/stag1145",
+      "measurement_basis": "GCS reconstructions from multi-viewpoint coronagraph observations; the calculation uses published fitted parameters, not raw images.",
+      "tables": [
+        "1",
+        "2"
+      ]
+    },
+    "pythea": {
+      "blob_sha1": "6c9fb2cf9fbf71993cf428c874b17a43d8ce0803",
+      "file": "PyThea/geometrical_models.py",
+      "repository": "AthKouloumvakos/PyThea",
+      "role": "Independent executable implementation of GCS skeleton and cross-section frame."
+    },
+    "thernisien_2011": {
+      "doi": "10.1088/0067-0049/194/2/33",
+      "role": "Original GCS geometric construction."
+    }
+  }
+}
