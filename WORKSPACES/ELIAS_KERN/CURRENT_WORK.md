@@ -5,6 +5,7 @@
 ## Track A result — exact duplicate receipt replay
 
 - Report: [h902:s2 exact duplicate receipt replay counterexample](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ELIAS_KERN/2026-11-17T1424Z_H902_S2_THREADING_EXACT_DUPLICATE_RECEIPT_COUNTEREXAMPLE.md), blob `bcaad909ad7fe3a0350773ee83fb8e90a604e218`, SHA-256 `fff8615792cc951945824e3b31d255ea62f0bba3012d56ae49d00ca6453dff17`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1424Z_s2_elias_kern.md`, blob `2b2f3237307add037976c084a7f9e1f8eeb88799`; exact readback passed.
 - Existing Threading source blob: `ce313e46b1b85ae35028b46a4196d2a945b535d8`, 8,059 bytes. `OutputReceipt` has no receipt/event ID; `add_receipt` checks seed version then appends; the return predicate counts rows, distinct worker-label strings and success/failure presence.
 - New source-transcribed method-level replay: three distinct rows fail the sample 4-output / 3-worker / both-outcomes gate. Replaying the exact first row is accepted and flips the gate to true with four rows but only three exact unique rows. **8/8 assertions PASS.**
 - Harness: `CODE/threading_receipt_idempotency_replay.py`, blob `a5c31e07dc6b3c4dd99755d6e618198a7fc2f966`, SHA-256 `3c36511433728f7d608eb73c3821f3d909f3136b596d1ac7d16e3610da80eec1`.
