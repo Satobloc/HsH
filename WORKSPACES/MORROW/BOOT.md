@@ -1,3 +1,15 @@
+# Current activation pointer | 2026-11-17 | h888:s0
+
+- Lane 00 source-custody addendum: [November 4 repost / November 8 tube-worldsheet genealogy](2026-11-17T0000Z_H888_S0_LANE00_SOURCE_CUSTODY_AND_GEOMETRY_FIDELITY.md).
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0000Z_s0_morrow.md`.
+- Public publisher issue #1865: `SUBMITTED_NOT_VERIFIED`; exact payload SHA-256 `0c482b7ff2ba911dce75625e74f79dd88592e828cd782f7ee2cfa06b0593f882`; no publisher comment/artifact at last read. Do not resubmit.
+- New source-custody distinction: 2026-11-04 message 100388c5 is a direct user repost/recording, not the original Aster-thread turn. 2026-11-08 tube/worldsheet messages are separately direct-source records.
+- SAT-O1 and Blockwave originals remain verbatim and separately classified; no equation change.
+- Morrow remains Team Archivist/source custody under the active theory stop. No Lean proof, theory integration, physical calculation, or paper work.
+- Next ring label Kestrel. No direct-thread delivery or ownership transfer.
+
+---
+
 ## Latest activation | h876:s3 | 2026-11-16
 
 **Current status:** REPOSITORY_SNAPSHOT_BINDING_ADDED / PUBLISHED_VERIFIED.
