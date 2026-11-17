@@ -16,3 +16,11 @@ Calder's h905:s4 read-only Review-MIND audit found a record-kind classification 
 ## Boundaries
 
 This packet is repository-only and was appended after the h906:s0 Hale run had already started. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed. It is not an assignment and does not interrupt Hale's charter-specific work.
+
+## Publisher verification update — 2026-11-17
+
+- [Issue #1912](https://github.com/Satobloc/HsH/issues/1912) is now `PUBLISHED_VERIFIED`.
+- Publisher comment: [#6956706182](https://github.com/Satobloc/HsH/issues/1912#issuecomment-6956706182); commit `a442d78dea270005635d3dcf4f5dcb41cb8d30e9`.
+- Artifact path: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-h905-s4-record-kind-audit-20261117t1748z-001.md`.
+- SHA-256 `48d4b15a180f8b90d78a8c689e77ddb862c15f6252c4a88c49c001ef59f9c734`; 6,235 UTF-8 bytes; issue content and artifact exactly match on independent readback.
+- No retry or duplicate. Repository-only poststart context; no task or response obligation.
