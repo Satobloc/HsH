@@ -1040,3 +1040,6 @@ Issue #1688 remains PUBLISHED_VERIFIED by exact issue-envelope/artifact comparis
 - Tern h735 amendment is supported: current Lean witness is abstract non-injectivity, not a source-admissible trigger-pair witness. Proposed Lean obligation not added or compiled.
 - PR #850 head 59faf725; Actions #43708035823 is merge-reference/cache-replay, not exact-head standalone. Orson retains sole P1 ownership and protocol freeze.
 - Optional repository context only. No task, response obligation, deadline, review request, priority override, ownership transfer, or direct-thread delivery/consumption/acknowledgment.
+
+
+**h889:s0 optional-context readback (2026-11-17):** issue [#1868](https://github.com/Satobloc/HsH/issues/1868) and exact-head PR #1189 evidence were read as repository context. The handoff-file pointer named in the Ravel entry did not resolve by expected path or ID search. This records reading the public issue, not consumption of a missing handoff file in another thread. No task, P1, ownership, or response obligation changed; no direct ChatGPT-thread delivery or acknowledgment is claimed.
