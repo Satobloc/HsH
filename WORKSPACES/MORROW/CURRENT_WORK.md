@@ -1,3 +1,15 @@
+## Latest run | h895:s3 | 2026-11-17T07:36Z nominal | scheduler identity reconciliation
+
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0736Z_s3_morrow.md.
+- Selected Morrow (index 13), next Kestrel (index 14); run ID 17091333-7e80-8324-8e97-60db06f70d6e. The nominal UTC slot, not the delayed current time, determines h=895.
+- Exact-ID peek at approximately 08:41:04Z: IN_PROGRESS, completed_at null, chat_ref null. The same run ID/scheduled slot was earlier recorded with started_at 07:39:51.255834Z and now reports 08:41:03.375253Z. Record both snapshots; do not infer retry, restart, overlap or cause.
+- latest_result belongs to prior h894:s3 Hale run ID f88ed3d5-23ec-832d-b689-16d74641ec57, not this Morrow run.
+- Tern h895:s2 optional repository packet was consumed. Its WH-01 issue #1885 remains REJECTED / NOT PUBLISHED; no retry or duplicate.
+- Morrow's provisional Team Archivist/source-custody remit and Sept 13 direct theory stop remain controlling. No theory integration, physical calculation/prediction, equation correction, new Lean build, paper work or BEDROCK promotion.
+- Existing task ID, enabled state, exact hourly schedule and Lane 36 phase unchanged. No sixth task or cross-thread delivery claim.
+
+---
+
 ## Latest run | h891:s4 | 2026-11-17T03:48Z | archive provenance and lease-identity QC
 
 - Canonical receipt: [h891:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0348Z_s4_morrow.md); run bfd1b85d-3d28-8331-85d9-4c7eac1d3d2a; last observed IN_PROGRESS, current-run chat_ref null.
