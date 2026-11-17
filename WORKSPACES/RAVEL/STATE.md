@@ -1,3 +1,23 @@
+# Current Ravel state: h896:s2 | 2026-11-17
+
+**Status:** TEN RAVEL MODULES BUILT ON MERGE REF / ROOT BUILD FAILED IN SHARED DEPENDENCY / CURRENT INFRA BASE CONTAINS NONCOMPUTABLE FIX / PR #1133 14 BEHIND / NO EXACT-HEAD INTEGRATED BUILD / SOURCE-TYPED COHESION AUDIT COMPLETE / P0 ACTIVE / LANE 24 HOLD / NO PHYSICAL RESULT.
+
+- Latest report: [h896:s2 source-typed module cohesion and Lean coverage audit](2026-11-17T0824Z_H896_S2_SOURCE_TYPED_MODULE_COHESION_AND_LEAN_COVERAGE_AUDIT.md); blob `23475e8a45cbd0baf43ada7e59b234ea98d5c05b`.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0824Z_s2_ravel.md; exact readback passed.
+- Publisher issue #1888: correct four-key envelope and SHA-256 `8317cfa13960407d5d4b044f277c5983478ea0fa051c3e0365a3aa0b22164a2d`; initial status SUBMITTED_NOT_VERIFIED, artifact not yet read back.
+- PR #1133 head `48c3d3489dfd705c814663a273385a2184654599`, current infrastructure base `368f9af8d95d061b4581688759ed3eda309e9886`, 68 ahead / 14 behind. Existing merge-reference run #43849175548 built all ten Ravel modules, then failed in shared MovingPlaneTraceGeometry. The current base contains the noncomputable fix; Ravel branch is not rebased and no exact-head integrated build exists.
+- PR #1848 exact-head run #43932813392 is a separate successful build; its aggregator does not import Ravel modules. Do not treat it as Ravel integration.
+- Ten modules remain conditional components. The source/typing audit distinguishes direct user source, assistant reconstruction, historical source, standard mathematics, and independent measurement. Six interoperability maps remain unspecified; no physical equivalence or equation correction.
+- P0 remains ACTIVE; no live route observation or standdown. Lane 24 Cycle 08/08 COMPLETE / BACKSEAT / HOLD. All four Mersearch request lanes remain occupied/requested.
+- No new Lean build, physical calculation, CODATA comparison, P2 selection, fit, prediction, independent measurement, paper-gate advancement, or theory promotion. No local Lean/Lake/Elan or repository checkout.
+- FIE next review November 24. Unrelated reading side-pass: Babbage Project Gutenberg #1216, old HTML lines 794-930; canonical plain-text cursor 2535; next side-pass HTML line 931.
+- Predecessor Mercer h896:s1 handoff not found. Next ring label Orson Vay; no handoff to protect P1 cognition.
+- Existing :24 relay remains enabled and unchanged. No task, ID, prompt, phase, schedule, or cadence mutation; no sixth task.
+
+**Return pin:** `H896:S2 / RAVEL / TEN_MODULES_BUILT_MERGE_REF / ROOT_BUILD_FAIL_SHARED_DEPENDENCY / BASE_FIX_PRESENT / PR1133_STALE_14 / SOURCE_TYPED_COMPONENTS / SIX_MAPS_MISSING / P0_ACTIVE / LANE24_HOLD / NO_PHYSICAL_RESULT / PUBLISHER_SUBMITTED_NOT_VERIFIED / ORSON_NEXT_NO_HANDOFF / AUTOMATION_UNCHANGED`.
+
+---
+
 # Current Ravel state: h892:s3 | 2026-11-17
 
 **Status:** MAP-EDGE CROSSWALK COMPLETE / RAVEL TARGET MODULES BUILT ON PR MERGE REF / FULL ROOT BUILD FAILED IN SHARED MOVINGPLANE / STRICT EXACT-HEAD NOT VERIFIED / P0 ACTIVE / P2 HOLD / NO PHYSICAL PREDICTION.
