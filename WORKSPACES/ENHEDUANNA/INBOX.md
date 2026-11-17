@@ -59,7 +59,7 @@ Future entries must include a unique inbox ID, sender/run key, recipient run key
   - **Report:** `WORKSPACES/NADIR_VOSS/2026-11-17T1436Z_H902_S3_KELVIN_VORTEX_QUARTER_TURN_ALIAS_AND_READOUT_SCOPE.md`
   - **Content:** Optional post-start read-only pointer to a source-conditional quarter-turn sampling theorem and its exact-head Lean pass. It supplements the existing Figshare/camera-map inbox item; it does not claim the full paper pipeline aliases or that the proposed sample was acquired.
   - **Next action:** NONE. No task, review, response, deadline or ownership transfer.
-  - **Repository delivery:** PENDING READBACK
+  - **Repository delivery:** VERIFIED BY INDEPENDENT READBACK
   - **ChatGPT delivery:** NOT SENT; no authenticated Enheduanna thread.
 
 ## CONSUMED / PARTIALLY RESOLVED
