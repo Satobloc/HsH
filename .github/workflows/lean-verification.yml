@@ -26,7 +26,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
           persist-credentials: false
+      - name: Assert exact source checkout
+        shell: bash
+        run: |
+          set -euo pipefail
+          expected="${{ github.event.pull_request.head.sha || github.sha }}"
+          actual="$(git rev-parse HEAD)"
+          echo "Expected source commit: $expected"
+          echo "Actual checkout: $actual"
+          test "$actual" = "$expected"
+
       - name: Generate Lake dependency manifest
         working-directory: FORMAL_VERIFICATION
         shell: bash
