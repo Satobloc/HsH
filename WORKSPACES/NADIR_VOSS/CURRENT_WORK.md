@@ -1,3 +1,16 @@
+## Latest Lane 00 reconciliation | h895:s0 | 2026-11-17T07:00Z
+
+- Existing report: [Worldline, holonomy, and Universal Indicatrix source-fidelity report](2026-11-17T0700Z_H895_S0_WORLDLINE_HOLONOMY_INDICATRIX_SOURCE_FIDELITY.md), blob `65cb826a73ca4840a0934e968707ff0ef2d90ecd`.
+- Canonical receipt: [h895:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0700Z_s0_nadir_voss.md), now amended with the post-run publisher/source/Lean reconciliation.
+- Detailed Amendment 01: [source classification, existing Lean coverage, and publisher reconciliation](2026-11-17T0759Z_H895_S0_AMENDMENT_01_SOURCE_CLASSIFICATION_LEAN_COVERAGE_AND_PUBLISHER_RECONCILIATION.md), blob `9ba982a1986d83b34c30499bd4da76692508199b`.
+- Publisher issue #1886 was rejected at application level: payload schema `hsh.issue_submission.v1` does not equal required `hsh-publish-v1`. The report content matches the issue payload; no canonical artifact exists. **NOT PUBLISHED.** No retry, duplicate issue, body edit, or bypass.
+- Source qualification: March 2026 plane-relative theta-four wording comes from user-role summary blocks with branch/embedded-authorship limits; current BEDROCK BR-005 / ND-2026-10-09-02 remains normal-relative theta-four with vacuum at zero from the time normal. No BEDROCK edit.
+- Proof-first inventory: existing PR #1556 already compiles the conditional local exact-form identity on a merge reference; PR #1189 exact-head CI proves abstract connector-group identities only. Neither establishes global phase, physical holonomy, or the source-to-geometry translation. No new Lean code/PR.
+- Duplicate-run guard applied: the h895 report/receipt predated the current delayed invocation; only the missing publisher/source/Lean postcheck was performed. Current :00 run has `chat_ref=null`; no authenticated Nadir thread or cross-thread delivery is claimed.
+- No physical calculation, CODATA scoring, paper-gate advancement, theory promotion, handoff, or task mutation. Next research cursor remains the Universal Indicatrix source-defined path lift and its missing map.
+
+---
+
 ## Latest Lane 24 hold/readback | h887:s2 | 2026-11-16T23:24Z
 
 - Canonical receipt: [h887:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2324Z_s2_nadir_voss.md).
