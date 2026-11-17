@@ -2,8 +2,8 @@
 
 **Plan ID:** CLONE-FOOTPRINT-CENSUS-2026-11-03  
 **Created:** 2026-11-05  
-**Updated:** 2026-11-15T17:24Z  
-**Status:** ACTIVE / SAT archive week complete / HsH Actions partial / daily Traffic unavailable  
+**Updated:** 2026-11-17T07:24Z  
+**Status:** ACTIVE / SAT archive week complete / HsH Actions partial through 2026-11-15T17:59:59Z / daily Traffic unavailable  
 **Priority:** P1 / HIGH after 2026-11-14 15:56 America/New_York cutoff  
 **Priority authority:** Nathan Direct, 2026-11-05 upkeep/priority instruction; complements the already-open issue #1315 and existing GitHub Traffic investigation.  
 **Coordinator / control owner:** Tern (Comptroller), as task-graph and workflow-reconciliation owner.  
@@ -31,7 +31,7 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 - The 19-label ring is not equivalent to 19 authenticated threads.
 - A successful HSH_RESOURCES source-inventory run #41592883527 / job #125773422547 confirmed three completed checkout steps: HSH_RESOURCES, HsH, and GLASS, with the exact workflow YAML verifying GLASS is Satobloc/SAT_THEORY_ARCHIVE_2023-25.
 - Nadir PR #1189 Actions run #41927513429 / job #126915668961 confirms one completed HsH checkout step with git init and depth-1 fetch in the job log. Classify it as a likely clone-producing workflow event, not a worker-initiated local clone.
-- The census now has 19/19 ring-label dispositions (17 reconstructed, 2 coordinator UNAVAILABLE/UNKNOWN), not authenticated first-hand worker responses. The public HsH sample remains nine checkout events across seven inspected Actions runs: HsH=7 (six directly observed and one workflow-inferred for Issue #1408), HSH_RESOURCES=1, SAT archive=1. Two additional HsH checkouts were verified: run #42166644863 / job #127724967055 (Refresh automatic website docket) completed one checkout; run #42166644894 / job #127728853494 (Maintain H(s)H navigation) completed its checkout step while the workflow remained in progress at readback. These are project-level Actions checkouts, not worker-initiated local clones. Private cross-repository telemetry was not added to this public HsH aggregate. The response requirement remains in the live Steering Charter and task graph; no schedule/task configuration was altered. This remains a small sample, not a period-wide estimate or residual.
+- The census has 19/19 evidence-bounded ring-label dispositions (17 reconstructed, 2 coordinator UNAVAILABLE/UNKNOWN), not authenticated first-hand worker responses. The append-only ledger now has 67 rows: 51 checkout-materialization-classified rows, 15 `CONFIRMED NOT A FULL CLONE`, and 1 `POSSIBLE FULL CLONE — MECHANISM UNKNOWN`; six rows are explicit revisions and do not count as additional checkout events. Tern h895:s2 completed the HsH 2026-11-15 17:50:00–17:59:59Z run-created partition: 56 unique runs, all attempt 1, eight verified checkout steps, 48 `NO_JOB_RECORD_RETURNED`; SAT archive and HSH_RESOURCES returned zero runs. Eight new HsH checkout event rows were appended, with six `SHALLOW_1` and two `FULL_HISTORY` materializations. Five checkout heads matched run heads; three explicit-main checkouts were ahead by one or three commits. Traffic attribution, fresh environment, unique cloners, Pages contribution, local clones and cloud provisioning remain UNKNOWN/unobserved. No clone count or residual is inferred; private HSH_RESOURCES research payload was not accessed.
 - Historical traffic reference: the supplied 14-day window had 48,880 clones and 4,686 unique cloners; an earlier daily series covered Oct 19-Nov 1. These are user-supplied dashboard readings, not recomputed in this action plan.
 
 ## Milestones
@@ -40,7 +40,7 @@ The reported traffic acceleration and follower growth are unresolved. Issue #131
 |---|---|---|---|
 | Delivery repair | Common control-plane owner | #1315 and response log are embedded in the live Steering Charter and active task graph; the four existing prompts already read the charter; no schedule/task-ID change | ROUTING VERIFIED / PROMPT EDIT BLOCKED BY PLAN LIMIT |
 | Identity check-ins | Each selected ring label once | 19 of 19 evidence-bounded dispositions recorded: 17 reconstructed entries plus coordinator UNAVAILABLE/UNKNOWN dispositions for Elias Kern and Ravel. Authenticated first-hand current-thread responses: 0/19. | DISPOSITIONS COMPLETE / AUTHENTICATION UNRESOLVED |
-| Telemetry reconstruction | Tern / Comptroller | Expand checkout counts by repo/run/job/attempt/day and classify retries, matrices, Pages and other mechanisms beyond the current limited sample | IN PROGRESS / 9-EVENT, 7-RUN SAMPLE VERIFIED |
+| Telemetry reconstruction | Tern / Comptroller | Expand checkout counts by repo/run/job/attempt/day and classify retries, matrices, Pages and other mechanisms beyond the current limited sample | IN PROGRESS / ledger 67 rows; h895:s2 added 8 verified checkout events in the 17:50–17:59:59Z partition; Traffic remains UNKNOWN |
 | Reconciliation | Tern with independent Review lane | Compare internal event estimate against daily Traffic, publish low/central/high and residual range with limitations | OPEN |
 | Closeout | Tern | Issue #1315 has summary, unresolved unknowns, and a durable return/monitoring decision | OPEN |
 
@@ -269,3 +269,14 @@ The h857:s2 WH-01 report was published and read back through existing issue #179
 - /traffic/clones?per=day and /graphs/traffic were rejected by the available GitHub connector as unsupported routes. This is a connector-route limitation, not evidence of permission denial. No daily Traffic, unique-cloner or residual estimate is claimed.
 - The ledger remains append-only; no event is inferred from an empty job array. The exact window and checkout/job identities are preserved in CLONE_LEDGER.jsonl.
 - Next cursor: 2026-11-15 17:40:00Z, continuing non-overlapping HsH UTC partitions. WH-01 remains OPEN / P1-HIGH under issue #1703.
+
+
+## h895:s2 WH-01 bounded run/job/checkout partition — 2026-11-17T07:24Z
+
+- Exact HsH Actions run-creation interval: 2026-11-15 17:50:00–17:59:59Z. HsH page 1 returned 56/56; page 2 returned 0. All 56 run IDs are unique and all report attempt 1. SAT archive and HSH_RESOURCES each returned zero runs.
+- Every HsH run was queried at the Jobs endpoint. Eight job records returned, each with one successful checkout step; 48 returned empty job arrays and remain `NO_JOB_RECORD_RETURNED`, not proof of no checkout.
+- Eight new distinct run/attempt/job/step events were appended to the ledger. Six are `SHALLOW_1`; two are `FULL_HISTORY`. Five checkout SHAs match run heads; three explicit-main checkouts are one or three commits ahead.
+- Two Maintain H(s)H navigation jobs completed full-history main checkout and then failed at the strict date-tag audit. Both reported 1,040 dated/correct, 2 undatable, 0 needing rename, 0 collisions, 847 skipped, `fully_tagged=false`, exit code 1. Checkout itself succeeded; later stages were skipped. The two undatable source identities remain unverified.
+- Run conclusions in this partition: 30 cancelled, 20 failure, 6 success. Workflow counts: 18 Maintain navigation, 18 Refresh docket, 18 conversation-json-content-ci, one Visual archaeology, one publisher intake. Traffic, Pages, local/cloud provisioning and unique-cloner attribution remain UNKNOWN.
+- HSH_RESOURCES research payload was not accessed and no private cross-repository telemetry was added to the public ledger.
+- Next cursor: **2026-11-15T18:00:00Z**. Continue non-overlapping UTC run-creation partitions, paginate to an empty page, inspect every run attempt/job, and append only exact checkout events. No estimate from checkout count alone.
