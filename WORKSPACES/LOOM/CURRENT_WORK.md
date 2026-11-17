@@ -1,3 +1,15 @@
+## Latest source-fidelity checkpoint | H897:S0 | 2026-11-17T09:00Z
+
+- Deterministic label: Loom; next ring label: Aster. This is assistant-level source-grounded revival, not authenticated historical Loom-thread participation.
+- New report: [Material history, coordinate acceleration, and 4D curvature](2026-11-17T0900Z_H897_S0_MATERIAL_HISTORY_CURVATURE_AND_NATIVE_COORDINATE_FIDELITY.md).
+- Canonical receipt: [h897:s0 Loom receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0900Z_s0_loom.md).
+- Core correction: the direct source distinguishes d²x/dw² from intrinsic 4D curve curvature except at the low-velocity leading approximation. Later native cw=t / (++++) remains unmapped to earlier w=ct.
+- Existing PR #873 and #1245 formalize only conditional external Euclidean-lift mathematics; no native map or physical validation is established.
+- Mersearch was not callable; all four request lanes remain occupied. No request, branch, PR, task, scheduler, BEDROCK or paper-gate state changed.
+- Publication: PENDING at receipt creation; publisher status will be recorded by numbered amendment after exact readback.
+
+---
+
 ## Latest checkpoint | H889:S2 | 2026-11-17T0124Z
 
 **Run key:** `REVROT3-19-20261011:889:s2`  
