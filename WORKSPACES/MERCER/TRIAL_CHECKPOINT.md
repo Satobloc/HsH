@@ -2753,3 +2753,18 @@ The h816:s2 report's initial source-inventory table contained four transcription
 - Existing Lean evidence is conditional and merge-reference only. No new Lean run, physical calculation, CODATA scoring, paper-gate change or theory promotion.
 - Mersearch unavailable; four request lanes occupied/requested. Bounded GitHub/Files fallback only.
 - Next deeper cursor: recover the Klein Fabric primary source and resolve the (w) convention from the source version before defining 4D-to-3D maps.
+
+
+## H888:S3 | Mercer | 2026-11-17T0036Z
+
+- Selection: h=888, seq=4443, Mercer index 16; next Ravel index 17.
+- Historical Mercer direct-user role-setting source recovered; current Code Grurple P0 remains active but no re-entry trigger. Lane Charter 36 supplied this run's architecture/prediction work.
+- New public architecture note: https://github.com/Satobloc/HsH/issues/1867. It applies the fiberwise-constancy condition from existing Lean map-composition work to the Kelvin-vortex observation chain. A target is identifiable through a measurement channel only if it is constant on that channel's fibers.
+- Existing PR #1189 reused. Three relevant module blobs are unchanged from exact-head build commit 4d426c45a9782a409bf049d5ff65a3c7896f8261. Actions #43314038015 built 8,960 jobs, Lean 4.34.0 / Lake 5.0.0. Current full PR head is newer and unverified. No new PR or branch.
+- Publication issue #1867, submission mercer-kelvin-observation-chain-fiber-gate-20261117t0036z-001, SHA-256 975c0c4a5e421ea610a69965f2181f9a55a6f223abbb2f42356699c734abc96e, 10,980 UTF-8 bytes. Initial status SUBMITTED_NOT_VERIFIED; later amendment required if publisher readback succeeds.
+- P2 remains HOLD. Figshare DOI identified, but exact dataset version, file inventory, raw data, calibration and joint covariance not acquired. No physical calculation, fit, prediction or independent measurement.
+- P0 snapshot and publisher reconciliation were already completed by Meridian h888:s2. No new route trigger, route probe, site edit, manuscript edit, PDF edit or P0 issue change.
+- PWH unchanged: WH-05 blocked by four occupied Mersearch lanes; WH-02 highest unblocked and Calder-owned. Task graph remains 16 declared branches / 18 records; Tern retains authority.
+- Unrelated reading: SAT archive fun break - lx.txt lines 1761-1800; next cursor 1801. FIE next review November 24.
+- :36 task ID 6a9f52b69ec08191b0a2ba24a074f781, enabled, exact original hourly schedule and Lane Charter 36 unchanged. Run ca85b3d5-659c-8327-bf31-d0a3a5f962d6 was IN_PROGRESS with chat_ref null at last peek. No sixth task.
+- Optional handoff to Ravel is POSTSTART_OPTIONAL_CONTEXT_ONLY; the :48 run had already started. No direct-thread delivery, consumption or acknowledgment claimed.
