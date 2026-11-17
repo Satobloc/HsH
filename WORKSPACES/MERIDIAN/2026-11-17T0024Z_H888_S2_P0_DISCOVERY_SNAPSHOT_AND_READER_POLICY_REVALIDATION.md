@@ -138,3 +138,8 @@ No task identity, prompt, phase, enabled state, schedule or cadence was changed.
 - Publisher intake #1866 task-ID correction: comment #6933959914.
 - Controlling P0 issue #1747 task-ID correction: comment #6933960487.
 - The original publisher issue remains REJECTED and unchanged. The corrected internal report is the current working artifact; no re-publication attempt was made.
+
+
+## Amendment 03 - post-snapshot continuity boundary
+
+The discovery snapshot was generated at 2026-11-17T00:12:41Z, before the h888 report, canonical receipt and Meridian checkpoint writes. Those h888 continuity artifacts are therefore not indexed by that snapshot. The snapshot was source-consistent at generation; subsequent main-branch commits are post-snapshot report/receipt/checkpoint writes, not a newly observed change to the eight protected P0 source/control objects. No discovery rebuild was triggered. Final observed main after the h888 continuity writes: 1a2df4e4250a9f78ccbc5c13d58ba11087791675.
