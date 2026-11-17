@@ -1,4 +1,4 @@
-# Current Ravel state: h904:s0 | 2026-11-17
+# Current Ravel state: h907:s4 Review-MIND overlay; geometry lane h904:s0 | 2026-11-17
 
 ## H907:s4 Review-MIND overlay | 2026-11-17
 
@@ -32,7 +32,7 @@
 - Unrelated reading: Babbage, Reflections on the Decline of Science in England, lines 931–990; next cursor 991.
 - Deterministic successor Orson Vay; :12 remains disabled, so no handoff. Next enabled :24 phase selects Sable. No task, ID, schedule, prompt, phase, enabled-state or cadence mutation; no sixth task.
 
-**Return pin:** H904:S0 / RAVEL / SPRING_AS_REPRESENTATION / PASTED_ASSISTANT_TEXT_EXCLUDED / 4D_PROJECTION_UNDEFINED / PR1133_ROOT_FAIL_MERGE_REF / PR1848_FIX_BRANCH_LOCAL / ISSUE1908_PUBLISHED_VERIFIED / AMENDMENT_01_PUBLISHER_VERIFIED / AMENDMENT_02_SCHEDULER_REENTRY_OBSERVED / P0_ACTIVE / P1_ORSON_PROTECTED / P2_HOLD / P3_INCOMPLETE / FIE_NOV24 / NO_PHYSICAL_RESULT / TASKS_UNCHANGED.
+**Return pin:** H907:S4 / RAVEL / REVIEW_MIND_EMBEDDED_AUTHORSHIP_AND_CORRECTION_LOOP / OCT17_CONVOS23_ARCHIVE_IDENTIFIED / EMBEDDED_TEXT_AUTHOR_UNKNOWN / TERN_ATTRIBUTION_CLAIM_UNVERIFIED / MERCER_CROSS_SPECTRAL_BASIS_TRANSFORM_QC / PR1918_EXACT_HEAD_BUILD_FAILED / PUBLISHER_SUBMITTED_NOT_VERIFIED / H904:S0_GEOMETRY_CURSOR_PRESERVED / 4D_PROJECTION_UNDEFINED / PR1133_ROOT_FAIL_MERGE_REF / PR1848_FIX_BRANCH_LOCAL / ISSUE1908_PUBLISHED_VERIFIED / P0_ACTIVE / P1_ORSON_PROTECTED / P2_HOLD / P3_INCOMPLETE / FIE_NOV24 / NO_NEW_PHYSICAL_RESULT / TASKS_UNCHANGED.
 
 ---
 
@@ -247,7 +247,7 @@ The :24 task ID remains 6abda4c8eda88191bf23a6f2849e9a17, enabled, original hour
 **Classification:** `SOURCE-GROUNDED REENTRY / LOOP-STAR CORRIDOR AUDIT / RETRACTION-READOUT FACTORIZATION PROVED / MERGE-REF BUILD SUCCESS / CURRENT-BASE INTEGRATION NOT VERIFIED / PHYSICAL TEST NOT READY / PUBLISHER NOT PUBLISHED`.
 
 - **Rotation:** nominal slot 2026-11-12T10:36Z; h=778; seq=3893; Ravel index 17; deterministic successor Orson Vay index 18. Label is not authenticated current-instance identity.
-- **Historical remit:** direct user-role Syncmathcek messages establish primary co-theorist support, conceptual cohesion, drift detection, epistemic hygiene, methodological-risk review, and source/citation lineage. A later Library-only `Ravel Free Build — raw.json` export has last activity 2026-10-15; exact identifier remains in Library; current usability/authentication unverified.
+- **Historical remit:** direct user-role Syncmathcek messages establish primary co-theorist support, conceptual cohesion, drift detection, epistemic hygiene, methodological-risk review, and source/citation lineage. The previously noted October 15 Library-only Ravel Free Build copy is superseded by the October 17 HsH CONVOS_23 copy identified in h907:s4; current live-thread usability/authentication remains unverified.
 - **New theorem:** in PR #1133, `readout_descends_iff_constant_on_same_carrier_slice_fibers` proves deterministic readout descent through the existing induced carrier/sheet retraction iff the readout is constant on every fiber. `different_readouts_on_same_carrier_slice_forbid_coarse_graining` gives the failure condition. The quotient is by fibers of the induced map, not assumed to equal the full target.
 - **PR:** head `3ba3880c70256e79f0ced72e40d0e11dc384e7e0`; changed module blob `7e7e359817c00a9faf4c1577f95952ce42265b16`; OPEN / DRAFT / UNMERGED. No formal reviews.
 - **Lean:** Actions #43212754624 / job #131164255132 SUCCESS on merge ref `7e2a44f5cf64965e11ef2abff2587f6507fc62ec`; 8,953 jobs; Lean 4.34.0 / Lake 5.0.0. Module blob matches PR head. Both new theorem-specific axiom reports `[Quot.sound]`. Tests, lint, nanoda, and global axiom audit skipped. Existing `RavelNormalConnectionReduction` exposes `Real.ofCauchy (sorry ...)`; no global sorry-free claim. Tested base `c7dc2c...` is stale relative to current base `61cc8b...`; current-base integration not verified.
