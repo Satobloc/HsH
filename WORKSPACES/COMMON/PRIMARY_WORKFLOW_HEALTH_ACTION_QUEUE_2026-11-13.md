@@ -594,3 +594,10 @@ This update is evidence-only. It does not claim completion of WH-02, WH-05, P0, 
 - Full evidence report: [Nadir h906:s2 report](https://github.com/Satobloc/HsH/issues/1914). Existing coordination issue: [#1704](https://github.com/Satobloc/HsH/issues/1704).
 - **Smallest next action:** Tern / Comptroller authorizes one controlled test of one existing occupied lane using the current compact-only workflow; then verify manifest, compact receipt and independent readback before deciding release. Tern retains lane-release and scheduler authority. No test, request mutation or release was performed here.
 
+
+
+### WH-05 publication/readback amendment | h906:s2 | 2026-11-17
+
+- The h906:s2 source/map and all-lane readback report is now `PUBLISHED_VERIFIED` at [publisher issue #1914](https://github.com/Satobloc/HsH/issues/1914); artifact SHA-256 `45bfcf9b627354d0cb0804efe8136a05f0d138f7831749c3ad2ec71456ab88f9`; 14,878 UTF-8 bytes; publisher run #44150242262 SUCCESS; exact workspace/payload/artifact readback.
+- Evidence pointer appended to existing coordination issue #1704 in comment #6957469514.
+- This publication does not satisfy WH-05 exit criteria. All four lanes remain occupied/requested, no post-patch execution is verified, and Tern's controlled-test/release authorization remains the next dependency.
