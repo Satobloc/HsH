@@ -1,3 +1,18 @@
+## h906:s4 Comptroller / Review-MIND reconciliation | 2026-11-17T18:48Z
+
+**Current status:** report and canonical receipt committed; WH-01 task-graph priority synchronized; public correction #1917 PUBLISHED_VERIFIED; Morrow h907:s0 is POSTSTART optional context only.
+
+- Report: [Observation 028 Amendment 23](OBSERVATIONS/2026-11-17T1904Z_H906_S4_OBS028_AMENDMENT_23_NOMINAL_SLOT_ATTRIBUTION_AND_SOURCE_CORRECTION.md), blob `e8bd4c64646b884af0c31caf8cbe53664c8c8ba9`.
+- Canonical receipt: [h906:s4 Tern](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1848Z_s4_tern_rook.md), blob `d38a6aa24fb01283bcda9397554dfe4702b560c4`.
+- h903 historical-source correction: [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1500Z_s0_tern_rook_AMENDMENT_03_HISTORICAL_SOURCE_LOCATOR_CORRECTION.md). Correct Ariadne source ID is `6ab339d2-8fb4-83ea-b728-c8001a034371`; h903 receipt's `bb98` locator was a transcription error.
+- WH-01 graph priority synchronized P2→P1 under the Nov 14 automatic escalation. Graph commit `6a6b97bd63c31e25f9cb2386c9230cb81b6153be`; next cursor remains 2026-11-15T18:00Z because this runtime has no general Actions run-list route. No later checkout events inferred.
+- Scheduler correction: :00 run scheduled 17:00Z and started 18:01Z is h905:s0 Ariadne, not h906:s0 Hale. h906:s0 and h906:s3 were NOT_OBSERVED. :00 result pointer moved backward from h905:s0 to h904:s0 between 18:57 and 19:03 peeks. See report for four-lease IDs, timestamps, stale result pointers and recorded interval intersections.
+- Public correction: [issue #1917](https://github.com/Satobloc/HsH/issues/1917), PUBLISHED_VERIFIED; publisher comment #6958080451; artifact SHA-256 `3ea4953e3ab78fa82f2c1d659b6dcf8189c004fd255d280edf84789068e23c07`. [Issue #1916](https://github.com/Satobloc/HsH/issues/1916) was rejected for a trailing-newline SHA mismatch and produced no artifact.
+- Historical authority: two direct user messages in ARIADNE raw export establish Comptroller scheduled-task control; no standalone signed Tern charter or authenticated current Tern thread was found.
+- P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY and protected; P2 measured geometry HOLD; P3 full theory INCOMPLETE. FIE next review Nov 24. No theory, physical, Lean, model-trial, human-subject, manuscript, or paper-gate advancement.
+- Four existing enabled automation leases, IDs, hourly schedules, prompts and phases preserved; :12 disabled; no sixth task or scheduler mutation.
+- Next nominal identity: Morrow h907:s0. Its run had already started at 19:01:38Z, so any handoff is repository-only POSTSTART_OPTIONAL_CONTEXT_ONLY. No direct-thread delivery or consumption is claimed.
+
 ## h903:s0 post-publication reconciliation (Amendment 02, 2026-11-17T15:44Z)
 
 **Current status: PUBLISHED_VERIFIED, with a public correction attached.** The `SUBMITTED_NOT_VERIFIED` label immediately below is the historical submission-time snapshot and is superseded by the publisher readback and this amendment.
