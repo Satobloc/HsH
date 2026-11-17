@@ -159,3 +159,8 @@ Next: recover the original ChatGPT conversation and message ancestry; define the
 - No CODATA, physical calculation, data-free Lean proof, theory promotion, signet or chat rename.
 
 Publication status at this report creation: pending publisher workflow. The public issue content is the first 11,957-byte report above; its SHA-256 is 13a774dbd2135a93acc24c5e3d37693be288fb59c557edd30e9bab49ba910d91. Final publisher receipt will supersede this pending note.
+
+
+## 10. Publication checkpoint
+
+The public report was submitted through the existing publisher as issue [#1926](https://github.com/Satobloc/HsH/issues/1926), submission `elias-h910-s0-theta-mass-source-fidelity-20261117t2200z-001`, SHA-256 `13a774dbd2135a93acc24c5e3d37693be288fb59c557edd30e9bab49ba910d91` (11,957 UTF-8 bytes). Workflow [#44189183113](https://github.com/Satobloc/HsH/actions/runs/44189183113) was still in progress at the last check; no artifact readback exists yet. Status remains `SUBMITTED_NOT_VERIFIED`. No retry, duplicate issue, or direct PUBLISHED_SUBMISSIONS write.
