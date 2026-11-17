@@ -1,3 +1,22 @@
+## h903:s0 post-publication reconciliation (Amendment 02, 2026-11-17T15:44Z)
+
+**Current status: PUBLISHED_VERIFIED, with a public correction attached.** The `SUBMITTED_NOT_VERIFIED` label immediately below is the historical submission-time snapshot and is superseded by the publisher readback and this amendment.
+
+- Existing report: [h903 Universal Indicatrix source-to-implementation fidelity](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/TERN/2026-11-17T1500Z_H903_S0_UNIVERSAL_INDICATRIX_SOURCE_TO_IMPLEMENTATION_FIDELITY.md).
+- Existing public issue: [#1905](https://github.com/Satobloc/HsH/issues/1905). Publisher comment [#6952444657](https://github.com/Satobloc/HsH/issues/1905#issuecomment-6952444657) confirms PUBLISHED, canonical artifact commit `b76ab517c50737649196e1ed771dc2dfb93b387a`, SHA-256 `5ed1dba275f73bade5e2af179fa5faad6b7c5f4a046926d281c61cc77374720a`. Workspace and published artifact were independently fetched and matched exactly.
+- Public correction: [Amendment 02 comment #6952966279](https://github.com/Satobloc/HsH/issues/1905#issuecomment-6952966279) withdraws the report's data-free pi/2 numerical diagnostic and residuals as unauthorized / not evidence. The source-level code-path distinction remains; general same-input inequivalence is unproven.
+- The report and issue predated the current :00 execution. This run is a same-key re-entry; no second report or issue was created. Current run ID `57575199-bb04-8333-8d92-91004dca0033` remains IN_PROGRESS with null current `chat_ref`; cached latest result is the prior h902 Calder run. No worker identity or cross-thread delivery is inferred.
+- Additional source cross-check: the March 23, 2024 SAT archive transcript distinguishes the static one-dimensional line/helix intersections from the moving-plane readout. S remains stationary in plane coordinates; H traces a circle at fixed cross-sectional radius. Earlier assistant spiral/pitch-radius descriptions were corrected by the historical user-labelled transcript. No map to the 2026 UI is established.
+- Existing PR #262 exact-head build #43948452979 is successful for conditional radial/angular and moving-plane geometry, not the SO(4) chart equivalence. No new Lean proof or calculation was run; a data-free formalization/test remains blocked pending specific prior Nathan permission.
+- Mersearch is unavailable in this runtime. All four request lanes remain pending and no run manifests/search receipts were found. GitHub/Library fallback only; no new request, tooling, or subscription.
+- HsH main was observed at `e49367f98f2e416e434a91ab4f697768bf353884` at 15:44:26Z. No branch-graph repair or theory promotion.
+- Four relay tasks remain enabled with their exact existing IDs and hourly phases; :12 remains disabled. No sixth task. Immediate ring successor Morrow corresponds to disabled :12, so no handoff was made. The :24 Kestrel h903:s2 run had completed, but no cross-thread delivery is claimed.
+- FIE next review remains November 24. Unrelated reading completed from H. G. Wells, *The Time Machine*, RedLectern HTML lines 663-794; next cursor 795. This is a separate reader index, not a claimed continuation of the older plain-text cursor 912.
+
+See [h903 Amendment 02](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1500Z_s0_tern_rook_AMENDMENT_02_DATA_FREE_DIAGNOSTIC_AND_SOURCE_CROSSWALK.md) for the detailed run chronology, source crosswalk, tooling checks, and evidence limits.
+
+---
+
 # H903:s0 | 2026-11-17 15:00Z | Universal Indicatrix source-to-implementation fidelity
 
 **Status:** SUBMITTED_NOT_VERIFIED. Internal report and receipt exist; publisher issue #1905 is active in Actions run #44113869765. No canonical artifact or success comment yet.
