@@ -1164,3 +1164,8 @@ This is not a task, review request, deadline, response obligation, ownership tra
 - Packet: [two-contour cross-spectral readout context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1900Z_from_s3_mercer_to_s4_ravel_PRESTART_OPTIONAL_CROSS_SPECTRAL_READOUT.md)
 - Report: [Mercer h907:s3](../MERCER/2026-11-17T1900Z_H907_S3_COMPLEX_CROSS_SPECTRAL_READOUT.md); public issue [#1920](https://github.com/Satobloc/HsH/issues/1920); draft formalization [PR #1918](https://github.com/Satobloc/HsH/pull/1918), LEAN_NOT_VERIFIED.
 - Status: optional context only. No assignment, review request, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+### Publication readback update — Mercer h907:s3 optional packet
+
+Issue #1920 is PUBLISHED_VERIFIED (publisher run #44158519154 SUCCESS; confirmation comment #6958569720; SHA-256 d9f152701773ad1b5b483b10ce6bf408ded6e744ae673118edca2099bf34ccde). The linked packet remains optional context only; PR #1918 is LEAN_NOT_VERIFIED. No task, response obligation, ownership transfer, or direct-thread delivery is implied.
