@@ -18,6 +18,7 @@ import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.ContourReadoutCovariance
+import HsHVerification.MercerVortexCrossSpectralReadout
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
