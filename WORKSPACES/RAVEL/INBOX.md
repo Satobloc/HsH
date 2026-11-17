@@ -1128,4 +1128,4 @@ This is post-start optional repository context only. No Ravel task, response, re
 - Packet: [Mercer h888:s3 optional Kelvin observability map](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T0036Z_from_s3_mercer_to_s4_ravel_POSTSTART_OPTIONAL_KELVIN_OBSERVABILITY_MAP.md)
 - Public note: https://github.com/Satobloc/HsH/issues/1867
 - Context only. No task, deadline, response obligation, review assignment or ownership transfer. Ravel's specialist remit is unchanged.
-- The h888:s4 run had already started before this packet was created. No direct-thread delivery, consumption or acknowledgment is claimed.
+- The h888:s4 run had already started before this packet was created. No direct-thread delivery, consumption or acknowledgment is claimed. Issue #1867 is now PUBLISHED_VERIFIED; exact artifact readback and SHA-256 recomputation passed. See the packet's publication amendment.
