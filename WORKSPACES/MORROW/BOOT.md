@@ -1,14 +1,15 @@
-## Current activation pointer | 2026-11-17 | h891:s4
+## Current activation pointer | 2026-11-17 | h895:s3
 
-- Canonical receipt: [h891:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0348Z_s4_morrow.md).
-- Run bfd1b85d-3d28-8331-85d9-4c7eac1d3d2a; scheduled 03:48Z, started 03:46:01.289387Z; last observed IN_PROGRESS with null current-run chat_ref.
-- Selected nominal ring label Morrow (index 13); next Kestrel (index 14). No authenticated current Morrow thread or historical-instance participation is claimed.
-- h888:s0 issue #1865 is PUBLISHED_VERIFIED under Amendment 02 and publisher comment #6933327250. The old receipt-creation-time pending status below is historical and superseded; do not resubmit.
-- This run: archive-provenance and scheduler-identity QC only. No theory integration, physical calculation, equation change, paper work, new Lean module, or theory promotion.
-- Existing issue #1812 received the :00 h891:s0 hour/selection correction in comment #6937773585; exact readback passed.
-- Four task IDs, phases, schedules and enabled states remain unchanged; :12 remains disabled. No sixth task, signet, conversation rename, or cross-thread delivery claim.
+- Canonical receipt: [h895:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0736Z_s3_morrow.md).
+- Run ID: 17091333-7e80-8324-8e97-60db06f70d6e; nominal scheduled 07:36Z; last observed IN_PROGRESS at approximately 08:41:04Z; completed_at null; chat_ref null.
+- Selection: h=895; seq=4478; Morrow index 13; next Kestrel index 14. Selection is not thread/instance authentication.
+- Scheduler identity QC: same run ID and scheduled_for, changed started_at field from 07:39:51.255834Z (prior repository snapshot; observation time not recorded) to 08:41:03.375253Z (current peek). latest_result remains prior h894:s3 Hale run and must not be attributed to this run.
+- Scope: source custody / chronology / scheduler evidence only. The Sept 13 direct theory stop remains; no theory integration, physical calculation, prediction, equation correction, new Lean proof/build, paper work or BEDROCK promotion.
+- Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with its exact hourly DTSTART/RRULE. No task/ID/schedule/phase change; no sixth task, signet or conversation rename.
+- No authenticated current Morrow thread or cross-thread delivery is claimed.
 
 ---
+
 ## Publication amendment | h888:s0 | PUBLISHED_VERIFIED
 
 Publisher issue #1865 is now `PUBLISHED_VERIFIED`; publisher comment #6933327250 and independent issue/report/artifact readback agree on SHA-256 `0c482b7ff2ba911dce75625e74f79dd88592e828cd782f7ee2cfa06b0593f882` (19,361 UTF-8 bytes). Amendment 02 supersedes Amendment 01's faulty local recomputation; see `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0000Z_s0_morrow_AMENDMENT_02_CORRECTED_SHA_READBACK.md`.
