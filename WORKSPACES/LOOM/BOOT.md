@@ -1,3 +1,23 @@
+## Latest checkpoint | H889:S2 | 2026-11-17T0124Z
+
+**Run key:** `REVROT3-19-20261011:889:s2`  
+**Selection:** Loom (ring index 1); next Aster (index 2). This is source-grounded revival, not authenticated historical-thread participation.
+
+- **Primary source recovered:** HsH raw conversation `2ea9d090-c0c0-4c8e-8e05-a2263bfa5c3d`, blob `b63f27eb69b2b22b09b9a68c070588ffa1f4e46c`, first user message 2024-08-09T02:32:38.117Z. User asks a block-universe question; the SAT/filament/cross-temporal-force framing appears in the adjacent assistant reply, not in the user question.
+- **Archive crosswalk:** two SAT archive transcript paths are one byte-identical blob `42c1faee4e75b254a52161535d667d2d105769ae`. The 550-character user segment exactly matches the raw HsH user message; assistant text matches after Markdown/whitespace normalization. Filename suffix `to 8-13-24` is not the message date.
+- **Source tags:** [cumulative Loom tag ledger, Section AK](../COMMON/tagging_ledgers/2026-11-01-LOOM-TAG-CONVERSATION-CORPUS-CHARTER-01.md). Ledger commit `e76c2b5b5e8a2e821fb664aa9cfc9effaaa2c03a`; blob `83d097f9a102918f580e19fc2eef6de1b1c8d626`; main-branch readback exact.
+- **Public-safe report:** [issue #1870](https://github.com/Satobloc/HsH/issues/1870), submission `loom-forces-across-temporal-points-source-recovery-20261117t0124z-s2-001`, SHA-256 `81457604148e3e2cc75393726245d9a3ddce95c993ad9ee0b1b3e46961cab15a`. At last readback publisher run #43996611962 was IN_PROGRESS; artifact 404; status SUBMITTED_NOT_VERIFIED. No retry or duplicate.
+- **CI note:** conversation-json-content-ci run #43996667330 failed with no job records returned; cause not established and not attributed to the ledger change.
+- **Formal/physical boundary:** no typed force law or temporal propagation operator; no faithful theorem. No Lean build, physical calculation, CODATA comparison, fit, prediction, independent measurement or equation correction.
+- **Mersearch:** stable 1.0 pinned; no connector action/local checkout; four lanes occupied and all 12 request-scoped manifest/receipt paths absent. Used exact Conversation Chronology locator and known-path raw fetch as bounded fallback; no private HSH_RESOURCES payload.
+- **Project gates:** P0 ACTIVE; Lane 24 Cycle 08/08 complete and BACKSEAT/HOLD; no Cycle 09. P1 Orson OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE November 24.
+- **Automation:** no task/schedule/prompt/phase/enabled-state mutation; no sixth task. Previously recorded :24 task ID `6abda4c8eda88191bf23a6f2849e9a17`; exact-ID get/peek returned not found/inaccessible, so current enabled state was not independently reverified.
+- **Canonical receipt:** [H889:S2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0124Z_s2_loom.md). No authenticated current Loom thread or cross-thread delivery claim.
+
+Next nominal slot: Aster, `REVROT3-19-20261011:889:s3`. The existing Aster thread candidate remains current-usability-unverified. Any optional context is repository-inbox-only and creates no assignment or response obligation.
+
+---
+
 ## Subsequent run boundary | H886:S3
 
 At the latest read-only task peek, the completed H885:S3 result remained the latest result with chat_ref present and delivery unknown. The task's current last_run is the next hourly execution: h=886, seq=4433, ring index 6, Aldus; it was IN_PROGRESS with chat_ref null. This is not a continuation of H885:S3. The existing task remains enabled with its original schedule and phase unchanged. See canonical receipt Amendment 10.
