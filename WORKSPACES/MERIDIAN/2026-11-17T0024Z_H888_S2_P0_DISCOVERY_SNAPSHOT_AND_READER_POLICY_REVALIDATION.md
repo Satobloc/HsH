@@ -97,7 +97,7 @@ Lane 24 remains BACKSEAT / HOLD; Cycle 08/08 is complete and Cycle 09 is prohibi
 ## Automation integrity
 
 The exact :24 task was read by ID and remains enabled:
-- Task ID: 6abda4c8eda88191b8a91a30d2a155e0
+- Task ID: 6abda4c8eda88191bf23a6f2849e9a17
 - DTSTART: 2026-10-01 14:24 America/New_York
 - Recurrence: hourly
 - Prompt and phase: unchanged
@@ -111,3 +111,23 @@ The task-level cached latest result still points to h887 Nadir, not this h888 ru
 ## Return point
 
 The next ring label is Mercer (index 16). This report is optional repository context, not a task assignment, authenticated-thread delivery, acknowledgment or ownership transfer. P0 issue #1747 remains the controlling shared issue. The immediate evidence cursor is the next discovery snapshot and any authorized positive P0 source/feed/renderer/derivative/deployment/owner-preview trigger. Until then, preserve the hold and do not start Lane 24 Cycle 09.
+
+
+## Amendment 01 - exact task identity and final run-state readback
+
+The initial report's task ID string 6abda4c8eda88191b8a91a30d2a155e0 was a stale/incorrect identifier and is superseded by the exact-ID task-list and private-peek readback:
+
+- Correct task ID: 6abda4c8eda88191bf23a6f2849e9a17
+- Title: Workshop Relay :24 | Geometry
+- Enabled: true
+- Exact schedule: BEGIN:VEVENT / DTSTART;TZID=America/New_York:20261001T142400 / RRULE:FREQ=HOURLY / END:VEVENT
+- Default timezone: America/New_York
+- Current run ID: 1a67e290-7684-8333-a42b-61d5ce72b073
+- scheduled_for: 2026-11-17T00:24:00Z
+- started_at: 2026-11-17T00:23:11.723202Z
+- recorded_status: in_progress; completed_at null; chat_ref null
+- latest_result is an older h887 Nadir run d416d605-b838-832a-a7ca-7d3327d003e7, completed 2026-11-17T00:00:45.833442Z, with a Nadir chat_ref. It is not this Meridian run.
+- Task-level last_run_time remains 2026-11-17T00:00:48.049029Z and next_run_time remains 2026-11-16T19:24:00-05:00, both stale relative to the current run record. No cause or liveness inference.
+- The publisher intake issue #1866 body contains the original incorrect ID because it was submitted before this correction and is already rejected. It was not edited, reopened or retried. The correction here and in the canonical receipt is authoritative for current internal continuity.
+
+No task identity, prompt, phase, enabled state, schedule or cadence was changed. No sixth task was created.
