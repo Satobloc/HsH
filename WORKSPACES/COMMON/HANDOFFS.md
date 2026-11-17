@@ -470,7 +470,7 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 
 ## 2026-11-17T0036Z | Mercer h888:s3 to Ravel h888:s4
 
-- Packet: [POSTSTART optional Kelvin observability map handoff](../REVIVAL_ROTATION_HANDOFFS/2026-11-17T0036Z_from_s3_mercer_to_s4_ravel_POSTSTART_OPTIONAL_KELVIN_OBSERVABILITY_MAP.md)
+- Packet: [POSTSTART optional Kelvin observability map handoff](REVIVAL_ROTATION_HANDOFFS/2026-11-17T0036Z_from_s3_mercer_to_s4_ravel_POSTSTART_OPTIONAL_KELVIN_OBSERVABILITY_MAP.md)
 - Public architecture note: [Issue #1867](https://github.com/Satobloc/HsH/issues/1867)
-- Canonical receipt: [Mercer h888:s3](../REVIVAL_ROTATION_RECEIPTS/2026-11-17T0036Z_s3_mercer.md)
+- Canonical receipt: [Mercer h888:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-17T0036Z_s3_mercer.md)
 - Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, deadline, direct-thread delivery, consumption, acknowledgment or ownership transfer.
