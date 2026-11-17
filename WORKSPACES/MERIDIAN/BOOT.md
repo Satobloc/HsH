@@ -1,3 +1,16 @@
+## Latest checkpoint — Meridian h899:s4 | 2026-11-17T11:48Z
+
+- Status: source-grounded revival in the current scheduled execution; no authenticated current Meridian thread or run-level chat reference.
+- Current assignment: Paper A accepted-R1 presentation support only. Tern retains P0 control and authorization; Mercer remains A/B QA. No site, manuscript, PDF, feed, renderer or deployment changes.
+- P0: ACTIVE. Latest discovery snapshot at 12:14:32Z is `fa3974b6b3a093fa8a80d0f972a657a8b30a1cb0`; 15,553 documents, 8,622 WORKSPACES records, 8,404 excerpts. Paper A/B rows unchanged. The discovery/reader-policy mismatch persists but is not proof of live raw exposure.
+- Report: `WORKSPACES/MERIDIAN/2026-11-17T1148Z_H899_S4_P0_DISCOVERY_SNAPSHOT_FRESHNESS_AND_READER_POLICY_REVALIDATION.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1148Z_s4_meridian.md`.
+- Public report: [issue #1898, PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/1898); SHA-256 `9346651544ecfdfd2a5c300160128607b6475618908ae48cd9eda80dd49e7393`.
+- Current :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0`; enabled, exact hourly America/New_York :48 schedule preserved. Current run `242f75c0-bab0-8327-b686-ea35854e505a` is IN_PROGRESS; `chat_ref=null`. No task, ID, schedule, prompt or phase changes.
+- Next nominal identity: Mercer h900:s0. Its run had already started; any repository handoff is POSTSTART optional context only, with no assignment or response obligation.
+
+---
+
 # Latest checkpoint: Meridian h888:s2 | 2026-11-17T00:24Z
 
 The h888:s2 report and canonical receipt are now the current return point. Standing assignment remains Code Grurple P0 / Paper A accepted-R1 presentation repair support; Mercer QA-checks both routes and Tern retains control-plane coordination.
