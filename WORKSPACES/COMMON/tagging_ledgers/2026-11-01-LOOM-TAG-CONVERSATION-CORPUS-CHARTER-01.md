@@ -1070,3 +1070,34 @@ No new Lean module/build, physical calculation, CODATA comparison, fit, predicti
 - This was known-path source recovery, not a Mersearch search result or exhaustive three-repository search.
 - Public-safe source report: issue #1870, submission `loom-forces-across-temporal-points-source-recovery-20261117t0124z-s2-001`, content SHA-256 `81457604148e3e2cc75393726245d9a3ddce95c993ad9ee0b1b3e46961cab15a`. Publisher status must be read back separately; issue creation alone is not publication.
 - This two-message ancestry is complete. Do not retag the already-covered 138/138 DIMENSIONAL GRAVITY user-role turns. Next source work: a distinct adjacent raw conversation or the full later Scalar-Angular-Torsion source with exact bytes/provenance, before any cross-variant map.
+
+
+## AL. 2026-11-17 | Material-history curvature versus coordinate acceleration
+
+**Run:** `REVROT3-19-20261011:897:s0`. Additive source-fidelity correction; no equation or BEDROCK promotion.
+
+### Exact source locators
+
+- `Meridian Free Build — raw.json`; conversation `6ac45d1f-17b0-83ea-ad1f-fa524602378b`; Git blob SHA-1 `7af1561b321f4d9364da5eb111df689efc652827`; 2,500 mapping nodes / 2,309 active-ancestry nodes.
+- `Meridian Minkowski Ring Analysis — raw.json`; conversation `6ad7e9c0-e8a0-83e9-984e-94d020de3abf`; Git blob SHA-1 `56a84cb85d5c386efa4ea11d322d11e95e2c7703`; 3,678 mapping nodes / 3,660 active-ancestry nodes.
+- Direct user messages on active ancestry: `3c657387-b80b-4982-a61a-8e6d8568b8d1`, `5a929b5e-515e-4f77-a32a-e49feef42812`, `1178f25c-9f92-4d1c-b43b-06482e6bf1b1`, `c1b42229-00a9-4119-aac3-cefa6cb97157`, `f658b2db-32f0-45cd-828b-140691cc9afb`, `090f5160-1020-486d-9c42-df3d7dff2063`, `c5525f53-b7cc-4444-8102-3bf6fdb1c892`, `59cdedb4-be76-455a-87c8-a6089de951b3`.
+- Library materializations were not byte-identical snapshots to the Git blob exports; final ancestry counts use exact Git blob content fetched from GitHub.
+
+### Direct geometry and translation boundary
+
+- Direct source identifies worldtube resistance to change in motion with inertia in the classical/Minkowski-limit model; filaments are approximately stationary in the block description and particle motion is described through filament topology.
+- Direct October 9 qualification: `d²x/dw²` is spatial bending relative to a chosen Newtonian time coordinate, not generally intrinsic 4D curve curvature; only the low-velocity leading magnitude agrees.
+- The timesheet is a 3D bulk/slice interacting with matter, not a 2D sheet. The source distinguishes a 4D filament from a 3D trace but leaves support dimension and projection conditions undefined.
+- The global donut/cruller/Klein-like geometry and bending/expansion relationship are descriptive working hypotheses without a defined manifold, embedding, metric or proof. October 21 direct annotations retire the reciprocal filament/timesheet-deformation model.
+- Later native `cw=t`, Forest normalization and `(++++)` remain unmapped to earlier `w=ct` and assistant-selected `q=ct`.
+
+### Formalization discrepancy
+
+- PR #873 `WorldtubeInertiaCoordinate.lean` proves `F=m*c²*κ` only from supplied Newtonian and coordinate-curvature premises. It does not prove the coordinate premise.
+- PR #873 `WorldtubeCurveCurvatureLift.lean` proves the Gram-curvature identity for the external Euclidean lift `X(w)=(x(w),w)`. It does not map the native H(s)H worldtube to that lift.
+- The modules do not type or prove a map from spatial coordinate acceleration to lifted-curve curvature. Direct source explicitly says they are not generally identical.
+- PR #873 current-head check #43202552666 and PR #1245 run #41410202260 are successful pull-request merge-reference builds, not exact-head checkout assertions. Both PRs remain open/draft/unmerged.
+
+**Tags:** `SPATIAL-SECOND-DERIVATIVE-NOT-INTRINSIC-CURVATURE`; `LOW-VELOCITY-LEADING-CURVATURE-APPROXIMATION`; `COORDINATE-ACCELERATION-VS-CURVE-CURVATURE`; `AMBIENT-RIEMANN-VS-MATERIAL-HISTORY-CURVATURE`; `EXTERNAL-EUCLIDEAN-LIFT-COMPARATOR`; `CW-T-NATIVE-MAP-UNDEFINED`; `W-CT-EARLIER-SOURCE-STRATUM`; `WORLD-TUBE-INERTIA-REPRESENTATIONAL-CLAIM`; `TIMESHEET-3D-BULK-NOT-2D-SHEET`; `KLEIN-FABRIC-DONUT-WORKING-HYPOTHESIS`; `RECIPROCAL-FILAMENT-TIMESHEET-MODEL-RETIRED`.
+
+No new Lean, physical calculation, CODATA, independent measurement, SAT-O/Blockwave equation edit or theory promotion. Next cursor: define native `cw=t` types/units and a source-authorized map, if any, between coordinate acceleration and the selected curve-curvature scalar.
