@@ -50,7 +50,7 @@ structure MetricNormalization where
   referenceScale_pos : 0 < referenceScale
 
 /-- Distance expressed in the dimensionless units fixed by a normalization. -/
-def normalizedDist {A : Type u} [PseudoMetricSpace A]
+noncomputable def normalizedDist {A : Type u} [PseudoMetricSpace A]
     (N : MetricNormalization) (x y : A) : ℝ :=
   dist x y / N.referenceScale
 
