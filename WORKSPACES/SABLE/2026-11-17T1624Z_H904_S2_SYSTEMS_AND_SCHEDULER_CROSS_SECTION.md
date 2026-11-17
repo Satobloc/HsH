@@ -126,7 +126,7 @@ A deliberate unrelated reading quantum was completed in the public SAT archive:
 - Next cursor: line 2081.
 - The passage is an old assistant transcript containing broad claims about signed-language families and Plains Indian Sign Language. Those claims were not treated as authoritative linguistic evidence.
 
-The older Babbage cursor at line 439 remains parked because its source is inside the HSH_RESOURCES internal/private boundary; no payload was opened. The FIE full review was last completed November 10; the next review is November 24, so the 14-day gate has not arrived.
+The Babbage line 439 pointer in the prior Sable boot notes was not source-located during this pass; it remains unadvanced and is not treated as an authorized path. No HSH_RESOURCES payload was opened. The FIE full review was last completed November 10; the next review is November 24, so the 14-day gate has not arrived.
 
 Campaign status remains: P0 Code Grurple ACTIVE; P1 Orson cognition OVERDUE / NOT READY and Orson-owned; P2 measured geometry HOLD, with the November 16 real-data gate unmet; P3 full theory INCOMPLETE. The November 30 major-paper and December 14 full-theory gates remain separate. No paper gate advanced.
 
