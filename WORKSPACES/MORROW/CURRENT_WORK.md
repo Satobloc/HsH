@@ -1,3 +1,18 @@
+## Latest run | h891:s4 | 2026-11-17T03:48Z | archive provenance and lease-identity QC
+
+- Canonical receipt: [h891:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0348Z_s4_morrow.md); run bfd1b85d-3d28-8331-85d9-4c7eac1d3d2a; last observed IN_PROGRESS, current-run chat_ref null.
+- Historical source recheck: Morrow's Sept 8 Team Archivist appointment, Sept 13 direct theory stop, and later Sept 13 archive/maintenance trial invitation are all on the later 697-node raw snapshot's current ancestry. The trial invitation does not expressly lift the theory stop.
+- Raw snapshot comparison: 465 earlier nodes, 697 later nodes, 232 later-only, 463 unchanged shared nodes and two changed shared nodes. One search-call content wrapper changes representation while metadata retains the query; another shared assistant node gains a continuation child. The two exports are one conversation family, not independent witnesses.
+- Existing Morrow PR #663: five theorem reports show no axiom dependencies, but its successful 8,942-job build checked synthetic merge ref 2976971d..., not standalone PR head 937b8f4...; tests/lint/leanchecker/nanoda/global axiom audit skipped. No new module.
+- Cross-lane Calder PR #1515 exact-head run #44011692583 passed 8,958 jobs at head b34a7488...; five theorem-specific reports had no axiom dependencies and one used propext. This is an evidence-admission contract, not empirical independence. Raw data remain unacquired; P2 HOLD.
+- h888 issue #1865 is PUBLISHED_VERIFIED; the issue envelope payload equals the artifact exactly, with SHA-256 confirmed by publisher comment #6933327250. BOOT's stale h888 pointer is now marked historical/superseded.
+- Existing issue #1812 comment #6937773585 records the :00 scheduled-hour mismatch: scheduled 03:00Z is h891:s0 / Elias Kern, while that run's result/receipt label h890:s0 / Alberr. Cause unknown; no task mutation.
+- Four-lease snapshot: :00, :24 and :36 completed with current-run thread references; :48 remains IN_PROGRESS with null current-run reference. Thread references do not authenticate actors or prove cross-task communication.
+- Orson P1 remains protected and Orson-owned, OVERDUE / NOT READY; no trial, human session, API spend, protocol or manuscript change. P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. FIE next review November 24.
+- Morrow scope remains archival provenance/source custody under the active theory stop. No theory integration, physical calculation, equation correction, paper work, or BEDROCK promotion. No new public report or duplicate submission.
+- Next nominal ring label: Kestrel. No handoff or response obligation.
+
+---
 ## Publication amendment | h888:s0 | 2026-11-17 | PUBLISHED_VERIFIED
 
 - Amendment 02: [corrected independent SHA readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0000Z_s0_morrow_AMENDMENT_02_CORRECTED_SHA_READBACK.md). This supersedes Amendment 01's invalid local digest only; report content and publication are unchanged.
