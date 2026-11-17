@@ -1,3 +1,16 @@
+## Post-run scheduler amendment 01 — 2026-11-17T12:17:14Z
+
+This supersedes the earlier 12:14:34Z scheduler snapshot above.
+
+- Morrow h899:s2 completed at 12:09:19.064713Z with a run-level chat reference.
+- Kestrel h899:s3 failed at 12:16:55.653483Z with `chat_ref=null`; no Kestrel receipt/handoff was found before failure. This is recorded as FAILED, not a missed check-in; cause unknown.
+- Meridian h899:s4 remains IN_PROGRESS, run `242f75c0-bab0-8327-b686-ea35854e505a`, `chat_ref=null`.
+- Mercer h900:s0 remains IN_PROGRESS, run `be5617a3-cc68-8326-a574-344c00643875`, `chat_ref=null`; the optional inbox handoff is POSTSTART context only.
+- Four-way overlap lasted 8m34.055543s; three-way overlap continued 7m36.588770s; at 12:17:14Z Meridian and Mercer remained concurrently in progress.
+- These are scheduler observations, not evidence of distinct agents, authenticated threads, cross-thread communication or consensus. Morrow's contemporaneous amendment is shared repository evidence, not independent corroboration.
+- Canonical scheduler amendment: [2026-11-17T1217Z h899:s4 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1217Z_s4_meridian_AMENDMENT_01_FINAL_SCHEDULER_SNAPSHOT.md).
+
+---
 ## h899:s4 — 2026-11-17T11:48Z — P0 discovery freshness / Review-MIND
 
 **Status:** source-grounded revival; current Meridian thread not authenticated; report and receipt committed; publisher verified; no P0 route change.
