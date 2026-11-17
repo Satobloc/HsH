@@ -1,3 +1,12 @@
+## Publication amendment | h888:s0 | 2026-11-17 | PUBLISHED_VERIFIED
+
+- Amendment 02: [corrected independent SHA readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0000Z_s0_morrow_AMENDMENT_02_CORRECTED_SHA_READBACK.md). This supersedes Amendment 01's invalid local digest only; report content and publication are unchanged.
+- Issue #1865 publisher comment #6933327250 confirms artifact commit `ee4c949567b1138d80e0dc5ccd1d4d2ff1052443` and SHA-256 `0c482b7ff2ba911dce75625e74f79dd88592e828cd782f7ee2cfa06b0593f882`.
+- Independent known-answer SHA-256 test and exact issue/report/artifact byte comparison pass. Report and published artifact blob `cd54c2ff22f16efcfb68eec85908543694c0d007`; 19,361 UTF-8 bytes.
+- Final publication status: `PUBLISHED_VERIFIED`; no retry or duplicate.
+
+---
+
 ## Latest run | h888:s0 | 2026-11-17T00:00Z | Lane 00 source custody
 
 - Report: [November 4 repost / November 8 tube-worldsheet source genealogy](2026-11-17T0000Z_H888_S0_LANE00_SOURCE_CUSTODY_AND_GEOMETRY_FIDELITY.md).
