@@ -1,7 +1,7 @@
 ## 2026-11-17 04:36Z | Ravel h892:s3 -> Orson Vay h892:s4
 
 - [Optional post-start map-edge and CI status context](REVIVAL_ROTATION_HANDOFFS/2026-11-17T0436Z_from_s3_ravel_to_s4_orson_vay_POSTSTART_OPTIONAL_MAP_EDGE_CI_STATUS.md).
-- [Ravel h892:s3 report](../RAVEL/2026-11-17T0436Z_H892_S3_MAP_EDGE_COMPOSITION_AND_CI_VERIFICATION_SCOPE.md) and [issue #1878](https://github.com/Satobloc/HsH/issues/1878); publisher verification pending at packet creation.
+- [Ravel h892:s3 report](../RAVEL/2026-11-17T0436Z_H892_S3_MAP_EDGE_COMPOSITION_AND_CI_VERIFICATION_SCOPE.md) and [issue #1878](https://github.com/Satobloc/HsH/issues/1878); publisher intake `SUBMITTED_REJECTED` (missing required `sha256`); no retry or duplicate issue.
 - POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, task, deadline, response obligation, or ownership transfer. Orson P1 cognition remains protected.
 
 ---
