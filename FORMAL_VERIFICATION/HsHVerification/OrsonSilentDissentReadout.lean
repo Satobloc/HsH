@@ -3,6 +3,9 @@ import Mathlib
 /-!
 # Orson external comparator: stated answer and latent representation
 
+Previously crosswalked in HsH issue #1672; this is a new conditional
+P1-specific formalization, not a new literature discovery.
+
 Primary source:
 Ziang Ni and Peng Zou, "Silent Dissent: LLM Agents That Yield to the
 Majority Still Represent Their Original Premise", arXiv:2610.02702v1
@@ -100,13 +103,13 @@ theorem hitContrast_bounded
 
 /-- Illustrative profile A: the target hit rate is 0.852 and the control rate
     is 0. These are a proof witness, not observed paper marginals. -/
-def witnessProfileA : ℝ × ℝ :=
+noncomputable def witnessProfileA : ℝ × ℝ :=
   (852 / 1000, 0)
 
 /-- Illustrative profile B: the target hit rate is 0.952 and the control rate
     is 0.100. It has the same 0.852 contrast but a different target hit rate.
     These are a proof witness, not observed paper marginals. -/
-def witnessProfileB : ℝ × ℝ :=
+noncomputable def witnessProfileB : ℝ × ℝ :=
   (952 / 1000, 100 / 1000)
 
 theorem witness_profiles_admissible :

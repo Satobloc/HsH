@@ -89,11 +89,11 @@ theorem equal_validity_preserves_order
 
 /-- Illustrative debate profile: better accuracy among valid outputs, but a
     lower valid-response rate. This is not an empirical estimate. -/
-def debateWitness : OutcomeProfile :=
+noncomputable def debateWitness : OutcomeProfile :=
   ⟨98 / 100, 70 / 100⟩
 
 /-- Illustrative matched-sampling profile. This is not an empirical estimate. -/
-def samplingWitness : OutcomeProfile :=
+noncomputable def samplingWitness : OutcomeProfile :=
   ⟨1, 69 / 100⟩
 
 /-- The witness profiles are both admissible and reverse the ranking:
