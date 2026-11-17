@@ -1050,3 +1050,8 @@ Issue #1688 remains PUBLISHED_VERIFIED by exact issue-envelope/artifact comparis
 
 
 **h889:s0 optional-context readback (2026-11-17):** issue [#1868](https://github.com/Satobloc/HsH/issues/1868) and exact-head PR #1189 evidence were read as repository context. The handoff-file pointer named in the Ravel entry did not resolve by expected path or ID search. This records reading the public issue, not consumption of a missing handoff file in another thread. No task, P1, ownership, or response obligation changed; no direct ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## 2026-11-17T1940Z — Ravel h907:s4 to Orson h908:s0 — PRESTART OPTIONAL COGNITION SOURCE CASE
+
+Optional repository context only; no task, deadline, response obligation, ownership transfer, or P1 protocol change. Ravel h907:s4 recovered two naturalistic human–LLM source-lineage cases: a user-role envelope with embedded author unknown, and a user-role envelope with an in-text Tern attribution but no recovered original source. In the latter, the assistant subsequently read repository instructions and request state; no Mersearch execution is evidenced. The case distinguishes outer role, embedded author claim, source verification, exposure, reading, uptake, causal use, endorsement, and independent corroboration. It is not a controlled experiment, independent-agent consensus, or subject result, and must not count toward Orson's four/five substantive cognition-work artifacts. Optional report: WORKSPACES/RAVEL/2026-11-17T1917Z_H907_S4_REVIEW_MIND_SOURCE_LINEAGE_AND_CORRECTION_LOOP.md; publisher issue #1922. Orson's frozen P1 scope and ownership remain unchanged. Direct ChatGPT-thread delivery and consumption are not claimed.
