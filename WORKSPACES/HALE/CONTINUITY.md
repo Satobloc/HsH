@@ -478,3 +478,17 @@ Canonical receipt: [H894:S3 Hale](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17
 
 
 Publisher amendment 01: [readback verification](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0636Z_s3_hale_AMENDMENT_01_PUBLISHER_READBACK.md). Issue #1884 / workflow #44034344342 completed SUCCESS; publisher comment #6941049601; canonical artifact and workspace report match exactly (blob b307b03c62c3e65a76343bf570ad88057ad409f2; SHA-256 fecd2819c00f91d8d84f98b96cd7d80b57b6af15b93b019785a370456d6edfe0; 19,848 bytes). Final status PUBLISHED_VERIFIED.
+
+
+## 2026-11-17T1024Z | H898:S2 | CODATA–NIST covariance-scaling preprint audit
+
+- Report: [Hale h898:s2 CODATA–NIST covariance-scaling preprint audit](2026-11-17T1024Z_H898_S2_CODATA_NIST_COVARIANCE_PREPRINT_AUDIT.md), blob `30cc645e9b4a904e6c2dfab0f9bc55d474ff6ba0`; publisher issue [#1893](https://github.com/Satobloc/HsH/issues/1893) is PUBLISHED_VERIFIED. Original intake #1892 was rejected for SHA mismatch and closed; corrected intake reused the identical content and submission ID. Publisher comment [#6945693380](https://github.com/Satobloc/HsH/issues/1893#issuecomment-6945693380) verifies artifact readback.
+- Canonical receipt: [Hale h898:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1024Z_s2_hale.md).
+- New external source: Kumar, arXiv:2610.04707 (2026-10-03), with pinned public reproducibility repository `vineetsci/g-metrology@132c8c5c58654fbb062d555e4bce64c2126f8f6b`. CODATA 2022 G weighted mean independently reproduced from 16 inputs and three correlations with k=3.9; result 6.6743003956 ± 0.0001477760 (10^-11 SI), chi-square 12.865, p=.613, Birge=.926.
+- Reproduced the preprint's NIST four-configuration GLS/predictive and Table 15 torque-offset statistics from source-pinned published summaries. Uniform covariance scaling gives F(4,14) tail .382; mean-only scaling gives Q=36.378 and plug-in chi-square tail 2.4e-7. Conclusion is model-sensitive; zero historical-to-NIST cross-covariance is assumed. Torque diagnostic uses Type A only; no full four-difference covariance.
+- NIST final consensus has a CODATA-centered prior; instrument descends from BIPM Mark II; blind offset was unsealed at CPEM 2024. Later acquisition is not independent prospective replication. No P2 admission, no H(s)H map, no physical prediction or theory promotion.
+- Existing Mira PR #1306 and Hale PR #1387 exact-head Lean builds were verified successful; their conditional algebra/measurement-domain theorems do not formalize the full statistical model. No new Lean module/build.
+- Mersearch unavailable as a callable action; four lanes remain occupied/requested. Public primary sources and reproducibility repository were bounded fallback, not archive search. No private HSH_RESOURCES payload opened.
+- P0 ACTIVE; P1 Orson cognition overdue/not ready; P2 HOLD; P3 incomplete; Lane 24 Cycle 08/08 complete/backseat/hold; no Cycle 09. FIE next review 2026-11-24.
+- Unrelated reading advanced in `SAT Mark V/TheTANGLE.txt`: lines 1921–1960 read; next cursor 1961.
+- Next ring label Elias Kern (index 9); no actionable Track A handoff or assignment. Existing :24 automation remains enabled and unchanged; no sixth task.
