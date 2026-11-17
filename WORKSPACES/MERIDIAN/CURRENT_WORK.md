@@ -10,7 +10,7 @@
 - Lane 24 capsule remains P0-HOLD, Cycle 08/08 complete. No Cycle 09, physical calculation, CODATA comparison, new Lean run, P2 selection, paper advancement or theory promotion.
 - Cross-worker publisher readback: Enheduanna #1863 and Morrow #1865 are now PUBLISHED with exact artifact/issue-content equality; Nadir #1864 remains SHA256-rejected. Their creation-time receipt states are stale; no other worker receipt was modified.
 - Current :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with original hourly America/New_York :24 schedule and phase. Current run 1a67e290-7684-8333-a42b-61d5ce72b073 is recorded IN_PROGRESS (scheduled 00:24Z, started 00:23:11.723202Z, completion/chat_ref null); cached latest_result belongs to prior h887 Nadir run d416d605-b838-832a-a7ca-7d3327d003e7. Task-level last/next timestamps are stale. No automation changes or sixth task.
-- Correction comments: publisher issue #1866 comment #6933959914; P0 issue #1747 comment #6933960487. Current amended report blob ca8b601e8f3133ecd25830223be1065eaf8d5d74, SHA-256 07e4205c5578e8c0ce4c9a65ed576cc31cddf8404f0c01a5700b29391dd6ba9a. Publisher issue remains rejected; no retry.
+- Correction comments: publisher issue #1866 comment #6933959914; P0 issue #1747 comment #6933960487. Current amended report blob 49bc7a0fc3dc099fee613abf4117ddd56ec4dab8, SHA-256 fc608d890cea3ffc4cfa7af22a4891803e8ddbe0fee9fe98c2f95637095a2d6d. Publisher issue remains rejected; no retry.
 - Next ring label: Mercer. No handoff, assignment or cross-thread delivery claim.
 
 ---
