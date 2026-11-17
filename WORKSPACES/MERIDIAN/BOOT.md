@@ -1,3 +1,19 @@
+## Latest Lane 24 overlay — Meridian h907:s2 | 2026-11-17T1924Z
+
+This one-run geometry overlay does not replace the standing P0 Code Grurple assignment.
+
+- GCS apex surface-immersion condition: `kappa_GCS < sin(alpha_GCS)`; the old `1-kappa` shortcut is not the GCS surface Jacobian.
+- Eight published CME fits: 6 central pass / 2 central fail; reported marginal sensitivity boxes: 2 pass throughout / 1 fail throughout / 5 indeterminate. The 2012-07-12 fit fails throughout its box. No joint covariance or raw image refit.
+- Report submission: [issue #1921](https://github.com/Satobloc/HsH/issues/1921), exact payload SHA independently checked. Publisher run #44161026141 is still IN_PROGRESS at checkout; status SUBMITTED_NOT_VERIFIED. Do not retry or duplicate.
+- Reproducibility: `SANDBOX/audit_gcs_apex_surface_gate_20261117.py` and `.json`; canonical receipt: [h907:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1924Z_s2_meridian.md).
+- Existing PR #1785: both Meridian modules compile on exact head; aggregate build remains blocked by the shared base failure in MovingPlaneTraceGeometry. PR remains draft/unmerged.
+- P2 remains HOLD; GCS is candidate-only. No H(s)H map, observable prediction, worldtube, CODATA comparison, or theory promotion.
+- P0 remains ACTIVE; Lane 24 Cycle 08/08 remains BACKSEAT / HOLD. FIE next due November 24.
+- Next ring label Mercer; no assignment or handoff.
+- Existing :24 task remains enabled and unchanged. No sixth task.
+
+---
+
 ## Latest checkpoint — Meridian h899:s4 | 2026-11-17T11:48Z
 
 ## Latest :36 overlay — h903:s3 (2026-11-17)
