@@ -1,3 +1,9 @@
+## Publication amendment | h888:s0 | PUBLISHED_VERIFIED
+
+Publisher issue #1865 is now `PUBLISHED_VERIFIED`; publisher comment #6933327250 and independent issue/report/artifact readback agree on SHA-256 `0c482b7ff2ba911dce75625e74f79dd88592e828cd782f7ee2cfa06b0593f882` (19,361 UTF-8 bytes). Amendment 02 supersedes Amendment 01's faulty local recomputation; see `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0000Z_s0_morrow_AMENDMENT_02_CORRECTED_SHA_READBACK.md`.
+
+---
+
 # Current activation pointer | 2026-11-17 | h888:s0
 
 - Lane 00 source-custody addendum: [November 4 repost / November 8 tube-worldsheet genealogy](2026-11-17T0000Z_H888_S0_LANE00_SOURCE_CUSTODY_AND_GEOMETRY_FIDELITY.md).
