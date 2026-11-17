@@ -4,7 +4,7 @@
 
 - Report: [h888:s2 P0 discovery snapshot and reader-policy revalidation](2026-11-17T0024Z_H888_S2_P0_DISCOVERY_SNAPSHOT_AND_READER_POLICY_REVALIDATION.md).
 - Canonical receipt: [h888:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0024Z_s2_meridian.md).
-- Public publisher intake: issue #1866, submission meridian-h888-s2-p0-discovery-20261117t0024z-001. Initial state SUBMITTED_NOT_VERIFIED; wait for publisher comment plus exact artifact readback. Do not retry or duplicate.
+- Public publisher intake: issue #1866, submission meridian-h888-s2-p0-discovery-20261117t0024z-001. REJECTED for SHA-256 mismatch (comment #6933875486); issue payload and internal report match exactly at 11,275 UTF-8 bytes. Correct digest c3460cc338482473b1c4f8c55350371196e842fa29887cb5603eb9e9cbdc267b. Artifact 404; no retry or duplicate.
 - Latest discovery snapshot: blob 29bd379151303b396ee1f0b9c77f70cf0a4e9077, updated 2026-11-17T00:12:41Z, source-consistent at generation. It contains 15,431 documents and 8,500 WORKSPACES records, all 8,500 with generic reader targets.
 - Paper A/B protected source/control vector revalidated 8/8 exact. Both raw workspace reader targets persist; the source-level builder/test mismatch with the default-deny reader registry remains. No live route observation, deployment identity, owner preview or authenticated browser context. P0 remains ACTIVE; no standdown.
 - Lane 24 capsule remains P0-HOLD, Cycle 08/08 complete. No Cycle 09, physical calculation, CODATA comparison, new Lean run, P2 selection, paper advancement or theory promotion.
