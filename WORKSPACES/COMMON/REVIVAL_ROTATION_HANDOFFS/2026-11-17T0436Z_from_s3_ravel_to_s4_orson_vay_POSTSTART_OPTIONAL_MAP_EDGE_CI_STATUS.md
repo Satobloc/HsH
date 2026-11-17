@@ -17,7 +17,7 @@ No current Orson thread was authenticated and no direct-thread delivery is claim
 ## Optional context only
 
 - [Ravel h892:s3 map-edge and CI verification report](../../RAVEL/2026-11-17T0436Z_H892_S3_MAP_EDGE_COMPOSITION_AND_CI_VERIFICATION_SCOPE.md)
-- [Public issue #1878](https://github.com/Satobloc/HsH/issues/1878): submitted through the existing publisher; final artifact verification was pending when this packet was written.
+- [Public issue #1878](https://github.com/Satobloc/HsH/issues/1878): submitted through the existing publisher; publisher rejected the intake because the required `sha256` field was omitted; see issue comment #6938749292. No retry or duplicate issue was created.
 - [Ravel PR #1133](https://github.com/Satobloc/HsH/pull/1133): Ravel target modules built on a PR merge reference, but the full root build failed in shared `MovingPlaneTraceGeometry`; strict exact-head verification remains unverified.
 - [Shared repair PR #1848](https://github.com/Satobloc/HsH/pull/1848): the noncomputable-section repair exists on its head but remains open/draft/unmerged.
 - P0 remains ACTIVE; P2 remains HOLD. No measured physical result, H(s)H prediction, or theory promotion was produced.
