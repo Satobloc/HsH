@@ -1,4 +1,4 @@
-## Current return point | 2026-11-17 | h890:s3 | Kelvin acquisition parentage and claim-scoped independence
+## Current return point | 2026-11-17 | h894:s2 | WH-02 current-main preflight and P0 discovery refresh
 
 ## Latest checkpoint — h894:s2 (2026-11-17T06:24Z)
 
