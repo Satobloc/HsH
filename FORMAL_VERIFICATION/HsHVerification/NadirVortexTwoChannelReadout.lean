@@ -364,3 +364,76 @@ theorem separated_pair_excludes_lipschitz_decoder
 end ResolutionLimitedReadout
 
 end HsHVerification.NadirVortexTwoChannelReadout
+
+
+namespace HsHVerification.NadirVortexTwoChannelReadout
+
+/-!
+## Quarter-turn rescue of the nodal m=1/m=2 alias
+
+The source-defined antipodal readout distinguishes m=1 and m=2 exactly when
+ε cos φ ≠ 0. If ε ≠ 0 but cos φ = 0, the two antipodal channels alias.
+The following conditional theorem shows that one additional contour sample
+at θ = π/2 separates the two modes in that nodal case.
+
+This is an assistant-proposed sampling augmentation to the paper's
+single-harmonic radial ansatz. It does not claim that the published camera
+pipeline already acquired this quarter-turn sample, that the paper's
+camera/view description is resolved, or that the result is an H(s)H
+physical prediction.
+-/
+
+/-- The proposed augmented observation: the existing antipodal pair plus
+    one additional radial-contour sample at a quarter turn. -/
+def antipodalQuarterReadout (m : ℕ) (a₀ ε φ : ℝ) : Readout × ℝ :=
+  (antipodalModeReadout m a₀ ε φ,
+    radialModeContour m a₀ ε φ (Real.pi / 2))
+
+/-- If the antipodal pair aliases m=1 and m=2 while the harmonic amplitude
+    is nonzero, the additional quarter-turn contour sample separates them. -/
+theorem quarterTurn_resolves_nodal_one_two_alias
+    (a₀ ε φ : ℝ) (hε : ε ≠ 0)
+    (hAlias : antipodalModeReadout 1 a₀ ε φ =
+      antipodalModeReadout 2 a₀ ε φ) :
+    radialModeContour 1 a₀ ε φ (Real.pi / 2) ≠
+      radialModeContour 2 a₀ ε φ (Real.pi / 2) := by
+  have hsignal : ε * Real.cos φ = 0 :=
+    (antipodalModeReadout_one_two_eq_iff_signal_zero a₀ ε φ).mp hAlias
+  have hcos : Real.cos φ = 0 :=
+    (mul_eq_zero.mp hsignal).resolve_left hε
+  have hsin : Real.sin φ ≠ 0 := by
+    intro hsin0
+    have hnorm := Real.sin_sq_add_cos_sq φ
+    rw [hsin0, hcos] at hnorm
+    norm_num at hnorm
+  have htwo : (2 : ℝ) * (Real.pi / 2) = Real.pi := by ring
+  have hdiff :
+      radialModeContour 1 a₀ ε φ (Real.pi / 2) -
+      radialModeContour 2 a₀ ε φ (Real.pi / 2) =
+        -ε * Real.sin φ := by
+    simp [radialModeContour, htwo, Real.cos_add, hcos]
+    ring
+  intro hEq
+  have hzero :
+      radialModeContour 1 a₀ ε φ (Real.pi / 2) -
+      radialModeContour 2 a₀ ε φ (Real.pi / 2) = 0 :=
+    sub_eq_zero.mpr hEq
+  rw [hdiff] at hzero
+  exact (mul_ne_zero (neg_ne_zero.mpr hε) hsin) hzero
+
+/-- The augmented observation separates m=1 from m=2 for every phase
+    whenever the harmonic amplitude is nonzero. -/
+theorem antipodalQuarterReadout_separates_one_two
+    (a₀ ε φ : ℝ) (hε : ε ≠ 0) :
+    antipodalQuarterReadout 1 a₀ ε φ ≠
+      antipodalQuarterReadout 2 a₀ ε φ := by
+  intro hEq
+  have hAlias := congrArg Prod.fst hEq
+  have hQuarter := congrArg Prod.snd hEq
+  exact quarterTurn_resolves_nodal_one_two_alias
+    a₀ ε φ hε hAlias hQuarter
+
+#print axioms quarterTurn_resolves_nodal_one_two_alias
+#print axioms antipodalQuarterReadout_separates_one_two
+
+end HsHVerification.NadirVortexTwoChannelReadout
