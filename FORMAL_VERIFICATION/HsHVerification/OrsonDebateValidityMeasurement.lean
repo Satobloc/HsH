@@ -36,7 +36,6 @@ namespace OrsonDebateValidityMeasurement
 structure OutcomeProfile where
   validRate : ℝ
   conditionalAccuracy : ℝ
-  deriving Repr
 
 /-- Both components are interpreted as probabilities. -/
 def admissible (p : OutcomeProfile) : Prop :=
@@ -87,29 +86,28 @@ theorem equal_validity_preserves_order
       mul_lt_mul_of_pos_left haccuracy (by simpa [hvalid] using hvalidPos)
     _ = debate.validRate * debate.conditionalAccuracy := by rw [hvalid]
 
-/-- Illustrative debate profile: better accuracy among valid outputs, but a
-    lower valid-response rate. This is not an empirical estimate. -/
-noncomputable def debateWitness : OutcomeProfile :=
-  ⟨98 / 100, 70 / 100⟩
-
-/-- Illustrative matched-sampling profile. This is not an empirical estimate. -/
-noncomputable def samplingWitness : OutcomeProfile :=
-  ⟨1, 69 / 100⟩
-
-/-- The witness profiles are both admissible and reverse the ranking:
-    debate is better conditional on validity, but worse after invalid
-    responses are scored incorrect. -/
-theorem unequal_validity_can_reverse_ranking :
-    admissible debateWitness ∧
-    admissible samplingWitness ∧
-    samplingWitness.conditionalAccuracy < debateWitness.conditionalAccuracy ∧
-    observedAccuracy debateWitness < observedAccuracy samplingWitness := by
-  norm_num [admissible, debateWitness, samplingWitness, observedAccuracy]
+/-- A lower response-validity rate can overturn a higher conditional
+    accuracy when its penalty exceeds the conditional-accuracy gain.
+    This is a conditional algebraic statement; no numerical witness is
+    supplied. -/
+theorem lower_validity_can_overturn_higher_conditional_accuracy
+    (debate sampling : OutcomeProfile)
+    (hAccuracy : sampling.conditionalAccuracy < debate.conditionalAccuracy)
+    (hValidity : debate.validRate < sampling.validRate)
+    (hPenalty :
+      debate.validRate *
+          (debate.conditionalAccuracy - sampling.conditionalAccuracy) <
+        sampling.conditionalAccuracy *
+          (sampling.validRate - debate.validRate)) :
+    observedAccuracy debate < observedAccuracy sampling := by
+  apply (sub_lt_zero).mp
+  rw [observed_accuracy_difference_decomposition]
+  nlinarith
 
 #print axioms observed_accuracy_bounded
 #print axioms observed_accuracy_difference_decomposition
 #print axioms equal_validity_preserves_order
-#print axioms unequal_validity_can_reverse_ranking
+#print axioms lower_validity_can_overturn_higher_conditional_accuracy
 
 end OrsonDebateValidityMeasurement
 end HsHVerification
