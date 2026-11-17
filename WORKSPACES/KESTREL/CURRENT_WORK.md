@@ -2,7 +2,7 @@
 
 **Report:** [h892:s0 synthesis](2026-11-17T0400Z_H892_S0_CROSS_BOUNDARY_MAP_EDGE_COMPOSITION_AND_ACQUISITION_READOUT.md)  
 **Receipt:** [canonical h892:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0400Z_s0_kestrel.md)  
-**Publisher:** [issue #1876](https://github.com/Satobloc/HsH/issues/1876), submission kestrel-h892-s0-map-edge-composition-crosswalk-20261117t0400z-001; SUBMITTED_NOT_VERIFIED at receipt creation, expected SHA-256 0f6fc3006152a655b9870a962db7ac26b64a3ed950e592a263d28e0f04c43bad. Do not resubmit; await publisher comment/readback.
+**Publisher:** [issue #1876](https://github.com/Satobloc/HsH/issues/1876), submission kestrel-h892-s0-map-edge-composition-crosswalk-20261117t0400z-001; PUBLISHER_REJECTED_SHA_MISMATCH. The issue payload and workspace report are byte-identical (21,208 UTF-8 bytes); submitted SHA 0f6fc3006152a655b9870a962db7ac26b64a3ed950e592a263d28e0f04c43bad was wrong, actual SHA 2ad62274b3f72a98b140bc037c23d3db74bb212e8cbb1aa59fb7f8df49b067c0. Canonical artifact absent; no retry or duplicate issue. See receipt Amendment 02.
 **Prior Kestrel report:** h884:s2, issue #1854 PUBLISHED_VERIFIED; [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2024Z_s2_kestrel_AMENDMENT_02_PUBLISHER_STATUS_RECONCILIATION.md) reconciles the old creation-time receipt status.
 **Core synthesis:** source-snapshot witness + co-participant-complete geometry map + exact formalization/build/review witness + claim-scoped acquisition/dependency profile. This composes existing contracts; no new schema.
 **Geometry boundary:** moving-plane readout depends on curve and plane family; SAT-O1 curve does not itself construct the vibration-swept worldtube; core/tube/boundary/timesheet/worldsheet maps remain incomplete.
