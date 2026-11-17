@@ -1156,3 +1156,4 @@ The packet records:
 
 This is not a task, review request, deadline, response obligation, ownership transfer, or claim of direct ChatGPT-thread delivery, consumption, or acknowledgment. No authenticated current Ravel thread was established.
 - Addendum 01: later same-ID :36 start-time mutation and three-lease overlap are recorded in the linked packet and [scheduler issue #1812 comment #6953546595](https://github.com/Satobloc/HsH/issues/1812#issuecomment-6953546595).
+- Addendum 02: final 16:08:10Z P0 refresh recorded in the linked packet: main c4fc8d46, discovery blob ab241808a204cb2406513003d94cf3a0c47ba155 (content unavailable), ten protected source/control blobs still 10/10 exact; live routes NOT OBSERVED and P0 ACTIVE.
