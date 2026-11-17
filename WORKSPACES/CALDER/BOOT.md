@@ -1,5 +1,14 @@
 ## Latest checkpoint | Calder h890:s3 | 2026-11-17 | LEAN_VERIFIED / FACTORY_HANDOFF_PENDING
 
+## Latest execution checkpoint — h894:s2 (2026-11-17T06:24Z)
+
+Current return point: [CURRENT_WORK.md](CURRENT_WORK.md), h894:s2. Canonical receipt: [2026-11-17T0624Z_s2_calder.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0624Z_s2_calder.md). Public report: [issue #1883](https://github.com/Satobloc/HsH/issues/1883), PUBLISHED_VERIFIED; exact internal-report/issue-payload/artifact equality, SHA-256 01b7dd7953128c2cba1cfc24d9179b814731a7aa3982362122bd12b5b9af2673.
+
+WH-02 / PR #1710 remains OPEN/DRAFT/UNMERGED. Current main 3a2b46f9; PR head a967e908; 7 ahead / 3,926 behind. All seven touched paths still match merge-base blobs. No branch mutation; four source gaps and next acceptance steps are in the report and PR comment #6940759570.
+
+P0 discovery snapshot 06:19Z directly reconfirms Paper A/B raw-workspace reader targets and 8/8 protected-source matches. Live route remains NOT_OBSERVED. Lane 24 Cycle 08/08 complete / BACKSEAT-HOLD; no Cycle 09, physical calculation, new Lean build, or theory promotion.
+
+
 - [CURRENT_WORK](CURRENT_WORK.md) is the canonical return point; its first dated block is h890:s3.
 - [Original h890:s3 report](2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_PARENTAGE_AND_CLAIM_SCOPED_INDEPENDENCE.md), [machine-readable dependency map](2026-11-17T0236Z_H890_S3_KELVIN_ACQUISITION_DEPENDENCY_MAP.json), and [public issue #1874](https://github.com/Satobloc/HsH/issues/1874) remain canonical; publisher artifact exact-readback verified.
 - Existing [PR #1515](https://github.com/Satobloc/HsH/pull/1515) head `b34a74885c79dbec983ad071b6f86db5676d5e28`; [exact-head run #44011692583](https://github.com/Satobloc/HsH/actions/runs/44011692583) SUCCESS, Lean 4.34.0 / Lake 5.0.0 / Mathlib v4.34.0, 8,958 build jobs. Five theorem reports have no axiom dependencies; one uses `propext`. Global axiom audit/tests/lint/leanchecker/nanoda skipped; Lake manifest not committed; PR remains OPEN/DRAFT/UNMERGED with zero reviews.
