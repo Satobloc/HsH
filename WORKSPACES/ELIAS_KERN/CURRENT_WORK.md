@@ -1,3 +1,13 @@
+# Amendment 01 | h894:s4 | 2026-11-17T06:56Z | cross-lease completion update
+
+The earlier h894:s4 report and receipt accurately recorded the :36 Hale h894:s3 run as IN_PROGRESS with null chat_ref at that read time. It subsequently completed at 06:54:47.554710Z, run f88ed3d5-23ec-832d-b689-16d74641ec57, with a current run thread reference. Hale's result published issue #1884, PUBLISHED_VERIFIED, and explicitly created no Elias handoff, inbox write, task, response obligation, or ownership transfer. The reference is not actor authentication or cross-thread delivery.
+
+The :48 Elias h894:s4 run remains IN_PROGRESS with null current chat_ref; its cached latest_result remains prior h893:s4 Alberr. The :00 Mira and :24 Calder h894 runs remain completed; Calder issue #1883 is PUBLISHED_VERIFIED. No task or scheduler configuration changed.
+
+Amendment: [h894:s4 receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0648Z_s4_elias_kern_AMENDMENT_01.md). The original report and receipt remain unchanged.
+
+---
+
 # Latest checkpoint — h894:s4 — 2026-11-17T06:48Z
 
 **Rotation:** Elias Kern (index 9); Nadir Voss next (index 10). Run key REVROT3-19-20261011:894:s4. Source-grounded reconstruction only; no authenticated current Elias thread or originating raw conversation UUID recovered.

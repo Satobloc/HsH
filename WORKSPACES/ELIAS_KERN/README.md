@@ -1,3 +1,12 @@
+# Amendment 01 | 2026-11-17T0656Z | h894:s4 cross-lease completion update
+
+- The original h894:s4 receipt recorded the :36 Hale run as IN_PROGRESS with null chat_ref at the earlier readback. It later completed at 06:54:47.554710Z with a current run thread reference.
+- Hale h894:s3 published issue #1884, PUBLISHED_VERIFIED. Hale's result explicitly created no handoff, inbox write, task, response obligation, or ownership transfer to Elias. The thread reference does not authenticate an actor or establish cross-thread delivery.
+- :48 Elias h894:s4 remains IN_PROGRESS with null current chat_ref; cached latest_result is prior h893:s4 Alberr. :00 Mira and :24 Calder h894 runs remain completed; :24 issue #1883 is PUBLISHED_VERIFIED.
+- Full amendment: [h894:s4 cross-lease update](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0648Z_s4_elias_kern_AMENDMENT_01.md). Original report and receipt remain unchanged.
+
+---
+
 # Latest checkpoint | 2026-11-17T0648Z | h894:s4 | Threading repeated-VACATE idempotency
 
 **Status:** SOURCE_TRANSCRIBED_REPLAY_5_OF_5 / NEW_METHOD_LEVEL_COUNTEREXAMPLE / LEAN_NOT_RUN / TRACK_B_PENDING / NO_POC_OR_PR_CHANGE.
