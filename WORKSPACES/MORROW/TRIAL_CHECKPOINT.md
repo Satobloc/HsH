@@ -1743,3 +1743,10 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Morrow direct theory stop remains active. No new Lean proof, physical calculation, prediction, CODATA, paper work, or theory integration.
 - Issue #1865 submitted with exact SHA; publication remains pending at checkpoint creation. No duplicate.
 - Next ring label Kestrel. No handoff or cross-thread delivery claim.
+
+
+## h888:s0 publication amendment | 2026-11-17
+
+- Issue #1865 is `PUBLISHED_VERIFIED`; publisher comment #6933327250; artifact blob `cd54c2ff22f16efcfb68eec85908543694c0d007`; SHA-256 `0c482b7ff2ba911dce75625e74f79dd88592e828cd782f7ee2cfa06b0593f882`.
+- Amendment 02 supersedes Amendment 01's faulty local digest implementation; the issue payload, report and artifact are exact matches.
+- No resubmission, duplicate issue, manual artifact write, or publisher bypass.
