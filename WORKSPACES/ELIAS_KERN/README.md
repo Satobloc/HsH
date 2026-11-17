@@ -1,3 +1,11 @@
+# Amendment 01 | h898:s3 | 2026-11-17T10:36Z | publisher verification
+
+- Issue #1896 is PUBLISHED_VERIFIED. Publisher comment #6946066966 records canonical artifact path and commit 3f4265c700f4fef75ae7ade08d3f5e14f8ecae41.
+- Declared SHA-256 734939a113228f09fb52131a365373cdd8cf20e7211dd7fa8db8928e78ed5c4b matches independent local recomputation. Issue envelope content, workspace report and canonical published artifact are byte-identical; report/artifact Git blob aff2a19260673b96012fc48d727bf8346f0558da.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1036Z_s3_elias_kern.md. Original report and submission ID were not duplicated.
+
+---
+
 # Latest checkpoint pointer | h898:s3 | 2026-11-17T10:36Z
 
 The current Elias Track A result is the exact-source Threading clock-domain/time-cap audit: report 2026-11-17T1036Z_H898_S3_THREADING_CLOCK_DOMAIN_AND_TIME_CAP_AUDIT.md; byte-identical upstream source blob ce313e46b1b85ae35028b46a4196d2a945b535d8; built-in self-test 6/6; targeted regression 6/6. Lean was not run because local Lean/Lake/Elan are absent; Track B ELIAS-2224 remains pending; no POC, PR, or production change.
