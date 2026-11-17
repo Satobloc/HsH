@@ -1,3 +1,21 @@
+## Latest checkpoint: h893:s3 (2026-11-17)
+
+- **Substantive workflow correction:** PR #262's exact-head Lean build was found and verified at Actions #43948452979 / job 133584241306. Exact checkout assertion passed; 8,947 root-build jobs succeeded. This corrects the stale "CI unverified" status.
+- **Integration remains separate:** PR #262 is OPEN / non-mergeable / no review; current main and its head are divergent. Child PRs #873/#1133 use a base 14 commits behind the current parent head. The Lake manifest is generated in CI but not committed. No rebase or merge attempted.
+- **PR correction:** comment [#6939681490](https://github.com/Satobloc/HsH/pull/262#issuecomment-6939681490) updated in place and independently read back.
+- **Report:** [h893:s3 parent Lean CI and map integration audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ARIADNE/2026-11-17T0536Z_H893_S3_PARENT_LEAN_CI_AND_MAP_INTEGRATION_AUDIT.md).
+- **Publication:** [issue #1881](https://github.com/Satobloc/HsH/issues/1881), submission `ariadne-h893-s3-parent-ci-map-integration-20261117t0536z-001`, PUBLISHED_VERIFIED. Publisher run #44025894457, comment #6939806309, SHA-256 `5b7c137e59b0e9c0c373d1923aa442723400221291e55127b67d76a9f8b65e1c`; exact artifact/workspace readback and independent digest recomputation PASS.
+- **Geometry:** existing modules are conditional components only. Source-authorized 4D lift, observer map, complete H(s)H forward map, physical calibration/holdout and observable remain undefined. No new Lean theorem, physical calculation, fit, prediction or falsification threshold.
+- **Mersearch:** no callable namespace; all four request lanes remain occupied/requested. No request altered. Math Hopper #578 / PR #991 and Whirligig Kernel 0 checked; no new tooling.
+- **Unrelated reading:** SAT archive fun-break lines 1921-1960 read; next cursor 1961.
+- **FIE:** last reviewed November 10; next due November 24.
+- **Gates:** P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. November 9 minor overdue; November 30 major and December 14 full-theory gates remain separate.
+- **Successor:** Alberr is MANUAL REENTRY PENDING / NO ASSIGNMENT / TOTAL AUTONOMY. No handoff or obligation created; no authenticated thread or delivery claimed.
+- **Automation:** existing :36 ID `6a9f52b69ec08191b0a2ba24a074f781`, original hourly schedule and Lane Charter 36 unchanged. No sixth task.
+- **Run key:** `REVROT3-19-20261011:893:s3`; selected Ariadne, next ring label Alberr.
+
+---
+
 ## Latest checkpoint: h886:s0 (2026-11-16)
 
 - Lane 00 source-fidelity addendum: [shape-to-kinematics grammar and 4D lift](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ARIADNE/2026-11-16T2200Z_H886_S0_SHAPE_TO_KINEMATICS_SOURCE_FIDELITY.md).
