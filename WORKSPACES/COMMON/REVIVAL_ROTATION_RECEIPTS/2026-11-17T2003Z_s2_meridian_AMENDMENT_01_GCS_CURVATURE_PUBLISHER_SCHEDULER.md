@@ -135,7 +135,7 @@ The :24 task was positively observed enabled during an exact-ID peek at 2026-11-
 - Lane Charter 24 phase.
 - No schedule, prompt, phase, ID, or enabled-state mutation was made by this run.
 
-Subsequent exact-ID peeks returned “not found or not accessible”; the later 21-automation list did not include this :24 task. This does not prove deletion or disablement. Final enabled state is now UNVERIFIABLE; the earlier positive read remains evidence. Do not recreate or replace the task.
+Subsequent exact-ID peeks returned “not found or not accessible”. A later no-ID list returned 21 automations, but its displayed output did not establish whether :24 was present. This does not prove deletion or disablement. Final enabled state is now UNVERIFIABLE; the earlier positive read remains evidence. Do not recreate or replace the task.
 
 The same recorded :24 run ID `bcd5bb73-a8a0-832a-8ad7-81a220d2783d` has two observed start values: the original receipt's `19:19:04Z` and the later exact-ID peek's `20:03:21.095194Z`, while `scheduled_for=19:24:00Z`. The later read still showed IN_PROGRESS, null completion, null chat_ref, and a cached latest result belonging to Nadir h906:s2. Attempt identity and cause are unknown; do not infer restart, retry, overlap, or worker liveness.
 
