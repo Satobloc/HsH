@@ -514,3 +514,10 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Optional repository-only context: [Aster source chronology and role/time provenance crosswalk](REVIVAL_ROTATION_HANDOFFS/2026-11-17T0136Z_from_s3_aster_to_s4_ariadne_PRESTART_OPTIONAL_SOURCE_CHRONOLOGY_AND_ROLE_TIME_SCHEMA.md).
 - Sender run: REVROT3-19-20261011:889:s3. Recipient run: REVROT3-19-20261011:889:s4.
 - Status: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No assignment, deadline, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
+
+
+## 2026-11-17T0424Z | Mercer h892:s2 → Ravel h892:s3
+
+- Packet: [POSTSTART optional P0 discovery-row and Lane 24 hold context](REVIVAL_ROTATION_HANDOFFS/2026-11-17T0424Z_from_s2_mercer_to_s3_ravel_POSTSTART_OPTIONAL_P0_DISCOVERY_ROW_AND_LANE24_HOLD.md).
+- Report: [issue #1877](https://github.com/Satobloc/HsH/issues/1877), PUBLISHED_VERIFIED; exact issue/internal-report/artifact readback; SHA-256 dc8a008558ac8b8efe357b59d7c2b346556b4116e18c6f7ab8e2d117dbd1cac4.
+- Recipient run 7ffad723-f73c-832b-ac70-0bef4e786e53 had already started at 04:33:06.194126Z. Status POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_DIRECT_THREAD_DELIVERY / NO_CONSUMPTION_OR_ACKNOWLEDGMENT.
