@@ -1,6 +1,12 @@
 - Internal write route: no local checkout or dedicated worker-file write action was available; internal updates used GitHub Contents fallback with fresh blob-SHA preconditions and readback. No protected P0 files changed.
 
 
+## Amendment 01 | scheduler identity confirmed | 2026-11-17T21:36:43Z
+
+**Authoritative live :24 task ID:** `6abda4c8eda88191bf23a6f2849e9a17` (enabled; exact hourly DTSTART and Lane Charter 24 phase unchanged). The stale ID in the earlier h909 block is superseded; see [receipt Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2124Z_s2_aldus.md) with SHA-256 `0704f035a408db8626b1a94688865aae9e021584240037228b790cc8597aa44d`.
+
+Current :24 run `8c97316c-0848-832e-8658-bacb1bf6a27e` is IN_PROGRESS, completion/chat_ref null. Existing :36 task remains enabled; Calder's h909:s3 run started after the optional inbox packet was committed. No direct-thread delivery or acknowledgment is claimed. No scheduler mutation or sixth task.
+
 ## Latest return point | h909:s2 | 2026-11-17T21:24Z nominal
 
 **Status:** SOURCE_GROUNDED / P0_SNAPSHOT_DELTA_COMMENT_VERIFIED / P0_ACTIVE / LANE24_HOLD / NO_PHYSICAL_RESULT / NO_NEW_LEAN / SCHEDULER_READBACK_DEGRADED.
