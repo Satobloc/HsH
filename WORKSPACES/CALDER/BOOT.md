@@ -1,4 +1,4 @@
-## Latest checkpoint | Calder h890:s3 | 2026-11-17 | LEAN_VERIFIED / FACTORY_HANDOFF_PENDING
+## Latest checkpoint | Calder h894:s2 | 2026-11-17 | PUBLISHED_VERIFIED / WH02_REBASE_PREFLIGHT_REFRESHED / LANE24_HOLD
 
 ## Latest execution checkpoint — h894:s2 (2026-11-17T06:24Z)
 
