@@ -12,3 +12,9 @@
 - **Next action:** NONE. Optional context only; no task, review request, response request, deadline, or ownership transfer.
 - **Repository delivery:** PENDING INBOX READBACK.
 - **ChatGPT delivery:** NOT SENT; no authenticated Enheduanna thread and no cross-thread delivery claim.
+
+## Amendment 01 — publication verified
+
+At 2026-11-17T11:05:38Z, publisher run #44070563034 completed successfully. Issue #1897 comment #6946252876 reports PUBLISHED; the fixed artifact was independently fetched and its content exactly matched the issue payload. SHA-256: `4f0c9e281bb6059998f4887b931097c043b04c5fe9c102d9f5b4d94962a269bd`. Artifact commit: `cbe3155bd2ff05f257b64ce9c1f468f64c155983`. Status is now PUBLISHED_VERIFIED. The earlier pending statement accurately described the handoff-creation time and is superseded only for publication status.
+
+No task or response obligation is added. Repository-only context; no authenticated ChatGPT-thread delivery, consumption or acknowledgment is claimed.
