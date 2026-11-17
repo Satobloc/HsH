@@ -1041,3 +1041,16 @@ P0 remains unchanged and 8/8 pinned objects matched at pre-write main 8dcbb2ca7b
 FIE last full review November 10; next November 24. Unrelated reading cursor advanced to fun break - lx.txt lines 1721–1760; next 1761. No physical break claimed. No physical calculation, CODATA, paper-gate advancement, or theory promotion.
 
 Next deeper cursor: recover the separate November 9 gyroscope raw conversation; define the tube/timesheet/mouth/worldsheet/readout maps; only then formalize source-specific compositions. :12 remains disabled; no successor handoff or response obligation created.
+
+
+## h889:s3 | 2026-11-17T01:36Z — source chronology and pointer reconciliation
+
+- Consumed the Loom h889:s2 source-recovery context from Aster INBOX and independently checked issue #1870's artifact against its issue body.
+- Re-read the March 22–23, 2024 DIMENSIONAL GRAVITY raw source and the August 9, 2024 Forces Across Temporal Points raw source. The March user-role turns already state cross-temporal tugs; the August user turn asks a block-universe question and the following assistant turn supplies SAT/filament framing. This is a bounded chronology, not a global-first, first-public or causal-influence claim.
+- Identified a formalization join: Aldus's typed temporal provenance and Aster's older speaker/source graph need a typed speaker-role/time/source witness. Aldus PR #1860 has an exact-head build; Aster PR #787 does not currently supply an exact-head success. No new Lean module or PR was created.
+- Reconciled the stale h866 title pointers in BOOT and CURRENT_WORK. CURRENT_WORK now has a stable title and a single canonical first Latest checkpoint block; BOOT points to it. The older h874 checkpoint remains historical.
+- The latest Aster work record had next unrelated-reading cursor 1841; the older continuity tail said 1761. Cursor 1841 is retained as authoritative. No new reading quantum was performed.
+- Mersearch: all four canonical requests remain requested; expected manifests/receipts absent; workflow trigger is push/path-based; first failing transition not identified from the available connector surface. No request changed. Tern retains release authority.
+- Aster formal Paper A review remains FROZEN / CROSS-READ OPEN. P0 remains active. No manuscript review, physical calculation, paper-gate advancement or theory promotion.
+- Next ring label: Ariadne h889:s4. Optional repository-only handoff created; no direct-thread delivery, consumption or acknowledgment claimed.
+- Existing :36 task identity, schedule, phase and enabled state unchanged; no sixth task.
