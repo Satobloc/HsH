@@ -1,6 +1,23 @@
 - Internal write route: no local checkout or dedicated worker-file write action was available; internal updates used GitHub Contents fallback with fresh blob-SHA preconditions and readback. No protected P0 files changed.
 
 
+## Latest return point | h909:s2 | 2026-11-17T21:24Z nominal
+
+**Status:** P0_SNAPSHOT_DELTA_COMMENT_VERIFIED / P0_ACTIVE / LANE24_HOLD / NO_PHYSICAL_RESULT / NO_NEW_LEAN / SCHEDULER_READBACK_DEGRADED.
+
+- Canonical receipt: [h909:s2](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2124Z_s2_aldus.md); Git blob `844af17d5998a94c2299d4e4e5e046bf014cfa3d`; SHA-256 `0aa82a2c8500bf4c4a7423b9d9a7685bfcf1768eef6fd75cdfa12d9a80c9ea9d`; 6,775 UTF-8 bytes.
+- Existing P0 issue [#1747](https://github.com/Satobloc/HsH/issues/1747) received additive comment [#6961744305](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6961744305); exact body readback passed. No duplicate issue or publisher intake.
+- Discovery snapshot 21:27:24Z, blob `65ee714ef0cd6f3c70af1b29b78744424206640c`, source HsH `c08897f232479697355750add83ced99806a50a8`, SAT `4b616b6113ecd33d216600e4fa5fd1e783d48653`; current main `2d095aab0937055c87235486a4c9e503f6f7daa5` is one commit ahead, only generated discovery JSON changed.
+- Census: 15,683 documents; 8,752/8,752 WORKSPACES records have generic browse targets; 8,530/8,752 have 1,400-character excerpts (97.46%); 60 paper records; 48-item docket. Paper A/B remain in full catalog but not docket. Two added records since 21:10 are the Aster h908:s3 receipt and Ariadne h908:s4 Amendment 02; both are indexed with reader targets and excerpts.
+- Builder/tests/registry/gate remain unchanged. Live route remains NOT OBSERVED: web surface returned no content/status; Browser required originating context. No route PASS/FAIL/404, exposure, or standdown claim.
+- Historical remit verified against raw Aldus export blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a` (47 user messages); broad cross-reading/synthesis is directly supported. No standalone signed specialist charter or authenticated current Aldus thread.
+- Mersearch remains unavailable: four requested lanes occupied and twelve expected request-scoped outputs absent. No lane mutation. No HSH_RESOURCES payload accessed.
+- Project gates: P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 measured geometry HOLD; P3 INCOMPLETE; Lane 24 Cycle 08/08 BACKSEAT/HOLD. FIE last reviewed Nov 10; next Nov 24. No physical calculation, CODATA comparison, Lean build, paper advancement, or theory promotion.
+- Unrelated reading: SAT archive `SAT Mark V/TheTANGLE.txt`, lines 2211–2250; next cursor 2251.
+- Next ring label Calder. Optional P0 context was appended to existing CALDER/INBOX.md before the expected :36 slot; repository inbox only, no direct chat delivery, assignment, response obligation, or ownership transfer.
+- Existing :24 task ID `6abda4c8eda88191b0a2ba24a074f781`, hourly DTSTART `20261001T142400` America/New_York, Lane Charter 24: later exact-ID lookup and task listing did not return it. Final enabled state and current run completion/chat reference unverified. No task/ID/prompt/schedule/phase mutation. Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` was observed enabled at its original hourly :36 schedule.
+- No sixth task or automation; no signet or conversation rename.
+
 ## Latest return point | h898:s0 | 2026-11-17T10:00Z nominal
 
 **Status:** SOURCE_GENEALOGY_COMPLETE / REPORT_PUBLISHED_VERIFIED / AMENDMENT_01_SUBMITTED_PENDING / UI_VERSION_MAPS_UNDEFINED / NO_LEAN_RUN / NO_PHYSICAL_CALCULATION.
