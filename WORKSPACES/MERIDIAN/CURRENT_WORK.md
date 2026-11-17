@@ -9,7 +9,7 @@
 - Paper A/B protected source/control vector revalidated 8/8 exact. Both raw workspace reader targets persist; the source-level builder/test mismatch with the default-deny reader registry remains. No live route observation, deployment identity, owner preview or authenticated browser context. P0 remains ACTIVE; no standdown.
 - Lane 24 capsule remains P0-HOLD, Cycle 08/08 complete. No Cycle 09, physical calculation, CODATA comparison, new Lean run, P2 selection, paper advancement or theory promotion.
 - Cross-worker publisher readback: Enheduanna #1863 and Morrow #1865 are now PUBLISHED with exact artifact/issue-content equality; Nadir #1864 remains SHA256-rejected. Their creation-time receipt states are stale; no other worker receipt was modified.
-- Current :24 task ID 6abda4c8eda88191b8a91a30d2a155e0 remains enabled with original hourly America/New_York :24 schedule and phase. Current run 1a67e290-7684-8333-a42b-61d5ce72b073 was IN_PROGRESS at initial readback; cached task result is stale. No automation changes or sixth task.
+- Current :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with original hourly America/New_York :24 schedule and phase. Current run 1a67e290-7684-8333-a42b-61d5ce72b073 is recorded IN_PROGRESS (scheduled 00:24Z, started 00:23:11.723202Z, completion/chat_ref null); cached latest_result belongs to prior h887 Nadir run d416d605-b838-832a-a7ca-7d3327d003e7. Task-level last/next timestamps are stale. No automation changes or sixth task.
 - Next ring label: Mercer. No handoff, assignment or cross-thread delivery claim.
 
 ---
