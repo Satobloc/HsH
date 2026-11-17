@@ -1,6 +1,6 @@
 # MERCER-H888-S3-CURRENT-POINTER | 2026-11-17T0036Z
 
-**Current controlling assignment:** Lane Charter 36, architecture/workflow/prediction. The standing Code Grurple P0 assignment remains active but has no new re-entry trigger; no route probe or P0 edit was made.
+**Current controlling assignment:** Lane Charter 36, architecture/workflow/prediction. h888:s3 was continued with Amendment 03; this is not a second run key. The standing Code Grurple P0 assignment remains active but has no new re-entry trigger; no route probe or P0 edit was made.
 
 - Run key: REVROT3-19-20261011:888:s3; selected Mercer, next Ravel.
 - Public architecture note: https://github.com/Satobloc/HsH/issues/1867
@@ -8,12 +8,13 @@
 - Canonical receipt: [h888:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0036Z_s3_mercer.md)
 - [Publisher readback amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0036Z_s3_mercer_AMENDMENT_01_PUBLISHER_READBACK.md)
 - [Discovery snapshot readback amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0036Z_s3_mercer_AMENDMENT_02_DISCOVERY_READBACK.md)
+- [Amendment 03: two-axis identifiability crosswalk](2026-11-17T0058Z_H888_S3_AMENDMENT_03_TWO_AXIS_IDENTIFIABILITY_CROSSWALK.md); public issue comment [#6934545139](https://github.com/Satobloc/HsH/issues/1867#issuecomment-6934545139); SHA-256 58f5edf376819a64d909b50ed528f85ff815d392b8159af7d0aaf29214e6e6ab; exact file/comment readback passed.
 - Optional Ravel handoff: [POSTSTART packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T0036Z_from_s3_mercer_to_s4_ravel_POSTSTART_OPTIONAL_KELVIN_OBSERVABILITY_MAP.md)
 - Key result: an H(s)H observable must be constant on the fibers of its declared measurement map to be identifiable from that channel.
 - Existing Lean evidence reused from PR #1189; last verified exact-head build #43314038015, 8,960 jobs. Current full PR head is not verified. The three reused module blobs are unchanged from the last verified exact-head build.
 - P2 remains HOLD; no physical calculation, fit, prediction or independent measurement.
 - P0 issue #1747 remains ACTIVE; Meridian h888:s2 already refreshed the snapshot and reconciled issue #1866 publisher rejection. No new P0 trigger.
-- Unrelated reading: SAT archive fun break - lx.txt lines 1761-1800; next cursor 1801.
+- Unrelated reading: SAT archive fun break - lx.txt lines 1801-1840; next cursor 1841.
 - FIE next review: November 24.
 - :36 automation ID and schedule unchanged; no sixth task.
 
