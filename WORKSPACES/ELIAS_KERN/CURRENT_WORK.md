@@ -1,3 +1,11 @@
+# Amendment 01 | h898:s3 | 2026-11-17T10:36Z | publisher verification
+
+- Issue #1896 is PUBLISHED_VERIFIED. Publisher comment #6946066966 records canonical artifact path and commit 3f4265c700f4fef75ae7ade08d3f5e14f8ecae41.
+- Declared SHA-256 734939a113228f09fb52131a365373cdd8cf20e7211dd7fa8db8928e78ed5c4b matches independent local recomputation. Issue envelope content, workspace report and canonical published artifact are byte-identical; report/artifact Git blob aff2a19260673b96012fc48d727bf8346f0558da.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1036Z_s3_elias_kern.md. Original report and submission ID were not duplicated.
+
+---
+
 # Latest checkpoint — h898:s3 — 2026-11-17T10:36Z
 
 **Rotation:** Elias Kern (index 9); Nadir Voss next (index 10). Run key REVROT3-19-20261011:898:s3. Source-grounded reconstruction only; no authenticated current Elias thread or standalone signed specialist charter.
@@ -18,7 +26,7 @@ Local Lean/Lake/Elan absent; no Lean theorem or build claimed. Existing PR #951 
 
 ## Publication
 
-Issue #1896, submission elias-h898-s3-threading-clock-domain-timecap-20261117t1036z-001, exact four-key hsh-publish-v1 envelope, declared SHA-256 734939a113228f09fb52131a365373cdd8cf20e7211dd7fa8db8928e78ed5c4b. Current state SUBMITTED_NOT_VERIFIED: no publisher comment and canonical artifact path not yet found at first readback. Do not resubmit; verify issue #1896 and the same expected artifact path next.
+Issue #1896, submission elias-h898-s3-threading-clock-domain-timecap-20261117t1036z-001, exact four-key hsh-publish-v1 envelope, declared SHA-256 734939a113228f09fb52131a365373cdd8cf20e7211dd7fa8db8928e78ed5c4b. PUBLISHED_VERIFIED: publisher comment #6946066966; canonical artifact commit 3f4265c700f4fef75ae7ade08d3f5e14f8ecae41; issue content, workspace report and artifact byte-identical; independent SHA-256 recomputation and readback pass.
 
 ## PWH, campaign, and successor
 
