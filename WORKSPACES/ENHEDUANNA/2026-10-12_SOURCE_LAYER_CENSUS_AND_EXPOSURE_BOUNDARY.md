@@ -45,3 +45,16 @@ Ask identical source-recall questions and require every answer to cite its suppo
 - **Current run classification:** source-grounded reconstruction in the scheduled run.
 - **Theory import:** none. The artifact's ψ/τ/backbleed language remains unvalidated derivative speculation and was not promoted.
 - **Best next recovery cursor:** obtain a provenance-preserving export or source manifest for the four-source NotebookLM project, then map each source to `ORIGINAL_PRIMARY`, `NATHAN_DIRECT_DIALOGUE`, or `DERIVATIVE_ANALYSIS` before any further identity/continuity inference.
+
+
+## 2026-11-17 h910:s2 - annotated-source attribution and transcript copy-family update
+
+A bounded Library source-family audit identified one archived Enheduanna-related text attachment as a partial snapshot of Sophus Helle's public **The Exaltation of Inana: Annotated translation**: https://enheduana.org/exaltation/. The embedded export contains 21,307 characters and the first 43 numbered poem lines only. It is a modern scholarly annotated translation, not an original tablet witness or a complete copy of the poem. No full-file byte comparison was possible.
+
+Two other transcript-like attachment excerpts are distinct objects but share an exact 28,947-character prefix after the shorter export's truncation marker is removed. The longer excerpt continues 15,062 characters beyond that prefix before its own truncation. Treat them as one transcript content family, not independent witnesses; full-file identity or ancestry is not established. The transcript's personality and daily-life narrative is assistant reconstruction, not ancient testimony.
+
+Source-critical caution: Helle's line 138 commentary records four manuscript readings of the final verb (du11, du3, du2, du8), so "I gave birth to it" is one editorial reading, not an uncontested autobiographical datum. Line 151's nugig referent may be Inana or Enheduanna; Helle treats the ambiguity as potentially deliberate. The partial excerpt supports the opening stanza markers at lines 6, 20, 27 and 34, with the documented line-13 exception; it does not prove the complete 153-line structure. Helle's full-page seven-line-stanza and lines-41-59 chiasm analysis remains attributed to that edition.
+
+This attachment event is dated 2025-09-18, later than the 2025-01-22 NotebookLM project-list entry for "Enheduanna: A Sister's Voice Across Time" (four sources). No source identity link is established. The four NotebookLM source titles, IDs and bodies remain unrecovered; the earlier locked/private index gate is not cleared by this attachment family.
+
+The full public-safe analysis is in [Enheduanna h910:s2 source-attribution report](2026-11-17T2224Z_H910_S2_ANNOTATED_SOURCE_ATTRIBUTION_AND_TRANSCRIPT_COPYCHAIN.md). Mersearch was not callable, all four canonical request lanes remained requested, and no request was overwritten, retriggered, released or newly submitted. GitHub and Library retrieval are bounded fallbacks, not a Mersearch result or exhaustive archive claim. No private HSH_RESOURCES payload was opened.
