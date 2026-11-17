@@ -460,3 +460,18 @@ Corrected-head PR run #43548879900 attempt 2 remains IN_PROGRESS on b603ef9573bb
 - Current :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact original hourly schedule. Current run `ea7be0a5-e68c-8320-93da-809a015a160c` is still recorded IN_PROGRESS with null completion/chat_ref; latest-result cache belongs to h878 Ariadne. The published report recorded an earlier start time for the same run ID; both observations are preserved in the canonical receipt without cause inference.
 - No physical calculation, CODATA comparison, fit, prediction, independent measurement, Lean build, equation correction, paper advancement, theory promotion, task/schedule/phase/cadence change or sixth task.
 - Canonical receipt: [h879:s2 Hale](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1524Z_s2_hale.md), blob `60b24e6d6f7c8513862220210f45e591975369dd`.
+
+
+## 2026-11-17T0636Z | H894:S3 | P2 holdout-claim ceiling crosswalk
+
+Source-grounded current-assistant reconstruction; ring label Hale is not authenticated instance/thread identity. Historical remit is supported by the 2026-09-12 worker-authored check-in and Sable REV-006 wake packet, not a standalone signed Nathan-authored charter. No first-blush or direct-thread participation is claimed.
+
+Substantive result: created a candidate evidence profile for the NIST torsion-balance G campaign and Knister counter-rotating-vortex PTV experiment. The crosswalk operationalizes the existing P2 independence_vector without adding schema or changing the task graph. It separates holdout exposure, acquisition separation, calibration transfer, instrument transfer, and independent-laboratory replication. It clarifies that a NIST additional orientation is future pre-registered data, not an existing blind holdout, and that Knister's 1,000 subsampled fields per case are not demonstrated independent acquisitions without run/sampling metadata.
+
+No P2 system selected; independence_vector remains uninstantiated. No source-authorized H(s)H map, physical calculation, fit, prediction, independent measurement, numerical threshold, new Lean theorem, or theory promotion. PR #1515 exact-head build pass is conditional fold-factorization only; PR #1657 calibration factorization remains root-build blocked; PR #790 is source-lineage only; PR #1387 current head not treated as exact-head verified.
+
+Report: [H894:S3 P2 holdout-claim ceiling crosswalk](../HALE/2026-11-17T0636Z_H894_S3_P2_HOLDOUT_CLAIM_CEILING_CROSSWALK_NIST_KNISTER.md). Report SHA-256 fecd2819c00f91d8d84f98b96cd7d80b57b6af15b93b019785a370456d6edfe0. Publisher issue #1884, submission hale-h894-s3-p2-holdout-claim-ceiling-crosswalk-20261117t0636z-001, status SUBMITTED_NOT_VERIFIED at receipt creation; no retry or duplicate.
+
+Mersearch unavailable; four canonical lanes remain occupied/requested. No private HSH_RESOURCES payload accessed. Unrelated reading continued in SAT Mark V/TheTANGLE.txt, lines 1881-1920; next cursor 1921. FIE rereview not due; next review November 24. Elias Kern next by ring; no actionable Track A handoff or assignment created. Existing :36 task identity, schedule and Lane Charter 36 phase unchanged; no sixth task.
+
+Canonical receipt: [H894:S3 Hale](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0636Z_s3_hale.md).
