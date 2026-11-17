@@ -1,0 +1,27 @@
+{
+  "after": {
+    "distinct_workers": 3,
+    "exact_unique_rows": 3,
+    "rows": 4,
+    "threshold_met": true
+  },
+  "before": {
+    "distinct_workers": 3,
+    "rows": 3,
+    "threshold_met": false
+  },
+  "checks": {
+    "both_outcome_labels_remain_present": true,
+    "distinct_worker_count_remains_three": true,
+    "duplicate_flips_return_gate": true,
+    "exact_duplicate_is_accepted": true,
+    "exact_unique_receipt_rows_remain_three": true,
+    "row_count_increases_to_four": true,
+    "sample_threshold_parameters_match_source": true,
+    "three_rows_do_not_meet_four_output_threshold": true
+  },
+  "classification": "SOURCE_TRANSCRIBED_METHOD_LEVEL_REPLAY_NOT_FULL_MODULE_EXECUTION",
+  "status": "PASS",
+  "tests_passed": 8,
+  "tests_total": 8
+}
