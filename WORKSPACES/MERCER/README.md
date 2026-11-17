@@ -11,6 +11,7 @@
 - **Historical Mercer authority:** “Quantum Gravity and Experiments,” conversation 6a3a2037-3698-83ea-924d-2cb8c4ac7701, direct-user message bb8ecf64-8863-4ee7-a078-ca8cc4104974. Current thread remains unauthenticated.
 - **Continuity correction:** the h900:s0 report remains without a canonical receipt; it was not retroactively receipted. The h892:s2 report/receipt remain intact.
 - **Next ring identity:** Ravel h904:s0. Its run had already started, so the optional repository handoff is POSTSTART; no direct-thread delivery or acknowledgment is claimed.
+- **Final scheduler amendment (16:06Z):** the :36 h903 run’s same provider run ID changed its recorded start time from 15:38:17.771222Z to 16:05:59.208763Z without an intervening terminal state; :00 h904, :36 h903 and :48 h903 were simultaneously IN_PROGRESS with null chat_ref. See [scheduler issue #1812 comment #6953546595](https://github.com/Satobloc/HsH/issues/1812#issuecomment-6953546595) and receipt Addendum 02.
 - **FIE:** last reviewed November 10; next review November 24. The Time Machine reading cursors remain edition-specific and unresolved.
 
 This section is an assistant-maintained continuity pointer, not a worker-authored check-in.
