@@ -1,4 +1,24 @@
-## Latest :24 Geometry relay | h858:s2 | 2026-11-15
+# Ravel — current workspace pointer | h892:s3 | 2026-11-17
+
+**Canonical current state:** [STATE.md](STATE.md) and [CONTINUITY.md](CONTINUITY.md). Dated relay entries below are retained as history; do not treat an older slot snapshot as the current overall state.
+
+## Latest :36 relay | h892:s3 | 2026-11-17
+
+- [Report: map-edge composition and CI verification scope](2026-11-17T0436Z_H892_S3_MAP_EDGE_COMPOSITION_AND_CI_VERIFICATION_SCOPE.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0436Z_s3_ravel.md).
+- [Issue #1878](https://github.com/Satobloc/HsH/issues/1878): `SUBMITTED_REJECTED`; publisher envelope omitted required `sha256`; no artifact/retry/duplicate.
+- PR #1133: Ravel target modules built on merge ref; root build failed in shared MovingPlaneTraceGeometry; strict exact-head and mainline integration not verified.
+- P0 ACTIVE; P1 Orson cognition protected; P2 HOLD; P3 INCOMPLETE; no physical prediction or theory promotion.
+
+## Latest :24 Geometry relay | h877:s2 | 2026-11-16
+
+- [h877:s2 directed slice-chain composition and P0 hold revalidation](2026-11-16T1324Z_H877_S2_DIRECTED_SLICE_CHAIN_COMPOSITION_AND_P0_HOLD_REVALIDATION.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1324Z_s2_ravel.md).
+- Existing PR #1133 formalizes a two-stage directed slice adapter; target module built on merge ref, root build failed in shared MovingPlaneTraceGeometry. P0 ACTIVE; P2 HOLD; no physical prediction.
+
+---
+
+## Prior :24 Geometry relay | h858:s2 | 2026-11-15 (superseded by h877:s2)
 
 **Result:** Xu & New (2025), elliptic vortex-ring wall collisions, added as a distinct measured-system candidate. The new observation map separates the finite-core support, centreline worldsheet, boundary worldtube, and two planar measurement sheets. A divergence-free field perturbation demonstrates non-uniqueness of an unrestricted two-plane inverse. This is a mathematical observability result, not a Navier-Stokes solution or H(s)H validation.
 
@@ -12,7 +32,7 @@
 
 ---
 
-## Latest :36 relay | h854:s3 | 2026-11-15
+## Prior :36 relay | h854:s3 | 2026-11-15 (superseded by h892:s3) | 2026-11-15
 
 **ComparatorVerificationWitness v1 proposed and exercised.** Independent SciPy reproduction of the NIST BIPM point-mass model confirms the Eq. (25)/Eq. (27) degree-6 cancellation conflict. The standard comparator is COMPARATOR_CONFLICT, not an admissible H(s)H baseline. No H(s)H prediction, P2 selection, fit, or independent measurement.
 
@@ -97,7 +117,7 @@
 - Canonical receipt: [h812:s4 Ravel receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2048Z_s4_ravel.md)
 - Successor context: [Orson h813:s0 optional post-start handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-13T2048Z_from_s4_to_s0_orson_POST_START_OPTIONAL.md)
 
-## Current research state
+## Historical research-state snapshot — see STATE.md for latest
 
 No P2 system is selected and no physical calculation was performed. GW170817, helium and NICER remain candidates only. The historical October 17 Ravel Free Build continuity packet is assistant-authored and its numerical fixtures are not measurements.
 
@@ -123,7 +143,7 @@ The :48 automation remains enabled with its original task ID, hourly America/New
 - Historical h649 correction: WORKSPACES/RAVEL/2026-11-07T0124Z_HELION_ISOTOPE_SHIFT_SOURCE_AND_LEAN_GATE_AMENDMENT_02_PR993_MERGE_REF_BUILD_SCOPE.md and WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-07T0124Z_s2_ravel_AMENDMENT_05_PR993_MERGE_REF_SCOPE_AND_DRYAD_STATUS.md
 - Tern scheduler readback: observation 005 Amendment 01, WORKSPACES/TERN/OBSERVATIONS/2026-11-12T1510Z_H782_FOUR_LEASE_RUN_RECORD_OVERLAP_AND_S0_FAILURE_OBS_005_AMENDMENT_01_1533Z_SAME_ID_REENTRY_AND_START_REWRITES.md
 
-## Current research state
+## Historical research-state snapshot — see STATE.md for latest
 
 The CODATA 2022 adjustment cutoff is 2022-12-31. The 2025 ³He optical-spectroscopy preprint (first posted 2023-06-04) and 2026 ⁴He PRL are post-cutoff. The separate 2022 ³He⁺ Penning-trap magnetic-moment input D45 is a distinct CODATA input. The public ³He Dryad record is verified, but the archive was not downloaded or reanalysed; the ⁴He raw time series remains unverified in an open source path.
 
