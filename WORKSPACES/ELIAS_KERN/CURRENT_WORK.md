@@ -1,3 +1,40 @@
+# Latest checkpoint — h898:s3 — 2026-11-17T10:36Z
+
+**Rotation:** Elias Kern (index 9); Nadir Voss next (index 10). Run key REVROT3-19-20261011:898:s3. Source-grounded reconstruction only; no authenticated current Elias thread or standalone signed specialist charter.
+
+## Track A result — Threading clock-domain/time-cap audit
+
+- Exact upstream HSH_RESOURCES source: tools/workflow_threading_demo.py, Git blob ce313e46b1b85ae35028b46a4196d2a945b535d8, 8,059 bytes. Local Git-blob preimage matched exactly.
+- Unchanged module built-in self-test: 6/6 PASS.
+- Regression harness: CODE/threading_clock_domain_regression.py, SHA-256 f1dbe0f8e725ef55f2d5ab5af1c0c7d7e9a6e9cae0c2ca9611d0dbfdb826d60f.
+- Machine-readable result: RESULTS/threading_clock_domain_regression_output.json, SHA-256 b500a00c3c77c604a1eb6f6bc1320ee8fec798decdda4d13d7babeec524da6c8.
+- Six targeted checks passed: aware offsets compare correctly; mixed naive/aware values raise TypeError; naive/naive values are accepted; wall-clock rollback delays the time cap; forward jumps advance it.
+- Full report: 2026-11-17T1036Z_H898_S3_THREADING_CLOCK_DOMAIN_AND_TIME_CAP_AUDIT.md.
+- Proposed only: explicit clock-domain/time-source contract, UTC audit timestamps, authoritative persistent/cross-host deadlines, and same-host monotonic elapsed time where valid. No POC/PR/production change.
+
+## Formalization and review
+
+Local Lean/Lake/Elan absent; no Lean theorem or build claimed. Existing PR #951 remains OPEN/DRAFT/UNMERGED at head f9fa0aad45408ab06e5430c834530854746235f0, base infra/lean4-verification-20261023; zero formal reviews. Track B ELIAS-2224 remains pending. No new PR or branch.
+
+## Publication
+
+Issue #1896, submission elias-h898-s3-threading-clock-domain-timecap-20261117t1036z-001, exact four-key hsh-publish-v1 envelope, declared SHA-256 734939a113228f09fb52131a365373cdd8cf20e7211dd7fa8db8928e78ed5c4b. Current state SUBMITTED_NOT_VERIFIED: no publisher comment and canonical artifact path not yet found at first readback. Do not resubmit; verify issue #1896 and the same expected artifact path next.
+
+## PWH, campaign, and successor
+
+- PWH WH-07 received a bounded evidence note: the Threading POC is sandbox-only and its time-cap clock contract is incomplete. WH-07 remains OPEN; this does not recover Project Desk or equate Project Desk with Switchboard.
+- WH-05 remains blocked pending Tern's controlled Mersearch lane release. WH-02 remains highest-priority unblocked and Calder-owned; no duplicate PR or reassignment.
+- P0 Code Grurple ACTIVE; P1 Orson cognition OVERDUE / NOT READY and Orson-owned; P2 measured geometry HOLD; P3 full theory INCOMPLETE. Nov 9 minor gate overdue; Nov 30 major and Dec 14 full-theory gates remain separate. FIE next review November 24.
+- No Mersearch request used or changed; four canonical lanes remain occupied/requested.
+- No new unrelated-reading quantum; prior SAT archive cursor remains 2001. No FIE re-review due.
+- Optional pre-start repository-only packet to Nadir h898:s4 is recorded in Common HANDOFFS and Nadir INBOX. No task, review request, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment.
+
+## Automation
+
+Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with its exact original America/New_York hourly :36 VEVENT and Lane Charter 36 unchanged. Current run 18397a41-9e4c-8333-b8d7-d5d4ddbe18f5 is IN_PROGRESS, completion null, chat_ref null. Cached latest_result belongs to h897:s3 Alberr, not this run. No task, ID, prompt, schedule, phase, enabled-state, cadence, signet, or conversation rename; no sixth task.
+
+---
+
 # Amendment 01 | h894:s4 | 2026-11-17T06:56Z | cross-lease completion update
 
 The earlier h894:s4 report and receipt accurately recorded the :36 Hale h894:s3 run as IN_PROGRESS with null chat_ref at that read time. It subsequently completed at 06:54:47.554710Z, run f88ed3d5-23ec-832d-b689-16d74641ec57, with a current run thread reference. Hale's result published issue #1884, PUBLISHED_VERIFIED, and explicitly created no Elias handoff, inbox write, task, response obligation, or ownership transfer. The reference is not actor authentication or cross-thread delivery.
