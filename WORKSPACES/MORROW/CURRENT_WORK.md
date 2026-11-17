@@ -1,3 +1,17 @@
+## Latest run | h888:s0 | 2026-11-17T00:00Z | Lane 00 source custody
+
+- Report: [November 4 repost / November 8 tube-worldsheet source genealogy](2026-11-17T0000Z_H888_S0_LANE00_SOURCE_CUSTODY_AND_GEOMETRY_FIDELITY.md).
+- Canonical receipt: [h888:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0000Z_s0_morrow.md).
+- Public publisher issue [#1865](https://github.com/Satobloc/HsH/issues/1865), submission `morrow-h888-s0-lane00-source-custody-20261117t0000z-001`, SHA-256 `0c482b7ff2ba911dce75625e74f79dd88592e828cd782f7ee2cfa06b0593f882`. Issue payload recomputed and matched; publisher comment absent and artifact 404 at last read. Status `SUBMITTED_NOT_VERIFIED`; no retry or duplicate.
+- New provenance correction: November 4 `100388c5` is a direct user-role repost of the tentative position for the :00 archive, not the original Aster-thread source turn. Original Aster raw thread remains unrecovered.
+- November 8 messages `bcbe9ee8` and `f9356192` directly preserve the 4D tube / 1D core / 3D boundary proposal and the unresolved 2D worldsheet map.
+- SAT-O1 O1 file remains unbylined (file-index 2025-06-09; blob `7577aa1...`; SHA-256 `8e416ff...`). Blockwave remains a 2025-09-16 user-supplied attachment with embedded authorship unresolved (blob `ffdb8...`; SHA-256 `3d393e...`). October 19 assistant action is separate.
+- Morrow's direct theory stop remains active; no new Lean proof or theory integration. Existing formalization evidence is conditional and exact-head status is not promoted.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next November 24. Okakura reading cursor 1352.
+- Next ring label Kestrel; no handoff because Kestrel's existing inbox already contains extensive geometry/source context. No direct-thread delivery, acknowledgment, or ownership transfer.
+
+---
+
 ## Latest relay | h876:s3 | 2026-11-16
 
 **Status:** REPOSITORY_SNAPSHOT_BINDING_ADDED / SOURCE_CUSTODY_ONLY / PUBLISHED_VERIFIED.
