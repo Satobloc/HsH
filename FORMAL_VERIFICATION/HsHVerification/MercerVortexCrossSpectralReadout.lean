@@ -40,9 +40,10 @@ abbrev SpectralMatrix := Matrix (Fin 2) (Fin 2) ℂ
 
 /-- Source-defined real readout, lifted to complex Fourier amplitudes:
     (r₀,rπ) ↦ (η,a). -/
+def half : ℂ := Complex.ofReal (1 / 2 : ℝ)
+
 def contourToReadout : Matrix (Fin 2) (Fin 2) ℂ :=
-  !![(1 : ℂ) / 2, -(1 : ℂ) / 2;
-     (1 : ℂ) / 2,  (1 : ℂ) / 2]
+  !![half, -half; half, half]
 
 /-- Explicit inverse of the source-defined two-contour readout matrix. -/
 def contourToReadoutInverse : Matrix (Fin 2) (Fin 2) ℂ :=
@@ -54,8 +55,8 @@ theorem contourToReadout_adjoint_eq_transpose :
     contourToReadout.conjTranspose = contourToReadout.transpose := by
   ext i j
   fin_cases i <;> fin_cases j <;>
-    norm_num [contourToReadout, Matrix.conjTranspose,
-      Matrix.transpose_apply]
+    simp [contourToReadout, half, Matrix.conjTranspose,
+      Matrix.transpose_apply, Complex.conj_ofReal]
 
 /-- The explicit inverse is a left inverse of the source readout. -/
 theorem contourToReadoutInverse_left :
@@ -102,8 +103,9 @@ theorem transformSpectralMatrix_formula (S : SpectralMatrix) :
          (S 0 0 + S 0 1 + S 1 0 + S 1 1) / 4] := by
   ext i j
   fin_cases i <;> fin_cases j <;>
-    norm_num [transformSpectralMatrix, contourToReadout,
-      Matrix.mul_apply, Matrix.transpose_apply, Fin.sum_univ_two] <;> ring
+    simp [transformSpectralMatrix, contourToReadout, half,
+      Matrix.mul_apply, Matrix.vecMul, Matrix.vecMul_apply,
+      Matrix.transpose_apply, Fin.sum_univ_two, Complex.ofReal] <;> ring_nf
 
 /-- The displacement/radius cross-spectrum is the (η,a) off-diagonal entry. -/
 def etaRadiusCrossSpectrum (S : SpectralMatrix) : ℂ :=
@@ -137,13 +139,41 @@ theorem transformSpectralMatrix_injective :
   have recoverS :
       contourToReadoutInverse * transformSpectralMatrix S *
         contourToReadoutInverse.transpose = S := by
-    simp [transformSpectralMatrix, Matrix.mul_assoc,
-      contourToReadoutInverse_left, contourToReadoutTransposeInverse_right]
+    dsimp [transformSpectralMatrix]
+    calc
+      contourToReadoutInverse * ((contourToReadout * S) * contourToReadout.transpose) *
+          contourToReadoutInverse.transpose
+        = contourToReadoutInverse *
+            ((contourToReadout * S) *
+              (contourToReadout.transpose * contourToReadoutInverse.transpose)) := by
+                simp [Matrix.mul_assoc]
+      _ = contourToReadoutInverse * (contourToReadout * S) := by
+                rw [contourToReadoutTransposeInverse_right]
+                simp
+      _ = (contourToReadoutInverse * contourToReadout) * S := by
+                rw [← Matrix.mul_assoc]
+      _ = S := by
+                rw [contourToReadoutInverse_left]
+                simp
   have recoverT :
       contourToReadoutInverse * transformSpectralMatrix T *
         contourToReadoutInverse.transpose = T := by
-    simp [transformSpectralMatrix, Matrix.mul_assoc,
-      contourToReadoutInverse_left, contourToReadoutTransposeInverse_right]
+    dsimp [transformSpectralMatrix]
+    calc
+      contourToReadoutInverse * ((contourToReadout * T) * contourToReadout.transpose) *
+          contourToReadoutInverse.transpose
+        = contourToReadoutInverse *
+            ((contourToReadout * T) *
+              (contourToReadout.transpose * contourToReadoutInverse.transpose)) := by
+                simp [Matrix.mul_assoc]
+      _ = contourToReadoutInverse * (contourToReadout * T) := by
+                rw [contourToReadoutTransposeInverse_right]
+                simp
+      _ = (contourToReadoutInverse * contourToReadout) * T := by
+                rw [← Matrix.mul_assoc]
+      _ = T := by
+                rw [contourToReadoutInverse_left]
+                simp
   calc
     S = contourToReadoutInverse * transformSpectralMatrix S *
         contourToReadoutInverse.transpose := recoverS.symm
