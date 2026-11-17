@@ -1788,3 +1788,17 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Current :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled and unchanged. Current run e9c53acb-c1e8-8322-bfaf-4d8947b787f2 is IN_PROGRESS with null completion/chat_ref; cached latest_result is Hale h898:s2. Two peeks showed started_at move backward by 0.220702s; cause unknown.
 - Unrelated-reading cursor remains Okakura, The Book of Tea, line 1352; h895 read a separate public edition through the end of chapter VII; current Gutenberg fetch returned 503, so no new reading or cursor advance.
 - Next exact Morrow operation: wait for an authorized Mersearch lane release; preserve source-custody-only remit.
+
+
+---
+
+## 2026-11-17T1155Z | Morrow h899:s2 Amendment 01 — later same-run-ID scheduler snapshot
+
+- Additive amendment: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1155Z_s2_morrow_AMENDMENT_01_SAME_RUN_ID_SCHEDULER_SNAPSHOT.md`.
+- Same task ID `6abda4c8eda88191bf23a6f2849e9a17`, same nominal slot `2026-11-17T11:24:00Z`, same run ID `e9c53acb-c1e8-8322-bfaf-4d8947b787f2`.
+- Latest exact-ID peek: enabled=true; exact hourly America/New_York :24 schedule; Lane Charter 24; `IN_PROGRESS`; `started_at=2026-11-17T11:55:29.942226Z`; completed_at/chat_ref null.
+- Prior same-run snapshots recorded 11:27:25.502928Z and 11:27:25.282226Z. The latest start field is later by 28m04.660s from the latter. Cause and attempt identity remain unknown; no retry/restart/overlap/liveness inference.
+- Cached `latest_result` remains Hale h898:s2 run `5a5cd64b-9ea8-832b-b409-5025453d0a7d`, not current Morrow output.
+- The original h899 report and canonical receipt remain the substantive work for this nominal occurrence. No duplicate report, public issue, publisher submission or successor packet was created.
+- Morrow's provisional Team Archivist/source-custody remit and September 13 theory stop remain controlling. No theory integration, physical calculation, prediction, equation correction, Lean build, paper work or BEDROCK promotion.
+- Existing task identity, enabled state, prompt, phase and exact hourly schedule were not changed; no sixth task.
