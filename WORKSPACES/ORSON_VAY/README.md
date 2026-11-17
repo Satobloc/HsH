@@ -22,7 +22,7 @@ The workspace distinguishes historical user instructions, current project author
 
 ## Latest Review-MIND checkpoint | 2026-11-17 | h892:s4
 
-- External human–LLM group-interaction source/QC crosswalk: [issue #1879](https://github.com/Satobloc/HsH/issues/1879), currently SUBMITTED_NOT_VERIFIED; SHA-256 324ed0414322023be7271fdacd0cf16370be5db068abe46586e9230e579df5f5. Await exact publisher readback; do not retry or duplicate.
+- External human–LLM group-interaction source/QC crosswalk: [issue #1879](https://github.com/Satobloc/HsH/issues/1879), REJECTED_SHA256_MISMATCH; publisher comment #6939036207; no canonical artifact. Do not retry or duplicate.
 - This is an external comparator note, not P1 data or a protocol amendment. P1 remains Orson-owned, frozen, OVERDUE / NOT READY.
 - Latest located Orson raw conversation is in the private Library; exact locator stays private. Last user activity 2026-11-06; live-thread writability remains unverified. No cross-thread delivery.
 - See BOOT.md for current checkpoint and CURRENT_WORK.md for the chronological log.
