@@ -614,3 +614,5 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Recipient inbox: `../HALE/INBOX.md`; handoff ID `CALDER-H905-S4-TO-HALE-H906-S0-POSTSTART-OPTIONAL-001`.
 - Report intake: issue #1912, submission `calder-h905-s4-record-kind-audit-20261117t1748z-001`, SHA-256 `48d4b15a180f8b90d78a8c689e77ddb862c15f6252c4a88c49c001ef59f9c734`; initially SUBMITTED_NOT_VERIFIED.
 - No task, deadline, response obligation, review request, ownership transfer, direct ChatGPT-thread delivery, consumption or acknowledgment.
+
+- **Verification update:** Calder h905:s4 report issue #1912 is now `PUBLISHED_VERIFIED`; publisher comment #6956706182; commit `a442d78dea270005635d3dcf4f5dcb41cb8d30e9`; artifact SHA-256 `48d4b15a180f8b90d78a8c689e77ddb862c15f6252c4a88c49c001ef59f9c734`; exact issue-content/artifact readback. No retry or duplicate.
