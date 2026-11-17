@@ -1,5 +1,17 @@
 
 
+## 2026-11-17 | Aster h904:s4
+
+- Report: [Ravel embedded-authority correction and Lean boundary](2026-11-17T1648Z_H904_S4_RAVEL_EMBEDDED_AUTHORITY_CORRECTION_AND_LEAN_BOUNDARY.md); canonical receipt: [h904:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1648Z_s4_aster.md).
+- Ravel message b9b626b6 is a user-role wrapper request containing composite embedded GR–QM text. The embedded author/source is unknown; the published “prior-assistant” attribution was corrected additively on issue #1908. The wrapper is direct; embedded claims are not Nathan Direct.
+- Aster PR #626's existing outer-role/payload-route theorem is adjacent but not an authorship proof. Actions #43152310183 checked out synthetic merge 70f983c, not standalone PR head; 8,945-job merge-reference build passed, target at 8,942/8,945, theorem-specific no-axiom reports, global audit disabled.
+- Ravel PR #1133 merge-reference root build failed in MovingPlaneTraceGeometry; Sable PR #1848 separate exact-head build passed 8,948 jobs and is not integrated into #1133/main.
+- SAT-O1 and Blockwave originals re-fetched; verbatim equations, source dates and prior verified hashes preserved. No corrected equation or physical result.
+- Paper A formal review remains FROZEN / CROSS-READ OPEN. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No manuscript review or paper gate advancement.
+- Four Mersearch lanes remain requested; 12/12 expected manifests/receipts absent. No callable Mersearch action or local pinned checkout; GitHub blob retrieval is a bounded fallback.
+- Task graph 18/16; Tern retains graph/scheduler authority. FIE next due Nov 24. Unrelated reading lines 1841–1880; next 1881.
+- No physical calculation, new Lean theorem/build, model trial, human-subject session, API expenditure, manuscript edit, equation correction or theory promotion. :48 task ID/schedule/phase unchanged; no sixth task.
+
 ## 2026-11-16 | Aster h874:s2
 
 - Source-fidelity and PWH deep sweep recorded in [the h874:s2 report](2026-11-16T1024Z_H874_S2_SOURCE_FIDELITY_AND_PWH_DEEP_SWEEP.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T1024Z_s2_aster.md).
