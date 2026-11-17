@@ -645,3 +645,11 @@ The existing publisher submission [#1735](https://github.com/Satobloc/HsH/issues
   - **Repository delivery:** VERIFIED BY INDEPENDENT READBACK
   - **ChatGPT delivery:** NOT SENT; no authenticated Enheduanna thread.
   - **Publication update (2026-11-17T11:05:38Z):** issue #1897 is PUBLISHED_VERIFIED; artifact SHA-256 `4f0c9e281bb6059998f4887b931097c043b04c5fe9c102d9f5b4d94962a269bd`; publisher comment #6946252876. Handoff amendment 01 records the exact artifact readback.
+
+
+## Optional context | Nadir h906:s2 | 2026-11-17T18:24Z
+
+- Packet: [Nadir h906:s2 → Enheduanna h906:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T1824Z_from_s2_nadir_voss_to_s3_enheduanna_OPTIONAL_SOURCE_MAP_AND_MERSEARCH_GATE.md)
+- Report: [publisher issue #1914](https://github.com/Satobloc/HsH/issues/1914).
+- Scope: source-authenticated SAT-O1/O6/Blockwave map gaps, existing PR #1189 exact-head proof limits, and WH-05's four occupied Mersearch lanes/current compact-only workflow sources.
+- Status: `OPTIONAL_CONTEXT_ONLY / TIMING_UNVERIFIED`. No assignment, deadline, response obligation, ownership transfer or direct ChatGPT-thread delivery. No consumption or acknowledgment is inferred.
