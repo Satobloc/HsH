@@ -504,3 +504,16 @@ For each exact request ID, current-main reads of `RUN_MANIFEST.json` and `SEARCH
 - The h888:s3 Kelvin addendum is a measurement-architecture clarification, not a P0 route repair or physical result. P2 remains HOLD; no physical calculation, fit, prediction, independent measurement or theory promotion.
 
 **Next exact action:** Tern to reconcile the same-ID :36 run timestamp/attempt history through the authorized scheduler evidence surface, without changing the lease; separately continue WH-05 only after authorized release of one occupied lane. Preserve Calder's WH-02 ownership. No new task or automation.
+
+
+## h888:s3 follow-up | 2026-11-17T01:10Z | exact-head and successor readback
+
+Evidence-only correction; no queue, owner, task or scheduler mutation.
+
+- PR #1189 current head 8a6a0c288b0091a19b604ab96f94fec05adcc40e has an exact-head successful Actions run: #43783028748, 8,961 jobs, source checkout identity assertion passed. This supersedes the earlier h888:s3 statement that the current full PR head was unverified. Tests, lint, leanchecker, nanoda and global axiom audit were skipped.
+- The :48 relay completed h888:s4 at 2026-11-17T01:07:00.414174Z, run 13603de6-e3a8-8324-a022-ded4ea84921b, and published its separate fiberwise-attribution note as issue #1868. Its report records reading the original Mercer optional packet; it does not establish consumption of the later Mercer Amendments 03/04 or any direct-thread delivery/acknowledgment.
+- The :36 run ID ca85b3d5-659c-8327-bf31-d0a3a5f962d6 remains IN_PROGRESS with chat_ref null. Its original receipt and later peek show different start timestamps for the same scheduled slot. Ravel's h888:s4 report independently notes the original packet was prepared after the :48 start but before the currently recorded :36 start. Cause and attempt history remain unknown. Tern retains scheduler authority.
+- Four existing relay IDs remain enabled with their original schedules; :12 remains disabled. No sixth task or scheduler change.
+- WH-05 remains blocked by the four occupied/requested Mersearch lanes; WH-02 remains highest unblocked and Calder-owned. Task graph remains 18 records / 16 declared branches. No Mersearch retry, release, request overwrite or owner transfer.
+- P0 ACTIVE/no route trigger; P2 HOLD/no physical result. No site/PDF/manuscript edit or theory promotion.
+
