@@ -10,7 +10,7 @@ The original h890:s3 report, canonical receipt, optional Hale handoff and publis
 
 The canonical receipt records an earlier execution start of **2026-11-17T03:05:38Z**. A later read-only automation peek exposed another invocation for the same nominal h890:s3 slot:
 
-- Task ID: `6a9f52b69ec08191b8a91a30d2a155e0`
+- Task ID: `6a9f52b69ec08191b0a2ba24a074f781`
 - Current run ID: `99d7a0ce-54a8-8329-9b3b-fa15a86fd692`
 - Scheduled for: `2026-11-17T02:36:00Z`
 - Started: `2026-11-17T03:34:55.554864Z`
