@@ -20,6 +20,7 @@ import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.NadirComparisonFreezeCoherence
 import HsHVerification.LoomSourceBoundComparison
 import HsHVerification.AldusTemporalProvenance
+import HsHVerification.AldusClockProtocolDimensions
 import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
