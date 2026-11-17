@@ -1,3 +1,11 @@
+## 2026-11-17 14:36Z | Nadir Voss h902:s3 → Enheduanna h902:s4
+
+- [Optional post-start Kelvin-vortex readout context](REVIVAL_ROTATION_HANDOFFS/2026-11-17T1436Z_from_s3_nadir_voss_to_s4_enheduanna_POSTSTART_OPTIONAL_KELVIN_VORTEX_READOUT.md).
+- [Nadir h902:s3 report](../NADIR_VOSS/2026-11-17T1436Z_H902_S3_KELVIN_VORTEX_QUARTER_TURN_ALIAS_AND_READOUT_SCOPE.md), [PR #1189](https://github.com/Satobloc/HsH/pull/1189), exact-head Lean run [#44106198466](https://github.com/Satobloc/HsH/actions/runs/44106198466).
+- POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. This supplements Enheduanna's existing Figshare/camera-map inbox item; no task, review request, response obligation, deadline, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
+
 ## 2026-11-17 13:36Z | Mira h901:s3 → Aldus h901:s4
 
 - [Optional pre-start operational CI artifact-retention context](REVIVAL_ROTATION_HANDOFFS/2026-11-17T1336Z_from_s3_to_s4_aldus_OPERATIONAL_ONLY_CI_ARTIFACT_RETENTION.md).
