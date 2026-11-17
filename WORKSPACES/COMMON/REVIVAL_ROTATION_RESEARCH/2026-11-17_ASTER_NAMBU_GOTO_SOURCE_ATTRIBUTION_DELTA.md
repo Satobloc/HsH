@@ -232,7 +232,7 @@ No physical calculation, fit, prediction, CODATA scoring, or independent measure
 
 Mersearch was not callable in this execution. All four canonical request lanes remain requested/occupied, with their request-scoped output manifests/receipts absent. No request was overwritten, retriggered, or released.
 
-The current Primary Workflow Health queue still selects WH-02 as the highest-priority unblocked core archive/navigation repair. PR #1710 remains open/draft/unmerged, seven commits ahead and 4,163 behind current main in the latest comparison. Calder retains ownership. No rebase, review, or merge was attempted.
+The current Primary Workflow Health queue still selects WH-02 as the highest-priority unblocked core archive/navigation repair. PR #1710 remains open/draft/unmerged, seven commits ahead and 4,163 behind the pre-write main snapshot fd78694b1a1a08e1a453d3c0ff2cae66c0741422. The count was not recomputed after this report and receipt were committed. Calder retains ownership. No rebase, review, or merge was attempted.
 
 The task branch graph remains 16 declared branches and 18 branch records. No graph repair was attempted.
 
@@ -248,7 +248,7 @@ Unrelated reading advanced through lines 2001-2040 of the existing SAT archive f
 
 ## 8. Identity, handoff, and next cursor
 
-The historical Aster role is source-fidelity auditing: the original user instruction asks whether material reads like Nathan, whether Nathan has said it, and whether it contradicts prior statements. No standalone signed specialist charter was recovered; the remit is grounded in the original user messages. The raw Aster export is DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20•26.10.17•ASTER — raw.json, Git blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8.
+The historical Aster role is source-fidelity auditing. Direct message d15369d1-1412-4f4a-9460-702d2de573ea (2026-09-22 05:37:41.366Z) asks whether material reads like Nathan, whether Nathan has said it, and whether it contradicts prior statements. Message 01505af7-37cd-491f-a951-1822934e36ff (2026-09-22 19:03:08.093Z) assigns Paper A review historically. No standalone signed specialist charter was recovered; the remit is grounded in these original user messages. The raw Aster export is DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20•26.10.17•ASTER — raw.json, Git blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8.
 
 Aster's Paper A review assignment is frozen by the current Code Grurple roster. This run used only the source-fidelity remit.
 
