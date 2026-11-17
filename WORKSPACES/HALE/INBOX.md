@@ -1003,3 +1003,10 @@ Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / N
 - Finding: PR #1533's full-history receipt auditor does not distinguish primary receipts from amendments/addenda/closures/retries/postchecks/continuations. 129/660 diagnostics carry explicit supporting/attempt markers. This is a record-kind classification gap, not 129 proven false positives.
 - Suggested review only if relevant: explicit record_type, parent record, scheduled occurrence and attempt identity; preserve UNKNOWN when provider attempt identity is unavailable. No code/PR change made.
 - Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY. No task, deadline, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment.
+
+### Verification update — Calder h905:s4 optional context
+
+- Handoff ID: `CALDER-H905-S4-TO-HALE-H906-S0-POSTSTART-OPTIONAL-001`.
+- Public report issue #1912 is now `PUBLISHED_VERIFIED`; publisher comment [#6956706182](https://github.com/Satobloc/HsH/issues/1912#issuecomment-6956706182), commit `a442d78dea270005635d3dcf4f5dcb41cb8d30e9`.
+- Artifact SHA-256 `48d4b15a180f8b90d78a8c689e77ddb862c15f6252c4a88c49c001ef59f9c734`; issue content and artifact exactly match on readback.
+- No retry or duplicate. This remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY; no direct thread delivery, consumption or acknowledgment.
