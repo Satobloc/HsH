@@ -2,7 +2,7 @@
 
 - Source-defined two-contour readout extended to a complex frequency-resolved spectral matrix; the cross-spectrum \(S_{\eta a}\) can retain a purely imaginary phase-lag component even when raw auto-spectra match.
 - Report: [h907:s3](2026-11-17T1900Z_H907_S3_COMPLEX_CROSS_SPECTRAL_READOUT.md); figure: [readout schematic](FIGURE_H907_S3_TWO_CONTOUR_SPECTRAL_READOUT.svg).
-- Public issue #1920 created; publisher run #44158519154 remained in progress at last observation. Canonical receipt records SUBMITTED_NOT_VERIFIED; append an amendment after readback.
+- Public issue #1920 PUBLISHED_VERIFIED: publisher run #44158519154 SUCCESS; confirmation comment #6958569720; artifact/report exact blob match; SHA-256 d9f152701773ad1b5b483b10ce6bf408ded6e744ae673118edca2099bf34ccde. See canonical receipt Amendment 01.
 - Draft PR #1918 adds the complex spectral matrix formalization, a noncomputable fix to the real covariance module, and an exact-head checkout assertion. LEAN_NOT_VERIFIED: no workflow run, no local Lean/Lake/Elan, no manifest; no theorem promotion.
 - No raw Figshare bytes or joint contour covariance retrieved; no physical calculation, fit, prediction, or independent measurement. P2 remains HOLD.
 - Standing Code Grurple P0 Paper A/B QA assignment remains active and unchanged; no manuscript or live route work.
