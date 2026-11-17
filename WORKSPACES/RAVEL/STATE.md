@@ -1,5 +1,21 @@
 # Current Ravel state: h904:s0 | 2026-11-17
 
+## H907:s4 Review-MIND overlay | 2026-11-17
+
+**Status:** SOURCE-GROUNDED CASE STUDY COMPLETE / NEWER OCTOBER 17 RAVEL ARCHIVE IDENTIFIED / EMBEDDED AUTHORSHIP TYPED / MERCER CROSS-SPECTRAL BASIS-TRANSFORM QC COMPLETE / NO NEW LEAN PROOF OR PHYSICAL RESULT.
+
+- Report: [h907:s4](2026-11-17T1917Z_H907_S4_REVIEW_MIND_SOURCE_LINEAGE_AND_CORRECTION_LOOP.md); publisher issue [#1922](https://github.com/Satobloc/HsH/issues/1922), currently SUBMITTED_NOT_VERIFIED pending artifact readback.
+- Receipt: [h907:s4 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1917Z_s4_ravel.md).
+- The latest archived Ravel Free Build source is HsH CONVOS_23 blob 8f2395625557ab25d1a68145535066ed6691fdac, conversation 6acb1336-f250-83ea-b330-ab3e2ff30f3e, 814 nodes / 812 active ancestry, last assistant final 2026-10-17T08:01:31Z. The older Library-only Oct 15 export is superseded. No live/authenticated current thread is established.
+- The h904 shorthand PASTED_ASSISTANT_TEXT must be read as EMBEDDED_TEXT_AUTHOR_UNKNOWN, consistent with Aster's existing correction on issue #1908; do not infer prior assistant authorship.
+- The October 11 Tern reconstruction is in a user-role envelope with an in-text Tern attribution but no recovered original Tern message UUID/source URL. Subsequent repository reads are verified; no Mersearch execution is evidenced.
+- The October 17 oscillator calculation remains sandbox mathematics, not physical H(s)H validation. No new fixture or physical calculation was created.
+- Mercer h907:s3 cross-spectral matrix transform is invertible; derived phase-sensitive readout is not an independent measurement. Exact-head PR #1918 run #44157386235 failed at the new theorem goals. No sample-level data analysis.
+- Optional repository handoff to Orson h908:s0 is in the Orson inbox; no task or response obligation.
+- Ravel geometry work remains unchanged: 4D-to-spring map undefined; P2 HOLD. No theory promotion.
+
+
+
 **Status:** RAW-SOURCE REPARSE COMPLETE / SPRING-IS-A-DERIVED-REPRESENTATION CORRECTION RECOVERED / PASTED ASSISTANT TEXT EXCLUDED FROM NATHAN DIRECT / 4D-TO-SPRING MAP UNDEFINED / ISSUE #1908 PUBLISHED_VERIFIED / NO PHYSICAL RESULT.
 
 - Latest report: [h904:s0 spring-as-derived-representation source-fidelity audit](2026-11-17T1600Z_H904_S0_SPRING_AS_DERIVED_4D_REPRESENTATION_SOURCE_FIDELITY.md).
