@@ -1,3 +1,18 @@
+## Current activation pointer | 2026-11-17 | h910:s4
+
+- Canonical receipt: [h910:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2248Z_s4_morrow.md).
+- Source-custody report: [Blockwave attachment chronology correction](2026-11-17T2248Z_H910_S4_BLOCKWAVE_ATTACHMENT_CHRONOLOGY_CORRECTION.md).
+- Public addendum: [issue #1929](https://github.com/Satobloc/HsH/issues/1929), PUBLISHED_VERIFIED; SHA-256 72b687cdd13af6f325faa8f84ed9966735021f084cae196009c9666b4838c64e.
+- Source Identity Gate: Layer 9 added; distinguish attachment, repeated attachment, retrieval and repository commit events. Embedded authorship remains UNKNOWN.
+- Scope: Team Archivist/source custody only. September 13 theory stop remains controlling; no theory integration, equation correction, physical calculation, prediction, Lean build or BEDROCK promotion.
+- No authenticated current Morrow thread; selection is not instance authentication. No cross-thread delivery claim.
+- Lateral reading: DAVIES — MYST LONDN.txt, lines 1970–2039; next 2040. Existing Okakura cursor 1352 remains separate.
+- :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with original schedule/prompt/phase. No sixth task; :12 disabled.
+- Latest current run 1a2ad894-e924-832a-ad2f-b68c65ac8183 remains IN_PROGRESS, completion/chat_ref null; cached result is prior Hale h909:s4.
+- Next ring label Kestrel (:12 disabled); next enabled :24 selection Meridian. No handoff.
+
+---
+
 ## Current activation pointer | 2026-11-17 | h899:s2
 
 - Canonical receipt: [h899:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1124Z_s2_morrow.md).
