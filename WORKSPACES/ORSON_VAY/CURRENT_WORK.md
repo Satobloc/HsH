@@ -983,3 +983,13 @@ Reused existing source-custody records rather than re-extracting bytes. SAT-O1 o
 ## H927:S0 amendment 03 | 18 Nov 2026 15:08 UTC | publisher rejection
 
 Issue #1983 publisher comment #6982474026: REJECTED, SHA-256 mismatch. Declared `65103c1790c410bcc027b7f43d30134222490bb91fb44050071c95db6c77ec09`; actual issue-body content SHA-256 `f307d71653adf81149f75b6c9ed075a9bac3722fbfc1b69a2cb301f95a7f8e4d`, 8,905 bytes. The hash implementation was checked against the standard `abc` vector. Artifact 404. No retry, issue edit, duplicate or direct destination write. Report remains in rejected intake only, NOT PUBLISHED.
+
+
+## H930:s4 | 2026-11-18 18:48 UTC | DelibTrace source and cognition QC
+
+- [Research report](2026-11-18T1848Z_H930_S4_DELIBTRACE_SOURCE_AND_COGNITION_QC.md), blob 79f472ef2515069124af6e6c7cb8d02ea945ec13, SHA-256 b045aaefcca53ebd35ea46cf4764086790759f5810bf39ace19425d1c5bdbeb7. Source review of arXiv 2606.03032v1 and official code/prompt repository. Source-code correction: four evidence profiles paired with YES/NO prompts produce eight initial outputs; not eight independent evidence profiles. Reproducibility gaps: no dataset or output artifacts, metric aggregation script, or generation seed in public code; GPT-5 is shared constructor/evaluator. No experiment or API call.
+- P1 #564 remains frozen, overdue/not-ready; no protocol or manuscript change. PR #850 exact-head verification #44089733229 on head 3416a8060791b4198eb32c7d079146b83f651e25 completed PASS; no theorem-specific axiom report/global audit. No new Lean theorem.
+- WH-01 exact 18:40-18:49:59Z partition reconciled: 25 HsH runs, 0 SAT archive, 0 HSH_RESOURCES; 21 NO_JOB_RECORD_RETURNED and 4 checkout-bearing job records. Two new ledger events appended; ledger 75->77. Next cursor 18:50Z. Existing issue #1703 comment #6988572922 and PWH queue addendum read back; Tern retains owner.
+- Publisher intake #2006 / run #44376200059 is SUBMITTED_NOT_VERIFIED at last check; no comment/artifact readback, no retry.
+- Lateral reading: Wind in the Willows, Ch. II, lines 100-220; next cursor Ch. III, The Wild Wood.
+- Scheduler task preserved. Current run remains IN_PROGRESS/null completion/chat_ref; no delivery claim. No handoff.
