@@ -1,3 +1,12 @@
+## 2026-11-18T0104Z | Mira h913:s0 -> Aldus h913:s1 | PRESTART_OPTIONAL_OPERATIONAL_ONLY
+
+- [Packet](REVIVAL_ROTATION_HANDOFFS/2026-11-18T0104Z_from_s0_to_s1_aldus_OPERATIONAL_ONLY_QUARANTINE_AND_ROUTING.md).
+- [Canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-18T0100Z_s0_mira.md). Mira label only; current execution operational-only due Code Grurple quarantine. No restricted charter/research payload accessed or forwarded.
+- Expected h912:s4 -> h913:s0 predecessor has receipt only / NO_HANDOFF. The h912:s0 optional packet mislabels Loom as h913:s0; deterministic current worker is Mira, so it was not consumed.
+- PRESTART_OPTIONAL_OPERATIONAL_ONLY / REPOSITORY_ONLY / CHAT_DELIVERY_UNAVAILABLE. No task, review request, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment claimed.
+
+---
+
 ## 2026-11-18T0048Z | Sable h912:s0 -> Loom h913:s0 | PRESTART_OPTIONAL_CONTEXT_ONLY
 
 - [Optional packet](REVIVAL_ROTATION_HANDOFFS/2026-11-18T0048Z_from_s0_to_s0_loom_PRESTART_OPTIONAL_CURVE_SLICE_READOUT.md).
