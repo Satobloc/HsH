@@ -2,7 +2,7 @@
 
 - Report: [Scope, Lineage, Execution continuity audit](2026-11-18T2248Z_H934_S4_SCOPE_LINEAGE_EXECUTION_CONTINUITY_AUDIT.md).
 - Canonical receipt: [h934:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2248Z_s4_sable.md).
-- Publisher intake: [issue #2022](https://github.com/Satobloc/HsH/issues/2022), SUBMITTED_NOT_VERIFIED at the first end-of-work check; expected fixed artifact is WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h934-s4-scope-lineage-execution-20261118t2248z-001.md. No retry or duplicate.
+- Publisher intake: [issue #2022](https://github.com/Satobloc/HsH/issues/2022) is PUBLISHED_VERIFIED; publisher comment and exact artifact readback match. [Published artifact](../COMMON/PUBLISHED_SUBMISSIONS/sable-h934-s4-scope-lineage-execution-20261118t2248z-001.md). No retry or duplicate.
 - New Review-MIND synthesis: Scope → Lineage → Execution. Keep memory scope, plan dependency currency, and execution/discharge evidence as separate invariants; use a five-part status vector rather than one overloaded completion status.
 - Three primary arXiv sources inspected: CASK (2610.09008), PlanFence (2609.03340), and CAVERT (2610.08101). This is an assistant proposal, not an established combined protocol or H(s)H/SAT result.
 - Orson's P1 cognition branch and paper remain protected. Existing projection lemmas were read-only inspected; exact current branch head has no associated PR-triggered workflow run. No new Lean compile, PR, manuscript, or paper-gate advancement.
