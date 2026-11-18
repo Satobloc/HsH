@@ -103,7 +103,7 @@ theorem equal_marginals_do_not_determine_binomial_count :
         independent_exactly_one_harmful_count]
       norm_num
 
-/-- The evaluated finite counts expose the dependence directly:
+/- The evaluated finite counts expose the dependence directly:
    coupled = (1, 1, 0), independent = (2, 2, 2). -/
 #eval (coupledFirstHarmfulCount, coupledSecondHarmfulCount,
   coupledExactlyOneHarmfulCount, independentFirstHarmfulCount,
