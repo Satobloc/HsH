@@ -213,4 +213,4 @@ Current invocation ID 1ab5a803-2a00-8322-9152-812319655d19 was scheduled 07:24Z,
 - Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact hourly America/New_York :24 schedule. Current run `09753bde-0c04-8329-bf06-d2029221a557` is recorded IN_PROGRESS with null completion and null run-level chat_ref; cached latest result belongs to Morrow h823:s2. No task, ID, schedule, phase, cadence, prompt, or ownership changes; no sixth task.
 - Sable's next scheduled run had already started before this packet was ready. No handoff, direct-thread delivery, consumption, or acknowledgment is claimed.
 
-**Latest continuity pin:** [h824:s2 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T0824Z_s2_orson_vay.md).
+**Latest continuity pin:** [h934:s3 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay.md).
