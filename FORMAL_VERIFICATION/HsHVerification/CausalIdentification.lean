@@ -32,8 +32,8 @@ def compatible (assignment outcome : Bool) (p : PotentialOutcomes) : Prop :=
   observed assignment p = outcome
 
 /-- An observation identifies the effect when all compatible worlds agree. -/
-abbrev Identified (assignment outcome : Bool) : Prop :=
-  ∀ (p q : PotentialOutcomes), compatible assignment outcome p →
+structure Identified (assignment outcome : Bool) : Prop where
+  agreement : ∀ (p q : PotentialOutcomes), compatible assignment outcome p →
     compatible assignment outcome q → effect p ↔ effect q
 
 /-- World in which treatment has no effect. -/
@@ -60,25 +60,21 @@ theorem alternative_world_has_effect (assignment outcome : Bool) :
     effect (alternativeWorld assignment outcome) := by
   cases assignment <;> cases outcome <;> simp [effect, alternativeWorld]
 
-/-- Expanded proposition: one recorded assignment/outcome admits both a
-    no-effect and an effect world, so effect status is not identified. -/
-theorem one_observation_does_not_identify_effect_explicit
-    (assignment outcome : Bool) :
-    ¬ (∀ (p q : PotentialOutcomes), compatible assignment outcome p →
-      compatible assignment outcome q → effect p ↔ effect q) := by
+/-- Non-identifiability: one observed binary outcome, even with assignment
+    recorded, is compatible with both a no-effect world and an effect world.
+    This establishes an identifiability limit, not a treatment-effect estimate. -/
+theorem one_observation_does_not_identify_effect (assignment outcome : Bool) :
+    ¬ Identified assignment outcome := by
   intro h
   have hAgreement :
       effect (sameOutcomeWorld outcome) ↔
-        effect (alternativeWorld assignment outcome) := by
-    apply h
-    · exact same_world_matches_observation assignment outcome
-    · exact alternative_world_matches_observation assignment outcome
+        effect (alternativeWorld assignment outcome) :=
+    h.agreement
+      (sameOutcomeWorld outcome)
+      (alternativeWorld assignment outcome)
+      (same_world_matches_observation assignment outcome)
+      (alternative_world_matches_observation assignment outcome)
   exact (same_world_has_no_effect outcome)
     (hAgreement.mpr (alternative_world_has_effect assignment outcome))
-
-/-- Named version of the same identifiability result. -/
-theorem one_observation_does_not_identify_effect (assignment outcome : Bool) :
-    ¬ Identified assignment outcome := by
-  exact one_observation_does_not_identify_effect_explicit assignment outcome
 
 end HsHVerification.CausalIdentification
