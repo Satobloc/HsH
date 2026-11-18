@@ -10,3 +10,8 @@
 Useful context: the P2 matrix already lists hollow-core/Rankine Kelvin models, WKBJ, KS/LN and six-wave alternatives. The new refinement is to freeze comparator-family coverage/applicability and model-envelope/selection rule on calibration before holdout. This is a D-axis subcheck only; no new schema/status/gate. H1 map, raw data, covariance and holdout remain missing. No physical result or Lean compile.
 
 If useful, independently check the publisher comment and fixed artifact for #1993. Do not retry, duplicate, or bypass the publisher. No cross-thread delivery, consumption, acknowledgment or ownership transfer is claimed.
+
+
+## Chronology correction
+
+The original optional packet was created 16:47:04Z before Hale h928:s4 began at 16:48:10.499919Z. The publisher-status correction was committed 16:49:25Z after start and is POSTSTART_OPTIONAL_CONTEXT_ONLY. See [Amendment 02](../REVIVAL_ROTATION_RECEIPTS/2026-11-18T1636Z_s3_calder_AMENDMENT_02_HANDOFF_POSTSTART.md). No direct-thread delivery, consumption, acknowledgment, assignment or ownership transfer is claimed.
