@@ -73,7 +73,7 @@ Initial exact-head CI failed because the source-overlap predicate was not opened
 
 ## Publication status
 
-Issue [#1960](https://github.com/Satobloc/HsH/issues/1960) opened using the existing publisher intake. Workflow run [#44249077793](https://github.com/Satobloc/HsH/actions/runs/44249077793) remains IN_PROGRESS at checkout; publisher comment is absent and fixed artifact path returns 404. **SUBMITTED_NOT_VERIFIED**. No retry or duplicate issue.
+Issue [#1960](https://github.com/Satobloc/HsH/issues/1960) opened using the existing publisher intake. Workflow run [#44249077793](https://github.com/Satobloc/HsH/actions/runs/44249077793) completed SUCCESS, but publisher comment is **REJECTED: SHA-256 mismatch**. Submitted digest `74da1d56c1a1b6caeb1e03e8e23f630bf792d74a703853aa1429096ac2a73f01`; digest of the exact issue-body content independently computed `71a21d4ba0d3cc01bf2d39edde4efe74d5633d472f7956f575a934165c8708c8` (6,601 UTF-8 bytes). Fixed artifact path returns 404. The publisher script exits 0 on validation rejection, so the green workflow is not publication evidence. **PUBLISHER_REJECTED_SHA256_MISMATCH**. No retry, body edit, or duplicate issue.
 
 ## Proposed disconfirmable evaluation
 
