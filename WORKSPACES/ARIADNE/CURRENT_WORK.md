@@ -833,3 +833,10 @@ Immediate readback caught that the first h851 commit replaced the prior Ariadne 
 - PR #1938 first exact-head run #44210550536 failed at the new module due to IsConnected.image argument order. Corrected source at head 2245747b6aaed67fbab770be98407e6559d43514; new exact-head run #44211466248 is IN_PROGRESS. No proof success yet.
 - Candidate #1339, P2 #565, and PR #1938 comments all read back exactly. Optional post-start packet for Alberr is committed and inbox pointer verified; no assignment or delivery/ack claim.
 - Amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0036Z_s3_ariadne_AMENDMENT_01_PUBLISHER_VERIFIED_AND_LEAN_REPAIR.md.
+
+
+### h912:s3 Amendments 02–03 — source correction and Lean repair
+
+- Report Amendment 02 withdraws the unverified “available on reasonable request” statement. The final Cambridge page has no visible data-availability statement; Zenodo visible file table lists one 7 MB PDF, while 517.1 MB data-volume metadata is unexplained; arXiv preprint not retrieved. Status: public supplementary raw-image movie metadata located, bytes not retrieved; processed tracks/calibration/synchronization/covariance UNKNOWN. No request sent. Correction file: 2026-11-18T0036Z_H912_S3_AMENDMENT_02_DATA_ACCESS_SOURCE_STRATIGRAPHY.md; blob 660d5114ef2f950906b44b5c6430beeeb082ec9a; SHA-256 51f55f64763bb6fbf4abca41a6511d1482021bbdc331a25a21c10f851a98b9ef. Publisher intake #1941 SUBMITTED_NOT_VERIFIED.
+- Lean run #44211466248 (run 1444) failed: Continuous was passed where ContinuousOn was required. Source corrected to hf.continuousOn / e.continuous.continuousOn at head 43c1474584cc0a5dd5bdd34e6355b23e94302205; fresh run #44212082170 (run 1445) IN_PROGRESS. No theorem compile success claimed.
+- Receipt Amendments 02 and 03 record the correction and proof repair. Original published report/artifact are immutable; correction is additive. No P2 change or physical result.
