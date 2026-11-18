@@ -1916,3 +1916,12 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Publisher issue #2018, submission `morrow-h933-s3-layer11-amendment02-raw-reparse-20261118t2150z-001`; `SUBMITTED_NOT_VERIFIED` at last check. No retry/duplicate. Original issue #2017 remains `PUBLISHED_VERIFIED`.
 - The earlier report's read-scope statement remains historically accurate; this amendment records the subsequent raw reparse. No external identity authentication or independent second witness is claimed.
 - Morrow theory stop, quarantine and trial scope unchanged. No theory, Lean, physical, paper or BEDROCK work.
+
+
+## h933:s3 Amendment 03 | Amendment 02 publisher verified | 2026-11-18T2158Z
+
+- Issue #2018 publisher run #44406635583 completed `success`; publisher comment #6992821653 says `PUBLISHED`.
+- Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h933-s3-layer11-amendment02-raw-reparse-20261118t2150z-001.md`; artifact commit `073671eb0c1529f37755f89d1d556d47abd53019`.
+- SHA-256 `e303d869f9d5590c52d695dd8415d1aac0772a6058b41bab6615b2b417720391`; 7,130 UTF-8 bytes. Independent artifact readback exactly matches the Morrow workspace correction report, blob `c58ca4b27d55a6c1c3d2caa8b4a00a88d1385a52`.
+- Amendment 02 is `PUBLISHED_VERIFIED`, correcting the timestamp attribution and author-field readback in issue #2017. No retry, duplicate, issue edit or direct-write bypass.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2136Z_s3_morrow_AMENDMENT_03_PUBLISHER_VERIFIED.md`.
