@@ -20,7 +20,6 @@ import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
-import HsHVerification.ThreeModelContrast
 import HsHVerification.ObservableFamilyAdmission
 import Mathlib
 
