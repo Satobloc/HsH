@@ -2283,11 +2283,11 @@
       "beta": 2.0
     },
     "H12A": {
-      "alpha": 1207.0,
+      "alpha": 1212.0,
       "beta": 2.0
     },
     "H12B": {
-      "alpha": 1207.0,
+      "alpha": 1212.0,
       "beta": 2.0
     },
     "H12C": {
@@ -2339,8 +2339,8 @@
       "beta": 2.0
     }
   },
-  "run_number": 241,
-  "run_utc": "2026-11-18T03:53:46.103558+00:00",
+  "run_number": 242,
+  "run_utc": "2026-11-18T13:28:21.064610+00:00",
   "sampling_subsets": {
     "all": [
       "standalone:output (1).png",
