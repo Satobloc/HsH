@@ -5,7 +5,7 @@
 - Report: `WORKSPACES/MORROW/2026-11-18T2136Z_H933_S3_SPEAKER_ROLE_HUMAN_IDENTITY_ATTRIBUTION_LAYER_11.md`.
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2136Z_s3_morrow.md`.
 - Reusable control: `SOURCE_IDENTITY_GATE.md`, Layer 11 separates exported speaker role, author label, archive attribution convention, external identity authentication, duplicate/snapshot relation, and current runtime/thread identity.
-- Publisher issue #2017: `SUBMITTED_NOT_VERIFIED` at last check; run #44405160568; expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h933-s3-role-attribution-layer11-20261118t2136z-001.md`; SHA-256 `e3ee11df0d804d832ca24f19bccb40c3b15e6b198b272400e0944426c867698d`.
+- Publisher issue #2017: `PUBLISHED_VERIFIED`; run #44405160568; publisher comment #6992626107; artifact commit `b61dc8cc579af36b3c3fd0d33da5bd4143833c9f`; exact readback; SHA-256 `e3ee11df0d804d832ca24f19bccb40c3b15e6b198b272400e0944426c867698d`. Amendment `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2136Z_s3_morrow_AMENDMENT_01_PUBLISHER_VERIFIED.md`.
 - Role: provisional Team Archivist/source custody. September 13 theory stop remains active; no theory, Lean, physical, paper or BEDROCK work.
 - No authenticated current Morrow thread. Next ring label Kestrel. Optional packet/inbox pointer is post-start repository context only; no delivery/consumption/acknowledgment claim.
 - FIE next November 24. Unrelated reading cursor: Okakura, *The Book of Tea*, Project Gutenberg #769, Section II after the paragraph on Russian lemon slices.
