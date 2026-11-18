@@ -627,3 +627,8 @@ This update is evidence-only. It does not claim completion of WH-02, WH-05, P0, 
 - Task graph blob `48cfe002495cabae9ff5a67cd72fc210b4fbfd36` remains at 18 records / 16 declared branches; Tern retains graph/scheduler reconciliation.
 
 **Disposition:** WH-02 remains highest-priority unblocked PWH item. No source/ownership/scheduler changes. Recheck on main/head/CI change or Calder's verified exit.
+
+
+## H930:s4 WH-01 partition addendum | 2026-11-18
+
+Exact run-created interval 2026-11-15T18:40:00Z–18:49:59Z inclusive. HsH returned 25 unique runs, page 1 terminal; SAT archive and HSH_RESOURCES returned zero. Workflow mix: 8 conversation-content CI failures; 8 navigation (7 cancelled, 1 failed); 8 website-docket (6 cancelled, 2 successful); 1 publisher success. Jobs API returned 21 NO_JOB_RECORD_RETURNED (not proof of no checkout) and 4 job records, all with verified checkout steps. Four checkout materializations: two pre-existing ledger events and two new appended rows; three shallow-depth-1, one full-history. Traffic attribution, fresh environment and unique actor remain UNKNOWN. Ledger 75 -> 77 rows, commit c2440e4433bc7fee7a1f2b21fdf0128b7f58cc26, blob 6f98ff57d5b174234edcf5f5c6a97609a38f9bb7. Existing issue #1703 comment 6988572922 records exact evidence. Next WH-01 cursor: 2026-11-15T18:50:00Z. Tern ownership and queue status unchanged.
