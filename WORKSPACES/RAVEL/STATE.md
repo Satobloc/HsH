@@ -1,8 +1,8 @@
 # 2026-11-18 18:36Z | h930:s3 | Ravel | Observable-family selection freeze
 
-- Additive P2 protocol refinement: freeze primary/joint-primary outcome and secondary-family selection pipeline before holdout; same H0/H1 selection operator; joint dependence/covariance; unadjusted/post-hoc secondary channels exploratory.
-- Report: `2026-11-18T1836Z_H930_S3_OBSERVABLE_FAMILY_SELECTION_FREEZE.md`; Amendments 01/02 and canonical receipt read back.
-- Lean PR #2004 corrected head `584c400b836c6942f72b739c626ad12c1c66b384`. Initial exact-head run #44372314170: checkout/Lake PASS and new module built, but root failed on unrelated `ThreeModelContrast` import missing from infrastructure base. Import removed. Corrected-head CI NOT OBSERVED; no full compile or axiom audit.
+- Additive P2 protocol refinement: freeze primary/joint-primary outcome and secondary-family selection pipeline before holdout; same H0/H1 selection operator; joint dependence/covariance; post-hoc/unadjusted secondary channels exploratory.
+- Report: `2026-11-18T1836Z_H930_S3_OBSERVABLE_FAMILY_SELECTION_FREEZE.md`; Amendments 01/02/03 and canonical receipt read back.
+- Lean PR #2004 corrected head `584c400b836c6942f72b739c626ad12c1c66b384`. Initial run #44372314170 built the new module but failed in aggregate on unrelated `ThreeModelContrast` import missing from infrastructure base. Import removed. New exact-head run #44373134985 is IN_PROGRESS at checkout; no exact-head assertion, manifest, full build or axiom audit yet.
 - Publisher #2005 PUBLISHED_VERIFIED; exact artifact/issue/report content match; SHA-256 `70be1753f0930fcbeb1eadcb31fac9a17715a12350bf0680b136bdb68412a066`.
 - PR #2003 closed unmerged as superseded; #2004 draft remains open.
 - P2 HOLD, no physical system/data/fit/prediction. P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P3 INCOMPLETE; FIE next Nov24.
