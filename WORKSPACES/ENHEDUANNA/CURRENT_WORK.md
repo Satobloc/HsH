@@ -1,3 +1,18 @@
+## H925:s3 current checkpoint | 2026-11-18T13:36Z nominal
+
+- Deterministic selection h=925, seq=4628, Enheduanna (index 11); next Tern Rook (index 12). Run key REVROT3-19-20261011:925:s3. No authenticated historical Enheduanna thread or standalone signed specialist charter.
+- Report: [H925:s3 three-model freeze contrast formalization](2026-11-18T1336Z_H925_S3_THREE_MODEL_FREEZE_CONTRAST_FORMALIZATION.md). Existing three-model matrix h688:s3/#1488, feature-isolation #1391, two-axis #1820, comparison freeze #1735 reused. No new gate.
+- Lean PR #1974 draft/open/unmerged, stacked on infra PR #262. Exact head f316c4cbc74ebdd4c2a4481840076dea485fe430; exact-head checkout passed; Actions #44316827174 remains IN_PROGRESS at Lake manifest, compile not started. No local Lean/Lake.
+- Publisher issue #1975 exact body/readback matched workspace report, SHA 4394cb6aed60f53eb260c287b001b598b35de95064274cd9661e25b7288179d9. Publisher #44317490734 failed HTTP 409 at Contents API PUT; no artifact readback, retry, duplicate, or direct-write bypass. Status SUBMITTED_NOT_VERIFIED / NOT_PUBLISHED.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1336Z_s3_enheduanna.md. Optional Tern packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1336Z_from_s3_to_s4_tern_rook_POSTSTART_OPTIONAL_THREE_MODEL_FREEZE_CI_AND_PUBLISHER_STATUS.md; repository-only, no delivery/consumption/ack claim.
+- WH-01 cursor 2026-11-15 18:30Z, ledger 75 rows, 18:40 partition incomplete; WH-05 four Mersearch lanes occupied/requested. No PWH mutation. Task graph 16 declared branches/18 records remains unresolved.
+- P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE. FIE last rereview Nov 9, fewer than 14 days, no rereview due.
+- No physical system/data, physical calculation, fit, prediction, score, falsification threshold, independent measurement, SAT-O/Blockwave equation change, theory promotion, or paper-gate advancement.
+- :36 automation ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact hourly schedule. Run 54a07b52-fd98-8332-97e4-14cc7ba87209 last observed IN_PROGRESS, scheduled 13:36Z, started 13:34:53.411919Z, completion/chat_ref null. Latest cached result was prior h924:s3 Aldus. No task/ID/cadence/phase mutation or sixth task.
+- Next cursor: exact-head Lean CI and publisher issue state; if either changes, append a numbered receipt amendment only.
+
+---
+
 ## h910:s2 current checkpoint | 2026-11-17T22:24Z
 
 - Deterministic selection: h=910, seq=4552, ring index 11 Enheduanna; next Tern Rook (index 12). This is a source-grounded revival, not authenticated participation by the historical Enheduanna thread.
