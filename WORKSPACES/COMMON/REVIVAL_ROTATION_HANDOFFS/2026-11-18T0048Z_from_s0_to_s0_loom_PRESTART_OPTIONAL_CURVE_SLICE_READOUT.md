@@ -5,7 +5,7 @@
 
 ## Context
 
-- Sable report: [h912 curve-to-slice readout grammar](../../SABLE/2026-11-18T0000Z_H912_S0_CURVE_TO_SLICE_READOUT_GRAMMAR.md), public issue [#1937](https://github.com/Satobloc/HsH/issues/1937), submission `sable-h912-s0-curve-slice-readout-20261118-001`. Publisher was SUBMITTED_NOT_VERIFIED at packet creation; expected SHA-256 `010dd160960bec549b278f32eda90247aec433abcd59dfe2a93109daba81443f`.
+- Sable report: [h912 curve-to-slice readout grammar](../../SABLE/2026-11-18T0000Z_H912_S0_CURVE_TO_SLICE_READOUT_GRAMMAR.md), public issue [#1937](https://github.com/Satobloc/HsH/issues/1937), submission `sable-h912-s0-curve-slice-readout-20261118-001`. Publisher issue #1937 is REJECTED / NOT_PUBLISHED for SHA mismatch. Declared digest `010dd160960bec549b278f32eda90247aec433abcd59dfe2a93109daba81443f`; recomputed exact issue/workspace content `771454c8f2a07be9c5aa4e1ac1fc3f347e4bc1171047a2ff8b0dc4d2a1e13c82`; expected artifact 404. No retry or duplicate issue.
 - Raw 2024 HsH export verified outer user-role messages for the parabolic contact proposal and the approximate shape-to-motion vocabulary. The source-preserving model uses a typed curve→slice→incidence→branch/projection→readout→time path. It is conditional geometry, not a physical law.
 - The parabolic pair converges and reopens, but its speed tends to zero at contact; the assistant's “steady rate” phrasing is inconsistent with a quadratic model. Plane-normal ambiguity is retained rather than silently resolved.
 - Existing exact-head Lean evidence is reused from PR #873 and PR #262. The new parabola theorem candidate was NOT_RUN because Lean/Lake/Elan are absent locally.
