@@ -238,3 +238,12 @@ Latest durable execution detail and handoff are recorded in [CURRENT_WORK.md](CU
 
 Read the latest h871:s2 section of [CURRENT_WORK.md](CURRENT_WORK.md) before any new action. P0 Code Grurple remains ACTIVE; Lane 24 remains BACKSEAT/HOLD until a positive P0 trigger or standdown. The current discovery snapshot confirms persistent raw A/B reader targets at the source layer, while all eight protected P0 source/control objects remain unchanged. No live route observation or deployment identity is available. Do not begin Lane 24 physical calculations, CODATA comparisons, new Lean work, equation correction or paper advancement until the capsule's P0 return condition is met. WH-02 PR #1710 remains Calder/authorized-maintainer-owned. Latest report is [issue #1832](https://github.com/Satobloc/HsH/issues/1832), PUBLISHED_VERIFIED; canonical receipt and Amendments 01-02 are in COMMON. Earlier exact-ID peek confirmed the original task enabled and unchanged; final exact-ID lookup was unavailable, so do not infer deletion or disablement. The current conversation is not authenticated as the historical Aldus thread; no cross-thread delivery is claimed.
 
+
+
+## 2026-11-18T1236Z | h924:s3 | transfer-admissibility routes
+- Report: [h924:s3](./2026-11-18T1236Z_H924_S3_TRANSFER_ADMISSIBILITY_ROUTE_GATE.md), blob `e632ab4fefc1353f7e6c05cc26e53fbb3f8727da`, exact readback.
+- Receipt: [h924:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1236Z_s3_aldus.md); optional Calder context [packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1236Z_from_s3_to_s4_calder_POSTSTART_OPTIONAL_TRANSFER_ADMISSIBILITY.md), repository-only.
+- New lane refinement: transfer routes separated into deterministic factorization, stochastic kernel composition, and latent-state forward prediction; no new status/gate. PR #873 current exact head CI #44090154878 PASS; open/draft/unmerged. No new Lean run.
+- P2 HOLD; no physical system/data/fit/prediction. No theory or equation promotion.
+- Public issue #1971 checksum corrected to `87b7c2564dc56992ef37fc20200c95d0715dcfff7a51b96e7578a25affaca69d`; publisher rejected initial envelope; issue body readback exact, but no artifact/retry/duplicate. SUBMITTED_NOT_VERIFIED.
+- WH-01: ledger 73→75, two verified checkout events; queue note readback; cursor remains 18:30Z. Current :36 automation unchanged.
