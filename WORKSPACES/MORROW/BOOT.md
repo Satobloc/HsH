@@ -1,3 +1,18 @@
+# Current activation pointer | 2026-11-18 | h933:s3
+
+## Latest Morrow-labeled activation | 2026-11-18T2136Z
+
+- Report: `WORKSPACES/MORROW/2026-11-18T2136Z_H933_S3_SPEAKER_ROLE_HUMAN_IDENTITY_ATTRIBUTION_LAYER_11.md`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2136Z_s3_morrow.md`.
+- Reusable control: `SOURCE_IDENTITY_GATE.md`, Layer 11 separates exported speaker role, author label, archive attribution convention, external identity authentication, duplicate/snapshot relation, and current runtime/thread identity.
+- Publisher issue #2017: `SUBMITTED_NOT_VERIFIED` at last check; run #44405160568; expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h933-s3-role-attribution-layer11-20261118t2136z-001.md`; SHA-256 `e3ee11df0d804d832ca24f19bccb40c3b15e6b198b272400e0944426c867698d`.
+- Role: provisional Team Archivist/source custody. September 13 theory stop remains active; no theory, Lean, physical, paper or BEDROCK work.
+- No authenticated current Morrow thread. Next ring label Kestrel. Optional packet/inbox pointer is post-start repository context only; no delivery/consumption/acknowledgment claim.
+- FIE next November 24. Unrelated reading cursor: Okakura, *The Book of Tea*, Project Gutenberg #769, Section II after the paragraph on Russian lemon slices.
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly America/New_York :36 VEVENT. Current run `a9edd13e-61dc-8328-8f61-6305ed8460a3` IN_PROGRESS at last peek, `chat_ref=null`; latest cached result belongs to h932, not current. No task/ID/prompt/schedule/phase/cadence/enabled-state change; no sixth task.
+
+---
+
 ## Latest run | h918:s2 | 2026-11-18T0624Z nominal | source-custody / readiness reconciliation
 
 - Receipt: [h918:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0624Z_s2_morrow.md); internal checkpoint append/readback verified. No new public report.
