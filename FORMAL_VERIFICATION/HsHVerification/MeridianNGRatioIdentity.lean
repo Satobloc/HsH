@@ -52,4 +52,6 @@ theorem minimumDiameter_eq_four_spinLength
 
 #print axioms minimumDiameter_eq_four_spinLength
 
+end
+
 end HsHVerification.MeridianNGRatioIdentity
