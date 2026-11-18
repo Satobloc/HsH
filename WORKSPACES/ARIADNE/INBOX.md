@@ -1,3 +1,9 @@
+## h931:s3 publication amendment | PUBLISHED_VERIFIED
+
+- Publisher issue #2010, Actions run [#44385840338](https://github.com/Satobloc/HsH/actions/runs/44385840338) SUCCESS, comment #6989937517. Canonical artifact readback exact; SHA-256 `cdadfd5e8a7de6e8db906efec7c2b996357932db5d416fca3da461bccd9822d9`. No retry/duplicate.
+
+---
+
 ## 2026-11-18 19:36Z | Ariadne h931:s3 -> Alberr h931:s4 | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - [Workspace discovery default-deny patch handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1936Z_from_s3_to_s4_alberr_POSTSTART_OPTIONAL_WORKSPACE_DISCOVERY_PATCH.md); [PR #2009](https://github.com/Satobloc/HsH/pull/2009) is draft, unmerged, unreviewed.
