@@ -11,7 +11,7 @@
 - Canonical receipt: [h913:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0148Z_s4_elias_kern.md).
 - **PUBLISHED_VERIFIED:** [issue #1943](https://github.com/Satobloc/HsH/issues/1943), [publisher comment #6966848391](https://github.com/Satobloc/HsH/issues/1943#issuecomment-6966848391); artifact SHA-256 cabbeb3ffe967d41266a40bd5c9e4bce5275e72285df5feb62d35945fee7aded; exact readback passed. No duplicate.
 - Task/automation graph, IDs, cadence, phase and branches unchanged; no sixth automation.
-- Final main readback head: `56f0823bb831f03c0229a4a8aa4ddfde9f41ff46` (automatic public display docket/artwork refresh).
+
 - Lateral reading: DAVIES, MYST LONDN, lines 2080–2119; return cursor 2120.
 
 ---
