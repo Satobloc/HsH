@@ -540,3 +540,11 @@ The current :48 execution remains IN_PROGRESS with null completion and null curr
 - H916 ring-selection correction amendment [01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0524Z_s2_hale_AMENDMENT_01_H916_RING_SELECTION_CORRECTION.md) is now linked to the verified report artifact; h916 labels corrected to Ariadne (index 3) → Alberr (index 4). Issue #1955 comment #6970037570. Prior artifact preserved.
 - WH-01 ledger readback remains 73 rows, 73 unique event IDs; tracking issue #1703 comment #6970063748 records publisher verification.
 - No task/scheduler changes. Current run `e1d48a18-c6a0-8320-adec-d946774b879c` still IN_PROGRESS/null completion/null chat_ref at last peek; no cross-thread claim.
+
+
+## H917:s2 post-write discovery refresh | 2026-11-18
+
+- Automatic discovery workflow #44244520524 completed SUCCESS at 05:30:06Z; source HsH `2763af55569ba9d8cf8839bc3f099ba9f3027346`, SAT `4b616b6113ecd33d216600e4fa5fd1e783d48653`, both complete. Output: 15,795 documents, 48 docket, 417 square visuals, 6 errors; +5 documents vs h916, per-record additions not parsed. Generated discovery blob `930512982d63a47f3c0ea3c298b2329ca0531053`, 27,730,813 bytes, workflow commit `e4d6285`.
+- Current main `1e362c645c7d6692b43d91faba8233eb64c70369` is 11 ahead / 0 behind h917 preflight main `d29f02402c7888407aaa0f49c0e3e507d344453e`, eight changed paths, all generated discovery or workspace/ledger/publisher outputs; no protected P0 source path/original-source change identified. Snapshot is behind current main by relay outputs.
+- Report amendment [post-write discovery refresh](2026-11-18T0533Z_H917_S2_POSTWRITE_DISCOVERY_REFRESH_AMENDMENT.md), publisher issue #1958, currently pending verification. Canonical receipt amendment [02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0524Z_s2_hale_AMENDMENT_02_POSTWRITE_DISCOVERY_REFRESH.md).
+- Navigation-maintenance run #44244520565 remains IN_PROGRESS at checkout; no result or completion claimed. P0 ACTIVE, live routes NOT_OBSERVED, no repair/standdown.
