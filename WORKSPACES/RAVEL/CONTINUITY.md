@@ -1213,3 +1213,10 @@ Amendment 01: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1600Z_s0_ra
 ## Amendment 06 | Current-head verification run started | 2026-11-18 15:28Z
 
 Correction to Amendment 05: the existing PR #1984 branch head `7794e1db22220f34c83412ea266fbac4b5efb662` subsequently received Actions run **#44335453981**, job **#134910817297**. Exact PR-head checkout assertion and Lake dependency-manifest step PASS; Lean compile is **IN_PROGRESS**. No compile result, axiom report or global audit yet. Status is `LEAN_CURRENT_HEAD_CI_IN_PROGRESS`, not pass. No retry/new PR/merge/theory promotion. A log fetch while the job was running returned BlobNotFound; transient, no failure inference.
+
+
+## Amendment 07 | Prior-head failure and new current-head CI | 2026-11-18 15:28Z
+
+- Run #44335453981/job #134910817297 failed on prior head `7794e1db22220f34c83412ea266fbac4b5efb662`: duplicate doc-comment parser error at line 35 plus the remaining application error at line 74. Exact-head checkout and Lake manifest passed; tests/lint/nanoda/axiom-audit skipped.
+- Current source head `260d7e92cfecdc0d0caaf701aa4e573b0f042430`, module blob `1a620b41b5548dc9284f7ca66ade23bd420e9bb1: duplicate comment removed; `Identified` unfolded before direct proof application. Exact GitHub readback passed.
+- New exact-head run **#44336405060**, job **#134914302633**, has started; checkout IN_PROGRESS, no compile result. Status **LEAN_CURRENT_HEAD_CI_IN_PROGRESS**, not pass. No retry/new PR/merge/theory promotion.
