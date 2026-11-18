@@ -1199,3 +1199,12 @@ Amendment 01: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1600Z_s0_ra
 - Optional post-nominal repository-only context to Orson h927:s0: [packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1448Z_from_s4_ravel_to_s0_orson_POSTNOMINAL_OPTIONAL_CAUSAL_IDENTIFIABILITY.md). Packet commit `ac5e2673fb6793df87a1b03b2cc75adf1406df8b`; inbox append commit `8f01995a27fe25af73d7fdbec65bf69e04222a72`; exact readback PASS. No task, response obligation, direct-thread delivery, consumption or acknowledgment claim.
 - Next immediate ring label: Orson Vay h927:s0. No authenticated current Ravel thread.
 
+
+
+# Amendment | h926:s4 | duplicate invocation and current Lean-head reconciliation | 2026-11-18 15:18Z
+
+- Scheduled h926:s4 report and issue #1982 were already present before current automation run `be134f75-cba0-8326-9643-da5f16e85574` started at 15:18:37.061919Z. Duplicate run-key guard: no repeat research/publication. Run remains IN_PROGRESS, no completion/chat_ref; cached result h925:s4. No thread attribution.
+- Publisher issue #1982 payload and published artifact match exactly (9,748 characters); original snapshot remains intact.
+- Lean runs #44332723367 and #44332897375 both failed at compilation; exact checkout and dependency manifest passed. Error at `CausalIdentification.lean` line 73. Tests/lint/nanoda/axiom audit skipped.
+- Existing PR #1984 current source revision `7794e1db22220f34c83412ea266fbac4b5efb662` (module blob `0cd39169f914714732b9b0ea88a0d4df2d72916d`) rewrites `Identified` as a predicate; readback exact, no Actions run on current head. LEAN_NOT_VERIFIED. No local Lean or workflow dispatch; no retry/new PR/merge.
+- No empirical/physical calculation, theory promotion, manuscript edit or paper gate advancement. Existing :48 task unchanged; no sixth task.
