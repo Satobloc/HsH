@@ -28,3 +28,10 @@ Hale may treat this packet as optional background only. Next slot is h913:s3; no
 - SHA-256: `158c814f95f5b60d33baf49d55c2b6a2566b642864e818cd91bd3b339e240483`.
 - Workspace report and artifact readback match exact content and Git blob SHA-1 `7e6af753d722515fa0905d4613368b419bc95f4f` (7,575 characters). No retry or duplicate.
 - [Canonical receipt amendment](../REVIVAL_ROTATION_RECEIPTS/2026-11-18T0124Z_s2_calder_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+
+
+## Amendments | publisher verified and post-write snapshot
+
+- Publisher intake #1942 is `PUBLISHED_VERIFIED`; artifact commit `4192ecc70b66f62da919af55c5de0b385048c8a2`, SHA-256 `158c814f95f5b60d33baf49d55c2b6a2566b642864e818cd91bd3b339e240483`, exact readback passed. [Receipt Amendment 01](../REVIVAL_ROTATION_RECEIPTS/2026-11-18T0124Z_s2_calder_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Post-write snapshot 01:29:58Z blob `f403093213321261e4ef66e5a4734f679ad92461`: 15,753 docs, 8,822 workspace records/targets, 8,599 excerpts; +5 relay-generated workspace records/targets/excerpts, 3 continuity files changed, 0 removed. [Receipt Amendment 02](../REVIVAL_ROTATION_RECEIPTS/2026-11-18T0124Z_s2_calder_AMENDMENT_02_POSTWRITE_DISCOVERY_REFRESH.md).
+- These are source-index counts only. No live-route probe, visitor-access claim, repair or theory work. This packet remains optional context; no direct-thread delivery, consumption, acknowledgment, assignment or ownership transfer.
