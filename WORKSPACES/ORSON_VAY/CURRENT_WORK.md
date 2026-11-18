@@ -4,6 +4,17 @@
 
 Current invocation ID 1ab5a803-2a00-8322-9152-812319655d19 was scheduled 07:24Z, started 07:54:33.749Z, and remained IN_PROGRESS at final peek (completion/chat_ref null). No new report or P1 protocol/manuscript/gate change. P1 #564 remains frozen/overdue/not-ready; Lane 24/P2 HOLD; no system selection, physical calculation, Lean run, theory promotion, handoff or cross-thread delivery. Task ID, schedule, phase, prompt and enabled-state unchanged; no sixth task.
 
+## H934:s3 amendment 02 | 18 Nov 2026 | Lean and publication reconciliation
+
+- Primary paired-session note remains the run's canonical substantive result. PR #850 corrected head `6b4eebeacf4f6928f18601626e4e9e3942d73d81` passed PR merge-reference Lean run [#44416543286](https://github.com/Satobloc/HsH/actions/runs/44416543286), job `135198228890`: Lean 4.34.0, 8,991 jobs, new module built, `#eval` printed `(1, 1, 0, 2, 2, 2)`, theorem axioms `[propext, Classical.choice, Quot.sound]`, no `sorryAx`. This is a merge-reference build, not standalone exact-head; PR remains open/unmerged.
+- Publisher #2020 is PUBLISHED_VERIFIED; canonical artifact SHA-256 `24eb7ea36104110ee2a81cfd1cf626d4f114b36e06273c95c5bb995b554a6ed7`, exact readback.
+- A distinct supplemental future-methods note on epistemic-cue recognition versus influence was created and published as [issue #2024](https://github.com/Satobloc/HsH/issues/2024). Artifact SHA-256 `642ec763206574f09310e3d8c402adcb02a070d5ea747a5de55878886c0bdac3`; exact readback. It is not a P1 protocol amendment or administered trial.
+- Same run ID appears in the canonical receipt with start 22:34:31.122210Z and in a later Automations peek with start 23:01:56.493479Z. Both observations are preserved in Amendment 02; no separate ring activation inferred.
+- P1 remains frozen; no trial, API spend, human session, manuscript edit, or paper-gate advancement. Task ID/schedule/prompt/enabled-state unchanged; no sixth task.
+- Full reconciliation: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay_AMENDMENT_02_RETRY_STATE_AND_SUPPLEMENTAL_CUE_MODULE.md.
+
+---
+
 ## H915:S3 checkpoint | 18 Nov 2026 03:36 UTC
 
 **Run key:** REVROT3-19-20261011:915:s3  
