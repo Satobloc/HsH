@@ -1062,3 +1062,16 @@ The direct read-only peek confirms task ID 6aa1fe0de5e48191b886496095b1343f is e
 - :00 task ID `6aa1fe0de5e48191b886496095b1343f` and exact hourly :00 schedule remain unchanged; :12 disabled; no sixth task. Morrow's own :24 task and BOOT pointer remain unchanged.
 - Next ring label Kestrel (:12 disabled); next enabled :24 selection Meridian. No handoff, authenticated thread, or cross-thread delivery claim.
 - Next source cursor: recover O1/O4 authoring sources, define the link ambient space and metric/connection contract, then identify source-authorized core-to-tube, tube-to-boundary, and mouth-to-timesheet maps before admitting a Lean target.
+
+
+## h926:s0 | 2026-11-18 14:00 UTC | O4 authoring lineage + worldtube geometry fidelity
+
+- Selection h=926, seq=4630, ring index 13 Morrow; next ring Kestrel. Next enabled :24 slot Meridian. No authenticated thread identity.
+- Recovered a 2025 authoring conversation: original O4 baseline and later user-directed topological-stability extension are distinct; original PDF bytes remain unavailable. O4 4D copies share one blob, not independent corroboration; early-logged O4 is a distinct variant.
+- Recovered 2026 direct geometry: finite 4D tube/core, 1D core, 3D boundary, tentative mouth/timesheet and worldsheet; core domain, thickening, extraction and composition maps remain unspecified. Assistant bundle model is conditional; endpoint caps and information-loss conjecture were corrected/qualified by direct source.
+- O4 Hopf/Borromean 4D stability is not formalized. Existing dimension gates reused; PR1098/1133 modules built but full builds fail on unrelated MovingPlaneTraceGeometry; local Lean unavailable. No new Lean or physical calculation.
+- Public artifact intake #1977, submission morrow-h926-s0-o4-source-fidelity-20261118t1400z-001, SHA-256 73e3f51785cf4c1edf2e78f27510ae09ffe099af424555ab0649a73ef20b78b9. At write: SUBMITTED_NOT_VERIFIED; readback pending.
+- Prior h907 report #1919 remains rejected, not retried. New submission is a distinct source-fidelity delta, not duplicate.
+- Mersearch unavailable; bounded GitHub/Library reads only. HSH_RESOURCES not accessed. P0 ACTIVE; P1 overdue/not ready; P2 HOLD; P3 incomplete; FIE due Nov24. No handoff.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1400Z_s0_morrow.md
+- Next cursor: recover original O4 PDF/source; define typed ambient/leaf topology, core-to-tube, mouth/readout and worldsheet maps before formalization.
