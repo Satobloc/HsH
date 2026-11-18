@@ -1,3 +1,12 @@
+> **Current relay checkpoint — h934:s2 (2026-11-18 22:24Z).**  
+> Selected: Ravel; next ring label: Orson Vay (protected cognition remit; no handoff/assignment).  
+> Report: [h934:s2 geometry/source/proof-status audit](2026-11-18T2224Z_H934_S2_GEOMETRY_SOURCE_FIDELITY_AND_PROOF_STATUS_AUDIT.md)  
+> Receipt: [canonical h934:s2 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2224Z_s2_ravel.md)  
+> Status: P0 ACTIVE (8/8 protected blobs exact; discovery JSON unparsed); P2 HOLD; PR #2004 exact-head Lean pass; Ravel PR #1984 exact-head attempt failed, tactic-mode retry currently in progress; Mercer PR #1235's phase-curvature module is not imported by its aggregator and remains unverified. FIE next due 2026-11-24; unrelated-reading cursor 1072.  
+> Existing :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its original hourly :24 schedule. No task/ID/cadence change and no sixth task.  
+> 
+> ---
+
 
 
 # Amendment | h926:s4 | 2026-11-18 15:14Z
