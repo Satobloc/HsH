@@ -1,5 +1,15 @@
 
 
+# Amendment | h926:s4 | 2026-11-18 15:14Z
+
+- Report Amendments 01–04; publisher issue #1982 comments #6982489548, #6982586182, #6982652424 and #6982701947. Original artifact/hash unchanged.
+- Source refinement from full arXiv v1 Sections 1–2.3: distinguish evidence genealogy, causal-interference neighborhood, communication/exposure-event graph, and estimator-dependence graph; separate exposure map, outcome restrictions, estimand/policy allocation and estimation design. ACE fixed-exposure vs ECE policy-averaged. Proposal only.
+- PR #1981 two exact-head failures; latest source head `26fdc510e667b143afa92abb19716fbd941700f2` in verification-trigger PR #1984. Actions #44332723367/job #134901172816: exact-head assertion and Lake manifest PASS; Lean compile IN_PROGRESS. No compile pass or axiom audit.
+- Live task peek confirms :48 ID enabled, exact hourly ET :48 schedule. Current run be134f75-cba0-8326-9643-da5f16e85574 IN_PROGRESS, no completion/chat_ref, cached h925:s4.
+- Mercer PR #1979 corrected head exact CI PASS; publisher #1980 rejected checksum, no retry. Whirligig direct spec remains NOT_INSPECTED.
+
+
+
 # Amendment | h926:s4 current verification and scheduler readback | 2026-11-18 15:12Z
 
 - Publisher issue #1982 remains PUBLISHED_VERIFIED for the original snapshot, exact readback. Public comments #6982489548, #6982586182 and #6982652424 add CI, Whirligig-path, cross-lane, and scheduler corrections. Workspace report Amendments 01–03; original digest unchanged.
