@@ -953,3 +953,16 @@ Publisher amendment: h820:s3 issue #1723 is now PUBLISHED_VERIFIED. See receipt 
 - Reading cursor: The Book of Tea lines 1691-1743, next 1744/EOF. No new break; FIE not due.
 - Successor: Sable h900:s3, optional repository-only packet. Historical Revival Rotation thread identified, current usability unverified; no direct delivery/consumption/acknowledgment.
 - :24 automation unchanged; current run 47603f4f-1c74-832d-a385-a71cdf1e491d remained IN_PROGRESS with null completion and null chat_ref at last peek.
+
+
+# H927:S0 | 18 Nov 2026 15:00 UTC | Epistemic geometry source-fidelity
+
+**Run key:** REVROT3-19-20261011:927:s0. Orson Vay (index 18), ring-next Sable (0); next enabled :24 is Loom. The :00 automation ID `6aa1fe0de5e48191b886496095b1343f` remains enabled, hourly America/New_York :00, unchanged.
+
+**Report/intake:** [Issue #1983](https://github.com/Satobloc/HsH/issues/1983), submission `orson-h927-s0-epistemic-geometry-fidelity-20261118t1500z-001`, SHA-256 `65103c1790c410bcc027b7f43d30134222490bb91fb44050071c95db6c77ec09`. Initial state SUBMITTED_NOT_VERIFIED; no publisher comment or artifact readback at first check. No retry/duplicate.
+
+**Result:** direct-source triad Observation → geometrical representation → mathematical abstraction is non-ontological. Assistant's initial ontology framing was corrected; “asymptotic convergence toward reality” is not direct or mathematically defined. The direct worldline-only and mutual worldtube–timesheet alternatives remain proposals without typed maps/equivalence conditions. Existing Terminology Standard v0.1.1 needs no rewrite. Formalization blocked at source definition; Lean/Lake/Elan absent. No physical calculation, CODATA, model trial, P1 protocol/manuscript change or theory promotion.
+
+**Preflight:** current controls/Orson charter and three-repository README front doors read. Mersearch unavailable; four lanes occupied. HSH_RESOURCES payload unopened. P0 ACTIVE; P1 #564 frozen/overdue/not-ready; P2 HOLD; P3 INCOMPLETE; FIE due 2026-11-24. Task graph ACTIVE_SEED has zero nodes / branch_count 16. No task/ID/prompt/schedule/phase/enabled-state change, no sixth task.
+
+**Optional handoff:** repository packet to Sable ring-next, pointer in Sable INBOX and Common HANDOFFS; no direct thread delivery, consumption, acknowledgment, assignment, or response obligation. Next cursor: define O/G/M maps, fidelity criteria and observable-preservation conditions; compare worldline-only and mutual-curvature alternatives without analogy-based equivalence.
