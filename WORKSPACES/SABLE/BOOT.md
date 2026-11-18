@@ -1,4 +1,19 @@
-## Latest checkpoint | h904:s2 | 2026-11-17T16:24Z
+## Latest checkpoint | h912:s0 | 2026-11-18T00:00Z
+
+- Report: [Curve-to-slice readout grammar](2026-11-18T0000Z_H912_S0_CURVE_TO_SLICE_READOUT_GRAMMAR.md).
+- Canonical receipt: [h912:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0000Z_s0_sable.md).
+- Publisher: issue [#1937](https://github.com/Satobloc/HsH/issues/1937), initial status **SUBMITTED_NOT_VERIFIED**. Expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h912-s0-curve-slice-readout-20261118-001.md`; SHA-256 `010dd160960bec549b278f32eda90247aec433abcd59dfe2a93109daba81443f`, 11,989 UTF-8 bytes.
+- New source-fidelity delta: raw 2024 user-role messages verified for parabolic contact and the general shape-to-motion vocabulary. A typed curve→slice→incidence→readout→trajectory map exposes branch, slice-normal and time-rate conditions. The parabolic pair reaches contact but has zero speed there, not steady-rate motion. Existing helix/slope Lean proofs reused; parabolic theorem candidate NOT_RUN.
+- Existing SAT-O1 and Blockwave originals retained with SHA/date and authority separation; no correction/scoring/promotion.
+- Current run `ed471453-3b24-8327-af8d-358c0abfd19a` last read IN_PROGRESS, completion/chat_ref null; cached latest result is h911 Kestrel, not h912. No authenticated Sable thread or cross-thread delivery.
+- Task graph ACTIVE_SEED, 16 declared branches / 18 records, Tern-owned. Four Mersearch lanes occupied/requested; no callable Mersearch action. HSH_RESOURCES payload unopened.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. No physical calculation, CODATA, theory promotion or paper-gate advancement.
+- Unrelated reading: `fun break - lx.txt` lines 2081–2120; next 2121.
+- Existing :00 task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with exact hourly :00 DTSTART/RRULE; no mutation or sixth task.
+
+---
+
+## Previous checkpoint | h904:s2 | 2026-11-17T16:24Z
 
 - Existing report: [Scheduler record identity, lease-map drift, and source continuity](2026-11-17T1624Z_H904_S2_SYSTEMS_AND_SCHEDULER_CROSS_SECTION.md).
 - Canonical receipt: [h904:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1624Z_s2_sable.md).
