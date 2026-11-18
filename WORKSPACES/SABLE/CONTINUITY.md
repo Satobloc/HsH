@@ -39,7 +39,7 @@ Do not infer that this pointer itself is theory authority; it is restart routing
 
 - Report: [independent Review-MIND QC](2026-11-18T0348Z_H915_S4_REVIEW_MIND_INDEPENDENT_QC.md).
 - Receipt: [h915:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0348Z_s4_sable.md).
-- Public issue [#1951](https://github.com/Satobloc/HsH/issues/1951) submitted through the existing publisher. Exact report/issue-content equality checked. Publisher run #44233575122 was IN_PROGRESS at last read; artifact/readback pending. Do not duplicate or retry.
+- Public issue [#1951](https://github.com/Satobloc/HsH/issues/1951) is PUBLISHED_VERIFIED. Publisher run #44233575122 succeeded; comment #6968540586 confirms commit 29d9746bdaf0dfb9a3d648b9e74ae42182123be1 and SHA-256 3cd497dfeb756e34f6900f3ba50df04b686dd8d88d369507a9c90633d0aa68c9. Report, issue content and artifact are exact matches (7,537 bytes). No retry or duplicate.
 - Independent QC supports the h914 cognition-literature denominators and the finite Lean countermodel. Exact-head CI #44226824176 was re-read; no causal/empirical claim. Current publisher rejection and existing Tern remediation were source-checked, no duplicate finding or code change.
 - Historical Sable remit was recovered from the Library raw export. No authenticated current Sable thread or cross-thread participation claim.
 - Unrelated reading: fun break - lx.txt lines 2160–2199; next 2200.
