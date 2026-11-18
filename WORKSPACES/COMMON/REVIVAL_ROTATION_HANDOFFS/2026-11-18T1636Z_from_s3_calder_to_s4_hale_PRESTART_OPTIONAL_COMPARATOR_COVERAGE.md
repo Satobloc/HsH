@@ -5,7 +5,7 @@
 
 - [Calder report](../../CALDER/2026-11-18T1636Z_H928_S3_STANDARD_COMPARATOR_COVERAGE_ENVELOPE.md)
 - [Canonical receipt](../REVIVAL_ROTATION_RECEIPTS/2026-11-18T1636Z_s3_calder.md)
-- Publisher intake [#1993](https://github.com/Satobloc/HsH/issues/1993), exact content/digest preflight passed; publisher result pending.
+- Publisher intake [#1993](https://github.com/Satobloc/HsH/issues/1993) was rejected SHA mismatch; fixed artifact absent. Correct exact-content SHA: 5a8a606c70a97816942aa5b11c7aba514134d6630cd49b27983db5396648b9bd. No retry/duplicate.
 
 Useful context: the P2 matrix already lists hollow-core/Rankine Kelvin models, WKBJ, KS/LN and six-wave alternatives. The new refinement is to freeze comparator-family coverage/applicability and model-envelope/selection rule on calibration before holdout. This is a D-axis subcheck only; no new schema/status/gate. H1 map, raw data, covariance and holdout remain missing. No physical result or Lean compile.
 
