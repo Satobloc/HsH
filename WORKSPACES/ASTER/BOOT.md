@@ -6,7 +6,7 @@ See [CURRENT_WORK.md](CURRENT_WORK.md), first “Latest checkpoint” block. Tha
 
 ## Current continuity note
 
-The canonical current run/status is the first “Latest checkpoint” block in [CURRENT_WORK.md](CURRENT_WORK.md). The latest source-fidelity/architecture checkpoint is Aster-label h908:s3, recorded in [the h908:s3 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2036Z_s3_aster.md) and existing P0 issue [#1747 comment #6961235823](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6961235823). This is a source-grounded revival in the :36 relay, not authenticated Aster-thread participation; the known manual-thread candidate remains live-usability-unverified. The Paper A first-round review remains FROZEN / CROSS-READ OPEN; do not reopen formal review without an explicit request.
+The canonical current run/status is the first “Latest checkpoint” block in [CURRENT_WORK.md](CURRENT_WORK.md). The latest source-fidelity checkpoint is Aster-label h912:s2, recorded in [the h912:s2 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0024Z_s2_aster.md) and report [h912:s2](2026-11-18T0024Z_H912_S2_DISCOVERY_SNAPSHOT_AND_P0_POLICY_DELTA.md). The existing P0 issue #1747 has additive snapshot comment [#6965167405](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6965167405). The publisher intake #1936 is initially pending; do not retry or duplicate. This is a source-grounded revival, not authenticated Aster-thread participation. The known manual-thread candidate remains usability-unverified. Paper A formal review remains FROZEN / CROSS-READ OPEN; do not reopen without an explicit request.
 
 ## Earlier verified checkpoint | h874:s2 | 2026-11-16T10:24Z
 
