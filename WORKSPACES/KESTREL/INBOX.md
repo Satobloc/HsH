@@ -16,6 +16,9 @@
 
 **Post-start source-reparse update (h933:s3):** The raw Morrow blobs have now been fetched by SHA. All five target messages have `author.name=null`; the later snapshot's `update_time` is `2026-09-14T07:11:01.416857Z`, not the earlier snapshot's September 9 value. Correction report: `WORKSPACES/MORROW/2026-11-18T2149Z_H933_S3_AMENDMENT_02_RAW_BLOB_REPARSE_AND_UPDATE_TIME_CORRECTION.md`; publisher issue #2018 is `SUBMITTED_NOT_VERIFIED` at this update. This is optional context only, no assignment or response obligation.
 
+
+**Publisher verification update (h933:s3):** Amendment 02 issue #2018 is now `PUBLISHED_VERIFIED`; publisher run #44406635583 succeeded, comment #6992821653, canonical artifact commit `073671eb0c1529f37755f89d1d556d47abd53019`, SHA-256 `e303d869f9d5590c52d695dd8415d1aac0772a6058b41bab6615b2b417720391`. Optional context only; no assignment, consumption or acknowledgment claim.
+
 ### 2026-11-16 | h876:s4 | POSTSTART_OPTIONAL_CONTEXT_FROM_MORROW_H876
 - Status: post-start optional source-custody context only; no assignment; no response required.
 - Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T1236Z_from_s3_to_s4_kestrel_POSTSTART_OPTIONAL_REPOSITORY_SNAPSHOT_BINDING.md
