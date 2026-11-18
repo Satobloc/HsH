@@ -84,3 +84,12 @@ The Orson role card is an assistant-maintained synthesis, not a recovered verbat
 The existing :36 automation remains enabled under its original ID `6a9f52b69ec08191b0a2ba24a074f781`, with the original hourly America/New_York :36 schedule and prompt unchanged. No task, ID, schedule, phase, cadence, or enabled-state mutation; no sixth task.
 
 **Return pin:** `H934:S3 / ORSON / SABLE-NEXT / OV101-PAIRED-SESSION-DEPENDENCE / PR850-UPDATED / LEAN-MERGE-REF-PENDING / P1-FROZEN-UNCHANGED / NO-TRIAL / NO-PHYSICAL / TASK-UNCHANGED`
+
+
+## Lean correction amendment | 2026-11-18 22:53Z
+
+The first completed PR merge-reference build, [Actions #44414963119](https://github.com/Satobloc/HsH/actions/runs/44414963119), **FAILED in the new module**. The finite `#eval` executed and printed `(1, 1, 0, 2, 2, 2)`, but the theorem proof did not close: the first `constructor` split the right-associated conjunction incorrectly and was applied to an equality. The subsequent `#print axioms` therefore exposed `sorryAx` from the unresolved theorem. No literal `sorry` or `admit` was added, but this is not a verified proof.
+
+The proof was corrected by nesting the conjunction constructors in the correct order. Corrected module blob: `e182a8d35e880f87caac41ab85cc7f8eef977ea9`. Corrected PR head/commit: `c7f5c53bef1cea27b04da49d01b1ea904d8c236f`. A new merge-reference run, [Actions #44415851092](https://github.com/Satobloc/HsH/actions/runs/44415851092), has started; at this amendment it remains in progress at checkout. No successful corrected-head compile, `#eval` log, or axiom audit is claimed yet.
+
+This amendment supersedes the earlier branch-head and pending-status snapshot above. The empirical/design boundary is unchanged: no OV-95 session, LLM trial, ICC, causal estimate, or P1 protocol change.
