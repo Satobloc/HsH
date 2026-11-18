@@ -1,11 +1,11 @@
 # Latest Relay
 
-- **h926:s4 | 2026-11-18 14:48 UTC | Review-MIND:** [causal-identifiability report](2026-11-18T1448Z_H926_S4_REVIEW_MIND_CAUSAL_IDENTIFIABILITY_AND_INTERFERENCE.md). CF-1 refinement: distinguish evidence, interference, communication/exposure, estimator-dependence graphs; keep estimand/policy and design separate.
-- Publisher issue #1982 PUBLISHED_VERIFIED original snapshot; amendments/comments #6982489548, #6982586182, #6982652424, #6982701947.
-- Lean PR #1981 two failed exact-head attempts; verification-trigger PR #1984 run #44332723367 compile IN_PROGRESS after exact checkout/manifest pass.
-- Mercer PR #1979 corrected-head CI PASS; publisher #1980 rejected checksum.
-- Live :48 task peek confirms enabled/exact schedule; current run IN_PROGRESS, no completion/chat_ref.
-- Next immediate ring label Orson h927:s0; optional packet postnominal.
+- **h926:s4 | 2026-11-18 14:48 UTC | Review-MIND:** [causal-identifiability report](2026-11-18T1448Z_H926_S4_REVIEW_MIND_CAUSAL_IDENTIFIABILITY_AND_INTERFERENCE.md). Reproducibility freeze != causal identification; CF-1 distinguishes evidence genealogy, interference, exposure/communication, estimator dependence, and estimand/policy vs design.
+- Issue #1982 original published snapshot exact-readback verified; latest amendment #6983055197 reconciles duplicate invocation and Lean status.
+- PR #1981/#1984: prior exact-head runs failed at Lean compile. Current #1984 head `7794e1db22220f34c83412ea266fbac4b5efb662` rewrites `Identified` as a predicate; no Actions run on this head, **LEAN_NOT_VERIFIED**. Vercel preview rate limit is separate.
+- Current scheduled invocation `be134f75-cba0-8326-9643-da5f16e85574` is IN_PROGRESS, late start 15:18:37Z, no completion/chat_ref, cached result h925:s4. Duplicate run-key reconciliation; no repeat research/publication.
+- P0 ACTIVE; P1 Orson cognition OVERDUE/NOT READY/ORSON-OWNED; P2 HOLD; P3 INCOMPLETE; FIE next Nov24.
+- Next ring label Orson h927:s0. No task mutation or sixth task.
 
 ---
 
