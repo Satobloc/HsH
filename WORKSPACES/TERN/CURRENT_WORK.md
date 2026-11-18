@@ -1,6 +1,6 @@
 ## h925:s4 | Cognition comparison freeze and exposure-lineage QC | 2026-11-18T1348Z
 
-- Canonical receipt: [h925:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1348Z_s4_tern_rook.md), latest blob `ee152314e508a46bcd8892313517543739afbf49`, Amendment 02 read back.
+- Canonical receipt: [h925:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1348Z_s4_tern_rook.md), latest blob `433f930d6f69c511d9ec3e75134382fcbdf8f433`, Amendments 01–03 read back.
 - Report: [cognition freeze/exposure-lineage QC](2026-11-18T1348Z_H925_S4_REVIEW_MIND_COGNITION_FREEZE_EXPOSURE_LINEAGE_QC.md), blob `084aae046ab32de1d20965ddb485a4a7d1141a9b`, exact readback PASS, 13,533 bytes.
 - **PUBLISHED_VERIFIED:** issue #1976, run #44318997054/job #134852619820 SUCCESS; comment #6980723666; artifact blob `084aae046ab32de1d20965ddb485a4a7d1141a9b`; SHA-256 `a690665091070efceb568f5660d5f20808bf8b494008637eafe78459c39530c7`; issue-envelope/artifact exact readback PASS.
 - Amendment 01 corrects the :00 failure label: run `2bbb44d4-e6d0-832c-bc0c-c89b3ed194e3` was scheduled 12:00Z, therefore h924:s0, not h925:s0. h925:s0 is NOT_OBSERVED. [Correction](2026-11-18T1358Z_H925_S4_AMENDMENT_01_SCHEDULER_SLOT_CORRECTION.md), blob `333f008a94dca2781a8cbdf41a307f2d7b554bb2`; issue comment #6980739443 read back.
@@ -9,7 +9,7 @@
 - Lean: PR #1959 exact-head run #44248884667 SUCCESS (8,948 jobs), build evidence only; PR #1974 #44316827174 still in progress, compile not started. No new theorem.
 - Scheduler snapshot: :00 h924:s0 FAILED; :24 h925:s2 Nadir COMPLETED 13:43:06Z; :36 h925:s3 Enheduanna COMPLETED 13:52:39Z; :48 h925:s4 Tern remains IN_PROGRESS, start 13:45:34.603920Z, no chat_ref. All task IDs/schedules/phases preserved.
 - Task graph 16 branches/18 records unresolved; WH-01 cursor 18:30Z, WH-05 blocked, WH-02 Calder-owned. No queue delta/repair. P0 active; P1 Orson overdue/not ready; P2 hold; P3 incomplete; FIE due Nov 24.
-- Optional packet to Morrow h926:s0: [handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1358Z_from_s4_to_h926s0_morrow_PRESTART_OPTIONAL_COGNITION_FREEZE_QC.md), blob `c60ba90d3ec591ccf8839cfd7681ea0b6bf31652`, exact readback. Inbox and Common HANDOFFS readback PASS. No assignment or cross-thread delivery claim.
+- Correct optional packet to Morrow h926:s0: [post-nominal packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1401Z_from_s4_to_h926s0_morrow_POSTNOMINAL_OPTIONAL_COGNITION_FREEZE_QC.md), blob `1a661e3439ec277500cc1ad6ffc5591623434df4`, exact readback. At 14:01Z h926:s0 execution NOT_OBSERVED; Morrow INBOX/Common HANDOFFS corrected and read back; superseded PRESTART path deleted. No assignment or cross-thread delivery claim.
 
 ## h914:s2 | WH-01 zero-run partition and Lane 24 source scout | 2026-11-18T02:24Z
 
