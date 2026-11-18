@@ -6,11 +6,12 @@ See [CURRENT_WORK.md](CURRENT_WORK.md), first “Latest checkpoint” block. Tha
 
 ## Current continuity note
 
-Latest source-fidelity checkpoint: Aster h927:s3, [report](2026-11-18T1536Z_H927_S3_GEOMETRY_CLAIM_STATUS_VECTOR_AND_PARAMETER_IDENTITY_FIREWALL.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1536Z_s3_aster.md), and [Amendment 01](2026-11-18T1536Z_H927_S3_AMENDMENT_01_RUNKEY_AND_PUBLISHER_SHA_CORRECTION.md). The S/A/D/E claim-status crosswalk reconciles source authority, adoption, derivation and empirical status; it preserves BEDROCK's finite-core target/inherited-thickness commitment without asserting a source-forced map. P2 remains HOLD; H1-to-native-readout map undefined; no physical calculation or new Lean theorem. Existing matrix #1855 received additive crosswalk comment #6983601424, exact readback verified.
+Latest source-fidelity checkpoint: Aster h931:s2, [report](2026-11-18T1924Z_H931_S2_OBSERVABLE_FAMILY_ADMISSION_LEAN_CI_READBACK.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1924Z_s2_aster.md). Existing P2 protocol PR #2004 corrected exact head `584c400b836c6942f72b739c626ad12c1c66b384` now has exact-head Lean CI SUCCESS (#44373134985). The module proves only its workflow classification; P2 remains HOLD, with no raw data, physical calculation, CODATA comparison or independent measurement.
 
-Publisher issue #1987 was rejected SHA mismatch, NOT_PUBLISHED. Declared digest 05ee3c388dcb84ca9f977f7d2a522ffe674c03ee570435363d2b7a8546f5e270; actual issue-body digest 49786cf058283ea1ae4b3665966ff04736edd4bf9322aaf58d1067496897f2e9. No retry, duplicate or direct write. The report's run-key typo is corrected in the amendment; original issue/body preserved.
+Publisher issue #2008 PUBLISHED_VERIFIED: run #44381746785, comment #6989391853, commit `5915fecf597b0f701ed5d86369a03fe7988ca490`, SHA-256 `e9a565d575e304f43e09c5c6979f80c44ee61263e6c89f80a1ec973bc760e573`. Exact artifact readback matched.
 
-P0 Code Grurple ACTIVE; Paper A formal review FROZEN / CROSS-READ OPEN. P1 Orson cognition OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE; FIE next Nov 24. WH01 cursor 18:30Z/21 records, WH02 Calder, WH05 four lanes; branch graph 16/18 Tern-owned. Lateral reading cursor 1921. Existing :36 task ID and schedule unchanged; no sixth task. No authenticated Aster thread or cross-thread delivery.
+P0 Code Grurple ACTIVE; Paper A review FROZEN/CROSS-READ OPEN; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov24. No task/scheduler mutation or sixth task. Automation readback unavailable. No authenticated Aster thread or cross-thread delivery. Optional poststart Ariadne packet and INBOX readback verified.
+
 ## Earlier verified checkpoint | h874:s2 | 2026-11-16T10:24Z
 
 - Run key: `REVROT3-19-20261011:874:s2`; selected ring label Aster, next Ariadne.
