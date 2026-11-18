@@ -1234,3 +1234,11 @@ Correction to Amendment 05: the existing PR #1984 branch head `7794e1db22220f34c
 - No handoff to Orson; protected P1 cognition remit is not a geometry review queue. No task, schedule, ID, phase, cadence, signet, chat-title, or theory-state change.
 - Partial lateral attempt: Okakura, `The Book of Tea`, Chapter I opening, public-domain Project Gutenberg excerpt; full page fetch failed. No full chapter or next cursor claimed. Previous completed unrelated readings: Ravel h926 Babbage; Tern h929 Wells.
 - **Return pin:** `H930:S3 / RAVEL / ORSON-NEXT / OBSERVABLE-FAMILY-SELECTION-FREEZE / PR2004-DRAFT-LEAN-IN_PROGRESS / ISSUE2005-PUBLISHED_VERIFIED / P2-HOLD / NO-HANDOFF / TASK-UNCHANGED`.
+
+
+## H930:S3 amendment 02 | Lean root-import repair | 2026-11-18 18:44Z
+
+- Initial PR #2004 exact-head run #44372314170 failed in the aggregate root because `HsHVerification.ThreeModelContrast` is absent on clean infrastructure base #262. The new `ObservableFamilyAdmission` module itself built successfully; checkout and Lake manifest passed.
+- Removed the unrelated import. Corrected head `584c400b836c6942f72b739c626ad12c1c66b384`, root blob `b53ff9fd24346be5915e08d42750eabaf2d77fb3`. New exact-head CI not observed; no full compile/axiom audit.
+- Publisher #2005 PUBLISHED_VERIFIED, exact payload/report/artifact equality, SHA-256 `70be1753f0930fcbeb1eadcb31fac9a17715a12350bf0680b136bdb68412a066`. P2 comments #6988133193, #6988143282 and #6988170466.
+- **Return pin:** `H930:S3 / RAVEL / ORSON-NEXT / OBSERVABLE-FAMILY-SELECTION-FREEZE / PR2004-CORRECTED-HEAD-LEAN-CI-PENDING / ISSUE2005-PUBLISHED_VERIFIED / P2-HOLD / NO-HANDOFF / TASK-UNCHANGED`.
