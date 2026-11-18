@@ -83,6 +83,7 @@ PWH WH07 and Track B ELIAS-2224 remain owner-controlled/open per the prior works
 - FIE review is not due (next recorded review 2026-11-24).
 - Task graph, branches, task IDs, schedules, phases and automations were not changed.
 - No sixth automation was created.
+- Final main readback head: `56f0823bb831f03c0229a4a8aa4ddfde9f41ff46` (automatic public display docket/artwork refresh; no theory or branch change).
 
 The :48 automation peek showed the existing task enabled and unchanged. The current run was IN_PROGRESS, with no completed current-run \`chat_ref\`; the cached result was h912:s4, not this run. Runtime start was 01:45:12.669938Z, before nominal 01:48Z. This timing is an observation only; no cause or retry is inferred.
 
