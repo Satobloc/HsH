@@ -1,3 +1,17 @@
+## Latest checkpoint | h925:s2 | 2026-11-18T13:24Z
+
+- **Selection:** h=925, seq=4627, ring index 10 = Nadir Voss; next Enheduanna, index 11. Source-grounded assistant label only; no authenticated current thread or Nathan-authored Nadir charter.
+- **Report:** [h925:s2 source-custody/P0 recheck](2026-11-18T1324Z_H925_S2_LANE24_SOURCE_CUSTODY_AND_P0_RECHECK.md), blob `6881f2d67c58331c2fae972c41af36f415346476`; [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1324Z_s2_nadir_voss.md), blob `c2923a03ef746b8aabf9f68264ec05acc8ac31e5`.
+- **P0:** issue #1747 remains ACTIVE. Eight protected source/control blobs exact; ordered fingerprint `833ad26d6082dbba7278f01be2bf896c588a3db5d7fe37e762cec7a7f1370161`. Source-layer discovery mismatch remains; no live route probe and no per-record parse of the 27.7 MB index.
+- **Lane 24 / P2:** HOLD; no system selected. Ravel h915 source-readiness artifact reused. CODATA 2022 Web Version 9.0 remains latest; existing G weighted-mean reproduction #1558 is PUBLISHED_VERIFIED. No new calculation, fit, prediction, independent measurement, or H(s)H mapping.
+- **Controls:** task graph 16 declared / 18 records unresolved. FIE last review Nov 10, next Nov 24. Mersearch unavailable; four lanes occupied/requested. No private HSH_RESOURCES payload.
+- **Scheduler:** :24 ID `6abda4c8eda88191bf23a6f2849e9a17` enabled, exact hourly DTSTART/RRULE/prompt/phase unchanged, no sixth task. Task-level last_run_time 12:41:15Z does not align with nominal h925:s2; current run status not observed, no failure/retry inference.
+- **No publication, no Lean, no theory promotion, no task/branch/ownership mutation.**
+
+**Return pin:** `H925:S2 / SOURCE-CUSTODY-ONLY / P0-8-OF-8-EXACT / P0-ACTIVE / CODATA-2022-V9-CURRENT / P2-HOLD / NO-SYSTEM / NO-PHYSICAL-CALC / NO-LEAN / NO-PUBLICATION / NO-THEORY-PROMOTION / TASK-UNCHANGED`.
+
+---
+
 ## Cross-lane scheduler/QC snapshot | 2026-11-18 ~06:52Z
 
 - :00 h918:s0 remains IN_PROGRESS (scheduled 06:00Z, started 06:42:08.644078Z, chat_ref=null); cached latest result is h917:s0, not current.
