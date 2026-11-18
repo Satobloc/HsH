@@ -98,3 +98,22 @@ Treat these as distinct typed events, not interchangeable dates:
 Do not call an attachment event a repository copy, a retrieval event an upload, or a Git commit timestamp a composition date. When one file ID recurs across raw exports, group the events by that ID while retaining every conversation/node/timestamp separately. Bind content identity independently through exact text comparison, Git blob identity, and a recomputed raw-byte digest when available.
 
 Applied correction: h910:s4 distinguishes the first verified BLOCKWAVE.txt attachment event (2025-09-16), repeat same-file-ID attachment records (2025-09-18), the file-search retrieval event (2025-09-16), and the first extant HsH path commit returned (2026-10-08). Embedded authorship remains UNKNOWN.
+
+
+## Layer 10 — Evaluation-event / artifact binding
+**Introduced:** h914:s3, 2026-11-18. This is an additive source-custody crosswalk; it does not redefine the typed event taxonomy in Aldus PR #1860 or Hale's prediction/holdout hard gate in PR #1487.
+
+A typed preregistration, prediction-seal, holdout-access/unblind, evaluation, or replication event must bind to the exact artifact(s) it asserts occurred. Event chronology and artifact identity are separate evidence axes: a hash identifies bytes; a timestamp orders an event only under its declared source/clock/scale and uncertainty; neither alone authenticates actor, exposure, isolation, completeness, or independence.
+
+Required event/artifact tuple:
+- stable event ID/type, claim/protocol ID, actor or exact run+attempt attribution (otherwise UNKNOWN), causal parent event IDs, and evidence locator;
+- exact artifact identity using Layer 8's repository/commit/tree/path/blob tuple, byte length, and independently computed raw-byte SHA-256; for non-Git sources use provider/source ID and version plus digest where obtainable, without inventing Git fields;
+- event-time interval, named clock domain/scale and time-source evidence; separately observed-at interval and retrieval/audit source;
+- versioned model/code, parameter state, calibration/data manifest, holdout-partition manifest and split unit (event/experiment vs frame/view), observation/readout version, metric, threshold, and uncertainty source bound to the frozen protocol artifact;
+- exact frozen prediction-output bytes/digest and prediction-seal event ID;
+- source-identified access/unblinding events and exact evaluation-result artifact (code, inputs, outputs, residuals/decision); deviations are new linked events, never silent protocol rewrites;
+- replication event tied to distinct acquisition/run provenance and protocol/result artifacts. Distinct source IDs alone do not establish statistical independence.
+
+Append-only event records preserve corrections as new linked records. Do not infer timestamp, actor, independence, completeness, or causal role from filename, issue number, run label, or hash alone. A prediction digest establishes byte identity, not generation time or holdout isolation. Incomplete access history remains UNKNOWN.
+
+Suggested status vocabulary, on independent axes: EVENT_ARTIFACT_UNBOUND, EVENT_ARTIFACT_IDENTITY_VERIFIED, PREDICTION_BYTES_VERIFIED, SEAL_TIME_ORDER_VERIFIED, HOLDOUT_ACCESS_HISTORY_UNKNOWN, HOLDOUT_ACCESS_HISTORY_VERIFIED, EVALUATION_RESULT_BOUND, REPLICATION_LINEAGE_VERIFIED. Use VERIFIED only for the specific evidence actually checked. These statuses are operational evidence labels, not theory authority or empirical validation.
