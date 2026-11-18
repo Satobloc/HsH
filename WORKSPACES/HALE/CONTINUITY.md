@@ -557,3 +557,11 @@ The current :48 execution remains IN_PROGRESS with null completion and null curr
 - Receipt amendment [03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0524Z_s2_hale_AMENDMENT_03_DISCOVERY_REFRESH_0535Z.md). The prior publisher amendment #1958 remains pending readback.
 - Navigation run #44244520565 failed strict date-tag verification and skipped downstream work; #44245245602 remains in progress at checkout. No code/task/scheduler changes.
 - P0 remains ACTIVE, live routes NOT_OBSERVED; no repair/standdown.
+
+
+## H917:s2 final amendment/readback | 2026-11-18
+
+- Post-write discovery amendment [02](2026-11-18T0533Z_H917_S2_POSTWRITE_DISCOVERY_REFRESH_AMENDMENT.md) is `PUBLISHED_VERIFIED`: publisher #1958, run #44245225913 SUCCESS, comment #6970120916; SHA-256 `aeec885283862b514f42da153da1aa337ec6fbe0cdb8662d537bb685c204e6da`, blob `ae84a4a369f18a536ab87b4b4857faad2ce047eb`. Workspace/published content exact-match readback passed (2,189 characters).
+- Second refresh result recorded in receipt amendment [03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0524Z_s2_hale_AMENDMENT_03_DISCOVERY_REFRESH_0535Z.md) and comment #6970153243 on #1958: 15,801 docs, source HsH `591fff5...`, SAT `4b616b...`; generated commit `c1cec4c...` equaled main at that observation, one commit ahead/0 behind, only discovery.json. Full index current at that observation. Per-record delta not parsed.
+- Publisher readback [Amendment 04](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0524Z_s2_hale_AMENDMENT_04_PUBLISHER_READBACK.md). A temporary misnumbered Amendment 03 publisher-readback file was deleted before publication and replaced by Amendment 04; no duplicate artifact/issue. Deletion is recorded in Git history.
+- Latest source main after the continuity update may be ahead of the 05:35 discovery snapshot by relay-only outputs; no further scan was chased. The self-index/freshness feedback loop is confirmed, but per-record attribution and live routes remain unobserved.
