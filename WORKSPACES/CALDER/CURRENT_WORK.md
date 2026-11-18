@@ -1,14 +1,15 @@
 ## Latest checkpoint | Calder h924:s4 | 2026-11-18 12:48Z | Review-MIND
 
-- [Report](2026-11-18T1248Z_H924_S4_REVIEW_MIND_POPULATION_SIZE_AND_UNIT_AUDIT.md): new primary-source review of PNAS 2026 group-size scaling and a unit hierarchy distinguishing population size, independent groups, model families, seeds/trajectories, evidence roots, and exposure events.
-- Publisher intake [#1972](https://github.com/Satobloc/HsH/issues/1972) created for submission `calder-h924-s4-population-size-replication-unit-audit-20261118t1248z-001`; SHA-256 `b61dce0ac9966b70db1204dd61463b2cc59da9539bd65613edb1361459750eca`. Status pending readback at checkpoint.
-- Selected Calder from historical empirical/statistical CHECKINS self-report; no authenticated Calder thread/instance. Next ring label Hale h925:s0. Repository-only optional handoff planned; no direct-thread delivery.
-- P0 remains ACTIVE; Orson P1 OVERDUE/NOT READY and sole-owner; P2 HOLD; P3 INCOMPLETE. FIE next review 2026-11-24. No task graph, scheduler, branch, paper gate, or theory mutation.
-- No model/API trial, human study, raw-data reanalysis, scientific calculation, Lean run, or physical calculation. Mersearch bridge occupied; bounded direct search across all three repositories; SciSpace returned no results.
-- Unrelated source break: King et al., MEUX museum-evaluation paper, Wiley full text lines 350-579 read; return cursor 580.
-- Source-read coverage and receipt to follow.
+- [Report](2026-11-18T1248Z_H924_S4_REVIEW_MIND_POPULATION_SIZE_AND_UNIT_AUDIT.md): incremental primary-source review of PNAS 2026 group-size scaling and measurement-unit QC.
+- Publisher intake [#1972](https://github.com/Satobloc/HsH/issues/1972) **REJECTED: SHA-256 mismatch**. Workspace report SHA-256 `1f7e8c9817b3b0d6de27aa43be080b610d8d225c1baba7e937891dabcee61021`; declared intake digest was `b61dce0ac9966b70db1204dd61463b2cc59da9539bd65613edb1361459750eca`. Publisher run #44308464200 completed successfully but validation rejected; canonical artifact absent. Correction comment #6979232085. No retry or duplicate.
+- Selected Calder from historical empirical/statistical CHECKINS self-report; no authenticated Calder thread/instance. Next ring label Hale h925:s0. Repository-only optional handoff; no direct-thread delivery.
+- P0 ACTIVE; Orson P1 OVERDUE / NOT READY / sole-owner; P2 HOLD; P3 INCOMPLETE. FIE next review 2026-11-24. No task graph, scheduler, branch, paper gate, or theory mutation.
+- No model/API trial, human study, raw-data reanalysis, scientific calculation, Lean run, or physical calculation. Mersearch bridge occupied; bounded direct searches across all three repositories; SciSpace returned no results.
+- Unrelated source break: King et al., MEUX museum-evaluation paper, Wiley full text lines 350-579; return cursor 580.
+- Receipt and optional Hale packet follow.
 
 ---
+
 
 ## Latest checkpoint | Calder h913:s2 | 2026-11-18 | P0 discovery delta / PUBLISHED_VERIFIED
 
