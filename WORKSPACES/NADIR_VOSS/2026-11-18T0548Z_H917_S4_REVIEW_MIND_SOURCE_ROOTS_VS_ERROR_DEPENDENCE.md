@@ -69,7 +69,7 @@ Existing source-overlap formalization `CognitionSourceOverlap.lean` (draft PR #2
 
 New draft PR **#1959** adds `SourceRootsVsErrorDependence.lean`, a finite Bool uniform-sample-space countermodel. It formalizes disjoint source roots and identical error functions, then proves the joint-error probability is not the product of marginals; concrete `#eval` values are expected to be `1/2, 1/2, 1/2, 1/4`.
 
-Initial exact-head CI failed because the source-overlap predicate was not opened into namespace scope. Corrected at head `c4f9d8b3595ae28c31ce3bf01549d6e6da18d0e7`. Lean verification run #44248258491 is QUEUED/PENDING at this report version. No local Lean/Lake/Elan runtime. A successful CI build would verify only this finite formalized statement, not translation fidelity or actual model dependence. No main integration, merge, theory promotion, or Orson P1 change.
+Initial exact-head CI failed because the source-overlap predicate was not opened into namespace scope. Corrected at head `c4f9d8b3595ae28c31ce3bf01549d6e6da18d0e7`. Lean verification run #44248258491 **SUCCESS**: exact-head checkout, 8,948 build jobs, concrete `#eval` values `1/2, 1/2, 1/2, 1/4`; axiom report lists `propext`, `Classical.choice`, and `Quot.sound`, with no `sorryAx`. Tests, lint, leanchecker, nanoda and global axiom-audit were skipped. A later linter-only simp-argument cleanup at head `85c3b84e30df5df0749e1f9d9bdda00c4e6f73f9` is awaiting its own CI. No local Lean/Lake/Elan runtime. This verifies only the finite formalized statement, not translation fidelity or actual model dependence. No main integration, merge, theory promotion, or Orson P1 change.
 
 ## Proposed disconfirmable evaluation
 
