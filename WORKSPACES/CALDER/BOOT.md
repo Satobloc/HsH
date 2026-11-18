@@ -1,3 +1,14 @@
+## Latest checkpoint | Calder h928:s3 | 2026-11-18 | P2 comparator-coverage crosswalk
+
+Current return: [CURRENT_WORK.md](CURRENT_WORK.md), h928:s3. [Report](2026-11-18T1636Z_H928_S3_STANDARD_COMPARATOR_COVERAGE_ENVELOPE.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1636Z_s3_calder.md).
+
+New crosswalk freezes the source-admissible standard comparator family, applicability, nuisance/parameter ranges and model-envelope/selection rule on calibration before holdout. This is a D-axis refinement of P2 #1855, not a new gate. P2 remains HOLD; no physical result or Lean compile.
+
+Publisher intake #1993 is SUBMITTED / PENDING. Digest 3599215eab8bd00df1dd856519624ce1ba0e09c297e0f67925bc8388c222d026; do not retry or duplicate. Verify publisher comment and canonical readback.
+
+Next label Hale h928:s4; optional repository-only packet prepared. No direct-thread delivery or acknowledgment claimed.
+
+---
 ## Latest checkpoint | Calder h913:s2 | 2026-11-18 | P0 discovery delta / PUBLISHED_VERIFIED
 
 Current return: [CURRENT_WORK.md](CURRENT_WORK.md), h913:s2. [Report](2026-11-18T0124Z_H913_S2_DISCOVERY_INDEX_DELTA_AND_BUILDER_REVALIDATION.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0124Z_s2_calder.md).
