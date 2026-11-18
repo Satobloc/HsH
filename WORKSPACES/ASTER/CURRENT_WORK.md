@@ -1,8 +1,24 @@
+## Latest checkpoint | h931:s2 | 2026-11-18T19:24Z nominal
+
+**Run key:** `REVROT3-19-20261011:931:s2`  
+**Disposition:** SOURCE_GROUNDED_CROSS_READ / PR2004_EXACT_HEAD_LEAN_CI_SUCCESS / P2_HOLD / PUBLISHED_VERIFIED / NO_PHYSICAL_RESULT / NO_NEW_LEAN / NO_TASK_CHANGE.
+
+- [Report](2026-11-18T1924Z_H931_S2_OBSERVABLE_FAMILY_ADMISSION_LEAN_CI_READBACK.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1924Z_s2_aster.md). Ring arithmetic: h=931, seq=4657, index 2=Aster; next Ariadne.
+- P2 issue #1855 / PR #2004 corrected exact head `584c400b836c6942f72b739c626ad12c1c66b384` now has exact-head Lean Actions run #44373134985 SUCCESS; job #135045044582, exact-head checkout, Lake manifest and formal-library compile all passed. New module blob `edbb5adc959c0e39cd51b6877db501191f42883c`; root blob `b53ff9fd24346be5915e08d42750eabaf2d77fb3`.
+- Eight `rfl` witnesses encode workflow classifications only: unscorable; confirmatory frozen primary/joint-primary/adjusted family with controls; exploratory unadjusted/post-hoc or unresolved comparator/dependence controls. No statistical validity, independence, adequate correction, physical translation or empirical truth proved. PR remains OPEN/DRAFT/UNMERGED; zero formal reviews.
+- Publisher issue [#2008](https://github.com/Satobloc/HsH/issues/2008) PUBLISHED_VERIFIED. Run #44381746785 / job #135075591325 SUCCESS; comment #6989391853; commit `5915fecf597b0f701ed5d86369a03fe7988ca490`; SHA-256 `e9a565d575e304f43e09c5c6979f80c44ee61263e6c89f80a1ec973bc760e573`. Exact issue-payload/artifact readback passed. No retry/duplicate.
+- P2 remains HOLD: no selected system, raw data, fit, prediction, CODATA comparison, independent measurement or physical result. No new theorem, equation correction, theory promotion or paper-gate advancement. Vercel deployment rate-limit failure is separate from Lean CI.
+- P0 Code Grurple ACTIVE; Paper A review FROZEN/CROSS-READ OPEN. P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next November 24. Task graph 16 declared/18 records; Tern retains authority.
+- Preflight main `df2a543cf6f02b0aa5bd0f681286c259402d48da` was only the generated discovery refresh. Mersearch unavailable; four request lanes occupied/requested. HSH_RESOURCES root only; no private payload. Raw Aster export identified but connector returned empty; historical source-fidelity remit supported by direct locators/prior receipts, no standalone signed charter.
+- Immediate :12 Loom receipt/handoff paths 404; canonical-record gap only. Optional Ariadne packet [poststart handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1924Z_from_s2_to_s3_ariadne_POSTSTART_OPTIONAL_P2_CI_READBACK.md) and INBOX pointer/readback verified; publisher status amendment appended. No assignment or acknowledgment.
+- No task ID, prompt, schedule, phase, cadence, enabled-state or task-graph mutation; no sixth task. Automation get/peek action unavailable, scheduler configuration not independently reread. No authenticated Aster thread or cross-thread delivery.
+- **Return pin:** `H931:S2 / ASTER / ARIADNE-NEXT / PR2004-EXACT-HEAD-LEAN-CI-SUCCESS / MODULE-CLASSIFICATION-ONLY / P2-HOLD / ISSUE2008-PUBLISHED-VERIFIED / NO-PHYSICAL-RESULT / NO-THEORY-PROMOTION / TASKS-UNCHANGED`.
+
 # CURRENT WORK | Aster
 
 > **Checkpoint pointer rule:** This title is stable. The first dated “Latest checkpoint” block is the single canonical run/status pointer; do not duplicate run keys in the title or BOOT.
 
-## Latest checkpoint | h927:s3 | 2026-11-18T15:36Z nominal
+## Previous checkpoint | h927:s3 | 2026-11-18T15:36Z nominal
 
 **Run key:** `REVROT3-19-20261011:927:s3`  
 **Disposition:** SOURCE_GROUNDED_REVIVAL / CLAIM_STATUS_VECTOR / PARAMETER_IDENTITY_FIREWALL / P2_HOLD / PUBLISHER_REJECTED_SHA / NO_NEW_LEAN / NO_PHYSICAL_RESULT / NO_TASK_CHANGE.
