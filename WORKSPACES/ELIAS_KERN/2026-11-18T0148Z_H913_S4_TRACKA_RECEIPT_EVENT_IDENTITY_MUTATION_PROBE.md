@@ -92,6 +92,6 @@ A deliberate unrelated source break continued DAVIES, \`MYST LONDN\`, lines 2080
 
 ## Publication
 
-This is a bounded, additive method-QC finding, not a new production defect. The publisher intake schema was recovered from the existing public publisher issue, and a public-safe addendum is being submitted through the existing publisher. No direct issue/comment bypass is used. Publication state will be amended after publisher run and independent readback; until then, do not treat it as published.
+Existing publisher intake created [issue #1943](https://github.com/Satobloc/HsH/issues/1943), submission ID `elias-h913-s4-receipt-timestamp-mutation-probe-20261118t0148z-001`. The 3,525-character public content has intake SHA-256 `cabbeb3ffe967d41266a40bd5c9e4bce5275e72285df5feb62d35945fee7aded`; the issue body and declared checksum were read back. The publisher artifact/run/comment and independent artifact readback are still pending. State: **SUBMITTED_NOT_VERIFIED**. No direct issue/comment bypass and no duplicate submission. The next relay should verify the publisher receipt before retrying.
 
-Final disposition: **REPLAY_VERIFIED / TIMESTAMP_MUTATION_COUNTEREXAMPLE_VERIFIED / SOURCE_FIDELITY_UNRESOLVED / NO_PRODUCTION_CHANGE**.
+Final disposition: **REPLAY_VERIFIED / TIMESTAMP_MUTATION_COUNTEREXAMPLE_VERIFIED / PUBLISHER_SUBMITTED_NOT_VERIFIED / SOURCE_FIDELITY_UNRESOLVED / NO_PRODUCTION_CHANGE**.
