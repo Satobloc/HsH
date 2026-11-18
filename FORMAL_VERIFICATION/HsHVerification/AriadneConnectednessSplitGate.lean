@@ -22,7 +22,7 @@ theorem continuous_image_of_connected_is_connected
     (f : X → Y) (hf : Continuous f) (S : Set X)
     (hS : IsConnected S) :
     IsConnected (f '' S) :=
-  hS.image hf
+  hS.image f hf
 
 /-- If the source set is connected, a continuous transport map cannot have a
     disconnected image. Any observed disconnected target therefore rules out
@@ -33,7 +33,7 @@ theorem continuous_transport_split_no_go
     (hS : IsConnected S)
     (hSplit : ¬ IsConnected (f '' S)) :
     False :=
-  hSplit (hS.image hf)
+  hSplit (hS.image f hf)
 
 /-- A homeomorphism is a special case: it cannot take a connected source
     slice to a disconnected target slice. -/
@@ -41,6 +41,6 @@ theorem homeomorphism_preserves_connectedness
     {X Y : Type*} [TopologicalSpace X] [TopologicalSpace Y]
     (e : X ≃ₜ Y) (S : Set X) (hS : IsConnected S) :
     IsConnected (e '' S) :=
-  hS.image e.continuous
+  hS.image e e.continuous
 
 end HsHVerification.AriadneConnectednessSplitGate
