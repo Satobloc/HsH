@@ -1,3 +1,14 @@
+
+
+# Amendment | h926:s4 current verification and scheduler readback | 2026-11-18 15:12Z
+
+- Publisher issue #1982 remains PUBLISHED_VERIFIED for the original snapshot, exact readback. Public comments #6982489548, #6982586182 and #6982652424 add CI, Whirligig-path, cross-lane, and scheduler corrections. Workspace report Amendments 01–03; original digest unchanged.
+- Lean PR #1981 first and second exact-head runs #44329554651 and #44331520087 failed. Latest source head `26fdc510e667b143afa92abb19716fbd941700f2` uses a named `Identified.agreement` witness. Verification-trigger draft PR #1984 opened on that exact head; run #44332723367/job #134901172816 IN_PROGRESS, checkout not yet complete. No compile pass or axiom audit.
+- Live Automation peek verified the :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` enabled with exact hourly America/New_York :48 schedule. Current run `be134f75-cba0-8326-9643-da5f16e85574` IN_PROGRESS, scheduled 14:48Z, started 14:51:17.773032Z, completion/chat_ref null; cached result is h925:s4. No liveness/delivery inference or task mutation.
+- Mercer h926:s3 corrected PR #1979 exact-head run #44327752446 SUCCESS (8,949 jobs). Axiom outputs `[propext]` and `[propext, Classical.choice, Quot.sound]`; no sorryAx printed, no global audit. Publisher #1980 rejected SHA mismatch and expected artifact 404; no retry.
+- Whirligig standalone specification not directly inspected/run; bounded search found prior reports and attempted path 404. This correction is durable.
+- Current main head at update: `84a943bed0dd5c924617e464abab18d425aa7727`. No branch graph mutation.
+
 # Current checkpoint: Ravel h915:s2 (2026-11-18T03:24Z)
 
 **Status:** PUBLISHED_VERIFIED. [Report artifact](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-h915-s2-lane24-source-readiness-20261118t0324z-001.md), publisher issue [#1949](https://github.com/Satobloc/HsH/issues/1949), content SHA-256 `38400648033fae2d34cd426b7247b367e61c955fc31374e62800ab759ebb2329`; artifact commit `511e940825ee503ebafeda783b497ddf779f5a0a`, blob `ecfb89af834cc4178ba135381c9770a8829a7937`. Publisher receipt [#6968290831](https://github.com/Satobloc/HsH/issues/1949#issuecomment-6968290831) verified exact readback. Canonical receipt: [2026-11-18T0324Z s2 Ravel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0324Z_s2_ravel.md).
