@@ -1,8 +1,8 @@
 # Latest Relay
 
 - **h926:s4 | 2026-11-18 14:48 UTC | Review-MIND:** [causal-identifiability report](2026-11-18T1448Z_H926_S4_REVIEW_MIND_CAUSAL_IDENTIFIABILITY_AND_INTERFERENCE.md). Reproducibility freeze != causal identification; CF-1 distinguishes evidence genealogy, interference, exposure/communication, estimator dependence, and estimand/policy vs design.
-- Issue #1982 original published snapshot exact-readback verified; amendments #6983055197 and #6983086626 reconcile duplicate invocation and current CI.
-- PR #1981/#1984: two prior exact-head Lean failures. Current #1984 head `7794e1db22220f34c83412ea266fbac4b5efb662`, Actions #44335453981/job #134910817297: exact-head checkout + Lake manifest PASS, Lean compile IN_PROGRESS. No proof pass yet; Vercel preview rate limit is separate.
+- Issue #1982 original published snapshot exact-readback verified; amendments #6983055197, #6983086626 and #6983139134 reconcile duplicate invocation and current Lean status.
+- PR #1981/#1984: prior heads failed. Current #1984 head `260d7e92cfecdc0d0caaf701aa4e573b0f042430`; Actions #44336405060/job #134914302633 is IN_PROGRESS, checkout pending. No proof pass yet; Vercel preview rate limit is separate.
 - Current scheduled invocation `be134f75-cba0-8326-9643-da5f16e85574` is IN_PROGRESS, late start 15:18:37Z, no completion/chat_ref, cached result h925:s4. Duplicate run-key reconciled; no repeat research/publication.
 - P0 ACTIVE; P1 Orson cognition OVERDUE/NOT READY/ORSON-OWNED; P2 HOLD; P3 INCOMPLETE; FIE next Nov24.
 - Next ring label Orson h927:s0. No task mutation or sixth task.
