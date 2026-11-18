@@ -94,14 +94,14 @@ theorem equal_marginals_do_not_determine_binomial_count :
     (coupledExactlyOneHarmfulCount : ℚ) / 2 ≠
         (independentExactlyOneHarmfulCount : ℚ) / 4 := by
   constructor
+  · rw [coupled_first_harmful_count, independent_first_harmful_count]
+    norm_num
   · constructor
-    · rw [coupled_first_harmful_count, independent_first_harmful_count]
-      norm_num
     · rw [coupled_second_harmful_count, independent_second_harmful_count]
       norm_num
-  · rw [coupled_exactly_one_harmful_count,
-      independent_exactly_one_harmful_count]
-    norm_num
+    · rw [coupled_exactly_one_harmful_count,
+        independent_exactly_one_harmful_count]
+      norm_num
 
 /-- The evaluated finite counts expose the dependence directly:
    coupled = (1, 1, 0), independent = (2, 2, 2). -/
