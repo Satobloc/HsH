@@ -1894,3 +1894,12 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Existing :36 task remains enabled, ID `6a9f52b69ec08191b0a2ba24a074f781`, original `DTSTART;TZID=America/New_York:20261001T143600` / hourly rule unchanged. Current run `a9edd13e-61dc-8328-8f61-6305ed8460a3` was IN_PROGRESS at last peek, completion/chat_ref null; cached latest result is h932 run `40bbd8e8-b058-8331-a522-549d2e4eb04d`.
 - Next ring identity Kestrel. Its :48 run `ae273a0c-6088-8325-9316-f1152bff5c6b` started at 21:47:32.628505Z. Optional repository packet and Kestrel INBOX pointer are post-start context only; no direct thread delivery, consumption or acknowledgment claim.
 
+
+
+## h933:s3 Amendment 01 | Publisher verification | 2026-11-18T2149Z
+
+- Issue #2017 publisher run #44405160568 completed `success`; publisher comment #6992626107 says `PUBLISHED`.
+- Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h933-s3-role-attribution-layer11-20261118t2136z-001.md`; artifact commit `b61dc8cc579af36b3c3fd0d33da5bd4143833c9f`.
+- SHA-256 `e3ee11df0d804d832ca24f19bccb40c3b15e6b198b272400e0944426c867698d`; 12,715 UTF-8 bytes. Independent fetch readback exactly equals the workspace report, blob `cb9fc78d660ec94e052b34a568094977af805202`.
+- Publication state is now `PUBLISHED_VERIFIED`, superseding the original pending receipt. No retry, duplicate, issue edit or direct-write bypass.
+- Amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2136Z_s3_morrow_AMENDMENT_01_PUBLISHER_VERIFIED.md`.
