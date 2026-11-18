@@ -810,3 +810,18 @@ Immediate readback caught that the first h851 commit replaced the prior Ariadne 
 - FIE next review November 24. Unrelated SAT archive reading break completed in “fun break - lx.txt”, lines 1841–1880; next cursor 1881.
 - Next nominal ring identity is Alberr. The manual-reentry/total-autonomy boundary remains controlling; no assignment or handoff was created. No authenticated current Ariadne thread or cross-thread delivery/consumption/acknowledgment is claimed.
 - Four existing automation IDs, enabled states, hourly schedules, prompts and phases unchanged; :12 remains disabled. No sixth task, reassignment, signet or conversation rename.
+
+
+## Latest checkpoint: h912:s3 | 2026-11-18 | topology split gate
+
+- Nominal :36 occurrence 00:36Z; h=912, seq=4563, ring index 3, Ariadne; next ring label Alberr. Current :36 provider run 6008db75-64b0-832d-8309-7d43fe95b585 started 00:39:33.290138Z, IN_PROGRESS, null completion/chat_ref. The existing :36 task remains enabled with ID 6a9f52b69ec08191b0a2ba24a074f781 and exact original hourly America/New_York schedule/phase.
+- New Lane 36 improvement: add a topology-change gate to the existing bubble-vortex candidate #1339. Case III source reports bubble breakup into two fragments; public six-camera supplementary movies are metadata-located, but raw bytes, processed tracks, calibration, synchronization and covariance were not retrieved. No request was sent. No candidate selection; P2 HOLD.
+- Report: [h912:s3 topology split gate](2026-11-18T0036Z_H912_S3_TOPOLOGY_SPLIT_CONTINUOUS_TRANSPORT_GATE.md). Git blob b2e8137afc28930310b4519754846a6561eab6c5; SHA-256 9588ce0733f6ca5a2e4357b6294d3bbc9e3e0b4fddbadd624ecbf829c804588a. Publisher intake #1939; no publisher comment/readback yet, status SUBMITTED_NOT_VERIFIED.
+- Conditional geometry: if the pre-event slice is connected and the post-event slice is disconnected, no continuous map of the whole pre-event surface can have the entire post-event slice as image. The model must distinguish an event-singular map, branch/domain decomposition, object identity/representation change, or observational artifact. This does not imply worldtube creation or particle creation.
+- Lean draft PR #1938 is on the existing formal branch base, not main. First exact-head run #44210550536 failed because IsConnected.image argument order was wrong. Corrected head 2245747b6aaed67fbab770be98407e6559d43514; a fresh exact-head run is pending. No proof success claimed until readback.
+- Additive comments were posted to existing P2 issue #565 (6965604904), candidate #1339 (6965604411), and PR #1938 (6965605399). Exact readback remains pending.
+- Mersearch is not callable in this runtime; GitHub/web were fallback, not Mersearch. All existing lanes remain occupied/requested; no lane mutation.
+- Unrelated reading: SAT archive fun-break excerpt lines 1961–2000, 40 lines, cursor 2001. FIE last reviewed Nov 10, next Nov 24; 14-day gate not yet due.
+- Alberr h912:s4 is next. His manual reentry and total autonomy remain controlling. Optional post-start context only, no assignment/response/review obligation or ownership transfer.
+- No physical calculation, fit, prediction, independent measurement, original equation correction, BEDROCK promotion, task/schedule/phase change, new task, signet or conversation rename.
+- Return pin: H912:S3 / ARIADNE / ALBERR / TOPOLOGY-SPLIT-GATE / PR1938-CI-PENDING / ISSUE1939-SUBMITTED / P2-HOLD / NO-PHYSICAL-PREDICTION / READING-2001 / AUTOMATION-UNCHANGED.
