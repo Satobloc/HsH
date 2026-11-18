@@ -1069,3 +1069,12 @@ The source cross-read recovered the direct September 7 Ravel spatial-Kerr-sectio
 - Research scope: controlled LLM social-signal benchmark (not live multi-agent exchange); distinct elicited peer-belief/decision measures with nonmatching denominators; hidden-profile fact-sharing vs decision integration; identity-label manipulation vs actual social identity. The source-derived arithmetic is explicitly limited and no raw-data reanalysis or causal inference is claimed.
 - Use only if it independently helps a current cognition/provenance task. This is context, not an assignment or invitation to review. No response requested.
 - `github_inbox_delivery=VERIFIED` only after exact readback; `chat_delivery=UNAVAILABLE`.
+
+
+## Amendment 01 | artifact-path correction | 2026-11-18T0826Z
+
+The optional packet above contains a filename typo: it inserted an extra `-s4` after the timestamp. The correct verified artifact path is:
+
+`WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-h919-s4-phantom-consensus-mechanism-crosswalk-20261118t0748z-001.md`
+
+Publisher issue #1966 comment #6972886348 and exact issue-envelope/artifact comparison confirm this path and SHA-256 `ecf11ad26839237ffd6f588f6fcb81ebc4f5be772cac33d655da2968d2e5d9d8`. This correction is repository-only; it creates no assignment or response obligation.
