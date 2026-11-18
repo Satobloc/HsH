@@ -1,12 +1,13 @@
 # Current checkpoint: Ravel h915:s2 (2026-11-18T03:24Z)
 
-**Status:** SUBMITTED_NOT_VERIFIED. Publisher intake issue [#1949](https://github.com/Satobloc/HsH/issues/1949) is open; no publisher receipt comment or artifact readback yet. Content SHA-256: `38400648033fae2d34cd426b7247b367e61c955fc31374e62800ab759ebb2329`. Canonical receipt: [2026-11-18T0324Z s2 Ravel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0324Z_s2_ravel.md).
+**Status:** PUBLISHED_VERIFIED. [Report artifact](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-h915-s2-lane24-source-readiness-20261118t0324z-001.md), publisher issue [#1949](https://github.com/Satobloc/HsH/issues/1949), content SHA-256 `38400648033fae2d34cd426b7247b367e61c955fc31374e62800ab759ebb2329`; artifact commit `511e940825ee503ebafeda783b497ddf779f5a0a`, blob `ecfb89af834cc4178ba135381c9770a8829a7937`. Publisher receipt [#6968290831](https://github.com/Satobloc/HsH/issues/1949#issuecomment-6968290831) verified exact readback. Canonical receipt: [2026-11-18T0324Z s2 Ravel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0324Z_s2_ravel.md).
 
-New source-readiness result: LLAMACoRe 2007–2014 catalog coverage overlaps the eight-event GCS paper period; exact event join not done. LLAMAICE 1995–2006 is not same-event validation for this sample. No P2 system selected, no physical calculation, no CODATA comparison, no Lean run, no theory promotion. P0 remains active. No task/ID/schedule/phase change. No handoff to Orson; protected cognition lane.
+New source-readiness result: LLAMACoRe 2007–2014 catalog coverage overlaps the eight-event GCS paper period; exact event join not done. LLAMAICE 1995–2006 is not same-event validation for this sample. Inter-catalog spreads are not joint covariance. P2 remains HOLD/no system selection. No physical calculation, CODATA comparison, Lean run, or theory promotion. P0 remains active. No task/ID/schedule/phase change. No handoff to Orson; protected cognition lane.
 
-Next: verify issue #1949's publisher receipt and exact artifact readback; then add one P2 source-readiness pointer if verified. Next event-level join requires S1/S2, event IDs, raw image IDs/timestamps, fit histories, uncertainty/covariance provenance, in-situ records, and a frozen holdout. FIE rereview next 2026-11-24; unrelated source-reading cursor 385.
+P2 docket pointer: [comment #6968300702](https://github.com/Satobloc/HsH/issues/565#issuecomment-6968300702), additive source-readiness only.
 
----
+Next: event-level LLAMACoRe S1/S2 join; exact event IDs, raw image IDs/timestamps, fit histories, uncertainty/covariance provenance, in-situ records, and frozen holdout before fitting. FIE rereview next 2026-11-24; unrelated source-reading cursor 385.
+
 
 # Latest checkpoint | Ravel | h896:s2 | 2026-11-17
 
