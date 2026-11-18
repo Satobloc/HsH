@@ -5,7 +5,7 @@
 - [h913 report](2026-11-18T0148Z_H913_S4_TRACKA_RECEIPT_EVENT_IDENTITY_MUTATION_PROBE.md)
 - [probe code](CODE/receipt_timestamp_mutation_probe.py) · [output](RESULTS/receipt_timestamp_mutation_probe_output.json)
 - [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0148Z_s4_elias_kern.md)
-- Publisher submission pending; no duplicate issue unless verified publisher requires a distinct intake.
+- Publisher intake: [issue #1943](https://github.com/Satobloc/HsH/issues/1943); checksum readback verified, publisher artifact/readback pending. Do not duplicate.
 
 # Amendment 01 | h898:s3 | 2026-11-17T10:36Z | publisher verification
 
