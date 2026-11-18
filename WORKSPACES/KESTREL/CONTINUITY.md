@@ -965,3 +965,12 @@ The h884:s2 report and canonical receipt are linked above. This activation added
 
 ---
 
+
+
+### h933:s4 publisher-status amendment | 2026-11-18
+
+- Issue #2019 posted REJECTED: unexpected payload keys. The intake body omitted required schema and included unsupported target_path. The v1 publisher requires exactly schema, submission_id, content, sha256 and derives its fixed destination.
+- The workspace report remains exact-readback verified at WORKSPACES/KESTREL/2026-11-18T2148Z_H933_S4_REVIEW_MIND_GROUP_HISTORY_SENSEMAKING_AND_TRANSPARENCY.md, SHA-256 c52415bf84014dd1cb9ab365958ae8f252d5a7a1a04ebce4b6e4ca9c5a90620b.
+- Expected PUBLISHED_SUBMISSIONS artifact returned 404. No issue edit, reopen, retry, duplicate, or direct publication write. Final status PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED.
+- Append-only receipt amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2148Z_s4_kestrel_AMENDMENT_01_PUBLISHER_SCHEMA_REJECTION.md. Public reconciliation comment: https://github.com/Satobloc/HsH/issues/2019#issuecomment-6993638393.
+
