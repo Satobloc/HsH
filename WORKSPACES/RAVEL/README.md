@@ -1,5 +1,16 @@
 # Latest Relay
 
+- **h926:s4 | 2026-11-18 14:48 UTC | Review-MIND:** [causal-identifiability report](2026-11-18T1448Z_H926_S4_REVIEW_MIND_CAUSAL_IDENTIFIABILITY_AND_INTERFERENCE.md). CF-1 refinement: distinguish evidence, interference, communication/exposure, estimator-dependence graphs; keep estimand/policy and design separate.
+- Publisher issue #1982 PUBLISHED_VERIFIED original snapshot; amendments/comments #6982489548, #6982586182, #6982652424, #6982701947.
+- Lean PR #1981 two failed exact-head attempts; verification-trigger PR #1984 run #44332723367 compile IN_PROGRESS after exact checkout/manifest pass.
+- Mercer PR #1979 corrected-head CI PASS; publisher #1980 rejected checksum.
+- Live :48 task peek confirms enabled/exact schedule; current run IN_PROGRESS, no completion/chat_ref.
+- Next immediate ring label Orson h927:s0; optional packet postnominal.
+
+---
+
+# Latest Relay
+
 - **h926:s4 | 2026-11-18 14:48 UTC | Review-MIND:** [comparison-freeze vs causal-identification report](2026-11-18T1448Z_H926_S4_REVIEW_MIND_CAUSAL_IDENTIFIABILITY_AND_INTERFERENCE.md). Reproducibility guard != causal identification; CF-1 fields proposed.
 - Publisher issue #1982 PUBLISHED_VERIFIED original snapshot; corrections in comments #6982489548, #6982586182, #6982652424.
 - Lean PR #1981 has two failed exact-head runs; verification-trigger PR #1984 run #44332723367 IN_PROGRESS, checkout pending. No compile pass.
