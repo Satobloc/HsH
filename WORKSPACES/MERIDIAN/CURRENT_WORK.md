@@ -1031,3 +1031,11 @@ This is a one-run geometry overlay. The standing Meridian P0 Code Grurple assign
 3. Trace CORE PACK/Minkowski Proper constants to their first authored source.
 4. Define separate typed maps for filament, worldline, worldtube, timesheet, worldsheet current, and readout.
 5. Formalize only a source-defined conditional proposition, then compile and run it in Lean 4/Mathlib.
+
+
+### h934:s0 publication-status amendment
+- The publisher rejected issue #2021 with comment #6994155889: `REJECTED: SHA-256 mismatch`.
+- Declared/local report SHA-256: `a5ab4bc2cd03fd1ec2ea10d64b21220fc63a4cc55285b76335a1193c6837ccbe`; exact parsed issue-body content SHA-256: `97de38c216c8dff57ce55a3b02fcab4bc4cb2e235b20640f3926b2dd469b2828`.
+- Local report 23,387 UTF-8 bytes; issue content 23,363 bytes. Exact divergence not localized. Expected published artifact remains 404.
+- Status is now `PUBLISHER_REJECTED_SHA_MISMATCH`, superseding the earlier `SUBMITTED_NOT_VERIFIED` note. Amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2200Z_s0_meridian_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md`.
+- No retry, issue edit, duplicate, direct artifact write, or alternate publication route. No other research or operational status changed.
