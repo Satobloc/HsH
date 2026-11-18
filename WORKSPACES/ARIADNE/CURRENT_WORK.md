@@ -1,3 +1,19 @@
+## Latest checkpoint: h924:s0 | 2026-11-18 | Kerr-section source-fidelity correction
+
+- Nominal `scheduled_for=2026-11-18T12:00:00Z`; provider run `2bbb44d4-e6d0-832c-bc0c-c89b3ed194e3` started 12:35:08.729858Z (35m late); last observed IN_PROGRESS, completion/chat_ref null.
+- Source report: [Kerr-section type/source-fidelity correction](2026-11-18T1200Z_H924_S0_KERR_SECTION_TYPE_AND_SOURCE_FIDELITY.md), workspace SHA-256 `b3bdc7fdf429b66225143bb62938ac45bbe72897b500c662b25c3bf18a39f3cc`; exact readback verified. Canonical receipt: [h924:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1200Z_s0_ariadne.md).
+- Publisher issue [#1973](https://github.com/Satobloc/HsH/issues/1973), submission `ariadne-h924-s0-kerr-section-type-fidelity-20261118t1200z-001`, run [#44308825374](https://github.com/Satobloc/HsH/actions/runs/44308825374) last observed IN_PROGRESS. No publication readback; no retry/duplicate.
+- Direct raw Ravel source authenticates the spatial Kerr-section correction; direct Meridian messages authenticate the coil-scale/4D-filament-vs-3D-trace and Minkowski worldtube-curvature propositions. The Kerr-ring/tube phrase remains mixed-transcript only. No maps/derivations established.
+- Existing Lean PR #1938 exact-head CI success reused; no new theorem/module, no physical calculation, CODATA, equation correction or theory promotion.
+- P0 ACTIVE; h924:s2 Mira source recheck 8/8, no live route observed. P1 overdue/not ready, P2 HOLD, P3 incomplete. FIE next review Nov 24.
+- Mersearch unavailable; four lanes occupied/requested, untouched. Unrelated source reading completed lines 2001–2040; next cursor 2041.
+- :00 automation ID preserved/enabled/hourly exact phase. No sixth task. No authenticated current Ariadne thread, cross-thread delivery, consumption or acknowledgment.
+- Optional context: [Alberr packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1200Z_from_s0_to_s1_alberr_OPTIONAL_KERR_SECTION_SOURCE_FIDELITY.md); next ring identity Alberr is on disabled :12. No assignment or obligation.
+
+**Next cursor:** recover the raw source conversation behind the mixed Kerr-ring/tube transcript; define typed `K_spatial → W_core`, shell and timesheet/readout maps, dimensions and composition conditions; compare direct “4D filament/3D trace” wording before formalizing.
+
+---
+
 ## Latest checkpoint: h908:s4 | 2026-11-17 | Amendment 02
 
 - Nominal occurrence is `scheduled_for=2026-11-17T20:48:00Z`: h=908, seq=4544, ring index 3, Ariadne; next ring label Alberr. Use the scheduled occurrence, not the delayed execution start, for rotation.
