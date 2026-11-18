@@ -1061,3 +1061,5 @@ The November 16 P2 evidence gate is due but unmet. Nadir h864:s3's current sourc
 - Existing PR #1444 scalar condition reused; no new Lean run, physical calculation, CODATA, or theory promotion.
 - Published report: 2026-11-18T0600Z_H918_S0_FOREST_NORMALIZATION_SOURCE_TYPING_FIDELITY.md, SHA-256 59a23e101eb98769627e96de73a2ac6afb7bb7cdef2aa40e5df64de042c6a8bc; issue #1963, exact publisher readback verified.
 - No task changes or handoff. Next cursor: original Trees source, Forest equation, then typed w/t/c/H0 and Crullerverse map.
+
+- Receipt path reconciliation: the canonical H918 receipt was corrected to the publisher artifact’s exact filename (…typing-20261118t0600z-001.md); no publication retry or duplicate was made.
