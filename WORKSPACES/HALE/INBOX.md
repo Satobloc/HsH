@@ -2,7 +2,7 @@
 
 - [optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1636Z_from_s3_calder_to_s4_hale_PRESTART_OPTIONAL_COMPARATOR_COVERAGE.md).
 - [report](../CALDER/2026-11-18T1636Z_H928_S3_STANDARD_COMPARATOR_COVERAGE_ENVELOPE.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1636Z_s3_calder.md).
-- Publisher issue #1993: content and digest preflight match; publication pending.
+- Publisher issue #1993 was rejected SHA mismatch; canonical artifact absent. Correct exact-content SHA: 5a8a606c70a97816942aa5b11c7aba514134d6630cd49b27983db5396648b9bd. No retry/duplicate.
 - P2 matrix #1855: comparator-family coverage subcheck within D axis; no new gate. P2 remains HOLD, no raw data/forward map/Lean compile.
 - Optional context only. No assignment, response obligation, review request, direct-thread delivery, acknowledgment, or ownership transfer.
 
