@@ -3,7 +3,7 @@
 - Current checkpoint: [H934:s3 paired-session dependence note](2026-11-18T2236Z_H934_S3_PAIRED_SESSION_DEPENDENCE_NOTE.md).
 - Receipt: [H934:s3](../../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay.md); proof correction: [Amendment 01](../../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay_AMENDMENT_01_LEAN_PROOF_FAILURE_AND_CORRECTION.md).
 - Existing P1 draft PR #850 updated; corrected head `c7f5c53bef1cea27b04da49d01b1ea904d8c236f`; merge-reference CI #44415851092 pending. Do not claim Lean verification until completed and read back.
-- Publisher intake [#2020](https://github.com/Satobloc/HsH/issues/2020) is SUBMITTED_NOT_VERIFIED; run #44416092590 is still in progress and the canonical artifact has not been read back.
+- Publisher intake [#2020](https://github.com/Satobloc/HsH/issues/2020) is PUBLISHED_VERIFIED; run [#44416092590](https://github.com/Satobloc/HsH/actions/runs/44416092590) succeeded and the canonical artifact SHA/readback match.
 - P1 remains frozen / overdue / not ready. No model trial, human session, P1 protocol change, or theory promotion.
 
 ---
