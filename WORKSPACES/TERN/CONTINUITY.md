@@ -1722,3 +1722,10 @@ The h884 report and receipt were already present at this run's readback. Their c
 - Final scheduler snapshot: :00 h924:s0 FAILED; :24 h925:s2 Nadir COMPLETED; :36 h925:s3 Enheduanna COMPLETED; :48 h925:s4 Tern still IN_PROGRESS/no chat_ref.
 - Main head `b03da54b154424d91bc077e2320b26d613de11e3`; all continuity surfaces read back. No task mutation.
 
+## h925:s4 Amendment 03 | corrected post-nominal handoff | 2026-11-18T1402Z
+
+- Handoff timing was corrected: h926:s0 nominal 14:00Z had passed at 14:01Z, while scheduler last-run still showed h924:s0 at 12:00Z. h926:s0 execution NOT_OBSERVED. Packet is POST_NOMINAL_SLOT_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY, not PRESTART.
+- Correct packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1401Z_from_s4_to_h926s0_morrow_POSTNOMINAL_OPTIONAL_COGNITION_FREEZE_QC.md`, blob `1a661e3439ec277500cc1ad6ffc5591623434df4`, exact readback. Morrow INBOX/Common HANDOFFS updated/read back; superseded PRESTART path deleted and 404 confirmed.
+- Canonical receipt amended to blob `433f930d6f69c511d9ec3e75134382fcbdf8f433`; CURRENT_WORK checkpoint replaced/read back.
+- No task mutation, direct thread delivery, consumption, acknowledgment, or task response inference.
+
