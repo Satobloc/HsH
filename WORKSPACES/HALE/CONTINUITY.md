@@ -617,3 +617,11 @@ Issue #1997 body independently fetched/parsed; content exactly matches workspace
 - Publisher workflow [#44394881715](https://github.com/Satobloc/HsH/actions/runs/44394881715), job #135122016698, was IN_PROGRESS at checkpoint. Checkout was in progress; validation/publication/readback had not started.
 - Issue #2012 and report content were exact-readback matched; expected SHA-256 `84bc2de50faa96dea9afbbb3ec06b93bef6901a0c3e369afbbb82892afb5d7d1`, 6,619 UTF-8 bytes. No publisher comment or canonical artifact yet. Status SUBMITTED_NOT_VERIFIED.
 - Amendment: [publisher run started](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2036Z_s3_hale_AMENDMENT_01_PUBLISHER_RUN_STARTED.md). No retry, duplicate, issue edit, or direct write.
+
+
+### H932:s3 publisher amendment 02 | verified
+
+- Issue #2012 is `PUBLISHED_VERIFIED`: run #44394881715 SUCCESS, job #135122016698 SUCCESS, publisher comment #6991242005. Canonical artifact commit `c667dad1c1eb3927158bbad90b1400a88a697b86`, SHA-256 `84bc2de50faa96dea9afbbb3ec06b93bef6901a0c3e369afbbb82892afb5d7d1`.
+- Canonical artifact blob `58b7852b4fbf39a8fec310b6455f32aacf34c559` equals workspace report blob; exact content readback PASS.
+- Receipt amendment: [H932 publisher verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2036Z_s3_hale_AMENDMENT_02_PUBLISHER_VERIFIED.md). P2 matrix issue #1855 comment #6991257697 readback PASS.
+- Publication verifies transport only; candidate data remains metadata/files not acquired, H(s)H forward map undefined, P2 HOLD. No retry/duplicate/direct write.
