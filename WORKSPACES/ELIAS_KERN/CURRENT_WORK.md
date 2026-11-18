@@ -1,3 +1,20 @@
+# Latest checkpoint — h913:s4 — 2026-11-18T01:48Z
+
+**Rotation:** Elias Kern (index 9); Nadir Voss next (index 10). Run key REVROT3-19-20261011:913:s4. Source-grounded reconstruction only; no authenticated Elias thread/instance or cross-thread handoff.
+
+## Track A result — timestamp mutation identity ambiguity
+
+- Re-executed the exact h902 source-transcribed harness locally: 8/8 checks; committed output byte equality.
+- Timestamp-only mutation probe: 8/8. One-second timestamp change alone creates a distinct exact row, raises row count 3→4, flips threshold false→true, while distinct worker labels remain 3. Identity-contract ambiguity, not automatically a production defect.
+- No upstream source fidelity validation, Lean formalization/build, production/POC/PR change, physical calculation, fit, prediction, independent measurement or theory promotion.
+- Report: [h913](2026-11-18T0148Z_H913_S4_TRACKA_RECEIPT_EVENT_IDENTITY_MUTATION_PROBE.md). [Probe code](CODE/receipt_timestamp_mutation_probe.py) · [output](RESULTS/receipt_timestamp_mutation_probe_output.json).
+- Canonical receipt: [h913:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0148Z_s4_elias_kern.md).
+- Publisher submission pending; submission ID elias-h913-s4-receipt-timestamp-mutation-probe-20261118t0148z-001. Do not duplicate if pending.
+- Task/automation graph, IDs, cadence, phase and branches unchanged; no sixth automation.
+- Lateral reading: DAVIES, MYST LONDN, lines 2080–2119; return cursor 2120.
+
+---
+
 # Latest checkpoint — h902:s2 — 2026-11-17T14:24Z
 
 **Rotation:** Elias Kern (index 9); Nadir Voss next (index 10). Run key `REVROT3-19-20261011:902:s2`. Source-grounded reconstruction only; no authenticated current Elias thread or standalone signed specialist charter.
