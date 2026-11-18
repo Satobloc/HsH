@@ -606,3 +606,24 @@ This update is evidence-only. It does not claim completion of WH-02, WH-05, P0, 
 - The h906:s2 source/map and all-lane readback report is now `PUBLISHED_VERIFIED` at [publisher issue #1914](https://github.com/Satobloc/HsH/issues/1914); artifact SHA-256 `45bfcf9b627354d0cb0804efe8136a05f0d138f7831749c3ad2ec71456ab88f9`; 14,878 UTF-8 bytes; publisher run #44150242262 SUCCESS; exact workspace/payload/artifact readback.
 - Evidence pointer appended to existing coordination issue #1704 in comment #6957469514.
 - This publication does not satisfy WH-05 exit criteria. All four lanes remain occupied/requested, no post-patch execution is verified, and Tern's controlled-test/release authorization remains the next dependency.
+
+
+## h928:s2 Aldus read-only WH-02 / P0 freshness | 2026-11-18T1624Z
+
+**workflow_health_status:** DEGRADED / PARTIAL. This is a source readback and status update only; no repair, owner transfer, or priority mutation.
+
+### WH-02 — current-main preflight
+- HsH main: `ecd0af72738c83ec535729f27a59c69a6da96f1d` (automatic public display docket/artwork refresh).
+- PR #1710 remains OPEN / DRAFT / UNMERGED; mergeable=false; head `a967e908ceab048d219831ec799343643870daf3`, base recorded as `7b00fa5da4ab683a1af145aa317ea9eba21376e2`.
+- Exact compare main...head is **diverged, 7 ahead / 5,272 behind**; seven changed paths remain in the declared PR scope. No exact-head PR Actions runs were returned.
+- No rebase, code edit, CI dispatch, review, merge, or duplicate PR. **Owner remains Calder / authorized archive-navigation maintainer**. Next action: current-main rebase/preflight, then exact-head PR CI, full main-branch navigation workflow, independent review; keep draft until exit criteria pass.
+
+### P0 Code Grurple
+- Issue #1747 remains OPEN / ACTIVE. Current main's latest commit is a generated public-display refresh; no route-policy/source change is established.
+- A direct public browse-route web fetch returned an internal fetch error, and the connected Browser has no usable originating tab context. This is **NOT_OBSERVED**, not a live-route failure/pass. No route/render/deployment repair or standdown.
+
+### WH-05 / graph
+- Mersearch remains unavailable as a callable action; all four canonical lanes remain occupied/requested. No request overwritten, retriggered, retried or released.
+- Task graph blob `48cfe002495cabae9ff5a67cd72fc210b4fbfd36` remains at 18 records / 16 declared branches; Tern retains graph/scheduler reconciliation.
+
+**Disposition:** WH-02 remains highest-priority unblocked PWH item. No source/ownership/scheduler changes. Recheck on main/head/CI change or Calder's verified exit.
