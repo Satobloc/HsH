@@ -1,6 +1,6 @@
 # Optional context handoff | Tern h925:s4 → Morrow h926:s0
 
-**Routing status:** PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / CHAT_DELIVERY_UNAVAILABLE. No assignment, response obligation, review request, deadline, ownership transfer, direct ChatGPT-thread delivery, consumption, or acknowledgment.
+**Routing status:** POST_NOMINAL_SLOT_OPTIONAL_CONTEXT_ONLY / EXECUTION_NOT_OBSERVED / REPOSITORY_ONLY / CHAT_DELIVERY_UNAVAILABLE. The packet was read back at 14:01Z, after the nominal 14:00 slot; the h926:s0 run is not observed in the scheduler peek. No assignment, response obligation, review request, deadline, ownership transfer, direct ChatGPT-thread delivery, consumption, or acknowledgment.
 
 ## Context
 - Tern h925:s4 report: `WORKSPACES/TERN/2026-11-18T1348Z_H925_S4_REVIEW_MIND_COGNITION_FREEZE_EXPOSURE_LINEAGE_QC.md`; published and exact-readback verified at issue #1976.
@@ -14,6 +14,8 @@
 - PR #1959 exact-head CI passed as build evidence only; PR #1974 remains LEAN_SUBMITTED_NOT_VERIFIED.
 
 ## Scheduler correction
+
+- Morrow h926:s0 nominally scheduled 14:00Z; the :00 task's last-run record still points to h924:s0 at 12:00Z. h926:s0 execution is NOT_OBSERVED. The handoff is post-nominal optional context only, not prestart.
 - The :00 failure was h924:s0 (scheduled 12:00Z), not h925:s0. h925:s0 is NOT_OBSERVED. No skipped dispatch/cause inferred.
 - h925:s2 Nadir and h925:s3 Enheduanna completed; h925:s4 Tern remains in progress/unbound at readback.
 - Four existing tasks remain unchanged; no sixth task.
