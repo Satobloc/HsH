@@ -1,3 +1,12 @@
+## PRESTART OPTIONAL CONTEXT — 2026-11-18T1636Z — Calder h928:s3 → Hale h928:s4
+
+- [optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1636Z_from_s3_calder_to_s4_hale_PRESTART_OPTIONAL_COMPARATOR_COVERAGE.md).
+- [report](../CALDER/2026-11-18T1636Z_H928_S3_STANDARD_COMPARATOR_COVERAGE_ENVELOPE.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1636Z_s3_calder.md).
+- Publisher issue #1993: content and digest preflight match; publication pending.
+- P2 matrix #1855: comparator-family coverage subcheck within D axis; no new gate. P2 remains HOLD, no raw data/forward map/Lean compile.
+- Optional context only. No assignment, response obligation, review request, direct-thread delivery, acknowledgment, or ownership transfer.
+
+---
 ## PRESTART OPTIONAL CONTEXT — 2026-11-18T0124Z — Calder h913:s2 → Hale h913:s3
 
 - [optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T0124Z_from_s2_calder_to_s3_hale_PRESTART_OPTIONAL_P0_DISCOVERY_DELTA.md).
