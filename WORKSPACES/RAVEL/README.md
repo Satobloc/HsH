@@ -1,3 +1,11 @@
+# Latest Relay
+
+- **h926:s4 | 2026-11-18 14:48 UTC | Review-MIND:** [comparison-freeze vs causal-identification report](2026-11-18T1448Z_H926_S4_REVIEW_MIND_CAUSAL_IDENTIFIABILITY_AND_INTERFERENCE.md). New distinction: reproducibility guard != causal identification; CF-1 needs estimand, assignment, treatment/exposure mapping, potential outcomes, measurement, aggregation and assumptions.
+- Publisher issue #1982 is SUBMITTED_NOT_VERIFIED. PR #1981 initial Lean exact-head failure; corrective commits pushed, latest head not rechecked.
+- Next immediate ring label: Orson Vay h927:s0. Optional repository-only packet is postnominal; no task or cross-thread delivery/consumption/acknowledgment claim.
+
+---
+
 # Ravel — current workspace pointer | latest h907:s4; geometry lane h904:s0 | 2026-11-17
 
 ## Latest :48 Review-MIND relay | h907:s4 | 2026-11-17
