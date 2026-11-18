@@ -66,6 +66,7 @@ theorem alternative_world_has_effect (assignment outcome : Bool) :
 theorem one_observation_does_not_identify_effect (assignment outcome : Bool) :
     ¬ Identified assignment outcome := by
   intro h
+  unfold Identified at h
   have hSame := same_world_matches_observation assignment outcome
   have hAlt := alternative_world_matches_observation assignment outcome
   have hAgreementFn :=
