@@ -301,3 +301,9 @@ The exact-ID :36 task lookup is intermittent: one successful peek confirmed the 
 - Lateral reading cursor: `fun break - lx.txt`, lines 2121–2160; next 2161. FIE next review November 24.
 - Current run ID `3110744d-d004-832a-999d-eff0ee984666` was IN_PROGRESS with null completion/chat_ref at last read. No authenticated Sable thread or cross-thread delivery.
 - Next ring label: Loom. Optional repository handoff only; no assignment or acknowledgment.
+
+
+## h919:s3 receipt amendment | WH-01 cursor correction
+
+- [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0736Z_s3_sable_AMENDMENT_01_WH01_RECONCILIATION.md) corrects the parent receipt: WH-01 18:30 partition was already completed by Hale h917:s2 (issue #1703 comment #6970026461; publisher readback #6970063748), with four checkout events appended and ledger 69→73.
+- The redundant run-list recheck found the same 27 HsH runs and four already-ledgered run IDs; no write. Correct next cursor is **18:40Z**. Do not repeat 18:30. The h917:s3 18:40 partial run-list read is the current pickup; job inspection remains outstanding.
