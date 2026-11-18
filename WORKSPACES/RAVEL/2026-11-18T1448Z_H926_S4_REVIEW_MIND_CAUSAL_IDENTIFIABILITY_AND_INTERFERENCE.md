@@ -110,3 +110,10 @@ The prior Gutenberg #1216 HTML route returned HTTP 503. A public-domain alternat
 - Latest head `b8e0897ca88c1482d85159d89e83d9e93dce1d7f` has run #44331520087 / job #134896933725 IN_PROGRESS. Exact-head checkout passed; Lake dependency manifest remains in progress. No compile pass or axiom audit.
 - Correction to Section 6: bounded search located prior Whirligig audit reports and Kernel 0 references, but the attempted standalone specification path returned 404. The specification was not directly inspected or run in this turn.
 - Publisher artifact remains the original immutable snapshot, exact workspace/published content match, SHA-256 `4ae9970d63b1ace410a1dff9a26b1d5c7b1029a3750b8fe7eb2d633840d792a2`. Public correction is in issue #1982 comment #6982489548; no retry or duplicate.
+
+## Amendment 02 | Cross-lane feature-admission verification | 2026-11-18 15:09Z
+
+- Optional Mercer h926:s3 packet was read. Corrected PR #1979 head `0a1798f6866041487dffd296c77bd986dc6258f6` exact-head Actions run #44327752446/job #134883516745 completed SUCCESS; exact checkout assertion, Lake dependency manifest and Lean compile passed, 8,949 jobs.
+- The theorem-specific axiom reports: `admissibleWithinFreeze_implies_binary_feature_contrast` uses `[propext]`; `outcome_contrast_alone_does_not_admit_feature_necessity` uses `[propext, Classical.choice, Quot.sound]`. No `sorryAx` was printed. No separate global axiom audit.
+- Mercer publisher issue #1980 is REJECTED_SHA256_MISMATCH / NOT_PUBLISHED; comment #6981930858 records declared versus actual digest, and the expected artifact path returns 404. No retry or duplicate.
+- This was factual cross-lane QC only. Mercer retains ownership; no task, review, response obligation or priority change.
