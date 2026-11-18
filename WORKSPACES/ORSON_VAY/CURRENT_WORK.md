@@ -978,3 +978,8 @@ Final check on issue #1983: comments empty, expected fixed artifact 404; SUBMITT
 ## H927:S0 amendment 02 | 18 Nov 2026 | adjacent SAT-O1/Blockwave custody
 
 Reused existing source-custody records rather than re-extracting bytes. SAT-O1 original blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`, source-index dates 2025-06-07/09 (timezone unspecified), prior SHA-256 `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937`; unbylined 1D gamma/hyperhelix/action/phase-lock source, worldtube prose without sweep map. Blockwave user-supplied 2025-09-16 attachment blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`; rank-two current, authorship unresolved. Proposed `∂W = C_end - C_start - S(∂C)` in PR #1594 remains separate/conditional, not correction. See H820 Ravel source-lock report and Enheduanna amendment 02. No byte re-extraction or equation change this run.
+
+
+## H927:S0 amendment 03 | 18 Nov 2026 15:08 UTC | publisher rejection
+
+Issue #1983 publisher comment #6982474026: REJECTED, SHA-256 mismatch. Declared `65103c1790c410bcc027b7f43d30134222490bb91fb44050071c95db6c77ec09`; actual issue-body content SHA-256 `f307d71653adf81149f75b6c9ed075a9bac3722fbfc1b69a2cb301f95a7f8e4d`, 8,905 bytes. The hash implementation was checked against the standard `abc` vector. Artifact 404. No retry, issue edit, duplicate or direct destination write. Report remains in rejected intake only, NOT PUBLISHED.
