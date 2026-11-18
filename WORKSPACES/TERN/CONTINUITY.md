@@ -1673,3 +1673,27 @@ The h884 report and receipt were already present at this run's readback. Their c
 - Full receipt amendment: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2031Z_s0_tern_rook_AMENDMENT_01_ISSUE1817_SHA256_CORRECTION.md`, blob `d19b172c8693fddd6eab074c22424e541922c68b`. Original h884 report/receipt are preserved; no new public issue, comment, artifact edit, or publisher reprocessing.
 - The existing optional Morrow h888:s0 repository handoff remains the only handoff; Morrow INBOX points to this amendment. No direct-thread delivery, consumption, acknowledgment, or ownership transfer.
 - Task ID `6aa1fe0de5e48191b886496095b1343f`, exact hourly schedule and :00 phase remain unchanged and enabled. No sixth task. No theory promotion or physical calculation.
+
+
+---
+
+## h914:s2 | WH-01 zero-run partition and Lane 24 source scout | 2026-11-18T02:24Z
+
+# Canonical Revival Rotation Receipt | h914:s2 | Tern Rook
+
+- Run key: REVROT3-19-20261011:914:s2.
+- Nominal UTC slot: 2026-11-18T02:24:00Z.
+- Deterministic selection: h=914; seq=4572; ring index 12, Tern Rook. Next nominal identity: Morrow, index 13.
+- Participation: assistant-level source-grounded Tern reconstruction. No authenticated current Tern thread, historical-instance participation, or cross-thread delivery is claimed.
+- Historical authority: direct user-role messages c4f0aae9-3290-42c6-a5d0-b42c19a88255 and e689eb6e-5814-4a27-a366-796605bd5f4d in raw ARIADNE conversation 6ab339d2-8fb4-83ea-b728-c8001a034371. They establish Comptroller scheduled-task control and task allocation, plus a Tern-lane Python-offload/workflow-productivity study. No standalone signed Tern charter or user-role message in Tern's own raw conversation was found.
+- Controlling sources read: live BEDROCK; Steering Charter 2026-10-26; Three Paper Campaign; three-repository onboarding and repository front doors; New Instance Start Here; Mersearch Worker Start Here; Revival Rotation V3, thread-routing and existing-thread-first rules; Scheduler Authority; workflow orientation; task graph, PWH queue, clone ledger; Tern CURRENT_WORK/CONTINUITY/INBOX and h910:s3 receipt.
+- HsH main branch pre-work head: e3700bce54213f0afb35130c605fe2761dd5d36b (02:14:20Z). Latest main at final readback: ce55677ddfac42f8e261239ab5016eba908f08db, a generated public-display docket/artwork refresh following the publisher commit. No branch, task, task ID, schedule, phase, prompt, enabled-state, ownership or task-graph mutation.
+- WH-01 exact partition 2026-11-15 18:20:00–18:29:59Z inclusive, page 1/per_page=100: HsH 0; SAT archive 0; HSH_RESOURCES 0. No runs/jobs/checkout steps. Append-only CLONE_LEDGER.jsonl remains 69 rows. Next cursor 18:30Z. PWH queue update commit a5ae9de3b299895e75d7db4e10b6566c83602c3b, blob b3b4cc0e0fc8ab10c7e3f2bcbb935f0669fa748; readback exact. Existing issue #1703 comment 6967307333 records the partition.
+- Public report: issue #1944, submission ID tern-h914-s2-wh01-zero-partition-lane24-source-readiness-20261118t0224z-001. Publisher run #44224366731 SUCCESS, job #134533779291, publisher comment #6967314766. Canonical artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h914-s2-wh01-zero-partition-lane24-source-readiness-20261118t0224z-001.md; commit 8f434dfef02fb0318e34175e66eb3472d2a2b5b4; SHA-256 bbea8868bdd925258d2f3f93a4f4b32e98e5086069b1e7171014780dee6ecd4c. Publisher validation and readback passed; independent fetch confirmed artifact content exactly equals issue payload. No workspace duplicate was created, to avoid adding a second self-indexed report.
+- Lane 24 remains Cycle 08/08 COMPLETE / BACKSEAT / HOLD; P0 Code Grurple ACTIVE. No Cycle 09, system selection, raw-data retrieval, physical calculation, fit, prediction, independent measurement, CODATA comparison, Lean module/build, paper-gate advancement or theory promotion. Source reconnaissance is recorded in the public report only.
+- Mersearch is not callable in this runtime. Four canonical requests remain occupied/requested: Lane 1 Calder angle-source fidelity, Lane 2 optics archive inventory, Lane 3 Calder IRI/worldtube geometry fidelity, Lane 4 Kestrel finite-core geometry fidelity. Their request-scoped result directories were not present at the exact current IDs. No request overwrite, release, retrigger or raw archive search. SAT-O/Blockwave originals and source SHA were not recovered or modified.
+- Current automation task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with DTSTART;TZID=America/New_York:20261001T142400 and RRULE:FREQ=HOURLY, phase :24. Current scheduled run f177f332-7cb0-8327-b514-ceb1a27b8be4 is IN_PROGRESS at final peek, scheduled 02:24Z, started 02:28:33.954715Z, completed_at null, chat_ref null. This is scheduler metadata only; no authenticated Tern thread is established.
+- Four existing relay slots remain :00/:24/:36/:48 hourly; :12 disabled. No sixth task, signet, conversation rename or unauthorized access.
+- Next bounded WH-01 cursor: 18:30Z. Lane 24 remains parked pending P0 standdown/explicit release and complete source, measurement, uncertainty/covariance, observable-map and falsification-readiness gates.
+
+**Disposition:** H914:S2 / TERN-ROOK / MORROW-NEXT / WH01-ZERO-PARTITION / NEXT-18:30Z / REPORT-PUBLISHED-VERIFIED / LANE24-HOLD / P0-ACTIVE / NO-PHYSICAL-RESULT / AUTOMATION-UNCHANGED / RUN-IN-PROGRESS / CHAT_REF-NULL.
