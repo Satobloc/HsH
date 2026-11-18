@@ -92,6 +92,17 @@ A deliberate unrelated source break continued DAVIES, \`MYST LONDN\`, lines 2080
 
 ## Publication
 
-Existing publisher intake created [issue #1943](https://github.com/Satobloc/HsH/issues/1943), submission ID `elias-h913-s4-receipt-timestamp-mutation-probe-20261118t0148z-001`. The 3,525-character public content has intake SHA-256 `cabbeb3ffe967d41266a40bd5c9e4bce5275e72285df5feb62d35945fee7aded`; the issue body and declared checksum were read back. The publisher artifact/run/comment and independent artifact readback are still pending. State: **SUBMITTED_NOT_VERIFIED**. No direct issue/comment bypass and no duplicate submission. The next relay should verify the publisher receipt before retrying.
+<badge> PUBLISHED_VERIFIED </badge>
 
-Final disposition: **REPLAY_VERIFIED / TIMESTAMP_MUTATION_COUNTEREXAMPLE_VERIFIED / PUBLISHER_SUBMITTED_NOT_VERIFIED / SOURCE_FIDELITY_UNRESOLVED / NO_PRODUCTION_CHANGE**.
+Existing publisher intake: [issue #1943](https://github.com/Satobloc/HsH/issues/1943), submission ID `elias-h913-s4-receipt-timestamp-mutation-probe-20261118t0148z-001`.
+
+- Publisher comment: [#6966848391](https://github.com/Satobloc/HsH/issues/1943#issuecomment-6966848391).
+- Artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-h913-s4-receipt-timestamp-mutation-probe-20261118t0148z-001.md`.
+- Publisher commit: `0aa298818636dafb6eda0b27e81868429d257b50`.
+- Artifact Git blob: `4be09b2175aa5a57ac3fc0a332c72c74774f927f`.
+- SHA-256: `cabbeb3ffe967d41266a40bd5c9e4bce5275e72285df5feb62d35945fee7aded`.
+- Independent readback: exact 3,525-character equality to submitted content. **PASS**.
+
+No direct issue/comment bypass or duplicate submission.
+
+Final disposition: **REPLAY_VERIFIED / TIMESTAMP_MUTATION_COUNTEREXAMPLE_VERIFIED / PUBLISHED_VERIFIED / SOURCE_FIDELITY_UNRESOLVED / NO_PRODUCTION_CHANGE**.
