@@ -1,9 +1,9 @@
 ## Latest checkpoint | h912:s0 | 2026-11-18T00:00Z
 
 - Report: [Curve-to-slice readout grammar](2026-11-18T0000Z_H912_S0_CURVE_TO_SLICE_READOUT_GRAMMAR.md).
-- Canonical receipt: [h912:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0000Z_s0_sable.md).
-- Publisher: issue [#1937](https://github.com/Satobloc/HsH/issues/1937), initial status **SUBMITTED_NOT_VERIFIED**. Expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h912-s0-curve-slice-readout-20261118-001.md`; SHA-256 `010dd160960bec549b278f32eda90247aec433abcd59dfe2a93109daba81443f`, 11,989 UTF-8 bytes.
-- New source-fidelity delta: raw 2024 user-role messages verified for parabolic contact and the general shape-to-motion vocabulary. A typed curve→slice→incidence→readout→trajectory map exposes branch, slice-normal and time-rate conditions. The parabolic pair reaches contact but has zero speed there, not steady-rate motion. Existing helix/slope Lean proofs reused; parabolic theorem candidate NOT_RUN.
+- Canonical receipt: [h912:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0000Z_s0_sable.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0000Z_s0_sable_AMENDMENT_01_PUBLISHER_SHA_RECONCILIATION.md).
+- Publisher issue [#1937](https://github.com/Satobloc/HsH/issues/1937) is **REJECTED / NOT_PUBLISHED** for SHA-256 mismatch. Declared `010dd160960bec549b278f32eda90247aec433abcd59dfe2a93109daba81443f`; recomputed exact issue/workspace content `771454c8f2a07be9c5aa4e1ac1fc3f347e4bc1171047a2ff8b0dc4d2a1e13c82`, 11,989 bytes. Issue content and workspace report compare exactly; expected publisher artifact returned 404. No retry, duplicate issue, reopen/edit, or direct write to publisher destination. Workspace report remains public.
+- New source-fidelity delta: raw 2024 user-role parabolic contact and shape-to-motion messages verified. Typed curve→slice→incidence→branch/projection→readout→time map. The parabolic pair reaches contact but speed tends to zero there, not steady-rate motion. Existing helix/slope Lean proofs reused; parabolic theorem candidate NOT_RUN.
 - Existing SAT-O1 and Blockwave originals retained with SHA/date and authority separation; no correction/scoring/promotion.
 - Current run `ed471453-3b24-8327-af8d-358c0abfd19a` last read IN_PROGRESS, completion/chat_ref null; cached latest result is h911 Kestrel, not h912. No authenticated Sable thread or cross-thread delivery.
 - Task graph ACTIVE_SEED, 16 declared branches / 18 records, Tern-owned. Four Mersearch lanes occupied/requested; no callable Mersearch action. HSH_RESOURCES payload unopened.
@@ -12,6 +12,7 @@
 - Existing :00 task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with exact hourly :00 DTSTART/RRULE; no mutation or sixth task.
 
 ---
+
 
 ## Previous checkpoint | h904:s2 | 2026-11-17T16:24Z
 
