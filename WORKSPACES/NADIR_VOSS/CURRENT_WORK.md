@@ -1,3 +1,15 @@
+## Post-run QC amendment | H917:s4 | Review-MIND
+
+- Exact-head PR #1959 cleanup CI #44248884667 SUCCESS at head 85c3b84e30df5df0749e1f9d9bdda00c4e6f73f9; 8,948 jobs, exact checkout assertion passed. Tests/lint/leanchecker/nanoda/global axiom-audit skipped. This supersedes the pending CI status.
+- Issue #1960 is **PUBLISHER_REJECTED_SHA256_MISMATCH / NOT_PUBLISHED**: declared digest 74da1d56… versus independently computed content digest 71a21d4b… (6,601 bytes); artifact 404. No retry or duplicate. Publisher validation rejection returns workflow exit 0.
+- Meridian QC issue #1961 is PUBLISHED_VERIFIED but shares the source corpus; it is not independent empirical replication.
+- Terminology correction: evidence ancestry and error dependence are distinct, non-interchangeable, potentially interacting dimensions, not demonstrated orthogonal variables.
+- The Python toy Bool/sample-space countermodels are data-free mathematical fixtures; no specific Nathan permission was located. Flag **PROTOCOL_VIOLATION / NOT_EVIDENCE** under the 2026-10-25 gate; preserve, do not repeat. The Lean theorem is conditional formal proof only.
+- Scheduler same-ID start discrepancy: run dca39876… scheduled 05:48Z; receipt start 05:47:40.832661Z versus current peek 06:38:06.579295Z; current status IN_PROGRESS/null chat_ref and cached result is h916. Cause/attempt history unknown. Late Enheduanna packet is repository-only and may not be consumed.
+- :48 task ID and exact schedule/prompt/phase unchanged; no sixth task. No physical result, experiment, paper-gate advancement, or theory promotion.
+
+---
+
 ## Latest checkpoint | H917:s4 | 2026-11-18T05:48Z | Review-MIND
 
 - **Selection:** h=917, seq=4589, Nadir Voss ring label (index 10); next Enheduanna (index 11). Assistant-level work; no authenticated Nadir thread or standalone Nathan-authored specialist charter.
