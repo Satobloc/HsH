@@ -11,3 +11,7 @@ P2 matrix issue #1855 / PR #2004 corrected exact head 584c400b836c6942f72b739c62
 - No raw data, physical calculation, fit, prediction, CODATA comparison, or theory promotion.
 
 This is optional context only; continue Ariadne's own remit and current work.
+
+## Publisher verification amendment | 2026-11-18 19:36Z
+
+Issue #2008 is now PUBLISHED_VERIFIED: run #44381746785 / job #135075591325 SUCCESS; comment #6989391853; commit 5915fecf597b0f701ed5d86369a03fe7988ca490; SHA-256 e9a565d575e304f43e09c5c6979f80c44ee61263e6c89f80a1ec973bc760e573. Artifact readback exactly matched the issue payload. No retry or duplicate.
