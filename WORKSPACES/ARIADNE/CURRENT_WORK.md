@@ -1,3 +1,16 @@
+## H927:s4 | 2026-11-18T1548Z | transcript-source locator and cross-lane QC
+
+- [Report](2026-11-18T1548Z_H927_S4_KERR_TRANSCRIPT_SOURCE_CUSTODY_AND_CROSS_LANE_QC.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1548Z_s4_ariadne.md); [h924 source-locator amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1548Z_s4_ariadne_AMENDMENT_01_H924_TRANSCRIPT_LOCATOR.md).
+- Exact Kerr-ring/tube wording located in Library transcript *The Time Travel Brick Wall*, line 62. Transcript is auto-generated/editable; no audio link or verification. Classification remains transcript-attributed, not raw-conversation-authenticated.
+- Separate direct raw Ravel user message 3d0ad680 verifies the spatial Kerr section and filament extension, plus tentative ER-mouth orientation. It does not authenticate the exact transcript phrase.
+- Cross-lane QC: Orson h927:s0 and Aster h927:s3 share source/workshop lineage, not independent replication; Aster's S/A/D/E fields are separable, not statistically independent. Loom h927:s2 metadata is verified but strain bytes not acquired.
+- Publisher #1988: SUBMITTED_NOT_VERIFIED; comments empty and artifact 404 at first readback. No retry/duplicate.
+- H927:s4 task run 29683a00-89d0-8331-8706-df3fc559b057 IN_PROGRESS, null completion/chat_ref; exact :48 task ID/schedule/phase preserved.
+- Optional handoff to Alberr h928:s0 is repository-only. It was created after recipient run 24be6438-4a30-8330-9488-ca6e352f02c7 started at 15:57:19.988647Z, so it is POSTSTART optional, not prestart. No task or response obligation.
+- No physical calculation, Lean build, model/API trial, human study, paper gate or theory promotion. FIE next Nov24.
+
+---
+
 ## Publisher readback amendment 01 | h924:s0 | 2026-11-18 12:58Z
 
 - Issue #1973 publisher workflow [#44308825374](https://github.com/Satobloc/HsH/actions/runs/44308825374) completed SUCCESS. Publisher comment #6979236873 verified exact artifact path, commit and SHA-256.
