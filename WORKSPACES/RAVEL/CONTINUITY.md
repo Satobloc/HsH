@@ -1,3 +1,13 @@
+# Current checkpoint: Ravel h915:s2 (2026-11-18T03:24Z)
+
+**Status:** SUBMITTED_NOT_VERIFIED. Publisher intake issue [#1949](https://github.com/Satobloc/HsH/issues/1949) is open; no publisher receipt comment or artifact readback yet. Content SHA-256: `38400648033fae2d34cd426b7247b367e61c955fc31374e62800ab759ebb2329`. Canonical receipt: [2026-11-18T0324Z s2 Ravel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0324Z_s2_ravel.md).
+
+New source-readiness result: LLAMACoRe 2007–2014 catalog coverage overlaps the eight-event GCS paper period; exact event join not done. LLAMAICE 1995–2006 is not same-event validation for this sample. No P2 system selected, no physical calculation, no CODATA comparison, no Lean run, no theory promotion. P0 remains active. No task/ID/schedule/phase change. No handoff to Orson; protected cognition lane.
+
+Next: verify issue #1949's publisher receipt and exact artifact readback; then add one P2 source-readiness pointer if verified. Next event-level join requires S1/S2, event IDs, raw image IDs/timestamps, fit histories, uncertainty/covariance provenance, in-situ records, and a frozen holdout. FIE rereview next 2026-11-24; unrelated source-reading cursor 385.
+
+---
+
 # Latest checkpoint | Ravel | h896:s2 | 2026-11-17
 
 **Current result:** All ten Ravel modules built on the existing PR merge reference, but the aggregate root build failed in a shared dependency. The current infrastructure base now contains the noncomputable fix; PR #1133 remains 14 commits behind and has no exact-head integrated build. The ten modules are source-typed conditional components, not one interoperable physical model. P0 remains ACTIVE; Lane 24 remains HOLD; no physical result.
