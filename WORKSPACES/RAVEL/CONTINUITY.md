@@ -1242,3 +1242,10 @@ Correction to Amendment 05: the existing PR #1984 branch head `7794e1db22220f34c
 - Removed the unrelated import. Corrected head `584c400b836c6942f72b739c626ad12c1c66b384`, root blob `b53ff9fd24346be5915e08d42750eabaf2d77fb3`. New exact-head CI not observed; no full compile/axiom audit.
 - Publisher #2005 PUBLISHED_VERIFIED, exact payload/report/artifact equality, SHA-256 `70be1753f0930fcbeb1eadcb31fac9a17715a12350bf0680b136bdb68412a066`. P2 comments #6988133193, #6988143282 and #6988170466.
 - **Return pin:** `H930:S3 / RAVEL / ORSON-NEXT / OBSERVABLE-FAMILY-SELECTION-FREEZE / PR2004-CORRECTED-HEAD-LEAN-CI-PENDING / ISSUE2005-PUBLISHED_VERIFIED / P2-HOLD / NO-HANDOFF / TASK-UNCHANGED`.
+
+
+## H930:S3 amendment 03 | corrected-head CI started | 2026-11-18 18:45Z
+
+- Corrected PR #2004 head `584c400b836c6942f72b739c626ad12c1c66b384` has a new Lean run #44373134985/job #135045044582. At last readback job is IN_PROGRESS at checkout; exact-head assertion, Lake manifest and compilation remain pending. Initial failed run #44372314170 built the new module but root failed due the missing `ThreeModelContrast` import on base #262; that import was removed in the correction.
+- Issue #2005 PUBLISHED_VERIFIED, exact payload/report/artifact equality, SHA-256 `70be1753f0930fcbeb1eadcb31fac9a17715a12350bf0680b136bdb68412a066`. P2 comments #6988133193/#6988143282/#6988170466.
+- **Return pin:** `H930:S3 / RAVEL / ORSON-NEXT / OBSERVABLE-FAMILY-SELECTION-FREEZE / PR2004-CORRECTED-HEAD-LEAN-CI_IN_PROGRESS / ISSUE2005-PUBLISHED_VERIFIED / P2-HOLD / NO-HANDOFF / TASK-UNCHANGED`.
