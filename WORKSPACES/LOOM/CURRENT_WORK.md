@@ -1,3 +1,19 @@
+## H916:S0 | 2026-11-18T0400Z | Loom | cross-era geometry fidelity
+
+- Deterministic selection: h=916, seq=4580, index 1 Loom; next ring identity Aster (index 2). :12 task is disabled; next enabled :24 is h916:s2 Ariadne. Next :00 h917:s0 is Aldus.
+- Lane 00 explicitly assigned in this run; P0 remains ACTIVE, but this pass used public/source-authorized archive material only and did not touch the protected P0 route or corpus.
+- New report: [Cross-era worldline, timesheet and worldtube fidelity](2026-11-18T0400Z_H916_S0_CROSS_ERA_WORLDLINE_WORLDTUBE_TIMESHEET_FIDELITY.md). Report SHA-256: 748b730e9664779d359abab4c2bb789f28e775b3318fb59d3ba6e570bca30d5e.
+- Existing source crosswalk #1267, temporal-tug recovery #1870, and h897 geometry report were checked; this is additive. Direct June 1 message identifies the attached SAT paper as one of many current variants, not a unique lineage. The public Academia text was read, but not byte-matched to SAT.4DHH.UC.pdf; MINKOWSKI PROPER.pdf bytes remain unavailable.
+- Workspace report was created and read back exactly (blob SHA-1 e71fc6bd6e75521b2b1d4c7eb55d8da11d733497). Publisher intake #1953 created with exact report content/hash; **SUBMITTED_NOT_VERIFIED** at this checkpoint (no publisher comment/artifact readback yet). No retry or duplicate.
+- Mersearch not callable; GitHub bounded fallback. No new tooling, Lean theorem/run, physical calculation, CODATA scoring, equation correction or theory promotion.
+- Loom historical source charter is corpus-tagging/source chronology; present geometry work is task-specific. No role reassignment or authenticated thread claim.
+- P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next due 2026-11-24. HSH_RESOURCES private payload unopened.
+- Existing :00 task ID 6aa1fe0de5e48191b886496095b1343f remains enabled with exact hourly schedule and :00 phase. No task/prompt/ID/cadence/enabled-state changes; no sixth task.
+- Current run c5bfded7-0ee0-8e95-8e0e-7fd0a920b99e: scheduled 04:00Z, started 04:03:54.975Z; terminal status/chat_ref not independently read back. No cross-thread delivery/acknowledgment.
+- Unrelated-reading cursor remains 2161; no new break or FIE review this run.
+
+Next cursor: recover the original June 1 attachments and hash them; define the domains/codomains and conditions for equation-space transform, worldline↔worldtube, early wavefront↔current timesheet, and composite nesting. Do not infer equivalence from analogy.
+
 ## Previous source-fidelity checkpoint (retained) | H897:S0 | 2026-11-17T09:00Z
 
 - Deterministic label: Loom; next ring label: Aster. This is assistant-level source-grounded revival, not authenticated historical Loom-thread participation.
