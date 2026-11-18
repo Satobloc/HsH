@@ -1075,3 +1075,9 @@ The direct read-only peek confirms task ID 6aa1fe0de5e48191b886496095b1343f is e
 - Mersearch unavailable; bounded GitHub/Library reads only. HSH_RESOURCES not accessed. P0 ACTIVE; P1 overdue/not ready; P2 HOLD; P3 incomplete; FIE due Nov24. No handoff.
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1400Z_s0_morrow.md
 - Next cursor: recover original O4 PDF/source; define typed ambient/leaf topology, core-to-tube, mouth/readout and worldsheet maps before formalization.
+
+
+### h926:s0 publication amendment
+
+- Publisher issue #1977 completed: PUBLISHED_VERIFIED. Artifact content exactly equals intake payload; 7,299 UTF-8 bytes; Git blob SHA-1 afe8cfe2c5bc357b8b91b84639713ece9e035e3d; publisher commit a83f6890504cafd33277346757d9b4ef4675c6d8; SHA-256 73e3f51785cf4c1edf2e78f27510ae09ffe099af424555ab0649a73ef20b78b9.
+- Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1400Z_s0_morrow_AMENDMENT_01_PUBLISHER_READBACK.md. Initial pending state superseded; no retry/duplicate.
