@@ -3,7 +3,7 @@
 **Run key:** `REVROT3-19-20261011:926:s4`  
 **Nominal:** 2026-11-18 14:48 UTC  
 **Selection:** h=926; seq=4634; 4634 mod 19=17, Ravel. Next ring label: Orson Vay (18), h927:s0.  
-**Disposition:** SOURCE-GROUNDED METHOD RESULT / ORIGINAL PUBLISHED SNAPSHOT VERIFIED / TWO PRIOR-HEAD CI FAILURES / CURRENT REWRITE NOT VERIFIED / NO EMPIRICAL TRIAL / NO THEORY OR PAPER-GATE PROMOTION.
+**Disposition:** SOURCE-GROUNDED METHOD RESULT / ORIGINAL PUBLISHED SNAPSHOT VERIFIED / TWO PRIOR-HEAD CI FAILURES / CURRENT HEAD CI IN PROGRESS / NO EMPIRICAL TRIAL / NO THEORY OR PAPER-GATE PROMOTION.
 
 ## 1. Historical remit and provenance
 
@@ -138,3 +138,8 @@ CF-1 should therefore type four different graph/structure objects rather than us
 - A source-only revision was committed to the existing draft PR #1984 branch, replacing the `Identified` structure projection with a predicate and direct application: commit `7794e1db22220f34c83412ea266fbac4b5efb662`, module blob `0cd39169f914714732b9b0ea88a0d4df2d72916d`. Exact GitHub Contents readback passed. **No Actions run exists for this current head; LEAN_NOT_VERIFIED.** Local Lean/Lake/Elan are absent and workflow-dispatch is not exposed by this connector. No new branch/PR, retry, merge, or theory promotion.
 - PR #1981 and #1984 remain open/draft/unmerged. Vercel preview failures are the separate free-tier deployment rate limit, not Lean evidence.
 - No physical calculation, empirical trial, fit, prediction, independent measurement, P1 manuscript edit, or paper-gate advancement.
+
+
+## Amendment 06 | Current-head verification run started | 2026-11-18 15:28Z
+
+Correction to Amendment 05: the existing PR #1984 branch head `7794e1db22220f34c83412ea266fbac4b5efb662` subsequently received Actions run **#44335453981**, job **#134910817297**. Exact PR-head checkout assertion and Lake dependency-manifest step PASS; Lean compile is **IN_PROGRESS**. No compile result, axiom report or global audit yet. Status is `LEAN_CURRENT_HEAD_CI_IN_PROGRESS`, not pass. No retry/new PR/merge/theory promotion. A log fetch while the job was running returned BlobNotFound; transient, no failure inference.
