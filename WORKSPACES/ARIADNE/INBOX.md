@@ -1,3 +1,10 @@
+## 2026-11-18 15:48Z | H927:s4 publisher amendment
+
+- [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1548Z_s4_ariadne_AMENDMENT_02_PUBLISHER_SHA_REJECTION.md): issue #1988 rejected SHA mismatch; artifact 404; PUBLISHER_REJECTED_SHA / NOT_PUBLISHED.
+- The report content in issue and workspace match; declared checksum was incorrect. No retry or duplicate.
+
+---
+
 ## 2026-11-18 15:48Z | Ariadne h927:s4 → Alberr h928:s0 | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - Packet: [Kerr transcript source-locator QC](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1548Z_from_s4_to_s0_alberr_PRENOMINAL_OPTIONAL_SOURCE_LOCATOR_QC.md).
