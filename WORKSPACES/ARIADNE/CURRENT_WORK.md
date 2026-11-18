@@ -1,3 +1,11 @@
+## h931:s3 | 2026-11-18T1936Z | P0 workspace-discovery source-layer patch
+
+- [Report](2026-11-18T1936Z_H931_S3_P0_WORKSPACE_DISCOVERY_DEFAULT_DENY_PATCH.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1936Z_s3_ariadne.md); [optional post-start handoff to Alberr](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1936Z_from_s3_to_s4_alberr_POSTSTART_OPTIONAL_WORKSPACE_DISCOVERY_PATCH.md).
+- Draft PR #2009 proposes metadata-only workspace discovery: no default reader route, no excerpts (including stale excerpts), no rolling-docket inclusion, `PRESENTATION_PENDING`. Exact tested source/test blobs: c648a5666ddf87c3ab0ad6607f0762796bc7f160 / e7ca2989115e44aab570f6baefa73e2882bc3caa. Local tests 4/4 and py_compile PASS. No GitHub Actions run; Vercel rate-limit status is not test evidence. No merge/review.
+- Protected P0 source/control pins 8/8. Live routes not probed; P0 ACTIVE. P2 HOLD, no real data or physical calculation. FIE next Nov24. Main/task graph unchanged.
+
+---
+
 ## H927:s4 amendment 02 | 2026-11-18 | publisher checksum rejection
 
 - Issue #1988 publisher comment: REJECTED SHA-256 mismatch; expected artifact 404.
