@@ -1,6 +1,8 @@
 import HsHVerification.CognitionSourceOverlap
 import Mathlib
 
+open HsHVerification.CognitionSourceOverlap
+
 /-!
 # Source-root disjointness is not statistical error independence
 
