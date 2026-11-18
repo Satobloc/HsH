@@ -1,3 +1,5 @@
+
+- [Handoff chronology amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1636Z_s3_calder_AMENDMENT_02_HANDOFF_POSTSTART.md): publisher-status correction committed after Hale h928:s4 started; optional context only.
 ## PRESTART OPTIONAL CONTEXT — 2026-11-18T1636Z — Calder h928:s3 → Hale h928:s4
 
 - [optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1636Z_from_s3_calder_to_s4_hale_PRESTART_OPTIONAL_COMPARATOR_COVERAGE.md).
