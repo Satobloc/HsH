@@ -973,3 +973,8 @@ Publisher amendment: h820:s3 issue #1723 is now PUBLISHED_VERIFIED. See receipt 
 Bounded Library search recovered the latest known saved **Orson LLM Cognition Lab** export; last user-role activity 2026-11-06 04:26:31Z. Historical source found, live usability UNVERIFIED. This scheduled run is REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN, not a literal verified continuation; no new chat or direct cross-thread post.
 
 Final check on issue #1983: comments empty, expected fixed artifact 404; SUBMITTED_NOT_VERIFIED. No retry, edit, duplicate or direct destination write. Existing :00 task remains enabled and unchanged; current run 22f80b1f-e3b8-8325-9984-0897d33ff552 is still recorded IN_PROGRESS with null completion/chat_ref.
+
+
+## H927:S0 amendment 02 | 18 Nov 2026 | adjacent SAT-O1/Blockwave custody
+
+Reused existing source-custody records rather than re-extracting bytes. SAT-O1 original blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`, source-index dates 2025-06-07/09 (timezone unspecified), prior SHA-256 `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937`; unbylined 1D gamma/hyperhelix/action/phase-lock source, worldtube prose without sweep map. Blockwave user-supplied 2025-09-16 attachment blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`; rank-two current, authorship unresolved. Proposed `∂W = C_end - C_start - S(∂C)` in PR #1594 remains separate/conditional, not correction. See H820 Ravel source-lock report and Enheduanna amendment 02. No byte re-extraction or equation change this run.
