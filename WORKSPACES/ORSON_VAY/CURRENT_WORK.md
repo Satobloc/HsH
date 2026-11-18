@@ -993,3 +993,8 @@ Issue #1983 publisher comment #6982474026: REJECTED, SHA-256 mismatch. Declared 
 - Publisher intake #2006 / run #44376200059 is SUBMITTED_NOT_VERIFIED at last check; no comment/artifact readback, no retry.
 - Lateral reading: Wind in the Willows, Ch. II, lines 100-220; next cursor Ch. III, The Wild Wood.
 - Scheduler task preserved. Current run remains IN_PROGRESS/null completion/chat_ref; no delivery claim. No handoff.
+
+
+### H930:s4 publication-status amendment | 2026-11-18 19:03:53Z
+
+Issue #2006 body and workspace report match exactly; submission SHA matches. Publisher run #44376200059 / job #135055909890 remains IN_PROGRESS at checkout. Job-log retrieval returned BlobNotFound (not a failure). Canonical artifact is absent at last check; status remains SUBMITTED_NOT_VERIFIED. No retry or duplicate. Latest main readback after ledger/current-work commits: d08fcf226fb564030fea3b64e2c9edb2e458a6d5.
