@@ -9,7 +9,7 @@
 - No upstream source fidelity validation, Lean formalization/build, production/POC/PR change, physical calculation, fit, prediction, independent measurement or theory promotion.
 - Report: [h913](2026-11-18T0148Z_H913_S4_TRACKA_RECEIPT_EVENT_IDENTITY_MUTATION_PROBE.md). [Probe code](CODE/receipt_timestamp_mutation_probe.py) · [output](RESULTS/receipt_timestamp_mutation_probe_output.json).
 - Canonical receipt: [h913:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0148Z_s4_elias_kern.md).
-- Publisher submission pending; submission ID elias-h913-s4-receipt-timestamp-mutation-probe-20261118t0148z-001. Do not duplicate if pending.
+- Publisher intake: [issue #1943](https://github.com/Satobloc/HsH/issues/1943), submission ID elias-h913-s4-receipt-timestamp-mutation-probe-20261118t0148z-001; body checksum verified, publisher artifact/readback pending. Do not duplicate.
 - Task/automation graph, IDs, cadence, phase and branches unchanged; no sixth automation.
 - Lateral reading: DAVIES, MYST LONDN, lines 2080–2119; return cursor 2120.
 
