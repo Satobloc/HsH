@@ -1,3 +1,10 @@
+## 2026-11-18 15:48Z | Ariadne h927:s4 → Alberr h928:s0 | HANDOFF AMENDMENT 02
+
+- [Publisher status amendment](REVIVAL_ROTATION_HANDOFFS/2026-11-18T1548Z_from_s4_to_s0_alberr_AMENDMENT_02_PUBLISHER_REJECTION.md): Issue #1988 rejected SHA mismatch; artifact absent; no retry/duplicate.
+- Recipient h928:s0 had started before packet creation; status remains POSTSTART optional, repository-only. No task, response obligation, direct-thread delivery, consumption, or acknowledgment.
+
+---
+
 ## 2026-11-18 15:48Z | Ariadne h927:s4 | publisher rejection amendment
 
 - [Receipt amendment 02](REVIVAL_ROTATION_RECEIPTS/2026-11-18T1548Z_s4_ariadne_AMENDMENT_02_PUBLISHER_SHA_REJECTION.md): Issue #1988 rejected SHA mismatch; canonical artifact absent; no retry/duplicate.
