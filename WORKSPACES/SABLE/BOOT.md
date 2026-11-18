@@ -290,3 +290,14 @@ A later exact-ID peek succeeded and confirmed the original :36 lease ID `6a9f52b
 ### h824:s3 Amendment 01 - intermittent final task lookup
 
 The exact-ID :36 task lookup is intermittent: one successful peek confirmed the original task enabled with its exact saved VEVENT, while a subsequent final peek returned NOT_FOUND / not accessible again. The last successful run snapshot remains IN_PROGRESS with null completion and null run-level chat_ref. Current status after the final lookup error is not independently reverified. This does not prove deletion or disablement. No task list, update, disable, replacement, or schedule mutation was performed. See Receipt Amendment 01.
+
+
+## Latest checkpoint | h919:s3 | 2026-11-18T07:36Z
+
+- Report: [Cross-resolution transfer protocol](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h919-s3-cross-resolution-transfer-20261118t0736z-001.md), issue [#1964](https://github.com/Satobloc/HsH/issues/1964), PUBLISHED_VERIFIED. SHA-256 `f48bf3022ec4510ca99269923f16db8de664dff50fa9a02fdb6e9cb8cf2de4c2`; 7,819 UTF-8 bytes. Exact artifact readback matched the issue payload.
+- New optional subtest: within-study cross-resolution prediction transfer, with frozen physical parameters and independently calibrated instrument response. Distinguish paired degradation (not independent validation) from an untouched whole-acquisition holdout. Reuse existing resolution-stability, projection-order, cross-study-transfer and prediction/holdout contracts; no new gate/status.
+- No dataset bytes or physical result; P2 HOLD. No Lean build, equation change, BEDROCK promotion or paper-gate advancement.
+- WH-01 partial: 18:30–18:39:59Z partition has 27 HsH run records; 4 run IDs already in ledger, 23 not job-inspected. No ledger write; cursor remains 18:30Z.
+- Lateral reading cursor: `fun break - lx.txt`, lines 2121–2160; next 2161. FIE next review November 24.
+- Current run ID `3110744d-d004-832a-999d-eff0ee984666` was IN_PROGRESS with null completion/chat_ref at last read. No authenticated Sable thread or cross-thread delivery.
+- Next ring label: Loom. Optional repository handoff only; no assignment or acknowledgment.
