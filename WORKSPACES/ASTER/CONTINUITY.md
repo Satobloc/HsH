@@ -1104,3 +1104,5 @@ Next deeper cursor: recover the separate November 9 gyroscope raw conversation; 
 - Lateral reading `fun break - lx.txt`, lines 1881–1920; next 1921. FIE Nov 24. P0 active, Paper A review frozen; P1 Orson-owned not-ready; P2 hold; P3 incomplete. WH01 cursor 18:30Z, 21 uninspected; WH02 Calder; WH05 four lanes; graph 16/18 Tern.
 - h916:s2 ring correction #1957 verified (Ariadne -> Alberr). h927:s3 selection is correct.
 - :36 automation ID/schedule unchanged; current run in progress, no chat_ref. No sixth task.
+
+- P2 matrix #1855 crosswalk comment #6983601424 was added and exact-readback verified; no new gate or advancement.
