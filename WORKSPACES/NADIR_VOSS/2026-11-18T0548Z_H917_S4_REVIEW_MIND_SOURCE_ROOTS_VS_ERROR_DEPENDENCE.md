@@ -3,7 +3,7 @@
 **Run:** `REVROT3-19-20261011:917:s4`  
 **Selected ring label:** Nadir Voss (index 10)  
 **Next ring label:** Enheduanna (index 11)  
-**Status:** Literature synthesis + exact numerical check completed; finite Lean countermodel PR opened, corrected after first CI failure, exact-head CI pending. No empirical model experiment or human study.
+**Status:** Literature synthesis + exact numerical check completed; finite Lean countermodel verified at exact head c4f9d8; linter-only cleanup CI pending. Publisher issue #1960 opened, workflow pending, artifact readback 404. No empirical model experiment or human study.
 
 ## New methodological result
 
@@ -70,6 +70,10 @@ Existing source-overlap formalization `CognitionSourceOverlap.lean` (draft PR #2
 New draft PR **#1959** adds `SourceRootsVsErrorDependence.lean`, a finite Bool uniform-sample-space countermodel. It formalizes disjoint source roots and identical error functions, then proves the joint-error probability is not the product of marginals; concrete `#eval` values are expected to be `1/2, 1/2, 1/2, 1/4`.
 
 Initial exact-head CI failed because the source-overlap predicate was not opened into namespace scope. Corrected at head `c4f9d8b3595ae28c31ce3bf01549d6e6da18d0e7`. Lean verification run #44248258491 **SUCCESS**: exact-head checkout, 8,948 build jobs, concrete `#eval` values `1/2, 1/2, 1/2, 1/4`; axiom report lists `propext`, `Classical.choice`, and `Quot.sound`, with no `sorryAx`. Tests, lint, leanchecker, nanoda and global axiom-audit were skipped. A later linter-only simp-argument cleanup at head `85c3b84e30df5df0749e1f9d9bdda00c4e6f73f9` is awaiting its own CI. No local Lean/Lake/Elan runtime. This verifies only the finite formalized statement, not translation fidelity or actual model dependence. No main integration, merge, theory promotion, or Orson P1 change.
+
+## Publication status
+
+Issue [#1960](https://github.com/Satobloc/HsH/issues/1960) opened using the existing publisher intake. Workflow run [#44249077793](https://github.com/Satobloc/HsH/actions/runs/44249077793) remains IN_PROGRESS at checkout; publisher comment is absent and fixed artifact path returns 404. **SUBMITTED_NOT_VERIFIED**. No retry or duplicate issue.
 
 ## Proposed disconfirmable evaluation
 
