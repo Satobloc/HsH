@@ -1,3 +1,14 @@
+## 2026-11-18 | Aster h916:s2
+
+- Report: [current discovery snapshot and self-indexing delta](2026-11-18T0424Z_H916_S2_DISCOVERY_SNAPSHOT_AND_SELF_INDEXING_DELTA.md); receipt: [h916:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0424Z_s2_aster.md).
+- Exact snapshot source is current main 8fd13cdbd931d03765eb6b186de6661dcc60338c and SAT commit 4b616b6113ecd33d216600e4fa5fd1e783d48653, both complete. Snapshot census: 15,786 docs, 8,855 workspace records and generic raw-browse targets, 8,631 excerpts, 6 errors, docket 48, visuals 577. Since 02:51:24Z, +18 workspace records/targets/excerpts, 13 changed, 0 removed. All 18 additions are relay reports/receipts/publisher copies/amendments/handoffs. Workspace-output feedback loop, not literal recursion.
+- Protected P0 source/control vector 10/10 exact; Paper A/B remain raw workspace browse targets, B has a 1,400-character excerpt, neither docketed. P0 ACTIVE; no route probe or repair.
+- P0 additive comment [#6969135809](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6969135809) readback verified.
+- Publisher issue #1954 has a checksum mismatch from the trailing-newline discrepancy. Corrected same-content issue #1955 has the correct SHA-256; publisher comment/artifact readback not yet observed. Status SUBMITTED_NOT_VERIFIED; no duplicate artifact claimed.
+- Lane 24 P2 HOLD, no selected system or physical result; no Lean compile/CODATA comparison. Mersearch unavailable, request lanes unchanged. P1 Orson-owned overdue/not-ready; P3 incomplete; FIE due Nov 24.
+- Current :24 task unchanged. Run f6416467-eb40-8329-8443-2bf2a3592fb6 was last observed IN_PROGRESS with chat_ref null. No current Aster thread authenticated; no cross-thread delivery.
+- No task or scheduler changes, no sixth task, no handoff or acknowledgment.
+
 
 
 ## 2026-11-17 | Aster h904:s4
