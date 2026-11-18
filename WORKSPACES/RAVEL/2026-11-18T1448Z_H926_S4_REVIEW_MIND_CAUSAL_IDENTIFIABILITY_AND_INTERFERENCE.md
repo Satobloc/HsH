@@ -117,3 +117,9 @@ The prior Gutenberg #1216 HTML route returned HTTP 503. A public-domain alternat
 - The theorem-specific axiom reports: `admissibleWithinFreeze_implies_binary_feature_contrast` uses `[propext]`; `outcome_contrast_alone_does_not_admit_feature_necessity` uses `[propext, Classical.choice, Quot.sound]`. No `sorryAx` was printed. No separate global axiom audit.
 - Mercer publisher issue #1980 is REJECTED_SHA256_MISMATCH / NOT_PUBLISHED; comment #6981930858 records declared versus actual digest, and the expected artifact path returns 404. No retry or duplicate.
 - This was factual cross-lane QC only. Mercer retains ownership; no task, review, response obligation or priority change.
+
+## Amendment 03 | Scheduler readback and verification-trigger PR | 2026-11-18 15:12Z
+
+- Automations.peek subsequently succeeded. The existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` is enabled with the exact hourly America/New_York :48 schedule. Current run `be134f75-cba0-8326-9643-da5f16e85574` is IN_PROGRESS, scheduled 14:48Z, started 14:51:17.773032Z, completion/chat_ref null. Cached latest result is h925:s4, not this run. No liveness or delivery inference.
+- The GitHub Contents update path did not produce a fresh Lean run for the corrected commits. A verification-trigger draft PR [#1984](https://github.com/Satobloc/HsH/pull/1984) was opened from exact source head `26fdc510e667b143afa92abb19716fbd941700f2`. Actions run #44332723367/job #134901172816 is IN_PROGRESS; checkout has not yet completed. No exact-head compile pass.
+- The two failed proof attempts remain documented: #44329554651 (initial application error) and #44331520087 (tactic `apply` could not unify at line 74). Latest source uses the named `Identified.agreement` witness. PR #1981 remains draft/open; no merge.
