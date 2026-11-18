@@ -17,10 +17,10 @@ proposed Euclidean 4D helix gamma(s) = (s, R cos(k s), R sin(k s), v s),
 with theta = k*s. The derivative-to-component step is documented here,
 not independently formalized in this module.
 -/
-def helixTangent (R k v theta : ℝ) : Vec4 :=
+noncomputable def helixTangent (R k v theta : ℝ) : Vec4 :=
   ⟨1, -R * k * Real.sin theta, R * k * Real.cos theta, v⟩
 
-def helixAcceleration (R k theta : ℝ) : Vec4 :=
+noncomputable def helixAcceleration (R k theta : ℝ) : Vec4 :=
   ⟨0, -R * k^2 * Real.cos theta, -R * k^2 * Real.sin theta, 0⟩
 
 theorem helixTangent_norm_sq (R k v theta : ℝ) :
@@ -40,25 +40,30 @@ theorem helixTangent_dot_acceleration (R k v theta : ℝ) :
   simp [dot4, helixTangent, helixAcceleration]
   ring
 
-def gramCurvatureSq (R k v theta : ℝ) : ℝ :=
+noncomputable def gramCurvatureSq (R k v theta : ℝ) : ℝ :=
   (dot4 (helixTangent R k v theta) (helixTangent R k v theta) *
       dot4 (helixAcceleration R k theta) (helixAcceleration R k theta) -
     (dot4 (helixTangent R k v theta) (helixAcceleration R k theta))^2) /
     (dot4 (helixTangent R k v theta) (helixTangent R k v theta))^3
 
 /--
-For the Euclidean Gram expression |gamma'|^2 |gamma''|^2 -
-(gamma' dot gamma'')^2 divided by |gamma'|^6, the squared-curvature
-denominator is speed-squared cubed. This does not formalize the
+For the Euclidean Gram expression
+(|gamma'|^2 |gamma''|^2 - (gamma' dot gamma'')^2) / |gamma'|^6,
+the squared curvature simplifies to R^2 k^4 / speedSquared^2.
+The source formula R k^2 / speedSquared is therefore the ordinary
+Euclidean curvature when R is positive. This does not formalize the
 derivative identities or choose a physical spacetime metric.
 -/
 theorem helix_gram_curvature_sq :
     ∀ R k v theta : ℝ,
       gramCurvatureSq R k v theta =
-        (R^2 * k^4) / (1 + R^2 * k^2 + v^2)^3 := by
+        (R^2 * k^4) / (1 + R^2 * k^2 + v^2)^2 := by
   intro R k v theta
-  simp [gramCurvatureSq, helixTangent_norm_sq,
+  simp_rw [gramCurvatureSq, helixTangent_norm_sq,
     helixAcceleration_norm_sq, helixTangent_dot_acceleration]
+  have hA : 1 + R^2 * k^2 + v^2 ≠ 0 := by positivity
+  field_simp [hA]
+  ring
 
 #print axioms helix_gram_curvature_sq
 
