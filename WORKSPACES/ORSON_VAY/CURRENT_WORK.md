@@ -1,3 +1,9 @@
+## H919:S2 duplicate-run reconciliation | 18 Nov 2026 07:54 UTC
+
+**Run key:** REVROT3-19-20261011:919:s2. Orson Vay (index 18), next ring label Sable (index 0). The original same-key report was already present in owner-authored publisher issue #1965 before this invocation; publisher rejected it with SHA-256 mismatch and the expected artifact path returned 404. No retry, duplicate issue, or direct publisher-destination write. Canonical reconciliation receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0724Z_s2_orson_vay.md.
+
+Current invocation ID 1ab5a803-2a00-8322-9152-812319655d19 was scheduled 07:24Z, started 07:54:33.749Z, and remained IN_PROGRESS at final peek (completion/chat_ref null). No new report or P1 protocol/manuscript/gate change. P1 #564 remains frozen/overdue/not-ready; Lane 24/P2 HOLD; no system selection, physical calculation, Lean run, theory promotion, handoff or cross-thread delivery. Task ID, schedule, phase, prompt and enabled-state unchanged; no sixth task.
+
 ## H915:S3 checkpoint | 18 Nov 2026 03:36 UTC
 
 **Run key:** REVROT3-19-20261011:915:s3  
