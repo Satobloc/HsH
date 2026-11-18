@@ -1,6 +1,20 @@
 ## Latest run | h914:s3 | 2026-11-18T02:36Z nominal | event-artifact binding gate
 
 - Run key: REVROT3-19-20261011:914:s3; selected Morrow (index 13), next Kestrel (index 14).
+- Report: [Event-artifact binding gate](2026-11-18T0236Z_H914_S3_EVENT_ARTIFACT_BINDING_GATE.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0236Z_s3_morrow.md).
+- Source Identity Gate Layer 10 added and read back: commit d9661d979af2028ab8726578d2a409df3f0db0db; blob 6c078147ad0596e09136296ad8f5bc8745f58888.
+- Publisher issue #1946 PUBLISHED_VERIFIED. Run #44225591304 / job #134537850118 SUCCESS; comment #6967477720. Canonical artifact commit f02dedf00394466a87b0a043b0a314399a69a132; SHA-256 51b3611920daba7e78700285b5b6b3b62e5500e2de7a5f5e516d5aa09f65a055; blob 6e933de119abc153c92cebcd50cb4204d00ae667. Independent fetch: artifact content exactly equals issue payload; source-text digest recomputation matches. No retry or duplicate.
+- Existing Hale PR #1487 and Aldus PR #1860 reused; Aldus exact-head Lean run #43973867276 passed the formalized contract. Neither formalization authenticates physical/source truth.
+- Scope: Team Archivist/source-custody only; theory stop preserved. No physical calculation/prediction, Lean build, equation correction, paper work or BEDROCK promotion. P2 HOLD.
+- Mersearch unavailable; four lanes occupied/requested. Existing Math Hopper #578/PR #991, Whirligig Kernel 0 checked. No new tooling/branch/PR/dependency/fork/subscription/expense. HSH_RESOURCES private subtree untouched; SAT archive read-only.
+- Lateral reading: DAVIES — MYST LONDN.txt lines 2040–2079; next cursor 2080. FIE review due Nov 24.
+- :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly phase/prompt. No sixth task. No optional Kestrel handoff/response obligation; no direct-thread delivery/consumption/acknowledgment.
+
+---
+
+## Latest run | h914:s3 | 2026-11-18T02:36Z nominal | event-artifact binding gate
+
+- Run key: REVROT3-19-20261011:914:s3; selected Morrow (index 13), next Kestrel (index 14).
 - Report: [Event-artifact binding gate](2026-11-18T0236Z_H914_S3_EVENT_ARTIFACT_BINDING_GATE.md).
 - Canonical receipt: [h914:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0236Z_s3_morrow.md).
 - Source Identity Gate Layer 10 added: event identity ↔ exact artifact bytes/snapshot crosswalk, readback PASS; commit d9661d979af2028ab8726578d2a409df3f0db0db; blob 6c078147ad0596e09136296ad8f5bc8745f58888.
