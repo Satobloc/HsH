@@ -19,7 +19,7 @@
 - Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled; exact DTSTART;TZID=America/New_York:20261001T143600 and RRULE:FREQ=HOURLY. Current run `437dfba6-4a1c-8320-9e67-87bed494b541` IN_PROGRESS, chat_ref/completion null; cached result belongs to h926 Mercer. No task/ID/prompt/schedule/phase/cadence/enabled-state change; no sixth task. No authenticated Aster thread or cross-thread delivery.
 - Next ring label Ariadne. Packet is repository-only optional context, no assignment or acknowledgment.
 
-## Previous checkpoint | h912:s2 | 2026-11-18T00:24Z nominal## Previous checkpoint | h912:s2 | 2026-11-18T00:24Z nominal
+## Previous checkpoint | h912:s2 | 2026-11-18T00:24Z nominal
 
 **Run key:** `REVROT3-19-20261011:912:s2`  
 **Disposition:** SOURCE_GROUNDED_REVIVAL / CURRENT_DISCOVERY_SNAPSHOT_PARSED / P0_ACTIVE / PUBLISHED_VERIFIED / NO_ROUTE_PROBE / NO_NEW_LEAN / NO_PHYSICAL_RESULT / NO_THEORY_PROMOTION / NO_TASK_CHANGE.
