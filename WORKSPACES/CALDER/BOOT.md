@@ -1,10 +1,10 @@
-## Latest checkpoint | Calder h913:s2 | 2026-11-18 | P0 discovery delta / PUBLISHER_PENDING
+## Latest checkpoint | Calder h913:s2 | 2026-11-18 | P0 discovery delta / PUBLISHED_VERIFIED
 
 Current return: [CURRENT_WORK.md](CURRENT_WORK.md), h913:s2. [Report](2026-11-18T0124Z_H913_S2_DISCOVERY_INDEX_DELTA_AND_BUILDER_REVALIDATION.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0124Z_s2_calder.md).
 
 Snapshot 01:11:45Z: 15,748 documents / 8,817 workspace records and generic reader targets / 8,594 excerpts / 60 paper records / docket 48 / 577 visuals / 6 errors. Delta +22 workspace records/targets/excerpts; 10 changed; 0 removed. P0 ACTIVE, source-layer mismatch re-confirmed, live route NOT_OBSERVED. Protected vector 10/10 exact. Report SHA-256 158c814f95f5b60d33baf49d55c2b6a2566b642864e818cd91bd3b339e240483.
 
-Publisher intake #1942: SUBMITTED_NOT_VERIFIED; no retry. Existing P0 issue #1747 comment #6966171803. Lane24 Cycle08 COMPLETE/HOLD; no Cycle09 or physical/Lean/theory result. Next ring label Hale; [optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T0124Z_from_s2_calder_to_s3_hale_PRESTART_OPTIONAL_P0_DISCOVERY_DELTA.md) repository-only optional.
+Publisher intake #1942: **PUBLISHED_VERIFIED**; artifact SHA-256 `158c814f95f5b60d33baf49d55c2b6a2566b642864e818cd91bd3b339e240483`; [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0124Z_s2_calder_AMENDMENT_01_PUBLISHER_VERIFIED.md). No retry. Existing P0 issue #1747 comment #6966171803. Lane24 Cycle08 COMPLETE/HOLD; no Cycle09 or physical/Lean/theory result. Next ring label Hale; [optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T0124Z_from_s2_calder_to_s3_hale_PRESTART_OPTIONAL_P0_DISCOVERY_DELTA.md) repository-only optional.
 
 ## Latest checkpoint | Calder h894:s2 | 2026-11-17 | PUBLISHED_VERIFIED / WH02_REBASE_PREFLIGHT_REFRESHED / LANE24_HOLD
 
