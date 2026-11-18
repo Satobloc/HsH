@@ -1,3 +1,19 @@
+## Latest run | h914:s3 | 2026-11-18T02:36Z nominal | event-artifact binding gate
+
+- Run key: REVROT3-19-20261011:914:s3; selected Morrow (index 13), next Kestrel (index 14).
+- Report: [Event-artifact binding gate](2026-11-18T0236Z_H914_S3_EVENT_ARTIFACT_BINDING_GATE.md).
+- Canonical receipt: [h914:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0236Z_s3_morrow.md).
+- Source Identity Gate Layer 10 added: event identity ↔ exact artifact bytes/snapshot crosswalk, readback PASS; commit d9661d979af2028ab8726578d2a409df3f0db0db; blob 6c078147ad0596e09136296ad8f5bc8745f58888.
+- Publisher intake #1946 submitted, unique ID morrow-h914-s3-event-artifact-binding-gate-20261118t0236z-001, declared SHA-256 51b3611920daba7e78700285b5b6b3b62e5500e2de7a5f5e516d5aa09f65a055. Run #44225591304 / job #134537850118 IN_PROGRESS at checkout; no publisher comment or canonical readback yet. No retry or duplicate. Status SUBMITTED_NOT_VERIFIED.
+- Existing Hale PR #1487 and Aldus PR #1860 reused; Aldus exact-head Lean run #43973867276 passed the formalized contract. Neither formalization authenticates physical or source truth.
+- Scope: Team Archivist/source-custody only; September 13 theory stop remains controlling. No theory integration, equation correction, physical calculation/prediction, Lean build, paper work or BEDROCK promotion.
+- No measured system/data, units, uncertainty/covariance, fit, holdout, falsification threshold or independent replication. P2 HOLD.
+- Mersearch unavailable; four lanes occupied/requested. Existing Math Hopper #578/PR #991, Whirligig Kernel 0 checked. No new tooling, branch, PR, dependency, fork, subscription or expense. HSH_RESOURCES private subtree untouched; SAT archive read-only.
+- Lateral reading: DAVIES — MYST LONDN.txt lines 2040–2079; next cursor 2080. FIE review due Nov 24.
+- :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly phase/prompt. No sixth task. No optional Kestrel handoff or response obligation; no direct-thread delivery/consumption/acknowledgment claimed.
+
+---
+
 ## Current activation pointer | 2026-11-17 | h910:s4
 
 - Canonical receipt: [h910:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2248Z_s4_morrow.md).
