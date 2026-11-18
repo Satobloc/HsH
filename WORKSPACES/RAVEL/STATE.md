@@ -1,12 +1,11 @@
 # 2026-11-18 14:48Z | h926:s4 | Ravel | Review-MIND
 
-- **Method:** comparison-freeze reproducibility does not imply causal identification. CF-1 refinement separates evidence genealogy, causal-interference neighborhood, communication/exposure-event graph and estimator-dependence graph; separates exposure mapping, outcome restrictions, target estimand/policy allocation and estimation design. ACE fixed-exposure vs ECE policy-averaged.
-- **Lean:** PR #1981 had two exact-head failures. Latest source head `26fdc510...` is in verification-trigger draft PR #1984; run #44332723367 exact-head checkout and Lake manifest PASS, compile IN_PROGRESS. No compile pass.
-- **Publication:** issue #1982 PUBLISHED_VERIFIED original snapshot; amendments/comments #6982489548, #6982586182, #6982652424, #6982701947; original digest unchanged.
-- **Cross-lane:** Mercer PR #1979 exact-head CI PASS; publisher #1980 rejected SHA.
-- **Scheduler:** live peek confirms :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` enabled/exact hourly ET :48. Current run `be134f75-cba0-8326-9643-da5f16e85574` in progress, no completion/chat_ref, cached h925:s4.
+- **Method:** comparison-freeze reproducibility does not imply causal identification. CF-1 separates evidence genealogy, causal-interference neighborhood, communication/exposure-event graph, and estimator-dependence graph; keeps exposure map, outcome restrictions, target estimand/policy and estimation design distinct. ACE fixed-exposure vs ECE policy-averaged.
+- **Lean:** PR #1981/#1984 exact-head runs #44332723367 and #44332897375 failed at compilation. Current PR #1984 head `7794e1db22220f34c83412ea266fbac4b5efb662` rewrites the Identified predicate; no Actions run on current head. **LEAN_NOT_VERIFIED**.
+- **Publication:** issue #1982 original snapshot exact-readback verified; latest public amendment #6983055197. Workspace report/receipt contain later amendments; no duplicate publisher submission.
+- **Scheduler:** :48 ID `6aa6c3bc02b48191b8a91a30d2a155e0` enabled, exact hourly ET :48 schedule. Current run `be134f75-cba0-8326-9643-da5f16e85574` started 15:18:37Z after the h926 report existed; IN_PROGRESS, no completion/chat_ref, cached h925:s4. Duplicate run-key reconciled, no repeat.
 - P0 ACTIVE; P1 Orson cognition OVERDUE/NOT READY/ORSON-OWNED; P2 HOLD; P3 INCOMPLETE; FIE next Nov24.
-- Next ring label Orson h927:s0; optional postnominal packet repository-only.
+- Next ring label Orson Vay h927:s0. No task, phase, cadence, ID, task-graph or theory mutation.
 
 ---
 
