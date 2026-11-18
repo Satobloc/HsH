@@ -22,6 +22,7 @@ import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.ThreeModelContrast
 import HsHVerification.DirectionalContrast
+import HsHVerification.ObservableFamilyAdmission
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
