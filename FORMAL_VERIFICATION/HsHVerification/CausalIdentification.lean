@@ -24,8 +24,8 @@ def observed (assignment : Bool) (p : PotentialOutcomes) : Bool :=
 
 /-- A deterministic unit-level treatment effect exists iff the two potential
     outcomes differ. -/
-def effect (p : PotentialOutcomes) : Prop :=
-  p.control ≠ p.treated
+def effect (p : PotentialOutcomes) : Bool :=
+  p.control != p.treated
 
 /-- A potential-outcome world is compatible with the observed assignment/outcome. -/
 def compatible (assignment outcome : Bool) (p : PotentialOutcomes) : Prop :=
@@ -33,9 +33,8 @@ def compatible (assignment outcome : Bool) (p : PotentialOutcomes) : Prop :=
 
 /-- The effect would be identified from this observation if all compatible
     potential-outcome worlds agreed on whether an effect exists. -/
-structure Identified (assignment outcome : Bool) : Prop where
-  agreement : ∀ (p q : PotentialOutcomes), compatible assignment outcome p → compatible assignment outcome q →
-    effect p ↔ effect q
+def Identified (assignment outcome : Bool) : Prop :=
+  ∃ e : Bool, ∀ p, compatible assignment outcome p → effect p = e
 
 /-- World in which treatment has no effect. -/
 def sameOutcomeWorld (outcome : Bool) : PotentialOutcomes :=
@@ -54,11 +53,11 @@ theorem alternative_world_matches_observation (assignment outcome : Bool) :
   cases assignment <;> cases outcome <;> simp [compatible, observed, alternativeWorld]
 
 theorem same_world_has_no_effect (outcome : Bool) :
-    ¬ effect (sameOutcomeWorld outcome) := by
+    effect (sameOutcomeWorld outcome) = false := by
   simp [effect, sameOutcomeWorld]
 
 theorem alternative_world_has_effect (assignment outcome : Bool) :
-    effect (alternativeWorld assignment outcome) := by
+    effect (alternativeWorld assignment outcome) = true := by
   cases assignment <;> cases outcome <;> simp [effect, alternativeWorld]
 
 /-- Non-identifiability: one observed binary outcome, even with assignment
@@ -67,11 +66,15 @@ theorem alternative_world_has_effect (assignment outcome : Bool) :
 theorem one_observation_does_not_identify_effect (assignment outcome : Bool) :
     ¬ Identified assignment outcome := by
   intro h
+  rcases h with ⟨e, he⟩
   have hSame := same_world_matches_observation assignment outcome
   have hAlt := alternative_world_matches_observation assignment outcome
-  have hAgreement : effect (sameOutcomeWorld outcome) ↔ effect (alternativeWorld assignment outcome) :=
-    h.agreement (sameOutcomeWorld outcome) (alternativeWorld assignment outcome) hSame hAlt
-  exact same_world_has_no_effect outcome (hAgreement.mpr
-    (alternative_world_has_effect assignment outcome))
+  have hNo := same_world_has_no_effect outcome
+  have hYes := alternative_world_has_effect assignment outcome
+  have hEq : effect (sameOutcomeWorld outcome) = effect (alternativeWorld assignment outcome) :=
+    (he (sameOutcomeWorld outcome) hSame).trans (he (alternativeWorld assignment outcome) hAlt).symm
+  have hFalseTrue : false = true := by
+    simpa [hNo, hYes] using hEq
+  cases hFalseTrue
 
 end HsHVerification.CausalIdentification
