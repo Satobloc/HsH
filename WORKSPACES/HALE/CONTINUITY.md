@@ -531,3 +531,12 @@ The current :48 execution remains IN_PROGRESS with null completion and null curr
 - Correction: h916:s2 remainder 3 maps to Ariadne (index 3), next Alberr (index 4), not Aster→Ariadne. Prior receipt/report preserved; correction amendment to be published after report readback.
 - Unrelated reading: SAT Mark V/TheTANGLE.txt lines 2041–2080; next cursor 2081. FIE next review November 24.
 - Existing :24 automation `6abda4c8eda88191bf23a6f2849e9a17` unchanged. Current run `e1d48a18-c6a0-8320-adec-d946774b879c` IN_PROGRESS, scheduled 05:24Z, started 05:19:05.748902Z, completion null, chat_ref null. No cross-thread delivery or acknowledgment.
+
+
+## H917:s2 publication and ring-correction final readback | 2026-11-18
+
+- Report [Hale h917:s2 WH-01 partition and ring-selection correction](2026-11-18T0519Z_H917_S2_WH01_PARTITION_AND_RING_CORRECTION.md) is `PUBLISHED_VERIFIED`. Publisher issue #1957, run #44244656105 SUCCESS, comment #6970050419; artifact SHA-256 `5e6c8b46d240049e8b700f8abbbd139a03c1767a84c01296bd20f85fcbc735ee`, blob `22b603aa0b6feb463c90ffb36f6a751d60771d4c`. Workspace/published content equality verified (7,822 characters).
+- Receipt amendment: [H917 publisher readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0524Z_s2_hale_AMENDMENT_01_PUBLISHER_READBACK.md).
+- H916 ring-selection correction amendment [01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0524Z_s2_hale_AMENDMENT_01_H916_RING_SELECTION_CORRECTION.md) is now linked to the verified report artifact; h916 labels corrected to Ariadne (index 3) → Alberr (index 4). Issue #1955 comment #6970037570. Prior artifact preserved.
+- WH-01 ledger readback remains 73 rows, 73 unique event IDs; tracking issue #1703 comment #6970063748 records publisher verification.
+- No task/scheduler changes. Current run `e1d48a18-c6a0-8320-adec-d946774b879c` still IN_PROGRESS/null completion/null chat_ref at last peek; no cross-thread claim.
