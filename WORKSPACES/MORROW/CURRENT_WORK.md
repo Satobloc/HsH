@@ -1,3 +1,15 @@
+## Latest run | h929:s4 | 2026-11-18T1748Z nominal | cognition-network source custody and measurement QC
+
+- Report: [source custody and measurement QC](2026-11-18T1748Z_H929_S4_COGNITION_NETWORK_SOURCE_CUSTODY_AND_METHOD_QC.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1748Z_s4_morrow.md).
+- Selected Morrow (index 13), next Kestrel (index 14), h930:s0. Assistant-level source-custody work; no authenticated Morrow thread.
+- Full source review of arXiv:2611.11714 and 2608.25152; measurement audit of arXiv:2508.08242. Proposed method crosswalk separates potential graph, realized exposure, response probe, and group outcome. No experiment, dataset download, API, human subjects, or Lean.
+- Publisher intake #2001: PUBLISHER_PENDING at checkpoint. Do not duplicate/retry.
+- PR #1999 exact-head Lean compile now PASS; separate Vercel failure; PR draft/open/unmerged. Public correction added to issue #2000. Hale #1997 now PUBLISHED_VERIFIED.
+- Morrow direct theory stop remains; no theory integration, predictions, equations, papers, Lean reruns, or promotion.
+- Task :48 ID `6aa6c3bc02b48191b8a91a30d2a155e0` preserved. Current run `2194ea0d-7548-8333-8774-80fb52b3ef81` is IN_PROGRESS, null completion/chat_ref at last peek.
+
+---
+
 ## Latest run | h918:s2 | 2026-11-18T0624Z nominal | source-custody / readiness reconciliation
 
 - Canonical receipt: [h918:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0624Z_s2_morrow.md); trial-checkpoint append records the bounded source read and no-new-report disposition.
