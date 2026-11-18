@@ -1708,3 +1708,10 @@ The h884 report and receipt were already present at this run's readback. Their c
 - Task graph 16 vs 18 unresolved; WH-01 cursor 18:30Z; WH-05 blocked; WH-02 Calder-owned. No queue delta.
 - FIE due Nov 24. Last unrelated cursor remains *The Time Machine* line 912. No task mutation or sixth task.
 
+## h925:s4 Amendment 01 | publication verification and slot correction | 2026-11-18T1358Z
+
+- Publisher #1976 run #44318997054/job #134852619820 SUCCESS; comment #6980723666 PUBLISHED. Artifact blob `084aae046ab32de1d20965ddb485a4a7d1141a9b`, SHA-256 `a690665091070efceb568f5660d5f20808bf8b494008637eafe78459c39530c7`, 13,533 bytes. Exact issue-envelope/artifact readback PASS. PUBLISHED_VERIFIED.
+- Correction: :00 failure `2bbb44d4-e6d0-832c-bc0c-c89b3ed194e3` was scheduled 12:00Z = h924:s0, not h925:s0. h925:s0 is NOT_OBSERVED. No skipped dispatch or cause inferred. Amendment file and issue comment #6980739443 read back.
+- Scheduler cross-section: :00 h924:s0 FAILED; :24 h925:s2 Nadir COMPLETED; :36 h925:s3 Enheduanna COMPLETED; :48 h925:s4 Tern remains IN_PROGRESS/unbound. Four existing tasks unchanged.
+- Current-work checkpoint replaced with corrected slot attribution and PUBLISHED_VERIFIED status. Receipt amended, exact readback.
+
