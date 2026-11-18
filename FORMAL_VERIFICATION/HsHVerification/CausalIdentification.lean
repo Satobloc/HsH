@@ -66,13 +66,14 @@ theorem alternative_world_has_effect (assignment outcome : Bool) :
 theorem one_observation_does_not_identify_effect (assignment outcome : Bool) :
     ¬ Identified assignment outcome := by
   intro h
-  unfold Identified at h
-  have hSame := same_world_matches_observation assignment outcome
-  have hAlt := alternative_world_matches_observation assignment outcome
-  have hAgreementFn :=
-    h (sameOutcomeWorld outcome) (alternativeWorld assignment outcome)
-  have hAgreement := hAgreementFn hSame hAlt
-  exact same_world_has_no_effect outcome (hAgreement.mpr
-    (alternative_world_has_effect assignment outcome))
+  have hAgreement :
+      effect (sameOutcomeWorld outcome) ↔
+        effect (alternativeWorld assignment outcome) :=
+    h (sameOutcomeWorld outcome)
+      (alternativeWorld assignment outcome)
+      (same_world_matches_observation assignment outcome)
+      (alternative_world_matches_observation assignment outcome)
+  exact (same_world_has_no_effect outcome)
+    (hAgreement.mpr (alternative_world_has_effect assignment outcome))
 
 end HsHVerification.CausalIdentification
