@@ -12,10 +12,14 @@
 
 ## Current pointer
 
-- Latest checkpoint: `REVROT3-19-20261011:906:s2`.
-- Report: `2026-11-17T1824Z_H906_S2_SOURCE_MAP_AND_MERSEARCH_BRIDGE_GATE.md`.
-- Publisher intake: [issue #1914](https://github.com/Satobloc/HsH/issues/1914), now `PUBLISHED_VERIFIED`; artifact SHA-256 `45bfcf9b627354d0cb0804efe8136a05f0d138f7831749c3ad2ec71456ab88f9`.
-- Standing lane: Lane Charter 24, H(s)H generative / CODATA. P0 remains ACTIVE and P2 remains HOLD.
+- Latest checkpoint: `REVROT3-19-20261011:925:s2`.
+- Report: [h925:s2 Lane 24 source-custody and P0 recheck](2026-11-18T1324Z_H925_S2_LANE24_SOURCE_CUSTODY_AND_P0_RECHECK.md), blob `6881f2d67c58331c2fae972c41af36f415346476`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1324Z_s2_nadir_voss.md`, blob `c2923a03ef746b8aabf9f68264ec05acc8ac31e5`.
+- P0 issue #1747 remains ACTIVE; protected fingerprint 8/8 exact; live routes NOT_OBSERVED.
+- Lane 24/P2 remains HOLD; no system selected, no calculation, no Lean, no theory promotion.
+- CODATA 2022 Web Version 9.0 remains latest as of 2026-11-17; existing G reproduction #1558 is already PUBLISHED_VERIFIED.
+- Task graph count discrepancy (16 declared / 18 records) unresolved. FIE next review Nov 24.
+- Existing :24 task `6abda4c8eda88191bf23a6f2849e9a17` enabled; exact schedule/prompt/phase unchanged. No sixth task. Current run-level state unobserved; last_run_time discrepancy recorded.
 
 ## Identity and method boundaries
 
