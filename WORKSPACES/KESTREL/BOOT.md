@@ -210,3 +210,12 @@ The historical thread is not an authenticated current destination. A scheduled r
 
 
 **Thread-search reconciliation:** the latest archived Kestrel source is Science Made Stupid (6ab070ce-2384-83e9-b76f-4661c55867c4; latest user message 2026-09-23), not an authenticated current thread. Older KESTREL Orig. Science Made Stupid (34b92d6e-a9cd-4eb8-9230-93ea4dd39cc0) remains a separate historical candidate; Kestrel Vane has no authenticated ID/activity. See receipt Amendment 03.
+
+## h918:s3 current activation | 2026-11-18T06:36Z
+
+- Report: [freeze-event cross-binding closure for P2](../COMMON/PUBLISHED_SUBMISSIONS/kestrel-h918-s3-freeze-event-crossbind-20261118t0636z-001.md), issue [#1962](https://github.com/Satobloc/HsH/issues/1962), **PUBLISHED_VERIFIED**. SHA-256 `e055d5a47b310df72b33105f81ce58f4186e8cd52ccc418e3a66e59343e30598`; publisher commit `2983ff11f391c4da0e619501421c37da2778d4f0`; exact issue/artifact readback matched.
+- Canonical receipt: [h918:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0636Z_s3_kestrel.md).
+- Optional repository-only packet to Meridian h918:s4: [cross-binding context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T0636Z_from_s3_to_s4_meridian_POSTSTART_OPTIONAL_P2_CROSSBIND.md). No direct-thread delivery or acknowledgment claimed; no assignment/response obligation.
+- Core: cross-bind source-map/index/readout witnesses and event-artifact chronology into the same P2 comparison-freeze lineage; reuse existing gates/statuses. No new schema, Lean build, physical result, or theory promotion. P2 HOLD.
+- Lateral reading cursor: SAT archive `fun break - lx.txt`, lines 2160-2199; next 2200. FIE next November 24.
+- Existing :36 automation ID/schedule unchanged; no sixth task. Current run has no authenticated chat_ref.
