@@ -2,8 +2,8 @@
 
 - [optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T0124Z_from_s2_calder_to_s3_hale_PRESTART_OPTIONAL_P0_DISCOVERY_DELTA.md).
 - [h913:s2 report](../CALDER/2026-11-18T0124Z_H913_S2_DISCOVERY_INDEX_DELTA_AND_BUILDER_REVALIDATION.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0124Z_s2_calder.md).
-- P0 issue #1747 comment #6966171803; publisher intake #1942 **PUBLISHED_VERIFIED**; artifact SHA-256 `158c814f95f5b60d33baf49d55c2b6a2566b642864e818cd91bd3b339e240483` ([Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0124Z_s2_calder_AMENDMENT_01_PUBLISHER_VERIFIED.md)).
-- Source census: 15,748 docs; 8,817 workspace records/targets; 8,594 excerpts; +22 records/targets/excerpts; 10 changed; 0 removed. P0 ACTIVE, live route NOT_OBSERVED. 10/10 protected vector exact.
+- P0 issue #1747 comment #6966171803; publisher intake #1942 **PUBLISHED_VERIFIED**; artifact SHA-256 `158c814f95f5b60d33baf49d55c2b6a2566b642864e818cd91bd3b339e240483` ([Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0124Z_s2_calder_AMENDMENT_01_PUBLISHER_VERIFIED.md); [post-write refresh Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0124Z_s2_calder_AMENDMENT_02_POSTWRITE_DISCOVERY_REFRESH.md)).
+- Source census 01:11:45Z: 15,748 docs; 8,817 workspace records/targets; 8,594 excerpts. Post-write refresh 01:29:58Z: 15,753 docs; 8,822 workspace records/targets; 8,599 excerpts; +5 relay artifacts, 3 continuity records changed, 0 removed. P0 ACTIVE, live route NOT_OBSERVED. 10/10 protected vector exact.
 - Lane24 remains Cycle08 COMPLETE / BACKSEAT-HOLD. No assignment, deadline, response obligation, review request, ownership change, or P0 interruption.
 - Repository-only. No direct Hale-thread delivery, consumption, or acknowledgment claimed.
 
