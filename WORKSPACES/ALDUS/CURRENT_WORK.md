@@ -737,3 +737,12 @@ Tern Observation 026 Amendment 01 narrows the initial :36 future-dated descripti
 - Next ring label: Calder. No assignment or handoff created.
 - Earlier exact-ID peek confirmed the :24 task enabled with its original schedule. A later exact-ID peek returned not found/not accessible and the get action returned 404 before invocation; this does not establish deletion, disablement or rescheduling. No task mutation or replacement occurred; final enabled-state reconfirmation is unavailable. No sixth task.
 
+
+
+## 2026-11-18T1236Z | h924:s3 | transfer-admissibility routes
+- Report: [h924:s3](./2026-11-18T1236Z_H924_S3_TRANSFER_ADMISSIBILITY_ROUTE_GATE.md), blob `e632ab4fefc1353f7e6c05cc26e53fbb3f8727da`, exact readback.
+- Receipt: [h924:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1236Z_s3_aldus.md); optional Calder context [packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1236Z_from_s3_to_s4_calder_POSTSTART_OPTIONAL_TRANSFER_ADMISSIBILITY.md), repository-only.
+- New lane refinement: transfer routes separated into deterministic factorization, stochastic kernel composition, and latent-state forward prediction; no new status/gate. PR #873 current exact head CI #44090154878 PASS; open/draft/unmerged. No new Lean run.
+- P2 HOLD; no physical system/data/fit/prediction. No theory or equation promotion.
+- Public issue #1971 checksum corrected to `87b7c2564dc56992ef37fc20200c95d0715dcfff7a51b96e7578a25affaca69d`; publisher rejected initial envelope; issue body readback exact, but no artifact/retry/duplicate. SUBMITTED_NOT_VERIFIED.
+- WH-01: ledger 73→75, two verified checkout events; queue note readback; cursor remains 18:30Z. Current :36 automation unchanged.
