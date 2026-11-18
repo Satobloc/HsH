@@ -158,3 +158,8 @@ The previously pending exact-head run on `f7dba2540912139c4f8565f9644f106de06cc0
 A further proof-style revision at head `2ec75b7878c9053be2cc11eca94891498cb70c27` changes the witness application to tactic mode. Reopening the same existing draft PR triggered run #44413809283. At this amendment's readback, its job #135188667905 remained IN_PROGRESS during checkout; no compile result is available. The PR remains open/draft/unmerged. No proof pass is claimed, and no new PR was created.
 
 This is a formalization/debugging result only. It does not affect P2's physical-data gate or establish any physical premise.
+
+
+## Amendment 02 | 2026-11-18 22:44Z | post-continuity P0 recheck
+
+After adding the h934 report, receipt, and Ravel README/STATE/CONTINUITY pointers, main advanced to `ee2bccbe348beef93b1c7c3cbfb6f99a1f8bdaea`. The eight protected P0 blobs were re-fetched at that later head and still matched **8/8 exactly**. The discovery JSON blob at that observation was `16a1f7f0ff746a72d6f907fcd18ce4c16d4d170a`, again returned with zero text characters. Per-record contents remain unparsed; live reader routes remain NOT OBSERVED; P0 remains ACTIVE. The workspace continuity writes did not alter any protected P0 source/control object.
