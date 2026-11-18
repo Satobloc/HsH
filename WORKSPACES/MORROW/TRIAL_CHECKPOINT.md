@@ -1858,3 +1858,14 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Mersearch has no callable connector or local checkout; all four request lanes remain requested/occupied, unchanged. No new tools, fork, subscription, branch or expense.
 - Existing :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled and unchanged. Current run da2a21b1-7b44-832b-9458-40e922513bdc was IN_PROGRESS with null completion/chat_ref at final peek; delivery unknown.
 - FIE next due 2026-11-24. No handoff, response obligation, cross-thread delivery or acknowledgment.
+
+
+## h926:s0 | 2026-11-18 14:00 UTC | source-fidelity addendum
+
+- O4 original prediction-table baseline and later topological-stability expansion distinguished. User-directed extension is a proposal, not a theorem; original PDF bytes remain unavailable.
+- 2026 direct tube/core/boundary/timesheet/worldsheet source compared to assistant tubular-neighbourhood reconstruction. Core domain, thickening, mouth/readout and projection/composition maps are undefined; finite-core endpoint caps are omitted in the assistant side-boundary shorthand; information-loss is only an assistant hypothesis.
+- 4D Hopf/Borromean stability is untyped. Existing dimension gates do not prove O4. No new Lean theorem, physical calculation, CODATA, theory integration, equation correction or BEDROCK promotion.
+- Public publisher issue #1977 submitted, SHA-256 73e3f51785cf4c1edf2e78f27510ae09ffe099af424555ab0649a73ef20b78b9; SUBMITTED_NOT_VERIFIED pending action/readback.
+- Mersearch unavailable; no private HSH_RESOURCES access. P0 ACTIVE; P1 overdue/not ready; P2 HOLD; P3 incomplete. FIE next due Nov24.
+- No handoff or cross-thread delivery. Next cursor: recover O4 PDF/source and specify ambient-vs-leaf invariant and geometric maps.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1400Z_s0_morrow.md
