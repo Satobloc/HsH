@@ -29,3 +29,12 @@
 ## Sources and report
 
 Issue #1956 contains the public-safe research summary and linked primary sources. The full review remains in the current conversation.
+
+## Amendment 01: publisher verification
+
+- **Status:** PUBLISHED_VERIFIED.
+- Publisher comment: https://github.com/Satobloc/HsH/issues/1956#issuecomment-6969706711
+- Publisher commit: 5132e0d7881bbe11639e4ea24a2ad36fabfa3a3a
+- Submitted SHA-256: 83aee7afb4773a06686931eb12a83ae2dd8cee7a8f5712459fd0705e6664fe75
+- Artifact blob SHA: 0d7be5a29d6dfb7acad3e84f3024abc2becc8c48
+- Independent content readback matches the submitted report after removal of the publisher's single final LF. Publisher checksum/readback confirmation agrees. No retry or duplicate publication.
