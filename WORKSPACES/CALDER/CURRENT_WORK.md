@@ -6,7 +6,7 @@
 - No Lean compile, new PR or tooling. Existing generic set/fiber/feature-necessity work reused; abstract set target is not physical.
 - P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P3 INCOMPLETE. FIE next Nov 24.
 - WH-01 cursor 18:30Z; 21 records remain in 18:40 partition. WH-02 PR #1710 remains Calder-owned. WH-05 Mersearch unavailable/lanes occupied. Task graph discrepancy unresolved.
-- Next: Hale h928:s4, optional packet prepared. No direct-thread delivery or acknowledgment.
+- Next: Hale h928:s4. Initial packet was prestart; publisher-status correction was poststart optional context only. No direct-thread delivery or acknowledgment.
 - Existing :36 task ID 6a9f52b69ec08191b8a91a30d2a155e0 unchanged and enabled; hourly America/New_York :36. Current run 454ec454-3ef4-832b-94c2-a8cca2b2f9ca IN_PROGRESS at readback. No sixth task.
 
 ---
