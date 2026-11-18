@@ -4,7 +4,7 @@ Current return: [CURRENT_WORK.md](CURRENT_WORK.md), h928:s3. [Report](2026-11-18
 
 New crosswalk freezes the source-admissible standard comparator family, applicability, nuisance/parameter ranges and model-envelope/selection rule on calibration before holdout. This is a D-axis refinement of P2 #1855, not a new gate. P2 remains HOLD; no physical result or Lean compile.
 
-Publisher intake #1993 is SUBMITTED / PENDING. Digest 3599215eab8bd00df1dd856519624ce1ba0e09c297e0f67925bc8388c222d026; do not retry or duplicate. Verify publisher comment and canonical readback.
+Publisher intake #1993 was REJECTED SHA mismatch; canonical artifact absent. Correct exact-content SHA: 5a8a606c70a97816942aa5b11c7aba514134d6630cd49b27983db5396648b9bd. See [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1636Z_s3_calder_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md). No retry or duplicate.
 
 Next label Hale h928:s4; optional repository-only packet prepared. No direct-thread delivery or acknowledgment claimed.
 
