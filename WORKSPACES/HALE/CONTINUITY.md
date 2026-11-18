@@ -598,3 +598,15 @@ Issue #1996 comment #6985679896 was edited to correct a missing issue number in 
 ### H928:s4 amendment 04 - corrected intake exact readback
 
 Issue #1997 body independently fetched/parsed; content exactly matches workspace report and correct SHA-256 8bed59ab09f6b0b39f97ad2a2e943a738adaa7b323c5b4bd49f517a360a2f1e4. #1996 rejection and corrected comment read back. #1997 remains SUBMITTED_NOT_VERIFIED: no publisher comment, artifact 404, no publisher commit located. No further retry. Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1648Z_s4_hale_AMENDMENT_04_CORRECTED_INTAKE_READBACK.md.
+
+
+## 2026-11-18T2036Z | H932:S3 | Candidate Figshare access-state ladder
+
+- Report: [H932:s3 candidate access ladder](2026-11-18T2036Z_H932_S3_FIGSHARE_CANDIDATE_ACCESS_LADDER.md), blob `58b7852b4fbf39a8fec310b6455f32aacf34c559`, SHA-256 `84bc2de50faa96dea9afbbb3ec06b93bef6901a0c3e369afbbb82892afb5d7d1`, 6,619 UTF-8 bytes; exact readback PASS.
+- Publisher intake #2012, submission `hale-h932-s3-figshare-access-ladder-20261118t2036z-001`, currently SUBMITTED_NOT_VERIFIED; no publisher comment/artifact readback yet. P2 matrix #1855 comment #6991210970 readback PASS.
+- Improvement: add an access-stage ladder to the P2 candidate workflow so DOI locator, runtime resolution, pinned metadata/version, inventory, raw acquisition/hash, structure, lineage, holdout and prediction readiness remain separate. No new gate/schema.
+- Figshare DOI `10.6084/m9.figshare.30903347` is locator-confirmed by the Nature Physics data statement. Landing/API web-open attempts failed at runtime; no HTTP GET, metadata or raw files were acquired. This is not evidence of dataset unavailability.
+- P2 HOLD; no physical calculation, fit, prediction, threshold, independent measurement, Lean theorem/build, equation change or BEDROCK promotion. Mersearch unavailable; four lanes occupied/requested; no request changed.
+- WH-01 cursor 18:50Z / 77 rows; WH-02 PR #1710 Calder-owned; WH-05 blocked at Tern release gate. Task graph 18 records / 16 declared branches unresolved. P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P3 INCOMPLETE; FIE next Nov 24.
+- No actionable Elias Kern handoff or assignment; no cross-thread delivery/consumption/acknowledgment. Existing :36 task ID and schedule preserved; no task mutation or sixth task.
+- Next: attempt Figshare metadata/version with a network-capable client, then inventory and hash raw files before analysis. Keep current R1 runtime-blocked state until an actual response is recorded.
