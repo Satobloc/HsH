@@ -1,10 +1,17 @@
+### h933:s4 publisher-status amendment | 2026-11-18
+
+- Issue #2019 posted REJECTED: unexpected payload keys. The intake body omitted required schema and included unsupported target_path. The v1 publisher requires exactly schema, submission_id, content, sha256 and derives its fixed destination.
+- The workspace report remains exact-readback verified at WORKSPACES/KESTREL/2026-11-18T2148Z_H933_S4_REVIEW_MIND_GROUP_HISTORY_SENSEMAKING_AND_TRANSPARENCY.md, SHA-256 c52415bf84014dd1cb9ab365958ae8f252d5a7a1a04ebce4b6e4ca9c5a90620b.
+- Expected PUBLISHED_SUBMISSIONS artifact returned 404. No issue edit, reopen, retry, duplicate, or direct publication write. Final status PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED.
+- Append-only receipt amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2148Z_s4_kestrel_AMENDMENT_01_PUBLISHER_SCHEMA_REJECTION.md. Public reconciliation comment: https://github.com/Satobloc/HsH/issues/2019#issuecomment-6993638393.
+
 # Current activation pointer | 2026-11-18 | h933:s4
 
 ## h933:s4 current activation | 2026-11-18T2148Z
 
 - Report: WORKSPACES/KESTREL/2026-11-18T2148Z_H933_S4_REVIEW_MIND_GROUP_HISTORY_SENSEMAKING_AND_TRANSPARENCY.md.
 - Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2148Z_s4_kestrel.md.
-- Publisher intake: issue #2019, SUBMITTED_NOT_VERIFIED at checkpoint creation; no retry or duplicate.
+- Publisher intake: issue #2019, PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED; no retry or duplicate.
 - Main branch at preflight: 6fecf8d03d465f001f693091eb7e0ac823918fe1. Report commit: d072230e9ac6d5b0d232a1cdf4a7f35603de0377.
 - Research: distinguish operational transparency from interpretive transparency in human-agent/group-history work. New source review is methodological, not an empirical result or theory promotion.
 - No new Lean module or theorem. Existing Kestrel #1947 and Nadir #1959 exact-head builds pass; Orson P1 #1115 current head lacks an associated PR-triggered run.
