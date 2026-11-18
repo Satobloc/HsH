@@ -33,9 +33,10 @@ def compatible (assignment outcome : Bool) (p : PotentialOutcomes) : Prop :=
 
 /-- The effect would be identified from this observation if all compatible
     potential-outcome worlds agreed on whether an effect exists. -/
-structure Identified (assignment outcome : Bool) : Prop where
-  agreement : ∀ (p q : PotentialOutcomes), compatible assignment outcome p → compatible assignment outcome q →
-    effect p ↔ effect q
+/-- An observation identifies the effect when all compatible worlds agree. -/
+def Identified (assignment outcome : Bool) : Prop :=
+  ∀ (p q : PotentialOutcomes), compatible assignment outcome p →
+    compatible assignment outcome q → effect p ↔ effect q
 
 /-- World in which treatment has no effect. -/
 def sameOutcomeWorld (outcome : Bool) : PotentialOutcomes :=
