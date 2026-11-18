@@ -92,7 +92,7 @@ A deliberate unrelated source break continued DAVIES, \`MYST LONDN\`, lines 2080
 
 ## Publication
 
-<badge> PUBLISHED_VERIFIED </badge>
+**PUBLISHED_VERIFIED**
 
 Existing publisher intake: [issue #1943](https://github.com/Satobloc/HsH/issues/1943), submission ID `elias-h913-s4-receipt-timestamp-mutation-probe-20261118t0148z-001`.
 
