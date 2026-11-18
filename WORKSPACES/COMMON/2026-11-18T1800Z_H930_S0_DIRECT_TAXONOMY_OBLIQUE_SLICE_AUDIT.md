@@ -93,12 +93,12 @@ This is a standard-coordinate reconstruction extending the existing yz-plane spe
 
 Let the helix axis make angle `alpha` with the z-normal of the laboratory slicing plane, with azimuth `beta`:
 
-- `a = (sin(alpha) cos(beta), sin(alpha) sin(beta), cos(alpha)`)
-- `b = (cos(beta), sin(beta))` is the transverse axis direction in the slice;
-- `e1 = (-sin(beta), cos(beta))` is the in-plane perpendicular;
+- `a = (sin(alpha) cos(beta), sin(alpha) sin(beta), cos(alpha))`)
+- `b = (cos(beta), sin(beta), 0)` is the projected transverse-axis direction in the slice;
+- `e1 = (-sin(beta), cos(beta), 0)` is the in-plane perpendicular;
 - `e2 = (-cos(alpha) cos(beta), -cos(alpha) sin(beta), sin(alpha))` completes an orthonormal frame around `a`.
 
-A helix of radius `r`, axial pitch `p=2*pi/k`, and phase `theta=k*s+phi` is `C(s)=s*a+r(cos(theta)e1+sin(theta)e2)`. Intersect with the fixed laboratory plane `z=Z`. The axis intersection/center is `A(Z)=(Z tan(alpha) b, Z)`. Relative in-plane coordinates are:
+A helix of radius `r`, axial pitch `p=2*pi/k`, and phase `theta=k*s+phi` is `C(s)=s*a+r(cos(theta)e1+sin(theta)e2)`. Intersect with the fixed laboratory plane `z=Z`. The axis intersection/center is `A(Z)=(Z tan(alpha) cos(beta), Z tan(alpha) sin(beta), Z)`. Relative in-plane coordinates are:
 
 `u = e1 . (C-A) = r cos(theta)`
 
@@ -116,7 +116,7 @@ Phase rate is nonuniform when tilted:
 
 `dtheta/dZ = k sec(alpha)/(1+chi cos(theta))`.
 
-For `|chi|<1`, the maximum/minimum phase-rate ratio is `(1+|chi|)/(1-|chi|)`. Thus the ellipse's shape distortion is controlled by `sec(alpha`, while phase-rate modulation/unique-intersection behavior is controlled by `chi`, which also depends on `r/p`. A small tilt can be visually near-circular while phase-rate modulation is appreciable for a tight helix. This is a mathematical consequence, not an empirical claim.
+For `|chi|<1`, the maximum/minimum phase-rate ratio is `(1+|chi|)/(1-|chi|)`. Thus the ellipse's shape distortion is controlled by `sec(alpha)`, while phase-rate modulation/unique-intersection behavior is controlled by `chi`, which also depends on `r/p`. A small tilt can be visually near-circular while phase-rate modulation is appreciable for a tight helix. This is a mathematical consequence, not an empirical claim.
 
 For the aligned case `alpha=0`, `chi=0`, the locus is a circle of radius `r` and `dtheta/dt=k V_z=2*pi*V_z/p`; the radius is independent of pitch and plane speed.
 
@@ -124,7 +124,7 @@ For the aligned case `alpha=0`, `chi=0`, the locus is a circle of radius `r` and
 
 A SymPy 1.14 symbolic check in the current runtime simplified the arbitrary-azimuth ellipse residual to exactly zero and verified the phase derivative denominator. No numerical physical fixture, observed system, measurement, fit, or CODATA comparison was used.
 
-Existing [Kestrel PR #873](https://github.com/Satobloc/HsH/pull/873) already formalizes the special tilted-slice ellipse, non-circle condition, diagonal-slope correction, and selected intersection conditions. Its latest recorded exact-head run in Kestrel BOOT is #44090154878, SUCCESS on head `94b6d96c91806a95505260a3c52220f4af294185`, Lean 4.34.0; PR remains OPEN/DRAFT/UNMERGED. The prior [H929 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/h929-s0-geometry-fidelity-cross-era-20261118-1800z-001.md) is now PUBLISHED_VERIFIED at [issue #1998](https://github.com/Satobloc/HsH/issues/1998). The general-azimuth extension is not in that module. Local Lean/Lake/Elan are absent; no new Lean theorem, PR, or build was performed. Existing proof checks only the encoded conditional mathematics, not source translation or physical premises.
+Existing [Kestrel PR #873](https://github.com/Satobloc/HsH/pull/873) already formalizes the special tilted-slice ellipse, non-circle condition, diagonal-slope correction, and selected intersection conditions. Its latest recorded exact-head run in Kestrel BOOT is #44090154878, SUCCESS on head `94b6d96c91806a95505260a3c52220f4af294185`, Lean 4.34.0; PR remains OPEN/DRAFT/UNMERGED. The prior [H929 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/h929-s0-geometry-fidelity-cross-era-20261118-001.md) is now PUBLISHED_VERIFIED at [issue #1998](https://github.com/Satobloc/HsH/issues/1998). The general-azimuth extension is not in that module. Local Lean/Lake/Elan are absent; no new Lean theorem, PR, or build was performed. Existing proof checks only the encoded conditional mathematics, not source translation or physical premises.
 
 ## Discrepancy ledger
 
@@ -132,7 +132,7 @@ Existing [Kestrel PR #873](https://github.com/Satobloc/HsH/pull/873) already for
 - D02: radius `r` vs pitch/speed (assistant corrected by Nathan).
 - D03: tilted fixed-plane trace ellipse vs assistant circular claim.
 - D04: dimensionally invalid angle-vs-pitch premise; missing `chi` gate.
-- D05: center translation `tan(alpha` / general slope factor vs assistant's unqualified speed equality.
+- D05: center translation `tan(alpha)` / general slope factor vs assistant's unqualified speed equality.
 - D06: 4D ambient wavefront vs 3D hypersurface “now” typing.
 - D07: interaction complexity vs intersectional manifestation.
 - D08: direct bundle/rope scale refinements and morphologies not closed by maps.
