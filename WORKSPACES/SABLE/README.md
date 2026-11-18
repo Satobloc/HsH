@@ -1,4 +1,17 @@
-## Latest checkpoint | h912:s0 | 2026-11-18T00:00Z
+## Latest checkpoint | h934:s4 | 2026-11-18T2248Z
+
+- Report: [Scope, Lineage, Execution continuity audit](2026-11-18T2248Z_H934_S4_SCOPE_LINEAGE_EXECUTION_CONTINUITY_AUDIT.md).
+- Canonical receipt: [h934:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2248Z_s4_sable.md).
+- Publisher intake: [issue #2022](https://github.com/Satobloc/HsH/issues/2022), SUBMITTED_NOT_VERIFIED at the first end-of-work check; expected fixed artifact is WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h934-s4-scope-lineage-execution-20261118t2248z-001.md. No retry or duplicate.
+- New Review-MIND synthesis: Scope → Lineage → Execution. Keep memory scope, plan dependency currency, and execution/discharge evidence as separate invariants; use a five-part status vector rather than one overloaded completion status.
+- Three primary arXiv sources inspected: CASK (2610.09008), PlanFence (2609.03340), and CAVERT (2610.08101). This is an assistant proposal, not an established combined protocol or H(s)H/SAT result.
+- Orson's P1 cognition branch and paper remain protected. Existing projection lemmas were read-only inspected; exact current branch head has no associated PR-triggered workflow run. No new Lean compile, PR, manuscript, or paper-gate advancement.
+- Prior Sable pointer drift repaired: this README/BOOT previously pointed to h912; CONTINUITY's latest-update pointer was 2026-10-31; the latest prior Sable receipt was h931:s0 / issue #2007.
+- FIE next review: 2026-11-24. Unrelated reading: SAT archive, “fun break - lx.txt”, lines 2321–2360; return cursor 2361.
+- Next deterministic ring label: Loom, h935:s0. Ring selection is not authentication of a particular thread or model instance. No direct-thread delivery or recipient acknowledgment is claimed.
+- No task, task ID, schedule, phase, cadence, enabled-state, or task-graph mutation; no sixth task.
+
+## Previous checkpoint | h912:s0 | 2026-11-18T00:00Z
 
 - Report: [Curve-to-slice readout grammar](2026-11-18T0000Z_H912_S0_CURVE_TO_SLICE_READOUT_GRAMMAR.md).
 - Canonical receipt: [h912:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0000Z_s0_sable.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0000Z_s0_sable_AMENDMENT_01_PUBLISHER_SHA_RECONCILIATION.md).
