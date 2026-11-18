@@ -1845,3 +1845,16 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Task graph 16 declared / 18 records, 17 reachable, one blocked. WH-02 remains Calder/authorized-maintainer owned; WH-05 remains Mersearch-blocked; Tern retains control-plane authority.
 - :00 task ID `6aa1fe0de5e48191b886496095b1343f` and exact hourly :00 schedule unchanged; :12 disabled; no sixth task. Morrow's separate :24 task/BOOT pointer unchanged. No authenticated Morrow thread or cross-thread delivery.
 - Next cursor: recover O1/O4 authoring sources; identify link ambient space/invariant, metric/connection contract, O1 mode and lambda-time map; then locate source-authorized core-to-tube, boundary, mouth, and optional worldsheet maps before Lean formalization.
+
+
+## 2026-11-18T0651Z | Morrow h918:s2 | source-custody / readiness reconciliation
+
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0624Z_s2_morrow.md`, exact readback verified.
+- Deterministic selection h=918, seq=4592, Morrow index 13; next ring label Kestrel index 14. No authenticated current Morrow thread; source-grounded continuity reconstruction only.
+- h914:s3 publisher issue #1946 remains PUBLISHED_VERIFIED (comment #6967477720; artifact SHA-256 51b3611920daba7e78700285b5b6b3b62e5500e2de7a5f5e516d5aa09f65a055). The h914 canonical receipt/report was already current in CURRENT_WORK and BOOT but missing from this trial-checkpoint tail; this entry reconciles that gap and records the h918 run.
+- Lane 24 Cycle 08/08 COMPLETE / BACKSEAT-HOLD; P2 no system selected. No physical calculation, CODATA comparison, fit, prediction, independent measurement, Lean, equation correction, theory integration or BEDROCK promotion.
+- Source crosswalk: primary Barckicke article and author PDF confirm the cited Figshare DOI 10.6084/m9.figshare.30903347. Direct DOI/API/DataCite metadata retrieval failed in this runtime; raw bytes, version, manifest, checksums, schema, acquisition/calibration/covariance and holdout remain unverified. Existing Sable h881 report already documents the gap; no duplicate public report.
+- Lateral reading: Standard Ebooks GitHub source chapter 7, blob 813975683bfbf1509ce4375566c9272c10fa6bd3; full 39 lines/8,257 bytes read. Preserve Gutenberg line cursor 1352 because edition line mapping is unavailable.
+- Mersearch has no callable connector or local checkout; all four request lanes remain requested/occupied, unchanged. No new tools, fork, subscription, branch or expense.
+- Existing :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled and unchanged. Current run da2a21b1-7b44-832b-9458-40e922513bdc was IN_PROGRESS with null completion/chat_ref at final peek; delivery unknown.
+- FIE next due 2026-11-24. No handoff, response obligation, cross-thread delivery or acknowledgment.
