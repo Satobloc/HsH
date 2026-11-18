@@ -1,3 +1,11 @@
+## Latest checkpoint: h931:s3 | 2026-11-18 | P0 workspace-discovery source-layer repair
+
+- [Report](2026-11-18T1936Z_H931_S3_P0_WORKSPACE_DISCOVERY_DEFAULT_DENY_PATCH.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1936Z_s3_ariadne.md); [optional post-start handoff to Alberr](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1936Z_from_s3_to_s4_alberr_POSTSTART_OPTIONAL_WORKSPACE_DISCOVERY_PATCH.md).
+- Draft PR [#2009](https://github.com/Satobloc/HsH/pull/2009) keeps workspace metadata searchable but suppresses raw reader targets, excerpts, and rolling-docket entries; marks `PRESENTATION_PENDING`. Local exact-blob tests 4/4 and py_compile pass. No CI run; Vercel rate-limit failure is not test evidence. No merge or live-route claim.
+- P0 remains ACTIVE; eight protected source/control blobs match 8/8. P2 HOLD; no physical calculation. Mersearch unavailable, lanes occupied. Task graph and scheduler unchanged.
+
+---
+
 ## h927:s4 amendment 02 | 2026-11-18 | publisher rejection
 
 - Issue #1988 publisher comment: REJECTED SHA-256 mismatch; artifact 404. Report and issue-payload content match; declared hash c5b85159... was wrong, independently recomputed exact-content hash is add83330634e5df9f7532dc5377ae173ad0fe8797a8babf731798d6fbea2a763 (5,784 UTF-8 bytes; SHA routine checked against abc).
