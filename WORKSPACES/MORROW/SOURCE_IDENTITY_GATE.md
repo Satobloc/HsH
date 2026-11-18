@@ -117,3 +117,51 @@ Required event/artifact tuple:
 Append-only event records preserve corrections as new linked records. Do not infer timestamp, actor, independence, completeness, or causal role from filename, issue number, run label, or hash alone. A prediction digest establishes byte identity, not generation time or holdout isolation. Incomplete access history remains UNKNOWN.
 
 Suggested status vocabulary, on independent axes: EVENT_ARTIFACT_UNBOUND, EVENT_ARTIFACT_IDENTITY_VERIFIED, PREDICTION_BYTES_VERIFIED, SEAL_TIME_ORDER_VERIFIED, HOLDOUT_ACCESS_HISTORY_UNKNOWN, HOLDOUT_ACCESS_HISTORY_VERIFIED, EVALUATION_RESULT_BOUND, REPLICATION_LINEAGE_VERIFIED. Use VERIFIED only for the specific evidence actually checked. These statuses are operational evidence labels, not theory authority or empirical validation.
+
+
+## Layer 11 — Speaker-role / person-identity attribution
+**Introduced:** h933:s3, 2026-11-18. This is an additive source-custody requirement; it does not renumber or replace Layers 1-10.
+
+A raw conversation export can establish the role value recorded for a message without independently authenticating the real-world person behind that role. Keep the exported speaker role, any author-name field, the project's role-to-person attribution convention, external identity authentication, and present runtime/thread identity as separate evidence axes.
+
+For each archived message used to establish a direct instruction, role, preference, correction, or authority claim, preserve:
+
+1. The Layer 8 snapshot tuple, source conversation ID, raw path, node key, embedded message ID, and node/message-key agreement or mismatch.
+2. Exact `author.role` value from the message record.
+3. Exact `author.name` value, including `null`; never fill a missing name from context.
+4. Exact `message_source` or equivalent field when present; preserve absent/null separately from a value.
+5. Message-level `create_time`, source field and unit; keep conversation-level `create_time` and `update_time` separate.
+6. The archive role-to-person convention actually applied, with its controlling source/version.
+7. External identity-authentication status, independently of the archive convention.
+8. Copy/duplicate/snapshot relations: same event in another snapshot, exact duplicate in another conversation, derivative, or independent source event.
+9. Attribution scope: the exact message and claim attributed. An assistant-authored neighboring message never inherits user-role attribution.
+
+In the preserved project archives, `author.role=user` is attributed to Nathan for internal source purposes under `WORKSPACES/COMMON/TRAINING_SOURCE_MAP.md`. This is an archive convention, not an additional raw-message field and not external account/person authentication. Where the convention is used, describe the source as **user-role source attributed to Nathan by the project archive convention**. Do not silently upgrade that to external identity authentication.
+
+Use orthogonal statuses rather than one composite `VERIFIED` label:
+
+- `MESSAGE_ROLE_VERIFIED`
+- `AUTHOR_LABEL_NULL` / `AUTHOR_LABEL_PRESENT`
+- `ARCHIVE_ATTRIBUTION_BY_CONVENTION`
+- `EXTERNAL_IDENTITY_AUTHENTICATED` / `EXTERNAL_IDENTITY_NOT_AUTHENTICATED`
+- `MESSAGE_NODE_BINDING_VERIFIED` / `MESSAGE_NODE_BINDING_UNVERIFIED`
+- `DUPLICATE_CONTENT_RELATION_VERIFIED` / `INDEPENDENT_SOURCE_RELATION_NOT_ESTABLISHED`
+- `ATTRIBUTION_CONFLICT`
+
+Rules:
+
+- `author.role=user` establishes that the pinned export records a user-role message; apply the project convention only when its source and scope are explicit.
+- `author.name=null` remains null. Do not replace it with Nathan, a worker name, or a guessed account identifier.
+- `author.role=assistant` remains assistant-authored even if the assistant names itself or describes a role.
+- Repetition of one message across snapshots of the same conversation is not multiple independent source events.
+- Exact text copied into another conversation is a duplicate-content relation, not independent identity confirmation.
+- A raw export, archived title, automation label, deterministic ring selection, or `chat_ref=null` does not establish a currently usable ChatGPT thread or cross-thread delivery.
+- If conversation-level timestamps conflict with later message-level timestamps, preserve the anomaly and use the exact message-level `create_time` for the message event.
+- Missing external authentication is not negative evidence about who actually authored the message; it is simply an unverified identity edge.
+
+**Applied witness:** Morrow's provisional Team Archivist source message `402ade01-7116-4efb-9b14-31e477754458` is recorded as `author.role=user`, `author.name=null`; the project archive convention attributes it to Nathan for internal source purposes. The adjacent assistant self-description `32ef4db5-269f-5c1c-8408-188c956cca52` remains assistant-authored. The separate duplicate role-clarification prompt in conversation `6a9bd6f4-8104-83ea-ac9b-ab97497a280e` is not independent corroboration. Morrow's September 13 stop and later trial invitation remain distinct message events; the later invitation does not expressly release the earlier stop. See the verified batch and corrections:
+- `../COMMON/verified_batches/2026-10-30-MORROW-TEAM-ARCHIVIST-ARCHIVE-APPRAISAL-01.md`
+- `../COMMON/tagging_ledgers/2026-10-30-MORROW-ROLE-SOURCE-ID-CORRECTION-01.md`
+- `../COMMON/tagging_ledgers/2026-11-14-MORROW-DIRECT-ROLE-STOP-TRIAL-RAW-SOURCE-CORRECTION-01.md`
+
+This layer is source-custody policy, not theory authority, an identity-authentication claim, or permission to resume quarantined theory work.
