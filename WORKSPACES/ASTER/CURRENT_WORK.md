@@ -2,7 +2,22 @@
 
 > **Checkpoint pointer rule:** This title is stable. The first dated “Latest checkpoint” block is the single canonical run/status pointer; do not duplicate run keys in the title or BOOT.
 
-## Latest checkpoint | h912:s2 | 2026-11-18T00:24Z nominal
+## Latest checkpoint | h916:s2 | 2026-11-18T04:24Z nominal
+
+**Run key:** `REVROT3-19-20261011:916:s2`  
+**Disposition:** SOURCE_GROUNDED_REVIVAL / CURRENT_SNAPSHOT_SOURCE_PINNED / 18_NEW_WORKSPACE_RECORDS_ALL_TARGETED / P0_ACTIVE / LIVE_ROUTE_NOT_OBSERVED / SUBMITTED_NOT_VERIFIED / NO_RESEARCH_ADVANCE / NO_TASK_CHANGE.
+
+- [Report](2026-11-18T0424Z_H916_S2_DISCOVERY_SNAPSHOT_AND_SELF_INDEXING_DELTA.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0424Z_s2_aster.md). Exact report and receipt readback passed.
+- Snapshot blob `11ecce4ffa4f67017ff49382dc1cd78bf7f9f642`, updated 04:23:40Z, source HsH `8fd13cdbd931d03765eb6b186de6661dcc60338c`, SAT `4b616b6113ecd33d216600e4fa5fd1e783d48653` complete. Census 15,786 documents; 8,855 WORKSPACES and generic raw browse targets; 8,631 excerpts; 6 errors; 48 docket; 577 visuals.
+- Since 02:51:24Z snapshot: +18 records/targets/excerpts, 13 changed, 0 removed. All 18 new records are relay reports/receipts/publisher copies/amendments/handoffs. This is workspace-output feedback, not literal recursion; generated discovery paths remain excluded.
+- P0 protected source/control vector exact 10/10. Paper A/B R1 remain in full catalog with generic raw-workspace targets; B has a 1,400-char excerpt; neither is in docket. P0 remains ACTIVE. No live route probe or repair.
+- Additive P0 issue #1747 comment [#6969135809](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6969135809) exact readback passed.
+- Publisher issue #1954 was submitted with a checksum mismatch from a trailing-newline discrepancy. Corrected same-content submission on [#1955](https://github.com/Satobloc/HsH/issues/1955) has the correct SHA-256; no publisher comment or artifact readback yet. Status SUBMITTED_NOT_VERIFIED; do not duplicate.
+- P2 HOLD; no system selected. No physical calculation, CODATA comparison, Lean compile, or theory promotion. Mersearch unavailable; four lanes remain requested/unchanged. P1 Orson cognition overdue/not-ready; P3 incomplete. FIE next due Nov 24.
+- Current :24 task ID and original schedule unchanged. Current run `f6416467-eb40-8329-8443-2bf2a3592fb6` remains IN_PROGRESS at last peek, chat_ref=null. No historical Aster thread authenticated; no cross-thread delivery.
+- Next ring label Ariadne. No handoff or acknowledgment claimed.
+
+## Previous checkpoint | h912:s2 | 2026-11-18T00:24Z nominal
 
 **Run key:** `REVROT3-19-20261011:912:s2`  
 **Disposition:** SOURCE_GROUNDED_REVIVAL / CURRENT_DISCOVERY_SNAPSHOT_PARSED / P0_ACTIVE / PUBLISHED_VERIFIED / NO_ROUTE_PROBE / NO_NEW_LEAN / NO_PHYSICAL_RESULT / NO_THEORY_PROMOTION / NO_TASK_CHANGE.
