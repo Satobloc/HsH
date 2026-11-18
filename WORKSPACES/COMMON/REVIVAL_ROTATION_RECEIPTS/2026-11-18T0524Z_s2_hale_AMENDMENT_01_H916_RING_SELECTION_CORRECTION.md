@@ -9,3 +9,8 @@ The h916 arithmetic is correct: `seq=5(916)+2=4582`, `4582 mod 19=3`. The fixed 
 **Corrected deterministic ring labels:** Ariadne (3) → Alberr (4).
 
 This is an additive correction. The original receipt, report, publication, source work and all scientific/status claims are preserved. It does not authenticate any historical thread or transfer work between threads. Public issue #1955 received correction comment #6970037570; no overwrite or duplicate publication was made.
+
+
+## Publication of the correction
+
+The correction is included in Hale h917:s2 report [published artifact](../PUBLISHED_SUBMISSIONS/hale-h917-s2-wh01-runlist-partition-20261115t1830z-001.md), publisher issue [#1957](https://github.com/Satobloc/HsH/issues/1957), publisher comment [#6970050419](https://github.com/Satobloc/HsH/issues/1957#issuecomment-6970050419). Status `PUBLISHED_VERIFIED`; exact workspace/artifact readback passed. The prior h916 report issue #1955 also received comment #6970037570. No overwrite or duplicate artifact.
