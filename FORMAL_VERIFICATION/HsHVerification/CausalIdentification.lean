@@ -34,7 +34,7 @@ def compatible (assignment outcome : Bool) (p : PotentialOutcomes) : Prop :=
 /-- The effect would be identified from this observation if all compatible
     potential-outcome worlds agreed on whether an effect exists. -/
 def identified (assignment outcome : Bool) : Prop :=
-  ∀ p q, compatible assignment outcome p → compatible assignment outcome q →
+  ∀ (p q : PotentialOutcomes), compatible assignment outcome p → compatible assignment outcome q →
     effect p ↔ effect q
 
 /-- World in which treatment has no effect. -/
@@ -69,7 +69,8 @@ theorem one_observation_does_not_identify_effect (assignment outcome : Bool) :
   intro h
   have hSame := same_world_matches_observation assignment outcome
   have hAlt := alternative_world_matches_observation assignment outcome
-  have hAgreement :=
+  unfold identified at h
+  have hAgreement : effect (sameOutcomeWorld outcome) ↔ effect (alternativeWorld assignment outcome) :=
     h (sameOutcomeWorld outcome) (alternativeWorld assignment outcome) hSame hAlt
   exact same_world_has_no_effect outcome (hAgreement.mpr
     (alternative_world_has_effect assignment outcome))
