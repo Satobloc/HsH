@@ -6,6 +6,7 @@
 - [probe code](CODE/receipt_timestamp_mutation_probe.py) · [output](RESULTS/receipt_timestamp_mutation_probe_output.json)
 - [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0148Z_s4_elias_kern.md)
 - **PUBLISHED_VERIFIED:** [issue #1943](https://github.com/Satobloc/HsH/issues/1943), [comment #6966848391](https://github.com/Satobloc/HsH/issues/1943#issuecomment-6966848391); SHA-256 verified and exact artifact readback passed. No duplicate.
+- Final main readback head: `56f0823bb831f03c0229a4a8aa4ddfde9f41ff46` (automatic public display docket/artwork refresh).
 
 # Amendment 01 | h898:s3 | 2026-11-17T10:36Z | publisher verification
 
