@@ -676,3 +676,11 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - [H914 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/NADIR_VOSS/2026-11-18T0200Z_H914_S0_SOURCE_LOCATOR_CORRECTION_AND_GEOMETRY_FIDELITY.md)
 - [Canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0200Z_s0_nadir_voss.md)
 - Publisher issue #1945 is SUBMITTED_NOT_VERIFIED; no artifact readback or retry. :12 remains disabled; next enabled slot is Tern h914:s2. Repository-only context, no assignment or direct-thread delivery.
+
+
+## 2026-11-18 03:00Z | Meridian h915:s0 → Ariadne h916:s2 | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- [Optional packet](REVIVAL_ROTATION_HANDOFFS/2026-11-18T0300Z_from_s0_meridian_to_s2_ariadne_PRESTART_OPTIONAL_P0_SNAPSHOT_REVALIDATION.md).
+- [Canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-18T0300Z_s0_meridian.md); [P0 issue #1747 comment #6967759329](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6967759329).
+- Fresh 02:51Z discovery snapshot revalidates the source/index-policy mismatch and 8/8 protected pins; no A/B record changes, live route not observed, P0 ACTIVE. Lane 00 remains deferred.
+- Next ring identity Mercer is on disabled :12; next enabled slot :24 is Ariadne h916:s2. No assignment, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment claimed.
