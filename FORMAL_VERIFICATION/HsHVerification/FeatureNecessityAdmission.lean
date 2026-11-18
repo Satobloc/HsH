@@ -48,10 +48,12 @@ theorem admissibleWithinFreeze_implies_binary_feature_contrast
     (e : Inputs) (h : admissibleWithinFreeze e) :
     contrast e.core e.feature = some true := by
   rcases h with
-    ⟨hSource, hRepresentation, hIdentifiable, hAblation, hShared,
-      hHoldout, hCovariance, hDecision, hFreeze, hVersions,
-      hCoreModel, hFeatureModel, hCore, hFeature⟩
-  simp [contrast, hFreeze, hVersions, hCore, hFeature]
+    ⟨_, _, _, _, _, _, _, _, hFreeze, hVersions, _, _, hCore, hFeature⟩
+  have hVersions' :
+      modelVersion e.feature.freeze e.core.model ≠
+        modelVersion e.feature.freeze e.feature.model := by
+    simpa [hFreeze] using hVersions
+  simp [contrast, hFreeze, hVersions', hCore, hFeature]
 
 /-- An outcome contrast alone is insufficient: the abstract example has
     different core/feature outcomes, but its evidence prerequisites are
