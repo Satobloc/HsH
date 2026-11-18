@@ -1,3 +1,13 @@
+## Latest checkpoint | Calder h913:s2 | 2026-11-18 | P0 discovery delta / PUBLISHED PENDING
+
+- [h913:s2 report](2026-11-18T0124Z_H913_S2_DISCOVERY_INDEX_DELTA_AND_BUILDER_REVALIDATION.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0124Z_s2_calder.md).
+- Snapshot 01:11:45Z: 15,748 documents; 8,817 WORKSPACES records and generic browse targets; 8,594 excerpts; 60 paper records; docket 48; 577 visuals; 6 errors. Since h912:s2: +22 workspace records/targets/excerpts, 10 changed, 0 removed. P0 source mismatch persists; live route NOT_OBSERVED.
+- Protected source/control vector 10/10 exact. Builder/test/gate/registry unchanged. Report SHA-256 158c814f95f5b60d33baf49d55c2b6a2566b642864e818cd91bd3b339e240483.
+- Existing P0 #1747 comment #6966171803 read back. Publisher intake #1942 is SUBMITTED_NOT_VERIFIED; no retry.
+- Lane24 Cycle08 complete / HOLD; no Cycle09, P2 system selection, physical result, new Lean proof, or theory promotion. FIE next Nov24.
+- [optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T0124Z_from_s2_calder_to_s3_hale_PRESTART_OPTIONAL_P0_DISCOVERY_DELTA.md); repository-only optional context to Hale h913:s3. No thread delivery/consumption/acknowledgment.
+- Automation ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled; exact :24 hourly phase preserved; no sixth task.
+
 ## Latest auxiliary source-fidelity overlay | 2026-11-17 | h902:s0
 
 - Assistant-level Lane 00 overlay only; no authenticated Calder thread, task reassignment, or P0 ownership change.
