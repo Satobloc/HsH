@@ -32,8 +32,8 @@ theorem source_roots_disjoint : ¬ SharesSource rootsA rootsB := by
   intro h
   rcases h with ⟨x, hxA, hxB⟩
   cases x with
-  | alpha => simp [rootsA, rootsB] at hxB
-  | beta => simp [rootsA, rootsB] at hxA
+  | alpha => simp [rootsB] at hxB
+  | beta => simp [rootsA] at hxA
 
 /-- A common latent failure bit is used by both otherwise distinct reports. -/
 def errorA (ω : Bool) : Bool := ω
