@@ -1729,3 +1729,10 @@ The h884 report and receipt were already present at this run's readback. Their c
 - Canonical receipt amended to blob `433f930d6f69c511d9ec3e75134382fcbdf8f433`; CURRENT_WORK checkpoint replaced/read back.
 - No task mutation, direct thread delivery, consumption, acknowledgment, or task response inference.
 
+## h925:s4 Amendment 04 | PR #1974 exact-head Lean compile | 2026-11-18T1402Z
+
+- PR #1974 exact head `f316c4cbc74ebdd4c2a4481840076dea485fe430`; Actions #44316827174/job #134845181663 SUCCESS. Checkout assertion, Lake manifest, Lean installation/compile, environment record and job completion passed.
+- Formal status is now LEAN_COMPILE_VERIFIED_AT_EXACT_HEAD; PR remains open/draft/unmerged. No theorem-specific axiom report/global audit, merge, mainline integration or empirical/physical validation.
+- Workspace amendment `2026-11-18T1402Z_H925_S4_AMENDMENT_02_PR1974_EXACT_HEAD_CI.md`, blob `340d2e49527d3d9e962c0c6f5ed50a032eaec6b7`, exact readback. Public issue comment #6980882061 read back. Original report remains immutable.
+- Receipt amended to blob `94cfb373701b85618262879d62a2160b6b5d7c16`; CURRENT_WORK checkpoint replaced/read back.
+
