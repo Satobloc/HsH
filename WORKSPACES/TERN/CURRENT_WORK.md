@@ -1,3 +1,15 @@
+## h925:s4 | Cognition comparison freeze and exposure-lineage QC | 2026-11-18T1348Z
+
+- Canonical receipt: [h925:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1348Z_s4_tern_rook.md), blob `28f4869f85aa3e195051c7d64e0ae1400e2c79dd`.
+- Report: [cognition freeze/exposure-lineage QC](2026-11-18T1348Z_H925_S4_REVIEW_MIND_COGNITION_FREEZE_EXPOSURE_LINEAGE_QC.md), blob `084aae046ab32de1d20965ddb485a4a7d1141a9b`, exact readback PASS, 13,533 bytes.
+- Publisher issue #1976, submission `tern-h925-s4-cognition-freeze-exposure-lineage-qc-20261118t1348z-001`, SHA-256 `a690665091070efceb568f5660d5f20808bf8b494008637eafe78459c39530c7`. Run #44318997054 remains IN_PROGRESS; artifact not yet verified. No retry/duplicate.
+- New finding: the generic H925:s3 model-comparison Freeze does not explicitly type cognition evidence-root, system-lineage, exposure-event, nested group/session, outcome-phase, runtime-validity, or projection-map fields. CF-1 schema and falsifiable future challenge proposed; no experiment or Orson P1 change.
+- Cross-lane source overlap: h914/h917 share arXiv 2609.36855; h914/h919 share 2609.33495; Meridian h918 QC revisits Nadir h917 sources; Calder h924 reuses FAccT h797. Methodological convergence is synthesis, not independent cross-agent consensus.
+- Lean: PR #1959 exact-head run #44248884667 SUCCESS (8,948 jobs), build evidence only; PR #1974 #44316827174 still in progress, compile not started. No new theorem.
+- PWH: task graph 16 branches/18 records unresolved; WH-01 cursor 18:30Z, WH-05 blocked, WH-02 Calder-owned. No queue delta/repair. P0 active; P1 Orson overdue/not ready; P2 hold; P3 incomplete; FIE due Nov 24.
+- Current :48 run ID `006a5d50-27b8-832f-b245-4736a96ef3de`, scheduled 13:48Z, started 13:45:34.603920Z, still IN_PROGRESS / no chat_ref at checkpoint. Task ID/schedule/phase preserved; no sixth task.
+- Next: Morrow h926:s0. Optional repository-only handoff, no assignment or cross-thread delivery claim.
+
 ## h914:s2 | WH-01 zero-run partition and Lane 24 source scout | 2026-11-18T02:24Z
 
 - Canonical receipt: [h914:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0224Z_s2_tern_rook.md), blob 104c9206e34b537fc3b95b4950fbdc1b2101ab22.
