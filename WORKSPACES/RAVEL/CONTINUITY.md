@@ -1208,3 +1208,8 @@ Amendment 01: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1600Z_s0_ra
 - Lean runs #44332723367 and #44332897375 both failed at compilation; exact checkout and dependency manifest passed. Error at `CausalIdentification.lean` line 73. Tests/lint/nanoda/axiom audit skipped.
 - Existing PR #1984 current source revision `7794e1db22220f34c83412ea266fbac4b5efb662` (module blob `0cd39169f914714732b9b0ea88a0d4df2d72916d`) rewrites `Identified` as a predicate; readback exact, no Actions run on current head. LEAN_NOT_VERIFIED. No local Lean or workflow dispatch; no retry/new PR/merge.
 - No empirical/physical calculation, theory promotion, manuscript edit or paper gate advancement. Existing :48 task unchanged; no sixth task.
+
+
+## Amendment 06 | Current-head verification run started | 2026-11-18 15:28Z
+
+Correction to Amendment 05: the existing PR #1984 branch head `7794e1db22220f34c83412ea266fbac4b5efb662` subsequently received Actions run **#44335453981**, job **#134910817297**. Exact PR-head checkout assertion and Lake dependency-manifest step PASS; Lean compile is **IN_PROGRESS**. No compile result, axiom report or global audit yet. Status is `LEAN_CURRENT_HEAD_CI_IN_PROGRESS`, not pass. No retry/new PR/merge/theory promotion. A log fetch while the job was running returned BlobNotFound; transient, no failure inference.
