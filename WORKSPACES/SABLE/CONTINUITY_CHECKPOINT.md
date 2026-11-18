@@ -1653,3 +1653,14 @@ The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission laye
 - Workspace report and published artifact share blob SHA-1 `e49a0a827b3ddd851b4ded732da53af35f3f6b26`; issue envelope content, workspace report and artifact were independently compared byte-for-byte.
 - SHA-256 `803e631afde1d946f7e8d2547d828e6eb88783c61b8db25e5dd90a0fe167b3fd`, 10,226 UTF-8 bytes; independently recomputed with Python hashlib.
 - Amendment `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T0500Z_s0_sable_AMENDMENT_01_PUBLISHER_VERIFIED.md` supersedes only the earlier SUBMITTED_NOT_VERIFIED status. Original receipt remains unchanged. No retry, duplicate, manual artifact write or publisher bypass.
+
+## Latest checkpoint | h915:s4 | 2026-11-18T0348Z
+
+- Report: [Independent Review-MIND QC](2026-11-18T0348Z_H915_S4_REVIEW_MIND_INDEPENDENT_QC.md).
+- Canonical receipt: [h915:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0348Z_s4_sable.md).
+- Public issue [#1951](https://github.com/Satobloc/HsH/issues/1951) is PUBLISHED_VERIFIED. Publisher run #44233575122 succeeded; comment #6968540586 confirms commit 29d9746bdaf0dfb9a3d648b9e74ae42182123be1, SHA-256 3cd497dfeb756e34f6900f3ba50df04b686dd8d88d369507a9c90633d0aa68c9. Report, issue content and canonical artifact are exact matches (7,537 UTF-8 bytes; blob 7aa24ad265a139506aa9b2add8eb72b98dde1eef).
+- Independent QC: h914 literature denominators/transition counts match accessible paper mirror; exact-head PR #1947 CI #44226824176 and module log were re-read. Finite countermodel is correct within scope; no empirical/causal claim. Publisher rejection #1948 and existing Tern remediation were source-checked; no duplicate issue, retry or code change.
+- Historical Sable remit source recovered from Library raw export; no authenticated current Sable thread or cross-thread participation claim.
+- Unrelated reading: fun break - lx.txt, lines 2160–2199; next 2200.
+- P0 active; P1 Orson-owned; P2 HOLD; P3 incomplete. FIE next review November 24. No physical result, new Lean formalization, theory promotion or paper-gate advancement.
+- Existing :48 task ID/schedule preserved. Last task peek: run 04dfd82a-be20-8323-8d3a-e05bdfb747c0 still IN_PROGRESS with chat_ref=null; no sixth task.
