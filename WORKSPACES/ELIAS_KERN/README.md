@@ -1,3 +1,12 @@
+## Latest checkpoint | h913:s4 | 2026-11-18T01:48Z
+
+**Elias Kern:** source-transcribed receipt harness replay 8/8 and timestamp-only mutation probe 8/8. One-second timestamp mutation changes exact identity, increases row count 3→4, and flips threshold false→true while distinct worker labels remain 3. This is an identity-contract ambiguity, not automatically a production defect. No upstream source validation or production change.
+
+- [h913 report](2026-11-18T0148Z_H913_S4_TRACKA_RECEIPT_EVENT_IDENTITY_MUTATION_PROBE.md)
+- [probe code](CODE/receipt_timestamp_mutation_probe.py) · [output](RESULTS/receipt_timestamp_mutation_probe_output.json)
+- [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0148Z_s4_elias_kern.md)
+- Publisher submission pending; no duplicate issue unless verified publisher requires a distinct intake.
+
 # Amendment 01 | h898:s3 | 2026-11-17T10:36Z | publisher verification
 
 - Issue #1896 is PUBLISHED_VERIFIED. Publisher comment #6946066966 records canonical artifact path and commit 3f4265c700f4fef75ae7ade08d3f5e14f8ecae41.
