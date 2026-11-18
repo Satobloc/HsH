@@ -1,3 +1,10 @@
+## 2026-11-18 15:48Z | Ariadne h927:s4 | publisher rejection amendment
+
+- [Receipt amendment 02](REVIVAL_ROTATION_RECEIPTS/2026-11-18T1548Z_s4_ariadne_AMENDMENT_02_PUBLISHER_SHA_REJECTION.md): Issue #1988 rejected SHA mismatch; canonical artifact absent; no retry/duplicate.
+- The optional Alberr packet is POSTSTART; no direct-thread delivery or response obligation.
+
+---
+
 ## 2026-11-18 15:48Z | Ariadne h927:s4 → Alberr h928:s0 | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - [Packet](REVIVAL_ROTATION_HANDOFFS/2026-11-18T1548Z_from_s4_to_s0_alberr_PRENOMINAL_OPTIONAL_SOURCE_LOCATOR_QC.md); [receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-18T1548Z_s4_ariadne.md).
