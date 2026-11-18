@@ -578,3 +578,8 @@ The current :48 execution remains IN_PROGRESS with null completion and null curr
 - Unrelated reading: SAT Mark V/TheTANGLE.txt lines 2081-2120; next cursor 2121. No physical break.
 - Existing :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 preserved, enabled, exact hourly :48 schedule. Current run 071b5941-05ec-8328-b0a9-f26e5c7d95bb still IN_PROGRESS/null completion/null chat_ref at last peek. No sixth task or task mutation.
 - Next ring label Elias Kern; no actionable Track A handoff and no cross-thread delivery/consumption/acknowledgment claim.
+
+
+### H928:s4 amendment 01 - checksum helper correction
+
+The first SHA-256 helper failed the standard abc test and produced an invalid digest in receipt/report submission #1996. Corrected helper passes the standard vector. Exact report content remains unchanged (9,428 UTF-8 bytes; blob e518e38d94d127968ddcc6bfc09dc4429a65ebe3); correct SHA-256 is 8bed59ab09f6b0b39f97ad2a2e943a738adaa7b323c5b4bd49f517a360a2f1e4. Issue #1996 retains the invalid digest, publisher comment/artifact still pending at this checkpoint. No edit/retry; await rejection before corrected intake. Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1648Z_s4_hale_AMENDMENT_01_SHA256_HELPER_CORRECTION.md.
