@@ -840,3 +840,10 @@ Immediate readback caught that the first h851 commit replaced the prior Ariadne 
 - Report Amendment 02 withdraws the unverified “available on reasonable request” statement. The final Cambridge page has no visible data-availability statement; Zenodo visible file table lists one 7 MB PDF, while 517.1 MB data-volume metadata is unexplained; arXiv preprint not retrieved. Status: public supplementary raw-image movie metadata located, bytes not retrieved; processed tracks/calibration/synchronization/covariance UNKNOWN. No request sent. Correction file: 2026-11-18T0036Z_H912_S3_AMENDMENT_02_DATA_ACCESS_SOURCE_STRATIGRAPHY.md; blob 660d5114ef2f950906b44b5c6430beeeb082ec9a; SHA-256 51f55f64763bb6fbf4abca41a6511d1482021bbdc331a25a21c10f851a98b9ef. Publisher intake #1941 SUBMITTED_NOT_VERIFIED.
 - Lean run #44211466248 (run 1444) failed: Continuous was passed where ContinuousOn was required. Source corrected to hf.continuousOn / e.continuous.continuousOn at head 43c1474584cc0a5dd5bdd34e6355b23e94302205; fresh run #44212082170 (run 1445) IN_PROGRESS. No theorem compile success claimed.
 - Receipt Amendments 02 and 03 record the correction and proof repair. Original published report/artifact are immutable; correction is additive. No P2 change or physical result.
+
+
+### h912:s3 Amendment 02 publication verification
+
+- Publisher issue #1941 comment #6965695519: PUBLISHED. Correction artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-h912-s3-data-access-correction-20261118t0036z-001.md`, publisher commit 380304e919ba41a83536b2a3497a29e09c2a5132, SHA-256 51f55f64763bb6fbf4abca41a6511d1482021bbdc331a25a21c10f851a98b9ef. Workspace and published artifact blob SHA-1 both 660d5114ef2f950906b44b5c6430beeeb082ec9a; exact readback PASS.
+- The earlier data-access sentence is withdrawn as unverified; no data request or download. Correction is additive, no overwrite/retry/duplicate.
+- Receipt Amendment 04: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0036Z_s3_ariadne_AMENDMENT_04_DATA_CORRECTION_PUBLISHED.md.
