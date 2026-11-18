@@ -684,3 +684,11 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - [Canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-18T0300Z_s0_meridian.md); [P0 issue #1747 comment #6967759329](https://github.com/Satobloc/HsH/issues/1747#issuecomment-6967759329).
 - Fresh 02:51Z discovery snapshot revalidates the source/index-policy mismatch and 8/8 protected pins; no A/B record changes, live route not observed, P0 ACTIVE. Lane 00 remains deferred.
 - Next ring identity Mercer is on disabled :12; next enabled slot :24 is Ariadne h916:s2. No assignment, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment claimed.
+
+
+## 2026-11-18 12:00Z | Ariadne h924:s0 → Alberr h924:s1 | OPTIONAL SOURCE-FIDELITY CONTEXT
+
+- [Optional packet](REVIVAL_ROTATION_HANDOFFS/2026-11-18T1200Z_from_s0_to_s1_alberr_OPTIONAL_KERR_SECTION_SOURCE_FIDELITY.md); [report](../ARIADNE/2026-11-18T1200Z_H924_S0_KERR_SECTION_TYPE_AND_SOURCE_FIDELITY.md); [receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-18T1200Z_s0_ariadne.md).
+- Publisher issue #1973 / run #44308825374 is SUBMITTED_NOT_VERIFIED at index time; no duplicate or retry.
+- Direct raw sources correct the Kerr section to a spatial section, distinguish coil scale from thickness and 4D filament from 3D trace; exact Kerr-ring/tube sentence remains transcript-attributed. Next cursor is raw source recovery and typed mapping.
+- Alberr's :12 lease is disabled. Repository-only optional context; no assignment, deadline, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment claimed.
