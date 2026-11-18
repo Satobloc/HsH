@@ -65,6 +65,8 @@ theorem alternative_world_has_effect (assignment outcome : Bool) :
     This establishes an identifiability limit, not a treatment-effect estimate. -/
 theorem one_observation_does_not_identify_effect (assignment outcome : Bool) :
     ¬ Identified assignment outcome := by
+  change ¬ (∀ (p q : PotentialOutcomes), compatible assignment outcome p →
+    compatible assignment outcome q → effect p ↔ effect q)
   intro h
   have hAgreement :
       effect (sameOutcomeWorld outcome) ↔
