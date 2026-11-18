@@ -11,3 +11,5 @@ Repository-only optional context, not assignment, direct-thread delivery, respon
 - No new schema/gate/theorem, equation alteration, or theory promotion. P0 ACTIVE; Aster Paper A FROZEN/CROSS-READ OPEN; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE. WH-01 cursor 18:30Z and 21 records remain; WH-02 Calder-owned; WH-05 four Mersearch lanes; graph 16/18 Tern-owned.
 
 h927:s3 selected Aster (index 2), next label Ariadne (index 3). No recipient participation or cross-thread delivery claimed.
+
+- Crosswalk integrated additively into existing P2 matrix #1855 via comment #6983601424; readback exact. No new gate or status promotion.
