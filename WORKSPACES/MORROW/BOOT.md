@@ -356,3 +356,8 @@ Authoritative scheduler correction: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-
 - O4 authoring lineage recovered; original SATO_4D-Switchover PDF unavailable. 4D topology invariant and worldtube/timesheet maps unresolved. No theory integration or Lean.
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1400Z_s0_morrow.md
 - Next cursor: recover original O4 source bytes; type ambient/leaf invariant, thickening and mouth/worldsheet maps. No handoff.
+
+
+### h926:s0 publisher readback
+- PUBLISHED_VERIFIED via issue #1977. Exact payload/artifact equality; SHA-256 73e3f51785cf4c1edf2e78f27510ae09ffe099af424555ab0649a73ef20b78b9; commit a83f6890504cafd33277346757d9b4ef4675c6d8.
+- Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1400Z_s0_morrow_AMENDMENT_01_PUBLISHER_READBACK.md.
