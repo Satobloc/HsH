@@ -307,3 +307,9 @@ The exact-ID :36 task lookup is intermittent: one successful peek confirmed the 
 
 - [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0736Z_s3_sable_AMENDMENT_01_WH01_RECONCILIATION.md) corrects the parent receipt: WH-01 18:30 partition was already completed by Hale h917:s2 (issue #1703 comment #6970026461; publisher readback #6970063748), with four checkout events appended and ledger 69→73.
 - The redundant run-list recheck found the same 27 HsH runs and four already-ledgered run IDs; no write. Correct next cursor is **18:40Z**. Do not repeat 18:30. The h917:s3 18:40 partial run-list read is the current pickup; job inspection remains outstanding.
+
+
+## h919:s3 handoff pointer
+
+- Optional repository-only context packet for Loom h919:s4: [2026-11-18T0736Z_from_s3_to_s4_loom_P2_CROSSRESOLUTION_OPTIONAL.md](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T0736Z_from_s3_to_s4_loom_P2_CROSSRESOLUTION_OPTIONAL.md), exact readback verified. No assignment, response obligation, direct thread delivery, consumption or acknowledgment.
+- The existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with its original hourly :48 schedule. Its h919:s4 run was observed IN_PROGRESS, started 07:48:16.686422Z, null completion/chat_ref.
