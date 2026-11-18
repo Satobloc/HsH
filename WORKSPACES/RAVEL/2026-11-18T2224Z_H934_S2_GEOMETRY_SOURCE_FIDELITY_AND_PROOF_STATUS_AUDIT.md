@@ -163,3 +163,10 @@ This is a formalization/debugging result only. It does not affect P2's physical-
 ## Amendment 02 | 2026-11-18 22:44Z | post-continuity P0 recheck
 
 After adding the h934 report, receipt, and Ravel README/STATE/CONTINUITY pointers, main advanced to `ee2bccbe348beef93b1c7c3cbfb6f99a1f8bdaea`. The eight protected P0 blobs were re-fetched at that later head and still matched **8/8 exactly**. The discovery JSON blob at that observation was `16a1f7f0ff746a72d6f907fcd18ce4c16d4d170a`, again returned with zero text characters. Per-record contents remain unparsed; live reader routes remain NOT OBSERVED; P0 remains ACTIVE. The workspace continuity writes did not alter any protected P0 source/control object.
+
+
+## Amendment 03 | 2026-11-18 22:45Z | Ravel PR #1984 second exact-head failure and third attempt
+
+Run #44413809283 / job #135188667905 on head `2ec75b7878c9053be2cc11eca94891498cb70c27` completed **FAILURE**. Exact-head checkout and Lake manifest passed; the Lean build failed at `CausalIdentification.lean:72:4` because tactic `apply h.agreement` left the two potential-outcome worlds as unresolved metavariables. The diagnostic said it could not unify the conclusion `compatible ... ?p → compatible ... ?q → effect ?p ↔ effect ?q` with the goal `effect (sameOutcomeWorld outcome) ↔ effect (alternativeWorld assignment outcome)`.
+
+The existing PR's latest source head is now `da1819f131e34bc4a1adfe21d35b7403cd8668f6`; the proof explicitly supplies both world arguments to `apply h.agreement`. Run #44414354448 is active, job #135190579276, and remained IN_PROGRESS at checkout when checked. No compile result is available and no proof pass is claimed. PR #1984 remains open/draft/unmerged. This is the final attempt in this run; do not infer success from the pending workflow.
