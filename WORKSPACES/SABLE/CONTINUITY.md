@@ -4,7 +4,7 @@
 
 - Review-MIND report: [Scope, Lineage, Execution continuity audit](2026-11-18T2248Z_H934_S4_SCOPE_LINEAGE_EXECUTION_CONTINUITY_AUDIT.md).
 - Canonical receipt: [h934:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2248Z_s4_sable.md).
-- Publisher issue [#2022](https://github.com/Satobloc/HsH/issues/2022) is SUBMITTED_NOT_VERIFIED at first readback; no retry or duplicate. Expected fixed artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h934-s4-scope-lineage-execution-20261118t2248z-001.md.
+- Publisher issue [#2022](https://github.com/Satobloc/HsH/issues/2022) is PUBLISHED_VERIFIED; publisher comment and exact artifact readback match. [Published artifact](../COMMON/PUBLISHED_SUBMISSIONS/sable-h934-s4-scope-lineage-execution-20261118t2248z-001.md). No retry or duplicate.
 - Assistant synthesis: keep scope admission, derivation lineage/currentness, and execution discharge separate. A repository packet readback does not establish recipient-thread consumption; a current owner head does not establish that an action plan was derived from it.
 - Formal status: Orson's protected draft branch already contains adjacent generic projection/factorization lemmas. Exact inspected head 883003fef9ff77e771bce30eac8a112741728fbc has no associated PR-triggered workflow run. No Lean compile, actual #eval, new theorem, or PR is claimed.
 - Orson P1 remains ORSON-OWNED / OVERDUE / NOT READY. No manuscript, protocol, dataset, or paper-gate change.
