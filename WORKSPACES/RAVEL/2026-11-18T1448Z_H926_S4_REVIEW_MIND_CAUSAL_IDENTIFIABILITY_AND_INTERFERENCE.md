@@ -3,7 +3,7 @@
 **Run key:** `REVROT3-19-20261011:926:s4`  
 **Nominal:** 2026-11-18 14:48 UTC  
 **Selection:** h=926; seq=4634; 4634 mod 19=17, Ravel. Next ring label: Orson Vay (18), h927:s0.  
-**Disposition:** SOURCE-GROUNDED METHOD RESULT / LEAN PR OPEN, EXACT-HEAD CHECKOUT VERIFIED, COMPILE IN PROGRESS / NO EMPIRICAL TRIAL / NO THEORY OR PAPER-GATE PROMOTION.
+**Disposition:** SOURCE-GROUNDED METHOD RESULT / ORIGINAL PUBLISHED SNAPSHOT VERIFIED / TWO PRIOR-HEAD CI FAILURES / CURRENT REWRITE NOT VERIFIED / NO EMPIRICAL TRIAL / NO THEORY OR PAPER-GATE PROMOTION.
 
 ## 1. Historical remit and provenance
 
@@ -129,3 +129,12 @@ The prior Gutenberg #1216 HTML route returned HTTP 503. A public-domain alternat
 The full arXiv v1 PDF (42 pages) of Karwa, Airoldi & Rubin was inspected through Sections 1–2.3, including the stated assumptions and decomposition. It explicitly separates **interference neighborhoods** (which assignment coordinates can matter), **exposure mappings** (how those assignments are summarized), and **outcome models** (functional restrictions), and separately distinguishes fixed-exposure ACEs from policy-allocation-averaged ECEs. The allocation distribution defining the estimand is distinct from the experimental design used to estimate it. The paper also distinguishes an interference graph from a social graph and from the estimator-dependence graph.
 
 CF-1 should therefore type four different graph/structure objects rather than use “network” generically: evidence genealogy; assumed causal-interference neighborhood; communication/exposure-event graph; and estimator-dependence graph. Keep the exposure mapping, outcome restrictions, target estimand/policy distribution, and estimation design separate. This prevents a provenance edge, a communication edge, a social tie, and a statistical-dependence edge from being treated as interchangeable. This is a schema refinement proposal, not an empirical result; the source is a preprint (arXiv v1, 2026-11-09).
+
+## Amendment 05 | Duplicate scheduled invocation and current Lean-head reconciliation | 2026-11-18 15:18Z
+
+- This automation invocation started at 15:18:37.061919Z for the already-existing h926:s4 scheduled run key. The report, publisher issue #1982, and prior amendments were present before this invocation. **Duplicate run-key guard: RECONCILED / NO REPEAT RESEARCH / NO NEW ISSUE.** The automation's current run ID is `be134f75-cba0-8326-9643-da5f16e85574`; status remains `IN_PROGRESS`, completion/chat_ref null, and cached latest result belongs to h925:s4. This report is not attributed to the current execution/thread.
+- Independent readback: issue #1982's submission payload equals the published artifact at `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-h926-s4-causal-identifiability-interference-20261118t1448z-001.md` (9,748 characters). The original published snapshot is intact; workspace amendments are later and are not a new publisher submission.
+- Lean runs #44332723367/job #134901172816 and #44332897375/job #134901728394 both completed FAILURE. Exact PR-head checkout assertion and Lake dependency-manifest step passed; compilation failed in `CausalIdentification.lean` at the `h.agreement ... hSame` application (the compiler expected a function at that point). Tests, lint, nanoda and axiom-audit were skipped. No proof pass or axiom audit.
+- A source-only revision was committed to the existing draft PR #1984 branch, replacing the `Identified` structure projection with a predicate and direct application: commit `7794e1db22220f34c83412ea266fbac4b5efb662`, module blob `0cd39169f914714732b9b0ea88a0d4df2d72916d`. Exact GitHub Contents readback passed. **No Actions run exists for this current head; LEAN_NOT_VERIFIED.** Local Lean/Lake/Elan are absent and workflow-dispatch is not exposed by this connector. No new branch/PR, retry, merge, or theory promotion.
+- PR #1981 and #1984 remain open/draft/unmerged. Vercel preview failures are the separate free-tier deployment rate limit, not Lean evidence.
+- No physical calculation, empirical trial, fit, prediction, independent measurement, P1 manuscript edit, or paper-gate advancement.
