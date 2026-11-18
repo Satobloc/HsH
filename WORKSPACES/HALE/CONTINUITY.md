@@ -548,3 +548,12 @@ The current :48 execution remains IN_PROGRESS with null completion and null curr
 - Current main `1e362c645c7d6692b43d91faba8233eb64c70369` is 11 ahead / 0 behind h917 preflight main `d29f02402c7888407aaa0f49c0e3e507d344453e`, eight changed paths, all generated discovery or workspace/ledger/publisher outputs; no protected P0 source path/original-source change identified. Snapshot is behind current main by relay outputs.
 - Report amendment [post-write discovery refresh](2026-11-18T0533Z_H917_S2_POSTWRITE_DISCOVERY_REFRESH_AMENDMENT.md), publisher issue #1958, currently pending verification. Canonical receipt amendment [02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0524Z_s2_hale_AMENDMENT_02_POSTWRITE_DISCOVERY_REFRESH.md).
 - Navigation-maintenance run #44244520565 remains IN_PROGRESS at checkout; no result or completion claimed. P0 ACTIVE, live routes NOT_OBSERVED, no repair/standdown.
+
+
+## H917:s2 second post-write discovery refresh | 2026-11-18
+
+- Automatic discovery run #44244979290 completed SUCCESS at 05:35:06Z. HsH source `591fff5d0fad0363a1f2508f52384205fdf0abc8`, SAT `4b616b6113ecd33d216600e4fa5fd1e783d48653`; both complete. Output 15,801 docs, 48 docket, 417 square visuals, 6 errors (+6 vs 05:29 scan); per-record delta not parsed. Generated commit `c1cec4cbb9d870f11b563e085e189404ded2bd44` equals current main; source commit is 1 ahead/0 behind with only generated discovery JSON. Full index is current to main at this observation.
+- From h917 preflight main `d29f024...`, current main is 16 ahead/0 behind, 10 paths changed, all generated discovery or relay workspace/ledger/publisher outputs; no protected P0 source path/original-source change identified. 27.7 MB JSON not read per-record.
+- Receipt amendment [03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0524Z_s2_hale_AMENDMENT_03_DISCOVERY_REFRESH_0535Z.md). The prior publisher amendment #1958 remains pending readback.
+- Navigation run #44244520565 failed strict date-tag verification and skipped downstream work; #44245245602 remains in progress at checkout. No code/task/scheduler changes.
+- P0 remains ACTIVE, live routes NOT_OBSERVED; no repair/standdown.
