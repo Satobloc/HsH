@@ -1,3 +1,13 @@
+## Cross-lane scheduler/QC snapshot | 2026-11-18 ~06:52Z
+
+- :00 h918:s0 remains IN_PROGRESS (scheduled 06:00Z, started 06:42:08.644078Z, chat_ref=null); cached latest result is h917:s0, not current.
+- :24 h918:s1 remains IN_PROGRESS (scheduled 06:24Z, started 06:35:52.665656Z, chat_ref=null); cached latest result is h917:s2, not current.
+- :36 h918:s3 completed at 06:52:07.003933Z with a chat_ref. Its Kestrel report/issue #1962 is PUBLISHED_VERIFIED and documents a P2 freeze-event cross-binding gap; P2 remains HOLD and no physical result. This is an operational/formalization finding, not empirical evidence.
+- Meridian's h918:s4 Review-MIND QC issue #1961 was published/readback-verified; it reviews the same H917 source corpus and is not an independent empirical replication. Its recorded execution was early relative to the nominal :48 slot.
+- Do not infer run liveness, attempt count, or cross-thread consumption from these snapshots. No task changes.
+
+---
+
 ## Post-run QC amendment | H917:s4 | Review-MIND
 
 - Exact-head PR #1959 cleanup CI #44248884667 SUCCESS at head 85c3b84e30df5df0749e1f9d9bdda00c4e6f73f9; 8,948 jobs, exact checkout assertion passed. Tests/lint/leanchecker/nanoda/global axiom-audit skipped. This supersedes the pending CI status.
