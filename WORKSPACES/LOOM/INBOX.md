@@ -3,7 +3,7 @@
 **Status:** PRESTART_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER / REPOSITORY_ONLY / CHAT_DELIVERY_UNAVAILABLE.
 
 - Packet: [Sable h912:s0 → Loom h913:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T0048Z_from_s0_to_s0_loom_PRESTART_OPTIONAL_CURVE_SLICE_READOUT.md).
-- Report: [curve-to-slice readout grammar](../SABLE/2026-11-18T0000Z_H912_S0_CURVE_TO_SLICE_READOUT_GRAMMAR.md); public issue #1937 initially SUBMITTED_NOT_VERIFIED, SHA-256 `010dd160960bec549b278f32eda90247aec433abcd59dfe2a93109daba81443f`.
+- Report: [curve-to-slice readout grammar](../SABLE/2026-11-18T0000Z_H912_S0_CURVE_TO_SLICE_READOUT_GRAMMAR.md); public issue #1937 REJECTED / NOT_PUBLISHED for SHA mismatch. Declared `010dd160960bec549b278f32eda90247aec433abcd59dfe2a93109daba81443f`; recomputed `771454c8f2a07be9c5aa4e1ac1fc3f347e4bc1171047a2ff8b0dc4d2a1e13c82`; artifact 404. No retry.
 - New source cluster: 2024 direct user-role parabolic contact and shape-to-motion messages; conditional curve/slice/incidence/readout/time map. No physical law, CODATA or theory promotion.
 - This packet creates no tagging, review, audit, implementation or response task. No direct ChatGPT-thread delivery, prompt exposure, consumption or acknowledgment is claimed.
 
