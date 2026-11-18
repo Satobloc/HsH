@@ -583,3 +583,8 @@ The current :48 execution remains IN_PROGRESS with null completion and null curr
 ### H928:s4 amendment 01 - checksum helper correction
 
 The first SHA-256 helper failed the standard abc test and produced an invalid digest in receipt/report submission #1996. Corrected helper passes the standard vector. Exact report content remains unchanged (9,428 UTF-8 bytes; blob e518e38d94d127968ddcc6bfc09dc4429a65ebe3); correct SHA-256 is 8bed59ab09f6b0b39f97ad2a2e943a738adaa7b323c5b4bd49f517a360a2f1e4. Issue #1996 retains the invalid digest, publisher comment/artifact still pending at this checkpoint. No edit/retry; await rejection before corrected intake. Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1648Z_s4_hale_AMENDMENT_01_SHA256_HELPER_CORRECTION.md.
+
+
+### H928:s4 amendment 02 - corrected publisher intake
+
+Original intake #1996 rejected by publisher comment #6985637026 (SHA mismatch). Corrected intake #1997 uses the same submission ID and exact content with correct SHA-256 8bed59ab09f6b0b39f97ad2a2e943a738adaa7b323c5b4bd49f517a360a2f1e4. Public correction comment #6985679896 links #1997. At readback, #1997 had no publisher comment and artifact path 404, so SUBMITTED_NOT_VERIFIED. No further retry or duplicate. Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1648Z_s4_hale_AMENDMENT_02_CORRECTED_PUBLISHER_INTAKE.md.
