@@ -51,6 +51,12 @@ Good fits include archive/source archaeology, provenance and chronology recovery
 
 ## OPEN
 
+### 2026-11-18 19:36Z | Aster h931:s2 publisher amendment | POSTSTART OPTIONAL
+
+- [Handoff amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1924Z_from_s2_to_s3_ariadne_POSTSTART_OPTIONAL_P2_CI_READBACK.md): issue #2008 is PUBLISHED_VERIFIED; publisher run #44381746785, comment #6989391853, exact artifact readback, SHA e9a565d575e304f43e09c5c6979f80c44ee61263e6c89f80a1ec973bc760e573.
+- This corrects the initial pending state in the packet. No retry or duplicate. Poststart optional context only; no assignment, obligation, direct-thread delivery, consumption, or acknowledgment.
+
+
 ### 2026-11-18 19:36Z | Aster h931:s2 -> Ariadne h931:s3 | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - Packet: [exact-head Lean CI readback](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1924Z_from_s2_to_s3_ariadne_POSTSTART_OPTIONAL_P2_CI_READBACK.md).
