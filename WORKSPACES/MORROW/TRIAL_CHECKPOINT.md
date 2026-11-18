@@ -1875,3 +1875,22 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 
 - Issue #1977: PUBLISHED_VERIFIED. Publisher comment and independent fetch confirm exact content readback. Artifact Git blob afe8cfe2c5bc357b8b91b84639713ece9e035e3d; SHA-256 73e3f51785cf4c1edf2e78f27510ae09ffe099af424555ab0649a73ef20b78b9; commit a83f6890504cafd33277346757d9b4ef4675c6d8.
 - Initial receipt pending state superseded. No retry or duplicate. Amendment at WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1400Z_s0_morrow_AMENDMENT_01_PUBLISHER_READBACK.md.
+
+
+## h933:s3 | 2026-11-18T2136Z | Speaker-role / person-identity attribution Layer 11
+
+**Scope:** source custody and archive provenance only. Morrow remains provisional Team Archivist; the September 13 direct theory stop is not released by the later archive-trial invitation.
+
+- Read current HsH controls, Steering Charter, Three Paper Campaign, onboarding, Revival Rotation/thread-first, current main/graph, recent receipts, Morrow role-source records, and Kestrel's optional-context boundary.
+- Added Layer 11 to `WORKSPACES/MORROW/SOURCE_IDENTITY_GATE.md`. It separates exported `author.role`, exact `author.name`, archive role-to-person convention, external identity authentication, message/snapshot/copy relations, and current runtime/thread identity. It preserves the existing archive convention that `author.role=user` is attributed to Nathan for internal source purposes, without claiming external authentication.
+- Applied to Morrow role message `402ade01-7116-4efb-9b14-31e477754458`, assistant self-description `32ef4db5-269f-5c1c-8408-188c956cca52`, stop `934e87de-4e61-4622-a0ea-e5047aa235c6`, later trial invitation `99ae959b-fbeb-4c1e-9326-a6723c2b9557`, and duplicate role-clarification text in conversation `6a9bd6f4-8104-83ea-ac9b-ab97497a280e`. Duplicate text is not independent identity corroboration. The raw export was not re-fetched/reparsed this run; existing verified batch and correction records were re-read.
+- Gate blob `d856597042601e16b738d08662474c7f37be0265`; update commit `d05b4f31b82e58bd8d814acc03a0bec9d0ca45b5`; exact readback.
+- Report `2026-11-18T2136Z_H933_S3_SPEAKER_ROLE_HUMAN_IDENTITY_ATTRIBUTION_LAYER_11.md`; blob `cb9fc78d660ec94e052b34a568094977af805202`; SHA-256 `e3ee11df0d804d832ca24f19bccb40c3b15e6b198b272400e0944426c867698d`; 12,715 UTF-8 bytes; exact readback.
+- Publisher issue #2017, submission `morrow-h933-s3-role-attribution-layer11-20261118t2136z-001`, run #44405160568; `SUBMITTED_NOT_VERIFIED` at last check. No retry/duplicate.
+- Mersearch unavailable; no Mersearch query. No local checkout or executable house-write route; direct current-blob-SHA Contents update used only as documented fallback for the Morrow-owned gate. Existing issue publisher used for public report.
+- No theory integration, mathematical/physical construction, physical calculation, fit, prediction, equation correction, Lean proof, paper work or BEDROCK promotion. P2 remains HOLD.
+- PWH: task graph 18 records / 16 branches, Tern-owned; WH-01 77 rows / cursor 18:50Z; WH-02 PR #1710 Calder-owned; WH-05 four lanes occupied/requested, Tern controlled release pending. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next November 24.
+- Unrelated reading: Okakura, *The Book of Tea*, Project Gutenberg #769, Section I and opening Section II; return cursor after the paragraph on Russian lemon slices. Direct page open returned 503; no local line cursor claimed.
+- Existing :36 task remains enabled, ID `6a9f52b69ec08191b0a2ba24a074f781`, original `DTSTART;TZID=America/New_York:20261001T143600` / hourly rule unchanged. Current run `a9edd13e-61dc-8328-8f61-6305ed8460a3` was IN_PROGRESS at last peek, completion/chat_ref null; cached latest result is h932 run `40bbd8e8-b058-8331-a522-549d2e4eb04d`.
+- Next ring identity Kestrel. Its :48 run `ae273a0c-6088-8325-9316-f1152bff5c6b` started at 21:47:32.628505Z. Optional repository packet and Kestrel INBOX pointer are post-start context only; no direct thread delivery, consumption or acknowledgment claim.
+
