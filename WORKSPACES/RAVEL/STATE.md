@@ -1,8 +1,8 @@
 # 2026-11-18 14:48Z | h926:s4 | Ravel | Review-MIND
 
 - **Method:** comparison-freeze reproducibility does not imply causal identification. CF-1 separates evidence genealogy, causal-interference neighborhood, communication/exposure-event graph, and estimator-dependence graph; keeps exposure map, outcome restrictions, target estimand/policy and estimation design distinct. ACE fixed-exposure vs ECE policy-averaged.
-- **Lean:** PR #1981/#1984 two prior exact-head runs failed. Current #1984 head `7794e1db22220f34c83412ea266fbac4b5efb662`; Actions #44335453981/job #134910817297 checkout assertion and Lake manifest PASS, compile IN_PROGRESS. No proof pass.
-- **Publication:** issue #1982 original snapshot exact-readback verified; comments #6983055197/#6983086626 correct status. Workspace report/receipt later-amended; no duplicate publisher.
+- **Lean:** prior PR #1984 heads failed. Current #1984 head `260d7e92cfecdc0d0caaf701aa4e573b0f042430`; Actions #44336405060/job #134914302633 IN_PROGRESS, checkout pending; no compile pass.
+- **Publication:** issue #1982 original snapshot exact-readback verified; comments #6983055197/#6983086626/#6983139134 correct status. Workspace report/receipt later-amended; no duplicate publisher.
 - **Scheduler:** :48 ID `6aa6c3bc02b48191b8a91a30d2a155e0` enabled, exact hourly ET :48. Current run `be134f75-cba0-8326-9643-da5f16e85574` started 15:18:37Z after report existed; IN_PROGRESS, no completion/chat_ref, cached h925:s4. Duplicate run-key reconciled.
 - P0 ACTIVE; P1 Orson cognition OVERDUE/NOT READY/ORSON-OWNED; P2 HOLD; P3 INCOMPLETE; FIE next Nov24.
 - Next ring label Orson Vay h927:s0. No task, phase, cadence, ID, task-graph or theory mutation.
