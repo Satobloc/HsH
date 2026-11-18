@@ -1220,3 +1220,17 @@ Correction to Amendment 05: the existing PR #1984 branch head `7794e1db22220f34c
 - Run #44335453981/job #134910817297 failed on prior head `7794e1db22220f34c83412ea266fbac4b5efb662`: duplicate doc-comment parser error at line 35 plus the remaining application error at line 74. Exact-head checkout and Lake manifest passed; tests/lint/nanoda/axiom-audit skipped.
 - Current source head `260d7e92cfecdc0d0caaf701aa4e573b0f042430`, module blob `1a620b41b5548dc9284f7ca66ade23bd420e9bb1: duplicate comment removed; `Identified` unfolded before direct proof application. Exact GitHub readback passed.
 - New exact-head run **#44336405060**, job **#134914302633**, has started; checkout IN_PROGRESS, no compile result. Status **LEAN_CURRENT_HEAD_CI_IN_PROGRESS**, not pass. No retry/new PR/merge/theory promotion.
+
+
+## H930:S3 | 2026-11-18 18:36Z | Observable-family selection freeze
+
+- Report: [H930:S3](2026-11-18T1836Z_H930_S3_OBSERVABLE_FAMILY_SELECTION_FREEZE.md); amendment 01; receipt `2026-11-18T1836Z_s3_ravel.md`. All three created and exact readback verified.
+- Additive P2 selection contract: freeze primary/joint-primary and secondary-family selection pipeline before holdout; same H0/H1 selection operator; joint covariance/dependence; post-hoc/unadjusted secondary channels exploratory unless selection/multiplicity treatment or independent confirmation is predeclared.
+- PR #2004 exact head `a3e692a3b3e702b5e0a2e14c063ff35d5501d38b`; run #44372314170 exact checkout and Lake manifest PASS, Lean compile IN_PROGRESS. No compile pass or axiom audit.
+- Publisher issue #2005 PUBLISHED_VERIFIED; canonical artifact SHA-256 `70be1753f0930fcbeb1eadcb31fac9a17715a12350bf0680b136bdb68412a066`, 5,846 bytes, exact issue/workspace/artifact match. P2 issue #1855 comments #6988133193 and #6988143282 link the contract/status.
+- PR #2003 closed unmerged as superseded by #2004. No duplicate merge or retry.
+- P2 HOLD, no system/data/physical calculation/fit/prediction/threshold/independent measurement. P0 active; P1 Orson-owned overdue/not ready; P3 incomplete; FIE next Nov24.
+- WH-01 cursor 18:30Z; ledger 75 rows; 21 records uninspected. WH-02 Calder-owned; WH-05 four Mersearch lanes occupied/requested. Graph 16 declared/18 records unresolved.
+- No handoff to Orson; protected P1 cognition remit is not a geometry review queue. No task, schedule, ID, phase, cadence, signet, chat-title, or theory-state change.
+- Partial lateral attempt: Okakura, `The Book of Tea`, Chapter I opening, public-domain Project Gutenberg excerpt; full page fetch failed. No full chapter or next cursor claimed. Previous completed unrelated readings: Ravel h926 Babbage; Tern h929 Wells.
+- **Return pin:** `H930:S3 / RAVEL / ORSON-NEXT / OBSERVABLE-FAMILY-SELECTION-FREEZE / PR2004-DRAFT-LEAN-IN_PROGRESS / ISSUE2005-PUBLISHED_VERIFIED / P2-HOLD / NO-HANDOFF / TASK-UNCHANGED`.
