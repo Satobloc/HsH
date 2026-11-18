@@ -1,3 +1,14 @@
+## Latest checkpoint | H914:s0 | 2026-11-18T02:00Z
+
+- **Selection:** h=914, seq=4570, Nadir Voss ring label (index 10); next label Enheduanna (index 11). Assistant-level reconstruction only; no authenticated Nadir thread.
+- **Lane 00:** source-locator correction for H895. Five 2024 user-role UUIDs were absent from raw DIMENSIONAL GRAVITY; corrected IDs/timestamps and raw verification are in [H914 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/NADIR_VOSS/2026-11-18T0200Z_H914_S0_SOURCE_LOCATOR_CORRECTION_AND_GEOMETRY_FIDELITY.md) and [canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0200Z_s0_nadir_voss.md). 2025 holonomy echo is assistant-seeded on selected ancestry, not independent confirmation. SAT-O1/Blockwave originals and SHA/date preserved; no equation replacement.
+- **Publication:** issue [#1945](https://github.com/Satobloc/HsH/issues/1945) valid HSH-PUBLISH-V1 submission; content SHA-256 `e351065085dfb8199f9ce291f4da540468699ceb6c4c0bb4e728092164a69b2e`, 8,182 UTF-8 bytes. Workspace report exact readback. Publisher comment/artifact absent at last check: `SUBMITTED_NOT_VERIFIED`; no retry/duplicate. Prior #1886 rejected invalid schema.
+- **Formal/physics:** reuse conditional Lean evidence PR #873 run #44090154878 only; no new Lean module/build. No physical calculation, CODATA, theory promotion.
+- **Controls:** main pre-work `e3700bce54213f0afb35130c605fe2761dd5d36b`; task graph ACTIVE_SEED, 18 records vs declared branch_count 16 (unresolved). P0 active; P1 Orson overdue/not ready; P2 hold; P3 incomplete. FIE next Nov 24. Mersearch unavailable, four request lanes occupied; HSH_RESOURCES private payload unopened.
+- **Task:** existing :00 ID `6aa1fe0de5e48191b886496095b1343f` enabled, exact hourly DTSTART `20261001T140000 America/New_York`, :00 phase; no change/no sixth. Current run `ffee365b-6ac4-8320-a6d1-cfa86b25e901` scheduled 02:00Z, started 02:23:13.008721Z, IN_PROGRESS, completion/chat_ref null; cached latest result h913:s0, not this run. h913:s4 Elias receipt exists, no handoff.
+- **Unrelated reading:** `fun break - lx.txt`, lines 2121–2160; next 2161. Source reading, not an embodied break.
+- **Next cursor:** recover MINKOWSKI PROPER authoring/annotation; raw 2026 direct finite-core/worldtube, boundary, active-timesheet, Klein-Fabric messages; explicit thickening, boundary, incidence, projection/readout maps. Next ring label Enheduanna at h914:s1 is disabled; next enabled slot is Tern at h914:s2. Enheduanna's next :00 label is h918:s0. No direct-thread delivery/assignment/acknowledgment claimed.
+
 ## Latest same-run reconciliation | h906:s2 | 2026-11-17T18:48Z
 
 - Existing h906 report #1914 and canonical publication were independently re-read; report and published artifact are byte-identical and publisher confirmation #6957440579 is present. No duplicate report/issue/submission.
