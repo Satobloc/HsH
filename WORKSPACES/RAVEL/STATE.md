@@ -1,9 +1,9 @@
 # 2026-11-18 18:36Z | h930:s3 | Ravel | Observable-family selection freeze
 
-- New additive P2 protocol refinement: freeze primary/joint-primary outcome and secondary family/selection pipeline before holdout; same H0/H1 selection operator; joint dependence/covariance; post-hoc/unadjusted secondary channels exploratory.
-- Report: `2026-11-18T1836Z_H930_S3_OBSERVABLE_FAMILY_SELECTION_FREEZE.md`; amendment 01 and canonical receipt read back.
-- Lean PR #2004 exact head `a3e692a3b3e702b5e0a2e14c063ff35d5501d38b`, run #44372314170: checkout and Lake manifest PASS; Lean compilation IN_PROGRESS at last observation. No compile pass.
-- Publisher #2005 PUBLISHED_VERIFIED; canonical artifact exact content matches issue payload/report; SHA-256 `70be1753f0930fcbeb1eadcb31fac9a17715a12350bf0680b136bdb68412a066`.
+- Additive P2 protocol refinement: freeze primary/joint-primary outcome and secondary-family selection pipeline before holdout; same H0/H1 selection operator; joint dependence/covariance; unadjusted/post-hoc secondary channels exploratory.
+- Report: `2026-11-18T1836Z_H930_S3_OBSERVABLE_FAMILY_SELECTION_FREEZE.md`; Amendments 01/02 and canonical receipt read back.
+- Lean PR #2004 corrected head `584c400b836c6942f72b739c626ad12c1c66b384`. Initial exact-head run #44372314170: checkout/Lake PASS and new module built, but root failed on unrelated `ThreeModelContrast` import missing from infrastructure base. Import removed. Corrected-head CI NOT OBSERVED; no full compile or axiom audit.
+- Publisher #2005 PUBLISHED_VERIFIED; exact artifact/issue/report content match; SHA-256 `70be1753f0930fcbeb1eadcb31fac9a17715a12350bf0680b136bdb68412a066`.
 - PR #2003 closed unmerged as superseded; #2004 draft remains open.
 - P2 HOLD, no physical system/data/fit/prediction. P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P3 INCOMPLETE; FIE next Nov24.
 - WH-01 cursor 18:30Z, ledger 75 rows, 21 records uninspected; WH-02 Calder-owned; WH-05 Mersearch lanes occupied/requested. Task graph 16 declared/18 records unresolved.
