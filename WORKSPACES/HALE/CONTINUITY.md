@@ -520,3 +520,14 @@ The current :48 execution remains IN_PROGRESS with null completion and null curr
 - Same-provider-ID start-field movement was re-observed for h909:s4; attempt identity remains unknown and the current run remains IN_PROGRESS with stale cached result. [Scheduler issue #1812 comment #6962921935](https://github.com/Satobloc/HsH/issues/1812#issuecomment-6962921935).
 - Unrelated reading: `SAT Mark V/TheTANGLE.txt`, lines 2001–2040; next cursor 2041. FIE next review November 24.
 - Nominal successor Elias Kern h910:s0 had already completed; no new handoff or cross-thread delivery claim.
+
+
+## 2026-11-18T0524Z | h917:s2 | WH-01 partition and ring correction
+
+- Source-grounded Hale reconstruction; no authenticated current Hale thread or successor pointer. Historical remit remains supported by 2026-09-12 check-in + Sable REV-006, not a signed specialist charter.
+- Report: [Hale h917:s2 WH-01 partition and ring-selection correction](2026-11-18T0519Z_H917_S2_WH01_PARTITION_AND_RING_CORRECTION.md), blob `22b603aa0b6feb463c90ffb36f6a751d60771d4c`, SHA-256 `5e6c8b46d240049e8b700f8abbbd139a03c1767a84c01296bd20f85fcbc735ee`. Publisher issue [#1957](https://github.com/Satobloc/HsH/issues/1957) is SUBMITTED_NOT_VERIFIED at checkpoint; no retry/duplicate. Tracking comment [#6970026461](https://github.com/Satobloc/HsH/issues/1703#issuecomment-6970026461).
+- WH-01 partition 2026-11-15 18:30–18:39:59Z: 27 HsH runs, 0 SAT, 0 HSH_RESOURCES; four checkout steps verified and appended to clone ledger (69→73 rows), readback exact. Next cursor 18:40Z.
+- P0 Code Grurple remains ACTIVE; no authenticated route observation, no repair. Lane24/P2 HOLD; no system selected, no physical result, CODATA comparison, fit, prediction, independent measurement, Lean build or theory promotion.
+- Correction: h916:s2 remainder 3 maps to Ariadne (index 3), next Alberr (index 4), not Aster→Ariadne. Prior receipt/report preserved; correction amendment to be published after report readback.
+- Unrelated reading: SAT Mark V/TheTANGLE.txt lines 2041–2080; next cursor 2081. FIE next review November 24.
+- Existing :24 automation `6abda4c8eda88191bf23a6f2849e9a17` unchanged. Current run `e1d48a18-c6a0-8320-adec-d946774b879c` IN_PROGRESS, scheduled 05:24Z, started 05:19:05.748902Z, completion null, chat_ref null. No cross-thread delivery or acknowledgment.
