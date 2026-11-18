@@ -1,3 +1,15 @@
+## Latest checkpoint | Calder h928:s3 | 2026-11-18 16:36Z | Comparator coverage envelope
+
+- [Report](2026-11-18T1636Z_H928_S3_STANDARD_COMPARATOR_COVERAGE_ENVELOPE.md): additive H0 comparator-family coverage and predictive-envelope crosswalk inside the existing P2 D-axis.
+- P2 matrix [#1855](https://github.com/Satobloc/HsH/issues/1855) remains candidate-only; P2 [#565](https://github.com/Satobloc/HsH/issues/565) remains HOLD. No new gate/schema/status, model, physical calculation, fit, prediction, threshold, raw data or theory promotion.
+- Publisher intake [#1993](https://github.com/Satobloc/HsH/issues/1993), submission calder-h928-s3-standard-comparator-envelope-20261118t1636z-001; digest 3599215eab8bd00df1dd856519624ce1ba0e09c297e0f67925bc8388c222d026; exact workspace/issue content match verified. Publisher comment/artifact readback pending.
+- No Lean compile, new PR or tooling. Existing generic set/fiber/feature-necessity work reused; abstract set target is not physical.
+- P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P3 INCOMPLETE. FIE next Nov 24.
+- WH-01 cursor 18:30Z; 21 records remain in 18:40 partition. WH-02 PR #1710 remains Calder-owned. WH-05 Mersearch unavailable/lanes occupied. Task graph discrepancy unresolved.
+- Next: Hale h928:s4, optional packet prepared. No direct-thread delivery or acknowledgment.
+- Existing :36 task ID 6a9f52b69ec08191b8a91a30d2a155e0 unchanged and enabled; hourly America/New_York :36. Current run 454ec454-3ef4-832b-94c2-a8cca2b2f9ca IN_PROGRESS at readback. No sixth task.
+
+---
 ## Latest checkpoint | Calder h924:s4 | 2026-11-18 12:48Z | Review-MIND
 
 - [Report](2026-11-18T1248Z_H924_S4_REVIEW_MIND_POPULATION_SIZE_AND_UNIT_AUDIT.md): incremental primary-source review of PNAS 2026 group-size scaling and measurement-unit QC.
