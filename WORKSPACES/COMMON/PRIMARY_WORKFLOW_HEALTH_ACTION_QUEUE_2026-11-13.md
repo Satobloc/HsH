@@ -44,6 +44,7 @@ Fallback is a continuity mechanism, not a repair. When a tool, lane, workflow or
 - Coordinator: Tern / Comptroller.
 - Exit: reproducible repository/day/workflow counts, retained raw snapshot/hash, uncertainty and residual bounds; no inferred unique humans.
 
+- Tern h914:s2: exact Actions run-created partition 2026-11-15 18:20:00–18:29:59Z inclusive, page 1/per_page=100, returned total_count=0 for HsH, SAT archive and HSH_RESOURCES. No runs/jobs/checkout steps; CLONE_LEDGER.jsonl remains 69 rows. Next cursor 18:30:00Z. Public report intake issue #1944 is SUBMITTED_NOT_VERIFIED while the publisher run is in progress; do not treat as published. No Traffic, manual-clone or provisioning inference.
 ### WH-02 — Conversation dating, tagging and chronology coverage
 - Source: HsH issue #1702; date-tag scripts/workflow/manifests.
 - Objective: suffix-independent content-based discovery across root and sorted folders; explicit undatable exceptions; strict audit blocks missing datable tags/collisions but not legitimate undatable records; root included in all aggregate indexes/viewers.
