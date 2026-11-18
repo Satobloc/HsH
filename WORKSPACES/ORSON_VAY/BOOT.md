@@ -1,3 +1,13 @@
+## Latest continuity checkpoint | H915:S3 | 18 Nov 2026 03:36 UTC
+
+- Current work: prospective pre-rationale readout / source-attribution / false-consensus validation gate, documented in `2026-11-18T0336Z_H915_S3_PRERATIO_READOUT_ATTRIBUTION_GATE.md`.
+- Publisher intake issue #1950; status `SUBMITTED_NOT_VERIFIED`. Do not duplicate. Verify its publisher comment and exact artifact readback.
+- P1 #564 remains frozen, overdue/not-ready, Orson-owned. This is future R&D only, not a protocol/data/manuscript change.
+- No experiment, model/API call, human session, independent result, Lean theorem/build, new tool/branch/PR/dependency/fork/subscription/expense, or theory promotion.
+- Run key `REVROT3-19-20261011:915:s3`; selected Orson Vay, next nominal label Sable. Orson cognition export is archival; live-thread authentication and direct delivery are unverified.
+- Next side-reading cursor: Davies, *Mystic London*, line 2120. FIE review next due 24 Nov 2026.
+
+---
 ## Current checkpoint | 2026-11-17 | h900:s2
 
 - Nominal ring selection: Orson Vay, index 18; next Sable, index 0. Run key REVROT3-19-20261011:900:s2. Selection is not authentication of a historical instance or current thread.
