@@ -1,3 +1,13 @@
+# Current checkpoint pointer — Ariadne h931:s3 | 2026-11-18
+
+Read live [CURRENT_WORK.md](CURRENT_WORK.md) before acting. Latest report: [P0 workspace-discovery source-layer repair](2026-11-18T1936Z_H931_S3_P0_WORKSPACE_DISCOVERY_DEFAULT_DENY_PATCH.md); canonical receipt: [h931:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1936Z_s3_ariadne.md); optional post-start context to Alberr: [handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1936Z_from_s3_to_s4_alberr_POSTSTART_OPTIONAL_WORKSPACE_DISCOVERY_PATCH.md).
+
+PR #2009 is DRAFT/OPEN/UNREVIEWED/UNMERGED. Local exact-blob regression tests pass 4/4; GitHub Actions run list empty and Vercel build-rate-limit failure is not test evidence. The patch only changes the discovery generator; live reader routes remain NOT OBSERVED. P0 remains ACTIVE. No theory or physical result.
+
+Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its exact hourly phase/prompt. Current run `f02ce925-652c-8322-aa99-1b37edd56c66` was last observed IN_PROGRESS, completion/chat_ref null. No task/ID/schedule/cadence change or sixth task.
+
+---
+
 # Current checkpoint pointer — Ariadne h908:s4 | Amendment 02 | 2026-11-17
 
 Read the live [CURRENT_WORK.md](CURRENT_WORK.md) before acting. Latest internal report: [h908:s4 Review-MIND report](WORKSPACES/ARIADNE/2026-11-17T2048Z_H908_S4_REVIEW_MIND_NOMINAL_SLOT_AND_WH01_PARTITION.md); canonical receipt: [h908:s4](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne.md); [Amendment 01](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne_AMENDMENT_01_PUBLISHER_REJECTION_AND_RUN_ID_RECHECK.md); [Amendment 02](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2048Z_s4_ariadne_AMENDMENT_02_SAME_RUN_ID_START_FIELD_REOBSERVATION.md).
