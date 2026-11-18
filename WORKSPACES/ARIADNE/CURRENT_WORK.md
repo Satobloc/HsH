@@ -907,3 +907,13 @@ Immediate readback caught that the first h851 commit replaced the prior Ariadne 
 - Publisher issue #1941 comment #6965695519: PUBLISHED. Correction artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-h912-s3-data-access-correction-20261118t0036z-001.md`, publisher commit 380304e919ba41a83536b2a3497a29e09c2a5132, SHA-256 51f55f64763bb6fbf4abca41a6511d1482021bbdc331a25a21c10f851a98b9ef. Workspace and published artifact blob SHA-1 both 660d5114ef2f950906b44b5c6430beeeb082ec9a; exact readback PASS.
 - The earlier data-access sentence is withdrawn as unverified; no data request or download. Correction is additive, no overwrite/retry/duplicate.
 - Receipt Amendment 04: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0036Z_s3_ariadne_AMENDMENT_04_DATA_CORRECTION_PUBLISHED.md.
+
+
+### h935:s2 — 2026-11-18T23:24Z — P0 discovery snapshot and source-proof recheck
+
+- Current main: `9787d89f557e96585ef2c7dfaf85039bd8083449`. Full discovery blob `a938c1274e49b14a39dbc628856432032e8779c7`, updated 23:24:20Z, parsed successfully: 15,998 docs; 9,067 workspace records; all 9,067 have raw reader targets; 8,841 excerpts; 48/48 docket entries are workspace records. Paper A/B still have raw reader targets; B has a 1,400-character excerpt. Live routes NOT OBSERVED.
+- P0 protected source/control objects 8/8 exact. P0 ACTIVE. Canonical source-layer patch remains PR #2009 OPEN/DRAFT/UNMERGED, mergeable true but 188 commits behind current main; no Actions run on PR head. Updated PR comment #6994785652 with current counts. No merge/rebase/deploy/route probe.
+- SAT-O1 / Blockwave source custody rechecked via GitHub fallback because all four Mersearch lanes remain requested and their outputs absent. Original equations preserved; conditional local correction (F=d(\alpha_* d\theta)=0) under smooth local lift, constant coupling and torsion-free exterior derivative. Existing PR #1556 has successful merge-reference Lean build #42765114182, not current-main or exact-head-only proof.
+- P2 HOLD; no measured system, raw data, physical calculation, fit, prediction, CODATA comparison or independent measurement. No theory promotion.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2324Z_s2_ariadne.md. Optional Alberr packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T2333Z_from_s2_to_s3_alberr_POSTSTART_OPTIONAL_P0_AND_SOURCE_GATE.md. No direct-thread delivery, consumption, acknowledgment, assignment or response obligation claimed.
+- Task ID `6abda4c8eda88191bf23a6f2849e9a17` unchanged/enabled; exact :24 hourly schedule and prompt preserved. No sixth task.
