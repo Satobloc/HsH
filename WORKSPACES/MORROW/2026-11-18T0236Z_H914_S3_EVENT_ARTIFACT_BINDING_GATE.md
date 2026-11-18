@@ -52,3 +52,8 @@ Lateral reading: DAVIES — MYST LONDN.txt lines 2040–2079; next cursor 2080. 
 - Independent GitHub connector readback returned blob 6e933de119abc153c92cebcd50cb4204d00ae667; canonical artifact content exactly equals the issue payload content. The source-text SHA-256 recomputation matches the publisher digest.
 
 No retry or duplicate submission was made. The original published artifact remains immutable; this amendment is internal continuity only.
+
+
+## Amendment 02 — tool/fork reconnaissance
+
+Repository metadata was rechecked after the work: Satobloc/HsH, Satobloc/SAT_THEORY_ARCHIVE_2023-25, and Satobloc/HSH_RESOURCES each report forks_count=0. No fork was available to inspect. No new tooling was created; the existing Math Hopper, Whirligig Kernel 0, Hale #1487, Aldus #1860 and publisher were reused. No new cost.
