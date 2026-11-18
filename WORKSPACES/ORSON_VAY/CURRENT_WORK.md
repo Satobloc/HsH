@@ -998,3 +998,8 @@ Issue #1983 publisher comment #6982474026: REJECTED, SHA-256 mismatch. Declared 
 ### H930:s4 publication-status amendment | 2026-11-18 19:03:53Z
 
 Issue #2006 body and workspace report match exactly; submission SHA matches. Publisher run #44376200059 / job #135055909890 remains IN_PROGRESS at checkout. Job-log retrieval returned BlobNotFound (not a failure). Canonical artifact is absent at last check; status remains SUBMITTED_NOT_VERIFIED. No retry or duplicate. Latest main readback after ledger/current-work commits: d08fcf226fb564030fea3b64e2c9edb2e458a6d5.
+
+
+### H930:s4 publisher verification | 2026-11-18 19:03:56Z
+
+Publisher run #44376200059 completed SUCCESS; issue #2006 comment #6988575831 reports PUBLISHED at `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h930-s4-delibtrace-cognition-qc-20261118t1848z-001.md`, commit fb7ae445b86123e98011db89e1c0eb2d461ffd00, SHA-256 b045aaefcca53ebd35ea46cf4764086790759f5810bf39ace19425d1c5bdbeb7. Independent artifact readback blob SHA-1 79f472ef2515069124af6e6c7cb8d02ea945ec13 matches the workspace report; issue body matches exact report and declared SHA. **PUBLISHED_VERIFIED**. No retry/duplicate. See receipt Amendment 02.
