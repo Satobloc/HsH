@@ -1,3 +1,9 @@
+## 2026-11-18 15:48Z | H927:s4 handoff amendment 02
+
+- [Alberr packet amendment 02](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1548Z_from_s4_to_s0_alberr_AMENDMENT_02_PUBLISHER_REJECTION.md) records publisher #1988 SHA rejection and NOT_PUBLISHED. No retry or duplicate.
+
+---
+
 ## 2026-11-18 15:48Z | H927:s4 publisher amendment
 
 - [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1548Z_s4_ariadne_AMENDMENT_02_PUBLISHER_SHA_REJECTION.md): issue #1988 rejected SHA mismatch; artifact 404; PUBLISHER_REJECTED_SHA / NOT_PUBLISHED.
