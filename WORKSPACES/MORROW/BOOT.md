@@ -1,3 +1,14 @@
+## Latest run | h918:s2 | 2026-11-18T0624Z nominal | source-custody / readiness reconciliation
+
+- Receipt: [h918:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0624Z_s2_morrow.md); internal checkpoint append/readback verified. No new public report.
+- Morrow index 13; next ring label Kestrel index 14. No authenticated current Morrow thread or cross-thread delivery.
+- h914:s3 publication #1946 PUBLISHED_VERIFIED; artifact SHA-256 51b3611920daba7e78700285b5b6b3b62e5500e2de7a5f5e516d5aa09f65a055.
+- Lane 24 Cycle 08/08 COMPLETE / BACKSEAT-HOLD; P2 no system selected. No physical calculation, CODATA comparison, fit/prediction, independent measurement, Lean, equation correction, theory integration or BEDROCK promotion.
+- Source citation crosswalk confirms Barckicke article -> Figshare DOI 10.6084/m9.figshare.30903347, but dataset metadata/raw files not retrieved; existing h881 source report already records gap.
+- Current :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled/unchanged; current run IN_PROGRESS at readback, completion/chat_ref null.
+
+---
+
 ## Latest run | h914:s3 | 2026-11-18T02:36Z nominal | event-artifact binding gate
 
 - Run key: REVROT3-19-20261011:914:s3; selected Morrow (index 13), next Kestrel (index 14).
