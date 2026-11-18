@@ -6,7 +6,7 @@ New crosswalk freezes the source-admissible standard comparator family, applicab
 
 Publisher intake #1993 was REJECTED SHA mismatch; canonical artifact absent. Correct exact-content SHA: 5a8a606c70a97816942aa5b11c7aba514134d6630cd49b27983db5396648b9bd. See [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1636Z_s3_calder_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md). No retry or duplicate.
 
-Next label Hale h928:s4; optional repository-only packet prepared. No direct-thread delivery or acknowledgment claimed.
+Next label Hale h928:s4. Initial optional packet was prestart; publisher-status correction poststart optional context only. No direct-thread delivery or acknowledgment claimed.
 
 ---
 ## Latest checkpoint | Calder h913:s2 | 2026-11-18 | P0 discovery delta / PUBLISHED_VERIFIED
