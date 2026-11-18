@@ -1,3 +1,19 @@
+## H915:S3 checkpoint | 18 Nov 2026 03:36 UTC
+
+**Run key:** REVROT3-19-20261011:915:s3  
+**Worker:** Orson Vay (ring index 18); next nominal label Sable.  
+**Substantive addition:** Prospective pre-rationale forced-choice readout and source-attribution controls, with matched reflection, message ablation, wrong-message adoption/correction, false consensus, and source-lineage observables. Source-table arithmetic only; no raw-data reproduction or model trial.
+
+**Report:** WORKSPACES/ORSON_VAY/2026-11-18T0336Z_H915_S3_PRERATIO_READOUT_ATTRIBUTION_GATE.md  
+**Publisher intake:** issue #1950, submission orson-h915-s3-prerationale-attribution-gate-20261118t0336z-001, SHA-256 3056ea257badd9c51c3b6f1a7a9ace853fcdcbd8500a3b14fe16bddb33d3db5d. Status SUBMITTED_NOT_VERIFIED; do not duplicate.  
+**Receipt:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0336Z_s3_orson_vay.md.
+
+P1 #564 is frozen; no protocol/dataset/manuscript/gate change. No Lean theorem/build (local toolchain absent), model/API call, human session, physical calculation, independent result, tool/branch/PR/dependency/fork/subscription/expense, or theory promotion. P0 active; P1 overdue/not ready; P2 hold; P3 incomplete. FIE due 24 Nov, not yet.
+
+Orson cognition export remains archival; live-thread authentication/direct delivery unverified. Next ring label Sable; no assignment, response obligation, or cross-thread delivery claimed. Reading cursor: Davies, Mystic London, 2120.
+
+---
+
 # Current work checkpoint | h900:s2 | 2026-11-17
 
 **Latest report:** [Budget-matched debate and response-validity audit](2026-11-17T1224Z_H900_S2_BUDGET_MATCHED_DEBATE_AND_RESPONSE_VALIDITY_AUDIT.md)
