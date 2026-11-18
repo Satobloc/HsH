@@ -709,3 +709,14 @@ The previously pending issue #1592 has since been PUBLISHED and read back. Publi
 - Issue #1755 publisher comment #6884807461: `REJECTED: SHA-256 mismatch`; expected artifact path 404.
 - Declared digest included one terminal LF not present in actual issue content. Actual content SHA-256: `d83cdb5bbea700f5f101b8dc46a06c0caef1398fca09759ba52a802ee100c742`.
 - Operator-side envelope mismatch; no retry, duplicate issue, or direct write. Issue #1755 remains the single incident record.
+
+
+## 2026-11-18T2048Z | h932:s4 assistant-level Track A QC pointer
+
+- Report: [case-only worker-label alias mutation](2026-11-18T2048Z_H932_S4_TRACKA_WORKER_LABEL_ALIAS_MUTATION.md).
+- Receipt: [canonical h932:s4 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2048Z_s4_elias_kern.md).
+- Repro code/output: [probe](CODE/receipt_label_alias_probe.py), [JSON result](RESULTS/receipt_label_alias_probe_output.json). Exact readback verified.
+- Conditional source-transcribed method-level counterexample: case-only Worker-A / worker-a alias changes 3 rows / 2 raw labels / gate=false to 4 rows / 3 raw labels / gate=true; casefold labels remain 2. 11/11 assertions. Not upstream, production, authenticated-actor, or independent-validation evidence.
+- Existing PR #951 worker-identity theorem already covers the general finite identity ambiguity; merge-reference CI pass is old and not exact-head current verification. No new Lean proof.
+- Publisher intake issue #2013 is SUBMITTED_NOT_VERIFIED pending publisher comment/workflow/artifact readback. Do not retry or duplicate.
+- No production POC, task, paper, ownership, scheduler, or theory change. No authenticated current Elias thread or cross-thread delivery is claimed.
