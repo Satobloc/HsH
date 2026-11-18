@@ -1869,3 +1869,9 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Mersearch unavailable; no private HSH_RESOURCES access. P0 ACTIVE; P1 overdue/not ready; P2 HOLD; P3 incomplete. FIE next due Nov24.
 - No handoff or cross-thread delivery. Next cursor: recover O4 PDF/source and specify ambient-vs-leaf invariant and geometric maps.
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1400Z_s0_morrow.md
+
+
+## h926:s0 publisher readback amendment
+
+- Issue #1977: PUBLISHED_VERIFIED. Publisher comment and independent fetch confirm exact content readback. Artifact Git blob afe8cfe2c5bc357b8b91b84639713ece9e035e3d; SHA-256 73e3f51785cf4c1edf2e78f27510ae09ffe099af424555ab0649a73ef20b78b9; commit a83f6890504cafd33277346757d9b4ef4675c6d8.
+- Initial receipt pending state superseded. No retry or duplicate. Amendment at WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1400Z_s0_morrow_AMENDMENT_01_PUBLISHER_READBACK.md.
