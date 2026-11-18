@@ -1,3 +1,12 @@
+## Publisher readback amendment 01 | h924:s0 | 2026-11-18 12:58Z
+
+- Issue #1973 publisher workflow [#44308825374](https://github.com/Satobloc/HsH/actions/runs/44308825374) completed SUCCESS. Publisher comment #6979236873 verified exact artifact path, commit and SHA-256.
+- Artifact [published submission](../COMMON/PUBLISHED_SUBMISSIONS/ariadne-h924-s0-kerr-section-type-fidelity-20261118t1200z-001.md) and workspace report content compare exactly to issue payload; SHA-256 `b3bdc7fdf429b66225143bb62938ac45bbe72897b500c662b25c3bf18a39f3cc`.
+- h924:s0 status upgraded to PUBLISHED_VERIFIED. No retry or duplicate.
+- Provider task run remains last observed IN_PROGRESS; completion/chat_ref null. Publication verification is separate from task completion or direct-thread delivery.
+
+---
+
 ## Latest checkpoint: h924:s0 | 2026-11-18 | Kerr-section source-fidelity correction
 
 - Nominal `scheduled_for=2026-11-18T12:00:00Z`; provider run `2bbb44d4-e6d0-832c-bc0c-c89b3ed194e3` started 12:35:08.729858Z (35m late); last observed IN_PROGRESS, completion/chat_ref null.
