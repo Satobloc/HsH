@@ -1063,3 +1063,5 @@ The November 16 P2 evidence gate is due but unmet. Nadir h864:s3's current sourc
 - No task changes or handoff. Next cursor: original Trees source, Forest equation, then typed w/t/c/H0 and Crullerverse map.
 
 - Receipt path reconciliation: the canonical H918 receipt was corrected to the publisher artifact’s exact filename (…typing-20261118t0600z-001.md); no publication retry or duplicate was made.
+
+- Scheduler readback anomaly: task remains enabled with exact :00 hourly DTSTART/RRULE. run_details shows run 8e456183-8204-8324-a283-7fe28e886066 scheduled 06:00Z, started 07:24Z, completion/chat_ref null; the separate last_run_time field still shows 05:03Z. Record as stale/inconsistent run metadata, not a task mutation.
