@@ -1,0 +1,27 @@
+{
+  "after": {
+    "distinct_worker_labels": 3,
+    "exact_unique_rows": 4,
+    "rows": 4,
+    "threshold_met": true
+  },
+  "before": {
+    "rows": 3,
+    "threshold_met": false
+  },
+  "checks": {
+    "before_three_rows_gate_is_false": true,
+    "distinct_worker_labels_remain_three": true,
+    "exact_row_identity_counts_four": true,
+    "gate_flips_to_true": true,
+    "mutated_row_changes_only_timestamp": true,
+    "row_count_becomes_four": true,
+    "success_and_failure_remain_present": true,
+    "timestamp_differs_by_one_second": true
+  },
+  "classification": "CONDITIONAL_SOURCE_TRANSCRIBED_IDENTITY_AMBIGUITY_PROBE_NOT_UPSTREAM_OR_PRODUCTION_TEST",
+  "interpretation": "A timestamp-mutated replay is indistinguishable from a new receipt event under the current row-count gate. Whether this is a defect depends on the intended event-identity contract; no event-ID/authenticated-provenance claim is tested.",
+  "status": "PASS",
+  "tests_passed": 8,
+  "tests_total": 8
+}
