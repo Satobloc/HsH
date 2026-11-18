@@ -143,3 +143,18 @@ Deliberate side-reading: Charles Babbage, *Reflections on the Decline of Science
 No new public publisher submission was created. This run produced no new physical result or theory change; the existing source-lock report, P0 issue #1747, P2 issue #565/#1855, and draft PRs remain the canonical records. Avoid a duplicate public artifact while P0 is active.
 
 **Return pin:** `H934:S2 / RAVEL / ORSON-NEXT-PROTECTED / P0-ACTIVE / 8-OF-8-EXACT / DISCOVERY-2AF1055-UNPARSED / P2-HOLD / SAT-O1-AND-BLOCKWAVE-ORIGINALS-PRESERVED / PR2004-EXACT-HEAD-LEAN-PASS / PR1984-STRUCTURE-PROOF-COMPILE-IN-PROGRESS / MERCER-PR1235-MODULE-NOT-IMPORTED-UNVERIFIED / BABBAGE-CURSOR-1072 / TASK-UNCHANGED`.
+
+
+## Amendment 01 | 2026-11-18 22:41Z | Ravel PR #1984 exact-head result
+
+The previously pending exact-head run on `f7dba2540912139c4f8565f9644f106de06cc0ca` completed:
+
+- Workflow #44412966434 / job #135185725627: **FAILURE**.
+- Exact PR-head checkout: PASS.
+- Lake dependency manifest: PASS.
+- Lean 4.34.0 / Mathlib build: **FAIL** in `HsHVerification.CausalIdentification`, line 72:4.
+- Exact diagnostic: `Function expected at h.agreement (sameOutcomeWorld outcome) (alternativeWorld assignment outcome)`; Lean displayed the resulting implication type but rejected its application to `same_world_matches_observation assignment outcome`. The rest of the root targets built; `CausalIdentification` was the sole required target failure.
+
+A further proof-style revision at head `2ec75b7878c9053be2cc11eca94891498cb70c27` changes the witness application to tactic mode. Reopening the same existing draft PR triggered run #44413809283. At this amendment's readback, its job #135188667905 remained IN_PROGRESS during checkout; no compile result is available. The PR remains open/draft/unmerged. No proof pass is claimed, and no new PR was created.
+
+This is a formalization/debugging result only. It does not affect P2's physical-data gate or establish any physical premise.
