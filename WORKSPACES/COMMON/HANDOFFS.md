@@ -716,3 +716,9 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Public intake issue #1983, SHA-256 `65103c1790c410bcc027b7f43d30134222490bb91fb44050071c95db6c77ec09`; publisher status pending at pointer creation.
 - Direct-source triad is non-ontological; ontology-framing correction and assistant “asymptotic convergence” over-interpretation documented. No formal theorem or physical result.
 - Optional context only; no assignment, response obligation, review request, ownership transfer, or direct-thread delivery. :12 disabled; next enabled :24 is Loom.
+
+
+## 2026-11-18 15:08Z | Orson h927:s0 | PUBLISHER SHA REJECTION AMENDMENT
+
+- [Receipt amendment 03](REVIVAL_ROTATION_RECEIPTS/2026-11-18T1500Z_s0_orson_vay_AMENDMENT_03_PUBLISHER_SHA_REJECTION.md) records issue #1983 rejection comment #6982474026, actual issue-body SHA-256 `f307d71653adf81149f75b6c9ed075a9bac3722fbfc1b69a2cb301f95a7f8e4d`, artifact absent. No retry/duplicate.
+- Original optional packet remains [here](REVIVAL_ROTATION_HANDOFFS/2026-11-18T1500Z_from_s0_to_s1_sable_OPTIONAL_EPISTEMIC_GEOMETRY_FIDELITY.md). No assignment or delivery claim.
