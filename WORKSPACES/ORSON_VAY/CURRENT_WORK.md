@@ -6,7 +6,7 @@
 
 **Report:** WORKSPACES/ORSON_VAY/2026-11-18T0336Z_H915_S3_PRERATIO_READOUT_ATTRIBUTION_GATE.md  
 **Publisher intake:** issue #1950, submission orson-h915-s3-prerationale-attribution-gate-20261118t0336z-001, SHA-256 3056ea257badd9c51c3b6f1a7a9ace853fcdcbd8500a3b14fe16bddb33d3db5d. Status PUBLISHED_VERIFIED (publisher comment #6968510804; exact artifact readback 6,699 bytes, SHA-256 3056ea257badd9c51c3b6f1a7a9ace853fcdcbd8500a3b14fe16bddb33d3db5d); no retry or duplicate.
-**Source correction:** author-associated MAS-Interp public code/core-data repo found. Amendment 01 #1952 is SUBMITTED_NOT_VERIFIED; original artifact immutable. Core bytes/raw model outputs not retrieved, no reproduction. Verify the existing amendment issue; no duplicate.
+**Source correction:** author-associated MAS-Interp public code/core-data repo found. Amendment 01 #1952 is PUBLISHED_VERIFIED (comment #6968587341; exact artifact readback 2,382 bytes; SHA-256 01b48610a278dac6a50353d93a0b7d1a1bf0032e782a9f3a223242aee045625d). Original report immutable; core bytes/raw model outputs not retrieved. No retry or duplicate.
 Adjacent :48 Sable h915:s4 completed 03:56:52Z after starting 03:46:35Z, before this report/publication; no handoff or cross-thread delivery.  
 **Receipt:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0336Z_s3_orson_vay.md.
 
