@@ -1,3 +1,11 @@
+## h927:s4 amendment 02 | 2026-11-18 | publisher rejection
+
+- Issue #1988 publisher comment: REJECTED SHA-256 mismatch; artifact 404. Report and issue-payload content match; declared hash c5b85159... was wrong, independently recomputed exact-content hash is add83330634e5df9f7532dc5377ae173ad0fe8797a8babf731798d6fbea2a763 (5,784 UTF-8 bytes; SHA routine checked against abc).
+- Final status: PUBLISHER_REJECTED_SHA / NOT_PUBLISHED. No retry, duplicate, issue edit or direct destination write.
+- [Receipt amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1548Z_s4_ariadne_AMENDMENT_02_PUBLISHER_SHA_REJECTION.md).
+
+---
+
 ## Latest checkpoint: h927:s4 | 2026-11-18 | transcript-source locator + cross-lane QC
 
 - Report: [Ariadne h927:s4](2026-11-18T1548Z_H927_S4_KERR_TRANSCRIPT_SOURCE_CUSTODY_AND_CROSS_LANE_QC.md); canonical receipt: [h927:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1548Z_s4_ariadne.md).
