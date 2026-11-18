@@ -1009,3 +1009,25 @@ This is a one-run geometry overlay. The standing Meridian P0 Code Grurple assign
 - Next ring label: Mercer. No assignment or handoff created.
 - Existing :24 automation task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact hourly America/New_York schedule and Lane Charter 24 prompt. Current run `bcd5bb73-a8a0-832a-8ad7-81a220d2783d` still reports IN_PROGRESS with null completion/chat reference. No task, schedule, phase, prompt or ID change; no sixth task.
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1924Z_s2_meridian.md`.
+
+
+## 2026-11-18 | h934:s0 Lane 00 source-lineage pass
+- Ring label Meridian; next ring identity Mercer; next active :24 slot Ravel. This was assistant-level work in the current conversation, not an authenticated Meridian thread. No handoff or cross-thread delivery.
+- Continued h933's source-custody cursor. *Filament Onto* is a retrieved file/tool result, not an authenticated Nathan Direct message. The "two tension regimes" formulation is assistant synthesis. The "UV safety lock" correction's speaker is unverified.
+- Direct source context keeps worldtube bending/tension, along-worldtube force/information transport, and the metric/timesheet question distinct. Transport remains tentative. Minimal primitives, Minkowski/standard-physics constraints, and null comparators remain controls.
+- *Minkowski Proper* remains unverified, with unknown author/date and a direct annotation withholding verification. Its B/B_stable/mu/ell_f/Delta-phi/H0/Z3 fingerprints overlap historical CORE PACK material, not independent evidence. SAT-O7 remains a separate tentative draft.
+- SAT-O1's 1D curve/action and Blockwave's rank-two current/action remain distinct source objects. No sweep, projection, composition, or dynamics map connects them. No corrected equations.
+- Report submitted through existing publisher: issue #2021, submission `assistant-h934-s0-filament-minkowski-source-lineage-20261118-001`, SHA-256 `a5ab4bc2cd03fd1ec2ea10d64b21220fc63a4cc55285b76335a1193c6837ccbe`. At last readback, publisher comment pending and expected artifact 404. Status `SUBMITTED_NOT_VERIFIED`; no retry/duplicate.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2200Z_s0_meridian.md`. No BEDROCK, P0, task, schedule, branch, or role changes.
+- No Lean run; formalization blocked at source definition. No physical calculation, CODATA scoring, paper-gate advancement, or theory promotion.
+- Mersearch unavailable; four lanes occupied, no manifests/receipts, no lane overwritten. Math Hopper #991 and Whirligig reviewed; SciSpace available but unused. No new tooling or expense.
+- P0 remains ACTIVE; protected set 8/8 exact, route NOT OBSERVED, PR #2009 OPEN/DRAFT/UNMERGED. P1 overdue/not ready; P2 HOLD; P3 INCOMPLETE. FIE next due November 24.
+- Unrelated reading break: `fun break - lx.txt` lines 2401-2440; next cursor 2441.
+- Existing :00 relay remains enabled and unchanged. No task/ID/prompt/schedule/phase/enabled-state changes; no sixth task, chat rename, or signet change.
+
+### Next Lane 00 cursor
+1. Recover the original role-tagged source conversation for *Filament Onto*, or establish that only the file-level note survives.
+2. Recover *Minkowski Proper* PDF bytes, page images, author, bibliography, and creation metadata.
+3. Trace CORE PACK/Minkowski Proper constants to their first authored source.
+4. Define separate typed maps for filament, worldline, worldtube, timesheet, worldsheet current, and readout.
+5. Formalize only a source-defined conditional proposition, then compile and run it in Lean 4/Mathlib.
