@@ -3,6 +3,7 @@
 - Current work: prospective pre-rationale readout / source-attribution / false-consensus validation gate, documented in `2026-11-18T0336Z_H915_S3_PRERATIO_READOUT_ATTRIBUTION_GATE.md`.
 - Publisher intake issue #1950 is PUBLISHED_VERIFIED (comment #6968510804). Artifact readback is exact, 6,699 bytes; SHA-256 3056ea257badd9c51c3b6f1a7a9ace853fcdcbd8500a3b14fe16bddb33d3db5d. No retry or duplicate.
 - Source correction: author-associated MAS-Interp code/core-data repository located; Amendment 01 #1952 is SUBMITTED_NOT_VERIFIED. The original report is immutable; raw dataset bytes/raw model outputs were not retrieved. Verify the existing amendment issue, do not duplicate.
+- Adjacent :48 Sable h915:s4 completed at 03:56:52Z after starting 03:46:35Z, before this report/publication; no handoff or cross-thread delivery.
 - P1 #564 remains frozen, overdue/not-ready, Orson-owned. This is future R&D only, not a protocol/data/manuscript change.
 - No experiment, model/API call, human session, independent result, Lean theorem/build, new tool/branch/PR/dependency/fork/subscription/expense, or theory promotion.
 - Run key `REVROT3-19-20261011:915:s3`; selected Orson Vay, next nominal label Sable. Orson cognition export is archival; live-thread authentication and direct delivery are unverified.
