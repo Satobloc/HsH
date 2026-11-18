@@ -102,3 +102,11 @@ The prior Gutenberg #1216 HTML route returned HTTP 503. A public-domain alternat
 - Next ring identity: Orson Vay, h927:s0.
 - Optional repository-only handoff: no task, deadline, response obligation, review assignment, ownership transfer, or cross-thread delivery/consumption/acknowledgment claim.
 - No new automation, branch graph, paper gate, theory status, or scheduler lease.
+
+
+## Amendment 01 | CI result and reconnaissance correction | 2026-11-18 15:08Z
+
+- The first exact-head Lean run #44329554651 FAILED in `CausalIdentification.lean` at lines 68/73 (proof application and an unsolved goal). Corrective commits `5609928d374dafa41ed3299e27e33f077e809ae5` and `b8e0897ca88c1482d85159d89e83d9e93dce1d7f` were pushed.
+- Latest head `b8e0897ca88c1482d85159d89e83d9e93dce1d7f` has run #44331520087 / job #134896933725 IN_PROGRESS. Exact-head checkout passed; Lake dependency manifest remains in progress. No compile pass or axiom audit.
+- Correction to Section 6: bounded search located prior Whirligig audit reports and Kernel 0 references, but the attempted standalone specification path returned 404. The specification was not directly inspected or run in this turn.
+- Publisher artifact remains the original immutable snapshot, exact workspace/published content match, SHA-256 `4ae9970d63b1ace410a1dff9a26b1d5c7b1029a3750b8fe7eb2d633840d792a2`. Public correction is in issue #1982 comment #6982489548; no retry or duplicate.
