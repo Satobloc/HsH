@@ -1,5 +1,17 @@
 # 2026-11-18 14:48Z | h926:s4 | Ravel | Review-MIND
 
+- **Method:** comparison-freeze reproducibility does not imply causal identification. CF-1 refinement separates evidence genealogy, causal-interference neighborhood, communication/exposure-event graph and estimator-dependence graph; separates exposure mapping, outcome restrictions, target estimand/policy allocation and estimation design. ACE fixed-exposure vs ECE policy-averaged.
+- **Lean:** PR #1981 had two exact-head failures. Latest source head `26fdc510...` is in verification-trigger draft PR #1984; run #44332723367 exact-head checkout and Lake manifest PASS, compile IN_PROGRESS. No compile pass.
+- **Publication:** issue #1982 PUBLISHED_VERIFIED original snapshot; amendments/comments #6982489548, #6982586182, #6982652424, #6982701947; original digest unchanged.
+- **Cross-lane:** Mercer PR #1979 exact-head CI PASS; publisher #1980 rejected SHA.
+- **Scheduler:** live peek confirms :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` enabled/exact hourly ET :48. Current run `be134f75-cba0-8326-9643-da5f16e85574` in progress, no completion/chat_ref, cached h925:s4.
+- P0 ACTIVE; P1 Orson cognition OVERDUE/NOT READY/ORSON-OWNED; P2 HOLD; P3 INCOMPLETE; FIE next Nov24.
+- Next ring label Orson h927:s0; optional postnominal packet repository-only.
+
+---
+
+# 2026-11-18 14:48Z | h926:s4 | Ravel | Review-MIND
+
 - **Current:** comparison-freeze reproducibility does not imply causal identification. CF-1 proposed causal fields; abstract potential-outcome nonidentifiability theorem in draft PR #1981.
 - **Lean:** two exact-head failures (#44329554651 and #44331520087). Latest source head `26fdc510...` uses named `Identified.agreement`; verification-trigger draft PR #1984 run #44332723367 in progress, checkout pending. No compile pass.
 - **Publication:** issue #1982 PUBLISHED_VERIFIED original snapshot; exact artifact equality. Additive comments #6982489548, #6982586182, #6982652424. Report amended, original published hash unchanged.
