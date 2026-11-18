@@ -1051,3 +1051,13 @@ The November 16 P2 evidence gate is due but unmet. Nadir h864:s3's current sourc
 ### h902:s4 final current-main recheck | 2026-11-17
 
 - Current main `293fdf89d8aba4bddd0afe1f6444fffa1b14bb6a`; PR #1619 unchanged, 53 ahead / 20,786 behind; merge base `e2e738facee0890bdfbbc563e9936db174f63074`. Earlier 20,762-behind figure is the pre-write snapshot. No rebase or PR change. See receipt Amendment 03.
+
+
+## H918:s0 | 2026-11-18 06:00Z nominal | Forest Normalization source/type audit
+
+- Additive source-fidelity pass: recovered active-branch direct notation cw=t and the H0 conversion clarification; literal (H0±c)/2 is off-ancestry, while the active direct text explicitly preserves a dimensional correction and uncertainty.
+- Forest Normalization and “The Trees Themselves” original equation/source remain missing. The separate w=ct dimensional-normalization paper, SAT26 B statement, and THE_FOREST B=1/(2Δ3) candidate are distinct.
+- SAT-O1 copies byte-identical; Blockwave clean action is assistant-generated and source authorship unresolved. Original equations/hashes preserved; no corrections.
+- Existing PR #1444 scalar condition reused; no new Lean run, physical calculation, CODATA, or theory promotion.
+- Published report: 2026-11-18T0600Z_H918_S0_FOREST_NORMALIZATION_SOURCE_TYPING_FIDELITY.md, SHA-256 59a23e101eb98769627e96de73a2ac6afb7bb7cdef2aa40e5df64de042c6a8bc; issue #1963, exact publisher readback verified.
+- No task changes or handoff. Next cursor: original Trees source, Forest equation, then typed w/t/c/H0 and Crullerverse map.
