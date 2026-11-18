@@ -22,3 +22,9 @@
 - The proof structure was corrected; current PR head is `c7f5c53bef1cea27b04da49d01b1ea904d8c236f`.
 - Second merge-reference run [#44415851092](https://github.com/Satobloc/HsH/actions/runs/44415851092) is still in progress. Do not claim Lean verification until its completed logs and axiom output are read back.
 - This is repository-only optional context; no direct-thread delivery, receipt, consumption or acknowledgment is claimed.
+
+
+## Post-start Lean status amendment 02
+- Second merge-reference run [#44415851092](https://github.com/Satobloc/HsH/actions/runs/44415851092) compiled the theorem itself and ran `#eval`, but the module failed because a docstring comment immediately preceded `#eval`. The theorem's `#print axioms` output was `[propext, Classical.choice, Quot.sound]`; no `sorryAx` appeared.
+- The comment is now an ordinary block comment. Current PR head: `6b4eebeacf4f6928f18601626e4e9e3942d73d81`. Third merge-reference run [#44416543286](https://github.com/Satobloc/HsH/actions/runs/44416543286) is in progress at checkout.
+- Whole-module compilation is still unverified. No direct delivery, consumption, or acknowledgment is claimed.
