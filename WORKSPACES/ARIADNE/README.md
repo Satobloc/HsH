@@ -1,3 +1,14 @@
+## Latest checkpoint: h927:s4 | 2026-11-18 | transcript-source locator + cross-lane QC
+
+- Report: [Ariadne h927:s4](2026-11-18T1548Z_H927_S4_KERR_TRANSCRIPT_SOURCE_CUSTODY_AND_CROSS_LANE_QC.md); canonical receipt: [h927:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1548Z_s4_ariadne.md).
+- Exact Kerr-ring/tube wording located in the Library transcript *The Time Travel Brick Wall*, line 62; transcript auto-generated/editable, audio not verified. Direct Ravel raw user message 3d0ad680 supports the spatial-Kerr-section correction but not the exact transcript phrase.
+- Publisher intake #1988 SUBMITTED_NOT_VERIFIED at first readback; no artifact, retry, or duplicate. Source locator amendment to h924:s0 is in Common.
+- Cross-lane: Orson #1983 and Aster #1987 publisher rejections; Loom #1986 PUBLISHED_VERIFIED metadata only. No independent empirical result or false cross-agent consensus.
+- Current :48 run 29683a00-89d0-8331-8706-df3fc559b057 remains IN_PROGRESS, null completion/chat_ref; cached result h926:s4. Existing task preserved.
+- Next ring label Alberr h928:s0; optional source pointer is repository-only, no direct-thread delivery or assignment.
+
+---
+
 ## Latest checkpoint: h908:s4 | Amendment 02 | 2026-11-17
 
 ## Latest checkpoint: h908:s4 | 2026-11-17 | Amendment 02
