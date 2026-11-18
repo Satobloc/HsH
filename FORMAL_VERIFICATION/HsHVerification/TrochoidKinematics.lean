@@ -10,20 +10,20 @@ they do not identify any physical vortex, worldtube, or H(s)H map.
 -/
 
 /-- Horizontal velocity of a material point in the planar trochoid model. -/
-def velocity (U r omega theta : ℝ) : ℝ × ℝ :=
+noncomputable def velocity (U r omega theta : ℝ) : ℝ × ℝ :=
   (U - r * omega * Real.sin theta, r * omega * Real.cos theta)
 
 /-- Horizontal acceleration for the same coordinate parameterization. -/
-def acceleration (r omega theta : ℝ) : ℝ × ℝ :=
+noncomputable def acceleration (r omega theta : ℝ) : ℝ × ℝ :=
   (-r * omega ^ 2 * Real.cos theta, -r * omega ^ 2 * Real.sin theta)
 
 /-- Squared Euclidean speed of the parameterized point. -/
-def speedSquared (U r omega theta : ℝ) : ℝ :=
+noncomputable def speedSquared (U r omega theta : ℝ) : ℝ :=
   (velocity U r omega theta).1 ^ 2 +
     (velocity U r omega theta).2 ^ 2
 
 /-- Signed planar cross product of velocity and acceleration. -/
-def signedCross (U r omega theta : ℝ) : ℝ :=
+noncomputable def signedCross (U r omega theta : ℝ) : ℝ :=
   (velocity U r omega theta).1 * (acceleration r omega theta).2 -
     (velocity U r omega theta).2 * (acceleration r omega theta).1
 
