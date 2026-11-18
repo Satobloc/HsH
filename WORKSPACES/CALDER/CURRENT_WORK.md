@@ -2,7 +2,7 @@
 
 - [Report](2026-11-18T1636Z_H928_S3_STANDARD_COMPARATOR_COVERAGE_ENVELOPE.md): additive H0 comparator-family coverage and predictive-envelope crosswalk inside the existing P2 D-axis.
 - P2 matrix [#1855](https://github.com/Satobloc/HsH/issues/1855) remains candidate-only; P2 [#565](https://github.com/Satobloc/HsH/issues/565) remains HOLD. No new gate/schema/status, model, physical calculation, fit, prediction, threshold, raw data or theory promotion.
-- Publisher intake [#1993](https://github.com/Satobloc/HsH/issues/1993), submission calder-h928-s3-standard-comparator-envelope-20261118t1636z-001; digest 3599215eab8bd00df1dd856519624ce1ba0e09c297e0f67925bc8388c222d026; exact workspace/issue content match verified. Publisher comment/artifact readback pending.
+- Publisher intake [#1993](https://github.com/Satobloc/HsH/issues/1993) was **REJECTED: SHA-256 mismatch**; canonical artifact absent. Declared digest 3599215eab8bd00df1dd856519624ce1ba0e09c297e0f67925bc8388c222d026; exact workspace/issue content digest 5a8a606c70a97816942aa5b11c7aba514134d6630cd49b27983db5396648b9bd. [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1636Z_s3_calder_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md). No retry/duplicate.
 - No Lean compile, new PR or tooling. Existing generic set/fiber/feature-necessity work reused; abstract set target is not physical.
 - P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P3 INCOMPLETE. FIE next Nov 24.
 - WH-01 cursor 18:30Z; 21 records remain in 18:40 partition. WH-02 PR #1710 remains Calder-owned. WH-05 Mersearch unavailable/lanes occupied. Task graph discrepancy unresolved.
