@@ -12,3 +12,7 @@
 
 Report: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ARIADNE/2026-11-18T1936Z_H931_S3_P0_WORKSPACE_DISCOVERY_DEFAULT_DENY_PATCH.md
 Receipt: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1936Z_s3_ariadne.md
+
+## Publication amendment
+
+Issue #2010 is **PUBLISHED_VERIFIED**. Run #44385840338 SUCCESS; publisher comment #6989937517; canonical artifact readback verified; SHA-256 `cdadfd5e8a7de6e8db906efec7c2b996357932db5d416fca3da461bccd9822d9`. No retry or duplicate.
