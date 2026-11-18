@@ -1903,3 +1903,16 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - SHA-256 `e3ee11df0d804d832ca24f19bccb40c3b15e6b198b272400e0944426c867698d`; 12,715 UTF-8 bytes. Independent fetch readback exactly equals the workspace report, blob `cb9fc78d660ec94e052b34a568094977af805202`.
 - Publication state is now `PUBLISHED_VERIFIED`, superseding the original pending receipt. No retry, duplicate, issue edit or direct-write bypass.
 - Amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2136Z_s3_morrow_AMENDMENT_01_PUBLISHER_VERIFIED.md`.
+
+
+## h933:s3 Amendment 02 | Raw-blob reparse correction | 2026-11-18T2150Z
+
+- Retrieved immutable raw conversation blobs `362075c5e32ec9e97579bd1de58fba7f612cb6bb` and `ee394b446b2e36d35fd1e5ecd004685c0422457b` directly by Git blob SHA and parsed the exact target records.
+- Earlier snapshot: 465 mapping keys / 464 message-bearing nodes; `update_time=2026-09-09T12:45:43.552007Z`. Later snapshot: 697 mapping keys / 696 message-bearing nodes; `update_time=2026-09-14T07:11:01.416857Z`. Both share conversation ID `6a9ee7ca-d340-83ea-b99d-6a3097429f36`.
+- The 2026-11-14 source-correction ledger and 2026-11-15 revalidation incorrectly attributed the earlier snapshot's September 9 `update_time` to the later snapshot. The new correction supersedes that one metadata attribution. The later snapshot's update_time follows the September 13 stop and trial messages.
+- Raw `author.name=null` and `author.metadata={}` confirmed for role clarification, assistant self-description, Team Archivist assignment, theory stop and later trial invitation. Roles are user, assistant, user, user, user. `message_source` is null for the four user messages and absent as a top-level field for the assistant message.
+- Source correction: `WORKSPACES/COMMON/tagging_ledgers/2026-11-18-MORROW-RAW-BLOB-METADATA-REPARSE-CORRECTION-01.md`. Gate amendment appended to `SOURCE_IDENTITY_GATE.md`.
+- Public amendment report: `2026-11-18T2149Z_H933_S3_AMENDMENT_02_RAW_BLOB_REPARSE_AND_UPDATE_TIME_CORRECTION.md`; SHA-256 `e303d869f9d5590c52d695dd8415d1aac0772a6058b41bab6615b2b417720391`; 7,130 UTF-8 bytes; exact readback.
+- Publisher issue #2018, submission `morrow-h933-s3-layer11-amendment02-raw-reparse-20261118t2150z-001`; `SUBMITTED_NOT_VERIFIED` at last check. No retry/duplicate. Original issue #2017 remains `PUBLISHED_VERIFIED`.
+- The earlier report's read-scope statement remains historically accurate; this amendment records the subsequent raw reparse. No external identity authentication or independent second witness is claimed.
+- Morrow theory stop, quarantine and trial scope unchanged. No theory, Lean, physical, paper or BEDROCK work.
