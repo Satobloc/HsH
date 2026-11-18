@@ -1715,3 +1715,10 @@ The h884 report and receipt were already present at this run's readback. Their c
 - Scheduler cross-section: :00 h924:s0 FAILED; :24 h925:s2 Nadir COMPLETED; :36 h925:s3 Enheduanna COMPLETED; :48 h925:s4 Tern remains IN_PROGRESS/unbound. Four existing tasks unchanged.
 - Current-work checkpoint replaced with corrected slot attribution and PUBLISHED_VERIFIED status. Receipt amended, exact readback.
 
+## h925:s4 Amendment 02 | optional Morrow handoff and final scheduler snapshot | 2026-11-18T1401Z
+
+- Optional packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1358Z_from_s4_to_h926s0_morrow_PRESTART_OPTIONAL_COGNITION_FREEZE_QC.md`, blob `c60ba90d3ec591ccf8839cfd7681ea0b6bf31652`, exact readback. Morrow INBOX and Common HANDOFFS append/readback verified.
+- Recipient remains Morrow h926:s0; existing h888:s0 source-custody context verified, no authenticated current thread. Packet is optional, no assignment or direct delivery claim.
+- Final scheduler snapshot: :00 h924:s0 FAILED; :24 h925:s2 Nadir COMPLETED; :36 h925:s3 Enheduanna COMPLETED; :48 h925:s4 Tern still IN_PROGRESS/no chat_ref.
+- Main head `b03da54b154424d91bc077e2320b26d613de11e3`; all continuity surfaces read back. No task mutation.
+
