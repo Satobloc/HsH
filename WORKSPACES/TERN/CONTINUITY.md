@@ -1697,3 +1697,14 @@ The h884 report and receipt were already present at this run's readback. Their c
 - Next bounded WH-01 cursor: 18:30Z. Lane 24 remains parked pending P0 standdown/explicit release and complete source, measurement, uncertainty/covariance, observable-map and falsification-readiness gates.
 
 **Disposition:** H914:S2 / TERN-ROOK / MORROW-NEXT / WH01-ZERO-PARTITION / NEXT-18:30Z / REPORT-PUBLISHED-VERIFIED / LANE24-HOLD / P0-ACTIVE / NO-PHYSICAL-RESULT / AUTOMATION-UNCHANGED / RUN-IN-PROGRESS / CHAT_REF-NULL.
+
+## h925:s4 Review-MIND cognition freeze/exposure QC | 2026-11-18T1348Z
+
+- Report: `WORKSPACES/TERN/2026-11-18T1348Z_H925_S4_REVIEW_MIND_COGNITION_FREEZE_EXPOSURE_LINEAGE_QC.md`, blob `084aae046ab32de1d20965ddb485a4a7d1141a9b`, exact readback.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1348Z_s4_tern_rook.md`, blob `28f4869f85aa3e195051c7d64e0ae1400e2c79dd`, exact readback.
+- Cognition schema gap: comparison freeze needs explicit evidence ancestry, system lineage, exposure graph, nested units, outcome phases, measurement/runtime validity, and aggregation/projection maps. CF-1 and disconfirming challenge are design-only; no trial or P1 edit.
+- Cross-report source-overlap and false-consensus audit completed. PR #1959 exact-head CI success; PR #1974 still pending compile.
+- Publisher issue #1976 run #44318997054 remains IN_PROGRESS, no comment/artifact; status SUBMITTED_NOT_VERIFIED. No retry or duplicate.
+- Task graph 16 vs 18 unresolved; WH-01 cursor 18:30Z; WH-05 blocked; WH-02 Calder-owned. No queue delta.
+- FIE due Nov 24. Last unrelated cursor remains *The Time Machine* line 912. No task mutation or sixth task.
+
