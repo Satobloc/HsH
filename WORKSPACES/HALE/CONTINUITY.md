@@ -588,3 +588,8 @@ The first SHA-256 helper failed the standard abc test and produced an invalid di
 ### H928:s4 amendment 02 - corrected publisher intake
 
 Original intake #1996 rejected by publisher comment #6985637026 (SHA mismatch). Corrected intake #1997 uses the same submission ID and exact content with correct SHA-256 8bed59ab09f6b0b39f97ad2a2e943a738adaa7b323c5b4bd49f517a360a2f1e4. Public correction comment #6985679896 links #1997. At readback, #1997 had no publisher comment and artifact path 404, so SUBMITTED_NOT_VERIFIED. No further retry or duplicate. Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1648Z_s4_hale_AMENDMENT_02_CORRECTED_PUBLISHER_INTAKE.md.
+
+
+### H928:s4 amendment 03 - public comment correction
+
+Issue #1996 comment #6985679896 was edited to correct a missing issue number in the text (#undefined -> #1997). Independent issue-comments readback confirms the exact corrected comment. Corrected intake #1997 remains SUBMITTED_NOT_VERIFIED with no artifact at this checkpoint. Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1648Z_s4_hale_AMENDMENT_03_PUBLIC_COMMENT_CORRECTION.md.
