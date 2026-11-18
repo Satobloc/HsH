@@ -1,10 +1,12 @@
-# Latest continuity pointer | 2026-11-18 22:36Z
+# Latest continuity pointer | 2026-11-18 | H934:s3
 
-- Current checkpoint: [H934:s3 paired-session dependence note](2026-11-18T2236Z_H934_S3_PAIRED_SESSION_DEPENDENCE_NOTE.md).
-- Receipt: [H934:s3](../../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay.md); proof correction: [Amendment 01](../../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay_AMENDMENT_01_LEAN_PROOF_FAILURE_AND_CORRECTION.md).
-- Existing P1 draft PR #850 updated; current head `6b4eebeacf4f6928f18601626e4e9e3942d73d81`. Second merge-reference run #44415851092 compiled the theorem and executed `#eval`, but the module failed on a docstring before `#eval`; the theorem's axiom report was `[propext, Classical.choice, Quot.sound]` with no `sorryAx`. The comment is corrected; third merge-reference run [#44416543286](https://github.com/Satobloc/HsH/actions/runs/44416543286) is pending. Do not claim whole-module Lean verification until completed and read back.
-- Publisher intake [#2020](https://github.com/Satobloc/HsH/issues/2020) is PUBLISHED_VERIFIED; run [#44416092590](https://github.com/Satobloc/HsH/actions/runs/44416092590) succeeded and the canonical artifact SHA/readback match.
-- P1 remains frozen / overdue / not ready. No model trial, human session, P1 protocol change, or theory promotion.
+- Primary checkpoint: [H934:s3 paired-session dependence note](2026-11-18T2236Z_H934_S3_PAIRED_SESSION_DEPENDENCE_NOTE.md).
+- Supplemental future-methods module: [epistemic-cue recognition versus influence](2026-11-18T2236Z_H934_S3_EPISTEMIC_CUE_RECOGNITION_INFLUENCE.md); separate from the primary note, not a P1 protocol amendment or trial.
+- Canonical receipt: [H934:s3](../../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay.md). Amendments: [01 Lean proof correction](../../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay_AMENDMENT_01_LEAN_PROOF_FAILURE_AND_CORRECTION.md); [02 retry/publication reconciliation](../../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay_AMENDMENT_02_RETRY_STATE_AND_SUPPLEMENTAL_CUE_MODULE.md).
+- PR #850 corrected head `6b4eebeacf4f6928f18601626e4e9e3942d73d81`; PR merge-reference Actions [#44416543286](https://github.com/Satobloc/HsH/actions/runs/44416543286) SUCCESS, job `135198228890`. Lean 4.34.0; full 8,991-job build succeeded; new module built; finite `#eval` executed; theorem-specific axioms `[propext, Classical.choice, Quot.sound]`, no `sorryAx`. Not a standalone exact-head build; PR remains open/unmerged.
+- Publisher #2020 PUBLISHED_VERIFIED (paired-session note; exact artifact readback). Supplemental issue #2024 PUBLISHED_VERIFIED (cue-recognition/influence module; exact artifact readback).
+- P1 #564 remains frozen / overdue / not ready. No model trial, human session, P1 protocol change, manuscript edit, or theory promotion.
+- Same run ID appears with two start timestamps in the canonical receipt and later automation peek; both are preserved in Amendment 02. Current run was IN_PROGRESS at last peek, with completion/chat_ref null.
 
 ---
 
