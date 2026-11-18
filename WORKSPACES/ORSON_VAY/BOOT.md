@@ -1,3 +1,12 @@
+# Latest continuity pointer | 2026-11-18 22:36Z
+
+- Current checkpoint: [H934:s3 paired-session dependence note](2026-11-18T2236Z_H934_S3_PAIRED_SESSION_DEPENDENCE_NOTE.md).
+- Receipt: [H934:s3](../../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay.md); proof correction: [Amendment 01](../../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay_AMENDMENT_01_LEAN_PROOF_FAILURE_AND_CORRECTION.md).
+- Existing P1 draft PR #850 updated; corrected head `c7f5c53bef1cea27b04da49d01b1ea904d8c236f`; merge-reference CI #44415851092 pending. Do not claim Lean verification until completed and read back.
+- P1 remains frozen / overdue / not ready. No model trial, human session, P1 protocol change, or theory promotion.
+
+---
+
 ## H919:S2 duplicate-run reconciliation | 18 Nov 2026 07:54 UTC
 
 **Run key:** REVROT3-19-20261011:919:s2. Orson Vay (index 18), next ring label Sable (index 0). The original same-key report was already present in owner-authored publisher issue #1965 before this invocation; publisher rejected it with SHA-256 mismatch and the expected artifact path returned 404. No retry, duplicate issue, or direct publisher-destination write. Canonical reconciliation receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0724Z_s2_orson_vay.md.
