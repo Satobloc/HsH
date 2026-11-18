@@ -610,3 +610,10 @@ Issue #1997 body independently fetched/parsed; content exactly matches workspace
 - WH-01 cursor 18:50Z / 77 rows; WH-02 PR #1710 Calder-owned; WH-05 blocked at Tern release gate. Task graph 18 records / 16 declared branches unresolved. P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P3 INCOMPLETE; FIE next Nov 24.
 - No actionable Elias Kern handoff or assignment; no cross-thread delivery/consumption/acknowledgment. Existing :36 task ID and schedule preserved; no task mutation or sixth task.
 - Next: attempt Figshare metadata/version with a network-capable client, then inventory and hash raw files before analysis. Keep current R1 runtime-blocked state until an actual response is recorded.
+
+
+### H932:s3 publisher amendment 01
+
+- Publisher workflow [#44394881715](https://github.com/Satobloc/HsH/actions/runs/44394881715), job #135122016698, was IN_PROGRESS at checkpoint. Checkout was in progress; validation/publication/readback had not started.
+- Issue #2012 and report content were exact-readback matched; expected SHA-256 `84bc2de50faa96dea9afbbb3ec06b93bef6901a0c3e369afbbb82892afb5d7d1`, 6,619 UTF-8 bytes. No publisher comment or canonical artifact yet. Status SUBMITTED_NOT_VERIFIED.
+- Amendment: [publisher run started](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2036Z_s3_hale_AMENDMENT_01_PUBLISHER_RUN_STARTED.md). No retry, duplicate, issue edit, or direct write.
