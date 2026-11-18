@@ -1,4 +1,4 @@
-## Latest checkpoint | Calder h913:s2 | 2026-11-18 | P0 discovery delta / PUBLISHED PENDING
+## Latest checkpoint | Calder h913:s2 | 2026-11-18 | P0 discovery delta / PUBLISHED_VERIFIED
 
 - [h913:s2 report](2026-11-18T0124Z_H913_S2_DISCOVERY_INDEX_DELTA_AND_BUILDER_REVALIDATION.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0124Z_s2_calder.md).
 - Snapshot 01:11:45Z: 15,748 documents; 8,817 WORKSPACES records and generic browse targets; 8,594 excerpts; 60 paper records; docket 48; 577 visuals; 6 errors. Since h912:s2: +22 workspace records/targets/excerpts, 10 changed, 0 removed. P0 source mismatch persists; live route NOT_OBSERVED.
