@@ -68,12 +68,10 @@ theorem one_observation_does_not_identify_effect (assignment outcome : Bool) :
   intro h
   have hAgreement :
       effect (sameOutcomeWorld outcome) ↔
-        effect (alternativeWorld assignment outcome) :=
-    h.agreement
-      (sameOutcomeWorld outcome)
-      (alternativeWorld assignment outcome)
-      (same_world_matches_observation assignment outcome)
-      (alternative_world_matches_observation assignment outcome)
+        effect (alternativeWorld assignment outcome) := by
+    apply h.agreement
+    · exact same_world_matches_observation assignment outcome
+    · exact alternative_world_matches_observation assignment outcome
   exact (same_world_has_no_effect outcome)
     (hAgreement.mpr (alternative_world_has_effect assignment outcome))
 
