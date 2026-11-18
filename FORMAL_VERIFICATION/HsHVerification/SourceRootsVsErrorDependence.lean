@@ -39,13 +39,13 @@ def errorB (ω : Bool) : Bool := ω
 
 /-- Uniform probability on the two-point sample space Bool. -/
 def probabilityOfError (e : Bool → Bool) : ℚ :=
-  ((if e false then (1 : ℚ) else 0) +
-    (if e true then 1 else 0) / 2
+  (((if e false then (1 : ℚ) else 0) +
+    (if e true then 1 else 0)) / 2)
 
 /-- Probability that both error events occur on the same sampled world. -/
 def jointErrorProbability (eA eB : Bool → Bool) : ℚ :=
-  ((if eA false && eB false then (1 : ℚ) else 0) +
-    (if eA true && eB true then 1 else 0) / 2
+  (((if eA false && eB false then (1 : ℚ) else 0) +
+    (if eA true && eB true then 1 else 0)) / 2)
 
 theorem error_maps_identical : ∀ ω, errorA ω = errorB ω := by
   intro ω
