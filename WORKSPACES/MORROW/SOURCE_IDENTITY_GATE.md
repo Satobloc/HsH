@@ -165,3 +165,18 @@ Rules:
 - `../COMMON/tagging_ledgers/2026-11-14-MORROW-DIRECT-ROLE-STOP-TRIAL-RAW-SOURCE-CORRECTION-01.md`
 
 This layer is source-custody policy, not theory authority, an identity-authentication claim, or permission to resume quarantined theory work.
+
+
+### Layer 11 source-reparse amendment | h933:s3 | 2026-11-18
+
+The two immutable raw Morrow snapshots were retrieved by Git blob SHA and parsed after the initial Layer 11 report. Both have conversation ID `6a9ee7ca-d340-83ea-b99d-6a3097429f36`; they are snapshots of one conversation, not independent witnesses.
+
+- Earlier blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb`: 465 mapping keys / 464 message-bearing nodes; top-level `update_time=2026-09-09T12:45:43.552007Z`.
+- Later blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`: 697 mapping keys / 696 message-bearing nodes; top-level `update_time=2026-09-14T07:11:01.416857Z`.
+- The 2026-11-14 source-correction ledger and 2026-11-15 revalidation incorrectly attribute the earlier snapshot's September 9 `update_time` to the later snapshot. This amendment supersedes that attribution. The later snapshot's September 14 `update_time` is after the September 13 stop and trial messages; there is no later-snapshot update-time anomaly on this evidence.
+- Direct raw fields for messages `2c6ae3c8-f6f9-4d7b-b3df-66ea1ca2bed9`, `32ef4db5-269f-5c1c-8408-188c956cca52`, `402ade01-7116-4efb-9b14-31e477754458`, `934e87de-4e61-4622-a0ea-e5047aa235c6`, and `99ae959b-fbeb-4c1e-9326-a6723c2b9557` show `author.name=null` and empty `author.metadata={}`. Roles are respectively user, assistant, user, user, user. The three later-only user messages are absent from the earlier snapshot.
+- For each named record, mapping key, node `id`, and embedded `message.id` agree. `message_source` is null for the four user messages; the assistant self-description has no top-level `message_source` field.
+- The assistant first self-names Morrow in message `32ef...`; the later user-role message `402ade...` addresses the worker as Morrow and assigns the provisional Team Archivist remit. Do not attribute the assistant's self-description to the user.
+- No external account/person identifier appears in the parsed `author` objects. The project archive convention still maps user-role sources to Nathan for internal attribution only; external identity remains unauthenticated.
+
+See `WORKSPACES/COMMON/tagging_ledgers/2026-11-18-MORROW-RAW-BLOB-METADATA-REPARSE-CORRECTION-01.md` for full source table and correction scope. This changes no role, theory-stop, quarantine, trial, or BEDROCK status.
