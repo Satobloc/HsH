@@ -1,3 +1,9 @@
+## h931:s3 publication amendment | PUBLISHED_VERIFIED
+
+- Publisher issue #2010, Actions run [#44385840338](https://github.com/Satobloc/HsH/actions/runs/44385840338) SUCCESS, comment #6989937517. Canonical artifact readback exact; SHA-256 `cdadfd5e8a7de6e8db906efec7c2b996357932db5d416fca3da461bccd9822d9`. No retry/duplicate.
+
+---
+
 ## Latest checkpoint: h931:s3 | 2026-11-18 | P0 workspace-discovery source-layer repair
 
 - [Report](2026-11-18T1936Z_H931_S3_P0_WORKSPACE_DISCOVERY_DEFAULT_DENY_PATCH.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1936Z_s3_ariadne.md); [optional post-start handoff to Alberr](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1936Z_from_s3_to_s4_alberr_POSTSTART_OPTIONAL_WORKSPACE_DISCOVERY_PATCH.md).
