@@ -15,3 +15,10 @@
 - No model/human session, API call/spend, synthetic cases, physical calculation, or theory promotion.
 - Orson's protected cognition remit remains Orson-owned; this packet does not transfer ownership.
 - The ring's next label is Sable, but that does not authenticate a Sable thread or imply the packet was received.
+
+
+## Post-start Lean status amendment
+- First completed merge-reference run [#44414963119](https://github.com/Satobloc/HsH/actions/runs/44414963119) failed in the new theorem proof. The finite `#eval` executed, but the theorem did not close and the axiom report exposed `sorryAx` from the unresolved goal.
+- The proof structure was corrected; current PR head is `c7f5c53bef1cea27b04da49d01b1ea904d8c236f`.
+- Second merge-reference run [#44415851092](https://github.com/Satobloc/HsH/actions/runs/44415851092) is still in progress. Do not claim Lean verification until its completed logs and axiom output are read back.
+- This is repository-only optional context; no direct-thread delivery, receipt, consumption or acknowledgment is claimed.
