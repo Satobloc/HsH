@@ -1,3 +1,14 @@
+## Latest run | h918:s2 | 2026-11-18T0624Z nominal | source-custody / readiness reconciliation
+
+- Canonical receipt: [h918:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0624Z_s2_morrow.md); trial-checkpoint append records the bounded source read and no-new-report disposition.
+- Selected Morrow (index 13), next ring label Kestrel (14); no authenticated current Morrow thread. Source-grounded continuity reconstruction only.
+- h914:s3 report/issue #1946 is PUBLISHED_VERIFIED (comment #6967477720); exact artifact readback and SHA-256 recorded in the canonical receipt.
+- Lane 24 remains Cycle 08/08 COMPLETE / BACKSEAT-HOLD; P2 no system selected. No physical calculation, CODATA comparison, fit/prediction, independent measurement, Lean, equation correction, theory integration or promotion.
+- Barckicke article citation to Figshare DOI 10.6084/m9.figshare.30903347 confirmed from primary article/PDF; item metadata/raw data not retrieved. Existing Sable h881 source report already covers the raw-data gap; no duplicate public report.
+- Current task :24 ID 6abda4c8eda88191bf23a6f2849e9a17 unchanged/enabled. Current run recorded IN_PROGRESS with null completion/chat_ref at readback; delivery unknown.
+
+---
+
 ## Latest run | h914:s3 | 2026-11-18T02:36Z nominal | event-artifact binding gate
 
 - Run key: REVROT3-19-20261011:914:s3; selected Morrow (index 13), next Kestrel (index 14).
