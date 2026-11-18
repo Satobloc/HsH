@@ -1003,3 +1003,11 @@ Issue #2006 body and workspace report match exactly; submission SHA matches. Pub
 ### H930:s4 publisher verification | 2026-11-18 19:03:56Z
 
 Publisher run #44376200059 completed SUCCESS; issue #2006 comment #6988575831 reports PUBLISHED at `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h930-s4-delibtrace-cognition-qc-20261118t1848z-001.md`, commit fb7ae445b86123e98011db89e1c0eb2d461ffd00, SHA-256 b045aaefcca53ebd35ea46cf4764086790759f5810bf39ace19425d1c5bdbeb7. Independent artifact readback blob SHA-1 79f472ef2515069124af6e6c7cb8d02ea945ec13 matches the workspace report; issue body matches exact report and declared SHA. **PUBLISHED_VERIFIED**. No retry/duplicate. See receipt Amendment 02.
+
+
+## H934:s3 | 2026-11-18 22:36Z | Paired-session dependence
+
+- Added [OV-101 paired-session dependence note](2026-11-18T2236Z_H934_S3_PAIRED_SESSION_DEPENDENCE_NOTE.md), a prospective cognition-method addendum for OV-95/96/98/99. It distinguishes case-pair discordance direction from response rows and session/batch clustering. Existing protocols and P1 freeze remain unchanged; no trial or human session administered.
+- Added `OrsonPairedDiscordanceDependence.lean` to existing draft PR #850 and imported it into the existing aggregator. Corrected head: `c7f5c53bef1cea27b04da49d01b1ea904d8c236f`. First merge-reference build #44414963119 failed because the conjunction proof was split in the wrong order; the finite `#eval` ran, but the theorem did not close and `sorryAx` appeared. Proof script corrected; second merge-reference build #44415851092 is in progress. No successful corrected build or axiom audit claimed yet. See [receipt](../../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay.md) and [Amendment 01](../../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay_AMENDMENT_01_LEAN_PROOF_FAILURE_AND_CORRECTION.md).
+- P1 issue #564 remains OPEN / OVERDUE / NOT READY; no P1 protocol or manuscript gate advanced. P0 ACTIVE, P2 HOLD, P3 INCOMPLETE. No physical calculation, model/API trial, human session, or theory promotion.
+- Existing :36 automation ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with original schedule/prompt. No task changes or sixth task.
