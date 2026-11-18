@@ -13,3 +13,9 @@ Prepared 2026-11-18 14:42Z. Ravel's :48 task's prior h925:s4 run completed 14:06
 The feature-necessity admission module formalizes existing #1391/#1820/#1974 comparison logic. It does not establish a physical result, independent replication, H0/H1 discrimination, or theory promotion. P2 remains HOLD; no physical data/calculation or equations changed.
 
 No scheduler/task/ID/phase/cadence mutation; no sixth task.
+
+
+## Status amendment 14:45Z
+
+- PR #1979 build #44326867279 failed at Lean compile: the model-version inequality was at core.freeze while the goal had feature.freeze. Corrected commit 0a1798f6866041487dffd296c77bd986dc6258f; exact-head build pending.
+- Publisher issue #1980 run #44327280985 validator job completed but rejected the SHA. Exact report/payload content matches; actual SHA 4e3a000b5a564140d0cff396936aec4cbef7ff9b1c0e505de3014071be50696c; submitted SHA 2a5bc7f50ceefa5121eb21a26e576cb092a73871074e1b155301baad366e38a. No retry/duplicate or direct-write bypass.
