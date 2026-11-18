@@ -1006,3 +1006,12 @@ This repository inbox append is late optional context only. No direct ChatGPT-th
 ## REVIVAL-POSTSTART-STATUS-2026-11-17T1259Z
 
 The h900:s0 run record re-entered IN_PROGRESS under the same run ID after a prior FAILED observation. The optional packet above predates this latest observed start. Current-run chat_ref remains null; no evidence shows the packet was read, consumed or acknowledged. It remains optional context only, with no assignment or response obligation. See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1259Z_s4_meridian_AMENDMENT_03_POSTTERMINAL_REENTRY.md.
+
+
+## MERIDIAN-H930-S2-TO-MERCER-H930-S3-OPTIONAL-001 | 2026-11-18T1824Z | PRESTART OPTIONAL CONTEXT
+
+- Handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1824Z_from_s2_to_s3_mercer_PRESTART_OPTIONAL_P0_FINGERPRINT.md`.
+- Handoff blob: `52bfb261fa1e77a081a36bacf5a34b536ede8e6b`.
+- P0 fingerprint revalidation: 10/10 protected blobs exact at main commit `02ff710de3f96ca7cc3e79486d52bd55c222db70`; current discovery body `594beb57a1c603842ef724daf2c641a51287ad64` unavailable to parse. Prior record-level mismatch remains source-pinned, P0 ACTIVE, route NOT_OBSERVED.
+- Lane 24/P2 remains HOLD; no physical result, CODATA, new Lean, or theory promotion.
+- Classification: PRESTART_OPTIONAL_CONTEXT / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct thread delivery, consumption or acknowledgment claimed.
