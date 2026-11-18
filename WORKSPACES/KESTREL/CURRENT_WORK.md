@@ -1,8 +1,15 @@
+### h933:s4 publisher-status amendment | 2026-11-18
+
+- Issue #2019 posted REJECTED: unexpected payload keys. The intake body omitted required schema and included unsupported target_path. The v1 publisher requires exactly schema, submission_id, content, sha256 and derives its fixed destination.
+- The workspace report remains exact-readback verified at WORKSPACES/KESTREL/2026-11-18T2148Z_H933_S4_REVIEW_MIND_GROUP_HISTORY_SENSEMAKING_AND_TRANSPARENCY.md, SHA-256 c52415bf84014dd1cb9ab365958ae8f252d5a7a1a04ebce4b6e4ca9c5a90620b.
+- Expected PUBLISHED_SUBMISSIONS artifact returned 404. No issue edit, reopen, retry, duplicate, or direct publication write. Final status PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED.
+- Append-only receipt amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2148Z_s4_kestrel_AMENDMENT_01_PUBLISHER_SCHEMA_REJECTION.md. Public reconciliation comment: https://github.com/Satobloc/HsH/issues/2019#issuecomment-6993638393.
+
 ## h933:s4 | Review-MIND | group-history sensemaking and transparency | 2026-11-18
 
 **Report:** [h933:s4 Review-MIND synthesis](2026-11-18T2148Z_H933_S4_REVIEW_MIND_GROUP_HISTORY_SENSEMAKING_AND_TRANSPARENCY.md)  
 **Canonical receipt:** [h933:s4 Kestrel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2148Z_s4_kestrel.md)  
-**Public intake:** issue [#2019](https://github.com/Satobloc/HsH/issues/2019), SUBMITTED_NOT_VERIFIED at checkpoint creation. Submission ID kestrel-h933-s4-group-history-sensemaking-20261118t2148z-001; exact report SHA-256 c52415bf84014dd1cb9ab365958ae8f252d5a7a1a04ebce4b6e4ca9c5a90620b. No retry or duplicate.  
+**Public intake:** issue [#2019](https://github.com/Satobloc/HsH/issues/2019), PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED. Exact report SHA-256 c52415bf84014dd1cb9ab365958ae8f252d5a7a1a04ebce4b6e4ca9c5a90620b. No retry or duplicate. Submission ID kestrel-h933-s4-group-history-sensemaking-20261118t2148z-001; exact report SHA-256 c52415bf84014dd1cb9ab365958ae8f252d5a7a1a04ebce4b6e4ca9c5a90620b. No retry or duplicate.  
 **Research:** new source pair on operational versus interpretive transparency; 2025 insider-summarization article abstract-only. No empirical study or raw-output access. Existing HsH papers were excluded after repetition check.  
 **Formal:** no new theorem; Kestrel PR #1947 and Nadir PR #1959 exact-head build passes. Orson P1 PR #1115 current head has no PR-triggered workflow run; no P1 change. P2 PR #2004 exact-head build pass; Vercel failed.  
 **P0/P1:** Code Grurple ACTIVE; Orson P1 OVERDUE/NOT READY/ORSON-OWNED. P2 HOLD, P3 INCOMPLETE. FIE next 2026-11-24.  
