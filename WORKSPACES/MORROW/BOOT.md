@@ -349,3 +349,10 @@ Authoritative scheduler correction: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-
 - Current :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with exact original hourly schedule and Lane Charter 24. Run e9c53acb-c1e8-8322-bfaf-4d8947b787f2 is IN_PROGRESS; completion/chat_ref null. Start field moved backward 0.220702s between two peeks; cause unresolved. Cached latest result belongs to Hale h898:s2.
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next 2026-11-24.
 - Next exact cursor: wait for an authorized Mersearch lane release; preserve Morrow's source-custody-only boundary.
+
+
+## Latest :00 source-fidelity run h926:s0 (2026-11-18 14:00 UTC)
+- Public report submitted to publisher issue #1977; SHA-256 73e3f51785cf4c1edf2e78f27510ae09ffe099af424555ab0649a73ef20b78b9. Readback pending at receipt.
+- O4 authoring lineage recovered; original SATO_4D-Switchover PDF unavailable. 4D topology invariant and worldtube/timesheet maps unresolved. No theory integration or Lean.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1400Z_s0_morrow.md
+- Next cursor: recover original O4 source bytes; type ambient/leaf invariant, thickening and mouth/worldsheet maps. No handoff.
