@@ -23,6 +23,8 @@ prohibits importing Nambu–Goto actions or Kerr identities as SAT physics.
 
 namespace HsHVerification.MeridianNGRatioIdentity
 
+noncomputable section
+
 /-- Assistant-origin family: D_min = 2 R s, with s standing for sin(alpha/2). -/
 def minimumDiameter (R s : ℝ) : ℝ :=
   2 * R * s
@@ -46,7 +48,7 @@ theorem minimumDiameter_eq_four_spinLength
   unfold minimumDiameter spinLength angularMomentumMagnitude energy
   have hpi : Real.pi ≠ 0 := ne_of_gt Real.pi_pos
   field_simp [hR.ne', hT.ne', hpi]
-  <;> ring
+  ring
 
 #print axioms minimumDiameter_eq_four_spinLength
 
