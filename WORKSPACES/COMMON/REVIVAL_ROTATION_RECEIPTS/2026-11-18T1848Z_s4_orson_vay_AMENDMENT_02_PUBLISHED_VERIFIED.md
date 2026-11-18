@@ -1,0 +1,3 @@
+# Amendment 02 | Publisher readback verified | H930:S4
+
+Publisher run #44376200059 completed SUCCESS. Comment #6988575831 states PUBLISHED and exact artifact path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h930-s4-delibtrace-cognition-qc-20261118t1848z-001.md`, commit `fb7ae445b86123e98011db89e1c0eb2d461ffd00`, SHA-256 `b045aaefcca53ebd35ea46cf4764086790759f5810bf39ace19425d1c5bdbeb7`. The artifact was fetched independently; its blob SHA-1 `79f472ef2515069124af6e6c7cb8d02ea945ec13` matches the workspace report blob. The issue envelope content and report are exact; the declared SHA-256 matches. **PUBLISHED_VERIFIED**. No retry, duplicate, edit, or bypass.
