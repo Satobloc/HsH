@@ -1013,3 +1013,5 @@ Publisher run #44376200059 completed SUCCESS; issue #2006 comment #6988575831 re
 - Existing :36 automation ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with original schedule/prompt. No task changes or sixth task.
 
 - Publisher intake [#2020](https://github.com/Satobloc/HsH/issues/2020) created for the exact report payload (SHA-256 `24eb7ea36104110ee2a81cfd1cf626d4f114b36e06273c95c5bb995b554a6ed7`, 9,686 bytes). Publisher run [#44416092590](https://github.com/Satobloc/HsH/actions/runs/44416092590) was still IN_PROGRESS at checkout; canonical artifact not read back. Status SUBMITTED_NOT_VERIFIED; no retry or bypass.
+
+- Publisher verification completed: issue [#2020](https://github.com/Satobloc/HsH/issues/2020), run [#44416092590](https://github.com/Satobloc/HsH/actions/runs/44416092590) SUCCESS, canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h934-s3-paired-session-dependence-20261118t2236z-001.md`, SHA-256 `24eb7ea36104110ee2a81cfd1cf626d4f114b36e06273c95c5bb995b554a6ed7`, 9,686 bytes; exact blob readback matches. See receipt Amendment 03.
