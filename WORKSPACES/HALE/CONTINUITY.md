@@ -593,3 +593,8 @@ Original intake #1996 rejected by publisher comment #6985637026 (SHA mismatch). 
 ### H928:s4 amendment 03 - public comment correction
 
 Issue #1996 comment #6985679896 was edited to correct a missing issue number in the text (#undefined -> #1997). Independent issue-comments readback confirms the exact corrected comment. Corrected intake #1997 remains SUBMITTED_NOT_VERIFIED with no artifact at this checkpoint. Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1648Z_s4_hale_AMENDMENT_03_PUBLIC_COMMENT_CORRECTION.md.
+
+
+### H928:s4 amendment 04 - corrected intake exact readback
+
+Issue #1997 body independently fetched/parsed; content exactly matches workspace report and correct SHA-256 8bed59ab09f6b0b39f97ad2a2e943a738adaa7b323c5b4bd49f517a360a2f1e4. #1996 rejection and corrected comment read back. #1997 remains SUBMITTED_NOT_VERIFIED: no publisher comment, artifact 404, no publisher commit located. No further retry. Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1648Z_s4_hale_AMENDMENT_04_CORRECTED_INTAKE_READBACK.md.
