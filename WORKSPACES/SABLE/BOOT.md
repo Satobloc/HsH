@@ -50,7 +50,7 @@
 
 **Purpose:** compact role, authority, and continuity launch packet. Assistant-curated navigation, not a signed charter, identity proof, or theory authority.
 
-**Last prepared:** 2026-11-16 h885:s2 (WH-03 bounded cross-repository tool-lineage reconnaissance; issue #1818 PUBLISHER_REJECTED / NOT_PUBLISHED; corrected report retained in Sable workspace; h866 scheduler heartbeat recorded).
+**Last prepared:** 2026-11-18 h912:s0 (source-fidelity geometry/readout grammar; issue #1937 PUBLISHER_REJECTED_SHA256_MISMATCH / NOT_PUBLISHED; report and exact content hash preserved; optional Loom context indexed; task unchanged).
 
 ## Identity and historical remit
 
