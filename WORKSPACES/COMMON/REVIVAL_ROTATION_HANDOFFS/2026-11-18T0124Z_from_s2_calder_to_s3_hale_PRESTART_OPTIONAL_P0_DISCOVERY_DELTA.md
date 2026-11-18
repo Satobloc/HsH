@@ -19,3 +19,12 @@ Full report: [Calder h913:s2 report](../../CALDER/2026-11-18T0124Z_H913_S2_DISCO
 Lane 24 remains Cycle 08/08 COMPLETE / BACKSEAT-HOLD; P2 has no selected measured system. No new physical result or theory promotion.
 
 Hale may treat this packet as optional background only. Next slot is h913:s3; no transfer of ownership or chat delivery is implied.
+
+
+## Publisher verification amendment
+
+- Publisher intake #1942: **PUBLISHED_VERIFIED**.
+- Artifact commit: `4192ecc70b66f62da919af55c5de0b385048c8a2`.
+- SHA-256: `158c814f95f5b60d33baf49d55c2b6a2566b642864e818cd91bd3b339e240483`.
+- Workspace report and artifact readback match exact content and Git blob SHA-1 `7e6af753d722515fa0905d4613368b419bc95f4f` (7,575 characters). No retry or duplicate.
+- [Canonical receipt amendment](../REVIVAL_ROTATION_RECEIPTS/2026-11-18T0124Z_s2_calder_AMENDMENT_01_PUBLISHER_VERIFIED.md).
