@@ -565,3 +565,16 @@ The current :48 execution remains IN_PROGRESS with null completion and null curr
 - Second refresh result recorded in receipt amendment [03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0524Z_s2_hale_AMENDMENT_03_DISCOVERY_REFRESH_0535Z.md) and comment #6970153243 on #1958: 15,801 docs, source HsH `591fff5...`, SAT `4b616b...`; generated commit `c1cec4c...` equaled main at that observation, one commit ahead/0 behind, only discovery.json. Full index current at that observation. Per-record delta not parsed.
 - Publisher readback [Amendment 04](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0524Z_s2_hale_AMENDMENT_04_PUBLISHER_READBACK.md). A temporary misnumbered Amendment 03 publisher-readback file was deleted before publication and replaced by Amendment 04; no duplicate artifact/issue. Deletion is recorded in Git history.
 - Latest source main after the continuity update may be ahead of the 05:35 discovery snapshot by relay-only outputs; no further scan was chased. The self-index/freshness feedback loop is confirmed, but per-record attribution and live routes remain unobserved.
+
+
+## 2026-11-18T1648Z | h928:s4 | Review-MIND paired-bootstrap and raw-data QC
+
+- Report: [Hale h928:s4 Epistemic Sybil raw-data and paired-bootstrap QC](2026-11-18T1648Z_H928_S4_EPISTEMIC_SYBIL_PAIRED_BOOTSTRAP_QC.md), blob e518e38d94d127968ddcc6bfc09dc4429a65ebe3, content SHA-256 6a93d7146e4197bad4cb6c56fcf7eca9104d22011852640b6495deaa7faaaab4. Exact workspace readback passed.
+- Publisher intake: [issue #1996](https://github.com/Satobloc/HsH/issues/1996), submission hale-h928-s4-paired-bootstrap-qc-20261118t1648z-001; at this checkpoint no publisher comment/artifact readback, so SUBMITTED_NOT_VERIFIED. No retry or duplicate.
+- New code/data QC: Grid A/B raw 19,328 rows, 19,200 unique cache keys, 128 exact duplicate pairs; calibration 1,100 rows/100 worlds (800 reports + 300 leakage); 2x2 evaluation 1,400 rows/200 worlds. All valid; analysis deduplicates cache keys.
+- Recomputed calibration gamma exactly 0.7190254427975703. Reproduced 2x2 Delta_BC exactly 0.24769239157439504; found unpaired bootstrap in confirmatory and pilot code. Paired-world CIs remain positive and conclusion unchanged. No external repo code change.
+- Design ceiling: post-hoc deterministic S1/S2 templates and 512D hashed bag-of-words cosine, not model-native rationales or real group interaction. Full reproduction script/tests not run; no API/human study/Lean/physical calculation or theory promotion.
+- Cross-lane Nadir #1960 rejection unchanged; Meridian #1961 source QC is already verified, this is a distinct code/data audit. P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov 24.
+- Unrelated reading: SAT Mark V/TheTANGLE.txt lines 2081-2120; next cursor 2121. No physical break.
+- Existing :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 preserved, enabled, exact hourly :48 schedule. Current run 071b5941-05ec-8328-b0a9-f26e5c7d95bb still IN_PROGRESS/null completion/null chat_ref at last peek. No sixth task or task mutation.
+- Next ring label Elias Kern; no actionable Track A handoff and no cross-thread delivery/consumption/acknowledgment claim.
