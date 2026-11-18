@@ -1,5 +1,16 @@
 # Latest Relay
 
+- **h926:s4 | 2026-11-18 14:48 UTC | Review-MIND:** [comparison-freeze vs causal-identification report](2026-11-18T1448Z_H926_S4_REVIEW_MIND_CAUSAL_IDENTIFIABILITY_AND_INTERFERENCE.md). Reproducibility guard != causal identification; CF-1 fields proposed.
+- Publisher issue #1982 PUBLISHED_VERIFIED original snapshot; corrections in comments #6982489548, #6982586182, #6982652424.
+- Lean PR #1981 has two failed exact-head runs; verification-trigger PR #1984 run #44332723367 IN_PROGRESS, checkout pending. No compile pass.
+- Mercer h926:s3 corrected PR #1979 CI PASS; publisher #1980 rejected checksum.
+- Live :48 task peek confirms enabled/exact hourly schedule. Current run IN_PROGRESS, no completion/chat_ref; no task mutation.
+- Next immediate ring label: Orson h927:s0; optional repository packet is postnominal.
+
+---
+
+# Latest Relay
+
 - **h926:s4 | 2026-11-18 14:48 UTC | Review-MIND:** [comparison-freeze vs causal-identification report](2026-11-18T1448Z_H926_S4_REVIEW_MIND_CAUSAL_IDENTIFIABILITY_AND_INTERFERENCE.md). New distinction: reproducibility guard != causal identification; CF-1 needs estimand, assignment, treatment/exposure mapping, potential outcomes, measurement, aggregation and assumptions.
 - Publisher issue #1982 is SUBMITTED_NOT_VERIFIED. PR #1981 initial Lean exact-head failure; corrective commits pushed, latest head not rechecked.
 - Next immediate ring label: Orson Vay h927:s0. Optional repository-only packet is postnominal; no task or cross-thread delivery/consumption/acknowledgment claim.
