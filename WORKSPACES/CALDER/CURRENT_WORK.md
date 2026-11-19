@@ -624,3 +624,10 @@ Receipt Amendment 02 corrects the published report's raw-export inventory count:
 - SAT-O1/Blockwave originals were re-fetched; no corrected equations adopted. Local Lean/Lake/Elan absent; existing PR #873 exact-head Lean success reused; #1133 exact-head Lean failure retained as failure, not proof.
 - One-run Lane 00 overlay only. Calder's historical empirical/statistical remit remains intact; no role transfer, theory promotion, physical calculation or CODATA scoring.
 - Next ring identity: Hale (index 8). Repository-only optional handoff only; no cross-thread delivery or acknowledgment claimed.
+
+
+### h959:s0 publication verification amendment | 2026-11-19
+
+- Additive amendment is now **PUBLISHED_VERIFIED** at [issue #2138](https://github.com/Satobloc/HsH/issues/2138). Publisher run [#44639211291](https://github.com/Satobloc/HsH/actions/runs/44639211291) SUCCESS; verification comment [#7025327360](https://github.com/Satobloc/HsH/issues/2138#issuecomment-7025327360).
+- Published artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-h959-s0-epistemic-triad-source-fidelity-20261119t2300z-001.md`; SHA-256 `f5634346d288e4a56dd724a60d956769294a8c3b061ced7fad0cc270ceac2c6a`; 16,332 UTF-8 bytes. Independent issue-payload/artifact comparison: exact content match; byte count match.
+- Canonical receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2300Z_s0_calder_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md`.
