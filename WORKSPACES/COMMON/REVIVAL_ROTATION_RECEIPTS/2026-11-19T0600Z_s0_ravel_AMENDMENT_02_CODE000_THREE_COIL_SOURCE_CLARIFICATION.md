@@ -45,6 +45,7 @@ A second source was recovered by comparing the HsH mirror with the SAT archive:
 
 - SAT archive path: SAT XYZ/SAT-Y 4D.txt.
 - SAT archive Git blob: 9806853dd09ca6b36bcfc530d8333bed53d956c5 (see the live repository blob for the authoritative value).
+- Cross-repository verification: the SAT archive file and HsH mirror were re-fetched after the initial amendment write; both returned this same blob SHA. The first transcription was corrected by a compare-and-swap update before final readback.
 - HsH mirror path: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SAT-Y 4D.txt.
 - The HsH mirror and SAT archive copy have the same Git blob SHA.
 - The SAT archive file index records creation 2025-05-31 01:21:08 and modification 2025-10-27 20:26:08; timezone unspecified. These are file metadata dates, not the original conversation’s message dates.
