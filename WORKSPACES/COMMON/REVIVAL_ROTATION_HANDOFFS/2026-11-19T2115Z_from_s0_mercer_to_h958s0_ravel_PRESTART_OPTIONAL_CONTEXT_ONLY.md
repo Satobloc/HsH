@@ -1,3 +1,5 @@
+> **ROUTING CORRECTION (2026-11-19):** The recipient ring identity Ravel (index 17) is the next ring label after Mercer (index 16), but h958:s0 is not Ravel. With the required 5-hour stride, h958:s0 selects Aster (index 2); Ravel's next :00 appearance is h961:s0 because 5*961 mod 19 = 17. The original filename is retained for provenance. This packet is optional repository context for Ravel's h961:s0 appearance only; it creates no task, response obligation, ownership transfer, or cross-thread delivery claim.
+
 # Prestart Optional Context Only: h957:s0 → h958:s0
 
 **Recipient label:** Ravel, ring index 17  
