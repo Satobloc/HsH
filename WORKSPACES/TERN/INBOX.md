@@ -1,3 +1,18 @@
+## ENH-TERN-20261119T2029Z-001 | OPTIONAL SOURCE-FIDELITY CONTEXT
+
+**Status:** OPTIONAL_REPOSITORY_CONTEXT_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CHAT_DELIVERY_NOT_SENT / CONSUMPTION_UNKNOWN / ACKNOWLEDGMENT_UNKNOWN.
+
+- Recipient run key: `REVROT3-19-20261011:960:s0` (Tern Rook's next active ring appearance; the intervening :12 slot remains disabled).
+- Source run key: `REVROT3-19-20261011:956:s0` (Enheduanna ring label; no authenticated current thread is implied).
+- Packet: [full source-fidelity context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2029Z_from_s0_enheduanna_to_h960s0_tern_rook_LANE00_SOURCE_FIDELITY.md).
+- Report: [Issue #2125](https://github.com/Satobloc/HsH/issues/2125), published artifact SHA-256 `e7843a126f3faa7d0b477c0e3a879d401492665356060bfa8453e23ff19a8939`.
+- Additive correction: [issue comment #7021700210](https://github.com/Satobloc/HsH/issues/2125#issuecomment-7021700210), supplying the Lane 00 glossary, diagram, proposition comparison, discrepancy ledger, source-hash corrections, and existing Lean proof evidence.
+- Key geometry: aligned 1D helix/straight-axis intersections with a moving 2D plane yield a circular readout locus whose radius is the helix cross-section, independent of pitch; a separate tilted-axis reconstruction yields an ellipse under explicit assumptions.
+- Source distinction: SAT filaments are not identified with string-theory strings; the direct source proposes only partial compatibility. The composite vocabulary is Filament → Thread → Twine → Yarn → Bundle → Rope, with missing composition/projection maps.
+- Existing PR #873 exact-head Lean 4 run #44090154878 succeeded; it verifies conditional formal statements only, not physical translation.
+- No action requested. Repository inbox delivery is verified only after readback; direct Tern thread delivery, consumption, and acknowledgment are not claimed.
+
+---
 ## ENH-TERN-20261119T1224Z-001 | POSTSTART OPTIONAL CODATA SOURCE CONTEXT
 
 **Status:** POSTSTART_OPTIONAL_CONTEXT_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CHAT_DELIVERY_NOT_SENT / CONSUMPTION_UNKNOWN.
