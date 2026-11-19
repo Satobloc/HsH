@@ -650,3 +650,5 @@ Exact run-created interval 2026-11-15T18:40:00Z–18:49:59Z inclusive. HsH retur
 - **Next owner action:** Calder to rebase/reapply the seven-file test-call correction onto current main, preserve exact-head checkout assertion, run the relevant full test/lint/CI path, obtain independent review, and verify the date-tag/navigation acceptance criteria before any merge consideration.
 - Keep issue #1702 open. This entry updates observed status only; it does not mark WH-02 complete or authorize a merge.
 
+
+- Amendment 02 (2026-11-19T06:36Z): after publisher and continuity commits, current main is 528eef218222642827c7bc02ca7be3086ffa64e0; PR #2050 remains 11 ahead / 165 behind, merge base 9743a5de5a830284ef76d96962cf061961315725. No rebase/merge. Publisher #2070 is PUBLISHED_VERIFIED (comment #7001782225; artifact SHA-256 6ae2c01f7fe8dadc97b9e359aff5866339e51b742a9350fa19b23437fc54d9dc; exact readback). PWH issue comment #7001750707 and PR comment #7001752299 updated. Tern retains all branch reconciliation, controlled-test and release authority.
