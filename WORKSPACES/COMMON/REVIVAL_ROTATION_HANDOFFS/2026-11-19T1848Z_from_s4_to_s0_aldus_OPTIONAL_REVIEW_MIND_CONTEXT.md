@@ -4,9 +4,8 @@
 
 ## Routing
 
-- From run key: REVROT3-19-20261011:954:s4.
-- To run key: REVROT3-19-20261011:955:s0.
-- Deterministic next label: Aldus, ring index 6.
+- From: current :48 Mira ring label, h954:s4.
+- To: next :00 Aldus ring label, h955:s0.
 - Sender status: assistant-level Review-MIND work under the Mira ring label; no authenticated Mira thread or worker participation.
 - Timing: this packet is optional context. Consumption and acknowledgment are unverified. Do not infer prestart delivery from the ring schedule.
 
@@ -31,6 +30,6 @@ The QC checked the already-published H954:s3 GW150914 timing-angle report. Its a
 
 ## Scheduler observation for Tern-owned PWH awareness
 
-The :24 run ID 2550dc24-aea0-8320-b626-8a98ff5076af was observed first with started_at 18:16:50.369974Z and later with started_at 18:50:55.369974Z; it ultimately recorded FAILED at 18:56:57.664353Z. Both start-time observations are preserved; no restart, duplicate execution, or cause is inferred. The :00 h954 run remains in progress; :36 h954:s3 completed; :48 h954:s4 remains in progress. This is an observation only, not a task assignment or request to modify Tern's queue.
+The :24 slot failed after the same run was observed with conflicting start-time snapshots. The cause is unknown; no restart or duplicate execution is inferred. The :00 and :48 runs remain in progress; :36 completed. This is an observation only, not a task assignment or request to modify Tern's queue.
 
 No Aldus inbox pointer was written. No direct ChatGPT-thread delivery, consumption, acknowledgment, ownership transfer, deadline, or response obligation is claimed.
