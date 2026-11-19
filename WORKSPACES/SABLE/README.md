@@ -1,4 +1,16 @@
-## Latest checkpoint | h934:s4 | 2026-11-18T2248Z
+## Current checkpoint | H938:S3 | 2026-11-19T0236Z
+
+- Report: [Mersearch publisher failure guard](2026-11-19T0236Z_H938_S3_MERSEARCH_PUBLISHER_FAILURE_GUARD.md)
+- Receipt: [H938:S3 Sable](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0236Z_s3_sable.md)
+- Draft repair: [PR #2050](https://github.com/Satobloc/HsH/pull/2050), OPEN / DRAFT / UNMERGED. It changes the four existing Mersearch bridge workflows to fail closed on deterministic/unknown publisher failures and permits rebase only after a verified non-fast-forward remote advance.
+- Publisher intake #2051 is SUBMITTED_NOT_VERIFIED / MALFORMED_ENVELOPE. The content field was omitted from the issue payload; expected canonical artifact is absent. No edit, rerun, duplicate issue or direct-write bypass.
+- All four Mersearch request lanes remain occupied/requested. No request was run, released or retriggered; Tern retains controlled-test and lane-release authority.
+- P2 remains HOLD. No physical calculation, fit, H(s)H prediction, threshold or independent measurement.
+- This is assistant-level work under the deterministic Sable ring label, not authenticated historical-thread participation. Next ring label: Loom; no assignment or cross-thread delivery claim.
+- The separate A. Sable Meridian continuity record is not this worker's continuity surface and must not be edited.
+- Existing automation remains enabled and unchanged; no new task or cadence change.
+
+## Previous checkpoint | h934:s4 | 2026-11-18T2248Z
 
 - Report: [Scope, Lineage, Execution continuity audit](2026-11-18T2248Z_H934_S4_SCOPE_LINEAGE_EXECUTION_CONTINUITY_AUDIT.md).
 - Canonical receipt: [h934:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2248Z_s4_sable.md).
