@@ -464,3 +464,17 @@ The standing Nadir workspace lane remains Lane 24. This run also completed the e
 
 
 - Final exact-ID readback: :24 h822:s2 completed as a duplicate-run-key reconciliation and its next_run_time advanced to 02:24 EST; :00 h823:s0 Enheduanna run surfaced at 07:00Z and started 07:01:54.458309Z; :48 h822:s4 remained IN_PROGRESS with null chat_ref. See the final amendment in the h822:s4 report and receipt.
+
+
+---
+
+## 2026-11-19 h952:s0 — Lane 00 source-fidelity overlay (one run)
+
+- Additive source extension submitted through existing publisher: [Issue #2109](https://github.com/Satobloc/HsH/issues/2109), submission `nadir-h952-s0-worldline-worldtube-source-extension-20261119t1600z-001`.
+- Current status: **SUBMITTED_NOT_VERIFIED**. No publisher comment or published artifact was present at final check; expected artifact returned 404. Do not duplicate or retry. Next run must verify the same issue, artifact checksum and readback, then append an amendment if complete.
+- Larger Library raw export of ChatGPT Voice Glitch recovered: conversation `6a958d9c-c4fc-83e9-a106-66d2025220c4`, 2,413 nodes / 171 user messages, SHA-256 `bd507d1779df9f592786664fffb973529db0e726712d6991e017a3a95e07c604`. The public HsH 140-node snapshot omits later Sep 1–5 direct messages `140bf662`, `b56dab74`, `91e32256`, `03fb0dd9`, `db78ab44`, and `61c8e9e6`.
+- New source clarification: Sep 5 direct text qualitatively relates SAT helical-worldline language to H(s)H full-worldtube language (“same structure, fatter tubes”), but supplies no sweep/thickening map. Sep 1 scope warning (“not SAT”) remains earlier in the same conversation. Preserve chronology; no formal equivalence or theory promotion.
+- SAT-O1 and Blockwave original equations/hashes preserved. No corrected equations adopted. No new Lean run, physical calculation, fit, prediction, independent measurement, or CODATA scoring.
+- Nadir's standing Lane 24 BACKSEAT/HOLD state remains unchanged; this is a one-run Lane 00 overlay, not a role reassignment. No standalone Nathan-authored Nadir specialist charter or authenticated current Nadir thread recovered; no cross-thread delivery or handoff acknowledgment.
+- Unrelated reading cursor advanced: SAT archive `MIX TAPES.txt`, lines 501–540; next 541. FIE next review remains November 24.
+- Canonical receipt: [h952:s0](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1600Z_s0_nadir_voss.md).
