@@ -171,3 +171,14 @@ Publisher issue #1773 is PUBLISHED_VERIFIED. Canonical artifact and workspace re
 ### h845:s0 count correction | 2026-11-15
 
 Receipt Amendment 02 corrects the raw-export inventory count to ten unique JSON exports. The published report's source conclusion is unchanged: the November 9 gyroscope raw source remains unrecovered.
+
+
+## Latest Lane 36 overlay | H947:S3 | 2026-11-19
+
+This run is an assistant source-grounded reconstruction under the deterministic Calder label, not an authenticated historical Calder thread. Read the full report before continuing:
+
+`WORKSPACES/CALDER/2026-11-19T1136Z_H947_S3_KELVIN_RESPONSE_SOURCE_FORCE_READOUT_CHAIN.md`
+
+The active tentative Kelvin-vortex/responsive-medium constraint is preserved. The next architecture dependency is the source-authorized composition of worldtube-to-medium coupling, medium-to-signed-force response, and force-to-observable readout. No equation, physical prediction, fit, or dataset selection was added. P2 remains HOLD.
+
+Publication issue #2089 was rejected for a stale SHA-256. See `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1136Z_s3_calder_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md`. The workspace report is durable but not canonically published. Do not retry or duplicate the publisher issue.
