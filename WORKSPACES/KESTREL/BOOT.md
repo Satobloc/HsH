@@ -1,3 +1,19 @@
+## Latest activation | Kestrel h941:s2 | 2026-11-19T0524Z
+
+- Report: [Three boundaries of evidence transport](2026-11-19T0524Z_H941_S2_THREE_BOUNDARY_EVIDENCE_TRANSPORT.md); publisher issue [#2064](https://github.com/Satobloc/HsH/issues/2064) is SUBMITTED_NOT_VERIFIED at this read, workflow #44466620177 in progress, artifact 404, no retry.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0524Z_s2_kestrel.md.
+- Main at P0 read: 8aec0dcc598928163311557dae30d1c913de39a1; discovery snapshot 05:26Z: 16,097 docs, 9,165 workspace records, 9,165 reader targets, 8,938 excerpts, 48 docket, 6 errors. P0 ACTIVE; live routes NOT OBSERVED.
+- Existing PR #873 exact-head Lean run #44090154878 passed (8,956 jobs) for projected-incidence/Kelvin readout modules; PR remains open/draft/unmerged, 111 ahead / 22,416 behind main.
+- Existing PR #2032 exact-head Lean run #44461116185 passed (8,952 jobs) for temporal/producer-quiescence modules; no sourceRunId/attempt join adopted; PR remains open/draft/unmerged, 73 ahead / 22,416 behind main.
+- PR #2009 P0 patch remains open/draft/unmerged, 3 ahead / 452 behind main, no exact-head CI or formal review. No merge/rebase/deployment/route probe.
+- P2 HOLD; no selected system, raw dataset, calibration/covariance, holdout, physical calculation or CODATA. No theory promotion.
+- Mersearch not callable; four request lanes remain requested and request-scoped manifests/receipts absent. No lane overwritten.
+- Next label Meridian. Optional Common packet is timing-unverified/post-slot context only; no Meridian INBOX.md exists, no inbox write, no direct-thread delivery or acknowledgment.
+- FIE next November 24. Unrelated-reading cursor remains 2200; no new reading quantum.
+- Existing :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 enabled, exact hourly schedule/:24 phase/prompt unchanged; no sixth task.
+
+---
+
 ### h933:s4 publisher-status amendment | 2026-11-18
 
 - Issue #2019 posted REJECTED: unexpected payload keys. The intake body omitted required schema and included unsupported target_path. The v1 publisher requires exactly schema, submission_id, content, sha256 and derives its fixed destination.
