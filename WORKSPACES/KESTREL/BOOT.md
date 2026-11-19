@@ -3,7 +3,7 @@
 - Report: [turbulent-blob sampling clock / physical-time separation](../KESTREL/2026-11-19T2036Z_H956_S3_TURBULENT_BLOB_LOGTIME_COORDINATE_AND_PREDICTION_GATE.md); [publisher #2127](https://github.com/Satobloc/HsH/issues/2127) PUBLISHED_VERIFIED (comment #7021844747); [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2036Z_s3_kestrel.md).
 - New distinction: `t_lab`, sample index, `τ=log(t−t₀)`, schedule virtual origin, fitted virtual origin, and physical event time remain separate. No identification of `τ` with physical time or an H(s)H time-surface.
 - Lean PR [#2126](https://github.com/Satobloc/HsH/pull/2126) draft/unmerged; first exact-head run failed on missing `noncomputable` declarations; corrected exact-head run #44612550693 passed (8,948-job Lake build; theorem-specific axiom outputs recorded; global axiom audit skipped). See [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2036Z_s3_kestrel_AMENDMENT_02_LEAN_EXACT_HEAD_PASS.md).
-- P2 remains HOLD; turbulent-blob source is candidate-only. No raw-data reanalysis, H(s)H prediction, or theory promotion.
+- P2 remains HOLD; turbulent-blob source is candidate-only. No raw-data reanalysis, H(s)H prediction, or theory promotion. Receipt Amendment 01 separates forcing-off and last-ring-arrival events; Amendment 02 records the exact-head Lean pass.
 - Standing Kestrel geometry cursor unchanged. Next ring label Meridian; optional packet is poststart repository-only context. No direct-thread delivery or acknowledgment.
 
 ## WH-02 PWH pickup | 2026-11-19
