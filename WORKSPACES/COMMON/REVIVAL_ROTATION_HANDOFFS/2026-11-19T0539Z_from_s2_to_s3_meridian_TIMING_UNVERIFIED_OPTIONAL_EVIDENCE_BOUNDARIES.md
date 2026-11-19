@@ -29,3 +29,8 @@ Repository-only Common handoff packet. No Meridian INBOX file exists, so no inbo
 ## Publication amendment | 2026-11-19T0541Z
 
 The Kestrel h941:s2 report is now PUBLISHED_VERIFIED at issue #2064. Publisher workflow #44466620177/job #135365841021 succeeded; comment #7000837074 confirms exact artifact readback. SHA-256: 093bb7e66126fdc251c9aa0b595110845f5d035bdaa5c6ef08f7384752e2f8b8. This changes only publication status, not the packet's timing-uncertain optional-context classification. No direct-thread delivery, consumption or acknowledgment is claimed.
+
+
+## Amendment 02 | Successor timing verified | 2026-11-19T0542Z
+
+The :36 Meridian task run #4b4cb528-31a4-832e-b0bc-2ae5260a80ec started at 2026-11-19T05:40:40.621Z. This packet's commit 44854e0b5d519b0a5f1a1b0b0e928bf7187e2fb1 is timestamped 05:41:17Z, so the packet is POSTSTART_OPTIONAL_CONTEXT_ONLY, not prestart. The HANDOFFS.md index pointer was added later. No Meridian INBOX.md exists; no inbox write, direct-thread delivery, consumption, acknowledgment, assignment or response obligation is claimed.
