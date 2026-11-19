@@ -22,8 +22,9 @@ deriving DecidableEq, Repr
 def observed (assignment : Bool) (p : PotentialOutcomes) : Bool :=
   if assignment then p.treated else p.control
 
-/-- A deterministic unit-level treatment effect exists iff the two potential
-    outcomes differ. -/
+/-- A deterministic unit-level nonzero-effect indicator. This records only
+    whether the two potential outcomes differ; it does not encode direction or
+    magnitude. -/
 def effect (p : PotentialOutcomes) : Prop :=
   p.control ≠ p.treated
 
@@ -31,7 +32,8 @@ def effect (p : PotentialOutcomes) : Prop :=
 def compatible (assignment outcome : Bool) (p : PotentialOutcomes) : Prop :=
   observed assignment p = outcome
 
-/-- An observation identifies the effect when all compatible worlds agree. -/
+/-- An observation identifies the nonzero-effect predicate when all compatible
+    worlds agree on that predicate. -/
 structure Identified (assignment outcome : Bool) : Prop where
   agreement : ∀ (p q : PotentialOutcomes), compatible assignment outcome p →
     compatible assignment outcome q → effect p ↔ effect q
@@ -61,20 +63,23 @@ theorem alternative_world_has_effect (assignment outcome : Bool) :
   cases assignment <;> cases outcome <;> simp [effect, alternativeWorld]
 
 /-- Non-identifiability: one observed binary outcome, even with assignment
-    recorded, is compatible with both a no-effect world and an effect world.
-    This establishes an identifiability limit, not a treatment-effect estimate. -/
+    recorded, is compatible with both a no-effect world and a world with a
+    nonzero-effect predicate. This does not identify the signed or average
+    treatment effect, and it is not a model of multi-unit interference. -/
 theorem one_observation_does_not_identify_effect (assignment outcome : Bool) :
     ¬ Identified assignment outcome := by
   intro h
   have hAgreement :
       effect (sameOutcomeWorld outcome) ↔
-        effect (alternativeWorld assignment outcome) := by
-    apply h.agreement
+        effect (alternativeWorld assignment outcome) :=
+    h.agreement
       (sameOutcomeWorld outcome)
       (alternativeWorld assignment outcome)
-    · exact same_world_matches_observation assignment outcome
-    · exact alternative_world_matches_observation assignment outcome
+      (same_world_matches_observation assignment outcome)
+      (alternative_world_matches_observation assignment outcome)
   exact (same_world_has_no_effect outcome)
     (hAgreement.mpr (alternative_world_has_effect assignment outcome))
 
 end HsHVerification.CausalIdentification
+
+#print axioms HsHVerification.CausalIdentification.one_observation_does_not_identify_effect
