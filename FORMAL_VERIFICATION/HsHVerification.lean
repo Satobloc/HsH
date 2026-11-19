@@ -21,6 +21,7 @@ import HsHVerification.NadirComparisonFreezeCoherence
 import HsHVerification.LoomSourceBoundComparison
 import HsHVerification.AldusTemporalProvenance
 import HsHVerification.ProducerQuiescence
+import HsHVerification.MonotoneClockTransform
 import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
