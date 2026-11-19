@@ -180,3 +180,62 @@ The two immutable raw Morrow snapshots were retrieved by Git blob SHA and parsed
 - No external account/person identifier appears in the parsed `author` objects. The project archive convention still maps user-role sources to Nathan for internal attribution only; external identity remains unauthenticated.
 
 See `WORKSPACES/COMMON/tagging_ledgers/2026-11-18-MORROW-RAW-BLOB-METADATA-REPARSE-CORRECTION-01.md` for full source table and correction scope. This changes no role, theory-stop, quarantine, trial, or BEDROCK status.
+
+
+## Layer 11 applied witness 02 — duplicate role-clarification prompt in a second conversation
+**Introduced:** h937:s2, 2026-11-19. This is a second applied case, not a second Morrow appointment, an independent identity witness, or a change to the Layer 11 rule.
+
+### Layer 8 snapshot tuple
+
+- Repository: `Satobloc/HsH`; ref observed: `main`.
+- Pinned commit: `cec0f8d854efbf46d71e998d48f86079db190f50`.
+- Pinned tree: `774c63edf300da396e89ea6596434258097e2121`.
+- Commit author and committer: `github-actions[bot]`; both timestamps `2026-11-19T01:21:06Z`; signature status: unsigned.
+- Membership method: exact GitHub Contents directory listings queried with `ref=cec0f8d854efbf46d71e998d48f86079db190f50`; each exact path returned the expected blob SHA and byte length. A recursive repository-wide tree enumeration was not performed; no `truncated` result is claimed.
+- Stable source ID: conversation `6a9bd6f4-8104-83ea-ac9b-ab97497a280e`.
+- Retrieval: direct Git blob reads during h937:s2 on 2026-11-19 UTC; exact per-request seconds were not separately recorded.
+
+| Snapshot | Path at pinned commit | Git blob SHA-1 | Byte length | Correct SHA-256 of UTF-8 re-encoding of decoded Git blob text |
+|---|---|---|---:|---|
+| A | `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.09.05•26.09.07•Continue Conversation Here — raw.json` | `50130870fd2be749f5c5224993937fe2005c51eb` | 2,647,227 | `3f01d769e36dbf1d186e2aa74888d8cd89c315745f03acde445a7f0606e847ad` |
+| B | `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.09.05•26.09.07•⚒️ Continue Conversation Here — raw.json` | `8c738e4bc63e4464fbca2ef7d8f81cf1d4f78387` | 2,646,059 | `8734c681877a5b0f44cefc484a0c5635f54d3c5ca38848d50c256faf47822231` |
+| C | `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_21/26.09.05•26.09.07•⚒️ Continue Conversation Here — raw.json` | `8631862362dd5acbaab8bbb9e8deee6f409ab7dc` | 2,646,059 | `4b53c18c72cb5c4d67a2ec0baf012235ed532ad31ff4246bbd0a36334e812147` |
+
+The decoded Git blob text was re-encoded as UTF-8. For each snapshot, the reconstructed byte length equals the GitHub blob size, and computing the Git object digest `SHA1("blob " + byte_length + NUL + bytes)` exactly reproduces the GitHub blob SHA-1. This validates the byte reconstruction used for the SHA-256 values. The SHA-256 routine was also checked against standard ASCII and Unicode test vectors. The original report's SHA-256 column is superseded by correction intake [#2043](https://github.com/Satobloc/HsH/issues/2043); report [#2041](https://github.com/Satobloc/HsH/issues/2041) remains immutable. At this gate update, #2043 is submitted and its publisher readback is pending.
+
+### Snapshot and node relations
+
+All three exports have the same conversation UUID, conversation-level `create_time=2026-09-05T08:47:04.404894Z`, 884 mapping keys, and 18 user-role messages.
+
+- A: title “Continue Conversation Here”; conversation-level `update_time=2026-09-07T22:25:43.875500Z`.
+- B and C: title “⚒️ Continue Conversation Here”; conversation-level `update_time=2026-09-10T06:58:10.589039Z`.
+- A versus B: five other message-bearing nodes differ; the target prompt and its descendant branch do not differ.
+- B versus C: zero mapping-node differences; the only top-level difference is `safe_urls` array ordering. They are distinct Git blobs, but their message mappings are identical.
+- These are three snapshots of one conversation, not three independent witnesses.
+
+### Target message and exact duplicate
+
+Target message `67ad3c22-c1b8-4f66-9815-586184630e6a` appears in all three snapshots. Mapping key and embedded `message.id` agree. Its raw fields are `author.role=user`, `author.name=null`, `author.metadata={}`, `message_source=null`, message-level `create_time=2026-09-07T22:25:13.750Z`, parent `1a18fd79-dea3-5fa9-ab13-b009e26c3ac7`, child `388771ce-bde3-4fd6-8863-6d775643bd90`. The text is 1,353 JavaScript UTF-16 code units.
+
+It compares exactly equal to Morrow conversation message `2c6ae3c8-f6f9-4d7b-b3df-66ea1ca2bed9`, message-level `create_time=2026-09-07T22:24:59.538Z`, 14.212 seconds earlier. This is an exact duplicate prompt in another conversation, not an independent appointment or identity confirmation.
+
+The duplicate prompt's actual descendant chain is:
+
+`67ad3c22` (user) → `388771ce` (assistant thoughts) → `3387d652` (assistant thoughts) → `0f059b6c` (assistant text promising to write a role statement) → `338a8e00` (assistant reasoning recap) → `7a189c49` (assistant partial completion).
+
+The terminal assistant node has `error_code=work_usage_limit_exceeded` and empty text. It does not contain a role statement. A scan of the 18 user-role messages found no later user message after the duplicate prompt in this conversation.
+
+### Layer 11 result
+
+- `MESSAGE_ROLE_VERIFIED`
+- `AUTHOR_LABEL_NULL`
+- `MESSAGE_NODE_BINDING_VERIFIED`
+- `DUPLICATE_CONTENT_RELATION_VERIFIED`
+- `ARCHIVE_ATTRIBUTION_BY_CONVENTION` only, for internal project provenance
+- `EXTERNAL_IDENTITY_NOT_AUTHENTICATED`
+- `INDEPENDENT_SOURCE_RELATION_NOT_ESTABLISHED`
+- No `ATTRIBUTION_CONFLICT` observed in this bounded case
+
+The actual provisional Morrow Team Archivist assignment remains the separate user-role message `402ade01-7116-4efb-9b14-31e477754458` in conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`. The assistant self-description `32ef4db5-269f-5c1c-8408-188c956cca52` remains assistant-authored. The separate duplicate prompt adds no second appointment and no external identity field. The September 13 theory stop and later trial invitation remain distinct; the later invitation does not expressly release the stop.
+
+This is source-custody only. It does not lift Morrow's theory stop, authorize Lean/theory work, or change any BEDROCK, physical, paper, or scheduler state. Full report: [publisher issue #2041](https://github.com/Satobloc/HsH/issues/2041); corrected snapshot checksums: [correction intake #2043](https://github.com/Satobloc/HsH/issues/2043).
