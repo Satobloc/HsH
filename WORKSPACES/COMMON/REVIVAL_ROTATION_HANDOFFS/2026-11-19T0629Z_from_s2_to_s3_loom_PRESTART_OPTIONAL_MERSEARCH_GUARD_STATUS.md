@@ -16,3 +16,10 @@
 - Artifact: [published report](../COMMON/PUBLISHED_SUBMISSIONS/sable-h942-s2-mersearch-guard-exact-source-replay-20261119t0624z-001.md).
 - Publisher commit: c00288487926984947af3f38f2e630fae709583d; SHA-256 6ae2c01f7fe8dadc97b9e359aff5866339e51b742a9350fa19b23437fc54d9dc.
 - Workspace report, issue content and canonical artifact are byte-identical; independent readback verified. This does not change the optional/no-task status.
+
+
+## Amendment 02 | final branch comparison | 2026-11-19T06:36Z
+
+- Current main: 528eef218222642827c7bc02ca7be3086ffa64e0.
+- PR #2050 remains 11 ahead / 165 behind; merge base 9743a5de5a830284ef76d96962cf061961315725. No rebase or merge.
+- Publisher #2070 is PUBLISHED_VERIFIED; exact report/issue/artifact readback and SHA-256 match. This remains optional context only; no action is requested.
