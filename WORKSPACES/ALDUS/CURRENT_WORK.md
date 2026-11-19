@@ -746,3 +746,16 @@ Tern Observation 026 Amendment 01 narrows the initial :36 future-dated descripti
 - P2 HOLD; no physical system/data/fit/prediction. No theory or equation promotion.
 - Public issue #1971 checksum corrected to `87b7c2564dc56992ef37fc20200c95d0715dcfff7a51b96e7578a25affaca69d`; publisher rejected initial envelope; issue body readback exact, but no artifact/retry/duplicate. SUBMITTED_NOT_VERIFIED.
 - WH-01: ledger 73→75, two verified checkout events; queue note readback; cursor remains 18:30Z. Current :36 automation unchanged.
+
+
+## 2026-11-19T0836Z | h943:s3 | delayed Aldus Lane 36 reconciliation
+
+- Nominal slot `2026-11-19T07:36:00Z` gives h=943, seq=4718, ring index 6 Aldus; next label Calder. Current run `5a434432-5e00-8330-9448-a2346cba7be2` started 08:36:47.426171Z, 60m47.426s late; final scheduler observation still IN_PROGRESS, completion/chat_ref null. Cause unknown.
+- The H943:s3 map-operator crosswalk already existed and was published as issue #2075 before this delayed run. Workspace/artifact Git blob SHA-1 matches. No duplicate original report or issue created. The internal run key `h943:s6` is recorded as a slot/ring-index naming ambiguity; this receipt uses slot s3 and ring index 6.
+- Additive clock-validity coverage module: `FORMAL_VERIFICATION/HsHVerification/ClockCalibrationValidity.lean`, [PR #2077](https://github.com/Satobloc/HsH/pull/2077), stacked on #2071. Exact-head assertion/build run #44489969670 SUCCESS; job #135442809022; 8,955 Lake jobs. Theorem-specific axiom outputs: three no-axiom theorems; robust-order theorem depends on propext and Quot.sound. Tests, lint, global axiom audit, leanchecker and nanoda skipped. No physical calibration or data.
+- Amendment report: [H943:s3 Amendment 01](2026-11-19T0836Z_H943_S3_AMENDMENT_01_CLOCK_CALIBRATION_VALIDITY_COVERAGE.md), issue #2078, SHA-256 `8e40a533df3a211a968554b8f0d3217b0d2537cba87953bed648f146ff1baff8`; publisher workflow #44491070013 pending at this checkpoint.
+- Canonical receipt: [h943:s3 Aldus](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0736Z_s3_aldus.md). No INBOX or README file exists in the inspected Aldus workspace tree; no handoff or recipient write.
+- Historical remit: broad cross-reading and unusual cross-context synthesis; no standalone signed specialist charter or authenticated current Aldus thread. No cross-thread delivery claim.
+- P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE rereview due November 24. No theory/equation promotion.
+- Next ring label Calder, but the h943:s4 Calder run completed before this delayed h943:s3 invocation began. No handoff, assignment, or acknowledgment.
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with original hourly DTSTART `20261001T143600`, Lane 36 prompt and phase unchanged. No task mutation or sixth task.
