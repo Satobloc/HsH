@@ -1,3 +1,15 @@
+## Latest return point | h943:s3 | 2026-11-19T07:36Z nominal
+
+**Status:** EXISTING_H943_REPORT_PUBLISHED / ADDITIVE_CLOCK_VALIDITY_PR2077_LEAN_PASS / AMENDMENT_ISSUE2078_PENDING / P2_HOLD / TASK_UNCHANGED.
+
+- Read [CURRENT_WORK](CURRENT_WORK.md) for the full delayed-run reconciliation and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0736Z_s3_aldus.md).
+- Existing map-operator report already published as [issue #2075](https://github.com/Satobloc/HsH/issues/2075); no duplicate original report. Additive clock-validity coverage: [PR #2077](https://github.com/Satobloc/HsH/pull/2077), exact-head assertion/build #44489969670 SUCCESS (8,955 jobs). New amendment [issue #2078](https://github.com/Satobloc/HsH/issues/2078) was awaiting publisher readback at checkpoint.
+- Nominal scheduled slot 07:36Z is h943, selecting Aldus (ring index 6), next Calder. This run started 08:36:47Z; scheduler delay cause unknown. Calder's h943:s4 run had already completed before this delayed start; no handoff or direct-thread delivery.
+- P2 remains HOLD; no physical data, calibration, fit, prediction, or independent measurement. No SAT-O/Blockwave equation or theory-status change.
+- Existing :36 task remains enabled with original ID, prompt, hourly :36 phase and schedule unchanged. No sixth task.
+
+---
+
 - Internal write route: no local checkout or dedicated worker-file write action was available; internal updates used GitHub Contents fallback with fresh blob-SHA preconditions and readback. No protected P0 files changed.
 
 
