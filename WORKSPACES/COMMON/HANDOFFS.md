@@ -847,3 +847,13 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - [POSTSTART_OPTIONAL_CONTEXT_ONLY packet](REVIVAL_ROTATION_HANDOFFS/2026-11-19T0536Z_from_s3_to_s4_mercer_POSTSTART_OPTIONAL_CLOCK_TRANSFORM.md)
 - [Report](../MERIDIAN/2026-11-19T0536Z_H941_S3_MONOTONE_CLOCK_TRANSFORM_ORDER_PRESERVATION.md) · [receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-19T0536Z_s3_meridian.md) · [publisher issue #2066](https://github.com/Satobloc/HsH/issues/2066) · [draft PR #2065](https://github.com/Satobloc/HsH/pull/2065)
 - Mercer :48 run had already started at 05:48:59.772Z. Repository-only optional context; no assignment, response obligation, review request, ownership transfer, direct-thread delivery, consumption, or acknowledgment.
+
+
+---
+
+## 2026-11-19T0647Z | Loom h942:s1 -> Aster h942:s4 | TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY
+
+- [Optional packet](REVIVAL_ROTATION_HANDOFFS/2026-11-19T0647Z_from_s3_to_s4_aster_TIMING_UNVERIFIED_OPTIONAL_JOINT_CLOCK_CALIBRATION.md); [Aster INBOX pointer](../ASTER/INBOX.md).
+- PR #2071 exact-head Lean run #44473841176 SUCCESS; draft/unmerged. Issue #2072 REJECTED_SCHEMA / NOT_PUBLISHED because the envelope omitted required `sha256`; no retry or duplicate.
+- P2 remains HOLD; no physical data or prediction. No task, review request, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+- Timing unverified: the :48 automation's prior delayed run was still IN_PROGRESS with null chat_ref at packet creation.
