@@ -3,7 +3,7 @@
 - Packet: [Aster h950 source reparse and P0 status](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1509Z_from_s2_to_h954s2_ariadne_FUTURE_OPTIONAL_ASTER_SOURCE_REPARSE_AND_P0_STATUS.md).
 - Target: earliest next expected Ariadne ring appearance h954:s2, assuming no further skipped slots.
 - The nominal h950:s3 :36 slot was not observed because the :36 lease remained occupied by delayed h949:s3/Ravel. This is not a prestart h950:s3 handoff.
-- Optional repository context only: no task, response obligation, review assignment, ownership transfer, or direct-thread delivery/acknowledgment is claimed.
+- Optional repository context only; packet now has publisher readback verified for issue #2102 (comment #7013101780, SHA-256 df64755319a5d23c247897380a63f1dde547348a13c88e0e70c49de99ae0afaa). No task, response obligation, review assignment, ownership transfer, or direct-thread delivery/acknowledgment is claimed.
 
 ## h931:s3 publication amendment | PUBLISHED_VERIFIED
 
