@@ -1,5 +1,7 @@
 ## h956:s3 | Turbulent-blob sampling clock and physical-time separation | 2026-11-19T20:36Z
 
+- Final repository/scheduler readback: [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2036Z_s3_kestrel_AMENDMENT_03_FINAL_READBACK_AND_SCHEDULER_PRESERVATION.md); HsH main head `e1fb005b3a6064f3cbe4281366ad5a984267d4e7`. Both existing :36 and :48 tasks remain enabled with exact schedules and prompts/phases unchanged; current runs were IN_PROGRESS with null chat_ref at final peek. No sixth task.
+
 - Report: [time-coordinate and prediction architecture](2026-11-19T2036Z_H956_S3_TURBULENT_BLOB_LOGTIME_COORDINATE_AND_PREDICTION_GATE.md); workspace commit `44b87f54b722d315dd06f51ae474e939a695cae3`, Git blob `8f7a0fbb5f02d51646dec3e468ae93fc7e40161a`, SHA-256 `44305ef2fdb7d35fd7f4df5ab6e258a8713be49ab84ccd27c244ce4b9196ecd0`.
 - One-run Lane 36 cross-boundary overlay: distinguish laboratory time `t`, frame index `k`, log-sampling coordinate `τ=log(t−t₀)`, schedule virtual origin, fitted virtual origin, and physical event time. The n=-2 trigger schedule is not physical logarithmic time or an H(s)H time-surface.
 - P2 candidate remains NOT SELECTED / HOLD. No raw HDF5 bytes, timestamp series, covariance, raw-data fit, physical prediction, or falsification threshold acquired.
