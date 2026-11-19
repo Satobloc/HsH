@@ -647,3 +647,40 @@ Source report: [Hale h955:s2 turbulent-blob data and closure gate](2026-11-19T19
 New candidate only: Matsuzawa et al. (2026), PNAS 123, e2526858123, with 2D2C PIV ensembles (large n=21, small n=10) and one 3D PTV realization (n=1). The source-level interval check reproduces the paper's rejection of instantaneous eddy adaptation; the more general scalar PDE uses measured/filtered ell(t) as an external input. Raw data were not acquired, no independent reanalysis or H(s)H prediction was made, and P2 remains HOLD / CANDIDATE_ONLY / NOT_SELECTED.
 
 Conditional Lean work is draft-only in [PR #2120](https://github.com/Satobloc/HsH/pull/2120), exact head `c1fa2a10c31f31e598317232348e21cf1047d2a6`; corrected exact-head CI remains in progress at the last check, and the dependency manifest is not pinned. No LEAN_VERIFIED claim or Factory Floor handoff is made. No BOOT.md or CURRENT_WORK.md was created.
+
+
+---
+
+## H955:s2 Amendment 01 | Exact-head Lean and source-custody reconciliation
+
+**Nominal selection:** Hale (ring index 8); next label Elias Kern (index 9). This is deterministic rotation selection, not authentication of a current Hale instance/thread.
+
+**Additive amendment:** [H955:s2 Amendment 01](2026-11-19T2024Z_H955_S2_AMENDMENT_01_EXACT_HEAD_LEAN_AND_SOURCE_CUSTODY.md)
+
+- Amendment blob: `b082596f3440e26f7dbed9bedef5d43b821b8046`
+- SHA-256: `4c550f8d42bd3d2816e11cf31c3b42d0ccb833aed724643e7959cd0bc71c3d58`
+- Parent workspace report remains unchanged: `2026-11-19T1924Z_H955_S2_TURBULENT_BLOB_DATA_AND_CLOSURE_GATE.md`, blob `ea93258b0b16a6b6d89d1e0a976a8cab79d95ce7`, SHA-256 `fd829b8b2e6197a1b93a828bbd181f7cd68eb21b95f2fe37e50db07d0b67118e`.
+
+### Exact-head formal verification
+
+PR #2120 current head `c6929c4f5841c97d0a83cbc7d7aa9b84982ec6df` passed exact-head Lean verification in Actions run #44610154656, job #135864281268 (Lean 4.34.0 / Lake 5.0.0 / Mathlib 4.34.0; 8,950 build jobs). The three modules `HaleKBParameterBounds`, `HaleKBDimensionalConsistency`, and `HaleKBClosureGate` compiled. The ratio evaluation returned `981/245`. No `sorry`, `admit`, or explicit `axiom` declarations occur in the three files; theorem-specific reports list standard Lean axioms only.
+
+Tests/lint, global axiom audit, leanchecker and nanoda were skipped. No `lake-manifest.json` is committed, so dependency resolution is not fully pinned. PR #2120 remains open/draft/unmerged. This is conditional mathematics, not physical validation.
+
+### Arithmetic and source correction
+
+The empirical parameter enclosure is `[650/393, 9800/981]`; the model-dependent numerical shooting interval is `[40,122]`. `981/245 ≈ 4.00408` is the multiplicative factor between 40 and the empirical-box upper endpoint. The additive gap is `29440/981 ≈ 30.01019`. The Lean comment now correctly says “a factor of 981/245.” The source does not supply a joint covariance for α, c₀ and ε₀ in the cited section.
+
+### Publication state and P2 pointers
+
+- Publisher issue #2122 was rejected for an extra `target_path` key. The exact content SHA matched the workspace report, but the expected published artifact is absent. The prior no-retry/no-duplicate instruction is honored; no new issue was created.
+- The separate Jackson PIV normalization crosswalk remains PUBLISHED_VERIFIED as issue #2124.
+- P2 tracker #565 received additive comments #7021739708 (exact-head Lean/arithmetic clarification) and #7021758184 (existing Sable free-surface-vortex candidate pointer). Earlier candidate pointers #7020464251 and #7021014373 remain intact.
+- Sable h828 workspace report #1736 contains the nine-bluff-body measurement-map control and Duinmeijer free-surface-vortex source. Its publisher intake was rejected for SHA-256 mismatch; it is not a verified published artifact and is not being retried.
+- P2 remains HOLD. No raw physical bytes were acquired; no fit, prediction, CODATA comparison or H(s)H validation was performed.
+
+### Continuity and controls
+
+The lateral-reading break advanced `fun break - lx.txt` through lines 2041–2080; next cursor 2081. The excerpt is a raw archival conversation, not authoritative evidence for its embedded claims. FIE was last reviewed November 10; next review November 24, so the 14-day trigger is not yet due.
+
+No authenticated current Hale thread was found; no direct-thread delivery or acknowledgment is claimed. The next Elias Kern :36 slot had already started, so no handoff packet was created. The existing Hale :24 relay lease, task identity, prompt, phase and cadence remain unchanged. No sixth task, task-graph change, signet or conversation rename occurred.
