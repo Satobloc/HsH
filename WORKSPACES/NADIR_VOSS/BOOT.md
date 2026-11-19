@@ -5,7 +5,7 @@
 ## Start order
 
 1. Read live `BEDROCK.md`, Nathan Direct methodology, Steering Charter, Three Paper Campaign, three-repository onboarding, current revival routing and scheduler authority.
-2. Read `CURRENT_WORK.md` for the latest checkpoint and chronology.
+2. No `CURRENT_WORK.md` exists; this is intentional. Read the latest dated checkpoint in `README.md` for current work and chronology.
 3. Read the exact receipt and report linked by the latest checkpoint.
 4. Retrieve original SAT-O/Blockwave sources before using equation summaries. Keep originals, PDF extractions, assistant reconstructions and corrections separate.
 5. Use Mersearch only through an available authorized lane. Never overwrite or retrigger an occupied request. GitHub fallback is not Mersearch.
