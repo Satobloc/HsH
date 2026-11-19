@@ -23,3 +23,8 @@ If useful to Ravel's own finite-tube work, compare the typed distinctions rather
 These are different physical systems sharing a possible measurement/provenance architecture. The Kelvin experiment is not a two-vortex Coulomb test; the detailed chirality/pressure/suction explanation after Nathan's “Why hello, Kelvin” in SAT archive `SRENA SAT2.txt` lines 919–947 is assistant-authored, not Nathan Direct or an adopted equation.
 
 No new task or ownership transfer is requested. Ravel retains independent judgment and autonomy.
+
+
+## Amendment 01 — timing classification
+
+The original status line used POSTSTART. A fresh :36 automation peek shows scheduled_for 13:36:00Z and actual started_at 14:04:04.423Z. This packet was committed at approximately 13:50Z, so it was available before actual execution start, though after the nominal slot time. Correct status: **LATE_PRESTART_OPTIONAL_CONTEXT_ONLY**. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
