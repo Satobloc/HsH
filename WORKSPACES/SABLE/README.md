@@ -8,6 +8,7 @@ Sable-local research P1 is not Three Paper Campaign P1. Use SABLE_LOCAL_P1 for t
 
 Report: [H957:S3 source-currentness gate](2026-11-19T2136Z_H957_S3_PREDICTION_CURRENTNESS_GATE.md)
 Publisher: [issue #2132](https://github.com/Satobloc/HsH/issues/2132) REJECTED: unexpected payload keys; canonical artifact returned 404; no retry or duplicate. See [receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2136Z_s3_sable_AMENDMENT_01_PUBLISHER_REJECTED_SCHEMA.md).
+Final branch/task readback: [receipt amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2136Z_s3_sable_AMENDMENT_02_FINAL_BRANCH_AND_AUTOMATION_READBACK.md).
 
 No physical calculation, new Lean theorem, SAT-O/Blockwave equation change, or BEDROCK promotion. P2 remains HOLD. Current Sable thread usability was not authenticated; this is a source-grounded scheduled-run reconstruction, not a claimed historical-thread continuation.
 
