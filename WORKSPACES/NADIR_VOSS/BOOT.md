@@ -5,29 +5,26 @@
 ## Start order
 
 1. Read live `BEDROCK.md`, Nathan Direct methodology, Steering Charter, Three Paper Campaign, three-repository onboarding, current revival routing and scheduler authority.
-2. No `CURRENT_WORK.md` exists; this is intentional. Read the latest dated checkpoint in `README.md` for current work and chronology.
-3. Read the exact receipt and report linked by the latest checkpoint.
+2. Read `CURRENT_WORK.md` for the live checkpoint. It exists; the older statement that no CURRENT_WORK file exists was stale.
+3. Read the exact report and receipt linked by the latest checkpoint.
 4. Retrieve original SAT-O/Blockwave sources before using equation summaries. Keep originals, PDF extractions, assistant reconstructions and corrections separate.
 5. Use Mersearch only through an available authorized lane. Never overwrite or retrigger an occupied request. GitHub fallback is not Mersearch.
 
 ## Current pointer
 
-- Latest assistant-run overlay: `REVROT3-19-20261011:940:s3`.
-- Report: [h940:s3 symbolic interval-order soundness](2026-11-19T0436Z_H940_S3_SYMBOLIC_INTERVAL_ORDER_SOUNDNESS.md), blob `1b97352665d68bb1d5b77899950817cae938e40a`.
-- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0436Z_s3_nadir_voss.md`.
-- Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0436Z_s3_nadir_voss_AMENDMENT_01_LEAN_PASS_AND_PUBLISHER_HTTP409.md` records exact-head Lean success and publisher HTTP 409 failure.
-- Underlying Lane 24/P2 sandbox remains BACKSEAT/HOLD; h940 is a one-run Lane 36 architecture/verification overlay, not a permanent role change.
-- Report: [h925:s2 Lane 24 source-custody and P0 recheck](2026-11-18T1324Z_H925_S2_LANE24_SOURCE_CUSTODY_AND_P0_RECHECK.md), blob `6881f2d67c58331c2fae972c41af36f415346476`.
-- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1324Z_s2_nadir_voss.md`, blob `c2923a03ef746b8aabf9f68264ec05acc8ac31e5`.
+- Latest Lane 24 checkpoint: `REVROT3-19-20261011:944:s2`.
+- Report: [h944:s2 worldline-tube typing and primitive factoring](2026-11-19T0824Z_H944_S2_WORLDLINE_TUBE_TYPING_AND_PRIMITIVE_FACTORING.md), blob `54bdabe6b24eafd0bcd95873a60c1a7c735a1ea1`.
+- Amendment 01: [P0 exact-file replay, run reconciliation, and successor-status correction](2026-11-19T0924Z_H944_S2_P0_REPLAY_AND_IDENTITY_AMENDMENT_01.md), blob pending final readback; publisher issue #2082 pending.
+- Previous Lane 36 overlay: [h940:s3 symbolic interval-order soundness](2026-11-19T0436Z_H940_S3_SYMBOLIC_INTERVAL_ORDER_SOUNDNESS.md), blob `1b97352665d68bb1d5b77899950817cae938e40a`; its Lean/publisher amendment remains linked in the h940 receipt.
+- Previous Lane 24 source-custody checkpoint: [h925:s2](2026-11-18T1324Z_H925_S2_LANE24_SOURCE_CUSTODY_AND_P0_RECHECK.md), blob `6881f2d67c58331c2fae972c41af36f415346476`.
 - P0 issue #1747 remains ACTIVE; protected fingerprint 8/8 exact; live routes NOT_OBSERVED.
-- Lane 24/P2 remains HOLD; no system selected, no calculation, no Lean, no theory promotion.
-- CODATA 2022 Web Version 9.0 remains latest as of 2026-11-17; existing G reproduction #1558 is already PUBLISHED_VERIFIED.
-- Task graph count discrepancy (16 declared / 18 records) unresolved. FIE next review Nov 24.
-- Existing :24 task `6abda4c8eda88191bf23a6f2849e9a17` enabled; exact schedule/prompt/phase unchanged. No sixth task. Current run-level state unobserved; last_run_time discrepancy recorded.
+- P2 remains HOLD. GW240925 is a data-acquisition candidate only; no raw data or physical calculation has been performed.
+- Task graph 16 declared / 18 records remains unresolved. FIE next review Nov 24.
+- Existing :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact hourly schedule, phase and prompt; no sixth task.
 
 ## Identity and method boundaries
 
-The archived *Quantum Gravity and Experiments* conversation is a source family for an assistant-generated sandbox label, not a signed Nadir charter or authenticated current thread. The October 1 user instructions support a bounded playground and trial-Lagrangian exercise; they do not override the current real-data gate or authorize arbitrary data-free physical calculations.
+The archived *Quantum Gravity and Experiments* conversation is a source family for an assistant-generated sandbox label, not a signed Nadir charter or authenticated current thread. The October 1 user instructions support a bounded mathematical/theory playground and trial-Lagrangian exercise; they do not authorize fabricated physical fixtures or empirical claims.
 
 For mathematical/geometric claims, perform source-faithful Lean 4/Mathlib proof triage and report actual compile/run evidence. If source definitions are missing, use `FORMALIZATION_BLOCKED_DEFINITION` and list the missing domains, maps and conditions. A Lean proof validates only the formalized statement, not the physical translation or premises.
 
