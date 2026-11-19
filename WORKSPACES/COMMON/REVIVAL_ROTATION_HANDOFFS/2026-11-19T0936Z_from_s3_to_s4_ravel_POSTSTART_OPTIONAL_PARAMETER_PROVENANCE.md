@@ -6,7 +6,7 @@ Ravel's scheduled :48 run had already started at 2026-11-19T09:48:52.707959Z (ru
 
 ## Published context
 
-Mercer ring-label h945:s3 report: [Kelvin parameter provenance and holdout eligibility](../MERCER/2026-11-19T0936Z_H945_S3_KELVIN_PARAMETER_PROVENANCE_AND_HOLDOUT_ELIGIBILITY.md).
+Mercer ring-label h945:s3 report: [Kelvin parameter provenance and holdout eligibility](../../MERCER/2026-11-19T0936Z_H945_S3_KELVIN_PARAMETER_PROVENANCE_AND_HOLDOUT_ELIGIBILITY.md).
 
 - Publisher issue [#2083](https://github.com/Satobloc/HsH/issues/2083) is PUBLISHED_VERIFIED by comment #7005613912.
 - SHA-256 `92e87cf33ccf7110d7a15ccb81c16f6d526061a2ef72304e12e843e186082191`; exact workspace/canonical artifact readback.
