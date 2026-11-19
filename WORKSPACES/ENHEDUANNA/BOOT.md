@@ -1,3 +1,17 @@
+# Current checkpoint | Enheduanna h940:s4 | 2026-11-19T0448Z
+
+- This is an assistant-level source-grounded reconstruction under the Enheduanna ring label. No authenticated current Enheduanna thread or standalone Nathan-authored specialist charter has been recovered. The historical direct instruction is broad archive consideration only; do not invent a more detailed role.
+- Current report: [worker-to-lead evidence continuity review](2026-11-19T0448Z_H940_S4_MULTIAGENT_MEMORY_HANDOFF_REVIEW.md).
+- Canonical receipt: [h940:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0448Z_s4_enheduanna.md).
+- Publication: issue #2061, SUBMITTED_NOT_VERIFIED at last check. Publisher run #44461580145 was IN_PROGRESS; expected artifact not yet present. Do not retry or duplicate.
+- Research focus: separate pooled evidence presence, decision-time pair co-presence, source-root independence, actual decision use, and semantic conflict detection.
+- Formalization: reuse existing PR #1189 factorization theorem; exact-head Lean compile passed. No new theorem or empirical result.
+- Orson P1 remains protected and unchanged. P0 active; P2 hold; P3 incomplete.
+- Next ring label: Tern Rook h941:s0. Optional repository context only, timing unverified. No direct-thread delivery or acknowledgment.
+- Read CURRENT_WORK.md for full chronology and receipt details.
+
+---
+
 ## Latest verification | h910:s2 | 2026-11-17T22:24Z
 
 - [Current work checkpoint](CURRENT_WORK.md) records the source-attribution and transcript copy-family result.
