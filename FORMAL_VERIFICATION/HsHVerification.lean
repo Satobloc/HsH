@@ -20,6 +20,8 @@ import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.MercerSliceIdentityFidelity
+import HsHVerification.MercerAngleConventionFidelity
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
