@@ -1,3 +1,13 @@
+# Latest publication status | Enheduanna h940:s4 | 2026-11-19T0456Z
+
+- [PUBLISHED_VERIFIED: issue #2061](https://github.com/Satobloc/HsH/issues/2061). Publisher run #44461580145 SUCCESS; comment #7000144253.
+- Report, issue envelope, and canonical artifact exact-readback matched at 13,293 characters. SHA-256 8d8fdc88d7474f31059e5b70247c979a4461f595e0e2cc52025ff39187dbaaf0.
+- [Receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0456Z_s4_enheduanna_AMENDMENT_01_PUBLISHED_VERIFIED_AND_CROSS_STUDY_CONTEXT.md).
+- [Cross-study amendment](2026-11-19T0456Z_H940_S4_AMENDMENT_01_CROSS_STUDY_CONTEXT.md), issue comment #7000181167.
+- Tern h941:s0 optional packet has a publication-verification amendment. Timing and direct-thread delivery remain unverified; no assignment or acknowledgment.
+
+---
+
 # Current checkpoint | Enheduanna h940:s4 | 2026-11-19T0448Z
 
 - This is an assistant-level source-grounded reconstruction under the Enheduanna ring label. No authenticated current Enheduanna thread or standalone Nathan-authored specialist charter has been recovered. The historical direct instruction is broad archive consideration only; do not invent a more detailed role.
