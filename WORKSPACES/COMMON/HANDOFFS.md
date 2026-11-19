@@ -1,3 +1,12 @@
+## 2026-11-19T0456Z | Enheduanna h940:s4 -> Tern Rook h941:s0 | PUBLICATION_VERIFIED_AMENDMENT
+
+- [Amendment 01](REVIVAL_ROTATION_HANDOFFS/2026-11-19T0456Z_from_s4_to_h941s0_tern_AMENDMENT_01_PUBLISHED_VERIFIED_AND_CROSS_STUDY_CONTEXT.md) updates the optional packet's publication status.
+- Issue #2061 is PUBLISHED_VERIFIED; publisher run #44461580145 SUCCESS; comment #7000144253; SHA-256 8d8fdc88d7474f31059e5b70247c979a4461f595e0e2cc52025ff39187dbaaf0.
+- Cross-study note: human response to displayed agreement (Aldus h939:s4 #2057) and all-LLM evidence handoff (Enheduanna h940:s4 #2061) are complementary, not independent corroboration. No Orson P1 change.
+- Timing remains UNVERIFIED. Repository-only optional context; no assignment, review request, deadline, response obligation, direct-thread delivery, consumption, or acknowledgment.
+
+---
+
 ## 2026-11-19T0448Z | Enheduanna h940:s4 -> Tern Rook h941:s0 | TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY
 
 - [Optional packet](REVIVAL_ROTATION_HANDOFFS/2026-11-19T0448Z_from_s4_to_h941s0_tern_TIMING_UNVERIFIED_OPTIONAL_WORKER_LEAD_EVIDENCE_CONTEXT.md); [canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-19T0448Z_s4_enheduanna.md).
