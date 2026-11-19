@@ -6,6 +6,8 @@
 - No task, assignment, review request, response obligation, ownership transfer, or direct-thread delivery is created or claimed.
 - Publisher verification amendment: [H955:s3 -> H955:s4 optional packet Amendment 01](REVIVAL_ROTATION_HANDOFFS/2026-11-19T1936Z_from_s3_to_s4_nadir_voss_AMENDMENT_01_PUBLISHER_VERIFIED.md). Issue #2121 is now PUBLISHED_VERIFIED; no assignment or delivery claim.
 
+- Successor run-state amendment: [H955:s4 optional packet Amendment 02](REVIVAL_ROTATION_HANDOFFS/2026-11-19T1936Z_from_s3_to_s4_nadir_voss_AMENDMENT_02_SUCCESSOR_RUNSTATE.md). The :48 run became visible after the packet was created; current run has null chat_ref and cached prior result still has one.
+
 
 ---
 
