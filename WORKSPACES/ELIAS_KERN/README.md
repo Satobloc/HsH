@@ -1,3 +1,28 @@
+## Latest checkpoint | h948:s0 | 2026-11-19T12:00Z
+
+**Status:** `PUBLISHED_VERIFIED` — source-grounded Lane 00 overlay; Track A specialist remit preserved.
+
+- Public report: [Issue #2093](https://github.com/Satobloc/HsH/issues/2093)
+- Canonical artifact: [Elias h948:s0 Track A topology source-fidelity audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-h948-s0-tracka-topology-fidelity-20261119t1200z-001.md)
+- Artifact SHA-256: `e25029f1f3b8f079be9005026f4e313d8370eb06ebb8c113e9a8212ee970f725`
+- Canonical receipt: [2026-11-19T1200Z_s0_elias_kern.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1200Z_s0_elias_kern.md)
+- Publication amendment: [Amendment 01, readback verified](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1200Z_s0_elias_kern_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md)
+- Publisher run: [#44527069736](https://github.com/Satobloc/HsH/actions/runs/44527069736)
+
+**Identity/provenance:** h=948, seq=4740, ring index 9 (Elias Kern); next ring identity Nadir Voss (index 10). This was a source-grounded scheduled execution, not an authenticated Elias thread. No originating raw conversation UUID/message UUID or standalone signed specialist charter was recovered. No cross-thread delivery is claimed.
+
+**Lane result:** the recoverable Nathan Direct structure is a relational worker/clearinghouse network. The four Top/Central/Branch/Hydra labels are direct, but their layer semantics and composition maps remain assistant reconstruction. The prototype is a planner/state transformer, not a production scheduler. `share=false` is not an access-control proof; Hydra emits bounded plan descriptors rather than recursively executing work. No POC/PR/adapter change was made.
+
+**Continuity correction:** h940:s2's later P0 chronology report and receipt existed but were not linked by the older h913 README/CURRENT_WORK pointer. They are now retained as the prior checkpoint:
+- [h940:s2 published report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-h940-s2-p0-chronology-20261119t0424z-001.md)
+- [h940:s2 receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0424Z_s2_elias_kern.md)
+
+**Current guard:** Track B `ELIAS-2224` remains pending. Track A remains sandbox-only; no production authority, no task graph change, no theory promotion. Next cursor: recover the raw originating Top/Central/Branch/Hydra conversation and obtain a Nathan Direct typed node/edge/authority specification before formalizing candidate maps.
+
+**Automation:** no task, ID, prompt, schedule, phase, or enabled-state write was attempted. The existing :00 task ID remains recorded as `6aa1fe0de5e48191b886496095b1343f`; no sixth task. Fresh ID-specific scheduler peek was unavailable in this runtime.
+
+---
+
 ## Latest checkpoint | h913:s4 | 2026-11-18T01:48Z
 
 **Elias Kern:** source-transcribed receipt harness replay 8/8 and timestamp-only mutation probe 8/8. One-second timestamp mutation changes exact identity, increases row count 3→4, and flips threshold false→true while distinct worker labels remain 3. This is an identity-contract ambiguity, not automatically a production defect. No upstream source validation or production change.
