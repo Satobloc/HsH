@@ -192,3 +192,8 @@ Optional repository packet for Hale: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFF
 ## Latest continuity pointer | h959:s0 | 2026-11-19
 
 See `CURRENT_WORK.md` and the additive source-fidelity intake [issue #2138](https://github.com/Satobloc/HsH/issues/2138), submission `calder-h959-s0-epistemic-triad-source-fidelity-20261119t2300z-001`. Publisher run [#44639211291](https://github.com/Satobloc/HsH/actions/runs/44639211291) was IN_PROGRESS at pointer creation; do not treat as published until PUBLISHED comment and exact artifact readback. This is a one-run Lane 00 geometry-fidelity overlay, not a permanent change to Calder's empirical/statistical remit. No theory promotion, physical calculation, CODATA scoring, or scheduler mutation.
+
+
+### h959:s0 publisher status correction | 2026-11-19
+
+The source-fidelity amendment is now PUBLISHED_VERIFIED at [issue #2138](https://github.com/Satobloc/HsH/issues/2138); publisher run #44639211291 SUCCESS, comment #7025327360. Artifact SHA-256 `f5634346d288e4a56dd724a60d956769294a8c3b061ced7fad0cc270ceac2c6a`, 16,332 UTF-8 bytes, exact independent readback. See the canonical receipt Amendment 01. No theory promotion or automation mutation.
