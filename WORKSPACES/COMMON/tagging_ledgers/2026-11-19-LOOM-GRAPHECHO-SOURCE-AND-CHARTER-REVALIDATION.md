@@ -5,7 +5,7 @@
 
 ## Historical Loom charter source
 
-- Conversation: 6aa67478-0e14-4b7c-89ab-6c01ecb36c3a
+- Conversation: 6aa67478-541c-83e9-b8fa-32d6d575eeb9
 - Raw export blob: 6668ca60e451f8737903423727da7f9a430484e1
 - Original export path: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13•26.09.19•Tag Conversation Corpus — raw.json
 - User-role messages recovered: 10
@@ -54,3 +54,8 @@ A future glossary record should preserve the original user-requested display ord
 ## Status
 
 This addendum does not modify the original ten-message ledger, user-role source, global tag dictionary, BEDROCK, SAT-O/Blockwave equations, Orson P1, or any paper gate.
+
+
+## Amendment 01 — historical Loom conversation ID correction (H946:S2, 2026-11-19)
+
+The original raw export was fetched by immutable blob and parsed. Its embedded conversation ID is `6aa67478-541c-83e9-b8fa-32d6d575eeb9`; the earlier value `6aa67478-0e14-4b7c-89ab-6c01ecb36c3a` was a transcription error. Raw blob SHA-1 `6668ca60e451f8737903423727da7f9a430484e1`, both duplicate paths, all ten user-message IDs, the 10/10 tag-ledger set match, and the historical remit remain unchanged. This amendment supersedes only the conversation-ID field in the original revalidation entry. See [H946:S2 correction report](../LOOM/2026-11-19T1024Z_H946_S2_SOURCE_IDENTITY_CORRECTION_AND_CHRONOLOGY.md) and [publisher issue #2087](https://github.com/Satobloc/HsH/issues/2087). No global tag dictionary change; Mercer retains global precision/selectivity QA ownership.
