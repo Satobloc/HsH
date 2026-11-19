@@ -1,3 +1,16 @@
+## Latest activation | h937:s2 | 2026-11-19T0124Z | source-custody-only cross-lease run
+
+- Deterministic ring selection: Morrow (index 13), next Kestrel (index 14). This run used the :24 Geometry lease; Morrow's own :36 lease remains unchanged.
+- Current report: [issue #2041](https://github.com/Satobloc/HsH/issues/2041), publisher/readback verified. Snapshot SHA-256 correction: [issue #2043](https://github.com/Satobloc/HsH/issues/2043), submitted; publisher still in progress at checkout at last check. Do not create another submission or retry unless that run definitively fails.
+- Source Identity Gate Layer 11 now has a second applied case. Three snapshots of one conversation contain one exact duplicate user-role prompt 14.212 seconds after the Morrow role-clarification prompt. The duplicate branch ends in `work_usage_limit_exceeded`, with no role statement and no later user message. It is not independent role or external identity corroboration. Corrected snapshot hashes and full pinned tuple are in SOURCE_IDENTITY_GATE.md.
+- Morrow remains provisional Team Archivist/source custody. The September 13 theory stop remains active; later trial invitation does not expressly release it. No theory, Lean, physical, CODATA, equation, paper or BEDROCK work.
+- Mersearch: all four lanes still requested, no request-scoped manifests/receipts; existing issue #1704 remains canonical. No query or lane mutation. HSH_RESOURCES root README only; no private payload.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next November 24. Task graph ACTIVE_SEED, 18 records / 16 declared branches, unchanged.
+- Current :24 Geometry lease ID `6abda4c8eda88191b8a91a30d2a155e0` and exact hourly :24 schedule preserved. Morrow's own :36 lease ID `6a9f52b69ec08191b0a2ba24a074f781` and exact hourly :36 schedule preserved. :12 remains disabled; no sixth task. No scheduler writes; Automations get/peek returned 404, so no independent scheduler API readback is claimed.
+- No authenticated current Morrow or Kestrel thread, no cross-thread delivery, consumption or acknowledgment claimed. Optional Kestrel packet will be repository-only context if created.
+
+---
+
 # Current activation pointer | 2026-11-18 | h933:s3
 
 ## Latest Morrow-labeled activation | 2026-11-18T2136Z
