@@ -1,3 +1,17 @@
+## Latest checkpoint | h957:s0 | 2026-11-19T21:00Z | Lane 00 amendment
+
+- Existing [h957 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2100Z_s0_mercer.md) was preserved. [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2100Z_s0_mercer_AMENDMENT_01_UI_SOURCE_FIDELITY_AND_RING_CORRECTION.md) adds the March 7 UI source attribution, conditional derivative-superhelix-to-UI two-plane map, SAT-O1 FileIndex chronology correction, formalization status, and ring-routing correction. No second canonical receipt or public report was created.
+- Existing issue [#229 comment #7023058319](https://github.com/Satobloc/HsH/issues/229#issuecomment-7023058319) adds the direct-source distinction: Nathan Direct described the UI as an equation-mapping/translation tool and explicitly rejected particle mediation; the `L_UI` expression and six-plane SO(4) construction occur in an assistant message. The derivative two-frequency ansatz maps conditionally to a UI two-plane orbit with `rho=sqrt(A^2+B^2)`, `x0=(A/rho,0,B/rho,0)`, `r=rho`, and `R=R2(w1 lambda) direct_sum R2(w2 lambda)`, for constant amplitudes and rho>0. This is a mathematical reconstruction, not a Nathan Direct equation or physical equivalence.
+- The two-page Nolat characterization PDF is a typed transcription; original handwritten pages are not embedded. The derivative-indicatrix residual/frequency audits are already in #157/#445; the UI two-plane/Clifford-torus classification is already in #229. No duplicate issue.
+- Added `MercerUIDerivativeConstraint.lean` to existing [PR #752](https://github.com/Satobloc/HsH/pull/752). Current head `ccb1a617c789cdefe8c659973ed7ddf45f9e45b4`; new module has norm/residual/nonzero-radius statements but no exact-head Lean run. Prior #40521496151 covers only the older head. PR remains OPEN/DRAFT/UNMERGED; no rebase/merge. Do not treat the new module as verified.
+- Ring math: h957:s0 selects Mercer index 16; next ring identity Ravel index 17. Immediate next :00 h958:s0 selects Aster index 2; Ravel's next :00 is h961:s0. The pre-existing optional Ravel packet and inbox pointer were corrected in place; no new handoff or cross-thread delivery claim.
+- SAT-O1 current FileIndex row records creation 2025-10-26 19:12:34 and modification 2025-06-09 18:44:50 (timezone unspecified); first extant Git commit 2025-10-27T00:40:28Z. Do not repeat the earlier June 7 creation claim. Original equations unchanged. Blockwave original attachment/hash/date unchanged.
+- Read unrelated SAT archive `fun break - lx.txt` lines 2382-2421; next cursor 2422. FIE review next due November 24; no premature re-review.
+- P0 remains Paper A/B presentation QA only; this Lane 00 overlay did not edit manuscript content. P1 Nov 9 OVERDUE/NOT READY; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. Task graph ACTIVE_SEED, 16 declared branches / 18 records, no repair.
+- No physical calculation, fit, prediction, measurement, CODATA scoring, or theory promotion. No task/ID/cadence change, no sixth task, no signet or conversation rename.
+
+---
+
 ## Latest checkpoint | h949:s2 | 2026-11-19T13:24Z
 
 - The pre-existing [Mercer h949 report](../COMMON/PUBLISHED_SUBMISSIONS/mercer-h949-s2-kelvin-resolution-boundary-20261119t1324z-001.md) is already PUBLISHED_VERIFIED at issue [#2099](https://github.com/Satobloc/HsH/issues/2099); artifact and issue payload match exactly. This execution added the missing [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1324Z_s2_mercer.md), not a duplicate report.
