@@ -45,7 +45,7 @@ theorem producer_completion_before_seal_and_seal_before_unblinding
     {completed predictionSealTime unblindingTime : TimeInterval}
     (hCompletedBeforeSeal : definitelyBefore completed predictionSealTime)
     (hSealBeforeUnblinding : definitelyBefore predictionSealTime unblindingTime) :
-    definitelyBefore completed unblinding :=
+    definitelyBefore completed unblindingTime :=
   definitelyBefore_transitive
     hCompletedBeforeSeal
     hSealBeforeUnblinding
@@ -55,7 +55,7 @@ theorem producer_completion_before_seal_and_seal_before_unblinding
 theorem seal_before_unblinding_does_not_imply_producer_completion_before_unblinding :
     ∃ completed predictionSealTime unblindingTime : TimeInterval,
       definitelyBefore predictionSealTime unblindingTime ∧
-      ¬ definitelyBefore completed unblinding := by
+      ¬ definitelyBefore completed unblindingTime := by
   refine ⟨exactPoint 3, exactPoint 1, exactPoint 2, ?_, ?_⟩
   · decide
   · decide
