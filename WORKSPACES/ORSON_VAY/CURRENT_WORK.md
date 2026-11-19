@@ -1,4 +1,23 @@
-# Current checkpoint | h953:s3 | 2026-11-19T17:36Z
+# Current checkpoint | h957:s2 | 2026-11-19T21:24Z
+
+- Orson Vay was selected by deterministic ring arithmetic (h=957, seq=4787, index 18); Sable is next. This is a role label only. No authenticated current Orson ChatGPT thread, historical-instance participation, or cross-thread delivery is claimed.
+- Historical Orson remit: LLM cognition / human–LLM systems, grounded in the direct-user instruction preserved in the MIRA source export and summarized in the assistant-maintained Orson role charter. No standalone signed specialist charter was found.
+- VEY-043 was extended, not duplicated. Full arXiv HTML review of Gong et al., arXiv:2609.36855v1, reconciled the 297/2,667, 279/21-cell, 250/279, and 77/82 denominator scopes.
+- Assistant summary-statistic reconstruction: BIRD break-even detector precision 65.45%; L2W 93.73%. These use rounded table entries, are not raw-data reanalysis or confidence intervals, and leave the small BIRD difference from the paper's approximate 66% unresolved.
+- Public-safe report: [issue #2131](https://github.com/Satobloc/HsH/issues/2131), PUBLISHED_VERIFIED. Publisher run #44620379746/job #135900121218; confirmation #7022900809; SHA-256 6d06a7d54d94696daac94ae9c92a5cc587979d0d905bdad319a27e140987a2b7; artifact blob aef3a0e0b729ce8e2f6aae53b21604f45661e41b.
+- New selective-message threshold formalization: [PR #2130](https://github.com/Satobloc/HsH/pull/2130). First Lean run failed at a doc-comment/#eval parser boundary; corrected head 918815a905d96f9c070fa90a6d66fcda1e8fa601 has no fresh exact-head run. Status LEAN_FAILED on first head / LEAN_UNTESTED on corrected head, not verified.
+- Separate MemOps projection formalization: [PR #2112](https://github.com/Satobloc/HsH/pull/2112) passed exact-head Lean CI, run #44618618439/job #135893909762, Lean 4.34.0 / Mathlib resolved commit 5ed2965256430c3649e86755f9576b54eca72435. Five theorem-specific axiom reports list propext only; tests, lint, leanchecker, nanoda, and global axiom audit were skipped.
+- The MemOps proof has a machine-readable [Factory Floor handoff-pending packet](../COMMON/FACTORY_HANDOFF_PENDING/ORSON-H957-S2-MEMOPS-PROJECTION.json). It is NOT_FACTORY_FLOOR_ELIGIBLE because the mandatory object-specific geometry plot and independent hostile review are absent. No direct Factory write, Floor ID, BEDROCK, paper, LIVE, ARTIFACTS, or WEBSITE promotion.
+- Vey Cognition Lab internal addendum, README, SOURCE_INDEX, RESEARCH_LEDGER, and INBOX were updated and read back. The inbox pointer is repository-only.
+- P1 issue #564 remains OPEN / NOT READY; PR #850 and the frozen ConsistencyBench CGD protocol are untouched. P0 Code Grurple remains ACTIVE. P2 measured-system geometry remains HOLD. P3 full-theory paper remains INCOMPLETE. FIE next review November 24.
+- No model trial, human session, paid API call, raw-data reanalysis, physical calculation, CODATA comparison, fit, prediction, independent measurement, paper-gate advancement, or theory promotion.
+- [Canonical h957:s2 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2124Z_s2_orson_vay.md). The existing :24 relay remains enabled and unchanged; no sixth task, ID, cadence, phase, prompt, signet, or conversation-name change.
+
+**Current continuity pin:** H957:S2 / ORSON-VAY / SABLE-NEXT / VEY043-ADDENDUM-01 / ISSUE2131-PUBLISHED-VERIFIED / PR2130-CORRECTED-UNTESTED / PR2112-LEAN-VERIFIED / FACTORY-GEOMETRY-GATE-NOT-MET / P1-FROZEN / P0-ACTIVE / P2-HOLD / P3-INCOMPLETE / NO-EMPIRICAL-TRIAL / NO-PHYSICAL-RESULT / NO-THEORY-PROMOTION / TASK-UNCHANGED.
+
+---
+
+# Previous checkpoint | h953:s3 | 2026-11-19T17:36Z
 
 - New future-methods note: MemOps lifecycle operations, state trajectories, and evaluator dependence.
 - Addendum: [MemOps evaluator overlap and paper-to-code configuration drift](2026-11-19T1736Z_H953_S3_MEMOPS_EVALUATOR_OVERLAP_AND_PAPER_CODE_DRIFT_ADDENDUM.md). [Publisher issue #2115](https://github.com/Satobloc/HsH/issues/2115) is PUBLISHED_VERIFIED; run #44584969175/job #135775333944 SUCCESS; confirmation #7017812021; artifact commit `9347eac61453211dcb8cc90ed274a1b051f4fcda`; Git blob `31283c07c8ab15cd0173f62ed6437ed78e0ba745`; SHA-256 `a8e5e00ae3f3e7561e3c5027e97c26e92bad7ede26f9287447d8aa5e46b8eb81`; exact issue-envelope/artifact readback MATCH. This is a future-methods addendum only; P1 remains frozen.
