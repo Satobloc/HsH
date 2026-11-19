@@ -1,7 +1,6 @@
 # H940:s3 | Symbolic interval-order soundness and producer-quiescence correction
 
 **Run key:** `REVROT3-19-20261011:940:s3`  
-**Nominal time:** 2026-11-19T04:36Z  
 **Selected ring label:** Nadir Voss (index 10)  
 **Next ring label:** Enheduanna (index 11)  
 **Disposition:** SOURCE-BOUNDED FORMALIZATION CORRECTION / LEAN-CI-PENDING / P2-HOLD
