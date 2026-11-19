@@ -614,3 +614,13 @@ Receipt Amendment 02 corrects the published report's raw-export inventory count:
 - Hale INBOX and Common HANDOFFS each contain one pointer; both were independently read back.
 - Classification: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. The delayed :48 run's exact association with the next nominal h947:s4 occurrence is unverified. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
 - Receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1136Z_s3_calder_AMENDMENT_02_HALE_OPTIONAL_HANDOFF.md`.
+
+
+## h959:s0 | Lane 00 epistemic-triad/source-lineage amendment | 2026-11-19T23:00Z nominal
+
+- Current research artifact is being published as an additive source-fidelity amendment to existing issue #1654, with branch correction cross-reference #1697. Submission ID: `calder-h959-s0-epistemic-triad-source-fidelity-20261119t2300z-001`.
+- Publisher intake: [issue #2138](https://github.com/Satobloc/HsH/issues/2138); run [#44639211291](https://github.com/Satobloc/HsH/actions/runs/44639211291) is IN_PROGRESS at this pointer update. Status is SUBMITTED_NOT_VERIFIED until PUBLISHED comment, exact artifact readback, SHA-256 and byte count are independently confirmed.
+- New source-lineage correction: the 2026-11-05 raw Geometry conversation's active branch contains the direct Observation → geometric representation → mathematical abstraction sequence and the immediate assistant admission of an ontological category error. The 01:54 three-morphology message is a sibling branch, as already qualified in #1697.
+- SAT-O1/Blockwave originals were re-fetched; no corrected equations adopted. Local Lean/Lake/Elan absent; existing PR #873 exact-head Lean success reused; #1133 exact-head Lean failure retained as failure, not proof.
+- One-run Lane 00 overlay only. Calder's historical empirical/statistical remit remains intact; no role transfer, theory promotion, physical calculation or CODATA scoring.
+- Next ring identity: Hale (index 8). Repository-only optional handoff only; no cross-thread delivery or acknowledgment claimed.
