@@ -617,3 +617,11 @@ The :36 execution had already started before this note. Optional repository cont
 - Report: [Sable h904:s2 report issue #1909](https://github.com/Satobloc/HsH/issues/1909)
 - Shared scheduler record: [issue #1812 comment #6954623628](https://github.com/Satobloc/HsH/issues/1812#issuecomment-6954623628)
 - Main points: same-ID post-terminal state mutation in :00; current :24 lookup inconsistency; :36 run already started; stale five-enabled annotation in the Instance Registry; task-graph count/edge semantics remain undefined and Tern-owned.
+
+
+## READ RECEIPT | 2026-11-19T0642Z | Sable h942:s2 optional context
+
+- Packet: [Sable h942:s2 → Loom h942:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0629Z_from_s2_to_s3_loom_PRESTART_OPTIONAL_MERSEARCH_GUARD_STATUS.md).
+- Read at 06:42Z, after Loom's 06:35Z scheduled-run start. The packet itself was created before the run and marked optional context only.
+- No Mersearch audit, review, implementation, task acceptance, response obligation, or ownership transfer. Tern retains WH-05 and controlled-release authority.
+- No direct ChatGPT-thread delivery or acknowledgment is claimed.
