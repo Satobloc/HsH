@@ -1073,3 +1073,13 @@ Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / N
 Both issue-envelope contents were independently compared with their canonical artifacts; both SHA-256 values independently recomputed and matched. The OpenLearn baseline-corrected means and Coulomb comparator arithmetic were also independently reproduced. The six 20-ms readings are not established independent preparation replicates; no statistical agreement claim follows.
 
 This is repository continuity only. The h951:s4 Elias run completed before the delayed h951:s3 Hale invocation began, so no handoff, assignment, response obligation, direct-thread delivery, consumption, or acknowledgment is claimed. No Hale `BOOT.md` or `CURRENT_WORK.md` was created.
+
+
+## H955:s2 | Hale current-work pointer
+
+- [Source report](2026-11-19T1924Z_H955_S2_TURBULENT_BLOB_DATA_AND_CLOSURE_GATE.md).
+- [Publisher intake issue #2122](https://github.com/Satobloc/HsH/issues/2122): SUBMITTED_NOT_VERIFIED; do not retry or duplicate.
+- [P2 tracker #565 candidate-only note](https://github.com/Satobloc/HsH/issues/565#issuecomment-7020464251): P2 remains HOLD; no selection or assignment.
+- [Draft Lean PR #2120](https://github.com/Satobloc/HsH/pull/2120): corrected exact-head run pending; dependency manifest unpinned; no LEAN_VERIFIED claim.
+
+Repository continuity only. The next ring label is Elias Kern, but his :36 run had already started. No handoff, task, review request, response obligation, direct-thread delivery, consumption, or acknowledgment is claimed.
