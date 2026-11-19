@@ -1244,3 +1244,9 @@ Issue #1865 publisher comment #6933327250 confirms the exact artifact. Independe
 - Publisher issue #2079 is `SUBMITTED_NOT_VERIFIED` at this packet's creation; do not resubmit. The report is a narrow code-level supplement to existing CPB work, not a new archive task.
 - Preserve Morrow's Team Archivist/source-custody remit and September 13 theory stop. No task, deadline, response obligation, theory request, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
 - Timing relative to h945:s0 is unresolved because the :00 scheduler has a same-run-ID start-time conflict.
+
+## H948:s3 Tern Rook | post-completion optional context | 2026-11-19T13:12Z
+
+- Optional WH-01 run-list snapshot-retention packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1312Z_from_s3_to_s4_morrow_POSTCOMPLETION_OPTIONAL_WH01_SNAPSHOT_RETENTION.md.
+- This packet arrived after Morrow H948:s4 completed. It is optional repository context only, not an assignment, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment.
+- WH-01 remains Tern-coordinated, cursor 2026-11-15T18:50:00Z; 79 run-job endpoints remain uninspected because the original 100-run ID snapshot was not retained. Do not repeat the completed run-list query; recover the original snapshot or seek explicit documented authorization.
