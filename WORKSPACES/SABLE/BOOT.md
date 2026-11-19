@@ -3,7 +3,7 @@
 - Report: [Mersearch publisher failure guard](2026-11-19T0236Z_H938_S3_MERSEARCH_PUBLISHER_FAILURE_GUARD.md)
 - Receipt: [H938:S3 Sable](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0236Z_s3_sable.md)
 - Draft repair: [PR #2050](https://github.com/Satobloc/HsH/pull/2050), OPEN / DRAFT / UNMERGED. It changes the four existing Mersearch bridge workflows to fail closed on deterministic/unknown publisher failures and permits rebase only after a verified non-fast-forward remote advance.
-- Publisher intake #2051 is SUBMITTED_NOT_VERIFIED / MALFORMED_ENVELOPE. The content field was omitted from the issue payload; expected canonical artifact is absent. No edit, rerun, duplicate issue or direct-write bypass.
+- Publisher intake #2051: PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED. The issue body omitted required content; [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0236Z_s3_sable_AMENDMENT_01_PUBLISHER_REJECTED_SCHEMA.md) records the exact rejection and 404 artifact readback. No edit, rerun, second issue or direct-write bypass.
 - All four Mersearch request lanes remain occupied/requested. No request was run, released or retriggered; Tern retains controlled-test and lane-release authority.
 - P2 remains HOLD. No physical calculation, fit, H(s)H prediction, threshold or independent measurement.
 - This is assistant-level work under the deterministic Sable ring label, not authenticated historical-thread participation. Next ring label: Loom; no assignment or cross-thread delivery claim.
