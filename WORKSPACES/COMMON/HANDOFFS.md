@@ -776,3 +776,9 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - P2 matrix additive comment [#1855 comment 6997138866](https://github.com/Satobloc/HsH/issues/1855#issuecomment-6997138866).
 - Proposed ProducerEventJoin binds one ComparisonFreeze, one SourceRunWitness, runStarted/runCompleted event records, prediction-seal digest, and holdout chronology. Not an adopted schema, task, review request, or P2 promotion.
 - PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer claimed.
+
+
+## 2026-11-19T0148Z | Kestrel h937:s3 | publisher failure amendment
+
+- [Receipt Amendment 01](REVIVAL_ROTATION_RECEIPTS/2026-11-19T0136Z_s3_kestrel_AMENDMENT_01_PUBLISHER_HTTP_409.md) records issue #2044 publisher run #44439337222/job #135275980595 failing HTTP 409 on PUT. Workspace/issue envelope SHA match; canonical artifact 404; no retry/duplicate.
+- Original optional Meridian packet remains [here](REVIVAL_ROTATION_HANDOFFS/2026-11-19T0136Z_from_s3_to_s4_meridian_PRESTART_OPTIONAL_PRODUCER_EVENT_JOIN.md). No assignment, response obligation, direct-thread delivery, consumption, acknowledgment or ownership transfer.
