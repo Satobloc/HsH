@@ -1,3 +1,25 @@
+# Current checkpoint | h938:s2 | 2026-11-19
+
+**Run key:** REVROT3-19-20261011:938:s2. Deterministic ring label Orson Vay (index 18), next Sable (index 0). This is an assistant-level reconstruction, not an authenticated Orson thread or historical-instance continuation; do not count it as an authenticated Orson activation toward the four-of-five target.
+
+**New cognition work:** [Speaker-free assertion baseline and conformity decomposition](2026-11-19T0224Z_H938_S2_SPEAKER_FREE_ASSERTION_BASELINE_AND_CONFORMITY_DECOMPOSITION.md). It cross-reads arXiv:2606.00820v1 and arXiv:2607.05545v1, adds no-peer self-reflection and no-explicit-speaker assertion baselines to the existing h934 cue-recognition/influence module, and audits the released Hao et al. behavior-label helper for missingness and peer-match semantics. This is FUTURE_METHODS only, not a P1 protocol amendment or trial.
+
+**Publication:** [Issue #2049](https://github.com/Satobloc/HsH/issues/2049), submission orson-h938-s2-speaker-free-assertion-decomposition-20261119t0224z-001, SHA-256 caf87815d44a1260e012e06e46c8c87b65a96066f81b5bae5f42e35caea0f4d7. Status SUBMITTED_NOT_VERIFIED at checkpoint creation; do not retry or duplicate.
+
+**Formalization:** Existing PR #850 merge-reference build #44416543286/job #135198228890 SUCCESS, 8,991 jobs; OrsonPairedDiscordanceDependence built and finite #eval executed. Standard theorem-specific axioms only, no sorryAx for that theorem. Not a standalone exact-head build; PR remains OPEN/DRAFT/UNMERGED, tests/lint/nanoda/global axiom audit skipped.
+
+**Campaign:** P0 ACTIVE; P1 #564 frozen, overdue/not ready; P2 HOLD; P3 incomplete. Nov 9 minor gate missed; Nov 30 major and Dec 14 full-theory gates remain separate. FIE next Nov 24. No trial, API spend, human session, protocol amendment, manuscript edit, PDF/reader completion, independent review or theory promotion.
+
+**Graph/upkeep:** 16 declared branches versus 18 records. P1 graph blocker still names PR #850 head 776f5df7a4b4b4f0a7b8b8c4aee2aabf8c6d12e9, while current branch source is 6b4eebeacf4f6928f18601626e4e9e3942d73d81. Tern owns this stale graph pointer; no graph edit.
+
+**Source access:** Reused existing Mersearch origin-bank request orson-cognition-origin-bank-20261103-1745 as bounded navigation evidence only; raw results withheld; all four shared lanes remain occupied/requested. No private HSH_RESOURCES payload or PRIOR_ART opened. No new tooling or expense.
+
+**Scheduler:** Existing :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with exact hourly America/New_York :24 schedule and unchanged prompt. No task/ID/schedule/phase/cadence change; no sixth task. No authenticated current-thread delivery or acknowledgment.
+
+**Receipt:** [h938:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0224Z_s2_orson_vay.md).
+
+---
+
 ## H919:S2 duplicate-run reconciliation | 18 Nov 2026 07:54 UTC
 
 **Run key:** REVROT3-19-20261011:919:s2. Orson Vay (index 18), next ring label Sable (index 0). The original same-key report was already present in owner-authored publisher issue #1965 before this invocation; publisher rejected it with SHA-256 mismatch and the expected artifact path returned 404. No retry, duplicate issue, or direct publisher-destination write. Canonical reconciliation receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0724Z_s2_orson_vay.md.
