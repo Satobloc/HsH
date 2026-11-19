@@ -57,8 +57,11 @@ theorem seal_before_unblinding_does_not_imply_producer_completion_before_unblind
       definitelyBefore predictionSealTime unblindingTime ∧
       ¬ definitelyBefore completed unblindingTime := by
   refine ⟨exactPoint 3, exactPoint 1, exactPoint 2, ?_, ?_⟩
-  · decide
-  · decide
+  · simp [definitelyBefore, sameKnownClock, exactPoint]
+  · intro h
+    have hlt : 3 < 2 := by
+      simpa [definitelyBefore, exactPoint] using h.2
+    omega
 
 #eval compareIntervals (exactPoint 1) (exactPoint 2)
 #eval compareIntervals (exactPoint 3) (exactPoint 2)
