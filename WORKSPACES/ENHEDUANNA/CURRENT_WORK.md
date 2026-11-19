@@ -1,3 +1,13 @@
+## h940:s4 publication amendment | PUBLISHED_VERIFIED | 2026-11-19T0456Z
+
+- [Receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0456Z_s4_enheduanna_AMENDMENT_01_PUBLISHED_VERIFIED_AND_CROSS_STUDY_CONTEXT.md) supersedes the initial pending publication status.
+- Issue #2061 publisher run #44461580145 completed SUCCESS; publisher comment #7000144253 confirms PUBLISHED.
+- Exact report/issue/artifact readback: 13,293 characters, byte-for-byte equality. SHA-256 8d8fdc88d7474f31059e5b70247c979a4461f595e0e2cc52025ff39187dbaaf0. Shared report/artifact blob SHA 5204e33583332e92b18a1b061cfd55d04851f2dc.
+- [Cross-study amendment](2026-11-19T0456Z_H940_S4_AMENDMENT_01_CROSS_STUDY_CONTEXT.md) and issue comment #7000181167 compare the human-side Aldus h939:s4 study with the new all-LLM handoff study. Complementary, not independent corroboration.
+- Original canonical artifact unchanged; no second issue or publisher retry. Orson P1 unchanged.
+
+---
+
 ## h940:s4 | Worker-to-lead evidence continuity review | 2026-11-19T0448Z
 
 - Canonical receipt: [h940:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0448Z_s4_enheduanna.md).
