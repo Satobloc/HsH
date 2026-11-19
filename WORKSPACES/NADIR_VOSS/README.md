@@ -328,3 +328,14 @@ The Enheduanna h766:s0 optional handoff and inbox pointer were committed after t
 ### h788:s3 amendment | exact-fibre assumption reduction
 
 The exact-fibre corollary was further generalized at PR head 9b02e279ea1ca39a85ef821ebccaf67b6d567e80: it now omits the unused baseline metric instance, requiring only equality of baseline readouts and the output metric. The preceding dc8d1 version compiled successfully; the 9b02 exact-head run #43309578120 was still pending at the Lake dependency-manifest step at last readback. Do not treat 9b02 as compiled until its actual run and theorem-specific axiom report are checked. See the report and canonical receipt amendments.
+
+
+## 2026-11-19 | h940:s3 | Symbolic interval-order soundness
+
+- Report: [H940 symbolic interval-order soundness and producer-quiescence correction](2026-11-19T0436Z_H940_S3_SYMBOLIC_INTERVAL_ORDER_SOUNDNESS.md), blob `1b97352665d68bb1d5b77899950817cae938e40a`.
+- Canonical receipt: [h940:s3 Nadir Voss](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0436Z_s3_nadir_voss.md).
+- Existing Lane 36 draft PR #2032 was corrected: the nonphysical `exactPoint`/numeric fixture/`#eval` material was removed and replaced with symbolic all-admissible-time interval-order theorems. Exact-head Lean run #44461116185 remains IN_PROGRESS at the Lake manifest step; no compile or axiom result is claimed.
+- Publisher issue #2062 is SUBMITTED_NOT_VERIFIED; no artifact readback yet. Do not resubmit. See the canonical receipt for the issue, expected path and digest.
+- The existing Nadir Lane 24/P2 sandbox remains BACKSEAT/HOLD. This is a one-run Lane 36 overlay, not a permanent role change. No physical calculation, system selection, dataset acquisition, prediction, equation change, or theory promotion.
+- No standalone Nathan-authored Nadir specialist charter or authenticated current Nadir thread was recovered. No `CURRENT_WORK.md` was created; this README remains the assistant-maintained continuity index. BOOT now points to this latest dated checkpoint.
+- No Nadir INBOX write, direct-thread delivery, acknowledgment, or ownership transfer.
