@@ -1,3 +1,9 @@
+## 2026-11-19 | Aster h946:s3 | Publisher readback
+
+- Issue #2086 is PUBLISHED_VERIFIED; comment #7006955299, artifact commit `84e449b357924e2d38fd61903537f6e598774fca`, SHA-256 `d09f00ba17eead406059253e43b69510ff2b946911697436b4a36cf610a1f12f`, exact report/artifact blob match `a0aac7228b34a3a29dc7670ccb64a7950a6fb19f`.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1036Z_s3_aster_AMENDMENT_01_PUBLISHER_VERIFIED.md). Original receipt's pending state preserved as the status at its creation time.
+- No retry, issue edit, duplicate, or direct artifact write.
+
 ## 2026-11-19 | Aster h946:s3
 
 - Condition-scoped Kelvin evidence map: Supplementary Videos 1/2 are at different operating conditions from Figs. 3/4 and both are side-view only; the two-camera handedness link remains unregistered/unverified. Existing antipodal-readout theorem proves m↔m+2 alias; PR #1189 exact-head Lean build #44106198466 passed 8,961 jobs with standard axiom dependencies; global audit/tests/lint skipped.
