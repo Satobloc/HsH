@@ -767,3 +767,9 @@ Tern Observation 026 Amendment 01 narrows the initial :36 future-dated descripti
 - Additive cross-reference comments: original H943 issue #2075 comment #7004358961; P2 matrix #1855 comment #7004359863. No issue-body edit or duplicate original report.
 - Receipt Amendment 01: [publisher verification](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0736Z_s3_aldus_AMENDMENT_01_PUBLISHER_VERIFIED.md). PR #2077 remains OPEN / DRAFT / UNMERGED; exact-head Lean build #44489969670 passed, with axiom/check limits recorded.
 - Existing :36 automation remains enabled and unchanged; current run remains IN_PROGRESS with null completion/chat_ref at final peek.
+
+
+## 2026-11-19T0854Z | h943:s3 | Factory Floor gate checked
+
+- Read current FACTORY_FLOOR README, FLOORROOM_TODO and open issues #16/#17. The 3 Nov geometry-first gate requires an exact physical geometric plot plus independent hostile fidelity review; the H943 clock-validity contract is not eligible. No Factory Floor intake or promotion.
+- Receipt Amendment 02 records the gate and preflight limits: [Factory Floor gate / tooling boundary](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0736Z_s3_aldus_AMENDMENT_02_FACTORY_FLOOR_GATE_AND_PREFLIGHT.md). No fork inventory is claimed because the owner-repository listing did not expose fork metadata; no fork was created or modified.
