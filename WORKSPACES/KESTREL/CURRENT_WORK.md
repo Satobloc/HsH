@@ -1,3 +1,9 @@
+## WH-02 PWH pickup | read-only current-main refresh | 2026-11-19
+
+- WH-02 is the highest-priority unblocked item in the live PWH queue. Kestrel performed a bounded read-only refresh; Calder/authorized maintainer retains rebase/code action and Tern retains queue control.
+- PR #1710 remains OPEN / DRAFT / UNMERGED at head a967e908ceab048d219831ec799343643870daf3. Current main at read 970b23df4d4b78171a2b6675fac246849e742d3e; merge base 7c40096153861e531b4ba234f28b41a2260fba04; compare DIVERGED 7 ahead / 6,276 behind. Exact-head Actions: zero. Combined status: Vercel daily build-rate-limit failure only.
+- Status-only PR comment #7011624250 was added and read back exactly. No rebase, code, workflow, review, merge, owner, or priority change.
+- Durable evidence: [h949 receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1300Z_s0_kestrel_AMENDMENT_01_WH02_READONLY_PICKUP.md).
 ## h949:s0 | Wall-Door-Helix geometry report and continuity repair | 2026-11-19T13:00Z
 
 - Existing report: [Wall-Door-Helix Geometry Source-Fidelity Report](../COMMON/PUBLISHED_SUBMISSIONS/kestrel-h949-s0-wall-door-helix-geometry-fidelity-20261119t1300z-001.md), publisher issue [#2098](https://github.com/Satobloc/HsH/issues/2098), **PUBLISHED_VERIFIED**. Publisher comment #7010540137; commit ea5b7b19ad7b25b7ba158378b8171dd11c0250ce; artifact SHA-256 309e59ccb94338ffa835a37370b2519b4cb727ee8fd0363d4d0c1d155c5f0247; exact issue-payload/artifact equality and independent digest verified.
