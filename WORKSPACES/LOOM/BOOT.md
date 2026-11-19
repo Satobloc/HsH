@@ -1,7 +1,7 @@
 # H942:S1 LATEST CHECKPOINT — 2026-11-19
 
 
-> **Source-identity correction, H946:S2 (2026-11-19):** The raw *Tag Conversation Corpus* export is conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, blob `6668ca60e451f8737903423727da7f9a430484e1`. The earlier `6aa67478-0e14-4b7c-89ab-6c01ecb36c3a` value was a transcription error and is superseded. See [the source correction and chronology report](../LOOM/2026-11-19T1024Z_H946_S2_SOURCE_IDENTITY_CORRECTION_AND_CHRONOLOGY.md) and publisher issue [#2087](https://github.com/Satobloc/HsH/issues/2087). Historical reports/receipts remain unchanged; their identity fields are superseded by the correction.
+> **Source-identity correction, H946:S2 (2026-11-19):** The raw *Tag Conversation Corpus* export is conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, blob `6668ca60e451f8737903423727da7f9a430484e1`. The earlier `6aa67478-0e14-4b7c-89ab-6c01ecb36c3a` value was a transcription error and is superseded. See [the source correction and chronology report](../LOOM/2026-11-19T1024Z_H946_S2_SOURCE_IDENTITY_CORRECTION_AND_CHRONOLOGY.md) and publisher issue [#2087](https://github.com/Satobloc/HsH/issues/2087). Historical reports/receipts remain unchanged; their identity fields are superseded by the correction. Canonical h946:s2 receipt: [2026-11-19T1024Z_s2_loom.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1024Z_s2_loom.md).
 
 
 **Status:** assistant-level source-grounded Loom reconstruction; not an authenticated Loom thread.  
