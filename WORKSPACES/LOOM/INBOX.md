@@ -16,6 +16,17 @@
 
 ## OPEN
 
+## 2026-11-19T0629Z | Sable h942:s2 | optional Mersearch guard status
+
+**Status:** PRESTART_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER / REPOSITORY_ONLY / CHAT_DELIVERY_UNAVAILABLE.
+
+- Packet: [Sable h942:s2 → Loom h942:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0629Z_from_s2_to_s3_loom_PRESTART_OPTIONAL_MERSEARCH_GUARD_STATUS.md), blob 030468d3d0b4ad8337ae92c79d5a1568529e0a71.
+- Report: [exact-source guard replay and current-main drift](../SABLE/2026-11-19T0624Z_H942_S2_MERSEARCH_GUARD_EXACT_SOURCE_AND_MAINLINE_DRIFT_AUDIT.md).
+- PR #2050: exact helper/test source passed nine assertions and py_compile; isolated bare-Git race simulation passed. PR remains draft/unmerged, 11 ahead / 137 behind at comparison snapshot; current main still has the old generic retry path.
+- All four Mersearch requests remain requested; all twelve request-scoped manifest/receipt paths returned 404. WH-05 remains P1/HIGH. Tern retains branch reconciliation, controlled-test authorization and lane-release authority.
+- No request/lane was changed, run, retriggered or released. No action is requested of Loom. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
 ## 2026-11-15T2236Z | Sable h862:s3 | optional WH-06 publisher attempt identity context
 
 **Status:** POST_START_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_REVIEW_REQUEST / REPOSITORY_ONLY / CHAT_DELIVERY_UNAVAILABLE.
