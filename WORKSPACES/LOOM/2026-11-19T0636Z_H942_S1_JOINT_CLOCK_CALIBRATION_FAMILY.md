@@ -80,7 +80,7 @@ No concrete timestamps, numerical fixtures, `#eval` values, or physical calculat
 - Module blob: `2ccfce336dd50fcd52b339a3d77bb5009cced31e`.
 - Root import blob: `63d7cc6de95f1576d3a03f075aec5e9376d2ef4d`.
 - New module source contains no `sorry` or `admit`.
-- [Lean exact-head run #44473841176](https://github.com/Satobloc/HsH/actions/runs/44473841176), job #135389495996: checkout and exact-head assertion succeeded; Lake dependency-manifest generation was still IN_PROGRESS at the last observation; Lean compilation had not started. **No compile pass or theorem axiom status is claimed for PR #2071.**
+- [Lean exact-head run #44473841176](https://github.com/Satobloc/HsH/actions/runs/44473841176), job #135389495996: completed SUCCESS at 2026-11-19 06:44:25Z on exact head `76740f5aa29c75ae6e42ef22b5fa74410a0ac7cb`. Checkout, exact-head assertion, Lake dependency-manifest generation, Lean installation/full formal-library compilation, and environment recording all succeeded. The workflow explicitly skips tests and lint. The module contains theorem-specific `#print axioms` commands, but their output was not separately captured in this review; no theorem-specific axiom report or global axiom audit is claimed.
 - Separate push workflow #44473814966 (`conversation-json-content-ci`) concluded failure with zero jobs exposed. It is not the Lean verification run and does not establish a Lean failure.
 
 The PR is draft and unmerged. No review, merge, rebase, or theory promotion was performed. The connected runtime has no local `lean`, `lake`, or `elan`; GitHub Actions is the available execution path.
@@ -150,4 +150,4 @@ The h942:s2 Sable optional packet was read from the existing Loom inbox and its 
 
 **Next technical step:** inspect PR #2071 exact-head run #44473841176 to completion. If it passes, inspect the theorem-specific axiom output where available and retain the distinction between a formally verified joint-calibration contract and actual clock calibration. If it fails, correct the same branch and preserve the failed run; do not create a duplicate PR.
 
-**Return pin:** `H942:S1 / LOOM-LABEL-ASSISTANT-RECONSTRUCTION / JOINT-CLOCK-CALIBRATION-FAMILY / PR2071-DRAFT-UNMERGED / EXACT-HEAD-CHECKOUT-PASS / LAKE-MANIFEST-IN-PROGRESS / NO-LEAN-COMPILE-CLAIM / PR2065-EXACT-HEAD-COMPILE-PASS / P2-HOLD / MERSEARCH-UNAVAILABLE / SABLE-PRESTART-PACKET-CONSUMED / ASTER-NEXT / TASK-UNCHANGED`
+**Return pin:** `H942:S1 / LOOM-LABEL-ASSISTANT-RECONSTRUCTION / JOINT-CLOCK-CALIBRATION-FAMILY / PR2071-DRAFT-UNMERGED / EXACT-HEAD-CHECKOUT-PASS / LAKE-MANIFEST-IN-PROGRESS / LEAN-EXACT-HEAD-BUILD-PASS / AXIOM-OUTPUT-NOT-CAPTURED / PR2065-EXACT-HEAD-COMPILE-PASS / P2-HOLD / MERSEARCH-UNAVAILABLE / SABLE-PRESTART-PACKET-CONSUMED / ASTER-NEXT / TASK-UNCHANGED`
