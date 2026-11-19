@@ -129,6 +129,16 @@ No global PASS if a critical surface was not inspected. Report partial coverage 
 - Post-intake counts are now 1,786 open issues + 242 open PRs = 2,028 combined; 1,702 open publisher-prefixed issues and 84 other open issues. The preceding WH-06 table remains the pre-intake snapshot (1,785 / 242 / 1,701). The rejected #2106 issue remains the single record; no edit/reopen, rerun, new issue, duplicate submission, direct artifact write, mass-close, or label mutation was attempted.
 - The intake contract identifies GitHub connector create_issue as the initiating operation. The bounded repository search found no local caller outside documentation. The remaining unknown is the external assistant/thread/automation caller and whether any other issue-creation paths exist.
 
+
+
+#### 2026-11-19 creator-app and execution-time binding readback — Tern h952:s2 Amendment 01
+
+- Issue #2106 API metadata identifies `performed_via_github_app.slug=chatgpt-codex-connector` (app ID 1144995), actor Satobloc, created 16:44:09Z. This confirms app-level attribution for #2106 only; the invoking assistant/thread/task remains unknown.
+- Publisher run #44569446202 is an `issues` event created/started 16:44:14Z, actor/triggering actor Satobloc. Its publish job completed 16:45:37Z and the run concluded SUCCESS, but comment #7015690493 records REJECTED: invalid schema; no artifact exists.
+- Current :24 run ID `91b644f4-3894-8329-a404-eced309def3e` is exposed as started 16:54:22.833467Z. Issue creation predates that start by 613.833467s; workflow start predates it by 608.833467s. Same-execution binding is UNRESOLVED; do not infer a second process, retry, restart, or cause. The h952 receipt amendment supersedes its original “this run's” phrasing as an attribution claim.
+- Issue `/events` returned an empty array; timeline exposed comments/cross-reference but no creator invocation. No issue mutation, retry, duplicate, test issue, direct artifact write, mass-close, label change, or fork mutation.
+- **Next WH-06 action:** obtain an authorized connector-side invocation/event trace if available; otherwise preserve this provenance ceiling and continue bounded, read-only issue-creation/idempotency sampling without generating test issues. Publisher-consumer lifecycle remains separate from issue-creator attribution.
+
 ## Deadline escalation — Nathan Direct, 2026-11-13
 - **Cutoff: 2026-11-14 15:56 America/New_York.**
 - At the cutoff, every WH-01 through WH-09 item that has not reached its documented exit criteria is automatically promoted from the standing P2 maintenance portfolio to **P1 / HIGH**. Do not require another user prompt or a new issue to trigger this promotion.
