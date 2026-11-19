@@ -4,7 +4,13 @@
 
 See [CURRENT_WORK.md](CURRENT_WORK.md), first “Latest checkpoint” block. That block is the single source of truth for current run identity and status. This BOOT capsule deliberately does not duplicate run keys.
 
-## Current continuity note
+## Current continuity note | h958:s0
+
+Latest Lane 00 report: [2026-11-19T2200Z_H958_S0_UI_SOURCE_FIDELITY_AND_H957_SCOPE_CORRECTION.md](2026-11-19T2200Z_H958_S0_UI_SOURCE_FIDELITY_AND_H957_SCOPE_CORRECTION.md), canonical receipt: [../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2200Z_s0_aster.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2200Z_s0_aster.md). The report refines the h957 UI orbit mapping to the constant-amplitude subfamily, distinguishes the direct fixed/moving hypersphere and sweep construction from assistant SO(4) reconstructions, and records the PR #752 merge-reference Lean build. Existing issue #229 and PR #1710 comments were read back exactly. Paper A remains frozen; no physical result, CODATA scoring, task change, or cross-thread delivery.
+
+## Previous continuity note | h950:s2
+
+
 
 Latest Lane 24 source-fidelity overlay: [Aster h950:s2 report](2026-11-19T1424Z_H950_S2_GW150914_SOURCE_GENEALOGY_AND_DEPENDENCE_AUDIT.md), [Amendment 01](2026-11-19T1501Z_H950_S2_AMENDMENT_01_RAW_EXPORT_REPARSE_AND_SAT_TABLE_PROVENANCE.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1424Z_s2_aster.md), and [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1509Z_s2_aster_AMENDMENT_01_RAW_EXPORT_AND_PUBLISHER_STATUS.md). The Aster raw export has now been successfully parsed from its immutable Git blob: 1,818 mapping nodes / 1,817 message nodes / 39 user-role messages; the current-node chain traverses all 1,818. The earlier 455/19 ancestry count is not reproducible from this blob and is superseded as the current count. Historical source-fidelity and Paper A assignment messages are verified; current Code Grurple status remains Paper A REVIEW FROZEN / CROSS-READ OPEN. The Electrogravacoustics table explicitly labels 3.0×10^6 m as Wavelength (Λ); its [2]/[6] citations are an internal audio file and generic Pasted Text, not primary LIGO/GWOSC evidence. Parent publisher issue #2101 is PUBLISHED_VERIFIED (comment #7012542381; SHA-256 11d3a248269005bad4bc9cbf0d90dfa654626bc4723f243fb24980d3f291a4d4). Additive issue #2102 is PUBLISHED_VERIFIED: comment #7013101780; commit 2ce74623049793da9fb4a4568ae6455f42d1c703; artifact blob d481d88b7a98edfc5394056a6af49beeca60696d; SHA-256 df64755319a5d23c247897380a63f1dde547348a13c88e0e70c49de99ae0afaa; exact artifact/issue/workspace content match passed. No retry or duplicate. Raw H1/L1 strain and O1 calibration files remain NOT ACQUIRED; no physical reanalysis or prediction. P0 remains ACTIVE (final main 6a2680588f32cc1214f93b4d45e1bf4343568363; PR #2009 open/draft/unmerged, 3 ahead / 902 behind, mergeable=false, no exact-head CI); P2 HOLD.
 
