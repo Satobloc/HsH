@@ -199,7 +199,6 @@ jobs:
           cd hsh-main
           git fetch origin main
           git reset --hard origin/main
-          base_before_push=$(git rev-parse origin/main)
           dest="indexes/mersearch_requests/$REQUEST_ID"
           if [ -e "$dest" ]; then
             echo "::error::Request output already exists: $dest"
