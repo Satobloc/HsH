@@ -44,7 +44,7 @@ The correct distinction is therefore:
 A second source was recovered by comparing the HsH mirror with the SAT archive:
 
 - SAT archive path: SAT XYZ/SAT-Y 4D.txt.
-- SAT archive Git blob: 9806853d7a5d1a4e3a5b7b3b1b4e0f0f7e5e4f9b (see the live repository blob for the authoritative value).
+- SAT archive Git blob: 9806853dd09ca6b36bcfc530d8333bed53d956c5 (see the live repository blob for the authoritative value).
 - HsH mirror path: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/SAT-Y 4D.txt.
 - The HsH mirror and SAT archive copy have the same Git blob SHA.
 - The SAT archive file index records creation 2025-05-31 01:21:08 and modification 2025-10-27 20:26:08; timezone unspecified. These are file metadata dates, not the original conversation’s message dates.
