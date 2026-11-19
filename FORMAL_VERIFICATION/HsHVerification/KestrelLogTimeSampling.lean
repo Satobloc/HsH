@@ -10,18 +10,26 @@ For the source's n = -2 trigger schedule,
   Δ(t) = (t - t₀) * exp(d / sqrt(2*c) - 1).
 Writing ρ for the positive exponential factor gives
   t_next - t₀ = (1 + ρ) * (t - t₀),
-so τ = log(t - t₀) advances by the constant log(1 + ρ).
+so τ = log(t-t₀) advances by the constant log(1 + ρ).
 
-This module proves that discrete source-linked coordinate identity and
-executes two arithmetic checks on source-reported acquisition values.
+This module proves the discrete source-linked coordinate identity, the
+inverse time-coordinate map, and the chain-rule factor for re-expressing a
+physical-time observable in τ. It executes two arithmetic checks on
+source-reported acquisition values.
+
 It does not formalize the turbulent PDE, infer a material boundary,
 identify τ with physical time, or define an H(s)H time-surface map.
 -/
 
 namespace HsHVerification.KestrelLogTimeSampling
 
+noncomputable section
+
 /-- The source-defined logarithmic sampling coordinate. -/
 def logClock (t₀ t : ℝ) : ℝ := Real.log (t - t₀)
+
+/-- Inverse map from logarithmic sampling coordinate to physical time. -/
+def physicalTimeFromLogClock (t₀ τ : ℝ) : ℝ := t₀ + Real.exp τ
 
 /-- Relative frame-interval factor in the source's n = -2 schedule. -/
 def relativeStep (d c : ℝ) : ℝ := Real.exp (d / Real.sqrt (2 * c) - 1)
@@ -58,6 +66,32 @@ theorem source_logClock_step (t₀ t d c : ℝ)
   · exact relativeStep_pos d c hc
   · exact ht
 
+/-- The log-clock map and its exponential inverse recover physical time. -/
+theorem physicalTime_logClock (t₀ t : ℝ) (ht : t₀ < t) :
+    physicalTimeFromLogClock t₀ (logClock t₀ t) = t := by
+  unfold physicalTimeFromLogClock logClock
+  rw [Real.exp_log (sub_pos.mpr ht)]
+  ring
+
+/-- The inverse exponential map followed by logClock recovers τ. -/
+theorem logClock_physicalTime (t₀ τ : ℝ) :
+    logClock t₀ (physicalTimeFromLogClock t₀ τ) = τ := by
+  unfold logClock physicalTimeFromLogClock
+  simp
+
+/-- Chain rule: d/dτ q(t₀ + exp τ) = exp τ · q'(t₀ + exp τ). -/
+theorem hasDerivAt_physicalTimeReparam
+    (q : ℝ → ℝ) (t₀ τ qPrime : ℝ)
+    (hq : HasDerivAt q qPrime (physicalTimeFromLogClock t₀ τ)) :
+    HasDerivAt (fun σ => q (physicalTimeFromLogClock t₀ σ))
+      (qPrime * Real.exp τ) τ := by
+  have htime :
+      HasDerivAt (fun σ : ℝ => physicalTimeFromLogClock t₀ σ)
+        (Real.exp τ) τ := by
+    unfold physicalTimeFromLogClock
+    simpa using (Real.hasDerivAt_exp τ).const_add t₀
+  exact hq.comp τ htime
+
 /-- The logarithmic coordinate advances strictly under a positive source step. -/
 theorem logClock_step_pos (t₀ t ρ : ℝ)
     (hρ : 0 < ρ) (ht : t₀ < t) :
@@ -66,6 +100,8 @@ theorem logClock_step_pos (t₀ t ρ : ℝ)
   apply Real.log_pos
   linarith
 
+end
+
 -- Source-reported PIV interval endpoints: 1 s / 2.5 ms = 400.
 #eval (1 : ℚ) / ((25 : ℚ) / 10000)
 
@@ -73,6 +109,8 @@ theorem logClock_step_pos (t₀ t ρ : ℝ)
 #eval (1050 : ℚ) / 60
 
 #print axioms source_logClock_step
+#print axioms physicalTime_logClock
+#print axioms hasDerivAt_physicalTimeReparam
 #print axioms logClock_step_pos
 
 end HsHVerification.KestrelLogTimeSampling
