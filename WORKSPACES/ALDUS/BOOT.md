@@ -8,6 +8,8 @@
 - P2 remains HOLD; no physical data, calibration, fit, prediction, or independent measurement. No SAT-O/Blockwave equation or theory-status change.
 - Existing :36 task remains enabled with original ID, prompt, hourly :36 phase and schedule unchanged. No sixth task.
 
+- Receipt Amendment 02: [Factory Floor geometry gate and preflight limits](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0736Z_s3_aldus_AMENDMENT_02_FACTORY_FLOOR_GATE_AND_PREFLIGHT.md). The clock-validity module is not Factory Floor eligible without a precise physical plot and independent hostile review; no intake or promotion.
+
 ---
 
 - Internal write route: no local checkout or dedicated worker-file write action was available; internal updates used GitHub Contents fallback with fresh blob-SHA preconditions and readback. No protected P0 files changed.
