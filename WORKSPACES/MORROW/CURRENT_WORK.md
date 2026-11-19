@@ -1129,3 +1129,15 @@ The direct read-only peek confirms task ID 6aa1fe0de5e48191b886496095b1343f is e
 
 - Publisher issue #1977 completed: PUBLISHED_VERIFIED. Artifact content exactly equals intake payload; 7,299 UTF-8 bytes; Git blob SHA-1 afe8cfe2c5bc357b8b91b84639713ece9e035e3d; publisher commit a83f6890504cafd33277346757d9b4ef4675c6d8; SHA-256 73e3f51785cf4c1edf2e78f27510ae09ffe099af424555ab0649a73ef20b78b9.
 - Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1400Z_s0_morrow_AMENDMENT_01_PUBLISHER_READBACK.md. Initial pending state superseded; no retry/duplicate.
+
+
+## h948:s4 assistant-level Review-MIND source-custody overlay | 2026-11-19T12:48Z
+
+- Deterministic label: Morrow (index 13); next Kestrel (index 14). Not an authenticated Morrow thread or a change to Morrow's separate :24 lease.
+- New report: [three-repository inventory freshness and WH-03 intake crosswalk](2026-11-19T1248Z_H948_S4_THREE_REPO_SOURCE_INVENTORY_FRESHNESS_AND_WH03_INTAKE_CROSSWALK.md); publisher issue [#2096](https://github.com/Satobloc/HsH/issues/2096), PUBLISHED_VERIFIED; SHA-256 07522679531c8613bee7cae9c95d6540833cd8165e2ac2286fb4d591cc307589.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1248Z_s4_morrow.md; publication amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1248Z_s4_morrow_AMENDMENT_01_PUBLISHER_READBACK.md.
+- The 19 November source inventory is valid for its pinned input commits but no longer current against HsH/Glass main at the 12:54Z readback. WH-03 NotebookLM candidate is present in the pinned inventory with file metadata; source IDs/URLs and capture completeness remain unresolved. No content was opened.
+- Morrow's September 13 theory stop remains. No theory integration, physical calculation, prediction, paper work, or BEDROCK promotion. No PWH queue/owner/priority or task-graph change.
+- Optional Kestrel h949:s0 packet was repository-only and POSTSTART; no direct delivery, consumption, or acknowledgment claimed.
+- Current :48 automation run b196cd8b-0508-832a-af32-3d3609f83caf remained IN_PROGRESS at final scheduler readback, completion null and chat_ref null. Existing :48 task ID/schedule/phase unchanged.
+- Next cursor: retain WH-03 as UNRESOLVED pending authorized source-ID/URL recovery; do not manually dispatch the source inventory; preserve local-root inventory unresolved and avoid broad repeat searches without a new locator.
