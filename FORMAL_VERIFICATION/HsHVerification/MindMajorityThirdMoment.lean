@@ -224,9 +224,9 @@ theorem pairwise_independence_does_not_identify_majority :
     majority oddParityLaw = 1 / 4 ∧
     majority evenParityLaw ≠ majority oddParityLaw := by
   constructor
-  · simpa [evenParityLaw] using parametricLaw_majority 0
+  · norm_num [evenParityLaw, parametricLaw_majority]
   constructor
-  · simpa [oddParityLaw] using parametricLaw_majority (1 / 4)
+  · norm_num [oddParityLaw, parametricLaw_majority]
   · norm_num [evenParityLaw, oddParityLaw, parametricLaw, majority]
 
 #eval (marginal1 evenParityLaw, pair12 evenParityLaw, majority evenParityLaw)
