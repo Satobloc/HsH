@@ -126,10 +126,10 @@ theorem parameterRatio_enclosed
   · exact (le_div_iff₀ hDenominatorPositive).2 hLowerNumerator
   · exact (div_le_iff₀ hDenominatorPositive).2 hUpperNumerator
 
-/-- Exact lower corner: 0.78 / (1.31 * 0.6^2) = 650/393. -/
+/- Exact lower corner: 0.78 / (1.31 * 0.6^2) = 650/393. -/
 #eval parameterRatio epsilonLower c0Upper alphaUpper
 
-/-- Exact upper corner: 0.98 / (1.09 * 0.3^2) = 9800/981. -/
+/- Exact upper corner: 0.98 / (1.09 * 0.3^2) = 9800/981. -/
 #eval parameterRatio epsilonUpper c0Lower alphaLower
 
 #print axioms parameterRatio_enclosed
