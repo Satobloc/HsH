@@ -76,8 +76,8 @@ theorem branching_history_not_single_strand
   rw [← hcard] at hle
   omega
 
-/-- Executable type-level smoke checks only; these are not physical data
-    or empirical simulations. -/
+/- Executable type-level smoke checks only; these are not physical data
+   or empirical simulations. -/
 #eval (singleStrandContinuation (some (7 : Nat))).card
 #eval (singleStrandContinuation (none : Option Nat)).card
 
