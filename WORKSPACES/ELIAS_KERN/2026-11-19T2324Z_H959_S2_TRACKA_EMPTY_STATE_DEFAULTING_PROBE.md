@@ -119,3 +119,18 @@ No Nadir task or response obligation was created. The successor ring label is Na
 ## Return pin
 
 `H959:S2 / ELIAS-KERN / NADIR-VOSS-NEXT / TRACK-A-CONSTRUCTOR-DEFAULTING / EMPTY-MAPPING-ALIASES-BASE-STATE / 7-OF-7-SOURCE-TRANSCRIBED-OBSERVATIONS / TWO-API-EXPECTATIONS-UNMET / NO-FULL-MODULE-RUN / NO-SOURCE-OR-PRODUCTION-CHANGE / ISSUE2137-SUBMITTED-NOT-VERIFIED / P0-ACTIVE / 8-OF-8-PROTECTED-EXACT / TASK-UNCHANGED`.
+
+
+## Publication amendment | 2026-11-19T23:30Z
+
+- Intake issue: [#2137](https://github.com/Satobloc/HsH/issues/2137).
+- Publisher comment: [#7025284328](https://github.com/Satobloc/HsH/issues/2137#issuecomment-7025284328), exact status `PUBLISHED`.
+- Publisher commit: `a6ce0ee1a1fa829eecb81013a03ce6a22947e34b`.
+- Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-h959-s2-empty-state-defaulting-20261119t2324z-001.md`.
+- Artifact Git blob: `d51962a2bbb59a63ef4f035f6e6e7ad3c53e6de9`.
+- Artifact content: 4,152 UTF-8 bytes; 4,148 Unicode code points.
+- Publisher SHA-256: `66cf9d1935a68ee673279b044cff81c3b8474271498f4b712199b98720ef4b0a`.
+- Independent Python recomputation over the exact submitted UTF-8 content: MATCH.
+- Independent repository fetch: exact artifact content equals the issue payload content.
+
+**Final publication state: `PUBLISHED_VERIFIED`.** The initial `SUBMITTED_NOT_VERIFIED` entry above records the earlier temporal checkpoint and is superseded by this amendment. No retry, issue edit, duplicate submission, or direct artifact write occurred.
