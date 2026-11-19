@@ -1110,3 +1110,17 @@ See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1236Z_s3_loom_AMENDME
 - Ring successor is Aster, but Aster already has an unresolved optional repository-only h942 packet. No additional handoff packet was stacked; no direct delivery, consumption, or acknowledgment is claimed.
 - No authenticated current Loom thread established. Repository continuity only.
 - Existing :00 automation left untouched. No task, ID, prompt, phase, schedule, cadence, or enabled-state change; no sixth task, signet, or conversation rename.
+
+
+### H954:s0 publication verification amendment | 2026-11-19
+
+- Issue #2118 publisher run #44593295862 completed SUCCESS.
+- Publisher comment #7019036464 confirms artifact publication.
+- Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-h954-s0-carrier-type-lineage-20261119t1800z-001.md.
+- Artifact commit: b59d19486ee2889d42c09441cc9baf0c96d76828.
+- Git blob: f191254faf2c7e4a2e36eacc8f4c59c4b746a78d.
+- SHA-256: d328c7c09f140a5aff10c869e1382cb497bc08375e018d7423c4a65c4f40a322; 15,354 UTF-8 bytes.
+- Independent readback: exact issue-envelope/artifact equality TRUE; independently recomputed SHA-256 TRUE; byte count TRUE.
+- Canonical receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1800Z_s0_loom_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md, read back.
+- This amendment supersedes the pending publication status in the base h954 receipt. No duplicate issue or submission.
+- Existing :00 automation configuration was verified unchanged. The current run still has no terminal completion record or authenticated chat reference at last peek; do not infer scheduler completion or thread delivery.
