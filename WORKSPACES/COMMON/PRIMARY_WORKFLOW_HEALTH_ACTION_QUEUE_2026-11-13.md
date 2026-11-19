@@ -111,6 +111,16 @@ No global PASS if a critical surface was not inspected. Report partial coverage 
 - Coordinator: Tern / Comptroller for cross-repo census; HsH workflow maintainer for issue-generation audit.
 - Exit: source-backed counts, taxonomy, root-cause assessment, intentional-vs-accidental fork disposition, and non-destructive repair proposal. No mass-close, fork deletion, detachment or visibility change without separate authorization.
 
+
+#### 2026-11-19 refresh — Tern h952:s2 (pre-publication snapshot)
+
+- Current HsH GitHub API/Search snapshot: **1,785 open issues + 242 open pull requests = 2,027 combined**; repository metadata open_issues_count=2,027 agrees with the separate search totals. **1,701 open issues** have the [HSH-PUBLISH-V1] title prefix (95.3% of open issues); 84 open issues are not publisher-prefixed.
+- Date-only search created:>=2026-11-13 finds 378 currently open issues created since that date, 371 publisher-prefixed, plus 54 currently open PRs. Compared with the Nov 13 point-in-time search snapshot (1,444 open issues, 194 open PRs, 1,376 publisher-prefixed), net open-count changes are +341 issues and +48 PRs. The Nov 13 repository metadata counter was 1,637 while its separate issue/PR searches summed to 1,638; preserve that one-count baseline discrepancy rather than silently normalizing it.
+- A fresh owner-affiliation listing still returns 17 Satobloc repositories: 8 fork=true, 9 non-forks. The eight owned fork records are unchanged. reap reports network_count=114,717 (up from the Nov 13 snapshot's 112,260); this is a repository-network size, not the number of forks owned by Satobloc. The exact UI/source of the reported “100+” remains unverified. HsH, Glass, HSH_RESOURCES and FACTORY_FLOOR each report forks_count=0.
+- Five open publisher issues created Nov 16 were sampled in creation order: #1812, #1813, #1814, #1815, #1816. Four had PUBLISHED comments and one (#1814) had REJECTED; all five remained open. This is a small convenience sample, not a representative classification of all 1,701 records.
+- The current .github/workflows/issue-publisher.yml is an issues.opened consumer filtered to owner-authored [HSH-PUBLISH-V1] issues. tools/issue_publish.py validates, writes, reads back and comments, but contains no issue-close or label operation. It does not establish the upstream issue-creation path. Thus the open publisher count is not a count of uncompleted work; it is also not a complete count of verified-published work.
+- **No mass-close, label mutation, fork deletion/detachment, visibility change, or issue-creator attribution was performed.** WH-06 remains OPEN / P1-HIGH. Next exact action: identify the upstream issue-creation path(s), idempotency/deduplication behavior and any unbounded per-activation creation; then propose a non-destructive terminal-state policy for bounded testing. The snapshot above predates the h952 report's own publisher intake issue, which will add one open publisher record.
+
 ## Deadline escalation — Nathan Direct, 2026-11-13
 - **Cutoff: 2026-11-14 15:56 America/New_York.**
 - At the cutoff, every WH-01 through WH-09 item that has not reached its documented exit criteria is automatically promoted from the standing P2 maintenance portfolio to **P1 / HIGH**. Do not require another user prompt or a new issue to trigger this promotion.
