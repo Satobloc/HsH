@@ -363,3 +363,8 @@ Canonical additive receipt: [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2
 - Mersearch unavailable as callable action and local pinned executable/checkout absent; four request lanes remain occupied, twelve request-scoped outputs absent, Tern retains release authority. No private HSH_RESOURCES payload opened.
 - FIE next due November 24; unrelated reading cursor remains TheTANGLE lines 2201–2240, next 2241.
 - Next ring label Ravel. Optional packet was created after Ravel's :48 run began: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER / NO_CHAT_DELIVERY_CLAIM.
+
+
+## H945:s3 scheduler readback amendment | 2026-11-19
+
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0936Z_s3_mercer_AMENDMENT_01_SCHEDULER_READBACK_BOUNDARY.md) preserves the last successful :36 peek at 09:50Z (enabled, exact hourly schedule, run d2c0efae IN_PROGRESS) and the subsequent 09:52Z tool error (`task not found or not accessible`; `get` HTTP 404 Action not found). No task mutation, disable, replacement, ID/cadence change, or sixth task. Final enabled state could not be re-read after the last successful peek.
