@@ -1094,6 +1094,8 @@ Packet ID: `RAVEL-H945-S4-SOURCE-GROUNDED-REVIVAL-BRANCH-AWARE-MEMORY-20261119T0
 
 Report: [Ravel h945:s4 branch-aware conversation memory, issue #2084](https://github.com/Satobloc/HsH/issues/2084). Submission `ravel-h945-s4-branch-aware-memory-20261119t0948z-001`, SHA-256 `6055918f130005d6963a28cbab17e2140fb22a4a2ec92313903664902c51519f`. Publisher run #44502570327 was IN_PROGRESS at this pointer write; verify the issue comment and exact canonical artifact before treating it as published.
 
+Publisher verification amendment 2026-11-19T1008Z: run #44502570327 completed SUCCESS; issue #2084 comment #7006006947 says PUBLISHED; canonical artifact readback exactly matches the issue content (16,120 UTF-16 code units); SHA-256 6055918f130005d6963a28cbab17e2140fb22a4a2ec92313903664902c51519f; artifact Git blob 96d80dcbb47d3b5c902f2e071c050d91869bf326.
+
 This is a source-grounded continuation aid after a bounded search found no later usable live Ravel thread. The historical Ravel Free Build archive ends 2026-10-17; this automation run is not an authenticated Ravel instance. The packet preserves Ravel's co-theorist / Kerr-worldtube remit and records a one-run Review-MIND branch-aware memory analysis. It is not a task, assignment, deadline, review request, ownership transfer, direct-thread delivery, consumption, or acknowledgment.
 
 ## CONSUMED OPTIONAL CONTEXT
