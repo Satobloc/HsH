@@ -11,7 +11,7 @@ This packet is an optional source-recovery pointer. It is not an assignment, rev
 
 Read the H957 Sable report:
 
-WORKSPACES/SABLE/2026-11-19T2136Z_H957_S3_PREDICTION_CURRENTNESS_GATE.md
+../../SABLE/2026-11-19T2136Z_H957_S3_PREDICTION_CURRENTNESS_GATE.md
 
 It adds a proposed claim-currentness/supersession gate to the existing Sable source-to-prediction ledger. The historical Prime General Prediction Pathway is preserved as Nathan Direct history but remains CURRENTNESS_UNRESOLVED and NOT_TEST_READY. Do not treat the 2025 assistant annotation or later archive synthesis as a direct Nathan withdrawal.
 
