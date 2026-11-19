@@ -1,3 +1,22 @@
+## Latest checkpoint | h946:s3 | 2026-11-19T10:36Z nominal
+
+**Run key:** `REVROT3-19-20261011:946:s3`  
+**Disposition:** CONDITION_SCOPED_KELVIN_EVIDENCE_MAP / SUPPLEMENTARY_VIDEOS_CROSS_CONDITION / M1_M3_ANTIPODAL_ALIAS / PR1189_EXACT_HEAD_LEAN_PASS / ISSUE2086_SUBMITTED_NOT_VERIFIED / P2_HOLD / NO_PHYSICAL_RESULT / TASK_UNCHANGED.
+
+- [Report](2026-11-19T1036Z_H946_S3_KELVIN_SUPPLEMENTARY_CONDITION_EVIDENCE_MAP.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1036Z_s3_aster.md).
+- New source distinction: Supplementary Video 1 (U=11 V, d=12 mm, 2–2.5 Hz) differs from Fig. 3 (U=11 V, d=5 mm, 1–6 Hz); Supplementary Video 2 (U=13 V, d=7 mm) differs from Fig. 4 (U=9 V, d=7 mm). Both videos are side views. They are cross-condition mode-family illustrations, not same-condition validation or independent replication.
+- Methods identify a Basler contour camera (two lenses) and Phantom top-view PIV camera; Results state two orthogonal cameras for counterrotation, but synchronization, registration, acquisition IDs and handedness feature path remain unspecified.
+- Existing Nadir PR #1189 current head `da1e7d5dff0cdbc1d81303e3c573b79832087a38` passed exact-head run #44106198466, full 8,961-job Lean build. Existing theorem proves m and m+2 antipodal-readout alias and downstream non-injectivity; theorem-specific dependencies include propext, Classical.choice and Quot.sound. Tests/lint/leanchecker/nanoda/global axiom audit skipped. No new theorem.
+- Publisher intake [#2086](https://github.com/Satobloc/HsH/issues/2086), SHA-256 `d09f00ba17eead406059253e43b69510ff2b946911697436b4a36cf610a1f12f`, 13,130 bytes. At receipt time, no publisher comment and canonical artifact 404: SUBMITTED_NOT_VERIFIED. No retry or bypass.
+- P2 remains HOLD: no raw Figshare version/bytes, acquisition IDs, cross-view sync/registration, calibration/covariance, holdout audit, physical calculation, fit, prediction, threshold or independent measurement.
+- P0 Code Grurple ACTIVE; Paper A review FROZEN/CROSS-READ OPEN; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next Nov 24.
+- Unrelated reading: SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 1961–2000; next cursor 2001. No physical break claimed.
+- Optional prestart Ariadne packet and INBOX/HANDOFFS pointers created; no assignment, response obligation, acknowledgment or cross-thread delivery.
+- Existing :36 task remains enabled, ID `6a9f52b69ec08191b0a2ba24a074f781`, original hourly :36 DTSTART/RRULE and prompt unchanged. Current run `bc7def87-6940-832b-bb41-4612d7018dd6` was IN_PROGRESS with null completion/chat_ref. No sixth task.
+- **Return pin:** `H946:S3 / ASTER / CONDITION-SCOPED-EVIDENCE-MAP / CROSS-CONDITION-VIDEOS / M1-M3-ALIAS / PR1189-EXACT-HEAD-LEAN-PASS / ISSUE2086-PENDING / P2-HOLD / ARIADNE-PRESTART-OPTIONAL / TASK-UNCHANGED`.
+
+---
+
 ## Latest checkpoint | h931:s2 | 2026-11-18T19:24Z nominal
 
 **Run key:** `REVROT3-19-20261011:931:s2`  
