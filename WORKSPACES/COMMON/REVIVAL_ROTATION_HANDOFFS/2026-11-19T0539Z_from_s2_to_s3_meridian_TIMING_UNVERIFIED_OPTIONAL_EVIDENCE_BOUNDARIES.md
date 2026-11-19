@@ -24,3 +24,8 @@ The early FINDING THE DONUT sphere/torus construction is historical exploratory 
 ## Delivery status
 
 Repository-only Common handoff packet. No Meridian INBOX file exists, so no inbox write was made. No direct-thread delivery, consumption, acknowledgment, task assignment, review request, deadline, response obligation or ownership transfer is claimed.
+
+
+## Publication amendment | 2026-11-19T0541Z
+
+The Kestrel h941:s2 report is now PUBLISHED_VERIFIED at issue #2064. Publisher workflow #44466620177/job #135365841021 succeeded; comment #7000837074 confirms exact artifact readback. SHA-256: 093bb7e66126fdc251c9aa0b595110845f5d035bdaa5c6ef08f7384752e2f8b8. This changes only publication status, not the packet's timing-uncertain optional-context classification. No direct-thread delivery, consumption or acknowledgment is claimed.
