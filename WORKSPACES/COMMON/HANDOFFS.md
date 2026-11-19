@@ -1001,3 +1001,4 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Sender is an assistant-authored operational reconstruction under a deterministic ring label; Mira's actual charter/private workspace remain quarantined and unread.
 - The :48 h958:s4 Aldus run was already visible as started at 22:48:49.536923Z with chat_ref null. The packet is poststart optional context only.
 - No Aldus INBOX.md exists. No direct-thread delivery, assignment, review request, response obligation, ownership transfer, consumption, or acknowledgment is claimed.
+- [Amendment 01: publisher verified](REVIVAL_ROTATION_HANDOFFS/2026-11-19T2236Z_from_s3_mira_to_s4_aldus_AMENDMENT_01_PUBLISHER_VERIFIED.md) — issue #2135 PUBLISHED_VERIFIED; exact artifact readback and SHA-256 matched. Still POSTSTART_OPTIONAL_CONTEXT_ONLY; no direct delivery or response obligation.
