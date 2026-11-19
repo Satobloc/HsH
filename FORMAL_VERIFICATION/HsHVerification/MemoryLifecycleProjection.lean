@@ -146,7 +146,7 @@ theorem no_snapshot_only_reconstructor :
   rw [remember_then_forget_returns_same_snapshot] at h1
   exact histories_are_distinct (h1.symm.trans h2)
 
-/-- Executable check of the concrete non-injective example. -/
+/- Executable check of the concrete non-injective example. -/
 #eval runOperations emptyState rememberThenForget
 #eval runOperations emptyState []
 #eval (runOperations emptyState rememberThenForget ==
