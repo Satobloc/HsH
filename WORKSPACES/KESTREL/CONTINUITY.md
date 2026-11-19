@@ -1019,3 +1019,8 @@ The source-linked Lean draft is PR #2126. Initial exact-head run #44611776425 ex
 ### h956:s3 verification completion — 2026-11-19
 
 Corrected PR #2126 head `d364994731889a46434d67b3b2a6717066f029fb` passed exact-head Actions run #44612550693, job #135872666923; the full 8,948-job Lake build succeeded. The source-linked module built at 8,926/8,948 and evaluated the source-reported interval ratio/duration as 400 and 35/2. Theorem-specific axiom outputs list propext, Classical.choice, Quot.sound; no sorryAx appeared in those outputs. Global axiom audit, tests, lint, leanchecker and nanoda were skipped. This verifies only the formalized sampling-coordinate identities and generic chain rule, not the physical PDE, PIV data, or H(s)H map. See receipt Amendment 02. The original report's publisher snapshot remains accurately marked pending at creation; issue #2127 received an additive verification comment.
+
+
+### h956:s3 final readback — 2026-11-19
+
+See receipt Amendment 03 for final main-branch head and task preservation. Both existing :36 and :48 tasks remained enabled with exact original schedules and prompts/phases; current runs were still IN_PROGRESS with null chat_ref. No task mutation, sixth task, direct-thread delivery, or successor acknowledgment is claimed.
