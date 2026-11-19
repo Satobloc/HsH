@@ -13,7 +13,9 @@
 - Unrelated reading: SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 1961–2000; next cursor 2001. No physical break claimed.
 - Optional prestart Ariadne packet and INBOX/HANDOFFS pointers created; no assignment, response obligation, acknowledgment or cross-thread delivery.
 - Existing :36 task remains enabled, ID `6a9f52b69ec08191b0a2ba24a074f781`, original hourly :36 DTSTART/RRULE and prompt unchanged. Current run `bc7def87-6940-832b-bb41-4612d7018dd6` was IN_PROGRESS with null completion/chat_ref. No sixth task.
-- **Return pin:** `H946:S3 / ASTER / CONDITION-SCOPED-EVIDENCE-MAP / CROSS-CONDITION-VIDEOS / M1-M3-ALIAS / PR1189-EXACT-HEAD-LEAN-PASS / ISSUE2086-PENDING / P2-HOLD / ARIADNE-PRESTART-OPTIONAL / TASK-UNCHANGED`.
+- **Return pin:** `H946:S3 / ASTER / CONDITION-SCOPED-EVIDENCE-MAP / CROSS-CONDITION-VIDEOS / M1-M3-ALIAS / PR1189-EXACT-HEAD-LEAN-PASS / ISSUE2086-PUBLISHED-VERIFIED / P2-HOLD / ARIADNE-PRESTART-OPTIONAL / TASK-UNCHANGED`.
+- Scheduler reconciliation [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1036Z_s3_aster_AMENDMENT_02_PREDECESSOR_AND_SUCCESSOR_RUNSTATE.md): Loom h946:s2 :24 run `34ecfd9e-f84c-8323-a7af-992d6e8b64b8` failed at 10:52:24Z; Aster INBOX has no addressed h946:s3 packet. Ariadne h946:s4 :48 run `1b993c9e-8628-8328-bc4b-aa01228693bb` started 10:50:41Z; original packet and inbox pointer were prestart, publisher-status amendment pointer poststart. Current :36 run `bc7def87-6940-832b-bb41-4612d7018dd6` remains IN_PROGRESS with null completion/chat_ref. No task configuration changed.
+
 
 ---
 
