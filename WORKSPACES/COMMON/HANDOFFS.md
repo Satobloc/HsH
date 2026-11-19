@@ -1,3 +1,10 @@
+### Publisher amendment | 2026-11-19T0541Z
+
+- Kestrel h941:s2 report issue #2064 is PUBLISHED_VERIFIED; workflow #44466620177/job #135365841021 SUCCESS; comment #7000837074; artifact SHA-256 093bb7e66126fdc251c9aa0b595110845f5d035bdaa5c6ef08f7384752e2f8b8.
+- The optional Meridian packet remains timing-unverified repository-only context; no inbox write, direct-thread delivery, consumption or acknowledgment.
+
+---
+
 ## 2026-11-19T0539Z | Kestrel h941:s2 -> Meridian h941:s3 | TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY
 
 - [Optional packet](REVIVAL_ROTATION_HANDOFFS/2026-11-19T0539Z_from_s2_to_s3_meridian_TIMING_UNVERIFIED_OPTIONAL_EVIDENCE_BOUNDARIES.md) summarizes the separate geometry/readout, producer/evidence and repository/reader boundaries.
