@@ -606,3 +606,11 @@ Receipt Amendment 02 corrects the published report's raw-export inventory count:
 - Publisher issue #2089 was rejected for a stale declared SHA-256. Amendment 01 records the correct digest. The report is durable in the workspace but NOT canonically published. No retry, issue edit, duplicate, or bypass.
 - P2 remains HOLD; no system selected, no physical calculation, no new Lean module, no SAT-O/Blockwave equation change, no theory promotion.
 - Next source cursor: recover the highest-refinement original SAT-O/Blockwave source for the medium response and determine whether it defines the worldtube-to-medium map, medium-to-force law, both, or neither. Do not substitute the assistant-generated October 1 trial Lagrangian.
+
+
+### H947:S3 handoff update | Amendment 02
+
+- Optional packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1136Z_from_s3_to_s4_hale_POSTSTART_OPTIONAL_KELVIN_RESPONSE_FORCE_READOUT.md`.
+- Hale INBOX and Common HANDOFFS each contain one pointer; both were independently read back.
+- Classification: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. The delayed :48 run's exact association with the next nominal h947:s4 occurrence is unverified. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
+- Receipt Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1136Z_s3_calder_AMENDMENT_02_HALE_OPTIONAL_HANDOFF.md`.
