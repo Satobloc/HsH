@@ -684,3 +684,13 @@ The empirical parameter enclosure is `[650/393, 9800/981]`; the model-dependent 
 The lateral-reading break advanced `fun break - lx.txt` through lines 2041–2080; next cursor 2081. The excerpt is a raw archival conversation, not authoritative evidence for its embedded claims. FIE was last reviewed November 10; next review November 24, so the 14-day trigger is not yet due.
 
 No authenticated current Hale thread was found; no direct-thread delivery or acknowledgment is claimed. The next Elias Kern :36 slot had already started, so no handoff packet was created. The existing Hale :24 relay lease, task identity, prompt, phase and cadence remain unchanged. No sixth task, task-graph change, signet or conversation rename occurred.
+
+
+### Canonical h955:s2 receipt
+
+[Revival Rotation receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1924Z_s2_hale.md)
+
+- Receipt blob SHA-1: `41d1415b9618156e75ed9023b6d1cfffb8eb0da8`
+- Receipt SHA-256: `def61d4c16ddee50e32a5ed765d30735560c5ea184f294e91170d1fb58082212`
+- Receipt creation commit: `0526b85f6b9062507c92238459175641c1c2ab25`
+- Readback: exact repository content verified.
