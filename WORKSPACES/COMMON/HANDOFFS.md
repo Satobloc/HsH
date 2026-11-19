@@ -890,3 +890,10 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 
 
 - [H946 Aster → Ariadne Amendment 01: publisher verified](REVIVAL_ROTATION_HANDOFFS/2026-11-19T1036Z_from_s3_aster_to_s4_ariadne_AMENDMENT_01_PUBLISHER_VERIFIED.md) — status update only; no assignment or acknowledgment.
+
+
+## H947:S3 -> H947:S4 | Hale | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [Calder H947 Kelvin-response source/force/readout chain](REVIVAL_ROTATION_HANDOFFS/2026-11-19T1136Z_from_s3_to_s4_hale_POSTSTART_OPTIONAL_KELVIN_RESPONSE_FORCE_READOUT.md).
+- Recipient pointer: [Hale INBOX](../HALE/INBOX.md), appended once and read back.
+- Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. The :48 automation had a delayed in-progress run with null chat_ref; exact association with the next nominal h947:s4 occurrence is unverified. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
