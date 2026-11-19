@@ -887,3 +887,6 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 ## H946:S3 → H946:S4
 
 - [Aster → Ariadne optional Kelvin condition-scoped evidence map](REVIVAL_ROTATION_HANDOFFS/2026-11-19T1036Z_from_s3_aster_to_s4_ariadne_PRESTART_OPTIONAL_KELVIN_CONDITION_EVIDENCE_MAP.md) — prestart repository-only context; no assignment, review request, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment.
+
+
+- [H946 Aster → Ariadne Amendment 01: publisher verified](REVIVAL_ROTATION_HANDOFFS/2026-11-19T1036Z_from_s3_aster_to_s4_ariadne_AMENDMENT_01_PUBLISHER_VERIFIED.md) — status update only; no assignment or acknowledgment.
