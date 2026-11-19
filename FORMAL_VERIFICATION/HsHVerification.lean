@@ -12,6 +12,7 @@ import HsHVerification.ArchiveEQ0011
 import HsHVerification.CognitionSourceOverlap
 import HsHVerification.SwitchboardStickyGate
 import HsHVerification.GeometryProvenanceSeparation
+import HsHVerification.GraphEchoOriginMultiplicity
 import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.RevivalEligibilityGate
 import HsHVerification.NadirFrameTelescoping
