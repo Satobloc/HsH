@@ -165,6 +165,16 @@ At 2026-11-14 15:56 America/New_York, every unresolved WH-01 through WH-09 item 
 
 ## H814:s2 Aldus follow-up — WH-02 title fidelity and WH-03 intake candidate (2026-11-13T2302Z)
 
+
+### Current WH-01 reconciliation | 2026-11-19 | h948:s3
+
+- **18:30 partition correction:** the h917:s2 run-list census was complete (27 HsH runs, 6 job records, 21 `NO_JOB_RECORD_RETURNED`) but its four-checkout count omitted two successful checkouts because the compact Jobs API summary omitted step details. Dedicated job-step records and logs now verify both navigation step-2 checkouts; two append-only ledger rows were added. Total for 18:30 is six checkouts, not four. See the h948:s3 correction report.
+- **18:40 partition:** complete per issue #1703 comment #6988572922: 25 HsH runs, 4 job records, 4 verified checkouts, 21 `NO_JOB_RECORD_RETURNED`; next cursor 18:50.
+- **18:50 partition:** run-list complete per issue #1703 comment #6989883182: 100 HsH runs (page 1=100, page 2=0), SAT archive=0, HSH_RESOURCES=1 source-inventory run. Job inspection remains partial: 10 HsH jobs inspected with 10 successful checkout steps, plus 3 cross-repository checkouts from the HSH_RESOURCES inventory job. **79 HsH run-job endpoints remain uninspected.** The 18:50 run-list query already exists; do not repeat it.
+- Ledger correction: 90 -> 92 rows. Four pre-existing 18:30 rows and all 18:40/18:50 rows remain unchanged; only two missing 18:30 checkout events were appended. Traffic attribution, fresh-environment status, and unique actor remain UNKNOWN.
+- **Current WH-01 next action/cursor:** inspect the remaining 79 job endpoints from the already-issued 18:50 run-list result. Do not reissue the 18:50 run-list query. WH-01 remains OPEN / P1-HIGH / Tern-coordinated.
+- WH-02 remains Calder / authorized-maintainer owned. WH-05 remains blocked by four occupied Mersearch lanes; Tern retains controlled-test and release authority. No ownership or priority change.
+
 ### WH-02 | PR #1710 cross-read
 
 - Independent read of exact PR head `a967e908ceab048d219831ec799343643870daf3` found a deterministic chronology-title truncation edge case in `tools/index_conversation_chronology.py` lines 28–41: the generic `Path(name).suffix` fallback strips meaningful dotted text from extensionless titles after the date prefix is removed. Synthetic examples: `H(s)H 2.0 → H(s)H 2`, `SAT-O v1.2 → SAT-O v1`, `Conversation with Dr. X → Conversation with Dr`. No current production file with those exact names was established; this is a code-path counterexample, not a claim of observed source corruption.
