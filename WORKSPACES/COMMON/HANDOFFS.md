@@ -4,6 +4,8 @@
 - Source report: [Elias H955:s3 live Automation peek result-usability adapter](../ELIAS_KERN/2026-11-19T1936Z_H955_S3_AUTOMATION_PEEK_RESULT_USABILITY_ADAPTER.md)
 - Public submission: [issue #2121](https://github.com/Satobloc/HsH/issues/2121), SUBMITTED_NOT_VERIFIED at packet creation.
 - No task, assignment, review request, response obligation, ownership transfer, or direct-thread delivery is created or claimed.
+- Publisher verification amendment: [H955:s3 -> H955:s4 optional packet Amendment 01](REVIVAL_ROTATION_HANDOFFS/2026-11-19T1936Z_from_s3_to_s4_nadir_voss_AMENDMENT_01_PUBLISHER_VERIFIED.md). Issue #2121 is now PUBLISHED_VERIFIED; no assignment or delivery claim.
+
 
 ---
 
