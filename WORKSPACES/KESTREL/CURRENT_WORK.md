@@ -1,3 +1,13 @@
+## h941:s2 | Three boundaries of evidence transport | 2026-11-19
+
+**Report:** [Three boundaries of evidence transport](2026-11-19T0524Z_H941_S2_THREE_BOUNDARY_EVIDENCE_TRANSPORT.md)  
+**Canonical receipt:** [h941:s2 Kestrel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0524Z_s2_kestrel.md)  
+**Publisher:** issue [#2064](https://github.com/Satobloc/HsH/issues/2064), submission kestrel-h941-s2-three-boundary-evidence-transport-20261119t0524z-001, SHA-256 093bb7e66126fdc251c9aa0b595110845f5d035bdaa5c6ef08f7384752e2f8b8. Status SUBMITTED_NOT_VERIFIED at last read, workflow #44466620177 IN_PROGRESS, artifact 404, no retry.  
+**Result:** distinct representational, temporal-provenance and presentation boundaries; exact-head Lean builds exist on PR #873 and #2032, but both branches are 22,416 commits behind main and unmerged. P0 remains ACTIVE; P2 HOLD; no physical result or theory promotion.  
+**Successor:** Meridian, optional Common packet created after nominal :36 slot; timing unverified, no inbox write or cross-thread delivery claim.  
+
+---
+
 ### h933:s4 publisher-status amendment | 2026-11-18
 
 - Issue #2019 posted REJECTED: unexpected payload keys. The intake body omitted required schema and included unsupported target_path. The v1 publisher requires exactly schema, submission_id, content, sha256 and derives its fixed destination.
