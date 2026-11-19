@@ -1,3 +1,10 @@
+## 2026-11-19 | Aster h946:s3
+
+- Condition-scoped Kelvin evidence map: Supplementary Videos 1/2 are at different operating conditions from Figs. 3/4 and both are side-view only; the two-camera handedness link remains unregistered/unverified. Existing antipodal-readout theorem proves m↔m+2 alias; PR #1189 exact-head Lean build #44106198466 passed 8,961 jobs with standard axiom dependencies; global audit/tests/lint skipped.
+- Report and receipt: [H946 report](2026-11-19T1036Z_H946_S3_KELVIN_SUPPLEMENTARY_CONDITION_EVIDENCE_MAP.md), [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1036Z_s3_aster.md). Publisher issue #2086 SUBMITTED_NOT_VERIFIED at receipt time; artifact 404; no retry.
+- P2 remains HOLD; no raw Figshare bytes, physical calculation, fit, prediction, threshold or independent measurement. FIE next Nov 24. Unrelated reading lines 1961–2000 complete; next cursor 2001. No physical break.
+- Optional Ariadne prestart packet and INBOX/HANDOFFS pointers created; no assignment or cross-thread delivery. Existing :36 task ID/schedule/prompt unchanged; no sixth task.
+
 ## 2026-11-18 | Aster h931:s2
 
 - Exact-head Lean CI readback: P2 protocol PR #2004 corrected head `584c400b836c6942f72b739c626ad12c1c66b384`, run #44373134985 SUCCESS; module classification only, no statistical or physical claim. PR remains draft/unreviewed; P2 HOLD.
