@@ -38,7 +38,7 @@ theorem no_ratio_satisfies_both
     le_trans hShooting.1 hMeasuredBox.2
   norm_num [shootingRatioLower, ratioUpper] at h
 
-/- The model-inferred lower endpoint exceeds the empirical-box upper endpoint by 981/245. -/
+/- The model-inferred lower endpoint is a factor of 981/245 above the empirical-box upper endpoint. -/
 #eval shootingRatioLower / ratioUpper
 
 #print axioms instantaneousAdaptationIntervals_disjoint
