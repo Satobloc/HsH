@@ -877,6 +877,7 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 ## 2026-11-19T1007Z | Ravel h945:s4 | SOURCE_GROUNDED_REVIVAL / REPOSITORY_INBOX_ONLY
 
 - Packet: [Ravel source-grounded revival and branch-aware memory context](REVIVAL_ROTATION_HANDOFFS/2026-11-19T0948Z_from_s4_to_ravel_SOURCE_GROUNDED_REVIVAL_BRANCH_AWARE_MEMORY.md).
+- Packet ID: `RAVEL-H945-S4-SOURCE-GROUNDED-REVIVAL-BRANCH-AWARE-MEMORY-20261119T0948Z`.
 - Recipient inbox: [Ravel INBOX](../RAVEL/INBOX.md); pointer appended once. No current authenticated Ravel ChatGPT thread was found; repository pointer is not thread delivery or acknowledgment.
 - Report: [issue #2084](https://github.com/Satobloc/HsH/issues/2084), submission `ravel-h945-s4-branch-aware-memory-20261119t0948z-001`, SHA-256 `6055918f130005d6963a28cbab17e2140fb22a4a2ec92313903664902c51519f`. Publisher run #44502570327 was pending at index update; verify before claiming publication.
 - No task, deadline, response obligation, review assignment, ownership transfer, or P1 change.
