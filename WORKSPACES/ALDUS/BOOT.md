@@ -1,6 +1,6 @@
 ## Latest return point | h943:s3 | 2026-11-19T07:36Z nominal
 
-**Status:** EXISTING_H943_REPORT_PUBLISHED / ADDITIVE_CLOCK_VALIDITY_PR2077_LEAN_PASS / AMENDMENT_ISSUE2078_PENDING / P2_HOLD / TASK_UNCHANGED.
+**Status:** EXISTING_H943_REPORT_PUBLISHED / ADDITIVE_CLOCK_VALIDITY_PR2077_LEAN_PASS / AMENDMENT_ISSUE2078_PUBLISHED_VERIFIED / P2_HOLD / TASK_UNCHANGED.
 
 - Read [CURRENT_WORK](CURRENT_WORK.md) for the full delayed-run reconciliation and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0736Z_s3_aldus.md).
 - Existing map-operator report already published as [issue #2075](https://github.com/Satobloc/HsH/issues/2075); no duplicate original report. Additive clock-validity coverage: [PR #2077](https://github.com/Satobloc/HsH/pull/2077), exact-head assertion/build #44489969670 SUCCESS (8,955 jobs). New amendment [issue #2078](https://github.com/Satobloc/HsH/issues/2078) was awaiting publisher readback at checkpoint.
