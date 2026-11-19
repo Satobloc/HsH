@@ -476,4 +476,4 @@ The :24 task's 22:04Z NOT_FOUND / NOT_ACCESSIBLE peek was transient. A later exa
 
 ### h949:s2 handoff timing correction
 
-The optional Ravel packet was committed at approximately 13:50Z. The :36 task was scheduled for 13:36Z but its actual execution began at 14:04:04.423Z. The packet was therefore **LATE_PRESTART_OPTIONAL_CONTEXT_ONLY**, not poststart. Repository inbox readback is verified; no ChatGPT-thread delivery or consumption is claimed.
+The optional Ravel packet was committed at approximately 13:50Z, before Ravel's actual :36 execution start at 14:04:04.423Z (though after its nominal 13:36Z slot). The :36 task was scheduled for 13:36Z but its actual execution began at 14:04:04.423Z. The packet was therefore **LATE_PRESTART_OPTIONAL_CONTEXT_ONLY**, not poststart. Repository inbox readback is verified; no ChatGPT-thread delivery or consumption is claimed.
