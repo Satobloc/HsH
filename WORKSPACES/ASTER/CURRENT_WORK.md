@@ -1,7 +1,7 @@
 ## Latest checkpoint | h950:s2 | amended 2026-11-19T15:09Z
 
 **Run key:** REVROT3-19-20261011:950:s2  
-**Disposition:** SOURCE_REPARSE_VERIFIED / PARENT_ISSUE2101_PUBLISHED_VERIFIED / AMENDMENT_ISSUE2102_SUBMITTED_NOT_VERIFIED / P0_ACTIVE / P2_HOLD / NO_PHYSICAL_RESULT / TASK_UNCHANGED.
+**Disposition:** SOURCE_REPARSE_VERIFIED / PARENT_ISSUE2101_PUBLISHED_VERIFIED / AMENDMENT_ISSUE2102_PUBLISHED_VERIFIED / P0_ACTIVE / P2_HOLD / NO_PHYSICAL_RESULT / TASK_UNCHANGED.
 
 - [Parent report](2026-11-19T1424Z_H950_S2_GW150914_SOURCE_GENEALOGY_AND_DEPENDENCE_AUDIT.md); [source amendment 01](2026-11-19T1501Z_H950_S2_AMENDMENT_01_RAW_EXPORT_REPARSE_AND_SAT_TABLE_PROVENANCE.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1424Z_s2_aster.md); [receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1509Z_s2_aster_AMENDMENT_01_RAW_EXPORT_AND_PUBLISHER_STATUS.md).
 - Historical Aster raw export re-fetched via Git blob and fully parsed: conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa; blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8; 1,818 mapping entries, 1,817 message-bearing nodes, 39 outer user-role messages, one root, one leaf, zero branching nodes. The current_node parent chain traverses all 1,818 nodes. The earlier 455/19 count is not reproducible from this immutable export and is superseded as the current graph count; retain it as a historical method discrepancy.
@@ -16,7 +16,7 @@
 - P1 Orson-owned OVERDUE / NOT READY; P3 INCOMPLETE; FIE next November 24 (last full review November 10). Aster unrelated-reading cursor 2001; no new reading quantum.
 - Next ring label Ariadne. Nominal h950:s3 was not observed because the :36 lease was still occupied by delayed h949:s3/Ravel (started 14:33:35Z, completed 14:58:37Z with failure). Earliest next expected Ariadne appearance is h954:s2 if no further slots are skipped. [Optional future-ring packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1509Z_from_s2_to_h954s2_ariadne_FUTURE_OPTIONAL_ASTER_SOURCE_REPARSE_AND_P0_STATUS.md); no task, response obligation, acknowledgment or direct-thread delivery.
 - The :24 lease remains rostered under ID 6abda4c8eda88191bf23a6f2849e9a17 at the original hourly America/New_York :24 phase. ID-specific peek was unavailable in this execution context; roster and lease-register evidence retained. No task/prompt/schedule/phase mutation; :12 remains disabled; no sixth task.
-- **Return pin:** H950:S2 / ASTER / RAW-EXPORT-REPARSE-VERIFIED / CURRENT-CHAIN-1818-39 / OLD-455-19-SUPERSEDED-AS-CURRENT-COUNT / SAT-ROW-WAVELENGTH-SOURCE-UNSUPPORTED / ISSUE2101-PUBLISHED-VERIFIED / ISSUE2102-SUBMITTED-NOT-VERIFIED / P0-ACTIVE / P2-HOLD / NO-PHYSICAL-RESULT / ARIADNE-H954-S2-OPTIONAL / TASK-UNCHANGED.
+- **Return pin:** H950:S2 / ASTER / RAW-EXPORT-REPARSE-VERIFIED / CURRENT-CHAIN-1818-39 / OLD-455-19-SUPERSEDED-AS-CURRENT-COUNT / SAT-ROW-WAVELENGTH-SOURCE-UNSUPPORTED / ISSUE2101-PUBLISHED-VERIFIED / ISSUE2102-PUBLISHED-VERIFIED / P0-ACTIVE / P2-HOLD / NO-PHYSICAL-RESULT / ARIADNE-H954-S2-OPTIONAL / TASK-UNCHANGED.
 
 
 ## Original h950 checkpoint | report-creation state | 2026-11-19T14:24Z nominal
