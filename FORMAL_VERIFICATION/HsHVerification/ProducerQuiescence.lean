@@ -9,38 +9,56 @@ wrapper. The wrapper currently proves prediction-seal-before-holdout-unblinding.
 It does not carry a producer-run completion event or prove that the producer
 was quiescent before the prediction was sealed.
 
-The first theorem is conditional: if the exact producer completion interval is
-definitely before the prediction-seal interval, and the seal is definitely
-before holdout unblinding, then completion is definitely before unblinding.
+The interval-order theorems below are conditional on source-bound
+`TimeInterval` values whose clock domain and scale are already known and
+comparable. They establish that strict interval separation orders every
+admissible event time, not merely the interval endpoints.
 
-The second theorem is an abstract order counterexample showing that
-seal-before-unblinding alone does not imply producer completion-before-
-unblinding. Its ordinal points are a logical witness only, not physical times,
-measurements, or a fabricated physical fixture.
+This module deliberately uses no concrete timestamps, numeric witness,
+`#eval` fixture, or empirical claim. The previous exact-point witness was
+removed because it encoded an ordinal as UTC/Unix-seconds and was not a
+source-backed measurement.
 
-Neither theorem authenticates event records, binds events to one provider run,
-proves complete access logging, proves holdout inaccessibility, or validates
-any physical model.
+These proofs do not authenticate event records, bind events to one provider
+run, validate interval bounds or clock calibration, prove complete access
+logging, prove holdout inaccessibility, or validate any physical model.
 -/
 
 namespace HsHVerification.ProducerQuiescence
 
 open HsHVerification.AldusTemporalProvenance
 
-/-- An abstract exact point in a named, known clock domain and scale.
-    The ordinal argument has no physical-time interpretation. -/
-def exactPoint (t : Nat) : TimeInterval :=
-  { clockDomain := ClockDomain.utcEpoch
-    clockScale := ClockScale.unixSeconds
-    lower := t
-    upper := t
-    ordered := Nat.le_refl t }
+/-- If two source-bound intervals are definitely ordered in the same known
+    clock domain and scale, every pair of admissible times they contain has
+    that order. -/
+theorem definitelyBefore_orders_every_admissible_time_pair
+    {earlier later : TimeInterval}
+    (hBefore : definitelyBefore earlier later)
+    {tEarlier tLater : Nat}
+    (hEarlier : earlier.lower ≤ tEarlier ∧ tEarlier ≤ earlier.upper)
+    (hLater : later.lower ≤ tLater ∧ tLater ≤ later.upper) :
+    tEarlier < tLater := by
+  exact Nat.lt_of_le_of_lt hEarlier.2
+    (Nat.lt_of_lt_of_le hBefore.2 hLater.1)
 
-/-- Conditional producer-quiescence chain:
-    completion before seal, and seal before unblinding, imply completion
-    before unblinding. The supplied intervals must already be source-bound
-    to the same producer execution and comparison; this theorem does not
-    establish that binding. -/
+/-- Conditional producer-quiescence chain: if completion is definitely before
+    sealing, and sealing is definitely before unblinding, then every
+    admissible completion time precedes every admissible unblinding time. -/
+theorem producer_completion_before_unblinding_for_all_admissible_times
+    {completed predictionSealTime unblindingTime : TimeInterval}
+    (hCompletedBeforeSeal : definitelyBefore completed predictionSealTime)
+    (hSealBeforeUnblinding : definitelyBefore predictionSealTime unblindingTime)
+    {tCompleted tUnblinding : Nat}
+    (hCompleted : completed.lower ≤ tCompleted ∧ tCompleted ≤ completed.upper)
+    (hUnblinding : unblindingTime.lower ≤ tUnblinding ∧
+      tUnblinding ≤ unblindingTime.upper) :
+    tCompleted < tUnblinding := by
+  have hCompletedBeforeUnblinding :=
+    definitelyBefore_transitive hCompletedBeforeSeal hSealBeforeUnblinding
+  exact definitelyBefore_orders_every_admissible_time_pair
+    hCompletedBeforeUnblinding hCompleted hUnblinding
+
+/-- Conditional interval-level chain retained from the original module. -/
 theorem producer_completion_before_seal_and_seal_before_unblinding
     {completed predictionSealTime unblindingTime : TimeInterval}
     (hCompletedBeforeSeal : definitelyBefore completed predictionSealTime)
@@ -50,23 +68,8 @@ theorem producer_completion_before_seal_and_seal_before_unblinding
     hCompletedBeforeSeal
     hSealBeforeUnblinding
 
-/-- The existing seal-before-unblinding condition alone is insufficient.
-    This is a pure order-theoretic counterexample, not an empirical fixture. -/
-theorem seal_before_unblinding_does_not_imply_producer_completion_before_unblinding :
-    ∃ completed predictionSealTime unblindingTime : TimeInterval,
-      definitelyBefore predictionSealTime unblindingTime ∧
-      ¬ definitelyBefore completed unblindingTime := by
-  refine ⟨exactPoint 3, exactPoint 1, exactPoint 2, ?_, ?_⟩
-  · simp [definitelyBefore, sameKnownClock, exactPoint]
-  · intro h
-    have hlt : 3 < 2 := by
-      simpa [definitelyBefore, exactPoint] using h.2
-    omega
-
-#eval compareIntervals (exactPoint 1) (exactPoint 2)
-#eval compareIntervals (exactPoint 3) (exactPoint 2)
-
+#print axioms definitelyBefore_orders_every_admissible_time_pair
+#print axioms producer_completion_before_unblinding_for_all_admissible_times
 #print axioms producer_completion_before_seal_and_seal_before_unblinding
-#print axioms seal_before_unblinding_does_not_imply_producer_completion_before_unblinding
 
 end HsHVerification.ProducerQuiescence
