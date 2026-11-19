@@ -330,3 +330,11 @@ The earlier P0/WH-02 comments calling #1931 a published report were corrected by
 - First exact-head Lean run #44472753653 failed in the final conjunction theorem because rfl did not split/prove the conjunction. The failed declaration printed sorryAx; do not call that theorem verified. The other three theorems had no axiom dependencies; #eval outputs were true/true. The same PR was corrected with simp [beneficialConsultative], commit cdb12cba55e48cbd21e459442c71bfc81e8e16a4. Corrected exact-head run #44473388114 was IN_PROGRESS at the last check.
 - Amendments: [publisher readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0548Z_s4_mercer_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) and [Lean failure/correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0548Z_s4_mercer_AMENDMENT_02_LEAN_FIRST_RUN_FAILURE_AND_CORRECTION.md).
 - Factory Floor remains not eligible: no precise geometric plot or hostile plot review. No intake, merge, or BEDROCK promotion.
+
+
+### h941:s4 cross-lane QC amendment (2026-11-19)
+
+- [Cross-lane QC and Mersearch state](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0548Z_s4_mercer_AMENDMENT_03_CROSS_LANE_QC_AND_MERSEARCH_STATE.md) records Ravel h942:s0 publication, Sable h942:s2 publication, Loom h942:s3 in-progress state, and replayed exact-head Lean results for Kestrel PRs #873/#2032 and Meridian PR #2065.
+- Physical boundary preserved: Meridian's corrected clock theorem is a shared-map order result, not calibration; Kestrel's Kelvin-vortex values are source-reported conversions from paired contours, not independent acquisitions; the older reciprocal filament/timesheet-deformation sketch is superseded by later Nathan Direct clarification. No selected calibrated physical system, raw acquisition, covariance, holdout, fit, prediction, or independent measurement.
+- Four Mersearch request files remain requested; Sable h942:s2 reports all twelve request-scoped manifest/receipt paths absent. No lane mutation or Mersearch search is claimed.
+- No cross-agent consensus: ring labels and repository artifacts are not authenticated independent workers. Current h942:s2 and h942:s3 runs remain in progress with stale prior-hour cached results.
