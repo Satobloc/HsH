@@ -1,3 +1,14 @@
+# H938:S4 AMENDMENT 02 — Aster optional context packet
+
+Packet created and exact-readback verified:
+WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0304Z_from_s4_to_s0_aster_TIMING_UNRESOLVED_OPTIONAL_CONTEXT.md
+Git blob: 13d2b5100b02e1f8d6594d78ac2db179a91dbbe1; 3,286 characters.
+Next ring label Aster; run key REVROT3-19-20261011:939:s0. The :00 task's h938:s0 run remained IN_PROGRESS with null completion/chat_ref, so packet timing is unresolved. No direct delivery, consumption, or acknowledgment is claimed. The Aster INBOX pointer update is the final handoff operation.
+
+See receipt amendment 02: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0248Z_s4_loom_AMENDMENT_02_ASTER_OPTIONAL_CONTEXT_PACKET.md.
+
+---
+
 # H938:S4 AMENDMENT 01 — 2026-11-19
 
 **Superseding status:** Lean exact-head CI PASS; publisher REJECTED_SCHEMA / NOT_PUBLISHED. See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0248Z_s4_loom_AMENDMENT_01_LEAN_CI_PASS_AND_PUBLISHER_REJECTION.md.
