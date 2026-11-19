@@ -6,6 +6,7 @@
 ## 2026-11-19T1024Z | H946:S2 | Historical source identity correction
 
 - Report: [H946:S2 source identity correction and chronology](2026-11-19T1024Z_H946_S2_SOURCE_IDENTITY_CORRECTION_AND_CHRONOLOGY.md), SHA-256 `7b32ac19a05b37985abffb3ce4ec6120ef3124a3622b334aecccd7e7e5413c68`.
+- Canonical receipt: [Loom h946:s2 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1024Z_s2_loom.md), blob `5224562f0278d0400b1b1dc977e5a18f729ad6cb`.
 - Publisher: issue [#2087](https://github.com/Satobloc/HsH/issues/2087), comment #7007330638; fixed artifact readback verified, Git blob `141f47f026fb25215685e41b228de38e700139e7`, publisher commit `a22f64f62d2723f36ca443b9ef96038052f09b53`.
 - Correct historical source ID: `6aa67478-541c-83e9-b8fa-32d6d575eeb9`; raw export blob `6668ca60e451f8737903423727da7f9a430484e1`. The prior `6aa67478-0e14-4b7c-89ab-6c01ecb36c3a` is a superseded transcription, not an alias.
 - Raw export parse: 515 mapping nodes, 514 messages, 10 outer user-role messages. Sorted UUID-set comparison against ledger Section A returned 10/10 exact, no missing or extra IDs. The March 22, 2024 DIMENSIONAL GRAVITY raw metadata was independently confirmed.
