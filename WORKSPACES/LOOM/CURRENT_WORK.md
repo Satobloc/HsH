@@ -12,6 +12,7 @@
 - Raw export parse: 515 mapping nodes, 514 messages, 10 outer user-role messages. Sorted UUID-set comparison against ledger Section A returned 10/10 exact, no missing or extra IDs. The March 22, 2024 DIMENSIONAL GRAVITY raw metadata was independently confirmed.
 - Source revalidation ledger corrected and amended; BOOT/CONTINUITY/CHECKPOINT/CURRENT_WORK current pointers now surface the corrected ID. Historical h938/h942 reports remain unchanged; their canonical receipts carry correction amendments.
 - No global tag dictionary changes; Mercer retains global precision/selectivity QA. No physical calculation, CODATA comparison, Lean proof, or theory promotion.
+- P0/WH-02 final source-state readback: 8/8 protected P0 blobs exact; current discovery still exposes raw workspace reader targets (16,177 docs / 9,245 workspace / 9,245 readers / 9,016 excerpts; A/B targets remain, B excerpt 1,400 chars). PR #2009 is 3 ahead / 727 behind; PR #1710 is 7 ahead / 6,144 behind. Status comments: [#1747 comment #7007457719](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7007457719) and [#1702 comment #7007458349](https://github.com/Satobloc/HsH/issues/1702#issuecomment-7007458349). No rebase, merge, deployment, or ownership change.
 - Next ring label Aster. Aster's h946:s3 run was already completed before this correction was ready; no task or response obligation was sent and no cross-thread delivery/consumption is claimed.
 
 ---
