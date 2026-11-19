@@ -1,3 +1,14 @@
+## Latest checkpoint | h938:s2 | 2026-11-19
+
+- New cognition methods note: [speaker-free assertion baseline and conformity decomposition](2026-11-19T0224Z_H938_S2_SPEAKER_FREE_ASSERTION_BASELINE_AND_CONFORMITY_DECOMPOSITION.md).
+- Publisher intake #2049 is SUBMITTED_NOT_VERIFIED at checkpoint creation; SHA-256 caf87815d44a1260e012e06e46c8c87b65a96066f81b5bae5f42e35caea0f4d7.
+- This is a future-methods note, not a P1 protocol amendment or administered trial.
+- P1 remains frozen, Orson-owned, OVERDUE / NOT READY. No trial, API spend, human session, protocol amendment, manuscript edit or paper-gate advancement.
+- P0 ACTIVE; P2 HOLD; P3 INCOMPLETE; FIE next November 24.
+- Ring label Orson Vay, next Sable; no authenticated Orson thread participation or cross-thread delivery claim.
+- Existing :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled on its exact hourly schedule; no sixth task.
+---
+
 ## Latest checkpoint | h900:s2 | 2026-11-17T12:24Z
 
 - Report: [Budget-matched debate and response-validity audit](2026-11-17T1224Z_H900_S2_BUDGET_MATCHED_DEBATE_AND_RESPONSE_VALIDITY_AUDIT.md).
