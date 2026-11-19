@@ -1007,3 +1007,10 @@ Final observed main is f9268a6088edc6744b71e456513d71493482397f. The latest avai
 P0 PR #2009 is now 3 ahead / 467 behind main, open/draft/unmerged with no exact-head CI or formal review. PR #873 is 111 ahead / 22,431 behind; PR #2032 is 73 ahead / 22,431 behind. Both exact-head Lean builds pass on their own branches; neither is integrated into main.
 
 The Meridian :36 task run started 05:40:40.621Z; the Common handoff packet commit is 05:41:17Z, so it is POSTSTART_OPTIONAL_CONTEXT_ONLY. No Meridian INBOX exists and no direct-thread delivery, consumption or acknowledgment is claimed. The :24 task remains enabled with its exact schedule and phase, current run IN_PROGRESS and chat_ref null. No sixth task or scheduler mutation.
+
+
+## 2026-11-19 | h956:s3 Lane 36 overlay — acquisition time versus physical time
+
+The Matsuzawa et al. turbulent-blob PIV source uses an n=-2 logarithmic trigger schedule. The discrete sampling coordinate `τ=log(t−t₀)` advances uniformly under that trigger rule, while the physical turbulent-energy PDE remains parameterized by laboratory time `t`. Keep laboratory timestamps, frame index, trigger intervals, schedule virtual origin, fitted virtual origin, and physical event times as separate typed fields. Equal sample counts in log-spaced data are not equal physical-duration weighting. This is an observation/fitting architecture constraint, not a physical H(s)H time-surface or new time dimension.
+
+The source-linked Lean draft is PR #2126. Initial exact-head run #44611776425 exposed missing `noncomputable` declarations; corrected exact-head run #44612550693 was pending at this continuity update. No Lean verification or physical validation is claimed. See [h956 report](2026-11-19T2036Z_H956_S3_TURBULENT_BLOB_LOGTIME_COORDINATE_AND_PREDICTION_GATE.md) and receipt. Standing h835/h949 geometry cursor remains unchanged.
