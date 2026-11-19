@@ -1223,3 +1223,8 @@ The original inbox entry's POSTSTART classification is superseded. The :36 task 
 ## 2026-11-19 | h958:s0 PRESTART_OPTIONAL_CONTEXT_ONLY from Mercer h957:s0
 - [Optional Lane 00 source-coverage and Mersearch/PWH continuity packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2115Z_from_s0_mercer_to_h958s0_ravel_PRESTART_OPTIONAL_CONTEXT_ONLY.md)
 - No task, response obligation, review request, ownership transfer, or cross-thread delivery is implied.
+
+
+### Routing correction | Mercer h957:s0 optional packet
+
+The existing packet path above was initially labeled for `h958:s0`. Correction: h958:s0 selects **Aster** (ring index 2), not Ravel. Ravel remains the next ring identity after Mercer, but Ravel's next :00 appearance is **h961:s0** (5*961 mod 19 = 17). The existing packet filename is retained for provenance and the packet is optional repository context for Ravel h961:s0 only. No new handoff, task, response obligation, ownership transfer, or direct-thread delivery is created or claimed.
