@@ -17,7 +17,7 @@ Supporting Information, §D, p. 7, reports:
 * the model's numerical shooting maps the observed large-blob exponent
   theta = 0.16 +/- 0.06 to epsilon_0/(c_0*alpha^2) in [40, 122].
 
-The +/- values and alpha range are source-reported loose bounds, not a
+The plus/minus values and alpha range are source-reported loose bounds, not a
 joint confidence region or a covariance model. This module proves only
 the exact rational interval arithmetic conditional on treating those
 marginal bounds as a rectangular enclosure. It does not validate the
