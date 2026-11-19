@@ -1,3 +1,48 @@
+# Latest checkpoint | h948:s0 | 2026-11-19T12:00Z
+
+**Status:** `PUBLISHED_VERIFIED`; source-grounded scheduled execution, not an authenticated Elias thread. This is a one-run Lane 00 source-fidelity overlay, not a permanent role change.
+
+## Durable outputs
+
+- [Public report #2093](https://github.com/Satobloc/HsH/issues/2093)
+- [Canonical published artifact](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-h948-s0-tracka-topology-fidelity-20261119t1200z-001.md)
+- SHA-256: `e25029f1f3b8f079be9005026f4e313d8370eb06ebb8c113e9a8212ee970f725`; UTF-8 bytes: 16,235.
+- [Canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1200Z_s0_elias_kern.md)
+- [Amendment 01: publisher readback verified](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1200Z_s0_elias_kern_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md)
+- Publisher run #44527069736 completed SUCCESS; issue envelope and artifact content matched exactly; publisher SHA, issue envelope SHA, and UTF-8 byte count agreed.
+
+## Source-fidelity result
+
+The preserved Nathan Direct Track A instruction names the Top/Central/Branch/Hydra prototype and requires one bounded real-work mechanism per lease, durable receipt/failure evidence, observed behavior rather than intent, and no production-authority inference. The raw originating conversation UUID/message UUID and a standalone signed Elias charter remain unrecovered; the workspace README is an assistant-maintained summary.
+
+The direct organizational description supports a relational worker/clearinghouse network: local worker workspace/inbox/role/current-work context, central workflow coordination, Sable/Tern coordination, and independent-but-communicating Track A/Track B. It does not specify a complete graph, node/edge types, authority relation, transition function, metric, embedding, or layer composition. The four labels are direct; their typed semantics are not.
+
+The assistant-built prototype supplies TOP/CENTRAL/BRANCH/HYDRA and a separate THREADING state model. The code returns wake, branch-plan, and Hydra-plan outputs from shared state. It does not compose the branch result into Hydra. Hydra emits bounded spawn/rewrite descriptors; it does not recursively execute or dispatch workers. `share=false` is a label, not an access-control proof. The prototype is a planner/state transformer, not a scheduler.
+
+No unique Nathan Direct typed map exists to formalize. Existing PR #951 is OPEN/DRAFT/UNMERGED; current head `f9fa0aad45408ab06e5430c834530854746235f0` has no exact-head standalone verification. Earlier exact-head success applied to an older head; latest recorded success was merge-reference. No new Lean module/run and no exact-byte POC runtime replay were performed. No POC/PR/adapter changes while Track B `ELIAS-2224` remains pending.
+
+## SAT-O1 / Blockwave custody
+
+- SAT-O1 unbylined `SAT O1 4D.txt`: blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`; SHA-256 `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937`; file-index timestamp 2025-06-09 18:44:50 (timezone unspecified); root archive copy first Git appearance 2025-10-27, MISC copy 2026-09-04. It defines a 1D curve and action while prose describes a swept 4D support; the thickening map is absent.
+- `🧱BLOCKWAVE.txt`: blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`; SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`; attachment event 2025-09-16T16:31:26.687Z; HsH archive copy 2026-10-08. User-supplied attachment, but embedded prose is assistant-voiced; the `J^{\\mu\\nu}` current is assistant-origin, not Nathan Direct.
+- Separate historical `BLOCKWAVE EXTENSION` and `SAT—Blockwave Ideal Model` are distinct and do not supply that `J^{\\mu\\nu}` current.
+- Standard-convention candidates are listed separately in report #2093. No original equation was changed; no physical validation or CODATA scoring.
+
+## Controls and next cursor
+
+- Mersearch action unavailable; no local pinned checkout. Four documented request lanes remain `requested`, with no request-scoped manifests/receipts; no lane overwritten or retriggered. GitHub/Library fallback only.
+- HsH task graph remains ACTIVE_SEED, 16 declared branches / 18 records; discrepancy unresolved.
+- P0 Code Grurple ACTIVE; P1 Nov 9 OVERDUE / NOT READY and Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE next review Nov 24; not due.
+- Unrelated reading: SAT archive `MIX TAPES.txt`, lines 301-340; next cursor 341. No physical/posture break claimed.
+- No physical calculation, fit, prediction, independent measurement, CODATA, paper-gate advancement, theory promotion, new tool/fork/dependency, task mutation, schedule change, task-ID change, sixth task, signet, or chat rename.
+- Ring: h=948, seq=4740, Elias Kern index 9; next ring identity Nadir Voss index 10. Next scheduled :24 slot is Enheduanna index 11. Nadir's inbox is the repository-only handoff route; no Nadir thread delivery is claimed.
+
+**Next cursor:** recover the raw originating Top/Central/Branch/Hydra conversation; obtain a Nathan Direct typed node/edge/authority specification; define projection and composition maps with conditions; then formalize the source-grounded graph translation and test actual isolation/recurrence behavior. Keep Track A sandbox-only until Track B disposition.
+
+**Automation:** no scheduler write. Existing :00 task ID remains recorded as `6aa1fe0de5e48191b886496095b1343f`; no sixth task. Fresh ID-specific scheduler peek unavailable in this runtime; the scheduled execution context retains the existing hourly America/New_York :00 VEVENT.
+
+---
+
 # Latest checkpoint — h913:s4 — 2026-11-18T01:48Z
 
 **Rotation:** Elias Kern (index 9); Nadir Voss next (index 10). Run key REVROT3-19-20261011:913:s4. Source-grounded reconstruction only; no authenticated Elias thread/instance or cross-thread handoff.
