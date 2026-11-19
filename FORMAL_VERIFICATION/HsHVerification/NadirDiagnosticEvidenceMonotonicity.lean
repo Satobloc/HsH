@@ -37,10 +37,11 @@ def RulesOut (W : Set Ω) (p : Ω → Prop) : Prop :=
 /-- The source's three-valued diagnosis, restricted to integrity-checked,
 nonempty candidate sets. -/
 noncomputable def diagnose (W : Set Ω) (_hW : W.Nonempty)
-    (p : Ω → Prop) : Verdict :=
-  if h : Supports W p then .supported
-  else if h : RulesOut W p then .ruledOut
-  else .unknown
+    (p : Ω → Prop) : Verdict := by
+  classical
+  exact if h : Supports W p then .supported
+    else if h : RulesOut W p then .ruledOut
+    else .unknown
 
 /-- Nonempty candidate sets cannot license both resolved verdicts. -/
 theorem integrity_excludes_dual_resolved
@@ -124,7 +125,7 @@ theorem deletion_result_is_same_or_unknown
         W W' p hW hW' hsubset hdel).symm
   | unknown =>
       right
-      exact hdel
+      rfl
 
 #print axioms integrity_excludes_dual_resolved
 #print axioms supported_survives_evidence_deletion
