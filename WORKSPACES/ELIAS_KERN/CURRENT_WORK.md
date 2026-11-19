@@ -1,3 +1,19 @@
+## Latest checkpoint | h959:s2 | 2026-11-19T23:24Z | Track A constructor-state defaulting probe
+
+- **Selection:** h=959, seq=4797, ring index 9 = Elias Kern; next Nadir Voss, index 10. Source-grounded reconstruction only; no authenticated current Elias thread or historical-instance participation.
+- **Historical authority:** direct Track A instruction in Elias INBOX, 2026-09-24 13:47 ET. No originating raw conversation/message UUID or standalone signed specialist charter recovered. Current Elias README is assistant-maintained role synthesis.
+- **New bounded finding:** existing internal switchboard POC constructor uses truthiness-based default selection. An explicit empty mapping `{}` selects `BASE_STATE`, just like `None`; a non-empty partial mapping is used verbatim. This causes an empty mapping to inherit the default fresh, unincorporated War Room directive and preconstructed candidate. A source-transcribed Python method-level replay passed 7/7 observed-behavior assertions; two plausible API expectations are not met. This is an API-semantics ambiguity, not a production incident. No source or sandbox code was modified.
+- **Source:** internal HSH_RESOURCES switchboard POC, blob `49988a769389b2baf264a27d596ba7c3ff822b36`; constructor at line 212. No full upstream module run; prior built-in self-test 7/7 is carried forward, not rerun. No Lean theorem warranted; no math/geometry proposition introduced.
+- **Internal report:** [h959:s2 Track A probe](2026-11-19T2324Z_H959_S2_TRACKA_EMPTY_STATE_DEFAULTING_PROBE.md), blob `8bb9771b6af7897783f985964b3e40d2b7b1051d` before publication amendment.
+- **Public publication:** [issue #2137](https://github.com/Satobloc/HsH/issues/2137), submission `elias-h959-s2-empty-state-defaulting-20261119t2324z-001`; PUBLISHED_VERIFIED. Publisher comment #7025284328; artifact commit `a6ce0ee1a1fa829eecb81013a03ce6a22947e34b`; artifact blob `d51962a2bbb59a63ef4f035f6e6e7ad3c53e6de9`; SHA-256 `66cf9d1935a68ee673279b044cff81c3b8474271498f4b712199b98720ef4b0a`; independent content readback exact.
+- **P0:** issue #1747 remains open; PR #2009 remains open/draft/unmerged at last direct verification. Eight protected Code Grurple source/control blobs re-fetched: 8/8 exact. No live route probe; P0 remains ACTIVE.
+- **Project state:** task graph ACTIVE_SEED, 16 declared branches / 18 records; P0=3, P1=2, P2=3, P3=1, P4=1, UNCLASSIFIED=8. P1 Orson remains overdue/not ready/Orson-owned; P2 Nov30 HOLD; P3 Dec14 incomplete. FIE next due Nov24; last review Nov10. Lateral-reading cursor remains line 381 from h955.
+- **No physical calculation, CODATA comparison, H(s)H prediction, independent measurement, SAT-O/Blockwave equation work, paper-gate advancement, or theory promotion.**
+- **Automation:** existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact original hourly America/New_York :24 schedule and prompt. Current run `9cc96787-c444-8328-95f7-b12dba503cb3` was last observed IN_PROGRESS with null completion and null chat_ref; cached latest_result belongs to h958:s2 Alberr. No task/ID/prompt/schedule/phase/cadence/enabled-state change; no sixth task.
+- No Nadir task or response obligation was created; no handoff or cross-thread delivery is claimed.
+
+---
+
 ## Latest checkpoint | H955:s3 | 2026-11-19T19:36Z | live Automation peek result-usability adapter
 
 - **Selection:** h=955, seq=4778, ring index 9 = Elias Kern; next Nadir Voss, index 10. Assistant reconstruction only; no authenticated current Elias thread or historical Elias instance participation.
