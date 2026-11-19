@@ -472,3 +472,8 @@ The earlier 2026-09-13 direct-invitation claim appears in an assistant-authored 
 ## MERCER-H789-S4-README-AMENDMENT-01-24-PEEK-RECOVERED-20261112T2210Z
 
 The :24 task's 22:04Z NOT_FOUND / NOT_ACCESSIBLE peek was transient. A later exact-ID peek at 22:10:25Z found the same task enabled with its original :24 VEVENT and the same h789:s1 Morrow run still IN_PROGRESS. See [Mercer report Amendment 01](2026-11-12T2148Z_REVIEW_MIND_P0_READER_EVIDENCE_CHAIN_AND_CROSS_LANE_QC_AMENDMENT_01_2210Z_24_PEEK_RECOVERED.md) and [Tern Observation 008 Amendment 04](../TERN/OBSERVATIONS/2026-11-12T2210Z_H788_FOUR_LEASE_RESULT_ATTRIBUTION_AND_S0_SAME_ID_REVERSAL_OBS_008_AMENDMENT_04_24_PEEK_RECOVERED.md). No deletion or disablement is inferred.
+
+
+### h949:s2 handoff timing correction
+
+The optional Ravel packet was committed at approximately 13:50Z. The :36 task was scheduled for 13:36Z but its actual execution began at 14:04:04.423Z. The packet was therefore **LATE_PRESTART_OPTIONAL_CONTEXT_ONLY**, not poststart. Repository inbox readback is verified; no ChatGPT-thread delivery or consumption is claimed.
