@@ -24,7 +24,7 @@
 - Report: [exact-source guard replay and current-main drift](../SABLE/2026-11-19T0624Z_H942_S2_MERSEARCH_GUARD_EXACT_SOURCE_AND_MAINLINE_DRIFT_AUDIT.md).
 - PR #2050: exact helper/test source passed nine assertions and py_compile; isolated bare-Git race simulation passed. PR remains draft/unmerged, 11 ahead / 137 behind at comparison snapshot; current main still has the old generic retry path.
 - All four Mersearch requests remain requested; all twelve request-scoped manifest/receipt paths returned 404. WH-05 remains P1/HIGH. Tern retains branch reconciliation, controlled-test authorization and lane-release authority.
-- Publisher issue #2070 is now PUBLISHED_VERIFIED; comment #7001782225; canonical artifact readback and SHA-256 verified. See packet Amendment 01.
+- Publisher issue #2070 is PUBLISHED_VERIFIED; comment #7001782225; canonical artifact readback and SHA-256 verified. Latest PR #2050 comparison: 11 ahead / 165 behind main; no rebase or merge. See packet Amendments 01–02.
 - No request/lane was changed, run, retriggered or released. No action is requested of Loom. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
 
 
