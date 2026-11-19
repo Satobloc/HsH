@@ -10,7 +10,7 @@ Latest Lane 36 overlay: Aster h946:s3, [report](2026-11-19T1036Z_H946_S3_KELVIN_
 
 Publisher issue #2008 PUBLISHED_VERIFIED: run #44381746785, comment #6989391853, commit `5915fecf597b0f701ed5d86369a03fe7988ca490`, SHA-256 `e9a565d575e304f43e09c5c6979f80c44ee61263e6c89f80a1ec973bc760e573`. Exact artifact readback matched.
 
-P0 Code Grurple ACTIVE; Paper A review FROZEN/CROSS-READ OPEN; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov24. No task/scheduler mutation or sixth task. Automation readback unavailable. No authenticated Aster thread or cross-thread delivery. Optional poststart Ariadne packet and INBOX readback verified.
+P0 Code Grurple ACTIVE; Paper A review FROZEN/CROSS-READ OPEN; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov24. No task/scheduler mutation or sixth task. Scheduler reconciliation: [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1036Z_s3_aster_AMENDMENT_02_PREDECESSOR_AND_SUCCESSOR_RUNSTATE.md) records Loom h946:s2 failed/no packet, Ariadne h946:s4 started after the original optional packet, and current :36 run still in progress; no direct-thread delivery. Automation readback unavailable. No authenticated Aster thread or cross-thread delivery. Optional poststart Ariadne packet and INBOX readback verified.
 
 ## Earlier verified checkpoint | h874:s2 | 2026-11-16T10:24Z
 
