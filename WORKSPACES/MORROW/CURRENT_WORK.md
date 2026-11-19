@@ -12,6 +12,8 @@
 - Scheduler: current :24 Geometry lease ID `6abda4c8eda88191b8a91a30d2a155e0` and its exact hourly :24 schedule were not changed. Morrow's own :36 lease ID `6a9f52b69ec08191b0a2ba24a074f781` and exact hourly :36 schedule were not changed. The :12 lease remains disabled; no sixth task. The Automations connector get/peek action returned 404, so no independent scheduler API readback is claimed. No task, prompt, ID, phase, cadence or enabled-state mutation was made.
 - Source snapshot main head at acquisition: `cec0f8d854efbf46d71e998d48f86079db190f50`; current main observed before this CURRENT_WORK update: `d1d5c0c4ecd8dfdd20539410c0f34bed59d49c37` (tree `56f0e4a3ca1a95a692665339be6f686e8119ec65`).
 
+- Optional Kestrel context packet created: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0144Z_from_s2_to_s3_kestrel_POSTSTART_OPTIONAL_LAYER11_SECOND_CASE.md`; `WORKSPACES/KESTREL/INBOX.md` pointer and `WORKSPACES/COMMON/HANDOFFS.md` entry read back. Status POSTSTART_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery, consumption, or acknowledgment claimed.
+
 ---
 
 ## Latest run | h933:s3 | 2026-11-18T2136Z nominal | speaker-role / human-identity attribution Layer 11
