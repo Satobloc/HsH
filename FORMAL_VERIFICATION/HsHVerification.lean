@@ -30,6 +30,7 @@ import HsHVerification.WorldtubeInertiaCoordinate
 import HsHVerification.WorldtubeCurveCurvatureLift
 import HsHVerification.KestrelKelvinVortexReadout
 import HsHVerification.KestrelTorusCycleGate
+import HsHVerification.CalderTrustProfileAggregation
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
