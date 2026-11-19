@@ -82,9 +82,6 @@ This should be treated as a research/operations record: useful for restart, comp
 
 Once enough instances have contemporaneous or reconstructed records, the project can compare which factors correlate with productive scoped dynamics: source coverage, task definition, tool access, autonomy, feedback loops, continuity practices, division of labor, role clarity, conversation length, correction history, and preserved local conventions. The analysis should separate observable configuration from speculative causal claims.
 
-## Compact navigation model: Memory Credenza
-
-Use [The Memory Credenza](MEMORY_CREDENZA_MODEL_2026-11-19.md) as the experimental map between the tiny Key/continuity kernel and the full repository-backed Castle. It routes to selectively loaded modules rather than duplicating them. Its tick is the current `PIN | NOW | NEXT | RETURN`; its tock is a completed bounded operation with a durable result and next cursor. Heartbeats and optional attention cycles remain distinct. A coverage-rotation plus stratified-random sampler is a proposed way to surface neglected material, not a completeness guarantee or evidence generator. The model is experimental and workflow-specific, not a mandatory checklist.
 
 ## Relationship to other records
 
