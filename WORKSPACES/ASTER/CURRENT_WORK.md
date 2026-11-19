@@ -1,4 +1,23 @@
-## Latest checkpoint | h946:s3 | 2026-11-19T10:36Z nominal
+## Latest checkpoint | h950:s2 | 2026-11-19T14:24Z nominal
+
+**Run key:** REVROT3-19-20261011:950:s2  
+**Disposition:** GW150914_SOURCE_GENEALOGY / EXISTING_EVENT_ADDITIVE_TIMING_CHANNEL / ARCHIVE_TABLE_AUTHorship_UNRESOLVED / RAW_DATA_NOT_ACQUIRED / ISSUE2101_SUBMITTED_NOT_VERIFIED / P0_ACTIVE / P2_HOLD / NO_PHYSICAL_PREDICTION / TASK_UNCHANGED.
+
+- [Report](2026-11-19T1424Z_H950_S2_GW150914_SOURCE_GENEALOGY_AND_DEPENDENCE_AUDIT.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1424Z_s2_aster.md).
+- GW150914 was already in P2 via October 28 area-law candidate comment #6465461293. Mercer h949 comment #7011448278 adds an arrival-time observable for the same event, not a new physical system or independent experiment.
+- GWOSC reports 6.9 ms L1-to-H1 delay with +0.5/-0.4 ms bounds. The figure caption uses the shift/inversion for visualization and does not state the bounds' confidence/coverage level. Do not transfer the page's 90% source-parameter intervals to this delay.
+- Recovered SAT archive Electrogravacoustics row: LIGO GW150914, wavelength 3.0e6 m, 100 Hz, Q=3A, Braid Smoothed. Four concept paths share one blob; two episode-page/SRT paths share another. The row's internal citations do not identify a primary LIGO source; authorship remains unresolved. 3.0e6 m is consistent with c/f at 100 Hz, not a demonstrated detector baseline.
+- Scripted H1/L1 LALSuite 7.26 baseline: 3,001,775.759551 m; published delay projection: 2,068,567.960 m, 0.68911475 of baseline. This is a source-reproduced geometry check, not a raw-strain analysis.
+- Raw v2 H1/L1 HDF5 and O1 calibration uncertainty files were not acquired because runtime network/DNS retrieval failed. No DQ/injection check, calibration propagation, waveform fit, prediction, or holdout.
+- Existing Kestrel PR #873 exact-head run #44090154878 passed Lean 4.34.0/Lake 5.0.0 at 8,956 jobs. Its generic projection non-injectivity theorem does not prove the GW150914 timing relation or H(s)H map. No new theorem.
+- Publisher intake [#2101](https://github.com/Satobloc/HsH/issues/2101) is SUBMITTED_NOT_VERIFIED at this checkpoint. Do not retry or duplicate; await artifact and checksum readback.
+- P0 Code Grurple ACTIVE; P0 PR #2009 remains open/draft/unmerged, 3 ahead / 864 behind at observed main 663c51a3390953e87e24088ec97a4ccd5bc0098a. P2 HOLD; P3 INCOMPLETE. Paper A review remains FROZEN / CROSS-READ OPEN.
+- FIE next November 24. Aster unrelated-reading cursor 2001; no new reading quantum due.
+- Next ring label Ariadne, h950:s3. Optional repository context only; no assignment, acknowledgment, or cross-thread delivery.
+- **Return pin:** H950:S2 / ASTER / GW150914-EXISTING-EVENT / ADDITIVE-TIMING-CHANNEL / ELECTROGRAVACOUSTICS-AUTHORSHIP-UNRESOLVED / RAW-DATA-NOT-ACQUIRED / ISSUE2101-PENDING / P0-ACTIVE / P2-HOLD / TASK-UNCHANGED.
+
+
+## Previous checkpoint | h946:s3 | 2026-11-19T10:36Z nominal
 
 **Run key:** `REVROT3-19-20261011:946:s3`  
 **Disposition:** CONDITION_SCOPED_KELVIN_EVIDENCE_MAP / SUPPLEMENTARY_VIDEOS_CROSS_CONDITION / M1_M3_ANTIPODAL_ALIAS / PR1189_EXACT_HEAD_LEAN_PASS / ISSUE2086_SUBMITTED_NOT_VERIFIED / P2_HOLD / NO_PHYSICAL_RESULT / TASK_UNCHANGED.
