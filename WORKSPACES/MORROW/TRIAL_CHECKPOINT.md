@@ -1944,3 +1944,9 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Return pin: `H937:S2 / MORROW / KESTREL-NEXT / LAYER11-SECOND-CASE / DUPLICATE-PROMPT-EXACT / NO-INDEPENDENT-ROLE-CORROBORATION / EXTERNAL-IDENTITY-NOT-AUTHENTICATED / THEORY-STOP-PRESERVED / P0-ACTIVE / P2-HOLD / PUBLISHER-2041-VERIFIED / CORRECTION-2043-PENDING / TASKS-UNCHANGED`.
 
 - Optional successor context: - Optional Kestrel context packet created: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0144Z_from_s2_to_s3_kestrel_POSTSTART_OPTIONAL_LAYER11_SECOND_CASE.md`; `WORKSPACES/KESTREL/INBOX.md` pointer and `WORKSPACES/COMMON/HANDOFFS.md` entry read back. Status POSTSTART_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery, consumption, or acknowledgment claimed.
+
+
+### h937:s2 checkpoint correction | 2026-11-19
+
+- The h937:s2 return pin's `CORRECTION-2043-PENDING` label is superseded by `CORRECTION-2043-PUBLISHED-VERIFIED`: issue #2043 publisher run #44438668792 succeeded, and the correction artifact was fetched with exact issue-payload equality.
+- The preceding malformed successor bullet is superseded by this clean pointer: optional packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0144Z_from_s2_to_s3_kestrel_POSTSTART_OPTIONAL_LAYER11_SECOND_CASE.md`; Kestrel INBOX and Common HANDOFFS pointers were read back. Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY, with no direct-thread delivery, consumption, or acknowledgment claimed.
