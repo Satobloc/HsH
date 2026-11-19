@@ -34,26 +34,39 @@ def mass (P : FiniteMassModel (Ω := Ω)) (A : Finset Ω) : ℚ :=
 def condMass (P : FiniteMassModel (Ω := Ω)) (A B : Finset Ω) : ℚ :=
   mass P (A ∩ B) / mass P B
 
+omit [Fintype Ω] in
 theorem mass_mul_condMass (P : FiniteMassModel (Ω := Ω))
     (A B : Finset Ω) (hB : mass P B ≠ 0) :
     mass P B * condMass P A B = mass P (A ∩ B) := by
   unfold condMass
   field_simp [hB]
-  ring
 
 /-- Partition the correct outcomes into those with and without sufficient evidence surfaced. -/
+omit [Fintype Ω] in
 theorem mass_partition (P : FiniteMassModel (Ω := Ω))
     (C S : Finset Ω) :
     mass P C = mass P (C ∩ S) + mass P (C \ S) := by
-  unfold mass
   have hUnion : C ∩ S ∪ C \ S = C := by
     ext ω
-    simp
+    constructor
+    · intro h
+      rcases Finset.mem_union.mp h with h | h
+      · exact (Finset.mem_inter.mp h).1
+      · exact (Finset.mem_sdiff.mp h).1
+    · intro hC
+      by_cases hS : ω ∈ S
+      · exact Finset.mem_union.mpr (Or.inl (Finset.mem_inter.mpr ⟨hC, hS⟩))
+      · exact Finset.mem_union.mpr (Or.inr (Finset.mem_sdiff.mpr ⟨hC, hS⟩))
   have hDisjoint : Disjoint (C ∩ S) (C \ S) := by
     refine Finset.disjoint_left.mpr ?_
     intro ω hCS hCnotS
-    exact hCnotS.2 hCS.2
-  rw [← hUnion, Finset.sum_union hDisjoint]
+    exact (Finset.mem_sdiff.mp hCnotS).2 (Finset.mem_inter.mp hCS).2
+  calc
+    mass P C = mass P (C ∩ S ∪ C \ S) :=
+      congrArg (mass P) hUnion.symm
+    _ = mass P (C ∩ S) + mass P (C \ S) := by
+      unfold mass
+      rw [Finset.sum_union hDisjoint]
 
 /-- Law of total probability for correctness, split by whether sufficient evidence surfaced. -/
 theorem total_probability (P : FiniteMassModel (Ω := Ω))
@@ -92,7 +105,7 @@ theorem product_only_iff_no_correct_without_surface
     have hComp : C \ S = C ∩ (Finset.univ \ S) := by
       ext ω
       simp
-    rw [hComp] at h2
+    rw [← hComp] at h2
     exact h2
   constructor
   · intro h
@@ -131,7 +144,11 @@ theorem uniformFour_conditional_correct_given_surface :
 
 theorem uniformFour_correct_without_surface_mass :
     mass uniformFour (correctDecision \ surfaced) = 1 / 4 := by
-  norm_num [mass, uniformFour, correctDecision, surfaced]
+  have hDiff : correctDecision \ surfaced = ({2} : Finset (Fin 4)) := by
+    ext x
+    fin_cases x <;> simp [correctDecision, surfaced]
+  rw [hDiff]
+  norm_num [mass, uniformFour]
 
 theorem uniformFour_product_only_is_not_total_correctness :
     mass uniformFour correctDecision ≠
