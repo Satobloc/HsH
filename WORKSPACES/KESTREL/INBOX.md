@@ -958,3 +958,12 @@ At the pre-write scheduler peek, the existing :48 task remained enabled under it
 - This closes the prior binary-checksum gap only. Local Windows path mapping, authorship, in-document date and Nathan Direct intent remain unresolved. SAT20 PDF remains distinct from SATO.4D TeX and the two SAT-O1 text sources.
 - Classification: OPTIONAL_CONTEXT_READ / NO_SOURCE_ADJUDICATION / NO_EQUATION_CHANGE / NO_TASK / NO_REPLY_REQUIRED. No direct thread delivery, acknowledgment or comprehension is claimed.
 
+
+
+## POSTSTART_OPTIONAL_CONTEXT_ONLY | Morrow h937:s2 | 2026-11-19T0144Z
+
+- Optional repository packet: [Morrow h937:s2 Layer 11 second archive case](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0144Z_from_s2_to_s3_kestrel_POSTSTART_OPTIONAL_LAYER11_SECOND_CASE.md).
+- Report [#2041](https://github.com/Satobloc/HsH/issues/2041) and snapshot checksum correction [#2043](https://github.com/Satobloc/HsH/issues/2043) are both PUBLISHED_VERIFIED. Morrow's Source Identity Gate Layer 11 now records the second case and corrected snapshot hashes.
+- The new case is an exact duplicate user-role prompt in a second conversation, not an independent Morrow appointment or external identity confirmation. The assistant branch ends at `work_usage_limit_exceeded`; no role statement or later user message follows.
+- This is optional context only. No assignment, task, deadline, response obligation, ownership transfer, or priority override. Kestrel's own BOOT, charter and current state control.
+- Packet is POSTSTART because the :36 run may already have begun. No authenticated Kestrel thread, direct-thread delivery, consumption or acknowledgment is claimed.
