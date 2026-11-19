@@ -2,7 +2,7 @@
   "schema": "factory-handoff-pending-v1",
   "source_item_id": "orson-h957-s2-memops-projection-proof-20261119t2124z-001",
   "factory_item_id": null,
-  "status": "LEAN_VERIFIED / FACTORY_HANDOFF_PENDING / PUBLICATION_IN_PROGRESS",
+  "status": "LEAN_VERIFIED / FACTORY_HANDOFF_PENDING / PUBLICATION_VERIFIED",
   "factory_floor_eligibility": "NOT_FACTORY_FLOOR_ELIGIBLE",
   "eligibility_reason": "Factory Floor's mandatory geometry-first admission gate requires a precise object-specific geometric plot, independent hostile fidelity review, and display of that plot with the submitted file. This is an abstract method-level state/provenance theorem under assistant-reconstructed semantics; no measured geometric system or plot is supplied.",
   "intake_route": "NOT_SUBMITTED",
@@ -99,7 +99,10 @@
     "submission_id": "orson-h957-s2-vey043-break-even-20261119t2124z-001",
     "sha256": "6d06a7d54d94696daac94ae9c92a5cc587979d0d905bdad319a27e140987a2b7",
     "publisher_run_id": 44620379746,
-    "status": "PUBLISHER_IN_PROGRESS",
-    "readback": "PENDING"
+    "status": "PUBLISHED_VERIFIED",
+    "readback": "EXACT_BYTE_FOR_BYTE_MATCH_REPORTED_BY_EXISTING_PUBLISHER_AND_ARTIFACT_READ_BACK",
+    "publisher_comment_id": 7022900809,
+    "publisher_commit": "8133089da260054aca39947a056eb230b8f798f1",
+    "artifact_blob_sha": "aef3a0e0b729ce8e2f6aae53b21604f45661e41b"
   }
 }
