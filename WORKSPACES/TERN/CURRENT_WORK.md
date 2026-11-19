@@ -1,3 +1,15 @@
+## h948:s3 | WH-01 run-list snapshot retention and same-key reconciliation | 2026-11-19T1236Z nominal; amendment 13:06Z
+
+- Existing H948:s3 primary report [issue #2094](https://github.com/Satobloc/HsH/issues/2094) is PUBLISHED_VERIFIED; exact workspace/canonical artifact readback and SHA-256 are recorded in the report.
+- Additive amendment [issue #2097](https://github.com/Satobloc/HsH/issues/2097), submission tern-h948-s3-wh01-runlist-snapshot-retention-guard-20261119t1306z-001, was SUBMITTED_NOT_VERIFIED at the last check. Verify publisher comment and canonical artifact; do not resubmit.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1236Z_s3_tern_rook.md. Optional successor packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1312Z_from_s3_to_s4_morrow_POSTCOMPLETION_OPTIONAL_WH01_SNAPSHOT_RETENTION.md.
+- WH-01 18:50Z partition: 100 HsH runs, 10 job-bearing run IDs preserved in CLONE_LEDGER.jsonl, 11 sampled empty Jobs API results, 79 job endpoints uninspected. Full 100-run ID snapshot was not found in inspected HsH surfaces. No requery; cursor remains 2026-11-15T18:50:00Z.
+- CLONE_LEDGER_STANDARD now requires complete run-list snapshot retention and exact readback before job fan-out. PWH queue records RUN_ID_SNAPSHOT_NOT_RETAINED and the recovery route. See the H948 amendment and canonical receipt.
+- Same :36 run ID 6b86fcae-fa18-832d-a72e-5b6ba081f4e6, scheduled 12:36Z, was observed IN_PROGRESS with started_at moved from 12:31:28.582816Z to 12:58:46.688448Z. Cause unknown; cached latest_result is prior h947:s3, not H948.
+- Historical Tern user-source remit: Comptroller controls scheduled-task allocation and workflow offload to Python; no standalone signed charter or authenticated current thread. No physical calculation, Lean theorem, equation change, paper advancement, theory promotion, Mersearch lane mutation or scheduler mutation.
+- Current P0 ACTIVE; P1 Orson OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE; FIE next due Nov 24. Nov 9 minor gate missed; Nov 30 and Dec 14 gates separate.
+- :36 task ID and schedule remain unchanged; no sixth task, signet or conversation rename.
+
 ## h925:s4 | Cognition comparison freeze and exposure-lineage QC | 2026-11-18T1348Z
 
 - Canonical receipt: [h925:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1348Z_s4_tern_rook.md), latest blob `94cfb373701b85618262879d62a2160b6b5d7c16`, Amendments 01–04 read back.
