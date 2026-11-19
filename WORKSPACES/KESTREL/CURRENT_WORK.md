@@ -1,3 +1,6 @@
+### h941:s2 publication amendment | 2026-11-19T0541Z
+**Publisher:** issue [#2064](https://github.com/Satobloc/HsH/issues/2064), PUBLISHED_VERIFIED. Workflow #44466620177/job #135365841021 SUCCESS; publisher comment #7000837074; canonical artifact exact-readback SHA-256 093bb7e66126fdc251c9aa0b595110845f5d035bdaa5c6ef08f7384752e2f8b8. No retry or duplicate.  
+
 ## h941:s2 | Three boundaries of evidence transport | 2026-11-19
 
 **Report:** [Three boundaries of evidence transport](2026-11-19T0524Z_H941_S2_THREE_BOUNDARY_EVIDENCE_TRANSPORT.md)  
