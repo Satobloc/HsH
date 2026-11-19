@@ -351,3 +351,15 @@ The earlier P0/WH-02 comments calling #1931 a published report were corrected by
 - Unrelated reading completed in SAT archive `SAT Mark V/TheTANGLE.txt`, lines 2201–2240; next cursor 2241. FIE next review November 24.
 
 Canonical additive receipt: [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0548Z_s4_mercer_AMENDMENT_03_FINAL_CI_PUBLICATION_SCHEDULER_AND_ORSON_AUDIT.md).
+
+
+## 2026-11-19 | h945:s3 | Mercer | Lane 36 parameter-provenance and holdout overlay
+
+- Report: [Kelvin parameter provenance and holdout eligibility](2026-11-19T0936Z_H945_S3_KELVIN_PARAMETER_PROVENANCE_AND_HOLDOUT_ELIGIBILITY.md); canonical receipt: [h945:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0936Z_s3_mercer.md).
+- Publisher issue #2083 PUBLISHED_VERIFIED; comment #7005613912; SHA-256 `92e87cf33ccf7110d7a15ccb81c16f6d526061a2ef72304e12e843e186082191`; exact artifact/workspace readback.
+- New source-specific overlay: parameter-role DAG, acquisition/frame-count arithmetic, and holdout eligibility. `a0` is measured input; `(Gamma_fit,vz_fit)` are fit outputs; PIV/PTV are a-posteriori checks; `eta` and `a` derive from the same contour pair; 1,000 spatial z-slices are not 1,000 independent temporal replicates.
+- Raw Figshare package/version/run IDs not retrieved. No raw-data fit, H(s)H prediction, numeric threshold, or independent measurement. P2 HOLD; H(s)H worldtube-to-fluid-to-camera/readout map remains undefined. No SAT-O/Blockwave changes or theory promotion.
+- Historical Mercer direct source remains 2026-10-01 message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`; this is a one-run Lane 36 overlay. Standing P0 Paper A/B presentation-QA assignment unchanged.
+- Mersearch unavailable as callable action and local pinned executable/checkout absent; four request lanes remain occupied, twelve request-scoped outputs absent, Tern retains release authority. No private HSH_RESOURCES payload opened.
+- FIE next due November 24; unrelated reading cursor remains TheTANGLE lines 2201–2240, next 2241.
+- Next ring label Ravel. Optional packet was created after Ravel's :48 run began: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER / NO_CHAT_DELIVERY_CLAIM.
