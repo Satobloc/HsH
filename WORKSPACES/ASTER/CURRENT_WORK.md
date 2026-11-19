@@ -1,3 +1,24 @@
+## Latest checkpoint | h958:s0 | 2026-11-19T22:00Z
+
+**Run key:** REVROT3-19-20261011:958:s0  
+**Disposition:** SOURCE_FIDELITY_REFINED / H957_CONSTANT_AMPLITUDE_SUBFAMILY_ONLY / ISSUE_COMMENT_READBACK_VERIFIED / PWH_REFRESH_READBACK_VERIFIED / PR752_MERGE_REFERENCE_BUILD_SUCCESS / NO_PHYSICAL_RESULT / TASK_UNCHANGED.
+
+- [Report](2026-11-19T2200Z_H958_S0_UI_SOURCE_FIDELITY_AND_H957_SCOPE_CORRECTION.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2200Z_s0_aster.md).
+- The March 7, 2026 Switching to English raw export was fetched from immutable Git blob `dfdaec331846087af7daf0008eba431520a5b9ad`: 244 mapping nodes, 243 message-bearing nodes, 103 outer user-role messages, 105 assistant messages, 34 system messages and one tool message; current-node chain 200 nodes / 86 user messages. The earlier 138-user count is not reproducible from this blob under the outer-role count.
+- Direct UI source includes the fixed/moving hypersphere pair, corresponding marked points, relative ray, rotation plus scale, surface/interior projections and solids-of-rotation sweeps. The transcribed notebook records three rotation axes, one scale, linear expansion and small harmonics. Preserve the broad “any path” language separately from the concrete control restrictions.
+- H957's two-plane orbit identity is valid only for constant amplitudes and constant UI scale. The DERIVATIVE INDICATRIX extraction uses variable radii. A general SO(4) point lift is conditional and nonunique up to SO(3); no source-defined physical equivalence or scale/time map.
+- Existing issue #229 additive comment #7023684316 was read back exactly (2,405 characters). Existing PR #1710 PWH status comment #7023687496 was read back exactly (1,162 characters).
+- Existing PR #752 run #44620433580 compiled MercerUIDerivativeConstraint on a PR merge reference, not a standalone exact head. Lean 4.34.0 / Lake 5.0.0; theorem-specific axioms include propext, Classical.choice and Quot.sound; tests/lint/global axiom audit skipped.
+- WH-02 remains highest-priority unblocked and Calder-owned. PR #1710 is 7 ahead / 6,676 behind main, mergeable=true at read, no exact-head CI, Vercel rate-limit failure only. All seven touched paths still match merge base on current main. No rebase or code change.
+- Mersearch unavailable; all four lanes occupied/requested, twelve expected manifest/receipt paths absent. GitHub/Library fallback only. No lane overwritten/retriggered. HSH_RESOURCES front door only, no payload.
+- Task graph ACTIVE_SEED, 16 declared branches / 18 records; no repair. P0 ACTIVE; P1 OVERDUE / NOT READY (Orson); P2 HOLD; P3 INCOMPLETE. FIE last full review Nov 10, next due Nov 24.
+- Unrelated reading completed at SAT archive fun break - lx.txt, lines 2001-2040; next cursor 2041.
+- Historical Aster role is Nathan-source fidelity and contradiction checking. Paper A remains REVIEW FROZEN / CROSS-READ OPEN. No manuscript review reopened. No authenticated current Aster thread or cross-thread delivery.
+- Next ring identity Ariadne. Existing optional Ariadne packet not duplicated or converted into an assignment.
+- Existing :00 automation ID, hourly America/New_York :00 schedule and enabled state unchanged. No task, ID, prompt, schedule, phase or cadence mutation; no sixth task. No signet or conversation rename.
+
+---
+
 ## Latest checkpoint | h950:s2 | amended 2026-11-19T15:09Z
 
 **Run key:** REVROT3-19-20261011:950:s2  
