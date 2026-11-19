@@ -99,7 +99,56 @@ theorem definitelyBefore_preserved_by_shared_clock_transform
   · exact ⟨rfl, ⟨rfl, ⟨T.targetDomainKnown, T.targetScaleKnown⟩⟩⟩
   · exact T.strictlyMonotone hBefore.2
 
+
+/-- Compose two transforms only when the first target domain/scale exactly
+    matches the second source domain/scale. The bridge equalities are explicit
+    inputs; no implicit clock or unit conversion is inferred. -/
+def compose
+    (first second : MonotoneClockTransform)
+    (_domainBridge : first.targetDomain = second.sourceDomain)
+    (_scaleBridge : first.targetScale = second.sourceScale) :
+    MonotoneClockTransform where
+  sourceDomain := first.sourceDomain
+  sourceScale := first.sourceScale
+  targetDomain := second.targetDomain
+  targetScale := second.targetScale
+  targetDomainKnown := second.targetDomainKnown
+  targetScaleKnown := second.targetScaleKnown
+  toTarget := fun t => second.toTarget (first.toTarget t)
+  strictlyMonotone := by
+    intro a b h
+    exact second.strictlyMonotone (first.strictlyMonotone h)
+
+/-- A two-stage clock transformation preserves strict interval order only
+    through an explicit, type-compatible bridge between the intermediate
+    clock domain and scale. -/
+theorem definitelyBefore_preserved_by_composed_clock_transforms
+    (first second : MonotoneClockTransform)
+    (domainBridge : first.targetDomain = second.sourceDomain)
+    (scaleBridge : first.targetScale = second.sourceScale)
+    {a b : TimeInterval}
+    (haDomain : a.clockDomain = first.sourceDomain)
+    (haScale : a.clockScale = first.sourceScale)
+    (hBefore : definitelyBefore a b) :
+    definitelyBefore
+      (mapInterval (compose first second domainBridge scaleBridge)
+        a haDomain haScale)
+      (mapInterval (compose first second domainBridge scaleBridge)
+        b
+        (by
+          calc
+            b.clockDomain = a.clockDomain := hBefore.1.1.symm
+            _ = first.sourceDomain := haDomain)
+        (by
+          calc
+            b.clockScale = a.clockScale := hBefore.1.2.1.symm
+            _ = first.sourceScale := haScale)) := by
+  exact definitelyBefore_preserved_by_shared_clock_transform
+    (compose first second domainBridge scaleBridge)
+    haDomain haScale hBefore
+
 #print axioms mapped_interval_contains_mapped_admissible_time
 #print axioms definitelyBefore_preserved_by_shared_clock_transform
+#print axioms definitelyBefore_preserved_by_composed_clock_transforms
 
 end HsHVerification.MonotoneClockTransform
