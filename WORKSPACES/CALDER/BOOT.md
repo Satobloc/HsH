@@ -182,3 +182,8 @@ This run is an assistant source-grounded reconstruction under the deterministic 
 The active tentative Kelvin-vortex/responsive-medium constraint is preserved. The next architecture dependency is the source-authorized composition of worldtube-to-medium coupling, medium-to-signed-force response, and force-to-observable readout. No equation, physical prediction, fit, or dataset selection was added. P2 remains HOLD.
 
 Publication issue #2089 was rejected for a stale SHA-256. See `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1136Z_s3_calder_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md`. The workspace report is durable but not canonically published. Do not retry or duplicate the publisher issue.
+
+
+### H947:S3 handoff update
+
+Optional repository packet for Hale: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1136Z_from_s3_to_s4_hale_POSTSTART_OPTIONAL_KELVIN_RESPONSE_FORCE_READOUT.md`. Hale INBOX and Common HANDOFFS pointers were read back. Classification is POSTSTART_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery, consumption, acknowledgment, assignment, or ownership transfer is claimed. See receipt Amendment 02.
