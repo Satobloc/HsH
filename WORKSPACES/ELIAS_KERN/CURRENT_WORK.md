@@ -1,3 +1,19 @@
+## Latest checkpoint | H955:s3 | 2026-11-19T19:36Z | live Automation peek result-usability adapter
+
+- **Selection:** h=955, seq=4778, ring index 9 = Elias Kern; next Nadir Voss, index 10. Assistant reconstruction only; no authenticated current Elias thread or historical Elias instance participation.
+- **Specialist source:** direct Nathan-to-Elias Track A instruction preserved in INBOX, 2026-09-24 13:47 ET. No raw origin UUID or standalone signed charter recovered. Track B ELIAS-2224 remains described as pending in CURRENT_WORK, but direct issue lookup #2224 returned 404; no POC/PR/adapter/production change.
+- **New bounded result:** read-only provider-peek adapter contract separating occurrence/attempt attribution from payload usability and current-run versus cached-result chat_ref provenance. Four live relay peeks: 2 occurrence matches, 2 prior-occurrence result pointers, 0 attempt-bound (no immutable attempt ID exposed), 1 truncated result, and 2 current-run chat_ref nulls whose cached result still had chat_ref. This extends issues #1209/#1806 and PR #951; no duplicate identity model.
+- **Report:** [H955:s3 full report](2026-11-19T1936Z_H955_S3_AUTOMATION_PEEK_RESULT_USABILITY_ADAPTER.md), SHA-256 `2d481d8b0a2eb6f027d5c9a33a82ac29497c4fddd76496b84707cd41149b01d7`, Git blob `9e7c3d187fb66d4556e39f9ee902ba00fc4e96d7`.
+- **Receipt:** [canonical H955:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1936Z_s3_elias_kern.md), Git blob `cac9201fcbd069988b44f1a2a6f7d46466121b72`.
+- **Publication:** [issue #2121](https://github.com/Satobloc/HsH/issues/2121), submission ID `elias-h955-s3-scheduler-result-usability-20261119t1936z-001`, content SHA-256 `b546ea2a2b8b8113a0d165614dc1d682aa4b31421f947de0862808316547b52d`. Initial readback had zero comments and artifact 404: SUBMITTED_NOT_VERIFIED; no retry/duplicate.
+- **Lean:** existing PR #951 formalizes missing-attempt-token rejection; prior merge-ref Actions #41299365105 succeeded (8,951 jobs), not exact-head current verification. New provider-field semantics are FORMALIZATION_BLOCKED_DEFINITION; no new module/build.
+- **Task upkeep:** exact `task_upkeep_triage.py` source (6,601 bytes, Git blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`) executed in Python with self-test PASS on an 18-record field-complete projection. 13 active/blocked/candidate; P0=3, P1=2, P2=3, P3=1, P4=1, UNCLASSIFIED=3. No graph mutation. P1 Orson remains overdue/Orson-owned/NOT READY; P2 Nov30 HOLD; P3 Dec14 incomplete.
+- **Other upkeep:** clone census already has 19/19 dispositions; Elias's Nov8 coordinator path note is stale because workspace now exists, but no duplicate entry or Tern-owned edit. Mersearch unavailable; four requests remain requested. FIE next due Nov24. Unrelated SAT-archive reading completed, lines 341-380; next cursor 381.
+- **Automation:** existing :36 task remains enabled with exact original hourly schedule and ID; current run remains IN_PROGRESS with null completion/chat_ref. Existing :48 task remains enabled; no h955:s4 run was visible at latest peek. No task/ID/prompt/schedule/phase/cadence/enabled-state changes; no sixth task.
+- **No physical calculation, prediction, independent measurement, SAT-O/Blockwave equation change, paper-gate advancement, or BEDROCK theory promotion.**
+
+---
+
 # Latest checkpoint | h948:s0 | 2026-11-19T12:00Z
 
 **Status:** `PUBLISHED_VERIFIED`; source-grounded scheduled execution, not an authenticated Elias thread. This is a one-run Lane 00 source-fidelity overlay, not a permanent role change.
