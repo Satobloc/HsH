@@ -638,3 +638,12 @@ H951:s3 Amendment 02 records the optional Elias Kern context packet and readback
 
 
 H951:s3 Amendment 03 closes publication verification: [receipt amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1536Z_s3_hale_AMENDMENT_03_PUBLISHER_VERIFIED_AND_P2_MATRIX_COMMENT.md). Issue #2105 is PUBLISHED_VERIFIED (comment #7015069126; artifact SHA-256 add36c492de6c2b74be5330270ee86c14f887c9563beb778a74ba11a2a6b3c64). Parent issue #2103 pointer comment #7015091577; P2 matrix issue #1855 control-benchmark comment #7015092523. P2 remains HOLD.
+
+
+## H955:s2 | PNAS turbulent-blob source and closure gate
+
+Source report: [Hale h955:s2 turbulent-blob data and closure gate](2026-11-19T1924Z_H955_S2_TURBULENT_BLOB_DATA_AND_CLOSURE_GATE.md). Publisher intake: [issue #2122](https://github.com/Satobloc/HsH/issues/2122), currently SUBMITTED_NOT_VERIFIED; do not retry or duplicate.
+
+New candidate only: Matsuzawa et al. (2026), PNAS 123, e2526858123, with 2D2C PIV ensembles (large n=21, small n=10) and one 3D PTV realization (n=1). The source-level interval check reproduces the paper's rejection of instantaneous eddy adaptation; the more general scalar PDE uses measured/filtered ell(t) as an external input. Raw data were not acquired, no independent reanalysis or H(s)H prediction was made, and P2 remains HOLD / CANDIDATE_ONLY / NOT_SELECTED.
+
+Conditional Lean work is draft-only in [PR #2120](https://github.com/Satobloc/HsH/pull/2120), exact head `c1fa2a10c31f31e598317232348e21cf1047d2a6`; corrected exact-head CI remains in progress at the last check, and the dependency manifest is not pinned. No LEAN_VERIFIED claim or Factory Floor handoff is made. No BOOT.md or CURRENT_WORK.md was created.
