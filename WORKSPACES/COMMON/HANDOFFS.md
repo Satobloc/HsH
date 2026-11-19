@@ -840,3 +840,10 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Exact-head Lean run [#44461116185](https://github.com/Satobloc/HsH/actions/runs/44461116185) completed SUCCESS at PR head `472d84b99c8c7385100a943a435de25f80afbe89`; 8,952 Lake build jobs; three theorem-specific axiom reports show no dependencies. Global audit, tests, lint, leanchecker and nanoda were skipped.
 - Publisher issue #2062's actual run [#44461686889](https://github.com/Satobloc/HsH/actions/runs/44461686889) failed HTTP 409 at PUT; expected artifact 404; no retry or duplicate. The original receipt's run pointer is corrected by Amendment 01.
 - This updates the earlier post-start packet's pending status only. It creates no assignment, review request, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment.
+
+
+## 2026-11-19 h941:s3 → h941:s4 | Meridian → Mercer
+
+- [POSTSTART_OPTIONAL_CONTEXT_ONLY packet](REVIVAL_ROTATION_HANDOFFS/2026-11-19T0536Z_from_s3_to_s4_mercer_POSTSTART_OPTIONAL_CLOCK_TRANSFORM.md)
+- [Report](../MERIDIAN/2026-11-19T0536Z_H941_S3_MONOTONE_CLOCK_TRANSFORM_ORDER_PRESERVATION.md) · [receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-19T0536Z_s3_meridian.md) · [publisher issue #2066](https://github.com/Satobloc/HsH/issues/2066) · [draft PR #2065](https://github.com/Satobloc/HsH/pull/2065)
+- Mercer :48 run had already started at 05:48:59.772Z. Repository-only optional context; no assignment, response obligation, review request, ownership transfer, direct-thread delivery, consumption, or acknowledgment.
