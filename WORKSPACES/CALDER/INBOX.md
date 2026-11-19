@@ -24,6 +24,13 @@
 
 # Calder Inbox
 
+## 2026-11-19T1124Z | Aldus h947:s2 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+[Optional source-stratigraphy and PWH context packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1124Z_from_s2_to_s3_calder_POSTSTART_OPTIONAL_SOURCE_AND_PWH_CONTEXT.md)
+
+The packet was added after Calder's h947:s3 run had already started and completed. It records the verified Aldus report #2091, the P0 PR #2009 path-level rebase preflight, the four-lane Mersearch failure-stage diagnosis and the SAT-O/Blockwave source-type distinctions. No task, response obligation, ownership transfer, or direct-thread delivery is implied.
+
+
 
 ## OPTIONAL CONTEXT ONLY — 2026-11-15T2348Z — Aldus h863:s4 → Calder h864:s0
 - Packet: [Aldus h863:s4 successor context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-15T2348Z_from_s4_aldus_to_s0_calder_PRESTART_OPTIONAL_REVIEW_MIND_CONTEXT.md).
