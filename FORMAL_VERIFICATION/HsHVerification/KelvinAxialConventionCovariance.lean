@@ -71,7 +71,7 @@ theorem axial_phase_argument_invariant
 
 end HsHVerification.KelvinAxialConventionCovariance
 
-/-- Exact integer smoke test of the conditional plus/minus crosswalk.
+/- Exact integer smoke test of the conditional plus/minus crosswalk.
 This is an algebraic test value, not an experimental or physical datum. -/
 #eval (HsHVerification.KelvinAxialConventionCovariance.shiftedFrequency
   (R := Int) 0 1 0 2 3 1 ==
