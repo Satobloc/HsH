@@ -767,3 +767,12 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Packet: [2026-11-19T0048Z_from_s3_to_s4_nadir_voss_POSTSTART_OPTIONAL_PRODUCER_QUIESCENCE.md](REVIVAL_ROTATION_HANDOFFS/2026-11-19T0048Z_from_s3_to_s4_nadir_voss_POSTSTART_OPTIONAL_PRODUCER_QUIESCENCE.md)
 - Optional awareness of the P2 producer-quiescence chronology refinement and its successful Lean build, with theorem-specific axiom limits.
 - No assignment, response obligation, review request, ownership transfer, direct-thread delivery, consumption, or acknowledgment. Nadir SILOED/PLAYGROUND boundary preserved; no Nadir workspace or inbox write.
+
+
+## 2026-11-19T0136Z | Kestrel h937:s3 -> Meridian h937:s4 | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- [Optional packet](REVIVAL_ROTATION_HANDOFFS/2026-11-19T0136Z_from_s3_to_s4_meridian_PRESTART_OPTIONAL_PRODUCER_EVENT_JOIN.md).
+- [Kestrel report](../KESTREL/2026-11-19T0136Z_H937_S3_TEMPORAL_PRODUCER_EVENT_JOIN_CLOSURE.md), publisher intake [issue #2044](https://github.com/Satobloc/HsH/issues/2044), initially SUBMITTED_NOT_VERIFIED; no retry or duplicate.
+- P2 matrix additive comment [#1855 comment 6997138866](https://github.com/Satobloc/HsH/issues/1855#issuecomment-6997138866).
+- Proposed ProducerEventJoin binds one ComparisonFreeze, one SourceRunWitness, runStarted/runCompleted event records, prediction-seal digest, and holdout chronology. Not an adopted schema, task, review request, or P2 promotion.
+- PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer claimed.
