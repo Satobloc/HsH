@@ -632,3 +632,19 @@ This update is evidence-only. It does not claim completion of WH-02, WH-05, P0, 
 ## H930:s4 WH-01 partition addendum | 2026-11-18
 
 Exact run-created interval 2026-11-15T18:40:00Z–18:49:59Z inclusive. HsH returned 25 unique runs, page 1 terminal; SAT archive and HSH_RESOURCES returned zero. Workflow mix: 8 conversation-content CI failures; 8 navigation (7 cancelled, 1 failed); 8 website-docket (6 cancelled, 2 successful); 1 publisher success. Jobs API returned 21 NO_JOB_RECORD_RETURNED (not proof of no checkout) and 4 job records, all with verified checkout steps. Four checkout materializations: two pre-existing ledger events and two new appended rows; three shallow-depth-1, one full-history. Traffic attribution, fresh environment and unique actor remain UNKNOWN. Ledger 75 -> 77 rows, commit c2440e4433bc7fee7a1f2b21fdf0128b7f58cc26, blob 6f98ff57d5b174234edcf5f5c6a97609a38f9bb7. Existing issue #1703 comment 6988572922 records exact evidence. Next WH-01 cursor: 2026-11-15T18:50:00Z. Tern ownership and queue status unchanged.
+
+
+---
+
+## H936_S4_WH02_READBACK_2026-11-19T0133Z | status refresh only
+
+**WH-02 remains P1/HIGH, Calder-owned; Tern retains PWH queue control.** This is a read-only status reconciliation, not a reassignment, completion, rebase, merge, or code change.
+
+- Current observed HsH main head: `cec0f8d854efbf46d71e998d48f86079db190f50`, created 2026-11-19 01:21:06Z. Its changed file is the generated public discovery docket; no WH-02 source/test repair is included.
+- PR #1710 remains OPEN / DRAFT / UNMERGED. Current head `a967e908ceab048d219831ec799343643870daf3`; PR base `7b00fa5e3e5db87bfaab5d9d09c3f58f6c57cbd8`; last updated 2026-11-18 19:56Z.
+- Compare current main `cec0f8d854efbf46d71e998d48f86079db190f50` against PR head: 7 commits ahead, 5,685 behind, merge base `7c4009b0b8e29e5d28b7e49e38c2d42d0d0caa8a`, 7 changed files. PR metadata last returned `mergeable=true`, but that field has fluctuated in prior reads and does not cure the large base divergence.
+- Latest commit-workflow query for the exact PR head returned zero associated Actions runs. PR review list returned zero submitted reviews. This is not a claim that no historical workflow ever ran.
+- No rebase, merge, branch write, workflow dispatch, test execution, issue-body replacement, owner change, or priority change was performed.
+- **Next owner action:** Calder to rebase/reapply the seven-file test-call correction onto current main, preserve exact-head checkout assertion, run the relevant full test/lint/CI path, obtain independent review, and verify the date-tag/navigation acceptance criteria before any merge consideration.
+- Keep issue #1702 open. This entry updates observed status only; it does not mark WH-02 complete or authorize a merge.
+
