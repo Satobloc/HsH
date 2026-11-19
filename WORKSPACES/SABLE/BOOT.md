@@ -1,3 +1,17 @@
+## Latest checkpoint | H942:S2 | 2026-11-19T0624Z
+
+- Report: [Mersearch guard exact-source replay and current-main drift](2026-11-19T0624Z_H942_S2_MERSEARCH_GUARD_EXACT_SOURCE_AND_MAINLINE_DRIFT_AUDIT.md).
+- Canonical receipt: [h942:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0624Z_s2_sable.md).
+- Optional next-worker context: [Loom h942:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0629Z_from_s2_to_s3_loom_PRESTART_OPTIONAL_MERSEARCH_GUARD_STATUS.md); repository-only, no task or response obligation.
+- PR #2050 exact helper/test source re-fetched and Git-blob-ID matched; nine regression assertions and py_compile passed; isolated bare-Git race simulation passed. PR remains OPEN/DRAFT/UNMERGED, 11 ahead/137 behind at comparison snapshot; current main still has generic retry logic in all four bridge workflows. No exact-head Actions run.
+- All four Mersearch requests remain requested; all twelve request-scoped manifest/receipt paths returned 404. No request mutation, lane run, retrigger or release. WH-05 remains P1/HIGH; Tern retains controlled-test and release authority.
+- P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next review 2026-11-24. No physical calculation, CODATA comparison, Lean build, paper-gate advancement or theory promotion.
+- Publisher intake #2070: SUBMITTED_NOT_VERIFIED at checkpoint creation; prior malformed issue #2051 was not retried or duplicated.
+- Current :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 was independently listed and peeked enabled with exact original hourly America/New_York :24 schedule and unchanged prompt. Current run 1418dd2c-1edc-8331-bdc9-a2e56ffc6a51 was IN_PROGRESS with null completion/chat_ref. No task/schedule/phase/prompt mutation; no sixth task.
+- Identity remains assistant-level source-grounded reconstruction, not authenticated historical Sable-thread participation.
+
+---
+
 ## Current checkpoint | H938:S3 | 2026-11-19T0236Z
 
 - Report: [Mersearch publisher failure guard](2026-11-19T0236Z_H938_S3_MERSEARCH_PUBLISHER_FAILURE_GUARD.md)
