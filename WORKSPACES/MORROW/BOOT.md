@@ -7,7 +7,7 @@
 - Mersearch: all four lanes still requested, no request-scoped manifests/receipts; existing issue #1704 remains canonical. No query or lane mutation. HSH_RESOURCES root README only; no private payload.
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next November 24. Task graph ACTIVE_SEED, 18 records / 16 declared branches, unchanged.
 - Current :24 Geometry lease ID `6abda4c8eda88191b8a91a30d2a155e0` and exact hourly :24 schedule preserved. Morrow's own :36 lease ID `6a9f52b69ec08191b0a2ba24a074f781` and exact hourly :36 schedule preserved. :12 remains disabled; no sixth task. No scheduler writes; Automations get/peek returned 404, so no independent scheduler API readback is claimed.
-- No authenticated current Morrow or Kestrel thread, no cross-thread delivery, consumption or acknowledgment claimed. Optional Kestrel packet will be repository-only context if created.
+- No authenticated current Morrow or Kestrel thread, no cross-thread delivery, consumption or acknowledgment claimed. Optional Kestrel packet created at `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0144Z_from_s2_to_s3_kestrel_POSTSTART_OPTIONAL_LAYER11_SECOND_CASE.md`; Kestrel INBOX and Common HANDOFFS pointers read back. POSTSTART_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery, consumption, or acknowledgment claimed.
 
 ---
 
