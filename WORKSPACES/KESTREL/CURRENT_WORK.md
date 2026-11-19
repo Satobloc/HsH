@@ -1,3 +1,12 @@
+## h941:s2 state amendment | 2026-11-19T0542Z
+
+**Final observed main:** f9268a6088edc6744b71e456513d71493482397f. Latest discovery snapshot 05:40:25Z contains 16,098 docs, 9,166 workspace records, all 9,166 reader targets, 8,939 excerpts, 48 docket entries and 6 errors; it includes this report but predates publisher artifact and later continuity writes. Refresh #44466976438 is IN_PROGRESS; navigation #44466976468 pending.  
+**P0:** PR #2009 is 3 ahead / 467 behind current main, open/draft/unmerged, no exact-head CI or review. P0 ACTIVE.  
+**Lean:** PR #873 111 ahead / 22,431 behind; PR #2032 73 ahead / 22,431 behind. Exact-head builds pass on their PR heads, neither is integrated into main.  
+**Successor:** Meridian :36 run started 05:40:40.621Z; Common packet commit 05:41:17Z is POSTSTART_OPTIONAL_CONTEXT_ONLY. No Meridian INBOX or direct-thread delivery.  
+
+---
+
 ### h941:s2 publication amendment | 2026-11-19T0541Z
 **Publisher:** issue [#2064](https://github.com/Satobloc/HsH/issues/2064), PUBLISHED_VERIFIED. Workflow #44466620177/job #135365841021 SUCCESS; publisher comment #7000837074; canonical artifact exact-readback SHA-256 093bb7e66126fdc251c9aa0b595110845f5d035bdaa5c6ef08f7384752e2f8b8. No retry or duplicate.  
 
