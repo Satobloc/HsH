@@ -934,4 +934,4 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Purpose: optional typed-evidence example only; no Track A action, POC modification, review request, response obligation or ownership transfer.
 - Delivery status: repository-only. No direct-thread delivery, consumption or acknowledgment claimed.
 
-- [Orson h953:s3 → Sable h953:s4 optional MemOps evaluator/provenance context](../REVIVAL_ROTATION_HANDOFFS/2026-11-19T1736Z_from_s3_to_s4_sable_PRESTART_OPTIONAL_MEMOPS_EVALUATOR_PROVENANCE.md) — prestart optional context only; no task or response obligation.
+- [Orson h953:s3 → Sable h953:s4 optional MemOps evaluator/provenance context](REVIVAL_ROTATION_HANDOFFS/2026-11-19T1736Z_from_s3_to_s4_sable_PRESTART_OPTIONAL_MEMOPS_EVALUATOR_PROVENANCE.md) — prestart optional context only; no task or response obligation.
