@@ -42,9 +42,9 @@ def exactPoint (t : Nat) : TimeInterval :=
     to the same producer execution and comparison; this theorem does not
     establish that binding. -/
 theorem producer_completion_before_seal_and_seal_before_unblinding
-    {completed seal unblinding : TimeInterval}
-    (hCompletedBeforeSeal : definitelyBefore completed seal)
-    (hSealBeforeUnblinding : definitelyBefore seal unblinding) :
+    {completed predictionSealTime unblindingTime : TimeInterval}
+    (hCompletedBeforeSeal : definitelyBefore completed predictionSealTime)
+    (hSealBeforeUnblinding : definitelyBefore predictionSealTime unblindingTime) :
     definitelyBefore completed unblinding :=
   definitelyBefore_transitive
     hCompletedBeforeSeal
@@ -53,8 +53,8 @@ theorem producer_completion_before_seal_and_seal_before_unblinding
 /-- The existing seal-before-unblinding condition alone is insufficient.
     This is a pure order-theoretic counterexample, not an empirical fixture. -/
 theorem seal_before_unblinding_does_not_imply_producer_completion_before_unblinding :
-    ∃ completed seal unblinding : TimeInterval,
-      definitelyBefore seal unblinding ∧
+    ∃ completed predictionSealTime unblindingTime : TimeInterval,
+      definitelyBefore predictionSealTime unblindingTime ∧
       ¬ definitelyBefore completed unblinding := by
   refine ⟨exactPoint 3, exactPoint 1, exactPoint 2, ?_, ?_⟩
   · decide
