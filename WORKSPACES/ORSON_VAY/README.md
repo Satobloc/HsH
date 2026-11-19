@@ -1,3 +1,9 @@
+# Current checkpoint amendment | h938:s2 publication readback
+
+The HSH-PUBLISH-V1 workflow has created the expected artifact through GitHub Actions bot commit cbc9377191d78cd97d144c1a0f51d0ffc7b475f0. The fixed artifact path now exists and its 15,026 UTF-8 bytes exactly match the workspace report and issue JSON content. SHA-256 caf87815d44a1260e012e06e46c8c87b65a96066f81b5bae5f42e35caea0f4d7 matches.
+
+Issue #2049 still has no PUBLISHED/idempotent-publication comment. Per the intake protocol, status is ARTIFACT_READBACK_VERIFIED / PUBLISHER_COMMENT_PENDING / NOT_YET_PUBLISHED_VERIFIED. Do not edit, reopen, retry or duplicate the issue.
+
 ## Latest checkpoint | h938:s2 | 2026-11-19
 
 - New cognition methods note: [speaker-free assertion baseline and conformity decomposition](2026-11-19T0224Z_H938_S2_SPEAKER_FREE_ASSERTION_BASELINE_AND_CONFORMITY_DECOMPOSITION.md).
