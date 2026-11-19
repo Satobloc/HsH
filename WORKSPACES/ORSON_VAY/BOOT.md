@@ -1,3 +1,19 @@
+# Current checkpoint | h946:s0 | 2026-11-19T10:00Z
+
+- New note: [Cognitive evidence geometry: source attribution, lineage, and coarse-graining](2026-11-19T1000Z_H946_S0_COGNITIVE_EVIDENCE_GEOMETRY_SOURCE_FIDELITY.md).
+- Publication: [issue #2085](https://github.com/Satobloc/HsH/issues/2085) PUBLISHED_VERIFIED. Publisher comment #7006924852; artifact commit bc45307ed4c7af5a9628e9b83ba40c2e45670c72; SHA-256 cdd9564115ebed730300bbe39c2b5e34a9ad86958460615140c7ca84fd3528cb; exact artifact readback verified.
+- New source-fidelity correction: the 12.9-point Hu/Qu result is the expert-panel framing increment, not a generic bare-speaker-label effect. The no-speaker baseline still contains an assertion. Existing h938 issue #2049 remains untouched and PUBLISHER_COMMENT_PENDING.
+- Historical Orson remit: direct 2026-09-23 MIRA appointment recovered in Library. It explicitly includes advisor-to-Tern, LLM cognition, self-cognition, Modes Menu, broad archive/philosophical reading, and pluralist/RMS methods. Exact private source IDs remain in Library; no role-charter edit.
+- Direct methodology: minimal pairs should differ in ideally one variable; coarse-graining and model/data/interpretive consistency are direct methodological surfaces. The cognitive factor-space and trial-to-pair-to-session/model/dataset maps are assistant reconstructions, not physical equivalences.
+- Existing PR #850 reused: head 6b4eebeacf4f6928f18601626e4e9e3942d73d81; merge-reference run #44416543286/job #135198228890 SUCCESS, 8,991 jobs; existing finite #eval executed. No new Lean theorem, PR, branch, or trial. P1 remains frozen.
+- P0 ACTIVE; P1 #564 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next Nov 24. No P1 protocol/manuscript edit, model trial, human session, API spend, dataset reanalysis, CODATA or physical calculation, paper-gate advancement, or theory promotion.
+- Mersearch unavailable in this runtime; all four request lanes remain REQUESTED. HSH_RESOURCES root boundary read; no private payload opened. PWH WH-05 remains P1/HIGH and Tern-controlled; task graph still 16 declared branches / 18 records, no repair.
+- Unrelated reading break: DAVIES - MYST LONDN.txt, Chapter IX, lines 1761-1840; next cursor 1841. The prior Book of Tea cursor could not be resolved. Physical movement is unavailable in this runtime.
+- Ring label Orson Vay (index 18), next Sable (index 0). This is assistant-level reconstruction, not authenticated Orson-thread participation and does not count toward four-of-five authenticated activations. Repository-only optional context to ordinary Sable is the final routing step; no chat delivery, consumption, or acknowledgment claimed.
+- Existing :00 automation ID 6aa1fe0de5e48191b886496095b1343f remains enabled with exact original schedule DTSTART;TZID=America/New_York:20261001T140000 / RRULE:FREQ=HOURLY. No task, prompt, ID, cadence, phase, or enabled-state change; no sixth task.
+
+---
+
 # Current checkpoint amendment | h938:s2 publication readback
 
 The HSH-PUBLISH-V1 workflow has created the expected artifact through GitHub Actions bot commit cbc9377191d78cd97d144c1a0f51d0ffc7b475f0. The fixed artifact path now exists and its 15,026 UTF-8 bytes exactly match the workspace report and issue JSON content. SHA-256 caf87815d44a1260e012e06e46c8c87b65a96066f81b5bae5f42e35caea0f4d7 matches.
