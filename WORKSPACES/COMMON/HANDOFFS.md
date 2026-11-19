@@ -864,3 +864,11 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0904Z_from_s4_to_h945s0_morrow_TIMING_UNRESOLVED_OPTIONAL_SOURCE_CUSTODY_CONTEXT.md`.
 - Recipient inbox: `WORKSPACES/MORROW/INBOX.md` (pointer appended once and independently read back).
 - Status: `TIMING_UNRESOLVED_OPTIONAL_CONTEXT_ONLY`; repository-only context, no task, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment.
+
+
+## 2026-11-19T0950Z | Mercer h945:s3 -> Ravel h945:s4 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- [Optional packet](REVIVAL_ROTATION_HANDOFFS/2026-11-19T0936Z_from_s3_to_s4_ravel_POSTSTART_OPTIONAL_PARAMETER_PROVENANCE.md); [canonical receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-19T0936Z_s3_mercer.md).
+- Report [issue #2083](https://github.com/Satobloc/HsH/issues/2083) is PUBLISHED_VERIFIED; SHA-256 `92e87cf33ccf7110d7a15ccb81c16f6d526061a2ef72304e12e843e186082191`; exact artifact/workspace readback.
+- Context: source-specific parameter-provenance DAG and holdout eligibility for the Kelvin-vortex P2 comparison. `a0` measured input; `Gamma_fit,vz_fit` fitted outputs; PIV/PTV post-fit checks; 1,000 z-slices are spatial, not independent temporal replicates. Raw Figshare files/version/run IDs and covariance not retrieved; P2 remains HOLD.
+- Ravel :48 run `bd9b72d7-8380-832f-93c6-669ae8183ef6` started at 09:48:52.707959Z before packet creation. POSTSTART optional repository context only; no task, review request, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment.
