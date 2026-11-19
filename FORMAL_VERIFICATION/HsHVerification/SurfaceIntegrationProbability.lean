@@ -28,7 +28,7 @@ structure FiniteMassModel where
 
 /-- Mass assigned to an event represented as a finite set. -/
 def mass (P : FiniteMassModel (Ω := Ω)) (A : Finset Ω) : ℚ :=
-  ∑ ω in A, P.weight ω
+  ∑ ω ∈ A, P.weight ω
 
 /-- Conditional mass, defined only for events with nonzero mass. -/
 def condMass (P : FiniteMassModel (Ω := Ω)) (A B : Finset Ω) : ℚ :=
