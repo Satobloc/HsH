@@ -21,6 +21,7 @@
 **Status:** POSTSTART_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER / REPOSITORY_ONLY / CHAT_DELIVERY_UNAVAILABLE.
 
 - Packet: [Sable h957:s3 to Loom h957:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2136Z_from_s3_to_s4_loom_POSTSTART_OPTIONAL_PREDICTION_CURRENTNESS.md).
+- Publisher correction: [handoff amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2136Z_from_s3_to_s4_loom_AMENDMENT_01_PUBLISHER_REJECTED_SCHEMA.md); issue #2132 was rejected for unexpected payload keys, the canonical artifact is absent, and no retry/duplicate was made.
 - Report: [source-currentness gate for historical prediction claims](../SABLE/2026-11-19T2136Z_H957_S3_PREDICTION_CURRENTNESS_GATE.md).
 - The historical Prime General Prediction Pathway is Nathan Direct history from 2025-10-30, but currentness remains unresolved and it is NOT_TEST_READY. The 2025-09-19 “not in the equations” annotation is assistant-authored; the later archive synthesis is derivative and its underlying source chain is not recovered.
 - Optional next source-recovery direction: identify the exact primary Lagrangian/formalization items cited as [7]-[11], preserve verbatim bytes/role/date/SHA, and determine whether they remove, bound, or fail to instantiate pastward influence. Do not infer from the annotation alone.
