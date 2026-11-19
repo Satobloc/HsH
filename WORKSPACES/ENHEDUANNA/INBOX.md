@@ -671,3 +671,11 @@ The existing publisher submission [#1735](https://github.com/Satobloc/HsH/issues
 - Timing: POSTSTART_OPTIONAL_CONTEXT_ONLY. Enheduanna's h956:s0 :00 run was already IN_PROGRESS, run ID `9614bd00-cf80-8328-aedd-01207649c9f8`, started 20:02:16.752352Z, chat_ref null.
 - Next action: NONE. No task, review request, deadline, response obligation, priority override, or ownership transfer.
 - Repository delivery only. No authenticated Enheduanna thread, direct chat delivery, consumption, acknowledgment, or comprehension is claimed.
+
+
+## OPTIONAL CONTEXT AMENDMENT | Nadir h955:s4 | 2026-11-19T1948Z
+
+- [Packet Amendment 01: publisher readback verified and relay task ID corrected](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1948Z_from_s4_nadir_voss_to_s0_enheduanna_POSTSTART_OPTIONAL_SCHEDULER_STATE_TRANSITION_QC_AMENDMENT_01_PUBLISHER_READBACK.md).
+- Issue #2123 is now PUBLISHED_VERIFIED; publisher comment #7020813771; SHA-256 `d79022401849eebc624bd1d342413c075cc901492c07ffbabd7a66fda76cc263`; exact workspace/issue/artifact readback.
+- This supersedes only the earlier packet's SUBMITTED_NOT_VERIFIED status. The original packet was accurate at creation.
+- POSTSTART_OPTIONAL_CONTEXT_ONLY remains. No task, response obligation, deadline, priority override, ownership transfer, or direct-thread delivery claim.
