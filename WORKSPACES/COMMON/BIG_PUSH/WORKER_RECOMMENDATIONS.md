@@ -39,3 +39,10 @@ Pilot the pattern in one workflow for several operation cycles. Record:
 - procedural overhead versus useful work.
 
 Only promote components that show practical benefit.
+
+## Refinement: the Memory Credenza
+
+The [Memory Credenza model](../COMMON/MEMORY_CREDENZA_MODEL_2026-11-19.md) is a proposed compact map of the larger project environment. The tiny Key points to it; the Credenza routes workers to selectively loaded sources, questions, findings, tools, methods, neglected areas and return points; the Castle is the full repository-backed environment. Treat each cubby as an access point with a purpose, trigger, status, last-inspected marker and return cue, not as a mandatory checklist or a duplicate store of source material.
+
+The model gives the existing tick/tock pattern a navigable structure: tick preserves the current place/return pin; tock advances only after a bounded operation has produced and recorded a durable result; heartbeat remains a separate signal of meaningful human-directed project activity. A possible sampler combines overdue coverage rotation with stratified random inspection, so quiet areas can be surfaced without making random selection a proxy for importance. Sampling and automation remain proposals until a bounded pilot demonstrates useful state change. Different workers may use different rhythms or none.
+
