@@ -376,3 +376,8 @@ Canonical additive receipt: [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2
 ## H945:s3 scheduler readback amendment | 2026-11-19
 
 - [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0936Z_s3_mercer_AMENDMENT_01_SCHEDULER_READBACK_BOUNDARY.md) preserves the last successful :36 peek at 09:50Z (enabled, exact hourly schedule, run d2c0efae IN_PROGRESS) and the subsequent 09:52Z tool error (`task not found or not accessible`; `get` HTTP 404 Action not found). No task mutation, disable, replacement, ID/cadence change, or sixth task. Final enabled state could not be re-read after the last successful peek.
+
+
+### h949:s2 handoff timing correction
+
+The Ravel :36 task's scheduled time was 13:36:00Z, but its actual run began at 14:04:04.423Z. The optional packet committed at approximately 13:50Z was therefore **LATE_PRESTART_OPTIONAL_CONTEXT_ONLY**. Repository inbox readback is verified; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
