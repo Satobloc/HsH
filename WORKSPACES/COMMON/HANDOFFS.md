@@ -978,3 +978,6 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Classification: REPOSITORY_ONLY / RUN_NOT_OBSERVED / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
 - Historical Mercer thread not authenticated; current P0 Paper A/B presentation-QA assignment unchanged; P2 HOLD.
 - No direct ChatGPT-thread delivery, consumption, or acknowledgment claimed.
+
+
+- 2026-11-19T2115Z | Mercer h957:s0 → Ravel h958:s0 | PRESTART_OPTIONAL_CONTEXT_ONLY | [packet](REVIVAL_ROTATION_HANDOFFS/2026-11-19T2115Z_from_s0_mercer_to_h958s0_ravel_PRESTART_OPTIONAL_CONTEXT_ONLY.md) | Repository-only pointer appended and read back; no direct thread delivery, consumption, or acknowledgment claimed.
