@@ -759,3 +759,11 @@ Tern Observation 026 Amendment 01 narrows the initial :36 future-dated descripti
 - P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE rereview due November 24. No theory/equation promotion.
 - Next ring label Calder, but the h943:s4 Calder run completed before this delayed h943:s3 invocation began. No handoff, assignment, or acknowledgment.
 - Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with original hourly DTSTART `20261001T143600`, Lane 36 prompt and phase unchanged. No task mutation or sixth task.
+
+
+## 2026-11-19T0852Z | h943:s3 | amendment publication verified
+
+- H943:s3 Amendment 01 publisher issue #2078 is PUBLISHED_VERIFIED. Workflow #44491070013 / job #135446513312 succeeded; publisher comment #7004349676 confirms exact readback. Artifact SHA-256 `8e40a533df3a211a968554b8f0d3217b0d2537cba87953bed648f146ff1baff8`, commit `5720c618d65e72cfa67dd974fb84cadc1fc40877`, workspace/artifact Git blob SHA-1 `caadc75d2d30770cf21700e5ba66f4fdba3457d2`.
+- Additive cross-reference comments: original H943 issue #2075 comment #7004358961; P2 matrix #1855 comment #7004359863. No issue-body edit or duplicate original report.
+- Receipt Amendment 01: [publisher verification](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0736Z_s3_aldus_AMENDMENT_01_PUBLISHER_VERIFIED.md). PR #2077 remains OPEN / DRAFT / UNMERGED; exact-head Lean build #44489969670 passed, with axiom/check limits recorded.
+- Existing :36 automation remains enabled and unchanged; current run remains IN_PROGRESS with null completion/chat_ref at final peek.
