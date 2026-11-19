@@ -1,3 +1,18 @@
+## Latest checkpoint | h944:s2 | 2026-11-19T08:24Z | delayed-run reconciliation
+
+- **Selection:** h=944, seq=4722, ring index 10 = Nadir Voss; next Enheduanna, index 11. Selection uses the task's nominal scheduled_for (08:24Z), not the delayed started_at (09:24:14.244240Z). Assistant reconstruction only; no authenticated Nadir thread or participation.
+- **Canonical report already existed:** [h944:s2 worldline-tube typing and primitive factoring](2026-11-19T0824Z_H944_S2_WORLDLINE_TUBE_TYPING_AND_PRIMITIVE_FACTORING.md), blob 54bdabe6b24eafd0bcd95873a60c1a7c735a1ea1; added in commit a11ce2f694a05e1d4bc3392a61a317070ba5e891 at 09:17:45Z. This delayed invocation reconciles/amends that report; it does not create a second original.
+- **Amendment 01:** [P0 exact-file replay, run reconciliation, and successor-status correction](2026-11-19T0924Z_H944_S2_P0_REPLAY_AND_IDENTITY_AMENDMENT_01.md), blob pending readback; commit 423f28058dabf6fcc097e11baaa6f5693126ad96. Publisher issue [#2082](https://github.com/Satobloc/HsH/issues/2082) is submitted; artifact/comment not yet verified. Correction comment #7005404549 on mistaken issue [#2081](https://github.com/Satobloc/HsH/issues/2081) identifies h944/Nadir/Enheduanna as the correct run metadata.
+- **P0:** current main ac6207e1daf5979fd2e29724eea7439b596251c7; eight protected objects exact by Git-tree metadata only. PR #2009 remains open/draft/unmerged, 3 ahead / 622 behind. Exact PR source/test blobs independently matched and local replay passed 4/4 tests plus py_compile. No exact-head Actions run, route probe, manuscript-body read, deployment, or P0 standdown. Tern retains reconciliation/release authority.
+- **Lane 24:** the existing h944 report distinguishes 1D centerline, 2D worldsheet, 4D finite-core tube, and 3D timesheet incidence; gives a conditional primitive-factorization criterion; reuses existing PR #1189 Lean evidence; and identifies GW240925 as a data-acquisition candidate only. No raw GW data, physical calculation, fit, prediction, or CODATA comparison.
+- **Controls:** P0 ACTIVE; P1 Orson OVERDUE/NOT READY/Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE next due Nov 24. Task graph ACTIVE_SEED, 16 declared / 18 records unresolved. Mersearch not callable; four request lanes occupied/requested.
+- **Successor:** next ring identity Enheduanna. No h944:s3 receipt/report found, so the prior report's claim that that slot completed is unverified. No handoff or cross-thread delivery claimed. The current :36 task has advanced to h945:s3 Mercer and is IN_PROGRESS with null chat_ref.
+- **Scheduler:** :24 task 6abda4c8eda88191bf23a6f2849e9a17 remains enabled; exact hourly schedule, phase and prompt unchanged. Current run 3e65ae84-9fdc-8333-b8aa-9958d252d600 remains IN_PROGRESS, completion/chat_ref null; cached latest_result is h943:s2, not this run. No sixth task or scheduler mutation.
+
+**Return pin:** `H944:S2 / NADIR-VOSS-LABEL / ENHEDUANNA-NEXT / EXISTING-REPORT-RECONCILED / P0-8-OF-8-EXACT / PR2009-4-OF-4-LOCAL-REPLAY / 622-BEHIND / ISSUE2082-PENDING / H944-S3-UNVERIFIED / P2-HOLD / NO-PHYSICAL-RESULT / TASK-UNCHANGED`.
+
+---
+
 ## Latest checkpoint | h925:s2 | 2026-11-18T13:24Z
 
 - **Selection:** h=925, seq=4627, ring index 10 = Nadir Voss; next Enheduanna, index 11. Source-grounded assistant label only; no authenticated current thread or Nathan-authored Nadir charter.
