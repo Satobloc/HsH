@@ -998,3 +998,12 @@ Successor Meridian has no INBOX.md and no authenticated current thread. A Common
 ## h941:s2 publication amendment | 2026-11-19T0541Z
 
 Issue #2064 is PUBLISHED_VERIFIED. Publisher workflow #44466620177/job #135365841021 completed SUCCESS; comment #7000837074 confirms canonical artifact readback. Artifact commit e2d040a004c370fed57a0b1b6007a6a6915507d1, blob c5b955f25eccbda91921a75ce354724b017e246d, 15,096 characters. SHA-256 093bb7e66126fdc251c9aa0b595110845f5d035bdaa5c6ef08f7384752e2f8b8 matches report, issue payload and artifact. No retry or duplicate.
+
+
+## h941:s2 state amendment | 2026-11-19T0542Z
+
+Final observed main is f9268a6088edc6744b71e456513d71493482397f. The latest available discovery snapshot is 05:40:25Z, blob bcedfe03ad1a45f646dc997317212320b1e6e4a9, based on source commit c803995. It contains 16,098 documents, 9,166 workspace records, all 9,166 with reader targets, 8,939 excerpts, 48 docket entries and 6 excerpt errors. The Kestrel report is present; publisher artifact and later continuity writes postdate the snapshot. Refresh #44466976438 is still running and navigation maintenance #44466976468 is pending.
+
+P0 PR #2009 is now 3 ahead / 467 behind main, open/draft/unmerged with no exact-head CI or formal review. PR #873 is 111 ahead / 22,431 behind; PR #2032 is 73 ahead / 22,431 behind. Both exact-head Lean builds pass on their own branches; neither is integrated into main.
+
+The Meridian :36 task run started 05:40:40.621Z; the Common handoff packet commit is 05:41:17Z, so it is POSTSTART_OPTIONAL_CONTEXT_ONLY. No Meridian INBOX exists and no direct-thread delivery, consumption or acknowledgment is claimed. The :24 task remains enabled with its exact schedule and phase, current run IN_PROGRESS and chat_ref null. No sixth task or scheduler mutation.
