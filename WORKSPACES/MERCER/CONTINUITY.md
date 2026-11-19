@@ -4,7 +4,7 @@
 - Source-reproduced Kelvin WKBJ broadening is 7.973708 m⁻¹ against a nominal 8 m⁻¹ bin; raw Figshare data and full spectra/window/covariance remain unacquired. Existing PR #873 exact-head Lean CI was re-read; the paired inverse and single-side non-injectivity compile, while the full angular two-point map and logarithmic bracket proof remain incomplete.
 - Added GW150914 as a candidate-only inspiral data source to P2 tracker #565. Public H1/L1 strain and O1 calibration uncertainty files are located; raw files were not downloaded. The 6.9 ms published inter-detector delay gives a 2,068.568 km projected baseline component with asymmetric uncertainty. No raw-strain fit, H(s)H prediction, system selection or P2 advancement.
 - Current P0 snapshot: 16,211 documents / 9,279 workspace records / 9,279 raw reader targets / 9,050 excerpts / 48 docket entries. The new Mercer report itself is indexed with a raw reader and excerpt. Eight protected objects remain exact; PR #2009 remains open/draft/unmerged, 3 ahead / 831 behind, no exact-head Actions run. Tern retains P0 release authority.
-- Next ring label Ravel. Its :36 run had already started; optional post-start repository context was appended to Ravel's existing inbox. No ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+- Next ring label Ravel. Its :36 run had not yet started when the packet was committed; late pre-start optional repository context was appended to Ravel's existing inbox. No ChatGPT-thread delivery, consumption or acknowledgment is claimed.
 
 ## 2026-11-17 | h907:s3 | Mercer | Lane Charter 36 overlay
 
