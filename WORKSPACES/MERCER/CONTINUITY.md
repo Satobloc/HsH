@@ -381,3 +381,7 @@ Canonical additive receipt: [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2
 ### h949:s2 handoff timing correction
 
 The Ravel :36 task's scheduled time was 13:36:00Z, but its actual run began at 14:04:04.423Z. The optional packet committed at approximately 13:50Z was therefore **LATE_PRESTART_OPTIONAL_CONTEXT_ONLY**. Repository inbox readback is verified; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+### O1 calibration covariance clarification
+
+The official LIGO-P1500248-v15 DCC package's `PostReview_changesToAddressCovariance.txt` records covariance additions to (q^{(stat)}), (q^{(fdcf)}), (q^{(tdcf)}), (q^{(fdcf,fit)}), Eq. 12 and Fig. 8. A future GW150914 analysis must preserve the event-time hourly H1/L1 frequency-dependent complex calibration errors and this covariance treatment; the <10% magnitude / <10° phase envelope is not a flat scalar correction. Raw strain and calibration files remain unacquired; no fit or prediction is claimed.
