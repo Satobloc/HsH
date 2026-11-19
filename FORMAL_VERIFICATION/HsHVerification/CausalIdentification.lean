@@ -72,7 +72,7 @@ theorem one_observation_does_not_identify_effect (assignment outcome : Bool) :
   have hAgreement :
       effect (sameOutcomeWorld outcome) ↔
         effect (alternativeWorld assignment outcome) :=
-    h.agreement
+    @Identified.agreement assignment outcome h
       (sameOutcomeWorld outcome)
       (alternativeWorld assignment outcome)
       (same_world_matches_observation assignment outcome)
