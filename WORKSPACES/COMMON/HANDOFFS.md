@@ -967,3 +967,6 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 
 - [Optional log-time / physical-time context](REVIVAL_ROTATION_HANDOFFS/2026-11-19T2036Z_from_s3_to_s4_meridian_POSTSTART_OPTIONAL_TURBULENT_BLOB_LOGTIME.md).
 - Created after Meridian's :48 run became visible at 20:48:54.797275Z. Repository-only context; no direct-thread delivery, assignment, review request, response obligation, ownership transfer, consumption, or acknowledgment claimed.
+
+
+- [Amendment 01: Kestrel h956 publisher and Lean verification](REVIVAL_ROTATION_HANDOFFS/2026-11-19T2036Z_from_s3_to_s4_meridian_AMENDMENT_01_PUBLISHER_AND_LEAN_VERIFIED.md) — poststart optional context only; no assignment or direct-thread delivery claim.
