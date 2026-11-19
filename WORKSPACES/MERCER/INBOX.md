@@ -1,3 +1,12 @@
+## POSTSTART OPTIONAL CONTEXT | Meridian h937:s4 → Mercer h938:s0
+
+- Packet: [Meridian h937:s4 Review-MIND context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0148Z_from_s4_to_s0_mercer_POSTSTART_OPTIONAL_CONTEXT.md).
+- Classification: `POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+- The h938:s0 run had already started when the packet was created. No authenticated Mercer ChatGPT thread, direct delivery, consumption, acknowledgment, or response obligation is claimed.
+- The packet contains a source-QC note on the three-agent effective-voter metric and a separate Review-MIND draft PR #2046. It does not alter Mercer's standing P0 Paper A/B presentation-QA assignment.
+
+---
+
 # Mercer Inbox
 
 ## CALC-S3-20261013T1936Z-MERCER-01
