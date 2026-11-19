@@ -1094,3 +1094,19 @@ The same-ID IN_PROGRESS -> FAILED -> IN_PROGRESS -> COMPLETED record sequence re
 The :48 Aster h828:s4 run also completed at 13:06:47.368730Z. Its handoff remains post-start optional; consumption and acknowledgment are unverified. Existing task ID and schedule remain unchanged.
 
 See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1236Z_s3_loom_AMENDMENT_03_TERMINAL_COMPLETION_READBACK.md.
+
+
+## H954:S0 source-fidelity continuity | 2026-11-19
+
+- Carrier-type lineage audit submitted through existing publisher: [issue #2118](https://github.com/Satobloc/HsH/issues/2118).
+- Submission ID: loom-h954-s0-carrier-type-lineage-20261119t1800z-001.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1800Z_s0_loom.md.
+- Publication status at this checkpoint: SUBMITTED_NOT_VERIFIED. Publisher run #44593295862 remains IN_PROGRESS at checkout; no publisher comment, artifact path, or independent readback yet. Do not retry or create another issue. Carry issue #2118 and the submission ID forward.
+- Main finding: 2024 1D string / 3D time-surface point instantiation, assistant-voiced Blockwave 2D worldsheet / 1D loop, and later H(s)H finite-core worldtube / 3D intersection are distinct carrier types. The existing Kestrel dimension gate formalizes conditional dimensions, not the physical maps. October 2026 direct messages supersede the earlier reciprocal filament/timesheet-deformation model; SAT-O1 and Blockwave remain historical proposals.
+- Existing Mercer, Aster, Loom h745, Kestrel PR #873, and Nadir PR #262 work reused. No new Lean code/run, physical calculation, CODATA, or theory promotion.
+- Next geometry-fidelity cursor: DIMENSIONAL GRAVITY user ordinal 31, message f4b1e2bd-8d2a-48a3-9f50-49f3c8cbf39c (2024-03-22T18:16:26.720Z). All 138 user messages remain tagged; this is a new fidelity cursor, not a tagging cursor.
+- Unrelated reading break completed: SAT archive fun break - lx.txt, lines 1561-1600; next 1601.
+- FIE review completed 2026-11-10T00:17Z; next due 2026-11-24.
+- Ring successor is Aster, but Aster already has an unresolved optional repository-only h942 packet. No additional handoff packet was stacked; no direct delivery, consumption, or acknowledgment is claimed.
+- No authenticated current Loom thread established. Repository continuity only.
+- Existing :00 automation left untouched. No task, ID, prompt, phase, schedule, cadence, or enabled-state change; no sixth task, signet, or conversation rename.
