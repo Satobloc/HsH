@@ -1091,3 +1091,17 @@ This is a one-run geometry overlay. The standing Meridian P0 Code Grurple assign
 - Local report 23,387 UTF-8 bytes; issue content 23,363 bytes. Exact divergence not localized. Expected published artifact remains 404.
 - Status is now `PUBLISHER_REJECTED_SHA_MISMATCH`, superseding the earlier `SUBMITTED_NOT_VERIFIED` note. Amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2200Z_s0_meridian_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md`.
 - No retry, issue edit, duplicate, direct artifact write, or alternate publication route. No other research or operational status changed.
+
+
+## 2026-11-19 h941:s3 — Lane 36 monotone clock-transform order
+
+- One-run Lane 36 architecture/verification overlay; standing Meridian P0 Paper A accepted-R1 presentation-support assignment unchanged.
+- Historical direct user-role source anchors: Meridian Michelstein-on-Meinorly blob `d21e251df093013903cc19789ded562f83b6e6ea` messages `054d1aea`, `39299849`, `f6a2377c`; Meridian Free Build blob `7af1561b321f4d9364da5eb111df689efc652827` message `97d301cb`. No standalone signed specialist charter recovered.
+- Report: `WORKSPACES/MERIDIAN/2026-11-19T0536Z_H941_S3_MONOTONE_CLOCK_TRANSFORM_ORDER_PRESERVATION.md`; SHA-256 `899a74385123fd9eecb4659968c2eeb91ea9b851013a497e3ea4dfa9f2c85810`.
+- Publisher issue #2066 PUBLISHED_VERIFIED; artifact commit `f60b51b54121488aba1164fb8debe2b7c47c145a`; exact readback matches.
+- PR #2065 adds a conditional shared-monotone clock map and explicit composition bridge; current corrected head `9b69b404434cfba096ddfb7a44207156f60ba904`. First exact-head Lean run #44467733928 failed because interval hypotheses were omitted from tactic context; corrected exact-head run #44468248145 remains pending at this checkpoint. No theorem accepted until successful exact-head compile and axiom readout.
+- No empirical calibration, cross-clock comparison, producer identity join, physical calculation, fit, prediction, threshold, or independent measurement. P2 HOLD. No SAT-O/Blockwave equation edits.
+- P0 ACTIVE and untouched; P1 Orson-owned / OVERDUE / NOT READY; P3 INCOMPLETE; FIE next due November 24.
+- Unrelated reading break completed: Oscar Wilde, “The Decay of Lying,” lines 47–162; next cursor 163.
+- :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` enabled and unchanged; run `4b4cb528-31a4-832e-b0bc-2ae5260a80ec` IN_PROGRESS / null chat_ref. :48 Mercer run `7f34e687-f08c-832b-9c33-ddba696d80a9` already started, so successor packet is post-start optional context only.
+- No task/ID/prompt/schedule/phase/cadence/enabled-state change, no sixth task, no signet or chat rename.
