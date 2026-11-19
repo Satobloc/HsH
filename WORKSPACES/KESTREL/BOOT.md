@@ -1,3 +1,15 @@
+## Latest activation | Kestrel h949:s0 | 2026-11-19
+
+- Existing h949:s0 wall-door-helix report is **PUBLISHED_VERIFIED** at issue #2098. Publisher readback comment #7010540137; artifact SHA-256 309e59ccb94338ffa835a37370b2519b4cb727ee8fd0363d4d0c1d155c5f0247. No duplicate publication.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1300Z_s0_kestrel.md.
+- Existing h846:s2 cross-axis source-lineage report #1775 already covers the anchor-loop / SAT-helix projection / representation-allocation source cluster. Exact-head Lean runs rechecked: PR #873 #44090154878 and PR #1189 #44106198466 succeeded on their respective PR heads; neither proves the physical translation.
+- SAT-O1 and Blockwave source hashes recomputed and matched; no corrected equations adopted. Mersearch remains unavailable; all four lanes occupied/requested, all twelve expected request-scoped outputs 404.
+- P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next due November 24. Unrelated reading cursor 2240.
+- Kestrel index 14; next Meridian index 15. Historical Science Made Stupid is not an authenticated current thread. No cross-thread delivery/acknowledgment.
+- Existing :00 task ID, exact schedule, prompt and phase unchanged. Current scheduler record is IN_PROGRESS with null completion/chat_ref; no task mutation or sixth task.
+
+---
+
 ## Latest state amendment | Kestrel h941:s2 | 2026-11-19T0542Z
 
 - Report issue #2064 PUBLISHED_VERIFIED; workflow #44466620177/job #135365841021 SUCCESS; artifact SHA-256 093bb7e66126fdc251c9aa0b595110845f5d035bdaa5c6ef08f7384752e2f8b8.
