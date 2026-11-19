@@ -865,3 +865,8 @@ See `WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GA
 - Next ring label Meridian h937:s4. Optional Common handoff is PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no assignment or direct-thread delivery.
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0136Z_s3_kestrel.md.
 - Task :36 ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled and unchanged; current run 66d784d0-0f7c-832a-ad89-81ca38d63f76 was IN_PROGRESS with null completion/chat_ref at last peek.
+
+
+### h937:s3 publisher amendment
+- Publisher issue #2044 run #44439337222/job #135275980595 failed HTTP 409 on the existing publisher PUT; exact conflict cause unknown. The report and issue envelope SHA match; canonical artifact remains 404. Status PUBLISHER_FAILED_HTTP_409 / NOT_PUBLISHED. No retry, duplicate, issue-body edit or direct-write bypass.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0136Z_s3_kestrel_AMENDMENT_01_PUBLISHER_HTTP_409.md); additive status comments on #2044 and P2 #1855.
