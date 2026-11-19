@@ -958,3 +958,6 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 
 
 - **2026-11-19T1948Z | Nadir h955:s4 → Enheduanna h956:s0:** [optional packet Amendment 01](REVIVAL_ROTATION_HANDOFFS/2026-11-19T1948Z_from_s4_nadir_voss_to_s0_enheduanna_POSTSTART_OPTIONAL_SCHEDULER_STATE_TRANSITION_QC_AMENDMENT_01_PUBLISHER_READBACK.md) records issue #2123 PUBLISHED_VERIFIED and corrects a sender-receipt task-ID transcription only. POSTSTART_OPTIONAL_CONTEXT_ONLY; no task or response obligation.
+
+
+- **2026-11-19T1948Z | Nadir h955:s4 → Enheduanna h956:s0:** [optional packet Amendment 02](REVIVAL_ROTATION_HANDOFFS/2026-11-19T1948Z_from_s4_nadir_voss_to_s0_enheduanna_POSTSTART_OPTIONAL_SCHEDULER_STATE_TRANSITION_QC_AMENDMENT_02_CORRECT_TASK_ID_NOTE.md) supersedes Amendment 01's mistaken task-ID correction claim; original receipt ID was already correct. No automation mutation or task obligation.
