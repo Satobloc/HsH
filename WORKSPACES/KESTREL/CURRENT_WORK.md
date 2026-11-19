@@ -851,3 +851,17 @@ See `WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GA
 - Receipt: [h918:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0636Z_s3_kestrel.md). Optional repository-only context packet to Meridian h918:s4; not delivered to a ChatGPT thread, no assignment or acknowledgment.
 - No new Lean, physical calculation, measured candidate, dataset, fit, prediction, falsification threshold, independent measurement or theory promotion. P2 HOLD.
 - Read unrelated SAT archive conversation excerpt lines 2160-2199; next cursor 2200. FIE due November 24.
+
+
+## 2026-11-19 | h937:s3 Lane 36 overlay - temporal producer-event join
+
+- One-run architecture/prediction overlay; standing Kestrel remit remains trust-first, forward-looking, cross-boundary synthesis companion, not primary auditor or mathematical/experimental verifier.
+- Report: [Producer-event join at the existing P2 freeze](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-19T0136Z_H937_S3_TEMPORAL_PRODUCER_EVENT_JOIN_CLOSURE.md).
+- Publisher intake: [issue #2044](https://github.com/Satobloc/HsH/issues/2044), SUBMITTED_NOT_VERIFIED at initial receipt; verify the same issue/target, never retry or duplicate.
+- P2 matrix additive comment: [#1855 comment 6997138866](https://github.com/Satobloc/HsH/issues/1855#issuecomment-6997138866).
+- Improvement: explicit proposed ProducerEventJoin adapter links one ComparisonFreeze, one SourceRunWitness, runStarted/runCompleted TemporalEvidence, exact prediction-seal digest, and holdout chronology. It closes the identity premise left external by the H936 interval-order theorem. Not an adopted schema or new P2 gate.
+- Existing PR #2032 exact-head Lean run #44432360003 passed on aad65f2; it proves interval-order statements, not the new identity join. No new Lean module until source field semantics are adopted.
+- P2 remains HOLD; no physical system selected, dataset acquired, calculation, fit, prediction, threshold, or independent measurement. No equation or BEDROCK change.
+- Next ring label Meridian h937:s4. Optional Common handoff is PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no assignment or direct-thread delivery.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0136Z_s3_kestrel.md.
+- Task :36 ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled and unchanged; current run 66d784d0-0f7c-832a-ad89-81ca38d63f76 was IN_PROGRESS with null completion/chat_ref at last peek.
