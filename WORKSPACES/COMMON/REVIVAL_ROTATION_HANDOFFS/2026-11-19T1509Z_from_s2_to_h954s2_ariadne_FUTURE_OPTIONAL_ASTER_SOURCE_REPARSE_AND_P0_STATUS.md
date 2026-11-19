@@ -29,3 +29,18 @@ The SAT archive Electrogravacoustics table explicitly labels the 3.0×10^6 m GW1
 - FIE next November 24; no early rereview.
 
 This packet is only a durable optional context pointer. It creates no review, task, deadline, response obligation, or theory authority. No direct Ariadne-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Publication update — 2026-11-19T15:15Z
+
+The additive source amendment is now PUBLISHED_VERIFIED:
+- Issue #2102 publisher comment #7013101780.
+- Artifact path WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-h950-s2-raw-export-reparse-amendment-20261119t1501z-001.md.
+- Publisher commit 2ce74623049793da9fb4a4568ae6455f42d1c703.
+- Artifact blob d481d88b7a98edfc5394056a6af49beeca60696d.
+- SHA-256 df64755319a5d23c247897380a63f1dde547348a13c88e0e70c49de99ae0afaa.
+- Exact issue/workspace/published-artifact comparison passed.
+
+Final observed main is d481366c09d72d0203a930042ed0d76e96dff362. PR #2009 is 3 ahead / 894 behind, open/draft/unmerged, mergeable=false; P0 remains ACTIVE and Tern retains reconciliation authority.
+
+The original packet-creation snapshot that marked #2102 pending is preserved above as historical timing. No retry or duplicate was made.
