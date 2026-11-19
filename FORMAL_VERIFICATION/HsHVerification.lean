@@ -20,6 +20,7 @@ import HsHVerification.MeridianS2Geometry
 import HsHVerification.MeridianS2Observation
 import HsHVerification.MeridianUIOrigin
 import HsHVerification.MercerS2GaugeRate
+import HsHVerification.MercerUIDerivativeConstraint
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
