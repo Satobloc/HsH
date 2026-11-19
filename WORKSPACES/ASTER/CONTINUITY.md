@@ -1128,3 +1128,16 @@ Next deeper cursor: recover the separate November 9 gyroscope raw conversation; 
 - :36 automation ID/schedule unchanged; current run in progress, no chat_ref. No sixth task.
 
 - P2 matrix #1855 crosswalk comment #6983601424 was added and exact-readback verified; no new gate or advancement.
+
+
+## 2026-11-19 | Aster h950:s2 | GW150914 source genealogy and dependence audit
+
+- [Report](2026-11-19T1424Z_H950_S2_GW150914_SOURCE_GENEALOGY_AND_DEPENDENCE_AUDIT.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1424Z_s2_aster.md). Publisher intake #2101 SUBMITTED_NOT_VERIFIED at receipt creation; no duplicate/retry.
+- P2 tracker #565 already held a GW150914 area-law candidate in October 28 comment #6465461293. Mercer h949 comment #7011448278 adds a time-delay observable for the same event. This is not a new physical system or independent experimental replication.
+- SAT archive Electrogravacoustics concept table includes LIGO GW150914, wavelength 3.0e6 m, 100 Hz, Q=3A, Braid Smoothed. Four concept-file paths share one blob; two episode-page/SRT paths share another. The table's [2]/[6] references are internal locators, not recovered primary LIGO sources. Authorship and derivation unresolved. The 3.0e6 m value is consistent with c/f at 100 Hz, not an established detector baseline.
+- GWOSC timing delay 6.9 ms (+0.5/-0.4 ms) is used to shift/invert H1 for visualization. Its bounds' coverage semantics are not stated in the caption. The page's 90% source-parameter intervals do not automatically apply to the delay.
+- Scripted LALSuite 7.26 H1/L1 geometry reproduces B=3,001,775.759551 m and cΔt=2,068,567.960 m. This is a source-reproduced projection check, not raw-strain analysis. The raw H1/L1 v2 HDF5 and O1 calibration uncertainty files were not acquired; no DQ/injection check, calibration propagation, fit, prediction, or holdout.
+- Existing Kestrel PR #873 exact-head Lean run #44090154878 passed. Its generic non-injective projection theorem does not prove the GW150914 dot-product timing relation or the H(s)H composition. No new theorem/PR.
+- Nathan Direct source recovered for this lane is the current Lane 24 measurement discipline and 2026-10-29 time-wavefront/timesheet-first statement. No GW150914-specific Nathan Direct equation/map found in bounded HsH/SAT search. The source-worldtube-to-metric-to-strain chain remains a standard-GR comparator and assistant reconstruction; the H(s)H map is undefined.
+- P0 remains ACTIVE, P2 HOLD. P0 PR #2009 remains open/draft/unmerged, 3 ahead / 864 behind at observed main 663c51a3390953e87e24088ec97a4ccd5bc0098a. Paper A review remains frozen. FIE next Nov 24; unrelated-reading cursor 2001, not due.
+- No private HSH_RESOURCES payload, new tooling, branch, task, scheduler, signet, or conversation-name mutation. No authenticated current Aster thread or cross-thread delivery.
