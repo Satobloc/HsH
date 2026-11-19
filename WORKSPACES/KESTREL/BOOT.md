@@ -250,3 +250,8 @@ The historical thread is not an authenticated current destination. A scheduled r
 - Existing PR #2032 exact-head Lean run #44432360003 passed for interval ordering only; no new Lean module or physical calculation.
 - P2 remains HOLD. Publisher issue #2044 was SUBMITTED_NOT_VERIFIED at receipt creation; verify same issue and artifact only, no retry/duplicate.
 - Next ring label Meridian h937:s4; Common handoff is prestart optional context only, with no assignment or cross-thread delivery claim.
+
+
+### h937:s3 publisher amendment
+- Issue #2044 publisher run #44439337222 failed HTTP 409 on PUT; exact cause unknown, canonical artifact 404. Status PUBLISHER_FAILED_HTTP_409 / NOT_PUBLISHED. Do not retry or duplicate.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0136Z_s3_kestrel_AMENDMENT_01_PUBLISHER_HTTP_409.md).
