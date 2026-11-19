@@ -1950,3 +1950,10 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 
 - The h937:s2 return pin's `CORRECTION-2043-PENDING` label is superseded by `CORRECTION-2043-PUBLISHED-VERIFIED`: issue #2043 publisher run #44438668792 succeeded, and the correction artifact was fetched with exact issue-payload equality.
 - The preceding malformed successor bullet is superseded by this clean pointer: optional packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0144Z_from_s2_to_s3_kestrel_POSTSTART_OPTIONAL_LAYER11_SECOND_CASE.md`; Kestrel INBOX and Common HANDOFFS pointers were read back. Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY, with no direct-thread delivery, consumption, or acknowledgment claimed.
+
+
+### h937:s2 scheduler-ID correction | 2026-11-19
+
+- The h937:s2 report and canonical receipt initially transcribed the :24 Geometry task ID as `6abda4c8eda88191b8a91a30d2a155e0`. The correct existing :24 task ID is `6abda4c8eda88191bf23a6f2849e9a17`, verified against `WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md` and the fixed task table. The :48 task ID is `6aa6c3bc02b48191b8a91a30d2a155e0`; it is not the :24 lease.
+- No task was modified. The :24 hourly America/New_York schedule and phase remain unchanged; Morrow's own :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains unchanged; :12 remains disabled; no sixth task. Automations get/peek returned 404, so no separate live API readback is claimed.
+- Public metadata correction: [publisher issue #2045](https://github.com/Satobloc/HsH/issues/2045), same report-only correction scope; publisher readback pending at this checkpoint.
