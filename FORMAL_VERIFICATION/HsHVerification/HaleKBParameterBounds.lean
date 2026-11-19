@@ -12,10 +12,10 @@ DOI: 10.1073/pnas.2526858123.
 Supporting Information, §D, p. 7, reports:
 * instantaneous eddy adaptation: ell(t) = alpha * h(t);
 * alpha in [0.3, 0.6];
-* epsilon_0 = 0.88 +/- 0.10;
-* c_0 = 1.20 +/- 0.11;
+* epsilon_0 = 0.88 plus/minus 0.10;
+* c_0 = 1.20 plus/minus 0.11;
 * the model's numerical shooting maps the observed large-blob exponent
-  theta = 0.16 +/- 0.06 to epsilon_0/(c_0*alpha^2) in [40, 122].
+  theta = 0.16 plus/minus 0.06 to epsilon_0/(c_0*alpha^2) in [40, 122].
 
 The plus/minus values and alpha range are source-reported loose bounds, not a
 joint confidence region or a covariance model. This module proves only
