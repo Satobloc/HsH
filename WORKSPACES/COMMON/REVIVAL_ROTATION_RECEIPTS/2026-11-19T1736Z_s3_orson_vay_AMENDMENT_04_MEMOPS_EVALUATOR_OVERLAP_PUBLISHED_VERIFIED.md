@@ -11,7 +11,7 @@
 
 The original H953:s3 MemOps lifecycle/state-trajectory report remains [issue #2113](https://github.com/Satobloc/HsH/issues/2113), PUBLISHED_VERIFIED. This amendment adds a distinct source-to-code finding; it does not duplicate or replace the parent report.
 
-**Workspace addendum:** [MemOps evaluator overlap and paper-to-code configuration drift](../ORSON_VAY/2026-11-19T1736Z_H953_S3_MEMOPS_EVALUATOR_OVERLAP_AND_PAPER_CODE_DRIFT_ADDENDUM.md)
+**Workspace addendum:** [MemOps evaluator overlap and paper-to-code configuration drift](../../ORSON_VAY/2026-11-19T1736Z_H953_S3_MEMOPS_EVALUATOR_OVERLAP_AND_PAPER_CODE_DRIFT_ADDENDUM.md)
 
 - Workspace Git blob: `31283c07c8ab15cd0173f62ed6437ed78e0ba745`.
 - Exact workspace readback: MATCH.
