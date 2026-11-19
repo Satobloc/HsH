@@ -15,6 +15,7 @@
 - Latest assistant-run overlay: `REVROT3-19-20261011:940:s3`.
 - Report: [h940:s3 symbolic interval-order soundness](2026-11-19T0436Z_H940_S3_SYMBOLIC_INTERVAL_ORDER_SOUNDNESS.md), blob `1b97352665d68bb1d5b77899950817cae938e40a`.
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0436Z_s3_nadir_voss.md`.
+- Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0436Z_s3_nadir_voss_AMENDMENT_01_LEAN_PASS_AND_PUBLISHER_HTTP409.md` records exact-head Lean success and publisher HTTP 409 failure.
 - Underlying Lane 24/P2 sandbox remains BACKSEAT/HOLD; h940 is a one-run Lane 36 architecture/verification overlay, not a permanent role change.
 - Report: [h925:s2 Lane 24 source-custody and P0 recheck](2026-11-18T1324Z_H925_S2_LANE24_SOURCE_CUSTODY_AND_P0_RECHECK.md), blob `6881f2d67c58331c2fae972c41af36f415346476`.
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1324Z_s2_nadir_voss.md`, blob `c2923a03ef746b8aabf9f68264ec05acc8ac31e5`.
