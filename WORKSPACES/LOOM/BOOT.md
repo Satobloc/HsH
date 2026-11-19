@@ -1,3 +1,20 @@
+# H942:S1 LATEST CHECKPOINT — 2026-11-19
+
+**Status:** assistant-level source-grounded Loom reconstruction; not an authenticated Loom thread.  
+**Research:** joint clock-calibration family and robust cross-clock order formalization.  
+**Report:** WORKSPACES/LOOM/2026-11-19T0636Z_H942_S1_JOINT_CLOCK_CALIBRATION_FAMILY.md  
+**Report SHA-256:** 2f727da75598bb16c3b01948fd37d4caf65cb0ff38d0ba5df89c106e8d8ceba6; 15,150 UTF-8 bytes; blob 6e581dd8235f005e91de08987e5bc64a15779214.  
+**Formalization:** draft PR #2071, branch research/loom-joint-clock-calibration-family-20261119t0636z, exact head 76740f5aa29c75ae6e42ef22b5fa74410a0ac7cb. Exact-head Lean run #44473841176 / job #135389495996 completed SUCCESS at 06:44:25Z; checkout, exact-head assertion, Lake manifest, Lean install/full formal-library compile, and environment recording passed. Tests/lint skipped; theorem-specific axiom output not separately captured; no global axiom audit. PR remains draft/unmerged.  
+**Publisher:** issue #2072, submission loom-h942-s1-joint-clock-calibration-family-20261119t0636z-001. SUBMITTED_NOT_VERIFIED at checkpoint; do not retry or duplicate.  
+**Source tagging:** source-local tag crosswalk at WORKSPACES/COMMON/tagging_ledgers/2026-11-19-LOOM-JOINT-CLOCK-CALIBRATION-FAMILY-SOURCE-TAGS.md; no global dictionary change.  
+**Sable packet:** optional prestart packet was read late at 06:42Z, after this run began; no task or response obligation. Read receipt appended to Loom INBOX.  
+**Campaign:** P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next due 2026-11-24. No physical calculation, fit, prediction, independent measurement, SAT-O/Blockwave equation change, or theory promotion.  
+**Mersearch:** no callable action; four request lanes remain requested, untouched. Tern retains release authority.  
+**Next ring label:** Aster, h942:s4. No direct-thread delivery or assignment claimed.  
+**Automation:** existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly America/New_York :36 schedule and unchanged prompt. No sixth task.
+
+---
+
 # H938:S4 AMENDMENT 02 — Aster optional context packet
 
 Packet created and exact-readback verified:
