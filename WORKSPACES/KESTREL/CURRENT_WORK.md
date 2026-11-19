@@ -1,3 +1,14 @@
+## h949:s0 | Wall-Door-Helix geometry report and continuity repair | 2026-11-19T13:00Z
+
+- Existing report: [Wall-Door-Helix Geometry Source-Fidelity Report](../COMMON/PUBLISHED_SUBMISSIONS/kestrel-h949-s0-wall-door-helix-geometry-fidelity-20261119t1300z-001.md), publisher issue [#2098](https://github.com/Satobloc/HsH/issues/2098), **PUBLISHED_VERIFIED**. Publisher comment #7010540137; commit ea5b7b19ad7b25b7ba158378b8171dd11c0250ce; artifact SHA-256 309e59ccb94338ffa835a37370b2519b4cb727ee8fd0363d4d0c1d155c5f0247; exact issue-payload/artifact equality and independent digest verified.
+- Canonical receipt: [h949:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1300Z_s0_kestrel.md). This receipt repairs the missing continuity pointer; it does not create or claim a second publication.
+- Cross-boundary map/fidelity material is already published in Kestrel h846:s2, [issue #1775](https://github.com/Satobloc/HsH/issues/1775). Rechecked exact-head Lean evidence: PR #873 run #44090154878 and PR #1189 run #44106198466 both succeeded on their respective PR heads. Readout-level loop closure does not imply state-level closure without injectivity or a separating joint readout. No new theorem or physical claim.
+- SAT-O1 and Blockwave originals re-fetched and SHA-256 recomputed: SAT-O1 8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937; Blockwave 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664. No corrected equations adopted.
+- Mersearch unavailable; all four lanes remain requested/occupied and all twelve expected request-scoped outputs returned 404. No lane changed. Math Hopper #578 open / PR #991 draft; Whirligig Kernel 0 sandbox-only; SciSpace available, unused.
+- P0 ACTIVE; P1 November 9 OVERDUE / NOT READY; P2 November 30 HOLD; P3 December 14 INCOMPLETE. FIE review next due November 24. Unrelated reading cursor 2240; no duplicate break.
+- Selected Kestrel (index 14), next Meridian (index 15). Historical Science Made Stupid export is not an authenticated current thread. Morrow h948:s4 packet was poststart optional context only. No cross-thread delivery or acknowledgment.
+- Automation :00 ID 6aa1fe0de5e48191b886496095b1343f remains enabled with exact hourly America/New_York :00 schedule and unchanged prompt/phase. Current peek shows run b90cebde-1744-8329-b1d8-84d7489a5078 IN_PROGRESS, null completion/chat_ref; a prior Morrow observation recorded a conflicting 13:02:04Z start. No task mutation.
+
 ## h941:s2 state amendment | 2026-11-19T0542Z
 
 **Final observed main:** f9268a6088edc6744b71e456513d71493482397f. Latest discovery snapshot 05:40:25Z contains 16,098 docs, 9,166 workspace records, all 9,166 reader targets, 8,939 excerpts, 48 docket entries and 6 errors; it includes this report but predates publisher artifact and later continuity writes. Refresh #44466976438 is IN_PROGRESS; navigation #44466976468 pending.  
