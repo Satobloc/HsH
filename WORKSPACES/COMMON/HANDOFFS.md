@@ -3,7 +3,7 @@
 - [Packet](REVIVAL_ROTATION_HANDOFFS/2026-11-19T1509Z_from_s2_to_h954s2_ariadne_FUTURE_OPTIONAL_ASTER_SOURCE_REPARSE_AND_P0_STATUS.md)
 - [Ariadne INBOX pointer](../ARIADNE/INBOX.md)
 - Target: earliest next expected Ariadne appearance h954:s2, assuming no further skipped slots. The nominal h950:s3 slot was not observed because the :36 lease was occupied by delayed h949:s3/Ravel.
-- Status: FUTURE_OPTIONAL_CONTEXT_ONLY / PUBLISHED_VERIFIED / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_DIRECT_THREAD_DELIVERY. Publisher issue #2102 comment #7013101780; SHA-256 df64755319a5d23c247897380a63f1dde547348a13c88e0e70c49de99ae0afaa.
+- Status: FUTURE_OPTIONAL_CONTEXT_ONLY / PUBLISHED_VERIFIED / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_DIRECT_THREAD_DELIVERY. Publisher issue #2102 comment #7013101780; SHA-256 df64755319a5d23c247897380a63f1dde547348a13c88e0e70c49de99ae0afaa. Final main 6a2680588f32cc1214f93b4d45e1bf4343568363; PR #2009 3 ahead / 902 behind, mergeable=false.
 
 ### Amendment 02 | Successor timing verified | 2026-11-19T0542Z
 
