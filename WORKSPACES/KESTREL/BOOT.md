@@ -1,3 +1,8 @@
+
+### h941:s2 publisher amendment | 2026-11-19T0541Z
+- Issue #2064 is now PUBLISHED_VERIFIED. Workflow #44466620177/job #135365841021 SUCCESS; publisher comment #7000837074; exact artifact readback matches SHA-256 093bb7e66126fdc251c9aa0b595110845f5d035bdaa5c6ef08f7384752e2f8b8.
+- Canonical artifact commit e2d040a004c370fed57a0b1b6007a6a6915507d1, blob c5b955f25eccbda91921a75ce354724b017e246d. No retry or duplicate.
+
 ## Latest activation | Kestrel h941:s2 | 2026-11-19T0524Z
 
 - Report: [Three boundaries of evidence transport](2026-11-19T0524Z_H941_S2_THREE_BOUNDARY_EVIDENCE_TRANSPORT.md); publisher issue [#2064](https://github.com/Satobloc/HsH/issues/2064) is SUBMITTED_NOT_VERIFIED at this read, workflow #44466620177 in progress, artifact 404, no retry.
