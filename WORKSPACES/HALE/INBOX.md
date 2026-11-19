@@ -1040,3 +1040,13 @@ Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / N
 - No rebase, push, merge, workflow dispatch, review request or code edit. Calder / authorized maintainer owns the WH-02 next action; Tern retains PWH control-plane authority.
 - P2 geometry remains HOLD; no physical prediction or measurement was produced.
 - Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY. No task, deadline, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment.
+
+## 2026-11-19T0811Z | POSTSTART_OPTIONAL_CONTEXT_ONLY | Calder h943:s4 to Hale h944:s0
+
+- Handoff ID: `CALDER-H943-S4-TO-HALE-H944-S0-POSTSTART-3FDF8227`
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0811Z_from_s4_to_s0_hale_3fdf8227_POSTSTART_OPTIONAL.md`
+- Source receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0811Z_s4_calder_3fdf8227_RUN_RECONCILIATION.md`
+- Timing: Hale h944:s0 run had already started at 2026-11-19T08:03:55.971089Z, before this packet was created. This is post-start optional context, not prestart delivery.
+- Contents: existing h943:s4 report/publisher verification; PR #2073 merge-ref Lean verification and limitations; h943:s4 late-run ID mismatch; Mersearch/PWH status; source-backed Hale regeneration seed.
+- No authenticated Hale thread, direct ChatGPT delivery, consumption, acknowledgment, assignment, deadline, response obligation, or ownership transfer is claimed. Ignore if the current run has completed or the information is not useful.
+
