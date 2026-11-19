@@ -32,11 +32,11 @@ def mass (P : FiniteMassModel (Ω := Ω)) (A : Finset Ω) : ℚ :=
 
 /-- Conditional mass, defined only for events with nonzero mass. -/
 def condMass (P : FiniteMassModel (Ω := Ω)) (A B : Finset Ω) : ℚ :=
-  P.mass (A ∩ B) / P.mass B
+  mass P (A ∩ B) / mass P B
 
 theorem mass_mul_condMass (P : FiniteMassModel (Ω := Ω))
-    (A B : Finset Ω) (hB : P.mass B ≠ 0) :
-    P.mass B * P.condMass A B = P.mass (A ∩ B) := by
+    (A B : Finset Ω) (hB : mass P B ≠ 0) :
+    mass P B * condMass P A B = mass P (A ∩ B) := by
   unfold condMass
   field_simp [hB]
   ring
@@ -44,7 +44,7 @@ theorem mass_mul_condMass (P : FiniteMassModel (Ω := Ω))
 /-- Partition the correct outcomes into those with and without sufficient evidence surfaced. -/
 theorem mass_partition (P : FiniteMassModel (Ω := Ω))
     (C S : Finset Ω) :
-    P.mass C = P.mass (C ∩ S) + P.mass (C \ S) := by
+    mass P C = mass P (C ∩ S) + mass P (C \ S) := by
   unfold mass
   have hUnion : C ∩ S ∪ C \ S = C := by
     ext ω
@@ -58,11 +58,11 @@ theorem mass_partition (P : FiniteMassModel (Ω := Ω))
 /-- Law of total probability for correctness, split by whether sufficient evidence surfaced. -/
 theorem total_probability (P : FiniteMassModel (Ω := Ω))
     (C S : Finset Ω)
-    (hS : P.mass S ≠ 0)
-    (hNotS : P.mass (Finset.univ \ S) ≠ 0) :
-    P.mass C =
-      P.mass S * P.condMass C S +
-      P.mass (Finset.univ \ S) * P.condMass C (Finset.univ \ S) := by
+    (hS : mass P S ≠ 0)
+    (hNotS : mass P (Finset.univ \ S) ≠ 0) :
+    mass P C =
+      mass P S * condMass P C S +
+      mass P (Finset.univ \ S) * condMass P C (Finset.univ \ S) := by
   have hPart := mass_partition P C S
   have h1 := mass_mul_condMass P C S hS
   have h2 := mass_mul_condMass P C (Finset.univ \ S) hNotS
@@ -70,24 +70,24 @@ theorem total_probability (P : FiniteMassModel (Ω := Ω))
     ext ω
     simp
   calc
-    P.mass C = P.mass (C ∩ S) + P.mass (C \ S) := hPart
-    _ = P.mass S * P.condMass C S + P.mass (C \ S) := by rw [← h1]
-    _ = P.mass S * P.condMass C S +
-        P.mass (C ∩ (Finset.univ \ S)) := by rw [hComp]
-    _ = P.mass S * P.condMass C S +
-        P.mass (Finset.univ \ S) * P.condMass C (Finset.univ \ S) := by rw [← h2]
+    mass P C = mass P (C ∩ S) + mass P (C \ S) := hPart
+    _ = mass P S * condMass P C S + mass P (C \ S) := by rw [← h1]
+    _ = mass P S * condMass P C S +
+        mass P (C ∩ (Finset.univ \ S)) := by rw [hComp]
+    _ = mass P S * condMass P C S +
+        mass P (Finset.univ \ S) * condMass P C (Finset.univ \ S) := by rw [← h2]
 
 /-- The product-only expression equals observed correctness iff correct outcomes
     without sufficient evidence have zero mass. -/
 theorem product_only_iff_no_correct_without_surface
     (P : FiniteMassModel (Ω := Ω)) (C S : Finset Ω)
-    (hS : P.mass S ≠ 0)
-    (hNotS : P.mass (Finset.univ \ S) ≠ 0) :
-    P.mass C = P.mass S * P.condMass C S ↔ P.mass (C \ S) = 0 := by
+    (hS : mass P S ≠ 0)
+    (hNotS : mass P (Finset.univ \ S) ≠ 0) :
+    mass P C = mass P S * condMass P C S ↔ mass P (C \ S) = 0 := by
   have hTotal := total_probability P C S hS hNotS
   have hTail :
-      P.mass (Finset.univ \ S) * P.condMass C (Finset.univ \ S) =
-        P.mass (C \ S) := by
+      mass P (Finset.univ \ S) * condMass P C (Finset.univ \ S) =
+        mass P (C \ S) := by
     have h2 := mass_mul_condMass P C (Finset.univ \ S) hNotS
     have hComp : C \ S = C ∩ (Finset.univ \ S) := by
       ext ω
@@ -114,36 +114,36 @@ def surfaced : Finset (Fin 4) := {0, 1}
 def correctDecision : Finset (Fin 4) := {0, 2}
 
 theorem uniformFour_total_mass :
-    uniformFour.mass Finset.univ = 1 := by
+    mass uniformFour Finset.univ = 1 := by
   norm_num [mass, uniformFour, Finset.sum_const]
 
 theorem uniformFour_correct_mass :
-    uniformFour.mass correctDecision = 1 / 2 := by
+    mass uniformFour correctDecision = 1 / 2 := by
   norm_num [mass, uniformFour, correctDecision]
 
 theorem uniformFour_surfaced_mass :
-    uniformFour.mass surfaced = 1 / 2 := by
+    mass uniformFour surfaced = 1 / 2 := by
   norm_num [mass, uniformFour, surfaced]
 
 theorem uniformFour_conditional_correct_given_surface :
-    uniformFour.condMass correctDecision surfaced = 1 / 2 := by
+    condMass uniformFour correctDecision surfaced = 1 / 2 := by
   norm_num [mass, condMass, uniformFour, correctDecision, surfaced]
 
 theorem uniformFour_correct_without_surface_mass :
-    uniformFour.mass (correctDecision \ surfaced) = 1 / 4 := by
+    mass uniformFour (correctDecision \ surfaced) = 1 / 4 := by
   norm_num [mass, uniformFour, correctDecision, surfaced]
 
 theorem uniformFour_product_only_is_not_total_correctness :
-    uniformFour.mass correctDecision ≠
-      uniformFour.mass surfaced *
-        uniformFour.condMass correctDecision surfaced := by
+    mass uniformFour correctDecision ≠
+      mass uniformFour surfaced *
+        condMass uniformFour correctDecision surfaced := by
   norm_num [mass, condMass, uniformFour, correctDecision, surfaced]
 
-#eval uniformFour.mass correctDecision
-#eval uniformFour.mass surfaced
-#eval uniformFour.condMass correctDecision surfaced
-#eval uniformFour.mass (Finset.univ \ surfaced)
-#eval uniformFour.condMass correctDecision (Finset.univ \ surfaced)
-#eval uniformFour.mass surfaced * uniformFour.condMass correctDecision surfaced
+#eval mass uniformFour correctDecision
+#eval mass uniformFour surfaced
+#eval condMass uniformFour correctDecision surfaced
+#eval mass uniformFour (Finset.univ \ surfaced)
+#eval condMass uniformFour correctDecision (Finset.univ \ surfaced)
+#eval mass uniformFour surfaced * condMass uniformFour correctDecision surfaced
 
 end HsHVerification.SurfaceIntegrationProbability
