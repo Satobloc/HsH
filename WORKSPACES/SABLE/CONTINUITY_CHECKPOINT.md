@@ -1,4 +1,16 @@
-## Latest checkpoint | H942:S2 | 2026-11-19T0624Z
+## Previous checkpoint | H942:S2 | 2026-11-19T0624Z
+
+## Latest checkpoint | H957:S3 | 2026-11-19T21:36Z
+
+The source-to-prediction ledger now has a proposed claim-currentness/supersession admission gate. The historical Prime General Prediction Pathway is preserved as Nathan Direct history, but its currentness remains unresolved and it is not test-ready. The 2025 assistant annotation and later archive synthesis are not treated as a direct Nathan withdrawal. No current re-adoption was found in live BEDROCK or the 2026-11-08 methodology/model overview.
+
+Sable-local research P1 is not Three Paper Campaign P1. Use SABLE_LOCAL_P1 for the GR-QM source/proof audit; CAMPAIGN_P1 remains Orson-owned cognition work. No campaign ownership or paper gate changed.
+
+Report: [H957:S3 source-currentness gate](WORKSPACES/SABLE/2026-11-19T2136Z_H957_S3_PREDICTION_CURRENTNESS_GATE.md)
+
+No physical calculation, new Lean theorem, SAT-O/Blockwave equation change, or BEDROCK promotion. P2 remains HOLD. Current Sable thread usability was not authenticated; this is a source-grounded scheduled-run reconstruction, not a claimed historical-thread continuation.
+
+---
 - Latest PR #2050 comparison at 2026-11-19T06:36Z: main 528eef218222642827c7bc02ca7be3086ffa64e0; PR 11 ahead / 165 behind; merge base 9743a5de5a830284ef76d96962cf061961315725. No rebase or merge.
 - Current PR #2050 comparison at 2026-11-19T06:34Z: 11 ahead / 155 behind main (main f0b6b3c76f816da23acb5f24d4e89f0dd4cbe883); no rebase or merge. Recompare after subsequent main changes.
 
