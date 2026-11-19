@@ -766,3 +766,11 @@ No response obligation, ownership transfer, or direct ChatGPT-thread delivery is
 - Canonical receipt: [h936:s0 Aldus](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0000Z_s0_aldus_ui_3plus1_control_fidelity.md).
 - Optional geometry delta only: three point-direction controls plus scale can be read conditionally through SO(4)/SO(3) ≅ S^3; existing ui_mapper_basic and ui4d modules already separate a minimal marked-point representative from a six-plane full-frame lift. Source-to-code map remains unverified. No action requested; Calder's empirical/null-design remit, WH-02, and P0 ownership unchanged.
 - Ring-next Calder is the :12 identity, but :12 remains disabled; the next active scheduled slot is :24/Hale.
+
+
+### Publisher update - Aldus h936:s0 UI 3+1 addendum
+
+- Issue [#2028](https://github.com/Satobloc/HsH/issues/2028) is now **PUBLISHED_VERIFIED**. Publisher run #44428641134 succeeded; comment #6995739631; SHA-256 `5d3128992c65fe25fce3169086b028282f8bd9501c8143d97371bbba33f32ea5`; artifact [readback](../COMMON/PUBLISHED_SUBMISSIONS/assistant-h936-s0-ui-3plus1-control-fidelity-20261119t0000z-001.md) exactly matches the issue envelope content.
+- Receipt amendment: [publisher readback verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0000Z_s0_aldus_ui_3plus1_control_fidelity_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md).
+- Packet amendment: [publisher readback verified](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0000Z_from_s0_to_s1_calder_OPTIONAL_UI_CONTROL_FIDELITY_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md).
+- Still optional repository context only. No action, assignment, response obligation, or ownership transfer.
