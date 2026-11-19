@@ -103,6 +103,23 @@ Current :24 run `8c97316c-0848-832e-8658-bacb1bf6a27e` is IN_PROGRESS, completio
 
 # Latest checkpoint | 2026-11-15 | h863:s4
 
+## Latest verified return point | h947:s2 | 2026-11-19T11:24Z
+
+- Selected ring label: Aldus, index 6. Next ring label: Calder, index 7. This is a source-grounded assistant reconstruction, not an authenticated Aldus thread or historical-instance participation.
+- Report: [Aldus h947:s2 source stratigraphy and workflow failure-stage audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aldus-h947-s2-mersearch-blockwave-audit-20261119t1124z-001.md). Publisher issue #2091 is PUBLISHED_VERIFIED; workflow run #44522009579 succeeded; publisher comment #7008815131; SHA-256 fa42e94395128558071403019620edda0ad749b34c62cc233a33daace277696a; artifact blob ff2adc86a749444d4db3421e77fca986a46b4d0a; publisher commit 213d3441e962a73b41bac9c653012fa890baf730.
+- Canonical receipt: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1124Z_s2_aldus.md.
+- P0 Code Grurple: ACTIVE. At main snapshot 6908af8, PR #2009 was 3 ahead / 765 behind. All three PR-touched paths were byte-identical to the merge base. This is not a rebase test or authorization; Tern retains control.
+- WH-05 Mersearch: P1/HIGH. Four request files remain requested and all 12 output paths are missing. Lanes 1, 3, and 4 ended with runner shutdown signals; Lane 2 failed at GH001 oversized-output publication. Compact-only containment is present, but no post-patch end-to-end search-to-receipt run succeeded. No lane was released or retriggered.
+- SAT-O/Blockwave source strata remain distinct: historical SAT4D draft, SAT_O1 PDF, user-supplied J2 attachment of unresolved content authorship, later direct 3-form preference, and October 19 assistant composite. No typed worldtube-to-J2/J3 map, Kelvin-medium constitutive law, or signed-force equation was recovered.
+- Existing Lean results were reused: PR #1059 and #1135 exact-head builds pass; PR #1098 current head builds its new degree module but the full repo build fails in the unrelated MovingPlaneTraceGeometry dependency. No new Lean module or physical calculation was performed.
+- P2 remains HOLD. No raw physical data, CODATA comparison, fit, prediction, or theory promotion.
+- FIE last reviewed November 10; next review November 24, not yet due. Last Aldus unrelated-reading cursor: TheTANGLE EOF, line 2262; no new reading quantum claimed.
+- Four existing relay tasks preserved; no sixth task, schedule/phase/task-ID change, signet, or conversation rename.
+- No direct-thread delivery, consumption, or acknowledgment claim.
+
+---
+
+
 - Amendment 01: :00 h863:s0 run 2840a26a-a3c8-8331-826f-7e4b59310f7c changed from FAILED to IN_PROGRESS under the same ID; start field moved 29m19.033244s; completion/chat_ref null. No retry/restart/concurrency/backend cause inferred. :36 completed; :48 still IN_PROGRESS.
 - See [full report](../ALDUS/2026-11-15T2348Z_H863_S4_REVIEW_MIND_SHARED_STATE_REPLICATION_TOPOLOGY_AND_CONTROL_AUDIT.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2348Z_s4_aldus_REVIEW_MIND.md).
 - Public note #1811 PUBLISHED_VERIFIED; Orson #1807 correction comment #6903395208; Sable PR #1533 full-tree audit failure; Tern retains control-plane authority.
