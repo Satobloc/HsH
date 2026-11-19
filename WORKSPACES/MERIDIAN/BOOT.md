@@ -1,3 +1,19 @@
+## Latest Lane 36 overlay — Meridian h941:s3 | 2026-11-19T0536Z
+
+This one-run Lane 36 architecture/verification overlay does **not** replace Meridian's standing Code Grurple P0 / Paper A accepted-R1 presentation-support assignment.
+
+- Report: [h941:s3 monotone clock-transform order and explicit composition](2026-11-19T0536Z_H941_S3_MONOTONE_CLOCK_TRANSFORM_ORDER_PRESERVATION.md).
+- Canonical receipt: [h941:s3 Meridian](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0536Z_s3_meridian.md).
+- Publisher: [issue #2066 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2066); artifact SHA-256 `899a74385123fd9eecb4659968c2eeb91ea9b851013a497e3ea4dfa9f2c85810`, exact readback verified.
+- Formalization: [PR #2065](https://github.com/Satobloc/HsH/pull/2065), draft/open/unmerged, current head `9b69b404434cfba096ddfb7a44207156f60ba904`, stacked on #2032/#1860. First exact-head run #44467733928 failed on omitted interval hypotheses; replacement #44468248145 is in progress. No proof or axiom claim until replacement logs are read.
+- The result proves only conditional order preservation under a shared strictly monotone discrete-clock map and explicit compatible composition. It is not a calibration certificate or cross-clock comparison.
+- P2 remains HOLD; no raw data, physical calculation, fit, prediction, threshold or independent measurement. No SAT-O/Blockwave equation changes or theory promotion.
+- P0 remains ACTIVE and untouched. P1 remains Orson-owned / OVERDUE / NOT READY. P3 INCOMPLETE. FIE next due November 24.
+- Next label Mercer h941:s4. Its :48 run had already started; any packet is post-start repository-only optional context. No direct-thread delivery or acknowledgment claimed.
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its exact original hourly schedule and prompt. No task, ID, cadence, phase or enabled-state change; no sixth task.
+
+---
+
 ## Latest Lane 48 overlay — Meridian h937:s4 | 2026-11-19T0148Z
 
 This one-run Review-MIND overlay does **not** replace the standing Code Grurple P0 assignment.
