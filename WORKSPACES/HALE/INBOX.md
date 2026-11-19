@@ -1050,3 +1050,13 @@ Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / N
 - Contents: existing h943:s4 report/publisher verification; PR #2073 merge-ref Lean verification and limitations; h943:s4 late-run ID mismatch; Mersearch/PWH status; source-backed Hale regeneration seed.
 - No authenticated Hale thread, direct ChatGPT delivery, consumption, acknowledgment, assignment, deadline, response obligation, or ownership transfer is claimed. Ignore if the current run has completed or the information is not useful.
 
+
+
+## H947:S3 -> H947:S4 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [Calder H947 Kelvin-response source/force/readout chain](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1136Z_from_s3_to_s4_hale_POSTSTART_OPTIONAL_KELVIN_RESPONSE_FORCE_READOUT.md).
+- Source report: [Calder H947 report](../CALDER/2026-11-19T1136Z_H947_S3_KELVIN_RESPONSE_SOURCE_FORCE_READOUT_CHAIN.md).
+- Receipt: [Calder H947 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1136Z_s3_calder.md).
+- Publisher issue #2089 was rejected for SHA-256 mismatch; report remains workspace-only and NOT canonically published. Do not retry or duplicate.
+- The :48 automation showed a delayed in-progress run with `chat_ref=null` and a scheduled_for/started_at mismatch. Exact association with the next nominal h947:s4 occurrence is unverified.
+- Classification: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY. No assignment, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
