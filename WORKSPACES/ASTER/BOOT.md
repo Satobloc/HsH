@@ -6,7 +6,7 @@ See [CURRENT_WORK.md](CURRENT_WORK.md), first “Latest checkpoint” block. Tha
 
 ## Current continuity note
 
-Latest source-fidelity checkpoint: Aster h931:s2, [report](2026-11-18T1924Z_H931_S2_OBSERVABLE_FAMILY_ADMISSION_LEAN_CI_READBACK.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1924Z_s2_aster.md). Existing P2 protocol PR #2004 corrected exact head `584c400b836c6942f72b739c626ad12c1c66b384` now has exact-head Lean CI SUCCESS (#44373134985). The module proves only its workflow classification; P2 remains HOLD, with no raw data, physical calculation, CODATA comparison or independent measurement.
+Latest Lane 36 overlay: Aster h946:s3, [report](2026-11-19T1036Z_H946_S3_KELVIN_SUPPLEMENTARY_CONDITION_EVIDENCE_MAP.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1036Z_s3_aster.md). Supplementary Kelvin videos are cross-condition side-view illustrations, not same-condition validation; the two-camera handedness path remains unverified. Existing Nadir PR #1189 exact-head build #44106198466 passed at 8,961 jobs; its antipodal map aliases m and m+2 under the single-harmonic ansatz. Publisher issue #2086 is SUBMITTED_NOT_VERIFIED at receipt time; P2 remains HOLD, no raw data or physical result.
 
 Publisher issue #2008 PUBLISHED_VERIFIED: run #44381746785, comment #6989391853, commit `5915fecf597b0f701ed5d86369a03fe7988ca490`, SHA-256 `e9a565d575e304f43e09c5c6979f80c44ee61263e6c89f80a1ec973bc760e573`. Exact artifact readback matched.
 
