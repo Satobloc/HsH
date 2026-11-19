@@ -103,3 +103,46 @@ The next legitimate step is to select an identifiable measured system and primar
 - [Current HsH BEDROCK](https://github.com/Satobloc/HsH/blob/main/BEDROCK.md).
 
 **Disposition:** A reusable distinction ledger and source-reopen gate are now specified. They connect existing formal results without duplicating their theorems or claiming a physical test. No BEDROCK promotion is proposed.
+
+
+---
+
+## 2026-11-19 additive amendment | Claim-currentness and supersession gate
+
+This is a Sable-local workflow amendment. It does not promote a theory claim, change BEDROCK, or alter the Three Paper Campaign.
+
+The existing source-to-prediction chain now carries four independent status axes:
+
+| Axis | Required field | Question |
+|---|---|---|
+| Source authority | source_authority | Who or what asserted the claim, and with what provenance? |
+| Claim currentness | claim_currentness | Is it reaffirmed by a current source, explicitly historical, directly superseded, or unresolved? |
+| Formalization | formalization_status | Is it verbal, equation-backed, source-verified, formalized, compiled, and independently reviewed? |
+| Empirical status | empirical_status | Is there an identified system, dataset, calibrated fit, independent holdout, and replication? |
+
+Allowed claim_currentness values:
+
+- CURRENT_REAFFIRMED: an applicable later direct source or controlling current statement explicitly retains the claim.
+- HISTORICAL_ONLY: the claim is explicitly scoped to an earlier theory version and is not asserted as current.
+- SUPERSEDED_BY_DIRECT_SOURCE: a later source-authorized statement explicitly withdraws or replaces it.
+- CURRENTNESS_UNRESOLVED: a historical source exists, but later status is ambiguous or supported only by derivative/assistant material.
+
+Admission rule: only CURRENT_REAFFIRMED claims may enter the current H1 test-selection queue. HISTORICAL_ONLY claims may be studied as versioned history but not silently promoted. CURRENTNESS_UNRESOLVED is NOT_TEST_READY. This field tracks theory-version status, not truth.
+
+### Applied row: Prime General Prediction Pathway
+
+| Field | Status |
+|---|---|
+| source_authority | NATHAN_DIRECT, 2025-10-30, raw message f476afce-eba0-4312-8c2b-36b82dbe7f3f |
+| claim_currentness | CURRENTNESS_UNRESOLVED |
+| formalization_status | VERBAL_ONLY; no source-verified current past/future coupling law recovered |
+| empirical_status | NOT_TEST_READY |
+| H1 admission | BLOCKED |
+
+The direct message proposes reciprocal past/future tensions and observable anomalies beyond the Standard Model, GR, and QM, but does not specify the coupling equation, observable, sign, magnitude, timescale, units, boundary conditions, or measurement operator.
+
+The 2025-09-19 “Annotating intuitions with math” export marks the 7th intuition with a tentative assistant-authored strikethrough and says the core Lagrangian does not propagate backward causality. Nathan's follow-up requests conversational-mathematics rewriting; it does not explicitly endorse that classification. The later SAT_HISTORY_ROUNDUP synthesis says the prediction was rejected during formalization, but its authoring and underlying primary source chain are not established. Current BEDROCK and the 2026-11-08 methodology/model overview contain no explicit reaffirmation. Absence does not prove withdrawal.
+
+Next source-recovery action: identify the exact primary Lagrangian/formalization items cited as [7]-[11] by the later synthesis, preserve original bytes, role/author, date, and hashes, and determine whether they remove, bound, or fail to instantiate pastward influence. Do not infer from the assistant annotation alone.
+
+No physical system or dataset is selected. No fit, prediction, numerical threshold, independent measurement, or new Lean theorem is claimed.
