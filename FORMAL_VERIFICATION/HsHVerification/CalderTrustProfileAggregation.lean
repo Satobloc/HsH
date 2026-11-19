@@ -38,7 +38,7 @@ def sourceReportedPatternLabels : List TrustBiasPattern :=
 
 /-- Mean of two participant-specific trust contrasts for one fixed target
 and context comparison. -/
-def contrastMean (x y : ℝ) : ℝ :=
+noncomputable def contrastMean (x y : ℝ) : ℝ :=
   (x + y) / 2
 
 /-- Number of participants with an exactly nonzero contrast.
