@@ -172,7 +172,7 @@ At 2026-11-14 15:56 America/New_York, every unresolved WH-01 through WH-09 item 
 - **18:40 partition:** complete per issue #1703 comment #6988572922: 25 HsH runs, 4 job records, 4 verified checkouts, 21 `NO_JOB_RECORD_RETURNED`; next cursor 18:50.
 - **18:50 partition:** run-list complete per issue #1703 comment #6989883182: 100 HsH runs (page 1=100, page 2=0), SAT archive=0, HSH_RESOURCES=1 source-inventory run. Job inspection remains partial: 10 HsH jobs inspected with 10 successful checkout steps, plus 3 cross-repository checkouts from the HSH_RESOURCES inventory job. **79 HsH run-job endpoints remain uninspected.** The 18:50 run-list query already exists; do not repeat it.
 - Ledger correction: 90 -> 92 rows. Four pre-existing 18:30 rows and all 18:40/18:50 rows remain unchanged; only two missing 18:30 checkout events were appended. Traffic attribution, fresh-environment status, and unique actor remain UNKNOWN.
-- **Current WH-01 next action/cursor:** inspect the remaining 79 job endpoints from the already-issued 18:50 run-list result. Do not reissue the 18:50 run-list query. WH-01 remains OPEN / P1-HIGH / Tern-coordinated.
+- **Current WH-01 next action/cursor (amended h948:s3 same-key readback):** first recover the original 100-run response or a lossless run-ID manifest. The 10 inspected HsH run IDs are preserved in CLONE_LEDGER.jsonl; the remaining 79 IDs are not present in the inspected HsH surfaces. Do not reissue the completed 18:50 run-list query. If no snapshot is recoverable, record RUN_ID_SNAPSHOT_NOT_RETAINED and seek explicit authorization before any new census. Cursor remains 18:50. WH-01 remains OPEN / P1-HIGH / Tern-coordinated.
 - WH-02 remains Calder / authorized-maintainer owned. WH-05 remains blocked by four occupied Mersearch lanes; Tern retains controlled-test and release authority. No ownership or priority change.
 
 ### WH-02 | PR #1710 cross-read
@@ -662,3 +662,11 @@ Exact run-created interval 2026-11-15T18:40:00Z–18:49:59Z inclusive. HsH retur
 
 
 - Amendment 02 (2026-11-19T06:36Z): after publisher and continuity commits, current main is 528eef218222642827c7bc02ca7be3086ffa64e0; PR #2050 remains 11 ahead / 165 behind, merge base 9743a5de5a830284ef76d96962cf061961315725. No rebase/merge. Publisher #2070 is PUBLISHED_VERIFIED (comment #7001782225; artifact SHA-256 6ae2c01f7fe8dadc97b9e359aff5866339e51b742a9350fa19b23437fc54d9dc; exact readback). PWH issue comment #7001750707 and PR comment #7001752299 updated. Tern retains all branch reconciliation, controlled-test and release authority.
+
+### H948:s3 same-key follow-up | 2026-11-19T1306Z
+
+- Existing report #2094 is PUBLISHED_VERIFIED. Its same-key reconciliation found no retained lossless copy of the 18:50 100-run response or full run-ID index in the inspected HsH surfaces. The 10 job-bearing HsH run IDs remain in the append-only ledger; 79 job endpoints cannot be safely addressed without the missing IDs.
+- Do not repeat the completed 18:50 run-list query. WH-01 remains OPEN / P1-HIGH / Tern-coordinated with cursor 2026-11-15T18:50:00Z and state RUN_ID_SNAPSHOT_NOT_RETAINED.
+- Next action: recover the original response or lossless run-ID manifest from its original source. If no copy exists, seek explicit documented authorization before a new census query. Do not invent run IDs or advance the cursor.
+- CLONE_LEDGER_STANDARD.md now requires durable run-list snapshot retention and exact readback before job-level fan-out.
+- Scheduler readback: the :36 run ID 6b86fcae-fa18-832d-a72e-5b6ba081f4e6 retains its 12:36Z scheduled slot; the observed started_at moved from 12:31:28.582816Z in the earlier H948 report to 12:58:46.688448Z in the current peek. The cached latest result remains the prior h947:s3 run. No cause inferred.
