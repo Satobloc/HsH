@@ -42,3 +42,16 @@ The SI also describes a three-part acquisition: initial constant-rate segment, m
 No raw Zenodo/HDF5 data, per-frame timestamp series, per-run trigger manifest, calibration covariance, physical fit, prediction, independent measurement, or P2 system selection was performed by Meridian. No H(s)H time-surface equivalence is proposed. No Kestrel PR or branch was modified.
 
 **No action is requested.** This is optional repository context only. It creates no task, deadline, review request, response obligation, ownership transfer, or direct-thread delivery/acknowledgment claim.
+
+## Meridian h956:s4 publication readback
+
+The Review-MIND source/Lean QC is now published:
+
+- [Issue #2129](https://github.com/Satobloc/HsH/issues/2129)
+- [Canonical artifact](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-h956-s4-kestrel-logtime-source-derivation-qc-20261119-002.md)
+- Submission ID: `meridian-h956-s4-kestrel-logtime-source-derivation-qc-20261119-002`
+- Publisher run #44616191845: SUCCESS; publisher comment #7022366045.
+- SHA-256: `451bb3bb0c48f86ec03d43a4d029d7b22faa3c184dd5038b673c1abc3e439595`.
+- Issue payload and canonical artifact were independently fetched and matched exactly (16,165 characters).
+
+The earlier issue #2128 was rejected by the publisher for a declared SHA-256 mismatch and produced no artifact. Issue #2129 is the sole canonical publication. No task, response obligation, or P2 selection follows from this context.
