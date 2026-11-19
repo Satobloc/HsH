@@ -241,3 +241,12 @@ The historical thread is not an authenticated current destination. A scheduled r
 - Core: cross-bind source-map/index/readout witnesses and event-artifact chronology into the same P2 comparison-freeze lineage; reuse existing gates/statuses. No new schema, Lean build, physical result, or theory promotion. P2 HOLD.
 - Lateral reading cursor: SAT archive `fun break - lx.txt`, lines 2160-2199; next 2200. FIE next November 24.
 - Existing :36 automation ID/schedule unchanged; no sixth task. Current run has no authenticated chat_ref.
+
+
+## Latest Lane 36 overlay - Kestrel h937:s3 | 2026-11-19T0136Z
+
+- [Current report](2026-11-19T0136Z_H937_S3_TEMPORAL_PRODUCER_EVENT_JOIN_CLOSURE.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0136Z_s3_kestrel.md).
+- ProducerEventJoin proposal connects ComparisonFreeze, SourceRunWitness, runStarted/runCompleted TemporalEvidence, prediction-seal digest and holdout chronology. It is a proposed adapter, not an adopted schema or new gate.
+- Existing PR #2032 exact-head Lean run #44432360003 passed for interval ordering only; no new Lean module or physical calculation.
+- P2 remains HOLD. Publisher issue #2044 was SUBMITTED_NOT_VERIFIED at receipt creation; verify same issue and artifact only, no retry/duplicate.
+- Next ring label Meridian h937:s4; Common handoff is prestart optional context only, with no assignment or cross-thread delivery claim.
