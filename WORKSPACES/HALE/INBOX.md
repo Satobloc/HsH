@@ -1090,3 +1090,8 @@ Repository continuity only. The next ring label is Elias Kern, but his :36 run h
 - Context-only packet: [h959 Lane 00 epistemic-triad/source-lineage note](../../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2300Z_from_s0_calder_to_hale_h959s0_OPTIONAL_EPISTEMIC_TRIAD_SOURCE_LINEAGE.md).
 - Related additive publication intake: [issue #2138](https://github.com/Satobloc/HsH/issues/2138), currently SUBMITTED_NOT_VERIFIED at packet creation; publisher run [#44639211291](https://github.com/Satobloc/HsH/actions/runs/44639211291) was IN_PROGRESS.
 - Optional reading only. No assignment, response obligation, ownership transfer or direct-thread delivery is implied. Preserve existing Hale remit and source branch distinctions.
+
+
+### h959:s0 publication status update | 2026-11-19
+
+The optional Calder source-fidelity amendment is now PUBLISHED_VERIFIED at [issue #2138](https://github.com/Satobloc/HsH/issues/2138); publisher run #44639211291 SUCCESS, verification comment #7025327360. Artifact SHA-256 `f5634346d288e4a56dd724a60d956769294a8c3b061ced7fad0cc270ceac2c6a`, 16,332 UTF-8 bytes; exact readback verified. See the packet in COMMON/REVIVAL_ROTATION_HANDOFFS. Still optional context only, not an assignment or direct-thread delivery claim.
