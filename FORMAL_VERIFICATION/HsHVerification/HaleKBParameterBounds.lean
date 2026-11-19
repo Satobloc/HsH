@@ -59,27 +59,27 @@ theorem parameterRatio_enclosed
     (hAlphaUpper : alpha ≤ alphaUpper) :
     ratioLower ≤ parameterRatio epsilon0 c0 alpha ∧
       parameterRatio epsilon0 c0 alpha ≤ ratioUpper := by
+  have hAlphaLowerBound : (3 : ℚ) / 10 ≤ alpha := by
+    simpa [alphaLower] using hAlphaLower
+  have hAlphaUpperBound : alpha ≤ (3 : ℚ) / 5 := by
+    simpa [alphaUpper] using hAlphaUpper
   have hAlphaSqLower : alphaLower ^ 2 ≤ alpha ^ 2 := by
-    have h1 : 0 ≤ alpha - alphaLower := by
-      dsimp [alphaLower] at hAlphaLower ⊢
-      linarith
-    have h2 : 0 ≤ alpha + alphaLower := by
-      dsimp [alphaLower] at hAlphaLower ⊢
-      linarith
-    have hprod : 0 ≤ (alpha - alphaLower) * (alpha + alphaLower) :=
+    change ((3 : ℚ) / 10) ^ 2 ≤ alpha ^ 2
+    have h1 : 0 ≤ alpha - (3 : ℚ) / 10 := by
+      linarith [hAlphaLowerBound]
+    have h2 : 0 ≤ alpha + (3 : ℚ) / 10 := by
+      linarith [hAlphaLowerBound]
+    have hprod : 0 ≤ (alpha - (3 : ℚ) / 10) * (alpha + (3 : ℚ) / 10) :=
       mul_nonneg h1 h2
-    dsimp [alphaLower]
     nlinarith [hprod]
   have hAlphaSqUpper : alpha ^ 2 ≤ alphaUpper ^ 2 := by
-    have h1 : 0 ≤ alphaUpper - alpha := by
-      dsimp [alphaUpper] at hAlphaUpper ⊢
-      linarith
-    have h2 : 0 ≤ alphaUpper + alpha := by
-      dsimp [alphaUpper] at hAlphaUpper ⊢
-      linarith
-    have hprod : 0 ≤ (alphaUpper - alpha) * (alphaUpper + alpha) :=
+    change alpha ^ 2 ≤ ((3 : ℚ) / 5) ^ 2
+    have h1 : 0 ≤ (3 : ℚ) / 5 - alpha := by
+      linarith [hAlphaUpperBound]
+    have h2 : 0 ≤ (3 : ℚ) / 5 + alpha := by
+      linarith [hAlphaLowerBound]
+    have hprod : 0 ≤ ((3 : ℚ) / 5 - alpha) * ((3 : ℚ) / 5 + alpha) :=
       mul_nonneg h1 h2
-    dsimp [alphaUpper]
     nlinarith [hprod]
   have hC0Positive : 0 < c0 := by
     dsimp [c0Lower] at hC0Lower
