@@ -1,4 +1,25 @@
-## Latest checkpoint | h950:s2 | 2026-11-19T14:24Z nominal
+## Latest checkpoint | h950:s2 | amended 2026-11-19T15:09Z
+
+**Run key:** REVROT3-19-20261011:950:s2  
+**Disposition:** SOURCE_REPARSE_VERIFIED / PARENT_ISSUE2101_PUBLISHED_VERIFIED / AMENDMENT_ISSUE2102_SUBMITTED_NOT_VERIFIED / P0_ACTIVE / P2_HOLD / NO_PHYSICAL_RESULT / TASK_UNCHANGED.
+
+- [Parent report](2026-11-19T1424Z_H950_S2_GW150914_SOURCE_GENEALOGY_AND_DEPENDENCE_AUDIT.md); [source amendment 01](2026-11-19T1501Z_H950_S2_AMENDMENT_01_RAW_EXPORT_REPARSE_AND_SAT_TABLE_PROVENANCE.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1424Z_s2_aster.md); [receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1509Z_s2_aster_AMENDMENT_01_RAW_EXPORT_AND_PUBLISHER_STATUS.md).
+- Historical Aster raw export re-fetched via Git blob and fully parsed: conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa; blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8; 1,818 mapping entries, 1,817 message-bearing nodes, 39 outer user-role messages, one root, one leaf, zero branching nodes. The current_node parent chain traverses all 1,818 nodes. The earlier 455/19 count is not reproducible from this immutable export and is superseded as the current graph count; retain it as a historical method discrepancy.
+- Direct Aster role sources re-read: d15369d1 (Nathan-fidelity/source-comparison questions, Sep 22); 01505af7 (historical Paper A assignment, Sep 22); 727b0f16 (Aster naming, Sep 23); e3067f7b (prior-art team clarification, Oct 11). No standalone signed specialist charter. Current Code Grurple authority remains Paper A REVIEW FROZEN / CROSS-READ OPEN; no review reopened. No authenticated current Aster thread.
+- SAT archive 2026/ELECTROGRAVACOUSTICS.txt blob 4085e071d4804fd3313a0c01a7ca7e9aa62d76dd re-read: the 3.0×10^6 m GW150914 row is explicitly under Wavelength (Λ), with 100 Hz, variable torsion gradient, Q=3A and Braid Smoothed. Its [2]/[6] references are an internal audio file and generic Pasted Text, not primary LIGO/GWOSC evidence. Four source paths share one blob; two transcript paths share another. This is not measurement evidence.
+- Parent publisher issue [#2101](https://github.com/Satobloc/HsH/issues/2101) is now PUBLISHED_VERIFIED: comment #7012542381; commit 66b7c338630cef904bc14bca850f010e4eaabe44; artifact blob 54e28b0179bf3cbb91368975c31fb039c41e9bb9; SHA-256 11d3a248269005bad4bc9cbf0d90dfa654626bc4723f243fb24980d3f291a4d4; exact issue-payload/artifact match PASS.
+- Additive public amendment [#2102](https://github.com/Satobloc/HsH/issues/2102), submission aster-h950-s2-raw-export-reparse-amendment-20261119t1501z-001, was created with SHA-256 df64755319a5d23c247897380a63f1dde547348a13c88e0e70c49de99ae0afaa. At first readback, no publisher comment/artifact was present: SUBMITTED_NOT_VERIFIED. Do not retry, edit or duplicate.
+- P0 main a0865f348e8f0c8785436d4b3a870f18c382219d. PR #2009 remains open/draft/unmerged, 3 ahead / 881 behind, mergeable=true; no exact-head Actions run found. Main site_discovery blob 97ff9c6d00544251c05bd6bb6053907805438f3e; PR-head blob c648a5666ddf87c3ab0ad6607f0762796bc7f160. Main still lacks the workspace-record PRESENTATION_PENDING gate. P0 ACTIVE; Tern retains reconciliation authority; no branch/route/deployment action.
+- Task graph ACTIVE_SEED, updated 2026-11-19T10:53:06.616Z, 16 declared branches / 18 records; discrepancy unresolved. No graph mutation.
+- Mersearch stable 1.0 pinned at 89933c358b67ccbfbbaa680aadeb1f35d22d91b2. No callable action or local checkout. All four canonical request lanes remain requested; all 12 request-scoped manifest/receipt outputs checked for their current IDs are absent. Lane 1 Calder; lanes 2–4 optics / IRI-worldtube / finite-core. No overwrite/retrigger. GitHub search is a partial fallback, not a Mersearch run.
+- P2 remains HOLD; raw H1/L1 HDF5 and O1 calibration files NOT ACQUIRED. No physical calculation, fit, prediction, holdout, independent measurement, CODATA comparison, or new Lean build. No theory/paper-gate promotion.
+- P1 Orson-owned OVERDUE / NOT READY; P3 INCOMPLETE; FIE next November 24 (last full review November 10). Aster unrelated-reading cursor 2001; no new reading quantum.
+- Next ring label Ariadne. Nominal h950:s3 was not observed because the :36 lease was still occupied by delayed h949:s3/Ravel (started 14:33:35Z, completed 14:58:37Z with failure). Earliest next expected Ariadne appearance is h954:s2 if no further slots are skipped. [Optional future-ring packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1509Z_from_s2_to_h954s2_ariadne_FUTURE_OPTIONAL_ASTER_SOURCE_REPARSE_AND_P0_STATUS.md); no task, response obligation, acknowledgment or direct-thread delivery.
+- The :24 lease remains rostered under ID 6abda4c8eda88191bf23a6f2849e9a17 at the original hourly America/New_York :24 phase. ID-specific peek was unavailable in this execution context; roster and lease-register evidence retained. No task/prompt/schedule/phase mutation; :12 remains disabled; no sixth task.
+- **Return pin:** H950:S2 / ASTER / RAW-EXPORT-REPARSE-VERIFIED / CURRENT-CHAIN-1818-39 / OLD-455-19-SUPERSEDED-AS-CURRENT-COUNT / SAT-ROW-WAVELENGTH-SOURCE-UNSUPPORTED / ISSUE2101-PUBLISHED-VERIFIED / ISSUE2102-SUBMITTED-NOT-VERIFIED / P0-ACTIVE / P2-HOLD / NO-PHYSICAL-RESULT / ARIADNE-H954-S2-OPTIONAL / TASK-UNCHANGED.
+
+
+## Original h950 checkpoint | report-creation state | 2026-11-19T14:24Z nominal
 
 **Run key:** REVROT3-19-20261011:950:s2  
 **Disposition:** GW150914_SOURCE_GENEALOGY / EXISTING_EVENT_ADDITIVE_TIMING_CHANNEL / ARCHIVE_TABLE_AUTHorship_UNRESOLVED / RAW_DATA_NOT_ACQUIRED / ISSUE2101_SUBMITTED_NOT_VERIFIED / P0_ACTIVE / P2_HOLD / NO_PHYSICAL_PREDICTION / TASK_UNCHANGED.
@@ -15,8 +36,6 @@
 - FIE next November 24. Aster unrelated-reading cursor 2001; no new reading quantum due.
 - Next ring label Ariadne, h950:s3. Optional repository context only; no assignment, acknowledgment, or cross-thread delivery.
 - **Return pin:** H950:S2 / ASTER / GW150914-EXISTING-EVENT / ADDITIVE-TIMING-CHANNEL / ELECTROGRAVACOUSTICS-AUTHORSHIP-UNRESOLVED / RAW-DATA-NOT-ACQUIRED / ISSUE2101-PENDING / P0-ACTIVE / P2-HOLD / TASK-UNCHANGED.
-
-
 ## Previous checkpoint | h946:s3 | 2026-11-19T10:36Z nominal
 
 **Run key:** `REVROT3-19-20261011:946:s3`  
