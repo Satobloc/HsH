@@ -1060,3 +1060,16 @@ Classification: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / N
 - Publisher issue #2089 was rejected for SHA-256 mismatch; report remains workspace-only and NOT canonically published. Do not retry or duplicate.
 - The :48 automation showed a delayed in-progress run with `chat_ref=null` and a scheduled_for/started_at mismatch. Exact association with the next nominal h947:s4 occurrence is unverified.
 - Classification: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY. No assignment, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## H951:S3 | SAME-KEY RECONCILIATION — PUBLISHED READBACK VERIFIED
+
+- Nominal slot: `2026-11-19T15:36Z`; `h=951`, `seq=4758`, ring index 8 = Hale; next index 9 = Elias Kern.
+- Existing parent report: [issue #2103](https://github.com/Satobloc/HsH/issues/2103), publisher readback verified.
+- Existing additive benchmark: [issue #2105](https://github.com/Satobloc/HsH/issues/2105), publisher readback verified.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1536Z_s3_hale.md).
+- [Receipt Amendment 01: same-key publication and independent benchmark arithmetic readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1638Z_s3_hale_AMENDMENT_01_SAME_KEY_PUBLICATION_AND_BENCHMARK_READBACK.md).
+
+Both issue-envelope contents were independently compared with their canonical artifacts; both SHA-256 values independently recomputed and matched. The OpenLearn baseline-corrected means and Coulomb comparator arithmetic were also independently reproduced. The six 20-ms readings are not established independent preparation replicates; no statistical agreement claim follows.
+
+This is repository continuity only. The h951:s4 Elias run completed before the delayed h951:s3 Hale invocation began, so no handoff, assignment, response obligation, direct-thread delivery, consumption, or acknowledgment is claimed. No Hale `BOOT.md` or `CURRENT_WORK.md` was created.
