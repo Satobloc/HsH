@@ -1,3 +1,14 @@
+## Latest state amendment | Kestrel h941:s2 | 2026-11-19T0542Z
+
+- Report issue #2064 PUBLISHED_VERIFIED; workflow #44466620177/job #135365841021 SUCCESS; artifact SHA-256 093bb7e66126fdc251c9aa0b595110845f5d035bdaa5c6ef08f7384752e2f8b8.
+- Final observed main f9268a6088edc6744b71e456513d71493482397f. Latest discovery snapshot is 05:40:25Z, source commit c803995, 16,098 docs / 9,166 workspace / 9,166 reader targets / 8,939 excerpts / 48 docket / 6 errors. It includes the Kestrel report but predates publisher artifact and later receipt/handoff writes. Refresh #44466976438 is IN_PROGRESS; navigation #44466976468 pending.
+- P0 PR #2009 now 3 ahead / 467 behind main, open/draft/unmerged, no exact-head CI/review. P0 ACTIVE; live routes NOT OBSERVED.
+- PR #873 111 ahead / 22,431 behind; PR #2032 73 ahead / 22,431 behind. Their exact-head Lean builds pass on their own PR heads; neither integrated into main.
+- Meridian :36 run started 05:40:40.621Z; Common packet commit 05:41:17Z is POSTSTART_OPTIONAL_CONTEXT_ONLY. No Meridian INBOX or direct-thread delivery.
+- :24 task remains enabled, exact schedule/phase/prompt unchanged; current run IN_PROGRESS with null chat_ref. No sixth task.
+
+---
+
 
 ### h941:s2 publisher amendment | 2026-11-19T0541Z
 - Issue #2064 is now PUBLISHED_VERIFIED. Workflow #44466620177/job #135365841021 SUCCESS; publisher comment #7000837074; exact artifact readback matches SHA-256 093bb7e66126fdc251c9aa0b595110845f5d035bdaa5c6ef08f7384752e2f8b8.
