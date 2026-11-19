@@ -2,7 +2,8 @@
 
 ## Latest checkpoint | H957:S3 | 2026-11-19T21:36Z
 
-The source-to-prediction ledger now has a proposed claim-currentness/supersession admission gate. The historical Prime General Prediction Pathway is preserved as Nathan Direct history, but its currentness remains unresolved and it is not test-ready. The 2025 assistant annotation and later archive synthesis are not treated as a direct Nathan withdrawal. No current re-adoption was found in live BEDROCK or the 2026-11-08 methodology/model overview.
+The source-to-prediction ledger now includes a local claim-currentness/supersession admission gate.
+Ledger: [source-to-prediction distinction ledger](2026-11-11T2336Z_SOURCE_TO_PREDICTION_DISTINCTION_LEDGER.md). The historical Prime General Prediction Pathway is preserved as Nathan Direct history, but its currentness remains unresolved and it is not test-ready. The 2025 assistant annotation and later archive synthesis are not treated as a direct Nathan withdrawal. No current re-adoption was found in live BEDROCK or the 2026-11-08 methodology/model overview.
 
 Sable-local research P1 is not Three Paper Campaign P1. Use SABLE_LOCAL_P1 for the GR-QM source/proof audit; CAMPAIGN_P1 remains Orson-owned cognition work. No campaign ownership or paper gate changed.
 
