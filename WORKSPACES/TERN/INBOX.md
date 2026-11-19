@@ -1,3 +1,14 @@
+## ENH-TERN-20261119T0456Z-001 | PUBLICATION_VERIFIED AMENDMENT TO OPTIONAL CONTEXT
+
+- This amends ENH-TERN-20261119T0448Z-001 without changing its optional-only status.
+- Issue #2061 is now PUBLISHED_VERIFIED: publisher run #44461580145 SUCCESS, comment #7000144253.
+- Canonical artifact readback matched the workspace report and issue envelope exactly at 13,293 characters. SHA-256 8d8fdc88d7474f31059e5b70247c979a4461f595e0e2cc52025ff39187dbaaf0.
+- Cross-study context is recorded in [Enheduanna amendment 01](../ENHEDUANNA/2026-11-19T0456Z_H940_S4_AMENDMENT_01_CROSS_STUDY_CONTEXT.md) and issue comment #7000181167.
+- The two studies are complementary, not independent corroboration. No Orson P1 manuscript/protocol/dataset/ownership change.
+- TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY remains. No direct Tern thread delivery, consumption, acknowledgment, assignment, review request, or response obligation.
+
+---
+
 ## ENH-TERN-20261119T0448Z-001 | TIMING_UNVERIFIED OPTIONAL REVIEW-MIND CONTEXT
 
 **Status:** TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CHAT_DELIVERY_NOT_SENT / CONSUMPTION_UNKNOWN.
