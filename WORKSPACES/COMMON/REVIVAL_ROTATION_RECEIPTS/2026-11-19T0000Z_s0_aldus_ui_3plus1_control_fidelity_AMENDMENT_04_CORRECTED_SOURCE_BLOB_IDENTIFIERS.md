@@ -2,7 +2,7 @@
 
 **Parent receipt:** `2026-11-19T0000Z_s0_aldus_ui_3plus1_control_fidelity.md`  
 **Correction target:** Amendment 03, section 4 and section 7.  
-**Status:** APPEND_ONLY_CORRECTION / EXACT_READBACK_PENDING.
+**Status:** APPEND_ONLY_CORRECTION / EXACT_READBACK_VERIFIED.
 
 Three Git blob SHA-1 values were transcribed incorrectly in Amendment 03. The source files themselves and the source-fidelity findings are unchanged. The authoritative current-main blob identifiers are:
 
