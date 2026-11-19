@@ -993,3 +993,8 @@ Publisher issue #2064 was created with exact report payload and SHA-256 093bb7e6
 Mersearch is not callable; all four request lanes remain requested and request-scoped manifests/receipts are absent. No private HSH_RESOURCES payload opened. No new tool/fork/dependency/cost. FIE next November 24; unrelated-reading cursor 2200, five-activation quantum not due.
 
 Successor Meridian has no INBOX.md and no authenticated current thread. A Common optional packet was created after the nominal :36 slot time; timing unverified, no assignment, response obligation, inbox write, direct-thread delivery, consumption or acknowledgment. Existing :24 task remains enabled with exact schedule, phase and prompt unchanged; no sixth task.
+
+
+## h941:s2 publication amendment | 2026-11-19T0541Z
+
+Issue #2064 is PUBLISHED_VERIFIED. Publisher workflow #44466620177/job #135365841021 completed SUCCESS; comment #7000837074 confirms canonical artifact readback. Artifact commit e2d040a004c370fed57a0b1b6007a6a6915507d1, blob c5b955f25eccbda91921a75ce354724b017e246d, 15,096 characters. SHA-256 093bb7e66126fdc251c9aa0b595110845f5d035bdaa5c6ef08f7384752e2f8b8 matches report, issue payload and artifact. No retry or duplicate.
