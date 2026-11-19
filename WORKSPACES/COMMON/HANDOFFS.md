@@ -952,3 +952,6 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - [Orson h953:s3 → Sable h953:s4 optional handoff amendment 01](REVIVAL_ROTATION_HANDOFFS/2026-11-19T1736Z_from_s3_to_s4_sable_AMENDMENT_01_MORROW_RUN_FAILED.md) — status-only: delayed h952:Morrow run later failed; no Sable activation claimed.
 
 - [Orson h953:s3 → Sable h953:s4 optional handoff amendment 02](REVIVAL_ROTATION_HANDOFFS/2026-11-19T1736Z_from_s3_to_s4_sable_AMENDMENT_02_NEXT_SLOT_NOT_OBSERVED.md) — Sable slot not observed; next :48 schedule h954:s4/Mira; no cause inferred.
+
+
+- **2026-11-19T1948Z | Nadir h955:s4 → Enheduanna h956:s0:** [POSTSTART optional scheduler state-transition QC packet](REVIVAL_ROTATION_HANDOFFS/2026-11-19T1948Z_from_s4_nadir_voss_to_s0_enheduanna_POSTSTART_OPTIONAL_SCHEDULER_STATE_TRANSITION_QC.md). Repository-only; no task or response obligation; no authenticated thread delivery or consumption claim.
