@@ -1,3 +1,14 @@
+## h952:s2 Amendment 01 | WH-06 issue-creator app and run-time binding | 2026-11-19T1654Z
+
+- Canonical receipt: [h952:s2 Tern](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1624Z_s2_tern_rook.md), amended blob `f9d2bb34b1d63a3de2b2394b73eb745d5f7a2847`; amendment commit `c84086fed053635d4e0ab57fdc7f4843be36108c`.
+- The h952 report-intake issue #2106 was created at 16:44:09Z through the ChatGPT Codex Connector app (GitHub `performed_via_github_app`, slug `chatgpt-codex-connector`, app ID 1144995; actor Satobloc). This identifies the app, not the invoking assistant/thread/task.
+- Publisher run #44569446202 was an `issues` event, created 16:44:14Z, actor/triggering actor Satobloc; its publish job completed successfully but the issue's publisher comment #7015690493 rejected the payload. No published artifact exists.
+- Current :24 run ID `91b644f4-3894-8329-a404-eced309def3e` is exposed as started at 16:54:22.833467Z, more than ten minutes after issue creation and publisher completion. Same-execution binding is UNRESOLVED; no attempt-history/cause inference. The original “this run's publisher attempt” wording is superseded as an attribution claim; #2106 remains the single h952 report-intake issue.
+- WH-06 remains OPEN / P1-HIGH. Next cursor: connector-side invocation/event lineage and issue-level idempotency; no test issue, retry, duplicate, issue mutation, mass-close, labels, fork mutation, or scheduler change.
+- This is an additive operational/source observation, not a new public report or independent proof of an external caller.
+
+---
+
 ## h884:s0 Lane 00 source-fidelity and Lean CI repair | 2026-11-16T20:00Z
 
 - [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2000Z_s0_tern_rook.md), blob \`ffd4267c5091244265e1c4073086cbf920b5b5f9\`.
