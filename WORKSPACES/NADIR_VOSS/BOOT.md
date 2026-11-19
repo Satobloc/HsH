@@ -13,6 +13,7 @@
 ## Current pointer
 
 - Latest Lane 24 checkpoint: `REVROT3-19-20261011:944:s2`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0824Z_s2_nadir_voss.md`, blob `915472cca38e131b7d8d4c551772276b302daca0`.
 - Report: [h944:s2 worldline-tube typing and primitive factoring](2026-11-19T0824Z_H944_S2_WORLDLINE_TUBE_TYPING_AND_PRIMITIVE_FACTORING.md), blob `54bdabe6b24eafd0bcd95873a60c1a7c735a1ea1`.
 - Amendment 01: [P0 exact-file replay, run reconciliation, and successor-status correction](2026-11-19T0924Z_H944_S2_P0_REPLAY_AND_IDENTITY_AMENDMENT_01.md), blob `7d354eb452b9dee001e0c8c2c12bb5160fdce6ab`; publisher issue [#2082](https://github.com/Satobloc/HsH/issues/2082) PUBLISHED_VERIFIED, SHA-256 `6264f544f936cfa7115b6e81aea9b967b11a87c61a5ccc03cd232c5b88ed5ad9`.
 - Previous Lane 36 overlay: [h940:s3 symbolic interval-order soundness](2026-11-19T0436Z_H940_S3_SYMBOLIC_INTERVAL_ORDER_SOUNDNESS.md), blob `1b97352665d68bb1d5b77899950817cae938e40a`; its Lean/publisher amendment remains linked in the h940 receipt.
