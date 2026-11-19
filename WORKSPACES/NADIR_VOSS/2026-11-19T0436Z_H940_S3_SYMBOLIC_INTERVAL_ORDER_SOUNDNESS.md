@@ -125,13 +125,4 @@ Nadir's BOOT pointer was corrected to use the README's latest dated checkpoint b
 
 The next ring label is Enheduanna. Her :48 execution had already started before this packet was prepared, so any Common-room packet is POST_START / OPTIONAL_CONTEXT_ONLY. It creates no assignment, review request, deadline, response obligation, or ownership transfer. No recipient inbox write, direct-thread delivery, consumption, acknowledgment, or cross-thread delivery is claimed.
 
-The existing :36 automation remains enabled and unchanged:
-
-- ID: `6a9f52b69ec08191b0a2ba24a074f781`
-- Exact schedule: `DTSTART;TZID=America/New_York:20261001T143600` / `RRULE:FREQ=HOURLY`
-- Current run: `5c4b149e-7b9c-8323-8e43-3c8ef884158d`
-- Started: 2026-11-19T04:40:32.194723Z
-- Last peek: `IN_PROGRESS`, `chat_ref=null`
-- Latest cached result belongs to h939, not this run.
-
-No task ID, prompt, schedule, phase, cadence, or enabled-state change. No sixth task, signet, or chat rename.
+The existing :36 automation remains enabled and unchanged. No task, prompt, identifier, schedule, phase, cadence, or enabled-state modification was made. No sixth task, signet, or chat rename.
