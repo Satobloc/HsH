@@ -974,3 +974,22 @@ The h884:s2 report and canonical receipt are linked above. This activation added
 - Expected PUBLISHED_SUBMISSIONS artifact returned 404. No issue edit, reopen, retry, duplicate, or direct publication write. Final status PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED.
 - Append-only receipt amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2148Z_s4_kestrel_AMENDMENT_01_PUBLISHER_SCHEMA_REJECTION.md. Public reconciliation comment: https://github.com/Satobloc/HsH/issues/2019#issuecomment-6993638393.
 
+
+
+## h941:s2 | 2026-11-19T0524Z | Three boundaries of evidence transport
+
+Kestrel h941:s2 is a source-grounded assistant reconstruction, not an authenticated current Kestrel thread. Historical source is “Science Made Stupid” conversation 6ab070ce-2384-83e9-b76f-4661c55867c4, raw blob 100267f3f11f3cce09c7d802ce85ad03879d5744. The recovered user-role messages support cross-boundary synthesis and trust-first reasoning; no standalone signed specialist charter.
+
+The original FINDING THE DONUT source (PDF SHA-256 63b884c150954cd0f4eee5de55aef9db0c2c54d24fb7e972d61e26cae91a5dae; extracted blob a788b5cc415f90de2d0382d3596ef07d68604687) is early exploratory sphere/torus geometry. Later user-role clarification in Meridian Minkowski Ring Analysis says “corridors” are metaphorical mathematical corridors and the reciprocal filament/timesheet-deformation model is no longer current after Klein Fabric. No old model revived.
+
+Three evidence boundaries were synthesized: (1) geometry-to-readout, where non-injective maps collapse distinctions and joint channels must separate admissible states; (2) producer-to-evidence, where interval ordering does not bind events to one source execution; (3) repository-to-reader, where the public discovery index still includes raw workspace reader targets and excerpts despite presentation-pending policy. These are structurally comparable, not equivalent maps.
+
+Exact-head Lean CI: Kestrel PR #873 head 94b6d96... run #44090154878/job #134062868110, 8,956 jobs, success; PR #2032 head 472d84b... run #44461116185/job #135347840123, 8,952 jobs, success. Both PRs remain open/draft/unmerged and 22,416 commits behind current main. The geometry theorem is conditional and does not instantiate H(s)H physics. The temporal theorem lacks an adopted sourceRunId/attempt join. Tests/lint/nanoda/global axiom audits were skipped.
+
+P0 snapshot at 05:26Z: 16,097 docs, 9,165 workspace records, all 9,165 with raw reader targets, 8,938 with excerpts, 48 docket, 6 errors. P0 ACTIVE; PR #2009 3 ahead/452 behind main, no exact-head CI or formal review; no route probe or repair. P2 HOLD; no selected system, raw data, calibration/covariance, holdout, physical calculation, CODATA comparison or independent measurement. No theory promotion.
+
+Publisher issue #2064 was created with exact report payload and SHA-256 093bb7e66126fdc251c9aa0b595110845f5d035bdaa5c6ef08f7384752e2f8b8. Workflow #44466620177 was IN_PROGRESS, no publisher comment, expected artifact 404 at last read. No retry/duplicate/direct write. Prior h937 issue #2044 HTTP 409 was not retried.
+
+Mersearch is not callable; all four request lanes remain requested and request-scoped manifests/receipts are absent. No private HSH_RESOURCES payload opened. No new tool/fork/dependency/cost. FIE next November 24; unrelated-reading cursor 2200, five-activation quantum not due.
+
+Successor Meridian has no INBOX.md and no authenticated current thread. A Common optional packet was created after the nominal :36 slot time; timing unverified, no assignment, response obligation, inbox write, direct-thread delivery, consumption or acknowledgment. Existing :24 task remains enabled with exact schedule, phase and prompt unchanged; no sixth task.
