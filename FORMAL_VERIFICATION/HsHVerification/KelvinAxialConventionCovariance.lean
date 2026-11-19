@@ -28,7 +28,7 @@ theorem axial_coordinate_reversal_preserves_shift
     (omega m Omega k vDown epsZ : R) :
     shiftedFrequency omega m Omega k vDown epsZ =
       shiftedFrequency omega m Omega (-k) vDown (-epsZ) := by
-  simp [shiftedFrequency]
+  unfold shiftedFrequency
   ring
 
 /-- The printed plus and minus forms coincide when the coordinate wavenumber
@@ -69,15 +69,17 @@ theorem axial_phase_argument_invariant
     (-k) * (-z) = k * z := by
   ring
 
+end HsHVerification.KelvinAxialConventionCovariance
+
 /-- Exact integer smoke test of the conditional plus/minus crosswalk.
 This is an algebraic test value, not an experimental or physical datum. -/
-#eval (shiftedFrequency (R := Int) 0 1 0 2 3 1 ==
-  shiftedFrequency (R := Int) 0 1 0 (-2) 3 (-1))
+#eval (HsHVerification.KelvinAxialConventionCovariance.shiftedFrequency
+  (R := Int) 0 1 0 2 3 1 ==
+  HsHVerification.KelvinAxialConventionCovariance.shiftedFrequency
+  (R := Int) 0 1 0 (-2) 3 (-1))
 
-#print axioms axial_coordinate_reversal_preserves_shift
-#print axioms plus_minus_forms_equivalent_under_reversed_k
-#print axioms same_convention_sign_difference_vanishes_iff
-#print axioms signed_component_product_invariant
-#print axioms axial_phase_argument_invariant
-
-end HsHVerification.KelvinAxialConventionCovariance
+#print axioms HsHVerification.KelvinAxialConventionCovariance.axial_coordinate_reversal_preserves_shift
+#print axioms HsHVerification.KelvinAxialConventionCovariance.plus_minus_forms_equivalent_under_reversed_k
+#print axioms HsHVerification.KelvinAxialConventionCovariance.same_convention_sign_difference_vanishes_iff
+#print axioms HsHVerification.KelvinAxialConventionCovariance.signed_component_product_invariant
+#print axioms HsHVerification.KelvinAxialConventionCovariance.axial_phase_argument_invariant
