@@ -118,7 +118,7 @@ theorem wanted_ai_initiated_can_still_request_consultation :
     beneficialConsultative.impact = .wanted ∧
     beneficialConsultative.criticality = .critical ∧
     beneficialConsultative.desiredProtocol = .consultativeDelegation := by
-  rfl
+  simp [beneficialConsultative]
 
 #eval (enactment beneficialFull, beneficialFull.desiredProtocol)
 #eval (enactment beneficialConsultative, beneficialConsultative.desiredProtocol)
