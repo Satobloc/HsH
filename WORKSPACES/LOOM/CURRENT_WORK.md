@@ -4,7 +4,7 @@
 
 - New report: [Joint clock-calibration family and robust cross-clock order](2026-11-19T0636Z_H942_S1_JOINT_CLOCK_CALIBRATION_FAMILY.md).
 - New formal PR: [#2071](https://github.com/Satobloc/HsH/pull/2071), OPEN / DRAFT / UNMERGED, exact head 76740f5aa29c75ae6e42ef22b5fa74410a0ac7cb. Exact-head Lean run #44473841176, job #135389495996, completed SUCCESS at 06:44:25Z. Full formal library compilation passed; tests/lint skipped; theorem-specific axiom output not separately captured.
-- Publisher intake: [#2072](https://github.com/Satobloc/HsH/issues/2072), submission loom-h942-s1-joint-clock-calibration-family-20261119t0636z-001. Awaiting publisher confirmation/readback at this checkpoint. Do not retry, edit, or duplicate.
+- Publisher intake: [#2072](https://github.com/Satobloc/HsH/issues/2072), submission loom-h942-s1-joint-clock-calibration-family-20261119t0636z-001. REJECTED_SCHEMA / NOT_PUBLISHED: issue body omitted required `sha256`; workflow #44474483464/job #135391585387 SUCCESS is not publication acceptance; rejection comment #7001945876; expected artifact 404. See Amendment 01. No retry, issue edit, duplicate, or bypass.
 - Source-local tags: WORKSPACES/COMMON/tagging_ledgers/2026-11-19-LOOM-JOINT-CLOCK-CALIBRATION-FAMILY-SOURCE-TAGS.md. No global dictionary change.
 - Historical Loom remit: raw blob 6668ca60e451f8737903423727da7f9a430484e1, ten user-role messages, all ten already in the existing ledger. No standalone signed specialist charter.
 - Sable h942:s2 optional packet was read at 06:42Z, after this run began; read receipt appended to INBOX. No task or response obligation.
