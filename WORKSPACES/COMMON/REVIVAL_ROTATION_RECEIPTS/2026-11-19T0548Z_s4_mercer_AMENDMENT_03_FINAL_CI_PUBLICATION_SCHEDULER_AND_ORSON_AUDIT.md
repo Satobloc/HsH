@@ -109,3 +109,8 @@ P1 issue #564 remains OPEN / OVERDUE / NOT READY / ORSON-OWNED. The November 2 p
 - No new report or publisher issue was created for this reconciliation.
 
 **Disposition:** `H941_S4_DUPLICATE_KEY_RECONCILIATION / EXISTING_REPORT_PUBLISHED_VERIFIED / PR2068_EXACT_HEAD_LEAN_PASS / SCHEDULER_START_CONFLICT_PRESERVED / ORSON_4_OF_5_NOT_AUDITABLE / PWH_READ_ONLY / FOUR_TASKS_PRESERVED / NO_SIXTH_TASK`.
+
+
+### Exact-head log nuance
+
+The successful run's checkout log explicitly records `ref: cdb12cba55e48cbd21e459442c71bfc81e8e16a4`, then the workflow's exact-head assertion prints both **Expected PR head** and **Actual checkout** as that same SHA. The later environment diagnostic `echo "Source commit: $GITHUB_SHA"` prints the PR event's merge-ref SHA `7cb6f6acdd1966817e6ad615abdfe2581ae400c2`. Treat the earlier explicit checkout plus exact-head assertion as the working-tree identity; the later `GITHUB_SHA` line is event metadata and is not evidence that the build switched to the merge ref. No separate global axiom audit is implied.
