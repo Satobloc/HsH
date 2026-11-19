@@ -1,3 +1,18 @@
+## 2026-11-19T2200Z | h958:s0 | UI source-fidelity and h957 scope correction
+
+- Report: [2026-11-19T2200Z_H958_S0_UI_SOURCE_FIDELITY_AND_H957_SCOPE_CORRECTION.md](2026-11-19T2200Z_H958_S0_UI_SOURCE_FIDELITY_AND_H957_SCOPE_CORRECTION.md); canonical receipt: [../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2200Z_s0_aster.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2200Z_s0_aster.md).
+- Recovered the March 7 UI primary conversation from immutable blob `dfdaec331846087af7daf0008eba431520a5b9ad`; 244 mapping nodes, 103 outer user-role messages, 86 on the current-node chain. Corrected the unreproducible 138-user count.
+- Direct UI construction includes fixed/moving hyperspheres, marked-point pair, relative ray, scale/rotation, surface/interior projections and solids-of-rotation sweeps. Notebook transcription records three rotation axes, one scale, linear expansion and small harmonics.
+- h957 two-plane map is a correct constant-amplitude, constant-scale subfamily only; variable-radius derivative ansatz and source UI time/sweep semantics remain unmapped.
+- Existing issue #229 comment #7023684316 and PR #1710 comment #7023687496 read back exactly.
+- PR #752 run #44620433580 built the derivative-constraint module on a PR merge reference, not a standalone exact head. No new Lean code or physical result.
+- WH-02 read-only refresh: 7 ahead / 6,676 behind; all seven touched paths still match merge base on main; Calder retains authority.
+- Mersearch lanes remain occupied; no overwrite/retrigger. Task graph unchanged. P0 ACTIVE, P1 OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE; FIE due Nov 24.
+- Unrelated reading: SAT archive fun break - lx.txt, lines 2001-2040; next 2041.
+- No Paper A review reopened, no CODATA, no theory promotion, no task/ID/schedule change, no cross-thread delivery.
+
+---
+
 ## 2026-11-19T1518Z | h950:s2 amendment 01B — final post-handoff readback
 
 - Final HsH main after the Ariadne packet, INBOX and Common HANDOFFS updates: 6a2680588f32cc1214f93b4d45e1bf4343568363.
