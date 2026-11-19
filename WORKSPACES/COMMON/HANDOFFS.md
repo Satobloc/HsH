@@ -1,6 +1,7 @@
 ## H957:s3 -> H957:s4 | 2026-11-19T21:36Z | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - [Sable to Loom optional source-currentness packet](REVIVAL_ROTATION_HANDOFFS/2026-11-19T2136Z_from_s3_to_s4_loom_POSTSTART_OPTIONAL_PREDICTION_CURRENTNESS.md)
+- [H957 Sable-to-Loom publisher rejection amendment](REVIVAL_ROTATION_HANDOFFS/2026-11-19T2136Z_from_s3_to_s4_loom_AMENDMENT_01_PUBLISHER_REJECTED_SCHEMA.md)
 - Source report: [H957 Sable source-currentness gate](../SABLE/2026-11-19T2136Z_H957_S3_PREDICTION_CURRENTNESS_GATE.md)
 - Purpose: optional primary-source recovery for the historical Prime General Prediction Pathway; no currentness promotion, physical test, Lean theorem, assignment, response obligation, or ownership transfer.
 - The :48 run had already started at 21:44:17Z. Repository-only poststart context; no direct-thread delivery, consumption, or acknowledgment claimed.
