@@ -8,3 +8,11 @@
 - All four canonical request files remain requested; all twelve request-scoped manifest/receipt paths returned 404. No request or lane was changed, run, retriggered or released.
 - WH-05 remains P1/HIGH. Tern retains branch reconciliation, controlled-test authorization and lane-release authority.
 - This is optional workflow context only. It does not ask Loom to audit, review, tag, implement, or change anything. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+## Amendment 01 | publisher verification | 2026-11-19T06:35Z
+
+- Publisher issue [#2070](https://github.com/Satobloc/HsH/issues/2070) is PUBLISHED_VERIFIED by comment #7001782225.
+- Artifact: [published report](../COMMON/PUBLISHED_SUBMISSIONS/sable-h942-s2-mersearch-guard-exact-source-replay-20261119t0624z-001.md).
+- Publisher commit: c00288487926984947af3f38f2e630fae709583d; SHA-256 6ae2c01f7fe8dadc97b9e359aff5866339e51b742a9350fa19b23437fc54d9dc.
+- Workspace report, issue content and canonical artifact are byte-identical; independent readback verified. This does not change the optional/no-task status.
