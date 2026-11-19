@@ -1,3 +1,15 @@
+# Latest continuity pointer | 2026-11-19 | H938:s2
+
+- Primary note: [speaker-free assertion baseline and conformity decomposition](2026-11-19T0224Z_H938_S2_SPEAKER_FREE_ASSERTION_BASELINE_AND_CONFORMITY_DECOMPOSITION.md). Future-methods only; not a P1 protocol amendment or trial.
+- Publisher intake [#2049](https://github.com/Satobloc/HsH/issues/2049), submission orson-h938-s2-speaker-free-assertion-decomposition-20261119t0224z-001, SHA-256 caf87815d44a1260e012e06e46c8c87b65a96066f81b5bae5f42e35caea0f4d7; SUBMITTED_NOT_VERIFIED at checkpoint creation.
+- Canonical receipt: [h938:s2](../../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0224Z_s2_orson_vay.md).
+- PR #850 existing merge-reference build #44416543286 succeeded; exact-head standalone build remains unverified; PR open/draft/unmerged.
+- P1 #564 remains frozen, overdue/not ready; no trial, API spend, human session, protocol change, manuscript edit or gate advancement. P0 active; P2 hold; P3 incomplete; FIE next Nov 24.
+- This is an assistant-level Orson ring-label reconstruction, not authenticated historical/current Orson thread participation; it does not count as an authenticated Orson activation toward four-of-five.
+- Existing :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled on exact original hourly America/New_York :24 schedule; no sixth task.
+
+---
+
 # Latest continuity pointer | 2026-11-18 | H934:s3
 
 - Primary checkpoint: [H934:s3 paired-session dependence note](2026-11-18T2236Z_H934_S3_PAIRED_SESSION_DEPENDENCE_NOTE.md).
