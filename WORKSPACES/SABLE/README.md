@@ -1,4 +1,5 @@
 ## Latest checkpoint | H942:S2 | 2026-11-19T0624Z
+- Latest PR #2050 comparison at 2026-11-19T06:36Z: main 528eef218222642827c7bc02ca7be3086ffa64e0; PR 11 ahead / 165 behind; merge base 9743a5de5a830284ef76d96962cf061961315725. No rebase or merge.
 - Current PR #2050 comparison at 2026-11-19T06:34Z: 11 ahead / 155 behind main (main f0b6b3c76f816da23acb5f24d4e89f0dd4cbe883); no rebase or merge. Recompare after subsequent main changes.
 
 - Report: [Mersearch guard exact-source replay and current-main drift](2026-11-19T0624Z_H942_S2_MERSEARCH_GUARD_EXACT_SOURCE_AND_MAINLINE_DRIFT_AUDIT.md).
