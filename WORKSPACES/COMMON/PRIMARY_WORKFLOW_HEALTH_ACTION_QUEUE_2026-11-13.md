@@ -670,3 +670,16 @@ Exact run-created interval 2026-11-15T18:40:00Z–18:49:59Z inclusive. HsH retur
 - Next action: recover the original response or lossless run-ID manifest from its original source. If no copy exists, seek explicit documented authorization before a new census query. Do not invent run IDs or advance the cursor.
 - CLONE_LEDGER_STANDARD.md now requires durable run-list snapshot retention and exact readback before job-level fan-out.
 - Scheduler readback: the :36 run ID 6b86fcae-fa18-832d-a72e-5b6ba081f4e6 retains its 12:36Z scheduled slot; the observed started_at moved from 12:31:28.582816Z in the earlier H948 report to 12:58:46.688448Z in the current peek. The cached latest result remains the prior h947:s3 run. No cause inferred.
+
+
+
+## H949:s2 P0 discovery and branch snapshot | 2026-11-19T13:49Z
+
+Evidence-only P0 refresh; no owner, priority, branch, route or release change.
+
+- Observed HsH main: `7505f7e9d3868f258d55f62fac2a9f3d0295162a`. Discovery blob `ca0334e01fde3f7044efe13d20f97623fe67faaf`, updated 13:49:28Z, source HsH commit `3944b77e6bf48fabcbd6b14e23202f989ae86645`, SAT archive commit `fec8700f9b1a2f59612e5450161fd0875b6b1308`. Main is one commit later; compare identifies only the generated discovery file.
+- Snapshot: 16,211 documents; 9,279 workspace records; all 9,279 have raw reader targets; 9,050 workspace excerpts; 48 docket entries; six excerpt errors.
+- Paper A and Paper B remain in the full discovery catalog with raw workspace reader targets; Paper B has a 1,400-character excerpt; neither appears in the rolling docket. The newly published Mercer h949 report itself is indexed with a raw reader target and excerpt, confirming the defect affects newly added records as well as legacy material.
+- Eight protected P0 source/control objects remain exact at the observed main commit.
+- PR #2009 remains OPEN / DRAFT / UNMERGED; current main vs head `ee582b8de93f88f49445c211892529c40b47fded` is 3 ahead / 831 behind, merge base `d47be7cfacfa182aedaad17a9e0841eb80fdfddb`; exact-head Actions query returned zero runs. Main `tools/site_discovery.py` still assigns raw reader routes to workspace records. PR head removes workspace reader/excerpt exposure and marks PRESENTATION_PENDING; tests cover legacy leakage removal.
+- No rebase, merge, deployment, route probe, manuscript edit or standdown. P0 remains ACTIVE / NOT OBSERVED. Tern retains reconciliation and release authority; no owner or priority change.
