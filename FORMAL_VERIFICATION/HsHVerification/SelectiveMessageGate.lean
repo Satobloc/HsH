@@ -87,7 +87,7 @@ theorem l2w_threshold_from_rounded_summary :
   norm_num [l2wBreakEvenPrecision, l2wCorrectRemovalCost,
     l2wAllItemsRemovalNet, l2wWrongShare, l2wWrongRemovalGain]
 
-/-- Executable outputs: exact rational reconstructions from rounded inputs. -/
+/- Executable outputs: exact rational reconstructions from rounded inputs. -/
 #eval (birdBreakEvenPrecision, l2wBreakEvenPrecision)
 #eval (100 * birdBreakEvenPrecision, 100 * l2wBreakEvenPrecision)
 #eval (expectedNet birdBreakEvenPrecision birdWrongRemovalGain
