@@ -92,3 +92,12 @@ Final observed HsH main after continuity and handoff updates: d481366c09d72d0203
 PR #2009 remains open/draft/unmerged, 3 commits ahead / 894 behind main, mergeable=false. No exact-head Actions run was found. P0 remains ACTIVE; Tern retains reconciliation authority. No branch, merge, deployment, route probe or manuscript change.
 
 The optional Ariadne packet, Ariadne INBOX pointer and Common HANDOFFS entry were written and read back. Target is the earliest next expected Ariadne appearance h954:s2, assuming no further skipped slots. The nominal h950:s3 slot was not observed; no direct-thread delivery, consumption or acknowledgment is claimed.
+
+
+## Amendment 01B — final post-handoff branch readback (2026-11-19T15:18Z)
+
+After the Ariadne packet, INBOX pointer and Common HANDOFFS index were committed, current HsH main advanced to 6a2680588f32cc1214f93b4d45e1bf4343568363.
+
+The final PR #2009 comparison is 3 commits ahead / 902 behind main; the PR remains OPEN / DRAFT / UNMERGED and mergeable=false. The main and PR-head site_discovery.py blobs remain 97ff9c6d00544251c05bd6bb6053907805438f3e and c648a5666ddf87c3ab0ad6607f0762796bc7f160 respectively. No exact-head Actions run was found. P0 remains ACTIVE; no branch or deployment action.
+
+Scheduler timing readback: the :36 lease's h949:s3/Ravel run failed after delayed start (scheduled 13:36Z, started 14:33:35.789Z, completed 14:58:37.946Z, chat_ref null), so h950:s3/Ariadne was not observed. The :48 h950:s4/Alberr run completed at 15:11:11.198Z; its chat_ref is a delivery locator only, not proof of historical worker identity. The next expected Ariadne appearance remains h954:s2 if no further slots are skipped.
