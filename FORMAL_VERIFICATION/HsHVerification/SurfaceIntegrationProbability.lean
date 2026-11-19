@@ -34,7 +34,6 @@ def mass (P : FiniteMassModel (Ω := Ω)) (A : Finset Ω) : ℚ :=
 def condMass (P : FiniteMassModel (Ω := Ω)) (A B : Finset Ω) : ℚ :=
   mass P (A ∩ B) / mass P B
 
-omit [Fintype Ω] in
 theorem mass_mul_condMass (P : FiniteMassModel (Ω := Ω))
     (A B : Finset Ω) (hB : mass P B ≠ 0) :
     mass P B * condMass P A B = mass P (A ∩ B) := by
@@ -42,7 +41,6 @@ theorem mass_mul_condMass (P : FiniteMassModel (Ω := Ω))
   field_simp [hB]
 
 /-- Partition the correct outcomes into those with and without sufficient evidence surfaced. -/
-omit [Fintype Ω] in
 theorem mass_partition (P : FiniteMassModel (Ω := Ω))
     (C S : Finset Ω) :
     mass P C = mass P (C ∩ S) + mass P (C \ S) := by
