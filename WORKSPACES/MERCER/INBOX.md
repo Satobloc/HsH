@@ -1041,3 +1041,12 @@ The h900:s0 run record re-entered IN_PROGRESS under the same run ID after a prio
 - Packet: [Meridian h941:s3 clock-transform context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0536Z_from_s3_to_s4_mercer_POSTSTART_OPTIONAL_CLOCK_TRANSFORM.md).
 - Classification: POSTSTART_OPTIONAL_CONTEXT_ONLY. Mercer :48 run had already started at 05:48:59.772Z before packet creation.
 - No assignment, response obligation, review request, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## PRESTART OPTIONAL CONTEXT ONLY | Meridian h956:s4 -> Mercer h956:s5
+
+- Packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2048Z_from_s4_meridian_to_s5_mercer_PRESTART_OPTIONAL_SOURCE_EQUATION_QC.md`.
+- Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / RUN_NOT_OBSERVED / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- Source-critical context: PNAS turbulent-blob Eq. (55) printed n=-2 factor conflicts with Eq. (54) and the m->0 limit; assistant-derived correction is kept separate. See Kestrel issue #2127 and PR #2126.
+- Mercer P0 Paper A/B presentation-QA assignment remains unchanged; P2 remains HOLD.
+- No direct ChatGPT-thread delivery, consumption, acknowledgment, task, deadline, or response obligation is claimed.
