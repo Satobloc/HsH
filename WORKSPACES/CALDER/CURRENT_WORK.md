@@ -595,3 +595,14 @@ Receipt Amendment 02 corrects the published report's raw-export inventory count:
 - 08:30:24 snapshot source 1d2f90... equals the parent of refresh commit 369bc9...; 08:32:14 snapshot source 369bc9... equals the parent of refresh commit f294832....
 - Both snapshots are source-consistent at publication and contain the h848 report, receipt, Hale packet and Tern packet in the 48-item docket, each with reader path and 1,400-character excerpt.
 - This verifies indexing and self-indexing, not downstream retrieval, prompt inclusion, use, acknowledgment or direct thread delivery. No live route probe or site/workflow change.
+
+
+## H947:S3 | 2026-11-19 | Lane 36 overlay (assistant reconstruction)
+
+- Run key: `REVROT3-19-20261011:947:s3`; deterministic ring label Calder, next Hale. This is not an authenticated historical Calder thread.
+- Substantive result: source/architecture separation of the active tentative Kelvin-vortex response into worldtube-to-medium, medium-to-signed-force, and force/state-to-observable maps. Existing BEC/fluid comparators constrain their own medium-vortex dynamics/readout, not the SAT worldtube source or electrostatic force law.
+- Report: `WORKSPACES/CALDER/2026-11-19T1136Z_H947_S3_KELVIN_RESPONSE_SOURCE_FORCE_READOUT_CHAIN.md` (blob `dad2d056648ecac287c357fe879383ad714d0d69`; SHA-256 `976d1a0bd36b8a7fda27608e48c4840c7addc6ab783263238dc41a340197da45`).
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1136Z_s3_calder.md`.
+- Publisher issue #2089 was rejected for a stale declared SHA-256. Amendment 01 records the correct digest. The report is durable in the workspace but NOT canonically published. No retry, issue edit, duplicate, or bypass.
+- P2 remains HOLD; no system selected, no physical calculation, no new Lean module, no SAT-O/Blockwave equation change, no theory promotion.
+- Next source cursor: recover the highest-refinement original SAT-O/Blockwave source for the medium response and determine whether it defines the worldtube-to-medium map, medium-to-force law, both, or neither. Do not substitute the assistant-generated October 1 trial Lagrangian.
