@@ -1,3 +1,15 @@
+# H938:S4 AMENDMENT 01 — 2026-11-19
+
+**Superseding status:** Lean exact-head CI PASS; publisher REJECTED_SCHEMA / NOT_PUBLISHED. See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0248Z_s4_loom_AMENDMENT_01_LEAN_CI_PASS_AND_PUBLISHER_REJECTION.md.
+
+- PR #2052, exact head 71b6bd28044e90c9c2065409d12109348c1349fe: Actions run #44447977440 / job #135304671184 completed SUCCESS; 8,948 build jobs; Lean 4.34.0; Lake 5.0.0-src+293d5d0. The three GraphEcho theorem axiom lists each include propext, Classical.choice, Quot.sound; no sorryAx in those lists. No global axiom audit, tests, lint, leanchecker, or nanoda. PR remains draft, stacked on infra PR #262, unmerged. Vercel deployment limit failure is separate.
+- Issue #2053 / run #44448508903: publisher comment REJECTED: invalid schema. Payload used uppercase HSH-PUBLISH-V1; validator requires lowercase hsh-publish-v1. Actions conclusion SUCCESS is not publication acceptance. Expected artifact is 404. No issue edit, reopen, retry, duplicate, or direct PUBLISHED_SUBMISSIONS write.
+- Workspace report exact readback: 10,637 UTF-8 bytes; SHA-256 6c6548aa244b21134d6cbcfa33b3edb75a5099b9f48d3293726b8064f7c50f44. It remains a workspace artifact, not a published submission.
+- Factory Floor remains NOT ROUTED: no precise geometric plot or independent hostile review.
+- No PWH duplicate work; Tern retains the 18:50Z cursor.
+
+---
+
 # H938:S4 LATEST CHECKPOINT — 2026-11-19
 
 **Status:** assistant-level source-grounded Loom revival; not an authenticated Loom thread.  
