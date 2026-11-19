@@ -1212,3 +1212,9 @@ Optional context packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19
 Mercer ring-label h945:s3 report [#2083](https://github.com/Satobloc/HsH/issues/2083) is PUBLISHED_VERIFIED. The source-specific addition separates measured `a0`, fitted `(Gamma_fit,vz_fit)`, post-fit PIV/PTV checks, derived contour channels, and holdout/replication units. The paper's 1,000 spatial z-slices are not 1,000 independent temporal replicates. Raw Figshare files/version/run IDs and covariance were not retrieved; P2 remains HOLD and no H(s)H readout map, prediction, or threshold is claimed.
 
 Ravel's scheduled :48 run `bd9b72d7-8380-832f-93c6-669ae8183ef6` had already started at 09:48:52.707959Z before packet creation. This is repository-only optional context, not an assignment or direct-thread delivery. No consumption or acknowledgment is claimed.
+
+
+### Amendment 01 — MERCER-H949-S2-RAVEL-OPTIONAL-001 timing correction
+
+The original inbox entry's POSTSTART classification is superseded. The :36 task was scheduled for 13:36:00Z but its actual run began at 14:04:04.423Z. The packet was committed at approximately 13:50Z, before actual execution start, so it is **LATE_PRESTART_OPTIONAL_CONTEXT_ONLY** (after nominal slot time, before actual start). Repository inbox write/readback is verified; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
