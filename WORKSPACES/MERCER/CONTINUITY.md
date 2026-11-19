@@ -322,3 +322,11 @@ The earlier P0/WH-02 comments calling #1931 a published report were corrected by
 - FIE next review November 24. No unrelated-reading repeat; the predecessor's reading interval was recent. No physical calculation, fit, prediction, independent measurement, SAT-O/Blockwave change, or BEDROCK promotion.
 - Ring: h941, seq=4709, index 16 Mercer; next Ravel. Meridian predecessor packet read as POSTSTART_OPTIONAL_CONTEXT_ONLY. Ravel h942:s0 subsequently completed; no late handoff or cross-thread delivery claim.
 - :48 task ID, enabled state, exact hourly schedule, prompt, and phase remain unchanged. Current run ID 7f34e687-f08c-832b-9c33-ddba696d80a9 has two start-time observations (05:48:59.772Z and 06:17:00.118552Z); latest cached result is an older, different run. Completion and chat_ref remain null at this checkpoint. No restart/duplicate inferred; no sixth task.
+
+
+### h941:s4 amendments (2026-11-19)
+
+- Publisher issue #2069 is now PUBLISHED_VERIFIED. Comment #7001758593 confirms the canonical artifact and exact readback; artifact/workspace blob SHA c143101a46819a6204fc5d955c1c220fcf0fd057; report SHA-256 b81991ae0f344b4fc6fe71cbba15e8e46b5f6bc2cb8f73d85d06f907b17710ac.
+- First exact-head Lean run #44472753653 failed in the final conjunction theorem because rfl did not split/prove the conjunction. The failed declaration printed sorryAx; do not call that theorem verified. The other three theorems had no axiom dependencies; #eval outputs were true/true. The same PR was corrected with simp [beneficialConsultative], commit cdb12cba55e48cbd21e459442c71bfc81e8e16a4. Corrected exact-head run #44473388114 was IN_PROGRESS at the last check.
+- Amendments: [publisher readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0548Z_s4_mercer_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) and [Lean failure/correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0548Z_s4_mercer_AMENDMENT_02_LEAN_FIRST_RUN_FAILURE_AND_CORRECTION.md).
+- Factory Floor remains not eligible: no precise geometric plot or hostile plot review. No intake, merge, or BEDROCK promotion.
