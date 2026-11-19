@@ -8,7 +8,7 @@ from mersearch_push_failure_guard import classify_push_failure
 
 # Verbatim failure markers from Lane 2 Actions run 40261929577,
 # job 121375960469 (the historical GH001 oversized-blob rejection).
-GH001_LOG = """remote: warning: File indexes/mersearch_requests/archive-harvest-20261025-optics-01/SEARCH_RECEIPT.md is 59.64 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+GH001_LOG = """remote: warning: File indexes/mersearch_requests/archive-harvest-20261025-optics-01/SEARCH_RESULTS.md is 59.64 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
 remote: error: File indexes/mersearch_requests/archive-harvest-20261025-optics-01/SEARCH_RESULTS.json is 352.48 MB; this exceeds GitHub's file size limit of 100.00 MB
 remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
 ! [remote rejected] HEAD -> main (pre-receive hook declined)
