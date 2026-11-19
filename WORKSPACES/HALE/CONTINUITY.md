@@ -625,3 +625,10 @@ Issue #1997 body independently fetched/parsed; content exactly matches workspace
 - Canonical artifact blob `58b7852b4fbf39a8fec310b6455f32aacf34c559` equals workspace report blob; exact content readback PASS.
 - Receipt amendment: [H932 publisher verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2036Z_s3_hale_AMENDMENT_02_PUBLISHER_VERIFIED.md). P2 matrix issue #1855 comment #6991257697 readback PASS.
 - Publication verifies transport only; candidate data remains metadata/files not acquired, H(s)H forward map undefined, P2 HOLD. No retry/duplicate/direct write.
+
+
+## H951:s3 additive amendment 01 — 2026-11-19
+
+The original H951:s3 source-gate report remains published as issue #2103 (PUBLISHED_VERIFIED; publisher comment #7014398146). Additive report: [charged-vortex force attribution and OpenLearn measured Coulomb readout benchmark](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/HALE/2026-11-19T1536Z_H951_S3_AMENDMENT_01_CHARGED_VORTEX_FORCE_ATTRIBUTION_AND_OPENLEARN_BENCHMARK.md). Its one-time publisher submission is issue #2105, currently SUBMITTED_NOT_VERIFIED at the last check. Receipt amendment: [H951:s3 Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1536Z_s3_hale_AMENDMENT_01_PARENT_VERIFIED_AND_CAUSAL_BENCHMARK_SUBMITTED.md).
+
+New evidence distinction: charged-vortex carrier response, ordinary Coulomb interaction among charged rings, hydrodynamic ring/line interaction, detector impulse attribution, and the tentative H(s)H medium-mediated electrostatic hypothesis are separate mechanisms. The Open University three-sphere readings provide a measured standard Coulomb force/readout benchmark only; they do not test the H(s)H medium map. P2 remains HOLD; no new Lean module or physical H(s)H law was introduced. Next source cursor remains the exact original SAT-O/Blockwave Kelvin-vortex equation source and its worldtube-to-medium / medium-to-force definitions.
