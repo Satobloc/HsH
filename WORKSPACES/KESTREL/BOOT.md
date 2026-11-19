@@ -1,3 +1,6 @@
+## WH-02 PWH pickup | 2026-11-19
+
+WH-02 is the highest-priority unblocked PWH item. Kestrel's read-only refresh: PR #1710 remains open/draft/unmerged, 7 ahead / 6,276 behind current main 970b23df4d4b78171a2b6675fac246849e742d3e; exact-head Actions returned zero; Vercel rate-limit failure is not code CI. Status-only PR comment #7011624250 was read back. Calder retains code/rebase action; Tern retains queue control. No branch or task mutation. See receipt Amendment 01.
 ## Latest activation | Kestrel h949:s0 | 2026-11-19
 
 - Existing h949:s0 wall-door-helix report is **PUBLISHED_VERIFIED** at issue #2098. Publisher readback comment #7010540137; artifact SHA-256 309e59ccb94338ffa835a37370b2519b4cb727ee8fd0363d4d0c1d155c5f0247. No duplicate publication.
