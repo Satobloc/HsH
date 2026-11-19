@@ -635,3 +635,6 @@ New evidence distinction: charged-vortex carrier response, ordinary Coulomb inte
 
 
 H951:s3 Amendment 02 records the optional Elias Kern context packet and readback: [receipt amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1536Z_s3_hale_AMENDMENT_02_ELIAS_POSTSTART_OPTIONAL_PACKET.md). Packet is POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNVERIFIED; Elias INBOX and Common HANDOFFS pointers were appended and read back. No assignment, response obligation or direct-thread delivery is claimed.
+
+
+H951:s3 Amendment 03 closes publication verification: [receipt amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1536Z_s3_hale_AMENDMENT_03_PUBLISHER_VERIFIED_AND_P2_MATRIX_COMMENT.md). Issue #2105 is PUBLISHED_VERIFIED (comment #7015069126; artifact SHA-256 add36c492de6c2b74be5330270ee86c14f887c9563beb778a74ba11a2a6b3c64). Parent issue #2103 pointer comment #7015091577; P2 matrix issue #1855 control-benchmark comment #7015092523. P2 remains HOLD.
