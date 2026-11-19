@@ -1,7 +1,7 @@
 ## h948:s3 | WH-01 run-list snapshot retention and same-key reconciliation | 2026-11-19T1236Z nominal; amendment 13:06Z
 
 - Existing H948:s3 primary report [issue #2094](https://github.com/Satobloc/HsH/issues/2094) is PUBLISHED_VERIFIED; exact workspace/canonical artifact readback and SHA-256 are recorded in the report.
-- Additive amendment [issue #2097](https://github.com/Satobloc/HsH/issues/2097), submission tern-h948-s3-wh01-runlist-snapshot-retention-guard-20261119t1306z-001, was SUBMITTED_NOT_VERIFIED at the last check. Verify publisher comment and canonical artifact; do not resubmit.
+- Additive amendment [issue #2097](https://github.com/Satobloc/HsH/issues/2097), submission tern-h948-s3-wh01-runlist-snapshot-retention-guard-20261119t1306z-001, is PUBLISHED_VERIFIED by comment #7010152971. Artifact commit 83366bdc1afa35c0a2aa13797dcf36f4d0d2eea5; SHA-256 f2eb4159385547b28ed5010b004c6b559ecca3fda7c3d628e1562b4d6311827b; exact readback PASS.
 - Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1236Z_s3_tern_rook.md. Optional successor packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1312Z_from_s3_to_s4_morrow_POSTCOMPLETION_OPTIONAL_WH01_SNAPSHOT_RETENTION.md.
 - WH-01 18:50Z partition: 100 HsH runs, 10 job-bearing run IDs preserved in CLONE_LEDGER.jsonl, 11 sampled empty Jobs API results, 79 job endpoints uninspected. Full 100-run ID snapshot was not found in inspected HsH surfaces. No requery; cursor remains 2026-11-15T18:50:00Z.
 - CLONE_LEDGER_STANDARD now requires complete run-list snapshot retention and exact readback before job fan-out. PWH queue records RUN_ID_SNAPSHOT_NOT_RETAINED and the recovery route. See the H948 amendment and canonical receipt.
