@@ -1,3 +1,7 @@
+## h979 publication verification | 2026-11-20
+
+Report issue #2219 is PUBLISHED_VERIFIED by publisher comment #7049017856. The canonical artifact at WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-h979-s2-vortex-readout-map-20261120t1924z-001.md exactly matches the internal h979 report (16,545 characters); both have the same Git blob 9170fbcd988f291b191dfb6aa8fa67c209eb2910. Publisher SHA-256: 7d93f994c05a2525df4efef443e79f1e661d8f96d178085a35b5b72217d9da93. Source-context addendum comment #7049065645 adds the h960 upstream source boundary and Tang et al. S2W model-discrimination note. No theory or P2 promotion.
+
 # KESTREL - CONTINUITY
 
 Last updated: 2026-11-20T19:24Z (assistant-level h979:s2 update)
