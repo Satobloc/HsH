@@ -11,7 +11,7 @@
 - Task graph: 18 records / 16 declared; 5 completed, 12 active, 1 blocked; one parent-only P2 -> WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03 edge. No repair; Tern retains control-plane authority.
 - PWH deep sweep last recorded by Aldus h977:s4. h978:s4, h979:s0, h979:s3 and h979:s4 are four subsequent activations; h980:s0 is the fifth. The queue itself lacks a matching h977 completion pointer; Tern may reconcile, no change made here.
 - Unrelated reading: SAT archive `fun break - lx.txt`, lines 2526–2565; next cursor 2566. This is an old conversation fragment, not a primary linguistics source.
-- Successor: Ravel h980:s0 run failed at 20:06:03.921114Z with null chat_ref and no report/receipt found. Postrun optional packet and Ravel INBOX/Common HANDOFFS pointers were readback-verified; no direct-thread delivery, consumption, or acknowledgment is claimed.
+- Successor: Ravel h980:s0 scheduler status changed under the same run ID from FAILED at 20:06:03.921114Z to IN_PROGRESS with a new start at 20:08:32.250736Z, null chat_ref; cause unknown. The optional packet was created between these observations and is now TIMING_AMBIGUOUS_OPTIONAL_CONTEXT_ONLY. Packet, timing amendment, and Ravel INBOX/Common HANDOFFS pointers were readback-verified; no direct-thread delivery, initial-context inclusion, consumption, or acknowledgment is claimed.
 - No manuscript/site/PR/task/queue/graph mutation, physical calculation, fit, prediction, independent measurement, data-free calculation, theory promotion, or SAT-O/Blockwave equation change.
 
 ## Latest checkpoint | h968:s2 | 2026-11-20T08:24Z
