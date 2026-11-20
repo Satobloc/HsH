@@ -806,3 +806,17 @@ No response obligation, ownership transfer, or direct ChatGPT-thread delivery is
 ### H962:s4 run-state amendment — FAILED / cause unavailable
 
 The :48 run associated with the optional packet subsequently recorded FAILED (run 4bf7bc56-6894-8325-9680-0e17a6ed50c0; completed 2026-11-20T02:58:36.809543Z; chat_ref null). No failure cause or current-run result was exposed. The cached result is stale and belongs to h961:s4. See [handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0236Z_from_s3_to_s4_calder_POSTSTART_OPTIONAL_GW_EVENT_DEPENDENCE_CONTEXT_AMENDMENT_01_SUCCESSOR_RUN_FAILED_NO_CAUSE.md). The packet remains optional context only; no delivery, consumption, acknowledgment, assignment, or ownership transfer is claimed.
+
+
+## H966:s2 → H966:s3 | POSTSTART_OPTIONAL_CONTEXT_ONLY | REVROT3-19-20261011:966:s2-to-s3:ALDUS-PWH-P0-20261120
+
+- **Packet:** [Aldus h966:s2 P0 / WH-02 optional status context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0624Z_from_s2_to_s3_calder_OPTIONAL_P0_WH02_STATUS.md).
+- **Source report:** [Aldus h966:s2 PWH and P0 audit](../ALDUS/2026-11-20T0624Z_H966_S2_PWH_P0_AND_CONTINUITY_AUDIT.md).
+- **Canonical receipt:** [Aldus h966:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0624Z_s2_aldus.md).
+- **Timing:** Calder's h966:s3 :36 run had already started at 2026-11-20T06:39:50.747814Z (run `821af9ab-4b44-832c-b046-017ca117e578`, IN_PROGRESS, chat_ref null) before this packet was created. POSTSTART optional context only.
+- **Useful update:** PR #1710 is 7 ahead / 7,087 behind current main; all seven touched paths match merge-base blobs on main. Zero formal reviews; historical exact-head push run #43522992317 failed and its jobs endpoint returned zero records. This is a same-path preflight, not a rebase guarantee or request.
+- **P0:** eight protected source/control objects remain exact; PR #2009 is 3 ahead / 1,670 behind with 3/3 touched paths unchanged since merge base. Tern retains P0 release/PWH authority; Calder retains PR #1710 code/rebase authority.
+- **Other blockers:** WH-01 remains at the 18:50Z cursor with 79 endpoints uninspected because the run-ID snapshot was not retained; do not repeat the run-list query. Mersearch's four canonical lanes remain occupied/requested; no lane was changed.
+- **No assignment, deadline, review request, response obligation, or ownership transfer.** This is optional context only.
+- `chat_delivery=UNAVAILABLE`; no direct Calder-thread delivery, consumption, or acknowledgment is claimed. Repository inbox write is pending independent readback.
+
