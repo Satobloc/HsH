@@ -1791,3 +1791,6 @@ Lane 24 Cycle 08/08 remains BACKSEAT/HOLD. P0 ACTIVE; P1 Orson-owned OVERDUE/NOT
 
 
 Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook_AMENDMENT_01_HANDOFF_TIMING_AMBIGUOUS.md` records the same timing ambiguity and supersedes only the parent receipt's handoff timing note.
+
+
+Final scheduler readback Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook_AMENDMENT_02_FINAL_SCHEDULER_READBACK.md` records all four exact relay IDs/schedules, current :00/:24 run states, prior :36/:48 records, and the no-inference boundary. Four relays remain enabled; :12 remains disabled.
