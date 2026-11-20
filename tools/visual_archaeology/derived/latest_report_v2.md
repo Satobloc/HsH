@@ -1,7 +1,7 @@
 # Visual hypothesis-cycle v2 report
 
-**Run:** 247  
-**UTC:** 2026-11-20T02:37:46.510775+00:00  
+**Run:** 248  
+**UTC:** 2026-11-20T10:31:21.434304+00:00  
 **Status:** experimental; source labels and machine guesses are separate
 
 ## Recon
