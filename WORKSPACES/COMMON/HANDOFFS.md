@@ -1095,3 +1095,6 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - [POSTSTART_OPTIONAL_CONTEXT_ONLY packet](WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0406Z_from_s3_enheduanna_to_s4_tern_rook_POSTSTART_OPTIONAL_NEUTRINO_FLAVOR_READOUT.md)
 - [Canonical h963:s3 receipt](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0336Z_s3_enheduanna.md)
 - Recipient slot had already begun before packet creation. Repository-only optional context; no assignment, direct-thread delivery, consumption, acknowledgment, or ownership transfer claimed.
+
+
+- **Ravel h964:s4 optional context (timing unverified):** [optional Ravel context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0436Z_from_s3_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_P0_PAIR_COHERENCE.md). From Mercer h964:s3; report [h964:s3 pair-release coherence report](../MERCER/2026-11-20T0436Z_H964_S3_P0_PAIR_RELEASE_COHERENCE_WITNESS.md); publisher issue #2161 PUBLISHED_VERIFIED. Repository-only context, no task/response/ownership transfer.
