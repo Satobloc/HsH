@@ -1300,3 +1300,9 @@ No task, response obligation, review request, deadline or ownership transfer is 
 - [Optional coupled-readout proof context packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2346Z_from_s3_mercer_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_COUPLED_READOUT_PROOF.md).
 - Packet is repository-only context, not an assignment or review request. PR #2236 is a stacked draft on Ravel PR #1133; first Lean build failed, corrected build #44839250236 was in progress at packet creation.
 - No direct-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer is claimed.
+
+
+## Mercer h983:s3 → Ravel h983:s4 | 2026-11-20T23:49Z | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- [Timing Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2346Z_from_s3_mercer_to_s4_ravel_AMENDMENT_01_PRESTART_TIMING_VERIFIED.md) confirms packet commit 23:48:42Z preceded Ravel provider start 23:49:10.683712Z by 28.683712 seconds.
+- The packet is PRESTART optional repository context only. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
