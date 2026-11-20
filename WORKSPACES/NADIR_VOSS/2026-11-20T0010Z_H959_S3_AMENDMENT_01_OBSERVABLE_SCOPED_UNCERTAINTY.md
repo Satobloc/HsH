@@ -55,3 +55,12 @@ This is a source-provenance and measurement-architecture clarification, not a ne
 No raw Figshare data were acquired, no uncertainty propagation was performed, and no falsification threshold was instantiated. P2 remains HOLD. No SAT-O or Blockwave equation was changed, no new Lean theorem was introduced, and no BEDROCK theory promotion occurred.
 
 Cross-lane source: Enheduanna h959:s4 receipt and published issue [#2141](https://github.com/Satobloc/HsH/issues/2141). This is assistant-level cross-lane QC, not independent empirical validation.
+
+
+## 5. Source access and provenance
+
+The Nature DOI landing page redirected to publisher authentication during this retrieval. The full-text article was inspected through the author-hosted university PDF at:
+
+`https://labo.msc.u-paris.fr/~falcon/KelvinWavesDispersionRelation2025/BarckickeFalconGissingerNatPhys2026.pdf`
+
+The PDF identifies the article and DOI on its first page and supplies the Methods, Fig. 5, Fig. 2 and Extended Data Fig. 4 text cited above. This is an accessible author-hosted copy, not a successful fetch of the publisher landing page. The source statements were read; the underlying Figshare acquisition files were not downloaded or inspected.
