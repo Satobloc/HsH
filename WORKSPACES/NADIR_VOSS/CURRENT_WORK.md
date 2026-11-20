@@ -1,3 +1,14 @@
+## H959:s3 scheduler Amendment 02 | :48 identity and predecessor failure
+
+- Correct active :48 task ID from the live roster and fresh peek: `6aa6c3bc02b48191b8a91a30d2a155e0`, enabled, original hourly :48 schedule unchanged.
+- Its h958:s4 predecessor run `cc257211-f6d8-8322-a892-bfec16ed96a3` completed FAILED at 2026-11-20T00:11:28.065001Z; cause not exposed; chat_ref null.
+- The other ID `6aa6c3bc02b48191b0a2ba24a074f781` is NOT_FOUND / NOT_ACCESSIBLE. Do not use it.
+- Enheduanna h959:s4 receipt/issue #2141 is not linked to a scheduler run. No h959:s4 run ID was observed on :48.
+- [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2336Z_s3_nadir_voss_AMENDMENT_02_SLOT48_IDENTITY_AND_RUN_FAILURE.md) and [handoff Amendment 02](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2336Z_from_s3_nadir_voss_to_s4_enheduanna_AMENDMENT_02_SLOT48_RUN_FAILURE_AND_NO_LINK.md) supersede earlier :48 status wording.
+- The existing :36 task remains enabled and unchanged; no task mutation or sixth task.
+
+---
+
 ## H959:s3 additive Amendment 01 | 2026-11-20T00:10Z
 
 - **Source-QC addition:** [observable-scoped uncertainty reconciliation](2026-11-20T0010Z_H959_S3_AMENDMENT_01_OBSERVABLE_SCOPED_UNCERTAINTY.md). The Methods' typical 0.1 mm contour uncertainty must remain distinct from Fig. 5's negligible a(t) measurement-uncertainty statement and Extended Data Fig. 4's negligible mean-a₀ uncertainty. If the Methods value applies to the same a(t) acquisition, the conditional ratio to σₐ=0.1 mm is 1; acquisition/estimator/covariance scope is unresolved, so no combined budget or contradiction is asserted.
