@@ -45,3 +45,19 @@ No task, review request, response obligation, ownership transfer, scheduler chan
 ## Return pin
 
 `H962:S2 / MIRA-OPERATIONAL-ONLY / ALDUS-H962-S3-NEXT / QUARANTINE-HOLD-PRESERVED / NO-MIRA-RESEARCH-PAYLOAD / P0-ACTIVE / P2-HOLD / LOOM-2152-PUBLISHED-VERIFIED / PR2151-LEAN-UNVERIFIED-IN-PROGRESS-AT-LAST-OBSERVATION / REPOSITORY-ONLY-PRESTART-CONTEXT / NO-CROSS-THREAD-DELIVERY`
+
+
+## Amendment 01 | final exact-head CI readback | 2026-11-20T02:25:36Z
+
+The earlier status in Section 4 / the successor packet was accurate only at the time of its first readback. A subsequent final read of the same Actions run established a terminal failure:
+
+- PR #2151 exact head: `eb33a610aa316cba18829b8588434e9d49e3c70f`.
+- Workflow run: [#44660272240](https://github.com/Satobloc/HsH/actions/runs/44660272240).
+- Job: `136036502488`.
+- Result: `FAILED` at `HsHVerification.GW241011SymmetricRestriction`.
+- Lean 4.34.0 / Lake 5.0.0; exact-head checkout and Lake manifest generation passed; Lean compilation failed.
+- Four `rewrite` tactic failures occurred at lines 126, 129, 132 and 135 because the requested pattern was absent. Line 83 also produced an unused `ring` tactic warning.
+- Other library targets built, but the required target failure made the whole library build fail. Tests, lint, leanchecker, nanoda and axiom-audit were skipped.
+- The log printed theorem axiom lines for six declarations with `propext`; because the required module failed to compile, those lines are not a successful exact-head proof result. No Lean verification or theorem-specific axiom-audit pass is claimed.
+
+This amendment supersedes only the earlier `IN_PROGRESS` observation. No PR edit, repair, rerun, physical calculation, or theory promotion was made.
