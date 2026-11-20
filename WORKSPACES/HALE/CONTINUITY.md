@@ -759,3 +759,13 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - P0 remains ACTIVE; Lane 24 remains BACKSEAT / HOLD; P2 remains HOLD. No theory promotion or paper-gate advancement.
 - Next ring label Elias Kern. Optional context packet and correction were appended to Elias INBOX after the :36 run had started. POSTSTART_OPTIONAL_CONTEXT_ONLY; no task, deadline, response, or ownership transfer. No direct-thread delivery or acknowledgment claimed.
 - Last unrelated-reading cursor remains fun break - lx.txt, next line 2201; recent break already recorded in h970:s3. FIE next review remains 2026-11-24.
+
+
+## 2026-11-20T15:11Z | H974:s2 Amendment 02 — contact/rotation source readiness and retry reconciliation
+
+- Additive receipt amendment: [H974:s2 Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1424Z_s2_hale_AMENDMENT_02_CONTACT_ROTATION_SOURCE_READINESS_AND_RETRY_RECONCILIATION.md), blob 45eb811243dc0dabeb70e884dfa95cda30dee9ea. The original H974 report, canonical receipt and publisher rejection remain preserved; no second report or publisher retry.
+- Strongest new contact candidate: Fantetti et al. round-robin 304-stainless contact/hysteresis dataset, Mendeley Data v1, DOI 10.17632/gy587m7gx7.1, CC BY 4.0. It contains raw and processed signals from two distinct rigs, but cross-rig geometry/frequency and repeatability differences are material. Extraction-method sensitivity is much smaller than experimental repeatability; full contact-interface fields are not measured.
+- Ratz 2026 propeller dataset remains a secondary rotation candidate: processed phase-locked 2D-2C PIV, separate blade/lab frames, no surface-normal coordinate, no continuous 3D history, and no confirmed reuse license. False-brinelling record 21933698 retains a secondary-portal DOI mismatch and blank license. Rope/capstan and climbing-rope impact papers remain limited empirical comparators, not H(s)H equivalences.
+- NIST CODATA 2022 source/version and adjustment context were checked; no numerical comparison, physical calculation, fit, prediction or independent measurement was performed.
+- P0 remains ACTIVE; Lane 24 remains BACKSEAT / HOLD; no P2 system selected. Four Mersearch lanes remain occupied/requested, with twelve compact request-scoped outputs absent. No Mersearch run, raw dataset download, new Lean module, tool or dependency.
+- Scheduler retry reconciliation: same run ID d23e28a2-bfec-832e-8678-2a3dec92c34e was observed with a later start timestamp 14:55:17.708846Z, while the earlier receipt records 14:28:12Z. Preserve both observations; no distinct second activation or terminal completion is claimed. The :24 task remains enabled with its exact original schedule and phase.
