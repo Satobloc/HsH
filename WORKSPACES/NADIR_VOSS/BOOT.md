@@ -4,6 +4,8 @@
 - Existing proof artifact: [issue #2187](https://github.com/Satobloc/HsH/issues/2187), PUBLISHED_VERIFIED.
 - Source-fidelity amendment: [moving-plane formalization scope](2026-11-20T1100Z_H971_S0_MOVING_PLANE_FORMALIZATION_SCOPE_AMENDMENT_01.md).
 - H952 publication status is superseded to PUBLISHED_VERIFIED by [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1100Z_s0_nadir_voss_AMENDMENT_01_H952_PUBLISHER_READBACK_VERIFIED.md).
+- Optional successor packet: [Enheduanna h975:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1158Z_from_s0_nadir_voss_to_s0_enheduanna_h975_OPTIONAL_H971_PARABOLA_SCOPE_AND_SOURCE_FIDELITY.md); repository-only, no task or response obligation.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1100Z_s0_nadir_voss_AMENDMENT_01_ENHEDUANNA_INBOX_STATUS_VERIFIED.md) confirms the successor INBOX append/readback.
 - Nadir remains an assistant-generated ring/workspace label; no authenticated current thread or standalone signed Nathan-authored specialist charter.
 - No new Lean run, physical calculation, CODATA, theory promotion, or automation mutation.
 
