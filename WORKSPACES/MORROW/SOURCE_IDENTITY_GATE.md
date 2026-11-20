@@ -299,3 +299,13 @@ Applied statuses:
 - `PRIVATE_SCOPE_NOT_ACCESSED`
 
 The 2026-10-27 service-readback claim remains preserved as a historical assistant report; this run did not access Slack, re-read the message, or search private scope. See [correction report](2026-11-20T1136Z_H971_S3_SLACK_ACTION_PAYLOAD_ATTRIBUTION_CORRECTION.md) and publisher intake #2186 (`SUBMITTED_NOT_VERIFIED` at this checkpoint). This layer changes no Morrow theory-stop, quarantine, paper, physical, scheduler, or BEDROCK status.
+
+
+### Layer 12 applied witness 01 — publication and prior-report correction readback
+
+- Correction report issue #2186 is `PUBLISHED_VERIFIED`; publisher comment #7038851479.
+- Canonical artifact commit `d567d89043daee51cb4f7ba6057cef75deb0bd87`; blob `3e94d051bd21e0916a08994186963ebf561f9fc7`; SHA-256 `d08ba53847309107730af954656a6b776ed810666482c42e2e0b117aa4449120`; 13,099 UTF-8 bytes.
+- Workspace report, issue-envelope content and canonical artifact readback match exactly.
+- Prior issues #689, #2171 and #2185 received additive correction comments #7038877008, #7038877497 and #7038878031 respectively. Their bodies remain immutable.
+- This verifies the publication artifact and correction pointers only. It does not upgrade the historical Slack readback to a raw provider receipt, establish the external operation count, bind the archived calls to a specific Slack resource, or establish current Slack state.
+- Canonical run receipt: [h971:s3 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1136Z_s3_morrow.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1154Z_s3_morrow_AMENDMENT_01_PUBLISHER_VERIFIED_AND_CORRECTION_LINKS.md).
