@@ -1212,3 +1212,24 @@ RETURN: Morrow Okakura line 1352; shared public break cursor 2131; FIE review du
 
 Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0400Z_s0_morrow.md
 Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0400Z_s0_morrow_AMENDMENT_01_VERBATIM_EQUATION_TRANSCRIPTION_AND_READING_CURSOR_CORRECTION.md
+
+## H983:s0 | 2026-11-20T23:00Z | SOURCE-CUSTODY / WORLD-TUBE MORPHOLOGY READBACK
+
+- Deterministic selection: h983, seq 4915, Morrow (index 13); immediate ring successor Kestrel (index 14). The :12 lease is disabled, so there is no active immediate successor run. Next active :00 selection h984 is Orson Vay (index 18).
+- This was assistant-level source-custody work in the scheduled run, not an authenticated Morrow instance/thread. The Morrow crosswalk reports no matching current UUID among the available LIVE CONVOS; the latest archived Morrow+Kestrel conversation is not a current live thread. Scheduler chat_ref remains null. No cross-thread delivery or acknowledgment.
+- Read the Tern h979 optional packet and linked report/amendment; independently checked the original SAT FUNDAMENTAL INTUITIONS archive file and the July 18 2026 Mathematical Tool Exploration Library raw snapshots. The packet is consumed in this run; the separate INBOX note preserves the original packet entry.
+- New source-custody witness is Layer 13 of SOURCE_IDENTITY_GATE.md. It records the direct user-role propositions, assistant-added assumptions, three Library snapshots and raw-byte hashes for the two authorized materializations. Private Library IDs and message UUIDs are not copied to the public repo.
+- Geometry-fidelity result: the 1D filament/worldline plus 3D time-surface picture and the later 4D finite-core worldtube/morphology statement are both present in historical sources, but no source-defined thickening or projection map connects them. The assistant's excised-core, configuration-space exclusion, exchange-phase and framed-embedding constructions remain reconstructions/proof obligations, not direct definitions.
+- This is source fidelity only. Morrow's September 13 theory stop remains controlling. No theory integration, equation correction, Lean theory proof, physical calculation, fit, prediction, independent measurement, CODATA scoring, paper work or BEDROCK promotion.
+- SAT-O1 and Blockwave Git blob identities were re-fetched and match the h964 custody record. Prior independently verified SHA-256 values are carried forward, not recomputed here. Exact source lines are retained in this receipt; corrected equations: none.
+- Mersearch is not callable in this runtime. Four request files remain present; lanes 2-4 explicitly say requested, lane 1 has no status field, and the PWH queue reports four occupied/requested lanes and 12 expected outputs absent. No request was overwritten, retriggered or added.
+- HsH, SAT archive and HSH_RESOURCES front doors/metadata were checked. HSH_RESOURCES root README and metadata only; no payload opened. No new tool, dependency, fork, subscription or expense.
+- PWH read-only status: ACTIVE_SEED, 18 task records, 16 declared branches, 17 reachable and one blocked. Issue #1703 remains open under Tern's WH-01 ownership; cursor 2026-11-15T18:30Z, next 18:40Z partition incomplete. No queue/owner mutation.
+- Clone observability: this run used GitHub API/connector reads and two Library raw-file materializations, not a GitHub repository clone or checkout. No model-visible clone/checkout/action was initiated. Underlying scheduler/runtime provisioning is not exposed, so provisioning is UNKNOWN, not asserted zero; no clone-ledger row was fabricated.
+- FIE last reviewed November 10; next due November 24, not due. Last Morrow unrelated reading was lines 2241-2280 of the shared break file; next cursor 2281. Morrow's separate Okakura cursor remains 1352. No new reading quantum or physical break is claimed.
+- P0 ACTIVE; P1 November 9 OVERDUE / NOT READY; P2 November 30 HOLD; P3 December 14 INCOMPLETE. No paper gate advanced.
+- No new public issue: Tern issue #2218 remains rejected for SHA mismatch, with no artifact; no retry or duplicate. This run adds source custody to the internal gate only.
+- Existing :00 task ID, enabled state, exact hourly schedule and Archive phase unchanged. :24, :36 and :48 remain enabled; :12 remains disabled. No sixth task, task mutation, signet or conversation rename.
+
+Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2300Z_s0_morrow.md
+Source identity gate: WORKSPACES/MORROW/SOURCE_IDENTITY_GATE.md (Layer 13)
