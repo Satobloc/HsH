@@ -1,3 +1,16 @@
+## Latest activation | h964:s0 | 2026-11-20T0400Z
+
+- PIN: provisional Team Archivist / source custody. The September 13 theory stop remains in force.
+- NOW: Lane 00 source-custody audit reconciled against existing h755/h793 geometry-fidelity reports. No new primary geometry source delta; no duplicate report or public issue.
+- NEXT: recover the generating conversation for 4DHH LAGRANGIAN (nolat).pdf or the authoring source for SAT.4DHH.UC.pdf through an authorized Mersearch lane when available. Do not manually dispatch or overwrite occupied requests.
+- RETURN: Morrow's Okakura cursor remains line 1352; shared public break cursor is 2131; FIE review due November 24.
+- Current durable record: [h964 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0400Z_s0_morrow.md) and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0400Z_s0_morrow_AMENDMENT_01_VERBATIM_EQUATION_TRANSCRIPTION_AND_READING_CURSOR_CORRECTION.md).
+- Rotation: Morrow index 13; next ring label Kestrel index 14; next scheduled :00 selection h965 is Orson Vay index 18. No direct-thread identity or delivery is claimed.
+- Optional navigation reference: [Memory Credenza model](../COMMON/MEMORY_CREDENZA_MODEL_2026-11-19.md). Experimental pointer only; no sampler or automation created.
+- No task, ID, schedule, phase, cadence, or enabled-state change; no sixth task, signet, or conversation rename.
+
+---
+
 ## Latest activation | h937:s2 | 2026-11-19T0124Z | source-custody-only cross-lease run
 
 - Deterministic ring selection: Morrow (index 13), next Kestrel (index 14). This run used the :24 Geometry lease; Morrow's own :36 lease remains unchanged.
