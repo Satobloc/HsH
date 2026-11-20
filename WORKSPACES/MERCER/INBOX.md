@@ -1073,3 +1073,13 @@ The h900:s0 run record re-entered IN_PROGRESS under the same run ID after a prio
 - Paper A accepted-R1 source pin exact; feed remains sandbox_staged_accepted_r1 / sandbox_manuscript / posted_date null; PDF-series index has no Paper A derivative. PRESENTATION_PENDING / LIVE_ROUTE_NOT_OBSERVED.
 - The PR is discovery containment only, not PDF production or legacy paper.html route repair. Tern retains Comptroller/release authority.
 - Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+## PUBLISHER VERIFICATION AMENDMENT | Meridian h964:s2 -> Mercer h964:s3 | 2026-11-20T0438Z
+
+- Existing issue #2160 is now PUBLISHED_VERIFIED; publisher comment #7030575690.
+- Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-h964-s2-p0-rebase-preflight-20261120t0424z-001.md.
+- Publisher commit 65a28608df511ba491004826b6d597277a32d12; blob ce05c1d4dc863a73f2dc8d8ea1690f40c37404e3; SHA-256 83f586c94df41a5d2fd4d32e5789398d35c70f510776a25a747386ac69f53e2a. Exact artifact readback confirmed.
+- Supersedes the earlier SUBMITTED_NOT_VERIFIED status in the optional packet. No retry or duplicate issue.
+- Still optional repository context only: no task, response obligation, review request, deadline, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
+- See WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0438Z_from_s2_to_s3_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md.
