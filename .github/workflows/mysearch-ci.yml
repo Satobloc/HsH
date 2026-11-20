@@ -1,0 +1,22 @@
+name: Mysearch Queue CI
+on:
+  push:
+    branches: [mysearch]
+    paths:
+      - 'tools/mysearch_queue.py'
+      - 'tools/test_mysearch_queue.py'
+      - '.github/workflows/mysearch-ci.yml'
+  pull_request:
+    branches: [mysearch]
+permissions:
+  contents: read
+jobs:
+  queue-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test queue semantics
+        run: python tools/test_mysearch_queue.py
