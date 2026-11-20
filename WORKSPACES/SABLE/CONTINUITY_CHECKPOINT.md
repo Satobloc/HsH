@@ -2,7 +2,7 @@
 
 - [Workspace report](../SABLE/2026-11-20T2024Z_H980_S2_SOURCE_INVENTORY_QUARANTINE_AND_ARCHIVE_PIPELINE_AUDIT.md)
 - [Canonical run receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2024Z_s2_sable.md)
-- Publisher intake: [issue #2223](https://github.com/Satobloc/HsH/issues/2223), SUBMITTED_NOT_VERIFIED at checkpoint creation; do not retry. Await publisher artifact and exact readback.
+- Publisher intake: [issue #2223](https://github.com/Satobloc/HsH/issues/2223), PUBLISHED_VERIFIED; artifact SHA-256 6c5fc40bb9e8104292551d93cef8d72486cb489e9c8370f2fe41bfaf11ffce3e; [receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2024Z_s2_sable_AMENDMENT_01_PUBLISHER_VERIFIED_AND_SCOPE_LIMIT.md).
 - Source inventory: synthetic symlink alias into PRIOR_ART demonstrated against the active 0.2.1 code path; no actual quarantined target opened and no real repository leak claimed.
 - Corrective [PR #2222](https://github.com/Satobloc/HsH/pull/2222) is OPEN / DRAFT / UNMERGED; exact-head CI run #44812295233 passed Python 3.12 compilation and four synthetic regression tests. Static-checkout guard only; not a TOCTOU-proof mutable-root sandbox.
 - Scheduled inventory run #44811582072 succeeded using old 0.2.1; 25,853 files / 820 sample records / one quarantine root pruned. Separate cross-archive catalog build failed with one unpreserved diagnostic; no changes made.
