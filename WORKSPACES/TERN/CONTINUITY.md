@@ -1,3 +1,16 @@
+## h960:s0 | Lane 00 non-duplication and Comptroller status | 2026-11-20T0000Z
+
+- Receipt: [h960:s0 Tern](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0000Z_s0_tern_rook.md), Git blob `a23503f6463b5d00e2dfac5e2410f23e467418b6`.
+- No duplicate Lane 00 report: November 4/8 mutual-curvature/timewave/symmetric-attribution sources are already covered by #1687, #1375, #1673, #1817, #1585, #1292, #1323, #1757, #1889, #2138 and #2118.
+- Source locator refinement on #1673: raw Orson Free Build export exists at the canonical HsH path, Git blob `82728359936875fd0d78a68122356a9c7b95c790`; connector returned empty content for UTF-8, line-ranged and base64 reads. Message UUID/time remain unresolved. Comment #7025904003 read back exactly.
+- WH-02: current main `8321191d85598ede70308205c5e5a68d9198af33`; PR #1710 head `a967e908ceab048d219831ec799343643870daf3`; merge base `7c40096153861e531b4ba234f28b41a2260fba04`; 7 ahead / 6,734 behind; open/draft/unmerged; mergeable=false; exact-head Actions 0; reviews 0. Status-only comment #7025886108 read back exactly. Calder retains code/rebase authority.
+- Task graph remains ACTIVE_SEED, 16 declared /18 records, 17 reachable; WORLD-TUBE-POLARIMETRY-READOUT remains unreachable due parent-only edge. No repair.
+- Paper gates unchanged: P1 Nov 9 overdue/not ready; P2 Nov 30 hold; P3 Dec 14 incomplete. FIE due Nov 24.
+- Exact :00 automation ID and hourly schedule unchanged; run `af0b8410-bfb4-832b-9f3e-bb8f38464124` was in progress with chat_ref=null at last peek. No cross-thread delivery or completion inference.
+- No new Lean, physical/CODATA result, theory promotion, task/schedule mutation, sixth task, or handoff obligation.
+
+---
+
 ## h952:s2 Amendment 01 | WH-06 issue-creator app and run-time binding | 2026-11-19T1654Z
 
 - Canonical receipt: [h952:s2 Tern](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1624Z_s2_tern_rook.md), amended blob `b1a0875dc32f4f1cf80e3590ecd958e65f109819`; latest receipt commit `5d499411dff999017d31e4abf8a3b03bd22756d7` (Amendments 01–02).
