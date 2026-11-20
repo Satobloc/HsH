@@ -1,6 +1,6 @@
 ## H982:S3 update | 2026-11-20T2234Z
 
-- Shared [Coupling-Preserving Projection Gate v0.1](../COMMON/COUPLING_PRESERVING_PROJECTION_GATE_V0_1.md) created; issue #2234 publisher status was initially IN_PROGRESS. Check the same issue/submission only; no retry or duplicate.
+- Shared [Coupling-Preserving Projection Gate v0.1](../COMMON/COUPLING_PRESERVING_PROJECTION_GATE_V0_1.md) is PUBLISHED_VERIFIED: [issue #2234](https://github.com/Satobloc/HsH/issues/2234), SHA-256 `ab27f2f87a12f1260e69d4d962a67489c209838b921a959f3f5c31d36a3dc050`, exact source/canonical readback. See [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2234Z_s3_enheduanna_AMENDMENT_02_PUBLISHER_VERIFIED.md). No retry or duplicate.
 - New run report: [H982:S3 CP projection gate](2026-11-20T2234Z_H982_S3_COUPLING_PRESERVING_PROJECTION_GATE.md). Receipt: [h982:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2234Z_s3_enheduanna.md).
 - Source-version scope resolved: October 21 retires the earlier reciprocal deformation alternatives; November 4-5 direct material supplies a later tentative mutual worldtube-timesheet hypothesis and three candidate carriers. The November 8 guide is assistant synthesis. See the November 13 crosswalk and source-locator correction.
 - Correct direct source locator for the November 4 tentative position: `100388c5-89d6-4ffd-a895-598990636057`. The earlier `100388c5-1e67-4c08-a7a1-bb19f6aeead8` transcription is not the raw message ID.
