@@ -1267,3 +1267,16 @@ Correction to Amendment 05: the existing PR #1984 branch head `7794e1db22220f34c
 - Corrected PR #2004 head `584c400b836c6942f72b739c626ad12c1c66b384` has a new Lean run #44373134985/job #135045044582. At last readback job is IN_PROGRESS at checkout; exact-head assertion, Lake manifest and compilation remain pending. Initial failed run #44372314170 built the new module but root failed due the missing `ThreeModelContrast` import on base #262; that import was removed in the correction.
 - Issue #2005 PUBLISHED_VERIFIED, exact payload/report/artifact equality, SHA-256 `70be1753f0930fcbeb1eadcb31fac9a17715a12350bf0680b136bdb68412a066`. P2 comments #6988133193/#6988143282/#6988170466.
 - **Return pin:** `H930:S3 / RAVEL / ORSON-NEXT / OBSERVABLE-FAMILY-SELECTION-FREEZE / PR2004-CORRECTED-HEAD-LEAN-CI_IN_PROGRESS / ISSUE2005-PUBLISHED_VERIFIED / P2-HOLD / NO-HANDOFF / TASK-UNCHANGED`.
+
+
+## H968:S3 | 2026-11-20 | Source-grounded revival and geometry discriminator
+
+- Canonical report: [h968:s3 Kerr/worldtube scale and rotation typing](../COMMON/PUBLISHED_SUBMISSIONS/ravel-h968-s3-kerr-worldtube-rotation-typing-20261120t0836z-001.md), issue #2176 PUBLISHED_VERIFIED, SHA-256 98919a6d467e3887de16761ece4aacdb5f793cb5dc0d2d5183b101f1ccbcebce.
+- This run is a source-grounded revival under the Ravel ring label. The historical Syncmathcek conversation is exhausted; the later Ravel Free Build export is not an authenticated successor. Prior-conversation search found no newer usable authenticated Ravel thread. No new chat or direct cross-thread delivery.
+- Primary-source map: Ravel raw export conversation 6a9d1a23-4fac-83ea-b76f-6805ece3ee9f, blob c49367b0faa424491e7b3520a034b9e44fe6897f; Meridian Free Build conversation 6ac45d1f-17b0-83ea-ad1f-fa524602378b, blob 7af1561b321f4d9364da5eb111df689efc652827. User-role messages remain distinct from assistant reconstructions.
+- Geometry obligations: select a 3D spatial Kerr section; define its extension along the filament without assuming a Cartesian product; separate finite-core support, coil diameter, timesheet active-update thickness and unresolved worldtube axis-to-circumference dimension; define the worldtube/timesheet interaction and readout.
+- Rotation obligations: distinguish Euclidean R4 kinematics, standard Kerr spin and internal material-frame/normal-bundle twist. The block-diagonal matrix in RavelSkewRotationKinematics is one assistant-defined representative of BEDROCK's recorded skew-generator constraints, not a unique Nathan equation or physical Kerr model.
+- Contact/shell remains a proposal until an interface, matching condition and constitutive law are specified. Mutual accommodation and force-primitive language is preserved without inventing a force law.
+- PR #1133 current head 98dbe0ddfbff78ee447998c21316f8009caaa803; exact-head run #44706791685 IN_PROGRESS at last readback. No compile pass claimed.
+- Optional Orson packet: [h968:s4 context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0836Z_from_s3_ravel_to_s4_orson_TIMING_UNVERIFIED_OPTIONAL_SOURCE_GROUNDED_CONTEXT.md). Timing unverified after nominal slot; no assignment or direct delivery. Orson P1 cognition remit and 4/5 allocation remain protected.
+- No P2 system, fit, raw data, numerical prediction, independent measurement, paper-gate advancement or BEDROCK promotion.
