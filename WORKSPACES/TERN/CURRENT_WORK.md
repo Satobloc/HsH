@@ -1,3 +1,16 @@
+# Latest activation | 2026-11-20 | h971:s2
+
+- Run key: `REVROT3-19-20261011:971:s2`; selected Tern Rook (ring index 12), next Morrow (index 13).
+- [Report](2026-11-20T1124Z_H971_S2_COMPTROLLER_PWH_DEEP_REVIEW_AND_LANE24_GATE.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook.md).
+- [Morrow optional context packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1124Z_from_s2_tern_rook_to_s3_morrow_OPTIONAL_COMPTROLLER_CONTEXT.md); [timing amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1124Z_from_s2_tern_rook_to_s3_morrow_AMENDMENT_01_TIMING_READBACK.md). Timing is SCHEDULER_STATE_AMBIGUOUS; no direct-thread delivery claim.
+- PWH queue appended and exact-readback verified; task graph upkeep branch last_reviewed advanced to 2026-11-20 without changing task state, priority, ownership, dates, branch count or relations.
+- P0 remains ACTIVE; eight protected files remain exact by path/ancestry from h970 baseline. PR #2009 3/1887, PR #1710 7/7304, PR #2050 11/1530; same-path preflights only, no exact-head CI/reviews.
+- WH-05 four requests remain occupied/requested; 12 expected outputs absent. Issue #1704 comment #7038488176 read back exactly.
+- Lane 24 Cycle 08/08 remains BACKSEAT/HOLD; no physical/CODATA result, Lean build or theory promotion.
+- Scheduler :24 ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact original schedule/prompt/phase; current run `e379bf7d-0878-8321-8e06-e31918a7277d` was IN_PROGRESS/chat_ref-null at last read. No task mutation or sixth task.
+
+---
+
 ## h960:s0 Amendment 01 | Tern historical specialist-source readback | 2026-11-20T0000Z
 
 - The raw `ARIADNE` conversation was materialized and parsed: conversation ID `6ab339d2-8fb4-83ea-b728-c8001a034371`, 1,364 mapping nodes, 10 user-role messages, 6,226,127 bytes, SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`.
