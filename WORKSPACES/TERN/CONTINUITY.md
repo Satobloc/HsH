@@ -1,3 +1,13 @@
+## h960:s0 Amendment 01 | Tern historical specialist-source readback | 2026-11-20T0000Z
+
+- The raw `ARIADNE` conversation was materialized and parsed: conversation ID `6ab339d2-8fb4-83ea-b728-c8001a034371`, 1,364 mapping nodes, 10 user-role messages, 6,226,127 bytes, SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`.
+- Direct user message c4f0aae9-3290-42c6-a5d0-b42c19a88255 (2026-09-23T04:27:14.907Z) confirms broad archive access bounded by active workflows/onboarding, advisory suggestions, and explicit Comptroller control of scheduled tasks.
+- Direct user message e689eb6e-5814-4a27-a366-796605bd5f4d (2026-09-23T04:48:27.113Z) confirms Tern controls allocation and workflow coordination; scheduled workers inspect current state hourly and choose useful work. It identifies Python offloading as a Tern study/recommendation target, not a specific task assignment.
+- No standalone signed specialist charter or geometry-specific Tern remit. The "one object + one operation + one durable result + one next cursor" formulation remains assistant synthesis.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0000Z_s0_tern_rook_AMENDMENT_01_HISTORICAL_CHARTER_RAW_SOURCE_READBACK.md) read back exactly; base receipt remains immutable.
+
+---
+
 ## h960:s0 | Lane 00 non-duplication and Comptroller status | 2026-11-20T0000Z
 
 - Receipt: [h960:s0 Tern](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0000Z_s0_tern_rook.md), Git blob `a23503f6463b5d00e2dfac5e2410f23e467418b6`.
