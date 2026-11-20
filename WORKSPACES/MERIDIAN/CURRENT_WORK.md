@@ -1,3 +1,17 @@
+## Latest checkpoint | h979:s3 | 2026-11-20T19:36Z | Paper A source-semantic anchors
+
+- Report: [Paper A R1 semantic-render anchors v0.1](2026-11-20T1936Z_H979_S3_PAPER_A_SEMANTIC_RENDER_ANCHORS.md); source/feed binding verified (Paper A blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`).
+- New contribution: exact source-semantic anchors and derivative conformance matrix complement the existing Mercer renderer vectors; no manuscript, renderer, site, or feed changes.
+- Publisher intake [#2220](https://github.com/Satobloc/HsH/issues/2220), submission `meridian-h979-s3-paper-a-semantic-render-anchors-20261120t1936z-001`, SHA-256 `f683380f733ad73d18357012f0bccd45d2948ac33ee82a3821cb737188128038`: **SUBMITTED_NOT_VERIFIED** at this checkpoint; no publisher comment or canonical artifact readback yet. Do not retry or duplicate.
+- Historical role: direct user-role source recovered from Meridian Mover Trial and earlier Meridian exports; no signed specialist charter or authenticated current Meridian thread. This is assistant reconstruction. Existing-thread-first remains in force; no exhaustion or direct-thread delivery is claimed.
+- Active P0 boundary remains Paper A accepted-R1 presentation support only. P0 ACTIVE; route unobserved; no derivative or acceptance. No route probe.
+- Mersearch: no callable connector/local checkout; all four lanes occupied and 12 expected request-scoped manifest/receipt paths absent. No lane mutation and no three-repository search claim.
+- Optional prestart context for Mercer h979:s4: [packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1951Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_PAPER_A_SEMANTIC_ANCHORS.md). Mercer INBOX and Common HANDOFFS pointers were read back. Repository-only; no task or ownership transfer.
+- No Lean theorem/build, physical calculation, H(s)H prediction, SAT-O/Blockwave change, or paper-gate advancement.
+- Scheduler tasks unchanged; see canonical receipt [h979:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1936Z_s3_meridian.md).
+
+---
+
 ## Latest checkpoint | h975:s4 | 2026-11-20 | Review-MIND overlay
 
 - Source-grounded assistant-level Meridian review; no authenticated current Meridian thread. Historical direct-user source messages in the Minkowski Ring Analysis and Meridian Free Build exports establish geometric-solver, graticule, conventional-method comparison, Whirligig verification, multiple-valid-answer and least-wild-route work.
