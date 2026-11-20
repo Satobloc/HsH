@@ -1,21 +1,51 @@
 #!/usr/bin/env python3
-"""Mysearch queue priority, event history, preemption and timezone tests."""
+"""Mysearch absolute-priority interruption, handoff, receipt and timezone tests."""
 import importlib.util,tempfile
 from pathlib import Path
 spec=importlib.util.spec_from_file_location("mq",Path(__file__).with_name("mysearch_queue.py"))
 m=importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
+
 with tempfile.TemporaryDirectory() as d:
- c=m.connect(Path(d)/"q.sqlite")
- m.submit(c,"worker-a","mersearch_batch","one",request_id="batch")
- m.submit(c,"worker-b","mysearch_expedited","two",request_id="exp")
- n=m.submit(c,"Nathan","nathan_direct","three",request_id="direct")
- assert n["position"]==1 and n["ahead"]==0 and n["requests_ahead"]==[]
- assert m.should_yield(c,"batch")
- assert m.receipt(c,"exp")["requests_ahead"] == [{"position":1,"request_id":"direct","lane":"nathan_direct","state":"QUEUED","submitted_at_utc":n["submitted_at_utc"],"submitted_at_et":n["submitted_at_et"],"last_event_at_utc":n["last_event_at_utc"],"last_event_at_et":n["last_event_at_et"]}]
- got=m.claim(c,"test-worker"); assert got["request_id"]=="direct"
- m.transition(c,"direct","RUNNING","test-worker")
- m.yield_checkpoint(c,"exp","test-worker",{"cursor":"phase-2"})
- assert m.receipt(c,"exp")["state"]=="QUEUED"
- assert m.et("2026-11-20T18:00:00Z").endswith("-05:00")
- assert c.execute("SELECT count(*) FROM events").fetchone()[0]>=6
-print("PASS Mysearch priority, event history, queue receipt and Eastern conversion")
+    c=m.connect(Path(d)/"q.sqlite")
+
+    # An expedited worker gets the Mysearch slot.
+    m.submit(c,"worker-a","mysearch_expedited","active search",request_id="active")
+    active=m.claim(c,"worker-a")
+    assert active["request_id"]=="active"
+    m.transition(c,"active","RUNNING","worker-a")
+
+    # Another worker is waiting in the Mysearch queue.
+    m.submit(c,"worker-b","mysearch_expedited","queued search",request_id="queued")
+
+    # Nathan's direct request interrupts the active worker and moves queued
+    # worker jobs to the durable expedited Mersearch handoff outbox.
+    direct=m.submit(c,"Nathan","nathan_direct","urgent direct search",request_id="direct")
+    assert direct["position"]==1 and direct["ahead"]==0
+    state=c.execute("SELECT state FROM requests WHERE request_id='active'").fetchone()[0]
+    assert state=="INTERRUPT_REQUESTED"
+    state=c.execute("SELECT state FROM requests WHERE request_id='queued'").fetchone()[0]
+    assert state=="HANDOFF_PENDING"
+    assert c.execute("SELECT target_class FROM handoff_outbox WHERE request_id='queued'").fetchone()[0]=="mersearch_expedited"
+
+    # Supervisor termination is recorded without requiring a checkpoint.
+    interrupts=m.interrupt_list(c)
+    assert interrupts and interrupts[0]["request_id"]=="active"
+    m.transition(c,"active","INTERRUPTED","worker-a",{"return_code":-9,"partial_output":"discarded"})
+    assert c.execute("SELECT target_class FROM handoff_outbox WHERE request_id='active'").fetchone()[0]=="mersearch_expedited"
+
+    # Nathan's request claims before any queued lower-priority work.
+    got=m.claim(c,"nathan-worker")
+    assert got["request_id"]=="direct"
+
+    # Workers submitting while Nathan is queued/running are routed to Mersearch.
+    m.submit(c,"worker-c","mysearch_expedited","later search",request_id="later")
+    assert m.receipt(c,"later")["state"]=="HANDOFF_PENDING"
+
+    # Every event has UTC and Eastern representations; ET changes with DST rules.
+    assert m.et("2026-11-20T18:00:00Z").endswith("-05:00")
+    assert m.et("2026-07-20T18:00:00Z").endswith("-04:00")
+    history=c.execute("SELECT event FROM events WHERE request_id='active' ORDER BY event_id").fetchall()
+    names=[x[0] for x in history]
+    assert "FORCE_INTERRUPT_REQUESTED" in names and "INTERRUPTED" in names and "HANDOFF_PENDING" in names
+    assert len(m.handoff_outbox(c))==3
+print("PASS Mysearch absolute priority, immediate interrupt state, durable handoff outbox and ET/EDT")
