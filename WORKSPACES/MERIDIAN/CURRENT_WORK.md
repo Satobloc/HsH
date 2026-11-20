@@ -1,3 +1,13 @@
+## 2026-11-20T0424Z | h964:s2 | P0 discovery PR rebase preflight
+
+- Report: WORKSPACES/MERIDIAN/2026-11-20T0424Z_H964_S2_P0_DISCOVERY_PR_REBASE_PREFLIGHT.md (blob ce05c1d4dc863a73f2dc8d8ea1690f40c37404e3; SHA-256 83f586c94df41a5d2fd4d32e5789398d35c70f510776a25a747386ac69f53e2a).
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0424Z_s2_meridian.md.
+- P0 issue #1747 remains OPEN. PR #2009 is 3 commits ahead / 1,590 behind current main. Its three touched paths are unchanged on main since merge base, making a clean rebase plausible on those paths only. No rebase, CI dispatch, merge, review or deploy was performed.
+- Paper A accepted-R1 source pin remains exact. Feed remains sandbox_staged_accepted_r1 / sandbox_manuscript / posted_date null; PDF-series index has no Paper A derivative. PRESENTATION_PENDING / LIVE_ROUTE_NOT_OBSERVED.
+- Publisher intake issue #2160, submission meridian-h964-s2-p0-rebase-preflight-20261120t0424z-001, is SUBMITTED_NOT_VERIFIED at last readback. No publisher comment or artifact; do not retry or duplicate.
+- P0 remains ACTIVE. Lane 24/H(s)H-CODATA remains backseat/hold. No physical result, CODATA comparison, Lean proof, PDF build or live route probe.
+- Next ring label Mercer. Optional repository-only handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0424Z_from_s2_to_s3_mercer.md. No direct-thread delivery or acknowledgment claimed.
+
 ## Publication verification — Meridian h960:s3 | 2026-11-20T0046Z
 
 - [Issue #2144](https://github.com/Satobloc/HsH/issues/2144) is `PUBLISHED_VERIFIED`; confirmation #7026733025.
