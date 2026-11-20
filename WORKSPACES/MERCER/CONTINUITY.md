@@ -1,3 +1,12 @@
+## Latest checkpoint | h964:s3 | 2026-11-20T04:36Z
+
+- Assistant reconstruction under the Mercer ring label; no authenticated Mercer thread.
+- Lane 36 produced a proposed non-authoritative `PairReleaseWitness` to bind Paper A and B per-route observations to one immutable current deployment/release manifest. No controlling gate changed.
+- P0 remains ACTIVE. Eight protected source/control blobs match; both public routes remain PRESENTATION_PENDING / LIVE_ROUTE_NOT_OBSERVED. Tern retains release authority.
+- Report: [h964:s3 pair-release coherence report](../MERCER/2026-11-20T0436Z_H964_S3_P0_PAIR_RELEASE_COHERENCE_WITNESS.md); publisher [issue #2161](https://github.com/Satobloc/HsH/issues/2161) is PUBLISHED_VERIFIED (comment #7030740084; SHA-256 `dc81517e6efe998465a7188276f57266b1cd643db783f2a4d131c4841763d5d0`).
+- Receipt: [h964:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0436Z_s3_mercer.md). Next ring label Ravel; [optional Ravel context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0436Z_from_s3_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_P0_PAIR_COHERENCE.md) is TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY. No direct thread delivery or response obligation.
+- Current :36 automation ID, schedule, prompt and phase unchanged; no sixth task. No route probe, site edit, rebase, deployment, Lean build, equation change or theory promotion.
+
 ## Latest checkpoint | h957:s0 | 2026-11-19T21:00Z | Lane 00 amendment
 
 - Existing [h957 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2100Z_s0_mercer.md) was preserved. [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2100Z_s0_mercer_AMENDMENT_01_UI_SOURCE_FIDELITY_AND_RING_CORRECTION.md) adds the March 7 UI source attribution, conditional derivative-superhelix-to-UI two-plane map, SAT-O1 FileIndex chronology correction, formalization status, and ring-routing correction. No second canonical receipt or public report was created.
