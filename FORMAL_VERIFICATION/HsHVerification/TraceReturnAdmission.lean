@@ -141,6 +141,26 @@ theorem unknown_checkpoint_never_admitted
   cases hBlock : commonContradicted r || privateContradicted r <;>
     simp [evaluate, hBlock, hReady]
 
+/-- The O/E/F contrast definitions decompose exactly by cancellation. -/
+theorem observed_contrast_decomposes
+    (original experienced fresh : ℝ) :
+    original - fresh =
+      (original - experienced) + (experienced - fresh) := by
+  ring
+
+/--
+A single observed additive sum cannot identify either component without
+additional restrictions or independent measurements of the nuisance term.
+This is a generic identifiability lemma, not a claim that the complete
+Interchangeable-in-Role experiment is unidentified.
+-/
+theorem one_observed_sum_does_not_identify_components
+    (observed component₁ component₂ : ℝ) :
+    ∃ nuisance₁ nuisance₂ : ℝ,
+      observed = component₁ + nuisance₁ ∧
+      observed = component₂ + nuisance₂ := by
+  refine ⟨observed - component₁, observed - component₂, ?_, ?_⟩ <;> ring
+
 /-- A prior public result with a mismatched current-run checkpoint is rejected. -/
 def priorAsterResultForCalder : ReturnEvidence where
   sourceReceipt := .verified
@@ -159,5 +179,7 @@ def priorAsterResultForCalder : ReturnEvidence where
 #print axioms private_admission_requires_authenticated_bindings
 #print axioms contradicted_checkpoint_rejects
 #print axioms unknown_checkpoint_never_admitted
+#print axioms observed_contrast_decomposes
+#print axioms one_observed_sum_does_not_identify_components
 
 end HsHVerification.TraceReturnAdmission
