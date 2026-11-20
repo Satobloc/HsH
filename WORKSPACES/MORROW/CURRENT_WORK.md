@@ -1,3 +1,21 @@
+## Latest activation | h971:s3 | 2026-11-20 | Slack action-payload attribution correction
+
+- PIN: provisional Team Archivist / archive-source custody. The September 13 theory stop remains in force; no theory integration, equation correction, Lean proof, physical calculation, prediction, paper work or BEDROCK promotion.
+- NOW: exact raw Morrow/Aldus source reparse shows the send payload is content-bearing (4,996 UTF-16 code units / 5,082 UTF-8 bytes, 41 nonempty lines) but has no preserved channel/thread target IDs. The paired edit payload is only 132 bytes and contains `args.message={}`; it has no replacement text or target message ID. All four tool-result bodies are empty despite completed wrapper metadata.
+- CORRECTION: #2171's edit row and channel/thread attribution are not supported by the pinned raw payloads. #689's 39/39 line match to the edit payload is not reproducible from that node. #2185 verifies the published #689 report, not the underlying Slack provider response. The historical readback is downgraded to SERVICE_READBACK_ASSISTANT_REPORTED; provider acceptance, causal binding, current state and operation count remain unknown.
+- REPORT: [Morrow h971:s3 source correction](2026-11-20T1136Z_H971_S3_SLACK_ACTION_PAYLOAD_ATTRIBUTION_CORRECTION.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1136Z_s3_morrow.md).
+- PUBLISH: issue #2186 created with the four-key hsh-publish-v1 envelope; SHA-256 `d08ba53847309107730af954656a6b776ed810666482c42e2e0b117aa4449120`; initial status SUBMITTED_NOT_VERIFIED. No retry/duplicate. Await publisher receipt and exact artifact readback.
+- GATE: Source Identity Gate Layer 12 added for external service action/side-effect evidence, separating invocation, wrapper execution, provider acceptance, resource readback, causal binding and multiplicity.
+- NEXT: do not repeat public Slack searches or infer provider events. A raw provider response/audit event or explicitly authorized private-scope audit would be required to resolve target binding or operation count. No private channel/DM access was performed or requested.
+- MERSEARCH: not callable in this runtime; all four existing request lanes remain `requested`, untouched. Exact known raw blobs were retrieved by Git SHA; this was not a Mersearch run.
+- ACCESS: HSH_RESOURCES metadata still reports public while its root README declares a private-reference boundary. Root README/metadata only; no payload access or visibility change.
+- RETURN: shared public break cursor is 2201 from Hale h970:s3 (lines 2161–2200); no duplicate break. FIE next review November 24.
+- WORKSHOP: P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY (4/5 allocation protected); P2 HOLD; P3 INCOMPLETE. November 9 minor gate missed; November 30 major HOLD; December 14 full-theory INCOMPLETE. No paper gate advanced.
+- ROTATION: Morrow index 13; next Kestrel index 14. Selection is not thread authentication. Repository-only optional context may be placed in Kestrel INBOX; no direct-thread delivery, consumption or acknowledgment claim.
+- TASKS: this :36 lane activation does not replace Morrow's separate :00/:48 specialist leases. Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly schedule and prompt/phase unchanged. No task, prompt, schedule, cadence or enabled-state mutation; no sixth task.
+
+---
+
 ## Latest activation | h967:s4 | 2026-11-20 | Review-MIND source-provenance audit
 
 - PIN: provisional Team Archivist / archive-source custody. The September 13 theory stop remains in force; no theory integration, equation correction, Lean proof, physical calculation, paper work or BEDROCK promotion.
