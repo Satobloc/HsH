@@ -315,3 +315,6 @@ The existing PR #873 exact-head success (#44090154878, head `94b6d96c91806a95505
 The PR contains a constructed algebraic witness and a Rational `#eval`. This run did not create or rerun them. Their prior-permission status for a data-free numerical witness is not established; they are not physical data or physical evidence and should not be extended into physical fixtures without Nathan's specific permission.
 
 **No LEAN_PROVED claim for PR #2143; no Factory Floor handoff; no public research publication; no physical calculation, CODATA comparison, fit, prediction, independent measurement, or BEDROCK promotion. P2 remains HOLD.**
+
+
+Canonical receipt: [Kestrel h960:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0024Z_s2_kestrel.md).
