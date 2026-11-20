@@ -101,7 +101,7 @@ The :48 task remains enabled under its existing ID `6aa6c3bc02b48191b8a91a30d2a1
 
 Current :48 run: `dc114b19-946c-8323-a1f5-64e3d6b7947d`, scheduled `18:48:00Z`, recorded start `19:18:25.198390Z`, IN_PROGRESS, completion null, run-level chat_ref null. Cached latest result belongs to prior h977:s4 Aldus, not this Enheduanna run. Terminal automation completion is not claimed.
 
-**Next ring label:** Tern Rook, h979:s0. Its run had already started before this report's optional context was prepared. Any repository packet is therefore POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, assignment, review request, response obligation, or ownership transfer is claimed.
+**Next ring label:** Tern Rook, h979:s0. Its run `9295b60e-70c8-8322-80f9-a3677e544c60` completed at `19:20:56.991145Z`; the optional packet was created at approximately `19:32Z`, after completion. The packet is POSTRUN_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY and is indexed in Common HANDOFFS and Tern INBOX. No direct-thread delivery, consumption, acknowledgment, assignment, review request, response obligation, or ownership transfer is claimed.
 
 ## 7. Return cursor
 
