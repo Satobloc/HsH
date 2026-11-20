@@ -6,6 +6,7 @@
 - One helical core / hollow outer coil remains distinct from a second core; helical winding is source-described, separate normal-frame twist/holonomy is not. A 3D boundary is source-described; an active contact law is not. Medium/Kelvin-vortex or justified equivalent remains an active constraint.
 - Existing Kestrel PR #873 exact-head build #44090154878 was reused. No new Lean module, theorem or build. No physical calculation or measured dataset; P2 remains HOLD.
 - Current :36 run 59147ebb-dbf4-832d-bf0d-1d5c695cbf00 remains IN_PROGRESS with chat_ref=null; cached Elias h974:s3 result is stale.
+- Receipt Amendment 03 (16:09Z) preserves a second exact-ID scheduler snapshot: same run ID and 15:36Z slot, `started_at` moved from 15:39:55.006266Z to 16:09:37.832480Z; still IN_PROGRESS, completion/chat_ref null, cached h974 result still stale. Classified SAME_RUN_ID_STARTED_AT_MUTATION / ATTEMPT_RELATION_UNKNOWN / CAUSE_UNKNOWN. No retry, duplicate, or backend cause inferred.
 - Next ring label Meridian h975:s4 completed at 16:01:48.943Z before a safe optional packet could be prepared. Run-level chat_ref is now present, but the result does not reference Kestrel report #2203; no consumption, acknowledgment or direct delivery is established. No Kestrel-to-Meridian or Kestrel-to-Mercer packet was created. Meridian reused its existing optional handoff to Mercer h976:s0; Kestrel did not modify it.
 - No task/ID/cadence/prompt/phase mutation; no sixth task, signet or conversation rename.
 
