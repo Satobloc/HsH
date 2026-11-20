@@ -317,3 +317,12 @@ Read the latest h871:s2 section of [CURRENT_WORK.md](CURRENT_WORK.md) before any
 ## Latest assistant-level execution: h981:s3
 
 Read the h981:s3 receipt and Amendment 01 before continuing. PDR v0.1 is a proposed pairwise evidence adapter, not a physical result or new Lean theorem. Its publisher submission #2228 was rejected for SHA mismatch; no canonical artifact exists and no retry/edit/duplicate is authorized. P2 remains HOLD/NOT_INSTANTIABLE. Reuse the existing Nadir #1189 and Ravel #1133 exact-head Lean evidence only within their stated limits. Mersearch lanes remain occupied; Tern controls release. Next ring label Calder is identity-ambiguous; do not infer a Calder thread or write to a recipient-specific inbox without resolving the role. No scheduler mutation or sixth task.
+
+
+### h981:s3 final amendments
+
+- Publisher #2228 completed with REJECTED: SHA-256 mismatch. Exact issue-body digest was independently recomputed; no canonical artifact exists. No retry/edit/duplicate/bypass.
+- [Receipt Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_01_PUBLISHER_REJECTED_SHA_MISMATCH.md).
+- The :48 task's h981:s4 run 76a007b9-02a0-8332-9416-0c4466129501 completed FAILED at 21:53:02.770015Z, chat_ref null. Cached result is stale Aster h980:s4.
+- [Receipt Amendment 02](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_02_SUCCESSOR_RUN_FAILED_AND_CALDER_IDENTITY_BOUNDARY.md).
+- [Postrun optional Calder packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2136Z_from_s3_aldus_to_s4_calder_POSTRUN_OPTIONAL_PDR_IDENTITY_AMBIGUITY.md). Calder remains a ring label only; no recipient inbox or direct thread delivery.
