@@ -9,8 +9,9 @@ with tempfile.TemporaryDirectory() as d:
  m.submit(c,"worker-a","mersearch_batch","one",request_id="batch")
  m.submit(c,"worker-b","mysearch_expedited","two",request_id="exp")
  n=m.submit(c,"Nathan","nathan_direct","three",request_id="direct")
- assert n["position"]==1 and n["ahead"]==0
+ assert n["position"]==1 and n["ahead"]==0 and n["requests_ahead"]==[]
  assert m.should_yield(c,"batch")
+ assert m.receipt(c,"exp")["requests_ahead"] == [{"position":1,"request_id":"direct","lane":"nathan_direct","state":"QUEUED","submitted_at_utc":n["submitted_at_utc"],"submitted_at_et":n["submitted_at_et"],"last_event_at_utc":n["last_event_at_utc"],"last_event_at_et":n["last_event_at_et"]}]
  got=m.claim(c,"test-worker"); assert got["request_id"]=="direct"
  m.transition(c,"direct","RUNNING","test-worker")
  m.yield_checkpoint(c,"exp","test-worker",{"cursor":"phase-2"})
