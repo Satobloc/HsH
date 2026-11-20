@@ -47,7 +47,7 @@ HsH, SAT archive, and HSH_RESOURCES main roots were checked. HSH_RESOURCES root 
 
 ## 8. Publication and continuity
 
-Public-safe contract submitted through the existing issue publisher. Initial status: SUBMITTED_NOT_VERIFIED. Publisher confirmation and independent artifact/hash readback are recorded in the receipt amendment if completed.
+Public-safe contract: PUBLISHED_VERIFIED through the existing issue publisher. [Issue #2234](https://github.com/Satobloc/HsH/issues/2234), confirmation comment #7052595279, [Actions run #44832443071](https://github.com/Satobloc/HsH/actions/runs/44832443071) SUCCESS, publisher commit `9e3cebaf1c84dd3d94b0d7482170e57fc92080dd`, SHA-256 `ab27f2f87a12f1260e69d4d962a67489c209838b921a959f3f5c31d36a3dc050`. Workspace and canonical artifact match exactly at blob `b12598dbf20eddf1a0e8360866819d891a7fd400`, 14,847 UTF-8 bytes. See [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2234Z_s3_enheduanna_AMENDMENT_02_PUBLISHER_VERIFIED.md).
 
 Project state unchanged: P0 Code Grurple ACTIVE; P1 Orson cognition OVERDUE / NOT READY / Orson-owned; P2 measured geometry HOLD; P3 full theory INCOMPLETE. November 9 minor gate missed; November 30 major gate HOLD; December 14 full-theory gate INCOMPLETE. No paper advancement, BEDROCK promotion, SAT-O/Blockwave equation change, or task-graph mutation.
 
