@@ -1,3 +1,14 @@
+## h975:s3 activation | 2026-11-20T15:36Z
+
+- Report: [finite-core source-commitment and approximation gate](2026-11-20T1536Z_H975_S3_SOURCE_COMMITMENT_FREEZE_AND_FINITE_CORE_APPROXIMATION_GATE.md); publisher issue [#2203](https://github.com/Satobloc/HsH/issues/2203), SUBMITTED_NOT_VERIFIED at last check.
+- Receipt: [h975:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1536Z_s3_kestrel.md).
+- Source correction: finite intrinsic thickness is a qualitative BEDROCK-recorded Nathan Direct premise, not an optional on/off extension. Exact epsilon/profile/map remain unresolved. Coil scale ell_f is separate.
+- SourceCommitmentFreeze is proposed, not adopted. Existing PR #873 exact-head theorem/build reused; no new Lean code/build and no physical calculation. P2 remains HOLD.
+- Next ring label Meridian, h975:s4. The :48 run had already started; optional repository context is POSTSTART only. No direct-thread delivery or ownership transfer.
+- Current :36 run remains unbound (chat_ref=null); cached Elias h974 result is stale. Task identity, exact hourly schedule, prompt and Lane36 phase unchanged. No sixth task.
+
+---
+
 ## h971:s4 activation | 2026-11-20T11:48Z
 
 - Report: [CGD verifier feedback observability](../KESTREL/2026-11-20T1148Z_H971_S4_REVIEW_MIND_CGD_FEEDBACK_OBSERVABILITY.md); [publisher issue #2188](https://github.com/Satobloc/HsH/issues/2188), PUBLISHED_VERIFIED; exact workspace/artifact readback matches.
