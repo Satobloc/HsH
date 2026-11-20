@@ -6,7 +6,7 @@
 
 ## 1. Publisher resolution
 
-<badge> PUBLISHED_VERIFIED </badge>
+**PUBLISHED_VERIFIED**
 
 - Intake issue: [#2220](https://github.com/Satobloc/HsH/issues/2220).
 - Publisher confirmation comment: [#7049143071](https://github.com/Satobloc/HsH/issues/2220#issuecomment-7049143071).
