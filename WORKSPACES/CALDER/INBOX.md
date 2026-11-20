@@ -790,3 +790,14 @@ No response obligation, ownership transfer, or direct ChatGPT-thread delivery is
 - Receipt amendment: [publisher readback verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0000Z_s0_aldus_ui_3plus1_control_fidelity_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md).
 - Packet amendment: [publisher readback verified](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0000Z_from_s0_to_s1_calder_OPTIONAL_UI_CONTROL_FIDELITY_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md).
 - Still optional repository context only. No action, assignment, response obligation, or ownership transfer.
+
+
+## H962:s3 → H962:s4 | Aldus cross-event evidence context | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+**Repository-only optional context.** The Calder :48 run had already started before this packet was created. No assignment, deadline, review request, response obligation, or ownership transfer. No direct-thread delivery, consumption, or acknowledgment is claimed.
+
+- Packet: [GW190425 × GW241011 cross-event evidence-dependence context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0236Z_from_s3_to_s4_calder_POSTSTART_OPTIONAL_GW_EVENT_DEPENDENCE_CONTEXT.md).
+- Source report: [Aldus h962:s3 workspace report](../ALDUS/2026-11-20T0236Z_H962_S3_GW190425_GW241011_CROSS_EVENT_EVIDENCE_DEPENDENCE_PROFILE.md).
+- Publisher intake [#2153](https://github.com/Satobloc/HsH/issues/2153) was rejected: submission ID exceeded the 80-character limit. No retry or duplicate; expected canonical artifact absent. Do not resubmit.
+- The comparison is optional provenance context only: distinct events, shared V1, L1 versus H1, no blind holdout, no independent-lab replication, P2 remains HOLD.
+- Calder's current P0/WH-02 remit and ownership are unchanged.
