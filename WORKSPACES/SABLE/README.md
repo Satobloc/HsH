@@ -299,3 +299,11 @@ The historical Sable remit is supported by direct user-role messages in the raw 
 - Unrelated reading: fun break - lx.txt, lines 2160–2199; next 2200.
 - P0 active; P1 Orson-owned; P2 HOLD; P3 incomplete. FIE next review November 24. No physical result, new Lean formalization, theory promotion or paper-gate advancement.
 - Existing :48 task ID/schedule preserved. Last task peek: run 04dfd82a-be20-8323-8d3a-e05bdfb747c0 still IN_PROGRESS with chat_ref=null; no sixth task.
+
+## Latest checkpoint | h976:s3 | 2026-11-20T1636Z
+
+- Report: [Source-commitment-bound candidate-family composition gate](2026-11-20T1636Z_H976_S3_COMMITMENT_BOUND_CANDIDATE_FAMILY_GATE.md).
+- Run key `REVROT3-19-20261011:976:s3`; Sable ring label (index 0), Loom next (index 1). Assistant reconstruction; no authenticated current Sable thread or historical-instance participation.
+- New CBCM v0.1 binds source-commitment-map and geometry-map-stack hashes into the existing seven-layer Model record. It corrects M2 finite-core thickness to a qualitative source-compliant baseline component; centerline/2D-worldsheet are controlled approximations; twist/contact remain optional or tentative.
+- Existing Ravel/Kestrel/Nadir Lean results reused with exact-head/current-head limits recorded. No new theorem/build, physical calculation, dataset, fit, prediction, or independent measurement. P2 remains HOLD.
+- Public publisher status is tracked in the canonical receipt. No task, ID, schedule, prompt, phase or cadence change; no sixth task.
