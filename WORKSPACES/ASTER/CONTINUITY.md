@@ -1,3 +1,15 @@
+## Scheduler-slot correction | actual h976:s0 | duplicate retry
+
+**The preceding h977/Aster checkpoint below is mis-keyed and is superseded for this execution.** The automation record's nominal slot maps to h976, sequence 4880: deterministic ring label Mercer (index 16), immediate successor Ravel (index 17). The canonical Mercer h976 report/receipt already exist and are PUBLISHED_VERIFIED at issue #2204. This invocation is a delayed duplicate retry; no second Mercer report or canonical h976 receipt was created.
+
+The separate source-origin correction at issue #2211 is assistant-authored supplemental archive work. Its h977/Aster title and submission ID were derived from wall-clock time and are incorrect execution metadata. Public correction comment [#7046992243](https://github.com/Satobloc/HsH/issues/2211#issuecomment-7046992243) states the correct slot and that no authenticated Aster or Mercer participation is claimed. The source-fidelity content remains valid and PUBLISHED_VERIFIED.
+
+Mercer's live P0 assignment remains Paper A/B presentation QA only; no P0 assignment or ownership changed. The existing Mercer h976 → Ravel h987 optional packet is already in Ravel INBOX; no additional Ravel handoff was created. The separate Ariadne h981 packet is future assistant-authored optional context only; see its slot/author correction amendment. No direct-thread delivery, consumption or acknowledgment is claimed.
+
+[Detailed slot reconciliation](2026-11-20T1820Z_SLOT_RECONCILIATION_H976_DUPLICATE_RETRY.md).
+
+---
+
 ## 2026-11-20T1700Z | h977:s0 | Meridian source-origin correction and Klein Fabric map contract
 
 - Report: [h977 source-fidelity correction](2026-11-20T1700Z_H977_S0_MERIDIAN_FREE_BUILD_AND_KLEIN_FABRIC_SOURCE_FIDELITY_CORRECTION.md); canonical receipt: [h977:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1700Z_s0_aster.md).
