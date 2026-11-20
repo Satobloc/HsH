@@ -5,7 +5,7 @@
 
 ## Exact-head result
 
-<badge>LEAN_VERIFIED</badge>
+**Status: LEAN_VERIFIED**
 
 Existing [PR #1133](https://github.com/Satobloc/HsH/pull/1133) remains OPEN / DRAFT / UNMERGED.
 
