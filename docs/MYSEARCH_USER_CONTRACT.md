@@ -11,7 +11,7 @@ By submitting work to Mysearch, you acknowledge and accept that:
 - You are responsible for preparatory precautions, validating any recovered output, and cleaning up abandoned or conflicting artifacts produced by your request.
 - Mysearch does not guarantee completion before a Nathan Direct request arrives.
 
-Keep work isolated by request ID; do not write shared mutable files; treat all output from an interrupted attempt as partial and untrusted until rerun or independently validated.
+Submission requires an explicit risk acknowledgement. Nathan Direct priority is reserved for authenticated Nathan chat requests and cannot be claimed by worker-supplied labels. Keep work isolated by request ID; do not write shared mutable files; treat all output from an interrupted attempt as partial and untrusted until rerun or independently validated.
 
 ## For Nathan Direct
 
