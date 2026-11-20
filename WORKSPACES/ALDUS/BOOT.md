@@ -343,3 +343,8 @@ The prior SAME_RUN_ID_STATUS_REGRESSION classification was incorrect. The :48 ta
 - 76a007b9-02a0-8333-bf4b-93fb26f8419b: FAILED, started 21:43:52.765812Z, completed 21:53:02.770015Z.
 - 76a007b9-02a0-8332-9416-0c4466129501: FAILED, started 21:55:33.451398Z, completed 21:56:15.874460Z.
 Both scheduled_for 21:48Z, chat_ref null. Correct classification: SAME_TASK_AND_SCHEDULED_OCCURRENCE_MULTIPLE_RUN_IDS / ATTEMPT_RELATION_UNKNOWN / CAUSE_UNKNOWN / BOTH_OBSERVED_RUNS_FAILED / THREAD_UNBOUND. Amendments 03–04 are superseded on this point by [Amendment 05](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_05_TWO_DISTINCT_RUN_IDS_CORRECTION.md). No retry/replay/duplicate or cause inferred.
+
+
+### PDR notation disambiguation
+
+The submitted issue-body text used epsilon ambiguously. In the Nadir theorem, epsilon is the declared upper bound on baseline-observable distance for the witness pair, not automatically an instrument standard deviation. BEDROCK ND-2026-10-18-07 does not assign a symbol or quantitative magnitude/profile to intrinsic filament thickness; no thickness symbol is adopted here. The phrase assigning epsilon to thickness is corrected by [Receipt Amendment 06](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_06_NOTATION_DISAMBIGUATION.md). No issue edit or resubmission.
