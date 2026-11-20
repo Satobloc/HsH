@@ -473,3 +473,10 @@ This was assistant-level work under the deterministic Morrow label, not an authe
 - FIE next due November 24; shared unrelated-reading cursor 2281; Okakura cursor 1352.
 - Next ring label Kestrel; :12 is disabled. Next active :00 selection h984 is Orson Vay.
 - Existing relay task configuration unchanged; no sixth task.
+
+## H983 scheduler/thread readback amendment | 2026-11-20T23:00Z
+
+- Existing-thread-first was satisfied: the preceding completed h982 result's chat_ref points to this same Workshop Relay :00 Archive conversation, and h983 continued here. This does not authenticate a Morrow worker or Morrow-specific thread.
+- The current h983 scheduler row remains IN_PROGRESS with chat_ref=null and completion null; terminal linkage for this run is not yet recorded.
+- The bounded Morrow crosswalk search found no matching live Morrow UUID; the later Morrow+Kestrel export remains an archived conversation, not a current thread.
+- Scheduler health snapshot: :00, :24, :36 and :48 tasks remain enabled; :12 remains disabled. The :48 task's last run is recorded FAILED; no task, ID, schedule, phase or cadence mutation was made.
