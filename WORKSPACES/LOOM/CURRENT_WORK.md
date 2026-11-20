@@ -1,3 +1,20 @@
+## Latest checkpoint | h973:s0 | 2026-11-20T13:00Z
+
+**Run key:** REVROT3-19-20261011:973:s0  
+**Disposition:** ADDITIVE_SOURCE_FIDELITY_DELTA / REPORT_READBACK_VERIFIED / ISSUE_2196_SUBMITTED_NOT_VERIFIED / NO_NEW_LEAN / NO_PHYSICAL_RESULT / NO_CODATA / NO_THEORY_PROMOTION.
+
+- Report: [aSAT spinor mapping and pre-disclosure provenance](2026-11-20T1300Z_H973_S0_ASAT_SPINOR_AND_PREDISCLOSURE_FIDELITY.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1300Z_s0_loom.md).
+- Raw source: May 4, 2025 Fundamental Physics Explanations, conversation 6816e398-af14-8002-ab29-cb2d84caf989, blob 9bcd42a355d05ebbbe6b6edec9744d1409d0cfd9. Assistant's knot/braid seed predates SAT disclosure; later aSAT branch is semi-independent, not blind.
+- New discrepancy: assistant-generated spin-1/2 180-degree return is incompatible with the standard SU(2) spinor law (2π sign change, 4π return). No Nathan Direct spin map or user acceptance found.
+- Hale h545 mass-index support audit and Enheduanna h747 hyperhelix/timelike gate reused. No duplicate mass audit.
+- Issue #2196, submission loom-asat-spinor-fidelity-20261120t1300z-s0-001; SHA-256 18479d6a860e9aaf0f21b4de96f1b138329326e660be0875e03a34074e28bacc; Actions run #44752236906 IN_PROGRESS at last readback; artifact/comment not yet verified. Do not retry.
+- SAT-O1 and Blockwave original SHA/date custody rechecked; no corrections. Mersearch unavailable; four request lanes remain occupied/requested.
+- No Lean build, physical calculation, fit, prediction, independent measurement, CODATA or paper-gate advancement.
+- Immediate ring successor Aster; :12 remains disabled; no handoff or direct-thread delivery. FIE next Nov 24; reading cursor 1601.
+- Existing :00 Archive automation unchanged; no sixth task.
+
+---
+
 ## h965:s2 publication-status amendment | 2026-11-20T05:34Z
 
 Issues #2164 and #2165 completed publisher Actions with REJECTED: SHA-256 mismatch (comments #7031372465 and #7031408548). Correct SHA-256 values from the exact stored issue-body content: #2164 = 8a824abe1617062d8b3a74df8a7375def420082d6bd9ce3f4223fab2056916d9; #2165 = b91770ad4eebdc6586e1fa1c8a399af0cca62827ebe7d22dd11230293d08799b. No retry, replacement issue, duplicate or manual fixed-destination write. See receipt amendment WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0524Z_s2_loom_AMENDMENT_01_PUBLISHER_REJECTIONS.md and Aster handoff correction WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0534Z_from_s2_loom_to_s3_aster_AMENDMENT_01_PUBLISHER_REJECTED.md.
