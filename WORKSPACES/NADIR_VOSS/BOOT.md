@@ -1,5 +1,20 @@
 ## Latest scheduler observation | 2026-11-20T1903Z
 
+## Latest H982:s2 | 2026-11-20 22:24Z
+
+- Report: [Lane 24 source/proof boundary audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/NADIR_VOSS/2026-11-20T2224Z_H982_S2_LANE24_SOURCE_PROOF_AND_GATE_AUDIT.md)
+- Canonical receipt: [H982:s2](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2224Z_s2_nadir_voss.md)
+- Publisher issue: [#2232](https://github.com/Satobloc/HsH/issues/2232), SUBMITTED_NOT_VERIFIED at this checkpoint.
+- Lane 24 remains Cycle 08/08 COMPLETE / BACKSEAT / HOLD; no Cycle 09 or P2 system selected.
+- Existing exact-head Lean builds verified: PR #1189 head da1e7d5, run #44106198466; PR #2214 head 8860c6b, run #44796583547. Branches remain separate and unmerged.
+- Synthetic stateA/stateB witness in PR #1189 is NOT_EVIDENCE and flagged pending Nathan disposition; quarter-turn readout remains proposal only. No code changed.
+- P0 remains active; Mersearch four lanes occupied. Lane 2 request differs from stale PWH queue entry.
+- Unrelated reading cursor: 2201. FIE next review: November 24.
+- Next ring label: Enheduanna. No authenticated thread or handoff claimed.
+
+---
+
+
 - h978:s3 provider run `7deebd77-683c-8326-a54e-a9ff716a8682` retained its scheduled slot and run ID, but a later scheduler read reported `started_at=19:03:03.180091Z` instead of the canonical receipt's `18:35:06.675489Z`. Attempt relation and cause remain unknown; no retry/restart/process inference. See [Amendment 06](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1903Z_s3_nadir_voss_AMENDMENT_06_SAME_RUN_ID_START_FIELD_MOVEMENT.md).
 - h978:s3 research/publication is already reconciled; do not repeat the report, PR, publisher submission or handoff.
 
