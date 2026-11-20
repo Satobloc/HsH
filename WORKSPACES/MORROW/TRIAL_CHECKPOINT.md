@@ -1971,3 +1971,11 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov 24. No graph edit.
 - Unrelated SAT archive reading: 000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt, lines 2131–2170; next 2171.
 - No theory integration, equation correction, Lean, physical calculation, paper work, BEDROCK promotion, task mutation, sixth task, direct-thread delivery or handoff obligation.
+
+
+### h967:s4 Amendment 01 | Publisher readback verified
+
+- Issue #2171 publisher run #44695520941 and job #136151223202 completed SUCCESS; comment #7033377270 confirms PUBLISHED.
+- Canonical artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h967-s4-cross-graph-slack-public-search-20261120t0720z-001.md; commit 4172f4da582e1646863a95c616351c0aeab9d0a1; SHA-256 70ad12499953a826e66c721044a5aa13c92afdb00e177956af51e18e6a28216a.
+- Workspace report and canonical artifact both have Git blob c6590e616afc5d8c5ed2def4d9db7f7041cccb95 and exact content equality with the issue envelope. Original pending state is superseded; no retry, duplicate, direct write or bypass.
+- Receipt amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0720Z_s4_morrow_AMENDMENT_01_PUBLISHER_READBACK.md.
