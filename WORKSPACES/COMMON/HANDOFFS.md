@@ -1,3 +1,9 @@
+## H962:s4 -> H963:s0 | PUBLICATION AMENDMENT 01 | PUBLISHED_VERIFIED
+
+- [Packet Amendment 01: publisher verified](REVIVAL_ROTATION_HANDOFFS/2026-11-20T0248Z_from_s4_calder_to_h963s0_hale_POSTSTART_OPTIONAL_GW241011_V1_LEGACY_LOCATOR_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Canonical artifact: [Calder GW241011 v1 locator / v2 API gap](PUBLISHED_SUBMISSIONS/calder-h962-s4-gw241011-v1-strain-locator-20261120t0248z-001.md); issue [#2155](https://github.com/Satobloc/HsH/issues/2155), confirmation #7029263371, SHA-256 `793b4340bcf34d449317509b519e3e2cd7ef2c6bca3b3a9bdbc0488d3321d48b`.
+- Parent packet's SUBMITTED_NOT_VERIFIED status is superseded. POSTSTART_OPTIONAL_CONTEXT_ONLY remains unchanged; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
+
 ## H962:s4 -> H963:s0 | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - Packet: [Calder to Hale optional GW241011 versioned strain-locator context](REVIVAL_ROTATION_HANDOFFS/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0248Z_from_s4_calder_to_h963s0_hale_POSTSTART_OPTIONAL_GW241011_V1_LEGACY_LOCATOR.md).
