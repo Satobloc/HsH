@@ -1,3 +1,13 @@
+## h960 verification update | 2026-11-20T00:52Z
+
+- PR #2143 current head: 9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2. Exact-head run #44649028244 was IN_PROGRESS at last check. Checkout and exact-head assertion passed; Lake dependency manifest generation was still running. No current-head Lean compile/evaluation claim.
+- Initial head 8ee0d01ee27274ef94b2fffe704d73b60957bc62 did compile successfully in run #44648094755 / job #135995753257. The first Real-valued #eval printed an opaque Real.ofCauchy representation, so the witness was changed to Rational. The intermediate head 41cde6e8fc4b17c88e6e739ab2043a16021f59e2 was cancelled before checkout by the next push.
+- Added conditional theorem nthSuperhelixThreeMode_is_special_case: the later n=3 coordinate-axis generator matches the June 2025 three-axis hyperhelix only under A_i=l_f and k_i=2*pi*n_i/l_f with phases matched. This is a restricted parameter map, not a recursive nesting proof.
+- The Nth-order formula is a harmonic sum. The June 23 nested/single-structure interpretation still requires an explicit scale-composition map.
+- No Factory Floor handoff, no public report, no physical result. P2 HOLD.
+
+---
+
 ## h960:s2 | Nth-order superhelix source recovery and curvature gate | 2026-11-20T00:24Z
 
 - Report: [Nth-order superhelix source recovery and curvature gate](2026-11-20T0024Z_H960_S2_NTH_ORDER_SUPERHELIX_SOURCE_AND_CURVATURE_GATE.md). Internal continuity report only; no public issue because the embedded action's authorship is unresolved and the new formalization is untested.
