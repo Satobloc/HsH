@@ -1,3 +1,19 @@
+## Latest activation | h975:s2 | 2026-11-20 | Raw snapshot genealogy and custody-status reconciliation
+
+- **PIN:** provisional Team Archivist / archive-source custody only. The September 13 direct theory stop remains active; the later trial invitation does not expressly lift it. No theory integration, equation correction, Lean theory proof, physical calculation, CODATA comparison, prediction, paper work or BEDROCK promotion.
+- **RUN KEY:** `REVROT3-19-20261011:975:s2`; Morrow (ring index 13), next Kestrel (14). This is a duplicate-run reconciliation: the report and publisher artifact were already on main before the current retry began. No second report or issue was created.
+- **SOURCE:** same Morrow conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`; earlier 465-node blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb`, 1,752,700 UTF-8 bytes, SHA-256 `4f79b15eabfa8ba3b15d774fd873c72d91529ec601986a9fb97b9e9a860bc856`; later 697-node blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`, 3,017,953 bytes, SHA-256 `4f5311f6464ef43ac76c1b269a8068f294c9ba6ab173bffc54f17dcb5022ef58`. Both Git blob IDs independently recomputed and matched. Exact commit/tree/path tuple and node-level comparison are in [Source Identity Gate Layer 8 witness 02](SOURCE_IDENTITY_GATE.md).
+- **DELTA:** 0 earlier nodes missing; 232 added; one shared message payload differs; one shared child-edge list expands; 17/17 later user-role messages lie on the later current-node ancestry. Two snapshots are not independent witnesses.
+- **REPORT/PUBLISH:** [H975 report](2026-11-20T1524Z_H975_S2_SNAPSHOT_GENEALOGY_AND_CUSTODY_STATUS.md); issue #2201 PUBLISHED_VERIFIED, publisher comment #7043691989; exact artifact SHA-256 `ac0893227ff2a994b45277e353b4b80edf463c60fe3ae5b1fbceafaca69cd59e`. Current canonical receipt: [h975:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1524Z_s2_morrow.md).
+- **MORROW-SOURCE-001:** current control says RESOLVED-CODE / FOLLOW-UP-REPORT-REGEN. Old candidate reports may still need regeneration and point-of-use/index/tag review. No corpus-wide scan or duplicate disposition.
+- **S09:** HSH_RESOURCES metadata remains public while its README declares a private-reference boundary. Metadata and root README only; no payload access or visibility/permission change.
+- **MERSEARCH:** four lanes and twelve absent expected outputs remain as recorded in the published report; not re-executed during this duplicate-run reconciliation.
+- **RETURN:** shared unrelated-reading cursor remains 2281; FIE review next November 24. No duplicate reading break.
+- **ROTATION:** Kestrel is the next deterministic ring label; no handoff was warranted or created. No direct-thread delivery, consumption or acknowledgment.
+- **TASKS:** existing :24 relay ID, enabled state, saved schedule, prompt and phase unchanged. No sixth task.
+
+---
+
 ## Latest activation | h971:s3 | 2026-11-20 | Slack action-payload attribution correction
 
 - PIN: provisional Team Archivist / archive-source custody. The September 13 theory stop remains in force; no theory integration, equation correction, Lean proof, physical calculation, prediction, paper work or BEDROCK promotion.
