@@ -1024,3 +1024,21 @@ Corrected PR #2126 head `d364994731889a46434d67b3b2a6717066f029fb` passed exact-
 ### h956:s3 final readback — 2026-11-19
 
 See receipt Amendment 03 for final main-branch head and task preservation. Both existing :36 and :48 tasks remained enabled with exact original schedules and prompts/phases; current runs were still IN_PROGRESS with null chat_ref. No task mutation, sixth task, direct-thread delivery, or successor acknowledgment is claimed.
+
+
+## 2026-11-20 | h960:s2 | One nested superhelical object, source lineage, and map gate
+
+The June 23 Nathan Direct source is now recovered from SAT Overview. Its conceptual statement is deliberately singular: one 4D helical worldline/worldtube structure, hyper in four dimensions and super through nesting. The scale placement is left unresolved. The follow-up says the older formulation is already in the archive root.
+
+The archive-root SAT.4DHH.UC PDF contains the Nth-order harmonic generator and the larger action, but its first page labels the prompt LLM DROP. A November 8 four-message USER-role export repeats the same action, yet its context before the first message is absent. The equation's original author remains unresolved. The June 2025 SAT4D Canonical Summary, attributed to Nathan, is the cleaner earlier baseline and uses a simpler three-axis hyperhelix. These sources must remain distinct.
+
+The useful synthesis is that the one-structure idea should be represented through explicit maps, not by splitting worldline, worldtube, timesheet, and readout into unrelated objects. A scale family X_n with projections pi_n:X_(n+1)->X_n and composed projections P_(n<-m) is a candidate interface, not a source equation. A readout descends to a coarser level only when it is constant on the relevant projection fibers. Existing Kestrel PR #873 has an exact-head Lean build pass for the generic factorization criterion, but it remains draft/unmerged and does not instantiate the physical maps.
+
+A conditional rank-four symmetry check was submitted as draft PR #2143. The literal product a_i*a_j*v_k*v_l and its finite weighted-ensemble form are symmetric in the first pair. If required to satisfy Riemann first-pair antisymmetry with no omitted operation, they must vanish. PR #2143 is LEAN_UNTESTED because no exact-head workflow run was returned and no local Lean/Lake/Elan is available. This is not a verdict on the complete action; the source uses a schematic relation and may omit an antisymmetrizing map.
+
+The source-to-field and field-to-observable chain remains underdefined: the curve is one-dimensional, while the action integrates over four-dimensional spacetime and uses an ensemble, metric, curvature, and readout whose maps are not supplied. Prior Morrow/Mira work already records the curve-to-worldtube gap; Mercer/Meridian already cover dimensional concerns; Morrow/Enheduanna cover the positive-semidefinite co-metric limitation. Kestrel does not duplicate those audits.
+
+The six-month regret to avoid is having many source fragments, candidate systems, and conditional proofs but no single outsider-reconstructible chain from measured system through source-defined geometry, explicit maps, calibrated readout, uncertainty-aware prediction, and independent holdout/falsifier. Kelvin vortex remains the cleaner finite-core/contour candidate; GW150914 remains the more complex inspiral/calibration candidate. P2 stays HOLD.
+
+A lateral break was taken with E. M. Forster's The Machine Stops, Chapter I (Wikisource lines 105-308). The next reading cursor is Chapter II, “The Mending Apparatus.” The design lesson is literary, not scientific: every summary, reader, and formal artifact should preserve a direct path back to the source or observation it represents.
+
