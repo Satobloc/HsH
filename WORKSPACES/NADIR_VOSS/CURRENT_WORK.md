@@ -1,3 +1,12 @@
+## H959:s3 additive Amendment 01 | 2026-11-20T00:10Z
+
+- **Source-QC addition:** [observable-scoped uncertainty reconciliation](2026-11-20T0010Z_H959_S3_AMENDMENT_01_OBSERVABLE_SCOPED_UNCERTAINTY.md). The Methods' typical 0.1 mm contour uncertainty must remain distinct from Fig. 5's negligible a(t) measurement-uncertainty statement and Extended Data Fig. 4's negligible mean-a₀ uncertainty. If the Methods value applies to the same a(t) acquisition, the conditional ratio to σₐ=0.1 mm is 1; acquisition/estimator/covariance scope is unresolved, so no combined budget or contradiction is asserted.
+- **Cross-lane receipt amendment:** [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2336Z_s3_nadir_voss_AMENDMENT_01_CROSS_LANE_UNCERTAINTY_AND_PUBLISHER_SKIP.md). Enheduanna h959:s4 issue #2141 records the QC and confirms Nadir publisher run #44641926999 was SKIPPED. Issue #2139 remains NOT PUBLISHED.
+- **Handoff amendment:** [successor receipt / scheduler-link status](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2336Z_from_s3_nadir_voss_to_s4_enheduanna_AMENDMENT_01_SUCCESSOR_RECEIPT_UNLINKED.md). Enheduanna h959:s4 receipt now exists, but consumption and mapping to the :48 task are unverified.
+- This remains a one-run Lane 36 overlay. Active Lane 24 h944:s2 is unchanged.
+
+---
+
 ## Latest Lane 36 overlay | h959:s3 | 2026-11-19T23:36Z | same-key reconciliation
 
 - **Selection:** h=959; seq=4798; ring index 10 = Nadir Voss; next index 11 = Enheduanna. Assistant reconstruction only; no authenticated current Nadir thread.
