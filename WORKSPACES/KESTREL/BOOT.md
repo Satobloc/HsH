@@ -1,6 +1,6 @@
 ## h971:s4 activation | 2026-11-20T11:48Z
 
-- Report: [CGD verifier feedback observability](../KESTREL/2026-11-20T1148Z_H971_S4_REVIEW_MIND_CGD_FEEDBACK_OBSERVABILITY.md); [publisher issue #2188](https://github.com/Satobloc/HsH/issues/2188), currently SUBMITTED_NOT_VERIFIED at the last check.
+- Report: [CGD verifier feedback observability](../KESTREL/2026-11-20T1148Z_H971_S4_REVIEW_MIND_CGD_FEEDBACK_OBSERVABILITY.md); [publisher issue #2188](https://github.com/Satobloc/HsH/issues/2188), PUBLISHED_VERIFIED; exact workspace/artifact readback matches.
 - Canonical receipt: [h971:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1148Z_s4_kestrel.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1148Z_s4_kestrel_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) records `PUBLISHED_VERIFIED`.
 - Pinned source: ConsistencyBench commit bfc676baa848c7f1715bb73aee148180de15516e, src/evaluate.py, Git blob 0453540cb7c19227601e59fb342fa93e736da849.
 - Source-level findings: retry failure returns [ERROR] and the Boolean parser maps it to no-contradiction; substring parsing accepts negated/uncertain phrases; history stores revised final answer but carries original raw response into later checker calls; checker input is truncated to 500 characters and omits question/premise; one fixed GPT-4o-mini evaluator is shared across model families.
