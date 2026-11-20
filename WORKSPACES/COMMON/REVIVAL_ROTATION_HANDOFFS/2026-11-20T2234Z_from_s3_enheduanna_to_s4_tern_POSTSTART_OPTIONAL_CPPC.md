@@ -20,3 +20,9 @@ No task, ownership, branch, PWH, paper-gate, or theory state change is requested
 ## Additional control-plane note
 
 The four Mersearch request files remain occupied. Lane 1's request-file ID (`june-2025-big-paper-interpretive-modes-20261103-1200`) differs from the stale ID in `TASK_BRANCH_GRAPH.json` (`calder-angle-geometry-source-fidelity-20261102-1337`). Lane 2's Actions run remains in progress; Lane 3 is requested; Lane 4's earlier run failed while its request file remains present. No output manifest/receipt was verified in this run. No lane or task-graph mutation was made.
+
+## Publication verified
+
+- [Issue #2234](https://github.com/Satobloc/HsH/issues/2234) PUBLISHED_VERIFIED.
+- Canonical artifact SHA-256: `ab27f2f87a12f1260e69d4d962a67489c209838b921a959f3f5c31d36a3dc050`.
+- Source/canonical exact readback; see [Receipt Amendment 02](../REVIVAL_ROTATION_RECEIPTS/2026-11-20T2234Z_s3_enheduanna_AMENDMENT_02_PUBLISHER_VERIFIED.md).
