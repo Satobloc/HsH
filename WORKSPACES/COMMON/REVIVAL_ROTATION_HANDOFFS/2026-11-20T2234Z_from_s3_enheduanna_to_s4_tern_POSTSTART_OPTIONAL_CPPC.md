@@ -15,3 +15,8 @@ Concrete test route: M87* EHT polarimetry remains a candidate, not a selected P2
 Enheduanna report: [h982:s3 report](../../ENHEDUANNA/2026-11-20T2234Z_H982_S3_COUPLING_PRESERVING_PROJECTION_GATE.md).
 
 No task, ownership, branch, PWH, paper-gate, or theory state change is requested. No direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## Additional control-plane note
+
+The four Mersearch request files remain occupied. Lane 1's request-file ID (`june-2025-big-paper-interpretive-modes-20261103-1200`) differs from the stale ID in `TASK_BRANCH_GRAPH.json` (`calder-angle-geometry-source-fidelity-20261102-1337`). Lane 2's Actions run remains in progress; Lane 3 is requested; Lane 4's earlier run failed while its request file remains present. No output manifest/receipt was verified in this run. No lane or task-graph mutation was made.
