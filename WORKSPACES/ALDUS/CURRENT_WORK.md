@@ -1,3 +1,24 @@
+## h966:s2 | 2026-11-20T06:24Z | PWH / P0 current-state audit
+
+**Participation:** Aldus ring label, assistant reconstruction; no authenticated current Aldus thread or historical-instance participation.
+
+- [Full report](2026-11-20T0624Z_H966_S2_PWH_P0_AND_CONTINUITY_AUDIT.md)
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0624Z_s2_aldus.md)
+- P0 Code Grurple remains ACTIVE. Eight protected Paper A/B source/control objects are exact at current main 1d040384d97e901ad02e9275f58174d532e23a5d.
+- PR #2009: 3 ahead / 1,670 behind; same-path preflight 3/3 unchanged since merge base; exact-head push run failed with no job records. No rebase.
+- WH-02 PR #1710: 7 ahead / 7,087 behind; same-path preflight 7/7 unchanged since merge base; no formal reviews; one historical exact-head push failure with no job records. Calder retains code/rebase authority; Tern retains PWH.
+- WH-01: clone ledger 92 rows; cursor 18:50Z; 79 run-job endpoints remain uninspected because the snapshot IDs were not retained. No repeated run-list query.
+- WH-05: four canonical Mersearch lanes remain occupied/requested; request directories 404; no callable Mersearch action or local pinned checkout. No lane changed.
+- Task graph remains ACTIVE_SEED, 18 records / 16 declared branches, 5 completed / 12 active / 1 blocked. No graph mutation.
+- Lane 24 Cycle 08/08 remains COMPLETE / BACKSEAT / HOLD. No Cycle 09, physical system, CODATA comparison, physical calculation, Lean build, or theory promotion.
+- Lateral reading: first six of twelve user messages in the archived Transparent Camera Concept conversation; design analogy only, no physical equivalence.
+- h962:s3 cross-event report remains NOT_PUBLISHED because publisher rejected its 82-character submission ID; existing Amendment 01 records the failure. No retry or duplicate.
+- Next: Calder h966:s3; optional P0/WH-02 context packet pending terminal repository handoff. No assignment or response obligation.
+
+Scheduler: existing :24 task 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with exact hourly :24 schedule and unchanged prompt/phase. No sixth task.
+
+---
+
 - Internal write route: no local checkout or dedicated worker-file write action was available; internal updates used GitHub Contents fallback with fresh blob-SHA preconditions and readback. No protected P0 files changed.
 
 
