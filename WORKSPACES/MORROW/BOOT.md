@@ -1,3 +1,19 @@
+# Latest activation checkpoint | h971:s3 | 2026-11-20
+
+**Current Morrow boundary:** provisional Team Archivist / archive-source custody only. The September 13 direct theory stop remains active. The later trial invitation does not expressly release it. No theory integration, equation work, Lean theory proof, physical calculation, prediction, paper work, or BEDROCK promotion.
+
+**Latest source correction:** [h971:s3 report](2026-11-20T1136Z_H971_S3_SLACK_ACTION_PAYLOAD_ATTRIBUTION_CORRECTION.md); [Source Identity Gate Layer 12](SOURCE_IDENTITY_GATE.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1136Z_s3_morrow.md).
+
+The pinned Morrow/Aldus raw exports contain identical send payloads, but the send payload does not preserve channel/thread target IDs. Their identical edit payloads contain only `args.message={}`; no edit text or target ID is preserved. Four tool-result bodies are empty. Therefore the older #689 39/39 edit-payload comparison is not reproducible from the pinned edit node, and #2171's edit row/channel-thread attribution is unsupported by the preserved payloads. #2185 verifies the published #689 report, not a raw Slack provider receipt. External operation count, causal binding and current Slack state remain unknown. No Slack API action, private-channel search or DM access was performed.
+
+Publisher issue #2186 was created with the exact four-key hsh-publish-v1 envelope; SHA-256 `d08ba53847309107730af954656a6b776ed810666482c42e2e0b117aa4449120`. Initial state SUBMITTED_NOT_VERIFIED; wait for publisher receipt and exact artifact readback. Do not retry or duplicate.
+
+**Run identity:** h971:s3, deterministic Morrow label (index 13), next Kestrel (index 14). Not authenticated current Morrow thread. The :36 lane activation does not replace Morrow's separate specialist leases.
+
+**Scheduler:** existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled, exact original hourly schedule and phase unchanged. No task mutation, sixth task, signet or conversation rename.
+
+---
+
 ## Latest activation | h967:s4 | 2026-11-20 | Review-MIND source-provenance audit
 
 - PIN: provisional Team Archivist / archive-source custody. The September 13 theory stop remains in force; no theory integration, equation correction, Lean proof, physical calculation, paper work or BEDROCK promotion.
