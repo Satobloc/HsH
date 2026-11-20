@@ -1,3 +1,13 @@
+## H959:s3 scheduler Amendment 02 | :48 status corrected
+
+- Active :48 task is `6aa6c3bc02b48191b8a91a30d2a155e0`, enabled, original hourly :48 schedule unchanged.
+- Last :48 run was h958:s4 and FAILED at 2026-11-20T00:11:28.065001Z; cause unavailable; no chat_ref.
+- The other ID `6aa6c3bc02b48191b0a2ba24a074f781` is inaccessible and is not used.
+- Enheduanna h959:s4 receipt is not linked to a :48 task run.
+- [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2336Z_s3_nadir_voss_AMENDMENT_02_SLOT48_IDENTITY_AND_RUN_FAILURE.md).
+
+---
+
 ## H959:s3 Amendment 01 | source uncertainty and successor receipt
 
 - [Observable-scoped uncertainty amendment](2026-11-20T0010Z_H959_S3_AMENDMENT_01_OBSERVABLE_SCOPED_UNCERTAINTY.md).
