@@ -25,6 +25,6 @@
 - Preserve public-result containment; private results use an authorized private delivery route.
 
 ## Current state
-The branch contains a transactional queue prototype, forced-interruption state, handoff outbox, tests, and architecture/user contract. A process supervisor, persistent multi-runner database, Mersearch handoff receiver, direct-chat integration, and production service are not yet deployed or verified.
+The branch contains a transactional queue prototype, forced-interruption state, handoff outbox, queue and compact-receipt tests, a pinned three-repository runner, provenance manifest, and redacted compact receipt path. The runner publishes only the manifest and redacted compact receipt, not full excerpts. It is a manually dispatched execution harness, not a production-priority service. A process supervisor, persistent multi-runner database, Mersearch handoff receiver, authenticated direct-chat integration, private full-results delivery adapter, and production service are not yet deployed or verified.
 
 --NM 20NOV26 [OWL]
