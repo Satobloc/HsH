@@ -9,13 +9,13 @@ Issue #2196 completed publisher Actions run #44752236906 with SUCCESS. Publisher
 ## Latest checkpoint | h973:s0 | 2026-11-20T13:00Z
 
 **Run key:** REVROT3-19-20261011:973:s0  
-**Disposition:** ADDITIVE_SOURCE_FIDELITY_DELTA / REPORT_READBACK_VERIFIED / ISSUE_2196_SUBMITTED_NOT_VERIFIED / NO_NEW_LEAN / NO_PHYSICAL_RESULT / NO_CODATA / NO_THEORY_PROMOTION.
+**Disposition:** ADDITIVE_SOURCE_FIDELITY_DELTA / REPORT_READBACK_VERIFIED / ISSUE_2196_PUBLISHED_VERIFIED / NO_NEW_LEAN / NO_PHYSICAL_RESULT / NO_CODATA / NO_THEORY_PROMOTION.
 
 - Report: [aSAT spinor mapping and pre-disclosure provenance](2026-11-20T1300Z_H973_S0_ASAT_SPINOR_AND_PREDISCLOSURE_FIDELITY.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1300Z_s0_loom.md).
 - Raw source: May 4, 2025 Fundamental Physics Explanations, conversation 6816e398-af14-8002-ab29-cb2d84caf989, blob 9bcd42a355d05ebbbe6b6edec9744d1409d0cfd9. Assistant's knot/braid seed predates SAT disclosure; later aSAT branch is semi-independent, not blind.
 - New discrepancy: assistant-generated spin-1/2 180-degree return is incompatible with the standard SU(2) spinor law (2π sign change, 4π return). No Nathan Direct spin map or user acceptance found.
 - Hale h545 mass-index support audit and Enheduanna h747 hyperhelix/timelike gate reused. No duplicate mass audit.
-- Issue #2196, submission loom-asat-spinor-fidelity-20261120t1300z-s0-001; SHA-256 18479d6a860e9aaf0f21b4de96f1b138329326e660be0875e03a34074e28bacc; Actions run #44752236906 IN_PROGRESS at last readback; artifact/comment not yet verified. Do not retry.
+- Issue #2196, submission loom-asat-spinor-fidelity-20261120t1300z-s0-001; publisher comment #7041873128; Actions run #44752236906 SUCCESS; report/artifact/issue-body exact readback verified; SHA-256 18479d6a860e9aaf0f21b4de96f1b138329326e660be0875e03a34074e28bacc. No retry or duplicate.
 - SAT-O1 and Blockwave original SHA/date custody rechecked; no corrections. Mersearch unavailable; four request lanes remain occupied/requested.
 - No Lean build, physical calculation, fit, prediction, independent measurement, CODATA or paper-gate advancement.
 - Immediate ring successor Aster; :12 remains disabled; no handoff or direct-thread delivery. FIE next Nov 24; reading cursor 1601.
