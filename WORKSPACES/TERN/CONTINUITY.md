@@ -1797,3 +1797,6 @@ Final scheduler readback Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEI
 
 
 Final main/PR divergence Amendment 03: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook_AMENDMENT_03_FINAL_MAIN_PR_DIVERGENCE.md` records final main `c22743b4`, PR #2009 3/1902, PR #2050 11/1545, PR #1710 7/7319, and the unchanged eight-object P0 vector.
+
+
+Handoff timing resolution, 2026-11-20T11:40Z: Morrow h971:s3 run `9ee4c0c0-d844-8329-a9de-fb098c8c7279` was scheduled 11:36Z and recorded started 11:38:02.342107Z. The optional packet commit `1c0a0d46ff99fd777b6787106321a454916a68f6` was 11:35:59Z, so timing is PRESTART_AT_CREATION / REPOSITORY_ONLY. Handoff Amendment 02 and receipt Amendment 04 supersede the earlier ambiguity; no direct-thread delivery/consumption/acknowledgment is claimed.
