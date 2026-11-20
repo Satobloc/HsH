@@ -86,7 +86,7 @@ def submit(c,requester,lane,query,payload=None,request_id=None):
               ON CONFLICT(key) DO UPDATE SET value=excluded.value,updated_at_utc=excluded.updated_at_utc""",(rid,t))
             # Active Mysearch work is interrupted immediately by the supervisor.
             active=c.execute("""SELECT * FROM requests WHERE lane='mysearch_expedited'
-              AND state IN ('CLAIMED','RUNNING') ORDER BY created_at_utc""").fetchall()
+              AND state IN ('CLAIMED','RUNNING','PACKAGING','PUBLISHING') ORDER BY created_at_utc""").fetchall()
             for r in active:
                 c.execute("UPDATE requests SET state='INTERRUPT_REQUESTED',updated_at_utc=? WHERE request_id=?",(t,r["request_id"]))
                 add_event(c,r["request_id"],"FORCE_INTERRUPT_REQUESTED",r["state"],"INTERRUPT_REQUESTED",
