@@ -1,19 +1,27 @@
 {
-  "request_id": "archive-harvest-20261025-optics-01",
-  "requester": "Archive subject inventory / Nathan Direct",
-  "requested_at": "2026-10-25",
+  "request_id": "perceptual-nexus-early-archive-20261120-01",
+  "requester": "Nathan / source recovery of early personal perception taxonomy terminology",
+  "requested_at": "2026-11-20T18:30:00Z",
   "repositories": [
     "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
     "Satobloc/HsH",
     "Satobloc/HSH_RESOURCES"
   ],
-  "query": "optics OR optical OR \"refractive index\" OR refraction OR birefringence OR \"phase shift\" OR retardance OR interferometry OR polarization OR spectroscopy OR dispersion OR photonic OR diffraction OR \"Smith-Purcell\" OR Cherenkov OR evanescent OR waveguide OR metasurface OR \"optical kink\"",
-  "purpose": "Discovery-only document inventory of SAT/H(s)H optics, experimental optical calibrations, phase, light–matter interactions, and all dated original-source candidates across both main archives.",
+  "query": "\"nexus\" OR \"nexus\" OR \"nexuses\" OR \"nexus point\" OR \"perceptual nexus\" OR (nexus NEAR/15 (perception OR perceptual OR field OR fields OR domain OR dom OR cohesion OR interconnectedness)) OR (domain NEAR/12 (perceptual OR perception OR field OR fields OR nexus OR dom)) OR ((perceptual OR perception) NEAR/12 (domain OR dom OR nexus OR topology OR interconnectedness))",
+  "purpose": "Historical archive archaeology for Nathan's early personal taxonomy of perception. Recover the earliest original use and meaning of 'nexus' (possible March/April 2022-2023 conversations), neighboring vocabulary and its conceptual relationship to perceptual fields, domains, Doms and later Meta-Doms. Search all three permitted archives using pinned Mersearch 1.0. Preserve original raw conversation context, chronology, exact source path/blob SHA, repository commit, role/speaker, timestamps/message IDs/parent ancestry where available; separate Nathan Direct language from assistant paraphrase, later summaries and reconstructed interpretations. Date ranges are targets for earliest attestation, not assumed source dates. Include variants and proximity searches.",
   "preferred_outputs": [
-    "all file paths and conversation/message locators",
-    "matched contexts sufficient to classify documents",
-    "original dates and source SHA256",
-    "cross-repository duplication candidates"
+    "request-scoped RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md",
+    "full raw search output remains temporary in Actions workspace; do not publish raw excerpts",
+    "candidate file paths and exact message locators",
+    "all nexus/domain/field/proximity variants with explanations where available",
+    "source chronology, speaker distinctions, repository commits, exclusions and limitations"
+  ],
+  "exclusions": [
+    "Preserve default QUARANTINE and PRIOR_ART exclusions",
+    "Do not publish raw excerpts or detailed private HSH_RESOURCES content/paths",
+    "Do not treat compact receipt as exhaustive or source-authorship proof",
+    "No theory integration, taxonomy rewrite, new definition, or promotion from lexical search alone",
+    "No calculations or synthetic fixtures"
   ],
   "status": "requested",
   "lane": 2
