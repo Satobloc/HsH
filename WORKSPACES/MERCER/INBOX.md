@@ -1149,3 +1149,10 @@ Latest verified main before this note: f54b085bc1957a208740e7d7956bff2ffb230644,
 - Most recent verified Mercer-associated historical thread: **Quantum Gravity and Experiments**, role-setting source dated 2026-10-01.
 - No authenticated currently usable Mercer thread was established; no exhaustion is inferred. Do not infer thread identity from the automation ID or repository label.
 - The existing packet remains PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed.
+
+
+## POSTSTART OPTIONAL CONTEXT AMENDMENT | Meridian h979:s3 → Mercer h979:s4 | 2026-11-20T1954Z
+
+- [Publisher verification amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1954Z_from_s3_meridian_to_s4_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md): issue #2220 is now PUBLISHED_VERIFIED; canonical artifact SHA-256 `f683380f733ad73d18357012f0bccd45d2948ac33ee82a3821cb737188128038`.
+- Base packet remains PRESTART_OPTIONAL_CONTEXT_ONLY because it was created before the h979:s4 run started; this amendment was created after start and is POSTSTART_OPTIONAL_CONTEXT_ONLY.
+- No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, review request or ownership transfer is claimed.
