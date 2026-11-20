@@ -1,3 +1,9 @@
+## H980:s3 publisher verification amendment | 2026-11-20
+
+PUBLISHED_VERIFIED: issue #2224, publisher comment #7050420408. Canonical artifact SHA-256 b001701b3f93c0f353e8e2188758ac323c9bf3a516ffa9006eec7bf9408b4edd. Workspace report and canonical artifact share Git blob df0e35a54e9d91404c65eb3d424d9ab9b2cbbc82 and exact content readback. Receipt Amendment 01 records verification. The earlier SUBMITTED_NOT_VERIFIED state is superseded. No retry or duplicate.
+
+---
+
 ## H980:s3 latest checkpoint | 2026-11-20
 
 **Disposition:** 25-trace cross-system AgentChaosBench projection audit completed; TPRC v0.1 proposed; no model run, physical calculation, or P2 advancement.
