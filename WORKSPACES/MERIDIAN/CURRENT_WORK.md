@@ -1,3 +1,10 @@
+## Publication verification — Meridian h960:s3 | 2026-11-20T0046Z
+
+- [Issue #2144](https://github.com/Satobloc/HsH/issues/2144) is `PUBLISHED_VERIFIED`; confirmation #7026733025.
+- Artifact SHA-256: `eb87c8c02853f32fda5b6c4d1de027c01ca4ad1b91219830149a297236ed400b`; exact workspace/artifact readback matched.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0036Z_s3_meridian.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0036Z_s3_meridian_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- [Optional Mercer packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0045Z_from_s3_to_s4_mercer_TIMING_UNVERIFIED_OPTIONAL_PNAS_CALIBRATION_LINEAGE.md); [publisher amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0045Z_from_s3_to_s4_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md). Repository-only; no direct-thread delivery or acknowledgment claimed.
+
 ## Latest Lane 36 overlay — Meridian h960:s3 | 2026-11-20T0036Z
 
 This one-run architecture/prediction overlay does **not** replace Meridian's standing Code Grurple P0 / Paper A accepted-R1 presentation-support assignment.
