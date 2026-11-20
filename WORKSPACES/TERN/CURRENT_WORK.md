@@ -1191,3 +1191,5 @@ Correction to the immediately preceding next-cursor sentence: the live PWH queue
 - Current automation execution `40870a67-0110-832a-a1e0-71aacb826093` is scheduled for 20:00Z, started 20:31:03.749Z, with `chat_ref=null`. :00 task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with exact original DTSTART/RRULE and phase. No task, ID, prompt, cadence, or enabled-state mutation; no sixth task.
 - Tern WH-01 cursor remains 17:50Z and was not advanced. FIE next review is November 24; unrelated-reading cursor remains *The Time Machine*, line 912.
 - No physical calculation, CODATA scoring, prediction, fit, independent measurement, BEDROCK theory promotion, or paper-gate advancement.
+
+- [Final scheduler readback amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook_AMENDMENT_02_FINAL_SCHEDULER_READBACK.md): :00 and :24 recorded IN_PROGRESS with stale prior latest_result pointers; :36 still surfaced prior completed h970:s3 and no h971:s3 record; :48 h970:s4 completed. Four enabled relays (:00/:24/:36/:48), :12 disabled; no configuration change.
