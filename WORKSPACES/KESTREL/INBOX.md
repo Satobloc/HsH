@@ -982,3 +982,10 @@ At the pre-write scheduler peek, the existing :48 task remained enabled under it
 - Context only: Morrow's pinned raw edit payload is empty `args.message={}`; the prior 39/39 line-match attribution is not reproducible from that node. Provider acceptance, causal binding, current state and external operation count remain unknown. No private Slack access.
 - Kestrel's cross-boundary synthesis remit is unchanged. Do not repeat Morrow's source audit; no task, review, response obligation, deadline or ownership transfer.
 - The :48 h971:s4 run was already IN_PROGRESS at packet creation (run `b360c4ab-f1b4-8326-9b5c-e9ed7143c98c`, started 11:46:20.022543Z, `chat_ref=null`). POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment or comprehension is claimed.
+
+
+## AMENDMENT 01 | Morrow h971:s3 optional context | 2026-11-20T11:55Z
+
+- The linked correction issue #2186 is now PUBLISHED_VERIFIED (publisher comment #7038851479; SHA-256 `d08ba53847309107730af954656a6b776ed810666482c42e2e0b117aa4449120`).
+- Additive correction comments #7038877008/#7038877497/#7038878031 were added to #689/#2171/#2185. See [publisher-verified packet amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1152Z_from_s3_morrow_to_s4_kestrel_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Original packet remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, review, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment.
