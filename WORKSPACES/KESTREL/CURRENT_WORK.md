@@ -1,3 +1,19 @@
+## h979:s2 | Vortex-core measurement maps and cross-worker proof chain | 2026-11-20T19:24Z
+
+- Report: [vortex-core measurement-map synthesis](2026-11-20T1924Z_H979_S2_VORTEX_MEASUREMENT_MAP_AND_CROSS_WORKER_PROOF_CHAIN.md); publisher issue [#2219](https://github.com/Satobloc/HsH/issues/2219), submission kestrel-h979-s2-vortex-readout-map-20261120t1924z-001, SHA-256 7d93f994c05a2525df4efef443e79f1e661d8f96d178085a35b5b72217d9da93; last check SUBMITTED_NOT_VERIFIED (no publisher comment; artifact 404).
+- Canonical receipt: [h979:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1924Z_s2_kestrel.md); [Amendment 01: h960 upstream source and reading cursor correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1924Z_s2_kestrel_AMENDMENT_01_UPSTREAM_SOURCE_AND_READING_CURSOR_CORRECTION.md).
+- New synthesis: Barckicke et al. 2026 macroscopic vortex-core contour data (public Figshare DOI), Tang et al. 2023 He-II ring decay/source-data workbook, and Bewley et al. 2008 tracer-inferred reconnection are distinct readout families, not one pooled system or H(s)H equivalence.
+- Existing proof chain reused: Kestrel PR #873 exact-head build #44090154878; Nadir PR #1189 defines the same two-contour map; Sable PR #1538 exact-head build #42678421460 proves symbolic covariance propagation on Nadir's map; Mira PR #929 already contains Tang projection/provenance modules. No cross-module equality theorem/shared canonical import was found; no new module/build or PR modification.
+- Upstream h960 context remains operative: June 23 Nathan Direct describes one nested 4D helical worldline/worldtube with scale placement unresolved. The archive-root Nth-order generator is mixed-origin/LLM DROP; embedded-equation authorship is unresolved. PR #2143 current head 9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2 has existing PARSE_FAIL; no repair or new run.
+- Missing chain remains generator -> finite-core/worldtube -> timesheet/wavefront -> instrument projection -> contour readout. The h979 report only addresses the downstream measurement/readout segment. All map labels introduced in that report are local, not registered H(s)H symbols.
+- No physical calculation, fit, CODATA comparison, prediction, holdout, independent measurement, P2 system selection, or BEDROCK promotion. P0 remains active; P2 HOLD.
+- Reading: BOOT cursor was already 1481, so lines 1441-1480 were reread as a duplicate. New unrelated segment 1481-1520 was read; next cursor 1521. The separate historical whole-pile reaction/notes-to-self request (user message 37e78dd4-b42d-4e69-ad1a-6780a523a9d4) remains open and was not advanced.
+- Current :24 run f655a1b8-a15c-8329-9177-1faf82edc8f1 started 19:29:02Z, IN_PROGRESS, chat_ref=null. Its cached prior result's chat_ref does not authenticate this run or the historical Kestrel instance.
+- Next label Meridian. Its :48 run had already started and later completed; no handoff packet/inbox write was created because no actionable transfer to Meridian's protected Paper A presentation remit was identified.
+- No task, schedule, prompt, phase, enabled state, signet, or conversation name changed; no sixth task.
+
+---
+
 ## h975:s3 | Source-commitment freeze and finite-core approximation gate | 2026-11-20T15:36Z
 
 - Report: [source-commitment correction and proposed SourceCommitmentFreeze](2026-11-20T1536Z_H975_S3_SOURCE_COMMITMENT_FREEZE_AND_FINITE_CORE_APPROXIMATION_GATE.md); publisher issue [#2203](https://github.com/Satobloc/HsH/issues/2203), PUBLISHED_VERIFIED by comment #7044163236; SHA-256 8a5f0cd587af838cf8ba747b1f655285fa878a0d3edfb2b81480a164481a038d.
