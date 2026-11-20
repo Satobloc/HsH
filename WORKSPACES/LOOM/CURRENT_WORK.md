@@ -1,3 +1,20 @@
+## Latest checkpoint | h965:s2 | 2026-11-20T05:24Z
+
+**Run key:** REVROT3-19-20261011:965:s2  
+**Disposition:** HISTORICAL_ROLE_SOURCE_VERIFIED / 10_OF_10_USER_MESSAGES_ALREADY_TAGGED / PR2151_EXACT_HEAD_LEAN_PASS / FORMALIZATION_ONLY / NO_PHYSICAL_RESULT / TASK_UNCHANGED.
+
+- Report: [h965:s2 source-status and exact-head Lean repair](2026-11-20T0524Z_H965_S2_GW241011_SOURCE_STATUS_AND_LEAN_REPAIR.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0524Z_s2_loom.md).
+- Original “Tag Conversation Corpus” raw blob 6668ca60e451f8737903423727da7f9a430484e1: 515 mapping nodes, 514 message objects, 10 user-role messages. All ten message UUIDs already appear in the source-local tag ledger. No tag mutation or global tag dictionary change.
+- PR #2151 repair commit 8d61b6efab5c79b4e96550f5781638757311b1ae passed exact-head run #44680856975, job 136103632014. Lean 4.34.0 / Lake 5.0.0; 8,948 build jobs. Six theorem-specific axiom outputs: propext, Classical.choice, Quot.sound. Global axiom audit, tests, lint and nanoda skipped; one unused ring tactic warning at line 83. Repaired module has no sorry/admit token.
+- Formalization is an assistant-defined algebraic reconstruction of the paper's symmetric averages and zero-antisymmetric modeling restriction. It is not a physical projection, detector response, H(s)H map or empirical result.
+- Issues #2164 and #2165 were submitted through the existing publisher; both pending readback at last check. #2165 is the final exact-head pass update and supersedes #2164's interim pending status. Do not duplicate.
+- Mersearch 1.0 and bridge guidance read; no callable action or local checkout; all four shared lanes occupied/requested. Direct blob retrieval is not Mersearch. Three repository front doors read; no private HSH_RESOURCES payload opened.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov 24. Task graph ACTIVE_SEED, 18 records / 16 declared branches.
+- Next ring label Aster. Optional repository packet and inbox entry verified; no task, deadline, response obligation, ownership transfer, direct-thread delivery or acknowledgment.
+- Existing :24 task remains enabled with its original identity, prompt, hourly schedule and phase unchanged. No sixth task, signet or conversation rename.
+
+---
+
 # H961:S3 | 2026-11-20T01:36Z | GW241011 restriction / marginalization / prior map
 
 **Disposition:** report PUBLISHED_VERIFIED; source-local tags recorded; Lean exact-head repair pending; no physical result; P2 HOLD.
