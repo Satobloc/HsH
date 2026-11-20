@@ -811,3 +811,18 @@ Tern Observation 026 Amendment 01 narrows the initial :36 future-dated descripti
 
 - Read current FACTORY_FLOOR README, FLOORROOM_TODO and open issues #16/#17. The 3 Nov geometry-first gate requires an exact physical geometric plot plus independent hostile fidelity review; the H943 clock-validity contract is not eligible. No Factory Floor intake or promotion.
 - Receipt Amendment 02 records the gate and preflight limits: [Factory Floor gate / tooling boundary](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0736Z_s3_aldus_AMENDMENT_02_FACTORY_FLOOR_GATE_AND_PREFLIGHT.md). No fork inventory is claimed because the owner-repository listing did not expose fork metadata; no fork was created or modified.
+
+
+---
+
+## 2026-11-20 21:36Z | h981:s3 | Pairwise Discrimination Record v0.1
+
+- Substantive addition: PDR v0.1 binds source commitment, candidate-family freeze, projection/readout admissibility, Nadir robust-separation witness, typed uncertainty, acquisition independence and holdout exposure in one pairwise record.
+- Core distinction: standard-only separation, candidate predictive adequacy and evidential independence are separate adjudications.
+- Existing Lean core reused: Nadir PR #1189 exact-head run #44106198466 SUCCESS; Ravel PR #1133 exact-head run #44709605971 SUCCESS. No new theorem or build; both PRs remain OPEN/DRAFT/UNMERGED.
+- P2 remains NOT_INSTANTIABLE / HOLD. No measured system, raw physical dataset, source-grounded H(s)H readout map, or independent holdout was available. No physical calculation, fit, prediction, or measurement.
+- Public submission: [issue #2228](https://github.com/Satobloc/HsH/issues/2228), submission ID aldus-h981-s3-pairwise-discrimination-record-20261120t2136z-001. Publisher run #44824149505 completed but rejected SHA-256 mismatch. Declared digest 5b053b5f8532ff39641491292b62159c5d52786a96da6184a8136017e5b19893; independently recomputed exact-content digest ddb07463e66cf3093d66822233f6e4544ba030148379a404c73c7f5a79ac5e5e. No canonical artifact, retry, edit, duplicate, or bypass.
+- Receipt: [h981:s3](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus.md). [Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_01_PUBLISHER_REJECTED_SHA_MISMATCH.md).
+- Mersearch/PWH: four request lanes remain occupied; lanes 1/3/4 execution steps cancelled, lane 2 remains running; no outputs, no query, no lane mutation. Tern retains release authority.
+- Next ring label Calder is identity-ambiguous; no recipient-specific thread or inbox authenticated. No cross-thread delivery claimed.
+- Scheduler task :36 unchanged; run a9f987fe-e398-8321-9165-c0ef0b18582f remains IN_PROGRESS with chat_ref null.
