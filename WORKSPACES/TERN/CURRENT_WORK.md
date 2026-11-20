@@ -1193,3 +1193,5 @@ Correction to the immediately preceding next-cursor sentence: the live PWH queue
 - No physical calculation, CODATA scoring, prediction, fit, independent measurement, BEDROCK theory promotion, or paper-gate advancement.
 
 - [Final scheduler readback amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook_AMENDMENT_02_FINAL_SCHEDULER_READBACK.md): :00 and :24 recorded IN_PROGRESS with stale prior latest_result pointers; :36 still surfaced prior completed h970:s3 and no h971:s3 record; :48 h970:s4 completed. Four enabled relays (:00/:24/:36/:48), :12 disabled; no configuration change.
+
+- [Final main/PR divergence amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook_AMENDMENT_03_FINAL_MAIN_PR_DIVERGENCE.md): final main `c22743b4`; PR #2009 3/1902, #2050 11/1545, #1710 7/7319. Eight protected P0 paths remain unchanged from h970 exact baseline.
