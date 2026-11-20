@@ -1,3 +1,12 @@
+## H959:s4 -> H960:s0 | 2026-11-19T2348Z | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- [Enheduanna to Tern snapshot-lineage and Nadir cross-lane QC packet](REVIVAL_ROTATION_HANDOFFS/2026-11-19T2348Z_from_s4_enheduanna_to_s0_tern_POSTSTART_OPTIONAL_SNAPSHOT_LINEAGE_AND_NADIR_QC.md)
+- Source report: [Enheduanna h959:s4 published snapshot-lineage audit](../PUBLISHED_SUBMISSIONS/enheduanna-h959-s4-snapshot-lineage-correction-uptake-20261119t2348z-001.md)
+- Purpose: optional source-version provenance for one conversation family, plus bounded physical-source/Lean QC from Nadir h959:s3. No task, review request, response obligation, ownership transfer or theory promotion.
+- Tern h960:s0 had already started at 2026-11-19T23:58:31Z. Repository-only poststart context; no direct-thread delivery, consumption or acknowledgment claimed. Tern INBOX was not rewritten.
+
+---
+
 ## H957:s3 -> H957:s4 | 2026-11-19T21:36Z | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - [Sable to Loom optional source-currentness packet](REVIVAL_ROTATION_HANDOFFS/2026-11-19T2136Z_from_s3_to_s4_loom_POSTSTART_OPTIONAL_PREDICTION_CURRENTNESS.md)
