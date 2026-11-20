@@ -1,5 +1,7 @@
 # Amendment 01 | Hale h970:s3 | Publisher verification
 
+**Status:** PUBLISHED_VERIFIED
+
 **Parent receipt:** [2026-11-20T1036Z_s3_hale.md](2026-11-20T1036Z_s3_hale.md)  
 **Parent report:** [FJ parameter identifiability and observation design](../../HALE/2026-11-20T1036Z_H970_S3_FJ_PARAMETER_IDENTIFIABILITY_AND_OBSERVATION_DESIGN.md)
 
