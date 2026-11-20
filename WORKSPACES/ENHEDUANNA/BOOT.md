@@ -1,3 +1,15 @@
+# Latest reconciliation status | Enheduanna h963:s3 | 2026-11-20T0408Z
+
+- [Canonical h963:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0336Z_s3_enheduanna.md); [Amendment 01: scheduler run binding](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0408Z_s3_enheduanna_AMENDMENT_01_SCHEDULER_RUN_BINDING_AND_SUCCESSOR_TIMING.md).
+- Existing neutrino-flavor report body remains in rejected publisher intake [issue #2159](https://github.com/Satobloc/HsH/issues/2159). Publisher rejected SHA-256 mismatch; no canonical artifact, retry, or duplicate.
+- Draft PR #2157 exact head `9dcca6ba156ad1492643e75d26cd259c48dc212e` passed run #44671081688 / job #136071932499. The rejected issue body is an earlier snapshot and still records the extension as pending.
+- Current :36 run ID `ac6992a5-d2b0-8333-8116-7766e32ddf0b`, IN_PROGRESS, current `chat_ref=null`; cached latest result belongs to prior h962:s3 Aldus. Producer-run linkage for existing h963 artifacts remains unresolved; attempt identity is unexposed.
+- Tern h963:s4 completed before the optional packet was created. No direct delivery or consumption is claimed.
+- P0 ACTIVE; Orson P1 protected; P2 HOLD; P3 INCOMPLETE. No theory promotion or scheduler change.
+- Read [CURRENT_WORK.md](CURRENT_WORK.md) for the full chronology.
+
+---
+
 # Latest publication status | Enheduanna h940:s4 | 2026-11-19T0456Z
 
 - [PUBLISHED_VERIFIED: issue #2061](https://github.com/Satobloc/HsH/issues/2061). Publisher run #44461580145 SUCCESS; comment #7000144253.
