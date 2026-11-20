@@ -258,3 +258,29 @@ The CLI, GitHub bridge, API and future frontend should expose the same lifecycle
 8. Status/queue visibility does not expose private source excerpts or unauthorized corpus metadata.
 
 This is an architecture requirement and design direction, not an assertion that the central queue/status service is already implemented.
+
+### Queue event timestamps and position history (Nathan Direct, 2026-11-20)
+
+Queue visibility must include the **timestamp of every request ahead of the current request**, not merely a count or position. The status receipt should expose an ordered, point-in-time snapshot such as:
+
+| Position | Request ID | Submitted at | Last state transition |
+|---:|---|---|---|
+| 1 | `request-a` | `2026-11-20T13:42:08Z` | `2026-11-20T13:42:08Z` |
+| 2 | `request-b` | `2026-11-20T13:44:51Z` | `2026-11-20T13:45:02Z` |
+| 3 | `this-request` | `2026-11-20T13:47:16Z` | `2026-11-20T13:47:16Z` |
+
+The example is illustrative, not actual queue data.
+
+For each request ahead, expose at minimum:
+- current position within the applicable priority/fairness class;
+- request ID (or privacy-preserving short identifier);
+- original accepted/submitted timestamp in an explicit timezone, preferably UTC;
+- current lifecycle state;
+- timestamp of its latest state transition;
+- optionally, accumulated queue-wait duration, computed from timestamps and clearly marked as a live duration.
+
+Also retain an append-only event history for the request itself: submitted, queued, reprioritized, claimed, started, heartbeat, retried, packaged, published, completed, failed, cancelled. Every event has an event timestamp, and state changes record both prior and new state.
+
+A queue snapshot must include its own `observed_at` timestamp and identify the ordering/fairness policy used. If requests in another priority class are not ahead under the active scheduling policy, do not misleadingly list them as blocking this request; show class position and any global scheduling context separately. Do not expose sensitive query text or source excerpts from other users' requests. Use opaque IDs and timestamps sufficient to make queue behavior legible.
+
+Acceptance tests must verify that timestamps and order are stable, timezone-explicit, and correctly updated after claim, cancellation, retry, reprioritization and completion.
