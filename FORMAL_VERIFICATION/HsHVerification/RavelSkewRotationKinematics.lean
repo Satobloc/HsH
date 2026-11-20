@@ -35,14 +35,14 @@ def rotationMatrix (frequency : ℝ) : Matrix4 :=
 theorem rotationMatrix_skew (frequency : ℝ) :
     Matrix.transpose (rotationMatrix frequency) = -rotationMatrix frequency := by
   ext i j
-  fin_cases i <;> fin_cases j <;> simp [rotationMatrix]
+  fin_cases i <;> fin_cases j <;> simp [rotationMatrix, Matrix.vecCons]
 
 /-- Squaring the generator gives -frequency^2 times the identity. -/
 theorem rotationMatrix_sq (frequency : ℝ) :
     rotationMatrix frequency * rotationMatrix frequency =
       -(frequency ^ 2) • (1 : Matrix4) := by
   ext i j
-  fin_cases i <;> fin_cases j <;> simp [rotationMatrix, Matrix.mul_apply] <;> ring_nf
+  fin_cases i <;> fin_cases j <;> simp [rotationMatrix, Matrix.mul_apply, Finset.sum_fin_eq_sum_range, Finset.sum_range_succ, Matrix.vecCons] <;> ring_nf
 
 /-- Algebraic divergence of the linear velocity field x ↦ Ωx, equal to tr Ω. -/
 def linearExpansion (frequency : ℝ) : ℝ :=
@@ -60,6 +60,6 @@ def directionalAcceleration (frequency : ℝ) (x : Vector4) : Vector4 :=
 /-- The acceleration expression is -frequency^2 x. -/
 theorem directionalAcceleration_formula (frequency : ℝ) (x : Vector4) :
     directionalAcceleration frequency x = -(frequency ^ 2) • x := by
-  simp [directionalAcceleration, rotationMatrix_sq, Matrix.mulVec_smul, Matrix.one_mulVec]
+  rw [directionalAcceleration, rotationMatrix_sq, Matrix.smul_mulVec, Matrix.one_mulVec]
 
 end HsHVerification.RavelSkewRotationKinematics
