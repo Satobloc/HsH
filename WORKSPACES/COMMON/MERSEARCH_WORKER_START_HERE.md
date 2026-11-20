@@ -102,3 +102,16 @@ If an agent's task involves SAT/H(s)H history, equations, geometry, or the statu
 - [Human-facing deployment guide](https://github.com/Satobloc/HsH/blob/mersearch-chronology-20261007/CONVERSATION_VIEWER/mersearch/README.md)
 
 **Shortcut:** Search three roots; disclose coverage; verify original records; then do the science.
+
+
+## Display-time convention: Nathan Direct (20 November 2026)
+
+Mersearch and H(s)H operational interfaces must preserve canonical timestamps as timezone-aware machine values, preferably ISO 8601 UTC with a `Z` suffix. **Whenever timestamps are presented to Nathan, convert and display them in the `America/New_York` time zone.** This includes request receipts, queue snapshots, timestamps of requests ahead, event histories, run/status summaries, manifests rendered for the user, and operational reports.
+
+Use the IANA zone `America/New_York`, not a fixed `EST` or `EDT` offset. The zone automatically observes the applicable Eastern Standard Time / Eastern Daylight Time rules. Label displayed values as **ET** (or spell out EST/EDT as applicable); do not call all-year local time "EST". Preserve the original UTC timestamp in machine-readable records and, when useful for audit, show it alongside the Eastern rendering. Never rewrite historical event timestamps merely to change their display zone.
+
+This is a presentation-layer preference, not a requirement to store local-time timestamps or to change cross-system ordering, sorting, signatures, hashes, or protocol semantics. If a user-facing interface cannot perform timezone conversion, it must disclose the canonical timezone rather than silently presenting an unlabeled local-looking time.
+
+**Signature / attribution:** This directive is recorded at Nathan's request. Reproduce the signet only as **[OWL]** in documents, comments, generated materials, and acknowledgments. Never recreate or emit the actual signet glyph or its entity/emoji representation. Exact authorized signature text:
+
+`--NM 20NOV26 [OWL]`
