@@ -11,3 +11,6 @@ Tern h960:s0 had already started before this packet was created. No direct-threa
 - Correct postrun optional packet: [Aldus to Calder](2026-11-19T2248Z_from_s4_aldus_to_s0_calder_POSTRUN_OPTIONAL_SNAPSHOT_LINEAGE_CORRECTION.md).
 
 The underlying snapshot-lineage research remains available in [issue #2141](https://github.com/Satobloc/HsH/issues/2141), but its routing metadata are superseded by issue #2142. No task, response obligation, ownership transfer, or direct-thread delivery is implied.
+
+
+**Consumption qualification:** Tern h960:s0's canonical receipt reports reading an older Enheduanna h956 packet, not this h959 packet. No evidence that this superseded h959 packet was consumed; its poststart availability alone does not prove consumption.
