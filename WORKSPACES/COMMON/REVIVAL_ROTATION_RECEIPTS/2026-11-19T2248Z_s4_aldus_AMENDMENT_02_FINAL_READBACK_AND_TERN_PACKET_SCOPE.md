@@ -23,7 +23,7 @@ No authenticated Calder or Tern thread, direct-thread delivery, consumption or a
 
 ## Final repository and scheduler readback
 
-- HsH main head at this readback: b5edb1772649c59d8f504ec9351324672632d896.
+- HsH main head immediately before this amendment commit: b5edb1772649c59d8f504ec9351324672632d896.
 - Task graph remains ACTIVE_SEED, branch_count 16, graph SHA caeddc7825f604f7863c8bc601503f88482bedb5.
 - :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with its exact hourly schedule and phase. Run cc257211-f6d8-8322-a892-bfec16ed96a3 ended FAILED at 00:11:28.065001Z, chat_ref null.
 - :00 task ID 6aa1fe0de5e48191b886496095b1343f remains enabled with its exact hourly schedule and phase. Tern h960:s0 run af0b8410-bfb4-832b-9f3e-bb8f38464124 completed at 00:14:08.061125Z; its chat_ref is not worker identity authentication.
