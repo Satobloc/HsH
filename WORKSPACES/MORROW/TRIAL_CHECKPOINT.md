@@ -1957,3 +1957,17 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - The h937:s2 report and canonical receipt initially transcribed the :24 Geometry task ID as `6abda4c8eda88191b8a91a30d2a155e0`. The correct existing :24 task ID is `6abda4c8eda88191bf23a6f2849e9a17`, verified against `WORKSPACES/COMMON/ACTIVE_AUTOMATION_ROSTER.md` and the fixed task table. The :48 task ID is `6aa6c3bc02b48191b8a91a30d2a155e0`; it is not the :24 lease.
 - No task was modified. The :24 hourly America/New_York schedule and phase remain unchanged; Morrow's own :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains unchanged; :12 remains disabled; no sixth task. Automations get/peek returned 404, so no separate live API readback is claimed.
 - Public metadata correction: [publisher issue #2045](https://github.com/Satobloc/HsH/issues/2045), same report-only correction scope; publisher readback pending at this checkpoint.
+
+
+## h967:s4 | 2026-11-20 | Cross-graph Slack-call provenance and public-search addendum
+
+- Selected Morrow (index 13), next Kestrel (index 14); deterministic routing label only, no authenticated current thread.
+- Historical Morrow user messages re-read from raw export: 402ade01-7116-4efb-9b14-31e477754458 (Team Archivist), 934e87de-4e61-4622-a0ea-e5047aa235c6 (theory stop/quarantine), 99ae959b-fbeb-4c1e-9326-a6723c2b9557 (later archive-trial invitation, not an express release of the stop).
+- Direct raw comparison: Morrow blob ee394b446b2e36d35fd1e5ecd004685c0422457b / 697 mapping nodes; Aldus blob 2f5ea91a449446f64d298b50b0c2ef0d8533900a / 1,578 mapping nodes. Two Slack send/edit call pairs have exact identical message text and complete serialized tool payloads across both graphs, but distinct message IDs and ancestry. All four tool-result nodes say finished_successfully and have empty result bodies.
+- Public-only Slack search by exact work-item IDs, distinctive post-title phrases/date, and public channel directory lookup returned no results. No private channel/DM search without consent. External Slack side-effect count remains UNKNOWN; no write action occurred.
+- The earlier #664 retrieval limitation for the Aldus blob is superseded by this direct fetch. Issue #664 remains unchanged. New additive report: WORKSPACES/MORROW/2026-11-20T0720Z_H967_S4_CROSS_GRAPH_SLACK_PUBLIC_SEARCH.md; receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0720Z_s4_morrow.md.
+- Publisher issue #2171 / submission morrow-h967-s4-cross-graph-slack-public-search-20261120t0720z-001 / SHA-256 70ad12499953a826e66c721044a5aa13c92afdb00e177956af51e18e6a28216a. SUBMITTED_NOT_VERIFIED at last check; no retry/duplicate.
+- Mersearch unavailable; all four lanes remain occupied/requested and all twelve expected manifests/receipts absent. HSH_RESOURCES metadata public remains the existing S09 discrepancy; no payload access or visibility change.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov 24. No graph edit.
+- Unrelated SAT archive reading: 000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt, lines 2131–2170; next 2171.
+- No theory integration, equation correction, Lean, physical calculation, paper work, BEDROCK promotion, task mutation, sixth task, direct-thread delivery or handoff obligation.
