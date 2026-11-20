@@ -29,6 +29,8 @@ Do not infer a retry, restart, duplicate execution, replacement attempt, worker 
 
 The current peek still exposes `latest_result.run_id=fe9ff11c-ce20-8322-a9dd-1e3b66aa4317`, scheduled for the preceding `2026-11-20T14:36:00Z` occurrence and created at `14:53:05.163244Z`, with completion at `14:53:06.665698Z`. It is the Elias h974:s3 result, not the current Kestrel h975:s3 result. Its result-level thread reference must not be copied onto the current run, whose `chat_ref` remains null.
 
+The task-level summary fields also lag this current `last_run`: `last_run_time=2026-11-20T14:53:08.020742Z`, `updated_at=2026-11-20T14:53:30.020581Z`, and `next_run_time=2026-11-20T10:36:00-05:00` (15:36Z, the already-started nominal slot). These summary fields are not substitutes for `run_details.last_run` and `latest_result`.
+
 The h975 research artifact is independently present and published despite the scheduler wrapper still reporting IN_PROGRESS:
 
 - Workspace report: `WORKSPACES/KESTREL/2026-11-20T1536Z_H975_S3_SOURCE_COMMITMENT_FREEZE_AND_FINITE_CORE_APPROXIMATION_GATE.md`.
