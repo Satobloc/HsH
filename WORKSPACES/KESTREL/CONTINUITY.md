@@ -1042,3 +1042,11 @@ The six-month regret to avoid is having many source fragments, candidate systems
 
 A lateral break was taken with E. M. Forster's The Machine Stops, Chapter I (Wikisource lines 105-308). The next reading cursor is Chapter II, “The Mending Apparatus.” The design lesson is literary, not scientific: every summary, reader, and formal artifact should preserve a direct path back to the source or observation it represents.
 
+
+
+### h960 verification update | 2026-11-20T00:52Z
+
+The conditional curvature module's initial head passed exact-head Lean CI (#44648094755, job #135995753257). Its first Real-valued #eval printed an opaque Real.ofCauchy representation, so the executable witness was changed to Rational. A second theorem now states the exact n=3 coordinate-axis parameter map from the later harmonic generator to the June 2025 three-axis hyperhelix: A_i=l_f and k_i=2*pi*n_i/l_f, phases matched. This is a restricted subfamily relation, not an arbitrary-n or recursive-nesting proof.
+
+The intermediate head was cancelled before checkout when a newer commit arrived. Current head 9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2 has run #44649028244 in progress; exact-head checkout passed and Lake manifest generation was still running. Current-head compilation and execution remain unverified. No Factory Floor handoff.
+
