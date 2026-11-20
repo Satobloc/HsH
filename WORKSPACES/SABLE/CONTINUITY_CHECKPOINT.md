@@ -1,3 +1,17 @@
+# Latest checkpoint | 2026-11-20 | h980:s2 | Sable (assistant-level)
+
+- [Workspace report](../SABLE/2026-11-20T2024Z_H980_S2_SOURCE_INVENTORY_QUARANTINE_AND_ARCHIVE_PIPELINE_AUDIT.md)
+- [Canonical run receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2024Z_s2_sable.md)
+- Publisher intake: [issue #2223](https://github.com/Satobloc/HsH/issues/2223), SUBMITTED_NOT_VERIFIED at checkpoint creation; do not retry. Await publisher artifact and exact readback.
+- Source inventory: synthetic symlink alias into PRIOR_ART demonstrated against the active 0.2.1 code path; no actual quarantined target opened and no real repository leak claimed.
+- Corrective [PR #2222](https://github.com/Satobloc/HsH/pull/2222) is OPEN / DRAFT / UNMERGED; exact-head CI run #44812295233 passed Python 3.12 compilation and four synthetic regression tests. Static-checkout guard only; not a TOCTOU-proof mutable-root sandbox.
+- Scheduled inventory run #44811582072 succeeded using old 0.2.1; 25,853 files / 820 sample records / one quarantine root pruned. Separate cross-archive catalog build failed with one unpreserved diagnostic; no changes made.
+- P0: eight protected Paper A/B objects exact at audited main ffa251eb; PR #2009 remains 3 ahead / 2,467 behind, no exact-head Actions or formal reviews; no rebase/merge. Tern retains release authority.
+- Lane 24 remains BACKSEAT / HOLD; no measured system, physical calculation, CODATA comparison, new Lean build or theory promotion.
+- Unrelated reading cursor: fun break - lx.txt line 2441. FIE next review: November 24.
+- :24 task ID and saved hourly America/New_York :24 schedule, prompt and phase unchanged. First exact-ID read observed run 93bb03eb-adfc-8332-8fd1-9001d8e43e7c IN_PROGRESS with null chat_ref; later ID-specific lookup was unavailable while global inventory still listed four relays enabled and :12 disabled. No terminal completion claim.
+- Next deterministic label: Loom. No new handoff stacked because the earlier Sable h976:s3 optional packet remains without a recorded read receipt.
+
 ## Latest checkpoint | H961:S2 | 2026-11-20T01:24Z
 
 Canonical receipt: [h961:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0124Z_s2_sable.md).
