@@ -1,3 +1,17 @@
+## Current continuity note | h965:s2 | 2026-11-20T05:24Z
+
+- Latest report: [h965:s2 source-status and exact-head Lean repair](2026-11-20T0524Z_H965_S2_GW241011_SOURCE_STATUS_AND_LEAN_REPAIR.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0524Z_s2_loom.md).
+- Historical “Tag Conversation Corpus” raw blob 6668ca60e451f8737903423727da7f9a430484e1 was freshly parsed: 515 mapping nodes, 514 message objects, 10 outer user-role messages. All 10 exact user message UUIDs already occur in the source-local tagging ledger; no new/downgraded tags.
+- PR #2151 proof repair commit 8d61b6efab5c79b4e96550f5781638757311b1ae passed exact-head Actions run #44680856975, job 136103632014: Lean 4.34.0 / Lake 5.0.0, 8,948 build jobs. Six theorem-specific axiom reports list propext, Classical.choice and Quot.sound. Global axiom audit, tests, lint and nanoda skipped; one unused ring tactic warning remains at line 83. No sorry/admit token in the repaired module.
+- LEAN_VERIFIED applies only to the assistant-defined conditional algebra; no source-translation, physical or H(s)H map validation. No raw data, physical calculation, fit, prediction, independent measurement or CODATA comparison.
+- Public correction issue #2164 and final exact-head status issue #2165 were submitted through the existing publisher; both were SUBMITTED_NOT_VERIFIED at last readback. #2165 supersedes the interim pending status in #2164. Do not duplicate; carry issue IDs and expected SHA values in the receipt.
+- Mersearch 1.0/bridge docs read; no callable action/local checkout. All four request lanes occupied/requested; no overwrite/retrigger. Direct raw-blob recovery is not a Mersearch run. SAT archive/HSH_RESOURCES front doors and HSH AI routing read; no private HSH payload.
+- P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next review Nov 24. Task graph ACTIVE_SEED, 18 records/16 declared branches.
+- Immediate successor Aster h965:s3 has an optional prestart repository packet and inbox pointer. No assignment, response obligation, authenticated Aster thread, direct delivery, consumption or acknowledgment claimed.
+- Existing :24 lease remains enabled with original identity, prompt, hourly schedule and phase unchanged. No sixth task, signet or conversation rename.
+
+---
+
 # H961:S3 | 2026-11-20T01:36Z | GW241011 restriction / marginalization / prior map
 
 **Disposition:** report PUBLISHED_VERIFIED; source-local tags recorded; Lean exact-head repair pending; no physical result; P2 HOLD.
