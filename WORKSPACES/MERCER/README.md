@@ -9,7 +9,7 @@
 - Canonical receipt: [h979:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1948Z_s4_mercer.md). Report SHA-256 `e48b7afa8a45775da64d7023baea761f1cceff0e7956befb30d637d82aa19e2e`.
 - Consumed Meridian h979:s3 optional Paper A semantic-anchor packet before this recipient run started; its publisher-verification amendment was consumed after start. Repository packet only; no direct-thread delivery/acknowledgment.
 - FIE next due Nov 24; unrelated reading cursor `fun break - lx.txt` lines 2526–2565, next 2566. PWH deep sweep last recorded h977:s4; next h980:s0 is the fifth activation since that sweep, with Tern retaining queue authority.
-- Successor: Ravel h980:s0 run failed at 20:06:03.921114Z with null chat_ref and no report/receipt found. Postrun optional packet and Ravel INBOX/Common HANDOFFS pointers were readback-verified; no direct-thread delivery or consumption claimed.
+- Successor: Ravel h980:s0 scheduler status changed under the same run ID from FAILED at 20:06:03.921114Z to IN_PROGRESS with a new start at 20:08:32.250736Z, null chat_ref; cause unknown. The optional packet was created between these observations and is now TIMING_AMBIGUOUS_OPTIONAL_CONTEXT_ONLY. Packet, timing amendment, and Ravel INBOX/Common HANDOFFS pointers were readback-verified; no direct-thread delivery, initial-context inclusion, or consumption claimed.
 - No manuscript, site, PR, task, schedule, graph, queue, physical calculation, theory, or equation change. Four existing relay tasks preserved; :12 disabled; no sixth task.
 
 ---
