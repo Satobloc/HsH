@@ -735,5 +735,5 @@ The existing publisher submission [#1735](https://github.com/Satobloc/HsH/issues
 - **Existing publication:** H971:s0 issue #2187, with additive source-fidelity comment #7039379349. No new issue.
 - **Optional next action:** if useful to the existing helical-vortex source-readiness work, keep the conditional moving-slice geometry separate from any measured volumetric vortex pair; no task is required.
 - **Status:** PRESTART_OPTIONAL_CONTEXT_ONLY. No assignment, deadline, response obligation, priority override, or ownership transfer.
-- **Repository delivery:** append pending independent readback.
+- **Repository delivery:** VERIFIED BY INDEPENDENT READBACK; handoff ID occurs exactly once.
 - **ChatGPT delivery:** NOT SENT; no authenticated current Enheduanna thread. Consumption and acknowledgment unknown.
