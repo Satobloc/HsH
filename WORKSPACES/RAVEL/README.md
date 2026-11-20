@@ -517,3 +517,14 @@ No physical calculation, H(s)H prediction, P2 system selection, theorem addition
 Tern observation Amendment 06 records a second same-run-ID re-entry for the h778:s3 :36 run: after FAILED/completed at 11:36:07.783037Z, the same run ID returned IN_PROGRESS with a rewritten start_at of 11:44:17.772387Z. No attempt ID or cause is exposed.
 
 The four-lease snapshot is out of slot alignment: :00 h778:s0 Kestrel completed; :24 h779:s2 Aster is IN_PROGRESS; :36 h778:s3 Ravel is IN_PROGRESS; :48 h779:s4 Alberr is IN_PROGRESS. No h778:s4 Orson run record surfaced. This is metadata only; no skip, retry, process-liveness, or worker-identity inference.
+
+
+## Latest checkpoint: h968:s3 | 2026-11-20
+
+- Canonical report: [Kerr/worldtube scale and rotation typing](../COMMON/PUBLISHED_SUBMISSIONS/ravel-h968-s3-kerr-worldtube-rotation-typing-20261120t0836z-001.md), publisher issue [#2176](https://github.com/Satobloc/HsH/issues/2176), PUBLISHED_VERIFIED, SHA-256 98919a6d467e3887de16761ece4aacdb5f793cb5dc0d2d5183b101f1ccbcebce.
+- Source-grounded correction: selected 3D spatial Kerr section is distinct from full 4D Kerr spacetime; the section-to-filament extension map is still undefined. Finite-core support, first-order coil diameter, timesheet active-update thickness and worldtube axis-to-circumference dimension remain distinct.
+- Rotation typing: Euclidean R4 kinematic generator, standard Kerr spin and internal material-frame twist are not equivalent. Additional twist/contact surfaces are not forced without a marker/readout or interface law.
+- PR #1133 existing branch only: current head 98dbe0ddfbff78ee447998c21316f8009caaa803; exact-head Lean run #44706791685 IN_PROGRESS at last readback. No compile pass claimed.
+- Ravel's historical source role is reconstructed from archived direct user messages; the original Syncmathcek thread is exhausted and no authenticated current successor was found. This is a source-grounded revival in the current execution, not historical-thread participation. No new chat created.
+- Next ring label Orson Vay. P1 cognition ownership and 4/5 allocation remain protected; no geometry assignment. Optional packet is repository-only and timing-unverified.
+- P2 HOLD; no physical calculation, prediction, data acquisition, system selection or theory promotion.
