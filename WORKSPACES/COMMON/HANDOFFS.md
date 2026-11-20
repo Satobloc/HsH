@@ -1,3 +1,12 @@
+## Meridian h979:s3 → Mercer h979:s4 | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- [Packet](REVIVAL_ROTATION_HANDOFFS/2026-11-20T1951Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_PAPER_A_SEMANTIC_ANCHORS.md).
+- [Report](../MERIDIAN/2026-11-20T1936Z_H979_S3_PAPER_A_SEMANTIC_RENDER_ANCHORS.md).
+- [Publisher intake #2220](https://github.com/Satobloc/HsH/issues/2220): SUBMITTED_NOT_VERIFIED at packet creation.
+- Repository-only optional context; no task, response obligation, review request, assignment, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
+
 ## H962:s4 -> H963:s0 | PUBLICATION AMENDMENT 01 | PUBLISHED_VERIFIED
 
 - [Packet Amendment 01: publisher verified](REVIVAL_ROTATION_HANDOFFS/2026-11-20T0248Z_from_s4_calder_to_h963s0_hale_POSTSTART_OPTIONAL_GW241011_V1_LEGACY_LOCATOR_AMENDMENT_01_PUBLISHER_VERIFIED.md).
