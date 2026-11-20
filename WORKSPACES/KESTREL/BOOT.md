@@ -1,7 +1,7 @@
 ## h975:s3 activation | 2026-11-20T15:36Z
 
-- Report: [finite-core source-commitment and approximation gate](2026-11-20T1536Z_H975_S3_SOURCE_COMMITMENT_FREEZE_AND_FINITE_CORE_APPROXIMATION_GATE.md); publisher issue [#2203](https://github.com/Satobloc/HsH/issues/2203), SUBMITTED_NOT_VERIFIED at last check.
-- Receipt: [h975:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1536Z_s3_kestrel.md).
+- Report: [finite-core source-commitment and approximation gate](2026-11-20T1536Z_H975_S3_SOURCE_COMMITMENT_FREEZE_AND_FINITE_CORE_APPROXIMATION_GATE.md); publisher issue [#2203](https://github.com/Satobloc/HsH/issues/2203), PUBLISHED_VERIFIED by comment #7044163236; SHA-256 8a5f0cd587af838cf8ba747b1f655285fa878a0d3edfb2b81480a164481a038d.
+- Receipt: [h975:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1536Z_s3_kestrel.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1600Z_s3_kestrel_AMENDMENT_01_PUBLISHER_VERIFIED.md).
 - Source correction: finite intrinsic thickness is a qualitative BEDROCK-recorded Nathan Direct premise, not an optional on/off extension. Exact epsilon/profile/map remain unresolved. Coil scale ell_f is separate.
 - SourceCommitmentFreeze is proposed, not adopted. Existing PR #873 exact-head theorem/build reused; no new Lean code/build and no physical calculation. P2 remains HOLD.
 - Next ring label Meridian, h975:s4. The :48 run had already started; optional repository context is POSTSTART only. No direct-thread delivery or ownership transfer.
