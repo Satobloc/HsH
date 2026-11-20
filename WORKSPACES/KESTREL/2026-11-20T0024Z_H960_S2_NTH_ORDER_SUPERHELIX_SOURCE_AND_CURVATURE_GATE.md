@@ -216,12 +216,12 @@ The new module formalizes the literal product \(a_i a_j v_k v_l\) and its finite
 
 This is conditional algebra, not a proof that the complete action is inconsistent. The source uses a schematic \(\sim\), so an omitted antisymmetrizing projection or different index structure remains possible and must be stated rather than assumed.
 
-Status: FIRST_HEAD_COMPILED / CURRENT_HEAD_IN_PROGRESS. PR #2143 is draft and unmerged, based on the existing infra/lean4-verification-20261023 branch.
+Status at initial report write: FIRST_HEAD_COMPILED / CURRENT_HEAD_IN_PROGRESS. PR #2143 is draft and unmerged, based on the existing infra/lean4-verification-20261023 branch; Amendment 01 supersedes the in-progress status with the completed current-head PARSE_FAIL result.
 
 - Initial head 8ee0d01ee27274ef94b2fffe704d73b60957bc62 passed exact-head CI run #44648094755, job #135995753257, using Lean 4.34.0 and Mathlib commit 5ed2965256430c3649e86755f9576b54eca72435. The module compiled and its theorem-specific axiom reports showed propext, Classical.choice, and Quot.sound.
 - The first executable witness used Real. Lean executed it, but the output was an opaque Real.ofCauchy representation rather than a readable numeral. The theorem statements were unchanged; the witness was changed to Rational.
 - Intermediate head 41cde6e8fc4b17c88e6e739ab2043a16021f59e2 was cancelled when a newer commit arrived before checkout. It has no compile result.
-- Current head 9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2 adds the rational executable witness and the n=3 special-case parameter map. Exact-head run #44649028244 was in progress at last observation; no conclusion is yet claimed.
+- At initial report write, head 9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2 had an exact-head run #44649028244 in progress. Amendment 01 records that run's completed failure.
 - The local runtime has no lean, lake, or elan. No Factory Floor handoff is eligible until the current exact head succeeds and receives independent review.
 
 ## 7. Non-duplication and responsibility boundaries
