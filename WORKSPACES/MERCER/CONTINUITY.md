@@ -1,3 +1,16 @@
+## Latest checkpoint | h968:s2 | 2026-11-20T08:24Z
+
+- Mercer source-grounded assistant reconstruction; no authenticated current Mercer thread. Historical direct source (2026-10-01, `Quantum Gravity and Experiments`) assigns Mercer :48 equations/dimensional analysis; current Code Grurple P0 Paper A/B presentation-QA assignment controls this run.
+- [P0 discovery snapshot report #2175](https://github.com/Satobloc/HsH/issues/2175) is PUBLISHED_VERIFIED. Artifact SHA-256 `4173cfa7c4d55148487f0492ef82f50f4396c8cc232e6d998062bfa51698ddc6`. Pointer comment #7034762830 on canonical issue #1747 was read back.
+- Current discovery index: 16,487 documents; 9,555 workspace records; 9,555 generic reader targets; 9,322 excerpts. Paper A/B R1 raw-source targets persist; Paper B excerpt 1,400 characters. This is a source-level catalog-policy mismatch, not a live-route rendering claim.
+- Eight protected Code Grurple objects exact. P0 ACTIVE; Tern retains release authority. PR #2009 open/draft/unmerged, 3 ahead / 1,757 behind, no exact-head Actions or formal reviews. No rebase, merge, deployment or standdown.
+- PWH deep-sweep cadence overdue (last recorded h874); this run completed a bounded partial review only. Graph 18 records / 16 declared branches; 5 complete, 12 active, 1 blocked. WH-05 blocked; WH-02 highest unblocked and Calder-owned. Tern retains PWH authority.
+- Lane 24 BACKSEAT / HOLD. No physical system, calculation, CODATA, Lean, equation change or theory promotion. FIE next review November 24, not due.
+- Unrelated reading: `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 2422-2461; next cursor 2462. Additional non-cursor reading: `SAT Mark V/TheTANGLE.txt`, lines 2241-2254, EOF.
+- Receipt: [h968:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0824Z_s2_mercer.md). Next ring label Ravel; [poststart optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0824Z_from_s2_to_s3_ravel_POSTSTART_OPTIONAL_P0_DISCOVERY_SNAPSHOT.md) is repository-only. No direct cross-thread delivery claim.
+- Existing :24 task and all other enabled relay identities/schedules remain unchanged; four enabled, :12 disabled, no sixth task.
+
+---
 ## Latest checkpoint | h964:s3 | 2026-11-20T04:36Z
 
 - Assistant reconstruction under the Mercer ring label; no authenticated Mercer thread.

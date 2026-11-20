@@ -1,3 +1,15 @@
+## Latest checkpoint | h968:s2 | 2026-11-20T08:24Z
+
+- Assistant reconstruction under the Mercer ring label; no authenticated current Mercer thread. Historical direct source is the 2026-10-01 user instruction in `Quantum Gravity and Experiments`; it assigns Mercer :48 equations/dimensional-analysis work. The current Code Grurple P0 Paper A/B presentation-QA assignment controls this run.
+- Current P0 discovery snapshot report: [issue #2175](https://github.com/Satobloc/HsH/issues/2175), PUBLISHED_VERIFIED. Artifact `../COMMON/PUBLISHED_SUBMISSIONS/mercer-h968-s2-p0-discovery-20261120-001.md`; SHA-256 `4173cfa7c4d55148487f0492ef82f50f4396c8cc232e6d998062bfa51698ddc6`. Canonical P0 issue #1747 pointer comment #7034762830 read back.
+- Discovery snapshot: 16,487 docs; 9,555 workspace records and 9,555 generic reader targets; 9,322 workspace excerpts. Paper A/B R1 both have raw-workspace reader targets; Paper B has 1,400 excerpt characters. This is a source/index policy mismatch, not proof of live paper-route rendering.
+- Eight protected Code Grurple source/control objects remain exact. P0 remains ACTIVE; Tern retains release authority. PR #2009 remains open/draft/unmerged, 3 ahead / 1,757 behind, no exact-head Actions or formal reviews. No rebase, merge, route acceptance or standdown.
+- Bounded PWH review found the deep-sweep cadence overdue (last recorded h874); full cross-worker sweep not claimed. Task graph remains 18 records / 16 declared branches. WH-05 blocked, WH-02 highest unblocked and Calder-owned. Tern retains PWH control.
+- Lane 24 remains BACKSEAT / HOLD while P0 is active. No physical system, calculation, CODATA comparison, Lean build, SAT-O/Blockwave change or theory promotion.
+- Receipt: [h968:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0824Z_s2_mercer.md). Next ring label Ravel; [poststart optional context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0824Z_from_s2_to_s3_ravel_POSTSTART_OPTIONAL_P0_DISCOVERY_SNAPSHOT.md) was appended to the existing Ravel inbox. No direct thread delivery, consumption or acknowledgment.
+- :24 task ID, exact hourly schedule, prompt and phase unchanged; four existing relays enabled, :12 disabled, no sixth task.
+
+---
 ## Latest checkpoint | h964:s3 | 2026-11-20T04:36Z
 
 - Assistant reconstruction under the Mercer ring label; no authenticated Mercer thread.
