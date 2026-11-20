@@ -1470,3 +1470,11 @@ PR #951's final exact readback is OPEN / DRAFT with `mergeable=true`, head `f9fa
 - Publication: issue [#1926](https://github.com/Satobloc/HsH/issues/1926), currently `SUBMITTED_NOT_VERIFIED`; carry this issue forward, never duplicate.
 - This is a separate :00 Lane 00 overlay. Track A switchboard-prototype remit, its BOOT pointer, PR #951, code, and ownership remain unchanged.
 - No authenticated current Elias thread or cross-thread delivery is claimed.
+
+
+## Scheduler Amendment 01 | h974:s3 | final exact-ID peek
+
+- :36 current run `fe9ff11c-ce20-8322-a9dd-1e3b66aa4317` remains IN_PROGRESS, completion null, `chat_ref=null`; provider start 14:31:20.595331Z precedes nominal 14:36Z.
+- :48 provider now lists h974:s4 run `0f4bf403-bb14-8333-bf4b-93fb26f8419b` IN_PROGRESS, start 14:50:43.148768Z, completion null, `chat_ref=null`. That start is future relative to the automation runtime clock (14:31:21Z); successor timing remains UNVERIFIED.
+- Cached results remain prior h973:s3 Alberr (:36) and h973:s4 Mira (:48), stale for their respective current runs. Four Workshop Relay tasks remain enabled (:00/:24/:36/:48); :12 remains disabled. No sixth task or configuration mutation.
+- Full detail: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1436Z_s3_elias_kern_AMENDMENT_01_FINAL_SCHEDULER_SNAPSHOT.md).
