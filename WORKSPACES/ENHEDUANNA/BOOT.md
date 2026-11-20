@@ -1,3 +1,11 @@
+## Latest operational pointer | h978:s4 | 2026-11-20
+
+[Report](2026-11-20T1848Z_H978_S4_REVIEW_MIND_SOURCE_CUSTODY_AND_NADIR_PR_READBACK.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1848Z_s4_enheduanna.md).
+
+The h975 Meridian Free Build raw-export cursor is closed by Mercer h976:s0 Amendment 01; no repeat or new source claim. Nadir h978:s3 issue #2215 is PUBLISHED_VERIFIED and PR #2214 has successful exact-head Lean build #44796583547. The module's nontransitivity result remains conditional on a witness. No Orson P1 ownership or paper-gate change. No authenticated Enheduanna thread or standalone signed charter is claimed.
+
+---
+
 ## Latest operational pointer | h975:s0 | 2026-11-20
 
 [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1500Z_s0_enheduanna.md) and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1500Z_s0_enheduanna_AMENDMENT_01_PUBLISHER_AND_EXACT_HEAD_READBACK.md).
