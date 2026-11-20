@@ -129,8 +129,8 @@ def gw241011Gwtc5V2ApiV2EventVersionRecord : ApiObservation :=
     rowCount := 1 }
 
 def HasLegacyProductFor (release : EventRelease) : Prop :=
-  exists product, product in gw241011O4V1LegacyInventory.products
-    and product.eventRelease = release
+  ∃ product, product ∈ gw241011O4V1LegacyInventory.products
+    ∧ product.eventRelease = release
 
 theorem o4v1_legacy_inventory_has_eight_products :
     gw241011O4V1LegacyInventory.products.length = 8 := by
@@ -160,12 +160,12 @@ theorem gwtc5v2_event_version_record_is_present :
     "zero rows from API v2 means this event release has no strain products." -/
 theorem api_v2_zero_rows_do_not_imply_release_wide_product_absence :
     gw241011O4V1ApiV2StrainFiles.rowCount = 0
-      and HasLegacyProductFor .o4DiscoveryPapersV1 := by
+      ∧ HasLegacyProductFor .o4DiscoveryPapersV1 := by
   decide
 
 /-- The v1 legacy inventory is not evidence of a GWTC-5.0 v2 product. -/
 theorem o4v1_legacy_products_do_not_attest_gwtc5v2 :
-    not HasLegacyProductFor .gwtc5V2 := by
+    ¬ HasLegacyProductFor .gwtc5V2 := by
   decide
 
 #eval gw241011O4V1LegacyInventory.products.length
