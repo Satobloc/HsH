@@ -42,13 +42,18 @@ namespace HsHVerification.RavelCarrierSliceReconstruction
 
 universe u v w p
 
-/-- Minimal set-level carrier/timesheet/optional-medium/provenance record.
+/-- Minimal set-level carrier/timesheet/separate-medium-representation/provenance record.
     `core` and `sheets` are support sets in an ambient point type `M`.
-    They are not parametrizations, boundaries, or a smooth/metric structure. -/
+    They are not parametrizations, boundaries, or a smooth/metric structure.
+    The optional `medium` slot records whether a separate medium state is
+    represented. Its absence does not license dropping the current tentative
+    response-mechanism constraint in BEDROCK; this set-level module does not
+    formalize that constraint or its constitutive map. -/
 structure MinimalCarrierReadout (M : Type u) (I : Type v)
     (Medium : Type w) (Provenance : Type p) where
   core : Set M
   sheets : I → Set M
+  /-- Optional separate medium representation; not an optional response constraint. -/
   medium : Option Medium
   provenance : Provenance
 
