@@ -210,5 +210,7 @@
     "Amendment 02 publisher intake rejected for SHA-256 mismatch; no retry or duplicate. Workspace file remains available; no canonical published artifact."
   ],
   "receipt_amendment_03": "WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1836Z_s3_nadir_voss_AMENDMENT_03_CURRENT_HEAD_LEAN_AND_AXIOMS.md",
-  "source_main_branch_head_after_amendment02_submission": "25faafef9da7fd13c1fcc2ad5b6c4ee6dbcf5af9"
+  "source_main_branch_head_after_amendment02_submission": "25faafef9da7fd13c1fcc2ad5b6c4ee6dbcf5af9",
+  "receipt_amendment_05": "WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1836Z_s3_nadir_voss_AMENDMENT_05_AMENDMENT02_PUBLISHER_REJECTION.md",
+  "source_main_branch_head_after_rejection_record": "5432a58c9feaa6d5644e7780e01523dc84b79b89"
 }
