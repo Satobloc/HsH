@@ -18,7 +18,7 @@ Source classes are kept separate:
 
 The primary external source is [arXiv:2604.09828](https://arxiv.org/abs/2604.09828). The existing source-currentness report is [HsH issue #2147](https://github.com/Satobloc/HsH/issues/2147), whose publisher readback is verified. The follow-on Aster QC is [issue #2150](https://github.com/Satobloc/HsH/issues/2150); its publisher attempt was rejected for a SHA mismatch. The rejection was read, and no retry or duplicate submission was made.
 
-The Aster handoff packet at `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0148Z_from_s4_aster_to_h962s0_ariadne_POSTSTART_OPTIONAL_GW241011_PARAMETER_FIBER_QC.md` arrived after this scheduled run had started. It was read as optional context only.
+The Aster handoff packet at \`WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0148Z_from_s4_aster_to_h962s0_ariadne_POSTSTART_OPTIONAL_GW241011_PARAMETER_FIBER_QC.md\` arrived after this scheduled run had started. It was read as optional context only.
 
 ## 2. What the external paper actually models
 
@@ -42,28 +42,28 @@ The paper reports no evidence for deviations from Kerr under the analyzed models
 
 The assistant reconstruction can be written as a parameter-summary map:
 
-[
-Pi:mathbb{R}^{4}ightarrowmathbb{R}^{2},
-qquad
-(deltakappa_1,deltakappa_2,deltalambda_1,deltalambda_2)
-mapsto
-left(
-rac{deltakappa_1+deltakappa_2}{2},
-rac{deltalambda_1+deltalambda_2}{2}
-ight).
-]
+\[
+\Pi:\mathbb{R}^{4}\rightarrow\mathbb{R}^{2},
+\qquad
+(\delta\kappa_1,\delta\kappa_2,\delta\lambda_1,\delta\lambda_2)
+\mapsto
+\left(
+\frac{\delta\kappa_1+\delta\kappa_2}{2},
+\frac{\delta\lambda_1+\delta\lambda_2}{2}
+\right).
+\]
 
 Under this chosen coordinate order, the antisymmetric directions form the kernel:
 
-[
-K=kerPi={(t,-t,s,-s):t,sinmathbb{R}}.
-]
+\[
+K=\ker\Pi=\{(t,-t,s,-s):t,s\in\mathbb{R}\}.
+\]
 
 The vectors in K are kernel vectors, not a fiber. Each fiber is an affine coset:
 
-[
-Pi^{-1}(y)=x+K
-]
+\[
+\Pi^{-1}(y)=x+K
+\]
 
 for any representative x in that fiber.
 
@@ -73,21 +73,21 @@ This is a useful algebraic reconstruction of the symmetric summary. It is not a 
 
 Two related but distinct constructions must not be conflated:
 
-1. The abstract quotient ℝ⁴/K identifies parameter vectors that differ only along the antisymmetric kernel directions. It describes the information collapsed by the summary map Π.
+1. The abstract quotient \(\mathbb{R}^{4}/K\) identifies parameter vectors that differ only along the antisymmetric kernel directions. It describes the information collapsed by the summary map Π.
 2. The paper's condition that the antisymmetric combinations vanish selects the symmetric diagonal slice:
 
-[
-S_{m sym}={deltakappa_1=deltakappa_2,;
-deltalambda_1=deltalambda_2}.
-]
+\[
+S_{\rm sym}=\{\delta\kappa_1=\delta\kappa_2,\;
+\delta\lambda_1=\delta\lambda_2\}.
+\]
 
 The paper's restricted inference is on this slice. It does not thereby assert that the full physical parameter space is a quotient or that the antisymmetric directions are a physical gauge redundancy.
 
 The primary-only model selects a different slice:
 
-[
-S_{m primary}={deltakappa_2=0,;deltalambda_2=0}.
-]
+\[
+S_{\rm primary}=\{\delta\kappa_2=0,\;\delta\lambda_2=0\}.
+\]
 
 This distinction is important. A parameter-summary quotient, a chosen model slice, and a physical equivalence relation are not interchangeable.
 
@@ -97,7 +97,7 @@ The quotient/slice reading is an analytical clarification of the existing assist
 
 The following diagram separates the missing H(s)H bridge from the external paper's parameter reduction and statistical inference:
 
-```text
+\`\`\`text
 H(s)H worldtube(s) + timesheet(s)
               |
               | G_HsH: NOT SPECIFIED
@@ -122,7 +122,7 @@ Waveform model + priors + GW241011 strain likelihood
               |
               v
 Posterior distributions and Bayes factors
-```
+\`\`\`
 
 Three maps remain separate:
 
@@ -166,7 +166,7 @@ A non-injective parameter summary cannot recover distinctions it has collapsed. 
 ## 7. Discrepancy ledger
 
 1. **Parameter map versus physical projection:** Π summarizes parameter coordinates. It is not a geometric projection of worldtubes or a detector readout.
-2. **Kernel versus fiber:** {(t,-t,s,-s)} is the kernel. A fiber is a coset of that kernel.
+2. **Kernel versus fiber:** \(\{(t,-t,s,-s)\}\) is the kernel. A fiber is a coset of that kernel.
 3. **Quotient versus slice:** quotienting by the kernel and restricting to the symmetric diagonal are distinct operations.
 4. **Parameter null direction versus physical gauge:** statistical/model degeneracy does not establish a physical gauge equivalence.
 5. **Equal deviations versus measured equality:** the paper's zero-antisymmetric restriction is a modeling choice, not an observation that the two components have equal multipole deviations.
@@ -180,10 +180,10 @@ A non-injective parameter summary cannot recover distinctions it has collapsed. 
 
 Existing formalization was inspected, not extended.
 
-- [PR #873](https://github.com/Satobloc/HsH/pull/873), head `94b6d96c91806a95505260a3c52220f4af294185`, contains generic projection/fiber results, including `downstream_readout_cannot_restore_coarse_collapsed_pair`.
+- [PR #873](https://github.com/Satobloc/HsH/pull/873), head \`94b6d96c91806a95505260a3c52220f4af294185\`, contains generic projection/fiber results, including \`downstream_readout_cannot_restore_coarse_collapsed_pair\`.
 - Earlier exact-head run #44090154878 succeeded.
 - The latest exact-head run observed, #44483178851, failed. Its jobs endpoint returned zero job records, so the failure stage was not inspectable in this read.
-- The existing module includes `Classical.choose` in a factorization-existence construction. No fresh global axiom audit was performed.
+- The existing module includes \`Classical.choose\` in a factorization-existence construction. No fresh global axiom audit was performed.
 - The generic theorem is conditional and does not instantiate the GW241011 map. The actual Π, quotient/slice interpretation, and H(s)H-to-multipole map have not been formalized in Lean.
 
 No new Lean module or build was made. The current BEDROCK permission gate bars data-free mathematical fixtures/calculations without specific permission. No such permission was supplied, and no measured-system calculation was undertaken.
