@@ -19,7 +19,6 @@ on:
           - nathan_direct
           - mysearch_expedited
 
-# Nathan Direct uses this exclusive group to cancel a current worker execution.
 # Do not use Actions concurrency as the priority supervisor. It cannot distinguish
 # Nathan-vs-Nathan requests and cannot prove worker termination or handoff.
 # Production dispatch must pass through the durable queue/supervisor service.
@@ -60,7 +59,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: Satobloc/HsH
-          ref: mersearch-stable-1.0
+          ref: 89933c358b67ccbfbbaa680aadeb1f35d22d91b2
           path: mersearch
           fetch-depth: 1
 
@@ -128,6 +127,7 @@ jobs:
             'query':os.environ['QUERY'],
             'tool':'Mercer_Searcher_1.0',
             'engine_ref':'mersearch-stable-1.0',
+            'engine_commit':'89933c358b67ccbfbbaa680aadeb1f35d22d91b2',
             'repositories':[
               {'repository':'Satobloc/SAT_THEORY_ARCHIVE_2023-25','commit':git_sha('archive'),'root':'archive/'},
               {'repository':'Satobloc/HsH','commit':git_sha('hsh-main'),'root':'hsh-main/'},
