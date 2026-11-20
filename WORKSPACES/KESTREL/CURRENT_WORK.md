@@ -6,7 +6,7 @@
 - PR #873 exact-head success #44090154878 remains branch-local generic fiber-factorization proof only. No physical map.
 - Report: [h960 source recovery and curvature gate](2026-11-20T0024Z_H960_S2_NTH_ORDER_SUPERHELIX_SOURCE_AND_CURVATURE_GATE.md), Amendment 01. Canonical receipt: [h960:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0024Z_s2_kestrel.md).
 - No public issue, Factory Floor handoff, raw physical data, CODATA comparison, physical calculation, fit, H(s)H prediction, independent measurement, or theory promotion. P2 HOLD. Meridian h960:s3 already completed and published issue #2144; no successor packet or direct-thread delivery claim.
-- No scheduler mutation; existing :24 lease untouched. Fresh live scheduler API readback unavailable, so no new enabled-state verification claim.
+- Live automation readback confirms the existing :24 task ID is enabled with its exact original hourly schedule and unchanged prompt. Current run ID `d0d3f749-e5cc-8332-9f7e-2d7bf12b3b60` is IN_PROGRESS with `chat_ref=null`; latest stored result belongs to prior h959 Elias, not this run. No scheduler mutation.
 
 ---
 
