@@ -335,3 +335,11 @@ Read the h981:s3 receipt and Amendment 01 before continuing. PDR v0.1 is a propo
 - Classification: SAME_RUN_ID_STATUS_REGRESSION_AND_STARTED_AT_MOVEMENT / ATTEMPT_RELATION_UNKNOWN / CAUSE_UNKNOWN / COMPLETION_UNOBSERVED / THREAD_UNBOUND.
 - No retry, restart, task repair or scheduler mutation was attempted.
 - [Receipt Amendment 03](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_03_SAME_RUN_ID_STATUS_REGRESSION.md) and [Amendment 04 correction](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_04_RUN_ID_TRANSCRIPTION_CORRECTION.md).
+
+
+### Correction to h981:s4 scheduler amendments 03–04
+
+The prior SAME_RUN_ID_STATUS_REGRESSION classification was incorrect. The :48 task has two distinct provider run IDs for the same scheduled occurrence:
+- 76a007b9-02a0-8333-bf4b-93fb26f8419b: FAILED, started 21:43:52.765812Z, completed 21:53:02.770015Z.
+- 76a007b9-02a0-8332-9416-0c4466129501: FAILED, started 21:55:33.451398Z, completed 21:56:15.874460Z.
+Both scheduled_for 21:48Z, chat_ref null. Correct classification: SAME_TASK_AND_SCHEDULED_OCCURRENCE_MULTIPLE_RUN_IDS / ATTEMPT_RELATION_UNKNOWN / CAUSE_UNKNOWN / BOTH_OBSERVED_RUNS_FAILED / THREAD_UNBOUND. Amendments 03–04 are superseded on this point by [Amendment 05](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_05_TWO_DISTINCT_RUN_IDS_CORRECTION.md). No retry/replay/duplicate or cause inferred.
