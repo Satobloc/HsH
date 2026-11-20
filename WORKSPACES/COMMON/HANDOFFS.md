@@ -1031,3 +1031,12 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Nadir's additive uncertainty note is in `WORKSPACES/NADIR_VOSS/2026-11-20T0010Z_H959_S3_AMENDMENT_01_OBSERVABLE_SCOPED_UNCERTAINTY.md`.
 - Repository-only optional context; no assignment, response obligation, or ownership transfer.
 
+
+
+## H959:s3 → H959:s4 | Amendment 02 | 2026-11-20T00:11Z
+
+- [Corrected :48 predecessor status and no scheduler linkage](REVIVAL_ROTATION_HANDOFFS/2026-11-19T2336Z_from_s3_nadir_voss_to_s4_enheduanna_AMENDMENT_02_SLOT48_RUN_FAILURE_AND_NO_LINK.md).
+- Active :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with its original schedule; h958:s4 last run FAILED, cause unavailable.
+- No h959:s4 run ID was observed on the :48 task. The Enheduanna h959:s4 receipt is not mapped to it.
+- The alternate ID is inaccessible and is not used. No task state or schedule was changed.
+
