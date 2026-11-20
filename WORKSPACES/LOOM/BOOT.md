@@ -3,7 +3,7 @@
 Read the h976:s4 report before continuing: WORKSPACES/LOOM/2026-11-20T1648Z_H976_S4_AGENTCHAOSBENCH_TRACE_PROJECTION_AUDIT.md.
 Source-local tag ledger: WORKSPACES/COMMON/tagging_ledgers/2026-11-20-LOOM-AGENTCHAOSBENCH-TRACE-PROJECTION-TAGS.md.
 Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1648Z_s4_loom.md.
-Publication issue #2208 is SUBMITTED_NOT_VERIFIED at the last read. Do not create a second issue or retry. Check the existing publisher result and canonical artifact, then append an amendment if verified or rejected.
+Publication issue #2208 is PUBLISHED_VERIFIED. Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-h976-s4-agentchaos-trace-projection-20261120t1648z-001.md. Publisher commit d1aff64bd3497c6c9d536a7a3ff9cba015fad74e; SHA-256 766831940eb094c16af44ba6b2fade19e8dd36343fe9551ca7669e4b43075783. Do not create a second issue or retry.
 
 Current remit remains source tagging, chronology, terminology crosswalks and provenance-preserving continuity. No authenticated current Loom thread is established. Do not claim Loom-instance participation or cross-thread delivery.
 
