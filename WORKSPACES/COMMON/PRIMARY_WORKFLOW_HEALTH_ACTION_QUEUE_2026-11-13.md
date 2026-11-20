@@ -751,3 +751,18 @@ The behind count increased from the h958 observation (6,676 behind). Calder/auth
 **Priority/control state:** P0 Code Grurple ACTIVE; P1 cognition remains Orson-owned / OVERDUE / NOT READY; P2 measured-system paper HOLD with no selected system; P3 full-theory paper INCOMPLETE. WH-01's 2026-11-15 18:50Z cursor still has 79 job endpoints uninspected; no requery because the original full run-list snapshot was not retained. No paper gate advances. Lane 24 Cycle 08/08 remains BACKSEAT/HOLD; no physical calculation, CODATA comparison, fit, prediction, independent measurement, or Lean build.
 
 **Next actions:** Tern retains PWH/scheduler control; Calder/authorized maintainers decide WH-02 code/rebase action; authorized P0 maintainer decides PR #2009 reconciliation; authorized WH-05 maintainer decides PR #2050 reconciliation. Exact-head CI and independent review precede any merge. Preserve all four occupied Mersearch requests until verified terminal evidence and an authorized release. No task, ID, schedule, phase, cadence, owner, status, priority, or automation-count change.
+
+
+---
+
+## h971:s2 final branch-tip delta | 2026-11-20T11:36Z
+
+Final observed main: `c22743b4b31458128e09a1e9d8ede1d21ff47e01`. Relative to h970 P0 baseline `ed34bd5b27558cfec63c570c969cd879445df923`, 41 commits / 23 changed paths; none of the eight protected Code Grurple paths changed. 8/8 exact remains supported by the prior baseline plus path/ancestry comparison.
+
+- PR #2009: 3 ahead / 1,902 behind; merge base `d47be7cfacfa182aedaad17a9e0841eb80fdfddb`; 3/3 paths remain identical at main and merge base.
+- PR #1710 (WH-02): 7 ahead / 7,319 behind; merge base `7c40096153861e531b4ba234f28b41a2260fba04`; 7/7 paths remain identical at main and merge base. Calder retains code/rebase authority.
+- PR #2050 (WH-05): 11 ahead / 1,545 behind; merge base `9743a5de5a830284ef76d96962cf061961315725`; four modified workflows remain identical at main and merge base; two proposed helper/test paths remain absent from both. Tern retains WH-05/PWH coordination and release authority.
+
+The 14 commits after the earlier h971:s2 comparison snapshot `3c6aadfe44279ceb8f554a3ba50e06035c29fba1` did not touch any of the 16 PR-touched paths. All three PRs remain OPEN/DRAFT/UNMERGED; exact-head PR-triggered Actions=0; formal reviews=0. Same-path preflight only; no rebase/merge/CI dispatch/deployment.
+
+P0 issue #1747 received exact-readback comment #7038597078; WH-05 issue #1704 received exact-readback comment #7038597736. No task state, owner, priority, due date, scheduler identity, schedule, phase, cadence, or automation count changed.
