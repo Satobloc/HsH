@@ -223,3 +223,8 @@ No task ID, schedule, prompt, phase, cadence or enabled-state change; no sixth t
 ### Scheduler snapshot Amendment 01
 
 The same-run-ID start-field movement was observed again for both :36 and :48. See [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0636Z_s3_calder_AMENDMENT_01_SECOND_SCHEDULER_SNAPSHOT.md). Both runs remain IN_PROGRESS with null chat_ref; no retry, duplicate, completion or direct-thread delivery is inferred.
+
+
+## Latest continuity pointer | h970:s2 | 2026-11-20
+
+See [CURRENT_WORK.md](CURRENT_WORK.md) and [h970:s2 WH-05/P0/Lane 24 report](2026-11-20T1024Z_H970_S2_WH05_P0_AND_LANE24_READBACK.md). Publisher intake [issue #2182](https://github.com/Satobloc/HsH/issues/2182) is initially SUBMITTED_NOT_VERIFIED; canonical receipt `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1024Z_s2_calder.md`. Lane 24 remains BACKSEAT/HOLD; P0 remains ACTIVE. No physical result, no theory promotion, and no scheduler mutation.
