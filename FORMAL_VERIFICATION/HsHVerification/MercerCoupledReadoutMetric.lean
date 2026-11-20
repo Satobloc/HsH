@@ -58,8 +58,15 @@ theorem jointReadoutDescendsToTubeIff
       (fun p => (observable p, coupling p)) ↔
     ∀ p q, sameTube T S baseOf p q →
       observable p = observable q ∧ coupling p = coupling q
-  exact readout_descends_iff_constant_on_same_tube_fibers
+  have hGeneric := readout_descends_iff_constant_on_same_tube_fibers
     T S baseOf (fun p => (observable p, coupling p))
+  constructor
+  · intro hDesc p q hSame
+    exact Prod.ext_iff.mp (hGeneric.mp hDesc p q hSame)
+  · intro hComponents
+    apply hGeneric.mpr
+    intro p q hSame
+    exact Prod.ext (hComponents p q hSame).1 (hComponents p q hSame).2
 
 /-- Symmetric result for a sheet-only quotient. -/
 theorem jointReadoutDescendsToSheetIff
@@ -74,8 +81,15 @@ theorem jointReadoutDescendsToSheetIff
       (fun p => (observable p, coupling p)) ↔
     ∀ p q, sameSheet T S baseOf p q →
       observable p = observable q ∧ coupling p = coupling q
-  exact readout_descends_iff_constant_on_same_sheet_fibers
+  have hGeneric := readout_descends_iff_constant_on_same_sheet_fibers
     T S baseOf (fun p => (observable p, coupling p))
+  constructor
+  · intro hDesc p q hSame
+    exact Prod.ext_iff.mp (hGeneric.mp hDesc p q hSame)
+  · intro hComponents
+    apply hGeneric.mpr
+    intro p q hSame
+    exact Prod.ext (hComponents p q hSame).1 (hComponents p q hSame).2
 
 /-- A coupling difference on one same-tube fiber blocks deterministic
     tube-only reduction of the joint readout, even if the observable itself
