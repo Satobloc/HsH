@@ -143,9 +143,7 @@ jobs:
       - name: Build established compact receipt
         run: |
           python hsh-main/tools/test_mersearch_compact_receipt.py
-          python hsh-main/tools/mersearch_compact_receipt.py \\
-            --results "mysearch-output/${{ inputs.request_id }}/SEARCH_RESULTS.json" \\
-            --out-dir "mysearch-output/${{ inputs.request_id }}"
+          python hsh-main/tools/mersearch_compact_receipt.py --results "mysearch-output/${{ inputs.request_id }}/SEARCH_RESULTS.json" --out-dir "mysearch-output/${{ inputs.request_id }}"
 
       - name: Upload safe receipt and provenance only
         uses: actions/upload-artifact@v4
