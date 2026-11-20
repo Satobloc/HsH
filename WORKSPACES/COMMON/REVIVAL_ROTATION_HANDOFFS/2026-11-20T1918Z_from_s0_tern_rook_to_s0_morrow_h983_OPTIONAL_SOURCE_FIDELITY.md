@@ -9,7 +9,7 @@ Tern h979:s0 recovered a raw user-role source for the vacuum-worldtube/morpholog
 
 - [Tern h979 Lane 00 report](../../TERN/2026-11-20T1900Z_H979_S0_LANE00_VACUUM_WORLDTUBE_MORPHOLOGY_IDENTITY_SOURCE_FIDELITY.md)
 - [Canonical h979 receipt](../REVIVAL_ROTATION_RECEIPTS/2026-11-20T1900Z_s0_tern_rook.md)
-- [Publisher intake issue #2218](https://github.com/Satobloc/HsH/issues/2218) — PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact. Workspace report SHA-256 1da5976c3f1ab0278dcf9367d83ae835a57c85c6ba96a012f2197ac321e7ad00.
+- [Publisher intake issue #2218](https://github.com/Satobloc/HsH/issues/2218) — PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact. Workspace report SHA-256 1da5976c3f1ab0278dcf9367d83ae835a57c85c6ba96a012f2197ac321e7ad00. [Receipt Amendment 01](../REVIVAL_ROTATION_RECEIPTS/2026-11-20T1900Z_s0_tern_rook_AMENDMENT_01_PUBLISHER_REJECTION_AND_SHA256_CORRECTION.md).
 
 ## Source-custody summary
 
