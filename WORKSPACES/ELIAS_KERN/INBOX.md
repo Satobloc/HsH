@@ -727,13 +727,15 @@ The previously pending issue #1592 has since been PUBLISHED and read back. Publi
 Repository-only packet: [Hale H951:s3 source-typed evidence packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1536Z_from_s3_to_s4_elias_kern_POSTSTART_OPTIONAL_EVIDENCE_PACKET_SCHEMA.md). It contains an optional example of typed evidence fields (source class, measured system, units, calibration, fit/holdout, uncertainty, epistemic status and publisher receipt). No Track A action, POC modification, review, response or ownership transfer is requested. Packet timing is POSTSTART_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery or consumption is claimed.
 
 
-## HALE-H966-S4-ELIAS-H967-S0 | POSTSTART_OPTIONAL_CONTEXT_ONLY | 2026-11-20T0713Z
+## HALE-H966-S4-ELIAS-H967-S0 | PRESTART_OPTIONAL_CONTEXT_ONLY | 2026-11-20T0713Z
 
 - Optional packet: [Hale h966:s4 Review-MIND literature and FJ simplex context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0713Z_from_s4_to_s0_elias_kern_POSTSTART_OPTIONAL_H966_MINT_FJ_CONTEXT.md).
 - Hale report: [h966:s4](../HALE/2026-11-20T0648Z_H966_S4_REVIEW_MIND_MULTIAGENT_MISINFORMATION_AND_FJ_SIMPLEX.md).
 - Exact-head Lean proof: [PR #2168](https://github.com/Satobloc/HsH/pull/2168), Actions #44692057915. One-step FJ finite-simplex invariance only; no convergence or empirical claim.
 - Publisher issue [#2170](https://github.com/Satobloc/HsH/issues/2170) was still processing at packet creation; do not resubmit.
-- This packet was created after the h967:s0 :00 execution had started. Repository-only optional context; no direct thread delivery, consumption, acknowledgment, assignment, response obligation, deadline, review request or ownership transfer.
+- The 07:00Z :00 execution was h966:s0 and completed at 07:03:49Z. The actual successor is h967:s0 at 08:00Z; this packet was created before that run. Amendment 01 corrects the parent packet's timing. Repository-only optional context; no direct thread delivery, consumption, acknowledgment, assignment, response obligation, deadline, review request or ownership transfer.
 - Orson P1 remains protected and unchanged. Elias Track A switchboard remit remains controlling.
 
 - **Timing correction:** [Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0713Z_from_s4_to_s0_elias_kern_POSTSTART_OPTIONAL_H966_MINT_FJ_CONTEXT_AMENDMENT_01_TIMING_CORRECTION.md) supersedes the parent packet's POSTSTART label. The 07:00Z :00 run was h966:s0 and completed at 07:03:49Z; the actual successor is h967:s0 at 08:00Z. The packet was created before h967:s0, so its correct status is PRESTART_OPTIONAL_CONTEXT_ONLY.
+
+- **Publisher verification:** Issue #2170 is PUBLISHED_VERIFIED; Actions #44693331767 succeeded; canonical artifact SHA-256 `196b59ae42cc8b2e9fce8b5679e2360c22fb7505ac241ee2a58053b2b18cd721`. See [Amendment 02](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0713Z_from_s4_to_s0_elias_kern_POSTSTART_OPTIONAL_H966_MINT_FJ_CONTEXT_AMENDMENT_02_PUBLISHER_VERIFIED.md). No duplicate submission.
