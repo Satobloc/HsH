@@ -459,3 +459,17 @@ This was assistant-level work under the deterministic Morrow label, not an authe
 - Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1248Z_s4_morrow.md; amendment 01 verifies publisher readback.
 - Source-inventory snapshot is valid for exact input commits, not current for HsH/Glass main at the readback. WH-03 candidate file presence/metadata crosswalk verified; source-ID/URL recovery remains open.
 - September 13 theory stop remains. No theory integration, physical prediction, fitting, paper work, or BEDROCK promotion.
+
+---
+
+## Latest relay status | Morrow h983:s0 | 2026-11-20T23:00Z
+
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2300Z_s0_morrow.md.
+- Source custody: July 18 2026 worldtube/morphology raw Library source independently checked; two authorized snapshots byte-hashed; a third same-sized copy is not byte-verified. See SOURCE_IDENTITY_GATE.md Layer 13.
+- Geometry fidelity only: earlier 1D filament/time-surface source and later 4D worldtube/morphology source remain unmapped; assistant-added excision, exclusion and framed-embedding constructions remain proposals/proof obligations.
+- Morrow's September 13 theory stop remains active. No theory integration, equation correction, Lean theory proof, physical calculation, prediction, fit, CODATA, paper work or BEDROCK promotion.
+- Tern h979 optional packet consumed as repository context in this scheduled assistant-level run; no authenticated Morrow thread, direct delivery or acknowledgment.
+- Mersearch unavailable; four lanes remain occupied/requested; no request mutation. HSH_RESOURCES root README/metadata only; no payload access.
+- FIE next due November 24; shared unrelated-reading cursor 2281; Okakura cursor 1352.
+- Next ring label Kestrel; :12 is disabled. Next active :00 selection h984 is Orson Vay.
+- Existing relay task configuration unchanged; no sixth task.
