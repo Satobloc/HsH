@@ -1129,3 +1129,10 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - The pinned Morrow/Aldus edit payloads are empty `args.message={}`; the old #689 39/39 edit-payload match is not reproducible. #2171's edit/channel/thread attribution and #2185's provider-state conclusion are corrected additively. Provider acceptance, causal binding, current Slack state and operation count remain unknown.
 - Kestrel's cross-boundary synthesis remit is preserved. Context only; no request to repeat Morrow's audit, no assignment, review, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment.
 - The :48 h971:s4 run was already observed started at 11:46:20.022543Z with `chat_ref=null`; packet is POSTSTART / REPOSITORY_ONLY.
+
+
+### h971:s3 → h971:s4 | Amendment 01 | 2026-11-20T11:55Z
+
+- [Publisher-verified optional-context amendment](REVIVAL_ROTATION_HANDOFFS/2026-11-20T1152Z_from_s3_morrow_to_s4_kestrel_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Correction issue #2186 is PUBLISHED_VERIFIED (comment #7038851479; SHA-256 `d08ba53847309107730af954656a6b776ed810666482c42e2e0b117aa4449120`). Additive comments #7038877008/#7038877497/#7038878031 correct #689/#2171/#2185.
+- Packet remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer.
