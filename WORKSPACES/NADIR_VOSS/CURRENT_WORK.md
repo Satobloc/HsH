@@ -1,3 +1,9 @@
+## Scheduler observation amendment | 2026-11-20T1903Z
+
+The existing h978:s3 provider run ID and scheduled slot were unchanged, but a later scheduler read moved the recorded `started_at` from 18:35:06.675489Z to 19:03:03.180091Z. The 27m56.504602s field movement does not identify an attempt, retry, restart or process state. See [canonical receipt Amendment 06](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1903Z_s3_nadir_voss_AMENDMENT_06_SAME_RUN_ID_START_FIELD_MOVEMENT.md). The h978:s3 research and publisher event was already complete; no duplicate work or submission.
+
+---
+
 ## Latest status | h978:s3 | 2026-11-20T18:36Z
 
 - Parent report [issue #2215](https://github.com/Satobloc/HsH/issues/2215) and Amendment 01 [issue #2216](https://github.com/Satobloc/HsH/issues/2216) are PUBLISHED_VERIFIED.
