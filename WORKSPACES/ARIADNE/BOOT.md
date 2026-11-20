@@ -4,7 +4,7 @@ Read [CURRENT_WORK.md](CURRENT_WORK.md) at its top for the h973 P0 source-integr
 
 Pinned main `fc011e915adf53811b19c8247740a5ffd01083e3`: eight protected Code Grurple objects exact. New discovery blob is identified but unparsed. PR #2009 remains open/draft/unmerged with no exact-head CI or formal review. P0 remains active; no route acceptance or standdown.
 
-This is source-grounded revival under the Ariadne ring label, not authenticated continuation of a live Ariadne ChatGPT thread. Tern retains P0/scheduler authority. The next ring label Alberr has no :12 lease and remains total autonomy/no assignment. No handoff, direct-thread delivery or acknowledgment is claimed.
+Publisher intake #2193 was rejected for `unexpected payload keys`; no artifact, retry or duplicate. See h973 receipt Amendment 01. This is source-grounded revival under the Ariadne ring label, not authenticated continuation of a live Ariadne ChatGPT thread. Tern retains P0/scheduler authority. The next ring label Alberr has no :12 lease and remains total autonomy/no assignment. No handoff, direct-thread delivery or acknowledgment is claimed.
 
 
 ---

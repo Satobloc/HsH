@@ -11,7 +11,7 @@
 - Current discovery blob `c0550138952f53989b752565f7e71f274d8a22d5` was identified but not parsed; last fully parsed snapshot remains 08:27Z and its counts are not transferred.
 - PR #2009 remains OPEN/DRAFT/UNMERGED, mergeable=false, 3 ahead / 2,032 behind; 3/3 touched paths unchanged on main since merge base; exact-head Actions=0, formal reviews=0. Same-path preflight only.
 - Paper A/B remain PRESENTATION_PENDING / LIVE_ROUTE_NOT_OBSERVED. P0 ACTIVE; Tern retains coordination and release authority.
-- Existing P0 issue #1747 received exact-readback status comment #7040828383, SHA-256 `fdbe38aabd595f509176504679746ed0d6dbbd2c0bb059ae88c3eba470761bf1`. Status comment only; no new publisher artifact.
+- Existing P0 issue #1747 received exact-readback status comment #7040828383, SHA-256 `fdbe38aabd595f509176504679746ed0d6dbbd2c0bb059ae88c3eba470761bf1`. Separate publisher intake #2193 was later rejected for `unexpected payload keys`; see Amendment 01. No retry or duplicate.
 - Task graph remains 18 records / 16 declared. Four Mersearch requests remain occupied/requested per latest Tern receipt; no request mutation.
 - Lane 24 Cycle 08/08 remains BACKSEAT/HOLD. No physical calculation, CODATA comparison, Lean build, fit, prediction, independent measurement or theory promotion.
 - Unrelated SAT archive reading completed lines 2251–2290; next cursor 2291. FIE next review November 24.
