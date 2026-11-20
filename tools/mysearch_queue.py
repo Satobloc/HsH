@@ -71,8 +71,12 @@ def create_handoff(c,r,reason,worker=None,partial_manifest=None):
       {"target_class":"mersearch_expedited","reason":reason,"partial_manifest":partial_manifest})
     return payload
 
-def submit(c,requester,lane,query,payload=None,request_id=None):
+def submit(c,requester,lane,query,payload=None,request_id=None,*,risk_acknowledged=False,authorized_nathan=False):
     if lane not in ("nathan_direct","mysearch_expedited"): raise ValueError("submit lane must be nathan_direct or mysearch_expedited")
+    if lane=="mysearch_expedited" and not risk_acknowledged:
+        raise PermissionError("Mysearch expedited submissions require explicit interruption-risk acknowledgement")
+    if lane=="nathan_direct" and not authorized_nathan:
+        raise PermissionError("Nathan Direct priority is reserved for authenticated Nathan chat submissions")
     rid=request_id or str(uuid.uuid4()); p=PRIORITY[lane]; t=now()
     c.execute("BEGIN IMMEDIATE")
     try:
@@ -193,14 +197,14 @@ def acknowledge_handoff(c,rid,receiver_ack):
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument("--db",default="var/mysearch/queue.sqlite")
     sp=ap.add_subparsers(dest="cmd",required=True)
-    s=sp.add_parser("submit"); s.add_argument("--requester",required=True); s.add_argument("--lane",choices=("nathan_direct","mysearch_expedited"),required=True); s.add_argument("--query",required=True); s.add_argument("--payload",default="{}"); s.add_argument("--id")
+    s=sp.add_parser("submit"); s.add_argument("--requester",required=True); s.add_argument("--lane",choices=("nathan_direct","mysearch_expedited"),required=True); s.add_argument("--query",required=True); s.add_argument("--payload",default="{}"); s.add_argument("--id"); s.add_argument("--accept-interruption-risk",action="store_true"); s.add_argument("--trusted-nathan-direct",action="store_true",help="internal trusted-service switch; never expose as a user-controlled API field")
     st=sp.add_parser("status"); st.add_argument("request_id")
     cl=sp.add_parser("claim"); cl.add_argument("--worker",required=True); cl.add_argument("--lease",type=int,default=120)
     ev=sp.add_parser("event"); ev.add_argument("request_id"); ev.add_argument("--state",required=True); ev.add_argument("--worker")
     sp.add_parser("interrupts"); sp.add_parser("handoffs")\n    ha=sp.add_parser("handoff-ack"); ha.add_argument("request_id"); ha.add_argument("--receiver-ack-json",required=True)
     hist=sp.add_parser("history"); hist.add_argument("request_id")
     a=ap.parse_args(); c=connect(a.db)
-    if a.cmd=="submit": out=submit(c,a.requester,a.lane,a.query,json.loads(a.payload),a.id)
+    if a.cmd=="submit": out=submit(c,a.requester,a.lane,a.query,json.loads(a.payload),a.id,risk_acknowledged=a.accept_interruption_risk,authorized_nathan=a.trusted_nathan_direct)
     elif a.cmd=="status": out=receipt(c,a.request_id)
     elif a.cmd=="claim": out=claim(c,a.worker,a.lease)
     elif a.cmd=="event": out=transition(c,a.request_id,a.state,a.worker)
