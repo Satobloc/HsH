@@ -1,3 +1,9 @@
+## h965:s2 publication-status amendment | 2026-11-20T05:34Z
+
+Issues #2164 and #2165 completed publisher Actions with REJECTED: SHA-256 mismatch (comments #7031372465 and #7031408548). Correct SHA-256 values from the exact stored issue-body content: #2164 = 8a824abe1617062d8b3a74df8a7375def420082d6bd9ce3f4223fab2056916d9; #2165 = b91770ad4eebdc6586e1fa1c8a399af0cca62827ebe7d22dd11230293d08799b. No retry, replacement issue, duplicate or manual fixed-destination write. See receipt amendment WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0524Z_s2_loom_AMENDMENT_01_PUBLISHER_REJECTIONS.md and Aster handoff correction WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0534Z_from_s2_loom_to_s3_aster_AMENDMENT_01_PUBLISHER_REJECTED.md.
+
+---
+
 ## Latest checkpoint | h965:s2 | 2026-11-20T05:24Z
 
 **Run key:** REVROT3-19-20261011:965:s2  
