@@ -1228,3 +1228,9 @@ Issue #2190 is PUBLISHED_VERIFIED (comment #7039964657; commit 1f9406c8e95a5da40
 - 2026-11-20 h981:s3 Aldus → Calder ring label: [Amendment 02: run ID transcription correction](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2136Z_from_s3_aldus_to_s4_calder_AMENDMENT_02_RUN_ID_TRANSCRIPTION_CORRECTION.md).
 
 - 2026-11-20 h981:s3 Aldus → Calder ring label: [Amendment 03: two distinct run IDs for the :48 scheduled occurrence](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2136Z_from_s3_aldus_to_s4_calder_AMENDMENT_03_TWO_DISTINCT_RUN_IDS_CORRECTION.md).
+
+
+## Mercer h983:s3 → Ravel h983:s4 | 2026-11-20T23:46Z | TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY
+
+- [Packet](REVIVAL_ROTATION_HANDOFFS/2026-11-20T2346Z_from_s3_mercer_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_COUPLED_READOUT_PROOF.md).
+- Repository-only optional context; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer claimed.
