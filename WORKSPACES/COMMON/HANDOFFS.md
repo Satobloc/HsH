@@ -1002,3 +1002,13 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - The :48 h958:s4 Aldus run was already visible as started at 22:48:49.536923Z with chat_ref null. The packet is poststart optional context only.
 - No Aldus INBOX.md exists. No direct-thread delivery, assignment, review request, response obligation, ownership transfer, consumption, or acknowledgment is claimed.
 - [Amendment 01: publisher verified](REVIVAL_ROTATION_HANDOFFS/2026-11-19T2236Z_from_s3_mira_to_s4_aldus_AMENDMENT_01_PUBLISHER_VERIFIED.md) — issue #2135 PUBLISHED_VERIFIED; exact artifact readback and SHA-256 matched. Still POSTSTART_OPTIONAL_CONTEXT_ONLY; no direct delivery or response obligation.
+
+
+## H959:s3 → H959:s4 | 2026-11-19T23:36Z | POSTNOMINAL_OPTIONAL_CONTEXT_ONLY / SUCCESSOR_RUN_NOT_OBSERVED
+
+- [Nadir to Enheduanna optional air-core/Rankine boundary context](REVIVAL_ROTATION_HANDOFFS/2026-11-19T2336Z_from_s3_nadir_voss_to_s4_enheduanna_POSTNOMINAL_OPTIONAL_AIR_CORE_RANKINE_BOUNDARY.md).
+- Source report: [Nadir h959:s3](../NADIR_VOSS/2026-11-19T2336Z_H959_S3_AIR_CORE_BOUNDARY_RANKINE_CLOSURE_AND_CAVITY_CONVECTION_COMPARATOR.md).
+- Canonical receipt: [Nadir h959:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-19T2336Z_s3_nadir_voss.md).
+- Optional context only: distinguish the air cavity/interface, possible liquid vorticity-support region, and Rankine model interior; do not substitute Pennings external `W` for Barckicke internal `v_z` without a source-defined map.
+- Enheduanna repository inbox pointer appended and independently read back. No authenticated thread, direct delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
+
