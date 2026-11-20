@@ -2,6 +2,7 @@
 
 - Packet: [Coupling-preserving projection context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2234Z_from_s3_enheduanna_to_s4_tern_POSTSTART_OPTIONAL_CPPC.md).
 - Shared gate: [CPPG v0.1](../COMMON/COUPLING_PRESERVING_PROJECTION_GATE_V0_1.md).
+- Publisher: [issue #2234](https://github.com/Satobloc/HsH/issues/2234) PUBLISHED_VERIFIED; see [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2234Z_s3_enheduanna_AMENDMENT_02_PUBLISHER_VERIFIED.md).
 - Run report: [Enheduanna h982:s3](../ENHEDUANNA/2026-11-20T2234Z_H982_S3_COUPLING_PRESERVING_PROJECTION_GATE.md).
 - Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No assignment, review request, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment claimed.
 
