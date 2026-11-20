@@ -1,3 +1,11 @@
+## PUBLICATION STATUS AMENDMENT 01 - Calder h962:s4 -> Hale h963:s0
+
+- [Packet Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0248Z_from_s4_calder_to_h963s0_hale_POSTSTART_OPTIONAL_GW241011_V1_LEGACY_LOCATOR_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- [Canonical published artifact](../COMMON/PUBLISHED_SUBMISSIONS/calder-h962-s4-gw241011-v1-strain-locator-20261120t0248z-001.md); publisher issue [#2155](https://github.com/Satobloc/HsH/issues/2155), confirmation #7029263371, Actions run #44666479854 SUCCESS.
+- SHA-256 `793b4340bcf34d449317509b519e3e2cd7ef2c6bca3b3a9bdbc0488d3321d48b`; canonical artifact and Calder workspace report have identical Git blob and exact content.
+- The parent packet's SUBMITTED_NOT_VERIFIED status is superseded by PUBLISHED_VERIFIED. POSTSTART_OPTIONAL_CONTEXT_ONLY remains unchanged.
+- No assignment, response obligation, review request, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
 ## POSTSTART OPTIONAL CONTEXT - Calder h962:s4 -> Hale h963:s0
 
 - [Optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0248Z_from_s4_calder_to_h963s0_hale_POSTSTART_OPTIONAL_GW241011_V1_LEGACY_LOCATOR.md).
