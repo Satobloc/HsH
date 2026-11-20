@@ -4,23 +4,26 @@
 **Signature:** \`--NM 20NOV26 [OWL]\`
 
 ## Required components
-- Separate Mysearch service identity, code path, queue, workflow group and result namespace.
-- Queue classes: Nathan Direct, explicitly expedited workers, ordinary Mersearch.
-- Durable event ledger with event timestamps; instant status receipt listing all work ahead and Eastern-time presentation.
-- Cooperative preemption, checkpoint/yield, resumable requeue and expedited Mersearch overflow.
+- Separate Mysearch service identity, code path, queue, supervisor, workflow group and result namespace.
+- Priority classes: Nathan Direct, explicitly expedited worker work, Mersearch expedited handoff, ordinary Mersearch batch.
+- Durable event ledger and immediate queue receipts listing every request ahead, each submission/latest-event timestamp, and Eastern-time rendering.
+- Absolute Nathan Direct priority with immediate worker termination; no checkpoint is required before interruption.
+- At-least-once handoff outbox to Mersearch expedited service; immutable request IDs make transfer idempotent.
 - Initial search execution matches pinned stable Mersearch 1.0 and all three permitted source roots.
+- Request-specific scratch directories, partial-output quarantine, cleanup/reconciliation.
 - Indexed service only after equivalence, coverage, privacy and concurrency tests.
 
 ## Build constraints
 - No claim of durability from Actions runner-local SQLite.
-- No hard cancellation before a durable checkpoint and yield acknowledgement.
-- Stable 1.0 is not demonstrated to interrupt mid-scan; first implementation may yield at workflow-stage boundaries.
+- An interrupt request is not confirmed termination; expose both states distinctly.
+- Terminated workers may lose uncheckpointed work. This risk is accepted by non-Nathan Mysearch submitters, who are responsible for precautions and cleanup.
+- Never share mutable working/output files between requests.
 - No repurposing or overwriting active Mersearch request lanes.
 - Preserve expedited class, original submission timestamp, request ID and event history during transfer.
-- Direct chat submission must eventually synchronously create a Mysearch request and return its receipt.
+- Direct chat submission must synchronously create a Mysearch request and return its receipt.
 - Preserve public-result containment; private results use an authorized private delivery route.
 
 ## Current state
-This branch contains the initial queue-engine prototype, tests, and architecture. It does not yet constitute a deployed service, durable multi-runner queue, direct-chat integration, or verified preemptible search engine.
+The branch contains a transactional queue prototype, forced-interruption state, handoff outbox, tests, and architecture/user contract. A process supervisor, persistent multi-runner database, Mersearch handoff receiver, direct-chat integration, and production service are not yet deployed or verified.
 
 --NM 20NOV26 [OWL]
