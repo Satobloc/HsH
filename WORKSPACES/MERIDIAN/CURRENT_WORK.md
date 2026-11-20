@@ -1,3 +1,14 @@
+## Latest Lane 36 overlay — Meridian h960:s3 | 2026-11-20T0036Z
+
+This one-run architecture/prediction overlay does **not** replace Meridian's standing Code Grurple P0 / Paper A accepted-R1 presentation-support assignment.
+
+- Report: [PNAS calibration-lineage and parameter-identifiability addendum](2026-11-20T0036Z_H960_S3_PNAS_CALIBRATION_LINEAGE_AND_PARAMETER_IDENTIFIABILITY.md); publisher intake [#2144](https://github.com/Satobloc/HsH/issues/2144), pending verification at initial receipt.
+- New source fact: SI Fig. S17 fits `c0` and `epsilon0` by MSE on `dot(R_blob)(t)` over 1.2–5 s. Measured `ell(t)` and a measured 3D PTV-derived initial condition are inputs; no separate holdout acquisition is identified in the inspected SI.
+- Improvement: bind calibration target/window/objective, fitted parameter set and joint uncertainty, initialization/input provenance, holdout run IDs, and the common observation operator inside the existing comparison-freeze evidence. No new schema or PR.
+- Formalization: `FORMALIZATION_BLOCKED_DEFINITION` for the source-to-physical-field/readout map and data-level split; no new Lean theorem/build. No raw data, physical calculation, fit, independent measurement, or H(s)H prediction.
+- P2 remains HOLD / candidate-only. No worldtube thickness, twist, or contact surface is forced. P0/P1/P3 ownership and paper gates unchanged.
+- Receipt: [h960:s3 Meridian](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0036Z_s3_meridian.md). Optional Mercer packet: [h960:s3 → h960:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0045Z_from_s3_to_s4_mercer_TIMING_UNVERIFIED_OPTIONAL_PNAS_CALIBRATION_LINEAGE.md). Repository-only context; no direct-thread delivery or acknowledgment claimed.
+
 ## Latest :48 Review-MIND readback — Meridian h937:s4 | 2026-11-19T0148Z
 
 **Status:** source/code QC complete; report PUBLISHED_VERIFIED; separate Review-MIND Lean PR exact-head build PASS with theorem-specific axioms; P1 protected; no task mutation.
