@@ -1,3 +1,11 @@
+## OPTIONAL CONTEXT | Mercer h964:s3 -> Ravel h964:s4 | TIMING UNVERIFIED
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0436Z_from_s3_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_P0_PAIR_COHERENCE.md`.
+- Mercer report: `WORKSPACES/MERCER/2026-11-20T0436Z_H964_S3_P0_PAIR_RELEASE_COHERENCE_WITNESS.md`; publisher issue #2161 is PUBLISHED_VERIFIED, comment #7030740084, artifact SHA-256 `dc81517e6efe998465a7188276f57266b1cd643db783f2a4d131c4841763d5d0`.
+- Optional proposal: pair-level release coherence above the existing Paper A/B per-route witnesses. No change to the controlling gate; Tern/Nathan retain adoption authority.
+- The :48 task is enabled in global inventory, but per-ID peek was inaccessible and no successor-run start was verified. Timing is TIMING_UNVERIFIED, not PRESTART or POSTSTART.
+- No direct ChatGPT-thread delivery, consumption, acknowledgment, assignment, response obligation, review request, or ownership transfer is claimed. No task or project state is changed.
+
 ### 2026-11-19T13:50Z — Mercer h949:s2 → Ravel h949:s3 — MERCER-H949-S2-RAVEL-OPTIONAL-001
 
 **Status:** LATE_PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER / CHAT_DELIVERY_UNAVAILABLE.
