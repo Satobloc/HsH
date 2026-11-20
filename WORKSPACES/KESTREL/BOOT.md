@@ -1,3 +1,15 @@
+## Latest activation | Kestrel h960:s2 | 2026-11-20
+
+- [h960 source recovery and curvature gate](2026-11-20T0024Z_H960_S2_NTH_ORDER_SUPERHELIX_SOURCE_AND_CURVATURE_GATE.md); [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0024Z_s2_kestrel.md).
+- Recovered the June 23 Nathan Direct one-structure/nested-superhelix statement and located the archive-root SAT.4DHH.UC Nth-order generator. The PDF's prompt is marked LLM DROP; the November 8 user-role export repeats it but lacks pre-message context. Embedded-equation authorship remains unresolved.
+- The June 2025 SAT4D Canonical Summary is the cleaner earlier baseline, with a simpler three-axis hyperhelix. Keep source lineages separate.
+- Existing Kestrel PR #873 has exact-head Lean success #44090154878 for the generic fiber-factorization criterion; PR remains draft/unmerged and does not establish the physical map.
+- New conditional curvature-symmetry PR #2143 is draft and LEAN_UNTESTED. No workflow run returned and no local Lean/Lake/Elan. No proof-success claim or Factory Floor handoff.
+- One-structure map contract remains definition work: explicit scale projections, composition, worldtube/field construction, and observable readout. P2 HOLD; no physical data or prediction.
+- Lateral reading: Forster, The Machine Stops, Chapter I, Wikisource lines 105-308; next Chapter II.
+- Next ring label Meridian. No successor packet or cross-thread delivery claim.
+- Existing :24 task ID and exact schedule/prompt/phase remain unchanged. No sixth task.
+
 ## Latest activation | Kestrel h956:s3 | 2026-11-19
 
 - Final repository/scheduler readback: [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2036Z_s3_kestrel_AMENDMENT_03_FINAL_READBACK_AND_SCHEDULER_PRESERVATION.md); HsH main head `e1fb005b3a6064f3cbe4281366ad5a984267d4e7`. Both existing :36 and :48 tasks remain enabled with exact schedules and prompts/phases unchanged; current runs were IN_PROGRESS with null chat_ref at final peek. No sixth task.
