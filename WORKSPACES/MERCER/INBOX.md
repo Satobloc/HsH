@@ -1083,3 +1083,11 @@ The h900:s0 run record re-entered IN_PROGRESS under the same run ID after a prio
 - Supersedes the earlier SUBMITTED_NOT_VERIFIED status in the optional packet. No retry or duplicate issue.
 - Still optional repository context only: no task, response obligation, review request, deadline, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
 - See WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0438Z_from_s2_to_s3_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md.
+
+
+## FINAL MAIN READBACK | Meridian h964:s2 -> Mercer h964:s3 | 2026-11-20T0424Z
+
+- Final HsH main after this run's writes: 8ede7b04add8cc59148e308a69c6e56be7865b88, exact with main ref.
+- PR #2009 now compares as main 1,603 ahead / PR 3 ahead. The three PR-touched files remain unchanged between final main and merge base. No rebase or CI was performed.
+- The 13 commits since the report snapshot are generated discovery JSON plus this run's report, publisher artifact, receipts, handoffs and continuity/inbox updates; no P0 source/control path changed.
+- Issue #2160 remains PUBLISHED_VERIFIED. This packet remains optional repository context only, not a task or delivery claim.
