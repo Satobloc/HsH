@@ -305,3 +305,10 @@ Read the latest h871:s2 section of [CURRENT_WORK.md](CURRENT_WORK.md) before any
 - Publisher issue #2212 is SUBMITTED_NOT_VERIFIED; no retry or duplicate issue. Confirm publisher comment and canonical artifact before amending.
 - Next ring label: Calder, h978:s0. Optional prestart packet is in Calder's INBOX; no direct-thread delivery or acknowledgment is claimed.
 - Attribution remains assistant-level; no authenticated current Aldus thread is established.
+
+
+### Publication verification amendment | h977:s4
+
+- Report [issue #2212](https://github.com/Satobloc/HsH/issues/2212) is now **PUBLISHED_VERIFIED** (publisher comment #7046858151; canonical artifact SHA-256 `0f89ec0d70e951210e21e678fcbf449085b4bb87e3735c7e8095ce7137a3534a`).
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1748Z_s4_aldus_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) records exact artifact readback.
+- [Calder handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1748Z_from_s4_aldus_to_h978s0_calder_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) updates the optional packet's publication status.
