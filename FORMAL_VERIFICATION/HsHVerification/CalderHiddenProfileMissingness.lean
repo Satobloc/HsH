@@ -56,10 +56,10 @@ theorem binary_missingness_rate_bounds
       (observedSuccesses + (planned - observed) : ℚ) := by
     exact_mod_cast hHighNat
   constructor
+  · exact div_le_div_of_nonneg_right hLow hDen
   · constructor
-    · exact div_le_div_of_nonneg_right hLow hDen
     · exact div_le_div_of_nonneg_right hHigh hDen
-  · exact hTotal
+    · exact hTotal
 
 /-- Source-derived instantiation: 0 observed successes in 5 observed
     sessions, with 10 of 15 planned sessions unobserved. -/
