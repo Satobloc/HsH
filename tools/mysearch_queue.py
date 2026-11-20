@@ -171,6 +171,25 @@ def handoff_outbox(c):
     return [dict(x) for x in c.execute("""SELECT handoff_id,request_id,target_class,payload_json,created_at_utc
       FROM handoff_outbox WHERE delivered_at_utc IS NULL ORDER BY handoff_id""")]
 
+def acknowledge_handoff(c,rid,receiver_ack):
+    c.execute("BEGIN IMMEDIATE")
+    try:
+        h=c.execute("SELECT * FROM handoff_outbox WHERE request_id=?",(rid,)).fetchone()
+        r=c.execute("SELECT state FROM requests WHERE request_id=?",(rid,)).fetchone()
+        if not h or not r: raise KeyError(rid)
+        if h["delivered_at_utc"]:
+            c.execute("COMMIT")
+            return receipt(c,rid)
+        t=now()
+        ack=json.dumps(receiver_ack,ensure_ascii=False)
+        c.execute("UPDATE handoff_outbox SET delivered_at_utc=?,ack_json=? WHERE request_id=?",(t,ack,rid))
+        c.execute("UPDATE requests SET state='HANDOFF_ACCEPTED',updated_at_utc=? WHERE request_id=?",(t,rid))
+        add_event(c,rid,"HANDOFF_ACCEPTED",r["state"],"HANDOFF_ACCEPTED",detail={"target_class":"mersearch_expedited","receiver_ack":receiver_ack})
+        c.execute("COMMIT")
+    except:
+        c.execute("ROLLBACK"); raise
+    return receipt(c,rid)
+
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument("--db",default="var/mysearch/queue.sqlite")
     sp=ap.add_subparsers(dest="cmd",required=True)
@@ -178,7 +197,7 @@ def main():
     st=sp.add_parser("status"); st.add_argument("request_id")
     cl=sp.add_parser("claim"); cl.add_argument("--worker",required=True); cl.add_argument("--lease",type=int,default=120)
     ev=sp.add_parser("event"); ev.add_argument("request_id"); ev.add_argument("--state",required=True); ev.add_argument("--worker")
-    sp.add_parser("interrupts"); sp.add_parser("handoffs")
+    sp.add_parser("interrupts"); sp.add_parser("handoffs")\n    ha=sp.add_parser("handoff-ack"); ha.add_argument("request_id"); ha.add_argument("--receiver-ack-json",required=True)
     hist=sp.add_parser("history"); hist.add_argument("request_id")
     a=ap.parse_args(); c=connect(a.db)
     if a.cmd=="submit": out=submit(c,a.requester,a.lane,a.query,json.loads(a.payload),a.id)
