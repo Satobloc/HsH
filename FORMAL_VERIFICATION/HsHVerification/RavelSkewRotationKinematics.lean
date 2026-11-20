@@ -26,23 +26,29 @@ abbrev Matrix4 := Matrix Index Index ℝ
 
 /-- Two equal planar rotation blocks in four real coordinates. -/
 def rotationMatrix (frequency : ℝ) : Matrix4 :=
-  !![0, -frequency, 0, 0;
-     frequency, 0, 0, 0;
-     0, 0, 0, -frequency;
-     0, 0, frequency, 0]
+  fun i j =>
+    if i = 0 then
+      if j = 1 then -frequency else 0
+    else if i = 1 then
+      if j = 0 then frequency else 0
+    else if i = 2 then
+      if j = 3 then -frequency else 0
+    else if i = 3 then
+      if j = 2 then frequency else 0
+    else 0
 
 /-- The source example's generator is skew-symmetric. -/
 theorem rotationMatrix_skew (frequency : ℝ) :
     Matrix.transpose (rotationMatrix frequency) = -rotationMatrix frequency := by
   ext i j
-  fin_cases i <;> fin_cases j <;> simp [rotationMatrix, Matrix.vecCons]
+  fin_cases i <;> fin_cases j <;> simp [rotationMatrix]
 
 /-- Squaring the generator gives -frequency^2 times the identity. -/
 theorem rotationMatrix_sq (frequency : ℝ) :
     rotationMatrix frequency * rotationMatrix frequency =
       -(frequency ^ 2) • (1 : Matrix4) := by
   ext i j
-  fin_cases i <;> fin_cases j <;> simp [rotationMatrix, Matrix.mul_apply, Finset.sum_fin_eq_sum_range, Finset.sum_range_succ, Matrix.vecCons] <;> ring_nf
+  fin_cases i <;> fin_cases j <;> norm_num [rotationMatrix, Matrix.mul_apply, Finset.sum_fin_eq_sum_range, Finset.sum_range_succ] <;> ring_nf
 
 /-- Algebraic divergence of the linear velocity field x ↦ Ωx, equal to tr Ω. -/
 def linearExpansion (frequency : ℝ) : ℝ :=
