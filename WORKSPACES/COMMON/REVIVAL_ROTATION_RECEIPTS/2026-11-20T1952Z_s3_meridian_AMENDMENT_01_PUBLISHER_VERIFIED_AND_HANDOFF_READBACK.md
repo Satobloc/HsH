@@ -2,7 +2,7 @@
 
 **Amends:** [canonical h979:s3 receipt](2026-11-20T1936Z_s3_meridian.md)  
 **Run key:** `REVROT3-19-20261011:979:s3`  
-**Final main head:** `be1c4255f6b1d74c9e3171bcd9b9737db68b909b`
+**Main head at the 19:51:51Z scheduler/thread snapshot:** `be1c4255f6b1d74c9e3171bcd9b9737db68b909b`. Later main commits refreshed the public display docket/artwork and appended Meridian continuity; the protected Paper A/B source/control blobs were re-fetched and remained unchanged.
 
 ## 1. Publisher resolution
 
