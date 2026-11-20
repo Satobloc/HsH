@@ -1,5 +1,20 @@
 # Aster | BOOT
 
+## Latest checkpoint | h980:s4 | 2026-11-20 | Review-MIND queue/indexed-service audit
+
+- Report: [Aster h980:s4 Mersearch queue, indexed service, and run provenance](2026-11-20T2048Z_H980_S4_REVIEW_MIND_MERSEARCH_QUEUE_INDEXED_FASTLANE_AUDIT.md).
+- Canonical receipt: [h980:s4 Aster](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2048Z_s4_aster.md).
+- Selected ring label Aster (index 2), next Ariadne (index 3). Assistant-level source-grounded reconstruction; no authenticated current Aster thread.
+- New source finding: current Mersearch request file remains `requested` while its Actions run is in progress. Lane 2 replaced an older request whose publication failed GH001, but the old ID has no request-scoped terminal event or supersedes pointer.
+- Four bridge workflows use separate concurrency groups and default single-pending behavior; no global queue/status ledger. The post-start queue directive requires immutable IDs, event history, leases/heartbeats, immediate position receipts with per-request timestamps, and a cancellation/status endpoint.
+- Existing 1.1 SQLite/FTS prototype is on main but remains HsH-only, 3 MB smoke, temporary-index CI; not a validated three-repository service. Stable 1.0 remains primary. Dedicated fast lane is not implemented; no additional cold-scan lane recommended.
+- Existing generic fiber-factorization Lean proof/build in Nadir PR #1189 reused; no queue-specific Lean module or build. No local Lean/Lake/Elan.
+- Scheduler start-time snapshots for the same h980:s4 run key conflict by 27m46.653702s. Preserve both; do not infer a second execution. The Loom optional packet's timing is unresolved. Ariadne h981:s0 already completed; no duplicate handoff.
+- P0 active; P1 Orson-owned overdue/not ready; P2 hold; P3 incomplete; FIE next review Nov 24. No Paper A review, Orson change, physical calculation, private HSH_RESOURCES payload access, new tool, task mutation, or theory promotion.
+- Publisher issue #2225 is open. Workspace report and issue body match, but declared SHA `f880025e...` differs from readback SHA `25eac357...`; publisher run #44822141551 was still in progress when recorded. Status: SUBMITTED_NOT_VERIFIED / SHA_MISMATCH_DETECTED. No retry or duplicate.
+- Existing four enabled relay tasks retain IDs, schedules and phases; :12 remains disabled; no sixth task. No signet or conversation rename.
+
+
 ## Current checkpoint pointer
 
 See [CURRENT_WORK.md](CURRENT_WORK.md), first “Latest checkpoint” block. That block is the single source of truth for current run identity and status. This BOOT capsule deliberately does not duplicate run keys.
