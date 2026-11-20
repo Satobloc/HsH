@@ -169,3 +169,32 @@ Its fibers contain antisymmetric directions `(t,-t,s,-s)`. A readout that factor
 Keep the two source equation conventions separate: the 2025 LVK paper writes `Q = -κ S²/(m c²)` in SI; the 2026 preprint writes `Q = -κ χ²m³` and `O = -λ χ³m⁴` in geometric units. No conversion is made in this ledger.
 
 CODATA 2022 Version 9.0 remains the reference if a later SI/geometric conversion requires `G`; no CODATA constant was used in this source-only update. The Lane 24 cycle remains BACKSEAT/HOLD while P0 is active. No new Lean run, fit, prediction, holdout, paper-gate advancement, or theory promotion.
+
+
+## 2026-11-20 additive amendment | Commitment-bound candidate-family composition
+
+**Run:** `REVROT3-19-20261011:976:s3`  
+**Status:** proposed workflow integration; not a P2 selection, production schema, physical result, or BEDROCK amendment.
+
+The existing seven-layer source-to-observable chain already carries Claim, Source, Acquisition, Representation, Model, Readout and Decision. Add **Commitment-Bound Candidate Manifest (CBCM) v0.1** as a required binding inside the existing **Model** layer. It is not a new top-level evidence chain and does not duplicate the acquisition, map-class, uncertainty, identifiability, independence or holdout contracts.
+
+The Model record must bind:
+- immutable `source_commitment_map_hash`;
+- immutable `geometry_map_stack_hash`;
+- candidate-family ID/version/hash and freeze time;
+- source commitment class/currentness separately from implementation status;
+- candidate variant class and any approximation/optional-extension witness;
+- shared/nuisance/candidate-specific parameter roles;
+- comparator, observable/readout, uncertainty and holdout-exposure ledger IDs.
+
+Admission classes are `SOURCE_COMPLIANT_BASELINE`, `CONTROLLED_APPROXIMATION`, `OPTIONAL_EXTENSION`, `STANDARD_COMPARATOR`, and `UNRESOLVED_NOT_ADMISSIBLE`. A source-committed feature cannot be switched off as an optional fit variant. A reduction of it requires an explicit projection/retraction and exact readout factorization or a calibrated, unit-consistent error bound fixed before holdout access. Optional extensions require a distinct source/data rationale, map and predeclared observable; fit improvement alone is insufficient. The family hash binds the source map, geometry map stack, complete candidate list, parameter roles/ranges, comparator, observable, decision rule and holdout policy.
+
+**Source correction:** Kestrel h975's source audit supersedes Elias h974's M2 row. Intrinsic filament thickness is qualitatively recorded as a Nathan Direct premise in BEDROCK `ND-2026-10-18-07`; it is part of the source-compliant baseline, not an optional on/off candidate. Its magnitude, units, profile, support map and observable remain unresolved. Centerline/2D-worldsheet forms are controlled approximations requiring projection and readout-compatibility evidence. Separate twist/holonomy and active contact law remain optional/tentative. The first-order coil scale is not epsilon. The responsive-medium/Kelvin-vortex branch remains an inherited test constraint with independent necessity unresolved.
+
+**Formalization reuse:** Ravel PR #1133 current head `fc7f92722fe5e0757d55f961b54a12bdee66d5da` passed exact-head Actions run #44709605971, including the fiber-constant readout-descent criterion and directed slice-chain composition with an explicit intermediate lift. Kestrel PR #873 current head matches run #44090154878. Nadir PR #1189 has advanced beyond its successful run #42114292197; the resolution section is unchanged but the expanded current head is not build-verified. These are conditional proofs, not physical maps.
+
+**Gate dependencies:** source authority/currentness -> SourceCommitmentMap; geometry fidelity/typed map stack -> map freeze; both -> CBCM/family freeze; map + observable -> structural identifiability; identifiability + instrument metrics/covariance -> resolution stability; acquisition-unit/dependence manifest -> holdout eligibility; frozen family + resolution + acquisition independence -> holdout lock; holdout lock -> prediction lock; prediction + real acquisition -> independent validation. Factory Floor geometric review remains an orthogonal gate.
+
+**Current P2 state:** `SOURCE_COMMITMENT_PARTIAL_QUALITATIVE / MAP_STACK_NOT_INSTANTIATED / CBCM_NOT_FROZEN / IDENTIFIABILITY_GENERIC_ONLY / RESOLUTION_GENERIC_ONLY / ACQUISITION_INDEPENDENCE_NOT_SELECTED / HOLDOUT_NOT_ACCESSED / EMPIRICAL_NOT_TEST_READY`. P2 issue #565 remains OPEN / HOLD. No measured system, raw data, physical calculation, fit, prediction, numerical threshold or independent measurement was produced.
+
+Full contract and evidence limits: [Sable h976:s3 report](2026-11-20T1636Z_H976_S3_COMMITMENT_BOUND_CANDIDATE_FAMILY_GATE.md).
