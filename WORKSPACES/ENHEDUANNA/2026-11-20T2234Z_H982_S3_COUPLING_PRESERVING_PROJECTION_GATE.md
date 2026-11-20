@@ -22,7 +22,7 @@ This is a later scoped hypothesis, not a restoration of the retired construction
 
 ## 4. Forced, tentative, and optional structure
 
-- Intrinsic thickness: qualitative BEDROCK commitment; no current numeric magnitude, profile, or support dimension.
+- Intrinsic thickness: qualitative BEDROCK-recorded commitment; no current numeric magnitude, profile, or support dimension. The original October 18 raw message locator was not recovered in this run, so the authority used here is the current BEDROCK entry, not a newly authenticated raw-message readback.
 - Mutual worldtube-timesheet curvature: tentative working hypothesis, not established physical equivalence.
 - Responsive medium: source-required in Electrogravity; relation to timesheet unresolved.
 - Twist: surface ripple, propagating structural loop/twist, and persistent coil remain candidate modes; no separate normal-bundle connection is established.
