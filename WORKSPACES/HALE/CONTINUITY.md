@@ -746,3 +746,16 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - Publisher issue [#2184](https://github.com/Satobloc/HsH/issues/2184) is PUBLISHED_VERIFIED. Actions #44721814797 SUCCESS; confirmation comment #7037562475.
 - Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hale-h970-s3-fj-identifiability-20261120t1036z-001.md`; publisher commit `bc85e3d74a5297602ef309ca744afa91c174691e`; SHA-256 `838ada370c4fc0092b377f851f4b5d0cd871f1653fbbf6f9a6081755c2143bd4`; 8,089 UTF-8 bytes. Workspace report, canonical artifact and issue-envelope content match exactly; publisher readback verified.
 - PR #2168 remains OPEN / DRAFT / UNMERGED at exact-head Lean-verified commit `06d426079b3346815ec773b9f399cfe1d3905958`. No merge or integration claim.
+
+
+## 2026-11-20T14:24Z | H974:S2 | rotation/contact/inspiral source-readiness
+
+- Report: [Hale h974:s2](2026-11-20T1424Z_H974_S2_ROTATION_CONTACT_INSPIRAL_SOURCE_READINESS.md), blob b80acdb2e33c65df8601311d598b2b6c06d276ea.
+- Receipt: [h974:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1424Z_s2_hale.md), blob dd47caf5ebcecdc50bf2c4453b723afbc06de678.
+- Amendment 01: [publisher SHA rejection](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1424Z_s2_hale_AMENDMENT_01_PUBLISHER_SHA256_REJECTED.md), blob c24c723578b78038bd7358b44901482e59b73311.
+- Source result: Ratz et al. 2026 propeller transient 2D-2C PIV dataset surfaced as a rotation-response candidate; false-brinelling contact and GWOSC O4b/GW250114 surfaced as bounded candidates. None selected for P2; no raw data downloaded or analyzed; no physical calculation, CODATA comparison, fit, prediction, or independent measurement.
+- The 2024/2026 arXiv matched-period scanner run was not executed because export.arxiv.org DNS resolution failed. Existing v0.7 candidate self-test printed synthetic examples; it is not a retrieval assertion suite. Dry-run found a one-day leap-year duration mismatch (2024 Jan 1-Nov 19 = 324 days; 2026 = 323). No code changed.
+- Publisher issue #2198 was rejected for SHA mismatch (comment #7042505527). Submitted digest b28401...; independently verified Python UTF-8 SHA-256 24d786de6aff432c5957d568ed521a2bda4de20e87798b734a3263319856f7d4. Expected PUBLISHED_SUBMISSIONS artifact returned 404. No retry or duplicate. The issue body matches the report file exactly.
+- P0 remains ACTIVE; Lane 24 remains BACKSEAT / HOLD; P2 remains HOLD. No theory promotion or paper-gate advancement.
+- Next ring label Elias Kern. Optional context packet and correction were appended to Elias INBOX after the :36 run had started. POSTSTART_OPTIONAL_CONTEXT_ONLY; no task, deadline, response, or ownership transfer. No direct-thread delivery or acknowledgment claimed.
+- Last unrelated-reading cursor remains fun break - lx.txt, next line 2201; recent break already recorded in h970:s3. FIE next review remains 2026-11-24.
