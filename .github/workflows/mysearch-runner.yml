@@ -1,0 +1,157 @@
+name: Mysearch Search Runner
+
+on:
+  workflow_dispatch:
+    inputs:
+      request_id:
+        description: Immutable Mysearch request ID
+        required: true
+        type: string
+      query:
+        description: Mersearch 1.0 query expression
+        required: true
+        type: string
+      service_class:
+        description: Authenticated service class
+        required: true
+        type: choice
+        options:
+          - nathan_direct
+          - mysearch_expedited
+
+# Do not use Actions concurrency as the priority supervisor. It cannot distinguish
+# Nathan-vs-Nathan requests and cannot prove worker termination or handoff.
+# Production dispatch must pass through the durable queue/supervisor service.
+
+permissions:
+  contents: read
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Validate request and class
+        env:
+          REQUEST_ID: ${{ inputs.request_id }}
+          QUERY: ${{ inputs.query }}
+          SERVICE_CLASS: ${{ inputs.service_class }}
+        run: |
+          python - <<'PY'
+          import os,re
+          rid=os.environ['REQUEST_ID']
+          q=os.environ['QUERY']
+          cls=os.environ['SERVICE_CLASS']
+          if not re.fullmatch(r'[A-Za-z0-9._-]{1,120}',rid):
+              raise SystemExit('invalid request ID')
+          if not q.strip(): raise SystemExit('query must not be empty')
+          if cls not in ('nathan_direct','mysearch_expedited'): raise SystemExit('invalid service class')
+          PY
+
+      - name: Checkout Mysearch request branch
+        uses: actions/checkout@v4
+        with:
+          ref: mysearch
+          path: hsh-main
+          fetch-depth: 1
+
+      - name: Checkout pinned Mersearch 1.0
+        uses: actions/checkout@v4
+        with:
+          repository: Satobloc/HsH
+          ref: 89933c358b67ccbfbbaa680aadeb1f35d22d91b2
+          path: mersearch
+          fetch-depth: 1
+
+      - name: Checkout original SAT archive
+        uses: actions/checkout@v4
+        with:
+          repository: Satobloc/SAT_THEORY_ARCHIVE_2023-25
+          path: archive
+          fetch-depth: 1
+
+      - name: Checkout HSH_RESOURCES
+        uses: actions/checkout@v4
+        with:
+          repository: Satobloc/HSH_RESOURCES
+          path: resources
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Execute stable three-repository search
+        env:
+          REQUEST_ID: ${{ inputs.request_id }}
+          QUERY: ${{ inputs.query }}
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib,re
+          p=Path('mersearch/tools/search_archive_content.py')
+          src=p.read_text(encoding='utf-8')
+          hotfix=False
+          if not re.search(r'^TOOL_NAME\s*=',src,flags=re.M):
+              marker='TEXT_EXTS='
+              if marker not in src: raise SystemExit('stable identity hotfix anchor not found')
+              src=src.replace(marker,'TOOL_NAME="Mercer_Searcher_1.0"\nTOOL_VERSION="1.0"\n'+marker,1)
+              hotfix=True
+          runtime=Path('/tmp/mysearch-mersearch-runtime.py')
+          runtime.write_text(src,encoding='utf-8')
+          print('stable_script_sha256='+hashlib.sha256(p.read_bytes()).hexdigest())
+          print('runtime_script_sha256='+hashlib.sha256(runtime.read_bytes()).hexdigest())
+          print('identity_hotfix_applied='+str(hotfix).lower())
+          PY
+          mkdir -p "mysearch-output/${REQUEST_ID}"
+          python /tmp/mysearch-mersearch-runtime.py archive hsh-main resources --expr "$QUERY" --sort date --exclude mersearch_requests --out "mysearch-output/${REQUEST_ID}"
+          test -s "mysearch-output/${REQUEST_ID}/SEARCH_RESULTS.json"
+          test -s "mysearch-output/${REQUEST_ID}/SEARCH_RESULTS.md"
+
+      - name: Build provenance manifest
+        env:
+          REQUEST_ID: ${{ inputs.request_id }}
+          QUERY: ${{ inputs.query }}
+          SERVICE_CLASS: ${{ inputs.service_class }}
+        run: |
+          python - <<'PY'
+          import hashlib,json,os,subprocess
+          from pathlib import Path
+          from datetime import datetime,timezone
+          out=Path('mysearch-output')/os.environ['REQUEST_ID']
+          def git_sha(p): return subprocess.check_output(['git','-C',p,'rev-parse','HEAD'],text=True).strip()
+          def sha(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+          manifest={
+            'request_id':os.environ['REQUEST_ID'],
+            'service_class':os.environ['SERVICE_CLASS'],
+            'query':os.environ['QUERY'],
+            'tool':'Mercer_Searcher_1.0',
+            'engine_ref':'mersearch-stable-1.0',
+            'engine_commit':'89933c358b67ccbfbbaa680aadeb1f35d22d91b2',
+            'repositories':[
+              {'repository':'Satobloc/SAT_THEORY_ARCHIVE_2023-25','commit':git_sha('archive'),'root':'archive/'},
+              {'repository':'Satobloc/HsH','commit':git_sha('hsh-main'),'root':'hsh-main/'},
+              {'repository':'Satobloc/HSH_RESOURCES','commit':git_sha('resources'),'root':'resources/'}
+            ],
+            'generated_at_utc':datetime.now(timezone.utc).isoformat(),
+            'display_timezone':'America/New_York',
+            'outputs':{'SEARCH_RESULTS.json':sha(out/'SEARCH_RESULTS.json'),'SEARCH_RESULTS.md':sha(out/'SEARCH_RESULTS.md')}
+          }
+          (out/'RUN_MANIFEST.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
+          PY
+
+      - name: Build established compact receipt
+        run: |
+          python hsh-main/tools/test_mersearch_compact_receipt.py
+          python hsh-main/tools/mersearch_compact_receipt.py --results "mysearch-output/${{ inputs.request_id }}/SEARCH_RESULTS.json" --out-dir "mysearch-output/${{ inputs.request_id }}"
+
+      - name: Upload safe receipt and provenance only
+        uses: actions/upload-artifact@v4
+        with:
+          name: mysearch-receipt-${{ inputs.request_id }}
+          path: |
+            mysearch-output/${{ inputs.request_id }}/RUN_MANIFEST.json
+            mysearch-output/${{ inputs.request_id }}/SEARCH_RECEIPT.json
+            mysearch-output/${{ inputs.request_id }}/SEARCH_RECEIPT.md
+          if-no-files-found: error
+          retention-days: 14
