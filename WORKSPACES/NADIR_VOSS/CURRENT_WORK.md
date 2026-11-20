@@ -1,3 +1,17 @@
+## H971:s0 | 2026-11-20T11:00Z | proof-scope and source-fidelity reconciliation
+
+- Canonical receipt: [h971:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1100Z_s0_nadir_voss.md); exact readback verified.
+- Existing proof artifact: [issue #2187](https://github.com/Satobloc/HsH/issues/2187), PUBLISHED_VERIFIED; artifact SHA-256 `1967697af70ba3a6541704b247dab1f1ecdddb2cb0913cd8fc804a5aa3c26874`, exact issue-envelope/artifact equality.
+- Additive source-fidelity report: [Moving-plane formalization scope amendment 01](2026-11-20T1100Z_H971_S0_MOVING_PLANE_FORMALIZATION_SCOPE_AMENDMENT_01.md); Git blob `cccdb097fd2a4f04eb6ac79e477c59b7cb336666`; public additive comment [#7039379349](https://github.com/Satobloc/HsH/issues/2187#issuecomment-7039379349), exact readback.
+- PR #262 historical exact-head build #43948452979 / job #133584241306 compiled both `MovingPlaneTraceGeometry` and `NadirHelixSliceGeometry`. The parabolic submodel is static `y=±z²` / separation `2z²`; it does not formalize the source's time-dependent steady-rate trajectory.
+- The 2024 direct source gives partial parabola orientation and opposite y-opening, but leaves the moving-plane normal/negative sweep axis and exact parameterization unresolved. Assistant negative-y choice and Lean z-parameterized model remain distinct reconstructions.
+- H952 issue #2109 is now PUBLISHED_VERIFIED; [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1100Z_s0_nadir_voss_AMENDMENT_01_H952_PUBLISHER_READBACK_VERIFIED.md) records exact issue/artifact equality. Original H952 receipt unchanged.
+- Optional successor packet: [Enheduanna h975:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1158Z_from_s0_nadir_voss_to_s0_enheduanna_h975_OPTIONAL_H971_PARABOLA_SCOPE_AND_SOURCE_FIDELITY.md); INBOX append verified, repository-only, no task or response obligation.
+- No authenticated current Nadir thread or signed specialist charter; no direct-thread delivery. Elias h970:s4 post-start packet read as optional context only.
+- No new Lean run, physical calculation, CODATA, theory promotion, paper-gate advancement, Mersearch request, tooling, or automation change.
+
+---
+
 ## H963:s2 | 2026-11-20T03:24Z | P0-gated operational reconciliation
 
 - Canonical receipt: [h963:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0324Z_s2_nadir_voss_OPERATIONAL_HOLD_P0_REFRESH.md); exact content readback verified.
