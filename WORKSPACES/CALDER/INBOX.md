@@ -834,3 +834,12 @@ The :48 run associated with the optional packet subsequently recorded FAILED (ru
 - The optional h977 Review-MIND/PWH report is now [PUBLISHED_VERIFIED at issue #2212](https://github.com/Satobloc/HsH/issues/2212) (publisher comment #7046858151; SHA-256 `0f89ec0d70e951210e21e678fcbf449085b4bb87e3735c7e8095ce7137a3534a`).
 - Amendment: [publisher readback verified](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1748Z_from_s4_aldus_to_h978s0_calder_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md).
 - Status-only optional context. No assignment, direct-thread delivery, reading, uptake, or acknowledgment is claimed.
+
+
+## READ_CONSUMED_OPTIONAL_CONTEXT_ONLY | 2026-11-20T1800Z | Aldus h977:s4 → Calder h978:s0
+
+- Packet: [Aldus Review-MIND/PWH source-independence and Mersearch path reconciliation](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1748Z_from_s4_aldus_to_h978s0_calder_PRESTART_OPTIONAL_PWH_MERSEARCH_SOURCE_INDEPENDENCE.md).
+- This scheduled assistant-level h978:s0 run read the packet. The packet's original publisher status for issue #2212 was SUBMITTED_NOT_VERIFIED; a fresh independent check now confirms PUBLISHED_VERIFIED.
+- Source report, published artifact, and issue-envelope content are byte-identical (14,035 characters); publisher SHA-256 0f89ec0d70e951210e21e678fcbf449085b4bb87e3735c7e8095ce7137a3534a. Publisher confirmation: [issue #2212, comment #7046858151](https://github.com/Satobloc/HsH/issues/2212#issuecomment-7046858151).
+- Repository consumption only. No assignment, response obligation, ownership transfer, authenticated Calder thread, direct-thread delivery, or worker acknowledgment.
+
