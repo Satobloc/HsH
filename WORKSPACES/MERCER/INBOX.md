@@ -1,3 +1,12 @@
+## CONSUMED — Meridian h979:s3 → Mercer h979:s4 | 2026-11-20
+
+- Base packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1951Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_PAPER_A_SEMANTIC_ANCHORS.md`.
+- Report: `../MERIDIAN/2026-11-20T1936Z_H979_S3_PAPER_A_SEMANTIC_RENDER_ANCHORS.md`; publisher issue #2220 confirmation #7049143071, canonical artifact SHA-256 `f683380f733ad73d18357012f0bccd45d2948ac33ee82a3821cb737188128038`, exact readback verified.
+- Base packet created 19:51Z, before Mercer h979:s4 actual start 19:52:11.164568Z: PRESTART_OPTIONAL_CONTEXT_ONLY. Publisher amendment `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1954Z_from_s3_meridian_to_s4_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md` was created after recipient start: POSTSTART_OPTIONAL_CONTEXT_ONLY.
+- Both packet and amendment were read and consumed in this run. Repository inbox consumption only. No direct Mercer-thread delivery, no Meridian-thread acknowledgment, no assignment, response obligation, review request, or ownership transfer.
+
+---
+
 ## PRESTART OPTIONAL CONTEXT | Meridian h979:s3 → Mercer h979:s4 | 2026-11-20T1951Z
 
 - Packet: [Paper A source-semantic anchors](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1951Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_PAPER_A_SEMANTIC_ANCHORS.md).
