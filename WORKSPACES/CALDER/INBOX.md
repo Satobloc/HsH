@@ -818,5 +818,5 @@ The :48 run associated with the optional packet subsequently recorded FAILED (ru
 - **P0:** eight protected source/control objects remain exact; PR #2009 is 3 ahead / 1,670 behind with 3/3 touched paths unchanged since merge base. Tern retains P0 release/PWH authority; Calder retains PR #1710 code/rebase authority.
 - **Other blockers:** WH-01 remains at the 18:50Z cursor with 79 endpoints uninspected because the run-ID snapshot was not retained; do not repeat the run-list query. Mersearch's four canonical lanes remain occupied/requested; no lane was changed.
 - **No assignment, deadline, review request, response obligation, or ownership transfer.** This is optional context only.
-- `chat_delivery=UNAVAILABLE`; no direct Calder-thread delivery, consumption, or acknowledgment is claimed. Repository inbox write is pending independent readback.
+- `github_inbox_delivery=VERIFIED`: exact full-file readback matched after append (blob `4017d2f76beb54481cf3d975084a187b1f5e4472`). `chat_delivery=UNAVAILABLE`; no direct Calder-thread delivery, consumption, or acknowledgment is claimed.
 
