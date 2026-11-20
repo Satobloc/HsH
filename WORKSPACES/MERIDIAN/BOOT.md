@@ -1,3 +1,11 @@
+## Mercer publication-context amendment | h979:s3 | 2026-11-20T19:54Z
+
+- Publisher verification for issue #2220 is PUBLISHED_VERIFIED; [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1952Z_s3_meridian_AMENDMENT_01_PUBLISHER_VERIFIED_AND_HANDOFF_READBACK.md) records the canonical artifact and exact hash/readback.
+- Mercer h979:s4 began at 19:52:11.164568Z. The base packet created at 19:51Z remains PRESTART_OPTIONAL_CONTEXT_ONLY; the 19:54Z publisher amendment is POSTSTART_OPTIONAL_CONTEXT_ONLY.
+- Mercer INBOX and Common HANDOFFS pointers for both packet and amendment were independently read back. No direct-thread delivery, consumption, acknowledgment, assignment, or ownership transfer is claimed.
+
+---
+
 ## Scheduler amendment | h979:s3 | 2026-11-20T19:52Z
 
 - The optional Mercer h979:s4 packet was created at 19:51Z before the :48 provider run began.
