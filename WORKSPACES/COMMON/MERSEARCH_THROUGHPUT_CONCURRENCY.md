@@ -284,3 +284,18 @@ Also retain an append-only event history for the request itself: submitted, queu
 A queue snapshot must include its own `observed_at` timestamp and identify the ordering/fairness policy used. If requests in another priority class are not ahead under the active scheduling policy, do not misleadingly list them as blocking this request; show class position and any global scheduling context separately. Do not expose sensitive query text or source excerpts from other users' requests. Use opaque IDs and timestamps sufficient to make queue behavior legible.
 
 Acceptance tests must verify that timestamps and order are stable, timezone-explicit, and correctly updated after claim, cancellation, retry, reprioritization and completion.
+
+### Eastern Time presentation and timestamp integrity (Nathan Direct, 2026-11-20)
+
+Canonical timestamps remain timezone-aware UTC values (ISO 8601, normally `Z`) for storage, event ordering, interchange, hashing and audit. **All human-facing timestamps presented to Nathan must be converted to `America/New_York`**: queue submissions ahead, current and prior state transitions, queue-snapshot observation times, runner/workflow events, retries, elapsed-time endpoints, and publication/readback events.
+
+Use the IANA zone `America/New_York` so the conversion correctly follows Eastern Standard Time and Eastern Daylight Time as applicable. Display the local value with an explicit `ET` label, or the correct `EST`/`EDT` abbreviation. Do not hard-code UTC-5, UTC-4, or the label EST year-round. Preserve the canonical UTC value in machine records and optionally display both forms for audit. This is a display-layer rule; it does not change the canonical queue ordering, stored event values, or APIs.
+
+A queue snapshot should therefore expose:
+- canonical UTC timestamps in its machine-readable response;
+- Nathan-facing Eastern rendering for each request's submission and latest event, plus the snapshot's `observed_at`;
+- unambiguous timezone labels and the IANA zone used for conversion.
+
+**Attribution / signet rule:** Nathan requested the following signature on this directive. Reproduce the signet only as `[OWL]`; never reproduce the glyph or emoji. Exact signature: `--NM 20NOV26 [OWL]`.
+
+--NM 20NOV26 [OWL]
