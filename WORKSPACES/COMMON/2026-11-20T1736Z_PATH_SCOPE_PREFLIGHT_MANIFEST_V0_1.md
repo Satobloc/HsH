@@ -114,7 +114,7 @@ Relevant HsH source blobs:
 - Duplicate-run-key guard: `14531964363c1fa3e6bf1e493a6d744d8a02d4da`.
 - Code Grurple roster: `cc96c0bfafc95c54e7960899c7306031e5abce17`.
 - Mira charter-access gate: `c5bf0ea40bffca4510c5a1790bbf63ef279f0219`.
-- Cleared role witness: `531f41f33b75fdc76db4045b75fdc76db4045b80d4439290b67906`.
+- Cleared role witness: `531f41f33b75fdc76db4045b80d4439290b67906`.
 - Public Mira access matrix: `df90002ee4ece3ed2ba380ae3427cad5720f605e`.
 - Latest Mira operational receipt: `ad80b75324fa18deb4f7138f278cdfaa5ae90d79`.
 
