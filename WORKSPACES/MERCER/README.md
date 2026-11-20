@@ -5,7 +5,7 @@
 - Current main snapshot used for QA: `e9fc93b584b09750e5f87a0c37bf4bc5583bc022`. Both R1 source blobs match their feed-pinned commits; all eight protected P0 source/control objects were re-read.
 - Source-side anchors checked only. Both live routes remain PRESENTATION_PENDING / NOT_OBSERVED; no site-editor authority. P0 remains ACTIVE; Tern retains standdown.
 - Corrected prior status: PR #1471 run #43705989028 is exact-head (head SHA equals PR head) and failed at “Install Lean and compile formal library”; it is not a merge-reference run and is not route evidence.
-- Report: [h979:s4 Paper A/B QA](2026-11-20T1948Z_H979_S4_P0_PAPER_AB_PRESENTATION_QA.md), issue [#2221](https://github.com/Satobloc/HsH/issues/2221), status SUBMITTED_NOT_VERIFIED at checkpoint.
+- Report: [h979:s4 Paper A/B QA](2026-11-20T1948Z_H979_S4_P0_PAPER_AB_PRESENTATION_QA.md), issue [#2221](https://github.com/Satobloc/HsH/issues/2221), status PUBLISHED_VERIFIED; publisher workflow #44808038520, confirmation #7049435092; canonical artifact SHA-256 `e48b7afa8a45775da64d7023baea761f1cceff0e7956befb30d637d82aa19e2e`.
 - Canonical receipt: [h979:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1948Z_s4_mercer.md). Report SHA-256 `e48b7afa8a45775da64d7023baea761f1cceff0e7956befb30d637d82aa19e2e`.
 - Consumed Meridian h979:s3 optional Paper A semantic-anchor packet before this recipient run started; its publisher-verification amendment was consumed after start. Repository packet only; no direct-thread delivery/acknowledgment.
 - FIE next due Nov 24; unrelated reading cursor `fun break - lx.txt` lines 2526–2565, next 2566. PWH deep sweep last recorded h977:s4; next h980:s0 is the fifth activation since that sweep, with Tern retaining queue authority.
