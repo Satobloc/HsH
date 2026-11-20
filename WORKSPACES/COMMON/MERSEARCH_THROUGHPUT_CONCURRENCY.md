@@ -299,3 +299,52 @@ A queue snapshot should therefore expose:
 **Attribution / signet rule:** Nathan requested the following signature on this directive. Reproduce the signet only as `[OWL]`; never reproduce the glyph or emoji. Exact signature: `--NM 20NOV26 [OWL]`.
 
 --NM 20NOV26 [OWL]
+
+## Fast lane and capacity expansion directive (Nathan Direct, 2026-11-20)
+
+Repeated long-running cold-scan requests demonstrate that the current four independent Actions bridge lanes do not provide dependable interactive service. Address this with **both** a dedicated priority lane for Nathan Direct interactive requests and a measured expansion of general capacity, but do not merely multiply independent cold scans.
+
+### Priority service class
+
+Establish a dedicated **Nathan Direct / interactive fast lane** with:
+- separate workflow/concurrency group and request ingress, so ordinary batch work cannot occupy its single-flight slot;
+- bounded, latency-oriented query budgets and prompt status acknowledgement;
+- priority scheduling above ordinary research batches, while retaining the same three-repository coverage, stable query semantics, provenance, exclusions, privacy rules and result verification;
+- a hard cap of one active fast-lane search initially, with explicit cancellation and no preemption of an already-running query;
+- a documented overflow path to ordinary lanes, clearly reporting that it is overflow rather than fast-lane execution;
+- Eastern Time presentation under the `America/New_York` convention above.
+
+Fast-lane status must distinguish waiting for a GitHub-hosted runner from checkout, search execution, packaging and publication. A fast lane is not successful merely because it starts sooner; it must demonstrate lower end-to-end latency and preserve equivalent coverage and correctness.
+
+### General capacity
+
+Do not add more cold-scan lanes as the first response to slow search execution. Additional independent lanes can increase simultaneous CPU, memory, I/O, checkout and publication contention without reducing the work per query. General lane expansion should follow measured runner-wait and resource-utilization data. Retain independent lane concurrency groups and idempotent publication.
+
+### Indexed service is the primary scaling path
+
+Prioritize the existing 1.1-dev immutable SQLite/FTS multi-reader architecture:
+1. validate one shared index generation across all three permitted repositories, with per-repository source commit identities and corpus-profile exclusions;
+2. test cold build, incremental update and read-only query timings separately;
+3. benchmark the same queries against stable 1.0 cold scans and the indexed prototype;
+4. run at least eight concurrent readers, including one Nathan Direct interactive query while batch readers are active;
+5. test reader-during-rebuild, failed rebuild retention, stale generation behavior, and per-profile isolation;
+6. require source-level provenance and result-equivalence tests against stable 1.0 before enabling the index for primary research retrieval.
+
+The shared index must not combine restricted/private material into a profile that an interactive client can access. Build separate access-controlled profiles or enforce corpus boundaries at index construction and query time. Preserve source reads and original repositories as source of truth.
+
+### Acceptance criteria
+
+- Fast-lane request is acknowledged with immutable ID and queue/event receipt before runner allocation.
+- Its queue position and every request ahead include submission timestamp, latest event timestamp and state.
+- Nathan-facing timestamps display in Eastern Time; machine records remain UTC.
+- Fast lane demonstrably avoids ordinary batch queue contention.
+- On representative equal-coverage queries, indexed interactive search has materially lower p50 and p95 end-to-end latency than the current cold-scan bridge.
+- Three-repository coverage, exclusions, source SHAs, result totals and provenance remain auditable.
+- Eight-reader concurrency and reader-during-rebuild tests pass without partial-generation reads or publication collisions.
+- General lane count is increased only when measurements show runner queueing, rather than search CPU/I/O or repeated corpus scans, is the limiting factor.
+
+### Implementation boundary
+
+This is a prioritized implementation directive and acceptance contract. It does not claim that the fast lane, central queue, or multi-repository indexed service is already deployed. Do not switch primary research traffic to the 1.1-dev index until the stated validation gate passes.
+
+--NM 20NOV26 [OWL]
