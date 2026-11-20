@@ -1151,3 +1151,14 @@ This is a one-run geometry overlay. The standing Meridian P0 Code Grurple assign
 - Unrelated reading break completed: Oscar Wilde, “The Decay of Lying,” lines 47–162; next cursor 163.
 - :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` enabled and unchanged; run `4b4cb528-31a4-832e-b0bc-2ae5260a80ec` IN_PROGRESS / null chat_ref. :48 Mercer run `7f34e687-f08c-832b-9c33-ddba696d80a9` already started, so successor packet is post-start optional context only.
 - No task/ID/prompt/schedule/phase/cadence/enabled-state change, no sixth task, no signet or chat rename.
+
+
+## Lane 00 source-fidelity overlay | 20 November 2026
+
+- Additive report: [Self-connection, winding, and barygenesis source-fidelity addendum](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/2026-11-20T1200Z_H972_S0_SELF_CONNECTION_BARYGENESIS_SOURCE_FIDELITY.md).
+- Canonical receipt: [h972:s0 Meridian](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1200Z_s0_meridian.md).
+- Publisher intake: [issue #2192](https://github.com/Satobloc/HsH/issues/2192), initially SUBMITTED_NOT_VERIFIED.
+- The source-fidelity delta distinguishes global worldtube self-connection from local 3D winding and from the 3D trace's self-closure. The assistant's Klein quotient remains a candidate construction, not a source-defined unique map.
+- Existing PR #262 exact-head Lean build was reused as a formalization comparator. No new Lean module or build, physical calculation, CODATA scoring or theory promotion.
+- P0 Paper A presentation-support scope remains unchanged. No manuscript or site edits.
+- Next source cursor: recover the primary global Crullerverse / Klein Fabric topology relation, then type the 4D support, timesheet, intersection and self-connection maps before source-specific formalization.
