@@ -1280,3 +1280,12 @@ Correction to Amendment 05: the existing PR #1984 branch head `7794e1db22220f34c
 - PR #1133 current head 98dbe0ddfbff78ee447998c21316f8009caaa803; exact-head run #44706791685 IN_PROGRESS at last readback. No compile pass claimed.
 - Optional Orson packet: [h968:s4 context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0836Z_from_s3_ravel_to_s4_orson_TIMING_UNVERIFIED_OPTIONAL_SOURCE_GROUNDED_CONTEXT.md). Timing unverified after nominal slot; no assignment or direct delivery. Orson P1 cognition remit and 4/5 allocation remain protected.
 - No P2 system, fit, raw data, numerical prediction, independent measurement, paper-gate advancement or BEDROCK promotion.
+
+
+## Amendment 01 | 2026-11-20 | exact-head Lean and WH-02 readback
+
+- Receipt amendment: [Ravel h968:s3 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0836Z_s3_ravel_AMENDMENT_01_LEAN_AND_PWH_STATUS.md).
+- PR #1133 current head: 76429e9170104a1a86ae84a2b0ee298789fe7fdd. Exact-head Lean run #44707552370 is IN_PROGRESS at last readback. Earlier exact-head failures and their specific findings are recorded in the amendment. No successful current-head compile is claimed.
+- PR #1133 remains OPEN / DRAFT / UNMERGED. GitHub reported mergeable=true at last readback. No rebase, merge or base change.
+- WH-02 issue #1702 received additive status comment #7035180560. Calder-owned PR #1710 is 7 ahead / 7,192 behind current main c4e9b648857f40ce53bfe28b541b4219dfe748c2, mergeable=false. This is not a rebase or CI result; Calder retains ownership and Tern retains queue coordination.
+- No new physical calculation, raw data, P2 selection, paper-gate advancement or BEDROCK promotion.
