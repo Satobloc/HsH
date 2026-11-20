@@ -1213,3 +1213,5 @@ Issue #2190 is PUBLISHED_VERIFIED (comment #7039964657; commit 1f9406c8e95a5da40
 - Parent packet remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, assignment, review request, response obligation, or ownership transfer is claimed.
 
 - 2026-11-20 h981:s3 Aldus → Calder ring label: [POSTRUN_OPTIONAL_CONTEXT_ONLY / IDENTITY_AMBIGUOUS PDR packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2136Z_from_s3_aldus_to_s4_calder_POSTRUN_OPTIONAL_PDR_IDENTITY_AMBIGUITY.md). No Calder inbox/thread delivery or ownership transfer claimed.
+
+- 2026-11-20 h981:s3 Aldus → Calder ring label: [Amendment 01: same run ID status regression](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2136Z_from_s3_aldus_to_s4_calder_AMENDMENT_01_SAME_RUN_ID_STATUS_REGRESSION.md). No direct-thread delivery or identity claim.
