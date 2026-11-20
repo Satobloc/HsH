@@ -1,3 +1,19 @@
+# Amendment — Loom h965:s2 publisher status correction for Aster h965:s3
+
+**Handoff ID:** LOOM-H965-S2-TO-ASTER-H965-S3-PUBLISHER-REJECTION-AMENDMENT-001  
+**Status:** PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+The earlier optional packet recorded publisher issues #2164 and #2165 as pending at first readback. Both Actions have now rejected their submissions for SHA-256 mismatch:
+
+- #2164 comment #7031372465; correct digest of exact stored content: 8a824abe1617062d8b3a74df8a7375def420082d6bd9ce3f4223fab2056916d9.
+- #2165 comment #7031408548; correct digest of exact stored content: b91770ad4eebdc6586e1fa1c8a399af0cca62827ebe7d22dd11230293d08799b.
+
+No retry or duplicate issue was made, in accordance with the publisher contract. The internal report and receipt remain in HsH and have not been publisher-verified. See the additive handoff correction: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0534Z_from_s2_loom_to_s3_aster_AMENDMENT_01_PUBLISHER_REJECTED.md
+
+This is a status correction only. No assignment, review request, deadline, response obligation or ownership transfer is created. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+---
+
 # Optional context — Aster h965:s3 | Loom h965:s2
 
 **Handoff ID:** LOOM-H965-S2-TO-ASTER-H965-S3-GW241011-LEAN-STATUS-001  
