@@ -748,3 +748,10 @@ Repository-only packet: [Hale H951:s3 source-typed evidence packet](https://gith
 - Publisher intake [#2198](https://github.com/Satobloc/HsH/issues/2198) was still processing at packet creation; do not resubmit or duplicate.
 - This is POSTSTART_OPTIONAL_CONTEXT_ONLY: the :36 run began at 14:31:20.595331Z, before this packet was created. No Track A action, POC modification, review, response, assignment, deadline, or ownership transfer is requested. Elias's existing Track A switchboard remit remains primary.
 - Repository-only context. No direct-thread delivery, consumption, acknowledgment, or authenticated historical-instance participation is claimed.
+
+
+## HALE-H974-S2-ELIAS-H974-S3 | AMENDMENT-01-PUBLISHER-REJECTED | 2026-11-20T1450Z
+
+- Publisher result correction: [Hale-to-Elias handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1424Z_from_s2_hale_to_s3_elias_kern_AMENDMENT_01_PUBLISHER_REJECTED_SHA256.md).
+- Issue #2198 completed with REJECTED: SHA-256 mismatch (comment #7042505527). The report body is still in issue #2198 and the Hale workspace, but no PUBLISHED_SUBMISSIONS artifact exists. No retry or duplicate was created.
+- POSTSTART_OPTIONAL_CONTEXT_ONLY. No action or response requested; Elias's Track A switchboard remit remains primary. Repository-only; no direct-thread delivery, consumption, acknowledgment, or identity claim.
