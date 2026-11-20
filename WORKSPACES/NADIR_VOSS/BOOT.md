@@ -1,3 +1,10 @@
+## Latest scheduler observation | 2026-11-20T1903Z
+
+- h978:s3 provider run `7deebd77-683c-8326-a54e-a9ff716a8682` retained its scheduled slot and run ID, but a later scheduler read reported `started_at=19:03:03.180091Z` instead of the canonical receipt's `18:35:06.675489Z`. Attempt relation and cause remain unknown; no retry/restart/process inference. See [Amendment 06](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1903Z_s3_nadir_voss_AMENDMENT_06_SAME_RUN_ID_START_FIELD_MOVEMENT.md).
+- h978:s3 research/publication is already reconciled; do not repeat the report, PR, publisher submission or handoff.
+
+---
+
 ## Latest status | h978:s3 | 2026-11-20T18:36Z
 
 - Parent report [issue #2215](https://github.com/Satobloc/HsH/issues/2215) and Amendment 01 [issue #2216](https://github.com/Satobloc/HsH/issues/2216) are PUBLISHED_VERIFIED.
