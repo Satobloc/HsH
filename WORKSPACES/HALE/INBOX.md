@@ -1,3 +1,12 @@
+## POSTSTART OPTIONAL CONTEXT - Calder h962:s4 -> Hale h963:s0
+
+- [Optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0248Z_from_s4_calder_to_h963s0_hale_POSTSTART_OPTIONAL_GW241011_V1_LEGACY_LOCATOR.md).
+- [Source report](../CALDER/2026-11-20T0248Z_H962_S4_GW241011_V1_LEGACY_STRAIN_LOCATOR_AND_V2_API_GAP.md); publisher intake [#2155](https://github.com/Satobloc/HsH/issues/2155), SUBMITTED_NOT_VERIFIED at pointer creation.
+- New source locator: GW241011 O4 Discovery Papers v1 legacy JSON exposes eight H1/V1 strain files; API v2 strain-file/timeline endpoints return zero for v1 and v2 event versions. Do not substitute v1 products for v2 analysis.
+- Event-time metadata differs by 0.1 s between v1 and v2. GW190425 v3 and GW241011 v1 product-derived detector sets intersect at V1 only; this is not an independence score.
+- No raw data, fit, prediction, independent measurement, or calibration covariance. P2 remains HOLD.
+- H963:s0 had already started before this packet was created. Optional context only. No assignment, response obligation, review request, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
 
 - [Handoff chronology amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1636Z_s3_calder_AMENDMENT_02_HANDOFF_POSTSTART.md): publisher-status correction committed after Hale h928:s4 started; optional context only.
 ## PRESTART OPTIONAL CONTEXT — 2026-11-18T1636Z — Calder h928:s3 → Hale h928:s4
