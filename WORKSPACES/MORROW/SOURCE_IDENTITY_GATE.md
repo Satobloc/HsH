@@ -343,3 +343,109 @@ For the direct role/stop/trial messages, raw `author.role=user`, `author.name=nu
 
 **Applied statuses:** `SNAPSHOT_MEMBERSHIP_VERIFIED`, `CONTENT_IDENTITY_VERIFIED`, `RAW_BYTE_SHA256_VERIFIED`, `USER_ROLE_SOURCE_VERIFIED`, `EXTERNAL_IDENTITY_NOT_AUTHENTICATED`, `CURRENT_THREAD_NOT_AUTHENTICATED`.  
 **Authority effect:** none. Morrow remains provisional Team Archivist / archive-source custody only; the September 13 theory stop remains active.
+
+## Layer 13 applied witness 01 — July 18 2026 worldtube/morphology source readback
+
+**Recorded:** 2026-11-20, assistant-level scheduled h983:s0.  
+**Scope:** source identity and fidelity only. This is not theory integration and does not lift the September 13 theory stop.
+
+### Raw-source identity and snapshot genealogy
+
+The Library raw conversation titled **Mathematical Tool Exploration** has conversation metadata from 2026-07-05T21:12:05.179Z through 2026-07-18T05:33:54.172Z. Three Library copies were found:
+
+| Library copy | Library-added metadata | Raw bytes | Raw SHA-256 | Git-style blob SHA-1 |
+|---|---|---:|---|---|
+| `raw.json` (earlier copy) | 2026-08-22T02:26:38Z | 6,345,292 reported | Not computed; raw-byte materialization was not authorized | Not computed |
+| `raw.json` (later copy) | 2026-08-25T01:23:51Z | 6,345,292 | `a1e067cd17b741a4395e804eec9c6706e27091d46f6f295bc4e76b525ece098a` | `8d9f36aa6672ebc34e75025dee6668d537dba302` |
+| `raw(1).json` | 2026-10-05T19:06:42Z | 4,897,261 | `c291f5101944fe0b11f51beb7b3d50d391b9f4f6123f298b83396e42d5b8a007` | `d786cfe775e5c06283f906287013df5a7e654295` |
+
+The two materialized snapshots share the same conversation identity and the same two relevant user-role message records, including their timestamps, parent links and text. They are different raw byte streams and are not independent witnesses. The earlier 2026-08-22 copy reports the same size and relevant node content as the 2026-08-25 copy, but raw-byte equality is **not verified** because its materialization route was denied. A separate **AI Enclosure Critique** export contains a transcript copy in a different conversation; it is not a primary witness or independent corroboration.
+
+For the two direct messages, the raw records say `author.role=user`, `author.name=null`, and `message_source=null`. This is user-role source attribution, not external account authentication. Private Library file IDs, conversation UUID and message UUIDs are intentionally not copied into this public repository record.
+
+### Direct propositions and historical assistant translations
+
+Two user-role messages occur on 2026-07-18:
+
+1. **05:29:42.674Z:** the finite core associated with the Kerr ring is corrected from a ring in four-dimensional history to a tube; the message connects entering that tube with entering the Kerr singularity's interior and attributes the Pauli-exclusion rationale to that geometry.
+2. **05:33:15.107Z:** a straight worldtube is described as vacuum, specifically a BEC-sea vacuum; particle-identifying features and behavior are attributed to the tube's morphology, with topology included in morphology. The phrase “any straight angle is vacuum energy” is preserved as ambiguous rather than normalized.
+
+The adjacent assistant response correctly preserves the distinction between a spatial Kerr ring and a tube-like history, but then adds a non-admissible/excised-core interpretation, three explicit assumptions, and a conditional forbidden-configuration argument. It leaves the exchange phase of `-1` as a further proof obligation. The next assistant response expands “identifying features and behaviors” into mass, charge, spin, exchange behavior and interaction character; proposes a framed/decorated embedding class; and interprets the straight-angle phrase as a local straightness contribution with a vacuum baseline to subtract or normalize. Those are assistant reconstructions, not direct definitions.
+
+### Earlier SAT source and missing bridge
+
+The SAT archive file [FUNDAMENTAL INTUITIONS.txt](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/DEV%20CONVERSATION/FUNDAMENTAL%20INTUITIONS.txt), blob `0318d803fc4bb948d781d1aa0d9257dc2bcead77`, carries a Nathan annotation dated 2026-09-19. It describes 1D particle worldlines/filaments in four dimensions, a 3D time surface/wavefront, and the perceived particle as their intersection. Its Proposition E associates near-aligned filaments with vacuum and misalignment with matter. This is an annotated historical archive document, not the July 18 raw conversation.
+
+The earlier filament/time-surface picture and the later finite-core worldtube/morphology statement are not yet connected by a source-defined map. The chronology is preserved; neither is silently substituted for the other.
+
+### Stable source-fidelity glossary
+
+| Term | Source-grounded meaning | Unresolved type or condition |
+|---|---|---|
+| Filament / worldline | Earlier SAT 1D history curve in 4D | Thickening or lift to a finite-core carrier |
+| Time surface / timesheet | Earlier 3D wavefront or resolving surface | Metric, causal character and readout map |
+| Worldtube | Later 4D history-tube language with finite core | Core dimension, boundary and embedding are not specified |
+| Kerr ring | Spatial ring used in the Kerr analogy | Its relation to the finite 4D core is not formally defined |
+| Morphology | Directly includes topology and determines particle features/behavior | No invariant, equivalence class or action is specified |
+| BEC-sea vacuum | Historical direct designation for the straight-worldtube configuration | Current methodology retains BEC vacuum as a candidate, not settled ontology |
+| Straight angle | Direct phrase linked to vacuum energy | “Angle” versus “straightness” is unresolved |
+| Excised/non-admissible core | Assistant's proposed way to state an exclusion region | Not a direct definition or derived result |
+| Framed/decorated embedding class | Assistant-proposed mathematical packaging | Proposal only; no source-defined map or proof |
+
+### Mapping diagram
+
+```text
+EARLIER SAT ARCHIVE
+1D filament/worldline in M4
+        + 3D time surface
+        -> 0D intersection/readout
+        -> perceived particle
+
+JULY 18 2026 DIRECT SOURCE
+finite-core tube in 4D history
+        + Kerr-ring analogy
+        + straight tube = BEC-sea vacuum
+        + morphology (including topology)
+        -> particle-identifying features/behavior
+
+HISTORICAL ASSISTANT TRANSLATION
+spatial Kerr ring swept through history -> tube
+        + non-admissible/excised-core assumption
+        + coincidence assumptions -> forbidden configuration
+        + exchange phase -1 as further proof obligation
+        + framed/decorated embedding class as candidate
+
+MISSING MAPS
+filament -> finite-core worldtube
+worldtube -> timesheet section/readout
+morphology -> typed invariant or equivalence class
+straight-angle phrase -> defined vacuum-energy term
+```
+
+### Original versus translated propositions
+
+| Direct source proposition | Historical assistant translation | Fidelity status |
+|---|---|---|
+| The 4D core is a tube, not a ring. | A spatial Kerr ring swept through history becomes a tube-like singular set. | Dimensional correction preserved; the swept-set construction is assistant wording. |
+| The tube geometry is tied to Pauli exclusion. | Exclusion follows if the core is non-admissible/excised and identical-state coincidence requires interpenetration; exchange phase `-1` remains to be derived. | Direct motivation preserved; mechanism and assumptions are assistant additions. |
+| Straight worldtube is BEC-sea vacuum. | Straight components are the undeformed carrier baseline. | Possible interpretation, not a direct equivalence. |
+| Particle identity/behavior comes from morphology, including topology. | Full deformation class packages topology, geometry, embedding, framing and phase; mass/charge/spin/exchange/interaction are readouts. | Broad idea preserved; the list and mathematical package are assistant additions. |
+| “Any straight angle is vacuum energy.” | Normalize or subtract a straight-vacuum baseline. | Ambiguous phrase; assistant chooses one interpretation without a source-defined variable. |
+
+### Discrepancy ledger
+
+1. **Worldline/worldtube:** the earlier 1D filament and later 4D history tube are both source-grounded, but no thickening, embedding or support map relates them.
+2. **Kerr geometry:** the direct source uses “interior” language. The assistant adds an excised/non-extendible core to avoid relying on a literal Kerr singularity interior. That addition is not direct and was not independently adjudicated as GR physics in this source-custody pass.
+3. **Pauli mechanism:** the direct source asserts a geometric rationale; it does not define a configuration space, exchange loop, antisymmetric state or `-1` phase. The assistant itself leaves that phase as a proof obligation.
+4. **Morphology:** topology is explicitly included by the direct source; the assistant turns this into a more specific decorated/framed embedding class and enumerates observables not individually named by the user.
+5. **Vacuum baseline:** “straight angle” is not typed. Local straightness, angular misalignment and baseline subtraction must not be conflated.
+6. **BEC status:** the July 18 message is a historical direct BEC-sea assertion; the later current methodology treats BEC-ocean vacuum as a candidate. Preserve both dates and statuses without promoting the ontology.
+7. **Snapshot genealogy:** multiple Library copies are snapshots of one conversation, not independent corroborating witnesses; one same-sized copy remains unverified at the raw-byte level.
+
+### Formalization and physical status
+
+No source-faithful Lean theorem is ready: the core dimension, boundary, admissible configuration space, exchange action and projection maps are unspecified. Morrow's explicit theory stop also prohibits a Lean theory proof. No Lean module or run was created. No physical fixture, calculation, fit, prediction, independent measurement or CODATA scoring was performed.
+
+**Authority effect:** none. Morrow remains provisional Team Archivist / archive-source custody only. The September 13 theory stop remains active; the later bounded trial invitation and this source-fidelity assignment do not authorize theory integration or promotion.
+
+**Next deeper cursor:** recover the earlier exchange that introduced the Kerr-core/Pauli rationale; locate a direct clarification of “straight angle”; then seek source-defined filament-to-worldtube and worldtube-to-timesheet maps. Do not fill missing maps by analogy or assistant reconstruction.
