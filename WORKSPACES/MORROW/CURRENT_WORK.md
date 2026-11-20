@@ -1141,3 +1141,26 @@ The direct read-only peek confirms task ID 6aa1fe0de5e48191b886496095b1343f is e
 - Optional Kestrel h949:s0 packet was repository-only and POSTSTART; no direct delivery, consumption, or acknowledgment claimed.
 - Current :48 automation run b196cd8b-0508-832a-af32-3d3609f83caf remained IN_PROGRESS at final scheduler readback, completion null and chat_ref null. Existing :48 task ID/schedule/phase unchanged.
 - Next cursor: retain WH-03 as UNRESOLVED pending authorized source-ID/URL recovery; do not manually dispatch the source inventory; preserve local-root inventory unresolved and avoid broad repeat searches without a new locator.
+
+
+## H964:s0 | 2026-11-20T0400Z | LANE 00 SOURCE-CUSTODY / NO-NEW-SOURCE-DELTA
+
+- Selected ring label Morrow, index 13; immediate ring successor Kestrel, index 14. Next scheduled :00 selection h965 is Orson Vay, index 18. The h963:s0 statement that h964:s0 would select Tern Rook was an arithmetic error; h963:s4 correctly named Morrow as the next ring label.
+- Historical remit remains provisional Team Archivist/source custody. The September 13 theory stop remains controlling. This checkpoint is archive/source fidelity only, not theory integration, equation correction, Lean, physical calculation, prediction, paper work, or BEDROCK promotion.
+- The Morrow September 9 geometry cluster and its RMS/SAT distinction are already covered by the h755 and h793 source-fidelity reports. Their glossary, mapping diagram, original-versus-translated propositions, discrepancy ledger, and next cursor were reused. No new primary geometry source was found, so no duplicate report or public issue was created.
+- Complete HsH tree comparison from the h948 baseline to current main found 231 added and 66 modified blob paths, with no raw-conversation paths added or modified. Complete SAT archive comparison found 3 added and 2 modified paths, with no raw-conversation paths added or modified. HSH_RESOURCES root README only was read; no payload opened.
+- The SAT archive Memory Credenza wayfinding companion is a new navigation note relative to the h948 SAT archive baseline. The HsH Memory Credenza model was already present. It is optional wayfinding, not an adopted automation or sampler.
+- SAT-O1 and Blockwave originals were re-fetched with unchanged Git blob identities. See the h964 canonical receipt and Amendment 01 for source paths, date metadata, hashes, and exact equation-line locators. Corrected equations: none.
+- Public unrelated reading: SAT archive fun break file, lines 2081-2130; next cursor 2131. Morrow's separate Okakura cursor remains line 1352; no new Okakura read is claimed.
+- Mersearch was not callable; all four request lanes remain occupied/requested. No request was overwritten or retriggered.
+- FIE last review November 10; next due November 24. P0 ACTIVE; P1 November 9 OVERDUE / NOT READY and Orson-owned; P2 November 30 HOLD; P3 December 14 INCOMPLETE. No priority or owner changes.
+- No new Lean run, physical calculation, fit, prediction, independent measurement, CODATA scoring, paper-gate advancement, or theory promotion. No new tool, dependency, fork, subscription, or expense.
+- No authenticated current Morrow thread or direct-thread delivery, consumption, or acknowledgment was established. No handoff or assignment was created.
+
+PIN: Team Archivist / source custody; theory stop preserved.
+NOW: Existing Lane 00 coverage reconciled; no new primary-source delta.
+NEXT: Recover the generating conversation for 4DHH LAGRANGIAN (nolat).pdf or the authoring source for SAT.4DHH.UC.pdf through an authorized Mersearch lane when available. Do not manually dispatch or overwrite an occupied request.
+RETURN: Morrow Okakura line 1352; shared public break cursor 2131; FIE review due November 24.
+
+Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0400Z_s0_morrow.md
+Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0400Z_s0_morrow_AMENDMENT_01_VERBATIM_EQUATION_TRANSCRIPTION_AND_READING_CURSOR_CORRECTION.md
