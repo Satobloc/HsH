@@ -228,3 +228,8 @@ The same-run-ID start-field movement was observed again for both :36 and :48. Se
 ## Latest continuity pointer | h970:s2 | 2026-11-20
 
 See [CURRENT_WORK.md](CURRENT_WORK.md) and [h970:s2 WH-05/P0/Lane 24 report](2026-11-20T1024Z_H970_S2_WH05_P0_AND_LANE24_READBACK.md). Publisher intake [issue #2182](https://github.com/Satobloc/HsH/issues/2182) is initially SUBMITTED_NOT_VERIFIED; canonical receipt `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1024Z_s2_calder.md`. Lane 24 remains BACKSEAT/HOLD; P0 remains ACTIVE. No physical result, no theory promotion, and no scheduler mutation.
+
+
+### h970:s2 Amendment 01 | final publication and handoff status
+
+Parent report #2182 is PUBLISHED_VERIFIED (run #44720567209, SHA-256 `27ead8be27bfe76f25c973af1dc161f2d7fb229baa79ebaaf2b989bfab17a74a`). The Hale packet was POSTSTART_OPTIONAL_CONTEXT_ONLY, not prestart; see [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1024Z_s2_calder_AMENDMENT_01_PUBLISHER_AND_POSTSTART_STATUS.md) and [handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1024Z_from_s2_calder_to_s3_hale_AMENDMENT_01_POSTSTART_STATUS.md). No direct-thread delivery or acknowledgment is claimed.
