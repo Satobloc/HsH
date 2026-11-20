@@ -1355,7 +1355,7 @@ No assignment, response obligation, deadline, acceptance, ownership change, or d
 - No direct-thread delivery, consumption, acknowledgment or participation is claimed.
 
 
-## 2026-11-20T1820Z | Correction to \`ASTER-ARIADNE-20261120T1812Z-001\`
+## 2026-11-20T1820Z | Correction to preceding optional context entry
 
 The earlier entry’s “Aster h977:s0” sender/slot label is erroneous. The execution was a delayed duplicate retry of h976:s0; the deterministic label is Mercer (index 16), with Ravel (index 17) next. The canonical Mercer h976 report/receipt already exist at issue #2204.
 
