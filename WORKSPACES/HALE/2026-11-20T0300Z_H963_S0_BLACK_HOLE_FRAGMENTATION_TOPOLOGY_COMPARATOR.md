@@ -157,11 +157,11 @@ Both originals were re-fetched in this run. Their Git blobs and independently re
 Verbatim core equations:
 
 ```latex
-\\gamma^\\mu(\\lambda) = \\left( \\lambda, A_x \\sin(k_x \\lambda + \\phi_x), A_y \\sin(k_y \\lambda + \\phi_y), A_z \\sin(k_z \\lambda + \\phi_z) \\right)
-v^\\mu(\\lambda) = \\frac{d \\gamma^\\mu}{d \\lambda}
-S[\\gamma] = \\int d\\lambda \\, L(\\gamma^\\mu, v^\\mu)
-L = \\frac{1}{2} m v^\\mu v_\\mu - V_{\\text{tension}}(\\gamma)
-\\phi_i - \\phi_j = \\frac{2\\pi k}{n}
+\gamma^\mu(\lambda) = \left( \lambda, A_x \sin(k_x \lambda + \phi_x), A_y \sin(k_y \lambda + \phi_y), A_z \sin(k_z \lambda + \phi_z) \right)
+v^\mu(\lambda) = \frac{d \gamma^\mu}{d \lambda}
+S[\gamma] = \int d\lambda \, L(\gamma^\mu, v^\mu)
+L = \frac{1}{2} m v^\mu v_\mu - V_{\text{tension}}(\gamma)
+\phi_i - \phi_j = \frac{2\pi k}{n}
 ```
 
 ### Blockwave
@@ -176,12 +176,16 @@ L = \\frac{1}{2} m v^\\mu v_\\mu - V_{\\text{tension}}(\\gamma)
 
 Verbatim core equations:
 
+Verbatim equation fragments from separate locations in the original attachment:
+
 ```latex
-J^{\\mu\\nu}, \\nabla_\\mu J^{\\mu\\nu}=0.
-J^{\\mu\\nu} = \\tfrac12 \\epsilon^{\\mu\\nu\\rho\\sigma} \\nabla_\\rho B_\\sigma
-F_{\\mu\\nu}(\\theta)\\equiv \\nabla_{[\\mu}A_{\\nu]}(\\theta)
-A_\\mu(\\theta)\\equiv \\alpha_*\\nabla_\\mu\\theta
+\nabla_\mu J^{\mu\nu}=0.
+F_{\mu\nu}(\theta)\equiv \nabla_{[\mu}A_{\nu]}(\theta), with A_\mu(\theta)\equiv \alpha_*\,\nabla_\mu\theta.
+J^{\mu\nu}=\tfrac12\,\epsilon^{\mu\nu\rho\sigma}\nabla_\rho B_\sigma
+\Phi(\gamma)=\oint_\gamma A_\mu(\theta)\,dx^\mu \in 2\pi\mathbb{Z}.
 ```
+
+These are not a newly combined action or a corrected equation set; their original source locations and surrounding prose remain in the preserved attachment.
 
 **Corrected SAT-O1 equations: none. Corrected Blockwave equations: none.** Neither original was edited or silently normalized; malformed source tokens remain part of the preserved original.
 
