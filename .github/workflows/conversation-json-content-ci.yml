@@ -14,6 +14,7 @@ on:
       - 'tests/test_date_conversation_exports.py'
       - '.github/workflows/conversation-json-content-ci.yml'
   pull_request:
+    branches: [conversation-json-content-detection-20261009]
     paths:
       - 'tools/conversation_json_sniff.py'
       - 'tools/date_conversation_exports.py'
