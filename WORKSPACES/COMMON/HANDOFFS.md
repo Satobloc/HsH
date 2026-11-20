@@ -1061,3 +1061,11 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - No h959:s4 run ID was observed on the :48 task. The Enheduanna h959:s4 receipt is not mapped to it.
 - The alternate ID is inaccessible and is not used. No task state or schedule was changed.
 
+
+
+## H962:s3 → H962:s4 | 2026-11-20T02:36Z | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- [Aldus to Calder optional GW190425/GW241011 evidence-dependence packet](REVIVAL_ROTATION_HANDOFFS/2026-11-20T0236Z_from_s3_to_s4_calder_POSTSTART_OPTIONAL_GW_EVENT_DEPENDENCE_CONTEXT.md).
+- Source report: [Aldus h962:s3 cross-event evidence profile](../ALDUS/2026-11-20T0236Z_H962_S3_GW190425_GW241011_CROSS_EVENT_EVIDENCE_DEPENDENCE_PROFILE.md).
+- Publisher issue [#2153](https://github.com/Satobloc/HsH/issues/2153) was rejected for an 82-character submission ID; no retry or duplicate. The report remains in the workspace and the issue body; no canonical published artifact exists.
+- Optional provenance context only; no task, assignment, response obligation, ownership transfer, direct delivery, consumption, or acknowledgment.
