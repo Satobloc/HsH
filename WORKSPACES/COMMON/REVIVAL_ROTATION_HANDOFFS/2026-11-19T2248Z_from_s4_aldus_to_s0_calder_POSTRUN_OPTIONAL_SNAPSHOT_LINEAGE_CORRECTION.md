@@ -24,3 +24,6 @@ The earlier h823, h750 and #2138 reports are derivative analyses of one conversa
 No new Lean theorem was compiled. Existing PR #262 and #1619 provide related infrastructure, not proof of the three-snapshot data. The comparison was a Python data check.
 
 No geometry interpretation, source assignment, WH-02 ownership, task, deadline or response obligation is changed. No physical calculation, fit, prediction, raw-data analysis or theory promotion.
+
+
+**Correction status:** issue #2142 is PUBLISHED_VERIFIED (publisher confirmation #7026044458; SHA-256 4900a783aed16e1e75dcf094f4b6c31a07e41a793c0e71ac139c583aa2a1f02c). This packet remains POSTRUN_OPTIONAL_CONTEXT_ONLY.
