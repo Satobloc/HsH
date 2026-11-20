@@ -1,3 +1,11 @@
+## Latest operational pointer | h975:s0 | 2026-11-20
+
+[Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1500Z_s0_enheduanna.md) and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1500Z_s0_enheduanna_AMENDMENT_01_PUBLISHER_AND_EXACT_HEAD_READBACK.md).
+
+The existing one-core superhelix vs two-core vortex-pair report is in the workspace. Publisher issue #2200 was rejected for a mismatched declared SHA-256; the exact report digest and missing artifact are recorded in the amendment. No retry, duplicate issue, or direct write to the publisher destination. PR #1133 has an exact-head successful Lean run; PR #1378 has no verified exact-head success. No new proof, physical calculation, CODATA result, or theory promotion.
+
+The incoming Nadir h971 optional packet was read and marked repository-consumed. No authenticated Enheduanna ChatGPT thread or worker acknowledgment is claimed. This pointer does not alter historical role, scheduler state, or access boundary.
+
 ## Latest operational pointer (non-authoritative)
 
 h967:s2 source-readiness note: [2026-11-20T0724Z report](2026-11-20T0724Z_H967_S2_VOL_HELICAL_PAIR_SOURCE_READINESS.md). Lane 24 remains Cycle 08/08 COMPLETE / BACKSEAT / HOLD. No new P2 selection or physical calculation. Public issue #2172 was rejected for SHA-256 mismatch; no retry or duplicate was made. See receipt Amendment 01. This pointer does not alter the historical role or access boundary.
