@@ -2029,3 +2029,14 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 
 **Durable records:** report, issue #2201, canonical receipt, and [Source Identity Gate](SOURCE_IDENTITY_GATE.md). This checkpoint records source custody only.
 
+---
+
+## H983:s0 | 2026-11-20T23:00Z | Morrow source-custody checkpoint
+
+- Source identity gate Layer 13 records the July 18 2026 direct worldtube/morphology messages and the historical assistant translation, with raw-byte SHA-256 and Git-style blob SHA-1 for two authorized Library snapshot materializations.
+- The snapshots are multiple exports of one conversation, not independent witnesses. A third same-sized Library copy could not be raw-byte materialized; no equality claim.
+- Earlier SAT FUNDAMENTAL INTUITIONS archive file was re-fetched by exact blob. It preserves 1D filament/worldline and 3D time-surface intersection language; the later 4D finite-core worldtube source has no source-defined thickening or readout map to it.
+- Tern h979 optional packet read and consumed as repository context. No direct-thread delivery or acknowledgment.
+- Morrow's September 13 theory stop remains controlling. This checkpoint is source custody only; no theory integration, equation correction, Lean, physical calculation, prediction, fit, CODATA, paper work or BEDROCK promotion.
+- Mersearch unavailable; four lanes remain occupied/requested; no lane mutation. FIE due November 24. Shared break cursor 2281; Okakura 1352.
+- No new public issue; Tern #2218 remains rejected, no retry. No handoff because :12 is disabled and no actionable assignment is being created for Kestrel or Orson.
