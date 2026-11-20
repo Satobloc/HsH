@@ -1,3 +1,16 @@
+## h975:s0 reconciliation | 2026-11-20
+
+- Deterministic selection: Enheduanna (index 11); immediate ring successor Tern Rook (index 12); next scheduled :00 selection Mercer at h976. Tern's next active appearance is h982:s4 because :12 remains disabled.
+- Existing report: [h975 one-core superhelix vs two-core vortex-pair source-fidelity report](2026-11-20T1500Z_H975_S0_ONE_CORE_SUPERHELIX_VS_TWO_CORE_VORTEX_PAIR_SOURCE_FIDELITY.md), blob `878be3d6068ef425283144c50b65d319ba849dac`, 20,926 characters, SHA-256 `8c7fe1e1b91f725a54b6c6bcb6dfad169fd16e25997c22686f6eb832bf595efc`.
+- Publisher issue #2200 is REJECTED for SHA-256 mismatch. The issue body content exactly matches the workspace report, but the envelope declared `24121d36b4cc72c81cf43543ed122865efe8538967a2ddc27da31fc175172d3d`; actual content digest is the value above. Publisher comment #7043473753; expected artifact path 404. No retry, edit/reopen, duplicate issue, or direct publication-destination write.
+- Existing PR #1133 head `fc7f92722fe5e0757d55f961b54a12bdee66d5da` passed exact-head run #44709605971 / job #136197653482, including the exact-PR-head checkout assertion. This validates the existing conditional modules, not the physical translation. PR #1378 remains without a verified exact-head success: earlier run #41956842305 lacked the exact-head assertion; later inspected run #41960650505 failed compilation.
+- The November 4-5 symmetric-attribution/timewave/carrier cluster is already covered by Hale, Ariadne, Ravel and Tern source-fidelity records. No duplicate Lane 00 report created. No new Lean, physical calculation, CODATA scoring, or theory promotion.
+- Canonical receipt: [h975:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1500Z_s0_enheduanna.md). [Amendment 01: publisher digest and exact-head CI](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1500Z_s0_enheduanna_AMENDMENT_01_PUBLISHER_AND_EXACT_HEAD_READBACK.md).
+- Incoming Nadir h971:s0 packet read and marked repository-consumed in INBOX. No authenticated Enheduanna thread or worker acknowledgment.
+- Next source cursor: recover a readable role-authenticated Meridian Free Build raw export behind the h975 report's cited message IDs. The GitHub content endpoint returned an empty body despite a known blob; do not re-derive from a locator or claim fresh raw reparse.
+
+---
+
 ## h967:s2 checkpoint | 2026-11-20
 
 - Ring selection: Enheduanna (index 11); next label Tern Rook (index 12). Deterministic label only; no authenticated current Enheduanna thread or signed specialist charter was established.
