@@ -1,18 +1,18 @@
 # Mysearch — Nathan Direct Personal Search Platform
 
 **Status:** expedited parallel implementation; separate service instance.
-**Relationship:** Mysearch operates independently beside Mersearch. Its first search engine is the exact pinned \`mersearch-stable-1.0\`; it must not silently diverge in query semantics or source coverage.
+**Relationship:** Mysearch operates independently beside Mersearch. Its first search engine is the exact pinned `mersearch-stable-1.0`; it must not silently diverge in query semantics or source coverage.
 
 ## Purpose and initial search equivalence
 
 Mysearch serves Nathan Direct interactive archive requests with absolute scheduling priority. Other workers may submit explicitly expedited work, but do so under the interruption and cleanup contract below. Ordinary work remains on Mersearch.
 
 Initial searches cover exactly:
-- \`Satobloc/SAT_THEORY_ARCHIVE_2023-25\`
-- \`Satobloc/HsH\`
-- \`Satobloc/HSH_RESOURCES\`
+- `Satobloc/SAT_THEORY_ARCHIVE_2023-25`
+- `Satobloc/HsH`
+- `Satobloc/HSH_RESOURCES`
 
-The runner uses the pinned \`mersearch-stable-1.0\` parser, exclusions and three-root execution behavior, with input commit identities and provenance recorded. No indexed 1.1 backend is enabled until its three-root coverage, query equivalence, privacy and performance gates pass.
+The runner uses the pinned `mersearch-stable-1.0` parser, exclusions and three-root execution behavior, with input commit identities and provenance recorded. No indexed 1.1 backend is enabled until its three-root coverage, query equivalence, privacy and performance gates pass.
 
 ## Absolute priority and disruptive preemption
 
@@ -20,9 +20,9 @@ The runner uses the pinned \`mersearch-stable-1.0\` parser, exclusions and three
 
 The direct-request sequence is:
 1. Atomically accept the Nathan Direct request and record its immutable ID, timestamp and priority.
-2. Mark every active non-Nathan Mysearch execution \`INTERRUPT_REQUESTED\` and emit an event for the supervisor.
+2. Mark every active non-Nathan Mysearch execution `INTERRUPT_REQUESTED` and emit an event for the supervisor.
 3. The supervisor terminates the relevant worker process/job immediately; no checkpoint acknowledgement is required.
-4. Record \`INTERRUPTED\`, exit/termination detail and any known partial-output location. Partial output is never represented as a completed result.
+4. Record `INTERRUPTED`, exit/termination detail and any known partial-output location. Partial output is never represented as a completed result.
 5. Create a durable handoff-outbox record for the interrupted request, targeting Mersearch's expedited service class for a fresh execution.
 6. Transfer queued Mysearch worker requests immediately to the same Mersearch expedited class. Nathan Direct receives the next Mysearch execution slot.
 
@@ -43,24 +43,24 @@ Nathan Direct traffic is never delayed to protect another Mysearch user's in-fli
 
 ## Queue classes and transfer
 
-- \`nathan_direct\`: highest priority; FIFO among Nathan Direct requests.
-- \`mysearch_expedited\`: explicitly expedited non-Nathan requests; subject to immediate displacement.
-- \`mersearch_expedited\`: handoff class for displaced or overflow Mysearch work.
-- \`mersearch_batch\`: ordinary Mersearch requests.
+- `nathan_direct`: highest priority; FIFO among Nathan Direct requests.
+- `mysearch_expedited`: explicitly expedited non-Nathan requests; subject to immediate displacement.
+- `mersearch_expedited`: handoff class for displaced or overflow Mysearch work.
+- `mersearch_batch`: ordinary Mersearch requests.
 
 On a Nathan Direct submission, queued Mysearch worker requests are placed in the durable handoff outbox. Active Mysearch worker requests are terminated and then placed there when termination is confirmed. The outbox transfer is at-least-once and must use the immutable request ID as its idempotency key. Preserve original submitter, query digest, source profile, original submission time, attempt count, history and partial-output manifest. Do not claim that a handoff has reached Mersearch until Mersearch acknowledges it.
 
-Mersearch must schedule accepted handoffs ahead of ordinary batch work, while behind Nathan Direct requests. If that receiving priority class has not yet been implemented, retain \`HANDOFF_PENDING\` and disclose the limitation rather than silently demoting the request.
+Mersearch must schedule accepted handoffs ahead of ordinary batch work, while behind Nathan Direct requests. If that receiving priority class has not yet been implemented, retain `HANDOFF_PENDING` and disclose the limitation rather than silently demoting the request.
 
 ## Queue and event model
 
 The service uses a transactional, durable ledger. SQLite WAL is the deterministic prototype only; production multi-runner operation requires shared persistent transactional storage. Each request has an append-only event history, including submitted, queued, claimed, started, interruption-requested, interrupted, handoff-pending, handoff-accepted, retried, packaging, publishing and terminal events.
 
-Queue receipts show class-aware position, every request actually ahead (opaque ID, lane, state, submitted time and latest event time), plus the snapshot's \`observed_at\`. UTC is canonical. Human-facing timestamps for Nathan use \`America/New_York\`, with ET/EST/EDT determined by the timezone database.
+Queue receipts show class-aware position, every request actually ahead (opaque ID, lane, state, submitted time and latest event time), plus the snapshot's `observed_at`. UTC is canonical. Human-facing timestamps for Nathan use `America/New_York`, with ET/EST/EDT determined by the timezone database.
 
 ## Isolation and artifact hygiene
 
-Every job receives a unique working directory keyed by immutable request ID and attempt number. Never let two requests write the same temporary files, result path, database transaction or publication directory. Build outputs in a request-local staging directory; promote only fully validated outputs atomically. On interruption, label staging artifacts \`PARTIAL_INTERRUPTED\` and exclude them from search results, indexes and completed-result views until explicitly reconciled. Cleanup must be idempotent and must not delete another request's files.
+Every job receives a unique working directory keyed by immutable request ID and attempt number. Never let two requests write the same temporary files, result path, database transaction or publication directory. Build outputs in a request-local staging directory; promote only fully validated outputs atomically. On interruption, label staging artifacts `PARTIAL_INTERRUPTED` and exclude them from search results, indexes and completed-result views until explicitly reconciled. Cleanup must be idempotent and must not delete another request's files.
 
 The queue database, worker control channel and published results must not live on an ephemeral GitHub Actions filesystem when used as a production service. Public HsH receipt containment remains unchanged; full results use an authorized private delivery route.
 
