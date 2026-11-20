@@ -239,3 +239,63 @@ The terminal assistant node has `error_code=work_usage_limit_exceeded` and empty
 The actual provisional Morrow Team Archivist assignment remains the separate user-role message `402ade01-7116-4efb-9b14-31e477754458` in conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`. The assistant self-description `32ef4db5-269f-5c1c-8408-188c956cca52` remains assistant-authored. The separate duplicate prompt adds no second appointment and no external identity field. The September 13 theory stop and later trial invitation remain distinct; the later invitation does not expressly release the stop.
 
 This is source-custody only. It does not lift Morrow's theory stop, authorize Lean/theory work, or change any BEDROCK, physical, paper, or scheduler state. Full report: [publisher issue #2041](https://github.com/Satobloc/HsH/issues/2041); corrected snapshot checksums: [correction intake #2043](https://github.com/Satobloc/HsH/issues/2043).
+
+
+## Layer 12 — External service action / side-effect binding
+**Introduced:** h971:s3, 2026-11-20. This specializes Layer 10's event/artifact binding for remote service operations. It does not replace or renumber Layers 1–11 and is not a theory authority.
+
+A recorded tool invocation, successful wrapper lifecycle, provider-accepted operation, visible resource state, and causal attribution to a particular invocation are different evidence claims. Keep them as separate stages:
+
+1. **Invocation record:** exact source conversation/export, message/node ID, tool/action name, serialized payload bytes/digest, and every target/resource identifier actually preserved in that payload.
+2. **Wrapper execution:** call-node status, tool-result status, work-activity status, and returned body bytes, recorded independently. Do not collapse these into one success flag.
+3. **Provider acceptance:** raw provider response/receipt, provider request or event ID, returned resource ID, provider timestamp, and acceptance/error status.
+4. **Resource-state readback:** independently retrieved resource locator, retrieval scope, readback time, exact returned bytes/content digest, and the fields actually observed.
+5. **Causal binding:** explicit evidence linking the invocation to the provider event/resource. Matching content or nearby timestamps alone do not establish causation.
+6. **Multiplicity:** count distinct provider-side request/audit events, using provider idempotency keys where available. Duplicate wrapper nodes, conversation copies, work-item IDs, or matching payloads do not establish multiple external operations.
+
+Use orthogonal statuses rather than a composite VERIFIED label:
+
+- `CALL_RECORD_VERIFIED`
+- `WRAPPER_EXECUTION_REPORTED`
+- `PROVIDER_ACCEPTANCE_VERIFIED`
+- `RESOURCE_STATE_READBACK_VERIFIED`
+- `CALL_TO_RESOURCE_BINDING_VERIFIED`
+- `EXTERNAL_OPERATION_COUNT_VERIFIED`
+- `CALL_TARGET_UNBOUND`
+- `CALL_PAYLOAD_INCOMPLETE`
+- `TOOL_RESULT_BODY_EMPTY`
+- `SERVICE_READBACK_ASSISTANT_REPORTED`
+- `READBACK_SCOPE_NEGATIVE_ONLY`
+- `CURRENT_SERVICE_STATE_UNKNOWN`
+- `EXTERNAL_OPERATION_COUNT_UNKNOWN`
+- `PRIVATE_SCOPE_NOT_ACCESSED`
+
+Rules:
+
+- `message.status=finished_successfully` and `work_activity.status=completed` establish recorded wrapper lifecycle only. They do not, by themselves, establish provider acceptance.
+- An empty tool-result body is neither proof of failure nor proof of external success.
+- A resource readback can establish state at its recorded time only to the extent that the raw provider response and resource locator are retained. It does not, by itself, establish which invocation caused the state.
+- A published assistant report describing a live readback is testimony about an earlier observation, not the raw provider receipt. Preserve it as `SERVICE_READBACK_ASSISTANT_REPORTED` until the provider artifact is independently retained.
+- A negative public search establishes only the searched public scope. It does not establish global absence or authorize private-channel/DM access.
+- Preserve unknown target IDs, provider IDs, causal edges, operation counts, and currentness. Do not fill them from adjacent context.
+
+### Applied witness 01 — Morrow/Aldus Slack send/edit wrapper pair
+**Source snapshot:** HsH main commit `d28028e31142b2ef315967edff8486b8b6c10e4d`, tree `cb39f220b39fab29fa7bb0138c52a8bf86bc6da9`, complete recursive tree (`truncated=false`, 16,259 entries). Raw blobs and byte digests are recorded in [Morrow h971:s3 report](2026-11-20T1136Z_H971_S3_SLACK_ACTION_PAYLOAD_ATTRIBUTION_CORRECTION.md).
+
+The two graphs contain byte-identical send payloads (SHA-256 `f6ee3afa93f186ab556768e1dec31e099c7f8a6b65656e94022facb5bb6d7f04`) and byte-identical edit payloads (SHA-256 `20f2719ffb4b30eb4b9086fb927fa5cab7305077217da3b2d77e8939fa9616ed`). The send payload preserves a 4,996-code-unit message but no channel/thread target IDs. The edit payload is 132 bytes and contains only `args.message={}`; no replacement text or target message ID is preserved. All four tool-result bodies are empty (empty-body SHA-256 `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`).
+
+This corrects the attribution in immutable reports #689, #2171 and #2185: the published #689 39/39 line-match claim cannot be reproduced from the pinned edit node; #2171's edit content/length and preserved channel/thread assertions are not supported by the pinned payloads; #2185's service-state conclusion relies on the assistant-authored #689 readback summary, not a retained provider response. The #689/#2171/#2185 issues remain unchanged; the correction is additive.
+
+Applied statuses:
+- `CALL_RECORD_VERIFIED`
+- `DUPLICATE_PAYLOADS_VERIFIED`
+- `WRAPPER_EXECUTION_REPORTED`
+- `CALL_PAYLOAD_INCOMPLETE`
+- `TOOL_RESULT_BODY_EMPTY`
+- `SERVICE_READBACK_ASSISTANT_REPORTED`
+- `CALL_TO_RESOURCE_BINDING_UNVERIFIED`
+- `EXTERNAL_OPERATION_COUNT_UNKNOWN`
+- `CURRENT_SERVICE_STATE_UNKNOWN`
+- `PRIVATE_SCOPE_NOT_ACCESSED`
+
+The 2026-10-27 service-readback claim remains preserved as a historical assistant report; this run did not access Slack, re-read the message, or search private scope. See [correction report](2026-11-20T1136Z_H971_S3_SLACK_ACTION_PAYLOAD_ATTRIBUTION_CORRECTION.md) and publisher intake #2186 (`SUBMITTED_NOT_VERIFIED` at this checkpoint). This layer changes no Morrow theory-stop, quarantine, paper, physical, scheduler, or BEDROCK status.
