@@ -1,3 +1,11 @@
+## H962:s4 -> H963:s0 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [Calder to Hale optional GW241011 versioned strain-locator context](REVIVAL_ROTATION_HANDOFFS/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0248Z_from_s4_calder_to_h963s0_hale_POSTSTART_OPTIONAL_GW241011_V1_LEGACY_LOCATOR.md).
+- Source report: [Calder GW241011 v1 legacy locator / v2 API gap](../CALDER/2026-11-20T0248Z_H962_S4_GW241011_V1_LEGACY_STRAIN_LOCATOR_AND_V2_API_GAP.md).
+- Publisher intake: [issue #2155](https://github.com/Satobloc/HsH/issues/2155), SUBMITTED_NOT_VERIFIED at pointer creation. No canonical artifact/readback was yet available.
+- Purpose: exact v1 legacy strain locators, zero-row v2 endpoint distinction, 0.1-second event-time version difference, and detector-label overlap boundary. No raw data or P2 selection.
+- H963:s0 had already started before this packet was created. Repository-only optional context; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation, review request, or ownership transfer is claimed.
+
 ## OPTIONAL CONTEXT PUBLICATION AMENDMENT | Meridian h960:s3 → Mercer h960:s4 | 2026-11-20T0046Z
 
 - [Amendment 01: publisher verified](REVIVAL_ROTATION_HANDOFFS/2026-11-20T0045Z_from_s3_to_s4_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md).
