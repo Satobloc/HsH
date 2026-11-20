@@ -1,6 +1,6 @@
 # Kestrel h960:s2 | Nth-order superhelix source recovery and curvature gate
 
-**Disposition:** SOURCE_RECOVERED / SOURCE_AUTHORSHIP_MIXED / EXISTING_PROJECTION_PROOF_REUSED / NEW_CURVATURE_PR_UNTESTED / NO_PHYSICAL_RESULT
+**Disposition:** SOURCE_RECOVERED / SOURCE_AUTHORSHIP_MIXED / EXISTING_PROJECTION_PROOF_REUSED / NEW_CURVATURE_PR_FAILED_PARSE / NO_PHYSICAL_RESULT
 
 ## Executive result
 
@@ -272,3 +272,46 @@ The useful design observation is literary, not scientific: a representation beco
 - No public research report was issued because the new formalization is untested and the embedded equation's authorship remains unresolved.
 - No direct-thread delivery, consumption, or acknowledgment is claimed.
 - The existing :24 task ID, schedule, prompt, phase, and enabled state remain unchanged. No sixth task.
+
+
+## Amendment 01 | exact-head Lean result | 2026-11-20T00:56Z
+
+**This amendment supersedes the earlier “current head in progress” status and changes the disposition to `NEW_CURVATURE_PR_FAILED_PARSE`.** It does not alter the source equations or the historical report.
+
+### PR #2143 current-head result
+
+- PR: https://github.com/Satobloc/HsH/pull/2143
+- State: OPEN / DRAFT / UNMERGED; mergeable at last read.
+- Exact PR head: `9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2`.
+- Base: `infra/lean4-verification-20261023`, SHA `368f9af8d95d061b4581688759ed3eda309e9886`.
+- Exact-head Actions run: [#44649028244](https://github.com/Satobloc/HsH/actions/runs/44649028244), completed FAILURE at 2026-11-20T00:54:14Z.
+- Job: `135998965182`; Lean 4.34.0; Lake 5.0.0.
+- Run metadata records the exact PR head above. The job log's `GITHUB_SHA` is synthetic merge commit `73a48db8c96e74139bfa41eab987d15929c1f987`; the explicit exact-PR-head assertion passed.
+
+The build reached 8,946/8,948 targets, then failed in `KestrelSuperhelixCurvatureSymmetry.lean`:
+
+- Lines 32, 41 and 54: `unexpected token 'λ'; expected '_' or identifier`.
+- Line 154: `nthSuperhelixThreeMode_is_special_case` is unknown as a downstream consequence of the preceding parse failures.
+- The Rational `#eval` witness printed `1`.
+- Several `#print axioms` commands emitted theorem-specific lists containing `propext`, `Classical.choice`, and `Quot.sound`; these partial diagnostics do not turn the failed module into a successful build.
+- Tests, lint, global axiom audit, leanchecker and nanoda were skipped.
+
+The likely minimal syntax repair is to rename the binder `λ` to an ordinary identifier such as `lam` throughout the three-axis definition, nth-superhelix definition and specialization theorem, or use an explicitly escaped identifier. **No repair or retry was made here.** Kestrel's role is cross-boundary synthesis, not primary proof ownership.
+
+### Historical build distinction
+
+The earlier head `8ee0d01ee27274ef94b2fffe704d73b60957bc62` did compile in run #44648094755 / job #135995753257. That head predates the Rational witness and the n=3 parameter-map theorem. Its success does not validate current head `9ac2074`.
+
+The PR also received a separate Vercel preview failure because the free deployment allowance exceeded 100 builds in 24 hours. That is a deployment-rate limit, not the Lean failure.
+
+### Interpretation and limits
+
+The n=3 parameter map remains conditional on (A_i=l_f), (k_i=2\pi n_i/l_f), and matched phases. It is not a recursive nesting proof. The June 23 “one nested structure” statement still needs explicit scale projections, composition maps, worldtube/field construction and observable readout.
+
+The literal curvature candidate remains source-qualified: if (a_\mu a_\nu v_\rho v_\sigma), or a finite weighted sum of it, is itself the curvature tensor up to a scalar with no omitted operation, its first-pair symmetry conflicts with Riemann first-pair antisymmetry and forces the tensor to vanish. The source's schematic (\sim) is undefined, so this does not establish that the full action is inconsistent. A different index construction or explicitly defined operation would need its own source and proof.
+
+The existing PR #873 exact-head success (#44090154878, head `94b6d96c91806a95505260a3c52220f4af294185`) still proves only the generic readout/fiber-factorization criterion under its formalized assumptions. It does not instantiate the physical nested-superhelix maps.
+
+The PR contains a constructed algebraic witness and a Rational `#eval`. This run did not create or rerun them. Their prior-permission status for a data-free numerical witness is not established; they are not physical data or physical evidence and should not be extended into physical fixtures without Nathan's specific permission.
+
+**No LEAN_PROVED claim for PR #2143; no Factory Floor handoff; no public research publication; no physical calculation, CODATA comparison, fit, prediction, independent measurement, or BEDROCK promotion. P2 remains HOLD.**
