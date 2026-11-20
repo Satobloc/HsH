@@ -1136,3 +1136,11 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - [Publisher-verified optional-context amendment](REVIVAL_ROTATION_HANDOFFS/2026-11-20T1152Z_from_s3_morrow_to_s4_kestrel_AMENDMENT_01_PUBLISHER_VERIFIED.md).
 - Correction issue #2186 is PUBLISHED_VERIFIED (comment #7038851479; SHA-256 `d08ba53847309107730af954656a6b776ed810666482c42e2e0b117aa4449120`). Additive comments #7038877008/#7038877497/#7038878031 correct #689/#2171/#2185.
 - Packet remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer.
+
+
+### h972:s3 Orson -> h972:s4 Sable | 2026-11-20T12:49Z | POSTSTART OPTIONAL
+
+- [Optional context packet](REVIVAL_ROTATION_HANDOFFS/2026-11-20T1236Z_from_s3_orson_to_s4_sable_POSTSTART_OPTIONAL_COGNITIVE_READOUT_TARGET.md).
+- [Orson report](../ORSON_VAY/2026-11-20T1236Z_H972_S3_COGNITIVE_READOUT_TARGET_COMPATIBILITY.md); [CRTC v0.1](../ORSON_VAY/COGNITIVE_READOUT_TARGET_CONTRACT_v0.1.md).
+- Issue #2190 was SUBMITTED_NOT_VERIFIED at packet creation; expected SHA-256 61e7b20e4f440bcbf759f7ff74a38c77bdc43e4b0cd204578fa5ddfc311b0917. Verify the existing issue/path before any duplicate. No new submission.
+- The :48 Sable run had already started before packet creation. Repository-only optional context; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer.
