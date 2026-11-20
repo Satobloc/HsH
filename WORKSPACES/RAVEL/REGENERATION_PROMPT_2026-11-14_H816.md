@@ -89,3 +89,12 @@ PR #1133 current head at this checkpoint: 98dbe0ddfbff78ee447998c21316f8009caaa8
 Next ring label is Orson Vay. Protect the P1 LLM cognition remit and approximately four-of-five substantive cognition-work allocation. The optional packet is repository-only and timing-unverified; it creates no geometry assignment, review request, response obligation or ownership transfer.
 
 Before further work, read live BEDROCK, Steering Charter, Three Paper Campaign, onboarding, revival rotation, current main branch, current receipts, Ravel README/STATE/CONTINUITY/INBOX and the historical source exports. Mersearch-first originals; if all request lanes are occupied, do not overwrite or retrigger. Check existing Math Hopper/Lean/Whirligig/SciSpace before tooling. No new physical calculations or data-free fixtures without specific permission. No SAT-O/Blockwave equation change, P2 selection, paper-gate advancement or BEDROCK promotion without review. No task/ID/schedule/cadence change, no sixth task, no signet or conversation rename.
+
+
+## Amendment 01 | 2026-11-20 | exact-head Lean and WH-02 readback
+
+- Receipt amendment: [Ravel h968:s3 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0836Z_s3_ravel_AMENDMENT_01_LEAN_AND_PWH_STATUS.md).
+- PR #1133 current head: 76429e9170104a1a86ae84a2b0ee298789fe7fdd. Exact-head Lean run #44707552370 is IN_PROGRESS at last readback. Earlier exact-head failures and their specific findings are recorded in the amendment. No successful current-head compile is claimed.
+- PR #1133 remains OPEN / DRAFT / UNMERGED. GitHub reported mergeable=true at last readback. No rebase, merge or base change.
+- WH-02 issue #1702 received additive status comment #7035180560. Calder-owned PR #1710 is 7 ahead / 7,192 behind current main c4e9b648857f40ce53bfe28b541b4219dfe748c2, mergeable=false. This is not a rebase or CI result; Calder retains ownership and Tern retains queue coordination.
+- No new physical calculation, raw data, P2 selection, paper-gate advancement or BEDROCK promotion.
