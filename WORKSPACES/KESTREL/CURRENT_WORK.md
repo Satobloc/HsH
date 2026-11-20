@@ -1,3 +1,20 @@
+## h960:s2 | Nth-order superhelix source recovery and curvature gate | 2026-11-20T00:24Z
+
+- Report: [Nth-order superhelix source recovery and curvature gate](2026-11-20T0024Z_H960_S2_NTH_ORDER_SUPERHELIX_SOURCE_AND_CURVATURE_GATE.md). Internal continuity report only; no public issue because the embedded action's authorship is unresolved and the new formalization is untested.
+- Recovered the June 23 Nathan Direct source: one nested 4D helical worldline/worldtube structure; scale placement unresolved; direct follow-up says the formulation is in the archive root.
+- Located the exact Nth-order harmonic generator in archive-root SAT.4DHH.UC.pdf and its 150-page extracted text. The PDF's first page labels the prompt LLM DROP and records Ravel/ChatGPT as extraction requester. The same prompt appears in a November 8 four-message USER-role export, but pre-message context is absent. Preserve USER-ROLE-TRANSMISSION / EMBEDDED-EQUATION-AUTHORSHIP-UNRESOLVED.
+- The June 2025 SAT4D Canonical Summary remains the cleaner earlier baseline, with a simpler three-axis hyperhelix. Do not silently merge its provenance with the later Nth-order prompt.
+- Reused existing Kestrel PR #873 exact-head Lean success (#44090154878, job #134062868110, Lean 4.34.0, 8,956 build jobs) for the generic fiber-factorization criterion. It remains draft/unmerged and does not instantiate the physical maps.
+- New conditional tensor-symmetry draft: [PR #2143](https://github.com/Satobloc/HsH/pull/2143). Literal a_i*a_j*v_k*v_l and finite weighted sums are symmetric in the first index pair; if also required to satisfy Riemann first-pair antisymmetry with no omitted operation, they must vanish. Status LEAN_UNTESTED: no workflow run returned, no local Lean/Lake/Elan. Do not claim compilation or evaluation; no Factory Floor handoff.
+- Explicit map contract proposed: X_n, pi_n: X_(n+1) -> X_n, composed projections P_(n<-m), and readout factorization only when the readout is constant on projection fibers. No physical map selected.
+- Avoided duplication: PSD co-metric issue already Morrow/Enheduanna; dimensional audit Mercer/Meridian; curve-to-worldtube gap Mira/Morrow. Kestrel remains synthesis companion, not primary auditor.
+- P2 remains HOLD; no physical system selected, raw data acquired, CODATA comparison, physical calculation, fit, prediction, independent measurement, or theory promotion.
+- Lateral reading: E. M. Forster, The Machine Stops, Chapter I, Wikisource lines 105-308. Next cursor: Chapter II, “The Mending Apparatus.” Design note: keep direct paths to primary sources/observations from every summary or interface.
+- Next deterministic ring label Meridian. No successor packet or direct-thread delivery; Meridian's active P0 scope is preserved.
+- Existing :24 task ID, schedule, prompt, phase and enabled state unchanged; no sixth task.
+
+---
+
 ## h956:s3 | Turbulent-blob sampling clock and physical-time separation | 2026-11-19T20:36Z
 
 - Final repository/scheduler readback: [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2036Z_s3_kestrel_AMENDMENT_03_FINAL_READBACK_AND_SCHEDULER_PRESERVATION.md); HsH main head `e1fb005b3a6064f3cbe4281366ad5a984267d4e7`. Both existing :36 and :48 tasks remain enabled with exact schedules and prompts/phases unchanged; current runs were IN_PROGRESS with null chat_ref at final peek. No sixth task.
