@@ -1,8 +1,8 @@
-## h960 verification update | 2026-11-20
+## h960 verification update | 2026-11-20T00:56Z
 
-PR #2143 initial head compiled successfully (run #44648094755, job #135995753257). The first Real-valued #eval was opaque, so the witness was changed to Rational and a conditional n=3 parameter-map theorem was added. Current head 9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2 has run #44649028244 in progress; checkout and exact-head assertion passed, Lake manifest generation was still running. Do not claim current-head compilation until the run completes. No Factory Floor handoff.
+PR #2143 current head `9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2` completed exact-head Actions run #44649028244 with FAILURE at 00:54:14Z (job #135998965182; Lean 4.34.0 / Lake 5.0.0). The build failed at lines 32, 41 and 54 because `λ` was used as an identifier; line 154 then reports the n=3 theorem unknown. Rational `#eval` output was 1, but the module did not compile. No LEAN_PROVED claim. The first head `8ee0d01` passed earlier, but predates the Rational witness and n=3 theorem. Proposed minimal syntax repair is rename to `lam` or escape the identifier; no fix/retry made, respecting Kestrel's non-proof-owner remit. Vercel's separate 24-hour deployment cap is not Lean CI. See [report Amendment 01](2026-11-20T0024Z_H960_S2_NTH_ORDER_SUPERHELIX_SOURCE_AND_CURVATURE_GATE.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0024Z_s2_kestrel.md). No Factory Floor handoff, public report, physical result or theory promotion.
 
-The n=3 map identifies the later harmonic generator with the June 2025 three-axis hyperhelix only under A_i=l_f and k_i=2*pi*n_i/l_f with phases matched. This is a restricted parameter map, not a recursive nesting proof. The single nested object remains a source-level intent requiring explicit composition maps.
+The n=3 parameter map remains restricted to (A_i=l_f), (k_i=2\pi n_i/l_f), with phases matched. It is not a recursive nesting proof. The one-structure map still needs explicit projections, composition, worldtube/field construction and observable readout.
 
 ## Latest activation | Kestrel h960:s2 | 2026-11-20
 
