@@ -887,3 +887,17 @@ Current source status, not theory promotion:
 Existing Lean PR evidence remains conditional and unmerged: PR #262 exact-head run #43948452979 succeeded; PR #1133 remains open/draft with supplied DirectPathCoherence and a failed full workflow. No new Lean run or data-free fixture was created. P2 source-readiness remains unmet because no measured system/data package is identified.
 
 Unrelated reading side-pass: Babbage Project Gutenberg #1216, web-rendered lines 503-542. Canonical sequential cursor remains line 2535. FIE next review November 24.
+
+
+## H968:S3 | 2026-11-20 | Kerr/worldtube scale and rotation typing
+
+- Report: [canonical publisher artifact](../COMMON/PUBLISHED_SUBMISSIONS/ravel-h968-s3-kerr-worldtube-rotation-typing-20261120t0836z-001.md), issue #2176 PUBLISHED_VERIFIED; SHA-256 98919a6d467e3887de16761ece4aacdb5f793cb5dc0d2d5183b101f1ccbcebce.
+- Source authority: Ravel Syncmathcek direct messages 3d0ad680 (spatial Kerr section and extension), b9805319 (mutual accommodation and force primitive), 496a15ea (three representations; induction-current connection tentative). Meridian Free Build direct messages 6f00a97a (one helical core, hollow larger coil), 1178f25c (coil diameter distinct from filament thickness and worldtube axis-to-circumference dimension), b27ec702 (finite-core/ER-Kerr/shell construction is a working hypothesis; timesheet thickness is active-update region).
+- No new shared symbol. SAT:epsilon and SAT:ell_f remain unresolved and are not adopted as worldtube thickness or axis-to-circumference measure.
+- Existing PR #1133 repaired on its existing branch. Current head 98dbe0ddfbff78ee447998c21316f8009caaa803. Exact-head Lean run #44706791685 was IN_PROGRESS at last readback; no successful compile or axiom audit claimed. PR remains open/draft/unmerged; no rebase or merge.
+- Standard comparator: Kerr multipole sequence plus standard finite-size worldline EFT. GW241011 is an existing benchmark/calibration source, not a blind holdout. No raw strain, fit, new prediction or independent measurement.
+- P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. November 9 minor gate missed; November 30 major HOLD; December 14 full theory INCOMPLETE. FIE next review November 24.
+- PWH WH-02 remains highest-priority unblocked and Calder-owned; PR #1710 7 ahead / 7,176 behind current main at observation. No takeover.
+- Mersearch unavailable; all four request lanes requested/occupied. No local Mersearch, Lean or Lake executable or local HsH checkout. No new tooling or expense.
+- Unrelated reading: SAT archive fun break - lx.txt, lines 2171-2210; next cursor 2211.
+- No equation change, physical calculation, P2 selection, BEDROCK promotion, task mutation, sixth task, signet or conversation rename.
