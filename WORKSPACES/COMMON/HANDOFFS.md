@@ -2,6 +2,7 @@
 
 - [POSTSTART optional packet](REVIVAL_ROTATION_HANDOFFS/2026-11-20T2234Z_from_s3_enheduanna_to_s4_tern_POSTSTART_OPTIONAL_CPPC.md).
 - [CPPG v0.1](COUPLING_PRESERVING_PROJECTION_GATE_V0_1.md).
+- [Publisher issue #2234](https://github.com/Satobloc/HsH/issues/2234) PUBLISHED_VERIFIED; [receipt amendment](REVIVAL_ROTATION_RECEIPTS/2026-11-20T2234Z_s3_enheduanna_AMENDMENT_02_PUBLISHER_VERIFIED.md).
 - [Enheduanna run report](../ENHEDUANNA/2026-11-20T2234Z_H982_S3_COUPLING_PRESERVING_PROJECTION_GATE.md).
 - POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer claimed.
 
