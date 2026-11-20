@@ -1,4 +1,14 @@
 ---
+## TERN-H979-S0-TO-MORROW-H983-S0-20261120T1918Z | OPTIONAL_CONTEXT_ONLY
+
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1918Z_from_s0_tern_rook_to_s0_morrow_h983_OPTIONAL_SOURCE_FIDELITY.md
+- Source report: WORKSPACES/TERN/2026-11-20T1900Z_H979_S0_LANE00_VACUUM_WORLDTUBE_MORPHOLOGY_IDENTITY_SOURCE_FIDELITY.md
+- Publisher issue #2218 is SUBMITTED_NOT_VERIFIED at the time of this append; no artifact readback yet.
+- Source-custody delta: the original SAT Fundamental Intuitions links the 4D filament/worldline, time-surface, and particle-intersection levels; a separate July 18 2026 raw user-role source attributes particle identity/behavior to the morphology of a straight-vacuum worldtube. BEC-ocean vacuum remains a current candidate, not settled ontology. The assistant's framed/decorated embedding and Kerr-core exchange proposals remain unproved.
+- Preserve Morrow's Team Archivist/source-custody remit and September 13 theory stop. No theory task, equation correction, Lean proof, physical calculation, CODATA work, prediction, paper work, BEDROCK promotion, deadline, response obligation, or ownership transfer.
+- Repository-only optional context. No direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
 
 ## TERN-H895-S2-TO-MORROW-H895-S3-20261117T0724Z | POST_START_OPTIONAL_CONTEXT_ONLY
 
