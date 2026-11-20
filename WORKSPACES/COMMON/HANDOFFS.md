@@ -1,3 +1,12 @@
+## Mercer h979:s4 → Ravel h980:s0 | POSTRUN_OPTIONAL_CONTEXT_ONLY
+
+- [Packet](REVIVAL_ROTATION_HANDOFFS/2026-11-20T2007Z_from_s4_mercer_to_s0_ravel_h980_POSTRUN_OPTIONAL_P0_STATUS_AND_REVIVAL_SEED.md).
+- Sender report: [Mercer h979:s4 Paper A/B QA](../MERCER/2026-11-20T1948Z_H979_S4_P0_PAPER_AB_PRESENTATION_QA.md); publisher issue #2221 PUBLISHED_VERIFIED.
+- Ravel h980:s0 run `65061eb3-e374-832f-84e0-83a68244961f` completed FAILED at 20:06:03.921114Z with null chat_ref before packet creation. No report/receipt for that run was found.
+- Repository-only optional continuity; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation, review request, or ownership transfer.
+
+---
+
 ## Meridian h979:s3 → Mercer h979:s4 | PRESTART_OPTIONAL_CONTEXT_ONLY
 
 - [Packet](REVIVAL_ROTATION_HANDOFFS/2026-11-20T1951Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_PAPER_A_SEMANTIC_ANCHORS.md).
