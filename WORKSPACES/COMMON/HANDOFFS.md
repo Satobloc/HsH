@@ -1234,3 +1234,9 @@ Issue #2190 is PUBLISHED_VERIFIED (comment #7039964657; commit 1f9406c8e95a5da40
 
 - [Packet](REVIVAL_ROTATION_HANDOFFS/2026-11-20T2346Z_from_s3_mercer_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_COUPLED_READOUT_PROOF.md).
 - Repository-only optional context; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer claimed.
+
+
+## Mercer h983:s3 → Ravel h983:s4 | 2026-11-20T23:49Z | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- [Timing Amendment 01](REVIVAL_ROTATION_HANDOFFS/2026-11-20T2346Z_from_s3_mercer_to_s4_ravel_AMENDMENT_01_PRESTART_TIMING_VERIFIED.md) verifies the packet commit preceded the recipient provider start by 28.683712 seconds.
+- Repository-only optional context; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer claimed.
