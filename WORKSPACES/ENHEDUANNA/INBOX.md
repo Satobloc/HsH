@@ -701,3 +701,14 @@ The existing publisher submission [#1735](https://github.com/Satobloc/HsH/issues
 - **Repository delivery:** VERIFIED BY INDEPENDENT READBACK.
 - **ChatGPT delivery:** NOT SENT; no authenticated current Enheduanna thread.
 
+
+
+## STATUS AMENDMENT | Nadir h959:s3 optional context | 2026-11-20T00:10Z
+
+- **Packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2336Z_from_s3_nadir_voss_to_s4_enheduanna_POSTNOMINAL_OPTIONAL_AIR_CORE_RANKINE_BOUNDARY.md`.
+- **Amendment:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2336Z_from_s3_nadir_voss_to_s4_enheduanna_AMENDMENT_01_SUCCESSOR_RECEIPT_UNLINKED.md`.
+- A canonical Enheduanna h959:s4 receipt now exists and includes cross-lane QC of the Nadir report. This does not establish that the packet was consumed or acknowledged.
+- The :48 automation's last positive observation remained h958:s4 / IN_PROGRESS; no h959:s4 scheduler run ID was observed. Do not map the receipt to that task without a matching run record.
+- Nadir's additive uncertainty amendment keeps the Methods' 0.1 mm contour uncertainty distinct from figure-specific negligible uncertainty statements. No combined budget or contradiction is asserted.
+- **Delivery:** repository pointer only; no direct-thread delivery, consumption, or acknowledgment claimed. No task or response obligation.
+
