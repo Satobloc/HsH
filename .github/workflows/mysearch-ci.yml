@@ -8,16 +8,28 @@ on:
       - '.github/workflows/mysearch-ci.yml'
   pull_request:
     branches: [mysearch]
+    paths:
+      - 'tools/mysearch_queue.py'
+      - 'tools/test_mysearch_queue.py'
+      - '.github/workflows/mysearch-ci.yml'
 permissions:
   contents: read
+concurrency:
+  group: mysearch-queue-ci-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   queue-tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            tools/mysearch_queue.py
+            tools/test_mysearch_queue.py
+          sparse-checkout-cone-mode: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Test queue semantics
         run: python tools/test_mysearch_queue.py
-
