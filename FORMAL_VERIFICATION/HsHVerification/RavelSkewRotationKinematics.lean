@@ -67,8 +67,8 @@ def directionalAcceleration (frequency : ℝ) (x : Vector4) : Vector4 :=
 theorem directionalAcceleration_formula (frequency : ℝ) (x : Vector4) :
     directionalAcceleration frequency x = -(frequency ^ 2) • x := by
   rw [directionalAcceleration, rotationMatrix_sq]
-  rw [← neg_smul (frequency ^ 2) (1 : Matrix4)]
-  rw [← neg_smul (frequency ^ 2) x]
+  change Matrix.mulVec ((-(frequency ^ 2)) • (1 : Matrix4)) x =
+    (-(frequency ^ 2)) • x
   rw [Matrix.smul_mulVec, Matrix.one_mulVec]
 
 end HsHVerification.RavelSkewRotationKinematics
