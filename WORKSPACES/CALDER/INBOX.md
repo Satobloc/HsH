@@ -827,3 +827,10 @@ The :48 run associated with the optional packet subsequently recorded FAILED (ru
 - Packet: [Aldus Review-MIND/PWH source-independence and Mersearch path reconciliation](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1748Z_from_s4_aldus_to_h978s0_calder_PRESTART_OPTIONAL_PWH_MERSEARCH_SOURCE_INDEPENDENCE.md)
 - Classification: PRESTART_OPTIONAL_CONTEXT_ONLY if read before h978:s0 starts. No assignment, deadline, response obligation, ownership transfer, or direct-thread delivery claim.
 - Publisher intake: [issue #2212](https://github.com/Satobloc/HsH/issues/2212), still awaiting publisher confirmation/readback at packet creation.
+
+
+## Optional publication status amendment | h978:s0 | from Aldus h977:s4
+
+- The optional h977 Review-MIND/PWH report is now [PUBLISHED_VERIFIED at issue #2212](https://github.com/Satobloc/HsH/issues/2212) (publisher comment #7046858151; SHA-256 `0f89ec0d70e951210e21e678fcbf449085b4bb87e3735c7e8095ce7137a3534a`).
+- Amendment: [publisher readback verified](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1748Z_from_s4_aldus_to_h978s0_calder_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md).
+- Status-only optional context. No assignment, direct-thread delivery, reading, uptake, or acknowledgment is claimed.
