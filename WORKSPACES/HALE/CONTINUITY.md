@@ -724,3 +724,17 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - Historical Hale thread not authenticated; source-grounded revival from available check-in, wake packet, continuity/inbox and receipts. Mersearch unavailable; no HSH_RESOURCES payload access.
 - Unrelated reading: SAT archive fun-break file lines 2121-2160; next cursor 2161. FIE next review November 24.
 - Optional Elias packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0713Z_from_s4_to_s0_elias_kern_POSTSTART_OPTIONAL_H966_MINT_FJ_CONTEXT.md`, POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+
+
+---
+
+## h970:s3 | 2026-11-20T1036Z | FJ single-transition parameter identifiability
+
+- Report: [FJ parameter identifiability and observation design](2026-11-20T1036Z_H970_S3_FJ_PARAMETER_IDENTIFIABILITY_AND_OBSERVATION_DESIGN.md), blob `4237fcbeca376fc12894e9d225e2aa167aa47c46`, SHA-256 `838ada370c4fc0092b377f851f4b5d0cd871f1653fbbf6f9a6081755c2143bd4`.
+- Follow-up to h966:s4 FJ simplex-invariance work and PR #2168. Added `FriedkinJohnsenIdentifiability.lean` with exact alpha/gamma finite-difference identities, conditional injectivity, and exact degenerate cases. The test-design consequence is that alpha needs nonzero current/peer contrast (and gamma not 1), while gamma needs prior separated from the alpha-weighted current/peer mixture. These are noiseless single-transition structural conditions, not statistical or empirical identification.
+- PR #2168 remains OPEN / DRAFT / UNMERGED, exact head `06d426079b3346815ec773b9f399cfe1d3905958`. Exact-head Actions #44720991419 SUCCESS, Lean 4.34.0 / Lake 5.0.0, 8,949 jobs. Seven new theorem-specific axiom outputs: `[propext, Classical.choice, Quot.sound]`; no sorryAx/admit/custom axiom. Tests, lint, leanchecker, nanoda and separate global axiom audit skipped.
+- Publisher issue #2184 submission `hale-h970-s3-fj-identifiability-20261120t1036z-001`, SHA-256 `838ada370c4fc0092b377f851f4b5d0cd871f1653fbbf6f9a6081755c2143bd4`, was submitted; publisher run #44721814797 remained IN_PROGRESS at this continuity update. Canonical artifact readback pending; do not retry or duplicate.
+- The model is the source's FJ opinion-dynamics comparator, not H(s)H physics or consciousness evidence. No raw model outputs were acquired/re-scored, no new model calls, no physical calculation/prediction, no independent measurement, and no Orson P1 amendment. P0 ACTIVE; P1 overdue/not ready/Orson-owned; P2 HOLD; P3 INCOMPLETE; FIE next due Nov 24.
+- Mersearch tool unavailable; four request lanes remain occupied and untouched. Existing Math Hopper #578, Lean PR #991, Whirligig Kernel 0, PR #2168/#262 and SciSpace availability were checked; no new tool/dependency/fork/subscription/cost.
+- Lateral reading: SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 2161–2200; next cursor 2201. No physical break claimed. No SAT-O/Blockwave equation or BEDROCK theory changed.
+- Current :36 task remains enabled with its original ID, hourly phase, prompt and charter unchanged; no sixth task. Current run `d5acda43-adfc-8332-8fd1-9001d8e43e7c` was IN_PROGRESS at last exact-ID peek, `chat_ref=null`; cached result still belonged to Ravel h968:s3 and was stale. Next ring label Elias Kern; no packet or assignment created.
