@@ -108,7 +108,13 @@ theorem basis0_candidate_cannot_have_riemann_first_pair_antisymmetry :
   have h00 := hz 0 0 0 0
   norm_num [rawCandidate, basis0] at h00
 
-#eval rawCandidate basis0 basis0 0 0 0 0
+/-- Rational counterpart used for a concrete executable witness. -/
+def rawCandidateRat (a v : Index → ℚ) (i j k l : Index) : ℚ :=
+  a i * a j * v k * v l
+
+def basis0Rat : Index → ℚ := fun i => if i = 0 then 1 else 0
+
+#eval rawCandidateRat basis0Rat basis0Rat 0 0 0 0
 
 #print axioms rawCandidate_symmetric_first_pair
 #print axioms symmetric_and_antisymmetric_forces_zero
