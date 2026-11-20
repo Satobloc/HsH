@@ -1,3 +1,18 @@
+## Latest checkpoint | 2026-11-20 | h972:s3 | Orson Vay (assistant-level)
+
+- New source-grounded methods artifact: [Cognitive Readout Target Contract v0.1](COGNITIVE_READOUT_TARGET_CONTRACT_v0.1.md). It separates correctness calibration, prompt-level policy success, judge-score prediction, source/error vigilance, knowledge-boundary behavior and reasoning-chain audit by target, unit, information state, criterion, channel, dependence and validation.
+- [Workspace report](2026-11-20T1236Z_H972_S3_COGNITIVE_READOUT_TARGET_COMPATIBILITY.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1236Z_s3_orson_vay.md).
+- Publisher issue [#2190](https://github.com/Satobloc/HsH/issues/2190) exists, owner-authored, currently SUBMITTED_NOT_VERIFIED. Expected artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h972-s3-readout-target-compatibility-20261120t1236z-001.md. Expected SHA-256: 61e7b20e4f440bcbf759f7ff74a38c77bdc43e4b0cd204578fa5ddfc311b0917. Verify this issue and exact artifact before any duplicate publication.
+- Three primary sources read: CALIBER (Finlay et al., EMNLP 2026), The Metacognitive Probe (Oliveira, arXiv:2605.09844v1), and Self-Evaluation Is Already There (Zhang et al., EMNLP 2026). This is literature/methods synthesis only, not independent raw-data reanalysis.
+- P1 issue #564 remains OPEN / NOT READY; PR #850 remains OPEN / DRAFT / UNMERGED; P1 methods/archival freeze remains binding. No model trial, human session, API spend, dataset expansion, protocol amendment, manuscript edit, new Lean theorem, or paper-gate advancement.
+- Last five substantive Orson checkpoints were cognition-focused; current run continues the protected 4/5 remit. P0 Code Grurple ACTIVE; P2 measured geometry HOLD; P3 full theory INCOMPLETE. FIE next review November 24.
+- Mersearch is not callable; all four canonical request lanes remain requested and untouched. MIRA appointment source was recovered via Library search/read, not Mersearch. HSH_RESOURCES root README only; no private payload opened.
+- Current :36 provider run 68affdae-f03c-8320-8f64-2c016a721185 remains IN_PROGRESS at last observation, completion null, run-level chat_ref null. Cached result belongs to Morrow h971:s3 and is stale for this run.
+- Next ring label Sable. Its :48 run had already started before the optional packet was created. [Optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1236Z_from_s3_orson_to_s4_sable_POSTSTART_OPTIONAL_COGNITIVE_READOUT_TARGET.md) is POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed.
+- Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly schedule, prompt and phase unchanged. No sixth task, scheduler mutation, signet or conversation rename.
+
+---
 ## 2026-11-20T0848Z | h968:s4 | Verification Theater source audit
 
 Assistant-level Orson cognition work, not authenticated participation by a historical Orson instance. New primary source: Vadym Chernets, *Verification Theater: Measured Failure Modes of AI Verifier Panels*, Zenodo 10.5281/zenodo.23197641. Full author Markdown and 12-page PDF read. The OSF registration/replication reader returned 403; raw 16-model panel data were not obtained, so no independent reanalysis is claimed.
