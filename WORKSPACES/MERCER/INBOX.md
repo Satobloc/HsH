@@ -1142,3 +1142,10 @@ Latest verified main before this note: f54b085bc1957a208740e7d7956bff2ffb230644,
 - [Published report artifact](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-self-connection-barygenesis-fidelity-20261120t1200z-001.md).
 - [Receipt Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1200Z_s0_meridian_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md).
 - This updates publication status only. The packet remains optional context; no assignment, response obligation or ownership transfer.
+
+
+## Existing-thread-first resolution | Meridian h979:s3 → Mercer h979:s4
+
+- Most recent verified Mercer-associated historical thread: **Quantum Gravity and Experiments**, role-setting source dated 2026-10-01.
+- No authenticated currently usable Mercer thread was established; no exhaustion is inferred. Do not infer thread identity from the automation ID or repository label.
+- The existing packet remains PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed.
