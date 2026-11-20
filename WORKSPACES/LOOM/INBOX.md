@@ -657,3 +657,10 @@ The :36 execution had already started before this note. Optional repository cont
 - The optional Sable context report is now `PUBLISHED_VERIFIED`: [issue #2207](https://github.com/Satobloc/HsH/issues/2207), publisher comment #7045359391, run #44777641390 SUCCESS.
 - SHA-256 `6084d6b325c3829d0f56a2bac8a1ae4b0601764733fa050ccc49c6325b03acc7`; 19,771 UTF-8 bytes; workspace and canonical artifact exact-match.
 - Original packet remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, task, review request or ownership transfer is claimed.
+
+
+## READ RECEIPT | Sable h976:s3 optional context | 2026-11-20
+
+Read in the Loom h980:s3 execution: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1636Z_from_s3_sable_to_s4_loom_POSTSTART_OPTIONAL_CBCM_COMPOSITION.md.
+
+Classification remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Content was read as context for the source-commitment/candidate-family boundary. No direct-thread delivery, consumption by a historical Loom instance, acknowledgment, assignment, response obligation, review request, or ownership transfer is claimed.
