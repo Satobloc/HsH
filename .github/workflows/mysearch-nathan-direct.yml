@@ -1,0 +1,168 @@
+name: Mysearch Nathan Direct Fast Lane
+
+on:
+  workflow_dispatch:
+    inputs:
+      request_id:
+        description: Immutable request ID
+        required: true
+        type: string
+      query:
+        description: Mersearch 1.0 Boolean query
+        required: true
+        type: string
+      requester:
+        description: Requester classification
+        required: true
+        default: nathan_direct
+        type: choice
+        options:
+          - nathan_direct
+
+permissions:
+  contents: write
+
+# One active interactive search. Initial release is non-preemptive until
+# checkpoint/recovery acceptance tests are present. The Nathan-priority
+# preemption policy is specified in MYSEARCH_IMPLEMENTATION_PLAN.md.
+concurrency:
+  group: mysearch-nathan-direct
+  cancel-in-progress: false
+
+jobs:
+  validate-and-acknowledge:
+    runs-on: ubuntu-latest
+    outputs:
+      request_id: ${{ steps.request.outputs.request_id }}
+      query: ${{ steps.request.outputs.query }}
+      accepted_at: ${{ steps.request.outputs.accepted_at }}
+    steps:
+      - name: Validate immutable request and emit immediate runner acknowledgement
+        id: request
+        shell: bash
+        env:
+          REQUEST_ID: ${{ inputs.request_id }}
+          QUERY: ${{ inputs.query }}
+        run: |
+          python - <<'PY'
+          import os, re, hashlib, datetime
+          rid=os.environ["REQUEST_ID"].strip()
+          query=os.environ["QUERY"].strip()
+          if not re.fullmatch(r"my-[A-Za-z0-9._-]{1,110}",rid):
+              raise SystemExit("request_id must start my- and contain only safe characters")
+          if not query:
+              raise SystemExit("query must be nonempty")
+          now=datetime.datetime.now(datetime.timezone.utc).isoformat()
+          digest=hashlib.sha256(query.encode("utf-8")).hexdigest()
+          with open(os.environ["GITHUB_OUTPUT"],"a",encoding="utf-8") as f:
+              f.write("request_id="+rid+"\n")
+              f.write("query<<EOF\n"+query+"\nEOF\n")
+              f.write("accepted_at="+now+"\n")
+              f.write("query_sha256="+digest+"\n")
+          print("MYSEARCH_ACK state=RUNNING accepted_at_utc="+now+" query_sha256="+digest)
+          PY
+      - name: Checkout HsH
+        uses: actions/checkout@v4
+        with:
+          path: hsh-main
+          fetch-depth: 1
+      - name: Checkout stable Mersearch 1.0
+        uses: actions/checkout@v4
+        with:
+          ref: mersearch-stable-1.0
+          path: mersearch
+          fetch-depth: 1
+      - name: Checkout SAT archive
+        uses: actions/checkout@v4
+        with:
+          repository: Satobloc/SAT_THEORY_ARCHIVE_2023-25
+          path: archive
+          fetch-depth: 1
+      - name: Checkout HSH_RESOURCES
+        uses: actions/checkout@v4
+        with:
+          repository: Satobloc/HSH_RESOURCES
+          path: resources
+          fetch-depth: 1
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Record clone-observability event evidence
+        id: provenance
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, subprocess, datetime, pathlib, os
+          roots={"HsH":"hsh-main","Mersearch":"mersearch","SAT_THEORY_ARCHIVE_2023-25":"archive","HSH_RESOURCES":"resources"}
+          rows=[]
+          for name,path in roots.items():
+              def git(*args):
+                  return subprocess.check_output(["git","-C",path,*args],text=True).strip()
+              rows.append({"repository":name,"checkout_head_sha":git("rev-parse","HEAD"),"checkout_action":"actions/checkout@v4"})
+          event={"schema":"mysearch.checkout-evidence.v1","observed_at_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+                 "request_id":os.environ.get("REQUEST_ID",""),"checkouts":rows,
+                 "traffic_attribution":"UNKNOWN (no Traffic observation in this workflow)"}
+          pathlib.Path("/tmp/mysearch-checkout-evidence.json").write_text(json.dumps(event,indent=2)+"\n")
+          print(json.dumps(event))
+          PY
+        env:
+          REQUEST_ID: ${{ inputs.request_id }}
+      - name: Execute stable Mersearch 1.0 against all permitted repositories
+        shell: bash
+        env:
+          QUERY: ${{ inputs.query }}
+        run: |
+          rm -rf /tmp/mysearch-results
+          python mersearch/tools/search_archive_content.py archive hsh-main resources --expr "$QUERY" --sort date --exclude mersearch_requests --out /tmp/mysearch-results
+          test -s /tmp/mysearch-results/SEARCH_RESULTS.json
+          test -s /tmp/mysearch-results/SEARCH_RESULTS.md
+      - name: Build compact receipt and provenance manifest
+        shell: bash
+        env:
+          REQUEST_ID: ${{ inputs.request_id }}
+          QUERY: ${{ inputs.query }}
+          ACCEPTED_AT: ${{ steps.request.outputs.accepted_at }}
+        run: |
+          python hsh-main/tools/test_mersearch_compact_receipt.py
+          python hsh-main/tools/mersearch_compact_receipt.py --results /tmp/mysearch-results/SEARCH_RESULTS.json --out-dir /tmp/mysearch-results
+          python - <<'PY'
+          import json,hashlib,pathlib,os,subprocess,datetime
+          out=pathlib.Path("/tmp/mysearch-results")
+          def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
+          def git(root,*args): return subprocess.check_output(["git","-C",root,*args],text=True).strip()
+          repos=[("Satobloc/HsH","hsh-main"),("Satobloc/SAT_THEORY_ARCHIVE_2023-25","archive"),("Satobloc/HSH_RESOURCES","resources")]
+          manifest={"request_id":os.environ["REQUEST_ID"],"accepted_at_utc":os.environ["ACCEPTED_AT"],
+            "completed_at_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            "tool":"Mercer_Searcher_1.0","stable_ref":"mersearch-stable-1.0","engine_commit":git("mersearch","rev-parse","HEAD"),
+            "query_sha256":hashlib.sha256(os.environ["QUERY"].encode()).hexdigest(),
+            "source_repositories":[{"repository":n,"commit":git(p,"rev-parse","HEAD")} for n,p in repos],
+            "exclusions":["QUARANTINE","PRIOR_ART","mersearch_requests"],
+            "clone_observability":{"checkout_evidence":json.loads(pathlib.Path("/tmp/mysearch-checkout-evidence.json").read_text()),
+              "traffic_clone_count":"UNKNOWN_NOT_QUERIED","unique_cloner_count":"UNKNOWN_NOT_QUERIED"},
+            "outputs":{"SEARCH_RESULTS.json":sha(out/"SEARCH_RESULTS.json"),"SEARCH_RESULTS.md":sha(out/"SEARCH_RESULTS.md"),
+              "SEARCH_RECEIPT.json":sha(out/"SEARCH_RECEIPT.json"),"SEARCH_RECEIPT.md":sha(out/"SEARCH_RECEIPT.md")}}
+          (out/"RUN_MANIFEST.json").write_text(json.dumps(manifest,indent=2)+"\n")
+          PY
+      - name: Publish manifest and compact receipts only
+        shell: bash
+        env:
+          REQUEST_ID: ${{ inputs.request_id }}
+        run: |
+          cd hsh-main
+          git fetch origin main
+          git reset --hard origin/main
+          dest="indexes/mysearch_requests/$REQUEST_ID"
+          if [ -e "$dest" ]; then
+            echo "::error::Refusing to overwrite existing request output"
+            exit 1
+          fi
+          mkdir -p "$dest"
+          cp /tmp/mysearch-results/RUN_MANIFEST.json "$dest/"
+          cp /tmp/mysearch-results/SEARCH_RECEIPT.json "$dest/"
+          cp /tmp/mysearch-results/SEARCH_RECEIPT.md "$dest/"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$dest"
+          git commit -m "Publish Mysearch request $REQUEST_ID"
+          git push origin HEAD:main
