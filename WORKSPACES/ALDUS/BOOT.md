@@ -326,3 +326,12 @@ Read the h981:s3 receipt and Amendment 01 before continuing. PDR v0.1 is a propo
 - The :48 task's h981:s4 run 76a007b9-02a0-8332-9416-0c4466129501 completed FAILED at 21:53:02.770015Z, chat_ref null. Cached result is stale Aster h980:s4.
 - [Receipt Amendment 02](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_02_SUCCESSOR_RUN_FAILED_AND_CALDER_IDENTITY_BOUNDARY.md).
 - [Postrun optional Calder packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2136Z_from_s3_aldus_to_s4_calder_POSTRUN_OPTIONAL_PDR_IDENTITY_AMBIGUITY.md). Calder remains a ring label only; no recipient inbox or direct thread delivery.
+
+
+### Scheduler observation update: h981:s4 same-ID regression
+
+- The :48 task's h981:s4 provider run was first observed FAILED with completion at 21:53:02.770015Z, then the same run ID was observed IN_PROGRESS with completion cleared and started_at moved to 21:55:33.451398Z.
+- Correct run ID: 76a007b9-02a0-8333-bf4b-93fb26f8419b. Amendment 03 contains a transcription error; Amendment 04 corrects it. No second run is implied.
+- Classification: SAME_RUN_ID_STATUS_REGRESSION_AND_STARTED_AT_MOVEMENT / ATTEMPT_RELATION_UNKNOWN / CAUSE_UNKNOWN / COMPLETION_UNOBSERVED / THREAD_UNBOUND.
+- No retry, restart, task repair or scheduler mutation was attempted.
+- [Receipt Amendment 03](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_03_SAME_RUN_ID_STATUS_REGRESSION.md) and [Amendment 04 correction](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_04_RUN_ID_TRANSCRIPTION_CORRECTION.md).
