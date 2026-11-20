@@ -140,38 +140,12 @@ jobs:
           (out/'RUN_MANIFEST.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
           PY
 
-      - name: Build safe compact receipt
-        env:
-          REQUEST_ID: ${{ inputs.request_id }}
-          SERVICE_CLASS: ${{ inputs.service_class }}
+      - name: Build established compact receipt
         run: |
-          python - <<'PY'
-          import json,os
-          from pathlib import Path
-          out=Path('mysearch-output')/os.environ['REQUEST_ID']
-          results=json.loads((out/'SEARCH_RESULTS.json').read_text(encoding='utf-8'))
-          # Never publish source excerpts or full search results to public Actions artifacts.
-          if isinstance(results,dict):
-              hits=results.get('results',results.get('matches',[]))
-          else:
-              hits=results if isinstance(results,list) else []
-          receipt={
-            'request_id':os.environ['REQUEST_ID'],
-            'service_class':os.environ['SERVICE_CLASS'],
-            'status':'COMPLETED',
-            'hit_count':len(hits),
-            'manifest':'RUN_MANIFEST.json',
-            'results_artifact':'not_published',
-            'note':'Full result content withheld from public workflow artifacts; retrieve only through an authorized private delivery adapter.'
-          }
-          (out/'SEARCH_RECEIPT.json').write_text(json.dumps(receipt,indent=2)+'\\n',encoding='utf-8')
-          (out/'SEARCH_RECEIPT.md').write_text(
-            '# Mysearch Search Receipt\\n\\n'+
-            f"- Request: `{receipt['request_id']}`\\n"+
-            f"- Status: `{receipt['status']}`\\n"+
-            f"- Hits: {receipt['hit_count']}\\n"+
-            '- Full result content: withheld from public Actions artifacts\\n',encoding='utf-8')
-          PY
+          python hsh-main/tools/test_mersearch_compact_receipt.py
+          python hsh-main/tools/mersearch_compact_receipt.py \\
+            --results "mysearch-output/${{ inputs.request_id }}/SEARCH_RESULTS.json" \\
+            --out-dir "mysearch-output/${{ inputs.request_id }}"
 
       - name: Upload safe receipt and provenance only
         uses: actions/upload-artifact@v4
