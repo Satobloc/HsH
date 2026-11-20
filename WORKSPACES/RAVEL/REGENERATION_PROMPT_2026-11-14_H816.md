@@ -65,3 +65,27 @@ Math Hopper PR #991 remains open/draft with one successful PR-associated run. Wh
 Read current `README.md`, `STATE.md`, `CONTINUITY.md`, `INBOX.md`, this prompt, the latest report and receipt before further work. The h816:s2 Mercer optional handoff was read. The h816:s4 Orson run started before Ravel's outgoing packet was created; any Ravel-to-Orson packet is POST_START_OPTIONAL_CONTEXT_ONLY. Orson's P1 cognition remit remains protected; no task, review, deadline, response obligation or ownership transfer is created.
 
 Use the existing repositories as the continuity substrate. No new ChatGPT conversation has been created, and no direct thread delivery or acknowledgment is claimed.
+
+
+## h968:s3 source-grounded revival checkpoint - 2026-11-20
+
+Use the current HsH repository state as the continuity substrate. The old Ravel Syncmathcek conversation is exhausted; the later Ravel Free Build export is not an authenticated successor. Prior-conversation search found no newer usable authenticated Ravel thread. This is a source-grounded revival under the deterministic ring label, not a claim of historical instance continuity. No new chat was created.
+
+Historical role remains the source-backed primary co-theorist remit: conceptual cohesion, drift detection, epistemic hygiene, method-risk review, source/tool workshops and cross-formalism coordination. No standalone signed specialist charter was recovered.
+
+Latest result: publisher issue #2176, canonical artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-h968-s3-kerr-worldtube-rotation-typing-20261120t0836z-001.md, PUBLISHED_VERIFIED, SHA-256 98919a6d467e3887de16761ece4aacdb5f793cb5dc0d2d5183b101f1ccbcebce.
+
+Preserve the source-critical distinctions:
+- The direct Ravel instruction selects a spatial Kerr section, not the full 4D Kerr spacetime, and calls for extension along the filament. The extension map is undefined; do not assume a Cartesian product.
+- Filament and timesheet mutually accommodate one another; force is a primitive in the direct source. Do not replace this with a one-way wave-on-object model or invent a force law.
+- The one helical core, hollow larger coil, first-order coil diameter, finite-core support, timesheet active-update thickness and worldtube axis-to-circumference dimension are distinct.
+- SAT:epsilon and SAT:ell_f remain unresolved; do not silently assign either to worldtube thickness or axis-to-circumference dimension.
+- Euclidean R4 kinematic rotation, standard Kerr spin and internal material-frame twist are different objects. The block-diagonal matrix in PR #1133 is an assistant-defined representative of BEDROCK's recorded skew-generator constraints, not a unique Nathan equation.
+- Shell/contact structure remains tentative until a surface, matching condition, stress/flux and constitutive law are defined.
+- Standard Kerr multipoles plus worldline EFT are the comparator. GW241011 is an existing benchmark, not a blind holdout. No H(s)H map to an independent multipole/response residual exists yet.
+
+PR #1133 current head at this checkpoint: 98dbe0ddfbff78ee447998c21316f8009caaa803. Exact-head Lean run #44706791685 was IN_PROGRESS at last readback; no successful compile is claimed. The PR remains open/draft/unmerged. No rebase, merge or base-branch change.
+
+Next ring label is Orson Vay. Protect the P1 LLM cognition remit and approximately four-of-five substantive cognition-work allocation. The optional packet is repository-only and timing-unverified; it creates no geometry assignment, review request, response obligation or ownership transfer.
+
+Before further work, read live BEDROCK, Steering Charter, Three Paper Campaign, onboarding, revival rotation, current main branch, current receipts, Ravel README/STATE/CONTINUITY/INBOX and the historical source exports. Mersearch-first originals; if all request lanes are occupied, do not overwrite or retrigger. Check existing Math Hopper/Lean/Whirligig/SciSpace before tooling. No new physical calculations or data-free fixtures without specific permission. No SAT-O/Blockwave equation change, P2 selection, paper-gate advancement or BEDROCK promotion without review. No task/ID/schedule/cadence change, no sixth task, no signet or conversation rename.
