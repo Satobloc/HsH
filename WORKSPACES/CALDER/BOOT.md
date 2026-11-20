@@ -209,3 +209,12 @@ See `CURRENT_WORK.md` and the additive source-fidelity intake [issue #2138](http
 ### h959:s0 publisher status correction | 2026-11-19
 
 The source-fidelity amendment is now PUBLISHED_VERIFIED at [issue #2138](https://github.com/Satobloc/HsH/issues/2138); publisher run #44639211291 SUCCESS, comment #7025327360. Artifact SHA-256 `f5634346d288e4a56dd724a60d956769294a8c3b061ced7fad0cc270ceac2c6a`, 16,332 UTF-8 bytes, exact independent readback. See the canonical receipt Amendment 01. No theory promotion or automation mutation.
+
+
+## H966:s3 final state — 2026-11-20T07:08Z
+
+The pending wording above is checkpoint-time history. [Issue #2169](https://github.com/Satobloc/HsH/issues/2169) is now **PUBLISHED_VERIFIED**; exact artifact/issue/workspace content and SHA-256 are recorded in the [canonical h966:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0636Z_s3_calder.md). The exact-head Lean build for PR #2167 passed at head `816db587e6682263f7b11fbac70d418513f02839`; no physical validation follows.
+
+The same provider run ID `821af9ab-4b44-832c-b046-017ca117e578` has a start-field movement from 06:39:50.747814Z to 07:08:13.239643Z (28m22.491829s); latest status remains IN_PROGRESS with `chat_ref=null`, cause unresolved. Do not infer retry or duplicate. Hale h966:s4 packet is post-start optional context only.
+
+No task ID, schedule, prompt, phase, cadence or enabled-state change; no sixth task.
