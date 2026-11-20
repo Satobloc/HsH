@@ -47,3 +47,12 @@ These are prior sources and frameworks, not independent replications of AgentCha
 ## Retrieval and reproduction status
 
 Retrieved exact source code blobs and five dataset case blobs. Ran a deterministic read-only prefix-key collision check. Did not run any model, API endpoint, human session, or full dataset benchmark. No external repository changes.
+
+
+## HsH publication
+
+- Report: WORKSPACES/LOOM/2026-11-20T1648Z_H976_S4_AGENTCHAOSBENCH_TRACE_PROJECTION_AUDIT.md
+- Publisher issue: #2208
+- Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-h976-s4-agentchaos-trace-projection-20261120t1648z-001.md
+- SHA-256: 766831940eb094c16af44ba6b2fade19e8dd36343fe9551ca7669e4b43075783
+- Status: PUBLISHED_VERIFIED
