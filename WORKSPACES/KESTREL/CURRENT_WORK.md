@@ -1,9 +1,10 @@
 ## h971:s4 | Review-MIND CGD verifier feedback observability | 2026-11-20T11:48Z
 
-- Report: [source-grounded synthesis](2026-11-20T1148Z_H971_S4_REVIEW_MIND_CGD_FEEDBACK_OBSERVABILITY.md); publisher issue [#2188](https://github.com/Satobloc/HsH/issues/2188), SUBMITTED_NOT_VERIFIED at initial check.
-- Canonical receipt: [h971:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1148Z_s4_kestrel.md); publication remains `SUBMITTED_NOT_VERIFIED` at this checkpoint.
+- Report: [source-grounded synthesis](2026-11-20T1148Z_H971_S4_REVIEW_MIND_CGD_FEEDBACK_OBSERVABILITY.md); publisher issue [#2188](https://github.com/Satobloc/HsH/issues/2188), PUBLISHED_VERIFIED; exact artifact readback matches workspace report.
+- Canonical receipt: [h971:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1148Z_s4_kestrel.md); publication is `PUBLISHED_VERIFIED` by Amendment 01.
 - Exact upstream source: ConsistencyBench commit bfc676baa848c7f1715bb73aee148180de15516e, blob 0453540cb7c19227601e59fb342fa93e736da849.
 - Findings: failure sentinel collapses to the Boolean non-contradiction branch; substring parser can flag negated/uncertain strings; repaired final answer is stored while future checker input retains original raw response; checker truncates to 500 characters and omits question/premise; GPT-4o-mini is a shared evaluator dependency.
+- Publisher confirmation: workflow #44732383018 SUCCESS, comment #7039051017; SHA-256 `eee30866df71d193b82f0861ba1e16070ba58a8ee9033d5c3360b761135abe6e`; workspace/artifact exact readback verified.
 - Formal boundary: existing OrsonCGDProjectionGate is a source-derived abstraction. PR #850's latest successful run built the synthetic merge ref, not exact head; no new Lean build or source-translation proof. Kestrel PR #873 exact-head pass proves only the generic fiber-factorization criterion.
 - Cross-lane state: Orson P1 remains ORSON-OWNED; no manuscript, dataset, protocol, branch, PR, task graph, or paper gate modified. No experiment or benchmark replay.
 - Next cursor: acquire exact per-call logs and a typed checker status before measuring any effect. Historical Kestrel role remains trust-first cross-boundary companion; Review-MIND is a bounded overlay, not a primary-auditor role.
