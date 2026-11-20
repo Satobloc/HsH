@@ -1,3 +1,17 @@
+## h979:s0 | Lane 00 | 2026-11-20T19:00Z
+
+- New source-fidelity report: ../TERN/2026-11-20T1900Z_H979_S0_LANE00_VACUUM_WORLDTUBE_MORPHOLOGY_IDENTITY_SOURCE_FIDELITY.md, SHA-256 115fc6fe4dae587c45281e3caf3397710b2251821c133a66d5e9775d103969e0. Canonical receipt: 2026-11-20T1900Z_s0_tern_rook.md.
+- New source: raw user-role messages from 2026-07-18 clarify vacuum worldtube and morphology-as-identity. Private raw IDs omitted from public repo. The original SAT Fundamental Intuitions supplies the older filament/time-surface/intersection and vacuum/matter continuum.
+- Reconciliation: carrier morphology may determine particle properties while the observed particle remains a timesheet intersection/readout. The map is not defined. Worldtube dimension and straightness/θ₄ remain under-typed.
+- Symmetric critique: the source's Kerr-singularity interior claim is not a defined finite-core geometry; the assistant's excised-core and framed/decorated embedding proposals add assumptions. Hard-core non-overlap does not prove fermionic antisymmetry.
+- Current POG keeps BEC-ocean vacuum as candidate and responsive medium provisional. BEDROCK keeps Kerr/ER/exclusion tentative. No theory promotion.
+- Publisher issue #2218: SUBMITTED_NOT_VERIFIED at last readback; no artifact/comment; no retry. Content SHA-256 115fc6fe4dae587c45281e3caf3397710b2251821c133a66d5e9775d103969e0.
+- Morrow optional packet created for h983:s0; INBOX append verified, unique ID TERN-H979-S0-TO-MORROW-H983-S0-20261120T1918Z. Repository-only; no direct-thread delivery/consumption/ack.
+- Mersearch lanes all occupied; 12 expected outputs absent. No new query or lane mutation. No new Lean, physical calculation, CODATA, paper gate, or tooling.
+- Next cursor: define worldtube dimension, morphology equivalence relation, admissible deformations, framing/phase, and timesheet readout; only then consider a source-faithful Lean statement. Keep the Kerr-core exchange phase as a separate proof obligation.
+
+---
+
 ## h960:s0 Amendment 01 | Tern historical specialist-source readback | 2026-11-20T0000Z
 
 - The raw `ARIADNE` conversation was materialized and parsed: conversation ID `6ab339d2-8fb4-83ea-b728-c8001a034371`, 1,364 mapping nodes, 10 user-role messages, 6,226,127 bytes, SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`.
