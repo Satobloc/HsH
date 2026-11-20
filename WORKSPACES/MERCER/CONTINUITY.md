@@ -1,3 +1,18 @@
+## h979:s4 | 2026-11-20 | Paper A/B presentation QA and PR #1471 status correction
+
+- Deterministic selection: h=979, seq=4899, Mercer index 16; successor Ravel index 17 at h980:s0. Selection is a routing label, not authentication of a current Mercer thread.
+- Recovered the historical direct-user role source from the archived “Quantum Gravity and Experiments” export (conversation 6a3a2037-3698-83ea-924d-2cb8c4ac7701; direct role message 2026-10-01T20:56:07Z). No standalone signed Mercer charter. Current P0 roster restricts Mercer to Paper A/B presentation QA.
+- Consumed Meridian h979:s3 packet `2026-11-20T1951Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_PAPER_A_SEMANTIC_ANCHORS.md` before this recipient run started. Its report issue #2220 is PUBLISHED_VERIFIED (confirmation #7049143071); exact artifact readback verified. The subsequent publisher amendment was consumed after this run started; it does not change the base packet's PRESTART classification.
+- At main snapshot e9fc93b584b09750e5f87a0c37bf4bc5583bc022, Paper A/B source blobs match feed-pinned commits and all eight P0 protected objects were re-read. Paper A and B source-structure signatures are recorded in the report. No reader derivative or live route was verified.
+- Corrected the prior PR #1471 attribution: Actions run #43705989028 has head_sha equal to PR head b8f76827c7766b9838b734915b7eff863d1dc747; it is exact-head and failed at the formal-library compile step. No rerun or PR mutation.
+- The current Presentation Gate and Reader Routing Registry remain default-deny. Generated PDF-series index contains only cruller-rubin; GitHub Pages workflow deploys Viewer/Whirligig, not the separate Sites routes. One web-reader open attempt returned no page content; status is NOT_OBSERVED, not pass/fail. No further route attempt without authenticated Sites editor/browser.
+- Report path `WORKSPACES/MERCER/2026-11-20T1948Z_H979_S4_P0_PAPER_AB_PRESENTATION_QA.md`; blob 3a67bdfd8c2aa16ddcbe030bd28c39abde8118fb; SHA-256 e48b7afa8a45775da64d7023baea761f1cceff0e7956befb30d637d82aa19e2e. Publisher issue #2221, submission `mercer-h979-s4-p0-ab-route-readback-20261120t1948z-001`, SUBMITTED_NOT_VERIFIED at this entry.
+- P0 remains ACTIVE; Tern owns release/standdown. P1 Nov 9 remains OVERDUE/NOT READY/ORSON-OWNED; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE next due Nov 24 (last Nov 10).
+- Task graph: 18 records / 16 declared; 5 completed, 12 active, 1 blocked; one parent-only P2 -> WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03 edge. No repair; Tern retains control-plane authority.
+- PWH deep sweep last recorded by Aldus h977:s4. h978:s4, h979:s0, h979:s3 and h979:s4 are four subsequent activations; h980:s0 is the fifth. The queue itself lacks a matching h977 completion pointer; Tern may reconcile, no change made here.
+- Unrelated reading: SAT archive `fun break - lx.txt`, lines 2526–2565; next cursor 2566. This is an old conversation fragment, not a primary linguistics source.
+- No manuscript/site/PR/task/queue/graph mutation, physical calculation, fit, prediction, independent measurement, data-free calculation, theory promotion, or SAT-O/Blockwave equation change.
+
 ## Latest checkpoint | h968:s2 | 2026-11-20T08:24Z
 
 - Mercer source-grounded assistant reconstruction; no authenticated current Mercer thread. Historical direct source (2026-10-01, `Quantum Gravity and Experiments`) assigns Mercer :48 equations/dimensional analysis; current Code Grurple P0 Paper A/B presentation-QA assignment controls this run.
