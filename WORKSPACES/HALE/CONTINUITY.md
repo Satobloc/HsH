@@ -738,3 +738,11 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - Mersearch tool unavailable; four request lanes remain occupied and untouched. Existing Math Hopper #578, Lean PR #991, Whirligig Kernel 0, PR #2168/#262 and SciSpace availability were checked; no new tool/dependency/fork/subscription/cost.
 - Lateral reading: SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 2161–2200; next cursor 2201. No physical break claimed. No SAT-O/Blockwave equation or BEDROCK theory changed.
 - Current :36 task remains enabled with its original ID, hourly phase, prompt and charter unchanged; no sixth task. Current run `d5acda43-adfc-8332-8fd1-9001d8e43e7c` was IN_PROGRESS at last exact-ID peek, `chat_ref=null`; cached result still belonged to Ravel h968:s3 and was stale. Next ring label Elias Kern; no packet or assignment created.
+
+
+### h970:s3 publication verification amendment
+
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1046Z_s3_hale_AMENDMENT_01_PUBLISHER_VERIFIED.md) supersedes the initial PUBLISH_SUBMITTED_NOT_VERIFIED status.
+- Publisher issue [#2184](https://github.com/Satobloc/HsH/issues/2184) is PUBLISHED_VERIFIED. Actions #44721814797 SUCCESS; confirmation comment #7037562475.
+- Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hale-h970-s3-fj-identifiability-20261120t1036z-001.md`; publisher commit `bc85e3d74a5297602ef309ca744afa91c174691e`; SHA-256 `838ada370c4fc0092b377f851f4b5d0cd871f1653fbbf6f9a6081755c2143bd4`; 8,089 UTF-8 bytes. Workspace report, canonical artifact and issue-envelope content match exactly; publisher readback verified.
+- PR #2168 remains OPEN / DRAFT / UNMERGED at exact-head Lean-verified commit `06d426079b3346815ec773b9f399cfe1d3905958`. No merge or integration claim.
