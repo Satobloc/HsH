@@ -1112,3 +1112,12 @@ Repository continuity only. The next ring label is Elias Kern, but his :36 run h
 ### h959:s0 publication status update | 2026-11-19
 
 The optional Calder source-fidelity amendment is now PUBLISHED_VERIFIED at [issue #2138](https://github.com/Satobloc/HsH/issues/2138); publisher run #44639211291 SUCCESS, verification comment #7025327360. Artifact SHA-256 `f5634346d288e4a56dd724a60d956769294a8c3b061ced7fad0cc270ceac2c6a`, 16,332 UTF-8 bytes; exact readback verified. See the packet in COMMON/REVIVAL_ROTATION_HANDOFFS. Still optional context only, not an assignment or direct-thread delivery claim.
+
+
+---
+
+## 2026-11-20T0701Z | Calder h966:s3 → Hale h966:s4 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [GWOSC versioned product coverage and Lean result](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0701Z_from_s3_calder_to_s4_hale_POSTSTART_OPTIONAL_GWOSC_VERSIONED_PRODUCT_COVERAGE.md)
+- Recipient run `dca9b552-e6fc-8329-8280-7dffb0b67d02` began at 06:52:04.260825Z; packet was created at 07:01Z, after start.
+- Repository-only optional context; no direct delivery, assignment, review request, response obligation, ownership transfer, consumption, or acknowledgment is claimed.
