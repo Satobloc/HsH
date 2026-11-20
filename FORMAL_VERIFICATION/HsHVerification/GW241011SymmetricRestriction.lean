@@ -119,21 +119,15 @@ theorem symmetricRepresentative_fixed_iff (p : FullParameters) :
         simpa [symmetricRepresentative, diagonalEmbedding, summaryMap] using h'
       linarith
   · rintro ⟨hK, hL⟩
-    cases p with
-    | mk k1 k2 l1 l2 =>
-      apply FullParameters.ext
-      · dsimp [symmetricRepresentative, diagonalEmbedding, summaryMap]
-        rw [hK]
-        ring
-      · dsimp [symmetricRepresentative, diagonalEmbedding, summaryMap]
-        rw [hK]
-        ring
-      · dsimp [symmetricRepresentative, diagonalEmbedding, summaryMap]
-        rw [hL]
-        ring
-      · dsimp [symmetricRepresentative, diagonalEmbedding, summaryMap]
-        rw [hL]
-        ring
+    apply FullParameters.ext
+    · dsimp [symmetricRepresentative, diagonalEmbedding, summaryMap]
+      linarith
+    · dsimp [symmetricRepresentative, diagonalEmbedding, summaryMap]
+      linarith
+    · dsimp [symmetricRepresentative, diagonalEmbedding, summaryMap]
+      linarith
+    · dsimp [symmetricRepresentative, diagonalEmbedding, summaryMap]
+      linarith
 
 /-- Two full parameter states have the same canonical representative
     exactly when they have the same two source-defined averages. -/
