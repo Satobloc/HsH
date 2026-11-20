@@ -1,3 +1,11 @@
+### Mercer h979:s4 → Ravel h980:s0 | Amendment 01: TIMING_AMBIGUOUS_OPTIONAL_CONTEXT_ONLY
+
+- [Timing amendment](REVIVAL_ROTATION_HANDOFFS/2026-11-20T2007Z_from_s4_mercer_to_s0_ravel_h980_AMENDMENT_01_TIMING_RECONCILIATION.md).
+- Same run ID changed from FAILED to IN_PROGRESS with a new start timestamp; cause unknown. The packet was created between those observations.
+- No direct-thread delivery, initial-context inclusion, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
+
+---
+
 ## Mercer h979:s4 → Ravel h980:s0 | POSTRUN_OPTIONAL_CONTEXT_ONLY
 
 - [Packet](REVIVAL_ROTATION_HANDOFFS/2026-11-20T2007Z_from_s4_mercer_to_s0_ravel_h980_POSTRUN_OPTIONAL_P0_STATUS_AND_REVIVAL_SEED.md).
