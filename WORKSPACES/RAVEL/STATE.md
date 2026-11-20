@@ -936,3 +936,12 @@ Unrelated reading side-pass: Babbage Project Gutenberg #1216, web-rendered lines
 - Existing PR #1133 head fc7f92722fe5e0757d55f961b54a12bdee66d5da exact-head run #44709605971 SUCCESS; full Lake build 8,954 jobs, RavelSkewRotationKinematics built at 8,947/8,954.
 - Tests/lint/nanoda/global axiom audit skipped; no theorem-specific axiom audit or mainline integration. PR remains open/draft/unmerged.
 - This is assistant-defined matrix algebra only; no physical translation, H(s)H prediction, fit, or independent measurement.
+
+
+## h968:s3 Amendment 04 | 2026-11-20 | source-section identity and run snapshot
+
+- Canonical receipt Amendment 04: [section identity correction and current run observation](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0930Z_s3_ravel_AMENDMENT_04_SECTION_IDENTITY_AND_RUN_SNAPSHOT.md).
+- Source correction: [issue #2179](https://github.com/Satobloc/HsH/issues/2179), PUBLISHED_VERIFIED; SHA-256 `b00d85169d8aba57ad8138fa923540406d8fbb9222fa1daae94ec2d46364b96f`; parent #2176 pointer comment #7036338941. The original “3D simultaneity section” wording is not source-defined: the Kerr spatial section and the third-representation “3D slice” remain separate source-level roles with no recovered identity map.
+- Same provider run ID `8fa68115-f154-832e-b832-96571e8e5667` / same h968:s3 slot appeared with `started_at` 08:59:58.217563Z and then 09:30:00.751950Z. Current provider state remains IN_PROGRESS / completion null / chat_ref null; cached result remains the prior h967:s3 Tern output. No attempt/retry/restart/duplicate conclusion; parent report producer-run attribution remains unresolved.
+- Orson h968:s4 started before the optional packet was created and completed afterward; packet remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No delivery, consumption, acknowledgment or ownership transfer claimed. P1 cognition remains Orson-owned.
+- P0 ACTIVE; P1 OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE next due Nov 24. No physical calculation, fit, H(s)H prediction, independent measurement, equation change, P2 selection, or BEDROCK promotion.
