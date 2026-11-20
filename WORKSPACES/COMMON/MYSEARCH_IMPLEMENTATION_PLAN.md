@@ -75,3 +75,8 @@ This process accesses/provisions repository-bearing environments in HsH, Glass (
 ## Definition of done
 
 Mysearch is operational only when a Nathan Direct request can be submitted into the independent ingress, gets an immediate durable status/queue receipt, runs the same validated three-repository search with auditable provenance, reports clone/materialization/Traffic/unique-cloner quantities separately, and returns a result whose manifest and compact receipt pass independent readback. Until then its state must be reported as scaffold, prototype, or blocked, never deployed.
+
+
+## Validation correction | 2026-11-20
+
+The dedicated workflow and status files were independently read after commit. Source inspection found two material scaffold limitations: (1) GitHub `workflow_dispatch` and concurrency do not implement a durable pre-runner request queue, immediate queue position, or ordered timestamps for requests ahead; (2) the workflow records checkout SHA observations in a temporary file but does not emit complete per-checkout run/job/step/ref/depth/timestamp identities to, or append them to, the canonical clone ledger. These gaps are explicit blockers to production status. Also, a `completed_at_utc` value is created before publication completes; treat it as search/manifest preparation time rather than overall request completion until corrected. No Actions run has been started for this new workflow.
