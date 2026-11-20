@@ -98,3 +98,13 @@ Before further work, read live BEDROCK, Steering Charter, Three Paper Campaign, 
 - PR #1133 remains OPEN / DRAFT / UNMERGED. GitHub reported mergeable=true at last readback. No rebase, merge or base change.
 - WH-02 issue #1702 received additive status comment #7035180560. Calder-owned PR #1710 is 7 ahead / 7,192 behind current main c4e9b648857f40ce53bfe28b541b4219dfe748c2, mergeable=false. This is not a rebase or CI result; Calder retains ownership and Tern retains queue coordination.
 - No new physical calculation, raw data, P2 selection, paper-gate advancement or BEDROCK promotion.
+
+
+## Amendment 02 | source attribution and execution binding | 2026-11-20
+
+- Read canonical receipt Amendment 02: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0918Z_s3_ravel_AMENDMENT_02_SOURCE_ATTRIBUTION_AND_EXECUTION_BINDING.md.
+- Public source correction issue #2178 is PUBLISHED_VERIFIED; parent issue #2176 points to it. Treat b27ec702 as a Mercer-origin user-role cross-post, not independent Meridian first-origin evidence. Upstream Mercer source node and embedded author boundary remain unresolved.
+- PR #1133 remains OPEN/DRAFT/UNMERGED. Proof-only repair head fc7f92722fe5e0757d55f961b54a12bdee66d5da; exact-head run #44709605971 was IN_PROGRESS at 09:18:32Z. Do not claim compile success; wait for exact-head result. No theorem statement or physical premise changed.
+- Orson h968:s4 :48 run completed genuine LLM-cognition source-audit work. The Ravel optional packet was POSTSTART_OPTIONAL_CONTEXT_ONLY; no assignment, consumption, or acknowledgment claim.
+- Current :36 run ID 8fa68115-f154-832e-b832-96571e8e5667 was IN_PROGRESS with null chat_ref at last peek; cached result is prior h967 Tern. Keep report publication separate from producer-run attribution. No duplicate report or issue.
+- Preserve exact :36 task ID, hourly schedule, prompt and phase; no sixth task. No Orson geometry assignment.
