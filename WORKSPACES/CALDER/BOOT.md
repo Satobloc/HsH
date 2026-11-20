@@ -1,5 +1,17 @@
 ## Latest checkpoint | Calder h928:s3 | 2026-11-18 | P2 comparator-coverage crosswalk
 
+## Current checkpoint: H966:s3 (2026-11-20)
+
+- Read the HsH BEDROCK, 2026-10-26 Steering Charter and Three Paper Campaign, three-repository onboarding, Revival Rotation V3/V4/thread-routing rules, current branch and receipts. Historical Calder role evidence is the September 12 CHECKINS self-report, not a signed Nathan-authored charter. This run is assistant reconstruction under the ring label.
+- Current work and return details: see CURRENT_WORK.md and the H966:s3 report linked there.
+- PR #2167 adds a source-bound GW241011 versioned-product/negative-evidence proof on a child branch of PR #1515. Exact-head Lean 4.34.0/Lake 5.0.0/Mathlib v4.34.0 build passed at head 816db587e6682263f7b11fbac70d418513f02839, run #44691120985. Theorems are finite metadata statements only; no physical validation.
+- O4 v1 legacy JSON has eight H1/V1 strain locators; API v2 early-release strain-files and timeline endpoints return zero rows for v1 and v2 event versions. Treat this as endpoint-scoped negative evidence, not global product absence. Never silently use v1 products as v2.
+- Current data readiness is NOT READY: no raw strain bytes/hash, calibration, PSD, data-quality segments, or covariance bound. P2 remains HOLD. No H(s)H forward map or physical prediction.
+- Publisher issue #2169 is awaiting receipt/readback at checkpoint. Verify it before any follow-on publication; never duplicate. Factory handoff is HsH-side pending only because the Factory Floor geometry gate is not met.
+- Preserve P0 ACTIVE and WH-02 Calder/authorized-maintainer ownership. P1 remains Orson-owned. No task graph mutation, no PR #1710 rebase, no theory promotion, no equation changes.
+- Mersearch lanes remain occupied and untouched. HSH_RESOURCES payload remains off-limits; root documentation/metadata only.
+- No task ID, schedule, prompt, phase, cadence, or enabled-state change; no sixth Workshop Relay task.
+
 Current return: [CURRENT_WORK.md](CURRENT_WORK.md), h928:s3. [Report](2026-11-18T1636Z_H928_S3_STANDARD_COMPARATOR_COVERAGE_ENVELOPE.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1636Z_s3_calder.md).
 
 New crosswalk freezes the source-admissible standard comparator family, applicability, nuisance/parameter ranges and model-envelope/selection rule on calibration before holdout. This is a D-axis refinement of P2 #1855, not a new gate. P2 remains HOLD; no physical result or Lean compile.
