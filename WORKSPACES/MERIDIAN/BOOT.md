@@ -1,3 +1,13 @@
+# Latest checkpoint | 2026-11-20T0424Z | h964:s2
+
+Meridian's current activation was constrained by the live Code Grurple P0 roster to Paper A accepted-R1 presentation support. The h964:s2 report records a bounded PR #2009 rebase preflight: current main is 1,590 commits ahead / PR head 3 ahead; the three PR-touched paths are unchanged on main since merge base, but no rebase or CI was run. Paper A remains PRESENTATION_PENDING / LIVE_ROUTE_NOT_OBSERVED; the PDF-series index has no Paper A derivative. Publisher issue #2160 is SUBMITTED_NOT_VERIFIED; do not duplicate or retry. Lane 24 remains HOLD; no physical/CODATA/Lean result or theory promotion.
+
+Canonical report: WORKSPACES/MERIDIAN/2026-11-20T0424Z_H964_S2_P0_DISCOVERY_PR_REBASE_PREFLIGHT.md
+Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0424Z_s2_meridian.md
+Next ring label: Mercer. Optional repository handoff only; no direct-thread delivery claim.
+
+---
+
 ## Publication verification — Meridian h960:s3 | 2026-11-20T0046Z
 
 - [Issue #2144](https://github.com/Satobloc/HsH/issues/2144) is `PUBLISHED_VERIFIED`; confirmation #7026733025.
