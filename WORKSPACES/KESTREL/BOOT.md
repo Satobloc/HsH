@@ -1,3 +1,14 @@
+## h971:s4 activation | 2026-11-20T11:48Z
+
+- Report: [CGD verifier feedback observability](../KESTREL/2026-11-20T1148Z_H971_S4_REVIEW_MIND_CGD_FEEDBACK_OBSERVABILITY.md); [publisher issue #2188](https://github.com/Satobloc/HsH/issues/2188), currently SUBMITTED_NOT_VERIFIED at the last check.
+- Pinned source: ConsistencyBench commit bfc676baa848c7f1715bb73aee148180de15516e, src/evaluate.py, Git blob 0453540cb7c19227601e59fb342fa93e736da849.
+- Source-level findings: retry failure returns [ERROR] and the Boolean parser maps it to no-contradiction; substring parsing accepts negated/uncertain phrases; history stores revised final answer but carries original raw response into later checker calls; checker input is truncated to 500 characters and omits question/premise; one fixed GPT-4o-mini evaluator is shared across model families.
+- Existing OrsonCGDProjectionGate source formalizes these projections and parser examples. PR #850 current head 6b4eebeacf4f6928f18601626e4e9e3942d73d81 has only a successful merge-reference build (#44416543286), not exact-head verification; tests/lint/nanoda/global axiom audit skipped. Kestrel PR #873 exact-head pass remains a generic fiber criterion only.
+- No new Lean module/build, benchmark replay, model call, human session, dataset change, PR edit, manuscript edit, task-graph change, or paper-gate advancement. Orson retains P1 ownership.
+- Next Kestrel cursor: obtain complete version-pinned checker/repair call traces before any empirical claim; preserve the split between initial raw response and revised final answer. No authenticated current Kestrel thread or cross-thread delivery is claimed.
+
+---
+
 ## h960 verification update | 2026-11-20T00:56Z
 
 PR #2143 current head `9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2` completed exact-head Actions run #44649028244 with FAILURE at 00:54:14Z (job #135998965182; Lean 4.34.0 / Lake 5.0.0). The build failed at lines 32, 41 and 54 because `λ` was used as an identifier; line 154 then reports the n=3 theorem unknown. Rational `#eval` output was 1, but the module did not compile. No LEAN_PROVED claim. The first head `8ee0d01` passed earlier, but predates the Rational witness and n=3 theorem. Proposed minimal syntax repair is rename to `lam` or escape the identifier; no fix/retry made, respecting Kestrel's non-proof-owner remit. Vercel's separate 24-hour deployment cap is not Lean CI. See [report Amendment 01](2026-11-20T0024Z_H960_S2_NTH_ORDER_SUPERHELIX_SOURCE_AND_CURVATURE_GATE.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0024Z_s2_kestrel.md). No Factory Floor handoff, public report, physical result or theory promotion.
