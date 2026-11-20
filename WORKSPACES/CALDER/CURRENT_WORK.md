@@ -683,3 +683,12 @@ Receipt Amendment 02 corrects the published report's raw-export inventory count:
 
 - Timing-correction intake #2183 was rejected: run #44721024686 SUCCESS with publisher comment #7037444670 `REJECTED: SHA-256 mismatch`. Declared `4f4dffacec8907f2f5fdfc7872a66218a8ae03dc4d350bd4e33c680a45b4e177`; independently recomputed exact issue-content digest `aa74d8c42989a0e8b27faad2100bfbc969cea8c0a82a49049e8a2d878aa67eea`. Issue content equals internal amendment file (2,999 bytes); expected published artifact absent.
 - No retry, duplicate issue, new submission ID or direct publication write. Internal timing correction remains in receipt/handoff amendments and Hale INBOX. Parent report #2182 remains PUBLISHED_VERIFIED. A public comment on #2182 records the POSTSTART correction and rejection of #2183.
+
+
+### h970:s2 Amendment 03 | final main and scheduler readback
+
+See [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1024Z_s2_calder_AMENDMENT_03_FINAL_MAIN_AND_SCHEDULER_READBACK.md). Final main at this readback: `a5d3c95d31ad2c98552aead8fbb16e8f1f9a5f1c`; protected P0 vector remains 8/8 exact. PR #2009 is 3 ahead / 1,856 behind; PR #2050 is 11 ahead / 1,499 behind; neither has an exact-head PR Actions run or formal review, and neither was rebased. All respective touched paths remain unchanged on main since merge base. The h970 unrelated reading break covered SAT archive lines 1801–1840; next 1841. FIE next review November 24.
+
+Scheduler final readback: :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled and unchanged; run `b5b158c0-8ff8-832a-8d64-42778157b962` IN_PROGRESS with chat_ref null. :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled and unchanged; run `d5acda43-adfc-8332-8fd1-9001d8e43e7c` IN_PROGRESS with chat_ref null, started at 10:33:02Z before its 10:36Z scheduled time. Its cached result is Ravel h968, not Hale h970. No direct-thread delivery is claimed.
+
+Parent publisher issue #2182 remains PUBLISHED_VERIFIED. Correction issue #2183 was PUBLISHER_REJECTED for SHA mismatch; no retry or duplicate. The public parent issue comment #7037468285 and internal amendments preserve the poststart correction.
