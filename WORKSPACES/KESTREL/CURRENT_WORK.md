@@ -1,7 +1,7 @@
 ## h975:s3 | Source-commitment freeze and finite-core approximation gate | 2026-11-20T15:36Z
 
-- Report: [source-commitment correction and proposed SourceCommitmentFreeze](2026-11-20T1536Z_H975_S3_SOURCE_COMMITMENT_FREEZE_AND_FINITE_CORE_APPROXIMATION_GATE.md); publisher issue [#2203](https://github.com/Satobloc/HsH/issues/2203), SUBMITTED_NOT_VERIFIED at last check. Do not retry or duplicate; verify existing submission ID and canonical artifact first.
-- Canonical receipt: [h975:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1536Z_s3_kestrel.md).
+- Report: [source-commitment correction and proposed SourceCommitmentFreeze](2026-11-20T1536Z_H975_S3_SOURCE_COMMITMENT_FREEZE_AND_FINITE_CORE_APPROXIMATION_GATE.md); publisher issue [#2203](https://github.com/Satobloc/HsH/issues/2203), PUBLISHED_VERIFIED by comment #7044163236; SHA-256 8a5f0cd587af838cf8ba747b1f655285fa878a0d3edfb2b81480a164481a038d.
+- Canonical receipt: [h975:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1536Z_s3_kestrel.md); [Amendment 01: publisher verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1600Z_s3_kestrel_AMENDMENT_01_PUBLISHER_VERIFIED.md).
 - Correction: h974 M2 “finite-core thickness optional” is inconsistent with BEDROCK ND-2026-10-18-07. Qualitative intrinsic thickness is a source-committed working premise; its value, profile and map remain unresolved. The 0.7/0.7937 fm coil scale is not epsilon.
 - One helical core / hollow outer coil remains distinct from a second core; helical winding is source-described, separate normal-frame twist/holonomy is not. A 3D boundary is source-described; an active contact law is not. Medium/Kelvin-vortex or justified equivalent remains an active constraint.
 - Existing Kestrel PR #873 exact-head build #44090154878 was reused. No new Lean module, theorem or build. No physical calculation or measured dataset; P2 remains HOLD.
