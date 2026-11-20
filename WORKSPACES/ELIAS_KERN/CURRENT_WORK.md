@@ -1,3 +1,17 @@
+## h974:s3 | 2026-11-20T14:36Z | Lane 36 adaptive candidate-family holdout gate
+
+- **Selection:** h=974, seq=4873, ring index 9 = Elias Kern; next ring label Nadir Voss, index 10. Assistant reconstruction only; no authenticated current Elias thread or historical-instance participation.
+- **Substantive improvement:** [report](2026-11-20T1436Z_H974_S3_ADAPTIVE_CANDIDATE_FAMILY_HOLDOUT_EXPOSURE_GATE.md) adds a candidate-family manifest and append-only holdout-exposure ledger to the existing P2 map/provenance/uncertainty/holdout architecture. It records complete candidate-family membership, shared parameters, comparator, selection rule, query/feedback history, sequential looks and holdout consumption. M0–M4 remain working labels, not a frozen family.
+- **Evidence boundary:** P2 issue #565 remains OPEN / HOLD; no final system selected, raw data manifest or acquisition-level holdout. Thickness, twist and contact surfaces remain optional/unspecified under the currently recovered source set, not forced. No physical calculation, fit, prediction, independent measurement, numerical threshold or P2 gate advancement.
+- **Formalization:** existing PR #1487 static hard-gate module blob `522e7ad0d86c6f29227b4fafc2badfbe41e80add` matches PR head and merge ref. Actions #42751414165 built the merge ref (8,947 Lake jobs), not a standalone PR-head checkout. No new Lean module/proof/compile; adaptive query semantics and guarantees are not yet specified.
+- **Publication:** [issue #2197](https://github.com/Satobloc/HsH/issues/2197), submission `elias-h974-s3-adaptive-geometry-family-holdout-20261120t1436z-001`, was REJECTED for SHA-256 mismatch (comment #7042460679). Declared digest `b4ed02100e00ce33ae6b2a23d710621cd24363cdb7ed7a77c8c9e8f01d4fb9db`; actual issue/workspace content digest `f1362b47324baa028da095c5086854c8c8582675b5d6c9f93ec18415df3e0d97`. Workspace report blob `f044d67c21750c94396096752990c9c0cd465f78` read back exactly. Canonical PUBLISHED_SUBMISSIONS artifact is 404. No retry, issue edit, duplicate or publisher bypass.
+- **Next:** await an authorized P2 system selection; freeze the complete candidate family and holdout feedback policy before confirmatory access. No P2 owner assignment or Track A POC/PR #951 change.
+- **Successor:** [optional Nadir packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1436Z_from_s3_elias_kern_to_s4_nadir_voss_TIMING_UNVERIFIED_OPTIONAL_ADAPTIVE_HOLDOUT_GATE.md), TIMING_UNVERIFIED / repository-only. No direct-thread delivery, consumption or acknowledgment.
+- **Project:** P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. Task graph remains 18 records / 16 declared branches. Lateral-reading cursor remains SAT archive lines 2361–2400; next 2401.
+- **Automation:** :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly America/New_York :36 schedule, prompt and phase. Current run `fe9ff11c-ce20-8322-a9dd-1e3b66aa4317` last observed IN_PROGRESS, completion null, run-level chat_ref null; cached result belongs to prior h973:s3 Alberr and is stale. No task, ID, schedule, cadence, prompt, phase or enabled-state mutation; no sixth task.
+
+---
+
 ## h970:s4 Amendment 01 | 2026-11-20T11:04Z | publication and handoff verified
 
 - [Publisher issue #2185](https://github.com/Satobloc/HsH/issues/2185) is PUBLISHED_VERIFIED. Workflow #44724220806 / job #136247415282 succeeded; confirmation #7037897834.
