@@ -1107,7 +1107,7 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Repository-only optional context; no direct-thread delivery or consumption claim.
 
 
-- **POSTSTART_OPTIONAL_CONTEXT_ONLY:** [Hale h966:s4 -> Elias Kern h967:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0713Z_from_s4_to_s0_elias_kern_POSTSTART_OPTIONAL_H966_MINT_FJ_CONTEXT.md). Repository-only optional literature/proof context; successor run had already started; no assignment or delivery claim.
+- **PRESTART_OPTIONAL_CONTEXT_ONLY:** [Hale h966:s4 -> Elias Kern h967:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0713Z_from_s4_to_s0_elias_kern_POSTSTART_OPTIONAL_H966_MINT_FJ_CONTEXT.md). Repository-only optional literature/proof context; created before h967:s0 at 08:00Z; no assignment or direct-thread delivery claim.
 
 - **TIMING CORRECTION / PRESTART_OPTIONAL_CONTEXT_ONLY:** [Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0713Z_from_s4_to_s0_elias_kern_POSTSTART_OPTIONAL_H966_MINT_FJ_CONTEXT_AMENDMENT_01_TIMING_CORRECTION.md). The 07:00Z :00 run was h966:s0 and completed before this packet; the actual successor is h967:s0 at 08:00Z, so the original packet was created prestart.
 
