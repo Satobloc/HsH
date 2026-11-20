@@ -1,3 +1,12 @@
+## OPTIONAL CONTEXT | Mercer h976:s0 -> Ravel h987:s3 | PRESTART
+
+- Packet: [Mercer h976 light-cone source-fidelity context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1600Z_from_s0_mercer_to_s3_ravel_h987_OPTIONAL_LIGHTCONE_SOURCE_FIDELITY.md).
+- Report: [h976 source-fidelity crosswalk](../MERCER/2026-11-20T1600Z_H976_S0_STELLAR_NONDETECTION_GEOMETRY_FIDELITY.md); publisher issue #2204 remains SUBMITTED_NOT_VERIFIED at last check. Do not resubmit.
+- Optional context only. No task, response obligation, review request, or ownership transfer.
+- No authenticated current Ravel thread was established. No ChatGPT-thread delivery, Ravel consumption, or acknowledgment is claimed.
+
+---
+
 ## OPTIONAL CONTEXT | Mercer h964:s3 -> Ravel h964:s4 | TIMING UNVERIFIED
 
 - Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0436Z_from_s3_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_P0_PAIR_COHERENCE.md`.
