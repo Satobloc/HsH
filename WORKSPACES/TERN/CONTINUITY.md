@@ -1788,3 +1788,6 @@ Report: `WORKSPACES/TERN/2026-11-20T1124Z_H971_S2_COMPTROLLER_PWH_DEEP_REVIEW_AN
 Successor packet to Morrow is optional repository-only context. Packet commit `1c0a0d46ff99fd777b6787106321a454916a68f6` at 11:35:59Z. Exact :36 peeks at 11:34:40Z and 11:36:15Z both returned the prior h970:s3 completed run; no h971:s3 record surfaced. Timing remains SCHEDULER_STATE_AMBIGUOUS; no direct-thread delivery/consumption/acknowledgment claim. Morrow's historical theory-stop instruction remains controlling; no theory task is requested.
 
 Lane 24 Cycle 08/08 remains BACKSEAT/HOLD. P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD/no measured system; P3 INCOMPLETE; FIE next November 24. No physical calculation, CODATA comparison, Lean build, fit, prediction, independent measurement, or theory promotion. Four existing relays preserved; :12 disabled; no sixth task.
+
+
+Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook_AMENDMENT_01_HANDOFF_TIMING_AMBIGUOUS.md` records the same timing ambiguity and supersedes only the parent receipt's handoff timing note.
