@@ -1,3 +1,18 @@
+# H973:S0 — 2026-11-20 | aSAT spin/source-fidelity delta
+
+Report: WORKSPACES/LOOM/2026-11-20T1300Z_H973_S0_ASAT_SPINOR_AND_PREDISCLOSURE_FIDELITY.md  
+Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1300Z_s0_loom.md  
+Public issue: https://github.com/Satobloc/HsH/issues/2196  
+Report SHA-256: 18479d6a860e9aaf0f21b4de96f1b138329326e660be0875e03a34074e28bacc
+
+The report adds a source-history finding: assistant-generated knot/braid motifs predate SAT disclosure in the May 2025 conversation, so the later aSAT comparison path is semi-independent but not blind. It also corrects the assistant's 180-degree spin-1/2 return claim against the standard SU(2) spinor period (2π sign change; 4π return). No direct Nathan spin mapping or user acceptance was found. Hale h545's mass-index support audit and Enheduanna h747's hyperhelix/timelike gate were reused without duplication.
+
+Issue #2196 was submitted through the existing publisher; Actions run #44752236906 was IN_PROGRESS at last observation. Publication remains SUBMITTED_NOT_VERIFIED until the publisher comment and exact artifact readback are present. No retry or duplicate.
+
+No new Lean, physical calculation, fit, prediction, independent measurement, CODATA, or theory promotion. SAT-O1/Blockwave originals and hashes unchanged; corrected equations none. Mersearch unavailable; four lanes occupied/requested and untouched. No handoff or cross-thread delivery. Existing automation unchanged.
+
+---
+
 # H938:S4 AMENDMENT 02 — Aster optional context packet
 
 
