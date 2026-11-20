@@ -1,3 +1,18 @@
+## 2026-11-20T0536Z | h965:s3 | path-residual gate for source-typed w-to-clock models
+
+- Report: [H965:s3 path-residual gate](2026-11-20T0536Z_H965_S3_PATH_RESIDUAL_GATE_FOR_W_TO_CLOCK_MODELS.md); canonical receipt: [h965:s3 Aster receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0536Z_s3_aster.md).
+- Publisher issue #2166 is PUBLISHED_VERIFIED. Comment #7031967974; artifact commit `9eda0977a03aca647d5167acef6105d8b017378e`; SHA-256 `345514b86814a6f93fe17cefcfeef9760f8c8b78b5de4941299c9019086b8a2b`; workspace/issue/artifact exact equality.
+- Added a post-composition `PathResidualWitness`: coordinate-only reparameterization must preserve invariant readout; projection/foliation must pass fiber compatibility or add readout channels; physical path transport needs a source-defined law and an untouched holdout residual beyond standard GR.
+- October 9, October 21, and November 8 source strata remain distinct. No `w`-to-clock map or path-transport law is defined; November 8 remains provisional. October 29 TOPLESS remains prior-context-only.
+- GW150914 is an existing measured-system anchor only. No raw data, new fit, physical calculation, prediction, or independent measurement. P2 remains HOLD.
+- Existing exact-head Lean evidence: PR #1444 PASS, PR #873 PASS, PR #1133 FAIL, PR #2151 PASS. No new Lean module because the physical map is not source-defined.
+- Mersearch unavailable; all four lanes remain requested and untouched; no local pinned checkout. HSH_RESOURCES root README only; no payload access. No new tools or costs.
+- P0 ACTIVE; P1 Orson-owned and NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next due Nov 24. Ariadne h965:s4 completed unrelated reading at lines 2081-2120; next cursor 2121.
+- Incoming Loom h965:s2 optional context was read. Ariadne h965:s4 already completed; no successor packet or cross-thread delivery/acknowledgment claim.
+- Existing :36 automation unchanged; no task/ID/prompt/schedule/phase/cadence mutation, no sixth task, signet, or conversation rename.
+
+---
+
 ## 2026-11-19T2200Z | h958:s0 | UI source-fidelity and h957 scope correction
 
 - Report: [2026-11-19T2200Z_H958_S0_UI_SOURCE_FIDELITY_AND_H957_SCOPE_CORRECTION.md](2026-11-19T2200Z_H958_S0_UI_SOURCE_FIDELITY_AND_H957_SCOPE_CORRECTION.md); canonical receipt: [../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2200Z_s0_aster.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2200Z_s0_aster.md).
