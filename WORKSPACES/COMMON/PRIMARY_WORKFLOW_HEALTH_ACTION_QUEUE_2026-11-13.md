@@ -729,3 +729,25 @@ This is a coordination snapshot, not a code review, approval, rebase request, me
 - Status-only comment #7025886108 was added and read back exactly.
 
 The behind count increased from the h958 observation (6,676 behind). Calder/authorized maintainer retains code and rebase authority. Tern retains PWH coordination. No priority, owner, due date, branch, source, workflow, review, or task state changed.
+
+
+---
+
+## h971:s2 | Comptroller deep review and current-branch readback | 2026-11-20T11:24Z
+
+**Review trigger:** Five recent canonical work-product receipts were read after the h952 deep review: Mercer h968:s2, Aster h969:s2, Calder h970:s2, Hale h970:s3, and Elias Kern h970:s4. This is a durable-receipt sample, not proof of five authenticated worker threads or five scheduler-process completions. Hale #2184 and Elias #2185 were independently verified PUBLISHED_VERIFIED from their later amendments; no retry or duplicate was made. Morrow h967:s4 #2171 is also PUBLISHED_VERIFIED. FIE remains next due 2026-11-24.
+
+**Current main:** `3c6aadfe44279ceb8f554a3ba50e06035c29fba1`. Relative to the h970 verified P0 baseline `ed34bd5b27558cfec63c570c969cd879445df923`, the current main has 27 later commits. The bounded compare returned 15 changed paths; none of the eight protected Code Grurple source/control paths changed. The prior 8/8 exact vector therefore remains intact by path/ancestry comparison; no paper route was observed and P0 remains ACTIVE.
+
+**P0 / WH-02 / WH-05 branch readback:**
+- PR #2009: OPEN/DRAFT/UNMERGED, 3 ahead / 1,887 behind main; merge base `d47be7cfacfa182aedaad17a9e0841eb80fdfddb`; all 3 touched paths were fetched at main and merge base and have identical blob SHAs. Exact-head PR-triggered Actions: 0; formal reviews: 0. Same-path preflight only; no rebase/merge/deployment.
+- PR #1710 (WH-02): OPEN/DRAFT/UNMERGED, 7 ahead / 7,304 behind; merge base `7c40096153861e531b4ba234f28b41a2260fba04`; all 7 touched paths have identical main/merge-base blob SHAs. Exact-head PR-triggered Actions: 0; formal reviews: 0. Calder retains code/rebase authority; WH-02 remains the highest-priority unblocked PWH item.
+- PR #2050 (WH-05): OPEN/DRAFT/UNMERGED, 11 ahead / 1,530 behind; merge base `9743a5de5a830284ef76d96962cf061961315725`; all 4 modified workflow files have identical main/merge-base blob SHAs. The 2 proposed helper/test files are new paths absent from both main and merge base, not conflicting same-path edits. Exact-head PR-triggered Actions: 0; formal reviews: 0. This is not a full rebase/CI guarantee. Tern retains WH-05/PWH coordination and release authority.
+
+**Mersearch lane state:** the four canonical request files remain `status=requested` with unchanged request IDs and current blobs: Lane 1 `1774cfefe2dd0be5c1c5f4696cdc456d75ac4f6b`; Lane 2 `b7e0d432491962fcb5b8fd9cd5a6d08b7bf1bbe4`; Lane 3 `bc585da224e66c11da4e71e1e8a17812142aa2bf`; Lane 4 `9249b3f3969a425c8e94554b8039a3b868200433`. All 12 request-scoped `RUN_MANIFEST.json`, `SEARCH_RECEIPT.json`, and `SEARCH_RECEIPT.md` paths under `indexes/mersearch_requests/<request_id>/` returned 404. This is OUTPUT_MISSING, not a free lane or a completed search. No callable Mersearch action, request mutation, retry, overwrite, lane release, or fifth request.
+
+**Task graph:** live blob before this update `caeddc7825f604f7863c8bc601503f88482bedb5`; 18 records versus `branch_count=16`; 5 completed, 12 active, 1 blocked; 17 reachable and one blocked/unreachable `WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03`. Active/blocked/candidate triage count 13; priorities P0=3, P1=2, P2=3, P3=1, P4=1, UNCLASSIFIED=3; metadata gaps due_date=10, last_reviewed=10, owner_instance=7, priority=3. The existing triage source `task_upkeep_triage.py` was re-fetched and its Git blob SHA `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01` matched; this run recomputed the field projection in JavaScript and does not claim a new Python script execution or self-test. Only `WORKFLOW-UPKEEP-PRIORITY-2026-11-05.last_reviewed` is advanced to 2026-11-20 and its `last_material_state` extended; no branch count, relation, status, priority, owner, or due date is changed.
+
+**Priority/control state:** P0 Code Grurple ACTIVE; P1 cognition remains Orson-owned / OVERDUE / NOT READY; P2 measured-system paper HOLD with no selected system; P3 full-theory paper INCOMPLETE. WH-01's 2026-11-15 18:50Z cursor still has 79 job endpoints uninspected; no requery because the original full run-list snapshot was not retained. No paper gate advances. Lane 24 Cycle 08/08 remains BACKSEAT/HOLD; no physical calculation, CODATA comparison, fit, prediction, independent measurement, or Lean build.
+
+**Next actions:** Tern retains PWH/scheduler control; Calder/authorized maintainers decide WH-02 code/rebase action; authorized P0 maintainer decides PR #2009 reconciliation; authorized WH-05 maintainer decides PR #2050 reconciliation. Exact-head CI and independent review precede any merge. Preserve all four occupied Mersearch requests until verified terminal evidence and an authorized release. No task, ID, schedule, phase, cadence, owner, status, priority, or automation-count change.
