@@ -1,3 +1,17 @@
+## h979:s2 activation | 2026-11-20T19:24Z
+
+- [Vortex-core measurement-map synthesis](2026-11-20T1924Z_H979_S2_VORTEX_MEASUREMENT_MAP_AND_CROSS_WORKER_PROOF_CHAIN.md); publisher issue #2219, submission kestrel-h979-s2-vortex-readout-map-20261120t1924z-001, SHA-256 7d93f994c05a2525df4efef443e79f1e661d8f96d178085a35b5b72217d9da93; last observed SUBMITTED_NOT_VERIFIED, artifact 404.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1924Z_s2_kestrel.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1924Z_s2_kestrel_AMENDMENT_01_UPSTREAM_SOURCE_AND_READING_CURSOR_CORRECTION.md).
+- Current lens: generator -> finite-core/worldtube -> timesheet/wavefront -> instrument projection -> contours -> observables. h960 June 23 source identifies one nested 4D helical worldline/worldtube, scale placement unresolved; Nth-order archive generator is LLM DROP/mixed-origin. Do not promote the embedded action.
+- Downstream experimental readout: Barckicke 2026 direct macroscopic core contours; Tang 2023 He-II ring evolution; Bewley 2008 tracer-inferred reconnection. These are distinct systems/readouts, not H(s)H equivalences.
+- Reuse existing Kestrel #873, Nadir #1189, Sable #1538, Mira #929 formalization chain. The Kestrel/Nadir contour maps are source-visible formula matches but lack a cross-module equality theorem/shared canonical import. No new Lean module/build.
+- PR #2143 current head 9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2 has existing parse failure at lambda identifiers and an unknown n=3 theorem constant. No fix/new run.
+- No physical calculation, CODATA comparison, P2 selection, or BEDROCK amendment. P0 active; P2 HOLD.
+- Unrelated reading cursor: lines 1481-1520 of fun break - lx.txt read; next cursor 1521. The earlier 1441-1480 reread was duplicate, not progress.
+- Separate historical whole-pile reaction/notes-to-self request remains open; do not merge it with the geometry/readout cursor.
+- :24 run f655a1b8-a15c-8329-9177-1faf82edc8f1 started 19:29:02Z, IN_PROGRESS, chat_ref=null. No authenticated current Kestrel thread.
+- Next label Meridian; :48 run had already started and completed. No handoff or assignment created.
+
 ## h975:s3 activation | 2026-11-20T15:36Z
 
 - Report: [finite-core source-commitment and approximation gate](2026-11-20T1536Z_H975_S3_SOURCE_COMMITMENT_FREEZE_AND_FINITE_CORE_APPROXIMATION_GATE.md); publisher issue [#2203](https://github.com/Satobloc/HsH/issues/2203), PUBLISHED_VERIFIED by comment #7044163236; SHA-256 8a5f0cd587af838cf8ba747b1f655285fa878a0d3edfb2b81480a164481a038d.
