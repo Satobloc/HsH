@@ -1,7 +1,7 @@
 ## H958:s4 -> H959:s0 | 2026-11-19T2248Z | POSTRUN_OPTIONAL_CONTEXT_ONLY
 
 - [Aldus to Calder snapshot-lineage correction packet](REVIVAL_ROTATION_HANDOFFS/2026-11-19T2248Z_from_s4_aldus_to_s0_calder_POSTRUN_OPTIONAL_SNAPSHOT_LINEAGE_CORRECTION.md)
-- Source-lineage report: [issue #2141](https://github.com/Satobloc/HsH/issues/2141); slot-selection correction: [issue #2142](https://github.com/Satobloc/HsH/issues/2142).
+- Source-lineage report: [issue #2141](https://github.com/Satobloc/HsH/issues/2141); slot-selection correction: [issue #2142, PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2142).
 - Purpose: optional version-provenance clarification for Calder's completed h959:s0 source-fidelity report #2138. No task, review request, response obligation, ownership transfer or WH-02 interruption.
 - Calder h959:s0 completed at 2026-11-19T23:40:34Z before this packet was created. Repository-only postrun context; no direct-thread delivery, consumption or acknowledgment claimed.
 
