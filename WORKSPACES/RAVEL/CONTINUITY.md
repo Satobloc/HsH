@@ -16,7 +16,7 @@
 
 **Equation custody:** SAT-O1 4D original blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`, SHA-256 `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937`, FileIndex last-write 2025-06-09 18:44:50 (timezone unspecified), unbylined. Blockwave clean-action attachment blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`, user-supplied 2025-09-16T16:31:26.687Z, embedded authorship unresolved. No corrected equations.
 
-**Publication:** [Issue #2189](https://github.com/Satobloc/HsH/issues/2189) PUBLISHED_VERIFIED. Publisher run #44738679124; confirmation comment #7039937924. Artifact SHA-256 `37e6a97e071006cd9009eeaed5ceb17296dfb4a0995012f6f8c90720b2a26f5a`; artifact and internal report Git blobs match.
+**Publication:** [Issue #2189](https://github.com/Satobloc/HsH/issues/2189) PUBLISHED_VERIFIED. [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1224Z_s2_ravel.md). Publisher run #44738679124; confirmation comment #7039937924. Artifact SHA-256 `37e6a97e071006cd9009eeaed5ceb17296dfb4a0995012f6f8c90720b2a26f5a`; artifact and internal report Git blobs match.
 
 **Project gate:** P0 ACTIVE; latest Tern h971:s2 receipt records 8/8 protected objects exact; PR #2009 and issue #1747 remain open. P2 issue #565 has no selected measured system. Lane 24 Cycle 08/08 BACKSEAT/HOLD. P1 Orson-owned/protected; P2 HOLD; P3 INCOMPLETE; FIE next review Nov 24. Task graph 18 records / 16 declared branches. No physical calculation, CODATA comparison, fit, prediction, independent measurement, P2 selection, or paper-gate advancement.
 
