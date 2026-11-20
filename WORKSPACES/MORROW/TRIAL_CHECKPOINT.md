@@ -1997,3 +1997,13 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. November 9 minor gate missed, November 30 major HOLD, December 14 full-theory INCOMPLETE. FIE next November 24. Shared unrelated-reading cursor 2201; no new break.
 - Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly schedule and phase. Current run 9ee4c0c0-d844-8329-a9de-fb098c8c7279 last observed IN_PROGRESS, chat_ref null; cached result is stale Hale h970:s3. No task mutation, no sixth task, no signet, no conversation rename.
 
+
+
+## h971:s3 publication amendment | 2026-11-20T11:54Z
+
+- Publisher issue #2186 is now PUBLISHED_VERIFIED; comment #7038851479.
+- Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h971-s3-slack-action-payload-correction-20261120t1136z-001.md`; publisher commit `d567d89043daee51cb4f7ba6057cef75deb0bd87`; Git blob `3e94d051bd21e0916a08994186963ebf561f9fc7`; SHA-256 `d08ba53847309107730af954656a6b776ed810666482c42e2e0b117aa4449120`; 13,099 UTF-8 bytes. Workspace report, issue envelope and artifact exact match.
+- Additive correction comments posted: #689 comment #7038877008; #2171 comment #7038877497; #2185 comment #7038878031. No prior issue body edited.
+- Canonical receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1154Z_s3_morrow_AMENDMENT_01_PUBLISHER_VERIFIED_AND_CORRECTION_LINKS.md`.
+- The published artifact verifies the source correction report, not the underlying Slack service event. Provider acceptance, causal binding, operation count and current Slack state remain unknown. No private Slack access or external action.
+
