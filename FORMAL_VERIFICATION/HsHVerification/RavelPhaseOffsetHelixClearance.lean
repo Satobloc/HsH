@@ -6,9 +6,15 @@ import Mathlib
 Source boundary:
 * Historical Ravel conversation "Ravel Syncmathcek", raw export blob
   `17cfe3feb830f70009557d063482b35adba0834b`.
-* Direct user messages `3d0ad680-51db-4c79-ad4a-9bbacada24ef` and
-  `b9805319-9d77-4b43-874a-5af50c0b6ef7` describe multiple first-order
-  helices superimposed and warn that their cross-section need not be circular.
+* Direct user messages `a03e61e8-929b-4758-8bba-71af0766b9fa`
+  (2026-09-06T08:14:51Z) and
+  `af313567-c917-4188-86b0-caea0f3398e2` (2026-09-06T08:21:54Z)
+  ask for first-order helix metrics and explicitly raise multiple
+  first-order helices superimposed / a non-round barrel.
+* Assistant message `ac8e4285-a104-4621-ad26-e4f2fcce0bce`
+  (2026-09-06T20:56:20Z) introduces equal-radius, equal-pitch, phase-offset
+  co-helices and the same-parameter chord formula
+  `d_N = 2 R sin(pi/N)`. That is assistant reconstruction, not Nathan Direct.
 * The source does not give the parameterization below. The family is an
   assistant reconstruction chosen to test the source's geometric question.
 
