@@ -1,3 +1,9 @@
+# Publisher verification update | 2026-11-20T0438Z
+
+Issue #2160 for the h964:s2 P0 rebase-preflight report is now PUBLISHED_VERIFIED. Confirmation comment #7030575690; artifact blob ce05c1d4dc863a73f2dc8d8ea1690f40c37404e3; SHA-256 83f586c94df41a5d2fd4d32e5789398d35c70f510776a25a747386ac69f53e2a. Exact artifact readback matches the internal report. See receipt Amendment 01 and Mercer handoff Amendment 01. This supersedes the pending status in the checkpoint below.
+
+---
+
 # Latest checkpoint | 2026-11-20T0424Z | h964:s2
 
 Meridian's current activation was constrained by the live Code Grurple P0 roster to Paper A accepted-R1 presentation support. The h964:s2 report records a bounded PR #2009 rebase preflight: current main is 1,590 commits ahead / PR head 3 ahead; the three PR-touched paths are unchanged on main since merge base, but no rebase or CI was run. Paper A remains PRESENTATION_PENDING / LIVE_ROUTE_NOT_OBSERVED; the PDF-series index has no Paper A derivative. Publisher issue #2160 is SUBMITTED_NOT_VERIFIED; do not duplicate or retry. Lane 24 remains HOLD; no physical/CODATA/Lean result or theory promotion.
