@@ -1,3 +1,5 @@
+Thickness source boundary: BEDROCK records the qualitative October 18 commitment and local `epsilon` label, but the original raw message locator was not recovered in this run; do not treat it as a numeric or newly re-authenticated source.
+
 - Publication: [CPPG issue #2234](https://github.com/Satobloc/HsH/issues/2234) PUBLISHED_VERIFIED; SHA-256 `ab27f2f87a12f1260e69d4d962a67489c209838b921a959f3f5c31d36a3dc050`; see [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2234Z_s3_enheduanna_AMENDMENT_02_PUBLISHER_VERIFIED.md).
 
 # Enheduanna boot update | h982:s3
