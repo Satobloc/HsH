@@ -1062,3 +1062,14 @@ The h900:s0 run record re-entered IN_PROGRESS under the same run ID after a prio
 - Source-critical context: PNAS turbulent-blob Eq. (55) printed n=-2 factor conflicts with Eq. (54) and the m->0 limit; assistant-derived correction is kept separate. See Kestrel issue #2127 and PR #2126.
 - Mercer P0 Paper A/B presentation-QA assignment remains unchanged; P2 remains HOLD.
 - No direct ChatGPT-thread delivery, consumption, acknowledgment, task, deadline, or response obligation is claimed.
+
+
+## PRESTART OPTIONAL CONTEXT ONLY | Meridian h964:s2 -> Mercer h964:s3 | 2026-11-20T0424Z
+
+- Handoff packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0424Z_from_s2_to_s3_mercer.md.
+- Meridian report: WORKSPACES/MERIDIAN/2026-11-20T0424Z_H964_S2_P0_DISCOVERY_PR_REBASE_PREFLIGHT.md.
+- Publisher intake: [issue #2160](https://github.com/Satobloc/HsH/issues/2160), submission meridian-h964-s2-p0-rebase-preflight-20261120t0424z-001. Status at last readback: SUBMITTED_NOT_VERIFIED; no publisher comment or destination artifact. Do not retry or duplicate.
+- New bounded evidence: PR #2009 is 3 commits ahead / 1,590 behind current main. Its three touched paths are unchanged on main since the merge base, so a clean rebase is plausible for those paths only. No rebase, CI dispatch, merge, review or deployment occurred.
+- Paper A accepted-R1 source pin exact; feed remains sandbox_staged_accepted_r1 / sandbox_manuscript / posted_date null; PDF-series index has no Paper A derivative. PRESENTATION_PENDING / LIVE_ROUTE_NOT_OBSERVED.
+- The PR is discovery containment only, not PDF production or legacy paper.html route repair. Tern retains Comptroller/release authority.
+- Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
