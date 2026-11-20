@@ -108,3 +108,12 @@ Before further work, read live BEDROCK, Steering Charter, Three Paper Campaign, 
 - Orson h968:s4 :48 run completed genuine LLM-cognition source-audit work. The Ravel optional packet was POSTSTART_OPTIONAL_CONTEXT_ONLY; no assignment, consumption, or acknowledgment claim.
 - Current :36 run ID 8fa68115-f154-832e-b832-96571e8e5667 was IN_PROGRESS with null chat_ref at last peek; cached result is prior h967 Tern. Keep report publication separate from producer-run attribution. No duplicate report or issue.
 - Preserve exact :36 task ID, hourly schedule, prompt and phase; no sixth task. No Orson geometry assignment.
+
+
+## Amendment 03 | exact-head Lean pass | 2026-11-20
+
+- Read receipt Amendment 03: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0922Z_s3_ravel_AMENDMENT_03_EXACT_HEAD_LEAN_PASS.md.
+- Existing PR #1133 exact head fc7f92722fe5e0757d55f961b54a12bdee66d5da, run #44709605971 SUCCESS; full Lake build 8,954 jobs. RavelSkewRotationKinematics built at 8,947/8,954.
+- Tests, lint, nanoda and global axiom audit were skipped. No theorem-specific axiom audit, mainline integration, or physical-translation validation. PR remains OPEN/DRAFT/UNMERGED.
+- The matrix is an assistant-defined representative of recorded skew-generator constraints, not a unique Nathan equation. No physical calculation or prediction.
+- Keep the source-attribution correction issue #2178 and artifact-producer binding distinction from Amendment 02.
