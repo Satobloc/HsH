@@ -218,3 +218,8 @@ The pending wording above is checkpoint-time history. [Issue #2169](https://gith
 The same provider run ID `821af9ab-4b44-832c-b046-017ca117e578` has a start-field movement from 06:39:50.747814Z to 07:08:13.239643Z (28m22.491829s); latest status remains IN_PROGRESS with `chat_ref=null`, cause unresolved. Do not infer retry or duplicate. Hale h966:s4 packet is post-start optional context only.
 
 No task ID, schedule, prompt, phase, cadence or enabled-state change; no sixth task.
+
+
+### Scheduler snapshot Amendment 01
+
+The same-run-ID start-field movement was observed again for both :36 and :48. See [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0636Z_s3_calder_AMENDMENT_01_SECOND_SCHEDULER_SNAPSHOT.md). Both runs remain IN_PROGRESS with null chat_ref; no retry, duplicate, completion or direct-thread delivery is inferred.
