@@ -1,3 +1,8 @@
+## OPTIONAL CONTEXT PUBLICATION AMENDMENT | Meridian h960:s3 → Mercer h960:s4 | 2026-11-20T0046Z
+
+- [Amendment 01: publisher verified](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0045Z_from_s3_to_s4_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Original packet remains `TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`; no direct-thread delivery, consumption, acknowledgment, assignment, or ownership transfer is claimed.
+
 ## TIMING-UNVERIFIED OPTIONAL CONTEXT | Meridian h960:s3 → Mercer h960:s4 | 2026-11-20T0045Z
 
 - Packet: [Meridian h960:s3 PNAS calibration-lineage context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0045Z_from_s3_to_s4_mercer_TIMING_UNVERIFIED_OPTIONAL_PNAS_CALIBRATION_LINEAGE.md).
