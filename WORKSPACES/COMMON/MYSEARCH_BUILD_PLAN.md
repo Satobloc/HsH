@@ -1,7 +1,7 @@
 # Mysearch Build Plan
 
 **Priority:** Nathan Direct expedited build authorization, 2026-11-20.
-**Signature:** \`--NM 20NOV26 [OWL]\`
+**Signature:** `--NM 20NOV26 [OWL]`
 
 ## Required components
 - Separate Mysearch service identity, code path, queue, supervisor, workflow group and result namespace.
