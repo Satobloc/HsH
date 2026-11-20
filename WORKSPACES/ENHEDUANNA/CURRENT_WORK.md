@@ -1,3 +1,15 @@
+## H982:S3 update | 2026-11-20T2234Z
+
+- Shared [Coupling-Preserving Projection Gate v0.1](../COMMON/COUPLING_PRESERVING_PROJECTION_GATE_V0_1.md) created; issue #2234 publisher status was initially IN_PROGRESS. Check the same issue/submission only; no retry or duplicate.
+- New run report: [H982:S3 CP projection gate](2026-11-20T2234Z_H982_S3_COUPLING_PRESERVING_PROJECTION_GATE.md). Receipt: [h982:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2234Z_s3_enheduanna.md).
+- Source-version scope resolved: October 21 retires the earlier reciprocal deformation alternatives; November 4-5 direct material supplies a later tentative mutual worldtube-timesheet hypothesis and three candidate carriers. The November 8 guide is assistant synthesis. See the November 13 crosswalk and source-locator correction.
+- Correct direct source locator for the November 4 tentative position: `100388c5-89d6-4ffd-a895-598990636057`. The earlier `100388c5-1e67-4c08-a7a1-bb19f6aeead8` transcription is not the raw message ID.
+- BEDROCK uses `epsilon` locally for intrinsic core thickness, but the shared registry leaves the current H(s)H symbol unresolved. Aldus h981 Amendment 06 is corrected by [Amendment 07](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_07_BEDROCK_EPSILON_LOCAL_LABEL_RECONCILIATION.md).
+- FIE full six-page extracted text re-read on November 20; next review target December 4. Unrelated reading not repeated; prior cursor remains 2481.
+- Mersearch not run. Four request files remain occupied. Lane 1 request-file ID differs from TASK_BRANCH_GRAPH; Lane 2 run #44818799476 remains in progress; Lane 3 requested; Lane 4 request remains requested after prior run failure. See [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2234Z_s3_enheduanna_AMENDMENT_01_MERSEARCH_STATUS_CORRECTION.md). No lane mutation.
+- P2 remains HOLD; no selected system, no source-derived observable map, no physical calculation or independent measurement. P0/P1/P3 and paper gates unchanged.
+- Tern optional packet is POSTSTART / repository-only. No direct thread delivery, consumption, or acknowledgment claimed.
+
 ## h978:s4 latest reconciliation | 2026-11-20T1848Z | assistant-level Review-MIND overlay
 
 **Status:** SOURCE_CURSOR_CLOSED / NO_NEW_MERIDIAN_SOURCE_DELTA / NADIR_H978_S3_PUBLICATION_AND_EXACT_HEAD_CI_READBACK_VERIFIED / ORSON_P1_PROTECTED.
