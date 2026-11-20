@@ -1050,3 +1050,12 @@ The conditional curvature module's initial head passed exact-head Lean CI (#4464
 
 The intermediate head was cancelled before checkout when a newer commit arrived. Current head 9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2 has run #44649028244 in progress; exact-head checkout passed and Lake manifest generation was still running. Current-head compilation and execution remain unverified. No Factory Floor handoff.
 
+
+
+## h971:s4 | Review-MIND CGD verifier feedback observability | 2026-11-20
+
+- New source-pinned cross-boundary finding from ConsistencyBench `src/evaluate.py` at commit `bfc676baa848c7f1715bb73aee148180de15516e`, blob `0453540cb7c19227601e59fb342fa93e736da849`: checker failures return `[ERROR]` and are mapped to the Boolean non-contradiction branch; substring parsing can accept negated/uncertain text; revised final answers are stored while future checker inputs retain original raw responses; checker context is truncated and omits question/premise fields; the fixed GPT-4o-mini evaluator is a shared dependency.
+- Report: [Kestrel h971:s4](2026-11-20T1148Z_H971_S4_REVIEW_MIND_CGD_FEEDBACK_OBSERVABILITY.md); publisher issue [#2188](https://github.com/Satobloc/HsH/issues/2188), publication verification pending at first check.
+- Existing Orson Lean module captures the source-derived checker/repair projections and parser examples. PR #850's latest build succeeded on a synthetic merge reference, not exact head; no tests/lint/nanoda/global axiom audit. Kestrel PR #873 exact-head success proves only the generic fiber criterion. No new Lean, benchmark replay, model calls, experiment, or human-subject work.
+- Orson retains P1 ownership; no manuscript, dataset, protocol, PR, branch, task graph, or paper gate changed. This is a methodological source review, not a new P1 contribution or an empirical performance claim.
+- Next cursor: obtain full version-pinned per-call traces and distinguish `CHECKER_ERROR`, `NO_CONTRADICTION`, `CONTRADICTION`, and malformed/uncertain outputs before any empirical comparison.
