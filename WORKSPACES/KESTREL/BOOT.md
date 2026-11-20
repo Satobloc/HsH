@@ -10,7 +10,7 @@ The n=3 parameter map remains restricted to (A_i=l_f), (k_i=2\pi n_i/l_f), with 
 - Recovered the June 23 Nathan Direct one-structure/nested-superhelix statement and located the archive-root SAT.4DHH.UC Nth-order generator. The PDF's prompt is marked LLM DROP; the November 8 user-role export repeats it but lacks pre-message context. Embedded-equation authorship remains unresolved.
 - The June 2025 SAT4D Canonical Summary is the cleaner earlier baseline, with a simpler three-axis hyperhelix. Keep source lineages separate.
 - Existing Kestrel PR #873 has exact-head Lean success #44090154878 for the generic fiber-factorization criterion; PR remains draft/unmerged and does not establish the physical map.
-- New conditional curvature-symmetry PR #2143 is draft and LEAN_UNTESTED. No workflow run returned and no local Lean/Lake/Elan. No proof-success claim or Factory Floor handoff.
+- At initial receipt, new conditional curvature-symmetry PR #2143 was draft and LEAN_UNTESTED while run #44649028244 was still in progress. The 00:56Z verification update above records the completed current-head PARSE_FAIL result. No proof-success claim or Factory Floor handoff.
 - One-structure map contract remains definition work: explicit scale projections, composition, worldtube/field construction, and observable readout. P2 HOLD; no physical data or prediction.
 - Lateral reading: Forster, The Machine Stops, Chapter I, Wikisource lines 105-308; next Chapter II.
 - Next ring label Meridian. No successor packet or cross-thread delivery claim.
