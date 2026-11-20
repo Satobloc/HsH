@@ -55,11 +55,11 @@ theorem linearExpansion_zero (frequency : ℝ) :
 
 /-- Algebraic directional-acceleration expression Ω²x for the linear field. -/
 def directionalAcceleration (frequency : ℝ) (x : Vector4) : Vector4 :=
-  (rotationMatrix frequency * rotationMatrix frequency) ᵥ x
+  Matrix.mulVec (rotationMatrix frequency * rotationMatrix frequency) x
 
 /-- The acceleration expression is -frequency^2 x. -/
 theorem directionalAcceleration_formula (frequency : ℝ) (x : Vector4) :
     directionalAcceleration frequency x = -(frequency ^ 2) • x := by
-  simp [directionalAcceleration, rotationMatrix_sq]
+  simp [directionalAcceleration, rotationMatrix_sq, Matrix.mulVec_smul, Matrix.one_mulVec]
 
 end HsHVerification.RavelSkewRotationKinematics
