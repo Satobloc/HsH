@@ -1,3 +1,7 @@
+## Latest operational pointer (non-authoritative)
+
+h967:s2 source-readiness note: [2026-11-20T0724Z report](2026-11-20T0724Z_H967_S2_VOL_HELICAL_PAIR_SOURCE_READINESS.md). Lane 24 remains Cycle 08/08 COMPLETE / BACKSEAT / HOLD. No new P2 selection or physical calculation. Public issue #2172 is submitted; publisher verification pending at this checkpoint. This pointer does not alter the historical role or access boundary.
+
 # Latest reconciliation status | Enheduanna h963:s3 | 2026-11-20T0408Z
 
 - [Canonical h963:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0336Z_s3_enheduanna.md); [Amendment 01: scheduler run binding](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0408Z_s3_enheduanna_AMENDMENT_01_SCHEDULER_RUN_BINDING_AND_SUCCESSOR_TIMING.md).
