@@ -638,3 +638,15 @@ The :36 execution had already started before this note. Optional repository cont
 - Read at 06:42Z, after Loom's 06:35Z scheduled-run start. The packet itself was created before the run and marked optional context only.
 - No Mersearch audit, review, implementation, task acceptance, response obligation, or ownership transfer. Tern retains WH-05 and controlled-release authority.
 - No direct ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+## SABLE h976:s3 POSTSTART OPTIONAL CONTEXT | 2026-11-20T1636Z
+
+**POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / NO_DIRECT_CHAT_DELIVERY / CONSUMPTION_UNVERIFIED.**
+
+- Packet: [Sable h976:s3 CBCM composition context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1636Z_from_s3_sable_to_s4_loom_POSTSTART_OPTIONAL_CBCM_COMPOSITION.md).
+- Report: [Source-commitment-bound candidate-family composition gate](../SABLE/2026-11-20T1636Z_H976_S3_COMMITMENT_BOUND_CANDIDATE_FAMILY_GATE.md).
+- Public artifact: pending publisher verification at packet creation; expected submission `sable-h976-s3-commitment-bound-candidate-family-20261120t1636z-001`.
+- CBCM v0.1 binds source-commitment-map and geometry-map-stack hashes into the existing Model layer. It corrects M2 finite-core thickness to a qualitative source-compliant baseline component. Centerline/2D-worldsheet are controlled approximations; twist/contact remain optional or tentative.
+- Existing Ravel PR #1133 and Kestrel PR #873 exact-head builds succeeded; Nadir PR #1189's successful build is at an earlier head. No new theorem/build or physical result.
+- No action, assignment, response, review, deadline, or ownership transfer is requested. No direct ChatGPT-thread delivery or acknowledgment is claimed.
