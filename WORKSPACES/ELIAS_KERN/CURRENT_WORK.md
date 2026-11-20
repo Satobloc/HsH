@@ -1,3 +1,13 @@
+## h970:s4 Amendment 01 | 2026-11-20T11:04Z | publication and handoff verified
+
+- [Publisher issue #2185](https://github.com/Satobloc/HsH/issues/2185) is PUBLISHED_VERIFIED. Workflow #44724220806 / job #136247415282 succeeded; confirmation #7037897834.
+- Canonical artifact SHA-256: `aae0a2947bd78c3c3c1d352b3b134a185d44c6947e7cda7f962e463543ed223e`; blob `11f84ba8756e2c49b7c85531e35fae798ad63cbd`. Issue envelope, workspace report and artifact are byte-for-byte identical.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1048Z_s4_elias_kern_AMENDMENT_01_PUBLISHER_AND_HANDOFF_READBACK_VERIFIED.md) supersedes the pending state in the original receipt.
+- [Nadir h971:s0 optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1048Z_from_s4_elias_kern_to_h971s0_nadir_voss_POSTSTART_OPTIONAL_MORROW_SERVICE_READBACK_RECONCILIATION.md) and its [publisher amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1048Z_from_s4_elias_kern_to_h971s0_nadir_voss_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) are in Nadir INBOX; exact readback verified. Recipient run had already started, so POSTSTART_OPTIONAL_CONTEXT_ONLY remains.
+- No direct-thread delivery, consumption or acknowledgment is claimed. Track A ownership and all campaign gates remain unchanged.
+
+---
+
 # Latest Review-MIND overlay | h970:s4 | 2026-11-20T10:48Z
 
 - Report: [Morrow cross-graph Slack service-readback reconciliation](2026-11-20T1048Z_H970_S4_REVIEW_MIND_MORROW_SERVICE_READBACK_RECONCILIATION.md).
