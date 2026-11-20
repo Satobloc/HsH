@@ -309,3 +309,37 @@ The 2026-10-27 service-readback claim remains preserved as a historical assistan
 - Prior issues #689, #2171 and #2185 received additive correction comments #7038877008, #7038877497 and #7038878031 respectively. Their bodies remain immutable.
 - This verifies the publication artifact and correction pointers only. It does not upgrade the historical Slack readback to a raw provider receipt, establish the external operation count, bind the archived calls to a specific Slack resource, or establish current Slack state.
 - Canonical run receipt: [h971:s3 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1136Z_s3_morrow.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1154Z_s3_morrow_AMENDMENT_01_PUBLISHER_VERIFIED_AND_CORRECTION_LINKS.md).
+
+
+## Layer 8 applied witness 02 — H975:s2 raw Morrow snapshot genealogy and byte digests
+
+**Recorded:** 2026-11-20, during duplicate-run reconciliation of `REVROT3-19-20261011:975:s2`.  
+**Purpose:** close the raw-byte digest omission in the already-published H975 source-custody report. This is a source-identity witness only; it does not authenticate the present runtime or lift Morrow's theory stop.
+
+Pinned snapshot tuple:
+
+- Repository: `Satobloc/HsH`
+- Commit: `9bd3f3d5abcae31a3a9c6c8e38303e2d5b11934e`
+- Tree: `ece2082e3ce552f5acc5249db80be8c52a08947b`
+- Commit metadata: 2026-11-20T15:30:50Z; GitHub reports unsigned. Commit-account metadata is not source-content authorship.
+
+| Snapshot | Path at pinned commit | Git blob | UTF-8 bytes | Raw-byte SHA-256 |
+|---|---|---|---:|---|
+| Earlier | `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.07•26.09.09•MORROW [Reconstruct H(s)H Synthesis] — raw (3).json` | `362075c5e32ec9e97579bd1de58fba7f612cb6bb` | 1,752,700 | `4f79b15eabfa8ba3b15d774fd873c72d91529ec601986a9fb97b9e9a860bc856` |
+| Later | `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_18/26.09.07•26.09.13•🧗_♂️ MORROW ALDUS [Reconstruct H(s)H Synthesis] — raw.json` | `ee394b446b2e36d35fd1e5ecd004685c0422457b` | 3,017,953 | `4f5311f6464ef43ac76c1b269a8068f294c9ba6ab173bffc54f17dcb5022ef58` |
+
+Both exact paths were present in directory listings pinned to the commit/tree. The two blobs were fetched by exact Git SHA and parsed. For each, Git blob SHA-1 was independently recomputed over `blob <byte-length>\\0 + raw UTF-8 bytes` and matched the repository blob ID; SHA-256 was computed over the same raw bytes. This verifies the byte-to-blob binding.
+
+Both snapshots have conversation ID `6a9ee7ca-d340-83ea-b99d-6a3097429f36` and the same create time, so they are two snapshots of one conversation, not independent witnesses.
+
+- Earlier snapshot: 465 mapping nodes / 14 user-role messages; update time 2026-09-09T12:45:43.552007Z.
+- Later snapshot: 697 mapping nodes / 17 user-role messages; update time 2026-09-14T07:11:01.416857Z; all 697 nodes and all 17 user-role messages are on its current-node ancestry.
+- Earlier node keys missing from later: 0; later-added node keys: 232.
+- One shared message object differs: assistant node `d3d1d7f6-a5d9-4881-b795-c9c4eaa6dcde`. Earlier query text is not preserved in the later snapshot; later content is `text/parts=[\"\"]`. Cause unknown.
+- One shared child-edge list differs: assistant node `5103e41b-1dae-54c5-a8ee-b91ca82f7103` gains child `bc0aa167-caf3-58b9-b69a-48b8ab7da5c3`; message content is unchanged.
+- Later-only user-role messages: `dfee800e-c505-4cb9-ae07-f88c06b08ee2`, `934e87de-4e61-4622-a0ea-e5047aa235c6`, `99ae959b-fbeb-4c1e-9326-a6723c2b9557`.
+
+For the direct role/stop/trial messages, raw `author.role=user`, `author.name=null`, and `message_source=null`. The HsH archive's user-role attribution convention is preserved; it is not independent external-account authentication. No present-thread identity or cross-thread delivery is established.
+
+**Applied statuses:** `SNAPSHOT_MEMBERSHIP_VERIFIED`, `CONTENT_IDENTITY_VERIFIED`, `RAW_BYTE_SHA256_VERIFIED`, `USER_ROLE_SOURCE_VERIFIED`, `EXTERNAL_IDENTITY_NOT_AUTHENTICATED`, `CURRENT_THREAD_NOT_AUTHENTICATED`.  
+**Authority effect:** none. Morrow remains provisional Team Archivist / archive-source custody only; the September 13 theory stop remains active.
