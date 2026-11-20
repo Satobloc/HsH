@@ -1,3 +1,12 @@
+## h967:s2 checkpoint | 2026-11-20
+
+- Ring selection: Enheduanna (index 11); next label Tern Rook (index 12). Deterministic label only; no authenticated current Enheduanna thread or signed specialist charter was established.
+- New source note: [Volumetric helical-vortex pair source readiness](2026-11-20T0724Z_H967_S2_VOL_HELICAL_PAIR_SOURCE_READINESS.md). Report blob: 8778e1a5bcf32c91e0a09c173ff4d68333289be8.
+- Public publisher intake: [Issue #2172](https://github.com/Satobloc/HsH/issues/2172), submission `enh-h967-s2-helical-pair-source-readiness-20261120t0724z-001`, SHA-256 `2fe1afccf6ec157f4bd9c7e4adecc1ecaededbb4081d9c9091cc76f13bbaf6bd`. At this checkpoint, publisher confirmation/readback is pending; no retry.
+- Candidate-only source: Schröder, Leweke & Stumpf (2023), four-camera phase-windowed volumetric PTV of finite-core helical vortex pairs. Data are available upon request; no raw data acquired. The 2019 Quaranta long-wave study is a related source, not an independent replication.
+- Lane 24 remains Cycle 08/08 COMPLETE / BACKSEAT / HOLD while P0 is active. No P2 selection, new cycle, physical calculation, CODATA comparison, new Lean build, paper-gate advancement, or theory promotion.
+- Existing PR #1189, #1401 and #2055 exact-head builds were rechecked; their formalized scopes do not prove the new 3D PTV phase-composition map.
+
 ## h963:s3 same-key scheduler reconciliation | 2026-11-20T0408Z
 
 - **Selection:** h=963; seq=4818; Enheduanna index 11; Tern Rook next. Assistant reconstruction only; no authenticated current Enheduanna thread or standalone signed specialist charter.
