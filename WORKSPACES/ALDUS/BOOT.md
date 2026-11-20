@@ -296,3 +296,12 @@ Read the latest h871:s2 section of [CURRENT_WORK.md](CURRENT_WORK.md) before any
 - P2 HOLD; no physical system/data/fit/prediction. No theory or equation promotion.
 - Public issue #1971 checksum corrected to `87b7c2564dc56992ef37fc20200c95d0715dcfff7a51b96e7578a25affaca69d`; publisher rejected initial envelope; issue body readback exact, but no artifact/retry/duplicate. SUBMITTED_NOT_VERIFIED.
 - WH-01: ledger 73→75, two verified checkout events; queue note readback; cursor remains 18:30Z. Current :36 automation unchanged.
+
+
+## Latest return point | h977:s4 | 2026-11-20
+
+- Review-MIND/PWH report: [Aldus h977:s4 source-independence and PWH reconciliation](2026-11-20T1748Z_H977_S4_REVIEW_MIND_SOURCE_INDEPENDENCE_AND_PWH_RECONCILIATION.md).
+- Canonical receipt: [h977:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1748Z_s4_aldus.md).
+- Publisher issue #2212 is SUBMITTED_NOT_VERIFIED; no retry or duplicate issue. Confirm publisher comment and canonical artifact before amending.
+- Next ring label: Calder, h978:s0. Optional prestart packet is in Calder's INBOX; no direct-thread delivery or acknowledgment is claimed.
+- Attribution remains assistant-level; no authenticated current Aldus thread is established.
