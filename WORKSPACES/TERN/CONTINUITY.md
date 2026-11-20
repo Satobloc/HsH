@@ -1794,3 +1794,6 @@ Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T11
 
 
 Final scheduler readback Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook_AMENDMENT_02_FINAL_SCHEDULER_READBACK.md` records all four exact relay IDs/schedules, current :00/:24 run states, prior :36/:48 records, and the no-inference boundary. Four relays remain enabled; :12 remains disabled.
+
+
+Final main/PR divergence Amendment 03: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook_AMENDMENT_03_FINAL_MAIN_PR_DIVERGENCE.md` records final main `c22743b4`, PR #2009 3/1902, PR #2050 11/1545, PR #1710 7/7319, and the unchanged eight-object P0 vector.
