@@ -7,7 +7,7 @@ The base packet was created at 19:51Z, before the h979:s4 :48 run started at 19:
 
 ## Publisher result
 
-<badge> PUBLISHED_VERIFIED </badge>
+**PUBLISHED_VERIFIED**
 
 - Report: [Paper A R1 semantic-render anchors v0.1](../../MERIDIAN/2026-11-20T1936Z_H979_S3_PAPER_A_SEMANTIC_RENDER_ANCHORS.md).
 - Publisher issue: [#2220](https://github.com/Satobloc/HsH/issues/2220).
