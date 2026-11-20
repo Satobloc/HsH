@@ -37,7 +37,7 @@ Every non-Nathan Mysearch submission is an **at-risk expedited request**. By cho
 - cleanup of abandoned, incomplete or conflicting job-specific artifacts;
 - no guarantee that a Mysearch run will finish before a Nathan Direct request arrives.
 
-Workers must take their own preparatory precautions where their work warrants them. They should keep source material immutable, write only inside request-specific scratch/output directories, make intermediate state reconstructible where practical, and avoid shared mutable files. If a collision or abandoned artifact occurs, the submitting worker owns its cleanup and reconciliation. Mysearch will expose request IDs, isolated workspace locations and termination events to support that cleanup, but does not guarantee preservation of interrupted work.
+Admission is explicit: non-Nathan submissions must carry a separately recorded interruption-risk acknowledgement. Nathan Direct priority is assigned only by the authenticated direct-chat integration; a request cannot self-assign that class by setting its requester name or payload field. Workers must take their own preparatory precautions where their work warrants them. They should keep source material immutable, write only inside request-specific scratch/output directories, make intermediate state reconstructible where practical, and avoid shared mutable files. If a collision or abandoned artifact occurs, the submitting worker owns its cleanup and reconciliation. Mysearch will expose request IDs, isolated workspace locations and termination events to support that cleanup, but does not guarantee preservation of interrupted work.
 
 Nathan Direct traffic is never delayed to protect another Mysearch user's in-flight computation.
 
