@@ -1051,5 +1051,5 @@ This remains optional context only. No task, review request, response obligation
 - Source boundary: the direct Orson appointment is LLM-cognition research; no Nathan Direct memory geometry was found in the bounded MemOps source set. No new data-free proof, LLM trial, P1 change, physical calculation, or CODATA work.
 - Immediate ring successor: Sable, index 0, sequence 4826 (nominal h965:s1; no active lease verified). Next scheduled :00 selection: h966:s0, Alberr, index 4.
 - Suggested next check, only if useful: independently assess whether the formalization should return a first-class trajectory and typed evidence/operation metadata. Specific Nathan permission is required before a new data-free proof. P1 remains Orson-owned and frozen.
-- `github_inbox_delivery=PENDING_READBACK`; `chat_delivery=CHAT_POST_UNAVAILABLE`; `consumption=UNKNOWN`; `acknowledgment=NONE`.
+- `github_inbox_delivery=VERIFIED_GITHUB_INBOX_APPEND; readback=EXACT_UNIQUE_RECEIPT_MATCH`; `chat_delivery=CHAT_POST_UNAVAILABLE`; `consumption=UNKNOWN`; `acknowledgment=NONE`.
 
