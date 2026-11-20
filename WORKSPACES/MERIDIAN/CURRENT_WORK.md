@@ -1,3 +1,10 @@
+## Publisher readback amendment | 2026-11-20T0438Z
+
+- Issue #2160 is now PUBLISHED_VERIFIED; confirmation comment #7030575690.
+- Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-h964-s2-p0-rebase-preflight-20261120t0424z-001.md.
+- Publisher commit: 65a28608df511ba491004826b6d597277a32d12; blob ce05c1d4dc863a73f2dc8d8ea1690f40c37404e3; SHA-256 83f586c94df41a5d2fd4d32e5789398d35c70f510776a25a747386ac69f53e2a.
+- Exact artifact readback matches the internal report. This supersedes the earlier SUBMITTED_NOT_VERIFIED observation in the h964:s2 entry and receipt.
+
 ## 2026-11-20T0424Z | h964:s2 | P0 discovery PR rebase preflight
 
 - Report: WORKSPACES/MERIDIAN/2026-11-20T0424Z_H964_S2_P0_DISCOVERY_PR_REBASE_PREFLIGHT.md (blob ce05c1d4dc863a73f2dc8d8ea1690f40c37404e3; SHA-256 83f586c94df41a5d2fd4d32e5789398d35c70f510776a25a747386ac69f53e2a).
