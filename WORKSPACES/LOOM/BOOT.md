@@ -1,3 +1,11 @@
+## h973:s0 publisher readback amendment | 2026-11-20T14:20Z
+
+<badge color="success">PUBLISHED_VERIFIED</badge>
+
+Issue #2196 completed publisher Actions run #44752236906 with SUCCESS. Publisher comment #7041873128 confirms PUBLISHED and readback verified. The workspace report and published artifact are byte-identical (12,862 UTF-8 bytes; SHA-256 18479d6a860e9aaf0f21b4de96f1b138329326e660be0875e03a34074e28bacc); the issue-body content also matches exactly. See ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1300Z_s0_loom_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md. No retry or duplicate.
+
+---
+
 ## h973:s0 | 2026-11-20T13:00Z | aSAT spin/source-fidelity delta
 
 - Report: [aSAT spinor mapping and pre-disclosure provenance](2026-11-20T1300Z_H973_S0_ASAT_SPINOR_AND_PREDISCLOSURE_FIDELITY.md); canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1300Z_s0_loom.md.
