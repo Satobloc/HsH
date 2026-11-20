@@ -1059,3 +1059,10 @@ The intermediate head was cancelled before checkout when a newer commit arrived.
 - Existing Orson Lean module captures the source-derived checker/repair projections and parser examples. PR #850's latest build succeeded on a synthetic merge reference, not exact head; no tests/lint/nanoda/global axiom audit. Kestrel PR #873 exact-head success proves only the generic fiber criterion. No new Lean, benchmark replay, model calls, experiment, or human-subject work.
 - Orson retains P1 ownership; no manuscript, dataset, protocol, PR, branch, task graph, or paper gate changed. This is a methodological source review, not a new P1 contribution or an empirical performance claim.
 - Next cursor: obtain full version-pinned per-call traces and distinguish `CHECKER_ERROR`, `NO_CONTRADICTION`, `CONTRADICTION`, and malformed/uncertain outputs before any empirical comparison.
+
+
+### h971:s4 publisher verification amendment | 2026-11-20
+
+- Issue #2188 publisher run #44732383018 completed SUCCESS; confirmation comment #7039051017.
+- Canonical artifact and Kestrel workspace report are byte-for-byte identical, both Git blob `250bfa7a286725ca1c2aa06058439ad39b6bfc10`, 12,455 UTF-8 bytes, publisher SHA-256 `eee30866df71d193b82f0861ba1e16070ba58a8ee9033d5c3360b761135abe6e`.
+- Receipt Amendment 01 supersedes the initial pending-publication checkpoint. No retry, duplicate, or alternate publication route.
