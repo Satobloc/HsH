@@ -29,7 +29,7 @@ The packet and pointer were independently read back in Mercer INBOX and Common H
 
 - Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781`: enabled; exact original hourly America/New_York :36 DTSTART/RRULE and prompt/phase unchanged.
 - Current :36 run `2765a7ee-64d8-8331-867d-1d9774caa374`: IN_PROGRESS; scheduled 19:36Z; started 19:40:53.627719Z; completion null; run-level `chat_ref=null`. Cached result remains prior h978:s3 Nadir run `7deebd77-683c-8326-a54e-a9ff716a8682`, not current execution.
-- Existing :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`: enabled; exact original hourly America/New_York :48 DTSTART/RRULE unchanged. At the 19:51:51Z peek its last run was h978:s4 Enheduanna, completed 19:37:35.688831Z; no h979:s4 run record had started.
+- Existing :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`: enabled; exact original hourly America/New_York :48 DTSTART/RRULE unchanged. At the 19:51:51Z peek its last run was h978:s4 Enheduanna, completed 19:37:35.688831Z; no h979:s4 run record had started. A later peek observed h979:s4 provider run `f07c1f6e-098c-832e-86a9-3eca44b38969` IN_PROGRESS, scheduled 19:48Z, started 19:52:11.164568Z, completion null, run-level `chat_ref=null`. This start occurred after the packet was created at 19:51Z, so PRESTART_OPTIONAL_CONTEXT_ONLY remains correct.
 - Full task list: four Workshop Relay tasks enabled (:00, :24, :36, :48); :12 remains disabled. No sixth task.
 
 ## 4. Research disposition unchanged
