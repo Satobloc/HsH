@@ -650,3 +650,10 @@ The :36 execution had already started before this note. Optional repository cont
 - CBCM v0.1 binds source-commitment-map and geometry-map-stack hashes into the existing Model layer. It corrects M2 finite-core thickness to a qualitative source-compliant baseline component. Centerline/2D-worldsheet are controlled approximations; twist/contact remain optional or tentative.
 - Existing Ravel PR #1133 and Kestrel PR #873 exact-head builds succeeded; Nadir PR #1189's successful build is at an earlier head. No new theorem/build or physical result.
 - No action, assignment, response, review, deadline, or ownership transfer is requested. No direct ChatGPT-thread delivery or acknowledgment is claimed.
+
+
+### Sable h976:s3 publisher amendment | 2026-11-20T1653Z
+
+- The optional Sable context report is now `PUBLISHED_VERIFIED`: [issue #2207](https://github.com/Satobloc/HsH/issues/2207), publisher comment #7045359391, run #44777641390 SUCCESS.
+- SHA-256 `6084d6b325c3829d0f56a2bac8a1ae4b0601764733fa050ccc49c6325b03acc7`; 19,771 UTF-8 bytes; workspace and canonical artifact exact-match.
+- Original packet remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, task, review request or ownership transfer is claimed.
