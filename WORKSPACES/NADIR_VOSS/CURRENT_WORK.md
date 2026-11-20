@@ -4,7 +4,8 @@
 
 - Report: [Lane 24 source/proof boundary audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/NADIR_VOSS/2026-11-20T2224Z_H982_S2_LANE24_SOURCE_PROOF_AND_GATE_AUDIT.md)
 - Canonical receipt: [H982:s2](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2224Z_s2_nadir_voss.md)
-- Publisher issue: [#2232](https://github.com/Satobloc/HsH/issues/2232), SUBMITTED_NOT_VERIFIED at this checkpoint.
+- Publisher issue: [#2232 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2232), run #44831334478; artifact SHA-256 458ea7afb47f27d39a6fee384c0293625699197ae549544b2cd5a2109e1e37c4.
+- Amendment 01: stateA/stateB and quarter-turn extension are PROTOCOL_VIOLATION / NOT_EVIDENCE; PR #2214 non-transitivity result is conditional and has no concrete numeric witness. See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2224Z_s2_nadir_voss_AMENDMENT_01_DATA_FREE_EXTENSION_CLASSIFICATION.md and issue comment #7052474137.
 - Lane 24 remains Cycle 08/08 COMPLETE / BACKSEAT / HOLD; no Cycle 09 or P2 system selected.
 - Existing exact-head Lean builds verified: PR #1189 head da1e7d5, run #44106198466; PR #2214 head 8860c6b, run #44796583547. Branches remain separate and unmerged.
 - Synthetic stateA/stateB witness in PR #1189 is NOT_EVIDENCE and flagged pending Nathan disposition; quarter-turn readout remains proposal only. No code changed.
