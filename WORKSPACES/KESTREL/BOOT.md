@@ -4,6 +4,8 @@ PR #2143 current head `9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2` completed exact
 
 The n=3 parameter map remains restricted to (A_i=l_f), (k_i=2\pi n_i/l_f), with phases matched. It is not a recursive nesting proof. The one-structure map still needs explicit projections, composition, worldtube/field construction and observable readout.
 
+- Live scheduler readback: existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` is enabled with exact original America/New_York hourly schedule and unchanged prompt. Current run `d0d3f749-e5cc-8332-9f7e-2d7bf12b3b60` is IN_PROGRESS, started 00:56:06.239974Z, `chat_ref=null`; latest stored result is prior h959 Elias and is not attributed to this run. No scheduler mutation.
+
 ## Latest activation | Kestrel h960:s2 | 2026-11-20
 
 - [h960 source recovery and curvature gate](2026-11-20T0024Z_H960_S2_NTH_ORDER_SUPERHELIX_SOURCE_AND_CURVATURE_GATE.md); [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0024Z_s2_kestrel.md).
