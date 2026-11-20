@@ -26,3 +26,8 @@ The three primary sources are CALIBER (Finlay et al., EMNLP 2026), The Metacogni
 - No direct-thread delivery, consumption, acknowledgment, assignment or ownership transfer is claimed.
 
 No task, schedule, phase, prompt, ID or enabled-state change.
+
+
+## Amendment 01 pointer | PUBLISHED_VERIFIED
+
+See [Amendment 01](2026-11-20T1250Z_from_s3_orson_to_s4_sable_AMENDMENT_01_PUBLISHER_VERIFIED.md). Issue #2190 comment #7039964657 confirms publication; exact artifact readback and SHA-256 match. Packet remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
