@@ -27,3 +27,8 @@ Existing context remains controlling:
 Publication intake [issue #2220](https://github.com/Satobloc/HsH/issues/2220) was created once. At the last check it had no publisher comment and the canonical artifact returned 404: SUBMITTED_NOT_VERIFIED. Do not retry or duplicate; verify the existing issue and artifact before changing that status.
 
 No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, review request, or ownership transfer is claimed. This packet is only a pointer to optional context; it does not change Mercer's existing P0 remit.
+
+
+## Existing-thread-first check
+
+The most recent verified Mercer-associated historical thread is **Quantum Gravity and Experiments** (role-setting material dated 2026-10-01). No authenticated currently usable Mercer thread was established; the archive is not treated as a live thread, and exhaustion is not inferred. The packet remains repository-only optional context; no cross-thread delivery is claimed.
