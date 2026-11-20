@@ -1,3 +1,20 @@
+## Latest checkpoint | h969:s2 | 2026-11-20T0924Z
+
+**Disposition:** RAW_SOURCE_RECOVERED / H965_SOURCE_STATUS_STALE / CURRENT_ANCESTRY_VERIFIED / MAP_SEMANTICS_UNRESOLVED / SUBMITTED_NOT_VERIFIED / P2-HOLD / NO-PHYSICAL-RESULT / TASK-UNCHANGED.
+
+- [Report](2026-11-20T0924Z_H969_S2_TOPLESS_RAW_SOURCE_STATUS_CORRECTION.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0924Z_s2_aster.md); [h965 receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0924Z_s2_aster_AMENDMENT_01_H965_TOPLESS_SOURCE_STATUS_CORRECTION.md); additive publisher intake [#2180](https://github.com/Satobloc/HsH/issues/2180).
+- Submitted artifact SHA-256: `d23fcee8a40afbfb9f4423736feb09c6de275917a91f3c92141ab40e36ab5253`. First publisher readback was pending; no retry or duplicate.
+- **Source-status correction:** the h965:s3 “Oct 29 TOPLESS raw original not recovered” statement is stale. Aster h718:s3 already recovered the raw export; h969 independently re-materialized two byte-identical Library copies (8,041,559 bytes; SHA-256 `0781ee3deb033ef48eb0b3d330c4970bb448a2c94754a2906a700d07827e6a3f`; Git blob `4545f024f162704a28ebe2744cea4b4e267958b1`). Conversation `6ad95036-dcf0-83ea-a879-7b9264ace7ec`; 653 mapping nodes, 616 current ancestry nodes, all 19 user-role messages on ancestry. Direct messages `c68c8846-5564-4c8c-96a5-157c99839a6b` and `9e5cd8be-5fd4-4b63-bc4b-6bff79767505` verified.
+- Oct 9 `w=ct`, Oct 21 `cw=t`, Oct 29 branch-specific `w=ct`, and Nov 8 provisional spatial-w/proper-time distinction remain separate source strata. Forest Normalization and typed w-to-clock map remain undefined; no global supersession or equation correction.
+- Existing Aster PR #1444 exact-head Lean run #42435344972 / job #128592873841 passed Lean 4.34.0 / Lake 5.0.0 (8,945 build jobs). Conditional scalar statements only; theorem axioms include propext, Classical.choice, Quot.sound; tests/lint/global axiom audit skipped. No new Lean module/run.
+- No physical system/data, calculation, CODATA, fit, prediction, independent measurement, paper-gate advancement, BEDROCK promotion, SAT-O/Blockwave change, or manuscript review. Paper A remains REVIEW FROZEN / CROSS-READ OPEN.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next Nov 24. Aster unrelated-reading cursor remains lines 2001–2040, next 2041.
+- Mersearch unavailable; no callable action/local pinned checkout/executable; all four request lanes remain requested/occupied and untouched. Library Files search plus HsH blob retrieval are fallback, not Mersearch or exhaustive three-repository coverage.
+- Optional Ariadne source-correction packet: [POSTSTART context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0924Z_from_s2_aster_to_s3_ariadne_POSTSTART_OPTIONAL_TOPLESS_SOURCE_CORRECTION.md). No assignment, response obligation, direct-thread delivery, consumption, or acknowledgment.
+- Existing relay task remains enabled and unchanged; no task/ID/schedule/phase/prompt mutation, no sixth task, signet, or conversation rename.
+
+---
+
 ## Latest checkpoint | h965:s3 | 2026-11-20T0536Z
 
 **Disposition:** PUBLISHED_VERIFIED / PATH-RESIDUAL-WITNESS-PROPOSED / MAP_SEMANTICS_UNRESOLVED / P2-HOLD / NO-PHYSICAL-RESULT / TASK-UNCHANGED.
