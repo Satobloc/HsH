@@ -1,10 +1,14 @@
-## h960 verification update | 2026-11-20T00:52Z
+## h960 verification update | 2026-11-20T00:56Z
 
-- PR #2143 current head: 9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2. Exact-head run #44649028244 was IN_PROGRESS at last check. Checkout and exact-head assertion passed; Lake dependency manifest generation was still running. No current-head Lean compile/evaluation claim.
-- Initial head 8ee0d01ee27274ef94b2fffe704d73b60957bc62 did compile successfully in run #44648094755 / job #135995753257. The first Real-valued #eval printed an opaque Real.ofCauchy representation, so the witness was changed to Rational. The intermediate head 41cde6e8fc4b17c88e6e739ab2043a16021f59e2 was cancelled before checkout by the next push.
-- Added conditional theorem nthSuperhelixThreeMode_is_special_case: the later n=3 coordinate-axis generator matches the June 2025 three-axis hyperhelix only under A_i=l_f and k_i=2*pi*n_i/l_f with phases matched. This is a restricted parameter map, not a recursive nesting proof.
-- The Nth-order formula is a harmonic sum. The June 23 nested/single-structure interpretation still requires an explicit scale-composition map.
-- No Factory Floor handoff, no public report, no physical result. P2 HOLD.
+- PR #2143 current head `9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2`; exact-head run #44649028244 completed FAILURE at 00:54:14Z, job #135998965182. Lean 4.34.0 / Lake 5.0.0.
+- Parse errors at lines 32, 41 and 54: `λ` used as an identifier; line 154 then cannot resolve `nthSuperhelixThreeMode_is_special_case`. Rational `#eval` output 1; partial theorem axiom logs do not convert the failed module into a successful build. Tests/lint/global axiom audit/leanchecker/nanoda skipped.
+- Initial head `8ee0d01ee27274ef94b2fffe704d73b60957bc62` passed earlier, but predates the Rational witness and n=3 map. Current head is not verified. Likely minimal fix is rename binder to `lam` or escape; no code change/retry here because Kestrel is not primary proof owner.
+- PR #873 exact-head success #44090154878 remains branch-local generic fiber-factorization proof only. No physical map.
+- Report: [h960 source recovery and curvature gate](2026-11-20T0024Z_H960_S2_NTH_ORDER_SUPERHELIX_SOURCE_AND_CURVATURE_GATE.md), Amendment 01. Canonical receipt: [h960:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0024Z_s2_kestrel.md).
+- No public issue, Factory Floor handoff, raw physical data, CODATA comparison, physical calculation, fit, H(s)H prediction, independent measurement, or theory promotion. P2 HOLD. Meridian h960:s3 already completed and published issue #2144; no successor packet or direct-thread delivery claim.
+- No scheduler mutation; existing :24 lease untouched. Fresh live scheduler API readback unavailable, so no new enabled-state verification claim.
+
+---
 
 ---
 
