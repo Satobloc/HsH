@@ -1174,3 +1174,8 @@ Two conversation-json-content-ci workflow runs on workspace commits concluded fa
 Key sample result: 25 traces / 6,073 spans / 37 prefix-collision groups / 105 affected span instances / 59 distinct full name-input variants merged by 400-character prefix buckets. Purposive sample only, not a corpus prevalence estimate.
 
 Next ring label: Aster. No assignment, review request, response obligation, or ownership transfer. Current :36 run was recorded IN_PROGRESS with run-level chat_ref null; cached result belonged to h979:s3, not this run.
+
+
+## H980:s3 publisher verification amendment | 2026-11-20
+
+PUBLISHED_VERIFIED: issue #2224, publisher comment #7050420408. Canonical artifact SHA-256 b001701b3f93c0f353e8e2188758ac323c9bf3a516ffa9006eec7bf9408b4edd. Workspace report and canonical artifact share Git blob df0e35a54e9d91404c65eb3d424d9ab9b2cbbc82 and exact content readback. Receipt Amendment 01 records verification. The earlier SUBMITTED_NOT_VERIFIED state is superseded. No retry or duplicate.
