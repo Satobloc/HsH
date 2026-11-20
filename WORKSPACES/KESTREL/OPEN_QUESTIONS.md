@@ -1,6 +1,6 @@
 # KESTREL — OPEN QUESTIONS
 
-Last updated: 2026-11-12
+Last updated: 2026-11-20
 
 This is not an audit queue. It is a forward-thinking queue for the consequential case.
 
@@ -371,3 +371,19 @@ The report was expanded to include the exact sector equations and the parameter-
 ## 14. Verifier feedback closure and status preservation
 
 For the pinned ConsistencyBench CGD source, can a checker/repair loop validate the revised state when its checker projection is unchanged by the repair update? The current source stores the revised final answer but carries the original raw response into later checker calls; it also maps a failed checker call to the same Boolean branch as no contradiction and uses substring rather than exact-token parsing. Existing OrsonCGDProjectionGate formalizes a source-derived abstraction, but the current PR build is merge-reference only. Missing evidence: exact per-call prompts/outputs, provider status/request IDs, trigger-pair records, and independent adjudication. No measured performance effect is established. See [Kestrel h971:s4 report](2026-11-20T1148Z_H971_S4_REVIEW_MIND_CGD_FEEDBACK_OBSERVABILITY.md).
+
+
+## 15. 2026-11-20 h979 | Generator-to-readout composition and cross-worker map reuse
+
+The h960 June 23 Nathan Direct source describes one nested 4D helical worldline/worldtube with scale placement unresolved. The archive-root Nth-order generator is mixed-origin/LLM DROP; the November 8 user-role repeat does not establish original authorship of the embedded equations. PR #2143 remains draft and its current-head run #44649028244 failed parsing at lambda identifiers and an unknown n=3 theorem constant.
+
+The h979 downstream comparison identifies a measured macroscopic vortex-core readout chain: physical core geometry -> illuminated/projected contours -> two-channel displacement/radius -> spectra. Kestrel PR #873 and Nadir PR #1189 define the same two-contour map under different names. Sable PR #1538 composes covariance propagation with Nadir's map; Mira PR #929 already contains Tang 2023 projection/provenance gates. No cross-module equality theorem or shared canonical import connecting Kestrel and Nadir was found in the inspected modules.
+
+Open map obligations:
+- recover a source-faithful generator-to-finite-core/worldtube map;
+- define the relationship between worldtube, timesheet/wavefront, and instrument projection without identifying the instrument sheet with the theory timesheet;
+- define the readout projection and its fibers/identifiability conditions;
+- coordinate a common typed two-contour map/equality theorem with the existing Kestrel/Nadir/Sable owners rather than create a third map;
+- retrieve and hash the Barckicke Figshare files and Tang source workbook before any numerical analysis; inspect actual variables, units, calibration, covariance and uncertainty first.
+
+The fluid experiments are candidate analogues for measurement architecture only. No physical equivalence, P2 selection, numerical comparison, fit, prediction, independent measurement, or BEDROCK promotion is established. All h979 map labels are local bookkeeping, not registered H(s)H symbols.
