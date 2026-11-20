@@ -7,6 +7,7 @@
 - The 2024 direct source gives partial parabola orientation and opposite y-opening, but leaves the moving-plane normal/negative sweep axis and exact parameterization unresolved. Assistant negative-y choice and Lean z-parameterized model remain distinct reconstructions.
 - H952 issue #2109 is now PUBLISHED_VERIFIED; [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1100Z_s0_nadir_voss_AMENDMENT_01_H952_PUBLISHER_READBACK_VERIFIED.md) records exact issue/artifact equality. Original H952 receipt unchanged.
 - Optional successor packet: [Enheduanna h975:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1158Z_from_s0_nadir_voss_to_s0_enheduanna_h975_OPTIONAL_H971_PARABOLA_SCOPE_AND_SOURCE_FIDELITY.md); INBOX append verified, repository-only, no task or response obligation.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1100Z_s0_nadir_voss_AMENDMENT_01_ENHEDUANNA_INBOX_STATUS_VERIFIED.md) records the final INBOX status correction and unique-ID readback.
 - No authenticated current Nadir thread or signed specialist charter; no direct-thread delivery. Elias h970:s4 post-start packet read as optional context only.
 - No new Lean run, physical calculation, CODATA, theory promotion, paper-gate advancement, Mersearch request, tooling, or automation change.
 
