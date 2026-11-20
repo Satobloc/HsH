@@ -2,7 +2,7 @@
   "schema": "factory-handoff-pending-v1",
   "source_item_id": "nadir-h978-s3-resolution-neighborhood-composition-20261120t1836z-001",
   "factory_item_id": null,
-  "status": "LEAN_VERIFIED_CURRENT_HEAD / FACTORY_HANDOFF_PENDING / PUBLICATION_VERIFIED / THEOREM_AXIOMS_CAPTURED / GEOMETRY_NOT_SUPPLIED",
+  "status": "LEAN_VERIFIED_CURRENT_HEAD / FACTORY_HANDOFF_PENDING / REPORTS_2215_2216_PUBLISHED_VERIFIED / AMENDMENT_02_REJECTED_SHA_MISMATCH / GEOMETRY_NOT_SUPPLIED",
   "factory_floor_eligibility": "NOT_FACTORY_FLOOR_ELIGIBLE",
   "eligibility_reason": "Factory Floor's mandatory geometry-first admission requires a precise object-specific geometric plot and independent hostile fidelity review. This is an abstract metric/workflow theorem, not a physical geometric system; no object-specific plot or hostile review is supplied.",
   "intake_route": "NOT_SUBMITTED",
@@ -183,10 +183,15 @@
       "submission_id": "nadir-h978-s3-amendment-02-current-head-axioms-factory-gate-20261120t1836z-001",
       "sha256": "7e00af8cff9152975dbb7254763a71461aaaf1943083dff5eb9c0745cf2263d5",
       "publisher_run_id": 44797416422,
-      "status": "SUBMITTED_NOT_VERIFIED",
-      "publisher_comment_id": null,
+      "status": "REJECTED_SHA_MISMATCH",
+      "publisher_comment_id": 7048042904,
       "artifact_blob_sha": null,
-      "readback": "PENDING"
+      "readback": "NO_CANONICAL_ARTIFACT_CREATED",
+      "publisher_run_conclusion": "SUCCESS_AT_WORKFLOW_LEVEL; PUBLISHER_VALIDATION_REJECTED",
+      "declared_sha256": "7e00af8cff9152975dbb7254763a71461aaaf1943083dff5eb9c0745cf2263d5",
+      "actual_workspace_sha256": "d3d5f1182e67d0b388f1ab203b0850ef7614d4b872d28b89b941e23b6edaa585",
+      "retry_attempted": false,
+      "failure_cause": "The manually implemented SHA-256 helper used for this submission omitted round constant 0x4d2c6dfc; the declared digest was incorrect. Future submissions must use a trusted hashlib/tool implementation and an independent pre-submission check. No retry or duplicate submission was made."
     }
   },
   "source_main_branch_head_at_packet_creation": "ef166c4bfbf2d0a5b8e7cb8808cce724a03915fd",
@@ -201,7 +206,8 @@
   "source_blob_sha_previous_verified_build": "67b94e2065fd9994a95cbe4ff09e3a1486159c82",
   "status_history": [
     "Initial packet: LEAN_VERIFIED / FACTORY_HANDOFF_PENDING / PUBLICATION_VERIFIED / AXIOM_PRINT_PENDING",
-    "Amendment 01: exact current PR head 8860c6bb verified; theorem-specific axioms captured; Factory geometry gate remains unmet."
+    "Amendment 01: exact current PR head 8860c6bb verified; theorem-specific axioms captured; Factory geometry gate remains unmet.",
+    "Amendment 02 publisher intake rejected for SHA-256 mismatch; no retry or duplicate. Workspace file remains available; no canonical published artifact."
   ],
   "receipt_amendment_03": "WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1836Z_s3_nadir_voss_AMENDMENT_03_CURRENT_HEAD_LEAN_AND_AXIOMS.md",
   "source_main_branch_head_after_amendment02_submission": "25faafef9da7fd13c1fcc2ad5b6c4ee6dbcf5af9"
