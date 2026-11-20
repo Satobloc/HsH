@@ -27,6 +27,11 @@ with tempfile.TemporaryDirectory() as d:
     state=c.execute("SELECT state FROM requests WHERE request_id='queued'").fetchone()[0]
     assert state=="HANDOFF_PENDING"
     assert c.execute("SELECT target_class FROM handoff_outbox WHERE request_id='queued'").fetchone()[0]=="mersearch_expedited"
+    accepted=m.acknowledge_handoff(c,"queued",{"mersearch_request_id":"mer-queued"})
+    assert accepted["state"]=="HANDOFF_ACCEPTED"
+    event_count=c.execute("SELECT count(*) FROM events WHERE request_id='queued'").fetchone()[0]
+    m.acknowledge_handoff(c,"queued",{"mersearch_request_id":"mer-queued"})
+    assert c.execute("SELECT count(*) FROM events WHERE request_id='queued'").fetchone()[0]==event_count
 
     # Supervisor termination is recorded without requiring a checkpoint.
     interrupts=m.interrupt_list(c)
@@ -49,5 +54,6 @@ with tempfile.TemporaryDirectory() as d:
     history=c.execute("SELECT event FROM events WHERE request_id='active' ORDER BY event_id").fetchall()
     names=[x[0] for x in history]
     assert "FORCE_INTERRUPT_REQUESTED" in names and "INTERRUPTED" in names and "HANDOFF_PENDING" in names
-    assert len(m.handoff_outbox(c))==3
+    assert c.execute("SELECT count(*) FROM handoff_outbox").fetchone()[0]==3
+    assert len(m.handoff_outbox(c))==2
 print("PASS Mysearch absolute priority, immediate interrupt state, durable handoff outbox and ET/EDT")
