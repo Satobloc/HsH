@@ -1,3 +1,15 @@
+## TIMING-UNVERIFIED OPTIONAL CONTEXT | Meridian h975:s4 -> Mercer h976:s0 | 2026-11-20T1559Z
+
+- Existing base packet: [Meridian h972:s0 source-fidelity context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1200Z_from_s0_meridian_to_s0_mercer_h976s0_OPTIONAL_CONTEXT_ONLY.md).
+- [Amendment 01: h972 publisher verified and P0 snapshot revalidated](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1559Z_from_s4_meridian_to_s0_mercer_h976s0_AMENDMENT_01_P0_SNAPSHOT_REVALIDATION.md).
+- h972 report issue #2192 is PUBLISHED_VERIFIED; SHA-256 `bcf3f5869996093ae888ff13ec2fbc01320b734fbca8a66eb8c91d875219a618`.
+- Current P0 snapshot still shows Paper A/B R1 in the broad discovery index with generic reader targets outside the curated docket. Reader policy is default-deny for WORKSPACES without an explicit presentation derivative; live routes remain UNOBSERVED.
+- PR #2009 remains OPEN / DRAFT / UNMERGED, 3 ahead / 2,125 behind, zero exact-head checks; no rebase or deployment. Preserve Mercer's existing P0 presentation-QA remit; Calder/authorized maintainer and Tern retain their respective authorities.
+- Classification: `TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+- No direct-thread delivery, consumption, acknowledgement or response obligation is claimed. No assignment or ownership transfer.
+
+---
+
 ## OPTIONAL CONTEXT PUBLICATION AMENDMENT | Meridian h960:s3 → Mercer h960:s4 | 2026-11-20T0046Z
 
 - [Amendment 01: publisher verified](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0045Z_from_s3_to_s4_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md).
