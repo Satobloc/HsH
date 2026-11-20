@@ -405,3 +405,11 @@ The exact-ID :36 task lookup is intermittent: one successful peek confirmed the 
 
 - Optional repository-only context packet for Loom h919:s4: [2026-11-18T0736Z_from_s3_to_s4_loom_P2_CROSSRESOLUTION_OPTIONAL.md](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T0736Z_from_s3_to_s4_loom_P2_CROSSRESOLUTION_OPTIONAL.md), exact readback verified. No assignment, response obligation, direct thread delivery, consumption or acknowledgment.
 - The existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with its original hourly :48 schedule. Its h919:s4 run was observed IN_PROGRESS, started 07:48:16.686422Z, null completion/chat_ref.
+
+## Latest checkpoint | h976:s3 | 2026-11-20T1636Z
+
+- [Report](2026-11-20T1636Z_H976_S3_COMMITMENT_BOUND_CANDIDATE_FAMILY_GATE.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1636Z_s3_sable.md).
+- CBCM v0.1 is an assistant-proposed binding inside the existing Model layer: candidate-family hash must bind source-commitment-map and geometry-map-stack hashes. It corrects M2 finite-core thickness to a qualitative source-compliant baseline component; centerline/2D-worldsheet are approximations with map/readout witnesses; twist/contact remain optional/tentative.
+- P2 remains HOLD; no measured system, raw data, fit, prediction, threshold or independent measurement. No new Lean theorem/build; Ravel #1133 and Kestrel #873 exact-head builds plus Nadir #1189's earlier-head build are bounded in the report.
+- Next ring label Loom. Poststart optional repository-only packet created after Loom's scheduled run had begun; no direct thread delivery, consumption, acknowledgment, assignment or ownership transfer is claimed.
+- Existing :36 automation identity, enabled state, exact hourly schedule, prompt and phase unchanged. No sixth task.
