@@ -1,0 +1,25 @@
+name: Sable source inventory sampler regression
+on:
+  pull_request:
+    paths:
+      - "WORKSPACES/SABLE/scripts/source_inventory_sampler.py"
+      - "tests/test_source_inventory_sampler.py"
+      - ".github/workflows/source-inventory-sampler-tests.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-inventory-sampler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile the active sampler
+        run: python -m py_compile WORKSPACES/SABLE/scripts/source_inventory_sampler.py
+      - name: Run the isolated quarantine and symlink regression tests
+        run: python -m unittest discover -s tests -p "test_source_inventory_sampler.py" -v
