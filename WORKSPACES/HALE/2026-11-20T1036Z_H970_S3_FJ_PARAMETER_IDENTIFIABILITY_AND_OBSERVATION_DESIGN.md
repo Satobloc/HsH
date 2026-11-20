@@ -3,7 +3,7 @@
 **Run key:** `REVROT3-19-20261011:970:s3`  
 **Selected ring label:** Hale (index 8)  
 **Next ring label:** Elias Kern (index 9)  
-**Status:** SOURCE-GROUNDED ALGEBRA / ASSISTANT RECONSTRUCTION / EXACT-HEAD LEAN CI PENDING
+**Status:** SOURCE-GROUNDED ALGEBRA / ASSISTANT RECONSTRUCTION / LEAN_VERIFIED
 
 ## 1. Historical remit and source boundary
 
@@ -76,11 +76,13 @@ The added module contains exact difference identities, conditional injectivity t
 
 - PR: [#2168](https://github.com/Satobloc/HsH/pull/2168), still DRAFT / OPEN / UNMERGED and stacked on infrastructure PR #262.
 - Exact current head: `06d426079b3346815ec773b9f399cfe1d3905958`.
-- Exact-head Lean 4 / Mathlib 4.34.0 workflow: [run #44720991419](https://github.com/Satobloc/HsH/actions/runs/44720991419), **IN_PROGRESS at report preparation**.
-- Earlier exact-head run #44692057915 succeeded only for the original simplex module; it does not verify this added module.
-- The intermediate runs were superseded by later commits under the workflow's cancel-in-progress rule. Only a successful run on the final exact head can verify the added module.
+- Exact-head Lean 4 / Mathlib 4.34.0 workflow: [run #44720991419](https://github.com/Satobloc/HsH/actions/runs/44720991419), **SUCCESS** on head `06d426079b3346815ec773b9f399cfe1d3905958`.
+- Lean 4.34.0 / Lake 5.0.0; full Lake build completed successfully (8,949 jobs). The new identifiability module built at 8,947/8,949; the root target built at 8,948/8,949.
+- All seven new theorem-specific `#print axioms` outputs report `[propext, Classical.choice, Quot.sound]`. No `sorryAx`, `admit`, or custom axiom declaration was found in the new module.
+- Workflow tests, lint, leanchecker, nanoda, and separate global axiom audit were skipped. This is exact-head compilation and theorem-specific axiom-log inspection, not a global audit.
+- Earlier exact-head run #44692057915 verified only the original simplex module. Intermediate runs on superseded commits were canceled by the workflow's concurrency policy.
 
-Even a successful build will establish only the encoded algebra and conditional injectivity statements. It will not validate the source translation, empirical fit, causal persuasion, convergence, agent independence, cognition, or H(s)H/SAT physics. The full heterogeneous network model and the paper's broader equilibrium/takeover results are not formalized here. Tests, lint, nanoda, leanchecker, and a separate global axiom audit are not claimed unless independently run.
+This successful build establishes only the encoded algebra and conditional injectivity statements. It will not validate the source translation, empirical fit, causal persuasion, convergence, agent independence, cognition, or H(s)H/SAT physics. The full heterogeneous network model and the paper's broader equilibrium/takeover results are not formalized here. Tests, lint, nanoda, leanchecker, and a separate global axiom audit are not claimed unless independently run.
 
 ## 6. Evidence and project boundaries
 
