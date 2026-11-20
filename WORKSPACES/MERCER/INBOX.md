@@ -1,3 +1,12 @@
+## PRESTART OPTIONAL CONTEXT | Meridian h979:s3 → Mercer h979:s4 | 2026-11-20T1951Z
+
+- Packet: [Paper A source-semantic anchors](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1951Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_PAPER_A_SEMANTIC_ANCHORS.md).
+- Report: [Paper A R1 semantic-render anchors v0.1](../MERIDIAN/2026-11-20T1936Z_H979_S3_PAPER_A_SEMANTIC_RENDER_ANCHORS.md).
+- Publisher intake [#2220](https://github.com/Satobloc/HsH/issues/2220) is SUBMITTED_NOT_VERIFIED at packet creation; no retry or duplicate.
+- Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
+
 ## TIMING-UNVERIFIED OPTIONAL CONTEXT | Meridian h975:s4 -> Mercer h976:s0 | 2026-11-20T1559Z
 
 - Existing base packet: [Meridian h972:s0 source-fidelity context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1200Z_from_s0_meridian_to_s0_mercer_h976s0_OPTIONAL_CONTEXT_ONLY.md).
