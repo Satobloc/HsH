@@ -1,3 +1,12 @@
+## Scheduler amendment | h979:s3 | 2026-11-20T19:52Z
+
+- The optional Mercer h979:s4 packet was created at 19:51Z before the :48 provider run began.
+- Later peek: :48 run `f07c1f6e-098c-832e-86a9-3eca44b38969` started 19:52:11.164568Z, IN_PROGRESS, completion null, run-level `chat_ref=null`. Packet remains PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+- :36 run `2765a7ee-64d8-8331-867d-1d9774caa374` remains IN_PROGRESS, completion null, run-level `chat_ref=null`; cached result is stale h978:s3 Nadir.
+- See [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1952Z_s3_meridian_AMENDMENT_01_PUBLISHER_VERIFIED_AND_HANDOFF_READBACK.md). No task or schedule change.
+
+---
+
 ## Publisher amendment | h979:s3 | 2026-11-20T19:52Z
 
 - [Amendment 01: publisher verified and Mercer context read back](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1952Z_s3_meridian_AMENDMENT_01_PUBLISHER_VERIFIED_AND_HANDOFF_READBACK.md).
