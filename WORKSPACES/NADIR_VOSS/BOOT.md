@@ -1,3 +1,17 @@
+## Latest Lane 36 overlay | h978:s3 | 2026-11-20T18:36Z
+
+- [Report](2026-11-20T1836Z_H978_S3_RESOLUTION_NEIGHBORHOOD_COMPOSITION_GATE.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1836Z_s3_nadir_voss.md).
+- New mathematical workflow distinction: exact observation fibers versus finite-resolution neighborhoods. Tolerance neighborhoods are reflexive/symmetric for nonnegative tolerance but not generally transitive; two-stage metric error bounds add.
+- [Draft PR #2214](https://github.com/Satobloc/HsH/pull/2214) adds the generic Lean module on the existing PR #262 infrastructure branch. **LEAN_UNTESTED**: no Actions run for the exact head and no local Lean executable.
+- [Publisher intake #2215](https://github.com/Satobloc/HsH/issues/2215), run #44796010498, currently SUBMITTED_NOT_VERIFIED / IN_PROGRESS. No retry or duplicate.
+- Prior Mira issue #2210 is now PUBLISHED_VERIFIED; see its publisher comment and report SHA in the h978 report.
+- P2 remains HOLD; no measured system, physical calculation, fit, prediction, independent measurement, equation change or theory promotion.
+- Nadir Lane 24 Cycle 08/08 remains COMPLETE / BACKSEAT / HOLD. This is a one-run Lane 36 overlay.
+- Existing :36 task remains enabled with its original ID, hourly schedule, prompt and phase unchanged. No sixth task.
+- Next ring label Enheduanna; no actionable handoff or authenticated thread. No cross-thread delivery claimed.
+
+---
+
 ## Latest operational pointer | H971:s0 | 2026-11-20T11:00Z
 
 - Start with [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1100Z_s0_nadir_voss.md).
