@@ -40,18 +40,18 @@ structure SymmetricParameters where
 
 @[ext]
 theorem FullParameters.ext {a b : FullParameters}
-    (hκ1 : a.deltaKappa1 = b.deltaKappa1)
-    (hκ2 : a.deltaKappa2 = b.deltaKappa2)
-    (hλ1 : a.deltaLambda1 = b.deltaLambda1)
-    (hλ2 : a.deltaLambda2 = b.deltaLambda2) : a = b := by
+    (hK1 : a.deltaKappa1 = b.deltaKappa1)
+    (hK2 : a.deltaKappa2 = b.deltaKappa2)
+    (hL1 : a.deltaLambda1 = b.deltaLambda1)
+    (hL2 : a.deltaLambda2 = b.deltaLambda2) : a = b := by
   cases a
   cases b
   simp_all
 
 @[ext]
 theorem SymmetricParameters.ext {a b : SymmetricParameters}
-    (hκ : a.deltaKappaS = b.deltaKappaS)
-    (hλ : a.deltaLambdaS = b.deltaLambdaS) : a = b := by
+    (hK : a.deltaKappaS = b.deltaKappaS)
+    (hL : a.deltaLambdaS = b.deltaLambdaS) : a = b := by
   cases a
   cases b
   simp_all
@@ -110,20 +110,30 @@ theorem symmetricRepresentative_fixed_iff (p : FullParameters) :
   constructor
   · intro h
     constructor
-    · have hk : (p.deltaKappa1 + p.deltaKappa2) / 2 = p.deltaKappa1 := by
+    · have hK : (p.deltaKappa1 + p.deltaKappa2) / 2 = p.deltaKappa1 := by
         have h' := congrArg FullParameters.deltaKappa1 h
         simpa [symmetricRepresentative, diagonalEmbedding, summaryMap] using h'
       linarith
-    · have hl : (p.deltaLambda1 + p.deltaLambda2) / 2 = p.deltaLambda1 := by
+    · have hL : (p.deltaLambda1 + p.deltaLambda2) / 2 = p.deltaLambda1 := by
         have h' := congrArg FullParameters.deltaLambda1 h
         simpa [symmetricRepresentative, diagonalEmbedding, summaryMap] using h'
       linarith
-  · rintro ⟨hk, hl⟩
-    apply FullParameters.ext
-    · simp [symmetricRepresentative, diagonalEmbedding, summaryMap, hk, hl]
-    · simp [symmetricRepresentative, diagonalEmbedding, summaryMap, hk, hl]
-    · simp [symmetricRepresentative, diagonalEmbedding, summaryMap, hk, hl]
-    · simp [symmetricRepresentative, diagonalEmbedding, summaryMap, hk, hl]
+  · rintro ⟨hK, hL⟩
+    cases p with
+    | mk k1 k2 l1 l2 =>
+      apply FullParameters.ext
+      · dsimp [symmetricRepresentative, diagonalEmbedding, summaryMap]
+        rw [hK]
+        ring
+      · dsimp [symmetricRepresentative, diagonalEmbedding, summaryMap]
+        rw [hK]
+        ring
+      · dsimp [symmetricRepresentative, diagonalEmbedding, summaryMap]
+        rw [hL]
+        ring
+      · dsimp [symmetricRepresentative, diagonalEmbedding, summaryMap]
+        rw [hL]
+        ring
 
 /-- Two full parameter states have the same canonical representative
     exactly when they have the same two source-defined averages. -/
