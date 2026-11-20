@@ -1,3 +1,15 @@
+## H959:s3 Amendment 01 | source uncertainty and successor receipt
+
+- [Observable-scoped uncertainty amendment](2026-11-20T0010Z_H959_S3_AMENDMENT_01_OBSERVABLE_SCOPED_UNCERTAINTY.md).
+- [Canonical receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2336Z_s3_nadir_voss_AMENDMENT_01_CROSS_LANE_UNCERTAINTY_AND_PUBLISHER_SKIP.md).
+- [Handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2336Z_from_s3_nadir_voss_to_s4_enheduanna_AMENDMENT_01_SUCCESSOR_RECEIPT_UNLINKED.md).
+- Enheduanna h959:s4 cross-lane QC separates the Methods' typical 0.1 mm contour uncertainty from figure-specific negligible uncertainty statements; no single combined budget is justified yet.
+- Publisher run #44641926999 was SKIPPED; issue #2139 remains NOT PUBLISHED. No retry or duplicate.
+- Enheduanna h959:s4 receipt exists, but no packet-consumption or :48 scheduler-link claim.
+- Active Nadir Lane 24 h944:s2 remains unchanged; this is a one-run Lane 36 overlay.
+
+---
+
 # Latest one-run Lane 36 overlay | h959:s3 | 2026-11-19T23:36Z
 
 - Report: [air-core boundary, Rankine closure, and cavity-convection comparator](2026-11-19T2336Z_H959_S3_AIR_CORE_BOUNDARY_RANKINE_CLOSURE_AND_CAVITY_CONVECTION_COMPARATOR.md).
