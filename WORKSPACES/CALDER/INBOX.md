@@ -801,3 +801,8 @@ No response obligation, ownership transfer, or direct ChatGPT-thread delivery is
 - Publisher intake [#2153](https://github.com/Satobloc/HsH/issues/2153) was rejected: submission ID exceeded the 80-character limit. No retry or duplicate; expected canonical artifact absent. Do not resubmit.
 - The comparison is optional provenance context only: distinct events, shared V1, L1 versus H1, no blind holdout, no independent-lab replication, P2 remains HOLD.
 - Calder's current P0/WH-02 remit and ownership are unchanged.
+
+
+### H962:s4 run-state amendment — FAILED / cause unavailable
+
+The :48 run associated with the optional packet subsequently recorded FAILED (run 4bf7bc56-6894-8325-9680-0e17a6ed50c0; completed 2026-11-20T02:58:36.809543Z; chat_ref null). No failure cause or current-run result was exposed. The cached result is stale and belongs to h961:s4. See [handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0236Z_from_s3_to_s4_calder_POSTSTART_OPTIONAL_GW_EVENT_DEPENDENCE_CONTEXT_AMENDMENT_01_SUCCESSOR_RUN_FAILED_NO_CAUSE.md). The packet remains optional context only; no delivery, consumption, acknowledgment, assignment, or ownership transfer is claimed.
