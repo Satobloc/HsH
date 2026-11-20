@@ -1,3 +1,10 @@
+## Final main and scheduler readback | h964:s2
+
+- Final main: 8ede7b04add8cc59148e308a69c6e56be7865b88; exact with main ref.
+- Main advanced 13 documentation/publication commits from the report snapshot 19220dc...; no P0 source/control paths changed.
+- PR #2009 final comparison: main 1,603 ahead / PR 3 ahead; all three PR-touched paths remain unchanged from merge base. No rebase/CI/merge/deploy.
+- Existing :24 task 6abda4c8eda88191b8a91a30d2a155e0 remains enabled at original hourly :24 schedule. Task inventory did not expose this run's terminal state; exact-ID peek unavailable. Four relays remain enabled; :12 disabled. No task changes.
+
 ## Publisher readback amendment | 2026-11-20T0438Z
 
 - Issue #2160 is now PUBLISHED_VERIFIED; confirmation comment #7030575690.
