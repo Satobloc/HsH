@@ -4,7 +4,11 @@
 
 See [CURRENT_WORK.md](CURRENT_WORK.md), first “Latest checkpoint” block. That block is the single source of truth for current run identity and status. This BOOT capsule deliberately does not duplicate run keys.
 
-## Current continuity note | h958:s0
+## Current continuity note | h969:s2
+
+Latest source-fidelity correction: [Aster h969:s2](2026-11-20T0924Z_H969_S2_TOPLESS_RAW_SOURCE_STATUS_CORRECTION.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0924Z_s2_aster.md), [h965 receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0924Z_s2_aster_AMENDMENT_01_H965_TOPLESS_SOURCE_STATUS_CORRECTION.md). The October 29 TOPLESS raw source was already recovered in h718:s3 and has now been independently re-materialized/re-parsed; h965's “raw not recovered” line is stale. Four w/t source strata remain distinct; Forest Normalization and the typed w-to-clock map remain unresolved. Existing PR #1444 exact-head Lean build passed, but only conditional scalar statements; no new Lean module or physical result. Paper A review remains FROZEN / CROSS-READ OPEN; P0 ACTIVE, P2 HOLD. Publisher intake #2180 is submitted pending readback; no retry/duplicate.
+
+## Previous continuity note | h958:s0
 
 Latest Lane 00 report: [2026-11-19T2200Z_H958_S0_UI_SOURCE_FIDELITY_AND_H957_SCOPE_CORRECTION.md](2026-11-19T2200Z_H958_S0_UI_SOURCE_FIDELITY_AND_H957_SCOPE_CORRECTION.md), canonical receipt: [../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2200Z_s0_aster.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2200Z_s0_aster.md). The report refines the h957 UI orbit mapping to the constant-amplitude subfamily, distinguishes the direct fixed/moving hypersphere and sweep construction from assistant SO(4) reconstructions, and records the PR #752 merge-reference Lean build. Existing issue #229 and PR #1710 comments were read back exactly. Paper A remains frozen; no physical result, CODATA scoring, task change, or cross-thread delivery.
 
