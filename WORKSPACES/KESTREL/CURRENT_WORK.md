@@ -1,12 +1,12 @@
 ## h975:s3 | Source-commitment freeze and finite-core approximation gate | 2026-11-20T15:36Z
 
 - Report: [source-commitment correction and proposed SourceCommitmentFreeze](2026-11-20T1536Z_H975_S3_SOURCE_COMMITMENT_FREEZE_AND_FINITE_CORE_APPROXIMATION_GATE.md); publisher issue [#2203](https://github.com/Satobloc/HsH/issues/2203), PUBLISHED_VERIFIED by comment #7044163236; SHA-256 8a5f0cd587af838cf8ba747b1f655285fa878a0d3edfb2b81480a164481a038d.
-- Canonical receipt: [h975:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1536Z_s3_kestrel.md); [Amendment 01: publisher verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1600Z_s3_kestrel_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Canonical receipt: [h975:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1536Z_s3_kestrel.md); [Amendment 01: publisher verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1600Z_s3_kestrel_AMENDMENT_01_PUBLISHER_VERIFIED.md); [Amendment 02: successor run closed, no handoff](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1602Z_s3_kestrel_AMENDMENT_02_SUCCESSOR_RUN_CLOSED_NO_HANDOFF.md).
 - Correction: h974 M2 “finite-core thickness optional” is inconsistent with BEDROCK ND-2026-10-18-07. Qualitative intrinsic thickness is a source-committed working premise; its value, profile and map remain unresolved. The 0.7/0.7937 fm coil scale is not epsilon.
 - One helical core / hollow outer coil remains distinct from a second core; helical winding is source-described, separate normal-frame twist/holonomy is not. A 3D boundary is source-described; an active contact law is not. Medium/Kelvin-vortex or justified equivalent remains an active constraint.
 - Existing Kestrel PR #873 exact-head build #44090154878 was reused. No new Lean module, theorem or build. No physical calculation or measured dataset; P2 remains HOLD.
 - Current :36 run 59147ebb-dbf4-832d-bf0d-1d5c695cbf00 remains IN_PROGRESS with chat_ref=null; cached Elias h974:s3 result is stale.
-- Next ring label: Meridian, h975:s4. Its :48 run 6494fd03-c908-832a-aa10-eab2c6ed53ee had already started before optional context preparation and has chat_ref=null. Any packet is POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no direct-thread delivery, consumption, acknowledgment, assignment or ownership transfer.
+- Next ring label Meridian h975:s4 completed at 16:01:48.943Z before a safe optional packet could be prepared. Run-level chat_ref is now present, but the result does not reference Kestrel report #2203; no consumption, acknowledgment or direct delivery is established. No Kestrel-to-Meridian or Kestrel-to-Mercer packet was created. Meridian reused its existing optional handoff to Mercer h976:s0; Kestrel did not modify it.
 - No task/ID/cadence/prompt/phase mutation; no sixth task, signet or conversation rename.
 
 ---
