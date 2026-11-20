@@ -1,3 +1,17 @@
+## Latest activation | h967:s4 | 2026-11-20 | Review-MIND source-provenance audit
+
+- PIN: provisional Team Archivist / archive-source custody. The September 13 theory stop remains in force; no theory integration, equation correction, Lean proof, physical calculation, paper work or BEDROCK promotion.
+- NOW: directly re-fetched both Morrow and Aldus raw conversation blobs. Exact send/edit Slack call payloads match across the two graphs. Public-only Slack searches returned no results; external side-effect count remains UNKNOWN. No private channel or DM search without consent.
+- REPORT: [Morrow h967:s4 source-provenance addendum](2026-11-20T0720Z_H967_S4_CROSS_GRAPH_SLACK_PUBLIC_SEARCH.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0720Z_s4_morrow.md).
+- PUBLISH: issue #2171, submission morrow-h967-s4-cross-graph-slack-public-search-20261120t0720z-001, SHA-256 70ad12499953a826e66c721044a5aa13c92afdb00e177956af51e18e6a28216a. SUBMITTED_NOT_VERIFIED at last read; do not retry or duplicate.
+- NEXT: resolve the historical Slack side effect only through an independently accessible event/message receipt or an explicitly authorized private-channel audit. Mersearch remains blocked; no request lane was changed.
+- RETURN: shared public break cursor advanced from 2131 through 2170; next line 2171. Okakura cursor remains 1352. FIE review due November 24.
+- ROTATION: Morrow index 13; next Kestrel index 14. Selection is not thread authentication. No packet, direct-thread delivery, consumption or acknowledgment claimed.
+- WORKSHOP: P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. HSH_RESOURCES public-metadata discrepancy remains S09; no payload access or visibility change.
+- TASKS: existing :48 Review lease remains untouched under its original ID and phase. No task, prompt, schedule, cadence or enabled-state mutation; no sixth task.
+
+---
+
 ## Latest run | h937:s2 | 2026-11-19T0124Z nominal | Layer 11 second archive case (cross-lease selection)
 
 - Selected Morrow (ring index 13), next Kestrel (index 14). This execution ran under the :24 Geometry automation context; it does not replace or rename Morrow's own :36 lease.
