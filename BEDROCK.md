@@ -1,5 +1,79 @@
 # **THE WHOLE PROBLEM: RECONSTRUCT THE UNIVERSE FROM THE PHYSICS WE ALREADY HAVE**
 
+
+### ND-2026-11-20-01 — CLONE / UNIQUE-CLONER EVENT ACCOUNTING (P1 / HIGH PRIORITY / MANDATORY)
+
+**Authority:** Nathan Direct, 2026-11-20, live instruction. **Scope:** every worker, assistant, automation, scheduled task, GitHub Actions workflow, CI job, cloud/Codex workspace provisioner, repository tool, deployment process, and other internal process capable of creating, provisioning, refreshing, or reusing a repository-bearing environment across HsH, SAT_THEORY_ARCHIVE_2023-25 (Glass), HSH_RESOURCES, and other project repositories. **Status:** active, mandatory operational-observability policy. This is a reporting and systems-design requirement; it adds no physical theory claim and does not change the meaning of the existing clone ledger classifications.
+
+**Purpose:** make the project's internally generated repository-copy and clone-related Traffic footprint observable with the greatest supportable certainty, including how many events occurred, when they occurred, which process caused them, and what remains unknown. Do this without needlessly interrupting productive work, disabling functioning workflows, or turning ordinary operation into a blocking audit.
+
+#### 1. Obligate reporting
+
+Every process that triggers, provisions, or may trigger a repository clone, checkout, repository-bearing workspace creation, or other potentially clone-producing operation MUST report the events it actually caused or can evidence. Report per repository and per process instance:
+
+- exact event count when observable;
+- event time, preferably exact UTC timestamp, with timestamp precision and any start/completion interval available;
+- process/workflow/task identity, version, run ID, attempt, job, step, trigger, and environment/workspace identity where available;
+- repository, operation, mechanism, checkout/ref/depth and materialized revision where observable;
+- classification, evidence/source pointer, purpose, confidence, and whether GitHub Traffic attribution is actually observed;
+- a per-run summary separating confirmed events, possible events, provisioning-unknown events, confirmed non-clone activity, and events not observable.
+
+A report of **zero confirmed events** is different from **no event observed**, **no job record returned**, **incomplete history**, and **unknown provisioning**. Preserve those distinctions. Missing telemetry is never silently converted to zero.
+
+#### 2. Keep three different quantities separate
+
+1. **Repository-copy / checkout / materialization events.** Record each evidenced operation that creates or populates a repository-bearing environment. This includes explicit full or shallow clones and completed checkout/materialization steps. Count each real event once, by its stable run/job/step or event identity. For GitHub Actions, retain the run ID, run attempt, job ID, checkout step number, actual action/ref/depth, checkout revision, and run-head comparison where available. A checkout event is a recorded materialization event; it is not, by itself, proof that GitHub counted a Traffic clone.
+2. **GitHub Traffic clone counts.** Record only values actually obtained from an authorized Traffic observation, by repository and observation date/window, with retrieval time, exact source, returned count, coverage and limitations. Do not infer Traffic attribution from an Actions run, checkout depth, repository write, or the existence of a local checkout.
+3. **Unique-cloner observations.** Record the reported unique-cloner count as its own repository/date/window observation, with its exact measurement window and retrieval timestamp. Do not manufacture individual cloner identities from an aggregate metric, infer a person from an IP or network attribution, or treat a unique-cloner count as a count of internal workers. Do not sum overlapping or rolling-window unique-cloner observations as though each represented new unique people. Preserve the metric exactly as returned and state what it can and cannot establish.
+
+Continue to apply [CLONE_LEDGER_STANDARD.md](WORKSPACES/COMMON/CLONE_LEDGER_STANDARD.md). API/connector reads and writes, individual file/blob fetches, browser access, and archive downloads are not automatically full clones. Fetch/pull, checkout materialization, full-clone classification, expected Traffic attribution, and observed Traffic attribution remain distinct fields or axes. Do not inflate clone counts by counting each tool call, each file read, or a runner-internal fetch separately from the checkout event that caused it.
+
+#### 3. Mandatory automated-process design specification
+
+Every new or materially revised automated process that can touch or provision repositories MUST include a **clone-observability** section in its design/specification before release. It must state:
+
+- which repositories and environments it may access or provision;
+- every clone-, checkout-, workspace-provisioning-, cache-restore-, or repository-refresh path it can invoke;
+- which operations are expected to materialize repository contents, their triggers, frequency/matrix/retry behavior, and the conditions under which the event is skipped;
+- how exact event counts and timestamps will be emitted, with stable event IDs and deduplication keys;
+- which process/run/job/step identifiers, repository revisions and environment identifiers will be retained;
+- how the result is appended to the existing clone ledger and surfaced in a per-run summary;
+- how GitHub Traffic clone and unique-cloner observations will be captured separately, if available;
+- how missing logs, unavailable telemetry, retries, reruns, and unknown provisioning will be reported rather than silently discarded;
+- a test showing that one real event is counted once, repeated/parallel steps are not collapsed incorrectly, and non-clone API/file access is not misclassified.
+
+Instrument automated processes to emit an event record as close to the operation as practical and a compact count/status summary at run completion. Retain the evidence before short-lived Actions logs or workspaces expire. Use the existing append-only [CLONE_LEDGER.jsonl](WORKSPACES/COMMON/CLONE_LEDGER.jsonl) and its standard wherever applicable; extend instrumentation and tooling where necessary rather than creating a competing ledger or duplicating an existing reporting path.
+
+#### 4. Retroactive accounting, estimates, and uncertainty
+
+Perform a retrospective inventory of existing and recently used automated processes, workflows, recurring tasks, workspace provisioners, and other repository-bearing systems. Recover exact historical counts and timestamps from retained Actions run/job/step records, logs, task histories, provisioner records, and Traffic snapshots wherever that can be done without material disruption or disproportionate effort. Prioritize active and high-frequency processes, recent history, repeated/matrix/retry paths, and processes with the greatest plausible contribution to internal clone traffic.
+
+For a historical or current process whose exact count or mechanism cannot be established:
+
+- provide the best defensible **low / central / high event-count estimate**;
+- state the **likelihood range** that the process or event was clone-producing, and whether that range is measured, statistically derived, or a reasoned judgment;
+- identify the date range, records inspected, coverage gaps, assumptions, deduplication method and confidence;
+- distinguish known events from estimated events and provisioning-unknown events;
+- state when the count is not numerically bounded by available evidence rather than inventing a reassuring number.
+
+Record an explicit UNKNOWN / NOT INSPECTABLE disposition when even a defensible estimate is unavailable. Preserve earlier UNKNOWN classifications and append evidence-based supplements or revisions with the prior classification and reason; never erase the earlier uncertainty or rewrite history to make the ledger look complete.
+
+#### 5. Reporting cadence and non-disruption rule
+
+- Report clone/materialization events at event time where practical, and include their count and time range in each affected automated run's completion report.
+- Reconcile repository-level clone and unique-cloner Traffic observations on their actual available measurement cadence; record the full window and retrieval time, not just a bare number.
+- Maintain an aggregate view by repository, process/workflow, run/date, mechanism, classification, Traffic attribution, and uncertainty. Keep checkout-event totals separate from Traffic clones and unique-cloner observations.
+- Retrofit existing processes incrementally. Do not halt all workflows, suspend useful worker activity, or require expensive full-history rescans merely to make the ledger appear complete. Use existing logs and tools first; add lightweight instrumentation or a bounded follow-up when it materially improves certainty. When telemetry cannot be obtained immediately, record the gap, estimate where supportable, and leave a concrete repair/retrofit action with an owner and return trigger.
+
+**Existing work route:** continue the standing clone-footprint investigation WH-01 in [PRIMARY_WORKFLOW_HEALTH_ACTION_QUEUE_2026-11-13.md](WORKSPACES/COMMON/PRIMARY_WORKFLOW_HEALTH_ACTION_QUEUE_2026-11-13.md), the existing worker check-in/synthesis record, and HsH issue [#1703](https://github.com/Satobloc/HsH/issues/1703). This directive elevates and broadens the reporting obligation; it does not create a duplicate census, ledger, issue, scheduled task, or recurrence. Preserve the existing scheduler configuration and all unrelated workflow commitments.
+
+**Priority and precedence:** P1 / HIGH PRIORITY / MANDATORY. Implement immediately for new and materially revised automated-process specifications; retrofit existing processes by the smallest safe, nondisruptive steps. This policy operates under the current Primary Operational Guideline hierarchy and does not authorize destructive changes, privacy-boundary violations, or interruption of higher-priority emergency/protected work. Failure to observe or report is a recorded observability gap requiring follow-up, not an excuse to fabricate a count or indiscriminately stop operations.
+
+**Nathan Direct source attribution:** 2026-11-20. The exact closing attribution supplied with the instruction is recorded as `--NM 20NOV26 [OWL]`; this is a source-only quotation/reference, not an assistant sign-off.
+
+---
+
+
 ### ND-2026-11-08-02 — Primary Operational Guideline precedence and FIE foundation
 
 **Authority:** Nathan Direct, 2026-11-08. **Scope:** operational-methodology authority across SAT/H(s)H. **Status:** controlling hierarchy clarification.
