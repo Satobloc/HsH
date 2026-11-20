@@ -44,7 +44,7 @@ The fetched file's Git blob matches the source pin in Orson's existing formaliza
 
 `call_model` retries once. If the retry also raises, it returns the literal `[ERROR]`. `NLIContradictionChecker` then evaluates:
 
-`\"CONTRADICTORY\" in response.upper() if response else False`
+`"CONTRADICTORY" in response.upper() if response else False`
 
 For `[ERROR]`, the result is `False`. The caller stores a Boolean `contradiction_detected`, so a checker outage can enter the same non-contradiction branch as a valid `CONSISTENT` response.
 
