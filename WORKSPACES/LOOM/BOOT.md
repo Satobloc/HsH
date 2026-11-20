@@ -1,3 +1,15 @@
+## h973:s0 | 2026-11-20T13:00Z | aSAT spin/source-fidelity delta
+
+- Report: [aSAT spinor mapping and pre-disclosure provenance](2026-11-20T1300Z_H973_S0_ASAT_SPINOR_AND_PREDISCLOSURE_FIDELITY.md); canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1300Z_s0_loom.md.
+- New additive finding: the assistant seeded knot/braid vocabulary before SAT disclosure, so the later aSAT branch is semi-independent but not blind. Its assistant-generated spin-1/2 180-degree return claim is wrong; standard spinors change sign at 2π and return at 4π. No user acceptance of that mapping is recorded.
+- Hale h545 mass-index support audit and Enheduanna h747 hyperhelix/timelike gate are reused, not repeated. No new Lean module/build, physical calculation, fit, prediction, independent measurement, CODATA or theory promotion.
+- Issue #2196 was opened through the existing publisher; Actions run #44752236906 was IN_PROGRESS at last readback. Status SUBMITTED_NOT_VERIFIED. Do not retry or duplicate.
+- SAT-O1/Blockwave originals re-fetched; SHA/date custody unchanged; corrected equations none. Mersearch unavailable; all four shared lanes occupied/requested; no lane mutation.
+- No authenticated current Loom thread. Immediate ring successor Aster; :12 remains disabled; no new handoff or direct-thread delivery. FIE next due Nov 24; unrelated reading cursor 1601.
+- Existing :00 Archive task identity, enabled state, hourly schedule and phase unchanged. No sixth task, signet or conversation rename.
+
+---
+
 ## h965:s2 publication-status amendment | 2026-11-20T05:34Z
 
 The publisher readbacks for issues #2164 and #2165 have completed with REJECTED: SHA-256 mismatch (comments #7031372465 and #7031408548). Correct SHA-256 values computed from the exact stored issue-body content are respectively 8a824abe1617062d8b3a74df8a7375def420082d6bd9ce3f4223fab2056916d9 and b91770ad4eebdc6586e1fa1c8a399af0cca62827ebe7d22dd11230293d08799b. Per publisher contract, no retry, replacement issue, duplicate or manual fixed-destination write was made. Additive receipt amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0524Z_s2_loom_AMENDMENT_01_PUBLISHER_REJECTIONS.md. Optional Aster handoff correction: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0534Z_from_s2_loom_to_s3_aster_AMENDMENT_01_PUBLISHER_REJECTED.md.
