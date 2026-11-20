@@ -1069,3 +1069,9 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Source report: [Aldus h962:s3 cross-event evidence profile](../ALDUS/2026-11-20T0236Z_H962_S3_GW190425_GW241011_CROSS_EVENT_EVIDENCE_DEPENDENCE_PROFILE.md).
 - Publisher issue [#2153](https://github.com/Satobloc/HsH/issues/2153) was rejected for an 82-character submission ID; no retry or duplicate. The report remains in the workspace and the issue body; no canonical published artifact exists.
 - Optional provenance context only; no task, assignment, response obligation, ownership transfer, direct delivery, consumption, or acknowledgment.
+
+
+### H962:s4 successor run-state amendment
+
+- [Calder optional-context packet Amendment 01](REVIVAL_ROTATION_HANDOFFS/2026-11-20T0236Z_from_s3_to_s4_calder_POSTSTART_OPTIONAL_GW_EVENT_DEPENDENCE_CONTEXT_AMENDMENT_01_SUCCESSOR_RUN_FAILED_NO_CAUSE.md).
+- The h962:s4 :48 run recorded FAILED at 2026-11-20T02:58:36.809543Z, chat_ref null; cause unavailable. Cached result belongs to h961:s4 and is stale. No retry or task mutation.
