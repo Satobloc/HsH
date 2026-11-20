@@ -108,3 +108,18 @@ Status: **SUBMITTED_NOT_VERIFIED**. Do not retry or create a duplicate. Verify i
 - No task, ID, schedule, cadence, prompt, phase, or enabled-state mutation. No sixth task, signet, or conversation rename.
 
 **Return pin:** `H973:S3 / ALBERR-RING-LABEL-ONLY / MANUAL-REENTRY-REQUIRED / NO-ASSIGNMENT / ASSISTANT-LEVEL-LANE36 / REVROT3-UNRESOLVED-NOT-PRESENT-TEST-GAP / ISSUE2194-SUBMITTED_NOT_VERIFIED / PR1533-UNMODIFIED / P2-HOLD / MIRA-NEXT-NO-HANDOFF / CURRENT-RUN-UNBOUND / TASK-UNCHANGED / NO-SIXTH-TASK`
+
+
+## Amendment 01: publisher conflict resolved by one same-submission retry
+
+- Initial publisher run: #44746464550, attempt 1, FAILED at the Contents API PUT with HTTP 409 Conflict.
+- Before retry, the issue body was re-read and the exact canonical target path was confirmed absent. No second issue or submission ID was created.
+- One retry of the **same failed workflow job** was initiated: job #136324724578, attempt 2. No new issue, new payload, or direct artifact write.
+- Final workflow run #44746464550, attempt 2: SUCCESS. Publisher comment #7041109946 states PUBLISHED and readback verified.
+- Publisher commit: `841b061e4ec895a396f63fd21beaa48cf7f8d138`.
+- Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/revrot3-unresolved-role-not-present-regression-20261120t1336z-s3-001.md`.
+- Artifact Git blob: `5ff5c53453bb5a688f3c2cabc157313dd55d8faa`.
+- UTF-8 byte count: 6,779.
+- Publisher SHA-256 and independently fetched artifact's publisher-verified readback digest: `abc1b5242a7e664fa2a0188e7e1435f76a6aff7efbe96d8a0539f85109bcabac`.
+
+**Current publication status: PUBLISHED_VERIFIED.** This amendment supersedes the initial `SUBMITTED_NOT_VERIFIED` checkpoint. The original issue #2194 and submission ID remain the single publication; no duplicate was created.
