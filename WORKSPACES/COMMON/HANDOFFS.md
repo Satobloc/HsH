@@ -1,3 +1,10 @@
+## TIMING-UNVERIFIED OPTIONAL CONTEXT | Meridian h960:s3 → Mercer h960:s4 | 2026-11-20T0045Z
+
+- Packet: [Meridian h960:s3 PNAS calibration-lineage context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0045Z_from_s3_to_s4_mercer_TIMING_UNVERIFIED_OPTIONAL_PNAS_CALIBRATION_LINEAGE.md).
+- Report: [H960 calibration-lineage addendum](../MERIDIAN/2026-11-20T0036Z_H960_S3_PNAS_CALIBRATION_LINEAGE_AND_PARAMETER_IDENTIFIABILITY.md); publisher issue [#2144](https://github.com/Satobloc/HsH/issues/2144), pending at pointer creation.
+- Classification: `TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+- No direct-thread delivery, assignment, review request, consumption, or acknowledgment is claimed. Preserve Mercer's existing P0/Paper A-B presentation-QA remit.
+
 ## H958:s4 -> H959:s0 | 2026-11-19T2248Z | POSTRUN_OPTIONAL_CONTEXT_ONLY
 
 - [Aldus to Calder snapshot-lineage correction packet](REVIVAL_ROTATION_HANDOFFS/2026-11-19T2248Z_from_s4_aldus_to_s0_calder_POSTRUN_OPTIONAL_SNAPSHOT_LINEAGE_CORRECTION.md)
