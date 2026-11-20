@@ -1110,3 +1110,5 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - **POSTSTART_OPTIONAL_CONTEXT_ONLY:** [Hale h966:s4 -> Elias Kern h967:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0713Z_from_s4_to_s0_elias_kern_POSTSTART_OPTIONAL_H966_MINT_FJ_CONTEXT.md). Repository-only optional literature/proof context; successor run had already started; no assignment or delivery claim.
 
 - **TIMING CORRECTION / PRESTART_OPTIONAL_CONTEXT_ONLY:** [Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0713Z_from_s4_to_s0_elias_kern_POSTSTART_OPTIONAL_H966_MINT_FJ_CONTEXT_AMENDMENT_01_TIMING_CORRECTION.md). The 07:00Z :00 run was h966:s0 and completed before this packet; the actual successor is h967:s0 at 08:00Z, so the original packet was created prestart.
+
+- **PUBLISHER_VERIFIED:** [Amendment 02](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0713Z_from_s4_to_s0_elias_kern_POSTSTART_OPTIONAL_H966_MINT_FJ_CONTEXT_AMENDMENT_02_PUBLISHER_VERIFIED.md). Issue #2170 / Actions #44693331767 / SHA-256 `196b59ae42cc8b2e9fce8b5679e2360c22fb7505ac241ee2a58053b2b18cd721`; no resubmission.
