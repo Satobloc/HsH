@@ -56,6 +56,17 @@ A cubby is an access route, not necessarily a physical folder. Each access card 
 
 Do not conflate a missing result, a negative result, an unreadable source, a failed operation, and a blocked operation.
 
+
+### Message-level TICK/TOCK signature
+
+At the foot of substantive working replies during an active operation, use one compact, updating index card:
+
+`▸ TICK: <exact active position> | TOCK: <durable completed operation, or none> | PIN: <return IDs>`
+
+Use the fuller `PIN | NOW | NEXT | RETURN` form when a task needs more detail. The signature is a live pointer, not a second plan: update it rather than accumulating old versions in chat. `▸` marks the current character/position in a sequence; it is a provisional navigation marker, not an identity signet or a canonical registry token.
+
+A TOCK requires a durable result and updated cursor. Keep `SUBMITTED`, `RUNNING`, `PENDING`, `BLOCKED`, and `FAILED` visibly distinct from completed work. A tool call, intention, commit submission or workflow start is not a TOCK.
+
 ## 4. Initial plan register
 
 This is a routing index, not a new priority hierarchy. The status notes below are a starting snapshot from current conversations and recovered project records. Before execution, verify live repository/task state and the controlling project document.
@@ -96,7 +107,7 @@ Trial three competing representations against the same real tasks:
 2. **Short stable node IDs:** e.g. P-02 / NATIVE-VERIFY, resolved through this registry or a project-local task record.
 3. **Compact character sequence:** one character per node/transition, with a versioned registry mapping each character to a task, sub-sequence, action, or route. Test Unicode and alphanumeric namespaces; do not assume one character must always mean one atomic action.
 
-A compact sequence must define: namespace, registry version, current cursor, branching/conditional semantics, nested sequence behavior, escape/unknown-character handling, state transition, and durable return address. Registry meanings must never silently change across versions. A character may resolve to another sequence or module, not only a single task.
+A compact sequence must define: namespace, registry version, current cursor, branching/conditional semantics, nested sequence behavior, escape/unknown-character handling, state transition, and durable return address. Registry meanings must never silently change across versions. A character may resolve to another sequence or module, not only a single task. A leading `▸` may mark the current character in the sequence; the current pointer advances only when the relevant operation state warrants it.
 
 Candidate alternative structures remain open: Credenza/cubby model, cube-like spatial control surface, nested graph, decision tree, script-generated queue, or hybrid. Compare practical recovery and execution, not aesthetic preference.
 
