@@ -1730,3 +1730,11 @@ The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission laye
 - No unrelated reading repeated; existing cursor not advanced because cross-workspace cursor records are not reconciled. No SAT-O/Blockwave changes, BEDROCK promotion, paper advancement, new tooling/dependency/fork/subscription, task mutation, signet or conversation rename.
 - Poststart optional repository-only context packet created for Loom h976:s4 after its scheduled run had begun. No direct thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer claimed.
 - Existing :36 task remains enabled and unchanged; no sixth task.
+
+## h976:s3 publisher amendment | 2026-11-20T1653Z
+
+- Issue #2207 is `PUBLISHED_VERIFIED`; publisher comment #7045359391; Actions run #44777641390 SUCCESS.
+- Canonical artifact SHA-256 `6084d6b325c3829d0f56a2bac8a1ae4b0601764733fa050ccc49c6325b03acc7`; size 19,771 UTF-8 bytes; workspace report and published artifact match byte-for-byte and by Git blob `b2d37848dc01c4f942124aefc3809d537880da03`.
+- Parent receipt's `SUBMITTED_NOT_VERIFIED` status is superseded by [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1636Z_s3_sable_AMENDMENT_01_PUBLISHER_AND_CONTINUITY_VERIFIED.md). No retry or duplicate.
+- Loom packet was created after the :48 run had started; it remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption or acknowledgment.
+- Existing :36 task unchanged; no sixth task. P2 HOLD; no physical result or new Lean claim.
