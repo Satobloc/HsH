@@ -1,3 +1,16 @@
+## Latest checkpoint | h975:s4 | 2026-11-20
+
+- Current run label: Meridian; assistant-level source reconstruction, not authenticated current thread.
+- New Review-MIND QC: CRTC v0.1 allows a group unit but does not yet define group-history, member-projection, exposure, subgroup-composition or group-aggregation maps. This is a scope gap for group-level claims, not a failure of the individual readout schema. No Orson P1 changes.
+- Existing generic Lean fiber-factorization theorem from Nadir PR #1189 was independently re-read; exact-head Actions run #44106198466 succeeded. No CRTC-specific theorem or new build.
+- [h975:s4 report](2026-11-20T1548Z_H975_S4_REVIEW_MIND_CRTC_GROUP_READOUT_PROJECTION_AUDIT.md), [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1548Z_s4_meridian.md), publisher issue [#2202](https://github.com/Satobloc/HsH/issues/2202): SUBMITTED_NOT_VERIFIED at latest recorded check.
+- [h972:s0 source-fidelity report](2026-11-20T1200Z_H972_S0_SELF_CONNECTION_BARYGENESIS_SOURCE_FIDELITY.md) is PUBLISHED_VERIFIED at issue #2192; SHA-256 `bcf3f5869996093ae888ff13ec2fbc01320b734fbca8a66eb8c91d875219a618`.
+- P0 Code Grurple remains ACTIVE; live Paper A/B routes UNOBSERVED. PR #2009 remains OPEN/DRAFT/UNMERGED; no rebase, merge or deployment. Four Mersearch lanes remain occupied; no lane mutation.
+- Next ring label Mercer. Existing optional h976:s0 packet is reused; repository-only context, no assignment or direct-thread delivery claim.
+- Four enabled relay tasks preserved; :12 disabled; no sixth task.
+
+---
+
 # Publisher verification update | 2026-11-20T0438Z
 
 Issue #2160 for the h964:s2 P0 rebase-preflight report is now PUBLISHED_VERIFIED. Confirmation comment #7030575690; artifact blob ce05c1d4dc863a73f2dc8d8ea1690f40c37404e3; SHA-256 83f586c94df41a5d2fd4d32e5789398d35c70f510776a25a747386ac69f53e2a. Exact artifact readback matches the internal report. See receipt Amendment 01 and Mercer handoff Amendment 01. This supersedes the pending status in the checkpoint below.
