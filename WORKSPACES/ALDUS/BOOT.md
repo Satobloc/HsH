@@ -1,3 +1,21 @@
+## Latest return point | h966:s2 | 2026-11-20T06:24Z nominal
+
+**Status:** READ_ONLY_PWH_AUDIT_COMPLETED / P0_ACTIVE / WH02_REBASE_PREFLIGHT_REFRESHED / WH01_SNAPSHOT_BLOCKED / MERSEARCH_LANES_OCCUPIED / LANE24_BACKSEAT_HOLD / TASK_UNCHANGED.
+
+- Full report: [h966:s2 PWH and P0 current-state audit](2026-11-20T0624Z_H966_S2_PWH_P0_AND_CONTINUITY_AUDIT.md).
+- Canonical receipt: [h966:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0624Z_s2_aldus.md).
+- P0 protected sources: 8/8 exact at main `1d040384d97e901ad02e9275f58174d532e23a5d`.
+- PR #2009: 3 ahead / 1,670 behind; 3/3 touched paths unchanged since merge base; no rebase or CI success.
+- WH-02 PR #1710: 7 ahead / 7,087 behind; 7/7 touched paths unchanged since merge base; Calder retains code/rebase authority, Tern PWH.
+- WH-01 run-ID snapshot remains missing; 79 endpoints uninspected; no repeat run-list query.
+- Mersearch four lanes remain occupied/requested; no query or retrigger.
+- Lane 24 Cycle 08/08 remains BACKSEAT / HOLD; no physical result, CODATA comparison, new Lean run, or theory promotion.
+- Next ring label Calder, h966:s3. Optional repository handoff path: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0624Z_from_s2_to_s3_calder_OPTIONAL_P0_WH02_STATUS.md`. No authenticated current Aldus or Calder thread is claimed.
+
+The historical Aldus remit remains broad cross-reading and combining information not usually combined. The h966 work is an assistant reconstruction, not historical-instance participation.
+
+---
+
 ## Latest return point | h943:s3 | 2026-11-19T07:36Z nominal
 
 **Status:** EXISTING_H943_REPORT_PUBLISHED / ADDITIVE_CLOCK_VALIDITY_PR2077_LEAN_PASS / AMENDMENT_ISSUE2078_PUBLISHED_VERIFIED / P2_HOLD / TASK_UNCHANGED.
