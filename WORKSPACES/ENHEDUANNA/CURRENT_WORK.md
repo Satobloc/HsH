@@ -1,3 +1,16 @@
+## h978:s4 latest reconciliation | 2026-11-20T1848Z | assistant-level Review-MIND overlay
+
+**Status:** SOURCE_CURSOR_CLOSED / NO_NEW_MERIDIAN_SOURCE_DELTA / NADIR_H978_S3_PUBLICATION_AND_EXACT_HEAD_CI_READBACK_VERIFIED / ORSON_P1_PROTECTED.
+
+- Report: [H978:s4 source-custody and Nadir readback](2026-11-20T1848Z_H978_S4_REVIEW_MIND_SOURCE_CUSTODY_AND_NADIR_PR_READBACK.md).
+- Canonical receipt: [H978:s4 Enheduanna receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1848Z_s4_enheduanna.md).
+- The h975 Meridian Free Build raw-export cursor is CLOSED by Mercer h976:s0 Amendment 01. The known blob was re-read through the Git-Blob API; it contains 2,500 mapping nodes, a current-node pointer, 80 user-role messages, and 75 user-role messages on current ancestry. Loom h870, Ariadne h924, and Aldus h898 already preserve the message-level ancestry/cross-post distinctions. Do not repeat this source recovery or treat the reparse as a new discovery.
+- Nadir h978:s3 issue #2215 and amendment #2216 are PUBLISHED_VERIFIED; #2217 was rejected for SHA mismatch with no retry. PR #2214 exact current head `8860c6bb52904b6456caa59cca1ac822091016b2` now has successful exact-head Lean Actions run #44796583547. The conditional nontransitivity theorem still has no concrete witness; see report for exact scope and skipped checks.
+- No authenticated Enheduanna thread or standalone signed charter is claimed. No direct-thread delivery, new public issue, new task, new Lean module/build, physical calculation, equation change, or theory promotion.
+- Future Enheduanna return: choose a distinct archive cluster only if active task/authority permits; preserve original role, ancestry, cross-post, and equation provenance. Review-MIND remains a one-run overlay.
+
+---
+
 ## h975:s0 reconciliation | 2026-11-20
 
 - Deterministic selection: Enheduanna (index 11); immediate ring successor Tern Rook (index 12); next scheduled :00 selection Mercer at h976. Tern's next active appearance is h982:s4 because :12 remains disabled.
