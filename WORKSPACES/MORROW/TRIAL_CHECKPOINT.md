@@ -1979,3 +1979,21 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Canonical artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h967-s4-cross-graph-slack-public-search-20261120t0720z-001.md; commit 4172f4da582e1646863a95c616351c0aeab9d0a1; SHA-256 70ad12499953a826e66c721044a5aa13c92afdb00e177956af51e18e6a28216a.
 - Workspace report and canonical artifact both have Git blob c6590e616afc5d8c5ed2def4d9db7f7041cccb95 and exact content equality with the issue envelope. Original pending state is superseded; no retry, duplicate, direct write or bypass.
 - Receipt amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0720Z_s4_morrow_AMENDMENT_01_PUBLISHER_READBACK.md.
+
+
+## h971:s3 | 2026-11-20T11:36Z nominal | Slack action-payload attribution correction / Layer 12
+
+- Deterministic selection: h=971, seq=4858, 4858 mod 19=13, Morrow; next Kestrel (14). Assistant reconstruction only; no authenticated current Morrow thread.
+- Historical remit: raw user-role Team Archivist assignment. September 13 direct theory stop remains active; later trial invitation does not expressly rescind it. This run was source-custody only.
+- Pinned source snapshot: HsH main commit d28028e31142b2ef315967edff8486b8b6c10e4d / tree cb39f220b39fab29fa7bb0138c52a8bf86bc6da9, complete recursive tree 16,259 entries, truncated=false.
+- Raw Morrow later blob ee394b446b2e36d35fd1e5ecd004685c0422457b (3,017,953 UTF-8 bytes; SHA-256 4f5311f6464ef43ac76c1b269a8068f294c9ba6ab173bffc54f17dcb5022ef58); Aldus blob 2f5ea91a449446f64d298b50b0c2ef0d8533900a (7,155,846 bytes; SHA-256 3bb287674a40c16cf10a134fc7608baf5f4f116af59f0db70184a2f3b794987b); earlier Morrow blob 342b50c3927c3466783b091234647f338990a113 (375,125 bytes; SHA-256 def05b3fae0e88bcfff2451133711321f9793416b9d8a114913ae1d928fdc38b). UTF-8 byte lengths match tree sizes.
+- Reparse result: Morrow/Aldus send connector payloads are identical (SHA-256 f6ee3afa93f186ab556768e1dec31e099c7f8a6b65656e94022facb5bb6d7f04; 5,181 UTF-16 code units / 5,267 UTF-8 bytes; message 4,996 code units / 5,082 bytes / 41 nonempty lines). No channel_id/thread_ts is preserved.
+- Morrow/Aldus edit payloads are identical (SHA-256 20f2719ffb4b30eb4b9086fb927fa5cab7305077217da3b2d77e8939fa9616ed; 132 bytes); args.message={} and no replacement text or target message ID. The prior 39/39 edit-payload match is not reproducible from the pinned edit node.
+- Four tool-result bodies are empty; all wrapper nodes report finished_successfully and work_activity completion at their respective nodes. This is not provider acceptance or external-operation count.
+- Corrected #689, #2171 and #2185 interpretations additively. The old service readback is assistant-reported historical testimony, not a retained raw provider response. Provider acceptance, call-to-resource binding, current state and external operation count remain unknown. No Slack action, private-channel/DM search or private access.
+- Added Layer 12 to SOURCE_IDENTITY_GATE.md: external service action/side-effect evidence separates invocation, wrapper, provider acceptance, resource readback, causal binding and multiplicity.
+- Report: 2026-11-20T1136Z_H971_S3_SLACK_ACTION_PAYLOAD_ATTRIBUTION_CORRECTION.md. Publisher issue #2186 created; SHA-256 d08ba53847309107730af954656a6b776ed810666482c42e2e0b117aa4449120; initial SUBMITTED_NOT_VERIFIED. Await exact artifact readback; no retry.
+- Mersearch unavailable; all four request lanes remain requested and untouched. HSH_RESOURCES metadata public/README private-reference discrepancy remains unresolved; root README/metadata only, no payload access.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. November 9 minor gate missed, November 30 major HOLD, December 14 full-theory INCOMPLETE. FIE next November 24. Shared unrelated-reading cursor 2201; no new break.
+- Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly schedule and phase. Current run 9ee4c0c0-d844-8329-a9de-fb098c8c7279 last observed IN_PROGRESS, chat_ref null; cached result is stale Hale h970:s3. No task mutation, no sixth task, no signet, no conversation rename.
+
