@@ -33,7 +33,7 @@ def rotationMatrix (frequency : ℝ) : Matrix4 :=
 
 /-- The source example's generator is skew-symmetric. -/
 theorem rotationMatrix_skew (frequency : ℝ) :
-    (rotationMatrix frequency)ᵀ = -rotationMatrix frequency := by
+    Matrix.transpose (rotationMatrix frequency) = -rotationMatrix frequency := by
   ext i j
   fin_cases i <;> fin_cases j <;> simp [rotationMatrix]
 
@@ -42,7 +42,7 @@ theorem rotationMatrix_sq (frequency : ℝ) :
     rotationMatrix frequency * rotationMatrix frequency =
       -(frequency ^ 2) • (1 : Matrix4) := by
   ext i j
-  fin_cases i <;> fin_cases j <;> simp [rotationMatrix, Matrix.mul_apply] <;> ring
+  fin_cases i <;> fin_cases j <;> simp [rotationMatrix, Matrix.mul_apply] <;> ring_nf
 
 /-- Algebraic divergence of the linear velocity field x ↦ Ωx, equal to tr Ω. -/
 def linearExpansion (frequency : ℝ) : ℝ :=
