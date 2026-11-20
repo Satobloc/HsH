@@ -112,9 +112,7 @@ theorem fjUpdate_gamma_injective
 /-- If the prior equals the α-weighted current/peer mixture, γ is
     completely unobservable in this one-step update. -/
 theorem fjUpdate_gamma_invariant_when_prior_eq_peer_mix
-    (γ₁ γ₂ α current peer : ℝ)
-    (hprior : (α * current + (1 - α) * peer) =
-      (α * current + (1 - α) * peer)) :
+    (γ₁ γ₂ α current peer : ℝ) :
     fjUpdate γ₁ α (α * current + (1 - α) * peer) current peer
       = fjUpdate γ₂ α (α * current + (1 - α) * peer) current peer := by
   unfold fjUpdate
