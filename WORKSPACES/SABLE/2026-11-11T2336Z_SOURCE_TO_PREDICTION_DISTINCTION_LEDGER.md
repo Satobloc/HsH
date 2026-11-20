@@ -146,3 +146,26 @@ The 2025-09-19 “Annotating intuitions with math” export marks the 7th intuit
 Next source-recovery action: identify the exact primary Lagrangian/formalization items cited as [7]-[11] by the later synthesis, preserve original bytes, role/author, date, and hashes, and determine whether they remove, bound, or fail to instantiate pastward influence. Do not infer from the assistant annotation alone.
 
 No physical system or dataset is selected. No fit, prediction, numerical threshold, independent measurement, or new Lean theorem is claimed.
+
+
+---
+
+## 2026-11-20 additive example | GW241011 symmetric multipole projection
+
+This is a source-currentness example for the existing P3 inspiral comparator, not a P2 selection, new physical calculation, or H(s)H prediction. Full source record: [Sable h961:s2 report](2026-11-20T0124Z_H961_S2_GW241011_SOURCE_CURRENTNESS_AND_SYMMETRIC_PROJECTION_GATE.md).
+
+| Axis | Status |
+|---|---|
+| Source authority | 2025 peer-reviewed LVK event paper and 2026 arXiv reanalysis of the same event |
+| Claim currentness | External source currentness updated; no current H(s)H claim is thereby reaffirmed |
+| Formalization | Generic fiber/readout theorem exists in Kestrel PR #873 and passed exact-head CI; the GW241011-specific projection is not instantiated in Lean |
+| Empirical status | Observed event; H1/V1 strain and catalog PE products are publicly listed but not acquired here; no independent measurement beyond the event |
+| H(s)H admission | NOT_TEST_READY; geometry-to-multipole map absent |
+
+The 2026 source maps four component-specific deviations to two symmetric combinations:
+`(δκ₁,δκ₂,δλ₁,δλ₂) ↦ ((δκ₁+δκ₂)/2,(δλ₁+δλ₂)/2)`.
+Its fibers contain antisymmetric directions `(t,-t,s,-s)`. A readout that factors only through the symmetric projection cannot recover those component differences. The paper sets the antisymmetric combinations to zero because of reported degeneracy; this is a model restriction, not a direct measurement of equality.
+
+Keep the two source equation conventions separate: the 2025 LVK paper writes `Q = -κ S²/(m c²)` in SI; the 2026 preprint writes `Q = -κ χ²m³` and `O = -λ χ³m⁴` in geometric units. No conversion is made in this ledger.
+
+CODATA 2022 Version 9.0 remains the reference if a later SI/geometric conversion requires `G`; no CODATA constant was used in this source-only update. The Lane 24 cycle remains BACKSEAT/HOLD while P0 is active. No new Lean run, fit, prediction, holdout, paper-gate advancement, or theory promotion.
