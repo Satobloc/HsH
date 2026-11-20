@@ -1,3 +1,5 @@
+> **Latest checkpoint (2026-11-20, h976:s2):** [CRTC source challenge](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-20T1624Z_H976_S2_CRTC_SOURCE_CHALLENGE_PROTOCOL_CONTEXT_READOUT_LOCUS.md). CRTC v0.1 remains unchanged and P1 remains frozen. The latest Orson-titled conversation export is not treated as a cognition destination because its last explicit user direction moved it to H(s)H theory work; no authenticated current Orson cognition thread is established. Exact identifiers remain in the private Library. No model trial, protocol amendment, new Lean theorem, or paper-gate advancement.
+
 ## Latest checkpoint | 2026-11-20 | h972:s3 | Orson Vay (assistant-level)
 
 - New source-grounded methods artifact: [Cognitive Readout Target Contract v0.1](COGNITIVE_READOUT_TARGET_CONTRACT_v0.1.md). It separates correctness calibration, prompt-level policy success, judge-score prediction, source/error vigilance, knowledge-boundary behavior and reasoning-chain audit by target, unit, information state, criterion, channel, dependence and validation.
