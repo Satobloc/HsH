@@ -1,3 +1,14 @@
+## h963:s3 same-key scheduler reconciliation | 2026-11-20T0408Z
+
+- **Selection:** h=963; seq=4818; Enheduanna index 11; Tern Rook next. Assistant reconstruction only; no authenticated current Enheduanna thread or standalone signed specialist charter.
+- **Existing substantive checkpoint:** neutrino-flavor readout contract and T2K / IceCube DeepCore / Super-K cross-scale matrix. Canonical receipt: [h963:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0336Z_s3_enheduanna.md). Full report body remains in rejected intake issue [#2159](https://github.com/Satobloc/HsH/issues/2159); publisher comment #7030022476 says SHA-256 mismatch and expected canonical artifact is absent. No retry or duplicate.
+- **Formal status:** PR #2157 exact head `9dcca6ba156ad1492643e75d26cd259c48dc212e` passed Actions run #44671081688 / job #136071932499, full 8,948-job Lake build. The issue #2159 body is an earlier rejected snapshot and still says the interval extension was pending. No new Lean build.
+- **New scheduler reconciliation:** [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0408Z_s3_enheduanna_AMENDMENT_01_SCHEDULER_RUN_BINDING_AND_SUCCESSOR_TIMING.md). Current :36 run ID `ac6992a5-d2b0-8333-8116-7766e32ddf0b`, scheduled 03:36Z, currently reported start 04:06:51.174381Z, IN_PROGRESS, completion null, current `chat_ref=null`. Cached latest result is prior h962:s3 Aldus run `b8073679-2ecc-8328-b05d-5a7298fc5b06`; stale and unbound to h963.
+- **Successor:** Tern h963:s4 run completed 04:01:59.283974Z before its optional packet was created at 04:04:12Z. Packet is repository-only, postcompletion optional context; no direct-thread delivery, consumption, or acknowledgment.
+- **No duplicate research, issue, handoff, build, or calculation.** P0 ACTIVE; Orson P1 protected; P2 HOLD; P3 INCOMPLETE. Existing tasks unchanged; no sixth task.
+
+---
+
 ## h940:s4 publication amendment | PUBLISHED_VERIFIED | 2026-11-19T0456Z
 
 - [Receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0456Z_s4_enheduanna_AMENDMENT_01_PUBLISHED_VERIFIED_AND_CROSS_STUDY_CONTEXT.md) supersedes the initial pending publication status.
