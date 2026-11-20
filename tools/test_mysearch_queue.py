@@ -8,19 +8,31 @@ m=importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
 with tempfile.TemporaryDirectory() as d:
     c=m.connect(Path(d)/"q.sqlite")
 
-    # An expedited worker gets the Mysearch slot.
-    m.submit(c,"worker-a","mysearch_expedited","active search",request_id="active")
+    # Worker use requires explicit acknowledgement of interruption risk.
+    try:
+        m.submit(c,"worker-no-consent","mysearch_expedited","rejected",request_id="no-consent")
+        raise AssertionError("worker submission without risk consent was accepted")
+    except PermissionError:
+        pass
+
+    # A worker who accepts the risk gets the Mysearch slot.
+    m.submit(c,"worker-a","mysearch_expedited","active search",request_id="active",risk_acknowledged=True)
     active=m.claim(c,"worker-a")
     assert active["request_id"]=="active"
     m.transition(c,"active","RUNNING","worker-a")
     m.transition(c,"active","PACKAGING","worker-a")
 
     # Another worker is waiting in the Mysearch queue.
-    m.submit(c,"worker-b","mysearch_expedited","queued search",request_id="queued")
+    m.submit(c,"worker-b","mysearch_expedited","queued search",request_id="queued",risk_acknowledged=True)
 
     # Nathan's direct request interrupts the active worker and moves queued
     # worker jobs to the durable expedited Mersearch handoff outbox.
-    direct=m.submit(c,"Nathan","nathan_direct","urgent direct search",request_id="direct")
+        try:
+        m.submit(c,"spoofed-worker","nathan_direct","spoofed",request_id="spoofed")
+        raise AssertionError("unauthenticated Nathan priority was accepted")
+    except PermissionError:
+        pass
+    direct=m.submit(c,"Nathan","nathan_direct","urgent direct search",request_id="direct",authorized_nathan=True)
     assert direct["position"]==1 and direct["ahead"]==0
     state=c.execute("SELECT state FROM requests WHERE request_id='active'").fetchone()[0]
     assert state=="INTERRUPT_REQUESTED"
@@ -45,7 +57,7 @@ with tempfile.TemporaryDirectory() as d:
     assert got["request_id"]=="direct"
 
     # Workers submitting while Nathan is queued/running are routed to Mersearch.
-    m.submit(c,"worker-c","mysearch_expedited","later search",request_id="later")
+    m.submit(c,"worker-c","mysearch_expedited","later search",request_id="later",risk_acknowledged=True)
     assert m.receipt(c,"later")["state"]=="HANDOFF_PENDING"
 
     # Every event has UTC and Eastern representations; ET changes with DST rules.
