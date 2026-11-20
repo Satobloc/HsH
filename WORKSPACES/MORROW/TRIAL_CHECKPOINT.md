@@ -2007,3 +2007,25 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Canonical receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1154Z_s3_morrow_AMENDMENT_01_PUBLISHER_VERIFIED_AND_CORRECTION_LINKS.md`.
 - The published artifact verifies the source correction report, not the underlying Slack service event. Provider acceptance, causal binding, operation count and current Slack state remain unknown. No private Slack access or external action.
 
+
+
+## 2026-11-20 h975:s2 | 15:24Z nominal | raw snapshot genealogy and custody-status reconciliation
+
+- Run key: `REVROT3-19-20261011:975:s2`; selected Morrow (ring index 13), next Kestrel (index 14). Assistant-level source-grounded reconstruction; no authenticated current Morrow thread.
+- Current retry began at 15:42:10.355544Z under the existing :24 task. The H975 report and publisher artifact were already committed before this retry; their creation is not attributed to the current attempt. Scheduler `latest_result` still referenced prior H974 run `d23e28a2-bfec-832e-8678-2a3dec92c34e`, so it was not attributed to H975. Current run-level `chat_ref=null`.
+- Historical source: conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`; direct user-role Team Archivist message `402ade01-7116-4efb-9b14-31e477754458`; direct September 13 theory stop `934e87de-4e61-4622-a0ea-e5047aa235c6`; later archive/maintenance invitation `99ae959b-fbeb-4c1e-9326-a6723c2b9557` does not expressly lift the stop. Raw author.name and message_source are null; preserve the repository user-role attribution convention without claiming external identity authentication.
+- Pinned source tuple: HsH commit `9bd3f3d5abcae31a3a9c6c8e38303e2d5b11934e`, tree `ece2082e3ce552f5acc5249db80be8c52a08947b`. Earlier blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb`, 1,752,700 UTF-8 bytes, SHA-256 `4f79b15eabfa8ba3b15d774fd873c72d91529ec601986a9fb97b9e9a860bc856`; later blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`, 3,017,953 bytes, SHA-256 `4f5311f6464ef43ac76c1b269a8068f294c9ba6ab173bffc54f17dcb5022ef58`. Both Git object IDs recomputed from exact UTF-8 bytes and matched.
+- Comparison: 465→697 mapping nodes; 0 earlier nodes missing; 232 new; one shared message payload difference; one shared child-edge expansion; all 17 later user-role messages are on the later ancestry. The later snapshot is a node-key superset, not payload-lossless or an independent witness.
+- Report: `2026-11-20T1524Z_H975_S2_SNAPSHOT_GENEALOGY_AND_CUSTODY_STATUS.md`; issue #2201 PUBLISHED_VERIFIED; publisher comment #7043691989; exact artifact SHA-256 `ac0893227ff2a994b45277e353b4b80edf463c60fe3ae5b1fbceafaca69cd59e`. Canonical receipt `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1524Z_s2_morrow.md`.
+- Source Identity Gate Layer 8 applied witness 02 records exact commit/tree/path membership, raw-byte digests, Git object verification, source-role limitations and the node-level delta.
+- MORROW-SOURCE-001 remains RESOLVED-CODE / FOLLOW-UP-REPORT-REGEN; no old candidate report regeneration or duplicate disposition was performed.
+- S09: HSH_RESOURCES metadata says public while its root README declares a private-reference boundary. Metadata and root README only; no payload access or permission/visibility change.
+- Four Mersearch lanes and twelve missing expected outputs remain as recorded in the published report; not re-executed during this reconciliation. Task graph remains ACTIVE_SEED, 18 records / 16 declared branches, Morrow has no dedicated branch.
+- Shared unrelated-reading cursor remains line 2281; FIE next review November 24. No duplicate reading break.
+- No theory integration, equation correction, Lean theory proof, physical/CODATA calculation, fit, prediction, independent measurement, paper work or BEDROCK promotion. No Slack API action or private channel/DM access.
+- No Kestrel handoff was warranted or created. No direct-thread delivery, consumption or acknowledgment is claimed.
+- Existing :24 task identity, enabled state, saved hourly schedule, prompt and phase unchanged. No sixth task, signet or conversation rename.
+- Internal continuity writes used the GitHub Contents API fallback after confirming no local HsH checkout and no generic approved Actions writer for arbitrary workspace/receipt paths; each changed file was independently read back.
+
+**Durable records:** report, issue #2201, canonical receipt, and [Source Identity Gate](SOURCE_IDENTITY_GATE.md). This checkpoint records source custody only.
+
