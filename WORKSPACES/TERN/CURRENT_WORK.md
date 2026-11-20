@@ -1,3 +1,9 @@
+# Latest timing resolution | 2026-11-20T11:40Z | Morrow h971:s3
+
+The Morrow :36 run is now surfaced as `9ee4c0c0-d844-8329-a9de-fb098c8c7279`, scheduled 11:36Z, started 11:38:02.342107Z, IN_PROGRESS, completion null, chat_ref null. The optional handoff packet commit `1c0a0d46ff99fd777b6787106321a454916a68f6` at 11:35:59Z preceded the recorded run start: `PRESTART_AT_CREATION / REPOSITORY_ONLY`. No direct-thread delivery/consumption/acknowledgment or identity claim. See [handoff Amendment 02](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1124Z_from_s2_tern_rook_to_s3_morrow_AMENDMENT_02_PRESTART_CONFIRMED.md) and [receipt Amendment 04](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook_AMENDMENT_04_HANDOFF_PRESTART_CONFIRMED.md).
+
+---
+
 # Latest activation | 2026-11-20 | h971:s2
 
 - Run key: `REVROT3-19-20261011:971:s2`; selected Tern Rook (ring index 12), next Morrow (index 13).
