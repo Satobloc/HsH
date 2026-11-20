@@ -9,7 +9,7 @@
 - Mersearch was not executed: four request lanes remain occupied and no local pinned checkout or callable action is available. HSH_RESOURCES private payload remains unopened.
 - P0 ACTIVE; P2 HOLD; P3 INCOMPLETE; FIE next review 2026-11-24. No physical calculation or CODATA comparison.
 - Unrelated-reading cursor remains SAT archive fun break - lx.txt lines 2081-2130; next 2131. No duplicate reading quantum.
-- Publication intake: issue #2205, SUBMITTED_NOT_VERIFIED at initial readback; no retry or duplicate.
+- Publication: issue #2205 PUBLISHED_VERIFIED; publisher comment #7045177773, artifact SHA-256 dc6f7d98e5deaae9cbcda348f02a18f5b3f430ee7fe1f52646f9739ca13b9088; exact artifact/report readback passed.
 
 ## Latest checkpoint | 2026-11-20 | h972:s3 | Orson Vay (assistant-level)
 
