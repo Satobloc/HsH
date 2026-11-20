@@ -27,7 +27,7 @@ with tempfile.TemporaryDirectory() as d:
 
     # Nathan's direct request interrupts the active worker and moves queued
     # worker jobs to the durable expedited Mersearch handoff outbox.
-        try:
+    try:
         m.submit(c,"spoofed-worker","nathan_direct","spoofed",request_id="spoofed")
         raise AssertionError("unauthenticated Nathan priority was accepted")
     except PermissionError:
