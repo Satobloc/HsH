@@ -1156,3 +1156,5 @@ Issue #2190 is PUBLISHED_VERIFIED (comment #7039964657; commit 1f9406c8e95a5da40
 - Optional repository-only context packet: [adaptive geometry-family holdout gate](REVIVAL_ROTATION_HANDOFFS/2026-11-20T1436Z_from_s3_elias_kern_to_s4_nadir_voss_TIMING_UNVERIFIED_OPTIONAL_ADAPTIVE_HOLDOUT_GATE.md).
 - No task, assignment, response obligation, or ownership transfer. No direct-thread delivery/consumption/acknowledgment claimed.
 - Recipient timing is UNVERIFIED; do not classify PRESTART/POSTSTART from the conflicting scheduler timestamps.
+
+- 2026-11-20T1636Z Sable -> Loom h976:s4: poststart optional CBCM source-commitment / candidate-family composition context; repository-only, no task or ownership transfer. See `REVIVAL_ROTATION_HANDOFFS/2026-11-20T1636Z_from_s3_sable_to_s4_loom_POSTSTART_OPTIONAL_CBCM_COMPOSITION.md`.
