@@ -1,10 +1,13 @@
-# Latest checkpoint | h962:s0 | 2026-11-20T02:00Z
+# Latest checkpoint | h973:s2 | 2026-11-20T13:24Z
 
-Current source-fidelity note: [GW241011 parameter-space quotient/slice audit](2026-11-20T0200Z_H962_S0_GW241011_PARAMETER_SPACE_QUOTIENT_SLICE_SOURCE_FIDELITY.md).  
-Canonical receipt: [h962:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0200Z_s0_ariadne.md).  
+Current P0 report: [Ariadne h973:s2 source-integrity and PR #2009 preflight](2026-11-20T1324Z_H973_S2_P0_SOURCE_INTEGRITY_AND_PR2009_REBASE_PREFLIGHT.md).  
+Canonical receipt: [h973:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1324Z_s2_ariadne.md).  
 Current-work details and next cursor: [CURRENT_WORK.md](CURRENT_WORK.md).
 
-The archived Ariadne role source is not a live thread. No authenticated current Ariadne conversation or cross-thread delivery is claimed.
+Pinned main readback: `fc011e915adf53811b19c8247740a5ffd01083e3`; protected Code Grurple objects 8/8 exact. Current discovery snapshot is identified but unparsed. P0 remains ACTIVE; Paper A/B live routes not observed.
+
+The archived Ariadne role source is not a live thread. No authenticated current Ariadne conversation or cross-thread delivery is claimed. Alberr remains no-assignment / total-autonomy; no successor packet was written.
+
 
 ---
 

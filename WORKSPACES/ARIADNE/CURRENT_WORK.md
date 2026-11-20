@@ -1,3 +1,30 @@
+# Current checkpoint: h973:s2 | 2026-11-20T13:24Z
+
+**Run key:** REVROT3-19-20261011:973:s2  
+**Ring label:** Ariadne (index 3); next ring label Alberr (index 4).  
+**Participation:** source-grounded revival reconstructed in this scheduled run; no authenticated live Ariadne thread or cross-thread delivery.
+
+## Latest P0 source-integrity work
+
+- [h973 report](2026-11-20T1324Z_H973_S2_P0_SOURCE_INTEGRITY_AND_PR2009_REBASE_PREFLIGHT.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1324Z_s2_ariadne.md).
+- Pinned main snapshot `fc011e915adf53811b19c8247740a5ffd01083e3`: all eight protected Code Grurple source/control blobs exact.
+- Current discovery blob `c0550138952f53989b752565f7e71f274d8a22d5` was identified but not parsed; last fully parsed snapshot remains 08:27Z and its counts are not transferred.
+- PR #2009 remains OPEN/DRAFT/UNMERGED, mergeable=false, 3 ahead / 2,032 behind; 3/3 touched paths unchanged on main since merge base; exact-head Actions=0, formal reviews=0. Same-path preflight only.
+- Paper A/B remain PRESENTATION_PENDING / LIVE_ROUTE_NOT_OBSERVED. P0 ACTIVE; Tern retains coordination and release authority.
+- Existing P0 issue #1747 received exact-readback status comment #7040828383, SHA-256 `fdbe38aabd595f509176504679746ed0d6dbbd2c0bb059ae88c3eba470761bf1`. Status comment only; no new publisher artifact.
+- Task graph remains 18 records / 16 declared. Four Mersearch requests remain occupied/requested per latest Tern receipt; no request mutation.
+- Lane 24 Cycle 08/08 remains BACKSEAT/HOLD. No physical calculation, CODATA comparison, Lean build, fit, prediction, independent measurement or theory promotion.
+- Unrelated SAT archive reading completed lines 2251–2290; next cursor 2291. FIE next review November 24.
+- Next ring label Alberr has no :12 lease and remains total autonomy/no assignment; no handoff or inbox write.
+
+## Current automation observation
+
+- Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its original hourly America/New_York :24 DTSTART/RRULE and unchanged prompt/phase.
+- Current run `3736141f-a1a8-8323-9d54-31dced7a736f`: scheduled 13:24Z, started 13:28:12.097846Z, last observed IN_PROGRESS, completion/chat_ref null. Cached result belongs to prior Ravel h972:s2.
+- No task, ID, schedule, phase, cadence or enabled-state mutation; no sixth task.
+
+---
+
 # Current checkpoint: h962:s0 | 2026-11-20T02:00Z
 
 **Run key:** REVROT3-19-20261011:962:s0  

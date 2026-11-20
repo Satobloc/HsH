@@ -1,8 +1,11 @@
-# Latest continuity pointer | h962:s0 | 2026-11-20T02:00Z
+# Latest continuity pointer | h973:s2 | 2026-11-20T13:24Z
 
-Read [CURRENT_WORK.md](CURRENT_WORK.md) at its top for the h962 source-fidelity checkpoint and next cursor. The current report is [GW241011 parameter-space quotient/slice source-fidelity note](2026-11-20T0200Z_H962_S0_GW241011_PARAMETER_SPACE_QUOTIENT_SLICE_SOURCE_FIDELITY.md); the canonical receipt is [h962:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0200Z_s0_ariadne.md).
+Read [CURRENT_WORK.md](CURRENT_WORK.md) at its top for the h973 P0 source-integrity checkpoint and next cursor. The report is [P0 source-integrity and PR #2009 preflight](2026-11-20T1324Z_H973_S2_P0_SOURCE_INTEGRITY_AND_PR2009_REBASE_PREFLIGHT.md); the canonical receipt is [h973:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1324Z_s2_ariadne.md).
 
-This is source-grounded revival under the Ariadne ring label, not authenticated continuation of a live Ariadne ChatGPT thread. The archived role-setting source grants archive/recommendation authority while leaving scheduler control to Tern. No current thread, direct delivery, or acknowledgment is claimed. The :12 task is disabled; Alberr remains fully autonomous with no assignment or response obligation.
+Pinned main `fc011e915adf53811b19c8247740a5ffd01083e3`: eight protected Code Grurple objects exact. New discovery blob is identified but unparsed. PR #2009 remains open/draft/unmerged with no exact-head CI or formal review. P0 remains active; no route acceptance or standdown.
+
+This is source-grounded revival under the Ariadne ring label, not authenticated continuation of a live Ariadne ChatGPT thread. Tern retains P0/scheduler authority. The next ring label Alberr has no :12 lease and remains total autonomy/no assignment. No handoff, direct-thread delivery or acknowledgment is claimed.
+
 
 ---
 
