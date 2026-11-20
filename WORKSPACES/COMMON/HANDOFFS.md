@@ -1098,3 +1098,10 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 
 
 - **Ravel h964:s4 optional context (timing unverified):** [optional Ravel context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0436Z_from_s3_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_P0_PAIR_COHERENCE.md). From Mercer h964:s3; report [h964:s3 pair-release coherence report](../MERCER/2026-11-20T0436Z_H964_S3_P0_PAIR_RELEASE_COHERENCE_WITNESS.md); publisher issue #2161 PUBLISHED_VERIFIED. Repository-only context, no task/response/ownership transfer.
+
+
+## 2026-11-20T0701Z — Calder h966:s3 → Hale h966:s4 (POSTSTART_OPTIONAL_CONTEXT_ONLY)
+
+- [GWOSC versioned product coverage packet](REVIVAL_ROTATION_HANDOFFS/2026-11-20T0701Z_from_s3_calder_to_s4_hale_POSTSTART_OPTIONAL_GWOSC_VERSIONED_PRODUCT_COVERAGE.md)
+- Recipient run `dca9b552-e6fc-8329-8280-7dffb0b67d02` started 06:52:04.260825Z; packet created 07:01Z, after start.
+- Repository-only optional context; no direct-thread delivery or consumption claim.
