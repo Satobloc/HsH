@@ -116,7 +116,7 @@ structure PositiveUnitScale (d : Dim) where
 
 /-- Dividing a channel difference by a positive scale of the same dimension
     yields a dimensionless normalized component. -/
-def normalizedDifference {d : Dim}
+noncomputable def normalizedDifference {d : Dim}
     (x y : UnitTagged d) (scale : PositiveUnitScale d) :
     UnitTagged dDimensionless :=
   ⟨(x.value - y.value) / scale.value⟩
@@ -124,7 +124,7 @@ def normalizedDifference {d : Dim}
 /-- A diagonal normalized squared discrepancy for two heterogeneous channels.
     The type requires a separately dimension-matched positive scale for each.
     This is a proposed baseline discrepancy, not a selected H(s)H metric. -/
-def normalizedPairSquaredDiscrepancy {dO dC : Dim}
+noncomputable def normalizedPairSquaredDiscrepancy {dO dC : Dim}
     (o1 o2 : UnitTagged dO) (oScale : PositiveUnitScale dO)
     (c1 c2 : UnitTagged dC) (cScale : PositiveUnitScale dC) :
     UnitTagged dDimensionless :=
@@ -134,14 +134,15 @@ def normalizedPairSquaredDiscrepancy {dO dC : Dim}
 /-- The ratio of a dimension signature by itself is dimensionless. -/
 theorem dimensionDivSelfIsDimensionless (d : Dim) :
     Dim.div d d = dDimensionless := by
-  cases d
-  rfl
+  cases d with
+  | mk m l t =>
+    simp [Dim.div, dDimensionless]
 
 /-- Squaring a same-dimension normalized component remains dimensionless. -/
 theorem normalizedComponentSquareIsDimensionless (d : Dim) :
     Dim.mul (Dim.div d d) (Dim.div d d) = dDimensionless := by
   rw [dimensionDivSelfIsDimensionless]
-  rfl
+  simp [Dim.mul, dDimensionless]
 
 /-- A raw sum of squared channel differences can have one dimension signature
     only when the two channel dimensions are equal. -/
