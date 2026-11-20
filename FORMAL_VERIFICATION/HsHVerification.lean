@@ -23,6 +23,7 @@ import HsHVerification.AldusTemporalProvenance
 import HsHVerification.ProducerQuiescence
 import HsHVerification.MonotoneClockTransform
 import HsHVerification.JointClockCalibrationFamily
+import HsHVerification.PenningsDopplerIdentifiability
 import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
