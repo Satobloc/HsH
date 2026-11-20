@@ -77,6 +77,6 @@ theorem omega4_sq (w : ℝ) :
       (-(w^2)) • (1 : Matrix (Fin 4) (Fin 4) ℝ) := by
   ext i j
   fin_cases i <;> fin_cases j <;>
-    simp [omega4, Matrix.mul_apply] <;> ring
+    simp [omega4, Matrix.mul_apply, Fin.sum_univ_succ] <;> ring
 
 end HsHVerification
