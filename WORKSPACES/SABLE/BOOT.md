@@ -413,3 +413,9 @@ The exact-ID :36 task lookup is intermittent: one successful peek confirmed the 
 - P2 remains HOLD; no measured system, raw data, fit, prediction, threshold or independent measurement. No new Lean theorem/build; Ravel #1133 and Kestrel #873 exact-head builds plus Nadir #1189's earlier-head build are bounded in the report.
 - Next ring label Loom. Poststart optional repository-only packet created after Loom's scheduled run had begun; no direct thread delivery, consumption, acknowledgment, assignment or ownership transfer is claimed.
 - Existing :36 automation identity, enabled state, exact hourly schedule, prompt and phase unchanged. No sixth task.
+
+### h976:s3 publisher amendment | 2026-11-20T1653Z
+
+- Issue [#2207](https://github.com/Satobloc/HsH/issues/2207) is `PUBLISHED_VERIFIED`; comment #7045359391, Actions run #44777641390 SUCCESS.
+- Artifact SHA-256 `6084d6b325c3829d0f56a2bac8a1ae4b0601764733fa050ccc49c6325b03acc7`, 19,771 UTF-8 bytes; workspace and canonical artifact exact-match.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1636Z_s3_sable_AMENDMENT_01_PUBLISHER_AND_CONTINUITY_VERIFIED.md) supersedes the receipt's pending status. Loom packet remains poststart optional repository context only.
