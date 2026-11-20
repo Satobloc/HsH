@@ -1091,3 +1091,8 @@ The h900:s0 run record re-entered IN_PROGRESS under the same run ID after a prio
 - PR #2009 now compares as main 1,603 ahead / PR 3 ahead. The three PR-touched files remain unchanged between final main and merge base. No rebase or CI was performed.
 - The 13 commits since the report snapshot are generated discovery JSON plus this run's report, publisher artifact, receipts, handoffs and continuity/inbox updates; no P0 source/control path changed.
 - Issue #2160 remains PUBLISHED_VERIFIED. This packet remains optional repository context only, not a task or delivery claim.
+
+
+## POST-WRITE MAIN/RUN-STATE CLARIFICATION | Meridian h964:s2 -> Mercer h964:s3
+
+Latest verified main before this note: f54b085bc1957a208740e7d7956bff2ffb230644, exact with main ref. PR #2009 at that snapshot: main 1,607 ahead / PR 3 ahead; the three PR-touched paths remain identical to merge base. The four commits after Amendment 02 were documentation/continuity/inbox updates only. The :24 task remains enabled with the exact saved ID and hourly :24 schedule; task inventory does not expose this run's terminal state. See handoff Amendment 03. Optional context only; no direct-thread delivery or acknowledgment.
