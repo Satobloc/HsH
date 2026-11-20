@@ -1113,3 +1113,11 @@ Latest verified main before this note: f54b085bc1957a208740e7d7956bff2ffb230644,
 - Report: [Self-connection, winding, and barygenesis source-fidelity addendum](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/2026-11-20T1200Z_H972_S0_SELF_CONNECTION_BARYGENESIS_SOURCE_FIDELITY.md).
 - Optional repository context only. No assignment, response obligation, deadline, ownership transfer or request to displace Mercer's current Paper A/B presentation QA remit.
 - No authenticated Mercer thread was established. No direct-chat delivery, consumption or acknowledgment is claimed.
+
+
+### Publication status update | MERIDIAN-20261120T1200Z-001
+
+- Publisher intake [#2192](https://github.com/Satobloc/HsH/issues/2192) is now PUBLISHED_VERIFIED_BY_EXACT_ARTIFACT_READBACK.
+- [Published report artifact](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-self-connection-barygenesis-fidelity-20261120t1200z-001.md).
+- [Receipt Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1200Z_s0_meridian_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md).
+- This updates publication status only. The packet remains optional context; no assignment, response obligation or ownership transfer.
