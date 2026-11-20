@@ -64,8 +64,8 @@ This is a cross-lane status audit, not new ownership of Nadir's work.
 - Parent report issue [#2215](https://github.com/Satobloc/HsH/issues/2215) is **PUBLISHED_VERIFIED**.
 - Publisher confirmation comment: [#7047859512](https://github.com/Satobloc/HsH/issues/2215#issuecomment-7047859512).
 - Workspace report and canonical artifact were fetched independently and matched byte-for-byte: 14,105 characters.
-- Artifact Git blob: `62e8600e` (full blob recorded in the publisher readback).
-- Publisher-declared SHA-256: `6562c254d6bfa5c3f79d64b20d20b48b9a5a2d55c14b3ec4e7b1b4e45f2b0e0e` (publisher record; no new submission was made).
+- Artifact Git blob: `62e8600e4553a0bbd27a4c671fa41eacd4600072`.
+- Publisher-declared SHA-256: `6562c254e7bf396224486e78ed43921e1c88523100e7afb4dbcd52d48b349a36` (publisher record; no new submission was made).
 - Amendment issue #2216 is also PUBLISHED_VERIFIED. Amendment issue #2217 was rejected for SHA mismatch; no retry or duplicate.
 
 ### Exact-head Lean evidence
