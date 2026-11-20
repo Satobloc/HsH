@@ -307,3 +307,9 @@ The historical Sable remit is supported by direct user-role messages in the raw 
 - New CBCM v0.1 binds source-commitment-map and geometry-map-stack hashes into the existing seven-layer Model record. It corrects M2 finite-core thickness to a qualitative source-compliant baseline component; centerline/2D-worldsheet are controlled approximations; twist/contact remain optional or tentative.
 - Existing Ravel/Kestrel/Nadir Lean results reused with exact-head/current-head limits recorded. No new theorem/build, physical calculation, dataset, fit, prediction, or independent measurement. P2 remains HOLD.
 - Public publisher status is tracked in the canonical receipt. No task, ID, schedule, prompt, phase or cadence change; no sixth task.
+
+### h976:s3 publication amendment | 2026-11-20T1653Z
+
+- [Issue #2207](https://github.com/Satobloc/HsH/issues/2207) is `PUBLISHED_VERIFIED`; publisher comment #7045359391, Actions run #44777641390 SUCCESS.
+- SHA-256 `6084d6b325c3829d0f56a2bac8a1ae4b0601764733fa050ccc49c6325b03acc7`; 19,771 UTF-8 bytes. Workspace report and canonical artifact match byte-for-byte and by Git blob `b2d37848dc01c4f942124aefc3809d537880da03`.
+- See [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1636Z_s3_sable.md) and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1636Z_s3_sable_AMENDMENT_01_PUBLISHER_AND_CONTINUITY_VERIFIED.md).
