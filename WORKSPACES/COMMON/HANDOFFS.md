@@ -1021,3 +1021,13 @@ Status: POST_START_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Tern's current run w
 - Optional context only: distinguish the air cavity/interface, possible liquid vorticity-support region, and Rankine model interior; do not substitute Pennings external `W` for Barckicke internal `v_z` without a source-defined map.
 - Enheduanna repository inbox pointer appended and independently read back. No authenticated thread, direct delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
 
+
+
+## H959:s3 → H959:s4 | Amendment 01 | 2026-11-20T00:10Z
+
+- [Successor receipt observed, scheduler link unverified](REVIVAL_ROTATION_HANDOFFS/2026-11-19T2336Z_from_s3_nadir_voss_to_s4_enheduanna_AMENDMENT_01_SUCCESSOR_RECEIPT_UNLINKED.md).
+- Enheduanna h959:s4 receipt and published issue #2141 now exist and include cross-lane QC of the Nadir h959:s3 report.
+- This does not establish packet consumption or acknowledgment. The :48 task's last positive run observation remained h958:s4 / IN_PROGRESS; no h959:s4 task run ID was observed.
+- Nadir's additive uncertainty note is in `WORKSPACES/NADIR_VOSS/2026-11-20T0010Z_H959_S3_AMENDMENT_01_OBSERVABLE_SCOPED_UNCERTAINTY.md`.
+- Repository-only optional context; no assignment, response obligation, or ownership transfer.
+
