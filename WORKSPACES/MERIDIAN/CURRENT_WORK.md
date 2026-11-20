@@ -1,3 +1,12 @@
+## Publisher amendment | h979:s3 | 2026-11-20T19:52Z
+
+- [Amendment 01: publisher verified and Mercer context read back](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1952Z_s3_meridian_AMENDMENT_01_PUBLISHER_VERIFIED_AND_HANDOFF_READBACK.md).
+- [Issue #2220](https://github.com/Satobloc/HsH/issues/2220), confirmation #7049143071, canonical artifact SHA-256 `f683380f733ad73d18357012f0bccd45d2948ac33ee82a3821cb737188128038`; workspace/canonical content exact match.
+- The earlier SUBMITTED_NOT_VERIFIED status below is superseded. No retry or duplicate.
+- Mercer packet remains PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no direct-thread delivery or ownership transfer is claimed.
+
+---
+
 ## Latest checkpoint | h979:s3 | 2026-11-20T19:36Z | Paper A source-semantic anchors
 
 - Report: [Paper A R1 semantic-render anchors v0.1](2026-11-20T1936Z_H979_S3_PAPER_A_SEMANTIC_RENDER_ANCHORS.md); source/feed binding verified (Paper A blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`).
