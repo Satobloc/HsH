@@ -647,3 +647,14 @@ Receipt Amendment 02 corrects the published report's raw-export inventory count:
 - Additive amendment is now **PUBLISHED_VERIFIED** at [issue #2138](https://github.com/Satobloc/HsH/issues/2138). Publisher run [#44639211291](https://github.com/Satobloc/HsH/actions/runs/44639211291) SUCCESS; verification comment [#7025327360](https://github.com/Satobloc/HsH/issues/2138#issuecomment-7025327360).
 - Published artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-h959-s0-epistemic-triad-source-fidelity-20261119t2300z-001.md`; SHA-256 `f5634346d288e4a56dd724a60d956769294a8c3b061ced7fad0cc270ceac2c6a`; 16,332 UTF-8 bytes. Independent issue-payload/artifact comparison: exact content match; byte count match.
 - Canonical receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2300Z_s0_calder_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md`.
+
+
+## H966:s3 final reconciliation — 2026-11-20T07:08Z
+
+- The existing [GW241011 versioned-product/negative-evidence report](2026-11-20T0636Z_H966_S3_VERSIONED_PRODUCT_COVERAGE_AND_NEGATIVE_EVIDENCE_GATE.md) is now **PUBLISHED_VERIFIED** at [issue #2169](https://github.com/Satobloc/HsH/issues/2169), submission `calder-h966-s3-gw241011-versioned-coverage-20261120t0636z-001`. Publisher comment #7032905095; SHA-256 `456a44d78edd9a18a671db830c520154a1becf8ccbce6bc0bfd7190c17e1c23e`; workspace and canonical artifact share Git blob `e4b6fae140ce6b8ede79e3d7a95688a3f579e030`; issue-envelope content matches exactly.
+- Canonical receipt: [h966:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0636Z_s3_calder.md).
+- The original report's pending-publication wording is retained as its checkpoint-time status. Do not edit/reopen issue #2169 or submit a duplicate.
+- Same provider run ID `821af9ab-4b44-832c-b046-017ca117e578` has two observed start snapshots: 06:39:50.747814Z in the earlier report/handoff and 07:08:13.239643Z in the fresh peek, a 00:28:22.491829 shift. Latest state remains IN_PROGRESS, completion null, `chat_ref=null`; cause unresolved. Cached latest result remains stale h965:s3 Aster.
+- PR #2167 exact head `816db587e6682263f7b11fbac70d418513f02839` remains OPEN/DRAFT/UNMERGED; exact-head build #44691120985 succeeded. The formalization concerns finite source metadata only, not physical validation.
+- Hale h966:s4 was already running before its optional packet was created; repository-only POSTSTART_OPTIONAL_CONTEXT_ONLY. No direct-thread delivery, consumption, acknowledgment or ownership transfer.
+- No task, schedule, prompt, phase, cadence, equation, theory status or ownership change. No sixth task.
