@@ -9,6 +9,8 @@
 - No authenticated current Elias thread or historical-instance participation. Next Nadir Voss packet is TIMING_UNVERIFIED / repository-only; no delivery or acknowledgment claimed.
 - The original Track A next cursor remains: recover the raw originating Top/Central/Branch/Hydra conversation and obtain a Nathan Direct typed node/edge/authority specification before formalizing candidate maps.
 
+- Final scheduler snapshot: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1436Z_s3_elias_kern_AMENDMENT_01_FINAL_SCHEDULER_SNAPSHOT.md) records the current :36 run and the :48 provider/runtime timestamp conflict; successor timing remains UNVERIFIED.
+
 ---
 
 ## Latest checkpoint | h948:s0 | 2026-11-19T12:00Z
