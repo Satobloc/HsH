@@ -192,3 +192,69 @@ Aggregate telemetry can guide optimization. Query-content retention needs a sepa
 ## Release discipline
 
 This plan does not modify the 1.0 worker greenlight. Development remains on `main` until a later version passes its gate and receives a `MERSEARCH_RELEASES.md` entry.
+
+## Live queue position and request observability (Nathan Direct, 2026-11-20)
+
+A Mersearch client must be able to determine **where its request is in the queue immediately**, without inferring that state from GitHub Actions run lists or repeatedly polling unrelated workflows.
+
+### Required request lifecycle
+
+Every request receives an immutable request ID and a durable status record. The status model must distinguish at least:
+
+- `SUBMITTED` — accepted and assigned an ID;
+- `QUEUED` — waiting for an execution slot;
+- `CLAIMED` — assigned to a worker/runner;
+- `RUNNING` — search execution has begun;
+- `PACKAGING` — results and provenance are being serialized;
+- `PUBLISHING` — durable result publication is underway;
+- `COMPLETE` — result payload and manifest are durably readable;
+- `FAILED` — terminal failure with step, error class and retryability;
+- `CANCELLED` — explicitly cancelled;
+- `EXPIRED` — retention policy expired the result (never silently delete).
+
+A request must not be reported COMPLETE merely because a workflow was queued, a runner started, a checkout completed, or a process exited. Completion requires durable result readback and manifest verification.
+
+### Immediate queue receipt
+
+The submission response should synchronously return a compact receipt containing:
+
+- request ID;
+- current lifecycle state;
+- **queue position** (1-based) when queued, otherwise null;
+- number of requests ahead;
+- estimated/observed service class, not an invented completion-time promise;
+- selected worker/runner lane and concurrency class;
+- submitted/accepted timestamp;
+- last state transition timestamp;
+- status endpoint or request-scoped status path;
+- cancellation handle where supported;
+- query digest and corpus/profile identity.
+
+Queue position is a snapshot and must carry an `observed_at` timestamp. It should update on state transitions and be queryable by request ID. Do not derive position from the request-file lane number: lanes are submission slots, not a globally ordered work queue.
+
+### Queue architecture
+
+Use a durable central request ledger/queue rather than four long-lived mutable request files as the only source of state. Submission should append a request record atomically; workers claim jobs with a lease/heartbeat; stale claims can be recovered without duplicate publication. Preserve idempotency by request ID and make state transitions compare-and-swap or transactionally serialized.
+
+The current four request lanes may remain compatibility ingress adapters during migration, but they should enqueue into the same ledger and return the same queue receipt. Do not overwrite another request to obtain a slot.
+
+Priorities should be explicit and fair: interactive user research, ordinary batch, index maintenance, and heavy math/enrichment are separate classes with bounded concurrency and starvation protection. Queue status must say whether a request is waiting for a runner, waiting behind other work, or actively executing. These are different bottlenecks.
+
+### User-facing status and observability
+
+Provide a status lookup by request ID and an event/receipt path that clients can inspect immediately after submission. Include queue position changes, claim/heartbeat, phase transitions, elapsed time per stage, retry history, worker/runner identity, and terminal outcome. Avoid claiming wall-clock completion estimates until measured service-time distributions support them.
+
+The CLI, GitHub bridge, API and future frontend should expose the same lifecycle semantics. A status display should show a useful result immediately, for example: `QUEUED · position 3 · 2 ahead · interactive class · observed 14:03:22Z`.
+
+### Acceptance tests
+
+1. Submission returns a request ID and queue state immediately, before runner startup.
+2. Concurrent submissions receive unique positions in a deterministic order within their priority/fairness policy.
+3. Queue position changes correctly when jobs are claimed, cancelled, retried or completed.
+4. A runner crash or expired lease returns the request to a recoverable state without duplicate final publication.
+5. A status response distinguishes queue wait, runner allocation, checkout, search, packaging and publishing.
+6. The status record and result manifest are durable and independently readable.
+7. Compatibility lane adapters report the central queue position, not just a lane number.
+8. Status/queue visibility does not expose private source excerpts or unauthorized corpus metadata.
+
+This is an architecture requirement and design direction, not an assertion that the central queue/status service is already implemented.
