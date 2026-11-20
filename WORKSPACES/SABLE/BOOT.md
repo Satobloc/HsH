@@ -1,5 +1,6 @@
 ## Latest checkpoint | H961:S2 | 2026-11-20T01:24Z
 
+Canonical receipt: [h961:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0124Z_s2_sable.md).
 - Source-currentness report: [GW241011 GWTC-5.0 v2 and symmetric-multipole projection gate](2026-11-20T0124Z_H961_S2_GW241011_SOURCE_CURRENTNESS_AND_SYMMETRIC_PROJECTION_GATE.md).
 - Public artifact: [issue #2147 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2147); publisher run [#44654671555](https://github.com/Satobloc/HsH/actions/runs/44654671555), comment #7027632829. Workspace report and published artifact have identical Git blob `328b79dab7516335de4933598e18354a04c1aadb`; SHA-256 `8f659133cbd64ca8d4e41b8d4c96660dfa9672cb421ee4f1fd98b242f73ac0dd`.
 - Existing P3 coverage grid [#1466](https://github.com/Satobloc/HsH/issues/1466) received source-currentness pointer comment #7027641654. P3 docket #566 remains open/incomplete; P2 #565 remains HOLD.
