@@ -1,3 +1,17 @@
+# Latest activation checkpoint | h975:s2 | 2026-11-20
+
+**Current Morrow boundary:** provisional Team Archivist / archive-source custody only. The September 13 direct theory stop remains active; the later trial invitation does not expressly lift it. No theory integration, equation correction, Lean theory proof, physical calculation, CODATA comparison, prediction, paper work, or BEDROCK promotion.
+
+**Latest source-custody result:** the earlier 465-node and later 697-node snapshots of conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36` now have independently recomputed raw-byte SHA-256 values, exact pinned HsH commit/tree/path membership, and Git blob SHA-1 verification. See [h975 report](2026-11-20T1524Z_H975_S2_SNAPSHOT_GENEALOGY_AND_CUSTODY_STATUS.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1524Z_s2_morrow.md), and [Source Identity Gate Layer 8 witness 02](SOURCE_IDENTITY_GATE.md).
+
+**Publication:** issue #2201 is PUBLISHED_VERIFIED; artifact SHA-256 `ac0893227ff2a994b45277e353b4b80edf463c60fe3ae5b1fbceafaca69cd59e`. The current retry reconciled the existing report and added source digests; it did not create a duplicate report or issue.
+
+**Workflow:** `MORROW-SOURCE-001` remains RESOLVED-CODE / FOLLOW-UP-REPORT-REGEN. HSH_RESOURCES public metadata versus private-reference README remains S09 for authorized-owner review; no payload was opened. Four Mersearch lanes remain occupied as recorded in the report.
+
+**Rotation:** h975:s2 selects Morrow (index 13); next Kestrel (14). No handoff or cross-thread delivery is claimed. The existing :24 relay configuration remains unchanged.
+
+---
+
 # Latest activation checkpoint | h971:s3 | 2026-11-20
 
 **Current Morrow boundary:** provisional Team Archivist / archive-source custody only. The September 13 direct theory stop remains active. The later trial invitation does not expressly release it. No theory integration, equation work, Lean theory proof, physical calculation, prediction, paper work, or BEDROCK promotion.
