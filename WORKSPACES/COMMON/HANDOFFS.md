@@ -1170,3 +1170,10 @@ Issue #2190 is PUBLISHED_VERIFIED (comment #7039964657; commit 1f9406c8e95a5da40
 - 2026-11-20T1636Z Sable -> Loom h976:s4: poststart optional CBCM source-commitment / candidate-family composition context; repository-only, no task or ownership transfer. See `REVIVAL_ROTATION_HANDOFFS/2026-11-20T1636Z_from_s3_sable_to_s4_loom_POSTSTART_OPTIONAL_CBCM_COMPOSITION.md`.
 
 - 2026-11-20T1653Z Sable -> Loom h976:s4 amendment: publisher verification for optional CBCM packet, issue #2207 PUBLISHED_VERIFIED; no task/ownership transfer. See `REVIVAL_ROTATION_HANDOFFS/2026-11-20T1636Z_from_s3_sable_to_s4_loom_AMENDMENT_01_PUBLISHER_VERIFIED.md`.
+
+
+## Meridian h979:s3 → Mercer h979:s4 | POSTSTART PUBLICATION AMENDMENT
+
+- [Amendment 01: publisher verified](REVIVAL_ROTATION_HANDOFFS/2026-11-20T1954Z_from_s3_meridian_to_s4_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Issue #2220 is PUBLISHED_VERIFIED; canonical artifact SHA-256 `f683380f733ad73d18357012f0bccd45d2948ac33ee82a3821cb737188128038`.
+- Base packet remains PRESTART_OPTIONAL_CONTEXT_ONLY; this amendment is POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
