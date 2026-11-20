@@ -1,3 +1,17 @@
+## 2026-11-20T0924Z | h969:s2 | TOPLESS raw-source status correction
+
+- Report: [h969:s2 source-status correction](2026-11-20T0924Z_H969_S2_TOPLESS_RAW_SOURCE_STATUS_CORRECTION.md); canonical receipt: [h969:s2 Aster receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0924Z_s2_aster.md); correction to prior h965 receipt: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0924Z_s2_aster_AMENDMENT_01_H965_TOPLESS_SOURCE_STATUS_CORRECTION.md).
+- h965:s3 incorrectly repeated “October 29 TOPLESS remains prior-context-only; raw original not recovered.” Aster h718:s3 had already recovered the raw export; the h718 recovery section remains in CURRENT_WORK.md. h969 independently re-materialized two byte-identical Library copies and verified both direct user-role messages on the raw export's current-node ancestry.
+- Raw TOPLESS export: conversation `6ad95036-dcf0-83ea-a879-7b9264ace7ec`; SHA-256 `0781ee3deb033ef48eb0b3d330c4970bb448a2c94754a2906a700d07827e6a3f`; Git blob `4545f024f162704a28ebe2744cea4b4e267958b1`; 653 mapping nodes / 616 ancestry nodes / 19 user-role messages all on ancestry. Direct messages `c68c8846-5564-4c8c-96a5-157c99839a6b` and `9e5cd8be-5fd4-4b63-bc4b-6bff79767505`.
+- Four dated source strata remain distinct: Oct 9 `w=ct`; Oct 21 `cw=t` / `(++++)` / Forest context; Oct 29 branch-specific `w=ct`; Nov 8 tentative spatial-w / proper-time distinction. No typed conversion map or complete Forest Normalization definition.
+- Existing PR #1444 exact-head Lean build passed (Lean 4.34.0 / Lake 5.0.0; 8,945 jobs); conditional scalar statements only, axioms propext / Classical.choice / Quot.sound; tests, lint, global axiom audit skipped. No new proof or physical result.
+- P0 ACTIVE; Paper A review FROZEN / CROSS-READ OPEN; P1 Orson-owned NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next Nov 24. No physical calculation, CODATA, fit, prediction, independent measurement, theory promotion or equation change.
+- Mersearch unavailable; four lanes occupied/requested and untouched; fallback Library/GitHub source retrieval is not exhaustive Mersearch.
+- Publisher intake #2180 submitted, first readback pending; no retry/duplicate. The correction is additive to issue #2166, not a replacement of its path-residual result.
+- Ariadne successor packet is POSTSTART optional repository context only; no task or direct-thread delivery.
+
+---
+
 ## 2026-11-20T0536Z | h965:s3 | path-residual gate for source-typed w-to-clock models
 
 - Report: [H965:s3 path-residual gate](2026-11-20T0536Z_H965_S3_PATH_RESIDUAL_GATE_FOR_W_TO_CLOCK_MODELS.md); canonical receipt: [h965:s3 Aster receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0536Z_s3_aster.md).
