@@ -15,7 +15,7 @@ assistant-defined algebraic representation of that restriction:
 
 * summaryMap records the two source-defined averages;
 * diagonalEmbedding represents the equal-component subspace;
-* symmetricRepresentative = diagonalEmbedding ∘ summaryMap is a
+* symmetricRepresentative = diagonalEmbedding composed with summaryMap is a
   canonical idempotent projection onto that subspace.
 
 The composite projection is a mathematical reconstruction, not a map
@@ -33,15 +33,31 @@ structure FullParameters where
   deltaKappa2 : ℝ
   deltaLambda1 : ℝ
   deltaLambda2 : ℝ
-deriving Repr
 
 structure SymmetricParameters where
   deltaKappaS : ℝ
   deltaLambdaS : ℝ
-deriving Repr
+
+@[ext]
+theorem FullParameters.ext {a b : FullParameters}
+    (hκ1 : a.deltaKappa1 = b.deltaKappa1)
+    (hκ2 : a.deltaKappa2 = b.deltaKappa2)
+    (hλ1 : a.deltaLambda1 = b.deltaLambda1)
+    (hλ2 : a.deltaLambda2 = b.deltaLambda2) : a = b := by
+  cases a
+  cases b
+  simp_all
+
+@[ext]
+theorem SymmetricParameters.ext {a b : SymmetricParameters}
+    (hκ : a.deltaKappaS = b.deltaKappaS)
+    (hλ : a.deltaLambdaS = b.deltaLambdaS) : a = b := by
+  cases a
+  cases b
+  simp_all
 
 /-- Source-defined averages of the two component deviations. -/
-def summaryMap (p : FullParameters) : SymmetricParameters :=
+noncomputable def summaryMap (p : FullParameters) : SymmetricParameters :=
   { deltaKappaS := (p.deltaKappa1 + p.deltaKappa2) / 2
     deltaLambdaS := (p.deltaLambda1 + p.deltaLambda2) / 2 }
 
@@ -56,7 +72,7 @@ def diagonalEmbedding (s : SymmetricParameters) : FullParameters :=
 /-- Canonical representative obtained by averaging, then imposing
     equal component values. This is an algebraic projection, not a
     physical projection or a source-defined detector map. -/
-def symmetricRepresentative (p : FullParameters) : FullParameters :=
+noncomputable def symmetricRepresentative (p : FullParameters) : FullParameters :=
   diagonalEmbedding (summaryMap p)
 
 /-- The source-summary map is a left inverse of the diagonal embedding. -/
@@ -103,9 +119,11 @@ theorem symmetricRepresentative_fixed_iff (p : FullParameters) :
         simpa [symmetricRepresentative, diagonalEmbedding, summaryMap] using h'
       linarith
   · rintro ⟨hk, hl⟩
-    cases p with
-    | mk k1 k2 l1 l2 =>
-      ext <;> simp [symmetricRepresentative, diagonalEmbedding, summaryMap, hk, hl] <;> ring
+    apply FullParameters.ext
+    · simp [symmetricRepresentative, diagonalEmbedding, summaryMap, hk, hl]
+    · simp [symmetricRepresentative, diagonalEmbedding, summaryMap, hk, hl]
+    · simp [symmetricRepresentative, diagonalEmbedding, summaryMap, hk, hl]
+    · simp [symmetricRepresentative, diagonalEmbedding, summaryMap, hk, hl]
 
 /-- Two full parameter states have the same canonical representative
     exactly when they have the same two source-defined averages. -/
