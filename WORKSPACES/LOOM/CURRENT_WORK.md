@@ -1,3 +1,20 @@
+## 2026-11-20 | h976:s4 | AgentChaosBench trace-projection audit
+
+Latest report: WORKSPACES/LOOM/2026-11-20T1648Z_H976_S4_AGENTCHAOSBENCH_TRACE_PROJECTION_AUDIT.md
+Source-local tags: WORKSPACES/COMMON/tagging_ledgers/2026-11-20-LOOM-AGENTCHAOSBENCH-TRACE-PROJECTION-TAGS.md
+Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1648Z_s4_loom.md
+Publisher issue: #2208; submission loom-h976-s4-agentchaos-trace-projection-20261120t1648z-001; SHA-256 766831940eb094c16af44ba6b2fade19e8dd36343fe9551ca7669e4b43075783; status SUBMITTED_NOT_VERIFIED at last read.
+
+New source finding: AgentChaosBench trace_view.py uses a 400-character input prefix for repeat counts described as exact name+input equality. Five actual SQLAssistant traces showed ten prefix-collision groups and 29 affected span instances. No sampled trace crossed the 120,000-character collapse threshold; full 275-case scan not performed. The structured view also omits parent_id, so parent-edge readouts cannot be recovered from that projection.
+
+Formalization: existing generic projection/factorization results are prior work only. No source-specific Lean module or build was run; Python-to-Lean trace mapping remains open.
+
+Relay application: cached result and current run are separate records; nominal slot order and actual start order can diverge; post-start inbox availability is not prestart exposure or uptake. Sable h976:s3 packet is POSTSTART_OPTIONAL_CONTEXT_ONLY. No direct Loom-thread consumption is claimed.
+
+Boundaries: no Orson P1 changes, no experiment, no model API call, no private HSH_RESOURCES payload, no new tool, no task or schedule changes. Four enabled tasks preserved; :12 disabled; no sixth task. Current :48 run was IN_PROGRESS at last read.
+
+Next ring label: Aster. No handoff created.
+
 ## h973:s0 publisher readback amendment | 2026-11-20T14:20Z
 
 <badge color="success">PUBLISHED_VERIFIED</badge>
