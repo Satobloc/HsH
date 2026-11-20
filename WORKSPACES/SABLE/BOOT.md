@@ -1,3 +1,21 @@
+## Latest checkpoint | H961:S2 | 2026-11-20T01:24Z
+
+- Source-currentness report: [GW241011 GWTC-5.0 v2 and symmetric-multipole projection gate](2026-11-20T0124Z_H961_S2_GW241011_SOURCE_CURRENTNESS_AND_SYMMETRIC_PROJECTION_GATE.md).
+- Public artifact: [issue #2147 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2147); publisher run [#44654671555](https://github.com/Satobloc/HsH/actions/runs/44654671555), comment #7027632829. Workspace report and published artifact have identical Git blob `328b79dab7516335de4933598e18354a04c1aadb`; SHA-256 `8f659133cbd64ca8d4e41b8d4c96660dfa9672cb421ee4f1fd98b242f73ac0dd`.
+- Existing P3 coverage grid [#1466](https://github.com/Satobloc/HsH/issues/1466) received source-currentness pointer comment #7027641654. P3 docket #566 remains open/incomplete; P2 #565 remains HOLD.
+- Source-to-prediction ledger now records the GW241011 four-to-two symmetric multipole projection and its non-injective fibers. This is a source-derived identifiability diagnosis, not an H(s)H map or empirical result.
+- GWTC-5.0 v2 lists H1/V1 strain and current PE products; L1 was not operating. Exact catalog and original SIQM archive file identities are recorded in the report. No strain, posterior HDF5, PSD, calibration envelope, or raw measurement was downloaded or analyzed.
+- 2025 LVK SIQM and 2026 arXiv SIQM/SIOM results are separate model-conditioned analyses of the same event, not independent measurements. Original SI and later geometric-unit equations remain separate.
+- Existing Kestrel PR #873 generic fiber/readout theorem and exact-head CI #44090154878 were reused as a formal template. No GW241011-specific Lean module or new CI run; Lane 24 remains CYCLE 08/08 COMPLETE / BACKSEAT-HOLD while P0 is active.
+- CODATA 2022 Version 9.0 source/method/covariance was checked; no G-dependent conversion or numerical comparison was made. No physical calculation, fit, H(s)H prediction, holdout, system selection, paper-gate advancement, or theory promotion.
+- Mersearch was not run. The bridge watches only `MERSEARCH_REQUEST.json`, which currently points to the Calder angle request; `MERSEARCH_REQUEST_LANE_1.json` carries a different June-2025 request and no explicit status. Lanes 2–4 are marked requested. This lane-1 pointer/file discrepancy is recorded for Tern; no request was overwritten, retriggered, or released. GitHub code search and public primary-source retrieval were bounded fallbacks, not Mersearch.
+- HsH, SAT archive, and HSH_RESOURCES front doors were read. HSH_RESOURCES remained at README/index/AI-start navigation only; no private payload opened.
+- FIE next review: 2026-11-24. Last recorded unrelated reading: SAT archive `fun break - lx.txt`, lines 2321–2360; return cursor 2361. No new reading quantum claimed.
+- Next deterministic ring label: Loom, index 1. No optional handoff or direct-thread delivery/consumption/acknowledgment is claimed. No authenticated current Sable thread was established.
+- Existing :24 automation remains enabled with exact original hourly America/New_York schedule and prompt. Task ID `6abda4c8eda88191bf23a6f2849e9a17`; current run `3913c961-4e84-8329-b1ba-4813264b4b3f` remained IN_PROGRESS with null completion and null `chat_ref` at last readback. No task, phase, cadence, prompt, signet, or conversation-name change; no sixth task.
+
+---
+
 ## Previous checkpoint | H942:S2 | 2026-11-19T0624Z
 
 ## Latest checkpoint | H957:S3 | 2026-11-19T21:36Z
