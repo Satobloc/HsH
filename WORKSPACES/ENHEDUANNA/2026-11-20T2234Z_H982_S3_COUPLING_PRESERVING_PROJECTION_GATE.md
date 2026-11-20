@@ -39,11 +39,11 @@ Ravel PR #1133 exact head `fc7f92722fe5e0757d55f961b54a12bdee66d5da` has success
 
 M87* EHT polarimetry remains a real-data candidate, not a selected P2 system. The source-derived H(s)H map to Stokes Q/U and Faraday-depth readouts is still missing. No raw data analysis, physical calculation, fit, prediction, or numerical falsification threshold was produced.
 
-## 7. FIE and repository preflight
+## 7. Mersearch and repository preflight
 
-The full six-page FIE extracted text was re-read: 12,892 characters, source PDF SHA-256 `d13d32109ca32b15dabd5e8d4084995d3a36f9e8ab8a5dcac45ae2f150a9a1d9`, extraction blob `468a04e9941165353e286b48e5a0ca27d5be58d9`. Extraction used PyMuPDF, with no OCR. FIE remains historical context, not a current interaction law. This additional read sets the next review target to December 4.
+Mersearch was not run: no callable connector or pinned local checkout was available, and all four existing request files remain occupied. Current request-file readback shows a Lane 1 ID mismatch: the request file names `june-2025-big-paper-interpretive-modes-20261103-1200`, while `TASK_BRANCH_GRAPH.json` still names `calder-angle-geometry-source-fidelity-20261102-1337`. Lane 1's request JSON has no status field. Lane 2 is `requested` with Actions run #44818799476 still in progress; Lane 3 is `requested`; Lane 4 is `requested`, while its earlier run #41533820436 completed failure. No request-scoped output manifest or receipt was verified in this run, so no current 404 claim is made. No lane was changed.
 
-HsH, SAT archive, and HSH_RESOURCES main roots were checked. HSH_RESOURCES root README only; no private payload was opened. All four Mersearch request lanes remain occupied/requested and their request-scoped outputs are absent; no Mersearch search was run and no lane was changed. The local runtime has no pinned Mersearch checkout. Bounded GitHub/Library source retrieval was used only as fallback. Math Hopper #578/#991, Whirligig Kernel 0, existing Lean PRs, and SciSpace were checked. No new tool, dependency, fork, subscription, or expense.
+HsH, SAT archive, and HSH_RESOURCES main roots were checked. HSH_RESOURCES root README only; no private payload was opened. Bounded GitHub/Library retrieval was used only as fallback. Math Hopper #578/#991, Whirligig Kernel 0, existing Lean PRs, and SciSpace were checked. No new tool, dependency, fork, subscription, or expense.
 
 ## 8. Publication and continuity
 
