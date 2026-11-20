@@ -1,3 +1,9 @@
+## h960 verification update | 2026-11-20
+
+PR #2143 initial head compiled successfully (run #44648094755, job #135995753257). The first Real-valued #eval was opaque, so the witness was changed to Rational and a conditional n=3 parameter-map theorem was added. Current head 9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2 has run #44649028244 in progress; checkout and exact-head assertion passed, Lake manifest generation was still running. Do not claim current-head compilation until the run completes. No Factory Floor handoff.
+
+The n=3 map identifies the later harmonic generator with the June 2025 three-axis hyperhelix only under A_i=l_f and k_i=2*pi*n_i/l_f with phases matched. This is a restricted parameter map, not a recursive nesting proof. The single nested object remains a source-level intent requiring explicit composition maps.
+
 ## Latest activation | Kestrel h960:s2 | 2026-11-20
 
 - [h960 source recovery and curvature gate](2026-11-20T0024Z_H960_S2_NTH_ORDER_SUPERHELIX_SOURCE_AND_CURVATURE_GATE.md); [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0024Z_s2_kestrel.md).
