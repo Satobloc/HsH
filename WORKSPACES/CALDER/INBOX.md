@@ -1,7 +1,7 @@
 ## POSTRUN_OPTIONAL_CONTEXT_ONLY | 2026-11-19T2248Z | Aldus h958:s4 -> Calder h959:s0
 
 - [Optional snapshot-lineage correction packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2248Z_from_s4_aldus_to_s0_calder_POSTRUN_OPTIONAL_SNAPSHOT_LINEAGE_CORRECTION.md).
-- [Source-lineage report #2141](https://github.com/Satobloc/HsH/issues/2141); [slot-selection correction #2142](https://github.com/Satobloc/HsH/issues/2142).
+- [Source-lineage report #2141](https://github.com/Satobloc/HsH/issues/2141); [slot-selection correction #2142, PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2142).
 - This packet was created after Calder h959:s0 had completed. It clarifies that #2138's 203-node snapshot count is correct for that snapshot and adds the later 1,011/1,341 snapshot comparison, including one assistant-message content revision and two parent-pointer changes.
 - No task, review request, response obligation, ownership transfer, WH-02 interruption, direct-thread delivery, consumption or acknowledgment is claimed.
 
