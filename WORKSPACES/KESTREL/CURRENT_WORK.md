@@ -1,3 +1,16 @@
+## h975:s3 | Source-commitment freeze and finite-core approximation gate | 2026-11-20T15:36Z
+
+- Report: [source-commitment correction and proposed SourceCommitmentFreeze](2026-11-20T1536Z_H975_S3_SOURCE_COMMITMENT_FREEZE_AND_FINITE_CORE_APPROXIMATION_GATE.md); publisher issue [#2203](https://github.com/Satobloc/HsH/issues/2203), SUBMITTED_NOT_VERIFIED at last check. Do not retry or duplicate; verify existing submission ID and canonical artifact first.
+- Canonical receipt: [h975:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1536Z_s3_kestrel.md).
+- Correction: h974 M2 “finite-core thickness optional” is inconsistent with BEDROCK ND-2026-10-18-07. Qualitative intrinsic thickness is a source-committed working premise; its value, profile and map remain unresolved. The 0.7/0.7937 fm coil scale is not epsilon.
+- One helical core / hollow outer coil remains distinct from a second core; helical winding is source-described, separate normal-frame twist/holonomy is not. A 3D boundary is source-described; an active contact law is not. Medium/Kelvin-vortex or justified equivalent remains an active constraint.
+- Existing Kestrel PR #873 exact-head build #44090154878 was reused. No new Lean module, theorem or build. No physical calculation or measured dataset; P2 remains HOLD.
+- Current :36 run 59147ebb-dbf4-832d-bf0d-1d5c695cbf00 remains IN_PROGRESS with chat_ref=null; cached Elias h974:s3 result is stale.
+- Next ring label: Meridian, h975:s4. Its :48 run 6494fd03-c908-832a-aa10-eab2c6ed53ee had already started before optional context preparation and has chat_ref=null. Any packet is POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no direct-thread delivery, consumption, acknowledgment, assignment or ownership transfer.
+- No task/ID/cadence/prompt/phase mutation; no sixth task, signet or conversation rename.
+
+---
+
 ## h971:s4 | Review-MIND CGD verifier feedback observability | 2026-11-20T11:48Z
 
 - Report: [source-grounded synthesis](2026-11-20T1148Z_H971_S4_REVIEW_MIND_CGD_FEEDBACK_OBSERVABILITY.md); publisher issue [#2188](https://github.com/Satobloc/HsH/issues/2188), PUBLISHED_VERIFIED; exact artifact readback matches workspace report.
