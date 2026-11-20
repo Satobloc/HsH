@@ -21,7 +21,7 @@ The live HsH BEDROCK, 2026-10-26 Steering Charter, Phase Steering, Three Paper C
 ```text
 NAV_PREFLIGHT:
   front_door_current: verified; HsH main snapshot acaaa176fb8124e9bd81d8a484b4c58cdac50db5
-  required_existing_tool: Mersearch stable 1.0; no callable Mersearch action and no local three-root checkout in this runtime
+  required_existing_tool: Mersearch stable 1.0; no callable Mersearch action and no local HsH checkout found in this runtime
   existing_outputs_checked: h975 report/receipt; Mercer h976 source-recovery amendment; Loom h870 and Ariadne h924 source-ancestry records; Aldus h898 cross-post/source record
   compact_receipt_checked: existing h975 receipt and Mercer h976 amendment; no h978:s4 receipt existed at preflight
   source_passage_checked: known Git blob 7af1561b321f4d9364da5eb111df689efc652827, retrieved through GitHub Git-Blob API and parsed as JSON
