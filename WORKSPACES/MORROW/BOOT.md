@@ -6,7 +6,7 @@
 
 The pinned Morrow/Aldus raw exports contain identical send payloads, but the send payload does not preserve channel/thread target IDs. Their identical edit payloads contain only `args.message={}`; no edit text or target ID is preserved. Four tool-result bodies are empty. Therefore the older #689 39/39 edit-payload comparison is not reproducible from the pinned edit node, and #2171's edit row/channel-thread attribution is unsupported by the preserved payloads. #2185 verifies the published #689 report, not a raw Slack provider receipt. External operation count, causal binding and current Slack state remain unknown. No Slack API action, private-channel search or DM access was performed.
 
-Publisher issue #2186 was created with the exact four-key hsh-publish-v1 envelope; SHA-256 `d08ba53847309107730af954656a6b776ed810666482c42e2e0b117aa4449120`. Initial state SUBMITTED_NOT_VERIFIED; wait for publisher receipt and exact artifact readback. Do not retry or duplicate.
+Publisher issue #2186 is PUBLISHED_VERIFIED (comment #7038851479); artifact commit `d567d89043daee51cb4f7ba6057cef75deb0bd87`, blob `3e94d051bd21e0916a08994186963ebf561f9fc7`, SHA-256 `d08ba53847309107730af954656a6b776ed810666482c42e2e0b117aa4449120`, 13,099 UTF-8 bytes; workspace/issue/artifact exact match. Additive correction comments #7038877008/#7038877497/#7038878031 were added to #689/#2171/#2185. No retry or duplicate.
 
 **Run identity:** h971:s3, deterministic Morrow label (index 13), next Kestrel (index 14). Not authenticated current Morrow thread. The :36 lane activation does not replace Morrow's separate specialist leases.
 
