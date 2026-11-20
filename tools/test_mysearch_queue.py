@@ -13,6 +13,7 @@ with tempfile.TemporaryDirectory() as d:
     active=m.claim(c,"worker-a")
     assert active["request_id"]=="active"
     m.transition(c,"active","RUNNING","worker-a")
+    m.transition(c,"active","PACKAGING","worker-a")
 
     # Another worker is waiting in the Mysearch queue.
     m.submit(c,"worker-b","mysearch_expedited","queued search",request_id="queued")
