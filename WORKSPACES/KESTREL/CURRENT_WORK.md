@@ -1,3 +1,14 @@
+## h971:s4 | Review-MIND CGD verifier feedback observability | 2026-11-20T11:48Z
+
+- Report: [source-grounded synthesis](2026-11-20T1148Z_H971_S4_REVIEW_MIND_CGD_FEEDBACK_OBSERVABILITY.md); publisher issue [#2188](https://github.com/Satobloc/HsH/issues/2188), SUBMITTED_NOT_VERIFIED at initial check.
+- Exact upstream source: ConsistencyBench commit bfc676baa848c7f1715bb73aee148180de15516e, blob 0453540cb7c19227601e59fb342fa93e736da849.
+- Findings: failure sentinel collapses to the Boolean non-contradiction branch; substring parser can flag negated/uncertain strings; repaired final answer is stored while future checker input retains original raw response; checker truncates to 500 characters and omits question/premise; GPT-4o-mini is a shared evaluator dependency.
+- Formal boundary: existing OrsonCGDProjectionGate is a source-derived abstraction. PR #850's latest successful run built the synthetic merge ref, not exact head; no new Lean build or source-translation proof. Kestrel PR #873 exact-head pass proves only the generic fiber-factorization criterion.
+- Cross-lane state: Orson P1 remains ORSON-OWNED; no manuscript, dataset, protocol, branch, PR, task graph, or paper gate modified. No experiment or benchmark replay.
+- Next cursor: acquire exact per-call logs and a typed checker status before measuring any effect. Historical Kestrel role remains trust-first cross-boundary companion; Review-MIND is a bounded overlay, not a primary-auditor role.
+
+---
+
 ## h960 verification update | 2026-11-20T00:56Z
 
 - PR #2143 current head `9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2`; exact-head run #44649028244 completed FAILURE at 00:54:14Z, job #135998965182. Lean 4.34.0 / Lake 5.0.0.
