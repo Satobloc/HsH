@@ -901,3 +901,12 @@ Unrelated reading side-pass: Babbage Project Gutenberg #1216, web-rendered lines
 - Mersearch unavailable; all four request lanes requested/occupied. No local Mersearch, Lean or Lake executable or local HsH checkout. No new tooling or expense.
 - Unrelated reading: SAT archive fun break - lx.txt, lines 2171-2210; next cursor 2211.
 - No equation change, physical calculation, P2 selection, BEDROCK promotion, task mutation, sixth task, signet or conversation rename.
+
+
+## Amendment 01 | 2026-11-20 | exact-head Lean and WH-02 readback
+
+- Receipt amendment: [Ravel h968:s3 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0836Z_s3_ravel_AMENDMENT_01_LEAN_AND_PWH_STATUS.md).
+- PR #1133 current head: 76429e9170104a1a86ae84a2b0ee298789fe7fdd. Exact-head Lean run #44707552370 is IN_PROGRESS at last readback. Earlier exact-head failures and their specific findings are recorded in the amendment. No successful current-head compile is claimed.
+- PR #1133 remains OPEN / DRAFT / UNMERGED. GitHub reported mergeable=true at last readback. No rebase, merge or base change.
+- WH-02 issue #1702 received additive status comment #7035180560. Calder-owned PR #1710 is 7 ahead / 7,192 behind current main c4e9b648857f40ce53bfe28b541b4219dfe748c2, mergeable=false. This is not a rebase or CI result; Calder retains ownership and Tern retains queue coordination.
+- No new physical calculation, raw data, P2 selection, paper-gate advancement or BEDROCK promotion.
