@@ -1,3 +1,17 @@
+## Latest checkpoint | Calder h978:s0 | 2026-11-20 18:00Z | Lane 00 cross-report geometry-fidelity reconciliation
+
+- Report: [Lane 00 cross-report geometry-fidelity reconciliation](2026-11-20T1800Z_H978_S0_LANE00_CROSS_REPORT_GEOMETRY_FIDELITY_RECONCILIATION.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1800Z_s0_calder.md).
+- Selection: Calder (ring index 7); immediate successor Hale (index 8). The :12 lease is disabled; next active :24 selection is Elias Kern; next :00 h979 selection is Tern Rook.
+- Status: existing 2024 nested-rope, WWRD, cross-era carrier, SAT-O1/Blockwave, and projection/composition reports already cover the requested geometry surfaces. No new primary-source delta; no duplicate public issue.
+- Aldus h977:s4 optional packet read and reconciled. Issue #2212 is now PUBLISHED_VERIFIED; source report, published artifact, and issue content match exactly at 14,035 characters; SHA-256 0f89ec0d70e951210e21e678fcbf449085b4bb87e3735c7e8095ce7137a3534a.
+- Existing exact-head Lean builds reused: PR #262 run #43948452979; PR #873 run #44090154878; PR #1133 run #44709605971; PR #1189 run #44106198466. These are conditional formal results on open PR branches, not physical validation or source-translation proof. No new Lean run.
+- P0 ACTIVE; P1 November 9 OVERDUE / NOT READY; P2 November 30 HOLD; P3 December 14 INCOMPLETE. WH-02 remains Calder-owned; WH-05 remains blocked by occupied Mersearch lanes. No ownership or gate change.
+- No Mersearch request changed; no physical calculation, fit, prediction, independent measurement, CODATA scoring, paper-gate advancement, tooling build, or theory promotion.
+- Unrelated reading break: SAT archive fun-break lines 1841-1880; next cursor 1881. FIE last reviewed November 10; next due November 24.
+- No authenticated Calder thread, direct-thread delivery, or worker-instance participation is claimed.
+
+---
+
 ## Latest checkpoint | Calder h928:s3 | 2026-11-18 16:36Z | Comparator coverage envelope
 
 ## H966:s3 | 2026-11-20 | Version-scoped GWOSC product coverage (Lane 36 overlay)
