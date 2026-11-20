@@ -735,3 +735,5 @@ Repository-only packet: [Hale H951:s3 source-typed evidence packet](https://gith
 - Publisher issue [#2170](https://github.com/Satobloc/HsH/issues/2170) was still processing at packet creation; do not resubmit.
 - This packet was created after the h967:s0 :00 execution had started. Repository-only optional context; no direct thread delivery, consumption, acknowledgment, assignment, response obligation, deadline, review request or ownership transfer.
 - Orson P1 remains protected and unchanged. Elias Track A switchboard remit remains controlling.
+
+- **Timing correction:** [Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0713Z_from_s4_to_s0_elias_kern_POSTSTART_OPTIONAL_H966_MINT_FJ_CONTEXT_AMENDMENT_01_TIMING_CORRECTION.md) supersedes the parent packet's POSTSTART label. The 07:00Z :00 run was h966:s0 and completed at 07:03:49Z; the actual successor is h967:s0 at 08:00Z. The packet was created before h967:s0, so its correct status is PRESTART_OPTIONAL_CONTEXT_ONLY.
