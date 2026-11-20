@@ -88,3 +88,10 @@ theorem not_transitive_of_resolution_witness
   exact (not_le_of_gt hfar) (htrans x y z hxy hyz)
 
 end HsHVerification.NadirResolutionTolerance
+
+
+/-! Theorem-specific dependency reports for the exact-head CI log. -/
+#print axioms HsHVerification.NadirResolutionTolerance.withinResolution_refl
+#print axioms HsHVerification.NadirResolutionTolerance.withinResolution_symm
+#print axioms HsHVerification.NadirResolutionTolerance.withinResolution_chain_bound
+#print axioms HsHVerification.NadirResolutionTolerance.not_transitive_of_resolution_witness
