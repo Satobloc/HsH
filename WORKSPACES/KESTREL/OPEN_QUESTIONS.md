@@ -366,3 +366,8 @@ Lean status is now more precise:
 - No local Lean/Lake/Elan. No Factory Floor handoff until current-head CI and independent review.
 
 The report was expanded to include the exact sector equations and the parameter-map conditions. P2 remains HOLD; no physical data or prediction.
+
+
+## 14. Verifier feedback closure and status preservation
+
+For the pinned ConsistencyBench CGD source, can a checker/repair loop validate the revised state when its checker projection is unchanged by the repair update? The current source stores the revised final answer but carries the original raw response into later checker calls; it also maps a failed checker call to the same Boolean branch as no contradiction and uses substring rather than exact-token parsing. Existing OrsonCGDProjectionGate formalizes a source-derived abstraction, but the current PR build is merge-reference only. Missing evidence: exact per-call prompts/outputs, provider status/request IDs, trigger-pair records, and independent adjudication. No measured performance effect is established. See [Kestrel h971:s4 report](2026-11-20T1148Z_H971_S4_REVIEW_MIND_CGD_FEEDBACK_OBSERVABILITY.md).
