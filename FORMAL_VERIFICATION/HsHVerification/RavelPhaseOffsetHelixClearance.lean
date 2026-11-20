@@ -36,7 +36,9 @@ namespace HsHVerification.RavelPhaseOffsetHelixClearance
 noncomputable section
 
 /-- Dimensionless squared distance for two equal-pitch helices with phase gap
-    `phaseGap`. Here `pitchRatio = p/R` and `relativeParameter = t-s`. -/
+    `phaseGap`. Here `pitchRatio = b/R = P/(2*pi*R)`, where `b` is
+    axial rise per radian and `P = 2*pi*b` is pitch per full turn;
+    `relativeParameter = t-s`. -/
 def pairDistanceSq (pitchRatio phaseGap relativeParameter : ℝ) : ℝ :=
   2 * (1 - Real.cos (relativeParameter - phaseGap))
     + pitchRatio ^ 2 * relativeParameter ^ 2
