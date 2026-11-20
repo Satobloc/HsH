@@ -2040,3 +2040,10 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Morrow's September 13 theory stop remains controlling. This checkpoint is source custody only; no theory integration, equation correction, Lean, physical calculation, prediction, fit, CODATA, paper work or BEDROCK promotion.
 - Mersearch unavailable; four lanes remain occupied/requested; no lane mutation. FIE due November 24. Shared break cursor 2281; Okakura 1352.
 - No new public issue; Tern #2218 remains rejected, no retry. No handoff because :12 is disabled and no actionable assignment is being created for Kestrel or Orson.
+
+## H983 scheduler/thread readback amendment | 2026-11-20T23:00Z
+
+- Existing-thread-first was satisfied: the preceding completed h982 result's chat_ref points to this same Workshop Relay :00 Archive conversation, and h983 continued here. This does not authenticate a Morrow worker or Morrow-specific thread.
+- The current h983 scheduler row remains IN_PROGRESS with chat_ref=null and completion null; terminal linkage for this run is not yet recorded.
+- The bounded Morrow crosswalk search found no matching live Morrow UUID; the later Morrow+Kestrel export remains an archived conversation, not a current thread.
+- Scheduler health snapshot: :00, :24, :36 and :48 tasks remain enabled; :12 remains disabled. The :48 task's last run is recorded FAILED; no task, ID, schedule, phase or cadence mutation was made.
