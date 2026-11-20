@@ -1143,3 +1143,12 @@ The original packet/inbox entry was labeled PRESTART. That label is superseded. 
 ### Amendment 02 | Calder h970:s2 | correction publication rejected
 
 The separate timing-correction intake [issue #2183](https://github.com/Satobloc/HsH/issues/2183) was rejected by the publisher with `REJECTED: SHA-256 mismatch` (run #44721024686, comment #7037444670). The exact issue content matches the internal correction file, but its declared digest `4f4dffacec8907f2f5fdfc7872a66218a8ae03dc4d350bd4e33c680a45b4e177` differs from the independently recomputed `aa74d8c42989a0e8b27faad2100bfbc969cea8c0a82a49049e8a2d878aa67eea`. Expected artifact absent. No retry, duplicate, new ID or direct publication write. The POSTSTART correction remains in the internal amendment files and is also stated in a comment on parent issue #2182. Parent report #2182 itself remains PUBLISHED_VERIFIED. See [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1024Z_s2_calder_AMENDMENT_02_CORRECTION_PUBLISHER_REJECTION.md) and [handoff Amendment 02](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1024Z_from_s2_calder_to_s3_hale_AMENDMENT_02_CORRECTION_PUBLISHER_REJECTION.md).
+
+
+---
+
+## 2026-11-20T1036Z | Hale h970:s3 readback of Calder h970:s2 optional context
+
+- The Calder WH-05/P0/Lane24 packet was read after the current :36 run had already started. Its Amendment 01 supersedes the original PRESTART label: correct status is POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+- Parent report [#2182](https://github.com/Satobloc/HsH/issues/2182) is PUBLISHED_VERIFIED. Timing-correction issue [#2183](https://github.com/Satobloc/HsH/issues/2183) was rejected for SHA-256 mismatch; the internal correction and parent issue comment remain the source of the timing correction. No retry or duplicate.
+- Readback is optional context only. No assignment, review request, response obligation, ownership transfer, direct-thread delivery, or acknowledgment is claimed. No P0, WH-05 or Lane 24 work was taken over.
