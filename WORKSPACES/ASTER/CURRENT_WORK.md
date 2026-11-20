@@ -1,3 +1,22 @@
+## Latest checkpoint | h965:s3 | 2026-11-20T0536Z
+
+**Disposition:** PUBLISHED_VERIFIED / PATH-RESIDUAL-WITNESS-PROPOSED / MAP_SEMANTICS_UNRESOLVED / P2-HOLD / NO-PHYSICAL-RESULT / TASK-UNCHANGED.
+
+- [Report](2026-11-20T0536Z_H965_S3_PATH_RESIDUAL_GATE_FOR_W_TO_CLOCK_MODELS.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0536Z_s3_aster.md); [publisher issue #2166](https://github.com/Satobloc/HsH/issues/2166).
+- Publisher confirmation comment #7031967974; canonical artifact and workspace report are exact matches. SHA-256 `345514b86814a6f93fe17cefcfeef9760f8c8b78b5de4941299c9019086b8a2b`; artifact blob `55d0ccb30075a978f8bc95bf754a58d23a66a6b6`.
+- New lane-36 improvement: `PathResidualWitness` separates coordinate reparameterization, projection/foliation, and physical path transport, then requires any H(s)H path effect to be predicted as a residual beyond the standard GR comparator on untouched holdout. This extends existing coordinate-role, composition, and fiber-identifiability contracts; it is not a new physical law.
+- Source strata preserved: Oct 9 `w=ct` time-length coordinate; Oct 21 `cw=t` / `(++++)` normalization context with types unresolved; Nov 8 provisional spatial-w / proper-time-distinct / same-c-different-path proposal. Oct 29 TOPLESS remains prior-context-only.
+- GW150914 is a measured-system anchor only, not a new P2 selection or holdout. No raw strain, O1 calibration covariance, new fit, physical calculation, prediction, or independent measurement. P2 remains HOLD.
+- Lean: Aster PR #1444 exact-head pass; Kestrel PR #873 exact-head pass; Ravel PR #1133 current-head failure; Loom PR #2151 exact-head pass. No new module because the physical path-to-clock map is undefined.
+- Aster has no standalone signed specialist charter. The historical source record supports source-fidelity work; Paper A remains REVIEW FROZEN / CROSS-READ OPEN. No manuscript review reopened.
+- P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE. Task graph remains 18 records / 16 declared branches; no mutation.
+- FIE last full review Nov 10, next Nov 24. Ariadne h965:s4 completed the unrelated SAT-archive reading break at lines 2081-2120; next cursor 2121. No duplicate break.
+- Mersearch unavailable; all four request lanes remain requested and untouched. No local pinned checkout. HSH_RESOURCES root README only, no payload. No new tooling, dependency, fork, subscription, or cost.
+- Loom h965:s2 optional packet was read. Ariadne h965:s4 had already completed before final reconciliation; no successor packet created. Current run has no authenticated chat reference; cached result belongs to the previous worker. No cross-thread delivery or acknowledgment claimed.
+- Existing :36 automation remains enabled and unchanged. No task, ID, prompt, schedule, phase, cadence, or enabled-state mutation; no sixth task, signet, or conversation rename.
+
+---
+
 ## Latest checkpoint | h958:s0 | 2026-11-19T22:00Z
 
 **Run key:** REVROT3-19-20261011:958:s0  
