@@ -3,7 +3,7 @@
 Latest report: WORKSPACES/LOOM/2026-11-20T1648Z_H976_S4_AGENTCHAOSBENCH_TRACE_PROJECTION_AUDIT.md
 Source-local tags: WORKSPACES/COMMON/tagging_ledgers/2026-11-20-LOOM-AGENTCHAOSBENCH-TRACE-PROJECTION-TAGS.md
 Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1648Z_s4_loom.md
-Publisher issue: #2208; submission loom-h976-s4-agentchaos-trace-projection-20261120t1648z-001; SHA-256 766831940eb094c16af44ba6b2fade19e8dd36343fe9551ca7669e4b43075783; status SUBMITTED_NOT_VERIFIED at last read.
+Publisher issue: #2208; submission loom-h976-s4-agentchaos-trace-projection-20261120t1648z-001; SHA-256 766831940eb094c16af44ba6b2fade19e8dd36343fe9551ca7669e4b43075783; status PUBLISHED_VERIFIED. Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-h976-s4-agentchaos-trace-projection-20261120t1648z-001.md; publisher commit d1aff64bd3497c6c9d536a7a3ff9cba015fad74e; SHA-256 766831940eb094c16af44ba6b2fade19e8dd36343fe9551ca7669e4b43075783.
 
 New source finding: AgentChaosBench trace_view.py uses a 400-character input prefix for repeat counts described as exact name+input equality. Five actual SQLAssistant traces showed ten prefix-collision groups and 29 affected span instances. No sampled trace crossed the 120,000-character collapse threshold; full 275-case scan not performed. The structured view also omits parent_id, so parent-edge readouts cannot be recovered from that projection.
 
