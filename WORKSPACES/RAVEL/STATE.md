@@ -1,3 +1,12 @@
+> **Current relay checkpoint - h961:s0 (2026-11-20 01:00Z nominal).**  
+> Selected: Ravel (ring index 17); next ring label: Orson Vay (index 18; no handoff or assignment). Next scheduled :00 selection: h962 Ariadne (index 3).  
+> Research submission: [h961 helical-clearance source-fidelity intake, issue #2148](https://github.com/Satobloc/HsH/issues/2148) - **SUBMITTED_NOT_VERIFIED**; issue-body SHA-256 `b80b3f0c676895824a661baf7b555fc31cdeb4acc768277713c3ee937fd942b5`; artifact not yet read back. Do not duplicate.  
+> Receipt: [canonical h961:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0100Z_s0_ravel.md).  
+> Finding: historical `d_N = 2 R sin(pi/N)` is a same-slice circular chord, not global helical/worldtube clearance; finite-core thickening, pitch-sensitive separation, and Pauli/Cooper exchange maps remain undefined. No new Lean run, physical calculation, CODATA scoring, or theory promotion.  
+> Workflow: WH-02 remains highest-priority unblocked and Calder-owned; PR #1710 7 ahead / 6,852 behind, no exact-head Actions run. WH-05 remains Mersearch-blocked. P0 ACTIVE; P1 November 9 OVERDUE / NOT READY and Orson-owned; P2 November 30 HOLD; P3 December 14 INCOMPLETE. FIE next due November 24. Unrelated reading break h958 lines 2001-2040; next cursor 2041.  
+> Invoking automation: Workshop Relay :00 | Archive, ID `6aa1fe0de5e48191b886496095b1343f`, enabled and unchanged; exact schedule `DTSTART;TZID=America/New_York:20261001T140000`, `RRULE:FREQ=HOURLY`. Ravel's separate :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` also unchanged. No sixth task.  
+> No authenticated current Ravel thread ID/URL surfaced; no cross-thread delivery, consumption, or acknowledgment is claimed. No new chat.
+
 > **Current relay checkpoint — h934:s2 (2026-11-18 22:24Z).**  
 > Selected: Ravel; next ring label: Orson Vay (protected cognition remit; no handoff/assignment).  
 > Report: [h934:s2 geometry/source/proof-status audit](2026-11-18T2224Z_H934_S2_GEOMETRY_SOURCE_FIDELITY_AND_PROOF_STATUS_AUDIT.md)  
