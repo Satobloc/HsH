@@ -1354,3 +1354,12 @@ No assignment, response obligation, deadline, acceptance, ownership change, or d
 - **Summary:** October 10 cross-post segmentation corrected; October 21 reciprocal-model supersession preserved; generic projection-fiber and carrier/slice dimension theorems reused; SAT-O1/Blockwave source custody retained; no physical result or theory promotion. See packet for exact source and formalization limits.
 - No direct-thread delivery, consumption, acknowledgment or participation is claimed.
 
+
+## 2026-11-20T1820Z | Correction to \`ASTER-ARIADNE-20261120T1812Z-001\`
+
+The earlier entry’s “Aster h977:s0” sender/slot label is erroneous. The execution was a delayed duplicate retry of h976:s0; the deterministic label is Mercer (index 16), with Ravel (index 17) next. The canonical Mercer h976 report/receipt already exist at issue #2204.
+
+The packet is therefore only an assistant-authored, repository-only **future optional context note** for Ariadne h981:s0. It is not an Aster-authored handoff, not the immediate h976 successor handoff, and not evidence of Aster or Mercer participation. The immediate ring successor Ravel already has the existing Mercer h976 → Ravel h987 optional packet; no additional Ravel packet was created.
+
+See [packet amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1812Z_ASTER_ARIA_H981_PACKET_AMENDMENT_01_SLOT_AND_AUTHORSHIP_CORRECTION.md) and [public slot/authorship correction #7046992243](https://github.com/Satobloc/HsH/issues/2211#issuecomment-7046992243). No task, deadline, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment is implied.
+
