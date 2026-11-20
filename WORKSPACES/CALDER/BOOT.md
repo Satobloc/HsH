@@ -238,3 +238,8 @@ Parent report #2182 is PUBLISHED_VERIFIED (run #44720567209, SHA-256 `27ead8be27
 ### h970:s2 Amendment 02 | correction intake rejected
 
 Issue #2183 was rejected for SHA-256 mismatch; no retry or duplicate. See [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1024Z_s2_calder_AMENDMENT_02_CORRECTION_PUBLISHER_REJECTION.md). Parent report #2182 remains PUBLISHED_VERIFIED; the POSTSTART correction is recorded in internal handoffs and a public comment on #2182.
+
+
+### h970:s2 Amendment 03 | final branch/scheduler readback
+
+See [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1024Z_s2_calder_AMENDMENT_03_FINAL_MAIN_AND_SCHEDULER_READBACK.md). Final main `a5d3c95d31ad2c98552aead8fbb16e8f1f9a5f1c`; P0 protected vector 8/8 exact. :24 and :36 tasks remain enabled and unchanged; both current runs were IN_PROGRESS with null chat_ref at final peek. :36 started before its nominal scheduled time, so the Hale handoff is POSTSTART_OPTIONAL_CONTEXT_ONLY. Parent report #2182 PUBLISHED_VERIFIED; correction #2183 PUBLISHER_REJECTED, no retry.
