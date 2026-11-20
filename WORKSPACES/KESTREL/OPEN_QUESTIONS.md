@@ -352,3 +352,17 @@ A new conditional curvature-symmetry formalization is in draft PR #2143. The lit
 Non-duplication: the positive-semidefinite co-metric limitation is already covered by Morrow/Enheduanna; dimensional consistency by Mercer/Meridian; curve-to-worldtube and field-extension gaps by Mira/Morrow. Kestrel does not repeat those audits. See the h960 report at 2026-11-20T0024Z_H960_S2_NTH_ORDER_SUPERHELIX_SOURCE_AND_CURVATURE_GATE.md and PR #2143.
 
 Next discriminator: recover the source context/authorial status of the Nth-order action, then define the worldline/worldtube/field/observable maps before any physical comparison. P2 remains HOLD. No system selected, raw data acquired, physical calculation, fit, prediction, independent measurement, or theory promotion.
+
+
+### h960 additive verification update | 2026-11-20T00:52Z
+
+PR #2143 now includes a second conditional source-to-source theorem. The June 2025 three-axis hyperhelix equals the later n=3 coordinate-axis specialization only when A_x=A_y=A_z=l_f and k_i=2*pi*n_i/l_f with phases matched. This is a restricted parameter map, not proof that the later formula generalizes the earlier one in every degree of freedom. The Nth-order expression is a harmonic sum, not an explicit recursive nesting law or scale-composition map.
+
+Lean status is now more precise:
+
+- Initial head 8ee0d01ee27274ef94b2fffe704d73b60957bc62 passed exact-head CI run #44648094755 / job #135995753257. The module compiled. The first #eval used Real and printed an opaque Real.ofCauchy representation; theorem-specific axiom reports listed propext, Classical.choice, and Quot.sound.
+- Intermediate head 41cde6e8fc4b17c88e6e739ab2043a16021f59e2 was cancelled before checkout when a newer commit arrived.
+- Current head 9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2 includes a Rational witness for readable execution and the n=3 special-case theorem. Exact-head run #44649028244 was IN_PROGRESS at last check, after successful checkout and exact-head assertion; Lake dependency manifest generation was still running. No current-head compile or evaluation claim yet.
+- No local Lean/Lake/Elan. No Factory Floor handoff until current-head CI and independent review.
+
+The report was expanded to include the exact sector equations and the parameter-map conditions. P2 remains HOLD; no physical data or prediction.
