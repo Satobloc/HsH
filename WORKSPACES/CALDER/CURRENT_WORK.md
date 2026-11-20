@@ -670,3 +670,10 @@ Receipt Amendment 02 corrects the published report's raw-export inventory count:
 - Empirical Calder role remains the 2026-09-12 CHECKINS self-report (not a signed charter); exact historical empirical-Calder thread ID remains unresolved. The `⚗️` Construction Story Retelling Calder identity remains separate. No authenticated current Calder thread; this was source-grounded reconstruction.
 - Next ring label Hale h970:s3; optional prestart packet was appended to Hale's existing inbox and independently read back. No direct-thread delivery or acknowledgment is claimed.
 - No scheduler/task/ID/prompt/phase/cadence change; no sixth task.
+
+
+### h970:s2 Amendment 01 | 2026-11-20T10:36Z | publisher and handoff correction
+
+- Parent report #2182 is now PUBLISHED_VERIFIED: publisher run #44720567209 SUCCESS; comment #7037384288; artifact blob `81acebda5e2519c991ccd43eaa7b4cb16b11ad00`; 9,354 UTF-8 bytes; independently recomputed SHA-256 `27ead8be27bfe76f25c973af1dc161f2d7fb229baa79ebaaf2b989bfab17a74a`; issue envelope, workspace report and published artifact match byte-for-byte.
+- **Handoff timing correction:** the original packet was incorrectly labeled PRESTART. The :36 run `d5acda43-adfc-8332-8fd1-9001d8e43e7c` had started at 10:33:02.248499Z; handoff and Hale inbox commits were created at 10:36:28Z and 10:36:31Z. Correct status is POSTSTART_OPTIONAL_CONTEXT_ONLY. Original files remain immutable; see receipt Amendment 01 and handoff Amendment 01. Public correction: [issue #2183](https://github.com/Satobloc/HsH/issues/2183).
+- :36 run remains IN_PROGRESS with null chat_ref; cached latest_result belongs to Ravel h968:s3. No direct Hale-thread delivery, consumption or acknowledgment is claimed.
