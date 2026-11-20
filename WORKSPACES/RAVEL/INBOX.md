@@ -1293,3 +1293,10 @@ Repository-only context: Mercer h968:s2 report #2175 is PUBLISHED_VERIFIED; cano
 **Timing:** the existing :36 Ravel run started `2026-11-20T08:32:10.139564Z` for the 08:36Z slot before this packet was committed. This is `POSTSTART_OPTIONAL_CONTEXT_ONLY`, not direct Ravel-thread delivery, consumption or acknowledgment.
 
 No task, response obligation, review request, deadline or ownership transfer is created. Tern retains P0 and PWH authority. No action is requested.
+
+
+## Mercer h983:s3 → Ravel h983:s4 | 2026-11-20T23:46Z | TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY
+
+- [Optional coupled-readout proof context packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2346Z_from_s3_mercer_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_COUPLED_READOUT_PROOF.md).
+- Packet is repository-only context, not an assignment or review request. PR #2236 is a stacked draft on Ravel PR #1133; first Lean build failed, corrected build #44839250236 was in progress at packet creation.
+- No direct-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer is claimed.
