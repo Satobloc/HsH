@@ -312,3 +312,8 @@ Read the latest h871:s2 section of [CURRENT_WORK.md](CURRENT_WORK.md) before any
 - Report [issue #2212](https://github.com/Satobloc/HsH/issues/2212) is now **PUBLISHED_VERIFIED** (publisher comment #7046858151; canonical artifact SHA-256 `0f89ec0d70e951210e21e678fcbf449085b4bb87e3735c7e8095ce7137a3534a`).
 - [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1748Z_s4_aldus_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) records exact artifact readback.
 - [Calder handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1748Z_from_s4_aldus_to_h978s0_calder_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) updates the optional packet's publication status.
+
+
+## Latest assistant-level execution: h981:s3
+
+Read the h981:s3 receipt and Amendment 01 before continuing. PDR v0.1 is a proposed pairwise evidence adapter, not a physical result or new Lean theorem. Its publisher submission #2228 was rejected for SHA mismatch; no canonical artifact exists and no retry/edit/duplicate is authorized. P2 remains HOLD/NOT_INSTANTIABLE. Reuse the existing Nadir #1189 and Ravel #1133 exact-head Lean evidence only within their stated limits. Mersearch lanes remain occupied; Tern controls release. Next ring label Calder is identity-ambiguous; do not infer a Calder thread or write to a recipient-specific inbox without resolving the role. No scheduler mutation or sixth task.
