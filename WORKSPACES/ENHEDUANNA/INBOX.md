@@ -723,3 +723,17 @@ The existing publisher submission [#1735](https://github.com/Satobloc/HsH/issues
 - See `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2336Z_from_s3_nadir_voss_to_s4_enheduanna_AMENDMENT_02_SLOT48_RUN_FAILURE_AND_NO_LINK.md`.
 - Repository context only; no packet-consumption, acknowledgment, direct-thread delivery, task, or response obligation claimed.
 
+
+
+## OPTIONAL CONTEXT | Nadir h971:s0 → Enheduanna h975:s0 | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- **Inbox ID:** `NADIR-ENH-20261120T1158Z-001`
+- **Sender run key:** `REVROT3-19-20261011:971:s0`
+- **Recipient run key:** `REVROT3-19-20261011:975:s0`
+- **Source packet:** `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1158Z_from_s0_nadir_voss_to_s0_enheduanna_h975_OPTIONAL_H971_PARABOLA_SCOPE_AND_SOURCE_FIDELITY.md`
+- **Source report:** `WORKSPACES/NADIR_VOSS/2026-11-20T1100Z_H971_S0_MOVING_PLANE_FORMALIZATION_SCOPE_AMENDMENT_01.md`.
+- **Existing publication:** H971:s0 issue #2187, with additive source-fidelity comment #7039379349. No new issue.
+- **Optional next action:** if useful to the existing helical-vortex source-readiness work, keep the conditional moving-slice geometry separate from any measured volumetric vortex pair; no task is required.
+- **Status:** PRESTART_OPTIONAL_CONTEXT_ONLY. No assignment, deadline, response obligation, priority override, or ownership transfer.
+- **Repository delivery:** append pending independent readback.
+- **ChatGPT delivery:** NOT SENT; no authenticated current Enheduanna thread. Consumption and acknowledgment unknown.
