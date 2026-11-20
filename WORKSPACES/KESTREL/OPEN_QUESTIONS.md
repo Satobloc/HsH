@@ -332,3 +332,23 @@ Open discriminators:
 7. Only after those maps are source-defined should the translator be connected to an actual H(s)H worldtube/timesheet/medium and an instrument's measured data.
 
 Existing PR #873 now has exact-head Lean compile success at #44090154878, but remains draft/unmerged and far behind current main. Its generic fiber-factorization and joint-readout theorems are available; the specific SO(4) stabilizer and chart transition are not formalized. No new theorem or build was made.
+
+
+## 2026-11-20 | h960:s2 | Nth-order superhelix source recovery and curvature gate
+
+The June 23 Nathan Direct source is now located in SAT Overview, conversation 6a3a279a-10cc-83ea-9abf-4fc1dab9fb55, raw blob 023ff77688672546aeff02deb3745289f6709c90, message 28895d46-780e-46d9-a4cd-646f92fad193. It says one nested 4D helical worldline/worldtube structure and leaves scale placement unresolved. The follow-up explicitly says the formulation is already in the archive root.
+
+The matching Nth-order harmonic generator is in archive-root SAT.4DHH.UC.pdf and _AUTO_EXTRACTED_TEXT/SAT.4DHH.UC.txt (PDF SHA-256 9b28c5776516af59dd661485ac519983c9b77b56c435a4ec15436d24f8bf028f; extraction blob c3c63e983663a1648aa78ce9f591c28e7997f055). The extraction's first page labels the prompt LLM DROP and records Ravel/ChatGPT as extraction requester. A November 8 four-message export repeats the same action in a USER-role message, but its pre-message context is absent. Preserve USER-ROLE-TRANSMISSION / EMBEDDED-EQUATION-AUTHORSHIP-UNRESOLVED; do not promote it to Nathan-authored derivation. The June 2025 SAT4D Canonical Summary remains the cleaner earlier baseline, with a simpler three-axis hyperhelix.
+
+The exact generator is:
+gamma^mu(lambda) = (lambda, l_f * sum_{i=1..n} sin(2*pi*n_i*lambda/l_f + phi_i) e_hat_i).
+
+If all e_hat_i are pairwise orthonormal in 3D, then n <= 3. The source must distinguish harmonic count from independent direction count, or state the bound.
+
+The one-structure interpretation requires typed projections/compositions, not separate-object analogy. A proposed contract is X_n, pi_n: X_(n+1) -> X_n, and P_(n<-m) = pi_n o ... o pi_(m-1). A readout descends to a coarser level only if it is constant on the relevant projection fibers. Existing Kestrel PR #873 has exact-head CI success at #44090154878 for the generic factorization criterion, but remains draft/unmerged and is not integrated into main. It does not instantiate the physical maps.
+
+A new conditional curvature-symmetry formalization is in draft PR #2143. The literal product a_i*a_j*v_k*v_l and its finite weighted-ensemble version are symmetric in the first index pair. If required to be a nonzero Riemann tensor with first-pair antisymmetry and no omitted antisymmetrization, the assumptions conflict. PR #2143 is LEAN_UNTESTED: no exact-head workflow run, no local Lean/Lake/Elan. No compile, actual evaluation, or Factory Floor handoff is claimed. This is conditional algebra, not a judgment on the complete action.
+
+Non-duplication: the positive-semidefinite co-metric limitation is already covered by Morrow/Enheduanna; dimensional consistency by Mercer/Meridian; curve-to-worldtube and field-extension gaps by Mira/Morrow. Kestrel does not repeat those audits. See the h960 report at 2026-11-20T0024Z_H960_S2_NTH_ORDER_SUPERHELIX_SOURCE_AND_CURVATURE_GATE.md and PR #2143.
+
+Next discriminator: recover the source context/authorial status of the Nth-order action, then define the worldline/worldtube/field/observable maps before any physical comparison. P2 remains HOLD. No system selected, raw data acquired, physical calculation, fit, prediction, independent measurement, or theory promotion.
