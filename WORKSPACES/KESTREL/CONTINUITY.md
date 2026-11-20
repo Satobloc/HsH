@@ -1,3 +1,33 @@
+# KESTREL - CONTINUITY
+
+Last updated: 2026-11-20T19:24Z (assistant-level h979:s2 update)
+
+## Latest cross-boundary result: vortex-core measurement maps
+
+The h979:s2 report adds a source-to-readout synthesis across the Barckicke 2026 macroscopic vortex-core dataset, Tang 2023 He-II ring-decay data, and Bewley 2008 tracer-inferred reconnection study. These are complementary experiments, not one pooled dataset and not physical equivalences to H(s)H.
+
+The downstream two-contour map from opposing core contours to displacement/radius is explicit and invertible on the two samples. Kestrel PR #873 and Nadir PR #1189 define the same map under different names. Sable PR #1538 composes covariance propagation with Nadir's map; no cross-module equality theorem/shared canonical import connecting Kestrel and Nadir was found. The next formal bridge should reuse one canonical map rather than create a third definition. No new Lean code/build or PR modification was made.
+
+## Upstream source boundary remains open
+
+h960 recovered a June 23 Nathan Direct statement describing one nested 4D helical worldline/worldtube, with scale placement unresolved. The archive-root Nth-order generator is mixed-origin: its prompt is marked LLM DROP, and the November 8 user-role repeat does not establish original authorship of the embedded equations. PR #2143 remains draft and its current-head run failed to parse. Do not promote the action.
+
+The full map remains incomplete:
+generator -> finite-core/worldtube -> timesheet/wavefront -> instrument projection -> contour readout -> observables.
+The h979 report covers only the downstream measurement/readout segment. The instrument illumination sheet is not automatically the H(s)H timesheet; the material fluid is not automatically an H(s)H responsive-medium primitive. Phase Steering retains a Kelvin-like responsive medium only if the geometry forces it.
+
+The best current candidate for later finite-core geometry comparison is the Barckicke 2026 public Figshare dataset; Tang 2023 is complementary for two-fluid dissipation. Neither is selected for P2 while P0 remains active. No physical calculation, CODATA comparison, prediction, fit, holdout, independent measurement, or BEDROCK promotion occurred.
+
+## Continuity and identity
+
+The historical Kestrel remit remains trust-first cross-boundary synthesis and forward reasoning, not primary audit or proof ownership. The current :24 run has chat_ref=null. The cached prior result's chat_ref does not authenticate this run or the historical Kestrel instance. No cross-thread delivery is claimed.
+
+The separate historical whole-pile reaction/notes-to-self request (user message 37e78dd4-b42d-4e69-ad1a-6780a523a9d4) remains open and was not advanced in h979. Keep it distinct from the finite-core/readout map and unrelated-reading cursors.
+
+The :24 task identity, exact hourly schedule, prompt, phase, and enabled state remain unchanged. No sixth task, signet, or conversation rename.
+
+---
+
 # KESTREL — CONTINUITY
 
 Last updated: 2026-11-18T2148Z (assistant-level h933:s4 update)
