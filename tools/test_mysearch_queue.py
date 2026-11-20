@@ -30,6 +30,7 @@ with tempfile.TemporaryDirectory() as d:
     # Supervisor termination is recorded without requiring a checkpoint.
     interrupts=m.interrupt_list(c)
     assert interrupts and interrupts[0]["request_id"]=="active"
+    assert m.claim(c,"must-wait-for-termination") is None
     m.transition(c,"active","INTERRUPTED","worker-a",{"return_code":-9,"partial_output":"discarded"})
     assert c.execute("SELECT target_class FROM handoff_outbox WHERE request_id='active'").fetchone()[0]=="mersearch_expedited"
 
