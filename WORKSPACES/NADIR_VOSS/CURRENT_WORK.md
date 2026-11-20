@@ -1,3 +1,17 @@
+## Latest Lane 36 overlay | h959:s3 | 2026-11-19T23:36Z | same-key reconciliation
+
+- **Selection:** h=959; seq=4798; ring index 10 = Nadir Voss; next index 11 = Enheduanna. Assistant reconstruction only; no authenticated current Nadir thread.
+- **Existing report:** [air-core boundary, Rankine closure, and cavity-convection comparator](2026-11-19T2336Z_H959_S3_AIR_CORE_BOUNDARY_RANKINE_CLOSURE_AND_CAVITY_CONVECTION_COMPARATOR.md), blob `c1d98888a5f78292fc24843e050740fd60ab67b7`, 16,745 UTF-8 bytes, SHA-256 `ccd652de7e2b333cdbe90c2791e4c92ce6ed5388c2f89528465843c9bcb25ca0`.
+- **Existing intake issue:** [#2139](https://github.com/Satobloc/HsH/issues/2139) was created before this overlapping invocation. Exact issue-content/report equality and SHA-256 passed. Publication is `PUBLISHER_SKIPPED_TITLE_PREFIX_MISMATCH / BODY_SCHEMA_INVALID_IF_TRIGGERED / NOT_PUBLISHED`; no canonical artifact, retry, edit, duplicate, or bypass.
+- **Receipt:** [h959:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2336Z_s3_nadir_voss.md). This is a same-key reconciliation, not a second report or research event.
+- **Geometry:** keep the measured air cavity/interface, possible liquid vorticity-support region, and Rankine model interior distinct. Pennings external `W` is not automatically Barckicke internal `v_z`. P2 remains HOLD; no system selection, raw-data analysis, physical prediction, fit, or independent measurement.
+- **Formalization:** reuse existing PR #873/#1189 conditional results; no new Lean module because source-specific physical maps remain undefined.
+- **Mersearch:** all four canonical request files remain requested; all twelve expected manifest/receipt paths returned 404. No callable action or local three-root checkout; no lane changed.
+- **Successor:** [optional Enheduanna packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2336Z_from_s3_nadir_voss_to_s4_enheduanna_POSTNOMINAL_OPTIONAL_AIR_CORE_RANKINE_BOUNDARY.md), POSTNOMINAL_OPTIONAL_CONTEXT_ONLY / SUCCESSOR_RUN_NOT_OBSERVED. Repository pointer only; no direct-thread delivery or assignment.
+- **Lane separation:** this is a one-run Lane 36 overlay. The h944:s2 entry below remains the latest Lane 24 checkpoint; no permanent Nadir role or lane reassignment.
+
+---
+
 ## Latest checkpoint | h944:s2 | 2026-11-19T08:24Z | delayed-run reconciliation
 
 - **Selection:** h=944, seq=4722, ring index 10 = Nadir Voss; next Enheduanna, index 11. Selection uses the task's nominal scheduled_for (08:24Z), not the delayed started_at (09:24:14.244240Z). Assistant reconstruction only; no authenticated Nadir thread or participation.
