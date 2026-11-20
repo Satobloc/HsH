@@ -130,6 +130,11 @@ def receipt(c,rid):
 def claim(c,worker,lease_seconds=120):
     c.execute("BEGIN IMMEDIATE")
     try:
+        # Do not start Nathan's job until every force-interruption is confirmed.
+        pending=c.execute("SELECT 1 FROM requests WHERE state='INTERRUPT_REQUESTED' LIMIT 1").fetchone()
+        if pending:
+            c.execute("COMMIT")
+            return None
         r=c.execute("SELECT * FROM requests WHERE state='QUEUED' ORDER BY priority,created_at_utc,request_id LIMIT 1").fetchone()
         if not r: c.execute("COMMIT"); return None
         t=now(); lease=(datetime.now(timezone.utc)+timedelta(seconds=lease_seconds)).isoformat(timespec="milliseconds").replace("+00:00","Z")
