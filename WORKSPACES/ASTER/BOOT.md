@@ -11,7 +11,7 @@
 - Existing generic fiber-factorization Lean proof/build in Nadir PR #1189 reused; no queue-specific Lean module or build. No local Lean/Lake/Elan.
 - Scheduler start-time snapshots for the same h980:s4 run key conflict by 27m46.653702s. Preserve both; do not infer a second execution. The Loom optional packet's timing is unresolved. Ariadne h981:s0 already completed; no duplicate handoff.
 - P0 active; P1 Orson-owned overdue/not ready; P2 hold; P3 incomplete; FIE next review Nov 24. No Paper A review, Orson change, physical calculation, private HSH_RESOURCES payload access, new tool, task mutation, or theory promotion.
-- Publisher issue #2225 is open. Workspace report and issue body match, but declared SHA `f880025e...` differs from readback SHA `25eac357...`; publisher run #44822141551 was still in progress when recorded. Status: SUBMITTED_NOT_VERIFIED / SHA_MISMATCH_DETECTED. No retry or duplicate.
+- Publisher issue #2225 remains open. Workflow #44822141551 completed, but publisher comment #7051275270 says `REJECTED: SHA-256 mismatch`. Workspace report and issue body match exactly at 14,697 characters; declared SHA `f880025e66d58d67418d16eff9b2105d2ef6d877c1bc199a660998baa3811381` differs from actual SHA `25eac3570cc699ad8c3a0e5027da58013ce345a77e72b58b9ffdda0d0de6ad28`. No canonical artifact. Receipt Amendment 01 records the rejection; no retry, duplicate, or manual write.
 - Existing four enabled relay tasks retain IDs, schedules and phases; :12 remains disabled; no sixth task. No signet or conversation rename.
 
 
