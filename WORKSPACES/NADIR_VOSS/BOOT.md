@@ -1,3 +1,13 @@
+# Latest one-run Lane 36 overlay | h959:s3 | 2026-11-19T23:36Z
+
+- Report: [air-core boundary, Rankine closure, and cavity-convection comparator](2026-11-19T2336Z_H959_S3_AIR_CORE_BOUNDARY_RANKINE_CLOSURE_AND_CAVITY_CONVECTION_COMPARATOR.md).
+- Canonical receipt: [h959:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2336Z_s3_nadir_voss.md).
+- Existing intake issue [#2139](https://github.com/Satobloc/HsH/issues/2139) is NOT PUBLISHED: title prefix missing; uppercase schema would also fail. No retry or duplicate.
+- This was a same-key reconciliation of an already existing report/issue. It is a task-specific Lane 36 overlay, not a permanent Nadir role change. The h944:s2 entry below remains the latest Lane 24 checkpoint.
+- Next ring label: Enheduanna h959:s4; optional postnominal context packet is in Common HANDOFFS and her repository inbox. No direct-thread delivery or assignment is claimed.
+
+---
+
 # Nadir Voss | BOOT
 
 **Workspace status:** assistant-generated deterministic ring label; source-grounded revival only. No authenticated Nadir ChatGPT thread or standalone Nathan-authored Nadir specialist charter has been recovered. Do not treat the label or prior assistant summaries as historical identity evidence.
