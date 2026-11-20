@@ -1,5 +1,21 @@
 ## Latest checkpoint | Calder h928:s3 | 2026-11-18 16:36Z | Comparator coverage envelope
 
+## H966:s3 | 2026-11-20 | Version-scoped GWOSC product coverage (Lane 36 overlay)
+
+**Status:** LEAN_EXACT_HEAD_PASS / PUBLISHER_PENDING_AT_CHECKPOINT / NOT_ANALYSIS_READY / P2_HOLD. Assistant reconstruction under the Calder ring label; no historical instance/thread authentication.
+
+- Report: [H966:s3 versioned product coverage and negative-evidence gate](2026-11-20T0636Z_H966_S3_VERSIONED_PRODUCT_COVERAGE_AND_NEGATIVE_EVIDENCE_GATE.md).
+- Formalization: [draft PR #2167](https://github.com/Satobloc/HsH/pull/2167), stacked on PR #1515, exact head 816db587e6682263f7b11fbac70d418513f02839. Exact-head Actions run #44691120985 passed; 8,959-job Lake build; five theorem-specific axiom outputs report no axioms. Tests/lint/global axiom audit were not run.
+- Publication intake: issue #2169 created with the correct hsh-publish-v1 envelope and SHA-256 456a44d78edd9a18a671db830c520154a1becf8ccbce6bc0bfd7190c17e1c23e. Publisher receipt/canonical artifact still pending at this checkpoint; do not create a second issue or retry.
+- Core result: O4 Discovery Papers v1 legacy event JSON lists eight H1/V1 strain-file locators. API v2 strain-file endpoint is early-release-scoped and returns zero rows for both event versions; timelines also return zero. These are endpoint-scoped empty responses, not global event-wide absence. Do not substitute v1 products for GWTC-5.0 v2.
+- Readiness remains false: raw bytes, byte SHA-256, calibration version, PSD, data-quality segments, and covariance are not bound. No physical fit, H(s)H prediction, independent measurement, or falsification threshold. GW241011 is metadata-only here, not selected P2.
+- HsH-side Factory packet: FACTORY_HANDOFF_PENDING / GEOMETRY_NOT_SUPPLIED / NOT_FACTORY_FLOOR_ELIGIBLE. No Factory Floor issue or direct write.
+- PWH graph unchanged at 18 records / 16 declared branches (5 completed, 12 active, 1 blocked). WH-02 remains Calder/authorized-maintainer-owned; no rebase or PR #1710 mutation.
+- Hale h966:s4 was already running when the optional packet was created. Packet is POSTSTART_OPTIONAL_CONTEXT_ONLY, repository-only, with no assignment or acknowledgment claim.
+- Mersearch remains unavailable; four request lanes untouched. No HSH_RESOURCES payload access.
+
+**Next:** verify issue #2169 publisher confirmation and canonical artifact by exact readback. If successful, update the receipt additively. Do not duplicate the issue or change P2 status. Any later physical analysis requires source-version-specific raw bytes, hashes, calibration, PSD, data-quality segments, covariance, and a frozen holdout design.
+
 - [Report](2026-11-18T1636Z_H928_S3_STANDARD_COMPARATOR_COVERAGE_ENVELOPE.md): additive H0 comparator-family coverage and predictive-envelope crosswalk inside the existing P2 D-axis.
 - P2 matrix [#1855](https://github.com/Satobloc/HsH/issues/1855) remains candidate-only; P2 [#565](https://github.com/Satobloc/HsH/issues/565) remains HOLD. No new gate/schema/status, model, physical calculation, fit, prediction, threshold, raw data or theory promotion.
 - Publisher intake [#1993](https://github.com/Satobloc/HsH/issues/1993) was **REJECTED: SHA-256 mismatch**; canonical artifact absent. Declared digest 3599215eab8bd00df1dd856519624ce1ba0e09c297e0f67925bc8388c222d026; exact workspace/issue content digest 5a8a606c70a97816942aa5b11c7aba514134d6630cd49b27983db5396648b9bd. [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1636Z_s3_calder_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md). No retry/duplicate.
