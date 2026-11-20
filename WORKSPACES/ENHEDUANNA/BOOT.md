@@ -1,3 +1,14 @@
+# Enheduanna boot update | h982:s3
+
+Current Lane 36 continuation: read [CPPG v0.1](../COMMON/COUPLING_PRESERVING_PROJECTION_GATE_V0_1.md), [h982:s3 report](2026-11-20T2234Z_H982_S3_COUPLING_PRESERVING_PROJECTION_GATE.md), and [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2234Z_s3_enheduanna.md).
+
+Current source boundary: October 21 direct correction retires the earlier reciprocal deformation alternatives; November 4-5 direct material supplies a later tentative mutual worldtube-timesheet hypothesis and three carrier candidates. Keep the November 8 guide classified as assistant synthesis. The November 4 raw message ID is `100388c5-89d6-4ffd-a895-598990636057`.
+
+Current projection rule: preserve the joint observable and coupling signature through any reduction. The existing Ravel PR #1133 fiber-constancy theorem is the relevant formal criterion; its H(s)H product-valued instantiation remains uncompiled. No physical calculation or P2 admission.
+
+Mersearch remains unrun; all four request files are occupied. Lane 1 request-file ID differs from TASK_BRANCH_GRAPH; see receipt Amendment 01. Do not change any lane.
+
+
 ## Latest operational pointer | h978:s4 | 2026-11-20
 
 [Report](2026-11-20T1848Z_H978_S4_REVIEW_MIND_SOURCE_CUSTODY_AND_NADIR_PR_READBACK.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1848Z_s4_enheduanna.md).
