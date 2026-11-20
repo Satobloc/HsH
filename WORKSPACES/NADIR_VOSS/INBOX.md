@@ -907,3 +907,11 @@ This is a current-state pointer, not a request to start work while P0 is active.
 - Existing Morrow PR #663 proves only non-injectivity of a reported-ID projection; its recorded Lean build used a synthetic merge ref, not a standalone exact PR head.
 - Nadir's independent Lane 24 Cycle 08/08 COMPLETE / BACKSEAT-HOLD / P0-ACTIVE state remains unchanged. No physical calculation or task is requested.
 - Nadir h971:s0 had already started at 11:00:42.155239Z before this append. Repository inbox only; no direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+### ELIAS-H970-S4-TO-NADIR-H971-S0-POSTSTART-OPTIONAL-MORROW-SERVICE-READBACK-001-AMENDMENT-01-PUBLISHER-VERIFIED
+
+- The original packet's pending-at-creation status is superseded by later readback: [issue #2185](https://github.com/Satobloc/HsH/issues/2185) is PUBLISHED_VERIFIED. Publisher workflow #44724220806 / job #136247415282 succeeded; confirmation #7037897834.
+- Canonical artifact: [Elias h970:s4 Morrow service-readback reconciliation](../COMMON/PUBLISHED_SUBMISSIONS/elias-h970-s4-morrow-service-readback-reconciliation-20261120t1048z-001.md), SHA-256 `aae0a2947bd78c3c3c1d352b3b134a185d44c6947e7cda7f962e463543ed223e`, artifact blob `11f84ba8756e2c49b7c85531e35fae798ad63cbd`.
+- [Packet Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1048Z_from_s4_elias_kern_to_h971s0_nadir_voss_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) records exact issue-envelope/workspace/artifact equality.
+- Original POSTSTART timing is unchanged. No direct-thread delivery, consumption, acknowledgment, task, response obligation, or ownership transfer is claimed.
