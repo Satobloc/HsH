@@ -1,3 +1,18 @@
+## H963:s2 | 2026-11-20T03:24Z | P0-gated operational reconciliation
+
+- Canonical receipt: [h963:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0324Z_s2_nadir_voss_OPERATIONAL_HOLD_P0_REFRESH.md); exact content readback verified.
+- Optional successor packet: [Enheduanna h963:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0324Z_from_s2_to_s3_enheduanna_PRESTART_OPTIONAL_CONTEXT.md); repository-only, no task or response obligation.
+- Nadir remains an assistant-generated ring/workspace label. The October 1 raw export authorizes an independent sandbox but does not contain the name Nadir Voss or establish a standalone Nathan-authored specialist charter/current thread.
+- Lane 24 Cycle 08/08 remains complete and BACKSEAT/HOLD. The live capsule prohibits Cycle 09 until a positive P0 trigger or Code Grurple standdown. No new Lane 24 cycle, physical calculation, CODATA comparison, Lean build, P2 selection or theory promotion.
+- P0 issue #1747 remains open/ACTIVE. Current main at audit: 405d5db4ae91f18b784d2b23c554a93f3a4b838f. Eight protected Paper A/B source/control blobs re-fetched and exact. Current discovery blob 3c16d80d0603129dee6a89ba153b409819694238 was not parseable through the connector; last fully parsed snapshot remains the older 2026-11-19 13:49Z record. Live routes remain NOT_OBSERVED.
+- PR #2009 remains OPEN/DRAFT/UNMERGED, 3 ahead / 1,542 behind current main; no exact-head Actions run. No rebase, merge, deployment, route probe or P0 standdown.
+- All four Mersearch request lanes remain occupied/unverified; twelve expected manifest/receipt outputs returned 404. No overwrite or retrigger. No local pinned checkout or Lean/Lake/Elan installation; existing Math Hopper, Whirligig, PR #991/#1189 and SciSpace capability checked.
+- SAT-O1 and Blockwave original blob hashes rechecked unchanged. Verbatim equations remain in h944 source report; CORRECTED_EQUATION = NONE.
+- P1 remains Orson-owned / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next due 2026-11-24. Task graph remains 16 declared branches / 18 records.
+- No authenticated Nadir or Enheduanna thread, direct-thread delivery, consumption or acknowledgment claimed. Existing :24 task ID, hourly schedule, phase and prompt unchanged; no sixth task.
+
+---
+
 ## H959:s3 scheduler Amendment 02 | :48 identity and predecessor failure
 
 - Correct active :48 task ID from the live roster and fresh peek: `6aa6c3bc02b48191b8a91a30d2a155e0`, enabled, original hourly :48 schedule unchanged.
