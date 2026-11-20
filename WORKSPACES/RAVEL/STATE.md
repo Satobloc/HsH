@@ -920,3 +920,11 @@ Unrelated reading side-pass: Babbage Project Gutenberg #1216, web-rendered lines
 - Orson h968:s4 :48 run completed; Ravel's optional packet was POSTSTART_OPTIONAL_CONTEXT_ONLY. No assignment or consumption claim.
 - Current :36 run 8fa68115-f154-832e-b832-96571e8e5667 remains IN_PROGRESS / chat_ref=null at last peek; cached result belongs to prior h967 Tern run. Producer-run attribution for issue #2176 remains unresolved.
 - Task IDs, exact schedules, prompts, phase and enabled state unchanged; no sixth task.
+
+
+## h968:s3 Amendment 03 | 2026-11-20 | exact-head Lean pass
+
+- Receipt: [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0922Z_s3_ravel_AMENDMENT_03_EXACT_HEAD_LEAN_PASS.md).
+- Existing PR #1133 head fc7f92722fe5e0757d55f961b54a12bdee66d5da exact-head run #44709605971 SUCCESS; full Lake build 8,954 jobs, RavelSkewRotationKinematics built at 8,947/8,954.
+- Tests/lint/nanoda/global axiom audit skipped; no theorem-specific axiom audit or mainline integration. PR remains open/draft/unmerged.
+- This is assistant-defined matrix algebra only; no physical translation, H(s)H prediction, fit, or independent measurement.
