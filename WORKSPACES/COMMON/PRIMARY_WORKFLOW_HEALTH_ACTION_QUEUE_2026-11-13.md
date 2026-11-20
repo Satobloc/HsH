@@ -712,3 +712,20 @@ Evidence-only P0 refresh; no owner, priority, branch, route or release change.
 - Eight protected P0 source/control objects remain exact at the observed main commit.
 - PR #2009 remains OPEN / DRAFT / UNMERGED; current main vs head `ee582b8de93f88f49445c211892529c40b47fded` is 3 ahead / 831 behind, merge base `d47be7cfacfa182aedaad17a9e0841eb80fdfddb`; exact-head Actions query returned zero runs. Main `tools/site_discovery.py` still assigns raw reader routes to workspace records. PR head removes workspace reader/excerpt exposure and marks PRESENTATION_PENDING; tests cover legacy leakage removal.
 - No rebase, merge, deployment, route probe, manuscript edit or standdown. P0 remains ACTIVE / NOT OBSERVED. Tern retains reconciliation and release authority; no owner or priority change.
+
+
+---
+
+## h960:s0 | WH-02 read-only status refresh | 2026-11-20T0000Z
+
+This is a coordination snapshot, not a code review, approval, rebase request, merge request, or ownership change.
+
+- Current main at read: `8321191d85598ede70308205c5e5a68d9198af33`.
+- PR #1710 head: `a967e908ceab048d219831ec799343643870daf3`.
+- Merge base: `7c40096153861e531b4ba234f28b41a2260fba04`.
+- Compare: DIVERGED, 7 commits ahead / 6,734 behind.
+- PR remains OPEN / DRAFT / UNMERGED; mergeable=false at read.
+- Exact-head PR-triggered Actions runs: 0. Formal reviews: 0.
+- Status-only comment #7025886108 was added and read back exactly.
+
+The behind count increased from the h958 observation (6,676 behind). Calder/authorized maintainer retains code and rebase authority. Tern retains PWH coordination. No priority, owner, due date, branch, source, workflow, review, or task state changed.
