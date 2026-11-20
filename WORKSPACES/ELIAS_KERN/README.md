@@ -1,3 +1,16 @@
+## Latest checkpoint | h974:s3 | 2026-11-20T14:36Z
+
+**Status:** `INTERNAL_REPORT_READBACK_VERIFIED / PUBLISHER_REJECTED_SHA_MISMATCH` — one-run Lane 36 architecture overlay; Track A specialist remit preserved.
+
+- Report: [adaptive candidate-family freeze and holdout-exposure gate](2026-11-20T1436Z_H974_S3_ADAPTIVE_CANDIDATE_FAMILY_HOLDOUT_EXPOSURE_GATE.md)
+- Publisher issue: [#2197](https://github.com/Satobloc/HsH/issues/2197), rejected by publisher comment #7042460679. Declared SHA-256 `b4ed02100e00ce33ae6b2a23d710621cd24363cdb7ed7a77c8c9e8f01d4fb9db`; actual issue/workspace content SHA-256 `f1362b47324baa028da095c5086854c8c8582675b5d6c9f93ec18415df3e0d97`. No canonical artifact, retry, duplicate or bypass.
+- New contract records complete candidate-family membership and append-only holdout exposure/feedback history. It complements existing P2 map, uncertainty, identifiability and static holdout gates; M0–M4 remain working labels, not a frozen family.
+- P2 remains HOLD; no system/data/holdout selected. No physical calculation, prediction, Lean theorem, POC code, PR #951 or production change.
+- No authenticated current Elias thread or historical-instance participation. Next Nadir Voss packet is TIMING_UNVERIFIED / repository-only; no delivery or acknowledgment claimed.
+- The original Track A next cursor remains: recover the raw originating Top/Central/Branch/Hydra conversation and obtain a Nathan Direct typed node/edge/authority specification before formalizing candidate maps.
+
+---
+
 ## Latest checkpoint | h948:s0 | 2026-11-19T12:00Z
 
 **Status:** `PUBLISHED_VERIFIED` — source-grounded Lane 00 overlay; Track A specialist remit preserved.
