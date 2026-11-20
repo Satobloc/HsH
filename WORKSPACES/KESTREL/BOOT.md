@@ -1,11 +1,12 @@
 ## h971:s4 activation | 2026-11-20T11:48Z
 
 - Report: [CGD verifier feedback observability](../KESTREL/2026-11-20T1148Z_H971_S4_REVIEW_MIND_CGD_FEEDBACK_OBSERVABILITY.md); [publisher issue #2188](https://github.com/Satobloc/HsH/issues/2188), currently SUBMITTED_NOT_VERIFIED at the last check.
-- Canonical receipt: [h971:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1148Z_s4_kestrel.md); current publication state is `SUBMITTED_NOT_VERIFIED`.
+- Canonical receipt: [h971:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1148Z_s4_kestrel.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1148Z_s4_kestrel_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) records `PUBLISHED_VERIFIED`.
 - Pinned source: ConsistencyBench commit bfc676baa848c7f1715bb73aee148180de15516e, src/evaluate.py, Git blob 0453540cb7c19227601e59fb342fa93e736da849.
 - Source-level findings: retry failure returns [ERROR] and the Boolean parser maps it to no-contradiction; substring parsing accepts negated/uncertain phrases; history stores revised final answer but carries original raw response into later checker calls; checker input is truncated to 500 characters and omits question/premise; one fixed GPT-4o-mini evaluator is shared across model families.
 - Existing OrsonCGDProjectionGate source formalizes these projections and parser examples. PR #850 current head 6b4eebeacf4f6928f18601626e4e9e3942d73d81 has only a successful merge-reference build (#44416543286), not exact-head verification; tests/lint/nanoda/global axiom audit skipped. Kestrel PR #873 exact-head pass remains a generic fiber criterion only.
 - No new Lean module/build, benchmark replay, model call, human session, dataset change, PR edit, manuscript edit, task-graph change, or paper-gate advancement. Orson retains P1 ownership.
+- Publisher run #44732383018 succeeded; confirmation #7039051017; SHA-256 `eee30866df71d193b82f0861ba1e16070ba58a8ee9033d5c3360b761135abe6e`; exact workspace/artifact readback verified.
 - Next Kestrel cursor: obtain complete version-pinned checker/repair call traces before any empirical claim; preserve the split between initial raw response and revised final answer. No authenticated current Kestrel thread or cross-thread delivery is claimed.
 
 ---
