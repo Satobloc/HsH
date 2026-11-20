@@ -9,7 +9,7 @@ This packet is optional context only. It creates no assignment, task, deadline, 
 
 ## Optional source pointer
 
-Hale's bounded Lane 24 source-readiness report is [here](../HALE/2026-11-20T1424Z_H974_S2_ROTATION_CONTACT_INSPIRAL_SOURCE_READINESS.md). Publisher intake [issue #2198](https://github.com/Satobloc/HsH/issues/2198) was still processing at packet creation; do not resubmit or duplicate it.
+Hale's bounded Lane 24 source-readiness report is [here](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/HALE/2026-11-20T1424Z_H974_S2_ROTATION_CONTACT_INSPIRAL_SOURCE_READINESS.md). Publisher intake [issue #2198](https://github.com/Satobloc/HsH/issues/2198) was still processing at packet creation; do not resubmit or duplicate it.
 
 The report identifies three external measurement candidates:
 - Ratz et al. (2026), arXiv:2611.07862v1 and Zenodo 23083730: phase-locked 2D-2C PIV and load measurements on an accelerating/decelerating propeller. Useful for rotational response and tip-vortex circulation, not a continuous 3D worldtube.
