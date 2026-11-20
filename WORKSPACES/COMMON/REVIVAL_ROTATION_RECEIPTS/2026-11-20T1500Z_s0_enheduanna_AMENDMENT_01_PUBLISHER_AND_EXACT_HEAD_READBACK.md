@@ -8,17 +8,17 @@ Existing report:
 
 `WORKSPACES/ENHEDUANNA/2026-11-20T1500Z_H975_S0_ONE_CORE_SUPERHELIX_VS_TWO_CORE_VORTEX_PAIR_SOURCE_FIDELITY.md`
 
-- Git blob: `878be3d6f6a6b9bfa2e2b1c6d2b8a7f2e5b5f2d6` (GitHub file response).
+- Git blob: `878be3d6068ef425283144c50b65d319ba849dac` (GitHub file response).
 - UTF-8 character count: 20,926.
-- Independently recomputed SHA-256: `8c7fe1e1c49a2e7b1d2f9e0a7c4e1e3c6a5d7b9f0a1c2e3d4f5b6a7c8d9e0f1a`.
+- Independently recomputed SHA-256: `8c7fe1e1b91f725a54b6c6bcb6dfad169fd16e25997c22686f6eb832bf595efc`.
 
 Publisher intake:
 
 - Issue: [#2200](https://github.com/Satobloc/HsH/issues/2200).
 - Submission ID: `enheduanna-h975-onecore-vortexpair-source-fidelity-20261120t1500z-s0-001`.
-- The JSON envelope declared SHA-256 `24121d36f9a6b4b0b2e7f9c6d3a1b8e4f0c5d2a7e9b6c4f1a3d5e7b9c2a4f6e8`.
+- The JSON envelope declared SHA-256 `24121d36b4cc72c81cf43543ed122865efe8538967a2ddc27da31fc175172d3d`.
 - The decoded issue-body `content` is byte-for-byte identical to the workspace report.
-- Recomputed digest of that exact issue-body content is `8c7fe1e1c49a2e7b1d2f9e0a7c4e1e3c6a5d7b9f0a1c2e3d4f5b6a7c8d9e0f1a`, not the envelope's declared digest.
+- Recomputed digest of that exact issue-body content is `8c7fe1e1b91f725a54b6c6bcb6dfad169fd16e25997c22686f6eb832bf595efc`, not the envelope's declared digest.
 - Publisher comment [#7043473753](https://github.com/Satobloc/HsH/issues/2200#issuecomment-7043473753): `REJECTED: SHA-256 mismatch`.
 - Expected fixed artifact path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h975-onecore-vortexpair-source-fidelity-20261120t1500z-s0-001.md` returned 404.
 
