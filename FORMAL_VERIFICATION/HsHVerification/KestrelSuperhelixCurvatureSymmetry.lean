@@ -27,6 +27,41 @@ namespace HsHVerification.KestrelSuperhelixCurvature
 
 abbrev Index := Fin 4
 
+/-- Earlier three-axis hyperhelix form from the June 2025 SAT4D summary. -/
+def threeAxisHyperhelix
+    (λ A_x A_y A_z k_x k_y k_z φ_x φ_y φ_z : ℝ) :
+    ℝ × ℝ × ℝ × ℝ :=
+  (λ,
+    A_x * Real.sin (k_x * λ + φ_x),
+    A_y * Real.sin (k_y * λ + φ_y),
+    A_z * Real.sin (k_z * λ + φ_z))
+
+/-- The n = 3 coordinate-axis specialization of the later harmonic generator. -/
+def nthSuperhelixThreeMode
+    (λ l_f : ℝ) (n_x n_y n_z : ℕ) (φ_x φ_y φ_z : ℝ) :
+    ℝ × ℝ × ℝ × ℝ :=
+  (λ,
+    l_f * Real.sin ((2 * Real.pi * (n_x : ℝ) / l_f) * λ + φ_x),
+    l_f * Real.sin ((2 * Real.pi * (n_y : ℝ) / l_f) * λ + φ_y),
+    l_f * Real.sin ((2 * Real.pi * (n_z : ℝ) / l_f) * λ + φ_z))
+
+/--
+The later three-mode formula reduces to the earlier three-axis form only
+under the displayed amplitude and wavenumber identifications. This does not
+establish recursive nesting or an arbitrary-n extension.
+-/
+theorem nthSuperhelixThreeMode_is_special_case
+    (λ l_f A_x A_y A_z k_x k_y k_z φ_x φ_y φ_z : ℝ)
+    (n_x n_y n_z : ℕ)
+    (hA_x : A_x = l_f) (hA_y : A_y = l_f) (hA_z : A_z = l_f)
+    (hk_x : k_x = 2 * Real.pi * (n_x : ℝ) / l_f)
+    (hk_y : k_y = 2 * Real.pi * (n_y : ℝ) / l_f)
+    (hk_z : k_z = 2 * Real.pi * (n_z : ℝ) / l_f) :
+    threeAxisHyperhelix λ A_x A_y A_z k_x k_y k_z φ_x φ_y φ_z =
+      nthSuperhelixThreeMode λ l_f n_x n_y n_z φ_x φ_y φ_z := by
+  simp [threeAxisHyperhelix, nthSuperhelixThreeMode,
+    hA_x, hA_y, hA_z, hk_x, hk_y, hk_z]
+
 /-- Literal rank-four product appearing on the right-hand side of the source expression. -/
 def rawCandidate (a v : Index → ℝ) (i j k l : Index) : ℝ :=
   a i * a j * v k * v l
@@ -116,6 +151,7 @@ def basis0Rat : Index → ℚ := fun i => if i = 0 then 1 else 0
 
 #eval rawCandidateRat basis0Rat basis0Rat 0 0 0 0
 
+#print axioms nthSuperhelixThreeMode_is_special_case
 #print axioms rawCandidate_symmetric_first_pair
 #print axioms symmetric_and_antisymmetric_forces_zero
 #print axioms rawCandidate_zero_if_riemann_first_pair_antisymmetric
