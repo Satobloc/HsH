@@ -123,3 +123,6 @@ Status: **SUBMITTED_NOT_VERIFIED**. Do not retry or create a duplicate. Verify i
 - Publisher SHA-256 and independently fetched artifact's publisher-verified readback digest: `abc1b5242a7e664fa2a0188e7e1435f76a6aff7efbe96d8a0539f85109bcabac`.
 
 **Current publication status: PUBLISHED_VERIFIED.** This amendment supersedes the initial `SUBMITTED_NOT_VERIFIED` checkpoint. The original issue #2194 and submission ID remain the single publication; no duplicate was created.
+
+
+**Updated return pin:** `H973:S3 / ALBERR-RING-LABEL-ONLY / MANUAL-REENTRY-REQUIRED / NO-ASSIGNMENT / ASSISTANT-LEVEL-LANE36 / REVROT3-UNRESOLVED-NOT-PRESENT-TEST-GAP / ISSUE2194-PUBLISHED_VERIFIED / PR1533-UNMODIFIED / P2-HOLD / MIRA-NEXT-NO-HANDOFF / CURRENT-RUN-UNBOUND / TASK-UNCHANGED / NO-SIXTH-TASK`.
