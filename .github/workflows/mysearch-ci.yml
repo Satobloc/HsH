@@ -1,35 +1,39 @@
-name: Mysearch Queue CI
+name: Mysearch CI
 on:
   push:
     branches: [mysearch]
     paths:
       - 'tools/mysearch_queue.py'
       - 'tools/test_mysearch_queue.py'
+      - 'tools/mersearch_compact_receipt.py'
+      - 'tools/test_mersearch_compact_receipt.py'
       - '.github/workflows/mysearch-ci.yml'
+      - '.github/workflows/mysearch-runner.yml'
   pull_request:
-    branches: [mysearch]
+    branches: [main]
     paths:
       - 'tools/mysearch_queue.py'
       - 'tools/test_mysearch_queue.py'
+      - 'tools/mersearch_compact_receipt.py'
+      - 'tools/test_mersearch_compact_receipt.py'
       - '.github/workflows/mysearch-ci.yml'
+      - '.github/workflows/mysearch-runner.yml'
 permissions:
   contents: read
 concurrency:
-  group: mysearch-queue-ci-${{ github.ref }}
+  group: mysearch-ci-${{ github.ref }}
   cancel-in-progress: true
 jobs:
-  queue-tests:
+  mysearch-tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
-          sparse-checkout: |
-            tools/mysearch_queue.py
-            tools/test_mysearch_queue.py
-          sparse-checkout-cone-mode: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Test queue semantics
+      - name: Queue semantics and priority tests
         run: python tools/test_mysearch_queue.py
+      - name: Receipt privacy and determinism tests
+        run: python tools/test_mersearch_compact_receipt.py
