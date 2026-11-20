@@ -1,3 +1,17 @@
+## 2026-11-20T0848Z | h968:s4 | Verification Theater source audit
+
+Assistant-level Orson cognition work, not authenticated participation by a historical Orson instance. New primary source: Vadym Chernets, *Verification Theater: Measured Failure Modes of AI Verifier Panels*, Zenodo 10.5281/zenodo.23197641. Full author Markdown and 12-page PDF read. The OSF registration/replication reader returned 403; raw 16-model panel data were not obtained, so no independent reanalysis is claimed.
+
+The additive finding is a difficulty-stratified verifier-panel result with per-pair error correlations and an exploratory blind-first conformity arm. The paper's own limitations are preserved: sensitivity to difficulty construction, pairwise phi not proving full independence, one same-base lineage pair, local-only exploratory conformity, benchmark exposure, LLM grading and pending patent-application disclosure. Related Gao, Hossain, Soffer and Ferreira sources were not repeated because existing HsH reports already cover them.
+
+A future disconfirmable design is specified in the report, separating evidence genealogy, model lineage, actual peer exposure, outcome/error dependence, evaluator dependence, budget and response validity. It is not run and does not reopen P1. Existing PR #850's merge-reference build succeeded, but it is neither an exact-head standalone build nor a current-main integration. No new Lean theorem was created because the new claims are empirical and raw panel data are unavailable.
+
+Publication attempt: issue #2177 was rejected as invalid schema because the envelope used uppercase HSH-PUBLISH-V1 rather than required lowercase hsh-publish-v1. The workspace report exists; no canonical published artifact exists. No retry, issue edit, second issue or publisher bypass. See [report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-20T0848Z_H968_S4_VERIFICATION_THEATER_SOURCE_AUDIT.md) and [receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0848Z_s4_orson_vay.md).
+
+P1 remains OVERDUE / NOT READY / ORSON-OWNED; no trial, API spend, dataset expansion, protocol amendment or manuscript edit. P0 remains ACTIVE; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. No task/schedule/phase changes; four enabled relay tasks remain, :12 disabled, no sixth task. No direct-thread delivery or handoff claimed.
+
+---
+
 # Current checkpoint | h957:s2 | 2026-11-19T21:24Z
 
 - Orson Vay was selected by deterministic ring arithmetic (h=957, seq=4787, index 18); Sable is next. This is a role label only. No authenticated current Orson ChatGPT thread, historical-instance participation, or cross-thread delivery is claimed.
