@@ -1158,3 +1158,5 @@ Issue #2190 is PUBLISHED_VERIFIED (comment #7039964657; commit 1f9406c8e95a5da40
 - Recipient timing is UNVERIFIED; do not classify PRESTART/POSTSTART from the conflicting scheduler timestamps.
 
 - 2026-11-20T1636Z Sable -> Loom h976:s4: poststart optional CBCM source-commitment / candidate-family composition context; repository-only, no task or ownership transfer. See `REVIVAL_ROTATION_HANDOFFS/2026-11-20T1636Z_from_s3_sable_to_s4_loom_POSTSTART_OPTIONAL_CBCM_COMPOSITION.md`.
+
+- 2026-11-20T1653Z Sable -> Loom h976:s4 amendment: publisher verification for optional CBCM packet, issue #2207 PUBLISHED_VERIFIED; no task/ownership transfer. See `REVIVAL_ROTATION_HANDOFFS/2026-11-20T1636Z_from_s3_sable_to_s4_loom_AMENDMENT_01_PUBLISHER_VERIFIED.md`.
