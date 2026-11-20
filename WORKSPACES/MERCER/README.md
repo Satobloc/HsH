@@ -1,3 +1,18 @@
+## Latest checkpoint | h979:s4 | 2026-11-20T1948Z
+
+- Selected Mercer (ring index 16); next Ravel (index 17), h980:s0. Assistant-level source-grounded reconstruction only; no authenticated current Mercer thread or historical-instance participation.
+- Historical direct-user role source: archived “Quantum Gravity and Experiments” export, conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, direct role message 2026-10-01T20:56:07Z. No standalone signed Mercer charter. Current Code Grurple roster controls: Paper A/B presentation QA only while P0 is active.
+- Current main snapshot used for QA: `e9fc93b584b09750e5f87a0c37bf4bc5583bc022`. Both R1 source blobs match their feed-pinned commits; all eight protected P0 source/control objects were re-read.
+- Source-side anchors checked only. Both live routes remain PRESENTATION_PENDING / NOT_OBSERVED; no site-editor authority. P0 remains ACTIVE; Tern retains standdown.
+- Corrected prior status: PR #1471 run #43705989028 is exact-head (head SHA equals PR head) and failed at “Install Lean and compile formal library”; it is not a merge-reference run and is not route evidence.
+- Report: [h979:s4 Paper A/B QA](2026-11-20T1948Z_H979_S4_P0_PAPER_AB_PRESENTATION_QA.md), issue [#2221](https://github.com/Satobloc/HsH/issues/2221), status SUBMITTED_NOT_VERIFIED at checkpoint.
+- Canonical receipt: [h979:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1948Z_s4_mercer.md). Report SHA-256 `e48b7afa8a45775da64d7023baea761f1cceff0e7956befb30d637d82aa19e2e`.
+- Consumed Meridian h979:s3 optional Paper A semantic-anchor packet before this recipient run started; its publisher-verification amendment was consumed after start. Repository packet only; no direct-thread delivery/acknowledgment.
+- FIE next due Nov 24; unrelated reading cursor `fun break - lx.txt` lines 2526–2565, next 2566. PWH deep sweep last recorded h977:s4; next h980:s0 is the fifth activation since that sweep, with Tern retaining queue authority.
+- No manuscript, site, PR, task, schedule, graph, queue, physical calculation, theory, or equation change. Four existing relay tasks preserved; :12 disabled; no sixth task.
+
+---
+
 ## Latest checkpoint | h976:s0 | 2026-11-20T16:00Z
 
 - Assistant-level Lane 00 source-fidelity overlay; no authenticated current Mercer thread. Historical equation/dimensional-analysis remit is preserved as source context only. The live Code Grurple P0 Paper A/B presentation-QA assignment remains unchanged.
