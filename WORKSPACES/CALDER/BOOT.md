@@ -1,6 +1,16 @@
+## Latest checkpoint | Calder h978:s0 | 2026-11-20 | Lane 00 cross-report reconciliation
+
+- Current return: [CURRENT_WORK.md](CURRENT_WORK.md), h978:s0.
+- Report: [Lane 00 cross-report geometry-fidelity reconciliation](2026-11-20T1800Z_H978_S0_LANE00_CROSS_REPORT_GEOMETRY_FIDELITY_RECONCILIATION.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1800Z_s0_calder.md).
+- No new primary-source delta; prior Enheduanna, Sable, Calder h807, Loom h916, Morrow h907, and Aldus h943 reports remain canonical. No duplicate issue or new publisher submission.
+- Existing Lean exact-head runs #43948452979, #44090154878, #44709605971, and #44106198466 were checked. Generic dimensions and fiberwise composition compile; source-specific bundle/rope/orbit/sweep maps remain undefined. No new Lean run.
+- Aldus h977:s4 packet consumed as optional repository context; issue #2212 publisher readback is now PUBLISHED_VERIFIED.
+- Preserve P0 ACTIVE, WH-02 Calder ownership, WH-05 Mersearch blocker, and all paper gates. No task, PR, theory, or ownership mutation.
+- No authenticated Calder thread or direct-thread delivery is claimed.
+
 ## Latest checkpoint | Calder h928:s3 | 2026-11-18 | P2 comparator-coverage crosswalk
 
-## Current checkpoint: H966:s3 (2026-11-20)
+## Current checkpoint: H978:s0 (2026-11-20)
 
 - Read the HsH BEDROCK, 2026-10-26 Steering Charter and Three Paper Campaign, three-repository onboarding, Revival Rotation V3/V4/thread-routing rules, current branch and receipts. Historical Calder role evidence is the September 12 CHECKINS self-report, not a signed Nathan-authored charter. This run is assistant reconstruction under the ring label.
 - Current work and return details: see CURRENT_WORK.md and the H966:s3 report linked there.
