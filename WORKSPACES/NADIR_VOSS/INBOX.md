@@ -915,3 +915,11 @@ This is a current-state pointer, not a request to start work while P0 is active.
 - Canonical artifact: [Elias h970:s4 Morrow service-readback reconciliation](../COMMON/PUBLISHED_SUBMISSIONS/elias-h970-s4-morrow-service-readback-reconciliation-20261120t1048z-001.md), SHA-256 `aae0a2947bd78c3c3c1d352b3b134a185d44c6947e7cda7f962e463543ed223e`, artifact blob `11f84ba8756e2c49b7c85531e35fae798ad63cbd`.
 - [Packet Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1048Z_from_s4_elias_kern_to_h971s0_nadir_voss_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) records exact issue-envelope/workspace/artifact equality.
 - Original POSTSTART timing is unchanged. No direct-thread delivery, consumption, acknowledgment, task, response obligation, or ownership transfer is claimed.
+
+
+### ELIAS-H974-S3-TO-NADIR-H974-S4-TIMING-UNVERIFIED-OPTIONAL-ADAPTIVE-HOLDOUT-GATE
+
+- Optional repository-only context: [packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1436Z_from_s3_elias_kern_to_s4_nadir_voss_TIMING_UNVERIFIED_OPTIONAL_ADAPTIVE_HOLDOUT_GATE.md); [Elias report](../ELIAS_KERN/2026-11-20T1436Z_H974_S3_ADAPTIVE_CANDIDATE_FAMILY_HOLDOUT_EXPOSURE_GATE.md).
+- This is not a task, assignment, review request, response obligation, or ownership transfer. No direct-thread delivery, consumption, or acknowledgment is claimed.
+- Publisher issue #2197 was rejected for SHA-256 mismatch; no canonical public artifact exists and no retry/duplicate was created.
+- Timing is UNVERIFIED because the :48 scheduler's recorded h973:s4 completion timestamp is later than the automation runtime's stated current time. No PRESTART/POSTSTART classification is made.
