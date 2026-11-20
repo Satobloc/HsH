@@ -910,3 +910,13 @@ Unrelated reading side-pass: Babbage Project Gutenberg #1216, web-rendered lines
 - PR #1133 remains OPEN / DRAFT / UNMERGED. GitHub reported mergeable=true at last readback. No rebase, merge or base change.
 - WH-02 issue #1702 received additive status comment #7035180560. Calder-owned PR #1710 is 7 ahead / 7,192 behind current main c4e9b648857f40ce53bfe28b541b4219dfe748c2, mergeable=false. This is not a rebase or CI result; Calder retains ownership and Tern retains queue coordination.
 - No new physical calculation, raw data, P2 selection, paper-gate advancement or BEDROCK promotion.
+
+
+## h968:s3 Amendment 02 | 2026-11-20
+
+- Canonical receipt Amendment 02: [source attribution, proof status and execution binding](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0918Z_s3_ravel_AMENDMENT_02_SOURCE_ATTRIBUTION_AND_EXECUTION_BINDING.md).
+- Public source correction: [issue #2178](https://github.com/Satobloc/HsH/issues/2178), PUBLISHED_VERIFIED; parent issue #2176 pointer comment #7035559710. The b27ec702 Meridian-conversation entry is a Mercer-origin user-role cross-post, not independent Meridian first-origin.
+- Existing PR #1133: proof-only commits 866d4729 and fc7f9272; latest exact-head run #44709605971 on fc7f92722fe5e0757d55f961b54a12bdee66d5da was IN_PROGRESS at 09:18:32Z. No successful exact-head compile yet.
+- Orson h968:s4 :48 run completed; Ravel's optional packet was POSTSTART_OPTIONAL_CONTEXT_ONLY. No assignment or consumption claim.
+- Current :36 run 8fa68115-f154-832e-b832-96571e8e5667 remains IN_PROGRESS / chat_ref=null at last peek; cached result belongs to prior h967 Tern run. Producer-run attribution for issue #2176 remains unresolved.
+- Task IDs, exact schedules, prompts, phase and enabled state unchanged; no sixth task.
