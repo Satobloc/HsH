@@ -19,6 +19,6 @@ A direct Nathan request is never delayed to preserve another Mysearch user's pro
 
 ## Operational truthfulness
 
-An interrupt request is not the same as confirmed process termination. Status must distinguish \`INTERRUPT_REQUESTED\`, \`INTERRUPTED\`, \`HANDOFF_PENDING\`, \`HANDOFF_ACCEPTED\` and \`RUNNING\`. Mysearch must not claim the Nathan request has started until the previous worker has actually relinquished the execution slot.
+An interrupt request is not the same as confirmed process termination. Status must distinguish `INTERRUPT_REQUESTED`, `INTERRUPTED`, `HANDOFF_PENDING`, `HANDOFF_ACCEPTED` and `RUNNING`. Mysearch must not claim the Nathan request has started until the previous worker has actually relinquished the execution slot.
 
 --NM 20NOV26 [OWL]
