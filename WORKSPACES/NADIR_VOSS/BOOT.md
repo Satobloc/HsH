@@ -1,3 +1,14 @@
+## Latest operational pointer | H971:s0 | 2026-11-20T11:00Z
+
+- Start with [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1100Z_s0_nadir_voss.md).
+- Existing proof artifact: [issue #2187](https://github.com/Satobloc/HsH/issues/2187), PUBLISHED_VERIFIED.
+- Source-fidelity amendment: [moving-plane formalization scope](2026-11-20T1100Z_H971_S0_MOVING_PLANE_FORMALIZATION_SCOPE_AMENDMENT_01.md).
+- H952 publication status is superseded to PUBLISHED_VERIFIED by [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1100Z_s0_nadir_voss_AMENDMENT_01_H952_PUBLISHER_READBACK_VERIFIED.md).
+- Nadir remains an assistant-generated ring/workspace label; no authenticated current thread or standalone signed Nathan-authored specialist charter.
+- No new Lean run, physical calculation, CODATA, theory promotion, or automation mutation.
+
+---
+
 ## H959:s3 scheduler Amendment 02 | :48 status corrected
 
 - Active :48 task is `6aa6c3bc02b48191b8a91a30d2a155e0`, enabled, original hourly :48 schedule unchanged.
