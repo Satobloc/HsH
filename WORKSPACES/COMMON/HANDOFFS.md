@@ -11,7 +11,7 @@
 
 - The prior packet [from Enheduanna to Tern](REVIVAL_ROTATION_HANDOFFS/2026-11-19T2348Z_from_s4_enheduanna_to_s0_tern_POSTSTART_OPTIONAL_SNAPSHOT_LINEAGE_AND_NADIR_QC.md) used the wall-clock execution hour instead of the :48 run's scheduled_for time.
 - Correct selection is h958:s4 Aldus, next Calder. Do not consume the prior packet as a Tern handoff. Its file has been replaced with a superseded notice.
-- Tern h960:s0 had already started before the packet was created; whether it was read is unknown. No direct-thread delivery or acknowledgment is claimed.
+- Tern h960:s0 had already started before the packet was created. Its canonical receipt reports reading an older h956 Enheduanna packet, not this h959 packet; no evidence this superseded packet was consumed. No direct-thread delivery or acknowledgment is claimed.
 
 ---
 
