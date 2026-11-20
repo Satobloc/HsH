@@ -1,3 +1,7 @@
+## Post-write main/run-state clarification | h964:s2
+
+Latest verified main before this note: f54b085bc1957a208740e7d7956bff2ffb230644, exact with main ref. PR #2009 at that snapshot: main 1,607 ahead / PR 3 ahead; the three PR-touched paths remain identical to merge base. The four commits after Amendment 02 were documentation/continuity/inbox updates only. The :24 task remains enabled with its original hourly :24 schedule; inventory still shows last_run_time 03:32:12Z and does not expose this run's terminal state. See receipt Amendment 03.
+
 ## Final main and scheduler readback | h964:s2
 
 - Final main: 8ede7b04add8cc59148e308a69c6e56be7865b88; exact with main ref.
