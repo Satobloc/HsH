@@ -76,16 +76,21 @@ def submit(c, requester, lane, query, payload=None, request_id=None):
 def receipt(c,rid):
     r=c.execute("SELECT * FROM requests WHERE request_id=?",(rid,)).fetchone()
     if not r: raise KeyError(rid)
-    queued=c.execute("""SELECT request_id,lane,state,created_at_utc,updated_at_utc FROM requests
-      WHERE state='QUEUED' AND priority<=? ORDER BY priority,created_at_utc,request_id""",(r["priority"],)).fetchall() if r["state"]=="QUEUED" else []
+    queued=c.execute("""SELECT request_id,lane,state,created_at_utc,updated_at_utc,priority FROM requests
+      WHERE state='QUEUED' ORDER BY priority,created_at_utc,request_id""").fetchall() if r["state"]=="QUEUED" else []
+    predecessors=[]
+    for x in queued:
+        if x["request_id"]==rid: break
+        # Only work scheduled before this request is reported as ahead.
+        if x["priority"]<=r["priority"]: predecessors.append(x)
+    pos=len(predecessors)+1 if r["state"]=="QUEUED" else None
     rows=[dict(position=i+1,request_id=x["request_id"],lane=x["lane"],state=x["state"],
       submitted_at_utc=x["created_at_utc"],submitted_at_et=et(x["created_at_utc"]),
-      last_event_at_utc=x["updated_at_utc"],last_event_at_et=et(x["updated_at_utc"])) for i,x in enumerate(queued)]
-    pos=next((x["position"] for x in rows if x["request_id"]==rid),None)
+      last_event_at_utc=x["updated_at_utc"],last_event_at_et=et(x["updated_at_utc"])) for i,x in enumerate(predecessors)]
     last=c.execute("SELECT event_at_utc FROM events WHERE request_id=? ORDER BY event_id DESC LIMIT 1",(rid,)).fetchone()
     observed=now()
     return {"request_id":rid,"lane":r["lane"],"state":r["state"],"priority":r["priority"],
-      "position":pos,"ahead":max(0,pos-1) if pos else 0,"requests_in_schedule":rows,
+      "position":pos,"ahead":len(rows),"requests_ahead":rows,
       "submitted_at_utc":r["created_at_utc"],"submitted_at_et":et(r["created_at_utc"]),
       "last_event_at_utc":last[0] if last else r["updated_at_utc"],
       "last_event_at_et":et(last[0] if last else r["updated_at_utc"]),
