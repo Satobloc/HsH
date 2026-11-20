@@ -1162,3 +1162,12 @@ This is a one-run geometry overlay. The standing Meridian P0 Code Grurple assign
 - Existing PR #262 exact-head Lean build was reused as a formalization comparator. No new Lean module or build, physical calculation, CODATA scoring or theory promotion.
 - P0 Paper A presentation-support scope remains unchanged. No manuscript or site edits.
 - Next source cursor: recover the primary global Crullerverse / Klein Fabric topology relation, then type the 4D support, timesheet, intersection and self-connection maps before source-specific formalization.
+
+
+## h972 publisher verification | 20 November 2026
+
+- Publisher intake [#2192](https://github.com/Satobloc/HsH/issues/2192) is now **PUBLISHED_VERIFIED_BY_EXACT_ARTIFACT_READBACK**.
+- [Published artifact](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-self-connection-barygenesis-fidelity-20261120t1200z-001.md) exactly matches the issue-body content and the internal Meridian report.
+- SHA-256: bcf3f5869996093ae888ff13ec2fbc01320b734fbca8a66eb8c91d875219a618; 15,724 UTF-8 bytes.
+- [Receipt Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1200Z_s0_meridian_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) supersedes the initial pending status.
+- No duplicate issue or publisher retry. P0 presentation-support scope remains unchanged.
