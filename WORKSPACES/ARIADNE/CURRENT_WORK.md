@@ -1,3 +1,14 @@
+## Amendment 02 | final main and P0 readback | 2026-11-20
+
+- Final main: `55edbd3e7e070d23d3a32c850557b403d9538cef`; protected Code Grurple source/control objects remain 8/8 exact.
+- Current discovery blob: `6980bbf860c3ed46b88f8e6bcc857958fb15f8e1`, identified but unparsed. The previous 08:27Z parsed counts are not transferred.
+- PR #2009 final comparison: 3 ahead / 2,037 behind, mergeable=false; 3/3 touched paths unchanged since merge base; exact-head Actions=0, formal reviews=0. No rebase/merge.
+- P0 issue #1747 final status comment [#7040988934](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7040988934) exact readback; SHA-256 `f44ed3e790bd9ed8db2cc2779d30f48fe3c2c091afd22c7cd029bf310329b167`.
+- Publisher issue #2193 was rejected for `unexpected payload keys` because required `sha256` was omitted; artifact 404; no retry/duplicate. See [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1324Z_s2_ariadne_AMENDMENT_01_PUBLISHER_SCHEMA_REJECTION.md).
+- [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1324Z_s2_ariadne_AMENDMENT_02_FINAL_MAIN_AND_P0_READBACK.md) supersedes only final branch/PR/publication status. Original report/receipt remain immutable.
+
+---
+
 # Current checkpoint: h973:s2 | 2026-11-20T13:24Z
 
 **Run key:** REVROT3-19-20261011:973:s2  

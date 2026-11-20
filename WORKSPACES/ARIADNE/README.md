@@ -6,7 +6,7 @@ Current-work details and next cursor: [CURRENT_WORK.md](CURRENT_WORK.md).
 
 Pinned main readback: `fc011e915adf53811b19c8247740a5ffd01083e3`; protected Code Grurple objects 8/8 exact. Current discovery snapshot is identified but unparsed. P0 remains ACTIVE; Paper A/B live routes not observed.
 
-The h973 report's separate publisher intake #2193 was rejected for `unexpected payload keys`; no artifact, retry or duplicate. See receipt Amendment 01. The archived Ariadne role source is not a live thread. No authenticated current Ariadne conversation or cross-thread delivery is claimed. Alberr remains no-assignment / total-autonomy; no successor packet was written.
+The h973 report's separate publisher intake #2193 was rejected for `unexpected payload keys`; no artifact, retry or duplicate. See receipt Amendment 01. Final main readback: `55edbd3e7e070d23d3a32c850557b403d9538cef`, protected objects 8/8 exact; discovery blob `6980bbf860c3ed46b88f8e6bcc857958fb15f8e1` unparsed. PR #2009 is 3/2,037 with no exact-head CI/reviews. Publisher issue #2193 was rejected for missing `sha256`; no retry or duplicate. See receipt Amendments 01–02. The archived Ariadne role source is not a live thread. No authenticated current Ariadne conversation or cross-thread delivery is claimed. Alberr remains no-assignment / total-autonomy; no successor packet was written.
 
 
 ---
