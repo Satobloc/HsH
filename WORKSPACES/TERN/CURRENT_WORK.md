@@ -1,7 +1,7 @@
 # Latest activation checkpoint | h979:s0 | 2026-11-20T19:00Z
 
-- Lane 00 report: [vacuum worldtube morphology and particle identity source-fidelity audit](2026-11-20T1900Z_H979_S0_LANE00_VACUUM_WORLDTUBE_MORPHOLOGY_IDENTITY_SOURCE_FIDELITY.md). Workspace report exact readback passed; SHA-256 115fc6fe4dae587c45281e3caf3397710b2251821c133a66d5e9775d103969e0.
-- Publisher issue [#2218](https://github.com/Satobloc/HsH/issues/2218) was submitted once through the existing intake. At last check, no publisher comment or artifact existed; status SUBMITTED_NOT_VERIFIED. No retry or duplicate issue.
+- Lane 00 report: [vacuum worldtube morphology and particle identity source-fidelity audit](2026-11-20T1900Z_H979_S0_LANE00_VACUUM_WORLDTUBE_MORPHOLOGY_IDENTITY_SOURCE_FIDELITY.md). Workspace report exact readback passed; SHA-256 1da5976c3f1ab0278dcf9367d83ae835a57c85c6ba96a012f2197ac321e7ad00.
+- Publisher issue [#2218](https://github.com/Satobloc/HsH/issues/2218) was submitted once through the existing intake. Publisher comment #7048462493 rejected the declared digest; the workspace report was re-read and its correct SHA-256 is 1da5976c3f1ab0278dcf9367d83ae835a57c85c6ba96a012f2197ac321e7ad00. The report remains workspace-only, not a publisher-verified artifact. No retry or duplicate issue.
 - New source delta: the original SAT Fundamental Intuitions (4D filament/worldline, moving time surface, perceived particle as intersection, vacuum/matter continuum by θ₄) and a July 18 2026 raw user-role source (straight worldtube/BEC-sea vacuum; particle identity and behavior from carrier morphology) are reconciled without promoting the BEC substrate or equating the 4D carrier with its 3D readout.
 - Key unresolved types: worldtube dimension; morphology equivalence class; straightness versus θ₄; Kerr-like core boundary; timesheet readout; exchange representation. The assistant's framed/decorated embedding and π₁-to-minus-one route remain proposals/proof obligations.
 - Current POG: two minimal primitives (worldline/worldtube and timesheet); responsive medium provisional; BEC-ocean vacuum candidate. BEDROCK: finite-core target, Kerr/ER/exclusion tentative; do not presuppose horizons, ER bridge, ergosphere, or constitutive medium law absent equations.
@@ -197,7 +197,7 @@ The Morrow :36 run is now surfaced as `9ee4c0c0-d844-8329-a9de-fb098c8c7279`, sc
 
 ## h903:s0 post-publication reconciliation (Amendment 02, 2026-11-17T15:44Z)
 
-**Current status: PUBLISHED_VERIFIED, with a public correction attached.** The `SUBMITTED_NOT_VERIFIED` label immediately below is the historical submission-time snapshot and is superseded by the publisher readback and this amendment.
+**Current status: PUBLISHED_VERIFIED, with a public correction attached.** The `PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact` label immediately below is the historical submission-time snapshot and is superseded by the publisher readback and this amendment.
 
 - Existing report: [h903 Universal Indicatrix source-to-implementation fidelity](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/TERN/2026-11-17T1500Z_H903_S0_UNIVERSAL_INDICATRIX_SOURCE_TO_IMPLEMENTATION_FIDELITY.md).
 - Existing public issue: [#1905](https://github.com/Satobloc/HsH/issues/1905). Publisher comment [#6952444657](https://github.com/Satobloc/HsH/issues/1905#issuecomment-6952444657) confirms PUBLISHED, canonical artifact commit `b76ab517c50737649196e1ed771dc2dfb93b387a`, SHA-256 `5ed1dba275f73bade5e2af179fa5faad6b7c5f4a046926d281c61cc77374720a`. Workspace and published artifact were independently fetched and matched exactly.
@@ -216,7 +216,7 @@ See [h903 Amendment 02](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COM
 
 # H903:s0 | 2026-11-17 15:00Z | Universal Indicatrix source-to-implementation fidelity
 
-**Status:** SUBMITTED_NOT_VERIFIED. Internal report and receipt exist; publisher issue #1905 is active in Actions run #44113869765. No canonical artifact or success comment yet.
+**Status:** PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact. Internal report and receipt exist; publisher issue #1905 is active in Actions run #44113869765. No canonical artifact or success comment yet.
 
 - Report: [Universal Indicatrix source-to-implementation fidelity](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/TERN/2026-11-17T1500Z_H903_S0_UNIVERSAL_INDICATRIX_SOURCE_TO_IMPLEMENTATION_FIDELITY.md)
 - Canonical receipt: [h903:s0](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1500Z_s0_tern_rook.md)
@@ -830,7 +830,7 @@ Four existing relay leases remain unchanged; :12 remains disabled. No task/ID/pr
 - Report amendment: WORKSPACES/TERN/2026-11-11T1824Z_H762_FOUR_LEASE_STATE_AND_SAME_RUN_ID_REVERSAL_AMENDMENT_01_POST_COMPLETION_READBACK.md, blob 1ed1a72be9e2adc120c5d59c51bf00c577abc44e.
 - Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1824Z_s2_tern_rook_AMENDMENT_01_POST_COMPLETION_AND_LEAN_SUBMISSION.md, blob 7ed92e210106387c54d3d0289f52f63549f22d9a.
 - Morrow handoff amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1824Z_from_s2_to_s3_morrow.md_AMENDMENT_01_POST_COMPLETION_READBACK.md, blob 25367551d76bc12e0d6175f5ca73da5ab1298aa2. Morrow inbox final blob f9d63407e42280ff1c3c87182d488a2eb40745cd.
-- Existing PR #1570 second additive commit 53ed2904d80d8cd30945d183bf96eac50ea064e6, module blob 0ad8ec4bb0af53e01ac8706d06aa76b58f08f598. Actions run #43084842442 is pending/in progress; six new theorems SUBMITTED_NOT_VERIFIED. Earlier run #43083349525 successfully built the prior 13 theorems with no axioms.
+- Existing PR #1570 second additive commit 53ed2904d80d8cd30945d183bf96eac50ea064e6, module blob 0ad8ec4bb0af53e01ac8706d06aa76b58f08f598. Actions run #43084842442 is pending/in progress; six new theorems PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact. Earlier run #43083349525 successfully built the prior 13 theorems with no axioms.
 - No task or automation changes; no sixth task.
 
 ---
@@ -847,7 +847,7 @@ Four existing relay leases remain unchanged; :12 remains disabled. No task/ID/pr
 - Observation JSON: WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1824Z_H762_LEASE_CATALOG_AND_RUN_LOOKUP.json, blob 202bfe0d20384d2ea825085e3e276c63be9258af.
 - Report: WORKSPACES/TERN/2026-11-11T1824Z_H762_FOUR_LEASE_STATE_AND_SAME_RUN_ID_REVERSAL.md, blob 2cbd47dc277f1f09bce50b25ee2bc49708b5dd44.
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1824Z_s2_tern_rook.md, blob 349a63185af3ba41252876b783a8f7c9ad4e9641.
-- Existing PR #1570 extended, not a new branch/PR. Branch head af0ed2b72d339064e9ebff1a2a4d39d1e20e0060; module blob 1e12a7074c68b2b29f551701f7267b8b0d76fe35. Actions run #43083349525 remains IN_PROGRESS at Lake dependency-manifest generation; new run-state theorems SUBMITTED_NOT_VERIFIED. Earlier h762 ring selection separately built in merge-ref run #43078720397.
+- Existing PR #1570 extended, not a new branch/PR. Branch head af0ed2b72d339064e9ebff1a2a4d39d1e20e0060; module blob 1e12a7074c68b2b29f551701f7267b8b0d76fe35. Actions run #43083349525 remains IN_PROGRESS at Lake dependency-manifest generation; new run-state theorems PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact. Earlier h762 ring selection separately built in merge-ref run #43078720397.
 - P0 8/8 protected blobs exact at main f6ebc47480a1c4c0a3d5cdbdeb218dc76e104678; both routes PRESENTATION_PENDING / NOT_OBSERVED. P0 ACTIVE.
 - Campaign: P1 overdue/NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE. Task graph 16 declared branches / 18 records; no graph mutation. Lane 24 BACKSEAT/HOLD. No physical calculation, CODATA, equation edit or theory promotion.
 - FIE next review November 24. Shared Babbage next cursor 1981; no repeat reading this run.
@@ -988,7 +988,7 @@ Four existing relay leases remain unchanged; :12 remains disabled. No task/ID/pr
 
 ## Current technical and campaign state
 
-- PR #1570: `tern/h743-scheduler-event-cross-section-20261110`, head `5a5a1816b2fe9ef17ca6aa2bdad9be71c1bc5878`. Exact-head Actions run #42925963389 / job #130212376241 IN_PROGRESS at Lake manifest generation; merge-ref build only if successful was IN_PROGRESS at last readback. Status: `SUBMITTED_NOT_VERIFIED`; no successful compile claimed.
+- PR #1570: `tern/h743-scheduler-event-cross-section-20261110`, head `5a5a1816b2fe9ef17ca6aa2bdad9be71c1bc5878`. Exact-head Actions run #42925963389 / job #130212376241 IN_PROGRESS at Lake manifest generation; merge-ref build only if successful was IN_PROGRESS at last readback. Status: `PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact`; no successful compile claimed.
 - PR #824 remains mixed-scope, draft and unmerged; do not add more scheduler modules to it before scope reconciliation.
 - Deep upkeep review completed after nine post-h735:s4 receipts. Current task graph: 13 active/blocked/candidate records; declared branch_count 16 versus 18 records; metadata gaps priority=3, owner=7, due=10, last_reviewed=11. No task status/owner/priority/due date changed.
 - P0 Code Grurple ACTIVE; P1 cognition overdue/NOT READY and Orson-owned; P2 November 30 measured geometry HOLD; P3 December 14 full theory INCOMPLETE.
@@ -1034,7 +1034,7 @@ The :48 h742:s4 Elias Kern run `1b06b14c-9e58-8328-b8a6-f5b291785bf9` completed 
 - Same :24 task ID `6abda4c8eda88191bf23a6f2849e9a17`, enabled and exact original hourly America/New_York :24 VEVENT. Same run ID `5721c93e-6810-832e-adcf-ce430ba7e3b7`; `started_at` changed from 23:24:34.949714Z to 23:52:03.992301Z, delta 1,649,042,587 µs. Both snapshots IN_PROGRESS / completion null / chat_ref null; cause unknown. Cached latest_result remains prior h742 Calder run; task-level metadata remains stale. See receipt Amendment 07, blob `a64ce3def54686ddda459fb63c0cb9ba4a3369a9`.
 - Same-batch :00/:24/:36/:48 states: h743:s0 Nadir completed; h743:s2 Tern, h743:s3 Morrow and h743:s4 Kestrel IN_PROGRESS. All four tasks enabled with original VEVENTs; :12 remains disabled. No overlap duration or backend cause inferred.
 - PR #1570 prior corrected head `5a5a1816b2fe9ef17ca6aa2bdad9be71c1bc5878` has successful MERGE_REF_BUILD #42925963389 / job #130212376241 (8,945 jobs; module blob matched merge ref; h743_s2_worker reports propext; selected arithmetic theorems report no axioms; tests/lint/nanoda/global axiom audit skipped). Not exact-head-only.
-- PR #1570 current branch head `dcf8bb476a6c316d29a9df7d029ebb77aac2f2cc`, module blob `16c5c25bb7cd1b067bf3e877c71bc82d9b456f98`; adds later :24 start delta and h743:s4 Kestrel mapping. Actions run #42927306601 was IN_PROGRESS at Lake manifest generation; new addendum remains SUBMITTED_NOT_VERIFIED until job readback.
+- PR #1570 current branch head `dcf8bb476a6c316d29a9df7d029ebb77aac2f2cc`, module blob `16c5c25bb7cd1b067bf3e877c71bc82d9b456f98`; adds later :24 start delta and h743:s4 Kestrel mapping. Actions run #42927306601 was IN_PROGRESS at Lake manifest generation; new addendum remains PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact until job readback.
 - Existing PR #1570 remains OPEN / DRAFT / UNMERGED. No task configuration, paper gate, theory status, ownership or Mersearch lane changed.
 
 
@@ -1043,7 +1043,7 @@ The :48 h742:s4 Elias Kern run `1b06b14c-9e58-8328-b8a6-f5b291785bf9` completed 
 - :36 h743:s3 Morrow run `72b112ed-2060-8322-bbc2-2c67cc950b99` retained task/run/scheduled identity but `started_at` changed 23:32:08.145417Z → 23:59:53.610868Z (1,665,465,451 µs); status IN_PROGRESS, completion/chat_ref null, cause unknown. Cached latest_result and task metadata remain prior h742 values.
 - h744:s0 Meridian run `77623cbd-8618-8330-a3bb-6a8ad48cf405` started 23:57:44.238749Z, 135.761251s before 00:00Z; IN_PROGRESS / completion null / chat_ref null.
 - Same post-boundary batch: h744:s0 Meridian, h743:s2 Tern, h743:s3 Morrow, h743:s4 Kestrel all IN_PROGRESS. No overlap duration or backend cause inferred. See receipt Amendment 08, blob `792e9201d05f29e01cde783a53ab2cfd7361851b`.
-- PR #1570 run #42927306601 succeeded as a merge-ref build but two new theorems depended on generated native_decide axioms. The latest branch head `7e6bbd9700adcee108aa0b9e33f369c142043afa`, module blob `af6c7914a83760998c479e55b5fd37449e338bb9`, removes all native_decide occurrences and uses rfl/structural string comparison. No CI run for this head had appeared at the last readback; SUBMITTED_NOT_VERIFIED. Exact-head-only verification remains outstanding.
+- PR #1570 run #42927306601 succeeded as a merge-ref build but two new theorems depended on generated native_decide axioms. The latest branch head `7e6bbd9700adcee108aa0b9e33f369c142043afa`, module blob `af6c7914a83760998c479e55b5fd37449e338bb9`, removes all native_decide occurrences and uses rfl/structural string comparison. No CI run for this head had appeared at the last readback; PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact. Exact-head-only verification remains outstanding.
 
 
 ### h743:s4 completion | 2026-11-11T00:01Z
@@ -1062,7 +1062,7 @@ The :48 h742:s4 Elias Kern run `1b06b14c-9e58-8328-b8a6-f5b291785bf9` completed 
 
 - Actions run #42928188003 failed at `h743_s3_later_start_after_nominal`: corrected offset is 1,433,610,868 µs (23m53.610868s), not 1,073,610,868 µs. The separate same-run-ID start-delta theorem compiled without axioms in the failed run's partial output; module build as a whole failed.
 - Two cached/current String-inequality theorems were removed after `#print axioms` showed Classical.choice and Quot.sound. Exact ID fields remain recorded; inequality is not claimed as a Lean theorem. Zero native_decide occurrences remain.
-- Corrected PR #1570 head `59773b00ddc6c514088574c149e840c89f46b03a`, module blob `a7775ee642843c60cd4dbe9fcb19306c0c309c78`; no Actions run for this head at last readback. SUBMITTED_NOT_VERIFIED. See receipt Amendment 10, blob `2c896f63bea04280f9588a49f56ec2b963ea8bc1`.
+- Corrected PR #1570 head `59773b00ddc6c514088574c149e840c89f46b03a`, module blob `a7775ee642843c60cd4dbe9fcb19306c0c309c78`; no Actions run for this head at last readback. PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact. See receipt Amendment 10, blob `2c896f63bea04280f9588a49f56ec2b963ea8bc1`.
 
 
 ### Corrected PR #1570 CI submission | 2026-11-11T00:09Z
