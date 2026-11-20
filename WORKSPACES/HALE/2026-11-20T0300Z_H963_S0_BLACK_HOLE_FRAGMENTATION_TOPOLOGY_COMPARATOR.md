@@ -18,7 +18,7 @@ The November 8 direct-user source distinguishes:
 
 The pasted popular-press item is treated as a discovery lead, not as Nathan-authored geometry or the mathematical authority. The peer-reviewed article and the authors' university release are the external sources used here.
 
-## 2. External paper recovered
+Hale's historical remit is evidenced by the September 12 check-in and the REV-006 re-entry packet: external literature scanning, matched-period comparisons, calibration and null-model analysis. No standalone signed Nathan-authored specialist charter was recovered. This run uses that literature-scanning specialty in support of Lane 00; it does not claim a new worker assignment.\n\n## 2. External paper recovered
 
 Giacomo Cacciapaglia, Manuel Del Piano, Francesco Sannino and Vania Vellucci, **“When Black Holes Admit Pair-of-pants Topologies,”** *Physical Review D* 114, 084072 (2026), DOI [10.1103/cx69-t466](https://doi.org/10.1103/cx69-t466).
 
@@ -156,12 +156,12 @@ Both originals were re-fetched in this run. Their Git blobs and independently re
 
 Verbatim core equations:
 
-```text
-gamma^mu(lambda) = (lambda, A_x sin(k_x lambda + phi_x), A_y sin(k_y lambda + phi_y), A_z sin(k_z lambda + phi_z))
-v^mu(lambda) = d gamma^mu / d lambda
-S[gamma] = integral d lambda L(gamma^mu, v^mu)
-L = 1/2 m v^mu v_mu - V_tension(gamma)
-phi_i - phi_j = 2 pi k/n
+```latex
+\\gamma^\\mu(\\lambda) = \\left( \\lambda, A_x \\sin(k_x \\lambda + \\phi_x), A_y \\sin(k_y \\lambda + \\phi_y), A_z \\sin(k_z \\lambda + \\phi_z) \\right)
+v^\\mu(\\lambda) = \\frac{d \\gamma^\\mu}{d \\lambda}
+S[\\gamma] = \\int d\\lambda \\, L(\\gamma^\\mu, v^\\mu)
+L = \\frac{1}{2} m v^\\mu v_\\mu - V_{\\text{tension}}(\\gamma)
+\\phi_i - \\phi_j = \\frac{2\\pi k}{n}
 ```
 
 ### Blockwave
@@ -176,11 +176,11 @@ phi_i - phi_j = 2 pi k/n
 
 Verbatim core equations:
 
-```text
-J^{mu nu}, nabla_mu J^{mu nu}=0
-J^{mu nu} = 1/2 epsilon^{mu nu rho sigma} nabla_rho B_sigma
-F_{mu nu}(theta) := nabla_[mu A_{nu]}(theta)
-A_mu(theta) := alpha_* nabla_mu theta
+```latex
+J^{\\mu\\nu}, \\nabla_\\mu J^{\\mu\\nu}=0.
+J^{\\mu\\nu} = \\tfrac12 \\epsilon^{\\mu\\nu\\rho\\sigma} \\nabla_\\rho B_\\sigma
+F_{\\mu\\nu}(\\theta)\\equiv \\nabla_{[\\mu}A_{\\nu]}(\\theta)
+A_\\mu(\\theta)\\equiv \\alpha_*\\nabla_\\mu\\theta
 ```
 
 **Corrected SAT-O1 equations: none. Corrected Blockwave equations: none.** Neither original was edited or silently normalized; malformed source tokens remain part of the preserved original.
