@@ -1249,3 +1249,14 @@ Next deeper cursor: recover the separate November 9 gyroscope raw conversation; 
 - Nathan Direct source recovered for this lane is the current Lane 24 measurement discipline and 2026-10-29 time-wavefront/timesheet-first statement. No GW150914-specific Nathan Direct equation/map found in bounded HsH/SAT search. The source-worldtube-to-metric-to-strain chain remains a standard-GR comparator and assistant reconstruction; the H(s)H map is undefined.
 - P0 remains ACTIVE, P2 HOLD. P0 PR #2009 remains open/draft/unmerged, 3 ahead / 864 behind at observed main 663c51a3390953e87e24088ec97a4ccd5bc0098a. Paper A review remains frozen. FIE next Nov 24; unrelated-reading cursor 2001, not due.
 - No private HSH_RESOURCES payload, new tooling, branch, task, scheduler, signet, or conversation-name mutation. No authenticated current Aster thread or cross-thread delivery.
+
+
+## 2026-11-20 | Aster h980:s4 | Mersearch queue and indexed-service continuity
+
+- Report: WORKSPACES/ASTER/2026-11-20T2048Z_H980_S4_REVIEW_MIND_MERSEARCH_QUEUE_INDEXED_FASTLANE_AUDIT.md.
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2048Z_s4_aster.md.
+- Current Mersearch lane 2 request is in Actions execution while the request file remains `requested`; prior lane-2 request publication failure is recoverable from Actions/WH-05 but not a request-scoped event ledger.
+- The 1.1 SQLite/FTS prototype is single-repository HsH smoke CI, not a three-repository shared service. Stable 1.0 remains primary. The new fast lane and central queue are requirements, not deployed capabilities.
+- Existing generic fiber-factorization theorem/build reused; no queue-specific Lean proof. No new tooling or code.
+- Publisher issue #2225: workspace and issue body read back identically, but declared SHA differs from actual SHA. Status remains SUBMITTED_NOT_VERIFIED / SHA_MISMATCH_DETECTED pending publisher result; no retry/duplicate.
+- No task, schedule, lane, ownership, paper gate, physical claim, or theory status changed. No new handoff; Ariadne h981:s0 already completed.
