@@ -88,11 +88,51 @@ S[\gamma]=\int d^4x\,\sqrt{-g(\gamma)}
 \right).
 \]
 
-The sector definitions include an Einstein-Hilbert plus \(R^2\) term, a scalar \(\theta\) sector, a unit-vector \(u^\mu\) sector, a three-form current \(J\), and an interaction kernel \(M\) with a coupling \(F\).
+The source spells out the sectors as follows:
 
-The source also gives \(m_\psi=Q/l_f^2\) and \(m_{\rm composite}=1/(Q l_f^2)\).
+\[
+\mathcal L_{\rm Gravity}=
+\frac{1}{16\pi l_f^2}R+
+\frac{1}{16\pi l_f^2}\frac{2}{6\pi}R^2
+\]
 
-This report does not repeat the dimensional audit already present in Mercer/Meridian work. It also does not treat the action as a validated physical model.
+\[
+\theta(\lambda)=\arctan\frac{v^y(\lambda)}{v^x(\lambda)},\qquad
+\nabla_\mu\theta=
+\frac{d\theta}{d\lambda}\frac{\partial\lambda}{\partial x^\mu},
+\qquad
+\mathcal L_\theta=
+\frac12(\nabla\theta)^2-\frac{1}{l_f^4}(1-\cos\theta)
+\]
+
+\[
+u^\mu=\frac{v^\mu}{|v|},\qquad
+P_{\mu\nu}=g_{\mu\nu}+u_\mu u_\nu
+\]
+
+\[
+\mathcal L_u=
+\frac12P^{\alpha\beta}P^{\mu\nu}
+(\nabla_\alpha u_\mu)(\nabla_\beta u_\nu)
++\frac12(\nabla_\mu u^\mu)^2
++\frac{1}{l_f^2}(u^\mu u_\mu+1)
+\]
+
+\[
+J_{\mu\nu\rho}(\lambda)\sim
+\epsilon_{\alpha\beta\gamma\delta}
+v^\alpha a^\beta b^\gamma\ldots,\qquad
+\mathcal L_J=\frac14J^2+\frac{l_f^2}{4}(\nabla J)^2
+\]
+
+\[
+\mathcal L_{\rm Int}=\frac12 JMJ+\frac12 FJ.
+\]
+
+The stated mass mapping is \(m_\psi=Q/l_f^2\) for point particles and
+\(m_{\rm composite}=1/(Q l_f^2)\). The source says the only dimensionful scale is \(l_f\) and all couplings are dimensionless.
+
+This report does not repeat the dimensional audit already present in Mercer/Meridian work. It also does not treat the action as a validated physical model. The displayed \(\partial\lambda/\partial x^\mu\), the ensemble, the three-form ellipsis, and the M/F tensors are not fully defined.
 
 ## 3. User-role repeat, authorship still unresolved
 
@@ -130,7 +170,11 @@ A_z\sin(k_z\lambda+\phi_z)
 \right).
 \]
 
-The draft describes a filament as a smooth one-dimensional curve in four-dimensional spacetime and a worldtube as the four-dimensional volume swept by a vibrating filament. It is the cleaner earlier baseline, while the Nth-order harmonic sum is a later generalization whose exact authorial lineage remains unresolved.
+The draft describes a filament as a smooth one-dimensional curve in four-dimensional spacetime and a worldtube as the four-dimensional volume swept by a vibrating filament. It is the cleaner earlier baseline.
+
+The later n=3 coordinate-axis formula reduces to this earlier three-axis form only under the parameter identifications \(A_x=A_y=A_z=l_f\) and \(k_i=2\pi n_i/l_f\), with phases matched. These conditions restrict the earlier independent amplitudes and wavenumbers. The relation is a special-case parameter map, not evidence that the later expression is a generalization in every degree of freedom.
+
+The Nth-order expression is a sum of harmonics. It does not by itself define recursive self-nesting, a scale ratio, or a composition map. The June 23 nested-structure interpretation therefore remains a separate condition to be formalized, not an automatic consequence of the harmonic sum.
 
 ## 5. Explicit map contract
 
@@ -172,7 +216,13 @@ The new module formalizes the literal product \(a_i a_j v_k v_l\) and its finite
 
 This is conditional algebra, not a proof that the complete action is inconsistent. The source uses a schematic \(\sim\), so an omitted antisymmetrizing projection or different index structure remains possible and must be stated rather than assumed.
 
-Status: LEAN_UNTESTED. PR #2143 is draft and unmerged, based on the existing infra/lean4-verification-20261023 branch. No workflow run was returned for its head, and the local runtime has no lean, lake, or elan. The workflow file is on the infrastructure branch, not default main, and no manual dispatch action is available in this execution. No compile or actual evaluation is claimed. No Factory Floor handoff is eligible until a successful exact-head run and review.
+Status: FIRST_HEAD_COMPILED / CURRENT_HEAD_IN_PROGRESS. PR #2143 is draft and unmerged, based on the existing infra/lean4-verification-20261023 branch.
+
+- Initial head 8ee0d01ee27274ef94b2fffe704d73b60957bc62 passed exact-head CI run #44648094755, job #135995753257, using Lean 4.34.0 and Mathlib commit 5ed2965256430c3649e86755f9576b54eca72435. The module compiled and its theorem-specific axiom reports showed propext, Classical.choice, and Quot.sound.
+- The first executable witness used Real. Lean executed it, but the output was an opaque Real.ofCauchy representation rather than a readable numeral. The theorem statements were unchanged; the witness was changed to Rational.
+- Intermediate head 41cde6e8fc4b17c88e6e739ab2043a16021f59e2 was cancelled when a newer commit arrived before checkout. It has no compile result.
+- Current head 9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2 adds the rational executable witness and the n=3 special-case parameter map. Exact-head run #44649028244 was in progress at last observation; no conclusion is yet claimed.
+- The local runtime has no lean, lake, or elan. No Factory Floor handoff is eligible until the current exact head succeeds and receives independent review.
 
 ## 7. Non-duplication and responsibility boundaries
 
