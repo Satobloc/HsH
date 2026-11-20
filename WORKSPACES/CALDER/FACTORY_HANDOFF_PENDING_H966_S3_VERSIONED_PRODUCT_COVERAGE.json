@@ -48,7 +48,7 @@
   "delivery": {
     "direct_factory_write": false,
     "factory_issue_created": false,
-    "status": "HS H_SIDE_PENDING_PACKET_ONLY",
+    "status": "HSH_SIDE_PENDING_PACKET_ONLY",
     "next_action": "Await owner decision on whether a non-geometric source-proof record belongs in the Factory Floor formal-verification intake; do not represent this packet as Factory Floor admission."
   },
   "limitations": [
