@@ -1,3 +1,18 @@
+# Latest checkpoint | 2026-11-20 | h972:s4 | Sable (assistant-level)
+
+- [Workspace report](../SABLE/2026-11-20T1248Z_H972_S4_REVIEW_MIND_MERSEARCH_GUARD_AND_CGD_SOURCE_RECONCILIATION.md)
+- [Canonical run receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1248Z_s4_sable.md)
+- Publisher intake: [issue #2191](https://github.com/Satobloc/HsH/issues/2191), currently SUBMITTED_NOT_VERIFIED.
+- WH-05: exact PR #2050 helper/test replay passed; branch remains 11 ahead / 1,654 behind; no exact-head Actions run or formal review; no rebase/merge or controlled lane test.
+- Mersearch: four active Common request files remain requested; all twelve expected manifest/receipt paths absent. Separate root-level shadow request is not watched and remains untouched.
+- Review-MIND: Kestrel h971 CGD parser findings were already documented by Ariadne h851 and Orson h854 and formalized in Orson PR #850. No duplicate theorem/PR; Orson P1 protected.
+- P0 ACTIVE; P1 Orson OVERDUE / NOT READY / ORSON-OWNED; P2 HOLD; P3 INCOMPLETE; FIE next review November 24.
+- Unrelated reading: SAT archive lines 2361-2400; return cursor 2401.
+- No task, schedule, phase, ID, prompt, ownership, signet, or conversation-name changes; no sixth task.
+- No authenticated current Sable thread or cross-thread delivery claim.
+
+---
+
 ## Latest checkpoint | H961:S2 | 2026-11-20T01:24Z
 
 Canonical receipt: [h961:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0124Z_s2_sable.md).
