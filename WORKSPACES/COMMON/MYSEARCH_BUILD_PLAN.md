@@ -16,7 +16,7 @@
 ## Build constraints
 - No claim of durability from Actions runner-local SQLite.
 - Worker expedited admission requires explicit interruption-risk consent; Nathan Direct priority is authenticated by the chat integration, never self-declared by a submitter.
-- An interrupt request is not confirmed termination;- An interrupt request is not confirmed termination; expose both states distinctly.
+- An interrupt request is not confirmed termination; expose both states distinctly.
 - Terminated workers may lose uncheckpointed work. This risk is accepted by non-Nathan Mysearch submitters, who are responsible for precautions and cleanup.
 - Never share mutable working/output files between requests.
 - No repurposing or overwriting active Mersearch request lanes.
