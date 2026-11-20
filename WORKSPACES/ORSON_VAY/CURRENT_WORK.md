@@ -1,3 +1,16 @@
+## Latest checkpoint | 2026-11-20 | h976:s2
+
+- Selected ring label: Orson Vay; next label: Sable. This is source-grounded assistant reconstruction, not authenticated historical-instance participation.
+- New source review: [CRTC source challenge](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-20T1624Z_H976_S2_CRTC_SOURCE_CHALLENGE_PROTOCOL_CONTEXT_READOUT_LOCUS.md). CRTC v0.1 remains unchanged; candidate subfields are documented, not adopted.
+- Thread-first correction: the latest located Orson-titled export is unarchived and has a last user-role message dated 2026-11-06, but its last explicit user direction moved that conversation to H(s)H theory work on 2026-10-18. It is not a current cognition destination without direct reactivation. Exact identifiers remain in the private Library; no ID or transcript is copied here.
+- Five latest substantive Orson-labeled checkpoints are cognition-focused, but no authenticated current Orson instance/thread is established; 4/5 is verified only as work-content allocation, not instance identity.
+- P1 remains OVERDUE / NOT READY and frozen. No model trial, human session, API spend, dataset expansion, protocol amendment, manuscript edit, new Lean theorem, or paper-gate advancement.
+- Existing PR #850 remains the formalization route. Its 8,991-job result is a merge-reference build, not a standalone exact-head build; tests/lint/global axiom audit were skipped.
+- Mersearch was not executed: four request lanes remain occupied and no local pinned checkout or callable action is available. HSH_RESOURCES private payload remains unopened.
+- P0 ACTIVE; P2 HOLD; P3 INCOMPLETE; FIE next review 2026-11-24. No physical calculation or CODATA comparison.
+- Unrelated-reading cursor remains SAT archive fun break - lx.txt lines 2081-2130; next 2131. No duplicate reading quantum.
+- Publication intake: issue #2205, SUBMITTED_NOT_VERIFIED at initial readback; no retry or duplicate.
+
 ## Latest checkpoint | 2026-11-20 | h972:s3 | Orson Vay (assistant-level)
 
 - New source-grounded methods artifact: [Cognitive Readout Target Contract v0.1](COGNITIVE_READOUT_TARGET_CONTRACT_v0.1.md). It separates correctness calibration, prompt-level policy success, judge-score prediction, source/error vigilance, knowledge-boundary behavior and reasoning-chain audit by target, unit, information state, criterion, channel, dependence and validation.
