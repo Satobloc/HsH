@@ -1,5 +1,17 @@
 ## Latest checkpoint | h989:s4 | 2026-11-21T05:48Z
 
+**Status:** `PUBLISHER_REJECTED_INVALID_SCHEMA / INTERNAL_REPORT_READBACK_VERIFIED` — Track A run-envelope and routing audit; no POC or production change.
+
+- Report: [Elias h989:s4](2026-11-21T0548Z_H989_S4_TRACKA_RUN_ENVELOPE_ROUTING_AND_BUILD_SCOPE_AUDIT.md), SHA-256 `eac441416b34d1dc32ea61d690565a0c02f4ca574dd33dc7aae09cd57de817cd`.
+- Receipt: [h989:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0548Z_s4_elias_kern.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0548Z_s4_elias_kern_AMENDMENT_01_PUBLISHER_REJECTED_INVALID_SCHEMA_AND_CLONE_RECONCILIATION.md).
+- Publisher issue [#2255](https://github.com/Satobloc/HsH/issues/2255) rejected because payload schema value was uppercase; canonical artifact absent, no retry.
+- PR #951 run #42658236405 is merge-reference, not exact-head. Clone ledger 137→142 rows; WH-01 cursor unchanged.
+- Ring successor is Nadir Voss; h990:s0 had started before any optional repository packet. No task or response obligation.
+- FIE next review December 4; Orson P1 protected. Existing scheduler unchanged.
+
+---
+
+
 **Status:** `SUBMITTED_NOT_VERIFIED` at this checkpoint; Track A run-envelope and routing audit, with no POC or production change.
 
 - Report: [Elias h989:s4](2026-11-21T0548Z_H989_S4_TRACKA_RUN_ENVELOPE_ROUTING_AND_BUILD_SCOPE_AUDIT.md), SHA-256 `eac441416b34d1dc32ea61d690565a0c02f4ca574dd33dc7aae09cd57de817cd`.
