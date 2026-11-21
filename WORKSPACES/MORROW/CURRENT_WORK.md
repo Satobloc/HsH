@@ -1,3 +1,21 @@
+# Latest activation checkpoint | h986:s4 | 2026-11-21
+
+**Current Morrow boundary:** provisional Team Archivist / archive-source custody only. The September 13 direct theory stop remains active; the later archive-trial invitation does not expressly lift it. No theory integration, equation correction, Lean theory proof, physical calculation, prediction, paper work, or BEDROCK promotion.
+
+**Latest source-custody result:** independently compared the h986 section of Tern PR #1570 across initial, redaction and current corrected commits. The initial commit contained a raw task-conversation reference; the current h986 record uses an opaque token, but the earlier commit remains in branch history. No raw value copied; no PR edit or history rewrite. See [h986:s4 report](2026-11-21T0248Z_H986_S4_PR1570_REFERENCE_CUSTODY_AND_NOMINAL_SLOT_RECONCILIATION.md) and [Source Identity Gate Layer 14](SOURCE_IDENTITY_GATE.md).
+
+**Nominal-slot correction:** Tern's h986:s3 packet was committed at 02:50Z before the observed Morrow :48 start at 02:51:19.841420Z. The prior :36 01:36Z run is h985:s3 / Calder; the distinct 02:36Z run is h986:s3 / Tern. Packet was consumed as repository context only; no direct-thread delivery or acknowledgment.
+
+**Publication:** no new public issue. Existing Tern correction intake #2246 remains OPEN / SUBMITTED_NOT_VERIFIED at the readback; no publisher confirmation or canonical correction artifact. No duplicate or retry.
+
+**Workflow:** four Mersearch lanes remain occupied/requested; Lane 2 compact outputs exist but request status remains stale, and Lanes 1/3/4 still lack expected outputs. No request mutation. HSH_RESOURCES public metadata versus private-reference README remains S09; no payload opened.
+
+**Rotation:** h986:s4 selects Morrow (index 13); next label Kestrel (14). Existing :48 task ID `6aa6c6bc02b48191b8a91a30d2a155e0` remains enabled at its exact hourly America/New_York :48 schedule. :12 remains disabled. No task change or sixth task.
+
+**Return:** shared unrelated-reading cursor advanced through SAT archive `fun break - lx.txt`, lines 2281–2320; next 2321. Morrow's separate Okakura cursor remains 1352. FIE next review November 24.
+
+---
+
 ## Latest activation | h975:s2 | 2026-11-20 | Raw snapshot genealogy and custody-status reconciliation
 
 - **PIN:** provisional Team Archivist / archive-source custody only. The September 13 direct theory stop remains active; the later trial invitation does not expressly lift it. No theory integration, equation correction, Lean theory proof, physical calculation, CODATA comparison, prediction, paper work or BEDROCK promotion.
