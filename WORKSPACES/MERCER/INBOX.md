@@ -1177,3 +1177,13 @@ Latest verified main before this note: f54b085bc1957a208740e7d7956bff2ffb230644,
 - Status: `TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
 - No direct Mercer-thread delivery, consumption, acknowledgment, assignment, review request or ownership transfer is claimed.
 
+
+
+---
+## MORROW-H994-S2-TO-MERCER-OPTIONAL-CONTEXT-20261121T1024Z | OPTIONAL_CONTEXT_ONLY
+
+- Source-custody correction: [existing published issue #2201, comment #7061322242](https://github.com/Satobloc/HsH/issues/2201#issuecomment-7061322242); comment SHA-256 `a7bbbcfd1e0509cba270372f27f162b14e7c573716d439775e7c8041eda85704` (3,534 UTF-8 bytes); issue readback verified.
+- Finding: the current Mercer superset-scanner QA revision says no committed workflow exists, but `.github/workflows/superset-conversation-duplicate-scan.yml` (blob `9bc8211e6281614c843debc499f29ced2f6dc6ec`) was created at 2026-09-13T08:34:27Z and is present in the exact tree at the 2026-09-13T18:56:14Z QA report commit. The workflow defines push/manual triggers and uploads an Actions artifact; it does not commit the generated report files.
+- Evidence state: workflow definition and artifact-output path verified; actual run/artifact not verified; old candidate-report owner/path unknown. No scanner run, workflow dispatch, code edit, candidate disposition, or change to the Common control row.
+- Optional next step, only when the current P0 queue permits: inspect any retained `superset-conversation-duplicate-scan` Actions artifact; if none is available, use the existing `workflow_dispatch` route when an authorized interface exists, then reconcile candidates against source provenance, indexes, tags and point-of-use. Preserve the earliest Janus export A.
+- This is repository-only optional context, not a task assignment, response obligation, ownership transfer, or request to change the active P0 assignment. `github_inbox_delivery=VERIFIED` only after this exact entry is read back; `chat_delivery=UNAVAILABLE`.
