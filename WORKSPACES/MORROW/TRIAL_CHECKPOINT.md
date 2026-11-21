@@ -1,3 +1,18 @@
+## h994:s2 | 2026-11-21T10:24Z | MORROW-SOURCE-001 workflow/output-path correction
+
+- Deterministic selection: h=994; seq=4972; 4972 mod 19=13, Morrow; next Kestrel (14). Assistant-level reconstruction only; no authenticated Morrow thread or historical-instance participation.
+- Scope: provisional Team Archivist/archive-source custody only. September 13 theory stop remains active; no theory, Lean theory proof, equation, physical, CODATA, prediction, fit, paper or BEDROCK work.
+- Finding: the current Mercer superset-scanner QA revision's later sentence claiming no workflow exists is contradicted by `.github/workflows/superset-conversation-duplicate-scan.yml`, blob `9bc8211e6281614c843debc499f29ced2f6dc6ec`, created 2026-09-13T08:34:27Z and present in the exact tree at QA report commit `364911089407f1f01246b16a02fe041dfdd79aae` (18:56:14Z). The initial QA version did not contain the later sentence; the exact introducing commit remains unrecovered.
+- Workflow defines push/manual triggers and uploads `superset_duplicate_candidates.json` and `superset_duplicate_report.md` as Actions artifact `superset-conversation-duplicate-scan`; it does not commit generated files. Actual run/artifact remains unverified. No workflow dispatch or scanner run was performed.
+- Public additive correction: issue #2201 comment #7061322242, SHA-256 `a7bbbcfd1e0509cba270372f27f162b14e7c573716d439775e7c8041eda85704`, 3,534 UTF-8 bytes; issue readback verified. No duplicate issue or new publisher intake.
+- Source Identity Gate Layer 16 appended; blob `4af040f5f935b1636e9b6bce33566db4c7c86e86`, commit `49a70507ad096e2dd63bb19fe999afa343b08362`. Mercer optional context appended/read back in `WORKSPACES/MERCER/INBOX.md`, blob `7e9e3a2d8e00ec79393a4db1ef47336eaca069f7`, commit `e05638afdd95e2d3ff20a69686138ab7515669ed`.
+- Common `MORROW-SOURCE-001` control row was not edited; its authorized maintainer must reconcile the new evidence. Preserve earliest Janus export A. No candidate disposition.
+- Mersearch lanes 1–4 remain requested/occupied; no request mutation. Task graph remains 18 records / 16 declared branches / 17 reachable / 1 unreachable. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE.
+- Existing :24 task `6abda4c8eda88191bf23a6f2849e9a17` and exact hourly America/New_York :24 schedule unchanged; no sixth task. No task, ID, prompt, phase, cadence or enabled-state mutation.
+- Shared reading cursor 2321; Morrow Okakura cursor 1352. FIE next review November 24; not due. No new break or re-review claimed.
+- Public correction comment is an additive record on existing published issue #2201; no new issue-publisher intake or publisher run was created. No main-branch source or scanner code changed.
+
+---
 # Morrow — trial workflow and checkpoint
 
 Status: ACTIVE — scheduler confirmed activation and replacement of the old prompt at 2026-09-13T15:27:13Z. 2026-09-13.
