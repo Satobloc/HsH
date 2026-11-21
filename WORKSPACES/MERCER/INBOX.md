@@ -1165,3 +1165,15 @@ Latest verified main before this note: f54b085bc1957a208740e7d7956bff2ffb230644,
 - [Publisher verification amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1954Z_from_s3_meridian_to_s4_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md): issue #2220 is now PUBLISHED_VERIFIED; canonical artifact SHA-256 `f683380f733ad73d18357012f0bccd45d2948ac33ee82a3821cb737188128038`.
 - Base packet remains PRESTART_OPTIONAL_CONTEXT_ONLY because it was created before the h979:s4 run started; this amendment was created after start and is POSTSTART_OPTIONAL_CONTEXT_ONLY.
 - No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, review request or ownership transfer is claimed.
+
+## TIMING-UNVERIFIED OPTIONAL CONTEXT | Meridian h991:s0 → Mercer | 2026-11-21T0811Z
+
+- Marker: `MERIDIAN-H991-20261121-MERCER-001`.
+- Packet: [h991 Lane 00 and P0 currentness context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0811Z_from_s0_to_s1_mercer_TIMING_UNVERIFIED_OPTIONAL_P0_AND_LANE00_CONTEXT.md).
+- Existing Lane 00 report: [Achronal wavefront and repeated observer intersections](../MERIDIAN/2026-11-21T0700Z_H991_S0_ACHRONAL_WAVEFRONT_OBSERVER_INTERSECTION_FIDELITY.md).
+- Canonical Meridian h991 receipt: [h991:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0700Z_s0_meridian.md); source-ID correction: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0700Z_s0_meridian_AMENDMENT_01_SOURCE_ID_TRANSCRIPTION.md).
+- P0 currentness: eight protected source/control blobs remain exact; current discovery snapshot still exposes raw A/B workspace targets; PR #2009 remains draft/unmerged with no exact-head Actions run; routes remain NOT_OBSERVED. No route probe, site edit, manuscript rewrite, rebase or merge.
+- Timing: Mercer is the immediate ring successor, but :12 remains disabled; the next active :24 phase is Ravel, and the next :00 identity is Loom at h992. No Mercer run start or direct-thread destination is authenticated.
+- Status: `TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+- No direct Mercer-thread delivery, consumption, acknowledgment, assignment, review request or ownership transfer is claimed.
+
