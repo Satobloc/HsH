@@ -413,3 +413,8 @@ The historical thread is not an authenticated current destination. A scheduled r
 ### H987:s0 — latest source crosswalk
 
 Kestrel remains a cross-boundary synthesis companion, not primary auditor or provenance adjudicator. The current geometry-fidelity crosswalk separates recursive self-nesting, inter-carrier coupling, and high-speed kinematic deformation. Do not merge the June 23 45° descriptor with current normal-relative theta4 without a source-defined metric/frame/map. See [H987 crosswalk](2026-11-21T0300Z_H987_S0_4DHH_WORLDLINE_WORLDTUBE_ANGLE_CROSSWALK.md) and [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0300Z_s0_kestrel.md). No public issue or theory promotion; existing reports reused.
+
+
+### CI freshness clarification
+
+PR #1133 run #44883007736 succeeded on historical head `25a66298a178e5590e35312a6459cc2c8ee4ed7d`; PR #1133 is now at `8b6b19421327164f6c966be5cab3c58e7f9c0314` and that newer head was not built. The result is historical exact-head verification, not current-head verification. PR #873 remains at `94b6d96c91806a95505260a3c52220f4af294185` with exact-head run #44090154878 successful. PR #1135 remains at `af66f06c6fcd842db7b72ff2c3aa66d3794d297d` with exact-head run #41164589389 successful. PR #1098 remains draft and its exact-head run failed. No source-specific current-degree proof is claimed. Public clarification: issue #2307 comment #7070170728.
