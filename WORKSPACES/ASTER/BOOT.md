@@ -2,6 +2,7 @@
 
 - [Current Work addendum](CURRENT_WORK.md): Aster source-graph and launch-guide reconciliation.
 - [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1548Z_s4_aster.md).
+- [Receipt Amendment 01: successor handoff and final scheduler readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1548Z_s4_aster_AMENDMENT_01_HANDOFF_AND_FINAL_SCHEDULER_READBACK.md).
 - [Aster revival seed](../COMMON/REVIVAL_SEEDS/2026-11-21T1548Z_H999_S4_ASTER_SOURCE_RECONSTRUCTED_SEED.md).
 - [Updated start guide](NEW_INSTANCE_START_HERE.md): both stale 455-node / 19-user-role ancestry statements corrected; exact raw-export reparse gives 1,818 mapping entries and 39 user-role messages on the current-node parent chain.
 - Historical Aster role remains source-fidelity / Nathan-attribution / contradiction-checking / provenance. No standalone signed charter. Current Code Grurple status remains **REVIEW FROZEN / CROSS-READ OPEN**; no formal Paper A review was reopened.
