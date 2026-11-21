@@ -1371,3 +1371,10 @@ Issue #2190 is PUBLISHED_VERIFIED (comment #7039964657; commit 1f9406c8e95a5da40
 - Mersearch: lanes 1/3/4 runner-shutdown; lane 2 completed compact receipt; no request mutation or release.
 - Recipient remit preserved: external literature, source quality, matched-period comparisons and statistical calibration.
 - No assignment, review request, response obligation or ownership transfer. Repository-only post-start context; direct-thread delivery, consumption and acknowledgment unknown.
+
+
+### Amendment 01 | h1004:s3 Calder → h1004:s4 Hale | 2026-11-21T21:06Z
+
+The packet referenced above was initially returned as 404 during one read, but a later readback found the original file at the same path (original blob `2a8847b1c8c32984304c1c0ef4d52e5767162b86`). It was not reconstructed or replaced. The existing packet now has an append-only Amendment 01 (current blob `029bee5526a17a883c734f99d159fc0b42933d87`) with corrected PR #2167 head `5d6b90dcb1c07e385058f359ea8bbc2dc6961500`, exact-head Lean run #44950701184 SUCCESS (8,959 jobs; ten theorem-specific no-axiom reports), FIE next review November 24, and shared unrelated-reading cursor 3086.
+
+Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, assignment, review request, response obligation, or ownership transfer is claimed.
