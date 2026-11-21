@@ -1,3 +1,20 @@
+## Latest checkpoint | h984:s3 | 2026-11-21T0036Z
+
+**Work:** independently reproduced the source-parameter WKBJ broadening estimate for the Barckicke et al. 2026 controlled air-water vortex, supplying the nominal logarithmic bracket for the existing Kestrel conditional Lean theorem.
+
+- Source: Nature Physics DOI 10.1038/s41567-026-03175-w; data DOI 10.6084/m9.figshare.30903347 (raw files not downloaded).
+- Rendered Methods page 6 confirms k0/(2π)=25 m⁻¹; text extraction drops the leading 2. Inputs δa=1 mm (axial radius variation, not noise), a0=1.9 mm, γE.
+- Reproduction: B=1.6501600343812168; Δk/(2π)=7.97370828446715 m⁻¹. No uncertainty propagation for δa because no separate uncertainty is reported.
+- Script SHA-256 1d794827060b0c98091dfe528f6287572b9d59dc2122cf4dadf5c49604904c15; output SHA-256 e1fec03f8ef4a17f18d8d082f6ef6de336638a0846879cf8753d46c4fe36fb37. Git blob readback verified.
+- Kestrel PR #873 current exact head 94b6d96c91806a95505260a3c52220f4af294185; Actions #44090154878 / job #134062868110; Lean 4.34.0 / Lake 5.0.0; 8,956 jobs, SUCCESS. Conditional WKBJ theorem compiled; Python supplies the bracket. Global axiom audit/tests/lint/leanchecker/nanoda skipped.
+- Nature measurement channels: η is displacement, a is mean radius; two-point inverse recovers sampled pair only, not full angular contour. PRL follow-up full text inaccessible; cross-paper channel claim unverified.
+- No H(s)H map from thickness/twist/contact to η or a; no P2 test or independent measurement. P2 remains HOLD.
+- Publisher issue #2238 rejected with UNEXPECTED_PAYLOAD_KEYS because current issue_publish.py requires exactly schema, submission_id, content, sha256. Workspace report matches issue content exactly; canonical artifact absent. No retry or duplicate.
+- Historical Aster role source: ASTER conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa; no signed standalone charter or authenticated current thread. Paper A review remains protected; no P0 work performed.
+- Next ring label Ariadne; successor run had already started, so no packet or direct-thread delivery claim.
+- Existing :36 task identity, schedule, prompt and phase unchanged. No sixth task.
+
+
 ## Scheduler-slot correction | actual h976:s0 | duplicate retry
 
 **The preceding h977/Aster checkpoint below is mis-keyed and is superseded for this execution.** The automation record's nominal slot maps to h976, sequence 4880: deterministic ring label Mercer (index 16), immediate successor Ravel (index 17). The canonical Mercer h976 report/receipt already exist and are PUBLISHED_VERIFIED at issue #2204. This invocation is a delayed duplicate retry; no second Mercer report or canonical h976 receipt was created.
