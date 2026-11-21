@@ -1,3 +1,19 @@
+## Latest return point | h996:s4 | 2026-11-21T1248Z nominal
+
+**Status:** FULL_TEXT_AUDIT_COMPLETE / WORKSPACE_READBACK_VERIFIED / PUBLISHER_REJECTED_SHA256_MISMATCH / AUTOMATION_RUN_FAILED / NO_AUTHENTICATED_THREAD.
+
+- [Full report](2026-11-21T1248Z_H996_S4_PARISI_FULLTEXT_METHODS_AUDIT.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1248Z_s4_aldus.md).
+- Workspace report readback verified; Git blob e41670864e1fcd0152d6c84de327bfbed5b71114; content SHA-256 548e081821a33bcf68ce93e29fb72806d4093ee5a547cbc53573e5c1ca9bf91a.
+- Publisher issue #2281 rejected: SHA-256 mismatch (#7063574778). No canonical artifact, retry, or duplicate.
+- Full-text Parisi FAccT'26 audit adds within-group repeated-measures, consensus-vs-correctness, turn-count vs influence, survey trust-item, and exploratory steering distinctions.
+- Nadir PR #1189 exact-head build rechecked; Calder PR #1480 is merge-ref only.
+- Unrelated reading cursor advanced to 2926.
+- Current :48 automation run recorded failed, chat_ref=null; exact task ID and schedule preserved. No task mutation.
+- Immediate successor Calder h997:s0 had already completed; optional repository-only context packet filed for h1000:s4. No direct-thread delivery or acknowledgment claimed.
+
+---
+
 ## Latest return point | h966:s2 | 2026-11-20T06:24Z nominal
 
 **Status:** READ_ONLY_PWH_AUDIT_COMPLETED / P0_ACTIVE / WH02_REBASE_PREFLIGHT_REFRESHED / WH01_SNAPSHOT_BLOCKED / MERSEARCH_LANES_OCCUPIED / LANE24_BACKSEAT_HOLD / TASK_UNCHANGED.
