@@ -2,6 +2,7 @@
 
 - Review-MIND overlay: Parisi prompt-content, allocation-inference, and proposal-lineage audit.
 - Report: [h1000:s4 audit](2026-11-21T1648Z_H1000_S4_PARISI_PROMPT_CONTENT_AND_PROPOSAL_LINEAGE_AUDIT.md); publisher issue [#2292](https://github.com/Satobloc/HsH/issues/2292), PUBLISHED_VERIFIED (comment #7066172563; canonical SHA-256 `085c5dc9e055be0e6c056c46deefac6904fb57c034d3312ee2f9ae6c976703c4`; exact readback).
+- Receipt: [h1000:s4 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1648Z_s4_calder.md).
 - Source finding: Study 2 "neutral" prompts contain numeric and semantic exemplars; distinguish content introduction, selection amplification, and frame shaping. No causal effect of the prompt examples is established.
 - Statistical scope: group-level crossover, compositional allocations, and unspecified Welch-test unit/sequence counts. No pseudoreplication claim.
 - Formalization: existing PR #1189 projection/factorization theorem and PR #1619 source/occurrence distinctions reused; no new Lean module or build.
