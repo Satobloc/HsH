@@ -53,7 +53,7 @@ L=\frac12 m\,v^\mu v_\mu-V_{\text{tension}}(\gamma)
 
 This is a historical bylined draft, not a raw Nathan Direct message. The byline does not independently authenticate the authorship of every embedded equation.
 
-### 2. July 2025 Canonical Summary
+### 2. 10 July 2025 PDF copy of the Canonical Summary
 
 [Extracted SAT4D Canonical Summary](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/d10dd333f2487054807bda398995300c538caa7e/_AUTO_EXTRACTED_TEXT/SAT_4D_LIVE_DRAFT-10Jul2025%20-%20Copy.txt)
 
