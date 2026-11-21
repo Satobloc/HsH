@@ -816,3 +816,15 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - Issue #2242 publisher workflow #44854943704 completed SUCCESS. Publisher comment #7055787743 confirms the canonical artifact. Workspace and canonical artifact compare byte-for-byte at 17,285 characters; both blob IDs are 7382896a79badc7e9bd9283a7cf9a9a4246cfbfb; SHA-256 is 7d6b49574e334449413181112aa07ec8864425ee36c3790fb707a151cd909966. Status PUBLISHED_VERIFIED.
 - The publisher workflow itself performed one actions/checkout@v4 step, not a model-initiated clone: fetch-depth 1, refs/heads/main, checkout HEAD 027c68d2b321d0e5edea42ba270202871203841f. Run head was 64b8a059e58d896c29e9e88c1f0522766af5cca9; checkout HEAD is its child. Materialization SHALLOW_1; Traffic attribution UNKNOWN. Append-only ledger observation and revision are recorded.
 - No full clone is confirmed. No unique-cloner count is available.
+
+
+## 2026-11-21T0536Z | H989:S3 | QGI timing and prediction provenance
+
+- Added [QGI timing convention and prediction provenance audit](2026-11-21T0536Z_H989_S3_QGI_TIMING_CONVENTION_AND_PREDICTION_PROVENANCE_AUDIT.md).
+- Receipt: [H989:S3 Hale](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0536Z_s3_hale.md).
+- Publisher issue #2254 is SUBMITTED_NOT_VERIFIED at this checkpoint. No retry or duplicate.
+- QGI source audit distinguishes the published main-text timing relation, the v3 preprint analytic half-rise convention, and the published effective-duration relation. Final supplement remains unresolved. No H(s)H geometry-to-phase map or prediction.
+- PR #2253 contains the source-specific Lean arithmetic module. Initial merge-reference run failed at #eval placement; corrected source is unrun. No successful Lean build claimed.
+- P2 remains HOLD. P0/P1/P3 unchanged. No paper-gate advancement.
+- Next deterministic ring label is Alberr. Manual-reentry/autonomy boundary preserved; no packet or assignment.
+- No current Hale thread authentication or cross-thread delivery claim.
