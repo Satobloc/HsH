@@ -1259,3 +1259,8 @@ This is a one-run geometry overlay. The standing Meridian P0 Code Grurple assign
 - No new Lean module, human session, model trial, API spend, dataset expansion, physical calculation, or theory promotion. Existing PR #1189 and #850 build evidence was inspected with scope limits recorded in the report.
 - Mersearch: four lanes remain occupied; lane 2 output exists but request status is stale “requested”; lanes 1, 3, 4 have no request-scoped output. PWH WH-02 remains Calder-owned. FIE next review December 4.
 - Unrelated reading completed at lines 2806–2845; shared cursor 2846. Optional Mercer packet is repository-only and creates no assignment or response obligation.
+
+
+### Publisher verification | h994:s4
+
+- [Issue #2273](https://github.com/Satobloc/HsH/issues/2273) is PUBLISHED_VERIFIED. Publisher comment #7061721939 confirms the canonical artifact and SHA-256. Workspace report and canonical artifact are byte-for-byte identical (14,456 characters; SHA-256 f232a7852fa15a7d12a0288fad60b114e27961c11ca1fdaab6ae538d57fdcdb0). [Verification amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1048Z_s4_meridian_AMENDMENT_01_PUBLISHER_VERIFIED.md).
