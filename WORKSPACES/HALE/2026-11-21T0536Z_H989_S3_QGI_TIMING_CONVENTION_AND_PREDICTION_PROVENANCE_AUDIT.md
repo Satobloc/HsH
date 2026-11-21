@@ -36,7 +36,9 @@ Primary published source: Dobkowski et al., *Science Advances* (2026), [DOI 10.1
 
 The accessible published main text gives the holding-duration relation
 
-\[\nT_h = 2T - 2T_d\n\]
+\[
+T_h = 2T - 2T_d
+\]
 
 and the Methods reports the nominal values:
 
@@ -47,7 +49,9 @@ and the Methods reports the nominal values:
 
 The published Methods also gives
 
-\[\n2T_{eff}=T_h+2\tau_h+2T_d+T_{kick}=2T+80\ \mu s.\n\]
+\[
+2T_{eff}=T_h+2\tau_h+2T_d+T_{kick}=2T+80\ \mu s.
+\]
 
 The earlier v3 preprint supplementary derivation, [arXiv:2502.14535v3](https://arxiv.org/abs/2502.14535v3), Supplementary Section G.2, uses \(T_d=71+6=77\ \mu s\) for the analytical phase plotted in Fig. 3, adding half the holding-pulse rise time.
 
@@ -61,7 +65,9 @@ Taking each source relation literally gives:
 
 The corresponding published effective duration is
 
-\[\n2T_{eff}=2272+24+142+80=2518\ \mu s.\n\]
+\[
+2T_{eff}=2272+24+142+80=2518\ \mu s.
+\]
 
 Because the Methods relation is \(2T_{eff}=2T+80\ \mu s\), the 2438 microsecond value is the \(2T\) inferred after subtracting the kick duration; it is not \(2T_{eff}\) itself.
 
@@ -73,7 +79,9 @@ The 2026 supplementary PDF is listed by PMC at [this link](https://pmc.ncbi.nlm.
 
 The published Eq. (5) contains the finite-pulse kernel
 
-\[\nK(T,T_k,T_d)=T^3+T^2T_k+T(T_k^2+T_kT_d)-T_d(T_k+T_d)^2.\n\]
+\[
+K(T,T_k,T_d)=T^3+T^2T_k+T(T_k^2+T_kT_d)-T_d(T_k+T_d)^2.
+\]
 
 Using only the source-reported nominal values, the main-text and v3-preprint analytical conventions give:
 
@@ -82,7 +90,11 @@ Using only the source-reported nominal values, the main-text and v3-preprint ana
 
 The common physical prefactor cancels in the ratio:
 
-\[\n\frac{K_{v3}}{K_{main}}=\n\frac{562153}{553969}\n\approx 1.014773.\n\]
+\[
+\frac{K_{v3}}{K_{main}}=
+\frac{562153}{553969}
+\approx 1.014773.
+\]
 
 This is a **+1.4773% source-parameter sensitivity** in the Eq. (5) kernel under those two documented nominal parameterizations.
 
