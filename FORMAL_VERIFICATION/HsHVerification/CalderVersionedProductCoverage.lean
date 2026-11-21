@@ -94,6 +94,15 @@ structure LegacyInventory where
   products : List StrainProduct
   deriving DecidableEq, Repr
 
+/-- Identity of a catalog-listed product set. This is a source-version key,
+    not raw-byte identity or proof that the products have been acquired. -/
+structure ProductSetKey where
+  eventRelease : EventRelease
+  eventVersion : Nat
+  sourceSnapshot : String
+  products : List StrainProduct
+  deriving DecidableEq, Repr
+
 /-- API version and event/catalog release are independent fields. -/
 structure ApiListObservation where
   eventRelease : EventRelease
@@ -132,6 +141,15 @@ def gw241011O4V1LegacyInventory : LegacyInventory :=
       , o4Product .v1 16384 .gwf
       , o4Product .v1 16384 .hdf5
       ] }
+
+/-- Source-defined identity for the O4 Discovery Papers v1 product inventory.
+    The key identifies the catalog product set, not acquired strain bytes. -/
+def gw241011O4V1ProductSetKey : ProductSetKey :=
+  { eventRelease := .o4DiscoveryPapersV1
+    eventVersion := 1
+    sourceSnapshot :=
+      "https://gwosc.org/eventapi/json/O4_Discovery_Papers/GW241011_233834/v1/"
+    products := gw241011O4V1LegacyInventory.products }
 
 def gw241011O4V1EventDetail : EventVersionDetail :=
   { eventRelease := .o4DiscoveryPapersV1
@@ -190,9 +208,9 @@ def hasLegacyProductFor (release : EventRelease) : Bool :=
   gw241011O4V1LegacyInventory.products.any
     (fun product => decide (product.eventRelease = release))
 
-/-- Proposed readiness gate. These fields describe the current retrieval
-    state, not a property of the physical event. -/
-structure AnalysisReadiness where
+/-- Proposed readiness gate indexed by the exact source-defined product
+    set. These fields describe retrieval state, not a property of the event. -/
+structure AnalysisReadiness (key : ProductSetKey) where
   eventVersionBound : Bool
   productVersionBound : Bool
   locatorBound : Bool
@@ -204,7 +222,7 @@ structure AnalysisReadiness where
   covarianceBound : Bool
   deriving DecidableEq, Repr
 
-def analysisReady (state : AnalysisReadiness) : Bool :=
+def analysisReady {key : ProductSetKey} (state : AnalysisReadiness key) : Bool :=
   state.eventVersionBound
     && state.productVersionBound
     && state.locatorBound
@@ -215,7 +233,8 @@ def analysisReady (state : AnalysisReadiness) : Bool :=
     && state.dataQualitySegmentsBound
     && state.covarianceBound
 
-def gw241011O4V1CurrentReadiness : AnalysisReadiness :=
+def gw241011O4V1CurrentReadiness :
+    AnalysisReadiness gw241011O4V1ProductSetKey :=
   { eventVersionBound := true
     productVersionBound := true
     locatorBound := true
@@ -225,6 +244,21 @@ def gw241011O4V1CurrentReadiness : AnalysisReadiness :=
     psdBound := false
     dataQualitySegmentsBound := false
     covarianceBound := false }
+
+/-- A prediction hard gate is explicitly indexed by the product set to which
+    its source-bound measurement/prediction packet applies. The index is an
+    asserted source binding, not authentication of the source or premises. -/
+structure PredictionGateBinding (key : ProductSetKey) where
+  hardGate : Prop
+
+/-- Moving a prediction gate between product-set indices requires an explicit
+    equality of those indices; the gate is not silently reused across products. -/
+def reindexPredictionGate {keyA keyB : ProductSetKey}
+    (h : keyA = keyB)
+    (prediction : PredictionGateBinding keyA) :
+    PredictionGateBinding keyB := by
+  cases h
+  exact prediction
 
 theorem o4v1_legacy_inventory_has_eight_products :
     gw241011O4V1LegacyInventory.products.length = 8 := by
@@ -291,78 +325,74 @@ theorem current_v1_metadata_snapshot_is_not_analysis_ready :
 /-!
 ## Compose product availability with the existing prediction hard gate
 
-This module owns the versioned-product/analysis-readiness gate. The existing
-ModelSelectionPreference formalization in PR #1487 already carries the
+The existing ModelSelectionPreference formalization in PR #1487 carries the
 source/map, measurement, matched-comparator, nuisance-identifiability,
 shared-parameter, acquisition-unit/holdout, prediction, and falsification
-obligations. Repeating those fields here would create two competing contracts.
+obligations. This module owns the versioned-product readiness gate.
 
-The composition point below therefore accepts the prediction hard gate as a
-proposition. After the existing PR branches are integrated, supply
-ModelSelectionPreference.hardGate candidate as that proposition. This PR
-does not import or claim cross-branch wiring to the separate unmerged PR.
+The earlier proposition-only composition did not bind the prediction
+proposition to the same product set as the readiness record. It could therefore
+pair a ready product set with a prediction gate intended for a different
+event/version. The revised interface indexes both objects by one
+ProductSetKey. Reuse across keys requires an explicit equality through
+reindexPredictionGate.
 
-The abstract witness is a logical contract example only, not a physical
-fixture, synthetic dataset, numerical calculation, or measurement.
+PR #1487's current Candidate does not yet expose this ProductSetKey, so no
+automatic cross-PR adapter or integration is claimed. Before wiring, its
+source-bound measurement packet/Candidate must expose the same key. The index
+is a typed scope declaration, not authentication of source bytes or physical
+premises.
+
+The failed-gate proposition below is a logical counterexample only, not a
+physical fixture, synthetic dataset, numerical calculation, or measurement.
 -/
 
-/-- Evaluation is admissible only when the measured product is analysis-ready
-    and the separately formalized prediction/holdout hard gate passes. -/
-def evaluationAdmissible
-    (data : AnalysisReadiness)
-    (predictionHardGate : Prop) : Prop :=
-  analysisReady data = true ∧ predictionHardGate
+/-- Evaluation is admissible only when the measured product set is ready and
+    the separately formalized prediction/holdout gate is indexed by that
+    exact same product set. -/
+def evaluationAdmissible {key : ProductSetKey}
+    (data : AnalysisReadiness key)
+    (prediction : PredictionGateBinding key) : Prop :=
+  analysisReady data = true ∧ prediction.hardGate
 
-/-- Abstract complete-data witness. It is not a claim about a physical dataset. -/
-def abstractCompleteAnalysisReadiness : AnalysisReadiness :=
-  { eventVersionBound := true
-    productVersionBound := true
-    locatorBound := true
-    bytesAcquired := true
-    sha256Verified := true
-    calibrationVersionBound := true
-    psdBound := true
-    dataQualitySegmentsBound := true
-    covarianceBound := true }
-
-/-- Product availability alone does not imply that an independent prediction
-    and holdout contract has passed. False is the abstract failed-hard-gate
-    witness, not a physical fixture. -/
-theorem analysis_readiness_alone_does_not_imply_evaluation_admissibility :
-    analysisReady abstractCompleteAnalysisReadiness = true
-      ∧ ¬ evaluationAdmissible abstractCompleteAnalysisReadiness False := by
-  simp [evaluationAdmissible, analysisReady, abstractCompleteAnalysisReadiness]
+/-- Even a ready product set cannot pass when its matching prediction gate
+    fails. This is a generic logical witness, not a physical fixture. -/
+theorem analysis_readiness_alone_does_not_imply_evaluation_admissibility
+    {key : ProductSetKey} (data : AnalysisReadiness key)
+    (hReady : analysisReady data = true) :
+    analysisReady data = true ∧
+      ¬ evaluationAdmissible data (⟨False⟩ : PredictionGateBinding key) := by
+  refine ⟨hReady, ?_⟩
+  intro h
+  exact h.2
 
 theorem evaluation_admissibility_requires_analysis_readiness
-    (data : AnalysisReadiness)
-    (predictionHardGate : Prop)
-    (h : evaluationAdmissible data predictionHardGate) :
+    {key : ProductSetKey} (data : AnalysisReadiness key)
+    (prediction : PredictionGateBinding key)
+    (h : evaluationAdmissible data prediction) :
     analysisReady data = true :=
   h.1
 
 theorem evaluation_admissibility_requires_prediction_hard_gate
-    (data : AnalysisReadiness)
-    (predictionHardGate : Prop)
-    (h : evaluationAdmissible data predictionHardGate) :
-    predictionHardGate :=
+    {key : ProductSetKey} (data : AnalysisReadiness key)
+    (prediction : PredictionGateBinding key)
+    (h : evaluationAdmissible data prediction) :
+    prediction.hardGate :=
   h.2
 
-/-- The current GW241011 O4-v1 metadata record is not analysis-ready because
-    the source audit has not acquired and characterized raw strain products.
-    This is not a P2 system selection or a physical-test verdict. -/
+/-- The current GW241011 O4-v1 metadata record blocks evaluation regardless
+    of the prediction proposition because its source-versioned product set
+    has not been acquired and characterized. This is not a P2 verdict. -/
 theorem gw241011_current_product_blocks_evaluation
-    (predictionHardGate : Prop) :
-    ¬ evaluationAdmissible gw241011O4V1CurrentReadiness predictionHardGate := by
+    (prediction : PredictionGateBinding gw241011O4V1ProductSetKey) :
+    ¬ evaluationAdmissible gw241011O4V1CurrentReadiness prediction := by
   intro h
-  have hData : analysisReady gw241011O4V1CurrentReadiness = true := h.1
   have hFalse : analysisReady gw241011O4V1CurrentReadiness = false := by
     decide
-  rw [hFalse] at hData
-  cases hData
+  rw [hFalse] at h.1
+  cases h.1
 
-#eval analysisReady gw241011O4V1CurrentReadiness
-#eval decide (analysisReady gw241011O4V1CurrentReadiness = true)
-
+#print axioms reindexPredictionGate
 #print axioms analysis_readiness_alone_does_not_imply_evaluation_admissibility
 #print axioms evaluation_admissibility_requires_analysis_readiness
 #print axioms evaluation_admissibility_requires_prediction_hard_gate
