@@ -67,10 +67,10 @@ theorem signed_frequency_requires_negative_lambda
   have hr2 : 0 < r^2 := by positivity
   nlinarith
 
-/-- Under lambdaS < 0, the signed and absolute-value frequency expressions agree. -/
+/-- Under lambdaS < 0, the signed and absolute-value frequency expressions agree
+for every real κ; no sign or nonzero assumption on κ is needed for this algebraic identity. -/
 theorem signed_and_absolute_frequency_forms_agree
     (κ lambdaS r : ℝ)
-    (hκ : 0 < κ)
     (hLambda : lambdaS < 0) :
     -(2 * lambdaS * r^2) / κ = (2 * |lambdaS| * r^2) / κ := by
   rw [abs_of_neg hLambda]
