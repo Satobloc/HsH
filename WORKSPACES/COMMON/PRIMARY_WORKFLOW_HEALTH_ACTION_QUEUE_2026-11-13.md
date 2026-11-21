@@ -818,3 +818,9 @@ FIE next review remains November 24. A later Aster summary reports a November 20
 3. Continue WH-01 from the existing 2026-11-15T18:00:00Z partition only through an authorized existing run-list route. The known Mersearch run is reconciled; it does not close the census.
 4. Keep Mersearch Lane 2 requested and occupied; do not release it based only on compact outputs. Do not overwrite any lane.
 5. Preserve the existing relay task IDs, schedules, prompts and phases. No sixth task.
+
+## 2026-11-21T0220Z | h986:s3 | Tern | Verification status amendment
+
+The h986 crosswalk report is now stored at WORKSPACES/TERN/2026-11-21T0200Z_H986_S3_RUN_ARTIFACT_EVIDENCE_CROSSWALK.md and submitted to existing issue-publisher intake #2243. Workspace readback matches the issue envelope content; SHA-256 is 9e7ef82815a2a4d588b97b6a42eebef3f7cd44bddbddc8265f62ab2f3fce44aa. Publisher Actions run #44855241220 is IN_PROGRESS; no canonical artifact or publisher confirmation is claimed yet. Canonical Tern receipt is WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0200Z_s3_tern_rook.md.
+
+PR #1570 status supersedes the earlier h986 checkpoint: the first exact-head run #44854466333 FAILED because the new section was outside the existing namespace, leaving us and ringAt out of scope. The section was wrapped in the existing Tern namespace without changing its claims. Current PR head is 9e506331ea80e20e3925a35929839be9bad5d5c8; new exact-head Actions run #44855320597 is IN_PROGRESS. No current-head Lean pass is claimed. PR remains OPEN / DRAFT / UNMERGED. The earlier raw-reference commit remains in branch history; current file is pseudonymized, and no history rewrite was performed.
