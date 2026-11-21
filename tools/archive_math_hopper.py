@@ -4,7 +4,7 @@
 No model evaluation, symbolic execution of untrusted input, or automatic Lean claim.
 """
 from __future__ import annotations
-import argparse, hashlib, importlib.util, json, sys
+import argparse, hashlib, importlib.util, json, re, sys
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -12,7 +12,49 @@ from mersearch_math_structural import extract_math
 
 ALLOWED={".txt",".md",".markdown",".tex",".json",".jsonl",".rst",".html",".pdf"}
 EXCLUDED={".git","PRIOR_ART","QUARANTINE",".lake","node_modules","venv",".venv","__pycache__"}
-VERSION="math-hopper/0.1.0"
+VERSION="math-hopper/0.1.1"
+MATH_TRIGGER = re.compile(r'(?:=|≈|\\frac|\\sqrt|√|\^)')
+COVERAGE_KEYS = (
+    "heuristic_token_lines", "covered_heuristic_token_lines",
+    "unspanned_heuristic_token_lines", "over_405_token_lines",
+    "unspanned_over_405", "unspanned_at_most_405",
+)
+
+def source_coverage_preflight(text, spans):
+    """Count possible missed formula lines; heuristic only, never an equation score.
+
+    Merge overlapping extractor spans, then sweep source lines in linear time.
+    A hit means some extraction overlaps a line, not that its formula was captured.
+    """
+    merged=[]
+    for start,end,_ in sorted(spans):
+        if merged and start <= merged[-1][1]:
+            merged[-1][1] = max(merged[-1][1], end)
+        else:
+            merged.append([start,end])
+    stats=Counter()
+    offset=0
+    cursor=0
+    for physical in text.splitlines(keepends=True):
+        line=physical.rstrip("\r\n")
+        start=offset
+        end=start+len(line)
+        offset+=len(physical)
+        if not MATH_TRIGGER.search(line):
+            continue
+        stats["heuristic_token_lines"]+=1
+        if len(line)>405:
+            stats["over_405_token_lines"]+=1
+        while cursor<len(merged) and merged[cursor][1]<=start:
+            cursor+=1
+        covered=(cursor<len(merged) and merged[cursor][0]<end and merged[cursor][1]>start)
+        if covered:
+            stats["covered_heuristic_token_lines"]+=1
+        else:
+            stats["unspanned_heuristic_token_lines"]+=1
+            stats["unspanned_over_405" if len(line)>405 else "unspanned_at_most_405"]+=1
+    return stats
+
 
 def core():
     path=Path(__file__).with_name("search_archive_content.py")
@@ -53,6 +95,7 @@ def scan(roots,out,max_bytes,limit,excludes):
     modes=Counter()
     notation_keys=set()
     candidate_count=0
+    source_coverage=Counter()
     out.mkdir(parents=True,exist_ok=True)
     pending=out/"CANDIDATES.jsonl.tmp"
     writer=pending.open("w",encoding="utf-8")
@@ -70,8 +113,10 @@ def scan(roots,out,max_bytes,limit,excludes):
             relative=file.relative_to(root).as_posix() if root.is_dir() else file.name
             source_sha=hashlib.sha256(file.read_bytes()).hexdigest()
             for text,locator,message_id,conversation_id,speaker,role in get_records(file,engine):
+                spans=extract_math(text)
+                source_coverage.update(source_coverage_preflight(text,spans))
                 occupied=set()
-                for start,end,raw in extract_math(text):
+                for start,end,raw in spans:
                     if (start,end,raw) in occupied:
                         continue
                     occupied.add((start,end,raw))
@@ -105,14 +150,19 @@ def scan(roots,out,max_bytes,limit,excludes):
         "candidates":candidate_count,
         "unique_notation_keys":len(notation_keys),
         "modes":dict(modes),"math_pass":None,"math_fail":None,
+        "source_coverage":{key:source_coverage[key] for key in COVERAGE_KEYS},
         "lean_status":"NOT_RUN","excluded":sorted(skipped),
-        "warning":"Archive ingestion only: equation validity cannot be inferred from extracted notation."
+        "warning":"Extraction-only. Unspanned heuristic token lines need source review; these counts are NOT equation recall or truth scores."
     }
     (out/"MANIFEST.json").write_text(json.dumps(summary,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     (out/"REPORT.md").write_text(
         "# Archive Math Hopper\n\n"
         +f"- Files: {files}\n- Candidate occurrences: {candidate_count}\n"
         +f"- Distinct notation keys: {summary['unique_notation_keys']}\n"
+        +f"- Heuristic formula-token lines: {source_coverage['heuristic_token_lines']}\n"
+        +f"- Unspanned heuristic lines (review required): {source_coverage['unspanned_heuristic_token_lines']}\n"
+        +f"- Unspanned >405 chars: {source_coverage['unspanned_over_405']}\n"
+        +f"- Unspanned <=405 chars: {source_coverage['unspanned_at_most_405']}\n"
         +"- Mathematical/Lean proof: NOT RUN.\n\n"
         +"Curate source context, domains, symbols, units and assumptions, then transfer an appropriate claim into formalization/equations.json. This extraction score is NOT a truth score.\n",
         encoding="utf-8")
