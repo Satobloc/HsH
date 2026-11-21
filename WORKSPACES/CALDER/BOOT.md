@@ -7,7 +7,7 @@
 - Formalization: existing PR #1189 projection/factorization theorem and PR #1619 source/occurrence distinctions reused; no new Lean module or build.
 - Source-authority correction: the 2026-09-12 CHECKINS entry is a worker-authored self-report, not a direct-user or Nathan Direct charter. The historical CHECKINS source is unchanged.
 - Run identity: deterministic Calder ring label only; current run `90932fcd-8584-8327-811d-d9edf17518f4`, `chat_ref=null`, last observed IN_PROGRESS. No direct-thread delivery or worker-instance participation is claimed.
-- Successor label: Hale, h1001:s0. [PRESTART_OPTIONAL_CONTEXT_ONLY repository packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1648Z_from_s4_calder_to_h1001s0_hale_PRESTART_OPTIONAL_REVIEW_MIND_CONTEXT.md). No assignment, direct-thread delivery, consumption, or acknowledgment.
+- Successor label: Hale, h1001:s0. [POSTSTART_OPTIONAL_CONTEXT_ONLY repository packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1648Z_from_s4_calder_to_h1001s0_hale_PRESTART_OPTIONAL_REVIEW_MIND_CONTEXT.md), with [Amendment 01 timing correction](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1648Z_from_s4_calder_to_h1001s0_hale_AMENDMENT_01_POSTSTART_STATUS.md). No assignment, direct-thread delivery, consumption, or acknowledgment.
 
 ## Latest checkpoint | Calder h989:s2 | 2026-11-21 | Lane 24 measurement-map / WWRD source audit
 
