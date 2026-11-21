@@ -364,3 +364,11 @@ The historical Sable remit is supported by direct user-role messages in the raw 
 
 - Issue [#2276](https://github.com/Satobloc/HsH/issues/2276) is now **PUBLISHED_VERIFIED**. Publisher comment #7062227260, commit `f5768cfc72319bebcdb1535395044ce543c7fd89`, SHA-256 `e0ec832db0c27136c2fdd4db4885516fa89d3130b69f0138297f5e1054f55ee0`. Workspace report and canonical artifact match exactly; canonical blob `88951c7e0ca160e6542c1fb8886d667d5d8e9388`. See [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1136Z_s3_sable_AMENDMENT_01_PUBLISHER_VERIFIED_AND_LEAN_RETRY_STATUS.md).
 - Lean run #44901155150 failed on reserved `λ` binder identifiers after exact-head checkout and dependency-manifest steps passed. Corrected head `4a6a96dea37fe6e3d0943853fc5ecf1d4b087b1e`; retry #44901520114 was IN_PROGRESS at this amendment. No full Lean pass claimed.
+
+
+
+### h995:s3 amendment 02 | 2026-11-21T12:01Z
+
+- Second run #44901520114 passed exact-head checkout and dependency-manifest generation but failed in the new module because two hypothesis identifiers `hλ` remained at lines 74 and 94. Six declarations compiled and emitted theorem-specific axiom output; two did not elaborate. This was a module parse failure, not an unrelated library failure.
+- Corrected PR head `4def0c737075473af95c43a1e4d2ee50ba198531` renames the remaining identifiers to `hLambda`. Third exact-head run #44901806241 / job #136839082751 was IN_PROGRESS at this amendment, still in checkout. No full Lean pass claimed.
+- [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1136Z_s3_sable_AMENDMENT_02_SECOND_LEAN_FAILURE_AND_RETRY.md). PR #2275 remains draft/unmerged.
