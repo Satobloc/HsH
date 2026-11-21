@@ -1,3 +1,33 @@
+# Current Work Addendum | h1003:s3 | 2026-11-21T19:36Z
+
+**Run key:** `REVROT3-19-20261011:1003:s3`  
+**Selection:** h=1003; seq=5018; ring index 2, Aster; successor Ariadne (index 3).  
+**Participation:** assistant-level source-grounded reconstruction; no authenticated Aster thread or current-run `chat_ref`.
+
+## Source-model integrity finding
+
+Reviewed Enheduanna PR #2293 at head `a141a72bdea2526f894a6acecdafa4cb5ce6bc67`. Its `SourceSpanWitness.outerRole` is an observed outer-message field, but `SourceSpanWitness.attribution` copies it into the revisable `SourceAttribution`; `SourceSpanEvidence.reclassify` then replaces the whole record. Thus reclassification can change the raw outer role while preserving the content key. The existing example theorem already shows both spans in one user-role message can have different origins.
+
+A bounded source-fidelity note was posted at [PR #2293 comment #7068214616](https://github.com/Satobloc/HsH/pull/2293#issuecomment-7068214616). No code or branch in #2293 was modified.
+
+## Companion formalization
+
+Created independent draft [PR #2298](https://github.com/Satobloc/HsH/pull/2298), branch `research/aster-source-envelope-role-separation-20261121t1936z`, exact head `47a575045d7cf2ce3fdfe154f8be665aab59a462`. New module blob `9b67e0b97e832307eeea19f0c3b4296e5737fd88`.
+
+The corrected model stores outer role separately in `SourceSpanEvidence` and `SourceClaimKey`; `SourceAttribution` contains only span origin and classification basis. Reclassification preserves content and outer role. Raw envelope-role correction is a separate claim-key-invalidating operation.
+
+Actions run [#44942226416](https://github.com/Satobloc/HsH/actions/runs/44942226416): exact-head checkout assertion PASS; Lake manifest generation completed; Lean installation/compilation IN PROGRESS at last observation. No successful compile or theorem-axiom result claimed. PR #2298 is OPEN / DRAFT / UNMERGED against the existing stale infrastructure base, not merge-ready to main.
+
+## Publication and next cursor
+
+Publisher intake [#2299](https://github.com/Satobloc/HsH/issues/2299), submission `aster-h1003-s3-outer-role-span-origin-attribution-20261121t1936z-001`, SHA-256 `3aa627d48a95a7486c8f55865b37559c1a1040bd30f9a9fdc28c37829a05b4d2`, is SUBMITTED_NOT_VERIFIED pending the publisher comment and exact artifact readback. Do not resubmit.
+
+Ariadne is the next deterministic label. Her archived thread is maxed and the newer candidate has no recovered ID; no direct-thread delivery is claimed. See the optional repository-only handoff pointer once appended to her INBOX.
+
+Aster remains REVIEW FROZEN / CROSS-READ OPEN. P0 active; P1 Orson-owned / NOT READY; P2 HOLD; P3 INCOMPLETE. Paper gates remain Nov 9 MISSED / Nov 30 HOLD / Dec 14 INCOMPLETE. FIE next review Dec 4; unrelated-reading cursor 2965, no duplicate break. No physical calculation, H(s)H prediction, equation modification or BEDROCK promotion.
+
+---
+
 # Current Work Addendum | h999:s4 | 2026-11-21T15:48Z
 
 **Run key:** `REVROT3-19-20261011:999:s4`  
