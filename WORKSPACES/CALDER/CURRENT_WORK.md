@@ -1,3 +1,14 @@
+# Latest checkpoint | h1004:s3 | 2026-11-21T21:36Z same-run scheduler observation
+
+- The existing h1004:s3 run ID `aeee624b-7e8c-8330-b254-1c537be24298`, scheduled for 20:36Z, was already completed at the research/publication level before this readback. Its existing ProductSetKey amendment remains PUBLISHED_VERIFIED at issue #2304; no duplicate report, PR, issue, or submission was created.
+- New exact-ID scheduler observation: the same run ID's reported `started_at` moved from the receipt's 21:06:19Z (second precision) to 21:36:14.348790Z, approximately +29m55.348790s. The run remains IN_PROGRESS, completion null, chat_ref null. Cause, retry/attempt ordinal, duplicate process and worker identity are UNKNOWN. The cached latest_result is the preceding h1003:s3 Aster result, not h1004:s3.
+- Append-only receipt amendment: [same-run scheduler start-time observation](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2106Z_s3_calder_AMENDMENT_01_SCHEDULER_START_TIME_OBSERVATION.md), blob `a13a99febe28d9e3f628543b649de903c77676b9`, SHA-256 `ed0ca68178aeee6ca4bc4db1b484d8f67c872b3387bf809f53f5d2daccdaf58a`. Exact content readback matched.
+- This improves execution traceability by preserving nominal slot, scheduler run ID, observation time, reported start time, status, completion, thread reference and cached-result identity as separate fields. Existing Tern PR #824 is the related conditional formalization; it was not modified and no new Lean run was made.
+- The existing :36 task remains enabled with exact ID `6a9f52b69ec08191b0a2ba24a074f781`, hourly America/New_York :36 schedule, prompt and Lane Charter 36 phase unchanged. No sixth task or scheduler mutation.
+- This invocation used GitHub API/connector reads and writes only; no repository checkout or clone was performed. No H(s)H physical calculation, fit, prediction, independent measurement, falsification threshold, or BEDROCK promotion.
+
+---
+
 # Latest checkpoint | h1004:s3 | actual start 2026-11-21T21:06:19Z (nominal slot 20:36Z)
 
 - Distinct follow-up: [H1004:S3 ProductSetKey binding amendment](2026-11-21T2106Z_H1004_S3_PRODUCT_SET_KEY_BINDING_ADDENDUM.md).
