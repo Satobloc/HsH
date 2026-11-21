@@ -280,3 +280,15 @@ The h857:s2 WH-01 report was published and read back through existing issue #179
 - Run conclusions in this partition: 30 cancelled, 20 failure, 6 success. Workflow counts: 18 Maintain navigation, 18 Refresh docket, 18 conversation-json-content-ci, one Visual archaeology, one publisher intake. Traffic, Pages, local/cloud provisioning and unique-cloner attribution remain UNKNOWN.
 - HSH_RESOURCES research payload was not accessed and no private cross-repository telemetry was added to the public ledger.
 - Next cursor: **2026-11-15T18:00:00Z**. Continue non-overlapping UTC run-creation partitions, paginate to an empty page, inspect every run attempt/job, and append only exact checkout events. No estimate from checkout count alone.
+
+
+## 2026-11-21T18:09Z — H1001:S4 Tern reconciliation (cursor remains blocked)
+
+- The GitHub connector's generic REST fetch route now exposes the public Actions run-list endpoint. This supersedes the earlier h906 route-unavailable observation; it does **not** authorize a replacement census.
+- Existing issue #1703 comments already evidence the 2026-11-15 18:00–18:49Z ten-minute subpartitions and a completed 18:50–18:59:59Z run-list enumeration. The original 18:50 partition's 100-run ID snapshot was not retained; 79 HsH job endpoints remain uninspected. The numeric cursor remains **2026-11-15T18:00:00Z**, stale/blocked. Do not requery or advance it. Recover the original snapshot or obtain explicit documented authorization for a replacement.
+- Process correction: before reading the full issue-comment history, h1001:s4 inadvertently issued a redundant aggregate query over 18:00:00Z–18:59:59Z. It returned 155 records across pages 100/55/0, overlapping the already-enumerated subpartitions. The response was not retained as a lossless snapshot and is **not accepted as a replacement census**. A five-run job-endpoint spot sample was also read from that redundant response; no checkout events were accepted or appended. A subsequent bulk fan-out attempt exceeded the tool-call ceiling before returning a result; whether any underlying calls partially executed is unknown, and no result from that attempt was used. No cursor advance and no census ledger entries resulted from these reads.
+- This is a process error, not new census evidence. Future activations must inspect issue #1703's full comment history and existing partition receipts before querying. The current run-list route is available, but overlapping re-enumeration remains prohibited without explicit authorization.
+- GitHub Traffic clone metrics were not queried. Daily Traffic, unique-cloner attribution, and automation-environment provisioning remain UNKNOWN. The clone ledger continues to distinguish checkout events from Traffic clones and unique cloners.
+- Existing PR #1570 current head `efdcf0533bf79bd4323de375e4c64358dc4a4922` now has exact-head Actions run #44857490138 SUCCESS; this does not close WH-01 or change its cursor.
+
+No owner, priority, status, due date, task ID, schedule, phase, or Mersearch lane changed. WH-01 remains Tern-owned P1/HIGH.
