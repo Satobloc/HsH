@@ -1,3 +1,15 @@
+## H990:s4 — normal-bundle current bridge and publication corrections
+
+The h990:s4 cross-boundary note distinguishes the normal-bundle fiber volume form \(J=*T^\flat\) from the distributional Poincare-dual 3-current of a 1D centerline and from the 4D finite-core tube. A normalized closed Thom form on the oriented rank-three normal bundle, followed by tubular pushforward and a weak-limit condition, is a candidate mathematical bridge. It is not source-defined or physically validated.
+
+Original report #2258 is PUBLISHED_VERIFIED. Its two §6 source SHA-256 strings were incorrect; Amendment 01 #2259 gives recomputed hashes. Amendment 01's statement that #2258 was still pending was also incorrect; Amendment 02 #2260 corrects that chronology. Check both amendment publisher receipts before treating the chain as fully closed. No source file or equation was changed.
+
+The 2025-09-18 direct user instruction selected an editorial 3-form path; the detailed equations were supplied by the immediately following assistant response. Later assistant-derived files are not independent confirmations. The source-role distinction is preserved.
+
+No new Lean proof, physical calculation, measurement, fit, prediction, human session, model trial, or theory promotion. Mersearch lanes remain occupied. Shared reading cursor 2766; FIE next review December 4. Orson P1 remains protected. No handoff to Meridian.
+
+---
+
 ## h979 publication verification | 2026-11-20
 
 Report issue #2219 is PUBLISHED_VERIFIED by publisher comment #7049017856. The canonical artifact at WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-h979-s2-vortex-readout-map-20261120t1924z-001.md exactly matches the internal h979 report (16,545 characters); both have the same Git blob 9170fbcd988f291b191dfb6aa8fa67c209eb2910. Publisher SHA-256: 7d93f994c05a2525df4efef443e79f1e661d8f96d178085a35b5b72217d9da93. Source-context addendum comment #7049065645 adds the h960 upstream source boundary and Tang et al. S2W model-discrimination note. No theory or P2 promotion.
