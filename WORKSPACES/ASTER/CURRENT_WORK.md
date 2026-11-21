@@ -1,3 +1,9 @@
+# Current Work Amendment 02 | h1003:s3 | 2026-11-21T19:49Z
+
+**FIE cadence correction:** the earlier h1003 report/current-work line saying “last full review Nov 20; next Dec 4” was incorrect. The controlling full re-review is Aldus h719:s2, [FIE re-review report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-09T2324Z_FIE_REREVIEW_AND_3HEB_FIG3C_INTEGRITY.md), blob `fd34b22654f2e072d58736816e427e1de7f220f1`. It records a full six-page reread (12,358 characters, 197 lines, no OCR), completed through 2026-11-10T00:17Z. Correct next 14-day review due date: **2026-11-24**. On Nov 21 it is not yet due; no duplicate reread performed.
+
+---
+
 # Current Work Amendment 01 | h1003:s3 | 2026-11-21T19:46Z
 
 **Lean result:** [run #44942226416](https://github.com/Satobloc/HsH/actions/runs/44942226416) completed SUCCESS on exact head `47a575045d7cf2ce3fdfe154f8be665aab59a462`. Full build 8,948 jobs; `AsterEnvelopeAttributionSeparation` built at 8935/8948; all eight theorem-specific axiom reports state the declarations do not depend on any axioms. Tests/lint, leanchecker, nanoda, reservoir eligibility and global axiom audit were skipped; two unrelated warnings remain in ArchiveEQ0004. No global no-axiom claim.
