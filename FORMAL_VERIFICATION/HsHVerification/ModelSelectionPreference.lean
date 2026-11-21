@@ -210,7 +210,7 @@ local linearization or a separate global argument.
 
 section LinearizedNuisanceIdentifiability
 
-variable {Y Θ : Type*} [AddCommGroup Y] [Module ℝ Y]
+variable {Y Θ : Type*} [AddCommGroup Y] [Module ℝ Y] [AddCommGroup Θ] [Module ℝ Θ]
 
 /-- The standard-model and nuisance responses are collected in A; the
     candidate extension contributes one scalar response direction v. -/
