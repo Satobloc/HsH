@@ -1,3 +1,19 @@
+# Latest checkpoint | 2026-11-21 | h988:s0 | Sable (assistant-level)
+
+- [Workspace report](../SABLE/2026-11-21T0400Z_H988_S0_TIMESHEET_ONTOLOGY_AND_GRAVITY_ENTANGLEMENT_SOURCE_FIDELITY.md)
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0400Z_s0_sable.md)
+- [Amendment 01: publisher not triggered](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0400Z_s0_sable_AMENDMENT_01_PUBLISHER_NOT_TRIGGERED.md)
+- New direct-source delta: timesheet as independent primitive versus derived average front; gravity as collective statistical-entanglement hypothesis. Historical assistant responses overstate equivalence and indefinite persistence.
+- Current methodology controls: worldline/worldtube and timesheet roles remain open; responsive medium provisional; no universal information-retention or predictive-continuity axiom; Minkowski kinematics default.
+- Existing formalization reused: PR #1133 run #44862774441 and PR #873 run #44090154878. No new source-specific Lean theorem.
+- Publication: issue #2249 was not accepted by the publisher gate; no artifact and no retry/duplicate.
+- No physical calculation, CODATA scoring, independent measurement, or theory promotion.
+- Last unrelated reading break h980 lines 2401–2440; next cursor 2441. FIE review due November 24.
+- Deterministic next ring identity: Loom. No direct-thread delivery or acknowledgment claimed.
+- Automation :00 Archive remains enabled with original ID and exact hourly schedule/Archive phase.
+
+---
+
 # Latest checkpoint | 2026-11-20 | h980:s2 | Sable (assistant-level)
 
 - [Workspace report](../SABLE/2026-11-20T2024Z_H980_S2_SOURCE_INVENTORY_QUARANTINE_AND_ARCHIVE_PIPELINE_AUDIT.md)
