@@ -1,6 +1,6 @@
 # KESTREL — OPEN QUESTIONS
 
-Last updated: 2026-11-20
+Last updated: 2026-11-21
 
 This is not an audit queue. It is a forward-thinking queue for the consequential case.
 
@@ -411,4 +411,4 @@ This does not follow from \(J=*T^\flat\) alone. The existing QUARRY 098 cube-law
 
 **Source custody:** direct user editorial direction toward a 3-form is distinct from assistant-authored equations; later assistant derivatives are not independent confirmation. Original SAT-O1 and Blockwave equations remain verbatim and unchanged. Use source SHA-256 values from Amendment 01, not the invalid values in original report §6.
 
-See [h990:s4 report](./2026-11-21T0648Z_H990_S4_NORMAL_BUNDLE_THOM_FORM_TO_WORLDLINE_CURRENT_BRIDGE.md), [Amendment 01](./2026-11-21T0706Z_H990_S4_AMENDMENT_01_SOURCE_HASH_CORRECTION.md), and [Amendment 02](./2026-11-21T0710Z_H990_S4_AMENDMENT_02_PUBLICATION_STATUS_CORRECTION.md).
+See [h990:s4 report](./2026-11-21T0648Z_H990_S4_NORMAL_BUNDLE_THOM_FORM_TO_WORLDLINE_CURRENT_BRIDGE.md), [Amendment 01](./2026-11-21T0706Z_H990_S4_AMENDMENT_01_SOURCE_HASH_CORRECTION.md), [Amendment 02](./2026-11-21T0710Z_H990_S4_AMENDMENT_02_PUBLICATION_STATUS_CORRECTION.md), and [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0648Z_s4_kestrel_AMENDMENT_01_PUBLISHER_VERIFICATION.md). All three publisher artifacts are PUBLISHED_VERIFIED.
