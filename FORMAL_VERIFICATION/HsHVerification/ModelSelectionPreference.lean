@@ -190,3 +190,153 @@ theorem intelligibility_cannot_rescue_failed_candidate
 #print axioms intelligibility_cannot_rescue_failed_candidate
 
 end HsHVerification.ModelSelectionPreference
+
+
+/-!
+## Linearized nuisance-span identifiability
+
+This section gives one concrete mathematical realization of the external
+identifiableAfterNuisance obligation in Candidate, but only for a specified
+linearized additive-response model. The map A must include the standard-model
+and all admitted nuisance-response directions; v is one candidate extension
+direction. A nonzero quotient class means the candidate direction cannot be
+absorbed by those directions.
+
+This is structural identifiability, not statistical detectability. It does
+not supply A, v, a physical forward map, a covariance matrix, a calibration,
+or a numerical falsification threshold. Nonlinear models require a justified
+local linearization or a separate global argument.
+-/
+
+section LinearizedNuisanceIdentifiability
+
+variable {Y Θ : Type*} [AddCommGroup Y] [Module ℝ Y]
+
+/-- The standard-model and nuisance responses are collected in A; the
+    candidate extension contributes one scalar response direction v. -/
+def nuisanceAdjustedResponse
+    (A : Θ →ₗ[ℝ] Y) (v : Y) (θ : Θ) (α : ℝ) : Y :=
+  A θ + α • v
+
+/-- The candidate coefficient is identifiable when equal outputs force equal
+    candidate coefficients, even while the nuisance parameter may change. -/
+def coefficientIdentifiableAfterNuisance
+    (A : Θ →ₗ[ℝ] Y) (v : Y) : Prop :=
+  ∀ θ₁ θ₂ : Θ, ∀ α₁ α₂ : ℝ,
+    nuisanceAdjustedResponse A v θ₁ α₁ =
+      nuisanceAdjustedResponse A v θ₂ α₂ →
+    α₁ = α₂
+
+/-- A nonzero scalar multiple of v lies in the nuisance range only if v does. -/
+theorem responseDirection_mem_range_of_nonzero_smul
+    (A : Θ →ₗ[ℝ] Y) (v : Y) (s : ℝ) (hs : s ≠ 0)
+    (x : Θ) (hx : s • v = A x) :
+    v ∈ LinearMap.range A := by
+  refine ⟨s⁻¹ • x, ?_⟩
+  calc
+    A (s⁻¹ • x) = s⁻¹ • A x := by rw [map_smul]
+    _ = s⁻¹ • (s • v) := by rw [hx]
+    _ = v := by simp [hs]
+
+/-- In a linear additive readout, the candidate coefficient is identifiable
+    exactly when its response direction is outside the range of every
+    standard-model and nuisance-response direction. -/
+theorem coefficientIdentifiableAfterNuisance_iff_response_outside_range
+    (A : Θ →ₗ[ℝ] Y) (v : Y) :
+    coefficientIdentifiableAfterNuisance A v ↔
+      v ∉ LinearMap.range A := by
+  constructor
+  · intro h hv
+    rcases hv with ⟨x, hx⟩
+    have heq :
+        nuisanceAdjustedResponse A v (0 : Θ) 1 =
+          nuisanceAdjustedResponse A v x 0 := by
+      simp [nuisanceAdjustedResponse, hx]
+    have hcoeff := h (0 : Θ) x 1 0 heq
+    norm_num at hcoeff
+  · intro hv θ₁ θ₂ α₁ α₂ heq
+    by_contra hne
+    have hdiff : (α₁ - α₂) • v = A (θ₂ - θ₁) := by
+      dsimp [nuisanceAdjustedResponse] at heq
+      calc
+        (α₁ - α₂) • v = α₁ • v - α₂ • v := by rw [sub_smul]
+        _ = (A θ₂ + α₂ • v) - (A θ₁ + α₂ • v) := by
+          rw [← heq]
+          abel
+        _ = A θ₂ - A θ₁ := by abel
+        _ = A (θ₂ - θ₁) := by rw [map_sub]
+    exact hv (responseDirection_mem_range_of_nonzero_smul A v
+      (α₁ - α₂) (sub_ne_zero.mpr hne) (θ₂ - θ₁) hdiff)
+
+/-- The explicit projection that quotients measurement space by the span of
+    standard-model and nuisance responses. -/
+def nuisanceQuotientReadout
+    (A : Θ →ₗ[ℝ] Y) :
+    Y →ₗ[ℝ] Y ⧸ LinearMap.range A :=
+  Submodule.mkQ (LinearMap.range A)
+
+/-- The quotient readout vanishes exactly for response directions absorbed by
+    the standard-model and nuisance-response range. -/
+theorem nuisanceQuotientReadout_eq_zero_iff
+    (A : Θ →ₗ[ℝ] Y) (v : Y) :
+    nuisanceQuotientReadout A v = 0 ↔
+      v ∈ LinearMap.range A := by
+  change (Submodule.Quotient.mk v :
+    Y ⧸ LinearMap.range A) = 0 ↔
+      v ∈ LinearMap.range A
+  exact Submodule.Quotient.mk_eq_zero (LinearMap.range A)
+
+/-- The candidate coefficient is identifiable exactly when its class in the
+    nuisance quotient is nonzero. This quotient is the explicit residual
+    space in which a genuinely new linearized response must survive. -/
+theorem coefficientIdentifiableAfterNuisance_iff_quotient_nonzero
+    (A : Θ →ₗ[ℝ] Y) (v : Y) :
+    coefficientIdentifiableAfterNuisance A v ↔
+      nuisanceQuotientReadout A v ≠ 0 := by
+  rw [coefficientIdentifiableAfterNuisance_iff_response_outside_range]
+  constructor
+  · intro hv hzero
+    exact hv ((nuisanceQuotientReadout_eq_zero_iff A v).mp hzero)
+  · intro hnonzero hmem
+    exact hnonzero ((nuisanceQuotientReadout_eq_zero_iff A v).mpr hmem)
+
+/-- An invertible change of readout coordinates preserves membership in the
+    standard-plus-nuisance response range, and therefore preserves structural
+    identifiability. It does not preserve a covariance norm or a statistical
+    detection threshold automatically. -/
+theorem responseOutsideRange_invariant_under_linearEquiv
+    (W : Y ≃ₗ[ℝ] Y) (A : Θ →ₗ[ℝ] Y) (v : Y) :
+    v ∉ LinearMap.range A ↔
+      W v ∉ LinearMap.range (W.toLinearMap.comp A) := by
+  constructor
+  · intro hv hmem
+    rcases hmem with ⟨θ, hθ⟩
+    apply hv
+    refine ⟨θ, ?_⟩
+    apply W.injective
+    simpa [LinearMap.comp_apply] using hθ
+  · intro hv hmem
+    rcases hmem with ⟨θ, hθ⟩
+    apply hv
+    refine ⟨θ, ?_⟩
+    have hW := congrArg W.toLinearMap hmem
+    simpa [LinearMap.comp_apply] using hW
+
+/-- Structural identifiability is invariant under an invertible linear
+    reparameterization of the measured readout coordinates. -/
+theorem coefficientIdentifiableAfterNuisance_invariant_under_linearEquiv
+    (W : Y ≃ₗ[ℝ] Y) (A : Θ →ₗ[ℝ] Y) (v : Y) :
+    coefficientIdentifiableAfterNuisance A v ↔
+      coefficientIdentifiableAfterNuisance (W.toLinearMap.comp A) (W v) := by
+  rw [coefficientIdentifiableAfterNuisance_iff_response_outside_range,
+    coefficientIdentifiableAfterNuisance_iff_response_outside_range]
+  exact responseOutsideRange_invariant_under_linearEquiv W A v
+
+#print axioms responseDirection_mem_range_of_nonzero_smul
+#print axioms coefficientIdentifiableAfterNuisance_iff_response_outside_range
+#print axioms nuisanceQuotientReadout_eq_zero_iff
+#print axioms coefficientIdentifiableAfterNuisance_iff_quotient_nonzero
+#print axioms responseOutsideRange_invariant_under_linearEquiv
+#print axioms coefficientIdentifiableAfterNuisance_invariant_under_linearEquiv
+
+end LinearizedNuisanceIdentifiability
