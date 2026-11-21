@@ -179,3 +179,8 @@ Detailed receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1924Z_
 - Public addendum: Aster h946 published issue #2086, comment #7057342673. No duplicate report or publisher intake.
 
 This candidate expands the observed finite-core source map but does not supply the raw data needed for an H(s)H comparison. No CODATA calculation, physical prediction, or theory promotion.
+
+
+### FIE cadence supersession | H988:s2 | 2026-11-21
+
+The older November 24 due-date pointer in the November 10 capsule entry is superseded by the full FIE review recorded on November 20. The next 14-day review is due **December 4, 2026**. No early re-review was performed in H988.
