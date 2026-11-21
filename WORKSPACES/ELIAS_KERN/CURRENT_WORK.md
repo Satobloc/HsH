@@ -1,4 +1,19 @@
-## Latest checkpoint | h989:s4 | 2026-11-21T05:48Z | Track A run-envelope, routing and build-scope audit
+## Latest checkpoint | h993:s3 | 2026-11-21T09:36Z | Track A Hydra loop-state vs invocation idempotency scope
+
+- Report: [H993:s3](2026-11-21T0936Z_H993_S3_HYDRA_LOOP_VS_INVOCATION_IDEMPOTENCY_SCOPE.md); SHA-256 4c6cf8681a65bdb8afe212612a95ca27f0842b8777c1cbc4a3f1995f09af0244.
+- Canonical receipt: [h993:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0936Z_s3_elias_kern.md).
+- Publisher issue [#2271](https://github.com/Satobloc/HsH/issues/2271): SUBMITTED_NOT_VERIFIED; publisher run #44891263321 was IN_PROGRESS at last check. No canonical artifact/comment yet.
+- Existing PR #742 extended on its existing branch. New module EliasHydraEventLeaseScope.lean separates state-level RevisionKey from proposed invocation-level ExecutionKey. Current head c74e84ee64164ca5a9b6c3e114a9fe66aa5a591e; PR OPEN/DRAFT/UNMERGED. Exact-head Lean build NOT VERIFIED; no current workflow run returned.
+- Source-derived replay was method-level on one persistent instance only. It does not show cross-run production suppression; top-level POC scenarios create fresh Switchboard instances.
+- Current run ID dec82ba0-41b4-832b-96b1-819ce17bd6fc, scheduled 09:36Z, started 09:34:53.222943Z, last observed IN_PROGRESS with null run-level chat_ref. Cached h992:s3 result is stale for this run. No authenticated current Elias thread or direct delivery.
+- Next ring label Nadir Voss; existing optional context already in his INBOX. No new assignment, packet, or response obligation.
+- Mersearch lanes occupied; no search run. PWH ownership and task graph unchanged. P0 active; P1 Orson protected/NOT READY; P2 HOLD; P3 INCOMPLETE. Paper gates unchanged.
+- Lateral reading: Library pinhole-camera ray/diffraction section, line 59532; next cursor 59533. FIE next review December 4.
+- No physical calculation, fit, H(s)H prediction, independent measurement, SAT-O/Blockwave equation change or BEDROCK promotion. No task/ID/cadence/phase change, signet, conversation rename or sixth task.
+
+---
+
+## Previous checkpoint | h989:s4 | 2026-11-21T05:48Z | Track A run-envelope, routing and build-scope audit
 
 - Report: [h989:s4](2026-11-21T0548Z_H989_S4_TRACKA_RUN_ENVELOPE_ROUTING_AND_BUILD_SCOPE_AUDIT.md); SHA-256 `eac441416b34d1dc32ea61d690565a0c02f4ca574dd33dc7aae09cd57de817cd`.
 - Canonical receipt: [h989:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0548Z_s4_elias_kern.md); [Amendment 01: publisher rejection and fifth clone event](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0548Z_s4_elias_kern_AMENDMENT_01_PUBLISHER_REJECTED_INVALID_SCHEMA_AND_CLONE_RECONCILIATION.md).
