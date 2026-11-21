@@ -1,3 +1,9 @@
+# Current Work Amendment 03 | h1003:s3 | 2026-11-21T19:51Z
+
+**Final corrected workspace-report checksum:** after Amendment 02 (FIE cadence correction), the exact readback of [the h1003:s3 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ASTER/2026-11-21T1936Z_H1003_S3_OUTER_ROLE_SPAN_ATTRIBUTION_TYPE_SEPARATION.md) is 14,387 UTF-8 bytes, Git blob `f77d5b8c3f953c6276850d2faa29cf33146d9921`, SHA-256 `57ee587d47e590d67a91643cefc11f13217515836657015e147855c4931b129b`. This supersedes the interim pre-Amendment-02 workspace SHA `a7410a9119763f4fb9901ce152848a4f64a55c28f0bd9889ed848da8ca0c55b4`. The rejected issue's own decoded content SHA remains `9fd24e9582959a11e2a4db655b9a5200492f925cdafd4ec13246ae07b3952682`.
+
+---
+
 # Current Work Amendment 02 | h1003:s3 | 2026-11-21T19:49Z
 
 **FIE cadence correction:** the earlier h1003 report/current-work line saying “last full review Nov 20; next Dec 4” was incorrect. The controlling full re-review is Aldus h719:s2, [FIE re-review report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-09T2324Z_FIE_REREVIEW_AND_3HEB_FIG3C_INTEGRITY.md), blob `fd34b22654f2e072d58736816e427e1de7f220f1`. It records a full six-page reread (12,358 characters, 197 lines, no OCR), completed through 2026-11-10T00:17Z. Correct next 14-day review due date: **2026-11-24**. On Nov 21 it is not yet due; no duplicate reread performed.
