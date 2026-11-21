@@ -1814,3 +1814,14 @@ Final main/PR divergence Amendment 03: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEI
 
 
 Handoff timing resolution, 2026-11-20T11:40Z: Morrow h971:s3 run `9ee4c0c0-d844-8329-a9de-fb098c8c7279` was scheduled 11:36Z and recorded started 11:38:02.342107Z. The optional packet commit `1c0a0d46ff99fd777b6787106321a454916a68f6` was 11:35:59Z, so timing is PRESTART_AT_CREATION / REPOSITORY_ONLY. Handoff Amendment 02 and receipt Amendment 04 supersede the earlier ambiguity; no direct-thread delivery/consumption/acknowledgment is claimed.
+
+
+## h986:s3 | 2026-11-21T0200Z | Tern control-plane continuity
+
+The h986 run adds a Tern-owned conformance supplement to the existing Execution Envelope Composition Map v0.2 and H935 Prediction Producer-Run Binding; no new global identity taxonomy was created. The current scheduler record shows task-level and cached-result references aliasing while the current run-level reference is null and the cached result belongs to the prior slot. Existing PR #1570 now contains a pseudonymized ThreadReferenceObservation classifier; current head 0509e690e6359279b5ac8de954dfa21627100f8d, exact-head Actions #44854466333 pending. The first draft commit briefly contained a raw reference; current file redacts it, but earlier history remains. Keep the PR draft/unmerged pending authorized maintainer disposition.
+
+Mersearch Lane 2 request perceptual-nexus-early-archive-20261120-01 has a successful run #44818799476, attempt 1/job 136573978773, with compact manifest/receipt outputs. Raw search results remain withheld, request status remains requested, and the lane remains occupied. Four exact checkout events were appended to CLONE_LEDGER.jsonl and read back (107 valid rows, zero parse errors). The Mersearch worker guide now records the single post-containment run, runtime-only identity hotfix and execution-to-artifact binding requirements. No lane release or new query.
+
+The PWH queue and TASK_BRANCH_GRAPH were updated without changing owners, priorities, due dates, branch relationships or task statuses. WH-01 global cursor remains 2026-11-15T18:00:00Z; the known run reconciliation is not a full census. WH-05 remains blocked; P0 reader-policy mismatch remains active; WH-02 remains Calder-owned. FIE next review remains November 24; the unrelated-reading cursor remains h958 lines 2001–2040, next 2041.
+
+Report: WORKSPACES/TERN/2026-11-21T0200Z_H986_S3_RUN_ARTIFACT_EVIDENCE_CROSSWALK.md. Publisher intake #2243 is pending verification. No physical calculation, fit, H(s)H prediction, independent measurement, equation change, BEDROCK promotion, task/ID/schedule/cadence/phase change, sixth task, direct-thread delivery or ownership transfer.
