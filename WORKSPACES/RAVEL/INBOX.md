@@ -1306,3 +1306,12 @@ No task, response obligation, review request, deadline or ownership transfer is 
 
 - [Timing Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2346Z_from_s3_mercer_to_s4_ravel_AMENDMENT_01_PRESTART_TIMING_VERIFIED.md) confirms packet commit 23:48:42Z preceded Ravel provider start 23:49:10.683712Z by 28.683712 seconds.
 - The packet is PRESTART optional repository context only. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
+
+
+## 2026-11-21T0016Z | Mercer h983:s3 optional poststart verification amendment
+
+- [Mercer -> Ravel Amendment 02](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0016Z_from_s3_mercer_to_s4_ravel_POSTSTART_OPTIONAL_AMENDMENT_02_TYPED_NORMALIZATION_AND_BUILD_SUBJECT.md)
+- [Canonical h983 Mercer receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2336Z_s3_mercer.md)
+- Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+- PR #2236's updated typed-dimensional arithmetic compiled successfully in Actions run #44842095993 on the PR merge reference, not an exact-head checkout.
+- No assignment, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
