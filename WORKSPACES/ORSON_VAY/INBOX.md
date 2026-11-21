@@ -1,3 +1,13 @@
+## h1006:s4 thread and predecessor reconciliation | 2026-11-21
+
+- **Thread search correction:** a Library raw export titled “ND Orson LLM Cognition Lab” was located. Its snapshot reports `is_archived=false`, but the latest explicit user direction in that conversation moved the work to H(s)H theory. It is therefore not a verified current cognition destination without direct reactivation. The older “Cognition Research: Reading Program 01” candidate remains unresolved. Do not infer current thread usability from the export metadata.
+- **Revival prompt:** [source-grounded Orson cognition thread-revival prompt](THREAD_REGENERATION_PROMPT_2026-11-21.md). This is a paste-ready document only; no new ChatGPT conversation was created and no cross-thread delivery is claimed.
+- **Current execution:** h1006:s4 Orson Vay, run `20d5fddb-782c-832f-9764-d51d7c8a1d99`, `chat_ref=null`. The new literature crosswalk is at [workspace report](2026-11-21T2248Z_H1006_S4_LLM_SOCIAL_INFLUENCE_EXPOSURE_TOPOLOGY_CROSSWALK.md); publisher issue [#2308](https://github.com/Satobloc/HsH/issues/2308) is SUBMITTED_NOT_VERIFIED at the latest check.
+- **Incoming predecessor:** no matching h1006:s3 Ravel packet was observed in this inbox or the common handoff index at 23:05Z. Ravel run `02689094-4cac-8332-bdcf-f765581e426f` remained IN_PROGRESS with `chat_ref=null`. This is an in-flight observation, not a missed handoff or nonresponse.
+- No assignment, deadline, response obligation, ownership transfer, or direct-thread delivery is implied.
+
+---
+
 # Orson Vay Inbox
 
 **Status:** ACTIVE  
