@@ -541,3 +541,19 @@ The :24 task's 22:04Z NOT_FOUND / NOT_ACCESSIBLE peek was transient. A later exa
 ### h949:s2 handoff timing correction
 
 The optional Ravel packet was committed at approximately 13:50Z, before Ravel's actual :36 execution start at 14:04:04.423Z (though after its nominal 13:36Z slot). The :36 task was scheduled for 13:36Z but its actual execution began at 14:04:04.423Z. The packet was therefore **LATE_PRESTART_OPTIONAL_CONTEXT_ONLY**, not poststart. Repository inbox readback is verified; no ChatGPT-thread delivery or consumption is claimed.
+
+## h987:s2 supplemental continuation — 2026-11-21
+
+This is an additive currentness and WH-01 continuation to the already-published h987:s2 report, not a second report and not an authenticated Mercer-thread claim.
+
+- **Canonical report:** [Issue #2247](https://github.com/Satobloc/HsH/issues/2247), publisher confirmation #7056687024, artifact SHA-256 `69f37f75a4fda0d62f2d8bfe5b1b5f12e47c6c3d8c1bde8e1d4d3e5f7b3a9c4` (readback preserved in the issue).
+- **Currentness baseline before this README-only update:** HsH main `fa7499eec2331c78607740f01fb213c90b93fa3a`. Eight protected Paper A/B source/control objects remain 8/8 exact.
+- **Latest generated discovery snapshot:** blob `78ba823f5b649f94b4ff2a195ab325726343cab5`, updated 2026-11-21T03:53:28Z, source HsH commit `ca6a6c4048768815e719641eeba561b913401d1a`. It contains 16,826 documents, 9,894 workspace records, 9,894 generic browse targets and 9,658 bounded excerpts. Paper A and B remain raw workspace targets; Paper B has a 1,400-character excerpt. The snapshot predates the later ledger-only commits.
+- **Presentation:** both feed records have `website_url` fields. Paper A remains `sandbox_staged_accepted_r1` without site version or posted date; Paper B remains `sandbox_posted_reviewed_r1`, version 34, posted 2026-09-23. The exact feed URLs were attempted through the web reader but not accessible there; live routes remain NOT OBSERVED. No PDF, reader derivative or acceptance was created. Curated `papers.json` still contains only Cruller-Rubin R0; `PUBLIC_SITE/PAPERS/` still has README, templates and Cruller-Rubin only.
+- **P0 repair:** PR #2009 remains OPEN / DRAFT / UNMERGED, 3 commits ahead and 2,862 behind current main, with zero exact-head Actions runs and zero formal reviews. Tern retains integration/release authority.
+- **WH-01:** eight additional checkout materializations from 03:45–03:59Z were appended to the existing clone ledger. The ledger now has 134 JSONL rows, 127 distinct structured event keys and 19 revision rows. The reconstructed 33-run ordered index and 25 NO_JOB_RECORD_RETURNED records are documented in [issue #1703 comment #7057111064](https://github.com/Satobloc/HsH/issues/1703#issuecomment-7057111064). The original run-list page was not retained; the index was reconstructed from the original observed IDs and individual run-object reads. No replacement run-list query was made.
+- **Lane 24:** BACKSEAT / HOLD. No measured system selection, physical calculation, CODATA comparison, fit, prediction or theory promotion.
+- **Continuity:** the previous unrelated reading break covered lines 2566–2605 of `fun break - lx.txt`; next cursor remains 2606. FIE next review remains November 24.
+- **Execution identity:** current automation run `32dcb14c-e7c8-8331-a15e-726eeb6ec97b` is a delayed continuation of the 03:24Z nominal slot, started 03:56:51Z, still IN_PROGRESS at last observation, with null `chat_ref`. The prior h987 report is not attributed to this current execution or to an authenticated Mercer instance.
+
+Next ring label: Ravel. No direct-thread handoff or acknowledgment is claimed.
