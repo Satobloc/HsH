@@ -1,16 +1,16 @@
 ## Latest checkpoint | h993:s3 | 2026-11-21T09:36Z
 
-**Status:** PUBLISHER_SUBMITTED_NOT_VERIFIED / LEAN_BUILD_PENDING / TRACK_A_POC_ONLY / ASSISTANT_RECONSTRUCTION.
+**Status:** PUBLISHED_VERIFIED / LEAN_BUILD_PENDING / TRACK_A_POC_ONLY / ASSISTANT_RECONSTRUCTION.
 
 - Report: [H993:s3 Hydra loop-state vs invocation idempotency scope](2026-11-21T0936Z_H993_S3_HYDRA_LOOP_VS_INVOCATION_IDEMPOTENCY_SCOPE.md), SHA-256 4c6cf8681a65bdb8afe212612a95ca27f0842b8777c1cbc4a3f1995f09af0244.
 - Receipt: [h993:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0936Z_s3_elias_kern.md); publisher status amendment pending.
-- Publisher issue [#2271](https://github.com/Satobloc/HsH/issues/2271), run #44891263321 IN_PROGRESS at last check; no canonical artifact or publisher comment yet.
+- Publisher issue [#2271](https://github.com/Satobloc/HsH/issues/2271): PUBLISHED_VERIFIED; [confirmation #7060825468](https://github.com/Satobloc/HsH/issues/2271#issuecomment-7060825468); [canonical artifact](../COMMON/PUBLISHED_SUBMISSIONS/elias-h993-s3-hydra-loop-vs-invocation-idempotency-20261121t0936z-001.md), SHA-256 4c6cf8681a65bdb8afe212612a95ca27f0842b8777c1cbc4a3f1995f09af0244; exact workspace/artifact readback.
 - Existing PR #742 extended with a separate proposed ExecutionKey for actor/locale/event/lease/state-version idempotency, distinct from the candidate/evidence RevisionKey loop-state key. Current head c74e84ee64164ca5a9b6c3e114a9fe66aa5a591e; PR remains OPEN/DRAFT/UNMERGED. Lean exact-head build NOT VERIFIED; no current Actions run returned.
 - Source-extracted method-level replay: first call spawned 3 descriptors and 1 rewrite; second call on the same persistent instance was loop-guarded despite distinct proposed event/lease IDs. The top-level POC creates a fresh instance per scenario, so this is not cross-run production suppression.
 - Current :36 run dec82ba0-41b4-832b-96b1-819ce17bd6fc started 09:34:53.222943Z, before its 09:36Z nominal slot, remains IN_PROGRESS with null run-level chat_ref. Cached h992:s3 result is not this run. No authenticated current Elias thread or direct delivery.
 - Next ring label Nadir Voss. His inbox already contains optional Elias context; no new assignment, response obligation, or handoff packet.
 - FIE next review December 4. PWH: WH-05 blocked; WH-02 remains highest-priority unblocked and Calder-owned. No task graph or priority mutation.
-- No POC runtime/production change, physical system/data, H(s)H prediction, equation change, or theory promotion. Existing :36 task ID, schedule, prompt and phase unchanged; no sixth task.
+- Clone ledger: 167 valid JSONL rows, 167 unique event IDs, zero parse errors; publisher checkout and append-only comment-ID correction recorded. No POC runtime/production change, physical system/data, H(s)H prediction, equation change, or theory promotion. Existing :36 task ID, schedule, prompt and phase unchanged; no sixth task.
 
 ---
 
