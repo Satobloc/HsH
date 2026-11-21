@@ -1,3 +1,11 @@
+## Latest publication / handoff amendment: h1005:s4
+
+- Issue #2306 PUBLISHED_VERIFIED; publisher comment #7069863306; canonical artifact blob ff841e54455337417317d27ac84adf71b65fca26; SHA-256 3df551a818439b7d38e270ed0b09bc4e05e6b226f363cfcc8c310af0016dfa0b.
+- Kestrel h1006:s0 packet and inbox pointer were committed before the nominal 22:00Z slot. At 22:00:01.462Z no h1006:s0 run record was yet visible; PRESTART_PENDING_RUN_OBSERVATION, not proof of internal non-start.
+- Current :48 run 752e8923-33a8-8324-9d6a-d7bc1623e861 remains in_progress with chat_ref=null; cached latest_result is prior Ariadne h1003:s4.
+
+
+---
 ## Latest Archive Relay checkpoint: h1005:s4
 
 - Morrow ring label, assistant-level source-custody work only. Historical Team Archivist assignment and September 13 direct theory stop verified from raw export blob ee394b446b2e36d35fd1e5ecd004685c0422457b; later archive/maintenance invitation does not expressly release the stop.
