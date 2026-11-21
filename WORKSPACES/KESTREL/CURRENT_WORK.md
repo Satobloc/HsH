@@ -999,3 +999,11 @@ See `WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GA
 ### h937:s3 publisher amendment
 - Publisher issue #2044 run #44439337222/job #135275980595 failed HTTP 409 on the existing publisher PUT; exact conflict cause unknown. The report and issue envelope SHA match; canonical artifact remains 404. Status PUBLISHER_FAILED_HTTP_409 / NOT_PUBLISHED. No retry, duplicate, issue-body edit or direct-write bypass.
 - [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0136Z_s3_kestrel_AMENDMENT_01_PUBLISHER_HTTP_409.md); additive status comments on #2044 and P2 #1855.
+
+## H987:s0 — 2026-11-21T03:00Z
+
+Cross-boundary Lane 00 synthesis completed. The June 23 direct source distinguishes (a) one recursively nested 4D helical carrier, (b) an unresolved layer-scale placement, and (c) interaction-specific coupling among multiple H(s)H structures. The July 11 direct source separately distinguishes superhelical nesting from braid nesting. The June 23 high-speed 45°/vacuum-energy/knot passage is historical and is not source-identified as current normal-relative theta4.
+
+Durable crosswalk: [H987 4DHH/worldtube/angle note](./2026-11-21T0300Z_H987_S0_4DHH_WORLDLINE_WORLDTUBE_ANGLE_CROSSWALK.md). Receipt: [h987:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0300Z_s0_kestrel.md).
+
+No new Lean module: PR #873 exact-head run #44090154878 already supplies conditional timelike, moving-slice, and intersection-dimension results; the source-specific 45° proposition lacks a defined metric, chart, frame, angle referent, and map to theta4. PR #2143 remains failed. No physical calculation, CODATA scoring, theory promotion, or public issue was added. Next cursor: recover the direct source behind current BR-005 and define the angle/reference map without conflating it with the June 23 45° descriptor.
