@@ -145,6 +145,8 @@ theorem preprint_to_main_phase_kernel_ratio_between_1_014_and_1_016 :
 
 end HsHVerification.QGITimingAccounting
 
+open HsHVerification.QGITimingAccounting
+
 /-- Executed values are retained in the CI log as a separate check from
     theorem compilation. -/
 #eval twoTFromPublishedMainTextUs
