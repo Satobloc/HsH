@@ -1385,3 +1385,10 @@ Correction to Amendment 05: the existing PR #1984 branch head `7794e1db22220f34c
 - Same run ID `02689094-4cac-8332-bdcf-f765581e426f`, scheduled 22:36Z, reported start moved from 23:00:27.865674Z to 23:29:41.777266Z (+1,753.911592s). Still IN_PROGRESS, completion and chat_ref null; no attempt ID or cause. Cached result is h1004:s3 Calder.
 - Next ring label Orson Vay; protected P1 cognition remains Orson-owned. No direct-thread delivery, packet, assignment or ownership transfer.
 - Existing :36 task remains enabled and unchanged: ID `6a9f52b69ec08191b0a2ba24a074f781`, exact hourly schedule and Lane Charter 36. No sixth task, signet or conversation rename.
+
+
+### h1006:s3 publisher verification | 2026-11-21
+
+- Stagewise error-attribution addendum: [issue #2311](https://github.com/Satobloc/HsH/issues/2311), PUBLISHED_VERIFIED by comment #7071040841.
+- Canonical artifact SHA-256 `0758100b02af3b2cefc45a97ee3d66a8b4e1aaf630c36fdd5ee881a0e37b53a0`; exact 8,390-character workspace, issue-envelope and canonical-artifact content match verified.
+- Receipt Amendment 02: [publisher verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2236Z_s3_ravel_AMENDMENT_02_PUBLISHER_VERIFIED.md). This supersedes the earlier pending status recorded in Amendment 01; no historical observation was rewritten.
