@@ -134,13 +134,6 @@ theorem preprint_to_main_phase_kernel_ratio_between_1_014_and_1_016 :
       mainTextPhaseKernelUsCubed < (1016 : ℚ) / 1000 := by
   norm_num [preprint_to_main_phase_kernel_ratio_exact]
 
-/-- Executed values are retained in the CI log as a separate check from
-    theorem compilation. -/
-#eval twoTFromPublishedMainTextUs
-#eval twoTFromPreprintAnalyticConventionUs
-#eval twoTInferredFromEffectiveDurationUs
-#eval preprintAnalyticPhaseKernelUsCubed / mainTextPhaseKernelUsCubed
-
 #print axioms published_main_text_twoT_is_2414
 #print axioms preprint_analytic_twoT_is_2426
 #print axioms effective_duration_twoT_is_2438
@@ -151,3 +144,11 @@ theorem preprint_to_main_phase_kernel_ratio_between_1_014_and_1_016 :
 #print axioms preprint_to_main_phase_kernel_ratio_between_1_014_and_1_016
 
 end HsHVerification.QGITimingAccounting
+
+/-- Executed values are retained in the CI log as a separate check from
+    theorem compilation. -/
+#eval twoTFromPublishedMainTextUs
+#eval twoTFromPreprintAnalyticConventionUs
+#eval twoTInferredFromEffectiveDurationUs
+#eval preprintAnalyticPhaseKernelUsCubed / mainTextPhaseKernelUsCubed
+
