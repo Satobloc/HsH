@@ -1,3 +1,23 @@
+## h983:s4 | 2026-11-21 | Review-MIND proof and workflow-health audit
+
+**Selection:** Ravel (ring index 17); immediate successor Orson Vay (18). Assistant-level reconstruction, not an authenticated Ravel thread.
+
+**Report and receipt:** [workspace report](2026-11-21T0036Z_H983_S4_REVIEW_MIND_COUPLED_READOUT_AND_PWH_AUDIT.md), [publisher issue #2239](https://github.com/Satobloc/HsH/issues/2239), currently SUBMITTED_NOT_VERIFIED; [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0036Z_s4_ravel.md).
+
+**Primary mathematical review:** PR #2236's product readout descends through a quotient iff both components are constant on the relevant fibers. The proof is conditional and does not identify a physical carrier. UnitTagged carries dimension exponents and a real scalar, not unit identity, conversion, calibration provenance, uncertainty, or covariance. The normalized squared discrepancy is nonnegative but not a metric or likelihood. Coupling remains abstract; no force map or physical response law is instantiated.
+
+**Build status:** PR #1133 exact-head run #44709605971 passed at base fc7f927. PR #2236 run #44842095993 passed on merge reference 44e17cb, not exact head b5328c4. No formal review. The h983 Mercer claim of a sorry at RavelNormalConnectionReduction.lean:125 is not reproduced on the pinned base; the named file and inspected full build log show no sorry/admit, but global axiom audit was skipped.
+
+**Cross-lane findings:** Mersearch lane 2 outputs exist (22,755 files, 22,827,574 records, 6,850 hits, 1,181 distinct sources), but the request file remains status=requested and the Actions run is absent from CLONE_LEDGER. Other three canonical lanes lack outputs. MySearch workflow scaffold exists but is not run/validated; fixed EOF GITHUB_OUTPUT delimiter is unsafe for multiline input, and no durable queue/status endpoint or pre-runner acknowledgement exists. PR #1710 has a same-path divergence in conversation-json-content-ci.yml; edits appear separate but no mergeability test was made. Task graph remains 18 records / 16 declared, 5 completed / 12 active / 1 blocked, 7 roots, 11 parent pointers, 10 child edges, 17 reachable / 1 blocked-unreachable.
+
+**Orson protection:** P1 November 9 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED. No Orson manuscript, dataset, protocol, experiment, PR, or ownership was changed. No model trial, human session, API spend, or cross-agent consensus claim.
+
+**Scheduler/packet timing:** same :48 run key has start observations 23:49:10.683712Z, 00:06:50.642398Z, and 00:36:48.278197Z. Mercer packet created 23:48:42Z is prestart relative to first observation and poststart relative to later observations. See handoff Amendment 03; classification TIMING_AMBIGUOUS_SAME_RUN_KEY. No retry/restart/identity inference. No direct-thread delivery, consumption, or acknowledgment.
+
+**Next:** verify publisher issue #2239 and canonical readback without retry; retain PR #2236 exact-head build and independent review as separate gates; require a unit-identity/conversion/calibration record before any physical instantiation; Tern/Calder retain queue and PR authority; keep Orson P1 untouched. FIE next review 2026-11-24, not yet stale. Resolved unrelated-reading file was 39 lines; cursor EOF / line 40, prior cursor 2566 source lineage unresolved.
+
+---
+
 ## h972:s2 | 2026-11-20 12:24Z | Source-to-formalization audit
 
 **Selection:** Ravel (index 17); next ring label Orson Vay (index 18). No authenticated current Ravel thread was found. The latest located Ravel Free Build export contains the October 11 maximum-length cutoff; no new chat was created. This was a source-grounded revival in the current run, not historical-instance participation. No standalone signed specialist charter was found.
