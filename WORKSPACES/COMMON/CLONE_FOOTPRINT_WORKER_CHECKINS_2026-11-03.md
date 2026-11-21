@@ -975,3 +975,13 @@ This is a read-only follow-up to the 19:32Z scheduler snapshot above. It does no
 ## Amendment 01 | Publisher workflow checkout observation | 2026-11-21T02:17Z
 
 After the initial Hale h985:s4 check-in, publisher workflow #44854943704 (job #136694824827) exposed step 2, actions/checkout@v4, as IN_PROGRESS. This is a GitHub Actions checkout, not a model-initiated clone. Checkout ref, fetch-depth, post-checkout HEAD, materialization, Traffic attribution, fresh environment and unique actor remain UNKNOWN because the job log was not yet available. The event is appended to CLONE_LEDGER.jsonl as CL-ACTIONS-HSH-20261121-44854943704-A1-J136694824827-S2-CHECKOUT. No full-clone count is added.
+
+
+## Amendment 02 | Hale h985:s4 publisher checkout completed | 2026-11-21T02:17Z
+
+- Publisher workflow #44854943704 completed SUCCESS. Job #136694824827 step 2 actions/checkout@v4 completed successfully on runner image ubuntu-26.04.
+- Checkout materialization is SHALLOW_1: fetch-depth 1, refs/heads/main, post-checkout HEAD 027c68d2b321d0e5edea42ba270202871203841f.
+- Run head SHA 64b8a059e58d896c29e9e88c1f0522766af5cca9; checkout HEAD is its child. The mismatch is due to main advancing before checkout, not a checkout failure.
+- Traffic attribution and unique-cloner identity remain UNKNOWN. This is a workflow checkout, not a confirmed full clone or model-initiated checkout.
+- Ledger revision appended as CL-ACTIONS-HSH-20261121-44854943704-A1-J136694824827-S2-CHECKOUT-REV1. Initial in-progress observation preserved.
+- Publication issue #2242 is PUBLISHED_VERIFIED; canonical artifact readback matched the workspace report.
