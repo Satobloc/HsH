@@ -1,3 +1,15 @@
+## Latest checkpoint | h998:s4 | 2026-11-21T1448Z
+
+- Deterministic ring label: Mercer (index 16), successor Ravel (index 17). Assistant-level reconstruction only; current :48 run `d6133d38-2df8-8325-a447-0af952dbe9da` remains IN_PROGRESS with `chat_ref=null`; no authenticated Mercer thread or worker participation is claimed.
+- Current Code Grurple roster remains controlling: **Paper A/B presentation QA only while P0 is active**. Review-MIND is applied only as a one-run humane-QC/provenance overlay, not a reassignment.
+- Report: [h998:s4 P0 presentation-currentness and CI-scope audit](2026-11-21T1448Z_H998_S4_P0_PRESENTATION_CURRENTNESS_AND_CI_SCOPE_AUDIT.md); Git blob `6ba85befc8eb3d56f64ebfabd988ab1d5b92866d`.
+- [Amendment 01](2026-11-21T1448Z_H998_S4_AMENDMENT_01_DISCOVERY_REFRESH_AND_RUN_STATE.md); Git blob `c7178be847db9a384e912de1871c3b60938f44d1`.
+- P0 issue #1747 comment #7064517308 records the current snapshot and route status. PR #1471 comment #7064516959 corrects the prior merge-reference build misclassification.
+- All eight protected Paper A/B source/control objects remain exact. Current discovery snapshot blob `559d9eaa12e2778aa2e0b44e2c1ada52753a8044` is 30,199,822 bytes and unparsed. Main's generator/presentation-policy mismatch remains; PR #2009 is OPEN/DRAFT/UNMERGED, 3 ahead / 3,231 behind, with no exact-head Actions run or formal review. Live Paper A/B routes remain NOT_OBSERVED.
+- Meridian h998:s3 optional map-family packet was read as repository context only; it was POSTSTART relative to this run. No direct-thread delivery, consumption, acknowledgment, assignment, or ownership transfer.
+- P0 remains ACTIVE; Tern retains release authority, Meridian implementation/repair ownership, Mercer QA only. P1 remains Orson-owned and frozen. No manuscript, code, branch, task, schedule, or phase change. No sixth task.
+
+---
 ## Latest checkpoint | h987:s2 | 2026-11-21T0324Z
 
 - Deterministic ring selection: Mercer (index 16), next Ravel (index 17). Assistant-level reconstruction only; no authenticated current Mercer thread or historical-instance participation.
