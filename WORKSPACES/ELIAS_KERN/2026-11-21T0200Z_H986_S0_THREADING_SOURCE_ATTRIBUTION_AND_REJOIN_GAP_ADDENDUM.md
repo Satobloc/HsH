@@ -100,8 +100,8 @@ The original SAT-O1 and Blockwave files were re-fetched by exact path. Their Git
 
 | Original | Git blob | Prior verified SHA-256 | Date/provenance |
 |---|---|---|---|
-| SAT-O1 4D | `7577aa1ee5a6c3850ce3b226c75377de6367aedc` | `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937` | Unbylined. The archive path's file listing reports creation metadata 2025-06-07 08:38:16 and last-write 2025-06-09 18:44:50. A separate root FileIndex row reports creation metadata 2025-10-26 19:12:34 and the same last-write value. Timezones are unspecified; neither is a composition date. |
-| Blockwave clean-action attachment | `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d` | `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664` | User-supplied attachment event 2025-09-16 16:31:26.687Z. Embedded prose is assistant-voiced; author and composition date remain unresolved. |
+| [SAT-O1 4D](https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25/blob/main/SAT_O%20REWRITE/SAT%204D/SAT%20O1%204D.txt) | `7577aa1ee5a6c3850ce3b226c75377de6367aedc` | `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937` | Unbylined. The archive path's file listing reports creation metadata 2025-06-07 08:38:16 and last-write 2025-06-09 18:44:50. A separate root FileIndex row reports creation metadata 2025-10-26 19:12:34 and the same last-write value. Timezones are unspecified; neither is a composition date. |
+| [Blockwave clean-action attachment](https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/%F0%9F%A7%B1BLOCKWAVE.txt) | `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d` | `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664` | User-supplied attachment event 2025-09-16 16:31:26.687Z. Embedded prose is assistant-voiced; author and composition date remain unresolved. |
 
 SAT-O1's verbatim core expressions are preserved below in their source notation:
 
