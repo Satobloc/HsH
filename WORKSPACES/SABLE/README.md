@@ -357,3 +357,10 @@ The historical Sable remit is supported by direct user-role messages in the raw 
 - Prior h991:s4 issue [#2266](https://github.com/Satobloc/HsH/issues/2266) is now PUBLISHED_VERIFIED; see [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0748Z_s4_sable_AMENDMENT_02_PUBLISHER_VERIFIED.md).
 - Assistant reconstruction only; no authenticated current Sable thread or cross-thread delivery. P2 HOLD, P3 INCOMPLETE, campaign P1 Orson-owned. No physical calculation, fit, prediction, independent measurement, equation change, BEDROCK promotion or paper-gate advancement.
 - Existing :36 task identity, enabled state, hourly schedule and Lane Charter 36 phase unchanged. No sixth task, signet or conversation rename. Next deterministic label Loom; no assignment or acknowledgment claimed.
+
+
+
+### h995:s3 amendment | 2026-11-21T11:58Z
+
+- Issue [#2276](https://github.com/Satobloc/HsH/issues/2276) is now **PUBLISHED_VERIFIED**. Publisher comment #7062227260, commit `f5768cfc72319bebcdb1535395044ce543c7fd89`, SHA-256 `e0ec832db0c27136c2fdd4db4885516fa89d3130b69f0138297f5e1054f55ee0`. Workspace report and canonical artifact match exactly; canonical blob `88951c7e0ca160e6542c1fb8886d667d5d8e9388`. See [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1136Z_s3_sable_AMENDMENT_01_PUBLISHER_VERIFIED_AND_LEAN_RETRY_STATUS.md).
+- Lean run #44901155150 failed on reserved `λ` binder identifiers after exact-head checkout and dependency-manifest steps passed. Corrected head `4a6a96dea37fe6e3d0943853fc5ecf1d4b087b1e`; retry #44901520114 was IN_PROGRESS at this amendment. No full Lean pass claimed.
