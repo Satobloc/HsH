@@ -830,3 +830,26 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - No current Hale thread authentication or cross-thread delivery claim.
 - Receipt Amendment 01 records exact publisher-envelope/workspace content match, continuity readback, and the still-unverified publisher state: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0536Z_s3_hale_AMENDMENT_01_SUBMISSION_ENVELOPE_AND_CONTINUITY_READBACK.md).
 - Receipt Amendment 02 corrects the receipt Git-blob transcription in Amendment 01; receipt content is unchanged: [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0536Z_s3_hale_AMENDMENT_02_RECEIPT_BLOB_REFERENCE_CORRECTION.md).
+
+
+## h1004:s4 - Review-MIND source audit (2026-11-21)
+
+**Ring calculation:** h=1004; seq=5024; 5024 mod 19 = 8. Deterministic label Hale, index 8; next label Elias Kern, index 9, h1005:s0. This is not worker-instance or thread authentication. Current :48 run chat_ref=null.
+
+**Role authority:** Hale's historical remit is reconstructed from the 2026-09-12 common CHECKINS entry and Sable REV-006. These are historical worker-authored records, not a separately signed direct-user charter. The user-supplied Review-MIND lane charter is the direct authority for this run.
+
+**Research:** Reviewed Google DeepMind, "Improving Group Deliberation through AI-Guided Self-Reflection", arXiv:2610.37862v1. The study is a one-to-one pre-deliberation AI reflection followed by human-only group discussion, not live AI group membership. AIR improves the chat-adapted group DQI versus no-reflection control; the AIR-versus-static contrast weakens under member-weighted robustness. Human-model total-DQI agreement is moderate, and no human-coded group-level treatment contrast is reported. A 21-test BH sensitivity across secondary dimensions leaves no subdimension contrast significant. The prompt can introduce a competing consideration and conditionally suggest external search; treatment is a bundle. Proposed follow-up: randomized group saturation 0/1/2/3 AIR-prepared members to estimate direct and spillover effects.
+
+**Publication:** [Issue #2305](https://github.com/Satobloc/HsH/issues/2305), publisher confirmation comment #7069577526. Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hale-h1004-s4-predeliberative-ai-reflection-dqi-20261121t2048z-001.md. SHA-256 3d2d3c66835d57d271bb89aa3ebb18ba336abd205762eec894c24fe6103d2288; 14,527 bytes. Workspace and canonical artifact are byte-identical, Git blob 8ee063a54a368b93f179b3932be729b62d1c0d6e. Independently recomputed SHA-256 matches publisher confirmation.
+
+**Formalization:** Existing PR #1115 contains a generic prior-visibility witness. It does not establish semantic uptake or causal influence. Its current head is open/draft/unmerged and lacks a verified exact-head run; historical build #43119833616 applies to an earlier commit only. The session-confounding theorem is not applicable because this paper has many groups per arm. No new Lean module or build; no local Lean executable or approved current-main runner.
+
+**Current run:** ID 8dbcd7c6-9500-832d-a592-23b98a9279bd; scheduled 20:48Z; started 21:14:07.919298Z; chat_ref=null; last observed IN_PROGRESS. The earlier incorrect ID in the initial receipt and Calder Amendment 02 is superseded by Amendment 03.
+
+**Scheduler audit:** :00 run d2199e9d-6338-832c-80f9-446578490e27 was scheduled 21:00Z but labels itself h1004:s0 / Alberr and treats itself as a duplicate. The correct h1005:s0 label is Elias Kern. :24 run 95b96e72-5620-8333-8c01-ac487404fbe9 completed as h1005:s2 Enheduanna; an earlier NOT_FOUND lookup recovered. :36 run aeee624b-7e8c-8330-b254-1c537be24298 remains in progress; its started_at changed from 21:06:08.5Z to 21:36:14.348790Z between peeks with no run-ID change. :48 remains in progress. All four enabled task IDs and original hourly phases remain unchanged; :12 remains disabled; no sixth task.
+
+**Prior handoff timing correction:** Calder's packet to Hale carries a POSTSTART label, but Amendment 01's 21:06 activity precedes the current run's observed 21:14 start and has no run ID/thread reference. Timing remains unverified. Amendment 03 corrects the run ID and confirms that this run independently read SAT archive lines 3046-3085 (blob f33eb29fbac65efa1db054239bb9c28a04a13a42). Next unrelated-reading cursor 3086 is now confirmed; prior attribution remains unresolved.
+
+**Cross-lane safeguards:** P0 Code Grurple ACTIVE; P1 November 9 OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 November 30 HOLD; P3 December 14 INCOMPLETE. FIE last full review 2026-11-10 00:17Z; next 14-day review 2026-11-24. PWH WH-02 remains Calder-owned; WH-05 remains blocked. All four Mersearch lanes remain occupied/requested. No Orson work, task graph, PWH queue, Mersearch request, private HSH_RESOURCES payload, physical calculation, or theory promotion was changed.
+
+**Successor:** Elias Kern h1005:s0 received only a POSTRUN_OPTIONAL_CONTEXT_ONLY repository packet. No direct-thread delivery, consumption, acknowledgement, assignment, response obligation, or ownership transfer is claimed.
