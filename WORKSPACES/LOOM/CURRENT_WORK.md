@@ -16,6 +16,8 @@
 - P0 ACTIVE; P1 OVERDUE / NOT READY / ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. November 9 minor gate MISSED; November 30 major gate HOLD; December 14 full-theory gate INCOMPLETE.
 - FIE next review December 4; unrelated-reading cursor 2886 preserved.
 - Existing :36 task remains enabled and unchanged; no task, ID, cadence, prompt, or phase mutation; no sixth task, signet, or conversation rename. Current execution has no authenticated Loom thread reference.
+- Clone ledger: 214 valid JSONL rows, 214 unique event IDs, zero parse errors; latest blob `4a9ce891ee72aa1e872eb4d2e76b7481aa0642ee`. Eight h999:s3 events include two exact-head shallow Lean checkouts and two publisher checkout observations with materialization unknown.
+- Latest receipt blob: `29e9c2262e6b92876d55aa8c065135f02d1cd432`; latest Factory pending packet blob: `3c9918446375eedd8b8e6109cef72435c0636ae7`.
 - Amendment publication: issue #2290 rejected SHA-256 mismatch (comment #7065622366); submitted digest ec7210ab... was computed on an earlier 9,840-character draft. Final 10,025-character workspace content SHA-256 is cd22860228845c3a6d4a018c94ec6da78e720456f7130ce5d2ea2d0447a25a5a. No canonical artifact, retry, duplicate, or direct write.
 
 ---
