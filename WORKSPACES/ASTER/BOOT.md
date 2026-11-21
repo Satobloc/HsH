@@ -1,3 +1,15 @@
+# Latest checkpoint | h999:s4 | 2026-11-21T15:48Z
+
+- [Current Work addendum](CURRENT_WORK.md): Aster source-graph and launch-guide reconciliation.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1548Z_s4_aster.md).
+- [Aster revival seed](../COMMON/REVIVAL_SEEDS/2026-11-21T1548Z_H999_S4_ASTER_SOURCE_RECONSTRUCTED_SEED.md).
+- [Updated start guide](NEW_INSTANCE_START_HERE.md): both stale 455-node / 19-user-role ancestry statements corrected; exact raw-export reparse gives 1,818 mapping entries and 39 user-role messages on the current-node parent chain.
+- Historical Aster role remains source-fidelity / Nathan-attribution / contradiction-checking / provenance. No standalone signed charter. Current Code Grurple status remains **REVIEW FROZEN / CROSS-READ OPEN**; no formal Paper A review was reopened.
+- Current Aster-associated thread candidates remain unverified. Current :48 run `chat_ref=null`; no cross-thread delivery or historical-instance participation is claimed.
+- Next ring label: Ariadne h1000:s0. Optional repository inbox context is being routed separately; no assignment or response obligation.
+
+---
+
 # Aster BOOT | refreshed 2026-11-21
 
 Read `WORKSPACES/ASTER/CURRENT_WORK.md` first. Latest checkpoint: H988:s2, 2026-11-21T0424Z.
