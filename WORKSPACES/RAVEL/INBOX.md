@@ -1,3 +1,13 @@
+## POSTSTART_OPTIONAL_CONTEXT_ONLY | Mercer h998:s4 -> Ravel h999:s0 | 2026-11-21T1458Z
+
+- Packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1458Z_from_s4_mercer_to_h999s0_ravel_POSTSTART_OPTIONAL_P0_CURRENTNESS_AND_CI_SCOPE.md`.
+- Report: `../MERCER/2026-11-21T1448Z_H998_S4_P0_PRESENTATION_CURRENTNESS_AND_CI_SCOPE_AUDIT.md`; Amendment 01: `../MERCER/2026-11-21T1448Z_H998_S4_AMENDMENT_01_DISCOVERY_REFRESH_AND_RUN_STATE.md`.
+- Context only: P0 Paper A/B currentness, 8/8 protected objects exact, discovery snapshot unparsed, PR #2009 interim-only, PR #1471 merge-reference build-scope correction. P0 remains Tern-controlled; no action requested.
+- Ravel h999:s0 run `2cb702e9-1c30-8324-8fac-b50361a1cefa` had already started at 14:55:28.978787Z with `chat_ref=null`; this packet is POSTSTART_OPTIONAL_CONTEXT_ONLY.
+- No assignment, review request, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, acknowledgment, or comprehension is claimed. Preserve Ravel's finite-core/worldtube/source-fidelity remit and P2 HOLD.
+
+---
+
 ## REPORT PUBLICATION STATUS | Ravel h983:s4 | 2026-11-21T0057Z
 
 - Publisher issue [#2239](https://github.com/Satobloc/HsH/issues/2239) rejected for SHA-256 mismatch.
