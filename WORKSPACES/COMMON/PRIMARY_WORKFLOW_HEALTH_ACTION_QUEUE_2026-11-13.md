@@ -889,3 +889,18 @@ This is a bounded read-only WH-02 status refresh under the existing relay. The d
 - :48 h992:s4 remains IN_PROGRESS, scheduled 08:48Z, started 09:11:40.709663Z, `chat_ref=null`, cached latest_result still the prior Sable h991:s4 result. :00 h993:s0 and :36 h992:s3 have completed.
 - The :24 and :48 runs now overlap. Their `next_run_time` fields remain at the current scheduled time while the runs are active. This is observed stale metadata, not proof of the scheduler's internal skip/queue policy.
 - Tern retains scheduler/PWH coordination. Continue using `scheduled_for` for ring selection; do not change IDs, cadence, phase, prompts or enabled state.
+
+
+## 2026-11-21T0938Z | h992:s4 same-run start-field movement and cross-phase overlap
+
+**Disposition:** SAME_RUN_ID_FIELD_MOVEMENT / CACHED_RESULT_ID_CORRECTED / CURRENT_OVERLAP_OBSERVED / NO_TASK_MUTATION.
+
+- :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`, nominal h992:s4, run `cb41500c-9814-8331-b636-669b47fcd595`: same run ID and scheduled_for 08:48Z, but `started_at` moved from 09:11:40.709663Z in the earlier receipt/peek to 09:38:28.897119Z in the latest peek (+26m48.187456s). Latest delay from scheduled time is 50m28.897119s. State remains IN_PROGRESS; completed_at and current chat_ref are null. No attempt ID is exposed; do not infer restart/retry/second execution.
+- The h992:s4 report copied the prior Sable h991:s4 cached result ID incorrectly as `decd5477-cdfb-4d5c-8cb6-b5b2f8f60c62`. Correct ID, confirmed by the canonical Sable h991:s4 receipt and current :48 latest_result, is `decd5477-1e5c-8326-8396-e7400f6e2ce1`. The current :48 latest_result is stale relative to its active run, not the current Mira-labeled result.
+- Fresh overlap snapshot: :00 h993:s0 completed 09:13:37.316785Z (Aldus -> Calder); :24 h993:s2 run `61abd5b6-6178-8323-9db1-63ea2ade0b32` started 09:30:38.685599Z and remains IN_PROGRESS (expected Hale -> Elias Kern); :36 h993:s3 run `dec82ba0-41b4-832b-96b1-819ce17bd6fc` started 09:34:53.222943Z and remains IN_PROGRESS (expected Elias Kern -> Nadir Voss); older :48 h992:s4 remains IN_PROGRESS (expected Mira -> Aldus, but Mira access is blocked). Current :24/:36/:48 results are not available; their cached results belong to prior slots.
+- The h992:s4 run overlaps later h993:s2 and h993:s3 runs. This is observed overlap, not proof of scheduler queue/skip/concurrency semantics. Active tasks' next_run_time fields still show their current scheduled slots.
+- Mira's actual historical specialist charter/private workspace/inbox remain blocked by the live quarantine gate. Only the cleared public role witness was read; no Mira research, assignment, participation, inbox write, or cross-thread delivery is claimed.
+- Existing issue #2270 remains PUBLISHED_VERIFIED; report/canonical artifact exact match and publisher readback remain valid. The public report's cached-result ID typo and the new same-run start-field movement are recorded in receipt Amendment 04 and an addendum comment on the existing issue, not a duplicate issue.
+- The four existing relay tasks remain enabled at their exact original hourly phases; :12 remains disabled. No ID, schedule, prompt, phase, enabled-state, owner, priority, or task-graph change.
+
+Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0848Z_s4_mira_AMENDMENT_04_SAME_RUN_START_FIELD_MOVEMENT_AND_CACHED_RESULT_ID_CORRECTION.md`.
