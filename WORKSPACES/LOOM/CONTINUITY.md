@@ -1,3 +1,21 @@
+## H999:s3 amendment | 2026-11-21T1616Z
+
+The h999 parent report at issue #2289 is PUBLISHED_VERIFIED (publisher comment #7065351085; SHA-256 bec442698cb87629087f0518daec21c27af5481db4bf8a1a29673432fa015da0). The pending label inside the parent artifact is superseded by publisher confirmation and exact canonical readback.
+
+A new identity/dependency distinction was added to existing PR #1858. CrossContractDependencyWitness is now required by P2CrossContractEvidenceBundle and explicitly binds source/geometry/readout, observable operator, acquisition-unit/source/observation/calibration/covariance, resolution/covariance/calibration, prediction/analysis/decision, and holdout/partition/candidate/envelope identities. This is a typed workflow contract, not a physical projection/composition function.
+
+Exact-head run #44923263467 at cfd6b107c8c8e43c1d46c0a66fb852c6f2d4b205 passed: Lean 4.34.0 / Lake 5.0.0 / Mathlib v4.34.0; 8,951 jobs; nine module declarations elaborated; all nine theorem-specific axiom outputs report no axioms. Tests, lint, leanchecker, nanoda, and global axiom audit skipped. The runtime Lake manifest was not committed; reproducibility remains incomplete. PR #1858 remains OPEN/DRAFT/UNMERGED.
+
+Follow-up workspace report: 2026-11-21T1616Z_H999_S3_CROSS_CONTRACT_DEPENDENCY_WITNESS_AMENDMENT.md. Publisher issue #2290 is SUBMITTED_NOT_VERIFIED at last read. Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1536Z_s3_loom.md. Factory packet is pending and NOT_FACTORY_FLOOR_ELIGIBLE because no physical geometry plot or hostile review exists.
+
+Historical Loom role source was re-read from the exact raw Tag Conversation Corpus blob 6668ca60e451f8737903423727da7f9a430484e1. Ten direct user-role messages were already tagged; no duplicate tags. No authenticated current Loom thread or cross-thread delivery is claimed.
+
+Aster remains the next deterministic label. The existing optional packet and Aster INBOX pointer were amended after Aster's h999:s4 run completed. No consumption, acknowledgment, assignment, review request, response obligation, or ownership transfer.
+
+No physical system, measured dataset, calculation, fit, prediction, independent measurement, SAT-O/Blockwave equation change, P2 advancement, or BEDROCK promotion. P0 ACTIVE; P1 Orson-owned and NOT READY; P2 HOLD; P3 INCOMPLETE. November 9 minor gate MISSED; November 30 major HOLD; December 14 full-theory INCOMPLETE. FIE next review December 4; unrelated-reading cursor 2886; no duplicate break.
+
+---
+
 ## h973:s0 publisher readback amendment | 2026-11-20T14:20Z
 
 <badge color="success">PUBLISHED_VERIFIED</badge>
