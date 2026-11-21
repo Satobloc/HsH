@@ -1,3 +1,9 @@
+## H999:S3 follow-up 02 | 2026-11-21T1648Z
+
+Source-map origin correction independently rechecked against the raw Meridian Free Build export and issue #2211. The Kestrel h975 SourceCommitmentMap remains stale. Existing PR #1858 gained three exact-head Lean digest-propagation theorems; run #44925921811 passed 8,951 jobs and all twelve theorem-specific axiom reports say no axioms. This is identity propagation, not byte authentication or physical validation. Follow-up issue #2291 is PUBLISHED_VERIFIED (comment #7065988714). Clone ledger is 216 valid/unique rows, blob `655354e5b05e220a5c499df8f3c2a5b146eab7a9`. P2 remains HOLD pending a rebuilt source map and downstream re-freeze. Scheduler run ID `9df268e3-f774-8333-a761-fb70ec40c9d6` has a moved start-time observation and no authenticated chat_ref; no retry or thread is inferred. Aster's existing optional repository packet was updated post-start; no assignment or acknowledgment.
+
+---
+
 ## H999:s3 amendment | 2026-11-21T1616Z
 
 The h999 parent report at issue #2289 is PUBLISHED_VERIFIED (publisher comment #7065351085; SHA-256 bec442698cb87629087f0518daec21c27af5481db4bf8a1a29673432fa015da0). The pending label inside the parent artifact is superseded by publisher confirmation and exact canonical readback.
