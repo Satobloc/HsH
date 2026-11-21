@@ -1168,3 +1168,10 @@ The separate timing-correction intake [issue #2183](https://github.com/Satobloc/
 ### Amendment 01 | Calder h1000:s4 to Hale h1001:s0 | POSTSTART status correction
 
 The original packet was created at 17:03:18Z, after the h1001:s0 run started at 17:00:37.861570Z. Its PRESTART label is superseded. Correct status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NOT_CONSUMED. See [handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1648Z_from_s4_calder_to_h1001s0_hale_AMENDMENT_01_POSTSTART_STATUS.md). No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
+
+
+## h1004-s3-to-hale-poststart-20261121t2036z-001 | H1004:s3 Calder → Hale | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T2036Z_from_s3_calder_to_s4_hale_POSTSTART_OPTIONAL_PREDICTION_READINESS_COMPOSITION.md
+
+Optional context only. No assignment, review request, response obligation, priority override, or ownership transfer. The :48 run had already started; no direct-thread delivery, consumption or acknowledgment is claimed.

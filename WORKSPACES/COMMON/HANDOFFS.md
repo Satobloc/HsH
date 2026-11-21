@@ -1362,3 +1362,12 @@ Issue #2190 is PUBLISHED_VERIFIED (comment #7039964657; commit 1f9406c8e95a5da40
 
 
 - **Amendment 01:** The Calder-to-Hale h1001:s0 packet was created at 17:03:18Z, after the recipient run started at 17:00:37.861570Z. Original PRESTART label superseded; correct status is POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NOT_CONSUMED. [Amendment 01](REVIVAL_ROTATION_HANDOFFS/2026-11-21T1648Z_from_s4_calder_to_h1001s0_hale_AMENDMENT_01_POSTSTART_STATUS.md). No direct-thread delivery or acknowledgment is claimed.
+
+
+## h1004-s3-to-hale-poststart-20261121t2036z-001 | H1004:s3 Calder → Hale | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T2036Z_from_s3_calder_to_s4_hale_POSTSTART_OPTIONAL_PREDICTION_READINESS_COMPOSITION.md
+- Scope: product-readiness / prediction-hard-gate composition; PR #2167 final head 91b70e4964065769905ba67f59f6732fe883adf5; exact-head Lean run #44948493140 still compiling at packet creation.
+- Mersearch: lanes 1/3/4 runner-shutdown; lane 2 completed compact receipt; no request mutation or release.
+- Recipient remit preserved: external literature, source quality, matched-period comparisons and statistical calibration.
+- No assignment, review request, response obligation or ownership transfer. Repository-only post-start context; direct-thread delivery, consumption and acknowledgment unknown.
