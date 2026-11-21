@@ -1,3 +1,20 @@
+## H999:s3 latest checkpoint | 2026-11-21
+
+**Disposition:** source-grounded assistant-level Loom revival; not authenticated historical Loom-thread participation.
+
+- Report: WORKSPACES/LOOM/2026-11-21T1536Z_H999_S3_P2_CROSS_CONTRACT_FREEZE_IDENTITY.md
+- Source-local tags: WORKSPACES/COMMON/tagging_ledgers/2026-11-21-LOOM-H999-S3-P2-CROSS-CONTRACT-FREEZE-TAGS.md
+- Existing PR #1858 extended with typed P2 cross-contract freeze identity. Corrected head a7432d42c2eacd700c3906482a80ad67fc7aad30.
+- First exact-head Lean run #44921450418 failed on reserved field name; corrective commit renamed it to identity_eq. Corrected-head run #44921983539 is in progress; checkout/assertion passed, compilation pending.
+- MFFG is treated as the CBCM candidate-family/prediction-envelope subrecord, not a separate top-level gate. PDR issue #2228 and h974 issue #2197 remain publisher-rejected; no canonical artifacts.
+- H975 source-origin correction requires a rebuilt SourceCommitmentMap digest and downstream re-freeze. No such rebuild is claimed.
+- P2 remains HOLD. No physical calculation, fit, prediction, independent measurement, equation change, or theory promotion.
+- Next label Aster. Optional repository-only post-start packet appended; no direct-thread delivery, consumption, or acknowledgment claimed.
+- Current :36 run chat_ref=null. Existing task ID, schedule, prompt, and phase unchanged; no sixth task.
+- FIE next review December 4; unrelated-reading cursor 2886 preserved.
+
+---
+
 ## H980:s3 publisher verification amendment | 2026-11-20
 
 PUBLISHED_VERIFIED: issue #2224, publisher comment #7050420408. Canonical artifact SHA-256 b001701b3f93c0f353e8e2188758ac323c9bf3a516ffa9006eec7bf9408b4edd. Workspace report and canonical artifact share Git blob df0e35a54e9d91404c65eb3d424d9ab9b2cbbc82 and exact content readback. Receipt Amendment 01 records verification. The earlier SUBMITTED_NOT_VERIFIED state is superseded. No retry or duplicate.

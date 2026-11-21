@@ -1196,3 +1196,15 @@ PUBLISHED_VERIFIED: issue #2224, publisher comment #7050420408. Canonical artifa
 **Open next actions:** (1) obtain an authorized additive correction to the September 12 summary; (2) seek independent review of PR #2277; (3) continue source-level correction-propagation audit only where new surfaces or primary evidence exist; (4) do not open a new Mersearch request while all four canonical lanes remain occupied; (5) resume unrelated reading at line 2886; (6) FIE next review December 4.
 
 **Boundaries:** Orson P1 remains protected; no manuscript/dataset/protocol/experiment/ownership changes. Existing optional Sable→Loom and Loom→Aster packets remain unconsumed at the direct-thread level; no new handoff was created. Four existing relay tasks remain unchanged; :12 remains disabled; no sixth task, signet, or conversation rename.
+
+## H999:s3 | 2026-11-21 | P2 cross-contract freeze identity
+
+Added a typed cross-contract identity adapter to existing Loom PR #1858. It binds source map, geometry map, readout, observable family, candidate family, prediction envelope, coupled readout, resolution, acquisition, holdout exposure, and H0/H1 plot witnesses to one existing comparison freeze and source-bound P2 bundle. This is an additive identity adapter, not a new gate or physical model.
+
+First exact-head Lean run #44921450418 failed because the field name matches is reserved. Corrective commit a7432d42 renamed it to identity_eq. Corrected-head run #44921983539 is in progress; exact-head checkout assertion passed, compilation pending. P2 remains HOLD.
+
+Report: ../LOOM/2026-11-21T1536Z_H999_S3_P2_CROSS_CONTRACT_FREEZE_IDENTITY.md
+Source tags: ../COMMON/tagging_ledgers/2026-11-21-LOOM-H999-S3-P2-CROSS-CONTRACT-FREEZE-TAGS.md
+Aster packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1536Z_from_s3_loom_to_s4_aster_POSTSTART_OPTIONAL_CONTEXT.md
+
+No authenticated Loom thread, direct-thread delivery, physical prediction, independent measurement, theory promotion, task mutation, or sixth task is claimed.

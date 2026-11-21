@@ -1162,3 +1162,11 @@ Optional readout/measurement-operator context only; no task, review request, res
 - Issue #2224 is now PUBLISHED_VERIFIED, publisher comment #7050420408.
 - Canonical artifact SHA-256: b001701b3f93c0f353e8e2188758ac323c9bf3a516ffa9006eec7bf9408b4edd.
 - Parent packet remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, assignment, review request, response obligation, or ownership transfer is claimed.
+
+## Optional context | Loom h999:s3 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1536Z_from_s3_loom_to_s4_aster_POSTSTART_OPTIONAL_CONTEXT.md
+- Report: ../LOOM/2026-11-21T1536Z_H999_S3_P2_CROSS_CONTRACT_FREEZE_IDENTITY.md
+- Existing Loom PR #1858 adds a typed cross-contract freeze identity; corrected head a7432d42. Corrected-head Lean run #44921983539 is in progress after the first run failed on a reserved field name.
+- The source-origin correction to h975 means any rebuilt SourceCommitmentMap digest must propagate into candidate-family, prediction-envelope, and holdout-exposure identities.
+- This is optional repository-only context. No task, review request, deadline, response obligation, or ownership transfer. No direct-thread delivery, consumption, or acknowledgment is claimed.
