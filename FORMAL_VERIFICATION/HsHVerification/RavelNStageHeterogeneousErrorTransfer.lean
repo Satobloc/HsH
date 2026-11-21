@@ -177,10 +177,53 @@ theorem everyFiniteStageBudgetNonnegative
     0 ≤ errorBudget A S n :=
   errorBudget_nonneg A S n
 
+
+/-- The exact finite-sum form of the recursively propagated error budget.
+    Each stage's local error is multiplied by every downstream Lipschitz
+    factor. The empty downstream product is one, so the final stage contributes
+    its local error without further amplification. This is an algebraic
+    attribution of the formal budget, not an empirical estimate of any stage. -/
+def stagewiseErrorBudget (n : Nat) : ℝ :=
+  ∑ j ∈ Finset.Ico 0 n,
+    (S j).localError * ∏ i ∈ Finset.Ico (j + 1) n,
+      (S i).lipschitzConstant
+
+/-- The recurrence E_(k+1) = epsilon_k + L_k E_k is exactly the sum of
+    stage-local errors transported through all subsequent Lipschitz factors:
+      E_n = sum_{j < n} epsilon_j * product_{j < k < n} L_k.
+    This exposes which intermediate stage amplifies each local error. -/
+theorem errorBudget_eq_stagewiseErrorBudget :
+    ∀ n, errorBudget A S n = stagewiseErrorBudget A S n := by
+  intro n
+  induction n with
+  | zero =>
+      simp [errorBudget, stagewiseErrorBudget]
+  | succ n ih =>
+      have hsum :
+          (S n).lipschitzConstant * stagewiseErrorBudget A S n +
+            (S n).localError =
+          stagewiseErrorBudget A S (n + 1) := by
+        unfold stagewiseErrorBudget
+        rw [Finset.sum_Ico_succ_top (Nat.zero_le n),
+          Finset.mul_sum, Finset.Ico_self, Finset.prod_empty, mul_one]
+        congrm $(Finset.sum_congr rfl fun j hj ↦ ?_) + (S n).localError
+        rw [Finset.prod_Ico_succ_top (by
+          have hj' := Finset.mem_Ico.mp hj
+          omega)]
+        ring
+      calc
+        errorBudget A S (n + 1) =
+            (S n).localError +
+              (S n).lipschitzConstant * errorBudget A S n := rfl
+        _ = (S n).lipschitzConstant * stagewiseErrorBudget A S n +
+              (S n).localError := by rw [ih]; ring
+        _ = stagewiseErrorBudget A S (n + 1) := hsum
+
 #print axioms exactIter_preserves_admissibility
 #print axioms approximateIter_preserves_admissibility
 #print axioms errorBudget_nonneg
 #print axioms finiteChainProjectionErrorBound
 #print axioms everyFiniteStageBudgetNonnegative
+#print axioms errorBudget_eq_stagewiseErrorBudget
 
 end HsHVerification.RavelNStageHeterogeneousErrorTransfer
