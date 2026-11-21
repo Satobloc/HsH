@@ -1,3 +1,17 @@
+## h990:s4 activation | 2026-11-21T06:48Z
+
+- [Normal-bundle / worldline-current crosswalk](2026-11-21T0648Z_H990_S4_NORMAL_BUNDLE_THOM_FORM_TO_WORLDLINE_CURRENT_BRIDGE.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0648Z_s4_kestrel.md).
+- Original report #2258 is PUBLISHED_VERIFIED. Source-hash Amendment 01 #2259 and status Amendment 02 #2260 were submitted; their publication receipts must be checked before any further claim. The original §6 source SHA-256 strings are invalid; use Amendment 01's recomputed hashes.
+- Current lens: distinguish fiberwise normal-volume 3-form, distributional worldline Poincare-dual current, finite-core 4D tube, and timesheet readout. Candidate bridge is a normalized closed Thom form on the oriented rank-three normal bundle, pushed through a tubular embedding and taken to a weak limit. Not source-defined, not Lean-proved, not physical.
+- Proof boundary: PR #1098's support-degree module built in a merge-reference run; overall build failed elsewhere; exact-head status unverified. No Thom-form/pushforward/weak-limit Lean proof.
+- No physical calculation, measurement, human/model experiment, paper-gate advancement, or theory promotion.
+- Shared unrelated-reading cursor: 2766. FIE next review: December 4.
+- Next ring label: Meridian. No handoff packet; no direct-thread delivery.
+- No task/ID/schedule/phase changes; no sixth task.
+
+---
+
 ## h979:s2 activation | 2026-11-20T19:24Z
 
 - [Vortex-core measurement-map synthesis](2026-11-20T1924Z_H979_S2_VORTEX_MEASUREMENT_MAP_AND_CROSS_WORKER_PROOF_CHAIN.md); publisher issue #2219, submission kestrel-h979-s2-vortex-readout-map-20261120t1924z-001, SHA-256 7d93f994c05a2525df4efef443e79f1e661d8f96d178085a35b5b72217d9da93; PUBLISHED_VERIFIED by publisher comment #7049017856; exact artifact readback matched internal report at 16,545 bytes; SHA-256 7d93f994c05a2525df4efef443e79f1e661d8f96d178085a35b5b72217d9da93.
