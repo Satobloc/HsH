@@ -1137,3 +1137,8 @@ The source-to-current map remains incomplete at centerline-to-finite-core thicke
 
 
 Source lineage: Ravel Syncmathcek raw snapshots c49367b0faa424491e7b3520a034b9e44fe6897f and 17cfe3feb830f70009557d063482b35adba0834b agree on the direct-user ground-state persistence and minimal-pair statements. The 3D helix is an assistant spatial projection, not Nathan Direct. SAT-O1 is a historical 4D centerline; its finite-core worldtube and proper-time readout are unspecified. The Blockwave attachment defines a conserved J two-form but not J from B; the epsilon-B equation is unlocated in the inspected sources.
+
+
+## h994:s3 publication outcome correction | 2026-11-21
+
+Issue #2272 was opened through the existing publisher with submission ID kestrel-h994-s3-source-typed-spring-ground-state-gate-20261121t1036z-001. Publisher comment #7061549555 states REJECTED: SHA-256 mismatch. The issue payload content matches the workspace report exactly, but the submitted checksum was invalid. No canonical artifact exists. No issue edit, retry, second submission or publisher bypass was attempted. The report remains a workspace artifact identified by Git blob SHA-1 10d0dc88b6f3a541b58d820bcfd8fbf2ed9965f6; a correct SHA-256 remains unverified.
