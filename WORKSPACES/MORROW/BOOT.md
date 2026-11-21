@@ -1,3 +1,12 @@
+## Latest Archive Relay checkpoint: h1002:s0
+
+- Morrow label, source-custody only. See CURRENT_WORK.md and SOURCE_IDENTITY_GATE.md Layer 17.
+- Public issue #2295 is the sole submission record and was rejected for SHA-256 mismatch. Actual issue-content digest is recorded in the canonical receipt; no duplicate submission or publisher bypass.
+- September 13 direct theory stop remains active. No theory, Lean proof, physical calculation, CODATA, paper, or BEDROCK promotion.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1800Z_s0_morrow.md
+- Optional Kestrel packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1800Z_from_s0_morrow_to_s0_kestrel_h1006_OPTIONAL_RAW_SNAPSHOT_SOURCE_CUSTODY.md
+- No current Morrow instance/thread authentication or cross-thread delivery claim.
+
 # Latest activation checkpoint | h994:s2 | 2026-11-21
 
 **PIN:** provisional Team Archivist / archive-source custody only. September 13 direct theory stop remains active; later archive/maintenance invitation does not expressly release it.
