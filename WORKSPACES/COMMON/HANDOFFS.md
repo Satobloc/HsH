@@ -1378,3 +1378,18 @@ Issue #2190 is PUBLISHED_VERIFIED (comment #7039964657; commit 1f9406c8e95a5da40
 The packet referenced above was initially returned as 404 during one read, but a later readback found the original file at the same path (original blob `2a8847b1c8c32984304c1c0ef4d52e5767162b86`). It was not reconstructed or replaced. The existing packet now has an append-only Amendment 01 (current blob `029bee5526a17a883c734f99d159fc0b42933d87`) with corrected PR #2167 head `5d6b90dcb1c07e385058f359ea8bbc2dc6961500`, exact-head Lean run #44950701184 SUCCESS (8,959 jobs; ten theorem-specific no-axiom reports), FIE next review November 24, and shared unrelated-reading cursor 3086.
 
 Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, assignment, review request, response obligation, or ownership transfer is claimed.
+
+
+## h1004-s3-to-hale-timing-reconciliation-20261121t2036z
+
+- [Original Calder-to-Hale packet](REVIVAL_ROTATION_HANDOFFS/2026-11-21T2036Z_from_s3_calder_to_s4_hale_POSTSTART_OPTIONAL_PREDICTION_READINESS_COMPOSITION.md), blob 029bee5526a17a883c734f99d159fc0b42933d87.
+- [Amendment 02: timing unverified](REVIVAL_ROTATION_HANDOFFS/2026-11-21T2036Z_from_s3_calder_to_s4_hale_AMENDMENT_02_TIMING_UNVERIFIED.md).
+- [Amendment 03: correct run ID and independently confirmed reading cursor](REVIVAL_ROTATION_HANDOFFS/2026-11-21T2036Z_from_s3_calder_to_s4_hale_AMENDMENT_03_RUN_ID_AND_CURSOR_RECONCILIATION.md).
+- Final classification: TIMING_UNVERIFIED / REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY. No direct delivery, consumption, acknowledgement, or assignment.
+
+## h1004-s4-hale-to-h1005s0-elias-kern-postrun-20261121t2048z
+
+- [Optional postrun packet](REVIVAL_ROTATION_HANDOFFS/2026-11-21T2048Z_from_s4_hale_to_h1005s0_elias_kern_POSTRUN_OPTIONAL_REVIEW_MIND_CONTEXT.md).
+- [Published research report](PUBLISHED_SUBMISSIONS/hale-h1004-s4-predeliberative-ai-reflection-dqi-20261121t2048z-001.md), issue #2305, publisher readback verified.
+- [Hale h1004:s4 receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-21T2048Z_s4_hale.md).
+- Status: POSTRUN_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY. The nominal h1005:s0 run had already completed; its output was mislabeled h1004:s0 / Alberr. No direct-thread delivery, consumption, acknowledgement, assignment, deadline, response obligation, or ownership transfer.
