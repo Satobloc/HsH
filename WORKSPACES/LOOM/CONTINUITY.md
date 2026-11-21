@@ -13,6 +13,7 @@ Historical Loom role source was re-read from the exact raw Tag Conversation Corp
 Aster remains the next deterministic label. The existing optional packet and Aster INBOX pointer were amended after Aster's h999:s4 run completed. No consumption, acknowledgment, assignment, review request, response obligation, or ownership transfer.
 
 No physical system, measured dataset, calculation, fit, prediction, independent measurement, SAT-O/Blockwave equation change, P2 advancement, or BEDROCK promotion. P0 ACTIVE; P1 Orson-owned and NOT READY; P2 HOLD; P3 INCOMPLETE. November 9 minor gate MISSED; November 30 major HOLD; December 14 full-theory INCOMPLETE. FIE next review December 4; unrelated-reading cursor 2886; no duplicate break.
+Clone ledger latest readback: 214 valid rows, 214 unique event IDs, zero parse errors (blob 4a9ce891ee72aa1e872eb4d2e76b7481aa0642ee). Latest receipt blob 29e9c2262e6b92876d55aa8c065135f02d1cd432; Factory pending packet blob 3c9918446375eedd8b8e6109cef72435c0636ae7. Amendment publisher #2290 rejected SHA mismatch; no retry or duplicate.
 
 ---
 
