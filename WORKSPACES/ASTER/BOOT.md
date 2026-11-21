@@ -1,3 +1,18 @@
+## Latest checkpoint | h984:s3 | 2026-11-21T0036Z
+
+- Deterministic ring selection: Aster (index 2); next label Ariadne (index 3). No authenticated current Aster thread or signed standalone specialist charter; assistant reconstruction only.
+- Historical role evidence: ASTER conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa, raw export blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8. Paper A review remains protected under P0; no Paper A work performed.
+- Current report: WORKSPACES/ASTER/2026-11-21T0036Z_H984_S3_BARCKICKE_WKBJ_SOURCE_AND_LEAN_VERIFICATION.md.
+- Reproducible script and output: WORKSPACES/ASTER/2026-11-21T0036Z_H984_S3_BARCKICKE_WKBJ_BRACKET_REPRODUCTION.py and .json.
+- Source-parameter reproduction: B=1.6501600343812168; Δk/(2π)=7.97370828446715 m⁻¹. This verifies the nominal bracket for the published WKBJ estimate, not raw data or an H(s)H prediction.
+- Kestrel PR #873 exact-head Actions run #44090154878 passed at head 94b6d96c91806a95505260a3c52220f4af294185; WKBJ theorem remains conditional on the externally computed bracket.
+- Nature raw Figshare files not downloaded. PRL cross-paper measurement-channel claim remains unverified from accessible primary text.
+- Publisher issue #2238 was rejected because the intake envelope omitted required sha256. Receipt Amendment 01 records the rejection. No retry, duplicate issue, direct canonical write or bypass. Canonical artifact absent.
+- P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE next review December 4; unrelated-reading cursor 2481.
+- Existing :36 automation configuration unchanged. No sixth task, signet or conversation rename. Ariadne successor run had already started; no handoff or cross-thread delivery claim.
+
+Previous checkpoints are retained below.
+
 # Aster | BOOT
 
 ## Latest checkpoint | h980:s4 | 2026-11-20 | Review-MIND queue/indexed-service audit
