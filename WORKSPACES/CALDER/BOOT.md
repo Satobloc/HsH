@@ -1,3 +1,14 @@
+# Latest checkpoint | h1000:s4 | 2026-11-21T16:48Z
+
+- Review-MIND overlay: Parisi prompt-content, allocation-inference, and proposal-lineage audit.
+- Report: [h1000:s4 audit](2026-11-21T1648Z_H1000_S4_PARISI_PROMPT_CONTENT_AND_PROPOSAL_LINEAGE_AUDIT.md); publisher issue [#2292](https://github.com/Satobloc/HsH/issues/2292), status SUBMITTED_NOT_VERIFIED at this checkpoint.
+- Source finding: Study 2 "neutral" prompts contain numeric and semantic exemplars; distinguish content introduction, selection amplification, and frame shaping. No causal effect of the prompt examples is established.
+- Statistical scope: group-level crossover, compositional allocations, and unspecified Welch-test unit/sequence counts. No pseudoreplication claim.
+- Formalization: existing PR #1189 projection/factorization theorem and PR #1619 source/occurrence distinctions reused; no new Lean module or build.
+- Source-authority correction: the 2026-09-12 CHECKINS entry is a worker-authored self-report, not a direct-user or Nathan Direct charter. The historical CHECKINS source is unchanged.
+- Run identity: deterministic Calder ring label only; current run `90932fcd-8584-8327-811d-d9edf17518f4`, `chat_ref=null`, last observed IN_PROGRESS. No direct-thread delivery or worker-instance participation is claimed.
+- Successor label: Hale, h1001:s0, optional repository context only. No assignment or acknowledgment.
+
 ## Latest checkpoint | Calder h989:s2 | 2026-11-21 | Lane 24 measurement-map / WWRD source audit
 
 - Current return: [CURRENT_WORK.md](CURRENT_WORK.md), h989:s2.
@@ -92,7 +103,7 @@ P0 discovery snapshot 06:19Z directly reconfirms Paper A/B raw-workspace reader 
 
 ## Latest checkpoint — Calder h856:s2 (2026-11-15)
 
-- Source-grounded Calder-label revival; historical authority remains the 2026-09-12 direct-user check-in in Common CHECKINS.md, lines 53-106. No standalone signed Calder charter or authenticated current empirical-Calder thread.
+- Source-grounded Calder-label revival; historical role evidence remains the 2026-09-12 worker-authored self-report in Common CHECKINS.md, lines 53-106. It is not a direct-user or Nathan Direct specialist charter. No standalone signed Calder charter or authenticated current empirical-Calder thread.
 - WH-02 revalidation report: [h856:s2](./2026-11-15T1624Z_H856_S2_WH02_CURRENT_HEAD_AND_REGRESSION_REVALIDATION.md). PR #1710 remains OPEN/DRAFT/UNMERGED, head a967e908ceab048d219831ec799343643870daf3, 7 ahead / 2,398 behind main snapshot 616e39b53587bf07de4d98529473d793fc7b8211. Three existing gaps remain: warning-step reachability, malformed-JSON classification, and dotted extensionless-title fidelity. No exact-head Actions run or formal review; no rebase or branch write.
 - P0 Code Grurple remains ACTIVE under #1747; WH-02 issue #1702 and PR #1710 remain canonical. Tern retains P0/queue/scheduler authority. Lane 24 remains HOLD; no physical calculation or CODATA comparison.
 - h845 gyroscope source-recovery report and h848 Review-MIND report were read. The former still has the November 9 raw source NOT RECOVERED; the latter is a methodology proposal, not a P1 experiment or theory result.
@@ -103,7 +114,7 @@ P0 discovery snapshot 06:19Z directly reconfirms Paper A/B raw-workspace reader 
 
 ## Latest checkpoint — Calder h837:s2 (2026-11-14)
 
-- Source-grounded Calder-label revival; historical direct-user check-in remains the role authority (`CHECKINS.md`, lines 53–106). No authenticated current empirical Calder thread or historical-instance participation is claimed.
+- Source-grounded Calder-label revival; the 2026-09-12 worker-authored self-report in `CHECKINS.md`, lines 53-106, remains the soft historical role evidence, not a direct-user charter. No authenticated current empirical Calder thread or historical-instance participation is claimed.
 - New P0 scope census: the current discovery index contains 7,915/7,915 workspace records with generic raw-source reader targets and 7,718 workspace excerpts. Receipts, handoffs, worker inboxes, BOOT/CURRENT_WORK files, observations, paper-workspace records, Mersearch request JSONs, the task graph and the PWH queue are included. This is a public discovery-index / reader-policy mismatch; live reader rendering remains unknown.
 - Report: [h837:s2 workspace-wide discovery exposure and WH-02 preflight](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-11-14T2124Z_H837_S2_P0_WORKSPACE_DISCOVERY_EXPOSURE_AND_WH02_REBASE_PREFLIGHT.md) (blob `9cf96a9dfb7b77622a53236996b35060e6b9d77a`).
 - Canonical receipt: [h837:s2 Calder](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T2124Z_s2_calder.md) (blob `b55e65a26419fbf00b712ee5481d7fdccb86ab69`).
@@ -141,7 +152,7 @@ Do not rebase or edit PR #1710 without an authenticated local checkout or approv
 **Purpose:** compact identity, role, current-authority and capability entry point. This is source-grounded continuity, not an authenticated historical or current ChatGPT identity.
 
 ## Role and source authority
-- Historical role source: the direct user-authored Calder entry in `WORKSPACES/COMMON/CHECKINS.md`, dated 2026-09-12.
+- Historical role evidence: the 2026-09-12 Calder entry in `WORKSPACES/COMMON/CHECKINS.md` is a worker-authored self-report, not a direct-user-authored or Nathan Direct specialist charter. No standalone signed empirical-Calder charter or authenticated current empirical-Calder thread has been recovered.
 - Core remit: adversarial empirical testing, angle-clustering null design, independent-unit discipline, statistical calibration/covariance, and source/provenance separation.
 - No standalone signed Nathan-authored Calder specialist charter was recovered. Do not promote assistant reconstructions into one.
 - Keep external observations separate from H(s)H interpretation. Earlier mixed-lane target-angle/harmonic interpretations remain quarantined; preserve negative and method-artifact results as QC.
