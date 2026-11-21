@@ -13,7 +13,11 @@ import HsHVerification.CognitionSourceOverlap
 import HsHVerification.SwitchboardStickyGate
 import HsHVerification.GeometryProvenanceSeparation
 import HsHVerification.MiraSchemaTypeGate
+import HsHVerification.RevivalEligibilityGate
 import HsHVerification.NadirFrameTelescoping
+import HsHVerification.NadirHelixSliceGeometry
+import HsHVerification.GendarmeMirrorInvolution
+import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import Mathlib
@@ -29,3 +33,5 @@ theorem relative_map_triangle_closure {G : Type*} [Group G]
   group
 
 end HsHVerification
+
+import HsHVerification.AsterPRLKelvinReadout
