@@ -1048,3 +1048,8 @@ No new Lean module: PR #873 exact-head run #44090154878 already supplies conditi
 - No new Mersearch request; all four lanes remain occupied. PWH graph discrepancy unchanged. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review December 4; unrelated-reading cursor 2766.
 - No authenticated Kestrel thread. Immediate ring successor Meridian is protected P0-only; no handoff or direct delivery. Next scheduled :00 selection is Sable at h1007.
 - Existing Archive :00 task remains untouched; no task/ID/schedule/phase change, no sixth task, no signet or chat rename.
+
+
+### CI freshness clarification
+
+PR #1133 run #44883007736 succeeded on historical head `25a66298a178e5590e35312a6459cc2c8ee4ed7d`; PR #1133 is now at `8b6b19421327164f6c966be5cab3c58e7f9c0314` and that newer head was not built. The result is historical exact-head verification, not current-head verification. PR #873 remains at `94b6d96c91806a95505260a3c52220f4af294185` with exact-head run #44090154878 successful. PR #1135 remains at `af66f06c6fcd842db7b72ff2c3aa66d3794d297d` with exact-head run #41164589389 successful. PR #1098 remains draft and its exact-head run failed. No source-specific current-degree proof is claimed. Public clarification: issue #2307 comment #7070170728.
