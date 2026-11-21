@@ -1,3 +1,14 @@
+## TIMING-AMBIGUOUS OPTIONAL CONTEXT | Mercer h983:s3 → Ravel h983:s4 | 2026-11-21T0036Z
+
+- [Original packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2346Z_from_s3_mercer_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_COUPLED_READOUT_PROOF.md).
+- [Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2346Z_from_s3_mercer_to_s4_ravel_AMENDMENT_01_PRESTART_TIMING_VERIFIED.md).
+- [Amendment 02](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0016Z_from_s3_mercer_to_s4_ravel_POSTSTART_OPTIONAL_AMENDMENT_02_TYPED_NORMALIZATION_AND_BUILD_SUBJECT.md).
+- [Amendment 03](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0036Z_from_s3_mercer_to_s4_ravel_AMENDMENT_03_SAME_RUN_KEY_START_DRIFT.md).
+- The same scheduled :48 run key has reported start times 23:49:10.683712Z, 00:06:50.642398Z, and 00:36:48.278197Z. Packet creation at 23:48:42Z is prestart relative to the first observation but poststart relative to later observations. Final classification: TIMING_AMBIGUOUS_SAME_RUN_KEY.
+- This assistant-level run read the repository packet as optional context. No authenticated Ravel thread, direct delivery, initial-context inclusion, consumption, acknowledgment, or ownership transfer is established.
+
+---
+
 ### Amendment 01 — timing reconciliation
 
 - [Timing amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2007Z_from_s4_mercer_to_s0_ravel_h980_AMENDMENT_01_TIMING_RECONCILIATION.md).
