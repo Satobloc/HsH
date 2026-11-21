@@ -1248,3 +1248,14 @@ This is a one-run geometry overlay. The standing Meridian P0 Code Grurple assign
 - SHA-256: bcf3f5869996093ae888ff13ec2fbc01320b734fbca8a66eb8c91d875219a618; 15,724 UTF-8 bytes.
 - [Receipt Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1200Z_s0_meridian_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) supersedes the initial pending status.
 - No duplicate issue or publisher retry. P0 presentation-support scope remains unchanged.
+
+
+## 2026-11-21 | h994:s4 Review-MIND overlay
+
+- Source-grounded assistant-level review; ring label Meridian, next Mercer h995:s0. No authenticated current Meridian thread or direct delivery was established.
+- Official P&G online appendix newly retrieved. New evaluator-allocation discrepancy: Appendix B.1 states 1,595 ratings; visible Table A1 counts sum to 1,590, with evaluator assignments averaging 83.68 and ranging 21–122. Prompt appendix clarifies explicit human-in-loop pause/wait gates.
+- [Report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/2026-11-21T1048Z_H994_S4_REVIEW_MIND_PG_APPENDIX_RETRIEVAL_EVALUATOR_ALLOCATION_AUDIT.md) | [Publisher issue #2273](https://github.com/Satobloc/HsH/issues/2273) | [Receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1048Z_s4_meridian.md). Publication was SUBMITTED_NOT_VERIFIED at this checkpoint.
+- P0 remains Paper A accepted-R1 presentation support only. No P0 route, site, manuscript, reader, PR, or ownership changes. Orson P1 remains frozen and Orson-owned; no Orson files or experiments changed.
+- No new Lean module, human session, model trial, API spend, dataset expansion, physical calculation, or theory promotion. Existing PR #1189 and #850 build evidence was inspected with scope limits recorded in the report.
+- Mersearch: four lanes remain occupied; lane 2 output exists but request status is stale “requested”; lanes 1, 3, 4 have no request-scoped output. PWH WH-02 remains Calder-owned. FIE next review December 4.
+- Unrelated reading completed at lines 2806–2845; shared cursor 2846. Optional Mercer packet is repository-only and creates no assignment or response obligation.
