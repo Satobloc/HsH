@@ -1100,3 +1100,9 @@ The intermediate head was cancelled before checkout when a newer commit arrived.
 - Issue #2188 publisher run #44732383018 completed SUCCESS; confirmation comment #7039051017.
 - Canonical artifact and Kestrel workspace report are byte-for-byte identical, both Git blob `250bfa7a286725ca1c2aa06058439ad39b6bfc10`, 12,455 UTF-8 bytes, publisher SHA-256 `eee30866df71d193b82f0861ba1e16070ba58a8ee9033d5c3360b761135abe6e`.
 - Receipt Amendment 01 supersedes the initial pending-publication checkpoint. No retry, duplicate, or alternate publication route.
+
+## H987:s0 — 4DHH / worldtube / high-speed angle crosswalk
+
+The June 23 direct source's 4D Nth-order superhelix is a simplicity target: one nested carrier with layer-dependent changes. The source leaves the scale-factor placement open and separately states that coupling varies per interaction among multiple H(s)H structures. July 11 explicitly distinguishes superhelical nesting from braid nesting. The June 23 near-45° stretched-helix/vacuum-energy/knot passage remains a historical geometric hypothesis, not a defined current theta4 law.
+
+The source-to-current map remains incomplete at centerline-to-finite-core thickening, nested-level projection/composition, interaction coupling, full-carrier kinematic transformation, and timesheet readout. See [H987 crosswalk](2026-11-21T0300Z_H987_S0_4DHH_WORLDLINE_WORLDTUBE_ANGLE_CROSSWALK.md). No new Lean module, physical calculation, CODATA result, public issue, or theory promotion.
