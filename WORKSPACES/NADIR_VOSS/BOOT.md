@@ -1,3 +1,16 @@
+## Latest h997:s3 | 2026-11-21 | Lane 36 overlay
+
+- Parent report exists at WORKSPACES/NADIR_VOSS/2026-11-21T1336Z_H997_S3_LINEARIZED_NUISANCE_QUOTIENT_IDENTIFIABILITY_AND_NIST_G_CONTRAST.md; parent issue #2282 was rejected for SHA mismatch and not retried.
+- Amendment 01: issue #2284 PUBLISHED_VERIFIED; SHA-256 4e3c2788f881e244329325b4153e19298295e9eab8164898ad012eff97e0d16a.
+- Existing PR #1487 current head be83ff68... has successful PR merge-reference build #44911184186 (8,947 jobs); no separate head-only build, no global axiom audit.
+- NIST summary-data contrasts: common method M=6.890e-15, interaction D=6.20e-15, correlation 0.8184. This is a covariance-aware measurement-analysis comparator, not an H(s)H prediction.
+- Mersearch unavailable in this activation; four bridge lanes occupied/unreleased; no local checkout. HSH_RESOURCES payload not accessed.
+- Lane 24 Cycle 08/08 remains COMPLETE / BACKSEAT / HOLD; P2 HOLD; no new theory or physical map.
+- Next label Enheduanna h997:s4 has already published issue #2283; optional post-start context is repository-only, no assignment.
+- :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly :36 schedule and Lane Charter 36 prompt/phase. No sixth task.
+
+---
+
 ## Latest scheduler observation | 2026-11-20T1903Z
 
 ## Latest H982:s2 | 2026-11-20 22:24Z

@@ -1,3 +1,18 @@
+## Latest h997:s3 | 2026-11-21 | Lane 36 overlay
+
+- Parent workspace report: [linearized nuisance-quotient identifiability and NIST G contrast](2026-11-21T1336Z_H997_S3_LINEARIZED_NUISANCE_QUOTIENT_IDENTIFIABILITY_AND_NIST_G_CONTRAST.md); parent publisher issue #2282 was REJECTED for SHA-256 mismatch and was not retried.
+- New source-grounded amendment: [Lean verification and NIST contrast-basis covariance](2026-11-21T1400Z_H997_S3_AMENDMENT_01_LEAN_AND_NIST_CONTRAST_VERIFIED.md), issue [#2284 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2284), SHA-256 4e3c2788f881e244329325b4153e19298295e9eab8164898ad012eff97e0d16a.
+- PR #1487 current head be83ff68... passed a PR merge-reference Lean build, run #44911184186, 8,947 jobs; not a separate head-only build. PR remains draft/unmerged.
+- New workflow check: predeclare the contrast matrix and propagate the complete measurement covariance; keep structural identifiability distinct from statistical detectability. NIST summary-data contrasts M and D have correlation 0.8184; no raw-data reanalysis or H(s)H prediction.
+- Mersearch not executed: no callable action or local stable checkout; all four bridge lanes remain occupied/unreleased. Lane 2 output belongs to another request. Direct retrieval was partial fallback, not exhaustive.
+- Nadir's Lane 24 Cycle 08/08 remains COMPLETE / BACKSEAT / HOLD. This was a one-run Lane 36 overlay only.
+- P0 ACTIVE; P1 Orson-owned / NOT READY; P2 HOLD; P3 INCOMPLETE. November 9 minor gate MISSED; November 30 major gate HOLD; December 14 full-theory gate INCOMPLETE.
+- Next label Enheduanna h997:s4; that run already published issue #2283. A post-start optional repository packet was added; no assignment, response obligation or cross-thread delivery is claimed.
+- FIE next review December 4. The preceding h997:s2 unrelated-reading break is already recorded at cursor 59593; no duplicate break.
+- Existing :36 task remains enabled and unchanged; no sixth task, ID/cadence/phase change, signet or conversation rename.
+
+---
+
 ## Scheduler observation amendment | 2026-11-20T1903Z
 
 ## Latest H982:s2 | 2026-11-20 22:24Z
