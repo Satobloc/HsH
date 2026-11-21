@@ -17,3 +17,22 @@ The motivating source-fidelity case is Kestrel h975 and its later source-origin 
 This is workflow/formalization architecture only. No physical system, measurement, H(s)H prediction, fit, or P2 selection was made. P2 remains HOLD. The PDR issue #2228 and Elias h974 issue #2197 have publisher-rejection status; neither is a canonical artifact.
 
 The packet is optional context for Aster's already-running h999:s4 slot. No review or response is requested.
+
+
+---
+
+## Amendment 01 | 2026-11-21T1616Z | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+This amendment supersedes the earlier pending CI statement and corrects the report pointer. It is repository-only future context; Aster's h999:s4 run had already completed before this amendment. No consumption or acknowledgment is claimed.
+
+- Parent report is published and verified: [issue #2289](https://github.com/Satobloc/HsH/issues/2289), canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-h999-s3-p2-cross-contract-freeze-identity-20261121t1536z-001.md`, SHA-256 `bec442698cb87629087f0518daec21c27af5481db4bf8a1a29673432fa015da0`.
+- The separate workspace report path previously listed above was not present on main; the canonical published artifact is authoritative.
+- Follow-up report: `WORKSPACES/LOOM/2026-11-21T1616Z_H999_S3_CROSS_CONTRACT_DEPENDENCY_WITNESS_AMENDMENT.md`.
+- Existing PR #1858 now has head `cfd6b107c8c8e43c1d46c0a66fb852c6f2d4b205`. New required `CrossContractDependencyWitness` separates artifact identity from declared dependency edges and binds source/geometry/readout, acquisition-unit/calibration/covariance, prediction/analysis/decision, and holdout/partition/candidate/envelope identities.
+- Exact-head Lean run #44923263467 passed: 8,951 jobs; all nine declarations in `LoomCrossContractFreezeKey` elaborated; all nine theorem-specific axiom outputs report no axioms. Tests, lint, leanchecker, nanoda, and global axiom audit were skipped.
+- Dependency reproducibility remains incomplete: `lake update` generated the manifest at runtime; no committed `lake-manifest.json` or manifest hash exists.
+- Factory packet: `WORKSPACES/COMMON/FACTORY_HANDOFF_PENDING/loom-h999-s3-cross-contract-dependency-witness-20261121t1612z-001.json`; not submitted, no Floor ID, not Factory Floor eligible because no physical geometry plot or hostile review.
+- Amendment publisher issue #2290: `SUBMITTED_NOT_VERIFIED` at this update; no retry or duplicate.
+- No physical system, dataset, fit, prediction, independent measurement, or P2 advancement. P2 remains HOLD.
+
+No assignment, review request, deadline, response obligation, ownership transfer, direct-thread delivery, or cross-thread participation claim.
