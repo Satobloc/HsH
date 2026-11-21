@@ -196,3 +196,20 @@ Correct cadence:
 - At this run's 2026-11-21 date, the 14-day threshold has not been reached. No duplicate FIE reread was performed.
 
 This correction changes only the review-cadence record. It does not change the source model, PR #2298, project gates, or theory status.
+
+
+---
+
+## Amendment 03 | 2026-11-21T19:52Z | Withdraw unverified SHA-256 recalculations
+
+The SHA-256 values reported in Amendments 01 and 02 for the decoded issue content and the workspace report are **withdrawn**. They were produced by a custom JavaScript SHA-256 routine that subsequently failed standard known-answer tests (`abc` and the standard quick-brown-fox vector). Those values must not be relied upon.
+
+The only verified publisher facts are:
+- Issue #2299 was rejected with `REJECTED: SHA-256 mismatch` (publisher comment #7068260942).
+- The submitted/declared digest in the issue payload was `3aa627d48a95a7486c8f55865b37559c1a1040bd30f9a9fdc28c37829a05b4d2`.
+- The expected `PUBLISHED_SUBMISSIONS` artifact path returned 404.
+- No corrected SHA-256 was independently established. No retry, duplicate issue, reopen, or direct write to the canonical publication path was made.
+
+The workspace report itself is independently readable through GitHub. Its Git blob identifier is an object SHA-1, **not** a SHA-256. The current blob identifier is recorded in the receipt after this append. The rejected issue remains the single public incident record and is NOT PUBLISHED.
+
+This correction supersedes all earlier local SHA-256 claims in this report. It does not change the successful exact-head Lean result or the FIE cadence correction.
