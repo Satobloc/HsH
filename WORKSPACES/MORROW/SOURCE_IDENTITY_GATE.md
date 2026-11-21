@@ -449,3 +449,23 @@ No source-faithful Lean theorem is ready: the core dimension, boundary, admissib
 **Authority effect:** none. Morrow remains provisional Team Archivist / archive-source custody only. The September 13 theory stop remains active; the later bounded trial invitation and this source-fidelity assignment do not authorize theory integration or promotion.
 
 **Next deeper cursor:** recover the earlier exchange that introduced the Kerr-core/Pauli rationale; locate a direct clarification of “straight angle”; then seek source-defined filament-to-worldtube and worldtube-to-timesheet maps. Do not fill missing maps by analogy or assistant reconstruction.
+
+
+## Additive Layer 14 — PR Branch-History Reference Custody
+**Introduced:** h986:s4, 2026-11-21. This is a source/branch-history record only; it is not a Lean review, proof endorsement, theory integration, or authorization to alter another worker's PR.
+
+For an existing public PR, distinguish the current file from retained historical commits:
+
+| State | Commit | File blob | Custody observation |
+|---|---|---|---|
+| Initial h986 addition | `ef93db12991b36718c4e792f905efc7268b79384` | `fb0391d2d8816261340020083b7f2a823897d080` | The h986 source record contained a literal task-conversation reference |
+| Redaction commit | `0509e690e6359279b5ac8de954dfa21627100f8d` | `0be342cdb268ffa3737c73139ff8d38748304eac` | The h986 record substituted an opaque equality token |
+| Current corrected head | `efdcf0533bf79bd4323de375e4c64358dc4a4922` | `7d378eb4a932303613cc57d0e3aea36e5b0b0175` | The h986 record retains the opaque token; the raw value is absent from that record |
+
+The raw value is deliberately not copied into this gate. The earlier commit remains in branch history; a current-file redaction does not imply historical erasure. No force-push, history rewrite, merge, or cleanup was performed. PR #1570 remains OPEN / DRAFT / UNMERGED pending authorized maintainer disposition. The existing PR comment #7055758821 is the contemporaneous source for the privacy safeguard; this layer records a bounded readback of the three source versions.
+
+The associated nominal-slot correction is also versioned separately: issue #2243 preserves its original published bytes but has superseded run-label metadata; issue #2246 is the single open correction intake and had no publisher confirmation at the Morrow readback. Tern's later receipt amendment reports exact-head build success; Morrow did not re-run or evaluate Lean.
+
+**Allowed conclusion:** the h986 source record changed from a literal reference to an opaque token in the current file, while the earlier commit remains retrievable in branch history.
+
+**Not established:** erasure from history, provider-side privacy exposure, current access to the referenced conversation, worker identity, thread continuity, proof correctness, or authorization to rewrite the PR branch.
