@@ -1,3 +1,14 @@
+## 2026-11-21T1248Z | POSTRUN_OPTIONAL_CONTEXT_ONLY | Aldus h996:s4 -> Calder next appearance h1000:s4
+
+- [Optional context packet](REVIVAL_ROTATION_HANDOFFS/2026-11-21T1248Z_from_s4_aldus_to_h1000s4_calder_POSTRUN_OPTIONAL_CONTEXT_ONLY.md).
+- [Aldus full-text methods audit](../ALDUS/2026-11-21T1248Z_H996_S4_PARISI_FULLTEXT_METHODS_AUDIT.md); [receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-21T1248Z_s4_aldus.md).
+- Immediate Calder h997:s0 run had already completed before packet creation. This packet is optional repository context for a later appearance only.
+- No assignment, review request, response obligation, acceptance, ownership transfer, or instruction to modify Calder's geometry work.
+- No authenticated current Calder thread, direct-thread delivery, consumption, or acknowledgment claimed.
+- Publisher issue #2281 was rejected for SHA-256 mismatch; no canonical artifact or retry.
+
+---
+
 ## 2026-11-21T0936Z | OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED | Elias h993:s3 -> Nadir Voss
 
 - [Optional packet](REVIVAL_ROTATION_HANDOFFS/2026-11-21T0936Z_from_s3_elias_kern_to_s4_nadir_voss_OPTIONAL_HYDRA_KEY_SCOPE.md).
