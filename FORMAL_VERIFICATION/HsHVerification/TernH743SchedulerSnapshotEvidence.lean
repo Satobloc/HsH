@@ -1738,8 +1738,17 @@ def classifyThreadReference (o : ThreadReferenceObservation) : ThreadReferenceSc
     | _, some _, _ => .cachedResultReferenceOnly
     | _, _, _ => .noReference
 
-/-- h986:s3 :36 task and current/cached result observations, read 2026-11-21T02:00Z. -/
-def h986S3ThreadRefs : ThreadReferenceObservation :=
+/--
+Worker selection is a function of the nominal UTC hour and fixed slot index.
+The delayed execution start is recorded separately and is not an input to
+this selector.
+-/
+def workerAtNominalSlot (h slot : Nat) : Option String :=
+  ringAt ((5 * h + slot) % 19)
+
+/-- h985:s3 :36 task and current/cached result observations.
+    Nominal slot 01:36Z; readback at 02:00Z. -/
+def h985S3ThreadRefs : ThreadReferenceObservation :=
   { phase := 3
     enabled := true
     scheduleMinute := 36
@@ -1755,67 +1764,83 @@ def h986S3ThreadRefs : ThreadReferenceObservation :=
     taskUpdatedUs := us 0 55 42 895596
     nextRunUs := us 1 36 0 0 }
 
+/-- 2026-11-21T01:36Z is h985, not h986. -/
+theorem h985_s3_sequence : 5 * 985 + 3 = 4928 := by decide
+
+theorem h985_s3_index : (5 * 985 + 3) % 19 = 7 := by decide
+
+theorem h985_s3_worker :
+    workerAtNominalSlot 985 3 = some "Calder" := by rfl
+
+theorem h985_s3_successor :
+    workerAtNominalSlot 985 4 = some "Hale" := by rfl
+
+/-- The next nominal UTC hour, 2026-11-21T02:36Z, is h986. -/
 theorem h986_s3_sequence : 5 * 986 + 3 = 4933 := by decide
 
 theorem h986_s3_index : (5 * 986 + 3) % 19 = 12 := by decide
 
 theorem h986_s3_worker :
-    ringAt ((5 * 986 + 3) % 19) = some "Tern Rook" := by rfl
+    workerAtNominalSlot 986 3 = some "Tern Rook" := by rfl
 
 theorem h986_s3_successor :
-    ringAt (((5 * 986 + 3) + 1) % 19) = some "Morrow" := by rfl
+    workerAtNominalSlot 986 4 = some "Morrow" := by rfl
 
-theorem h986_s3_task_configuration :
-    h986S3ThreadRefs.phase = 3 ∧
-    h986S3ThreadRefs.enabled = true ∧
-    h986S3ThreadRefs.scheduleMinute = 36 := by
+theorem h985_s3_task_configuration :
+    h985S3ThreadRefs.phase = 3 ∧
+    h985S3ThreadRefs.enabled = true ∧
+    h985S3ThreadRefs.scheduleMinute = 36 := by
   exact ⟨rfl, rfl, rfl⟩
 
-theorem h986_s3_task_and_result_reference_alias :
-    h986S3ThreadRefs.taskConversationRefToken =
-      h986S3ThreadRefs.latestResultRefToken := by
+theorem h985_s3_task_and_result_reference_alias :
+    h985S3ThreadRefs.taskConversationRefToken =
+      h985S3ThreadRefs.latestResultRefToken := by
   rfl
 
-theorem h986_s3_current_run_reference_absent :
-    h986S3ThreadRefs.currentRunRefToken = none := by
+theorem h985_s3_current_run_reference_absent :
+    h985S3ThreadRefs.currentRunRefToken = none := by
   rfl
 
-theorem h986_s3_result_is_prior_scheduled_occurrence :
-    h986S3ThreadRefs.latestResultScheduledUs = some (us 0 36 0 0) ∧
-    h986S3ThreadRefs.currentRunScheduledUs = us 1 36 0 0 ∧
-    h986S3ThreadRefs.currentRunScheduledUs -
-      h986S3ThreadRefs.latestResultScheduledUs.getD 0 = 3600000000 := by
+theorem h985_s3_result_is_prior_scheduled_occurrence :
+    h985S3ThreadRefs.latestResultScheduledUs = some (us 0 36 0 0) ∧
+    h985S3ThreadRefs.currentRunScheduledUs = us 1 36 0 0 ∧
+    h985S3ThreadRefs.currentRunScheduledUs -
+      h985S3ThreadRefs.latestResultScheduledUs.getD 0 = 3600000000 := by
   decide
 
-theorem h986_s3_reference_scope :
-    classifyThreadReference h986S3ThreadRefs =
+theorem h985_s3_reference_scope :
+    classifyThreadReference h985S3ThreadRefs =
       .taskResultAliasOnPriorSlot := by
   rfl
 
-theorem h986_s3_current_run_start_offset_us :
-    h986S3ThreadRefs.currentRunStartedUs -
-      h986S3ThreadRefs.currentRunScheduledUs = 1459747108 := by
+theorem h985_s3_current_run_start_offset_us :
+    h985S3ThreadRefs.currentRunStartedUs -
+      h985S3ThreadRefs.currentRunScheduledUs = 1459747108 := by
   decide
 
-theorem h986_s3_task_metadata_precedes_current_start :
-    h986S3ThreadRefs.taskLastRunUs <
-      h986S3ThreadRefs.currentRunStartedUs ∧
-    h986S3ThreadRefs.taskUpdatedUs <
-      h986S3ThreadRefs.currentRunStartedUs ∧
-    h986S3ThreadRefs.nextRunUs =
-      h986S3ThreadRefs.currentRunScheduledUs := by
+theorem h985_s3_task_metadata_precedes_current_start :
+    h985S3ThreadRefs.taskLastRunUs <
+      h985S3ThreadRefs.currentRunStartedUs ∧
+    h985S3ThreadRefs.taskUpdatedUs <
+      h985S3ThreadRefs.currentRunStartedUs ∧
+    h985S3ThreadRefs.nextRunUs =
+      h985S3ThreadRefs.currentRunScheduledUs := by
   decide
 
+#print axioms h985_s3_sequence
+#print axioms h985_s3_index
+#print axioms h985_s3_worker
+#print axioms h985_s3_successor
 #print axioms h986_s3_sequence
 #print axioms h986_s3_index
 #print axioms h986_s3_worker
 #print axioms h986_s3_successor
-#print axioms h986_s3_task_configuration
-#print axioms h986_s3_task_and_result_reference_alias
-#print axioms h986_s3_current_run_reference_absent
-#print axioms h986_s3_result_is_prior_scheduled_occurrence
-#print axioms h986_s3_reference_scope
-#print axioms h986_s3_current_run_start_offset_us
-#print axioms h986_s3_task_metadata_precedes_current_start
+#print axioms h985_s3_task_configuration
+#print axioms h985_s3_task_and_result_reference_alias
+#print axioms h985_s3_current_run_reference_absent
+#print axioms h985_s3_result_is_prior_scheduled_occurrence
+#print axioms h985_s3_reference_scope
+#print axioms h985_s3_current_run_start_offset_us
+#print axioms h985_s3_task_metadata_precedes_current_start
 
 end HsHVerification.TernH743SchedulerSnapshotEvidence
