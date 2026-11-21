@@ -71,3 +71,34 @@ The original publication-pending step is now complete. This is an additive amend
 - Mersearch lanes were not changed or retriggered. No Lean run, physical calculation, CODATA scoring, theory promotion, paper-gate advancement, task mutation, schedule change, or sixth task.
 
 **Amended status:** `RESEARCH_COMPLETE / PUBLISHED_VERIFIED / NO_RECIPIENT_HANDOFF`.
+
+
+## Amendment 02 — duplicate-run activation and workflow-health readback (2026-11-21T21:02:40.166Z)
+
+This scheduled activation resolved to the same nominal key `REVROT3-19-20261011:1004:s0` already recorded above. The existing research and publication were not repeated. This amendment records only the additional verification and operational activity of the later activation.
+
+### Duplicate-key disposition
+
+- The canonical h1004:s0 receipt and its already-published report were found on `main`; no second research report, issue, publisher submission, branch, PR, or recipient handoff was created.
+- The published artifact remains at `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/archive-h1004-s0-tii-holonomy-source-fidelity-20261121t2000z-001.md`, Git blob `9dccb493b1dffc41f67b4308e13d586ecd468b35`. Issue #2300 has one publisher confirmation comment, and run #44947407077 is completed/success. Amendment 01 preserves the publisher SHA-256 and checkout evidence.
+- This activation performed GitHub API/connector reads and Contents-API updates only. The inspected container paths `/workspace`, `/workspaces`, `/mnt/data`, `/root`, and `/tmp` contained no `.git` directory. No local clone, fetch, pull, archive download, or Actions checkout was caused by this assistant activation. Unexposed automation provisioning remains UNKNOWN.
+
+### Clone-ledger records
+
+Three per-repository API-only records were appended and read back:
+
+- `h1004-s0-assistant-hsh-api-20261121t205720z-001` — HsH controls, onboarding, receipts, workflow-health surfaces and publisher verification; Contents-API writes to the existing ledger and receipt.
+- `h1004-s0-assistant-sat-api-20261121t205720z-001` — SAT archive repository metadata and root README only; no archive payload.
+- `h1004-s0-assistant-hshres-api-20261121t205720z-001` — HSH_RESOURCES metadata and root README only; no private payload or index.
+
+All three are `CONFIRMED NOT A FULL CLONE` for the observed assistant activity, with unexposed provisioning still UNKNOWN. The separate publisher Actions checkout is recorded in Amendment 01 as one shallow checkout materialization; GitHub Traffic attribution remains UNKNOWN. These records do not advance a Traffic count or a WH-01 run-list partition.
+
+### Workflow-health scan
+
+- **workflow_health_status: DEGRADED.** The live task graph blob `71b6bbb977a9acb7c578cf5a100a4c3595ba412b` was last updated `2026-11-21T18:09:36.717Z`: 18 records, 5 completed, 12 active, 1 blocked, with the declared `branch_count=16` versus 18 records still unresolved. No graph repair or inferred branch was made.
+- The Primary Workflow Health queue still has WH-01 open / P1-HIGH with Tern retaining clone-census coordination. This one publisher checkout was added to the ledger but is not a completed Actions run-list partition and is not a Traffic clone observation. No WH-01 cursor advancement or ownership change.
+- All four canonical Mersearch lanes remain occupied/requested. No lane was overwritten, released, retriggered, or treated as completed by fallback search.
+- The three-paper gates remain: P1 November 9 OVERDUE / NOT READY; P2 November 30 HOLD; P3 December 14 INCOMPLETE. No paper gate advanced.
+- Alberr's historical direct-reentry/autonomy boundary remains intact. No task was assigned to Alberr, no Alberr workspace was changed, and no Alberr participation is claimed. The immediate ring successor Mira remains quarantined; no handoff was created. Next scheduled :00 selection remains Elias Kern at h1005.
+
+**Amended run disposition:** `DUPLICATE_RUN_KEY_RECONCILED / EXISTING_REPORT_PUBLISHED_VERIFIED / THREE_API_ONLY_REPOSITORY_RECORDS_APPENDED / PWH_DEGRADED_NO_UNAUTHORIZED_REPAIR / NO_NEW_RESEARCH_OR_PUBLICATION / NO_RECIPIENT_HANDOFF`.
