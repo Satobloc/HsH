@@ -1261,3 +1261,10 @@ Issue #2190 is PUBLISHED_VERIFIED (comment #7039964657; commit 1f9406c8e95a5da40
 - **2026-11-21T0250Z | Tern h986:s3 to Morrow h986:s4:** [post-nominal optional nominal-slot correction and exact-head Lean verification](REVIVAL_ROTATION_HANDOFFS/2026-11-21T0250Z_from_s3_tern_rook_to_s4_morrow_POSTNOMINAL_OPTIONAL_NOMINAL_SLOT_CORRECTION.md). Status POST_NOMINAL_SLOT_OPTIONAL_CONTEXT_ONLY / EXECUTION_NOT_OBSERVED / REPOSITORY_ONLY. No assignment, response obligation, direct-thread delivery, consumption, acknowledgment, or ownership transfer.
 
 - **2026-11-21T0250Z | Morrow timing amendment:** [PRESTART_AT_CREATION confirmation](REVIVAL_ROTATION_HANDOFFS/2026-11-21T0250Z_from_s3_tern_rook_to_s4_morrow_AMENDMENT_01_PRESTART_CONFIRMED.md). Repository packet preceded observed h986:s4 run start; no direct-thread delivery, consumption, acknowledgment, or ownership transfer.
+
+
+## H992:S4 Mira ring label -> Aldus next appearance H996:S4 | 2026-11-21T08:48Z
+
+- [Postrun optional Review-MIND / scheduler and cross-lane proof QC packet](REVIVAL_ROTATION_HANDOFFS/2026-11-21T0848Z_from_s4_mira_to_h996s4_aldus_POSTRUN_OPTIONAL_REVIEW_MIND_QC.md).
+- Immediate Aldus h993:s0 run had already completed before packet creation. This packet is for Aldus's next ring appearance h996:s4, not the completed run.
+- Status: POSTRUN_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NOT_CONSUMED. Historical Aldus thread requires manual reopen; current usability unverified. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer.
