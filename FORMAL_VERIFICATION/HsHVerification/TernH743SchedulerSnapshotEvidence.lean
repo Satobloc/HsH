@@ -1679,6 +1679,8 @@ end HsHVerification.TernH743SchedulerSnapshotEvidence
 
 
 
+namespace HsHVerification.TernH743SchedulerSnapshotEvidence
+
 /-! ## h986:s3 task/result reference-scope observation
 
 The automation definition exposed a task-level conversation reference. The
@@ -1815,3 +1817,5 @@ theorem h986_s3_task_metadata_precedes_current_start :
 #print axioms h986_s3_reference_scope
 #print axioms h986_s3_current_run_start_offset_us
 #print axioms h986_s3_task_metadata_precedes_current_start
+
+end HsHVerification.TernH743SchedulerSnapshotEvidence
