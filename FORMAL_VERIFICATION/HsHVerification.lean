@@ -28,6 +28,7 @@ import HsHVerification.RavelRepresentationConversionCoherence
 import HsHVerification.RavelTwoFormCurrentProjection
 import HsHVerification.RavelFilamentScaleDimensionAudit
 import HsHVerification.RavelDirectedSliceChainComposition
+import HsHVerification.RavelHeterogeneousProjectionErrorTransfer
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
