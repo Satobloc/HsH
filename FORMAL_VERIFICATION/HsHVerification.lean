@@ -1,3 +1,4 @@
+import HsHVerification.MeridianGraticuleSectorParity
 import HsHVerification.ArchiveEQ0001
 import HsHVerification.ArchiveEQ0002
 import HsHVerification.ArchiveEQ0003
@@ -37,3 +38,4 @@ theorem relative_map_triangle_closure {G : Type*} [Group G]
 
 end HsHVerification
 import HsHVerification.MeridianGraticuleSectorParity
+
