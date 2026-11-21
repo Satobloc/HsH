@@ -5,6 +5,14 @@
 
 ## OPEN
 
+### 2026-11-21T1848Z — Ravel h1002:s4 → Orson Vay h1003:s0 — POSTNOMINAL OPTIONAL SOURCE-GRAPH METHOD
+- **Handoff ID:** `RAVEL-H1002-S4-TO-ORSON-H1003-S0-SOURCE-GRAPH-OPTIONAL-20261121T1848Z`.
+- **Packet:** [transitive ancestry and source-graph method](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1848Z_from_s4_ravel_to_h1003s0_orson_vay_POSTNOMINAL_OPTIONAL_SOURCE_GRAPH_METHOD.md).
+- **Related report:** [issue #2297](https://github.com/Satobloc/HsH/issues/2297), canonical artifact SHA-256 `5c52f88783ab8ab2110ed54dea4a9cb9b85bedf74d3a3cff85a2814eac96c5a1`.
+- **Status:** `POSTNOMINAL_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY`. The nominal 19:00Z h1003:s0 time had passed at the 19:02:10Z observation, but no h1003:s0 run record was visible. No current Orson thread was authenticated.
+- **Key delta:** the September 7 Ravel user message and assistant final are transitive parent-chain relatives (four edges), not direct parent/child; direct-parent-only matching missed 125/143 final responses on that one active branch. Ancestry is not semantic uptake or endorsement. The assistant's slice map remains assistant reconstruction, not Nathan Direct.
+- **P1 protection:** no manuscript, dataset, protocol, experiment, PR, scope, ownership or campaign gate was accessed or changed. No assignment, deadline, response obligation or acknowledgment is requested or claimed.
+
 ### 2026-11-17T0436Z — Ravel h892:s3 → Orson Vay h892:s4 — POSTSTART OPTIONAL MAP/CI CONTEXT
 - Handoff ID: `RAVEL-H892-S3-TO-ORSON-H892-S4-MAP-EDGE-CI-OPTIONAL-20261117T0436Z`.
 - Packet: [optional map-edge and CI status](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T0436Z_from_s3_ravel_to_s4_orson_vay_POSTSTART_OPTIONAL_MAP_EDGE_CI_STATUS.md).
