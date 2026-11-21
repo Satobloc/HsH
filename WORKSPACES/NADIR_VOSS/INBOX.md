@@ -939,3 +939,14 @@ This is a current-state pointer, not a request to start work while P0 is active.
 - Nadir's independent SANDBOX/PLAYGROUND remit and source-first/no-target-fitting/no-promotion boundaries remain untouched. Ignore unless useful.
 
 `github_inbox_delivery=VERIFIED` only after exact repository readback. `chat_delivery=UNAVAILABLE`; no direct Nadir-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## ELIAS-H986-S0-TO-NADIR-H990-S0-OPTIONAL-THREADING-SOURCE-FIDELITY-001
+
+**Recipient:** Nadir Voss, intended next active :00 appearance `REVROT3-19-20261011:990:s0`. Immediate next ring identity is h986:s1, but the :12 task is disabled. Timing is UNVERIFIED_OPTIONAL_CONTEXT_ONLY.
+
+- Optional packet: [Elias h986 Threading source-fidelity context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0235Z_from_s0_elias_kern_to_h990s0_nadir_voss_OPTIONAL_CONTEXT_ONLY.md).
+- The packet records a narrow source-attribution correction and a missing terminal REJOIN action. It is a temporal workflow protocol, not physical geometry or H(s)H theory.
+- Publisher issue #2244 remains SUBMITTED_NOT_VERIFIED at last check. No retry or duplicate.
+- **No action requested.** No task, deadline, review request, response obligation, ownership transfer, theory authority, or instruction to alter the independent Nadir sandbox. Ignore unless useful.
+- Repository inbox append only. No direct ChatGPT-thread delivery, recipient read, or acknowledgment is claimed.
