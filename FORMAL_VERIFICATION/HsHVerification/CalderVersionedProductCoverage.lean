@@ -331,7 +331,7 @@ def abstractCompleteAnalysisReadiness : AnalysisReadiness :=
 theorem analysis_readiness_alone_does_not_imply_evaluation_admissibility :
     analysisReady abstractCompleteAnalysisReadiness = true
       ∧ ¬ evaluationAdmissible abstractCompleteAnalysisReadiness False := by
-  decide
+  simp [evaluationAdmissible, analysisReady, abstractCompleteAnalysisReadiness]
 
 theorem evaluation_admissibility_requires_analysis_readiness
     (data : AnalysisReadiness)
@@ -353,10 +353,15 @@ theorem evaluation_admissibility_requires_prediction_hard_gate
 theorem gw241011_current_product_blocks_evaluation
     (predictionHardGate : Prop) :
     ¬ evaluationAdmissible gw241011O4V1CurrentReadiness predictionHardGate := by
-  simp [evaluationAdmissible, analysisReady, gw241011O4V1CurrentReadiness]
+  intro h
+  have hData : analysisReady gw241011O4V1CurrentReadiness = true := h.1
+  have hFalse : analysisReady gw241011O4V1CurrentReadiness = false := by
+    decide
+  rw [hFalse] at hData
+  cases hData
 
 #eval analysisReady gw241011O4V1CurrentReadiness
-#eval decide (evaluationAdmissible gw241011O4V1CurrentReadiness False)
+#eval decide (analysisReady gw241011O4V1CurrentReadiness = true)
 
 #print axioms analysis_readiness_alone_does_not_imply_evaluation_admissibility
 #print axioms evaluation_admissibility_requires_analysis_readiness
