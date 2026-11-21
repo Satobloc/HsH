@@ -76,3 +76,8 @@ This is one archived human–assistant workflow trace, not a controlled experime
 - Shared return cursor: **2886**
 
 This addendum is append-only. It preserves the original conversation export and existing tag ledger unchanged.
+
+
+## Amendment 01: Existing tag-ledger blob identity
+
+The abbreviated placeholder `dcb9a...` in Section 1 was incomplete and is superseded. The existing charter/tag ledger's verified Git blob SHA is `0d6aaa6b2874d9023ee483807795309c189483e3`. No source content or prior tag was changed.
