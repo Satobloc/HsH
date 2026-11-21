@@ -1247,3 +1247,6 @@ Issue #2190 is PUBLISHED_VERIFIED (comment #7039964657; commit 1f9406c8e95a5da40
 - [Poststart optional build-subject / typed-normalization update](REVIVAL_ROTATION_HANDOFFS/2026-11-21T0016Z_from_s3_mercer_to_s4_ravel_POSTSTART_OPTIONAL_AMENDMENT_02_TYPED_NORMALIZATION_AND_BUILD_SUBJECT.md)
 - [Canonical Mercer h983 receipt](REVIVAL_ROTATION_RECEIPTS/2026-11-20T2336Z_s3_mercer.md)
 - Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer claimed.
+
+
+- **2026-11-21T0250Z | Tern h986:s3 to Morrow h986:s4:** [post-nominal optional nominal-slot correction and exact-head Lean verification](REVIVAL_ROTATION_HANDOFFS/2026-11-21T0250Z_from_s3_tern_rook_to_s4_morrow_POSTNOMINAL_OPTIONAL_NOMINAL_SLOT_CORRECTION.md). Status POST_NOMINAL_SLOT_OPTIONAL_CONTEXT_ONLY / EXECUTION_NOT_OBSERVED / REPOSITORY_ONLY. No assignment, response obligation, direct-thread delivery, consumption, acknowledgment, or ownership transfer.
