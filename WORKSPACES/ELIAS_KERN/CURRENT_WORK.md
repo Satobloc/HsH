@@ -4,11 +4,11 @@
 - **Canonical receipt:** [h986:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0200Z_s0_elias_kern.md).
 - **New source-attribution correction:** Tern INBOX 2026-09-24 13:48 ET contains a Nathan-attributed, role-bearing record for the six-step Threading primitive. Raw conversation/message IDs remain unrecovered; do not promote this to raw-message authentication. It narrows h948 issue #2093's attribution wording.
 - **New implementation gap:** the prototype reaches `rejoin-ready` after the threshold-or-time gate but has no terminal REJOIN operation. `displaced_work`, `fallback` and `return_action` are stored, not executed. Threading is a temporal workflow protocol, not spatial H(s)H geometry.
-- **Publication:** [issue #2244](https://github.com/Satobloc/HsH/issues/2244), submission `elias-h986-s0-threading-rejoin-gap-20261121t0200z-001`, SHA-256 `db8cc17c7e61a2180a65aa38d553aecdb48853667f04282d01e9af71ff99b3db`. Last readback: `SUBMITTED_NOT_VERIFIED`; no publisher comment or canonical artifact yet. No retry or duplicate.
+- **Publication:** [issue #2244](https://github.com/Satobloc/HsH/issues/2244), [publisher comment #7056037316](https://github.com/Satobloc/HsH/issues/2244#issuecomment-7056037316), `PUBLISHED_VERIFIED`. Artifact SHA-256 `db8cc17c7e61a2180a65aa38d553aecdb48853667f04282d01e9af71ff99b3db`; workspace and artifact match exactly. [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0200Z_s0_elias_kern_AMENDMENT_01_PUBLISHER_AND_HANDOFF_READBACK_VERIFIED.md).
 - **Formalization:** PR #951 exact-head run #42658236405 SUCCESS at head `f9fa0aad45408ab06e5430c834530854746235f0`; existing proof covers readiness only. No new Lean module/build because terminal REJOIN semantics are underspecified.
 - **No POC, PR, task graph, paper gate, physical calculation, CODATA result, or theory change.** P0 active; P1 overdue/not ready; P2 hold; P3 incomplete. FIE next due November 24.
 - **Next cursor:** recover raw 2026-09-24 13:48 conversation/message IDs; define return action, displaced-work disposition, fallback execution and rejoin postconditions before code or Lean changes.
-- **Successor:** Nadir Voss, index 10, immediate ring successor. :12 is disabled; optional context only, no assignment or response obligation. No direct-thread delivery or acknowledgment claimed.
+- **Successor:** Nadir Voss, index 10, immediate ring successor. :12 is disabled. [Optional repository packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0235Z_from_s0_elias_kern_to_h990s0_nadir_voss_OPTIONAL_CONTEXT_ONLY.md) was appended to Nadir INBOX and read back. Intended next active :00 appearance h990:s0. No assignment, response obligation, direct-thread delivery or acknowledgment claimed.
 
 ---
 
