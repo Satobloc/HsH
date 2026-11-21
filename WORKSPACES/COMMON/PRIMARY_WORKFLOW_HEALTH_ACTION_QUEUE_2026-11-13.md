@@ -878,3 +878,14 @@ This is a bounded read-only WH-02 status refresh under the existing relay. The d
 **Cross-lane proof-status correction:** PR #1309 exact-head run #44887690834 passed 8,945 Lean jobs on source `663c84389a81a5019558f2d3e091e38e36b012b4`; its four inspected theorem axiom reports had no `sorryAx`, while tests/lint/leanchecker/nanoda/global axiom audit were skipped. Follow-on PR #1918 exact-head run #44168376195 checked out `102047951683eaa1694f61df70da67d3fb1d78d0` but failed at 8,926/8,946 with unresolved goals at lines 55, 63, 71, 79 and 103; error-recovery `sorryAx` appeared in eight theorem-specific outputs. No proof, merge or physical validation claim for #1918.
 
 **Existing ownership and priorities preserved:** WH-02 remains highest-priority unblocked; Calder retains code/rebase authority and Tern retains PWH coordination. WH-05 remains blocked with all four Mersearch lanes occupied. Task graph remains 18 records / 16 declared (5 completed, 12 active, 1 blocked). No graph mutation or ownership transfer.
+
+
+## 2026-11-21T0924Z | :24 next occurrence observed after delayed h991:s2 run
+
+**Disposition:** NEW_RUN_IN_PROGRESS / EXPECTED_LABEL_ONLY / NO_TASK_MUTATION.
+
+- :24 task `6abda4c8eda88191bf23a6f2849e9a17` now has run `61abd5b6-6178-8323-9db1-63ea2ade0b32`, scheduled 09:24Z (h993:s2), started 09:30:38.685599Z, still IN_PROGRESS with `chat_ref=null`. Deterministic expected label is Hale -> Elias Kern; no current result is available, and the cached latest_result remains the prior h992:s2 Ariadne report.
+- The previous :24 run for 07:24Z (h991:s2) completed 08:24:38.713076Z and was labelled h992:s2 Ariadne -> Alberr rather than nominal Ravel -> Orson. The next scheduled :24 occurrence is 09:24Z; no separate 08:24 run record surfaced.
+- :48 h992:s4 remains IN_PROGRESS, scheduled 08:48Z, started 09:11:40.709663Z, `chat_ref=null`, cached latest_result still the prior Sable h991:s4 result. :00 h993:s0 and :36 h992:s3 have completed.
+- The :24 and :48 runs now overlap. Their `next_run_time` fields remain at the current scheduled time while the runs are active. This is observed stale metadata, not proof of the scheduler's internal skip/queue policy.
+- Tern retains scheduler/PWH coordination. Continue using `scheduled_for` for ring selection; do not change IDs, cadence, phase, prompts or enabled state.
