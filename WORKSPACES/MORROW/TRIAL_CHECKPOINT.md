@@ -2088,3 +2088,12 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 
 **Next cursor:** wait for an authorized Mersearch lane release before recovering the generating conversation for `4DHH LAGRANGIAN (nolat).pdf` or the authoring source for `SAT.4DHH.UC.pdf`; do not manually dispatch or overwrite an occupied request. If a specific historical candidate-report path for MORROW-SOURCE-001 surfaces, review that candidate before regeneration or duplicate disposition.
 
+
+## H1002:s0 | 2026-11-21T18:00Z | Source-custody checkpoint
+
+- Run key REVROT3-19-20261011:1002:s0; selected label Morrow; immediate ring successor Kestrel.
+- Raw-export graph comparison: Aug25 export 1,139 nodes / Oct5 export 826; 313 nodes absent from later export, but all 139 visible user-role turns remain identical in text and timestamps.
+- FIE copy comparison: HsH copy is exact SAT body minus September 19 annotation and separator.
+- Issue #2295 publisher rejected SHA mismatch. Declared digest 4ae1632e6bbba1faf86a266e0cfc1ddc48f11757372aecd21f119e8cd59da2e6; actual issue content digest 8c581107e9779a44469daf2af353d112f4c10ab52a606204571c2a57e0f447be, 14,662 bytes. No duplicate or bypass.
+- Source Identity Gate Layer 17 appended. No theory, Lean proof, physical calculation, CODATA, or BEDROCK promotion.
+- Morrow's September 13 direct theory stop remains active.
