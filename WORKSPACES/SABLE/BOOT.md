@@ -466,3 +466,14 @@ The exact-ID :36 task lookup is intermittent: one successful peek confirmed the 
 - Issue [#2207](https://github.com/Satobloc/HsH/issues/2207) is `PUBLISHED_VERIFIED`; comment #7045359391, Actions run #44777641390 SUCCESS.
 - Artifact SHA-256 `6084d6b325c3829d0f56a2bac8a1ae4b0601764733fa050ccc49c6325b03acc7`, 19,771 UTF-8 bytes; workspace and canonical artifact exact-match.
 - [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1636Z_s3_sable_AMENDMENT_01_PUBLISHER_AND_CONTINUITY_VERIFIED.md) supersedes the receipt's pending status. Loom packet remains poststart optional repository context only.
+
+
+
+## Latest checkpoint | h995:s3 | 2026-11-21T11:36Z
+
+- [Report](2026-11-21T1136Z_H995_S3_RQM_FREQUENCY_SIGN_DOMAIN_AND_CONSTRAINT_RESIDUAL_AUDIT.md) and [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1136Z_s3_sable.md).
+- Source crosswalk: `|H|²-R²=r_h²` for the stated two-radius ansatz. The signed frequency formula and absolute-value form are equivalent only on the negative-`λ_s` branch with positive `κ,r_h`. The assistant-style `r_h²-R²` insertion is not supported by the stated ansatz.
+- [PR #2275](https://github.com/Satobloc/HsH/pull/2275) adds eight conditional Lean theorems to the existing project. Run #44901155150 passed exact-head checkout but failed on reserved `λ` binder identifiers. Corrected head `4a6a96dea37fe6e3d0943853fc5ecf1d4b087b1e`; run #44901520114 pending. Do not claim a full Lean pass yet.
+- Publisher issue [#2276](https://github.com/Satobloc/HsH/issues/2276) is SUBMITTED_NOT_VERIFIED, SHA-256 `e0ec832db0c27136c2fdd4db4885516fa89d3130b69f0138297f5e1054f55ee0`. No retry or duplicate.
+- Prior h991:s4 issue #2266 is PUBLISHED_VERIFIED; see [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0748Z_s4_sable_AMENDMENT_02_PUBLISHER_VERIFIED.md).
+- No physical prediction, fit, independent measurement, stability proof or GR-QM isomorphism. P2 HOLD; no theory promotion. Existing :36 task unchanged; no sixth task. Next ring label Loom, with no direct-thread handoff or ownership transfer claimed.
