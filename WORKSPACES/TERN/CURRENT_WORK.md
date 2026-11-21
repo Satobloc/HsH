@@ -1,3 +1,20 @@
+# Latest checkpoint | h986:s3 | 2026-11-21T0200Z
+
+- **Selection:** Tern Rook (ring index 12); next label Morrow (index 13). Historical Tern control-plane remit is supported by direct user-role messages in the Ariadne raw export; no separately signed charter or authenticated current Tern thread. No cross-thread delivery or worker authentication claimed.
+- **Main:** d0e5553c8c7703176be9fedb6ee8746b311b674b. The h986 scheduler observation distinguishes task-level conversation reference, current-run reference (null), and cached-result reference. The task/result values alias, but the cached result is for the prior slot. Current run remained IN_PROGRESS at readback; no cause/retry/restart/duplicate inference.
+- **Formalization:** existing PR #1570 extended with a pseudonymized ThreadReferenceObservation classifier. Current head 0509e690e6359279b5ac8de954dfa21627100f8d; exact-head Actions #44854466333 IN_PROGRESS, no Lean pass yet. First draft commit briefly contained a raw reference; current file replaces it with an opaque token, but earlier commit remains in branch history. Keep OPEN / DRAFT / UNMERGED pending authorized maintainer decision on history cleanup.
+- **Run/artifact crosswalk:** [report](2026-11-21T0200Z_H986_S3_RUN_ARTIFACT_EVIDENCE_CROSSWALK.md); publisher intake [#2243](https://github.com/Satobloc/HsH/issues/2243), pending publisher verification. Reuses Elias Execution Envelope Composition Map v0.2 and H935 Prediction Producer-Run Binding; no competing taxonomy.
+- **Mersearch Lane 2:** existing user request perceptual-nexus-early-archive-20261120-01 has manifest and two compact receipts; raw results withheld; request remains requested/occupied, no release. Runtime-only TOOL_NAME/TOOL_VERSION hotfix recorded; stable branch unchanged. Run #44818799476 attempt 1/job 136573978773 reconciled to four exact checkout events.
+- **Clone ledger:** 107 valid JSONL rows, zero parse errors; four new rows for run #44818799476 independently read back. Mersearch worker guide updated with first post-containment run and execution-to-artifact binding requirements.
+- **PWH:** deep review appended; task graph remains 18 records against branch_count 16, 5 completed/12 active/1 blocked, 17 reachable/1 unreachable. WH-01 global cursor stays 2026-11-15T18:00:00Z; targeted run reconciliation does not close census. WH-05 remains blocked; lane 2 occupied, lanes 1/3/4 lack outputs. P0 reader-policy mismatch remains active; PR #2009 draft/unmerged, no live route observation. WH-02 remains Calder-owned.
+- **Project:** P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / Orson-owned; P2 measured geometry HOLD; P3 full theory INCOMPLETE. No physical calculation, fit, H(s)H prediction, independent measurement, equation change, BEDROCK promotion or paper-gate advancement.
+- **Reviews:** FIE next review November 24; unrelated-reading cursor h958 lines 2001–2040, next 2041. No duplicate break.
+- **Automation:** existing :36 task remains enabled with exact saved ID, hourly schedule, prompt and Lane Charter 36 phase unchanged. No sixth task or scheduler mutation.
+
+**Next:** verify publisher intake #2243 and exact-head Lean run #44854466333; preserve PR draft until build and history disposition. Continue WH-01 only through an authorized existing run-list route. Do not release Mersearch Lane 2 based only on compact outputs. No handoff or direct-thread delivery to Morrow; it is the next deterministic label only.
+
+---
+
 # Latest activation checkpoint | h979:s0 | 2026-11-20T19:00Z
 
 - Lane 00 report: [vacuum worldtube morphology and particle identity source-fidelity audit](2026-11-20T1900Z_H979_S0_LANE00_VACUUM_WORLDTUBE_MORPHOLOGY_IDENTITY_SOURCE_FIDELITY.md). Workspace report exact readback passed; SHA-256 1da5976c3f1ab0278dcf9367d83ae835a57c85c6ba96a012f2197ac321e7ad00.
