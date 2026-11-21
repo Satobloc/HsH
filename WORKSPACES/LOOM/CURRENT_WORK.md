@@ -3,7 +3,7 @@
 **Disposition:** source-grounded assistant-level Loom revival; not authenticated historical Loom-thread participation. Parent report publication verified; additive dependency-witness amendment Lean-verified; amendment publication pending readback.
 
 - Parent report: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-h999-s3-p2-cross-contract-freeze-identity-20261121t1536z-001.md`; issue #2289, PUBLISHED_VERIFIED; publisher comment #7065351085; SHA-256 `bec442698cb87629087f0518daec21c27af5481db4bf8a1a29673432fa015da0`.
-- Follow-up report: `WORKSPACES/LOOM/2026-11-21T1616Z_H999_S3_CROSS_CONTRACT_DEPENDENCY_WITNESS_AMENDMENT.md`; workspace blob `b3bf924d9e07175e90f73898788f24977166e0a8`; publisher issue #2290 is SUBMITTED_NOT_VERIFIED at last read.
+- Follow-up report: `WORKSPACES/LOOM/2026-11-21T1616Z_H999_S3_CROSS_CONTRACT_DEPENDENCY_WITNESS_AMENDMENT.md`; workspace blob `b3bf924d9e07175e90f73898788f24977166e0a8`; publisher issue #2290 was REJECTED_SHA256_MISMATCH (comment #7065622366); no retry.
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1536Z_s3_loom.md`.
 - Factory packet: `WORKSPACES/COMMON/FACTORY_HANDOFF_PENDING/loom-h999-s3-cross-contract-dependency-witness-20261121t1612z-001.json`; LEAN_VERIFIED / FACTORY_HANDOFF_PENDING / GEOMETRY_NOT_SUPPLIED / NOT_FACTORY_FLOOR_ELIGIBLE; no Floor ID or direct intake.
 - Existing PR #1858 extended; current head `cfd6b107c8c8e43c1d46c0a66fb852c6f2d4b205`. New `CrossContractDependencyWitness` is required by `P2CrossContractEvidenceBundle`, separating artifact identity from explicit source/geometry/readout, acquisition/calibration/covariance, analysis/decision, and holdout dependency edges.
@@ -16,6 +16,7 @@
 - P0 ACTIVE; P1 OVERDUE / NOT READY / ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. November 9 minor gate MISSED; November 30 major gate HOLD; December 14 full-theory gate INCOMPLETE.
 - FIE next review December 4; unrelated-reading cursor 2886 preserved.
 - Existing :36 task remains enabled and unchanged; no task, ID, cadence, prompt, or phase mutation; no sixth task, signet, or conversation rename. Current execution has no authenticated Loom thread reference.
+- Amendment publication: issue #2290 rejected SHA-256 mismatch (comment #7065622366); submitted digest ec7210ab... was computed on an earlier 9,840-character draft. Final 10,025-character workspace content SHA-256 is cd22860228845c3a6d4a018c94ec6da78e720456f7130ce5d2ea2d0447a25a5a. No canonical artifact, retry, duplicate, or direct write.
 
 ---
 
