@@ -437,6 +437,124 @@ theorem cross_contract_bundle_retains_existing_p2_contract
     p2Ready F :=
   source_bound_bundle_satisfies_existing_p2_contract B
 
+
+/-- A corrected source-commitment map digest must invalidate the comparison
+    key and the candidate-family source-map link. This is an identity-propagation
+    result; it does not inspect or authenticate the corrected source bytes. -/
+theorem changed_source_map_digest_invalidates_key_and_candidate_link
+    {F : ComparisonFreeze} {B : SourceBoundP2Bundle F}
+    (K₁ K₂ : CrossContractFreezeKey F B)
+    (h : K₁.sourceCommitmentMap.opaqueDigest ≠
+      K₂.sourceCommitmentMap.opaqueDigest) :
+    K₁ ≠ K₂ ∧
+      K₁.candidateSourceMapDigest ≠ K₂.candidateSourceMapDigest := by
+  constructor
+  · intro hEq
+    exact h (congrArg (fun k => k.sourceCommitmentMap.opaqueDigest) hEq)
+  · intro hEq
+    apply h
+    calc
+      K₁.sourceCommitmentMap.opaqueDigest = K₁.candidateSourceMapDigest :=
+        K₁.candidateSourceMapMatches.symm
+      _ = K₂.candidateSourceMapDigest := hEq
+      _ = K₂.sourceCommitmentMap.opaqueDigest :=
+        K₂.candidateSourceMapMatches
+
+/-- A corrected geometry-map digest must invalidate the comparison key and
+    every declared downstream geometry identity: candidate-family, readout,
+    and both H0/H1 plot witnesses. These are identity links, not geometric
+    projection or composition functions. -/
+theorem changed_geometry_map_digest_invalidates_key_and_dependents
+    {F : ComparisonFreeze} {B : SourceBoundP2Bundle F}
+    (K₁ K₂ : CrossContractFreezeKey F B)
+    (h : K₁.geometryMapStack.opaqueDigest ≠
+      K₂.geometryMapStack.opaqueDigest) :
+    K₁ ≠ K₂ ∧
+      K₁.candidateGeometryMapDigest ≠ K₂.candidateGeometryMapDigest ∧
+      K₁.readoutGeometryMapDigest ≠ K₂.readoutGeometryMapDigest ∧
+      K₁.h0PlotGeometryMapDigest ≠ K₂.h0PlotGeometryMapDigest ∧
+      K₁.h1PlotGeometryMapDigest ≠ K₂.h1PlotGeometryMapDigest := by
+  constructor
+  · intro hEq
+    exact h (congrArg (fun k => k.geometryMapStack.opaqueDigest) hEq)
+  constructor
+  · intro hEq
+    apply h
+    calc
+      K₁.geometryMapStack.opaqueDigest = K₁.candidateGeometryMapDigest :=
+        K₁.candidateGeometryMapMatches.symm
+      _ = K₂.candidateGeometryMapDigest := hEq
+      _ = K₂.geometryMapStack.opaqueDigest :=
+        K₂.candidateGeometryMapMatches
+  constructor
+  · intro hEq
+    apply h
+    calc
+      K₁.geometryMapStack.opaqueDigest = K₁.readoutGeometryMapDigest :=
+        K₁.readoutGeometryMapMatches.symm
+      _ = K₂.readoutGeometryMapDigest := hEq
+      _ = K₂.geometryMapStack.opaqueDigest :=
+        K₂.readoutGeometryMapMatches
+  constructor
+  · intro hEq
+    apply h
+    calc
+      K₁.geometryMapStack.opaqueDigest = K₁.h0PlotGeometryMapDigest :=
+        K₁.h0PlotGeometryMapMatches.symm
+      _ = K₂.h0PlotGeometryMapDigest := hEq
+      _ = K₂.geometryMapStack.opaqueDigest :=
+        K₂.h0PlotGeometryMapMatches
+  · intro hEq
+    apply h
+    calc
+      K₁.geometryMapStack.opaqueDigest = K₁.h1PlotGeometryMapDigest :=
+        K₁.h1PlotGeometryMapMatches.symm
+      _ = K₂.h1PlotGeometryMapDigest := hEq
+      _ = K₂.geometryMapStack.opaqueDigest :=
+        K₂.h1PlotGeometryMapMatches
+
+/-- A corrected readout-contract digest must invalidate the comparison key
+    and its observable-family, coupled-readout, and resolution-contract links. -/
+theorem changed_readout_contract_digest_invalidates_key_and_dependents
+    {F : ComparisonFreeze} {B : SourceBoundP2Bundle F}
+    (K₁ K₂ : CrossContractFreezeKey F B)
+    (h : K₁.readoutContract.opaqueDigest ≠
+      K₂.readoutContract.opaqueDigest) :
+    K₁ ≠ K₂ ∧
+      K₁.observableReadoutDigest ≠ K₂.observableReadoutDigest ∧
+      K₁.coupledReadoutDigest ≠ K₂.coupledReadoutDigest ∧
+      K₁.resolutionReadoutDigest ≠ K₂.resolutionReadoutDigest := by
+  constructor
+  · intro hEq
+    exact h (congrArg (fun k => k.readoutContract.opaqueDigest) hEq)
+  constructor
+  · intro hEq
+    apply h
+    calc
+      K₁.readoutContract.opaqueDigest = K₁.observableReadoutDigest :=
+        K₁.observableReadoutMatches.symm
+      _ = K₂.observableReadoutDigest := hEq
+      _ = K₂.readoutContract.opaqueDigest :=
+        K₂.observableReadoutMatches
+  constructor
+  · intro hEq
+    apply h
+    calc
+      K₁.readoutContract.opaqueDigest = K₁.coupledReadoutDigest :=
+        K₁.coupledReadoutMatches.symm
+      _ = K₂.coupledReadoutDigest := hEq
+      _ = K₂.readoutContract.opaqueDigest :=
+        K₂.coupledReadoutMatches
+  · intro hEq
+    apply h
+    calc
+      K₁.readoutContract.opaqueDigest = K₁.resolutionReadoutDigest :=
+        K₁.resolutionReadoutMatches.symm
+      _ = K₂.resolutionReadoutDigest := hEq
+      _ = K₂.readoutContract.opaqueDigest :=
+        K₂.resolutionReadoutMatches
+
+
 #print axioms key_relations_hold
 #print axioms bundle_artifacts_match_key
 #print axioms dependency_witness_edges_hold
@@ -445,6 +563,9 @@ theorem cross_contract_bundle_retains_existing_p2_contract
 #print axioms changed_prediction_envelope_requires_new_key
 #print axioms changed_holdout_exposure_requires_new_key
 #print axioms changed_h0_plot_witness_requires_new_key
+#print axioms changed_source_map_digest_invalidates_key_and_candidate_link
+#print axioms changed_geometry_map_digest_invalidates_key_and_dependents
+#print axioms changed_readout_contract_digest_invalidates_key_and_dependents
 #print axioms cross_contract_bundle_retains_existing_p2_contract
 
 end HsHVerification.LoomCrossContractFreezeKey
