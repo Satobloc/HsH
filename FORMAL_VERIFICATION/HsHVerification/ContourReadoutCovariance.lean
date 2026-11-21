@@ -15,11 +15,17 @@ Let v_0 and v_pi be the marginal variances of the two contour-position measureme
 and c their symmetric cross-covariance. This module proves the exact covariance
 transformation for that linear readout.
 
+It also proves that the two-output readout is an invertible coordinate change on
+the two sampled opposed contour positions. It does not create two independent
+measurements or recover the full angular contour.
+
 Scope limits:
 * This is an algebraic propagation identity, not an estimate of v_0, v_pi, or c.
 * It does not assume the two raw contour measurements are independent.
 * It does not prove that the measured covariance is positive semidefinite; that is
   a statistical/data property of the actual measurement process.
+* The inverse recovers only the two sampled opposed contour positions, not the
+  full angular contour, three-dimensional flow, or Kelvin-mode decomposition.
 * The paper reports typical position/radius uncertainty but does not publish the
   sample-level joint contour covariance in its main text. No numerical covariance,
   fit, or H(s)H physical prediction is made here.
@@ -32,15 +38,38 @@ namespace HsHVerification.ContourReadoutCovariance
 open Matrix
 
 /-- Linear map from the two opposed contour radii (r_0, r_pi) to (eta, a). -/
-def contourToReadout : Matrix (Fin 2) (Fin 2) ℝ :=
+noncomputable def contourToReadout : Matrix (Fin 2) (Fin 2) ℝ :=
   !![(1 : ℝ) / 2, -(1 : ℝ) / 2; (1 : ℝ) / 2, (1 : ℝ) / 2]
+
+/--
+Inverse linear map from the sampled readout pair (eta, a) back to (r_0, r_pi).
+This reconstructs only the two sampled opposed contour positions.
+-/
+def readoutToContour : Matrix (Fin 2) (Fin 2) ℝ :=
+  !![(1 : ℝ), 1; -1, 1]
+
+/-- The proposed inverse is a left inverse of the contour-to-readout map. -/
+theorem readoutToContour_mul_contourToReadout :
+    readoutToContour * contourToReadout = 1 := by
+  ext i j
+  fin_cases i <;> fin_cases j <;>
+    simp [readoutToContour, contourToReadout, Matrix.mul_apply,
+      Fin.sum_univ_two] <;> ring
+
+/-- The proposed inverse is also a right inverse of the contour-to-readout map. -/
+theorem contourToReadout_mul_readoutToContour :
+    contourToReadout * readoutToContour = 1 := by
+  ext i j
+  fin_cases i <;> fin_cases j <;>
+    simp [readoutToContour, contourToReadout, Matrix.mul_apply,
+      Fin.sum_univ_two] <;> ring
 
 /-- Symmetric covariance matrix of the two raw contour-position measurements. -/
 def contourCovariance (v0 vPi crossCov : ℝ) : Matrix (Fin 2) (Fin 2) ℝ :=
   !![v0, crossCov; crossCov, vPi]
 
 /-- Covariance matrix after the (r_0, r_pi) to (eta, a) linear readout. -/
-def readoutCovariance (v0 vPi crossCov : ℝ) : Matrix (Fin 2) (Fin 2) ℝ :=
+noncomputable def readoutCovariance (v0 vPi crossCov : ℝ) : Matrix (Fin 2) (Fin 2) ℝ :=
   contourToReadout * contourCovariance v0 vPi crossCov * contourToReadout.transpose
 
 /--
@@ -66,6 +95,8 @@ theorem eta_radius_uncorrelated_of_equal_raw_variances
   rw [readoutCovariance_formula]
   simp [h]
 
+#print axioms readoutToContour_mul_contourToReadout
+#print axioms contourToReadout_mul_readoutToContour
 #print axioms readoutCovariance_formula
 #print axioms eta_radius_uncorrelated_of_equal_raw_variances
 
