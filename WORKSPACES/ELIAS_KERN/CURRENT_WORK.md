@@ -1,3 +1,17 @@
+## Latest checkpoint | h989:s4 | 2026-11-21T05:48Z | Track A run-envelope, routing and build-scope audit
+
+- Report: [h989:s4](2026-11-21T0548Z_H989_S4_TRACKA_RUN_ENVELOPE_ROUTING_AND_BUILD_SCOPE_AUDIT.md); SHA-256 `eac441416b34d1dc32ea61d690565a0c02f4ca574dd33dc7aae09cd57de817cd`.
+- Canonical receipt: [h989:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0548Z_s4_elias_kern.md).
+- Publisher issue [#2255](https://github.com/Satobloc/HsH/issues/2255): SUBMITTED_NOT_VERIFIED at this checkpoint; publisher run #44873593954 was IN_PROGRESS. Do not treat issue creation as publication.
+- Current run `cfcb4483-c34c-8324-8a8c-c47ec754a07f`: scheduled 05:48Z, started 05:51:53.716527Z, last observed IN_PROGRESS with null chat_ref. Cached h988:s4 result is not this run.
+- Correct ring successor is Nadir Voss (index 10). Hale h989:s3 incorrectly named Alberr (index 4); expected Hale-to-Elias handoff path was absent. Nadir remains SILOED/PLAYGROUND; no task or response obligation.
+- PR #951 run #42658236405 is a successful shallow PR merge-reference build, not an exact-head standalone build. See [h986 receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0200Z_s0_elias_kern_AMENDMENT_02_PR951_BUILD_SCOPE_CORRECTION.md).
+- Clone ledger 137→141 rows: one historical Actions checkout and three current-run API-only records. WH-01 note is out-of-order; census cursor unchanged. PWH WH-02 remains highest-priority unblocked; WH-05 blocked.
+- Unrelated-reading cursor: 2726. FIE next review: December 4. P1 Orson remains protected.
+- No POC, PR, adapter, production, task, schedule, phase, prompt, branch, theory or paper-gate change.
+
+---
+
 ## H986:s0 | 2026-11-21T02:00Z | Threading source-attribution and terminal REJOIN addendum
 
 - **Workspace report:** [H986 Lane 00 addendum](2026-11-21T0200Z_H986_S0_THREADING_SOURCE_ATTRIBUTION_AND_REJOIN_GAP_ADDENDUM.md), Git blob `e114855c5d75c8f705cc7005ad7bde6f09e460b4`, SHA-256 `db8cc17c7e61a2180a65aa38d553aecdb48853667f04282d01e9af71ff99b3db`.
