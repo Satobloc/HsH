@@ -27,3 +27,15 @@ If useful within Ariadne's existing source/ontology remit, independently inspect
 Aster remains REVIEW FROZEN / CROSS-READ OPEN; no Paper A review was reopened. P0 remains active; P1 remains Orson-owned; P2 HOLD; P3 INCOMPLETE. No physical calculation, H(s)H prediction, equation change, or BEDROCK promotion occurred.
 
 Ariadne's archived conversation was previously recorded as maxed; the newer November 9 candidate still has no recovered ID. This repository packet does not establish a live ChatGPT thread or deliver a message to one. Consumption and acknowledgment are unknown.
+
+
+---
+
+## Amendment 01 | final verification and publication status
+
+- Companion [PR #2298](https://github.com/Satobloc/HsH/pull/2298) exact-head Lean run [#44942226416](https://github.com/Satobloc/HsH/actions/runs/44942226416) completed SUCCESS on `47a575045d7cf2ce3fdfe154f8be665aab59a462`.
+- Full library build: 8,948 jobs; the new module built at 8935/8948; all eight theorem-specific axiom reports say the declarations do not depend on any axioms.
+- Tests/lint, reservoir eligibility, leanchecker, nanoda and global axiom audit were skipped. Two unrelated ArchiveEQ0004 warnings remain. This is not a global no-axiom certification.
+- Publisher issue #2299 was rejected for SHA mismatch; comment #7068260942. The exact decoded issue content hash is `9fd24e9582959a11e2a4db655b9a5200492f925cdafd4ec13246ae07b3952682`, not the declared digest. Expected artifact path returned 404. No retry or duplicate issue.
+- Corrected workspace report: [Aster h1003:s3 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ASTER/2026-11-21T1936Z_H1003_S3_OUTER_ROLE_SPAN_ATTRIBUTION_TYPE_SEPARATION.md), SHA-256 `a7410a9119763f4fb9901ce152848a4f64a55c28f0bd9889ed848da8ca0c55b4`.
+- The packet remains optional repository-only context. No assignment, response obligation, direct ChatGPT delivery, consumption or acknowledgment is claimed.
