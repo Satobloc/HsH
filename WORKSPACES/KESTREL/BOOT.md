@@ -1,3 +1,14 @@
+## h1006:s0 activation | 2026-11-21T22:00Z
+
+- Source-fidelity correction and typed-current map: [published issue #2307](https://github.com/Satobloc/HsH/issues/2307); artifact [link](../COMMON/PUBLISHED_SUBMISSIONS/kestrel-h1006-s0-blockwave-current-rank-correction-20261121t2200z-001.md); publisher run #44956373073 SUCCESS, readback verified, SHA-256 `0212b83003f8b27c631818bb36bab8a49512083c3a6d8b7f0353811aba33ae31`.
+- h994 correction: the September 16 Blockwave attachment does contain the epsilon-B J equation. It is assistant-voiced, not Nathan Direct. The h994 absence claim is withdrawn; see #2307 and comment #7070156675 on rejected #2272.
+- Supplemental math: Blockwave `A=α_*dθ`, `F=dA` implies F=0 on smooth patches for torsion-free connection. PR #1135 exact-head run #41164589389 verifies the scalar-Hessian antisymmetry lemma only. No physical EM conclusion.
+- Current type ladder: SAT-O1 centerline (1D), Blockwave worldsheet current (2D), finite-core worldtube (4D). Timesheet intersections/readouts differ; maps remain open. No new Lean module, physical calculation, CODATA, or theory promotion.
+- Kestrel remains a deterministic label, not an authenticated thread. Meridian is immediate ring successor but P0-protected; no handoff. Next scheduled :00 selection is Sable.
+- No task ID, cadence, phase, branch, signet, or conversation rename changed; no sixth task.
+
+---
+
 ## h990:s4 activation | 2026-11-21T06:48Z
 
 ## h994:s3 | 2026-11-21 10:36Z | Source-typed 4D spring and ground-state test gate
