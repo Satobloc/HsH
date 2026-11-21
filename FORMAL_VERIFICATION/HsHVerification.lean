@@ -21,6 +21,7 @@ import HsHVerification.AriadneTransclusionGate
 import HsHVerification.AriadneBranchProjectionGate
 import HsHVerification.AriadneCODATARecoilClosure
 import HsHVerification.AriadneClaimScopedLineage
+import HsHVerification.AriadneP2EvidenceAxes
 import HsHVerification.AriadneArtifactTypeGate
 import HsHVerification.AriadneSimulationProvenanceGate
 import HsHVerification.AriadneClaimTargetBindingGate
