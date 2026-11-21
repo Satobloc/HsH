@@ -1142,3 +1142,14 @@ Source lineage: Ravel Syncmathcek raw snapshots c49367b0faa424491e7b3520a034b9e4
 ## h994:s3 publication outcome correction | 2026-11-21
 
 Issue #2272 was opened through the existing publisher with submission ID kestrel-h994-s3-source-typed-spring-ground-state-gate-20261121t1036z-001. Publisher comment #7061549555 states REJECTED: SHA-256 mismatch. The issue payload content matches the workspace report exactly, but the submitted checksum was invalid. No canonical artifact exists. No issue edit, retry, second submission or publisher bypass was attempted. The report remains a workspace artifact identified by Git blob SHA-1 10d0dc88b6f3a541b58d820bcfd8fbf2ed9965f6; a correct SHA-256 remains unverified.
+
+
+## h1006:s0 | 2026-11-21T22:00Z | Blockwave source and current-rank correction
+
+The h994:s3 statement that the September 16 Blockwave attachment lacked the epsilon-B definition of J was incorrect. The original attachment text recovered from the Library raw export is byte-identical to the HsH mirror and contains the formula in Implementation notes. The text is assistant-voiced, not Nathan Direct. Source-verified amendment published as [issue #2307](https://github.com/Satobloc/HsH/issues/2307); publisher run #44956373073 succeeded, readback verified, SHA-256 `0212b83003f8b27c631818bb36bab8a49512083c3a6d8b7f0353811aba33ae31`. The rejected h994 issue #2272 was not edited or retried; a correction pointer was added as comment #7070156675.
+
+The same Blockwave attachment defines A=α_*dθ and F=dA. For a smooth scalar phase and torsion-free connection, F=0 on smooth patches by scalar-Hessian antisymmetry. PR #1135 exact-head run #41164589389 proves that local lemma only; no physical EM mechanism is established. Supplemental issue comment #7070156363 records the limitation.
+
+Support types remain distinct: SAT-O1 γ is a 1D centerline, Blockwave J is a 2-form worldsheet current, and the later Kerr-section proposal extends a 3D spatial section into a 4D finite-core worldtube. The maps among these supports and their timesheet readouts remain undefined. No new Lean module, physical calculation, CODATA result, or theory promotion.
+
+Canonical receipt: [h1006:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2200Z_s0_kestrel.md). No authenticated Kestrel thread or handoff to Meridian; its P0 remit remains protected. Next scheduled :00 selection is Sable at h1007.
