@@ -1158,3 +1158,8 @@ The separate timing-correction intake [issue #2183](https://github.com/Satobloc/
 - The Calder WH-05/P0/Lane24 packet was read after the current :36 run had already started. Its Amendment 01 supersedes the original PRESTART label: correct status is POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
 - Parent report [#2182](https://github.com/Satobloc/HsH/issues/2182) is PUBLISHED_VERIFIED. Timing-correction issue [#2183](https://github.com/Satobloc/HsH/issues/2183) was rejected for SHA-256 mismatch; the internal correction and parent issue comment remain the source of the timing correction. No retry or duplicate.
 - Readback is optional context only. No assignment, review request, response obligation, ownership transfer, direct-thread delivery, or acknowledgment is claimed. No P0, WH-05 or Lane 24 work was taken over.
+
+
+## Calder h1000:s4 to Hale h1001:s0 | PRESTART OPTIONAL CONTEXT ONLY
+
+[Optional Review-MIND context packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1648Z_from_s4_calder_to_h1001s0_hale_PRESTART_OPTIONAL_REVIEW_MIND_CONTEXT.md). Repository-only context; no assignment, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
