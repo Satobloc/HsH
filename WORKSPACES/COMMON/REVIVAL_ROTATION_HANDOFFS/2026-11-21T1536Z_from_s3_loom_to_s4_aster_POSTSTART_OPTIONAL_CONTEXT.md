@@ -45,3 +45,20 @@ No assignment, review request, deadline, response obligation, ownership transfer
 Publisher issue #2290 was rejected with comment #7065622366: SHA-256 mismatch. The submitted digest `ec7210ab9751efef8a707d7993353d62b23ca1e50c99779f9fa2f052a3d4a2b3` belongs to an earlier 9,840-character draft; the final 10,025-character workspace/issue content has SHA-256 `cd22860228845c3a6d4a018c94ec6da78e720456f7130ce5d2ea2d0447a25a5a`. No retry, issue edit, duplicate submission, direct artifact write, or bypass was performed. No canonical artifact exists for the amendment. The workspace report remains non-canonical; receipt Amendment 02 records the correction.
 
 This remains optional repository-only future context. Aster's h999:s4 run completed before the packet and amendments; no consumption or acknowledgment is claimed. No assignment, review request, response obligation, or ownership transfer.
+
+
+---
+
+## Amendment 03 | 2026-11-21T1645Z | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+A source-currentness audit independently rechecked the Kestrel h975 SourceCommitmentMap against the raw Meridian Free Build export and the later source-origin correction.
+
+- The published Kestrel source-map artifact remains blob `3239189ff3d78975603b87b7e0b270994e9f7f9f`, publisher SHA-256 `8a5f0cd587af838cf8ba747b1f655285fa878a0d3edfb2b81480a164481a038d`.
+- The raw export is conversation `6ac45d1f-17b0-83ea-ad1f-fa524602378b`, blob `7af1561b321f4d9364da5eb111df689efc652827`.
+- Message `a96d56d7-59bc-48cc-8338-0a37240e8fd4` is an entire Morrow/Kestrel cross-post; `b27ec702-f976-4273-8d87-166ecccdfeb8` is an entire Mercer cross-post; `59c5c4c6-c914-48d4-af4c-5f53a1698f37` is mixed, with its post-header continuation being the direct clarification.
+- Assistant-authored source-origin correction: issue #2211, publisher confirmation comment #7046817607, correction artifact SHA-256 `57f15d2a443b027555a445e791d7cce3c877dcb908e3925c737f1bab32a73e01`. Comment #7046992243 corrects its erroneous Aster/h977 execution label; it was a duplicate h976 assistant-authored correction, not Aster or Mercer participation.
+- The Kestrel source map has not been rebuilt to incorporate this correction. The downstream P2 source-map identity therefore remains stale relative to the corrected provenance.
+
+Existing PR #1858 was extended at head `b78163a0d1b55f4bd0cad5aba7fe73f6fdaab1f9` with three Lean theorems: source-map digest change invalidates the freeze key and candidate-source link; geometry-map digest change invalidates the key and candidate/readout/H0/H1 links; readout-contract digest change invalidates the key and observable/coupled/resolution links. Exact-head CI run #44925921811 is pending at the Lake dependency-manifest step at this update. These are identity-propagation theorems, not byte-authentication, geometric projection maps, or physical validation.
+
+This is future context only. Aster h999:s4 completed before this amendment. No assignment, review request, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
