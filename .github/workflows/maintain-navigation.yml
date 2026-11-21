@@ -165,7 +165,7 @@ jobs:
           test -f indexes/CONVERSATION_CHRONOLOGY.md || true
 
       - name: Report date-tagging warnings
-        if: ${{ steps.development_dates.outcome == 'failure' || steps.live_dates.outcome == 'failure' }}
+        if: ${{ steps.development_dates.outcome == 'failure' || steps.live_dates.outcome == 'failure' || steps.root_dates.outcome == 'failure' }}
         run: |
           echo "::warning::At least one date-tagging pass reported a collision or parse-level failure. Generated manifests were retained; structural/chronology indexing continued."
 
@@ -176,7 +176,25 @@ jobs:
           git config user.name "H(s)H Navigation Bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A -- "DEVELOPMENT_FULL_CONVOS" "LIVE CONVOS" || true
-          git add -A -- '*.json' '*.txt' || true
+          if [ -f "indexes/manifests/root-conversation-dates.json" ]; then
+            python - <<'PY'
+          import json
+          import subprocess
+          from pathlib import Path
+
+          manifest = Path("indexes/manifests/root-conversation-dates.json")
+          payload = json.loads(manifest.read_text(encoding="utf-8"))
+          staged = 0
+          for record in payload.get("records", []):
+              if record.get("status") != "renamed":
+                  continue
+              old_path, new_path = record.get("old_path"), record.get("new_path")
+              if isinstance(old_path, str) and isinstance(new_path, str):
+                  subprocess.run(["git", "add", "-A", "--", ":(literal)" + old_path, ":(literal)" + new_path], check=True)
+                  staged += 1
+          print(f"staged_root_renames={staged}")
+          PY
+          fi
           git add indexes/STRUCTURAL_INDEX.md indexes/index-state.json || true
           git add indexes/CONVERSATION_CHRONOLOGY.md indexes/LIVE_CONVERSATION_CHRONOLOGY.md indexes/OTHER_HSH_CONVERSATION_CHRONOLOGY.md || true
           git add indexes/manifests indexes/autotag || true

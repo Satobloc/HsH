@@ -54,12 +54,32 @@ def audit(root:Path)->dict:
         else:
             issues.append({"path":record.old_path,"status":record.status,
                            "warnings":record.warnings})
-    return {"root":str(root),"counts":counts,"exceptions":issues}
+    all_datable_tagged = (
+        counts["needs_renaming"] == 0
+        and counts["unresolved_collisions"] == 0
+    )
+    all_conversations_have_dates = counts["undatable_conversations"] == 0
+    return {
+        "root":str(root),
+        "counts":counts,
+        "exceptions":issues,
+        "all_datable_tagged":all_datable_tagged,
+        "all_conversations_have_dates":all_conversations_have_dates,
+        "fully_tagged":all_datable_tagged and all_conversations_have_dates,
+    }
 
 def main()->int:
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("--output",type=Path,default=Path("indexes/manifests/date-tag-audit.json"))
-    p.add_argument("--strict",action="store_true",help="fail if any datable conversation is untagged, colliding, or impossible to date")
+    p.add_argument(
+        "--strict",
+        action="store_true",
+        help=(
+            "fail if a datable conversation needs a date prefix or has an "
+            "unresolved filename collision; legitimate undatable exceptions "
+            "remain reported but do not block the strict gate"
+        ),
+    )
     args=p.parse_args()
     checked=[audit(Path(name)) for name in ROOTS if Path(name).is_dir()]
     outcome={
@@ -72,15 +92,29 @@ def main()->int:
                                  "unresolved_collisions","undatable_conversations",
                                  "skipped_not_conversations_or_bad_json")},
     }
-    outcome["fully_tagged"]=all(
-        outcome["overall_counts"][key]==0
-        for key in ("needs_renaming","unresolved_collisions","undatable_conversations"))
+    outcome["all_datable_tagged"] = (
+        outcome["overall_counts"]["needs_renaming"] == 0
+        and outcome["overall_counts"]["unresolved_collisions"] == 0
+    )
+    outcome["all_conversations_have_dates"] = (
+        outcome["overall_counts"]["undatable_conversations"] == 0
+    )
+    # Preserve the legacy completeness meaning: every recognized conversation
+    # has a date AND every datable conversation has the correct filename prefix.
+    outcome["fully_tagged"] = (
+        outcome["all_datable_tagged"]
+        and outcome["all_conversations_have_dates"]
+    )
     args.output.parent.mkdir(parents=True,exist_ok=True)
     args.output.write_text(json.dumps(outcome,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print(json.dumps({"fully_tagged":outcome["fully_tagged"],
-                      "counts":outcome["overall_counts"],"output":str(args.output)},
-                     ensure_ascii=False))
-    return 1 if args.strict and not outcome["fully_tagged"] else 0
+    print(json.dumps({
+        "all_datable_tagged":outcome["all_datable_tagged"],
+        "all_conversations_have_dates":outcome["all_conversations_have_dates"],
+        "fully_tagged":outcome["fully_tagged"],
+        "counts":outcome["overall_counts"],
+        "output":str(args.output),
+    }, ensure_ascii=False))
+    return 1 if args.strict and not outcome["all_datable_tagged"] else 0
 
 if __name__=="__main__":
     raise SystemExit(main())
