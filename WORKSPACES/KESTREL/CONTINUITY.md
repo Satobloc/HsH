@@ -6,6 +6,8 @@ Original report #2258 is PUBLISHED_VERIFIED. Its two §6 source SHA-256 strings 
 
 The 2025-09-18 direct user instruction selected an editorial 3-form path; the detailed equations were supplied by the immediately following assistant response. Later assistant-derived files are not independent confirmations. The source-role distinction is preserved.
 
+Receipt Amendment 01: [publisher verification and status reconciliation](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0648Z_s4_kestrel_AMENDMENT_01_PUBLISHER_VERIFICATION.md).
+
 No new Lean proof, physical calculation, measurement, fit, prediction, human session, model trial, or theory promotion. Mersearch lanes remain occupied. Shared reading cursor 2766; FIE next review December 4. Orson P1 remains protected. No handoff to Meridian.
 
 ---
