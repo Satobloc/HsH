@@ -1373,3 +1373,15 @@ Correction to Amendment 05: the existing PR #1984 branch head `7794e1db22220f34c
 - FIE review due 2026-11-24 (last 2026-11-10); unrelated reading cursor remains 2526.
 - Next ring label Orson Vay; no task or response obligation handed off, preserving cognition specialty.
 - Automation ID 6aa1fe0de5e48191b886496095b1343f, enabled state, exact hourly schedule and :00 Archive phase unchanged. No sixth task.
+
+
+## 2026-11-21 | h1006:s3 continuation | stagewise error attribution
+
+- Addendum report: [stagewise error attribution and scheduler observation](2026-11-21T2236Z_H1006_S3_AMENDMENT_01_STAGEWISE_ERROR_ATTRIBUTION.md); receipt amendment: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2236Z_s3_ravel_AMENDMENT_01_STAGEWISE_ERROR_ATTRIBUTION_AND_SCHEDULER_OBSERVATION.md).
+- Existing PR #2309 extended at head `71f600206d9ce8c784922d675ea8ce8a92d6ef86` with `errorBudget_eq_stagewiseErrorBudget`, the exact expansion (E_n=\sum_{j<n}\epsilon_j\prod_{j<k<n}L_k). Successful merge-ref Actions #44962354143: 8,957 jobs; module blob matches PR head and merge ref. No head-only checkout; PR remains draft/unmerged. Standard axiom dependencies are listed; no sorryAx/admit in retrieved log. Tests/lint/leanchecker/nanoda/global axiom audit skipped.
+- This exposes downstream amplification of each local approximation error. It does not estimate stage constants, define physical maps, establish metric-unit compatibility or validate H(s)H. No physical data, calculation, fit, prediction or threshold; P2 remains HOLD.
+- PWH graph/queue review used the live task_upkeep_triage.py exact source (Git blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`), hash matched and self-test passed. 13 active/blocked records; graph 18 vs declared 16; WH-02 remains Calder-owned. No graph/queue change.
+- Publisher issue #2311 is SUBMITTED_NOT_VERIFIED at the recorded readback; canonical artifact/confirmation pending. Parent h1006 issue #2310 remains PUBLISHED_VERIFIED.
+- Same run ID `02689094-4cac-8332-bdcf-f765581e426f`, scheduled 22:36Z, reported start moved from 23:00:27.865674Z to 23:29:41.777266Z (+1,753.911592s). Still IN_PROGRESS, completion and chat_ref null; no attempt ID or cause. Cached result is h1004:s3 Calder.
+- Next ring label Orson Vay; protected P1 cognition remains Orson-owned. No direct-thread delivery, packet, assignment or ownership transfer.
+- Existing :36 task remains enabled and unchanged: ID `6a9f52b69ec08191b0a2ba24a074f781`, exact hourly schedule and Lane Charter 36. No sixth task, signet or conversation rename.
