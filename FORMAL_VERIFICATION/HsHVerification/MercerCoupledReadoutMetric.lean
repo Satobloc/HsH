@@ -136,22 +136,28 @@ structure PositiveUnitScale (d : Dim) where
   value : ℝ
   positive : 0 < value
 
-/-- Dividing a channel difference by a positive scale of the same dimension
-    yields a dimensionless normalized component. -/
-noncomputable def normalizedDifference {d : Dim}
-    (x y : UnitTagged d) (scale : PositiveUnitScale d) :
-    UnitTagged dDimensionless :=
-  ⟨(x.value - y.value) / scale.value⟩
+/-- Subtraction is available only between values with the same dimension. -/
+def unitSubtract {d : Dim} (x y : UnitTagged d) : UnitTagged d :=
+  ⟨x.value - y.value⟩
 
-/-- A diagonal normalized squared discrepancy for two heterogeneous channels.
-    The type requires a separately dimension-matched positive scale for each.
-    This is a proposed baseline discrepancy, not a selected H(s)H metric. -/
-noncomputable def normalizedPairSquaredDiscrepancy {dO dC : Dim}
-    (o1 o2 : UnitTagged dO) (oScale : PositiveUnitScale dO)
-    (c1 c2 : UnitTagged dC) (cScale : PositiveUnitScale dC) :
-    UnitTagged dDimensionless :=
-  ⟨(normalizedDifference o1 o2 oScale).value ^ 2 +
-   (normalizedDifference c1 c2 cScale).value ^ 2⟩
+/-- Division carries the quotient of the numerator and denominator dimensions. -/
+noncomputable def unitDivide {dN dD : Dim}
+    (x : UnitTagged dN) (scale : PositiveUnitScale dD) :
+    UnitTagged (Dim.div dN dD) :=
+  ⟨x.value / scale.value⟩
+
+/-- Transport a tagged value only along an explicit dimension equality. -/
+def castUnitTagged {d1 d2 : Dim} (h : d1 = d2)
+    (x : UnitTagged d1) : UnitTagged d2 :=
+  h ▸ x
+
+/-- Squaring carries the product dimension. -/
+def unitSquare {d : Dim} (x : UnitTagged d) : UnitTagged (Dim.mul d d) :=
+  ⟨x.value ^ 2⟩
+
+/-- Addition is available only for values with the same dimension. -/
+def unitAdd {d : Dim} (x y : UnitTagged d) : UnitTagged d :=
+  ⟨x.value + y.value⟩
 
 /-- The ratio of a dimension signature by itself is dimensionless. -/
 theorem dimensionDivSelfIsDimensionless (d : Dim) :
@@ -159,6 +165,29 @@ theorem dimensionDivSelfIsDimensionless (d : Dim) :
   cases d with
   | mk m l t =>
     simp [Dim.div, dDimensionless]
+
+/-- Dividing a channel difference by a positive scale of the same dimension
+    produces a dimensionless value by transporting the quotient tag through
+    the proved identity Dim.div d d = dDimensionless. -/
+noncomputable def normalizedDifference {d : Dim}
+    (x y : UnitTagged d) (scale : PositiveUnitScale d) :
+    UnitTagged dDimensionless :=
+  castUnitTagged (dimensionDivSelfIsDimensionless d)
+    (unitDivide (unitSubtract x y) scale)
+
+/-- A diagonal normalized squared discrepancy for two heterogeneous channels.
+    Each channel is normalized through typed division; squaring and addition
+    retain their dimension tags, and the final dimensionless tag follows from
+    the zero-exponent identity. This is a proposed baseline discrepancy, not
+    a selected H(s)H metric. -/
+noncomputable def normalizedPairSquaredDiscrepancy {dO dC : Dim}
+    (o1 o2 : UnitTagged dO) (oScale : PositiveUnitScale dO)
+    (c1 c2 : UnitTagged dC) (cScale : PositiveUnitScale dC) :
+    UnitTagged dDimensionless :=
+  let o := normalizedDifference o1 o2 oScale
+  let c := normalizedDifference c1 c2 cScale
+  castUnitTagged (by simp [Dim.mul, dDimensionless])
+    (unitAdd (unitSquare o) (unitSquare c))
 
 /-- Squaring a same-dimension normalized component remains dimensionless. -/
 theorem normalizedComponentSquareIsDimensionless (d : Dim) :
@@ -196,9 +225,14 @@ theorem normalizedPairSquaredDiscrepancyNonnegative
     (o1 o2 : UnitTagged dO) (oScale : PositiveUnitScale dO)
     (c1 c2 : UnitTagged dC) (cScale : PositiveUnitScale dC) :
     0 ≤ (normalizedPairSquaredDiscrepancy o1 o2 oScale c1 c2 cScale).value := by
-  simp [normalizedPairSquaredDiscrepancy, normalizedDifference]
+  simp [normalizedPairSquaredDiscrepancy, normalizedDifference,
+    unitDivide, unitSubtract, unitSquare, unitAdd, castUnitTagged,
+    dimensionDivSelfIsDimensionless, Dim.mul, Dim.div, dDimensionless]
   positivity
 
+#print axioms unitDivide
+#print axioms normalizedDifference
+#print axioms normalizedPairSquaredDiscrepancy
 #print axioms jointReadoutDescendsToTubeIff
 #print axioms jointReadoutDescendsToSheetIff
 #print axioms couplingDifferenceForbidsTubeOnlyReduction
