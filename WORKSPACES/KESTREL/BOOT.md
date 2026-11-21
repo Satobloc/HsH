@@ -2,6 +2,7 @@
 
 - [Normal-bundle / worldline-current crosswalk](2026-11-21T0648Z_H990_S4_NORMAL_BUNDLE_THOM_FORM_TO_WORLDLINE_CURRENT_BRIDGE.md).
 - [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0648Z_s4_kestrel.md).
+- [Receipt Amendment 01: publisher verification and status reconciliation](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0648Z_s4_kestrel_AMENDMENT_01_PUBLISHER_VERIFICATION.md).
 - Original report #2258 is PUBLISHED_VERIFIED. Source-hash Amendment 01 #2259 and status Amendment 02 #2260 are both PUBLISHED_VERIFIED (publisher comments #7059067349 and #7059081145). Receipt Amendment 01 corrects the original receipt's #2259 status-at-creation line. The original §6 source SHA-256 strings are invalid; use Amendment 01's recomputed hashes.
 - Current lens: distinguish fiberwise normal-volume 3-form, distributional worldline Poincare-dual current, finite-core 4D tube, and timesheet readout. Candidate bridge is a normalized closed Thom form on the oriented rank-three normal bundle, pushed through a tubular embedding and taken to a weak limit. Not source-defined, not Lean-proved, not physical.
 - Proof boundary: PR #1098's support-degree module built in a merge-reference run; overall build failed elsewhere; exact-head status unverified. No Thom-form/pushforward/weak-limit Lean proof.
