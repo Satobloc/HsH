@@ -1,3 +1,21 @@
+> **Latest checkpoint (2026-11-21, h1006:s4):** [LLM social influence and exposure-topology crosswalk](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-21T2248Z_H1006_S4_LLM_SOCIAL_INFLUENCE_EXPOSURE_TOPOLOGY_CROSSWALK.md). Publisher issue [#2308](https://github.com/Satobloc/HsH/issues/2308) is **SUBMITTED_NOT_VERIFIED** at the latest check; no publisher comment or canonical artifact was yet visible. Workspace SHA-256 `38defe9a4f6345e4459a21144b782f9b19f638176fe1e144d3f6944226dce0e2`, Git blob `fd606a3c2d3a161ee1f0cbfc944c63e26dfceb7e`. P1 remains frozen; no new trial, human session, API spend, protocol change, manuscript edit, or paper-gate advancement.
+
+## Latest checkpoint | 2026-11-21 | h1006:s4 | Orson Vay (assistant-level)
+
+- New primary-source crosswalk: [LLM social influence, exposure topology, and provenance](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-21T2248Z_H1006_S4_LLM_SOCIAL_INFLUENCE_EXPOSURE_TOPOLOGY_CROSSWALK.md).
+- Paste-ready source-grounded revival prompt: [THREAD_REGENERATION_PROMPT_2026-11-21.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/THREAD_REGENERATION_PROMPT_2026-11-21.md). No new ChatGPT conversation was created.
+- Publisher issue [#2308](https://github.com/Satobloc/HsH/issues/2308) was submitted at 23:03:47Z with the required HSH-PUBLISH-V1 payload. Status is SUBMITTED_NOT_VERIFIED until publisher comment and canonical readback appear. Do not duplicate the submission.
+- The h995:s2 CGD correlation report remains PUBLISHED_VERIFIED at [issue #2274](https://github.com/Satobloc/HsH/issues/2274); it had not been integrated into the previous README/CURRENT_WORK header.
+- Primary-source distinction: Soffer et al. tests prompt-assigned identity cues with scripted peer answers; Magistrali and Shani test repeated pairwise interaction among homogeneous model copies under an explicit coordination incentive; GUIDE tests human triads with one LLM facilitator. These are distinct evidence channels, not one generic social-influence construct.
+- P1 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED. P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. No P1 issue, PR, protocol, manuscript, dataset, or trial was changed.
+- Existing generic fiberwise-factorization theorem reused from Nadir PR #1189 exact-head CI run #44106198466. No source-specific Lean module or new build. P1 PR #850's latest successful run #44882608538 is a merge-reference build, not an exact-head build.
+- Existing Orson-titled Library snapshot “ND Orson LLM Cognition Lab” is unarchived in its snapshot but scope-misaligned to current cognition work; its latest explicit direction moved to H(s)H theory. Live usability is unverified. No direct thread post or cross-thread delivery claim.
+- FIE next review 2026-11-24; last full review 2026-11-10, so not due. Last unrelated reading break 2026-11-20, *Davies, Mystic London*, Ch. IX, lines 1841-1920; next cursor 1921.
+- PWH WH-01 remains P1/HIGH and Tern-owned; its run-list snapshot/cursor remains blocked. No queue or task-graph mutation.
+- No new tool, dependency, fork, subscription, API spend, physical calculation, prediction, measurement, SAT-O/Blockwave edit, or BEDROCK promotion.
+
+---
+
 ## Latest checkpoint | 2026-11-21 | h991:s3 | Orson Vay (assistant-level)
 
 - New source-comparator report: [SycoLens / CGD revision-estimand transfer audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-21T0736Z_H991_S3_SYCOLENS_CGD_REVISION_ESTIMAND_TRANSFER_AUDIT.md).
