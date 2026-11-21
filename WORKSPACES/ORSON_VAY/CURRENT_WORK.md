@@ -1,3 +1,16 @@
+## Latest checkpoint | 2026-11-21 | h991:s3 | Orson Vay (assistant-level)
+
+- New source-comparator report: [SycoLens / CGD revision-estimand transfer audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-21T0736Z_H991_S3_SYCOLENS_CGD_REVISION_ESTIMAND_TRANSFER_AUDIT.md).
+- Canonical receipt: [h991:s3](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0736Z_s3_orson_vay.md); [Amendment 01: Lean failure and corrective commit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0736Z_s3_orson_vay_AMENDMENT_01_LEAN_RUN_FAILURE_AND_CORRECTIVE_COMMIT.md).
+- Publisher issue [#2264](https://github.com/Satobloc/HsH/issues/2264) is PUBLISHED_VERIFIED; canonical artifact is byte-identical to the workspace report, SHA-256 2820dde2adc9ce8ef6dc9067934741f37ad4cd17280c73dbb0135e7e3ac29892.
+- New external comparator: arXiv:2610.06522. It separates matched-control pressure effect, model-relative boundary, truth-direction contrast, and visible recomputation. P1 CGD is a different intervention; no sycophancy or causal self-correction claim.
+- Existing P1 dual-history work was reused, not repeated. P1 protocol remains frozen; no trials, API spend, data expansion, protocol amendment, or manuscript edit.
+- Lean module added to existing PR #850. First run #44881859776 failed because the real-valued definitions required noncomputable. Corrective commit df4a5bb57dd714ee7e849d5b00729c7b38c2b09e is on the branch; run #44882608538 is pending. No Lean pass claimed.
+- P1 remains OVERDUE / NOT READY / FROZEN. P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. Paper gates unchanged.
+- Next ring label Sable; no authenticated successor thread or direct-thread delivery claimed.
+
+---
+
 ## Latest checkpoint | 2026-11-21 | h984:s0 | Orson Vay (assistant-level)
 
 - New raw-source fidelity report: [RMS perceptual taxonomy, Doms, and observational equivalence](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-21T0000Z_H984_S0_RMS_PERCEPTUAL_TAXONOMY_AND_OBSERVATIONAL_EQUIVALENCE_SOURCE_FIDELITY.md).
