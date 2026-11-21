@@ -452,3 +452,56 @@ Do not confuse existence/searchability with having read the source.
 If this continuity packet itself becomes stale, preserve it as a dated checkpoint rather than rewriting history. Update it by explicitly reconciling newer Nathan directives and newer repo controls. If a future Ravel discovers a contradiction, record both the old statement and the newer controlling correction with provenance.
 
 The goal is seamless continuation **without false continuity**.
+
+
+## 2026-11-01 | Lane 00 time-history graph and source-fidelity pass
+
+The May 2026 SAT++ discussion was re-read with source-critical separation. The flattened transcript does not carry raw role metadata. Conversation-context corroboration identifies user turns about a 3D coil cross-section carried along a persistence direction, symmetry-first treatment of time, and historical equivalence among block/timesheet/distributed-dynamics descriptions. That equivalence is historical only: an October 20 raw user-role message explicitly says the reciprocal description is no longer current since Klein Fabric became common.
+
+The later raw Meridian Free Build messages provide direct source anchors:
+- 2026-10-09 21:13:43Z, message 6f00a97a-aa84-45bf-9429-4ff70736014a: one helical core; outer coil hollow.
+- 2026-10-09 21:50:55Z, message 3c657387-b80b-4982-a61a-8e6d8568b8d1: worldtube resistance associated with inertia; classical particle motion described through filament topology.
+- 2026-10-09 22:46:38Z, message 5a929b5e-515e-4f77-a32a-e49feef42812: time surface described as an interacting 3D bulk; quoted assistant material is not direct authorship.
+- 2026-10-10 03:40:38Z, message 1178f25c-9f92-4d1c-b43b-06482e6bf1b1: 3D intersectional trace of a 4D filament; coil radius is not filament thickness.
+
+The assistant's early 1D-helix / “4D worldline” reconstruction conflated intrinsic and ambient dimension. The corrected typing distinguishes a 1D centerline, its 2D history, a 3D finite-core cross-section, and its 4D history. A 3D timesheet can intersect the 4D core history in a 3D slice under regularity/transversality conditions.
+
+PR #1133 was extended on its existing branch:
+- History graph and spatial/time projection lemmas: commit 2523f2c4517872045f72e3b589d0498a5eb6f659. Actions #41261202834 succeeded; 8,945 build jobs. The spatial-projection noninjectivity theorem has no axioms; slice equality uses propext and Quot.sound.
+- Product-space dimension increment: commit d63e788d39d2ac0f2c161eee64d05b4c1987506e. Actions #41261628435 succeeded; 8,945 build jobs. The product theorem uses propext, Classical.choice, and Quot.sound.
+
+This is a set-level/product-space formalization, not a proof that a physical SAT/H(s)H history is a smooth product manifold. Expansion/propagation map, core-thickening map, response operator, and current Klein Fabric composition map remain undefined.
+
+Public-safe issue #1183 was published through the existing publisher. Run #41262141571 / job #124717398929 succeeded; publisher comment #6551903421 records the file path, commit, SHA-256, and readback. An independent fetch of the published file exactly matched the issue payload.
+
+Next cursor: verify issue-publisher run #41262141571 and read back the generated submission artifact; do not create a duplicate issue. Then specify the missing maps before attempting a manifold-dimension or physical-dynamics theorem. No CODATA work or BEDROCK promotion.
+
+
+## 2026-11-01 | Correction to prior time-history/source-attribution note
+
+The earlier continuity section mislabeled several local/derived clock values as UTC. The raw Meridian Free Build export gives these exact UTC timestamps:
+- 2026-10-09T01:13:43.652Z, message 6f00a97a-aa84-45bf-9429-4ff70736014a: one core and hollow outer coil.
+- 2026-10-09T01:50:55.112Z, message 3c657387-b80b-4982-a61a-8e6d8568b8d1: worldtube curvature/inertia working proposition; particle motion described through filament topology.
+- 2026-10-09T02:46:38.173Z, message 5a929b5e-515e-4f77-a32a-e49feef42812: mixed quote/correction; only the user continuation is Nathan Direct.
+- 2026-10-09T07:40:38.859Z, message 1178f25c-9f92-4d1c-b43b-06482e6bf1b1: 4D filament / 3D trace distinction and coil-radius correction.
+
+The October 21 message 090f5160-1020-486d-9c42-df3d7dff2063 is mixed-source. The pasted/back-hallway material is not Nathan Direct. Only its final user annotation is direct: it retires the older reciprocal filament/timesheet-deformation model because Klein Fabric became common. It does not define Klein Fabric. Do not describe the entire message as an unqualified direct statement.
+
+The earlier “1D centerline / 2D history / 3D cross-section / 4D history” sequence is an assistant reconstruction/modeling option, not a recovered Nathan Direct equation. The 2025 gamma is a 1D curve; the later direct source describes a 4D finite-core filament. The thickening/fiber map between them is missing. The 3D timesheet is described directly as an interacting bulk, not merely a passive readout.
+
+## 2026-11-01 | Lane 00 source-fidelity and explicit pullback result
+
+- Durable report: WORKSPACES/RAVEL/2026-11-01T0140Z_LANE00_NATHAN_DIRECT_GEOMETRY_FIDELITY.md.
+- Source manifest: WORKSPACES/RAVEL/2026-11-01T0140Z_LANE00_SOURCE_MANIFEST.json.
+- The 2024 moving-plane construction is explicitly heuristic. The trace radius is the helix cross-section radius, not pitch; assistant turn 73ff7431 had conflated pitch-dependent traversal with radius, and the direct correction aaa2a1cc restores the distinction.
+- June/July 2025 SAT4D sources use a 1D gamma and 3D wavefront. The displayed curve is not a 4D finite core. The June live draft has a document-level byline and acknowledged AI assistance; equation-level Nathan authorship is not established.
+- The 2026 direct geometry specifies one core/hollow outer coil, a 3D timesheet bulk, a 4D filament/3D trace distinction, and ell_f as coil radius/diameter rather than the older glossary thickness use.
+- Native cw=t / ++++ and classical w=ct are separate conventions. Current BEDROCK correction ND-2026-10-21-03 gives v_H=H0 L and v_±=±(c+H0 L)/2; preserve the earlier shorthand separately.
+- SAT4D J1, assistant-authored Blockwave J2, and the unbylined Page One J3/J2 paste are different current/form-degree objects. No J3↔J2/J1 map is supplied.
+- Added generic FiberedSupport and SlicePullback definitions to existing PR #1133. The pullback has explicit projections to tube, sheet and base; the ambient image equals the intersection; the slice decomposes over base into fiberwise intersections.
+- Actions #41262912990 / job #124719656790 succeeded on merge ref 6df06ab92501e6d303eca8ed5935c0c42f8ee714. PR head 29fc054b51382490a6aa8c2b0ea5596673c9a9ee and merge-ref module blob matched exactly (7d69860eff2f24b0409444edd48dfadb3508bb50). Lean 4.34.0 / Lake 5.0.0, 8,945 build jobs, zero sorryAx occurrences in retrieved log. Tests, lint, nanoda and automated axiom-audit were skipped; standalone PR-head checkout was not run.
+- Lean proves only the formalized generic set identities. It does not establish source-to-formal fidelity, existence of the physical embeddings, timesheet dynamics, Klein Fabric topology, or physical truth.
+- PR #1133 remains draft/open/unmerged. Issue #1183 is already published and exact readback verified; no duplicate issue. No new branch/PR, tool, physical calculation, CODATA scoring, paper-gate advancement, BEDROCK edit or theory promotion.
+- All four Mersearch lanes were occupied; no request was opened or overwritten. FIE rereview was not due (last full review 2026-10-27); unrelated-source break had already been completed 2026-10-31.
+- Incoming Mercer handoff was read as optional context only. No task or response obligation. Next ring identity is Orson Vay, but the live :12 automation is disabled; no task assignment or cross-thread handoff was made. Orson's cognition allocation remains untouched.
+- Current next cursor: recover a role-bearing Nathan Direct definition of Klein Fabric; specify K↔W4, centerline thickening/fiber embedding, timesheet embedding, response map and current-rank reductions with explicit domains, codomains and composition conditions.

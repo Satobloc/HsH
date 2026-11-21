@@ -83,3 +83,28 @@ Keep charge, mass, exclusion, Kelvin reach, and any EM/gravity weighting as live
 ## Next restart action
 
 Read `CONTINUITY.md`, then inspect repo changes newer than the recorded checkpoints. Do not assume this file is current merely because it is named `STATE.md`. Sandbox reconstruction is active project-wide; before propagating any sandbox result outside sandbox, re-check the project-wide standdown and obtain the required release/promotion authority.
+
+
+## 2026-11-01 | Lane 00 source-fidelity update
+
+- Added a time-indexed spatial-support graph and explicit spatial/time projections to the existing Ravel formalization in PR #1133.
+- First Lean merge-reference build succeeded: Actions #41261202834 / job #124714661505; target module blob matched the PR-head blob.
+- Added a conditional product-space dimension theorem in commit d63e788d39d2ac0f2c161eee64d05b4c1987506e. Actions #41261628435 / job #124715902852 succeeded; target module blob matched the PR-head blob.
+- The May 2026 flattened transcript has no raw role metadata. Later October 2026 raw user-role messages support the core/coil/timesheet distinctions. The May representation-equivalence discussion is historical. The October 21 message 090f5160 is mixed-source; only its final user annotation is Nathan Direct. It says the older reciprocal filament/timesheet-deformation model is no longer current since Klein Fabric became common, but it does not define Klein Fabric or supply a global/local map.
+- No physical dynamics, expansion map, thickening map, or response operator was supplied. No theory promotion, physical calculation, or CODATA scoring.
+- Public-safe addendum is in WORKSPACES/RAVEL/2026-11-01T0145Z_TIME_HISTORY_GRAPH_ADDENDUM.md; publisher issue #1183 is published and exact repository readback is verified (run #41262141571; commit 08f147c9a5bfffcee7b1daa176063e1de3f474e5; SHA-256 4924df5a3f50fc35abbe8105fa7da9e1e3c8321c0125259c74bdcb18561ffe8a).
+- Previous publisher cursor is closed: issue #1183 was published and exact repository readback verified. Current cursor: recover a raw, role-bearing Klein Fabric definition; define the K-to-W4 map, centerline thickening/fiber embedding, timesheet embedding and response map, then current-rank reductions.
+
+
+## 2026-11-01 | Lane 00 geometry fidelity and pullback formalization
+
+- Full source-fidelity supplement: WORKSPACES/RAVEL/2026-11-01T0140Z_LANE00_NATHAN_DIRECT_GEOMETRY_FIDELITY.md.
+- Source manifest: WORKSPACES/RAVEL/2026-11-01T0140Z_LANE00_SOURCE_MANIFEST.json.
+- The 2024 moving-plane correction is preserved: trace radius is helix cross-section, not pitch; the construction is explicitly heuristic.
+- The 2025 SAT4D gamma is a 1D curve and cannot by itself be the later 4D finite-core worldtube. The 2026 direct source distinguishes one core/hollow outer coil, a 3D timesheet bulk, and coil radius/diameter from the older thickness use of ell_f.
+- Message 090f is mixed-source; only its final annotation is Nathan Direct. It retires the older reciprocal deformation model but does not define Klein Fabric.
+- Current BEDROCK correction ND-2026-10-21-03 is v_H=H0 L and v_±=±(c+H0 L)/2. The earlier ±(c+H0)/2 shorthand remains preserved separately.
+- Existing PR #1133 extended with generic FiberedSupport/SlicePullback projections and image/decomposition theorems. Commit 29fc054b51382490a6aa8c2b0ea5596673c9a9ee. Actions #41262912990 / job #124719656790 succeeded on merge ref 6df06ab92501e6d303eca8ed5935c0c42f8ee714; module blob matched PR head. Lean 4.34.0, Lake 5.0.0, 8,945 build jobs, zero sorryAx in retrieved log. lake test, lake lint, nanoda and automated axiom-audit skipped. Standalone PR-head checkout not run.
+- The new Lean result proves only generic set identities. It does not instantiate physical SAT objects, prove source-to-formal fidelity, or establish physical premises.
+- PR #1133 remains draft/open/unmerged. Existing issue #1183 remains published and readback-verified; no duplicate issue. No physical calculation, CODATA scoring, paper advancement, BEDROCK edit or theory promotion.
+- Current next cursor: recover Klein Fabric's direct definition; define K↔W4, centerline-to-core, timesheet, response and current-rank maps with domains/codomains and conditions.
