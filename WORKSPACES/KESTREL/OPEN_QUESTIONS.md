@@ -412,3 +412,14 @@ This does not follow from \(J=*T^\flat\) alone. The existing QUARRY 098 cube-law
 **Source custody:** direct user editorial direction toward a 3-form is distinct from assistant-authored equations; later assistant derivatives are not independent confirmation. Original SAT-O1 and Blockwave equations remain verbatim and unchanged. Use source SHA-256 values from Amendment 01, not the invalid values in original report §6.
 
 See [h990:s4 report](./2026-11-21T0648Z_H990_S4_NORMAL_BUNDLE_THOM_FORM_TO_WORLDLINE_CURRENT_BRIDGE.md), [Amendment 01](./2026-11-21T0706Z_H990_S4_AMENDMENT_01_SOURCE_HASH_CORRECTION.md), [Amendment 02](./2026-11-21T0710Z_H990_S4_AMENDMENT_02_PUBLICATION_STATUS_CORRECTION.md), and [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0648Z_s4_kestrel_AMENDMENT_01_PUBLISHER_VERIFICATION.md). All three publisher artifacts are PUBLISHED_VERIFIED.
+
+
+## 2026-11-21 h994:s3 update: ground-state persistence and system separation
+
+1. What source-defined, detector-level observable could establish an intrinsic oscillation that remains in the electron ground state, independently of excitation resonances and without using Compton/ZB as a size assignment?
+2. What parameterization maps the SAT-O1 affine parameter to proper time or a calibrated detector clock?
+3. What finite-core extension maps the 4D centerline to the source-committed worldtube thickness and profile?
+4. Which matched minimal pair differs in one controlled charge/flavor factor while sharing the same frozen geometry/readout parameters and an untouched holdout?
+5. Where, if anywhere, does the epsilon-B formula for the Blockwave rank-two current originate? It is absent from the inspected Blockwave attachment, separate Blockwave ideal-model file and 2025-10-19 assistant synthesis. Do not attribute it to those sources until located.
+
+Keep electron ground-state dynamics, helion static charge structure and superfluid 3He-B medium response as distinct systems. The helion radius is a static charge-density second moment; superfluid 3He-B order-parameter angle vartheta is not H(s)H theta4. No minimal pair selected, no new physical prediction, P2 remains HOLD.
