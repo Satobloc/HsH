@@ -59,6 +59,7 @@ import HsHVerification.OrsonSilentDissentReadout
 import HsHVerification.OrsonDebateValidityMeasurement
 import HsHVerification.OrsonAnswerPairedJudgeContrast
 import HsHVerification.OrsonCaliberConfidenceState
+import HsHVerification.OrsonSycoLensEstimand
 import HsHVerification.OrsonCGDProjectionGate
 import HsHVerification.OrsonCGDManifestBounds
 import HsHVerification.OrsonCGDRosterProvenance
