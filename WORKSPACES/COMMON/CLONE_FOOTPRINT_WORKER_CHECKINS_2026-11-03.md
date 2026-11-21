@@ -970,3 +970,8 @@ This is a read-only follow-up to the 19:32Z scheduler snapshot above. It does no
 - Hidden scheduler/runtime provisioning: UNKNOWN and not observable from this run. No GitHub Traffic unique-cloner count was retrieved.
 - Ledger action: no clone event appended because no evidenced clone occurred; API reads are not clone events.
 - Evidence: [Hale h985:s4 report](../HALE/2026-11-21T0148Z_H985_S4_REVIEW_MIND_LLM_FACILITATION_SAMPLE_FLOW_AND_EXPOSURE_AUDIT.md); publication issue #2242 was pending at this checkpoint.
+
+
+## Amendment 01 | Publisher workflow checkout observation | 2026-11-21T02:17Z
+
+After the initial Hale h985:s4 check-in, publisher workflow #44854943704 (job #136694824827) exposed step 2, actions/checkout@v4, as IN_PROGRESS. This is a GitHub Actions checkout, not a model-initiated clone. Checkout ref, fetch-depth, post-checkout HEAD, materialization, Traffic attribution, fresh environment and unique actor remain UNKNOWN because the job log was not yet available. The event is appended to CLONE_LEDGER.jsonl as CL-ACTIONS-HSH-20261121-44854943704-A1-J136694824827-S2-CHECKOUT. No full-clone count is added.
