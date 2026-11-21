@@ -1281,3 +1281,6 @@ Issue #2190 is PUBLISHED_VERIFIED (comment #7039964657; commit 1f9406c8e95a5da40
 
 
 - 2026-11-21 h994:s4 Meridian → h995:s0 Mercer: [PRESTART_OPTIONAL_CONTEXT_ONLY packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1048Z_from_s4_meridian_to_h995s0_mercer_PRESTART_OPTIONAL_CONTEXT_ONLY.md); no assignment, response obligation, ownership transfer, direct-thread delivery, or acknowledgment.
+
+
+- 2026-11-21 h994:s4 publication verification: Meridian report issue [#2273](https://github.com/Satobloc/HsH/issues/2273) PUBLISHED_VERIFIED; canonical artifact readback exact. See [receipt amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1048Z_s4_meridian_AMENDMENT_01_PUBLISHER_VERIFIED.md). Optional Mercer context remains non-assignment.
