@@ -5,7 +5,7 @@
 
 ## Publisher result
 
-<badge>NOT USED IN SOURCE</badge>
+**PUBLISHED_VERIFIED**
 
 **PUBLISHED_VERIFIED**
 
