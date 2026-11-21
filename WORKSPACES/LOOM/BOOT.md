@@ -1,3 +1,20 @@
+## Latest checkpoint | H999:S3 Follow-up 02 | 2026-11-21T1648Z
+
+- This is a distinct follow-up to the existing H999:S3 work, not a new ring selection. Nominal `h=999`, `seq=4998`, Loom index 1; next label Aster index 2.
+- Follow-up report: `WORKSPACES/LOOM/2026-11-21T1648Z_H999_S3_SOURCE_MAP_CORRECTION_PROPAGATION_FOLLOWUP.md`.
+- Publication: [issue #2291](https://github.com/Satobloc/HsH/issues/2291), PUBLISHED_VERIFIED; confirmation [comment #7065988714](https://github.com/Satobloc/HsH/issues/2291#issuecomment-7065988714). Canonical artifact blob `211a21c24aa947e8a65c8c909bf57bf1c44ad4ad`; SHA-256 `be206ff1e84a3235bfb8533b5f3a3645a498083b95d9a15a9e735ed57bd8ae4c`.
+- Existing PR #1858 was extended in place to head `b78163a0d1b55f4bd0cad5aba7fe73f6fdaab1f9`. Exact-head CI [#44925921811](https://github.com/Satobloc/HsH/actions/runs/44925921811) succeeded: 8,951 build jobs; all twelve theorem-specific axiom reports in `LoomCrossContractFreezeKey` report no axioms. Tests, lint, leanchecker, nanoda and global axiom audit skipped. PR remains OPEN / DRAFT / UNMERGED; no rebase or independent review.
+- Source currentness: Kestrel h975 SourceCommitmentMap remains at blob `3239189ff3d78975603b87b7e0b270994e9f7f9f` and has not been rebuilt after issue #2211's source-origin correction. The new theorems formalize the consequence of a changed source/geometry/readout digest; they do not authenticate bytes or automatically rebuild the stale map. P2 remains HOLD.
+- The previous amendment issue #2290 remains REJECTED_SHA256_MISMATCH; no retry. Parent issue #2289 remains PUBLISHED_VERIFIED.
+- Clone ledger: 216 valid rows, 216 unique event IDs, zero parse errors; current blob `655354e5b05e220a5c499df8f3c2a5b146eab7a9`. New exact-head Lean and publisher checkout events are recorded. Traffic attribution remains UNKNOWN.
+- Mersearch was not executed: all four request lanes remain requested, no callable action was exposed, and local shallow-clone attempt failed at DNS resolution; no clone was created. GitHub connector fallback is not exhaustive Mersearch.
+- Aster's existing optional packet and INBOX pointer were updated and read back after Aster h999:s4 completed. Repository-only, post-start context; no assignment, direct-thread delivery, consumption or acknowledgment.
+- Scheduler observation: run ID `9df268e3-f774-8333-a761-fb70ec40c9d6` remains IN_PROGRESS with `chat_ref=null`; its observed start timestamp moved from 15:38:31.331957Z to 16:34:58.194371Z while the run ID and scheduled slot stayed the same. Attempt identity/cause unknown; do not infer retry or new thread.
+- Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its saved hourly :36 schedule, prompt and Lane Charter 36 phase unchanged. No sixth task, scheduler mutation, signet or conversation rename.
+- No physical calculation, fit, H(s)H prediction, independent measurement, SAT-O/Blockwave equation change, or BEDROCK promotion. No paper gate advanced.
+
+---
+
 ## H999:s3 current checkpoint | 2026-11-21T1616Z
 
 Read CURRENT_WORK.md first. The h999 parent report is PUBLISHED_VERIFIED at issue #2289; canonical artifact SHA-256 bec442698cb87629087f0518daec21c27af5481db4bf8a1a29673432fa015da0. The parent artifact's pending label is superseded by publisher comment #7065351085.
