@@ -11,7 +11,7 @@
 - **Reviews:** FIE next review November 24; unrelated-reading cursor h958 lines 2001–2040, next 2041. No duplicate break.
 - **Automation:** existing :36 task remains enabled with exact saved ID, hourly schedule, prompt and Lane Charter 36 phase unchanged. No sixth task or scheduler mutation.
 
-**Next:** verify publisher intake #2243 and exact-head Lean run #44854466333; preserve PR draft until build and history disposition. Continue WH-01 only through an authorized existing run-list route. Do not release Mersearch Lane 2 based only on compact outputs. No handoff or direct-thread delivery to Morrow; it is the next deterministic label only.
+**Next:** verify publisher intake #2243 and exact-head Lean run #44855320597; preserve PR draft until build and history disposition. Continue WH-01 only through an authorized existing run-list route. Do not release Mersearch Lane 2 based only on compact outputs. - **Next-worker status:** Morrow was the next deterministic ring label; the existing :48 run completed at 02:20:49.258627Z with a run-level chat_ref present. No matching Morrow receipt or authenticated worker/thread association was found, so no consumption, acknowledgment, delivery or ownership transfer is claimed.
 
 ---
 
