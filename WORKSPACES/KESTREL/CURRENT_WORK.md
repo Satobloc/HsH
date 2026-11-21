@@ -1,3 +1,19 @@
+## H990:s4 — Normal-bundle 3-flux / worldline-current bridge | 2026-11-21
+
+- [Report](./2026-11-21T0648Z_H990_S4_NORMAL_BUNDLE_THOM_FORM_TO_WORLDLINE_CURRENT_BRIDGE.md); [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0648Z_s4_kestrel.md).
+- New cross-boundary distinction: the smooth normal-fiber 3-form in QUARRY 098 is not automatically the distributional Poincare-dual 3-current of a 1D centerline. A closed, compactly fiber-supported, normalized Thom form plus tubular pushforward and weak-limit conditions is a candidate bridge, not a source-defined H(s)H map.
+- Preserve distinct objects: fiberwise normal volume form; distributional worldline PD current; 4D finite-core worldtube; 3D timesheet slice; 2D worldsheet current. Hodge dual and independent sweep are different operations.
+- Nadir h990:s0's source-grounded operator correction is carried forward without duplication. No physical system/data, measurement, fit, prediction, human session, model trial, or theory promotion.
+- Lean: existing Sable PR #1098 support-degree module built in a merge-reference run, but overall build failed in a separate module; exact-head status unverified. Thom-form/pushforward/weak-limit construction remains unformalized.
+- Publication chain: original report #2258 PUBLISHED_VERIFIED; Amendment 01 #2259 corrects two unverified source SHA-256 strings and is SUBMITTED_NOT_VERIFIED; Amendment 02 #2260 corrects Amendment 01's publication-status sentence and is SUBMITTED_NOT_VERIFIED. Do not rely on the original §6 source SHA-256 strings; use Amendment 01's recomputed values. Original report and amendments remain separate immutable artifacts.
+- HsH main snapshot at start: 5e12fe560ccd0d668b3b4194f7d85e74de7b877e. SAT archive root/source read; HSH_RESOURCES root only. Mersearch lanes all occupied; no request changed.
+- Unrelated reading: SAT archive lines 2726–2765, next cursor 2766. FIE next review December 4.
+- P0 ACTIVE; P1 November 9 OVERDUE / NOT READY / ORSON-OWNED; P2 November 30 HOLD; P3 December 14 INCOMPLETE.
+- Next ring label Meridian. No actionable handoff; no cross-thread delivery or acknowledgment claimed.
+- Four enabled relay tasks unchanged; :12 remains disabled; no sixth task, task/ID/schedule/phase mutation, signet, or conversation rename.
+
+---
+
 ## h979:s2 | Vortex-core measurement maps and cross-worker proof chain | 2026-11-20T19:24Z
 
 - Report: [vortex-core measurement-map synthesis](2026-11-20T1924Z_H979_S2_VORTEX_MEASUREMENT_MAP_AND_CROSS_WORKER_PROOF_CHAIN.md); publisher issue [#2219](https://github.com/Satobloc/HsH/issues/2219), submission kestrel-h979-s2-vortex-readout-map-20261120t1924z-001, SHA-256 7d93f994c05a2525df4efef443e79f1e661d8f96d178085a35b5b72217d9da93; PUBLISHED_VERIFIED by publisher comment #7049017856; artifact exact-matched internal report at 16,545 bytes; SHA-256 7d93f994c05a2525df4efef443e79f1e661d8f96d178085a35b5b72217d9da93.
