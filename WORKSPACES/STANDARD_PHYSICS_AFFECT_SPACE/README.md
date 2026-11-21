@@ -44,7 +44,7 @@ The initial exercise is deliberately simple: choose a bounded entity/history, ma
 
 ## Current status
 
-The prior conversation chose carbon-14 as a candidate specimen but then drifted into the full carbon cycle and population-average birth/death distributions. That expansion was explicitly rejected as too complex for the initial exercise. The specimen/path choice is therefore **not yet fixed**. The next action is to recover the simple original plan and select a bounded C-14 history that does not enter the biosphere or require a tour through the entire carbon cycle.
+The initial carbon-14 candidate led to an unwanted expansion into the full carbon cycle and population-average birth/death distributions. That branch was explicitly closed. The current specimen is **one representative chondrule**, traced from its chondrule-forming heating/melting episode through cooling and disk transport to incorporation into a small, primitive, undifferentiated planetesimal. See [SPECIMEN.md](SPECIMEN.md). The project is now defining the two boundary events; it does not assume a unique individual trajectory or a detailed heating mechanism.
 
 ## Files
 
