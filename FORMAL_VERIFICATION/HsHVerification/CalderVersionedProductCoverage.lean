@@ -389,8 +389,9 @@ theorem gw241011_current_product_blocks_evaluation
   intro h
   have hFalse : analysisReady gw241011O4V1CurrentReadiness = false := by
     decide
-  rw [hFalse] at h.1
-  cases h.1
+  have hReady := h.1
+  rw [hFalse] at hReady
+  cases hReady
 
 #print axioms reindexPredictionGate
 #print axioms analysis_readiness_alone_does_not_imply_evaluation_admissibility
