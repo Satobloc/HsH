@@ -477,3 +477,10 @@ The exact-ID :36 task lookup is intermittent: one successful peek confirmed the 
 - Publisher issue [#2276](https://github.com/Satobloc/HsH/issues/2276) is SUBMITTED_NOT_VERIFIED, SHA-256 `e0ec832db0c27136c2fdd4db4885516fa89d3130b69f0138297f5e1054f55ee0`. No retry or duplicate.
 - Prior h991:s4 issue #2266 is PUBLISHED_VERIFIED; see [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0748Z_s4_sable_AMENDMENT_02_PUBLISHER_VERIFIED.md).
 - No physical prediction, fit, independent measurement, stability proof or GR-QM isomorphism. P2 HOLD; no theory promotion. Existing :36 task unchanged; no sixth task. Next ring label Loom, with no direct-thread handoff or ownership transfer claimed.
+
+
+
+### h995:s3 amendment | 2026-11-21T11:58Z
+
+- Publisher issue #2276 is **PUBLISHED_VERIFIED**; comment #7062227260, SHA-256 `e0ec832db0c27136c2fdd4db4885516fa89d3130b69f0138297f5e1054f55ee0`, canonical blob `88951c7e0ca160e6542c1fb8886d667d5d8e9388`. See [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1136Z_s3_sable_AMENDMENT_01_PUBLISHER_VERIFIED_AND_LEAN_RETRY_STATUS.md).
+- First Lean run #44901155150 failed on reserved `λ` binder names after exact-head checkout passed. Corrected head `4a6a96dea37fe6e3d0943853fc5ecf1d4b087b1e`; retry #44901520114 pending. Do not claim full formal verification yet.
