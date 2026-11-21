@@ -1,3 +1,15 @@
+## Latest checkpoint | h991:s0 | 2026-11-21T07:00Z | Achronal wavefront / observer intersections
+
+- Additive Lane 00 source-fidelity report: [h991 achronal wavefront and repeated observer intersections](2026-11-21T0700Z_H991_S0_ACHRONAL_WAVEFRONT_OBSERVER_INTERSECTION_FIDELITY.md). Four direct user-role source messages from Minkowski Ring Analysis were reconciled against the historical assistant's corrugated-surface sandbox.
+- Main result: a future-directed timelike observer can intersect one future achronal causal boundary at most once. Repeated crossings remain possible for an arbitrary non-null moving surface; later distinct null-path arrivals are not repeated crossings of the same boundary.
+- Conditional Lean proof: [PR #2262](https://github.com/Satobloc/HsH/pull/2262), exact-head run [#44881533266](https://github.com/Satobloc/HsH/actions/runs/44881533266), SUCCESS. The four named theorems report no axioms. PR remains draft/open/unmerged; proof does not derive Lorentzian premises or establish H(s)H physical equivalence.
+- [Factory Floor issue #20](https://github.com/Satobloc/FACTORY_FLOOR/issues/20) is a quarantined pre-intake holding record only: GEOMETRY_NOT_SUPPLIED / NOT FACTORY FLOOR ELIGIBLE. No active stage or candidate status.
+- SAT-O1 and Blockwave originals re-fetched; prior byte-level SHA-256 custody retained. Corrected equations: none.
+- This is a one-run Lane 00 overlay. Code Grurple P0 remains ACTIVE; no Paper A/B route probe, site edit, manuscript rewrite, assignment change or paper-gate advancement.
+- No physical calculation, fit, prediction, independent measurement, CODATA scoring or theory promotion. No authenticated Meridian thread, direct handoff, or cross-thread delivery is claimed.
+
+---
+
 ## Mercer publication-context amendment | h979:s3 | 2026-11-20T19:54Z
 
 - Publisher verification for issue #2220 is PUBLISHED_VERIFIED; [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1952Z_s3_meridian_AMENDMENT_01_PUBLISHER_VERIFIED_AND_HANDOFF_READBACK.md) records the canonical artifact and exact hash/readback.
