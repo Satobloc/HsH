@@ -1,3 +1,16 @@
+## Latest checkpoint | h988:s0 | 2026-11-21T04:00Z
+
+- [Workspace report](2026-11-21T0400Z_H988_S0_TIMESHEET_ONTOLOGY_AND_GRAVITY_ENTANGLEMENT_SOURCE_FIDELITY.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0400Z_s0_sable.md); [publisher-attempt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0400Z_s0_sable_AMENDMENT_01_PUBLISHER_NOT_TRIGGERED.md).
+- New source delta: December 2025 user-role messages leave timesheet-as-primitive versus average-front representation open and propose a collective statistical-entanglement account of gravity. Historical assistant replies overstate equivalence and persistence; current model unchanged.
+- Existing conditional Lean assets reused: PR #1133 / run #44862774441 and PR #873 / run #44090154878. No new source-specific theorem because the required maps are undefined.
+- Workspace report readback verified. Issue #2249 is a single failed intake record: publisher not triggered because title/body did not match v1; no artifact, no retry, no duplicate.
+- No physical calculation, CODATA scoring, independent measurement, or theory promotion. No authenticated Sable thread or cross-thread delivery.
+- Last unrelated reading break remains h980 lines 2401–2440; next cursor 2441. FIE review due November 24.
+- Existing :00 Archive automation remains enabled and unchanged; no task, ID, schedule, phase, or cadence mutation.
+
+---
+
 ## Latest checkpoint | H961:S2 | 2026-11-20T01:24Z
 
 Canonical receipt: [h961:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0124Z_s2_sable.md).
