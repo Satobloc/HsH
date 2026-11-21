@@ -1233,3 +1233,17 @@ See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1236Z_s3_loom_AMENDME
 - Canonical receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1800Z_s0_loom_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md, read back.
 - This amendment supersedes the pending publication status in the base h954 receipt. No duplicate issue or submission.
 - Existing :00 automation configuration was verified unchanged. The current run still has no terminal completion record or authenticated chat reference at last peek; do not infer scheduler completion or thread delivery.
+
+
+## 2026-11-21T11:48Z | h995:s4 | Assistant-level Review-MIND source-provenance audit
+
+- Deterministic ring label: Loom (index 1); immediate successor Aster (index 2). This is not authenticated Loom-instance participation. Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED; no current direct-thread destination was established.
+- Re-audited the archived Tag Conversation Corpus raw export (blob `6668ca60e451f8737903423727da7f9a430484e1`): 515 mapping nodes, 514 messages, role counts 10 user / 363 assistant / 141 tool. Existing source-tag ledger covers all 10 user-message IDs.
+- Added an append-only correction-propagation sidecar: `WORKSPACES/COMMON/tagging_ledgers/2026-11-21-LOOM-CORRECTION-PROPAGATION-AND-CHRONOLOGY-ADDENDUM.md` (blob `148626a017fc7a30b5f69f00f982429cd99b751f`). It records assistant-response edges, response lags, primary-source confirmation of the 2024-03-22 naming anchor, and the stale-summary mismatch.
+- Current `HISTORY_TIMELINE.md` correctly records March 22 naming and August–late 2024 later recurrence. `!!_HIGH_PRIORITY_SAT_STATUS_HISTORY_REPORT_2026-09-12.md` still describes August as the naming event; do not treat that older summary as current. No root timeline/report rewrite was made.
+- New report: `WORKSPACES/LOOM/2026-11-21T1148Z_H995_S4_CORRECTION_PROPAGATION_AND_RUN_IDENTITY_AUDIT.md`; SHA-256 `21edfd32d7fbdf97f7dffe679ec62ecb6338c48653277b0c4ff52a160523eda8`; publisher issue #2278 is SUBMITTED_NOT_VERIFIED at this checkpoint.
+- Source-bound Lean PR #2277 formalizes the task-conversation projection collision. Exact PR-head build #44904610774 passed, 8,944 jobs; the no-ring-label-function theorem is axiom-free, while the projection theorem reports propext. PR remains draft/open/unmerged; independent review pending.
+- Live :48 run: task `6aa6c3bc02b48191b8a91a30d2a155e0`, run `550790a9-0e28-832c-9d67-a4cff9cbd74f`, nominal 11:48Z, started 12:20:25.955838Z, IN_PROGRESS, `chat_ref=null`. Cached latest_result is prior h994:s4 Meridian; it is not the current run.
+- No new handoff or inbox assignment. Existing optional Sable→Loom and Loom→Aster packets remain unconsumed at the direct-thread level; Aster h996:s0 was already in progress.
+- Unrelated reading: SAT archive `fun break - lx.txt`, lines 2846–2885; next shared cursor 2886. FIE last rereviewed November 20; next December 4.
+- Orson P1 remains untouched and protected. No human session, model trial, physical calculation, fit, prediction, new measurement, theory promotion, task mutation, or sixth task.
