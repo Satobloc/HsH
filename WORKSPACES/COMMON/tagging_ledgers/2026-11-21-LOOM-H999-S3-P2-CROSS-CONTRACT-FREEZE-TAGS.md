@@ -31,3 +31,12 @@ Purpose: source-local tagging for the cross-contract architecture audit. This is
 ## Tagging rule applied
 
 Repeated assistant-authored gates are not independent corroboration. A published/readback-verified workflow document is still a proposal unless an implementation/adoption record says otherwise. A successful Lean build establishes only the formalized statement. A source correction changes the source-map identity and must propagate through candidate-family, prediction-envelope, and holdout identities. No source file or prior report was rewritten.
+
+
+## H999 follow-up | 2026-11-21T1616Z
+
+- Exact historical raw source path: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13•26.09.19•Tag Conversation Corpus — raw.json`.
+- Raw source blob: `6668ca60e451f8737903423727da7f9a430484e1`; conversation: `6aa67478-541c-83e9-b8fa-32d6d575eeb9`.
+- Ten direct user-role messages were re-read from the raw blob. All ten UUIDs were already present in the source-local charter tag ledger, blob `0d6aaa6b2874d9023ee483807795309c189483e3`. No tag IDs or tag values were duplicated or changed.
+- The h999 P2 cross-contract PR was extended from prior head `a7432d42c2eacd700c3906482a80ad67fc7aad30` to `cfd6b107c8c8e43c1d46c0a66fb852c6f2d4b205` with a required `CrossContractDependencyWitness`; exact-head Lean run #44923263467 passed.
+- Provenance correction only; this section does not change the historical source or claim current-thread authentication.
