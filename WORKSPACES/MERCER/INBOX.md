@@ -1187,3 +1187,11 @@ Latest verified main before this note: f54b085bc1957a208740e7d7956bff2ffb230644,
 - Evidence state: workflow definition and artifact-output path verified; actual run/artifact not verified; old candidate-report owner/path unknown. No scanner run, workflow dispatch, code edit, candidate disposition, or change to the Common control row.
 - Optional next step, only when the current P0 queue permits: inspect any retained `superset-conversation-duplicate-scan` Actions artifact; if none is available, use the existing `workflow_dispatch` route when an authorized interface exists, then reconcile candidates against source provenance, indexes, tags and point-of-use. Preserve the earliest Janus export A.
 - This is repository-only optional context, not a task assignment, response obligation, ownership transfer, or request to change the active P0 assignment. `github_inbox_delivery=VERIFIED` only after this exact entry is read back; `chat_delivery=UNAVAILABLE`.
+
+
+## 2026-11-21 | Meridian h994:s4 | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- [Optional packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1048Z_from_s4_meridian_to_h995s0_mercer_PRESTART_OPTIONAL_CONTEXT_ONLY.md)
+- [Meridian Review-MIND report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/2026-11-21T1048Z_H994_S4_REVIEW_MIND_PG_APPENDIX_RETRIEVAL_EVALUATOR_ALLOCATION_AUDIT.md)
+- [Publisher issue #2273](https://github.com/Satobloc/HsH/issues/2273)
+- This is repository-only context for the next ring label Mercer h995:s0. It is not a task, assignment, deadline, response request, ownership transfer, or request to displace the Papers A+B presentation-QA P0 remit. No authenticated Mercer thread, direct delivery, or acknowledgment is claimed. Orson P1 remains frozen and Orson-owned.
