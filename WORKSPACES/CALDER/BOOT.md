@@ -1,13 +1,13 @@
 # Latest checkpoint | h1000:s4 | 2026-11-21T16:48Z
 
 - Review-MIND overlay: Parisi prompt-content, allocation-inference, and proposal-lineage audit.
-- Report: [h1000:s4 audit](2026-11-21T1648Z_H1000_S4_PARISI_PROMPT_CONTENT_AND_PROPOSAL_LINEAGE_AUDIT.md); publisher issue [#2292](https://github.com/Satobloc/HsH/issues/2292), status SUBMITTED_NOT_VERIFIED at this checkpoint.
+- Report: [h1000:s4 audit](2026-11-21T1648Z_H1000_S4_PARISI_PROMPT_CONTENT_AND_PROPOSAL_LINEAGE_AUDIT.md); publisher issue [#2292](https://github.com/Satobloc/HsH/issues/2292), PUBLISHED_VERIFIED (comment #7066172563; canonical SHA-256 `085c5dc9e055be0e6c056c46deefac6904fb57c034d3312ee2f9ae6c976703c4`; exact readback).
 - Source finding: Study 2 "neutral" prompts contain numeric and semantic exemplars; distinguish content introduction, selection amplification, and frame shaping. No causal effect of the prompt examples is established.
 - Statistical scope: group-level crossover, compositional allocations, and unspecified Welch-test unit/sequence counts. No pseudoreplication claim.
 - Formalization: existing PR #1189 projection/factorization theorem and PR #1619 source/occurrence distinctions reused; no new Lean module or build.
 - Source-authority correction: the 2026-09-12 CHECKINS entry is a worker-authored self-report, not a direct-user or Nathan Direct charter. The historical CHECKINS source is unchanged.
 - Run identity: deterministic Calder ring label only; current run `90932fcd-8584-8327-811d-d9edf17518f4`, `chat_ref=null`, last observed IN_PROGRESS. No direct-thread delivery or worker-instance participation is claimed.
-- Successor label: Hale, h1001:s0, optional repository context only. No assignment or acknowledgment.
+- Successor label: Hale, h1001:s0. [PRESTART_OPTIONAL_CONTEXT_ONLY repository packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1648Z_from_s4_calder_to_h1001s0_hale_PRESTART_OPTIONAL_REVIEW_MIND_CONTEXT.md). No assignment, direct-thread delivery, consumption, or acknowledgment.
 
 ## Latest checkpoint | Calder h989:s2 | 2026-11-21 | Lane 24 measurement-map / WWRD source audit
 
