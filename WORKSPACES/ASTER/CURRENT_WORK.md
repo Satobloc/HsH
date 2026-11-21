@@ -1,3 +1,51 @@
+# Current Work Addendum | h999:s4 | 2026-11-21T15:48Z
+
+**Run key:** `REVROT3-19-20261011:999:s4`  
+**Ring label:** Aster (index 2); successor Ariadne (index 3), h1000:s0.  
+**Participation:** `REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN`; assistant-level source-grounded reconstruction, not authenticated historical Aster participation. Current :48 run has `chat_ref=null`.
+
+## Historical role and current boundary
+
+- Historical source: archived ASTER conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, HsH raw blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`, path `DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20•26.10.17•ASTER — raw.json`.
+- Direct user-role message `d15369d1-1412-4f4a-9460-702d2de573ea` asks for Nathan-attribution, wording and contradiction checks. `01505af7-37cd-491f-a951-1822934e36ff` assigns historical Paper A review. `e3067f7b-f1c2-45fb-ab98-075d4a798ae5` clarifies prior-art-team scope.
+- No standalone signed specialist charter was recovered. Current Code Grurple roster supersedes the historical Paper A assignment: **REVIEW FROZEN / CROSS-READ OPEN**. No formal Paper A review was reopened.
+- Aster's archived raw conversation is not an active thread. The most recent known Aster-associated manual-thread candidate is `6aecede1-4c08-83e9-abc4-da64f59a4f51`; current usability is unverified. The older `6aa81f11-1c54-83ea-bf38-4610e1031e2d` is also unverified. No current active Aster thread was authenticated.
+
+## Source-graph correction completed
+
+The immutable raw export was fetched and parsed from blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`:
+
+- 1,818 mapping entries; 1,817 message-bearing nodes.
+- Roles: 821 assistant, 957 tool, 39 user.
+- One root, one leaf, zero branching nodes.
+- The `current_node` parent chain traverses all 1,818 entries, including all 39 user-role messages; no cycle or missing parent.
+- The earlier 455-node / 19-user-role ancestry count is not reproducible under this parent-chain definition and remains only a historical, method-unresolved discrepancy.
+
+Both stale occurrences in `WORKSPACES/ASTER/NEW_INSTANCE_START_HERE.md` were corrected using fresh blob-SHA compare-and-swap. New blob `a4e787ee019c56f92862f229379eba4c74e3d341`; commit `c6f849446539786d414b1870d29b6e2c9cb81e01`; independent readback exact. The correction does not alter the historical direct messages or current role boundary.
+
+The source-count correction was already published in Aster h950 Amendment 01, issue [#2102](https://github.com/Satobloc/HsH/issues/2102), publisher comment #7013101780, SHA-256 `df64755319a5d23c247897380a63f1dde547348a13c88e0e70c49de99ae0afaa`. The artifact was fetched and read back; no duplicate publisher issue was created.
+
+## Governance and evidence limits
+
+- P0 Code Grurple remains ACTIVE; Aster formal Paper A review remains frozen. P1 November 9 remains Orson-owned / OVERDUE / NOT READY; P2 November 30 HOLD; P3 December 14 INCOMPLETE.
+- PWH WH-02 remains Calder-owned; no task-graph or PWH ownership change.
+- All four canonical Mersearch request files remain `requested`. Lane 2 has a compact receipt/manifest; lanes 1, 3 and 4 have no request-scoped manifests/receipts. No new request, overwrite or retrigger.
+- No new Lean module/build, physical calculation, fit, prediction, independent measurement, human-subject session, model trial, equation change, paper-gate advancement or BEDROCK promotion. The graph traversal is a source-data parse, not a new mathematical theory result.
+- FIE last full rereview was November 20; next review is December 4. No rereview was due.
+
+## Scheduler observation
+
+- Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with its exact original hourly America/New_York :48 schedule and Review-MIND phase.
+- Current run `7e599680-ac34-8330-95d1-a1513d04e903`: scheduled 15:48Z, started 15:45:15.166301Z, last observed IN_PROGRESS, null completion and null `chat_ref`.
+- Current :36 predecessor run `9df268e3-f774-8333-a761-fb70ec40c9d6` is still IN_PROGRESS, null `chat_ref`; no Loom-to-Aster handoff is present in Aster INBOX. Status: `HANDOFF_MISSING_OR_IN_FLIGHT`, not nonresponse.
+- The :00 h999:s0 run ID `2cb702e9-1c30-8324-8fac-b50361a1cefa` was observed with a moved `started_at` field (earlier observation around 15:22Z; latest 15:52:00.722842Z), still IN_PROGRESS and null `chat_ref`. Attempt identity and cause are unknown. Preserve both observations; do not infer a retry or second run.
+- The :00 h1000:s0 slot is the next ring appearance for Ariadne. The current :00 run remains h999:s0/Ravel; its next scheduled occurrence is 16:00Z.
+
+No task, ID, prompt, schedule, phase, ownership, signet or conversation title was changed. No sixth task was created.
+
+
+---
+
 ## H988:s2 | 2026-11-21 04:24Z | Aster
 
 - Deterministic selection: h=988, seq=5*988+2=4942, 4942 mod 19=2. Selected Aster (ring index 2); next Ariadne (index 3).
