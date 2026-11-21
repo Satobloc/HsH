@@ -71,8 +71,7 @@ theorem heterogeneousProjectionErrorBound
       _ ≤ L * dist (P x) (Papprox x) + epsilon₂ :=
         add_le_add (hLipschitz _ _ hPx hPapprox) (hStage2 _ hPapprox)
       _ ≤ L * epsilon₁ + epsilon₂ :=
-        add_le_add_right
-          (mul_le_mul_of_nonneg_left hErr hL) epsilon₂
+        add_le_add (mul_le_mul_of_nonneg_left hErr hL) le_rfl
       _ = epsilon₂ + L * epsilon₁ := by ring
 
 /-- Without a regularity/transfer bound on the second-stage map, no finite
@@ -87,15 +86,17 @@ theorem noUniformErrorTransferWithoutLipschitz
       |x - y| ≤ epsilon ∧
       proposedBound < |f x - f y| := by
   let scale : ℝ := (proposedBound + 1) / epsilon
-  refine ⟨fun t => scale * t, 0, epsilon, ?_, ?_⟩
-  · simpa [abs_of_pos hε]
+  refine ⟨fun t => scale * t, 0, epsilon, ?_⟩
+  constructor
+  · change |(0 : ℝ) - epsilon| ≤ epsilon
+    rw [zero_sub, abs_neg, abs_of_pos hε]
   · have hscale : scale * epsilon = proposedBound + 1 := by
       dsimp [scale]
       field_simp [ne_of_gt hε]
     change proposedBound < |scale * (0 : ℝ) - scale * epsilon|
     rw [show scale * (0 : ℝ) = 0 by ring, hscale]
     have hpos : 0 < proposedBound + 1 := by linarith
-    simp [abs_of_pos hpos]
+    rw [zero_sub, abs_neg, abs_of_pos hpos]
     linarith
 
 #print axioms heterogeneousProjectionErrorBound
