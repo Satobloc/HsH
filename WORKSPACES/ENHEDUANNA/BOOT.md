@@ -259,3 +259,16 @@ Read BEDROCK, Nathan Direct methodology, Steering Charter, Three Paper Campaign,
 - Orson P1 remains protected. No P1 manuscript, PR #850, issue #564, or paper gate changed.
 - Current :48 run `731969da-153c-8327-8e53-c78c501bbe15` was IN_PROGRESS at last readback, with null completion and null run-level chat_ref. Do not infer current worker liveness or thread identity from the ring label.
 - FIE next review: 2026-11-24. Unrelated-reading cursor: Babbage, Project Gutenberg #1216, next line 623.
+
+
+## Latest checkpoint: h1001:s3 (2026-11-21)
+
+- Existing observed-slice report is already published and verified: [issue #2294](https://github.com/Satobloc/HsH/issues/2294), canonical artifact under `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/`.
+- Existing draft [PR #2293](https://github.com/Satobloc/HsH/pull/2293) now carries an explicit source-span/source-to-candidate stage and full `Source → Candidate → Geometry → Slice → Observable → Measured` composition.
+- Exact PR-head Lean build passed on `498ae0ef2f0d34036865705b91ed4b435a07852e`: [Actions #44934722016](https://github.com/Satobloc/HsH/actions/runs/44934722016), 8,948 jobs. PR remains draft/unmerged; global axiom audit, tests, lint, leanchecker and nanoda were not run.
+- The source-span key and map IDs remain externally bound identity labels; no physical H(s)H map, dataset, prediction, fit or independent measurement was established. P2 remains HOLD.
+- This is assistant-level Lane 36 reconstruction. The ring label does not authenticate an Enheduanna instance or current thread. The reconstructed source-critical remit is unchanged; no standalone signed charter was found.
+- A first code-write call briefly put the draft module on main because the PR branch argument was omitted. The exact one-file addition was deleted from main immediately; the module is present only on PR #2293. Main history retains the add/delete pair; no history rewrite occurred.
+- The existing :36 task, enabled state, hourly schedule and phase remain unchanged. No sixth task, signet or conversation rename.
+- Last successful task-specific peek showed the current occurrence IN_PROGRESS with `chat_ref=null`; a later peek was unreadable. No completion or thread identity is inferred.
+- Next deterministic ring label: Tern Rook. Its nominal h1001:s4 slot had already started at the last successful check; any repository context is post-start and optional only.
