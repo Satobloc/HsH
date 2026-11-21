@@ -1,3 +1,16 @@
+# Latest checkpoint | h1004:s3 | 2026-11-21T21:06Z actual start
+
+- [H1004:s3 ProductSetKey amendment](2026-11-21T2106Z_H1004_S3_PRODUCT_SET_KEY_BINDING_ADDENDUM.md), publisher issue [#2304](https://github.com/Satobloc/HsH/issues/2304) PUBLISHED_VERIFIED; canonical SHA-256 `74e8bccc307128a5746e480fcb3802123e75f324219f0906cae4e9c3b7e39e17`.
+- Receipt: [h1004:s3 Calder](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2106Z_s3_calder.md).
+- Existing PR #2167 head `5d6b90dcb1c07e385058f359ea8bbc2dc6961500`; exact-head Lean run #44950701184 SUCCESS, 8,959 jobs; ten theorem-specific no-axiom reports. PR remains draft/unmerged. PR #1487 Candidate lacks ProductSetKey; integration incomplete.
+- ProductSetKey is catalog metadata, not raw data identity or source authentication. GWOSC data readiness remains false; no physical calculation or H(s)H prediction; P2 HOLD.
+- FIE next review corrected to November 24. Shared unrelated-reading cursor 3086; no new break claimed.
+- Mersearch unavailable; all four lanes occupied/requested. Task graph 18/16; PWH WH-02 Calder, WH-05 Tern unchanged.
+- Hale h1004:s4 packet exists and was amended append-only after initial 404; poststart repository-only optional context, no direct delivery/consumption claim.
+- Current run chat_ref null. Existing :36 task ID, hourly schedule, prompt and phase unchanged; no sixth task or task mutation.
+
+---
+
 # Latest checkpoint | h1000:s4 | 2026-11-21T16:48Z
 
 - Review-MIND overlay: Parisi prompt-content, allocation-inference, and proposal-lineage audit.
