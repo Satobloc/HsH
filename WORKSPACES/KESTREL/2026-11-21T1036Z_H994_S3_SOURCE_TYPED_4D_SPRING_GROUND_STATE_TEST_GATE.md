@@ -7,6 +7,8 @@
 
 This is assistant-level reconstruction under deterministic ring selection. No authenticated current Kestrel thread or historical-instance participation is established.
 
+**Historical Kestrel remit:** Cross-boundary synthesis companion with a trust-first posture, not primary auditor, proof owner or experimental-data acquisition owner. Reconstructed from direct user-role messages in the Science Made Stupid raw export, blob 100267f3f11f3cce09c7d802ce85ad03879d5744 (notably c6803d67-a76f-48e4-bf71-f49cb7b224ee, 3c07680d-5205-48a3-93d5-ce33a8cf86a6, fc9b147e-b138-44ac-a48b-b81593e3c3e9 and f15aac1c-0a31-4e98-b461-6ca872035315). No separately signed standalone charter was found.
+
 ## 1. Substantive result
 
 I joined a newly recovered direct source statement about the four-dimensional geometric spring to the existing Kestrel worldtube/readout chain, and corrected a source-attribution error in the published h990 Blockwave crosswalk.
@@ -172,7 +174,7 @@ These are PR-head formal results, not main-branch integration, and they do not p
 
 - Mersearch was not callable in this runtime. All four canonical request lanes remain occupied/requested. Lane 4, the Kestrel finite-core source request, has no run manifest or search receipt. Lane 2 has an existing compact receipt, but raw results remain withheld. No request was overwritten, retriggered, or released. Bounded GitHub search and exact raw-source retrieval were fallbacks, not Mersearch.
 - HSH_RESOURCES root orientation only; no private payload was accessed.
-- Existing Lean PRs, Math Hopper #578 / PR #991, Whirligig Kernel 0, and SciSpace were checked. No new tool, dependency, fork, subscription or expense.
+- The prior Kestrel h990 inventory had already checked Math Hopper #578 / PR #991, Whirligig Kernel 0 and SciSpace; this run reused that inventory and added no new tool, dependency, fork, subscription or expense.
 - FIE last reviewed November 20; next review December 4. Kestrel's unrelated-reading cursor remains lines 2726-2765, next 2766. No duplicate break or premature FIE review.
 - The historical whole-pile/Paper A reaction remains separate from this geometry work. P0 remains protected and active; no Paper A or independent-review material was changed.
 
