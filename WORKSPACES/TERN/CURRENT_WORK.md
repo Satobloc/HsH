@@ -10,7 +10,7 @@
 - **Project:** P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. No physical calculation, fit, H(s)H prediction, independent measurement, equation change, BEDROCK promotion or paper-gate advancement.
 - **Reviews:** FIE next review November 24; unrelated-reading cursor h958 lines 2001-2040, next 2041. No duplicate break.
 - **Automation:** existing :36 ID, enabled state, exact hourly schedule, prompt and Lane Charter 36 phase unchanged. Four relays enabled (:00/:24/:36/:48); :12 disabled. No sixth task.
-- **Next:** verify publisher #2246; recheck current :36 status; keep PR draft/unmerged pending authorized maintainer disposition.
+- **Next:** verify publisher #2246; recheck current :36 status; keep PR draft/unmerged pending authorized maintainer disposition. Morrow h986:s4 optional context packet was committed after its nominal slot but before the observed run start; timing Amendment 01 confirms POST_NOMINAL_SLOT / PRESTART_AT_CREATION / REPOSITORY_ONLY, with no direct-thread delivery, consumption, or acknowledgment.
 
 
 # Latest checkpoint | h986:s3 | 2026-11-21T0200Z
