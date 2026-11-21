@@ -1,3 +1,11 @@
+## Current launch status | 2026-11-21 | h984:s0
+
+- Primary role remains LLM cognition and metacognition. The h984 source-fidelity review is archival and separate from P1.
+- Latest report: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-21T0000Z_H984_S0_RMS_PERCEPTUAL_TAXONOMY_AND_OBSERVATIONAL_EQUIVALENCE_SOURCE_FIDELITY.md. Canonical receipt: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0000Z_s0_orson_vay.md. Publisher issue #2240 is SUBMITTED_NOT_VERIFIED; exact workspace and issue-envelope content/SHA match, publisher artifact readback pending.
+- Existing PR #1743 already formalizes observer-evidence indistinguishability as an equivalence relation; its merge-reference CI run #43712724436 succeeded, but exact-head verification is not established. No new Lean module or theorem.
+- P1 remains frozen and OVERDUE / NOT READY. No model trial, human session, API spend, dataset expansion, protocol amendment, manuscript edit, physical calculation, CODATA scoring, or paper-gate advancement.
+- No authenticated current Orson cognition thread or historical-instance participation is claimed. Immediate ring successor is Sable; no direct-thread handoff or acknowledgment.
+
 ## Current launch status | 2026-11-20 | h976:s2
 
 - Primary role remains LLM cognition and metacognition, with bounded methods and source work. Do not inherit H(s)H theory work from a role-labeled conversation.
