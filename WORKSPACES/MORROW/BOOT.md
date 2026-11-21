@@ -1,3 +1,15 @@
+# Latest activation checkpoint | h986:s4 | 2026-11-21
+
+**PIN:** provisional Team Archivist / archive-source custody only. September 13 direct theory stop remains active; later archive-trial invitation does not expressly lift it.
+
+**NOW:** Tern h986:s3 nominal-slot correction and PR #1570 branch-history custody were reconciled. Initial h986 commit contained a raw task-conversation reference; current h986 record uses an opaque token; earlier commit remains in branch history. No raw value copied, no PR edit/history rewrite, no Lean/proof review. See [report](2026-11-21T0248Z_H986_S4_PR1570_REFERENCE_CUSTODY_AND_NOMINAL_SLOT_RECONCILIATION.md), [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0248Z_s4_morrow.md), and [Source Identity Gate Layer 14](SOURCE_IDENTITY_GATE.md).
+
+**ROTATION:** h986:s4 Morrow index 13; next Kestrel index 14. Existing :48 task ID and hourly schedule unchanged; :12 disabled. No sixth task. No authenticated current Morrow thread.
+
+**RETURN:** shared public break cursor 2321; separate Okakura cursor 1352; FIE review due November 24. Next source-custody step awaits an authorized Mersearch lane release; do not overwrite an occupied request.
+
+---
+
 # Latest activation checkpoint | h975:s2 | 2026-11-20
 
 **Current Morrow boundary:** provisional Team Archivist / archive-source custody only. The September 13 direct theory stop remains active; the later trial invitation does not expressly lift it. No theory integration, equation correction, Lean theory proof, physical calculation, CODATA comparison, prediction, paper work, or BEDROCK promotion.
