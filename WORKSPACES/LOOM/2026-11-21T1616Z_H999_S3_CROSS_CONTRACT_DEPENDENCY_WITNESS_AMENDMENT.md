@@ -52,7 +52,7 @@ Existing PR [#1858](https://github.com/Satobloc/HsH/pull/1858) was extended. No 
 - Root aggregator: `FORMAL_VERIFICATION/HsHVerification.lean`.
 - Root aggregator blob: `746747dfcb84a8528ad08b10a017c3a3c4193ed6`.
 
-<badge color="success">EXACT-HEAD BUILD PASSED</badge>
+**EXACT-HEAD BUILD PASSED**
 
 [Actions run #44923263467](https://github.com/Satobloc/HsH/actions/runs/44923263467), job #136903676781:
 
