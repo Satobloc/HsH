@@ -1,3 +1,17 @@
+## Latest checkpoint | Calder h989:s2 | 2026-11-21 | Lane 24 measurement-map / WWRD source audit
+
+- Current return: [CURRENT_WORK.md](CURRENT_WORK.md), h989:s2.
+- Canonical receipt: [h989:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0524Z_s2_calder.md); Amendment 01 corrects the task ID transcription in the first receipt commit. The :24 task ID is `6abda4c8eda88191bf23a6f2849e9a17`.
+- Public source updates, read back: [P2 measurement-map issue #565](https://github.com/Satobloc/HsH/issues/565#issuecomment-7058043773); [WWRD rope-source issue #1096](https://github.com/Satobloc/HsH/issues/1096#issuecomment-7058042060).
+- WH-02 read-only status: [issue #1702](https://github.com/Satobloc/HsH/issues/1702#issuecomment-7058044914). PR #1710 is 7 ahead / 8,314 behind, no exact-head CI/reviews; no rebase or merge.
+- P0 remains Tern-owned/ACTIVE; PR #2009 is 3 ahead / 2,897 behind, no exact-head CI/reviews. No release or integration.
+- P2 remains HOLD; no measured system selected, no physical calculation/fit/prediction, no CODATA comparison. Lane 24 Cycle 08/08 remains BACKSEAT / HOLD.
+- Nadir PR #1189 exact-head build #44106198466 was reused; no new Lean run. Data-free synthetic additions remain NOT_EVIDENCE.
+- Optional repository-only prestart context to Hale: [packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0524Z_from_s2_calder_to_s3_hale_PRESTART_OPTIONAL_FINITE_CORE_AND_WWRD_SOURCE_MAP.md); Hale INBOX updated. No direct-thread delivery or acknowledgment claim.
+- Four Mersearch lanes remain occupied. No new tooling or dependencies. HSH_RESOURCES private payload not opened.
+- :24 task remains enabled with exact saved hourly schedule; :12 remains disabled. No task ID/cadence/prompt/phase change, no sixth task, no signet or conversation rename.
+
+---
 ## Latest checkpoint | Calder h978:s0 | 2026-11-20 | Lane 00 cross-report reconciliation
 
 - Current return: [CURRENT_WORK.md](CURRENT_WORK.md), h978:s0.
