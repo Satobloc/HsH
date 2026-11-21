@@ -599,3 +599,10 @@ The four-lease snapshot is out of slot alignment: :00 h778:s0 Kestrel completed;
 - Same scheduler run ID `02689094-4cac-8332-bdcf-f765581e426f` has two reported start-time observations (23:00:27.865674Z and 23:29:41.777266Z); no attempt ID or cause. Current `chat_ref=null`; cached result remains stale h1004:s3 Calder.
 - PWH graph/queue review completed at metadata level; WH-02 remains Calder-owned; graph remains 18 records / 16 declared. Four Mersearch lanes remain requested. No task, owner, queue, graph or schedule mutation.
 - Next ring label Orson Vay; P1 cognition remains protected. No packet or assignment.
+
+
+### h1006:s3 addendum publication verification | 2026-11-21
+
+- The stagewise error-attribution addendum is now **PUBLISHED_VERIFIED** at [issue #2311](https://github.com/Satobloc/HsH/issues/2311), publisher comment [#7071040841](https://github.com/Satobloc/HsH/issues/2311#issuecomment-7071040841).
+- Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-h1006-s3-stagewise-error-attribution-20261121t2236z-001.md`; SHA-256 `0758100b02af3b2cefc45a97ee3d66a8b4e1aaf630c36fdd5ee881a0e37b53a0`; exact 8,390-character workspace/artifact/envelope readback matched.
+- Receipt: [Amendment 02 publisher verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2236Z_s3_ravel_AMENDMENT_02_PUBLISHER_VERIFIED.md). Earlier Amendment 01 pending status remains as a timestamped observation and is superseded by Amendment 02.
