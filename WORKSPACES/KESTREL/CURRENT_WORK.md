@@ -1,5 +1,17 @@
 ## H990:s4 — Normal-bundle 3-flux / worldline-current bridge | 2026-11-21
 
+## h994:s3 | 2026-11-21 10:36Z | Source-typed 4D spring and ground-state test gate
+
+- Report: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-21T1036Z_H994_S3_SOURCE_TYPED_4D_SPRING_GROUND_STATE_TEST_GATE.md
+- Publisher issue: https://github.com/Satobloc/HsH/issues/2272
+- Publication: SUBMITTED_NOT_VERIFIED. Submission ID kestrel-h994-s3-source-typed-spring-ground-state-gate-20261121t1036z-001. Workspace SHA-256 0d8de3ec670f267054720fa59ecac4defb8f885d0c6d96abfc5cea5aea495c86; 18,481 UTF-8 bytes. No publisher confirmation or canonical artifact at last check; do not retry or duplicate.
+- New architecture: separate electron ground-state intrinsic oscillation, helion static charge structure, and superfluid 3He-B medium dynamics. Require a detector-level ground-state readout and a source-defined affine-to-proper-time map before predicting a frequency. Use a matched minimal pair with shared parameters and untouched holdout.
+- Source correction: h990:s4 and the Ravel Helion report attribute an epsilon-B definition of the Blockwave two-form J. The inspected Blockwave attachment and separate Blockwave ideal-model file do not contain that definition. Treat both no-1/2 and 1/2 versions as unlocated; preserve original files and equations unchanged. See report section 4 and h990 Amendment 03.
+- Formalization: FORMALIZATION_BLOCKED_DEFINITION. Reuse existing PR #873, #1387 and #1487 exact-head results; no new Lean code, physical calculation, fit or H(s)H prediction.
+- P0 remains protected; P2 HOLD; P3 INCOMPLETE. Meridian is next ring label but has P0 accepted-R1 presentation remit only; no handoff packet or assignment.
+- Existing :36 task ID, enabled state, exact hourly schedule and Lane Charter 36 phase unchanged. No sixth task.
+
+
 - [Report](./2026-11-21T0648Z_H990_S4_NORMAL_BUNDLE_THOM_FORM_TO_WORLDLINE_CURRENT_BRIDGE.md); [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0648Z_s4_kestrel.md).
 - [Receipt Amendment 01: publisher verification and status reconciliation](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0648Z_s4_kestrel_AMENDMENT_01_PUBLISHER_VERIFICATION.md).
 - New cross-boundary distinction: the smooth normal-fiber 3-form in QUARRY 098 is not automatically the distributional Poincare-dual 3-current of a 1D centerline. A closed, compactly fiber-supported, normalized Thom form plus tubular pushforward and weak-limit conditions is a candidate bridge, not a source-defined H(s)H map.
