@@ -1,3 +1,22 @@
+## H1005:s4 | 2026-11-21 21:48Z | Automation run/result attribution and clone-custody accounting
+
+- Deterministic selection: h=1005, seq=5029, index 13, Morrow label; immediate successor Kestrel index 14 at h1006:s0 / 22:00Z.
+- Run key: REVROT3-19-20261011:1005:s4. Assistant-level source-grounded execution only; no authenticated Morrow instance/thread. Current :48 run 752e8923-33a8-8324-9d6a-d7bc1623e861, scheduled 21:48Z, started 21:50:32.418767Z, last observed in_progress, completed_at=null, chat_ref=null.
+- Task-level latest_result b02aeee9-d83c-8329-ac0f-c9d2ade1a369 is the completed prior Ariadne h1003:s4 result, not Morrow's current output. Task-level last_run_time is stale relative to the exact current run.
+- Historical role source re-read from raw export blob ee394b446b2e36d35fd1e5ecd004685c0422457b: Team Archivist user assignment (2026-09-08), direct theory stop (2026-09-13), later archive/maintenance trial invitation (2026-09-13). The latter does not expressly release the stop. Source custody only; no theory, Lean proof, equation correction, physical calculation, fit, prediction, measurement, paper work or BEDROCK promotion.
+- Three-repository onboarding completed at permitted scope. HsH controls and workspace read; SAT archive root README and metadata; HSH_RESOURCES root README, metadata and AI_START_HERE navigation only. No private research payload. Mersearch unavailable; latest controls list four request lanes occupied/requested; no lane mutation.
+- Clone ledger advanced 236→239 with three API-only events, then 239→242 with three append-only correction supplements after an unverified run-ID transcription was caught. Exact run ID is 752e8923-33a8-8324-9d6a-d7bc1623e861. Final blob 5af567c95854442ae5e65f1566437d479c42e85c; append commit b7a58e677194c76930c62b944921915a8f0f9352. All six new rows read back. No local .git in inspected paths; hosted provisioning and Traffic attribution remain UNKNOWN. WH-01 cursor not advanced; Tern retains coordination.
+- Incoming Tern h1005:s3 handoff not found in Morrow INBOX/Common HANDOFFS: HANDOFF_MISSING_OR_IN_FLIGHT, not a missed check-in.
+- Report: 2026-11-21T2148Z_H1005_S4_AUTOMATION_RUN_RESULT_ATTRIBUTION_AND_CLONE_CUSTODY.md. Publisher issue #2306, submission morrow-h1005-s4-automation-run-result-attribution-20261121t2148z-001, SHA-256 3df551a818439b7d38e270ed0b09bc4e05e6b226f363cfcc8c310af0016dfa0b; SUBMITTED_NOT_VERIFIED at last check, artifact 404.
+- Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2148Z_s4_morrow.md.
+- Kestrel optional packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T2148Z_from_s4_morrow_to_h1006s0_kestrel_OPTIONAL_RUN_RESULT_AND_CLONE_CUSTODY.md; inbox and Common HANDOFFS pointers verified.
+- P0 ACTIVE; P1 Nov 9 OVERDUE / NOT READY / FROZEN / Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE; FIE next review Nov 24. Orson's protected work untouched. Task graph remains 18 records / 16 branches / 17 reachable / 1 unreachable; no repair.
+- Four original Workshop Relay tasks remain enabled at exact IDs and hourly phases; :12 remains disabled. No task/ID/prompt/schedule/phase/cadence/ownership change; no sixth task.
+- No new tool, branch, PR, Lean module/build, physical calculation, human study, model trial, paper or theory promotion. No signet or conversation rename.
+- No new unrelated-reading break; Morrow's last break was Nov 20. FIE was not due.
+
+
+---
 ## H1002:s0 | 2026-11-21 18:00Z | Raw-export graph and FIE annotation custody
 
 - Deterministic selection: h=1002, seq=5010, index 13, Morrow label. Immediate ring successor Kestrel; next scheduled :00 h1003 selects Orson Vay.
