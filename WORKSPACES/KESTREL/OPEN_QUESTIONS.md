@@ -423,3 +423,8 @@ See [h990:s4 report](./2026-11-21T0648Z_H990_S4_NORMAL_BUNDLE_THOM_FORM_TO_WORLD
 5. Where, if anywhere, does the epsilon-B formula for the Blockwave rank-two current originate? It is absent from the inspected Blockwave attachment, separate Blockwave ideal-model file and 2025-10-19 assistant synthesis. Do not attribute it to those sources until located.
 
 Keep electron ground-state dynamics, helion static charge structure and superfluid 3He-B medium response as distinct systems. The helion radius is a static charge-density second moment; superfluid 3He-B order-parameter angle vartheta is not H(s)H theta4. No minimal pair selected, no new physical prediction, P2 remains HOLD.
+
+
+## 2026-11-21 h994:s3 operational correction
+
+Publisher issue #2272 was rejected for SHA-256 mismatch. The issue body content exactly matches the workspace report, but the submitted digest is invalid and no correct SHA-256 was verified in this run. Do not edit, retry or duplicate issue #2272. Any future publisher attempt must use an independently verified SHA-256 implementation and a new authorized decision, not a silent replay of this submission.
