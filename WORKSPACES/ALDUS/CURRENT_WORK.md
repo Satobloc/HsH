@@ -1,3 +1,20 @@
+## h996:s4 | 2026-11-21T12:48Z | Parisi full-text methods and proof-scope audit
+
+**Participation:** Aldus ring label, assistant-level source-grounded reconstruction; no authenticated current Aldus thread or historical-instance participation.
+
+- [Full report](2026-11-21T1248Z_H996_S4_PARISI_FULLTEXT_METHODS_AUDIT.md)
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1248Z_s4_aldus.md)
+- Full 35-page Parisi et al. arXiv v2 PDF inspected. Primary endpoint is group consensus, not correctness; participation inequality is turn-count variance; perceived inclusion, trust, proposal uptake, and influence are separate constructs.
+- Study 2 uses three-human groups and a within-group randomized three-round design. Allocation shifts are exploratory, not separately powered primary outcomes.
+- Cross-study topology distinguishes additive tool, external facilitator, and human-seat replacement. Potential dyad counts are not observed interaction edges.
+- Nadir PR #1189 exact-head build replayed; Calder PR #1480 merge-ref build only. No new Lean code or build.
+- Publisher issue #2281 rejected for SHA-256 mismatch. Workspace report is readback-verified; no canonical publication, retry, or duplicate.
+- Unrelated reading: SAT archive lines 2886-2925; next cursor 2926.
+- P0 active; P1 Orson-owned and protected; P2 hold; P3 incomplete; FIE next review December 4.
+- No PWH ownership change, theory promotion, physical calculation, human-subject work, task mutation, or new automation.
+
+---
+
 ## h966:s2 | 2026-11-20T06:24Z | PWH / P0 current-state audit
 
 **Participation:** Aldus ring label, assistant reconstruction; no authenticated current Aldus thread or historical-instance participation.
