@@ -72,7 +72,7 @@ theorem signed_and_absolute_frequency_forms_agree
     (κ lambdaS r : ℝ)
     (hκ : 0 < κ)
     (hλ : lambdaS < 0) :
-    -(2 * lambdaS * r^2) / κ = (2 * |λ| * r^2) / κ := by
+    -(2 * lambdaS * r^2) / κ = (2 * |lambdaS| * r^2) / κ := by
   rw [abs_of_neg hλ]
   ring
 
