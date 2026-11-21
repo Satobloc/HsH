@@ -10,6 +10,12 @@ observable family, candidate family, prediction envelope, coupled readout,
 resolution contract, acquisition-unit map, holdout-exposure ledger, and paired
 geometry-plot witnesses to one exact comparison/source bundle.
 
+It also separates **identity** from **dependency**: the key fixes artifact
+identities, while a required dependency witness records the declared
+source→geometry→readout, acquisition-unit→calibration/covariance/readout,
+prediction→analysis/decision, and holdout→partition/candidate/envelope edges.
+Those edges are identifiers, not physical projection functions.
+
 All identifiers and digests are opaque strings. Lean does not hash, fetch, or
 authenticate bytes; prove manifest contents; establish reviewer independence;
 or validate physical premises. Those checks remain external readback and
@@ -138,12 +144,70 @@ structure BoundArtifact (expected : ArtifactIdentity) where
   actual : ArtifactIdentity
   identity_eq : actual = expected
 
+/-- Explicit cross-contract dependency edges. The freeze key binds artifact
+    identities; this witness separately records which source, acquisition,
+    readout, uncertainty, analysis, and holdout contracts each artifact
+    declares as its dependency. These are opaque identity links, not the
+    physical geometry/readout functions themselves. -/
+structure CrossContractDependencyWitness
+    (F : ComparisonFreeze) (B : SourceBoundP2Bundle F)
+    (K : CrossContractFreezeKey F B) where
+  geometryMapSourceCommitmentDigest : String
+  geometryMapSourceCommitmentMatches :
+    geometryMapSourceCommitmentDigest = K.sourceCommitmentMap.opaqueDigest
+  readoutGeometryMapDigest : String
+  readoutGeometryMapMatches :
+    readoutGeometryMapDigest = K.geometryMapStack.opaqueDigest
+  observableFamilyReadoutDigest : String
+  observableFamilyReadoutMatches :
+    observableFamilyReadoutDigest = K.readoutContract.opaqueDigest
+  readoutObservableOperatorId : String
+  readoutObservableOperatorMatches :
+    readoutObservableOperatorId = F.observableOperatorId
+  acquisitionUnitMapSourceBundleId : String
+  acquisitionUnitMapSourceBundleMatches :
+    acquisitionUnitMapSourceBundleId = B.sourceBundle.id
+  acquisitionUnitMapObservationFreezeId : String
+  acquisitionUnitMapObservationFreezeMatches :
+    acquisitionUnitMapObservationFreezeId = F.observationFreezeId
+  acquisitionUnitMapCalibrationId : String
+  acquisitionUnitMapCalibrationMatches :
+    acquisitionUnitMapCalibrationId = F.instrumentCalibrationId
+  acquisitionUnitMapCovarianceId : String
+  acquisitionUnitMapCovarianceMatches :
+    acquisitionUnitMapCovarianceId = F.uncertaintyCovarianceId
+  readoutAcquisitionUnitMapDigest : String
+  readoutAcquisitionUnitMapMatches :
+    readoutAcquisitionUnitMapDigest = K.acquisitionUnitMap.opaqueDigest
+  holdoutLedgerPartitionId : String
+  holdoutLedgerPartitionMatches :
+    holdoutLedgerPartitionId = F.holdoutPartitionId
+  holdoutLedgerCandidateFamilyDigest : String
+  holdoutLedgerCandidateFamilyMatches :
+    holdoutLedgerCandidateFamilyDigest = K.candidateFamily.opaqueDigest
+  holdoutLedgerPredictionEnvelopeDigest : String
+  holdoutLedgerPredictionEnvelopeMatches :
+    holdoutLedgerPredictionEnvelopeDigest = K.predictionEnvelope.opaqueDigest
+  resolutionCovarianceId : String
+  resolutionCovarianceMatches :
+    resolutionCovarianceId = F.uncertaintyCovarianceId
+  resolutionCalibrationId : String
+  resolutionCalibrationMatches :
+    resolutionCalibrationId = F.instrumentCalibrationId
+  predictionEnvelopeAnalysisPlanId : String
+  predictionEnvelopeAnalysisPlanMatches :
+    predictionEnvelopeAnalysisPlanId = F.analysisPlanFreezeId
+  predictionEnvelopeDecisionRuleId : String
+  predictionEnvelopeDecisionRuleMatches :
+    predictionEnvelopeDecisionRuleId = F.decisionRuleId
+
 /-- The optional cross-contract extension. Every artifact is indexed by the
     same K, so a witness from another key cannot be inserted without an
     explicit equality/rebinding proof. -/
 structure P2CrossContractEvidenceBundle
     (F : ComparisonFreeze) (B : SourceBoundP2Bundle F)
     (K : CrossContractFreezeKey F B) where
+  dependencyWitness : CrossContractDependencyWitness F B K
   sourceCommitmentMap : BoundArtifact K.sourceCommitmentMap
   geometryMapStack : BoundArtifact K.geometryMapStack
   readoutContract : BoundArtifact K.readoutContract
@@ -251,6 +315,87 @@ theorem bundle_artifacts_match_key
      bundle.h0PlotWitness.identity_eq,
      bundle.h1PlotWitness.identity_eq⟩
 
+/-- Every declared cross-contract dependency edge agrees with the same
+    source bundle, observation freeze, calibration, covariance, readout,
+    analysis plan, decision rule, and holdout partition. -/
+theorem dependency_witness_edges_hold
+    {F : ComparisonFreeze} {B : SourceBoundP2Bundle F}
+    {K : CrossContractFreezeKey F B}
+    (D : CrossContractDependencyWitness F B K) :
+    D.geometryMapSourceCommitmentDigest = K.sourceCommitmentMap.opaqueDigest ∧
+    D.readoutGeometryMapDigest = K.geometryMapStack.opaqueDigest ∧
+    D.observableFamilyReadoutDigest = K.readoutContract.opaqueDigest ∧
+    D.readoutObservableOperatorId = F.observableOperatorId ∧
+    D.acquisitionUnitMapSourceBundleId = B.sourceBundle.id ∧
+    D.acquisitionUnitMapObservationFreezeId = F.observationFreezeId ∧
+    D.acquisitionUnitMapCalibrationId = F.instrumentCalibrationId ∧
+    D.acquisitionUnitMapCovarianceId = F.uncertaintyCovarianceId ∧
+    D.readoutAcquisitionUnitMapDigest = K.acquisitionUnitMap.opaqueDigest ∧
+    D.holdoutLedgerPartitionId = F.holdoutPartitionId ∧
+    D.holdoutLedgerCandidateFamilyDigest = K.candidateFamily.opaqueDigest ∧
+    D.holdoutLedgerPredictionEnvelopeDigest = K.predictionEnvelope.opaqueDigest ∧
+    D.resolutionCovarianceId = F.uncertaintyCovarianceId ∧
+    D.resolutionCalibrationId = F.instrumentCalibrationId ∧
+    D.predictionEnvelopeAnalysisPlanId = F.analysisPlanFreezeId ∧
+    D.predictionEnvelopeDecisionRuleId = F.decisionRuleId := by
+  exact
+    ⟨D.geometryMapSourceCommitmentMatches,
+     D.readoutGeometryMapMatches,
+     D.observableFamilyReadoutMatches,
+     D.readoutObservableOperatorMatches,
+     D.acquisitionUnitMapSourceBundleMatches,
+     D.acquisitionUnitMapObservationFreezeMatches,
+     D.acquisitionUnitMapCalibrationMatches,
+     D.acquisitionUnitMapCovarianceMatches,
+     D.readoutAcquisitionUnitMapMatches,
+     D.holdoutLedgerPartitionMatches,
+     D.holdoutLedgerCandidateFamilyMatches,
+     D.holdoutLedgerPredictionEnvelopeMatches,
+     D.resolutionCovarianceMatches,
+     D.resolutionCalibrationMatches,
+     D.predictionEnvelopeAnalysisPlanMatches,
+     D.predictionEnvelopeDecisionRuleMatches⟩
+
+/-- A complete cross-contract bundle necessarily carries the dependency
+    witness; artifact identity alone is not treated as a composition proof. -/
+theorem bundle_has_complete_dependency_witness
+    {F : ComparisonFreeze} {B : SourceBoundP2Bundle F}
+    {K : CrossContractFreezeKey F B}
+    (bundle : P2CrossContractEvidenceBundle F B K) :
+    bundle.dependencyWitness.geometryMapSourceCommitmentDigest =
+        K.sourceCommitmentMap.opaqueDigest ∧
+    bundle.dependencyWitness.readoutGeometryMapDigest =
+        K.geometryMapStack.opaqueDigest ∧
+    bundle.dependencyWitness.observableFamilyReadoutDigest =
+        K.readoutContract.opaqueDigest ∧
+    bundle.dependencyWitness.readoutObservableOperatorId =
+        F.observableOperatorId ∧
+    bundle.dependencyWitness.acquisitionUnitMapSourceBundleId =
+        B.sourceBundle.id ∧
+    bundle.dependencyWitness.acquisitionUnitMapObservationFreezeId =
+        F.observationFreezeId ∧
+    bundle.dependencyWitness.acquisitionUnitMapCalibrationId =
+        F.instrumentCalibrationId ∧
+    bundle.dependencyWitness.acquisitionUnitMapCovarianceId =
+        F.uncertaintyCovarianceId ∧
+    bundle.dependencyWitness.readoutAcquisitionUnitMapDigest =
+        K.acquisitionUnitMap.opaqueDigest ∧
+    bundle.dependencyWitness.holdoutLedgerPartitionId =
+        F.holdoutPartitionId ∧
+    bundle.dependencyWitness.holdoutLedgerCandidateFamilyDigest =
+        K.candidateFamily.opaqueDigest ∧
+    bundle.dependencyWitness.holdoutLedgerPredictionEnvelopeDigest =
+        K.predictionEnvelope.opaqueDigest ∧
+    bundle.dependencyWitness.resolutionCovarianceId =
+        F.uncertaintyCovarianceId ∧
+    bundle.dependencyWitness.resolutionCalibrationId =
+        F.instrumentCalibrationId ∧
+    bundle.dependencyWitness.predictionEnvelopeAnalysisPlanId =
+        F.analysisPlanFreezeId ∧
+    bundle.dependencyWitness.predictionEnvelopeDecisionRuleId =
+        F.decisionRuleId := by
+  exact dependency_witness_edges_hold bundle.dependencyWitness
+
 /-- Changing the candidate-family identity requires a new freeze key. -/
 theorem changed_candidate_family_requires_new_key
     {F : ComparisonFreeze} {B : SourceBoundP2Bundle F}
@@ -294,6 +439,8 @@ theorem cross_contract_bundle_retains_existing_p2_contract
 
 #print axioms key_relations_hold
 #print axioms bundle_artifacts_match_key
+#print axioms dependency_witness_edges_hold
+#print axioms bundle_has_complete_dependency_witness
 #print axioms changed_candidate_family_requires_new_key
 #print axioms changed_prediction_envelope_requires_new_key
 #print axioms changed_holdout_exposure_requires_new_key
