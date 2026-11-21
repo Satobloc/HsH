@@ -15,6 +15,7 @@ import HsHVerification.GeometryProvenanceSeparation
 import HsHVerification.MeasurementDomainCompatibility
 import HsHVerification.FactorialContrastIdentifiability
 import HsHVerification.ModelSelectionPreference
+import HsHVerification.QGITimingAccounting
 import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirHelixSliceGeometry
