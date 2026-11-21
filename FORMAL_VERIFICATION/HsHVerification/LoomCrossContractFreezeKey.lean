@@ -136,7 +136,7 @@ structure CrossContractFreezeKey (F : ComparisonFreeze)
     identity equals the identity selected by the common freeze key. -/
 structure BoundArtifact (expected : ArtifactIdentity) where
   actual : ArtifactIdentity
-  matches : actual = expected
+  identity_eq : actual = expected
 
 /-- The optional cross-contract extension. Every artifact is indexed by the
     same K, so a witness from another key cannot be inserted without an
@@ -238,18 +238,18 @@ theorem bundle_artifacts_match_key
     bundle.h0PlotWitness.actual = K.h0PlotWitness ∧
     bundle.h1PlotWitness.actual = K.h1PlotWitness := by
   exact
-    ⟨bundle.sourceCommitmentMap.matches,
-     bundle.geometryMapStack.matches,
-     bundle.readoutContract.matches,
-     bundle.observableFamily.matches,
-     bundle.candidateFamily.matches,
-     bundle.predictionEnvelope.matches,
-     bundle.coupledReadout.matches,
-     bundle.resolutionContract.matches,
-     bundle.acquisitionUnitMap.matches,
-     bundle.holdoutExposureLedger.matches,
-     bundle.h0PlotWitness.matches,
-     bundle.h1PlotWitness.matches⟩
+    ⟨bundle.sourceCommitmentMap.identity_eq,
+     bundle.geometryMapStack.identity_eq,
+     bundle.readoutContract.identity_eq,
+     bundle.observableFamily.identity_eq,
+     bundle.candidateFamily.identity_eq,
+     bundle.predictionEnvelope.identity_eq,
+     bundle.coupledReadout.identity_eq,
+     bundle.resolutionContract.identity_eq,
+     bundle.acquisitionUnitMap.identity_eq,
+     bundle.holdoutExposureLedger.identity_eq,
+     bundle.h0PlotWitness.identity_eq,
+     bundle.h1PlotWitness.identity_eq⟩
 
 /-- Changing the candidate-family identity requires a new freeze key. -/
 theorem changed_candidate_family_requires_new_key
