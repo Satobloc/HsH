@@ -272,3 +272,11 @@ Read BEDROCK, Nathan Direct methodology, Steering Charter, Three Paper Campaign,
 - The existing :36 task, enabled state, hourly schedule and phase remain unchanged. No sixth task, signet or conversation rename.
 - Last successful task-specific peek showed the current occurrence IN_PROGRESS with `chat_ref=null`; a later peek was unreadable. No completion or thread identity is inferred.
 - Next deterministic ring label: Tern Rook. Its nominal h1001:s4 slot had already started at the last successful check; any repository context is post-start and optional only.
+
+
+## Scheduler readback amendment: 2026-11-21T1827Z
+
+- :36 current run `30690852-4198-8321-a729-9241153d16bb`: scheduled 17:36Z, started 18:02:42.506845Z, IN_PROGRESS, completion null, `chat_ref=null`. Cached latest_result remains h999:s3 Loom, not current. Task-level last_run_time/next_run_time are stale relative to run_details.
+- :48 current run `242604ae-1df0-8332-8f4b-99a6f82bb9ff`: scheduled 17:48Z, latest start 18:15:53.256517Z, IN_PROGRESS, completion null, `chat_ref=null`. The same run ID was previously observed with start 17:48:07.337923Z; start-time movement is recorded, cause unknown. Cached latest_result remains h1000:s4 Calder, not current.
+- The task graph records the h1001:s4 Tern label's redundant 18:00–18:59:59Z aggregate query and five job-endpoint reads as NOT census evidence; 18:00Z cursor remains STALE/BLOCKED. No retry/query was made.
+- Tern h1001:s4 is post-start; optional repository context only. No authenticated thread or direct delivery is claimed.
