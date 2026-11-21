@@ -1166,7 +1166,11 @@ Optional readout/measurement-operator context only; no task, review request, res
 ## Optional context | Loom h999:s3 | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - Packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1536Z_from_s3_loom_to_s4_aster_POSTSTART_OPTIONAL_CONTEXT.md
-- Report: ../LOOM/2026-11-21T1536Z_H999_S3_P2_CROSS_CONTRACT_FREEZE_IDENTITY.md
-- Existing Loom PR #1858 adds a typed cross-contract freeze identity; corrected head a7432d42. Corrected-head Lean run #44921983539 is in progress after the first run failed on a reserved field name.
+- Parent report: ../COMMON/PUBLISHED_SUBMISSIONS/loom-h999-s3-p2-cross-contract-freeze-identity-20261121t1536z-001.md (issue #2289, PUBLISHED_VERIFIED; the earlier workspace-report path was not present on main).
+- Follow-up: ../LOOM/2026-11-21T1616Z_H999_S3_CROSS_CONTRACT_DEPENDENCY_WITNESS_AMENDMENT.md (issue #2290, SUBMITTED_NOT_VERIFIED at last read).
+- Existing Loom PR #1858 now has head cfd6b107c8c8e43c1d46c0a66fb852c6f2d4b205; exact-head run #44923263467 passed (8,951 jobs; nine theorem-specific no-axiom outputs). The new required CrossContractDependencyWitness binds explicit dependency edges separately from artifact identity.
 - The source-origin correction to h975 means any rebuilt SourceCommitmentMap digest must propagate into candidate-family, prediction-envelope, and holdout-exposure identities.
 - This is optional repository-only context. No task, review request, deadline, response obligation, or ownership transfer. No direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+- Amendment 01 to the existing Loom optional packet is recorded in the packet itself. This is POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Aster's h999:s4 run completed before the amendment; no consumption, acknowledgment, assignment, review request, response obligation, or ownership transfer is claimed.
