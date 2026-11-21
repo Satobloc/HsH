@@ -4,7 +4,7 @@ import HsHVerification.EliasHydraEvidenceRevision
 /-!
 # Elias Kern: separate Hydra loop-state identity from invocation idempotency
 
-Source: Satobloc/HSH_RESOURCES/tools/workflow_switchboard_demo.py
+Source: private HSH_RESOURCES switchboard prototype; immutable source blob
 Git blob: 49988a769389b2baf264a27d596ba7c3ff822b36
 Relevant source: Switchboard.run, Switchboard.hydra, especially the statekey
 projection at the hydra history guard.
