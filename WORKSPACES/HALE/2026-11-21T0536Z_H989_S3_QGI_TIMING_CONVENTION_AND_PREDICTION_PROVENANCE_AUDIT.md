@@ -36,36 +36,36 @@ Primary published source: Dobkowski et al., *Science Advances* (2026), [DOI 10.1
 
 The accessible published main text gives the holding-duration relation
 
-\\[\nT_h = 2T - 2T_d\n\\]
+\[\nT_h = 2T - 2T_d\n\]
 
 and the Methods reports the nominal values:
 
-- \\(T_h=2272\\ \\mu s\\)
-- \\(T_d=71\\ \\mu s\\)
-- holding-pulse rise/fall time \\(\\tau_h=12\\ \\mu s\\)
-- \\(T_{kick}=80\\ \\mu s\\)
+- \(T_h=2272\ \mu s\)
+- \(T_d=71\ \mu s\)
+- holding-pulse rise/fall time \(\tau_h=12\ \mu s\)
+- \(T_{kick}=80\ \mu s\)
 
 The published Methods also gives
 
-\\[\n2T_{eff}=T_h+2\\tau_h+2T_d+T_{kick}=2T+80\\ \\mu s.\n\\]
+\[\n2T_{eff}=T_h+2\tau_h+2T_d+T_{kick}=2T+80\ \mu s.\n\]
 
-The earlier v3 preprint supplementary derivation, [arXiv:2502.14535v3](https://arxiv.org/abs/2502.14535v3), Supplementary Section G.2, uses \\(T_d=71+6=77\\ \\mu s\\) for the analytical phase plotted in Fig. 3, adding half the holding-pulse rise time.
+The earlier v3 preprint supplementary derivation, [arXiv:2502.14535v3](https://arxiv.org/abs/2502.14535v3), Supplementary Section G.2, uses \(T_d=71+6=77\ \mu s\) for the analytical phase plotted in Fig. 3, adding half the holding-pulse rise time.
 
 Taking each source relation literally gives:
 
-| Source convention | Arithmetic | Inferred \\(2T\\) |
+| Source convention | Arithmetic | Inferred \(2T\) |
 |---|---:|---:|
-| Published main-text \\(T_h=2T-2T_d\\), \\(T_d=71\\) | \\(2272+2(71)\\) | **2414 µs** |
-| v3 preprint analytical convention, \\(T_d=71+6=77\\) | \\(2272+2(77)\\) | **2426 µs** |
-| Published Methods effective-duration identity | \\(2272+2(12)+2(71)+80-80\\) | **2438 µs** |
+| Published main-text \(T_h=2T-2T_d\), \(T_d=71\) | \(2272+2(71)\) | **2414 µs** |
+| v3 preprint analytical convention, \(T_d=71+6=77\) | \(2272+2(77)\) | **2426 µs** |
+| Published Methods effective-duration identity | \(2272+2(12)+2(71)+80-80\) | **2438 µs** |
 
 The corresponding published effective duration is
 
-\\[\n2T_{eff}=2272+24+142+80=2518\\ \\mu s.\n\\]
+\[\n2T_{eff}=2272+24+142+80=2518\ \mu s.\n\]
 
-Because the Methods relation is \\(2T_{eff}=2T+80\\ \\mu s\\), the 2438 microsecond value is the \\(2T\\) inferred after subtracting the kick duration; it is not \\(2T_{eff}\\) itself.
+Because the Methods relation is \(2T_{eff}=2T+80\ \mu s\), the 2438 microsecond value is the \(2T\) inferred after subtracting the kick duration; it is not \(2T_{eff}\) itself.
 
-The three inferred \\(2T\\) coordinates differ by 12, 12, and 24 microseconds. These are source-defined timing conventions, not three independently measured durations. The 2026 figure label \\(2T=2.4\\ ms\\) is rounded too coarsely to distinguish them.
+The three inferred \(2T\) coordinates differ by 12, 12, and 24 microseconds. These are source-defined timing conventions, not three independently measured durations. The 2026 figure label \(2T=2.4\ ms\) is rounded too coarsely to distinguish them.
 
 The 2026 supplementary PDF is listed by PMC at [this link](https://pmc.ncbi.nlm.nih.gov/articles/instance/13537235/bin/sciadv.aec8045_sm.pdf), but retrieval was blocked by the PMC access challenge in this run. Therefore it is **not established** whether the final published supplement retained, revised, or removed the v3 preprint's half-rise-time convention. No typographical error is asserted. The final analytical timing map remains unresolved pending the final supplement or author clarification.
 
@@ -73,22 +73,22 @@ The 2026 supplementary PDF is listed by PMC at [this link](https://pmc.ncbi.nlm.
 
 The published Eq. (5) contains the finite-pulse kernel
 
-\\[\nK(T,T_k,T_d)=T^3+T^2T_k+T(T_k^2+T_kT_d)-T_d(T_k+T_d)^2.\n\\]
+\[\nK(T,T_k,T_d)=T^3+T^2T_k+T(T_k^2+T_kT_d)-T_d(T_k+T_d)^2.\n\]
 
 Using only the source-reported nominal values, the main-text and v3-preprint analytical conventions give:
 
-- Main-text convention: \\(T=1207\\ \\mu s,\\ T_k=80\\ \\mu s,\\ T_d=71\\ \\mu s\\).
-- v3 analytical convention: \\(T=1213\\ \\mu s,\\ T_k=80\\ \\mu s,\\ T_d=77\\ \\mu s\\).
+- Main-text convention: \(T=1207\ \mu s,\ T_k=80\ \mu s,\ T_d=71\ \mu s\).
+- v3 analytical convention: \(T=1213\ \mu s,\ T_k=80\ \mu s,\ T_d=77\ \mu s\).
 
 The common physical prefactor cancels in the ratio:
 
-\\[\n\\frac{K_{v3}}{K_{main}}=\n\\frac{562153}{553969}\n\\approx 1.014773.\n\\]
+\[\n\frac{K_{v3}}{K_{main}}=\n\frac{562153}{553969}\n\approx 1.014773.\n\]
 
 This is a **+1.4773% source-parameter sensitivity** in the Eq. (5) kernel under those two documented nominal parameterizations.
 
-It is not a measured phase ratio, a confidence interval, a fit, a physical prediction, or an H(s)H prediction. The accessible published main text does not state uncertainties for \\(T_h,T_d,\\tau_h,T_{kick}\\), so no timing uncertainty propagation is claimed.
+It is not a measured phase ratio, a confidence interval, a fit, a physical prediction, or an H(s)H prediction. The accessible published main text does not state uncertainties for \(T_h,T_d,\tau_h,T_{kick}\), so no timing uncertainty propagation is claimed.
 
-The v3 preprint analytical prediction also includes the second-order Zeeman acceleration, approximately 0.10 m/s², by using \\(g_{eff}=9.91\\ m/s²\\). The phase-kernel ratio above cancels the common prefactor, so this value is not needed for the ratio.
+The v3 preprint analytical prediction also includes the second-order Zeeman acceleration, approximately 0.10 m/s², by using \(g_{eff}=9.91\ m/s²\). The phase-kernel ratio above cancels the common prefactor, so this value is not needed for the ratio.
 
 The sensitivity is of the same order as the paper's reported 1.3% statistical phase noise. That comparison is a scale check only, not a significance test. The paper's 2.5% residual refers to the data versus the numerical simulation, not to Eq. (5). The timing sensitivity must not be attributed as the cause of that residual.
 
@@ -112,7 +112,7 @@ The v3 preprint supplement explains that simulation initial conditions were cali
 
 The separate blue fine-tuned curve attempts to fit the measured phase. In the v3 supplement it changes the holding current to 23.5 mA, the DKC current from 0.4695 to 0.4705 mA, the kick current by +0.15%, the idle current from 0.55 to 0.50 mA, and Bz from 0.33 to 0.35 G. These are post-fit adjustments within the stated parameter uncertainties. They must not be merged with the no-phase-fit simulation.
 
-The published article reports a kick-current precision estimate of approximately ±0.5%, and a holding-current measurement of \\(23.07\\pm1.49\\ mA\\). It estimates a 6.5% gravity-compensation inaccuracy as contributing approximately 0.42% phase error. These are distinct from the unreported timing uncertainties. The red systematic band and the fine-tuned blue curve must not be merged with the no-phase-fit simulation.
+The published article reports a kick-current precision estimate of approximately ±0.5%, and a holding-current measurement of \(23.07\pm1.49\ mA\). It estimates a 6.5% gravity-compensation inaccuracy as contributing approximately 0.42% phase error. These are distinct from the unreported timing uncertainties. The red systematic band and the fine-tuned blue curve must not be merged with the no-phase-fit simulation.
 
 The existing [ModelSelectionPreference formalization in PR #1487](https://github.com/Satobloc/HsH/pull/1487) explicitly requires measurement, holdout, and prediction evidence as separate hard-gate elements. On the accessible QGI source, the no-phase-fit simulation is a useful prediction comparison, but an independent holdout pass is **not established**.
 
@@ -134,7 +134,7 @@ A future H(s)H comparison would require an explicit source-derived map from the 
 | Test element | Required specification |
 |---|---|
 | Hypothesis | H(s)H predicts a phase/readout component not reproducible by the frozen GR+QM apparatus model after nuisance profiling |
-| Shared parameters | Atomic mass, \\(g_{eff}\\), \\(T_h,T_d,\\tau_h,T_{kick}\\), current ratios, magnetic-field profile, initial wavepacket state, detector/readout calibration |
+| Shared parameters | Atomic mass, \(g_{eff}\), \(T_h,T_d,\tau_h,T_{kick}\), current ratios, magnetic-field profile, initial wavepacket state, detector/readout calibration |
 | Calibration | Independently measure pulse timing and rise/fall profiles, current ratios, field gradients, initial state and readout response |
 | Holdout | Separate acquisition runs or independently acquired units, not the published 633-cycle sample; freeze model, timing convention, observable family and decision rule before access |
 | Predicted observable | Phase versus ballistic time, visibility and a declared wavepacket-overlap/readout residual with covariance |
