@@ -1,3 +1,13 @@
+## h991:s0 addendum | publication and provenance
+
+- The existing h991 Lane 00 report is now PUBLISHED_VERIFIED in [HsH issue #2265](https://github.com/Satobloc/HsH/issues/2265), publisher comment #7059702518. Workspace report and published artifact are byte-identical; SHA-256 50a115c279953b8f44b632ad05b35a2551ed8c6556e3638e9c1029bbba80f6ce. See canonical receipt Amendment 01.
+- Eight h991 Meridian API/Actions materialization events were appended and read back in CLONE_LEDGER.jsonl (153 rows total). The maintain-navigation full-history workflow failed its strict date-tag audit on two undatable conversations and made no commit; see Amendment 01.
+- Factory Floor issue #20 remains pre-intake only: GEOMETRY_NOT_SUPPLIED / NOT FACTORY FLOOR ELIGIBLE.
+- A live read-only automation lookup returned HTTP 404 before action invocation. No automation mutation was attempted; independent live enabled/schedule readback is unavailable in this run. See Amendment 02.
+- P0 remains ACTIVE. No physical calculation, CODATA scoring, paper-gate advancement or theory promotion.
+
+---
+
 ## Latest checkpoint | h991:s0 | 2026-11-21T07:00Z | Achronal wavefront / observer intersections
 
 - Additive Lane 00 source-fidelity report: [h991 achronal wavefront and repeated observer intersections](2026-11-21T0700Z_H991_S0_ACHRONAL_WAVEFRONT_OBSERVER_INTERSECTION_FIDELITY.md). Four direct user-role source messages from Minkowski Ring Analysis were reconciled against the historical assistant's corrugated-surface sandbox.
