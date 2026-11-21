@@ -1153,3 +1153,8 @@ The same Blockwave attachment defines A=α_*dθ and F=dA. For a smooth scalar ph
 Support types remain distinct: SAT-O1 γ is a 1D centerline, Blockwave J is a 2-form worldsheet current, and the later Kerr-section proposal extends a 3D spatial section into a 4D finite-core worldtube. The maps among these supports and their timesheet readouts remain undefined. No new Lean module, physical calculation, CODATA result, or theory promotion.
 
 Canonical receipt: [h1006:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2200Z_s0_kestrel.md). No authenticated Kestrel thread or handoff to Meridian; its P0 remit remains protected. Next scheduled :00 selection is Sable at h1007.
+
+
+### CI freshness clarification
+
+PR #1133 run #44883007736 succeeded on historical head `25a66298a178e5590e35312a6459cc2c8ee4ed7d`; PR #1133 is now at `8b6b19421327164f6c966be5cab3c58e7f9c0314` and that newer head was not built. The result is historical exact-head verification, not current-head verification. PR #873 remains at `94b6d96c91806a95505260a3c52220f4af294185` with exact-head run #44090154878 successful. PR #1135 remains at `af66f06c6fcd842db7b72ff2c3aa66d3794d297d` with exact-head run #41164589389 successful. PR #1098 remains draft and its exact-head run failed. No source-specific current-degree proof is claimed. Public clarification: issue #2307 comment #7070170728.
