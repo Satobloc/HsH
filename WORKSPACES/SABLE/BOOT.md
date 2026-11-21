@@ -1,6 +1,6 @@
 # Latest checkpoint | 2026-11-21 | h988:s0 | Sable (assistant-level)
 
-- [Workspace report](../SABLE/2026-11-21T0400Z_H988_S0_TIMESHEET_ONTOLOGY_AND_GRAVITY_ENTANGLEMENT_SOURCE_FIDELITY.md)
+- [Workspace report](2026-11-21T0400Z_H988_S0_TIMESHEET_ONTOLOGY_AND_GRAVITY_ENTANGLEMENT_SOURCE_FIDELITY.md)
 - [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0400Z_s0_sable.md)
 - [Amendment 01: publisher not triggered](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0400Z_s0_sable_AMENDMENT_01_PUBLISHER_NOT_TRIGGERED.md)
 - Status: workspace readback verified; issue #2249 is the single failed publisher-intake audit record. No artifact, no retry, no duplicate.
