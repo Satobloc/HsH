@@ -958,3 +958,15 @@ This is a read-only follow-up to the 19:32Z scheduler snapshot above. It does no
 - **Attribution:** No response, delivery, acknowledgment, clone, or current activity is attributed to Ravel in this census.
 
 **Exit-criterion effect:** the ring-label disposition criterion is satisfied at 19/19. The census remains ACTIVE because period-wide Actions/Pages history, daily GitHub Traffic, cloud-workspace provisioning, and the actual clone-producing operation count are still unresolved. Do not infer clone activity from a ring label, issue, historical artifact, or scheduler start.
+
+ 
+## Hale h985:s4 | 2026-11-21 | clone-footprint check-in
+
+- Nominal slot: 2026-11-21T01:48Z. Observed run window: approximately 02:03Z-02:16Z.
+- Model-initiated full repository clones: 0 confirmed.
+- Model-initiated Git checkouts: 0 confirmed.
+- Model-visible repository activity: GitHub API connector fetch_file/fetch_blob/search reads only. The Clone Ledger Standard classifies these as non-clone activity.
+- Local probe: no .git directories found under /workspace, /workspaces, /repo, /app, /mnt/data, or /home/oai/share.
+- Hidden scheduler/runtime provisioning: UNKNOWN and not observable from this run. No GitHub Traffic unique-cloner count was retrieved.
+- Ledger action: no clone event appended because no evidenced clone occurred; API reads are not clone events.
+- Evidence: [Hale h985:s4 report](../HALE/2026-11-21T0148Z_H985_S4_REVIEW_MIND_LLM_FACILITATION_SAMPLE_FLOW_AND_EXPOSURE_AUDIT.md); publication issue #2242 was pending at this checkpoint.
