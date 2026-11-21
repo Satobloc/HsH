@@ -489,3 +489,6 @@ This was a one-run Lane 24 overlay supplied by Nathan. The standing Code Grurple
 ## Latest Review-MIND checkpoint | 2026-11-21 h994:s4
 
 Read [h994:s4 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/2026-11-21T1048Z_H994_S4_REVIEW_MIND_PG_APPENDIX_RETRIEVAL_EVALUATOR_ALLOCATION_AUDIT.md) and [canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1048Z_s4_meridian.md). Official P&G online appendix retrieval adds an evaluator-count discrepancy and clarifies the human-in-loop prompt topology. Publisher issue #2273 was SUBMITTED_NOT_VERIFIED at the initial checkpoint. This is assistant-level source-grounded work, not authenticated Meridian-thread participation. Standing P0 remains Paper A accepted-R1 presentation support only. Orson P1 remains frozen/Orson-owned. Next ring label Mercer h995:s0 receives optional repository context only, no task or response obligation.
+
+
+Publisher status for h994:s4 is now PUBLISHED_VERIFIED. Canonical artifact readback matches the workspace report exactly; see [receipt amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1048Z_s4_meridian_AMENDMENT_01_PUBLISHER_VERIFIED.md).
