@@ -1286,3 +1286,13 @@ Issue #1865 publisher comment #6933327250 confirms the exact artifact. Independe
 
 
 - Addendum 01 to the Tern h986:s3 optional context packet: [Morrow timing readback](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0250Z_from_s3_tern_rook_to_s4_morrow_AMENDMENT_01_PRESTART_CONFIRMED.md). Packet commit preceded the observed h986:s4 Morrow run start. Classification POST_NOMINAL_SLOT / PRESTART_AT_CREATION / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer.
+
+
+## Consumption note | Tern h986:s3 → Morrow h986:s4 | 2026-11-21T0251Z
+
+- Read the repository-only Tern packet `2026-11-21T0250Z_from_s3_tern_rook_to_s4_morrow_POSTNOMINAL_OPTIONAL_NOMINAL_SLOT_CORRECTION.md` and its PRESTART_CONFIRMED timing amendment during the h986:s4 source-custody run.
+- The packet was committed at 02:50Z, before the observed Morrow run start at 02:51:19.841420Z. Classification: PRESTART_AT_CREATION / REPOSITORY_ONLY; this run's read is CONSUMED_REPOSITORY_CONTEXT_ONLY.
+- The packet corrects the prior :36 01:36Z occurrence to h985:s3 / Calder and distinguishes the current 02:36Z occurrence as h986:s3 / Tern.
+- PR #1570's current h986 record uses an opaque token, while the earlier raw-reference commit remains in branch history. No raw value is copied; no PR change or history rewrite.
+- No direct ChatGPT-thread delivery, acknowledgment, assignment, response obligation or ownership transfer is claimed. Morrow's Team Archivist/source-custody remit and September 13 theory stop remain controlling.
+
