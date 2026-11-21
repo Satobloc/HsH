@@ -106,24 +106,24 @@ The original SAT-O1 and Blockwave files were re-fetched by exact path. Their Git
 SAT-O1's verbatim core expressions are preserved below in their source notation:
 
 ```tex
-\\gamma^\\mu(\\lambda) = \\left( \\lambda, A_x \\sin(k_x \\lambda + \\phi_x), A_y \\sin(k_y \\lambda + \\phi_y), A_z \\sin(k_z \\lambda + \\phi_z) \\right)
+\gamma^\mu(\lambda) = \left( \lambda, A_x \sin(k_x \lambda + \phi_x), A_y \sin(k_y \lambda + \phi_y), A_z \sin(k_z \lambda + \phi_z) \right)
 
-v^\\mu(\\lambda) = \\frac{d \\gamma^\\mu}{d \\lambda}
+v^\mu(\lambda) = \frac{d \gamma^\mu}{d \lambda}
 
-S[\\gamma] = \\int d\\lambda \\, L(\\gamma^\\mu, v^\\mu)
+S[\gamma] = \int d\lambda \, L(\gamma^\mu, v^\mu)
 
-L = \\frac{1}{2} m v^\\mu v_\\mu - V_{\\text{tension}}(\\gamma)
+L = \frac{1}{2} m v^\mu v_\mu - V_{\text{tension}}(\gamma)
 ```
 
 The Blockwave attachment's source notation defines a conserved rank-two current and includes the holonomy-trace coupling:
 
 ```tex
-J^{\\mu\\nu}, \\qquad \\nabla_\\mu J^{\\mu\\nu}=0
+J^{\mu\nu}, \qquad \nabla_\mu J^{\mu\nu}=0
 
-\\frac{g_h}{2} F_{\\mu\\nu}(\\theta) J^{\\mu\\nu}
+\frac{g_h}{2} F_{\mu\nu}(\theta) J^{\mu\nu}
 ```
 
-Its larger assistant-voiced action is built from `g_{\\mu\\nu}`, `u^\\mu`, `\\theta`, `P^\\mu{}_{\\nu}` and `J^{\\mu\\nu}`. It is not authenticated Nathan Direct mathematics.
+Its larger assistant-voiced action is built from `g_{\mu\nu}`, `u^\mu`, `\theta`, `P^\mu{}_{\nu}` and `J^{\mu\nu}`. It is not authenticated Nathan Direct mathematics.
 
 **Corrected SAT-O1 equations: none. Corrected Blockwave equations: none.** No equation was modified or promoted.
 
