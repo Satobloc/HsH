@@ -1,6 +1,7 @@
 ## H990:s4 — Normal-bundle 3-flux / worldline-current bridge | 2026-11-21
 
 - [Report](./2026-11-21T0648Z_H990_S4_NORMAL_BUNDLE_THOM_FORM_TO_WORLDLINE_CURRENT_BRIDGE.md); [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0648Z_s4_kestrel.md).
+- [Receipt Amendment 01: publisher verification and status reconciliation](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0648Z_s4_kestrel_AMENDMENT_01_PUBLISHER_VERIFICATION.md).
 - New cross-boundary distinction: the smooth normal-fiber 3-form in QUARRY 098 is not automatically the distributional Poincare-dual 3-current of a 1D centerline. A closed, compactly fiber-supported, normalized Thom form plus tubular pushforward and weak-limit conditions is a candidate bridge, not a source-defined H(s)H map.
 - Preserve distinct objects: fiberwise normal volume form; distributional worldline PD current; 4D finite-core worldtube; 3D timesheet slice; 2D worldsheet current. Hodge dual and independent sweep are different operations.
 - Nadir h990:s0's source-grounded operator correction is carried forward without duplication. No physical system/data, measurement, fit, prediction, human session, model trial, or theory promotion.
