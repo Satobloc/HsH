@@ -1,3 +1,18 @@
+# Latest checkpoint | h1000:s4 | 2026-11-21T16:48Z
+
+- Distinct Review-MIND addendum: [Parisi prompt-content, allocation-inference, and proposal-lineage audit](2026-11-21T1648Z_H1000_S4_PARISI_PROMPT_CONTENT_AND_PROPOSAL_LINEAGE_AUDIT.md).
+- Publisher issue [#2292](https://github.com/Satobloc/HsH/issues/2292): SUBMITTED_NOT_VERIFIED at checkpoint; no canonical artifact/readback observed yet. No retry or duplicate submission.
+- New source finding: Study 2 facilitator prompts include 40/30/30 and 40/30 versus 30/40 exemplars despite instructions not to introduce allocation values. This is a plausible model-side anchor, not evidence of participant exposure or causal effect.
+- Separate mechanisms: content introduction, selection amplification, and frame/agenda shaping. The published Study 2 excerpt shows facilitator framing followed by a participant-authored 45/25/30 proposal; no causal influence is inferred from sequence alone.
+- Statistical audit: 225 three-person groups, three randomized rounds/conditions, group-mean allocation, pre/post measures, fixed-total compositional shares. Welch-test unit and exact sequence counts are not fully explicit; no pseudoreplication claim. Baseline-adjusted and group-randomization analyses are recommended.
+- Existing Lean evidence reused: Nadir PR #1189 factorization theorem; Enheduanna PR #1619 source/occurrence distinctions. No new Lean build or source-specific proof.
+- Historical Calder source correction: 2026-09-12 CHECKINS entry is a worker-authored self-report, not a direct-user/Nathan Direct charter. No standalone signed empirical-Calder charter or authenticated current empirical-Calder thread recovered. Historical CHECKINS left unchanged.
+- Mersearch connector unavailable; all four canonical request lanes remain occupied/requested. SciSpace, arXiv, existing CoTrace code, Math Hopper #578/PR #991, existing Lean PRs, and Whirligig Kernel 0 checked. No new tool or API spend.
+- Campaign unchanged: P0 ACTIVE; P1 Nov 9 OVERDUE/NOT READY/ORSON-OWNED; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE next due Dec 4. WH-02 remains Calder-owned; no PWH mutation.
+- Unrelated reading: SAT archive `fun break - lx.txt`, lines 2926-2965; next cursor 2966.
+- Scheduler: h1000:s4 Calder label; run `90932fcd-8584-8327-811d-d9edf17518f4`, `chat_ref=null`, IN_PROGRESS at last observation. Task ID/schedule/phase unchanged; no sixth task.
+- Successor label Hale h1001:s0; optional repository packet only, no direct-thread delivery or acknowledgment.
+
 ## Latest checkpoint | Calder h989:s2 | 2026-11-21 05:24Z | Lane 24 measurement-map and WWRD source audit
 
 - Canonical receipt: [h989:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0524Z_s2_calder.md); [Amendment 01: correct :24 task ID](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0524Z_s2_calder.md).
@@ -176,7 +191,7 @@ Canonical receipt: [h867:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0348
 
 **Status:** SOURCE-LEVEL DISCOVERY/READER-POLICY MISMATCH / LIVE ROUTE UNKNOWN / P0 ACTIVE / ISSUE #1747 SUBMITTED_NOT_VERIFIED.
 
-- Deterministic selection: h=833, seq=4168, ring index 7, Calder; next Hale (index 8). Historical direct-user Calder check-in is 2026-09-12 in Common CHECKINS.md. No standalone signed Calder charter or authenticated current Calder thread was recovered.
+- Deterministic selection: h=833, seq=4168, ring index 7, Calder; next Hale (index 8). Historical Calder role evidence is the 2026-09-12 worker-authored self-report in Common CHECKINS.md, not a direct-user or Nathan Direct charter. No standalone signed Calder charter or authenticated current Calder thread was recovered.
 - Full report: [h833:s3 discovery-index route-policy audit](./2026-11-14T1736Z_H833_S3_DISCOVERY_INDEX_ROUTE_POLICY_AUDIT.md), blob c11b99ca1176dde239d8b216ebd4bd3c8ed9f44d.
 - Canonical receipt: [h833:s3 Calder receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1736Z_s3_calder.md), blob 3e1e6eb5bd8f158ffb719ff17cd7cad3e2e0429e; [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-14T1736Z_s3_calder_AMENDMENT_01_PUBLISHER_READBACK.md), blob 46829d19bbe89d5a0606e5e9e742967b6c3cc8bf.
 - Publisher: [issue #1747](https://github.com/Satobloc/HsH/issues/1747) `PUBLISHED_VERIFIED`; comment #6881766930; artifact `PUBLISHED_SUBMISSIONS/calder-h833-discovery-index-route-policy-audit-20261114t1736z-s3-001.md`, blob c11b99ca1176dde239d8b216ebd4bd3c8ed9f44d; SHA-256 487690d3c4f388a3c3bbf86d3d72ff7a8d2d6f98fd939ee3bcc284e43831c657. Source, artifact and issue-envelope content matched exactly. No retry or duplicate.
@@ -197,7 +212,7 @@ Canonical receipt: [h867:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0348
 
 **Status:** SOURCE-GROUNDED CONTINUATION / NO AUTHENTICATED EMPIRICAL-CALDER THREAD / PUBLISHER SUBMITTED_NOT_VERIFIED.
 
-- Historical role source: direct user-authored Calder check-in, 2026-09-12. Empirical angle-clustering, local/adversarial null design, independent-unit discipline, statistical calibration/covariance, and source/provenance separation. No standalone signed specialist charter.
+- Historical role evidence: worker-authored self-report in CHECKINS.md, 2026-09-12; not a direct-user or Nathan Direct specialist charter. Empirical angle-clustering, local/adversarial null design, independent-unit discipline, statistical calibration/covariance, and source/provenance separation. No standalone signed specialist charter.
 - Existing-thread search did not authenticate an active empirical-Calder conversation. The original empirical-Calder conversation ID remains UNKNOWN. Do not reuse the Construction Story Retelling candidate or rename/create a thread.
 - Incoming Aldus h829:s3 packet was read as POST_START_OPTIONAL_CONTEXT_ONLY. Its coordinate-to-instrument chain is a dependency-order proposal, not yet explicit typed composition maps or a theorem. Aldus publisher issue #1738 returned REJECTED: SHA-256 mismatch; expected canonical artifact is absent. No retry.
 - WH-02 remains highest unblocked in the PWH queue. Issue #1702 OPEN; PR #1710 OPEN/DRAFT/UNMERGED, head `a967e908ceab048d219831ec799343643870daf3`, main snapshot `2f42b0aeac4f5c6b90837b05b9d4fb5215de2ba2`, 7 ahead / 908 behind, mergeable=false. Seven changed paths are blob-identical to merge base on current main, but this is not a rebase/conflict-free proof.
@@ -249,7 +264,7 @@ Canonical receipt: [h867:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T0348
 ## Current return point | 2026-11-13 | h814:s3 | WH-02 source-classification and title-fidelity QA
 
 - Run key: `REVROT3-19-20261011:814:s3`; nominal UTC slot 22:36; selected Calder (ring index 7); next Hale (index 8).
-- Historical role source: 2026-09-12 direct-user check-in in Common CHECKINS.md; empirical/null-design specialty. No standalone signed Calder charter and no authenticated current Calder thread. This :36 execution follows Nathan's architecture/workflow lane and does not reactivate Calder's separate :24 backseat/HOLD remit.
+- Historical role evidence: 2026-09-12 worker-authored self-report in Common CHECKINS.md; empirical/null-design specialty, not a direct-user charter. No standalone signed Calder charter and no authenticated current Calder thread. This :36 execution follows Nathan's architecture/workflow lane and does not reactivate Calder's separate :24 backseat/HOLD remit.
 - The base h814:s3 report/receipt were already present on main before the latest recorded start for this same run ID; producer/attempt linkage of that pre-existing same-slot packet is not inferred. This execution added report Amendments 04–06, receipt Amendments 03–05, two exact-readback PR comments, and Tern inbox context.
 - Primary report: [H814:s3 root date-tagging repair and scheduler readback](2026-11-13T2236Z_H814_S3_WH02_ROOT_DATE_TAGGING_REPAIR_AND_SCHEDULER_READBACK.md), current blob `054263c6b200356426d5acc84fbd33cbfc17854c`.
 - Canonical receipt: [h814:s3 Calder receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T2236Z_s3_calder.md), current blob `f58c2a8a7b77da7b70aec25526795a365610a2bd`.
@@ -574,7 +589,7 @@ Continued Lewis Carroll, Alice's Adventures in Wonderland, Project Gutenberg eBo
 ## 2026-11-14 h837:s2 — workspace-wide discovery exposure and WH-02 preflight
 
 - Run key: `REVROT3-19-20261011:837:s2`; selected label Calder (index 7), next Hale (index 8). This is routing, not authentication.
-- Historical Calder authority: direct-user check-in, 2026-09-12, `WORKSPACES/COMMON/CHECKINS.md`, lines 53–106, blob `886069e71d4aec7a3f8d199d6d889b930a05c17e`. Core remit: adversarial empirical testing, angle-clustering null design, independent-unit discipline, statistical calibration/covariance, and source/provenance separation. No standalone signed charter or authenticated current empirical Calder thread recovered.
+- Historical Calder role evidence: worker-authored self-report, 2026-09-12, `WORKSPACES/COMMON/CHECKINS.md`, lines 53-106, blob `886069e71d4aec7a3f8d199d6d889b930a05c17e`; not a direct-user or Nathan Direct specialist charter. Core remit: adversarial empirical testing, angle-clustering null design, independent-unit discipline, statistical calibration/covariance, and source/provenance separation. No standalone signed charter or authenticated current empirical Calder thread recovered.
 - Current discovery snapshot blob `30f5796cd7078ae53c6d2497b06659c5f18f6b73`, updated 21:29:30Z, source commit `a93e763b6f71ebd286207c66c152ce3eb495fc5f`, contains 14,846 documents; 7,915 are WORKSPACES records, all 7,915 have raw generic reader targets, and 7,718 have 1,400-character excerpts. Receipts 2,090, handoffs 1,494, inboxes 16, BOOT 12, CURRENT_WORK 13, paper records 60, observations 149, Mersearch requests 5, task graph 1 and PWH queue 1 are all in the index. See the report for exact counts and limits.
 - Source cause: `tools/site_discovery.py` blob `97ff9c6d00544251c05bd6bb6053907805438f3e` does not exclude WORKSPACES; every eligible record gets a raw-path reader target. `PUBLIC_SITE/READER_ROUTING_REGISTRY.md` blob `277a94c553e2e17b61bb046a04781b4e44f2229f` default-denies WORKSPACES without an explicit presentation derivative. The public JSON itself contains excerpts; live reader rendering remains unknown.
 - HSH_RESOURCES repository metadata says public while root README declares a private reference boundary; only metadata and root README inspected. Existing issue #1705 remains open; no payload or visibility change.
