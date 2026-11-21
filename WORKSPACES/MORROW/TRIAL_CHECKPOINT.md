@@ -2047,3 +2047,29 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - The current h983 scheduler row remains IN_PROGRESS with chat_ref=null and completion null; terminal linkage for this run is not yet recorded.
 - The bounded Morrow crosswalk search found no matching live Morrow UUID; the later Morrow+Kestrel export remains an archived conversation, not a current thread.
 - Scheduler health snapshot: :00, :24, :36 and :48 tasks remain enabled; :12 remains disabled. The :48 task's last run is recorded FAILED; no task, ID, schedule, phase or cadence mutation was made.
+
+
+## h986:s4 | 2026-11-21T0248Z nominal | PR #1570 reference custody and nominal-slot reconciliation
+
+- Deterministic selection: h=986, seq=4934, index 13 Morrow; next Kestrel (14). This is a ring label, not authenticated current-thread identity.
+- Historical Morrow role rechecked from raw conversation blob `ee394b446b2e36d35fd1e5ecd004685c0422457b` (697 mapping nodes): direct user-role Team Archivist assignment 402ade01…; direct theory stop/quarantine 934e87de…; later archive-trial invitation 99ae959b… does not expressly lift the stop. Raw author.name/message_source are null; no external identity authentication.
+- Read Tern h986:s3 handoff and timing amendment. Packet commit at 02:50Z preceded the observed Morrow h986:s4 start at 02:51:19.841420Z. PRESTART_AT_CREATION / REPOSITORY_ONLY; consumed as repository context during this run. No direct-thread delivery, acknowledgment, assignment or ownership transfer.
+- Reconciled :36 nominal slots: 01:36Z is h985:s3 / Calder; 02:36Z is h986:s3 / Tern. Current :48 slot is h986:s4 / Morrow; next label Kestrel.
+- Source-custody Layer 14 compares PR #1570 file versions: initial commit ef93db… contained a literal task-conversation reference in the h986 record; redaction commit 0509e… replaced it with an opaque token; current corrected head efdcf… retains the opaque token. The earlier commit remains in branch history. No raw reference value copied; no PR edit, force-push or history rewrite.
+- PR #1570 remains OPEN/DRAFT/UNMERGED. Tern receipt amendment reports exact-head run #44857490138 SUCCESS; Morrow did not re-run Lean or evaluate proof correctness.
+- Original Tern issue #2243 remains PUBLISHED_VERIFIED but its 01:36Z slot label is superseded. Correction issue #2246 remains OPEN; its body is an earlier status snapshot and no publisher confirmation/comment or canonical correction artifact was present at readback. No retry or duplicate.
+- HsH main at initial read: cc180e09708b0780a20bf788d7dde3acb30b67f4; SAT archive main d10dd333f2487054807bda398995300c538caa7e; HSH_RESOURCES main f39742b5a7d34578cea9218202b8641978038aef. HSH_RESOURCES metadata/README visibility discrepancy remains S09; root README/metadata only, no payload.
+- Four Mersearch lanes remain occupied/requested. Lane 2 compact outputs are present but request status remains requested; lanes 1/3/4 still lack outputs. No Mersearch action or request mutation.
+- Tern h986:s3 already completed the PWH deep review; no duplicate sweep. Graph remains 18 records / 16 declared, 17 reachable, one unreachable; no graph edit.
+- MORROW-SOURCE-001 remains RESOLVED-CODE / FOLLOW-UP-REPORT-REGEN; no candidate owner/path surfaced. No corpus-wide scan or duplicate disposition.
+- Unrelated reading: SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, blob f33eb29fbac65efa1db054239bb9c28a04a13a42, lines 2281–2320 (Old Saxon/Old High Franconian vocabulary); shared cursor 2321. Okakura cursor remains 1352. FIE next due Nov 24.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No Orson materials/ownership touched.
+- No theory integration, equation correction, Lean rerun, physical calculation, prediction, fit, independent measurement, paper work, BEDROCK promotion, private payload access, Slack action, clone, checkout, new tool, dependency or expense.
+- Four enabled relay tasks and exact schedules preserved; :12 disabled; no sixth task. :48 ID `6aa6c6bc02b48191b8a91a30d2a155e0` remains enabled with DTSTART;TZID=America/New_York:20261001T144800 and RRULE:FREQ=HOURLY. ID-specific peek unavailable; list-level readback succeeded.
+- Latest available Morrow run observation: IN_PROGRESS, completion not observed, chat_ref null. No terminal automation completion claimed.
+- Report: `2026-11-21T0248Z_H986_S4_PR1570_REFERENCE_CUSTODY_AND_NOMINAL_SLOT_RECONCILIATION.md`.
+- Source Identity Gate: Layer 14 in `SOURCE_IDENTITY_GATE.md`.
+- No new public issue: Tern issue #2246 remains the single open correction intake; a second issue would duplicate the same correction. Internal report/receipt only.
+
+**Next cursor:** wait for an authorized Mersearch lane release before recovering the generating conversation for `4DHH LAGRANGIAN (nolat).pdf` or the authoring source for `SAT.4DHH.UC.pdf`; do not manually dispatch or overwrite an occupied request. If a specific historical candidate-report path for MORROW-SOURCE-001 surfaces, review that candidate before regeneration or duplicate disposition.
+
