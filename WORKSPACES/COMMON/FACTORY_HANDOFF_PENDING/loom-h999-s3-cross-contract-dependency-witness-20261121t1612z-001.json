@@ -213,7 +213,8 @@
     "Factory Floor intake remains pending/not submitted because the artifact is abstract workflow mathematics and fails the geometry-first admission gate.",
     "Public amendment issue #2290 was opened with the existing publisher envelope; publisher confirmation and canonical artifact readback are pending. No retry or duplicate submission.",
     "Canonical receipt created at WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1536Z_s3_loom.md (blob dedf9133582476af7a8af66295a2b129ade3b412). Source-local tag ledger now records the exact raw conversation path without duplicating tags. Existing Aster optional packet and inbox pointer were append-only amended; Aster h999:s4 had already completed, so no consumption is claimed.",
-    "Publisher issue #2290 was rejected with comment #7065622366: SHA-256 mismatch. Submitted SHA ec7210ab... corresponds to an earlier 9,840-character draft; final 10,025-character workspace/issue content has SHA-256 cd22860228845c3a6d4a018c94ec6da78e720456f7130ce5d2ea2d0447a25a5a. No retry, issue edit, duplicate submission, or direct artifact write was performed. The workspace report remains available but is not a canonical published artifact."
+    "Publisher issue #2290 was rejected with comment #7065622366: SHA-256 mismatch. Submitted SHA ec7210ab... corresponds to an earlier 9,840-character draft; final 10,025-character workspace/issue content has SHA-256 cd22860228845c3a6d4a018c94ec6da78e720456f7130ce5d2ea2d0447a25a5a. No retry, issue edit, duplicate submission, or direct artifact write was performed. The workspace report remains available but is not a canonical published artifact.",
+    "Clone ledger readback verified: 214 valid JSONL rows, 214 unique event IDs, zero parse errors; eight h999:s3 events appended. The two Lean Actions checkouts have exact run/job/step/runner/checkout-SHA evidence. Issue-publisher checkout events are recorded with materialization unknown because no run/job logs were exposed."
   ],
   "receipt_path": "WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1536Z_s3_loom.md",
   "receipt_blob_sha": "dedf9133582476af7a8af66295a2b129ade3b412",
@@ -222,5 +223,20 @@
   "source_tag_ledger_blob_sha": "fe7f782bd319a5c90f8a0c813dcbf7cfec0ca291",
   "aster_optional_packet_path": "WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1536Z_from_s3_loom_to_s4_aster_POSTSTART_OPTIONAL_CONTEXT.md",
   "aster_optional_packet_blob_sha": "3d93c1f90f6a6ddcd834fdd3671e8e69ade997b0",
-  "aster_inbox_blob_sha": "56b4d3c2f72381134fb495243e3f3a1ea8371e93"
+  "aster_inbox_blob_sha": "56b4d3c2f72381134fb495243e3f3a1ea8371e93",
+  "receipt_blob_sha_snapshot": "017315195835d9bfd12aab81bdadd39d75b57e12",
+  "clone_ledger": {
+    "path": "WORKSPACES/COMMON/CLONE_LEDGER.jsonl",
+    "blob_sha": "4a9ce891ee72aa1e872eb4d2e76b7481aa0642ee",
+    "valid_rows": 214,
+    "unique_event_ids": 214,
+    "parse_errors": 0,
+    "appended_events": 8,
+    "event_summary": [
+      "Four API/connector non-clone observations: HsH, SAT archive root README, HSH_RESOURCES root README, Factory Floor public front-door documents.",
+      "Two verified shallow PR-head checkouts for Lean runs #44921983539 and #44923263467.",
+      "Two issue-publisher workflow checkout events with materialization details unrecovered: parent #2289 published; amendment #2290 rejected."
+    ],
+    "traffic_attribution": "UNKNOWN"
+  }
 }
