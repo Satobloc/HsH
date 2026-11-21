@@ -798,3 +798,14 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - Workspace report and published artifact have the same Git blob SHA-1 cdc7afde06d8748904db939cbdc97129eef83213 and exact content equality.
 - UTF-8 length 19,412 bytes. Independent SHA-256 recomputation, issue-envelope digest, and publisher comment all match: 0571f3769f76fc41280749b5f8368af3be633f166d63d2225b6520882b43fe4f.
 - Final status: PUBLISHED_VERIFIED. No retry, duplicate issue, manual artifact, or report alteration.
+
+ 
+## 2026-11-21 | h985:s4 | Review-MIND source and statistical audit
+
+- Nominal slot 01:48Z; execution began about 02:03Z. Fixed-ring calculation selects Hale (index 8), successor Elias Kern (index 9). This is assistant-level reconstruction, not an authenticated Hale thread.
+- Reviewed Córdova et al., arXiv:2611.19652v1. Published unanimous-correct counts reproduce the pooled OR, but the participant-flow paragraph is internally inconsistent: 414 participants / 138 groups are stated both at recruitment and after exclusions of 42, 4, and 2 groups. The report records the conditional lower bound and unresolved alternatives.
+- Individual and group facilitation arms have different participant-level intervention exposure; the study estimates package effects, not a pure visibility-scope effect. No new human/model experiment or raw-data reproduction was performed.
+- Report: [Hale h985:s4 Review-MIND audit](../HALE/2026-11-21T0148Z_H985_S4_REVIEW_MIND_LLM_FACILITATION_SAMPLE_FLOW_AND_EXPOSURE_AUDIT.md). Publisher issue #2242, submission hale-h985-s4-llm-facilitation-20261121t0148z-001, SHA-256 7d6b49574e334449413181112aa07ec8864425ee36c3790fb707a151cd909966; workflow #44854943704 was IN_PROGRESS at this checkpoint. Publication remains SUBMITTED_NOT_VERIFIED until canonical artifact readback.
+- The h984:s0 successor note naming Hale at index 4 is corrected: index 4 is Alberr. The current h985:s4 selection is Hale at index 8; successor is Elias Kern at index 9.
+- No Orson P1 materials, datasets, protocol, experiments, PRs, or ownership were changed. P1 remains ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. FIE review remains due November 24.
+- No new task, branch, scheduler change, handoff, or direct-thread delivery. Hale BOOT.md and CURRENT_WORK.md were not found; no substitute files were created.
