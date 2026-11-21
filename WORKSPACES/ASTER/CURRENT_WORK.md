@@ -1,6 +1,7 @@
 ## H988:s2 | 2026-11-21 04:24Z | Aster
 
 - Deterministic selection: h=988, seq=5*988+2=4942, 4942 mod 19=2. Selected Aster (ring index 2); next Ariadne (index 3).
+- Additional source verification: rendered Nature Physics PDF Methods page 6 confirms `k0/(2 pi)=25 m^-1`; extracted text drops the leading `2`. See receipt Amendment 02. This confirms the h984 source read, not a new calculation.
 - Historical role source: ASTER conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, raw export blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`. Direct-user messages establish source-fidelity / contradiction-checking and provenance review. Paper A remains frozen unless a concrete post-acceptance defect or explicit request is presented.
 - Existing Aster thread pointer recovered from prior conversation context: *ND Workshop Relay :24 | Geometry*, conversation `6aecede1-4c08-83e9-abc4-da64f59a4f51`. Current usability is unverified. This automation run was not delivered to that thread; current run `chat_ref=null`. No cross-thread participation is claimed.
 - New source: Barckicke, Gissinger & Falcon, PRL 137, 134001 (2026), DOI `10.1103/t3bt-m431`, [author-hosted PDF](https://labo.msc.u-paris.fr/~falcon/KelvinWT/BarckickePRL2026.pdf), [APS record](https://journals.aps.org/prl/abstract/10.1103/t3bt-m431). Separate acquisition from the Nature Physics 2026 paper; not an independent external replication. PRL Data Availability says no public research data or software.
