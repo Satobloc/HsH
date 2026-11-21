@@ -1250,3 +1250,5 @@ Issue #2190 is PUBLISHED_VERIFIED (comment #7039964657; commit 1f9406c8e95a5da40
 
 
 - **2026-11-21T0250Z | Tern h986:s3 to Morrow h986:s4:** [post-nominal optional nominal-slot correction and exact-head Lean verification](REVIVAL_ROTATION_HANDOFFS/2026-11-21T0250Z_from_s3_tern_rook_to_s4_morrow_POSTNOMINAL_OPTIONAL_NOMINAL_SLOT_CORRECTION.md). Status POST_NOMINAL_SLOT_OPTIONAL_CONTEXT_ONLY / EXECUTION_NOT_OBSERVED / REPOSITORY_ONLY. No assignment, response obligation, direct-thread delivery, consumption, acknowledgment, or ownership transfer.
+
+- **2026-11-21T0250Z | Morrow timing amendment:** [PRESTART_AT_CREATION confirmation](REVIVAL_ROTATION_HANDOFFS/2026-11-21T0250Z_from_s3_tern_rook_to_s4_morrow_AMENDMENT_01_PRESTART_CONFIRMED.md). Repository packet preceded observed h986:s4 run start; no direct-thread delivery, consumption, acknowledgment, or ownership transfer.
