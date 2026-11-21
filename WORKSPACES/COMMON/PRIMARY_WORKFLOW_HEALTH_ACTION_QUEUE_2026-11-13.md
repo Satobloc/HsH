@@ -766,3 +766,55 @@ Final observed main: `c22743b4b31458128e09a1e9d8ede1d21ff47e01`. Relative to h97
 The 14 commits after the earlier h971:s2 comparison snapshot `3c6aadfe44279ceb8f554a3ba50e06035c29fba1` did not touch any of the 16 PR-touched paths. All three PRs remain OPEN/DRAFT/UNMERGED; exact-head PR-triggered Actions=0; formal reviews=0. Same-path preflight only; no rebase/merge/CI dispatch/deployment.
 
 P0 issue #1747 received exact-readback comment #7038597078; WH-05 issue #1704 received exact-readback comment #7038597736. No task state, owner, priority, due date, scheduler identity, schedule, phase, cadence, or automation count changed.
+
+## 2026-11-21T0200Z | h986:s3 | Tern Rook | Deep review and run-to-artifact binding
+
+### Review basis and authority
+
+This is a Tern assistant reconstruction under the fixed ring, not an authenticated Tern thread. Historical Tern authority is supported by two direct user-role messages in the Ariadne raw conversation export; no separately signed standalone Tern charter was found. The separate Library file titled “Space Shuttle Roderick — Tern” did not match the historical blob cited in earlier receipts and contained no user-role messages, so it was not treated as authority. No worker ownership or scheduler authority changed.
+
+Current HsH main: d0e5553c8c7703176be9fedb6ee8746b311b674b. SAT archive main: d10dd333f2487054807bda398995300c538caa7e. HSH_RESOURCES main metadata: f39742b5a7d34578cea9218202b8641978038aef; root README only, no private payload.
+
+### New substantive workflow result: Run-to-Artifact Binding
+
+A real Mersearch Lane 2 execution and the current Workshop Relay execution expose the same architectural gap: request/task identity, execution identity, cached result identity, and thread-reference scope are different evidence objects and must not be collapsed.
+
+The h986 scheduler observation showed a task-level conversation reference equal to the cached latest-result chat reference, while the current run-level chat reference was null. The cached result was for the prior hourly occurrence. This does not establish a current-run thread or authenticate a worker. The existing Tern PR #1570 now contains a typed, pseudonymized ThreadReferenceObservation classifier and the h986 proof obligations. Current PR head: 0509e690e6359279b5ac8de954dfa21627100f8d. Exact-head Actions run #44854466333 is IN_PROGRESS; no Lean pass is claimed yet. The prior draft commit containing the raw reference was superseded in the current file by an opaque token, but remains in PR history; PR stays OPEN / DRAFT and must not merge until an authorized maintainer decides whether history cleanup is required.
+
+### WH-01: targeted clone-ledger reconciliation, global cursor unchanged
+
+Issue #1704 comment #7054614757 identified a missing clone-ledger row for Mersearch run #44818799476. The exact Actions run, attempt 1, workflow 395264519, job 136573978773, and checkout steps 2, 4, 5, 6 were inspected in the job logs. Four append-only checkout events were added and independently read back in CLONE_LEDGER.jsonl. The ledger now has 107 valid JSONL rows, zero parse errors, and exactly four unique rows for this run.
+
+The four observed checkouts are:
+- HsH main: commit 2c0df511907dfbf45756a1971c7dc654c8aac257, fetch-depth 0, full history, run-head match.
+- HsH mersearch-stable-1.0: commit 89933c358b67ccbfbbaa680aadeb1f35d22d91b2, fetch-depth 1, shallow; different pinned branch, so no run-head comparison.
+- SAT archive main: commit d10dd333f2487054807bda398995300c538caa7e, fetch-depth 1, shallow; cross-repository, no run-head comparison.
+- HSH_RESOURCES default branch: commit f39742b5a7d34578cea9218202b8641978038aef, fetch-depth 1, shallow; cross-repository, no run-head comparison.
+
+All four checkout steps, the job, and the run succeeded. This proves checkout materialization and commit identity, not GitHub Traffic attribution, unique actor, or an independently established fresh environment. The global WH-01 census cursor remains 2026-11-15T18:00:00Z; this is a targeted known-run reconciliation, not a complete run-list partition. Do not advance the global cursor.
+
+### WH-05: Mersearch lane state correction
+
+The previous 12-path 404 snapshot is superseded for Lane 2 only. Lane 2 now contains a user-requested request ID, perceptual-nexus-early-archive-20261120-01, plus RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md. The manifest records a successful run generated at 2026-11-21T00:28:21Z, 22,755 files and 22,827,574 records scanned, 6,850 hits and 1,181 distinct source paths. The manifest pins the three source commits and records bridge_exclusions=["mersearch_requests"].
+
+The stable searcher branch remained unchanged, but this run applied a runtime-only hotfix injecting TOOL_NAME and TOOL_VERSION. Stable and runtime script hashes differ. The public bridge published only the three compact artifacts; raw SEARCH_RESULTS.json/.md were retained only in temporary Actions job storage. The compact receipt contains a self-hit on the request file and duplicate conversation paths across roots; ranking is lexical, not semantic. It is not exhaustive source recovery or source-critical attribution.
+
+Lane 2 request status remains requested. No lane was released or overwritten. Lanes 1, 3 and 4 remain requested and their nine request-scoped manifest/receipt paths remain absent. The Mersearch worker guide now records this single post-containment execution and adds explicit execution-to-artifact binding requirements. WH-05 remains BLOCKED until the raw-result boundary, source validation, independent readback and lane-release authority are resolved.
+
+### P0 Code Grurple and other PWH items
+
+P0 remains ACTIVE. Main still has the source-level reader-policy mismatch: current tools/site_discovery.py blob 97ff9c6... and its test blob 4d646dba... are unchanged from PR #2009's merge base. The current main test explicitly admits a WORKSPACES path, while the reader registry and presentation gate prohibit raw workspace presentation. PR #2009 remains OPEN / DRAFT / UNMERGED, with no exact-head Actions run or review. No rebase, merge, deployment, route probe or standdown occurred. Connected Browser context was unavailable, so live route status remains NOT_OBSERVED.
+
+WH-02 remains the highest-priority unblocked item and Calder-owned; PR #1710 remains OPEN / DRAFT / UNMERGED. No takeover. WH-03/04 Factory Floor intake and lifecycle checks remain open without new evidence. WH-06 issue/fork governance, WH-07 Project Desk lineage, WH-08 orphan census, and WH-09 migration remain open; no new census or ownership change.
+
+Graph triage was reproduced from the published task_upkeep_triage.py ordering rules in a bounded JavaScript check, not by executing the Python file. The graph remains 18 records against 16 declared branches; 5 completed, 12 active and 1 blocked; 17 reachable and 1 unreachable. No branch status, owner, due date, task ID, or relationship was changed. WH-02 remains Calder-owned. P1 Orson cognition remains OVERDUE / NOT READY / ORSON-owned. P2 measured geometry remains HOLD with no selected measured system or dataset. P3 full theory remains INCOMPLETE.
+
+FIE next review remains November 24. A later Aster summary reports a November 20 six-page reread, but this run did not recover a corresponding exact source SHA, read extent or return cursor, so the review interval is not reset on that summary alone. The unrelated-reading cursor remains h958 lines 2001–2040, next 2041; no duplicate break was performed.
+
+### Next actions
+
+1. Check exact-head Lean run #44854466333 for PR #1570; if it fails, repair only the current branch and rerun once. Do not merge.
+2. Keep PR #2009 P0 active and obtain an authorized live-route reader check; do not infer route behavior from source or PR tests.
+3. Continue WH-01 from the existing 2026-11-15T18:00:00Z partition only through an authorized existing run-list route. The known Mersearch run is reconciled; it does not close the census.
+4. Keep Mersearch Lane 2 requested and occupied; do not release it based only on compact outputs. Do not overwrite any lane.
+5. Preserve the existing relay task IDs, schedules, prompts and phases. No sixth task.
