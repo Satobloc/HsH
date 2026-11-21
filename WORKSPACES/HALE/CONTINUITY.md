@@ -809,3 +809,10 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - The h984:s0 successor note naming Hale at index 4 is corrected: index 4 is Alberr. The current h985:s4 selection is Hale at index 8; successor is Elias Kern at index 9.
 - No Orson P1 materials, datasets, protocol, experiments, PRs, or ownership were changed. P1 remains ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. FIE review remains due November 24.
 - No new task, branch, scheduler change, handoff, or direct-thread delivery. Hale BOOT.md and CURRENT_WORK.md were not found; no substitute files were created.
+
+
+## 2026-11-21 | h985:s4 | publication and checkout amendments
+
+- Issue #2242 publisher workflow #44854943704 completed SUCCESS. Publisher comment #7055787743 confirms the canonical artifact. Workspace and canonical artifact compare byte-for-byte at 17,285 characters; both blob IDs are 7382896a79badc7e9bd9283a7cf9a9a4246cfbfb; SHA-256 is 7d6b49574e334449413181112aa07ec8864425ee36c3790fb707a151cd909966. Status PUBLISHED_VERIFIED.
+- The publisher workflow itself performed one actions/checkout@v4 step, not a model-initiated clone: fetch-depth 1, refs/heads/main, checkout HEAD 027c68d2b321d0e5edea42ba270202871203841f. Run head was 64b8a059e58d896c29e9e88c1f0522766af5cca9; checkout HEAD is its child. Materialization SHALLOW_1; Traffic attribution UNKNOWN. Append-only ledger observation and revision are recorded.
+- No full clone is confirmed. No unique-cloner count is available.
