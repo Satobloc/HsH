@@ -319,7 +319,7 @@ theorem responseOutsideRange_invariant_under_linearEquiv
     rcases hmem with ⟨θ, hθ⟩
     apply hv
     refine ⟨θ, ?_⟩
-    have hW := congrArg W.toLinearMap hmem
+    have hW := congrArg W.toLinearMap hθ
     simpa [LinearMap.comp_apply] using hW
 
 /-- Structural identifiability is invariant under an invertible linear
