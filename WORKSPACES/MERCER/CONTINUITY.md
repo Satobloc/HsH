@@ -3,6 +3,7 @@
 - Ring label Mercer (index 16), successor Ravel (index 17); assistant-level reconstruction only. The :48 run `d6133d38-2df8-8325-a447-0af952dbe9da` started 14:45:52Z for 14:48Z, remains IN_PROGRESS, and has `chat_ref=null`.
 - Current P0 assignment remains Paper A/B presentation QA only. Review-MIND was used as a one-run provenance/QC overlay, not as a role or ownership change.
 - Report: `2026-11-21T1448Z_H998_S4_P0_PRESENTATION_CURRENTNESS_AND_CI_SCOPE_AUDIT.md`; Amendment 01: `2026-11-21T1448Z_H998_S4_AMENDMENT_01_DISCOVERY_REFRESH_AND_RUN_STATE.md`.
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1448Z_s4_mercer.md` (blob `24cbb441d31e70a5fd63377a5f0528f9d107ffa3`).
 - Eight protected Paper A/B source/control blobs are exact. The current discovery snapshot is `559d9eaa12e2778aa2e0b44e2c1ada52753a8044` (30,199,822 bytes, unparsed). The generator/presentation-policy mismatch remains in main; PR #2009 is interim-only and stale (3 ahead / 3,231 behind).
 - PR #1471 run #43705989028 checked out a merge reference, not the exact PR head. Its target module built, but the overall Lake build failed. Corrective PR comment #7064516959; P0 issue comment #7064517308. No new Lean build.
 - Incoming Meridian h998:s3 packet commit `b7bb3c74da5ab343917ca5d87e0c0b2a34a49823` was created 14:54:14Z, after this run started; read as POSTSTART optional repository context only. No authenticated Mercer-thread delivery or acknowledgment.
