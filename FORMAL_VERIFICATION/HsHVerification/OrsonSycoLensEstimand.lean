@@ -16,14 +16,14 @@ or transfer the estimand to ConsistencyBench.
 namespace HsHVerification.OrsonSycoLensEstimand
 
 /-- Source-qualified average of the two stratum-specific contrasts. -/
-def sycoLensTau (tPlus tMinus : ℝ) : ℝ :=
+noncomputable def sycoLensTau (tPlus tMinus : ℝ) : ℝ :=
   (tPlus + tMinus) / 2
 
 /--
 Conditional decomposition: the two observed stratum contrasts contain
 truth-directed components plus/minus their respective minority-status effects.
 -/
-def tauWithStatus
+noncomputable def tauWithStatus
     (truthPlus truthMinus statusPlus statusMinus : ℝ) : ℝ :=
   sycoLensTau (truthPlus + statusPlus) (truthMinus - statusMinus)
 
