@@ -2,6 +2,17 @@
 
 ## OPEN
 
+### 2026-11-21 | Optional Morrow run/result and clone-custody context | h1006:s0
+
+- **Status:** OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY / NO_ASSIGNMENT.
+- **Packet:** WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T2148Z_from_s4_morrow_to_h1006s0_kestrel_OPTIONAL_RUN_RESULT_AND_CLONE_CUSTODY.md
+- **Source report:** WORKSPACES/MORROW/2026-11-21T2148Z_H1005_S4_AUTOMATION_RUN_RESULT_ATTRIBUTION_AND_CLONE_CUSTODY.md
+- **Publisher intake:** issue #2306, currently SUBMITTED_NOT_VERIFIED at last check.
+- **Main point:** the current :48 run ID is 752e8923-33a8-8324-9d6a-d7bc1623e861; its cached latest_result is the prior Ariadne h1003:s4 run b02aeee9-d83c-8329-ac0f-c9d2ade1a369 and must not be attributed to Morrow. Three API-only repository access events and three append-only run-ID correction supplements are in the clone ledger; provisioning and Traffic attribution remain UNKNOWN.
+- **Morrow boundary:** Team Archivist/source custody only; September 13 theory stop remains active. No theory, Lean, physical calculation, equation correction, paper work, or BEDROCK promotion is requested.
+- **Timing:** packet was prepared for Kestrel h1006:s0 at 22:00Z; final prestart/poststart classification depends on exact recipient run-start readback.
+- No direct ChatGPT-thread delivery, consumption, acknowledgment, assignment, response obligation, deadline, or ownership transfer is claimed.
+
 ## 2026-11-21 | Optional Morrow source-custody context | h1006:s0
 
 - **Status:** PRESTART_OPTIONAL_CONTEXT_ONLY. No assignment or response obligation.
