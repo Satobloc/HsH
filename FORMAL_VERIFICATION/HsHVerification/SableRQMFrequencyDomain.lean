@@ -30,10 +30,10 @@ theorem superhelix_constraint_residual (R r θ ψ : ℝ) :
 
 /-- The two component equations share the same fourth-power frequency. -/
 theorem component_fourth_powers_equal
-    (κ λ r ωs ωh : ℝ)
+    (κ lambdaS r ωs ωh : ℝ)
     (hκ : κ ≠ 0)
-    (hs : κ * ωs^4 + 2 * λ * r^2 = 0)
-    (hh : κ * ωh^4 + 2 * λ * r^2 = 0) :
+    (hs : κ * ωs^4 + 2 * lambdaS * r^2 = 0)
+    (hh : κ * ωh^4 + 2 * lambdaS * r^2 = 0) :
     ωs^4 = ωh^4 := by
   have hmul : κ * (ωs^4 - ωh^4) = 0 := by nlinarith
   rcases mul_eq_zero.mp hmul with hκ0 | hdiff
@@ -43,11 +43,11 @@ theorem component_fourth_powers_equal
 /-- A real-frequency solution with positive stiffness and nonzero transverse
 radius requires the signed constraint coefficient to be nonpositive. -/
 theorem signed_frequency_requires_nonpositive_lambda
-    (κ λ r ω : ℝ)
+    (κ lambdaS r ω : ℝ)
     (hκ : 0 < κ)
     (hr : 0 < r)
-    (hdisp : κ * ω^4 + 2 * λ * r^2 = 0) :
-    λ ≤ 0 := by
+    (hdisp : κ * ω^4 + 2 * lambdaS * r^2 = 0) :
+    lambdaS ≤ 0 := by
   have hω4 : 0 ≤ ω^4 := by positivity
   have hκω : 0 ≤ κ * ω^4 := mul_nonneg (le_of_lt hκ) hω4
   have hr2 : 0 < r^2 := by positivity
@@ -56,23 +56,23 @@ theorem signed_frequency_requires_nonpositive_lambda
 /-- A nonzero real frequency requires a strictly negative signed
 constraint coefficient under positive stiffness and nonzero transverse radius. -/
 theorem signed_frequency_requires_negative_lambda
-    (κ λ r ω : ℝ)
+    (κ lambdaS r ω : ℝ)
     (hκ : 0 < κ)
     (hr : 0 < r)
     (hω : ω ≠ 0)
-    (hdisp : κ * ω^4 + 2 * λ * r^2 = 0) :
-    λ < 0 := by
+    (hdisp : κ * ω^4 + 2 * lambdaS * r^2 = 0) :
+    lambdaS < 0 := by
   have hω4 : 0 < ω^4 := by positivity
   have hκω : 0 < κ * ω^4 := mul_pos hκ hω4
   have hr2 : 0 < r^2 := by positivity
   nlinarith
 
-/-- Under λ < 0, the signed and absolute-value frequency expressions agree. -/
+/-- Under lambdaS < 0, the signed and absolute-value frequency expressions agree. -/
 theorem signed_and_absolute_frequency_forms_agree
-    (κ λ r : ℝ)
+    (κ lambdaS r : ℝ)
     (hκ : 0 < κ)
-    (hλ : λ < 0) :
-    -(2 * λ * r^2) / κ = (2 * |λ| * r^2) / κ := by
+    (hλ : lambdaS < 0) :
+    -(2 * lambdaS * r^2) / κ = (2 * |λ| * r^2) / κ := by
   rw [abs_of_neg hλ]
   ring
 
@@ -89,16 +89,16 @@ theorem inserted_background_residual_mismatch
 /-- Positive λ cannot satisfy the signed dispersion equation for any
 real ω when κ and r are positive. -/
 theorem positive_lambda_excludes_real_frequency
-    (κ λ r ω : ℝ)
+    (κ lambdaS r ω : ℝ)
     (hκ : 0 < κ)
-    (hλ : 0 < λ)
+    (hλ : 0 < lambdaS)
     (hr : 0 < r)
-    (hdisp : κ * ω^4 + 2 * λ * r^2 = 0) :
+    (hdisp : κ * ω^4 + 2 * lambdaS * r^2 = 0) :
     False := by
   have hω4 : 0 ≤ ω^4 := by positivity
   have hκω : 0 ≤ κ * ω^4 := mul_nonneg (le_of_lt hκ) hω4
   have hr2 : 0 < r^2 := by positivity
-  have hλr : 0 < 2 * λ * r^2 := by positivity
+  have hλr : 0 < 2 * lambdaS * r^2 := by positivity
   nlinarith
 
 #print axioms superhelix_norm_sq
