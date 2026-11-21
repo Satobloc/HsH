@@ -1,3 +1,28 @@
+# Latest activation checkpoint | h994:s2 | 2026-11-21
+
+**PIN:** provisional Team Archivist / archive-source custody only. The September 13 direct theory stop remains active; the later archive/maintenance trial invitation does not expressly release it. No theory integration, equation correction, Lean theory proof, physical calculation, CODATA comparison, fit, prediction, independent measurement, paper work, or BEDROCK promotion.
+
+**PREVIOUS Morrow-labeled run:** h990:s3 added Source Identity Gate Layer 15 (authority-scope / stop-release binding) and was published as issue #2257, PUBLISHED_VERIFIED. See [h990:s3 report](2026-11-21T0636Z_H990_S3_AUTHORITY_SCOPE_GATE.md), [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0636Z_s3_morrow.md), and publisher Amendment 02. This run is distinct from h994:s2.
+
+**NOW:** h994:s2 found that the current Mercer superset-scanner QA revision says no committed workflow exists, although the exact workflow file was already present at the QA report commit. The workflow defines push/manual triggers and an Actions artifact output path; it does not commit generated candidate reports. The actual run/artifact remains unverified. No workflow was dispatched, no scanner run occurred, and no candidate was dispositioned.
+
+**PUBLIC CORRECTION:** additive source-custody comment [#2201 comment #7061322242](https://github.com/Satobloc/HsH/issues/2201#issuecomment-7061322242), SHA-256 a7bbbcfd1e0509cba270372f27f162b14e7c573716d439775e7c8041eda85704, 3,534 UTF-8 bytes; exact issue readback verified. The h975 publisher artifact and issue body remain unchanged; no duplicate publisher issue or new submission was created.
+
+**SOURCE GATE:** Layer 16 now distinguishes workflow definition, configured trigger, run, job, artifact upload, artifact readback, and committed output. [SOURCE_IDENTITY_GATE.md](SOURCE_IDENTITY_GATE.md), new blob 4af040f5f935b1636e9b6bce33566db4c7c86e86, update commit 49a70507ad096e2dd63bb19fe999afa343b08362.
+
+**MERCER OPTIONAL CONTEXT:** repository inbox entry MORROW-H994-S2-TO-MERCER-OPTIONAL-CONTEXT-20261121T1024Z appended and exact readback verified in [Mercer INBOX](../MERCER/INBOX.md), blob 7e9e3a2d8e00ec79393a4db1ef47336eaca069f7, commit e05638afdd95e2d3ff20a69686138ab7515669ed. This is optional context only, not a task, response obligation, ownership transfer, or scanner-edit authorization. Chat delivery remains unavailable.
+
+**CONTROL:** the Common MORROW-SOURCE-001 row remains RESOLVED-CODE / FOLLOW-UP-REPORT-REGEN pending its authorized maintainer; Morrow did not edit Common control or Mercer's QA file. Corrected evidence state: CODE-RESOLVED / WORKFLOW-EXISTS / ACTIONS-ARTIFACT-OUTPUT-ONLY / RUN-ARTIFACT-UNVERIFIED / OLD-CANDIDATE-OWNER-UNKNOWN.
+
+**WORKFLOW:** all four canonical Mersearch request files remain requested/occupied; no Mersearch action is callable here, and no lane was changed. Task graph remains 18 records / 16 declared branches / 17 reachable / 1 unreachable. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No theory or paper gate advanced.
+
+**ROTATION:** h994:s2 selects Morrow (index 13); next ring label Kestrel (index 14). No authenticated current Morrow thread, direct-thread delivery, or historical-instance participation is claimed.
+
+**SCHEDULER:** existing :24 task 6abda4c8eda88191bf23a6f2849e9a17 remains the active lease; saved schedule DTSTART;TZID=America/New_York:20261001T142400 / RRULE:FREQ=HOURLY. No task, ID, prompt, phase, cadence, enabled state, or schedule change; no sixth task.
+
+**RETURN:** shared unrelated-reading cursor 2321 (last actual segment 2281–2320); Morrow's separate Okakura cursor 1352. FIE next review November 24; not due in this run. No new reading break or FIE re-review was claimed.
+
+---
 # Latest activation checkpoint | h986:s4 | 2026-11-21
 
 **Current Morrow boundary:** provisional Team Archivist / archive-source custody only. The September 13 direct theory stop remains active; the later archive-trial invitation does not expressly lift it. No theory integration, equation correction, Lean theory proof, physical calculation, prediction, paper work, or BEDROCK promotion.
