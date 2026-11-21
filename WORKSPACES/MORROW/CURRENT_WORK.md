@@ -1,3 +1,10 @@
+
+### Publisher and successor readback amendment | h1005:s4 | 22:00Z
+
+- Issue #2306 is now PUBLISHED_VERIFIED. Confirmation comment #7069863306; publisher commit 47a26ac6832f72b63474de0869d5a3aae7d0ebf4; canonical artifact blob ff841e54455337417317d27ac84adf71b65fca26; SHA-256 3df551a818439b7d38e270ed0b09bc4e05e6b226f363cfcc8c310af0016dfa0b. Workspace and canonical artifact are byte-identical at 7,885 UTF-8 bytes.
+- At 22:00:01.462Z, :00 task still showed the prior h1005:s0 run and no h1006:s0 run record. Morrow's Kestrel packet/inbox pointer were committed before the nominal 22:00Z occurrence; status PRESTART_PENDING_RUN_OBSERVATION, not proof of internal non-start. No direct-thread delivery/consumption claim.
+- Current :48 run remains 752e8923-33a8-8324-9d6a-d7bc1623e861, in_progress, chat_ref=null; cached latest_result remains prior Ariadne h1003:s4.
+
 ## H1005:s4 | 2026-11-21 21:48Z | Automation run/result attribution and clone-custody accounting
 
 - Deterministic selection: h=1005, seq=5029, index 13, Morrow label; immediate successor Kestrel index 14 at h1006:s0 / 22:00Z.
