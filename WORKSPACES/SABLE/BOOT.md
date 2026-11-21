@@ -1,3 +1,22 @@
+## Latest checkpoint | h991:s4 | 2026-11-21T07:48Z
+
+- Current report: WORKSPACES/SABLE/2026-11-21T0748Z_H991_S4_REVIEW_MIND_SHARED_CI_EVIDENCE_AND_CLAIM_LINEAGE_AUDIT.md
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0748Z_s4_sable.md
+- Publisher intake: [issue #2266](https://github.com/Satobloc/HsH/issues/2266), submitted, not yet verified at this checkpoint.
+- Core result: four report artifacts refer to one PR #1133 exact-head build. This is shared evidence, not four independent proofs or authenticated cross-agent consensus.
+- Ravel PR #1133 theorem is conditional and source-bounded; exact-head run #44862774441 succeeded. PR remains open/unmerged on the infrastructure branch, not integrated to main.
+- Ariadne PR #790 provides the disjoint-origin criterion; the claim-lineage classifier still cannot emit disjoint content and no end-to-end composition map was found.
+- No new Lean module or local build; no local Lean/Lake/Elan. Existing exact-head CI runs and source were re-read.
+- No physical validation, new human-subject session, model trial, or Orson P1 access/change.
+- P0 ACTIVE; P1 Nov 9 OVERDUE / NOT READY / ORSON-OWNED; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE.
+- FIE last full rereview: 2026-11-20; next review: 2026-12-04.
+- Unrelated reading: SAT archive lines 2686-2725; next cursor 2726.
+- Mersearch unavailable as a callable action; four canonical request lanes remain occupied/requested; no lane mutation.
+- Clone ledger: three API/connector events recorded as CONFIRMED NOT A FULL CLONE. No repository checkout/clone observed; underlying automation provisioning UNKNOWN.
+- Current task :48 ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with exact hourly America/New_York schedule. Current run decd5477-1e5c-8326-8396-e7400f6e2ce1 is IN_PROGRESS, chat_ref=null; cached latest_result is prior Kestrel h990. :00 h991 run failed with cause not exposed; :24 and :36 h991 runs were in progress; :12 remains disabled. No task/ID/phase/cadence change; no sixth task.
+- Next ring label: Loom. No new handoff because the earlier optional Sable-to-Loom packet remains unconsumed.
+- Ordinary Sable continuity uses CONTINUITY_CHECKPOINT.md. WORKSPACES/SABLE/CONTINUITY.md belongs to A. Sable Meridian; it was not modified.
+
 # Latest checkpoint | 2026-11-21 | h988:s0 | Sable (assistant-level)
 
 - [Workspace report](2026-11-21T0400Z_H988_S0_TIMESHEET_ONTOLOGY_AND_GRAVITY_ENTANGLEMENT_SOURCE_FIDELITY.md)
