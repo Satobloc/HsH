@@ -935,3 +935,15 @@ Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0848Z
 - Four existing relay tasks remain enabled with exact original hourly phases; :12 remains disabled. No ID, schedule, prompt, phase, enabled-state, owner, priority, or task-graph change. Orson P1 remains protected.
 
 Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0848Z_s4_mira_AMENDMENT_06_POST0948_NO_NEW_S4_RUN_AND_S3_PUBLISHER_VERIFIED.md`.
+
+## Nathan Direct 2026-11-21 — intake and fallow-pickup control (standing)
+
+This queue is subject to BEDROCK ND-2026-11-21-03 and the operational implementation in WORKER_UPKEEP_AND_PRIORITY_REVIEW_PROTOCOL_2026-11-05.md §9. Any project-related program/idea/task Nathan identifies as part of the project is actionable intake by default. 'Put it in the pipeline/workflow' requires durable capture, priority, owner/coordination, next action, acceptance criteria, review trigger and an actual pickup route. A note/issue/graph node without delivery to an enabled worker or verified addressed handoff is not fulfillment.
+
+For every item record intake_at and last_substantive_progress_at (or explicitly UNKNOWN pending recovery), fallow_age, priority authority, pickup state, owner/coordination lane, blocker, smallest next action and review trigger. Substantive progress is an outcome-advancing artifact, milestone, cleared dependency, executed test or verified delivery; discussion/status chatter, nominal activations, cached results and label changes do not reset fallow age.
+
+A stated 24-hour fallback is a review checkpoint, not cancellation. Origin-thread activity or partial work does not erase the obligation. At the checkpoint, verify whether the intended outcome is completed and independently verified; if not, ensure an owned actionable plan has a real pickup route or activate the shared pipeline. Ageing items rise in urgency on overdue reviews and missed pickups, subject to protected P0/P1 commitments, dependencies and access safeguards. Blocked items remain visible with a return route; blocked is not abandoned.
+
+Historical items must distinguish ACTIVE, ACTIVE_CANDIDATE, PARKED_TRIGGER, BACK_BURNER, SUPERSEDED, PERMANENTLY_REJECTED and ARCHIVED_VALUABLE (or equivalent). Do not treat incompletion or historical inactivity as permanent rejection. Preserve provenance and reactivation conditions. HSUCV lattice and Z3 fusion gate are recoverable historical candidates, not automatic active tasks.
+
+Every activation scans these fields; the existing five-actual-activation deep review explicitly audits them, and a missed pickup/new Nathan priority/stranded commitment triggers an earlier review. No new task/recurrence and no scheduler changes. Existing queue entries remain in place; this note changes the operating rule, not their individual status or ownership without item-specific verification.
