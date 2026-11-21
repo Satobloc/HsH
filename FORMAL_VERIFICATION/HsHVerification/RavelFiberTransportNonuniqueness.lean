@@ -27,6 +27,16 @@ import HsHVerification.RavelCarrierSheetDimensionGate
   167136310cdf33ca8f986f33634692314c1a0946, separately describes
   1D filaments in a 4D manifold and a propagating 3D wavefront.
 
+- Standard-Kerr comparison only (not an H(s)H source): Baines, Berry,
+  Simpson, and Visser, *Darboux diagonalization of the spatial 3-metric
+  in Kerr spacetime* (2020), DOI 10.1007/S10714-020-02765-0, explicitly
+  treats Kerr spatial 3-slices; Jacobson and Soong, *Slices of the Kerr
+  ergosurface* (2009), DOI 10.1088/0264-9381/26/5/055014, studies the
+  2D ergosurface geometry on different constant-time slicings. These
+  standard references show that a "spatial Kerr section" can refer to
+  different dimensional objects and slicing choices; they do not decide
+  which object Nathan intended.
+
 The 1D-base / 3D-spatial-fiber / 4D-total-space reading below is therefore
 a cross-source conditional reconstruction, not one verbatim equation
 or a settled ontology. The precise Kerr spatial slice, bundle charts,
@@ -64,6 +74,24 @@ def localProductDimension (baseDim fiberDim : Nat) : Nat :=
     prove that the source construction is a smooth bundle. -/
 theorem oneDimensionalFilament_threeDimensionalSpatialSection_dimension :
     localProductDimension 1 3 = 4 := by
+  decide
+
+/-- Alternative dimension branch: if the selected Kerr object is a
+    two-dimensional spatial surface (for example, an ergosurface slice)
+    rather than a full three-dimensional spatial hypersurface, sweeping it
+    along a one-dimensional filament parameter gives a three-dimensional
+    local-product total space. This does not identify Nathan's intended
+    section or assert that the required bundle exists. -/
+theorem oneDimensionalFilament_twoDimensionalSpatialSurface_dimension :
+    localProductDimension 1 2 = 3 := by
+  decide
+
+/-- Under the same conditional local-product reading, a 3D swept surface
+    in a 4D ambient space has one normal-complement direction, if a suitable
+    smooth embedded complement is defined. -/
+theorem twoDimensionalSectionExtension_has_one_normal_rank :
+    HsHVerification.RavelCarrierSheetDimensionGate.normalComplementRank
+      4 (localProductDimension 1 2) = 1 := by
   decide
 
 /-- Under that local-product assumption, a 4D total space in a 4D ambient
@@ -170,11 +198,13 @@ theorem bool_same_projection_different_fiber :
       changeFiberCoordinates, conjugateEquiv, boolCoordinateChange,
       boolFlip, identityTransport]
 
-#eval localProductDimension 1 3
+#eval [localProductDimension 1 2, localProductDimension 1 3]
 #eval (move boolIdentityTransport false true false).2
 #eval (move boolTwistedTransport false true false).2
 
 #print axioms oneDimensionalFilament_threeDimensionalSpatialSection_dimension
+#print axioms oneDimensionalFilament_twoDimensionalSpatialSurface_dimension
+#print axioms twoDimensionalSectionExtension_has_one_normal_rank
 #print axioms spatialSectionExtension_has_zero_normal_rank
 #print axioms changeFiberCoordinates
 #print axioms move_base_projection
