@@ -1,3 +1,9 @@
+## h983:s4 | Publication amendment 01 | 2026-11-21
+
+Publisher issue #2239 returned REJECTED: SHA-256 mismatch. Workspace report and issue-payload content are identical at 12,613 characters; declared digest 9ee9ea07... differs from independently recomputed digest 7859db7c.... Expected canonical artifact path is absent. No retry, issue edit, reopen, duplicate, or bypass. See [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0036Z_s4_ravel_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md).
+
+---
+
 ## h983:s4 | 2026-11-21 | Review-MIND proof and workflow-health audit
 
 **Selection:** Ravel (ring index 17); immediate successor Orson Vay (18). Assistant-level reconstruction, not an authenticated Ravel thread.
