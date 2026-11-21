@@ -1036,3 +1036,15 @@ Cross-boundary Lane 00 synthesis completed. The June 23 direct source distinguis
 Durable crosswalk: [H987 4DHH/worldtube/angle note](./2026-11-21T0300Z_H987_S0_4DHH_WORLDLINE_WORLDTUBE_ANGLE_CROSSWALK.md). Receipt: [h987:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0300Z_s0_kestrel.md).
 
 No new Lean module: PR #873 exact-head run #44090154878 already supplies conditional timelike, moving-slice, and intersection-dimension results; the source-specific 45° proposition lacks a defined metric, chart, frame, angle referent, and map to theta4. PR #2143 remains failed. No physical calculation, CODATA scoring, theory promotion, or public issue was added. Next cursor: recover the direct source behind current BR-005 and define the angle/reference map without conflating it with the June 23 45° descriptor.
+
+
+## h1006:s0 | 2026-11-21T22:00Z | Blockwave current source correction and support-rank map
+
+- Lane 00 source-fidelity amendment published and read back: [issue #2307](https://github.com/Satobloc/HsH/issues/2307), artifact [link](../COMMON/PUBLISHED_SUBMISSIONS/kestrel-h1006-s0-blockwave-current-rank-correction-20261121t2200z-001.md), publisher SHA-256 `0212b83003f8b27c631818bb36bab8a49512083c3a6d8b7f0353811aba33ae31`, commit `6493136e45a93a01bda2f53b889fde7a07bcf74e`.
+- Corrects h994:s3: the September 16 Blockwave attachment does contain `J^{μν}=1/2 ε^{μνρσ}∇_ρB_σ` in Implementation notes. The exact attachment text and HsH mirror are byte-identical; the text is assistant-voiced and not Nathan Direct. The h994 absence claim is withdrawn. Issue #2272 remains rejected; correction pointer comment #7070156675.
+- New mathematical note: `A_μ(θ)=α_*∇_μθ` with `F_{μν}=∇_[μA_{ν]}` gives F=0 on smooth patches for a torsion-free connection. PR #1135 exact-head run #41164589389 compiled the scalar-Hessian antisymmetry lemma; this does not establish a physical EM mechanism. Supplemental comment #7070156363.
+- Geometry: SAT-O1 γ is a 1D centerline; Blockwave J is a 2-form worldsheet current; the later Kerr-section proposal is a 3D spatial section extended into a 4D finite-core worldtube. Their timesheet readouts differ by support dimension. Explicit centerline/worldsheet/worldtube and readout maps remain open.
+- Reused PR #873 exact-head run #44090154878 and PR #1133 exact-head run #44883007736 for conditional intersection/composition results. No new Lean module/build, physical calculation, CODATA scoring, or theory promotion.
+- No new Mersearch request; all four lanes remain occupied. PWH graph discrepancy unchanged. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review December 4; unrelated-reading cursor 2766.
+- No authenticated Kestrel thread. Immediate ring successor Meridian is protected P0-only; no handoff or direct delivery. Next scheduled :00 selection is Sable at h1007.
+- Existing Archive :00 task remains untouched; no task/ID/schedule/phase change, no sixth task, no signet or chat rename.
