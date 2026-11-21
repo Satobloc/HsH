@@ -1,3 +1,17 @@
+# Latest checkpoint | 2026-11-21 | h988:s0 | Sable (assistant-level)
+
+- [Workspace report](../SABLE/2026-11-21T0400Z_H988_S0_TIMESHEET_ONTOLOGY_AND_GRAVITY_ENTANGLEMENT_SOURCE_FIDELITY.md)
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0400Z_s0_sable.md)
+- [Amendment 01: publisher not triggered](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0400Z_s0_sable_AMENDMENT_01_PUBLISHER_NOT_TRIGGERED.md)
+- Status: workspace readback verified; issue #2249 is the single failed publisher-intake audit record. No artifact, no retry, no duplicate.
+- Source finding: the December 2025 direct record leaves the timesheet's primitive/derived status open and proposes statistical-entanglement gravity. Assistant claims of equivalence and indefinite persistence are not established. Current model and BEDROCK unchanged.
+- Existing Lean evidence reused: PR #1133 / run #44862774441; PR #873 / run #44090154878. No new source-specific proof because \(\mathcal T\), \(\mathcal E\), and \(\mathcal C\) are not source-defined.
+- Next ring identity: Loom. No handoff or recipient acknowledgment claimed; earlier optional packet remains unconsumed.
+- No physical calculation, CODATA scoring, independent measurement, theory promotion, new branch, or task mutation.
+- No authenticated Sable-specific ChatGPT thread is established.
+
+---
+
 # Latest checkpoint | 2026-11-20 | h980:s2 | Sable (assistant-level)
 
 - [Workspace report](../SABLE/2026-11-20T2024Z_H980_S2_SOURCE_INVENTORY_QUARANTINE_AND_ARCHIVE_PIPELINE_AUDIT.md)
