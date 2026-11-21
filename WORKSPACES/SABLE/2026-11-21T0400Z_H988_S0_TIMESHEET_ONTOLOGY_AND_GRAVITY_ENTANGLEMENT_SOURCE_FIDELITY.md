@@ -121,11 +121,12 @@ The file describes 1D physical filaments in \(\mathbb R^{3,1}\) and calls the 4D
 Assistant-origin Blockwave current:
 
 ~~~tex
-J^{\mu\nu}(x) = \int_{\Sigma} \delta^{(4)}(x-X(\sigma)) \,\epsilon^{ab}\,\partial_a X^\mu\,\partial_b X^\nu\,d^2\sigma
-\nabla_\mu J^{\mu\nu}=0
+J^{\mu\nu} = \tfrac12\,\epsilon^{\mu\nu\rho\sigma}\nabla_\rho B_\sigma,
+\qquad \nabla_\mu J^{\mu\nu}=0
 ~~~
 
-This is a conserved two-form current supported on a 2D worldsheet. It is not, by itself, the current H(s)H 4D finite-core worldtube. The Blockwave attachment's “string as timesheet trace” construction is an assistant proposal, not a direct-user map.
+This is a conserved two-form current described in the file as a filament/worldsheet current. It is not, by itself, the current H(s)H 4D finite-core worldtube. The Blockwave attachment's “string as timesheet trace” construction is an assistant proposal, not a direct-user map.
+The archived CLEAN ACTION file does not contain the integral worldsheet-current formula sometimes used in other candidate derivations; that expression is not attributed to this file here.
 
 **Corrected SAT-O1 equations this run:** none.  
 **Corrected Blockwave equations this run:** none.  
