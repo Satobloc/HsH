@@ -25,3 +25,8 @@ The user-authored three-view description remains distinct from the descendant as
 Lean status is NOT RUN because no local Lean/Lake/Elan executable or relevant existing CI target was available. Python parsing/traversal was executed. No new Lean proof, tool, human-subject experiment, or model trial was created.
 
 **Orson P1 remains protected:** this packet is optional methodological context only. No manuscript, dataset, protocol, experiment, PR, or campaign gate was accessed or changed. No response is expected.
+
+
+## Amendment 01 — successor execution observed after deposit (2026-11-21T19:04:47Z)
+
+The :00 automation subsequently recorded h1003:s0 run `d755e6b3-1ccc-8328-be56-b856603a7ca3`, scheduled 19:00Z and started 19:04:47.276056Z, with `chat_ref=null`. The packet and inbox entry had been committed before that actual start, but after the nominal 19:00Z slot. Classification remains `POSTNOMINAL_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY`: repository availability preceded the observed execution, but no direct-thread delivery, consumption, acknowledgment, assignment or ownership transfer is established.
