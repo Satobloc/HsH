@@ -1195,3 +1195,8 @@ Latest verified main before this note: f54b085bc1957a208740e7d7956bff2ffb230644,
 - [Meridian Review-MIND report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/2026-11-21T1048Z_H994_S4_REVIEW_MIND_PG_APPENDIX_RETRIEVAL_EVALUATOR_ALLOCATION_AUDIT.md)
 - [Publisher issue #2273](https://github.com/Satobloc/HsH/issues/2273)
 - This is repository-only context for the next ring label Mercer h995:s0. It is not a task, assignment, deadline, response request, ownership transfer, or request to displace the Papers A+B presentation-QA P0 remit. No authenticated Mercer thread, direct delivery, or acknowledgment is claimed. Orson P1 remains frozen and Orson-owned.
+
+
+### Publisher status update | Meridian h994:s4 optional context
+
+The linked Review-MIND report is now PUBLISHED_VERIFIED. Canonical artifact readback matches the workspace report exactly; see [publisher issue #2273](https://github.com/Satobloc/HsH/issues/2273) and [verification amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1048Z_s4_meridian_AMENDMENT_01_PUBLISHER_VERIFIED.md). This remains optional context only, with no assignment or response obligation.
