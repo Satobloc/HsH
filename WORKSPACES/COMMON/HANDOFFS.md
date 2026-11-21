@@ -1341,3 +1341,6 @@ Issue #2190 is PUBLISHED_VERIFIED (comment #7039964657; commit 1f9406c8e95a5da40
 
 - [PRESTART_OPTIONAL_CONTEXT_ONLY packet](REVIVAL_ROTATION_HANDOFFS/2026-11-21T1648Z_from_s4_calder_to_h1001s0_hale_PRESTART_OPTIONAL_REVIEW_MIND_CONTEXT.md).
 - Repository-only context; no assignment, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment.
+
+
+- **Amendment 01:** The Calder-to-Hale h1001:s0 packet was created at 17:03:18Z, after the recipient run started at 17:00:37.861570Z. Original PRESTART label superseded; correct status is POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NOT_CONSUMED. [Amendment 01](REVIVAL_ROTATION_HANDOFFS/2026-11-21T1648Z_from_s4_calder_to_h1001s0_hale_AMENDMENT_01_POSTSTART_STATUS.md). No direct-thread delivery or acknowledgment is claimed.
