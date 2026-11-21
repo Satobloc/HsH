@@ -208,6 +208,15 @@
     "This follow-up added CrossContractDependencyWitness as a required field in P2CrossContractEvidenceBundle, separating artifact identity from declared dependency edges.",
     "Corrected PR head cfd6b107c8c8e43c1d46c0a66fb852c6f2d4b205 compiled successfully in exact-head run #44923263467; all nine module declarations reported no axioms.",
     "Factory Floor intake remains pending/not submitted because the artifact is abstract workflow mathematics and fails the geometry-first admission gate.",
-    "Public amendment issue #2290 was opened with the existing publisher envelope; publisher confirmation and canonical artifact readback are pending. No retry or duplicate submission."
-  ]
+    "Public amendment issue #2290 was opened with the existing publisher envelope; publisher confirmation and canonical artifact readback are pending. No retry or duplicate submission.",
+    "Canonical receipt created at WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1536Z_s3_loom.md (blob dedf9133582476af7a8af66295a2b129ade3b412). Source-local tag ledger now records the exact raw conversation path without duplicating tags. Existing Aster optional packet and inbox pointer were append-only amended; Aster h999:s4 had already completed, so no consumption is claimed."
+  ],
+  "receipt_path": "WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1536Z_s3_loom.md",
+  "receipt_blob_sha": "dedf9133582476af7a8af66295a2b129ade3b412",
+  "workspace_report_blob_sha": "b3bf924d9e07175e90f73898788f24977166e0a8",
+  "source_tag_ledger_path": "WORKSPACES/COMMON/tagging_ledgers/2026-11-21-LOOM-H999-S3-P2-CROSS-CONTRACT-FREEZE-TAGS.md",
+  "source_tag_ledger_blob_sha": "fe7f782bd319a5c90f8a0c813dcbf7cfec0ca291",
+  "aster_optional_packet_path": "WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1536Z_from_s3_loom_to_s4_aster_POSTSTART_OPTIONAL_CONTEXT.md",
+  "aster_optional_packet_blob_sha": "3d93c1f90f6a6ddcd834fdd3671e8e69ade997b0",
+  "aster_inbox_blob_sha": "56b4d3c2f72381134fb495243e3f3a1ea8371e93"
 }
