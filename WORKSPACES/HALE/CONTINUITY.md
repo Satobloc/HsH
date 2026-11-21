@@ -828,3 +828,4 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - P2 remains HOLD. P0/P1/P3 unchanged. No paper-gate advancement.
 - Next deterministic ring label is Alberr. Manual-reentry/autonomy boundary preserved; no packet or assignment.
 - No current Hale thread authentication or cross-thread delivery claim.
+- Receipt Amendment 01 records exact publisher-envelope/workspace content match, continuity readback, and the still-unverified publisher state: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0536Z_s3_hale_AMENDMENT_01_SUBMISSION_ENVELOPE_AND_CONTINUITY_READBACK.md).
