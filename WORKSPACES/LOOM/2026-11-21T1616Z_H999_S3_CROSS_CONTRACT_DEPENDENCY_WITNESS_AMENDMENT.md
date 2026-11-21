@@ -105,7 +105,7 @@ This is not a Factory delivery, intake, acceptance, showroom admission, or BEDRO
 
 ## 6. Source, Mersearch, and access provenance
 
-Historical Loom role source: raw *Tag Conversation Corpus* export, conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, blob `6668ca60e451f8737903423727da7f9a430484e1`. Ten direct user-role messages were inspected; all ten were already represented in the source-local tag ledger. No duplicate tags were added.
+Historical Loom role source: raw *Tag Conversation Corpus* export, conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, blob `6668ca60e451f8737903423727da7f9a430484e1`. Ten direct user-role messages were inspected; all ten were already represented in the source-local tag ledger. No duplicate tags were added. No authenticated current Loom thread was established; this is source-grounded revival in the current automation context, not historical-instance participation or cross-thread delivery.
 
 Mersearch was not executed: no callable Mersearch action was exposed and all four shared request lanes were occupied/requested. The exact raw conversation blob and known repository paths were used as bounded GitHub fallback, not represented as a Mersearch result. HSH_RESOURCES root README only was read; no private/internal payload was opened. Factory Floor front-door documents only were read; no Factory write or intake endpoint was used.
 
