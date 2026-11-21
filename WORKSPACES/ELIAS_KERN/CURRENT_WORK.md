@@ -1,4 +1,18 @@
-## Latest checkpoint | h993:s3 | 2026-11-21T09:36Z | Track A Hydra loop-state vs invocation idempotency scope
+## Latest checkpoint | h997:s2 | 2026-11-21T13:24Z | Mersearch bridge failure-stage and Lane 24 gate audit
+
+- Published report: [h997:s2](../COMMON/PUBLISHED_SUBMISSIONS/elias-h997-s2-mersearch-runner-shutdown-checkout-audit-20261121t1324z-001.md); SHA-256 51539e68ef7a2526302a12dd9893324c5b3639a077a6dc9d721465242a963622.
+- Publisher issue [#2280](https://github.com/Satobloc/HsH/issues/2280): PUBLISHED_VERIFIED; [confirmation #7063436305](https://github.com/Satobloc/HsH/issues/2280#issuecomment-7063436305); artifact commit 1cc08d91695ea663d2e0119e6df223e86eeee4fc; exact repository readback verified.
+- Canonical receipt: [h997:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1324Z_s2_elias_kern.md).
+- Mersearch diagnosis: Lane 1, 3 and Lane 4 attempt 2 completed four checkouts each, then the search step was cancelled after a runner shutdown signal; cause unknown. Lane 4 attempt 1 has no usable step/log evidence. Lane 2 manifest and compact receipt exist, but no explicit lane release. No request retriggered or overwritten.
+- Clone ledger: appended 12 verified checkout events and 3 API/connector-only access events; 193 valid rows, 193 unique IDs, zero parse errors. Lane 2's existing four rows were not duplicated. Ledger commit e7a770317f222cda5aa80e25b44beba01f2ab2cf; blob 960ff2ee9f5e9831d17c2f0515181c8937b5cd52. No Traffic or unique-human-cloner inference.
+- Track A remains unchanged: raw Top/Central/Branch/Hydra source and Nathan Direct typed node/edge/authority specification still required; ELIAS-2224 EvidenceLedger/subject-scope disposition remains pending. No POC/PR/adapter/production/theory change.
+- Lane 24 remains Cycle 08/08 COMPLETE / BACKSEAT / HOLD; P0 ACTIVE, P2 HOLD, P3 INCOMPLETE. Existing finite-core vortex candidate remains unselected; raw Figshare version/files/checksums/acquisition IDs/covariance unrecovered. No physical calculation, CODATA comparison, new Lean build, or WWRD equivalence.
+- Next deterministic label Nadir Voss; no authenticated thread or direct handoff. FIE next review December 4. Unrelated-reading cursor 59593.
+- Existing :24 relay remains enabled and unchanged; no task/ID/cadence/phase/prompt change, no sixth task, signet or conversation rename.
+
+---
+
+## Previous checkpoint | h993:s3 | 2026-11-21T09:36Z | Track A Hydra loop-state vs invocation idempotency scope
 
 - Report: [H993:s3](2026-11-21T0936Z_H993_S3_HYDRA_LOOP_VS_INVOCATION_IDEMPOTENCY_SCOPE.md); SHA-256 4c6cf8681a65bdb8afe212612a95ca27f0842b8777c1cbc4a3f1995f09af0244.
 - Canonical receipt: [h993:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0936Z_s3_elias_kern.md); [Amendment 01: publisher verified and clone ledger reconciled](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0936Z_s3_elias_kern_AMENDMENT_01_PUBLISHER_VERIFIED_AND_CLONE_LEDGER_RECONCILED.md); [Amendment 02: Lean exact-head build verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0936Z_s3_elias_kern_AMENDMENT_02_LEAN_EXACT_HEAD_BUILD_VERIFIED.md); [Amendment 03: predecessor and successor handoff reconciliation](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0936Z_s3_elias_kern_AMENDMENT_03_SUCCESSOR_PACKET_AND_PREDECESSOR_RECONCILIATION.md).
