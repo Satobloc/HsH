@@ -637,3 +637,22 @@ The standing Nadir workspace lane remains Lane 24. This run also completed the e
 - Nadir's standing Lane 24 BACKSEAT/HOLD state remains unchanged; this is a one-run Lane 00 overlay, not a role reassignment. No standalone Nathan-authored Nadir specialist charter or authenticated current Nadir thread recovered; no cross-thread delivery or handoff acknowledgment.
 - Unrelated reading cursor advanced: SAT archive `MIX TAPES.txt`, lines 501–540; next 541. FIE next review remains November 24.
 - Canonical receipt: [h952:s0](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1600Z_s0_nadir_voss.md).
+
+
+---
+
+## 2026-11-21 h990:s0 — Lane 00 operator-fidelity reconciliation
+
+- The h990 report was already present on main when this run reconciled the slot; no duplicate research report was created and its authorship/run binding is not authenticated.
+- Report: [Three-form current conservation: source and operator fidelity](2026-11-21T0600Z_H990_S0_LANE00_3FORM_CURRENT_CONSERVATION_OPERATOR_FIDELITY.md), Git blob `e20ca45243e71a5ee6980b8324b34ab26ad6c598`, SHA-256 `e7be7960b73a8057232a9b62fca62b169209aa92f634b7c2f703e35c7f90b55d`.
+- Existing publisher intake [issue #2256](https://github.com/Satobloc/HsH/issues/2256) is **PUBLISHED_VERIFIED**. Confirmation comment [#7058763594](https://github.com/Satobloc/HsH/issues/2256#issuecomment-7058763594); artifact commit `73aabd71d2306b98c2cfcc84a549df27630cea01`. Workspace and published artifact have identical Git blob `e20ca45243e71a5ee6980b8324b34ab26ad6c598), 18,871 characters; exact content equality verified.
+- Canonical receipt: [h990:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0600Z_s0_nadir_voss.md). This run completed the missing receipt/publication steps, not the underlying report authorship.
+- Principal correction: if (J_3) is a conserved Poincaré-dual worldline current, (dJ_3=0) corresponds to divergence-free Hodge-dual vector current. (delta J_3=0) / (d(*J_3)=0) is a different co-closure/closed-dual-one-form condition. Historical assistant annotation/WB7/WB8 conflate these. The source-to-current construction and typing remain unresolved.
+- SAT-O1 and Blockwave originals were re-fetched; their SHA-256 values match prior byte-verified custody. Corrected SAT-O1 equations: none. Corrected Blockwave equations: none. The separate (J_3) correction is not an edit to either original.
+- Lean for the (J_3) identity: NOT RUN. PR #1098 exact-head run #43595807207 failed; PR #1189 exact-head run #44106198466 succeeded but proves unrelated framed-sphere/affine-quotient statements. No new module, PR, physical calculation, fit, prediction, independent measurement, CODATA scoring, or theory promotion.
+- Mersearch remains unavailable; all four canonical request files remain requested. Lane 2 has compact receipts, but its request file has not been released; lanes 1/3/4 have no request-scoped manifests/receipts. No lane was overwritten, released, or retriggered.
+- FIE last review 2026-11-10; next due 2026-11-24. Unrelated reading break last completed 2026-11-20, SAT archive lines 2161–2200; next cursor 2201. No repeated break.
+- Nadir remains an assistant-generated workspace label, with no standalone Nathan-authored specialist charter or authenticated current Nadir thread. No direct-thread delivery or successor acknowledgment is claimed.
+- Existing Archive automation remains enabled and unchanged: ID `6aa1fe0de5e48191b886496095b1343f`, original hourly America/New_York :00 schedule and Archive phase. No sixth task, task mutation, signet, or conversation rename.
+- Run binding caveat: live scheduler peek showed run `a7950e10-1c4c-8323-9877-bab5777bf33f` IN_PROGRESS with `chat_ref=null`; an optional Elias packet records a different start-time snapshot for the same ID. Conflict unresolved; no cause or cross-thread participation inferred.
+- Next source cursor: recover raw JSON and exact attachment/source map for the 2025-09-19 “Annotating intuitions with math” conversation, resolve citation [20], and decide from source whether (J_3) denotes a worldline current or a 3-form field strength before any Lean formalization.
