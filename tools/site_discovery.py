@@ -17,6 +17,9 @@ GENERATED=('PUBLIC_SITE/generated/','indexes/','.github/','tools/','LIBRARY/gene
 def now(): return dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')
 def eligible(path):
     return Path(path).suffix.lower() in EXTS and not EXCLUDED.search(path) and not path.startswith(GENERATED) and not any(p.startswith('.') for p in path.split('/'))
+
+def workspace_record(path):
+    return path.startswith('WORKSPACES/')
 def square(width,height): return min(width,height)>=128 and .9<=width/height<=1.1
 
 def request(url,limit=16*1024*1024):
@@ -92,9 +95,14 @@ def run(args):
         for f in data['tree']:
             if f['type']!='blob' or not eligible(f['path']):continue
             ident=name+':'+f['path'];prior=old.get(ident);changed=not prior or prior['sha']!=f['sha'];ext=Path(f['path']).suffix.lower()[1:]
-            item={'id':ident,'repo':name,'path':f['path'],'sha':f['sha'],'size':f.get('size',0),'kind':ext,'title':Path(f['path']).stem.replace('_',' '),'reader':route(name,f['path']),'status':'Working record' if name=='hsh' else 'Historical archive','path_date_hint':hinted_date(f['path']),'first_seen':prior.get('first_seen',stamp) if prior else stamp,'changed_at':stamp if changed and had_previous else (prior or {}).get('changed_at',''),'revision_detected':changed and had_previous}
-            if prior and not changed:
-                for k in ('title','excerpt','excerpt_scope'): 
+            is_workspace=workspace_record(f['path'])
+            item={'id':ident,'repo':name,'path':f['path'],'sha':f['sha'],'size':f.get('size',0),'kind':ext,'title':Path(f['path']).stem.replace('_',' '),'reader':None if is_workspace else route(name,f['path']),'status':'Working record' if name=='hsh' else 'Historical archive','path_date_hint':hinted_date(f['path']),'first_seen':prior.get('first_seen',stamp) if prior else stamp,'changed_at':stamp if changed and had_previous else (prior or {}).get('changed_at',''),'revision_detected':changed and had_previous}
+            if is_workspace:
+                # Keep repository metadata discoverable, but do not expose raw workspace
+                # source through a default reader target, excerpt, or rolling docket.
+                item['presentation_state']='PRESENTATION_PENDING'
+            elif prior and not changed:
+                for k in ('title','excerpt','excerpt_scope'):
                     if k in prior:item[k]=prior[k]
             documents.append(item)
         if name=='hsh':
@@ -105,14 +113,14 @@ def run(args):
                     try:visuals.append(future.result())
                     except Exception as e:errors.append('image '+tasks[future]['path']+': '+str(e))
     documents.sort(key=lambda x:(x.get('changed_at',''),x.get('path_date_hint',''),x['path']),reverse=True)
-    candidates=[x for x in documents if not x.get('excerpt') and x.get('size',0)<=128000 and x['kind'] in ('md','txt') and repos[x['repo']]['status']=='complete'][:args.excerpts]
+    candidates=[x for x in documents if not workspace_record(x['path']) and not x.get('excerpt') and x.get('size',0)<=128000 and x['kind'] in ('md','txt') and repos[x['repo']]['status']=='complete'][:args.excerpts]
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
         tasks={pool.submit(excerpt,x['repo'],repos[x['repo']]['commit'],x):x for x in candidates}
         for future in concurrent.futures.as_completed(tasks):
             try:tasks[future].update(future.result())
             except Exception as e:errors.append('excerpt '+tasks[future]['path']+': '+str(e))
     # Bounded front-page docket; complete inventory remains searchable.
-    docket=[x['id'] for x in documents if x['kind'] in ('pdf','md','txt') and not x['path'].startswith('PUBLIC_SITE/')][:48]
+    docket=[x['id'] for x in documents if x['kind'] in ('pdf','md','txt') and not x['path'].startswith(('PUBLIC_SITE/','WORKSPACES/'))][:48]
     result={'schema_version':1,'updated':stamp,'search_scope':'titles, paths, formats and bounded excerpts; use Mersearch for full-text research','repositories':repos,'documents':documents,'docket':docket,'visuals':sorted(visuals,key=lambda x:x['path']),'errors':errors,'square_rule':{'min_dimension':128,'min_ratio':.9,'max_ratio':1.1}}
     if not documents:raise RuntimeError('No last-good or current document inventory; refusing empty publication')
     atomic(out/'discovery.json',result)
