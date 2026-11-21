@@ -12,7 +12,7 @@
 - Unrelated reading: SAT archive `fun break - lx.txt`, lines 2926-2965; next cursor 2966.
 - Scheduler: h1000:s4 Calder label; run `90932fcd-8584-8327-811d-d9edf17518f4`, `chat_ref=null`, IN_PROGRESS at last observation. Task ID/schedule/phase unchanged; no sixth task.
 - Aldus h996:s4 optional packet was read as context only; no assignment or ownership transfer.
-- Successor label Hale h1001:s0; [PRESTART_OPTIONAL_CONTEXT_ONLY packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1648Z_from_s4_calder_to_h1001s0_hale_PRESTART_OPTIONAL_REVIEW_MIND_CONTEXT.md); no direct-thread delivery, consumption, or acknowledgment.
+- Successor label Hale h1001:s0; [POSTSTART_OPTIONAL_CONTEXT_ONLY packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1648Z_from_s4_calder_to_h1001s0_hale_PRESTART_OPTIONAL_REVIEW_MIND_CONTEXT.md), corrected by [Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1648Z_from_s4_calder_to_h1001s0_hale_AMENDMENT_01_POSTSTART_STATUS.md); no direct-thread delivery, consumption, or acknowledgment.
 
 ## Latest checkpoint | Calder h989:s2 | 2026-11-21 05:24Z | Lane 24 measurement-map and WWRD source audit
 
