@@ -469,3 +469,102 @@ The associated nominal-slot correction is also versioned separately: issue #2243
 **Allowed conclusion:** the h986 source record changed from a literal reference to an opaque token in the current file, while the earlier commit remains retrievable in branch history.
 
 **Not established:** erasure from history, provider-side privacy exposure, current access to the referenced conversation, worker identity, thread continuity, proof correctness, or authorization to rewrite the PR branch.
+
+## Additive Layer 15 — Authority-Scope, Stop/Release, and Bounded-Continuation Binding
+
+**Introduced:** h990:s3, nominal 2026-11-21T06:36Z.  
+**Disposition:** SOURCE-CUSTODY / OPERATIONAL-WORKFLOW ONLY. This layer does not resume theory integration, release a prior stop, or grant new access or publication authority.
+
+### Gap addressed
+
+Layer 11 separates exported speaker role, archive attribution, external identity, and the scope of attributed text. That last item is attribution scope, not permission scope. A correctly attributed user-role message can still authorize only a narrow operation. Layers 8, 9, and 14 respectively bind repository snapshot, message chronology, and branch-history custody; none alone determines whether a later instruction changes an earlier prohibition.
+
+Reuse the existing access/exposure distinctions in Mira's public-safe matrix (#1222): research reading, public indexing, internal-review exposure, redistribution, publication, and theory integration are separate operations. Layer 15 does not create a competing access taxonomy. It binds source-backed instructions to the operation and object they actually authorize.
+
+### Authority-event record
+
+For every instruction relied on to establish a role, permission, stop, exception, or release, record:
+
+1. **Source locator:** exact conversation/source ID; Layer 8 repository/commit/tree/path/blob tuple where available; node and embedded message IDs; parent-edge context.
+2. **Speaker evidence:** literal exported author.role, literal author.name including null, the named archive attribution convention, and external identity status as separate fields.
+3. **Message chronology:** exact message-level timestamp, source field, and unit. Conversation-level timestamps, commit times, and retrieval times remain separate.
+4. **Event kind:** one of the event types below. Do not infer kind from a file title or assistant summary.
+5. **Principal and recipient:** who is being addressed, preserving unknown or ambiguous values.
+6. **Operation scope:** allowed and prohibited verbs, using the existing access/exposure categories rather than a single Boolean authorized or quarantined.
+7. **Object scope:** exact artifact, source family, branch, version, destination, or bounded work item. Missing targets remain UNKNOWN.
+8. **Supersession edge:** explicit stop/release or supersession target IDs. A later timestamp alone is not a supersession edge.
+9. **Effective interval:** start, expiry, and any condition that ends the instruction. Do not infer expiry from silence or elapsed time.
+10. **Context inheritance:** for elliptical replies such as “continue” or “try writing now,” record the immediate parent and the exact inherited target; do not widen beyond it.
+
+### Event types and semantics
+
+| Event type | Effect |
+|---|---|
+| ROLE_ASSIGNMENT | Establishes only the stated baseline remit; not blanket authority over adjacent lanes. |
+| WORKFLOW_INVITATION | Adds only the listed operations that do not conflict with an active stop. |
+| STOP_OR_QUARANTINE | Blocks the named operations/objects immediately; remains active until an explicit release covers it. |
+| BOUNDED_CONTINUATION | Permits continuation of the named branch/object/action only; does not release a broader stop. |
+| BOUNDED_WRITE_RETRY | Inherits the immediate parent context for one retry; unresolved target or destination remains incomplete. |
+| EXPLICIT_RELEASE | Must directly and unambiguously identify the stop/restriction and the scope being released. |
+| REASSIGNMENT | Changes the named task/role scope only when issued by an authorized source; does not silently rewrite unrelated stops. |
+| SCHEDULER_SELECTION | Routing metadata only; no authority or identity effect. |
+| ASSISTANT_SUMMARY | Evidence about what an assistant reported, not an independent grant or release. |
+| UNKNOWN_OR_CONFLICT | Hold the affected operation; preserve both source records and the unresolved relation. |
+
+### Precedence and decision rule
+
+1. Verify the source event and its snapshot before evaluating its authority.
+2. A role assignment supplies its stated baseline scope only.
+3. A stop dominates earlier grants where their operation/object scopes overlap.
+4. A later invitation may authorize non-conflicting archive, maintenance, reading, comparison, or other named work; it does not silently repeal a stop.
+5. A bounded continuation applies only to the exact branch/object/action and context established by its parent chain.
+6. An elliptical write retry inherits only its immediate parent target. If the target, destination, or payload identity cannot be recovered, classify it as scope-incomplete rather than general write permission.
+7. A release must explicitly identify the stop and the portion being released. Partial release leaves the remainder active.
+8. Ring selection, task title, generic lane prompt, task-level conversation reference, null current-run chat_ref, cached result, assistant self-description, artifact existence, silence, and elapsed time do not grant or release authority.
+9. If source order, scope intersection, or supersession is ambiguous, use AUTHORITY_UNRESOLVED and do not perform the disputed operation.
+10. author.role=user remains an archive role field plus the named attribution convention; it is not external account/person authentication.
+
+For operation \(a\), object \(o\), and time \(t\), the policy readout is:
+
+\[
+\operatorname{Permitted}(a,o,t)
+=
+\bigl(G(a,o,t)\land\neg S(a,o,t)\bigr)
+\lor X(a,o,t,s)
+\]
+
+where \(G\) is a source-backed grant, \(S\) is an active stop covering the operation/object, and \(X\) is an explicit exception that names the active stop and the exact action, object, version, and interval. An invitation can add to \(G\); it does not make \(S\) false. An active stop is cleared only by a source-backed EXPLICIT_RELEASE that identifies it.
+
+This is an operational permission rule, not a Lean theorem, a physical model, or evidence that any source event is authentic beyond the stated archive checks.
+
+### Applied source-custody witness
+
+The existing Morrow source record and scoped-continuation audit (#2017, #1571) provide a concrete sequence:
+
+- the provisional Team Archivist assignment establishes a limited archive/source-custody remit;
+- the later direct theory stop and quarantine restrict theory integration and the specified artifact class;
+- the subsequent archive/maintenance trial invitation adds named source and workflow operations but does not expressly rescind the stop;
+- “Ok, good. Continue” is a branch-specific continuation, not a global release;
+- “Try writing now” is an elliptical write-retry prompt parented to a prior assistant report; it does not broaden the theory remit or release the stop;
+- the current h990:s3 deterministic Morrow ring label and generic Lane Charter 36 prompt are scheduler/task context, not a new direct authority event.
+
+Current disposition remains ROLE_SCOPE_ESTABLISHED / STOP_ACTIVE / INVITATION_ADDITIVE / BOUNDED_CONTINUATION_ONLY / NO_GENERAL_RELEASE / SCHEDULER_LABEL_ONLY. The permitted work here is source custody and operational provenance; no theory integration is performed.
+
+### Orthogonal status vocabulary
+
+Use separate fields, not one composite green status:
+
+- ROLE_SCOPE_ESTABLISHED
+- STOP_ACTIVE
+- INVITATION_ADDITIVE
+- BOUNDED_CONTINUATION_ACTIVE
+- BOUNDED_WRITE_RETRY_CONTEXTUAL
+- BOUNDED_WRITE_SCOPE_INCOMPLETE
+- EXPLICIT_RELEASE_VERIFIED
+- AUTHORITY_UNRESOLVED
+- SCHEDULER_LABEL_ONLY
+- EXTERNAL_IDENTITY_NOT_AUTHENTICATED
+
+### Limits
+
+This layer does not change the source convention, release any quarantined theory artifact, establish a live Morrow thread, or authorize access to private HSH_RESOURCES material. It does not alter task ownership, scheduler configuration, paper gates, BEDROCK, SAT-O, or Blockwave equations. No physical calculation, fit, prediction, independent measurement, Lean theory proof, paper work, or theory promotion is part of this layer.
