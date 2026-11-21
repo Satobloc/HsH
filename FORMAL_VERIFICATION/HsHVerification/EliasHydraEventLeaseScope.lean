@@ -20,6 +20,10 @@ they are proposed envelope fields requiring a runtime adapter.
 
 The point is to avoid using one fingerprint for two different jobs:
 (1) state-level loop detection, and (2) exact invocation/replay idempotency.
+The source's top-level run() constructs a fresh Switchboard per scenario;
+the observed second-call suppression below was reproduced only by calling
+hydra() twice on one persistent in-memory instance. It is not evidence of
+cross-run production suppression. The current POC has no production executor.
 This module proves only the encoded key relationships. It does not prove
 Python/Lean equivalence, correct runtime policy, successful delivery, or
 any physical proposition.
