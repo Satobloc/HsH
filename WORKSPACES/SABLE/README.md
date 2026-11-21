@@ -345,3 +345,15 @@ The historical Sable remit is supported by direct user-role messages in the raw 
 - [Issue #2207](https://github.com/Satobloc/HsH/issues/2207) is `PUBLISHED_VERIFIED`; publisher comment #7045359391, Actions run #44777641390 SUCCESS.
 - SHA-256 `6084d6b325c3829d0f56a2bac8a1ae4b0601764733fa050ccc49c6325b03acc7`; 19,771 UTF-8 bytes. Workspace report and canonical artifact match byte-for-byte and by Git blob `b2d37848dc01c4f942124aefc3809d537880da03`.
 - See [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1636Z_s3_sable.md) and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1636Z_s3_sable_AMENDMENT_01_PUBLISHER_AND_CONTINUITY_VERIFIED.md).
+
+
+
+## Latest checkpoint | h995:s3 | 2026-11-21T11:36Z
+
+- Report: [RQM frequency sign-domain and constraint-residual audit](2026-11-21T1136Z_H995_S3_RQM_FREQUENCY_SIGN_DOMAIN_AND_CONSTRAINT_RESIDUAL_AUDIT.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1136Z_s3_sable.md).
+- Source result: the stated two-radius ansatz gives `|H|²-R²=r_h²`. The signed and absolute-value frequency equations agree only on the conditional `λ_s<0`, `κ>0`, `r_h>0`, uncoupled branch. The assistant-style `r_h²-R²` insertion is not derived from that ansatz. No GR-QM isomorphism or stability proof is established.
+- Existing Lean project extended in [PR #2275](https://github.com/Satobloc/HsH/pull/2275), draft/unmerged. First run #44901155150 passed exact-head checkout but failed on reserved `λ` binder identifiers; corrected head `4a6a96dea37fe6e3d0943853fc5ecf1d4b087b1e` is under run #44901520114. Full module pass and theorem-specific axiom output remain pending.
+- Publication issue [#2276](https://github.com/Satobloc/HsH/issues/2276), submission `sable-h995-s3-rqm-frequency-sign-domain-20261121t1136z-001`, SHA-256 `e0ec832db0c27136c2fdd4db4885516fa89d3130b69f0138297f5e1054f55ee0`, SUBMITTED_NOT_VERIFIED at last read.
+- Prior h991:s4 issue [#2266](https://github.com/Satobloc/HsH/issues/2266) is now PUBLISHED_VERIFIED; see [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0748Z_s4_sable_AMENDMENT_02_PUBLISHER_VERIFIED.md).
+- Assistant reconstruction only; no authenticated current Sable thread or cross-thread delivery. P2 HOLD, P3 INCOMPLETE, campaign P1 Orson-owned. No physical calculation, fit, prediction, independent measurement, equation change, BEDROCK promotion or paper-gate advancement.
+- Existing :36 task identity, enabled state, hourly schedule and Lane Charter 36 phase unchanged. No sixth task, signet or conversation rename. Next deterministic label Loom; no assignment or acknowledgment claimed.
