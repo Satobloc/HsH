@@ -1676,3 +1676,154 @@ theorem h876_s2_task_metadata_stale_at_readback :
       h868S4LaterReadback.status, h869S0Readback.status]
 
 end HsHVerification.TernH743SchedulerSnapshotEvidence
+
+/-! ## h986:s3 task/result reference-scope observation
+
+The automation definition exposed a task-level conversation_id. The cached
+latest_result.chat_ref carried the same identifier, while the current
+last_run.chat_ref was null. The cached result belonged to the prior hourly
+occurrence (00:36Z); the current run belonged to 01:36Z.
+
+The classifier below preserves these as different evidence scopes. A
+TASK_RESULT_ALIAS is an observed equality between two fields on different
+records. It is not a claim that the cached result reference identifies the
+current run, authenticates a worker, or proves thread continuity.
+-/
+
+inductive ThreadReferenceScope where
+  | currentRunReferencePresent
+  | taskResultAliasOnPriorSlot
+  | cachedResultReferenceOnly
+  | noReference
+  deriving DecidableEq, Repr
+
+/-- Separate task-container, current-run, and cached-result references. -/
+structure ThreadReferenceObservation where
+  phase : Nat
+  taskId : String
+  enabled : Bool
+  scheduleMinute : Nat
+  taskConversationId : Option String
+  currentRunId : String
+  currentRunScheduledUs : Nat
+  currentRunStartedUs : Nat
+  currentRunChatRef : Option String
+  latestResultRunId : Option String
+  latestResultScheduledUs : Option Nat
+  latestResultCreatedUs : Option Nat
+  latestResultCompletedUs : Option Nat
+  latestResultChatRef : Option String
+  taskLastRunUs : Nat
+  taskUpdatedUs : Nat
+  nextRunUs : Nat
+  deriving DecidableEq, Repr
+
+/--
+A current-run reference takes precedence. Otherwise, matching task/result
+references on a different scheduled occurrence are labelled as an alias,
+not as a current-run binding.
+-/
+def classifyThreadReference (o : ThreadReferenceObservation) : ThreadReferenceScope :=
+  match o.currentRunChatRef with
+  | some _ => .currentRunReferencePresent
+  | none =>
+    match o.taskConversationId, o.latestResultChatRef, o.latestResultScheduledUs with
+    | some taskRef, some resultRef, some resultScheduled =>
+        if taskRef == resultRef && resultScheduled != o.currentRunScheduledUs then
+          .taskResultAliasOnPriorSlot
+        else
+          .cachedResultReferenceOnly
+    | _, some _, _ => .cachedResultReferenceOnly
+    | _, _, _ => .noReference
+
+/-- h986:s3 :36 task and current/cached result observations, read 2026-11-21T02:00Z. -/
+def h986S3ThreadRefs : ThreadReferenceObservation :=
+  { phase := 3
+    taskId := "6a9f52b69ec08191b0a2ba24a074f781"
+    enabled := true
+    scheduleMinute := 36
+    taskConversationId := some "6b003594-6630-83e9-a264-63c1c0af5d11"
+    currentRunId := "fb41deb1-e1d0-8323-8292-ab8b15845cf5"
+    currentRunScheduledUs := us 1 36 0 0
+    currentRunStartedUs := us 2 0 19 747108
+    currentRunChatRef := none
+    latestResultRunId := some "5612c545-3410-832c-a719-0e800b3b2a04"
+    latestResultScheduledUs := some (us 0 36 0 0)
+    latestResultCreatedUs := some (us 0 55 14 890745)
+    latestResultCompletedUs := some (us 0 55 16 532749)
+    latestResultChatRef := some "6b003594-6630-83e9-a264-63c1c0af5d11"
+    taskLastRunUs := us 0 55 19 746425
+    taskUpdatedUs := us 0 55 42 895596
+    nextRunUs := us 1 36 0 0 }
+
+theorem h986_s3_sequence : 5 * 986 + 3 = 4933 := by decide
+
+theorem h986_s3_index : (5 * 986 + 3) % 19 = 12 := by decide
+
+theorem h986_s3_worker :
+    ringAt ((5 * 986 + 3) % 19) = some "Tern Rook" := by rfl
+
+theorem h986_s3_successor :
+    ringAt (((5 * 986 + 3) + 1) % 19) = some "Morrow" := by rfl
+
+theorem h986_s3_task_configuration :
+    h986S3ThreadRefs.phase = 3 ∧
+    h986S3ThreadRefs.taskId = "6a9f52b69ec08191b0a2ba24a074f781" ∧
+    h986S3ThreadRefs.enabled = true ∧
+    h986S3ThreadRefs.scheduleMinute = 36 := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h986_s3_task_and_result_reference_alias :
+    h986S3ThreadRefs.taskConversationId =
+      h986S3ThreadRefs.latestResultChatRef := by
+  rfl
+
+theorem h986_s3_current_run_reference_absent :
+    h986S3ThreadRefs.currentRunChatRef = none := by
+  rfl
+
+theorem h986_s3_result_is_prior_scheduled_occurrence :
+    h986S3ThreadRefs.latestResultScheduledUs = some (us 0 36 0 0) ∧
+    h986S3ThreadRefs.currentRunScheduledUs = us 1 36 0 0 ∧
+    h986S3ThreadRefs.currentRunScheduledUs -
+      h986S3ThreadRefs.latestResultScheduledUs.getD 0 = 3600000000 := by
+  decide
+
+theorem h986_s3_reference_scope :
+    classifyThreadReference h986S3ThreadRefs =
+      .taskResultAliasOnPriorSlot := by
+  rfl
+
+theorem h986_s3_current_run_start_offset_us :
+    h986S3ThreadRefs.currentRunStartedUs -
+      h986S3ThreadRefs.currentRunScheduledUs = 1459747108 := by
+  decide
+
+theorem h986_s3_task_metadata_precedes_current_start :
+    h986S3ThreadRefs.taskLastRunUs <
+      h986S3ThreadRefs.currentRunStartedUs ∧
+    h986S3ThreadRefs.taskUpdatedUs <
+      h986S3ThreadRefs.currentRunStartedUs ∧
+    h986S3ThreadRefs.nextRunUs =
+      h986S3ThreadRefs.currentRunScheduledUs := by
+  decide
+
+theorem h986_s3_run_and_result_ids_recorded :
+    h986S3ThreadRefs.currentRunId =
+      "fb41deb1-e1d0-8323-8292-ab8b15845cf5" ∧
+    h986S3ThreadRefs.latestResultRunId =
+      some "5612c545-3410-832c-a719-0e800b3b2a04" := by
+  exact ⟨rfl, rfl⟩
+
+#print axioms h986_s3_sequence
+#print axioms h986_s3_index
+#print axioms h986_s3_worker
+#print axioms h986_s3_successor
+#print axioms h986_s3_task_configuration
+#print axioms h986_s3_task_and_result_reference_alias
+#print axioms h986_s3_current_run_reference_absent
+#print axioms h986_s3_result_is_prior_scheduled_occurrence
+#print axioms h986_s3_reference_scope
+#print axioms h986_s3_current_run_start_offset_us
+#print axioms h986_s3_task_metadata_precedes_current_start
+#print axioms h986_s3_run_and_result_ids_recorded
