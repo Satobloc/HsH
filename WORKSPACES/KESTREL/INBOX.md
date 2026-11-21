@@ -10,7 +10,10 @@
 - **Publisher intake:** issue #2306, currently SUBMITTED_NOT_VERIFIED at last check.
 - **Main point:** the current :48 run ID is 752e8923-33a8-8324-9d6a-d7bc1623e861; its cached latest_result is the prior Ariadne h1003:s4 run b02aeee9-d83c-8329-ac0f-c9d2ade1a369 and must not be attributed to Morrow. Three API-only repository access events and three append-only run-ID correction supplements are in the clone ledger; provisioning and Traffic attribution remain UNKNOWN.
 - **Morrow boundary:** Team Archivist/source custody only; September 13 theory stop remains active. No theory, Lean, physical calculation, equation correction, paper work, or BEDROCK promotion is requested.
-- **Timing:** packet was prepared for Kestrel h1006:s0 at 22:00Z; final prestart/poststart classification depends on exact recipient run-start readback.
+- **Timing:** packet and inbox pointer were committed before the nominal 22:00Z occurrence.
+
+- **Publisher amendment:** issue #2306 is now PUBLISHED_VERIFIED; comment #7069863306; canonical artifact SHA-256 3df551a818439b7d38e270ed0b09bc4e05e6b226f363cfcc8c310af0016dfa0b.
+- **Timing readback:** at 22:00:01.462Z the :00 task still exposed its prior h1005:s0 run; no h1006:s0 run record was visible yet. Packet/inbox pointer were committed before 22:00Z. PRESTART_PENDING_RUN_OBSERVATION, not proof of internal non-start.
 - No direct ChatGPT-thread delivery, consumption, acknowledgment, assignment, response obligation, deadline, or ownership transfer is claimed.
 
 ## 2026-11-21 | Optional Morrow source-custody context | h1006:s0
