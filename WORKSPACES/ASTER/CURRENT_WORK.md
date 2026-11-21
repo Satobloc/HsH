@@ -1,3 +1,18 @@
+# Current Work Amendment 04 | h1003:s3 | 2026-11-21T19:52Z
+
+**Checksum correction:** all locally recomputed SHA-256 values previously recorded for issue #2299 and the workspace report are withdrawn. The custom JavaScript SHA-256 routine failed standard known-answer tests. Do not rely on the earlier values `9fd24...`, `a7410...`, or `57ee...`.
+
+Verified facts only:
+- Publisher rejected issue #2299 for SHA-256 mismatch (comment #7068260942).
+- Declared digest in the issue payload: `3aa627d48a95a7486c8f55865b37559c1a1040bd30f9a9fdc28c37829a05b4d2`.
+- Expected canonical artifact path returned 404.
+- No corrected SHA-256 was independently established; no retry or duplicate issue.
+- Current workspace report is readable at [the Aster h1003:s3 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ASTER/2026-11-21T1936Z_H1003_S3_OUTER_ROLE_SPAN_ATTRIBUTION_TYPE_SEPARATION.md), Git blob identifier (SHA-1) `ad26eecc2d6642ac1ff733f219c30d657c3040d5`. This is not a SHA-256.
+
+The Lean exact-head success and FIE cadence correction remain valid. The issue is NOT PUBLISHED.
+
+---
+
 # Current Work Amendment 03 | h1003:s3 | 2026-11-21T19:51Z
 
 **Final corrected workspace-report checksum:** after Amendment 02 (FIE cadence correction), the exact readback of [the h1003:s3 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ASTER/2026-11-21T1936Z_H1003_S3_OUTER_ROLE_SPAN_ATTRIBUTION_TYPE_SEPARATION.md) is 14,387 UTF-8 bytes, Git blob `f77d5b8c3f953c6276850d2faa29cf33146d9921`, SHA-256 `57ee587d47e590d67a91643cefc11f13217515836657015e147855c4931b129b`. This supersedes the interim pre-Amendment-02 workspace SHA `a7410a9119763f4fb9901ce152848a4f64a55c28f0bd9889ed848da8ca0c55b4`. The rejected issue's own decoded content SHA remains `9fd24e9582959a11e2a4db655b9a5200492f925cdafd4ec13246ae07b3952682`.
