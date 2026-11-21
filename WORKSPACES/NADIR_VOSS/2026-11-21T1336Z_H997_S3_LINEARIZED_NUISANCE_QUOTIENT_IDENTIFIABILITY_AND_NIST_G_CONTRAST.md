@@ -18,7 +18,7 @@ A separate Nadir-specific historical specialist charter was not found. The sourc
 - The October 1 20:56:07Z role assignment names five other labs: Morrow/Kestrel, Orson, Meridian, Ravel and Mercer. It does not appoint Nadir.
 - The October 1 21:07:30Z and 21:20:56Z messages give broad independent-playground and math-compilation permissions. They are not a Nadir-specific specialist charter.
 
-The Nadir Voss playground pointer is an assistant-maintained source map, not a historical user appointment. The prior h959 report likewise describes assistant reconstruction and a SILOED/PLAYGROUND boundary. The ring label therefore does not authenticate a worker identity, grant access to private material, or create a response obligation.
+The [Nadir Voss playground pointer](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/NADIR_VOSS_PLAYGROUND_POINTER_2026-10-01.md) is an assistant-maintained source map, not a historical user appointment. The [prior h959 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/NADIR_VOSS/2026-11-19T2336Z_H959_S3_AIR_CORE_BOUNDARY_RANKINE_CLOSURE_AND_CAVITY_CONVECTION_COMPARATOR.md) likewise describes assistant reconstruction and a SILOED/PLAYGROUND boundary. The [raw export](https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/26.06.23%E2%80%A226.10.01%E2%80%A2Quantum%20Gravity%20and%20Experiments%20%E2%80%94%20raw.json) was checked directly. The ring label therefore does not authenticate a worker identity, grant access to private material, or create a response obligation.
 
 No Nadir private inbox, restricted resource payload, or unverified current thread was used. No cross-thread delivery is claimed.
 
@@ -41,7 +41,7 @@ The following live HsH documents were read from main:
 
 The SAT archive root README and HSH_RESOURCES root README plus indexes/AI_START_HERE.md were read. No private HSH_RESOURCES payload was opened.
 
-Mersearch was not callable in this runtime. The four existing request lanes were not changed or retriggered. The immediately preceding h997:s2 Elias report records runner shutdowns and the continuing request-lane boundary. This run used bounded direct source reads and GitHub API/connector access as fallback, not a Mersearch execution. No claim of exhaustive archive search is made.
+Mersearch was not callable in this runtime. The four existing request lanes were not changed or retriggered. The immediately preceding [h997:s2 Elias report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ELIAS_KERN/2026-11-21T1324Z_H997_S2_MERSEARCH_RUNNER_SHUTDOWN_CHECKOUT_AUDIT.md) records runner shutdowns and the continuing request-lane boundary. This run used bounded direct source reads and GitHub API/connector access as fallback, not a Mersearch execution. No claim of exhaustive archive search is made.
 
 The current HsH main head at preflight was d82bc1d69508b1d960c9c16740902a93a825bbb8. The separate formalization branch described below was not main and was not rebased.
 
@@ -57,21 +57,7 @@ I extended existing draft PR #1487, rather than creating a duplicate PR or a new
 - The combined readout as A(theta) + alpha v.
 - The candidate coefficient as structurally identifiable when equal readouts force equal alpha, even if theta changes.
 
-The principal theorem is:
-
-~~~lean
-coefficientIdentifiableAfterNuisance A v <->
-  v notin LinearMap.range A
-~~~
-
-The explicit quotient readout is:
-
-~~~lean
-nuisanceQuotientReadout A :
-  Y -> LinearMap.range A quotient
-~~~
-
-More precisely, its codomain is the quotient of Y by LinearMap.range A. Its value on v is nonzero exactly when v is outside the standard-plus-nuisance response range.
+The principal theorem states that coefficientIdentifiableAfterNuisance(A,v) holds if and only if v is not in range(A). The explicit quotient readout is q_A : Y -> Y / range(A); q_A(v) is nonzero exactly when it survives the standard-plus-nuisance quotient.
 
 The proof has two directions:
 
@@ -92,13 +78,13 @@ The quotient map is an explicit projection, not an analogy:
 - Statistical detectability is assessed afterward, using the actual covariance and a frozen threshold.
 - Independent holdout validation remains a separate empirical requirement.
 
-This generalizes the existing FactorialContrastIdentifiability work in parent PR #1387. That work handles a specific four-cell contrast and a shared first-harmonic orientation nuisance. The new theorem gives the same-span absorption criterion for an arbitrary linear response map and exposes its quotient-space interpretation.
+This generalizes the existing [FactorialContrastIdentifiability work in parent PR #1387](https://github.com/Satobloc/HsH/pull/1387). That work handles a specific four-cell contrast and a shared first-harmonic orientation nuisance. The new theorem gives the same-span absorption criterion for an arbitrary linear response map and exposes its quotient-space interpretation.
 
 ## 4. Actual measured-system anchor: NIST BIPM torsion balance
 
 The empirical anchor is a standard reference, not an H(s)H source:
 
-Stephan Schlamminger et al., "Redetermination of the gravitational constant with the BIPM torsion balance at NIST", Metrologia 63 (2026) 025012, published 2026-04-16, DOI 10.1088/1681-7575/ae570f.
+Stephan Schlamminger et al., "Redetermination of the gravitational constant with the BIPM torsion balance at NIST", Metrologia 63 (2026) 025012, published 2026-04-16, [DOI 10.1088/1681-7575/ae570f](https://doi.org/10.1088/1681-7575/ae570f).
 
 Official NIST PDF:
 https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=961075
