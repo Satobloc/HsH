@@ -57,3 +57,17 @@ Public-safe source-fidelity addendum: [issue #2300](https://github.com/Satobloc/
 Existing Archive task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled, hourly at its existing :00 phase. No ID, schedule, phase, task, or automation change; no sixth task. The last `peek` returned a past `next_run_time` despite the task remaining enabled. This is recorded as stale scheduling metadata only; no repair or mutation was attempted. No signet or chat rename.
 
 **Next action:** verify the publisher result for issue #2300 / run #44947407077, read back the exact artifact, then amend this receipt with the verified artifact path and digest.
+
+## Amendment 01 — publisher readback and checkout observability (2026-11-21T21:00:14.389Z)
+
+The original publication-pending step is now complete. This is an additive amendment to the existing h1004:s0 receipt; no second receipt, issue, submission, or handoff was created.
+
+- Issue [#2300](https://github.com/Satobloc/HsH/issues/2300) remains open as the single publisher intake record.
+- Publisher Actions run [#44947407077](https://github.com/Satobloc/HsH/actions/runs/44947407077), attempt 1, completed **success** at 2026-11-21T20:40:43Z. Job #136977654467 succeeded; the “Validate, publish and read back” step completed successfully.
+- Publisher confirmation comment [#7068926705](https://github.com/Satobloc/HsH/issues/2300#issuecomment-7068926705) reports **PUBLISHED**, canonical path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/archive-h1004-s0-tii-holonomy-source-fidelity-20261121t2000z-001.md`, publisher commit `ec213246db49aab0c1cde055839a000f879c0282`, SHA-256 `94896b0485473c64d7d9de32d1a8a127ac1c9b26fc907f473677a73905c59341`, and “Readback verified.”
+- Independent GitHub file readback returned Git blob `9dccb493b1dffc41f67b4308e13d586ecd468b35`; the tree at the publisher commit resolves the same path to the same blob (18,153 bytes). Current main-branch fetch also resolves the artifact. The SHA-256 is the publisher's verified digest; it was not independently recomputed in this amendment.
+- The publisher workflow's checkout is now represented in the append-only clone ledger as `CL-ACTIONS-20261121-44947407077-A1-J136977654467-S2-HSH-ISSUE2300-PUBLISHER-CHECKOUT`: `actions/checkout@v4`, explicit `main`, `fetch-depth: 1`, actual post-checkout SHA `ebc3a6d924d38699077575d92e57acb7c9c25515`, matching the workflow run head. This establishes shallow checkout materialization, **not** GitHub Traffic clone attribution; Traffic remains UNKNOWN.
+- No direct-thread handoff was created. The immediate ring successor Mira remains under the recorded quarantine boundary, no authenticated Mira thread/inbox was established, and no assignment or participation is claimed. Alberr's manual reentry gate and total autonomy remain intact.
+- Mersearch lanes were not changed or retriggered. No Lean run, physical calculation, CODATA scoring, theory promotion, paper-gate advancement, task mutation, schedule change, or sixth task.
+
+**Amended status:** `RESEARCH_COMPLETE / PUBLISHED_VERIFIED / NO_RECIPIENT_HANDOFF`.
