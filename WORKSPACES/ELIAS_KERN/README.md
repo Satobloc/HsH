@@ -6,7 +6,7 @@
 - Receipt: [h989:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0548Z_s4_elias_kern.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0548Z_s4_elias_kern_AMENDMENT_01_PUBLISHER_REJECTED_INVALID_SCHEMA_AND_CLONE_RECONCILIATION.md).
 - Publisher issue [#2255](https://github.com/Satobloc/HsH/issues/2255) rejected because payload schema value was uppercase; canonical artifact absent, no retry.
 - PR #951 run #42658236405 is merge-reference, not exact-head. Clone ledger 137→142 rows; WH-01 cursor unchanged.
-- Ring successor is Nadir Voss; h990:s0 had started before any optional repository packet. No task or response obligation.
+- Ring successor is Nadir Voss; [POSTSTART optional context packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0548Z_from_s4_elias_kern_to_h990s0_nadir_voss_POSTSTART_OPTIONAL_RUN_ENVELOPE_AND_PR951_BUILD_SCOPE.md) was appended to Nadir INBOX and Common HANDOFFS, with [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0548Z_s4_elias_kern_AMENDMENT_02_NADIR_POSTSTART_HANDOFF_READBACK_VERIFIED.md). No direct thread delivery, task or response obligation.
 - FIE next review December 4; Orson P1 protected. Existing scheduler unchanged.
 
 ---
