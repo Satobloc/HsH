@@ -1,7 +1,7 @@
 ## Latest Review-MIND checkpoint | h1003:s4 | 2026-11-21T19:48Z
 
 - [Source-snapshot and source-span QC report](2026-11-21T1948Z_H1003_S4_ARCHIVE_SNAPSHOT_AND_SOURCE_SPAN_PROVENANCE_QC.md).
-- [Publisher intake #2301](https://github.com/Satobloc/HsH/issues/2301): SUBMITTED_NOT_VERIFIED at initial receipt; [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1948Z_s4_ariadne.md).
+- [Publisher intake #2301](https://github.com/Satobloc/HsH/issues/2301): PUBLISHED_VERIFIED; see [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1948Z_s4_ariadne_AMENDMENT_01_PUBLISHER_VERIFIED.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1948Z_s4_ariadne.md).
 - This run rechecked that the two HsH Ariadne paths are the same shorter 1,322-node / 8-user-message blob; the later 1,364-node / 10-user-message Library snapshot was already documented in the Nov 6 continuity amendment. No new raw export recovery is claimed.
 - Current Jan 22 Kirk/Riley primary source remains unrecovered. Five date-manifest candidates added after the Nov 2 Mersearch source commit were checked with no match. No Mersearch request was rerun; all four lanes remain occupied/requested.
 - Independent PR #2298 exact-head Lean CI readback: run #44942226416; 8,948 jobs; eight theorem-specific axiom reports clean; global axiom audit/tests/lint skipped. PR remains draft/unmerged.
