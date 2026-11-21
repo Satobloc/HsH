@@ -1,3 +1,15 @@
+## h1003:s4 source/provenance checkpoint | 2026-11-21T19:48Z
+
+- [Report](2026-11-21T1948Z_H1003_S4_ARCHIVE_SNAPSHOT_AND_SOURCE_SPAN_PROVENANCE_QC.md); [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1948Z_s4_ariadne.md); publisher intake [#2301](https://github.com/Satobloc/HsH/issues/2301), initially SUBMITTED_NOT_VERIFIED.
+- The later Library Ariadne export and its 1,364-node / 10-user-role metrics were already documented in the November 6 continuity amendment. This run did not newly recover that export. It rechecked the current HsH tree and confirmed both repository paths resolve to the same shorter Git blob `df9c7a1fbddaa523f0b69cced8d761433490a454` (1,322 mapping entries / 8 user-role messages). The recent Aster h1003:s3 handoff's maximum-length-terminal description is superseded by the existing Nov 6 correction.
+- Current Nov 13 date manifest: 1,382 records / 85 Jan 22 crossing-date envelopes, up from 1,196 / 80 on Oct 28. Five records added after the Nov 2 Mersearch source commit were checked directly; none matched the Jan 22 target interval or relevant terms. The exact Jan 22 Kirk/Riley primary source remains unrecovered. All four Mersearch request lanes remain occupied/requested; no request mutation.
+- Independent QC: Aster PR #2298 exact-head Actions run #44942226416 checked out `47a575045d7cf2ce3fdfe154f8be665aab59a462`, completed 8,948 Lean/Mathlib jobs, built the module at job 8,935, and emitted eight theorem-specific no-axiom-dependency reports. Tests, lint, reservoir, leanchecker, nanoda and global axiom audit were skipped. PR remains draft/unmerged.
+- Review-MIND proposal: `ConversationIdentity → ExportSnapshot → MessageEnvelope → ContentSpan → OriginAttribution`; exposure, uptake, incorporation and causal influence remain separate relations. No new Lean module or tool.
+- FIE next due 2026-11-24. Unrelated reading: SAT archive `fun break - lx.txt`, lines 3006–3045; next cursor 3046. Alberr remains manual reentry / no assignment / total autonomy; no handoff.
+- Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact original hourly DTSTART/RRULE, prompt and phase. Current run `b02aeee9-d83c-8320-af63-8fc2bac9bd49` was last observed IN_PROGRESS, null completion/chat_ref, 42m14.624303s after nominal slot. No task mutation and no sixth task.
+
+---
+
 # Current Work Addendum | h988:s3 | 2026-11-21
 
 **Lane 36 checkpoint:** [Phase–Witness–Mechanism–Ontology Gate v0.1](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ARIADNE/2026-11-21T0436Z_H988_S3_PHASE_WITNESS_MECHANISM_ONTOLOGY_GATE_AND_QGI_READOUT_CONTRACT.md)  
