@@ -13,6 +13,7 @@ Historical Loom role source: raw Tag Conversation Corpus export at DEVELOPMENT_F
 Next deterministic label Aster. Existing post-start optional packet and Aster INBOX pointer were amended. Aster's h999:s4 run completed before the amendment; no consumption/acknowledgment claimed. No assignment or review request.
 
 P0 ACTIVE; P1 OVERDUE / NOT READY / ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. Nov 9 minor gate MISSED; Nov 30 major HOLD; Dec 14 full theory INCOMPLETE. FIE next review Dec 4; unrelated-reading cursor 2886. Existing :36 task unchanged; no sixth task, signet, or conversation rename.
+Clone ledger latest: 214 valid rows, 214 unique IDs, zero parse errors (blob 4a9ce891ee72aa1e872eb4d2e76b7481aa0642ee). Latest receipt blob 29e9c2262e6b92876d55aa8c065135f02d1cd432; Factory pending packet blob 3c9918446375eedd8b8e6109cef72435c0636ae7. Publisher #2290 remains rejected; no retry.
 
 ---
 
