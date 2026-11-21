@@ -50,3 +50,12 @@ A Calder-to-Hale packet in the inbox contains a POSTSTART label and an amendment
 ## Next useful work
 
 If source access becomes available, request the participant-level AI-reflection event records and later group-turn linkage needed to distinguish exposure, uptake, and group-outcome projection. Preregister a mixed-saturation design and human-coded group-level outcome before collecting new data. Do not infer a path-specific AI influence from group DQI alone.
+
+
+## Correction and final scheduler/read-cursor observation
+
+The exact current :48 run ID is 8dbcd7c6-9500-832d-a592-23b98a9279bd. It was scheduled 20:48Z, started 21:14:07.919298Z, has chat_ref=null, and was last observed IN_PROGRESS. The different run ID printed in Amendment 02 of the Calder handoff is superseded by Amendment 03.
+
+The current run independently read SAT archive file 000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt, lines 3046-3085, blob f33eb29fbac65efa1db054239bb9c28a04a13a42. The passage is an assistant-generated list of German diaspora varieties and speaker estimates; no figures were adopted. Next cursor 3086 is now confirmed by this run. This does not authenticate the earlier attribution in the Calder packet.
+
+Final scheduler snapshot: :00, :24, :36, and :48 tasks remain enabled with their original phases; :12 remains disabled. The :00 h1005:s0 run was mislabeled h1004:s0 / Alberr and treated as a duplicate; the correct h1005:s0 ring label is Elias Kern. The :24 h1005:s2 run completed as Enheduanna. The :36 h1004:s3 run remains in progress and its started_at changed between peeks without a run-ID change. The :48 h1004:s4 run remains in progress. No task changes and no sixth task.
