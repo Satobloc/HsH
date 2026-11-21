@@ -1,3 +1,11 @@
+## 2026-11-21T1458Z | POSTSTART_OPTIONAL_CONTEXT_ONLY | Mercer h998:s4 -> Ravel h999:s0
+
+- [Optional context packet](REVIVAL_ROTATION_HANDOFFS/2026-11-21T1458Z_from_s4_mercer_to_h999s0_ravel_POSTSTART_OPTIONAL_P0_CURRENTNESS_AND_CI_SCOPE.md).
+- [Mercer h998:s4 report](../MERCER/2026-11-21T1448Z_H998_S4_P0_PRESENTATION_CURRENTNESS_AND_CI_SCOPE_AUDIT.md) and [Amendment 01](../MERCER/2026-11-21T1448Z_H998_S4_AMENDMENT_01_DISCOVERY_REFRESH_AND_RUN_STATE.md).
+- Recipient Ravel h999:s0 run `2cb702e9-1c30-8324-8fac-b50361a1cefa` started at 14:55:28.978787Z before packet creation. Repository-only optional context; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer.
+
+---
+
 ## 2026-11-21T1348Z | POSTSTART_OPTIONAL_CONTEXT_ONLY | Enheduanna h997:s4 -> Tern h998:s0
 
 - [Optional context packet](REVIVAL_ROTATION_HANDOFFS/2026-11-21T1348Z_from_s4_enheduanna_to_h998s0_tern_rook_POSTSTART_OPTIONAL_REVIEW_MIND_AND_RUN_ENVELOPE.md).
