@@ -43,3 +43,32 @@ This packet preserves Hale's external-literature landscape, source-quality, matc
 FIE last full review: November 20; next review: December 4. The unrelated-reading cursor advanced to line 3006 in the SAT archive break file. No rereview or duplicate break is requested.
 
 No action is required. Consumption and acknowledgment are unknown.
+
+
+---
+
+## Amendment 01 | 2026-11-21T21:06Z | Exact-head verification and source corrections
+
+This is an append-only update to the existing packet, not a replacement. The packet was initially returned as 404 during one read, but a later readback found the original file at the same path (blob `2a8847b1c8c32984304c1c0ef4d52e5767162b86`). No reconstructed or replacement packet was created.
+
+### Updated PR / Lean status
+
+- Current PR #2167 head: `5d6b90dcb1c07e385058f359ea8bbc2dc6961500`.
+- [Exact-head run #44950701184](https://github.com/Satobloc/HsH/actions/runs/44950701184), job `136987764096`: SUCCESS.
+- Lean 4.34.0 / Lake 5.0.0; fetch depth 1; actual checkout SHA matches the PR head.
+- Full formal-library build: 8,959 jobs successful.
+- Ten theorem-specific axiom reports for `CalderVersionedProductCoverage` report no axioms; no `sorryAx` appears for those declarations.
+- Tests, lint, leanchecker, nanoda, and global axiom audit were skipped. The new module emitted no warning; existing warnings remain elsewhere.
+- The first attempt (#44950097553) failed on the proof-script form `cases h.1`; the proof was corrected by binding the proposition to a local hypothesis first.
+
+The revised contract indexes AnalysisReadiness and PredictionGateBinding by the same ProductSetKey. Reindexing requires explicit equality. PR #1487's current Candidate still lacks ProductSetKey, so cross-PR integration remains incomplete. This is a formalized type/scope contract, not source authentication or a physical prediction.
+
+### Corrections to earlier packet statements
+
+- The earlier packet's FIE date is superseded. The controlling full rereview completed through 2026-11-10 00:17Z; the next 14-day review is due **2026-11-24**, not December 4. No FIE review was due November 21.
+- The earlier unrelated-reading cursor 3006 is superseded by the h1004:s4 Hale read through lines 3046-3085. Current shared next cursor is **3086**. The h1004:s3 read of lines 2966-3005 was already logged and is not counted again.
+- The h1004:s3 publisher intake #2302 remains rejected for invalid schema and was not retried. The distinct product-key addendum is in publisher intake #2304.
+- Mersearch remains unavailable as a callable action and all four request lanes remain occupied/requested. No lane was overwritten, released, or retriggered.
+- No raw strain bytes, calibration/PSD/DQ/covariance, H(s)H geometry-to-readout map, frozen prediction, independent holdout, or falsification threshold were established. P2 remains HOLD.
+
+**Delivery boundary unchanged:** this packet is post-start repository-only optional context. Hale's run had already started. No direct ChatGPT delivery, consumption, acknowledgment, assignment, review request, response obligation, or ownership transfer is claimed.
