@@ -387,3 +387,7 @@ Open map obligations:
 - retrieve and hash the Barckicke Figshare files and Tang source workbook before any numerical analysis; inspect actual variables, units, calibration, covariance and uncertainty first.
 
 The fluid experiments are candidate analogues for measurement architecture only. No physical equivalence, P2 selection, numerical comparison, fit, prediction, independent measurement, or BEDROCK promotion is established. All h979 map labels are local bookkeeping, not registered H(s)H symbols.
+
+## H987:s0 — 45° stretched-helix / theta4 separation
+
+Primary direct source: June 23 SAT Overview message cd7c40e3-cdad-4551-be1d-7c14a8b1a1ad (2026-06-23T14:00:23.460Z). It describes a near-45° stretched helix, tightening residual twists, periodic knots, and a vacuum-energy interpretation. It does not define the metric, coordinate chart, equal-axis scaling, observer/frame, angle referent, or a map to current normal-relative theta4. Retain as a historical geometric hypothesis. The July 11 source's worldline-with-thickness language and explicit superhelical-vs-braid distinction are separate controls. Next: recover the direct source behind current BR-005 and determine whether it explicitly adopts, revises, or merely uses a different angle convention. Do not assume 45° = theta4 or a null direction. See [H987 crosswalk](2026-11-21T0300Z_H987_S0_4DHH_WORLDLINE_WORLDTUBE_ANGLE_CROSSWALK.md).
