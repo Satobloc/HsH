@@ -1,7 +1,8 @@
 # Latest checkpoint | h1000:s4 | 2026-11-21T16:48Z
 
 - Distinct Review-MIND addendum: [Parisi prompt-content, allocation-inference, and proposal-lineage audit](2026-11-21T1648Z_H1000_S4_PARISI_PROMPT_CONTENT_AND_PROPOSAL_LINEAGE_AUDIT.md).
-- Publisher issue [#2292](https://github.com/Satobloc/HsH/issues/2292): SUBMITTED_NOT_VERIFIED at checkpoint; no canonical artifact/readback observed yet. No retry or duplicate submission.
+- Publisher issue [#2292](https://github.com/Satobloc/HsH/issues/2292): PUBLISHED_VERIFIED; publisher comment #7066172563; canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-h1000-s4-parisi-prompt-lineage-20261121t1648z-001.md`; content SHA-256 `085c5dc9e055be0e6c056c46deefac6904fb57c034d3312ee2f9ae6c976703c4`; exact readback. No retry or duplicate submission.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1648Z_s4_calder.md`.
 - New source finding: Study 2 facilitator prompts include 40/30/30 and 40/30 versus 30/40 exemplars despite instructions not to introduce allocation values. This is a plausible model-side anchor, not evidence of participant exposure or causal effect.
 - Separate mechanisms: content introduction, selection amplification, and frame/agenda shaping. The published Study 2 excerpt shows facilitator framing followed by a participant-authored 45/25/30 proposal; no causal influence is inferred from sequence alone.
 - Statistical audit: 225 three-person groups, three randomized rounds/conditions, group-mean allocation, pre/post measures, fixed-total compositional shares. Welch-test unit and exact sequence counts are not fully explicit; no pseudoreplication claim. Baseline-adjusted and group-randomization analyses are recommended.
