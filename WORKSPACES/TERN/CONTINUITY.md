@@ -1825,3 +1825,10 @@ Mersearch Lane 2 request perceptual-nexus-early-archive-20261120-01 has a succes
 The PWH queue and TASK_BRANCH_GRAPH were updated without changing owners, priorities, due dates, branch relationships or task statuses. WH-01 global cursor remains 2026-11-15T18:00:00Z; the known run reconciliation is not a full census. WH-05 remains blocked; P0 reader-policy mismatch remains active; WH-02 remains Calder-owned. FIE next review remains November 24; the unrelated-reading cursor remains h958 lines 2001–2040, next 2041.
 
 Report: WORKSPACES/TERN/2026-11-21T0200Z_H986_S3_RUN_ARTIFACT_EVIDENCE_CROSSWALK.md. Publisher intake #2243 is pending verification. No physical calculation, fit, H(s)H prediction, independent measurement, equation change, BEDROCK promotion, task/ID/schedule/cadence/phase change, sixth task, direct-thread delivery or ownership transfer.
+
+
+## h986:s3 verification amendment | 2026-11-21T0220Z
+
+The h986 run/artifact crosswalk workspace file was independently read back; its SHA-256 is 9e7ef82815a2a4d588b97b6a42eebef3f7cd44bddbddc8265f62ab2f3fce44aa. Issue #2243 publisher Actions run #44855241220 is IN_PROGRESS; no canonical artifact or publisher confirmation is claimed. The canonical h986 receipt was created at WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0200Z_s3_tern_rook.md.
+
+PR #1570 first exact-head run #44854466333 failed because the h986 section was outside the existing namespace, leaving us and ringAt out of scope. The section was wrapped in the existing Tern namespace. Current PR head 9e506331ea80e20e3925a35929839be9bad5d5c8; exact-head run #44855320597 is IN_PROGRESS. No current-head Lean pass. Earlier raw-reference commit remains in PR history; current file is pseudonymized. Keep PR OPEN / DRAFT / UNMERGED pending authorized maintainer decision about history cleanup.
