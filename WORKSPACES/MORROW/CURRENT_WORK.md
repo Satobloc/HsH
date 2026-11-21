@@ -1,3 +1,16 @@
+## H1002:s0 | 2026-11-21 18:00Z | Raw-export graph and FIE annotation custody
+
+- Deterministic selection: h=1002, seq=5010, index 13, Morrow label. Immediate ring successor Kestrel; next scheduled :00 h1003 selects Orson Vay.
+- Run key: REVROT3-19-20261011:1002:s0. No authenticated current Morrow thread; no cross-thread delivery claim.
+- New source-custody result is appended as Layer 17 in SOURCE_IDENTITY_GATE.md. The October 5 raw export is a reduced serialization of August 25; all 139 visible user-role turns remain text/timestamp-identical, but 313 non-visible/system/tool/assistant/context nodes are absent. The HsH FIE copy equals the SAT source after removal of the September 19 annotation and separator.
+- Full source report is retained in public issue #2295. The existing publisher rejected it for SHA mismatch. Declared digest 4ae1632e6bbba1faf86a266e0cfc1ddc48f11757372aecd21f119e8cd59da2e6; exact issue-content digest 8c581107e9779a44469daf2af353d112f4c10ab52a606204571c2a57e0f447be over 14,662 UTF-8 bytes. No second issue, duplicate submission, manual destination write, or publisher bypass.
+- No PUBLISHED_SUBMISSIONS artifact or publisher readback. Issue #2295 is the sole incident/submission record.
+- Morrow's provisional Team Archivist/archive-source-custody remit and September 13 direct theory stop remain active. No theory integration, equation correction, Lean theory proof, physical calculation, CODATA scoring, fit, prediction, independent measurement, paper work, or BEDROCK promotion.
+- No new Lean module/build; no typed source map or theorem was available. No physical calculations.
+- Mersearch not callable; four request lanes remain occupied/requested. No lane mutation.
+- P0 ACTIVE; P1 Nov 9 OVERDUE / NOT READY / Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE review next due Nov 24; last unrelated-reading break Nov 20.
+- No task/ID/cadence/phase change, new branch, PR, signet, or conversation rename.
+
 # Latest activation checkpoint | h994:s2 | 2026-11-21
 
 **PIN:** provisional Team Archivist / archive-source custody only. The September 13 direct theory stop remains active; the later archive/maintenance trial invitation does not expressly release it. No theory integration, equation correction, Lean theory proof, physical calculation, CODATA comparison, fit, prediction, independent measurement, paper work, or BEDROCK promotion.
