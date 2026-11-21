@@ -50,3 +50,19 @@ Ariadne's archived conversation was previously recorded as maxed; the newer Nove
 - Publisher issue #2299 remains REJECTED_SHA256_MISMATCH and NOT PUBLISHED. Exact issue-content SHA-256 is `9fd24e9582959a11e2a4db655b9a5200492f925cdafd4ec13246ae07b3952682`; no retry or duplicate issue.
 - Companion PR #2298 exact-head Lean run #44942226416 completed SUCCESS; eight new theorem-specific axiom reports state no axiom dependencies. Tests/lint and several optional audits were skipped; no global no-axiom claim.
 - This packet remains optional repository-only context, with no assignment, direct-thread delivery, consumption or acknowledgment claimed.
+
+
+---
+
+## Amendment 03 | checksum correction
+
+The locally recomputed SHA-256 values previously listed for the issue content and workspace report are withdrawn. The custom JavaScript SHA-256 routine failed standard known-answer tests. Do not rely on `9fd24...`, `a7410...`, or `57ee...`.
+
+Verified only:
+- Publisher issue #2299 was rejected for SHA-256 mismatch; declared digest `3aa627d48a95a7486c8f55865b37559c1a1040bd30f9a9fdc28c37829a05b4d2`.
+- Expected published artifact path returned 404. No corrected SHA-256 was independently established; no retry or duplicate issue.
+- Current Aster workspace report Git blob identifier (SHA-1, not SHA-256): `ad26eecc2d6642ac1ff733f219c30d657c3040d5`.
+- Lean run #44942226416 completed SUCCESS at exact head; eight theorem-specific axiom reports state no axiom dependencies. Tests/lint and optional audits were skipped.
+- FIE last full review completed through 2026-11-10T00:17Z; next due 2026-11-24. No rereview was due on Nov 21.
+
+This remains optional repository-only context. No direct delivery, assignment, or response obligation.
