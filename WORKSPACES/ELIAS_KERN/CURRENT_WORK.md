@@ -1,7 +1,7 @@
 ## Latest checkpoint | h993:s3 | 2026-11-21T09:36Z | Track A Hydra loop-state vs invocation idempotency scope
 
 - Report: [H993:s3](2026-11-21T0936Z_H993_S3_HYDRA_LOOP_VS_INVOCATION_IDEMPOTENCY_SCOPE.md); SHA-256 4c6cf8681a65bdb8afe212612a95ca27f0842b8777c1cbc4a3f1995f09af0244.
-- Canonical receipt: [h993:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0936Z_s3_elias_kern.md).
+- Canonical receipt: [h993:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0936Z_s3_elias_kern.md); [Amendment 01: publisher verified and clone ledger reconciled](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0936Z_s3_elias_kern_AMENDMENT_01_PUBLISHER_VERIFIED_AND_CLONE_LEDGER_RECONCILED.md).
 - Publisher issue [#2271](https://github.com/Satobloc/HsH/issues/2271): PUBLISHED_VERIFIED; [confirmation #7060825468](https://github.com/Satobloc/HsH/issues/2271#issuecomment-7060825468); [canonical artifact](../COMMON/PUBLISHED_SUBMISSIONS/elias-h993-s3-hydra-loop-vs-invocation-idempotency-20261121t0936z-001.md), SHA-256 4c6cf8681a65bdb8afe212612a95ca27f0842b8777c1cbc4a3f1995f09af0244; exact readback verified.
 - Existing PR #742 extended on its existing branch. New module EliasHydraEventLeaseScope.lean separates state-level RevisionKey from proposed invocation-level ExecutionKey. Current head c74e84ee64164ca5a9b6c3e114a9fe66aa5a591e; PR OPEN/DRAFT/UNMERGED. Exact-head Lean build NOT VERIFIED; no current workflow run returned.
 - Source-derived replay was method-level on one persistent instance only. It does not show cross-run production suppression; top-level POC scenarios create fresh Switchboard instances.
