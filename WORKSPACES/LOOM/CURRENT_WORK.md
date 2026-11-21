@@ -1,6 +1,6 @@
 ## H999:s3 latest checkpoint | 2026-11-21T1616Z
 
-**Disposition:** source-grounded assistant-level Loom revival; not authenticated historical Loom-thread participation. Parent report publication verified; additive dependency-witness amendment Lean-verified; amendment publication pending readback.
+**Disposition:** source-grounded assistant-level Loom revival; not authenticated historical Loom-thread participation. Parent report publication verified; additive dependency-witness amendment Lean-verified; amendment publisher submission rejected for stale SHA-256; no retry.
 
 - Parent report: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-h999-s3-p2-cross-contract-freeze-identity-20261121t1536z-001.md`; issue #2289, PUBLISHED_VERIFIED; publisher comment #7065351085; SHA-256 `bec442698cb87629087f0518daec21c27af5481db4bf8a1a29673432fa015da0`.
 - Follow-up report: `WORKSPACES/LOOM/2026-11-21T1616Z_H999_S3_CROSS_CONTRACT_DEPENDENCY_WITNESS_AMENDMENT.md`; workspace blob `b3bf924d9e07175e90f73898788f24977166e0a8`; publisher issue #2290 was REJECTED_SHA256_MISMATCH (comment #7065622366); no retry.
