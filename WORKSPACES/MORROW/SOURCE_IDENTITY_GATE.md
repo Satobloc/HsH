@@ -607,3 +607,62 @@ A workflow definition, configured trigger, run record, job execution, artifact u
 - Public additive correction: [issue #2201, comment #7061322242](https://github.com/Satobloc/HsH/issues/2201#issuecomment-7061322242), SHA-256 `a7bbbcfd1e0509cba270372f27f162b14e7c573716d439775e7c8041eda85704`, 3,534 UTF-8 bytes; readback verified.
 
 **Current evidence state:** `WORKFLOW_DEFINITION_VERIFIED / TRIGGER_CONFIGURED / ACTIONS_ARTIFACT_OUTPUT_ONLY / RUN_ARTIFACT_UNVERIFIED / COMMITTED_OUTPUT_NOT_ESTABLISHED / OLD_CANDIDATE_OWNER_UNKNOWN`. The Common `MORROW-SOURCE-001` row remains unchanged pending its authorized maintainer. No workflow was dispatched and no candidate was dispositioned in h994:s2.
+
+## Layer 17 — Raw-export graph completeness and FIE annotation-copy fidelity
+Date: 2026-11-21. Relay key: REVROT3-19-20261011:1002:s0. Status: SOURCE CUSTODY ONLY.
+
+This layer refines Layer 13. It does not add an independent witness, theory claim, or authorship claim.
+
+### July 18 raw-export genealogy
+
+Two raw-byte Library exports of the same Mathematical Tool Exploration conversation were compared. The August 22 Library copy remains unmaterializable as raw bytes; its reported size is 6,345,292 bytes and no digest is claimed.
+
+| Snapshot | Library date | Bytes | SHA-256 | Git-style blob SHA-1 |
+|---|---|---:|---|---|
+| raw.json | 2026-08-25 | 6,345,292 | a1e067cd17b741a4395e804eec9c6706e27091d46f6f295bc4e76b525ece098a | 8d9f36aa6672ebc34e75025dee6668d537dba302 |
+| raw(1).json | 2026-10-05 | 4,897,261 | c291f5101944fe0b11f51beb7b3d50d391b9f4f6123f298b83396e42d5b8a007 | d786cfe775e5c06283f906287013df5a7e654295 |
+
+Both materialized exports share conversation identity, title, creation time 2026-07-05T21:12:05.179Z, and update time 2026-07-18T05:33:54.172Z. They are snapshots of one conversation, not independent witnesses.
+
+| Measure | 2026-08-25 | 2026-10-05 |
+|---|---:|---:|
+| Mapping nodes | 1,139 | 826 |
+| Message-bearing nodes | 1,138 | 825 |
+| Visible user-role messages | 139 | 139 |
+| Current-node ancestry | 1,120 | 810 |
+
+The 826 mapping IDs in the October 5 export are all present in the August 25 export. The August 25 export has 313 additional nodes and the October 5 export has none absent from August 25. Of the 313 additional nodes, 310 are on the August 25 current-node ancestry: 187 system, 75 tool, 42 assistant, and 6 hidden user-editable-context nodes. Three are off-chain system nodes. The six user-role nodes are hidden context, not visible conversational turns.
+
+All 139 visible user-role messages are present in both exports with identical IDs, text content, and timestamps. Eight visible-user parent pointers differ; 120 visible-user child lists differ; metadata differs on all 139 visible-user message objects. The 24 shared content-payload differences are confined to 14 tool and 10 assistant messages; none is a visible user message.
+
+The two July 18 direct source messages retain identical user role, text, timestamps, and immediate parent links. Their downstream child edges differ. In the August 25 snapshot the second message passes through a hidden system wrapper before the same assistant response; in the October 5 snapshot it points directly to that response.
+
+Conclusion: October 5 is a reduced serialization, not a complete replacement for August 25. It preserves all visible user turns, including the two July 18 source statements, but omits substantial system/tool/assistant ancestry and hidden context. Use August 25 when fuller conversation-history context is required. Do not count either snapshot as independent corroboration.
+
+### Fundamental Intuitions source-copy delta
+
+SAT archive original: DEV CONVERSATION/FUNDAMENTAL INTUITIONS.txt, Git blob 0318d803fc4bb948d781d1aa0d9257dc2bcead77, 9,655 characters / 9,657 UTF-8 bytes.
+
+HsH copy: DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/FUNDAMENTAL INTUITIONS.txt, Git blob 81ae23a106939cba7e3d134ed5c90a7d7a979a25, 9,258 characters / 9,258 UTF-8 bytes.
+
+Exact text comparison: the HsH body equals the SAT original after removing the initial 394-character / 396-byte annotation and its 3-character / 3-byte separator. No other body difference was found. The omitted annotation is dated 2026-09-19, labeled as a Nathan annotation, and says the original Fundamental Intuitions remain core bedrock, extended but not superseded. It is a file annotation, not a recovered raw chat message.
+
+The separate LIBRARY/presented/fundamental-intuitions.md is an editorial derivative whose header says not every mechanism remains current. That is not a substitute for the omitted annotation. The statements can coexist if conceptual foundation and specific revisable mechanisms remain separate.
+
+The SAT archive and HsH WORLDTUBE THOUGTS.txt mirrors are byte-identical at Git blob 735f2a95e492944a244d1ceba31f33b6b5606119. This is a transcript mirror, not an independent witness.
+
+### Geometry/source boundary
+
+The earlier FIE source describes 1D filaments/worldlines in M4, a 3D time surface/wavefront, and particle readout at their intersection. The July 18 direct source describes a finite-core worldtube, a straight-tube BEC-sea vacuum, and particle-identifying features/behavior arising from morphology, with topology included in morphology. The same direct message connects the finite-core/Kerr-ring description to Pauli exclusion.
+
+Assistant expansions such as an excised/non-admissible core, a framed/decorated embedding class, mass/charge/spin readouts, and a specific straight-vacuum normalization remain assistant reconstructions. The exchange phase of minus one remains an unproved obligation.
+
+Unresolved source maps: filament to finite-core worldtube; worldtube to timesheet section/readout; morphology to a typed invariant/equivalence class; and the phrase straight angle to a defined vacuum-energy term. Do not silently map straight angle to theta-four or a plane/normal convention. BEC-sea vacuum is a historical direct designation; current POG status remains a working hypothesis, not established ontology.
+
+### Formalization and authority boundary
+
+No source-defined typed map, configuration space, boundary, or exchange action is supplied from which to state a source-faithful geometric theorem. Morrow's September 13 direct theory stop remains active. No Lean theory proof, theory integration, equation correction, physical calculation, CODATA scoring, fit, prediction, independent measurement, or BEDROCK promotion was performed.
+
+### Publication incident
+
+Public submission issue #2295 was rejected by the existing publisher because the declared SHA-256 did not match the exact decoded issue content. Declared digest: 4ae1632e6bbba1faf86a266e0cfc1ddc48f11757372aecd21f119e8cd59da2e6. Independently recomputed issue-content digest: 8c581107e9779a44469daf2af353d112f4c10ab52a606204571c2a57e0f447be over 14,662 UTF-8 bytes. The publisher's rejection is correct. Issue #2295 is retained as the single incident/submission record; no duplicate issue, manual destination write, or publisher bypass is authorized.
