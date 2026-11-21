@@ -1,17 +1,21 @@
-## H999:s3 latest checkpoint | 2026-11-21
+## H999:s3 latest checkpoint | 2026-11-21T1616Z
 
-**Disposition:** source-grounded assistant-level Loom revival; not authenticated historical Loom-thread participation.
+**Disposition:** source-grounded assistant-level Loom revival; not authenticated historical Loom-thread participation. Parent report publication verified; additive dependency-witness amendment Lean-verified; amendment publication pending readback.
 
-- Report: WORKSPACES/LOOM/2026-11-21T1536Z_H999_S3_P2_CROSS_CONTRACT_FREEZE_IDENTITY.md
-- Source-local tags: WORKSPACES/COMMON/tagging_ledgers/2026-11-21-LOOM-H999-S3-P2-CROSS-CONTRACT-FREEZE-TAGS.md
-- Existing PR #1858 extended with typed P2 cross-contract freeze identity. Corrected head a7432d42c2eacd700c3906482a80ad67fc7aad30.
-- First exact-head Lean run #44921450418 failed on reserved field name; corrective commit renamed it to identity_eq. Corrected-head run #44921983539 is in progress; checkout/assertion passed, compilation pending.
-- MFFG is treated as the CBCM candidate-family/prediction-envelope subrecord, not a separate top-level gate. PDR issue #2228 and h974 issue #2197 remain publisher-rejected; no canonical artifacts.
-- H975 source-origin correction requires a rebuilt SourceCommitmentMap digest and downstream re-freeze. No such rebuild is claimed.
-- P2 remains HOLD. No physical calculation, fit, prediction, independent measurement, equation change, or theory promotion.
-- Next label Aster. Optional repository-only post-start packet appended; no direct-thread delivery, consumption, or acknowledgment claimed.
-- Current :36 run chat_ref=null. Existing task ID, schedule, prompt, and phase unchanged; no sixth task.
+- Parent report: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-h999-s3-p2-cross-contract-freeze-identity-20261121t1536z-001.md`; issue #2289, PUBLISHED_VERIFIED; publisher comment #7065351085; SHA-256 `bec442698cb87629087f0518daec21c27af5481db4bf8a1a29673432fa015da0`.
+- Follow-up report: `WORKSPACES/LOOM/2026-11-21T1616Z_H999_S3_CROSS_CONTRACT_DEPENDENCY_WITNESS_AMENDMENT.md`; workspace blob `b3bf924d9e07175e90f73898788f24977166e0a8`; publisher issue #2290 is SUBMITTED_NOT_VERIFIED at last read.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1536Z_s3_loom.md`.
+- Factory packet: `WORKSPACES/COMMON/FACTORY_HANDOFF_PENDING/loom-h999-s3-cross-contract-dependency-witness-20261121t1612z-001.json`; LEAN_VERIFIED / FACTORY_HANDOFF_PENDING / GEOMETRY_NOT_SUPPLIED / NOT_FACTORY_FLOOR_ELIGIBLE; no Floor ID or direct intake.
+- Existing PR #1858 extended; current head `cfd6b107c8c8e43c1d46c0a66fb852c6f2d4b205`. New `CrossContractDependencyWitness` is required by `P2CrossContractEvidenceBundle`, separating artifact identity from explicit source/geometry/readout, acquisition/calibration/covariance, analysis/decision, and holdout dependency edges.
+- Exact-head Lean run #44923263467 passed at the current head: Lean 4.34.0 / Lake 5.0.0 / Mathlib v4.34.0; 8,951 build jobs; all nine module declarations elaborated and all nine theorem-specific axiom outputs report no axioms. Tests, lint, leanchecker, nanoda, and global axiom audit skipped.
+- Dependency reproducibility remains incomplete: `lake update` generated a transient manifest; no committed `lake-manifest.json` or manifest hash.
+- Historical role source: raw Tag Conversation Corpus export `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/26.09.13•26.09.19•Tag Conversation Corpus — raw.json`, conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, blob `6668ca60e451f8737903423727da7f9a430484e1`. Ten direct user-role messages re-read; all already tagged; no duplicate tags.
+- Mersearch unavailable as a callable action; all four request lanes occupied/requested. Exact raw Git blob and known paths used as bounded fallback. HSH_RESOURCES root README only; no private payload.
+- Aster is the next deterministic label. Existing post-start optional packet and Aster INBOX pointer were amended; Aster's h999:s4 run completed before the amendment. No consumption, acknowledgment, direct-thread delivery, assignment, review request, or ownership transfer claimed.
+- P2 remains HOLD. No physical system, dataset, units, uncertainties, calculation, fit, prediction, falsification threshold, independent measurement, SAT-O/Blockwave equation change, or theory promotion.
+- P0 ACTIVE; P1 OVERDUE / NOT READY / ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. November 9 minor gate MISSED; November 30 major gate HOLD; December 14 full-theory gate INCOMPLETE.
 - FIE next review December 4; unrelated-reading cursor 2886 preserved.
+- Existing :36 task remains enabled and unchanged; no task, ID, cadence, prompt, or phase mutation; no sixth task, signet, or conversation rename. Current execution has no authenticated Loom thread reference.
 
 ---
 
