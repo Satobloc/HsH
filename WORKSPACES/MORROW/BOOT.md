@@ -1,3 +1,15 @@
+## Latest Archive Relay checkpoint: h1005:s4
+
+- Morrow ring label, assistant-level source-custody work only. Historical Team Archivist assignment and September 13 direct theory stop verified from raw export blob ee394b446b2e36d35fd1e5ecd004685c0422457b; later archive/maintenance invitation does not expressly release the stop.
+- Current :48 run: 752e8923-33a8-8324-9d6a-d7bc1623e861, scheduled 21:48Z, started 21:50:32.418767Z, last observed in_progress, chat_ref=null. Cached latest_result b02aeee9-d83c-8329-ac0f-c9d2ade1a369 is prior Ariadne h1003:s4, not this run.
+- Three-repository API-only clone-ledger records plus three append-only ID-correction supplements; final ledger 242 rows, blob 5af567c95854442ae5e65f1566437d479c42e85c. Hosted provisioning and Traffic attribution remain UNKNOWN.
+- Workspace report: 2026-11-21T2148Z_H1005_S4_AUTOMATION_RUN_RESULT_ATTRIBUTION_AND_CLONE_CUSTODY.md. Publisher issue #2306 is SUBMITTED_NOT_VERIFIED at last check; no artifact readback yet.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2148Z_s4_morrow.md.
+- Optional Kestrel h1006:s0 packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T2148Z_from_s4_morrow_to_h1006s0_kestrel_OPTIONAL_RUN_RESULT_AND_CLONE_CUSTODY.md; repository inbox pointers read back. No direct-thread delivery/consumption claim.
+- No theory integration, equation correction, Lean proof, physical calculation, CODATA, fit, prediction, independent measurement, paper work, or BEDROCK promotion. No task/ID/prompt/schedule/phase/cadence change; no sixth task. No signet or conversation rename.
+
+
+---
 ## Latest Archive Relay checkpoint: h1002:s0
 
 - Morrow label, source-custody only. See CURRENT_WORK.md and SOURCE_IDENTITY_GATE.md Layer 17.
