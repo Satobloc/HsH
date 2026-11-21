@@ -103,21 +103,27 @@ The original SAT-O1 and Blockwave files were re-fetched by exact path. Their Git
 | SAT-O1 4D | `7577aa1ee5a6c3850ce3b226c75377de6367aedc` | `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937` | Unbylined. The archive path's file listing reports creation metadata 2025-06-07 08:38:16 and last-write 2025-06-09 18:44:50. A separate root FileIndex row reports creation metadata 2025-10-26 19:12:34 and the same last-write value. Timezones are unspecified; neither is a composition date. |
 | Blockwave clean-action attachment | `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d` | `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664` | User-supplied attachment event 2025-09-16 16:31:26.687Z. Embedded prose is assistant-voiced; author and composition date remain unresolved. |
 
-SAT-O1's verbatim core expressions include:
+SAT-O1's verbatim core expressions are preserved below in their source notation:
 
-`gamma^mu(lambda) = (lambda, A_x sin(k_x lambda + phi_x), A_y sin(k_y lambda + phi_y), A_z sin(k_z lambda + phi_z))`
+```tex
+\\gamma^\\mu(\\lambda) = \\left( \\lambda, A_x \\sin(k_x \\lambda + \\phi_x), A_y \\sin(k_y \\lambda + \\phi_y), A_z \\sin(k_z \\lambda + \\phi_z) \\right)
 
-`v^mu(lambda) = d gamma^mu / d lambda`
+v^\\mu(\\lambda) = \\frac{d \\gamma^\\mu}{d \\lambda}
 
-`S[gamma] = integral d lambda L(gamma^mu, v^mu)`
+S[\\gamma] = \\int d\\lambda \\, L(\\gamma^\\mu, v^\\mu)
 
-`L = (1/2) m v^mu v_mu - V_tension(gamma)`
+L = \\frac{1}{2} m v^\\mu v_\\mu - V_{\\text{tension}}(\\gamma)
+```
 
-The Blockwave attachment begins with a conserved rank-two current:
+The Blockwave attachment's source notation defines a conserved rank-two current and includes the holonomy-trace coupling:
 
-`J^{mu nu}, with nabla_mu J^{mu nu} = 0`
+```tex
+J^{\\mu\\nu}, \\qquad \\nabla_\\mu J^{\\mu\\nu}=0
 
-and an assistant-voiced action built from `g, u, theta, P` and `J`. It is not authenticated Nathan Direct mathematics.
+\\frac{g_h}{2} F_{\\mu\\nu}(\\theta) J^{\\mu\\nu}
+```
+
+Its larger assistant-voiced action is built from `g_{\\mu\\nu}`, `u^\\mu`, `\\theta`, `P^\\mu{}_{\\nu}` and `J^{\\mu\\nu}`. It is not authenticated Nathan Direct mathematics.
 
 **Corrected SAT-O1 equations: none. Corrected Blockwave equations: none.** No equation was modified or promoted.
 
