@@ -2,7 +2,7 @@
 
 Read CURRENT_WORK.md first. The h999 parent report is PUBLISHED_VERIFIED at issue #2289; canonical artifact SHA-256 bec442698cb87629087f0518daec21c27af5481db4bf8a1a29673432fa015da0. The parent artifact's pending label is superseded by publisher comment #7065351085.
 
-Follow-up report: WORKSPACES/LOOM/2026-11-21T1616Z_H999_S3_CROSS_CONTRACT_DEPENDENCY_WITNESS_AMENDMENT.md. Publisher issue #2290 is SUBMITTED_NOT_VERIFIED at last read; do not retry or duplicate. Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1536Z_s3_loom.md.
+Follow-up report: WORKSPACES/LOOM/2026-11-21T1616Z_H999_S3_CROSS_CONTRACT_DEPENDENCY_WITNESS_AMENDMENT.md. Publisher issue #2290 was REJECTED_SHA256_MISMATCH (comment #7065622366). Submitted SHA belongs to an earlier draft; final workspace SHA-256 cd22860228845c3a6d4a018c94ec6da78e720456f7130ce5d2ea2d0447a25a5a. No canonical artifact; do not retry, duplicate, or bypass. Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1536Z_s3_loom.md.
 
 Existing PR #1858 head cfd6b107c8c8e43c1d46c0a66fb852c6f2d4b205 adds a required CrossContractDependencyWitness to P2CrossContractEvidenceBundle, separating artifact identity from declared dependency edges. Exact-head Lean run #44923263467 passed (8,951 jobs; all nine theorem-specific axiom outputs in LoomCrossContractFreezeKey report no axioms). Tests/lint/leanchecker/nanoda/global axiom audit skipped. The runtime-generated Lake manifest is not committed; transitive dependency graph remains incompletely locked. Keep PR open/draft/unmerged.
 
