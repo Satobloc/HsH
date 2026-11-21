@@ -280,3 +280,16 @@ Read BEDROCK, Nathan Direct methodology, Steering Charter, Three Paper Campaign,
 - :48 current run `242604ae-1df0-8332-8f4b-99a6f82bb9ff`: scheduled 17:48Z, latest start 18:15:53.256517Z, IN_PROGRESS, completion null, `chat_ref=null`. The same run ID was previously observed with start 17:48:07.337923Z; start-time movement is recorded, cause unknown. Cached latest_result remains h1000:s4 Calder, not current.
 - The task graph records the h1001:s4 Tern label's redundant 18:00–18:59:59Z aggregate query and five job-endpoint reads as NOT census evidence; 18:00Z cursor remains STALE/BLOCKED. No retry/query was made.
 - Tern h1001:s4 is post-start; optional repository context only. No authenticated thread or direct delivery is claimed.
+
+
+## H1001:S3 source-span identity addendum | 2026-11-21T1839Z
+
+[Addendum](2026-11-21T1839Z_H1001_S3_SOURCE_SPAN_CONTENT_IDENTITY_AND_ATTRIBUTION_SEPARATION_ADDENDUM.md) and [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1736Z_s3_enheduanna.md).
+
+The existing PR #2293 now carries a structured content key for the exact raw-export/body/span bytes, separate from revisable source attribution. The exact span hashes and byte ranges are recorded in the addendum. The existing observed-slice issue #2294 remains the sole publication; append-only comments #7067506793 and PR #2293 comment #7067507229 are read back.
+
+**Verification boundary:** PR head `a141a72bdea2526f894a6acecdafa4cb5ce6bc67` is not yet covered by Lean CI. The visible successful run #44936687624 checked out prior head `498ae0ef2f0d34036865705b91ed4b435a07852e`. Keep PR #2293 draft/unmerged. The content/attribution theorem statements remain unverified until an exact-head build.
+
+The :36 run ID remains `30690852-4198-8321-a729-9241153d16bb`, scheduled 17:36Z, IN_PROGRESS, `chat_ref=null`; its start-time observation moved to 18:32:14.992280Z. Cached latest_result remains h999:s3 Loom, not this run. No retry, current-thread authentication, or cross-thread delivery claim.
+
+Tern is next deterministic label, but the prior optional packet path is not found on current main; no replacement packet was created. No task/ID/cadence/phase change, no sixth task, no theory promotion. P0/P1/P2/P3 and paper gates unchanged.
