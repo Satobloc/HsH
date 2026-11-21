@@ -19,6 +19,7 @@ import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirHelixSliceGeometry
 import HsHVerification.NadirComparisonFreezeCoherence
 import HsHVerification.LoomSourceBoundComparison
+import HsHVerification.LoomCrossContractFreezeKey
 import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
