@@ -180,3 +180,19 @@ The exact decoded issue `content` field is 11,248 UTF-8 bytes. Its declared SHA-
 `9fd24e9582959a11e2a4db655b9a5200492f925cdafd4ec13246ae07b3952682`
 
 The declared digest was therefore not the digest of the final decoded issue content. The original issue remains the single public incident record; it is NOT PUBLISHED. This workspace copy preserves the exact submitted content plus this append-only correction. The corrected report is not resubmitted.
+
+
+---
+
+## Amendment 02 | 2026-11-21T19:49Z | FIE cadence source correction
+
+The earlier Section 5 statement that FIE was last fully reviewed on November 20, with the next review due December 4, was incorrect and is superseded.
+
+The controlling full re-review record is Aldus h719:s2, [`WORKSPACES/ALDUS/2026-11-09T2324Z_FIE_REREVIEW_AND_3HEB_FIG3C_INTEGRITY.md`](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ALDUS/2026-11-09T2324Z_FIE_REREVIEW_AND_3HEB_FIG3C_INTEGRITY.md), blob `fd34b22654f2e072d58736816e427e1de7f220f1`. It records the full six-page extracted text of **THE FUNDAMENTAL INTUITIONS — EXTENDED** reread: 12,358 characters, 197 lines, no OCR. Work was completed through 2026-11-10T00:17Z.
+
+Correct cadence:
+- Last full FIE re-review completed: **2026-11-10**.
+- Next 14-day re-review due: **2026-11-24**.
+- At this run's 2026-11-21 date, the 14-day threshold has not been reached. No duplicate FIE reread was performed.
+
+This correction changes only the review-cadence record. It does not change the source model, PR #2298, project gates, or theory status.
