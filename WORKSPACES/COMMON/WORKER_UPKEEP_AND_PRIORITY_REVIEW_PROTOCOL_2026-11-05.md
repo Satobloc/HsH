@@ -122,3 +122,31 @@ Adoption is provisional until receipts show:
 - no protected-priority displacement or scheduler drift.
 
 The first live test is the one-time clone-footprint census in issue #1315. Its previous failure was a delivery failure: an issue and log existed, but the request was not embedded in worker prompts, a live task branch, or an addressed handoff, and it had no coordinator follow-up checkpoint.
+
+## 9. Nathan Direct 2026-11-21 — mandatory priority-intake and fallow-work pickup
+
+**Authority:** Nathan Direct, 2026-11-21; controlling BEDROCK entries ND-2026-11-21-02 and ND-2026-11-21-03. This section operationalizes those directives; it does not replace the live priority hierarchy.
+
+### 9.1 Intake and durable routing
+- A project-related program, idea, tool, proposal or task that Nathan identifies as part of the repo/project is actionable intake by default, unless expressly framed as casual-only or not for the pipeline.
+- “Put this in the pipeline/workflow” means capture or update the durable work item and route it to execution. Do not merely mention it in a summary.
+- Capture source/turn, intended outcome, explicit priority/deadline, related assets, owner/coordination lane, dependencies, one next action, exit criteria, review trigger and return route. Reuse the existing issue, Nathan Wants ledger, action plan, queue or graph node. No duplicate parallel trackers.
+- A queue entry is not delivered work. It must be exposed through an actual enabled worker prompt, addressed handoff/inbox, or other verified pickup route. Track CAPTURED, TRIAGED, QUEUED, DELIVERED, CONSUMED, ACKNOWLEDGED, IN_PROGRESS, BLOCKED, COMPLETED and INDEPENDENTLY_VERIFIED separately.
+- Nathan's explicit priority is retained. An unranked but clearly project-directed item is still intake; assign a reasoned provisional priority through the current hierarchy or mark it NATHAN_PRIORITY_UNCLASSIFIED pending triage, never silently drop it.
+
+### 9.2 Fallow clock and fallback semantics
+- Record intake time and last verified substantive progress. Progress means an artifact, milestone, resolved dependency, executed test or verified delivery that advances the intended outcome. Conversation, partial discussion, repeated status, issue comments without state change, nominal activations, cached results and owner-label changes do not reset the clock.
+- A user-specified fallback interval (for example 24 hours) is a checkpoint to test completion and routing, **not a cancellation condition**. Activity or partial work in the originating thread does not extinguish the pipeline obligation. At the checkpoint, if the requested result is not completed and independently verified, ensure it has a durable, owned, actionable plan and actual pickup route; otherwise activate the shared pipeline. Carry forward useful partial work and reduce duplicate effort rather than abandoning the commitment.
+- Escalate pickup urgency at overdue reviews and after repeated missed pickup. Coordinator intervention, handoff or reassignment should follow when safe. Preserve priority and visibility while blocked; record the blocker, owner, smallest next action and return trigger. Aging increases urgency among eligible work but does not override P0 emergencies, protected P1 commitments, genuine dependencies or access restrictions.
+
+### 9.3 Historical work is recoverable
+- Distinguish ACTIVE, ACTIVE_CANDIDATE, PARKED_TRIGGER, BACK_BURNER, SUPERSEDED, PERMANENTLY_REJECTED and ARCHIVED_VALUABLE (or equivalent explicit states).
+- Incomplete, dormant, historically unsuccessful, or previously unselected work is not permanently rejected by default. Preserve source, provenance, partial results, failures, rationale and reactivation conditions.
+- Look for independent re-emergence of parked concepts during new work. HSUCV lattice and Z3 fusion gate remain recoverable/eligible for re-encounter; this does not make them active commitments or presumed-correct theory.
+
+### 9.4 Research-economy triage
+Prioritize minimality gains, modest extensions with a clear payoff, discriminating tests/falsifiers, cross-sector leverage and valuable historical comparators. Do not chase every possible representation. Park branches that cease producing constraints, evidence, clarification or capability, with a concrete retrieval trigger. Seek formulations more minimal than SAT without sacrificing explanatory reach. All theory experimentation remains sandboxed and existing source, geometry, mathematical, real-data and epistemic gates remain in force.
+
+### 9.5 Regular review and adoption evidence
+Every actual activation includes a lightweight intake/fallow/queue scan. The deeper review at least every five actual completed activations must explicitly inspect Nathan-origin commitments, missed pickup, aged/fallow tasks, historical candidates and whether durable items were actually delivered to workers. Trigger earlier after any new Nathan priority, missed pickup, major dependency change, milestone or report of stranded work. Record queue aging, priority changes, delivery/consumption evidence, owner, blocker, escalation and outcome. A published rule is not proof of adoption; audit real receipts and execution.
+
