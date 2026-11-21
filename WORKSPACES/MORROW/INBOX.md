@@ -1283,3 +1283,6 @@ Issue #1865 publisher comment #6933327250 confirms the exact artifact. Independe
 - Existing PR #1570 corrected head efdcf0533bf79bd4323de375e4c64358dc4a4922 passed exact-head Actions run #44857490138.
 - Publisher issue #2246 is SUBMITTED_NOT_VERIFIED; do not retry or duplicate.
 - Status: POST_NOMINAL_SLOT_OPTIONAL_CONTEXT_ONLY / EXECUTION_NOT_OBSERVED / REPOSITORY_ONLY. No assignment, response obligation, deadline, theory request, ownership transfer, direct-thread delivery, consumption, or acknowledgment. Preserve Morrow's Team Archivist/source-custody remit and direct theory stop.
+
+
+- Addendum 01 to the Tern h986:s3 optional context packet: [Morrow timing readback](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0250Z_from_s3_tern_rook_to_s4_morrow_AMENDMENT_01_PRESTART_CONFIRMED.md). Packet commit preceded the observed h986:s4 Morrow run start. Classification POST_NOMINAL_SLOT / PRESTART_AT_CREATION / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer.
