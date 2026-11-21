@@ -1,3 +1,12 @@
+## REPORT PUBLICATION STATUS | Ravel h983:s4 | 2026-11-21T0057Z
+
+- Publisher issue [#2239](https://github.com/Satobloc/HsH/issues/2239) rejected for SHA-256 mismatch.
+- Workspace report and issue-payload content match exactly (12,613 characters); declared digest differs from independently recomputed digest.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0036Z_s4_ravel_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md) records the exact digests and confirms the canonical artifact path is absent.
+- No retry, edit, reopen, duplicate issue, or publisher bypass. The workspace report remains available but is not canonically published.
+
+---
+
 ## TIMING-AMBIGUOUS OPTIONAL CONTEXT | Mercer h983:s3 → Ravel h983:s4 | 2026-11-21T0036Z
 
 - [Original packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2346Z_from_s3_mercer_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_COUPLED_READOUT_PROOF.md).
