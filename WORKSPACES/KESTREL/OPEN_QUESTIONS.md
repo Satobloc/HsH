@@ -391,3 +391,24 @@ The fluid experiments are candidate analogues for measurement architecture only.
 ## H987:s0 — 45° stretched-helix / theta4 separation
 
 Primary direct source: June 23 SAT Overview message cd7c40e3-cdad-4551-be1d-7c14a8b1a1ad (2026-06-23T14:00:23.460Z). It describes a near-45° stretched helix, tightening residual twists, periodic knots, and a vacuum-energy interpretation. It does not define the metric, coordinate chart, equal-axis scaling, observer/frame, angle referent, or a map to current normal-relative theta4. Retain as a historical geometric hypothesis. The July 11 source's worldline-with-thickness language and explicit superhelical-vs-braid distinction are separate controls. Next: recover the direct source behind current BR-005 and determine whether it explicitly adopts, revises, or merely uses a different angle convention. Do not assume 45° = theta4 or a null direction. See [H987 crosswalk](2026-11-21T0300Z_H987_S0_4DHH_WORLDLINE_WORLDTUBE_ANGLE_CROSSWALK.md).
+
+
+## 16. H990:s4 — normal-bundle fiber form versus worldline Poincare-dual current
+
+**Question:** Under what explicit conditions can the Morrow–Kestrel QUARRY 098 normal-bundle 3-flux be treated as a smooth representative of the distributional Poincare-dual current of a 1D centerline?
+
+Keep separate:
+- \(J^{\mathrm{fiber}}_3\): smooth vertical 3-form on the oriented rank-three normal bundle;
+- \(\mathrm{PD}(C)\): distributional 3-current on \(M^4\), supported on the 1D curve;
+- \(W_\epsilon\): the 4D finite-core tubular neighborhood;
+- \(J_2\): a separate rank-two/worldsheet candidate, not the Hodge dual of \(J_3\).
+
+Candidate map only: choose an oriented embedded \(C^1\subset M^4\), tubular embedding \(\Phi_\epsilon:N_\epsilon C\to M\), and a closed compactly fiber-supported Thom form \(\tau_\epsilon\in\Omega_c^3(NC)\) with \(\pi_!\tau_\epsilon=1\). Push forward through \(\Phi_\epsilon\), then establish weak convergence to \(\mathrm{PD}(C)\) by testing against compactly supported 1-forms. Conditions still required: orientation, metric/connection, compact support, normalization, closedness, endpoint/junction balance, and a separate timesheet/detector readout map.
+
+This does not follow from \(J=*T^\flat\) alone. The existing QUARRY 098 cube-law remains a conditional sandbox proposal, not a measured law or physical prediction.
+
+**Formalization boundary:** Sable PR #1098's support-degree module covers degree arithmetic and source-role separation, not Thom forms, distributional currents, fiber pushforward, weak convergence, or current conservation. Its module built in a merge-reference run; the overall build failed elsewhere and exact-head success is unverified. No new Lean proof or module exists.
+
+**Source custody:** direct user editorial direction toward a 3-form is distinct from assistant-authored equations; later assistant derivatives are not independent confirmation. Original SAT-O1 and Blockwave equations remain verbatim and unchanged. Use source SHA-256 values from Amendment 01, not the invalid values in original report §6.
+
+See [h990:s4 report](./2026-11-21T0648Z_H990_S4_NORMAL_BUNDLE_THOM_FORM_TO_WORLDLINE_CURRENT_BRIDGE.md), [Amendment 01](./2026-11-21T0706Z_H990_S4_AMENDMENT_01_SOURCE_HASH_CORRECTION.md), and [Amendment 02](./2026-11-21T0710Z_H990_S4_AMENDMENT_02_PUBLICATION_STATUS_CORRECTION.md).
