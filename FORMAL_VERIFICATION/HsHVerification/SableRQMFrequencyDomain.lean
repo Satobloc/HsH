@@ -71,9 +71,9 @@ theorem signed_frequency_requires_negative_lambda
 theorem signed_and_absolute_frequency_forms_agree
     (κ lambdaS r : ℝ)
     (hκ : 0 < κ)
-    (hλ : lambdaS < 0) :
+    (hLambda : lambdaS < 0) :
     -(2 * lambdaS * r^2) / κ = (2 * |lambdaS| * r^2) / κ := by
-  rw [abs_of_neg hλ]
+  rw [abs_of_neg hLambda]
   ring
 
 /-- The alternative residual r² - R² differs from the residual r² produced
@@ -91,14 +91,14 @@ real ω when κ and r are positive. -/
 theorem positive_lambda_excludes_real_frequency
     (κ lambdaS r ω : ℝ)
     (hκ : 0 < κ)
-    (hλ : 0 < lambdaS)
+    (hLambda : 0 < lambdaS)
     (hr : 0 < r)
     (hdisp : κ * ω^4 + 2 * lambdaS * r^2 = 0) :
     False := by
   have hω4 : 0 ≤ ω^4 := by positivity
   have hκω : 0 ≤ κ * ω^4 := mul_nonneg (le_of_lt hκ) hω4
   have hr2 : 0 < r^2 := by positivity
-  have hλr : 0 < 2 * lambdaS * r^2 := by positivity
+  have hLambdar : 0 < 2 * lambdaS * r^2 := by positivity
   nlinarith
 
 #print axioms superhelix_norm_sq
