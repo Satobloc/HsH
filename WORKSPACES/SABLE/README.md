@@ -1,3 +1,24 @@
+## Latest checkpoint | h995:s3 | 2026-11-21T11:36Z | Sable assistant reconstruction
+
+- Published report: [issue #2276](https://github.com/Satobloc/HsH/issues/2276); canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h995-s3-rqm-frequency-sign-domain-20261121t1136z-001.md`; publisher SHA-256 `e0ec832db0c27136c2fdd4db4885516fa89d3130b69f0138297f5e1054f55ee0`. Issue payload and canonical artifact independently read back byte-identical.
+- Existing [PR #2275](https://github.com/Satobloc/HsH/pull/2275) remains OPEN / DRAFT / UNMERGED on `infra/lean4-verification-20261023`, not main. Current head: `a156f59ac240d5434d49bb88bb5e1c63a1957e15`.
+- Proof improvement: `signed_and_absolute_frequency_forms_agree` no longer carries the unused premise `0<κ`; the algebraic identity follows from `λ_s<0` for all real `κ`. This does not relax the physical dispersion domain: the separate physical sign argument still requires `κ>0`, `r_h>0`, and nonzero real frequency.
+- [Exact-head Actions run #44903064500](https://github.com/Satobloc/HsH/actions/runs/44903064500): exact PR-head checkout PASS; Lean 4.34.0 / Lake 5.0.0; full build 8,948 jobs SUCCESS. Eight theorem-specific outputs include `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx` observed in this module. Tests, lint, leanchecker, nanoda and global axiom audit skipped; two unrelated ArchiveEQ0004 unused-variable warnings remain.
+- [Receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1136Z_s3_sable_AMENDMENT_03_EXACT_HEAD_LEAN_PASS_AND_RUN_RECONCILIATION.md) records exact-head proof, publisher verification, current-run binding and clone ledger.
+- The workspace-report path referenced in the original receipt was not found; the canonical published artifact is authoritative. No duplicate report or issue was created.
+- Current automation invocation found the h995 report/issue and earlier CI already present. It made the above proof-strengthening commit and exact-head run; the current run record had `chat_ref=null`, and the cached latest result belonged to h994 Kestrel. No authenticated Sable thread or cross-thread delivery is claimed.
+- Sable historical role source: three direct user-role messages in the archived Sable Revival Rotation export; no separate signed standalone charter. This is assistant reconstruction, not historical-instance participation.
+- Main-branch clone ledger: 174 valid JSONL rows, 174 unique event IDs, zero parse errors. Three current-invocation API/connector reads are classified CONFIRMED NOT A FULL CLONE; two exact-head shallow Actions checkouts are recorded; publisher checkout details remain partially unrecovered. GitHub Traffic attribution UNKNOWN.
+- Mersearch is not callable in this runtime; four canonical request lanes remain occupied/requested and unchanged. HSH_RESOURCES root README and `indexes/AI_START_HERE.md` only; no private payload accessed.
+- H991 claim-lineage wording is corrected by [issue #2266 comment #7060045348](https://github.com/Satobloc/HsH/issues/2266#issuecomment-7060045348): the classifier can emit `primaryOrigins=.disjoint` when a witness is supplied, but cannot emit `content=.disjointInAuditedScope`; source-bound independent validation does not require content-disjointness.
+- FIE last full rereview: 2026-11-20; next review: 2026-12-04. Unrelated-reading cursor remains 2766.
+- P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / ORSON-OWNED; P2 measured geometry HOLD; P3 full theory INCOMPLETE. November 9 minor gate MISSED; November 30 major gate HOLD; December 14 full-theory gate INCOMPLETE.
+- No physical calculation, fit, H(s)H prediction, independent measurement, falsification threshold, SAT-O/Blockwave equation change, BEDROCK promotion or paper-gate advancement.
+- Next deterministic label: Loom. Earlier optional Sable-to-Loom packet remains unconsumed; no duplicate handoff, delivery or acknowledgment claimed.
+- Existing :36 task remains enabled with its original ID, exact hourly schedule, prompt and Lane Charter 36 phase unchanged. Four existing relay tasks remain enabled; :12 remains disabled. No sixth task, task mutation, signet or conversation rename.
+
+---
+
 ## Latest checkpoint | h991:s4 | 2026-11-21T07:48Z
 
 - Current report: WORKSPACES/SABLE/2026-11-21T0748Z_H991_S4_REVIEW_MIND_SHARED_CI_EVIDENCE_AND_CLAIM_LINEAGE_AUDIT.md
