@@ -190,12 +190,15 @@
     "parent_artifact_blob_sha": "87a11d546e41a7d6f02e9c804a78b465135699c1",
     "parent_publisher_commit": "aaa6b565a04daec1b1ff6c8783938c9774d79339",
     "amendment_submission_id": "loom-h999-s3-cross-contract-dependency-witness-amendment-20261121t1612z-001",
-    "amendment_issue_number": null,
-    "amendment_status": "NOT_SUBMITTED_YET",
-    "amendment_sha256": null,
+    "amendment_issue_number": 2290,
+    "amendment_status": "SUBMITTED_NOT_VERIFIED",
+    "amendment_sha256": "ec7210ab9751efef8a707d7993353d62b23ca1e50c99779f9fa2f052a3d4a2b3",
     "amendment_canonical_artifact": null,
     "amendment_publisher_run_id": null,
-    "amendment_publisher_comment_id": null
+    "amendment_publisher_comment_id": null,
+    "amendment_issue_url": "https://github.com/Satobloc/HsH/issues/2290",
+    "amendment_workspace_path": "WORKSPACES/LOOM/2026-11-21T1616Z_H999_S3_CROSS_CONTRACT_DEPENDENCY_WITNESS_AMENDMENT.md",
+    "amendment_workspace_blob_sha": "b3bf924d9e07175e90f73898788f24977166e0a8"
   },
   "source_main_branch_head_at_packet_creation": "aaa6b565a04daec1b1ff6c8783938c9774d79339",
   "source_main_branch_observation": "Publisher commit for parent issue #2289; no theory change.",
@@ -204,6 +207,7 @@
     "Original PR-head run #44921983539 completed successfully at head a7432d42c2eacd700c3906482a80ad67fc7aad30.",
     "This follow-up added CrossContractDependencyWitness as a required field in P2CrossContractEvidenceBundle, separating artifact identity from declared dependency edges.",
     "Corrected PR head cfd6b107c8c8e43c1d46c0a66fb852c6f2d4b205 compiled successfully in exact-head run #44923263467; all nine module declarations reported no axioms.",
-    "Factory Floor intake remains pending/not submitted because the artifact is abstract workflow mathematics and fails the geometry-first admission gate."
+    "Factory Floor intake remains pending/not submitted because the artifact is abstract workflow mathematics and fails the geometry-first admission gate.",
+    "Public amendment issue #2290 was opened with the existing publisher envelope; publisher confirmation and canonical artifact readback are pending. No retry or duplicate submission."
   ]
 }
