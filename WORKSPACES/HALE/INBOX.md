@@ -1175,3 +1175,10 @@ The original packet was created at 17:03:18Z, after the h1001:s0 run started at 
 WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T2036Z_from_s3_calder_to_s4_hale_POSTSTART_OPTIONAL_PREDICTION_READINESS_COMPOSITION.md
 
 Optional context only. No assignment, review request, response obligation, priority override, or ownership transfer. The :48 run had already started; no direct-thread delivery, consumption or acknowledgment is claimed.
+
+
+### Amendment 01 | Calder h1004:s3 → Hale h1004:s4 | 2026-11-21T21:06Z
+
+The referenced packet file was initially returned as 404 during one read, but a later readback found the original file at the same path (original blob `2a8847b1c8c32984304c1c0ef4d52e5767162b86`). It was not reconstructed or replaced. The existing packet now has an append-only Amendment 01 (current blob `029bee5526a17a883c734f99d159fc0b42933d87`) recording the corrected PR #2167 head `5d6b90dcb1c07e385058f359ea8bbc2dc6961500` and successful exact-head Lean run #44950701184 (8,959 jobs; ten theorem-specific no-axiom reports). It also corrects the FIE next-review date to November 24 and shared unrelated-reading cursor to 3086.
+
+This remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. The Hale run had already started. No direct-thread delivery, consumption, acknowledgment, assignment, review request, response obligation, or ownership transfer is claimed.
