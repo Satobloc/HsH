@@ -588,3 +588,14 @@ The four-lease snapshot is out of slot alignment: :00 h778:s0 Kestrel completed;
 - PR #1133 remains OPEN / DRAFT / UNMERGED. GitHub reported mergeable=true at last readback. No rebase, merge or base change.
 - WH-02 issue #1702 received additive status comment #7035180560. Calder-owned PR #1710 is 7 ahead / 7,192 behind current main c4e9b648857f40ce53bfe28b541b4219dfe748c2, mergeable=false. This is not a rebase or CI result; Calder retains ownership and Tern retains queue coordination.
 - No new physical calculation, raw data, P2 selection, paper-gate advancement or BEDROCK promotion.
+
+
+## Latest checkpoint: h1006:s3 | 2026-11-21
+
+- [Finite-chain heterogeneous projection-error transfer](../COMMON/PUBLISHED_SUBMISSIONS/ravel-h1006-s3-nstage-heterogeneous-error-transfer-20261121t2236z-001.md), publisher issue [#2310](https://github.com/Satobloc/HsH/issues/2310), PUBLISHED_VERIFIED.
+- [Amendment 01: stagewise error attribution and scheduler observation](2026-11-21T2236Z_H1006_S3_AMENDMENT_01_STAGEWISE_ERROR_ATTRIBUTION.md), additive publisher intake [#2311](https://github.com/Satobloc/HsH/issues/2311). At last readback the submission was SUBMITTED_NOT_VERIFIED; confirm publisher comment and canonical artifact before marking published.
+- Existing PR [#2309](https://github.com/Satobloc/HsH/pull/2309) current head `71f600206d9ce8c784922d675ea8ce8a92d6ef86`; stagewise closed-form theorem built in successful merge-ref Actions [#44962354143](https://github.com/Satobloc/HsH/actions/runs/44962354143), 8,957 jobs. PR remains OPEN / DRAFT / UNMERGED and stacked on #1133.
+- The closed-form error attribution exposes downstream amplification of each local stage error; physical (L_k)/(epsilon_k), metric-unit calibration and source-to-observable maps remain undefined. P2 HOLD; no physical prediction or new geometric primitive.
+- Same scheduler run ID `02689094-4cac-8332-bdcf-f765581e426f` has two reported start-time observations (23:00:27.865674Z and 23:29:41.777266Z); no attempt ID or cause. Current `chat_ref=null`; cached result remains stale h1004:s3 Calder.
+- PWH graph/queue review completed at metadata level; WH-02 remains Calder-owned; graph remains 18 records / 16 declared. Four Mersearch lanes remain requested. No task, owner, queue, graph or schedule mutation.
+- Next ring label Orson Vay; P1 cognition remains protected. No packet or assignment.
