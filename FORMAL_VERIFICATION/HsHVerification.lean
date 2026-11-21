@@ -20,6 +20,7 @@ import HsHVerification.GendarmeMirrorInvolution
 import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
+import HsHVerification.AsterPRLKelvinReadout
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
@@ -34,4 +35,3 @@ theorem relative_map_triangle_closure {G : Type*} [Group G]
 
 end HsHVerification
 
-import HsHVerification.AsterPRLKelvinReadout
