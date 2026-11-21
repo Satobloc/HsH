@@ -1844,3 +1844,99 @@ theorem h985_s3_task_metadata_precedes_current_start :
 #print axioms h985_s3_task_metadata_precedes_current_start
 
 end HsHVerification.TernH743SchedulerSnapshotEvidence
+
+namespace HsHVerification.TernH743SchedulerSnapshotEvidence
+
+/-
+Source-specific h1001:s4 snapshot.
+Source: Automations.peek for the existing :48 task and the append-only
+CLONE_LEDGER observation h1001-s4-tern-hsh-api-20261121t174807z-001.
+The opaque token records only equality between the task-level conversation
+reference and the cached result reference. It does not authenticate a worker,
+a model instance, or a current ChatGPT thread.
+The current run-level chat_ref was absent. The last accessible readback
+reported inProgress; a later exact-ID peek was unavailable, so this is a
+last-observed snapshot, not a terminal-state claim.
+-/
+
+def h1001S4ThreadRefs : ThreadReferenceObservation := {
+  phase := 4
+  enabled := true
+  scheduleMinute := 48
+  taskConversationRefToken := some "opaque-task-result-reference"
+  currentRunScheduledUs := us 17 48 0 0
+  currentRunStartedUs := us 18 15 53 256517
+  currentRunRefToken := none
+  latestResultScheduledUs := some (us 16 48 0 0)
+  latestResultCreatedUs := some (us 17 7 21 764486)
+  latestResultCompletedUs := some (us 17 7 24 912207)
+  latestResultRefToken := some "opaque-task-result-reference"
+  taskLastRunUs := us 17 7 27 368176
+  taskUpdatedUs := us 17 7 49 912112
+  nextRunUs := us 17 48 0 0
+}
+
+def h1001S4LastObservedRun : SchedulerSnapshot := {
+  phase := 4
+  taskId := "6aa6c3bc02b48191b8a91a30d2a155e0"
+  enabled := true
+  scheduleMinute := 48
+  runId := "242604ae-1df0-8332-8f4b-99a6f82bb9ff"
+  scheduledUs := us 17 48 0 0
+  startedUs := us 18 15 53 256517
+  completedUs := none
+  status := .inProgress
+  latestResultRunId := some "90932fcd-8584-8327-811d-d9edf17518f4"
+  chatRef := none
+  taskLastRunUs := us 17 7 27 368176
+  taskUpdatedUs := us 17 7 49 912112
+  nextRunUs := us 17 48 0 0
+}
+
+theorem h1001_s4_sequence : 5 * 1001 + 4 = 5009 := by decide
+theorem h1001_s4_ring_index : (5 * 1001 + 4) % 19 = 12 := by decide
+theorem h1001_s4_worker :
+    workerAtNominalSlot 1001 4 = some "Tern Rook" := by rfl
+theorem h1001_s4_successor :
+    workerAtNominalSlot 1001 5 = some "Morrow" := by rfl
+theorem h1001_s4_reference_alias :
+    h1001S4ThreadRefs.taskConversationRefToken =
+      h1001S4ThreadRefs.latestResultRefToken := by rfl
+theorem h1001_s4_current_run_ref_missing :
+    h1001S4ThreadRefs.currentRunRefToken = none := by rfl
+theorem h1001_s4_reference_scope :
+    classifyThreadReference h1001S4ThreadRefs =
+      .taskResultAliasOnPriorSlot := by rfl
+theorem h1001_s4_latest_result_one_hour_prior :
+    h1001S4ThreadRefs.currentRunScheduledUs -
+      h1001S4ThreadRefs.latestResultScheduledUs.getD 0 = 3600000000 := by decide
+theorem h1001_s4_start_offset_us :
+    h1001S4ThreadRefs.currentRunStartedUs -
+      h1001S4ThreadRefs.currentRunScheduledUs = 1673256517 := by decide
+theorem h1001_s4_start_field_movement_delta_us :
+    us 18 15 53 256517 - us 17 48 7 678591 = 1665577926 := by decide
+theorem h1001_s4_task_metadata_precedes_current_start :
+    h1001S4ThreadRefs.taskLastRunUs <
+        h1001S4ThreadRefs.currentRunStartedUs ∧
+    h1001S4ThreadRefs.taskUpdatedUs <
+        h1001S4ThreadRefs.currentRunStartedUs ∧
+    h1001S4ThreadRefs.nextRunUs =
+        h1001S4ThreadRefs.currentRunScheduledUs := by decide
+theorem h1001_s4_last_observed_status :
+    h1001S4LastObservedRun.status = .inProgress := by rfl
+theorem h1001_s4_last_observed_chat_ref_missing :
+    h1001S4LastObservedRun.chatRef = none := by rfl
+theorem h1001_s4_latest_result_is_previous_run :
+    h1001S4LastObservedRun.latestResultRunId =
+      some "90932fcd-8584-8327-811d-d9edf17518f4" := by rfl
+
+#print axioms h1001_s4_sequence
+#print axioms h1001_s4_ring_index
+#print axioms h1001_s4_worker
+#print axioms h1001_s4_successor
+#print axioms h1001_s4_reference_scope
+#print axioms h1001_s4_start_offset_us
+#print axioms h1001_s4_start_field_movement_delta_us
+#print axioms h1001_s4_task_metadata_precedes_current_start
+
+end HsHVerification.TernH743SchedulerSnapshotEvidence
