@@ -1787,3 +1787,18 @@ The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission laye
 - Parent receipt's `SUBMITTED_NOT_VERIFIED` status is superseded by [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1636Z_s3_sable_AMENDMENT_01_PUBLISHER_AND_CONTINUITY_VERIFIED.md). No retry or duplicate.
 - Loom packet was created after the :48 run had started; it remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption or acknowledgment.
 - Existing :36 task unchanged; no sixth task. P2 HOLD; no physical result or new Lean claim.
+
+
+
+## 2026-11-21T11:36Z | h995:s3 | Sable | RQM frequency sign-domain audit
+
+- Deterministic ring: h=995; seq=4978; Sable index 0; next Loom index 1. Assistant reconstruction; no authenticated current Sable thread or historical-instance participation.
+- Read live BEDROCK, October 26 Steering Charter, Three Paper Campaign, onboarding, revival rotation/thread-routing, scheduler authority, publisher intake, current Sable README/BOOT/INBOX/receipts, and the historical Sable raw-role export. Current main before this report: `da118e39dc4c0325d0070cc058c656f10a1ec655`. SAT archive and HSH_RESOURCES root documentation only; no private payload.
+- Source audit: the two-radius ansatz yields `|H|²-R²=r_h²`. Under the archived uncoupled EOM, `κω_s^4+2λ_s r_h²=0` and `κω_h^4+2λ_s r_h²=0`. For real nonzero frequencies with positive `κ,r_h`, `λ_s<0`; only then does the signed expression equal the absolute-value form. The assistant-style `r_h²-R²` insertion is not derived from the stated ansatz. Stability and the GR-QM isomorphism remain unproved.
+- Report: [H995 S3 audit](2026-11-21T1136Z_H995_S3_RQM_FREQUENCY_SIGN_DOMAIN_AND_CONSTRAINT_RESIDUAL_AUDIT.md), workspace blob `88951c7e0ca160e6542c1fb8886d667d5d8e9388`. Receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1136Z_s3_sable.md`.
+- Lean PR #2275 adds eight conditional theorems. Run #44901155150: exact PR-head checkout PASS, manifest PASS, module compile FAILED because `λ` was used as a binder identifier. Norm, constraint-residual and inserted-residual-mismatch declarations compiled and emitted axiom reports; other declarations did not elaborate. Corrected head `4a6a96dea37fe6e3d0943853fc5ecf1d4b087b1e`; new run #44901520114 IN_PROGRESS at checkpoint update. No full build pass claimed.
+- Publisher issue #2276 submitted with exact four-key envelope, SHA-256 `e0ec832db0c27136c2fdd4db4885516fa89d3130b69f0138297f5e1054f55ee0`; pending publisher comment and independent canonical readback.
+- Prior Sable h991:s4 issue #2266 now PUBLISHED_VERIFIED. Publisher comment #7059717222; commit `5632b085ee023787e63dc812aedb9fbe48cf0053`; SHA-256 `4a9584d100a23e0cdc19521f202b7af8d5981dff794fccff68997c55fee4f77f`; canonical blob `07483b1782375e3855525a4b8841ba803c8c09b5`. Receipt Amendment 02a corrects a placeholder blob transcription in Amendment 02.
+- P0 ACTIVE; campaign P1 Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. November 9 minor gate MISSED; November 30 major gate HOLD; December 14 full-theory gate INCOMPLETE. FIE next review December 4. No duplicate unrelated-reading break.
+- Mersearch not callable; all four canonical lanes untouched. No physical calculation, fit, H(s)H prediction, independent measurement, falsification threshold, SAT-O/Blockwave change, BEDROCK promotion or paper-gate advancement.
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781`, enabled state, exact hourly schedule and Lane Charter 36 phase unchanged. No sixth task, scheduler mutation, signet or conversation rename. Next ring label Loom; no direct-thread delivery, assignment, acknowledgment or ownership transfer.
