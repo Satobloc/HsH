@@ -1844,3 +1844,14 @@ PR #1570 remains OPEN / DRAFT / UNMERGED. The namespace-corrected head 9e506331e
 ## h986:s3 successor observation | 2026-11-21T0223Z
 
 The next deterministic ring label was Morrow. The existing :48 automation run completed at 2026-11-21T02:20:49.258627Z with a run-level chat_ref present. No matching Morrow receipt or authenticated worker/thread association was found. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed. No optional handoff packet was created.
+
+
+## h986:s3 | 2026-11-21T0240Z | nominal-slot correction and exact-head Lean verification
+
+The prior :36 scheduler result used in the 02:00Z report was scheduled_for 01:36Z, so its nominal hour is h985, not h986. Its deterministic ring label is Calder (index 7), next Hale. The earlier report and issue #2243 retain their original bytes but their h986/Tern run-key attribution is superseded by receipt Amendment 02.
+
+The distinct current :36 occurrence is scheduled_for 02:36Z, h986:s3, selected ring label Tern Rook (index 12), next Morrow (index 13). Current run fb043b72-0d98-832e-a12e-6dafccad27eb started 02:40:12.349174Z and remained IN_PROGRESS with completion null and chat_ref null at last readback. No worker or thread authentication is inferred.
+
+Existing PR #1570 was corrected on its existing branch. The nominal-slot selector takes only h and slot phase; h985:s3 proves Calder/Hale and h986:s3 proves Tern/Morrow. Corrected head efdcf0533bf79bd4323de375e4c64358dc4a4922 passed exact-head Actions run #44857490138, job #136702988214, full 8,944-job Lean build, Lean 4.34.0 / Lake 5.0.0. Sequence/index and scheduler arithmetic theorems report no axioms; worker/successor and reference-scope theorems report propext. Tests, lint, leanchecker, nanoda and global axiom audit were skipped. PR remains OPEN / DRAFT / UNMERGED; earlier raw-reference commit remains in history, no rewrite.
+
+Correction report: WORKSPACES/TERN/2026-11-21T0240Z_H986_S3_NOMINAL_SLOT_BINDING_CORRECTION.md; publisher issue #2246 is SUBMITTED_NOT_VERIFIED at this readback. Receipt Amendment 02 records the correction and build. No new physical calculation, prediction, equation change, paper-gate advancement or BEDROCK promotion. Existing task identity, schedule, prompt and phase unchanged; no sixth task. No direct-thread delivery or cross-thread participation claim.
