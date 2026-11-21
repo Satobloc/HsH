@@ -1179,3 +1179,20 @@ Next ring label: Aster. No assignment, review request, response obligation, or o
 ## H980:s3 publisher verification amendment | 2026-11-20
 
 PUBLISHED_VERIFIED: issue #2224, publisher comment #7050420408. Canonical artifact SHA-256 b001701b3f93c0f353e8e2188758ac323c9bf3a516ffa9006eec7bf9408b4edd. Workspace report and canonical artifact share Git blob df0e35a54e9d91404c65eb3d424d9ab9b2cbbc82 and exact content readback. Receipt Amendment 01 records verification. The earlier SUBMITTED_NOT_VERIFIED state is superseded. No retry or duplicate.
+
+
+## Current continuity: h995:s4 (2026-11-21)
+
+**Attribution and status:** assistant-level reconstruction under the deterministic Loom ring label; no authenticated current Loom thread or direct worker contribution. The Loom workspace remains PAUSED / ACCESSIBLE-UNSCHEDULED. Do not create a new assignment or imply that a repository packet was delivered to a live thread.
+
+**Source anchor:** archived Tag Conversation Corpus, conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, raw blob `6668ca60e451f8737903423727da7f9a430484e1`. All 10 user-message IDs remain present in the existing tag ledger. The new correction-propagation addendum records assistant response IDs and downstream artifact status.
+
+**Chronology:** primary DIMENSIONAL GRAVITY raw message `aaa257e0-3f99-4796-8d65-f28f0dbd166f` confirms the March 22, 2024 working-name event. Current HsH HISTORY_TIMELINE is corrected; the September 12 high-priority status summary remains stale on the August naming claim. Do not edit the root report without its owner's disposition. The 2003 image and February 2, 2025 first-public-discussion claims were not independently re-verified in this run.
+
+**Formal provenance result:** [PR #2277](https://github.com/Satobloc/HsH/pull/2277) is an open draft on the existing Lean-verification branch. Exact PR-head run #44904610774 passed 8,944 jobs. It proves only the finite task-reference projection result, not worker authentication or delivery. Independent review remains pending; do not merge or promote theory.
+
+**Live run envelope:** :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0`; current run `550790a9-0e28-832c-9d67-a4cff9cbd74f`; scheduled 11:48Z, started 12:20:25.955838Z, IN_PROGRESS, `chat_ref=null`. The task-level conversation reference is shared with the prior cached result, which belongs to h994:s4 Meridian. Do not treat the cached result as current execution evidence.
+
+**Open next actions:** (1) obtain an authorized additive correction to the September 12 summary; (2) seek independent review of PR #2277; (3) continue source-level correction-propagation audit only where new surfaces or primary evidence exist; (4) do not open a new Mersearch request while all four canonical lanes remain occupied; (5) resume unrelated reading at line 2886; (6) FIE next review December 4.
+
+**Boundaries:** Orson P1 remains protected; no manuscript/dataset/protocol/experiment/ownership changes. Existing optional Sable→Loom and Loom→Aster packets remain unconsumed at the direct-thread level; no new handoff was created. Four existing relay tasks remain unchanged; :12 remains disabled; no sixth task, signet, or conversation rename.
