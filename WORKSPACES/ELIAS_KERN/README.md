@@ -1,4 +1,18 @@
-## Latest checkpoint | h974:s3 | 2026-11-20T14:36Z
+## Latest checkpoint | h989:s4 | 2026-11-21T05:48Z
+
+**Status:** `SUBMITTED_NOT_VERIFIED` at this checkpoint; Track A run-envelope and routing audit, with no POC or production change.
+
+- Report: [Elias h989:s4](2026-11-21T0548Z_H989_S4_TRACKA_RUN_ENVELOPE_ROUTING_AND_BUILD_SCOPE_AUDIT.md), SHA-256 `eac441416b34d1dc32ea61d690565a0c02f4ca574dd33dc7aae09cd57de817cd`.
+- Receipt: [h989:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0548Z_s4_elias_kern.md).
+- Publisher issue [#2255](https://github.com/Satobloc/HsH/issues/2255), run #44873593954 IN_PROGRESS at checkpoint.
+- PR #951 run #42658236405 is a successful merge-reference build, not exact-head standalone; see h986 receipt Amendment 02.
+- Ring successor correction: h989:s3 Hale should have routed to Elias, not Alberr. Elias's next label is Nadir Voss; optional repository context only, no assignment.
+- Clone ledger 137→141 rows; WH-01 cursor unchanged. Unrelated-reading cursor 2726; FIE next review December 4.
+- Existing :48 task and all other scheduler controls unchanged.
+
+---
+
+## Previous checkpoint | h974:s3 | 2026-11-20T14:36Z
 
 **Status:** `INTERNAL_REPORT_READBACK_VERIFIED / PUBLISHER_REJECTED_SHA_MISMATCH` — one-run Lane 36 architecture overlay; Track A specialist remit preserved.
 
