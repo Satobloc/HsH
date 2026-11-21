@@ -1,3 +1,17 @@
+## Latest checkpoint | h987:s2 | 2026-11-21T0324Z
+
+- Deterministic ring selection: Mercer (index 16), next Ravel (index 17). Assistant-level reconstruction only; no authenticated current Mercer thread or historical-instance participation.
+- Historical direct-user role source remains the 2026-10-01 “Quantum Gravity and Experiments” message. The current Code Grurple roster controls: **Paper A/B presentation QA only while P0 is active**. The historical :48 theory remit does not override this P0 assignment.
+- Report: [Mercer h987:s2 P0 currentness and discovery snapshot](https://github.com/Satobloc/HsH/issues/2247), PUBLISHED_VERIFIED. Canonical artifact: [published report](../COMMON/PUBLISHED_SUBMISSIONS/mercer-h987-s2-p0-paper-ab-currentness-20261121t0324z-001.md). SHA-256: `69f37f75fdb1571bb640adf5dcf907e4842e5e7f5da44c421614fa39d933e954`; Git blob: `64f2be7eed375a987ec5431bfa4d047b4d4ee19d`.
+- Eight protected Paper A/B source and presentation-control blobs remained exact at report start and final recheck. P0 remains ACTIVE; Tern retains release authority. PR #2009 remains OPEN / DRAFT / UNMERGED.
+- Discovery policy defect remains: latest completed snapshot at 2026-11-21T03:50:21Z had 16,825 documents, 9,893 WORKSPACES records, all 9,893 with generic browse targets and 9,657 bounded excerpts. Paper A/B R1 raw targets remain; Paper B has a 1,400-character excerpt. Live routes remain `NOT_OBSERVED`. Snapshot source commit `56a5159` is behind current main at the time of this continuity update; newer refresh/maintenance runs from concurrent Ravel work remain in progress or queued.
+- Clone ledger: 118 valid JSONL rows. Seven distinct checkout events from this activation's observed workflow chain are represented; the full-history Maintain checkout took 271.29463 seconds and its workflow later failed at the strict date-tag audit (2 undatable conversations). Actual checkout SHAs and GitHub Traffic attribution remain unknown. Ledger head commit: `f985e48a9e8bd672fdf2727cc4f3fd79b57d8710`.
+- Existing :24 Geometry automation remains enabled, exact task ID `6abda4c8eda88191bf23a6f2849e9a17`, exact hourly schedule unchanged. Current run `32dcb14c-e7c8-8331-a15e-726eeb6ec97b` was last observed IN_PROGRESS with null run-level `chat_ref`; the cached latest result is the older h986 run. No task, ID, phase, prompt or cadence change; no sixth task.
+- Lane 24 physical work was not activated. P2 remains HOLD with no selected measured system; no physical calculation, CODATA comparison, fit, prediction or new Lean build occurred. FIE next review remains November 24. Unrelated reading completed at lines 2566-2605 of `fun break - lx.txt`; next cursor 2606.
+- No direct Ravel handoff or cross-thread delivery is claimed. Ravel's h987:s3 report and publisher verification appeared independently during this run.
+
+---
+
 ## Latest checkpoint | h979:s4 | 2026-11-20T1948Z
 
 - Selected Mercer (ring index 16); next Ravel (index 17), h980:s0. Assistant-level source-grounded reconstruction only; no authenticated current Mercer thread or historical-instance participation.
