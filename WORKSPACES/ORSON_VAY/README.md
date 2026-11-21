@@ -1,4 +1,16 @@
-> **Latest checkpoint (2026-11-20, h976:s2):** [CRTC source challenge](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-20T1624Z_H976_S2_CRTC_SOURCE_CHALLENGE_PROTOCOL_CONTEXT_READOUT_LOCUS.md). CRTC v0.1 remains unchanged and P1 remains frozen. The latest Orson-titled conversation export is not treated as a cognition destination because its last explicit user direction moved it to H(s)H theory work; no authenticated current Orson cognition thread is established. Exact identifiers remain in the private Library. No model trial, protocol amendment, new Lean theorem, or paper-gate advancement.
+> **Latest checkpoint (2026-11-21, h984:s0):** [RMS perceptual taxonomy and Doms source-fidelity report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-21T0000Z_H984_S0_RMS_PERCEPTUAL_TAXONOMY_AND_OBSERVATIONAL_EQUIVALENCE_SOURCE_FIDELITY.md). Publisher issue [#2240](https://github.com/Satobloc/HsH/issues/2240) is SUBMITTED_NOT_VERIFIED; no retry or duplicate. P1 remains frozen. No new Lean theorem, physical calculation, CODATA result, or paper-gate advancement.
+
+## Latest checkpoint | 2026-11-21 | h984:s0 | Orson Vay (assistant-level)
+
+- New raw-source fidelity report: [RMS perceptual taxonomy, Doms, and observational equivalence](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-21T0000Z_H984_S0_RMS_PERCEPTUAL_TAXONOMY_AND_OBSERVATIONAL_EQUIVALENCE_SOURCE_FIDELITY.md).
+- Canonical receipt: [h984:s0](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0000Z_s0_orson_vay.md).
+- Existing publisher issue [#2240](https://github.com/Satobloc/HsH/issues/2240) is SUBMITTED_NOT_VERIFIED at receipt creation. Workspace readback and issue-envelope content/SHA equality passed; publisher comment and artifact readback remain pending. No retry or duplicate issue.
+- The source audit uses the 2023 Epistemology of the World and 2024 Moral Realism: Two Camps raw conversations. It separates observation-profile equivalence from object-profile identity, preserves the cross-field Doms/Domdom structure, and identifies the historical assistant descriptor-row shift and taxonomy overgeneralizations.
+- Existing Panagnosticism PR #1743 already contains the relevant observer-evidence equivalence theorem; its merge-reference CI run #43712724436 succeeded (8,978 jobs), but exact-head verification was not established. No new Lean module, theorem, PR, or run.
+- This is archival cognition/epistemology work, separate from P1. P1 remains frozen and OVERDUE / NOT READY. No trial, protocol change, physical calculation, CODATA scoring, paper-gate advancement, or theory promotion.
+- SAT-O1 and Blockwave Git blob identities were re-fetched; prior byte-verified SHA-256 values and provenance are preserved in the receipt. Corrected equations: none.
+- Next deeper cursor: define separate proposition-to-observation-profile and object-to-property-profile maps; specify Doms relation semantics and composition conditions before formalizing.
+- No authenticated current Orson thread, cross-thread delivery, Sable handoff, or acknowledgment is claimed. Existing Archive automation unchanged.
 
 ## Latest checkpoint | 2026-11-20 | h972:s3 | Orson Vay (assistant-level)
 
