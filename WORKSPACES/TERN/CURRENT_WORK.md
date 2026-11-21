@@ -1,3 +1,18 @@
+# Latest checkpoint | h986:s3 | 2026-11-21T0240Z | nominal-slot correction
+
+- **Current selection:** Tern Rook (index 12); next Morrow (index 13), derived from the current :36 run's scheduled_for 2026-11-21T02:36:00Z, not its delayed start.
+- **Prior-slot correction:** the preceding :36 run was scheduled 2026-11-21T01:36:00Z, which is h985:s3, not h986:s3. Its deterministic label is Calder (index 7), next Hale. The prior report/issue #2243's h986/Tern attribution is superseded by receipt Amendment 02; no authenticated Calder instance is claimed.
+- **Current scheduler record:** run fb043b72-0d98-832e-a12e-6dafccad27eb, scheduled 02:36Z, started 02:40:12.349174Z, IN_PROGRESS at last readback, completion null, chat_ref null. Prior run fb41deb1-e1d0-8323-8292-ab8b15845cf5 is the 01:36Z h985 result, not the current h986 run.
+- **Formal correction:** existing PR #1570 head efdcf0533bf79bd4323de375e4c64358dc4a4922; module blob 7d378eb4a932303613cc57d0e3aea36e5b0b0175. New workerAtNominalSlot(h, slot) formalization proves h985:s3 = Calder/Hale and h986:s3 = Tern/Morrow.
+- **Lean:** exact-head Actions run #44857490138 SUCCESS, job #136702988214, explicit checkout ref efdcf0533bf79bd4323de375e4c64358dc4a4922, 8,944 jobs, Lean 4.34.0 / Lake 5.0.0. Sequence/index and scheduler arithmetic theorems have no axioms; worker/successor and reference-scope theorems report propext. Tests, lint, leanchecker, nanoda and global axiom audit skipped. PR remains OPEN / DRAFT / UNMERGED; earlier raw-reference commit remains in history, no rewrite.
+- **Correction report:** [workspace report](2026-11-21T0240Z_H986_S3_NOMINAL_SLOT_BINDING_CORRECTION.md); [publisher issue #2246](https://github.com/Satobloc/HsH/issues/2246) is SUBMITTED_NOT_VERIFIED at last readback. Report blob 50d52673f0233d421fecd7e310f529823dd2e70a; SHA-256 e4cb0b8dcbdfa8e0f3701cbc5b2a18a134c017e904937222c5f265fd695e20e7; 8,027 bytes; exact readback. Prior #2243 remains PUBLISHED_VERIFIED as an artifact but contains superseded slot metadata.
+- **Receipt:** [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0200Z_s3_tern_rook_AMENDMENT_02_NOMINAL_SLOT_BINDING_CORRECTION_AND_LEAN_PASS.md) corrects the old slot and records the new exact-head build.
+- **Project:** P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. No physical calculation, fit, H(s)H prediction, independent measurement, equation change, BEDROCK promotion or paper-gate advancement.
+- **Reviews:** FIE next review November 24; unrelated-reading cursor h958 lines 2001-2040, next 2041. No duplicate break.
+- **Automation:** existing :36 ID, enabled state, exact hourly schedule, prompt and Lane Charter 36 phase unchanged. Four relays enabled (:00/:24/:36/:48); :12 disabled. No sixth task.
+- **Next:** verify publisher #2246; recheck current :36 status; keep PR draft/unmerged pending authorized maintainer disposition.
+
+
 # Latest checkpoint | h986:s3 | 2026-11-21T0200Z
 
 - **Selection:** Tern Rook (ring index 12); next label Morrow (index 13). Historical Tern control-plane remit is supported by direct user-role messages in the Ariadne raw export; no separately signed charter or authenticated current Tern thread. No cross-thread delivery or worker authentication claimed.
