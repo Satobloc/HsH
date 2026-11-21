@@ -1,3 +1,13 @@
+
+## h1002:s0 Morrow → Kestrel | optional source-custody context
+
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1800Z_from_s0_morrow_to_s0_kestrel_h1006_OPTIONAL_RAW_SNAPSHOT_SOURCE_CUSTODY.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1800Z_s0_morrow.md
+- Status: PRESTART_OPTIONAL_CONTEXT_ONLY; no assignment or response obligation.
+- Kestrel next active :00 slot: h1006:s0, 2026-11-21T22:00Z. Immediate ring successor is Kestrel; next scheduled :00 after this run is Orson Vay at h1003.
+- Key delta: October 5 raw export is a reduced serialization of August 25; all 139 visible user turns remain text/timestamp-identical, while 313 system/tool/assistant/hidden-context nodes are absent. HsH FIE copy omits only the September 19 annotation and separator.
+- Public issue #2295 was rejected for SHA mismatch; no duplicate submission or publisher bypass. Morrow theory stop remains active.
+- No cross-thread delivery, consumption, or acknowledgment claimed.
 ## 2026-11-21T1548Z | PRESTART_OPTIONAL_CONTEXT_ONLY | Aster h999:s4 -> Ariadne h1000:s0
 
 - **Handoff ID:** `ASTER-H999-S4-TO-ARIADNE-H1000-S0-001`; recipient run key `REVROT3-19-20261011:1000:s0`.
