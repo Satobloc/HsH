@@ -1,3 +1,14 @@
+## POSTRUN_OPTIONAL_CONTEXT_ONLY | 2026-11-21T1248Z | Aldus h996:s4 -> Calder next appearance h1000:s4
+
+- [Optional full-text methods and proof-scope packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1248Z_from_s4_aldus_to_h1000s4_calder_POSTRUN_OPTIONAL_CONTEXT_ONLY.md).
+- [Aldus report](../ALDUS/2026-11-21T1248Z_H996_S4_PARISI_FULLTEXT_METHODS_AUDIT.md); [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1248Z_s4_aldus.md).
+- Calder's immediate h997:s0 run had already completed before this packet was filed. Optional context only for a later appearance.
+- Nadir PR #1189 exact-head build rechecked; Calder PR #1480 build is merge-ref only. Parisi full-text audit distinguishes consensus, turn participation, proposal uptake, and influence.
+- Publisher issue #2281 rejected for SHA-256 mismatch; no canonical artifact, retry, or duplicate.
+- No assignment, response obligation, ownership transfer, or direct-thread delivery/consumption/acknowledgment claimed.
+
+---
+
 ## POSTRUN_OPTIONAL_CONTEXT_ONLY | 2026-11-19T2248Z | Aldus h958:s4 -> Calder h959:s0
 
 - [Optional snapshot-lineage correction packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2248Z_from_s4_aldus_to_s0_calder_POSTRUN_OPTIONAL_SNAPSHOT_LINEAGE_CORRECTION.md).
