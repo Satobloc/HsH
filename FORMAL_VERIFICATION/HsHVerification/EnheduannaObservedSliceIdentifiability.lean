@@ -152,6 +152,8 @@ Map IDs must be bound externally to immutable code/source digests.
 structure SourceBoundMapLineage where
   candidateId : String
   sourceSpan : SourceSpanWitness
+  /-- Canonical external key bound to the exact source-span witness. -/
+  sourceSpanKey : String
   sourceToCandidateMapId : String
   translationStatus : MapConstructionStatus
   candidateToGeometryMapId : String
@@ -160,53 +162,109 @@ structure SourceBoundMapLineage where
   instrumentMapId : String
 
 /--
-A typed, shared downstream observation chain. Candidate-specific geometry
-representations are compared through the same declared projection, readout,
-and instrument maps unless any variation is explicitly included in Candidate.
+A typed, end-to-end source-to-measurement chain. The source-span key and
+source-to-candidate map identity/status are explicit parts of the contract,
+followed by candidate-to-geometry, geometry-to-slice, slice-to-observable,
+and instrument/readout maps. The sourceSpanKey must be externally bound to
+the exact SourceSpanWitness; Lean does not authenticate that binding.
 -/
 structure ObservationPipeline
-    (Candidate Geometry Slice Observable Measured : Type*) where
+    (Source Candidate Geometry Slice Observable Measured : Type*) where
+  sourceSpanKey : String
+  sourceToCandidateMapId : String
+  sourceToCandidateStatus : MapConstructionStatus
   candidateToGeometryMapId : String
   geometryToSliceMapId : String
   sliceToObservableMapId : String
   instrumentMapId : String
+  sourceToCandidate : Source → Candidate
   candidateToGeometry : Candidate → Geometry
   geometryToSlice : Geometry → Slice
   sliceToObservable : Slice → Observable
   instrumentToMeasured : Observable → Measured
 
-/-- The recorded downstream map identities must match the executable pipeline. -/
+/--
+The source-span key, source-to-candidate map identity/status, and all downstream
+map identities must match the executable pipeline. This is an identity check,
+not a proof that a map is physically or semantically correct.
+-/
 def lineageMatchesPipeline
-    {Candidate Geometry Slice Observable Measured : Type*}
+    {Source Candidate Geometry Slice Observable Measured : Type*}
     (lineage : SourceBoundMapLineage)
-    (pipeline : ObservationPipeline Candidate Geometry Slice Observable Measured) :
+    (pipeline : ObservationPipeline Source Candidate Geometry Slice Observable Measured) :
     Prop :=
+  lineage.sourceSpanKey = pipeline.sourceSpanKey ∧
+  lineage.sourceToCandidateMapId = pipeline.sourceToCandidateMapId ∧
+  lineage.translationStatus = pipeline.sourceToCandidateStatus ∧
   lineage.candidateToGeometryMapId = pipeline.candidateToGeometryMapId ∧
   lineage.geometryToSliceMapId = pipeline.geometryToSliceMapId ∧
   lineage.sliceToObservableMapId = pipeline.sliceToObservableMapId ∧
   lineage.instrumentMapId = pipeline.instrumentMapId
 
+theorem source_span_key_mismatch_breaks_lineage_match
+    {Source Candidate Geometry Slice Observable Measured : Type*}
+    (lineage : SourceBoundMapLineage)
+    (pipeline : ObservationPipeline Source Candidate Geometry Slice Observable Measured)
+    (hMismatch : lineage.sourceSpanKey ≠ pipeline.sourceSpanKey) :
+    ¬ lineageMatchesPipeline lineage pipeline := by
+  intro hMatch
+  exact hMismatch hMatch.1
+
+theorem source_map_identity_mismatch_breaks_lineage_match
+    {Source Candidate Geometry Slice Observable Measured : Type*}
+    (lineage : SourceBoundMapLineage)
+    (pipeline : ObservationPipeline Source Candidate Geometry Slice Observable Measured)
+    (hMismatch : lineage.sourceToCandidateMapId ≠ pipeline.sourceToCandidateMapId) :
+    ¬ lineageMatchesPipeline lineage pipeline := by
+  intro hMatch
+  exact hMismatch hMatch.2.1
+
+theorem source_map_status_mismatch_breaks_lineage_match
+    {Source Candidate Geometry Slice Observable Measured : Type*}
+    (lineage : SourceBoundMapLineage)
+    (pipeline : ObservationPipeline Source Candidate Geometry Slice Observable Measured)
+    (hMismatch : lineage.translationStatus ≠ pipeline.sourceToCandidateStatus) :
+    ¬ lineageMatchesPipeline lineage pipeline := by
+  intro hMatch
+  exact hMismatch hMatch.2.2.1
+
 namespace ObservationPipeline
 
-variable {Candidate Geometry Slice Observable Measured : Type*}
+variable {Source Candidate Geometry Slice Observable Measured : Type*}
 
 /-- Explicit composition from candidate representation to measured output. -/
 def predict
-    (pipeline : ObservationPipeline Candidate Geometry Slice Observable Measured) :
+    (pipeline : ObservationPipeline Source Candidate Geometry Slice Observable Measured) :
     Candidate → Measured :=
   pipeline.instrumentToMeasured ∘
     pipeline.sliceToObservable ∘
     pipeline.geometryToSlice ∘
     pipeline.candidateToGeometry
 
+/-- Full composition from the source object through every declared map. -/
+def predictFromSource
+    (pipeline : ObservationPipeline Source Candidate Geometry Slice Observable Measured) :
+    Source → Measured :=
+  pipeline.predict ∘ pipeline.sourceToCandidate
+
 @[simp] theorem predict_apply
-    (pipeline : ObservationPipeline Candidate Geometry Slice Observable Measured)
+    (pipeline : ObservationPipeline Source Candidate Geometry Slice Observable Measured)
     (candidate : Candidate) :
     pipeline.predict candidate =
       pipeline.instrumentToMeasured
         (pipeline.sliceToObservable
           (pipeline.geometryToSlice
             (pipeline.candidateToGeometry candidate))) := by
+  rfl
+
+@[simp] theorem predictFromSource_apply
+    (pipeline : ObservationPipeline Source Candidate Geometry Slice Observable Measured)
+    (source : Source) :
+    pipeline.predictFromSource source =
+      pipeline.instrumentToMeasured
+        (pipeline.sliceToObservable
+          (pipeline.geometryToSlice
+            (pipeline.candidateToGeometry (pipeline.sourceToCandidate source)))) := by
   rfl
 
 end ObservationPipeline
@@ -358,3 +416,9 @@ end HsHVerification.EnheduannaObservedSliceIdentifiability
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.differing_compatible_property_values_block_identifiability
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.two_compatible_predictions_within_twice_tolerance
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.prediction_separation_excludes_joint_compatibility
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.lineageMatchesPipeline
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.source_span_key_mismatch_breaks_lineage_match
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.source_map_identity_mismatch_breaks_lineage_match
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.source_map_status_mismatch_breaks_lineage_match
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.ObservationPipeline.predict_apply
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.ObservationPipeline.predictFromSource_apply
