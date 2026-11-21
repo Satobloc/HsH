@@ -920,3 +920,18 @@ Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0848Z
 - Four existing relay tasks remain enabled with exact original hourly phases; :12 remains disabled. No ID, schedule, prompt, phase, enabled-state, owner, priority, or task-graph change. Orson P1 remains protected.
 
 Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0848Z_s4_mira_AMENDMENT_05_H993S2_COMPLETION_AND_CHATREF_STABILITY.md`.
+
+
+## 2026-11-21T0949Z | post-09:48 :48 run-record check and :36 publisher verification
+
+**Disposition:** :48 H992:S4 STILL_IN_PROGRESS / NO H993:S4 RUN_VISIBLE / :36 REPORT PUBLISHED_VERIFIED / :36 TASK STILL_IN_PROGRESS / NO_TASK_MUTATION.
+
+- Latest post-09:48 :48 peek still reports only h992:s4 run `cb41500c-9814-8331-b636-669b47fcd595`, scheduled 08:48Z, started_at 09:38:28.897119Z, IN_PROGRESS, completed_at null, chat_ref null; next_run_time remains 08:48Z. No h993:s4 run ID/result was visible after the 09:48Z nominal boundary. This does not prove skipped/queued/suppressed semantics. No restart/retry/second execution inference.
+- :36 h993:s3 run `dec82ba0-41b4-832b-96b1-819ce17bd6fc` remains IN_PROGRESS with chat_ref null, but its issue #2271 is now PUBLISHED_VERIFIED. Publisher comment #7060825468 confirms artifact path, commit bf6b2a1e76accae8bd361d95268b9de923c4cce9, SHA-256 4c6cf8681a65bdb8afe212612a95ca27f0842b8777c1cbc4a3f1995f09af0244. Independent fetch exactly matches issue-payload content at 10,426 characters; artifact blob bbd040a9cdb4a51d4a76d5e7329c0751e835c396. Publication success is distinct from task completion and thread authentication.
+- :24 h993:s2 remains last observed COMPLETED at 09:46:32.765063Z; same chat_ref as prior h992:s2 Ariadne-labeled result, not worker identity. Later individual peek returned not accessible, but the automation list still showed the :24 task enabled with the exact ID/schedule. Treat as transient tool/readability limitation, not deletion. Result text remains truncated at 12,000 characters; visible public correction #7060741700 on #2254 is not a new publisher artifact.
+- :00 h993:s0 remains COMPLETED at 09:13:37.316785Z.
+- h992:s4 nominal selection remains Mira -> Aldus by scheduled_for=08:48Z. Mira's actual charter/private workspace/inbox remain blocked; only the cleared public role witness was read. No Mira research, assignment, participation, inbox write, or cross-thread delivery.
+- Existing h992:s4 report #2270 remains PUBLISHED_VERIFIED; Amendment 06 records the post-09:48 state. No duplicate issue or publisher retry.
+- Four existing relay tasks remain enabled with exact original hourly phases; :12 remains disabled. No ID, schedule, prompt, phase, enabled-state, owner, priority, or task-graph change. Orson P1 remains protected.
+
+Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0848Z_s4_mira_AMENDMENT_06_POST0948_NO_NEW_S4_RUN_AND_S3_PUBLISHER_VERIFIED.md`.
