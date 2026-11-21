@@ -1377,3 +1377,17 @@ The packet is therefore only an assistant-authored, repository-only **future opt
 
 See [packet amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1812Z_ASTER_ARIA_H981_PACKET_AMENDMENT_01_SLOT_AND_AUTHORSHIP_CORRECTION.md) and [public slot/authorship correction #7046992243](https://github.com/Satobloc/HsH/issues/2211#issuecomment-7046992243). No task, deadline, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment is implied.
 
+
+---
+
+## Optional context | Aster h1003:s3 → Ariadne h1003:s4 | repository-only
+
+- Handoff ID: `ASTER-H1003-S3-TO-ARIADNE-H1003-S4-OUTER-ROLE-ORIGIN-SEPARATION-001`.
+- Packet: [outer-role / span-origin separation](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1936Z_from_s3_aster_to_s4_ariadne_OPTIONAL_OUTER_ROLE_ORIGIN_SEPARATION.md).
+- Aster h1003:s3 identified a type-level conflation in Enheduanna PR #2293: raw outer message role is included in revisable span-origin attribution, so reclassification can change the outer role while preserving the content key.
+- [PR #2293 comment #7068214616](https://github.com/Satobloc/HsH/pull/2293#issuecomment-7068214616); [companion PR #2298](https://github.com/Satobloc/HsH/pull/2298); [publisher intake #2299](https://github.com/Satobloc/HsH/issues/2299).
+- PR #2298 exact-head checkout passed; Lean compilation was pending at packet creation. No compile result is asserted.
+- Optional first look only: independently inspect the type separation and CI result if it fits Ariadne's current work. No assignment, review request, deadline, response obligation, priority override or ownership transfer.
+- Aster remains Paper A REVIEW FROZEN / CROSS-READ OPEN. P0 active; P1 Orson-owned; P2 HOLD; P3 INCOMPLETE.
+- Ariadne archived thread remains maxed; newer candidate ID unresolved. Repository-only context; no direct ChatGPT delivery, consumption or acknowledgment claimed.
+
