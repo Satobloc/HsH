@@ -126,7 +126,7 @@ theorem oppositeSign_isoclinic (omega : ℝ) :
       scalarDiagonal (-(omega ^ 2)) := by
     ext i j
     fin_cases i <;> fin_cases j <;>
-      simp [twoRateSquareDiagonal, scalarDiagonal, sq_neg]
+      simp [twoRateSquareDiagonal, scalarDiagonal] <;> ring
   rw [h, scalarDiagonal_eq_smul_identity]
 
 /-- The current squared-generator invariant cannot distinguish the
@@ -161,7 +161,6 @@ theorem twoRateRotationMatrix_pfaffian (omega1 omega2 : ℝ) :
     pfaffian4 (twoRateRotationMatrix omega1 omega2) =
       omega1 * omega2 := by
   simp [pfaffian4, twoRateRotationMatrix]
-  ring
 
 /-- The co-rotating branch has positive Pfaffian omega squared. -/
 theorem sameSign_pfaffian (omega : ℝ) :
@@ -176,7 +175,7 @@ theorem oppositeSign_pfaffian (omega : ℝ) :
   ring
 
 /-- The quadratic SO(4) rate invariant used by the Meridian two-rate map. -/
-def spectralS (M : Matrix4) : ℝ :=
+noncomputable def spectralS (M : Matrix4) : ℝ :=
   -(1 / 2 : ℝ) * Matrix.trace (M * M)
 
 /-- For the block-diagonal two-rate generator, S is the sum of the squared
@@ -184,17 +183,19 @@ def spectralS (M : Matrix4) : ℝ :=
 theorem twoRateRotationMatrix_spectralS (omega1 omega2 : ℝ) :
     spectralS (twoRateRotationMatrix omega1 omega2) =
       omega1 ^ 2 + omega2 ^ 2 := by
+  unfold spectralS
   rw [twoRateRotationMatrix_sq]
-  simp [spectralS, twoRateSquareDiagonal, Matrix.trace, Fin.sum_univ_succ]
+  simp [twoRateSquareDiagonal, Matrix.trace, Fin.sum_univ_succ]
   ring
 
 /-- The SO(4) discriminant is the squared difference of the two squared rates. -/
-def spectralDiscriminant (M : Matrix4) : ℝ :=
+noncomputable def spectralDiscriminant (M : Matrix4) : ℝ :=
   (spectralS M) ^ 2 - 4 * (pfaffian4 M) ^ 2
 
 theorem twoRateRotationMatrix_discriminant (omega1 omega2 : ℝ) :
     spectralDiscriminant (twoRateRotationMatrix omega1 omega2) =
       (omega1 ^ 2 - omega2 ^ 2) ^ 2 := by
+  unfold spectralDiscriminant
   rw [twoRateRotationMatrix_spectralS, twoRateRotationMatrix_pfaffian]
   ring
 
@@ -237,7 +238,8 @@ theorem sameSign_relativeRate_zero (omega : ℝ) :
 /-- Opposite-sign equal-magnitude generators have a doubled relative rate. -/
 theorem oppositeSign_relativeRate_twice (omega : ℝ) :
     relativeRate omega (-omega) = 2 * omega := by
-  ring_nf
+  unfold relativeRate
+  ring
 
 #print axioms twoRateRotationMatrix_skew
 #print axioms twoRateRotationMatrix_trace_zero
