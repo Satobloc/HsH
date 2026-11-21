@@ -2,7 +2,7 @@
 
 The h990:s4 cross-boundary note distinguishes the normal-bundle fiber volume form \(J=*T^\flat\) from the distributional Poincare-dual 3-current of a 1D centerline and from the 4D finite-core tube. A normalized closed Thom form on the oriented rank-three normal bundle, followed by tubular pushforward and a weak-limit condition, is a candidate mathematical bridge. It is not source-defined or physically validated.
 
-Original report #2258 is PUBLISHED_VERIFIED. Its two §6 source SHA-256 strings were incorrect; Amendment 01 #2259 gives recomputed hashes. Amendment 01's statement that #2258 was still pending was also incorrect; Amendment 02 #2260 corrects that chronology. Check both amendment publisher receipts before treating the chain as fully closed. No source file or equation was changed.
+Original report #2258, source-hash Amendment 01 #2259, and publication-status Amendment 02 #2260 are all PUBLISHED_VERIFIED. Amendment 01 supplies the recomputed SAT-O1 and Blockwave source hashes; Amendment 02 corrects Amendment 01's inaccurate publication-status sentence. Receipt Amendment 01 corrects the original receipt's #2259 status-at-creation line. No source file or equation was changed.
 
 The 2025-09-18 direct user instruction selected an editorial 3-form path; the detailed equations were supplied by the immediately following assistant response. Later assistant-derived files are not independent confirmations. The source-role distinction is preserved.
 
