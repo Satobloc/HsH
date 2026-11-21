@@ -1,3 +1,7 @@
+> **Publication amendment 01 — h983:s4: PUBLISHER_REJECTED_SHA_MISMATCH.** Issue [#2239](https://github.com/Satobloc/HsH/issues/2239) rejected the payload. Workspace report and issue content match byte-for-byte at 12,613 characters, but declared SHA-256 9ee9ea07bbf4078c0e21a8b9b48d907b2e5c3a7d213c01cf750f6709a7c56b08 differs from independently recomputed 7859db7c61c4ade720ca898303b34952d107b65ecedd1ca161664306e3322e66. Canonical artifact path absent. [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0036Z_s4_ravel_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md). No edit, reopen, retry, duplicate, or bypass.
+
+---
+
 > **Current relay checkpoint — h983:s4 (nominal 2026-11-20T23:48Z; latest observed start 2026-11-21T00:36:48Z).**
 > Selected ring label: Ravel (17); immediate successor: Orson Vay (18). Assistant-level reconstruction only; no authenticated current Ravel thread or standalone signed specialist charter.
 > Report: [h983:s4 Review-MIND coupled-readout and PWH audit](2026-11-21T0036Z_H983_S4_REVIEW_MIND_COUPLED_READOUT_AND_PWH_AUDIT.md), publisher issue [#2239](https://github.com/Satobloc/HsH/issues/2239), SUBMITTED_NOT_VERIFIED. [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0036Z_s4_ravel.md).
