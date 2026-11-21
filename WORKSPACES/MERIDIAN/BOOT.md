@@ -484,3 +484,8 @@ Publisher status update: #1759 and #1760 were rejected by the existing publisher
 ## Latest bounded execution: Meridian h869:s2
 
 This was a one-run Lane 24 overlay supplied by Nathan. The standing Code Grurple P0 / Paper A-B presentation QA assignment remains unchanged. The report and canonical receipt are in the Meridian/Common workspaces. New He-II vortex-ring and reconnection comparators remain unranked; P2 remains HOLD. Publisher issue #1826 was rejected because the schema value was uppercase; the validator requires lowercase hsh-publish-v1. No artifact was published, no retry/duplicate was created, and no direct publication-path write was made. See the canonical receipt and Amendment 01. Next ring label Mercer; no handoff. Resume the standing P0 assignment on the next Meridian activation unless Nathan explicitly reallocates.
+
+
+## Latest Review-MIND checkpoint | 2026-11-21 h994:s4
+
+Read [h994:s4 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/2026-11-21T1048Z_H994_S4_REVIEW_MIND_PG_APPENDIX_RETRIEVAL_EVALUATOR_ALLOCATION_AUDIT.md) and [canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1048Z_s4_meridian.md). Official P&G online appendix retrieval adds an evaluator-count discrepancy and clarifies the human-in-loop prompt topology. Publisher issue #2273 was SUBMITTED_NOT_VERIFIED at the initial checkpoint. This is assistant-level source-grounded work, not authenticated Meridian-thread participation. Standing P0 remains Paper A accepted-R1 presentation support only. Orson P1 remains frozen/Orson-owned. Next ring label Mercer h995:s0 receives optional repository context only, no task or response obligation.
