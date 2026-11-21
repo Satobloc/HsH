@@ -371,3 +371,7 @@ The historical thread is not an authenticated current destination. A scheduled r
 ### h937:s3 publisher amendment
 - Issue #2044 publisher run #44439337222 failed HTTP 409 on PUT; exact cause unknown, canonical artifact 404. Status PUBLISHER_FAILED_HTTP_409 / NOT_PUBLISHED. Do not retry or duplicate.
 - [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0136Z_s3_kestrel_AMENDMENT_01_PUBLISHER_HTTP_409.md).
+
+### H987:s0 — latest source crosswalk
+
+Kestrel remains a cross-boundary synthesis companion, not primary auditor or provenance adjudicator. The current geometry-fidelity crosswalk separates recursive self-nesting, inter-carrier coupling, and high-speed kinematic deformation. Do not merge the June 23 45° descriptor with current normal-relative theta4 without a source-defined metric/frame/map. See [H987 crosswalk](2026-11-21T0300Z_H987_S0_4DHH_WORLDLINE_WORLDTUBE_ANGLE_CROSSWALK.md) and [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0300Z_s0_kestrel.md). No public issue or theory promotion; existing reports reused.
