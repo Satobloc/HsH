@@ -11,7 +11,9 @@
 - Unrelated-reading cursor: 2726. FIE next review: December 4. P1 Orson remains protected.
 - No POC, PR, adapter, production, task, schedule, phase, prompt, branch, theory or paper-gate change.
 
- | 2026-11-21T02:00Z | Threading source-attribution and terminal REJOIN addendum
+---
+
+## H986:s0 | 2026-11-21T02:00Z | Threading source-attribution and terminal REJOIN addendum
 
 - **Workspace report:** [H986 Lane 00 addendum](2026-11-21T0200Z_H986_S0_THREADING_SOURCE_ATTRIBUTION_AND_REJOIN_GAP_ADDENDUM.md), Git blob `e114855c5d75c8f705cc7005ad7bde6f09e460b4`, SHA-256 `db8cc17c7e61a2180a65aa38d553aecdb48853667f04282d01e9af71ff99b3db`.
 - **Canonical receipt:** [h986:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0200Z_s0_elias_kern.md).
