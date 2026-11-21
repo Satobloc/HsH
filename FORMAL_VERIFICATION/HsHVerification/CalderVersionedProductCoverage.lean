@@ -286,4 +286,160 @@ theorem current_v1_metadata_snapshot_is_not_analysis_ready :
 #print axioms v1_empty_early_release_endpoint_does_not_support_global_absence
 #print axioms current_v1_metadata_snapshot_is_not_analysis_ready
 
+
+/-!
+## Prediction-readiness is a separate gate from product availability
+
+The earlier AnalysisReadiness contract asks whether a versioned product is
+actually acquired and characterized well enough to analyze. It does not ask
+whether an H(s)H prediction is sufficiently specified to test.
+
+The second contract below requires a source equation set, source geometry,
+explicit projection and readout maps, a frozen candidate family, a versioned
+standard comparator, shared parameters fixed before holdout access, a
+source-bound acquisition-unit map, a unit-level calibration/holdout split,
+a locked holdout, a frozen prediction, a joint uncertainty model, and a
+predeclared falsification rule.
+
+calibrationHoldoutSeparated is only a status field. Its evidence must be
+supported by an acquisition-unit map satisfying the existing
+CalderUnitLineageHoldout factorization condition; it does not itself prove
+statistical independence.
+
+The abstract counterexample below is a Boolean contract witness only. It is
+not a physical fixture, synthetic dataset, numerical calculation, or
+measurement.
+-/
+
+/-- Preregistered source-to-observable and comparison requirements, separate
+    from the readiness of the raw product bytes. -/
+structure PredictionContractReadiness where
+  sourceEquationSetBound : Bool
+  sourceGeometryBound : Bool
+  projectionMapBound : Bool
+  readoutMapBound : Bool
+  candidateFamilyFrozen : Bool
+  standardComparatorBound : Bool
+  sharedParametersFrozen : Bool
+  acquisitionUnitMapBound : Bool
+  calibrationHoldoutSeparated : Bool
+  holdoutLocked : Bool
+  predictionFrozen : Bool
+  uncertaintyModelBound : Bool
+  falsificationRuleFrozen : Bool
+  deriving DecidableEq, Repr
+
+/-- A prediction is ready only when every source, map, comparator,
+    identifiability, holdout, uncertainty, and decision-rule obligation is
+    explicitly bound. -/
+def predictionContractReady (state : PredictionContractReadiness) : Bool :=
+  state.sourceEquationSetBound
+    && state.sourceGeometryBound
+    && state.projectionMapBound
+    && state.readoutMapBound
+    && state.candidateFamilyFrozen
+    && state.standardComparatorBound
+    && state.sharedParametersFrozen
+    && state.acquisitionUnitMapBound
+    && state.calibrationHoldoutSeparated
+    && state.holdoutLocked
+    && state.predictionFrozen
+    && state.uncertaintyModelBound
+    && state.falsificationRuleFrozen
+
+/-- Evaluation requires both an analysis-ready measured product and a
+    separately ready prediction contract. -/
+def evaluationReady
+    (data : AnalysisReadiness)
+    (prediction : PredictionContractReadiness) : Bool :=
+  analysisReady data && predictionContractReady prediction
+
+/-- Abstract complete-data witness. This is a logical gate example, not a
+    claim that any physical dataset has these properties. -/
+def abstractCompleteAnalysisReadiness : AnalysisReadiness :=
+  { eventVersionBound := true
+    productVersionBound := true
+    locatorBound := true
+    bytesAcquired := true
+    sha256Verified := true
+    calibrationVersionBound := true
+    psdBound := true
+    dataQualitySegmentsBound := true
+    covarianceBound := true }
+
+/-- Abstract unspecified-prediction witness. No physical system is encoded. -/
+def abstractUnspecifiedPredictionContract : PredictionContractReadiness :=
+  { sourceEquationSetBound := false
+    sourceGeometryBound := false
+    projectionMapBound := false
+    readoutMapBound := false
+    candidateFamilyFrozen := false
+    standardComparatorBound := false
+    sharedParametersFrozen := false
+    acquisitionUnitMapBound := false
+    calibrationHoldoutSeparated := false
+    holdoutLocked := false
+    predictionFrozen := false
+    uncertaintyModelBound := false
+    falsificationRuleFrozen := false }
+
+/-- The current GW241011 metadata case has no source-defined H(s)H
+    geometry-to-readout prediction contract. This status does not select it
+    as P2 or claim a physical test. -/
+def gw241011O4V1CurrentPredictionContract : PredictionContractReadiness :=
+  { sourceEquationSetBound := false
+    sourceGeometryBound := false
+    projectionMapBound := false
+    readoutMapBound := false
+    candidateFamilyFrozen := false
+    standardComparatorBound := false
+    sharedParametersFrozen := false
+    acquisitionUnitMapBound := false
+    calibrationHoldoutSeparated := false
+    holdoutLocked := false
+    predictionFrozen := false
+    uncertaintyModelBound := false
+    falsificationRuleFrozen := false }
+
+/-- Product-data readiness alone does not imply a testable prediction. -/
+theorem analysis_readiness_does_not_imply_prediction_readiness :
+    analysisReady abstractCompleteAnalysisReadiness = true
+      ∧ predictionContractReady abstractUnspecifiedPredictionContract = false := by
+  decide
+
+theorem evaluation_ready_implies_analysis_ready
+    (data : AnalysisReadiness)
+    (prediction : PredictionContractReadiness)
+    (h : evaluationReady data prediction = true) :
+    analysisReady data = true := by
+  simp [evaluationReady] at h
+  exact h.1
+
+theorem evaluation_ready_implies_prediction_contract_ready
+    (data : AnalysisReadiness)
+    (prediction : PredictionContractReadiness)
+    (h : evaluationReady data prediction = true) :
+    predictionContractReady prediction = true := by
+  simp [evaluationReady] at h
+  exact h.2
+
+theorem gw241011_current_prediction_contract_is_not_ready :
+    predictionContractReady gw241011O4V1CurrentPredictionContract = false := by
+  decide
+
+theorem gw241011_current_evaluation_is_not_ready :
+    evaluationReady gw241011O4V1CurrentReadiness
+      gw241011O4V1CurrentPredictionContract = false := by
+  decide
+
+#eval predictionContractReady gw241011O4V1CurrentPredictionContract
+#eval evaluationReady gw241011O4V1CurrentReadiness
+  gw241011O4V1CurrentPredictionContract
+
+#print axioms analysis_readiness_does_not_imply_prediction_readiness
+#print axioms evaluation_ready_implies_analysis_ready
+#print axioms evaluation_ready_implies_prediction_contract_ready
+#print axioms gw241011_current_prediction_contract_is_not_ready
+#print axioms gw241011_current_evaluation_is_not_ready
+
 end HsHVerification.CalderVersionedProductCoverage
