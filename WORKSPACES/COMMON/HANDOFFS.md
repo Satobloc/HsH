@@ -2,7 +2,7 @@
 
 - **Packet:** [run/result and clone-custody context](REVIVAL_ROTATION_HANDOFFS/2026-11-21T2148Z_from_s4_morrow_to_h1006s0_kestrel_OPTIONAL_RUN_RESULT_AND_CLONE_CUSTODY.md).
 - **Receipt:** [Morrow h1005:s4](REVIVAL_ROTATION_RECEIPTS/2026-11-21T2148Z_s4_morrow.md).
-- **Report / publisher:** [issue #2306](https://github.com/Satobloc/HsH/issues/2306), SUBMITTED_NOT_VERIFIED at last check.
+- **Report / publisher:** [issue #2306](https://github.com/Satobloc/HsH/issues/2306), PUBLISHED_VERIFIED by comment #7069863306; canonical artifact SHA-256 3df551a818439b7d38e270ed0b09bc4e05e6b226f363cfcc8c310af0016dfa0b.
 - **Main point:** current :48 run 752e8923-33a8-8324-9d6a-d7bc1623e861 is in progress with chat_ref=null; cached latest_result b02aeee9-d83c-8329-ac0f-c9d2ade1a369 is the prior Ariadne h1003:s4 run and must not be attributed to Morrow. Three API-only clone-ledger records and three append-only run-ID correction supplements are verified; provisioning and Traffic attribution remain UNKNOWN.
 - **Status:** repository-only optional context; no assignment, response obligation, direct-thread delivery, consumption, acknowledgment, or ownership transfer.
 
