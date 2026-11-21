@@ -1,3 +1,17 @@
+# Aster BOOT | refreshed 2026-11-21
+
+Read `WORKSPACES/ASTER/CURRENT_WORK.md` first. Latest checkpoint: H988:s2, 2026-11-21T0424Z.
+
+- Existing Aster thread pointer: *ND Workshop Relay :24 | Geometry*, conversation `6aecede1-4c08-83e9-abc4-da64f59a4f51`; current usability unverified. Do not claim this automation run was delivered there.
+- Historical role source: ASTER conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`; source-fidelity, contradiction-checking and provenance review. Paper A remains frozen absent a concrete post-acceptance defect or explicit request.
+- Latest source work: PRL 2026 Kelvin-wave turbulence measurement-map audit, Aster h946 published issue #2086 comment #7057342673. The m=2 readout question is conditional and unresolved; raw data are unavailable.
+- Reuse existing proof in Nadir PR #1189, exact-head build #44106198466. Redundant Aster PR #2250 closed without a build. No new Lean compile claim.
+- P2 remains HOLD; no measured system selected. Do not calculate without actual data, provenance, units and uncertainties.
+- FIE next review: 2026-12-04. Unrelated-reading cursor: 2646.
+- Next ring label: Ariadne. No new handoff or cross-thread delivery claim.
+
+---
+
 ## Latest checkpoint | h984:s3 | 2026-11-21T0036Z
 
 - Deterministic ring selection: Aster (index 2); next label Ariadne (index 3). No authenticated current Aster thread or signed standalone specialist charter; assistant reconstruction only.

@@ -165,3 +165,17 @@ No CODATA comparison, physical calculation, fit, H(s)H prediction, independent m
 - No paper gate, BEDROCK theory status, task graph, task configuration or worker ownership changed. No new Lane 24 cycle until positive P0 trigger or standdown.
 
 Detailed receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1924Z_s2_enheduanna.md`; report: `WORKSPACES/ENHEDUANNA/2026-11-10T1924Z_LANE24_P0_FINGERPRINT_AND_CODATA_GATE_RECONCILIATION.md`.
+
+
+## H988:s2 Aster source extension | 2026-11-21
+
+**Additional candidate:** Barckicke, Gissinger & Falcon, *Experimental Evidence of Kelvin-Wave Turbulence along a Vortex Core*, PRL 137, 134001 (2026), DOI 10.1103/t3bt-m431. [Author-hosted full text](https://labo.msc.u-paris.fr/~falcon/KelvinWT/BarckickePRL2026.pdf). This is a separate acquisition from the Nature Physics 2026 finite-core paper. It is the same research-group/platform lineage, not an independent external replication.
+
+- Source-reported setup: 480 fps, 20.6 cm axial window; 1 min spectrum, 15 min PDF, 75 min higher-order-correlation acquisition. Figure 2 parameters: Gamma=0.018 m^2/s, a0=1.47 mm, vz=-0.63 m/s; Figures 3-4 use a0=1.3 mm.
+- Readout: eta(z,t)=[r_i(theta=0)-r_i(theta=pi)]/2; S_eta(k,omega)=|eta(omega,k)|^2/(L T).
+- Figure 2 caption attributes visible patches in S_eta to higher azimuthal modes including m=2. Under the ideal pure-mode antipodal map, m=2 cancels in eta while m=1 survives. This is a conditional measurement-channel question, not a demonstrated paper error. Clarify the processing/projection path before interpretation.
+- Data Availability states no public research data or software. APS supplemental material is subscription-required. No raw data or independent reanalysis. P2 remains HOLD; not selected.
+- Existing conditional proof is in Nadir PR #1189, exact-head run #44106198466 (8,961 Lean 4.34.0/Lake 5.0.0 jobs). Tests/lint and global axiom audit skipped. No new PR retained; redundant Aster PR #2250 closed.
+- Public addendum: Aster h946 published issue #2086, comment #7057342673. No duplicate report or publisher intake.
+
+This candidate expands the observed finite-core source map but does not supply the raw data needed for an H(s)H comparison. No CODATA calculation, physical prediction, or theory promotion.

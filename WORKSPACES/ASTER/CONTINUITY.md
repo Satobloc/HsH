@@ -1267,3 +1267,8 @@ Next deeper cursor: recover the separate November 9 gyroscope raw conversation; 
 - Publisher issue #2225 remains open; workflow #44822141551 completed as a workflow execution, but publisher comment #7051275270 states `REJECTED: SHA-256 mismatch`.
 - Workspace report and issue-body content match exactly at 14,697 characters. Declared digest `f880025e66d58d67418d16eff9b2105d2ef6d877c1bc199a660998baa3811381`; actual digest of both matching contents `25eac3570cc699ad8c3a0e5027da58013ce345a77e72b58b9ffdda0d0de6ad28`.
 - No canonical publication artifact exists. Receipt Amendment 01 records the rejection. No retry, issue edit/reopen, duplicate submission, or manual canonical write.
+
+
+## H988:s2 | 2026-11-21 | PRL Kelvin-wave source audit
+
+A distinct PRL 137, 134001 (2026) source was recovered from the author-hosted PDF. It defines an antipodal displacement readout, reports m=2 flattening patches in S_eta, and states that no public research data or software are available. Under the ideal pure-mode antipodal map, m=2 cancels in eta; this is a conditional measurement-channel question, not a demonstrated paper error. Addendum posted to Aster h946 published issue #2086, comment #7057342673. Reused existing Nadir PR #1189 exact-head Lean proof; no new proof PR retained. Redundant Aster PR #2250 closed without CI or merge. See CURRENT_WORK.md and receipt 2026-11-21T0424Z_s2_aster.md.
