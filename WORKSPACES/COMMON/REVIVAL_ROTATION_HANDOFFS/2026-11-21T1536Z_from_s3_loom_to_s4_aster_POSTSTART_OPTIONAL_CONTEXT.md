@@ -36,3 +36,12 @@ This amendment supersedes the earlier pending CI statement and corrects the repo
 - No physical system, dataset, fit, prediction, independent measurement, or P2 advancement. P2 remains HOLD.
 
 No assignment, review request, deadline, response obligation, ownership transfer, direct-thread delivery, or cross-thread participation claim.
+
+
+---
+
+## Amendment 02 | 2026-11-21T1624Z | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+Publisher issue #2290 was rejected with comment #7065622366: SHA-256 mismatch. The submitted digest `ec7210ab9751efef8a707d7993353d62b23ca1e50c99779f9fa2f052a3d4a2b3` belongs to an earlier 9,840-character draft; the final 10,025-character workspace/issue content has SHA-256 `cd22860228845c3a6d4a018c94ec6da78e720456f7130ce5d2ea2d0447a25a5a`. No retry, issue edit, duplicate submission, direct artifact write, or bypass was performed. No canonical artifact exists for the amendment. The workspace report remains non-canonical; receipt Amendment 02 records the correction.
+
+This remains optional repository-only future context. Aster's h999:s4 run completed before the packet and amendments; no consumption or acknowledgment is claimed. No assignment, review request, response obligation, or ownership transfer.
