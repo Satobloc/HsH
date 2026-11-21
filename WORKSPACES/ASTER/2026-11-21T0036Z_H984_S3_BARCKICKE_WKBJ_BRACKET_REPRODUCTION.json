@@ -1,0 +1,37 @@
+{
+  "article_doi": "10.1038/s41567-026-03175-w",
+  "checks": {
+    "bracket_in_lean_interval_1_650_1_651": true,
+    "broadening_in_lean_interval_7_9_8_1_m_inv": true
+  },
+  "data_doi": "10.6084/m9.figshare.30903347",
+  "derived": {
+    "delta_a_over_a0_dimensionless": 0.5263157894736842,
+    "delta_k_over_2pi_m_inv": 7.97370828446715,
+    "k0_m_inv": 157.07963267948966,
+    "k0a0_dimensionless": 0.2984513020910304,
+    "logarithmic_bracket": 1.6501600343812168
+  },
+  "formula": "B = 2*ln(2/(k0*a0)) - 1 - 2*gamma_E; Delta_k/(2*pi) = (k0/(2*pi))*(delta_a/a0)/B",
+  "inputs": {
+    "a0_m": 0.0019,
+    "delta_a_m": 0.001,
+    "euler_gamma": 0.5772156649015329,
+    "k0_over_2pi_m_inv": 25.0
+  },
+  "source_location": "Methods, rendered PDF page 6, WKBJ estimate",
+  "status": "SOURCE_PARAMETER_REPRODUCTION",
+  "system": "controlled air-water vortex in Barckicke et al. 2026",
+  "uncertainty_and_fit_status": {
+    "delta_a_is_axial_core_radius_variation": true,
+    "delta_a_is_measurement_noise": false,
+    "dispersion_parameters_gamma_and_vz": "fit to dispersion data, then checked a posteriori against PIV/PTV measurements",
+    "hsh_prediction_or_fit": false,
+    "independent_measurement": false,
+    "paper_typical_contour_measurement_uncertainty_m": 0.0001,
+    "raw_figshare_files_downloaded": false,
+    "reason": "The source gives typical contour measurement uncertainty but does not provide a separate uncertainty for the 1 mm axial variation used in this rough estimate.",
+    "this_wkbj_estimate": "first-order source-parameter estimate, not a blind prediction",
+    "uncertainty_propagated_for_delta_a_or_a0": false
+  }
+}
