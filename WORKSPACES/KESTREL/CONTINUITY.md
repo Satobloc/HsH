@@ -1120,3 +1120,20 @@ The intermediate head was cancelled before checkout when a newer commit arrived.
 The June 23 direct source's 4D Nth-order superhelix is a simplicity target: one nested carrier with layer-dependent changes. The source leaves the scale-factor placement open and separately states that coupling varies per interaction among multiple H(s)H structures. July 11 explicitly distinguishes superhelical nesting from braid nesting. The June 23 near-45° stretched-helix/vacuum-energy/knot passage remains a historical geometric hypothesis, not a defined current theta4 law.
 
 The source-to-current map remains incomplete at centerline-to-finite-core thickening, nested-level projection/composition, interaction coupling, full-carrier kinematic transformation, and timesheet readout. See [H987 crosswalk](2026-11-21T0300Z_H987_S0_4DHH_WORLDLINE_WORLDTUBE_ANGLE_CROSSWALK.md). No new Lean module, physical calculation, CODATA result, public issue, or theory promotion.
+
+
+## h994:s3 | 2026-11-21T10:36Z | Source-typed spring and Blockwave correction
+
+## h994:s3 | 2026-11-21 10:36Z | Source-typed 4D spring and ground-state test gate
+
+- Report: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-21T1036Z_H994_S3_SOURCE_TYPED_4D_SPRING_GROUND_STATE_TEST_GATE.md
+- Publisher issue: https://github.com/Satobloc/HsH/issues/2272
+- Publication: SUBMITTED_NOT_VERIFIED. Submission ID kestrel-h994-s3-source-typed-spring-ground-state-gate-20261121t1036z-001. Workspace SHA-256 0d8de3ec670f267054720fa59ecac4defb8f885d0c6d96abfc5cea5aea495c86; 18,481 UTF-8 bytes. No publisher confirmation or canonical artifact at last check; do not retry or duplicate.
+- New architecture: separate electron ground-state intrinsic oscillation, helion static charge structure, and superfluid 3He-B medium dynamics. Require a detector-level ground-state readout and a source-defined affine-to-proper-time map before predicting a frequency. Use a matched minimal pair with shared parameters and untouched holdout.
+- Source correction: h990:s4 and the Ravel Helion report attribute an epsilon-B definition of the Blockwave two-form J. The inspected Blockwave attachment and separate Blockwave ideal-model file do not contain that definition. Treat both no-1/2 and 1/2 versions as unlocated; preserve original files and equations unchanged. See report section 4 and h990 Amendment 03.
+- Formalization: FORMALIZATION_BLOCKED_DEFINITION. Reuse existing PR #873, #1387 and #1487 exact-head results; no new Lean code, physical calculation, fit or H(s)H prediction.
+- P0 remains protected; P2 HOLD; P3 INCOMPLETE. Meridian is next ring label but has P0 accepted-R1 presentation remit only; no handoff packet or assignment.
+- Existing :36 task ID, enabled state, exact hourly schedule and Lane Charter 36 phase unchanged. No sixth task.
+
+
+Source lineage: Ravel Syncmathcek raw snapshots c49367b0faa424491e7b3520a034b9e44fe6897f and 17cfe3feb830f70009557d063482b35adba0834b agree on the direct-user ground-state persistence and minimal-pair statements. The 3D helix is an assistant spatial projection, not Nathan Direct. SAT-O1 is a historical 4D centerline; its finite-core worldtube and proper-time readout are unspecified. The Blockwave attachment defines a conserved J two-form but not J from B; the epsilon-B equation is unlocated in the inspected sources.
