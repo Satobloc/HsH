@@ -1,3 +1,21 @@
+## Latest checkpoint | Calder h989:s2 | 2026-11-21 05:24Z | Lane 24 measurement-map and WWRD source audit
+
+- Canonical receipt: [h989:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0524Z_s2_calder.md); [Amendment 01: correct :24 task ID](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0524Z_s2_calder.md).
+- Selection: Calder (ring index 7); next Hale (index 8). Assistant reconstruction only; no authenticated Calder thread/instance.
+- Finite-core source note: [P2 issue #565 comment #7058043773](https://github.com/Satobloc/HsH/issues/565#issuecomment-7058043773). The stated antipodal two-point readout is an odd/even parity projection and aliases m with m+2. The source's stronger m=1/all-other assignment needs an additional mode restriction or estimator; classify as unresolved identifiability, not paper error. Figshare locator verified; raw bytes/version/covariance not recovered.
+- WWRD source update: [issue #1096 comment #7058042060](https://github.com/Satobloc/HsH/issues/1096#issuecomment-7058042060). Added a historical 1989 raw force-time trace, Hu et al. 2023 instrumented kernmantle test, and UIAA 101 v9.1 protocol. None tests a controlled helical kink with axial tension and torsion; WWRD remains first-blush heuristic.
+- Formalization reused: Nadir PR #1189 exact head `da1e7d5dff0cdbc1d81303e3c573b79832087a38`, run #44106198466, 8,961 Lean/Lake jobs. Tests/lint/global axiom audit skipped. No new Lean run; no local Lean/Lake. Synthetic state-pair and quarter-turn additions remain NOT_EVIDENCE.
+- WH-02 status: [issue #1702 comment #7058044914](https://github.com/Satobloc/HsH/issues/1702#issuecomment-7058044914). PR #1710 is 7 ahead / 8,314 behind, zero exact-head Actions runs and zero formal reviews; owner-controlled rebase remains unperformed.
+- P0 ACTIVE / Tern-owned. PR #2009 is 3 ahead / 2,897 behind, zero exact-head Actions runs and zero formal reviews. Eight protected A/B objects remain unchanged by ancestry from h987's verified baseline; no fresh eight-object re-fetch this run.
+- P1 November 9 minor: OVERDUE / NOT READY / ORSON-OWNED. P2 November 30: HOLD. P3 December 14: INCOMPLETE. Lane 24 Cycle 08/08: BACKSEAT / HOLD; no system selected, no physical fit/prediction, no independent measurement, no CODATA comparison.
+- Mersearch: four canonical request lanes occupied; no request changed. No new tooling, dependency, fork, subscription or cost.
+- Three-repo front doors and routing docs read; HSH_RESOURCES private payload not opened. No repo clone/checkout initiated. No SAT-O1/Blockwave equation used or altered; prior h988 custody record remains the reference.
+- Reading cursor remains 2646; FIE last reviewed November 20, next due December 4. No unrelated reading break or FIE re-review this cycle.
+- Optional repository-only prestart context for Hale: [packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0524Z_from_s2_calder_to_s3_hale_PRESTART_OPTIONAL_FINITE_CORE_AND_WWRD_SOURCE_MAP.md); [Hale INBOX updated](../HALE/INBOX.md). No authenticated Hale thread, direct delivery, consumption or acknowledgment claim.
+- :24 task remains enabled, exact ID `6abda4c8eda88191bf23a6f2849e9a17`, schedule `DTSTART;TZID=America/New_York:20261001T142400` / `RRULE:FREQ=HOURLY`. :12 remains disabled. No task/ID/schedule/prompt/phase change, no sixth task, no signet or conversation rename.
+
+---
+
 ## Latest checkpoint | Calder h978:s0 | 2026-11-20 18:00Z | Lane 00 cross-report geometry-fidelity reconciliation
 
 - Report: [Lane 00 cross-report geometry-fidelity reconciliation](2026-11-20T1800Z_H978_S0_LANE00_CROSS_REPORT_GEOMETRY_FIDELITY_RECONCILIATION.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1800Z_s0_calder.md).
