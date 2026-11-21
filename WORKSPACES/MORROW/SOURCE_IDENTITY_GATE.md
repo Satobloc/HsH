@@ -568,3 +568,42 @@ Use separate fields, not one composite green status:
 ### Limits
 
 This layer does not change the source convention, release any quarantined theory artifact, establish a live Morrow thread, or authorize access to private HSH_RESOURCES material. It does not alter task ownership, scheduler configuration, paper gates, BEDROCK, SAT-O, or Blockwave equations. No physical calculation, fit, prediction, independent measurement, Lean theory proof, paper work, or theory promotion is part of this layer.
+
+
+## Additive Layer 16 — Workflow Definition, Execution, and Artifact Custody
+
+**Introduced:** h994:s2, nominal 2026-11-21T10:24Z.  
+**Disposition:** SOURCE-CUSTODY / OPERATIONAL-PROVENANCE ONLY. This layer does not authorize scanner execution, candidate disposition, theory work, or access beyond existing permissions.
+
+A workflow definition, configured trigger, run record, job execution, artifact upload, artifact retrieval, and committed output are different evidence objects. Do not collapse them into a single `WORKFLOW_EXISTS` or `REPORT_EXISTS` claim.
+
+### Required event/artifact distinctions
+
+1. **WORKFLOW_DEFINITION_VERIFIED** — exact workflow path/blob is present in a pinned repository tree.
+2. **TRIGGER_CONFIGURED** — the pinned workflow definition specifies a push, schedule, dispatch, or other trigger. A `workflow_dispatch` declaration establishes capability, not execution.
+3. **RUN_OBSERVED** — an exact Actions run ID/event/commit association is retrieved. A workflow file or commit alone does not prove a run occurred.
+4. **JOB_STEP_OBSERVED** — exact job and relevant step records/logs are retrieved. An empty or unavailable Jobs API result is not evidence of zero checkout or zero provisioning.
+5. **ARTIFACT_UPLOAD_VERIFIED** — a successful upload step and artifact identity/metadata are observed. An artifact name in YAML is only a configured destination.
+6. **ARTIFACT_READBACK_VERIFIED** — the artifact bytes are actually retrieved and checked, preferably with byte count and SHA-256.
+7. **COMMITTED_OUTPUT_VERIFIED** — a generated output file is independently found in a pinned repository tree. An Actions artifact is not a committed file.
+
+### Rules
+
+- A workflow may generate files in its runner workspace and upload them without committing them. In that case, an artifact-output route exists while a committed report surface remains absent.
+- Do not infer that no push-triggered run occurred from a connector wrapper that exposes only pull-request-triggered runs or a bounded first page.
+- Preserve `RUN_NOT_OBSERVED`, `JOB_NOT_INSPECTED`, `ARTIFACT_NOT_VERIFIED`, `COMMITTED_OUTPUT_NOT_ESTABLISHED`, and `PROVISIONING_UNKNOWN` separately.
+- A later report revision that says no workflow exists must be checked against the exact tree at the report's own commit, not merely today's main branch.
+- Do not dispatch, rerun, download, delete, or disposition artifacts outside the selected worker's authority and available tools.
+
+### Applied case: MORROW-SOURCE-001
+
+- Current Mercer QA report: `WORKSPACES/MERCER/SUPERSET_SCANNER_QA_2026-09-13.md`, current blob `67b8506f1239047db31d0fb69186df8c6b8b982b`.
+- Initial QA version at report commit: blob `20a3703d1b52421dee04388499e0e2631bce125f`; it did not contain the later sentence claiming no scanner workflow existed.
+- Existing workflow: `.github/workflows/superset-conversation-duplicate-scan.yml`, blob `9bc8211e6281614c843debc499f29ced2f6dc6ec`.
+- Workflow creation commit: `5ef2d75d8c955c931415790ca7e55a94102eae59`, 2026-09-13T08:34:27Z.
+- Mercer QA report commit: `364911089407f1f01246b16a02fe041dfdd79aae`, 2026-09-13T18:56:14Z. The same workflow blob is present in that exact tree.
+- The workflow defines push and manual-dispatch triggers, writes two scanner outputs under `WORKSPACES/COMMON/analysis/`, and uploads `superset-conversation-duplicate-scan`. It does not commit those outputs.
+- Current scanner blob: `343da1678c94d36fc98bd33ede5676211cd53c7c`. Regression test blob: `20afa9df88400c6da8e5847bd1b70cd978aea5c8`.
+- Public additive correction: [issue #2201, comment #7061322242](https://github.com/Satobloc/HsH/issues/2201#issuecomment-7061322242), SHA-256 `a7bbbcfd1e0509cba270372f27f162b14e7c573716d439775e7c8041eda85704`, 3,534 UTF-8 bytes; readback verified.
+
+**Current evidence state:** `WORKFLOW_DEFINITION_VERIFIED / TRIGGER_CONFIGURED / ACTIONS_ARTIFACT_OUTPUT_ONLY / RUN_ARTIFACT_UNVERIFIED / COMMITTED_OUTPUT_NOT_ESTABLISHED / OLD_CANDIDATE_OWNER_UNKNOWN`. The Common `MORROW-SOURCE-001` row remains unchanged pending its authorized maintainer. No workflow was dispatched and no candidate was dispositioned in h994:s2.
