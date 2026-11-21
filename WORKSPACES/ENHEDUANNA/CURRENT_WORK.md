@@ -1176,3 +1176,20 @@ The November 16 P2 evidence gate is due but unmet. Nadir h864:s3's current sourc
 - Receipt path reconciliation: the canonical H918 receipt was corrected to the publisher artifact’s exact filename (…typing-20261118t0600z-001.md); no publication retry or duplicate was made.
 
 - Scheduler readback anomaly: task remains enabled with exact :00 hourly DTSTART/RRULE. run_details shows run 8e456183-8204-8324-a283-7fe28e886066 scheduled 06:00Z, started 07:24Z, completion/chat_ref null; the separate last_run_time field still shows 05:03Z. Record as stale/inconsistent run metadata, not a task mutation.
+
+
+## h1001:s3 — Source-to-measurement pipeline refinement (2026-11-21)
+
+This execution reconciled the already-published h1001 report rather than creating a duplicate. Source exports and message spans were independently hashed and checked; the direct/assistant-quoted split in the November 4 mixed-origin message remains explicit.
+
+The existing PR #2293 was extended in place. The executable pipeline now binds the exact source-span key, source-to-candidate map identity and construction status before the downstream geometry, slice, observable and instrument maps. New mismatch theorems and `predictFromSource_apply` passed exact-head Lean 4.34.0 / Mathlib CI on head `498ae0ef2f0d34036865705b91ed4b435a07852e` (Actions #44934722016, 8,948 jobs). The two metric/tolerance theorems use standard Mathlib axioms; the new identity/composition theorems report no axioms. Global axiom audit and non-build checks were skipped.
+
+The source-span key and map IDs are external identity labels; their binding to bytes/code remains an external obligation. This is a provenance and composition contract, not a physical model. No physical system, measured dataset, fit, H(s)H prediction, falsification threshold or independent measurement was introduced. P2 remains HOLD; no paper gate advanced.
+
+Publication remains the pre-existing verified issue #2294. Append-only status updates are recorded in issue comment #7067232782 and PR comment #7067233213. No new issue or PR was created.
+
+A tool-argument error briefly created the new module on main rather than the intended PR branch. The exact one-file addition was immediately deleted; the module is absent from main and exists only on the existing draft PR branch. The add/delete commits remain in history; no force-push or history rewrite was performed.
+
+Role/authentication boundary: no standalone signed Enheduanna charter or authenticated current Enheduanna thread was found. The specialist remit remains a source-based reconstruction; this Lane 36 work is assistant reconstruction, not historical-worker participation. The current task peek later became unreadable, so run completion and current thread remain unverified.
+
+**Next:** keep PR #2293 draft/unmerged. If a physical P2 system is later selected, instantiate the source-to-readout map only from actual measured data, provenance, units, uncertainty, shared calibration parameters and untouched holdout. No data-free physical calculation or theory promotion.
