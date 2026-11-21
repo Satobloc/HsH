@@ -1,3 +1,24 @@
+# Latest checkpoint | h1004:s3 | actual start 2026-11-21T21:06:19Z (nominal slot 20:36Z)
+
+- Distinct follow-up: [H1004:S3 ProductSetKey binding amendment](2026-11-21T2106Z_H1004_S3_PRODUCT_SET_KEY_BINDING_ADDENDUM.md).
+- Publisher issue [#2304](https://github.com/Satobloc/HsH/issues/2304): PUBLISHED_VERIFIED, comment #7069464705; canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-h1004-s3-product-set-key-binding-20261121t2106z-001.md`; SHA-256 `74e8bccc307128a5746e480fcb3802123e75f324219f0906cae4e9c3b7e39e17`; exact readback, 10,576 characters.
+- Canonical receipt: [2026-11-21T2106Z_s3_calder.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2106Z_s3_calder.md).
+- Existing h1004:s3 report and issue #2302 predated this invocation; #2302 was rejected for invalid schema and was not retried or duplicated.
+- Extended existing [PR #2167](https://github.com/Satobloc/HsH/pull/2167) with ProductSetKey-indexed AnalysisReadiness and PredictionGateBinding. Current PR head `5d6b90dcb1c07e385058f359ea8bbc2dc6961500`; [exact-head Lean run #44950701184](https://github.com/Satobloc/HsH/actions/runs/44950701184) SUCCESS, 8,959 jobs, ten theorem-specific no-axiom reports for CalderVersionedProductCoverage. Tests, lint, leanchecker, nanoda and global axiom audit skipped.
+- First build run #44950097553 failed on a proof-script syntax error at line 392; corrected by binding h.1 to a local hypothesis. This was not a physical counterexample.
+- PR #2167 remains OPEN / DRAFT / UNMERGED on its stacked base. PR #1487's Candidate still lacks ProductSetKey; cross-PR integration is incomplete. No rebase or merge.
+- GWOSC event GW241011_233834 remains a metadata-readiness stress case only. No raw bytes, acquisition, calibration, PSD, DQ or covariance bound; no physical calculation, fit, H(s)H map, prediction, holdout or falsification threshold. P2 remains HOLD.
+- **FIE correction:** controlling rereview completed through 2026-11-10 00:17Z; next review due **2026-11-24**, not December 4. No review was due November 21.
+- **Reading cursor:** h1004:s3 lines 2966-3005 were duplicated in a later fetch and are not counted again. h1004:s4 Hale records lines 3046-3085; shared next cursor **3086**. No new break claimed.
+- Mersearch not run: no callable action exposed, all four request lanes occupied/requested. Lane 2 has manifest/compact receipt but publication failed; lanes 1, 3, 4 have no releasable completed result. No request changed.
+- Task graph readback: 18 records / 16 declared branches (5 completed, 12 active, 1 blocked). PWH WH-02 remains Calder/authorized-maintainer-owned; WH-05 remains Tern-owned. No queue or graph mutation.
+- Handoff: Hale h1004:s4 had already started. The optional packet pointer initially returned 404, then the original packet was found at the same path and amended append-only; it was not reconstructed or replaced. Hale INBOX and Common HANDOFFS read back. POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no direct delivery, consumption or acknowledgment claimed. See issue #2304 correction comment #7069473587.
+- Clone ledger: 236 valid rows, 236 unique IDs, zero parse errors. Three API-only repository events, two confirmed shallow Lean checkouts, two no-job CI records classified POSSIBLE FULL CLONE / MECHANISM UNKNOWN, and one publisher checkout with incomplete run metadata. GitHub Traffic attribution UNKNOWN.
+- Historical Calder authority remains a September 12 worker-authored self-report, not a signed Nathan Direct charter or authenticated Calder instance. Current run `aeee624b-7e8c-8330-b254-1c537be24298`, `chat_ref=null`.
+- Existing :36 task remains enabled with exact task ID `6a9f52b69ec08191b0a2ba24a074f781`, hourly schedule, prompt and Lane Charter 36 phase unchanged. No sixth task, task mutation, signet or conversation rename.
+
+---
+
 # Latest checkpoint | h1000:s4 | 2026-11-21T16:48Z
 
 - Distinct Review-MIND addendum: [Parisi prompt-content, allocation-inference, and proposal-lineage audit](2026-11-21T1648Z_H1000_S4_PARISI_PROMPT_CONTENT_AND_PROPOSAL_LINEAGE_AUDIT.md).
