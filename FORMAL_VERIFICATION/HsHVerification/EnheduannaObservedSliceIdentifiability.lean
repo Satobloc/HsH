@@ -23,9 +23,12 @@ uncertainty model before the theorem can be instantiated empirically.
 
 The source-span example below is an exact locator for one mixed-origin user
 message. The message's outer role is `user`, but an explicitly introduced
-embedded assistant report occupies a different span. The origin labels are
-source-critical classifications encoded as data; Lean does not authenticate
-the raw export or independently establish authorship.
+embedded assistant report occupies a different span. Content identity
+(raw export/body/span bytes and offsets) is kept separate from attribution
+(origin and classification basis): a later attribution correction must not
+change which bytes were present, but must change the identity of claims that
+depend on that attribution. Lean does not authenticate the raw export or
+independently establish authorship.
 
 No physical geometry, detector, dataset, parameter, fit, or H(s)H prediction
 is instantiated here.
@@ -72,6 +75,7 @@ structure SourceSpanWitness where
   conversationId : String
   messageId : String
   bodySha256 : String
+  spanSha256 : String
   outerRole : MessageRole
   startByte : Nat
   endByte : Nat
@@ -79,6 +83,96 @@ structure SourceSpanWitness where
   origin : SourceOrigin
   classificationBasis : String
   nonempty : startByte < endByte
+
+/--
+Content identity for one exact source span. The raw-export, body, and span
+SHA-256 values are computed externally from the retrieved bytes. Lean treats
+them as supplied identifiers; it does not implement or verify SHA-256.
+Attribution is intentionally excluded from this key.
+-/
+structure SourceSpanContentKey where
+  rawExportSha256 : String
+  conversationId : String
+  messageId : String
+  bodySha256 : String
+  startByte : Nat
+  endByte : Nat
+  offsetProfile : String
+  spanSha256 : String
+  nonempty : startByte < endByte
+  deriving DecidableEq, Repr
+
+/-- Source attribution is a revisable interpretation of committed bytes. -/
+structure SourceAttribution where
+  outerRole : MessageRole
+  origin : SourceOrigin
+  classificationBasis : String
+  deriving DecidableEq, Repr
+
+/-- A claim key combines stable content identity with revisable attribution. -/
+structure SourceClaimKey where
+  content : SourceSpanContentKey
+  attribution : SourceAttribution
+  deriving DecidableEq, Repr
+
+/-- Content and attribution travel together, but remain separately addressable. -/
+structure SourceSpanEvidence where
+  content : SourceSpanContentKey
+  attribution : SourceAttribution
+  deriving DecidableEq, Repr
+
+namespace SourceSpanWitness
+
+/-- Build the content key without importing attribution fields. -/
+def contentKey (w : SourceSpanWitness) : SourceSpanContentKey where
+  rawExportSha256 := w.rawExportSha256
+  conversationId := w.conversationId
+  messageId := w.messageId
+  bodySha256 := w.bodySha256
+  startByte := w.startByte
+  endByte := w.endByte
+  offsetProfile := w.offsetProfile
+  spanSha256 := w.spanSha256
+  nonempty := w.nonempty
+
+/-- Extract attribution as a separate, revisable object. -/
+def attribution (w : SourceSpanWitness) : SourceAttribution where
+  outerRole := w.outerRole
+  origin := w.origin
+  classificationBasis := w.classificationBasis
+
+/-- Pair content commitment with the current attribution classification. -/
+def evidence (w : SourceSpanWitness) : SourceSpanEvidence where
+  content := w.contentKey
+  attribution := w.attribution
+
+end SourceSpanWitness
+
+namespace SourceSpanEvidence
+
+def claimKey (e : SourceSpanEvidence) : SourceClaimKey where
+  content := e.content
+  attribution := e.attribution
+
+/-- Reclassification changes attribution while preserving the exact content key. -/
+def reclassify (e : SourceSpanEvidence) (a : SourceAttribution) : SourceSpanEvidence :=
+  { e with attribution := a }
+
+@[simp] theorem reclassify_preserves_content_key
+    (e : SourceSpanEvidence) (a : SourceAttribution) :
+    (e.reclassify a).content = e.content := by
+  rfl
+
+/-- A changed attribution invalidates the claim key but not the content key. -/
+theorem reclassify_changes_claim_key_of_attribution_change
+    (e : SourceSpanEvidence) (a : SourceAttribution)
+    (hDifferent : e.attribution ≠ a) :
+    (e.reclassify a).claimKey ≠ e.claimKey := by
+  intro hEqual
+  apply hDifferent
+  exact (congrArg SourceClaimKey.attribution hEqual).symm
+
+end SourceSpanEvidence
 
 /--
 Direct user-authored prose before the explicit embedded-report marker in
@@ -100,6 +194,7 @@ def nov04DirectSpan : SourceSpanWitness where
   conversationId := "6aea46dd-dc60-83ea-8d50-689c152340e3"
   messageId := "100388c5-89d6-4ffd-a895-598990636057"
   bodySha256 := "8aa01ead3eed55c9b7a48fc5cbeda59a3829e3461d4aa9ba88ed64661b990c78"
+  spanSha256 := "0f4301fa4197de7d3d586d890add92a7ae3375ab5b9466fbcd862e68c80001f5"
   outerRole := .user
   startByte := 0
   endByte := 2374
@@ -119,6 +214,7 @@ def nov04AssistantQuoteSpan : SourceSpanWitness where
   conversationId := "6aea46dd-dc60-83ea-8d50-689c152340e3"
   messageId := "100388c5-89d6-4ffd-a895-598990636057"
   bodySha256 := "8aa01ead3eed55c9b7a48fc5cbeda59a3829e3461d4aa9ba88ed64661b990c78"
+  spanSha256 := "f9d4f9f97ab9968335b909ac45be26cc37768c08749b69793f4959ba7d980db7"
   outerRole := .user
   startByte := 2376
   endByte := 15732
@@ -143,6 +239,37 @@ theorem nov04_source_spans_are_disjoint :
     nov04DirectSpan.endByte ≤ nov04AssistantQuoteSpan.startByte := by
   decide
 
+/-- The two source spans have distinct content commitments despite sharing one message/body. -/
+theorem nov04_span_content_keys_are_distinct :
+    nov04DirectSpan.contentKey ≠ nov04AssistantQuoteSpan.contentKey := by
+  decide
+
+/-- The direct span, two-byte separator, and quoted span retain exact boundaries. -/
+theorem nov04_source_spans_partition_with_two_byte_separator :
+    nov04DirectSpan.startByte = 0 ∧
+    nov04DirectSpan.endByte + 2 = nov04AssistantQuoteSpan.startByte ∧
+    nov04AssistantQuoteSpan.endByte = 15732 := by
+  decide
+
+def nov04DirectEvidence : SourceSpanEvidence := nov04DirectSpan.evidence
+def nov04AssistantQuoteEvidence : SourceSpanEvidence := nov04AssistantQuoteSpan.evidence
+
+/-- Example correction: attribution can be revised without changing the committed bytes. -/
+def nov04DirectReclassified : SourceSpanEvidence :=
+  nov04DirectEvidence.reclassify
+    { outerRole := .user
+      origin := .unknown
+      classificationBasis := "origin unresolved pending later source review" }
+
+theorem nov04_direct_reclassification_preserves_content_key :
+    nov04DirectReclassified.content = nov04DirectEvidence.content := by
+  rfl
+
+theorem nov04_direct_reclassification_changes_claim_key :
+    nov04DirectReclassified.claimKey ≠ nov04DirectEvidence.claimKey := by
+  apply SourceSpanEvidence.reclassify_changes_claim_key_of_attribution_change
+  decide
+
 /--
 Lineage for one candidate interpretation. Source origin and map-construction
 status are separate fields: a direct source segment can be the input to an
@@ -154,6 +281,7 @@ structure SourceBoundMapLineage where
   sourceSpan : SourceSpanWitness
   /-- Canonical external key bound to the exact source-span witness. -/
   sourceSpanKey : String
+  sourceContentKey : SourceSpanContentKey
   sourceToCandidateMapId : String
   translationStatus : MapConstructionStatus
   candidateToGeometryMapId : String
@@ -171,6 +299,7 @@ the exact SourceSpanWitness; Lean does not authenticate that binding.
 structure ObservationPipeline
     (Source Candidate Geometry Slice Observable Measured : Type*) where
   sourceSpanKey : String
+  sourceContentKey : SourceSpanContentKey
   sourceToCandidateMapId : String
   sourceToCandidateStatus : MapConstructionStatus
   candidateToGeometryMapId : String
@@ -194,6 +323,7 @@ def lineageMatchesPipeline
     (pipeline : ObservationPipeline Source Candidate Geometry Slice Observable Measured) :
     Prop :=
   lineage.sourceSpanKey = pipeline.sourceSpanKey ∧
+  lineage.sourceContentKey = pipeline.sourceContentKey ∧
   lineage.sourceToCandidateMapId = pipeline.sourceToCandidateMapId ∧
   lineage.translationStatus = pipeline.sourceToCandidateStatus ∧
   lineage.candidateToGeometryMapId = pipeline.candidateToGeometryMapId ∧
@@ -210,6 +340,15 @@ theorem source_span_key_mismatch_breaks_lineage_match
   intro hMatch
   exact hMismatch hMatch.1
 
+theorem source_content_key_mismatch_breaks_lineage_match
+    {Source Candidate Geometry Slice Observable Measured : Type*}
+    (lineage : SourceBoundMapLineage)
+    (pipeline : ObservationPipeline Source Candidate Geometry Slice Observable Measured)
+    (hMismatch : lineage.sourceContentKey ≠ pipeline.sourceContentKey) :
+    ¬ lineageMatchesPipeline lineage pipeline := by
+  intro hMatch
+  exact hMismatch hMatch.2.1
+
 theorem source_map_identity_mismatch_breaks_lineage_match
     {Source Candidate Geometry Slice Observable Measured : Type*}
     (lineage : SourceBoundMapLineage)
@@ -217,7 +356,7 @@ theorem source_map_identity_mismatch_breaks_lineage_match
     (hMismatch : lineage.sourceToCandidateMapId ≠ pipeline.sourceToCandidateMapId) :
     ¬ lineageMatchesPipeline lineage pipeline := by
   intro hMatch
-  exact hMismatch hMatch.2.1
+  exact hMismatch hMatch.2.2.1
 
 theorem source_map_status_mismatch_breaks_lineage_match
     {Source Candidate Geometry Slice Observable Measured : Type*}
@@ -226,7 +365,7 @@ theorem source_map_status_mismatch_breaks_lineage_match
     (hMismatch : lineage.translationStatus ≠ pipeline.sourceToCandidateStatus) :
     ¬ lineageMatchesPipeline lineage pipeline := by
   intro hMatch
-  exact hMismatch hMatch.2.2.1
+  exact hMismatch hMatch.2.2.2.1
 
 namespace ObservationPipeline
 
@@ -410,6 +549,12 @@ end HsHVerification.EnheduannaObservedSliceIdentifiability
 /-! Theorem-specific dependency reports for exact-head CI inspection. -/
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.nov04_user_role_message_has_distinct_span_origins
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.nov04_source_spans_are_disjoint
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.nov04_span_content_keys_are_distinct
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.nov04_source_spans_partition_with_two_byte_separator
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.nov04_direct_reclassification_preserves_content_key
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.nov04_direct_reclassification_changes_claim_key
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.SourceSpanEvidence.reclassify_preserves_content_key
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.SourceSpanEvidence.reclassify_changes_claim_key_of_attribution_change
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.candidate_identity_identifiable_iff_unique
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.property_identifiable_iff_single_value
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.property_identifiable_without_candidate_uniqueness
@@ -418,6 +563,7 @@ end HsHVerification.EnheduannaObservedSliceIdentifiability
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.prediction_separation_excludes_joint_compatibility
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.lineageMatchesPipeline
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.source_span_key_mismatch_breaks_lineage_match
+#print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.source_content_key_mismatch_breaks_lineage_match
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.source_map_identity_mismatch_breaks_lineage_match
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.source_map_status_mismatch_breaks_lineage_match
 #print axioms HsHVerification.EnheduannaObservedSliceIdentifiability.ObservationPipeline.predict_apply
