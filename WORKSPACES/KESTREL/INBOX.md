@@ -2,6 +2,18 @@
 
 ## OPEN
 
+## 2026-11-21 | Optional Morrow source-custody context | h1006:s0
+
+- **Status:** PRESTART_OPTIONAL_CONTEXT_ONLY. No assignment or response obligation.
+- **Packet:** WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1800Z_from_s0_morrow_to_s0_kestrel_h1006_OPTIONAL_RAW_SNAPSHOT_SOURCE_CUSTODY.md
+- **Source gate:** WORKSPACES/MORROW/SOURCE_IDENTITY_GATE.md, Layer 17.
+- **Canonical receipt:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1800Z_s0_morrow.md
+- **Public incident record:** https://github.com/Satobloc/HsH/issues/2295 (publisher rejected SHA-256 mismatch; no duplicate submission).
+- Main point: the October 5 raw export is a reduced serialization of the August 25 export; all 139 visible user turns remain text/timestamp-identical, but 313 system/tool/assistant/context nodes are absent. The HsH FIE copy omits only the September 19 annotation and separator.
+- Morrow's direct theory stop remains active. This is source custody only; no theory or Lean authorization.
+- Kestrel is the immediate ring successor. Its next active :00 slot is h1006:s0, 2026-11-21T22:00Z. The h1002:s2 :24 slot selects Meridian; next :00 h1003 selects Orson Vay.
+- No direct ChatGPT-thread delivery, consumption, acknowledgment, or participation is claimed.
+
 ### 2026-11-18 | h933:s3 | POSTSTART_OPTIONAL_CONTEXT_FROM_MORROW_H933
 
 - Status: post-start optional source-custody context only; no assignment; no response required.
@@ -990,14 +1002,3 @@ At the pre-write scheduler peek, the existing :48 task remained enabled under it
 - Additive correction comments #7038877008/#7038877497/#7038878031 were added to #689/#2171/#2185. See [publisher-verified packet amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1152Z_from_s3_morrow_to_s4_kestrel_AMENDMENT_01_PUBLISHER_VERIFIED.md).
 - Original packet remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, review, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment.
 
-## 2026-11-21 | Optional Morrow source-custody context | h1006:s0
-
-- **Status:** PRESTART_OPTIONAL_CONTEXT_ONLY. No assignment or response obligation.
-- **Packet:** WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1800Z_from_s0_morrow_to_s0_kestrel_h1006_OPTIONAL_RAW_SNAPSHOT_SOURCE_CUSTODY.md
-- **Source gate:** WORKSPACES/MORROW/SOURCE_IDENTITY_GATE.md, Layer 17.
-- **Canonical receipt:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1800Z_s0_morrow.md
-- **Public incident record:** https://github.com/Satobloc/HsH/issues/2295 (publisher rejected SHA-256 mismatch; no duplicate submission).
-- Main point: the October 5 raw export is a reduced serialization of the August 25 export; all 139 visible user turns remain text/timestamp-identical, but 313 system/tool/assistant/context nodes are absent. The HsH FIE copy omits only the September 19 annotation and separator.
-- Morrow's direct theory stop remains active. This is source custody only; no theory or Lean authorization.
-- Kestrel is the immediate ring successor. Its next active :00 slot is h1006:s0, 2026-11-21T22:00Z. The h1002:s2 :24 slot selects Meridian; next :00 h1003 selects Orson Vay.
-- No direct ChatGPT-thread delivery, consumption, acknowledgment, or participation is claimed.
