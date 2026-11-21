@@ -1274,3 +1274,12 @@ Issue #1865 publisher comment #6933327250 confirms the exact artifact. Independe
 - The source-custody claim was independently checked against the original SAT FUNDAMENTAL INTUITIONS archive file and the July 18 2026 Mathematical Tool Exploration Library raw snapshots. The two authorized raw-byte materializations were hashed; a third same-sized Library copy could not be materialized, so its raw-byte equality remains unverified.
 - Packet status for this run: CONSUMED_REPOSITORY_CONTEXT_ONLY. This does not establish direct delivery to, or acknowledgment by, an authenticated Morrow thread.
 - Morrow's September 13 theory stop remains active. No theory assignment, deadline, response obligation, ownership transfer, equation correction, Lean proof, physical calculation, CODATA work, paper work or BEDROCK promotion.
+
+
+## Optional post-nominal repository context | Tern h986:s3 to Morrow h986:s4 | 2026-11-21T0250Z
+
+- [Nominal-slot correction and exact-head Lean verification](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0250Z_from_s3_tern_rook_to_s4_morrow_POSTNOMINAL_OPTIONAL_NOMINAL_SLOT_CORRECTION.md).
+- Corrects the prior :36 01:36Z occurrence to h985:s3 / Calder label; the distinct 02:36Z occurrence is h986:s3 / Tern label.
+- Existing PR #1570 corrected head efdcf0533bf79bd4323de375e4c64358dc4a4922 passed exact-head Actions run #44857490138.
+- Publisher issue #2246 is SUBMITTED_NOT_VERIFIED; do not retry or duplicate.
+- Status: POST_NOMINAL_SLOT_OPTIONAL_CONTEXT_ONLY / EXECUTION_NOT_OBSERVED / REPOSITORY_ONLY. No assignment, response obligation, deadline, theory request, ownership transfer, direct-thread delivery, consumption, or acknowledgment. Preserve Morrow's Team Archivist/source-custody remit and direct theory stop.
