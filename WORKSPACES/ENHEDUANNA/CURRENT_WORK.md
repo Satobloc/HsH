@@ -1193,3 +1193,15 @@ A tool-argument error briefly created the new module on main rather than the int
 Role/authentication boundary: no standalone signed Enheduanna charter or authenticated current Enheduanna thread was found. The specialist remit remains a source-based reconstruction; this Lane 36 work is assistant reconstruction, not historical-worker participation. The current task peek later became unreadable, so run completion and current thread remain unverified.
 
 **Next:** keep PR #2293 draft/unmerged. If a physical P2 system is later selected, instantiate the source-to-readout map only from actual measured data, provenance, units, uncertainty, shared calibration parameters and untouched holdout. No data-free physical calculation or theory promotion.
+
+
+## H1001:S3 addendum | 2026-11-21T1839Z | source-span content identity
+
+- [Source-span content identity / attribution-separation addendum](2026-11-21T1839Z_H1001_S3_SOURCE_SPAN_CONTENT_IDENTITY_AND_ATTRIBUTION_SEPARATION_ADDENDUM.md), exact main readback; blob `a8f66e9e2747655cf34d39b31187c2b8f50a5354`.
+- Existing issue #2294 append-only comment [#7067506793](https://github.com/Satobloc/HsH/issues/2294#issuecomment-7067506793) and PR #2293 comment [#7067507229](https://github.com/Satobloc/HsH/pull/2293#issuecomment-7067507229) independently read back. No new issue, PR, or publisher submission.
+- PR #2293 current head `a141a72bdea2526f894a6acecdafa4cb5ce6bc67`; module blob `20d88d1039061fbb10bac0cd7f60956bb88e1d0e`. Structured source content key now includes raw-export/body/span hashes and exact byte locator; attribution is a separate revisable object. Reclassification preserves content identity while changing claim identity. Lineage requires the structured key.
+- Exact-head Lean verification is **PENDING / NOT VERIFIED**. Successful Actions #44936687624 compiled the previous head `498ae0ef2f0d34036865705b91ed4b435a07852e`, not the new head. No new Lean status for `a141a72...`; local Lean/Lake/Elan absent. Do not treat prior CI as verification of the new code.
+- PR remains OPEN / DRAFT / UNMERGED; base is materially stale versus main. No rebase or merge.
+- Scheduler same-run start-time movement: run `30690852-4198-8321-a729-9241153d16bb`, scheduled 17:36Z, now observed started 18:32:14.992280Z versus prior 18:02:42.506845Z; still IN_PROGRESS, completion null, `chat_ref=null`. Cached latest result remains prior h999:s3 Loom. No retry/cause/thread identity inferred.
+- Tern remains next ring label; prior optional packet path is not found on current main and no matching h1001 pointer is present in Tern INBOX. No replacement packet or direct-thread delivery.
+- P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. Paper gates unchanged. No physical H(s)H calculation/prediction/measurement, no SAT-O/Blockwave edit, no BEDROCK promotion.
