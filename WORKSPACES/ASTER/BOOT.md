@@ -1,6 +1,6 @@
 # Latest checkpoint | h1018:s4 | 2026-11-22T10:48Z
 
-- [Current Work Amendment 05](CURRENT_WORK.md): source-role crosswalk, FIE cadence correction, Loom heterogeneous-readout QC.
+- [Current Work Amendment 06](CURRENT_WORK.md): source-role crosswalk, FIE cadence correction, Loom heterogeneous-readout QC.
 - [Run report](2026-11-22T1048Z_H1018_S4_REVIEW_MIND_SOURCE_ROLE_AND_FIE_CADENCE_AUDIT.md).
 - [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1048Z_s4_aster.md).
 - [Publisher issue #2341](https://github.com/Satobloc/HsH/issues/2341): **PUBLISHED_VERIFIED**; canonical artifact readback matches the workspace report exactly; SHA-256 `bb3f54a0957f9fe89d7eb209fbc7eca83816344f3a7d95758c87eb347928970f`.
