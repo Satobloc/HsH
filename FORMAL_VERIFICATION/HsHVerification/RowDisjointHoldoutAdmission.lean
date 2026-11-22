@@ -89,7 +89,8 @@ theorem distinctSetIds_do_not_imply_recordDisjointness
       calibration.id ≠ holdout.id ∧
       r ∈ calibration.rows ∧ r ∈ holdout.rows := by
   refine ⟨⟨"calibration", {r}⟩, ⟨"holdout", {r}⟩, ?_, ?_, ?_⟩
-  · decide
+  · change ("calibration" : String) ≠ "holdout"
+    decide
   · simp
   · simp
 
@@ -130,7 +131,7 @@ structure RowDisjointPrecommittedComparison
     (HState : Type uH) (SState : Type uS)
     (HField : Type uHF) (SField : Type uSF)
     (CommonField : Type uCF)
-    (Payload : MeasurementMode → Type uP) where
+    (Payload : HsHVerification.MeasurementDomainCompatibility.MeasurementMode → Type uP) where
   comparison :
     PrecommittedHeterogeneousModelComparison
       HState SState HField SField CommonField Payload
@@ -155,7 +156,7 @@ theorem rowDisjointComparison_preserves_precommittedEvidence
     {HState : Type uH} {SState : Type uS}
     {HField : Type uHF} {SField : Type uSF}
     {CommonField : Type uCF}
-    {Payload : MeasurementMode → Type uP}
+    {Payload : HsHVerification.MeasurementDomainCompatibility.MeasurementMode → Type uP}
     (c : RowDisjointPrecommittedComparison
       RecordId SplitUnitId HState SState HField SField CommonField Payload) :
     PrecommittedComparisonEvidence c.comparison :=
@@ -169,7 +170,7 @@ theorem rowDisjointComparison_has_bound_splitArtifacts
     {HState : Type uH} {SState : Type uS}
     {HField : Type uHF} {SField : Type uSF}
     {CommonField : Type uCF}
-    {Payload : MeasurementMode → Type uP}
+    {Payload : HsHVerification.MeasurementDomainCompatibility.MeasurementMode → Type uP}
     (c : RowDisjointPrecommittedComparison
       RecordId SplitUnitId HState SState HField SField CommonField Payload) :
     c.split.datasetArtifact = c.comparison.holdout.datasetArtifact ∧
@@ -197,7 +198,7 @@ theorem rowDisjointComparison_has_nonempty_nonoverlappingSplit
     {HState : Type uH} {SState : Type uS}
     {HField : Type uHF} {SField : Type uSF}
     {CommonField : Type uCF}
-    {Payload : MeasurementMode → Type uP}
+    {Payload : HsHVerification.MeasurementDomainCompatibility.MeasurementMode → Type uP}
     (c : RowDisjointPrecommittedComparison
       RecordId SplitUnitId HState SState HField SField CommonField Payload) :
     c.split.calibrationRows.Nonempty ∧
@@ -226,9 +227,9 @@ def rowDisjointPrecommittedIntelligibilityTieBreak
     {HState : Type uH} {SState : Type uS}
     {HField : Type uHF} {SField : Type uSF}
     {CommonField : Type uCF}
-    {Payload : MeasurementMode → Type uP}
-    (empiricallyEquivalent : Candidate → Candidate → Prop)
-    (humanPrefers : Candidate → Candidate → Prop)
+    {Payload : HsHVerification.MeasurementDomainCompatibility.MeasurementMode → Type uP}
+    (empiricallyEquivalent : HsHVerification.ModelSelectionPreference.Candidate → HsHVerification.ModelSelectionPreference.Candidate → Prop)
+    (humanPrefers : HsHVerification.ModelSelectionPreference.Candidate → HsHVerification.ModelSelectionPreference.Candidate → Prop)
     (a b : RowDisjointPrecommittedComparison
       RecordId SplitUnitId HState SState HField SField CommonField Payload) :
     Prop :=
@@ -242,9 +243,9 @@ theorem rowDisjointTieBreak_requires_same_split
     {HState : Type uH} {SState : Type uS}
     {HField : Type uHF} {SField : Type uSF}
     {CommonField : Type uCF}
-    {Payload : MeasurementMode → Type uP}
-    (empiricallyEquivalent : Candidate → Candidate → Prop)
-    (humanPrefers : Candidate → Candidate → Prop)
+    {Payload : HsHVerification.MeasurementDomainCompatibility.MeasurementMode → Type uP}
+    (empiricallyEquivalent : HsHVerification.ModelSelectionPreference.Candidate → HsHVerification.ModelSelectionPreference.Candidate → Prop)
+    (humanPrefers : HsHVerification.ModelSelectionPreference.Candidate → HsHVerification.ModelSelectionPreference.Candidate → Prop)
     (a b : RowDisjointPrecommittedComparison
       RecordId SplitUnitId HState SState HField SField CommonField Payload)
     (h : rowDisjointPrecommittedIntelligibilityTieBreak
