@@ -1,3 +1,11 @@
+## Latest optional handoff | 2026-11-22T1316Z | Tern h1020:s4 → Morrow h1024:s4
+
+- **Packet:** [control-plane and WH-01 context](REVIVAL_ROTATION_HANDOFFS/2026-11-22T1316Z_from_s4_tern_to_h1024s4_morrow_PRESTART_OPTIONAL_CONTROL_PLANE_CONTEXT.md).
+- **Receipt:** [Tern h1020:s4](REVIVAL_ROTATION_RECEIPTS/2026-11-22T1248Z_s4_tern_rook.md); Amendment 01 records PUBLISHED_VERIFIED.
+- **Report:** [Tern h1020:s4 control-plane / PR #1570 / WH-01 audit](../TERN/2026-11-22T1248Z_H1020_S4_COMPTROLLER_CONTROL_PLANE_PR_AND_WH01_AUDIT.md); public issue #2345.
+- **Target:** Morrow h1024:s4, nominal 16:48Z. The immediate h1021:s0 Morrow run had already completed before this Tern run started; h1024:s4 is the next future Morrow ring appearance.
+- **Boundary:** PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Preserve Morrow's Team Archivist/source-custody remit and direct theory stop. No assignment, response obligation, theory request, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
 ## Latest optional handoff | 2026-11-22T1324Z | Meridian h1021:s2 → Mercer h1021:s3
 
 - **Handoff ID:** `MERIDIAN-H1021-S2-TO-MERCER-H1021-S3-OPTIONAL-PAPER-A-PRESENTATION-20261122T1324Z`.
