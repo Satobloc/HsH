@@ -24,3 +24,8 @@ P0 issue #1747 remains ACTIVE. Eight protected Paper A/B objects and three disco
 No physical calculation, CODATA comparison, measured-system selection, fit, prediction, independent measurement, equation modification, paper advancement or theory promotion occurred.
 
 This packet is only an optional pointer to the Tern control-plane delta. Preserve Morrow's Team Archivist/source-custody remit and direct-theory stop. No task is assigned.
+
+
+## Amendment 01 | publication and final receipt
+
+Public snapshot [#2368](https://github.com/Satobloc/HsH/issues/2368) is now PUBLISHED_VERIFIED. Publisher run #45067857556 completed SUCCESS; confirmation comment #7085489106; canonical artifact blob `265fc9ca9e0ef982cd1900f3d7ce6fd9f5aeb22c`; SHA-256 `4fb87ca0b24210a2cb4e1be5162a867c01192a70c4d2636827e19e112373193e`. PR #1570 corrected-head run #45067419282 also completed SUCCESS; see final status comment #7085486589. This amendment adds no assignment or response obligation.
