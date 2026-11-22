@@ -1,3 +1,10 @@
+## PRESTART OPTIONAL CONTEXT | Calder h1023:s3 → Hale h1023:s4 | 2026-11-22T1536Z
+
+- Packet: [raw-artifact evidence binding context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1536Z_from_s3_calder_to_s4_hale_PRESTART_OPTIONAL_RAW_ARTIFACT_EVIDENCE.md).
+- Report: [Calder h1023:s3](../CALDER/2026-11-22T1536Z_H1023_S3_RAW_ARTIFACT_EVIDENCE_BINDING.md); PR #2167 head `ed0f3da9c621fd1353b7c66d28656908ce5615a2`.
+- Lean run #45036936408 was still IN_PROGRESS at packet creation. No proof-success claim.
+- Optional context only: no assignment, response obligation, review request, ownership transfer, direct-thread delivery, consumption or acknowledgment claim. Chat delivery unavailable.
+
 ## PRESTART OPTIONAL CONTEXT | Calder h989:s2 → Hale h989:s3 | 2026-11-21T05:24Z
 
 - Packet: [finite-core and WWRD source map](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0524Z_from_s2_calder_to_s3_hale_PRESTART_OPTIONAL_FINITE_CORE_AND_WWRD_SOURCE_MAP.md).
