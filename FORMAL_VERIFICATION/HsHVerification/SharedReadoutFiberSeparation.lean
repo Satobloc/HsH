@@ -27,8 +27,14 @@ set-membership witness survives.
 
 All calibration, acquisition-map, units, uncertainty, instrument identity,
 operator version, and resolution fields are external evidence obligations.
-This module does not authenticate them, instantiate a physical readout,
-supply a measured system or dataset, or establish an H(s)H prediction.
+The comparison below is exact set-membership in an abstract codomain: it has
+no metric, noise distribution, covariance propagation, or statistical
+threshold. A separate evidence-gated readout type requires the declared
+external gate propositions to be supplied, but does not authenticate their
+underlying artifacts. Both models currently share the same State and Field
+types; distinct model carriers require explicit maps into a common carrier.
+This module does not instantiate a physical readout, supply a measured system
+or dataset, or establish an H(s)H prediction.
 -/
 
 namespace HsHVerification.SharedReadoutFiberSeparation
@@ -71,6 +77,16 @@ def commonReadoutEvidenceGate
   readout.measurementUnitsDeclared ∧
   readout.uncertaintyModelDeclared ∧
   readout.resolutionDeclared
+
+/-- A readout admitted for detector-level comparison only when its declared
+    external evidence gate is supplied. The proof term records that the gate
+    propositions are present; it does not authenticate their source artifacts
+    or establish their real-world truth. -/
+structure EvidenceGatedFrozenCommonReadout
+    (Field : Type v)
+    (Payload : MeasurementMode → Type w) where
+  contract : FrozenCommonReadout Field Payload
+  gate : commonReadoutEvidenceGate contract
 
 /-- The model-to-detector map uses the one operator and mode stored in the
     shared readout contract. -/
@@ -209,13 +225,15 @@ theorem detectorLevelTwoSidedSeparation_iff_fiberWitnesses
        (standardDetectorExclusive_nonempty_iff_fiberWitness
           hsh standard readout hshStates standardStates).mpr hStandard⟩
 
-/-- If one H(s)H state and one standard state collide under the common
-    readout, that detector value cannot be an H(s)H-exclusive witness. -/
+/-- If one state and one standard state collide under the common readout,
+    that detector value cannot be an H(s)H-exclusive witness. Membership of
+    the first state in `hshStates` is unnecessary: collision already places
+    its readout value inside the standard prediction region. -/
 theorem sharedReadoutCollision_blocks_hshExclusive
     (hsh standard : LatentFieldModel State Field)
     (readout : FrozenCommonReadout Field Payload)
     (hshStates standardStates : Set State)
-    (state : State) (hState : state ∈ hshStates)
+    (state : State)
     (standardState : State) (hStandardState : standardState ∈ standardStates)
     (hCollision :
       readoutMap hsh readout state =
@@ -239,7 +257,7 @@ theorem sourceDifference_and_sharedReadoutCollision_block_exclusive
     (hsh standard : LatentFieldModel State Field)
     (readout : FrozenCommonReadout Field Payload)
     (hshStates standardStates : Set State)
-    (state : State) (hState : state ∈ hshStates)
+    (state : State)
     (standardState : State) (hStandardState : standardState ∈ standardStates)
     (hSourceDifferent :
       hsh.predictField state ≠ standard.predictField standardState)
@@ -254,12 +272,41 @@ theorem sourceDifference_and_sharedReadoutCollision_block_exclusive
     ⟨hSourceDifferent,
       sharedReadoutCollision_blocks_hshExclusive
         hsh standard readout hshStates standardStates
-        state hState standardState hStandardState hCollision⟩
+        state standardState hStandardState hCollision⟩
+
+/-- The admitted two-sided comparison requires a readout value carrying the
+    external evidence-gate proof, while retaining the same fiber criterion. -/
+def evidenceGatedDetectorLevelTwoSidedSeparation
+    (hsh standard : LatentFieldModel State Field)
+    (readout : EvidenceGatedFrozenCommonReadout Field Payload)
+    (hshStates standardStates : Set State) : Prop :=
+  detectorLevelTwoSidedSeparation hsh standard readout.contract
+    hshStates standardStates
+
+/-- A readout that crosses the declared evidence gate has the same
+    rival-avoiding fiber characterization for two-sided separation. -/
+theorem evidenceGatedDetectorLevelTwoSidedSeparation_iff_fiberWitnesses
+    (hsh standard : LatentFieldModel State Field)
+    (readout : EvidenceGatedFrozenCommonReadout Field Payload)
+    (hshStates standardStates : Set State) :
+    evidenceGatedDetectorLevelTwoSidedSeparation hsh standard readout
+      hshStates standardStates ↔
+      (∃ state, state ∈ hshStates ∧
+        ∀ standardState, standardState ∈ standardStates →
+          readoutMap hsh readout.contract state ≠
+            readoutMap standard readout.contract standardState) ∧
+      (∃ standardState, standardState ∈ standardStates ∧
+        ∀ state, state ∈ hshStates →
+          readoutMap standard readout.contract standardState ≠
+            readoutMap hsh readout.contract state) := by
+  exact detectorLevelTwoSidedSeparation_iff_fiberWitnesses
+    hsh standard readout.contract hshStates standardStates
 
 #print axioms hshDetectorExclusive_nonempty_iff_fiberWitness
 #print axioms standardDetectorExclusive_nonempty_iff_fiberWitness
 #print axioms detectorLevelTwoSidedSeparation_iff_fiberWitnesses
 #print axioms sharedReadoutCollision_blocks_hshExclusive
 #print axioms sourceDifference_and_sharedReadoutCollision_block_exclusive
+#print axioms evidenceGatedDetectorLevelTwoSidedSeparation_iff_fiberWitnesses
 
 end HsHVerification.SharedReadoutFiberSeparation
