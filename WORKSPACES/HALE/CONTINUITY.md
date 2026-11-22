@@ -873,3 +873,10 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - h1008:s2 :24 run completed 00:50:27.941391Z after starting 00:37:57.994123Z, so it remained active for 12m06.699814s after h1008:s3 :36 started at 00:38:21.241577Z. Its result made no handoff or late assignment. No cross-thread delivery/consumption claimed.
 - Fresh :36 task peek still reports run `fc761bdb-ed2c-8332-a4cc-678ab2ea3ea3` IN_PROGRESS, completion null, chat_ref null; cached latest result remains Ravel h1006:s3. No retry or cause inferred.
 - Final style-cleanup Lean run #44968403111 remains in progress at compile step; prior run #44967975883 compiled the immediately preceding theorem content successfully.
+
+
+### Amendment | second Lean build and final cleanup pending
+
+- [Actions #44968403111](https://github.com/Satobloc/HsH/actions/runs/44968403111) succeeded on merge ref `de1c8f41bf94c9ec8088613914dc4560524672c5`; module blob `15979ccb712609cddf20decdf440825e9183ee91` matched the then-current PR head `a5ef0ffbb1e51e6db4c23e2f3061bbec329bfb7b`. Lean 4.34.0 / Lake 5.0.0; 8,947 jobs; seven declarations elaborated; five standard-foundation axiom outputs and two no-axiom outputs; no sorryAx/admit. Tests, lint, leanchecker, nanoda and global axiom audit skipped.
+- Two remaining unnecessarySimpa warnings in the new section were corrected in current head `98e0a086e5620428fa4d872d6337364cfaafa7f2`, module blob `2bd14b876abd270718aec11e3821d0d866b4ac07`. Third run pending; final head not yet verified.
+- Public issue #2315 and PR #1487 received append-only comments #7071848558 and #7071848988 with this status.
