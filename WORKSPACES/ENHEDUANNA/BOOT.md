@@ -1,3 +1,9 @@
+## Publication verification | h1020:s3 | 2026-11-22T12:36Z
+
+Public report #2344 is now PUBLISHED_VERIFIED. Confirmation #7079466278; canonical artifact blob 4235dd2b9e78303a79a24fb9158c13a5b63dab26; SHA-256 ad806b44f613618857fff69c932b599f1be3fdcbf84fa3d8b174afcebf771aec; exact issue-payload/file readback. See [h1020 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1236Z_s3_enheduanna_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+
+---
+
 ## Latest checkpoint | h1020:s3 | 2026-11-22T12:36Z
 
 - Report: [H1020:s3 canonical instrument-support scope gate and source-hash correction](2026-11-22T1236Z_H1020_S3_CANONICAL_INSTRUMENT_SUPPORT_SCOPE_GATE_AND_SOURCE_HASH_CORRECTION.md).
