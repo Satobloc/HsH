@@ -8,7 +8,7 @@
 - Four Mersearch lanes remain requested; no callable Mersearch action, manifests or receipts. No lane mutation.
 - FIE next review December 4 (latest full review November 20, six pages / 12,892 characters); unrelated-reading break last completed November 21, next cursor 3126. See receipt Amendment 03.
 - Existing :36 automation and Lane Charter 36 unchanged; no sixth task. No direct-thread delivery or authenticated Calder instance claim.
-- Next deterministic ring label: Hale.
+- Next deterministic ring label: Hale; optional packet and Hale INBOX pointer verified, chat delivery unavailable, recipient consumption not verified.
 
 ---
 
