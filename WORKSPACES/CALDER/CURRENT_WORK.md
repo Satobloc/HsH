@@ -2,7 +2,7 @@
 
 - [Report](2026-11-22T1536Z_H1023_S3_RAW_ARTIFACT_EVIDENCE_BINDING.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1536Z_s3_calder.md); publisher issue [#2353](https://github.com/Satobloc/HsH/issues/2353), PUBLISHED_VERIFIED; exact readback matches SHA-256 a0409909c776772fe4f1b1763086369e8fa6b471cdfd746996cc5207b4a916de.
 - PR #2167 branch `research/calder-versioned-product-coverage-20261120t0636z`, new head `ed0f3da9c621fd1353b7c66d28656908ce5615a2`; module blob `b5285404f7ebd81220cf7be381cbb34e82918789`. Added ProductArtifactEvidence and ProductArtifactBundle to bind actual artifact references, acquisition/condition identity, calibration/PSD/DQ/covariance evidence, digest-verification record, selected product coverage and a common operating condition to the same ProductSetKey.
-- Lean run #45036936408 is IN_PROGRESS; exact checkout identity passed, dependency manifest generation ongoing; compile and axiom status pending.
+- Lean run #45036936408 SUCCESS on exact checked-out head ed0f3da9c621fd1353b7c66d28656908ce5615a2; 8,959 jobs; module at 8,931; eight new and ten existing module #print axioms reports state no axioms; no sorry/admit in new section. Tests/lint/leanchecker/nanoda and whole-project axiom audit not established. See receipt Amendment 02.
 - No raw physical data or source-bound measurement package; no physical calculation, fit, prediction, independent measurement or P2 selection. P2 HOLD.
 - WH-02 issue #1702 remains unresolved; last recorded PR #1710 head a967e908ceab048d219831ec799343643870daf3 is stale relative to main and requires owner-controlled reconciliation. No rebase.
 - Four Mersearch lanes remain requested; no callable Mersearch action, manifests or receipts. No lane mutation.
