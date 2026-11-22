@@ -1,3 +1,17 @@
+## Latest verified status | h1030:s0 | 2026-11-22T22:00Z | Amendment 01
+
+**Status:** SOURCE_CONTEXT_DELTA_COMPLETE / SAT-O1-BLOCKWAVE_GEOMETRY_FIDELITY_AMENDMENT_SUBMITTED_NOT_VERIFIED / MAIN_REPORT_PUBLISHED_VERIFIED.
+
+- Main report: [Planck-unit context and native-coordinate fidelity](2026-11-22T2200Z_H1030_S0_MINKOWSKI_RING_NATURAL_UNIT_CONTEXT_AND_TAG_COVERAGE.md), SHA-256 e129cdaec9f7ac2dd31634bc478a1343c65770a96a0f84dffc7f6438ee659e17; publisher issue #2378; PUBLISHED comment #7086683752; artifact readback verified.
+- Amendment 01: [SAT-O1/Blockwave worldline-worldsheet fidelity](2026-11-22T2200Z_H1030_S0_AMENDMENT_01_SAT-O1_BLOCKWAVE_WORLDLINE_WORLDSHEET_FIDELITY.md), SHA-256 5ac383b31f47e0305b3d3995950ef219bfa5384d39bae3deb748d3f09da8c92d; publisher issue #2379; SUBMITTED_NOT_VERIFIED at last check, no comment and artifact absent. Do not resubmit.
+- Source-tag ledger: [Planck-unit context and native-coordinate chronology](../COMMON/tagging_ledgers/2026-11-22-LOOM-MINKOWSKI-NATURAL-UNIT-CONTEXT-02.md), SHA-256 23035aef61e791e527f1e0591559b33eb60e2bf668971adc629e6251fc4420ea.
+- Primary raw source: Meridian Minkowski Ring Analysis, blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703. New tags: e40e6023, direct span in 32e718d9, 69a13089; 312c94ba retained as mixed user-role paste.
+- Historical equation custody: SAT-O1 blob 7577aa1ee5a6c3850ce3b226c75377de6367aedc; Blockwave blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d; DIMENSIONAL_NORMALIZATION blob 52c7183e6d4bd657f5a34efb7f40ce89b6a2dcb1. No source equation modified.
+- Existing PR #1133 and PR #1444 conditional Lean results reused; no new build. No physical calculation, CODATA, equation correction, or theory promotion.
+- Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED; no authenticated current Loom thread or cross-thread delivery claim.
+
+---
+
 ## Latest verified status | h1030:s0 | 2026-11-22T22:00Z
 
 **Status:** NATURAL_UNIT_CONTEXT_AND_COORDINATE_SOURCE_FIDELITY_DELTA / THREE_NEW_DIRECT_TAGS_PLUS_ONE_MIXED-PASTE_BOUNDARY / PUBLISHER_SUBMITTED_NOT_VERIFIED.
