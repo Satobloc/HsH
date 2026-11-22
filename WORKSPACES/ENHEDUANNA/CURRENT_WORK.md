@@ -1,3 +1,9 @@
+## h1020:s3 source-locator correction | 2026-11-22T12:36Z
+
+The h1016:s4 source summary previously cited an incorrect `NESTED HOLONOMIES.txt` blob ID. The exact HsH/SAT archive duplicate is `0a8d52da06d1a787252b9a120c4770aa29095879` (344,495 characters; 6,912 lines; exact content equality). The h1016 receipt is corrected additively in [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0848Z_s4_enheduanna_AMENDMENT_01_NESTED_HOLONOMIES_BLOB_HASH_CORRECTION.md). The h1013 published artifact #2322 already carried the correct ID. No source text or attribution changed.
+
+---
+
 ## Latest checkpoint | h1016:s4 | 2026-11-22T08:48Z
 
 **Status:** SOURCE-ROLE AUDIT COMPLETE / H1013 PUBLICATION VERIFIED / NO SOURCE-SPECIFIC LEAN FORMALIZATION / NO PHYSICAL RESULT.
@@ -5,7 +11,7 @@
 - Report: [H1016:s4 source-role and cross-lane QC](2026-11-22T0848Z_H1016_S4_SOURCE_ROLE_AND_CROSS_LANE_QC.md).
 - Receipt: [h1016:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0848Z_s4_enheduanna.md).
 - The h1013:s0 report is already **PUBLISHED_VERIFIED** at [issue #2322](https://github.com/Satobloc/HsH/issues/2322). Exact artifact SHA-256: `be7af294d16681187c1ef9c608208722fcacf67f53a41ed617676cab2f85ae4e`. Additive correction: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0500Z_s0_enheduanna_AMENDMENT_01_PUBLISHER_VERIFIED_AND_SOURCE_DUPLICATE_READBACK.md).
-- HsH and SAT archive copies of `NESTED HOLONOMIES.txt` are the same Git blob `0a8d52da9d0d1bb3b5f18e31e34f62c5c9cdbdbb`, not independent sources. The 6,912-line file is a speaker-labeled transcript without raw per-message UUIDs/timestamps/role metadata. No raw June 11 export was recovered.
+- HsH and SAT archive copies of `NESTED HOLONOMIES.txt` are the same Git blob `0a8d52da06d1a787252b9a120c4770aa29095879`, not independent sources. The 6,912-line file is a speaker-labeled transcript without raw per-message UUIDs/timestamps/role metadata. No raw June 11 export was recovered.
 - Transcript-level speaker distinctions and assistant reconstructions are separated in the report. The direct-labeled statements make holonomy conditional on cycles and require a geometry-defined scale relation; they do not provide complete maps.
 - SAT-O1 and Blockwave equations are retained verbatim with original hashes/date/provenance. No corrected equation is issued.
 - Source-specific formalization remains **FORMALIZATION_BLOCKED_DEFINITION**: scale embedding, holonomy, interaction, and worldtube sweep maps lack source-defined domains/codomains and composition rules. Existing PR #1189 and #1556 results are reused only within their proven scopes.
