@@ -47,3 +47,11 @@ This supersedes the earlier 11:20Z comparison values above while preserving that
 - The append-only final currentness note is [issue #1747 comment #7078531272](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7078531272), exact 1,051-character readback verified, SHA-256 `7d3d38bc035036b99c6e8ee6fdcff0c2355ac187b5a15d3d5bd45786dbae8f88`.
 
 P0 remains ACTIVE. No live route acceptance, independent browser verification, deployment, source repair, merge, rebase, or standdown was established.
+
+## Amendment 02 - final main comparison, 2026-11-22 11:32Z
+
+A later read after the 11:29Z amendment found further automatic discovery-docket refreshes. The final inspected HsH main snapshot is `0d4aecd859255f9144803bbd4187f81311beab0c`; its latest commit again changes only `PUBLIC_SITE/generated/discovery.json`. All eight protected Paper A/B objects were re-fetched at this main snapshot and still match their pinned Git blob IDs (8/8).
+
+At this final comparison, PR #2009 remains OPEN / DRAFT / UNMERGED, with 3 PR commits ahead and 4,100 main-side commits beyond the merge base. Exact PR-head Actions runs: 0. Formal reviews: 0. GitHub reports `mergeable=false`. No route acceptance or standdown is established.
+
+The 11:29Z public comment remains a timestamped sample, not a claim that its main SHA is the latest main forever. No further public issue comment was added for the automatic discovery refreshes; the protected vector remained unchanged.
