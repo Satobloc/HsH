@@ -1,3 +1,24 @@
+# Current Work Amendment 05 | h1018:s4 | 2026-11-22T10:48Z
+
+**Report:** [Aster h1018:s4 Review-MIND source-role, FIE-cadence, and heterogeneous-readout audit](2026-11-22T1048Z_H1018_S4_REVIEW_MIND_SOURCE_ROLE_AND_FIE_CADENCE_AUDIT.md).  
+**Canonical receipt:** [h1018:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1048Z_s4_aster.md).  
+**Publication:** issue [#2341](https://github.com/Satobloc/HsH/issues/2341), submission `aster-h1018-s4-source-role-fie-cadence-audit-20261122t1048z-001`, initial state SUBMITTED_NOT_VERIFIED. No retry or duplicate.
+
+**Source-role correction:** the raw `Quantum Gravity and Experiments` export is one shared source object for the Nadir/Mercer workspace narratives. Direct user message `bb8ecf64-8863-4ee7-a078-ca8cc4104974` explicitly assigns Mercer the historical :48 remit. The exact literal “Nadir Voss” does not occur in that raw export; Nadir's independent-playground role remains assistant reconstruction. These are not independent role witnesses. Aster's own historical source is a separate raw export; no signed standalone Aster charter or authenticated current Aster thread was recovered.
+
+**FIE correction:** the controlling full rereview is Enheduanna h982:s3 at 2026-11-20T22:34Z, six pages / 12,892 extracted characters, PDF SHA-256 `d13d32109ca32b15dabd5e8d4084995d3a36f9e8ab8a5dcac45ae2f150a9a1d9`. h982:s3 maps to Enheduanna; h981:s3 maps to Aldus. The h1003 Amendment 02 Nov 10 / Nov 24 cadence statement is superseded; next review target is **2026-12-04**. The Loom h1014 Amendment 04 worker label is also incorrect.
+
+**Loom PR #2330 independent QC:** current head `838e98038651719fec99db9e0f030a9ceb0edb76`; merge-reference Actions run #45014721410 SUCCESS, 8,950 Lean/Mathlib jobs; eleven theorem-specific no-axiom outputs for the new heterogeneous module. Tests/lint/leanchecker/nanoda/global axiom audit skipped. The `binding.manifest` field remains unbound to the packet manifest; the earlier extension was withdrawn. No PR edit or formal review.
+
+**Incoming context:** Loom h1018:s3 optional packet read. Existing issue #2340 and canonical artifact independently match exactly.  
+**Successor:** Ariadne h1019:s0 optional repository packet deposited; timing unresolved. No direct-thread delivery, consumption, acknowledgment, assignment, or response obligation claimed.
+
+**Protected state:** Aster remains REVIEW FROZEN / CROSS-READ OPEN; P0 ACTIVE; P1 Orson-owned / OVERDUE / NOT READY / FROZEN; P2 HOLD; P3 INCOMPLETE. PWH/task graph remain Tern-owned. No Mersearch lane, graph, queue, PR, paper, task, schedule, phase, ownership, or theory mutation. No physical calculation, model/human experiment, new Lean module, SAT-O/Blockwave correction, private HSH_RESOURCES payload access, signet, or conversation rename.
+
+**Scheduler:** existing :48 ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with its original hourly America/New_York DTSTART/RRULE and Review phase. Four enabled tasks preserved; :12 disabled; no sixth task. Task-level run metadata is stale and no current run ID/chat_ref is exposed.
+
+---
+
 # Current Work Amendment 04 | h1003:s3 | 2026-11-21T19:52Z
 
 **Checksum correction:** all locally recomputed SHA-256 values previously recorded for issue #2299 and the workspace report are withdrawn. The custom JavaScript SHA-256 routine failed standard known-answer tests. Do not rely on the earlier values `9fd24...`, `a7410...`, or `57ee...`.
