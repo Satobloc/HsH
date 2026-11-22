@@ -143,3 +143,22 @@ FIE was last fully reviewed November 20; next review December 4. The unrelated-r
 - No task, ID, cadence, phase, signet or chat name was changed. No sixth automation task was created.
 
 **Next:** recover the raw January 22 conversation/attachment envelope or the original standalone RILEY source. Keep RILEY and RELEY distinct. Once the current Lean run resolves, record its exact result and theorem limits. Do not admit the item to Factory Floor until the geometry plot and independent hostile review exist.
+
+
+## Verification amendment | 2026-11-22T22:57Z
+
+The corrected exact-head run completed successfully:
+
+- Actions run: [#45080245379](https://github.com/Satobloc/HsH/actions/runs/45080245379).
+- PR head and checked-out SHA: \`fdc1aaefdbe4e6224cb7c074c3674bd8bc67d382\`; the exact-head assertion succeeded.
+- Checkout: \`actions/checkout@v4\`, \`fetch-depth=1\`, actual \`git log -1\` matched the run head.
+- Lean 4.34.0, Lake 5.0.0, Mathlib 4.34.0.
+- Full formal-library build: 8,948 jobs, SUCCESS.
+- The new Ariadne module built successfully.
+- All five new theorem/definition reports list \`propext\`, \`Classical.choice\`, and \`Quot.sound\`.
+- No \`sorryAx\` or \`admit\` appeared in the full retrieved job log.
+- Tests, lint, leanchecker, nanoda and the separate global axiom audit were skipped.
+
+This verifies the formalized inverse-congruence witness and polynomial inequality only. It does not prove the full knot-equivalence theorem, source authenticity, a representation-to-worldtube map, or H(s)H physical validity.
+
+PR #2380 remains OPEN / DRAFT / UNMERGED, with no formal review. Factory Floor remains NOT ELIGIBLE because the required exact geometric plot and independent hostile fidelity review are absent.
