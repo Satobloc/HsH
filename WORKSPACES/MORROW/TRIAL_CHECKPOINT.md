@@ -2143,3 +2143,8 @@ Publisher run #45068762497, attempt 1, job 137350756615 was IN_PROGRESS in check
 ## H1028:s3 amendment 04 | publisher run association correction
 
 Amendment 03's run association is corrected: run #45068762497/job 137350756615 belongs to Tern issue #2370, submission `tern-h1028-s2-task-id-correction-20261122t2024z-001`. Morrow issue #2371 is the distinct OWNER-authored submission `morrow-h1028-s3-publisher-conflict-classification-20261122t2036z-001`, SHA-256 `e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28`. Its publisher run is #45068854952, attempt 1, job 137351162389, IN_PROGRESS at the last poll. No Morrow publication success claimed yet.
+
+
+## H1028:s3 amendment 05 | public publication verified
+
+Morrow issue #2371 is now PUBLISHED_VERIFIED. Its publisher run is #45068854952, attempt 1, job 137351162389, SUCCESS at 20:54:17Z. Publisher confirmation #7085633808; commit a25e9aec499974227a0d0e188a271e51c86c627c; artifact blob e5f584244f537d717b09946454c234a9dbdfe585; SHA-256 e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28. Issue-envelope content and canonical artifact exactly match at 12,651 characters / 12,661 UTF-8 bytes. No duplicate issue, manual write or issue-body edit. Run #45068762497 belongs to Tern issue #2370, not Morrow.
