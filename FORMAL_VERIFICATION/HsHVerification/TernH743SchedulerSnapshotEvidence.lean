@@ -2297,8 +2297,6 @@ not a proof of scheduler backend causation or result authenticity.
 #print axioms h1024_s3_current_and_cached_run_ids
 
 
-namespace HsHVerification.TernH743SchedulerSnapshotEvidence
-
 /-! ## h1028:s2 :24 current-run / cached-result cross-section
 
 Source: exact-ID scheduler readback during the h1028:s2 activation.
