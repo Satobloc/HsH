@@ -1432,3 +1432,12 @@ Source identity gate: WORKSPACES/MORROW/SOURCE_IDENTITY_GATE.md (Layer 13)
 
 ---
 
+## Latest h1028:s3 publication verified — 2026-11-22T2054Z
+
+- Morrow issue #2371 is PUBLISHED_VERIFIED for submission morrow-h1028-s3-publisher-conflict-classification-20261122t2036z-001.
+- Correct publisher run: #45068854952, attempt 1, job 137351162389, SUCCESS at 20:54:17Z. Run #45068762497 belongs to Tern issue #2370, not Morrow.
+- Publisher comment #7085633808; canonical artifact blob e5f584244f537d717b09946454c234a9dbdfe585; SHA-256 e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28; exact issue-envelope/artifact equality, 12,651 characters / 12,661 UTF-8 bytes.
+- No duplicate issue, manual write or issue-body edit.
+
+---
+
