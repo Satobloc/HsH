@@ -66,13 +66,19 @@
     "reason": "Factory Floor requires a precise quaternary geometric plot and independent hostile fidelity review before admission. Neither exists. The general GLASS+HSH-to-WORKSHOP route is not an authorization to bypass that gate."
   },
   "publication": {
-    "status": "NOT_PUBLISHED",
-    "publisher_artifact": null,
-    "publisher_run": null,
+    "status": "PUBLISHER_REJECTED",
     "attempted_issue": 2382,
-    "attempted_issue_state": "CLOSED_NOT_PLANNED",
-    "attempted_issue_body": "EMPTY",
-    "reason": "The issue was created without the required payload. The existing publisher is issues.opened-only; edited-event retry is not authorized. No duplicate issue or direct-write bypass was attempted."
+    "issue_state": "CLOSED_NOT_PLANNED",
+    "issue_body": "JSON envelope present; schema value uppercase HSH-PUBLISH-V1",
+    "workflow_run": 45080857829,
+    "workflow_url": "https://github.com/Satobloc/HsH/actions/runs/45080857829",
+    "workflow_conclusion": "SUCCESS (workflow execution)",
+    "publisher_comment": 7087262041,
+    "publisher_result": "REJECTED: invalid schema",
+    "required_schema": "hsh-publish-v1",
+    "artifact": null,
+    "checksum_readback": null,
+    "reason": "Publisher validation rejected the uppercase schema value. No artifact was created. The opened-event workflow has no authorized edit/retry path; no body edit, retrigger, duplicate issue, or direct PUBLISHED_SUBMISSIONS write was attempted."
   },
   "physical_status": {
     "measured_system": null,
