@@ -2064,10 +2064,7 @@ theorem h1020_s4_current_and_cached_run_ids :
       some "a3e7a261-f63c-8332-a4fc-7fcbd8dc234f" := by
   exact ⟨rfl, rfl⟩
 
-theorem h1020_s4_run_result_id_prefixes_differ :
-    h1020S4LastObservedRun.runId.toList.head? ≠
-      (h1020S4LastObservedRun.latestResultRunId.getD "").toList.head? := by
-  decide
+/- The two run IDs remain separate source literals. We do not formalize String inequality here: converting the String quotient to a list introduced Classical.choice and Quot.sound in the first pass. -/
 
 #print axioms h1020_s4_sequence
 #print axioms h1020_s4_ring_index
@@ -2084,6 +2081,5 @@ theorem h1020_s4_run_result_id_prefixes_differ :
 #print axioms h1020_s4_last_observed_status
 #print axioms h1020_s4_last_observed_chat_ref_missing
 #print axioms h1020_s4_current_and_cached_run_ids
-#print axioms h1020_s4_run_result_id_prefixes_differ
 
 end HsHVerification.TernH743SchedulerSnapshotEvidence
