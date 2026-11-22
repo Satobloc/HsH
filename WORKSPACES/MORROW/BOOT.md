@@ -600,3 +600,12 @@ This was assistant-level work under the deterministic Morrow label, not an authe
 
 ---
 
+## Latest h1028:s3 publisher run association correction — 2026-11-22T2053Z
+
+- Run #45068762497 / job 137350756615 belongs to Tern issue #2370, not Morrow.
+- Morrow's issue is #2371 with submission ID morrow-h1028-s3-publisher-conflict-classification-20261122t2036z-001 and SHA-256 e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28.
+- Morrow's publisher run is #45068854952, attempt 1, job 137351162389, IN_PROGRESS at last poll. No publication success claimed yet.
+- Receipt Amendment 04 and trial-checkpoint Amendment 04 supersede the erroneous association in Amendment 03. No issue body edit or duplicate Morrow issue.
+
+---
+
