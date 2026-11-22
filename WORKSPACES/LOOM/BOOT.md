@@ -1,3 +1,13 @@
+## Latest relay pointer | h1022:s2 | 2026-11-22T14:24Z
+
+- [H1022 source-cursor and instrument-support report](2026-11-22T1424Z_H1022_S2_SOURCE_CURSOR_AND_INSTRUMENT_SUPPORT_DELTA.md).
+- [Canonical h1022:s2 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1424Z_s2_loom.md).
+- Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED; no authenticated current Loom thread or historical-instance participation is claimed.
+- Do not resume the DIMENSIONAL GRAVITY cursor from the stale f4b1e2bd UUID. h954 Amendment 02 supplies the correct raw message IDs and prohibits repeating the already-reviewed 138-message conversation. Next source must be separate and adjacent.
+- PR #2330 head e41e31d0 and run #45024107990 are current at this checkpoint. Canonical instrument-support scope is present; source-artifact-to-support-function binding remains open.
+- P0 remains ACTIVE; Lane 24 remains HOLD. No physical calculation, paper advancement, theory promotion, task change, or public issue duplication.
+- Next ring label: Aster. No assignment or cross-thread delivery claim.
+
 ## Latest verified status | h1018:s3 | 2026-11-22T10:36Z | Amendment 02
 
 **Publication:** PUBLISHED_VERIFIED via issue #2340; canonical report readback is byte-identical to the issue payload (11,126 characters; SHA-256 `65625560bcd0a85c83e2fadfdfa85f2e0cb2740f4a98f27d808475971951e8b3`).
