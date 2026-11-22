@@ -2141,9 +2141,9 @@ theorem classifyLatestResultTemporalScope_current_iff
            resultSlot = o.currentRunScheduledUs ∧
              o.currentRunStartedUs ≤ resultCreated
        | _, _ => False) := by
-  cases o.latestResultScheduledUs <;>
-    cases o.latestResultCreatedUs <;>
-    simp [classifyLatestResultTemporalScope]
+  cases hSlot : o.latestResultScheduledUs <;>
+    cases hCreated : o.latestResultCreatedUs <;>
+    simp [classifyLatestResultTemporalScope, hSlot, hCreated]
 
 /-- h1024:s3 source-bound task/reference and current/cached result observation. -/
 def h1024S3ThreadRefs : ThreadReferenceObservation := {
@@ -2296,4 +2296,161 @@ not a proof of scheduler backend causation or result authenticity.
 #print axioms h1024_s3_last_observed_run_pending_without_chat_ref
 #print axioms h1024_s3_current_and_cached_run_ids
 
+
+namespace HsHVerification.TernH743SchedulerSnapshotEvidence
+
+/-! ## h1028:s2 :24 current-run / cached-result cross-section
+
+Source: exact-ID scheduler readback during the h1028:s2 activation.
+The provider returned the current :24 run as IN_PROGRESS with no completion
+and no run-level chat_ref. The cached latest_result belonged to the prior
+19:24Z occurrence, was created at 19:41:12.000566Z, and completed at
+19:41:13.105901Z, before the current run's 20:26:33.119521Z start.
+The task-level conversation reference and cached-result chat_ref shared one
+opaque equality token; the current-run chat_ref was absent. This does not
+authenticate a worker/thread or establish delivery.
+The provider did not expose a separate scheduler-readback timestamp.
+
+All coordinates below are UTC microseconds since midnight on 2026-11-22.
+The nominal 20:24Z slot, not the delayed start, selects the ring identity.
+-/
+
+/-- Separate task-container, current-run and cached-result reference scopes. -/
+def h1028S2ThreadRefs : ThreadReferenceObservation := {
+  phase := 2
+  enabled := true
+  scheduleMinute := 24
+  taskConversationRefToken := some "opaque-task-result-reference"
+  currentRunScheduledUs := us 20 24 0 0
+  currentRunStartedUs := us 20 26 33 119521
+  currentRunRefToken := none
+  latestResultScheduledUs := some (us 19 24 0 0)
+  latestResultCreatedUs := some (us 19 41 12 566)
+  latestResultCompletedUs := some (us 19 41 13 105901)
+  latestResultRefToken := some "opaque-task-result-reference"
+  taskLastRunUs := us 19 41 14 630098
+  taskUpdatedUs := us 19 41 37 739403
+  nextRunUs := us 20 24 0 0
+}
+
+/-- Exact current-run and cached-result fields from the same scheduler readback. -/
+def h1028S2LastObservedRun : SchedulerSnapshot := {
+  phase := 2
+  taskId := "6abda4c8eda88191bf23a6f2849e9a17"
+  enabled := true
+  scheduleMinute := 24
+  runId := "245a2582-d8c4-832e-b310-67e8939379b9"
+  scheduledUs := us 20 24 0 0
+  startedUs := us 20 26 33 119521
+  completedUs := none
+  status := .inProgress
+  latestResultRunId := some "65cb528d-9c38-8321-a59d-3e07430017f7"
+  chatRef := none
+  taskLastRunUs := us 19 41 14 630098
+  taskUpdatedUs := us 19 41 37 739403
+  nextRunUs := us 20 24 0 0
+}
+
+theorem h1028_s2_sequence : 5 * 1028 + 2 = 5142 := by decide
+theorem h1028_s2_ring_index : (5 * 1028 + 2) % 19 = 12 := by decide
+theorem h1028_s2_worker :
+    workerAtNominalSlot 1028 2 = some "Tern Rook" := by rfl
+theorem h1028_s2_successor :
+    workerAtNominalSlot 1028 3 = some "Morrow" := by rfl
+
+theorem h1028_s2_task_configuration :
+    h1028S2ThreadRefs.phase = 2 ∧
+    h1028S2ThreadRefs.enabled = true ∧
+    h1028S2ThreadRefs.scheduleMinute = 24 ∧
+    h1028S2LastObservedRun.taskId =
+      "6abda4c8eda88191bf23a6f2849e9a17" := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h1028_s2_task_and_cached_result_reference_alias :
+    h1028S2ThreadRefs.taskConversationRefToken =
+      h1028S2ThreadRefs.latestResultRefToken := by
+  rfl
+
+theorem h1028_s2_current_run_reference_absent :
+    h1028S2ThreadRefs.currentRunRefToken = none := by
+  rfl
+
+theorem h1028_s2_thread_reference_scope :
+    classifyThreadReference h1028S2ThreadRefs =
+      .taskResultAliasOnPriorSlot := by
+  rfl
+
+theorem h1028_s2_temporal_scope :
+    classifyLatestResultTemporalScope h1028S2ThreadRefs =
+      .priorOrStale := by
+  rfl
+
+theorem h1028_s2_result_is_prior_scheduled_occurrence :
+    h1028S2ThreadRefs.latestResultScheduledUs =
+      some (us 19 24 0 0) ∧
+    h1028S2ThreadRefs.currentRunScheduledUs = us 20 24 0 0 ∧
+    h1028S2ThreadRefs.currentRunScheduledUs -
+      h1028S2ThreadRefs.latestResultScheduledUs.getD 0 =
+        3600000000 := by
+  decide
+
+theorem h1028_s2_current_start_after_nominal_us :
+    h1028S2ThreadRefs.currentRunStartedUs -
+      h1028S2ThreadRefs.currentRunScheduledUs = 153119521 := by
+  decide
+
+theorem h1028_s2_cached_result_created_and_completed_before_current_start :
+    h1028S2ThreadRefs.latestResultCreatedUs.getD 0 <
+      h1028S2ThreadRefs.latestResultCompletedUs.getD 0 ∧
+    h1028S2ThreadRefs.latestResultCompletedUs.getD 0 <
+      h1028S2ThreadRefs.currentRunStartedUs := by
+  decide
+
+theorem h1028_s2_cached_result_created_before_current_start_by :
+    h1028S2ThreadRefs.currentRunStartedUs -
+      h1028S2ThreadRefs.latestResultCreatedUs.getD 0 =
+        2721118955 := by
+  decide
+
+theorem h1028_s2_task_metadata_precedes_current_start :
+    h1028S2ThreadRefs.taskLastRunUs <
+      h1028S2ThreadRefs.currentRunStartedUs ∧
+    h1028S2ThreadRefs.taskUpdatedUs <
+      h1028S2ThreadRefs.currentRunStartedUs ∧
+    h1028S2ThreadRefs.nextRunUs =
+      h1028S2ThreadRefs.currentRunScheduledUs := by
+  decide
+
+theorem h1028_s2_current_run_pending_without_chat_ref :
+    h1028S2LastObservedRun.status = .inProgress ∧
+    h1028S2LastObservedRun.completedUs = none ∧
+    h1028S2LastObservedRun.chatRef = none := by
+  exact ⟨rfl, rfl, rfl⟩
+
+theorem h1028_s2_current_and_cached_run_ids :
+    h1028S2LastObservedRun.runId =
+      "245a2582-d8c4-832e-b310-67e8939379b9" ∧
+    h1028S2LastObservedRun.latestResultRunId =
+      some "65cb528d-9c38-8321-a59d-3e07430017f7" := by
+  exact ⟨rfl, rfl⟩
+
+#print axioms classifyLatestResultTemporalScope_current_iff
+#print axioms h1028_s2_sequence
+#print axioms h1028_s2_ring_index
+#print axioms h1028_s2_worker
+#print axioms h1028_s2_successor
+#print axioms h1028_s2_task_configuration
+#print axioms h1028_s2_task_and_cached_result_reference_alias
+#print axioms h1028_s2_current_run_reference_absent
+#print axioms h1028_s2_thread_reference_scope
+#print axioms h1028_s2_temporal_scope
+#print axioms h1028_s2_result_is_prior_scheduled_occurrence
+#print axioms h1028_s2_current_start_after_nominal_us
+#print axioms h1028_s2_cached_result_created_and_completed_before_current_start
+#print axioms h1028_s2_cached_result_created_before_current_start_by
+#print axioms h1028_s2_task_metadata_precedes_current_start
+#print axioms h1028_s2_current_run_pending_without_chat_ref
+#print axioms h1028_s2_current_and_cached_run_ids
+
 end HsHVerification.TernH743SchedulerSnapshotEvidence
+
