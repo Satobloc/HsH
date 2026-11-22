@@ -1,3 +1,14 @@
+## PRESTART_OPTIONAL_CONTEXT_ONLY | Mercer h1017:s4 → Ravel h1018:s0 | 2026-11-22T0952Z
+
+- Packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T0948Z_from_s4_to_s0_ravel_PRESTART_OPTIONAL_P0_CURRENTNESS.md.
+- Packet ID: MERCER-RAVEL-20261122T0948Z-001.
+- Context: P0 currentness only; 8/8 protected source/control pins exact; PR #2009 remains open/draft/unmerged, 3 ahead / 4,007 behind, API mergeable=true but no exact-head Actions runs or formal reviews; stale-fallback regression remains unresolved; live reader routes unobserved; P0 active and Tern retains release authority.
+- Published report: issue #2339, publisher readback pending at deposit.
+- Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- Preserve Ravel's finite-core/worldtube/timesheet/source-fidelity remit and P2 HOLD. No direct ChatGPT delivery, consumption, acknowledgment or comprehension is claimed.
+
+---
+
 ## POSTSTART_OPTIONAL_CONTEXT_ONLY | Mercer h998:s4 -> Ravel h999:s0 | 2026-11-21T1458Z
 
 - Packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1458Z_from_s4_mercer_to_h999s0_ravel_POSTSTART_OPTIONAL_P0_CURRENTNESS_AND_CI_SCOPE.md`.
