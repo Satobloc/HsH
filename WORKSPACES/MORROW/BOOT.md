@@ -1,3 +1,12 @@
+## Latest h1028:s3 ledger finalization — 2026-11-22T2051Z
+
+- CLONE_LEDGER.jsonl independently read back and parsed: 413 rows, 410 unique populated event IDs, three legacy rows without IDs, zero parse errors and zero duplicate populated IDs.
+- Ledger commit eb4bbb9fb1d1336315423afa7445d284700acd8d; blob 337aabddb4372744845871cbde3d2b477bae0bac.
+- Six h1028:s3 events recorded: HsH/SAT/HSH_RESOURCES API-only reads, HsH API-only writes, and the two publisher Actions SHALLOW_1 checkouts. Traffic attribution UNKNOWN; no full clone claim.
+- The h1028 report and receipt now include the ledger result and independent internal readback. The h1028 public issue submission remains pending; h1024 issue #2359 is PUBLISHED_VERIFIED and not reused.
+
+---
+
 ## Latest h1028:s3 amendment — 2026-11-22T2048Z
 
 - Consumed the full optional Tern h1028:s2 packet (blob eeddcc7a89d8533708c5b2dff9da251476516869); appended a repository-inbox acknowledgment in commit af39b0c06397ed5aeaf9133ec30cd5f561b6e137. This is not direct-thread delivery or an assignment.
