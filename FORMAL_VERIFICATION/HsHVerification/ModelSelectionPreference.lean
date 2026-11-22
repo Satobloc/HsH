@@ -503,8 +503,9 @@ theorem strictHshSubsetStandard_is_oneSided
       (standardExclusivePredictions hsh standard).Nonempty := by
   rcases hStrict with ⟨hSub, hNotSub⟩
   constructor
-  · exact (hshPredictionSubsetStandard_iff_noHshExclusive hsh standard).mp hSub
-      ▸ Set.not_nonempty_iff_eq_empty.mpr rfl
+  · rintro ⟨x, hx⟩
+    change x ∈ hsh \ standard at hx
+    exact hx.2 (hSub hx.1)
   · exact strictHshSubsetStandard_has_standardExclusiveOutcome
       hsh standard ⟨hSub, hNotSub⟩
 
