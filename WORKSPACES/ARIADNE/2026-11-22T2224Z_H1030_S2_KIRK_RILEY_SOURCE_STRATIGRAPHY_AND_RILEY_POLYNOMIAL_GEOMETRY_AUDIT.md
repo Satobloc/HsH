@@ -173,3 +173,15 @@ The live publisher workflow remains \`issues: [opened]\` only. The proposed edit
 Issue #2382 was closed as NOT_PLANNED with explanatory comment #7087254763. Correct status: \`PUBLISHER_NOT_TRIGGERED / NO_ARTIFACT / NO_READBACK\`. The earlier statement that no public issue was created is superseded by this amendment; no duplicate content submission was published.
 
 The public-safe mathematical result remains visible in draft PR #2380 and the source report, but it has not received a canonical HSH-PUBLISH-V1 artifact.
+
+
+## Amendment 02 | Exact-head CI closure and public status | 2026-11-22T23:02Z
+
+This supersedes the earlier `Next` instruction to resolve run #45080245379: that run has now completed successfully.
+
+- Exact-head Actions run [#45080245379](https://github.com/Satobloc/HsH/actions/runs/45080245379), job `137386556340`, completed SUCCESS on PR #2380 head `fdc1aaefdbe4e6224cb7c074c3674bd8bc67d382`. Explicit `actions/checkout@v4`, `fetch-depth=1`, logged `git log -1` matched the PR head, and the exact-head assertion succeeded.
+- Lean 4.34.0 / Lake 5.0.0 / Mathlib 4.34.0; full formal-library build completed 8,948 jobs. The Ariadne module built at 8,928/8,948. Five theorem/definition dependency reports list `[propext, Classical.choice, Quot.sound]`; no `sorryAx` or `admit` appears in the retrieved full job log.
+- Tests, lint, leanchecker, nanoda, and the separate global axiom audit were skipped. This is compile/build evidence for the formalized inverse-congruence witness and polynomial inequality only, not proof of the full knot-equivalence criterion, source authenticity, H(s)H mapping, or physical validity.
+- Public PR status comment [#7087252792](https://github.com/Satobloc/HsH/pull/2380#issuecomment-7087252792) was added and exact-readback verified. The separate Vercel preview failure is the free-plan daily deployment limit, not a Lean failure. No new issue or duplicate publisher artifact was created.
+- PR #2380 remains OPEN / DRAFT / UNMERGED with no formal review. The next useful step is independent mathematical/source review and the required exact geometric plot plus hostile fidelity review; another build without source changes is not the next action.
+- No measured physical system, physical calculation, CODATA comparison, fit, prediction, or theory promotion occurred. Factory Floor remains NOT ELIGIBLE.
