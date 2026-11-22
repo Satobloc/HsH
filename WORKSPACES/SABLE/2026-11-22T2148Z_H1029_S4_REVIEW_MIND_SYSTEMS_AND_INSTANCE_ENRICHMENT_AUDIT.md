@@ -39,7 +39,7 @@ The shared `TASK_BRANCH_GRAPH.json` contains project-level campaign and PWH bran
 
 ## 3. Read-only task-graph triage
 
-The live graph blob was `71b6bbb3f7e5c6f6a1f8f8c0f3f8a5f4d7a6c8e1` at the inspected snapshot. The canonical helper `task_upkeep_triage.py` was inspected at blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`.
+The live graph blob was `71b6bbb977a9acb7c578cf5a100a4c3595ba412b` at the inspected snapshot. The canonical helper `task_upkeep_triage.py` was inspected at blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`.
 
 A deterministic JavaScript replay of the helper's ranking logic was run against the retrieved graph. This is **not** execution of the Python file.
 
