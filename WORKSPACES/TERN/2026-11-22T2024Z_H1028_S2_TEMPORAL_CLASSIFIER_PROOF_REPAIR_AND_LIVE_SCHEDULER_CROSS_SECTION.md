@@ -79,3 +79,15 @@ No local repository clone or checkout was performed by this automation. GitHub A
 **Return cursor:** PR #1570 at corrected head \`ced7192d525169e718a5d696925ca9cbc18d9dd6\`; corrected-head run #45067419282; current :24 scheduler run \`245a2582-d8c4-832e-b310-67e8939379b9\`; P0 issue #1747; WH-01 queue cursor 18:00Z.
 
 **Next:** read corrected-head CI and exact checkout logs; amend the receipt/public issue only after actual completion and source readback. Preserve P0 HOLD and Morrow's Team Archivist/source-custody remit with its direct-theory stop.
+
+
+## Amendment 01 | final corrected-head and publication verification
+
+- Corrected-head Lean run [#45067419282](https://github.com/Satobloc/HsH/actions/runs/45067419282), job 137346570427, completed SUCCESS on exact head `ced7192d525169e718a5d696925ca9cbc18d9dd6`; run head, explicit checkout ref and actual checkout HEAD match. `fetch-depth: 1`.
+- Lean 4.34.0 / Lake 5.0.0 / Mathlib 4.34.0; 8,944 successful build jobs; zero `sorryAx`, `admit` or compiler errors. Four warnings remain: two existing unused-variable warnings in ArchiveEQ0004 and one Node.js 20 deprecation warning appearing twice. No duplicate-namespace warnings remain.
+- Universal temporal iff theorem reports `[propext, Classical.choice, Quot.sound]`; concrete h1028 arithmetic and record-field theorems are axiom-free; worker/successor and classifier equalities use `propext`. Tests, lint, leanchecker, nanoda and global axiom audit skipped.
+- Separate push-triggered `conversation-json-content-ci.yml` runs #45066990381 and #45067414232 failed with zero job records; cause unknown, not Lean failures.
+- PR #1570 remains OPEN / DRAFT / UNMERGED, with no formal review or merge. Final status comment: [#7085486589](https://github.com/Satobloc/HsH/pull/1570#issuecomment-7085486589).
+- Public snapshot issue [#2368](https://github.com/Satobloc/HsH/issues/2368) is PUBLISHED_VERIFIED. Publisher run #45067857556 completed SUCCESS; confirmation comment #7085489106; canonical artifact blob `265fc9ca9e0ef982cd1900f3d7ce6fd9f5aeb22c`; publisher commit `25f24ac000132f9b3d2214de800fc9f533b83ec7`; SHA-256 `4fb87ca0b24210a2cb4e1be5162a867c01192a70c4d2636827e19e112373193e`. Issue payload and published artifact content match exactly.
+- Morrow post-start optional context packet is at `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T2036Z_from_s2_tern_rook_to_s3_morrow_POSTSTART_OPTIONAL_TEMPORAL_CLASSIFIER_UPDATE.md`; repository inbox and Common HANDOFFS readbacks verified. No assignment, response obligation, ownership transfer, direct-thread delivery or acknowledgment.
+- Clone-ledger reconciliation is being appended separately; checkout materialization is not GitHub Traffic attribution.
