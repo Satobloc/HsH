@@ -166,3 +166,60 @@ Corrected the existing branch by moving the three new declarations inside the na
 - Exact branch readback: matched the new blob; the final namespace terminator now follows all three declarations.
 
 No Lean run is yet exposed for corrected commit `e2e82c500b558d006abcf85271dde4a6aadeb7c0`; its visible combined status still shows only the unrelated Vercel free-deployment-rate-limit failure. Therefore the corrected declarations remain **NOT COMPILED / NO AXIOM REPORT**. The failed first attempt remains part of the record; it is not relabeled as a successful build.
+
+
+## Amendment 02 — exact raw equation transcription correction
+
+A source-string comparison found that the earlier displays labeled “verbatim” in this report and the parent issue #2324 were **normalized mathematical transcriptions, not verbatim source text**. Their mathematical rendering was broadly recognizable, but LaTeX commands, delimiters, spacing, and in the Blockwave projector even an index position were silently normalized. Withdraw the “verbatim” label for those earlier displays. The following raw source lines are the exact retrieved text.
+
+### SAT-O1 raw LaTeX (source lines 21, 28, 38, 42, 56)
+
+```latex
+\gamma^\mu(\lambda) = \left( \lambda, A_x \sin(k_x \lambda + \phi_x), A_y \sin(k_y \lambda + \phi_y), A_z \sin(k_z \lambda + \phi_z) \right)
+v^\mu(\lambda) = \frac{d \gamma^\mu}{d \lambda}
+S[\gamma] = \int d\lambda \, L(\gamma^\mu, v^\mu)
+L = \frac{1}{2} m v^\mu v_\mu - V_{\text{tension}}(\gamma)
+\phi_i - \phi_j = \frac{2\pi k}{n}
+```
+
+### Blockwave raw source (source lines 9, 13–28, 31, 64)
+
+The opening definition line is preserved exactly:
+
+```text
+Let g_{\mu\nu} be the emergent metric, u^\mu the unit time–flow (u^\mu u_\mu=-1), \theta a compact phase (\theta\sim\theta+2\pi). Define the spatial projector P^\mu{}^\nu\!\equiv \delta^\mu{}^\nu+u^\mu u_\nu. Let J^{\mu\nu} be the conserved two-form “filament worldsheet” current (distributional on physical filaments), \nabla_\mu J^{\mu\nu}=0.
+```
+
+The complete compact-action block is preserved without repairing its original tokens:
+
+```latex
+\boxed{
+\begin{aligned}
+S \;=\; \int d^4x\,\sqrt{-g}\;\Big[
+&\; \frac{M_{\rm P}^2}{2}\,R
+\;+\; \underbrace{\frac{f_\theta}{2}\,\nabla_\mu\theta\,\nabla^\mu\theta \;-\; \Lambda_\theta^4\big(1-\cos\theta\big)}{\text{compact phase (elastic + compactness)}}
+\\[2pt]
+&\;+\; \underbrace{\tfrac{c_1}{2}\,P^{\alpha\beta}P^{\mu\nu}(\nabla\alpha u_\mu)(\nabla_\beta u_\nu)
+\;+\; \tfrac{c_2}{2}\,(\nabla_\mu u^\mu)^2}{\text{time–flow elasticity (Lorentz-safe sector)}}
+\;+\; \lambda\,(u^\mu u\mu+1)
+\\[2pt]
+&\;+\; \underbrace{\tfrac{\kappa_0}{4}\,J_{\mu\nu}\,P^{\mu}{}{\rho}P^{\nu}{}{\sigma}\,J^{\rho\sigma}
+\;+\; \tfrac{\kappa_2\,\ell^2}{4}\,(\nabla_\alpha J_{\mu\nu})\,P^{\alpha}{}{\beta}P^{\mu}{}{\rho}P^{\nu}{}{\sigma}\,(\nabla^\beta J^{\rho\sigma})}{\text{filament spectrum: flex/twist/coil}}
+\\[2pt]
+&\;+\; \underbrace{\frac{g_h}{2}\,F_{\mu\nu}(\theta)\,J^{\mu\nu}}{\text{holonomy–trace coupling}}
+\;+\; \underbrace{\frac{1}{2}\,J{\mu\nu}\,\mathcal{M}^{\mu\nu}{}{\rho\sigma}(\theta,u)\,J^{\rho\sigma}}{\text{mixing / medium response}}
+\Big].
+\end{aligned}
+}
+```
+
+The exact source definition and implementation-note lines are:
+
+```text
+F_{\mu\nu}(\theta)\equiv \nabla_{[\mu}A_{\nu]}(\theta), with A_\mu(\theta)\equiv \alpha_*\,\nabla_\mu\theta. Because \theta is compact, \oint A\cdot d\ell\in 2\pi\mathbb{Z}; this drives quantization by holonomy.
+Conservation of J: enforce with J^{\mu\nu}=\tfrac12\,\epsilon^{\mu\nu\rho\sigma}\nabla_\rho B_\sigma (compact 1-form B) or via a lattice integer current; both keep \nabla_\mu J^{\mu\nu}=0 automatic.
+```
+
+The original Blockwave source therefore contains apparent notation/transcription irregularities, including `P^\mu{}^\nu` (upper second index), `\nabla\alpha`, `u^\mu u\mu`, `P^{\mu}{}{\rho}`, and `J{\mu\nu}`. These are preserved as source text, **not silently repaired**. No corrected equation is proposed here. Any later correction must be separately labeled, justified and dated.
+
+The current Git blob SHA-1 values were independently re-fetched and match the prior source audit: SAT-O1 `7577aa1ee5a6c3850ce3b226c75377de6367aedc`; Blockwave `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`. SHA-256 values and historical FileIndex/attachment dates remain those recorded in issue #2324; this continuation did not recompute those SHA-256 values or independently recover the FileIndex/attachment timestamp source.
