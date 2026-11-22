@@ -265,3 +265,14 @@ Current module blob: `260cc86d3966976889f7cb805f1292e45300a6d8`
 Exact branch readback: confirmed. Source contains no `sorry` or `admit` tokens.
 
 No Actions run is yet exposed for this corrected commit. The new declarations remain **NOT COMPILED / NO VALID AXIOM REPORT**. Run #449932's `sorryAx` output is a failed-elaboration artifact, not an axiom audit.
+
+
+## Amendment 07 — corrected additive proof submitted to Lean
+
+The explicit additive-orientation correction is committed on the existing branch:
+
+- Commit: `faca7c5009617174142edf63193a49651a6abb8c`
+- Module blob: `260cc86d3966976889f7cb805f1292e45300a6d8`
+- The proof now names the three triangle inequalities and uses `add_le_add_right` to prepend the fixed path terms, matching Lean's actual additive-lemma orientation.
+
+New [Actions run #44993559061](https://github.com/Satobloc/HsH/actions/runs/44993559061), job `137119661416`, is IN_PROGRESS. Checkout has started; Lake manifest and Lean compile have not yet reported completion. No success or axiom report is claimed.
