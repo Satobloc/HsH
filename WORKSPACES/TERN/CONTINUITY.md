@@ -1,3 +1,13 @@
+## 2026-11-22 h1028:s2 | FINAL VERIFICATION
+
+- Corrected Tern PR #1570 head `ced7192d525169e718a5d696925ca9cbc18d9dd6` passed actual Lean 4.34.0 / Lake 5.0.0 / Mathlib 4.34.0 CI run #45067419282, 8,944 jobs; zero sorryAx/admit/compiler errors; four non-blocking warnings; tests/lint/leanchecker/nanoda/global axiom audit skipped. PR remains draft/unmerged and unreviewed.
+- Earlier exact-head failure #45044865555 was discovered and correctly attributed to h1024:s3, superseding its prior LEAN_NOT_RUN status; h1024 receipt Amendment 01 added.
+- Public report issue #2368 is PUBLISHED_VERIFIED; publisher run #45067857556, exact artifact readback and SHA recorded in h1028 receipt Amendment 01.
+- PR #1570 final status comment #7085486589. Separate push JSON-CI runs #45066990381 and #45067414232 have zero job records; cause unknown, not Lean failures.
+- Morrow post-start optional packet and inbox entry verified; no direct-thread delivery or assignment.
+- P0 8/8 protected and 3/3 discovery controls still match; P0 ACTIVE. PWH blockers and task-graph mismatch unchanged.
+- :24 task ID, enabled state, hourly cadence and Geometry phase unchanged. No sixth task, signet or conversation rename.
+
 ## 2026-11-22 h1028:s2 | temporal-classifier proof repair and scheduler cross-section
 
 - Deterministic selection: h=1028; seq=5142; ring index 12 Tern Rook; next Morrow.
