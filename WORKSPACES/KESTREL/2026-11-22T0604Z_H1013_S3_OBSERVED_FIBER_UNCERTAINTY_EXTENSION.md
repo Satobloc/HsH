@@ -1,0 +1,146 @@
+# Kestrel h1013:s3 continuation — observed-fiber uncertainty extension
+
+**Nominal slot:** 2026-11-22T05:36:00Z  
+**Continuation observation:** 2026-11-22T06:04Z  
+**Run key:** `REVROT3-19-20261011:1013:s3`  
+**Classification:** assistant-level, source-grounded Kestrel-label continuation. The existing h1013 publisher issue predates this invocation and was not duplicated. No authenticated current Kestrel thread or historical-instance participation is claimed.
+
+## 1. Deterministic selection and historical role
+
+- h=1013, measured from 2026-10-11T00:00Z to the nominal 2026-11-22T05:00Z hour.
+- seq=5h+3=5068; 5068 mod 19=14.
+- Selected label: **Kestrel**, index 14.
+- Next label: **Meridian**, index 15.
+
+Kestrel's historical source is the raw “Science Made Stupid” conversation, conversation ID `6ab070ce-2384-83e9-b76f-4661c55867c4`, raw Git blob `100267f3f11f3cce09c7d802ce85ad03879d5744`. Four role-defining direct user messages were recovered: `c6803d67-a76f-48e4-bf71-f49cb7b224ee`, `3c07680d-5205-48a3-93d5-ce33a8cf86a6`, `fc9b147e-b138-44ac-a48b-b81593e3c3e9`, and `f15aac1c-0a31-4e98-b461-6ca872035315`.
+
+The historical remit is a trust-first cross-boundary synthesis companion, not a duplicate provenance tribunal or hostile-audit team. The direct instructions also say Nathan's stated knowledge is to be treated as hypothesis rather than settled fact, and that the companion should not interrogate every alternative by default. This is not permission to convert hypotheses into facts or suppress a material contradiction. No standalone signed Kestrel specialist charter or authenticated current Kestrel thread was found.
+
+## 2. Existing h1013 artifact and source fidelity
+
+The existing [h1013 issue #2324](https://github.com/Satobloc/HsH/issues/2324) was already present before this continuation. It records the original chain-aware fiber result and is PUBLISHED_VERIFIED. No duplicate issue was created.
+
+The original SAT-O1 file was independently fetched from the SAT archive. Its Git blob SHA-1 matches the existing report:
+
+- Path: `SATOBLOC/SAT O1 4D.txt`
+- Git blob SHA-1: `7577aa1ee5a6c3850ce3b226c75377de6367aedc`
+- SHA-256 recorded in the published source audit: `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937`
+- FileIndex creation: 2025-06-07 08:38:16; last write: 2025-06-09 18:44:50
+- First extant Git commit: 2025-10-27T00:40:28Z
+- Unbylined historical module; an earlier conflicting creation date remains unresolved.
+
+Verbatim SAT-O1 core equations:
+
+```text
+γ^μ(λ) = (λ,
+          A_x sin(k_x λ + φ_x),
+          A_y sin(k_y λ + φ_y),
+          A_z sin(k_z λ + φ_z))
+
+v^μ(λ) = dγ^μ/dλ
+S[γ] = ∫ dλ L(γ^μ, v^μ)
+L = 1/2 m v^μ v_μ - V_tension(γ)
+φ_i - φ_j = 2πk/n
+```
+
+The displayed `γ^μ(λ)` is a one-parameter centerline. The file describes a worldtube as the four-dimensional volume swept by vibration, but supplies no finite-core thickening map in these equations.
+
+The original Blockwave attachment was independently fetched from HsH; its Git blob SHA-1 also matches the published source audit:
+
+- Path: `DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt`
+- Git blob SHA-1: `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`
+- SHA-256 recorded in the published source audit: `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`
+- Exact UTF-8 length recorded in the source audit: 25,255 bytes
+- Attachment event: 2025-09-16T16:31:26.687Z
+- First extant repository commit: 2026-10-08
+- Assistant-voiced attachment; embedded authorship unresolved, not Nathan Direct.
+
+Verbatim Blockwave equations:
+
+```text
+u^μ u_μ = -1
+P^μ{}_ν = δ^μ{}_ν + u^μ u_ν
+J^{μν} = 1/2 ε^{μνρσ} ∇_ρ B_σ
+∇_μ J^{μν} = 0
+A_μ(θ) = α_* ∇_μ θ
+F_{μν}(θ) = ∇_[μ A_{ν]}(θ)
+```
+
+Here `θ` is the compact phase in the attachment, not the geometric angle `θ₄`. No corrected SAT-O1 or Blockwave equation is proposed in this continuation. Original equations remain separate from later corrections.
+
+## 3. New architecture improvement: observation radii compose with the chain budget
+
+The existing Kestrel PR #2323 composes Ravel's finite-chain approximation budget with a lossy upstream projection. It proves a deterministic decoder through (p) cannot satisfy both endpoint chain-error bounds when two exact outputs in one projection fiber are separated by more than (2E_n).
+
+This continuation adds a distinct final-observation layer. Let:
+
+- (F_n(x)) be the exact final output of the heterogeneous chain;
+- (g(p(x))) be the deterministic approximate chain, with (p(x)=p(y)) on the relevant fiber;
+- (E_n) be the existing recursively propagated chain-error budget;
+- (o_x,o_y) be observed final outputs;
+- (eta_x,eta_y) be deterministic metric radii satisfying (d(o_x,F_n(x))\leq\eta_x) and (d(o_y,F_n(y))\leq\eta_y).
+
+The resulting observed-fiber bound is:
+
+[
+\boxed{d(o_x,o_y)\leq\eta_x+\eta_y+2E_n}
+]
+
+Therefore, an observed separation greater than (eta_x+eta_y+2E_n) excludes every deterministic decoder through that projection that is claimed to satisfy the chain contract for both inputs.
+
+For a common endpoint radius (eta), the threshold is (2(E_n+eta)).
+
+The new source-level Lean additions on the existing Kestrel branch are:
+
+- `observedFiberSeparationBound`
+- `noProjectionDecoderWithinObservedChainBudget`
+- `noProjectionDecoderWithinObservedStagewiseBudget`
+
+This is an asymmetric endpoint-radius refinement, not a duplicate of Nadir's existing `NadirRobustReadoutSeparation` result. Nadir already formalizes the baseline-Lipschitz tolerance threshold (K\varepsilon+2\delta) and its exact-fiber (2\delta) special case. Kestrel's extension composes endpoint observation radii with Ravel's heterogeneous finite-chain budget.
+
+**Uncertainty boundary:** (eta_x,eta_y) are deterministic metric radii, not standard deviations, confidence intervals or independent Gaussian errors. Worst-case radii add linearly. A statistical application requires a separately calibrated covariance/coverage model; correlated common-mode uncertainty may make the radius bound conservative. No physical detector or instrument map is supplied.
+
+## 4. Existing branch and verification status
+
+Existing branch: `research/kestrel-chain-aware-fiber-bound-20261122t0536z`  
+Existing PR: [#2323](https://github.com/Satobloc/HsH/pull/2323), OPEN / DRAFT / UNMERGED, no reviews.
+
+The new source update was committed to that branch:
+
+- Commit: `35974e297afc5657bd7bb28ab73e118e3e9078e2`
+- Module blob: `23d52dfee3c7b62686e147d550fdf21c23c2ef04`
+- File: `FORMAL_VERIFICATION/HsHVerification/KestrelChainAwareFiberBound.lean`
+- Exact branch readback: matched the new blob and all three new declaration names.
+
+A successful earlier Actions run, [#44991487462](https://github.com/Satobloc/HsH/actions/runs/44991487462), job `137113297269`, compiled the prior chain-only module:
+
+- Lean 4.34.0 / Lake 5.0.0.
+- 8,958 build jobs successful.
+- `KestrelChainAwareFiberBound` built at 8,953/8,958.
+- The checkout was `refs/remotes/pull/2323/merge`, with source commit `c40dc8dc9c81ad8de16d65eaeaa3b80b1742e125`; this was a merge-reference integration build, not an exact-head checkout of PR head `9786113f868d8291d4567948cfced96d2bc50ea3`.
+- The new observation-radius declarations were not yet present in that build.
+- Tests, lint, nanoda and the separate automated axiom audit were skipped.
+
+**New observation-radius declarations: NOT COMPILED / NO AXIOM REPORT.** The connected Actions interface exposed no run for commit `35974e297afc5657bd7bb28ab73e118e3e9078e2`; the local container has no Lean, Lake or Elan. The head's visible status check is an unrelated Vercel free-deployment-rate-limit failure, not a Lean result. Do not report the new theorem as verified. No rebase, merge or review was attempted.
+
+## 5. Mersearch and source-access limits
+
+The current Mersearch start guide requires a three-repository search and forbids overwriting occupied request lanes. All four request files remain `status=requested`. Lane 2 has a compact manifest/receipt for an unrelated perceptual-nexus query; Lanes 1, 3 and 4 have no request-scoped manifest at the expected path. No lane was changed, released, retriggered or repurposed. No local pinned three-repository checkout or callable Mersearch action was available. GitHub source retrieval was a bounded fallback, **not a Mersearch run**. No HSH_RESOURCES private payload was accessed.
+
+Existing Ravel PR #2309, Nadir PR #1189, Kestrel PR #2323, Math Hopper #578 / PR #991, and Whirligig Kernel 0 were checked as existing infrastructure. No new tool, dependency, fork, subscription or expense was introduced.
+
+## 6. Empirical and campaign boundary
+
+No physical system was selected. No measured dataset, units/covariance, calibrated geometry-to-instrument map, fit, independent prediction, holdout or falsification threshold was produced. No H(s)H physical equivalence or independent measurement is claimed. P2 remains HOLD.
+
+Campaign status remains: P1 Nov 9 MISSED / Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE's next-review date is recorded inconsistently as November 24 and December 4 in current Kestrel surfaces; neither date is due on November 22. Shared unrelated-reading cursor remains 3086; no duplicate break was performed.
+
+## 7. Succession and scheduler preservation
+
+Next deterministic ring label: **Meridian**, index 15. Meridian's protected P0 Paper A presentation remit remains in force. No assignment, packet, response obligation, direct-thread delivery, consumption, acknowledgment or ownership transfer is claimed.
+
+The existing :36 task remains enabled with its exact task ID `6a9f52b69ec08191b0a2ba24a074f781`, original hourly DTSTART/RRULE, prompt and Lane Charter 36 phase unchanged. No sixth task, task/ID/cadence mutation, signet or conversation rename.
+
+The scheduler's current run record at the last observation was IN_PROGRESS with `chat_ref=null`; its cached latest result belonged to the preceding h1012 Elias Kern run, not this Kestrel-labelled slot.
+
+**Next exact cursor:** obtain a Lean 4.34.0 build of commit `35974e297afc5657bd7bb28ab73e118e3e9078e2`; inspect theorem-specific axiom output; independently review the asymmetric-radius composition; then decide whether to integrate with Nadir's existing robust-readout theorem. Do not select a physical system or claim an H(s)H prediction until source-grounded maps, compatible units/metrics, measured data, covariance, calibration and untouched holdout are available.
