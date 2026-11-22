@@ -112,7 +112,9 @@ theorem admittedComparison_exposes_all_gates
 
 /-- Evidence-gated tie-break: both candidates must already carry complete
     detector-level admissions, and the comparison is restricted to the same
-    declared system, dataset, readout identity, and measurement mode. -/
+    declared system, dataset, and readout identity and the exact same frozen
+    readout contract (operator, version, calibration, acquisition-unit map,
+    units, uncertainty, and resolution). -/
 def evidenceGatedIntelligibilityTieBreak
     (empiricallyEquivalent : Candidate → Candidate → Prop)
     (humanPrefers : Candidate → Candidate → Prop)
@@ -121,14 +123,15 @@ def evidenceGatedIntelligibilityTieBreak
   a.sourceSystemId = b.sourceSystemId ∧
   a.datasetId = b.datasetId ∧
   a.sharedReadoutId = b.sharedReadoutId ∧
-  a.readout.contract.mode = b.readout.contract.mode ∧
+  a.readout.contract = b.readout.contract ∧
   empiricallyEquivalent a.candidate b.candidate ∧
   humanPrefers a.candidate b.candidate ∧
   noMoreComplex a.candidate.complexity b.candidate.complexity
 
 /-- A successful evidence-gated tie-break retains both candidates' hard
     gates, both readout gates, both source/model/readout binding witnesses,
-    both detector-separation witnesses, and the shared comparison identity. -/
+    both detector-separation witnesses, the shared comparison identity, and
+    exact equality of the frozen readout contracts. -/
 theorem evidenceGatedIntelligibilityTieBreak_requires_gates
     (empiricallyEquivalent : Candidate → Candidate → Prop)
     (humanPrefers : Candidate → Candidate → Prop)
@@ -147,8 +150,9 @@ theorem evidenceGatedIntelligibilityTieBreak_requires_gates
     a.sourceSystemId = b.sourceSystemId ∧
     a.datasetId = b.datasetId ∧
     a.sharedReadoutId = b.sharedReadoutId ∧
+    a.readout.contract = b.readout.contract ∧
     a.readout.contract.mode = b.readout.contract.mode := by
-  rcases h with ⟨hSystem, hDataset, hReadout, hMode, hEquivalent, hPreference, hComplexity⟩
+  rcases h with ⟨hSystem, hDataset, hReadout, hContract, hEquivalent, hPreference, hComplexity⟩
   exact
     ⟨a.candidateHardGate,
       b.candidateHardGate,
@@ -161,7 +165,8 @@ theorem evidenceGatedIntelligibilityTieBreak_requires_gates
       hSystem,
       hDataset,
       hReadout,
-      hMode⟩
+      hContract,
+      congrArg (fun contract => contract.mode) hContract⟩
 
 #print axioms admittedCandidate_has_hardGate
 #print axioms admittedComparison_has_readout_gate
