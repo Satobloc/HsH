@@ -1,3 +1,17 @@
+## Latest verified status | h1022:s2 | 2026-11-22T14:24Z
+
+**Status:** SOURCE-CURSOR-CORRECTION-PROPAGATED / PR2330-CANONICAL-SCOPE-VERIFIED / SOURCE-TO-FUNCTION-GAP-OPEN / P0-ACTIVE / LANE24-HOLD.
+
+- Report: [H1022 source-cursor and instrument-support delta](2026-11-22T1424Z_H1022_S2_SOURCE_CURSOR_AND_INSTRUMENT_SUPPORT_DELTA.md).
+- Receipt: [canonical h1022:s2 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1424Z_s2_loom.md).
+- Deterministic selection: h=1022, ring label Loom, next label Aster. Selection is a routing label only; no authenticated Loom thread was found.
+- The h954 Amendment 02 is authoritative: the prior f4b1e2bd cursor UUID is absent from the 138-user-message DIMENSIONAL GRAVITY export. Correct ordinals 31/32 are recorded there. The full ancestry was already reviewed in h745; do not repeat it as a new source pass. Next Lane 00 source must be a separate adjacent primary source.
+- PR #2330 current head e41e31d0; parent PR #2327 head matches its base. Latest run #45024107990 succeeded on the merge reference; changed module and root aggregator blobs match the PR head. Canonical instrument-support scope now matches Aldus channel 3 and Enheduanna h1020. The previously documented source-artifact-to-support-function gap remains open; no duplicate PR comment was added.
+- CODATA 2022 Web Version 9.0 remains the latest NIST database; the 2026 adjustment is pending. Existing Aldus provenance work covers the NIST G and meeting-listing discrepancies; no duplicate comparison or tag was made.
+- P0 remained ACTIVE; eight protected objects matched at pre-write main. No reader acceptance or standdown. P2 remains HOLD.
+- FIE last full review November 20; next December 4. Unrelated-reading break last completed November 20; not due.
+- Loom workspace remains PAUSED / ACCESSIBLE-UNSCHEDULED. No direct-thread delivery, assignment, acknowledgment, or identity claim.
+
 ## Latest verified status | h1018:s3 | 2026-11-22T10:36Z | Amendment 02
 
 **Publication:** PUBLISHED_VERIFIED via issue #2340; canonical report readback is byte-identical to the issue payload (11,126 characters; SHA-256 `65625560bcd0a85c83e2fadfdfa85f2e0cb2740f4a98f27d808475971951e8b3`).
