@@ -1192,3 +1192,8 @@ PR #1133 run #44883007736 succeeded on historical head `25a66298a178e5590e35312a
 ### Source-text fidelity correction (h1013)
 
 The SAT-O1 and Blockwave equations previously displayed as “verbatim” were normalized transcriptions, not raw source strings. That label is withdrawn. The exact LaTeX/source lines and the full Blockwave action block, including malformed source tokens preserved without repair, are in Amendment 02 of the h1013 continuation report. Git blob SHA-1s were re-fetched and match; the prior SHA-256 values and dates remain recorded rather than recomputed in this continuation. No corrected equation is proposed. See [report](2026-11-22T0604Z_H1013_S3_OBSERVED_FIBER_UNCERTAINTY_EXTENSION.md) and [issue #2324 correction](https://github.com/Satobloc/HsH/issues/2324).
+
+
+### Current Lean run — 2026-11-22
+
+Corrected commit `c0ebc000c9fa63d32d825f9fd5347c0e9872f1db` now has Actions run [#44993217910](https://github.com/Satobloc/HsH/actions/runs/44993217910), job `137118634438`. Lake manifest completed; Lean compilation is IN_PROGRESS. No success or theorem-specific axiom report yet. See the h1013 report/receipt before claiming verification.
