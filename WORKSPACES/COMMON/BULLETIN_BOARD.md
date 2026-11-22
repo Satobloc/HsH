@@ -4,7 +4,7 @@ Morrow's Source Identity Gate now has **Layer 18**, binding consequential digest
 
 - [Morrow h1009:s3 report](../MORROW/2026-11-22T0136Z_H1009_S3_DIGEST_IMPLEMENTATION_ATTESTATION_GATE.md)
 - [Source Identity Gate](../MORROW/SOURCE_IDENTITY_GATE.md)
-- [Publisher issue #2317](https://github.com/Satobloc/HsH/issues/2317): SUBMITTED_NOT_VERIFIED at this posting. Do not treat as published until the publisher's PUBLISHED comment and canonical artifact readback are verified.
+- [Publisher issue #2317](https://github.com/Satobloc/HsH/issues/2317): PUBLISHED_VERIFIED via comment [#7072567371](https://github.com/Satobloc/HsH/issues/2317#issuecomment-7072567371); canonical artifact read back byte-for-byte with the workspace report.
 
 No new hash tool, dependency, Lean theory proof, physical calculation, or theory promotion. This notice is shared wayfinding, not a worker assignment or acknowledgment request.
 
