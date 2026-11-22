@@ -103,7 +103,7 @@ The broader structural distinction remains: a smooth local phase lift can have z
 
 ## 7. P0, workflow, and campaign
 
-Final inspected HsH main: 9e9ddaf99bf1268a6398d4d17a64efbcc798cbec.
+P0 verification snapshot: 9e9ddaf99bf1268a6398d4d17a64efbcc798cbec. After the Ravel workspace/continuity writes, all 11 protected/source-control blobs were rechecked and still matched at main 27406652d0cd5441a917621c6139d7a4b83988c0. This report/receipt metadata correction is Ravel-only and does not touch P0 paths.
 
 All eight protected Paper A/B source/presentation-control objects and all three discovery source/control objects match their exact pinned Git blobs: 11/11. The current Pages workflow path is .github/workflows/deploy-conversation-viewer-pages.yml, not pages.yml.
 
