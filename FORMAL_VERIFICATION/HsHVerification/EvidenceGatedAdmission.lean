@@ -180,9 +180,11 @@ theorem admittedComparison_exposes_all_gates
 
 /-- Evidence-gated tie-break: both candidates must carry complete
     detector-level admissions, and both admissions must refer to the same
-    frozen packet ID and digest, source system, dataset, shared-readout ID,
-    and exact readout contract (operator, version, calibration,
-    acquisition-unit map, units, uncertainty, and resolution). -/
+    frozen packet ID, digest, and manifest locator, source system,
+    dataset, shared-readout ID, and exact readout contract (operator,
+    version, calibration, acquisition-unit map, units, uncertainty,
+    and resolution). The manifest equality is locator-level identity
+    only; it does not authenticate manifest bytes. -/
 def evidenceGatedIntelligibilityTieBreak
     (empiricallyEquivalent : Candidate → Candidate → Prop)
     (humanPrefers : Candidate → Candidate → Prop)
@@ -190,6 +192,7 @@ def evidenceGatedIntelligibilityTieBreak
       (State := State) (Field := Field) (Payload := Payload)) : Prop :=
   a.packet.packetId.value = b.packet.packetId.value ∧
   a.packet.packetDigest.value = b.packet.packetDigest.value ∧
+  a.packet.manifest = b.packet.manifest ∧
   a.packet.sourceSystemId.value = b.packet.sourceSystemId.value ∧
   a.packet.datasetId.value = b.packet.datasetId.value ∧
   a.packet.sharedReadoutId.value = b.packet.sharedReadoutId.value ∧
@@ -199,10 +202,24 @@ def evidenceGatedIntelligibilityTieBreak
   noMoreComplex a.binding.candidate.value.complexity
     b.binding.candidate.value.complexity
 
+/-- A successful evidence-gated tie-break requires the same declared
+    frozen measurement-packet manifest locator. This is locator equality,
+    not byte-level manifest authentication. -/
+theorem evidenceGatedIntelligibilityTieBreak_requires_same_packet_manifest
+    (empiricallyEquivalent : Candidate → Candidate → Prop)
+    (humanPrefers : Candidate → Candidate → Prop)
+    (a b : EvidenceGatedModelComparison
+      (State := State) (Field := Field) (Payload := Payload))
+    (h : evidenceGatedIntelligibilityTieBreak
+      empiricallyEquivalent humanPrefers a b) :
+    a.packet.manifest = b.packet.manifest := by
+  rcases h with ⟨_, _, hManifest, _, _, _, _, _, _, _⟩
+  exact hManifest
+
 /-- A successful evidence-gated tie-break retains both candidates' hard
     gates, both readout gates, both packet-binding witnesses, both
     detector-separation witnesses, and exact equality of the common packet
-    identity, provenance labels, and frozen readout contracts. -/
+    identity, manifest locator, provenance labels, and frozen readout contracts. -/
 theorem evidenceGatedIntelligibilityTieBreak_requires_gates
     (empiricallyEquivalent : Candidate → Candidate → Prop)
     (humanPrefers : Candidate → Candidate → Prop)
@@ -220,6 +237,7 @@ theorem evidenceGatedIntelligibilityTieBreak_requires_gates
     b.binding.packetDigest.value = b.packet.packetDigest.value ∧
     a.packet.packetId.value = b.packet.packetId.value ∧
     a.packet.packetDigest.value = b.packet.packetDigest.value ∧
+    a.packet.manifest = b.packet.manifest ∧
     a.packet.sourceSystemId.value = b.packet.sourceSystemId.value ∧
     a.packet.datasetId.value = b.packet.datasetId.value ∧
     a.packet.sharedReadoutId.value = b.packet.sharedReadoutId.value ∧
@@ -232,8 +250,8 @@ theorem evidenceGatedIntelligibilityTieBreak_requires_gates
       b.binding.hshModel.value b.binding.standardModel.value b.packet.readout
       b.binding.hshStates.value b.binding.standardStates.value := by
   rcases h with
-    ⟨hPacketId, hPacketDigest, hSystem, hDataset, hReadout, hContract,
-      hEquivalent, hPreference, hComplexity⟩
+    ⟨hPacketId, hPacketDigest, hManifest, hSystem, hDataset, hReadout,
+      hContract, hEquivalent, hPreference, hComplexity⟩
   rcases a.bindingPacketIdentity with ⟨haPacketId, haPacketDigest⟩
   rcases b.bindingPacketIdentity with ⟨hbPacketId, hbPacketDigest⟩
   exact
@@ -247,6 +265,7 @@ theorem evidenceGatedIntelligibilityTieBreak_requires_gates
       hbPacketDigest,
       hPacketId,
       hPacketDigest,
+      hManifest,
       hSystem,
       hDataset,
       hReadout,
@@ -260,6 +279,7 @@ theorem evidenceGatedIntelligibilityTieBreak_requires_gates
 #print axioms admittedComparison_has_source_model_readout_binding
 #print axioms admittedComparison_has_detector_separation
 #print axioms admittedComparison_exposes_all_gates
+#print axioms evidenceGatedIntelligibilityTieBreak_requires_same_packet_manifest
 #print axioms evidenceGatedIntelligibilityTieBreak_requires_gates
 
 end HsHVerification.EvidenceGatedAdmission
