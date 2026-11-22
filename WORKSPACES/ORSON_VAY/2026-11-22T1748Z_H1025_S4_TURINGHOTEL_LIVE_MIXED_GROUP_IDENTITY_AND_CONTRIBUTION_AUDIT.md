@@ -239,3 +239,16 @@ Next ring label: Sable, h1026:s0. Sable's INBOX already contains optional Orson 
 All four original enabled Workshop Relay tasks retain their exact IDs, hourly schedules, and phases. The :12 task remains disabled. No task, prompt, phase, ownership, signet, or conversation name was changed. No sixth task was created.
 
 **Final disposition:** H1025_S4_ORSON_VAY / TURINGHOTEL_NEW_LIVE_MIXED_GROUP_SOURCE_REVIEWED / CURRENT_CODE_EXPERIMENT_CONFIG_MISMATCH / ARIMA_SESSION_DEPENDENCE_CAVEAT_ADDED / FACTORIZATION_CRITERION_REUSED_NOT_REINSTANTIATED / PR1570_EXACT_HEAD_FAILURE_RECORDED / P0_ACTIVE / WH02_UNMERGED / MERSEARCH_LANES_OCCUPIED / FIE_DEC04 / ORSON_P1_FROZEN / NO_EXPERIMENT / NO_PHYSICAL_CALCULATION / NO_THEORY_PROMOTION / FOUR_TASKS_PRESERVED / NO_SIXTH_TASK.
+
+
+## 12. Exact scheduler preservation
+
+| Phase | Existing task ID | DTSTART (America/New_York) | State |
+|---|---|---|---|
+| :00 | 6aa1fe0de5e48191b886496095b1343f | 2026-10-01 14:00 | Enabled |
+| :24 | 6abda4c8eda88191bf23a6f2849e9a17 | 2026-10-01 14:24 | Enabled |
+| :36 | 6a9f52b69ec08191b0a2ba24a074f781 | 2026-10-01 14:36 | Enabled |
+| :48 | 6aa6c3bc02b48191b8a91a30d2a155e0 | 2026-10-01 14:48 | Enabled |
+| :12 | 6aa61b3b2e4081918927a35b61007acc | 2026-10-01 14:12 | Disabled |
+
+All five stored rules remain RRULE:FREQ=HOURLY. The :48 task is the existing Review task; no ID, phase, prompt, ownership, or cadence was changed. No sixth task was created.
