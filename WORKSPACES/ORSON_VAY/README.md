@@ -4,6 +4,7 @@
 
 - [Current report](2026-11-22T1748Z_H1025_S4_TURINGHOTEL_LIVE_MIXED_GROUP_IDENTITY_AND_CONTRIBUTION_AUDIT.md)
 - [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1748Z_s4_orson_vay.md)
+- Publisher issue #2363: SUBMITTED_NOT_VERIFIED; no retry or duplicate.
 - New live mixed-group source reviewed: TuringHotel (arXiv:2603.18981v1). Identity attribution is not group cognition; current code/example configuration is not a frozen reproduction.
 - Orson P1 remains frozen and Orson-owned. No paper gate advanced.
 - Current automation run is not bound to an authenticated chat thread (chat_ref=null).
