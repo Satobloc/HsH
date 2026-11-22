@@ -1,3 +1,11 @@
+# h1030:s2 publication correction | 2026-11-22
+
+- Issue #2382 did contain the JSON envelope. Publisher workflow #45080857829 executed, but bot comment #7087262041 says REJECTED: invalid schema (uppercase HSH-PUBLISH-V1; required lowercase hsh-publish-v1).
+- No canonical artifact or checksum/readback. Issue #2382 closed NOT_PLANNED; comment #7087254763 corrected. Do not edit/retrigger or create a duplicate; publisher is opened-only and edited-event proposal has an authorization gap.
+- Correct status: PUBLISHER_REJECTED / NO_ARTIFACT / NO_READBACK. Factory pending packet remains not eligible for intake.
+
+---
+
 # h1030:s2 final verification | 2026-11-22
 
 - Report: 2026-11-22T2224Z_H1030_S2_KIRK_RILEY_SOURCE_STRATIGRAPHY_AND_RILEY_POLYNOMIAL_GEOMETRY_AUDIT.md.
