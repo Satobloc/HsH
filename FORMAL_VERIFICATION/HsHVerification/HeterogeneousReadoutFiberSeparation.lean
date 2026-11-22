@@ -42,7 +42,10 @@ variable {Payload : MeasurementMode → Type uP}
     projection maps have one shared codomain, identified by a declared
     carrier ID and source artifact. The source locators do not authenticate
     the functions. -/
-structure HeterogeneousModelPair where
+structure HeterogeneousModelPair
+    (HState : Type uH) (SState : Type uS)
+    (HField : Type uHF) (SField : Type uSF)
+    (CommonField : Type uCF) where
   hshModelSource : SourceArtifactRef
   standardModelSource : SourceArtifactRef
   hshProjectionSource : SourceArtifactRef
@@ -56,18 +59,23 @@ structure HeterogeneousModelPair where
 
 /-- A frozen packet augmented with the identity of the common latent-field
     carrier into which both model-specific projections must land. -/
-structure HeterogeneousFrozenMeasurementPacket where
+structure HeterogeneousFrozenMeasurementPacket
+    (CommonField : Type uCF)
+    (Payload : MeasurementMode → Type uP) where
   packet : FrozenMeasurementPacket CommonField Payload
   commonCarrierId : NonEmptyText
   commonCarrierArtifact : SourceArtifactRef
 
 /-- Candidate-specific model maps and state sets bound to one frozen packet.
     H(s)H and standard state sets may have unrelated types. -/
-structure HeterogeneousCandidateModelReadoutBinding where
+structure HeterogeneousCandidateModelReadoutBinding
+    (HState : Type uH) (SState : Type uS)
+    (HField : Type uHF) (SField : Type uSF)
+    (CommonField : Type uCF) where
   packetId : NonEmptyText
   packetDigest : NonEmptyText
   candidate : IdentifiedCandidate
-  models : HeterogeneousModelPair
+  models : HeterogeneousModelPair HState SState HField SField CommonField
   hshStates : IdentifiedStateSet HState
   standardStates : IdentifiedStateSet SState
   manifest : SourceArtifactRef
@@ -75,13 +83,15 @@ structure HeterogeneousCandidateModelReadoutBinding where
 /-- The H(s)H latent field is explicitly projected into the declared common
     carrier. -/
 def hshCommonCarrierMap
-    (models : HeterogeneousModelPair) : HState → CommonField :=
+    (models : HeterogeneousModelPair HState SState HField SField CommonField) :
+    HState → CommonField :=
   models.hshToCommonCarrier ∘ models.hshPredictField
 
 /-- The standard latent field is independently projected into that same
     declared common carrier. -/
 def standardCommonCarrierMap
-    (models : HeterogeneousModelPair) : SState → CommonField :=
+    (models : HeterogeneousModelPair HState SState HField SField CommonField) :
+    SState → CommonField :=
   models.standardToCommonCarrier ∘ models.standardPredictField
 
 /-- The one frozen instrument operator acts on the common carrier. -/
@@ -93,7 +103,7 @@ def commonCarrierReadout
 /-- H(s)H prediction composed with its carrier projection and the common
     detector readout. -/
 def hshDetectorReadoutMap
-    (models : HeterogeneousModelPair)
+    (models : HeterogeneousModelPair HState SState HField SField CommonField)
     (readout : FrozenCommonReadout CommonField Payload) :
     HState → Payload readout.mode :=
   commonCarrierReadout readout ∘ hshCommonCarrierMap models
@@ -101,21 +111,21 @@ def hshDetectorReadoutMap
 /-- Standard prediction composed with its carrier projection and the same
     common detector readout. -/
 def standardDetectorReadoutMap
-    (models : HeterogeneousModelPair)
+    (models : HeterogeneousModelPair HState SState HField SField CommonField)
     (readout : FrozenCommonReadout CommonField Payload) :
     SState → Payload readout.mode :=
   commonCarrierReadout readout ∘ standardCommonCarrierMap models
 
 /-- H(s)H's detector-level prediction region. -/
 def hshDetectorPredictionRegion
-    (models : HeterogeneousModelPair)
+    (models : HeterogeneousModelPair HState SState HField SField CommonField)
     (readout : FrozenCommonReadout CommonField Payload)
     (hshStates : Set HState) : Set (Payload readout.mode) :=
   hshDetectorReadoutMap models readout '' hshStates
 
 /-- The standard model's detector-level prediction region. -/
 def standardDetectorPredictionRegion
-    (models : HeterogeneousModelPair)
+    (models : HeterogeneousModelPair HState SState HField SField CommonField)
     (readout : FrozenCommonReadout CommonField Payload)
     (standardStates : Set SState) : Set (Payload readout.mode) :=
   standardDetectorReadoutMap models readout '' standardStates
@@ -123,7 +133,7 @@ def standardDetectorPredictionRegion
 /-- H(s)H-exclusive detector outcomes after both projection maps and the
     common readout. -/
 def hshDetectorExclusivePredictions
-    (models : HeterogeneousModelPair)
+    (models : HeterogeneousModelPair HState SState HField SField CommonField)
     (readout : FrozenCommonReadout CommonField Payload)
     (hshStates : Set HState) (standardStates : Set SState) :
     Set (Payload readout.mode) :=
@@ -133,7 +143,7 @@ def hshDetectorExclusivePredictions
 /-- Standard-exclusive detector outcomes after both projection maps and the
     common readout. -/
 def standardDetectorExclusivePredictions
-    (models : HeterogeneousModelPair)
+    (models : HeterogeneousModelPair HState SState HField SField CommonField)
     (readout : FrozenCommonReadout CommonField Payload)
     (hshStates : Set HState) (standardStates : Set SState) :
     Set (Payload readout.mode) :=
@@ -143,7 +153,7 @@ def standardDetectorExclusivePredictions
 /-- Two-sided separation is evaluated only after the complete common-carrier
     and detector-readout compositions. -/
 def heterogeneousDetectorLevelTwoSidedSeparation
-    (models : HeterogeneousModelPair)
+    (models : HeterogeneousModelPair HState SState HField SField CommonField)
     (readout : FrozenCommonReadout CommonField Payload)
     (hshStates : Set HState) (standardStates : Set SState) : Prop :=
   (hshDetectorExclusivePredictions models readout
@@ -151,19 +161,19 @@ def heterogeneousDetectorLevelTwoSidedSeparation
   (standardDetectorExclusivePredictions models readout
     hshStates standardStates).Nonempty
 
-/-- The H(s)H map is exactly prediction followed by its declared projection,
-    followed by the shared detector readout. -/
+/-- The H(s)H map is exactly the composition of its model prediction,
+    declared projection, and shared detector readout. -/
 theorem hshDetectorReadoutMap_is_composed_projection
-    (models : HeterogeneousModelPair)
+    (models : HeterogeneousModelPair HState SState HField SField CommonField)
     (readout : FrozenCommonReadout CommonField Payload) :
     hshDetectorReadoutMap models readout =
       commonCarrierReadout readout ∘
         (models.hshToCommonCarrier ∘ models.hshPredictField) := rfl
 
-/-- The standard map is exactly prediction followed by its own declared
-    projection, followed by the same detector readout. -/
+/-- The standard map is exactly the composition of its own model prediction,
+    declared projection, and the same detector readout. -/
 theorem standardDetectorReadoutMap_is_composed_projection
-    (models : HeterogeneousModelPair)
+    (models : HeterogeneousModelPair HState SState HField SField CommonField)
     (readout : FrozenCommonReadout CommonField Payload) :
     standardDetectorReadoutMap models readout =
       commonCarrierReadout readout ∘
@@ -173,7 +183,7 @@ theorem standardDetectorReadoutMap_is_composed_projection
     the shared detector readout must also collide. The converse is not
     asserted because the detector operator may itself be non-injective. -/
 theorem commonCarrier_projection_collision_implies_detector_collision
-    (models : HeterogeneousModelPair)
+    (models : HeterogeneousModelPair HState SState HField SField CommonField)
     (readout : FrozenCommonReadout CommonField Payload)
     (hshState : HState) (standardState : SState)
     (h :
@@ -187,10 +197,10 @@ theorem commonCarrier_projection_collision_implies_detector_collision
   exact congrArg (commonCarrierReadout readout) h
 
 /-- An H(s)H-exclusive detector value exists exactly when an admissible
-    H(s)H state has a composed readout outside every standard-model readout
-    fiber. -/
+    H(s)H state has a composed readout outside every admissible standard
+    model readout fiber. -/
 theorem hshDetectorExclusive_nonempty_iff_heterogeneousFiberWitness
-    (models : HeterogeneousModelPair)
+    (models : HeterogeneousModelPair HState SState HField SField CommonField)
     (readout : FrozenCommonReadout CommonField Payload)
     (hshStates : Set HState) (standardStates : Set SState) :
     (hshDetectorExclusivePredictions models readout
@@ -224,7 +234,7 @@ theorem hshDetectorExclusive_nonempty_iff_heterogeneousFiberWitness
 /-- The symmetric standard-exclusive criterion for heterogeneous state and
     field carriers. -/
 theorem standardDetectorExclusive_nonempty_iff_heterogeneousFiberWitness
-    (models : HeterogeneousModelPair)
+    (models : HeterogeneousModelPair HState SState HField SField CommonField)
     (readout : FrozenCommonReadout CommonField Payload)
     (hshStates : Set HState) (standardStates : Set SState) :
     (standardDetectorExclusivePredictions models readout
@@ -258,7 +268,7 @@ theorem standardDetectorExclusive_nonempty_iff_heterogeneousFiberWitness
 /-- Two-sided detector-level separation is equivalent to having both
     heterogeneous fiber witnesses after the complete readout composition. -/
 theorem heterogeneousTwoSidedSeparation_iff_fiberWitnesses
-    (models : HeterogeneousModelPair)
+    (models : HeterogeneousModelPair HState SState HField SField CommonField)
     (readout : FrozenCommonReadout CommonField Payload)
     (hshStates : Set HState) (standardStates : Set SState) :
     heterogeneousDetectorLevelTwoSidedSeparation models readout
@@ -288,9 +298,15 @@ theorem heterogeneousTwoSidedSeparation_iff_fiberWitnesses
 /-- A heterogeneous evidence-gated comparison uses one frozen measurement
     packet and one common carrier identity for both model-specific
     projections. -/
-structure HeterogeneousEvidenceGatedModelComparison where
-  packet : HeterogeneousFrozenMeasurementPacket
-  binding : HeterogeneousCandidateModelReadoutBinding
+structure HeterogeneousEvidenceGatedModelComparison
+    (HState : Type uH) (SState : Type uS)
+    (HField : Type uHF) (SField : Type uSF)
+    (CommonField : Type uCF)
+    (Payload : MeasurementMode → Type uP) where
+  packet : HeterogeneousFrozenMeasurementPacket CommonField Payload
+  binding :
+    HeterogeneousCandidateModelReadoutBinding
+      HState SState HField SField CommonField
   packetIdentity :
     binding.packetId.value = packet.packet.packetId.value ∧
     binding.packetDigest.value = packet.packet.packetDigest.value
@@ -308,25 +324,33 @@ structure HeterogeneousEvidenceGatedModelComparison where
 /-- The candidate exposed downstream is available only through the complete
     heterogeneous evidence-gated comparison. -/
 def admittedCandidate
-    (comparison : HeterogeneousEvidenceGatedModelComparison) : Candidate :=
+    (comparison :
+      HeterogeneousEvidenceGatedModelComparison
+        HState SState HField SField CommonField Payload) : Candidate :=
   comparison.binding.candidate.value
 
 /-- Heterogeneous admission preserves the candidate's ordinary hard gate. -/
 theorem admittedCandidate_has_hardGate
-    (comparison : HeterogeneousEvidenceGatedModelComparison) :
+    (comparison :
+      HeterogeneousEvidenceGatedModelComparison
+        HState SState HField SField CommonField Payload) :
     hardGate (admittedCandidate comparison) :=
   comparison.candidateHardGate
 
 /-- Heterogeneous admission preserves the frozen common readout evidence
     gate. The supplied propositions remain external evidence obligations. -/
 theorem admittedComparison_has_readout_gate
-    (comparison : HeterogeneousEvidenceGatedModelComparison) :
+    (comparison :
+      HeterogeneousEvidenceGatedModelComparison
+        HState SState HField SField CommonField Payload) :
     commonReadoutEvidenceGate comparison.packet.packet.readout.contract :=
   comparison.readoutGate
 
 /-- Admission exposes exact packet and common-carrier identity equalities. -/
 theorem admittedComparison_has_packet_and_carrier_identity
-    (comparison : HeterogeneousEvidenceGatedModelComparison) :
+    (comparison :
+      HeterogeneousEvidenceGatedModelComparison
+        HState SState HField SField CommonField Payload) :
     comparison.binding.packetId.value =
         comparison.packet.packet.packetId.value ∧
     comparison.binding.packetDigest.value =
@@ -341,7 +365,9 @@ theorem admittedComparison_has_packet_and_carrier_identity
 /-- Admission preserves two-sided detector-level separation through the
     explicit heterogeneous projections and the packet's common readout. -/
 theorem admittedComparison_has_detector_separation
-    (comparison : HeterogeneousEvidenceGatedModelComparison) :
+    (comparison :
+      HeterogeneousEvidenceGatedModelComparison
+        HState SState HField SField CommonField Payload) :
     heterogeneousDetectorLevelTwoSidedSeparation
       comparison.binding.models comparison.packet.packet.readout.contract
       comparison.binding.hshStates.value
@@ -351,7 +377,9 @@ theorem admittedComparison_has_detector_separation
 /-- One projection theorem exposes the candidate gate, readout gate, packet
     identity, common-carrier identity, and heterogeneous detector separation. -/
 theorem admittedComparison_exposes_all_gates
-    (comparison : HeterogeneousEvidenceGatedModelComparison) :
+    (comparison :
+      HeterogeneousEvidenceGatedModelComparison
+        HState SState HField SField CommonField Payload) :
     hardGate comparison.binding.candidate.value ∧
     commonReadoutEvidenceGate comparison.packet.packet.readout.contract ∧
     comparison.binding.packetId.value =
