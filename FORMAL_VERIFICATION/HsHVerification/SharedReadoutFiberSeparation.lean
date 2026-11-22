@@ -145,18 +145,17 @@ theorem hshDetectorExclusive_nonempty_iff_fiberWitness
   · rintro ⟨observed, hObserved⟩
     have hInHsh := hObserved.1
     have hNotStandard := hObserved.2
-    rcases Set.mem_image.mp hInHsh with
+    rcases hInHsh with
       ⟨state, hState, hReadoutEq⟩
     refine ⟨state, hState, ?_⟩
     intro standardState hStandardState hCollision
     apply hNotStandard
-    exact Set.mem_image.mpr
-      ⟨standardState, hStandardState, hCollision.symm.trans hReadoutEq⟩
+    exact ⟨standardState, hStandardState, hCollision.symm.trans hReadoutEq⟩
   · rintro ⟨state, hState, hNoCollision⟩
     refine ⟨readoutMap hsh readout state, ?_⟩
-    refine ⟨Set.mem_image.mpr ⟨state, hState, rfl⟩, ?_⟩
+    refine ⟨⟨state, hState, rfl⟩, ?_⟩
     intro hInStandard
-      rcases Set.mem_image.mp hInStandard with
+      rcases hInStandard with
         ⟨standardState, hStandardState, hReadoutEq⟩
       exact hNoCollision standardState hStandardState hReadoutEq.symm
 
@@ -232,8 +231,7 @@ theorem sharedReadoutCollision_blocks_hshExclusive
   intro hMember
   have hNotStandard := hMember.2
   apply hNotStandard
-  exact Set.mem_image.mpr
-    ⟨standardState, hStandardState, hCollision.symm⟩
+  exact ⟨standardState, hStandardState, hCollision.symm⟩
 
 /-- Upstream field distinction can coexist with detector-level collapse:
     source-space inequality does not rescue a readout value shared by the
