@@ -550,6 +550,20 @@ The existing Morrow source record and scoped-continuation audit (#2017, #1571) p
 
 Current disposition remains ROLE_SCOPE_ESTABLISHED / STOP_ACTIVE / INVITATION_ADDITIVE / BOUNDED_CONTINUATION_ONLY / NO_GENERAL_RELEASE / SCHEDULER_LABEL_ONLY. The permitted work here is source custody and operational provenance; no theory integration is performed.
 
+### Applied source-custody witness 02: stop/trial parent ancestry (h1013:s2, 2026-11-22)
+
+The combined Morrow/Aldus raw snapshot at `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.07•26.09.09•MORROW [Reconstruct H(s)H Synthesis] — raw (3).json`, Git blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`, conversation ID `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, was reparsed as a finite parent-pointer graph.
+
+- User-role provisional Team Archivist assignment: node `402ade01-7116-4efb-9b14-31e477754458`, message time `2026-09-08T03:25:36.187Z`, depth 68.
+- User-role theory stop/quarantine: node `934e87de-4e61-4622-a0ea-e5047aa235c6`, message time `2026-09-13T00:11:10.939Z`, depth 534.
+- User-role trial invitation: node `99ae959b-fbeb-4c1e-9326-a6723c2b9557`, message time `2026-09-13T15:31:22.757Z`, depth 679.
+
+Deterministic parent traversal finds the role assignment is an ancestor of the stop by 466 edges, and the stop is an ancestor of the trial invitation by 145 edges. The trial is 55,211.818 seconds after the stop. It is therefore a descendant in the same branch, not a sibling. Within this 697-key/696-message snapshot, the only user-role nodes at or after the stop are the stop and the trial invitation.
+
+Both raw messages have `author.role=user` and null `author.name`; archive attribution remains distinct from external identity authentication. The later invitation permits bounded archive/provenance/reading/note/equation-checking operations under its stated Clearinghouse and non-authoritative conditions, but it does not explicitly identify and release the stop or lift the unique-artifact quarantine. Descendant status and later timestamp do not themselves create an EXPLICIT_RELEASE. The stop remains active for theory integration, prediction/paper development, and promotion.
+
+This is a source-graph/provenance check, not a Lean proof, physical result, or identity authentication. The existing Layer 11 raw-digest custody record was not recomputed in this run; the pinned Git blob and parsed parent graph were used. No theory work is authorized by this witness.
+
 ### Orthogonal status vocabulary
 
 Use separate fields, not one composite green status:
