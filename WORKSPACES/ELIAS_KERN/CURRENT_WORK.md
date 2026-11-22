@@ -1,3 +1,18 @@
+## Latest checkpoint | h1012:s3 | 2026-11-22T0436Z | Hydra candidate-event eligibility
+
+**Status:** TRACK_A_POC_ONLY / INTERNAL_REPORT_READBACK_VERIFIED / SUBMITTED_NOT_VERIFIED / LEAN_NOT_RUN / NO_PRODUCTION_AUTHORITY.
+
+- Report: [H1012:s3 candidate-event eligibility gate](2026-11-22T0436Z_H1012_S3_HYDRA_CANDIDATE_EVENT_SCOPE_GATE.md), SHA-256 `caadf54bb5247e37f66c0259bf4a440b762d9af4481d53ed9c4a78332848f5c0`.
+- Publisher issue [#2320](https://github.com/Satobloc/HsH/issues/2320), submission `elias-h1012-s3-hydra-candidate-event-scope-gate-20261122t0436z-001`; canonical artifact/comment not yet observed.
+- New finding: candidate-pass/fail Hydra nodes are activated by global candidate stage alone, unlike candidate_checks, which also requires theory_candidate event scope. Method-level replay demonstrated unrelated learning events can trigger candidate follow-up jobs. Proposed EligibilityKey is separate from LoopStateKey and ExecutionKey.
+- Existing POC, PR #951 and production workflow unchanged. Lean proof not run; local Lean/Lake/Elan absent; Track B ELIAS-2224 disposition still pending.
+- Canonical receipt: [h1012:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0436Z_s3_elias_kern.md).
+- Next label Nadir Voss. Existing h993 optional packet already in Nadir INBOX; no additional packet or delivery claim.
+- P0 ACTIVE; P1 Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24; unrelated-reading cursor 59593.
+- Existing :36 task remains enabled with exact ID, hourly schedule, prompt and Lane Charter 36 unchanged; no sixth task.
+
+---
+
 ## Latest checkpoint | h997:s2 | 2026-11-21T13:24Z | Mersearch bridge failure-stage and Lane 24 gate audit
 
 - Published report: [h997:s2](../COMMON/PUBLISHED_SUBMISSIONS/elias-h997-s2-mersearch-runner-shutdown-checkout-audit-20261121t1324z-001.md); SHA-256 51539e68ef7a2526302a12dd9893324c5b3639a077a6dc9d721465242a963622.
