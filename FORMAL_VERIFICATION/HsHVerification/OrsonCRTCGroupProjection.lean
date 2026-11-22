@@ -83,17 +83,18 @@ def subgroupEvents (events : Finset InteractionEvent) (s : Finset Agent) :
   events.filter (fun e => e.author ∈ s ∧ e.availableTo ⊆ s)
 
 /-- Direct projection from a group history to one member's available event view. -/
-def projectMember (h : GroupHistory) (i : Agent) : MemberHistory :=
-  ⟨i, if i ∈ h.roster then memberEvents h.events i else ∅⟩
+def projectMember (h : GroupHistory) (i : Agent) (_hi : i ∈ h.roster) :
+    MemberHistory :=
+  ⟨i, memberEvents h.events i⟩
 
 /-- Projection from a group history to a closed subgroup history. -/
 def projectSubgroup (h : GroupHistory) (s : Finset Agent) : SubgroupHistory :=
   ⟨h.roster ∩ s, subgroupEvents h.events s⟩
 
 /-- Member projection after subgroup projection. -/
-def projectMemberFromSubgroup (h : SubgroupHistory) (i : Agent) :
-    MemberHistory :=
-  ⟨i, if i ∈ h.roster then memberEvents h.events i else ∅⟩
+def projectMemberFromSubgroup (h : SubgroupHistory) (i : Agent)
+    (_hi : i ∈ h.roster) : MemberHistory :=
+  ⟨i, memberEvents h.events i⟩
 
 /-- A well-formed group history projects to a well-formed subgroup history. -/
 def ValidSubgroupHistory (h : SubgroupHistory) : Prop :=
@@ -128,8 +129,9 @@ theorem subgroup_member_projection_composes
       projectMember h i := by
   have hmem : i ∈ h.roster ∩ s :=
     Finset.mem_inter.mpr ⟨hiRoster, hiSubgroup⟩
-  simp only [projectMemberFromSubgroup, projectSubgroup, projectMember,
-    if_pos hmem, if_pos hiRoster]
+  change
+    MemberHistory.mk i (memberEvents (subgroupEvents h.events s) i) =
+      MemberHistory.mk i (memberEvents h.events i)
   apply congrArg (MemberHistory.mk i)
   ext e
   simp only [memberEvents, subgroupEvents, Finset.mem_filter]
@@ -155,8 +157,9 @@ theorem cross_boundary_history_valid :
 
 theorem cross_boundary_projection_can_lose_visible_event :
     projectMemberFromSubgroup
-        (projectSubgroup crossBoundaryHistory {0}) 0 ≠
-      projectMember crossBoundaryHistory 0 := by
+        (projectSubgroup crossBoundaryHistory {0}) 0
+        (by simp [projectSubgroup, crossBoundaryHistory]) ≠
+      projectMember crossBoundaryHistory 0 (by simp [crossBoundaryHistory]) := by
   decide
 
 /-- Availability is not evidence of uptake. -/
@@ -211,7 +214,8 @@ theorem historyTwo_valid : ValidGroupHistory historyTwo := by
 /-- Two valid group histories can give one member the same view while having
     different group-level decision-incorporation counts. -/
 theorem same_member_view_different_group_incorporation_count :
-    projectMember historyOne 0 = projectMember historyTwo 0 ∧
+    projectMember historyOne 0 (by simp [historyOne]) =
+      projectMember historyTwo 0 (by simp [historyTwo]) ∧
     decisionIncorporationCount historyOne ≠
       decisionIncorporationCount historyTwo := by
   constructor <;> decide
@@ -222,12 +226,14 @@ theorem same_member_view_different_group_incorporation_count :
 theorem no_member_only_incorporation_reconstructor :
     ¬ ∃ f : MemberHistory → Nat,
       ∀ h : GroupHistory, ValidGroupHistory h →
-        f (projectMember h 0) = decisionIncorporationCount h := by
+        ∀ hi : 0 ∈ h.roster,
+          f (projectMember h 0 hi) = decisionIncorporationCount h := by
   rintro ⟨f, hf⟩
-  have h1 := hf historyOne historyOne_valid
-  have h2 := hf historyTwo historyTwo_valid
+  have h1 := hf historyOne historyOne_valid (by simp [historyOne])
+  have h2 := hf historyTwo historyTwo_valid (by simp [historyTwo])
   have hview :
-      projectMember historyOne 0 = projectMember historyTwo 0 := by
+      projectMember historyOne 0 (by simp [historyOne]) =
+        projectMember historyTwo 0 (by simp [historyTwo]) := by
     decide
   rw [hview] at h1
   have hcount1 : decisionIncorporationCount historyOne = 1 := by
