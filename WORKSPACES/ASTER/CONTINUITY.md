@@ -1,3 +1,5 @@
+- Receipt Amendment 02 corrects Amendment 01's publisher commit and artifact/report Git blob identifiers. Correct commit `60c8f26cc8b6948c2071d20e37b51e63af3b7d0b`; correct shared blob `b0c28b341753910095aa0a42c6cb35755c13b48c`. SHA-256 and exact content match are unchanged.
+
 ## 2026-11-22T14:36Z | h1022:s3 | Row-disjoint holdout admission
 
 - Report: [h1022:s3](2026-11-22T1436Z_H1022_S3_ROW_DISJOINT_HOLDOUT_ADMISSION.md); receipt: [h1022:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1436Z_s3_aster.md).
