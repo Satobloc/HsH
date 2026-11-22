@@ -1,3 +1,9 @@
+## Source-locator correction | 2026-11-22T12:36Z
+
+The h1016:s4 report/receipt's `NESTED HOLONOMIES.txt` blob identifier was mistyped. The HsH and SAT archive copies are byte-identical at `0a8d52da06d1a787252b9a120c4770aa29095879` (344,495 characters; 6,912 lines). See [h1016 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0848Z_s4_enheduanna_AMENDMENT_01_NESTED_HOLONOMIES_BLOB_HASH_CORRECTION.md). The h1013 public artifact #2322 already used the correct hash. This changes only the locator, not source attribution or theory status.
+
+---
+
 ## Latest checkpoint: h1016:s4 | 2026-11-22T08:48Z
 
 - Current report: [H1016:s4 source-role and cross-lane QC](2026-11-22T0848Z_H1016_S4_SOURCE_ROLE_AND_CROSS_LANE_QC.md).
