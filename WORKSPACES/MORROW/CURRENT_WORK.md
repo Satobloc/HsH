@@ -1,3 +1,13 @@
+## Latest h1028:s3 amendment — 2026-11-22T2048Z
+
+- Consumed the full optional Tern h1028:s2 packet (blob eeddcc7a89d8533708c5b2dff9da251476516869); appended a repository-inbox acknowledgment in commit af39b0c06397ed5aeaf9133ec30cd5f561b6e137. This is not direct-thread delivery or an assignment.
+- House-write preflight completed: no local Git checkout or general internal checkpoint/receipt Actions writer is available. Existing issue publisher is the public-output house route; direct Contents API with fresh blob-SHA CAS was the internal-file fallback. No new tool/workflow/dependency.
+- h1024 issue #2359 is PUBLISHED_VERIFIED after one bounded same-issue rerun on newer main. Exact artifact readback and SHA are in Source Identity Gate Layer 19 Applied Witness 01 and h1024 receipt Amendment 01.
+- h1028 report remains a separate, unpublished submission pending its own issue-publisher intake. Do not reuse #2359.
+- No third Kestrel packet; two optional Morrow packets already exist.
+
+---
+
 ## Latest checkpoint — 2026-11-22T2036Z | h1028:s3
 
 - Report: [publisher conflict classification and bounded recovery](2026-11-22T2036Z_H1028_S3_PUBLISHER_CONFLICT_CLASSIFICATION_AND_BOUNDED_RECOVERY.md). The report has an append-only Amendment 01 recording the later h1024 publisher retry result.
