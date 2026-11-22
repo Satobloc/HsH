@@ -42,6 +42,13 @@ open HsHVerification.PrecommittedHoldoutAdmission
 
 universe uH uS uHF uSF uCF uP
 
+/-- Canonical channel label from the five-channel uncertainty ledger.
+    This adapter represents only instrument / measurement / calibration
+    support, not source-semantic, geometric-fiber, nuisance/discrepancy, or
+    dependence/overlap evidence. -/
+def instrumentSupportClaimScope : String :=
+  "Instrument / measurement / calibration"
+
 variable {HState : Type uH} {SState : Type uS}
 variable {HField : Type uHF} {SField : Type uSF}
 variable {CommonField : Type uCF}
@@ -58,6 +65,8 @@ structure FrozenInstrumentObservationSupport
   evidence : SourceEvidenceRecord
   semantics : NonEmptyText
   scope : NonEmptyText
+  scopeIsInstrumentSupport :
+    scope.value = instrumentSupportClaimScope
   instrumentId : NonEmptyText
   operatorVersion : NonEmptyText
   calibrationRecord : NonEmptyText
@@ -231,7 +240,7 @@ structure InstrumentSupportRobustPrecommittedComparison
     instrumentSupport.evidence.authority = EvidenceAuthority.standardReference ∨
     instrumentSupport.evidence.authority = EvidenceAuthority.independentMeasurement
   instrumentSupportEvidenceScopeMatches :
-    instrumentSupport.evidence.claimScope.value = instrumentSupport.scope.value
+    instrumentSupport.evidence.claimScope.value = instrumentSupportClaimScope
   robustSeparation :
     heterogeneousInstrumentSupportRobustTwoSidedSeparation
       base.comparison.binding.models
@@ -248,6 +257,20 @@ theorem instrumentSupportRobustAdmission_preserves_precommittedEvidence
       HState SState HField SField CommonField Payload) :
     PrecommittedComparisonEvidence comparison.base :=
   precommittedComparison_has_evidence comparison.base
+
+/-- An admitted comparison carries the canonical instrument-support scope
+    in both its support record and evidence claim. This prevents caller-selected
+    free text from routing another uncertainty channel through this adapter;
+    it does not authenticate the cited artifact's contents. -/
+theorem instrumentSupportRobustAdmission_has_canonicalEvidenceScope
+    (comparison : InstrumentSupportRobustPrecommittedComparison
+      HState SState HField SField CommonField Payload) :
+    comparison.instrumentSupport.scope.value = instrumentSupportClaimScope ∧
+      comparison.instrumentSupport.evidence.claimScope.value =
+        instrumentSupportClaimScope := by
+  exact
+    ⟨comparison.instrumentSupport.scopeIsInstrumentSupport,
+      comparison.instrumentSupportEvidenceScopeMatches⟩
 
 /-- An admitted instrument-support-robust comparison necessarily retains
     the exact nominal two-sided detector separation as a weaker consequence. -/
@@ -324,6 +347,7 @@ theorem instrumentSupportRobustTieBreak_requires_both_precommitted_evidence
 #print axioms standardInstrumentSupportExclusive_nonempty_implies_nominalExclusive
 #print axioms instrumentSupportRobustSeparation_implies_nominalSeparation
 #print axioms instrumentSupportRobustAdmission_preserves_precommittedEvidence
+#print axioms instrumentSupportRobustAdmission_has_canonicalEvidenceScope
 #print axioms instrumentSupportRobustAdmission_implies_nominalSeparation
 #print axioms instrumentSupportRobustTieBreak_requires_same_support_model
 #print axioms instrumentSupportRobustTieBreak_requires_same_frozen_evaluation_context
