@@ -353,4 +353,184 @@ theorem instrumentSupportRobustTieBreak_requires_both_precommitted_evidence
 #print axioms instrumentSupportRobustTieBreak_requires_same_frozen_evaluation_context
 #print axioms instrumentSupportRobustTieBreak_requires_both_precommitted_evidence
 
+
+/-!
+## Nominally grounded, source-bound instrument-support admission
+
+The original FrozenInstrumentObservationSupport remains a general
+source-declared set-valued observation relation. By itself it does not imply
+that a nominal readout belongs to its own support set, that the set is
+nonempty, or that the cited artifact is the artifact defining the readout's
+uncertainty model.
+
+The stricter opt-in wrapper below adds those two missing record-shape
+conditions without changing the existing API. Nominal inclusion implies
+nonemptiness, but it does not establish a probability distribution, coverage
+level, confidence region, covariance, metric ball, closure, convexity, or
+completeness. Source review must still verify that the artifact actually
+defines the supplied function and that its calibration is valid.
+-/
+
+/-- Source evidence for one uncertainty model bound to one exact frozen
+    readout contract. The artifact and digest live in evidence; the
+    remaining fields make the intended instrument, operator, calibration,
+    acquisition map, units, uncertainty declaration, and resolution explicit.
+    These equalities are typed assertions, not artifact authentication. -/
+structure SourceBoundReadoutUncertaintyModel
+    (readout :
+      HsHVerification.SharedReadoutFiberSeparation.FrozenCommonReadout
+        CommonField Payload) where
+  evidence : SourceEvidenceRecord
+  instrumentId : NonEmptyText
+  operatorVersion : NonEmptyText
+  calibrationRecord : NonEmptyText
+  acquisitionUnitMapRecord : NonEmptyText
+  instrumentIdBound : instrumentId.value = readout.instrumentId
+  operatorVersionBound : operatorVersion.value = readout.operatorVersion
+  calibrationRecordBound : calibrationRecord.value = readout.calibrationRecord
+  acquisitionUnitMapRecordBound :
+    acquisitionUnitMapRecord.value = readout.acquisitionUnitMapRecord
+  instrumentIdentityAuthenticated :
+    readout.instrumentIdentityAuthenticated
+  operatorVersionAuthenticated :
+    readout.operatorVersionAuthenticated
+  calibrationAuthenticated :
+    readout.calibrationAuthenticated
+  acquisitionUnitMapAuthenticated :
+    readout.acquisitionUnitMapAuthenticated
+  measurementUnitsDeclared : readout.measurementUnitsDeclared
+  uncertaintyModelDeclared : readout.uncertaintyModelDeclared
+  resolutionDeclared : readout.resolutionDeclared
+
+/-- A stricter opt-in comparison: the source record used by the instrument
+    support is exactly the record identifying the uncertainty model for the
+    frozen readout, and every nominal detector value belongs to its own
+    possible-observation set. The underlying support map remains a
+    source-defined relation; the wrapper does not prove that the source
+    artifact implements the Lean function. -/
+structure NominallyGroundedInstrumentSupportRobustComparison
+    (HState : Type uH) (SState : Type uS)
+    (HField : Type uHF) (SField : Type uSF)
+    (CommonField : Type uCF)
+    (Payload :
+      HsHVerification.MeasurementDomainCompatibility.MeasurementMode →
+        Type uP) where
+  admitted : InstrumentSupportRobustPrecommittedComparison
+    HState SState HField SField CommonField Payload
+  readoutModel : SourceBoundReadoutUncertaintyModel
+    admitted.base.comparison.packet.packet.readout.contract
+  supportEvidenceMatchesReadoutModel :
+    admitted.instrumentSupport.evidence = readoutModel.evidence
+  nominalReadoutIncluded :
+    ∀ nominal :
+      Payload admitted.base.comparison.packet.packet.readout.contract.mode,
+      nominal ∈
+        admitted.instrumentSupport.possibleInstrumentObservations nominal
+
+/-- The nominal-inclusion condition makes every support set nonempty at its
+    nominal readout. This is only a set-membership property, not a coverage
+    probability or a claim that all possible measurement outcomes are present. -/
+theorem nominallyGroundedSupport_nonempty_at_nominal
+    (comparison :
+      NominallyGroundedInstrumentSupportRobustComparison
+        HState SState HField SField CommonField Payload)
+    (nominal :
+      Payload comparison.admitted.base.comparison.packet.packet.readout.contract.mode) :
+    (comparison.admitted.instrumentSupport.possibleInstrumentObservations
+      nominal).Nonempty :=
+  ⟨nominal, comparison.nominalReadoutIncluded nominal⟩
+
+/-- The support record's artifact is exactly the artifact declared for the
+    frozen readout uncertainty model. The equality is record-level metadata;
+    independent source review must still check artifact contents and code/map
+    correspondence. -/
+theorem nominallyGroundedSupport_has_source_artifact_binding
+    (comparison :
+      NominallyGroundedInstrumentSupportRobustComparison
+        HState SState HField SField CommonField Payload) :
+    comparison.admitted.instrumentSupport.evidence.artifact =
+      comparison.readoutModel.evidence.artifact :=
+  congrArg
+    (fun evidence : SourceEvidenceRecord => evidence.artifact)
+    comparison.supportEvidenceMatchesReadoutModel
+
+/-- The support record's digest is exactly the digest declared for the
+    frozen readout uncertainty model. This does not compute or authenticate
+    either digest. -/
+theorem nominallyGroundedSupport_has_source_digest_binding
+    (comparison :
+      NominallyGroundedInstrumentSupportRobustComparison
+        HState SState HField SField CommonField Payload) :
+    comparison.admitted.instrumentSupport.evidence.digest.value =
+      comparison.readoutModel.evidence.digest.value :=
+  congrArg
+    (fun evidence : SourceEvidenceRecord => evidence.digest.value)
+    comparison.supportEvidenceMatchesReadoutModel
+
+/-- The source-bound uncertainty model retains the exact readout identity and
+    calibration context to which its support function is declared to apply. -/
+theorem nominallyGroundedSupport_has_readout_identity
+    (comparison :
+      NominallyGroundedInstrumentSupportRobustComparison
+        HState SState HField SField CommonField Payload) :
+    comparison.readoutModel.instrumentId.value =
+        comparison.admitted.base.comparison.packet.packet.readout.contract.instrumentId ∧
+    comparison.readoutModel.operatorVersion.value =
+        comparison.admitted.base.comparison.packet.packet.readout.contract.operatorVersion ∧
+    comparison.readoutModel.calibrationRecord.value =
+        comparison.admitted.base.comparison.packet.packet.readout.contract.calibrationRecord ∧
+    comparison.readoutModel.acquisitionUnitMapRecord.value =
+        comparison.admitted.base.comparison.packet.packet.readout.contract.acquisitionUnitMapRecord := by
+  exact
+    ⟨comparison.readoutModel.instrumentIdBound,
+      comparison.readoutModel.operatorVersionBound,
+      comparison.readoutModel.calibrationRecordBound,
+      comparison.readoutModel.acquisitionUnitMapRecordBound⟩
+
+/-- The stricter wrapper preserves the existing precommitted comparison
+    evidence, including the source lineage and authority checks. -/
+theorem nominallyGroundedSupport_preserves_precommittedEvidence
+    (comparison :
+      NominallyGroundedInstrumentSupportRobustComparison
+        HState SState HField SField CommonField Payload) :
+    PrecommittedComparisonEvidence comparison.admitted.base :=
+  instrumentSupportRobustAdmission_preserves_precommittedEvidence
+    comparison.admitted
+
+/-- Nominally grounded instrument support retains the existing robust
+    two-sided separation requirement. -/
+theorem nominallyGroundedSupport_preserves_robustSeparation
+    (comparison :
+      NominallyGroundedInstrumentSupportRobustComparison
+        HState SState HField SField CommonField Payload) :
+    heterogeneousInstrumentSupportRobustTwoSidedSeparation
+      comparison.admitted.base.comparison.binding.models
+      comparison.admitted.base.comparison.packet.packet.readout.contract
+      comparison.admitted.instrumentSupport
+      comparison.admitted.base.comparison.binding.hshStates.value
+      comparison.admitted.base.comparison.binding.standardStates.value :=
+  comparison.admitted.robustSeparation
+
+/-- As in the weaker source-declared relation wrapper, robust two-sided
+    separation implies exact nominal detector-level separation. -/
+theorem nominallyGroundedSupport_implies_nominalSeparation
+    (comparison :
+      NominallyGroundedInstrumentSupportRobustComparison
+        HState SState HField SField CommonField Payload) :
+    heterogeneousDetectorLevelTwoSidedSeparation
+      comparison.admitted.base.comparison.binding.models
+      comparison.admitted.base.comparison.packet.packet.readout.contract
+      comparison.admitted.base.comparison.binding.hshStates.value
+      comparison.admitted.base.comparison.binding.standardStates.value :=
+  instrumentSupportRobustAdmission_implies_nominalSeparation
+    comparison.admitted
+
+#print axioms nominallyGroundedSupport_nonempty_at_nominal
+#print axioms nominallyGroundedSupport_has_source_artifact_binding
+#print axioms nominallyGroundedSupport_has_source_digest_binding
+#print axioms nominallyGroundedSupport_has_readout_identity
+#print axioms nominallyGroundedSupport_preserves_precommittedEvidence
+#print axioms nominallyGroundedSupport_preserves_robustSeparation
+#print axioms nominallyGroundedSupport_implies_nominalSeparation
+
 end HsHVerification.InstrumentSupportRobustSeparation
