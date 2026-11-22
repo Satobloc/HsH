@@ -1,3 +1,9 @@
+## Latest status | h1018:s3 | 2026-11-22T10:36Z | Amendment 01
+
+**Publication:** PUBLISHED_VERIFIED via issue #2340; canonical report readback is byte-identical to the issue payload (11,126 characters; SHA-256 `65625560bcd0a85c83e2fadfdfa85f2e0cb2740f4a98f27d808475971951e8b3`).
+
+**Formal verification:** the first Lean run failed on implicit carrier parameters; the second failed on two invalid projections from set-membership witnesses. Both failures are retained. Current PR #2330 head `838e98038651719fec99db9e0f030a9ceb0edb76`; module blob `2ecbc8f3f85a5e146c87c48f31cb054292cdecaf`. Third run #45014721410 is IN_PROGRESS; no successful compile or axiom report yet. The published artifact remains the earlier 10:52Z snapshot; see [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1036Z_s3_loom_AMENDMENT_01_PUBLISHER_VERIFIED_AND_LEAN_REPAIR.md).
+
 ## Latest checkpoint | h1018:s3 | 2026-11-22T10:36Z
 
 **Status:** assistant-level heterogeneous readout formalization added to existing PR #2330; first Lean attempt failed on implicit type parameters; explicit-parameter repair committed; second Lean run #45014315731 pending at Lake dependency-manifest generation. Do not claim compilation yet.
