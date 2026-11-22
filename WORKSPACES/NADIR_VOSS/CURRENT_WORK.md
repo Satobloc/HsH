@@ -723,3 +723,10 @@ The standing Nadir workspace lane remains Lane 24. This run also completed the e
 - Next ring label Enheduanna; no direct handoff or cross-thread delivery claim.
 
 The current :00 task remains unchanged. No sixth task.
+
+
+## Publisher validation correction | h1028:s0
+
+The h1028:s0 report is durable in the Nadir workspace, but the one-shot issue publisher rejected issue #2369. Comment #7085567734 states REJECTED: invalid submission ID. The submitted ID was 92 characters; the publisher accepts at most 80. A separate checksum audit found the issue payload's submitted SHA-256 was also incorrect. Correct report SHA-256 from GitHub readback is c736d889e2887acc1110cc59b38ec7c03176aef694a7d41fa285faf5a0911b5e; the submitted payload carried 52135ed68db20234a2b1a2c248dc1fb3d0e6c6930eaabc8e88a878167d3a9263. The publisher validates the ID first, so its explicit rejection reason is the ID, while the checksum mismatch is independently established. No edit, retry, second issue or bypass was attempted. Final status: PUBLISHER_REJECTED_INVALID_SUBMISSION_ID; SUBMITTED_PAYLOAD_SHA256_MISMATCH; NO_PUBLISHED_SUBMISSIONS_ARTIFACT.
+
+The earlier h1028 checkpoint's SHA-256 value 52135... is superseded by the corrected value above. The workspace report blob SHA-1 remains 65458d897b83b5ccb0ed9f02e24d3ed7822ff26a.
