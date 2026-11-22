@@ -925,3 +925,16 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - Existing :36 task final readback: enabled; original schedule, prompt and phase unchanged; no additional task. Recorded current run still IN_PROGRESS with null chat_ref; cached latest_result belongs to preceding h1026 run. No current-thread identity or liveness inferred.
 - Math Hopper #578 OPEN; draft PR #991 OPEN/DRAFT; Lean infrastructure PR #262 OPEN/non-mergeable; Whirligig Kernel 0 sandbox only. No new tool/dependency/fork/subscription/cost.
 - Public correction appended to [publisher issue #2366](https://github.com/Satobloc/HsH/issues/2366#issuecomment-7084692479); internal correction is [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1936Z_s3_hale_AMENDMENT_02_PREFLIGHT_AND_SCHEDULER_READBACK_CORRECTION.md).
+
+## 2026-11-22T23:24Z | h1031:s2 | Hale Lane24 source-readiness and PWH deep review
+
+- Deterministic routing: Hale index 8, next Elias Kern index 9; no authenticated current thread or cross-thread delivery.
+- Re-read current BEDROCK, Steering Charter, Three Paper Campaign, Nathan Direct methodology, three-repository onboarding, workflow orientation, revival V2/V3/V4/thread routing, duplicate-run-key guard, Lane24 capsule, prior Hale Lane24 h1012 receipt and separate Hale :36 h1027 receipt.
+- Ratz 23083730 is an existing P2 candidate, not selected. New delta: explicit distinction among t, n, M, tau, Psi and vortex age; phase-locked 2D-2C ensemble planes; instantaneous tip-vortex detections without demonstrated material identity tracking; no raw images/instantaneous velocity fields; no unique reverse 3D worldtube; calibration/covariance/holdout gaps; license discrepancy between Zenodo view and secondary NLM catalog. No data downloaded or calculation performed.
+- Existing PR #1487 remains OPEN/DRAFT/UNMERGED. Run #44968816552 succeeded on synthetic merge ref `20be9a7...`, not exact-head; MeasurementDomainCompatibility results report no axioms, FactorialContrastIdentifiability results report propext. No new Lean module or code change.
+- P0: 11/11 exact protected objects checked at main `da7314db...`; issue #1747 OPEN/ACTIVE, PR #2009 OPEN/DRAFT/UNMERGED, no live-reader acceptance or standdown.
+- PWH deep review: exact `task_upkeep_triage.py` source self-test passed; 13 active/blocked candidates, graph 18 records vs 16 declared, 17 reachable, one unreachable blocked M87 record, no cycles/dangling. Queue supplement records WH-01..WH-09, PR #1710 one-file workflow drift, Mersearch lane state and Old Plan Recovery Sweep fields. No graph/owner/priority changes.
+- Clone ledger 457 rows / 454 unique / 3 legacy missing, zero parse errors or duplicates. No clone or local checkout; no ledger append.
+- FIE last review 2026-11-20, next 2026-12-04; unrelated-reading break 2026-11-21, no repeat.
+- Run-envelope evidence: :00 h1031:s0 receipt and later automation peek disagree on timing for the same run ID; :24 h1031:s2 and :36 h1031:s3 run records overlap. No attempt identity or concurrent model execution inferred.
+- No public issue or publisher submission, no new task, no sixth task, no scheduler change, no signet or conversation rename. Lane24 remains HOLD; Cycle08/08 complete.
