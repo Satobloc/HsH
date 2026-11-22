@@ -1451,6 +1451,6 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 
 - Packet: [optional P0 currentness context](REVIVAL_ROTATION_HANDOFFS/2026-11-22T0948Z_from_s4_to_s0_ravel_PRESTART_OPTIONAL_P0_CURRENTNESS.md).
 - Recipient inbox: [Ravel INBOX](../RAVEL/INBOX.md), entry MERCER-RAVEL-20261122T0948Z-001.
-- Published report: [issue #2339](https://github.com/Satobloc/HsH/issues/2339), publisher artifact readback pending at deposit.
+- Publisher: issue #2339 was rejected for SHA-256 mismatch; corrected digest and no-retry disposition are recorded in comment #7077483870. No canonical artifact exists.
 - Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct-thread delivery, consumption or acknowledgment is claimed.
 
