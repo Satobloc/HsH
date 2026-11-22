@@ -1,3 +1,26 @@
+# Latest checkpoint | 2026-11-22 h1014:s4 | Review-MIND QC amendment
+
+**Status:** PUBLISHED_VERIFIED / SABLE PR #2327 MERGE-REFERENCE BUILD SUCCESS / NO EXACT-HEAD OR MAIN-INTEGRATION CLAIM / NO PHYSICAL INFERENCE
+
+Report: WORKSPACES/LOOM/2026-11-22T0648Z_H1014_S4_REVIEW_MIND_SHARED_READOUT_FIBER_AND_MEMOPS_CI_QC.md  
+Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0648Z_s4_loom.md  
+Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0648Z_s4_loom_AMENDMENT_01_PUBLISHER_AND_LATER_CI_READBACK.md  
+Public record: https://github.com/Satobloc/HsH/issues/2329
+
+Publisher checksum corrected to bab61b1a7ef6070cd3b515a79d860348d0732563b3d77cdf5c5413219644e4f8; issue #2329 publisher readback verified.
+
+Sable PR #2327's fourth Lean run succeeded on merge-reference commit cd1ecf8039fd67820f09b539438204e0f67ba8c7. Its module blob matches the PR head. Four named theorem-specific axiom outputs report no axioms; global axiom audit, tests, lint, leanchecker and nanoda were skipped. PR remains OPEN / DRAFT / UNMERGED, stacked on #1487, not main.
+
+The third run failed on explicit Set.mem_image theorem application. The fourth source revision removed that misuse. Do not modify Sable's PR or infer empirical or physical validity from the formal result.
+
+The Orson PR #2112 build remains a successful merge-reference build only. Orson P1 remains frozen and Orson-owned. The Sable :36 automation execution ended FAILED with no authenticated chat reference; its PR Actions build is a separate event. The current :48 execution remains IN_PROGRESS with no authenticated chat reference and a stale cached prior result. The :00 Aster execution has started without an authenticated chat reference. No cross-thread delivery or worker participation is claimed.
+
+Five Actions checkout events were added to the clone ledger, bringing it to 304 rows: four depth-1 pull-request merge-reference checkouts and one depth-1 main publisher checkout. GitHub Traffic attribution remains UNKNOWN.
+
+**Tocktick:** no code changes; retain the source/proof/measurement distinctions; next worker label Aster, no task or ownership transfer.
+
+---
+
 # Latest checkpoint | 2026-11-22 h1014:s4 | Review-MIND cross-lane QC
 
 **Status:** ASSISTANT-LEVEL SOURCE-GROUNDED REVIEW / SABLE PR #2327 TWO FAILED BUILDS / THIRD BUILD PENDING / NO PHYSICAL INFERENCE / NO THEORY PROMOTION

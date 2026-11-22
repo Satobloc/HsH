@@ -1,3 +1,14 @@
+# Latest assistant-level checkpoint | 2026-11-22 h1014:s4 | Amendment 01
+
+- Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED; deterministic ring selection is not thread authentication.
+- Review-MIND report: WORKSPACES/LOOM/2026-11-22T0648Z_H1014_S4_REVIEW_MIND_SHARED_READOUT_FIBER_AND_MEMOPS_CI_QC.md
+- Canonical published report: [issue #2329](https://github.com/Satobloc/HsH/issues/2329); publisher readback verified, SHA-256 bab61b1a7ef6070cd3b515a79d860348d0732563b3d77cdf5c5413219644e4f8.
+- Sable PR #2327 now has a successful merge-reference build on the current head; four theorem-specific axiom outputs report no axioms. Tests/lint/leanchecker/nanoda/global audit remain skipped. PR remains draft/unmerged and stacked on #1487.
+- The earlier Sable packet was read as optional context only. No task or ownership transfer.
+- Return cursor: preserve the distinction between factorization-through-projection and readout-image separation; no physical inference.
+
+---
+
 # Latest assistant-level checkpoint | 2026-11-22 h1014:s4
 
 - Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED; deterministic selection is not thread authentication.
