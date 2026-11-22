@@ -1098,3 +1098,8 @@ Corrected commit `c0ebc000c9fa63d32d825f9fd5347c0e9872f1db` now has Actions run 
 ### Current Lean submission
 
 Existing-branch commit `faca7c5009617174142edf63193a49651a6abb8c` is under [Actions run #44993559061](https://github.com/Satobloc/HsH/actions/runs/44993559061). The new explicit `add_le_add_right` triangle proof is committed; build status is pending. No theorem success or axiom report yet.
+
+
+### Detector-space typing boundary
+
+The new observed-fiber theorem places observations in the same final metric space (X_n) as exact chain outputs. If real detector data live in a distinct (D), a sourced readout map (R_n:X_n\to D) must be an explicit final stage with units, metric, calibration and propagated error; endpoint radii must be in (D)'s metric. No physical readout map is currently supplied.
