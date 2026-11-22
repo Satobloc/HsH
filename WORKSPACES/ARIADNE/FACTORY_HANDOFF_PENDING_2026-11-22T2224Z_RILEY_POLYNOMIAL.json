@@ -1,7 +1,7 @@
 {
   "schema": "factory-handoff-pending-v1",
   "packet_id": "ARIADNE-RILEY-POLYNOMIAL-20261122-001",
-  "created_at_utc": "2026-11-22T23:02:00Z",
+  "created_at_utc": "2026-11-22T23:02:03.154Z",
   "source_item": {
     "repository": "Satobloc/HsH",
     "path": "FORMAL_VERIFICATION/HsHVerification/AriadneRileyPolynomialPresentationDependence.lean",
@@ -82,5 +82,6 @@
     "prediction": "NONE",
     "codata_comparison": "NONE"
   },
-  "next_action": "Do not submit to Factory Floor. Obtain a precise geometry plot and independent hostile fidelity review, and define the missing typed maps before any intake."
+  "next_action": "Do not submit to Factory Floor. Obtain a precise geometry plot and independent hostile fidelity review, and define the missing typed maps before any intake.",
+  "timestamp_precision": "Exact UTC time from the current runtime clock at file creation/readback"
 }
