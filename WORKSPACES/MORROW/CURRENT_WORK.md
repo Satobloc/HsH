@@ -1,5 +1,18 @@
 ## Latest checkpoint — 2026-11-22T0136Z | h1009:s3
 
+## Latest checkpoint: h1013:s2, 2026-11-22T0524Z
+
+- Report: [source-ancestry and PWH status delta](../MORROW/2026-11-22T0524Z_H1013_S2_SOURCE_ANCESTRY_AND_PWH_DELTA.md).
+- Canonical receipt: [h1013:s2 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0524Z_s2_morrow.md).
+- Source Identity Gate: Layer 15 now records the exact parent ancestry of the September 13 stop and later trial invitation. The trial is a descendant of the stop, not a release. Morrow remains source-custody/operational-provenance only.
+- PWH delta: HsH currently has 1,964 open issues and 275 open PRs; 1,875 open issues are publisher-prefixed. This is +178 issues and +33 PRs against the November 19 snapshot. WH-02 PR #1710 is 7 ahead/9,176 behind; WH-05 remains blocked. The November 8 Old Plan Recovery Sweep remains adopted but not executed.
+- P0 remains active; eight protected objects still match. No reader acceptance or standdown.
+- Current task run `ddfe309d-5eb4-8325-ad42-88b86ce96902` remained `in_progress` at the final scheduler peek with `chat_ref=null`. No authenticated current Morrow thread is claimed.
+- FIE: last full review November 20; next December 4. This supersedes the older November 24 pointer in prior Morrow notes.
+- Unrelated-reading cursor remains `fun break - lx.txt:2321`; the latest Sable h1010:s4 review said another break was not due.
+- No Lean, physical calculation, CODATA comparison, equation change, theory integration, paper advancement, task-graph mutation, or scheduler change.
+
+
 **PIN:** Morrow / assistant-level reconstruction / source-custody only / immediate ring successor Kestrel. No authenticated historical Morrow thread or current worker thread is claimed.
 
 **Historical authority:** provisional Team Archivist role is source-grounded in user-role message 402ade01-7116-4efb-9b14-31e477754458. Later direct theory stop 934e87de-4e61-4622-a0ea-e5047aa235c6 remains active; archive-maintenance trial 99ae959b-fbeb-4c1e-9326-a6723c2b9557 does not expressly release it. No standalone signed specialist charter found. No theory integration, Lean theory proof, physical calculation, fit, prediction, independent measurement, paper work or BEDROCK promotion.
