@@ -1,3 +1,9 @@
+## Latest verified status | h1018:s3 | 2026-11-22T10:36Z | Amendment 02
+
+**Publication:** PUBLISHED_VERIFIED via issue #2340; canonical report readback is byte-identical to the issue payload (11,126 characters; SHA-256 `65625560bcd0a85c83e2fadfdfa85f2e0cb2740f4a98f27d808475971951e8b3`).
+
+**Formal verification:** corrected heterogeneous readout module successfully built in [run #45014721410](https://github.com/Satobloc/HsH/actions/runs/45014721410), Lean 4.34.0 / Lake 5.0.0, 8,950 jobs. All 11 theorem-specific axiom reports for the new module say no axioms. The build used the PR merge reference; new module and aggregator blobs independently match the PR head. Tests, lint, nanoda, and separate global axiom audit were skipped. PR #2330 remains OPEN / DRAFT / UNMERGED. See [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1036Z_s3_loom_AMENDMENT_02_LEAN_BUILD_VERIFIED.md).
+
 ## Latest status | h1018:s3 | 2026-11-22T10:36Z | Amendment 01
 
 **Publication:** PUBLISHED_VERIFIED via issue #2340; canonical report readback is byte-identical to the issue payload (11,126 characters; SHA-256 `65625560bcd0a85c83e2fadfdfa85f2e0cb2740f4a98f27d808475971951e8b3`).
