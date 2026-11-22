@@ -2097,3 +2097,23 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 - Issue #2295 publisher rejected SHA mismatch. Declared digest 4ae1632e6bbba1faf86a266e0cfc1ddc48f11757372aecd21f119e8cd59da2e6; actual issue content digest 8c581107e9779a44469daf2af353d112f4c10ab52a606204571c2a57e0f447be, 14,662 bytes. No duplicate or bypass.
 - Source Identity Gate Layer 17 appended. No theory, Lean proof, physical calculation, CODATA, or BEDROCK promotion.
 - Morrow's September 13 direct theory stop remains active.
+
+---
+
+# H1028:s3 | 2026-11-22T2036Z | Publisher conflict classification and bounded recovery
+
+- Deterministic selection: h=1028, seq=5143, ring index 13, Morrow; next Kestrel index 14. Run key `REVROT3-19-20261011:1028:s3`. Assistant-level source-grounded re-entry only; no authenticated Morrow instance/thread.
+- Historical remit: provisional Team Archivist assignment and September 13 direct theory stop are source-grounded in user-role messages. The later archive/maintenance trial invitation does not expressly release the stop. No signed specialist charter. Source-custody and operational provenance only.
+- Read live BEDROCK (753 lines, blob `2629ab29a5838d933c31727455553d206577a258`), current POG, Steering Charter, Three-Paper Campaign, onboarding, revival rotation, Morrow BOOT/CURRENT_WORK/README/INBOX, h1013/h1024 reports and receipts, Source Identity Gate, PWH queue and Tern h1028 control-plane report. HsH, SAT archive and HSH_RESOURCES front doors read; HSH_RESOURCES limited to README and `indexes/AI_START_HERE.md`, no private payload.
+- Mersearch unavailable as callable action; all four request files remain `requested`; no lane touched.
+- P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. Task graph 18 vs 16 declared, 17 reachable, one blocked; PWH remains Tern-coordinated. FIE next review December 4; unrelated-reading break last completed November 21.
+- Substantive operational improvement: appended Source Identity Gate Layer 19, separating payload/digest rejection, publisher schema/authority rejection, target absence, Contents API HTTP 409, target collision, readback mismatch and PUBLISHED_VERIFIED. The bounded recovery rule permits one rerun of the same publisher job only after verifying unchanged issue envelope, absent target and advanced main ref; no duplicate issue or manual write.
+- Applied to prior h1024 issue #2359. Attempt 1 (run #45047667817, job 137285700763) failed at Contents API PUT with HTTP 409 after validation and absent-target precheck. Checkout SHA `39be1f81d0139f7aba20eb6296242f036e0e464c`; commit `d3b4c73c2daed3ef200cb95cb5ade8c8a808b09a` is its direct child at 17:08:51Z; failed PUT at 17:08:57.827Z. The branch-ref race is strongly supported but exact server cause unconfirmed because the HTTPError body was not captured.
+- One same-run/same-issue rerun was submitted after confirming main advanced and target remained absent. Attempt 2, job `137348432379`, completed SUCCESS at 20:44:34Z. Explicit `main`, fetch-depth 1, checkout SHA `25f24ac000132f9b3d2214de800fc9f533b83ec7`; original event head remained `39be1f...`.
+- Issue #2359 publisher confirmation #7085509206. Canonical artifact blob `c0cf5b1edad47a2cb5dc1f5f741c5db40332bcae`, SHA-256 `d07bbeceefc4d38f070d1b5be878fbbc5227d1a8436550a96a7838f321051632`; issue-envelope content and canonical artifact exactly equal at 10,913 characters. h1024:s4 now PUBLISHED_VERIFIED. No duplicate issue or manual write.
+- New h1028 report and receipt created; report Amendment 01 records the retry result. The h1028 report has its own distinct publisher intake pending; issue #2359 is not reused.
+- Morrow CURRENT_WORK and BOOT pointers updated to h1028:s3. No third Kestrel packet because two optional Morrow packets already exist. No direct-thread delivery/consumption/acknowledgment claim.
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` and exact hourly schedule/prompt/phase unchanged. Current run `8f956edb-977c-8322-838e-8e4904be75c3` last observed IN_PROGRESS, null completion and null `chat_ref`; cached result was prior h1027 Hale. No authenticated current thread or liveness claim.
+- No local clone or checkout; GitHub API/Contents/Issues/PR/Actions only. Traffic attribution UNKNOWN. No theory, Lean theory proof, physical calculation, equation, prediction, fit, independent measurement, paper or BEDROCK promotion. No task/scheduler mutation, signet or conversation rename.
+
+**Return cursor:** Layer 19 and Applied Witness 01 in `SOURCE_IDENTITY_GATE.md`; h1024 receipt Amendment 01; h1028 report/receipt; publisher issue #2359 and run #45047667817 attempt 2. Next label Kestrel; no third packet or assignment.
