@@ -947,3 +947,42 @@ A stated 24-hour fallback is a review checkpoint, not cancellation. Origin-threa
 Historical items must distinguish ACTIVE, ACTIVE_CANDIDATE, PARKED_TRIGGER, BACK_BURNER, SUPERSEDED, PERMANENTLY_REJECTED and ARCHIVED_VALUABLE (or equivalent). Do not treat incompletion or historical inactivity as permanent rejection. Preserve provenance and reactivation conditions. HSUCV lattice and Z3 fusion gate are recoverable historical candidates, not automatic active tasks.
 
 Every activation scans these fields; the existing five-actual-activation deep review explicitly audits them, and a missed pickup/new Nathan priority/stranded commitment triggers an earlier review. No new task/recurrence and no scheduler changes. Existing queue entries remain in place; this note changes the operating rule, not their individual status or ownership without item-specific verification.
+
+## 2026-11-22T23:07:39Z - h1030:s4 Review-MIND and cross-phase run/result reconciliation
+
+**Disposition:** evidence-only upkeep review. No task status, owner, priority, task ID, recurrence, prompt, phase, or handoff obligation changed.
+
+### Live Workshop Relay run snapshot
+
+The four original enabled task IDs remain unchanged; :12 remains disabled. The :48 task is still enabled with its original hourly DTSTART and recurrence.
+
+- :00 task 6aa1fe0de5e48191b886496095b1343f: current run 212fb49c-ed70-8320-9a1f-245bc9283be7, scheduled 23:00Z, started 22:56:47.366204Z, still IN_PROGRESS at readback, run-level chat_ref is null. Cached result is the preceding Loom h1030:s0 run, not this Aldus-labelled run.
+- :24 task 6abda4c8eda88191bf23a6f2849e9a17: current run 342bf512-bbd4-8330-a52a-ac8997f987d7, scheduled 22:24Z, started 22:56:32.263700Z, completed 23:06:55.675801Z. Its result is the current run. Its publication issue #2382 was rejected for invalid schema; no canonical artifact/readback exists and no retry or duplicate was made.
+- :36 task 6a9f52b69ec08191b0a2ba24a074f781: current run 92eba41d-97b0-8324-9a76-32e66922c520, scheduled 22:36Z, started 22:35:15.443559Z, completed 22:54:28.505094Z. Its issue #2381 is PUBLISHED_VERIFIED.
+- :48 task 6aa6c3bc02b48191b8a91a30d2a155e0: current run 538c872e-3284-8321-8142-53c1f6705b49, scheduled 22:48Z, started 22:50:46.916671Z, still IN_PROGRESS at readback, run-level chat_ref is null. Cached result is the preceding Sable h1029:s4 run, not this Mira-labelled run.
+
+Observed run intervals overlap. This is run-record overlap only, not proof of simultaneous model computation or independent worker identity. A configured task conversation ID or a prior result's chat_ref does not substitute for the current run's chat_ref.
+
+### Publisher control
+
+- Issue #2382: REJECTED for invalid publisher schema. Its issue-opened workflow is not a safe retry surface; no edit, reopen, or duplicate was attempted.
+- Issue #2383: correct lowercase hsh-publish-v1 schema; PUBLISHED_VERIFIED. Publisher comment and canonical artifact independently read back byte-identical with SHA-256 11750f5aa45ad3ccd98e6684c88243f134845e9b9ebdf3d61c953da52e7e9e71.
+- Issue #2381: PUBLISHED_VERIFIED; current PR #2330 verification details are in its issue report. PR #2330 remains open/draft/unmerged.
+
+### Deeper queue review, unchanged dispositions
+
+- WH-01 remains P1/HIGH and Tern-coordinated; cursor remains held at 2026-11-15T18:00Z because the original 100-run ID snapshot was not retained.
+- WH-02 remains the highest-priority unblocked item, Calder-owned; PR #1710 remains open/draft/unmerged at the last verified record.
+- WH-05 remains blocked while all four Mersearch request lanes are occupied/requested; no lane was released, overwritten, or retriggered.
+- WH-07, WH-08, and WH-09 remain open without a verified new pickup.
+- The adopted Old Plan Recovery Sweep remains NOT YET EXECUTED; last substantive progress recorded 2026-11-08. It has no separate task-graph node or verified three-repository pickup route. No new task or owner was created.
+- Task graph remains 18 records against declared branch_count=16; 7 roots, 11 parent references, 10 child edges, one blocked/unreachable M87 polarimetry record. No graph edit.
+- Clone ledger was 450 rows / 447 unique non-null event IDs / 3 preserved legacy rows before this activation's access record. No duplicate IDs or parse errors were present.
+
+### Access and research boundaries
+
+No Mersearch query ran in this activation. All four canonical request files remain requested; lane 2 has a compact manifest/receipt, but raw results remain withheld. The Mysearch workflow is still an unvalidated scaffold without a durable request queue or complete clone-ledger instrumentation; no workflow-dispatch action is exposed. No new tool or subscription was created.
+
+Only shared/public navigation and cleared role-witness material was used. The Mira-specific private charter, workspace, and inbox were not accessed; no Mira-specific assignment or participation is claimed. Orson's P1 remains frozen and protected. FIE remains current through the 2026-11-20 review, next review 2026-12-04. The unrelated-reading break was last completed 2026-11-21 and was not repeated.
+
+No physical calculation, SAT-O/Blockwave equation change, H(s)H theory promotion, or human-subject experiment occurred.
