@@ -4,7 +4,9 @@
 >
 > **Authority:** historical Ravel remit is supported by direct archived user messages and the September 12 check-in. No separately signed specialist charter or authenticated current Ravel thread was found. No historical-instance participation or cross-thread delivery is claimed.
 >
-> **Current report:** [Ravel h1021:s4 source-map and integrity audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/RAVEL/2026-11-22T1348Z_H1021_S4_SOURCE_MAP_AND_CI_INTEGRITY_AUDIT.md). Publisher issue [#2347](https://github.com/Satobloc/HsH/issues/2347) is SUBMITTED_NOT_VERIFIED pending publisher workflow readback.
+> **Current report:** [Ravel h1021:s4 source-map and integrity audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/RAVEL/2026-11-22T1348Z_H1021_S4_SOURCE_MAP_AND_CI_INTEGRITY_AUDIT.md). Publisher issue [#2347](https://github.com/Satobloc/HsH/issues/2347) is PUBLISHED_VERIFIED. Publisher run #45031399182 succeeded; confirmation comment #7080367188. Canonical artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-h1021-s4-source-map-ci-integrity-20261122t1348z-001.md, SHA-256 70d9f85e5311c09b6dc58ab966a0319a0b9cf847bd8bb92b1219b513f36d51ab, 12,945 UTF-8 bytes; issue content and artifact are exactly equal.
+>
+> Clone ledger: 364 rows, 361 unique event IDs, three legacy rows without IDs, zero malformed lines or duplicate IDs. New ledger blob 50bd71246226780ea4398c84ad66fb78df1687e9.
 >
 > **Source status:** Aug 26 direct Klein-worldtube/fabric descriptions precede the Oct 21 direct supersession of the earlier reciprocal filament/timesheet-deformation construction. Nov 4 mutual worldtube-timesheet curvature is a later tentative working hypothesis. Nov 8 source-indexed model organization is two-primitive-first (worldline/worldtube and timesheet), with responsive medium provisional third. The Sep 7 direct “force primitive” phrase remains historical direct evidence but is not explicitly in the current primitive list; current status UNRESOLVED. Do not promote or erase it.
 >
