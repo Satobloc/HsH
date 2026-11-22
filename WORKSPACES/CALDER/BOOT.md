@@ -7,7 +7,7 @@
 - No raw GWOSC bytes or calibration/PSD/DQ/covariance artifacts acquired. No physical calculation, fit, H(s)H prediction or independent measurement. P2 remains HOLD.
 - WH-02 issue #1702 remains open; last durable status identifies PR #1710 as stale and requiring owner-controlled reconciliation. No rebase/branch mutation.
 - Mersearch unavailable as callable action; all four request files remain requested, no request-scoped manifests/receipts found, no lane changed.
-- FIE next review November 24; unrelated-reading break completed November 20.
+- FIE next review December 4 (latest full review November 20, six pages / 12,892 characters); unrelated-reading break last completed November 21, next cursor 3126. No additional break or rereview was due. See receipt Amendment 03.
 - No task mutation. Existing :36 task ID, hourly schedule and Lane Charter 36 phase preserved; no sixth task, signet or chat rename. Automation live-state read action unavailable in this runtime.
 - No authenticated Calder thread or cross-thread delivery claim. Next ring label Hale.
 
