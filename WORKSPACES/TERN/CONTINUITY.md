@@ -1876,3 +1876,9 @@ The distinct current :36 occurrence is scheduled_for 02:36Z, h986:s3, selected r
 Existing PR #1570 was corrected on its existing branch. The nominal-slot selector takes only h and slot phase; h985:s3 proves Calder/Hale and h986:s3 proves Tern/Morrow. Corrected head efdcf0533bf79bd4323de375e4c64358dc4a4922 passed exact-head Actions run #44857490138, job #136702988214, full 8,944-job Lean build, Lean 4.34.0 / Lake 5.0.0. Sequence/index and scheduler arithmetic theorems report no axioms; worker/successor and reference-scope theorems report propext. Tests, lint, leanchecker, nanoda and global axiom audit were skipped. PR remains OPEN / DRAFT / UNMERGED; earlier raw-reference commit remains in history, no rewrite.
 
 Correction report: WORKSPACES/TERN/2026-11-21T0240Z_H986_S3_NOMINAL_SLOT_BINDING_CORRECTION.md; publisher issue #2246 is SUBMITTED_NOT_VERIFIED at this readback. Receipt Amendment 02 records the correction and build. No new physical calculation, prediction, equation change, paper-gate advancement or BEDROCK promotion. Existing task identity, schedule, prompt and phase unchanged; no sixth task. No direct-thread delivery or cross-thread participation claim.
+
+
+## h1028:s2 | clone-ledger finalization
+
+Clone ledger commit 71bbcd4df6b2ec93c059d635c96b74e4c5e7171e, blob 292406862873f275079af6bd45aac7f5f771c006: 407 records, 404 unique populated IDs, three legacy missing IDs, zero parse errors or duplicate populated IDs. Five Actions checkout materializations were recorded at fetch-depth 1 with exact checkout/run-head matches; all are SHALLOW_1, not full-clone claims, and Traffic attribution remains UNKNOWN. Three API-only reads and two API-only write events were recorded. No local clone or checkout occurred in this automation.
+
