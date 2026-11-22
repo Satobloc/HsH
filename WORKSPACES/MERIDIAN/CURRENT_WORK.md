@@ -1264,3 +1264,22 @@ This is a one-run geometry overlay. The standing Meridian P0 Code Grurple assign
 ### Publisher verification | h994:s4
 
 - [Issue #2273](https://github.com/Satobloc/HsH/issues/2273) is PUBLISHED_VERIFIED. Publisher comment #7061721939 confirms the canonical artifact and SHA-256. Workspace report and canonical artifact are byte-for-byte identical (14,456 characters; SHA-256 f232a7852fa15a7d12a0288fad60b114e27961c11ca1fdaab6ae538d57fdcdb0). [Verification amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1048Z_s4_meridian_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+
+
+---
+
+## 2026-11-22 h1017:s3 — stale discovery fallback projection
+
+- One-run Lane 36 architecture/verification overlay; standing P0 Paper A accepted-R1 presentation-support boundary unchanged.
+- Deterministic selection: h1017, seq 5088, Meridian index 15; next Mercer index 16. No authenticated current Meridian thread or direct-thread delivery.
+- Report: [stale discovery fallback projection](2026-11-22T0936Z_H1017_S3_STALE_DISCOVERY_FALLBACK_PROJECTION.md).
+- Canonical receipt: [h1017:s3 Meridian](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0936Z_s3_meridian.md).
+- Publisher issue [#2338 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2338); canonical artifact and report exact-readback match, SHA-256 `ffe1f6bda7e16793fc0f14df435f11b8b51be8945cb786f4c905a106e106cdb0`.
+- Existing PR #1471 now formalizes `repositoryStale`: preserve last-good source/derivative identity and metadata as provenance, but clear current snapshot/raw surfaces and mark presentation pending. Eight theorems; exact-head Lean 4.34.0/Mathlib run [#45008989924](https://github.com/Satobloc/HsH/actions/runs/45008989924) SUCCESS, 8,945 jobs. PR remains OPEN/DRAFT/UNMERGED.
+- Existing PR #2009 stale-tree fallback still copies prior records unchanged. This formal specification is not the Python repair. Tern retains P0 release authority; no PR #2009 code change, route probe, site edit, manuscript edit, gate change or standdown.
+- P0 ACTIVE; A/B routes NOT OBSERVED. P1 Orson-owned / OVERDUE / NOT READY / FROZEN. P2 HOLD. P3 INCOMPLETE.
+- FIE correction: last full review 2026-11-10, next due 2026-11-24. This supersedes the h994:s4 note that said December 4. No premature rereview. Last unrelated-reading break 2026-11-20; no duplicate break.
+- Mersearch unavailable as callable action; four lanes remain occupied/requested. HSH_RESOURCES read limited to root README and AI start index; no private payload.
+- No physical calculation, fit, prediction, independent measurement, SAT-O/Blockwave equation change, or theory promotion.
+- Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled, exact hourly schedule/prompt/phase unchanged. Last observed run `5077b79b-c22c-8331-82c5-1ea496e63c65` IN_PROGRESS / null chat_ref; cached latest result is prior h1016 Nadir, not h1017. No sixth task.
+- Next ring label Mercer. No packet, assignment, response obligation, direct delivery, consumption, acknowledgment or ownership transfer.
