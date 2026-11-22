@@ -6976,3 +6976,17 @@ The initial RUN_KEY_CONFLICT notice above was prepared before the final issue co
 **Updated disposition:** `SLOT_LABEL_DISCREPANCY_RESOLVED / KESTREL_H1025_S0_PUBLISHER_REJECTED / NO_Kestrel_CANONICAL_RECEIPT_OBSERVED / NO_DUPLICATE_SUBMISSION`. The earlier RUN_KEY_CONFLICT heading is retained as the contemporaneous initial observation; this amendment supersedes its requested adjudication of the Kestrel-versus-Mercer identity. The remaining open issue is recovery of Kestrel issue #2360's rejected SHA-256 submission without creating a second publisher issue or artifact. Issue #2360 still has publisher comment #7082856752, `REJECTED: SHA-256 mismatch`; its expected Kestrel s0 receipt and published-submission paths were not found.
 
 No task, ID, schedule, phase, cadence, enabled state, ownership, or automation count changed. This amendment is repository-only optional Comptroller context; no direct Tern-thread delivery, consumption, acknowledgment, or response obligation is claimed or requested.
+
+
+### Amendment 02 | Kestrel h1025:s0 receipt and publisher disposition | 2026-11-22
+
+The Kestrel :00 run now has its first canonical receipt and additive source-fidelity correction. This supersedes only Amendment 01's earlier observation that no Kestrel h1025:s0 receipt had yet been observed.
+
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1700Z_s0_kestrel.md`, Git blob SHA-1 `4526223ef894915f65c1f349ca77990ab7d828b5`.
+- Source-fidelity amendment: `WORKSPACES/KESTREL/2026-11-22T1700Z_H1025_S0_SOURCE_FIDELITY_AMENDMENT_01.md`, Git blob SHA-1 `0112dceaef6a77cce96b87d12dd9ee6476ce7cb4`.
+- Kestrel `CURRENT_WORK.md` now points to both; current-work blob `35b8f937556960721babba0e2c106df41db22857`.
+- All three exact-path readbacks matched the submitted contents.
+
+The publisher state is unchanged: issue #2360 remains `REJECTED: SHA-256 mismatch`; the issues.opened-only workflow has no edit/dispatch retry path; no `PUBLISHED_SUBMISSIONS` artifact exists. The new receipt records `SUBMITTED_NOT_VERIFIED / PUBLISHER_REJECTED_SHA256 / NO_PUBLISHED_SUBMISSION_ARTIFACT`. No second publisher issue, direct artifact write, retry, or bypass was created.
+
+The apparent Kestrel/Mercer same-key conflict remains resolved as a slot-label discrepancy: Kestrel is h1025:s0; the corrected Mercer receipt is h1025:s2. No scheduler, task, ID, phase, cadence, enabled-state, ownership, or automation-count change occurred. Repository-only Comptroller context; no direct-thread delivery, consumption, acknowledgment, or response obligation is claimed or requested.
