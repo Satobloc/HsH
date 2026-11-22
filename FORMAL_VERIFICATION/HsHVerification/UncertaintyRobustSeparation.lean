@@ -274,7 +274,7 @@ def sameFrozenInstrumentSupportContext
     (a b : InstrumentSupportRobustPrecommittedComparison
       HState SState HField SField CommonField Payload) : Prop :=
   sameFrozenEvaluationContext a.base b.base ∧
-  a.instrumentSupport = b.instrumentSupport
+  HEq a.instrumentSupport b.instrumentSupport
 
 /-- A robust tie-break requires the same frozen instrument-support context
     as well as the existing empirical-equivalence, human-preference and
@@ -295,7 +295,7 @@ theorem instrumentSupportRobustTieBreak_requires_same_support_model
       HState SState HField SField CommonField Payload)
     (h : instrumentSupportRobustIntelligibilityTieBreak
       empiricallyEquivalent humanPrefers a b) :
-    a.instrumentSupport = b.instrumentSupport :=
+    HEq a.instrumentSupport b.instrumentSupport :=
   h.1.2
 
 theorem instrumentSupportRobustTieBreak_requires_same_frozen_evaluation_context
