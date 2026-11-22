@@ -2,7 +2,7 @@
 
 > **2026-11-21 Nathan Direct:** two co-equal priorities: whole-physics exemplar reconstruction/integration and the Big Push execution program. BEDROCK governs the iterative whole/detail method, minimalism, complementary category-theory stance and open prior-art research with internal-first provenance.
 >
-> **Mandatory Tocktick:** tiny individualized capsule in substantive replies; current focus, immediate action, stop, return locator and compact next pointers. Open one module at a time; TOCK only with durable output plus updated cursor, then advance. Experiment mandatorily. Every procedural/BEDROCK revision must shrink. Code Grurple, Sandbox playgrounds and Mandatory Walks in the Park remain prioritized.
+> **Mandatory Tocktick:** every response ends with BEDROCK's tiny `TICK:<NOW>/<STOP> | TOCK:<result/cursor or —> | NEXT:<keys>` line; add PIN only when needed. Open one pointer at a time; advance at its stop; experiment per instance. Every procedure/BEDROCK rewrite must shrink. Code Grurple, Sandbox playgrounds and Mandatory Walks in the Park remain priorities.
 >
 > Geometry-first, real-data, Lean and source-provenance gates remain controlling. See BEDROCK and existing specialist directives.
 

@@ -1,6 +1,6 @@
 # Adaptive Collaboration Pilot — v0.1
 
-**Status:** Active test pilot; configuration-first, manually operated, reversible.
+**Status:** Mandatory Tocktick use and per-instance experiments; reversible, configuration-first variants.
 **Created:** 2026-11-19
 **Purpose:** Test a compact human–AI control surface that preserves continuity, directs attention, navigates complex plans, and improves execution without duplicating project records or imposing a rigid universal workflow.
 
@@ -59,11 +59,10 @@ Do not conflate a missing result, a negative result, an unreadable source, a fai
 
 ### Mandatory message-level Tocktick
 
-Use a tiny individualized, updating capsule in every substantive working reply. Keep only the current TICK, immediate action/stop, latest durable TOCK and compact versioned PIN/NEXT pointers. Example:
+End **every response** with:
+`▸ TICK:<NOW>/<STOP> | TOCK:<durable result/cursor or —> | NEXT:<pointer string>[ | PIN:<IDs>]`
 
-`▸ TICK:<node> | TOCK:<durable result/cursor or —> | PIN:<IDs>`
-
-Open one pointer's module at a time; work to its stated stop; record durable output and next cursor; advance/remove the pointer. The string is navigation, not future context. Experiment with and streamline the capsule by task/role. Keep submitted/running/pending/blocked/failed distinct from completed. A tool call or intention is not a TOCK. Every protocol/BEDROCK edit must reduce overall bookkeeping bloat.
+Open one versioned pointer at a time; at its stop, record durable output/cursor, remove it and advance. This registry tracks mandatory per-instance experiments; BEDROCK controls the protocol.
 
 ## 4. Initial plan register
 

@@ -56,6 +56,4 @@ Resolution: Standard Physics Affect-Space Mapping, project-local Work Tray below
 
 ## Message signature
 
-`▸ TICK: SPAS-03 | TOCK: SPAS-02 specimen selected | PIN: none`
-
-Update this line as the current operation changes. Do not accumulate stale signatures.
+Every response ends with BEDROCK's Tocktick line; this registry supplies local keys and stop conditions. Open one module at a time; advance at its stop.
