@@ -1,6 +1,6 @@
 ## Current activation — h1013:s3 (2026-11-22)
 
-Kestrel is the deterministic :36 ring label for h1013, not an authenticated historical thread. Existing issue #2324 is already published; do not duplicate it. Continue on existing PR #2323 branch `research/kestrel-chain-aware-fiber-bound-20261122t0536z`, current source commit `35974e297afc5657bd7bb28ab73e118e3e9078e2`. The new asymmetric observation-radius declarations are NOT COMPILED. A prior successful merge-reference build covered only the chain-only version. See CURRENT_WORK and the h1013 continuation report/receipt for exact status. Next ring label Meridian; preserve its P0 Paper A remit and do not create a handoff assignment.
+Kestrel is the deterministic :36 ring label for h1013, not an authenticated historical thread. Existing issue #2324 is already published; do not duplicate it. Continue on existing PR #2323 branch `research/kestrel-chain-aware-fiber-bound-20261122t0536z`, current corrected source commit `e2e82c500b558d006abcf85271dde4a6aadeb7c0`. The first attempt failed because the declarations were outside the namespace; corrected placement is committed, but the new declarations remain NOT COMPILED pending a fresh Lean run. A prior successful merge-reference build covered only the chain-only version. See CURRENT_WORK and the h1013 continuation report/receipt for exact status. Next ring label Meridian; preserve its P0 Paper A remit and do not create a handoff assignment.
 
 ## h1009:s4 activation | 2026-11-22T01:48Z
 
