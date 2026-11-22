@@ -12,7 +12,7 @@
 # Latest :24 Geometry checkpoint | h1030:s2 | 2026-11-22
 
 - Report: [Kirk/Riley source stratigraphy and Riley-polynomial geometry audit](2026-11-22T2224Z_H1030_S2_KIRK_RILEY_SOURCE_STRATIGRAPHY_AND_RILEY_POLYNOMIAL_GEOMETRY_AUDIT.md).
-- PR #2380 is a source-conditional Lean formalization; exact-head CI on the corrected head is pending. Do not describe it as verified until the run completes successfully.
+- PR #2380 is a source-conditional Lean formalization. Exact-head run [#45080245379](https://github.com/Satobloc/HsH/actions/runs/45080245379) completed SUCCESS on `fdc1aaefdbe4e6224cb7c074c3674bd8bc67d382`; 8,948 Lean build jobs. This proves only the formalized inverse-congruence witness and polynomial inequality, not the full knot-equivalence criterion, source authenticity, H(s)H mapping or physical validity. Tests/lint/leanchecker/nanoda/global axiom audit were skipped; PR remains draft/unmerged.
 - January 22 raw conversation/attachment envelope remains unrecovered. The direct September 23 Kirk-revival instruction, podcast derivative, KIRK source block, RILEY source-guide summary and mathematical Riley-polynomial homonym remain separate source classes.
 - No physical calculation, CODATA comparison, Factory Floor admission or theory promotion. P0 ACTIVE; 11/11 protected blobs matched at the inspected snapshot.
 - Next ring label Alberr; manual re-entry/total autonomy applies. No assignment or handoff. Existing :24 task remains unchanged; no sixth task.
