@@ -1083,3 +1083,8 @@ No new Lean module: PR #873 exact-head run #44090154878 already supplies conditi
 ### CI freshness clarification
 
 PR #1133 run #44883007736 succeeded on historical head `25a66298a178e5590e35312a6459cc2c8ee4ed7d`; PR #1133 is now at `8b6b19421327164f6c966be5cab3c58e7f9c0314` and that newer head was not built. The result is historical exact-head verification, not current-head verification. PR #873 remains at `94b6d96c91806a95505260a3c52220f4af294185` with exact-head run #44090154878 successful. PR #1135 remains at `af66f06c6fcd842db7b72ff2c3aa66d3794d297d` with exact-head run #41164589389 successful. PR #1098 remains draft and its exact-head run failed. No source-specific current-degree proof is claimed. Public clarification: issue #2307 comment #7070170728.
+
+
+### Source-text fidelity correction (h1013)
+
+The SAT-O1 and Blockwave equations previously displayed as “verbatim” were normalized transcriptions, not raw source strings. That label is withdrawn. The exact LaTeX/source lines and the full Blockwave action block, including malformed source tokens preserved without repair, are in Amendment 02 of the h1013 continuation report. Git blob SHA-1s were re-fetched and match; the prior SHA-256 values and dates remain recorded rather than recomputed in this continuation. No corrected equation is proposed. See [report](2026-11-22T0604Z_H1013_S3_OBSERVED_FIBER_UNCERTAINTY_EXTENSION.md) and [issue #2324 correction](https://github.com/Satobloc/HsH/issues/2324).
