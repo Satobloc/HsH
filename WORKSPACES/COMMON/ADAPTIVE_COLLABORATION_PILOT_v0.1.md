@@ -57,15 +57,13 @@ A cubby is an access route, not necessarily a physical folder. Each access card 
 Do not conflate a missing result, a negative result, an unreadable source, a failed operation, and a blocked operation.
 
 
-### Message-level TICK/TOCK signature
+### Mandatory message-level Tocktick
 
-At the foot of substantive working replies during an active operation, use one compact, updating index card:
+Use a tiny individualized, updating capsule in every substantive working reply. Keep only the current TICK, immediate action/stop, latest durable TOCK and compact versioned PIN/NEXT pointers. Example:
 
-`▸ TICK: <exact active position> | TOCK: <durable completed operation, or none> | PIN: <return IDs>`
+`▸ TICK:<node> | TOCK:<durable result/cursor or —> | PIN:<IDs>`
 
-Use the fuller `PIN | NOW | NEXT | RETURN` form when a task needs more detail. The signature is a live pointer, not a second plan: update it rather than accumulating old versions in chat. `▸` marks the current character/position in a sequence; it is a provisional navigation marker, not an identity signet or a canonical registry token.
-
-A TOCK requires a durable result and updated cursor. Keep `SUBMITTED`, `RUNNING`, `PENDING`, `BLOCKED`, and `FAILED` visibly distinct from completed work. A tool call, intention, commit submission or workflow start is not a TOCK.
+Open one pointer's module at a time; work to its stated stop; record durable output and next cursor; advance/remove the pointer. The string is navigation, not future context. Experiment with and streamline the capsule by task/role. Keep submitted/running/pending/blocked/failed distinct from completed. A tool call or intention is not a TOCK. Every protocol/BEDROCK edit must reduce overall bookkeeping bloat.
 
 ## 4. Initial plan register
 
