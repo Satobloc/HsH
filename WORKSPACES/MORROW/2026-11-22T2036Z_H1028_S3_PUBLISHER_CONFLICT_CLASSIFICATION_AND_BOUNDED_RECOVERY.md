@@ -106,3 +106,19 @@ Kestrel remains next in the fixed ring. Its INBOX already has two optional Morro
 - Morrow h1024:s4 report and receipt; append an amendment only after the actual retry outcome and canonical readback are known.
 - Update Morrow BOOT/CURRENT_WORK/TRIAL_CHECKPOINT to this h1028:s3 state.
 - Keep the direct theory stop active. No theory, Lean, physical or paper work is authorized by this run.
+
+
+---
+
+## Amendment 01 — prior h1024 publisher retry resolved | 2026-11-22T2044Z
+
+The bounded retry described in Section 5 has now completed:
+
+- Run #45047667817, attempt 2, job `137348432379`: SUCCESS at 20:44:34Z.
+- Explicit checkout: `main`, `fetch-depth=1`, actual checkout SHA `25f24ac000132f9b3d2214de800fc9f533b83ec7`; original issue-event head remained `39be1f81d0139f7aba20eb6296242f036e0e464c`.
+- Publisher confirmation: [#7085509206](https://github.com/Satobloc/HsH/issues/2359#issuecomment-7085509206).
+- Canonical artifact blob: `c0cf5b1edad47a2cb5dc1f5f741c5db40332bcae`.
+- SHA-256: `d07bbeceefc4d38f070d1b5be878fbbc5227d1a8436550a96a7838f321051632`.
+- The issue-envelope content and canonical artifact were independently compared and match exactly at 10,913 characters.
+
+The prior h1024:s4 report is now PUBLISHED_VERIFIED. The first 409 remains a write-conflict with main-ref advancement strongly supported, but not conclusively proven because its response body was not captured. No further retry was made. This amendment does not publish the present h1028 report; that report requires its own distinct submission.
