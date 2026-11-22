@@ -399,4 +399,213 @@ theorem gw241011_current_product_blocks_evaluation
 #print axioms evaluation_admissibility_requires_prediction_hard_gate
 #print axioms gw241011_current_product_blocks_evaluation
 
+
+/-!
+## Raw-artifact identity and acquisition-condition binding
+
+ProductSetKey identifies a catalog/event-version inventory. It does not
+identify the bytes actually acquired for an analysis. The earlier
+AnalysisReadiness booleans and type index therefore remain necessary but
+are not sufficient as a source-auditable data packet.
+
+The following additive contract separates:
+* catalog product-set identity;
+* each acquired raw artifact and its declared digest;
+* the acquisition/run and operating-condition identity;
+* calibration, PSD, data-quality, and covariance artifacts;
+* an acquisition manifest and a separate digest-verification record.
+
+A bundle selects an explicit subset of catalog products, requires a
+source-bound artifact for each selected product, and requires every artifact
+in that bundle to belong to one declared operating condition. This prevents
+a cross-condition calibration or product from being silently borrowed.
+
+The strings and references are declarations, not authenticated facts.
+Lean does not hash raw bytes, validate a verifier, parse an acquisition
+manifest, establish calibration correctness, or authenticate any source.
+No concrete artifact, measurement, fixture, or physical calculation is
+instantiated here.
+-/
+
+/-- A source artifact reference with a declared locator, digest, and byte
+    length. The fields are identifiers; Lean does not compute or authenticate
+    the digest. -/
+structure EvidenceArtifactRef where
+  locator : String
+  sha256 : String
+  byteLength : Nat
+  deriving DecidableEq, Repr
+
+/-- A separately stored record of a digest check. The reported digest is
+    compared with the artifact's declared digest below; verifier identity,
+    execution, and the record's contents remain external evidence. -/
+structure DigestVerificationRecord where
+  verifier : String
+  runId : String
+  record : EvidenceArtifactRef
+  reportedDigest : String
+  deriving DecidableEq, Repr
+
+/-- One acquired raw product, bound to a catalog key and its exact
+    acquisition/condition support records. -/
+structure ProductArtifactEvidence (key : ProductSetKey) where
+  product : StrainProduct
+  eventVersion : Nat
+  catalogSnapshot : String
+  rawArtifact : EvidenceArtifactRef
+  acquisitionId : String
+  conditionId : String
+  calibration : EvidenceArtifactRef
+  psd : EvidenceArtifactRef
+  dataQualitySegments : EvidenceArtifactRef
+  covariance : EvidenceArtifactRef
+  acquisitionManifest : EvidenceArtifactRef
+  digestVerification : DigestVerificationRecord
+  productMember : product ∈ key.products
+  releaseMatches : product.eventRelease = key.eventRelease
+  eventVersionMatches : eventVersion = key.eventVersion
+  catalogSnapshotMatches : catalogSnapshot = key.sourceSnapshot
+  digestMatches : digestVerification.reportedDigest = rawArtifact.sha256
+
+/-- Presence check only: a nonempty locator/digest and positive declared
+    length. This does not establish that the locator resolves or that the
+    digest matches the bytes. -/
+def evidenceArtifactRefDeclared (ref : EvidenceArtifactRef) : Bool :=
+  decide (ref.locator ≠ "")
+    && decide (ref.sha256 ≠ "")
+    && decide (ref.byteLength > 0)
+
+/-- All required evidence references for one product are declared. Product
+    membership, event version, catalog snapshot, and digest equality are
+    carried as proof fields by ProductArtifactEvidence. -/
+def productArtifactEvidenceDeclared {key : ProductSetKey}
+    (evidence : ProductArtifactEvidence key) : Bool :=
+  evidenceArtifactRefDeclared evidence.rawArtifact
+    && decide (evidence.acquisitionId ≠ "")
+    && decide (evidence.conditionId ≠ "")
+    && evidenceArtifactRefDeclared evidence.calibration
+    && evidenceArtifactRefDeclared evidence.psd
+    && evidenceArtifactRefDeclared evidence.dataQualitySegments
+    && evidenceArtifactRefDeclared evidence.covariance
+    && evidenceArtifactRefDeclared evidence.acquisitionManifest
+    && decide (evidence.digestVerification.verifier ≠ "")
+    && decide (evidence.digestVerification.runId ≠ "")
+    && evidenceArtifactRefDeclared evidence.digestVerification.record
+
+/-- A selected analysis bundle is an explicit nonempty subset of one
+    catalog product set. Every selected product has at least one bound raw
+    artifact; no unrelated product is silently included; all support records
+    share one declared operating condition. -/
+structure ProductArtifactBundle (key : ProductSetKey) where
+  conditionId : String
+  selectedProducts : List StrainProduct
+  artifacts : List (ProductArtifactEvidence key)
+  conditionIdNonempty : conditionId ≠ ""
+  selectedProductsNonempty : selectedProducts ≠ []
+  artifactsNonempty : artifacts ≠ []
+  selectedProductsInCatalog :
+    ∀ product, product ∈ selectedProducts → product ∈ key.products
+  selectedProductsCovered :
+    ∀ product, product ∈ selectedProducts →
+      ∃ artifact, artifact ∈ artifacts ∧ artifact.product = product
+  allArtifactsSelected :
+    ∀ artifact, artifact ∈ artifacts → artifact.product ∈ selectedProducts
+  allArtifactsSameCondition :
+    ∀ artifact, artifact ∈ artifacts → artifact.conditionId = conditionId
+
+/-- All references in the selected artifact bundle are declared. The
+    dependent bundle type separately enforces catalog membership, coverage,
+    and common-condition scope. -/
+def productArtifactBundleDeclared {key : ProductSetKey}
+    (bundle : ProductArtifactBundle key) : Bool :=
+  decide (bundle.conditionId ≠ "")
+    && decide (bundle.selectedProducts ≠ [])
+    && decide (bundle.artifacts ≠ [])
+    && bundle.artifacts.all
+      (fun artifact => productArtifactEvidenceDeclared artifact)
+
+/-- The stricter source-bound admission surface: the existing readiness
+    summary, concrete artifact-reference bundle, and prediction hard gate
+    must all pass at the same ProductSetKey. -/
+def sourceBoundEvaluationAdmissible {key : ProductSetKey}
+    (readiness : AnalysisReadiness key)
+    (bundle : ProductArtifactBundle key)
+    (prediction : PredictionGateBinding key) : Prop :=
+  analysisReady readiness = true
+    ∧ productArtifactBundleDeclared bundle = true
+    ∧ prediction.hardGate
+
+theorem sourceBoundEvaluation_requires_analysis_readiness
+    {key : ProductSetKey}
+    (readiness : AnalysisReadiness key)
+    (bundle : ProductArtifactBundle key)
+    (prediction : PredictionGateBinding key)
+    (h : sourceBoundEvaluationAdmissible readiness bundle prediction) :
+    analysisReady readiness = true :=
+  h.1
+
+theorem sourceBoundEvaluation_requires_declared_artifact_bundle
+    {key : ProductSetKey}
+    (readiness : AnalysisReadiness key)
+    (bundle : ProductArtifactBundle key)
+    (prediction : PredictionGateBinding key)
+    (h : sourceBoundEvaluationAdmissible readiness bundle prediction) :
+    productArtifactBundleDeclared bundle = true :=
+  h.2.1
+
+theorem sourceBoundEvaluation_requires_prediction_hard_gate
+    {key : ProductSetKey}
+    (readiness : AnalysisReadiness key)
+    (bundle : ProductArtifactBundle key)
+    (prediction : PredictionGateBinding key)
+    (h : sourceBoundEvaluationAdmissible readiness bundle prediction) :
+    prediction.hardGate :=
+  h.2.2
+
+theorem selected_product_has_bound_raw_artifact
+    {key : ProductSetKey}
+    (bundle : ProductArtifactBundle key)
+    (product : StrainProduct)
+    (hProduct : product ∈ bundle.selectedProducts) :
+    ∃ artifact, artifact ∈ bundle.artifacts ∧ artifact.product = product :=
+  bundle.selectedProductsCovered product hProduct
+
+theorem selected_products_belong_to_catalog
+    {key : ProductSetKey}
+    (bundle : ProductArtifactBundle key) :
+    ∀ product, product ∈ bundle.selectedProducts → product ∈ key.products :=
+  bundle.selectedProductsInCatalog
+
+theorem artifact_bundle_uses_one_operating_condition
+    {key : ProductSetKey}
+    (bundle : ProductArtifactBundle key) :
+    ∀ artifact, artifact ∈ bundle.artifacts →
+      artifact.conditionId = bundle.conditionId :=
+  bundle.allArtifactsSameCondition
+
+theorem artifact_digest_is_bound_to_verification_record
+    {key : ProductSetKey}
+    (bundle : ProductArtifactBundle key) :
+    ∀ artifact, artifact ∈ bundle.artifacts →
+      artifact.digestVerification.reportedDigest = artifact.rawArtifact.sha256 :=
+  fun artifact _ => artifact.digestMatches
+
+/-- Moving an artifact bundle between catalog product-set indices requires
+    explicit equality of the complete ProductSetKey. -/
+def reindexProductArtifactBundle {keyA keyB : ProductSetKey}
+    (h : keyA = keyB)
+    (bundle : ProductArtifactBundle keyA) :
+    ProductArtifactBundle keyB := by
+  cases h
+  exact bundle
+
+#print axioms reindexProductArtifactBundle
+#print axioms sourceBoundEvaluation_requires_analysis_readiness
+#print axioms sourceBoundEvaluation_requires_declared_artifact_bundle
+#print axioms sourceBoundEvaluation_requires_prediction_hard_gate
+#print axioms selected_product_has_bound_raw_artifact
+#print axioms selected_products_belong_to_catalog
+#print axioms artifact_bundle_uses_one_operating_condition
+#print axioms artifact_digest_is_bound_to_verification_record
+
 end HsHVerification.CalderVersionedProductCoverage
