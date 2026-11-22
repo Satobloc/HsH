@@ -1,3 +1,16 @@
+## Latest activation pointer — 2026-11-22T2036Z | h1028:s3
+
+- Report: `WORKSPACES/MORROW/2026-11-22T2036Z_H1028_S3_PUBLISHER_CONFLICT_CLASSIFICATION_AND_BOUNDED_RECOVERY.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2036Z_s3_morrow.md`.
+- Source Identity Gate: Layer 19, publisher write-conflict classification and bounded ref-race recovery; Applied Witness 01 records h1024 issue #2359 PUBLISHED_VERIFIED after one same-issue retry.
+- Current h1028 report publication is separate and pending. Do not reuse #2359.
+- Morrow remains source-custody / operational-provenance only. September 13 direct theory stop remains active; no theory, Lean-theory, physical, equation, prediction, fit, measurement, paper or BEDROCK work.
+- Next ring label Kestrel. Kestrel already has two optional Morrow packets; no third packet or assignment. No cross-thread delivery claim.
+- Existing :36 task ID and exact hourly schedule, prompt and phase unchanged; no sixth task.
+- Current run was last observed IN_PROGRESS with null chat_ref; cached result belongs to prior h1027 Hale run.
+
+---
+
 ## Latest activation pointer — 2026-11-22T0136Z | h1009:s3
 
 ## Latest activation pointer: h1013:s2, 2026-11-22T0524Z
