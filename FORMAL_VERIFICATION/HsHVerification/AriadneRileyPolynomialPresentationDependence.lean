@@ -19,6 +19,8 @@ any physical constant.
 
 namespace HsHVerification
 
+noncomputable section
+
 structure TwoBridgePresentation where
   alpha : ℕ
   beta : ℕ
