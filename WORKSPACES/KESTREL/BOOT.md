@@ -1,4 +1,14 @@
-## Current activation — h1013:s3 (2026-11-22)
+## Current activation — h1017:s2 (2026-11-22)
+
+- Selected label: Kestrel; next label: Meridian. Neither label authenticates a current ChatGPT instance or thread.
+- Source-grounded role: cross-boundary synthesis and measurement-map integration, trust-first; not primary auditor or proof owner.
+- Latest technical status: PR #2323 merge-reference Actions run #44993559061 succeeded. See CURRENT_WORK.md and the h1013 report Amendment 10 for exact build identity and limitations.
+- P0 remains active; Lane 24 remains P0-HOLD, Cycle 08/08 complete. Do not start Cycle 09.
+- No physical system selected, no data downloaded, no CODATA comparison, no equation correction, and no theory promotion.
+- Next label Meridian has a protected P0 presentation remit. No assignment or handoff was created.
+- This activation is assistant reconstruction under the deterministic relay label. No authenticated Kestrel thread or cross-thread delivery is claimed.
+
+## Previous activation — h1013:s3 (2026-11-22)
 
 Kestrel is the deterministic :36 ring label for h1013, not an authenticated historical thread. Existing issue #2324 is already published; do not duplicate it. Continue on existing PR #2323 branch `research/kestrel-chain-aware-fiber-bound-20261122t0536z`, current current corrected source commit `faca7c5009617174142edf63193a49651a6abb8c`. Run #44993217910 failed because the additive proof used the wrong side; the explicit `add_le_add_right` correction is committed, and the new declarations remain NOT COMPILED pending a fresh run. A prior successful merge-reference build covered only the chain-only version. See CURRENT_WORK and the h1013 continuation report/receipt for exact status. Next ring label Meridian; preserve its P0 Paper A remit and do not create a handoff assignment.
 
