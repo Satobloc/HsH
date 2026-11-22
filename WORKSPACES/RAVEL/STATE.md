@@ -4,11 +4,13 @@
 - Receipt: [Ravel h1029:s2](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2124Z_s2_ravel.md).
 - Public correction: [issue #2374 comment #7086126431](https://github.com/Satobloc/HsH/issues/2374#issuecomment-7086126431).
 - Current HsH Blockwave object: Git blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d; 25,255 UTF-8 bytes; SHA-256 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664. This is source-object custody, not authorship.
-- Source fidelity: both Blockwave projector occurrences write P^\\mu{}\\nu without a caret before the second \\nu; the Meridian amendment's P^\\mu{}^\\nu snippet is not verbatim. Preserve the malformed source token; no corrected equation proposed.
+- Source fidelity: both Blockwave projector occurrences contain P^\mu{}\nu without a caret before the second \nu; the Meridian amendment's P^\mu{}^\nu snippet is not verbatim. Preserve the malformed source token; no corrected equation proposed.
 - Existing Kestrel PR #1556 local exact-phase theorem: exact PR-head Lean run #42765114182 succeeded. Global winding, normalization, defect support and action/current coupling remain outside that theorem.
 - P0: 8 protected Paper A/B objects plus 3 discovery controls = 11/11 exact at main 9e9ddaf99bf1268a6398d4d17a64efbcc798cbec. Issue #1747 remains ACTIVE; PR #2009 remains open/draft/unmerged; reader acceptance not observed.
 - Lane 24 remains BACKSEAT/HOLD; no physical calculation, CODATA comparison, fit, prediction, independent measurement or theory promotion.
 - No Mersearch lane mutation, no local clone/checkout, no clone-ledger row, no Orson handoff or inbox write.
+
+---
 
 ---
 
