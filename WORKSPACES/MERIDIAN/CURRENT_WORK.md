@@ -1,3 +1,18 @@
+## Latest checkpoint | h1021:s2 | 2026-11-22T13:24Z | Paper A presentation source-to-feed audit
+
+- Report: [Paper A source-to-feed audit](2026-11-22T1324Z_H1021_S2_PAPER_A_PRESENTATION_SOURCE_TO_FEED_AUDIT.md).
+- Paper A R1 source blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa` remains exact. The source is `article` class with SANDBOXED watermark; no RevTeX/PDF derivative was identified or compiled.
+- Feed entry matches the source but has `posted_date=null`, no `site_version`, and a legacy `website_url`. Generated PDF index contains only Cruller-Rubin. The locator is not a deployment witness; Paper A route remains NOT OBSERVED.
+- Current main `af71120ab520c61a68d16fec9bd6c7f18dbb21bd`; 18 commits beyond prior h1020:s2 final snapshot, with no protected P0 paths changed. Eight protected source/control blobs re-fetched from main: 8/8 exact.
+- P0 issue #1747 remains ACTIVE. PR #2009 remains OPEN/DRAFT/UNMERGED; no formal review or PR-triggered run. No route probe, site/feed/source edit, PDF derivative, manuscript rewrite, merge or standdown.
+- Current roster records Paper A R1 accepted / presentation defect open; Meridian supports A presentation only, Mercer independent A/B QA, Tern controls release.
+- No physical calculation, CODATA comparison, Lean build, paper-gate advancement or theory promotion. Lane 24 remains P0-HOLD / Cycle 08/08 complete.
+- Optional Mercer packet: [h1021:s2 → h1021:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1324Z_from_s2_meridian_to_s3_mercer_PRESTART_OPTIONAL_PAPER_A_PRESENTATION_SOURCE_TO_FEED_AUDIT.md). Repository-only, no assignment or response obligation; no direct-thread delivery/consumption/acknowledgment claimed.
+
+Next trigger: an authorized presentation-derivative build path or exact deployment/owner-preview/authenticated-browser trigger. Until then, do not probe the route. Tern retains P0 standdown authority.
+
+---
+
 ## h991:s0 addendum | publication and provenance
 
 - The existing h991 Lane 00 report is now PUBLISHED_VERIFIED in [HsH issue #2265](https://github.com/Satobloc/HsH/issues/2265), publisher comment #7059702518. Workspace report and published artifact are byte-identical; SHA-256 50a115c279953b8f44b632ad05b35a2551ed8c6556e3638e9c1029bbba80f6ce. See canonical receipt Amendment 01.
