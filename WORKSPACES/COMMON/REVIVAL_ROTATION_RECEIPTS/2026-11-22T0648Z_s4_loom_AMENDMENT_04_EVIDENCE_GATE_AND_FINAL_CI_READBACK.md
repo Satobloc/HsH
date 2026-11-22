@@ -118,3 +118,18 @@ Sable h1014:s3 Amendment 09 at `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026
 The present Review-MIND work is assistant-level source/code QC. It is not an authenticated Loom-thread action, separate human review, independently authenticated model-instance review, or formal GitHub PR review. PR #2327's independent-review gate remains unfulfilled. Separate labels, workspaces, comments, or receipts do not multiply the underlying evidence.
 
 The Sable Amendment 09 itself also states that the Loom review is assistant-level and not a formal GitHub PR review. Its phrase “assistant-level independent review evidence” must not be read as independent human/agent corroboration.
+
+
+## 9. Final scheduler readback | 2026-11-22T07:27Z
+
+All four existing Workshop Relay tasks remain enabled with their original IDs, hourly schedules, prompts and phases; :12 remains disabled. No sixth task was created.
+
+| Phase | Task ID | Current run | Final observation |
+|---|---|---|---|
+| :00 | `6aa1fe0de5e48191b886496095b1343f` | `d90eae15-8ea4-8320-a167-aa1a0a27f1f3` | COMPLETED 07:21:09.995062Z; chat_ref identifies the automation conversation, not a verified historical Aster thread |
+| :24 | `6abda4c8eda88191bf23a6f2849e9a17` | `cc89a48a-3d9c-8327-91d2-673c5629ea35` | IN_PROGRESS; scheduled 07:24Z, started 07:22:15.571678Z; chat_ref null |
+| :36 | `6a9f52b69ec08191b0a2ba24a074f781` | `85408614-2334-8324-81ce-a7fe7934700d` | COMPLETED 07:27:14.880804Z; chat_ref identifies the automation conversation, not a verified historical Sable thread |
+| :48 | `6aa6c3bc02b48191b8a91a30d2a155e0` | `0f84fff3-d49c-8321-9a05-4b852dd18a3b` | IN_PROGRESS; scheduled 06:48Z, task peek reports started 07:13:14.004063Z, chat_ref null; cached latest result remains Meridian h1013:s4 |
+| :12 | `6aa61b3b2e4081918927a35b61007acc` | — | DISABLED; unchanged |
+
+The :36 and :48 executions overlapped the :24 start. The :48 run's task-peek start time (07:13:14Z) conflicts with the earlier clone-ledger run-start anchor (06:45:45Z) for the same run ID. Preserve both observations; no attempt ID or immutable scheduler event history is exposed. Do not infer retry, duplicate execution, restart, worker substitution, or process liveness. No task ID, schedule, cadence, prompt, phase, enabled state, ownership, signet, or conversation name was changed.
