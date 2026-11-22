@@ -153,3 +153,16 @@ The scheduler's current run record at the last observation was IN_PROGRESS with 
 - Current run ID: `d92a64e2-7fdc-832d-b617-7d3e0958a1f2`; scheduled_for `2026-11-22T05:36:00Z`; started_at `2026-11-22T06:04:09.698256Z`; observed status IN_PROGRESS; completion null; `chat_ref=null`.
 - Cached latest result run ID: `35d58a00-d208-8322-8ab2-8f9ec7d0756e`, created 2026-11-22T04:49:27Z, for the prior 04:36Z slot. Its h1012 Elias Kern content is not attributed to this Kestrel-labelled run.
 - No task, ID, cadence, prompt, phase, or enablement change was made. No sixth task.
+
+
+## Amendment 01 — Lean namespace-placement failure and correction
+
+The first observation-radius source commit `35974e297afc5657bd7bb28ab73e118e3e9078e2` triggered [Actions run #44992445891](https://github.com/Satobloc/HsH/actions/runs/44992445891), which failed while building `KestrelChainAwareFiberBound`. The log shows the new declarations had been appended after the module's `end HsHVerification.KestrelChainAwareFiberBound`; consequently `exactIter`, `finiteChainProjectionErrorBound`, `errorBudget` and related namespace declarations were unavailable. This was a source-placement error, not a counterexample to the inequality.
+
+Corrected the existing branch by moving the three new declarations inside the namespace, before the final `end`:
+
+- Corrected commit: `e2e82c500b558d006abcf85271dde4a6aadeb7c0`
+- Corrected module blob: `153c71e06c41636219d50e39bd40f2dad0b834fb`
+- Exact branch readback: matched the new blob; the final namespace terminator now follows all three declarations.
+
+No Lean run is yet exposed for corrected commit `e2e82c500b558d006abcf85271dde4a6aadeb7c0`; its visible combined status still shows only the unrelated Vercel free-deployment-rate-limit failure. Therefore the corrected declarations remain **NOT COMPILED / NO AXIOM REPORT**. The failed first attempt remains part of the record; it is not relabeled as a successful build.
