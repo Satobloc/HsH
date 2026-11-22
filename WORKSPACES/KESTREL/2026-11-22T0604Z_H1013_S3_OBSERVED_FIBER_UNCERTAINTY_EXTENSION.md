@@ -252,3 +252,16 @@ Mersearch's start guide and all four request files were checked. All four remain
 ## Amendment 05 — corrected-commit Lean run in progress
 
 A new existing-PR workflow run is now exposed for corrected commit `c0ebc000c9fa63d32d825f9fd5347c0e9872f1db`: [Actions #44993217910](https://github.com/Satobloc/HsH/actions/runs/44993217910), job `137118634438`. The job has completed checkout and Lake dependency-manifest generation; Lean 4 compilation is IN_PROGRESS. No success, theorem-specific axiom output or exact-head status is yet available. The run is an existing PR workflow; its checkout mode must be read from the completed job log before describing it as head-only or merge-reference.
+
+
+## Amendment 06 — additive orientation correction
+
+[Actions run #44993217910](https://github.com/Satobloc/HsH/actions/runs/44993217910) reached Lean 4.34.0 but failed at lines 185 and 196. The diagnostic showed that `add_le_add_left` appended the fixed term on the right, while the proof needed to prepend the accumulated path terms. The resulting inequalities had the wrong additive order. This was a proof-script error, not a counterexample to the bound.
+
+The triangle chain now names all three intermediate triangle inequalities explicitly and uses `add_le_add_right` to prepend each fixed term in the required order.
+
+Current existing-branch commit: `faca7c5009617174142edf63193a49651a6abb8c`  
+Current module blob: `260cc86d3966976889f7cb805f1292e45300a6d8`  
+Exact branch readback: confirmed. Source contains no `sorry` or `admit` tokens.
+
+No Actions run is yet exposed for this corrected commit. The new declarations remain **NOT COMPILED / NO VALID AXIOM REPORT**. Run #449932's `sorryAx` output is a failed-elaboration artifact, not an axiom audit.
