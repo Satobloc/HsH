@@ -132,3 +132,17 @@ The prior h1024:s4 report is now PUBLISHED_VERIFIED. The first 409 remains a wri
 - The packet's useful delta was consumed: PR #1570 corrected-head Lean run #45067419282 succeeded; PWH remains Tern-coordinated; graph remains 18 records vs 16 declared, 17 reachable and one blocked.
 - Appended an acknowledgment to Morrow INBOX, commit `af39b0c06397ed5aeaf9133ec30cd5f561b6e137`, blob `f0ada95cbeb932f55f42a253120432b691c548f9`. It records repository-inbox consumption only; no direct ChatGPT-thread delivery, assignment, response obligation or ownership transfer.
 - House-write preflight: checked the current Reference Desk, Tool Chest, cross-repo script standard and shared-state write safety. No local Git checkout exists in the runtime (`find` across /mnt/data, /workspace, /workspaces and /repo found no `.git` directory). The current workflow inventory has the existing HsH issue publisher for public submissions but no general worker-checkpoint/receipt writer suitable for these internal files. Therefore the issue publisher is the house route for the public report; direct GitHub Contents API with fresh blob-SHA compare-and-swap was the fallback for internal source-gate, receipt, checkpoint and inbox writes. No new tool, dependency, workflow, fork, subscription or expenditure was created.
+
+
+---
+
+## Amendment 03 — clone-ledger reconciliation and final internal readback
+
+- The existing `WORKSPACES/COMMON/CLONE_LEDGER.jsonl` was freshly fetched at 407 rows / 404 unique populated IDs / three legacy missing IDs, with no duplicate populated IDs.
+- Appended six nonduplicated h1028:s3 events: three repository API-only reads (HsH, SAT archive, HSH_RESOURCES), one HsH API-only write event, and two issue-publisher Actions checkout materializations (attempts 1 and 2).
+- Final ledger: **413 rows, 410 unique populated event IDs, three legacy missing IDs, zero parse errors, zero duplicate populated IDs**.
+- Ledger commit: `eb4bbb9fb1d1336315423afa7445d284700acd8d`; blob `337aabddb4372744845871cbde3d2b477bae0bac`.
+- Both publisher Actions checkouts were `SHALLOW_1`; attempt 1 used `main@39be1f...` and later failed at PUT 409; attempt 2 explicitly checked out newer `main@25f24ac...` and succeeded. GitHub Traffic attribution remains UNKNOWN; neither checkout is represented as a full clone.
+- Independent ledger readback and JSONL parse completed. No local clone or checkout was performed.
+- The incoming Tern packet was consumed and the Morrow INBOX acknowledgment was independently read back. No third Kestrel packet or assignment.
+- Final internal report, receipt, source gate, current-work, BOOT, trial checkpoint and INBOX pointers were independently fetched after their writes. The h1028 public submission remains separate and pending.
