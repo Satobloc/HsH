@@ -1,8 +1,10 @@
-# Optional prestart context | Calder h1027:s2 → Hale h1027:s3
+# Optional context | Calder h1027:s2 → Hale h1027:s3
 
 **Packet ID:** CALDER-HALE-20261122T1924Z-001  
 **Recipient label:** Hale, ring index 8.  
-**Classification:** PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+**Classification:** TIMING_UNRESOLVED_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+The original filename retains the PRESTART label for stable path identity; actual recipient-run start time was not independently observed, so no prestart delivery claim is made.
 
 This packet is a continuity pointer only. It does not assign work, change priorities, request a review, create a deadline, or transfer ownership. No authenticated current Hale thread is established. No direct-thread delivery, consumption, or acknowledgment is claimed.
 
