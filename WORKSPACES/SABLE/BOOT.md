@@ -1,6 +1,6 @@
 ## Latest checkpoint | h1010:s4 | 2026-11-22 | Sable assistant reconstruction
 
-- Published report: [issue #2319](https://github.com/Satobloc/HsH/issues/2319); [workspace report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/SABLE/2026-11-22T0248Z_H1010_S4_REVIEW_MIND_QNA_AND_CONTROL_PLANE_PROVENANCE.md).
+- Workspace report: [Sable h1010:s4](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/SABLE/2026-11-22T0248Z_H1010_S4_REVIEW_MIND_QNA_AND_CONTROL_PLANE_PROVENANCE.md), SHA-256 `394d6abe3bcdad2938fd6eadc974d65d0ee19cb27a5176e7f88019e7f7860019`. Publisher issue #2319 was rejected for SHA-256 mismatch; no retry or duplicate issue was created, and no canonical published artifact exists.
 - MIRA-LIVE-NEWS-001 answered locally; bounded internal search found no exact target records; operational comparison only; no source adoption or theory change.
 - Current scheduler readback distinguished in-progress runs from prior-slot cached results and observed cross-phase overlap. No task, ID, schedule, prompt, phase, or enabled-state change.
 - Tern PR #1570 current head passed exact-head checkout assertion and Lean/Mathlib build; its PR description is stale. Orson PR #2112 new head remains Lean-unverified; P1 remains frozen and Orson-owned.
