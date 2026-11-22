@@ -2,134 +2,159 @@ import Mathlib
 import HsHVerification.PrecommittedHoldoutAdmission
 
 /-!
-# Uncertainty-robust detector separation
+# Instrument-support robust detector separation
 
-The existing heterogeneous comparison tests exact detector-readout separation.
-The readout contract declares that an uncertainty model exists, but an
-existence flag alone does not say which observations remain possible around a
-nominal detector value.
+This module formalizes one channel of Aldus's existing five-channel typed
+uncertainty ledger: instrument / measurement / calibration support.
 
-This module adds an opt-in, source-addressed, set-valued uncertainty envelope.
-It applies one frozen envelope to both models after their distinct state and
-field carriers have been projected into the same common carrier and passed
-through the same detector operator.
+It does not merge source-semantic alternatives, geometric observation-fiber
+non-identifiability, nuisance/model discrepancy, or dependence/overlap into
+one generic error bar. Those remain distinct obligations. The candidate
+state sets and source-to-common-carrier maps remain the existing model/fiber
+inputs; this module expands only the final detector values by one frozen,
+source-addressed instrument-support map.
 
-The envelope is a possibility set, not a probability distribution, confidence
-region, metric ball, covariance model, or coverage guarantee. Those semantics
-must be supplied and independently checked by the source evidence. No
-numerical or physical fixture is introduced.
+The support map is set-valued. It is not, by itself, a probability
+distribution, confidence region, likelihood, covariance, metric ball, or
+coverage guarantee. Its semantics and scope must be justified by the
+referenced source. No numerical or physical fixture is introduced.
 
-Robust two-sided separation requires at least one H(s)H-possible observation
-that is impossible under every standard-model envelope, and the symmetric
-standard-exclusive observation. This is stronger than exact nominal
-separation: robust separation implies exact separation, but the converse is
-not claimed.
+Two-sided instrument-support robustness requires an observation possible
+under one model's complete state-to-carrier-to-detector composition that is
+impossible under every instrument-support-expanded outcome of the other
+model, in both directions. This implies the existing exact nominal
+detector-level separation; the converse is not claimed.
 
-The typed wrapper binds the uncertainty evidence into the frozen candidate
-family and permits only standard-reference or independent-measurement
-authority classes. Lean does not authenticate those artifacts or prove that
-they implement the supplied envelope function.
+The wrapper binds the support record to the exact frozen readout metadata and
+requires its source evidence to be in the frozen candidate-family lineage
+with standard-reference or independent-measurement authority. These typed
+relations do not authenticate artifact bytes or prove that the source
+implements the supplied set-valued function.
 -/
 
-namespace HsHVerification.UncertaintyRobustSeparation
+namespace HsHVerification.InstrumentSupportRobustSeparation
 
 open HsHVerification.EvidenceGatedAdmission
 open HsHVerification.HeterogeneousReadoutFiberSeparation
+open HsHVerification.MeasurementDomainCompatibility
 open HsHVerification.ModelSelectionPreference
 open HsHVerification.PrecommittedHoldoutAdmission
-open HsHVerification.SharedReadoutFiberSeparation
 
 universe uH uS uHF uSF uCF uP
 
 variable {HState : Type uH} {SState : Type uS}
 variable {HField : Type uHF} {SField : Type uSF}
 variable {CommonField : Type uCF}
-variable {Payload : MeasurementMode → Type uP}
+variable {Payload : HsHVerification.MeasurementDomainCompatibility.MeasurementMode → Type uP}
 
-/-- A source-addressed set-valued uncertainty model for one exact frozen
-    detector-readout contract. The same possible-observation map is applied
-    to both candidate models. Its interpretation and coverage semantics are
-    source obligations, not consequences of this record. -/
-structure FrozenObservationUncertainty
-    (readout : FrozenCommonReadout CommonField Payload) where
+/-- A source-addressed set of possible instrument observations for one exact
+    frozen readout contract. This is only the instrument/measurement support
+    channel; it does not absorb geometric fibers, nuisance discrepancy, or
+    dependence uncertainty. -/
+structure FrozenInstrumentObservationSupport
+    (readout :
+      HsHVerification.SharedReadoutFiberSeparation.FrozenCommonReadout
+        CommonField Payload) where
   evidence : SourceEvidenceRecord
   semantics : NonEmptyText
   scope : NonEmptyText
+  instrumentId : NonEmptyText
+  operatorVersion : NonEmptyText
+  calibrationRecord : NonEmptyText
+  acquisitionUnitMapRecord : NonEmptyText
+  instrumentIdBound : instrumentId.value = readout.instrumentId
+  operatorVersionBound : operatorVersion.value = readout.operatorVersion
+  calibrationRecordBound : calibrationRecord.value = readout.calibrationRecord
+  acquisitionUnitMapRecordBound :
+    acquisitionUnitMapRecord.value = readout.acquisitionUnitMapRecord
   readoutDeclaration : readout.uncertaintyModelDeclared
-  possibleObservations :
+  possibleInstrumentObservations :
     Payload readout.mode → Set (Payload readout.mode)
 
-/-- H(s)H observations reachable after expanding each nominal detector value
-    by the frozen uncertainty model. -/
-def hshUncertaintyExpandedPredictionRegion
+/-- H(s)H's complete detector-readout region expanded only by the declared
+    instrument-support map. The union retains every admissible model state. -/
+def hshInstrumentSupportedPredictionRegion
     (models : HeterogeneousModelPair HState SState HField SField CommonField)
-    (readout : FrozenCommonReadout CommonField Payload)
-    (uncertainty : FrozenObservationUncertainty readout)
+    (readout :
+      HsHVerification.SharedReadoutFiberSeparation.FrozenCommonReadout
+        CommonField Payload)
+    (support : FrozenInstrumentObservationSupport readout)
     (hshStates : Set HState) : Set (Payload readout.mode) :=
   { observation | ∃ hshState ∈ hshStates,
-      observation ∈ uncertainty.possibleObservations
+      observation ∈ support.possibleInstrumentObservations
         (hshDetectorReadoutMap models readout hshState) }
 
-/-- Standard-model observations reachable under the same frozen uncertainty
-    model and detector-readout contract. -/
-def standardUncertaintyExpandedPredictionRegion
+/-- The standard model's complete detector-readout region expanded by the
+    same frozen instrument-support map. -/
+def standardInstrumentSupportedPredictionRegion
     (models : HeterogeneousModelPair HState SState HField SField CommonField)
-    (readout : FrozenCommonReadout CommonField Payload)
-    (uncertainty : FrozenObservationUncertainty readout)
+    (readout :
+      HsHVerification.SharedReadoutFiberSeparation.FrozenCommonReadout
+        CommonField Payload)
+    (support : FrozenInstrumentObservationSupport readout)
     (standardStates : Set SState) : Set (Payload readout.mode) :=
   { observation | ∃ standardState ∈ standardStates,
-      observation ∈ uncertainty.possibleObservations
+      observation ∈ support.possibleInstrumentObservations
         (standardDetectorReadoutMap models readout standardState) }
 
-/-- H(s)H-exclusive observations after uncertainty expansion. -/
-def hshUncertaintyRobustExclusivePredictions
+/-- H(s)H-exclusive observations after instrument-support expansion. -/
+def hshInstrumentSupportExclusivePredictions
     (models : HeterogeneousModelPair HState SState HField SField CommonField)
-    (readout : FrozenCommonReadout CommonField Payload)
-    (uncertainty : FrozenObservationUncertainty readout)
+    (readout :
+      HsHVerification.SharedReadoutFiberSeparation.FrozenCommonReadout
+        CommonField Payload)
+    (support : FrozenInstrumentObservationSupport readout)
     (hshStates : Set HState) (standardStates : Set SState) :
     Set (Payload readout.mode) :=
   { observation |
-      observation ∈ hshUncertaintyExpandedPredictionRegion
-        models readout uncertainty hshStates ∧
-      observation ∉ standardUncertaintyExpandedPredictionRegion
-        models readout uncertainty standardStates }
+      observation ∈ hshInstrumentSupportedPredictionRegion
+        models readout support hshStates ∧
+      observation ∉ standardInstrumentSupportedPredictionRegion
+        models readout support standardStates }
 
-/-- Standard-exclusive observations after uncertainty expansion. -/
-def standardUncertaintyRobustExclusivePredictions
+/-- Standard-exclusive observations after the same instrument-support
+    expansion. -/
+def standardInstrumentSupportExclusivePredictions
     (models : HeterogeneousModelPair HState SState HField SField CommonField)
-    (readout : FrozenCommonReadout CommonField Payload)
-    (uncertainty : FrozenObservationUncertainty readout)
+    (readout :
+      HsHVerification.SharedReadoutFiberSeparation.FrozenCommonReadout
+        CommonField Payload)
+    (support : FrozenInstrumentObservationSupport readout)
     (hshStates : Set HState) (standardStates : Set SState) :
     Set (Payload readout.mode) :=
   { observation |
-      observation ∈ standardUncertaintyExpandedPredictionRegion
-        models readout uncertainty standardStates ∧
-      observation ∉ hshUncertaintyExpandedPredictionRegion
-        models readout uncertainty hshStates }
+      observation ∈ standardInstrumentSupportedPredictionRegion
+        models readout support standardStates ∧
+      observation ∉ hshInstrumentSupportedPredictionRegion
+        models readout support hshStates }
 
-/-- Two-sided robust separation requires exclusive outcomes that survive the
-    declared uncertainty expansion in both directions. -/
-def heterogeneousUncertaintyRobustTwoSidedSeparation
+/-- Two-sided instrument-support robustness: each model has at least one
+    detector observation excluded by every support-expanded outcome of the
+    other model. -/
+def heterogeneousInstrumentSupportRobustTwoSidedSeparation
     (models : HeterogeneousModelPair HState SState HField SField CommonField)
-    (readout : FrozenCommonReadout CommonField Payload)
-    (uncertainty : FrozenObservationUncertainty readout)
+    (readout :
+      HsHVerification.SharedReadoutFiberSeparation.FrozenCommonReadout
+        CommonField Payload)
+    (support : FrozenInstrumentObservationSupport readout)
     (hshStates : Set HState) (standardStates : Set SState) : Prop :=
-  (hshUncertaintyRobustExclusivePredictions
-    models readout uncertainty hshStates standardStates).Nonempty ∧
-  (standardUncertaintyRobustExclusivePredictions
-    models readout uncertainty hshStates standardStates).Nonempty
+  (hshInstrumentSupportExclusivePredictions
+    models readout support hshStates standardStates).Nonempty ∧
+  (standardInstrumentSupportExclusivePredictions
+    models readout support hshStates standardStates).Nonempty
 
-/-- An H(s)H-exclusive uncertainty-expanded observation implies an exact
-    nominal detector value that is outside every standard nominal readout.
-    The same uncertainty map is essential to this implication. -/
-theorem hshRobustExclusive_nonempty_implies_nominalExclusive
+/-- H(s)H instrument-support exclusivity implies an exact nominal detector
+    value outside the standard nominal readout region. -/
+theorem hshInstrumentSupportExclusive_nonempty_implies_nominalExclusive
     (models : HeterogeneousModelPair HState SState HField SField CommonField)
-    (readout : FrozenCommonReadout CommonField Payload)
-    (uncertainty : FrozenObservationUncertainty readout)
+    (readout :
+      HsHVerification.SharedReadoutFiberSeparation.FrozenCommonReadout
+        CommonField Payload)
+    (support : FrozenInstrumentObservationSupport readout)
     (hshStates : Set HState) (standardStates : Set SState)
     (h :
-      (hshUncertaintyRobustExclusivePredictions
-        models readout uncertainty hshStates standardStates).Nonempty) :
+      (hshInstrumentSupportExclusivePredictions
+        models readout support hshStates standardStates).Nonempty) :
     (hshDetectorExclusivePredictions
       models readout hshStates standardStates).Nonempty := by
   rcases h with ⟨observation, hHsh, hNotStandard⟩
@@ -143,16 +168,17 @@ theorem hshRobustExclusive_nonempty_implies_nominalExclusive
       ⟨standardState, hStandardMem, by
         simpa [hReadoutEq.symm] using hPossible⟩
 
-/-- The symmetric implication for a standard-exclusive
-    uncertainty-expanded observation. -/
-theorem standardRobustExclusive_nonempty_implies_nominalExclusive
+/-- The symmetric standard-exclusive implication. -/
+theorem standardInstrumentSupportExclusive_nonempty_implies_nominalExclusive
     (models : HeterogeneousModelPair HState SState HField SField CommonField)
-    (readout : FrozenCommonReadout CommonField Payload)
-    (uncertainty : FrozenObservationUncertainty readout)
+    (readout :
+      HsHVerification.SharedReadoutFiberSeparation.FrozenCommonReadout
+        CommonField Payload)
+    (support : FrozenInstrumentObservationSupport readout)
     (hshStates : Set HState) (standardStates : Set SState)
     (h :
-      (standardUncertaintyRobustExclusivePredictions
-        models readout uncertainty hshStates standardStates).Nonempty) :
+      (standardInstrumentSupportExclusivePredictions
+        models readout support hshStates standardStates).Nonempty) :
     (standardDetectorExclusivePredictions
       models readout hshStates standardStates).Nonempty := by
   rcases h with ⟨observation, hStandard, hNotHsh⟩
@@ -166,137 +192,141 @@ theorem standardRobustExclusive_nonempty_implies_nominalExclusive
       ⟨hshState, hHshMem, by
         simpa [hReadoutEq.symm] using hPossible⟩
 
-/-- Robust two-sided separation necessarily entails the existing exact
-    detector-level two-sided separation. The converse is not asserted. -/
-theorem uncertaintyRobustSeparation_implies_nominalSeparation
+/-- Instrument-support-robust two-sided separation implies the existing
+    exact nominal detector-level separation. The converse is not asserted. -/
+theorem instrumentSupportRobustSeparation_implies_nominalSeparation
     (models : HeterogeneousModelPair HState SState HField SField CommonField)
-    (readout : FrozenCommonReadout CommonField Payload)
-    (uncertainty : FrozenObservationUncertainty readout)
+    (readout :
+      HsHVerification.SharedReadoutFiberSeparation.FrozenCommonReadout
+        CommonField Payload)
+    (support : FrozenInstrumentObservationSupport readout)
     (hshStates : Set HState) (standardStates : Set SState)
-    (h : heterogeneousUncertaintyRobustTwoSidedSeparation
-      models readout uncertainty hshStates standardStates) :
+    (h : heterogeneousInstrumentSupportRobustTwoSidedSeparation
+      models readout support hshStates standardStates) :
     heterogeneousDetectorLevelTwoSidedSeparation
       models readout hshStates standardStates := by
   exact
-    ⟨hshRobustExclusive_nonempty_implies_nominalExclusive
-        models readout uncertainty hshStates standardStates h.1,
-      standardRobustExclusive_nonempty_implies_nominalExclusive
-        models readout uncertainty hshStates standardStates h.2⟩
+    ⟨hshInstrumentSupportExclusive_nonempty_implies_nominalExclusive
+        models readout support hshStates standardStates h.1,
+      standardInstrumentSupportExclusive_nonempty_implies_nominalExclusive
+        models readout support hshStates standardStates h.2⟩
 
-/-- An empirical precommitted comparison with an explicit uncertainty
-    envelope. The envelope's evidence must be present in the frozen candidate
-    family, and its declared authority must be a standard reference or an
-    independent measurement. The base wrapper still supplies the packet,
-    candidate, common-carrier, detector, calibration, holdout and threshold
-    bindings. -/
-structure UncertaintyRobustPrecommittedComparison
+/-- An empirical precommitted comparison with an explicit instrument-support
+    model. Its source evidence must be part of the frozen family lineage,
+    match the declared scope, and carry standard-reference or
+    independent-measurement authority. -/
+structure InstrumentSupportRobustPrecommittedComparison
     (HState : Type uH) (SState : Type uS)
     (HField : Type uHF) (SField : Type uSF)
     (CommonField : Type uCF)
-    (Payload : MeasurementMode → Type uP) where
+    (Payload :
+      HsHVerification.MeasurementDomainCompatibility.MeasurementMode → Type uP) where
   base : PrecommittedHeterogeneousModelComparison
     HState SState HField SField CommonField Payload
-  uncertainty : FrozenObservationUncertainty
+  instrumentSupport : FrozenInstrumentObservationSupport
     base.comparison.packet.packet.readout.contract
-  uncertaintyEvidenceInFamily :
-    uncertainty.evidence ∈ base.family.evidenceLineage
-  uncertaintyEvidenceAuthority :
-    uncertainty.evidence.authority = EvidenceAuthority.standardReference ∨
-    uncertainty.evidence.authority = EvidenceAuthority.independentMeasurement
+  instrumentSupportEvidenceInFamily :
+    instrumentSupport.evidence ∈ base.family.evidenceLineage
+  instrumentSupportEvidenceAuthority :
+    instrumentSupport.evidence.authority = EvidenceAuthority.standardReference ∨
+    instrumentSupport.evidence.authority = EvidenceAuthority.independentMeasurement
+  instrumentSupportEvidenceScopeMatches :
+    instrumentSupport.evidence.claimScope.value = instrumentSupport.scope.value
   robustSeparation :
-    heterogeneousUncertaintyRobustTwoSidedSeparation
+    heterogeneousInstrumentSupportRobustTwoSidedSeparation
       base.comparison.binding.models
       base.comparison.packet.packet.readout.contract
-      uncertainty
+      instrumentSupport
       base.comparison.binding.hshStates.value
       base.comparison.binding.standardStates.value
 
-/-- The uncertainty-robust wrapper retains every existing precommitted
-    candidate, source, readout, packet, calibration, holdout and outcome gate. -/
-theorem uncertaintyRobustAdmission_preserves_precommittedEvidence
-    (comparison : UncertaintyRobustPrecommittedComparison
+/-- The instrument-support wrapper retains all existing precommitted
+    candidate, source, packet, readout, calibration, holdout, and outcome
+    evidence. -/
+theorem instrumentSupportRobustAdmission_preserves_precommittedEvidence
+    (comparison : InstrumentSupportRobustPrecommittedComparison
       HState SState HField SField CommonField Payload) :
     PrecommittedComparisonEvidence comparison.base :=
   precommittedComparison_has_evidence comparison.base
 
-/-- An admitted uncertainty-robust comparison necessarily retains the
-    exact nominal two-sided detector separation as a weaker consequence. -/
-theorem uncertaintyRobustAdmission_implies_nominalSeparation
-    (comparison : UncertaintyRobustPrecommittedComparison
+/-- An admitted instrument-support-robust comparison necessarily retains
+    the exact nominal two-sided detector separation as a weaker consequence. -/
+theorem instrumentSupportRobustAdmission_implies_nominalSeparation
+    (comparison : InstrumentSupportRobustPrecommittedComparison
       HState SState HField SField CommonField Payload) :
     heterogeneousDetectorLevelTwoSidedSeparation
       comparison.base.comparison.binding.models
       comparison.base.comparison.packet.packet.readout.contract
       comparison.base.comparison.binding.hshStates.value
       comparison.base.comparison.binding.standardStates.value :=
-  uncertaintyRobustSeparation_implies_nominalSeparation
+  instrumentSupportRobustSeparation_implies_nominalSeparation
     comparison.base.comparison.binding.models
     comparison.base.comparison.packet.packet.readout.contract
-    comparison.uncertainty
+    comparison.instrumentSupport
     comparison.base.comparison.binding.hshStates.value
     comparison.base.comparison.binding.standardStates.value
     comparison.robustSeparation
 
-/-- Two candidate tie-breaks share an uncertainty-evaluation context only
-    when their precommitted contexts and the complete uncertainty records,
+/-- Two candidate tie-breaks share the instrument-support evaluation context
+    only when their precommitted contexts and complete support records,
     including the set-valued functions, are identical. -/
-def sameFrozenUncertaintyEvaluationContext
-    (a b : UncertaintyRobustPrecommittedComparison
+def sameFrozenInstrumentSupportContext
+    (a b : InstrumentSupportRobustPrecommittedComparison
       HState SState HField SField CommonField Payload) : Prop :=
   sameFrozenEvaluationContext a.base b.base ∧
-  a.uncertainty = b.uncertainty
+  a.instrumentSupport = b.instrumentSupport
 
-/-- A robust tie-break requires both precommitted evidence records, the same
-    frozen uncertainty model, and the existing empirical-equivalence,
-    human-preference and complexity conditions. -/
-def uncertaintyRobustIntelligibilityTieBreak
+/-- A robust tie-break requires the same frozen instrument-support context
+    as well as the existing empirical-equivalence, human-preference and
+    complexity conditions. -/
+def instrumentSupportRobustIntelligibilityTieBreak
     (empiricallyEquivalent : Candidate → Candidate → Prop)
     (humanPrefers : Candidate → Candidate → Prop)
-    (a b : UncertaintyRobustPrecommittedComparison
+    (a b : InstrumentSupportRobustPrecommittedComparison
       HState SState HField SField CommonField Payload) : Prop :=
-  sameFrozenUncertaintyEvaluationContext a b ∧
+  sameFrozenInstrumentSupportContext a b ∧
   precommittedHeterogeneousIntelligibilityTieBreak
     empiricallyEquivalent humanPrefers a.base b.base
 
-theorem uncertaintyRobustTieBreak_requires_same_uncertainty_model
+theorem instrumentSupportRobustTieBreak_requires_same_support_model
     (empiricallyEquivalent : Candidate → Candidate → Prop)
     (humanPrefers : Candidate → Candidate → Prop)
-    (a b : UncertaintyRobustPrecommittedComparison
+    (a b : InstrumentSupportRobustPrecommittedComparison
       HState SState HField SField CommonField Payload)
-    (h : uncertaintyRobustIntelligibilityTieBreak
+    (h : instrumentSupportRobustIntelligibilityTieBreak
       empiricallyEquivalent humanPrefers a b) :
-    a.uncertainty = b.uncertainty :=
+    a.instrumentSupport = b.instrumentSupport :=
   h.1.2
 
-theorem uncertaintyRobustTieBreak_requires_same_frozen_evaluation_context
+theorem instrumentSupportRobustTieBreak_requires_same_frozen_evaluation_context
     (empiricallyEquivalent : Candidate → Candidate → Prop)
     (humanPrefers : Candidate → Candidate → Prop)
-    (a b : UncertaintyRobustPrecommittedComparison
+    (a b : InstrumentSupportRobustPrecommittedComparison
       HState SState HField SField CommonField Payload)
-    (h : uncertaintyRobustIntelligibilityTieBreak
+    (h : instrumentSupportRobustIntelligibilityTieBreak
       empiricallyEquivalent humanPrefers a b) :
     sameFrozenEvaluationContext a.base b.base :=
   h.1.1
 
-theorem uncertaintyRobustTieBreak_requires_both_precommitted_evidence
+theorem instrumentSupportRobustTieBreak_requires_both_precommitted_evidence
     (empiricallyEquivalent : Candidate → Candidate → Prop)
     (humanPrefers : Candidate → Candidate → Prop)
-    (a b : UncertaintyRobustPrecommittedComparison
+    (a b : InstrumentSupportRobustPrecommittedComparison
       HState SState HField SField CommonField Payload)
-    (h : uncertaintyRobustIntelligibilityTieBreak
+    (h : instrumentSupportRobustIntelligibilityTieBreak
       empiricallyEquivalent humanPrefers a b) :
     PrecommittedComparisonEvidence a.base ∧
       PrecommittedComparisonEvidence b.base :=
   tieBreak_requires_both_precommitted_evidence
     empiricallyEquivalent humanPrefers a.base b.base h.2
 
-#print axioms hshRobustExclusive_nonempty_implies_nominalExclusive
-#print axioms standardRobustExclusive_nonempty_implies_nominalExclusive
-#print axioms uncertaintyRobustSeparation_implies_nominalSeparation
-#print axioms uncertaintyRobustAdmission_preserves_precommittedEvidence
-#print axioms uncertaintyRobustAdmission_implies_nominalSeparation
-#print axioms uncertaintyRobustTieBreak_requires_same_uncertainty_model
-#print axioms uncertaintyRobustTieBreak_requires_same_frozen_evaluation_context
-#print axioms uncertaintyRobustTieBreak_requires_both_precommitted_evidence
+#print axioms hshInstrumentSupportExclusive_nonempty_implies_nominalExclusive
+#print axioms standardInstrumentSupportExclusive_nonempty_implies_nominalExclusive
+#print axioms instrumentSupportRobustSeparation_implies_nominalSeparation
+#print axioms instrumentSupportRobustAdmission_preserves_precommittedEvidence
+#print axioms instrumentSupportRobustAdmission_implies_nominalSeparation
+#print axioms instrumentSupportRobustTieBreak_requires_same_support_model
+#print axioms instrumentSupportRobustTieBreak_requires_same_frozen_evaluation_context
+#print axioms instrumentSupportRobustTieBreak_requires_both_precommitted_evidence
 
-end HsHVerification.UncertaintyRobustSeparation
+end HsHVerification.InstrumentSupportRobustSeparation
