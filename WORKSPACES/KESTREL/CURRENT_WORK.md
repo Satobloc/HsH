@@ -1093,3 +1093,8 @@ The SAT-O1 and Blockwave equations previously displayed as “verbatim” were n
 ### Current Lean run — 2026-11-22
 
 Corrected commit `c0ebc000c9fa63d32d825f9fd5347c0e9872f1db` now has Actions run [#44993217910](https://github.com/Satobloc/HsH/actions/runs/44993217910), job `137118634438`. Lake manifest completed; Lean compilation is IN_PROGRESS. No success or theorem-specific axiom report yet. See the h1013 report/receipt before claiming verification.
+
+
+### Current Lean submission
+
+Existing-branch commit `faca7c5009617174142edf63193a49651a6abb8c` is under [Actions run #44993559061](https://github.com/Satobloc/HsH/actions/runs/44993559061). The new explicit `add_le_add_right` triangle proof is committed; build status is pending. No theorem success or axiom report yet.
