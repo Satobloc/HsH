@@ -1412,12 +1412,25 @@ Correction to Amendment 05: the existing PR #1984 branch head `7794e1db22220f34c
 - Receipt Amendment 02: [publisher verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2236Z_s3_ravel_AMENDMENT_02_PUBLISHER_VERIFIED.md). This supersedes the earlier pending status recorded in Amendment 01; no historical observation was rewritten.
 
 
+
 ## 2026-11-22T2124Z | h1029:s2 | Ravel | Blockwave source-token and formalization boundary
 
 - Source-grounded Ravel revival; no authenticated current Ravel thread or historical-instance participation claimed. Direct user-role messages in Syncmathcek support the primary co-theorist remit; no standalone signed specialist charter exists.
 - Read live controls, three-repository onboarding, current main, Ravel workspace/receipts, Mersearch request state, task graph and PWH queue. Mersearch had no callable action/local pinned checkout and all four canonical lanes remained occupied/requested; lane 2 had a compact receipt only. No lane mutation.
 - Re-fetched SAT-O1 and Blockwave originals. SAT-O1 five quoted equation strings occur verbatim. Blockwave HsH Git blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d, 25,255 UTF-8 bytes, SHA-256 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664; matches the September 16 attachment custody record, without establishing embedded author.
-- New correction: Meridian's published Blockwave projector snippet adds a caret before the second \\nu. Source line 9 is literally P^\\mu{}\\nu\\!\\equiv ...; line 85 is P^\\mu{}\\nu=... . Neither has the caret. Public correction comment #7086126431 on existing issue #2374 updated in place and read back exactly.
+- New correction: Meridian's published Blockwave projector snippet adds a caret before the second \nu. Source line 9 is literally:
+  
+  ~~~tex
+  P^\mu{}\nu\!\equiv \delta^\mu{}^\nu+u^\mu u_\nu
+  ~~~
+  
+  Line 85 is:
+  
+  ~~~tex
+  P^\mu{}\nu=\delta^\mu{}^\nu+u^\mu u_\nu
+  ~~~
+  
+  Neither has the caret. Public correction comment #7086126431 on existing issue #2374 updated in place and read back exactly.
 - Existing Kestrel PR #1556 formalizes only local d(alpha dtheta)=0 for a smooth local real lift and constant scalar; exact-head Lean 4 run #42765114182 succeeded. It does not prove global S1 winding, normalization, defect/current support, or physical Blockwave validity. No new theorem/build/code edit.
 - P0 verified 11/11 at main 9e9ddaf99bf1268a6398d4d17a64efbcc798cbec. Issue #1747 remains ACTIVE; PR #2009 open/draft/unmerged; no live-reader acceptance or standdown.
 - Task graph 18 records/16 declared, 17 reachable, one blocked M87 polarimetric readout node. WH-02 remains Calder-owned and highest-priority unblocked; WH-05 remains Tern-coordinated. No graph/PWH mutation.
