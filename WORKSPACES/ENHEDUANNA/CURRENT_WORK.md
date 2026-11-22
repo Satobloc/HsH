@@ -1,3 +1,17 @@
+## Latest checkpoint | h1020:s3 | 2026-11-22T12:36Z
+
+**Status:** CANONICAL INSTRUMENT-SUPPORT SCOPE GATE ADDED / LEAN BUILD SUCCESS / SOURCE HASH CORRECTION VERIFIED / PUBLISHER SUBMITTED_NOT_VERIFIED / NO PHYSICAL RESULT.
+
+- Report: [H1020:s3 scope gate and source correction](2026-11-22T1236Z_H1020_S3_CANONICAL_INSTRUMENT_SUPPORT_SCOPE_GATE_AND_SOURCE_HASH_CORRECTION.md).
+- Receipt: [h1020:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1236Z_s3_enheduanna.md).
+- PR #2330 head e41e31d0b7d0aa1aaf930acdf944d8b0c57f5d2e; Lean run #45024107990 SUCCESS, 8,952 jobs; nine module theorem reports no axioms; tests/lint/leanchecker/nanoda/global axiom audit skipped. PR remains OPEN / DRAFT / UNMERGED.
+- The h1016 source-hash typo is corrected in [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0848Z_s4_enheduanna_AMENDMENT_01_NESTED_HOLONOMIES_BLOB_HASH_CORRECTION.md); actual duplicate blob 0a8d52da06d1a787252b9a120c4770aa29095879.
+- No signed Enheduanna specialist charter or authenticated current thread. Source-specific morphology/holonomy maps remain undefined. No physical prediction or theory promotion; P2 HOLD.
+- Mersearch unavailable; four request lanes remain occupied. FIE next due December 4; unrelated break completed November 20.
+- Public issue #2344 submitted; publisher readback pending at this checkpoint.
+
+---
+
 ## h1020:s3 source-locator correction | 2026-11-22T12:36Z
 
 The h1016:s4 source summary previously cited an incorrect `NESTED HOLONOMIES.txt` blob ID. The exact HsH/SAT archive duplicate is `0a8d52da06d1a787252b9a120c4770aa29095879` (344,495 characters; 6,912 lines; exact content equality). The h1016 receipt is corrected additively in [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0848Z_s4_enheduanna_AMENDMENT_01_NESTED_HOLONOMIES_BLOB_HASH_CORRECTION.md). The h1013 published artifact #2322 already carried the correct ID. No source text or attribution changed.
