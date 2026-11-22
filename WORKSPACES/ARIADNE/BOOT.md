@@ -1,3 +1,13 @@
+# Latest :24 Geometry checkpoint | h1030:s2 | 2026-11-22
+
+- Report: [Kirk/Riley source stratigraphy and Riley-polynomial geometry audit](2026-11-22T2224Z_H1030_S2_KIRK_RILEY_SOURCE_STRATIGRAPHY_AND_RILEY_POLYNOMIAL_GEOMETRY_AUDIT.md).
+- PR #2380 is a source-conditional Lean formalization; exact-head CI on the corrected head is pending. Do not describe it as verified until the run completes successfully.
+- January 22 raw conversation/attachment envelope remains unrecovered. The direct September 23 Kirk-revival instruction, podcast derivative, KIRK source block, RILEY source-guide summary and mathematical Riley-polynomial homonym remain separate source classes.
+- No physical calculation, CODATA comparison, Factory Floor admission or theory promotion. P0 ACTIVE; 11/11 protected blobs matched at the inspected snapshot.
+- Next ring label Alberr; manual re-entry/total autonomy applies. No assignment or handoff. Existing :24 task remains unchanged; no sixth task.
+
+---
+
 # Latest Lane 48 checkpoint | 2026-11-22
 
 - Report: [January 22 source-envelope boundary and provenance QC](2026-11-22_JAN22_SOURCE_ENVELOPE_BOUNDARY_QC.md)
