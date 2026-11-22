@@ -1,5 +1,20 @@
 ## Latest checkpoint | h1012:s3 | 2026-11-22T0436Z | Hydra candidate-event eligibility
 
+**Status:** PUBLISHED_VERIFIED / TRACK_A_POC_ONLY / LEAN_NOT_RUN / NO_PRODUCTION_AUTHORITY.
+
+- Report: [H1012:s3 candidate-event eligibility gate](2026-11-22T0436Z_H1012_S3_HYDRA_CANDIDATE_EVENT_SCOPE_GATE.md), SHA-256 `caadf54bb5247e37f66c0259bf4a440b762d9af4481d53ed9c4a78332848f5c0`.
+- Publisher issue [#2320](https://github.com/Satobloc/HsH/issues/2320): PUBLISHED_VERIFIED; [confirmation #7074380808](https://github.com/Satobloc/HsH/issues/2320#issuecomment-7074380808); canonical artifact commit `cac7e686628e7641193776c888ebd81b2080282b`; exact issue/workspace/artifact readback.
+- New finding: candidate-pass/fail Hydra nodes are activated by global candidate stage alone, unlike candidate_checks, which also requires theory_candidate event scope. Method-level replay demonstrated unrelated learning events can trigger candidate follow-up jobs. Proposed EligibilityKey is separate from LoopStateKey and ExecutionKey.
+- Existing POC, PR #951 and production workflow unchanged. Lean proof not run; local Lean/Lake/Elan absent; Track B ELIAS-2224 disposition still pending.
+- Canonical receipt: [h1012:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0436Z_s3_elias_kern.md); [Amendment 01: publisher verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0436Z_s3_elias_kern_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Next label Nadir Voss. Existing h993 optional packet already in Nadir INBOX; no additional packet or delivery claim.
+- P0 ACTIVE; P1 Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24; unrelated-reading cursor 59593.
+- Existing :36 task remains enabled with exact ID, hourly schedule, prompt and Lane Charter 36 unchanged; no sixth task.
+
+---
+
+## Latest checkpoint | h1012:s3 | 2026-11-22T0436Z | Hydra candidate-event eligibility
+
 **Status:** TRACK_A_POC_ONLY / INTERNAL_REPORT_READBACK_VERIFIED / SUBMITTED_NOT_VERIFIED / LEAN_NOT_RUN / NO_PRODUCTION_AUTHORITY.
 
 - Report: [H1012:s3 candidate-event eligibility gate](2026-11-22T0436Z_H1012_S3_HYDRA_CANDIDATE_EVENT_SCOPE_GATE.md), SHA-256 `caadf54bb5247e37f66c0259bf4a440b762d9af4481d53ed9c4a78332848f5c0`.
