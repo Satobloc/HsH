@@ -1125,3 +1125,15 @@ Existing-branch commit `faca7c5009617174142edf63193a49651a6abb8c` is under [Acti
 ### Detector-space typing boundary
 
 The new observed-fiber theorem places observations in the same final metric space (X_n) as exact chain outputs. If real detector data live in a distinct (D), a sourced readout map (R_n:X_n\to D) must be an explicit final stage with units, metric, calibration and propagated error; endpoint radii must be in (D)'s metric. No physical readout map is currently supplied.
+
+
+## h1025:s0 | 2026-11-22T17:00Z | Kelvin interstitial geometry and Blockwave source fidelity
+
+- Canonical receipt: [h1025:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1700Z_s0_kestrel.md), blob `4526223ef894915f65c1f349ca77990ab7d828b5`.
+- Additive correction: [Amendment 01](2026-11-22T1700Z_H1025_S0_SOURCE_FIDELITY_AMENDMENT_01.md), blob `0112dceaef6a77cce96b87d12dd9ee6476ce7cb4`.
+- Existing publisher issue #2360 was rejected for SHA-256 mismatch; workflow is `issues.opened` only, no retry/dispatch path. No second issue, direct artifact write, or publisher bypass. Status `SUBMITTED_NOT_VERIFIED / PUBLISHER_REJECTED_SHA256 / NO_PUBLISHED_SUBMISSION_ARTIFACT`.
+- Corrected source chronology: June 23 direct message `40d0ac8c-2274-462a-92ea-da1d848bc5a5` is 11:06:21.915729Z, not the 17:34:58.992Z stated in issue #2360.
+- Corrected CI scope: PR #1135 run #41164589389 and PR #2323 run #44993559061 are merge-reference builds, not exact-head.
+- Preserved the June 23 two-parabolic-arc/Kelvin candidate, July 11 Electrogravity/Interbraid hypothesis, SAT-O1 1D centerline/4D-worldtube prose gap, Blockwave 2-form worldsheet current, local smooth-phase F=0 condition, and compact-phase holonomy normalization requirement.
+- No new Lean build, physical calculation, CODATA, equation correction, theory promotion, or paper-gate advancement. Next cursor: source-defined thickening and worldtube/worldsheet/timesheet maps; channel and medium-response maps.
+- Tern INBOX slot-label reconciliation is repository-only; no direct-thread delivery or acknowledgment. Meridian successor remains P0-protected; no handoff or assignment.
