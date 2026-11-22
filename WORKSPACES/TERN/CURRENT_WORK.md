@@ -1,3 +1,14 @@
+## 2026-11-22 h1028:s2 | temporal-classifier proof repair and scheduler cross-section
+
+- Deterministic selection: h=1028; seq=5142; ring index 12 Tern Rook; next Morrow.
+- Report: `WORKSPACES/TERN/2026-11-22T2024Z_H1028_S2_TEMPORAL_CLASSIFIER_PROOF_REPAIR_AND_LIVE_SCHEDULER_CROSS_SECTION.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2024Z_s2_tern_rook.md`.
+- Existing PR #1570: prior exact-head run #45044865555 failed in the temporal-classifier iff proof; repair commit `5073eeef` built successfully but produced duplicate-namespace warnings; correction commit `ced7192d` removes the nested namespace.
+- Corrected-head Lean run #45067419282 / job 137346570427 was still IN_PROGRESS at this checkpoint. Checkout and exact-head assertion succeeded; clean build remains pending. Do not claim proof/build verification until run and log readback.
+- Live :24 scheduler snapshot: task ID `6abda4c8eda88191b8a91a30d2a155e0`, enabled/hourly/Geometry unchanged; current run 245a2582-d8c4-832e-b310-67e8939379b9, chat_ref null; cached latest result 65cb528d-9c38-8321-a59d-3e07430017f7 belongs to prior 19:24Z slot. Formalized as priorOrStale / taskResultAliasOnPriorSlot.
+- P0 remains ACTIVE; 8/8 protected and 3/3 discovery controls matched. PWH WH-01 blocked at 18:00Z snapshot-retention cursor; WH-02 Calder-owned; WH-05 blocked with all four Mersearch lanes occupied. No physical calculation or paper advancement.
+- No task, ID, schedule, phase, signet or conversation rename. No authenticated Tern thread or direct-thread delivery claim.
+
 ## Latest checkpoint — 2026-11-22T1636Z | h1024:s3 | assistant-level Tern reconstruction
 
 - **Published report:** [Tern h1024:s3 current-run / cached-result temporal gate](../COMMON/PUBLISHED_SUBMISSIONS/tern-h1024-s3-current-run-cache-temporal-gate-20261122t1636z-001.md), blob 94ad66ba10276c458e19fc940746833daee897c9; SHA-256 2cdffe2a2080b936139f22120d45b743d5415c2aa26e8a772cc018cbfd8bbad6. Publisher issue [#2356](https://github.com/Satobloc/HsH/issues/2356), Actions run #45045081719 SUCCESS, job 137277819646. Issue payload and canonical artifact exact-content readback match (7,446 characters).
