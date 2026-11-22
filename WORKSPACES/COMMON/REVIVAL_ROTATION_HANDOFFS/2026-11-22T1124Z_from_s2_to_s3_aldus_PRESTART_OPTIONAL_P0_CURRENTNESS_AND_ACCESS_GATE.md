@@ -35,3 +35,15 @@ The current Lane 24 capsule remains P0-HOLD / Cycle 08/08 COMPLETE. No Cycle 09 
 ## Succession
 
 Aldus is the next deterministic ring label (index 6). The existing :36 Workshop Relay task is enabled and its next scheduled run is 11:36Z. This packet is optional pre-start context only. No direct-thread delivery, consumption, acknowledgment, or comprehension is claimed.
+
+## Amendment 01 - final main/PR readback, 2026-11-22 11:29Z
+
+This supersedes the earlier 11:20Z comparison values above while preserving that earlier snapshot.
+
+- Final main at this read: `4f1621154e8eb8d9c12626e3ce91b91075c11e11`.
+- The only commit after the 11:20Z main snapshot was another automatic refresh of `PUBLIC_SITE/generated/discovery.json`.
+- All eight protected Paper A/B source and presentation-control objects were fetched again at final main and still match their pinned Git blob IDs (8/8).
+- PR #2009 remains OPEN / DRAFT / UNMERGED. Final comparison: 3 PR commits ahead and 4,097 main-side commits beyond the merge base. Exact PR-head Actions runs: 0. Formal reviews: 0. GitHub reports `mergeable=false` at this read; the field is volatile and is not acceptance.
+- The append-only final currentness note is [issue #1747 comment #7078531272](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7078531272), exact 1,051-character readback verified, SHA-256 `7d3d38bc035036b99c6e8ee6fdcff0c2355ac187b5a15d3d5bd45786dbae8f88`.
+
+P0 remains ACTIVE. No live route acceptance, independent browser verification, deployment, source repair, merge, rebase, or standdown was established.
