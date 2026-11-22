@@ -110,10 +110,10 @@ Next deterministic label is Hale (index 8). The optional handoff is repository-o
 **Return cursor:** P0 live-reader acceptance or explicit standdown. After release, recover original SAT-O/Blockwave sources, define typed worldtube/timesheet/medium projection and composition maps, then select one real measured system with raw data, provenance, units, calibration, covariance and holdout before calculation.
 
 
-## Amendment 01 — post-write final-main readback
+## Amendment 01 — first post-write main and readback snapshot
 
-- Final main after all continuity writes: `de54fe69469ca2cb52503d22b0353bd587f931e3`.
-- That final commit changed only `PUBLIC_SITE/generated/discovery.json`; it did not modify the protected source/control files.
-- Re-fetched and matched all 8 protected Paper A/B objects and all 3 discovery generator/test/policy source-control objects: 11/11 exact pinned Git blob matches.
-- Exact final readback blobs: report `d0edb5838a982b3178cfdda1f3bf9a621f246fb4`; receipt `cebfdac093ca810e994ca31b8abc702ce06150d0`; optional Hale packet `e269460f52b54e62d36dcdd45772675e614ef65c`; Calder BOOT `37e1a423f373c0937c8d40451eb552663369a866`; Calder CURRENT_WORK `8cb72c781bedf445aa706acb3f3e17ee2c655b65`; Hale INBOX `229709ae03a54c78a53995adc2d12137e4f3526a`; Common HANDOFFS `878504a6258403ad9f1eac785bffd98eb1e41249`.
+- At the first post-write currentness check, main was `de54fe69469ca2cb52503d22b0353bd587f931e3`. That commit itself changed only `PUBLIC_SITE/generated/discovery.json`.
+- At that check, all 8 protected Paper A/B objects and all 3 discovery generator/test/policy source-control objects matched their pinned Git blobs: 11/11 exact matches.
+- Readback snapshot at that check: report `d0edb5838a982b3178cfdda1f3bf9a621f246fb4`; receipt `cebfdac093ca810e994ca31b8abc702ce06150d0`; optional Hale packet `e269460f52b54e62d36dcdd45772675e614ef65c`; Calder BOOT `37e1a423f373c0937c8d40451eb552663369a866`; Calder CURRENT_WORK `8cb72c781bedf445aa706acb3f3e17ee2c655b65`; Hale INBOX `229709ae03a54c78a53995adc2d12137e4f3526a`; Common HANDOFFS `878504a6258403ad9f1eac785bffd98eb1e41249`.
+- After that snapshot, BOOT/CURRENT_WORK received a pointer-only amendment; their current blobs are `925e1068316a22c23289cae7b74179d5b8a9267f` and `4ca9560803a45b8a79dc31e7619309a425968d99`. This amendment does not alter any P0 source/control object.
 - No P0 source, presentation contract, reader route, or discovery generator/test/policy file changed. No deployment, reader acceptance or standdown.
