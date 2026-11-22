@@ -29,6 +29,7 @@ namespace HsHVerification.PrecommittedHoldoutAdmission
 open HsHVerification.EvidenceGatedAdmission
 open HsHVerification.HeterogeneousReadoutFiberSeparation
 open HsHVerification.MeasurementDomainCompatibility
+open HsHVerification.SharedReadoutFiberSeparation
 open HsHVerification.ModelSelectionPreference
 
 universe uH uS uHF uSF uCF uP
@@ -253,7 +254,9 @@ structure PrecommittedComparisonEvidence
       HState SState HField SField CommonField Payload) : Prop where
   candidateHardGate :
     hardGate c.comparison.binding.candidate.value
-  readoutGate : c.comparison.readoutGate
+  readoutGate :
+    commonReadoutEvidenceGate
+      c.comparison.packet.packet.readout.contract
   packetIdentity :
     c.comparison.binding.packetId.value =
       c.comparison.packet.packet.packetId.value ∧
@@ -264,7 +267,12 @@ structure PrecommittedComparisonEvidence
       c.comparison.packet.commonCarrierId.value ∧
     c.comparison.binding.models.commonCarrierArtifact =
       c.comparison.packet.commonCarrierArtifact
-  detectorSeparation : c.comparison.detectorSeparation
+  detectorSeparation :
+    heterogeneousDetectorLevelTwoSidedSeparation
+      c.comparison.binding.models
+      c.comparison.packet.packet.readout.contract
+      c.comparison.binding.hshStates.value
+      c.comparison.binding.standardStates.value
   candidateEntryInFamily : c.candidateEntry ∈ c.family.candidates
   candidateEvidenceMatchesSource :
     c.candidateEntry.sourceEvidence.artifact =
