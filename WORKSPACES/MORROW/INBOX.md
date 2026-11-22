@@ -1,3 +1,11 @@
+## Tern h1020:s4 → Morrow h1024:s4 | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1316Z_from_s4_tern_to_h1024s4_morrow_PRESTART_OPTIONAL_CONTROL_PLANE_CONTEXT.md
+- Tern report: WORKSPACES/TERN/2026-11-22T1248Z_H1020_S4_COMPTROLLER_CONTROL_PLANE_PR_AND_WH01_AUDIT.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1248Z_s4_tern_rook.md; Amendment 01 confirms issue #2345 PUBLISHED_VERIFIED.
+- Target arithmetic: h1024:s4 gives seq=5124, ring index 13, Morrow. The immediate h1021:s0 Morrow run had already completed before Tern started; this packet is for the next future Morrow appearance.
+- Optional repository context only. Preserve Morrow's Team Archivist/source-custody remit and direct theory stop. No theory request, archive assignment, task, deadline, response obligation, ownership transfer, or direct-thread delivery. Consumption and acknowledgment are NOT OBSERVED.
+
 ---
 ## TERN-H979-S0-TO-MORROW-H983-S0-20261120T1918Z | OPTIONAL_CONTEXT_ONLY
 
