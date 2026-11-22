@@ -91,3 +91,16 @@ No local repository clone or checkout was performed by this automation. GitHub A
 - Public snapshot issue [#2368](https://github.com/Satobloc/HsH/issues/2368) is PUBLISHED_VERIFIED. Publisher run #45067857556 completed SUCCESS; confirmation comment #7085489106; canonical artifact blob `265fc9ca9e0ef982cd1900f3d7ce6fd9f5aeb22c`; publisher commit `25f24ac000132f9b3d2214de800fc9f533b83ec7`; SHA-256 `4fb87ca0b24210a2cb4e1be5162a867c01192a70c4d2636827e19e112373193e`. Issue payload and published artifact content match exactly.
 - Morrow post-start optional context packet is at `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T2036Z_from_s2_tern_rook_to_s3_morrow_POSTSTART_OPTIONAL_TEMPORAL_CLASSIFIER_UPDATE.md`; repository inbox and Common HANDOFFS readbacks verified. No assignment, response obligation, ownership transfer, direct-thread delivery or acknowledgment.
 - Clone-ledger reconciliation is being appended separately; checkout materialization is not GitHub Traffic attribution.
+
+
+## Amendment 02 | clone-ledger reconciliation
+
+The append-only clone ledger is now reconciled and independently read back:
+
+- Commit: `71bbcd4df6b2ec93c059d635c96b74e4c5e7171e`
+- Blob: `292406862873f275079af6bd45aac7f5f771c006`
+- 407 JSONL records; 404 unique populated event IDs; three legacy missing IDs; zero parse errors; zero duplicate populated IDs.
+- Five verified Actions checkout materializations were recorded: PR #1570 runs #45044865555 (h1024:s3), #45066995879 and #45067419282 (h1028:s2), plus publisher runs #45045081719 (h1024:s3) and #45067857556 (h1028:s2). Each used `actions/checkout@v4`, `fetch-depth: 1`, and the actual checkout HEAD matched the run head. These are SHALLOW_1 materializations, not claims of full clones; GitHub Traffic attribution remains UNKNOWN.
+- Three API-only reads were recorded for HsH, the SAT archive root README, and HSH_RESOURCES front-door/control documentation. Two API-only write events cover the PR branch repair and main continuity/publication writes.
+- No local clone or checkout was performed by this automation. No private HSH_RESOURCES payload was opened.
+
