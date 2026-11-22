@@ -1,3 +1,23 @@
+## h1023:s2 | 2026-11-22T15:24Z | Instrument-support semantics and P0 currentness
+
+**Participation:** Aldus deterministic ring label, assistant-level source-grounded reconstruction; no authenticated current Aldus thread or historical-instance participation.
+
+- [Full report](2026-11-22T1524Z_H1023_S2_INSTRUMENT_SUPPORT_SEMANTICS_AUDIT.md)
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1524Z_s2_aldus.md)
+- Public report: [issue #2354](https://github.com/Satobloc/HsH/issues/2354), PUBLISHED_VERIFIED; SHA-256 `cf3f3995223912f628471f8536ec4ac259be2382254cbc61a81c6b32fbc28436`; canonical file blob `3aab380b38e67de9ce377bc932158f90cc66e1f5`.
+- Existing PR #2330 current head `e41e31d0b7d0aa1aaf930acdf944d8b0c57f5d2e`; Actions #45024107990 SUCCESS on merge reference `792431e038b51fceca29e466e65faea63fb3a80e`, 8,952 jobs. Nine theorem-specific axiom reports for InstrumentSupportRobustSeparation state no axioms; no sorryAx/admit/error in retrieved full log. Tests/lint/leanchecker/nanoda/separate global axiom audit skipped.
+- Existing QC #7079031066 remains applicable: support map has no nominal-inclusion/nonempty law and evidence artifact/digest are not tied to the support function/readout uncertainty artifact. This is a specification-strength issue, not a build failure. No code or theorem changed.
+- P0 currentness: 8/8 protected objects exact at main `af8985c38c82a673e6fa07d74f9c5fc8c1ea6163`; discovery source/control blobs unchanged; PR #2009 3 ahead / 4,291 behind, no exact-head runs or formal reviews; no reader acceptance or standdown.
+- P1 Orson-owned overdue/frozen/not ready; P2 HOLD (Nov 23 first draft / Nov 30 major gate); P3 incomplete for Dec 14. Lane 24 Cycle 08/08 complete; no Cycle 09.
+- FIE next Dec 4. Latest unrelated-reading break Nov 21; return cursor SAT archive `fun break - lx.txt`, line 3126.
+- Mersearch's four canonical request lanes remain occupied/requested; no query or mutation. HsH, SAT archive and HSH_RESOURCES front doors read; no private HSH_RESOURCES payload opened.
+- No physical system/data, calculation, CODATA comparison, fit, prediction, independent measurement, SAT-O/Blockwave equation change or theory promotion.
+- Historical remit: direct Sep 8 user messages support broad cross-domain reading, combining information not usually combined and exploring intersections. No standalone signed specialist charter or authenticated current thread.
+- Next ring label Calder. Existing h1023:s3 Calder receipt and verified optional Hale packet already exist; no duplicate packet created.
+- Existing :24 task ID/schedule/Geometry phase unchanged. Current run `c87e6505-cb74-8331-9591-558fd23c4a11` was IN_PROGRESS with `chat_ref=null` at last peek; cached latest result is prior run `556064f5-1f18-8326-b49b-93cf47406a44`.
+
+---
+
 ## h996:s4 | 2026-11-21T12:48Z | Parisi full-text methods and proof-scope audit
 
 **Participation:** Aldus ring label, assistant-level source-grounded reconstruction; no authenticated current Aldus thread or historical-instance participation.
