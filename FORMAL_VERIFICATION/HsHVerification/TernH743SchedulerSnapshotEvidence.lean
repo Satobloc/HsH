@@ -2083,3 +2083,217 @@ theorem h1020_s4_current_and_cached_run_ids :
 #print axioms h1020_s4_current_and_cached_run_ids
 
 end HsHVerification.TernH743SchedulerSnapshotEvidence
+
+
+namespace HsHVerification.TernH743SchedulerSnapshotEvidence
+
+/-!
+## h1024:s3 :36 current-run / cached-result cross-section
+
+Source: exact-ID readback of the existing Workshop Relay :36 automation during
+the h1024:s3 execution. The connector exposes the current last_run and cached
+latest_result as separate records. Its readback timestamp is not exposed.
+
+The current run was scheduled for 16:36:00Z and recorded as started at
+16:31:47.587917Z, still in progress, with no completion and no run-level
+chat_ref. The cached result belongs to the prior 15:36Z occurrence; it was
+created at 15:41:02.444955Z and completed at 15:41:03.259193Z, both before
+the current run started.
+
+The task-level conversation reference and cached-result chat_ref share one
+opaque equality token. That alias is not a current-run reference and does not
+authenticate a worker or establish cross-thread delivery.
+
+All clock coordinates below are UTC microseconds since midnight on
+2026-11-22. The nominal UTC hour, not the observed start time, selects the
+fixed-ring worker.
+-/
+
+/--
+A temporal screening result for a cached result relative to the current run.
+A currentSlotCandidate is only a necessary temporal candidate: it does not
+authenticate the run ID, source record, worker, or actual execution binding.
+-/
+inductive LatestResultTemporalScope where
+  | currentSlotCandidate
+  | priorOrStale
+  | insufficientEvidence
+  deriving DecidableEq, Repr
+
+/-- A cached result is temporally eligible only when its slot matches the
+current slot and its creation is not earlier than the current run start. -/
+def classifyLatestResultTemporalScope
+    (o : ThreadReferenceObservation) : LatestResultTemporalScope :=
+  match o.latestResultScheduledUs, o.latestResultCreatedUs with
+  | some resultSlot, some resultCreated =>
+      if resultSlot = o.currentRunScheduledUs ∧
+          o.currentRunStartedUs ≤ resultCreated then
+        .currentSlotCandidate
+      else
+        .priorOrStale
+  | _, _ => .insufficientEvidence
+
+theorem classifyLatestResultTemporalScope_current_iff
+    (o : ThreadReferenceObservation) :
+    classifyLatestResultTemporalScope o = .currentSlotCandidate ↔
+      (match o.latestResultScheduledUs, o.latestResultCreatedUs with
+       | some resultSlot, some resultCreated =>
+           resultSlot = o.currentRunScheduledUs ∧
+             o.currentRunStartedUs ≤ resultCreated
+       | _, _ => False) := by
+  cases o.latestResultScheduledUs <;>
+    cases o.latestResultCreatedUs <;>
+    simp [classifyLatestResultTemporalScope]
+
+/-- h1024:s3 source-bound task/reference and current/cached result observation. -/
+def h1024S3ThreadRefs : ThreadReferenceObservation := {
+  phase := 3
+  enabled := true
+  scheduleMinute := 36
+  taskConversationRefToken := some "opaque-task-result-reference"
+  currentRunScheduledUs := us 16 36 0 0
+  currentRunStartedUs := us 16 31 47 587917
+  currentRunRefToken := none
+  latestResultScheduledUs := some (us 15 36 0 0)
+  latestResultCreatedUs := some (us 15 41 2 444955)
+  latestResultCompletedUs := some (us 15 41 3 259193)
+  latestResultRefToken := some "opaque-task-result-reference"
+  taskLastRunUs := us 15 41 5 541532
+  taskUpdatedUs := us 15 41 29 677869
+  nextRunUs := us 16 36 0 0
+}
+
+/-- Exact task/run/result fields from the same :36 readback. -/
+def h1024S3LastObservedRun : SchedulerSnapshot := {
+  phase := 3
+  taskId := "6a9f52b69ec08191b0a2ba24a074f781"
+  enabled := true
+  scheduleMinute := 36
+  runId := "5edb157f-bf80-8330-aa2f-4e05e91b2b55"
+  scheduledUs := us 16 36 0 0
+  startedUs := us 16 31 47 587917
+  completedUs := none
+  status := .inProgress
+  latestResultRunId := some "37d67a90-cb78-8325-bc42-641105d8a143"
+  chatRef := none
+  taskLastRunUs := us 15 41 5 541532
+  taskUpdatedUs := us 15 41 29 677869
+  nextRunUs := us 16 36 0 0
+}
+
+theorem h1024_s3_sequence : 5 * 1024 + 3 = 5123 := by decide
+theorem h1024_s3_ring_index : (5 * 1024 + 3) % 19 = 12 := by decide
+theorem h1024_s3_worker :
+    workerAtNominalSlot 1024 3 = some "Tern Rook" := by rfl
+theorem h1024_s3_successor :
+    workerAtNominalSlot 1024 4 = some "Morrow" := by rfl
+
+theorem h1024_s3_task_configuration :
+    h1024S3ThreadRefs.phase = 3 ∧
+    h1024S3ThreadRefs.enabled = true ∧
+    h1024S3ThreadRefs.scheduleMinute = 36 ∧
+    h1024S3LastObservedRun.taskId =
+      "6a9f52b69ec08191b0a2ba24a074f781" := by
+  exact ⟨rfl, rfl, rfl, rfl⟩
+
+theorem h1024_s3_task_and_cached_result_reference_alias :
+    h1024S3ThreadRefs.taskConversationRefToken =
+      h1024S3ThreadRefs.latestResultRefToken := by
+  rfl
+
+theorem h1024_s3_current_run_reference_absent :
+    h1024S3ThreadRefs.currentRunRefToken = none := by
+  rfl
+
+theorem h1024_s3_thread_reference_scope :
+    classifyThreadReference h1024S3ThreadRefs =
+      .taskResultAliasOnPriorSlot := by
+  rfl
+
+theorem h1024_s3_temporal_scope :
+    classifyLatestResultTemporalScope h1024S3ThreadRefs =
+      .priorOrStale := by
+  rfl
+
+theorem h1024_s3_conversation_alias_is_not_current_run_binding :
+    classifyThreadReference h1024S3ThreadRefs =
+      .taskResultAliasOnPriorSlot ∧
+    classifyLatestResultTemporalScope h1024S3ThreadRefs =
+      .priorOrStale := by
+  exact ⟨rfl, rfl⟩
+
+theorem h1024_s3_result_is_prior_scheduled_occurrence :
+    h1024S3ThreadRefs.latestResultScheduledUs =
+      some (us 15 36 0 0) ∧
+    h1024S3ThreadRefs.currentRunScheduledUs = us 16 36 0 0 ∧
+    h1024S3ThreadRefs.currentRunScheduledUs -
+      h1024S3ThreadRefs.latestResultScheduledUs.getD 0 =
+        3600000000 := by
+  decide
+
+theorem h1024_s3_current_start_precedes_nominal :
+    h1024S3ThreadRefs.currentRunScheduledUs -
+      h1024S3ThreadRefs.currentRunStartedUs = 252412083 := by
+  decide
+
+theorem h1024_s3_cached_result_created_and_completed_before_current_start :
+    h1024S3ThreadRefs.latestResultCreatedUs.getD 0 <
+      h1024S3ThreadRefs.latestResultCompletedUs.getD 0 ∧
+    h1024S3ThreadRefs.latestResultCompletedUs.getD 0 <
+      h1024S3ThreadRefs.currentRunStartedUs := by
+  decide
+
+theorem h1024_s3_cached_result_created_before_current_start_by :
+    h1024S3ThreadRefs.currentRunStartedUs -
+      h1024S3ThreadRefs.latestResultCreatedUs.getD 0 =
+        3045142962 := by
+  decide
+
+theorem h1024_s3_task_metadata_precedes_current_start :
+    h1024S3ThreadRefs.taskLastRunUs <
+      h1024S3ThreadRefs.currentRunStartedUs ∧
+    h1024S3ThreadRefs.taskUpdatedUs <
+      h1024S3ThreadRefs.currentRunStartedUs ∧
+    h1024S3ThreadRefs.nextRunUs =
+      h1024S3ThreadRefs.currentRunScheduledUs := by
+  decide
+
+theorem h1024_s3_last_observed_run_pending_without_chat_ref :
+    h1024S3LastObservedRun.status = .inProgress ∧
+    h1024S3LastObservedRun.completedUs = none ∧
+    h1024S3LastObservedRun.chatRef = none := by
+  exact ⟨rfl, rfl, rfl⟩
+
+theorem h1024_s3_current_and_cached_run_ids :
+    h1024S3LastObservedRun.runId =
+      "5edb157f-bf80-8330-aa2f-4e05e91b2b55" ∧
+    h1024S3LastObservedRun.latestResultRunId =
+      some "37d67a90-cb78-8325-bc42-641105d8a143" := by
+  exact ⟨rfl, rfl⟩
+
+/-
+The current and cached run IDs remain distinct source literals. No String
+inequality theorem is asserted. The temporal classifier is a screening gate,
+not a proof of scheduler backend causation or result authenticity.
+-/
+
+#print axioms classifyLatestResultTemporalScope_current_iff
+#print axioms h1024_s3_sequence
+#print axioms h1024_s3_ring_index
+#print axioms h1024_s3_worker
+#print axioms h1024_s3_successor
+#print axioms h1024_s3_task_configuration
+#print axioms h1024_s3_task_and_cached_result_reference_alias
+#print axioms h1024_s3_current_run_reference_absent
+#print axioms h1024_s3_thread_reference_scope
+#print axioms h1024_s3_temporal_scope
+#print axioms h1024_s3_conversation_alias_is_not_current_run_binding
+#print axioms h1024_s3_result_is_prior_scheduled_occurrence
+#print axioms h1024_s3_current_start_precedes_nominal
+#print axioms h1024_s3_cached_result_created_and_completed_before_current_start
+#print axioms h1024_s3_cached_result_created_before_current_start_by
+#print axioms h1024_s3_task_metadata_precedes_current_start
+#print axioms h1024_s3_last_observed_run_pending_without_chat_ref
+#print axioms h1024_s3_current_and_cached_run_ids
+
+end HsHVerification.TernH743SchedulerSnapshotEvidence
