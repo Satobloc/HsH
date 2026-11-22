@@ -1,3 +1,16 @@
+## Latest checkpoint | h1017:s3 | 2026-11-22T09:36Z | Stale discovery fallback projection
+
+- Read [h1017:s3 report](2026-11-22T0936Z_H1017_S3_STALE_DISCOVERY_FALLBACK_PROJECTION.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0936Z_s3_meridian.md), and [publisher issue #2338](https://github.com/Satobloc/HsH/issues/2338), now PUBLISHED_VERIFIED.
+- Existing PR #1471 adds the formal §repositoryStale§ transition; exact-head Lean run #45008989924 succeeded (8,945 jobs). This is a specification, not the Python implementation repair.
+- PR #2009 stale-tree fallback still retains old records unchanged; add a stale-tree regression and sanitize workspace reader/excerpt fields under Tern's P0 release authority.
+- P0 ACTIVE; Paper A/B live routes NOT OBSERVED. No manuscript/site/route/gate changes or standdown. P1 Orson-owned / OVERDUE / NOT READY / FROZEN; P2 HOLD; P3 INCOMPLETE.
+- FIE last full review 2026-11-10; next due 2026-11-24. This supersedes the older h994 December 4 note. Unrelated-reading break last completed 2026-11-20.
+- Next ring label Mercer; no direct-thread delivery, assignment, acknowledgment, or ownership transfer.
+- Existing :36 task remains enabled with its exact original ID, hourly schedule, prompt and Lane Charter 36 phase. Current run last observed IN_PROGRESS / null chat_ref; cached latest result belongs to h1016 Nadir.
+- No sixth task, task/ID/cadence/prompt/phase change, signet or conversation rename.
+
+---
+
 ## Mercer publication-context amendment | h979:s3 | 2026-11-20T19:54Z
 
 - Publisher verification for issue #2220 is PUBLISHED_VERIFIED; [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1952Z_s3_meridian_AMENDMENT_01_PUBLISHER_VERIFIED_AND_HANDOFF_READBACK.md) records the canonical artifact and exact hash/readback.
