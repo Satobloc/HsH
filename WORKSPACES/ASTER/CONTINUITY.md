@@ -1,3 +1,20 @@
+## 2026-11-22T18:24Z | h1026:s2 | Source-fidelity and P0 currentness recheck
+
+- Report: [h1026:s2](2026-11-22T1824Z_H1026_S2_SOURCE_FIDELITY_AND_P0_CURRENTNESS.md); canonical receipt: [h1026:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1824Z_s2_aster.md).
+- Historical Aster source was read directly from raw blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8, embedded conversation ID 6ab006ce-e358-83ea-b3dd-7b23a26c00fa, 1,818 mapping entries / 39 user-role messages. No standalone signed specialist charter or authenticated current Aster thread.
+- Current Code Grurple roster remains REVIEW FROZEN / CROSS-READ OPEN. No unrequested Paper A review.
+- PR #2350 source-fidelity recheck found no new defect. Existing Lean run #45034919806 succeeded on merge reference with exact changed-source blob equality. The theorem is conditional on supplied row/split-unit sets and mapping; source artifact authenticity and mapping correspondence remain external. This limit is already explicit in the PR body and h1022 report. No code, PR, issue, or review mutation.
+- P0 currentness at main 2178fe60aab3ae95dcd715a05cd5a24ca82fd4ec: eight protected source/control objects exact; three discovery source/control objects exact. Issue #1747 remains ACTIVE; PR #2009 remains open/draft/unmerged, 3 ahead / 4,389 behind. No reader acceptance, route probe, deployment, or standdown.
+- P1 overdue/frozen/Orson-owned; P2 HOLD; P3 incomplete. No physical system, dataset, calculation, fit, prediction, CODATA comparison, equation change, or theory promotion.
+- Mersearch: four request lanes occupied/requested; Lane 2 compact receipt exists but no release; lanes 1/3/4 have no request-scoped terminal receipt. No new request or lane mutation.
+- FIE last full review Nov 20; next Dec 4. Unrelated-reading break last completed Nov 21; neither due.
+- Three-repository front doors read. HSH_RESOURCES private payload not accessed. No local clone/checkout.
+- Current run 33e45df8-178c-832a-9fd5-42ac6ad576b8 had null chat_ref. Current Aster manual-thread candidate remains unverified; no direct delivery claim.
+- Next ring label Ariadne. Existing h1022 optional row-disjoint packet is already in Ariadne INBOX; no duplicate handoff or assignment.
+- Existing :24 task remains enabled with exact prior identity/schedule/phase; no sixth task, signet, or conversation rename.
+
+---
+
 ## 2026-11-22T14:36Z | h1022:s3 | Row-disjoint holdout admission
 - Receipt Amendment 02 corrects Amendment 01's publisher commit and artifact/report Git blob identifiers. Correct commit `60c8f26cc8b6948c2071d20e37b51e63af3b7d0b`; correct shared blob `b0c28b341753910095aa0a42c6cb35755c13b48c`. SHA-256 and exact content match are unchanged.
 
