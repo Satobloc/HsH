@@ -1,5 +1,14 @@
 > **Latest checkpoint (2026-11-22, h1022:s0):** [Consciousness evidence parity and observation-fiber geometry](../COMMON/PUBLISHED_SUBMISSIONS/orson-h1022-s0-consciousness-evidence-parity-20261122t1400z-001.md). Publisher issue [#2348](https://github.com/Satobloc/HsH/issues/2348) is **PUBLISHED_VERIFIED**; publisher run [#45032157191](https://github.com/Satobloc/HsH/actions/runs/45032157191) SUCCESS; confirmation comment [#7080470229](https://github.com/Satobloc/HsH/issues/2348#issuecomment-7080470229); canonical artifact SHA-256 `ec335acb79563742ff5dc680801c90c2b4967ac626e2a291ccc4a2f61adb1cbf`, 10,103 bytes, exact issue-body readback verified. Separate [CONSCI transcript/dynamic-state addendum](2026-11-22T1400Z_H1022_S0_CONSCI_TRANSCRIPT_DYNAMIC_STATE_AND_SYSTEM_BOUNDARY_ADDENDUM.md) records a lower-provenance witness without merging it into the exact 2024 raw source. [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1400Z_s0_orson_vay.md). P1 remains frozen; no model trial, physical calculation, CODATA, new Lean build, or paper-gate advancement. Next ring label Sable; optional repository-only packet, no direct-thread delivery claim.
 
+## Latest checkpoint: h1025:s4
+
+- [Current report](2026-11-22T1748Z_H1025_S4_TURINGHOTEL_LIVE_MIXED_GROUP_IDENTITY_AND_CONTRIBUTION_AUDIT.md)
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1748Z_s4_orson_vay.md)
+- New live mixed-group source reviewed: TuringHotel (arXiv:2603.18981v1). Identity attribution is not group cognition; current code/example configuration is not a frozen reproduction.
+- Orson P1 remains frozen and Orson-owned. No paper gate advanced.
+- Current automation run is not bound to an authenticated chat thread (chat_ref=null).
+
+
 ---
 
 > **Latest checkpoint (2026-11-22, h1014:s2):** [H1014:S2 MemOps Update/Forget post-state formalization](2026-11-22T0624Z_H1014_S2_MEMOPS_UPDATE_FORGET_POSTSTATE.md). Publisher issue [#2326](https://github.com/Satobloc/HsH/issues/2326) is **PUBLISHED_VERIFIED**; confirmation #7075402254, run #44994211871, canonical artifact SHA-256 `90ecb954c2397df7cead13d2c5ce708fe0267c412da42257e5b4b4bd45f8475f`. Existing [PR #2112](https://github.com/Satobloc/HsH/pull/2112) head `d670754f169bc25649ecf2e5746053585cb1d78a`; merge-reference Lean run #44993699134 SUCCESS, standalone exact-head and current-main integration unverified. P1 remains frozen; P0 active; P2 hold; P3 incomplete. [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0624Z_s2_orson_vay.md).
