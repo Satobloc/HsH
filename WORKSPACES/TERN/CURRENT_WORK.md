@@ -1,3 +1,20 @@
+## Latest checkpoint — 2026-11-22T1248Z | h1020:s4 | assistant-level Tern reconstruction
+
+- **Report:** [h1020:s4 control-plane, PR #1570 and WH-01 audit](2026-11-22T1248Z_H1020_S4_COMPTROLLER_CONTROL_PLANE_PR_AND_WH01_AUDIT.md), blob f5ee83f1a6c77675c19ed022082975d1833a0722; SHA-256 72cfc5b8a4a51f7de9b5b44af1cb7a44ef5966d1c2ccdf6ba4e23065a6bc62a2.
+- **Canonical receipt:** [h1020:s4 Tern](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1248Z_s4_tern_rook.md), blob 412d3209efd6f5fdeda40c6a467ddd41fe752d3e.
+- **Publication amendment:** [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1248Z_s4_tern_rook_AMENDMENT_01_PUBLISHER_VERIFIED_AND_FINAL_READBACK.md), blob 099b8a1f59dde82fedd70d5a6143b08b402bd1ce.
+- **Publisher:** issue #2345 PUBLISHED_VERIFIED; run #45027727115 completed SUCCESS; confirmation comment #7079859521. Workspace and canonical artifact blobs match exactly; SHA-256 72cfc5b8a4a51f7de9b5b44af1cb7a44ef5966d1c2ccdf6ba4e23065a6bc62a2.
+- **Selection/authority:** nominal h1020:s4 selects Tern Rook (index 12), next Morrow (13). Historical Comptroller remit is grounded in two direct Nathan user-role messages in Ariadne raw conversation 6ab339d2-8fb4-83ea-b728-c8001a034371; no standalone signed Tern charter or authenticated current Tern thread.
+- **Scheduler:** :00/:24/:36/:48 remain enabled with original IDs and hourly phases; :12 remains disabled. Current :48 run 161510b2-5bdc-8329-83a5-f0f4cf491731 was last successfully observed IN_PROGRESS, chat_ref=null, with cached result from prior Calder h1019:s4. A later automation get/peek returned HTTP 404 / task unavailable; this does not establish deletion/disablement. No scheduler mutation.
+- **Formalization:** Tern PR #1570 current head 398a93abc1b7055d25796709175280020ba5e3e7; exact-head Actions run #45025890710 SUCCESS, 8,944 jobs. The h1020 theorem block has 12 no-axiom outputs and three [propext] dependencies; no sorryAx/admit. String-ID inequality theorem removed rather than introducing Classical.choice/Quot.sound. PR remains OPEN/DRAFT/UNMERGED; zero formal reviews.
+- **PWH:** WH-01 remains OPEN/P1-HIGH with cursor 2026-11-15T18:00:00Z STALE/BLOCKED; original 100-run ID snapshot not retained; 79 HsH job endpoints uninspected. No requery or cursor advance. WH-02 remains Calder/authorized-maintainer-owned. WH-05 remains blocked; all four Mersearch requests still requested.
+- **Graph:** 18 records / branch_count 16; 7 roots, 11 parent references, 10 child edges, 17 reachable, one unreachable WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03, one parent-only P2→WORLD-TUBE relation. branch_count semantics remain undefined; no graph edit.
+- **Campaign:** P0 ACTIVE; P1 Nov 9 OVERDUE/NOT READY/FROZEN/ORSON-OWNED; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE; FIE next Dec 4. No physical calculation, equation change, theory promotion, or Orson ownership change.
+- **Successor:** immediate Morrow h1021:s0 run had completed before this Tern run started. Optional repository-only context is deposited for Morrow's next appearance h1024:s4. No task, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment.
+
+**PIN:** Tern / assistant-level source-grounded reconstruction / Comptroller and workflow coordination only. This checkpoint does not authenticate a historical Tern instance or current ChatGPT thread.
+
+
 # Latest checkpoint | h986:s3 | 2026-11-21T0240Z | nominal-slot correction
 
 - **Current selection:** Tern Rook (index 12); next Morrow (index 13), derived from the current :36 run's scheduled_for 2026-11-21T02:36:00Z, not its delayed start.
