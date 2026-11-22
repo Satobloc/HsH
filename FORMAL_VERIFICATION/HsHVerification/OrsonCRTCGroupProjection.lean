@@ -39,22 +39,22 @@ structure InteractionEvent where
   usedBy : Finset Agent
   incorporatedIntoDecision : Bool
   payload : Nat
-  deriving DecidableEq, Repr
+  deriving DecidableEq
 
 structure GroupHistory where
   roster : Finset Agent
   events : Finset InteractionEvent
-  deriving DecidableEq, Repr
+  deriving DecidableEq
 
 structure SubgroupHistory where
   roster : Finset Agent
   events : Finset InteractionEvent
-  deriving DecidableEq, Repr
+  deriving DecidableEq
 
 structure MemberHistory where
   member : Agent
   events : Finset InteractionEvent
-  deriving DecidableEq, Repr
+  deriving DecidableEq
 
 /-- Minimal event well-formedness: use must be contained in availability. -/
 def ValidEvent (e : InteractionEvent) : Prop :=
@@ -128,18 +128,17 @@ theorem subgroup_member_projection_composes
       projectMember h i := by
   have hmem : i ∈ h.roster ∩ s :=
     Finset.mem_inter.mpr ⟨hiRoster, hiSubgroup⟩
-  apply MemberHistory.ext
-  · rfl
-  · simp only [projectMemberFromSubgroup, projectSubgroup, projectMember,
-      if_pos hmem, if_pos hiRoster]
-    ext e
-    simp only [memberEvents, subgroupEvents, Finset.mem_filter]
-    constructor
-    · rintro ⟨⟨he, hauthor, havailable⟩, hvisible⟩
-      exact ⟨he, hvisible⟩
-    · rintro ⟨he, hvisible⟩
-      rcases hclosed e he hvisible with ⟨hauthor, havailable⟩
-      exact ⟨⟨he, hauthor, havailable⟩, hvisible⟩
+  simp only [projectMemberFromSubgroup, projectSubgroup, projectMember,
+    if_pos hmem, if_pos hiRoster]
+  apply congrArg (MemberHistory.mk i)
+  ext e
+  simp only [memberEvents, subgroupEvents, Finset.mem_filter]
+  constructor
+  · rintro ⟨⟨he, hauthor, havailable⟩, hvisible⟩
+    exact ⟨he, hvisible⟩
+  · rintro ⟨he, hvisible⟩
+    rcases hclosed e he hvisible with ⟨hauthor, havailable⟩
+    exact ⟨⟨he, hauthor, havailable⟩, hvisible⟩
 
 /-- A cross-boundary event can be visible to a member yet removed by a
     subgroup projection that excludes its author or another recipient. -/
@@ -151,7 +150,8 @@ def crossBoundaryHistory : GroupHistory :=
 
 theorem cross_boundary_history_valid :
     ValidGroupHistory crossBoundaryHistory := by
-  decide
+  simp [ValidGroupHistory, ValidEventSet, ValidEvent,
+    crossBoundaryHistory, crossBoundaryEvent]
 
 theorem cross_boundary_projection_can_lose_visible_event :
     projectMemberFromSubgroup
@@ -170,7 +170,7 @@ theorem availability_does_not_imply_uptake :
 
 theorem available_not_used_is_well_formed :
     ValidEvent availableNotUsed := by
-  decide
+  simp [ValidEvent, availableNotUsed]
 
 /-- Uptake is not evidence that the event entered the group decision. -/
 def usedNotIncorporated : InteractionEvent :=
@@ -183,7 +183,7 @@ theorem uptake_does_not_imply_decision_incorporation :
 
 theorem used_not_incorporated_is_well_formed :
     ValidEvent usedNotIncorporated := by
-  decide
+  simp [ValidEvent, usedNotIncorporated]
 
 /-- One deliberately narrow group readout: the count of event records marked
     as incorporated into the decision. This is not decision quality. -/
@@ -203,10 +203,10 @@ def historyTwo : GroupHistory :=
   ⟨{0, 1, 2}, {eventA, eventB}⟩
 
 theorem historyOne_valid : ValidGroupHistory historyOne := by
-  decide
+  simp [ValidGroupHistory, ValidEventSet, ValidEvent, historyOne, eventA]
 
 theorem historyTwo_valid : ValidGroupHistory historyTwo := by
-  decide
+  simp [ValidGroupHistory, ValidEventSet, ValidEvent, historyTwo, eventA, eventB]
 
 /-- Two valid group histories can give one member the same view while having
     different group-level decision-incorporation counts. -/
@@ -230,12 +230,12 @@ theorem no_member_only_incorporation_reconstructor :
       projectMember historyOne 0 = projectMember historyTwo 0 := by
     decide
   rw [hview] at h1
-  have h1' :
-      f (projectMember historyTwo 0) = 1 := by
-    simpa [decisionIncorporationCount, historyOne, eventA] using h1
-  have h2' :
-      f (projectMember historyTwo 0) = 2 := by
-    simpa [decisionIncorporationCount, historyTwo, eventA, eventB] using h2
+  have hcount1 : decisionIncorporationCount historyOne = 1 := by
+    decide
+  have hcount2 : decisionIncorporationCount historyTwo = 2 := by
+    decide
+  rw [hcount1] at h1
+  rw [hcount2] at h2
   omega
 
 #print axioms subgroup_projection_preserves_validity
