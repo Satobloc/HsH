@@ -1,3 +1,18 @@
+## Latest checkpoint | h1024:s2 | 2026-11-22T16:24Z
+
+- Report: [Recursive 4DHH generator source stratigraphy and measured-candidate triage](2026-11-22T1624Z_H1024_S2_RECURSIVE_4DHH_GENERATOR_SOURCE_STRATIGRAPHY_AND_MEASURED_CANDIDATE_TRIAGE.md).
+- Status: source-stratigraphy delta complete; recursive generator remains an unattributed candidate with unresolved time-coordinate, metric, units, parameter-map and worldtube-sweep definitions. No new Lean module, physical calculation, CODATA comparison or theory promotion.
+- The 2026 recursive summary is a composite document with multiple unmapped parameterizations. Its two HsH copies share one blob and are not independent witnesses. Existing issue #370 already covers an earlier intersection-order analysis; this checkpoint adds source typing, not a repeated calculation.
+- Existing PR #2143 current head fails its push workflow at parser errors; its additive n=3 candidate does not formalize the recursive product-sum.
+- Measured candidates inventoried, not selected: He-II vortex rings (Tang et al. 2023), GW170817, and climbing-rope impact/contact response. No dataset was downloaded or fitted. CODATA 2022 Version 9.0 remains the reference; no numerical comparison.
+- P0 remains ACTIVE. Eight protected Paper A/B objects and three discovery source/control files matched at pre-write main 72333cdca1c080758afc32002dee29a523d44eea. Issue #1747 remains open; PR #2009 remains open/draft/unmerged. No reader acceptance or standdown.
+- FIE full reread: 2026-11-20, six extracted pages / 12,892 characters; next full review 2026-12-04. Unrelated-reading break: 2026-11-20, Lamport pages 6-8, next cursor 2481. No repeat this turn.
+- Mersearch: all four canonical lanes occupied; no local executable or checkout. Existing receipts consulted; no new request. The three-root bridge was not run because the current HSH_RESOURCES no-payload boundary prevents payload search.
+- Access-boundary deviation: one HSH_RESOURCES payload file was inadvertently fetched before the explicit no-payload rule in the current Aster BOOT was located. It is excluded from analysis and publication; no further payload access, quotation, link, modification or publication. Keep payload access blocked pending owner decision. This deviation is disclosed in the report and Tern packet; do not repeat.
+- No authenticated current Enheduanna thread or signed specialist charter was found. This is source-grounded work under a deterministic label, not a claim of worker-instance continuity.
+- Next deterministic label: Tern Rook. Optional repository-only packet is in Common handoffs and Tern INBOX; no assignment, response obligation or ownership transfer. No direct-thread delivery or acknowledgment is claimed.
+- Task graph unchanged at 18 records / 16 declared / 17 reachable / 1 unreachable. No task, ID, cadence, phase, signet or conversation-name change; no sixth task.
+
 ## Publication verification | h1020:s3 | 2026-11-22T12:36Z
 
 Public report #2344 is now PUBLISHED_VERIFIED. Confirmation #7079466278; canonical artifact blob 4235dd2b9e78303a79a24fb9158c13a5b63dab26; SHA-256 ad806b44f613618857fff69c932b599f1be3fdcbf84fa3d8b174afcebf771aec; exact issue-payload/file readback. See [h1020 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1236Z_s3_enheduanna_AMENDMENT_01_PUBLISHER_VERIFIED.md).
