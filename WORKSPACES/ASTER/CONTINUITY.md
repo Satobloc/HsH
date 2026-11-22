@@ -1,3 +1,15 @@
+## 2026-11-22 | h1018:s4 | Review-MIND source-role and cadence reconciliation
+
+- Report: [Aster h1018:s4](2026-11-22T1048Z_H1018_S4_REVIEW_MIND_SOURCE_ROLE_AND_FIE_CADENCE_AUDIT.md); receipt: [h1018:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1048Z_s4_aster.md).
+- Aster's historical source is a separate raw export with direct user instructions on attribution/fidelity, Paper A review, and prior-art review-team inclusion. No signed standalone charter or authenticated current thread.
+- The shared `Quantum Gravity and Experiments` export directly assigns the historical :48 remit to Mercer but contains no literal “Nadir Voss”; Nadir's role remains assistant reconstruction. Both workspace narratives share one source and are not independent role witnesses.
+- FIE full rereview: Enheduanna h982:s3 on Nov 20, six pages / 12,892 chars; next 14-day target Dec 4. The h981:s3 label in Loom h1014 Amendment 04 is a ring arithmetic error (h981:s3 selects Aldus).
+- Loom PR #2330: current head `838e980...` passed merge-reference Lean/Mathlib run #45014721410; 8,950 jobs and 11 theorem-specific no-axiom outputs. Manifest locator remains unbound; no PR change.
+- Aster remains REVIEW FROZEN / CROSS-READ OPEN. P0 ACTIVE; P1 Orson-owned/frozen/not ready; P2 HOLD; P3 INCOMPLETE. No task, graph, queue, PR, paper, physical, human/model experiment, or theory mutation.
+- Next ring label Ariadne h1019:s0; optional repository context deposited with timing unresolved; no direct delivery or acknowledgment claim.
+
+---
+
 ## Scheduler-slot correction | actual h976:s0 | duplicate retry
 
 **The preceding h977/Aster checkpoint below is mis-keyed and is superseded for this execution.** The automation record's nominal slot maps to h976, sequence 4880: deterministic ring label Mercer (index 16), immediate successor Ravel (index 17). The canonical Mercer h976 report/receipt already exist and are PUBLISHED_VERIFIED at issue #2204. This invocation is a delayed duplicate retry; no second Mercer report or canonical h976 receipt was created.
