@@ -2,7 +2,7 @@
 
 ## Latest checkpoint: h1025:s4, 2026-11-22
 
-- New report: [TuringHotel live mixed-group identity and contribution audit](2026-11-22T1748Z_H1025_S4_TURINGHOTEL_LIVE_MIXED_GROUP_IDENTITY_AND_CONTRIBUTION_AUDIT.md).
+- New report: [TuringHotel live mixed-group identity and contribution audit](2026-11-22T1748Z_H1025_S4_TURINGHOTEL_LIVE_MIXED_GROUP_IDENTITY_AND_CONTRIBUTION_AUDIT.md). Publisher issue #2363 is SUBMITTED_NOT_VERIFIED; no confirmation comment or canonical artifact was present at last readback.
 - New source: Di Maio et al., arXiv:2603.18981v1. The study measures human/AI identity attribution in live mixed rooms, not collective decision quality. Public code snapshot is not a frozen reproduction of the paper configuration.
 - Additive Arima source-fidelity note: reused inference state and identical seed repeats limit independence of LLM simulation sessions.
 - Existing factorization_iff_fiberwise theorem in PR #1189 remains the formal criterion; exact-head build #44106198466 passed, with Classical.choice dependency. No new Lean module.
