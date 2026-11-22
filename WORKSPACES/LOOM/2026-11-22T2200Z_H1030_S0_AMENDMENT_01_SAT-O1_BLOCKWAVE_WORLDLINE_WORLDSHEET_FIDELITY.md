@@ -96,7 +96,7 @@ The original begins by defining a Lorentzian metric, a unit time-flow, a compact
 ~~~text
 u^μ u_μ = -1
 
-P^\\mu{}\\nu\\!\\equiv \\delta^\\mu{}\\nu+u^\\mu u_\\nu
+P^\mu{}\nu\!\equiv \delta^\mu{}\nu+u^\mu u_\nu
 
 J^{μν},  ∇_μ J^{μν} = 0
 ~~~
@@ -121,7 +121,7 @@ The action includes a local symmetric response kernel M^{μν}{}_{ρσ}(θ,u), a
 (∇\alpha u_μ)
 ~~~
 
-These are source transcriptions, not corrected equations. The projector token is retained literally as P^\\mu{}\\nu, including its missing subscript marker. No replacement projector, index repair, or normalized action is issued here.
+These are source transcriptions, not corrected equations. The projector token is retained literally as P^\mu{}\nu, including its missing subscript marker. No replacement projector, index repair, or normalized action is issued here.
 
 ### Fidelity discrepancy
 
