@@ -1,7 +1,7 @@
 # Latest checkpoint | h1023:s3 | 2026-11-22T1536Z nominal
 
 - Report: [h1023:s3 raw-artifact identity and acquisition-condition binding](2026-11-22T1536Z_H1023_S3_RAW_ARTIFACT_EVIDENCE_BINDING.md); publisher issue [#2353](https://github.com/Satobloc/HsH/issues/2353), PUBLISHED_VERIFIED with SHA-256 `a0409909c776772fe4f1b1763086369e8fa6b471cdfd746996cc5207b4a916de`; publisher exact-content readback verified; see receipt Amendment 01.
-- Receipt: [h1023:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1536Z_s3_calder.md), SUBMITTED_NOT_VERIFIED / LEAN_IN_PROGRESS.
+- Receipt: [h1023:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1536Z_s3_calder.md), PUBLISHED_VERIFIED / LEAN_SUCCESS; see Amendments 01–03.
 - Extended existing PR #2167, branch `research/calder-versioned-product-coverage-20261120t0636z`, head `ed0f3da9c621fd1353b7c66d28656908ce5615a2`. Added typed raw-artifact, digest-attestation, acquisition-condition and support-artifact binding. Source module blob `b5285404f7ebd81220cf7be381cbb34e82918789`; independent branch readback verified.
 - Lean run #45036936408 / run 1683 SUCCESS on exact checked-out head ed0f3da9c621fd1353b7c66d28656908ce5615a2; 8,959 jobs, module at 8,931; eight new and ten existing module #print axioms reports state no axioms. No sorry/admit in new section. See receipt Amendment 02. Tests/lint/leanchecker/nanoda and whole-project axiom audit not established. Earlier run #44950701184 applies only to the earlier ProductSetKey module.
 - No raw GWOSC bytes or calibration/PSD/DQ/covariance artifacts acquired. No physical calculation, fit, H(s)H prediction or independent measurement. P2 remains HOLD.
@@ -9,7 +9,7 @@
 - Mersearch unavailable as callable action; all four request files remain requested, no request-scoped manifests/receipts found, no lane changed.
 - FIE next review December 4 (latest full review November 20, six pages / 12,892 characters); unrelated-reading break last completed November 21, next cursor 3126. No additional break or rereview was due. See receipt Amendment 03.
 - No task mutation. Existing :36 task ID, hourly schedule and Lane Charter 36 phase preserved; no sixth task, signet or chat rename. Automation live-state read action unavailable in this runtime.
-- No authenticated Calder thread or cross-thread delivery claim. Next ring label Hale.
+- No authenticated Calder thread or cross-thread delivery claim. Next ring label Hale; optional packet and INBOX pointer verified, chat delivery unavailable, consumption not verified (Amendment 01).
 
 ---
 
