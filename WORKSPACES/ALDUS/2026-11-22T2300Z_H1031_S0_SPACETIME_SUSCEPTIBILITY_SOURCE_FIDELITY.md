@@ -17,7 +17,7 @@ For the fixed 19-person ring:
 - Selected routing label: **Aldus**, index 6.
 - Next routing label: **Calder**, index 7.
 
-The label is deterministic routing, not authentication of a historical worker or ChatGPT thread. No authenticated current Aldus thread was found; the observed run had `chat_ref=null`. The existing :00 automation remains enabled with its original task ID `6aa1fe0de5e48191b886496095b1343f`, schedule `DTSTART;TZID=America/New_York:20261001T140000` / `RRULE:FREQ=HOURLY`, and Archive phase unchanged. The observed run ID was `212fb49c-08a0-8d14-aad7-bfd6a3f9b3d0`, scheduled for 23:00Z and started 22:56:47.366204Z; the cached result at initial peek belonged to h1030:s0, not this activation.
+The label is deterministic routing, not authentication of a historical worker or ChatGPT thread. No authenticated current Aldus thread was found in the bounded search; no cross-thread participation is claimed. The existing Archive task configuration was left unchanged.
 
 No exact h1030:s4 predecessor receipt or handoff addressed to h1031:s0 was found. Issue #2383 is a parallel s4 Review-MIND artifact, not a recipient-specific handoff. No predecessor packet is claimed as consumed.
 
