@@ -1202,3 +1202,8 @@ Corrected commit `c0ebc000c9fa63d32d825f9fd5347c0e9872f1db` now has Actions run 
 ### Current Lean submission
 
 Existing-branch commit `faca7c5009617174142edf63193a49651a6abb8c` is under [Actions run #44993559061](https://github.com/Satobloc/HsH/actions/runs/44993559061). The new explicit `add_le_add_right` triangle proof is committed; build status is pending. No theorem success or axiom report yet.
+
+### Detector-space typing condition for h1013
+
+The observed-fiber bound compares (o_x,o_y) with exact chain outputs in the same final metric space (X_n). If detector data live in a distinct space (D), a sourced readout map (R_n:X_n\to D) must be an explicit final chain stage with its own metric, units, calibration and propagated error; endpoint radii must be in (D)'s metric. No such physical readout map is currently supplied. The projection/factorization in PR #2323 remains abstract, not a worldtube-to-instrument equivalence.
+
