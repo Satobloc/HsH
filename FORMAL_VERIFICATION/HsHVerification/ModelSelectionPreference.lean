@@ -406,7 +406,7 @@ theorem hshPredictionSubsetStandard_iff_noHshExclusive
       change x ∈ hsh \ standard
       exact ⟨hx, hNot⟩
     rw [hEmpty] at hMem
-    simpa using hMem
+    simp at hMem
 
 /-- Standard-model inclusion in the H(s)H region is equivalent to having no
     standard-exclusive outcome. -/
@@ -429,7 +429,7 @@ theorem standardPredictionSubsetHsh_iff_noStandardExclusive
       change x ∈ standard \ hsh
       exact ⟨hx, hNot⟩
     rw [hEmpty] at hMem
-    simpa using hMem
+    simp at hMem
 
 /-- The two frozen prediction regions are equal exactly when neither has an
     exclusive allowed outcome. This is observational equivalence only at the
