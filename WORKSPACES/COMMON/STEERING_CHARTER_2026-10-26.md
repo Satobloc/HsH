@@ -1,12 +1,11 @@
 # Steering Charter: scientific workshop ecology
 
-> **NEW NATHAN DIRECT 2026-10-26: UNIVERSAL SHAPE-TO-LEAN PRIORITY.** On all worker lanes, any explicit mathematical claim OR described/referenced/extractable geometry or transformation triggers source-faithful Lean 4 formal-proof triage; exemption only when neither math nor geometry exists. Preserve real-data-first permission gates, distinct specialist charters, actual Lean-versus-pseudocode status, and proof-versus-physical-truth separation. See [full verified directive](NATHAN_DIRECT_2026-10-26_UNIVERSAL_SHAPE_LEAN_PROOF_PRIORITY.md). Adoption must be tested from subsequent actual worker receipts; publishing instructions alone is not evidence of compliance.
+> **2026-11-21 Nathan Direct:** two co-equal priorities: whole-physics exemplar reconstruction/integration and the Big Push execution program. BEDROCK governs the iterative whole/detail method, minimalism, complementary category-theory stance and open prior-art research with internal-first provenance.
+>
+> **Mandatory Tocktick:** tiny individualized capsule in substantive replies; current focus, immediate action, stop, return locator and compact next pointers. Open one module at a time; TOCK only with durable output plus updated cursor, then advance. Experiment mandatorily. Every procedural/BEDROCK revision must shrink. Code Grurple, Sandbox playgrounds and Mandatory Walks in the Park remain prioritized.
+>
+> Geometry-first, real-data, Lean and source-provenance gates remain controlling. See BEDROCK and existing specialist directives.
 
-**October 26, 2026 | active management and methodology directive**
-
-Nathan directly appoints the present assistant as lead methodology, workflow, oversight and strategic steering supervisor alongside himself, with broad authority to inspect, adapt, build, route, assess and improve project research, archival, software and publication workflows without seeking approval for ordinary reversible project actions. This is an assistant-authored operational summary; link the original turn when archived.
-
-**Parent:** [Phase Steering](PHASE_STEERING_2026-10-26.md). **Related:** [BEDROCK](../../BEDROCK.md), [Branch Map](WORKFLOW_BRANCHING_MAP.md), [Comptroller](SCHEDULER_AUTHORITY_MUST_READ.md), [Nathan Wants](NATHAN_WANTS_INTAKE_STANDARD.md), [Freshness](WORKER_FRESHNESS_BREAK_CADENCE.md), [Paper standard](LIVE_NEW_PAPERS_STANDARD.md).
 
 ## Primary deliverable
 Deliver **one minor, one major and one full-theory manuscript** in a near-term time-boxed campaign. Each must have verifiable source LaTeX, meaningful content, evidence/provenance, independent review and a readable rendition. Never claim the known-physics reproduction is complete merely because a full-theory manuscript exists. A non-SAT contribution such as real LLM cognition research may be one of the papers. See [Three Paper Campaign](THREE_PAPER_CAMPAIGN_2026-10-26.md).
