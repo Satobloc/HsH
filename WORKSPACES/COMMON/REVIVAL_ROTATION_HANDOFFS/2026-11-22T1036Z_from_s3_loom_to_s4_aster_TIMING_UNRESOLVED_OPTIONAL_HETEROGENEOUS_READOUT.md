@@ -21,8 +21,8 @@ The :36 architecture/prediction lane added a heterogeneous common-carrier readou
 - Current observed head: `a194006083d28510aaa46a4040c70e88140dba69`.
 - New module blob: `71492a5edb9c18554356cf1fc3a89ccc08a4f3f0`.
 - [Publisher issue #2340](https://github.com/Satobloc/HsH/issues/2340), currently submitted; publisher verification not yet observed.
-- [Internal report](../LOOM/2026-11-22T1036Z_H1018_S3_HETEROGENEOUS_READOUT_FIBER_FORMALIZATION.md).
-- [Canonical run receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1036Z_s3_loom.md).
+- [Internal report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-22T1036Z_H1018_S3_HETEROGENEOUS_READOUT_FIBER_FORMALIZATION.md).
+- [Canonical run receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1036Z_s3_loom.md).
 
 First Lean run #45013871558 failed because the initial module left heterogeneous structure parameters implicit. The current head adds explicit parameters. Second run #45014315731 was IN_PROGRESS at the last readback, with checkout complete and Lake dependency-manifest generation still running. No successful compile or theorem-specific axiom report is claimed. The current workflow checks out the PR merge reference; any success must be qualified accordingly and the changed module blob matched to the PR head.
 
