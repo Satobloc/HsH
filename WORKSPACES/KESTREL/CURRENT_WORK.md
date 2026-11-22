@@ -1,3 +1,25 @@
+## 2026-11-22 h1017:s2 — observed-fiber CI verification completed
+
+**Current disposition:** the existing Kestrel chain-aware fiber-bound branch now has a successful PR merge-reference build. This is a verification update to existing work, not a new physical research cycle.
+
+- Routing label: Kestrel (ring index 14); next label Meridian (index 15). Labels are not authenticated ChatGPT identities. No current Kestrel thread was authenticated; this is a source-grounded assistant reconstruction in the scheduled execution. No direct-thread delivery or acknowledgment is claimed.
+- Historical remit: cross-boundary synthesis and measurement-map integration, trust-first, not a primary auditor, proof owner, or search-and-destroy unit. Historical raw conversation: `6ab070ce-2384-83e9-b76f-4661c55867c4`, Git blob `100267f3f11f3cce09c7d802ce85ad03879d5744`; direct user-role source messages include `c6803d67-a76f-48e4-bf71-f49cb7b224ee`, `3c07680d-5205-48a3-93d5-ce33a8cf86a6`, `fc9b147e-b138-44ac-a48b-b81593e3c3e9`, and `f15aac1c-0a31-4e98-b461-6ca872035315`.
+- Existing branch: [PR #2323](https://github.com/Satobloc/HsH/pull/2323), head `faca7c5009617174142edf63193a49651a6abb8c`, stacked on Ravel [PR #2309](https://github.com/Satobloc/HsH/pull/2309) at base head `71f600206d9ce8c784922d675ea8ce8a92d6ef86`. Both remain open and draft; #2323 has no formal review.
+- Existing Actions run [#44993559061](https://github.com/Satobloc/HsH/actions/runs/44993559061), job `137119661416`, completed SUCCESS. Lean 4.34.0, Lake 5.0.0, Mathlib 4.34.0; 8,958 build jobs. The workflow checked out `refs/remotes/pull/2323/merge` at `6a5082d6e82ef5abb4ea30281c12c2507fd28961` with `fetch-depth: 1`. This is a merge-reference build, not a standalone exact-head build or main integration.
+- The PR-head and merge-reference blobs match exactly: `KestrelChainAwareFiberBound.lean` = `260cc86d3966976889f7cb805f1292e45300a6d8`; root aggregator = `d34b45d941c8a25eaf5bc6702fc41a8cfbf0ec4d`.
+- Five theorem-specific `#print axioms` reports, including `observedFiberSeparationBound`, `noProjectionDecoderWithinObservedChainBudget`, and `noProjectionDecoderWithinObservedStagewiseBudget`, depend on `[propext, Classical.choice, Quot.sound]`. No `sorryAx` or `admit` appeared in the successful job log. Tests, lint, leanchecker, nanoda, and the separate global axiom audit were skipped.
+- The conditional bound is of the form (d(o_x,o_y)\leq\eta_x+\eta_y+2E_n). Here `eta_x` and `eta_y` are deterministic metric radii, not standard deviations or confidence intervals. The formalized states remain abstract `X_n`; no source-bound physical instrument map (R_n:X_n\to D), calibration, covariance, or measured dataset is instantiated.
+- The public PR comment [#7077364836](https://github.com/Satobloc/HsH/pull/2323#issuecomment-7077364836) already records the successful run. Existing publication issue #2324 remains the canonical report; no duplicate issue or comment was created.
+- The existing h979 measurement-map report identifies Barckicke et al. 2026 macroscopic finite-core contours as the strongest future finite-core candidate, with Tang 2023 and Bewley 2008 as complementary but distinct readout families. No dataset was downloaded or assayed, no system was selected, and no physical calculation or CODATA comparison was performed.
+- SAT-O1 and Blockwave original-source custody, verbatim equation text, hashes, and source dates remain as recorded in the h1013 report. Amendment 09 editorial candidates remain unadopted; no equation was corrected or substituted.
+- P0 remains active. All eight protected objects matched the pinned vector at main `e213d206c319e6efb867416635b2654f9790a3c1`. Issue #1747 remains open; PR #2009 remains open/draft/unmerged. No live reader acceptance or standdown. Lane 24 remains P0-HOLD, Cycle 08/08 complete; Cycle 09 was not started.
+- Mersearch lanes 1–4 remain requested/occupied; no callable Mersearch action was available and no lane was overwritten, released, or retriggered.
+- PWH graph remains 18 records against declared 16, with 17 reachable and one unreachable. Tern retains reconciliation authority; WH-02 remains Calder-owned and WH-05 remains blocked.
+- FIE last reviewed November 20, next due December 4. The unrelated reading break completed November 20 and is not due again.
+- Existing :24 task identity, schedule, and Geometry phase were not changed. No sixth task, new branch, signet, or conversation rename.
+
+**Next pointer:** independent review of PR #2323. After P0 standdown and an authorized Lane 24 cycle, define a source-bound common readout map and connect the existing Kestrel/Nadir contour maps with explicit domains, codomains, composition conditions, and calibrated uncertainty. Do not treat deterministic radii as statistical uncertainty.
+
 ## 2026-11-22 h1013:s3 continuation — observed-fiber uncertainty extension
 
 - Existing h1013 publication [issue #2324](https://github.com/Satobloc/HsH/issues/2324) predated this continuation; it was not duplicated.
