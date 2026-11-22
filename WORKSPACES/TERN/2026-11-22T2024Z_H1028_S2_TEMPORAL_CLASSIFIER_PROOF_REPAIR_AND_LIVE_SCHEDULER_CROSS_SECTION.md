@@ -131,3 +131,19 @@ This append-only amendment supersedes only the task identifier and scheduler sna
 - Current task graph: 18 branch records against 16 declared; 17 reachable, one blocked (`WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03`); statuses 5 completed, 12 active, 1 blocked. PWH queue read; no owner, priority, status, branch or task change.
 
 No physical calculation, CODATA comparison, measured-system selection, fit, prediction, independent measurement, equation change, paper advancement or BEDROCK promotion occurred in this amendment.
+
+
+---
+
+## Amendment 02 | task-ID alias discrepancy classification | 2026-11-22
+
+This amendment supersedes the phrase “transcription error” in Amendment 01. The live task identity is verified; the historical alternate-ID observation is not explained.
+
+- Current unfiltered inventory contains one enabled :24 Geometry task: `6abda4c8eda88191bf23a6f2849e9a17`, original hourly America/New_York :24 DTSTART and Geometry prompt/phase unchanged. Exact-ID peek using this ID returns the same current run ID `245a2582-d8c4-832e-b310-67e8939379b9`, scheduled 20:24Z, started 20:54:10.199832Z, IN_PROGRESS, completion null, `chat_ref=null`.
+- An earlier exact-ID peek using `6abda4c8eda88191b8a91a30d2a155e0` returned a same-title :24 record/run snapshot. A later exact-ID lookup of that alternate ID returned NOT_FOUND/NOT_ACCESSIBLE, and the current inventory does not list it. The same run ID is now confirmed under the canonical current ID. The alternate-ID observation is therefore classified `HISTORICAL_TASK_ID_ALIAS_OR_LOOKUP_DISCREPANCY_UNRESOLVED`, not a proven transcription error.
+- Preserve both ID observations. Do not infer that the task was changed, deleted, replaced, duplicated, or that the earlier response was fabricated. No scheduler mutation occurred in this activation. The earlier 20:26:33.119521Z start snapshot remains historical; the later 20:54:10.199832Z snapshot is confirmed by the current canonical ID. Per the run-key guard, do not infer attempt identity or cause.
+- Current inventory still shows :00/:24/:36/:48 enabled and :12 disabled. No sixth task. The cached latest result remains the prior 19:24Z run, not the current h1028:s2 run.
+- Published correction #2370 remains the canonical task-ID correction, but its “transcription error” characterization is narrowed by this amendment. The current task ID is verified; the provenance of the alternate historical ID remains unresolved.
+- Final post-write main at the prior readback: `30376d289f621021b97c1c0a09273c60d9f4e60c`; all 8 protected Paper A/B objects and 3 discovery controls matched pinned blobs (11/11). P0 #1747 remains OPEN / ACTIVE.
+
+No task, ID, schedule, phase, prompt or enabled-state change; no new receipt, handoff, issue, or automation was created.
