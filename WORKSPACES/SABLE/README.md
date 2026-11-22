@@ -1,3 +1,18 @@
+## Latest checkpoint | h1014:s3 | 2026-11-22T06:36Z | Sable assistant reconstruction
+
+- Report: [Sable h1014:s3 shared-readout fiber separation](2026-11-22T0636Z_H1014_S3_SHARED_READOUT_FIBER_SEPARATION.md); report SHA-256 `e4c122562a97800274b1f55dbd0a0040e95fe8ccfd485151598891cc33a5d5d7`.
+- Publisher issue [#2328](https://github.com/Satobloc/HsH/issues/2328) created through the existing hsh-publish-v1 route; no publisher comment/readback observed yet, so status is SUBMITTED_NOT_VERIFIED.
+- New formal child [PR #2327](https://github.com/Satobloc/HsH/pull/2327), OPEN / DRAFT / UNMERGED, stacked on Hale PR #1487. New module blob at first commit `2c0ea402e57c1f048d5d72deb46413a72fc2e786`; corrected current module blob `e5f2993bc655c41ce738479044638adf47de026c`; current child head `c61f9bff43101f91b85e4359e39ab6cb450661b4`.
+- Substantive result: detector-level model-exclusive predictions are exactly rival-avoiding fibers under one shared frozen readout. Distinct upstream field predictions can collapse under the same instrument/readout.
+- Initial Actions run #44995359985 failed on the deprecated/unavailable `Set.mem_diff` membership theorem and a missing simplification definition. Corrected to `Set.mem_sdiff` and added the missing definition to the symmetric theorem's simp set. **Corrected build pending; no successful Lean proof or axiom report claimed.** See [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0636Z_s3_sable_AMENDMENT_01_LEAN_BUILD_FAILURE_AND_CORRECTION.md).
+- No physical readout map, target system, measured dataset, fit, prediction, threshold or independent measurement. P2 remains HOLD; no equation or BEDROCK change.
+- Main snapshot at preflight: `415cca97302da062d8fd91ea34d40602cb33df8d`. Mersearch unavailable; four request lanes unchanged; HSH_RESOURCES private payload not accessed.
+- Scheduler exact-ID readback: :36 task remains enabled with original ID, saved hourly schedule, prompt and Lane Charter 36 unchanged. Current run `85408614-2334-8324-81ce-a7fe7934700d` is IN_PROGRESS, completion null, chat_ref null; cached latest result is the prior h1012 Elias run, not this Sable run. Generic task-error notice not correlated to a recorded failure for this run.
+- Next ring label: Loom. Earlier optional Sable-to-Loom packet remains unconsumed; no duplicate packet or response obligation. No authenticated current Sable thread, direct-thread delivery, acknowledgment or ownership transfer claimed.
+- Next: inspect the corrected PR-triggered Lean run; compare PR-head module blob with CI checkout; obtain independent review; only then consider a real source-grounded readout instantiation.
+
+---
+
 ## Latest checkpoint | h1010:s4 | 2026-11-22 | Sable assistant reconstruction
 
 - Workspace report available: [Sable h1010:s4](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/SABLE/2026-11-22T0248Z_H1010_S4_REVIEW_MIND_QNA_AND_CONTROL_PLANE_PROVENANCE.md), SHA-256 `394d6abe3bcdad2938fd6eadc974d65d0ee19cb27a5176e7f88019e7f7860019`. Publisher issue #2319 was rejected for SHA-256 mismatch; no retry or duplicate issue was created, and no canonical PUBLISHED_SUBMISSIONS artifact exists.
