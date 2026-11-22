@@ -105,8 +105,9 @@ theorem noProjectionDecoderWithinStagewiseBudget
   have hSeparated' :
       2 * errorBudget A S n <
         dist (exactIter A S n x) (exactIter A S n y) := by
-    rw [← errorBudget_eq_stagewiseErrorBudget A S n]
-    exact hSeparated
+    have hSeparated0 := hSeparated
+    rw [← errorBudget_eq_stagewiseErrorBudget A S n] at hSeparated0
+    exact hSeparated0
   exact noProjectionDecoderWithinChainBudget
     A S n p decoder x y hx hy hSameProjection
     hApproximationFactorsThroughProjection hSeparated'
