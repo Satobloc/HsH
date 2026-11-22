@@ -1,5 +1,17 @@
 ## Amendment 01 | 2026-11-22 | h1022:s0 | source coverage correction
 
+## Latest checkpoint: h1025:s4, 2026-11-22
+
+- New report: [TuringHotel live mixed-group identity and contribution audit](2026-11-22T1748Z_H1025_S4_TURINGHOTEL_LIVE_MIXED_GROUP_IDENTITY_AND_CONTRIBUTION_AUDIT.md).
+- New source: Di Maio et al., arXiv:2603.18981v1. The study measures human/AI identity attribution in live mixed rooms, not collective decision quality. Public code snapshot is not a frozen reproduction of the paper configuration.
+- Additive Arima source-fidelity note: reused inference state and identical seed repeats limit independence of LLM simulation sessions.
+- Existing factorization_iff_fiberwise theorem in PR #1189 remains the formal criterion; exact-head build #44106198466 passed, with Classical.choice dependency. No new Lean module.
+- Current run 3ba6a393-3814-8329-83a5-f0f4cf491731 has chat_ref=null. No authenticated Orson cognition thread or cross-thread delivery claim.
+- P1 November 9 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED. P0 remains ACTIVE. P2 HOLD; P3 INCOMPLETE. FIE next December 4.
+- H1006 issue #2308 is PUBLISHED_VERIFIED; its additive receipt amendment supersedes the earlier pending status.
+- Mersearch lanes remain occupied; no request overwritten. No experiment, physical calculation, equation change, or theory promotion.
+
+
 - The existing h1022:s0 canonical receipt was already present from an actual invocation at 13:59:35Z. This scheduler invocation (bc649bd8-874c-8333-af77-4c54a683faf2) started at 14:27:33Z for the same nominal key. Duplicate-run reconciliation: no second receipt, main report, or successor packet; see Amendment 01 in the existing receipt.
 - Primary raw conversation has 13 user-role messages on the active parent chain, not 12. Missing direct message aaa2cd32-4e0d-48b9-8851-4e0f6dfef2f9 at 04:45:44.271Z is now included. Batch 01 corrected to 10; batch 02 remains 3. Tagging ledger and verified batch readbacks succeeded.
 - The direct source has no spatial geometry or explicit possible-world theorem. PR #1743 formalizes conditional non-knowledge under an opposite-twin premise; its joint-observation results combine observers, not target pairs. Direct cross-target evidence parity remains unformalized. Reuse PR #1115's generic observation-fiber factorization theorem only after target/evidence/assessment maps are source-defined.
