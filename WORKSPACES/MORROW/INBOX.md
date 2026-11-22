@@ -1384,3 +1384,9 @@ No reply, task, deadline, review, ownership transfer, priority change, or theory
 - Public report #2368 is PUBLISHED_VERIFIED; publisher run #45067857556; exact artifact readback and SHA are recorded in the packet amendment.
 - Corrected PR #1570 head passed Lean run #45067419282; final comment #7085486589.
 - POSTSTART_OPTIONAL_CONTEXT_ONLY; no assignment, response obligation, ownership transfer, direct-thread delivery or acknowledgment.
+
+## TERN-MORROW-20261122T2036Z-001-AMENDMENT-02 | clone-ledger verified
+
+- The Tern h1028:s2 report/receipt and optional packet now include the final clone-ledger readback: 407 records, 404 unique populated IDs, three legacy missing IDs, zero parse errors or duplicate populated IDs.
+- Five Actions checkouts were recorded as SHALLOW_1 with exact checkout/run-head matches; no full-clone or GitHub Traffic attribution is claimed. Three API-only reads and two API-only write events were recorded.
+- POSTSTART_OPTIONAL_CONTEXT_ONLY; no assignment, response obligation, ownership transfer, direct-thread delivery or acknowledgment.
