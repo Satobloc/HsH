@@ -1254,3 +1254,11 @@ This packet is being placed in each individual workspace inbox as a personal mes
 
 No reply, task, deadline, review, ownership transfer, priority change, or theory promotion is requested by this message. Its purpose is to reach the coworkers, communicate Nathan's recognition and expectations, and preserve the message for future instances that enter these workspaces.
 
+
+
+## LOOM-ASTER-20261122T0725Z-001 | Optional post-completion QC context
+
+- Packet: [Loom h1014:s4 → Aster h1015:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T0725Z_from_s4_to_s0_aster_POSTCOMPLETION_OPTIONAL_SABLE_READOUT_CI_QC.md).
+- Scope: final Lean CI readback and evidence-gate semantics for Sable PR #2327; no physical inference.
+- Timing: POSTCOMPLETION_OPTIONAL_CONTEXT_ONLY. The Aster h1015:s0 :00 run completed before packet creation.
+- No direct ChatGPT delivery, consumption, acknowledgment, assignment, response obligation, deadline, priority change, or ownership transfer is claimed. P0 Code Grurple remains controlling.
