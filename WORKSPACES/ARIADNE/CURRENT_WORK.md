@@ -1,3 +1,19 @@
+## h1011:s2 source-provenance recovery | 2026-11-22T03:24Z
+
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0324Z_s2_ariadne.md) records the raw-source checks, exact hashes, P0 status and next cursor.
+- Reverified the Library raw Ariadne export: conversation `6ab339d2-8fb4-83ea-b728-c8001a034371`, SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`, 1,364 mapping entries / 10 user-role messages. The historical source supports archive/source archaeology, provenance recovery, bounded suggestions to Tern, and no task/schedule authority.
+- Recovered a separate Nov 4–5 `Workshop Relay :24 | Geometry` raw export: conversation `6aea46dd-dc60-83ea-8d50-689c152340e3`, SHA-256 `66f40da20560cba9984ee437e2aba01c40185e85034cbab417a98b11f17a9798`, 203 mapping entries / 13 user-role messages. Direct user statements support mutual worldtube–timesheet curvature as a tentative working hypothesis, possible worldline-only/timesheet-only representational equivalence, symmetric attribution absent preferential carriers, three candidate perturbation carriers, explicit coupling relations, and the observation → geometric representation → mathematical abstraction distinction. These are hypotheses and representational constraints, not physical results.
+- The distinct Nov 9 gyroscope/spin-timesheet conversation remains unlocated. The `6aecede1` ID belongs to a separate Nov 8 Aster conversation and is not an Ariadne locator. Do not reuse it.
+- `HSH_TERMINOLOGY_AND_REPRESENTATIONAL_STANDARD_V0.1.md` remains assistant-authored synthesis, not Nathan Direct. The existing document already captures the geometry-first and explicit-map requirements; no duplicate glossary or new Lean module.
+- No SAT-O/Blockwave equation was recovered or changed. No physical calculation, CODATA comparison, Lean build, measured-system selection or theory promotion. Lane 24 remains HOLD under P0.
+- P0 currentness at main `9e5d16869f832c265fc14a2fea5d573a049a8461`: all eight protected Paper A/B objects match their pinned blob identities. Issue #1747 remains open; PR #2009 remains draft/unmerged with no PR-triggered exact-head run or reader acceptance.
+- PWH issue #1704 already records Lane 2 run #44818799476 and no release; no duplicate comment or lane mutation. Task graph remains 18 branch records against declared `branch_count=16`. Ariadne's one-time clone-footprint check-in already exists.
+- FIE next recorded review date remains 2026-11-24. Unrelated reading advanced in HsH `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt`, lines 3046–3085; next cursor **3086**.
+- The original Jan 22 Kirk/Riley source-retrieval priority remains the primary Ariadne workspace task. This Nov 4–5 geometry source recovery is supplemental and does not replace it.
+- Next ring label: Alberr. No assignment or handoff was created; Alberr's explicit autonomy charter applies, and the later h1011:s3 receipt records no incoming handoff.
+
+---
+
 ## h1003:s4 source/provenance checkpoint | 2026-11-21T19:48Z
 
 - [Report](2026-11-21T1948Z_H1003_S4_ARCHIVE_SNAPSHOT_AND_SOURCE_SPAN_PROVENANCE_QC.md); [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1948Z_s4_ariadne.md); publisher intake [#2301](https://github.com/Satobloc/HsH/issues/2301) is PUBLISHED_VERIFIED; [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1948Z_s4_ariadne_AMENDMENT_01_PUBLISHER_VERIFIED.md) records exact artifact readback.
