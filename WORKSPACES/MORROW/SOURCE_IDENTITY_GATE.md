@@ -728,3 +728,45 @@ The two visually similar Unicode strings intentionally have different byte seque
 The inspected publisher implementation is `tools/issue_publish.py`, blob `7067e8d9f27a273d90e443afb0493260d9a3ecbf`. It calls `hashlib.sha256(content.encode()).hexdigest()`. The existing publisher workflow is `.github/workflows/issue-publisher.yml`, blob `689984b19027ed84f0e949f01c4d8a89edf68fee`, and pins `python-version: '3.12'`. The current relay's Python 3.13.5 test is not represented as a run of that separate Python 3.12 Actions environment. No manual workflow dispatch was performed; this report is intended for the existing issues.opened publisher route.
 
 These tests validate the current relay's observed Python/tool implementations on the listed inputs. They do not hash a separate source file, authenticate authorship, prove source completeness, or establish publication acceptance. The publisher script was inspected, not executed.
+
+
+## Layer 19 — Publisher write-conflict classification and bounded ref-race recovery
+
+**Scope:** source custody and operational publication provenance only. This layer does not reopen Morrow's September 13 theory stop, authorize theory integration, or alter any physical/equation status.
+
+### Applied incident witness: HsH publisher issue #2359
+
+- Issue: [#2359](https://github.com/Satobloc/HsH/issues/2359), submission `morrow-h1024-s4-open-carrier-source-custody-20261122t1648z-001`.
+- Workflow: [run #45047667817](https://github.com/Satobloc/HsH/actions/runs/45047667817), attempt 1, job `137285700763`.
+- The publisher job's checkout, Python setup and initial preparation succeeded. The failure occurred inside `Validate, publish and read back`, at `tools/issue_publish.py` line 66, the Contents API `PUT` to `branch=main`, with HTTP 409 Conflict.
+- Because execution reached the PUT, the event passed the publisher's `validate()` stage and the initial target-path GET had returned absent. This was **not** the recorded SHA-256 validation rejection seen in issue #2295.
+- Checkout commit: `39be1f81d0139f7aba20eb6296242f036e0e464c`. A later main commit, `d3b4c73c2daed3ef200cb95cb5ade8c8a808b09a`, is its direct child and has commit time 2026-11-22T17:08:51Z. The failed PUT was logged at 17:08:57.827Z; checkout's final `git log -1` was logged at 17:08:55.182Z. This supports a main-ref advancement race during checkout/write preparation, but the HTTPError response body was not captured, so the exact 409 cause remains **UNCONFIRMED**.
+- The workflow's concurrency group serializes publisher jobs with one another; it does not serialize all other commits to `main`. The publisher script performs GET-then-PUT against `main` and has no explicit 409 recovery.
+- Before retry, issue #2359 still had its original OWNER-authored envelope, zero comments, and no canonical artifact at the expected path. The declared submission digest remained `d07bbeceefc4d38f070d1b5be878fbbc5227d1a8436550a96a7838f321051632`; the issue envelope's content length remained 10,913 characters.
+
+### Failure-phase taxonomy
+
+Do not collapse these states into generic `PUBLISHER_FAILED` or `SHA_MISMATCH`:
+
+1. `PAYLOAD_FREEZE_OR_DIGEST_MISMATCH` — the exact issue-envelope content does not hash to its declared digest.
+2. `PUBLISHER_SCHEMA_OR_AUTHORITY_REJECTED` — envelope schema, author association, submission ID or size fails before target inspection.
+3. `TARGET_ABSENT_AT_PRECHECK` — publisher GET returns 404; this is only a precondition, not publication.
+4. `WRITE_CONFLICT_409` — validated content reached the Contents API PUT, which returned 409. Cause may be a branch-ref race or another conflict; do not call it a digest rejection.
+5. `TARGET_COLLISION` — a canonical path exists with different content; never overwrite it.
+6. `READBACK_MISMATCH` — the PUT returned but canonical readback differs from the exact submitted content.
+7. `PUBLISHED_VERIFIED` — publisher confirmation plus exact issue-envelope/canonical-artifact content match and digest verification are present.
+
+### Bounded recovery rule for HTTP 409
+
+After a 409, preserve the original issue as the sole intake and perform one read-only reconciliation: fetch the exact issue envelope, comments, canonical target path and current `main` head. Then:
+
+- If the target exists and its decoded content is byte-for-byte identical to the frozen submission, classify idempotent publication and verify the digest/comment; do not write again.
+- If the target exists with different content, stop at `TARGET_COLLISION`; no overwrite or duplicate issue.
+- If the target is absent, the issue envelope is unchanged, and `main` advanced after the failed job's checkout, one rerun of the **same failed publisher job on the same issue** is permitted after recording the new main head. This is a bounded retry against changed repository state, not a retry of an unchanged failure.
+- If `main` did not advance, do not retry without the 409 response body or another changed diagnostic. Preserve the failure and route it to the publisher maintainer.
+- If the single rerun also returns 409 while the target remains absent, stop. Record `REF_CONFLICT_ESCALATION / NOT_PUBLISHED`; no third attempt, issue edit, manual canonical-path write, or duplicate issue.
+- On any apparent success, independently compare the exact issue-envelope `content`, workspace report and canonical artifact; recompute SHA-256 over the exact UTF-8 content; and retain the publisher confirmation plus readback. A green Actions conclusion alone is insufficient.
+
+**Applied recovery state at Layer 19 creation:** one failed attempt was confirmed; pre-retry target absence and unchanged issue were rechecked; the main head had advanced from the checkout commit. One rerun was submitted against the same run/issue. Attempt 2 was still IN_PROGRESS at the last readback; no publication success is claimed here. Its final disposition must be appended as an applied witness, not inferred.
+
+**Limits:** this is an operational failure-classification and recovery protocol, not a code change to `tools/issue_publish.py`, not a global fix for all GitHub Contents API conflicts, and not proof of the exact internal cause of this 409. No theory, Lean, physical calculation, equation, paper, or BEDROCK claim is involved.
