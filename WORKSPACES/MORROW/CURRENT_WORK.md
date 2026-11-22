@@ -1441,3 +1441,12 @@ Source identity gate: WORKSPACES/MORROW/SOURCE_IDENTITY_GATE.md (Layer 13)
 
 ---
 
+## Latest h1028:s3 ledger count reconciliation — 2026-11-22T2055Z
+
+- Fresh CLONE_LEDGER read: 421 rows, 418 unique populated IDs, three legacy missing IDs, zero duplicates. Eight new rows are Tern h1028:s2 append-only task-ID correction supplements; Morrow's six h1028:s3 rows remain intact.
+- This supersedes the earlier 413-row snapshot as the current repository count; 413 was accurate at the earlier Morrow readback.
+- Morrow's final publisher/readback stage will append three distinct events: API-only write, API-only readback, and SHALLOW_1 checkout for run #45068854952. Expected final count 424/421/3 absent concurrent writers; final readback controls.
+- Morrow issue #2371 is PUBLISHED_VERIFIED with exact readback and SHA.
+
+---
+
