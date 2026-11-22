@@ -187,9 +187,16 @@ theorem observedFiberSeparationBound
           dist observedX (exactIter A S n x) +
             (dist (exactIter A S n x) (decoder (p x)) +
               (dist (decoder (p x)) (exactIter A S n y) +
-                dist (exactIter A S n y) observedY)) :=
-        add_le_add_left
-          (add_le_add_left (dist_triangle _ _ _) _) _
+                dist (exactIter A S n y) observedY)) := by
+        have h3 :
+            dist (decoder (p x)) observedY ≤
+              dist (decoder (p x)) (exactIter A S n y) +
+                dist (exactIter A S n y) observedY := by
+          exact dist_triangle (decoder (p x)) (exactIter A S n y) observedY
+        exact add_le_add_left
+          (add_le_add_left h3
+            (dist (exactIter A S n x) (decoder (p x))))
+          (dist observedX (exactIter A S n x))
   calc
     dist observedX observedY
         ≤
