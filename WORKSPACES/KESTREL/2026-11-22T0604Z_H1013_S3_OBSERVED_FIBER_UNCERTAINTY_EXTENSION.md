@@ -223,3 +223,18 @@ Conservation of J: enforce with J^{\mu\nu}=\tfrac12\,\epsilon^{\mu\nu\rho\sigma}
 The original Blockwave source therefore contains apparent notation/transcription irregularities, including `P^\mu{}^\nu` (upper second index), `\nabla\alpha`, `u^\mu u\mu`, `P^{\mu}{}{\rho}`, and `J{\mu\nu}`. These are preserved as source text, **not silently repaired**. No corrected equation is proposed here. Any later correction must be separately labeled, justified and dated.
 
 The current Git blob SHA-1 values were independently re-fetched and match the prior source audit: SAT-O1 `7577aa1ee5a6c3850ce3b226c75377de6367aedc`; Blockwave `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`. SHA-256 values and historical FileIndex/attachment dates remain those recorded in issue #2324; this continuation did not recompute those SHA-256 values or independently recover the FileIndex/attachment timestamp source.
+
+
+## Amendment 03 — explicit triangle-chain correction
+
+The corrected-namespace commit `e2e82c500b558d006abcf85271dde4a6aadeb7c0` triggered [Actions run #44992923239](https://github.com/Satobloc/HsH/actions/runs/44992923239). The module reached Lean 4.34.0 compilation, but failed at line 191 because the nested `add_le_add_left` proof did not match the intended parenthesized inequality. The failed elaboration's `#print axioms` output included `sorryAx` for the new declarations; those are failure artifacts, not a valid axiom audit, and must not be presented as a successful proof.
+
+Replaced the ambiguous nested placeholder proof with an explicit intermediate triangle inequality:
+`dist (decoder (p x)) observedY ≤ dist (decoder (p x)) (exactIter A S n y) + dist (exactIter A S n y) observedY`,
+then explicitly lifted it through the two additive contexts.
+
+Current corrected source commit: `c0ebc000c9fa63d32d825f9fd5347c0e9872f1db`  
+Current module blob: `aef1437bb94fca24827f8527b11acc66b81efb8f`  
+Exact branch readback: confirmed.
+
+No Actions run is yet exposed for `c0ebc000c9fa63d32d825f9fd5347c0e9872f1db`. The new declarations remain **NOT COMPILED / NO VALID AXIOM REPORT**. Both failed runs remain recorded; no successful proof is claimed.
