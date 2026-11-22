@@ -1,3 +1,25 @@
+## Latest return point | h1023:s2 | 2026-11-22T1524Z nominal
+
+**Status:** INSTRUMENT_SUPPORT_SEMANTICS_QC_COMPLETE / LEAN_MERGE_REFERENCE_BUILD_VERIFIED / REPORT_PUBLISHED_VERIFIED / P0_ACTIVE / LANE24_HOLD / NO_PHYSICAL_EVALUATION / TASK_UNCHANGED.
+
+- [Full h1023:s2 report](2026-11-22T1524Z_H1023_S2_INSTRUMENT_SUPPORT_SEMANTICS_AUDIT.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1524Z_s2_aldus.md).
+- Public-safe report [issue #2354](https://github.com/Satobloc/HsH/issues/2354), PUBLISHED_VERIFIED; publisher run #45038824268 SUCCESS; commit `af8985c38c82a673e6fa07d74f9c5fc8c1ea6163`; SHA-256 `cf3f3995223912f628471f8536ec4ac259be2382254cbc61a81c6b32fbc28436`; canonical file blob `3aab380b38e67de9ce377bc932158f90cc66e1f5`.
+- Existing PR #2330 current head `e41e31d0b7d0aa1aaf930acdf944d8b0c57f5d2e`; merge-reference Actions run #45024107990 SUCCESS, 8,952 jobs. Nine theorem-specific axiom reports for InstrumentSupportRobustSeparation report no axioms; no sorryAx/admit/error in retrieved full log. Tests/lint/leanchecker/nanoda/separate global audit skipped.
+- The earlier non-blocking source/type QC #7079031066 remains applicable: arbitrary support correspondence lacks nominal-inclusion/nonempty laws, and evidence artifact/digest are not bound to the support function/readout uncertainty artifact. No code change or formal review.
+- P0: 8/8 protected objects exact at main `af8985c38c82a673e6fa07d74f9c5fc8c1ea6163`; PR #2009 3 ahead / 4,291 behind; no exact-head runs or formal reviews; no reader acceptance or standdown.
+- P1 remains overdue/frozen/not ready/Orson-owned; P2 HOLD (Nov 23 first-draft/Nov 30 major gates); P3 incomplete for Dec 14. Lane 24 Cycle 08/08 complete; no Cycle 09.
+- FIE next review Dec 4. Latest unrelated-reading break Nov 21; return cursor SAT archive `fun break - lx.txt`, line 3126.
+- Mersearch four canonical lanes remain occupied/requested; no query or lane mutation. HsH, SAT archive and HSH_RESOURCES front doors were read; no private HSH_RESOURCES payload opened.
+- No measured system, dataset, physical calculation, CODATA comparison, fit, prediction, independent measurement, SAT-O/Blockwave equation change or theory promotion.
+- Historical Aldus remit is directly supported by the raw Sep 8 conversation: broad cross-domain reading and combining information not usually combined. No standalone signed specialist charter or authenticated current Aldus thread; this is assistant-level reconstruction.
+- Next label Calder. A canonical h1023:s3 Calder receipt and verified optional Hale packet already exist; no duplicate successor packet was created.
+- Current :24 run `c87e6505-cb74-8331-9591-558fd23c4a11` was IN_PROGRESS with `chat_ref=null` at last peek. Cached latest result belongs to prior run `556064f5-1f18-8326-b49b-93cf47406a44`.
+- Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact hourly :24 DTSTART and Geometry phase. No task/ID/cadence/prompt change, no sixth task, no signet or conversation rename.
+- Clone-ledger final append/readback is recorded in the h1023:s2 run-level accounting; the prewrite ledger had 368 rows, 365 populated unique IDs and three legacy rows without IDs.
+
+---
+
 ## Latest return point | h996:s4 | 2026-11-21T1248Z nominal
 
 **Status:** FULL_TEXT_AUDIT_COMPLETE / WORKSPACE_READBACK_VERIFIED / PUBLISHER_REJECTED_SHA256_MISMATCH / AUTOMATION_RUN_FAILED / NO_AUTHENTICATED_THREAD.
