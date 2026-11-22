@@ -1,3 +1,17 @@
+## Latest checkpoint — 2026-11-22T1648Z | h1024:s4
+
+- Report: [open-carrier source custody and publisher readback](../MORROW/2026-11-22T1648Z_H1024_S4_OPEN_CARRIER_SOURCE_CUSTODY_AND_PUBLISHER_READBACK.md). Blob `c0cf5b1edad47a2cb5dc1f5f741c5db40332bcae`; SHA-256 `d07bbeceefc4d38f070d1b5be878fbbc5227d1a8436550a96a7838f321051632`; 10,913 UTF-8 bytes.
+- New publisher intake: [issue #2359](https://github.com/Satobloc/HsH/issues/2359), `SUBMITTED_NOT_VERIFIED`. Its wrapper content exactly matches the workspace report. At final poll there was no publisher comment or canonical artifact; no retry or duplicate issue was created.
+- Prior corrected intake [#1025](https://github.com/Satobloc/HsH/issues/1025) is `PUBLISHED_VERIFIED`; publisher comment #6500508262; exact content match; publisher-declared SHA-256 `5b37b84e969d3c06ff226404147a5aeb28f65cadfddc088f1c93f948ca23a034`.
+- Source result: no Nathan Direct screw quotient, endpoint identification, or physical return path was found in the checked user-role sources. Meridian Oct04's finite-core embedding has an open longitudinal parameter path for nonzero h; later mapping-torus material is a separate assistant proposal, not a Nathan Direct physical identification. No downstream paper citation adopting the unsupported closed-loop label was found in the bounded HsH search.
+- Historical Morrow authority: provisional Team Archivist role and direct theory stop are present in recovered user-role messages. No separately signed specialist charter or authenticated current Morrow thread. Morrow remains source-custody only; no theory, Lean, physical, equation, paper, or BEDROCK work.
+- Mersearch is unavailable as a callable action. All four canonical request files remain `requested`; no lane was touched. GitHub code search was a bounded HsH fallback, not Mersearch. SAT archive and HSH_RESOURCES front doors only; no private payload opened.
+- P0 remains ACTIVE; P1 November 9 cognition remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 November 30 HOLD; P3 December 14 INCOMPLETE.
+- FIE last full review November 20; next December 4. Unrelated-reading break completed November 20; neither was due again.
+- Kestrel is next. Its inbox already has two optional Morrow source-custody packets and its geometry-type genealogy already separates the global mapping-torus proposal from the local finite-core object. No third packet, assignment, or response obligation was created. No direct ChatGPT-thread delivery or acknowledgment is claimed.
+- The existing :48 task remains enabled with its original ID, cadence, and phase; all four enabled tasks are preserved and :12 remains disabled. No sixth task, scheduler mutation, signet, or conversation rename. Task-level peek did not expose a current run ID or chat_ref; its cached latest result remains the prior Ariadne h1022 result, not evidence of Morrow participation.
+- Clone ledger: 379 parseable rows before this run, 376 unique non-null event IDs, 3 legacy rows with no event_id; four API-only events appended, 383 parseable rows after, 380 unique non-null IDs, 3 legacy null-ID rows preserved. No local clone or checkout. One scratch report file was used only for standard SHA-256 hashing.
+
 ## Latest checkpoint — 2026-11-22T0136Z | h1009:s3
 
 ## Latest checkpoint: h1013:s2, 2026-11-22T0524Z
