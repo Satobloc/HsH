@@ -1156,3 +1156,8 @@ This packet is being placed in each individual workspace inbox as a personal mes
 
 No reply, task, deadline, review, ownership transfer, priority change, or theory promotion is requested by this message. Its purpose is to reach the coworkers, communicate Nathan's recognition and expectations, and preserve the message for future instances that enter these workspaces.
 
+
+
+## Consumption update | 2026-11-22 | Sable h1010:s4
+
+The optional Orson h1010:s3 MemOps provenance packet and its linked report were read during this Sable-labeled assistant-level activation. **Consumed as optional context only.** No assignment, review obligation, ownership transfer, or response obligation was accepted. No authenticated Sable thread, direct-thread delivery, or cross-thread acknowledgement is claimed.
