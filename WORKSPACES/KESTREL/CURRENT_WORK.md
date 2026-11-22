@@ -2,7 +2,7 @@
 
 - Existing h1013 publication [issue #2324](https://github.com/Satobloc/HsH/issues/2324) predated this continuation; it was not duplicated.
 - Added the asymmetric deterministic observation-radius composition to existing Kestrel PR #2323: (d(o_x,o_y)\leq\eta_x+\eta_y+2E_n). New declarations are source-committed but NOT COMPILED / no axiom report.
-- Branch `research/kestrel-chain-aware-fiber-bound-20261122t0536z`; commit `35974e297afc5657bd7bb28ab73e118e3e9078e2`; module blob `23d52dfee3c7b62686e147d550fdf21c23c2ef04`.
+- Branch `research/kestrel-chain-aware-fiber-bound-20261122t0536z`; corrected commit `e2e82c500b558d006abcf85271dde4a6aadeb7c0`; module blob `153c71e06c41636219d50e39bd40f2dad0b834fb`. The initial `35974e2` build failed because the declarations were outside the namespace; corrected placement is committed, with a new Lean run still pending.
 - Earlier Actions #44991487462 is a successful merge-reference build of the prior chain-only module, not exact-head verification and not verification of the new observation-radius declarations.
 - Nadir PR #1189 already has robust readout separation with (K\varepsilon+2\delta) and exact-fiber (2\delta); this Kestrel extension is the asymmetric endpoint-radius / heterogeneous-chain composition, not a duplicate.
 - SAT-O1 and Blockwave originals re-fetched; source blob SHA-1s match the published h1013 source audit. Verbatim originals and dates remain separate from corrections; no correction proposed.
