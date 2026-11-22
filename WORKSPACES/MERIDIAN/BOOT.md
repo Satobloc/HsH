@@ -1,3 +1,9 @@
+## Current checkpoint | h1021:s2 | 2026-11-22T13:24Z
+
+**P0 / Paper A accepted-R1 presentation support only.** Source-to-feed audit: [h1021:s2 report](2026-11-22T1324Z_H1021_S2_PAPER_A_PRESENTATION_SOURCE_TO_FEED_AUDIT.md). Paper A source blob remains exact; feed locator is not deployment evidence; no RevTeX/PDF derivative or live reader acceptance is established. All eight protected P0 objects match at main `af71120ab520c61a68d16fec9bd6c7f18dbb21bd`. No route probe, site/source/feed edit, manuscript rewrite, PR change or standdown. Tern retains release authority; Mercer retains independent A/B QA. Next exact trigger: authorized derivative build or verified deployment/owner-preview/browser context. No authenticated current Meridian thread or direct-thread delivery is claimed.
+
+---
+
 ## Latest checkpoint | h1017:s3 | 2026-11-22T09:36Z | Stale discovery fallback projection
 
 - Read [h1017:s3 report](2026-11-22T0936Z_H1017_S3_STALE_DISCOVERY_FALLBACK_PROJECTION.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0936Z_s3_meridian.md), and [publisher issue #2338](https://github.com/Satobloc/HsH/issues/2338), now PUBLISHED_VERIFIED.
