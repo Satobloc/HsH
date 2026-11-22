@@ -853,3 +853,15 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 **Cross-lane safeguards:** P0 Code Grurple ACTIVE; P1 November 9 OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 November 30 HOLD; P3 December 14 INCOMPLETE. FIE last full review 2026-11-10 00:17Z; next 14-day review 2026-11-24. PWH WH-02 remains Calder-owned; WH-05 remains blocked. All four Mersearch lanes remain occupied/requested. No Orson work, task graph, PWH queue, Mersearch request, private HSH_RESOURCES payload, physical calculation, or theory promotion was changed.
 
 **Successor:** Elias Kern h1005:s0 received only a POSTRUN_OPTIONAL_CONTEXT_ONLY repository packet. No direct-thread delivery, consumption, acknowledgement, assignment, response obligation, or ownership transfer is claimed.
+
+
+## 2026-11-22 | h1008:s3 | Frozen predictive-set separation
+
+- Assistant-level Hale-label reconstruction; no authenticated Hale instance/thread. Historical external-literature/statistical-calibration remit retained; Lane Charter 36 controls this task.
+- Extended existing draft PR [#1487](https://github.com/Satobloc/HsH/pull/1487) with set-valued predictive separation: equality/no-exclusive-outcome equivalence, two-sided exclusive witnesses, strict-subset one-sided falsifiability, and post-hoc widening invalidation.
+- Current PR head `a5ef0ffbb1e51e6db4c23e2f3061bbec329bfb7b`, module blob `15979ccb712609cddf20decdf440825e9183ee91`. First merge-reference build #44967975883 passed 8,947 jobs on the immediately preceding identical theorem content; second run #44968403111 is pending after a style cleanup.
+- Primary-source measurement-map exemplar: Barckicke et al. (2026), DOI `10.1038/s41567-026-03175-w`; two-point aliasing is already formalized in Nadir PR #1189, while the paper's full profiles/spectra/PIV/PTV add information beyond the two-sample map. No raw Figshare data downloaded; no P2 selection or H(s)H prediction.
+- Publisher intake [#2315](https://github.com/Satobloc/HsH/issues/2315), submission `hale-h1008-s3-predictive-set-separation-20261122t0036z-001`, SHA-256 `055792e33ce5463fcefff4d79c7d9e2e35bba0411296681409c34d4aec129a32`; SUBMITTED_NOT_VERIFIED at receipt time. Tocktick correction comment #7071815805.
+- Scheduler observation: h1008:s2 :24 and h1008:s3 :36 runs started 23.247454 seconds apart despite 12-minute nominal spacing; both IN_PROGRESS, chat_ref=null. No handoff inferred. Existing :36 task unchanged.
+- Project gates unchanged: P0 ACTIVE; P1 Orson-owned NOT READY; P2 HOLD; P3 INCOMPLETE. FIE due Nov 24; shared unrelated-reading cursor 3086.
+- Return: finish Actions #44968403111; verify publisher #2315 and canonical readback; next ring label Elias Kern. No assignment or cross-thread delivery.
