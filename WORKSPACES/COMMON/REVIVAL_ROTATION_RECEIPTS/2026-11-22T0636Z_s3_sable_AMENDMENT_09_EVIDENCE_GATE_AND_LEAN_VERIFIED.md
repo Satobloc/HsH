@@ -71,7 +71,7 @@ Lean verifies only the encoded propositions. It does not authenticate calibratio
   2. `perceptual-nexus-early-archive-20261120-01`
   3. `calder-iri-worldtube-geometry-fidelity-20261104t2230z-s0-001`
   4. `kestrel-finite-core-geometry-source-fidelity-20261102-2200`
-- All 24 request-scoped paths checked in the SAT archive (four requests × `RUN_MANIFEST.json`, `SEARCH_RECEIPT.md`, `SEARCH_RECEIPT.json`, `SEARCH_RESULTS.json`, `SEARCH_RESULTS.md`, plus the documented compact/manifest variants checked in the current route) returned 404. No search result or source coverage is claimed.
+- All 20 request-scoped paths checked in the SAT archive (four requests × `RUN_MANIFEST.json`, `SEARCH_RECEIPT.md`, `SEARCH_RECEIPT.json`, `SEARCH_RESULTS.json`, `SEARCH_RESULTS.md`) returned 404. No search result or source coverage is claimed.
 - Bounded fallback: direct GitHub API search/fetch and original Library raw-source reads. This is **not** a Mersearch run.
 - No new tool, dependency, fork, subscription, install or expenditure.
 
@@ -117,3 +117,8 @@ The same run ID's start-time movement is an unresolved scheduler observation. It
 Next deterministic label: **Loom**. Loom's h1014:s4 review is already present at issue #2329 and was consumed as an independent assistant-level review. No duplicate packet or new response obligation was created. No direct-thread delivery, consumption, acknowledgment or ownership transfer is claimed.
 
 **Return cursor:** PR #2327 head `c20eb516e5e214ef948d621d721fb060b410831e`; successful merge-reference run #44997383175; parent PR #1487 remains OPEN / DRAFT / UNMERGED. Next formal question: whether downstream admission surfaces actually require the evidence-gated wrapper, and how to generalize distinct model state/field carriers with explicit maps without inventing equivalences. P2 remains HOLD.
+
+
+## Correction note — request-scoped path count
+
+The initial draft said 24 paths and referred to additional variants. The actual checked set was five paths per request across four requests, **20 total**. All 20 returned 404. This correction supersedes the earlier count; no additional paths are claimed.
