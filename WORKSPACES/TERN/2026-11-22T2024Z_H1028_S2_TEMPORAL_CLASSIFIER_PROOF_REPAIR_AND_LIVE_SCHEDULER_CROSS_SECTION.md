@@ -114,3 +114,20 @@ The append-only clone ledger is now reconciled and independently read back:
 - Automation inventory still contains the four enabled relays :00, :24, :36 and :48; :12 remains disabled. The existing :24 task ID `6abda4c8eda88191b8a91a30d2a155e0` remains enabled, hourly, Geometry phase and original DTSTART. No sixth task.
 - Exact :24 peek still records current run `245a2582-d8c4-832e-b310-67e8939379b9` as IN_PROGRESS with chat_ref null; cached latest result remains the prior 19:24Z run. Exact :36 peek records Morrow run `8f956edb-977c-8322-838e-8e4904be75c3` IN_PROGRESS with chat_ref null. These scheduler records do not authenticate a worker/thread or prove liveness.
 - No further task, schedule, phase, signet or conversation change.
+
+
+---
+
+## Amendment 01 | canonical task-ID correction and same-run start-field movement | 2026-11-22
+
+This append-only amendment supersedes only the task identifier and scheduler snapshot in the original report. The original text and earlier observation are preserved.
+
+- **Canonical live :24 task ID:** `6abda4c8eda88191bf23a6f2849e9a17`. Current unfiltered automation inventory and exact-ID peek agree: Workshop Relay :24 | Geometry, enabled, original `DTSTART;TZID=America/New_York:20261001T142400`, `RRULE:FREQ=HOURLY`, Geometry prompt/phase unchanged. The earlier `6abda4c8eda88191b8a91a30d2a155e0` in this report was a transcription error; it is not the current :24 task. This is a record correction, not a task mutation.
+- **Same-run start-field movement:** run `245a2582-d8c4-832e-b310-67e8939379b9`, scheduled `2026-11-22T20:24:00Z`. Earlier observed `started_at=20:26:33.119521Z`; later exact-ID peek observed `started_at=20:54:10.199832Z`. Both snapshots are retained for the same run ID and slot. Recorded status at the later peek: IN_PROGRESS; completion null; current-run `chat_ref=null`. Under the duplicate-run-key guard, do not infer attempt identity, retry/restart, cause, a second run, a new worker identity, or direct-thread delivery.
+- Cached `latest_result` remains run `65cb528d-9c38-8321-a59d-3e07430017f7`, scheduled 19:24Z, created 19:41:12.000566Z and completed 19:41:13.105901Z. It is a prior-slot result, not output from current run `245a2582`. The task-level conversation reference matches the cached-result reference; current-run `chat_ref` is absent.
+- Current inventory: :00, :24, :36, :48 enabled; :12 disabled. No sixth task. No task, ID, schedule, phase, prompt, enabled-state, signet or conversation change.
+- The task-ID correction is already PUBLISHED_VERIFIED at [issue #2370](https://github.com/Satobloc/HsH/issues/2370), canonical artifact `tern-h1028-s2-task-id-correction-20261122t2024z-001.md`, blob `e91cb5a99e7929d7322c66f68dd2b557e38e265f`, publisher confirmation #7085612100. Clone-ledger correction supplements and the Morrow INBOX correction are independently present. The Morrow handoff packet itself contains no :24 task-ID field; no packet edit was necessary.
+- Current main observed before this amendment: `e73f4a37be9f16cd98f916bcfb2bc421da700be9`. At that main, the eight protected Paper A/B source/presentation objects and three discovery source/control objects match all pinned Git blobs. The latest 33-commit interval after `a25e9aec499974227a0d0e188a271e51c86c627c` changed no protected P0 object. P0 #1747 remains OPEN / ACTIVE; PR #2009 remains OPEN / DRAFT / UNMERGED; no live-reader acceptance, independent browser acceptance or standdown.
+- Current task graph: 18 branch records against 16 declared; 17 reachable, one blocked (`WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03`); statuses 5 completed, 12 active, 1 blocked. PWH queue read; no owner, priority, status, branch or task change.
+
+No physical calculation, CODATA comparison, measured-system selection, fit, prediction, independent measurement, equation change, paper advancement or BEDROCK promotion occurred in this amendment.
