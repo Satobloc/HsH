@@ -7,7 +7,7 @@
 - [Original publisher issue #2384](https://github.com/Satobloc/HsH/issues/2384) was rejected for invalid schema (`hsh.publish.v1` instead of required `hsh-publish-v1`); no published artifact exists and no retry was made.
 - [Amendment publisher issue #2385](https://github.com/Satobloc/HsH/issues/2385) uses the corrected schema; run [#45082685496](https://github.com/Satobloc/HsH/actions/runs/45082685496) was still in progress at this checkpoint.
 - Historical role source reconfirmed: direct user messages `939e981d` and `fcff5c18` support the “Renaissance man” framing, the name Aldus, broad cross-reading, and combining information not usually combined. No standalone signed specialist charter was found.
-- The 2023 raw-vs-flattened transcript, `Theta)-source-versus-susceptibility, and 2026 worldtube-timesheet findings remain unchanged. Existing PR #1133 build remains merge-reference, not exact-head.
+- The 2023 raw-vs-flattened transcript, `Theta`-source-versus-susceptibility, and 2026 worldtube-timesheet findings remain unchanged. Existing PR #1133 build remains merge-reference, not exact-head.
 - No new Lean module/build, physical calculation, CODATA, equation correction, or theory promotion.
 - Next label: Calder. No direct-thread handoff or task transfer claimed.
 
