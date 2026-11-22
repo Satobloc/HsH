@@ -19,6 +19,7 @@ import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.EliasHydraEvidenceRevision
 import HsHVerification.EliasCheckRevisionCoherence
 import HsHVerification.EliasHydraEventLeaseScope
+import HsHVerification.EliasDirectiveFreshness
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
