@@ -1305,3 +1305,9 @@ Correction to the immediately preceding next-cursor sentence: the live PWH queue
 - [Final scheduler readback amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook_AMENDMENT_02_FINAL_SCHEDULER_READBACK.md): :00 and :24 recorded IN_PROGRESS with stale prior latest_result pointers; :36 still surfaced prior completed h970:s3 and no h971:s3 record; :48 h970:s4 completed. Four enabled relays (:00/:24/:36/:48), :12 disabled; no configuration change.
 
 - [Final main/PR divergence amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook_AMENDMENT_03_FINAL_MAIN_PR_DIVERGENCE.md): final main `c22743b4`; PR #2009 3/1902, #2050 11/1545, #1710 7/7319. Eight protected P0 paths remain unchanged from h970 exact baseline.
+
+
+## h1028:s2 | clone-ledger finalization
+
+Clone ledger commit 71bbcd4df6b2ec93c059d635c96b74e4c5e7171e, blob 292406862873f275079af6bd45aac7f5f771c006: 407 records, 404 unique populated IDs, three legacy missing IDs, zero parse errors or duplicate populated IDs. Five Actions checkout materializations were recorded at fetch-depth 1 with exact checkout/run-head matches; all are SHALLOW_1, not full-clone claims, and Traffic attribution remains UNKNOWN. Three API-only reads and two API-only write events were recorded. No local clone or checkout occurred in this automation.
+
