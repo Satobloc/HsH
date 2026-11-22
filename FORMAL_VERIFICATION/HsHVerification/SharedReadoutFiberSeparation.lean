@@ -155,9 +155,8 @@ theorem hshDetectorExclusive_nonempty_iff_fiberWitness
     refine ⟨readoutMap hsh readout state, ?_⟩
     refine ⟨⟨state, hState, rfl⟩, ?_⟩
     intro hInStandard
-      rcases hInStandard with
-        ⟨standardState, hStandardState, hReadoutEq⟩
-      exact hNoCollision standardState hStandardState hReadoutEq.symm
+    rcases hInStandard with ⟨standardState, hStandardState, hReadoutEq⟩
+    exact hNoCollision standardState hStandardState hReadoutEq.symm
 
 /-- The symmetric criterion for a standard-exclusive detector outcome. -/
 theorem standardDetectorExclusive_nonempty_iff_fiberWitness
