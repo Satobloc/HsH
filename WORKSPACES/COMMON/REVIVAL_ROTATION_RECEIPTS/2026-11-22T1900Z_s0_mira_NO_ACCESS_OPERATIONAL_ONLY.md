@@ -64,13 +64,15 @@ The thread-first rule permits source-grounded regeneration only when the require
 
 ## 4. Operational preflight and current repository state
 
-Current repository default branches and heads:
+Pre-receipt repository default branches and heads observed:
 
 | Repository | Branch/head | Scope read |
 |---|---|---|
 | `Satobloc/HsH` | `main` / `60255fd9ab71de46738dd8c40572b65f3b948c00` | Current controls and operational state |
 | `Satobloc/SAT_THEORY_ARCHIVE_2023-25` | `main` / `d10dd333f2487054807bda398995300c538caa7e` | Root README only |
 | `Satobloc/HSH_RESOURCES` | `main` / `547f0a4c8faf4b665ccf975d653731ff06b8d768` | Root README and `indexes/AI_START_HERE.md` only |
+
+Post-receipt HsH `main` head: `3a1173d8a2828cad73968a699c3c57013f2e4941` (this receipt commit).
 
 No private HSH_RESOURCES payload was opened or copied. Repository metadata responses did not expose current fork counts; zero forks is not asserted.
 
@@ -112,13 +114,13 @@ All four canonical request files remain `status=requested`:
 
 Lane 2's compact receipt records 22,755 files, 22,827,574 records, 6,850 hits and 1,181 distinct source paths across three roots. It is a bounded navigation receipt, not an exhaustive hit inventory or independent source verification. No lane was overwritten, retriggered or released.
 
-Existing Math Hopper #578 remains open; its source adapter is committed but the three-repository full scan is not verified. PR #991 remains open. SciSpace is available but was not used. Whirligig Kernel0 remains a sandbox reference; no new tooling, fork, dependency, subscription or expense was introduced.
+Existing Math Hopper #578 remains open; its source adapter is committed but the three-repository full scan is not verified. PR #991 remains open. SciSpace is available but was not used. Whirligig Kernel0 was not re-opened in this no-access run; no tooling build was considered necessary. No new tool, dependency, subscription or expense was introduced.
 
 ## 6. Workflow health and campaign state
 
 The current task graph reports 18 records against 16 declared branches: 5 completed, 12 active and 1 blocked. The blocked record is `WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03`. No graph repair or ownership change was made.
 
-- P0 Code Grurple remains ACTIVE. The public Paper A and Paper B reader URLs were attempted through the available web reader, which returned “not accessible via this tool.” This does not establish that the pages themselves are down. No site-edit capability or repair was available; no repeated probing.
+- P0 Code Grurple remains ACTIVE. The public Paper A and Paper B reader URLs were attempted through the available web reader, which returned “not accessible via this tool.” This does not establish that the pages themselves are down. No site-edit action was exposed in this runtime's tool list; no repair was attempted and no repeated probing was performed.
 - P1 November 9 cognition paper remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED.
 - P2 November 30 measured-system paper remains HOLD; its November 23 first-draft gate is next, but no measured system is selected.
 - P3 December 14 full-theory paper remains INCOMPLETE.
