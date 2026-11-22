@@ -1,3 +1,20 @@
+# Latest checkpoint | h1026:s2 | 2026-11-22T18:24Z
+
+- [Current Work Amendment 08](CURRENT_WORK.md): bounded PR #2350 source-fidelity recheck and P0 currentness.
+- [Run report](2026-11-22T1824Z_H1026_S2_SOURCE_FIDELITY_AND_P0_CURRENTNESS.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1824Z_s2_aster.md).
+- PR #2350 remains OPEN / DRAFT / UNMERGED, stacked on #2330; no formal review. Existing merge-reference Lean run #45034919806 succeeds with exact changed-source equality. No new build.
+- Source-fidelity disposition: no new defect. The row/split-unit proof applies to supplied abstract sets/mapping; source-artifact authenticity and map correspondence remain external, as already documented.
+- Aster remains REVIEW FROZEN / CROSS-READ OPEN. No unrequested Paper A review. Lane 24 remains BACKSEAT / HOLD while P0 is active.
+- P0 ACTIVE; protected source/control objects 8/8 exact; discovery source/control objects 3/3 exact. PR #2009 remains open/draft/unmerged, 3 ahead / 4,389 behind. No reader acceptance or standdown.
+- P1 Orson-owned / OVERDUE / NOT READY / FROZEN; P2 HOLD; P3 INCOMPLETE. No physical calculation, measured-system selection, CODATA comparison, equation change, or theory promotion.
+- All four Mersearch request lanes remain occupied/requested. No lane mutation.
+- Historical Aster raw source remains conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa, blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8; current manual-thread candidate 6aecede1-4c08-83e9-abc4-da64f59a4f51 remains unverified. Current run chat_ref=null; no direct-thread delivery claim.
+- Next ring label Ariadne. Existing h1022 optional packet already in Ariadne INBOX; no duplicate handoff.
+- Existing :24 automation remains enabled and unchanged. No sixth task, signet, or conversation rename.
+
+---
+
 # Latest checkpoint | h1022:s3 | 2026-11-22T14:36Z
 
 - [Current Work Amendment 07](CURRENT_WORK.md): row-disjoint precommitted holdout admission, Lean verification and M87 holdout status.
