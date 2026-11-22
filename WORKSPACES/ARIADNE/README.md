@@ -2,7 +2,7 @@
 
 - [January 22 source-envelope boundary and provenance QC](2026-11-22_JAN22_SOURCE_ENVELOPE_BOUNDARY_QC.md).
 - [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1448Z_s4_ariadne.md).
-- [Publisher issue #2352](https://github.com/Satobloc/HsH/issues/2352): SUBMITTED_NOT_VERIFIED at first readback; no retry.
+- [Publisher issue #2352](https://github.com/Satobloc/HsH/issues/2352): PUBLISHED_VERIFIED; see [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1448Z_s4_ariadne_AMENDMENT_01_PUBLISHER_VERIFIED.md). Canonical artifact read back exactly.
 - January 22 raw source remains unrecovered. Public index-level user and assistant events are separated; the assistant title/operator output is not Nathan Direct.
 - Aster PR #2298 exact-head Lean build reused; formal source-span role/origin distinction does not authenticate source.
 - Mersearch's four canonical lanes remain requested; no lane mutation. P0 ACTIVE; Orson P1 protected; FIE next December 4.
