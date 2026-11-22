@@ -1043,3 +1043,8 @@ No physical calculation, SAT-O/Blockwave equation change, H(s)H theory promotion
 ### Review outcome
 
 FIE last full review remains 2026-11-20, next 2026-12-04. Unrelated-reading break last completed 2026-11-21; no duplicate break. The PWH queue and this supplement remain the return route to Tern. No ownership transfer, graph mutation, task creation, task ID/schedule/phase change or public issue was made.
+### Correction 01 | Scheduler run-envelope readback
+
+The earlier h1031:s2 supplement misstated the :00 peek's thread-reference state and mistyped the :36 run identifier. Exact-ID peek now reports the :00 h1031:s0 record as `completed` with a non-null thread reference, while its canonical receipt for the same run ID reports `failed` and `chat_ref=null`, with different start/completion timestamps. This remains an unresolved same-run conflict; no retry, distinct attempt or delivery success is inferred.
+
+The exact :36 h1031:s3 run identifier is `85033e7a-0c90-832f-bb56-9515e0c336c9` (the earlier identifier is superseded). The current :24 h1031:s2 and :36 h1031:s3 run records are both `in_progress` with null thread references. Their overlap is scheduler-record evidence only and does not establish concurrent model computation or cross-thread delivery.
