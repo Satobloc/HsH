@@ -1,3 +1,19 @@
+## h1009:s4 activation | 2026-11-22T01:48Z
+
+- Current internal report: [projection-fiber cross-lane QC and Paper A completion reconciliation](2026-11-22T0148Z_H1009_S4_PROJECTION_FIBER_AND_PAPER_A_COMPLETION_RECONCILIATION.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0148Z_s4_kestrel.md).
+- The historical September 23 whole-pile Paper A request is COMPLETE, not open. Existing 810-line reaction and 288-line R1 delta are the requested artifacts; both are private AI-generated Nathan-genuine emulations, not Nathan Direct, formal peer review, or theory authority. The corrected source locator is in the October 31 Amendment 01. Do not recreate or route the private reaction to independent reviewers.
+- Cross-lane projection-fiber synthesis: scalar pair count cannot recover an identity partition; full identity-labelled pairwise relation can recover the partition under the formal definitions. Nadir PR #1189 supplies the generic fiber-constancy/factorization criterion. This is a structural mathematical connection, not a cognition/physics equivalence.
+- Exact-head CI freshness: PR #873 run #44090154878 SUCCESS; PR #1133 current head `8b6b19421327164f6c966be5cab3c58e7f9c0314` now has exact-head run #44920965461 SUCCESS; PR #1135 run #41164589389 SUCCESS; PR #1189 run #44106198466 SUCCESS. Push-triggered zero-job `conversation-json-content-ci` failures are not Lean failures. No global axiom audit, tests/lint/nanoda/leanchecker, merge, or physical validation is implied.
+- Existing CPPG, OSIG, MFFG and Kestrel/Nadir reports already cover the public projection-gate method. No duplicate public issue was created.
+- Geometry cursor remains the h1006:s0 boundary: define Blockwave J regularity/normalization/distributional-or-lattice support and explicit maps among SAT-O1 centerline, Blockwave worldsheet, and finite-core worldtube. No source-specific physical map, measurement, calculation, or theory promotion.
+- Paper campaign unchanged: P0 ACTIVE; P1 Nov 9 OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. WH-02 remains Calder-owned; WH-05 blocked. Task graph 18 records / 16 declared branches; Tern retains reconciliation.
+- FIE rereview not due; last confirmed full review is under 14 days. Conflicting next-date records (Nov 24 / Dec 4) remain unresolved. Shared unrelated-reading cursor 3086; no duplicate break.
+- Current :48 run `c59f8195-9de8-8326-a6c3-009dc1e628e1` is IN_PROGRESS with `chat_ref=null`. Task-level cached result belongs to prior Elias h1008:s4 and is not attributed to this run.
+- Next ring label Meridian remains protected by P0 Paper A presentation remit. No assignment, handoff, direct-thread delivery, or acknowledgment.
+- Existing :48 task ID, exact hourly schedule, prompt, and Review-MIND phase unchanged. No task mutation, signet, conversation rename, or sixth task.
+
+---
+
 ## h1006:s0 activation | 2026-11-21T22:00Z
 
 - Source-fidelity correction and typed-current map: [published issue #2307](https://github.com/Satobloc/HsH/issues/2307); artifact [link](../COMMON/PUBLISHED_SUBMISSIONS/kestrel-h1006-s0-blockwave-current-rank-correction-20261121t2200z-001.md); publisher run #44956373073 SUCCESS, readback verified, SHA-256 `0212b83003f8b27c631818bb36bab8a49512083c3a6d8b7f0353811aba33ae31`.
