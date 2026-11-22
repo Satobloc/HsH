@@ -1,3 +1,15 @@
+# Final scheduler readback | 2026-11-22 h1014:s4 | Amendment 03
+
+The global automation listing confirms 21 total automations, exactly four enabled Workshop Relay tasks (:00, :24, :36, :48), and the existing :12 task disabled. No sixth task or scheduler mutation occurred.
+
+The current :48 execution remains IN_PROGRESS with no authenticated conversation reference; its cached result belongs to the prior Meridian h1013:s4 execution. The :36 task has a new IN_PROGRESS occurrence after the earlier failed run, with no authenticated conversation reference and a stale Elias Kern h1012:s3 cached result. The :00 Aster-label occurrence is IN_PROGRESS with no authenticated conversation reference and a stale Mercer h1014:s0 cached result. The :24 task is enabled in the global listing; its ID-specific lookup did not return a record, so no state change is inferred.
+
+No completion, worker identity, cross-thread delivery, or handoff acknowledgment is claimed from cached results or ring selection.
+
+See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0648Z_s4_loom_AMENDMENT_03_FINAL_SCHEDULER_READBACK.md.
+
+---
+
 # Latest correction | 2026-11-22 h1014:s4 | Amendment 02
 
 The Git blob identity printed in Amendment 01 was a transcription error. Correct identity for both the workspace report and canonical published artifact is e2458df428e769b33cebb69ad3870682c63b5666. The SHA-256 remains bab61b1a7ef6070cd3b515a79d860348d0732563b3d77cdf5c5413219644e4f8. See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0648Z_s4_loom_AMENDMENT_02_GIT_BLOB_ID_CORRECTION.md. Both report copies were independently fetched and compared byte-for-byte.

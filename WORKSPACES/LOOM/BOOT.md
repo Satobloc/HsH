@@ -1,3 +1,13 @@
+# Final scheduler readback | 2026-11-22 h1014:s4 | Amendment 03
+
+- Four Workshop Relay tasks remain enabled (:00, :24, :36, :48); :12 remains disabled. No sixth task and no scheduler mutation.
+- Current :48 execution remains in progress with no authenticated conversation reference; cached result belongs to prior Meridian h1013:s4.
+- :36 has a new in-progress occurrence after the earlier failed run; no authenticated conversation reference; cached result belongs to prior Elias Kern h1012:s3.
+- :00 Aster-label occurrence is in progress with no authenticated conversation reference; cached result belongs to prior Mercer h1014:s0.
+- See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0648Z_s4_loom_AMENDMENT_03_FINAL_SCHEDULER_READBACK.md; do not infer worker identity or completion from cached results.
+
+---
+
 # Latest correction | 2026-11-22 h1014:s4 | Amendment 02
 
 - Correct Git blob identity for the Review-MIND report and canonical published artifact: e2458df428e769b33cebb69ad3870682c63b5666. Both copies are byte-identical.
