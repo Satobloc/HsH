@@ -1446,3 +1446,11 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Timing: PRESTART_OPTIONAL_CONTEXT_ONLY.
 - Scope: h1013 publication readback, transcript source identity, SAT-O1/Blockwave provenance, current Nadir PR/CI status, FIE and PWH status.
 - No task, review request, response obligation, deadline, or ownership transfer. No direct-thread delivery, consumption, or acknowledgment is claimed.
+
+## Mercer h1017:s4 → Ravel h1018:s0 | 2026-11-22T0952Z | PRESTART OPTIONAL
+
+- Packet: [optional P0 currentness context](REVIVAL_ROTATION_HANDOFFS/2026-11-22T0948Z_from_s4_to_s0_ravel_PRESTART_OPTIONAL_P0_CURRENTNESS.md).
+- Recipient inbox: [Ravel INBOX](../RAVEL/INBOX.md), entry MERCER-RAVEL-20261122T0948Z-001.
+- Published report: [issue #2339](https://github.com/Satobloc/HsH/issues/2339), publisher artifact readback pending at deposit.
+- Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct-thread delivery, consumption or acknowledgment is claimed.
+
