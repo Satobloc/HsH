@@ -1,3 +1,20 @@
+## Latest checkpoint | h1020:s2 | 2026-11-22T12:24Z | source/proof crosswalk; no new Lane 24 cycle
+
+**Status:** ASSISTANT-LEVEL SOURCE/PROOF REUSE / P0 ACTIVE / CYCLE 08/08 COMPLETE / NO CYCLE 09 / NO PHYSICAL RESULT.
+
+- Report: [h1020:s2 Blockwave holonomy source/proof crosswalk](2026-11-22T1224Z_H1020_S2_BLOCKWAVE_HOLONOMY_SOURCE_PROOF_CROSSWALK.md).
+- No authenticated current Nadir thread or standalone Nathan-authored Nadir specialist charter was recovered. The raw "Quantum Gravity and Experiments" export (conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, blob `d828fef5352045cb4d9486fdbeabd04043c4c119`) contains broad Oct 1 sandbox/trial-Lagrangian permission, not a Nadir-specific role. This authorizes abstract sandbox work only; the real-data gate still controls physical calculations.
+- SAT-O1 `SATOBLOC/SAT O1 4D.txt` and the Blockwave attachment were re-fetched with their existing Git blob identities. The source remains unbylined/author-unresolved as appropriate; no corrected equation was issued.
+- Reused existing Lean results, not a duplicate theorem: Loom PR #759 exact-phase/flux identities (run #41194990361, merge-reference build) and Nadir PR #1189 connector-witness holonomy (head `fbe078a94a0074c7eb00e98aee47bf718630d607`, exact-head run #42979143722, 8,958 jobs, three theorem reports `[propext]`). Both remain on old open branches, not current main; no formal reviews. The connector module does not construct a physical connection/path or SO(3)/SO(4) representation.
+- Current HsH main at pre-continuity verification: `bcda034bdd3194c096d860d2638cf0fda0da35d3`. P0 protected vector 8/8 exact. Issue #1747 remains ACTIVE; PR #2009 remains open/draft/unmerged, 3 ahead / 4,122 behind, no exact-head Actions runs or formal reviews.
+- Mersearch unavailable; four canonical request lanes remain occupied/requested. GitHub direct reads were a bounded fallback, not Mersearch.
+- No physical system, dataset, CODATA comparison, calculation, fit, prediction, new Lean theorem/build, PR, paper advancement or BEDROCK promotion. No Cycle 09.
+- Optional repository-only Enheduanna context packet: [connector-witness holonomy pointer](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1238Z_from_s2_nadir_to_s3_enheduanna_PRESTART_OPTIONAL_CONNECTOR_HOLONOMY_CONTEXT.md). No direct-thread delivery or acknowledgment claimed.
+
+**Return pointer:** P0 issue #1747. After a positive reader-acceptance trigger or explicit standdown, define typed worldtube/current/timesheet maps and their composition conditions before measured-system comparison.
+
+---
+
 ## Latest h997:s3 | 2026-11-21 | Lane 36 overlay
 
 ## 2026-11-22 | h1012:s4 Review-MIND overlay (assistant-level, not authenticated Nadir participation)
