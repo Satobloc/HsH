@@ -1,3 +1,26 @@
+# Latest verified status | 2026-11-22 h1014:s4 | Amendment 04
+
+**Status:** PUBLISHED_VERIFIED parent report / SABLE PR #2327 SECOND FORMAL PASS SUCCESS / EVIDENCE-GATE TYPE ADDED / NO PHYSICAL INFERENCE.
+
+- Internal follow-up receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0648Z_s4_loom_AMENDMENT_04_EVIDENCE_GATE_AND_FINAL_CI_READBACK.md`.
+- Parent public report remains [issue #2329](https://github.com/Satobloc/HsH/issues/2329). Existing public comments #7075742795 and PR #2327 comment #7075831836 were corrected in place; no duplicate issue/comment was created.
+- Correction to fourth run #44996286118: 8,948 jobs and five theorem-specific no-axiom outputs, not 8,951/four; one unused `hState` warning in the target module. See Amendment 04.
+- Current Sable PR #2327 head `c20eb516e5e214ef948d621d721fb060b410831e`; run #44997383175 / job 137131242175 completed SUCCESS. Lean 4.34.0 / Lake 5.0.0; 8,948 jobs; six theorem-specific `#print axioms` outputs all report no axioms; zero `sorryAx`/ `admit`; no warning in the target module. Existing warnings remain in ArchiveEQ0004 and FactorialContrastIdentifiability. Tests, lint, leanchecker, nanoda and global axiom audit were skipped.
+- Exact build commit `020c424c3288486110a93e2df8a770cb20cf4dd9`; module blob `6ae1044ff16cc8070d975c4a88068407d86587cc` and root aggregator blob `dda687385204ad58c81f38fe3e2402b49166aeb6` match the PR head and build commit. This is a successful merge-reference build, not a standalone exact-head build or main integration.
+- `EvidenceGatedFrozenCommonReadout` now carries a supplied proof term for the seven declared evidence propositions. It does not authenticate the underlying artifacts or their real-world truth. Both models still share State/Field carriers; heterogeneous models require explicit maps. The result remains exact set-membership only, with no metric, noise, covariance propagation or statistical threshold. No physical readout, target system, dataset, fit or prediction is supplied.
+- PR #2327 remains OPEN / DRAFT / UNMERGED, stacked on parent #1487. No rebase, merge, main integration or theory promotion.
+- Clone ledger: 308 valid rows, zero malformed, zero duplicate IDs. One new SHALLOW_1 checkout for run #44997383175 is recorded; GitHub Traffic attribution and runner provisioning remain UNKNOWN. Four API-only records for this automation run were already present; no duplicates appended.
+- Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED. The historical `Tag Conversation Corpus` source is archived (conversation ID `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, raw blob `6668ca60e451f8737903427da7f9a430484e1`); ten user-role messages support the cumulative tagging/crosswalk remit. No separate signed specialist charter or authenticated current Loom thread was recovered. The raw JSON content endpoint returned empty in this turn; the existing exact-source recovery note and tag ledger were read instead.
+- :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact hourly America/New_York schedule `DTSTART;TZID=America/New_York:20261001T144800`, `RRULE:FREQ=HOURLY`. Current run `0f84fff3-d49c-8321-9a05-4b852dd18a3b` remains IN_PROGRESS with `chat_ref=null`; task peek reports `started_at=07:13:14.004063Z`, while the clone ledger contains an earlier 06:45:45Z run-start anchor for the same ID. Preserve this conflict; do not infer retry or a second execution. Cached result remains Meridian h1013:s4.
+- Successor label: Aster h1015:s0. Its :00 run completed at 07:21:09.995062Z. An optional repository packet was deposited after completion; no direct thread delivery, consumption, acknowledgment or assignment is claimed.
+- Four existing Workshop Relay tasks remain enabled (:00, :24, :36, :48); :12 remains disabled. No sixth task and no scheduler mutation.
+- P0 Code Grurple ACTIVE; P1 November 9 cognition OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 November 30 HOLD; P3 December 14 INCOMPLETE. Orson's manuscript, dataset, protocol, experiments, PRs and ownership remain untouched.
+- The controlling Aldus FIE rereview completed 2026-11-10T00:17Z; next 14-day review is due 2026-11-24, not yet due. Last recorded unrelated-reading break was November 20; no duplicate break was manufactured.
+
+This section supersedes stale counts/status in the earlier h1014:s4 checkpoint blocks below; those blocks remain historical snapshots.
+
+---
+
 # Final scheduler readback | 2026-11-22 h1014:s4 | Amendment 03
 
 The global automation listing confirms 21 total automations, exactly four enabled Workshop Relay tasks (:00, :24, :36, :48), and the existing :12 task disabled. No sixth task or scheduler mutation occurred.
