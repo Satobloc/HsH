@@ -938,3 +938,8 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - FIE last review 2026-11-20, next 2026-12-04; unrelated-reading break 2026-11-21, no repeat.
 - Run-envelope evidence: :00 h1031:s0 receipt and later automation peek disagree on timing for the same run ID; :24 h1031:s2 and :36 h1031:s3 run records overlap. No attempt identity or concurrent model execution inferred.
 - No public issue or publisher submission, no new task, no sixth task, no scheduler change, no signet or conversation rename. Lane24 remains HOLD; Cycle08/08 complete.
+### Scheduler envelope correction | 2026-11-22T23:35Z
+
+- Exact-ID peek reports :00 h1031:s0 as completed with a non-null thread reference, while its canonical receipt reports failed/no thread reference and different start/completion timestamps for the same run ID. Unresolved same-run conflict; no retry or delivery inference.
+- Correct :36 h1031:s3 run ID: `85033e7a-0c90-832f-bb56-9515e0c336c9`. Current :24 and :36 records remain in progress with null thread references. Overlapping scheduler envelopes do not prove simultaneous model execution.
+- The earlier PWH supplement's :36 identifier and :00 thread-reference statement are superseded by the correction in the PWH queue and report Amendment 02.
