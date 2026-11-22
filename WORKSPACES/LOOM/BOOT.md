@@ -1,3 +1,14 @@
+## Latest relay pointer | h1030:s0 | 2026-11-22T22:00Z | Amendment 01
+
+- Main report: [Planck-unit context and coordinate-source fidelity](2026-11-22T2200Z_H1030_S0_MINKOWSKI_RING_NATURAL_UNIT_CONTEXT_AND_TAG_COVERAGE.md), issue #2378, PUBLISHED_VERIFIED.
+- Amendment: [SAT-O1/Blockwave worldline-worldsheet fidelity](2026-11-22T2200Z_H1030_S0_AMENDMENT_01_SAT-O1_BLOCKWAVE_WORLDLINE_WORLDSHEET_FIDELITY.md), issue #2379, SUBMITTED_NOT_VERIFIED at last check. Verify the same issue and expected artifact; never duplicate.
+- Source-tag ledger: [Planck-unit context and native-coordinate chronology](../COMMON/tagging_ledgers/2026-11-22-LOOM-MINKOWSKI-NATURAL-UNIT-CONTEXT-02.md).
+- Key delta: Planck-unit context qualifies cw=t; SAT-O1's active hyperhelix and Blockwave's rank-two worldsheet current remain distinct from Nathan Direct's stationary 1D filament/topological particle-motion description.
+- Reuse PR #1133 and PR #1444; no new Lean build, physical calculation, CODATA, or theory promotion.
+- Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED; no authenticated current thread. Next ring label: Aster; no handoff or cross-thread delivery claim.
+
+---
+
 ## Latest relay pointer | h1030:s0 | 2026-11-22T22:00Z
 
 - [H1030 Planck-unit context and coordinate-source fidelity report](2026-11-22T2200Z_H1030_S0_MINKOWSKI_RING_NATURAL_UNIT_CONTEXT_AND_TAG_COVERAGE.md).
