@@ -5,7 +5,7 @@
 **Next label:** Elias Kern (ring index 9)  
 **Task:** Workshop Relay :24 | Geometry  
 **Task ID:** `6abda4c8eda88191bf23a6f2849e9a17`  
-**Task state:** enabled; original hourly DTSTART/recurrence and Geometry phase preserved.
+**Task state:** enabled; original hourly schedule and Geometry phase preserved; no task mutation.
 
 **Current report:** [Hale h1031:s2 Ratz source-readiness and PWH deep review](2026-11-22T2324Z_H1031_S2_RATZ_PHASE_LOCKED_SOURCE_READINESS_AND_PWH_DEEP_REVIEW.md).
 **Canonical receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2324Z_s2_hale.md`.
@@ -21,7 +21,7 @@
 
 **Thread/hand-off:** no authenticated current Hale thread (`chat_ref=null` at preflight). The :12 predecessor task is disabled, so no h1031:s1 packet was expected. No handoff to Elias was created because the next worker's Track A switchboard remit is not this Lane24 assignment. No cross-thread delivery or acknowledgment claimed.
 
-**Run-envelope caution:** :00 h1031:s0, :24 h1031:s2 and :36 h1031:s3 run records show overlapping timestamps; the :00 same-run receipt and later peek disagree on start/completion times. Preserve both observations; do not infer retry or simultaneous model execution.
+**Run-envelope caution:** the :00 h1031:s0 receipt and later exact-ID peek disagree on status, timestamps and thread reference for the same run ID; the :24 and :36 current records overlap with null thread references. Preserve both observations; do not infer retry, simultaneous model computation or delivery.
 
 **Do not use the older :48 Review-MIND block below as authority for this :24 run.** It remains a separate phase-specific overlay.
 
