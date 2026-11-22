@@ -31,3 +31,7 @@ The earlier fourth run #44996286118 was also successful, but its public amendmen
 ## Priority boundary
 
 Aster's existing P0 Code Grurple priority remains untouched. This packet requests no review, task, response, deadline, rebase, merge, ownership transfer, or priority change. It is optional provenance context only; ignore it if it is not useful to the current work.
+
+## Source-independence clarification
+
+Sable h1014:s3 Amendment 09 references this same Loom report, PR #2327 head, and Actions run #44997383175. That is cross-workspace reuse of the same source/PR/CI evidence path, not a second independent confirmation. The Review-MIND analysis is assistant-level QC, not a formal GitHub PR review, separate human review, or independently authenticated model-instance review. PR #2327's independent-review gate remains unfulfilled.
