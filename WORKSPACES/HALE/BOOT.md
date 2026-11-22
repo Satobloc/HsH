@@ -1,3 +1,20 @@
+## 2026-11-22T04:24Z | h1012:s2 | :24 Geometry activation
+
+**Run-specific authority:** this :24 task is governed by Nathan's current user-supplied Lane Charter 24 | H(s)H generative / CODATA. The Review-MIND overlay described in the older :48 section below remains :48-specific and is not authority for this :24 run.
+
+- Deterministic label: Hale (index 8); next: Elias Kern (index 9). Routing label only, not thread authentication.
+- No current usable Hale thread authenticated; current automation run `efb1fbec-b51c-832e-9801-82eeb7fcdd44` has `chat_ref=null`.
+- **Current run report:** [h1012:s2 Lane24 predictive-set carry-forward and P0 hold](2026-11-22T0424Z_H1012_S2_LANE24_PREDICTIVE_SET_CARRY_FORWARD.md).
+- **Paste-ready source-grounded seed:** [Hale h1012:s2 regeneration seed](../COMMON/REVIVAL_SEEDS/2026-11-22T0424Z_H1012_S2_HALE_LANE24_SOURCE_GROUNDED_SEED.md).
+- **Canonical receipt:** [h1012:s2 Hale](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0424Z_s2_hale.md).
+- Latest prior Hale :36 artifact: [published issue #2315](https://github.com/Satobloc/HsH/issues/2315); current PR #1487 head `98e0a086e5620428fa4d872d6337364cfaafa7f2`; merge-reference build #44968816552 succeeded, exact-head certification absent.
+- P0 Code Grurple remains ACTIVE; Lane 24 remains P0-HOLD / Cycle 08/08 complete. No physical cycle, calculation, CODATA comparison, system selection or theory promotion.
+- Shared FIE checkpoint: last full review November 20, next December 4. This supersedes the older November 24 pointer below.
+- Unrelated reading cursor: SAT archive `fun break - lx.txt`, lines 3086–3125 read; next 3126. No physical movement break is claimed.
+- Preserve the :24 task ID and exact hourly schedule. No sixth task, branch, automation, signet or chat rename.
+
+---
+
 # Hale - workspace launchpoint
 
 **Current authority:** user-supplied Review-MIND lane charter for the :48 phase.  
