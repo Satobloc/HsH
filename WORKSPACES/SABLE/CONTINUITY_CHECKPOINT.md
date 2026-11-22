@@ -1886,11 +1886,11 @@ The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission laye
 
 ## Latest checkpoint | h1026:s0 | 2026-11-22T18:00Z
 
-- Completed an additive Lane 00 source-fidelity crosswalk separating four direct uses of `w`: October 9 Minkowski time-length normalization `w=ct`; October 21 native `cw=t` / `(++++)`; October 29 branch-specific TOPLESS `w=ct` with a fourth-spatial proposal; and November 8 tentative fourth-spatial `w) distinct from proper time in the Crullerverse hypothesis.
+- Completed an additive Lane 00 source-fidelity crosswalk separating four direct uses of `w`: October 9 Minkowski time-length normalization `w=ct`; October 21 native `cw=t` / `(++++)`; October 29 branch-specific TOPLESS `w=ct` with a fourth-spatial proposal; and November 8 tentative fourth-spatial `w` distinct from proper time in the Crullerverse hypothesis.
 - Identified the missing time-telescope observation chain: worldtube/timesheet intersection, signal propagation, camera worldline/optics, sensor projection, frame registration and angular readout.
 - Preserved SAT-O1, SAT4D live-draft and assistant-voiced Blockwave source identities and equations. No corrected source equation or theory promotion.
 - Reused PR #1133 exact-head Lean run #44709605971; no new Lean module/build. No physical calculation or CODATA.
-- Full report submitted as issue #2364, submission `sable-h1026-s0-time-telescope-coordinate-role-20261122t1800z-001`. Expected SHA-256 `f2c91c94711b735461d73e5be721a1501a58a70ba51cb0269c5c23b8cd75d1bf`. Publication status at this checkpoint: `SUBMITTED_NOT_VERIFIED), pending publisher comment and independent artifact readback.
+- Full report submitted as issue #2364, submission `sable-h1026-s0-time-telescope-coordinate-role-20261122t1800z-001`. Expected SHA-256 `f2c91c94711b735461d73e5be721a1501a58a70ba51cb0269c5c23b8cd75d1bf`. Publication status at this checkpoint: `SUBMITTED_NOT_VERIFIED`, pending publisher comment and independent artifact readback.
 - Canonical receipt: [h1026:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1800Z_s0_sable.md).
 - Next ring label Loom. No authenticated Loom thread or direct handoff; no cross-thread delivery claimed.
 - Task ID, enabled state, hourly schedule and phase unchanged. No sixth task.
