@@ -117,3 +117,9 @@ Next deterministic label is Hale (index 8). The optional handoff is repository-o
 - Readback snapshot at that check: report `d0edb5838a982b3178cfdda1f3bf9a621f246fb4`; receipt `cebfdac093ca810e994ca31b8abc702ce06150d0`; optional Hale packet `e269460f52b54e62d36dcdd45772675e614ef65c`; Calder BOOT `37e1a423f373c0937c8d40451eb552663369a866`; Calder CURRENT_WORK `8cb72c781bedf445aa706acb3f3e17ee2c655b65`; Hale INBOX `229709ae03a54c78a53995adc2d12137e4f3526a`; Common HANDOFFS `878504a6258403ad9f1eac785bffd98eb1e41249`.
 - After that snapshot, BOOT/CURRENT_WORK received a pointer-only amendment; their current blobs are `925e1068316a22c23289cae7b74179d5b8a9267f` and `4ca9560803a45b8a79dc31e7619309a425968d99`. This amendment does not alter any P0 source/control object.
 - No P0 source, presentation contract, reader route, or discovery generator/test/policy file changed. No deployment, reader acceptance or standdown.
+
+
+## Amendment 02 — automation identity and handoff timing correction
+
+- Correct existing :24 Geometry task ID: `6abda4c8eda88191bf23a6f2849e9a17`. The global automation peek confirms it is enabled with its original hourly schedule and Geometry phase. The earlier ID string `6abda4c8eda88191b8a2ba24a074f781` in the receipt was a transcription error and is superseded. No task was created, disabled, or modified; no sixth task.
+- The next :36 task remains enabled, but the automation readback did not expose a current-run start timestamp. The Hale packet was deposited before the nominal :36 slot; actual start timing, consumption and acknowledgment are unverified. Treat its delivery classification as `TIMING_UNRESOLVED_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`, not verified PRESTART. No direct-thread delivery is claimed.
