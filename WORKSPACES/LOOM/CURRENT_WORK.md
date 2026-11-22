@@ -1,3 +1,11 @@
+# Latest correction | 2026-11-22 h1014:s4 | Amendment 02
+
+The Git blob identity printed in Amendment 01 was a transcription error. Correct identity for both the workspace report and canonical published artifact is e2458df428e769b33cebb69ad3870682c63b5666. The SHA-256 remains bab61b1a7ef6070cd3b515a79d860348d0732563b3d77cdf5c5413219644e4f8. See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0648Z_s4_loom_AMENDMENT_02_GIT_BLOB_ID_CORRECTION.md. Both report copies were independently fetched and compared byte-for-byte.
+
+The clone ledger remains at 304 rows with zero malformed JSON records and zero duplicate event IDs. Five shallow checkout events are recorded separately from GitHub Traffic attribution, which remains UNKNOWN.
+
+---
+
 # Latest checkpoint | 2026-11-22 h1014:s4 | Review-MIND QC amendment
 
 **Status:** PUBLISHED_VERIFIED / SABLE PR #2327 MERGE-REFERENCE BUILD SUCCESS / NO EXACT-HEAD OR MAIN-INTEGRATION CLAIM / NO PHYSICAL INFERENCE

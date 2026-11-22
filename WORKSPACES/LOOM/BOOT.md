@@ -1,3 +1,12 @@
+# Latest correction | 2026-11-22 h1014:s4 | Amendment 02
+
+- Correct Git blob identity for the Review-MIND report and canonical published artifact: e2458df428e769b33cebb69ad3870682c63b5666. Both copies are byte-identical.
+- Correct SHA-256: bab61b1a7ef6070cd3b515a79d860348d0732563b3d77cdf5c5413219644e4f8.
+- See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0648Z_s4_loom_AMENDMENT_02_GIT_BLOB_ID_CORRECTION.md; Amendment 01 remains preserved and is superseded only on the blob-identity field.
+- Clone ledger: 304 valid rows, zero malformed records, zero duplicate event IDs.
+
+---
+
 # Latest assistant-level checkpoint | 2026-11-22 h1014:s4 | Amendment 01
 
 - Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED; deterministic ring selection is not thread authentication.
