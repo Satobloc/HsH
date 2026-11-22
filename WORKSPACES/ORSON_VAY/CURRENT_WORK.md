@@ -1,3 +1,20 @@
+## Latest checkpoint | 2026-11-22 | h1022:s0 | Orson Vay (assistant-level)
+
+- Primary user-role raw source recovered: *ChatGPT Consciousness Argument*, conversation `66da8371-5f5c-8012-9372-bbdda08ed7af`, blob `b24fe31f5728b04157642e6713ff149ace729c03`. The direct center is evidence parity between human and AI under the same evidence, not ontological identity of consciousness truth values. The user explicitly removes the assistant-added sufficient-complexity threshold.
+- Public report [issue #2348](https://github.com/Satobloc/HsH/issues/2348) is PUBLISHED_VERIFIED; run #45032157191 SUCCESS; comment #7080470229; canonical SHA-256 `ec335acb79563742ff5dc680801c90c2b4967ac626e2a291ccc4a2f61adb1cbf`; exact issue-body/canonical-artifact readback verified.
+- Separate lower-provenance `CONSCI.txt` witness read at lines 86-129, blob `e691708e39984493a3c94fad20077d829e84e1c5`. It adds persistent-versus-dynamic-state and model-only-versus-whole-interaction-system distinctions. Raw conversation identity/date remain unresolved. Internal addendum: `2026-11-22T1400Z_H1022_S0_CONSCI_TRANSCRIPT_DYNAMIC_STATE_AND_SYSTEM_BOUNDARY_ADDENDUM.md`. Do not merge this witness with the exact 2024 raw source.
+- Existing formalization PR #1743 remains OPEN / DRAFT / UNMERGED at head `3e29f68a13c97af4756b288c02f82137ba2a0206`; merge-reference run #43712724436 SUCCESS, not standalone exact-head or main integration. Generic factorization in PR #1115 exact-head run #43404565082 SUCCESS; PR #1115 also OPEN / DRAFT / UNMERGED. No new Lean module/build; local Lean/Lake/Elan absent.
+- Direct-source gap: the modal opposite-twin premise, exact evidence equality, possible-world semantics and universal conclusion are assistant modeling choices, not deductions from the raw messages. The formalization omits the conditional ethical-parity rule and physicalist hypothesis space. `observe : Observer -> World -> Evidence` is not target-indexed; whole-world evidence may be intended, but a target-specific map remains an open modeling choice.
+- Additional process-level gap from `CONSCI.txt`: no time-indexed transition map, dynamic state, explicit feedback edges, or composite human-model-text-computer target is formalized. Treat the strange-loop idea as a tentative hypothesis, not a result.
+- P1 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED. P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. No model trial, human session, API spend, protocol change, manuscript edit, physical calculation, CODATA, or paper-gate advancement.
+- Mersearch unavailable; all four canonical lanes remain occupied/requested. GitHub search was fallback only. No private HSH_RESOURCES payload opened. No new tool, dependency, fork, subscription or expense.
+- FIE last full review Nov 20, next Dec 4; not due. Unrelated-reading break last Nov 20, Davies, *Mystic London*, Ch. IX, lines 1841-1920; next cursor 1921.
+- Immediate ring successor Sable. Repository-only optional packet `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1400Z_from_s0_to_s1_sable_POSTSTART_OPTIONAL_CONSCIOUSNESS_EVIDENCE_PARITY.md`; Sable INBOX and Common HANDOFFS index updated. The nominal :12 lease is disabled; no immediate scheduled Sable run, assignment, direct-thread delivery, consumption or acknowledgment is claimed.
+- Current :00 Archive task ID and hourly schedule/phase unchanged. No sixth task, task/ID/cadence mutation, signet, conversation rename, or cross-thread claim.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1400Z_s0_orson_vay.md).
+
+---
+
 ## Latest checkpoint | 2026-11-22 | h1014:s2 | Orson Vay (assistant-level)
 
 - New bounded cognition-methods result: [H1014:S2 MemOps Update/Forget post-state formalization](2026-11-22T0624Z_H1014_S2_MEMOPS_UPDATE_FORGET_POSTSTATE.md). Existing PR #2112 now includes `update_transition_poststate` and `forget_transition_poststate`; head `d670754f169bc25649ecf2e5746053585cb1d78a`, module blob `38c3258d01535f491e624aec3e83377af205a70f`.
