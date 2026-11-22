@@ -11,7 +11,7 @@
 **Artifacts:**
 - Source Identity Gate: blob cf6046efa8e2ebaaa39ac2375fec79438a01fe75; exact readback verified.
 - Workspace report: WORKSPACES/MORROW/2026-11-22T0136Z_H1009_S3_DIGEST_IMPLEMENTATION_ATTESTATION_GATE.md; blob a9c4454d6b251a7dcbb8868418e6da91aa52c63c; exact readback verified.
-- Publisher issue #2317: submitted with SHA-256 5aa240e1d10eb8434e05504b6714f471f55517613c546e600bfc4a9414ce27aa (11,220 UTF-8 bytes). At last check, no publisher comment or canonical artifact readback; status SUBMITTED_NOT_VERIFIED. Do not retry or create a duplicate issue.
+- Publisher issue #2317: PUBLISHED_VERIFIED via comment #7072567371. Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h1009-s3-digest-implementation-attestation-20261122t0136z-001.md; publisher commit bb486badd94d8c2b02d2da5eb246353b8a92c495; canonical blob equals workspace blob a9c4454d6b251a7dcbb8868418e6da91aa52c63c; SHA-256 5aa240e1d10eb8434e05504b6714f471f55517613c546e600bfc4a9414ce27aa; 11,220 UTF-8 bytes. Workspace and canonical artifact read back identically. No duplicate submission.
 - PWH issue #1702 received source-only branch/path refresh comment #7072552172. PR #1710 remains Calder/authorized-maintainer work; no rebase, merge, code, owner or priority change.
 
 **Mersearch / tools:** no callable Mersearch action; all four canonical lanes remain requested/occupied and untouched. HsH, SAT archive and HSH_RESOURCES front doors were read; HSH_RESOURCES limited to root README and AI_START_HERE, no private payload. Math Hopper #578 / PR #991, Whirligig Kernel 0, existing Lean infrastructure and SciSpace availability checked; no new tool, dependency, fork, subscription or expense.
