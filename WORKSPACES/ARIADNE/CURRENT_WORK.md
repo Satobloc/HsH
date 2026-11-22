@@ -1,3 +1,13 @@
+## h1030:s2 publication correction | 2026-11-22T23:03Z
+
+- Issue #2382 contained the JSON envelope (later direct readback: 4,095 characters); earlier empty-body observation was stale and is superseded.
+- Existing opened-event publisher workflow #45080857829 executed SUCCESS, but publisher bot comment #7087262041 returned REJECTED: invalid schema. Submitted schema was uppercase HSH-PUBLISH-V1; required exact value is lowercase hsh-publish-v1.
+- No PUBLISHED_SUBMISSIONS artifact, checksum confirmation or artifact readback; expected artifact path returns 404. Issue #2382 is CLOSED / NOT_PLANNED. Comment #7087254763 corrected.
+- No issue-body edit/retrigger, duplicate issue, or direct artifact write. Edited-event retry PR #1251 remains unmerged with authorization gap. Correct status: PUBLISHER_REJECTED / NO_ARTIFACT / NO_READBACK.
+- Publisher checkout recorded in CLONE_LEDGER: shallow depth 1, branch main, checkout head 89762a8c25cbd431b7824a3f41a16e4b0b0be263; run event head dfeba69544f70adca239d6110925d5a9292ae992.
+
+---
+
 ## h1030:s2 verification amendment | 2026-11-22T23:02Z
 
 - Exact-head Lean run #45080245379 SUCCESS on PR #2380 head fdc1aaefdbe4e6224cb7c074c3674bd8bc67d382; Lean 4.34.0 / Lake 5.0.0 / Mathlib 4.34.0; 8,948 build jobs. Five theorem/definition axiom reports: propext, Classical.choice, Quot.sound. No sorryAx/admit in retrieved full log. Tests, lint, leanchecker, nanoda and global axiom audit skipped.
