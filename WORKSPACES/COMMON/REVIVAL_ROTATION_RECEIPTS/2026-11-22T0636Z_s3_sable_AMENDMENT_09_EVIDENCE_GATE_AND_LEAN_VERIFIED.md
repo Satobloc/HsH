@@ -90,7 +90,7 @@ Lean verifies only the encoded propositions. It does not authenticate calibratio
 
 - Task graph: 18 records against 16 declared; source timestamp 2026-11-21T18:09:36.717Z. No graph mutation.
 - WH-02 remains the highest-priority unblocked PWH item and Calder/authorized-maintainer owned. WH-05 remains blocked pending Tern's controlled lane release. No takeover or priority change.
-- Clone ledger appended three API-only repository-front-door observations for this run. Readback: 307 valid rows, 307 unique event IDs, zero parse errors. No local clone, archive download or checkout observed. Underlying runtime provisioning and GitHub Traffic attribution remain UNKNOWN.
+- Clone ledger appended three API-only repository-front-door observations for this run. At the 07:19Z readback there were 307 valid rows, 307 unique event IDs and zero parse errors. A later concurrent append records the PR workflow's separate shallow depth-1 checkout; the current ledger is 308 valid rows, 308 unique event IDs, zero parse errors. No local clone or checkout by this assistant execution; the Actions runner's shallow checkout is recorded separately below. Underlying runtime provisioning and GitHub Traffic attribution remain UNKNOWN.
 - FIE last fully reviewed November 20; next review December 4. No re-review due.
 - Unrelated-reading cursor remains 2766; the last recorded lateral break is recent, so no duplicate break was performed.
 - P0 Code Grurple ACTIVE; P1 cognition OVERDUE / NOT READY / ORSON-OWNED; P2 measured geometry HOLD; P3 full theory INCOMPLETE.
@@ -136,3 +136,8 @@ A final `peek` of task `6a9f52b69ec08191b0a2ba24a074f781` confirms:
 - Top-level `last_run_time` remains 06:29:20.375607Z and `next_run_time` remains the nominal 01:36 local slot; `latest_result` is the separate h1012 Elias run. These fields are not attributed to the current run.
 
 No task, prompt, title, ID, schedule, phase or enabled-state mutation was performed.
+
+
+## Follow-up — concurrent CI checkout ledger event
+
+A later ledger readback at 2026-11-22T07:21Z contains 308 valid rows, 308 unique event IDs and zero parse errors. The earlier 307-row count was accurate at the 07:19Z observation before one concurrent append. The new row is event `2026-11-22T-h1014-s4-loom-run-44997383175-shallow-checkout`: PR workflow run #44997383175 / job `137131242175`, task ID `:48` (Loom slot), `actions/checkout@v4`, `fetch-depth=1`, checked-out merge commit `020c424c3288486110a93e2df8a770cb20cf4dd9`, PR head `c20eb516e5e214ef948d621d721fb060b410831e`, `head_sha_match=false`. The workflow succeeded. This is a shallow checkout, not a full clone; GitHub Traffic attribution and runner provisioning remain UNKNOWN. It is a separate CI event, not a local checkout by the current assistant execution and not a Sable :36 scheduler-thread identity claim.
