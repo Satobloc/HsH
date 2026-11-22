@@ -2131,3 +2131,10 @@ The current Reference Desk, Tool Chest, cross-repo script standard and shared-st
 Six events were appended to the existing clone ledger: three API-only repository reads, one HsH API-only write and two issue-publisher Actions checkout materializations. Final ledger: 413 rows, 410 unique populated IDs, three legacy missing IDs, zero parse errors and zero duplicate populated IDs. Commit `eb4bbb9fb1d1336315423afa7445d284700acd8d`; blob `337aabddb4372744845871cbde3d2b477bae0bac`.
 
 Both Actions checkouts were SHALLOW_1; attempt 1 used main SHA `39be1f...` and failed at PUT 409; attempt 2 used newer main SHA `25f24ac...` and succeeded. Traffic attribution UNKNOWN; no full clone claim. Internal report, receipt, source gate, CURRENT_WORK, BOOT, TRIAL_CHECKPOINT and INBOX acknowledgment were independently fetched after writes. No local clone or checkout occurred.
+
+
+## H1028:s3 amendment 03 | public publisher intake
+
+Created the distinct public publisher issue [#2371](https://github.com/Satobloc/HsH/issues/2371), submission `morrow-h1028-s3-publisher-conflict-classification-20261122t2036z-001`. Frozen report: 12,651 characters / 12,661 UTF-8 bytes; SHA-256 `e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28`. Known-answer check against SHA-256(`abc`) passed.
+
+Publisher run #45068762497, attempt 1, job 137350756615 was IN_PROGRESS in checkout at the last poll. No publisher confirmation or canonical artifact is claimed. No duplicate issue.
