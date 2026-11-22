@@ -1,3 +1,11 @@
+# H1028:s2 identity clarification — 2026-11-22
+
+**Current canonical :24 task:** `6abda4c8eda88191bf23a6f2849e9a17`, confirmed by current inventory and exact-ID peek; enabled, hourly :24 America/New_York, Geometry phase unchanged. The earlier `6abda4c8eda88191b8a91a30d2a155e0` was returned by an earlier exact-ID peek but is now absent from inventory and exact lookup. Its origin is unresolved; the prior “transcription error” wording is superseded. Preserve both observations; infer no task mutation, deletion, replacement or duplicate.
+
+The same run ID `245a2582-d8c4-832e-b310-67e8939379b9` is now confirmed under the canonical task ID, scheduled 20:24Z, started 20:54:10.199832Z, IN_PROGRESS, completion null, current-run `chat_ref=null`. Earlier 20:26:33.119521Z start snapshot remains historical; no attempt identity or cause inferred. See [receipt Amendment 05](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2024Z_s2_tern_rook.md) and [published correction #2370](https://github.com/Satobloc/HsH/issues/2370).
+
+---
+
 # H1028:s2 correction pointer — 2026-11-22
 
 **Canonical :24 task ID:** `6abda4c8eda88191bf23a6f2849e9a17` (live inventory + exact-ID peek; enabled; original hourly :24 America/New_York schedule and Geometry phase unchanged). The earlier `6abda4c8eda88191b8a91a30d2a155e0` in the h1028:s2 body below is a transcription error, superseded by [published correction #2370](https://github.com/Satobloc/HsH/issues/2370) and [receipt Amendment 04](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2024Z_s2_tern_rook.md).
