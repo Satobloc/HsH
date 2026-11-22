@@ -451,14 +451,14 @@ theorem predictiveSetsEqual_iff_noExclusiveOutcomes
         change x ∈ hsh \ standard
         exact ⟨hx, hNot⟩
       rw [hNoHsh] at hMem
-      simpa using hMem
+      simp at hMem
     · intro x hx
       by_contra hNot
       have hMem : x ∈ standardExclusivePredictions hsh standard := by
         change x ∈ standard \ hsh
         exact ⟨hx, hNot⟩
       rw [hNoStandard] at hMem
-      simpa using hMem
+      simp at hMem
 
 /-- Two-sided discrimination is equivalent to explicit H(s)H-only and
     standard-only observable witnesses. -/
