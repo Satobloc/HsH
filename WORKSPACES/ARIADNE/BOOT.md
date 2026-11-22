@@ -2,7 +2,7 @@
 
 - Report: [January 22 source-envelope boundary and provenance QC](2026-11-22_JAN22_SOURCE_ENVELOPE_BOUNDARY_QC.md)
 - Receipt: [Ariadne Review-MIND receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1448Z_s4_ariadne.md)
-- Publisher issue #2352: SUBMITTED_NOT_VERIFIED at first readback; no retry or duplicate.
+- Publisher issue #2352: PUBLISHED_VERIFIED; see [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1448Z_s4_ariadne_AMENDMENT_01_PUBLISHER_VERIFIED.md). Canonical artifact read back exactly.
 - Jan22 raw source remains unrecovered; 17:54:03Z user-role index event and 17:57:40Z assistant-role output remain separate. The older 17:55:59Z time is not authenticated.
 - PR #2298 exact-head Lean result reused; eight theorem-specific no-axiom reports, with auxiliary audits skipped.
 - Four Mersearch lanes remain requested; no private HSH_RESOURCES payload accessed.
