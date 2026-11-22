@@ -6,17 +6,19 @@ import Mathlib
 This is an abstract point-centre model, not an H(s)H physical premise.
 
 Assumptions:
-* N labelled centres in an unbounded planar base with one bounded transverse
+* N labelled centres in an unbounded planar base times one bounded transverse
   coordinate of total width h;
-* isotropic hard-core separation D;
+* isotropic pairwise hard-core separation D;
 * 0 <= h < D.
 
-The module formalizes a collision-preserving straightening path and the
-well-defined endpoint maps. It does not model finite-core tube orientation,
-framing, self-linking, fixed lateral boundaries, matter response, or a
-physical value of h or D. Continuity of the displayed homotopies is not yet
-formalized here, so this module does not claim a Lean-proved pi_1 isomorphism.
+The module formalizes a collision-preserving straightening path and endpoint
+maps. It does not model finite-core tube orientation, framing, self-linking,
+fixed lateral boundaries, matter response, or a physical value of h or D.
+Continuity of the displayed homotopies is not yet formalized here, so this
+module does not claim a Lean-proved pi_1 isomorphism.
 -/
+
+noncomputable section
 
 namespace HsHVerification.ThinSlabConfigurationHomotopy
 
@@ -58,28 +60,27 @@ theorem straightening_pairwise
     (hsep : D^2 ≤ (x1 - x2)^2 + (y1 - y2)^2 + (z1 - z2)^2) :
     D^2 ≤ (slabScale t h D)^2 * ((x1 - x2)^2 + (y1 - y2)^2)
       + (1 - t)^2 * (z1 - z2)^2 := by
+  have hDplus : 0 < D + h := by linarith
   have hA : 0 < D^2 - h^2 := by
     have hprod : 0 < (D - h) * (D + h) :=
-      mul_pos (sub_pos.mpr hthin) (add_pos hD hh)
+      mul_pos (sub_pos.mpr hthin) hDplus
     nlinarith
   have hdzAbs : |z1 - z2| ≤ h := by
     calc
-      |z1 - z2| ≤ |z1| + |z2| := abs_sub_le z1 z2
+      |z1 - z2| ≤ |z1| + |z2| := abs_sub_le z1 0 z2
       _ ≤ h / 2 + h / 2 := add_le_add hz1 hz2
       _ = h := by ring
   have hdzLo : -h ≤ z1 - z2 := (abs_le.mp hdzAbs).1
   have hdzHi : z1 - z2 ≤ h := (abs_le.mp hdzAbs).2
-  have hdz2 : (z1 - z2)^2 ≤ h^2 := by
-    have hprod : 0 ≤ (h - (z1 - z2)) * (h + (z1 - z2)) :=
-      mul_nonneg (sub_nonneg.mpr hdzHi) (by linarith)
-    nlinarith [hprod]
+  have hprod : 0 ≤ (h - (z1 - z2)) * (h + (z1 - z2)) :=
+    mul_nonneg (sub_nonneg.mpr hdzHi) (by linarith)
+  have hdz2 : (z1 - z2)^2 ≤ h^2 := by nlinarith [hprod]
   let s : ℝ := (1 - t)^2
   have hs0 : 0 ≤ s := by dsimp [s]; positivity
   have hs1 : s ≤ 1 := by
     dsimp [s]
-    have hprod : 0 ≤ t * (2 - t) :=
-      mul_nonneg ht0 (by linarith)
-    nlinarith [hprod]
+    have hprod' : 0 ≤ t * (2 - t) := mul_nonneg ht0 (by linarith)
+    nlinarith [hprod']
   let u : ℝ := ((1 - s) * h^2) / (D^2 - h^2)
   have hu : 0 ≤ u := by
     dsimp [u]
@@ -88,7 +89,6 @@ theorem straightening_pairwise
     · exact le_of_lt hA
   have hscale : slabScale t h D = 1 + u := by
     dsimp [slabScale, u, s]
-    ring
   have hscale1 : 1 ≤ slabScale t h D := by
     rw [hscale]
     linarith
@@ -110,21 +110,24 @@ theorem straightening_pairwise
   have hfinal : D^2 ≤ (slabScale t h D)^2 * (D^2 - h^2) + s * h^2 := by
     rw [hscale]
     nlinarith [hidentity, hright]
-  calc
-    D^2 ≤ (slabScale t h D)^2 * (D^2 - h^2) + s * h^2 := hfinal
-    _ = (slabScale t h D)^2 * D^2
-        - ((slabScale t h D)^2 - s) * h^2 := by ring
-    _ ≤ (slabScale t h D)^2 * D^2
-        - ((slabScale t h D)^2 - s) * (z1 - z2)^2 := by
-          exact sub_le_sub_left
-            (mul_le_mul_of_nonneg_left hdz2 hscale2) _
-    _ = (slabScale t h D)^2 * (D^2 - (z1 - z2)^2)
-        + s * (z1 - z2)^2 := by ring
-    _ ≤ (slabScale t h D)^2 * ((x1 - x2)^2 + (y1 - y2)^2)
-        + s * (z1 - z2)^2 := by
-          exact add_le_add
-            (mul_le_mul_of_nonneg_left hr2 (sq_nonneg (slabScale t h D)))
-            le_rfl
+  have hmain : D^2 ≤ (slabScale t h D)^2 * ((x1 - x2)^2 + (y1 - y2)^2)
+      + s * (z1 - z2)^2 := by
+    calc
+      D^2 ≤ (slabScale t h D)^2 * (D^2 - h^2) + s * h^2 := hfinal
+      _ = (slabScale t h D)^2 * D^2
+          - ((slabScale t h D)^2 - s) * h^2 := by ring
+      _ ≤ (slabScale t h D)^2 * D^2
+          - ((slabScale t h D)^2 - s) * (z1 - z2)^2 := by
+            exact sub_le_sub_left
+              (mul_le_mul_of_nonneg_left hdz2 hscale2) _
+      _ = (slabScale t h D)^2 * (D^2 - (z1 - z2)^2)
+          + s * (z1 - z2)^2 := by ring
+      _ ≤ (slabScale t h D)^2 * ((x1 - x2)^2 + (y1 - y2)^2)
+          + s * (z1 - z2)^2 := by
+            exact add_le_add
+              (mul_le_mul_of_nonneg_left hr2 (sq_nonneg (slabScale t h D)))
+              le_rfl
+  simpa [s] using hmain
 
 /-- The full pointwise path on a labelled finite configuration. -/
 def slabStraightening
@@ -158,20 +161,29 @@ def slabStraightening
 def slabToPlanar
     (h D : ℝ) (hh : 0 ≤ h) (hD : 0 < D) (hthin : h < D)
     {n : ℕ} (x : SlabConfig n h D) : PlanarConfig n D := by
-  refine ⟨fun i => ((slabStraightening h D 1 hh hD hthin (by norm_num) (by norm_num) x).1 i).1,
-    ?_⟩
+  refine ⟨fun i => (slabScale 1 h D * (x.1 i).1,
+      slabScale 1 h D * (x.1 i).2.1), ?_⟩
   intro i j hij
-  have hpair := (slabStraightening h D 1 hh hD hthin (by norm_num) (by norm_num) x).2.2 i j hij
-  simpa [sqDist2, sqDist3] using hpair
+  have hpair := straightening_pairwise h D 1
+    (x.1 i).1 (x.1 i).2.1 (x.1 i).2.2
+    (x.1 j).1 (x.1 j).2.1 (x.1 j).2.2
+    hh hD hthin (by norm_num) (by norm_num)
+    (x.2.1 i) (x.2.1 j) (x.2.2 i j hij)
+  have hpair' : D^2 ≤ (slabScale 1 h D)^2 *
+      ((x.1 i).1 - (x.1 j).1)^2
+      + (slabScale 1 h D)^2 *
+      ((x.1 i).2.1 - (x.1 j).2.1)^2 := by
+    simpa using hpair
+  dsimp [sqDist2]
+  nlinarith [hpair']
 
 /-- Embed a planar hard-core configuration as a zero-slab configuration. -/
 def planarToSlab
     (h D : ℝ) (hh : 0 ≤ h) {n : ℕ} (x : PlanarConfig n D) : SlabConfig n h D := by
-  refine ⟨fun i => (x.1 i).1, (x.1 i).2, 0, ?_⟩
+  refine ⟨fun i => ((x.1 i).1, (x.1 i).2, 0), ?_⟩
   constructor
   · intro i
-    simp
-    exact half_nonneg hh
+    simpa using (half_nonneg hh)
   · intro i j hij
     simpa [sqDist2, sqDist3] using x.2 i j hij
 
@@ -199,21 +211,36 @@ def planarDilation
     (h D t : ℝ) (hh : 0 ≤ h) (hD : 0 < D) (hthin : h < D)
     (ht0 : 0 ≤ t) (ht1 : t ≤ 1)
     {n : ℕ} (x : PlanarConfig n D) : PlanarConfig n D := by
-  let a : ℝ := 1 + t * h^2 / (D^2 - h^2)
+  let a : ℝ := slabScale t h D
+  have hDplus : 0 < D + h := by linarith
   have hA : 0 < D^2 - h^2 := by
     have hprod : 0 < (D - h) * (D + h) :=
-      mul_pos (sub_pos.mpr hthin) (add_pos hD hh)
+      mul_pos (sub_pos.mpr hthin) hDplus
     nlinarith
+  have hfactor : 0 ≤ 1 - (1 - t)^2 := by
+    have hprod : 0 ≤ t * (2 - t) := mul_nonneg ht0 (by linarith)
+    nlinarith [hprod]
+  have hnum : 0 ≤ (1 - (1 - t)^2) * h^2 :=
+    mul_nonneg hfactor (sq_nonneg h)
+  have hratio : 0 ≤ ((1 - (1 - t)^2) * h^2) / (D^2 - h^2) :=
+    div_nonneg hnum (le_of_lt hA)
   have ha : 1 ≤ a := by
-    dsimp [a]
-    have hnum : 0 ≤ t * h^2 := mul_nonneg ht0 (sq_nonneg h)
-    have hden : 0 < D^2 - h^2 := hA
-    positivity
+    dsimp [a, slabScale]
+    exact le_add_of_nonneg_right hratio
   refine ⟨fun i => (a * (x.1 i).1, a * (x.1 i).2), ?_⟩
   intro i j hij
   have hsep := x.2 i j hij
+  have hr2 : 0 ≤ sqDist2 (x.1 i) (x.1 j) := by
+    dsimp [sqDist2]
+    exact add_nonneg (sq_nonneg _) (sq_nonneg _)
+  have ha2 : 1 ≤ a^2 := by nlinarith
+  have hscaled : D^2 ≤ a^2 * sqDist2 (x.1 i) (x.1 j) := by
+    calc
+      D^2 ≤ sqDist2 (x.1 i) (x.1 j) := hsep
+      _ ≤ a^2 * sqDist2 (x.1 i) (x.1 j) :=
+        mul_le_mul_of_nonneg_right ha2 hr2
   dsimp [sqDist2]
-  nlinarith [hsep, sq_nonneg (a - 1)]
+  nlinarith [hscaled]
 
 /-- At t=0, planar dilation is the identity. -/
 theorem planarDilation_zero
@@ -222,7 +249,7 @@ theorem planarDilation_zero
     planarDilation h D 0 hh hD hthin (by norm_num) (by norm_num) x = x := by
   apply Subtype.ext
   funext i
-  simp [planarDilation]
+  simp [planarDilation, slabScale]
 
 /-- At t=1, planar dilation is the composite of planar embedding and straightening. -/
 theorem planarDilation_one
@@ -232,9 +259,7 @@ theorem planarDilation_one
       = slabToPlanar h D hh hD hthin (planarToSlab h D hh x) := by
   apply Subtype.ext
   funext i
-  simp [planarDilation, slabToPlanar, planarToSlab, slabStraightening,
-    straightenPoint, slabScale, sqDist2, sqDist3]
-  ring
+  simp [planarDilation, slabScale, slabToPlanar, planarToSlab]
 
 #print axioms straightening_pairwise
 #print axioms slabStraightening
