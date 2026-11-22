@@ -880,3 +880,9 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - [Actions #44968403111](https://github.com/Satobloc/HsH/actions/runs/44968403111) succeeded on merge ref `de1c8f41bf94c9ec8088613914dc4560524672c5`; module blob `15979ccb712609cddf20decdf440825e9183ee91` matched the then-current PR head `a5ef0ffbb1e51e6db4c23e2f3061bbec329bfb7b`. Lean 4.34.0 / Lake 5.0.0; 8,947 jobs; seven declarations elaborated; five standard-foundation axiom outputs and two no-axiom outputs; no sorryAx/admit. Tests, lint, leanchecker, nanoda and global axiom audit skipped.
 - Two remaining unnecessarySimpa warnings in the new section were corrected in current head `98e0a086e5620428fa4d872d6337364cfaafa7f2`, module blob `2bd14b876abd270718aec11e3821d0d866b4ac07`. Third run pending; final head not yet verified.
 - Public issue #2315 and PR #1487 received append-only comments #7071848558 and #7071848988 with this status.
+
+
+### Amendment | final-head Lean CI locator
+
+- Current PR #1487 head `98e0a086e5620428fa4d872d6337364cfaafa7f2`, module blob `2bd14b876abd270718aec11e3821d0d866b4ac07`.
+- [Actions #44968816552](https://github.com/Satobloc/HsH/actions/runs/44968816552), job `137043837667`, is IN_PROGRESS at Lake dependency-manifest generation; Lean compile has not started. Job-log retrieval returned transient 404/BlobNotFound; no failure/success inferred. Prior head #44968403111 passed 8,947 jobs. Carry #44968816552 forward; no duplicate dispatch.
