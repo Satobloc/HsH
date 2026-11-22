@@ -1,6 +1,6 @@
 ## h1031:s0 | 2026-11-22T23:00Z | Source-fidelity report and Amendment 01
 
-**Status:** ROLE_SOURCE_RECONFIRMED / ORIGINAL_REPORT_INTAKE_REJECTED_SCHEMA / AMENDMENT_01_PUBLISHED_VERIFIED / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_THEORY_PROMOTION.
+**Status:** REPOSITORY_WORK_COMPLETED / ROLE_SOURCE_RECONFIRMED / ORIGINAL_REPORT_INTAKE_REJECTED_SCHEMA / AMENDMENT_01_PUBLISHED_VERIFIED / SCHEDULED_RUN_FAILED_NO_CHAT_REF / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_THEORY_PROMOTION.
 
 **Participation:** deterministic ring label only; no authenticated current Aldus thread or historical-instance participation.
 
@@ -13,6 +13,7 @@
 - Technical source findings unchanged: 2023 raw JSON controls over the flattened SAT text copy; assistant `Theta` is an additive placeholder, not a derived susceptibility; 2026 mutual worldtube-timesheet curvature remains a distinct unmapped proposal.
 - Existing PR #1133 build is merge-reference, not exact-head. No new Lean module/build.
 - No physical calculation, fit, prediction, CODATA, equation correction, or theory promotion.
+- Scheduler note: the automation record for this slot ended `failed` with no conversation reference; its latest cached result is the prior h1030:s0 result. Repository work and Amendment 01 publication were completed here; no cross-thread delivery is claimed.
 - Next label Calder; no authenticated recipient thread or cross-thread handoff claim.
 
 ## h1023:s2 | 2026-11-22T15:24Z | Instrument-support semantics and P0 currentness
