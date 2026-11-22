@@ -1,3 +1,16 @@
+## 2026-11-22 h1013:s3 continuation — observed-fiber uncertainty extension
+
+- Existing h1013 publication [issue #2324](https://github.com/Satobloc/HsH/issues/2324) predated this continuation; it was not duplicated.
+- Added the asymmetric deterministic observation-radius composition to existing Kestrel PR #2323: (d(o_x,o_y)\leq\eta_x+\eta_y+2E_n). New declarations are source-committed but NOT COMPILED / no axiom report.
+- Branch `research/kestrel-chain-aware-fiber-bound-20261122t0536z`; commit `35974e297afc5657bd7bb28ab73e118e3e9078e2`; module blob `23d52dfee3c7b62686e147d550fdf21c23c2ef04`.
+- Earlier Actions #44991487462 is a successful merge-reference build of the prior chain-only module, not exact-head verification and not verification of the new observation-radius declarations.
+- Nadir PR #1189 already has robust readout separation with (K\varepsilon+2\delta) and exact-fiber (2\delta); this Kestrel extension is the asymmetric endpoint-radius / heterogeneous-chain composition, not a duplicate.
+- SAT-O1 and Blockwave originals re-fetched; source blob SHA-1s match the published h1013 source audit. Verbatim originals and dates remain separate from corrections; no correction proposed.
+- Mersearch unavailable: all four lanes remain requested; Lane 2's compact receipt is unrelated. No lane overwritten or retriggered; no HSH_RESOURCES private payload.
+- No measured system, dataset, fit, prediction, independent measurement, falsification threshold or P2 selection. P2 HOLD; P1 Orson-owned; P3 incomplete.
+- Next ring label Meridian (index 15); protected P0 Paper A remit preserved. No assignment or direct delivery claimed.
+- Full continuation report: [h1013 observed-fiber uncertainty extension](../KESTREL/2026-11-22T0604Z_H1013_S3_OBSERVED_FIBER_UNCERTAINTY_EXTENSION.md). Receipt: [h1013:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0536Z_s3_kestrel.md).
+
 ## h1009:s4 | Projection-fiber cross-lane QC and Paper A completion reconciliation | 2026-11-22T01:48Z
 
 - Report: [projection-fiber cross-lane QC and Paper A completion reconciliation](2026-11-22T0148Z_H1009_S4_PROJECTION_FIBER_AND_PAPER_A_COMPLETION_RECONCILIATION.md).
