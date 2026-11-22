@@ -1145,6 +1145,79 @@ theorem fresh_snapshot_alone_does_not_enable_pending_presentation
     ¬ presentationReady { r with snapshot := some w } := by
   simp [presentationReady, h]
 
+
+/-- A stale repository tree is not evidence that the source changed. Preserve
+    last-good source and derivative identities as provenance, but revoke the
+    current snapshot and every raw/default presentation surface. Metadata and
+    the independent docket decision remain intact. A later successful scan
+    must bind a fresh source-consistent snapshot before presentation can return. -/
+def repositoryStale (r : DiscoveryProjection) : DiscoveryProjection :=
+  { r with
+    presentation := .pending
+    excerptVisible := false
+    readerTargetVisible := false
+    snapshot := none }
+
+theorem repository_stale_preserves_inventory_metadata_and_docket
+    (r : DiscoveryProjection) :
+    (repositoryStale r).inventoryIndexed = r.inventoryIndexed ∧
+    (repositoryStale r).metadataVisible = r.metadataVisible ∧
+    (repositoryStale r).docketEligible = r.docketEligible ∧
+    (repositoryStale r).docketIncluded = r.docketIncluded := by
+  simp [repositoryStale]
+
+/-- A stale scan retains the last-good identity as provenance; it does not
+    claim that the retained source or derivative is current. -/
+theorem repository_stale_preserves_last_good_identity
+    (r : DiscoveryProjection) :
+    (repositoryStale r).sourceBlob = r.sourceBlob ∧
+    (repositoryStale r).derivativeSourceBlob = r.derivativeSourceBlob ∧
+    (repositoryStale r).derivativeDigest = r.derivativeDigest ∧
+    (repositoryStale r).derivativeExists = r.derivativeExists ∧
+    (repositoryStale r).derivativeDigestVerified = r.derivativeDigestVerified := by
+  simp [repositoryStale]
+
+theorem repository_stale_closes_raw_surfaces
+    (r : DiscoveryProjection) :
+    (repositoryStale r).excerptVisible = false ∧
+    (repositoryStale r).readerTargetVisible = false := by
+  simp [repositoryStale]
+
+theorem repository_stale_invalidates_current_snapshot
+    (r : DiscoveryProjection) :
+    (repositoryStale r).snapshot = none := by
+  simp [repositoryStale]
+
+theorem repository_stale_marks_presentation_pending
+    (r : DiscoveryProjection) :
+    (repositoryStale r).presentation = .pending := by
+  simp [repositoryStale]
+
+theorem repository_stale_blocks_presentation_ready
+    (r : DiscoveryProjection) :
+    ¬ presentationReady (repositoryStale r) := by
+  simp [presentationReady, repositoryStale]
+
+/-- The observed Paper A/B workspace records become metadata-only and satisfy
+    the projection gate after a stale-tree fallback revokes raw surfaces. -/
+theorem repository_stale_makes_paper_a_projection_safe :
+    projectionSafe (repositoryStale paperAObserved) := by
+  simp [projectionSafe, repositoryStale, paperAObserved]
+
+theorem repository_stale_makes_paper_b_projection_safe :
+    projectionSafe (repositoryStale paperBObserved) := by
+  simp [projectionSafe, repositoryStale, paperBObserved]
+
+#print axioms repository_stale_preserves_inventory_metadata_and_docket
+#print axioms repository_stale_preserves_last_good_identity
+#print axioms repository_stale_closes_raw_surfaces
+#print axioms repository_stale_invalidates_current_snapshot
+#print axioms repository_stale_marks_presentation_pending
+#print axioms repository_stale_blocks_presentation_ready
+#print axioms repository_stale_makes_paper_a_projection_safe
+#print axioms repository_stale_makes_paper_b_projection_safe
+
+
 #print axioms metadata_visibility_requires_inventory
 #print axioms docket_membership_requires_explicit_eligibility
 #print axioms excerpt_visibility_requires_current_presentation
