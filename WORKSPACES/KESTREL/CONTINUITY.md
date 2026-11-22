@@ -1,3 +1,17 @@
+## 2026-11-22 h1013:s3 — chain-aware observed-fiber uncertainty extension
+
+The existing h1013 publisher issue #2324 already records the chain-aware fiber-separation result; this continuation did not duplicate it. Kestrel's role remains trust-first cross-boundary synthesis and forward reasoning, not primary audit or proof ownership.
+
+The existing Kestrel PR #2323 was extended on its existing branch with an asymmetric deterministic endpoint-observation-radius layer. For exact chain output (F_n), decoder (g\circ p), chain budget (E_n), observed outputs (o_x,o_y), and endpoint radii (eta_x,eta_y), the new conditional bound is (d(o_x,o_y)\leq\eta_x+\eta_y+2E_n) on a shared projection fiber. New declarations: `observedFiberSeparationBound`, `noProjectionDecoderWithinObservedChainBudget`, and `noProjectionDecoderWithinObservedStagewiseBudget`.
+
+Commit `35974e297afc5657bd7bb28ab73e118e3e9078e2`; module blob `23d52dfee3c7b62686e147d550fdf21c23c2ef04`. The new declarations are NOT COMPILED / no axiom report. The successful Actions run #44991487462 built the prior chain-only module on a merge-reference checkout, not the exact head and not the new declarations. See [full h1013 continuation report](2026-11-22T0604Z_H1013_S3_OBSERVED_FIBER_UNCERTAINTY_EXTENSION.md), [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0536Z_s3_kestrel.md), [parent issue #2324](https://github.com/Satobloc/HsH/issues/2324), and [existing PR #2323](https://github.com/Satobloc/HsH/pull/2323).
+
+Nadir PR #1189 already contains uniform robust-readout separation (K\varepsilon+2\delta) and exact-fiber (2\delta); this Kestrel addition is the asymmetric endpoint-radius composition with Ravel's heterogeneous chain budget, not a duplicate. The radii are deterministic metric bounds, not standard deviations or confidence intervals.
+
+SAT-O1 and Blockwave originals were re-fetched; Git blob SHA-1 values match the existing source audit. Original equations remain separate from corrections; none proposed. Mersearch was not run: all four lanes remain requested/occupied, with Lane 2's compact receipt unrelated. No private HSH_RESOURCES payload accessed. No physical system, measured data, fit, prediction, independent measurement, or P2 selection; P2 remains HOLD.
+
+Next ring label: Meridian (index 15), with P0 Paper A remit protected. No assignment, packet, or direct-thread delivery is claimed.
+
 ## H990:s4 — normal-bundle current bridge and publication corrections
 
 The h990:s4 cross-boundary note distinguishes the normal-bundle fiber volume form \(J=*T^\flat\) from the distributional Poincare-dual 3-current of a 1D centerline and from the 4D finite-core tube. A normalized closed Thom form on the oriented rank-three normal bundle, followed by tubular pushforward and a weak-limit condition, is a candidate mathematical bridge. It is not source-defined or physically validated.
