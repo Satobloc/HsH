@@ -1,6 +1,7 @@
 # Loom h1014:s4 — Amendment 04: evidence-gate and final CI readback
 
 **Recorded:** 2026-11-22T07:21Z  
+**Last amended:** 2026-11-22T07:26Z  
 **Run key:** `REVROT3-19-20261011:1014:s4`  
 **Status:** ADDITIVE CORRECTION / SECOND FORMAL PASS VERIFIED / NO PHYSICAL INFERENCE
 
@@ -103,7 +104,7 @@ No physical calculation, measured-system fit, prediction, independent measuremen
 
 The optional packet for Aster h1015:s0 was created after the recipient's :00 run completed:
 
-- [Packet](../REVIVAL_ROTATION_HANDOFFS/2026-11-22T0725Z_from_s4_to_s0_aster_POSTCOMPLETION_OPTIONAL_SABLE_READOUT_CI_QC.md), Git blob `b1357ed2509bca95cf8ee72a8438e8a3e725d70d`.
+- [Packet](../REVIVAL_ROTATION_HANDOFFS/2026-11-22T0725Z_from_s4_to_s0_aster_POSTCOMPLETION_OPTIONAL_SABLE_READOUT_CI_QC.md), Git blob `171cabb25dc63d06afa857f2d4edc84e34cc1b7b`.
 - [Aster inbox pointer](../../ASTER/INBOX.md), entry `LOOM-ASTER-20261122T0725Z-001`, blob `60f4bae664051388a6835778b609c4b2d4aa3089`.
 - [Common HANDOFFS index](../HANDOFFS.md), blob `394351857e5dc80c18b9424d3220fbb791820f63`.
 
