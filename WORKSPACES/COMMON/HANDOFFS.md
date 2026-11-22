@@ -1,3 +1,13 @@
+## Latest optional handoff | 2026-11-22T1924Z | Calder h1027:s2 → Hale h1027:s3
+
+- Packet: [support-artifact binding and P0 context](REVIVAL_ROTATION_HANDOFFS/2026-11-22T1924Z_from_s2_calder_to_s3_hale_PRESTART_OPTIONAL_SUPPORT_ARTIFACT_BINDING_AND_P0_CONTEXT.md).
+- Report: [h1027 Calder audit](../CALDER/2026-11-22T1924Z_H1027_S2_SUPPORT_ARTIFACT_BINDING_AND_ROLE_SOURCE_AUDIT.md).
+- PR #2167 note: [comment #7084498679](https://github.com/Satobloc/HsH/pull/2167#issuecomment-7084498679), exact readback verified.
+- Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- No direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
+
 ## Latest optional handoff | 2026-11-22T1836Z | Ariadne h1026:s3 → Alberr h1026:s4
 
 - Packet: [certified split-envelope / uncertainty coverage context](REVIVAL_ROTATION_HANDOFFS/2026-11-22T1836Z_from_s3_ariadne_to_s4_alberr_POSTSTART_OPTIONAL_CERTIFIED_SPLIT_ENVELOPE.md).
