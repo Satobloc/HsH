@@ -917,3 +917,11 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - Mersearch unavailable as a callable action; four request files remain requested and untouched. No new tool/dependency/fork/subscription/cost. No SAT-O/Blockwave equation change or BEDROCK promotion.
 - Existing :36 automation remained enabled and unchanged; no sixth task or task/ID/cadence/phase mutation. Next label Elias Kern; no handoff/assignment because the successor's switchboard remit does not make this mathematical QA packet a task. No cross-thread delivery or acknowledgment claimed.
 - Return cursor: PR #2330 head above; Actions #45062179106; publisher issue #2366; receipt and Amendment 01.
+
+
+## h1027:s3 — preflight and scheduler-readback correction
+
+- The public report/receipt's HSH_RESOURCES read-extent sentence was too narrow. Actual read set: root README, `indexes/AI_START_HERE.md`, `HQ/TOOL_CHEST.md`, `indexes/ai_source_index/HSH_TOOLKIT.md`, `info/TOOLKIT_DIGESTION.md`, and `!_HSH_RESOURCES_INDEX.md`. These were navigation/toolkit routing only; no private research, PRIOR_ART, War Room payload or quarantined theory material was opened.
+- Existing :36 task final readback: enabled; original schedule, prompt and phase unchanged; no additional task. Recorded current run still IN_PROGRESS with null chat_ref; cached latest_result belongs to preceding h1026 run. No current-thread identity or liveness inferred.
+- Math Hopper #578 OPEN; draft PR #991 OPEN/DRAFT; Lean infrastructure PR #262 OPEN/non-mergeable; Whirligig Kernel 0 sandbox only. No new tool/dependency/fork/subscription/cost.
+- Public correction appended to [publisher issue #2366](https://github.com/Satobloc/HsH/issues/2366#issuecomment-7084692479); internal correction is [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1936Z_s3_hale_AMENDMENT_02_PREFLIGHT_AND_SCHEDULER_READBACK_CORRECTION.md).
