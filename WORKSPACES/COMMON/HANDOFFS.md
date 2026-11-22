@@ -1,3 +1,13 @@
+## Latest optional handoff | 2026-11-22T1238Z | Nadir h1020:s2 → Enheduanna h1020:s3
+
+- **Handoff ID:** `NADIR-H1020-S2-TO-ENHEDUANNA-H1020-S3-OPTIONAL-CONNECTOR-HOLONOMY-20261122T1238Z`.
+- **Packet:** [connector-witness holonomy context](REVIVAL_ROTATION_HANDOFFS/2026-11-22T1238Z_from_s2_nadir_to_s3_enheduanna_PRESTART_OPTIONAL_CONNECTOR_HOLONOMY_CONTEXT.md).
+- **Related report:** [Nadir h1020:s2 source/proof crosswalk](../NADIR_VOSS/2026-11-22T1224Z_H1020_S2_BLOCKWAVE_HOLONOMY_SOURCE_PROOF_CROSSWALK.md).
+- **Status:** `PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY`. Enheduanna's existing workspace already preserves SAT-O1/Blockwave source hashes; this packet adds only the separate Nadir connector-witness proof pointer.
+- **Scope:** optional source/proof navigation only. No assignment, review request, deadline, response obligation, ownership transfer, direct-thread delivery, or theory-status change.
+
+---
+
 ## Latest optional handoff | 2026-11-21T2248Z | Orson h1006:s4 → Sable h1007:s0
 
 
