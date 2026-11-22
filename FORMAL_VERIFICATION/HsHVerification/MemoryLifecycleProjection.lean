@@ -146,6 +146,88 @@ theorem no_snapshot_only_reconstructor :
   rw [remember_then_forget_returns_same_snapshot] at h1
   exact histories_are_distinct (h1.symm.trans h2)
 
+
+/-!
+## Evidence-span projection
+
+MemOps §3.1 states that each operation trace carries evidence spans grounded
+in exact user dialogue turns; §3.2 and §3.3 use those spans for provenance
+support and evaluation. The active memory snapshot below still stores only
+the target/value pair. This companion type makes the omitted source identity
+explicit for Remember without changing the preceding minimal transition model.
+
+This is an assistant reconstruction of the representation boundary, not a
+claim that the paper supplies this formal transition function.
+-/
+
+/-- A Remember event retains the identity of its supporting evidence span. -/
+structure ProvenancedRemember (Span : Type) where
+  target : Bool
+  value : Nat
+  evidenceSpan : Span
+
+/-- The active-state projection applies target/value but omits evidence identity. -/
+def applyProvenancedRemember {Span : Type}
+    (s : State) (operation : ProvenancedRemember Span) : Option State :=
+  if readState s operation.target = none then
+    some (writeState s operation.target (some operation.value))
+  else none
+
+/--
+Distinct supporting spans can yield the same active memory snapshot when
+target and value agree. Thus snapshot equality does not establish provenance
+equality, even when the remembered value remains active.
+-/
+theorem distinct_evidence_spans_same_snapshot
+    {Span : Type} (s : State) (target : Bool) (value : Nat)
+    (span₁ span₂ : Span)
+    (h_empty : readState s target = none)
+    (h_span : span₁ ≠ span₂) :
+    ∃ op₁ op₂ : ProvenancedRemember Span,
+      op₁ ≠ op₂ ∧
+      applyProvenancedRemember s op₁ =
+        applyProvenancedRemember s op₂ := by
+  let op₁ : ProvenancedRemember Span := ⟨target, value, span₁⟩
+  let op₂ : ProvenancedRemember Span := ⟨target, value, span₂⟩
+  refine ⟨op₁, op₂, ?_, ?_⟩
+  · intro h
+    have h' : span₁ = span₂ := by
+      simpa [op₁, op₂] using congrArg ProvenancedRemember.evidenceSpan h
+    exact h_span h'
+  · simp [op₁, op₂, applyProvenancedRemember, h_empty]
+
+/--
+No function of the active snapshot alone can recover every supporting span
+in this model. The event/provenance record must remain available separately.
+-/
+theorem no_snapshot_only_evidence_reconstructor
+    {Span : Type} (s : State) (target : Bool) (value : Nat)
+    (span₁ span₂ : Span)
+    (h_empty : readState s target = none)
+    (h_span : span₁ ≠ span₂) :
+    ¬ ∃ recover : Option State → Span,
+      ∀ operation : ProvenancedRemember Span,
+        recover (applyProvenancedRemember s operation) =
+          operation.evidenceSpan := by
+  rintro ⟨recover, hrecover⟩
+  let op₁ : ProvenancedRemember Span := ⟨target, value, span₁⟩
+  let op₂ : ProvenancedRemember Span := ⟨target, value, span₂⟩
+  have hsame :
+      applyProvenancedRemember s op₁ =
+        applyProvenancedRemember s op₂ := by
+    simp [op₁, op₂, applyProvenancedRemember, h_empty]
+  have hspan : span₁ = span₂ := by
+    calc
+      span₁ = recover (applyProvenancedRemember s op₁) :=
+        (hrecover op₁).symm
+      _ = recover (applyProvenancedRemember s op₂) :=
+        congrArg recover hsame
+      _ = span₂ := hrecover op₂
+  exact h_span hspan
+
+#print axioms distinct_evidence_spans_same_snapshot
+#print axioms no_snapshot_only_evidence_reconstructor
+
 /- Executable check of the concrete non-injective example. -/
 #eval runOperations emptyState rememberThenForget
 #eval runOperations emptyState []
