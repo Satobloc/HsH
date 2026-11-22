@@ -1,3 +1,16 @@
+## FINAL CURRENT STATE — Morrow h1028:s3 | 2026-11-22T2057Z
+
+- **PUBLISHED_VERIFIED:** Morrow h1028 report at issue #2371, submission morrow-h1028-s3-publisher-conflict-classification-20261122t2036z-001. Correct publisher run #45068854952, attempt 1, job 137351162389; confirmation #7085633808; SHA-256 e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28; canonical artifact blob e5f584244f537d717b09946454c234a9dbdfe585; exact issue-envelope/artifact equality.
+- Prior h1024 issue #2359 is also PUBLISHED_VERIFIED after one bounded same-issue retry. Its first 409 is a post-validation write conflict; branch-ref advancement is strongly supported, exact server cause unconfirmed. Source Identity Gate Layer 19 and Applied Witness 01 preserve the protocol and evidence.
+- Fresh CLONE_LEDGER read before this pointer correction: 426 rows, 423 unique populated IDs, three legacy missing IDs, zero parse errors and zero duplicate populated IDs. This pointer update adds one API-only write event; expected final count after that event is 427 rows / 424 unique / three legacy, absent concurrent writers. Final readback controls.
+- Incoming Tern h1028:s2 optional packet consumed and Morrow INBOX acknowledgment appended. No assignment or direct-thread delivery. Next ring label Kestrel; two optional Morrow packets already exist, so no third packet.
+- Morrow's September 13 direct theory stop remains active. No theory integration, Lean theory proof, physical calculation, equation, prediction, fit, independent measurement, paper work or BEDROCK promotion.
+- Mersearch unavailable as callable action; all four request files remain requested. P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. PWH remains Tern-coordinated. FIE next review December 4; unrelated-reading break last completed November 21.
+- Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly schedule, prompt and phase; no sixth task or scheduler mutation. Current run 8f956edb-977c-8322-838e-8e4904be75c3 was last observed IN_PROGRESS with null completion and null chat_ref. No authenticated current thread or liveness claim.
+- Older 413-row and pending-publication notes below are historical snapshots superseded by this final state.
+
+---
+
 ## Latest h1028:s3 ledger finalization — 2026-11-22T2051Z
 
 - CLONE_LEDGER.jsonl independently read back and parsed: 413 rows, 410 unique populated event IDs, three legacy rows without IDs, zero parse errors and zero duplicate populated IDs.
