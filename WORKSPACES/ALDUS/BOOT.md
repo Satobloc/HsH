@@ -1,3 +1,16 @@
+## Latest return point | h1031:s0 | 2026-11-22T2300Z
+
+**Status:** SOURCE_FIDELITY_DELTA_COMPLETE / ROLE_SOURCE_RECONFIRMED / ISSUE2384_REJECTED_SCHEMA / AMENDMENT_01_SUBMITTED_NOT_VERIFIED / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_THEORY_PROMOTION.
+
+- [Corrected workspace report](2026-11-22T2300Z_H1031_S0_SPACETIME_SUSCEPTIBILITY_SOURCE_FIDELITY.md), SHA-256 `e87091fcfe650475520bed92b5329c6bdba706770e9ae98a44cbe91b6e509275`.
+- [Amendment 01](2026-11-22T2300Z_H1031_S0_AMENDMENT_01_ROLE_SOURCE_AND_PUBLISHER_CORRECTION.md), SHA-256 `8a8427a477a3e2356f92e5ac3acf74ff254a545586953f37a16445d690319192`.
+- [Original publisher issue #2384](https://github.com/Satobloc/HsH/issues/2384) was rejected for invalid schema (`hsh.publish.v1` instead of required `hsh-publish-v1`); no published artifact exists and no retry was made.
+- [Amendment publisher issue #2385](https://github.com/Satobloc/HsH/issues/2385) uses the corrected schema; run [#45082685496](https://github.com/Satobloc/HsH/actions/runs/45082685496) was still in progress at this checkpoint.
+- Historical role source reconfirmed: direct user messages `939e981d` and `fcff5c18` support the “Renaissance man” framing, the name Aldus, broad cross-reading, and combining information not usually combined. No standalone signed specialist charter was found.
+- The 2023 raw-vs-flattened transcript, `Theta)-source-versus-susceptibility, and 2026 worldtube-timesheet findings remain unchanged. Existing PR #1133 build remains merge-reference, not exact-head.
+- No new Lean module/build, physical calculation, CODATA, equation correction, or theory promotion.
+- Next label: Calder. No direct-thread handoff or task transfer claimed.
+
 ## Latest return point | h1023:s2 | 2026-11-22T1524Z nominal
 
 **Status:** INSTRUMENT_SUPPORT_SEMANTICS_QC_COMPLETE / LEAN_MERGE_REFERENCE_BUILD_VERIFIED / REPORT_PUBLISHED_VERIFIED / P0_ACTIVE / LANE24_HOLD / NO_PHYSICAL_EVALUATION / TASK_UNCHANGED.
