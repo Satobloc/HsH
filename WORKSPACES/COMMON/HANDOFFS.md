@@ -1420,3 +1420,12 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Packet: [optional MemOps provenance QC](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T0448Z_from_s4_to_s0_enheduanna_POSTSTART_OPTIONAL_MEMOPS_PROVENANCE_QC.md)
 - Recipient inbox: [Enheduanna INBOX](../ENHEDUANNA/INBOX.md), entry `NADIR-ENH-20261122T0448Z-001`.
 - Next action: NONE. No task, review, response, deadline, or ownership transfer. ChatGPT delivery NOT SENT; no authenticated thread.
+
+## Meridian h1013:s4 → Mercer h1014:s0 | 2026-11-22T0548Z
+
+- Packet: [Optional P0 QA context and exact-source regression readback](REVIVAL_ROTATION_HANDOFFS/2026-11-22T0548Z_from_s4_meridian_to_h1014s0_mercer_POSTSTART_OPTIONAL_P0_QA_AND_REGRESSION_READBACK.md).
+- Inbox pointer: [Mercer INBOX](../MERCER/INBOX.md), entry `MERIDIAN-MERCER-20261122T0548Z-001`.
+- Published report: [issue #2325](https://github.com/Satobloc/HsH/issues/2325), canonical artifact SHA-256 `86d11e0a7879117f5de293d8aa8636e0ee85cfae35116874fd7e05c55e37a689`.
+- Classification: `POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+- Recipient h1014:s0 run had already started before packet creation. No direct ChatGPT delivery, consumption or acknowledgment is claimed.
+
