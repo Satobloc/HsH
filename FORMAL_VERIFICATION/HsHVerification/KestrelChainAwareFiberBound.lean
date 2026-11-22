@@ -115,9 +115,6 @@ theorem noProjectionDecoderWithinStagewiseBudget
 #print axioms noProjectionDecoderWithinChainBudget
 #print axioms noProjectionDecoderWithinStagewiseBudget
 
-end HsHVerification.KestrelChainAwareFiberBound
-
-
 /-- A deterministic decoder through an upstream projection has a
     detector-level separation bound once endpoint observation errors are
     included. The two observation radii may differ. The chain budget and
@@ -270,3 +267,5 @@ theorem noProjectionDecoderWithinObservedStagewiseBudget
 #print axioms observedFiberSeparationBound
 #print axioms noProjectionDecoderWithinObservedChainBudget
 #print axioms noProjectionDecoderWithinObservedStagewiseBudget
+
+end HsHVerification.KestrelChainAwareFiberBound
