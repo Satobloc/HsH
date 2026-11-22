@@ -1,3 +1,20 @@
+## h1021:s4 | 2026-11-22 | Ravel | source-map and integrity audit
+
+- Assistant-level source-grounded revival; no authenticated current Ravel thread or historical-instance participation.
+- Historical remit: direct archived user messages identify Ravel as primary co-theorist and assign conceptual cohesion, drift detection, and epistemic hygiene; September 12 check-in adds empirical/Kerr review responsibilities. No separately signed specialist charter.
+- Incoming Mercer h1021:s3 prestart packet was consumed. It requested no P0 action, code change, route probe, or ownership transfer.
+- Source chronology reconciled: Aug 26 Calder direct Klein-worldtube/fabric descriptions; Sep 7 Ravel direct spatial Kerr section, three-representation distinction, and historical force-primitive wording; Oct 21 Meridian direct user correction retiring the earlier reciprocal filament/timesheet-deformation construction; Nov 4 tentative mutual worldtube-timesheet curvature hypothesis; Nov 8 source-indexed two-primitive-first model with responsive medium provisional third.
+- Current source status: the Oct 21 supersession marker does not itself define Klein Fabric. The Nov 4 mutual-curvature hypothesis is a later, distinct proposal. The Sep 7 force-primitive phrase remains historical direct evidence, but the Nov 8 current primitive list does not explicitly include force. Status UNRESOLVED.
+- Existing map obligations remain open: global Klein Fabric to local Kerr/ER shell; filament/core to 4D worldtube; spatial Kerr section to filament sweep; 3D slice to timesheet; worldtube/timesheet to force/readout; timesheet normal to propagation along w; w=ct to cw=t; and 3D rotation/acceleration to a typed 4D curvature object.
+- SAT-O1 and Blockwave originals remain byte-pinned; no corrected equations issued. SAT-O1 curve is 1D; its 4D worldtube sweep map remains undefined. Blockwave attachment authorship remains unresolved.
+- PR #1133 and PR #2309 remain OPEN / DRAFT / UNMERGED. PR #2309 later merge-reference build #44962354143 succeeded with 8,957 jobs. Six theorem-specific outputs in RavelNStageHeterogeneousErrorTransfer.lean list [propext] only. The earlier #44960570508 outputs [propext, Classical.choice, Quot.sound] were accurate for the earlier module revision. The later build is merge-reference, not exact-head; tests/lint/leanchecker/nanoda/global axiom audit skipped.
+- Existing h1006 stagewise addendum #2311 received public correction comment #7080328743; PR #2309 comment #7071027233 updated in place. No duplicate issue or PR.
+- Mercer h1021:s3 issue #2346 is PUBLISHED_VERIFIED. Its prior receipt's mismatch claim was incorrect; raw issue payload and canonical artifact are identical at 9,299 UTF-8 bytes, SHA-256 beeede5e638f289064bec46e1fb11b5018665e98fdef5917684c68ec12d86669. Public correction comment #7080329438.
+- Current report file: WORKSPACES/RAVEL/2026-11-22T1348Z_H1021_S4_SOURCE_MAP_AND_CI_INTEGRITY_AUDIT.md. Publisher issue #2347 submitted; status SUBMITTED_NOT_VERIFIED pending action/readback.
+- P0 Code Grurple ACTIVE; WH-02 Calder-owned; P1 Orson Nov 9 cognition remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. Mersearch lanes all requested; no callable Mersearch action; no lane mutation. Task graph 18/16, one blocked/unreachable M87 polarimetry node. FIE next due Dec 4. Unrelated-reading cursor 3126 from Nov 21.
+- Next ring label Orson Vay. No handoff because this geometry/source audit is outside his protected P1 cognition work.
+- :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with DTSTART;TZID=America/New_York:20261001T144800 / RRULE:FREQ=HOURLY. Current run 6af046c6-7b9c-8320-8d47-62a3161a9727 remained IN_PROGRESS, chat_ref=null. No task mutation, no sixth task, no cross-thread delivery claim.
+
 
 ## H987:s3 | 2026-11-21T03:36Z | Heterogeneous projection error transfer
 
