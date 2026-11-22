@@ -1,3 +1,17 @@
+## Latest checkpoint | h1029:s3 | 2026-11-22T21:36Z | Orson Vay assistant reconstruction
+
+- New source-bounded cognition-methods result: [CRTC group-readout projection kernel](2026-11-22T2136Z_H1029_S3_CRTC_GROUP_PROJECTION_KERNEL.md); canonical receipt [h1029:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2136Z_s3_orson_vay.md).
+- New sibling draft [PR #2375](https://github.com/Satobloc/HsH/pull/2375), branch `research/orson-crtc-group-projection-20261122t2136z`, head `684d509ba9efe8ea2dfb241619a39251e3515011`. It formalizes group/subgroup/member histories, event availability/use/decision incorporation, and subgroup-to-member composition under an explicit cross-boundary closure condition. It also proves a finite one-member non-reconstruction witness for a narrow group incorporation count.
+- PR #2375 is OPEN / DRAFT / UNMERGED and stacked on the existing Orson P1 research base only to reuse its Lean 4.34.0 / Mathlib 4.34.0 workflow. The P1 protocol, CRTC v0.1, issue #564, PR #850, PR #2112 and manuscript were not modified.
+- Lean run #45073810735 was IN_PROGRESS at compile at the initial checkpoint; no successful build or axiom report claimed yet. Verify exact run and source blobs before reporting.
+- Empirical comparators: Nixon et al. arXiv:2607.27179; Kerstan et al. DOI 10.1177/00187208261477411 (publisher abstract only); Toxtli & Delaflor DOI 10.1145/3785651.3831525. No reanalysis, trial, data acquisition, or claim about consciousness/causal contribution.
+- Mersearch stable 1.0 was not callable; all four request lanes remain requested and unchanged. Lane 2 has an existing manifest/receipt. GitHub search/fetch was a bounded fallback, not exhaustive Mersearch.
+- P1 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. No paper gate or BEDROCK promotion.
+- No authenticated current Orson thread or incoming h1029:s2 Ravel packet established. No cross-thread delivery claim. Next label Sable; no new handoff because Sable's inbox already carries earlier optional Orson context and P0 remains active.
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781`, prompt, hourly schedule and phase were not modified. No sixth task, scheduler write, or conversation rename.
+
+---
+
 ## Amendment 02 | 2026-11-22 | h1025:s4 | publisher verification and same-run re-entry
 
 - Existing h1025:s4 report [issue #2363](https://github.com/Satobloc/HsH/issues/2363) is **PUBLISHED_VERIFIED**, superseding the earlier pending status. Publisher confirmation comment [#7083468114](https://github.com/Satobloc/HsH/issues/2363#issuecomment-7083468114); canonical artifact commit `1518c07b77d28bd099d5f0747359b2008abe9c46`; publisher SHA-256 `8d444fda277170fdfd0b38e68adfeefa604dba12331132ed8e594f1a34bbbaed`; 17,621 UTF-8 bytes. Workspace report and canonical artifact share blob `7ea6582c57378d4f3c6f92a89074b58b9fb03e23`; parsed issue-envelope content matches both exactly.
