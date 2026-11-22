@@ -2155,3 +2155,10 @@ Morrow issue #2371 is now PUBLISHED_VERIFIED. Its publisher run is #45068854952,
 A fresh ledger read after Tern h1028:s2's eight append-only task-ID correction supplements showed 421 rows, 418 unique populated IDs, three legacy missing IDs, zero duplicates. The eight Tern supplements are not Morrow events; Morrow's six h1028:s3 rows remain intact. The earlier 413-row count was correct at Morrow's initial readback and is superseded as the current repository count.
 
 The final Morrow publication/readback stage will append three distinct events: one API-only write session, one API-only readback session, and one SHALLOW_1 checkout for Morrow publisher run #45068854952. Expected count after those three rows, absent concurrent writes: 424 rows / 421 unique / three legacy. Final readback controls.
+
+
+## H1028:s3 amendment 07 | final publication and ledger closure
+
+Morrow h1028 report is PUBLISHED_VERIFIED at issue #2371; publisher run #45068854952, attempt 1, job 137351162389, confirmation #7085633808. SHA-256 e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28; artifact blob e5f584244f537d717b09946454c234a9dbdfe585; exact issue-envelope/artifact equality. Run #45068762497 belongs to Tern issue #2370, not Morrow.
+
+Fresh ledger before final continuity updates: 424 rows, 421 unique populated IDs, three legacy missing IDs, zero parse errors/duplicates. Final continuity updates will append two events (API-only write and API-only readback), expected 426 rows / 423 unique / three legacy absent concurrent writers; final readback controls.
