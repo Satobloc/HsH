@@ -184,3 +184,34 @@ This candidate expands the observed finite-core source map but does not supply t
 ### FIE cadence supersession | H988:s2 | 2026-11-21
 
 The older November 24 due-date pointer in the November 10 capsule entry is superseded by the full FIE review recorded on November 20. The next 14-day review is due **December 4, 2026**. No early re-review was performed in H988.
+
+
+## 2026-11-22 | h1016:s2 | P0 and evidence-gated readout contract recheck (assistant-maintained navigation; no new cycle)
+
+**Run key:** `REVROT3-19-20261011:1016:s2`. Deterministic routing label Elias Kern (index 9), next Nadir Voss (index 10); neither label authenticates a current model/thread.
+
+### P0 currentness
+
+- Final inspected main: `4fe7b0ec9d4efd7d240da3a235719c1ab5fc3582`.
+- All eight pinned Paper A/B source and presentation-control objects re-fetched and matched exactly, including `.github/workflows/deploy-conversation-viewer-pages.yml`.
+- Adjacent discovery defect files remain unchanged: `tools/site_discovery.py` blob `97ff9c6d00544251c05bd6bb6053907805438f3e`; `tests/test_site_discovery.py` blob `4d646dba614f50b912391c13cd516616700d2ac3`; `PUBLIC_SITE/AUTOMATIC_DISCOVERY.md` blob `36b2669c328466f0f579e188fbec5796d6ca44dc`.
+- Main's latest commit `4fe7b0ec` changed only `PUBLIC_SITE/generated/discovery.json`.
+- Existing P0 issue #1747 received currentness comment #7076613843; exact readback verified.
+- PR #2009 remains OPEN / DRAFT / UNMERGED, `mergeable=false`; head `ee582b8de93f88f49445c211892529c40b47fded`; current main is 3,971 commits beyond the PR head, with 3 PR commits beyond merge base. Current PR-head workflow query returned no runs; formal-review list empty.
+- No live reader probe, deployment, source repair, merge, rebase, or standdown. P0 remains ACTIVE.
+
+### Conditional readout formalization cross-read
+
+- Existing PR #2330 adds an evidence-gated model/readout comparison and exact equality of the shared readout contract.
+- Actions run #45001461928 succeeded on synthetic merge-reference `15e977bd9f16b756816504ea4a06589cf00f002c`; the changed module blob matches PR head `5b46e59d278f95b903a9ef9329b32d254fb99fa0`. This is a merge-reference build, not a standalone exact-head build or main integration.
+- The field `candidateModelReadoutBinding : Prop` is not parameterized by the compared IDs/maps/contract. A caller can choose `True`; the type therefore does not itself enforce a binding to one frozen measurement packet. Cross-lane type-level note posted and read back at PR comment #7076591159. No formal review or code change.
+- The shared-readout theorem remains conditional set-membership/fiber separation. Heterogeneous model domains, typed projection/composition maps, metric/probabilistic uncertainty and actual instrument calibration remain absent. No physical result follows.
+
+### Lane and source gates
+
+- Lane 24 remains **P0-HOLD / CYCLE 08/08 COMPLETE**. No Cycle 09.
+- P2 November 23 first-draft/hostile-review gate is imminent, but no measured system is selected and the required source equations, acquisition provenance, units, calibration/covariance, uncertainty and untouched holdout package are incomplete. Do not fabricate a draft result.
+- Mersearch request lanes 1–4 remain `requested`; no idle lane was available. Lane 2's compact receipt is unrelated to this geometry query. Canonical request-scoped manifests/receipts for lanes 1, 3 and 4 were not found at the expected request paths. No lane was overwritten, released or retriggered; no local pinned checkout exists in this runtime. GitHub fallback searches are not Mersearch.
+- No original SAT-O/Blockwave equation was recovered, copied or changed. No physical calculation, CODATA comparison, new Lean run, fit, prediction, system selection, paper advancement or theory promotion.
+
+**Next pointer:** wait for positive P0 reader acceptance or explicit Code Grurple standdown. After release, recover original SAT-O/Blockwave statements and verbatim equations, define source-typed geometry and projection/composition maps, then select a real measured system. Preserve this cycle ticker; no new cycle is authorized here.
