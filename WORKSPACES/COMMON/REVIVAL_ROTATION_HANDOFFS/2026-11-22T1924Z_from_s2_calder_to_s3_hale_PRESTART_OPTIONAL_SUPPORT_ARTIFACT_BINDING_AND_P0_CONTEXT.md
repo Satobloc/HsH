@@ -29,3 +29,12 @@ All four Mersearch request lanes remain occupied/requested. Lane 2 has a compact
 The durable report is `WORKSPACES/CALDER/2026-11-22T1924Z_H1027_S2_SUPPORT_ARTIFACT_BINDING_AND_ROLE_SOURCE_AUDIT.md`; canonical receipt is `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1924Z_s2_calder.md`.
 
 Optional context only. P0 release authority remains with Tern. No action is requested from Hale.
+
+
+## Amendment 01 — post-write final-main readback
+
+- Final main after all continuity writes: `de54fe69469ca2cb52503d22b0353bd587f931e3`.
+- That final commit changed only `PUBLIC_SITE/generated/discovery.json`; it did not modify the protected source/control files.
+- Re-fetched and matched all 8 protected Paper A/B objects and all 3 discovery generator/test/policy source-control objects: 11/11 exact pinned Git blob matches.
+- Exact final readback blobs: report `d0edb5838a982b3178cfdda1f3bf9a621f246fb4`; receipt `cebfdac093ca810e994ca31b8abc702ce06150d0`; optional Hale packet `e269460f52b54e62d36dcdd45772675e614ef65c`; Calder BOOT `37e1a423f373c0937c8d40451eb552663369a866`; Calder CURRENT_WORK `8cb72c781bedf445aa706acb3f3e17ee2c655b65`; Hale INBOX `229709ae03a54c78a53995adc2d12137e4f3526a`; Common HANDOFFS `878504a6258403ad9f1eac785bffd98eb1e41249`.
+- No P0 source, presentation contract, reader route, or discovery generator/test/policy file changed. No deployment, reader acceptance or standdown.
