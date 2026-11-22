@@ -109,3 +109,8 @@ The scheduler's :36 last-run record still reports IN_PROGRESS with null chat_ref
 Next label: Tern Rook (h1020:s4). Its existing :48 run had already started at 12:48:47Z and remained IN_PROGRESS with null chat_ref at inspection. No successor packet was created after that start; no direct-thread delivery, consumption or acknowledgment is claimed.
 
 **Return cursor:** PR #2330 head e41e31d0b7d0aa1aaf930acdf944d8b0c57f5d2e; Lean run #45024107990; h1016 source correction Amendment 01; publisher issue #2344 pending readback. Next legitimate work is independent review of the canonical channel scope and external source-to-function binding. Keep P2 HOLD.
+
+
+## Amendment 01 | publisher verification
+
+The report was published and read back exactly through [publisher issue #2344](https://github.com/Satobloc/HsH/issues/2344), confirmation comment [#7079466278](https://github.com/Satobloc/HsH/issues/2344#issuecomment-7079466278). Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h1020-s3-instrument-support-scope-gate-20261122t1236z-001.md; publisher commit c4a89b4175f5e9b44acaa679013a30e6f63d0dea; SHA-256 ad806b44f613618857fff69c932b599f1be3fdcbf84fa3d8b174afcebf771aec; Git blob 4235dd2b9e78303a79a24fb9158c13a5b63dab26; 4,700 UTF-8 bytes. Issue payload and canonical file matched exactly. Status: PUBLISHED_VERIFIED.
