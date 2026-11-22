@@ -340,3 +340,196 @@ theorem coefficientIdentifiableAfterNuisance_invariant_under_linearEquiv
 #print axioms coefficientIdentifiableAfterNuisance_invariant_under_linearEquiv
 
 end LinearizedNuisanceIdentifiability
+
+
+namespace HsHVerification.ModelSelectionPreference
+
+/-!
+## Set-valued predictive separation
+
+The sets below are to be instantiated as the *frozen, uncertainty-inclusive,
+resolution-declared* prediction regions on one common holdout-observable space,
+after shared calibration and before holdout access. Constructing and validating
+those regions is an external evidence obligation.
+
+This is a set-membership discrimination layer. It is not a likelihood-ratio,
+Bayesian, scoring-rule, or model-confidence-set procedure. In particular,
+equality or inclusion of allowed-outcome sets is not a claim that two
+probability distributions are equal. Statistical calibration and uncertainty
+remain separate requirements.
+-/
+
+section PredictiveSetSeparation
+
+variable {Observation : Type*}
+
+/-- Outcomes admitted by H(s)H but excluded by the standard comparator. -/
+def hshExclusivePredictions
+    (hsh standard : Set Observation) : Set Observation :=
+  hsh \ standard
+
+/-- Outcomes admitted by the standard comparator but excluded by H(s)H. -/
+def standardExclusivePredictions
+    (hsh standard : Set Observation) : Set Observation :=
+  standard \ hsh
+
+/-- Two-sided set-membership discrimination requires an exclusive outcome
+    in each model's frozen predictive region. -/
+def twoSidedPredictiveSeparation
+    (hsh standard : Set Observation) : Prop :=
+  (hshExclusivePredictions hsh standard).Nonempty ∧
+  (standardExclusivePredictions hsh standard).Nonempty
+
+/-- Strict inclusion of the H(s)H prediction region in the standard region. -/
+def strictPredictiveSubset
+    (smaller larger : Set Observation) : Prop :=
+  smaller ⊆ larger ∧ ¬ larger ⊆ smaller
+
+/-- H(s)H inclusion in the standard region is equivalent to having no
+    H(s)H-exclusive outcome. -/
+theorem hshPredictionSubsetStandard_iff_noHshExclusive
+    (hsh standard : Set Observation) :
+    hsh ⊆ standard ↔
+      hshExclusivePredictions hsh standard = ∅ := by
+  constructor
+  · intro hSub
+    ext x
+    constructor
+    · intro hx
+      change x ∈ hsh \ standard at hx
+      exact False.elim (hx.2 (hSub hx.1))
+    · intro hx
+      simp at hx
+  · intro hEmpty x hx
+    by_contra hNot
+    have hMem : x ∈ hshExclusivePredictions hsh standard := by
+      change x ∈ hsh \ standard
+      exact ⟨hx, hNot⟩
+    rw [hEmpty] at hMem
+    simpa using hMem
+
+/-- Standard-model inclusion in the H(s)H region is equivalent to having no
+    standard-exclusive outcome. -/
+theorem standardPredictionSubsetHsh_iff_noStandardExclusive
+    (hsh standard : Set Observation) :
+    standard ⊆ hsh ↔
+      standardExclusivePredictions hsh standard = ∅ := by
+  constructor
+  · intro hSub
+    ext x
+    constructor
+    · intro hx
+      change x ∈ standard \ hsh at hx
+      exact False.elim (hx.2 (hSub hx.1))
+    · intro hx
+      simp at hx
+  · intro hEmpty x hx
+    by_contra hNot
+    have hMem : x ∈ standardExclusivePredictions hsh standard := by
+      change x ∈ standard \ hsh
+      exact ⟨hx, hNot⟩
+    rw [hEmpty] at hMem
+    simpa using hMem
+
+/-- The two frozen prediction regions are equal exactly when neither has an
+    exclusive allowed outcome. This is observational equivalence only at the
+    declared set-membership resolution, not equality of likelihoods. -/
+theorem predictiveSetsEqual_iff_noExclusiveOutcomes
+    (hsh standard : Set Observation) :
+    hsh = standard ↔
+      hshExclusivePredictions hsh standard = ∅ ∧
+      standardExclusivePredictions hsh standard = ∅ := by
+  constructor
+  · intro hEq
+    subst standard
+    simp [hshExclusivePredictions, standardExclusivePredictions]
+  · rintro ⟨hNoHsh, hNoStandard⟩
+    apply Set.Subset.antisymm
+    · intro x hx
+      by_contra hNot
+      have hMem : x ∈ hshExclusivePredictions hsh standard := by
+        change x ∈ hsh \ standard
+        exact ⟨hx, hNot⟩
+      rw [hNoHsh] at hMem
+      simpa using hMem
+    · intro x hx
+      by_contra hNot
+      have hMem : x ∈ standardExclusivePredictions hsh standard := by
+        change x ∈ standard \ hsh
+        exact ⟨hx, hNot⟩
+      rw [hNoStandard] at hMem
+      simpa using hMem
+
+/-- Two-sided discrimination is equivalent to explicit H(s)H-only and
+    standard-only observable witnesses. -/
+theorem twoSidedPredictiveSeparation_iff_witnesses
+    (hsh standard : Set Observation) :
+    twoSidedPredictiveSeparation hsh standard ↔
+      (∃ x, x ∈ hsh ∧ x ∉ standard) ∧
+      (∃ y, y ∈ standard ∧ y ∉ hsh) := by
+  change (hsh \ standard).Nonempty ∧
+      (standard \ hsh).Nonempty ↔
+    (∃ x, x ∈ hsh ∧ x ∉ standard) ∧
+      (∃ y, y ∈ standard ∧ y ∉ hsh)
+  constructor
+  · rintro ⟨⟨x, hx⟩, ⟨y, hy⟩⟩
+    exact ⟨⟨x, hx.1, hx.2⟩, ⟨y, hy.1, hy.2⟩⟩
+  · rintro ⟨⟨x, hx, hxNot⟩, ⟨y, hy, hyNot⟩⟩
+    exact ⟨⟨x, hx, hxNot⟩, ⟨y, hy, hyNot⟩⟩
+
+/-- If H(s)H's allowed-outcome region is a strict subset of the standard
+    region, a standard-only outcome exists. -/
+theorem strictHshSubsetStandard_has_standardExclusiveOutcome
+    (hsh standard : Set Observation)
+    (hStrict : strictPredictiveSubset hsh standard) :
+    (standardExclusivePredictions hsh standard).Nonempty := by
+  rcases hStrict with ⟨_, hNotSub⟩
+  by_contra hNo
+  apply hNotSub
+  intro x hx
+  by_contra hNotHsh
+  have hMem : x ∈ standardExclusivePredictions hsh standard := by
+    change x ∈ standard \ hsh
+    exact ⟨hx, hNotHsh⟩
+  exact hNo ⟨x, hMem⟩
+
+/-- A strict H(s)H subset is one-sided: it can be falsified by a standard-only
+    outcome, but cannot yield an H(s)H-only outcome that uniquely favors it
+    under set-membership compatibility. -/
+theorem strictHshSubsetStandard_is_oneSided
+    (hsh standard : Set Observation)
+    (hStrict : strictPredictiveSubset hsh standard) :
+    ¬ (hshExclusivePredictions hsh standard).Nonempty ∧
+      (standardExclusivePredictions hsh standard).Nonempty := by
+  rcases hStrict with ⟨hSub, hNotSub⟩
+  constructor
+  · exact (hshPredictionSubsetStandard_iff_noHshExclusive hsh standard).mp hSub
+      ▸ Set.not_nonempty_iff_eq_empty.mpr rfl
+  · exact strictHshSubsetStandard_has_standardExclusiveOutcome
+      hsh standard ⟨hSub, hNotSub⟩
+
+/-- Widening an H(s)H region after seeing a formerly standard-only outcome
+    absorbs that outcome and destroys its status as an H(s)H falsification
+    witness. This is why both predictive regions must be frozen pre-holdout. -/
+theorem wideningHshRegionAbsorbsFormerStandardOnlyWitness
+    (hsh standard widened : Set Observation)
+    (x : Observation)
+    (hx : x ∈ standardExclusivePredictions hsh standard)
+    (hw : x ∈ widened) :
+    x ∉ standardExclusivePredictions widened standard := by
+  change x ∈ standard \ hsh at hx
+  change x ∉ standard \ widened
+  intro hNew
+  exact hNew.2 hw
+
+#print axioms hshPredictionSubsetStandard_iff_noHshExclusive
+#print axioms standardPredictionSubsetHsh_iff_noStandardExclusive
+#print axioms predictiveSetsEqual_iff_noExclusiveOutcomes
+#print axioms twoSidedPredictiveSeparation_iff_witnesses
+#print axioms strictHshSubsetStandard_has_standardExclusiveOutcome
+#print axioms strictHshSubsetStandard_is_oneSided
+#print axioms wideningHshRegionAbsorbsFormerStandardOnlyWitness
+
+end PredictiveSetSeparation
+
+end HsHVerification.ModelSelectionPreference
