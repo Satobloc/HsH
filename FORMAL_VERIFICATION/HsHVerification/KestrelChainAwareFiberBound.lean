@@ -1,0 +1,117 @@
+import Mathlib
+import HsHVerification.RavelNStageHeterogeneousErrorTransfer
+
+/-!
+# Kestrel: chain-aware fiber-separation bound
+
+This module composes the finite-chain approximation bound with a
+projection-fiber obstruction.
+
+If the approximate chain factors through a declared upstream projection
+p : X₀ → Y, then any two admissible inputs with the same p-value receive
+the same decoded approximate output. Ravel's finite-chain theorem bounds
+each exact/approximate output discrepancy by the recursively propagated
+stagewise budget Eₙ. Therefore, if the exact final outputs on one projection
+fiber are separated by more than 2 Eₙ, no single deterministic decoder
+through p can satisfy the chain error bound for both inputs.
+
+This is conditional map mathematics. It does not instantiate a physical
+H(s)H projection, instrument, metric, unit conversion, calibration, or
+measured system. The source-to-map translation and empirical validity of
+the stage contracts remain separate obligations.
+-/
+
+namespace HsHVerification.KestrelChainAwareFiberBound
+
+open HsHVerification.RavelNStageHeterogeneousErrorTransfer
+
+universe u v
+
+variable {X : Nat → Type u}
+variable {Y : Type v}
+variable [∀ n, PseudoMetricSpace (X n)]
+variable (A : ∀ n, X n → Prop)
+variable (S : ∀ n, StageContract A n)
+
+/-- If the approximate finite chain is a deterministic decoder of an
+    upstream projection, then two admissible inputs in the same projection
+    fiber cannot have exact final outputs separated by more than twice the
+    propagated chain-error budget. -/
+theorem noProjectionDecoderWithinChainBudget
+    (n : Nat)
+    (p : X 0 → Y)
+    (decoder : Y → X n)
+    (x y : X 0)
+    (hx : A 0 x)
+    (hy : A 0 y)
+    (hSameProjection : p x = p y)
+    (hApproximationFactorsThroughProjection :
+      ∀ z, A 0 z →
+        approximateIter A S n z = decoder (p z))
+    (hSeparated :
+      2 * errorBudget A S n <
+        dist (exactIter A S n x) (exactIter A S n y)) :
+    False := by
+  have hBoundX :=
+    finiteChainProjectionErrorBound A S n x hx
+  have hBoundY :=
+    finiteChainProjectionErrorBound A S n y hy
+  have hSameDecoder : decoder (p x) = decoder (p y) :=
+    congrArg decoder hSameProjection
+  have hX :
+      dist (exactIter A S n x) (decoder (p x)) ≤
+        errorBudget A S n := by
+    simpa [hApproximationFactorsThroughProjection x hx] using hBoundX
+  have hY :
+      dist (decoder (p x)) (exactIter A S n y) ≤
+        errorBudget A S n := by
+    calc
+      dist (decoder (p x)) (exactIter A S n y)
+          = dist (decoder (p y)) (exactIter A S n y) := by
+            rw [hSameDecoder]
+      _ = dist (approximateIter A S n y) (exactIter A S n y) := by
+            rw [← hApproximationFactorsThroughProjection y hy]
+      _ = dist (exactIter A S n y) (approximateIter A S n y) :=
+            dist_comm _ _
+      _ ≤ errorBudget A S n := hBoundY
+  have hTriangle :
+      dist (exactIter A S n x) (exactIter A S n y) ≤
+        dist (exactIter A S n x) (decoder (p x)) +
+        dist (decoder (p x)) (exactIter A S n y) :=
+    dist_triangle _ _ _
+  have hTotal :
+      dist (exactIter A S n x) (exactIter A S n y) ≤
+        errorBudget A S n + errorBudget A S n :=
+    hTriangle.trans (add_le_add hX hY)
+  linarith
+
+/-- The same obstruction expressed directly in the exact finite-sum
+    stagewise form of the propagated error budget. -/
+theorem noProjectionDecoderWithinStagewiseBudget
+    (n : Nat)
+    (p : X 0 → Y)
+    (decoder : Y → X n)
+    (x y : X 0)
+    (hx : A 0 x)
+    (hy : A 0 y)
+    (hSameProjection : p x = p y)
+    (hApproximationFactorsThroughProjection :
+      ∀ z, A 0 z →
+        approximateIter A S n z = decoder (p z))
+    (hSeparated :
+      2 * stagewiseErrorBudget A S n <
+        dist (exactIter A S n x) (exactIter A S n y)) :
+    False := by
+  have hSeparated' :
+      2 * errorBudget A S n <
+        dist (exactIter A S n x) (exactIter A S n y) := by
+    rw [← errorBudget_eq_stagewiseErrorBudget A S n]
+    exact hSeparated
+  exact noProjectionDecoderWithinChainBudget
+    A S n p decoder x y hx hy hSameProjection
+    hApproximationFactorsThroughProjection hSeparated'
+
+#print axioms noProjectionDecoderWithinChainBudget
+#print axioms noProjectionDecoderWithinStagewiseBudget
+
+end HsHVerification.KestrelChainAwareFiberBound
