@@ -219,6 +219,89 @@ theorem errorBudget_eq_stagewiseErrorBudget :
               (S n).localError := by rw [ih]; ring
         _ = stagewiseErrorBudget A S (n + 1) := hsum
 
+
+/-- A common measured observation can fit both approximate predictions only
+    when the exact predictions are separated by no more than the two
+    end-to-end model-chain error bounds plus twice the observation tolerance.
+    The bounds may be instantiated with `errorBudget` from separate finite
+    projection chains; this theorem supplies no empirical values. -/
+def sharedObservationSeparationThreshold
+    (chainErrorH chainErrorS observationTolerance : ℝ) : ℝ :=
+  chainErrorH + chainErrorS + 2 * observationTolerance
+
+theorem commonObservation_bounds_exactPredictionSeparation
+    {Y : Type*} [PseudoMetricSpace Y]
+    (predictionH predictionS approximateH approximateS observation : Y)
+    (chainErrorH chainErrorS observationTolerance : ℝ)
+    (hChainH : dist predictionH approximateH ≤ chainErrorH)
+    (hChainS : dist predictionS approximateS ≤ chainErrorS)
+    (hObservationH : dist observation approximateH ≤ observationTolerance)
+    (hObservationS : dist observation approximateS ≤ observationTolerance) :
+    dist predictionH predictionS ≤
+      sharedObservationSeparationThreshold
+        chainErrorH chainErrorS observationTolerance := by
+  have hObservationH' :
+      dist approximateH observation ≤ observationTolerance := by
+    simpa [dist_comm] using hObservationH
+  have hChainS' :
+      dist approximateS predictionS ≤ chainErrorS := by
+    simpa [dist_comm] using hChainS
+  calc
+    dist predictionH predictionS ≤
+        dist predictionH approximateH + dist approximateH predictionS :=
+      dist_triangle predictionH approximateH predictionS
+    _ ≤ chainErrorH +
+        (dist approximateH observation + dist observation predictionS) :=
+      add_le_add hChainH (dist_triangle approximateH observation predictionS)
+    _ ≤ chainErrorH +
+        (observationTolerance +
+          (dist observation approximateS + dist approximateS predictionS)) := by
+      exact add_le_add_left
+        (add_le_add hObservationH'
+          (dist_triangle observation approximateS predictionS))
+        chainErrorH
+    _ ≤ chainErrorH +
+        (observationTolerance +
+          (observationTolerance + chainErrorS)) := by
+      exact add_le_add_left
+        (add_le_add_left
+          (add_le_add hObservationS hChainS')
+          observationTolerance)
+        chainErrorH
+    _ = sharedObservationSeparationThreshold
+        chainErrorH chainErrorS observationTolerance := by
+      simp [sharedObservationSeparationThreshold]
+      ring
+
+/-- If exact model predictions are separated by more than the two
+    end-to-end chain-error bounds plus twice the observation tolerance,
+    no single observation can satisfy both approximate-model acceptance
+    conditions. This is a deterministic separation criterion, not a
+    statistical test or an empirical result. -/
+theorem separatedPredictions_forbidSharedObservation
+    {Y : Type*} [PseudoMetricSpace Y]
+    (predictionH predictionS approximateH approximateS observation : Y)
+    (chainErrorH chainErrorS observationTolerance : ℝ)
+    (hSeparated :
+      sharedObservationSeparationThreshold
+        chainErrorH chainErrorS observationTolerance <
+          dist predictionH predictionS) :
+    ¬ (dist predictionH approximateH ≤ chainErrorH ∧
+       dist predictionS approximateS ≤ chainErrorS ∧
+       dist observation approximateH ≤ observationTolerance ∧
+       dist observation approximateS ≤ observationTolerance) := by
+  intro h
+  have hBound :=
+    commonObservation_bounds_exactPredictionSeparation
+      predictionH predictionS approximateH approximateS observation
+      chainErrorH chainErrorS observationTolerance
+      h.1 h.2.1 h.2.2.1 h.2.2.2
+  linarith [hBound, hSeparated]
+
+#print axioms sharedObservationSeparationThreshold
+#print axioms commonObservation_bounds_exactPredictionSeparation
+#print axioms separatedPredictions_forbidSharedObservation
+
 #print axioms exactIter_preserves_admissibility
 #print axioms approximateIter_preserves_admissibility
 #print axioms errorBudget_nonneg
