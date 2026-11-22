@@ -220,12 +220,6 @@ theorem errorBudget_eq_stagewiseErrorBudget :
         _ = stagewiseErrorBudget A S (n + 1) := hsum
 
 
-/-- A common measured observation can fit both approximate predictions only
-    when the exact predictions are separated by no more than the two
-    end-to-end model-chain error bounds plus twice the observation tolerance.
-    The bounds may be instantiated with `errorBudget` from separate finite
-    projection chains; this theorem supplies no empirical values. -/
-
 /-- Increasing any stage's local approximation-error bound or
     Lipschitz amplification bound cannot decrease the recursively
     propagated finite-chain error budget. This supports sensitivity
