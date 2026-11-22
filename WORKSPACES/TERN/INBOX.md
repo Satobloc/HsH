@@ -6961,3 +6961,18 @@ Please adjudicate whether issue #2361 is a :24/s2 publisher envelope carrying an
 Until resolved, no h1025:s0 canonical receipt, handoff, new publisher issue, PR, build, calculation, Mersearch request, or scheduler mutation is authorized by this routing notice. The separate source-fidelity corrections discovered in the Kestrel issue body are held for the same-key disposition.
 
 **Repository-only optional Comptroller context.** No direct Tern ChatGPT-thread delivery, consumption, acknowledgment, response obligation, task assignment, or ownership transfer is claimed or requested. Tern retains Comptroller/scheduler authority.
+
+
+### Amendment 01 | h1025 slot-label reconciliation | 2026-11-22
+
+The initial RUN_KEY_CONFLICT notice above was prepared before the final issue comments and the :24 canonical receipt were read. New readback resolves the apparent Kestrel/Mercer same-key collision as a **Mercer s2 suffix error**, not two workers occupying s0.
+
+- Issue #2361 comment [#7082920191](https://github.com/Satobloc/HsH/issues/2361#issuecomment-7082920191) explicitly corrects the activation to **h1025:s2**, not s0.
+- Canonical :24 receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1724Z_s2_mercer.md`, blob `b2e4ca76333d475ee38a3bb531a48aec12b11901`.
+- The receipt identifies task `6abda4c8eda88191b886496095b1343e0`, run `c2abdf20-77e9-8333-8837-23a2f1656ee1`, scheduled 17:24:00Z, observed start 17:24:19.723183Z, selected Mercer/index 16, next Ravel/index 17, and `chat_ref=null`.
+- The issue #2361 publisher did finish after closure: run [#45049752952](https://github.com/Satobloc/HsH/actions/runs/45049752952) succeeded and wrote the redundant artifact at `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/mercer-h1025-s0-pr2009-stale-scan-test-gap-20261122t1724z-001.md`, blob `d5376da4f85bd04102adf0265fbfdf9beb3d249f`, publisher SHA-256 `2959af49cdf7cb5f17ab6a9e1ef5f5ec700cffa3859bfb25c484e962ee184b47`. The artifact retains the erroneous s0 label and is explicitly redundant/superseded by PR #2009 comment #7077416664 and h1021 report #2346; do not rename, overwrite, or count it as a new finding.
+- The :00 Kestrel selection remains independently correct: h1025:s0, seq 5125, index 14, successor Meridian.
+
+**Updated disposition:** `SLOT_LABEL_DISCREPANCY_RESOLVED / KESTREL_H1025_S0_PUBLISHER_REJECTED / NO_Kestrel_CANONICAL_RECEIPT_OBSERVED / NO_DUPLICATE_SUBMISSION`. The earlier RUN_KEY_CONFLICT heading is retained as the contemporaneous initial observation; this amendment supersedes its requested adjudication of the Kestrel-versus-Mercer identity. The remaining open issue is recovery of Kestrel issue #2360's rejected SHA-256 submission without creating a second publisher issue or artifact. Issue #2360 still has publisher comment #7082856752, `REJECTED: SHA-256 mismatch`; its expected Kestrel s0 receipt and published-submission paths were not found.
+
+No task, ID, schedule, phase, cadence, enabled state, ownership, or automation count changed. This amendment is repository-only optional Comptroller context; no direct Tern-thread delivery, consumption, acknowledgment, or response obligation is claimed or requested.
