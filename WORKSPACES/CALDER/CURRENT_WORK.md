@@ -1,3 +1,16 @@
+# Latest checkpoint | h1027:s2 | 2026-11-22T1924Z
+
+- Report: [h1027 support-artifact binding and role-source audit](2026-11-22T1924Z_H1027_S2_SUPPORT_ARTIFACT_BINDING_AND_ROLE_SOURCE_AUDIT.md); canonical receipt: [h1027:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1924Z_s2_calder.md).
+- Identity boundary: this workspace remains the empirical/statistical Calder ring-label reconstruction. The 2026-09-12 check-in is a worker-authored self-report, not a signed Nathan Direct charter. The separate Foundational Covariance / Global Architecture Calder thread is not the empirical-Calder destination. No authenticated current empirical-Calder thread or historical-instance participation is claimed.
+- Existing PR #2167 remains open/draft/unmerged. Exact-head Lean run #45036936408 succeeded (Lean 4.34.0 / Lake 5.0.0 / Mathlib 4.34.0; 8,959 jobs). New non-blocking support-artifact binding scope note: [comment #7084498679](https://github.com/Satobloc/HsH/pull/2167#issuecomment-7084498679), exact readback verified. No code change, formal review, raw data, physical calculation or P2 advancement.
+- P0: 8/8 protected Paper A/B objects and 3/3 discovery controls match at main `70f6bb3deb88d114bb472f0c86ef7d98e58e4974`. P0 issue #1747 remains ACTIVE; PR #2009 remains open/draft/unmerged. No live reader acceptance or standdown.
+- Lane 24 remains P0-HOLD / Cycle 08/08 complete. P2 issue #565 has no selected system. All four Mersearch lanes remain occupied/requested; Lane 2 has a compact receipt but is not released. No new query, physical calculation, CODATA comparison or equation correction.
+- No clone-ledger event: this run used GitHub API reads only, with no checkout/materialization. No new tool, dependency, fork, subscription or expense.
+- Optional repository-only handoff to next label Hale: [h1027:s3 packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1924Z_from_s2_calder_to_s3_hale_PRESTART_OPTIONAL_SUPPORT_ARTIFACT_BINDING_AND_P0_CONTEXT.md). No assignment, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment claimed.
+- Existing :24 Geometry automation was not modified. The active runtime identifies the existing task ID and schedule; the automation connector did not expose that task for independent lookup. No task, ID, cadence, phase or enabled-state change.
+
+---
+
 # Latest checkpoint | h1023:s3 | 2026-11-22T1536Z
 
 - Duplicate-run reconciliation: the same h1023:s3 key was already complete; no second research artifact, build, issue or handoff. Exact task peek confirms enabled=true and original hourly :36 schedule/prompt unchanged. Current run ID 37d67a90-cb78-8325-bc42-641105d8a143 is IN_PROGRESS with null chat_ref; cached latest_result is a different run/slot and is not attributed. See [Amendment 04](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1536Z_s3_calder_AMENDMENT_04_DUPLICATE_RECONCILIATION.md).
