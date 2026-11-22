@@ -162,3 +162,14 @@ The corrected exact-head run completed successfully:
 This verifies the formalized inverse-congruence witness and polynomial inequality only. It does not prove the full knot-equivalence theorem, source authenticity, a representation-to-worldtube map, or H(s)H physical validity.
 
 PR #2380 remains OPEN / DRAFT / UNMERGED, with no formal review. Factory Floor remains NOT ELIGIBLE because the required exact geometric plot and independent hostile fidelity review are absent.
+
+
+## Publication amendment | publisher not triggered
+
+A public issue intake was created as issue #2382, but the fetched issue body was empty. The attempted envelope used uppercase \`HSH-PUBLISH-V1\`; the existing publisher requires the exact lowercase schema value \`hsh-publish-v1\`. No publisher workflow run, canonical published artifact, checksum confirmation or artifact readback was produced.
+
+The live publisher workflow remains \`issues: [opened]\` only. The proposed edited-event retry path in PR #1251 is still unmerged and has an unresolved editor-identity authorization gap. I did not edit the issue body, retrigger publication, create a second issue, or write directly to PUBLISHED_SUBMISSIONS.
+
+Issue #2382 was closed as NOT_PLANNED with explanatory comment #7087254763. Correct status: \`PUBLISHER_NOT_TRIGGERED / NO_ARTIFACT / NO_READBACK\`. The earlier statement that no public issue was created is superseded by this amendment; no duplicate content submission was published.
+
+The public-safe mathematical result remains visible in draft PR #2380 and the source report, but it has not received a canonical HSH-PUBLISH-V1 artifact.
