@@ -7,7 +7,9 @@ import HsHVerification.SharedReadoutFiberSeparation
 
 The shared-readout module supplies an evidence-gated readout wrapper, while
 ModelSelectionPreference supplies a separate candidate hard gate. This module
-binds them into one downstream admission object.
+binds them into one downstream admission object and adds a tie-break API that
+accepts only two such complete objects under the same declared system,
+dataset, readout identity, and measurement mode.
 
 The binding proposition is an external evidence obligation: it must attest
 that the candidate's source-bound system/dataset, its committed model maps,
@@ -33,11 +35,13 @@ variable {Payload : MeasurementMode → Type w}
 /-- A candidate may enter this detector-level comparison only with its
     ordinary hard-gate evidence, one evidence-gated frozen readout, an
     explicit source/model/readout binding witness, and two-sided separation
-    computed through that same readout. -/
+    computed through that same readout. The three identity strings are bound
+    to the source packet and readout by candidateModelReadoutBindingEvidence. -/
 structure EvidenceGatedModelComparison where
   candidate : Candidate
   sourceSystemId : String
   datasetId : String
+  sharedReadoutId : String
   readout : EvidenceGatedFrozenCommonReadout Field Payload
   hshModel : LatentFieldModel State Field
   standardModel : LatentFieldModel State Field
@@ -106,10 +110,64 @@ theorem admittedComparison_exposes_all_gates
       comparison.candidateModelReadoutBindingEvidence,
       comparison.detectorSeparation⟩
 
+/-- Evidence-gated tie-break: both candidates must already carry complete
+    detector-level admissions, and the comparison is restricted to the same
+    declared system, dataset, readout identity, and measurement mode. -/
+def evidenceGatedIntelligibilityTieBreak
+    (empiricallyEquivalent : Candidate → Candidate → Prop)
+    (humanPrefers : Candidate → Candidate → Prop)
+    (a b : EvidenceGatedModelComparison
+      (State := State) (Field := Field) (Payload := Payload)) : Prop :=
+  a.sourceSystemId = b.sourceSystemId ∧
+  a.datasetId = b.datasetId ∧
+  a.sharedReadoutId = b.sharedReadoutId ∧
+  a.readout.contract.mode = b.readout.contract.mode ∧
+  empiricallyEquivalent a.candidate b.candidate ∧
+  humanPrefers a.candidate b.candidate ∧
+  noMoreComplex a.candidate.complexity b.candidate.complexity
+
+/-- A successful evidence-gated tie-break retains both candidates' hard
+    gates, both readout gates, both source/model/readout binding witnesses,
+    both detector-separation witnesses, and the shared comparison identity. -/
+theorem evidenceGatedIntelligibilityTieBreak_requires_gates
+    (empiricallyEquivalent : Candidate → Candidate → Prop)
+    (humanPrefers : Candidate → Candidate → Prop)
+    (a b : EvidenceGatedModelComparison
+      (State := State) (Field := Field) (Payload := Payload))
+    (h : evidenceGatedIntelligibilityTieBreak
+      empiricallyEquivalent humanPrefers a b) :
+    hardGate a.candidate ∧ hardGate b.candidate ∧
+    commonReadoutEvidenceGate a.readout.contract ∧
+    commonReadoutEvidenceGate b.readout.contract ∧
+    a.candidateModelReadoutBinding ∧ b.candidateModelReadoutBinding ∧
+    evidenceGatedDetectorLevelTwoSidedSeparation
+      a.hshModel a.standardModel a.readout a.hshStates a.standardStates ∧
+    evidenceGatedDetectorLevelTwoSidedSeparation
+      b.hshModel b.standardModel b.readout b.hshStates b.standardStates ∧
+    a.sourceSystemId = b.sourceSystemId ∧
+    a.datasetId = b.datasetId ∧
+    a.sharedReadoutId = b.sharedReadoutId ∧
+    a.readout.contract.mode = b.readout.contract.mode := by
+  rcases h with ⟨hSystem, hDataset, hReadout, hMode, hEquivalent, hPreference, hComplexity⟩
+  exact
+    ⟨a.candidateHardGate,
+      b.candidateHardGate,
+      a.readout.gate,
+      b.readout.gate,
+      a.candidateModelReadoutBindingEvidence,
+      b.candidateModelReadoutBindingEvidence,
+      a.detectorSeparation,
+      b.detectorSeparation,
+      hSystem,
+      hDataset,
+      hReadout,
+      hMode⟩
+
 #print axioms admittedCandidate_has_hardGate
 #print axioms admittedComparison_has_readout_gate
 #print axioms admittedComparison_has_source_model_readout_binding
 #print axioms admittedComparison_has_detector_separation
 #print axioms admittedComparison_exposes_all_gates
+#print axioms evidenceGatedIntelligibilityTieBreak_requires_gates
 
 end HsHVerification.EvidenceGatedAdmission
