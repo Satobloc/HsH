@@ -5,7 +5,9 @@ import HsHVerification.HeterogeneousReadoutFiberSeparation
 # Precommitted holdout admission for heterogeneous model comparisons
 
 This is a typed adapter from the Pairwise Discrimination Record (PDR) fields
-to the heterogeneous common-readout comparison. It binds a candidate family,
+to the heterogeneous common-readout comparison. It also keeps Nathan Direct,
+assistant reconstruction, historical source, standard reference, proposal
+and independent measurement as distinct declared authority classes. It binds a candidate family,
 its shared/nuisance/candidate-specific parameter manifests, a calibration /
 holdout partition, a frozen prediction and falsification rule, an exposure
 ledger, and an evaluation result to the same source packet and common carrier.
@@ -44,6 +46,26 @@ inductive HoldoutOutcome
   | inconclusive
   deriving DecidableEq, Repr
 
+/-- Declared authority class for every source-bearing claim. This is a
+    classification field, not authentication of the source or author. -/
+inductive EvidenceAuthority
+  | nathanDirect
+  | assistantReconstruction
+  | historicalSource
+  | standardReference
+  | proposal
+  | independentMeasurement
+  deriving DecidableEq, Repr
+
+/-- A source claim with an explicit authority class, exact artifact locator,
+    digest, source date and bounded claim scope. -/
+structure SourceEvidenceRecord where
+  authority : EvidenceAuthority
+  artifact : SourceArtifactRef
+  digest : NonEmptyText
+  sourceDate : NonEmptyText
+  claimScope : NonEmptyText
+
 /-- One candidate's source and candidate-specific parameter record inside a
     frozen candidate-family manifest. -/
 structure CandidateFamilyEntry where
@@ -52,6 +74,8 @@ structure CandidateFamilyEntry where
   hshModelSource : SourceArtifactRef
   hshProjectionSource : SourceArtifactRef
   candidateParameterManifest : SourceArtifactRef
+  sourceEvidence : SourceEvidenceRecord
+  sourceEvidenceMatchesCandidate : sourceEvidence.artifact = candidateSource
 
 /-- A source-addressed candidate-family manifest. Shared and nuisance
     parameter manifests are family-level; candidate-specific parameters are
@@ -75,6 +99,15 @@ structure FrozenCandidateFamilyManifest where
   predictedObservable : SourceArtifactRef
   falsificationRule : SourceArtifactRef
   thresholdSpec : SourceArtifactRef
+  evidenceLineage : List SourceEvidenceRecord
+  standardComparatorEvidence : SourceEvidenceRecord
+  standardComparatorAuthority :
+    standardComparatorEvidence.authority = EvidenceAuthority.standardReference
+  standardComparatorEvidenceMatches :
+    standardComparatorEvidence.artifact = standardModelSource
+  predictionEvidence : SourceEvidenceRecord
+  predictionEvidenceMatches :
+    predictionEvidence.artifact = predictedObservable
   timeBaseId : NonEmptyText
   frozenAt : Nat
 
@@ -85,6 +118,12 @@ structure FrozenCandidateFamilyManifest where
 structure PrecommittedHoldoutPlan where
   sourceSystemId : NonEmptyText
   datasetId : NonEmptyText
+  datasetArtifact : SourceArtifactRef
+  measurementEvidence : SourceEvidenceRecord
+  measurementAuthority :
+    measurementEvidence.authority = EvidenceAuthority.independentMeasurement
+  measurementEvidenceMatchesDataset :
+    measurementEvidence.artifact = datasetArtifact
   sharedReadoutId : NonEmptyText
   familyId : NonEmptyText
   familyVersion : NonEmptyText
@@ -167,6 +206,22 @@ structure PrecommittedHeterogeneousModelComparison
   commonCarrierArtifactBound :
     family.commonCarrierArtifact =
       comparison.packet.commonCarrierArtifact
+  candidateEvidenceMatchesSource :
+    candidateEntry.sourceEvidence.artifact = candidateEntry.candidateSource
+  standardComparatorAuthority :
+    family.standardComparatorEvidence.authority =
+      EvidenceAuthority.standardReference
+  standardComparatorEvidenceMatchesSource :
+    family.standardComparatorEvidence.artifact = family.standardModelSource
+  predictionEvidenceMatchesObservable :
+    family.predictionEvidence.artifact = family.predictedObservable
+  measurementAuthority :
+    holdout.measurementEvidence.authority =
+      EvidenceAuthority.independentMeasurement
+  measurementEvidenceMatchesDataset :
+    holdout.measurementEvidence.artifact = holdout.datasetArtifact
+  datasetArtifactBound :
+    holdout.datasetArtifact = comparison.packet.packet.datasetArtifact
   sourceSystemBound :
     holdout.sourceSystemId.value =
       comparison.packet.packet.sourceSystemId.value
@@ -198,9 +253,7 @@ structure PrecommittedComparisonEvidence
       HState SState HField SField CommonField Payload) : Prop where
   candidateHardGate :
     hardGate c.comparison.binding.candidate.value
-  readoutGate :
-    commonReadoutEvidenceGate
-      c.comparison.packet.packet.readout.contract
+  readoutGate : c.comparison.readoutGate
   packetIdentity :
     c.comparison.binding.packetId.value =
       c.comparison.packet.packet.packetId.value ∧
@@ -211,13 +264,29 @@ structure PrecommittedComparisonEvidence
       c.comparison.packet.commonCarrierId.value ∧
     c.comparison.binding.models.commonCarrierArtifact =
       c.comparison.packet.commonCarrierArtifact
-  detectorSeparation :
-    heterogeneousDetectorLevelTwoSidedSeparation
-      c.comparison.binding.models
-      c.comparison.packet.packet.readout.contract
-      c.comparison.binding.hshStates.value
-      c.comparison.binding.standardStates.value
+  detectorSeparation : c.comparison.detectorSeparation
   candidateEntryInFamily : c.candidateEntry ∈ c.family.candidates
+  candidateEvidenceMatchesSource :
+    c.candidateEntry.sourceEvidence.artifact =
+      c.candidateEntry.candidateSource
+  standardComparatorAuthority :
+    c.family.standardComparatorEvidence.authority =
+      EvidenceAuthority.standardReference
+  standardComparatorEvidenceMatchesSource :
+    c.family.standardComparatorEvidence.artifact =
+      c.family.standardModelSource
+  predictionEvidenceMatchesObservable :
+    c.family.predictionEvidence.artifact =
+      c.family.predictedObservable
+  measurementAuthority :
+    c.holdout.measurementEvidence.authority =
+      EvidenceAuthority.independentMeasurement
+  measurementEvidenceMatchesDataset :
+    c.holdout.measurementEvidence.artifact =
+      c.holdout.datasetArtifact
+  datasetArtifactBound :
+    c.holdout.datasetArtifact =
+      c.comparison.packet.packet.datasetArtifact
   candidateIdBound :
     c.candidateEntry.candidateId.value =
       c.comparison.binding.candidate.id.value
@@ -298,6 +367,14 @@ theorem precommittedComparison_has_evidence
       commonCarrierIdentity := c.comparison.commonCarrierIdentity
       detectorSeparation := c.comparison.detectorSeparation
       candidateEntryInFamily := c.candidateEntryInFamily
+      candidateEvidenceMatchesSource := c.candidateEvidenceMatchesSource
+      standardComparatorAuthority := c.standardComparatorAuthority
+      standardComparatorEvidenceMatchesSource :=
+        c.standardComparatorEvidenceMatchesSource
+      predictionEvidenceMatchesObservable := c.predictionEvidenceMatchesObservable
+      measurementAuthority := c.measurementAuthority
+      measurementEvidenceMatchesDataset := c.measurementEvidenceMatchesDataset
+      datasetArtifactBound := c.datasetArtifactBound
       candidateIdBound := c.candidateIdBound
       candidateSourceBound := c.candidateSourceBound
       hshModelSourceBound := c.hshModelSourceBound
