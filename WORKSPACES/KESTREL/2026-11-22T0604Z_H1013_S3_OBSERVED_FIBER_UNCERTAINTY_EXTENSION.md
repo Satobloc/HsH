@@ -144,3 +144,12 @@ The existing :36 task remains enabled with its exact task ID `6a9f52b69ec08191b0
 The scheduler's current run record at the last observation was IN_PROGRESS with `chat_ref=null`; its cached latest result belonged to the preceding h1012 Elias Kern run, not this Kestrel-labelled slot.
 
 **Next exact cursor:** obtain a Lean 4.34.0 build of commit `35974e297afc5657bd7bb28ab73e118e3e9078e2`; inspect theorem-specific axiom output; independently review the asymmetric-radius composition; then decide whether to integrate with Nadir's existing robust-readout theorem. Do not select a physical system or claim an H(s)H prediction until source-grounded maps, compatible units/metrics, measured data, covariance, calibration and untouched holdout are available.
+
+
+## Scheduler observation (final peek)
+
+- Existing task ID: `6a9f52b69ec08191b0a2ba24a074f781`; enabled = true.
+- Exact saved schedule: `DTSTART;TZID=America/New_York:20261001T143600` / `RRULE:FREQ=HOURLY`. Prompt and Lane Charter 36 phase unchanged.
+- Current run ID: `d92a64e2-7fdc-832d-b617-7d3e0958a1f2`; scheduled_for `2026-11-22T05:36:00Z`; started_at `2026-11-22T06:04:09.698256Z`; observed status IN_PROGRESS; completion null; `chat_ref=null`.
+- Cached latest result run ID: `35d58a00-d208-8322-8ab2-8f9ec7d0756e`, created 2026-11-22T04:49:27Z, for the prior 04:36Z slot. Its h1012 Elias Kern content is not attributed to this Kestrel-labelled run.
+- No task, ID, cadence, prompt, phase, or enablement change was made. No sixth task.
