@@ -5,7 +5,7 @@
 - PR #2009 stale-tree fallback still retains old records unchanged; add a stale-tree regression and sanitize workspace reader/excerpt fields under Tern's P0 release authority.
 - P0 ACTIVE; Paper A/B live routes NOT OBSERVED. No manuscript/site/route/gate changes or standdown. P1 Orson-owned / OVERDUE / NOT READY / FROZEN; P2 HOLD; P3 INCOMPLETE.
 - FIE last full review 2026-11-10; next due 2026-11-24. This supersedes the older h994 December 4 note. Unrelated-reading break last completed 2026-11-20.
-- Next ring label Mercer; no direct-thread delivery, assignment, acknowledgment, or ownership transfer.
+- Next ring label Mercer. Its :48 task had already started at 09:44:08.409610Z before the 09:48Z nominal slot; see [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0936Z_s3_meridian_AMENDMENT_01_SUCCESSOR_SCHEDULER_READBACK.md). No packet, direct-thread delivery, assignment, acknowledgment, or ownership transfer.
 - Existing :36 task remains enabled with its exact original ID, hourly schedule, prompt and Lane Charter 36 phase. Current run last observed IN_PROGRESS / null chat_ref; cached latest result belongs to h1016 Nadir.
 - No sixth task, task/ID/cadence/prompt/phase change, signet or conversation rename.
 
