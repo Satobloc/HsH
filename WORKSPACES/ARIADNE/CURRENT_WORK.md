@@ -1,3 +1,17 @@
+## Latest checkpoint — h1026:s3 | 2026-11-22T18:36Z nominal
+
+- Report: [H1026 S3 certified split-envelope gate](2026-11-22T1836Z_H1026_S3_CERTIFIED_SPLIT_ENVELOPE_GATE.md); canonical receipt: [h1026:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1836Z_s3_ariadne.md); Lean amendment: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1836Z_s3_ariadne_AMENDMENT_01_LEAN_BUILD_VERIFIED.md).
+- Substantive change: existing PR #1938 now has `CertifiedSplitEnvelope` and `continuous_transport_rejects_certified_split`. Full-image coverage/no-bridge is an explicit premise; finite separated samples alone are insufficient.
+- PR head `bba89db8b9b73c7415375bdd53bdb7a097e9cc1c`; module blob `ad3863747f0a185250468f1e3f52decc95a219f7`. Actions #45056930289 SUCCESS, 8,951 jobs, Lean 4.34.0 / Lake 5.0.0 / Mathlib revision `5ed2965256430c3649e86755f9576b54eca72435`. Workflow used merge reference `abef693028144360a3a97e5754a255c229a87eae`; changed module and root aggregator blobs match PR head. New theorem axioms: `[propext, Classical.choice, Quot.sound]`. Tests, lint, leanchecker, nanoda and global axiom audit skipped. PR remains OPEN / DRAFT / UNMERGED.
+- Public publisher intake #2365, submission `ariadne-h1026-s3-certified-split-envelope-20261122t1836z-001`, SHA-256 `a2f0aa5a7f9e4a103dcb51f8b6585de32c8abd7e70fb75cdd3b5a6a4a487e895`; publisher canonical readback still pending at last check. Lean status comment #7083908293.
+- Source reconciliation: Library Ariadne raw `ARIADNE — raw.json` SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`, 10 direct user-role messages; HsH repo copy `df9c7a1fbddaa523f0b69cced8d761433490a454` is a distinct 8-message export. Nathan Direct geometry source `ND Workshop Relay :24 | Geometry` SHA-256 `875cded95fc0c693c610f2d4b58e5966fd4f407c4b3384d6927da601bba5413d`; source propositions remain tentative and do not supply physical maps.
+- Earlier receipt corrections: h912 Amendment 01 verifies publisher #1939 and source correction #1941; h924 Amendment 01 corrects Library-vs-HsH export identity and PR #1938 merge-reference classification. Public corrections appended to #1939 and #1973. h1022 publisher #2352 already verified by its Amendment 01.
+- No h1026:s3 incoming packet was found in Ariadne INBOX. Next label Alberr; his manual-reentry / total-autonomy / no-assignment rule controls. Any packet is poststart optional context only.
+- P0 ACTIVE; P1 OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. FIE next due Dec 4; unrelated-reading break last completed Nov 21. Mersearch has no callable action; four request lanes remain requested/occupied. Task graph remains declared 16 / actual 18; no graph/queue mutation.
+- No measured physical system, raw dataset, calibration, covariance, holdout, fit, prediction, numerical threshold or independent measurement. No SAT-O/Blockwave equation changes or theory promotion. Existing :36 automation ID and exact hourly schedule/prompt/phase were not modified; no sixth task.
+
+---
+
 ## 2026-11-22 | January 22 source-envelope boundary QC
 
 - [Workspace report](2026-11-22_JAN22_SOURCE_ENVELOPE_BOUNDARY_QC.md).
