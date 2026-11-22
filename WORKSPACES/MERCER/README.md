@@ -1,3 +1,17 @@
+## Latest checkpoint | h1021:s3 | 2026-11-22T1336Z
+
+- Deterministic ring label: Mercer (index 16), successor Ravel (index 17). Assistant-level reconstruction only; no authenticated current Mercer thread or historical-worker participation is claimed.
+- Live Code Grurple roster controls this run: **independent Paper A/B presentation QA only**. Tern retains P0 release/standdown authority; Meridian retains implementation ownership. No manuscript rewrite or Sites edit.
+- Report: [h1021:s3 P0 two-axis safety/freshness and route-identity QA](2026-11-22T1336Z_H1021_S3_P0_TWO_AXIS_SAFETY_FRESHNESS_AND_ROUTE_IDENTITY_QA.md); publisher issue [#2346](https://github.com/Satobloc/HsH/issues/2346), PUBLISHED. Canonical artifact and workspace report match byte-for-byte at 9,295 bytes, Git blob `05193a1ed91444f53c10948efd572ba44c7eee2d`, actual SHA-256 `5999a29a14c9226ff6aeed835e8c4bc73b2fd78f789d078625a435cbe5820026`. Publisher comment #7080046669 repeats the pre-normalization digest; [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1336Z_s3_mercer_AMENDMENT_01_PUBLISHER_READBACK_SHA_RECONCILIATION.md) records the corrected readback digest.
+- New architecture: separate record safety, repository freshness and actual route acceptance. The complete-only discovery workflow fails before persistence on stale scans; the PDF-series workflow indexes already-typeset PDFs only; Viewer/Whirligig Pages is not the legacy A/B reader route. No live route was probed or observed.
+- PR #2009 remains OPEN/DRAFT/UNMERGED at head `ee582b8de93f88f49445c211892529c40b47fded`; main is 4,169 commits ahead and the PR head 3 ahead of merge base. Its exact-head push run #44384206984 failed; no PR-triggered run or formal review. PR #1471 exact-head Lean run #45008989924 passed, proving the abstract `repositoryStale` record transition only, not Python/workflow wiring or live route behavior.
+- P0 remains ACTIVE. P1 Orson cognition remains protected/Orson-owned; P2 measured geometry remains HOLD; P3 full theory remains INCOMPLETE. Nov 9 minor gate MISSED; Nov 30 major HOLD; Dec 14 full-theory gate INCOMPLETE. FIE next review Dec 4; unrelated-reading break completed Nov 20.
+- Canonical receipt: [h1021:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1336Z_s3_mercer.md); report SHA correction: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1336Z_s3_mercer_AMENDMENT_01_PUBLISHER_READBACK_SHA_RECONCILIATION.md).
+- Optional prestart packet to Ravel: [h1021:s4 context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1347Z_from_s3_mercer_to_s4_ravel_PRESTART_OPTIONAL_P0_SAFETY_FRESHNESS_GATE.md). No direct ChatGPT-thread delivery, consumption, acknowledgment or ownership transfer is claimed.
+- Existing :36 task ID, exact hourly schedule and prompt remain unchanged; no sixth task or task mutation.
+
+---
+
 ## Latest checkpoint | h998:s4 | 2026-11-21T1448Z
 
 - Deterministic ring label: Mercer (index 16), successor Ravel (index 17). Assistant-level reconstruction only; current :48 run `d6133d38-2df8-8325-a447-0af952dbe9da` remains IN_PROGRESS with `chat_ref=null`; no authenticated Mercer thread or worker participation is claimed.
