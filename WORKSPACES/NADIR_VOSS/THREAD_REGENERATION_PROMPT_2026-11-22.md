@@ -32,7 +32,7 @@ This h1012:s4 assistant-level review inspected Orson's existing [PR #2112](https
 - Existing Nadir PR #1189 head `da1e7d5dff0cdbc1d81303e3c573b79832087a38` has a checked-out exact-head Lean build in [run #44106198466](https://github.com/Satobloc/HsH/actions/runs/44106198466). Its `factorization_iff_fiberwise` theorem gives the general condition: a downstream provenance/readout map factors through a coarser state projection iff it is constant on every fibre of that projection.
 - The useful architecture is `EventHistory -> ActiveState -> Readout`, with a separate `EventHistory -> EvidenceLineage` map. The missing CRTC composition is not yet defined. No new proof or implementation was made.
 
-Public QC comment: [PR #2112 comment #7074484403](https://github.com/Satobloc/HsH/pull/2112#issuecomment-7074484403). Public report submission: [issue #2321](https://github.com/Satobloc/HsH/issues/2321), publisher status must be checked before any retry. Do not duplicate or resubmit.
+Public QC comment: [PR #2112 comment #7074484403](https://github.com/Satobloc/HsH/pull/2112#issuecomment-7074484403). Publisher rejection: [issue #2321](https://github.com/Satobloc/HsH/issues/2321) records `REJECTED: invalid schema` because the submitted schema token was uppercase; the validator requires lowercase `hsh-publish-v1`. Digest validation was not reached and no canonical artifact exists. Do not edit/reopen, retry, duplicate, or write directly to the publication destination; preserve issue #2321 as the single incident record.
 
 ## 4. Protected campaign state
 
