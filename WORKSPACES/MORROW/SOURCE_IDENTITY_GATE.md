@@ -666,3 +666,51 @@ No source-defined typed map, configuration space, boundary, or exchange action i
 ### Publication incident
 
 Public submission issue #2295 was rejected by the existing publisher because the declared SHA-256 did not match the exact decoded issue content. Declared digest: 4ae1632e6bbba1faf86a266e0cfc1ddc48f11757372aecd21f119e8cd59da2e6. Independently recomputed issue-content digest: 8c581107e9779a44469daf2af353d112f4c10ab52a606204571c2a57e0f447be over 14,662 UTF-8 bytes. The publisher's rejection is correct. Issue #2295 is retained as the single incident/submission record; no duplicate issue, manual destination write, or publisher bypass is authorized.
+
+## Layer 18 — Digest implementation attestation
+
+**Recorded:** 2026-11-22, h1009:s3. **Scope:** source-custody and digest-implementation provenance only; no theory authority or physical claim.
+
+Treat digest verification as three separately evidenced components:
+
+1. **Target identity:** exact source/artifact bytes, locator/version, byte length and encoding. Reuse Layer 1/8 and the publisher intake's final-content rule; do not redefine the target after hashing.
+2. **Implementation identity:** algorithm, implementation/tool, exact version, runtime/backend where observable, and source/package blob when custom code is used.
+3. **Execution evidence:** known-answer test results from the same implementation and runtime used for the target digest, plus a second-tool comparison on the same byte buffer where available.
+
+Required rules:
+
+- Prefer maintained standard implementations such as Python `hashlib` or a system digest utility. Do not use a hand-written digest routine for consequential source/publication work.
+- A custom implementation is not admissible until its exact source blob is pinned, its known-answer suite passes in the same runtime, and its output is cross-checked against a maintained implementation.
+- Re-run the tests after any source, dependency, runtime or build change. A test result from another implementation or another runtime does not validate the current one.
+- Record tool/runtime versions and actual test outputs. If the backend is not exposed, record it as UNKNOWN; do not infer it.
+- Distinguish `KAT_PASS` from `TARGET_DIGEST_MATCH`. Passing test vectors validates the implementation for those vectors; it does not verify that the correct target bytes were supplied.
+- A second command-line tool agreeing is a tool-level cross-check. Do not claim independent cryptographic implementations unless their implementation/backend provenance is actually established.
+- Keep the publisher's own validator and canonical artifact readback as separate acceptance events. The publisher workflow runs Python 3.12; a local test under another Python version does not establish the exact Actions runtime's OpenSSL/backend version. A green Actions conclusion alone remains insufficient because the publisher can post `REJECTED:` and exit 0.
+
+### Required attestation fields
+
+`algorithm`; `target_kind`; `target_locator_and_version`; `encoding`; `byte_length`; `target_digest`; `implementation`; `implementation_version`; `runtime_version`; `backend_version_or_UNKNOWN`; `implementation_source_blob_or_STANDARD_LIBRARY`; `known_answer_vectors`; `known_answer_results`; `crosscheck_tool_and_version`; `crosscheck_result`; `execution_timestamp`; `status`.
+
+Suggested independent statuses: `DIGEST_IMPLEMENTATION_UNBOUND`, `DIGEST_KAT_FAILED`, `DIGEST_IMPLEMENTATION_KAT_PASS`, `DIGEST_TOOL_CROSSCHECK_MATCH`, `TARGET_DIGEST_MATCH`, `TARGET_DIGEST_MISMATCH`, `IMPLEMENTATION_PROVENANCE_UNKNOWN`. Do not collapse them into one `VERIFIED` flag.
+
+
+### Applied witness 01 — h1009:s3
+
+### Runtime and known-answer validation
+
+The current relay Python runtime reported Python 3.13.5, OpenSSL 3.5.5 (27 Jan 2026). The system utility reported GNU coreutils `sha256sum` 9.7.
+
+Python `hashlib.sha256` and `sha256sum` agreed on all four byte inputs:
+
+| Input bytes | Length | SHA-256 |
+|---|---:|---|
+| Empty byte string | 0 | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` |
+| ASCII `abc` | 3 | `ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad` |
+| UTF-8 U+00E9 (`c3 a9`) | 2 | `4a99557e4033c3539de2eb65472017cad5f9557f7a0625a09f1c3f6e2ba69c4c` |
+| UTF-8 U+0065 U+0301 (`65 cc 81`) | 3 | `bf12767b0f2a56b2190075bae8169f656e3ce8d6357d4aff184bc6c7ea48f9f6` |
+
+The two visually similar Unicode strings intentionally have different byte sequences and digests. No normalization is implied.
+
+The inspected publisher implementation is `tools/issue_publish.py`, blob `7067e8d9f27a273d90e443afb0493260d9a3ecbf`. It calls `hashlib.sha256(content.encode()).hexdigest()`. The existing publisher workflow is `.github/workflows/issue-publisher.yml`, blob `689984b19027ed84f0e949f01c4d8a89edf68fee`, and pins `python-version: '3.12'`. The current relay's Python 3.13.5 test is not represented as a run of that separate Python 3.12 Actions environment. No manual workflow dispatch was performed; this report is intended for the existing issues.opened publisher route.
+
+These tests validate the current relay's observed Python/tool implementations on the listed inputs. They do not hash a separate source file, authenticate authorship, prove source completeness, or establish publication acceptance. The publisher script was inspected, not executed.
