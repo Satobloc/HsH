@@ -32,6 +32,8 @@ abbrev Agent := Nat
 
     `payload` is an opaque event token, not a semantic interpretation. -/
 structure InteractionEvent where
+  eventId : Nat
+  timestamp : Nat
   author : Agent
   availableTo : Finset Agent
   usedBy : Finset Agent
@@ -59,11 +61,15 @@ def ValidEvent (e : InteractionEvent) : Prop :=
   e.usedBy ⊆ e.availableTo
 
 /-- Minimal group-log well-formedness. -/
+def ValidEventSet (roster : Finset Agent) (events : Finset InteractionEvent) : Prop :=
+  (∀ e ∈ events,
+    e.author ∈ roster ∧
+    e.availableTo ⊆ roster ∧
+    ValidEvent e) ∧
+  (∀ e₁ ∈ events, ∀ e₂ ∈ events, e₁.eventId = e₂.eventId → e₁ = e₂)
+
 def ValidGroupHistory (h : GroupHistory) : Prop :=
-  ∀ e ∈ h.events,
-    e.author ∈ h.roster ∧
-    e.availableTo ⊆ h.roster ∧
-    ValidEvent e
+  ValidEventSet h.roster h.events
 
 /-- A member sees events authored by that member or made available to them. -/
 def memberEvents (events : Finset InteractionEvent) (i : Agent) :
@@ -91,22 +97,23 @@ def projectMemberFromSubgroup (h : SubgroupHistory) (i : Agent) :
 
 /-- A well-formed group history projects to a well-formed subgroup history. -/
 def ValidSubgroupHistory (h : SubgroupHistory) : Prop :=
-  ∀ e ∈ h.events,
-    e.author ∈ h.roster ∧
-    e.availableTo ⊆ h.roster ∧
-    ValidEvent e
+  ValidEventSet h.roster h.events
 
 theorem subgroup_projection_preserves_validity
     (h : GroupHistory) (s : Finset Agent)
     (hv : ValidGroupHistory h) :
     ValidSubgroupHistory (projectSubgroup h s) := by
-  intro e he
-  simp only [projectSubgroup, subgroupEvents, Finset.mem_filter] at he
-  rcases he with ⟨hevents, hauthor, havailable⟩
-  rcases hv e hevents with ⟨hauthorRoster, havailableRoster, hused⟩
-  refine ⟨Finset.mem_inter.mpr ⟨hauthorRoster, hauthor⟩, ?_, hused⟩
-  intro a ha
-  exact Finset.mem_inter.mpr ⟨havailableRoster ha, havailable ha⟩
+  constructor
+  · intro e he
+    simp only [projectSubgroup, subgroupEvents, Finset.mem_filter] at he
+    rcases he with ⟨hevents, hauthor, havailable⟩
+    rcases hv.1 e hevents with ⟨hauthorRoster, havailableRoster, hused⟩
+    refine ⟨Finset.mem_inter.mpr ⟨hauthorRoster, hauthor⟩, ?_, hused⟩
+    intro a ha
+    exact Finset.mem_inter.mpr ⟨havailableRoster ha, havailable ha⟩
+  · intro e₁ he₁ e₂ he₂ hid
+    simp only [projectSubgroup, subgroupEvents, Finset.mem_filter] at he₁ he₂
+    exact hv.2 e₁ he₁.1 e₂ he₂.1 hid
 
 /-- Nested subgroup→member projection equals direct group→member projection
     only when the member belongs to both scopes and every event in that
@@ -137,7 +144,7 @@ theorem subgroup_member_projection_composes
 /-- A cross-boundary event can be visible to a member yet removed by a
     subgroup projection that excludes its author or another recipient. -/
 def crossBoundaryEvent : InteractionEvent :=
-  ⟨1, {0, 1}, {0}, false, 9⟩
+  ⟨9, 1, 1, {0, 1}, {0}, false, 9⟩
 
 def crossBoundaryHistory : GroupHistory :=
   ⟨{0, 1}, {crossBoundaryEvent}⟩
@@ -154,7 +161,7 @@ theorem cross_boundary_projection_can_lose_visible_event :
 
 /-- Availability is not evidence of uptake. -/
 def availableNotUsed : InteractionEvent :=
-  ⟨1, {0, 1}, ∅, false, 10⟩
+  ⟨10, 2, 1, {0, 1}, ∅, false, 10⟩
 
 theorem availability_does_not_imply_uptake :
     0 ∈ availableNotUsed.availableTo ∧
@@ -167,7 +174,7 @@ theorem available_not_used_is_well_formed :
 
 /-- Uptake is not evidence that the event entered the group decision. -/
 def usedNotIncorporated : InteractionEvent :=
-  ⟨1, {0, 1}, {0}, false, 11⟩
+  ⟨11, 3, 1, {0, 1}, {0}, false, 11⟩
 
 theorem uptake_does_not_imply_decision_incorporation :
     0 ∈ usedNotIncorporated.usedBy ∧
@@ -184,10 +191,10 @@ def decisionIncorporationCount (h : GroupHistory) : Nat :=
   (h.events.filter (fun e => e.incorporatedIntoDecision)).card
 
 def eventA : InteractionEvent :=
-  ⟨1, {1}, {1}, true, 20⟩
+  ⟨20, 1, 1, {1}, {1}, true, 20⟩
 
 def eventB : InteractionEvent :=
-  ⟨2, {2}, {2}, true, 21⟩
+  ⟨21, 2, 2, {2}, {2}, true, 21⟩
 
 def historyOne : GroupHistory :=
   ⟨{0, 1, 2}, {eventA}⟩
