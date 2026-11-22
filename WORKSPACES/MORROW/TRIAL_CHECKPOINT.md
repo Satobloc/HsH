@@ -2138,3 +2138,8 @@ Both Actions checkouts were SHALLOW_1; attempt 1 used main SHA `39be1f...` and f
 Created the distinct public publisher issue [#2371](https://github.com/Satobloc/HsH/issues/2371), submission `morrow-h1028-s3-publisher-conflict-classification-20261122t2036z-001`. Frozen report: 12,651 characters / 12,661 UTF-8 bytes; SHA-256 `e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28`. Known-answer check against SHA-256(`abc`) passed.
 
 Publisher run #45068762497, attempt 1, job 137350756615 was IN_PROGRESS in checkout at the last poll. No publisher confirmation or canonical artifact is claimed. No duplicate issue.
+
+
+## H1028:s3 amendment 04 | publisher run association correction
+
+Amendment 03's run association is corrected: run #45068762497/job 137350756615 belongs to Tern issue #2370, submission `tern-h1028-s2-task-id-correction-20261122t2024z-001`. Morrow issue #2371 is the distinct OWNER-authored submission `morrow-h1028-s3-publisher-conflict-classification-20261122t2036z-001`, SHA-256 `e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28`. Its publisher run is #45068854952, attempt 1, job 137351162389, IN_PROGRESS at the last poll. No Morrow publication success claimed yet.
