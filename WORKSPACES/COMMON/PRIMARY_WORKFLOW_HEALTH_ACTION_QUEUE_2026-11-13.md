@@ -986,3 +986,60 @@ No Mersearch query ran in this activation. All four canonical request files rema
 Only shared/public navigation and cleared role-witness material was used. The Mira-specific private charter, workspace, and inbox were not accessed; no Mira-specific assignment or participation is claimed. Orson's P1 remains frozen and protected. FIE remains current through the 2026-11-20 review, next review 2026-12-04. The unrelated-reading break was last completed 2026-11-21 and was not repeated.
 
 No physical calculation, SAT-O/Blockwave equation change, H(s)H theory promotion, or human-subject experiment occurred.
+
+---
+
+## Deep review supplement | 2026-11-22T23:24Z | Hale h1031:s2
+
+**Review trigger:** the last recorded deep review was Tern h971:s2 on 2026-11-20T11:24Z. More than five actual completed worker receipts have accumulated since that review; the five-activation deep-review threshold is met. This is an evidence-only supplement. It does not change task-graph status, numeric priority, owner, or scheduler state.
+
+### Reproducible task-graph triage
+
+- Current graph Git blob: `71b6bbb977a9acb7c578cf5a100a4c3595ba412b`.
+- Existing triage source: `WORKSPACES/COMMON/task_upkeep_triage.py`, Git blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`, 6,601 bytes. Its Python self-test passed. The source's `build_report` was run against a field-complete projection of all 18 graph records; blocker presence was preserved and absent optional numeric fields remained absent. No graph write occurred.
+- Result: 13 active/blocked candidates. Priority counts: P0=3, P1=2, P2=3, P3=1, P4=1, UNCLASSIFIED=3.
+- Candidate order: P0 Code Grurple parent, Paper A, Paper B; P1 Orson cognition (13 days overdue), clone-footprint census; P2 measured-system geometry (due 2026-11-30), blocked M87 polarimetric readout, workflow upkeep; P3 full theory (due 2026-12-14); P4 exploration; then three unclassified branches.
+- Active-candidate metadata gaps: priority 3, owner 7, due date 10, last-reviewed 10. Effort/value fields are absent, so no explicit low-hanging candidate is defensible.
+
+### Graph structure
+
+- 18 records versus `branch_count=16`; 5 completed, 12 active, 1 blocked.
+- 7 roots, 11 parent references, 10 child edges, 17 reachable records.
+- One unreachable blocked M87 polarimetry record; one parent-only edge; no dangling child references or cycles found.
+- Tern retains graph authority. No node, edge, priority, owner or status changed.
+
+### Current queue evidence
+
+- WH-01 / HsH #1703 remains OPEN. Original 100-run snapshot was not retained; cursor remains held at 2026-11-15T18:00Z. Clone ledger currently has 457 rows, 454 unique populated IDs and 3 preserved legacy rows; zero parse errors and zero duplicate populated IDs. This does not repair the missing run-list partition.
+- WH-02 / HsH #1702 remains OPEN and Calder-owned. PR #1710 is OPEN at head `a967e908ceab048d219831ec799343643870daf3`, 7 commits ahead and 10,150 behind current main. Six of seven changed paths match the merge base; only `.github/workflows/conversation-json-content-ci.yml` differs. No exact-head Actions run or formal review was returned. Smallest next action remains Calder/authorized maintainer reconciliation of that one workflow file, then exact-head CI. No rebase performed.
+- WH-03/WH-04 / Factory Floor #16-18 remain OPEN without a verified executable intake scanner or lifecycle transition.
+- WH-05 / HsH #1704 remains OPEN. All four canonical Mersearch request files remain `requested`. Lane 2 has a run manifest and compact receipt; raw hit-level results remain withheld. The request-index directory has no output folders for lanes 1, 3 or 4. No request was released, overwritten or retriggered.
+- WH-06 / HsH #1705 remains OPEN. No new full issue/fork census was performed; the 2026-11-19 snapshot remains the last verified broad census.
+- WH-07 / HsH #1706 remains OPEN without verified pickup.
+- WH-08 / Factory Floor #19 remains OPEN without verified pickup.
+- WH-09 / HsH #1712 remains OPEN; migration remains partial at 5,155 of 13,793 records, with no verified new pickup.
+
+### Old Plan Recovery Sweep intake/fallow fields
+
+- `intake_at`: UNKNOWN pending recovery; no source timestamp recovered.
+- `last_substantive_progress_at`: 2026-11-08, as carried in the standing queue.
+- `fallow_age`: 14 days as of 2026-11-22.
+- `priority_authority`: Nathan Direct 2026-11-21 intake/fallow control. No numeric P0-P4 priority assigned; do not infer one.
+- `pickup_state`: NOT YET EXECUTED / NO VERIFIED THREE-REPOSITORY PICKUP ROUTE.
+- `owner`: UNASSIGNED. `coordination_lane`: Tern, retaining PWH and task-graph authority.
+- `blocker`: no named bounded source sample, no already-enabled worker identified for pickup, and no verified receipt/return route across HsH, Glass and HSH_RESOURCES.
+- `smallest next action`: Tern selects one bounded source sample and one already-enabled worker, records the existing inbox/queue route, and verifies a receipt. No new task, automation, recurrence or graph node.
+- `review_trigger`: next actual completed activation after verified pickup, or 24 hours after that pickup, whichever occurs first. This is a review checkpoint, not a scheduled automation.
+- `return_route`: this queue, Tern's existing inbox and the partial Project Portfolio Register. No direct-thread delivery or acknowledgment claimed.
+- `outcome`: OPEN / UNRESOLVED. No owner, priority or graph status changed. No separate graph node found or created.
+
+### Scheduler overlap and run-envelope discrepancy
+
+- :00 h1031:s0 run ID `212fb49c-ed70-8320-9a1f-245bc9283be7`: its canonical receipt reports start 22:56:47.366204Z, completion 23:21:55.773089Z, scheduler failure and `chat_ref=null`. A later automation peek reports the same run ID with start 23:24:45.328Z and completion 23:27:04.863Z, also without a chat reference. No attempt identifier or explanation was found. Preserve both observations; do not infer retry, duplicate execution or distinct thread.
+- :24 h1031:s2 run ID `d518a6c5-4f3c-8327-8275-465a784234fb` was observed `IN_PROGRESS`, start 23:22:45.978Z, `chat_ref=null`.
+- :36 h1031:s3 run ID `85033e7a-2e83-8a4e-8e8a-8f7c0e0f1a9c` was observed `IN_PROGRESS`, start 23:32:48.186Z, `chat_ref=null`.
+- These scheduler records overlap in time, but do not establish simultaneous model computation, authenticated worker identity or cross-thread delivery. Preserve run-level evidence only.
+
+### Review outcome
+
+FIE last full review remains 2026-11-20, next 2026-12-04. Unrelated-reading break last completed 2026-11-21; no duplicate break. The PWH queue and this supplement remain the return route to Tern. No ownership transfer, graph mutation, task creation, task ID/schedule/phase change or public issue was made.
