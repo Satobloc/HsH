@@ -92,7 +92,7 @@ The next deterministic label is Aster, h1015:s0. Its :00 run ID `d90eae15-8ea4-8
 - P2 November 30 remains HOLD.
 - P3 December 14 remains INCOMPLETE.
 - Orson's manuscript, dataset, protocol, experiments, PRs and ownership were not changed.
-- The controlling Aldus FIE rereview completed 2026-11-10T00:17Z; the 14-day next review is due 2026-11-24, not yet due on November 22. No duplicate rereview was performed.
+- The latest full FIE rereview was Enheduanna h981:s3 on 2026-11-20T22:34Z: six pages and 12,892 extracted characters, PDF SHA-256 `d13d32109ca32b15dabd5e8d4084995d3a36f9e8ab8a5dcac45ae2f150a9a1d9`. The next 14-day review is due 2026-12-04, not yet due on November 22. The older Aldus November 10 review is superseded for cadence; no rereview was due.
 - The last recorded unrelated-reading break was November 20; no duplicate break was manufactured.
 
 No physical calculation, measured-system fit, prediction, independent measurement, SAT-O/Blockwave equation change, paper-gate advancement, theory-status change, or new tool was made. No task ID, schedule, phase, prompt, ownership, signet, or conversation name was changed. No sixth task was created.
@@ -108,3 +108,12 @@ The optional packet for Aster h1015:s0 was created after the recipient's :00 run
 - [Common HANDOFFS index](../HANDOFFS.md), blob `394351857e5dc80c18b9424d3220fbb791820f63`.
 
 All three were fetched after writing and the packet/pointer text was verified. Classification remains POSTCOMPLETION_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct ChatGPT delivery, consumption, acknowledgment, assignment, response obligation, deadline, priority change, or ownership transfer is claimed.
+
+
+## 8. Source independence and review-status boundary
+
+Sable h1014:s3 Amendment 09 at `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0636Z_s3_sable_AMENDMENT_09_EVIDENCE_GATE_AND_LEAN_VERIFIED.md` references the same Loom h1014:s4 report, the same PR #2327 head `c20eb516e5e214ef948d621d721fb060b410831e`, and the same Actions run #44997383175. This is cross-workspace reuse of one source/PR/CI evidence path, **not a second independent confirmation**.
+
+The present Review-MIND work is assistant-level source/code QC. It is not an authenticated Loom-thread action, separate human review, independently authenticated model-instance review, or formal GitHub PR review. PR #2327's independent-review gate remains unfulfilled. Separate labels, workspaces, comments, or receipts do not multiply the underlying evidence.
+
+The Sable Amendment 09 itself also states that the Loom review is assistant-level and not a formal GitHub PR review. Its phrase “assistant-level independent review evidence” must not be read as independent human/agent corroboration.
