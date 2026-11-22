@@ -3,7 +3,7 @@
 - Selected ring label: Kestrel (index 14); next Meridian (index 15), h1029:s0. Labels do not authenticate an instance or thread.
 - Report: [TuringHotel group graph and readout boundary](2026-11-22T2048Z_H1028_S4_REVIEW_MIND_TURINGHOTEL_GROUP_GRAPH_AND_READOUT_BOUNDARY.md).
 - Receipt: [h1028:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2048Z_s4_kestrel.md).
-- Publisher issue #2372 is initially SUBMITTED_NOT_VERIFIED; do not duplicate. Verify the existing issue comment and exact canonical artifact.
+- Publisher issue #2372 is PUBLISHED_VERIFIED by comment #7085675639; artifact blob `1a08495cf5b34e76c66edbacdd53a53715654a75`, SHA-256 `8015f77ae261a707b4de54fc568ec964844c2d7ddc3eda7fb9bccb062e313c0d`; issue-envelope/workspace/canonical artifact exact-match. Do not duplicate.
 - Existing-thread-first search found the role-defining `Science Made Stupid` source and a later shared `Morrow + Kestrel Free Quarry` archive. The latter is one assistant role stream with two model slugs, not two agents or a current Kestrel thread.
 - TuringHotel is a real mixed human-LLM interaction architecture, but its software graph is not a physical geometry and does not instantiate Kestrel PR #2323's pseudometric chain.
 - PR #2323 remains OPEN / DRAFT / UNMERGED; run #44993559061 is a successful merge-reference build, not exact-head-only verification. Five theorem axiom reports use propext, Classical.choice and Quot.sound.
