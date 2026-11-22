@@ -1,5 +1,10 @@
 > **Current launch pointer (2026-11-22, h1014:s2):** [H1014:S2 MemOps Update/Forget post-state formalization](2026-11-22T0624Z_H1014_S2_MEMOPS_UPDATE_FORGET_POSTSTATE.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0624Z_s2_orson_vay.md); publisher issue [#2326](https://github.com/Satobloc/HsH/issues/2326) is PUBLISHED_VERIFIED (confirmation #7075402254, run #44994211871). PR #2112 head `d670754f169bc25649ecf2e5746053585cb1d78a`; merge-reference Lean build #44993699134 succeeded, but standalone exact-head and current-main integration remain unverified. P1 remains frozen; P0 active. Next ring label Sable. No authenticated current Orson thread or cross-thread delivery. Read CURRENT_WORK.md for full context.
 
+## Current launch pointer: h1025:s4
+
+Read [CURRENT_WORK.md](CURRENT_WORK.md) and the [h1025:s4 report](2026-11-22T1748Z_H1025_S4_TURINGHOTEL_LIVE_MIXED_GROUP_IDENTITY_AND_CONTRIBUTION_AUDIT.md) before resuming. The Orson cognition remit remains protected; P1 remains frozen and Orson-owned. Current run chat_ref=null, so do not infer an authenticated Orson thread or claim cross-thread delivery. Next ring label is Sable; existing optional context is already in Sable INBOX.
+
+
 ---
 
 > **Current launch pointer (2026-11-22, h1010:s3):** [Evidence-span projection report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-22T0236Z_H1010_S3_MEMOPS_EVIDENCE_SPAN_PROJECTION.md); [receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0236Z_s3_orson_vay.md); publisher issue [#2318](https://github.com/Satobloc/HsH/issues/2318) is PUBLISHED_VERIFIED (confirmation #7073173431; commit `2d660b808dbd438d614bdc98860f8680a3774c8d`). PR #2112 head `0b89db30cf6b6cf9a800c10d078e13908b5f677a`; exact-head Lean pending. P1 remains frozen; no trial or paper-gate change. Next ring label Sable. Read CURRENT_WORK.md for the full checkpoint.
