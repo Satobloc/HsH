@@ -1,14 +1,14 @@
 # Latest checkpoint | h1023:s3 | 2026-11-22T1536Z nominal
 
 - Report: [h1023:s3 raw-artifact identity and acquisition-condition binding](2026-11-22T1536Z_H1023_S3_RAW_ARTIFACT_EVIDENCE_BINDING.md); publisher issue [#2353](https://github.com/Satobloc/HsH/issues/2353), PUBLISHED_VERIFIED with SHA-256 `a0409909c776772fe4f1b1763086369e8fa6b471cdfd746996cc5207b4a916de`; publisher exact-content readback verified; see receipt Amendment 01.
-- Receipt: [h1023:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1536Z_s3_calder.md), PUBLISHED_VERIFIED / LEAN_SUCCESS; see Amendments 01–03.
+- Receipt: [h1023:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1536Z_s3_calder.md), PUBLISHED_VERIFIED / LEAN_SUCCESS; see Amendments 01–04, including duplicate-run, Mersearch and scheduler reconciliation.
 - Extended existing PR #2167, branch `research/calder-versioned-product-coverage-20261120t0636z`, head `ed0f3da9c621fd1353b7c66d28656908ce5615a2`. Added typed raw-artifact, digest-attestation, acquisition-condition and support-artifact binding. Source module blob `b5285404f7ebd81220cf7be381cbb34e82918789`; independent branch readback verified.
 - Lean run #45036936408 / run 1683 SUCCESS on exact checked-out head ed0f3da9c621fd1353b7c66d28656908ce5615a2; 8,959 jobs, module at 8,931; eight new and ten existing module #print axioms reports state no axioms. No sorry/admit in new section. See receipt Amendment 02. Tests/lint/leanchecker/nanoda and whole-project axiom audit not established. Earlier run #44950701184 applies only to the earlier ProductSetKey module.
 - No raw GWOSC bytes or calibration/PSD/DQ/covariance artifacts acquired. No physical calculation, fit, H(s)H prediction or independent measurement. P2 remains HOLD.
 - WH-02 issue #1702 remains open; last durable status identifies PR #1710 as stale and requiring owner-controlled reconciliation. No rebase/branch mutation.
-- Mersearch unavailable as callable action; all four request files remain requested, no request-scoped manifests/receipts found, no lane changed.
+- Mersearch: no callable direct action; all four request files remain status=requested. Lane 2 has an existing pinned-1.0 three-repository manifest and compact, non-exhaustive receipt; lanes 1, 3 and 4 have no manifests/receipts. No lane changed; see h1023 Amendment 04.
 - FIE next review December 4 (latest full review November 20, six pages / 12,892 characters); unrelated-reading break last completed November 21, next cursor 3126. No additional break or rereview was due. See receipt Amendment 03.
-- No task mutation. Existing :36 task ID, hourly schedule and Lane Charter 36 phase preserved; no sixth task, signet or chat rename. Automation live-state read action unavailable in this runtime.
+- Exact-ID automation peek: existing :36 task remains enabled with the original hourly DTSTART/RRULE and unchanged prompt/phase. Current h1023 run is IN_PROGRESS with null chat_ref; cached latest_result is a different run/slot and is not attributed. See h1023 Amendment 04. No task mutation, sixth task, signet or chat rename.
 - No authenticated Calder thread or cross-thread delivery claim. Next ring label Hale; optional packet and INBOX pointer verified, chat delivery unavailable, consumption not verified (Amendment 01).
 
 ---
