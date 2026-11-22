@@ -215,3 +215,11 @@ The older November 24 due-date pointer in the November 10 capsule entry is super
 - No original SAT-O/Blockwave equation was recovered, copied or changed. No physical calculation, CODATA comparison, new Lean run, fit, prediction, system selection, paper advancement or theory promotion.
 
 **Next pointer:** wait for positive P0 reader acceptance or explicit Code Grurple standdown. After release, recover original SAT-O/Blockwave statements and verbatim equations, define source-typed geometry and projection/composition maps, then select a real measured system. Preserve this cycle ticker; no new cycle is authorized here.
+
+
+### Post-write final readback | h1016:s2
+
+- Final main after the Lane24 capsule, handoff, inbox, seed and clone-ledger commits: `35cb990936164e8d4ae2b6d8188b9e69a93c4bff`.
+- Re-fetched all eight pinned Paper A/B source/presentation objects at that final main; all eight still match exactly.
+- Re-fetched the three adjacent discovery-source files; all three still match their prior blobs. No protected or discovery-source file was changed by this run.
+- This post-write readback does not establish a live reader route or standdown. P0 remains ACTIVE / Lane 24 remains HOLD.
