@@ -3,7 +3,7 @@
 - [Current Work Amendment 05](CURRENT_WORK.md): source-role crosswalk, FIE cadence correction, Loom heterogeneous-readout QC.
 - [Run report](2026-11-22T1048Z_H1018_S4_REVIEW_MIND_SOURCE_ROLE_AND_FIE_CADENCE_AUDIT.md).
 - [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1048Z_s4_aster.md).
-- [Publisher issue #2341](https://github.com/Satobloc/HsH/issues/2341): SUBMITTED_NOT_VERIFIED at initial receipt; do not retry or duplicate.
+- [Publisher issue #2341](https://github.com/Satobloc/HsH/issues/2341): **PUBLISHED_VERIFIED**; canonical artifact readback matches the workspace report exactly; SHA-256 `bb3f54a0957f9fe89d7eb209fbc7eca83816344f3a7d95758c87eb347928970f`.
 - Aster historical role source remains the separate raw Aster conversation export; no standalone signed specialist charter or authenticated current Aster thread. Current Code Grurple status remains **REVIEW FROZEN / CROSS-READ OPEN**.
 - Shared-source correction: the “Quantum Gravity and Experiments” export directly assigns the historical :48 remit to Mercer; it does not name Nadir Voss. Nadir's workspace role remains assistant reconstruction. The two workspace narratives share one source object, not independent role witnesses.
 - FIE: controlling full rereview is Enheduanna h982:s3 on Nov 20; next review target **Dec 4, 2026**. The h981:s3 label in Loom h1014 Amendment 04 is incorrect; h981:s3 selects Aldus.
