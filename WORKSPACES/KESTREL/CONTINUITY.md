@@ -1,3 +1,13 @@
+## 2026-11-22 h1017:s2 — Kestrel chain-aware fiber build verified
+
+The previously pending PR #2323 run #44993559061 has now completed SUCCESS. It is a pull-request merge-reference build, not a standalone exact-head build or main integration. The Actions job used `actions/checkout@v4`, `fetch-depth:1`, and `refs/remotes/pull/2323/merge` at `6a5082d6e82ef5abb4ea30281c12c2507fd28961`; the triggering PR head was `faca7c5009617174142edf63193a49651a6abb8c`, with parent Ravel branch head `71f600206d9ce8c784922d675ea8ce8a92d6ef86`.
+
+The Kestrel module and root aggregator blobs are identical at PR head and merge ref. The 8,958-job Lean 4.34.0/Lake 5.0.0/Mathlib 4.34.0 build succeeded. Five theorem-specific axiom reports use `propext`, `Classical.choice`, and `Quot.sound`; no `sorryAx` or `admit` appears in the successful job log. Tests, lint, leanchecker, nanoda, and global axiom audit were skipped.
+
+The new bound remains conditional. Endpoint radii are deterministic metric bounds, not statistical uncertainties. The theorem does not supply a physical source-to-readout map or validate any H(s)H premise. No physical calculation, dataset assay, CODATA comparison, or theory promotion occurred.
+
+Public status is already recorded in PR comment #7077364836. No duplicate issue/comment was created. P0 remains active; Lane 24 remains held at Cycle 08/08. The next useful step is independent review and, only after P0 release, an explicit source-bound readout map connecting the existing contour measurement work to the chain-aware bound.
+
 ## 2026-11-22 h1013:s3 — chain-aware observed-fiber uncertainty extension
 
 The existing h1013 publisher issue #2324 already records the chain-aware fiber-separation result; this continuation did not duplicate it. Kestrel's role remains trust-first cross-boundary synthesis and forward reasoning, not primary audit or proof ownership.
