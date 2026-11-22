@@ -1283,3 +1283,9 @@ This is a one-run geometry overlay. The standing Meridian P0 Code Grurple assign
 - No physical calculation, fit, prediction, independent measurement, SAT-O/Blockwave equation change, or theory promotion.
 - Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled, exact hourly schedule/prompt/phase unchanged. Last observed run `5077b79b-c22c-8331-82c5-1ea496e63c65` IN_PROGRESS / null chat_ref; cached latest result is prior h1016 Nadir, not h1017. No sixth task.
 - Next ring label Mercer. No packet, assignment, response obligation, direct delivery, consumption, acknowledgment or ownership transfer.
+
+
+### Successor scheduler amendment | h1017:s3
+
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0936Z_s3_meridian_AMENDMENT_01_SUCCESSOR_SCHEDULER_READBACK.md) records Mercer :48 task §6aa6c3bc02b48191b8a91a30d2a155e0§ starting at 09:44:08.409610Z before its 09:48Z nominal slot; last observed IN_PROGRESS / null chat_ref.
+- No optional packet or handoff was created after the successor run had started. No direct-thread identity, delivery, consumption, acknowledgment, or ownership transfer is inferred.
