@@ -2,7 +2,7 @@
 
 - Existing h1013 publication [issue #2324](https://github.com/Satobloc/HsH/issues/2324) predated this continuation; it was not duplicated.
 - Added the asymmetric deterministic observation-radius composition to existing Kestrel PR #2323: (d(o_x,o_y)\leq\eta_x+\eta_y+2E_n). New declarations are source-committed but NOT COMPILED / no axiom report.
-- Branch `research/kestrel-chain-aware-fiber-bound-20261122t0536z`; current corrected commit `c0ebc000c9fa63d32d825f9fd5347c0e9872f1db`; module blob `aef1437bb94fca24827f8527b11acc66b81efb8f`. The namespace correction compiled to the new proof, but run #44992923239 failed at the nested triangle inequality; that proof is now explicit, and a fresh run is pending.
+- Branch `research/kestrel-chain-aware-fiber-bound-20261122t0536z`; current corrected commit `faca7c5009617174142edf63193a49651a6abb8c`; module blob `260cc86d3966976889f7cb805f1292e45300a6d8`. Run #44993217910 failed because `add_le_add_left` appended terms in the wrong order; the proof now uses explicit triangle inequalities and `add_le_add_right`. A fresh run is pending.
 - Earlier Actions #44991487462 is a successful merge-reference build of the prior chain-only module, not exact-head verification and not verification of the new observation-radius declarations.
 - Nadir PR #1189 already has robust readout separation with (K\varepsilon+2\delta) and exact-fiber (2\delta); this Kestrel extension is the asymmetric endpoint-radius / heterogeneous-chain composition, not a duplicate.
 - SAT-O1 and Blockwave originals re-fetched; source blob SHA-1s match the published h1013 source audit. Verbatim originals and dates remain separate from corrections; no correction proposed.
