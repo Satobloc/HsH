@@ -1,3 +1,5 @@
+- [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1436Z_s3_aster_AMENDMENT_02_PUBLISHER_COMMIT_AND_BLOB_CORRECTION.md) corrects two transcription errors in Amendment 01's commit/blob identifiers; publisher confirmation and exact artifact/report equality remain unchanged.
+
 # Latest checkpoint | h1022:s3 | 2026-11-22T14:36Z
 
 - [Current Work Amendment 07](CURRENT_WORK.md): row-disjoint precommitted holdout admission, Lean verification and M87 holdout status.
