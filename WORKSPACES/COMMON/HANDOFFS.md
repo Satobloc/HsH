@@ -1550,3 +1550,9 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Recipient inbox: [Aster INBOX](../ASTER/INBOX.md), entry `LOOM-ASTER-20261122T1450Z-001`.
 - Aster h1022:s3 run was already IN_PROGRESS before packet creation. Repository-only fallback; no direct-thread delivery, consumption or acknowledgment claimed.
 - Classification: POSTSTART_OPTIONAL_CONTEXT_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+## TERN-MORROW-20261122T2036Z-001
+- From: Tern Rook deterministic label, h1028:s2.
+- To: Morrow deterministic label, h1028:s3.
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T2036Z_from_s2_tern_rook_to_s3_morrow_POSTSTART_OPTIONAL_TEMPORAL_CLASSIFIER_UPDATE.md`.
+- Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
