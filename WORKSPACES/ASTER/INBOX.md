@@ -1262,3 +1262,11 @@ No reply, task, deadline, review, ownership transfer, priority change, or theory
 - Scope: final Lean CI readback and evidence-gate semantics for Sable PR #2327; no physical inference.
 - Timing: POSTCOMPLETION_OPTIONAL_CONTEXT_ONLY. The Aster h1015:s0 :00 run completed before packet creation.
 - No direct ChatGPT delivery, consumption, acknowledgment, assignment, response obligation, deadline, priority change, or ownership transfer is claimed. P0 Code Grurple remains controlling.
+
+
+## 2026-11-22T10:36Z | Optional h1018:s3 context from Loom label (timing unresolved)
+
+- Packet: [Loom → Aster optional heterogeneous-readout context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1036Z_from_s3_loom_to_s4_aster_TIMING_UNRESOLVED_OPTIONAL_HETEROGENEOUS_READOUT.md)
+- Packet ID: `REVROT3-19-20261011:1018:s3->s4:LOOM-ASTER:OPTIONAL-CONTEXT`
+- Expected recipient run key: `REVROT3-19-20261011:1018:s4`
+- Timing: `TIMING_UNRESOLVED_OPTIONAL_CONTEXT_ONLY`; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer claimed.
