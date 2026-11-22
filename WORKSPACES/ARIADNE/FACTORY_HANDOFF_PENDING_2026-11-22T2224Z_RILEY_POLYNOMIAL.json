@@ -1,0 +1,86 @@
+{
+  "schema": "factory-handoff-pending-v1",
+  "packet_id": "ARIADNE-RILEY-POLYNOMIAL-20261122-001",
+  "created_at_utc": "2026-11-22T23:02:00Z",
+  "source_item": {
+    "repository": "Satobloc/HsH",
+    "path": "FORMAL_VERIFICATION/HsHVerification/AriadneRileyPolynomialPresentationDependence.lean",
+    "blob": "e57e21f5c33f60cd2723fc93049299235fc9ac1a",
+    "branch": "research/ariadne-riley-polynomial-presentation-dependence-20261122t2224z",
+    "pull_request": 2380,
+    "pull_request_head": "fdc1aaefdbe4e6224cb7c074c3674bd8bc67d382"
+  },
+  "verification": {
+    "status": "VERIFIED_LEAN",
+    "workflow_run": 45080245379,
+    "workflow_url": "https://github.com/Satobloc/HsH/actions/runs/45080245379",
+    "job_id": 137386556340,
+    "lean": "4.34.0",
+    "lake": "5.0.0",
+    "mathlib": "4.34.0",
+    "full_build_jobs": 8948,
+    "conclusion": "SUCCESS",
+    "theorem_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "sorryAx": false,
+    "admit": false,
+    "skipped": [
+      "tests",
+      "lint",
+      "leanchecker",
+      "nanoda",
+      "global_axiom_audit"
+    ],
+    "scope": "Conditional inverse-congruence witness 3*5 = 1 mod 7 and inequality of the source-stated Riley polynomials via evaluation at u=1. Not a proof of the full knot-equivalence theorem, Riley representation theorem, or H(s)H physical map."
+  },
+  "source_basis": {
+    "hsh_file": "DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/PROPER DIMENSIONALITY.txt",
+    "hsh_blob": "1d8cd1574a6acdc0f86691599191b74428a2c086",
+    "sat_archive_file": "00 PROPER DIMENSIONALITY .txt",
+    "sat_archive_blob": "e4836ca1f57e9da5996cf1eaad10ee436e49545a",
+    "authorship": "UNBYLINED",
+    "note": "Whole files are non-identical; the Riley-polynomial passage is verbatim identical."
+  },
+  "factory_floor": {
+    "status": "PENDING_NOT_SUBMITTED",
+    "eligibility": "NOT_FACTORY_FLOOR_ELIGIBLE",
+    "intake_route": "NO_AUTHORIZED_MACHINE_READABLE_INTAKE_VERIFIED",
+    "direct_factory_write": false,
+    "required_plot": "MISSING",
+    "independent_hostile_fidelity_review": "MISSING",
+    "additional_missing_maps": [
+      "presentation to knot group/equivalence class",
+      "group to representation/character variety",
+      "representation branch/peripheral holonomy to geometric object",
+      "geometric object to worldtube/timesheet embedding, metric, orientation and support",
+      "worldtube/timesheet readout to B and Phi with units and normalization",
+      "SO(4)-to-representation bridge"
+    ],
+    "governing_sources": [
+      "https://github.com/Satobloc/FACTORY_FLOOR/blob/main/README.md",
+      "https://github.com/Satobloc/FACTORY_FLOOR/blob/main/FLOORROOM_TODO.md"
+    ],
+    "reason": "Factory Floor requires a precise quaternary geometric plot and independent hostile fidelity review before admission. Neither exists. The general GLASS+HSH-to-WORKSHOP route is not an authorization to bypass that gate."
+  },
+  "publication": {
+    "status": "NOT_PUBLISHED",
+    "publisher_artifact": null,
+    "publisher_run": null,
+    "attempted_issue": 2382,
+    "attempted_issue_state": "CLOSED_NOT_PLANNED",
+    "attempted_issue_body": "EMPTY",
+    "reason": "The issue was created without the required payload. The existing publisher is issues.opened-only; edited-event retry is not authorized. No duplicate issue or direct-write bypass was attempted."
+  },
+  "physical_status": {
+    "measured_system": null,
+    "dataset": null,
+    "calculation": "NONE",
+    "fit": "NONE",
+    "prediction": "NONE",
+    "codata_comparison": "NONE"
+  },
+  "next_action": "Do not submit to Factory Floor. Obtain a precise geometry plot and independent hostile fidelity review, and define the missing typed maps before any intake."
+}
