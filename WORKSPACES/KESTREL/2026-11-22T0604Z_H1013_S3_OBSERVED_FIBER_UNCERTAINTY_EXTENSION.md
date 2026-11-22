@@ -285,3 +285,19 @@ The new Lean theorem types `observedX`, `observedY` and the exact chain outputs 
 If a real detector produces data in a distinct space (D), the model must declare a final readout map (R_n:X_n\to D), its metric, units, calibration and uncertainty model. (R_n) must be included as an explicit final chain stage, so its Lipschitz/local-error contribution is incorporated into the propagated budget (E_{n+1}); the endpoint radii (eta_x,eta_y) must then be measured in (D)'s metric. Comparing detector values in (D) directly with model outputs in (X_n) without this map is ill-typed. No such physical readout map is currently supplied.
 
 Likewise, the projection (p:X_0\to Y) and factorization (g\circ p) remain abstract formal inputs. The theorem does not establish a worldtube-to-timesheet, timesheet-to-instrument or instrument-to-detector map. Those require source-grounded definitions and independent measurement.
+
+
+## Amendment 09 — candidate editorial normalizations (not adopted)
+
+To keep original text separate from possible corrections, the following are only candidate transcription repairs. They are not accepted SAT-O/Blockwave equation changes and must not be substituted into quotations or formalizations without source-author confirmation and independent contextual review.
+
+| Exact raw Blockwave token | Candidate editorial form | Why it is only a candidate |
+|---|---|---|
+| `P^\mu{}^\nu\!\equiv \delta^\mu{}^\nu+u^\mu u_\nu` | `P^\mu{}_\nu\equiv\delta^\mu{}_\nu+u^\mu u_\nu` | The raw second index is upper while the velocity term is mixed; intended projector type needs confirmation. |
+| `u^\mu u\mu+1` | `u^\mu u_\mu+1` | Apparent missing subscript delimiter. |
+| `(\nabla\alpha u_\mu)` | `(\nabla_\alpha u_\mu)` | Apparent missing subscript delimiter on the derivative index. |
+| `P^{\mu}{}{\rho}`, `P^{\nu}{}{\sigma}`, `P^{\alpha}{}{\beta}` | `P^\mu{}_\rho`, `P^\nu{}_\sigma`, `P^\alpha{}_\beta` | Apparent malformed empty brace groups; intended index placement must be confirmed. |
+| `J{\mu\nu}` | `J_{\mu\nu}` | Apparent missing subscript delimiter. |
+| `\mathcal{M}^{\mu\nu}{}{\rho\sigma}` | `\mathcal{M}^{\mu\nu}{}_{\rho\sigma}` | Apparent malformed lower-index group; tensor slot convention remains unverified. |
+
+No SAT-O1 raw equation was edited. The original Blockwave text remains authoritative as a transcription of the attachment, including its irregularities. No corrected theory equation is accepted by this amendment.
