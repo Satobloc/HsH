@@ -6,7 +6,7 @@
 - No raw physical data or source-bound measurement package; no physical calculation, fit, prediction, independent measurement or P2 selection. P2 HOLD.
 - WH-02 issue #1702 remains unresolved; last recorded PR #1710 head a967e908ceab048d219831ec799343643870daf3 is stale relative to main and requires owner-controlled reconciliation. No rebase.
 - Four Mersearch lanes remain requested; no callable Mersearch action, manifests or receipts. No lane mutation.
-- FIE next review November 24; unrelated reading completed November 20.
+- FIE next review December 4 (latest full review November 20, six pages / 12,892 characters); unrelated-reading break last completed November 21, next cursor 3126. See receipt Amendment 03.
 - Existing :36 automation and Lane Charter 36 unchanged; no sixth task. No direct-thread delivery or authenticated Calder instance claim.
 - Next deterministic ring label: Hale.
 
