@@ -159,3 +159,12 @@ The Project Portfolio Register remains a partial scan last updated 2026-11-13 an
 Keep P0 ACTIVE and Lane24 HOLD. Do not start Cycle 09. If P0 clears, first confirm the official Zenodo/DataCite license metadata and retrieve the exact HDF5 package with cryptographic checksums. Then establish calibration traceability, the explicit map among t, n, M, tau, Psi and vortex age, and a valid independent holdout. Only after that should a source-grounded forward map from a candidate geometry to the published ensemble observables be formalized and run in Lean. The reverse map from the current sparse planar ensemble data to a unique 3D worldtube remains underdetermined.
 
 **No public publication was made.** This is an internal source-readiness and control-plane delta; the existing P2 issue #565 already carries the Ratz candidate and no new public claim or independent measurement warrants a duplicate issue.
+## Amendment 01 | Existing Lane24 formalization status
+
+Existing Hale PR #1487 remains OPEN / DRAFT / UNMERGED at head `98e0a086e5620428fa4d872d6337364cfaafa7f2`, with two commits and four changed files. No formal reviews were returned.
+
+Actions run #44968816552 succeeded, but the job log shows checkout of `refs/remotes/pull/1487/merge` at synthetic merge commit `20be9a7...`, merging PR head `98e0a086...` into base `2214b0c...`. This is a successful merge-reference build, not an exact-head-only checkout.
+
+The existing MeasurementDomainCompatibility theorems for native-domain holdout, explicit cross-mode bridge and transformed target-domain comparison report no axioms. The FactorialContrastIdentifiability recovery/bijection theorems report `propext`. The workflow's separate leanchecker, nanoda and global axiom audit were not established by this run.
+
+No new Lean module or code change was justified in this activation. The source-defined tau reparameterization and the distinct t/M/Psi/vortex-age coordinates are the next formalization target only after the P2 system is selected and the measurement/observation maps are fully typed. No physical premise is proved by the existing Lean build.
