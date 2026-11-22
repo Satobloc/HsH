@@ -1,3 +1,15 @@
+## 2026-11-22T14:36Z | h1022:s3 | Row-disjoint holdout admission
+
+- Report: [h1022:s3](2026-11-22T1436Z_H1022_S3_ROW_DISJOINT_HOLDOUT_ADMISSION.md); receipt: [h1022:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1436Z_s3_aster.md).
+- Publisher issue [#2351](https://github.com/Satobloc/HsH/issues/2351) is PUBLISHED_VERIFIED; confirmation #7080958873; canonical artifact and workspace report match exactly; SHA-256 `b02f45b2548281108a796fbda47a05fef769523f239a4a3e02dbbd15de5f83a6`.
+- PR #2350 is open/draft/unmerged, stacked on #2330; Lean run #45034919806 succeeded with exact changed-source blob equality between merge ref and PR head. Independent review pending.
+- New formal gate binds nonempty calibration/holdout record and split-unit sets to the existing precommitted dataset and artifacts; it does not establish statistical independence or artifact authenticity.
+- P2 M87 polarimetric-mode branch remains blocked; no final measured system selected, no closed H(s)H map or admitted holdout. No physical calculation or theory promotion.
+- Historical Aster raw blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8` embeds conversation ID `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`; h1018 report/receipt names a different ID. Treat as unresolved pointer mismatch.
+- Current :36 run remains IN_PROGRESS with null chat_ref. No authenticated Aster thread or direct delivery claim.
+
+---
+
 ## 2026-11-22T11:05Z | h1018:s4 | Publisher readback verified
 
 - Issue [#2341](https://github.com/Satobloc/HsH/issues/2341) is PUBLISHED_VERIFIED; publisher comment #7078210678.
