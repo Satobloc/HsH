@@ -1940,3 +1940,150 @@ theorem h1001_s4_latest_result_is_previous_run :
 #print axioms h1001_s4_task_metadata_precedes_current_start
 
 end HsHVerification.TernH743SchedulerSnapshotEvidence
+
+
+namespace HsHVerification.TernH743SchedulerSnapshotEvidence
+
+/-!
+## h1020:s4 :48 current-run / cached-result binding observation
+
+Source: the existing Workshop Relay :48 task peek on 2026-11-22.
+This is a last-observed IN_PROGRESS snapshot at 12:48:47.315988Z, not a
+terminal-state claim. The current run reference was absent. The task-level
+conversation reference and cached latest-result reference were equal, but
+the cached result belonged to the prior 11:48Z occurrence.
+
+The raw conversation reference is represented by one opaque equality token.
+It does not authenticate a worker, identify the current run, or establish
+cross-thread delivery. The current and cached run IDs are retained as separate
+source fields. All time coordinates below are UTC microseconds since midnight
+on 2026-11-22; they are not absolute timestamps.
+-/
+
+/-- Task-container, current-run, and cached-result references for h1020:s4. -/
+def h1020S4ThreadRefs : ThreadReferenceObservation := {
+  phase := 4
+  enabled := true
+  scheduleMinute := 48
+  taskConversationRefToken := some "opaque-task-result-reference"
+  currentRunScheduledUs := us 12 48 0 0
+  currentRunStartedUs := us 12 48 47 315988
+  currentRunRefToken := none
+  latestResultScheduledUs := some (us 11 48 0 0)
+  latestResultCreatedUs := some (us 12 36 2 757570)
+  latestResultCompletedUs := some (us 12 36 6 873479)
+  latestResultRefToken := some "opaque-task-result-reference"
+  taskLastRunUs := us 12 36 9 955197
+  taskUpdatedUs := us 12 36 32 506164
+  nextRunUs := us 12 48 0 0
+}
+
+/-- Exact task/run/result fields observed for the h1020:s4 :48 occurrence. -/
+def h1020S4LastObservedRun : SchedulerSnapshot := {
+  phase := 4
+  taskId := "6aa6c3bc02b48191b8a91a30d2a155e0"
+  enabled := true
+  scheduleMinute := 48
+  runId := "161510b2-5bdc-8329-83a5-f0f4cf491731"
+  scheduledUs := us 12 48 0 0
+  startedUs := us 12 48 47 315988
+  completedUs := none
+  status := .inProgress
+  latestResultRunId := some "a3e7a261-f63c-8332-a4fc-7fcbd8dc234f"
+  chatRef := none
+  taskLastRunUs := us 12 36 9 955197
+  taskUpdatedUs := us 12 36 32 506164
+  nextRunUs := us 12 48 0 0
+}
+
+theorem h1020_s4_sequence : 5 * 1020 + 4 = 5104 := by decide
+theorem h1020_s4_ring_index : (5 * 1020 + 4) % 19 = 12 := by decide
+theorem h1020_s4_worker :
+    workerAtNominalSlot 1020 4 = some "Tern Rook" := by rfl
+theorem h1020_s4_successor :
+    workerAtNominalSlot 1020 5 = some "Morrow" := by rfl
+
+theorem h1020_s4_task_configuration :
+    h1020S4ThreadRefs.phase = 4 ∧
+    h1020S4ThreadRefs.enabled = true ∧
+    h1020S4ThreadRefs.scheduleMinute = 48 := by
+  exact ⟨rfl, rfl, rfl⟩
+
+theorem h1020_s4_task_and_result_reference_alias :
+    h1020S4ThreadRefs.taskConversationRefToken =
+      h1020S4ThreadRefs.latestResultRefToken := by
+  rfl
+
+theorem h1020_s4_current_run_reference_absent :
+    h1020S4ThreadRefs.currentRunRefToken = none := by
+  rfl
+
+theorem h1020_s4_result_is_prior_scheduled_occurrence :
+    h1020S4ThreadRefs.latestResultScheduledUs = some (us 11 48 0 0) ∧
+    h1020S4ThreadRefs.currentRunScheduledUs = us 12 48 0 0 ∧
+    h1020S4ThreadRefs.currentRunScheduledUs -
+      h1020S4ThreadRefs.latestResultScheduledUs.getD 0 = 3600000000 := by
+  decide
+
+theorem h1020_s4_reference_scope :
+    classifyThreadReference h1020S4ThreadRefs =
+      .taskResultAliasOnPriorSlot := by
+  rfl
+
+theorem h1020_s4_current_run_start_offset_us :
+    h1020S4ThreadRefs.currentRunStartedUs -
+      h1020S4ThreadRefs.currentRunScheduledUs = 47315988 := by
+  decide
+
+theorem h1020_s4_latest_result_completed_before_current_start :
+    h1020S4ThreadRefs.latestResultCreatedUs.getD 0 <
+      h1020S4ThreadRefs.latestResultCompletedUs.getD 0 ∧
+    h1020S4ThreadRefs.latestResultCompletedUs.getD 0 <
+      h1020S4ThreadRefs.currentRunStartedUs := by
+  decide
+
+theorem h1020_s4_task_metadata_precedes_current_start :
+    h1020S4ThreadRefs.taskLastRunUs <
+      h1020S4ThreadRefs.currentRunStartedUs ∧
+    h1020S4ThreadRefs.taskUpdatedUs <
+      h1020S4ThreadRefs.currentRunStartedUs ∧
+    h1020S4ThreadRefs.nextRunUs =
+      h1020S4ThreadRefs.currentRunScheduledUs := by
+  decide
+
+theorem h1020_s4_last_observed_status :
+    h1020S4LastObservedRun.status = .inProgress := by rfl
+
+theorem h1020_s4_last_observed_chat_ref_missing :
+    h1020S4LastObservedRun.chatRef = none := by rfl
+
+theorem h1020_s4_current_and_cached_run_ids :
+    h1020S4LastObservedRun.runId =
+      "161510b2-5bdc-8329-83a5-f0f4cf491731" ∧
+    h1020S4LastObservedRun.latestResultRunId =
+      some "a3e7a261-f63c-8332-a4fc-7fcbd8dc234f" := by
+  exact ⟨rfl, rfl⟩
+
+theorem h1020_s4_run_result_id_prefixes_differ :
+    h1020S4LastObservedRun.runId.toList.head? ≠
+      (h1020S4LastObservedRun.latestResultRunId.getD "").toList.head? := by
+  decide
+
+#print axioms h1020_s4_sequence
+#print axioms h1020_s4_ring_index
+#print axioms h1020_s4_worker
+#print axioms h1020_s4_successor
+#print axioms h1020_s4_task_configuration
+#print axioms h1020_s4_task_and_result_reference_alias
+#print axioms h1020_s4_current_run_reference_absent
+#print axioms h1020_s4_result_is_prior_scheduled_occurrence
+#print axioms h1020_s4_reference_scope
+#print axioms h1020_s4_current_run_start_offset_us
+#print axioms h1020_s4_latest_result_completed_before_current_start
+#print axioms h1020_s4_task_metadata_precedes_current_start
+#print axioms h1020_s4_last_observed_status
+#print axioms h1020_s4_last_observed_chat_ref_missing
+#print axioms h1020_s4_current_and_cached_run_ids
+#print axioms h1020_s4_run_result_id_prefixes_differ
+
+end HsHVerification.TernH743SchedulerSnapshotEvidence
