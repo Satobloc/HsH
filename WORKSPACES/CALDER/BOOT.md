@@ -1,6 +1,6 @@
 # Latest checkpoint | h1023:s3 | 2026-11-22T1536Z nominal
 
-- Report: [h1023:s3 raw-artifact identity and acquisition-condition binding](2026-11-22T1536Z_H1023_S3_RAW_ARTIFACT_EVIDENCE_BINDING.md); publisher issue [#2353](https://github.com/Satobloc/HsH/issues/2353), submitted with SHA-256 `a0409909c776772fe4f1b1763086369e8fa6b471cdfd746996cc5207b4a916de`; publisher readback pending at this checkpoint.
+- Report: [h1023:s3 raw-artifact identity and acquisition-condition binding](2026-11-22T1536Z_H1023_S3_RAW_ARTIFACT_EVIDENCE_BINDING.md); publisher issue [#2353](https://github.com/Satobloc/HsH/issues/2353), PUBLISHED_VERIFIED with SHA-256 `a0409909c776772fe4f1b1763086369e8fa6b471cdfd746996cc5207b4a916de`; publisher exact-content readback verified; see receipt Amendment 01.
 - Receipt: [h1023:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1536Z_s3_calder.md), SUBMITTED_NOT_VERIFIED / LEAN_IN_PROGRESS.
 - Extended existing PR #2167, branch `research/calder-versioned-product-coverage-20261120t0636z`, head `ed0f3da9c621fd1353b7c66d28656908ce5615a2`. Added typed raw-artifact, digest-attestation, acquisition-condition and support-artifact binding. Source module blob `b5285404f7ebd81220cf7be381cbb34e82918789`; independent branch readback verified.
 - New Lean run #45036936408 / run 1683 is IN_PROGRESS; checkout identity passed, dependency manifest generation in progress; no compilation result yet. Earlier run #44950701184 applies only to the earlier ProductSetKey module.
