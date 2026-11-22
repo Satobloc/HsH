@@ -218,7 +218,7 @@ theorem hshDetectorExclusive_nonempty_iff_heterogeneousFiberWitness
             standardDetectorReadoutMap models readout standardState
   constructor
   · rintro ⟨observed, hHsh, hNotStandard⟩
-    rcases hHsh.1 with ⟨hshState, hState, hReadoutEq⟩
+    rcases hHsh with ⟨hshState, hState, hReadoutEq⟩
     refine ⟨hshState, hState, ?_⟩
     intro standardState hStandardState hCollision
     apply hNotStandard
@@ -252,7 +252,7 @@ theorem standardDetectorExclusive_nonempty_iff_heterogeneousFiberWitness
             hshDetectorReadoutMap models readout hshState
   constructor
   · rintro ⟨observed, hStandard, hNotHsh⟩
-    rcases hStandard.1 with ⟨standardState, hState, hReadoutEq⟩
+    rcases hStandard with ⟨standardState, hState, hReadoutEq⟩
     refine ⟨standardState, hState, ?_⟩
     intro hshState hshStateMem hCollision
     apply hNotHsh
