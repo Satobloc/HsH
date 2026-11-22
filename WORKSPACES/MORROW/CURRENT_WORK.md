@@ -19,7 +19,7 @@
 
 **PWH / project:** task graph 18 records versus declared branch_count 16; upkeep-priority node last reviewed 2026-11-21, so no duplicate deep sweep. WH-02 remains highest unblocked; issue #1702 open with no GitHub assignee; project-level Calder/authorized-maintainer ownership and Tern queue coordination unchanged. P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / ORSON-OWNED; P2 measured geometry HOLD; P3 full theory INCOMPLETE. FIE next review November 24; unrelated-reading break already completed November 20.
 
-**Clone accounting:** three API-only repository events appended and independently read back. Ledger: 262 valid JSONL rows, 262 unique event IDs, zero parse errors. No local clone or repository archive observed; unexposed automation provisioning and GitHub Traffic attribution remain UNKNOWN.
+**Clone accounting:** four API-only repository events appended and independently read back. Ledger: 263 valid JSONL rows, 263 unique event IDs, zero parse errors. No local clone or repository archive observed; unexposed automation provisioning and GitHub Traffic attribution remain UNKNOWN.
 
 **Automation preservation:** task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact schedule DTSTART;TZID=America/New_York:20261001T143600 / RRULE:FREQ=HOURLY and Lane Charter 36 unchanged. Current run 3b2af81a-43e8-8329-b418-b08e796d341a was last observed IN_PROGRESS, completion null, chat_ref null; cached latest result belongs to the preceding h1008 Hale run. No sixth task, task/ID/cadence/phase mutation, signet or conversation rename.
 
