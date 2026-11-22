@@ -865,3 +865,11 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - Scheduler observation: h1008:s2 :24 and h1008:s3 :36 runs started 23.247454 seconds apart despite 12-minute nominal spacing; both IN_PROGRESS, chat_ref=null. No handoff inferred. Existing :36 task unchanged.
 - Project gates unchanged: P0 ACTIVE; P1 Orson-owned NOT READY; P2 HOLD; P3 INCOMPLETE. FIE due Nov 24; shared unrelated-reading cursor 3086.
 - Return: finish Actions #44968403111; verify publisher #2315 and canonical readback; next ring label Elias Kern. No assignment or cross-thread delivery.
+
+
+### Amendment | h1008:s3 publication and scheduler verification
+
+- Publisher issue #2315 is now PUBLISHED_VERIFIED. Canonical artifact blob `e756956de8e74a12ba1ace981ed1a6d1e5da8cc5`, publisher commit `f125e8c536ad91479fcaf2ecdcc8518180ad211e`, SHA-256 `055792e33ce5463fcefff4d79c7d9e2e35bba0411296681409c34d4aec129a32`; issue payload and canonical artifact independently matched byte-for-byte (15,049 characters). Publisher comment #7071825765.
+- h1008:s2 :24 run completed 00:50:27.941391Z after starting 00:37:57.994123Z, so it remained active for 12m06.699814s after h1008:s3 :36 started at 00:38:21.241577Z. Its result made no handoff or late assignment. No cross-thread delivery/consumption claimed.
+- Fresh :36 task peek still reports run `fc761bdb-ed2c-8332-a4cc-678ab2ea3ea3` IN_PROGRESS, completion null, chat_ref null; cached latest result remains Ravel h1006:s3. No retry or cause inferred.
+- Final style-cleanup Lean run #44968403111 remains in progress at compile step; prior run #44967975883 compiled the immediately preceding theorem content successfully.
