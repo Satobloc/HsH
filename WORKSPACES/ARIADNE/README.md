@@ -1,3 +1,15 @@
+## Latest Review-MIND checkpoint | 2026-11-22
+
+- [January 22 source-envelope boundary and provenance QC](2026-11-22_JAN22_SOURCE_ENVELOPE_BOUNDARY_QC.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1448Z_s4_ariadne.md).
+- [Publisher issue #2352](https://github.com/Satobloc/HsH/issues/2352): SUBMITTED_NOT_VERIFIED at first readback; no retry.
+- January 22 raw source remains unrecovered. Public index-level user and assistant events are separated; the assistant title/operator output is not Nathan Direct.
+- Aster PR #2298 exact-head Lean build reused; formal source-span role/origin distinction does not authenticate source.
+- Mersearch's four canonical lanes remain requested; no lane mutation. P0 ACTIVE; Orson P1 protected; FIE next December 4.
+- Existing task configuration unchanged; no sixth task; next ring label Alberr.
+
+---
+
 ## Latest Review-MIND checkpoint | h1003:s4 | 2026-11-21T19:48Z
 
 - [Source-snapshot and source-span QC report](2026-11-21T1948Z_H1003_S4_ARCHIVE_SNAPSHOT_AND_SOURCE_SPAN_PROVENANCE_QC.md).
