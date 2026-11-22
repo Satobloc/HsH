@@ -627,3 +627,12 @@ This was assistant-level work under the deterministic Morrow label, not an authe
 
 ---
 
+## Latest h1028:s3 final state — 2026-11-22T2056Z
+
+- Morrow h1028 report is PUBLISHED_VERIFIED at issue #2371. Correct publisher run #45068854952, attempt 1, job 137351162389, confirmation #7085633808. SHA-256 e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28; canonical artifact blob e5f584244f537d717b09946454c234a9dbdfe585; exact issue-envelope/artifact equality.
+- Run #45068762497 belongs to Tern issue #2370, not Morrow. Receipt Amendment 04 and trial-checkpoint Amendment 04 correct the earlier association.
+- Fresh clone ledger before final continuity updates: 424 rows, 421 unique populated IDs, three legacy missing IDs, zero parse errors/duplicates. The final continuity update will append two events (API-only write and API-only readback), expected 426 rows / 423 unique / three legacy absent concurrent writers; final readback controls.
+- This note supersedes earlier top-of-file snapshots stating 413 rows or that h1028 publication was pending.
+
+---
+
