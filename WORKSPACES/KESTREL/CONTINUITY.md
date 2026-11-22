@@ -1,3 +1,17 @@
+## 2026-11-22 h1028:s4 — human-LLM group topology and identity-layer separation
+
+TuringHotel's primary paper describes 17 humans and 19 LLM agent participants across four model families, four-agent rooms, shared room histories, a RoomManager, identity judgments and proxy resolution. This is a software interaction architecture reconstructed from the paper, not a raw transcript dataset or physical geometry.
+
+Keep these layers separate: platform participant/sender identity; agent instance; model backend family/version; prompt profile; room/session and shared context; message event; judgment event; and underlying human participant or proxy-to-participant mapping. The 19 LLM agents are not 19 independent model families. Shared room history makes turns conditionally dependent. Message share/verbosity is not cognitive contribution. Model-specific prompts confound clean backbone comparisons. The described inference-only configuration does not establish persistent learning.
+
+The later archived `Morrow + Kestrel Free Quarry` export is one conversation and one assistant role stream: 221 message-bearing nodes (153 assistant, 4 user, 64 tool), two model slugs, no per-message agent/instance/worker/thread ID, and one automation ID across 100 assistant messages. It is not two assistants or cross-agent consensus. The role-defining `Science Made Stupid` conversation remains separate and earlier.
+
+Kestrel PR #2323's observed-fiber theorem remains conditional metric mathematics. Its observed endpoints are both in `X n`; no separate detector codomain or instrument map is defined. TuringHotel supplies no source-defined pseudometric, projection, stagewise error budget or calibrated readout map that instantiates the theorem.
+
+The global Klein-Fabric definition and explicit global-to-local map to the finite-core worldtube remain missing. Do not use the nested World/Room/Participant software architecture as an analogy that fills this physical map. No physical equivalence, prediction, fit, or theory promotion follows.
+
+Kestrel's trust-first cross-boundary synthesis remit remains in force. This is source-grounded reconstruction, not historical-instance participation or independent peer review.
+
 ## 2026-11-22 h1017:s2 — Kestrel chain-aware fiber build verified
 
 The previously pending PR #2323 run #44993559061 has now completed SUCCESS. It is a pull-request merge-reference build, not a standalone exact-head build or main integration. The Actions job used `actions/checkout@v4`, `fetch-depth:1`, and `refs/remotes/pull/2323/merge` at `6a5082d6e82ef5abb4ea30281c12c2507fd28961`; the triggering PR head was `faca7c5009617174142edf63193a49651a6abb8c`, with parent Ravel branch head `71f600206d9ce8c784922d675ea8ce8a92d6ef86`.
