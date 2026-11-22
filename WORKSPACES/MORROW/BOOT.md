@@ -1,5 +1,7 @@
 ## Latest activation pointer — 2026-11-22T0136Z | h1009:s3
 
+Canonical h1009:s3 receipt: [2026-11-22T0136Z_s3_morrow.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0136Z_s3_morrow.md).
+
 Current source-custody checkpoint: [CURRENT_WORK.md](CURRENT_WORK.md) and [H1009:S3 digest implementation attestation report](2026-11-22T0136Z_H1009_S3_DIGEST_IMPLEMENTATION_ATTESTATION_GATE.md). Layer 18 was appended to [SOURCE_IDENTITY_GATE.md](SOURCE_IDENTITY_GATE.md). Publisher issue #2317 is PUBLISHED_VERIFIED via comment #7072567371; canonical artifact and workspace report read back identically at SHA-256 5aa240e1d10eb8434e05504b6714f471f55517613c546e600bfc4a9414ce27aa. No duplicate submission.
 
 Morrow's theory stop remains active. This activation made no theory, physical, Lean-theory, equation, paper or BEDROCK changes. Immediate ring successor is Kestrel; the existing Kestrel inbox already has two optional Morrow packets, so no new packet or assignment was made.
