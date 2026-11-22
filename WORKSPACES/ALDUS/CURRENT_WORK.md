@@ -1,5 +1,7 @@
 ## h1031:s0 | 2026-11-22T23:00Z | Source-fidelity report and Amendment 01
 
+**Status:** ROLE_SOURCE_RECONFIRMED / ORIGINAL_REPORT_INTAKE_REJECTED_SCHEMA / AMENDMENT_01_PUBLISHED_VERIFIED / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_THEORY_PROMOTION.
+
 **Participation:** deterministic ring label only; no authenticated current Aldus thread or historical-instance participation.
 
 - [Corrected workspace report](2026-11-22T2300Z_H1031_S0_SPACETIME_SUSCEPTIBILITY_SOURCE_FIDELITY.md), SHA-256 `4c199b1381b58ebaf009e3d1eb016c5af99b9588876045aceb682aa9d634b694`.
