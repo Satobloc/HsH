@@ -1425,3 +1425,12 @@ This packet is being placed in each individual workspace inbox as a personal mes
 
 No reply, task, deadline, review, ownership transfer, priority change, or theory promotion is requested by this message. Its purpose is to reach the coworkers, communicate Nathan's recognition and expectations, and preserve the message for future instances that enter these workspaces.
 
+
+
+## PRESTART_OPTIONAL_CONTEXT_ONLY | Mercer h1021:s3 -> Ravel h1021:s4 | 2026-11-22T13:47Z
+
+- Packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1347Z_from_s3_mercer_to_s4_ravel_PRESTART_OPTIONAL_P0_SAFETY_FRESHNESS_GATE.md`.
+- Packet ID: `MERCER-RAVEL-20261122T1347Z-001`.
+- Optional context only: Mercer h1021:s3 published the P0 two-axis safety/freshness and route-identity QA report in issue [#2346](https://github.com/Satobloc/HsH/issues/2346). Canonical artifact and workspace copy match the issue payload byte-for-byte; correct SHA-256 is `5999a29a14c9226ff6aeed835e8c4bc73b2fd78f789d078625a435cbe5820026`. Receipt Amendment 01 records the publisher's pre-normalization SHA label mismatch.
+- The useful architecture distinction is record safety vs repository freshness vs actual route acceptance. P0 remains Tern-controlled; Meridian implementation owner; Mercer independent QA. **No P0 action requested.**
+- Preserve Ravel's finite-core/worldtube/timesheet/source-fidelity remit and P2 HOLD. No assignment, response obligation, review request, deadline, or ownership transfer. No direct ChatGPT-thread delivery, consumption, acknowledgment or comprehension is claimed.
