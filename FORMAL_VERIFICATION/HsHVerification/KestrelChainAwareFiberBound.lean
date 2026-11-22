@@ -173,30 +173,37 @@ theorem observedFiberSeparationBound
           (dist (exactIter A S n x) (decoder (p x)) +
             (dist (decoder (p x)) (exactIter A S n y) +
               dist (exactIter A S n y) observedY)) := by
-    calc
-      dist observedX observedY ≤
+    have h1 :
+        dist observedX observedY ≤
           dist observedX (exactIter A S n x) +
             dist (exactIter A S n x) observedY :=
-        dist_triangle _ _ _
-      _ ≤
-          dist observedX (exactIter A S n x) +
+      dist_triangle observedX (exactIter A S n x) observedY
+    have h2 :
+        dist (exactIter A S n x) observedY ≤
+          dist (exactIter A S n x) (decoder (p x)) +
+            dist (decoder (p x)) observedY :=
+      dist_triangle (exactIter A S n x) (decoder (p x)) observedY
+    have h3 :
+        dist (decoder (p x)) observedY ≤
+          dist (decoder (p x)) (exactIter A S n y) +
+            dist (exactIter A S n y) observedY :=
+      dist_triangle (decoder (p x)) (exactIter A S n y) observedY
+    calc
+      dist observedX observedY
+          ≤ dist observedX (exactIter A S n x) +
+              dist (exactIter A S n x) observedY := h1
+      _ ≤ dist observedX (exactIter A S n x) +
             (dist (exactIter A S n x) (decoder (p x)) +
               dist (decoder (p x)) observedY) :=
-        add_le_add_left (dist_triangle _ _ _) _
-      _ ≤
-          dist observedX (exactIter A S n x) +
+          add_le_add_right h2 _
+      _ ≤ dist observedX (exactIter A S n x) +
             (dist (exactIter A S n x) (decoder (p x)) +
               (dist (decoder (p x)) (exactIter A S n y) +
                 dist (exactIter A S n y) observedY)) := by
-        have h3 :
-            dist (decoder (p x)) observedY ≤
-              dist (decoder (p x)) (exactIter A S n y) +
-                dist (exactIter A S n y) observedY := by
-          exact dist_triangle (decoder (p x)) (exactIter A S n y) observedY
-        exact add_le_add_left
-          (add_le_add_left h3
-            (dist (exactIter A S n x) (decoder (p x))))
-          (dist observedX (exactIter A S n x))
+          have h3' := add_le_add_right h3
+            (dist (exactIter A S n x) (decoder (p x)))
+          exact add_le_add_right h3'
+            (dist observedX (exactIter A S n x))
   calc
     dist observedX observedY
         ≤
