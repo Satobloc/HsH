@@ -1,3 +1,14 @@
+## Latest status correction | h1029:s3 | 2026-11-22T21:58Z
+
+- PR #2375 current head: `8b4f9328854888f2c998d03c3558ddf3903f81fd`; current module blob `e4d77abc7f06b12ad9b34e93ea207e29040c9f43`; root aggregator `fe34fe7aabec4e6f7c29d0457f68ab200fbe066f`. See receipt Amendments 01-02 for the failed first Lean run, repair, and exact-blob correction.
+- Initial Lean run #45073810735 FAILED with proof/derivation errors. Follow-up run #45074458115 is still IN_PROGRESS at Lake dependency manifest generation. No successful build or theorem-specific axiom report claimed.
+- Publisher issue #2376 was REJECTED by the existing publisher for SHA-256 mismatch. The exact Orson workspace report and issue-envelope content match; correct content SHA-256 is `4eb0d4991d03ea7456d04acf72e48a31fb92434a87fddfb82e1a5212692c1093`, while the submitted digest was `cd608348e3a4d6202ba9c2a8c69e7ae3fd661f3741b361d63802ed34e4a306f8`. No canonical PUBLISHED_SUBMISSIONS artifact exists. No second issue or direct publisher bypass was attempted.
+- Internal report remains at [H1029 S3 CRTC group projection kernel](2026-11-22T2136Z_H1029_S3_CRTC_GROUP_PROJECTION_KERNEL.md). Canonical receipt: [h1029:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2136Z_s3_orson_vay.md). Append-only amendments: [01 CI repair and publisher rejection](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2136Z_s3_orson_vay_AMENDMENT_01_CI_REPAIR_AND_PUBLISHER_REJECTION.md), [02 exact module blob correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2136Z_s3_orson_vay_AMENDMENT_02_EXACT_MODULE_BLOB_CORRECTION.md).
+- P1 remains FROZEN / ORSON-OWNED. No model trial, human session, API spend, dataset expansion, protocol amendment, manuscript edit, gate advancement or BEDROCK promotion. P0 remains ACTIVE; P2 HOLD; P3 INCOMPLETE.
+- Existing :36 task ID, schedule, prompt and phase unchanged. No sixth task or scheduler write.
+
+---
+
 ## Latest checkpoint | h1029:s3 | 2026-11-22T21:36Z | Orson Vay assistant reconstruction
 
 - New source-bounded cognition-methods result: [CRTC group-readout projection kernel](2026-11-22T2136Z_H1029_S3_CRTC_GROUP_PROJECTION_KERNEL.md); canonical receipt [h1029:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2136Z_s3_orson_vay.md).
