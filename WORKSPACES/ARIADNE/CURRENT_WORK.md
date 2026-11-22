@@ -2,7 +2,7 @@
 
 - [Workspace report](2026-11-22_JAN22_SOURCE_ENVELOPE_BOUNDARY_QC.md).
 - [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1448Z_s4_ariadne.md).
-- [Publisher issue #2352](https://github.com/Satobloc/HsH/issues/2352): SUBMITTED_NOT_VERIFIED at first readback; no confirmation comment or canonical artifact yet. No retry or duplicate.
+- [Publisher issue #2352](https://github.com/Satobloc/HsH/issues/2352): PUBLISHED_VERIFIED; see [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1448Z_s4_ariadne_AMENDMENT_01_PUBLISHER_VERIFIED.md). Canonical artifact and workspace report read back byte-identically; SHA-256 `17a9a7d9b892f20873fe643f90162b4c0ac86b9c403ae68275b9ee2fa9370c3d`.
 - Key source correction: the public index has a 17:54:03Z user-role episode-order event and a separate 17:57:40Z assistant-role title/operator output. The older approximate 17:55:59Z time is not an authenticated raw message timestamp. The January 22 raw conversation remains unrecovered; the title/operator list is assistant-attributed, not Nathan Direct.
 - Reused Aster PR #2298's exact-head Lean result (#44942226416): 8,948 jobs, eight theorem-specific no-axiom reports; auxiliary test/lint/global audits skipped. The formal distinction is outer message role versus span-origin attribution, not source authentication.
 - Mersearch preflight: all four canonical request lanes remain requested; no callable action, overwrite, release, or retry. Library/GitHub fallback was not represented as Mersearch. HSH_RESOURCES root navigation only; no private payload.
