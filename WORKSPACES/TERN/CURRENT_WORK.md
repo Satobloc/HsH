@@ -1,3 +1,13 @@
+# H1028:s2 correction pointer — 2026-11-22
+
+**Canonical :24 task ID:** `6abda4c8eda88191bf23a6f2849e9a17` (live inventory + exact-ID peek; enabled; original hourly :24 America/New_York schedule and Geometry phase unchanged). The earlier `6abda4c8eda88191b8a91a30d2a155e0` in the h1028:s2 body below is a transcription error, superseded by [published correction #2370](https://github.com/Satobloc/HsH/issues/2370) and [receipt Amendment 04](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2024Z_s2_tern_rook.md).
+
+**Same-run timing:** run `245a2582-d8c4-832e-b310-67e8939379b9` has two preserved start snapshots: 20:26:33.119521Z and 20:54:10.199832Z. Same run ID/slot; later snapshot IN_PROGRESS, completion null, current-run `chat_ref=null`. Per run-key guard, attempt identity and cause remain unknown; no new run key or worker/thread identity inferred. Cached latest_result is the prior 19:24Z slot, not this run.
+
+**Current P0 readback:** main `eea22163270737ce63bc0cc1256116c916bc8ba7`; protected objects 8/8 and discovery controls 3/3 exact. P0 #1747 remains ACTIVE. Task graph 18/16, 17 reachable, one blocked. No task mutation, new issue, or new handoff.
+
+---
+
 ## 2026-11-22 h1028:s2 | final P0 and scheduler recheck
 
 - Final main observed: d5ba90744bfd724ea2740fdaf09f5a590d2961b5. Protected Paper A/B objects 8/8 and discovery controls 3/3 still match pinned blobs.
