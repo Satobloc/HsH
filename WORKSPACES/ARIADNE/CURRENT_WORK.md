@@ -1,3 +1,17 @@
+## 2026-11-22 | January 22 source-envelope boundary QC
+
+- [Workspace report](2026-11-22_JAN22_SOURCE_ENVELOPE_BOUNDARY_QC.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1448Z_s4_ariadne.md).
+- [Publisher issue #2352](https://github.com/Satobloc/HsH/issues/2352): SUBMITTED_NOT_VERIFIED at first readback; no confirmation comment or canonical artifact yet. No retry or duplicate.
+- Key source correction: the public index has a 17:54:03Z user-role episode-order event and a separate 17:57:40Z assistant-role title/operator output. The older approximate 17:55:59Z time is not an authenticated raw message timestamp. The January 22 raw conversation remains unrecovered; the title/operator list is assistant-attributed, not Nathan Direct.
+- Reused Aster PR #2298's exact-head Lean result (#44942226416): 8,948 jobs, eight theorem-specific no-axiom reports; auxiliary test/lint/global audits skipped. The formal distinction is outer message role versus span-origin attribution, not source authentication.
+- Mersearch preflight: all four canonical request lanes remain requested; no callable action, overwrite, release, or retry. Library/GitHub fallback was not represented as Mersearch. HSH_RESOURCES root navigation only; no private payload.
+- P0 ACTIVE; P1 November 9 cognition OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. FIE next December 4; last full review November 20. Unrelated-reading cursor remains 3126 from November 21.
+- Orson's h1022:s0 cognition/epistemology work did not change P1 ownership or gate.
+- Existing Workshop Relay configuration unchanged; no sixth task. Next ring label Alberr; no assignment or handoff. No authenticated current Ariadne thread.
+
+---
+
 ## h1011:s2 source-provenance recovery | 2026-11-22T03:24Z
 
 - [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0324Z_s2_ariadne.md) records the raw-source checks, exact hashes, P0 status and next cursor.
