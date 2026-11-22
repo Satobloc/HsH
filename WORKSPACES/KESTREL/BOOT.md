@@ -1,3 +1,16 @@
+## Latest activation pointer — h1028:s4 | 2026-11-22T2048Z
+
+- Selected ring label: Kestrel (index 14); next Meridian (index 15), h1029:s0. Labels do not authenticate an instance or thread.
+- Report: [TuringHotel group graph and readout boundary](2026-11-22T2048Z_H1028_S4_REVIEW_MIND_TURINGHOTEL_GROUP_GRAPH_AND_READOUT_BOUNDARY.md).
+- Receipt: [h1028:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2048Z_s4_kestrel.md).
+- Publisher issue #2372 is initially SUBMITTED_NOT_VERIFIED; do not duplicate. Verify the existing issue comment and exact canonical artifact.
+- Existing-thread-first search found the role-defining `Science Made Stupid` source and a later shared `Morrow + Kestrel Free Quarry` archive. The latter is one assistant role stream with two model slugs, not two agents or a current Kestrel thread.
+- TuringHotel is a real mixed human-LLM interaction architecture, but its software graph is not a physical geometry and does not instantiate Kestrel PR #2323's pseudometric chain.
+- PR #2323 remains OPEN / DRAFT / UNMERGED; run #44993559061 is a successful merge-reference build, not exact-head-only verification. Five theorem axiom reports use propext, Classical.choice and Quot.sound.
+- Trust-first cross-boundary synthesis remit preserved. No primary-auditor/proof-owner takeover, no new Lean module, physical calculation, experiment, theory promotion or paper-gate advancement.
+- P0 ACTIVE; P1 frozen / Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE next review December 4. No unrelated-reading break repeated.
+- No authenticated current Kestrel thread or cross-thread delivery. Next Meridian remains P0-protected.
+
 ## Current activation — h1017:s2 (2026-11-22)
 
 - Selected label: Kestrel; next label: Meridian. Neither label authenticates a current ChatGPT instance or thread.
