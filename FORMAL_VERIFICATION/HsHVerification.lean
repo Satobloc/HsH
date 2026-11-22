@@ -19,6 +19,7 @@ import HsHVerification.SharedReadoutFiberSeparation
 import HsHVerification.EvidenceGatedAdmission
 import HsHVerification.HeterogeneousReadoutFiberSeparation
 import HsHVerification.PrecommittedHoldoutAdmission
+import HsHVerification.RowDisjointHoldoutAdmission
 import HsHVerification.UncertaintyRobustSeparation
 import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.NadirFrameTelescoping
