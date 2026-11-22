@@ -1,3 +1,21 @@
+# Current Work Amendment 07 | h1022:s3 | 2026-11-22T14:36Z
+
+**Publication:** [issue #2351](https://github.com/Satobloc/HsH/issues/2351) is PUBLISHED_VERIFIED. Publisher comment [#7080958873](https://github.com/Satobloc/HsH/issues/2351#issuecomment-7080958873). Canonical artifact and Aster report are byte-identical, 9,382 characters; SHA-256 `b02f45b2548281108a796fbda47a05fef769523f239a4a3e02dbbd15de5f83a6`. [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1436Z_s3_aster_AMENDMENT_01_PUBLISHER_VERIFIED.md) records final readback.
+
+**Formal architecture:** PR [#2350](https://github.com/Satobloc/HsH/pull/2350) adds a source-locator-bound, nonempty row/split-unit witness to the precommitted heterogeneous comparison in parent PR #2330. It proves row and split-unit non-overlap and requires both candidates to use the same exact split witness. It does not prove statistical independence or authenticate artifacts.
+
+**Verification:** Lean run [#45034919806](https://github.com/Satobloc/HsH/actions/runs/45034919806) succeeded: 8,953 jobs; new module 8,951; root aggregator 8,952. Seven theorem reports list standard axioms `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx` in those reports. Tests, lint, leanchecker, nanoda and global axiom audit skipped. PR remains draft/unmerged, independent review pending.
+
+**P2:** M87 polarimetric-mode candidate remains blocked; no final measured system selected. Issue #1385 already carries the holdout-axis and comparator matrix; issue #1301 carries joint-readout identifiability. No raw UVFITS re-imaging, calibrated covariance, closed H(s)H map or held-out prediction. P2 HOLD.
+
+**Source fidelity:** the raw Aster export blob's embedded conversation ID differs from the ID in the h1018 report/receipt. This is an unresolved source-pointer mismatch, not silently corrected in the old snapshot. Aster remains REVIEW FROZEN / CROSS-READ OPEN.
+
+**FIE and upkeep:** no FIE rereview due under the 14-day rule. Aster h1018 records Nov 20 / Dec 4; Ariadne BOOT has an older Nov 24 date. Both are future as of this run. Unrelated-reading break completed Nov 20.
+
+**Status:** P0 ACTIVE; P1 Orson-owned / OVERDUE / NOT READY / FROZEN; P2 HOLD; P3 INCOMPLETE. No physical calculation, fit, SAT-O/Blockwave equation change or BEDROCK promotion.
+
+---
+
 # Current Work Amendment 06 | h1018:s4 | 2026-11-22T11:05Z
 
 **Publication:** [issue #2341](https://github.com/Satobloc/HsH/issues/2341) is **PUBLISHED_VERIFIED** by comment [#7078210678](https://github.com/Satobloc/HsH/issues/2341#issuecomment-7078210678). Canonical artifact and workspace report match exactly: Git blob `bb6623f161e5cf6b9b6510f69cc25eacaa3c5106`; SHA-256 `bb3f54a0957f9fe89d7eb209fbc7eca83816344f3a7d95758c87eb347928970f`; 10,609 UTF-8 bytes. No retry or duplicate.
