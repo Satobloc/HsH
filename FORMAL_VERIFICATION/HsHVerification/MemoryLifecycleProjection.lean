@@ -225,6 +225,47 @@ theorem no_snapshot_only_evidence_reconstructor
       _ = span₂ := hrecover op₂
   exact h_span hspan
 
+
+
+/-!
+## Explicit Update/Forget post-state
+
+The source paper names Update and Forget as lifecycle operations, but does not
+supply the deterministic transition function formalized above. These theorems
+therefore strengthen only this assistant-reconstructed transition model:
+they state the resulting target value/emptiness as well as preservation of
+the other target.
+-/
+
+/-- A valid Update installs the new target value and preserves the other target. -/
+theorem update_transition_poststate
+    (s : State) (target : Bool) (oldValue newValue : Nat)
+    (h : readState s target = some oldValue) :
+    ∃ next,
+      applyOperation s (.update target oldValue newValue) = some next ∧
+      readState next target = some newValue ∧
+      readState next (!target) = readState s (!target) := by
+  refine ⟨writeState s target (some newValue), ?_, ?_, ?_⟩
+  · simp [applyOperation, h]
+  · exact writeState_sets_target s target (some newValue)
+  · exact writeState_preserves_other s target (some newValue)
+
+/-- A valid Forget empties the target and preserves the other target. -/
+theorem forget_transition_poststate
+    (s : State) (target : Bool) (oldValue : Nat)
+    (h : readState s target = some oldValue) :
+    ∃ next,
+      applyOperation s (.forget target oldValue) = some next ∧
+      readState next target = none ∧
+      readState next (!target) = readState s (!target) := by
+  refine ⟨writeState s target none, ?_, ?_, ?_⟩
+  · simp [applyOperation, h]
+  · exact writeState_sets_target s target none
+  · exact writeState_preserves_other s target none
+
+#print axioms update_transition_poststate
+#print axioms forget_transition_poststate
+
 #print axioms distinct_evidence_spans_same_snapshot
 #print axioms no_snapshot_only_evidence_reconstructor
 
