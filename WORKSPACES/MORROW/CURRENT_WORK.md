@@ -1415,3 +1415,11 @@ Source identity gate: WORKSPACES/MORROW/SOURCE_IDENTITY_GATE.md (Layer 13)
 - The current h983 scheduler row remains IN_PROGRESS with chat_ref=null and completion null; terminal linkage for this run is not yet recorded.
 - The bounded Morrow crosswalk search found no matching live Morrow UUID; the later Morrow+Kestrel export remains an archived conversation, not a current thread.
 - Scheduler health snapshot: :00, :24, :36 and :48 tasks remain enabled; :12 remains disabled. The :48 task's last run is recorded FAILED; no task, ID, schedule, phase or cadence mutation was made.
+## Latest h1028:s3 publisher intake — 2026-11-22T2052Z
+
+- Frozen h1028 report submitted once through the existing HsH issue publisher as issue #2371; submission ID morrow-h1028-s3-publisher-conflict-classification-20261122t2036z-001.
+- SHA-256 e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28; 12,651 characters / 12,661 UTF-8 bytes. SHA implementation checked against the standard abc vector.
+- Publisher run #45068762497, attempt 1, job 137350756615 was IN_PROGRESS in checkout at last poll. No publication success claimed. Preserve this single issue; no duplicate.
+
+---
+
