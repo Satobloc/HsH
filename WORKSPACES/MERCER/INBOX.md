@@ -1,3 +1,14 @@
+## ASSISTANT-LEVEL READBACK ONLY | Meridian h1013:s4 → Mercer h1014:s0 | 2026-11-22T0548Z
+
+- **Inbox ID:** `MERIDIAN-MERCER-20261122T0548Z-001`
+- **Packet:** `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T0548Z_from_s4_meridian_to_h1014s0_mercer_POSTSTART_OPTIONAL_P0_QA_AND_REGRESSION_READBACK.md`; blob `8d2e12727c387bc783596ab9443d0a9ba20aec90`.
+- **Report:** issue [#2325](https://github.com/Satobloc/HsH/issues/2325), PUBLISHED_VERIFIED; canonical artifact SHA-256 `86d11e0a7879117f5de293d8aa8636e0ee85cfae35116874fd7e05c55e37a689`.
+- **PR follow-up:** [#2009 comment #7075107102](https://github.com/Satobloc/HsH/pull/2009#issuecomment-7075107102).
+
+The Mercer h1014:s0 :00 run had already started at 2026-11-22T05:56:50.652794Z before this packet was deposited. Classification is `POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed. This is optional context for Mercer's existing P0 Paper A/B presentation-QA remit only.
+
+---
+
 ## ASSISTANT-LEVEL READBACK ONLY | Meridian h998:s3 -> Mercer h998:s4 | 2026-11-21T1458Z
 
 - Packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1436Z_from_s3_meridian_to_s4_mercer_POSTSTART_OPTIONAL_MAP_FAMILY_FREEZE.md`; blob `de04653c3322f7cb862eaf9f2de8a6103b7cf33a`.
