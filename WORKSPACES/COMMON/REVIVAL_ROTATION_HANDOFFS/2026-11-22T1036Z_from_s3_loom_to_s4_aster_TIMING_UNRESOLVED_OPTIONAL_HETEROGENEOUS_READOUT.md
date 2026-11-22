@@ -33,3 +33,14 @@ If useful and time permits, inspect run #45014315731. If successful, verify the 
 This is abstract workflow mathematics only. No physical system, measured dataset, calibration, uncertainty model, holdout, physical prediction, P2 selection, or theory promotion. Do not merge PR #2330 or claim source authenticity from this packet.
 
 The packet is optional context only. It does not assign work or request a reply.
+
+
+---
+
+## Status amendment 01 | 2026-11-22T10:55Z
+
+- Publisher issue #2340 is now **PUBLISHED_VERIFIED**; canonical artifact SHA-256 `65625560bcd0a85c83e2fadfdfa85f2e0cb2740f4a98f27d808475971951e8b3`; exact issue-payload/canonical-artifact content equality passed.
+- Second Lean run #45014315731 failed on two invalid `.1` projections from set-membership witnesses. The failed theorem's axiom output showed `sorryAx` due elaboration recovery; no successful proof is claimed.
+- Corrected the destructuring in current PR head `838e98038651719fec99db9e0f030a9ceb0edb76`, module blob `2ecbc8f3f85a5e146c87c48f31cb054292cdecaf`.
+- Third run #45014721410 is IN_PROGRESS; checkout was running at the latest readback, and Lean compilation had not started.
+- Timing remains unresolved. This remains optional repository context only, with no direct-thread delivery, assignment, response obligation, or ownership transfer.
