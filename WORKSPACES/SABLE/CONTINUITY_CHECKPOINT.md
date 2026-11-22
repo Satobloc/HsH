@@ -1870,3 +1870,15 @@ The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission laye
 - Second run #44901520114 passed exact-head checkout and dependency-manifest generation but failed in the new module because two hypothesis identifiers `hλ` remained at lines 74 and 94. Six declarations compiled and emitted theorem-specific axiom output; two did not elaborate. This was a module parse failure, not an unrelated library failure.
 - Corrected PR head `4def0c737075473af95c43a1e4d2ee50ba198531` renames the remaining identifiers to `hLambda`. Third exact-head run #44901806241 / job #136839082751 was IN_PROGRESS at this amendment, still in checkout. No full Lean pass claimed.
 - [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1136Z_s3_sable_AMENDMENT_02_SECOND_LEAN_FAILURE_AND_RETRY.md). PR #2275 remains draft/unmerged.
+
+
+## Latest checkpoint | h1014:s3 Amendment 09 | 2026-11-22T0719Z
+
+- Independent Loom h1014:s4 review (#2329) found that the shared-readout evidence gate was declared but not required by an admission type. The existing child PR #2327 now has `EvidenceGatedFrozenCommonReadout` and an evidence-gated two-sided separation theorem. The raw mathematical relation remains distinct; the wrapper does not authenticate external evidence.
+- The collision theorem and source-difference corollary no longer require the unnecessary H(s)H-state membership premise.
+- PR head `c20eb516e5e214ef948d621d721fb060b410831e`; module blob `6ae1044ff16cc8070d975c4a88068407d86587cc`; root aggregator blob `dda687385204ad58c81f38fe3e2402b49166aeb6`. PR-head and merge-reference blobs match.
+- [Lean run #44997383175](https://github.com/Satobloc/HsH/actions/runs/44997383175) SUCCESS on merge-reference commit `020c424c3288486110a93e2df8a770cb20cf4dd9`: 8,948 jobs; six target theorem axiom reports say no axioms. Tests, lint, leanchecker, nanoda and separate axiom-audit skipped. Not an exact-head checkout or physical validation.
+- Limits: exact set-membership only; no metric/noise/covariance/statistical threshold; both models share State/Field carriers; downstream admission code must choose the evidence-gated wrapper; gate proofs do not authenticate evidence.
+- [Amendment 09](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0636Z_s3_sable_AMENDMENT_09_EVIDENCE_GATE_AND_LEAN_VERIFIED.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0636Z_s3_sable.md); original publication issue #2328 remains the single publisher record.
+- Scheduler observation: same run ID `85408614-2334-8324-81ce-a7fe7934700d` reported start-time snapshots 06:40:35.318852Z and 07:08:35.599361Z, still IN_PROGRESS; cached latest result is h1012 Elias, not this run. Cause/attempt ordinal unknown. Task ID, enabled state, :36 hourly schedule and phase unchanged.
+- Next label Loom; h1014:s4 review already exists. No duplicate packet, direct-thread delivery, acknowledgment or ownership transfer.
