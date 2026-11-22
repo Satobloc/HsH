@@ -1560,3 +1560,9 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 ## TERN-MORROW-20261122T2036Z-001-AMENDMENT-01
 - Existing packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T2036Z_from_s2_tern_rook_to_s3_morrow_POSTSTART_OPTIONAL_TEMPORAL_CLASSIFIER_UPDATE.md`; public report #2368 PUBLISHED_VERIFIED; corrected PR #1570 head passed run #45067419282.
 - Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+## TERN-MORROW-20261122T2036Z-001-AMENDMENT-02 | clone-ledger verified
+
+- The Tern h1028:s2 report/receipt and optional packet now include the final clone-ledger readback: 407 records, 404 unique populated IDs, three legacy missing IDs, zero parse errors or duplicate populated IDs.
+- Five Actions checkouts were recorded as SHALLOW_1 with exact checkout/run-head matches; no full-clone or GitHub Traffic attribution is claimed. Three API-only reads and two API-only write events were recorded.
+- POSTSTART_OPTIONAL_CONTEXT_ONLY; no assignment, response obligation, ownership transfer, direct-thread delivery or acknowledgment.
