@@ -5,7 +5,7 @@
 **Routing label:** Aldus (ring index 6)  
 **Next label:** Calder (ring index 7)  
 **Lane:** 00 / Nathan Direct geometry fidelity  
-**Disposition:** SOURCE-FIDELITY DELTA COMPLETE / PRIOR ALDUS ROLE ATTRIBUTION CORRECTED / 2023 TRANSCRIPT COPY DOWNGRADED FOR ROLE ATTRIBUTION / EXISTING LEAN RESULT REUSED WITH MERGE-REF LIMIT / NO PHYSICAL CALCULATION / NO CODATA / NO THEORY PROMOTION.
+**Disposition:** SOURCE-FIDELITY DELTA COMPLETE / ALDUS ROLE SOURCE RECONFIRMED / 2023 TRANSCRIPT COPY DOWNGRADED FOR ROLE ATTRIBUTION / EXISTING LEAN RESULT REUSED WITH MERGE-REF LIMIT / ORIGINAL PUBLISHER SUBMISSION REJECTED FOR SCHEMA / NO PHYSICAL CALCULATION / NO CODATA / NO THEORY PROMOTION.
 
 ## 1. Selection, authority, and access
 
@@ -21,13 +21,22 @@ The label is deterministic routing, not authentication of a historical worker or
 
 No exact h1030:s4 predecessor receipt or handoff addressed to h1031:s0 was found. Issue #2383 is a parallel s4 Review-MIND artifact, not a recipient-specific handoff. No predecessor packet is claimed as consumed.
 
-### 1.1 Correction to Aldus historical role provenance
+### 1.1 Confirmation of Aldus historical role provenance
 
-The recovered September 8 conversation *Aldus [AUTO H(s)H Gitter]* has conversation ID `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`. Its direct user message `638a5f8d-7b01-4bc2-9b2b-2792344addb7` asks the assistant to read useful documents, consider other material likely absent or latent in its training data, and choose a name to reassess after exploration.
+The correct recovered export is *Aldus [AUTO H(s)H Gitter] — raw (2).json*:
 
-The phrase **“combining information not usually combined”** and the more specific cross-domain/Gitter role description occur in an assistant-authored response, not in the direct user message. No later user-role confirmation of the chosen name and no standalone signed specialist charter were found in the recovered export.
+- Conversation ID: `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`.
+- Raw Git blob SHA-1: `2f5ea91a449446f64d298b50b0c2ef0d8533900a`.
+- The export contains 47 user-role messages.
 
-Therefore the h1023 BOOT/receipt wording that attributed “combining information not usually combined” directly to Nathan is superseded. The most that can be attributed directly is a broad exploratory reading assignment and an invitation to choose a provisional name. “Aldus” is an assistant-selected historical alias and a current ring label, not an authenticated specialist identity. The current user-supplied Lane 00 charter is the operative authority for this run.
+Two direct user messages establish the role more fully than the earlier single-message inspection:
+
+- `939e981d-72ec-451b-81a3-f0a7b3a2c48`, 2026-09-08T03:56:33.466Z, calls the role the **“Renaissance man of the group”** and directly proposes broad exploration across non-SAT material, overlooked or siloed sources, RMS, philosophy, art, and side projects that combine unrelated threads to work on SAT problems.
+- `fcff5c18-85c4-4efc-b7e5-df7ee20c0646`, 2026-09-08T04:17:24.363Z, directly confirms **“Aldus it is for now and as long as you want it”** and explicitly endorses **“combining information not usually combined.”**
+
+Therefore the h1023 BOOT/receipt attribution of broad cross-reading and unusual cross-context combination to Nathan is supported, not superseded. The h1031 report’s contrary claim that this phrase was assistant-authored and that no user confirmation existed was based on an incomplete/different raw snapshot and is withdrawn.
+
+No standalone signed specialist charter was found; the role is nevertheless directly established by the conversation. “Gitter” is a working framing, not a separate signed charter. The current ring label remains deterministic routing, not authentication of a current ChatGPT thread. The current user-supplied Lane 00 charter remains the operative task authority.
 
 ## 2. Source custody and read extent
 
@@ -206,8 +215,8 @@ No new Lean module or build was created. A faithful new theorem would require so
 
 | Status | Finding |
 |---|---|
-| NEW CORRECTION | Prior Aldus BOOT/h1023 wording attributes “combining information not usually combined” to Nathan; raw source places that phrase in an assistant response |
-| NEW CORRECTION | No standalone signed Aldus specialist charter or user confirmation of the assistant-selected name was found |
+| CORRECTED | The correct raw (2) export confirms the h1023 BOOT/receipt role attribution; direct user messages `939e981d` and `fcff5c18` establish the “Renaissance man” framing, name confirmation, and unusual-combination remit |
+| PRESERVED | No standalone signed specialist charter was found, but the broad role and name are directly user-confirmed in the conversation |
 | NEW SOURCE AUDIT | SAT archive `2023 SPACETIME CHAT.txt` is role-incomplete and not a reliable message-level transcript |
 | NEW MATHEMATICAL QC | \(\Theta_{\mu\nu}\) is an additive source placeholder, not a susceptibility/constitutive law |
 | NEW MATHEMATICAL QC | Two assistant uses of \(\Theta_{\mu\nu}\) are not reconciled; cumulative substitution would double-count it |
@@ -217,6 +226,12 @@ No new Lean module or build was created. A faithful new theorem would require so
 | OPEN | Typed timesheet-to-metric map and causal type of the timewave |
 | OPEN | Explicit readout and fiber-constancy conditions for one-sided representation |
 | OPEN | Any data-backed forward law relating visible matter, rotation velocity, and curvature response |
+
+## 8.1 Publication incident and correction
+
+The first publisher intake was issue [#2384](https://github.com/Satobloc/HsH/issues/2384), submission `aldus-h1031-s0-spacetime-susceptibility-fidelity-20261122t2300z-001`. It was rejected with `REJECTED: invalid schema` in [run #45082311872](https://github.com/Satobloc/HsH/actions/runs/45082311872). The payload used `hsh.publish.v1`; the current intake contract requires the exact literal `hsh-publish-v1`. The Actions run concluded `success`, but the rejection comment is authoritative; the expected artifact was not published. The issue is retained as the single incident record. No edit, reopen, retry, or duplicate submission was made.
+
+The initial report also contained an incorrect Aldus role-source statement. The correct raw (2) export was subsequently checked and the report is corrected in this workspace version. A separate numbered Amendment 01 records the source correction and the rejected intake. The original issue #2384 body remains unchanged as the audit record.
 
 ## 9. Physical and epistemic status
 
@@ -252,4 +267,4 @@ No CODATA scoring, SAT-O/Blockwave equation correction, theory promotion, BEDROC
 **Return locator:** 2023 raw conversation `2291dd14-7b80-42e7-9284-f33f983e45ab`, blob `d6fe3b0c2fac5309d79581ed6015a66d1cbaeb5b`. Key direct messages: `aaa25340-1a6f-4504-b32d-70c1e44bdc6f` (09:22:46Z), `aaa226b1-88a2-4f37-89cd-c117b1db9921` (09:26:09Z), `aaa2f154-0ef9-41ba-b390-5cb72ce875cd` (09:29:51Z), `aaa226e2-ce76-4a76-8d52-531c724f9900` (09:34:32Z), `aaa2b4ef-8f82-4b57-8ba9-1bab7e5e546c` (09:52:06Z), `aaa22b3e-3a68-4e6e-b7fa-fcf21e26e6c6` (10:06:46Z), `aaa29d5b-a1f9-4b3d-9a85-f5a03992ab10` (10:13:31Z), `aaa254c0-2a01-432c-896a-c9da12888dca` (10:20:18Z), `aaa2022b-3f21-4b7e-80bb-287630d93e68` (10:22:30Z), and `aaa27036-e11c-43ae-8238-e34fc7403300` (10:26:47Z). Assistant equations: `d3749fb7-3618-430f-98a6-b9c5eea30ef1` (09:34:50Z), `d0941f87-197a-488a-aa23-73d9c186e266` (10:22:43Z), and `c6f29680-2f5d-4f32-8faf-f3bb8d00e09d` (10:27:10Z). 2026 direct geometry conversation `6aea46dd-dc60-83ea-8d50-689c152340e3`, messages `100388c5-89d6-4ffd-a895-598990636057` and `72649a88-dc26-498f-9b5c-acd15e01e3c5`.
 
 
-**Final status:** `H1031_S0_ALDUS / ROLE_SOURCE_CORRECTION / 2023_RAW_VS_FLATTENED_TRANSCRIPT_AUDIT / THETA_SOURCE_VS_SUSCEPTIBILITY_MISMATCH / 2026_SYMMETRIC_ATTRIBUTION_PRESERVED_AS_DEFAULT_CONVENTION / PR1133_MERGE_REF_BUILD_REUSED_NOT_EXACT_HEAD / NO_NEW_LEAN_BUILD / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_THEORY_PROMOTION / TASK_UNCHANGED / NO_SIXTH_TASK / NO_CROSS_THREAD_DELIVERY`.
+**Final status:** `H1031_S0_ALDUS / ROLE_SOURCE_RECONFIRMED / 2023_RAW_VS_FLATTENED_TRANSCRIPT_AUDIT / THETA_SOURCE_VS_SUSCEPTIBILITY_MISMATCH / 2026_SYMMETRIC_ATTRIBUTION_PRESERVED_AS_DEFAULT_CONVENTION / PR1133_MERGE_REF_BUILD_REUSED_NOT_EXACT_HEAD / PUBLISHER_REJECTED_SCHEMA_NO_RETRY / NO_NEW_LEAN_BUILD / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_THEORY_PROMOTION / TASK_UNCHANGED / NO_SIXTH_TASK / NO_CROSS_THREAD_DELIVERY`.
