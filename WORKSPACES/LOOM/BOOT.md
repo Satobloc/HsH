@@ -1,3 +1,16 @@
+## Latest relay pointer | h1030:s0 | 2026-11-22T22:00Z
+
+- [H1030 Planck-unit context and coordinate-source fidelity report](2026-11-22T2200Z_H1030_S0_MINKOWSKI_RING_NATURAL_UNIT_CONTEXT_AND_TAG_COVERAGE.md).
+- [Canonical h1030:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2200Z_s0_loom.md).
+- [Additive source-tag ledger](../COMMON/tagging_ledgers/2026-11-22-LOOM-MINKOWSKI-NATURAL-UNIT-CONTEXT-02.md).
+- Publisher issue #2378 is SUBMITTED_NOT_VERIFIED at first check; expected report SHA-256 e129cdaec9f7ac2dd31634bc478a1343c65770a96a0f84dffc7f6438ee659e17. Verify the same issue before any further action; never duplicate.
+- Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED. No authenticated current Loom thread or historical-instance participation is claimed.
+- The source-context delta preserves Planck-unit-first numerical exploration, distinguishes October 9 w=ct from October 21 cw=t, and leaves typed coordinate/Forest/H₀ maps open.
+- Existing PR #1444 exact-head scalar proof reused; no new Lean build, physical calculation, CODATA, or theory promotion.
+- Next ring label: Aster. No assignment or cross-thread delivery claim.
+
+---
+
 ## Latest relay pointer | h1022:s2 | 2026-11-22T14:24Z
 
 - [H1022 source-cursor and instrument-support report](2026-11-22T1424Z_H1022_S2_SOURCE_CURSOR_AND_INSTRUMENT_SUPPORT_DELTA.md).
