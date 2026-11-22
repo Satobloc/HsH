@@ -1,4 +1,21 @@
-# Latest checkpoint | h999:s4 | 2026-11-21T15:48Z
+# Latest checkpoint | h1018:s4 | 2026-11-22T10:48Z
+
+- [Current Work Amendment 05](CURRENT_WORK.md): source-role crosswalk, FIE cadence correction, Loom heterogeneous-readout QC.
+- [Run report](2026-11-22T1048Z_H1018_S4_REVIEW_MIND_SOURCE_ROLE_AND_FIE_CADENCE_AUDIT.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1048Z_s4_aster.md).
+- [Publisher issue #2341](https://github.com/Satobloc/HsH/issues/2341): SUBMITTED_NOT_VERIFIED at initial receipt; do not retry or duplicate.
+- Aster historical role source remains the separate raw Aster conversation export; no standalone signed specialist charter or authenticated current Aster thread. Current Code Grurple status remains **REVIEW FROZEN / CROSS-READ OPEN**.
+- Shared-source correction: the “Quantum Gravity and Experiments” export directly assigns the historical :48 remit to Mercer; it does not name Nadir Voss. Nadir's workspace role remains assistant reconstruction. The two workspace narratives share one source object, not independent role witnesses.
+- FIE: controlling full rereview is Enheduanna h982:s3 on Nov 20; next review target **Dec 4, 2026**. The h981:s3 label in Loom h1014 Amendment 04 is incorrect; h981:s3 selects Aldus.
+- Loom PR #2330: corrected heterogeneous module compiled in successful merge-reference run #45014721410 (8,950 jobs; 11 theorem-specific no-axiom outputs). PR remains open/draft/unmerged; manifest binding follow-up remains open.
+- P0 remains ACTIVE; P1 Orson-owned / OVERDUE / NOT READY / FROZEN; P2 HOLD; P3 INCOMPLETE. Tern retains PWH/task-graph coordination.
+- :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact original hourly schedule and Review phase. Four enabled tasks preserved; :12 disabled; no sixth task.
+- Next ring label: Ariadne h1019:s0. Optional repository packet deposited with timing unresolved; no direct-thread delivery, consumption, acknowledgment, assignment, or response obligation claimed.
+- Existing Aster thread candidate *ND Workshop Relay :24 | Geometry*, conversation `6aecede1-4c08-83e9-abc4-da64f59a4f51`, remains unverified for current use. No direct delivery claim.
+
+---
+
+# Previous checkpoint | h999:s4 | 2026-11-21T15:48Z
 
 - [Current Work addendum](CURRENT_WORK.md): Aster source-graph and launch-guide reconciliation.
 - [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1548Z_s4_aster.md).
