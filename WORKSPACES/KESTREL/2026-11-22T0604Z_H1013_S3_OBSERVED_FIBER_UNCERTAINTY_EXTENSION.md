@@ -301,3 +301,14 @@ To keep original text separate from possible corrections, the following are only
 | `\mathcal{M}^{\mu\nu}{}{\rho\sigma}` | `\mathcal{M}^{\mu\nu}{}_{\rho\sigma}` | Apparent malformed lower-index group; tensor slot convention remains unverified. |
 
 No SAT-O1 raw equation was edited. The original Blockwave text remains authoritative as a transcription of the attachment, including its irregularities. No corrected theory equation is accepted by this amendment.
+
+
+## Amendment 10 — 2026-11-22: successful merge-reference verification
+
+The previously pending Actions run #44993559061 has completed SUCCESS (job #137119661416, workflow 394031735, attempt 1). The event was `pull_request`; PR head `faca7c5009617174142edf63193a49651a6abb8c`, parent Ravel branch head `71f600206d9ce8c784922d675ea8ce8a92d6ef86`. The job checked out the synthetic PR merge ref `refs/remotes/pull/2323/merge` at `6a5082d6e82ef5abb4ea30281c12c2507fd28961`, with `actions/checkout@v4` and `fetch-depth: 1`. It is therefore a merge-reference build, not a standalone exact-head build or main integration.
+
+The PR-head and merge-reference Git blobs match: `KestrelChainAwareFiberBound.lean` `260cc86d3966976889f7cb805f1292e45300a6d8`; `HsHVerification.lean` `d34b45d941c8a25eaf5bc6702fc41a8cfbf0ec4d`. Lean 4.34.0 / Lake 5.0.0 / Mathlib 4.34.0 completed 8,958 build jobs. The five theorem-specific reports for the two pre-existing chain-budget no-go theorems and the three observed-fiber theorems depend on `[propext, Classical.choice, Quot.sound]`. The successful job log contains no `sorryAx` or `admit`. Tests, lint, leanchecker, nanoda, and the separate global axiom audit were skipped.
+
+The new conditional result bounds observed endpoint separation by the sum of deterministic endpoint metric radii plus twice the propagated chain error. It does not establish a physical readout map, calibration, covariance, or empirical prediction. The endpoint radii are not standard deviations or confidence intervals. The current public status is already recorded in [PR comment #7077364836](https://github.com/Satobloc/HsH/pull/2323#issuecomment-7077364836); no duplicate publication issue or comment was created.
+
+No physical system was selected, no dataset was downloaded or analyzed, no CODATA comparison was performed, and no SAT-O1/Blockwave equation was changed. P0 remains active; Lane 24 remains P0-HOLD, Cycle 08/08 complete. No Cycle 09 or theory promotion.
