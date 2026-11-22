@@ -74,7 +74,9 @@ structure IdentifiedStateSet (State : Type u) where
 
 /-- The common frozen measurement packet. Both candidate comparisons must
     use the same packet identity, digest, source system, dataset, shared
-    readout identity, and exact evidence-gated readout contract. -/
+    readout identity, exact readout contract, and declared artifact inventory.
+    The inventory is a typed declaration; Lean does not authenticate the
+    manifest bytes or prove that this list was parsed from them. -/
 structure FrozenMeasurementPacket (Field : Type v)
     (Payload : MeasurementMode → Type w) where
   packetId : NonEmptyText
@@ -86,6 +88,7 @@ structure FrozenMeasurementPacket (Field : Type v)
   sourceSystemArtifact : SourceArtifactRef
   datasetArtifact : SourceArtifactRef
   readoutArtifact : SourceArtifactRef
+  declaredArtifactRefs : List SourceArtifactRef
   readout : EvidenceGatedFrozenCommonReadout Field Payload
 
 /-- Candidate-specific model maps and admissible state sets bound to one
@@ -101,16 +104,44 @@ structure CandidateModelReadoutBinding (State : Type u) (Field : Type v) where
   standardStates : IdentifiedStateSet State
   manifest : SourceArtifactRef
 
+/-- Structural closure of the packet's declared artifact inventory.
+    Every packet-level and candidate/model/state-set source locator must
+    appear in the same declared list, and the binding's manifest locator
+    must equal the packet's manifest locator. This does not authenticate
+    the manifest file or its parsed contents. -/
+structure PacketArtifactInventoryWitness
+    (packet : FrozenMeasurementPacket Field Payload)
+    (binding : CandidateModelReadoutBinding State Field) : Prop where
+  bindingManifestIdentity : binding.manifest = packet.manifest
+  sourceSystemArtifactDeclared :
+    packet.sourceSystemArtifact ∈ packet.declaredArtifactRefs
+  datasetArtifactDeclared :
+    packet.datasetArtifact ∈ packet.declaredArtifactRefs
+  readoutArtifactDeclared :
+    packet.readoutArtifact ∈ packet.declaredArtifactRefs
+  candidateArtifactDeclared :
+    binding.candidate.source ∈ packet.declaredArtifactRefs
+  hshModelArtifactDeclared :
+    binding.hshModel.source ∈ packet.declaredArtifactRefs
+  standardModelArtifactDeclared :
+    binding.standardModel.source ∈ packet.declaredArtifactRefs
+  hshStateSetArtifactDeclared :
+    binding.hshStates.source ∈ packet.declaredArtifactRefs
+  standardStateSetArtifactDeclared :
+    binding.standardStates.source ∈ packet.declaredArtifactRefs
+
 /-- A candidate may enter this detector-level comparison only with its
     ordinary hard-gate evidence, one typed candidate/model binding to the
-    exact frozen packet, and two-sided separation computed through the
-    readout carried by that same packet. -/
+    exact frozen packet, explicit manifest-inventory membership for every
+    participating source locator, and two-sided separation computed through
+    the readout carried by that same packet. -/
 structure EvidenceGatedModelComparison where
   packet : FrozenMeasurementPacket Field Payload
   binding : CandidateModelReadoutBinding State Field
   bindingPacketIdentity :
     binding.packetId.value = packet.packetId.value ∧
     binding.packetDigest.value = packet.packetDigest.value
+  artifactInventory : PacketArtifactInventoryWitness packet binding
   candidateHardGate : hardGate binding.candidate.value
   detectorSeparation :
     evidenceGatedDetectorLevelTwoSidedSeparation
@@ -147,6 +178,16 @@ theorem admittedComparison_has_source_model_readout_binding
     comparison.binding.packetDigest.value = comparison.packet.packetDigest.value :=
   comparison.bindingPacketIdentity
 
+/-- Admission exposes the complete declared artifact-inventory witness:
+    the binding manifest agrees with the packet manifest, and every source
+    locator participating in the comparison is listed in the packet's
+    declared inventory. -/
+theorem admittedComparison_has_artifact_inventory
+    (comparison : EvidenceGatedModelComparison
+      (State := State) (Field := Field) (Payload := Payload)) :
+    PacketArtifactInventoryWitness comparison.packet comparison.binding :=
+  comparison.artifactInventory
+
 /-- Admission preserves two-sided separation in the evidence-gated detector
     space, using the readout carried by the common measurement packet. -/
 theorem admittedComparison_has_detector_separation
@@ -167,6 +208,7 @@ theorem admittedComparison_exposes_all_gates
     commonReadoutEvidenceGate comparison.packet.readout.contract ∧
     comparison.binding.packetId.value = comparison.packet.packetId.value ∧
     comparison.binding.packetDigest.value = comparison.packet.packetDigest.value ∧
+    PacketArtifactInventoryWitness comparison.packet comparison.binding ∧
     evidenceGatedDetectorLevelTwoSidedSeparation
       comparison.binding.hshModel.value comparison.binding.standardModel.value
       comparison.packet.readout comparison.binding.hshStates.value
@@ -176,13 +218,15 @@ theorem admittedComparison_exposes_all_gates
       comparison.packet.readout.gate,
       comparison.bindingPacketIdentity.1,
       comparison.bindingPacketIdentity.2,
+      comparison.artifactInventory,
       comparison.detectorSeparation⟩
 
 /-- Evidence-gated tie-break: both candidates must carry complete
     detector-level admissions, and both admissions must refer to the same
-    frozen packet ID and digest, source system, dataset, shared-readout ID,
-    and exact readout contract (operator, version, calibration,
-    acquisition-unit map, units, uncertainty, and resolution). -/
+    frozen packet ID and digest, manifest artifact, declared artifact
+    inventory, source system, dataset, shared-readout ID, and exact readout
+    contract (operator, version, calibration, acquisition-unit map, units,
+    uncertainty, and resolution). -/
 def evidenceGatedIntelligibilityTieBreak
     (empiricallyEquivalent : Candidate → Candidate → Prop)
     (humanPrefers : Candidate → Candidate → Prop)
@@ -190,6 +234,8 @@ def evidenceGatedIntelligibilityTieBreak
       (State := State) (Field := Field) (Payload := Payload)) : Prop :=
   a.packet.packetId.value = b.packet.packetId.value ∧
   a.packet.packetDigest.value = b.packet.packetDigest.value ∧
+  a.packet.manifest = b.packet.manifest ∧
+  a.packet.declaredArtifactRefs = b.packet.declaredArtifactRefs ∧
   a.packet.sourceSystemId.value = b.packet.sourceSystemId.value ∧
   a.packet.datasetId.value = b.packet.datasetId.value ∧
   a.packet.sharedReadoutId.value = b.packet.sharedReadoutId.value ∧
@@ -220,11 +266,15 @@ theorem evidenceGatedIntelligibilityTieBreak_requires_gates
     b.binding.packetDigest.value = b.packet.packetDigest.value ∧
     a.packet.packetId.value = b.packet.packetId.value ∧
     a.packet.packetDigest.value = b.packet.packetDigest.value ∧
+    a.packet.manifest = b.packet.manifest ∧
+    a.packet.declaredArtifactRefs = b.packet.declaredArtifactRefs ∧
     a.packet.sourceSystemId.value = b.packet.sourceSystemId.value ∧
     a.packet.datasetId.value = b.packet.datasetId.value ∧
     a.packet.sharedReadoutId.value = b.packet.sharedReadoutId.value ∧
     a.packet.readout.contract = b.packet.readout.contract ∧
     a.packet.readout.contract.mode = b.packet.readout.contract.mode ∧
+    PacketArtifactInventoryWitness a.packet a.binding ∧
+    PacketArtifactInventoryWitness b.packet b.binding ∧
     evidenceGatedDetectorLevelTwoSidedSeparation
       a.binding.hshModel.value a.binding.standardModel.value a.packet.readout
       a.binding.hshStates.value a.binding.standardStates.value ∧
@@ -232,8 +282,8 @@ theorem evidenceGatedIntelligibilityTieBreak_requires_gates
       b.binding.hshModel.value b.binding.standardModel.value b.packet.readout
       b.binding.hshStates.value b.binding.standardStates.value := by
   rcases h with
-    ⟨hPacketId, hPacketDigest, hSystem, hDataset, hReadout, hContract,
-      hEquivalent, hPreference, hComplexity⟩
+    ⟨hPacketId, hPacketDigest, hManifest, hInventory, hSystem, hDataset,
+      hReadout, hContract, hEquivalent, hPreference, hComplexity⟩
   rcases a.bindingPacketIdentity with ⟨haPacketId, haPacketDigest⟩
   rcases b.bindingPacketIdentity with ⟨hbPacketId, hbPacketDigest⟩
   exact
@@ -247,17 +297,22 @@ theorem evidenceGatedIntelligibilityTieBreak_requires_gates
       hbPacketDigest,
       hPacketId,
       hPacketDigest,
+      hManifest,
+      hInventory,
       hSystem,
       hDataset,
       hReadout,
       hContract,
       congrArg (fun contract => contract.mode) hContract,
+      a.artifactInventory,
+      b.artifactInventory,
       a.detectorSeparation,
       b.detectorSeparation⟩
 
 #print axioms admittedCandidate_has_hardGate
 #print axioms admittedComparison_has_readout_gate
 #print axioms admittedComparison_has_source_model_readout_binding
+#print axioms admittedComparison_has_artifact_inventory
 #print axioms admittedComparison_has_detector_separation
 #print axioms admittedComparison_exposes_all_gates
 #print axioms evidenceGatedIntelligibilityTieBreak_requires_gates
