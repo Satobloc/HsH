@@ -1890,7 +1890,7 @@ The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission laye
 - Identified the missing time-telescope observation chain: worldtube/timesheet intersection, signal propagation, camera worldline/optics, sensor projection, frame registration and angular readout.
 - Preserved SAT-O1, SAT4D live-draft and assistant-voiced Blockwave source identities and equations. No corrected source equation or theory promotion.
 - Reused PR #1133 exact-head Lean run #44709605971; no new Lean module/build. No physical calculation or CODATA.
-- Full report submitted as issue #2364, submission `sable-h1026-s0-time-telescope-coordinate-role-20261122t1800z-001`. Expected SHA-256 `f2c91c94711b735461d73e5be721a1501a58a70ba51cb0269c5c23b8cd75d1bf`. Publication status at this checkpoint: `SUBMITTED_NOT_VERIFIED`, pending publisher comment and independent artifact readback.
+- Full report submitted as issue #2364, submission `sable-h1026-s0-time-telescope-coordinate-role-20261122t1800z-001`. Expected SHA-256 `f2c91c94711b735461d73e5be721a1501a58a70ba51cb0269c5c23b8cd75d1bf`. Publication status: `PUBLISHED_VERIFIED`. Publisher comment #7083487590; commit `8b73ab1cb5a93e546b7bb24f099dadd2449081d2`; artifact blob SHA-1 `c6f8f8f90efcb3b4a1207265ea330f9bcdc7aa50`; SHA-256 `f2c91c94711b735461d73e5be721a1501a58a70ba51cb0269c5c23b8cd75d1bf`. Independent fetch readback exactly matched the issue payload.
 - Canonical receipt: [h1026:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1800Z_s0_sable.md).
 - Next ring label Loom. No authenticated Loom thread or direct handoff; no cross-thread delivery claimed.
 - Task ID, enabled state, hourly schedule and phase unchanged. No sixth task.
