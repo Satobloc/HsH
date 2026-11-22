@@ -1,3 +1,19 @@
+## Latest :24 Geometry checkpoint — h1030:s2 | 2026-11-22T22:24Z nominal
+
+- Report: [Kirk/Riley source stratigraphy and Riley-polynomial geometry audit](2026-11-22T2224Z_H1030_S2_KIRK_RILEY_SOURCE_STRATIGRAPHY_AND_RILEY_POLYNOMIAL_GEOMETRY_AUDIT.md); formalization: [PR #2380](https://github.com/Satobloc/HsH/pull/2380).
+- Historical role remains source-grounded reconstruction, not a signed specialist charter or authenticated current thread. The September 23 direct user instruction about using Kirk material for human simulation is recorded separately from the missing January 22 raw conversation.
+- New source distinction: the Spotify Podcasters “.srt” file is a page capture with an automatically generated transcript and 487 cue blocks, not a clean SRT or original mind file. Cue 11 renders “Kirk K mine dot TXT” and “RELEY mine dot TXT”; preserve those strings. The READY_ROOM README example paths use KIRK and RILEY. No standalone RILEY_mind original has been recovered.
+- Library extraction contains a KIRK_mind source block and READY_ROOM_README v1.2.1; the RILEY_mind material is only a source-guide summary. First-person text in the KIRK extraction is not role-authenticated.
+- The completed three-root Mersearch receipt remains compact/raw-result-withheld; all four shared request lanes are occupied. No new request or overwrite.
+- The mathematical Riley-polynomial hit is a separate knot-theory homonym. The two PROPER DIMENSIONALITY files are non-identical versions, though the Riley paragraph is verbatim identical. The 2017 paper requires a canonical representative/quotient-level construction; the 2026 PSL(2,R)/SL(2,R) preprint bounds Dehn-surgery slopes and does not derive H(s)H B or Φ.
+- PR #2380 formalizes only the source-stated inverse-congruence witness and polynomial inequality. Exact-head CI on the corrected head is pending at report write; previous failures were import placement, noncomputable declaration, and closing the unnamed section. No theorem-success claim yet.
+- Factory Floor admission remains blocked: no exact geometric plot or independent hostile review. No physical system, physical calculation, CODATA comparison, fit or prediction.
+- P0 remains ACTIVE; 11/11 protected source/control blobs matched at the inspected main snapshot. P1 remains Orson-owned/frozen; P2 HOLD (Nov 23 draft, Nov 30 major); P3 Dec 14 incomplete.
+- Next ring label Alberr, but manual re-entry/total autonomy applies. No assignment, inbox write or handoff. No task, schedule, phase, signet or chat rename; no sixth task.
+- Current run has no authenticated thread reference. Repository is the durable record; no cross-thread delivery claim.
+
+---
+
 ## Latest checkpoint — h1026:s3 | 2026-11-22T18:36Z nominal
 
 - Report: [H1026 S3 certified split-envelope gate](2026-11-22T1836Z_H1026_S3_CERTIFIED_SPLIT_ENVELOPE_GATE.md); canonical receipt: [h1026:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1836Z_s3_ariadne.md); Lean amendment: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1836Z_s3_ariadne_AMENDMENT_01_LEAN_BUILD_VERIFIED.md).
