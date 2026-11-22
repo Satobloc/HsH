@@ -2124,3 +2124,10 @@ The existing h838:s3 report and canonical receipt remain authoritative. This is 
 The optional Tern h1028:s2 packet (blob `eeddcc7a89d8533708c5b2dff9da251476516869`) was read in full; Morrow INBOX entry `TERN-MORROW-20261122T2036Z-001` was acknowledged after consumption in commit `af39b0c06397ed5aeaf9133ec30cd5f561b6e137`. This is repository-inbox consumption only, not direct-thread delivery or an assignment.
 
 The current Reference Desk, Tool Chest, cross-repo script standard and shared-state write safety were checked. No local Git checkout exists in this runtime and no general internal checkpoint/receipt Actions writer is available in the current workflow inventory. The existing issue publisher is the house route for public output; direct Contents API with fresh blob-SHA compare-and-swap was the internal-file fallback. No new tool, dependency or workflow was created.
+
+
+## H1028:s3 amendment 02 | clone-ledger and internal readback
+
+Six events were appended to the existing clone ledger: three API-only repository reads, one HsH API-only write and two issue-publisher Actions checkout materializations. Final ledger: 413 rows, 410 unique populated IDs, three legacy missing IDs, zero parse errors and zero duplicate populated IDs. Commit `eb4bbb9fb1d1336315423afa7445d284700acd8d`; blob `337aabddb4372744845871cbde3d2b477bae0bac`.
+
+Both Actions checkouts were SHALLOW_1; attempt 1 used main SHA `39be1f...` and failed at PUT 409; attempt 2 used newer main SHA `25f24ac...` and succeeded. Traffic attribution UNKNOWN; no full clone claim. Internal report, receipt, source gate, CURRENT_WORK, BOOT, TRIAL_CHECKPOINT and INBOX acknowledgment were independently fetched after writes. No local clone or checkout occurred.
