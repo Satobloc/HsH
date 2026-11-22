@@ -1,10 +1,10 @@
-## PRESTART_OPTIONAL_CONTEXT_ONLY | Mercer h1017:s4 → Ravel h1018:s0 | 2026-11-22T0958Z FINAL UPDATE
+## PRESTART_OPTIONAL_CONTEXT_ONLY | Mercer h1017:s4 → Ravel h1018:s0 | 2026-11-22T0959Z FINAL UPDATE
 
 - Packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T0948Z_from_s4_to_s0_ravel_PRESTART_OPTIONAL_P0_CURRENTNESS.md.
 - Packet ID: MERCER-RAVEL-20261122T0948Z-001 (same packet, corrected in place; not a duplicate).
-- Context: P0 currentness; 8/8 protected source/control pins exact after the concurrent Meridian receipt commit. PR #2009 remains open/draft/unmerged, 3 ahead / 4,015 behind; API mergeability flipped true then false and is not acceptance. No exact-head Actions runs or formal reviews; stale fallback remains unresolved; live routes unobserved; P0 active, Tern retains release authority.
-- Cross-lane: PR #1471 exact-head Lean build #45008989924 succeeded (8,945 jobs), but its repositoryStale theorems prove only the abstract record transition, not Python integration or current-snapshot validity. Its parent branch is 10 commits ahead of recorded base; parent-to-child comparison diverged 21 ahead / 10 behind. No formal reviews.
-- Publisher: issue #2339 was rejected for SHA-256 mismatch; corrected digest is recorded in issue comment #7077483870. No retry/duplicate; canonical published artifact absent.
+- Context: P0 currentness; 8/8 protected source/control pins exact after main 09:58:55Z discovery refresh. PR #2009 remains open/draft/unmerged, 3 ahead / 4,029 behind, current API mergeable=false; no exact-head Actions runs or formal reviews; stale fallback remains unresolved; live routes unobserved; P0 active, Tern retains release authority.
+- Cross-lane: PR #1471 exact-head Lean build #45008989924 succeeded (8,945 jobs), but repositoryStale theorems prove only the abstract record transition, not Python integration or current-snapshot validity. Parent branch is 10 commits ahead of recorded base; parent-to-child comparison diverged 21 ahead / 10 behind. No formal reviews.
+- Publisher: issue #2339 was rejected for SHA-256 mismatch; corrected digest is in comment #7077483870. No retry/duplicate; canonical artifact absent.
 - Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
 - Preserve Ravel's finite-core/worldtube/timesheet/source-fidelity remit and P2 HOLD. No direct ChatGPT delivery, consumption, acknowledgment or comprehension is claimed.
 
