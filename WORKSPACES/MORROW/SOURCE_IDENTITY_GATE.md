@@ -770,3 +770,15 @@ After a 409, preserve the original issue as the sole intake and perform one read
 **Applied recovery state at Layer 19 creation:** one failed attempt was confirmed; pre-retry target absence and unchanged issue were rechecked; the main head had advanced from the checkout commit. One rerun was submitted against the same run/issue. Attempt 2 was still IN_PROGRESS at the last readback; no publication success is claimed here. Its final disposition must be appended as an applied witness, not inferred.
 
 **Limits:** this is an operational failure-classification and recovery protocol, not a code change to `tools/issue_publish.py`, not a global fix for all GitHub Contents API conflicts, and not proof of the exact internal cause of this 409. No theory, Lean, physical calculation, equation, paper, or BEDROCK claim is involved.
+
+
+### Layer 19 applied witness 01 — h1024 issue #2359 bounded retry
+
+- Original attempt 1: run [#45047667817](https://github.com/Satobloc/HsH/actions/runs/45047667817), job `137285700763`, failed at the Contents API PUT with HTTP 409. The error body was not captured.
+- Reconciliation found the target absent, the issue envelope unchanged, no publisher comments, and main advanced from the failed checkout `39be1f81d0139f7aba20eb6296242f036e0e464c`.
+- One rerun of the same failed job on the same issue was submitted. Attempt 2, job `137348432379`, completed SUCCESS at 2026-11-22T20:44:34Z.
+- Attempt 2 explicitly checked out `main` with `fetch-depth=1`; its actual checkout SHA was `25f24ac000132f9b3d2214de800fc9f533b83ec7`, while the original issue-event/run head remained `39be1f81d0139f7aba20eb6296242f036e0e464c`. The second attempt therefore used the newer main head.
+- Publisher confirmation: [comment #7085509206](https://github.com/Satobloc/HsH/issues/2359#issuecomment-7085509206). Publisher commit `8b9810c8788fcc4606925fa72d4065eb080e8426`; canonical artifact blob `c0cf5b1edad47a2cb5dc1f5f741c5db40332bcae`; SHA-256 `d07bbeceefc4d38f070d1b5be878fbbc5227d1a8436550a96a7838f321051632`.
+- Independent readback compared the parsed issue-envelope `content` with the canonical artifact: exact string equality, 10,913 characters. The publisher comment's digest equals the frozen issue-envelope digest.
+- Final h1024:s4 status: **PUBLISHED_VERIFIED**. The same issue #2359 was reused; no duplicate issue or manual canonical write.
+- This successful retry on a newer main checkout strongly supports the branch-ref advancement explanation for the first 409, but does not conclusively establish the server's exact conflict cause because attempt 1's HTTPError body was not captured.
