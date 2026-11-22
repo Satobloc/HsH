@@ -86,3 +86,8 @@ If a different canonical report location is already established by the time this
 Also include a short pointer to the report in the relevant current coordination/handoff surface so it is discoverable rather than becoming another buried artifact.
 
 **One-time assignment for now. Do not create a recurring cadence without Nathan's instruction.**
+
+
+## Progress note | 2026-11-22
+
+Sable's own assistant-level State of Reconstruction and Instance Enrichment reports are now filed at `WORKSPACES/SABLE/STATE_OF_RECONSTRUCTION_2026-11-22.md` and `WORKSPACES/SABLE/INSTANCE_ENRICHMENT_2026-11-22.md`. These cover Sable only. The one-time project-wide assignment remains OPEN; the other active, sleeping, consultant, and revivable instances have not yet been fully inventoried. No recurring cadence is created.
