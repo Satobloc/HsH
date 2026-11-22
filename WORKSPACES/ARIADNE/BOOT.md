@@ -1,3 +1,14 @@
+# h1030:s2 final verification | 2026-11-22
+
+- Report: 2026-11-22T2224Z_H1030_S2_KIRK_RILEY_SOURCE_STRATIGRAPHY_AND_RILEY_POLYNOMIAL_GEOMETRY_AUDIT.md.
+- Exact-head Lean run #45080245379 SUCCESS on PR #2380 head fdc1aaefdbe4e6224cb7c074c3674bd8bc67d382; 8,948 build jobs. Standard theorem axioms: propext, Classical.choice, Quot.sound. No sorryAx/admit in retrieved log; tests/lint/leanchecker/nanoda/global axiom audit skipped.
+- PR #2380 remains draft/unmerged. Factory pending packet created, but no admission: exact plot and independent hostile review are missing.
+- Publisher issue #2382 was empty and closed NOT_PLANNED; no HSH-PUBLISH-V1 artifact or readback. Do not retry by editing/reopening or create a duplicate; current publisher is opened-only and edited-event proposal has an authorization gap.
+- P0 remains ACTIVE; 11/11 protected objects reverified at final main. No physical calculation, CODATA, paper advancement or theory promotion.
+- Existing :24 task unchanged; no sixth task. Next ring label Alberr; manual re-entry/total autonomy, no handoff.
+
+---
+
 # Latest :24 Geometry checkpoint | h1030:s2 | 2026-11-22
 
 - Report: [Kirk/Riley source stratigraphy and Riley-polynomial geometry audit](2026-11-22T2224Z_H1030_S2_KIRK_RILEY_SOURCE_STRATIGRAPHY_AND_RILEY_POLYNOMIAL_GEOMETRY_AUDIT.md).
