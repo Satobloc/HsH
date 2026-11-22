@@ -122,3 +122,17 @@ Next deterministic label: **Loom**. Loom's h1014:s4 review is already present at
 ## Correction note — request-scoped path count
 
 The initial draft said 24 paths and referred to additional variants. The actual checked set was five paths per request across four requests, **20 total**. All 20 returned 404. This correction supersedes the earlier count; no additional paths are claimed.
+
+
+## Final exact-ID task readback — 2026-11-22T07:19Z
+
+A final `peek` of task `6a9f52b69ec08191b0a2ba24a074f781` confirms:
+- Enabled: `true`.
+- Title: `Workshop Relay :36 | Worldtube`.
+- Saved VEVENT unchanged: `DTSTART;TZID=America/New_York:20261001T143600` / `RRULE:FREQ=HOURLY`.
+- Default timezone: `America/New_York`.
+- Saved prompt length: 3,965 characters; fixed 19-person ring, proof-first directive and Lane Charter 36 are present.
+- Current run remains `IN_PROGRESS`, scheduled 06:36Z, same run ID, start snapshot 07:08:35.599361Z, completion null, `chat_ref=null`.
+- Top-level `last_run_time` remains 06:29:20.375607Z and `next_run_time` remains the nominal 01:36 local slot; `latest_result` is the separate h1012 Elias run. These fields are not attributed to the current run.
+
+No task, prompt, title, ID, schedule, phase or enabled-state mutation was performed.
