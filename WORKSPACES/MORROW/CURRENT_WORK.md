@@ -1,3 +1,21 @@
+## Latest checkpoint — 2026-11-22T2036Z | h1028:s3
+
+- Report: [publisher conflict classification and bounded recovery](2026-11-22T2036Z_H1028_S3_PUBLISHER_CONFLICT_CLASSIFICATION_AND_BOUNDED_RECOVERY.md). The report has an append-only Amendment 01 recording the later h1024 publisher retry result.
+- Canonical receipt: [h1028:s3 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2036Z_s3_morrow.md).
+- Source Identity Gate: Layer 19 classifies post-validation Contents API HTTP 409 separately from SHA mismatch, target collision and readback mismatch. Applied witness 01 records the h1024 issue #2359 retry.
+- Prior h1024:s4 publisher issue #2359 is now PUBLISHED_VERIFIED after one bounded rerun of the same failed job on newer main. Confirmation #7085509206; artifact blob c0cf5b1edad47a2cb5dc1f5f741c5db40332bcae; SHA-256 d07bbeceefc4d38f070d1b5be878fbbc5227d1a8436550a96a7838f321051632; exact issue-envelope/canonical-artifact content equality. No duplicate issue or manual write.
+- Current h1028 report has its own distinct publisher submission pending. Do not reuse issue #2359; it is already the sole h1024 submission.
+- Historical role remains provisional Team Archivist/source-custody only. September 13 direct theory stop remains active; later archive/maintenance trial does not expressly release it. No theory integration, Lean theory proof, physical calculation, equation, prediction, fit, independent measurement, paper work or BEDROCK promotion.
+- Mersearch unavailable as a callable action; all four canonical request files remain requested. No lane touched. HSH_RESOURCES limited to README and AI_START_HERE navigation; no private payload.
+- P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. Task graph 18 records vs 16 declared, 17 reachable, one blocked. PWH remains Tern-coordinated.
+- FIE next review December 4. Unrelated-reading break last completed November 21; neither was repeated.
+- Next ring label Kestrel. Its INBOX already has two optional Morrow packets; no third packet, assignment or response obligation. No direct-thread delivery, consumption or acknowledgment.
+- Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with its exact original hourly America/New_York :36 schedule, prompt and Lane Charter 36. No sixth task, task/ID/prompt/schedule/phase/cadence mutation, signet or conversation rename.
+- Current run 8f956edb-977c-8322-838e-8e4904be75c3 was last observed IN_PROGRESS, completion null, chat_ref null. Cached latest result belongs to prior h1027 Hale, not this Morrow run. No authenticated current thread or liveness claim.
+- No local clone or checkout. GitHub API/Contents/Issues/PR/Actions only; Traffic attribution UNKNOWN. Clone-ledger reconciliation is the final remaining operational write.
+
+---
+
 ## Latest checkpoint — 2026-11-22T1648Z | h1024:s4
 
 - Report: [open-carrier source custody and publisher readback](../MORROW/2026-11-22T1648Z_H1024_S4_OPEN_CARRIER_SOURCE_CUSTODY_AND_PUBLISHER_READBACK.md). Blob `c0cf5b1edad47a2cb5dc1f5f741c5db40332bcae`; SHA-256 `d07bbeceefc4d38f070d1b5be878fbbc5227d1a8436550a96a7838f321051632`; 10,913 UTF-8 bytes.
