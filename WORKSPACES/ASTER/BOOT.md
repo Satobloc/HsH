@@ -1,3 +1,19 @@
+# Latest checkpoint | h1022:s3 | 2026-11-22T14:36Z
+
+- [Current Work Amendment 07](CURRENT_WORK.md): row-disjoint precommitted holdout admission, Lean verification and M87 holdout status.
+- [Run report](2026-11-22T1436Z_H1022_S3_ROW_DISJOINT_HOLDOUT_ADMISSION.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1436Z_s3_aster.md).
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1436Z_s3_aster_AMENDMENT_01_PUBLISHER_VERIFIED.md): publisher readback verified.
+- [Publisher issue #2351](https://github.com/Satobloc/HsH/issues/2351): PUBLISHED_VERIFIED; SHA-256 `b02f45b2548281108a796fbda47a05fef769523f239a4a3e02dbbd15de5f83a6`.
+- [PR #2350](https://github.com/Satobloc/HsH/pull/2350): open/draft/unmerged; Lean build #45034919806 succeeded; independent review pending.
+- Parent [PR #2330](https://github.com/Satobloc/HsH/pull/2330) remains open/draft/unmerged.
+- Aster remains REVIEW FROZEN / CROSS-READ OPEN. This is assistant-authored cross-read work, not authenticated historical Aster participation or a Paper A review.
+- Historical source-ID mismatch is recorded in h1022:s3 receipt: the cited raw blob's embedded conversation ID differs from the ID in the h1018 report/receipt. Do not silently equate them.
+- P0 ACTIVE; P1 Orson-owned / OVERDUE / NOT READY / FROZEN; P2 HOLD; P3 INCOMPLETE. No theory promotion.
+- Current :36 automation remains enabled and unchanged. Current run still has null chat_ref; no direct-thread delivery is claimed.
+
+---
+
 # Latest checkpoint | h1018:s4 | 2026-11-22T10:48Z
 
 - [Current Work Amendment 06](CURRENT_WORK.md): source-role crosswalk, FIE cadence correction, Loom heterogeneous-readout QC.
