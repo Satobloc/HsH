@@ -143,8 +143,8 @@ theorem hshDetectorExclusive_nonempty_iff_fiberWitness
             readoutMap standard readout standardState
   constructor
   · rintro ⟨observed, hObserved⟩
-    rcases Set.mem_sdiff.mp hObserved with
-      ⟨hInHsh, hNotStandard⟩
+    have hInHsh := hObserved.1
+    have hNotStandard := hObserved.2
     rcases Set.mem_image.mp hInHsh with
       ⟨state, hState, hReadoutEq⟩
     refine ⟨state, hState, ?_⟩
@@ -154,10 +154,8 @@ theorem hshDetectorExclusive_nonempty_iff_fiberWitness
       ⟨standardState, hStandardState, hCollision.symm.trans hReadoutEq⟩
   · rintro ⟨state, hState, hNoCollision⟩
     refine ⟨readoutMap hsh readout state, ?_⟩
-    apply Set.mem_sdiff.mpr
-    constructor
-    · exact Set.mem_image.mpr ⟨state, hState, rfl⟩
-    · intro hInStandard
+    refine ⟨Set.mem_image.mpr ⟨state, hState, rfl⟩, ?_⟩
+    intro hInStandard
       rcases Set.mem_image.mp hInStandard with
         ⟨standardState, hStandardState, hReadoutEq⟩
       exact hNoCollision standardState hStandardState hReadoutEq.symm
@@ -232,7 +230,7 @@ theorem sharedReadoutCollision_blocks_hshExclusive
       detectorPredictionRegion hsh readout hshStates \
         detectorPredictionRegion standard readout standardStates
   intro hMember
-  have hNotStandard := (Set.mem_sdiff.mp hMember).2
+  have hNotStandard := hMember.2
   apply hNotStandard
   exact Set.mem_image.mpr
     ⟨standardState, hStandardState, hCollision.symm⟩
