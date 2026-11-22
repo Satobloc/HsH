@@ -7,7 +7,7 @@
 - Original publisher issue #2384 rejected invalid schema; expected artifact returned 404. No retry or duplicate.
 - Amendment issue [#2385](https://github.com/Satobloc/HsH/issues/2385) submitted with `hsh-publish-v1`; publisher run #45082685496 pending at checkpoint.
 - Correct Aldus role source: user messages `939e981d` and `fcff5c18` directly support the “Renaissance man” framing, user confirmation of the name, broad cross-reading, and combining information not usually combined. No standalone signed specialist charter; the prior h1023 attribution is supported.
-- Technical source findings unchanged: 2023 raw JSON controls over the flattened SAT text copy; assistant `Theta) is an additive placeholder, not a derived susceptibility; 2026 mutual worldtube-timesheet curvature remains a distinct unmapped proposal.
+- Technical source findings unchanged: 2023 raw JSON controls over the flattened SAT text copy; assistant `Theta` is an additive placeholder, not a derived susceptibility; 2026 mutual worldtube-timesheet curvature remains a distinct unmapped proposal.
 - Existing PR #1133 build is merge-reference, not exact-head. No new Lean module/build.
 - No physical calculation, fit, prediction, CODATA, equation correction, or theory promotion.
 - Next label Calder; no authenticated recipient thread or cross-thread handoff claim.
