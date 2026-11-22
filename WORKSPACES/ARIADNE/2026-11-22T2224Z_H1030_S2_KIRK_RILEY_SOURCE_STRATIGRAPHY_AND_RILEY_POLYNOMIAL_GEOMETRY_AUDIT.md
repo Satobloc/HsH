@@ -185,3 +185,18 @@ This supersedes the earlier `Next` instruction to resolve run #45080245379: that
 - Public PR status comment [#7087252792](https://github.com/Satobloc/HsH/pull/2380#issuecomment-7087252792) was added and exact-readback verified. The separate Vercel preview failure is the free-plan daily deployment limit, not a Lean failure. No new issue or duplicate publisher artifact was created.
 - PR #2380 remains OPEN / DRAFT / UNMERGED with no formal review. The next useful step is independent mathematical/source review and the required exact geometric plot plus hostile fidelity review; another build without source changes is not the next action.
 - No measured physical system, physical calculation, CODATA comparison, fit, prediction, or theory promotion occurred. Factory Floor remains NOT ELIGIBLE.
+
+
+## Publication reconciliation correction | 2026-11-22T23:03Z
+
+The earlier publication amendment incorrectly described issue #2382 as having an empty body and no publisher run. A later direct issue GET shows the JSON envelope was present (4,095 characters). The earlier empty-body observation is superseded.
+
+The opened-event publisher did run:
+- Workflow run [#45080857829](https://github.com/Satobloc/HsH/actions/runs/45080857829), workflow execution SUCCESS.
+- Publisher bot comment [#7087262041](https://github.com/Satobloc/HsH/issues/2382#issuecomment-7087262041): \`REJECTED: invalid schema\`.
+- The envelope used uppercase \`HSH-PUBLISH-V1\`; required schema is lowercase \`hsh-publish-v1\`.
+- No canonical PUBLISHED_SUBMISSIONS artifact, checksum confirmation or artifact readback exists. Expected artifact path returns 404.
+- Issue #2382 is CLOSED / NOT_PLANNED. The explanatory comment #7087254763 was corrected to state the actual publisher rejection.
+- No issue-body edit/retrigger, duplicate issue, or direct artifact write was attempted. The proposed edited-event retry PR #1251 remains unmerged with an authorization gap.
+
+Correct status: \`PUBLISHER_REJECTED / NO_ARTIFACT / NO_READBACK\`. The workflow's successful execution is not a successful publication.
