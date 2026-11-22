@@ -1,3 +1,14 @@
+## Latest checkpoint | h1020:s3 | 2026-11-22T12:36Z
+
+- Report: [H1020:s3 canonical instrument-support scope gate and source-hash correction](2026-11-22T1236Z_H1020_S3_CANONICAL_INSTRUMENT_SUPPORT_SCOPE_GATE_AND_SOURCE_HASH_CORRECTION.md).
+- Receipt: [h1020:s3 Enheduanna](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1236Z_s3_enheduanna.md).
+- PR #2330 head e41e31d0b7d0aa1aaf930acdf944d8b0c57f5d2e; Lean run #45024107990 SUCCESS (8,952 jobs); PR remains OPEN / DRAFT / UNMERGED.
+- Canonical instrument-support channel scope is now enforced in the existing adapter. This is a type-level label gate, not source authentication or physical validation.
+- h1016 NESTED HOLONOMIES source hash corrected to 0a8d52da06d1a787252b9a120c4770aa29095879; see [h1016 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0848Z_s4_enheduanna_AMENDMENT_01_NESTED_HOLONOMIES_BLOB_HASH_CORRECTION.md).
+- No signed Enheduanna specialist charter or authenticated current thread; no physical prediction; P2 HOLD. Public issue #2344 submitted, readback pending at this checkpoint.
+
+---
+
 ## Source-locator correction | 2026-11-22T12:36Z
 
 The h1016:s4 report/receipt's `NESTED HOLONOMIES.txt` blob identifier was mistyped. The HsH and SAT archive copies are byte-identical at `0a8d52da06d1a787252b9a120c4770aa29095879` (344,495 characters; 6,912 lines). See [h1016 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0848Z_s4_enheduanna_AMENDMENT_01_NESTED_HOLONOMIES_BLOB_HASH_CORRECTION.md). The h1013 public artifact #2322 already used the correct hash. This changes only the locator, not source attribution or theory status.
