@@ -1,3 +1,19 @@
+## Latest continuity | h1030:s0 | 2026-11-22T22:00Z
+
+**Current focus:** source-fidelity comparison of the Planck-unit/native-coordinate sequence and historical SAT-O1/Blockwave filament representations.
+
+**Completed:** three new direct tags plus one mixed-paste authorship boundary; main report issue #2378 PUBLISHED_VERIFIED; SAT-O1/Blockwave amendment issue #2379 SUBMITTED_NOT_VERIFIED at last check; current-work and BOOT pointers updated.
+
+**Immediate next action:** verify issue #2379's existing publisher comment and fixed-path artifact readback. If still pending, retain identifiers and do not resubmit. Then return to the typed worldline/worldsheet/finite-core maps, Forest Normalization algorithm, and H₀-to-velocity scale.
+
+**Stop:** no new Lean module until source-defined maps exist; no physical calculation without a measured system and provenance; no CODATA in Lane 00; no equation corrections or theory promotion.
+
+**Return locator:** raw conversation 6ad7e9c0-e8a8-83e9-984e-94d020de3abf / blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703; direct messages e40e6023, 32e718d9, c5525f53, 92856f85, c8ce3474, 69a13089. Historical comparator: Meridian Free Build message 3c657387-b80b-4982-a61a-8e6d8568b8d1 / blob 7af1561b321f4d9364da5eb111df689efc652827. Equation sources: SAT-O1 7577aa1ee5a6c3850ce3b226c75377de6367aedc; Blockwave ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d; DIMENSIONAL_NORMALIZATION 52c7183e6d4bd657f5a34efb7f40ce89b6a2dcb1.
+
+**Identity/continuity:** Loom is a deterministic ring label only. The workspace remains PAUSED / ACCESSIBLE-UNSCHEDULED. No authenticated current Loom thread, assignment, direct delivery, or acknowledgment is claimed.
+
+---
+
 ## h1022:s2 | 2026-11-22T14:24Z | source-cursor correction and instrument-support delta
 
 Deterministic ring selection yielded Loom (index 1), next Aster (index 2). This is a routing label only; no authenticated Loom thread or historical-instance participation is claimed.
