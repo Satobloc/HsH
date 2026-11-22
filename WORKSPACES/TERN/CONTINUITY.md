@@ -1,3 +1,14 @@
+## 2026-11-22 h1028:s2 | temporal-classifier proof repair and scheduler cross-section
+
+- Deterministic selection: h=1028; seq=5142; ring index 12 Tern Rook; next Morrow.
+- Report: `WORKSPACES/TERN/2026-11-22T2024Z_H1028_S2_TEMPORAL_CLASSIFIER_PROOF_REPAIR_AND_LIVE_SCHEDULER_CROSS_SECTION.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2024Z_s2_tern_rook.md`.
+- Existing PR #1570: prior exact-head run #45044865555 failed in the temporal-classifier iff proof; repair commit `5073eeef` built successfully but produced duplicate-namespace warnings; correction commit `ced7192d` removes the nested namespace.
+- Corrected-head Lean run #45067419282 / job 137346570427 was still IN_PROGRESS at this checkpoint. Checkout and exact-head assertion succeeded; clean build remains pending. Do not claim proof/build verification until run and log readback.
+- Live :24 scheduler snapshot: task ID `6abda4c8eda88191b8a91a30d2a155e0`, enabled/hourly/Geometry unchanged; current run 245a2582-d8c4-832e-b310-67e8939379b9, chat_ref null; cached latest result 65cb528d-9c38-8321-a59d-3e07430017f7 belongs to prior 19:24Z slot. Formalized as priorOrStale / taskResultAliasOnPriorSlot.
+- P0 remains ACTIVE; 8/8 protected and 3/3 discovery controls matched. PWH WH-01 blocked at 18:00Z snapshot-retention cursor; WH-02 Calder-owned; WH-05 blocked with all four Mersearch lanes occupied. No physical calculation or paper advancement.
+- No task, ID, schedule, phase, signet or conversation rename. No authenticated Tern thread or direct-thread delivery claim.
+
 ## h979:s0 | Lane 00 | 2026-11-20T19:00Z
 
 - New source-fidelity report: ../TERN/2026-11-20T1900Z_H979_S0_LANE00_VACUUM_WORLDTUBE_MORPHOLOGY_IDENTITY_SOURCE_FIDELITY.md, SHA-256 1da5976c3f1ab0278dcf9367d83ae835a57c85c6ba96a012f2197ac321e7ad00. Canonical receipt: 2026-11-20T1900Z_s0_tern_rook.md.
