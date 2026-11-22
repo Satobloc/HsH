@@ -41,7 +41,7 @@ The following are speaker-labeled transcript statements, not independently authe
 | 6751-6757 | A self-similar embedding is affirmed; the proposed contour-integral-memory interpretation is not settled | Direct-labeled structural preference plus unresolved definition |
 | 6761-6769 | Classical dynamics are largely emergent/coarse-grained; any holonomic residual should be evaluated after ordinary scale-dependent physics rather than presumed | Direct-labeled ordering/conditionality |
 | 6774-6786 | Physical degrees of freedom and scale-dependent forces require explicit geometric argument | Direct-labeled demand for derivation |
-| 6792-6805 | He-3 cross-scale braid-order structure is asserted as a possibility/necessity under the SAT assumptions, but the geometric interaction relation is not supplied | Direct-labeled conjectural commitment, not derivation |
+| 6792-6805 | He-3 cross-scale braid-order structure is asserted as required under the SAT assumptions, but the geometric interaction relation is not supplied | Direct-labeled conjectural commitment, not derivation |
 | 6809-6813 | Do not add new operators unless they are forced as necessary consequences | Direct-labeled methodological constraint |
 | 6868-6877 | Expectation is insufficient; establish logical necessity from first principles | Direct-labeled proof requirement |
 
