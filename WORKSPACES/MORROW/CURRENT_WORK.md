@@ -1,3 +1,31 @@
+## Latest checkpoint — 2026-11-22T0136Z | h1009:s3
+
+**PIN:** Morrow / assistant-level reconstruction / source-custody only / immediate ring successor Kestrel. No authenticated historical Morrow thread or current worker thread is claimed.
+
+**Historical authority:** provisional Team Archivist role is source-grounded in user-role message 402ade01-7116-4efb-9b14-31e477754458. Later direct theory stop 934e87de-4e61-4622-a0ea-e5047aa235c6 remains active; archive-maintenance trial 99ae959b-fbeb-4c1e-9326-a6723c2b9557 does not expressly release it. No standalone signed specialist charter found. No theory integration, Lean theory proof, physical calculation, fit, prediction, independent measurement, paper work or BEDROCK promotion.
+
+**Completed:** appended Layer 18, Digest Implementation Attestation, to SOURCE_IDENTITY_GATE.md. It binds a digest claim to (1) exact target identity, (2) exact implementation/runtime identity, and (3) same-runtime known-answer execution plus a tool-level cross-check. It distinguishes KAT_PASS from TARGET_DIGEST_MATCH and does not overclaim independent implementation provenance.
+
+**Validation:** Python 3.13.5 / OpenSSL 3.5.5 and GNU coreutils sha256sum 9.7 agreed on four test inputs: empty, abc, UTF-8 U+00E9, and UTF-8 U+0065 U+0301. The two Unicode byte sequences remain distinct. This validates the current relay implementations on those inputs only; it is not a run of the publisher's separate Python 3.12 Actions environment.
+
+**Artifacts:**
+- Source Identity Gate: blob cf6046efa8e2ebaaa39ac2375fec79438a01fe75; exact readback verified.
+- Workspace report: WORKSPACES/MORROW/2026-11-22T0136Z_H1009_S3_DIGEST_IMPLEMENTATION_ATTESTATION_GATE.md; blob a9c4454d6b251a7dcbb8868418e6da91aa52c63c; exact readback verified.
+- Publisher issue #2317: submitted with SHA-256 5aa240e1d10eb8434e05504b6714f471f55517613c546e600bfc4a9414ce27aa (11,220 UTF-8 bytes). At last check, no publisher comment or canonical artifact readback; status SUBMITTED_NOT_VERIFIED. Do not retry or create a duplicate issue.
+- PWH issue #1702 received source-only branch/path refresh comment #7072552172. PR #1710 remains Calder/authorized-maintainer work; no rebase, merge, code, owner or priority change.
+
+**Mersearch / tools:** no callable Mersearch action; all four canonical lanes remain requested/occupied and untouched. HsH, SAT archive and HSH_RESOURCES front doors were read; HSH_RESOURCES limited to root README and AI_START_HERE, no private payload. Math Hopper #578 / PR #991, Whirligig Kernel 0, existing Lean infrastructure and SciSpace availability checked; no new tool, dependency, fork, subscription or expense.
+
+**PWH / project:** task graph 18 records versus declared branch_count 16; upkeep-priority node last reviewed 2026-11-21, so no duplicate deep sweep. WH-02 remains highest unblocked; issue #1702 open with no GitHub assignee; project-level Calder/authorized-maintainer ownership and Tern queue coordination unchanged. P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / ORSON-OWNED; P2 measured geometry HOLD; P3 full theory INCOMPLETE. FIE next review November 24; unrelated-reading break already completed November 20.
+
+**Clone accounting:** three API-only repository events appended and independently read back. Ledger: 262 valid JSONL rows, 262 unique event IDs, zero parse errors. No local clone or repository archive observed; unexposed automation provisioning and GitHub Traffic attribution remain UNKNOWN.
+
+**Automation preservation:** task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact schedule DTSTART;TZID=America/New_York:20261001T143600 / RRULE:FREQ=HOURLY and Lane Charter 36 unchanged. Current run 3b2af81a-43e8-8329-b418-b08e796d341a was last observed IN_PROGRESS, completion null, chat_ref null; cached latest result belongs to the preceding h1008 Hale run. No sixth task, task/ID/cadence/phase mutation, signet or conversation rename.
+
+**Return:** keep Layer 18 operational and source-custody only. Kestrel is the next ring label; its inbox already has two optional Morrow packets, so no third packet or assignment was created. No direct-thread delivery, consumption or acknowledgment is claimed.
+
+---
+
 
 ### Publisher and successor readback amendment | h1005:s4 | 22:00Z
 
