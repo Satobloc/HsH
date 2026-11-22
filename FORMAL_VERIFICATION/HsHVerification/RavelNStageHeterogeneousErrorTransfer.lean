@@ -225,82 +225,38 @@ theorem errorBudget_eq_stagewiseErrorBudget :
     end-to-end model-chain error bounds plus twice the observation tolerance.
     The bounds may be instantiated with `errorBudget` from separate finite
     projection chains; this theorem supplies no empirical values. -/
-def sharedObservationSeparationThreshold
-    (chainErrorH chainErrorS observationTolerance : ℝ) : ℝ :=
-  chainErrorH + chainErrorS + 2 * observationTolerance
 
-theorem commonObservation_bounds_exactPredictionSeparation
-    {Y : Type*} [PseudoMetricSpace Y]
-    (predictionH predictionS approximateH approximateS observation : Y)
-    (chainErrorH chainErrorS observationTolerance : ℝ)
-    (hChainH : dist predictionH approximateH ≤ chainErrorH)
-    (hChainS : dist predictionS approximateS ≤ chainErrorS)
-    (hObservationH : dist observation approximateH ≤ observationTolerance)
-    (hObservationS : dist observation approximateS ≤ observationTolerance) :
-    dist predictionH predictionS ≤
-      sharedObservationSeparationThreshold
-        chainErrorH chainErrorS observationTolerance := by
-  have hObservationH' :
-      dist approximateH observation ≤ observationTolerance := by
-    simpa [dist_comm] using hObservationH
-  have hChainS' :
-      dist approximateS predictionS ≤ chainErrorS := by
-    simpa [dist_comm] using hChainS
-  calc
-    dist predictionH predictionS ≤
-        dist predictionH approximateH + dist approximateH predictionS :=
-      dist_triangle predictionH approximateH predictionS
-    _ ≤ chainErrorH +
-        (dist approximateH observation + dist observation predictionS) :=
-      add_le_add hChainH (dist_triangle approximateH observation predictionS)
-    _ ≤ chainErrorH +
-        (observationTolerance +
-          (dist observation approximateS + dist approximateS predictionS)) := by
-      exact add_le_add_left
-        (add_le_add hObservationH'
-          (dist_triangle observation approximateS predictionS))
-        chainErrorH
-    _ ≤ chainErrorH +
-        (observationTolerance +
-          (observationTolerance + chainErrorS)) := by
-      exact add_le_add_left
-        (add_le_add_left
-          (add_le_add hObservationS hChainS')
-          observationTolerance)
-        chainErrorH
-    _ = sharedObservationSeparationThreshold
-        chainErrorH chainErrorS observationTolerance := by
-      simp [sharedObservationSeparationThreshold]
-      ring
+/-- Increasing any stage's local approximation-error bound or
+    Lipschitz amplification bound cannot decrease the recursively
+    propagated finite-chain error budget. This supports sensitivity
+    triage across a representation chain; it does not supply empirical
+    values or identify which physical stage is dominant. -/
+theorem errorBudget_monotone_under_stagewise_bound_worsening
+    (T : ∀ n, StageContract A n)
+    (hLocal :
+      ∀ n, (S n).localError ≤ (T n).localError)
+    (hLipschitz :
+      ∀ n, (S n).lipschitzConstant ≤ (T n).lipschitzConstant) :
+    ∀ n, errorBudget A S n ≤ errorBudget A T n := by
+  intro n
+  induction n with
+  | zero =>
+      simp [errorBudget]
+  | succ n ih =>
+      have hLipFactor :
+          (S n).lipschitzConstant * errorBudget A S n ≤
+            (T n).lipschitzConstant * errorBudget A S n :=
+        mul_le_mul_of_nonneg_right
+          (hLipschitz n) (errorBudget_nonneg A S n)
+      have hBudgetFactor :
+          (T n).lipschitzConstant * errorBudget A S n ≤
+            (T n).lipschitzConstant * errorBudget A T n :=
+        mul_le_mul_of_nonneg_left
+          ih (T n).nonnegLipschitz
+      have hProduct := le_trans hLipFactor hBudgetFactor
+      simpa [errorBudget] using add_le_add (hLocal n) hProduct
 
-/-- If exact model predictions are separated by more than the two
-    end-to-end chain-error bounds plus twice the observation tolerance,
-    no single observation can satisfy both approximate-model acceptance
-    conditions. This is a deterministic separation criterion, not a
-    statistical test or an empirical result. -/
-theorem separatedPredictions_forbidSharedObservation
-    {Y : Type*} [PseudoMetricSpace Y]
-    (predictionH predictionS approximateH approximateS observation : Y)
-    (chainErrorH chainErrorS observationTolerance : ℝ)
-    (hSeparated :
-      sharedObservationSeparationThreshold
-        chainErrorH chainErrorS observationTolerance <
-          dist predictionH predictionS) :
-    ¬ (dist predictionH approximateH ≤ chainErrorH ∧
-       dist predictionS approximateS ≤ chainErrorS ∧
-       dist observation approximateH ≤ observationTolerance ∧
-       dist observation approximateS ≤ observationTolerance) := by
-  intro h
-  have hBound :=
-    commonObservation_bounds_exactPredictionSeparation
-      predictionH predictionS approximateH approximateS observation
-      chainErrorH chainErrorS observationTolerance
-      h.1 h.2.1 h.2.2.1 h.2.2.2
-  linarith [hBound, hSeparated]
-
-#print axioms sharedObservationSeparationThreshold
-#print axioms commonObservation_bounds_exactPredictionSeparation
-#print axioms separatedPredictions_forbidSharedObservation
+#print axioms errorBudget_monotone_under_stagewise_bound_worsening
 
 #print axioms exactIter_preserves_admissibility
 #print axioms approximateIter_preserves_admissibility
