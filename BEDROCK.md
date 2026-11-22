@@ -3,7 +3,7 @@
 
 ### ND-2026-11-20-01 — CLONE OBSERVABILITY (P1 / MANDATORY)
 
-All repository-bearing processes must distinguish evidenced checkout/materialization events, observed GitHub Traffic clones, unique-cloner observations and unknown telemetry. Record event identity/time, process/run/repository/revision, evidence and uncertainty; never infer Traffic counts from checkouts or convert missing telemetry into zero. Design, retrofit and reconcile through the existing [clone ledger standard](WORKSPACES/COMMON/CLONE_LEDGER_STANDARD.md), ledger and issue #1703. Preserve exact/estimated/unknown distinctions; retrofit incrementally without disrupting work. This is operational accounting, not a theory claim.
+Repository-bearing processes distinguish checkout/materialization events, observed GitHub Traffic clones, unique-cloner observations and unknown telemetry. Record event identity/time, process/run/repository/revision, evidence and uncertainty. Never infer Traffic counts from checkouts or convert missing telemetry into zero. Use the existing [clone ledger standard](WORKSPACES/COMMON/CLONE_LEDGER_STANDARD.md), ledger and issue #1703; preserve exact/estimated/unknown distinctions and retrofit without disruption. Operational accounting only.
 
 
 ---
@@ -532,7 +532,7 @@ Use this template:
 - **Model clarification:** A SAT worldline does *not* wrap around a carrier. H(s)H extends it as a finite-core worldtube. Straight aligned tube is the conjectured ideal vacuum limit: 90° to timesheet / 0° from time normal and propagation; current BR-005 `θ₄=0` applies. Possible vacuum worldtube ocean, condensate-like organization, photon/photoneutrino traveling excitations, ER/Kerr core/ring/sheath and the cosmological origin of coil formation remain separately **TENTATIVE/OPEN**, not experimentally demonstrated.
 - **Historical prior-art note (superseded 2026-11-21):** The former blanket exclusion was lifted in stages. Nathan's 2026-11-21 Direct now removes the remaining prior-art quarantine. Preserve internal-first provenance, chronology and critical comparison. Access does not imply endorsement, adoption or premise authority; independent privacy, exposure, publication and access restrictions remain.
 - **Source:** [Nathan-direct scope/routing note](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md). Underlying signed user message is controlling; this entry is an indexed summary.
-- **Updates:** supersedes section 8's blanket `PRIOR_ART` prohibition *only in the above limited scholarly sense*; modifies ND-2026-10-09-01 and OC-002; preserves BR-000/001 ancestry. No physical claim is promoted by this document.
+- **Updates:** the 2026-11-21 Nathan Direct removes the remaining blanket/source-class quarantine; internal-first provenance remains. No physical claim is promoted.
 
 Nathan Direct changes should be recorded conspicuously and then propagated to affected entries without deleting the superseded state.
 
@@ -667,7 +667,7 @@ These links are intentionally status-separated from the foundational section. Th
 - **HsH:** current public H(s)H working/archive environment and this control surface.
 - **HSH_RESOURCES / permitted RESOURCES:** active supporting material; not generally quarantined.
 - **Toolkit:** active mathematical resource library for H(s)H work.
-- **PRIOR_ART:** open to research under the 2026-11-21 Nathan Direct override. Preserve internal-first provenance and careful comparison. Independent privacy, exposure, publication and source-access controls remain in force.
+- **PRIOR_ART:** open to research, including sources formerly covered by blanket/source-class exclusions. Preserve internal-first provenance and comparison; independent privacy, exposure, publication and access controls remain.
 
 ---
 
