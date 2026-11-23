@@ -38,7 +38,7 @@ structure RouteObservation (WorkerLabel AutomationId NominalHour : Type) where
 /-- Identity payload kept separate from routing metadata. -/
 structure AgentIdentity (ThreadId InstanceId ModelVersion RunId : Type) where
   thread : ThreadId
-  instance : InstanceId
+  modelInstance : InstanceId
   modelVersion : ModelVersion
   run : RunId
 
