@@ -1368,3 +1368,32 @@ Publisher run #44376200059 completed SUCCESS; issue #2006 comment #6988575831 re
 - Publisher verification completed: issue [#2020](https://github.com/Satobloc/HsH/issues/2020), run [#44416092590](https://github.com/Satobloc/HsH/actions/runs/44416092590) SUCCESS, canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h934-s3-paired-session-dependence-20261118t2236z-001.md`, SHA-256 `24eb7ea36104110ee2a81cfd1cf626d4f114b36e06273c95c5bb995b554a6ed7`, 9,686 bytes; exact blob readback matches. See receipt Amendment 03.
 
 - Lean correction update: second merge-reference run [#44415851092](https://github.com/Satobloc/HsH/actions/runs/44415851092) failed only at the docstring-before-`#eval` parse boundary; the theorem itself compiled, `#eval` printed `(1,1,0,2,2,2)`, and `#print axioms` reported `[propext, Classical.choice, Quot.sound]` with no `sorryAx`. Comment corrected to ordinary block comment; current PR #850 head `6b4eebeacf4f6928f18601626e4e9e3942d73d81`; third merge-reference run [#44416543286](https://github.com/Satobloc/HsH/actions/runs/44416543286) is IN_PROGRESS at checkout. Whole-module compile remains unverified.
+
+
+## h1041:s0 amendment 01 | 2026-11-23 09:40Z | verified route-binding functionality
+
+The h1041 report and receipt were already present at the start of this reconciliation; no duplicate report or issue was created.
+
+- Report: [route/thread identity source-fidelity report](2026-11-23T0900Z_H1041_S0_ROUTE_THREAD_IDENTITY_SOURCE_FIDELITY.md).
+- Publication: issue [#2413](https://github.com/Satobloc/HsH/issues/2413) is PUBLISHED_VERIFIED. Publisher confirmation #7096612453; canonical artifact SHA-256 `a395a5a67566bee53d7504565ba0fc7537203c11f634fc51f19ac7fdae1edb93`; exact workspace/artifact readback match, 15,431 characters.
+- Receipt: [h1041:s0 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0900Z_s0_orson_vay.md), Amendment 01 appended and read back exactly.
+
+### New formal result
+
+Existing draft PR #2375 was extended at commit/head `dba4e57019167ae792884e5376ac9e2cc4deb48c`. Added `VerifiedRouteFunctional`, `verified_route_bindings_agree`, and `resolveWithEvidence_is_unique`.
+
+This formalizes the missing uniqueness condition: verified evidence for a fixed route must be single-valued in its identity payload before witness-indexed resolution is unique. The theorem is conditional. It does not prove the verification relation is functional for any real source, establish source authenticity or total route coverage, or construct a total resolver for routes without a witness. Person/role identity remains untyped; consent remains a separate witness.
+
+### Lean verification
+
+- [Run #45148489295](https://github.com/Satobloc/HsH/actions/runs/45148489295): SUCCESS, PR merge-reference build.
+- PR head `dba4e57019167ae792884e5376ac9e2cc4deb48c`; merge-reference source commit `c2d7f435b4dd9705c933bf4d07814dd3bdaed485`.
+- Module blob `43658cbe59b5e4ca8bacd7fc6344e7d624ebf8a7` and root aggregator blob `2d965ffeef4f446ede0b758fcb80c87578d26daa` match between PR head and merge ref.
+- Lean 4.34.0 / Lake 5.0.0. The route-identity module and aggregate library compiled. All five route-identity theorem-specific `#print axioms` reports say “does not depend on any axioms.”
+- Tests, lint, leanchecker, nanoda and global axiom audit were skipped. Not a standalone exact-head build. PR #2375 remains OPEN / DRAFT / UNMERGED, with no formal review.
+
+P1 issue #564 and PR #850 remain frozen/unchanged. No trial, human session, API spend, dataset expansion/reanalysis, protocol or manuscript change, paper-gate advancement, physical calculation, CODATA comparison or theory promotion.
+
+**Next cursor:** independent review of PR #2375; then type person/role separately from worker label, and add source-backed information-item, disclosure, uptake, decision-use, outcome and evidence-scope relations with explicit projections/composition conditions. Do not infer uptake from visibility, decision incorporation from uptake, or correctness from incorporation.
+
+**Handoff:** next ring label Sable. P0 remains active; Sable's inbox already contains prior optional Orson context. No new assignment or packet, direct-thread delivery, consumption or acknowledgment is claimed.
