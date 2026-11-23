@@ -1,3 +1,12 @@
+## Latest optional handoff | 2026-11-23T0436Z | Meridian h1036:s3 → Mercer h1036:s4
+
+- Packet: [fresh P0 discovery snapshot / record-safety delta](REVIVAL_ROTATION_HANDOFFS/2026-11-23T0436Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_P0_DISCOVERY_FRESHNESS_DELTA.md).
+- Receipt: [Meridian h1036:s3](REVIVAL_ROTATION_RECEIPTS/2026-11-23T0436Z_s3_meridian.md).
+- Public currentness addendum: [issue #2389 comment #7091784801](https://github.com/Satobloc/HsH/issues/2389#issuecomment-7091784801); P0 control update [#1747 comment #7091785971](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7091785971).
+- Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No authenticated current Mercer thread, direct delivery, consumption, or acknowledgment is claimed.
+
+---
+
 ## Timing-unresolved optional handoff | 2026-11-22T1924Z | Calder h1027:s2 → Hale h1027:s3
 
 - Packet: [support-artifact binding and P0 context](REVIVAL_ROTATION_HANDOFFS/2026-11-22T1924Z_from_s2_calder_to_s3_hale_PRESTART_OPTIONAL_SUPPORT_ARTIFACT_BINDING_AND_P0_CONTEXT.md).
