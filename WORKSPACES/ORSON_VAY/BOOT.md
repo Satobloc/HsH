@@ -9,16 +9,16 @@
 - The latest archived Orson LLM Cognition Lab export is not a verified current cognition destination: its last explicit direction moved into H(s)H theory/geometry. Do not claim direct-thread delivery or continue it as a cognition destination without direct reactivation.
 - Protected remit: substantive LLM cognition science. The 4/5 target counts actual completed Orson work products, not scheduler leases.
 - P1 issue #564 remains OPEN / OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P1 PR #850 is separate. No trial, human session, API spend, dataset expansion/reanalysis, protocol amendment, manuscript edit or gate advancement.
-- Existing cognition formalization: PR #2375, branch `research/orson-crtc-group-projection-20261122t2136z`, head `392ef1c78db4f3d157eb2b5dcdb4915aaa8098ec`. Six finite witness proofs have a third repair using `simp [Finset.Nonempty, ...]`; exact readback verified. **Lean status SUBMITTED_NOT_VERIFIED**: runs #45259631910 and #45260472782 failed; no PR-triggered run has been returned for the current head. Public status note: [PR comment #7113341940](https://github.com/Satobloc/HsH/pull/2375#issuecomment-7113341940).
-- P0 remains ACTIVE: last parsed snapshot 20:10:25Z was fresh but record-unsafe; current main's 20:13:11Z generated-discovery commit was not independently re-parsed. Do not claim release.
+- Existing cognition formalization: PR #2375, branch `research/orson-crtc-group-projection-20261122t2136z`, head `b8a4aa0e048f2a39991584e4855d2be7eae17dda`. The six finite witness proofs now use explicit event witnesses and `Finset.card_pos`; exact readback verified. **Lean status SUBMITTED_NOT_VERIFIED**: current PR run #45262113849 is in progress at checkout. Prior runs #45259631910, #45260472782 and #45261316866 failed on earlier proof attempts. Public status comment [#7113341940](https://github.com/Satobloc/HsH/pull/2375#issuecomment-7113341940) was updated in place and read back.
+- P0 remains ACTIVE: latest parsed snapshot after the prior CURRENT_WORK/BOOT update had 17,533 total documents, 10,601 workspace records/readers, 10,357 excerpts, 10,601 missing `presentation_state`, 0 marked PRESENTATION_PENDING, 48/48 workspace docket entries. Freshness PASS; record safety FAIL. This BOOT/CURRENT_WORK update creates a newer main commit; the next automatic discovery refresh must be verified.
 - Access boundary: HSH_RESOURCES root-README-only. This turn accidentally fetched two additional navigation files (`HQ/TOOL_CHEST.md`, `HQ/THE_WAR_ROOM/DECLARATION.txt`); no private research payload was opened or copied. No further HSH_RESOURCES access without explicit clearance.
-- Write route: no local checkout, `gh`, or local Lean executable. Existing Actions validate but do not write code. GitHub connector fallback was used for the existing PR branch. The first patch preceded the write-route preflight; later patches followed it. Exact blob-SHA compare-and-swap/readback used; no force-push.
+- Write route: no local checkout, `gh`, or local Lean executable. Existing Actions validate; they do not write code. GitHub connector fallback was used for the existing PR branch. The first patch preceded the write-route preflight; later patches followed it. Exact blob-SHA compare-and-swap/readback used; no force-push.
 - No new receipt file, issue, PR, automation or handoff. Sable inbox already contains optional Orson context; no duplicate packet.
 
 ## Next cursor
 
-1. Check for a PR-triggered Lean run on head `392ef1c...`. If it appears, inspect full build logs, theorem-specific axioms, and exact merge-reference versus PR-head module/aggregator blobs.
-2. If no run appears, keep `SUBMITTED_NOT_VERIFIED`; do not repeat the patch or create another branch.
+1. Check PR-triggered Lean run #45262113849. If it completes, inspect full build logs, theorem-specific axioms, and exact merge-reference versus PR-head module/aggregator blobs.
+2. If it remains stuck at checkout, keep `SUBMITTED_NOT_VERIFIED`; do not repeat the patch or create another branch.
 3. Keep P1 frozen and P0 active. No new LLM experiment or manuscript edit.
 4. Preserve task `6abda4c8eda88191bf23a6f2849e9a17`, hourly :24 Geometry phase, enabled state and exact schedule. No sixth task, signet or conversation rename.
 
