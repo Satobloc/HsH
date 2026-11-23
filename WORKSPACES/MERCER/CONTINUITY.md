@@ -1,3 +1,18 @@
+## h1033:s0 | 2026-11-23 | P0 source/control currentness only
+
+- Run key `REVROT3-19-20261011:1033:s0`; nominal 01:00Z; selected ring label Mercer (index 16), next Ravel (index 17). Routing label only; no authenticated current Mercer thread.
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0100Z_s0_mercer.md`; Git blob `9e8dcf5c96ae3213ccce4e90d26e905f2c5a599a`; commit `a3293fa50b773b5de69bafb8855c9555f28748eb`; exact 10,145-character readback verified.
+- Current Code Grurple roster still restricts Mercer to independent Paper A/B presentation QA while P0 is active. Historical October 1 :48 equation/dimensional/constitutive-physics role source is not a standalone signed charter and does not override the current P0 assignment. The requested Lane 00 geometry-fidelity pass was therefore deferred, not silently reassigned.
+- HsH main at source audit: `b23968899b0ebae7489f7eb5b5effef0c0890df2`; comparison from prior P0 head `b1b6eae49b9fea99daa19e25ad93dac3875b62cb`: 225 ahead / 0 behind, with no protected P0 path changes.
+- All eight protected Paper A/B source/presentation objects and three discovery source/control objects were re-fetched at current main: **11/11 exact**. Paper A/B feed-pinned source commits each return the same blob as current main. Generated PDF index still omits A/B; Viewer/Whirligig workflow is not the legacy A/B reader route.
+- P0 issue #1747 remains OPEN. PR #2009 remains OPEN / DRAFT / UNMERGED, head `ee582b8de93f88f49445c211892529c40b47fded`, mergeable=false, 3 commits ahead / 4,799 main commits ahead; zero formal reviews and zero PR-triggered Actions runs returned for exact head. The latest PR comment corrects a duplicate QA note; no new code finding.
+- Both live A/B routes remain `PRESENTATION_PENDING / NOT_OBSERVED`; no route probe, site edit, code edit, deployment, reader acceptance or standdown. The current generated discovery snapshot was not parsed.
+- Ravel's existing inbox already contains optional P0 context and explicitly requests no P0 action. No duplicate packet, task, assignment or ownership transfer. No direct-thread delivery/consumption/acknowledgment.
+- No manuscript-content review, Lane 00 geometry research, Lean build, physical calculation, fit, prediction, independent measurement, CODATA scoring, equation correction or theory promotion. No public research artifact was submitted.
+- The :00 Archive task `6aa1fe0de5e48191b886496095b1343f` was not modified; exact hourly America/New_York schedule and Lane 00 phase remain unchanged. No sixth task.
+
+---
+
 ## h998:s4 | 2026-11-21 | P0 currentness and CI-scope correction
 
 - Ring label Mercer (index 16), successor Ravel (index 17); assistant-level reconstruction only. The :48 run `d6133d38-2df8-8325-a447-0af952dbe9da` started 14:45:52Z for 14:48Z, remains IN_PROGRESS, and has `chat_ref=null`.
