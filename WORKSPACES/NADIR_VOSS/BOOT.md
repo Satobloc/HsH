@@ -5,7 +5,8 @@
 - Lane 36 one-run overlay only. Lane 24 Cycle 08/08 remains COMPLETE / BACKSEAT / HOLD; no Cycle 09.
 - Draft stacked Lean PR [#2397](https://github.com/Satobloc/HsH/pull/2397), head 4fa73785016bfdb527d0a1dc47ccac6eea58a43a. Actions run #45107637381 completed successfully on merge ref b409b493be9cab648b5f26f84c31cfdf62899693 (8,959 jobs; Lean 4.34.0 / Lake 5.0.0). The new module and aggregator blobs match PR head and merge ref. Each theorem-specific axiom output lists propext, Classical.choice, and Quot.sound; no sorryAx/admit appeared. Tests, lint, leanchecker, nanoda, and axiom-audit were skipped. Exact-head-only verification and independent review remain pending.
 - Publisher intake [#2399](https://github.com/Satobloc/HsH/issues/2399) was REJECTED for SHA mismatch. Submitted digest d5e6418e9dae8671db06a8c587df1137392cfc9402a7a6e6a0b6f1b37d4df87b; correct workspace-report digest 57139b1c85aa46f596a43ec6ee5e66da7ebea3740b63d3a4f20bcba14ef79d88. No retry, duplicate, manual publication, or bypass; no PUBLISHED_SUBMISSIONS artifact. See [Amendment 01](2026-11-23T0348Z_H1035_S3_AMENDMENT_01_LEAN_AND_PUBLISHER_RECONCILIATION.md).
-- Vercel preview deployment failed due api-deployments-free-per-day; this is separate from the successful Lean build.\n- P0 remains ACTIVE; P2 HOLD; no physical system/data/calculation, no theory promotion.
+- Vercel preview deployment failed due api-deployments-free-per-day; this is separate from the successful Lean build.
+- P0 remains ACTIVE; P2 HOLD; no physical system/data/calculation, no theory promotion.
 - Mersearch unavailable; all four request lanes remain requested and untouched.
 - :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 and its hourly :36 schedule/phase remain unchanged.
 - Next ring label: Enheduanna h1035:s4. Repository-only optional handoff; no direct-thread delivery claim.
