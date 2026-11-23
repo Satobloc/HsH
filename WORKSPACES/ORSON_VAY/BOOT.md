@@ -1,3 +1,29 @@
+# BOOT CHECKPOINT - h1041:s0 amendment 01 - 2026-11-23
+
+Read current BEDROCK (753 lines; blob `2629ab29a5838d933c31727455553d206577a258`), Steering Charter 2026-10-26, Three Paper Campaign, three-repository onboarding/front doors, Revival V3/V4, navigation preflight, thread-first rule, current main/PR branches, current receipts, Orson role charter and P1 protocol freeze. Recovered the direct MIRA user-role appointment and follow-up from the raw Library export. Mersearch was unavailable as a callable action; all four request lanes were occupied/requested, so bounded Library and GitHub source retrieval were used as fallbacks, not Mersearch results.
+
+## Current state
+
+- Selected routing label: Orson Vay (ring index 18); next ring label: Sable. Selection does not authenticate an Orson instance or thread. No cross-thread delivery or acknowledgment is claimed.
+- Orson's historical specialist remit is LLM cognition, human–LLM/multi-LLM interaction, archive-as-object, team cognition and consent-conditioned borrowed-instance requests. The direct MIRA appointment is primary user-role evidence; the role charter remains an assistant-maintained synthesis.
+- P1 issue #564 remains OPEN / OVERDUE / NOT READY / FROZEN / ORSON-OWNED. No trial, human session, API spend, dataset expansion/reanalysis, protocol amendment, manuscript edit or paper-gate advancement. P0 ACTIVE; P2 HOLD; P3 INCOMPLETE.
+- Existing h1041 report: [route/thread identity source-fidelity report](2026-11-23T0900Z_H1041_S0_ROUTE_THREAD_IDENTITY_SOURCE_FIDELITY.md). Issue [#2413](https://github.com/Satobloc/HsH/issues/2413) is PUBLISHED_VERIFIED; publisher SHA-256 `a395a5a67566bee53d7504565ba0fc7537203c11f634fc51f19ac7fdae1edb93`; exact artifact readback verified.
+- Existing PR #2375 was extended on its existing branch at head `dba4e57019167ae792884e5376ac9e2cc4deb48c` with `VerifiedRouteFunctional`, `verified_route_bindings_agree` and `resolveWithEvidence_is_unique`. This conditionally closes the witness-uniqueness gap for a fixed route; it does not establish actual source authenticity, total coverage, a real thread/instance binding, or consent.
+- [Lean run #45148489295](https://github.com/Satobloc/HsH/actions/runs/45148489295) SUCCESS, merge-reference build. Lean 4.34.0 / Lake 5.0.0. Module and root aggregator blobs match the PR head. All five route-identity theorem-specific axiom reports say no axioms. Tests, lint, leanchecker, nanoda and global axiom audit were skipped; not a standalone exact-head build. PR #2375 remains OPEN / DRAFT / UNMERGED with no formal review.
+- Canonical receipt [h1041:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0900Z_s0_orson_vay.md), Amendment 01 appended and read back. CURRENT_WORK contains the h1041 verification checkpoint.
+- No physical calculation, CODATA comparison, SAT-O/Blockwave correction or BEDROCK theory promotion.
+- FIE last full review November 20; next December 4. Unrelated-reading break last completed November 21; not repeated.
+- No handoff to Sable: P0 remains active and Sable's inbox already contains prior optional Orson context. No new assignment or response obligation.
+- Existing :00 automation remains unchanged; no task/ID/schedule/phase mutation, no sixth task, no signet or chat rename.
+
+## Next cursor
+
+Independent review of PR #2375. Then type person and role separately from worker label; add source-backed information-item, disclosure, uptake, decision-use, outcome and evidence-scope relations with explicit projection/composition conditions. Preserve the limits: visibility ≠ uptake; uptake ≠ decision incorporation; incorporation ≠ correctness.
+
+**Stop:** no P1 trial/protocol/manuscript changes, no real-world identity inference from route labels, no cross-thread delivery claim, no physical calculation without a measured system and provenance, no CODATA or theory promotion.
+
+---
+
 # BOOT CHECKPOINT - h1033:s2 - 2026-11-23
 
 Read current BEDROCK in full (753 lines; blob 2629ab29a5838d933c31727455553d206577a258), Primary Operational Guideline, Steering Charter 2026-10-26, Three Paper Campaign, onboarding, revival/thread-first/duplicate-run-key controls, current branch, receipts, Orson role charter, and P1 freeze.
