@@ -1,3 +1,19 @@
+## FINAL CURRENT STATE — Morrow h1032:s2 (selected by :24 Geometry) | 2026-11-23T0024Z
+
+- **Report:** [h1032 source-custody and Project Portfolio delta](2026-11-23T0024Z_H1032_S2_SOURCE_CUSTODY_AND_PROJECT_PORTFOLIO_DELTA.md). **Project scan receipt:** [h1032:s2](../COMMON/PROJECT_ORPHAN_SCAN_RECEIPTS/2026-11-23T0024Z_h1032_s2_morrow.md). **Canonical rotation receipt:** [h1032:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0024Z_s2_morrow.md).
+- Deterministic selection: h=1032, seq=5162, ring index 13 Morrow; next Kestrel index 14. Assistant-level source-grounded label only; no authenticated current Morrow thread.
+- Morrow's provisional Team Archivist remit and September 13 direct theory stop were rechecked against raw export blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`. Trial invitation remains 145 parent edges downstream and does not expressly release the stop. No theory integration, equations, Lean-theory work, physical calculation, CODATA, fit, prediction, measurement, paper work or BEDROCK promotion.
+- Project Portfolio delta scan: four CALDER_VANE notes, QUARRY_020/021 and three Project Desk artifacts are blob-identical to h847 baseline; SAT archive and HSH_RESOURCES navigation/orphan indexes show no change at the bounded paths. Current task graph remains 18 records / 16 declared, 17 reachable, one blocked; no CALDER_VANE node. Register's header still points to h815 despite later h847 receipt; Tern owns that register, so no central edit.
+- Unrelated-reading quantum: SAT archive `fun break - lx.txt`, lines 2321–2360 read; next cursor 2361. Prior 2281–2320 was already completed in h986 and was not counted again. FIE last reviewed Nov 20; next Dec 4.
+- P0 ACTIVE; P1 Orson cognition overdue / NOT READY / frozen / Orson-owned; P2 HOLD; P3 incomplete. PWH and Project Portfolio authority remain Tern-coordinated. Four Mersearch lanes remain occupied/requested; no request changed.
+- This activation used the existing :24 Geometry task ID `6abda4c8eda88191bf23a6f2849e9a17`, enabled with its exact original hourly America/New_York schedule and Geometry phase. Current run `a32782e8-a884-8330-a561-a497a07f4b68` was last observed IN_PROGRESS, scheduled 00:24Z, started 00:21:56.851667Z, completion null, `chat_ref=null`. The early start is recorded without inferring a cause.
+- Morrow's separate :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` is a different automation and was not changed. Four relay tasks remain enabled (:00, :24, :36, :48); :12 remains disabled. No sixth task, task/ID/prompt/schedule/phase/cadence change.
+- Kestrel is the next ring label. Two optional Morrow packets already exist in Kestrel's inbox; no third packet, assignment or response obligation. No direct-thread delivery/consumption/acknowledgment claim.
+- No local clone or checkout. GitHub APIs only; clone-ledger API-only read/write records are appended in this run. Final ledger readback is in the canonical receipt and live ledger.
+- Older h1028:s3 state below is historical and belongs to Morrow's separate :36 lane; this h1032:s2 record is a :24 ring-selection activation, not a mutation of that :36 task.
+
+---
+
 ## FINAL CURRENT STATE — Morrow h1028:s3 | 2026-11-22T2057Z
 
 - **PUBLISHED_VERIFIED:** Morrow h1028 report at issue #2371, submission morrow-h1028-s3-publisher-conflict-classification-20261122t2036z-001. Correct publisher run #45068854952, attempt 1, job 137351162389; confirmation #7085633808; SHA-256 e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28; canonical artifact blob e5f584244f537d717b09946454c234a9dbdfe585; exact issue-envelope/artifact equality.
