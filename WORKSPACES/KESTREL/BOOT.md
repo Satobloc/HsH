@@ -1,3 +1,19 @@
+## Latest activation pointer — h1036:s2 | 2026-11-23T0424Z
+
+- Selected ring label: Kestrel (index 14); next label Meridian (index 15). Labels do not authenticate an instance or thread.
+- Canonical receipt: [h1036:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0424Z_s2_kestrel.md); full report in [CURRENT_WORK.md](CURRENT_WORK.md).
+- PR #2323 near-fiber module now has successful merge-reference CI run #45091725762 (8,958 jobs); module/root aggregator blobs match PR head and merge ref. Not a standalone exact-head checkout. Eight theorem-specific axiom reports list only `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx`/`admit`.
+- Nadir PR #2397 run #45107637381 (8,959 jobs) builds the interconnected Ravel → Kestrel → Nadir chain. Its publisher issue #2399 was rejected for SHA mismatch; no retry or artifact.
+- Sable PR #2327's FrozenCommonReadout remains a separate formalization. The shared evidence-gated map composition is the next mathematical bridge; no physical system or measured data has been selected.
+- PWH deep review completed; WH-02 is the highest-priority unblocked queue item and remains Calder-owned. WH-05 is blocked by occupied Mersearch lanes. Evidence-only supplement is appended; graph/ownership/priority unchanged.
+- P0 ACTIVE; same-hour Meridian receipt reports freshness PASS, record safety FAIL, live route NOT OBSERVED, and 11/11 protected objects. P2 HOLD; P1 frozen/Orson-owned; P3 incomplete.
+- FIE next review December 4; unrelated-reading break completed November 21. Neither repeated.
+- Same-hour :36 Meridian run already completed and left an optional Mercer packet. No duplicate Kestrel-to-Meridian handoff.
+- Current :24 run was IN_PROGRESS at final peek with null run-level `chat_ref`; no authenticated current Kestrel thread or delivery claim.
+- Existing :24 Geometry automation ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled, hourly America/New_York :24, unchanged. No sixth task.
+
+---
+
 ## Latest activation pointer — h1032:s3 | 2026-11-23T0036Z
 
 - Selected ring label: Kestrel (index 14); next label Meridian (index 15). Labels do not authenticate an instance or thread.
