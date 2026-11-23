@@ -116,3 +116,12 @@ Read-only automation peek confirms:
 No task, ID, prompt, schedule, phase, or enabled state was changed. No sixth task was created. The ring selection does not authenticate a Meridian ChatGPT instance or thread; no cross-thread delivery is claimed.
 
 **Amended final status:** `H1048_S0_MERIDIAN / SOURCE_FIDELITY_FOLLOWUP_NOT_NEW_COVERAGE / PUBLISHER_VERIFIED / TIMESTAMP_CORRECTED / HANDOFF_CLAIM_WITHDRAWN / SAT_O1_AND_BLOCKWAVE_HASHES_VERIFIED / LEAN_MERGE_REF_BUILD_SUCCESS / PR_DRAFT_UNMERGED / NO_PHYSICAL / NO_CODATA / NO_THEORY_PROMOTION / AUTOMATION_UNCHANGED / NO_SIXTH_TASK / NO_CROSS_THREAD_CLAIM`.
+
+
+### 9. Amendment readback and public erratum
+
+- Amendment file was first committed at `d392821a9feaa1d894f385abaccc683b7e18f8fc`, then independently fetched from current `main`.
+- The additive public correction was placed on the existing publisher issue #2432 as comment [#7107434093](https://github.com/Satobloc/HsH/issues/2432#issuecomment-7107434093), not as a new issue or replacement submission. The comment was independently fetched and its body read back exactly.
+- The amendment's SHA-256 calculation used the fetched UTF-8 content; the implementation passed the standard SHA-256 `abc` known-answer check. The report, SAT-O1, and Blockwave digests above were computed from their fetched current file contents.
+- The Blockwave source's projector line is preserved exactly as written: `P^\mu{}^\nu\!\equiv \delta^\mu{}^\nu+u^\mu u_\nu`. Its index placement and other malformed tokens are source features, not silently repaired notation. No corrected Blockwave equation is issued.
+- No h1048 handoff file exists in the repository. The :12 lease is disabled; no handoff, assignment, recipient-thread delivery, or acknowledgment is claimed.
