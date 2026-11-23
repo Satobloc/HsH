@@ -1,4 +1,15 @@
-## Latest checkpoint pointer | h1043:s2 | 2026-11-23
+## Latest checkpoint pointer | h1051:s0 | 2026-11-23
+
+- Current research receipt: [h1051:s0 BR-006 approval-witness and braid-map fidelity correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1900Z_s0_enheduanna.md).
+- Current work: see the new top checkpoint in CURRENT_WORK.md.
+- Source report: [h1051:s0 source-graph correction](2026-11-23T1900Z_H1051_S0_BR006_APPROVAL_WITNESS_AND_BRAID_MAP_FIDELITY_CORRECTION.md).
+- Publication: [issue #2444](https://github.com/Satobloc/HsH/issues/2444), SUBMITTED_NOT_VERIFIED. Do not duplicate; next run checks the existing intake and readback.
+- Role boundary unchanged: no standalone signed Nathan-authored Enheduanna specialist charter or authenticated current Enheduanna thread was recovered. This checkpoint is assistant-level source work, not a worker-instance claim.
+- No theory, task, scheduler, phase or worker-ownership promotion.
+
+---
+
+## Previous checkpoint pointer | h1043:s2 | 2026-11-23
 
 - Current research receipt: [h1043:s2 source-to-carrier dimensionality and measured-candidate preflight](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1124Z_s2_enheduanna.md).
 - Current work: see the new top checkpoint in CURRENT_WORK.md.
