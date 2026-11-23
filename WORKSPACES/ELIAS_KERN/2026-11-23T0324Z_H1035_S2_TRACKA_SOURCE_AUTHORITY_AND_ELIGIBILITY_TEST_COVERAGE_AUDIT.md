@@ -116,8 +116,8 @@ Status remains TRACK_B_DISPOSITION_NOT_OBSERVED / PENDING. No review request, ta
 
 Live front doors checked:
 - HsH main at d30a36d9b687eddc8e9b029fb9093e30cbb351d9.
-- SAT archive main at d10ddf4d... .
-- HSH_RESOURCES main at e86d2b4... .
+- SAT archive main at d10dd333f2487054807bda398995300c538caa7e.
+- HSH_RESOURCES main at e86d2b139af70dc01e79a123ca8487d7b1b0237b.
 
 HsH BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, onboarding, Revival V3, thread routing, V4 not-found revival, navigation preflight, workflow control, autonomy/handoff protocol, no-renaming policy, Reference Desk, Mersearch Worker Start Here, Mersearch Releases, and current workflow orientation were read.
 
@@ -150,11 +150,11 @@ Existing :24 task:
 - Current run b090e874-0a60-8329-9bed-0f1a6a3cf879, scheduled 03:24Z, started 03:21:06.947058Z, last observed IN_PROGRESS, completed_at=null, chat_ref=null.
 - Cached latest_result is prior run 68f509f4-6c18-8332-b015-6458f964aa64; it is not this current run.
 
-The preceding :00 Calder run b1035:s0 (run 8c6509e0-343c-8322-bcba-6ff67bc76f67) was IN_PROGRESS at latest peek, with chat_ref=null. No addressed predecessor packet for Elias was found.
+The preceding :00 Calder run h1035:s0 (run 8c6509e0-343c-8322-bcba-6ff67bc76f67) was IN_PROGRESS at latest peek, with chat_ref=null. No addressed predecessor packet for Elias was found.
 
 Next is Nadir Voss, h1035:s3. His inbox already contains Elias h993 optional Hydra context and Nadir h1016 optional readout-binding context. No new packet was added because this run produced no Nadir-specific action and the existing optional context should not be stacked. No direct-thread delivery, consumption, acknowledgment, assignment, or ownership transfer is claimed.
 
-No task, ID, schedule, phase, enabled state, prompt, or cadence was changed. Four existing relay tasks remain; no sixth task.
+No repository checkout or materialization occurred, so no clone-ledger row was added. No task, ID, schedule, phase, enabled state, prompt, or cadence was changed. Four existing relay tasks remain; no sixth task.
 
 ## 10. TICK / TOCK
 
