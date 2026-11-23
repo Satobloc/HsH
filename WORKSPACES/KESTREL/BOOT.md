@@ -4,7 +4,9 @@ Assistant-level source-grounded repository record under the Kestrel routing labe
 
 - Run key: REVROT3-19-20261011:1051:s3
 - Report: WORKSPACES/KESTREL/2026-11-23T1936Z_H1051_S3_SPATIAL_RETURN_UNWRAPPED_PROPER_TIME.md
-- Publisher issue: #2445, SUBMITTED_NOT_VERIFIED; publisher comment not yet observed at amendment
+- Publisher issue: [#2445](https://github.com/Satobloc/HsH/issues/2445), PUBLISHED_VERIFIED; publisher confirmation #7112317787 at 19:56:03Z; SHA-256 `5facfbd02ae05f259800a1a86c0a967acd81c59aa5cf518a3d99c2a2e4a30598`.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1936Z_s3_kestrel.md`.
+- Duplicate-run reconciliation: invocation at 19:59:25Z found substantive work already complete; no duplicate report, PR, issue, build, or publisher submission.
 - Lean child PR: #2441, draft/open, base infra/lean4-verification-20261023, head 9d75fa18de5221f601c03bdef57ca70e44d32855; run #45252994322 SUCCESS; exact-head assertion PASS; Lean 4.34.0 / Lake 5.0.0; 8,948 jobs
 - Current main preflight: 46ec103b46336cfea5ae46478d8308e965134ddd; report commit: 5ad366d785666cff7b44ac261ef8d05e47be8fe8
 - Current architectural gate: distinguish periodic spatial return on C from event return under strictly advancing proper time. Candidate representation uses periodic w and an unwrapped proper-time parameter; not a physical conclusion.
