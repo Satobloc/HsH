@@ -29,6 +29,8 @@ worldline encoding or a bridge between physical theories.
 
 namespace HsHVerification.CalderDirectPhaseClosure
 
+noncomputable section
+
 variable {ι : Type*} [Fintype ι]
 
 /-- The first real component of the source's finite phase-balance pair. -/
@@ -72,5 +74,7 @@ theorem sourcePair_iff_complexClosure
 
 #print axioms sourcePair_iff_vectorClosure
 #print axioms sourcePair_iff_complexClosure
+
+end
 
 end HsHVerification.CalderDirectPhaseClosure
