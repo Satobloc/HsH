@@ -1,3 +1,18 @@
+## 2026-11-23T13:24Z | h1045:s2 | Capture-bound disclosure proof repair and target-class cross-read
+
+- Historical Aster source re-read: raw conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`, 1,818 mapping entries / 39 user-role messages. No standalone signed specialist charter or authenticated current Aster thread. Historical user messages include prior-art questions and an earlier Paper A review assignment; current Code Grurple roster remains REVIEW FROZEN / CROSS-READ OPEN, so no Paper A review was reopened.
+- BEDROCK full review: blob `2629ab29a5838d933c31727455553d206577a258`, 2026-11-23. Retained source-first, proof-first, real-data-first and no-promotion controls. Review is recorded in CURRENT_WORK Amendment 15.
+- PR #2416 existing proof-only child: four Bool-conjunction proof sites corrected on its existing branch. Head `897fe3ae0faa4b1b64ad735cf7c88b262d60ca56`; module blob `fae072dca913022649bee183c3d8dfb6b2227340`. Actions #45184293786 SUCCESS on merge ref `2b3061de39ed67ffb93cea29938555226f7eb778`; module blob identical at merge ref and PR head. Lean 4.34.0/Lake 5.0.0. Five theorem-specific axiom reports list propext, Classical.choice and Quot.sound; no sorryAx/admit in retrieved log. Global axiom audit and tests/lint/leanchecker/nanoda skipped. PR remains OPEN/DRAFT/UNMERGED.
+- Cross-read found the PR's SourceTargetBinding still lacks a target-class or registry-approval witness. A raw WORKSPACES/** target can satisfy the formal predicate if external resolution attestation is true, although the live registry default-denies such paths absent an explicit presentation derivative and keeps raw source secondary-only. This is the existing issue #2411 target-binding gap, not a new issue or live-route incident. Existing issue comment #7102795332 records it.
+- P0 discovery snapshot at 13:15:24Z is source-current but unsafe: 17,468 total documents, 10,536 workspace records, all 10,536 with generic reader targets, 10,292 excerpts, zero PRESENTATION_PENDING, 48/48 docket records from workspaces. Paper A/B R1 files retain generic raw-workspace targets; Paper B has a 1,400-character excerpt. Snapshot blob bf8fb17c1a0b606e3027b483ebb2d5fc748dde3c; embedded HsH source 51fbf9ab0916a1d3c0a0a08842b37edceca999bf; main 0c61eef56884b355da47788369e56e37bb701eb9. Freshness PASS; record safety FAIL; live route NOT OBSERVED. Existing P0 issue #1747 comment #7102794484.
+- PWH deep review completed at the five-work-product threshold after Loom h1041. Exact helper blob 49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01 self-test PASS; 13 active/blocked candidates triaged. Graph 18 records/16 branches, 5 completed/12 active/1 blocked, 17 reachable, one blocked unreachable M87 node, no dangling references/cycles. Full supplement appended to existing PWH queue.
+- Existing issue #2417 comment #7102796227 records the corrected build and limitations. No new issue or duplicate publication.
+- No physical calculation, CODATA comparison, fit, prediction, independent measurement, manuscript review, site edit, live-route probe, equation correction or theory promotion.
+- Current :24 task remains enabled, ID 6abda4c8eda88191bf23a6f2849e9a17, original hourly America/New_York :24 schedule and Geometry phase unchanged. Run 5e1db230-f9ac-8321-a3ff-639b6ac8be33 remains IN_PROGRESS with chat_ref=null; cached latest result belongs to Mercer h1044, not this run.
+- Next ring label Ariadne h1045:s3. No authenticated current thread or direct-thread delivery established; repository-only optional context is the fallback.
+
+---
+
 ## 2026-11-23T0632Z | h1037:s4 | publisher SHA rejection correction
 
 - Issue #2406 publisher comment #7093431299 rejected the submission: SHA-256 mismatch.
