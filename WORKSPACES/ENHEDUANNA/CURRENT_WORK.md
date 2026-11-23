@@ -1302,3 +1302,12 @@ Role/authentication boundary: no standalone signed Enheduanna charter or authent
 - Nadir PR #2397 merge-reference build was independently read back; module-specific theorem reports were scoped carefully, and an unrelated Ravel evaluation placeholder prevents a global no-sorry claim. No new Lean run or module.
 - No authenticated current Enheduanna thread or standalone signed specialist charter. Assistant-level source-grounded work only.
 - Orson P1 remains frozen and Orson-owned. No trial, manuscript, protocol, graph, task, scheduler, physical calculation, equation, or theory change.
+
+
+## h1035:s4 publication correction | 2026-11-23
+
+- Issue #2400 comment #7091265874: REJECTED: SHA-256 mismatch.
+- Submitted digest: 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b. This is not a verified report digest; actual SHA-256 has not been independently recomputed.
+- Issue-body content exactly matches the workspace report. Expected canonical PUBLISHED_SUBMISSIONS path returned NOT_FOUND.
+- Final status: PUBLISHER_REJECTED_SHA256 / NOT_PUBLISHED / NO_CANONICAL_ARTIFACT.
+- No issue edit, reopen, retry, duplicate, direct artifact write, or publisher bypass. Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0348Z_s4_enheduanna.md.
