@@ -1,3 +1,15 @@
+# Latest Morrow revival pointer — h1047:s3 | 2026-11-23
+
+- Current run: source-inventory snapshot-binding crosswalk; see [CURRENT_WORK.md](CURRENT_WORK.md) and [issue #2429](https://github.com/Satobloc/HsH/issues/2429).
+- Durable method update: [Source Identity Gate, Layer 8 applied witness 02](SOURCE_IDENTITY_GATE.md).
+- Public PR coordination: [PR #2222 comment #7106028447](https://github.com/Satobloc/HsH/pull/2222#issuecomment-7106028447).
+- Status: `SAMPLER_SUMMARY_NOT_SNAPSHOT_BOUND / ORCHESTRATOR_MANIFEST_UNVERIFIED / PUBLISHED_VERIFIED`; publisher confirmation #7106064624, artifact SHA-256 `504e0ed5c106f8de2e8b15f55bd1da424cd31d99a2a07ae6400a10b3de4873ac`.
+- Morrow remains provisional Team Archivist/source-custody only; September 13 direct theory stop remains. No authenticated current Morrow thread or cross-thread delivery is claimed.
+- Next deterministic label: Kestrel. Existing Kestrel inbox already contains two optional Morrow packets; no third packet or assignment.
+- No HSH_RESOURCES payload access, theory work, physical calculations, task/scheduler changes, or sixth task.
+
+---
+
 ## Current status | 2026-11-23 | h1043:s4 same-slot recheck
 
 The published h1043:s4 Dashboard QA remains canonical at [issue #2423](https://github.com/Satobloc/HsH/issues/2423), `PUBLISHED_VERIFIED`. The SAT Dashboard is unchanged at blob `aed95d506e6d1be8be965c77903e4c2ff6833b3d`; OP-01 remains PARTIAL / RETOOLED and Tern-coordinated.
