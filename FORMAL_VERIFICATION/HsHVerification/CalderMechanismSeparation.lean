@@ -99,12 +99,11 @@ theorem aggregate_readout_collision
     (⟨a, b, c⟩ : ThreeChannelReadout) ≠ ⟨a + delta, b - delta, c⟩ := by
   constructor
   · simp [aggregateReadout]
-    ring
   · intro h
     have hfirst := congrArg ThreeChannelReadout.first h
     dsimp at hfirst
-    apply hdelta
-    linarith
+    have hzero : delta = 0 := by linarith
+    exact hdelta hzero
 
 end HsHVerification.CalderMechanismSeparation
 
