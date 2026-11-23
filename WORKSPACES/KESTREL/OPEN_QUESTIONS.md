@@ -428,3 +428,14 @@ Keep electron ground-state dynamics, helion static charge structure and superflu
 ## 2026-11-21 h994:s3 operational correction
 
 Publisher issue #2272 was rejected for SHA-256 mismatch. The issue body content exactly matches the workspace report, but the submitted digest is invalid and no correct SHA-256 was verified in this run. Do not edit, retry or duplicate issue #2272. Any future publisher attempt must use an independently verified SHA-256 implementation and a new authorized decision, not a silent replay of this submission.
+
+
+## 2026-11-23 h1044:s0 | Direct Crullerverse source narrows, does not close, the geometry question
+
+A raw user-role message from the November 8 ND Workshop Relay :24 | Geometry export (message c0520975-02a0-408f-a250-364b88ab7b30) specifies a tentative four-spatial-dimensional Crullerverse: w is spatial, time proper is distinct, worldtubes are proposed roughly parallel to toroidal circumference C, and the timesheet may be a separate cross-sectional structure, an intersection with a Kerr-ER mouth, or an emergent temporon wavefront on a continuous worldtube. These alternatives remain separate.
+
+This source sharpens the existing Klein-Fabric question but does not define the global topology or local-to-global maps. It also requires keeping the September 21 “apply Minkowski, discard labels” instruction as a comparison method rather than silently treating the 2025 R^(3,1) formalization as the Crullerverse ontology.
+
+New crosswalk: [H1044:s0 Crullerverse and SAT4D type-fidelity report](2026-11-23T1200Z_H1044_S0_CRULLERVERSE_W_TIME_PROPER_SAT4D_TYPE_FIDELITY.md). Existing Lean PR #873 supplies conditional metric and intersection results; no source-faithful thickening, coordinate, mouth/timesheet, or 3D-to-4D lift map is yet available.
+
+Next: define M4_sp, proper-time parameterization, C, Sigma_tau, gamma^1 -> T^4, boundary, and the chosen or still-open mouth relation. Recover the line-information Reddit post and worldtube/wormhole podcast source only when a Mersearch lane becomes available.
