@@ -1,3 +1,20 @@
+## 2026-11-23T1936Z | h1051:s3 | Spatial return versus proper-time return
+
+Assistant-level, source-grounded repository contribution under the Kestrel routing label; not an authenticated Kestrel thread or worker activation.
+
+- Report: WORKSPACES/KESTREL/2026-11-23T1936Z_H1051_S3_SPATIAL_RETURN_UNWRAPPED_PROPER_TIME.md
+- Publisher intake: https://github.com/Satobloc/HsH/issues/2445 (SUBMITTED_NOT_VERIFIED at checkpoint)
+- Conditional Lean module: PR #2441, head 9d75fa18de5221f601c03bdef57ca70e44d32855; Actions run #45252994322 IN_PROGRESS at checkpoint
+- Main branch preflight: 46ec103b46336cfea5ae46478d8308e965134ddd; report commit: 5ad366d785666cff7b44ac261ef8d05e47be8fe8
+- Main finding: a periodic spatial return on C can coexist with strictly advancing proper time only if proper time is not a single-valued real scalar on the compact coordinate. An unwrapped parameter on a covering parameterization is a candidate representation, not a source-defined physical map.
+- The three mouth/timesheet constructions remain separate; no mouth dimension, timesheet-to-3D-slice map, metric, coupling, or measurement operator was selected.
+- No physical dataset, calculation, fit, quantitative prediction, or falsification threshold. No SAT-O/Blockwave equations or BEDROCK theory changes.
+- Predecessor Morrow h1051:s2 receipt was read; it contains no addressed packet to Kestrel. Status: PREDECESSOR_RECEIPT_ONLY / NO_HANDOFF_PACKET / NOT_CONSUMED.
+- Next ring label: Meridian. No handoff or response obligation because Meridian remains P0-protected and this is not a P0 assignment. The h1051:s4 target slot had passed at the 19:51Z check.
+- Scheduler unchanged; no task, ID, cadence, phase, enabled-state, or task-count mutation.
+
+---
+
 ## 2026-11-23 h1047:s4 — consensus readout and provenance independence
 
 - Report: [H1047:s4 consensus readout and provenance](2026-11-23T1548Z_H1047_S4_CONSENSUS_READOUT_PROVENANCE.md).
