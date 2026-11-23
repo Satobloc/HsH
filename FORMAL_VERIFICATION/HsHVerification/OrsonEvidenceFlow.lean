@@ -58,7 +58,7 @@ structure EvidenceFlow where
     availability, not comprehension or semantic uptake. -/
 def itemPresentAt (flow : EvidenceFlow) (stage : FlowStage)
     (item : EvidenceItem) : Prop :=
-  flow.events.any (fun e => decide (e.stage = stage ∧ e.itemId = item.itemId)) = true
+  ∃ e ∈ flow.events, e.stage = stage ∧ e.itemId = item.itemId
 
 def pairPresentAt (flow : EvidenceFlow) (stage : FlowStage)
     (pair : EvidencePair) : Prop :=
@@ -68,18 +68,18 @@ def pairPresentAt (flow : EvidenceFlow) (stage : FlowStage)
     proof that the item entered the recipient's later context. -/
 def sentTo (flow : EvidenceFlow) (item : EvidenceItem)
     (recipient : Nat) : Prop :=
-  flow.events.any (fun e =>
-    decide (e.stage = .workerReports ∧
-      e.itemId = item.itemId ∧ e.recipient = some recipient)) = true
+  ∃ e ∈ flow.events,
+    e.stage = .workerReports ∧
+    e.itemId = item.itemId ∧ e.recipient = some recipient
 
 /-- Same takes precedence whenever one contributor supplies both endpoints. -/
 def sameContributorPair (flow : EvidenceFlow) (stage : FlowStage)
     (pair : EvidencePair) : Prop :=
-  (flow.events.product flow.events).any (fun p =>
-    decide (p.1.stage = stage ∧ p.2.stage = stage ∧
-      p.1.itemId = pair.left.itemId ∧
-      p.2.itemId = pair.right.itemId ∧
-      p.1.contributor = p.2.contributor)) = true
+  ∃ p ∈ flow.events.product flow.events,
+    p.1.stage = stage ∧ p.2.stage = stage ∧
+    p.1.itemId = pair.left.itemId ∧
+    p.2.itemId = pair.right.itemId ∧
+    p.1.contributor = p.2.contributor
 
 /-- Split means both endpoints are present, but no one contributor supplies both. -/
 def splitContributorPair (flow : EvidenceFlow) (stage : FlowStage)
@@ -215,8 +215,8 @@ def repeatedDisclosureFlow : EvidenceFlow where
   }
 
 def hasRepeatedDisclosure (flow : EvidenceFlow) : Prop :=
-  (flow.events.product flow.events).any (fun p =>
-    decide (p.1.itemId = p.2.itemId ∧ p.1.eventId ≠ p.2.eventId)) = true
+  ∃ p ∈ flow.events.product flow.events,
+    p.1.itemId = p.2.itemId ∧ p.1.eventId ≠ p.2.eventId
 
 theorem one_item_can_have_multiple_disclosure_events :
     hasRepeatedDisclosure repeatedDisclosureFlow := by
@@ -231,3 +231,81 @@ theorem one_item_can_have_multiple_disclosure_events :
 #print axioms one_item_can_have_multiple_disclosure_events
 
 end HsHVerification.OrsonEvidenceFlow
+
+
+namespace HsHVerification.OrsonFacilitationDesign
+
+/-!
+Source comparator: Córdova et al., "LLM Facilitation of Group Decision-Making",
+arXiv:2611.19652v1 (2026-11-14), especially main §§3 and 5 and Supplementary
+Text S2. The group-level generator template lists private attribute categories
+for all three roles; the individual-level template lists only the current
+recipient's private categories. Delivery also differs: group-shared versus
+recipient-private. The paper states that the facilitator is blind to candidate
+attribute values; this model concerns only the declared schema-scope and
+delivery-scope difference. Placeholder expansion beyond the printed template
+is not specified in v1.
+
+The finite witness below is a logical design counterexample, not study data,
+an estimated effect, or a model-behavior result. It shows that diagonal
+treatment arms alone do not identify a delivery-only effect when schema scope
+and delivery scope vary together.
+-/
+
+inductive PrivateSchemaScope where
+  | recipientSchema
+  | fullGroupSchema
+  deriving DecidableEq, Repr
+
+inductive DeliveryScope where
+  | recipientPrivate
+  | groupShared
+  deriving DecidableEq, Repr
+
+structure FacilitationArm where
+  schemaScope : PrivateSchemaScope
+  deliveryScope : DeliveryScope
+  deriving DecidableEq, Repr
+
+def individualArm : FacilitationArm :=
+  ⟨.recipientSchema, .recipientPrivate⟩
+
+def groupArm : FacilitationArm :=
+  ⟨.fullGroupSchema, .groupShared⟩
+
+def outcomeAt
+    (surface : PrivateSchemaScope → DeliveryScope → Bool)
+    (arm : FacilitationArm) : Bool :=
+  surface arm.schemaScope arm.deliveryScope
+
+def sameObservedArms
+    (left right : PrivateSchemaScope → DeliveryScope → Bool) : Prop :=
+  outcomeAt left individualArm = outcomeAt right individualArm ∧
+  outcomeAt left groupArm = outcomeAt right groupArm
+
+def deliveryEffectAt
+    (surface : PrivateSchemaScope → DeliveryScope → Bool)
+    (schema : PrivateSchemaScope) : Prop :=
+  surface schema .recipientPrivate ≠ surface schema .groupShared
+
+def flatSurface : PrivateSchemaScope → DeliveryScope → Bool
+  | .recipientSchema, .recipientPrivate => true
+  | .recipientSchema, .groupShared => true
+  | .fullGroupSchema, .recipientPrivate => true
+  | .fullGroupSchema, .groupShared => true
+
+def interactionSurface : PrivateSchemaScope → DeliveryScope → Bool
+  | .recipientSchema, .recipientPrivate => true
+  | .recipientSchema, .groupShared => false
+  | .fullGroupSchema, .recipientPrivate => false
+  | .fullGroupSchema, .groupShared => true
+
+theorem diagonal_arms_do_not_identify_delivery_effect :
+    sameObservedArms flatSurface interactionSurface ∧
+    ¬ deliveryEffectAt flatSurface .recipientSchema ∧
+    deliveryEffectAt interactionSurface .recipientSchema := by
+  decide
+
+#print axioms diagonal_arms_do_not_identify_delivery_effect
+
+end HsHVerification.OrsonFacilitationDesign
