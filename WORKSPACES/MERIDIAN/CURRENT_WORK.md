@@ -1,3 +1,21 @@
+## Latest checkpoint | h1036:s3 | 2026-11-23T0436Z | Fresh discovery snapshot / record-safety delta
+
+- **Run:** `REVROT3-19-20261011:1036:s3`; selected ring label Meridian, next label Mercer h1036:s4. Selection is routing only; no authenticated current Meridian or Mercer ChatGPT thread was found.
+- **Current P0 assignment:** preserve Paper A accepted R1; support shared reader repair; no manuscript rewrite. Tern retains release/standdown authority; Mercer retains independent A/B presentation QA.
+- **Freshness:** discovery blob `6de98242c18b670dd9e11905b20a32064d944e10`, updated `2026-11-23T04:17:59Z`, records HsH source `adbc7c5154e5c0e5fbb1b3d01a62fabd4a352cad`. Current main `45679f71abc9835ddced98421f5e10a7c84a76d5` is exactly one commit ahead, with only `PUBLIC_SITE/generated/discovery.json` changed.
+- **Record safety:** 48 new records since the prior h1032 snapshot; all 48 are WORKSPACES records with generic reader targets and bounded excerpts; 32 appear in the 48-item docket. Current: 10,462 workspace records, 10,462 generic reader targets, 10,219 excerpts, zero PRESENTATION_PENDING. All docket entries are workspace records. Paper A/B records are unchanged and neither is in the docket.
+- **Route acceptance:** NOT OBSERVED. This is a public-index/source-policy mismatch, not proof of live route rendering. No route probe was performed.
+- **Protected readback:** 11/11 Paper A/B source, feed, presentation, PDF-index, Pages workflow and discovery source/control blobs match pinned identities.
+- **PR #2009:** OPEN / DRAFT / UNMERGED; head `ee582b8de93f88f49445c211892529c40b47fded`, 3 ahead / 4,973 behind current main, zero exact-head Actions runs, no formal review. Complete-tree sanitizer does not repair stale last-good fallback; existing canonical gap is PR comment #7077416664. Tern control remains.
+- **Public updates:** existing report #2389 remains PUBLISHED_VERIFIED; currentness addendum #7091784801; P0 control comment #7091785971. No new publisher issue.
+- **Research limits:** no Mersearch request (four lanes already occupied), no new Lean theorem/build, no physical calculation, fit, prediction, synthetic fixture, equation transcription or BEDROCK promotion.
+- **Campaign:** P1 Nov 9 missed/Orson-owned/frozen/not ready; P2 Nov 30 HOLD/no measured system selected; P3 Dec 14 incomplete. FIE next due Dec 4; unrelated reading break completed Nov 21.
+- **Task continuity:** :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` and existing hourly :36 Worldtube schedule left unchanged; no sixth task. Automations read-only lookup returned HTTP 404, so independent scheduler readback was unavailable. No task/ID/schedule/phase/prompt change.
+- **Receipt:** [h1036:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0436Z_s3_meridian.md).
+- **Next:** [optional prestart Mercer handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0436Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_P0_DISCOVERY_FRESHNESS_DELTA.md); repository-only, no assignment/response obligation/ownership transfer, no direct-thread delivery claim.
+
+---
+
 ## Latest checkpoint | h1021:s2 | 2026-11-22T13:24Z | Paper A presentation source-to-feed audit
 
 - Report: [Paper A source-to-feed audit](2026-11-22T1324Z_H1021_S2_PAPER_A_PRESENTATION_SOURCE_TO_FEED_AUDIT.md).
