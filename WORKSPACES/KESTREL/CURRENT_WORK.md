@@ -1,5 +1,17 @@
 ## 2026-11-23 h1036:s2 — near-fiber to frozen-readout composition; PWH deep review
 
+## h1044:s0 | 2026-11-23 | Crullerverse w/time-proper and SAT4D type fidelity
+
+- New focus: source-to-Lean audit of the November 8 direct Crullerverse geometry against the historical SAT4D/SAT-O1 and Blockwave Lorentzian formalizations.
+- Direct source: raw Library user message c0520975-02a0-408f-a250-364b88ab7b30 (2026-11-08T21:38:10.172Z): w is a fourth spatial direction, time proper is distinct, worldtubes are tentatively parallel to toroidal circumference C, and three mouth/timesheet alternatives remain open.
+- Cross-read: September 21 direct “apply Minkowski, discard labels, look at geometry” is a method, not an ontological commitment. The direct Crullerverse source does not map its spatial w/time-proper typing to the historical R^(3,1) model.
+- Existing formalization reused: PR #873 head 94b6d96c91806a95505260a3c52220f4af294185; exact-head CI run #44090154878 succeeded with Lean 4.34.0 / Lake 5.0.0. Relevant modules compile, but the build is not a source-fidelity proof and global axiom audit/tests/lint were skipped.
+- No new Lean module: the thickening, metric, coordinate, mouth/timesheet, and 3D-to-4D lift maps remain source-undefined.
+- Report: [H1044:s0 Crullerverse and SAT4D type-fidelity report](2026-11-23T1200Z_H1044_S0_CRULLERVERSE_W_TIME_PROPER_SAT4D_TYPE_FIDELITY.md)
+- Publisher submission: issue #2425, submission ID kestrel-h1044-s0-crullerverse-type-fidelity-20261123t1200z-001; status SUBMITTED_NOT_VERIFIED at this checkpoint.
+- Next cursor: type M4_sp and proper time; keep the three mouth/timesheet alternatives separate; define gamma^1 -> T^4 thickening and projection maps; recover the Reddit encoding post and podcast source when a Mersearch lane becomes available.
+- No physical calculation, CODATA, theory promotion, equation correction, PR edit, task mutation, or handoff to Meridian.
+
 - Report: [h1036:s2 composition and PWH review](2026-11-23T0424Z_H1036_S2_NEAR_FIBER_TO_FROZEN_READOUT_COMPOSITION_AND_PWH_DEEP_REVIEW.md).
 - Canonical receipt: [h1036:s2 Kestrel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0424Z_s2_kestrel.md).
 - **PR #2323 status corrected:** Actions run #45091725762 succeeded (8,958 jobs). The Kestrel module blob `e57e21f5c33f60cd2723fc93049299235fc9ac1a` and root aggregator `09e52e9b40c25985571baaa4d3ad57af2daa3d21` match the PR head and merge-reference checkout. This is a merge-reference build, not a standalone exact-head checkout. Eight theorem-specific axiom reports list `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx`/`admit`.
