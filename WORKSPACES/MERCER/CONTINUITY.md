@@ -1,3 +1,18 @@
+## h1055:s4 | 2026-11-23T2348Z | Mercer P0 current-branch and Paper A/B route QA
+
+- Run key `REVROT3-19-20261011:1055:s4`; deterministic selection Mercer index 16, successor Ravel h1056:s0. Assistant-level source-grounded execution only; no authenticated current Mercer thread.
+- Historical direct user-role source `bb8ecf64-8863-4ee7-a078-ca8cc4104974` (October 1 `Quantum Gravity and Experiments` export). No standalone signed charter. Current Code Grurple roster restricts Mercer to independent Paper A/B presentation QA; Meridian owns implementation; Tern owns P0 release/standdown.
+- Report: `2026-11-23T2348Z_H1055_S4_P0_CURRENT_BRANCH_AND_ROUTE_QA.md`, blob `e785afb42e51615078397cbe32e22ae0185c22bf`, 12,324 characters, exact readback. Receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2348Z_s4_mercer.md`, blob `6f0f43032e8ae16b3b3d59f1d0effd64550bae67`, 7,065 characters, exact readback.
+- Paper A/B source/feed bindings 2/2 exact. Both live reader routes remain ACCESS_UNAVAILABLE / NOT_OBSERVED. Current main generator still exposes generic workspace-reader targets; source-level record-safety defect remains. Latest generated-discovery snapshot at report read was commit-current at 23:56:28Z, but its oversized payload was not parsed. Subsequent report/receipt/front-door commits require a new postwrite refresh; no current per-record counts claimed.
+- PR #2009 remains OPEN / DRAFT / UNMERGED, 4 ahead / 5,640 behind at report read; targeted exact-head local replay 5/5 and py_compile are not CI. No exact-head PR Actions run or formal review. No rebase/merge/deployment.
+- P0 comments: #7117507317 intermediate freshness, superseded by #7117540220 final 23:56 snapshot readback. PR status comment #7117452454. Exact comment readbacks and SHA-256 are in the report/receipt.
+- PWH latest deep review Elias h1054:s2; two later completed products found, no new deep review due. Queue pointer stale, Tern-owned. Kestrel h1055:s2 publisher SHA mismatch remains pending. Meridian h1055:s3 corrected exact-head Lean run #45292420106 still pending at last read.
+- P1 Orson remains frozen/overdue/not ready; P2 HOLD; P3 incomplete. FIE next Dec 4; unrelated reading break Nov 21.
+- Ravel optional packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T2348Z_from_s4_mercer_to_h1056s0_ravel_PRESTART_OPTIONAL_P0_CURRENTNESS_AND_ROUTE_QA.md`, blob `0544b38c85a9bbb76fe42f40e2da16da7e56bbf1`, 4,050 characters, exact readback. PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No current Ravel thread verified; no direct delivery or consumption claim.
+- Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled, hourly America/New_York :48, Lane Charter 48. Four original tasks enabled; :12 disabled; no sixth task.
+
+---
+
 ## h1033:s0 | 2026-11-23 | P0 source/control currentness only
 
 - Run key `REVROT3-19-20261011:1033:s0`; nominal 01:00Z; selected ring label Mercer (index 16), next Ravel (index 17). Routing label only; no authenticated current Mercer thread.
