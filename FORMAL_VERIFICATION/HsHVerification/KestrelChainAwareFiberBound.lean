@@ -19,6 +19,9 @@ This is conditional map mathematics. It does not instantiate a physical
 H(s)H projection, instrument, metric, unit conversion, calibration, or
 measured system. The source-to-map translation and empirical validity of
 the stage contracts remain separate obligations.
+
+A near-fiber extension below replaces exact projection equality with a
+measured projection-distance bound and a pairwise decoder-stability bound.
 -/
 
 namespace HsHVerification.KestrelChainAwareFiberBound
@@ -75,21 +78,135 @@ theorem noProjectionDecoderWithinChainBudget
             dist_comm _ _
       _ ≤ errorBudget A S n := hBoundY
   have hTriangle :
+      dist (exactIter A S n x) (exactIter A S n y) ≤
+        dist (exactIter A S n x) (decoder (p x)) +
+        dist (decoder (p x)) (exactIter A S n y) :=
+    dist_triangle _ _ _
+  have hTotal :
+      dist (exactIter A S n x) (exactIter A S n y) ≤
+        errorBudget A S n + errorBudget A S n :=
+    hTriangle.trans (add_le_add hX hY)
+  linarith
+
+/-- The same obstruction expressed directly in the exact finite-sum
+    stagewise form of the propagated error budget. -/
+theorem noProjectionDecoderWithinStagewiseBudget
+    (n : Nat)
+    (p : X 0 → Y)
+    (decoder : Y → X n)
+    (x y : X 0)
+    (hx : A 0 x)
+    (hy : A 0 y)
+    (hSameProjection : p x = p y)
+    (hApproximationFactorsThroughProjection :
+      ∀ z, A 0 z →
+        approximateIter A S n z = decoder (p z))
+    (hSeparated :
+      2 * stagewiseErrorBudget A S n <
+        dist (exactIter A S n x) (exactIter A S n y)) :
+    False := by
+  have hSeparated' :
+      2 * errorBudget A S n <
+        dist (exactIter A S n x) (exactIter A S n y) := by
+    have hSeparated0 := hSeparated
+    rw [← errorBudget_eq_stagewiseErrorBudget A S n] at hSeparated0
+    exact hSeparated0
+  exact noProjectionDecoderWithinChainBudget
+    A S n p decoder x y hx hy hSameProjection
+    hApproximationFactorsThroughProjection hSeparated'
+
+#print axioms noProjectionDecoderWithinChainBudget
+#print axioms noProjectionDecoderWithinStagewiseBudget
+
+/-- A deterministic decoder through an upstream projection has a
+    detector-level separation bound once endpoint observation errors are
+    included. The two observation radii may differ. The chain budget and
+    observation radii are deterministic metric bounds in the same final
+    output metric; they are not standard deviations or confidence intervals. -/
+theorem observedFiberSeparationBound
+    (n : Nat)
+    (p : X 0 → Y)
+    (decoder : Y → X n)
+    (x y : X 0)
+    (hx : A 0 x)
+    (hy : A 0 y)
+    (hSameProjection : p x = p y)
+    (hApproximationFactorsThroughProjection :
+      ∀ z, A 0 z →
+        approximateIter A S n z = decoder (p z))
+    (observedX observedY : X n)
+    (etaX etaY : ℝ)
+    (hObservedX :
+      dist observedX (exactIter A S n x) ≤ etaX)
+    (hObservedY :
+      dist observedY (exactIter A S n y) ≤ etaY) :
+    dist observedX observedY ≤
+      etaX + etaY + 2 * errorBudget A S n := by
+  have hBoundX :=
+    finiteChainProjectionErrorBound A S n x hx
+  have hBoundY :=
+    finiteChainProjectionErrorBound A S n y hy
+  have hSameDecoder : decoder (p x) = decoder (p y) :=
+    congrArg decoder hSameProjection
+  have hChainX :
+      dist (exactIter A S n x) (decoder (p x)) ≤
+        errorBudget A S n := by
+    simpa [hApproximationFactorsThroughProjection x hx] using hBoundX
+  have hChainY :
+      dist (decoder (p x)) (exactIter A S n y) ≤
+        errorBudget A S n := by
+    calc
+      dist (decoder (p x)) (exactIter A S n y)
+          = dist (decoder (p y)) (exactIter A S n y) := by
+              rw [hSameDecoder]
+      _ = dist (approximateIter A S n y) (exactIter A S n y) := by
+            rw [← hApproximationFactorsThroughProjection y hy]
+      _ = dist (exactIter A S n y) (approximateIter A S n y) :=
+            dist_comm _ _
+      _ ≤ errorBudget A S n := hBoundY
+  have hObservedY' :
+      dist (exactIter A S n y) observedY ≤ etaY := by
+    calc
+      dist (exactIter A S n y) observedY
+          = dist observedY (exactIter A S n y) := dist_comm _ _
+      _ ≤ etaY := hObservedY
+  have hTriangle :
       dist observedX observedY ≤
         dist observedX (exactIter A S n x) +
-          dist (exactIter A S n x) (decoder (p x)) +
-          dist (decoder (p x)) (decoder (p y)) +
-          dist (decoder (p y)) (exactIter A S n y) +
-          dist (exactIter A S n y) observedY := by
-    have h1 :=
+          (dist (exactIter A S n x) (decoder (p x)) +
+            (dist (decoder (p x)) (exactIter A S n y) +
+              dist (exactIter A S n y) observedY)) := by
+    have h1 :
+        dist observedX observedY ≤
+          dist observedX (exactIter A S n x) +
+            dist (exactIter A S n x) observedY :=
       dist_triangle observedX (exactIter A S n x) observedY
-    have h2 :=
+    have h2 :
+        dist (exactIter A S n x) observedY ≤
+          dist (exactIter A S n x) (decoder (p x)) +
+            dist (decoder (p x)) observedY :=
       dist_triangle (exactIter A S n x) (decoder (p x)) observedY
-    have h3 :=
-      dist_triangle (decoder (p x)) (decoder (p y)) observedY
-    have h4 :=
-      dist_triangle (decoder (p y)) (exactIter A S n y) observedY
-    linarith
+    have h3 :
+        dist (decoder (p x)) observedY ≤
+          dist (decoder (p x)) (exactIter A S n y) +
+            dist (exactIter A S n y) observedY :=
+      dist_triangle (decoder (p x)) (exactIter A S n y) observedY
+    calc
+      dist observedX observedY
+          ≤ dist observedX (exactIter A S n x) +
+              dist (exactIter A S n x) observedY := h1
+      _ ≤ dist observedX (exactIter A S n x) +
+            (dist (exactIter A S n x) (decoder (p x)) +
+              dist (decoder (p x)) observedY) :=
+          add_le_add_right h2 _
+      _ ≤ dist observedX (exactIter A S n x) +
+            (dist (exactIter A S n x) (decoder (p x)) +
+              (dist (decoder (p x)) (exactIter A S n y) +
+                dist (exactIter A S n y) observedY)) := by
+          have h3' := add_le_add_right h3
+            (dist (exactIter A S n x) (decoder (p x)))
+          exact add_le_add_right h3'
+            (dist observedX (exactIter A S n x))
   calc
     dist observedX observedY
         ≤
@@ -157,7 +274,7 @@ theorem noProjectionDecoderWithinObservedStagewiseBudget
       etaX + etaY + 2 * errorBudget A S n <
         dist observedX observedY := by
     have h := hObservedSeparated
-    rw [errorBudget_eq_stagewiseErrorBudget A S n] at h
+    rw [← errorBudget_eq_stagewiseErrorBudget A S n] at h
     exact h
   exact noProjectionDecoderWithinObservedChainBudget
     A S n p decoder x y hx hy hSameProjection
@@ -169,12 +286,10 @@ theorem noProjectionDecoderWithinObservedStagewiseBudget
 #print axioms noProjectionDecoderWithinObservedStagewiseBudget
 
 
-/-- A near-fiber extension of the observed separation bound. Exact equality
+/-- Near-fiber extension of the observed separation bound. Exact equality
     of projected inputs is not required: it is enough to bound their
-    projected distance by `rho` and to bound the decoder's output
-    sensitivity on this pair by `K`. The resulting tolerance includes the
-    two endpoint observation radii, both finite-chain errors, and the
-    projected-input sensitivity term `K * rho`. -/
+    projected distance by `rho` and to bound decoder sensitivity on this
+    pair by `K`. -/
 theorem observedNearFiberSeparationBound
     [PseudoMetricSpace Y]
     (n : Nat)
@@ -234,71 +349,24 @@ theorem observedNearFiberSeparationBound
   have hTriangle :
       dist observedX observedY ≤
         dist observedX (exactIter A S n x) +
-          (dist (exactIter A S n x) (decoder (p x)) +
-            (dist (decoder (p x)) (decoder (p y)) +
-              (dist (decoder (p y)) (exactIter A S n y) +
-                dist (exactIter A S n y) observedY))) := by
-    have h1 :
-        dist observedX observedY ≤
-          dist observedX (exactIter A S n x) +
-            dist (exactIter A S n x) observedY :=
-      dist_triangle observedX (exactIter A S n x) observedY
-    have h2 :
-        dist (exactIter A S n x) observedY ≤
           dist (exactIter A S n x) (decoder (p x)) +
-            dist (decoder (p x)) observedY :=
-      dist_triangle (exactIter A S n x) (decoder (p x)) observedY
-    have h3 :
-        dist (decoder (p x)) observedY ≤
           dist (decoder (p x)) (decoder (p y)) +
-            dist (decoder (p y)) observedY :=
-      dist_triangle (decoder (p x)) (decoder (p y)) observedY
-    have h4 :
-        dist (decoder (p y)) observedY ≤
           dist (decoder (p y)) (exactIter A S n y) +
-            dist (exactIter A S n y) observedY :=
+          dist (exactIter A S n y) observedY := by
+    have h1 :=
+      dist_triangle observedX (exactIter A S n x) observedY
+    have h2 :=
+      dist_triangle (exactIter A S n x) (decoder (p x)) observedY
+    have h3 :=
+      dist_triangle (decoder (p x)) (decoder (p y)) observedY
+    have h4 :=
       dist_triangle (decoder (p y)) (exactIter A S n y) observedY
-    calc
-      dist observedX observedY
-          ≤ dist observedX (exactIter A S n x) +
-              dist (exactIter A S n x) observedY := h1
-      _ ≤ dist observedX (exactIter A S n x) +
-            (dist (exactIter A S n x) (decoder (p x)) +
-              dist (decoder (p x)) observedY) :=
-          add_le_add_left h2 _
-      _ ≤ dist observedX (exactIter A S n x) +
-            (dist (exactIter A S n x) (decoder (p x)) +
-              (dist (decoder (p x)) (decoder (p y)) +
-                dist (decoder (p y)) observedY)) := by
-          have h3' := add_le_add_left h3
-            (dist (exactIter A S n x) (decoder (p x)))
-          exact add_le_add_left h3'
-            (dist observedX (exactIter A S n x))
-      _ ≤ dist observedX (exactIter A S n x) +
-            (dist (exactIter A S n x) (decoder (p x)) +
-              (dist (decoder (p x)) (decoder (p y)) +
-                (dist (decoder (p y)) (exactIter A S n y) +
-                  dist (exactIter A S n y) observedY))) := by
-          have h4' := add_le_add_left h4
-            (dist (decoder (p x)) (decoder (p y)))
-          have h4'' := add_le_add_left h4'
-            (dist (exactIter A S n x) (decoder (p x)))
-          exact add_le_add_left h4''
-            (dist observedX (exactIter A S n x))
-  calc
-    dist observedX observedY
-        ≤
-      dist observedX (exactIter A S n x) +
-        (dist (exactIter A S n x) (decoder (p x)) +
-          (dist (decoder (p x)) (decoder (p y)) +
-            (dist (decoder (p y)) (exactIter A S n y) +
-              dist (exactIter A S n y) observedY))) := hTriangle
-    _ ≤ etaX + etaY + 2 * errorBudget A S n + K * rho := by
-      linarith [hObservedX, hChainX, hDecoder, hChainY, hObservedY']
+    linarith
+  linarith [hTriangle, hObservedX, hChainX, hDecoder, hChainY, hObservedY']
 
-/-- A measured pair whose observed separation exceeds the near-fiber
-    tolerance cannot be explained by any decoder satisfying the declared
-    projection, pairwise-stability, and finite-chain contracts. -/
+/-- A measured near-fiber pair separated beyond the declared tolerance
+    cannot be explained by a decoder satisfying the projection, pairwise
+    stability, and finite-chain contracts. -/
 theorem noProjectionDecoderWithinObservedNearFiberBudget
     [PseudoMetricSpace Y]
     (n : Nat)
@@ -370,7 +438,7 @@ theorem noProjectionDecoderWithinObservedNearFiberStagewiseBudget
       dist observedX observedY ≤
         etaX + etaY + 2 * stagewiseErrorBudget A S n + K * rho := by
     have h := hBound
-    rw [← errorBudget_eq_stagewiseErrorBudget A S n] at h
+    rw [errorBudget_eq_stagewiseErrorBudget A S n] at h
     exact h
   linarith
 
