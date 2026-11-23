@@ -156,10 +156,12 @@ theorem disclosure_tree_pass_requires_visible_sandbox_classification
     (h : disclosureTreePasses tree review sourceBinding = true) :
     visibleTextPresent tree.elements review.sandboxClassificationText = true := by
   unfold disclosureTreePasses at h
-  rcases bool_and_true_parts h with ⟨hRest, _⟩
-  rcases bool_and_true_parts hRest with ⟨hRest2, _⟩
-  rcases bool_and_true_parts hRest2 with ⟨_, hSandbox⟩
-  exact hSandbox
+  cases h1 : sha256Shape tree.captureDigest <;>
+    cases h2 : tree.parserBindingVerified <;>
+    cases h3 : visibleTextPresent tree.elements review.sandboxClassificationText <;>
+    cases h4 : visibleTextPresent tree.elements review.reviewStateText <;>
+    cases h5 : visibleLinkTargetPresent tree.elements sourceBinding.canonicalTarget <;>
+    simp_all
 
 theorem disclosure_tree_pass_requires_visible_review_state
     (tree : CapturedReaderTree) (review : ReviewStateBinding)
@@ -167,9 +169,12 @@ theorem disclosure_tree_pass_requires_visible_review_state
     (h : disclosureTreePasses tree review sourceBinding = true) :
     visibleTextPresent tree.elements review.reviewStateText = true := by
   unfold disclosureTreePasses at h
-  rcases bool_and_true_parts h with ⟨hRest, _⟩
-  rcases bool_and_true_parts hRest with ⟨_, hReview⟩
-  exact hReview
+  cases h1 : sha256Shape tree.captureDigest <;>
+    cases h2 : tree.parserBindingVerified <;>
+    cases h3 : visibleTextPresent tree.elements review.sandboxClassificationText <;>
+    cases h4 : visibleTextPresent tree.elements review.reviewStateText <;>
+    cases h5 : visibleLinkTargetPresent tree.elements sourceBinding.canonicalTarget <;>
+    simp_all
 
 theorem disclosure_tree_pass_requires_visible_pinned_source_target
     (tree : CapturedReaderTree) (review : ReviewStateBinding)
@@ -177,7 +182,12 @@ theorem disclosure_tree_pass_requires_visible_pinned_source_target
     (h : disclosureTreePasses tree review sourceBinding = true) :
     visibleLinkTargetPresent tree.elements sourceBinding.canonicalTarget = true := by
   unfold disclosureTreePasses at h
-  exact (bool_and_true_parts h).2
+  cases h1 : sha256Shape tree.captureDigest <;>
+    cases h2 : tree.parserBindingVerified <;>
+    cases h3 : visibleTextPresent tree.elements review.sandboxClassificationText <;>
+    cases h4 : visibleTextPresent tree.elements review.reviewStateText <;>
+    cases h5 : visibleLinkTargetPresent tree.elements sourceBinding.canonicalTarget <;>
+    simp_all
 
 theorem accepted_with_disclosure_requires_capture_binding
     (s : State) (e : WorkflowTriggerEvidence)
@@ -189,10 +199,22 @@ theorem accepted_with_disclosure_requires_capture_binding
   unfold presentationAcceptedWithDisclosure at h
   cases observation with
   | none =>
-      simp at h
+      have hfalse : False := by simpa using h
+      exact False.elim hfalse
   | some witness =>
-      refine ⟨witness, rfl, ?_⟩
-      exact (bool_and_true_parts h).2
+      change (presentationAccepted s e (some witness) &&
+        captureBoundDisclosurePasses s witness tree review sourceBinding) = true at h
+      cases hp : presentationAccepted s e (some witness) with
+      | false =>
+          have hfalse : False := by simpa [hp] using h
+          exact False.elim hfalse
+      | true =>
+          cases hc : captureBoundDisclosurePasses s witness tree review sourceBinding with
+          | false =>
+              have hfalse : False := by simpa [hp, hc] using h
+              exact False.elim hfalse
+          | true =>
+              exact ⟨witness, rfl, hc⟩
 
 #print axioms legacy_checks_can_pass_without_visible_disclosures
 #print axioms disclosure_tree_pass_requires_visible_sandbox_classification
