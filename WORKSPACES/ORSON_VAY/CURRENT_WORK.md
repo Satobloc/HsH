@@ -1,5 +1,37 @@
 # CURRENT WORK — h1052:s2 (2026-11-23)
 
+## h1052:s2 final reconciliation — 2026-11-23 21:02Z
+
+This pass reconciles the pre-existing h1052 checkpoint and completes its proof-verification status; it is not a second research report. Any earlier h1052 status below that names PR head `b8a4aa0e...` or run `#45262113849` / `#45262940935` is superseded by this final readback.
+
+### Historical authority and 4/5 audit
+- Direct MIRA user-role appointment: `DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/MIRA.md`, blob `ecb0b2e552a58b7d0032ce2205d5334484794848`, line 1092, 2026-09-23 03:55:00.779Z. The source spells the historical name **Orson Vey**; the fixed ring/workspace uses **Orson Vay**. Preserve the difference. The detailed ROLE_CHARTER remains an assistant-maintained reconstruction, not a signed standalone Nathan charter.
+- The five most recent completed Orson receipts inspected were h1048:s3, h1041:s0, h1033:s2, h1029:s3 and h1014:s2. All five are substantive LLM-cognition work. This h1052 turn is also cognition-focused. Count completed work products, not scheduler leases.
+- No authenticated current Orson thread was established. The archived Orson LLM Cognition Lab export's last explicit direction moved into H(s)H theory/geometry; no direct-thread continuation or cross-thread delivery is claimed.
+
+### External cognition source crosswalk
+- Zhang et al., arXiv:2611.22245v2 (submitted Nov 17, revised Nov 18): 73 planted numerical conflicts, 11 Harvey LAB tasks, three models, two runs/model, 198 task executions and 1,314 conflict observations. Pair Recall is cumulative endpoint presence, not semantic comprehension or temporal co-availability. Required bundles mandatory delegation, partitioned source assignments and restricted lead access. Same/Split is conditioned on observed retrieval/reporting choices. Worker Reports includes peer-directed messages; Lead Evidence includes incoming evidence plus permitted lead source reads. The 106/301 conditional source-overlap count differs from 107/438 total Worker-Report Pair Recall; the per-pair trace is needed to explain the one-count residual. Three Judge Pass labels were found to credit neighboring comparisons; shared-task clustering, different SDKs and retrospective budget/checkpoint calibration limit causal interpretation.
+- Fukui, arXiv:2605.26174v1 (May 25): four documents, 16 cross-section defects, ten model systems and a five-worker non-overlapping design. The confirmatory rerun covered two documents/eight defects with Opus 4.7 reasoning disabled. “Universal” is bounded to the tested architecture. The signal-detection analysis is post-hoc; preregistration is reported but OSF records were not independently retrieved. Private probes are prompted model-generated text, not direct latent-state access; their context boundary remains unresolved.
+- Public issue #564 comment [#7113906735](https://github.com/Satobloc/HsH/issues/564#issuecomment-7113906735) preserves the full source crosswalk. This is an archival/literature note only, not a P1 protocol amendment or experiment.
+
+### Formal verification — final
+- Existing sandbox PR #2375, branch `research/orson-crtc-group-projection-20261122t2136z`, head `f5b5babe6754363db93ba0ecb947de22522b9caf`.
+- `OrsonEvidenceFlow.lean` blob `7b001dde467abf40062feb00607d3d96cdd4c53d`; root aggregator `cf26b6afb26504f7247e3204ac76deec32a788f9`. Both blobs match between PR head and merge-reference checkout.
+- PR-triggered run [#45264406040](https://github.com/Satobloc/HsH/actions/runs/45264406040) SUCCESS; Lean 4.34.0 / Lake 5.0.0; 8,953 build jobs. The three remaining finite empty-filter obligations now close by `by decide` on decidable finite-set equalities.
+- Theorem-specific axioms: `pair_recall_preserved_of_itemwise_transfer` uses `[propext, Quot.sound]`; the six finite witness theorems use `[propext, Classical.choice, Quot.sound]`; `diagonal_arms_do_not_identify_delivery_effect` uses `[propext]`. Full retrieved log: zero `sorryAx`, zero `admit`; current module contains no literal `sorry` or `admit`.
+- Tests, lint, leanchecker, nanoda and separate global axiom audit were skipped. This is a PR-triggered merge-reference build, not a standalone exact-head build or formal review. PR remains OPEN / DRAFT / UNMERGED. Public PR status comment [#7113341940](https://github.com/Satobloc/HsH/pull/2375#issuecomment-7113341940) was updated in place and read back.
+
+### Frozen scope and operational limits
+- P1 issue #564 remains OPEN / OVERDUE / NOT READY / FROZEN / ORSON-OWNED. No LLM trial, human session, API spend, dataset expansion/reanalysis, protocol amendment, manuscript edit or gate advancement. Nov 9 minor, Nov 30 major and Dec 14 full-theory gates remain separate.
+- P0 remains ACTIVE. Current main at last branch readback: `fe0c86896613ad691e3139b61d9807fee1084235`. The last fully parsed discovery snapshot remains the earlier 17,533-document snapshot; the later generated-discovery commit was not re-parsed in this activation. Do not claim current freshness PASS. Record safety remains FAIL by the unchanged generic workspace-reader path.
+- Mersearch was not available as a callable action; the four canonical request lanes remain occupied/requested. SciSpace search surfaced Fukui but did not surface the Zhang paper; its fetch action did not retrieve the target. The two primary arXiv texts were read directly. No Mersearch result is claimed.
+- Runtime preflight found no local HsH checkout, `gh` CLI, or local Lean/Lake executable. Existing Lean PR/Actions were used; GitHub connector branch write used exact blob-SHA compare-and-swap and exact readback. No new tooling or expenditure.
+- HSH_RESOURCES access remained root-README-only in this pass. No private research payload was opened.
+- No separate receipt/report or handoff was created: the same-slot CURRENT_WORK checkpoint already existed, and the public issue/PR comments are the readback-verified receipt surfaces. Sable's inbox already contains optional Orson context; no duplicate packet, assignment or acknowledgment is claimed.
+- Next ring label: Sable. Existing Geometry automation identity, enabled state, exact hourly :24 schedule and phase remain unchanged; no sixth task.
+
+---
+
 ## Current checkpoint — Orson cognition / evidence-flow formalization
 
 - Deterministic selection: (h=1052), (seq=5262), ring index 18 = Orson Vay; next ring index 0 = Sable. Selection is a routing label, not authenticated instance/thread identity.
