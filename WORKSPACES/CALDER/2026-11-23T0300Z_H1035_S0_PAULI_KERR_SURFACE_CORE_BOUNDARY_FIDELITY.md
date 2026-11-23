@@ -88,10 +88,10 @@ These are separate historical mathematical lineages, not Nathan Direct.
 
 Verbatim core:
 ~~~text
-\\gamma^\\mu(\\lambda) = \\left( \\lambda, A_x \\sin(k_x \\lambda + \\phi_x), A_y \\sin(k_y \\lambda + \\phi_y), A_z \\sin(k_z \\lambda + \\phi_z) \\right)
-v^\\mu(\\lambda) = \\frac{d \\gamma^\\mu}{d \\lambda}
-S[\\gamma] = \\int d\\lambda \\, L(\\gamma^\\mu, v^\\mu)
-L = \\frac{1}{2} m v^\\mu v_\\mu - V_{\\text{tension}}(\\gamma)
+\gamma^\mu(\lambda) = \left( \lambda, A_x \sin(k_x \lambda + \phi_x), A_y \sin(k_y \lambda + \phi_y), A_z \sin(k_z \lambda + \phi_z) \right)
+v^\mu(\lambda) = \frac{d \gamma^\mu}{d \lambda}
+S[\gamma] = \int d\lambda \, L(\gamma^\mu, v^\mu)
+L = \frac{1}{2} m v^\mu v_\mu - V_{\text{tension}}(\gamma)
 ~~~
 
 The prose calls the worldtube a 4D volume swept out by the vibrating filament. The displayed action integrates over the single curve parameter `λ`; it supplies no sweep, thickening, normal-frame, or boundary map.
@@ -103,12 +103,12 @@ The prose calls the worldtube a 4D volume swept out by the vibrating filament. T
 
 Verbatim core:
 ~~~text
-u^\\mu u_\\mu = -1
-P^\\mu{}^\\nu\\! \\equiv \\delta^\\mu{}^\\nu + u^\\mu u_\\nu
-J^{\\mu\\nu} = \\tfrac12\\,\\epsilon^{\\mu\\nu\\rho\\sigma}\\nabla_\\rho B_\\sigma
-\\nabla_\\mu J^{\\mu\\nu}=0
-A_\\mu(\\theta)\\equiv \\alpha_*\\,\\nabla_\\mu\\theta
-F_{\\mu\\nu}(\\theta)\\equiv \\nabla_{[\\mu}A_{\\nu]}(\\theta)
+u^\mu u_\mu = -1
+P^\mu{}^\nu\! \equiv \delta^\mu{}^\nu + u^\mu u_\nu
+J^{\mu\nu} = \tfrac12\,\epsilon^{\mu\nu\rho\sigma}\nabla_\rho B_\sigma
+\nabla_\mu J^{\mu\nu}=0
+A_\mu(\theta)\equiv \alpha_*\,\nabla_\mu\theta
+F_{\mu\nu}(\theta)\equiv \nabla_{[\mu}A_{\nu]}(\theta)
 ~~~
 
 Malformed projector/index tokens are preserved. The current is described as a rank-2 worldsheet current; no map to the direct 3D tube boundary is present.
