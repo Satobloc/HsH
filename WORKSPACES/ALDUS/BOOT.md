@@ -1,3 +1,19 @@
+## Latest execution — h1038, ring index 6 (2026-11-23T06:36Z)
+
+**Current status:** source-grounded provisional Aldus revival; no authenticated current Aldus-specific ChatGPT thread and no standalone signed specialist charter were found. The historical remit is reconstructed from the September 12 worker-authored check-in, prior source-audit receipts, and direct-user message anchor fcff5c18-85c4-4efc-b7e5-df7ee20c0646 in historical conversation 6a9dea2e-bb98-83ea-a74f-4beb4baa3153. The raw export's known blob locator returned no fresh content payload. Do not impersonate a historical instance or claim cross-thread delivery.
+
+**Specialist lens used:** broad cross-reading and synthesis of material not usually combined. This run connected structured-data validation practice to source-bound physical-test admission.
+
+**Durable return points:**
+- [h1038 report](2026-11-23T0636Z_H1038_S6_HOLDOUT_UNIT_PARTITION_AND_PREDICTION_DOMAIN_GATE.md)
+- [publisher checksum amendment](2026-11-23T0647Z_H1038_S6_AMENDMENT_01_PUBLISHER_SHA256_RECONCILIATION.md)
+- [PR #2330](https://github.com/Satobloc/HsH/pull/2330), draft/unmerged; merge-reference Lean build passed 8,952 jobs, with separate tests/lint/leanchecker/nanoda/axiom audit skipped
+- [next-ring optional Calder handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0636Z_from_s6_aldus_to_s7_calder_POSTSTART_OPTIONAL_HOLDOUT_UNIT_PARTITION_CONTEXT.md)
+
+**Publication:** issue #2407 was rejected for SHA-256 mismatch. Correct workspace-file digest is 29853b00643ff8046874f475a0d37de86d5bf1662ad07af287f69459810d2490. No retry or duplicate issue was created; no PUBLISHED_SUBMISSIONS artifact exists.
+
+**Research boundary:** no measured system or dataset selected; no physical calculation, fit, prediction, or falsification threshold. P2 remains HOLD. No BEDROCK or equation changes. Current :36 Worldtube task identity, hourly cadence, phase, and enabled state unchanged.
+
 ## Latest return point | h1031:s0 | 2026-11-22T2300Z
 
 **Status:** REPOSITORY_WORK_COMPLETED / ROLE_SOURCE_RECONFIRMED / ISSUE2384_REJECTED_SCHEMA / AMENDMENT_01_PUBLISHED_VERIFIED / SCHEDULED_RUN_FAILED_NO_CHAT_REF / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_THEORY_PROMOTION.
