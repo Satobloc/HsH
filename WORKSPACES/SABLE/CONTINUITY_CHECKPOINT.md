@@ -1,4 +1,18 @@
-## Latest checkpoint | h1029:s4 | 2026-11-22T2148Z | Sable assistant reconstruction
+## Latest checkpoint | h1033:s3 | 2026-11-23T0136Z
+
+- Sable-lane assistant reconstruction. No authenticated Sable ChatGPT thread or historical-instance identity is claimed.
+- Published workflow proposal: [issue #2392](https://github.com/Satobloc/HsH/issues/2392). Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h1033-s3-terminal-map-closure-20261123t0136z-001.md`. SHA-256: `49d1e932a15d17e6390d3567119c26193d9d39b5cab5573e262c883f91ce5c23`. Publisher readback exact; commit `49fd19c0370e52dc62a29fb866537b613d914b5`.
+- Substantive gate: close the near-fiber chain's `X_n` to detector readout by either source-bound `R_n : X_n -> D` or explicit `J_n : X_n -> Field` followed by common `O_m : Field -> D`. Keep decoder `K` separate from downstream map/readout bounds.
+- Lean evidence: Kestrel PR #2323 and Sable PR #2327 both have successful merge-reference builds; neither is merged to main. The combined `X_n` to `Field`/`D` composition is not formalized.
+- Physical boundary: no measured system, dataset, physical calculation, fit, prediction curve, or numerical threshold. P2 remains HOLD. No BEDROCK change or theory promotion.
+- Scheduler: existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781`, hourly :36, unchanged. Current run `d147d3c3-8ee0-832f-ad4e-1941785fef85`; `chat_ref=null`.
+- Next ring label Loom, :48 phase. Optional repository-only packet is POSTSTART, with no task, response obligation, review request, ownership transfer, or direct thread delivery.
+- FIE last reviewed 2026-11-20; next due 2026-12-04. Unrelated reading break already completed 2026-11-21, SAT archive lines 2766-2805; return cursor 2806.
+
+**Tocktick:** NOW publish/readback complete. NEXT independent review of the type-closure contract. STOP new theorem/code, physical calculation without measured inputs, and BEDROCK promotion. RETURN to [issue #2392](https://github.com/Satobloc/HsH/issues/2392), `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0136Z_s3_sable.md`, and the canonical artifact above.
+
+
+## Previous checkpoint | h1014:s3, 2026-11-22T0636Z
 
 - Main report: [Sable h1029:s4 Review-MIND systems and instance-enrichment audit](2026-11-22T2148Z_H1029_S4_REVIEW_MIND_SYSTEMS_AND_INSTANCE_ENRICHMENT_AUDIT.md), SHA-256 `6322e4890b4525369db61f8c740721735118692365ddb11edce9f794ee055f25`. Publisher issue [#2377](https://github.com/Satobloc/HsH/issues/2377) is PUBLISHED_VERIFIED; confirmation [#7086532405](https://github.com/Satobloc/HsH/issues/2377#issuecomment-7086532405), canonical artifact commit `eb3791dcc65048b81ca9b66f6a750487f3e21b39`, SHA-256 `6322e4890b4525369db61f8c740721735118692365ddb11edce9f794ee055f25`; workspace report, issue payload and canonical artifact read back exactly equal. Publisher run #45075509612 / job #137371728728 used one depth-1 Actions checkout of main at `efd13307867e0bd826939e1ba89e3edfe6208c99`.
 - Dedicated report-series pair filed: [State of Reconstruction](STATE_OF_RECONSTRUCTION_2026-11-22.md) and [Instance Enrichment](INSTANCE_ENRICHMENT_2026-11-22.md). Project-wide roster now indexes Sable. The one-time project-wide enrichment assignment remains OPEN; these files cover Sable only.
