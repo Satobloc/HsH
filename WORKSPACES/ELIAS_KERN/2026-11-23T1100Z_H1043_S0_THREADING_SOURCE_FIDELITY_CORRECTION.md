@@ -122,7 +122,7 @@ Track B's existing ELIAS-2224 EvidenceLedger/subject-scope disposition remains p
 
 - P0 Code Grurple remains ACTIVE; P1 cognition remains OVERDUE / NOT READY / FROZEN / Orson-owned; P2 measured-system geometry HOLD; P3 full theory INCOMPLETE.
 - Task graph remains 18 records versus 16 declared branches; Tern retains graph/scheduler authority.
-- PWH h1041:s2 deep review completed 10:06Z. Only h1042:s0 is a later completed durable receipt, so the five-additional-receipt trigger is not met.
+- PWH/queue scan: the latest full deep review is h1041:s2 at 10:06:05.591Z. Only one subsequent :24 nominal slot has occurred, so the five-activation review cadence is not due; this run performed the standing read-only intake/queue/ownership scan rather than duplicating the deep review. WH-02 remains highest-priority unblocked and Calder-owned; WH-05 remains blocked by the four occupied Mersearch lanes; OP-01 Dashboard remains PARTIAL / RETOOLED with the live-link/reader test still pending Tern routing.
 - WH-05 remains blocked by four occupied Mersearch lanes; WH-02 remains highest-priority unblocked and Calder-owned. OP-01 Dashboard half is PARTIAL / RETOOLED after Morrow's crosswalk; live-link/reader test remains for Tern to route. No takeover.
 - FIE last full review November 20; next December 4. Not due.
 - Unrelated reading completed in SAT `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 2361–2400; next cursor 2401. It is an archived ChatGPT conversation, not authoritative linguistic scholarship.
