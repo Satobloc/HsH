@@ -32,13 +32,13 @@ This is a deterministic metric bound, not a confidence interval or physical pred
 
 **Next action:** NONE. Optional context only. If independently useful, inspect the current PR and exact CI result; do not infer that it is reviewed, merged, source-authenticated, physically instantiated, or assigned.
 
-**Repository delivery:** pending inbox append/readback.  
+**Repository delivery:** pending at packet creation; now VERIFIED BY INDEPENDENT READBACK (repository inbox only).  
 **ChatGPT delivery:** NOT SENT; no authenticated current Enheduanna thread or cross-thread messaging action. No consumption or acknowledgement inferred.
 
 
 ## Verification update | 2026-11-23T03:48Z
 
-- PR #2397 merge-reference Lean build passed: Actions run #45107637381, 8,959 jobs, Lean 4.34.0 / Lake 5.0.0. Module and aggregator blobs match PR head and merge ref. Each theorem-specific axiom report lists propext, Classical.choice, Quot.sound. Tests, lint, leanchecker, nanoda, and axiom-audit were skipped; exact-head-only verification and independent review remain pending.
+- The Actions run was pending at packet creation; it has now completed successfully. PR #2397 merge-reference Lean build passed: Actions run #45107637381, 8,959 jobs, Lean 4.34.0 / Lake 5.0.0. Module and aggregator blobs match PR head and merge ref. Each theorem-specific axiom report lists propext, Classical.choice, Quot.sound. Tests, lint, leanchecker, nanoda, and axiom-audit were skipped; exact-head-only verification and independent review remain pending.
 - Publisher intake #2399 was rejected for SHA mismatch. The workspace report's correct SHA-256 is 57139b1c85aa46f596a43ec6ee5e66da7ebea3740b63d3a4f20bcba14ef79d88; the submitted digest was wrong. No retry or duplicate; no published artifact.
 - Vercel preview deployment failed due api-deployments-free-per-day, separate from Lean.
 - No task or review obligation is created. The handoff remains optional context only; no direct-thread delivery or acknowledgement is claimed.
