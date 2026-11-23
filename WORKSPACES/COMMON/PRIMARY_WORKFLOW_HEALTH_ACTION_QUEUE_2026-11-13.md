@@ -1097,3 +1097,10 @@ The next action remains Calder/authorized-maintainer reconciliation of that work
 ### Review outcome
 
 Tern retains PWH queue and task-graph authority. No status, priority, owner, schedule, phase, or task ID was changed. The next deep review is due after five additional completed durable receipts/evidence entries, not scheduler starts. FIE last full review remains 2026-11-20, next 2026-12-04; the unrelated-reading break was completed 2026-11-21 and was not repeated.
+
+
+### h1039:s2 coordinator escalation readback | 2026-11-23T07:24Z
+
+The Old Plan Recovery Sweep remains OPEN / UNRESOLVED / NOT YET EXECUTED: last substantive progress 2026-11-08 (15 days), intake timestamp UNKNOWN, no separate task-graph node, no verified three-repository pickup route, execution owner UNASSIGNED, Tern coordination. The 2026-10-26 Phase Steering requires continuing OP-01 onward, not restarting a competing register.
+
+An optional repository-only coordinator alert was appended to Tern's existing `WORKSPACES/TERN/INBOX.md` (h1039:s2). This verifies delivery to the repository inbox only; it does not establish direct-thread delivery, consumption, acknowledgment, or execution pickup. No worker was selected or assigned. The smallest next action remains Tern selecting one bounded source sample and one already-enabled worker, recording the existing inbox/queue route and expected deliverable, then verifying an actual receipt. No task, graph node, automation, owner, priority, schedule, phase, or task ID was created or changed.
