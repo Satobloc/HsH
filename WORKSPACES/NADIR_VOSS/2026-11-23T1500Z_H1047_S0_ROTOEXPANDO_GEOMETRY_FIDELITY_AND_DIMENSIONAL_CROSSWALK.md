@@ -195,6 +195,21 @@ A_\\mu=\\alpha_*\\nabla_\\mu\\theta,
 \]
 It also offers \(J^{\\mu\\nu}=\\tfrac12\\epsilon^{\\mu\\nu\\rho\\sigma}\\nabla_\\rho B_\\sigma\), with \(B_\\mu\\mapsto B_\\mu+\\nabla_\\mu\\Lambda\).
 
+Verbatim source action line, including the original malformed index/underscore notation:
+~~~tex
+S=\\int d^4x\\,\\sqrt{|g|}\\Big[
+\\frac{R}{16\\pi G}
+-\\frac{f_\\theta^2}{2}(\\nabla\\theta)^2
+-V_0(1-\\cos\\theta)
++\\lambda(u^\\mu u\\mu + 1)
++\\frac12 P^{\\alpha\\beta}P^{\\mu\\nu}(\\nabla\\alpha u_\\mu)(\\nabla_\\beta u_\\nu)
++\\frac{g_h}{2}F_{\\mu\\nu}J{\\mu\\nu}
++\\frac14 \\kappa_2 \\ell^2 J^{\\mu\\nu}\\mathcal{M}_{\\mu\\nu}^{\\rho\\sigma}J_{\\rho\\sigma}
+\\Big]
+~~~
+The original line is retained as written. Any repairs to the missing subscript in the derivative, the multiplier contraction, or the current index placement require a separately reviewed transcription and are not silently applied.
+
+
 The source action is preserved verbatim in the original file. Its transcription contains malformed index/underscore syntax in terms including u^mu u\\mu, nabla-alpha u_mu, and J{mu nu}. No corrected action was silently substituted.
 
 Source-critical findings:
