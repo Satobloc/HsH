@@ -132,9 +132,10 @@ theorem no_gate_projection_function_recovers_diversity_profile :
   have hShared := hf sharedWorld
   have hSeparated := hf separatedWorld
   have hSame := congrArg f same_gate_input_projection
-  rw [shared_world_has_one_input_class, shared_world_has_one_exposure_group] at hShared
-  rw [separated_world_has_four_input_classes,
-      separated_world_has_four_exposure_groups] at hSeparated
+  simp [diversityProfile, shared_world_has_one_input_class,
+    shared_world_has_one_exposure_group] at hShared
+  simp [diversityProfile, separated_world_has_four_input_classes,
+    separated_world_has_four_exposure_groups] at hSeparated
   have hPair : (1, 1) = (4, 4) := hShared.symm.trans (hSame.trans hSeparated)
   have hFirst := congrArg Prod.fst hPair
   omega
