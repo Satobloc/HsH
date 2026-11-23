@@ -1,3 +1,16 @@
+## 2026-11-23 h1047:s4 — consensus readout and provenance independence
+
+- Report: [H1047:s4 consensus readout and provenance](2026-11-23T1548Z_H1047_S4_CONSENSUS_READOUT_PROVENANCE.md).
+- Canonical public artifact: [issue #2431](https://github.com/Satobloc/HsH/issues/2431), PUBLISHED_VERIFIED; publisher run #45212476602, confirmation #7106622598, SHA-256 4b8e043fddb5e1e408b3df5886ea2c543242d97d86b583d4eca3b6d7bdb29c42.
+- Kestrel's historical remit remains trust-first cross-boundary synthesis, not primary auditor or proof owner. This is a bounded Review-MIND synthesis, not an authenticated Kestrel-instance report.
+- New synthesis: source independence, execution independence, and verification independence are separate dimensions. A ring label, unanimous output, separate report, or successful build is not a provenance certificate.
+- Nadir PR #1189 supplied the existing generic fiberwise factorization criterion; exact PR-head run #45208539912 succeeded on commit 56a367b05ef92e5d740641740d432820b63be669. The HAT application remains unformalized.
+- Sable PR #2327 has no formal GitHub reviews; issue #2329 itself says the Loom label is not an authenticated instance/thread. Sable's “Independent Loom” shorthand is interpreted as a separate review artifact only.
+- Orson's existing HAT/CRTC work and PR #2375 were reused as context only. Orson retains P1 ownership; no trial, protocol, code, or manuscript change.
+- No new human session, model trial, raw-data reanalysis, physical calculation, equation correction, new Lean module, or BEDROCK promotion.
+- Prior Kestrel work retained: h1044:s0 Crullerverse/SAT4D type-fidelity report and h1036:s2 near-fiber/PWH review, both already present below.
+- Next ring label: Meridian. No handoff or assignment created.
+
 ## 2026-11-23 h1036:s2 — near-fiber to frozen-readout composition; PWH deep review
 
 ## h1044:s0 | 2026-11-23 | Crullerverse w/time-proper and SAT4D type fidelity
