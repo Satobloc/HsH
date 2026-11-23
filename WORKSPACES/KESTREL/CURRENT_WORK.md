@@ -1237,3 +1237,11 @@ The new observed-fiber theorem places observations in the same final metric spac
 - PWH deep review was completed by Elias h1054:s2; this is one completed product later, so no deep review was due. Task graph/queue not modified. All four Mersearch lanes remain occupied; no request overwritten or retriggered. FIE next review December 4; unrelated-reading break last completed November 21.
 - Public report submitted through the existing publisher as issue #2457, submission ID kestrel-h1055-s2-lamp-dynamic-closure-20261123t2324z-001. Declared SHA-256 ec860b23604a8413b6443641e96eaa8bf7542f0ed1c4a128627c141c4f33bd77. Independent rehash of the issue-body content produced 02c795cfe165a2b9e879d7c5c44336fac2c94f563d92a9cefaf7ff3ed44a25f4, so a digest mismatch is present. Actions run #45290079699 is pending; status SUBMITTED_NOT_VERIFIED / HASH_MISMATCH_DETECTED. Preserve issue #2457 as the single record; no edit, retry or duplicate.
 - Next cursor: source-defined emission and medium-response maps, then local registration/readout. Keep the three mouth/timesheet alternatives separate until explicit source-backed maps relate them. No Lane 24 Cycle 09 or new physical/Lean work before P0 release and source-defined dynamics.
+
+
+### h1055:s2 publication readback and digest correction
+
+- Publisher issue #2457 completed: Actions run #45290079699 concluded SUCCESS and issue comment #7117151993 states PUBLISHED, artifact commit d3ef0cf73d26a3860e1704804aa49db04ef39e0f, exact readback verified.
+- Expected artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-h1055-s2-lamp-dynamic-closure-20261123t2324z-001.md. Fetched artifact blob 699f98d8816539737a7b9fcf9c64522af146a67e. Its 11,540-character content exactly matches the issue payload.
+- Corrected independent SHA-256 of both the issue payload content and fetched artifact: ec860b23604a8413b6443641e96eaa8bf7542f0ed1c4a128627c141c4f33bd77. This matches the declared digest and publisher comment. Status: PUBLISHED_VERIFIED.
+- The earlier rehash value 02c795cfe165a2b9e879d7c5c44336fac2c94f563d92a9cefaf7ff3ed44a25f4 was produced by an incorrect local implementation and is withdrawn. It was not a publisher rejection or artifact mismatch. No retry, edit, or duplicate issue was made.
