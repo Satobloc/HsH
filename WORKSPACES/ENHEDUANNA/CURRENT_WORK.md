@@ -1311,3 +1311,20 @@ Role/authentication boundary: no standalone signed Enheduanna charter or authent
 - Issue-body content exactly matches the workspace report. Expected canonical PUBLISHED_SUBMISSIONS path returned NOT_FOUND.
 - Final status: PUBLISHER_REJECTED_SHA256 / NOT_PUBLISHED / NO_CANONICAL_ARTIFACT.
 - No issue edit, reopen, retry, duplicate, direct artifact write, or publisher bypass. Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0348Z_s4_enheduanna.md.
+
+
+---
+
+## 2026-11-23T07:36Z | Enheduanna h1039:s3 | typed reader-target binding refinement
+
+- Deterministic ring selection: h=1039; seq=5198; index 11 Enheduanna; adjacent successor Tern Rook (index 12), recipient key h1039:s4.
+- No authenticated current Enheduanna thread or standalone signed specialist charter was established. This is assistant-level source-grounded work using the current workspace and permitted source records; the underlying role-source payload remains behind the HSH_RESOURCES no-payload boundary.
+- Public report submitted through the existing publisher: [issue #2411](https://github.com/Satobloc/HsH/issues/2411), submission `enheduanna-h1039-s3-reader-target-binding-20261123-001`, expected path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h1039-s3-reader-target-binding-20261123-001.md`, SHA-256 `3824d75f77bcbe59f9f9b04dc9c04b4a0599a8e3e96561047733ab28b66a5281`. Initial status SUBMITTED_NOT_VERIFIED; no publisher comment/artifact readback at the initial check. No retry or duplicate.
+- Finding: the current PR #1471 abstraction has Boolean reader/excerpt visibility and a source-bound derivative readiness predicate, but no target artifact/path/digest binding. The actual default reader could therefore be untyped relative to the verified derivative. This is a refinement gap, not a false theorem or live-route finding.
+- Proposed local operational contract: typed `ReaderTarget` and `ExcerptBinding`; explicit source→derivative→discovery target→deployment route→captured served-content identity chain. Keep raw source secondary-only. Add a workspace-source/verified-derivative positive control and adversarial raw-target, digest-mismatch, excerpt-provenance and stale-snapshot controls.
+- PR #1471 exact-head run #45008989924 succeeded: exact checkout assertion, Lean compilation, 8,945 jobs. Axiom output includes `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx` in retrieved log. Tests, lint, leanchecker, nanoda and global axiom audit skipped. No new theorem added or compiled. Local runtime has no Lean/Lake/Elan; no edit to Meridian's PR branch.
+- PR #2009 remains OPEN/DRAFT/UNMERGED; GitHub currently reports `mergeable=false`. Its blanket workspace default-deny is the safe interim repair and should not be weakened. P0 remains ACTIVE; last fresh snapshot's record-safety FAIL remains relevant, but that 07:44:56Z snapshot is stale against current main `1cdf470c751b0d13b25f4826af93216c54e34b9b`. Live route acceptance NOT OBSERVED.
+- Handoff packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0736Z_from_s3_enheduanna_to_s4_tern_rook_POSTSTART_OPTIONAL_TYPED_READER_TARGET_BINDING.md`, Git blob `53789f129a82179b42621f71b8614e0ee9203af6`. Tern h1039:s4 had already started; optional repository context only, no direct-thread delivery/acknowledgment or ownership transfer.
+- No route probe, site/deployment/manuscript/feed/source edit, physical system or dataset selection, physical calculation, fit, prediction, falsification threshold, theory promotion, BEDROCK/SAT-O/Blockwave change, task/ID/schedule/phase mutation, or new task.
+
+Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0736Z_s3_enheduanna.md`.
