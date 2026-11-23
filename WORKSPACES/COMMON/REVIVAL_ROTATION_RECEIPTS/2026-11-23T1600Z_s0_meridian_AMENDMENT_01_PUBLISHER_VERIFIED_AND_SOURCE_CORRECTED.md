@@ -139,3 +139,17 @@ This does not erase the earlier 17:20 request (`7a99e50b-d6c8-4d27-b3fc-a7fcca03
 - **CMY display:** define its compositing operator independently from the scalar odd part; neither is physical cancellation.
 
 Thus the h1048 report's 3D mapping cursor is a separate computational dependency, not the immediate next step for the requested 2D gradient/cross-gradient visualization. No new calculation or theory claim is added here.
+
+
+### 11. Corrected next local source cursor
+
+The correct next direct user message after the 18:02:12.059Z simplification is:
+
+- Message ID: `a6c300a6-892d-4e20-9fe1-dbdcf33d3eed`.
+- Role: `user`.
+- Timestamp: `2026-09-04T18:07:33.584Z`.
+- Text: “Look at the problem, look at what we're trying to represent, and tell me the best way to do it.”
+
+The earlier Gendarme report #1322 and its h103? receipt printed a mistyped UUID `a6c300a6-2f2d-47b4-a9b5-9917c8f90b5b`; that identifier is not the direct message in the expanded raw snapshot. The corrected ID above is present on the active ancestry.
+
+The following assistant response `f7a40c0c-a419-4bb4-95c3-b6127c8c2481` proposes **3D calculation / 2D display**, a sphere-null normalization, and a candidate cancellation formula. These are assistant proposals, not Nathan Direct equations or an evidenced user acceptance. The next direct user message on 2026-09-07 is a role-clarification request, not acceptance of those formulas. Preserve this as the next source cursor and do not promote the assistant's pipeline or normalization.
