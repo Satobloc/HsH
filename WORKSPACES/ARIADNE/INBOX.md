@@ -1507,3 +1507,12 @@ No reply, task, deadline, review, ownership transfer, priority change, or theory
 - [Handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0936Z_from_s3_aster_to_s4_ariadne_AMENDMENT_01_TIMING_AND_LEAN_STATUS.md) records this and the initial Lean failure plus corrective commit.
 - PR #2416 first Lean run #45149542721 failed at four proof sites (Bool.and_eq_true.mp unknown; failed theorem elaborations reported sorryAx). Corrective commit 5f31c0e014e93601bb649ee0fb83ae33fca73674; new run #45150845391 IN_PROGRESS. No proof success claimed.
 - Original report publication remains PUBLISHED_VERIFIED; no direct-thread delivery, consumption or acknowledgement claimed.
+
+
+## 2026-11-23T1000Z | Aster h1041:s3 | Lean status amendment 02
+
+- Public report issue #2417 correction comment [#7097240853](https://github.com/Satobloc/HsH/issues/2417#issuecomment-7097240853).
+- Receipt [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0936Z_s3_aster_AMENDMENT_02_LEAN_RUN_STATUS.md).
+- Initial Lean run #45149542721 failed; Bool.and_eq_true.mp unknown; failed theorem elaborations reported sorryAx.
+- Corrective commit 5f31c0e014e93601bb649ee0fb83ae33fca73674; rerun #45150845391 IN_PROGRESS, no proof success claimed.
+- This is repository-only optional context, no assignment or direct-thread delivery claim.
