@@ -245,3 +245,57 @@ theorem coreRatio_readout_does_not_factor
 #print axioms coreRatio_readout_does_not_factor
 
 end HsHVerification.NadirRotoexpandoUIProjection
+
+
+/-!
+## Point-pair / oriented-segment source equivalence
+
+The Rotoexpando geometry source writes an ordered endpoint pair as an
+oriented affine segment. The parameter interval retains the endpoint order.
+This section proves exact endpoint recovery and injectivity on that
+parameterized-segment representation. It does not identify arbitrary
+curves, helices, framed spheres, phase oscillators, or toroidal windings.
+-/
+
+namespace HsHVerification.NadirRotoexpandoUIProjection.PointPairSegment
+
+/-- Coordinate points in a finite-dimensional real affine model. -/
+abbrev CoordinatePoint (d : ℕ) := Fin d → ℝ
+
+/-- The closed unit interval supplies an ordered segment parameter. -/
+abbrev ClosedUnitInterval := Set.Icc (0 : ℝ) 1
+
+/-- The oriented affine segment from p to q, parameterized from p at 0 to q at 1. -/
+def orientedAffineSegment {d : ℕ} (p q : CoordinatePoint d) :
+    ClosedUnitInterval → CoordinatePoint d :=
+  fun u i => (1 - (u : ℝ)) * p i + (u : ℝ) * q i
+
+/-- Recover the ordered endpoints from a parameterized segment. -/
+def orientedSegmentEndpoints {d : ℕ}
+    (s : ClosedUnitInterval → CoordinatePoint d) :
+    CoordinatePoint d × CoordinatePoint d :=
+  (s ⟨0, by norm_num⟩, s ⟨1, by norm_num⟩)
+
+/-- Endpoint recovery is a left inverse of the point-pair-to-segment map. -/
+theorem orientedSegmentEndpoints_orientedAffineSegment
+    {d : ℕ} (p q : CoordinatePoint d) :
+    orientedSegmentEndpoints (orientedAffineSegment p q) = (p, q) := by
+  apply Prod.ext
+  · ext i
+    simp [orientedSegmentEndpoints, orientedAffineSegment]
+  · ext i
+    simp [orientedSegmentEndpoints, orientedAffineSegment]
+
+/-- Consequently, the parameterized oriented segment uniquely determines
+its ordered endpoint pair. This is injectivity on the affine-segment image,
+not a claim that every curve is an affine segment. -/
+theorem orientedAffineSegment_injective {d : ℕ} :
+    Function.Injective (fun pq : CoordinatePoint d × CoordinatePoint d =>
+      orientedAffineSegment pq.1 pq.2) := by
+  intro a b h
+  have h' := congrArg orientedSegmentEndpoints h
+  rw [orientedSegmentEndpoints_orientedAffineSegment,
+      orientedSegmentEndpoints_orientedAffineSegment] at h'
+  exact h'
+
+end HsHVerification.NadirRotoexpandoUIProjection.PointPairSegment
