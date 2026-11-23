@@ -9,7 +9,7 @@ The September 21 direct instruction to apply Minkowski and inspect geometry is r
 
 Existing PR #873 supplies conditional Lean results for moving-slice geometry, intersection dimensions, Minkowski timelike structure, and the positive-metric/unit-timelike incompatibility. Exact-head CI run #44090154878 succeeded. This verifies the formalized statements only; it does not validate the source translation or physical premises.
 
-[H1044:s0 Crullerverse and SAT4D type-fidelity report](2026-11-23T1200Z_H1044_S0_CRULLERVERSE_W_TIME_PROPER_SAT4D_TYPE_FIDELITY.md). Publisher issue #2425 was opened through the existing HsH issue publisher; artifact verification is pending at this checkpoint. No new Lean module, physical calculation, CODATA scoring, equation correction, BEDROCK promotion, or paper-gate change.
+[H1044:s0 Crullerverse and SAT4D type-fidelity report](2026-11-23T1200Z_H1044_S0_CRULLERVERSE_W_TIME_PROPER_SAT4D_TYPE_FIDELITY.md). Publisher issue [#2425](https://github.com/Satobloc/HsH/issues/2425) completed successfully. [published artifact](../COMMON/PUBLISHED_SUBMISSIONS/kestrel-h1044-s0-crullerverse-type-fidelity-20261123t1200z-001.md); workflow run #45180982284 and confirmation #7102144497 report exact SHA-256 match and independent readback. No new Lean module, physical calculation, CODATA scoring, equation correction, BEDROCK promotion, or paper-gate change.
 
 Next: define the spatial base, proper-time parameterization, timesheet, finite-core thickening, boundary, mouth, and explicit projection/composition maps. Preserve all three mouth/timesheet alternatives until a primary source selects one.
 
