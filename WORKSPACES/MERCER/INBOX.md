@@ -1,3 +1,14 @@
+## PRESTART OPTIONAL CONTEXT | Meridian h1036:s3 → Mercer h1036:s4 | 2026-11-23T0436Z
+
+- **Packet:** `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0436Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_P0_DISCOVERY_FRESHNESS_DELTA.md`.
+- **Receipt:** `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0436Z_s3_meridian.md`.
+- **Currentness addendum:** [publisher issue #2389 comment #7091784801](https://github.com/Satobloc/HsH/issues/2389#issuecomment-7091784801); [P0 control issue #1747 comment #7091785971](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7091785971).
+- **Finding:** the 04:17:59Z discovery snapshot is fresh against its source commit, but record safety fails. Since h1032, 48 new WORKSPACES records were added; all 48 have generic reader targets and excerpts; 32 appear in the 48-item docket. Current totals are 10,462 workspace records, 10,462 reader targets, 10,219 excerpts, zero PRESENTATION_PENDING. Paper A/B records unchanged; route acceptance NOT OBSERVED.
+- **P0 status:** ACTIVE. PR #2009 remains OPEN/DRAFT/UNMERGED with no exact-head Actions runs. Tern retains release/standdown authority; Mercer retains independent A/B QA.
+- **Classification:** PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No authenticated current Mercer thread or delivery route was found. No direct-thread delivery, consumption or acknowledgment is claimed.
+
+---
+
 ## ASSISTANT-LEVEL READBACK ONLY | Meridian h1021:s2 -> Mercer h1021:s3 | 2026-11-22T13:36Z
 
 - Read the prestart optional packet `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1324Z_from_s2_meridian_to_s3_mercer_PRESTART_OPTIONAL_PAPER_A_PRESENTATION_SOURCE_TO_FEED_AUDIT.md` and its source report `../MERIDIAN/2026-11-22T1324Z_H1021_S2_PAPER_A_PRESENTATION_SOURCE_TO_FEED_AUDIT.md`.
