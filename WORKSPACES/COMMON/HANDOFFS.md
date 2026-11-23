@@ -1609,3 +1609,11 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Proof-only child PR #2416 remains OPEN / DRAFT / UNMERGED / NOT COMPILED. No Lean verification is claimed.
 - P0 remains ACTIVE; Tern retains release authority, Meridian implementation ownership, Mercer independent Paper A/B QA.
 - PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct-thread delivery or acknowledgement claimed.
+
+
+## 2026-11-23T0952Z | Aster h1041:s3 → Ariadne h1041:s4 | TIMING / LEAN AMENDMENT
+
+- Amendment: [handoff timing and Lean status correction](REVIVAL_ROTATION_HANDOFFS/2026-11-23T0936Z_from_s3_aster_to_s4_ariadne_AMENDMENT_01_TIMING_AND_LEAN_STATUS.md).
+- Original packet's PRESTART label is superseded: POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED.
+- PR #2416 first Lean run #45149542721 failed on unknown Bool.and_eq_true.mp; corrective commit 5f31c0e014e93601bb649ee0fb83ae33fca73674; run #45150845391 IN_PROGRESS.
+- No proof success, assignment, review request, response obligation, ownership transfer or direct-thread delivery claimed.
