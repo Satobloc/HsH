@@ -1,3 +1,16 @@
+## Latest checkpoint — Ravel h1044:s3 (2026-11-23T12:36Z)
+
+**New formal result:** a fixed-basis hard-core diagonal-zero constraint does not select exchange parity; explicit nonzero exchange-even and exchange-odd witnesses satisfy it. A stronger all-superposition quadratic-zero condition forces a 2×2 coefficient matrix to be skew-symmetric. Lean 4.34.0 / Lake 5.0.0 merge-reference build [#45186541338](https://github.com/Satobloc/HsH/actions/runs/45186541338) passed 8,957 jobs; executable `#eval` returned `(1, 1)`. No `sorryAx`/`admit`; tests, lint, leanchecker, nanoda and global axiom audit skipped. This is a bounded algebraic result, not a Hilbert-space or spin-statistics derivation.
+
+- Report: [Ravel h1044:s3](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/RAVEL/2026-11-23T1236Z_H1044_S3_GEOMETRIC_HARDCORE_VS_EXCHANGE_PARITY_GATE.md).
+- Publisher: [issue #2426](https://github.com/Satobloc/HsH/issues/2426), **PUBLISHED_VERIFIED**, SHA-256 `fe0772bc6a7b274e2bd46ac446835faa96bd03f67272b0ef0b6bfc863d8e0501`; artifact equals workspace report and issue content byte-for-byte. [Receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1236Z_s3_ravel.md) · [Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1236Z_s3_ravel_AMENDMENT_01_PUBLISHED_VERIFIED.md).
+- Existing [PR #1133](https://github.com/Satobloc/HsH/pull/1133) remains OPEN / DRAFT / UNMERGED. No exact-head-only build, formal review, merge or BEDROCK promotion.
+- Direct source proposal remains tentative. Coil-to-Pauli needs a complete exchange map including spin/internal labels; a boson-universal core exclusion would be an additional H(s)H prediction. He I is only a candidate data anchor; raw spectra/covariance not retrieved, no fit or physical calculation.
+- P0 remains ACTIVE; P1 remains Orson-owned and protected; P2 Nov 30 HOLD; P3 Dec 14 incomplete. FIE next target Dec 4; unrelated-reading break completed Nov 21.
+- Next ring label Orson Vay; no handoff because this work is outside his protected P1 cognition remit. No authenticated Ravel thread or cross-thread delivery claim. Existing :36 task ID/schedule/Worldtube phase unchanged; no sixth task.
+
+---
+
 ## Latest checkpoint — Ravel h1037:s0 (2026-11-23T05:00Z)
 
 **New source-fidelity delta:** the September 7 direct correction is **coiling = periodicity**, not a separate fourth structural level. The Kerr core / probable layer / coiling sequence remains an ordered proposal, not a proven nesting map. The later core-exclusion ↔ Pauli and shell ↔ closed-string / vibration-mode correspondences remain hypotheses. Assistant-added S1/S2 topology, mode expansions, and electron-like Kerr calculations are not Nathan Direct and are not promoted.
