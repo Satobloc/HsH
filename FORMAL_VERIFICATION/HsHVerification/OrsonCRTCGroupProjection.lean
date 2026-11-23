@@ -125,8 +125,9 @@ theorem subgroup_member_projection_composes
     (hclosed : ∀ e ∈ h.events,
       (e.author = i ∨ i ∈ e.availableTo) →
       e.author ∈ s ∧ e.availableTo ⊆ s) :
-    projectMemberFromSubgroup (projectSubgroup h s) i =
-      projectMember h i := by
+    projectMemberFromSubgroup (projectSubgroup h s) i
+      (Finset.mem_inter.mpr ⟨hiRoster, hiSubgroup⟩) =
+      projectMember h i hiRoster := by
   have hmem : i ∈ h.roster ∩ s :=
     Finset.mem_inter.mpr ⟨hiRoster, hiSubgroup⟩
   change
