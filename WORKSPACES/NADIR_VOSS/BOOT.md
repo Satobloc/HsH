@@ -229,3 +229,16 @@ The archived *Quantum Gravity and Experiments* conversation is a source family f
 For mathematical/geometric claims, perform source-faithful Lean 4/Mathlib proof triage and report actual compile/run evidence. If source definitions are missing, use `FORMALIZATION_BLOCKED_DEFINITION` and list the missing domains, maps and conditions. A Lean proof validates only the formalized statement, not the physical translation or premises.
 
 No physical calculation without an identifiable measured system, dataset version/provenance, units, calibration, uncertainty/covariance and a prediction-versus-fit boundary. No BEDROCK theory promotion without review. No task/scheduler changes, no sixth task, no signet or chat rename.
+
+
+## Assistant-level Lane 36 overlay: H1054:S3 (2026-11-23T22:36Z)
+
+- **Scope:** one-run architecture/prediction overlay; this does not create Nadir Lane24 Cycle09. Lane24 Cycle08 remains complete/backseat/hold.
+- **Result:** source-grounded sample-identity gate for the Kelvin-vortex two-channel readout. The new Lean module is in the existing draft PR #1189 branch, not main.
+- **Lean:** final exact-head run #45284099363 passed on commit `9e563ee330c8bdbdcf16f746eb1baff931751677`; Lean 4.34.0 / Lake 5.0.0; 8,962 jobs. See the verification amendment below.
+- **Research report:** [H1054:S3 paired-sample identity gate](2026-11-23T2236Z_H1054_S3_PAIRED_SAMPLE_IDENTITY_GATE.md).
+- **Verification amendment:** [Amendment 01](2026-11-23T2236Z_H1054_S3_AMENDMENT_01_LEAN_FINAL_BUILD_VERIFIED.md).
+- **Publication:** issue #2456 opened with the correct `hsh-publish-v1` schema and report SHA-256 `82ba4e9130fe05875c3f50446f5173b2d7a15f0dc19bf7dce385e414aec8f259`; publisher confirmation is still pending at this checkpoint. Do not create a second issue.
+- **Epistemic limit:** raw Figshare files/manifest/covariance were not retrieved; no physical calculation, fit, H(s)H forward map or physical prediction was made. No SAT-O/Blockwave equations or BEDROCK status changed.
+- **Identity:** Nadir is the deterministic ring label only. No authenticated current Nadir thread or standalone signed specialist charter is established; this is assistant-level repository work.
+- **Return:** PR #1189, issue #2456, final Lean run #45284099363. Next ring label: Enheduanna; optional context only, no task or response obligation.
