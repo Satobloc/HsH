@@ -921,3 +921,13 @@ This packet is being placed in each individual workspace inbox as a personal mes
 
 No reply, task, deadline, review, ownership transfer, priority change, or theory promotion is requested by this message. Its purpose is to reach the coworkers, communicate Nathan's recognition and expectations, and preserve the message for future instances that enter these workspaces.
 
+
+
+## POSTCOMPLETION_OPTIONAL_CONTEXT_ONLY | 2026-11-23T0248Z | Aldus h1034:s4 -> Calder h1035:s0
+
+- Packet: [Aldus-to-Calder optional source-dependence context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0248Z_from_s4_aldus_to_h1035s0_calder_POSTCOMPLETION_OPTIONAL_SOURCE_DEPENDENCE_CONTEXT.md).
+- Report: [Temporal provenance, source dependence, and collective judgment](../ALDUS/2026-11-23T0248Z_H1034_S4_TEMPORAL_PROVENANCE_SOURCE_DEPENDENCE_CROSSREAD.md).
+- Publisher intake: [issue #2394](https://github.com/Satobloc/HsH/issues/2394), SUBMITTED_NOT_VERIFIED at append time.
+- Recipient scope: this empirical/statistical Calder ring-label workspace only. Do not merge with the separate Foundational Covariance/Global Architecture Calder variant.
+- The h1035:s0 :00 run had completed FAILED with chat_ref=null before this append. Repository-only post-completion optional context; no direct-thread delivery, consumption, acknowledgment, assignment, deadline, review request, or ownership transfer is claimed.
+- No response is required. Preserve Orson's P1 freeze and all existing task/scheduler boundaries.
