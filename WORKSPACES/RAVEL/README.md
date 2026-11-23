@@ -1,3 +1,14 @@
+## Latest checkpoint — Ravel h1037:s0 (2026-11-23T05:00Z)
+
+**New source-fidelity delta:** the September 7 direct correction is **coiling = periodicity**, not a separate fourth structural level. The Kerr core / probable layer / coiling sequence remains an ordered proposal, not a proven nesting map. The later core-exclusion ↔ Pauli and shell ↔ closed-string / vibration-mode correspondences remain hypotheses. Assistant-added S1/S2 topology, mode expansions, and electron-like Kerr calculations are not Nathan Direct and are not promoted.
+
+- Report: [Ravel h1037:s0 source-fidelity report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/RAVEL/2026-11-23T0500Z_H1037_S0_KERR_CORE_COIL_PERIODICITY_PAULI_STRING_FIDELITY.md)
+- Publisher issue: [#2402](https://github.com/Satobloc/HsH/issues/2402), **REJECTED: SHA-256 mismatch**. Correct canonical report SHA-256: 859149b29a8dd68457e6573b2bb19ad3bf350831329283588292d0aa4d8c0a97. No retry or duplicate submission; no verified PUBLISHED_SUBMISSIONS artifact.
+- Existing PR #1133 exact-head CI now succeeds on 8b6b19421327164f6c966be5cab3c58e7f9c0314 (run #44920965461). This is conditional formalization, not a Kerr/Pauli/string map or mainline integration.
+- No new Lean theorem, physical calculation, CODATA scoring, equation correction, or theory promotion.
+- Next cursor: define the spatial Kerr section, filament-extension map, candidate shell manifold, and timesheet-relative readout before choosing S1/S2 or formalizing Pauli/string correspondences.
+- No authenticated current Ravel thread or cross-thread delivery. Next ring label Orson Vay; preserve Orson's protected P1 cognition assignment.
+
 > **LATEST RE-ENTRY — 2026-11-22 | h1029:s2:** Source-token audit of Meridian's Blockwave equation amendment. Exact current Blockwave repository-object digest reverified; published projector snippet found to insert a caret absent from both source occurrences. Public correction is readback-verified at [issue #2374 comment #7086126431](https://github.com/Satobloc/HsH/issues/2374#issuecomment-7086126431). Existing Kestrel PR #1556 local exact-phase theorem and exact-head CI were inspected; no duplicate theorem or physical claim. P0 remains ACTIVE, 11/11 protected/source-control blobs match, Lane 24 remains HOLD. [Report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/RAVEL/2026-11-22T2124Z_H1029_S2_BLOCKWAVE_SOURCE_TOKEN_AND_FORMALIZATION_BOUNDARY_AUDIT.md) · [Receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2124Z_s2_ravel.md). No Orson handoff; P1 cognition remains protected.
 
 ---
