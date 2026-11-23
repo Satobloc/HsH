@@ -35,3 +35,9 @@ Existing moving-slice / projection / dimension / sweep-boundary Lean results wer
 - Existing :00 automation ID `6aa1fe0de5e48191b886496095b1343f`, hourly schedule, Archive phase, and enabled state were not changed.
 
 **Final:** `H1054_S0_CALDER / PUBLISHED_VERIFIED / DEC9_RAW_SOURCE_REUSED / SUMMER_ORIGIN_UNRESOLVED / NO_NEW_MERSEARCH / NO_NEW_LEAN / NO_PHYSICAL / NO_CODATA / NO_THEORY_PROMOTION / AUTOMATION_UNCHANGED / NO_SIXTH_TASK / NO_CROSS_THREAD_CLAIM`.
+
+
+## Public source-amendment comment
+
+- Additive comment on the existing publisher issue: [#7116180043](https://github.com/Satobloc/HsH/issues/2453#issuecomment-7116180043).
+- It links the source amendment and records the December 9 raw-source recovery. No new issue or publisher submission was created.
