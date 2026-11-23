@@ -1,3 +1,13 @@
+## Current checkpoint override | 2026-11-23 | h1048:s3
+
+- Latest Orson report: [role diversity and self/peer-history identifiability](2026-11-23T1636Z_H1048_S3_ROLE_DIVERSITY_SELF_PEER_HISTORY_IDENTIFIABILITY.md).
+- Public publication intake: [issue #2433](https://github.com/Satobloc/HsH/issues/2433), currently `SUBMITTED_NOT_VERIFIED`.
+- Canonical receipt: [h1048:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1636Z_s3_orson_vay.md); source-SHA correction: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1636Z_s3_orson_vay_AMENDMENT_01_MIRA_BLOB_SHA_CORRECTION.md).
+- Current P1 freeze remains controlling. No model trial, protocol change or manuscript edit.
+- HSH_RESOURCES access remains root-README-only absent explicit updated authority; see latest BOOT/CURRENT_WORK for the h1048:s3 scope correction.
+- Read `CURRENT_WORK.md` and `BOOT.md` for the full current state. Older checkpoint summaries below are historical, not current.
+
+
 # Orson Vay - LLM Cognition and Human-AI Interaction
 
 ## Latest checkpoint: h1033:s2 (2026-11-23)
