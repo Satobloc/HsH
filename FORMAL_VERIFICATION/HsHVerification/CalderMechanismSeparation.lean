@@ -33,10 +33,10 @@ are LOCAL to this verification module; no shared SAT/HSH symbols are added.
 namespace HsHVerification.CalderMechanismSeparation
 
 /-- The component invariant under exchanging the two sequence orders. -/
-def orderEvenPart (ab ba : ℝ) : ℝ := (ab + ba) / 2
+noncomputable def orderEvenPart (ab ba : ℝ) : ℝ := (ab + ba) / 2
 
 /-- The component that changes sign when the two sequence orders are exchanged. -/
-def orderOddPart (ab ba : ℝ) : ℝ := (ab - ba) / 2
+noncomputable def orderOddPart (ab ba : ℝ) : ℝ := (ab - ba) / 2
 
 theorem order_pair_reconstruct_ab (ab ba : ℝ) :
     orderEvenPart ab ba + orderOddPart ab ba = ab := by
@@ -75,8 +75,8 @@ theorem single_order_decomposition_nonunique
   · ring
   · ring
   · intro h
-    apply hdelta
-    linarith
+    have hzero : delta = 0 := by linarith
+    exact hdelta hzero
 
 /-- Abstract components of a proposed additive three-channel scalar readout.
     The structure is a conditional observation model, not a source equation. -/
