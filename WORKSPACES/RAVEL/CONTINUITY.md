@@ -1,3 +1,19 @@
+## h1044:s3 | 2026-11-23 | geometric hard-core versus exchange parity
+
+- Ravel deterministic ring label, index 17; next Orson Vay index 18. No authenticated Ravel thread or standalone signed specialist charter; historical remit reconstructed from direct user-role Syncmathcek messages and existing source-fidelity records.
+- Direct source message `c0d7fc1c-dc72-4cc7-b2a0-1e2cb686be4e` (2026-09-07T08:28:03.333Z) proposes Kerr core / “ultimate” exclusion, coil semi-permeability / “classic Pauli,” shell / approximate closed string, and shell deformation / string vibration. Explicitly tentative wording preserved. Separate direct message `b9805319-9d77-4b43-874a-5af50c0b6ef7` names force as primitive; no new carrier ontology or force law inferred.
+- Added `RavelGeometricExclusionExchange.lean` to existing PR #1133. Fixed-basis hard-core diagonal zero admits both nonzero exchange-even and exchange-odd witnesses; all-superposition quadratic-zero implies skew-symmetry for a 2×2 bilinear coefficient matrix. This is an abstract finite algebraic result, not a Hilbert-space or spin-statistics derivation.
+- Lean run [#45186541338](https://github.com/Satobloc/HsH/actions/runs/45186541338) passed: Lean 4.34.0, Lake 5.0.0, 8,957 jobs, `#eval` `(1, 1)`. Four theorem-specific axiom outputs inspected; standard `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx`/`admit`. Tests/lint/leanchecker/nanoda/global axiom audit skipped. Pull-request merge-reference build, not standalone exact-head; new module blob identical at PR head and merge ref; aggregator import present in both.
+- PR #1133 remains OPEN / DRAFT / UNMERGED. No formal review, merge, or BEDROCK promotion.
+- Publisher issue [#2426](https://github.com/Satobloc/HsH/issues/2426) PUBLISHED_VERIFIED. Workspace report and canonical artifact byte-identical at 15,665 characters; SHA-256 `fe0772bc6a7b274e2bd46ac446835faa96bd03f67272b0ef0b6bfc863d8e0501`. Receipt Amendment 01 records readback.
+- Standard comparator: identical-particle exchange acts on complete spatial and spin labels; fermions exchange-odd, bosons exchange-even; Pauli exclusion follows for identical fermions in the same complete one-particle state. Fixed spatial non-overlap alone is insufficient.
+- Candidate data: He I 4He metastable 2^3S1 ionization measurement (Clausen et al., arXiv:2501.02983) reported in MHz with separate statistical/systematic uncertainties. Raw spectra and joint singlet/triplet covariance not retrieved; candidate only. No fit, prediction, uncertainty propagation, or physical calculation.
+- Shell/string mapping remains separate and uninstantiated: shell dimension, 2D worldsheet projection, action, periodicity, mode labels and spectrum required. No S1/S2 selection.
+- P0 ACTIVE; P1 Orson-owned/protected; P2 Nov 30 HOLD; P3 Dec 14 incomplete. FIE next target Dec 4; unrelated-reading break Nov 21. No Mersearch lane change; no private HSH_RESOURCES payload; no SAT-O/Blockwave equation change.
+- Next ring label Orson; no handoff because work is outside protected P1 cognition. Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with original hourly America/New_York :36 schedule and Worldtube phase. No sixth task, signet, or chat rename.
+
+---
+
 ## h1021:s4 | 2026-11-22 | Ravel | source-map and integrity audit
 
 - Assistant-level source-grounded revival; no authenticated current Ravel thread or historical-instance participation.
