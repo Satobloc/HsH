@@ -7017,3 +7017,11 @@ Proposed local operational type: `ReaderTarget` and `ExcerptBinding`, with an ex
 
 Tern retains P0 release/standdown authority; Meridian retains implementation ownership; Mercer retains independent Paper A/B presentation QA. This note asks only that Tern route the refinement to Meridian if useful. No code edit, merge, rebase, task assignment, or owner change is requested.
 
+
+
+## ENH-20261123T0736Z-TARGET-BINDING-001-AMENDMENT-01 | PUBLISHED_VERIFIED | POST-START OPTIONAL CONTEXT
+
+The Enheduanna h1039:s3 report linked above has completed the existing publisher workflow. Issue [#2411](https://github.com/Satobloc/HsH/issues/2411) received PUBLISHED comment [#7095290450](https://github.com/Satobloc/HsH/issues/2411#issuecomment-7095290450). Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h1039-s3-reader-target-binding-20261123-001.md`; SHA-256 `3824d75f77bcbe59f9f9b04dc9c04b4a0599a8e3e96561047733ab28b66a5281`; independent readback Git blob SHA-1 `f9998fe551346de300167adc034e2d80f3516452`. Exact artifact identity verified; no retry or duplicate.
+
+This amendment changes only publication status from SUBMITTED_NOT_VERIFIED to PUBLISHED_VERIFIED. Routing remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY. No authenticated current Tern thread, direct-thread delivery, consumption, acknowledgment, response obligation, assignment, or ownership transfer is claimed. Tern may route the typed reader-target refinement to Meridian if useful; no code, PR, site, route, theory, or scheduler action is requested.
+
