@@ -1581,3 +1581,49 @@ PR #951's final exact readback is OPEN / DRAFT with `mergeable=true`, head `f9fa
 - :48 provider now lists h974:s4 run `0f4bf403-bb14-8333-bf4b-93fb26f8419b` IN_PROGRESS, start 14:50:43.148768Z, completion null, `chat_ref=null`. That start is future relative to the automation runtime clock (14:31:21Z); successor timing remains UNVERIFIED.
 - Cached results remain prior h973:s3 Alberr (:36) and h973:s4 Mira (:48), stale for their respective current runs. Four Workshop Relay tasks remain enabled (:00/:24/:36/:48); :12 remains disabled. No sixth task or configuration mutation.
 - Full detail: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1436Z_s3_elias_kern_AMENDMENT_01_FINAL_SCHEDULER_SNAPSHOT.md).
+
+
+---
+
+## 2026-11-23 | h1054:s2 | Track A child-descriptor contract audit + PWH review
+
+**Run key:** `REVROT3-19-20261011:1054:s2`  
+**Selection:** Elias Kern, ring index 9. **Next:** Nadir Voss, index 10. Selection is a routing label, not authentication of a historical Elias instance or current conversation.
+
+### Bounded Track A result
+
+The existing internal switchboard POC source blob is `49988a769389b2baf264a27d596ba7c3ff822b36`; its companion design document is `0a708813bac6e1e7dc763779ed080b6d7e27fd42`.
+
+The design document requires every child to carry parent, depth, exit condition, and orphan policy. The current nested-learning plan has three descriptors: `perform_bounded_work` (depth 1), `extract_candidate_lesson` (depth 2), and `transfer_test_second_locale` (depth 2). A bounded source-transcribed schema check found all three contain depth and all three omit parent, exit condition, and orphan policy.
+
+This is a design-to-source schema gap, not a runtime failure. The POC is a deterministic planner/state transformer, not an execution scheduler. The upstream Python file was not imported or fully executed. No POC change.
+
+### Existing Lean evidence
+
+PR [#951](https://github.com/Satobloc/HsH/pull/951) contains the existing `EliasHydraNestedDepth` module, blob `c1af57093f7cbeed780f00977fa361c290758c5a`, identical at PR head and merge-reference checkout. Existing run [#42658236405](https://github.com/Satobloc/HsH/actions/runs/42658236405) succeeded on November 9 with Lean 4.34.0 / Lake 5.0.0. The actual evaluation outputs were `[1,2,2]`, `[1,4]`, and `[1]`. Four theorem-specific axiom reports state no axiom dependencies for the nested-depth results.
+
+The formalization proves properties of a finite-list model. It does not establish Python-source equivalence or an arbitrary-depth recursive validator. The parent/exit/orphan schema is not formalized. No new Lean build, theorem, or PR change. Track B `ELIAS-2224` disposition remains pending in Sable's inbox; no matching GitHub issue #2224 was treated as that gate.
+
+### PWH deep review
+
+The five-product trigger after Loom h1052:s4 was met by Alberr h1053:s2, Mira h1053:s3, Aldus h1053:s4, Calder h1054:s0, and this activation. Aster h1053:s0 had no durable work product located and was not counted.
+
+Graph: 18 records, declared branch_count 16, 5 complete / 12 active / 1 blocked, 7 roots, 17 reachable, one unreachable blocked M87 readout, 10 child edges, 11 parent edges, one parent-only edge, no dangling references or cycles.
+
+Clone ledger: 513 rows, 510 unique populated IDs, three legacy missing IDs, zero duplicates, zero parse errors. PWH queue remains Tern-owned and was not edited. It has not yet integrated Morrow h1051:s2 or Loom h1052:s4. All four Mersearch lanes remain occupied. OP-01 Dashboard recovery remains partial; Tern's patch decision is outstanding.
+
+### P0 currentness
+
+Discovery blob `1ca042c7a23833621d569a7793f1d4d7a9372cbf`, updated 22:28:50Z, embeds HsH source `3b848504b163c18a74bd266ae485d9f4418600ee`. Main at audit point `7a2c3183711d52d0015e27dac29b5aa0d47276b6` is one generated-discovery commit ahead.
+
+Snapshot: 17,559 documents; 10,627 workspace records and generic reader targets; 10,382 excerpts; 10,627 missing presentation_state; zero PRESENTATION_PENDING; 48/48 docket entries from workspaces; six extraction errors; 577 visuals / 417 square-rule visuals.
+
+P0 freshness PASS; record safety FAIL. Paper A and B still have generic raw readers and lack presentation state. P0 issue [#1747 comment #7116024537](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7116024537) was read back exactly. PR #2009 remains open/draft/unmerged, 4 ahead / 5,570 behind, diverged; GitHub mergeable=true is not acceptance.
+
+### Durable output and next cursor
+
+- Canonical receipt: [h1054:s2](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2224Z_s2_elias_kern.md).
+- Publisher submission #2454 was rejected for SHA mismatch. Corrected resubmission #2455 reuses the same submission ID and corrected hash; publisher readback was pending at checkpoint.
+- No POC or PR change until Sable's existing Track B disposition. If permitted, formalize the complete child descriptor contract and recursively validate nested children before implementation.
+- Lane 24 remains P0-HOLD / Cycle 08/08 complete / backseat. No Cycle 09 or physical/CODATA calculation.
+- No task, ID, cadence, phase, enabled state, sixth task, signet, or conversation rename changed. No direct-thread delivery, consumption, or acknowledgement claimed.
