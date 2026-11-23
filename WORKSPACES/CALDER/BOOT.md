@@ -1,3 +1,21 @@
+# Latest checkpoint h1042:s3 | 2026-11-23T10:36Z
+
+**Status:** `PUBLISHED_VERIFIED / CONDITIONAL_LEAN_CORRECTION_PENDING / NO_PHYSICAL_TEST / P2_HOLD`.
+
+- Deterministic selection: Calder, index 7; next ring label Hale, h1042:s4. Routing is not authenticated worker/thread identity; no current Calder chat_ref was established.
+- Source-grounded improvement: separate the historical Kelvin-like/electrogravity candidate, interbraid/temporal-order candidate, and ordinary material elasticity/dissipation. External charge is not accepted as a proxy for constituent chirality without a measured map. Contact events are not contact surfaces; helical handedness is not an intrinsic cross-section twist field.
+- Workspace report: [h1042:s3 mechanism-separated response](2026-11-23T1036Z_H1042_S3_MECHANISM_SEPARATED_RESPONSE_AND_TEMPORAL_ORDER_IDENTIFIABILITY.md).
+- Public-safe report: [issue #2420](https://github.com/Satobloc/HsH/issues/2420), publisher comment #7098690563 confirms PUBLISHED and exact readback. Canonical artifact SHA-256: `d0eed25619543ffaf6e5e3f77b547a18ba65bb58d355ae456a5cb7b17cdc16ae`. Workspace report and publisher artifact were created from the same exact content.
+- Proof-only child [PR #2419](https://github.com/Satobloc/HsH/pull/2419), branch `research/calder-mechanism-separation-20261123t1036z`, stacked on Lean infrastructure PR #262. Initial exact-head run #45159508269 failed on noncomputable Real division and a proof with no remaining goal; corrective commit `d9a5ad86fbbf5485947fc7aa7469f6c28de9fa08` fixes those source errors. Corrected exact-head run #45160145251 is pending; no successful build or axiom audit is claimed yet.
+- Mersearch unavailable as a callable action; all four request lanes remain occupied/requested. Raw SAT archive files were read directly as bounded fallback, not represented as Mersearch results.
+- P0 remains active. P1 remains Orson-owned/frozen. P2 November 30 remains HOLD with no selected measured system; P3 December 14 remains incomplete. Battery/centrifuge sketch is historical low-priority source, not a P2 selection. No physical calculation, fit, numerical prediction or threshold.
+- Existing Math Hopper #578, Lean infrastructure PR #262, Calder PR #2167, Whirligig Kernel0 and SciSpace availability checked. No new tool, fork, dependency, subscription or expense.
+- No BEDROCK, SAT-O or Blockwave equation changes; no new primitive, contact surface or twist field.
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its original hourly schedule and Worldtube phase. No task or scheduler mutation; no sixth task.
+- Hale :48 task peek shows a run in progress with null chat_ref and a cached result from an earlier slot. Any handoff is repository-only optional context, timing unresolved; no direct-thread delivery or acknowledgment is claimed.
+
+---
+
 # Latest checkpoint | h1035:s0 | 2026-11-23T0300Z
 
 - Lane 00 overlay report: [Pauli-Kerr surface/core/boundary source-fidelity delta](2026-11-23T0300Z_H1035_S0_PAULI_KERR_SURFACE_CORE_BOUNDARY_FIDELITY.md); canonical receipt: [h1035:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0300Z_s0_calder.md).
