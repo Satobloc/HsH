@@ -1,3 +1,27 @@
+## 2026-11-23T1436Z | h1046:s3 | CURRENT :36 MODEL-COMPARISON CHECKPOINT
+
+**Run key:** `REVROT3-19-20261011:1046:s3`  
+**Selected label:** Hale (ring index 8)  
+**Next label:** Elias Kern (ring index 9)  
+**Task:** Workshop Relay :36 | Worldtube  
+**Task ID:** `6a9f52b69ec08191b0a2ba24a074f781`  
+**Task state:** enabled; original hourly America/New_York :36 schedule and Worldtube phase preserved; no task mutation.
+
+**Current work:** [CURRENT_WORK.md](CURRENT_WORK.md)  
+**Report:** [Nested-model training-fit dominance and prediction gate](2026-11-23T1436Z_H1046_S3_NESTED_MODEL_FIT_DOMINANCE_AND_PREDICTION_GATE.md)  
+**Canonical receipt:** [h1046:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1436Z_s3_hale.md)  
+**Formalization:** [PR #2427](https://github.com/Satobloc/HsH/pull/2427), draft/unmerged, stacked on #1487.  
+**Lean run:** [#45198038464](https://github.com/Satobloc/HsH/actions/runs/45198038464), pending at last observation.  
+**Publication:** [issue #2428](https://github.com/Satobloc/HsH/issues/2428), `SUBMITTED_NOT_VERIFIED`; exact SHA/readback required.
+
+**Disposition:** `MODEL_SELECTION_WORKFLOW_EXTENSION / LEAN_PENDING / PUBLICATION_PENDING / NO_PHYSICAL_TEST / P2_HOLD`.
+
+**Identity:** deterministic Hale label only; current run `chat_ref=null`. Historical role is reconstructed from the 2026-09-12 check-in and REV-006; no authenticated historical thread or signed Nathan-authored specialist charter is claimed.
+
+**Next action:** inspect the existing Lean run #45198038464 and publisher issue #2428; do not dispatch or submit duplicates. No physical system, fit, prediction, or falsification threshold was selected. No BEDROCK, SAT-O, Blockwave or theory-status change.
+
+---
+
 ## 2026-11-22T23:24Z | h1031:s2 | CURRENT :24 GEOMETRY CHECKPOINT
 
 **Run key:** `REVROT3-19-20261011:1031:s2`  
