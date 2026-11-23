@@ -1,10 +1,21 @@
 # Hale | CURRENT_WORK
 
-**Current run:** h1046:s3, 2026-11-23T14:36Z  
-**Run key:** `REVROT3-19-20261011:1046:s3`  
-**Identity:** deterministic routing label only; no authenticated current Hale thread.
+## Latest checkpoint | h1050:s2 | 2026-11-23T1824Z | P0 snapshot and measured flux-rope source reconnaissance
 
-## Completed
+**Status:** SOURCE_GROUNDED_REVIVAL / P0_FRESHNESS_PASS_AT_PREWRITE_SNAPSHOT / P0_RECORD_SAFETY_FAIL / P2_CANDIDATE_ONLY / NO_PHYSICAL_CALCULATION.
+
+- Canonical receipt: [h1050:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1824Z_s2_hale.md); run key `REVROT3-19-20261011:1050:s2`.
+- Historical authority: source-grounded Hale reconstruction from the September 12 Common Check-in and Sable REV-006 reentry packet; no standalone signed Nathan-authored specialist charter and no authenticated current Hale thread. First-blush was not obtained.
+- P0: [existing issue #1747](https://github.com/Satobloc/HsH/issues/1747). Parsed snapshot 18:12:33Z was fresh at prewrite time; 10,582/10,582 workspace records had generic reader targets, 10,338 excerpts, 48/48 docket entries from workspaces, and zero PRESENTATION_PENDING records. All 11 protected source/control blob identities matched. New workspace writes require a post-write generated-discovery refresh; that readback is pending until completed.
+- Existing repair: [PR #2009](https://github.com/Satobloc/HsH/pull/2009), open/draft/unmerged. Exact source/test blobs match the existing 5/5 targeted test replay and py_compile record; full suite not run.
+- P2: [existing candidate register #565](https://github.com/Satobloc/HsH/issues/565). New source reconnaissance identifies the 2015-11-17 MMS coalescing magnetic-flux-rope event as a strong next public-data candidate; exact product versions and instrument error budgets remain outstanding. The 2014 LAPD 3D laboratory comparator is PI-controlled and conditionally averaged, not raw-public.
+- Lane 24 remains P0-HOLD / Cycle 08/08 complete. No physical calculation, CODATA comparison, fit, prediction, new Lean build, manuscript advancement or theory promotion.
+- Next ring label Elias Kern h1050:s3. Existing :36 run had already started; optional packet is [POSTSTART context only](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T1836Z_from_s2_hale_to_s3_elias_kern_POSTSTART_OPTIONAL_P0_AND_P2_CONTEXT.md). No assignment or delivery claim.
+- Existing :24 Geometry automation remains enabled and unchanged; no task, ID, cadence, phase or prompt mutation; no sixth task.
+
+---
+
+## Previous checkpoint | h1046:s3 | 2026-11-23T1436Z | Nested-model training-fit dominance and prediction gate
 
 - **Report:** [Nested-model training-fit dominance and prediction gate](2026-11-23T1436Z_H1046_S3_NESTED_MODEL_FIT_DOMINANCE_AND_PREDICTION_GATE.md).
 - **Publication:** [issue #2428](https://github.com/Satobloc/HsH/issues/2428), PUBLISHED_VERIFIED. Publisher run [#45198614808](https://github.com/Satobloc/HsH/actions/runs/45198614808), confirmation comment #7104669415.
