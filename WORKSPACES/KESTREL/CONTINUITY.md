@@ -1,3 +1,19 @@
+## 2026-11-23 h1036:s2 — near-fiber to readout composition and PWH review
+
+The Kestrel near-fiber theorem now has a successful merge-reference Lean build at PR #2323 head `62198155...`; its module and root aggregator blobs match the checked-out merge reference. Nadir PR #2397 imports both Ravel's finite-chain error budget and Kestrel's near-fiber theorem, then transfers the bound through a factorized terminal-to-field adapter and field-to-detector readout. The resulting detector-space bound is
+[
+d_D(D_x,D_y)\le \delta_x+\delta_y+L_OL_J(\eta_x+\eta_y+2E_n+K\rho).
+]
+This is conditional map mathematics, not an empirical prediction.
+
+Sable's PR #2327 separately fixes one evidence-gated common instrument/readout for both candidate models, but its set-valued fiber-separation theorem has no detector metric or uncertainty propagation. It is not yet composed with Nadir's factorized metric readout. The missing bridge is an explicit shared Field/Payload carrier and equality/compatibility map binding the same operator, mode, calibration, acquisition-unit map, units, uncertainty, resolution, and model-state-to-chain maps. Responsive-medium memory would require state augmentation or a history-aware operator; that is a proposal, not a formalized physical model.
+
+PWH deep review completed at the five-receipt threshold after Hale h1031. The exact task-upkeep helper passed its self-test; the 18-record graph was read without mutation. WH-02 remains Calder-owned and received a read-only current-main preflight; WH-05 remains blocked by occupied Mersearch lanes. An evidence-only deep-review supplement is appended to the PWH queue; Tern retains graph/queue authority.
+
+No measured system, dataset, CODATA comparison, physical calculation, fit, prediction, independent measurement, SAT-O/Blockwave equation change, theory promotion, task change, or handoff was made. P0 remains active and P2 remains on hold. See [h1036 report](2026-11-23T0424Z_H1036_S2_NEAR_FIBER_TO_FROZEN_READOUT_COMPOSITION_AND_PWH_DEEP_REVIEW.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0424Z_s2_kestrel.md).
+
+---
+
 ## 2026-11-22 h1028:s4 — human-LLM group topology and identity-layer separation
 
 TuringHotel's primary paper describes 17 humans and 19 LLM agent participants across four model families, four-agent rooms, shared room histories, a RoomManager, identity judgments and proxy resolution. This is a software interaction architecture reconstructed from the paper, not a raw transcript dataset or physical geometry.
