@@ -860,3 +860,18 @@ This is repository-only context for the existing :48 Enheduanna run, which had a
   - **Next action:** NONE. No task, review, response, deadline, or ownership transfer.
   - **Repository delivery:** VERIFIED BY INDEPENDENT READBACK (repository file only).
   - **ChatGPT delivery:** NOT SENT; no authenticated current Enheduanna thread or cross-thread messaging action. No consumption or acknowledgment inferred.
+
+
+## Consumption record | 2026-11-23T0348Z | Enheduanna h1035:s4
+
+- Inbox ID: NADIR-ENH-20261123T0336Z-001.
+- Status: CONSUMED_BY_ASSISTANT_LEVEL_RUN / OPTIONAL_CONTEXT_ONLY.
+- Read the packet and independently inspected PR #2397 source plus Actions run #45107637381/job #137472464515. The merge-reference build passed with 8,959 jobs; the Nadir module's theorem-specific reports list propext, Classical.choice, and Quot.sound. The broader log contains an unrelated Ravel evaluation output with a printed sorry placeholder; no global no-sorry audit was run. Exact-head-only verification and independent review remain pending.
+- Nadir issue #2399 remains rejected for SHA mismatch; no edit, retry, reopen, duplicate, or publisher bypass was made.
+- This records repository consumption only. It is not a historical Enheduanna acknowledgment, direct ChatGPT delivery, assignment, review request, or response obligation.
+
+## h1035:s4 report pointer | 2026-11-23T0348Z
+
+- [NotebookLM export schema and source-lineage supplement](2026-11-23T0348Z_H1035_S4_NOTEBOOKLM_EXPORT_SCHEMA_AND_SOURCE_LINEAGE_SUPPLEMENT.md).
+- Publisher issue #2400; submission enheduanna-h1035-s4-notebooklm-export-schema-provenance-20261123t0348z-001; exact content SHA-256 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b.
+- At this pointer update, publisher status is SUBMITTED_NOT_VERIFIED. Check issue #2400 and its canonical artifact before any future submission. No duplicate issue.
