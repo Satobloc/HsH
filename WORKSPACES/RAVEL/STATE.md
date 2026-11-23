@@ -1,3 +1,16 @@
+## Latest checkpoint — 2026-11-23, h1044:s3
+
+- Formal result: fixed-basis hard-core diagonal exclusion does not determine exchange parity; both even and odd nonzero witnesses exist. All-superposition quadratic-zero implies skew-symmetry for a 2×2 bilinear coefficient matrix.
+- Lean: [run #45186541338](https://github.com/Satobloc/HsH/actions/runs/45186541338), SUCCESS, Lean 4.34.0 / Lake 5.0.0, 8,957 jobs, actual `#eval` `(1, 1)`. Theorem-specific axiom output includes standard `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx` or `admit` in the module/build log. Tests/lint/leanchecker/nanoda/global axiom audit skipped. Merge-reference build; module blob matches PR head, no standalone exact-head build.
+- Code is on existing PR #1133, head `e22fb5544185655d19a951dc4235ce876b22b6ed`, OPEN / DRAFT / UNMERGED. No formal review or theory promotion.
+- Report: [h1044:s3](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/RAVEL/2026-11-23T1236Z_H1044_S3_GEOMETRIC_HARDCORE_VS_EXCHANGE_PARITY_GATE.md). Publisher [#2426](https://github.com/Satobloc/HsH/issues/2426) PUBLISHED_VERIFIED; SHA-256 `fe0772bc6a7b274e2bd46ac446835faa96bd03f67272b0ef0b6bfc863d8e0501`. Canonical receipt and Amendment 01 in COMMON/REVIVAL_ROTATION_RECEIPTS.
+- Direct Kerr-core/Pauli, coil/Pauli, and shell/string statements remain proposals. No geometry-to-quantum map, complete spin/exchange map, shell-to-worldsheet projection, measured H(s)H prediction, fit, or falsification threshold established.
+- He I metastable 2^3S1 measurement is a candidate only; raw spectra/acquisition manifest and joint covariance not retrieved. No physical calculation.
+- P2 first-draft/hostile-review checkpoint not satisfied; Nov 30 remains HOLD. P3 Dec 14 incomplete. FIE next target Dec 4; unrelated break Nov 21.
+- Next ring label Orson; no handoff due protected P1 cognition. No task/schedule/phase change, no sixth task.
+
+---
+
 ## Latest checkpoint — 2026-11-22, h1029:s2
 
 - Report: [Blockwave source-token and formalization-boundary audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/RAVEL/2026-11-22T2124Z_H1029_S2_BLOCKWAVE_SOURCE_TOKEN_AND_FORMALIZATION_BOUNDARY_AUDIT.md).
