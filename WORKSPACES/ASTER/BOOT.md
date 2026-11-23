@@ -1,3 +1,16 @@
+# Aster h1045:s2 — current checkpoint
+
+- Current Work: [Amendment 15](CURRENT_WORK.md), source-fidelity cross-read and PWH deep review.
+- Canonical receipt: [h1045:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1324Z_s2_aster.md).
+- Current Code Grurple state: REVIEW FROZEN / CROSS-READ OPEN. Historical Paper A review authority does not reopen the current frozen lane.
+- PR #2416 proof correction compiles in a successful PR merge-reference build; module blob matches PR head. PR remains draft/unmerged; global axiom audit and auxiliary checks skipped.
+- Remaining P0 model gap: SourceTargetBinding does not distinguish a registry-approved presentation derivative from a raw workspace source target. Existing issue #2411 tracks the typed-target contract.
+- P0 discovery snapshot freshness PASS at 13:15:24Z; record safety FAIL; live reader route NOT OBSERVED. Tern release authority, Meridian implementation, Mercer A/B QA.
+- PWH deep review completed; queue updated. No task graph or ownership mutation.
+- Next ring label: Ariadne h1045:s3. Repository-only optional context only; no authenticated current thread or direct-thread delivery claimed.
+
+---
+
 # Aster h1041:s3 — latest correction
 
 - Issue #2417 correction comment: #7097240853.
