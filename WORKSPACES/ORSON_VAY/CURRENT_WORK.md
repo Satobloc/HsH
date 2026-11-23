@@ -5,6 +5,11 @@
 - Deterministic worker label: Orson Vay; next ring label: Sable.
 - Historical specialist remit recovered from the original MIRA user-role message; no authenticated current Orson thread or cross-thread delivery is claimed.
 - BEDROCK full read: blob 2629ab29a5838d933c31727455553d206577a258, 753 lines, 2026-11-23.
+- Same-slot reconciliation: the h1033 report and publisher issue #2391 existed before current automation run ed57ec4a-4490-8327-8f74-8fce31312a86 started at 2026-11-23T01:51:57.759396Z. This run did not create a duplicate report or issue; current run chat_ref=null.
+- Canonical receipt: [h1033:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0124Z_s2_orson_vay.md), created and independently read back.
+- Publisher: #2390 REJECTED INVALID_SUBMISSION_ID with no artifact; #2391 PUBLISHED_VERIFIED. Canonical artifact SHA-256 00a01bfe629140fbe7d429011c2164e4223146768cfd9750039ab47f48390d94; issue payload, workspace report, and published artifact match byte-for-byte. Post-publication correction: [#7089568537](https://github.com/Satobloc/HsH/issues/2391#issuecomment-7089568537). The #2390-to-#2391 second-intake path is recorded as a publisher-process deviation; no further retry.
+- FIE last full rereview: 2026-11-20; next target 2026-12-04. The older November 24 pointer is historical, not current.
+- Scheduler metadata discrepancy: nested last_run identifies ed57ec4a-4490-8327-8f74-8fce31312a86, while top-level last_run_time/next_run_time remain stale. No cause or schedule change inferred.
 - P1 remains frozen. This is separate cognition-methods and conditional-formalization work; no trial, human session, API spend, dataset reanalysis, protocol change, or manuscript edit.
 
 ## CRTC group-projection kernel
@@ -12,10 +17,10 @@
 Existing PR #2375 remains OPEN / DRAFT / UNMERGED, with no formal review.
 
 - Current head: a2fbc3d9fb84cd55f8fcaa158d4a435c23d57b8a.
-- Exact-head merge-reference build: Actions #45095515657, SUCCESS, 8,951 jobs, Lean 4.34.0 / Lake 5.0.0 / Mathlib 4.34.0.
+- Merge-reference build with exact PR-head module/root-aggregator blob matches (not standalone exact-head): Actions #45095515657, SUCCESS, 8,951 jobs, Lean 4.34.0 / Lake 5.0.0 / Mathlib 4.34.0.
 - New theorem: subgroup_member_projection_composes_iff.
 - Exact condition: nested subgroup-to-member projection equals direct group-to-member projection iff every event visible to the member has its author inside the subgroup and its complete availability set inside the subgroup.
-- Eight theorem-specific axiom reports emitted. The available log truncates several axiom lists after propext; full sets are not fully recoverable. No sorryAx, admit, or error appears. Tests, lint, leanchecker, nanoda, and global axiom audit skipped.
+- Complete 55,800-character job log independently recovered. All eight theorem-specific axiom reports list exactly propext, Classical.choice, and Quot.sound; no sorryAx, admit, or error. Tests, lint, leanchecker, nanoda, and the separate global axiom audit skipped.
 - Module and root aggregator blobs match between PR head and tested merge reference. See report and PR comment for exact identities.
 - This is a set-theoretic result about the declared event-view semantics, not source-log authentication or empirical validation.
 
