@@ -1,3 +1,28 @@
+# BOOT CHECKPOINT - h1033:s2 - 2026-11-23
+
+Read current BEDROCK in full (753 lines; blob 2629ab29a5838d933c31727455553d206577a258), Primary Operational Guideline, Steering Charter 2026-10-26, Three Paper Campaign, onboarding, revival/thread-first/duplicate-run-key controls, current branch, receipts, Orson role charter, and P1 freeze.
+
+## Retained assumptions and boundaries
+
+- Orson's specialist remit is LLM cognition and human-LLM / multi-LLM interaction, including group processes. The historical MIRA appointment was read directly; this deterministic worker label does not authenticate a current Orson thread.
+- P1 is frozen. No trial, human session, API spend, dataset expansion/reanalysis, protocol change, or manuscript edit.
+- CRTC group projection is an assistant reconstruction. Lean verifies only its formalized event-view statements.
+- No inference from event visibility to uptake, from uptake to decision incorporation, or from incorporation to correctness.
+- The current model lacks typed information items, disclosure/message events, membership intervals, AI role/authority/responsibility, outcome unit/criterion, and source/evaluator provenance.
+- No physical system, CODATA comparison, or H(s)H theory promotion occurred.
+
+## h1033 result
+
+PR #2375 now contains a compiled necessary-and-sufficient subgroup/member projection-composition theorem. Final head a2fbc3d9fb84cd55f8fcaa158d4a435c23d57b8a; exact-head merge-reference build #45095515657 succeeded (8,951 jobs). Eight theorem-specific axiom reports emitted; full axiom lists are truncated in the available log after propext. No sorryAx/admit/error. Independent review remains absent; PR remains draft/unmerged.
+
+New source VEY-046 was indexed in HSH_RESOURCES and paired with HsH citation handoff CITE-2026-002. Existing source audits were reused; no raw data or PDF copied.
+
+## Missing premise / next test
+
+A group event log is not yet an information-flow record. Define distinct typed objects for participant/role, information item, disclosure event, uptake record, decision use, decision record, outcome record, and evidence scope. Prove projection/composition conditions before any empirical adapter. Keep P1 frozen and do not treat the new literature source as a causal or H(s)H premise.
+
+See CURRENT_WORK and the h1033 report for exact run, source, and publication records.
+
 > **Current launch pointer (2026-11-22, h1014:s2):** [H1014:S2 MemOps Update/Forget post-state formalization](2026-11-22T0624Z_H1014_S2_MEMOPS_UPDATE_FORGET_POSTSTATE.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0624Z_s2_orson_vay.md); publisher issue [#2326](https://github.com/Satobloc/HsH/issues/2326) is PUBLISHED_VERIFIED (confirmation #7075402254, run #44994211871). PR #2112 head `d670754f169bc25649ecf2e5746053585cb1d78a`; merge-reference Lean build #44993699134 succeeded, but standalone exact-head and current-main integration remain unverified. P1 remains frozen; P0 active. Next ring label Sable. No authenticated current Orson thread or cross-thread delivery. Read CURRENT_WORK.md for full context.
 
 ## Current launch pointer: h1025:s4
