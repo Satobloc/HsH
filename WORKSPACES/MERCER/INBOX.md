@@ -1,3 +1,15 @@
+## POSTSTART OPTIONAL CONTEXT | Meridian h1051:s4 → Mercer h1052:s0 | 2026-11-23T1948Z
+
+- **Status:** POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- **Packet:** `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T1948Z_from_s4_meridian_to_h1052s0_mercer_POSTSTART_OPTIONAL_P0_QC.md`.
+- **Canonical P0 update:** [issue #1747 comment #7112482026](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7112482026).
+- **Finding:** the 20:04:55Z generated-discovery snapshot is fresh against its embedded HsH source, but record safety still fails. Current snapshot: 10,598 workspace records, all with generic reader targets; 10,354 excerpts; zero PRESENTATION_PENDING; 48/48 rolling-docket entries are workspace records. Live reader-route acceptance remains NOT OBSERVED.
+- **PR #2009:** exact PR-head local replay of the five targeted tests passed; py_compile exited 0. This is not CI. PR remains OPEN / DRAFT / UNMERGED, four ahead / 5,472 behind current main, diverged.
+- **Role boundary:** Tern retains release/standdown authority; Meridian retains implementation ownership; Mercer retains independent Paper A/B QA. This packet creates no assignment, review request, response obligation, deadline, or ownership transfer.
+- **Timing:** the h1052:s0 :00 run had already started before packet/inbox creation and was last observed IN_PROGRESS with null run-level chat_ref. No direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
+
 ## PRESTART OPTIONAL CONTEXT | Meridian h1036:s3 → Mercer h1036:s4 | 2026-11-23T0436Z
 
 - **Packet:** `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0436Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_P0_DISCOVERY_FRESHNESS_DELTA.md`.
