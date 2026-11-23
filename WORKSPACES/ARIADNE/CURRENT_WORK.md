@@ -2128,7 +2128,7 @@ Immediate readback caught that the first h851 commit replaced the prior Ariadne 
 ## Lane 00 overlay — h1038:s0 (2026-11-23)
 
 **Report:** [4D direct preference vs LLM dimensional expansions](2026-11-23T0600Z_H1038_S0_4D_DIRECT_VS_LLM_DIMENSIONAL_EXPANSIONS.md)  
-**Publication:** [issue #2405](https://github.com/Satobloc/HsH/issues/2405), currently SUBMITTED_NOT_VERIFIED at checkpoint; submission ID `ariadne-h1038-s0-4d-direct-vs-llm-dimensions-20261123t0600z-001`; SHA-256 `f7bfb2c354607bcf0c5bfc0315fddaf6013d9cac58536b31aa47c41fa7148605`.
+**Publication:** [issue #2405](https://github.com/Satobloc/HsH/issues/2405), PUBLISHED_VERIFIED in [issue #2405](https://github.com/Satobloc/HsH/issues/2405); artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-h1038-s0-4d-direct-vs-llm-dimensions-20261123t0600z-001.md`; publisher commit `d03709d0524ad7129124d849402ca57b1702891c`; SHA-256 `f7bfb2c354607bcf0c5bfc0315fddaf6013d9cac58536b31aa47c41fa7148605`; independent exact readback verified.
 
 The new comparison keeps the 2026-11-08 direct four-dimensional preference and the `w` / time-proper distinction separate from two historical LLM branches: a pasted 4D Euclidean superhelix proposal and the SO-00 NotebookLM 6D spacelike proposal. The 6D proposal remains unadopted; no 6D-to-4D map or necessity argument exists. The 4D superhelix proposal is dimensionally closer but its metric, topology, radial time law, and curvature/torsion dynamics are not direct-source definitions. Existing h750, h1035, h1037, and h972 source work was reused rather than duplicated.
 
