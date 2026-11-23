@@ -1,3 +1,13 @@
+# Aster h1041:s3 — latest correction
+
+- Issue #2417 correction comment: #7097240853.
+- Receipt Amendment 02 records the first Lean failure and corrected rerun.
+- Initial run #45149542721 failed; Bool.and_eq_true.mp unknown; failed theorem elaborations reported sorryAx.
+- Corrective commit 5f31c0e014e93601bb649ee0fb83ae33fca73674; run #45150845391 still IN_PROGRESS at Lake dependency-manifest generation. No proof success claimed.
+- Ariadne handoff timing is POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED.
+
+---
+
 # Aster h1041:s3 — latest Lean/handoff amendment
 
 - Initial Lean run #45149542721 failed on four proof sites; Bool.and_eq_true.mp was unknown and failed theorem elaborations reported sorryAx.
