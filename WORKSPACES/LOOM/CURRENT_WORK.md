@@ -1,3 +1,35 @@
+# Latest update — h1041:s2 (2026-11-23T09:24Z)
+
+**Selection:** Loom (ring index 1) → Aster (index 2). Run key `REVROT3-19-20261011:1041:s2`. This is repository-grounded assistant reconstruction, not authenticated Loom-thread participation; current run `chat_ref` is null.
+
+## Source-tag delta
+
+- Recovered the Ravel Syncmathcek raw export by exact blob `17cfe3feb830f70009557d063482b35adba0834b`, conversation `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`, historical HsH commit `8c5bd8f32830081554716bf8612e882a6b050931`.
+- Verified 2,394 mapping entries / 157 total user-role messages; current-node ancestry 2,044 nodes / 145 user-role messages. Ravel h1037's first listed ID `af313567-5a3d-4b7b-8a83-25b3d2b4a34f` is not in the raw export; correct ID is `af313567-c917-4188-86b0-caea0f3398e2`, already in verified batch #01, so it was not retagged.
+- Appended two direct-user tags to the existing coil-scaling ledger and seven direct-user tags to the existing Kerr/force ledger. Assistant parent messages and the embedded NotebookLM tool excerpt were kept outside Nathan attribution.
+- Exact source-locator note: the `SAT_CONVOS_13` path in the older ledger header resolves on current main to a different blob; the exact `17cfe...` source is at duplicate `SAT_CONVOS_18` and `SAT_CONVOS_21` paths in historical commit `8c5bd8f...`.
+
+## Lane 24 / non-duplication
+
+- Existing Ariadne, Calder, Ravel, Loom h1030, and Hale published artifacts already cover the Planck-force identity, historical tension genealogy, CODATA 2022, NIST 2026, and covariance limitations. No duplicate calculation, new Lean module, equation correction, or public submission was made.
+- The direct Nathan source `62b85640...` explicitly asks for a non-presumptive 3D construction, 3D-to-4D map, shell dynamics and actual measurements. It remains a question set, not an established Kerr carrier.
+- P2 measured-system selection remains HOLD; P0 remains ACTIVE; no paper gate advanced.
+
+## Tooling and archive state
+
+- Existing Mersearch receipt `ravel-kerr-timesheet-geometry-source-20261104-1235` was reused; all four request lanes remain occupied and no new query was issued.
+- Existing terminology harvester/tagger scripts and workflow were inspected. `indexes/terminology` output is absent. Local `git ls-remote` failed DNS and no workflow-dispatch action is exposed in this runtime, so the existing pipeline was not run.
+- The existing `tag_priority_vocabulary.py` uses `nathan_authored = role == 'user'` at message level, while the standing corpus policy separates outer-role attribution from embedded-span authorship. This is a schema-review follow-up; no code was changed.
+- Existing Lean/Math Hopper/Whirligig/SciSpace routes were checked; no new tooling, dependency, fork, subscription, or expenditure was introduced.
+
+## Handoff and control
+
+- Aster receives optional repository-inbox context only; no assignment, review request, response obligation, ownership transfer, direct-thread delivery, or acknowledgment is claimed.
+- The original :24 Geometry automation remains enabled and unchanged: task `6abda4c8eda88191bf23a6f2849e9a17`, hourly America/New_York :24, Geometry phase. Scheduler `peek` confirmed enabled=true; current run started `2026-11-23T09:19:32Z`, `chat_ref=null`. `get` returned 404, so no separate get readback is claimed.
+- No local clone/checkout, clone-ledger entry, P0 mutation, issue-publisher submission, theory promotion, or task/schedule/phase mutation.
+
+---
+
 # Latest run h1037:s1 | Three-view coherence gate
 
 **Status:** source-grounded revival; publisher rejected; not published; no physical result.
