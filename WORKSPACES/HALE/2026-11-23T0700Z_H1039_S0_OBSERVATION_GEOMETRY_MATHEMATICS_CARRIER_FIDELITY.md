@@ -202,15 +202,7 @@ Both original byte sequences were re-read. No original was modified, normalized 
 - File-index dates: created 2025-06-07 08:38:16; last-write 2025-06-09 18:44:50; timezone unspecified. First extant Git commit: 2025-10-27T00:40:28Z.
 - Byline/in-document date: none; unbylined historical module.
 
-Verbatim core fragments:
-
-~~~text
-γ^μ(λ) = (λ, A_x sin(k_x λ + φ_x), A_y sin(k_y λ + φ_y), A_z sin(k_z λ + φ_z))
-v^μ(λ) = dγ^μ/dλ
-S[γ] = ∫ dλ L(γ^μ, v^μ)
-L = 1/2 m v^μ v_μ - V_tension(γ)
-φ_i - φ_j = 2πk/n
-~~~
+The exact equation text is not retyped or normalized here. The complete verbatim transcription, including original notation and source locations, is preserved in [Equation-source Amendment 01, issue #2374](https://github.com/Satobloc/HsH/issues/2374); its additive timestamp correction is comment #7094221385. No corrected equation set is issued.
 
 The file calls γ a smooth one-dimensional curve but calls its worldtube a 4D volume swept by a vibrating filament. The extra sweep/thickening parameters are absent. No replacement equation is supplied.
 
@@ -226,18 +218,7 @@ The file calls γ a smooth one-dimensional curve but calls its worldtube a 4D vo
 - First extant HsH commit: 2026-10-08T02:42:49Z.
 - Embedded author unresolved; the attachment prose is assistant-voiced, not authenticated Nathan Direct.
 
-Verbatim defining fragments include:
-
-~~~text
-u^μ u_μ = -1
-P^\mu{}^\nu \equiv \delta^\mu{}^\nu + u^\mu u_\nu
-J^{μν}, \nabla_μ J^{μν} = 0
-A_μ(θ) \equiv α_* \nabla_μ θ
-F_{μν}(θ) \equiv \nabla_[μ A_{ν]}(θ)
-\oint A·dℓ ∈ 2πℤ
-~~~
-
-Malformed original tokens are preserved, including P^\mu{}^\nu, λ(u^μu\mu+1), J{\mu\nu} and (\nabla\alpha u_μ). No corrected projector, index repair or normalized action was issued.
+The complete original equation fragments and malformed index tokens are preserved verbatim in [Equation-source Amendment 01, issue #2374](https://github.com/Satobloc/HsH/issues/2374). This report deliberately does not normalize or retype them. No corrected projector, index repair or normalized action was issued.
 
 The attachment timestamp previously recorded as 16:31:34.670Z was corrected additively at publisher issue #2374, comment #7094221385. No new submission or duplicate issue was created.
 
