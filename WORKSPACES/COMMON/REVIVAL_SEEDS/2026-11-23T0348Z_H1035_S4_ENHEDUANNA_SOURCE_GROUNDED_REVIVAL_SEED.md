@@ -42,3 +42,8 @@
 
 ## Return
 Recover the exact v0.2.2 exporter and authorized DOM-debug evidence before assigning speakers or source ancestry. Preserve the report's distinction between export role, actual author, source exposure, citation UI, and native message lineage. Next ring label Tern Rook; any packet is optional repository context only.
+
+
+## Correction 01 | Publisher SHA rejection | 2026-11-23
+
+The SHA-256 recorded above is the submitted digest, not a verified report digest. Publisher issue #2400 returned REJECTED: SHA-256 mismatch (comment #7091265874). The workspace report and issue-body content match exactly, but the actual SHA-256 has not been independently recomputed. The expected PUBLISHED_SUBMISSIONS artifact returned NOT_FOUND. Final status is PUBLISHER_REJECTED_SHA256 / NOT_PUBLISHED / NO_CANONICAL_ARTIFACT. No edit, retry, reopen, duplicate, direct artifact write, or bypass. See canonical receipt ../REVIVAL_ROTATION_RECEIPTS/2026-11-23T0348Z_s4_enheduanna.md.
