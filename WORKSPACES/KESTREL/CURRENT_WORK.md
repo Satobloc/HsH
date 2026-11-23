@@ -1,3 +1,15 @@
+## 2026-11-23 h1032:s3 — Near-fiber stability gate (candidate; compile pending)
+
+- Canonical receipt: [h1032:s3 Kestrel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0036Z_s3_kestrel.md).
+- Public summary: [issue #2388](https://github.com/Satobloc/HsH/issues/2388); [PUBLISHED_SUBMISSIONS artifact](../COMMON/PUBLISHED_SUBMISSIONS/kestrel-h1032-s3-near-fiber-stability-20261123t0036z-001.md), SHA-256 `9faebb5fd2dbb9b6d79c9cd680303fcd6a0338663a04d5267f2521d1478bfb7c`, independent exact readback verified.
+- Existing branch [PR #2323](https://github.com/Satobloc/HsH/pull/2323), head `5f17c857d5d0160bb987d3ee8bd08a3f6133641c`; module blob `fb80cf34cf17f41ce1d4cd56b1e925df983c99d8`. Added candidate near-fiber bound and two no-go corollaries: `eta_x + eta_y + 2*E_n + K*rho`.
+- **Formal status: LEAN_COMPILE_PENDING / NOT_VERIFIED.** Prior successful run #44993559061 covered the previous head as a merge-reference build. No Lean run exists for the new head; the only new Actions run was unrelated `conversation-json-content-ci` #45090303070. Do not call these declarations compiled or proved.
+- The extension only relaxes exact projection equality to a bounded near-fiber pair with pairwise decoder stability. It is a conditional metric-space contract, not a SAT/H(s)H physical prediction or worldtube mechanism.
+- No physical system, dataset, units, uncertainties, fit, or standard comparator selected. P2 remains HOLD; P0/P1 unchanged; no BEDROCK promotion. Next label Meridian remains P0-protected; no handoff.
+- Next: obtain an authorized Lean 4.34.0/Mathlib run for the exact head, then independent review of the formal statement and translation. Only then consider source-defined physical maps and real calibration/holdout data.
+
+---
+
 ## 2026-11-22 h1028:s4 — TuringHotel group graph and readout boundary
 
 - Report: [mixed-group interaction topology and readout boundary](2026-11-22T2048Z_H1028_S4_REVIEW_MIND_TURINGHOTEL_GROUP_GRAPH_AND_READOUT_BOUNDARY.md), SHA-256 `8015f77ae261a707b4de54fc568ec964844c2d7ddc3eda7fb9bccb062e313c0d`.
