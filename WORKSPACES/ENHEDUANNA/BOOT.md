@@ -1,3 +1,12 @@
+## Latest checkpoint pointer | h1043:s2 | 2026-11-23
+
+- Current research receipt: [h1043:s2 source-to-carrier dimensionality and measured-candidate preflight](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1124Z_s2_enheduanna.md).
+- Current work: see the new top checkpoint in CURRENT_WORK.md.
+- Role boundary unchanged: no standalone signed Nathan-authored Enheduanna specialist charter or authenticated current Enheduanna thread was recovered; the underlying historical role source remains behind the HSH_RESOURCES no-payload boundary.
+- No theory, task, scheduler, or worker-ownership promotion.
+
+---
+
 ## Publication amendment — h1039:s3 — PUBLISHED_VERIFIED | 2026-11-23
 
 - Issue [#2411](https://github.com/Satobloc/HsH/issues/2411), publisher comment [#7095290450](https://github.com/Satobloc/HsH/issues/2411#issuecomment-7095290450): PUBLISHED.
