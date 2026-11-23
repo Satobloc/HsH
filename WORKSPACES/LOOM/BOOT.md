@@ -1,3 +1,10 @@
+## Latest h1033:s4 source-grounded revival
+
+- Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED; no authenticated current Loom thread or historical-instance participation is claimed.
+- Read [CURRENT_WORK Amendment 09](CURRENT_WORK.md#current-work-amendment-09--h1033s4--assistant-level-source-grounded-revival), [report](2026-11-23T0148Z_H1033_S4_SOURCE_CUSTODY_AND_TERMINAL_MAP_AUDIT.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0148Z_s4_loom.md), and [source-grounded seed](../COMMON/REVIVAL_SEEDS/2026-11-23T0148Z_H1033_S4_LOOM_SOURCE_RECONSTRUCTED_SEED.md).
+- Prior #2379 publication is PUBLISHED_VERIFIED. #2392 has a public axiom-report correction. #2393 is SUBMITTED_NOT_VERIFIED with a locally detected SHA mismatch; do not edit, reopen, retry, or duplicate.
+- Next routing label Aster h1034:s0 has a repository-only POSTSTART_OPTIONAL_CONTEXT_ONLY packet in its INBOX; no assignment or response obligation.
+
 ## Latest relay pointer | h1030:s0 | 2026-11-22T22:00Z | Amendment 01
 
 - Main report: [Planck-unit context and coordinate-source fidelity](2026-11-22T2200Z_H1030_S0_MINKOWSKI_RING_NATURAL_UNIT_CONTEXT_AND_TAG_COVERAGE.md), issue #2378, PUBLISHED_VERIFIED.
