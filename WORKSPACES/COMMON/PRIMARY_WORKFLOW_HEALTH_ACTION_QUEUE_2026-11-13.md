@@ -1048,3 +1048,52 @@ FIE last full review remains 2026-11-20, next 2026-12-04. Unrelated-reading brea
 The earlier h1031:s2 supplement misstated the :00 peek's thread-reference state and mistyped the :36 run identifier. Exact-ID peek now reports the :00 h1031:s0 record as `completed` with a non-null thread reference, while its canonical receipt for the same run ID reports `failed` and `chat_ref=null`, with different start/completion timestamps. This remains an unresolved same-run conflict; no retry, distinct attempt or delivery success is inferred.
 
 The exact :36 h1031:s3 run identifier is `85033e7a-0c90-832f-bb56-9515e0c336c9` (the earlier identifier is superseded). The current :24 h1031:s2 and :36 h1031:s3 run records are both `in_progress` with null thread references. Their overlap is scheduler-record evidence only and does not establish concurrent model computation or cross-thread delivery.
+
+---
+
+## Deep review supplement | 2026-11-23T04:24Z | Kestrel h1036:s2
+
+**Review trigger:** the last deep review was Hale h1031:s2 at 2026-11-22T23:24Z. Four subsequent :24 receipts (Morrow h1032, Orson h1033, Alberr h1034, Elias h1035) existed before this activation; Kestrel h1036:s2 supplies the fifth durable work product. The five-receipt threshold is now met. This is an evidence-only supplement: it does not change task-graph status, priority, owner, or scheduler state.
+
+### Reproducible task-graph triage
+
+- Current graph blob: `71b6bbb977a9acb7c578cf5a100a4c3595ba412b`.
+- Existing helper: `WORKSPACES/COMMON/task_upkeep_triage.py`, Git blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`, 6,601 bytes. The exact Git blob was materialized to a temporary file, rechecked with `git hash-object`, and its embedded `--self-test` passed. No repository checkout or source modification occurred.
+- The helper was run with `--as-of 2026-11-23` against a field-complete projection of all 18 graph records. The helper only consumes blocker presence, so the projection preserved blocker presence and omitted unused blocker detail; all other helper-read fields were retained. Result: 13 active/blocked candidates.
+- Priority counts: P0=3, P1=2, P2=3, P3=1, P4=1, UNCLASSIFIED=3.
+- Active-candidate metadata gaps: priority 3, owner 7, due date 10, last-reviewed 10.
+- No explicit low-hanging candidate: effort/value fields are absent.
+- P1 Orson cognition is 14 days overdue; P2 measured-system geometry is due 2026-11-30 (7 days away); P3 full theory is due 2026-12-14 (21 days away).
+
+### Graph structure
+
+- 18 records versus `branch_count=16`; 5 completed, 12 active, 1 blocked.
+- 7 roots, 11 parent references, 10 child edges, 17 reachable records.
+- One unreachable blocked M87 polarimetry record and one parent-only edge; no dangling child references or cycles found.
+- The graph's `last_reviewed` fields were not updated. Tern retains graph authority; no node, edge, status, priority, owner, or due date changed.
+
+### Queue pickup: WH-02 after blocked WH-05
+
+WH-05 remains the highest-priority queue item overall but is blocked. All four canonical Mersearch request files remain `requested`; Lane 2 has a compact manifest/receipt but raw hits remain withheld; Lanes 1, 3, and 4 have no request-scoped output receipts. No callable Mersearch tool was available in this runtime. No request was overwritten, released, or retriggered.
+
+WH-02 is the highest-priority unblocked item and remains Calder-owned. A bounded read-only current-main check found:
+
+- PR #1710 head `a967e908ceab048d219831ec799343643870daf3`, 7 commits ahead and 10,398 behind current main `3dbf1614c4b2057dd58e1408da23e738c007e5ec`; compare status `diverged`.
+- PR metadata reports `mergeable=true`; retain that as a separate observation rather than treating it as proof that the current-main comparison is conflict-free.
+- Six of seven PR-touched paths are unchanged between merge base `7c40096153861e531b4ba234f28b41a2260fba04` and current main. The sole same-path drift is `.github/workflows/conversation-json-content-ci.yml`: current main adds `pull_request.branches: [conversation-json-content-detection-20261009]`; the merge-base/PR version has the path filter but not that branch filter.
+- The only returned matching-head workflow run was push-triggered run #43522992317, conclusion FAILURE. No pull_request-triggered exact-head run or formal review was returned.
+
+The next action remains Calder/authorized-maintainer reconciliation of that workflow difference, followed by exact-head CI, strict audit/navigation tests, and independent review. No rebase, merge, branch edit, or issue comment was made.
+
+### Other queue items and fallow work
+
+- WH-01 remains open with the 2026-11-15T18:00Z cursor and missing original 100-run snapshot. Current clone ledger: 475 rows, 472 unique populated IDs, 3 preserved legacy missing IDs, zero parse errors, zero duplicate populated IDs.
+- WH-03/04 remain open without a verified executable intake scanner/lifecycle transition.
+- WH-06's last broad issue/fork census remains 2026-11-19.
+- WH-07 and WH-08 have no verified pickup.
+- WH-09 remains partial at 5,155/13,793 records.
+- Old Plan Recovery Sweep remains OPEN / UNRESOLVED: last substantive progress 2026-11-08, 15 days ago; intake timestamp unknown; execution owner unassigned; Tern retains coordination. Smallest next action remains Tern selecting one bounded source sample and one already-enabled worker, recording the existing inbox/queue route, and verifying a receipt. No task or automation was created.
+
+### Review outcome
+
+Tern retains PWH queue and task-graph authority. No status, priority, owner, schedule, phase, or task ID was changed. The next deep review is due after five additional completed durable receipts/evidence entries, not scheduler starts. FIE last full review remains 2026-11-20, next 2026-12-04; the unrelated-reading break was completed 2026-11-21 and was not repeated.
