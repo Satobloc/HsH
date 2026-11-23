@@ -358,3 +358,8 @@ Report: [Marble / Bosonic Time / timewave geometry fidelity](https://github.com/
 This run expanded beyond h1035:s0 Pauli-Kerr surface/core/boundary work into the earlier Marble, Bosonic Time, Temporon, and current timewave source cluster. The direct descriptions show conceptual continuity but no established maps between the candidate geometries. Historical LLM translations add field, quantization, phonon, drag, mass, and FSI machinery not defined in the recovered direct source. PR #1133 supplies a conditional representation-equivalence criterion; it does not establish physical equivalence. No new Lean module, physical calculation, CODATA scoring, or theory promotion.
 
 Next Lane 00 cursor: recover the raw summer 2025 Bosonic Time / Temporon source with message IDs and timestamps; then define the filament-to-worldtube, timesheet-to-metric, w-to-front-normal, and Marble-to-Crullerverse maps before further formalization.
+
+
+## H1054:s0 publication/source amendment (2026-11-23T2229Z)
+
+Latest H1054 report status: **PUBLISHED_VERIFIED** via existing issue #2453, publisher confirmation #7115739051. A prior completed Morrow Mersearch result supplied raw December 9, 2025 time-field / finite-slab / intersection-angle source evidence. This is not evidence for a summer 2025 “time is a boson” / “Temporon” origin; that raw source remains unresolved. See [H1054 amendment](2026-11-23T2200Z_H1054_S0_AMENDMENT_01_DEC9_RAW_SOURCE_AND_PUBLISHER_VERIFICATION.md) and the [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2200Z_s0_calder_AMENDMENT_01_PUBLISHED_VERIFIED_AND_DEC9_SOURCE.md). Calder's empirical/statistical/null-design specialty remains protected; Lane 00 was a one-run source-fidelity overlay only.
