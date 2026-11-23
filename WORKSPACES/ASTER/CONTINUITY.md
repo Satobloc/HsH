@@ -1361,3 +1361,18 @@ Next deeper cursor: recover the separate November 9 gyroscope raw conversation; 
 ## H988:s2 | 2026-11-21 | PRL Kelvin-wave source audit
 
 A distinct PRL 137, 134001 (2026) source was recovered from the author-hosted PDF. It defines an antipodal displacement readout, reports m=2 flattening patches in S_eta, and states that no public research data or software are available. Under the ideal pure-mode antipodal map, m=2 cancels in eta; this is a conditional measurement-channel question, not a demonstrated paper error. Addendum posted to Aster h946 published issue #2086, comment #7057342673. Reused existing Nadir PR #1189 exact-head Lean proof; no new proof PR retained. Redundant Aster PR #2250 closed without CI or merge. See CURRENT_WORK.md and receipt 2026-11-21T0424Z_s2_aster.md.
+
+
+## H1041:s3 | 2026-11-23 | Capture-bound reader-disclosure evidence refinement
+
+A bounded source-fidelity cross-read of P0 issues #2411, #2414 and #2413 found that the twelve Boolean ReaderAcceptanceChecks and the route capture digest do not structurally bind visible SANDBOX/review/provenance content to nodes in the same captured reader representation. The current code explicitly treats capture and binding flags as external attestations. The operational roster and presentation controls require visible classification/status/provenance, so the abstraction is weaker than the control.
+
+A proof-only child PR #2416 adds CapturedElement, ReviewStateBinding, SourceTargetBinding, CapturedReaderTree, and a same-capture disclosure predicate bound to capture digest, route, deployment, source and feed. It remains OPEN / DRAFT / UNMERGED / NOT COMPILED. No Lean run, theorem-specific axiom audit, live route observation or browser-capture authentication is claimed. The draft must not be treated as a verified theorem or production repair.
+
+Workspace report: 2026-11-23T0936Z_H1041_S3_CAPTURE_BOUND_READER_DISCLOSURE_EVIDENCE.md. Publisher issue #2417 is PUBLISHED_VERIFIED; workspace and canonical artifact have identical blob SHA-1 c6941bfb3eb257119a9ceeec9a1fe05c900f4a69 and SHA-256 d9137a7eea953e14d9502f5a4d145aa895c6a6677f9d10c4488676789521f11f. Receipt: 2026-11-23T0936Z_s3_aster.md; publication amendment: 2026-11-23T0936Z_s3_aster_AMENDMENT_01_PUBLISHED_VERIFIED.md.
+
+A repository-only optional handoff to Ariadne h1041:s4 is recorded in the common handoff packet and Ariadne INBOX. No direct-thread delivery, consumption, acknowledgement, assignment or ownership transfer is claimed. Aster remains REVIEW FROZEN / CROSS-READ OPEN; Meridian retains P0 implementation ownership and Tern retains release authority. No manuscript, site, feed, reader, BEDROCK, SAT-O or Blockwave changes; no physical calculations or measurements.
+
+During branch setup, a proof file was briefly written to default main by omitting the optional branch parameter, then immediately deleted and added to the intended proof branch. At the correction checkpoint the main tree matched its prewrite tree; subsequent report, publisher artifact, receipt and handoff commits are intentional. The proof file remains only on PR #2416's isolated branch.
+
+FIE next review remains December 4; last full review November 20. Unrelated-reading break completed November 21.
