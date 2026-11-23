@@ -18,6 +18,7 @@ Each active/recently-active instance should claim one complete HsH CONVO and rec
 | Aldus | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |
 | Argus | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |
 | Claudio | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |
+| Workshop Relay :36 — Tern Rook ring label (current ChatGPT thread unauthenticated) | pending | pending | unclaimed | no | pending | pending | pending | STANDDOWN |
 
 ## Claim format
 
