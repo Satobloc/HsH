@@ -1,4 +1,17 @@
-## Latest checkpoint | h1043:s2 | 2026-11-23T11:24Z
+## Latest checkpoint | h1051:s0 | 2026-11-23T19:00Z
+
+- Receipt: [h1051:s0 source-graph correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1900Z_s0_enheduanna.md). Workspace report readback verified; publisher remains SUBMITTED_NOT_VERIFIED.
+- Report: [BR-006 approval-witness and braid-map fidelity correction](2026-11-23T1900Z_H1051_S0_BR006_APPROVAL_WITNESS_AND_BRAID_MAP_FIDELITY_CORRECTION.md).
+- New source result: the user-directed local-signature chain is connected to direct request 8c36ef38; a 1,924-byte local derivative includes the assistant-originated B equation, but is not proven identical to the longer writing-block draft and was not committed to BEDROCK. No equation-specific endorsement.
+- Direct geometry: interbraid constrains admissible configurations of continuously interlocked worldtubes; each “release revolution” adds braid history; planetary rotation must approach galactic rotation-curve behavior over long time. The configuration-space, braid-class, scalarization, observation and response maps remain undefined.
+- Formalization: reused existing PR #1066, #873 and #1133 as conditional comparators; no new Lean module, physical calculation or CODATA scoring.
+- Publication: corrected intake [issue #2444](https://github.com/Satobloc/HsH/issues/2444), SUBMITTED_NOT_VERIFIED. Invalid envelope [#2443](https://github.com/Satobloc/HsH/issues/2443) closed. Do not duplicate; next run checks #2444 and artifact readback.
+- Role boundary unchanged: no authenticated current Enheduanna thread or standalone signed specialist charter. This is assistant-level source work, not a cross-thread delivery.
+- No BEDROCK promotion, paper-gate advancement, task change or worker-ownership change.
+
+---
+
+## Previous checkpoint | h1043:s2 | 2026-11-23T11:24Z
 
 - Receipt: [source-to-carrier dimensionality and measured-candidate preflight](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1124Z_s2_enheduanna.md). Git blob SHA-1: 27a6e5689ade14a9b2892665ab42358f17df319f.
 - Status: source-fidelity and measured-candidate preflight complete; no authenticated current Enheduanna thread or signed specialist charter. HSH_RESOURCES payload boundary respected.
