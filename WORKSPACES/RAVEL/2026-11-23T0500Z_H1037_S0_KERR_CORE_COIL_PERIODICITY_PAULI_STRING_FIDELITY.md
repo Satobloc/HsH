@@ -116,6 +116,7 @@ The later direct disavowal of the unsupported tension estimate controls: no inhe
 | D9 | Spring/helix chart risks becoming the physical substrate. | Treat it as a representation of four-dimensional oscillation. |
 | D10 | Historical tension estimate reused despite direct disavowal. | Recover archived source calculations before any future quantitative use. |
 | D11 | Pasted assistant-style text inside a user-role message risks false Nathan attribution. | Preserve outer role and embedded authorship separately. |
+| D12 | Ravel h1029 reported a recomputed Blockwave Clean Action SHA-256, while the later h1030 equation-source amendment withholds that digest because custody records conflict. | Follow the later amendment: preserve the blob SHA-1 and attachment date, but assert no SHA-256 until reconciled. |
 
 ## 7. Formalization and proof status
 
@@ -134,8 +135,8 @@ No SAT-O1 or Blockwave equation was edited, normalized, or corrected in this run
 | Source | Provenance and date | Identity |
 |---|---|---|
 | SAT-O1 4D | Unbylined historical module. FileIndex creation June 7, 2025; last write June 9, 2025; first extant Git commit October 27, 2025. | Blob SHA-1 7577aa1ee5a6c3850ce3b226c75377de6367aedc; SHA-256 8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937. |
-| Blockwave Theory source | Embedded text in the September 12, 2025 Blockwave Theory overview conversation; source text payload preserved separately from later clean-action transcription. | Raw conversation blob SHA-1 e4016d48d1b29382b53823ce5546ed51dceda3c1; exact embedded text SHA-256 8b0b16ae4ed46f272b97e2269be96187a4a6a6c102c0b89b646c9597654b6c93. |
-| Blockwave Clean Action | Later assistant-generated attachment, September 16, 2025; not treated as the original Blockwave source and embedded authorship remains unresolved. | Blob SHA-1 ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d; SHA-256 3d393efcedf9dc715cd49a319995fc5adc2011c5b5984abd9a2d280765953664. |
+| Blockwave original source | Not independently re-established in this run. Mersearch is unavailable and all four canonical request lanes are occupied; the Clean Action attachment is not promoted to original. | No original-source hash or equation correction asserted. |
+| Blockwave Clean Action | Assistant-voiced historical attachment, September 16, 2025; first extant Git commit October 8, 2026; not Nathan Direct and not treated as the original Blockwave source. | Blob SHA-1 ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d; SHA-256 withheld because current custody records conflict; no digest asserted. |
 
 The verbatim equation fragments and prior source corrections remain in the existing h1030 equation-source amendment, issue #2374. No replacement equations are issued here. Mersearch has no callable action in this runtime and all four canonical request lanes remain occupied/requested; direct source recovery used the available raw export and repository records without changing any lane.
 
