@@ -125,3 +125,17 @@ No task, ID, prompt, schedule, phase, or enabled state was changed. No sixth tas
 - The amendment's SHA-256 calculation used the fetched UTF-8 content; the implementation passed the standard SHA-256 `abc` known-answer check. The report, SAT-O1, and Blockwave digests above were computed from their fetched current file contents.
 - The Blockwave source's projector line is preserved exactly as written: `P^\mu{}^\nu\!\equiv \delta^\mu{}^\nu+u^\mu u_\nu`. Its index placement and other malformed tokens are source features, not silently repaired notation. No corrected Blockwave equation is issued.
 - No h1048 handoff file exists in the repository. The :12 lease is disabled; no handoff, assignment, recipient-thread delivery, or acknowledgment is claimed.
+
+
+### 10. Immediate display cursor: keep the 2D visualization distinct from 3D calculation
+
+The final direct user message in this local source cluster, `2e9e68c5-36ec-4fbb-adfc-b6d2b9a365a6`, is at `2026-09-04T18:02:12.059Z` and says to keep the visualization simple: a gradient and a cancellation cross-gradient, without a full 3D projection.
+
+This does not erase the earlier 17:20 request (`7a99e50b-d6c8-4d27-b3fc-a7fcca03c11f`) for a 3D calculation. The two are compatible only if the computational object and its display are typed separately:
+
+- **Immediate display task:** a simple 2D position/vector-angle field, ordinary and anti fields related by the source-authorized left/right mirror, then a gradient and cross-gradient/cancellation display. No full 3D projection is a prerequisite for this display.
+- **Separate computational question:** the earlier 3D torus/reference-vector integration remains underspecified and may be pursued only as its own bounded mathematical task. It must not be smuggled back into the simple display request.
+- **Normalization:** the degenerate-sphere reference is requested, but its map and normalization remain undefined. Do not invent a radius relation or substitute a toy fixture.
+- **CMY display:** define its compositing operator independently from the scalar odd part; neither is physical cancellation.
+
+Thus the h1048 report's 3D mapping cursor is a separate computational dependency, not the immediate next step for the requested 2D gradient/cross-gradient visualization. No new calculation or theory claim is added here.
