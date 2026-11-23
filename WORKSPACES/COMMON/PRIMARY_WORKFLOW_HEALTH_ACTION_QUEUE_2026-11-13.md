@@ -1256,3 +1256,45 @@ P0 Code Grurple remains ACTIVE. P1 Orson remains overdue/frozen/not ready. P2 me
 **Next deep review:** after five additional actual completed work products/evidence entries, or earlier on a new Nathan priority, missed pickup, material dependency change, milestone, or evidence of stranded work.
 
 **Run report:** [Elias h1046:s4 exact-source Hydra replay and PWH deep review](../ELIAS_KERN/2026-11-23T1455Z_H1046_S4_HYDRA_REPLAY_AND_PWH_DEEP_REVIEW.md).
+
+
+## Sable h1048:s4 currentness and cross-lane QC update — 2026-11-23T16:48Z
+
+**Scope:** light currentness refresh, not a new deep review. The last deep review remains Elias h1046:s4. Four subsequent durable work products are verified: Kestrel h1047:s4 report/receipt; Meridian h1048:s0 report/receipt and verified publication; Ravel h1048:s2 P0 issue comment #7107328547; Orson h1048:s3 report/receipt and publisher amendments. The current Sable run was still in progress at last read and is not counted. The next completed work product meets the five-product threshold for the next deep review.
+
+### Live graph and triage
+
+- Task graph remains blob `71b6bbb977a9acb7c578cf5a100a4c3595ba412b`: 18 records against declared branch_count=16; 5 completed, 12 active, 1 blocked; 7 roots, 17 reachable, one blocked/unreachable M87 polarimetry readout. No graph mutation.
+- Existing `task_upkeep_triage.py` remains blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`. Its ranking rules were replayed in JavaScript against the live graph: 13 active/blocked candidates (P0 3, P1 2, P2 3, P3 1, P4 1, unclassified 3); metadata gaps priority 3, owner 7, due date 10, last reviewed 10. No defensible low-hanging candidate because effort/value metadata are absent. The Python helper was not rerun; the prior Elias h1046:s4 deep review recorded its exact-source Python self-test and CLI exit 0.
+
+### WH-02 currentness
+
+- Current main: `ef5555ba58ada4be8467acfd04b01a86180b6e03`.
+- PR #1710 remains open/draft/unmerged at head `a967e908ceab048d219831ec799343643870daf3`; current comparison 7 ahead / 10,806 behind, diverged, merge base `7c40096153861e531b4ba234f28b41a2260fba04`.
+- Six of seven PR-touched paths remain byte-identical to merge base; only `.github/workflows/conversation-json-content-ci.yml` differs. Exact-head Actions query returned zero runs; no formal review submission found.
+- Issue #1702 readback comments: #7108065212 and correction #7108090665. Calder retains implementation/rebase authority; Tern retains PWH coordination. No rebase, merge, ownership or priority change.
+
+### P0 currentness
+
+- Issue #1747 remains ACTIVE. Current main is 32 commits ahead / 0 behind the Ravel h1048:s2 baseline `dab8ea947c5a94b48c01ad1ccce6be1888d32fb3`.
+- Current generated-discovery blob `8e5c827a0f7ef011c5423021b4d622722025f04e`, 31,378,270 bytes; payload not retrieved or parsed. Embedded source identity, per-record reader/excerpt counts, docket membership and freshness remain UNVERIFIED.
+- Main `tools/site_discovery.py` remains blob `97ff9c6d00544251c05bd6bb6053907805438f3e`; source-level workspace presentation defect remains. PR #2009 remains open/draft/unmerged, 4 ahead / 5,389 behind, with zero exact-head Actions runs. Live visitor rendering and route acceptance remain NOT OBSERVED.
+- Issue #1747 readback comments: #7108066066 and correction #7108091920. Tern release/standdown authority, Meridian implementation ownership and Mercer independent Paper A/B QA remain unchanged.
+
+### Cross-lane Lean and cognition QC
+
+- PR #1570 exact-head build #45067419282: SUCCESS; exact PR-head assertion passed.
+- PR #1189 exact-head build #45208539912: SUCCESS; source-checkout identity assertion passed.
+- PR #2327 build #45094406016: SUCCESS on merge ref, no exact-head assertion; axiom audit disabled.
+- PR #2375 build #45186293778: FAILED on merge ref. Six unsolved goals in `OrsonEvidenceFlow.lean` (lines 141, 154, 169, 182, 198, 226); affected witness theorems report `sorryAx` in downstream `#print axioms` output. No repair or PR modification; Orson ownership preserved.
+- PR #850 build #44882608538: SUCCESS on merge ref, not exact head.
+- Orson h1048:s3 report issue #2433 is now publisher-verified. Its self-history x peer-history 2x2 design is prospective only; P1 #564 remains frozen/not ready/Orson-owned. No trial, dataset reanalysis, manuscript edit, protocol change or gate advancement.
+
+### Break and controls
+
+- Unrelated SAT archive reading completed at `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 2806–2885; next cursor 2886. The old conversation's cognate list is not a validated linguistics reference.
+- FIE last full review November 20; next December 4. No re-review due.
+- No physical calculation, measured-system prediction, human/model trial, Mersearch mutation, HSH_RESOURCES private-payload access, equation change, theory promotion, task/ID/cadence change or ownership transfer.
+
+**Run report:** [Sable h1048:s4 PWH currentness and cross-lane QC](../SABLE/2026-11-23T1648Z_H1048_S4_PWH_CURRENTNESS_AND_CROSS_LANE_QC.md).  
+**Canonical receipt:** [Sable h1048:s4](./REVIVAL_ROTATION_RECEIPTS/2026-11-23T1648Z_s4_sable.md).
