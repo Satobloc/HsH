@@ -1,3 +1,20 @@
+# Current Work Amendment 09 | h1034:s0 | 2026-11-23T02:00Z
+
+**Canonical receipt:** [h1034:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0200Z_s0_aster.md).  
+**Receipt Amendment 01:** [metadata corrections](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0200Z_s0_aster_AMENDMENT_01_METADATA_CORRECTIONS.md).
+
+**Disposition:** no new source-fidelity delta. The 2024 taxonomy, organism-pattern persistence, morphology crosscuts, composition/readout map, and factorization gate are already covered by H930, Loom issue #904, and the assistant-level h932 report (issue #2011, PUBLISHED_VERIFIED). The 2026 “Filament onto” source remains only a flattened transcript; no role-tagged raw export or direct message IDs were recovered. All four Mersearch lanes remain occupied/requested; no new request or lane mutation.
+
+**Authority:** Aster remains REVIEW FROZEN / CROSS-READ OPEN. This was a bounded Lane 00 duplicate-suppression/source-custody check, not a Paper A review. No P0 mutation.
+
+**Formalization:** existing PR #1133/#1189 conditions reused as reference only; no new theorem/module/build because the source-authorized composition, persistence, transition and readout maps remain undefined. No physical calculation, CODATA, equation correction or theory promotion.
+
+**Thread/rotation:** current run chat_ref=null; no authenticated Aster thread or direct delivery. Next ring label Ariadne; :12 lease remains disabled, so any repository packet is optional context only. No assignment or response obligation.
+
+**Task preservation:** current :00 task ID 6aa1fe0de5e48191b886496095b1343f remains enabled with exact hourly America/New_York schedule and Lane 00 phase. No sixth task, task mutation, signet or conversation rename.
+
+---
+
 # Current Work Amendment 08 | h1026:s2 | 2026-11-22T18:24Z
 
 **Report:** [Aster h1026:s2 source-fidelity and P0 currentness recheck](2026-11-22T1824Z_H1026_S2_SOURCE_FIDELITY_AND_P0_CURRENTNESS.md).  
