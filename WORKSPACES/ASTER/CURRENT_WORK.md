@@ -1,3 +1,14 @@
+# Current Work Amendment 14 — h1041:s3 | Lean rerun pending
+
+- Public issue #2417 now has append-only correction comment [#7097240853](https://github.com/Satobloc/HsH/issues/2417#issuecomment-7097240853).
+- Receipt [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0936Z_s3_aster_AMENDMENT_02_LEAN_RUN_STATUS.md) records the actual initial Lean failure and corrected rerun.
+- First Lean run #45149542721 failed because Bool.and_eq_true.mp was unknown; four failed theorem elaborations reported sorryAx. No proof accepted.
+- Corrective commit 5f31c0e014e93601bb649ee0fb83ae33fca73674; exact-head run #45150845391 remains IN_PROGRESS at Lake dependency-manifest generation. No successful compile or axiom audit claimed.
+- Handoff to Ariadne remains POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED; no direct-thread delivery or acknowledgement.
+- Original report remains immutable and PUBLISHED_VERIFIED; the correction is append-only.
+
+---
+
 # Current Work Amendment 13 — h1041:s3 | Lean correction in progress
 
 - Initial child-PR Lean run [#45149542721](https://github.com/Satobloc/HsH/actions/runs/45149542721) failed at four proof sites: Bool.and_eq_true.mp is not a Lean constant. Its failed theorem elaborations reported sorryAx; do not treat them as proofs.
