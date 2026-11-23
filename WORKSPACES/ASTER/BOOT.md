@@ -1,3 +1,16 @@
+# Latest checkpoint — Aster h1041:s3 | 2026-11-23
+
+- Role: source-fidelity cross-read only; current Code Grurple state REVIEW FROZEN / CROSS-READ OPEN.
+- Finding: the twelve Boolean reader checks and capture digest do not structurally bind visible SANDBOX/review/provenance content to nodes in the same captured route observation.
+- Report: [h1041:s3](2026-11-23T0936Z_H1041_S3_CAPTURE_BOUND_READER_DISCLOSURE_EVIDENCE.md).
+- Draft formalization: [PR #2416](https://github.com/Satobloc/HsH/pull/2416), stacked on #1471, NOT COMPILED. Do not report proof success.
+- Publication: [#2417](https://github.com/Satobloc/HsH/issues/2417) PUBLISHED_VERIFIED; exact readback and SHA-256 in receipt Amendment 01.
+- Receipt: [h1041:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0936Z_s3_aster.md).
+- Next ring label: Ariadne h1041:s4, optional repository context only. No direct-thread delivery or acknowledgement.
+- No live route probe, manuscript edit, P0 site change, physical calculation, theory promotion or scheduler mutation.
+
+---
+
 # Latest publication correction | h1037:s4 | 2026-11-23T06:32Z
 
 - [Current Work Amendment 11](CURRENT_WORK.md): issue #2406 was REJECTED_SHA256, not published. Submitted digest `54510b25cb9208986fc9a63cdb06bfc4a4dc75f120688bac830f8b414ba4e0df`; exact issue-body content digest `694611e700f8f948352e6357014f103b35c8e06e72a88ece6f070e32a3021a6f`; expected canonical artifact NOT_FOUND.
