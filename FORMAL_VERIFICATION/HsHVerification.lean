@@ -16,7 +16,6 @@ import HsHVerification.MeasurementDomainCompatibility
 import HsHVerification.FactorialContrastIdentifiability
 import HsHVerification.ModelSelectionPreference
 import HsHVerification.SharedReadoutFiberSeparation
-import HsHVerification.HeterogeneousReadoutAdmission
 import HsHVerification.MiraSchemaTypeGate
 import HsHVerification.NadirFrameTelescoping
 import HsHVerification.NadirHelixSliceGeometry
