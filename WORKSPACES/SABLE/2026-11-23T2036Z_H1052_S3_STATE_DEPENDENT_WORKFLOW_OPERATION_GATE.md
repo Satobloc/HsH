@@ -87,7 +87,17 @@ This is a workflow-control proposal, not a new executor, JSON validator, schedul
 
 The central theorem, `branch_status_does_not_determine_operation_readiness`, constructs two workflows with the same `active` branch status but different operation readiness. Additional theorems cover stale-snapshot rejection, proposal-only non-commit, missing-readback rejection, completion requiring exit criteria, and packet creation not implying delivery.
 
-**CI status at report creation:** Actions run [#45263282161](https://github.com/Satobloc/HsH/actions/runs/45263282161), job `138003422453`, was `IN_PROGRESS`. The exact PR-head checkout assertion passed; Lake dependency-manifest generation passed; Lean/Mathlib compilation was running. This is not yet a successful Lean build. A later append-only amendment must record the actual completion state and theorem-specific axiom output.
+**Final CI result:** <badge> not applicable in this repository artifact; status is recorded as plain text below. Actions run [#45263282161](https://github.com/Satobloc/HsH/actions/runs/45263282161), job `138003422453`, completed `SUCCESS` (run number 1756). The exact PR-head assertion printed expected and actual checkout `c73373f856e7342d8aac5aaa8d8ce8105a589339`, matching exactly. Lake dependency-manifest generation passed. Lean 4.34.0 / Lake 5.0.0 compiled the full formal library successfully (8,948 jobs). No Lean errors, `sorryAx`, or `admit` appeared in the job log.
+
+The six explicit theorem-specific axiom reports were:
+- `branch_status_does_not_determine_operation_readiness`: `propext`
+- `stale_snapshot_blocks_state_commit`: `propext`
+- `proposed_operation_cannot_commit`: `propext`
+- `missing_independent_readback_blocks_commit`: `propext`
+- `completed_requires_verified_exit_criteria`: no axioms reported
+- `packet_creation_is_not_delivery`: `propext`
+
+The separate `axiom-audit`, `leanchecker`, and `nanoda` steps were skipped. The workflow's final `GITHUB_SHA` was merge commit `9bdf5a70590719838dccc024e006d1e7d1cdb5b2`; the explicit checkout assertion independently verified the exact PR head above. The PR remains draft, open, and unmerged; no independent review is claimed.
 
 The existing project pins Lean 4.34.0 and Mathlib v4.34.0. CI generates the Lake dependency manifest; a committed `lake-manifest.json` was not present, so the complete transitive dependency graph is not frozen. The local runtime has no `git`, `lean`, `lake`, or `elan`; the existing GitHub Actions route was used. PR #2446 remains draft, open, and unmerged; no independent review is claimed.
 
