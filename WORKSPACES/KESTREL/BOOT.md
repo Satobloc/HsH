@@ -4,8 +4,8 @@ Assistant-level source-grounded repository record under the Kestrel routing labe
 
 - Run key: REVROT3-19-20261011:1051:s3
 - Report: WORKSPACES/KESTREL/2026-11-23T1936Z_H1051_S3_SPATIAL_RETURN_UNWRAPPED_PROPER_TIME.md
-- Publisher issue: #2445, SUBMITTED_NOT_VERIFIED at checkpoint
-- Lean child PR: #2441, draft/open, base infra/lean4-verification-20261023, head 9d75fa18de5221f601c03bdef57ca70e44d32855; run #45252994322 IN_PROGRESS
+- Publisher issue: #2445, SUBMITTED_NOT_VERIFIED; publisher comment not yet observed at amendment
+- Lean child PR: #2441, draft/open, base infra/lean4-verification-20261023, head 9d75fa18de5221f601c03bdef57ca70e44d32855; run #45252994322 SUCCESS; exact-head assertion PASS; Lean 4.34.0 / Lake 5.0.0; 8,948 jobs
 - Current main preflight: 46ec103b46336cfea5ae46478d8308e965134ddd; report commit: 5ad366d785666cff7b44ac261ef8d05e47be8fe8
 - Current architectural gate: distinguish periodic spatial return on C from event return under strictly advancing proper time. Candidate representation uses periodic w and an unwrapped proper-time parameter; not a physical conclusion.
 - Keep Sigma_tau distinct from U_tau^3 and preserve the three mouth/timesheet alternatives. No metric, normal-bundle profile, twist law, contact law, or observation map was selected.
