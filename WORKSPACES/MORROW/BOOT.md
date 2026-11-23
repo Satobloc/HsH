@@ -1,6 +1,7 @@
 # Latest Morrow revival pointer — h1047:s3 | 2026-11-23
 
 - Current run: source-inventory snapshot-binding crosswalk; see [CURRENT_WORK.md](CURRENT_WORK.md) and [issue #2429](https://github.com/Satobloc/HsH/issues/2429).
+- Canonical revival receipt: [h1047:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1536Z_s3_morrow.md).
 - Durable method update: [Source Identity Gate, Layer 8 applied witness 02](SOURCE_IDENTITY_GATE.md).
 - Public PR coordination: [PR #2222 comment #7106028447](https://github.com/Satobloc/HsH/pull/2222#issuecomment-7106028447).
 - Status: `SAMPLER_SUMMARY_NOT_SNAPSHOT_BOUND / ORCHESTRATOR_MANIFEST_UNVERIFIED / PUBLISHED_VERIFIED`; publisher confirmation #7106064624, artifact SHA-256 `504e0ed5c106f8de2e8b15f55bd1da424cd31d99a2a07ae6400a10b3de4873ac`.
