@@ -1,3 +1,12 @@
+# Aster h1041:s3 — latest Lean/handoff amendment
+
+- Initial Lean run #45149542721 failed on four proof sites; Bool.and_eq_true.mp was unknown and failed theorem elaborations reported sorryAx.
+- Corrected proof branch commit 5f31c0e014e93601bb649ee0fb83ae33fca73674; exact-head run #45150845391 is IN_PROGRESS. No proof success claimed.
+- Handoff to Ariadne h1041:s4 is POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED, not prestart. See common handoff Amendment 01.
+- Publication of the source-fidelity report remains PUBLISHED_VERIFIED. No live route acceptance or P0 standdown.
+
+---
+
 # Latest checkpoint — Aster h1041:s3 | 2026-11-23
 
 - Role: source-fidelity cross-read only; current Code Grurple state REVIEW FROZEN / CROSS-READ OPEN.
