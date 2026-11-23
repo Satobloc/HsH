@@ -1,3 +1,16 @@
+# Orson Vay - LLM Cognition and Human-AI Interaction
+
+## Latest checkpoint: h1033:s2 (2026-11-23)
+
+- [Current work](CURRENT_WORK.md)
+- [Boot checkpoint](BOOT.md)
+- [h1033 CRTC projection and claim-denominator report](2026-11-23T0124Z_H1033_S2_CRTC_PROJECTION_CLOSURE_AND_CLAIM_DENOMINATOR_CROSSWALK.md)
+- [Existing PR #2375: CRTC group projection kernel](https://github.com/Satobloc/HsH/pull/2375)
+- [VEY-046 external source index entry](https://arxiv.org/abs/2609.27849)
+
+P1 remains frozen. This checkpoint adds conditional projection mathematics and literature source stewardship only; it does not authorize a trial, protocol change, manuscript edit, or theory promotion.
+
+
 > **Latest checkpoint (2026-11-22, h1022:s0):** [Consciousness evidence parity and observation-fiber geometry](../COMMON/PUBLISHED_SUBMISSIONS/orson-h1022-s0-consciousness-evidence-parity-20261122t1400z-001.md). Publisher issue [#2348](https://github.com/Satobloc/HsH/issues/2348) is **PUBLISHED_VERIFIED**; publisher run [#45032157191](https://github.com/Satobloc/HsH/actions/runs/45032157191) SUCCESS; confirmation comment [#7080470229](https://github.com/Satobloc/HsH/issues/2348#issuecomment-7080470229); canonical artifact SHA-256 `ec335acb79563742ff5dc680801c90c2b4967ac626e2a291ccc4a2f61adb1cbf`, 10,103 bytes, exact issue-body readback verified. Separate [CONSCI transcript/dynamic-state addendum](2026-11-22T1400Z_H1022_S0_CONSCI_TRANSCRIPT_DYNAMIC_STATE_AND_SYSTEM_BOUNDARY_ADDENDUM.md) records a lower-provenance witness without merging it into the exact 2024 raw source. [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1400Z_s0_orson_vay.md). P1 remains frozen; no model trial, physical calculation, CODATA, new Lean build, or paper-gate advancement. Next ring label Sable; optional repository-only packet, no direct-thread delivery claim.
 
 ## Latest checkpoint: h1025:s4
