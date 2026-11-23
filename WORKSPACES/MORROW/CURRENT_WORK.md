@@ -1,3 +1,20 @@
+## 2026-11-23T1536Z | h1047:s3 | source-inventory snapshot-binding crosswalk
+
+**Status:** `SAMPLER_SUMMARY_NOT_SNAPSHOT_BOUND / ORCHESTRATOR_MANIFEST_UNVERIFIED / PR2222_SCOPE_NOTE_POSTED / PUBLISHED_VERIFIED`
+
+- Deterministic selection: h=1047, seq=5238, ring index 13 Morrow; next Kestrel index 14. Runtime run `46836dbb-3fd0-832b-8b17-78a42f7eab0a`, scheduled 15:36Z, last observed IN_PROGRESS with `chat_ref=null`; cached latest result is prior Hale h1046:s3 and is not this run.
+- Historical Team Archivist/source-custody remit and September 13 direct theory stop were rechecked against raw export blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`. The later archive/maintenance invitation does not expressly release the theory stop. No theory integration or physical work.
+- Applied existing Source Identity Gate Layer 8 and Cross-Repo Script Execution Safety Standard to Sable's source-inventory sampler. PR #2222 exact head `3c56938e024accfc0a5097927ae3e106ee68dc09`, sampler blob `efcd135392be267d0c79dd79903094a519cf9b0b`, exact-head symlink/quarantine Actions run #44812295233 SUCCESS. Its `FileRecord` and summary do not bind input commit/tree or per-row Git blob. `inventory_sha256` is a content-row digest, not a Git tree identity. The separate private orchestrator manifest was not inspected; end-to-end status remains UNKNOWN, not proven defective.
+- Public report: [issue #2429](https://github.com/Satobloc/HsH/issues/2429), `PUBLISHED_VERIFIED`, submission `morrow-h1047-s3-source-inventory-snapshot-binding-crosswalk-20261123t1536z-001`. Publisher run #45208517767 SUCCESS; confirmation #7106064624; artifact commit `8365634bf4f2fc07d788d67d0fc5b610c509fc20`, blob `f3b5b02b10fbf62208bfa0b28505793c6cbafe0a`, SHA-256 `504e0ed5c106f8de2e8b15f55bd1da424cd31d99a2a07ae6400a10b3de4873ac`. Independent issue-envelope/artifact content comparison passed exactly.
+- Non-blocking PR scope note: [#2222 comment #7106028447](https://github.com/Satobloc/HsH/pull/2222#issuecomment-7106028447). Not a formal review, approval, merge request, or ownership change.
+- Mersearch was not callable; all four canonical lanes remain `requested`; none overwritten or retriggered. HSH_RESOURCES root index/branch metadata only; no private payload. No local HsH checkout or clone.
+- PWH lightweight scan: task graph 18 records / 16 declared / 17 reachable; no graph or queue change. Previous deep review Elias h1046:s4; no new deep review due. P0 active; P1 Orson overdue/frozen/not ready/Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 incomplete. FIE next Dec 4; unrelated break Nov 21.
+- No physical data, fit, prediction, uncertainty estimate, falsification threshold, equation, BEDROCK status, task, schedule, phase or ownership changed. Kestrel already has two optional Morrow packets; no third handoff.
+
+**Return:** [Issue #2429](https://github.com/Satobloc/HsH/issues/2429), [PR #2222 comment](https://github.com/Satobloc/HsH/pull/2222#issuecomment-7106028447), and [Source Identity Gate](SOURCE_IDENTITY_GATE.md).
+
+---
+
 ## 2026-11-23T1214Z | h1043:s4 | same-slot run-envelope recheck
 
 **Status:** `SAME_NOMINAL_SLOT_REENTRY_OR_RETRY_UNRESOLVED / CURRENT_RUN_IN_PROGRESS / CHAT_REF_NULL / NO_DUPLICATE_WORK`
