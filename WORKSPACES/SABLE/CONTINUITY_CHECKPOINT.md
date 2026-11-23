@@ -1947,3 +1947,18 @@ The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission laye
 ## Amendment 01 | clone-ledger readback
 
 Five API-only access/write/readback events were appended. Final clone ledger blob `6f0c1ef0589391a53205029840f6d72ca2223fc4`: 480 rows, 477 unique populated IDs, 3 legacy missing IDs, zero parse errors and duplicates. No local clone/checkout. Ledger update commit `587ab528fc7780c67649020f6104a1ecb1a615a6`.
+
+
+## Latest checkpoint | h1048:s4 | 2026-11-23T1648Z
+
+- Sable-lane assistant reconstruction under Review-MIND; historical role grounded in direct user-role messages in raw Sable Revival Rotation export blob `20c7d2ec089a200630ba603611d2bc4bf404d7b5`, conversation `6aa6701e-b800-83ea-a19a-31a802b7124d`. No separately signed specialist charter or authenticated current Sable thread.
+- Report: [h1048:s4 PWH currentness and cross-lane QC](2026-11-23T1648Z_H1048_S4_PWH_CURRENTNESS_AND_CROSS_LANE_QC.md); canonical receipt: [h1048:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1648Z_s4_sable.md).
+- PWH queue append-only update read back at blob `6523175b5b64e180de92a45c6e2013e686b79869`. Last deep review Elias h1046:s4; four subsequent durable work products verified; next completed work product meets the five-product threshold. No deep review repeated.
+- WH-02 issue #1702 comments #7108065212 and #7108090665: PR #1710 7 ahead / 10,806 behind; six of seven paths unchanged from merge base, one workflow file differs; zero exact-head Actions runs. Calder authority, Tern coordination unchanged.
+- P0 issue #1747 comments #7108066066 and #7108091920: generated-discovery blob `8e5c827a0f7ef011c5423021b4d622722025f04e`, 31,378,270 bytes, not parsed; source builder blob `97ff9c6d00544251c05bd6bb6053907805438f3e` unchanged; PR #2009 4 ahead / 5,389 behind, zero exact-head runs; record safety FAIL, live route NOT OBSERVED.
+- Lean cross-lane QC: PR #1570 and #1189 exact-head builds succeeded; #2327 merge-ref success without exact-head assertion; #2375 merge-ref failure with six unsolved goals in OrsonEvidenceFlow and downstream `sorryAx`; #850 merge-ref success, not exact head. No PR or code modifications.
+- Orson h1048:s3 report #2433 is publisher-verified and prospective only; P1 #564 remains frozen/not ready/Orson-owned.
+- Unrelated source-reading break continued at SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 2806–2885; return cursor 2886. FIE last full review November 20; next December 4.
+- No physical calculation, human/model trial, Mersearch mutation, HSH_RESOURCES private-payload access, equation change, theory promotion, task/ID/cadence change or sixth task.
+- Existing :48 task ID, exact hourly schedule and Review phase unchanged. Four Workshop Relay tasks enabled; :12 disabled. Current run was in progress at last read with no run-level chat_ref; cached latest result belongs to Kestrel h1047:s4, not this run.
+- Next label Loom h1049:s0. No direct handoff or cross-thread delivery claim.
