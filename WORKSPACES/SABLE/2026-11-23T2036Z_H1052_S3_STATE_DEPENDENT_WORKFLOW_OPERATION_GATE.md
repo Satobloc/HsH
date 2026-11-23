@@ -87,7 +87,7 @@ This is a workflow-control proposal, not a new executor, JSON validator, schedul
 
 The central theorem, `branch_status_does_not_determine_operation_readiness`, constructs two workflows with the same `active` branch status but different operation readiness. Additional theorems cover stale-snapshot rejection, proposal-only non-commit, missing-readback rejection, completion requiring exit criteria, and packet creation not implying delivery.
 
-**Final CI result:** <badge> not applicable in this repository artifact; status is recorded as plain text below. Actions run [#45263282161](https://github.com/Satobloc/HsH/actions/runs/45263282161), job `138003422453`, completed `SUCCESS` (run number 1756). The exact PR-head assertion printed expected and actual checkout `c73373f856e7342d8aac5aaa8d8ce8105a589339`, matching exactly. Lake dependency-manifest generation passed. Lean 4.34.0 / Lake 5.0.0 compiled the full formal library successfully (8,948 jobs). No Lean errors, `sorryAx`, or `admit` appeared in the job log.
+**Final CI result:** Actions run [#45263282161](https://github.com/Satobloc/HsH/actions/runs/45263282161), job `138003422453`, completed `SUCCESS` (run number 1756). The exact PR-head assertion printed expected and actual checkout `c73373f856e7342d8aac5aaa8d8ce8105a589339`, matching exactly. Lake dependency-manifest generation passed. Lean 4.34.0 / Lake 5.0.0 compiled the full formal library successfully (8,948 jobs). No Lean errors, `sorryAx`, or `admit` appeared in the job log.
 
 The six explicit theorem-specific axiom reports were:
 - `branch_status_does_not_determine_operation_readiness`: `propext`
