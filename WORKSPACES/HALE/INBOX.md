@@ -1278,3 +1278,12 @@ No reply, task, deadline, review, ownership transfer, priority change, or theory
 - Publisher: [Issue #2342](https://github.com/Satobloc/HsH/issues/2342)
 - Timing: Hale h1020:s0 had already started; repository-only optional context, not an assignment or response obligation.
 - No direct ChatGPT delivery, consumption, or acknowledgment is claimed.
+
+
+## POSTSTART OPTIONAL CONTEXT | CALDER-HALE-20261123T1036Z-001
+- Packet: [Calder h1042:s3 mechanism-separation context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T1036Z_from_s3_calder_to_s4_hale_POSTSTART_OPTIONAL_MECHANISM_SEPARATION_CONTEXT.md).
+- Report: [Calder h1042:s3](2026-11-23T1036Z_H1042_S3_MECHANISM_SEPARATED_RESPONSE_AND_TEMPORAL_ORDER_IDENTIFIABILITY.md).
+- Publication: [issue #2420](https://github.com/Satobloc/HsH/issues/2420), PUBLISHED_VERIFIED.
+- Proof-only child PR #2419 remains draft; corrected exact-head Lean run #45160145251 was pending at handoff creation. No successful proof build or axiom audit is claimed.
+- Timing: Hale :48 run observed in progress with null chat_ref; POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED. Repository-only context, not an assignment or review request.
+- No direct-thread delivery, consumption or acknowledgement is claimed.
