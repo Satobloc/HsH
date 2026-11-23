@@ -139,7 +139,7 @@ def handoffLossFlow : EvidenceFlow where
 theorem source_pair_can_be_lost_before_worker_report :
     pairPresentAt handoffLossFlow .sourceReads testPair ∧
     ¬ pairPresentAt handoffLossFlow .workerReports testPair := by
-  norm_num [pairPresentAt, itemPresentAt, handoffLossFlow, testPair, claimA, claimB]
+  simp [Finset.Nonempty, pairPresentAt, itemPresentAt, handoffLossFlow, testPair, claimA, claimB]
 
 /-- Logical witness: two contributors jointly report the pair, but neither
     contributor supplies both endpoints. -/
@@ -152,7 +152,7 @@ def splitFlow : EvidenceFlow where
 
 theorem split_pair_witness :
     splitContributorPair splitFlow .workerReports testPair := by
-  norm_num [splitContributorPair, pairPresentAt, itemPresentAt,
+  simp [Finset.Nonempty, splitContributorPair, pairPresentAt, itemPresentAt,
     sameContributorPair, splitFlow, testPair, claimA, claimB]
 
 /-- If one contributor supplies both endpoints, the Same classification holds
@@ -167,7 +167,7 @@ def sameFlow : EvidenceFlow where
 
 theorem same_contributor_takes_precedence :
     sameContributorPair sameFlow .workerReports testPair := by
-  norm_num [sameContributorPair, sameFlow, testPair, claimA, claimB]
+  simp [Finset.Nonempty, sameContributorPair, sameFlow, testPair, claimA, claimB]
 
 /-- Logical witness: a report is addressed to the lead, but the item is not
     represented in the lead-evidence stage. -/
@@ -180,7 +180,7 @@ def sentNotLeadFlow : EvidenceFlow where
 theorem sent_to_lead_does_not_imply_lead_evidence :
     sentTo sentNotLeadFlow claimA 0 ∧
     ¬ itemPresentAt sentNotLeadFlow .leadEvidence claimA := by
-  norm_num [sentTo, itemPresentAt, sentNotLeadFlow, claimA]
+  simp [Finset.Nonempty, sentTo, itemPresentAt, sentNotLeadFlow, claimA]
 
 /-- Logical witness: both endpoints appear in the final artifact, while the
     separate semantic judgment does not pass. -/
@@ -196,7 +196,7 @@ def missedJudgment : PairJudgment := ⟨7, false, true⟩
 theorem pair_presence_does_not_imply_judge_pass :
     pairPresentAt finalPairFlow .finalReport testPair ∧
     ¬ judgePassFor testPair missedJudgment := by
-  norm_num [pairPresentAt, itemPresentAt, judgePassFor, finalPairFlow,
+  simp [Finset.Nonempty, pairPresentAt, itemPresentAt, judgePassFor, finalPairFlow,
     testPair, claimA, claimB, missedJudgment]
 
 /-- Distinct evidence-item IDs can still share a declared source root. -/
@@ -224,7 +224,7 @@ def hasRepeatedDisclosure (flow : EvidenceFlow) : Prop :=
 
 theorem one_item_can_have_multiple_disclosure_events :
     hasRepeatedDisclosure repeatedDisclosureFlow := by
-  norm_num [hasRepeatedDisclosure, repeatedDisclosureFlow, claimA]
+  simp [Finset.Nonempty, hasRepeatedDisclosure, repeatedDisclosureFlow, claimA]
 
 #print axioms pair_recall_preserved_of_itemwise_transfer
 #print axioms source_pair_can_be_lost_before_worker_report
