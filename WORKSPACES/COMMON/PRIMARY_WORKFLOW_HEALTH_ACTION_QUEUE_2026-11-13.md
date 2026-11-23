@@ -1189,3 +1189,35 @@ The h1041:s2 PWH deep-review supplement above mis-transcribed the Morrow h1040:s
 - Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T1158Z_from_s3_tern_to_s4_morrow_POSTSTART_OPTIONAL_OP01_DASHBOARD_LINK_READER_TEST.md`.
 - Expected bounded deliverable: unique SAT Dashboard-to-HsH link inventory plus current Common front-door resolution/freshness classification; no private HSH_RESOURCES payload, AI-folder work, source edit, or task-graph node.
 - If not consumed in the current run, retain the request for the next deterministic Morrow ring label h1062:s4. This is optional context, not a new task or automation.
+
+## ASTER h1045:s2 deep upkeep review — 2026-11-23T13:24Z
+
+**Trigger:** the previous deep review was Loom h1041:s2. Five subsequent completed durable work products are verified: Aldus h1042:s2, Enheduanna h1043:s2, Morrow h1043:s4 (published issue #2423), Kestrel h1044:s0, and Mercer h1044:s2 (existing P0 issue/README readbacks). The present Aster h1045:s2 activation is additional evidence, not needed to reach the five-work-product threshold.
+
+### Live graph and deterministic triage
+
+- Graph blob: `71b6bbb977a9acb7c578cf5a100a4c3595ba412b`; 18 records against 16 declared branches.
+- Statuses: 5 completed, 12 active, 1 blocked. Seven roots, 11 parent references, 10 child references, 17 reachable records. One unreachable record is the blocked M87 polarimetry readout child of P2. No dangling parent/child references or cycles; one parent-only edge remains.
+- Existing helper: `WORKSPACES/COMMON/task_upkeep_triage.py`, blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`. Exact file bytes were copied to the scratch runtime; Git blob hash matched. Its embedded self-test passed. The helper was run against a field-complete projection of all 13 active/blocked candidates from the live graph, as of 2026-11-23.
+- Priority distribution: P0 3; P1 2; P2 3; P3 1; P4 1; UNCLASSIFIED 3.
+- Metadata gaps among 13 candidates: priority 3; owner 7; due date 10; last reviewed 10. No defensible low-hanging candidate exists because effort/value fields are absent.
+- P1 cognition is 14 days overdue (due 2026-11-09), Orson-owned, frozen/not ready. P2 is due 2026-11-30 (7 days) with no execution owner and remains HOLD. P3 is due 2026-12-14 (21 days), has no owner and remains incomplete. No priority, owner, due date or graph state was changed.
+
+### Workstream reconciliation
+
+- **WH-01 clone census:** current append-only ledger has 490 rows, 487 unique populated event IDs, 3 legacy missing IDs, zero parse errors and zero duplicate populated IDs. The numeric run-list cursor remains 2026-11-15 18:00Z and STALE/BLOCKED; the original 100-run ID snapshot was not retained, 79 job endpoints remain uninspected, and Traffic/provisioning attribution remains UNKNOWN. No census cursor or ledger event was advanced.
+- **WH-02 chronology:** PR #1710 remains OPEN/DRAFT/UNMERGED, 7 commits ahead of its recorded base and 2 behind that base; against current main it is DIVERGED, main 10,688 commits ahead and the PR 7 commits ahead. Seven files differ. No exact-head PR-triggered CI or formal review was established. Calder retains ownership; no rebase/merge was attempted.
+- **WH-03/04 intake and lifecycle:** still OPEN; no verified end-to-end intake scanner or executable lifecycle transition was established in this review.
+- **WH-05 Mersearch:** all four canonical request lanes remain occupied/requested. Lane 2 has a manifest and compact receipt but raw results remain withheld; lanes 1, 3 and 4 still lack request-scoped manifest/receipt. No request, overwrite, release or retrigger occurred.
+- **WH-06 issue/fork governance:** issue #1705 remains OPEN, last updated 2026-11-19. The original issue/fork inventory is not refreshed; no 100+ fork lineage or new total is inferred.
+- **WH-07/08 Project Desk and orphan inspection:** remain OPEN without verified pickup or completed bounded inventory.
+- **WH-09 conversation migration:** last verified progress remains 5,155 of 13,793; partial.
+- **OP-01 Old Plan Recovery Sweep:** Morrow h1043:s4 report and issue #2423 establish 23/23 SAT Dashboard-to-HsH repository targets resolve (18 files, 5 directories). This is repository-path resolution, not a rendered-browser/live-reader test. Semantic freshness defects remain: superseded revival link, public HSH_RESOURCES cross-link, historical snapshots lacking dated labels, current Common front doors omitted, and automation roster snapshot presented without live-state distinction. A one-file Dashboard patch was proposed but not applied. AI-folder half remains uninspected. Tern retains coordination; execution owner remains UNASSIGNED. The next bounded decision is Tern's acceptance/decline of the proposed Dashboard-only patch and, if accepted, routing it through an already-enabled worker. No task/graph node is created.
+
+### Campaign, review and controls
+
+P0 Code Grurple remains ACTIVE. P1 Orson remains overdue/frozen/not ready. P2 measured geometry remains HOLD with no selected measured system. P3 full theory remains incomplete. FIE last full review was 2026-11-20, next 2026-12-04; the unrelated-reading break was completed 2026-11-21, so neither was repeated. No graph mutation, ownership transfer, priority change, scheduler change, Mersearch mutation, physical calculation or theory promotion occurred.
+
+**Next deep review:** after five additional actual completed work products/evidence entries, or earlier on a new Nathan priority, missed pickup, material dependency change, milestone or evidence of stranded work.
+
+**Review source:** live task graph, PWH queue, exact helper, clone ledger, PR #1710, issue #1705, Morrow h1043:s4 report/receipt, and current P0/Three Paper Campaign controls.
