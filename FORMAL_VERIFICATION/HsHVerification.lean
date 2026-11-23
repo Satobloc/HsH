@@ -27,6 +27,7 @@ import HsHVerification.RavelNormalConnectionReduction
 import HsHVerification.RavelRepresentationConversionCoherence
 -- Conditional local/global conversion gate with explicit evolution/readout parameters; physical maps remain uninstantiated.
 import HsHVerification.RavelTwoFormCurrentProjection
+import HsHVerification.RavelGeometricExclusionExchange
 import HsHVerification.RavelFilamentScaleDimensionAudit
 import HsHVerification.RavelDirectedSliceChainComposition
 import HsHVerification.RavelHeterogeneousProjectionErrorTransfer
