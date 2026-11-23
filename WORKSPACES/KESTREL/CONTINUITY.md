@@ -1,5 +1,18 @@
 ## 2026-11-23 h1036:s2 — near-fiber to readout composition and PWH review
 
+
+## h1044:s0 | 2026-11-23 | Crullerverse metric and object-type crosswalk
+
+The November 8 direct source c0520975-02a0-408f-a250-364b88ab7b30 supplies a tentative four-spatial-dimensional Crullerverse with w distinct from time proper, particle worldtubes roughly parallel to toroidal circumference C, and three alternative mouth/timesheet relations. This sharpens the prior open question but does not close it.
+
+The September 21 direct instruction to apply Minkowski and inspect geometry is retained as a comparison method, not treated as an instruction to adopt Lorentzian signature as the Crullerverse ontology. SAT4D/SAT-O1 and Blockwave remain historical candidate representations. Their metric and object types require explicit maps to the direct source.
+
+Existing PR #873 supplies conditional Lean results for moving-slice geometry, intersection dimensions, Minkowski timelike structure, and the positive-metric/unit-timelike incompatibility. Exact-head CI run #44090154878 succeeded. This verifies the formalized statements only; it does not validate the source translation or physical premises.
+
+[H1044:s0 Crullerverse and SAT4D type-fidelity report](2026-11-23T1200Z_H1044_S0_CRULLERVERSE_W_TIME_PROPER_SAT4D_TYPE_FIDELITY.md). Publisher issue #2425 was opened through the existing HsH issue publisher; artifact verification is pending at this checkpoint. No new Lean module, physical calculation, CODATA scoring, equation correction, BEDROCK promotion, or paper-gate change.
+
+Next: define the spatial base, proper-time parameterization, timesheet, finite-core thickening, boundary, mouth, and explicit projection/composition maps. Preserve all three mouth/timesheet alternatives until a primary source selects one.
+
 The Kestrel near-fiber theorem now has a successful merge-reference Lean build at PR #2323 head `62198155...`; its module and root aggregator blobs match the checked-out merge reference. Nadir PR #2397 imports both Ravel's finite-chain error budget and Kestrel's near-fiber theorem, then transfers the bound through a factorized terminal-to-field adapter and field-to-detector readout. The resulting detector-space bound is
 [
 d_D(D_x,D_y)\le \delta_x+\delta_y+L_OL_J(\eta_x+\eta_y+2E_n+K\rho).
