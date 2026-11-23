@@ -13,7 +13,7 @@ For h=1055, seq=5h=5275 and 5275 mod 19 = 12. The next ring index is 13. This is
 
 No standalone signed Nathan-authored Tern specialist charter was found. The historical role witness describes scheduler/automation allocation, workflow coordination, and Comptroller/PWH responsibility. That is a role description, not a signed charter and not authority to alter task identities or ownership outside the existing control rules.
 
-The h1054:s4 Enheduanna packet was read as optional context. Its own status is POSTSTART_OPTIONAL_CONTEXT_ONLY, so it is not represented as a prestart handoff consumed by this run. No authenticated Tern thread or direct-thread delivery was established. The next :12 lease is disabled. No Morrow handoff, assignment, response obligation, or inbox append was created.
+The h1054:s4 Enheduanna packet was already present in Tern INBOX before this h1055:s0 run began and was read as optional context. Its POSTSTART_OPTIONAL_CONTEXT_ONLY label refers to its original intended h1054:s0 recipient, whose run had already started when it was prepared; it is not treated as an authenticated delivery to the current Tern thread. No authenticated Tern thread or direct-thread delivery was established. The next :12 lease is disabled. No Morrow handoff, assignment, response obligation, or inbox append was created.
 
 ## 2. Source cluster and evidence classes
 
@@ -243,11 +243,11 @@ The 2026-10-26 proof-first directive was read and applied by identifying the for
 
 Existing PRs were inspected, not modified:
 - PR #262 infrastructure verification branch: open, non-draft; successful exact-head Actions run #43948452979 is on the infrastructure branch, not a new H(s)H proof.
-- PR #873: open/draft; current head 94b6d96, no exact-head success established in this review.
+- PR #873: open/draft; current head 94b6d96c; exact-head verify run #44090154878 succeeded on 2026-11-17. Its branch is 111 commits ahead and 27,587 behind current main.
 - PR #1133: open/draft; current head e22fb554, exact-head run #45186541338 succeeded.
 - PR #1189: open/draft; current head 9e563ee, exact-head run #45284099363 succeeded. Its generic projection-factorization condition is not an implementation of RΣ.
-- PR #1594: open/draft; current head 136071f6, no current exact-head success established here.
-- Tern PR #2422: open/draft/unmerged, current head 9e0b1d69 on the source-map currentness branch. No branch change.
+- PR #1594: open/draft; current head 136071f6; exact-head verify run #43006069897 succeeded on 2026-11-11. Its branch is 47 commits ahead and 27,587 behind current main.
+- Tern PR #2422: open/draft/unmerged, current head 9e0b1d692; exact-head verify run #45170083518 failed on 2026-11-23. No branch change.
 
 Math Hopper issue #578 and PR #991 remain incomplete/open; full archive scan is not verified. Whirligig Kernel0 remains an existing sandbox reference, not a validated production solver. SciSpace is available as an installed connector but was not needed for this internal source pass. The three repositories report zero forks at this check. No new tool, fork, dependency, subscription, or expense was introduced.
 
