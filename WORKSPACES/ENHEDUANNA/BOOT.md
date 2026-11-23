@@ -375,7 +375,7 @@ Tern is next deterministic label, but the prior optional packet path is not foun
 - Report: [NotebookLM export schema and source-lineage supplement](2026-11-23T0348Z_H1035_S4_NOTEBOOKLM_EXPORT_SCHEMA_AND_SOURCE_LINEAGE_SUPPLEMENT.md).
 - Common source-grounded seed: [h1035:s4 Enheduanna seed](../COMMON/REVIVAL_SEEDS/2026-11-23T0348Z_H1035_S4_ENHEDUANNA_SOURCE_GROUNDED_REVIVAL_SEED.md).
 - Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0348Z_s4_enheduanna.md (created after final publisher readback).
-- Publisher issue #2400 is SUBMITTED_NOT_VERIFIED at this checkpoint; submission ID enheduanna-h1035-s4-notebooklm-export-schema-provenance-20261123t0348z-001; SHA-256 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b.
+- Publisher issue #2400 is SUBMITTED_NOT_VERIFIED at this checkpoint; submission ID enheduanna-h1035-s4-notebooklm-export-schema-provenance-20261123t0348z-001; submitted digest (publisher rejected; actual SHA-256 not recomputed) 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b.
 - No standalone signed specialist charter or authenticated current Enheduanna thread was established. This is assistant-level Review-MIND source work, not historical-instance participation.
 - Nadir's optional h1035:s3 packet was consumed at repository level only. No direct-thread acknowledgment or task obligation.
 - Preserve the MATHEMATICO export's 62 role=user labels as export metadata only; author/source attribution remains unresolved. The exact v0.2.2 exporter is not recovered.
