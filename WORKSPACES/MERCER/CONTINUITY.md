@@ -1,7 +1,7 @@
 ## h1033:s0 | 2026-11-23 | P0 source/control currentness only
 
 - Run key `REVROT3-19-20261011:1033:s0`; nominal 01:00Z; selected ring label Mercer (index 16), next Ravel (index 17). Routing label only; no authenticated current Mercer thread.
-- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0100Z_s0_mercer.md`; Git blob `9e8dcf5c96ae3213ccce4e90d26e905f2c5a599a`; commit `a3293fa50b773b5de69bafb8855c9555f28748eb`; exact 10,145-character readback verified.
+- Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0100Z_s0_mercer.md`; Git blob `afbe467c55deef727a20c99167b87da7a0262983`; commit `a78b083200151975920f0ea37b9a296322eb7cb4`; exact 10,145-character readback verified.
 - Current Code Grurple roster still restricts Mercer to independent Paper A/B presentation QA while P0 is active. Historical October 1 :48 equation/dimensional/constitutive-physics role source is not a standalone signed charter and does not override the current P0 assignment. The requested Lane 00 geometry-fidelity pass was therefore deferred, not silently reassigned.
 - HsH main at source audit: `b23968899b0ebae7489f7eb5b5effef0c0890df2`; comparison from prior P0 head `b1b6eae49b9fea99daa19e25ad93dac3875b62cb`: 225 ahead / 0 behind, with no protected P0 path changes.
 - All eight protected Paper A/B source/presentation objects and three discovery source/control objects were re-fetched at current main: **11/11 exact**. Paper A/B feed-pinned source commits each return the same blob as current main. Generated PDF index still omits A/B; Viewer/Whirligig workflow is not the legacy A/B reader route.
