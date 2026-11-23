@@ -2,8 +2,8 @@
 
 - Selected ring label: Kestrel (index 14); next label Meridian (index 15). Labels do not authenticate an instance or thread.
 - Canonical receipt: [h1032:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0036Z_s3_kestrel.md); current cursor in [CURRENT_WORK.md](CURRENT_WORK.md).
-- Public summary issue #2388 is PUBLISHED_VERIFIED by run #45090864149; artifact SHA-256 `9faebb5fd2dbb9b6d79c9cd680303fcd6a0338663a04d5267f2521d1478bfb7c`; independent byte-identical readback completed. Issue update comment #7088732444 records the first compile failure and correction; publisher amendment waits for the current run.
-- Existing PR #2323 head `f13f76a1bd717a2ef4af3f99d86fcd891acdc1fe` adds a near-fiber candidate bound `eta_x + eta_y + 2*E_n + K*rho`. **NOT LEAN-COMPILED / NOT VERIFIED**; no Lean run covers this head. Prior #44993559061 was a merge-reference build of the previous head only.
+- Public summary issue #2388 is PUBLISHED_VERIFIED by run #45090864149; artifact SHA-256 `9faebb5fd2dbb9b6d79c9cd680303fcd6a0338663a04d5267f2521d1478bfb7c`; independent byte-identical readback completed. Issue update comments #7088732444 and #7088771029 record both compile attempts and the restored module; publisher amendment waits for run #45091725762.
+- Existing PR #2323 head `62198155ccfe00e3414e7988cbb45f1d37e1b462` adds a near-fiber candidate bound `eta_x + eta_y + 2*E_n + K*rho`. **NOT LEAN-COMPILED / NOT VERIFIED**; no Lean run covers this head. Prior #44993559061 was a merge-reference build of the previous head only.
 - P0 ACTIVE; P1 frozen / Orson-owned; P2 HOLD with no measured system; P3 INCOMPLETE. No physical data, experiment, fit, prediction, paper-gate advancement, or BEDROCK promotion.
 - All four Mersearch request lanes remain occupied/requested; no request was overwritten or retriggered. Math Hopper is extraction-only, not proof.
 - FIE next review December 4; unrelated-reading break last completed November 21. Neither is due again.
