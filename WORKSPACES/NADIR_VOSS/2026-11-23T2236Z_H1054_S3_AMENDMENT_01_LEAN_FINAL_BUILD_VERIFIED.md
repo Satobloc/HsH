@@ -6,7 +6,7 @@
 
 ## Final exact-head verification
 
-<badge>SUCCESS</badge>
+**Status: SUCCESS**
 
 [GitHub Actions run #45284099363](https://github.com/Satobloc/HsH/actions/runs/45284099363) passed on exact source commit `9e563ee330c8bdbdcf16f746eb1baff931751677`.
 
