@@ -51,23 +51,23 @@ def exchange (x : Configuration) : Configuration :=
   (x.2, x.1)
 
 /-- Minimal hard-core analogue: amplitude vanishes on the coincidence diagonal. -/
-def HardCore (psi : Configuration → ℝ) : Prop :=
+def HardCore (psi : Configuration → ℤ) : Prop :=
   ∀ i : Fin 2, psi (i, i) = 0
 
 /-- Exchange-even (symmetric) amplitude. -/
-def ExchangeEven (psi : Configuration → ℝ) : Prop :=
+def ExchangeEven (psi : Configuration → ℤ) : Prop :=
   ∀ i j : Fin 2, psi (exchange (i, j)) = psi (i, j)
 
 /-- Exchange-odd (antisymmetric) amplitude. -/
-def ExchangeOdd (psi : Configuration → ℝ) : Prop :=
+def ExchangeOdd (psi : Configuration → ℤ) : Prop :=
   ∀ i j : Fin 2, psi (exchange (i, j)) = -psi (i, j)
 
 /-- A nonzero exchange-even amplitude that vanishes on coincidence. -/
-def hardCoreEvenWitness (x : Configuration) : ℝ :=
+def hardCoreEvenWitness (x : Configuration) : ℤ :=
   if x.1 = x.2 then 0 else 1
 
 /-- A nonzero exchange-odd amplitude that also vanishes on coincidence. -/
-def hardCoreOddWitness (x : Configuration) : ℝ :=
+def hardCoreOddWitness (x : Configuration) : ℤ :=
   if x = ((0 : Fin 2), (1 : Fin 2)) then 1
   else if x = ((1 : Fin 2), (0 : Fin 2)) then -1
   else 0
@@ -78,12 +78,12 @@ theorem exchange_involutive (x : Configuration) :
   rfl
 
 theorem exchangeOdd_forces_hardCore
-    (psi : Configuration → ℝ)
+    (psi : Configuration → ℤ)
     (hOdd : ExchangeOdd psi) :
     HardCore psi := by
   intro i
   have h := hOdd i i
-  simp [ExchangeOdd, exchange] at h
+  simp [exchange] at h
   linarith
 
 theorem hardCoreEvenWitness_hardCore :
@@ -94,7 +94,7 @@ theorem hardCoreEvenWitness_hardCore :
 theorem hardCoreEvenWitness_exchangeEven :
     ExchangeEven hardCoreEvenWitness := by
   intro i j
-  simp [ExchangeEven, hardCoreEvenWitness, exchange, eq_comm]
+  simp [hardCoreEvenWitness, exchange, eq_comm]
 
 theorem hardCoreEvenWitness_nonzero :
     hardCoreEvenWitness ((0 : Fin 2), (1 : Fin 2)) = 1 := by
@@ -141,11 +141,35 @@ theorem hardCoreEvenWitness_not_exchangeOdd :
   have h01 := h (0 : Fin 2) (1 : Fin 2)
   norm_num [ExchangeOdd, hardCoreEvenWitness, exchange] at h01
 
+/-- Quadratic diagonal of a 2×2 bilinear coefficient matrix. -/
+def quadraticDiagonal (a00 a01 a10 a11 x y : ℤ) : ℤ :=
+  a00 * x * x + a01 * x * y + a10 * y * x + a11 * y * y
+
+/--
+If the diagonal quadratic vanishes for every superposition (x,y), the
+2×2 coefficient matrix is skew-symmetric. This is the finite-dimensional
+polarization gate: a single fixed-basis diagonal test is weaker.
+-/
+theorem allSuperpositionDiagonalZero_forces_skew
+    (a00 a01 a10 a11 : ℤ)
+    (h : ∀ x y : ℤ, quadraticDiagonal a00 a01 a10 a11 x y = 0) :
+    a00 = 0 ∧ a11 = 0 ∧ a01 + a10 = 0 := by
+  have h00 := h 1 0
+  have h11 := h 0 1
+  have hsum := h 1 1
+  norm_num [quadraticDiagonal] at h00 h11 hsum
+  constructor
+  · exact h00
+  · constructor
+    · exact h11
+    · omega
+
 #eval (hardCoreEvenWitness ((0 : Fin 2), (1 : Fin 2)),
        hardCoreOddWitness ((0 : Fin 2), (1 : Fin 2)))
 
 #print axioms exchangeOdd_forces_hardCore
 #print axioms hardCore_does_not_select_exchange_parity
 #print axioms hardCoreEvenWitness_not_exchangeOdd
+#print axioms allSuperpositionDiagonalZero_forces_skew
 
 end HsHVerification.RavelGeometricExclusionExchange
