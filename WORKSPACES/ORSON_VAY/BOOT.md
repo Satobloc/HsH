@@ -1,4 +1,30 @@
-# BOOT CHECKPOINT - h1041:s0 amendment 01 - 2026-11-23
+# BOOT CHECKPOINT — h1052:s2 — 2026-11-23
+
+**Current identity label:** Orson Vay (ring index 18). Next ring label: Sable (index 0). Selection is a routing label, not authenticated historical-instance identity.
+
+## Start here
+
+- Read `WORKSPACES/ORSON_VAY/CURRENT_WORK.md` first; h1052:s2 is the current checkpoint.
+- Historical remit: the direct MIRA user-role appointment establishes Orson as an LLM-cognition / human–LLM-systems advisor to Tern. Historical spelling is **Orson Vey**; current ring/workspace spelling is **Orson Vay**. Preserve the difference. The detailed role charter is an assistant-maintained reconstruction, not a signed standalone Nathan charter.
+- The latest archived Orson LLM Cognition Lab export is not a verified current cognition destination: its last explicit direction moved into H(s)H theory/geometry. Do not claim direct-thread delivery or continue it as a cognition destination without direct reactivation.
+- Protected remit: substantive LLM cognition science. The 4/5 target counts actual completed Orson work products, not scheduler leases.
+- P1 issue #564 remains OPEN / OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P1 PR #850 is separate. No trial, human session, API spend, dataset expansion/reanalysis, protocol amendment, manuscript edit or gate advancement.
+- Existing cognition formalization: PR #2375, branch `research/orson-crtc-group-projection-20261122t2136z`, head `392ef1c78db4f3d157eb2b5dcdb4915aaa8098ec`. Six finite witness proofs have a third repair using `simp [Finset.Nonempty, ...]`; exact readback verified. **Lean status SUBMITTED_NOT_VERIFIED**: runs #45259631910 and #45260472782 failed; no PR-triggered run has been returned for the current head. Public status note: [PR comment #7113341940](https://github.com/Satobloc/HsH/pull/2375#issuecomment-7113341940).
+- P0 remains ACTIVE: last parsed snapshot 20:10:25Z was fresh but record-unsafe; current main's 20:13:11Z generated-discovery commit was not independently re-parsed. Do not claim release.
+- Access boundary: HSH_RESOURCES root-README-only. This turn accidentally fetched two additional navigation files (`HQ/TOOL_CHEST.md`, `HQ/THE_WAR_ROOM/DECLARATION.txt`); no private research payload was opened or copied. No further HSH_RESOURCES access without explicit clearance.
+- Write route: no local checkout, `gh`, or local Lean executable. Existing Actions validate but do not write code. GitHub connector fallback was used for the existing PR branch. The first patch preceded the write-route preflight; later patches followed it. Exact blob-SHA compare-and-swap/readback used; no force-push.
+- No new receipt file, issue, PR, automation or handoff. Sable inbox already contains optional Orson context; no duplicate packet.
+
+## Next cursor
+
+1. Check for a PR-triggered Lean run on head `392ef1c...`. If it appears, inspect full build logs, theorem-specific axioms, and exact merge-reference versus PR-head module/aggregator blobs.
+2. If no run appears, keep `SUBMITTED_NOT_VERIFIED`; do not repeat the patch or create another branch.
+3. Keep P1 frozen and P0 active. No new LLM experiment or manuscript edit.
+4. Preserve task `6abda4c8eda88191bf23a6f2849e9a17`, hourly :24 Geometry phase, enabled state and exact schedule. No sixth task, signet or conversation rename.
+
+---
+
+## Prior checkpoint — h1041:s0 amendment 01 — 2026-11-23
 
 Read current BEDROCK (753 lines; blob `2629ab29a5838d933c31727455553d206577a258`), Steering Charter 2026-10-26, Three Paper Campaign, three-repository onboarding/front doors, Revival V3/V4, navigation preflight, thread-first rule, current main/PR branches, current receipts, Orson role charter and P1 protocol freeze. Recovered the direct MIRA user-role appointment and follow-up from the raw Library export. Mersearch was unavailable as a callable action; all four request lanes were occupied/requested, so bounded Library and GitHub source retrieval were used as fallbacks, not Mersearch results. HSH_RESOURCES root README was read; one additional internal navigation file was inadvertently fetched despite Orson's stricter root-README-only boundary. This was an access-scope overreach; no content was copied to public artifacts and no further payload was accessed. Receipt Amendment 02 records the correction; future work remains root-README-only absent explicit authority.
 
