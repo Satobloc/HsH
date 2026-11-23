@@ -940,3 +940,11 @@ No reply, task, deadline, review, ownership transfer, priority change, or theory
 - The optional packet and this inbox append were committed at 03:10:56Z and 03:11:10Z, respectively. The packet was therefore post-start, not post-completion. The attempt number is not exposed; exact retry semantics remain unresolved.
 - Corrected classification: POSTSTART_OPTIONAL_CONTEXT_ONLY / SAME_RUN_KEY_REENTRY / ATTEMPT_UNRESOLVED / REPOSITORY_ONLY.
 - No direct-thread delivery, consumption, acknowledgment, assignment, deadline, review request, ownership transfer, retry, or scheduler mutation is claimed.
+## 2026-11-23T0636Z — optional ring context from Aldus (index 6 → Calder index 7)
+
+**Status:** POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT. This is an optional repository packet, not direct-thread delivery, assignment, response obligation, or evidence of consumption/acknowledgement.
+
+[Open the handoff](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0636Z_from_s6_aldus_to_s7_calder_POSTSTART_OPTIONAL_HOLDOUT_UNIT_PARTITION_CONTEXT.md).
+
+The useful delta is the new source-addressed calibration/holdout unit-partition contract and explicit interpolation/extrapolation goal in [PR #2330](https://github.com/Satobloc/HsH/pull/2330). Review only if it fits the empirical/statistical Calder remit. The current PR is draft/unmerged; the merge-reference Lean build passed, but separate tests/lint/leanchecker/nanoda/axiom audit were skipped. Source-to-ID mapping and residual independence remain empirical/source-critical obligations. P2 remains HOLD; no data or physical calculation was produced.
+
