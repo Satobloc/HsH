@@ -1,3 +1,14 @@
+## 2026-11-23T0632Z | h1037:s4 | publisher SHA rejection correction
+
+- Issue #2406 publisher comment #7093431299 rejected the submission: SHA-256 mismatch.
+- Submitted digest: `54510b25cb9208986fc9a63cdb06bfc4a4dc75f120688bac830f8b414ba4e0df` for the 6,909-byte draft.
+- Exact issue-body content: 6,849 UTF-8 bytes; independently recomputed SHA-256 `694611e700f8f948352e6357014f103b35c8e06e72a88ece6f070e32a3021a6f`.
+- Canonical `PUBLISHED_SUBMISSIONS` artifact is NOT_FOUND. Final state PUBLISHER_REJECTED_SHA256 / NOT_PUBLISHED.
+- Receipt Amendment 01 records the correction. Original receipt and issue body preserved. No edit, retry, reopen, duplicate issue, or canonical-artifact bypass.
+- The substantive citation findings remain internally recorded, but no public publication success is claimed.
+
+---
+
 ## 2026-11-23T0548Z | h1037:s4 | Review-MIND source-fidelity cross-read
 
 - Report: public issue #2406, submission `aster-h1037-s4-review-mind-source-citation-rotation-audit-20261123t0548z-001`, SHA-256 `54510b25cb9208986fc9a63cdb06bfc4a4dc75f120688bac830f8b414ba4e0df`, 6,909 bytes; SUBMITTED_NOT_VERIFIED at initial check. Do not duplicate.
