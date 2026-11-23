@@ -1,3 +1,15 @@
+## Latest checkpoint | h1032:s0 | 2026-11-23T00:00Z
+
+- Report: [Proper Dimensionality co-metric lineage supplement](2026-11-23T0000Z_H1032_S0_PROPER_DIMENSIONALITY_COMETRIC_LINEAGE.md). Workspace report, not a PUBLISHED_SUBMISSIONS artifact. Git blob SHA-1: `7c1562fe105afa2f7e511733542fae807976d818`.
+- Receipt: [canonical h1032:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0000Z_s0_enheduanna.md). Git blob SHA-1: `7b0ff3e9550c93e2e813361c810725c2d3748e04`.
+- Status: source-fidelity supplement complete. Publisher issue [#2387](https://github.com/Satobloc/HsH/issues/2387) was rejected for SHA-256 mismatch; no PUBLISHED_SUBMISSIONS artifact exists. No retry or duplicate issue. Additive comments to #1142, #913 and #2387 were read back.
+- Main finding: the MATHEMATICO NotebookLM export has 62/62 messages labeled `role=user`; indices 45-52 are not authenticated as Nathan Direct. The raw March 2024 user-role geometry describes 1D filaments and a moving 3D time surface, but does not define the 24-cell lattice, ensemble co-metric or “Flow Dominance.”
+- Mathematical result: the finite nonnegative weighted outer-product construction is PSD; if full rank, its inverse is PD, not Lorentzian. PR #912 exact-head CI run #40722612936 succeeded for the finite-sum theorem. The inverse-positive step and composed signature obstruction remain open. PR #873 and #1189 are separate conditional results.
+- SAT-O1 and Blockwave originals, hashes and source dates are preserved. Malformed Blockwave tokens remain verbatim. No corrected original equations, new Lean module or build.
+- Controls: no signed Enheduanna specialist charter or authenticated thread; no handoff or cross-thread delivery. Mersearch lanes remain occupied/requested; HSH_RESOURCES payload boundary respected. Task graph unchanged. Existing :00 task ID, enabled state, hourly schedule and Lane 00 phase unchanged; no sixth task.
+- P0 active; P1 overdue/not-ready/frozen and Orson-owned; P2 HOLD; P3 incomplete. No paper-gate advancement. FIE last full review November 20, next due December 4. Unrelated-reading break last completed November 20.
+- Next: recover the native speaker graph only if authorized; define the filament-to-worldtube sweep, carrier dimension and timesurface intersection map; formalize inverse positivity only after source-grounded measure/full-rank conditions. No physical calculation, CODATA or theory promotion.
+
 ## Latest checkpoint | h1024:s2 | 2026-11-22T16:24Z
 
 - Report: [Recursive 4DHH generator source stratigraphy and measured-candidate triage](2026-11-22T1624Z_H1024_S2_RECURSIVE_4DHH_GENERATOR_SOURCE_STRATIGRAPHY_AND_MEASURED_CANDIDATE_TRIAGE.md).
