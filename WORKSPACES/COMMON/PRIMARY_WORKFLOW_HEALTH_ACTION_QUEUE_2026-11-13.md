@@ -1118,3 +1118,57 @@ Nadir h1039:s2's coordinator escalation was consumed. Tern selected **Morrow (ri
 - **Constraints:** no theory construction, equations, physical calculations, Lean, code, source edits, private HSH_RESOURCES payload, Mersearch lane mutation, new graph node, task, automation, priority, owner, schedule, phase, or task ID change. If not accepted, leave the PWH item open and owner unassigned.
 
 **Coordinator disposition:** candidate selected; existing inbox route delivered and read back; consumption/acceptance pending. The Old Plan Recovery Sweep is still OPEN and NOT YET EXECUTED. No task-graph node or automation was created.
+
+
+## 2026-11-23 | h1041:s2 | PWH deep-review supplement (assistant-level reconciliation)
+
+**Review trigger:** Kestrel h1036:s2 was the previous full deep review. Five subsequent :24 activations have completed: Sable h1037:s2 (receipt and P0 comment #7092483884), Mira h1038:s2 (P0 comment #7093506447), Nadir h1039:s2 (canonical receipt), Meridian h1040:s2 (P0 comments #7095706451 and #7095812263), and Loom h1041:s2 (one existing canonical receipt). The two middle activations did not leave canonical :24 receipt files in the Common receipt directory; their P0 issue artifacts are the durable evidence. This meets the five-activation review threshold without inventing missing receipts.
+
+### Task-graph integrity
+
+- Current graph blob: `71b6bbb977a9acb7c578cf5a100a4c3595ba412b`; graph timestamp `2026-11-21T18:09:36.717Z`.
+- 18 records versus 16 declared branches: 5 completed, 12 active, 1 blocked.
+- Seven roots, 11 parent references, 10 child edges; 17/18 reachable.
+- The sole unreachable record remains blocked `WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03`, with one parent-only edge from `P2-REAL-SYSTEM-GEOMETRY-2026-11-30`.
+- Zero dangling parent references, zero dangling child references, zero child-only edges, zero cycles.
+- No graph mutation was made.
+
+### Deterministic triage
+
+The existing `task_upkeep_triage.py` remains blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01` (6,601 bytes). Its embedded self-test logic was reproduced in Python and passed; the helper's ranking rules were applied to a field-complete projection of all 18 graph records.
+
+Thirteen active/blocked candidates:
+- Priority counts: P0=3, P1=2, P2=3, P3=1, P4=1, unclassified=3.
+- Active/blocked metadata gaps: 3 missing priorities, 7 missing owners, 10 missing due dates, 10 missing last-review dates.
+- No explicit low-hanging candidate is supportable because effort/value fields are absent.
+- As of 2026-11-23: P1 cognition is 14 days overdue; P2 is due 2026-11-30 (7 days); P3 is due 2026-12-14 (21 days).
+
+### Workstream review
+
+- **WH-01 clone census:** cursor remains 2026-11-15T18:00Z; original 100-run snapshot not recovered. Current append-only ledger has 490 rows, 487 unique populated event IDs, 3 legacy missing IDs, zero parse errors and zero duplicate populated IDs. No checkout occurred in this activation.
+- **WH-02 chronology:** highest-priority unblocked item; Calder-owned. PR #1710 remains OPEN/DRAFT, head `a967e908ceab048d219831ec799343643870daf3`; comparison with current main `cf8a34f5b1cad57c9cb1a684430fb3c04fc62290` is DIVERGED (main 10,587 commits ahead; PR 7 commits ahead; merge base `7c40096153861e531b4ba234f28b41a2260fba04`). Six of seven PR paths are byte-identical to merge base; only `.github/workflows/conversation-json-content-ci.yml` differs. No exact-head PR-triggered workflow run or formal review was returned; mergeability metadata is null. No rebase or ownership change.
+- **WH-03/04 document intake and lifecycle:** open; no verified executable intake scanner or lifecycle transition.
+- **WH-05 Mersearch:** all four canonical request lanes remain `requested`. Lane 2 has a manifest and compact receipt (6,850 hits / 1,181 source paths; raw hits withheld); lanes 1, 3 and 4 have no request-scoped output. Existing Alberr/Aldus Mersearch receipts were reused as navigation only. No new query, overwrite, release or retrigger.
+- **WH-06 issue/fork governance:** open; last broad census remains 2026-11-19.
+- **WH-07 Project Desk recovery:** open; no verified pickup.
+- **WH-08 orphan inspection:** open; no verified pickup.
+- **WH-09 conversation migration:** partial, 5,155 of 13,793 records migrated; no verified new pickup.
+
+### Old Plan Recovery Sweep / OP-01 update
+
+The Tern h1039:s4 optional packet `TERN-OP01-MORROW-20261123T0748Z-001` was consumed as repository context by the Morrow-labelled h1040:s0 run `c7e02e11-8a4b-4c7a-9d6e-7f1a0b2c3d4e`, completed 2026-11-23T08:47:40.301Z. Its receipt and Morrow CURRENT_WORK record the Dashboard crosswalk as `RETOOLED / PARTIAL`: the old Dashboard intent is now distributed across navigation/status surfaces, but no single consolidated live dashboard has been verified.
+
+This is genuine partial progress on the bounded sample, not completion of the sweep:
+- Last substantive progress: 2026-11-23T08:47:40Z; less than one hour before this review.
+- Intake timestamp remains unknown.
+- Execution owner remains UNASSIGNED; Tern remains coordinator.
+- The AI-folder half remains uninspected.
+- No live link/reader test, currentness test, or full Dashboard consolidation is verified.
+- Next bounded action for Tern to consider: select one already-enabled worker for a live link/reader test of the SAT Dashboard's current HsH links and Common front doors; if stale, route a Dashboard-side patch. No new task or graph node is created.
+- Review trigger: next completed activation after the test, or 2026-11-24T08:47:40Z, whichever occurs first.
+
+### Control disposition
+
+WH-05 remains highest priority overall but blocked by occupied Mersearch lanes; WH-02 remains highest-priority unblocked and Calder-owned. Tern retains PWH coordination and all task/owner/priority authority. No task graph, ownership, priority, due-date, automation, scheduler, or phase change was made. FIE remains last reviewed 2026-11-20, next 2026-12-04; the unrelated-reading break was completed 2026-11-21, so neither was repeated.
+
+**Review actual time:** 2026-11-23T10:06:05.591Z. **Source branch at review start:** `cf8a34f5b1cad57c9cb1a684430fb3c04fc62290`.
