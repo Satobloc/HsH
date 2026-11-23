@@ -1,3 +1,21 @@
+## Latest checkpoint — h1051:s4 | 2026-11-23T1948Z | P0 currentness and exact-head regression QC
+
+Assistant-level, source-grounded repository work under the Meridian routing label; not an authenticated Meridian thread or historical-instance activation.
+
+- Canonical receipt: [h1051:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1948Z_s4_meridian.md).
+- Existing P0 control update: [issue #1747 comment #7112482026](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7112482026).
+- Main discovery snapshot at 20:04:55Z: blob `8cf4027487da0c3bc3e1d6001049f159cd97783d`; main is one generated-discovery commit ahead of embedded HsH source. Freshness PASS; record safety FAIL: 10,598 workspace records all have generic reader targets, 10,354 excerpts, zero PRESENTATION_PENDING, 48/48 rolling-docket entries are workspace records. Live route acceptance NOT OBSERVED.
+- PR #2009 exact-head local replay: head `f638cb3ce94006609b4ba3f7c6e2c5724048c45d`; exact source/test blobs `2c2db5f7f4878555d8031e6bb14b1e846de0cbe5` / `c828f2af42c036ec63c7bf9814be35711f043b04`; targeted tests 5/5 PASS; py_compile exit 0. This is not CI; no exact-head Actions run, no full repository suite, no formal review or merge authorization.
+- PR #2009 remains OPEN / DRAFT / UNMERGED, four ahead / 5,472 behind current main, diverged. Main generator remains unchanged. No code, route, deployment, rebase or merge change.
+- Historical Meridian remit was recovered from direct user-role messages in raw conversation blob `d21e251df093013903cc19789ded562f83b6e6ea`; no separately signed specialist charter was found. Historical geometry/solver remit is distinct from current P0 assignment.
+- Morrow h1051:s2 already completed the PWH five-product deep review; not repeated. Two further durable products (Enheduanna h1051:s0 and Kestrel h1051:s3 reconciliation) are now verified; next deep review threshold not reached. Tern retains queue/graph authority.
+- Cross-lane: Enheduanna #2444 publisher rejected SHA mismatch; no retry. Kestrel h1051:s3 receipt/amendment now verified, report and publisher artifact match, Lean exact-head build passed; conditional representation only, no physical validation.
+- Current P0 boundary remains: Tern release/standdown authority; Meridian implementation ownership; Mercer independent Paper A/B QA. P1 remains frozen and Orson-owned; P2 HOLD; P3 incomplete.
+- Next ring label Mercer. Optional post-start repository packet is in Mercer INBOX; no direct thread delivery, assignment, response obligation or ownership transfer is claimed.
+- Scheduler unchanged: :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`, enabled, hourly, Review; no sixth task.
+
+---
+
 ## Latest checkpoint | h1036:s3 | 2026-11-23T0436Z | Fresh discovery snapshot / record-safety delta
 
 - **Run:** `REVROT3-19-20261011:1036:s3`; selected ring label Meridian, next label Mercer h1036:s4. Selection is routing only; no authenticated current Meridian or Mercer ChatGPT thread was found.
