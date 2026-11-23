@@ -1065,3 +1065,14 @@ Unrelated reading side-pass: Babbage Project Gutenberg #1216, web-rendered lines
 - New internal reconciliation: [h980 Lane 00 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/RAVEL/2026-11-20T2000Z_H980_S0_LANE00_CROSS_REPORT_RECONCILIATION.md). Canonical receipt: [h980:s0](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2000Z_s0_ravel.md).
 - Next source cursor: recover the raw message ID behind the 2026-09-16 theta4 log entry; then source-define centerline-to-worldtube thickening, worldtube-to-section, boundary measure, and the typed mutual-accommodation relation. No physical calculation without measured system/data.
 - No new public issue because the substantive source cluster is already covered; no duplicate publisher submission.
+
+
+## h1037:s0 checkpoint — 2026-11-23T05:00Z
+
+- Lane 00 source-fidelity delta recorded in WORKSPACES/RAVEL/2026-11-23T0500Z_H1037_S0_KERR_CORE_COIL_PERIODICITY_PAULI_STRING_FIDELITY.md.
+- Direct correction preserved: coiling is periodicity; do not model periodicity as a separate hierarchy level. Coil pitch remains a geometric descriptor.
+- Core exclusion / Pauli and shell / closed-string / string-vibration links remain hypotheses; S1/S2 topology and mode equations are assistant reconstructions without source-defined maps.
+- PR #1133 exact-head CI run #44920965461 succeeded on 8b6b19421327164f6c966be5cab3c58e7f9c0314; tests, lint, nanoda, and global axiom audit skipped. No new Lean module/build.
+- Publisher issue #2402 rejected for SHA mismatch. Correct report SHA-256 is 859149b29a8dd68457e6573b2bb19ad3bf350831329283588292d0aa4d8c0a97. No retry; no published artifact.
+- Blockwave Clean Action SHA-256 remains withheld under the later h1030 custody amendment; no original Blockwave source promoted.
+- No physical calculation, CODATA scoring, paper-gate advancement, or theory promotion.
