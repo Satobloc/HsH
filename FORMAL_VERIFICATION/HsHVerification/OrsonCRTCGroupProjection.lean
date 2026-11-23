@@ -128,8 +128,6 @@ theorem subgroup_member_projection_composes
     projectMemberFromSubgroup (projectSubgroup h s) i
       (Finset.mem_inter.mpr ⟨hiRoster, hiSubgroup⟩) =
       projectMember h i hiRoster := by
-  have hmem : i ∈ h.roster ∩ s :=
-    Finset.mem_inter.mpr ⟨hiRoster, hiSubgroup⟩
   change
     MemberHistory.mk i (memberEvents (subgroupEvents h.events s) i) =
       MemberHistory.mk i (memberEvents h.events i)
@@ -142,6 +140,41 @@ theorem subgroup_member_projection_composes
   · rintro ⟨he, hvisible⟩
     rcases hclosed e he hvisible with ⟨hauthor, havailable⟩
     exact ⟨⟨he, hauthor, havailable⟩, hvisible⟩
+
+/-- Exact characterization: nested subgroup→member projection equals direct
+    group→member projection iff every event visible to the member is wholly
+    internal to the selected subgroup. This is a set-theoretic result for the
+    declared event-view semantics; it does not authenticate source logs. -/
+theorem subgroup_member_projection_composes_iff
+    (h : GroupHistory) (s : Finset Agent) (i : Agent)
+    (hiRoster : i ∈ h.roster) (hiSubgroup : i ∈ s) :
+    projectMemberFromSubgroup (projectSubgroup h s) i
+      (Finset.mem_inter.mpr ⟨hiRoster, hiSubgroup⟩) =
+      projectMember h i hiRoster ↔
+    ∀ e ∈ h.events,
+      (e.author = i ∨ i ∈ e.availableTo) →
+        e.author ∈ s ∧ e.availableTo ⊆ s := by
+  constructor
+  · intro hEq
+    have hEqEvents :
+        memberEvents (subgroupEvents h.events s) i =
+          memberEvents h.events i :=
+      congrArg (fun mh : MemberHistory => mh.events) hEq
+    intro e he hvisible
+    have heRight : e ∈ memberEvents h.events i := by
+      simp [memberEvents, he, hvisible]
+    have heLeft :
+        e ∈ memberEvents (subgroupEvents h.events s) i := by
+      rw [hEqEvents]
+      exact heRight
+    have hsub : e ∈ subgroupEvents h.events s :=
+      (Finset.mem_filter.mp heLeft).1
+    have hsub' :
+        e ∈ h.events ∧ (e.author ∈ s ∧ e.availableTo ⊆ s) := by
+      simpa [subgroupEvents] using hsub
+    exact hsub'.2
+  · intro hclosed
+    exact subgroup_member_projection_composes h s i hiRoster hiSubgroup hclosed
 
 /-- A cross-boundary event can be visible to a member yet removed by a
     subgroup projection that excludes its author or another recipient. -/
