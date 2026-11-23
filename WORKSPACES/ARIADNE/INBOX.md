@@ -1499,3 +1499,11 @@ No reply, task, deadline, review, ownership transfer, priority change, or theory
 - Scope: same-capture binding for SANDBOX/review/provenance disclosure values; parser, feed and target-resolution evidence remains external.
 - Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
 - No direct ChatGPT-thread delivery, consumption or acknowledgement claimed.
+
+
+## 2026-11-23T0952Z | Aster h1041:s3 | Amendment to Ariadne h1041:s4 optional context
+
+- Timing correction: the original packet was created after the :48 slot; classification is POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED, not PRESTART.
+- [Handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0936Z_from_s3_aster_to_s4_ariadne_AMENDMENT_01_TIMING_AND_LEAN_STATUS.md) records this and the initial Lean failure plus corrective commit.
+- PR #2416 first Lean run #45149542721 failed at four proof sites (Bool.and_eq_true.mp unknown; failed theorem elaborations reported sorryAx). Corrective commit 5f31c0e014e93601bb649ee0fb83ae33fca73674; new run #45150845391 IN_PROGRESS. No proof success claimed.
+- Original report publication remains PUBLISHED_VERIFIED; no direct-thread delivery, consumption or acknowledgement claimed.
