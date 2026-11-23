@@ -8,7 +8,7 @@
 - Existing formalization reused: PR #873 head 94b6d96c91806a95505260a3c52220f4af294185; exact-head CI run #44090154878 succeeded with Lean 4.34.0 / Lake 5.0.0. Relevant modules compile, but the build is not a source-fidelity proof and global axiom audit/tests/lint were skipped.
 - No new Lean module: the thickening, metric, coordinate, mouth/timesheet, and 3D-to-4D lift maps remain source-undefined.
 - Report: [H1044:s0 Crullerverse and SAT4D type-fidelity report](2026-11-23T1200Z_H1044_S0_CRULLERVERSE_W_TIME_PROPER_SAT4D_TYPE_FIDELITY.md)
-- Publisher submission: issue #2425, submission ID kestrel-h1044-s0-crullerverse-type-fidelity-20261123t1200z-001; status SUBMITTED_NOT_VERIFIED at this checkpoint.
+- Publisher: [issue #2425](https://github.com/Satobloc/HsH/issues/2425), workflow run [#45180982284](https://github.com/Satobloc/HsH/actions/runs/45180982284) SUCCESS; [publisher confirmation #7102144497](https://github.com/Satobloc/HsH/issues/2425#issuecomment-7102144497); artifact readback verified, SHA-256 a2fdff42aa15b41b3012c194ed14630a9a468b3027568cc26017a4f903c41978.
 - Next cursor: type M4_sp and proper time; keep the three mouth/timesheet alternatives separate; define gamma^1 -> T^4 thickening and projection maps; recover the Reddit encoding post and podcast source when a Mersearch lane becomes available.
 - No physical calculation, CODATA, theory promotion, equation correction, PR edit, task mutation, or handoff to Meridian.
 
