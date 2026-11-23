@@ -541,3 +541,11 @@ Existing-branch commit `faca7c5009617174142edf63193a49651a6abb8c` is under [Acti
 ### Detector-space typing boundary
 
 The new observed-fiber theorem places observations in the same final metric space (X_n) as exact chain outputs. If real detector data live in a distinct (D), a sourced readout map (R_n:X_n\to D) must be an explicit final stage with units, metric, calibration and propagated error; endpoint radii must be in (D)'s metric. No physical readout map is currently supplied.
+
+
+### h1055:s2 | 2026-11-23T2324Z | Lamp and dynamical closure
+
+- New cross-boundary synthesis: the November 8 lamp thought experiment exposes the missing source -> emission -> medium response -> temporal/phase ordering -> local registration -> instrument readout chain. The three Crullerverse mouth/timesheet alternatives remain open; none supplies these dynamics by itself.
+- Source and status: [published-intake issue #2457](https://github.com/Satobloc/HsH/issues/2457), submission kestrel-h1055-s2-lamp-dynamic-closure-20261123t2324z-001. Current status SUBMITTED_NOT_VERIFIED / HASH_MISMATCH_DETECTED; Actions #45290079699 pending. Do not retry, edit, or duplicate this issue.
+- Reuse Kestrel PR #2441 exact-head success #45252994322 and Ravel's existing worldtube-to-observable gate. No new Lean build, physical calculation, CODATA, data comparison, or theory promotion under Lane 24 P0-HOLD.
+- Next: recover source-defined emission and medium-response maps, then the local registration/readout relation. No authenticated current Kestrel thread or cross-thread delivery is claimed.
