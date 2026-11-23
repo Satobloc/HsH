@@ -122,11 +122,11 @@ cancellation operator, or cancellation of the underlying graticulae.
 -/
 
 /-- Mirror-even component of a real-valued scalar display field. -/
-def mirrorEvenPart (ordinary : ℝ × ℝ → ℝ) (p : ℝ × ℝ) : ℝ :=
+noncomputable def mirrorEvenPart (ordinary : ℝ × ℝ → ℝ) (p : ℝ × ℝ) : ℝ :=
   (ordinary p + ordinary (mirrorLR p)) / 2
 
 /-- Mirror-odd component, or signed half-difference, of a scalar field. -/
-def mirrorOddPart (ordinary : ℝ × ℝ → ℝ) (p : ℝ × ℝ) : ℝ :=
+noncomputable def mirrorOddPart (ordinary : ℝ × ℝ → ℝ) (p : ℝ × ℝ) : ℝ :=
   (ordinary p - ordinary (mirrorLR p)) / 2
 
 /-- The mirror-even component is invariant under left/right reflection. -/
@@ -173,3 +173,8 @@ end HsHVerification.MeridianGraticuleSectorParity
 #print axioms HsHVerification.MeridianGraticuleSectorParity.two_boolean_parities_not_injective
 #print axioms HsHVerification.MeridianGraticuleSectorParity.candidateOrbit_card
 #print axioms HsHVerification.MeridianGraticuleSectorParity.inverseGraticule_involutive
+
+#print axioms HsHVerification.MeridianGraticuleSectorParity.mirrorEvenPart_invariant
+#print axioms HsHVerification.MeridianGraticuleSectorParity.mirrorOddPart_antisymmetric
+#print axioms HsHVerification.MeridianGraticuleSectorParity.mirrorEvenOdd_reconstruct
+#print axioms HsHVerification.MeridianGraticuleSectorParity.mirrorOddPart_zero_on_axis
