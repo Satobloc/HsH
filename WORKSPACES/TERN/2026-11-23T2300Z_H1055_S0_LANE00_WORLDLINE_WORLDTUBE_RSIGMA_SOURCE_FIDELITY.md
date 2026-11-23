@@ -261,7 +261,7 @@ The Tern-owned PWH queue had not integrated three completed deep reviews. This r
 - Loom h1052:s4: five-product trigger after Morrow h1051:s2; review completed.
 - Elias Kern h1054:s2: five-product trigger after Loom h1052:s4; review completed and published as issue #2455, comment #7116083860.
 
-The last completed PWH deep review is Elias h1054:s2. The next deep review is due after five further actual completed work products/evidence entries, or earlier on a material priority, dependency, milestone, missed-pickup or stranded-work event. H1055:s0 is the first current work product after that review; the administrative queue integration is not counted as a separate product.
+The last completed PWH deep review is Elias h1054:s2. The central queue now integrates Morrow h1051:s2, Loom h1052:s4 and Elias h1054:s2. Queue readback: blob SHA-1 94bf5bee833045309b35a615c56aa601d2089352; commit a047c02c3ee304788eef5f9b60094c47e06b7759. The next deep review is due after five further actual completed work products/evidence entries, or earlier on a material priority, dependency, milestone, missed-pickup or stranded-work event. H1055:s0 is the first current work product after Elias; the administrative queue integration is not counted as a separate product.
 
 Current control snapshot:
 - Task graph: 18 records versus declared branch_count 16; 5 completed, 12 active, 1 blocked; 7 roots; 17 reachable; one blocked/unreachable M87 polarimetry record. No graph mutation.
@@ -300,4 +300,4 @@ Only after the source maps are explicit and the training standdown is released s
 **NOW:** H1055 source-fidelity consolidation complete; July 18 raw role/time verified; PWH queue integrated.  
 **STOP:** no new Lean/theory/physical calculation; finite-core dimension and RΣ remain undefined, and Tern training standdown remains active.  
 **RETURN:** H(s)H Dev +/HsH ARCHITECTING.txt after line 1115; define the object and maps before formalization.  
-**TOCK:** report and PWH queue readback required; no handoff because :12 is disabled.
+**TOCK:** report readback exact; PWH queue readback exact at blob 94bf5bee833045309b35a615c56aa601d2089352; no handoff because :12 is disabled.
