@@ -67,6 +67,39 @@ structure SourceEvidenceRecord where
   sourceDate : NonEmptyText
   claimScope : NonEmptyText
 
+/-- The intended prediction-domain target of the holdout. Blocking can test
+    interpolation, extrapolation, or a declared mixture; the label does not
+    determine which regime the observed split actually realizes. -/
+inductive PredictorDomainGoal
+  | interpolation
+  | extrapolation
+  | mixed
+  deriving DecidableEq, Repr
+
+/-- A source-addressed calibration/holdout partition at an explicit unit
+    grain (for example, frame, acquisition, run, event, or subject). The
+    unit IDs and locators are formalized declarations; source review must
+    verify that they enumerate the actual dataset units. Disjointness at the
+    declared grain is not, by itself, statistical independence. -/
+structure CalibrationHoldoutPartition where
+  sourceSystemId : NonEmptyText
+  datasetId : NonEmptyText
+  datasetArtifact : SourceArtifactRef
+  calibrationSetId : NonEmptyText
+  holdoutSetId : NonEmptyText
+  calibrationSetArtifact : SourceArtifactRef
+  holdoutSetArtifact : SourceArtifactRef
+  independenceUnitKind : NonEmptyText
+  independenceUnitDefinition : SourceArtifactRef
+  calibrationUnitIds : Finset String
+  holdoutUnitIds : Finset String
+  calibrationUnitsNonempty : calibrationUnitIds.Nonempty
+  holdoutUnitsNonempty : holdoutUnitIds.Nonempty
+  unitSetsDisjoint : Disjoint calibrationUnitIds holdoutUnitIds
+  predictionTarget : NonEmptyText
+  predictorDomainGoal : PredictorDomainGoal
+  predictorDomainAssessment : SourceArtifactRef
+
 /-- One candidate's source and candidate-specific parameter record inside a
     frozen candidate-family manifest. -/
 structure CandidateFamilyEntry where
@@ -133,6 +166,21 @@ structure PrecommittedHoldoutPlan where
   holdoutSetId : NonEmptyText
   calibrationSetArtifact : SourceArtifactRef
   holdoutSetArtifact : SourceArtifactRef
+  partition : CalibrationHoldoutPartition
+  partitionSourceSystemBound :
+    partition.sourceSystemId.value = sourceSystemId.value
+  partitionDatasetBound :
+    partition.datasetId.value = datasetId.value
+  partitionDatasetArtifactBound :
+    partition.datasetArtifact = datasetArtifact
+  partitionCalibrationSetIdBound :
+    partition.calibrationSetId.value = calibrationSetId.value
+  partitionHoldoutSetIdBound :
+    partition.holdoutSetId.value = holdoutSetId.value
+  partitionCalibrationArtifactBound :
+    partition.calibrationSetArtifact = calibrationSetArtifact
+  partitionHoldoutArtifactBound :
+    partition.holdoutSetArtifact = holdoutSetArtifact
   exposureLedger : SourceArtifactRef
   exposureLedgerDigest : NonEmptyText
   evaluationResultArtifact : SourceArtifactRef
@@ -343,6 +391,32 @@ structure PrecommittedComparisonEvidence
     c.holdout.thresholdSpec = c.family.thresholdSpec
   calibrationHoldoutDistinct :
     c.holdout.calibrationSetId.value ≠ c.holdout.holdoutSetId.value
+  partitionSourceSystemBound :
+    c.holdout.partition.sourceSystemId.value =
+      c.holdout.sourceSystemId.value
+  partitionDatasetBound :
+    c.holdout.partition.datasetId.value = c.holdout.datasetId.value
+  partitionDatasetArtifactBound :
+    c.holdout.partition.datasetArtifact = c.holdout.datasetArtifact
+  partitionCalibrationSetIdBound :
+    c.holdout.partition.calibrationSetId.value =
+      c.holdout.calibrationSetId.value
+  partitionHoldoutSetIdBound :
+    c.holdout.partition.holdoutSetId.value =
+      c.holdout.holdoutSetId.value
+  partitionCalibrationArtifactBound :
+    c.holdout.partition.calibrationSetArtifact =
+      c.holdout.calibrationSetArtifact
+  partitionHoldoutArtifactBound :
+    c.holdout.partition.holdoutSetArtifact =
+      c.holdout.holdoutSetArtifact
+  calibrationUnitsNonempty :
+    c.holdout.partition.calibrationUnitIds.Nonempty
+  holdoutUnitsNonempty :
+    c.holdout.partition.holdoutUnitIds.Nonempty
+  calibrationHoldoutUnitSetsDisjoint :
+    Disjoint c.holdout.partition.calibrationUnitIds
+      c.holdout.partition.holdoutUnitIds
   calibrationBeforeAccess :
     c.holdout.calibrationFrozenAt < c.holdout.firstHoldoutAccessAt
   familyBeforeAccess :
@@ -403,6 +477,16 @@ theorem precommittedComparison_has_evidence
       falsificationRuleBound := c.falsificationRuleBound
       thresholdSpecBound := c.thresholdSpecBound
       calibrationHoldoutDistinct := c.holdout.calibrationHoldoutDistinct
+      partitionSourceSystemBound := c.holdout.partitionSourceSystemBound
+      partitionDatasetBound := c.holdout.partitionDatasetBound
+      partitionDatasetArtifactBound := c.holdout.partitionDatasetArtifactBound
+      partitionCalibrationSetIdBound := c.holdout.partitionCalibrationSetIdBound
+      partitionHoldoutSetIdBound := c.holdout.partitionHoldoutSetIdBound
+      partitionCalibrationArtifactBound := c.holdout.partitionCalibrationArtifactBound
+      partitionHoldoutArtifactBound := c.holdout.partitionHoldoutArtifactBound
+      calibrationUnitsNonempty := c.holdout.partition.calibrationUnitsNonempty
+      holdoutUnitsNonempty := c.holdout.partition.holdoutUnitsNonempty
+      calibrationHoldoutUnitSetsDisjoint := c.holdout.partition.unitSetsDisjoint
       calibrationBeforeAccess := c.holdout.calibrationBeforeAccess
       familyBeforeAccess := c.holdout.familyBeforeAccess
       predictionBeforeAccess := c.holdout.predictionBeforeAccess
@@ -414,6 +498,33 @@ theorem precommittedComparison_has_evidence
       familyDigestMatchesEvaluation :=
         c.holdout.familyDigestMatchesEvaluation
       positiveOutcome := c.positiveOutcome }
+
+/-- The precommitted plan exposes nonempty calibration and holdout
+    unit sets that are disjoint at the declared independence-unit grain. -/
+theorem holdoutPlan_has_disjoint_unit_partition
+    (plan : PrecommittedHoldoutPlan) :
+    plan.partition.calibrationUnitIds.Nonempty ∧
+    plan.partition.holdoutUnitIds.Nonempty ∧
+    Disjoint plan.partition.calibrationUnitIds
+      plan.partition.holdoutUnitIds := by
+  exact
+    ⟨plan.partition.calibrationUnitsNonempty,
+      plan.partition.holdoutUnitsNonempty,
+      plan.partition.unitSetsDisjoint⟩
+
+/-- Abstract counterexample: distinct set labels can still designate the
+    same nonempty unit set. This is a logical witness, not a physical dataset
+    or synthetic experimental fixture. -/
+theorem distinct_set_labels_do_not_imply_unit_disjointness :
+    ∃ (calibrationSetId holdoutSetId : String)
+      (calibrationUnitIds holdoutUnitIds : Finset String),
+      calibrationSetId ≠ holdoutSetId ∧
+      calibrationUnitIds = holdoutUnitIds ∧
+      calibrationUnitIds.Nonempty := by
+  refine
+    ⟨"calibration", "holdout", {"unit"}, {"unit"}, ?_, rfl, ?_⟩
+  · decide
+  · simp
 
 /-- The three precommitment freezes precede the first holdout access, and
     the recorded evaluation follows that access. -/
@@ -530,6 +641,8 @@ theorem tieBreak_requires_no_greater_complexity
   h.2.2.2.2.2
 
 #print axioms precommittedComparison_has_evidence
+#print axioms holdoutPlan_has_disjoint_unit_partition
+#print axioms distinct_set_labels_do_not_imply_unit_disjointness
 #print axioms holdoutPlan_has_precommitment_order
 #print axioms tieBreak_requires_both_precommitted_evidence
 #print axioms tieBreak_requires_same_frozen_evaluation_context
