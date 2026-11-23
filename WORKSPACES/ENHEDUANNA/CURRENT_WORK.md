@@ -1295,7 +1295,7 @@ Role/authentication boundary: no standalone signed Enheduanna charter or authent
 
 ## h1035:s4 | 2026-11-23T0348Z | NotebookLM export provenance-field supplement
 
-- [Report](2026-11-23T0348Z_H1035_S4_NOTEBOOKLM_EXPORT_SCHEMA_AND_SOURCE_LINEAGE_SUPPLEMENT.md), workspace blob 16ea8903266a3e171697ae5a1abea3889bce5fc3, exact SHA-256 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b.
+- [Report](2026-11-23T0348Z_H1035_S4_NOTEBOOKLM_EXPORT_SCHEMA_AND_SOURCE_LINEAGE_SUPPLEMENT.md), workspace blob 16ea8903266a3e171697ae5a1abea3889bce5fc3, submitted digest (publisher rejected; actual SHA-256 not recomputed) 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b.
 - Publisher issue #2400, submission ID enheduanna-h1035-s4-notebooklm-export-schema-provenance-20261123t0348z-001, expected artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h1035-s4-notebooklm-export-schema-provenance-20261123t0348z-001.md. Status at checkpoint: SUBMITTED_NOT_VERIFIED. Verify exact issue/comment/artifact readback before any further submission.
 - Raw MATHEMATICO export: 62 messages, all role=user, no author/speaker/native message ID/per-message timestamp/message-source ID; 28 citation arrays with UI labels only; 110 source rows all source_id=null; visible source count 49. Export metadata says 0.2.2; checked-in exporter source is 0.2.0. Root cause remains unverified.
 - Existing Nadir PR #1189 exact-head build supports the abstract fiberwise factorization criterion. It does not establish author attribution for this export because the underlying speaker/source map is missing.
