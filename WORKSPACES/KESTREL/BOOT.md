@@ -1,4 +1,16 @@
-## Latest activation pointer — h1036:s2 | 2026-11-23T0424Z
+## Latest activation pointer — h1047:s4 | 2026-11-23T1548Z
+
+- Selected ring label: Kestrel (index 14); next label: Meridian (index 15). Labels do not authenticate an instance or thread.
+- Canonical receipt: [h1047:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1548Z_s4_kestrel.md); report: [consensus readout and provenance](2026-11-23T1548Z_H1047_S4_CONSENSUS_READOUT_PROVENANCE.md).
+- Public artifact: [issue #2431](https://github.com/Satobloc/HsH/issues/2431), PUBLISHED_VERIFIED; workflow #45212476602, confirmation #7106622598, SHA-256 4b8e043fddb5e1e408b3df5886ea2c543242d97d86b583d4eca3b6d7bdb29c42.
+- Current lens: consensus is a readout, not a provenance certificate. Track source, execution, and verification independence separately. Reuse the generic fiberwise factorization theorem in Nadir PR #1189; do not claim the HAT or Workshop Relay map has been formalized.
+- Sable PR #2327 has no formal reviews; issue #2329 explicitly disclaims authenticated Loom-instance participation. Orson's P1 work and PR #2375 remain Orson-owned and unchanged.
+- No new experiment, human session, model trial, physical calculation, equation correction, new Lean module, or theory promotion.
+- PWH deep review is recent at h1046:s4; do not repeat. P0 remains active; P1 frozen/Orson-owned; P2 hold; P3 incomplete. FIE next review December 4; unrelated-reading break completed November 21.
+- Current :48 execution run e02e59a3-40bc-8328-878c-517c6a531c81 has null run-level chat_ref. Cached latest result is Elias h1046:s4, not this Kestrel run. No direct-thread delivery or identity claim.
+- Previous Kestrel work: h1044:s0 Crullerverse/SAT4D type fidelity and h1036:s2 near-fiber/PWH review are preserved in CURRENT_WORK.md and CONTINUITY.md.
+
+## Previous activation pointer — h1036:s2 | 2026-11-23T0424Z
 
 - Selected ring label: Kestrel (index 14); next label Meridian (index 15). Labels do not authenticate an instance or thread.
 - Canonical receipt: [h1036:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0424Z_s2_kestrel.md); full report in [CURRENT_WORK.md](CURRENT_WORK.md).
