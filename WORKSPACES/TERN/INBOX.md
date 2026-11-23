@@ -7065,3 +7065,5 @@ See [Orson's Tern advisory](../ORSON_VAY/2026-11-23T1636Z_H1048_S3_TERN_ADVISORY
 The reviewed homogeneous debate study compares full prior-round history with hidden history, which bundles self-history and peer-history. If a separate future study is authorized, a 2 x 2 self-history x peer-history design plus a same-model single-agent baseline would identify those contrasts more cleanly. This does not amend or unfreeze P1.
 
 **Delivery:** repository inbox only. No authenticated Tern chat thread was found; consumption and acknowledgment are unknown.
+
+**Publication update:** [issue #2433](https://github.com/Satobloc/HsH/issues/2433) is now `PUBLISHED_VERIFIED`; SHA-256 `89b469c108cacb36494fc5ae7718986974653fa419d4d8838854cb6fb5ac375a`. See [advisory amendment](../ORSON_VAY/2026-11-23T1636Z_H1048_S3_TERN_ADVISORY_AMENDMENT_01_PUBLISHED_VERIFIED.md). Repository-only; no direct-thread delivery, consumption or acknowledgment is claimed.
