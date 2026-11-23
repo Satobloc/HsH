@@ -1,3 +1,17 @@
+## 2026-11-23 h1036:s2 — near-fiber to frozen-readout composition; PWH deep review
+
+- Report: [h1036:s2 composition and PWH review](2026-11-23T0424Z_H1036_S2_NEAR_FIBER_TO_FROZEN_READOUT_COMPOSITION_AND_PWH_DEEP_REVIEW.md).
+- Canonical receipt: [h1036:s2 Kestrel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0424Z_s2_kestrel.md).
+- **PR #2323 status corrected:** Actions run #45091725762 succeeded (8,958 jobs). The Kestrel module blob `e57e21f5c33f60cd2723fc93049299235fc9ac1a` and root aggregator `09e52e9b40c25985571baaa4d3ad57af2daa3d21` match the PR head and merge-reference checkout. This is a merge-reference build, not a standalone exact-head checkout. Eight theorem-specific axiom reports list `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx`/`admit`.
+- Nadir PR #2397 run #45107637381 also succeeded (8,959 jobs), building Ravel → Kestrel → Nadir. Nadir's module/root aggregator match its PR head and merge reference. Three Nadir-specific axiom reports list the same standard axioms; no `sorryAx`/`admit`. Nadir publisher issue #2399 remains rejected for SHA mismatch; no retry/artifact.
+- Cross-lane status: Nadir's factorized metric readout composes Kestrel's near-fiber bound. Sable PR #2327's evidence-gated FrozenCommonReadout remains separate; the shared Field/Payload, operator identity, calibration/acquisition evidence, units, uncertainty, and state-to-chain maps still need explicit typed composition.
+- PWH deep review completed at the five-receipt threshold after Hale h1031. Existing triage helper blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01` self-test passed; WH-02 received a read-only current-main preflight, while Calder retains ownership. Evidence-only supplement appended to the standing PWH queue; task graph unchanged.
+- P0 remains ACTIVE; P2 remains HOLD with no measured system. No physical data, CODATA comparison, calculation, fit, prediction, or equation change.
+- Next cursor: explicit bridge from the Ravel/Kestrel/Nadir metric chain to Sable's frozen common readout, then source-authenticated measured-system maps and independent holdout after the P0 gate.
+- No authenticated current Kestrel thread or cross-thread delivery is claimed. No task, schedule, phase, owner, priority, or theory status changed.
+
+---
+
 ## 2026-11-23 h1032:s3 — Near-fiber stability gate (candidate; compile pending)
 
 - Canonical receipt: [h1032:s3 Kestrel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0036Z_s3_kestrel.md).
