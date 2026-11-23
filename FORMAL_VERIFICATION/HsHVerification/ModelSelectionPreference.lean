@@ -189,6 +189,57 @@ theorem intelligibility_cannot_rescue_failed_candidate
 #print axioms tieBreak_requires_no_greater_complexity
 #print axioms intelligibility_cannot_rescue_failed_candidate
 
+
+
+/-!
+## Nested-model training-fit dominance
+
+This is a statistical model-comparison lemma, not an H(s)H physical result.
+The embedding and score-preservation hypotheses must be established for the
+same training observations, measurement domain, instrument operator, and
+scoring convention. A parameter-space inclusion alone is insufficient if
+the readout or training objective changes.
+
+The theorem says only that an expanded model which contains a loss-preserving
+copy of every baseline candidate cannot have a worse attained global
+training minimum. It does not establish existence of either minimizer,
+parameter identifiability, model flexibility, predictive calibration, or
+out-of-sample performance. Those require separate evidence and holdout work.
+-/
+
+/-- A global minimizer of a loss over an admissible parameter domain. -/
+def IsGlobalMinimumOn {α : Type*}
+    (loss : α → ℝ) (admissible : Set α) (x : α) : Prop :=
+  x ∈ admissible ∧ ∀ y ∈ admissible, loss x ≤ loss y
+
+/-- If every baseline candidate embeds into an expanded model while preserving
+    its training loss, then any attained global training minimizer of the
+    expanded model has loss no greater than an attained global minimizer of
+    the baseline model. This is the formal reason that a lower in-sample loss
+    alone cannot evidence an H(s)H-specific predictive gain when H(s)H is a
+    loss-preserving extension of the standard comparator. -/
+theorem expandedModelBestTrainingLoss_le_baseline
+    {Baseline Expanded : Type*}
+    (baselineLoss : Baseline → ℝ)
+    (expandedLoss : Expanded → ℝ)
+    (baselineDomain : Set Baseline)
+    (expandedDomain : Set Expanded)
+    (embed : Baseline → Expanded)
+    (embedAdmissible : ∀ θ, θ ∈ baselineDomain → embed θ ∈ expandedDomain)
+    (lossPreserved : ∀ θ, θ ∈ baselineDomain →
+      expandedLoss (embed θ) = baselineLoss θ)
+    {θ₀ : Baseline} {θ₁ : Expanded}
+    (baselineMin : IsGlobalMinimumOn baselineLoss baselineDomain θ₀)
+    (expandedMin : IsGlobalMinimumOn expandedLoss expandedDomain θ₁) :
+    expandedLoss θ₁ ≤ baselineLoss θ₀ := by
+  have hNested := expandedMin.2 (embed θ₀)
+    (embedAdmissible θ₀ baselineMin.1)
+  calc
+    expandedLoss θ₁ ≤ expandedLoss (embed θ₀) := hNested
+    _ = baselineLoss θ₀ := lossPreserved θ₀ baselineMin.1
+
+#print axioms expandedModelBestTrainingLoss_le_baseline
+
 end HsHVerification.ModelSelectionPreference
 
 
