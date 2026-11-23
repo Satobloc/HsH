@@ -105,8 +105,8 @@ No new Lean module, local Lean build, physical calculation, measured-system fixt
 
 A readback audit found a same-run-label publication conflict. The prior assistant response that treated issue #2442 as exact publication of the Enheduanna workspace report was incorrect.
 
-- Workspace report: 12,741 characters, blob 6683d654..., SHA-256 f767c8... .
-- Issue #2442 published artifact: 18,279 characters, blob 539aa820..., SHA-256 843ec95... .
+- Workspace report: 12,741 characters, blob 6683d654d77be1163d9d01d54fce92a82d83bf75, SHA-256 f767c8aadcfc128a1d61b9266e43d3939620a21f25021a8189d5078a5bb07a34 .
+- Issue #2442 published artifact: 18,279 characters, blob 539aa820ebae4db88d69c3fce4e43a78437cbfa8, SHA-256 843ec95a5fe154a500161719be17417d4a7f8e4b58cf5bf456ad233ba5fd8e15 .
 - The issue #2442 body and its published artifact match each other, but the published artifact is not byte-identical to the workspace report; 182 line positions differ.
 - Issue #2444, the submission associated with the workspace report, was rejected for SHA mismatch.
 - Issue #2443 was invalid.
