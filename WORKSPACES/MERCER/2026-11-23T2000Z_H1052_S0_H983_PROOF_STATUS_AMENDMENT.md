@@ -155,7 +155,7 @@ J^{\mu\nu}=\tfrac12\,\epsilon^{\mu\nu\rho\sigma}\nabla_\rho B_\sigma
 ### PR #1133: carrier/sheet dimension and composition scaffold
 
 - Current PR head: **e22fb5544185655d19a951dc4235ce876b22b6ed**.
-- PR state: OPEN / DRAFT / UNMERGED.
+- PR state: OPEN / DRAFT / UNMERGED; no formal review recorded.
 - Base is the separate infrastructure PR #262 branch, not main; #262 remains OPEN.
 - Exact-head Lean run: [#45186541338](https://github.com/Satobloc/HsH/actions/runs/45186541338), job **137733512723**, SUCCESS.
 - Actual checkout: exact head e22fb5544185655d19a951dc4235ce876b22b6ed.
@@ -187,11 +187,12 @@ Lean proves only the statements as formalized. It does not establish that the fo
 7. **Source under-specification:** the direct geometry still lacks metric/signature, normal bundle, tube fibre/radius, boundary topology, mouth/attaching map, response operator and projection conditions.
 8. **Assistant under-specification:** the assistant models introduce centerline, sheet, current and reduced-field representations without a single instantiated commuting diagram connecting them.
 9. **Equation hygiene:** Blockwave's projector index notation is malformed; the separate standard forms are above. The phase-gradient field strength requires a defect/connection prescription for nonzero local F.
+10. **WWRD heuristic:** the climbing-rope picture remains a first-blush geometric heuristic, not a physical equivalence; it is not used as evidence here.
 
 ## 8. Mersearch, tooling and workflow controls
 
 - All four canonical Mersearch request lanes remain occupied/pending or running. Lane 2 has a running manifest; lanes 1, 3 and 4 remain requested without completed request-scoped outputs. No lane was overwritten, released or retriggered.
-- Existing completed Mersearch receipts were reused, including ravel-kerr-timesheet-geometry-source-20261104-1235, loom-sato-blockwave-source-set-20261030-2017, and alber-sat-o-worldline-timesheet-interbraid-20261030-1212. The Ravel receipt records a bounded three-repository scan, not exhaustive proof or authorship attribution.
+- Existing completed Mersearch receipts were reused, including ravel-kerr-timesheet-geometry-source-20261104-1235, loom-sato-blockwave-source-set-20261030-2017, and alberr-sat-o-worldline-timesheet-interbraid-20261030-1212. The Ravel receipt records a bounded three-repository scan, not exhaustive proof or authorship attribution.
 - No callable Mersearch action or local Mersearch checkout was available. No local Lean, Lake or Elan executable is installed. Existing GitHub Actions was used for the actual Lean builds.
 - HsH, SAT archive and HSH_RESOURCES onboarding/root navigation were checked. No HSH_RESOURCES payload was opened or quoted in this report.
 - Existing Math Hopper #578 / PR #991, Whirligig Kernel0 and Lean PRs #1133/#2236 were checked. SciSpace is available as an installed connector but was not needed for this archive/source-fidelity pass. No new tooling, fork, app, dependency, subscription or expense.
