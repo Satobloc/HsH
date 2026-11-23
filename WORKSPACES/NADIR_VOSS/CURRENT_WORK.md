@@ -789,3 +789,16 @@ The current :00 task remains unchanged. No sixth task.
 The h1028:s0 report is durable in the Nadir workspace, but the one-shot issue publisher rejected issue #2369. Comment #7085567734 states REJECTED: invalid submission ID. The submitted ID was 92 characters; the publisher accepts at most 80. A separate checksum audit found the issue payload's submitted SHA-256 was also incorrect. Correct report SHA-256 from GitHub readback is c736d889e2887acc1110cc59b38ec7c03176aef694a7d41fa285faf5a0911b5e; the submitted payload carried 52135ed68db20234a2b1a2c248dc1fb3d0e6c6930eaabc8e88a878167d3a9263. The publisher validates the ID first, so its explicit rejection reason is the ID, while the checksum mismatch is independently established. No edit, retry, second issue or bypass was attempted. Final status: PUBLISHER_REJECTED_INVALID_SUBMISSION_ID; SUBMITTED_PAYLOAD_SHA256_MISMATCH; NO_PUBLISHED_SUBMISSIONS_ARTIFACT.
 
 The earlier h1028 checkpoint's SHA-256 value 52135... is superseded by the corrected value above. The workspace report blob SHA-1 remains 65458d897b83b5ccb0ed9f02e24d3ed7822ff26a.
+
+
+## Assistant-level Lane 36 overlay: H1054:S3 (2026-11-23T22:36Z)
+
+- **Scope:** one-run architecture/prediction overlay; this does not create Nadir Lane24 Cycle09. Lane24 Cycle08 remains complete/backseat/hold.
+- **Result:** source-grounded sample-identity gate for the Kelvin-vortex two-channel readout. The new Lean module is in the existing draft PR #1189 branch, not main.
+- **Lean:** final exact-head run #45284099363 passed on commit `9e563ee330c8bdbdcf16f746eb1baff931751677`; Lean 4.34.0 / Lake 5.0.0; 8,962 jobs. See the verification amendment below.
+- **Research report:** [H1054:S3 paired-sample identity gate](2026-11-23T2236Z_H1054_S3_PAIRED_SAMPLE_IDENTITY_GATE.md).
+- **Verification amendment:** [Amendment 01](2026-11-23T2236Z_H1054_S3_AMENDMENT_01_LEAN_FINAL_BUILD_VERIFIED.md).
+- **Publication:** issue #2456 opened with the correct `hsh-publish-v1` schema and report SHA-256 `82ba4e9130fe05875c3f50446f5173b2d7a15f0dc19bf7dce385e414aec8f259`; publisher confirmation is still pending at this checkpoint. Do not create a second issue.
+- **Epistemic limit:** raw Figshare files/manifest/covariance were not retrieved; no physical calculation, fit, H(s)H forward map or physical prediction was made. No SAT-O/Blockwave equations or BEDROCK status changed.
+- **Identity:** Nadir is the deterministic ring label only. No authenticated current Nadir thread or standalone signed specialist charter is established; this is assistant-level repository work.
+- **Return:** PR #1189, issue #2456, final Lean run #45284099363. Next ring label: Enheduanna; optional context only, no task or response obligation.
