@@ -862,3 +862,12 @@ Parent publisher issue #2182 remains PUBLISHED_VERIFIED. Correction issue #2183 
 - Next cursor: recover raw summer 2025 Bosonic Time / Temporon messages and define source-backed maps for filament-to-worldtube, front-to-metric, w-propagation-to-front-normal, and Marble-to-Crullerverse.
 - Previous Lane 00 cursor h1035:s0 covered Pauli-Kerr surface/core/boundary fidelity. This run expands to an adjacent sector without repeating it.
 - Calder empirical/statistical/null-design specialty and existing P0 ownership remain unchanged; this is a Lane 00 overlay only.
+
+
+## H1054:s0 Amendment 01 — 2026-11-23T2229Z
+
+- Original H1054 Marble / Bosonic Timewave report is now **PUBLISHED_VERIFIED** through existing issue #2453; publisher comment #7115739051 confirms SHA-256 `f5fb4299fb1df91b07ff15bb08ff23f908e2a9d816638cae460b52ad3c64131b`. Workspace and published artifact share Git blob SHA-1 `e9aaf059b02dba0429be4e98e32c7179c2d7ae88`; issue-body content matched exactly.
+- Reused Morrow's existing completed Mersearch result to recover the raw 2025-12-09 SAT theory clarification source (conversation `69378c7f-6320-8325-9e10-83e42fe1433c`, blob `507a7000082415373ee98dbc95f18a991dff3c5a`). Direct source supports the finite time-field slab, energy-exchange proposal, intersection-angle question, and local/global convertibility question. Assistant child `63d479f5-e0ef-4dff-8cd5-2c021bba1d65` adds unproved “continuous freedom” / equivalence language.
+- December 2025 is not summer 2025. The explicit “time is a boson” / “Temporon” wording still lacks a recovered raw role-tagged summer 2025 message; keep its origin unresolved.
+- Details: [H1054 report amendment](2026-11-23T2200Z_H1054_S0_AMENDMENT_01_DEC9_RAW_SOURCE_AND_PUBLISHER_VERIFICATION.md) and [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2200Z_s0_calder_AMENDMENT_01_PUBLISHED_VERIFIED_AND_DEC9_SOURCE.md).
+- No new issue, Mersearch request, Lean module, physical calculation, CODATA scoring, theory promotion, task mutation, or handoff.
