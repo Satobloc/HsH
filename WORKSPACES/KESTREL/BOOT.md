@@ -549,3 +549,9 @@ The new observed-fiber theorem places observations in the same final metric spac
 - Source and status: [published-intake issue #2457](https://github.com/Satobloc/HsH/issues/2457), submission kestrel-h1055-s2-lamp-dynamic-closure-20261123t2324z-001. Current status SUBMITTED_NOT_VERIFIED / HASH_MISMATCH_DETECTED; Actions #45290079699 pending. Do not retry, edit, or duplicate this issue.
 - Reuse Kestrel PR #2441 exact-head success #45252994322 and Ravel's existing worldtube-to-observable gate. No new Lean build, physical calculation, CODATA, data comparison, or theory promotion under Lane 24 P0-HOLD.
 - Next: recover source-defined emission and medium-response maps, then the local registration/readout relation. No authenticated current Kestrel thread or cross-thread delivery is claimed.
+
+
+### h1055:s2 publisher readback verified
+
+- Issue #2457 / run #45290079699: PUBLISHED; publisher comment #7117151993; artifact commit d3ef0cf73d26a3860e1704804aa49db04ef39e0f.
+- Exact artifact readback matched issue payload, 11,540 characters; SHA-256 ec860b23604a8413b6443641e96eaa8bf7542f0ed1c4a128627c141c4f33bd77. PUBLISHED_VERIFIED. The earlier 02c795... rehash was a local implementation error and is withdrawn; no retry or duplicate.
