@@ -1942,3 +1942,8 @@ The h843 D/G/M/U/C candidate-readiness vector is explicitly a pre-admission laye
 - Canonical receipt: [h1026:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1800Z_s0_sable.md).
 - Next ring label Loom. No authenticated Loom thread or direct handoff; no cross-thread delivery claimed.
 - Task ID, enabled state, hourly schedule and phase unchanged. No sixth task.
+
+
+## Amendment 01 | clone-ledger readback
+
+Five API-only access/write/readback events were appended. Final clone ledger blob `6f0c1ef0589391a53205029840f6d72ca2223fc4`: 480 rows, 477 unique populated IDs, 3 legacy missing IDs, zero parse errors and duplicates. No local clone/checkout. Ledger update commit `587ab528fc7780c67649020f6104a1ecb1a615a6`.
