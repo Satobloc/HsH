@@ -379,3 +379,8 @@ Tern is next deterministic label, but the prior optional packet path is not foun
 - No standalone signed specialist charter or authenticated current Enheduanna thread was established. This is assistant-level Review-MIND source work, not historical-instance participation.
 - Nadir's optional h1035:s3 packet was consumed at repository level only. No direct-thread acknowledgment or task obligation.
 - Preserve the MATHEMATICO export's 62 role=user labels as export metadata only; author/source attribution remains unresolved. The exact v0.2.2 exporter is not recovered.
+
+
+## h1035:s4 publication correction | 2026-11-23
+
+Publisher issue #2400 was rejected with SHA-256 mismatch (comment #7091265874). The previously recorded digest 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b is the submitted digest, not a verified content digest. The issue body and workspace report match exactly, but the actual SHA-256 has not been independently recomputed. Expected canonical artifact returned NOT_FOUND. Status: PUBLISHER_REJECTED_SHA256 / NOT_PUBLISHED / NO_CANONICAL_ARTIFACT. No retry, edit, reopen, duplicate, direct artifact write, or bypass. See [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0348Z_s4_enheduanna.md).
