@@ -75,135 +75,21 @@ theorem noProjectionDecoderWithinChainBudget
             dist_comm _ _
       _ ≤ errorBudget A S n := hBoundY
   have hTriangle :
-      dist (exactIter A S n x) (exactIter A S n y) ≤
-        dist (exactIter A S n x) (decoder (p x)) +
-        dist (decoder (p x)) (exactIter A S n y) :=
-    dist_triangle _ _ _
-  have hTotal :
-      dist (exactIter A S n x) (exactIter A S n y) ≤
-        errorBudget A S n + errorBudget A S n :=
-    hTriangle.trans (add_le_add hX hY)
-  linarith
-
-/-- The same obstruction expressed directly in the exact finite-sum
-    stagewise form of the propagated error budget. -/
-theorem noProjectionDecoderWithinStagewiseBudget
-    (n : Nat)
-    (p : X 0 → Y)
-    (decoder : Y → X n)
-    (x y : X 0)
-    (hx : A 0 x)
-    (hy : A 0 y)
-    (hSameProjection : p x = p y)
-    (hApproximationFactorsThroughProjection :
-      ∀ z, A 0 z →
-        approximateIter A S n z = decoder (p z))
-    (hSeparated :
-      2 * stagewiseErrorBudget A S n <
-        dist (exactIter A S n x) (exactIter A S n y)) :
-    False := by
-  have hSeparated' :
-      2 * errorBudget A S n <
-        dist (exactIter A S n x) (exactIter A S n y) := by
-    have hSeparated0 := hSeparated
-    rw [← errorBudget_eq_stagewiseErrorBudget A S n] at hSeparated0
-    exact hSeparated0
-  exact noProjectionDecoderWithinChainBudget
-    A S n p decoder x y hx hy hSameProjection
-    hApproximationFactorsThroughProjection hSeparated'
-
-#print axioms noProjectionDecoderWithinChainBudget
-#print axioms noProjectionDecoderWithinStagewiseBudget
-
-/-- A deterministic decoder through an upstream projection has a
-    detector-level separation bound once endpoint observation errors are
-    included. The two observation radii may differ. The chain budget and
-    observation radii are deterministic metric bounds in the same final
-    output metric; they are not standard deviations or confidence intervals. -/
-theorem observedFiberSeparationBound
-    (n : Nat)
-    (p : X 0 → Y)
-    (decoder : Y → X n)
-    (x y : X 0)
-    (hx : A 0 x)
-    (hy : A 0 y)
-    (hSameProjection : p x = p y)
-    (hApproximationFactorsThroughProjection :
-      ∀ z, A 0 z →
-        approximateIter A S n z = decoder (p z))
-    (observedX observedY : X n)
-    (etaX etaY : ℝ)
-    (hObservedX :
-      dist observedX (exactIter A S n x) ≤ etaX)
-    (hObservedY :
-      dist observedY (exactIter A S n y) ≤ etaY) :
-    dist observedX observedY ≤
-      etaX + etaY + 2 * errorBudget A S n := by
-  have hBoundX :=
-    finiteChainProjectionErrorBound A S n x hx
-  have hBoundY :=
-    finiteChainProjectionErrorBound A S n y hy
-  have hSameDecoder : decoder (p x) = decoder (p y) :=
-    congrArg decoder hSameProjection
-  have hChainX :
-      dist (exactIter A S n x) (decoder (p x)) ≤
-        errorBudget A S n := by
-    simpa [hApproximationFactorsThroughProjection x hx] using hBoundX
-  have hChainY :
-      dist (decoder (p x)) (exactIter A S n y) ≤
-        errorBudget A S n := by
-    calc
-      dist (decoder (p x)) (exactIter A S n y)
-          = dist (decoder (p y)) (exactIter A S n y) := by
-              rw [hSameDecoder]
-      _ = dist (approximateIter A S n y) (exactIter A S n y) := by
-            rw [← hApproximationFactorsThroughProjection y hy]
-      _ = dist (exactIter A S n y) (approximateIter A S n y) :=
-            dist_comm _ _
-      _ ≤ errorBudget A S n := hBoundY
-  have hObservedY' :
-      dist (exactIter A S n y) observedY ≤ etaY := by
-    calc
-      dist (exactIter A S n y) observedY
-          = dist observedY (exactIter A S n y) := dist_comm _ _
-      _ ≤ etaY := hObservedY
-  have hTriangle :
       dist observedX observedY ≤
         dist observedX (exactIter A S n x) +
-          (dist (exactIter A S n x) (decoder (p x)) +
-            (dist (decoder (p x)) (exactIter A S n y) +
-              dist (exactIter A S n y) observedY)) := by
-    have h1 :
-        dist observedX observedY ≤
-          dist observedX (exactIter A S n x) +
-            dist (exactIter A S n x) observedY :=
-      dist_triangle observedX (exactIter A S n x) observedY
-    have h2 :
-        dist (exactIter A S n x) observedY ≤
           dist (exactIter A S n x) (decoder (p x)) +
-            dist (decoder (p x)) observedY :=
+          dist (decoder (p x)) (decoder (p y)) +
+          dist (decoder (p y)) (exactIter A S n y) +
+          dist (exactIter A S n y) observedY := by
+    have h1 :=
+      dist_triangle observedX (exactIter A S n x) observedY
+    have h2 :=
       dist_triangle (exactIter A S n x) (decoder (p x)) observedY
-    have h3 :
-        dist (decoder (p x)) observedY ≤
-          dist (decoder (p x)) (exactIter A S n y) +
-            dist (exactIter A S n y) observedY :=
-      dist_triangle (decoder (p x)) (exactIter A S n y) observedY
-    calc
-      dist observedX observedY
-          ≤ dist observedX (exactIter A S n x) +
-              dist (exactIter A S n x) observedY := h1
-      _ ≤ dist observedX (exactIter A S n x) +
-            (dist (exactIter A S n x) (decoder (p x)) +
-              dist (decoder (p x)) observedY) :=
-          add_le_add_right h2 _
-      _ ≤ dist observedX (exactIter A S n x) +
-            (dist (exactIter A S n x) (decoder (p x)) +
-              (dist (decoder (p x)) (exactIter A S n y) +
-                dist (exactIter A S n y) observedY)) := by
-          have h3' := add_le_add_right h3
-            (dist (exactIter A S n x) (decoder (p x)))
-          exact add_le_add_right h3'
-            (dist observedX (exactIter A S n x))
+    have h3 :=
+      dist_triangle (decoder (p x)) (decoder (p y)) observedY
+    have h4 :=
+      dist_triangle (decoder (p y)) (exactIter A S n y) observedY
+    linarith
   calc
     dist observedX observedY
         ≤
@@ -271,7 +157,7 @@ theorem noProjectionDecoderWithinObservedStagewiseBudget
       etaX + etaY + 2 * errorBudget A S n <
         dist observedX observedY := by
     have h := hObservedSeparated
-    rw [← errorBudget_eq_stagewiseErrorBudget A S n] at h
+    rw [errorBudget_eq_stagewiseErrorBudget A S n] at h
     exact h
   exact noProjectionDecoderWithinObservedChainBudget
     A S n p decoder x y hx hy hSameProjection
