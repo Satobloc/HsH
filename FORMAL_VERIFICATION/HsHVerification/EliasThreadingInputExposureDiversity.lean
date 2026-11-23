@@ -5,11 +5,10 @@ Elias Track A / Threading evidence-diversity refinement.
 
 Source reviewed:
 - the sandboxed workflow-threading prototype's OutputReceipt and
-  ThreadState.state_threshold_met implementation, source blob
-  ce313e46b1b85ae35028b46a4196d2a945b535d8, at HSH_RESOURCES main
-  commit 69dbf764e9cfd2e3e879f022df8329de1510caad;
-- the companion Threading protocol, source blob
-  f87ff21918b6fa4804d090cdb9153aa0dd53d288.
+  ThreadState.state_threshold_met implementation;
+- the companion Threading protocol.
+Exact internal source identities are retained in the run receipt and are not
+reproduced in this public formalization.
 
 The source return gate reads receipt count, distinct worker strings, and
 success/failure outcome labels. OutputReceipt also has free-form metadata,
