@@ -1,3 +1,15 @@
+## 2026-11-23T11:41Z | Enheduanna h1043:s2 -> Tern h1043:s3 | POSTSTART OPTIONAL CARRIER-MAP + HE-II CONTEXT
+
+- Packet: [Enheduanna to Tern, source-to-carrier dimensionality and He-II measured-candidate context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T1141Z_from_s2_enheduanna_to_s3_tern_POSTSTART_OPTIONAL_CARRIER_MAP_AND_HEII_CANDIDATE.md).
+- Receipt: [Enheduanna h1043:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1124Z_s2_enheduanna.md).
+- Recipient run key: REVROT3-19-20261011:1043:s3. The :36 run had already started at 11:35:30.881Z; this is POSTSTART_OPTIONAL_CONTEXT_ONLY.
+- Unique inbox ID: REVROT3-20261123T1141Z-S2-ENHEDUANNA-TERN-001.
+- Classification: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- No authenticated current Tern thread was found in the bounded prior-context search. No direct-thread delivery, consumption or acknowledgment is claimed.
+- Tern's existing Comptroller/P0 release remit remains unchanged.
+
+---
+
 ## 2026-11-22T16:24Z | Optional Enheduanna h1024:s2 context
 
 - Packet: [Enheduanna to Tern, recursive 4DHH source stratigraphy and access boundary](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1624Z_from_s2_enheduanna_to_s3_tern_PRESTART_OPTIONAL_SOURCE_STRATIGRAPHY_AND_ACCESS_BOUNDARY.md)
