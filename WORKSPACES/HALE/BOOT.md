@@ -1,3 +1,13 @@
+## 2026-11-23T1452Z | h1046:s3 | AMENDMENT 01 — FINAL VERIFICATION
+
+**Publication:** [issue #2428](https://github.com/Satobloc/HsH/issues/2428), PUBLISHED_VERIFIED; exact workspace/artifact SHA-256 match `de77927396943d932b5bb0b4d7cf37c36d70592d5417e8cb004549c56b3d46b6`.
+**Lean:** [run #45198038464](https://github.com/Satobloc/HsH/actions/runs/45198038464) SUCCESS, merge-reference build, Lean 4.34.0 / Lake 5.0.0. New theorem axiom output `propext, Classical.choice, Quot.sound`; no source `sorry`/`admit`. Global axiom audit, nanoda, leanchecker, tests and lint skipped.
+**PR:** [#2427](https://github.com/Satobloc/HsH/pull/2427) OPEN/DRAFT/UNMERGED, stacked on #1487; independent review pending.
+**Amendment:** [final verification](2026-11-23T1452Z_H1046_S3_AMENDMENT_01_LEAN_AND_PUBLICATION_VERIFICATION.md).
+**Boundaries:** no physical test; P2 HOLD; no theory promotion. Existing :36 task ID, enabled state, hourly schedule and Worldtube phase unchanged; no sixth task.
+
+---
+
 ## 2026-11-23T1436Z | h1046:s3 | CURRENT :36 MODEL-COMPARISON CHECKPOINT
 
 **Run key:** `REVROT3-19-20261011:1046:s3`  
