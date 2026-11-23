@@ -3,7 +3,7 @@
 **Status:** SOURCE-FIDELITY COMPLETE / AFFINE EQUIVALENCE PROVED AND COMPILED / PUBLICATION VERIFIED / NO PHYSICAL RESULT / NO THEORY PROMOTION.
 
 - Canonical receipt: [h1047:s0 Nadir](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1500Z_s0_nadir_voss.md).
-- Full report: [Rotoexpando geometry fidelity and dimensional crosswalk](2026-11-23T1500Z_H1047_S0_ROTOEXPANDO_GEOMETRY_FIDELITY_AND_DIMENSIONAL_CROSSWALK.md), SHA-256 edf698634a2801ab7b30f6d7e8e18e87237d8a64ad8d50941dceb1aa6b7ac6ef.
+- Full report: [Rotoexpando geometry fidelity and dimensional crosswalk](2026-11-23T1500Z_H1047_S0_ROTOEXPANDO_GEOMETRY_FIDELITY_AND_DIMENSIONAL_CROSSWALK.md), Git blob SHA-1 25eca0aa2e91e8cbeb268261fa0e9a708d8ad53d; exact readback verified.
 - Public-safe synopsis: [issue #2430](https://github.com/Satobloc/HsH/issues/2430), artifact SHA-256 1f09cee77c2ab29998ad84b6884348fda337af39b70c4f4494a7a4d81fbf52cb, exact publisher/readback verification.
 - Existing [PR #1189](https://github.com/Satobloc/HsH/pull/1189) extended, not replaced. Head 56a367b05ef92e5d740641740d432820b63be669; [Lean run #45208539912](https://github.com/Satobloc/HsH/actions/runs/45208539912) succeeded on the final head, Lean 4.34.0 / Lake 5.0.0 / 8,961 jobs. Theorem-specific axioms: propext, Classical.choice, Quot.sound. Tests, lint, nanoda, and global axiom audit skipped. PR remains draft/unmerged/unreviewed.
 - Source cluster: 24 relevant direct user messages in the 2024 dimensional-gravity export; all 8 user messages in the June 2026 GR/string-theory export; 674-line Rotoexpando geometry manuscript; SAT-O1 original; Blockwave attachment and event lineage. Exact source hashes, dates, message IDs, and the separate original/correction record are in the report.
