@@ -931,3 +931,12 @@ No reply, task, deadline, review, ownership transfer, priority change, or theory
 - Recipient scope: this empirical/statistical Calder ring-label workspace only. Do not merge with the separate Foundational Covariance/Global Architecture Calder variant.
 - The h1035:s0 :00 run had completed FAILED with chat_ref=null before this append. Repository-only post-completion optional context; no direct-thread delivery, consumption, acknowledgment, assignment, deadline, review request, or ownership transfer is claimed.
 - No response is required. Preserve Orson's P1 freeze and all existing task/scheduler boundaries.
+
+
+## HANDOFF_TIMING_AMENDMENT_01 | 2026-11-23T0248Z | Same-run-key re-entry correction
+
+- Amendment: [same-run-key re-entry timing correction](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0248Z_from_s4_aldus_to_h1035s0_calder_AMENDMENT_01_SAME_RUN_KEY_REENTRY_TIMING_CORRECTION.md).
+- The h1035:s0 :00 run ID 8c6509e0-343c-8322-bcba-6ff67bc76f67 was observed FAILED at 03:02:28.733695Z, then the same run ID reappeared IN_PROGRESS with started_at 03:05:00.880072Z and chat_ref=null.
+- The optional packet and this inbox append were committed at 03:10:56Z and 03:11:10Z, respectively. The packet was therefore post-start, not post-completion. The attempt number is not exposed; exact retry semantics remain unresolved.
+- Corrected classification: POSTSTART_OPTIONAL_CONTEXT_ONLY / SAME_RUN_KEY_REENTRY / ATTEMPT_UNRESOLVED / REPOSITORY_ONLY.
+- No direct-thread delivery, consumption, acknowledgment, assignment, deadline, review request, ownership transfer, retry, or scheduler mutation is claimed.
