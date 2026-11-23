@@ -1172,3 +1172,10 @@ This is genuine partial progress on the bounded sample, not completion of the sw
 WH-05 remains highest priority overall but blocked by occupied Mersearch lanes; WH-02 remains highest-priority unblocked and Calder-owned. Tern retains PWH coordination and all task/owner/priority authority. No task graph, ownership, priority, due-date, automation, scheduler, or phase change was made. FIE remains last reviewed 2026-11-20, next 2026-12-04; the unrelated-reading break was completed 2026-11-21, so neither was repeated.
 
 **Review actual time:** 2026-11-23T10:06:05.591Z. **Source branch at review start:** `cf8a34f5b1cad57c9cb1a684430fb3c04fc62290`.
+
+
+## MORROW-RUN-ID-ERRATUM-h1041 | 2026-11-23T0924Z Loom supplement correction
+
+The h1041:s2 PWH deep-review supplement above mis-transcribed the Morrow h1040:s0 runtime run ID. The earlier value `c7e02e11-8a4b-4c7a-9d6e-7f1a0b2c3d4e` is erroneous and must not be reused. The exact run ID in the canonical Morrow receipt is `c7e02e11-070c-8331-9679-7b083a7df3e7` (`WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0800Z_s0_morrow.md`, blob `91c2199968ccb966877081e3f85709a866ba979a`). Its recorded completion time remains `2026-11-23T08:47:40.301Z`; the OP-01 Dashboard disposition remains `PARTIAL / RETOOLED`. This is an append-only correction; no historical entry was rewritten.
+
+**Correction time:** 2026-11-23T10:06:48.211Z.
