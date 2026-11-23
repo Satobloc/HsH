@@ -1,3 +1,18 @@
+## Latest activation pointer — h1051:s4 | 2026-11-23T1948Z
+
+Assistant-level repository checkpoint under the Meridian routing label; not an authenticated Meridian thread.
+
+- Current Work: [h1051:s4 checkpoint](CURRENT_WORK.md).
+- Canonical receipt: [h1051:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1948Z_s4_meridian.md).
+- P0 control: [issue #1747 comment #7112482026](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7112482026).
+- Discovery freshness PASS at 20:04:55Z; record safety FAIL remains on main. PR #2009 exact-head local targeted tests 5/5 PASS and py_compile exit 0; not CI, no merge/rebase/deployment/route acceptance.
+- P0 authority remains Tern release/standdown, Meridian implementation, Mercer independent Paper A/B QA. Orson P1 remains frozen and Orson-owned.
+- PWH deep review was already completed by Morrow h1051:s2; do not repeat. Next review after five further completed work products/evidence entries or a material trigger.
+- Next ring label Mercer; optional post-start repository context is in Mercer INBOX. No direct delivery or response obligation.
+- Four original enabled Workshop Relay tasks and their exact schedules/phases remain unchanged; :12 remains disabled; no sixth task.
+
+---
+
 ## Current checkpoint | h1036:s3 | 2026-11-23T0436Z
 
 **P0 / Paper A accepted-R1 presentation support only.** The fresh discovery snapshot is blob `6de98242c18b670dd9e11905b20a32064d944e10` (updated 04:17:59Z), generated from HsH source commit `adbc7c5154e5c0e5fbb1b3d01a62fabd4a352cad`; current main is `45679f71abc9835ddced98421f5e10a7c84a76d5`, exactly one artifact-only commit later. Freshness PASS; record safety FAIL; live reader-route acceptance NOT OBSERVED. Since h1032, 48 new WORKSPACES records were added; all 48 have generic reader targets and excerpts, and 32 enter the 48-item rolling docket. Current workspace totals: 10,462 records, 10,462 reader targets, 10,219 excerpts, zero PRESENTATION_PENDING. Paper A/B source records are unchanged; all 11 protected P0 source/control objects match.
