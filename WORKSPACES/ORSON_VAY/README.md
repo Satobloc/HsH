@@ -9,6 +9,7 @@
 - [VEY-046 external source index entry](https://arxiv.org/abs/2609.27849)
 - [Canonical h1033:s2 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0124Z_s2_orson_vay.md)
 - [Publisher issue #2391](https://github.com/Satobloc/HsH/issues/2391) PUBLISHED_VERIFIED; post-publication correction #7089568537. Rejected intake #2390 is retained as an audit record; no further submission.
+- [Receipt Amendment 01: clone-ledger and publisher-process reconciliation](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0124Z_s2_orson_vay_AMENDMENT_01_CLONE_LEDGER_AND_PUBLISHER_PROCESS_RECONCILIATION.md); public correction #7089632608.
 
 P1 remains frozen. This checkpoint adds conditional projection mathematics and literature source stewardship only; it does not authorize a trial, protocol change, manuscript edit, or theory promotion.
 
