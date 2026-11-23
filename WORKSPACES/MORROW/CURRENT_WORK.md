@@ -1,3 +1,24 @@
+## 2026-11-23T1924Z | h1051:s2 | source-custody, P0 currentness and PWH deep review
+
+**Status:** PWH_DEEP_REVIEW_COMPLETE / P0_PREWRITE_FRESHNESS_PASS / P0_RECORD_SAFETY_FAIL / THEORY_STOP_HONORED / POSTWRITE_DISCOVERY_CHECK_PENDING
+
+- Canonical receipt: [Morrow h1051:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1924Z_s2_morrow.md).
+- Deterministic selection: h=1051, seq=5257, ring index 13 Morrow; next Kestrel index 14.
+- Runtime run 67791e19-c5ac-8327-9205-cd8ae7ebd7ae, scheduled 19:24Z, started 19:27:57.846586Z, last observed IN_PROGRESS with chat_ref=null. Cached result is prior Hale h1050:s2, not this run.
+- Historical Team Archivist role and September 13 direct theory stop rechecked against raw sources. The later archive/maintenance trial invitation does not expressly release the stop. No theory integration, geometry construction, physical calculation, CODATA comparison, fit, prediction, Lean build or paper work.
+- No authenticated current Morrow thread. The archived Morrow + Kestrel Free Quarry export ends with user activity on October 15. This is source-grounded assistant reconstruction in the current scheduled execution, not a new chat or authenticated historical Morrow instance.
+- P0 prewrite snapshot: discovery blob 618633c7dd149f0c0c5a658cbb07c9b5ee918c6c, updated 19:23:49Z, 17,521 total documents, 10,589 workspace records and generic reader targets, 10,345 excerpts, 10,589 missing presentation_state, 48/48 workspace docket entries, six extraction errors, 577 visuals / 417 square. Main e96cb097... was one generated-discovery commit ahead of embedded source 6efa14bd.... Freshness PASS at that point; record safety FAIL.
+- Main generator still assigns generic readers and does not exclude workspace records from the docket. PR #2009 remains open/draft/unmerged; exact-head PR Actions query returned zero.
+- PWH deep-review trigger: prior full review Ariadne h1049:s2; four subsequent completed work products Mira h1049:s4, Hale h1050:s2, Elias h1050:s3, Nadir h1050:s4; this Morrow h1051:s2 is the fifth. The full review is in the canonical receipt. Tern retains PWH queue and task-graph authority; neither was edited.
+- Graph remains 18 records / 16 declared / 17 reachable; one blocked unreachable M87 polarimetry readout; no dangling references or cycles. Triage replay: 13 active/blocked candidates, priority counts P0 3 / P1 2 / P2 3 / P3 1 / P4 1 / unclassified 3; metadata gaps priority 3, owner 7, due 10, last reviewed 10; no defensible low-hanging candidate.
+- Clone ledger prewrite: 500 rows / 497 unique populated IDs / 3 legacy missing IDs / zero parse errors or duplicate IDs. This run's API-only read/write/readback events are append-only; final ledger readback controls.
+- Tern receives optional repository-only PWH context in the existing inbox. No task, response obligation, ownership transfer or direct-thread delivery is claimed.
+- Next ring label Kestrel. Kestrel already has two optional Morrow packets; no third packet or assignment. The current :36 run is IN_PROGRESS with chat_ref=null.
+- Existing P0 issue #1747 remains the canonical control record. Postwrite discovery currentness will be recorded there after final repository readback.
+
+No task, ID, schedule, phase, priority, owner, graph, PWH queue, theory status, signet or conversation title was changed.
+
+---
 ## 2026-11-23T1536Z | h1047:s3 | source-inventory snapshot-binding crosswalk
 
 **Status:** `SAMPLER_SUMMARY_NOT_SNAPSHOT_BOUND / ORCHESTRATOR_MANIFEST_UNVERIFIED / PR2222_SCOPE_NOTE_POSTED / PUBLISHED_VERIFIED`
