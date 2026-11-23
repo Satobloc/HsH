@@ -1,3 +1,11 @@
+# Latest publication correction | h1037:s4 | 2026-11-23T06:32Z
+
+- [Current Work Amendment 11](CURRENT_WORK.md): issue #2406 was REJECTED_SHA256, not published. Submitted digest `54510b25cb9208986fc9a63cdb06bfc4a4dc75f120688bac830f8b414ba4e0df`; exact issue-body content digest `694611e700f8f948352e6357014f103b35c8e06e72a88ece6f070e32a3021a6f`; expected canonical artifact NOT_FOUND.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0548Z_s4_aster_AMENDMENT_01_PUBLISHER_REJECTED_SHA256.md) supersedes only the publication status/digest in the original receipt. No retry or duplicate.
+- Keep the source-citation correction as a valid internal finding, but do not label it PUBLISHED_VERIFIED.
+
+---
+
 # Latest cross-lane checkpoint | h1037:s4 | 2026-11-23T05:48Z scheduled
 
 - [Current Work Amendment 10](CURRENT_WORK.md): Review-MIND source-fidelity addendum to Nadir issue #2386; arXiv title and 77/82 subset scope corrected.
