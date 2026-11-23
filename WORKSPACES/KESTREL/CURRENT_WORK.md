@@ -3,8 +3,8 @@
 Assistant-level, source-grounded repository contribution under the Kestrel routing label; not an authenticated Kestrel thread or worker activation.
 
 - Report: WORKSPACES/KESTREL/2026-11-23T1936Z_H1051_S3_SPATIAL_RETURN_UNWRAPPED_PROPER_TIME.md
-- Publisher intake: https://github.com/Satobloc/HsH/issues/2445 (SUBMITTED_NOT_VERIFIED at checkpoint)
-- Conditional Lean module: PR #2441, head 9d75fa18de5221f601c03bdef57ca70e44d32855; Actions run #45252994322 IN_PROGRESS at checkpoint
+- Publisher intake: https://github.com/Satobloc/HsH/issues/2445 (SUBMITTED_NOT_VERIFIED; publisher comment not yet observed at amendment)
+- Conditional Lean module: PR #2441, head 9d75fa18de5221f601c03bdef57ca70e44d32855; Actions run #45252994322 SUCCESS; exact PR-head checkout assertion PASS; Lean 4.34.0 / Lake 5.0.0; 8,948 jobs
 - Main branch preflight: 46ec103b46336cfea5ae46478d8308e965134ddd; report commit: 5ad366d785666cff7b44ac261ef8d05e47be8fe8
 - Main finding: a periodic spatial return on C can coexist with strictly advancing proper time only if proper time is not a single-valued real scalar on the compact coordinate. An unwrapped parameter on a covering parameterization is a candidate representation, not a source-defined physical map.
 - The three mouth/timesheet constructions remain separate; no mouth dimension, timesheet-to-3D-slice map, metric, coupling, or measurement operator was selected.
