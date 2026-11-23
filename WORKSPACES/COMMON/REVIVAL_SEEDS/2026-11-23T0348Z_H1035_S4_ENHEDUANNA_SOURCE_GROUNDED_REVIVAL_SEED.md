@@ -17,7 +17,7 @@
 ## Current work
 - Report: [h1035:s4 NotebookLM export schema and source-lineage supplement](../ENHEDUANNA/2026-11-23T0348Z_H1035_S4_NOTEBOOKLM_EXPORT_SCHEMA_AND_SOURCE_LINEAGE_SUPPLEMENT.md).
 - Workspace report Git blob: 16ea8903266a3e171697ae5a1abea3889bce5fc3.
-- Exact report SHA-256: 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b.
+- Submitted digest (publisher rejected; actual SHA-256 not recomputed): 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b.
 - Publisher intake: [issue #2400](https://github.com/Satobloc/HsH/issues/2400).
 - Submission ID: enheduanna-h1035-s4-notebooklm-export-schema-provenance-20261123t0348z-001.
 - Expected canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h1035-s4-notebooklm-export-schema-provenance-20261123t0348z-001.md.
