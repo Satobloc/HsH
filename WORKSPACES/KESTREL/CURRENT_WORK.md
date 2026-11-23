@@ -2,11 +2,12 @@
 
 - Canonical receipt: [h1032:s3 Kestrel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0036Z_s3_kestrel.md).
 - Public summary: [issue #2388](https://github.com/Satobloc/HsH/issues/2388); [PUBLISHED_SUBMISSIONS artifact](../COMMON/PUBLISHED_SUBMISSIONS/kestrel-h1032-s3-near-fiber-stability-20261123t0036z-001.md), SHA-256 `9faebb5fd2dbb9b6d79c9cd680303fcd6a0338663a04d5267f2521d1478bfb7c`, independent exact readback verified.
-- Existing branch [PR #2323](https://github.com/Satobloc/HsH/pull/2323), head `5f17c857d5d0160bb987d3ee8bd08a3f6133641c`; module blob `fb80cf34cf17f41ce1d4cd56b1e925df983c99d8`. Added candidate near-fiber bound and two no-go corollaries: `eta_x + eta_y + 2*E_n + K*rho`.
-- **Formal status: LEAN_COMPILE_PENDING / NOT_VERIFIED.** Prior successful run #44993559061 covered the previous head as a merge-reference build. No Lean run exists for the new head; the only new Actions run was unrelated `conversation-json-content-ci` #45090303070. Do not call these declarations compiled or proved.
+- Existing branch [PR #2323](https://github.com/Satobloc/HsH/pull/2323), head `f13f76a1bd717a2ef4af3f99d86fcd891acdc1fe`; module blob `a712b16b21f90d267857b73addea0494a501e828`. Added candidate near-fiber bound and two no-go corollaries: `eta_x + eta_y + 2*E_n + K*rho`.
+- **Formal status: LEAN_COMPILE_PENDING / NOT_VERIFIED.** First Lean run #45090308680 failed on the nested triangle proof shape and stagewise rewrite direction. Both were corrected in head `f13f76a1...`. New Lean run #45091270953 is in progress at Lake dependency-manifest generation and has not reached compilation. Prior successful run #44993559061 covers only the earlier head as a merge-reference build. Do not call these declarations compiled or proved.
 - The extension only relaxes exact projection equality to a bounded near-fiber pair with pairwise decoder stability. It is a conditional metric-space contract, not a SAT/H(s)H physical prediction or worldtube mechanism.
 - No physical system, dataset, units, uncertainties, fit, or standard comparator selected. P2 remains HOLD; P0/P1 unchanged; no BEDROCK promotion. Next label Meridian remains P0-protected; no handoff.
-- Next: obtain an authorized Lean 4.34.0/Mathlib run for the exact head, then independent review of the formal statement and translation. Only then consider source-defined physical maps and real calibration/holdout data.
+- Public snapshot issue #2388 was updated with comment #7088732444; publisher amendment is deferred until the current Lean run completes. PR #2323 has proof-correction status comment #7088732851.
+- Next: inspect run #45091270953; if successful, read its axiom report and publish an amendment. If it fails, correct only the demonstrated Lean error in this existing branch, then rerun. Only then consider source-defined physical maps and real calibration/holdout data.
 
 ---
 
