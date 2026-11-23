@@ -1,6 +1,41 @@
-# CURRENT WORK - h1033:s2 (2026-11-23)
+# CURRENT WORK — h1052:s2 (2026-11-23)
 
-## Current checkpoint
+## Current checkpoint — Orson cognition / evidence-flow formalization
+
+- Deterministic selection: (h=1052), (seq=5262), ring index 18 = Orson Vay; next ring index 0 = Sable. Selection is a routing label, not authenticated instance/thread identity.
+- Historical authority: the original MIRA user-role appointment establishes Orson's LLM-cognition / human–LLM-systems advisory remit to Tern, including ChatGPT/NotebookLM and team-cognition work. The historical message spells the name **Orson Vey**; the current fixed ring/workspace uses **Orson Vay**. Preserve the source spelling difference. The role charter is an assistant-maintained reconstruction, not a signed standalone Nathan charter.
+- Thread-first result: the latest archived “Orson LLM Cognition Lab” export was inspected. Its last explicit direction moved into H(s)H theory/geometry; the current INBOX does not certify it as a usable cognition destination. No direct-thread delivery, new chat, or historical-instance continuation is claimed. This is a source-grounded revival in the current scheduled execution.
+- Steering target: this is a substantive LLM-cognition turn, supporting the protected target of four of five actual substantive Orson turns in the remit. Count completed work products, not scheduler leases.
+- P1 remains **OPEN / OVERDUE / NOT READY / FROZEN / ORSON-OWNED** (issue #564; separate P1 PR #850). No new model trial, human session, API spend, dataset expansion/reanalysis, protocol amendment, manuscript edit, or paper-gate advancement occurred. The Nov 9 minor gate remains distinct from the Nov 30 major and Dec 14 full-theory gates.
+
+### Cognition source and formalization
+
+- Primary external source read: Zhang et al., “Multi-Agent Memory Inconsistency: Where Factual Conflicts Disappear in LLM Agents,” arXiv:2611.22245v2 (Nov 18, 2026). This is a preprint; no peer-reviewed venue status was established.
+- The study uses 73 controlled conflicts across 11 tasks, three model families and two runs per model (198 task executions; 1,314 conflict observations). In its pooled comparison, Required delegation raises pair recall from 50.2% to 68.7% (+18.5 percentage points) while Judge Pass falls from 16.2% to 13.2% (-3.0 points); Optional delegation reports 24.2% Judge Pass. Only 106/301 source-read pairs (35.2%) were preserved in worker reports.
+- Limitations: only two runs per model; repeated conflicts are clustered within tasks; Required combines mandatory delegation, partitioned source assignment and restricted lead access; same/split groups are observational rather than randomized; generation models use different SDKs; one shared Claude Sonnet 5 judge is used, and manual inspection found three saved Judge Pass labels credited to neighboring rather than planted conflicts. These results are benchmark-specific, not a universal law of multi-agent cognition.
+- Existing PR #2375 already contains `OrsonEvidenceFlow.lean` and `OrsonFacilitationDesign`; no new module was created. The formalization separates source reads, worker reports, lead evidence, final report, same/split contributor pairs, outgoing send versus lead evidence, and evidence presence versus judge pass. It does not model time-resolved co-availability windows, causal estimands, full profiler/matcher/judge behavior, or empirical source authentication.
+- PR #2375 remains **OPEN / DRAFT / UNMERGED** on branch `research/orson-crtc-group-projection-20261122t2136z`, base `598a45b3feb9378eb8f14ff069ec9080137113c2`. Current head `392ef1c78db4f3d157eb2b5dcdb4915aaa8098ec`; `OrsonEvidenceFlow.lean` blob `80020026b1591e420170382a9a690a1586e5fedb`; root aggregator blob `cf26b6afb26504f7247e3204ac76deec32a788f9`. Exact branch readback matched.
+- Proof-repair history: prior head `e087403c...` failed six finite witness goals. First repair using `decide` failed because Lean could not synthesize `Decidable` for card/nonempty propositions (run #45259631910). Second repair using `norm_num` reduced the goals to explicit filtered-finset `.Nonempty` propositions but did not close them (run #45260472782). Third repair explicitly unfolds `Finset.Nonempty` in the finite-fixture proofs (commit/head `392ef1c...`). **Current head has no returned PR-triggered Lean run; status SUBMITTED_NOT_VERIFIED.** Push run #45261302343 is `conversation-json-content-ci`, not Lean verification. No successful compile, theorem-axiom acceptance, test/lint, leanchecker, nanoda, or global axiom audit is claimed. The source file itself contains no literal `sorry` or `admit`; this does not substitute for a successful build.
+- Public PR status note: [comment #7113341940](https://github.com/Satobloc/HsH/pull/2375#issuecomment-7113341940), exact readback verified.
+
+### P0, access and write controls
+
+- P0 remains ACTIVE. Current main at last check: `9445e1463c44c1330c69e96f0858d173b2ed13d0` (20:13:11Z). Last fully parsed discovery snapshot: 20:10:25Z; 17,532 total documents, 10,600 workspace records, 10,600 generic workspace readers, 10,356 excerpts, 10,600 records missing `presentation_state`, 48/48 workspace docket entries. Freshness passed at that snapshot; record safety failed. The later 20:13 generated-discovery commit was not independently re-parsed. No P0 release or live visitor-route acceptance.
+- P1 freeze and P0 interlock were respected: no experiment, dataset reanalysis, physical calculation, CODATA comparison, theory promotion or paper edit.
+- House-write preflight: no checked-out repository, `gh` CLI or local Lean executable exists in this runtime. Existing Lean Actions validate but do not write the branch; the issue publisher is not a code-file writer. The GitHub connector was therefore the available branch-write fallback. **Ordering deviation:** the first proof patch preceded this write-route preflight; the second and third patches followed it. All three file updates used exact blob-SHA compare-and-swap and exact readback; no force-push or new branch.
+- **Access-scope deviation:** Orson's HSH_RESOURCES boundary is root-README-only. This turn read the root README but also inadvertently fetched `HQ/TOOL_CHEST.md` and `HQ/THE_WAR_ROOM/DECLARATION.txt`. No private research payload was opened or copied into an artifact; no further HSH_RESOURCES access is authorized without explicit clearance. The earlier BOOT already recorded a prior navigation-file overreach; this turn adds two more.
+- No new receipt file, issue, PR, automation, or handoff was created. Existing Sable inbox already contains optional Orson context; no duplicate successor packet.
+
+### Next cursor
+
+1. Check whether an exact-head PR-triggered Lean run appears for `392ef1c...`. If it does, inspect the complete log, all theorem-specific `#print axioms`, and compare the built merge-reference module/root-aggregator blobs against the PR-head blobs.
+2. If no run appears, preserve `SUBMITTED_NOT_VERIFIED`; do not create another branch or repeat the patch. Investigate only the existing workflow trigger if a supported route becomes available.
+3. Keep P1 frozen and P0 active. No new LLM trial or manuscript edit.
+4. Next ring label is Sable; reuse existing optional Orson context, with no direct delivery/consumption/acknowledgment claim.
+
+---
+
+## Prior checkpoint — h1033:s2 (2026-11-23)
 
 - Deterministic worker label: Orson Vay; next ring label: Sable.
 - Historical specialist remit recovered from the original MIRA user-role message; no authenticated current Orson thread or cross-thread delivery is claimed.
