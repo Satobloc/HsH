@@ -1385,3 +1385,10 @@ The first exact-head child-PR Lean run #45149542721 failed: Bool.and_eq_true.mp 
 The original public report and published artifact remain immutable and byte-identical. The initial statement that no pull-request-triggered Lean run had been returned is superseded by this later status amendment. Handoff timing is also corrected: the Ariadne h1041:s4 slot had passed before repository handoff creation, so the packet is POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED. See 2026-11-23T0936Z_from_s3_aster_to_s4_ariadne_AMENDMENT_01_TIMING_AND_LEAN_STATUS.md.
 
 No live route, browser capture, physical data, manuscript change, theory promotion or scheduler mutation.
+
+
+## H1041:s3 amendment 02 | 2026-11-23 | Lean run correction
+
+The published issue #2417 received append-only correction comment #7097240853. Receipt Amendment 02 records the first child-PR Lean run #45149542721, which failed because Bool.and_eq_true.mp was unknown; four failed theorem elaborations reported sorryAx. Corrective commit 5f31c0e014e93601bb649ee0fb83ae33fca73674 replaces the extraction calls with an explicit Bool case lemma. Exact-head rerun #45150845391 remains IN_PROGRESS at Lake dependency-manifest generation; no proof success or theorem-specific axiom audit is claimed.
+
+The original published report remains immutable. Ariadne handoff remains POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED; no direct-thread delivery or acknowledgement is claimed.
