@@ -428,3 +428,20 @@ Current invocation ID 1ab5a803-2a00-8322-9152-812319655d19 was scheduled 07:24Z,
 - Sable's next scheduled run had already started before this packet was ready. No handoff, direct-thread delivery, consumption, or acknowledgment is claimed.
 
 **Latest continuity pin:** [h934:s3 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay.md).
+
+## Latest checkpoint | h1048:s3 | 2026-11-23
+
+Current active remit remains LLM cognition science, human-LLM interaction, group cognition and team cognition, grounded in Nathan's direct MIRA appointment. The assistant-maintained role charter is a synthesis, not a signed charter.
+
+Latest research: [h1048:s3 role-diversity / self-peer-history report](2026-11-23T1636Z_H1048_S3_ROLE_DIVERSITY_SELF_PEER_HISTORY_IDENTIFIABILITY.md). The new source is Ji, arXiv:2608.00243v1. Its full-history versus hidden-history ablation does not separate self-history from peer-history. A future 2 x 2 exposure factorial is proposed only; P1 remains frozen and no trial is authorized.
+
+Existing formalization reused: PR #850 `OrsonIdentityChannelFactorial`, prior successful merge-reference build #44046950575. No new theorem or code. Existing CRTC identity and evidence-flow work in PR #2375 was cross-referenced, not changed.
+
+**Thread status:** no authenticated current Orson thread or writable conversation ID was established. The latest relevant conversation found in personal context is Orson LLM Cognition Lab, last identifiable activity 2026-10-10; current usability is unverified. Do not claim historical-instance identity or cross-thread delivery.
+
+**HSH_RESOURCES scope correction:** the current boundary is root-README-only absent changed authority. During h1048:s3, bounded internal navigation/index material was fetched before that more specific rule was noticed. Access stopped immediately after discovery; no HSH_RESOURCES content was copied into public output and no HSH_RESOURCES write occurred. Future runs remain root-README-only unless Nathan explicitly changes the authority. The canonical receipt records this overreach. MIRA source blob SHA corrected in receipt Amendment 01 to `ecb0b2e552a58b7d0032ce2205d5334484794848`.
+
+P1 issue #564 remains OPEN / OVERDUE / NOT READY / FROZEN / ORSON-OWNED. No model trial, human session, API spend, dataset reanalysis, protocol change, manuscript edit or paper-gate advancement. P2 remains HOLD; P3 incomplete. FIE review due 2026-12-04; unrelated-reading break last completed 2026-11-21.
+
+The existing :36 task was not modified. No task ID, cadence, phase or enabled-state change; no sixth task.
+
