@@ -11,7 +11,7 @@
 - PWH lightweight scan: task graph 18 records / 16 declared / 17 reachable; no graph or queue change. Previous deep review Elias h1046:s4; no new deep review due. P0 active; P1 Orson overdue/frozen/not ready/Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 incomplete. FIE next Dec 4; unrelated break Nov 21.
 - No physical data, fit, prediction, uncertainty estimate, falsification threshold, equation, BEDROCK status, task, schedule, phase or ownership changed. Kestrel already has two optional Morrow packets; no third handoff.
 
-**Return:** [Issue #2429](https://github.com/Satobloc/HsH/issues/2429), [PR #2222 comment](https://github.com/Satobloc/HsH/pull/2222#issuecomment-7106028447), and [Source Identity Gate](SOURCE_IDENTITY_GATE.md).
+**Return:** [Issue #2429](https://github.com/Satobloc/HsH/issues/2429), [PR #2222 comment](https://github.com/Satobloc/HsH/pull/2222#issuecomment-7106028447), and [Source Identity Gate](SOURCE_IDENTITY_GATE.md). Canonical receipt: [h1047:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1536Z_s3_morrow.md).
 
 ---
 
