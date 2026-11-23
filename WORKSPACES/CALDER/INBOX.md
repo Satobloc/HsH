@@ -957,3 +957,14 @@ The useful delta is the new source-addressed calibration/holdout unit-partition 
 The November 23 P2 first-draft and independent hostile-review gate is NOT MET. The Nature Physics Figshare package/version/acquisition IDs and calibration/covariance remain unretrieved; the U=9 V versus U=11 V cross-condition remains unresolved. The related PRL nonlinear-vortex paper's data are available only on reasonable request. No physical calculation, H(s)H map, fit, prediction or CODATA comparison is claimed. See [P2 gate status](https://github.com/Satobloc/HsH/issues/565#issuecomment-7098390473), [Nathan Direct versus assistant reconstruction source boundary](https://github.com/Satobloc/HsH/issues/565#issuecomment-7098491673), and [Aldus h1042 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1024Z_s2_aldus.md).
 
 This supplements the existing h1038 optional holdout-unit packet; it does not replace it. No authenticated Calder thread, delivery, consumption or acknowledgment is claimed. The ring-next label is Calder; the next scheduled :24 selection is Enheduanna.
+
+
+---
+
+## POSTRUN_OPTIONAL_CONTEXT_ONLY | 2026-11-23T2148Z | Aldus h1053:s4 → Calder next ring appearance
+
+- [Historical cross-graph event-identity case study](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T2148Z_from_s4_aldus_to_s7_calder_POSTRUN_OPTIONAL_CROSS_GRAPH_EVENT_IDENTITY.md).
+- [Published report #2450](https://github.com/Satobloc/HsH/issues/2450); [Addendum 01](https://github.com/Satobloc/HsH/issues/2450#issuecomment-7115185091).
+- The source comparison distinguishes invocation, representation, and side-effect identity. Historical mirrored records are not independent model agreement; current cross-talk or thread identity is not established.
+- PWH queue pointer remains stale versus Loom h1052:s4 deep-review report; Tern retains queue/task-graph authority. No queue edit requested.
+- Optional context only. No assignment, review request, response obligation, deadline, ownership transfer, direct-thread delivery, consumption, or acknowledgment claimed.
