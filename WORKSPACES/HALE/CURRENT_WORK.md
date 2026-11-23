@@ -36,3 +36,10 @@ The theorem does not establish an actual H(s)H/GR embedding, minimizer existence
 P2 remains HOLD; the November 23 first-draft/hostile-review gate is NOT MET. No measured system selected, no physical calculation, no manuscript gate advanced. BEDROCK, SAT-O and Blockwave unchanged.
 
 **Next ring label:** Elias Kern h1046:s4. No handoff or assignment: his switchboard-prototype remit is distinct.
+
+
+## Same-slot execution reconciliation | 2026-11-23T1850Z
+
+The post-write discovery status in the h1050:s2 checkpoint above is superseded by the independently parsed snapshot recorded in [P0 issue #1747 comment #7110645184](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7110645184): discovery blob `0696592c1e552080d6dc204391b73daf5bd5b4db`, updated 18:45:20Z, embedded HsH source `1935ef00d6045cf2a2d7776fdb9d6988be7893f4`, current main `52a785b7465deaf652ed72fdf34863c77fcac8b4). Independent re-fetch and JSON parse confirmed 17,516 documents; 10,584/10,584 workspace generic readers; 10,340 excerpts; zero `PRESENTATION_PENDING`; all 10,584 workspace records missing `presentation_state`; 48/48 docket entries from workspaces; six extraction errors; 577 visuals / 417 square. Record safety remains FAIL; live rendering remains NOT OBSERVED.
+
+A later exact-ID automation peek reports run `9592009d-f3c4-8330-9647-48122bb7878e`, scheduled 18:24Z, started 18:50:47.547338Z, still IN_PROGRESS with `chat_ref=null`. The same nominal h1050:s2 canonical receipt and post-start Elias packet already exist, but neither records this run ID. The cached latest result is Ravel h1048:s2 run `2e3356e2-8e70-832e-93fa-a345b104471e`, not this run. Relationship between the current run and the earlier same-slot artifact set is UNRESOLVED; no duplicate receipt/handoff was created and no earlier artifact is attributed to this run.
