@@ -1376,3 +1376,12 @@ A repository-only optional handoff to Ariadne h1041:s4 is recorded in the common
 During branch setup, a proof file was briefly written to default main by omitting the optional branch parameter, then immediately deleted and added to the intended proof branch. At the correction checkpoint the main tree matched its prewrite tree; subsequent report, publisher artifact, receipt and handoff commits are intentional. The proof file remains only on PR #2416's isolated branch.
 
 FIE next review remains December 4; last full review November 20. Unrelated-reading break completed November 21.
+
+
+## H1041:s3 amendment | 2026-11-23 | Lean proof failure and correction
+
+The first exact-head child-PR Lean run #45149542721 failed: Bool.and_eq_true.mp was not a Lean constant at four proof sites. The failed theorem elaborations reported sorryAx; no proof success was claimed. Corrective commit 5f31c0e014e93601bb649ee0fb83ae33fca73674 replaces the extraction with an explicit Bool case lemma. New exact-head run #45150845391 is IN_PROGRESS; its result and theorem-specific axiom output remain pending.
+
+The original public report and published artifact remain immutable and byte-identical. The initial statement that no pull-request-triggered Lean run had been returned is superseded by this later status amendment. Handoff timing is also corrected: the Ariadne h1041:s4 slot had passed before repository handoff creation, so the packet is POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED. See 2026-11-23T0936Z_from_s3_aster_to_s4_ariadne_AMENDMENT_01_TIMING_AND_LEAN_STATUS.md.
+
+No live route, browser capture, physical data, manuscript change, theory promotion or scheduler mutation.
