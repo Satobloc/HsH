@@ -1287,3 +1287,13 @@ No reply, task, deadline, review, ownership transfer, priority change, or theory
 - Proof-only child PR #2419 remains draft; corrected exact-head Lean run #45160145251 was pending at handoff creation. No successful proof build or axiom audit is claimed.
 - Timing: Hale :48 run observed in progress with null chat_ref; POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED. Repository-only context, not an assignment or review request.
 - No direct-thread delivery, consumption or acknowledgement is claimed.
+
+
+## TARGET-SLOT STATUS AMENDMENT | CALDER-HALE-20261123T1109Z-001
+- Existing packet: [Calder h1042:s3 → Hale h1042:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T1036Z_from_s3_calder_to_s4_hale_POSTSTART_OPTIONAL_MECHANISM_SEPARATION_CONTEXT.md).
+- Status amendment: [target-slot and Lean status](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T1036Z_from_s3_calder_to_s4_hale_AMENDMENT_01_TARGET_SLOT_AND_LEAN_STATUS.md).
+- The h1042:s4 Hale slot was not observed. The last :48 run was h1041:s4 Ariadne and failed; the next scheduled :48 occurrence is h1043:s4 Morrow. This packet is not rerouted.
+- PR #2419 exact-head run #45160729529 succeeded at head \`69a36c5b10db68eb27e4b6c4beda7c5c4d7476f1\` (8,948 jobs); theorem-specific axiom outputs and skipped auxiliary checks are recorded in receipt Amendment 01.
+- Source-attribution correction: the phrase “low-credence and low-priority” is in flattened HsH ARCHITECT line 62 without a speaker marker; it is not attributed to Nathan Direct. Public correction: [issue #2420 comment #7099038659](https://github.com/Satobloc/HsH/issues/2420#issuecomment-7099038659).
+- Classification: \`TARGET_SLOT_NOT_OBSERVED / UNCONSUMED / REPOSITORY_ONLY\`. No assignment, review request, deadline, response obligation, direct-thread delivery, consumption, or acknowledgment is claimed.
+
