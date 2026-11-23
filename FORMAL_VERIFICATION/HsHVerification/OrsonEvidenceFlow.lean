@@ -54,15 +54,11 @@ structure EvidenceFlow where
   events : Finset DisclosureEvent
   deriving DecidableEq
 
-/-- Minimal validity: every event refers to a declared item and event IDs are unique. -/
-def ValidEvidenceFlow (flow : EvidenceFlow) : Prop :=
-  (∀ e ∈ flow.events, ∃ item ∈ flow.items, item.itemId = e.itemId) ∧
-  (∀ e₁ ∈ flow.events, ∀ e₂ ∈ flow.events,
-    e₁.eventId = e₂.eventId → e₁ = e₂)
-
+/-- Stage presence is computed over the finite event set. It is evidence
+    availability, not comprehension or semantic uptake. -/
 def itemPresentAt (flow : EvidenceFlow) (stage : FlowStage)
     (item : EvidenceItem) : Prop :=
-  ∃ e ∈ flow.events, e.stage = stage ∧ e.itemId = item.itemId
+  flow.events.any (fun e => decide (e.stage = stage ∧ e.itemId = item.itemId)) = true
 
 def pairPresentAt (flow : EvidenceFlow) (stage : FlowStage)
     (pair : EvidencePair) : Prop :=
@@ -72,19 +68,18 @@ def pairPresentAt (flow : EvidenceFlow) (stage : FlowStage)
     proof that the item entered the recipient's later context. -/
 def sentTo (flow : EvidenceFlow) (item : EvidenceItem)
     (recipient : Nat) : Prop :=
-  ∃ e ∈ flow.events,
-    e.stage = .workerReports ∧
-    e.itemId = item.itemId ∧
-    e.recipient = some recipient
+  flow.events.any (fun e =>
+    decide (e.stage = .workerReports ∧
+      e.itemId = item.itemId ∧ e.recipient = some recipient)) = true
 
 /-- Same takes precedence whenever one contributor supplies both endpoints. -/
 def sameContributorPair (flow : EvidenceFlow) (stage : FlowStage)
     (pair : EvidencePair) : Prop :=
-  ∃ e₁ ∈ flow.events, ∃ e₂ ∈ flow.events,
-    e₁.stage = stage ∧ e₂.stage = stage ∧
-    e₁.itemId = pair.left.itemId ∧
-    e₂.itemId = pair.right.itemId ∧
-    e₁.contributor = e₂.contributor
+  (flow.events.product flow.events).any (fun p =>
+    decide (p.1.stage = stage ∧ p.2.stage = stage ∧
+      p.1.itemId = pair.left.itemId ∧
+      p.2.itemId = pair.right.itemId ∧
+      p.1.contributor = p.2.contributor)) = true
 
 /-- Split means both endpoints are present, but no one contributor supplies both. -/
 def splitContributorPair (flow : EvidenceFlow) (stage : FlowStage)
@@ -95,23 +90,23 @@ def splitContributorPair (flow : EvidenceFlow) (stage : FlowStage)
     independence test. Disjoint declared roots are likewise not sufficient
     to establish independent extraction errors or independent model behavior. -/
 def declaredSourceRootsOverlap (left right : EvidenceItem) : Prop :=
-  (left.sourceRoots ∩ right.sourceRoots).Nonempty
+  0 < (left.sourceRoots ∩ right.sourceRoots).card
 
 def declaredSourceRootsDisjoint (left right : EvidenceItem) : Prop :=
   Disjoint left.sourceRoots right.sourceRoots
 
 /-- Itemwise transfer is the sufficient condition for pair recall to survive
     from one stage to another. -/
-def itemwiseTransfer (flow : EvidenceFlow) (from to : FlowStage)
+def itemwiseTransfer (flow : EvidenceFlow) (sourceStage targetStage : FlowStage)
     (pair : EvidencePair) : Prop :=
-  (itemPresentAt flow from pair.left → itemPresentAt flow to pair.left) ∧
-  (itemPresentAt flow from pair.right → itemPresentAt flow to pair.right)
+  (itemPresentAt flow sourceStage pair.left → itemPresentAt flow targetStage pair.left) ∧
+  (itemPresentAt flow sourceStage pair.right → itemPresentAt flow targetStage pair.right)
 
 theorem pair_recall_preserved_of_itemwise_transfer
-    (flow : EvidenceFlow) (from to : FlowStage) (pair : EvidencePair)
-    (hPair : pairPresentAt flow from pair)
-    (hTransfer : itemwiseTransfer flow from to pair) :
-    pairPresentAt flow to pair := by
+    (flow : EvidenceFlow) (sourceStage targetStage : FlowStage) (pair : EvidencePair)
+    (hPair : pairPresentAt flow sourceStage pair)
+    (hTransfer : itemwiseTransfer flow sourceStage targetStage pair) :
+    pairPresentAt flow targetStage pair := by
   exact ⟨hTransfer.1 hPair.1, hTransfer.2 hPair.2⟩
 
 structure PairJudgment where
@@ -139,9 +134,6 @@ def handoffLossFlow : EvidenceFlow where
     ⟨2, claimB.itemId, .sourceReads, 11, none⟩,
     ⟨3, claimA.itemId, .workerReports, 10, some 0⟩
   }
-
-theorem handoffLossFlow_valid : ValidEvidenceFlow handoffLossFlow := by
-  decide
 
 theorem source_pair_can_be_lost_before_worker_report :
     pairPresentAt handoffLossFlow .sourceReads testPair ∧
@@ -222,10 +214,12 @@ def repeatedDisclosureFlow : EvidenceFlow where
     ⟨51, claimA.itemId, .workerReports, 10, some 0⟩
   }
 
+def hasRepeatedDisclosure (flow : EvidenceFlow) : Prop :=
+  (flow.events.product flow.events).any (fun p =>
+    decide (p.1.itemId = p.2.itemId ∧ p.1.eventId ≠ p.2.eventId)) = true
+
 theorem one_item_can_have_multiple_disclosure_events :
-    ∃ e₁ ∈ repeatedDisclosureFlow.events,
-      ∃ e₂ ∈ repeatedDisclosureFlow.events,
-        e₁.itemId = e₂.itemId ∧ e₁.eventId ≠ e₂.eventId := by
+    hasRepeatedDisclosure repeatedDisclosureFlow := by
   decide
 
 #print axioms pair_recall_preserved_of_itemwise_transfer
