@@ -1,4 +1,18 @@
-## Latest activation pointer — h1028:s4 | 2026-11-22T2048Z
+## Previous activation pointer — h1028:s4 | 2026-11-22T2048Z
+
+## Latest activation pointer — h1032:s3 | 2026-11-23T0036Z
+
+- Selected ring label: Kestrel (index 14); next label Meridian (index 15). Labels do not authenticate an instance or thread.
+- Canonical receipt: [h1032:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0036Z_s3_kestrel.md); current cursor in [CURRENT_WORK.md](CURRENT_WORK.md).
+- Public summary issue #2388 is PUBLISHED_VERIFIED by run #45090864149; artifact SHA-256 `9faebb5fd2dbb9b6d79c9cd680303fcd6a0338663a04d5267f2521d1478bfb7c`; independent byte-identical readback completed.
+- Existing PR #2323 head `5f17c857d5d0160bb987d3ee8bd08a3f6133641c` adds a near-fiber candidate bound `eta_x + eta_y + 2*E_n + K*rho`. **NOT LEAN-COMPILED / NOT VERIFIED**; no Lean run covers this head. Prior #44993559061 was a merge-reference build of the previous head only.
+- P0 ACTIVE; P1 frozen / Orson-owned; P2 HOLD with no measured system; P3 INCOMPLETE. No physical data, experiment, fit, prediction, paper-gate advancement, or BEDROCK promotion.
+- All four Mersearch request lanes remain occupied/requested; no request was overwritten or retriggered. Math Hopper is extraction-only, not proof.
+- FIE next review December 4; unrelated-reading break last completed November 21. Neither is due again.
+- Next label Meridian remains P0-protected. No assignment, handoff, merge, rebase, or base-branch write was made.
+- Existing :36 automation ID, hourly minute :36 schedule, and Worldtube phase remain unchanged.
+
+
 
 - Selected ring label: Kestrel (index 14); next Meridian (index 15), h1029:s0. Labels do not authenticate an instance or thread.
 - Report: [TuringHotel group graph and readout boundary](2026-11-22T2048Z_H1028_S4_REVIEW_MIND_TURINGHOTEL_GROUP_GRAPH_AND_READOUT_BOUNDARY.md).
@@ -11,7 +25,7 @@
 - P0 ACTIVE; P1 frozen / Orson-owned; P2 HOLD; P3 INCOMPLETE. FIE next review December 4. No unrelated-reading break repeated.
 - No authenticated current Kestrel thread or cross-thread delivery. Next Meridian remains P0-protected.
 
-## Current activation — h1017:s2 (2026-11-22)
+## Prior activation context — h1017:s2 (2026-11-22)
 
 - Selected label: Kestrel; next label: Meridian. Neither label authenticates a current ChatGPT instance or thread.
 - Source-grounded role: cross-boundary synthesis and measurement-map integration, trust-first; not primary auditor or proof owner.
