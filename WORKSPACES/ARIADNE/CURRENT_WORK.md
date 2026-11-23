@@ -2123,3 +2123,15 @@ Immediate readback caught that the first h851 commit replaced the prior Ariadne 
 - Next deeper cursor: recover raw source for “nested cyclicity / 4D nested helicity”; define `\perp`, the literal twist transition, and the domains/codomains of stacked maps; specify centerline-to-core and worldsheet-current-to-core maps before new formalization.
 - Incoming Aster h981 packet read as optional repository context only. No assignment, handoff, acknowledgment, or cross-thread delivery.
 - Existing :00 Archive task ID, enabled state, hourly schedule, prompt and phase unchanged. No sixth task, signet, conversation rename, or task mutation.
+
+
+## Lane 00 overlay — h1038:s0 (2026-11-23)
+
+**Report:** [4D direct preference vs LLM dimensional expansions](2026-11-23T0600Z_H1038_S0_4D_DIRECT_VS_LLM_DIMENSIONAL_EXPANSIONS.md)  
+**Publication:** [issue #2405](https://github.com/Satobloc/HsH/issues/2405), currently SUBMITTED_NOT_VERIFIED at checkpoint; submission ID `ariadne-h1038-s0-4d-direct-vs-llm-dimensions-20261123t0600z-001`; SHA-256 `f7bfb2c354607bcf0c5bfc0315fddaf6013d9cac58536b31aa47c41fa7148605`.
+
+The new comparison keeps the 2026-11-08 direct four-dimensional preference and the `w` / time-proper distinction separate from two historical LLM branches: a pasted 4D Euclidean superhelix proposal and the SO-00 NotebookLM 6D spacelike proposal. The 6D proposal remains unadopted; no 6D-to-4D map or necessity argument exists. The 4D superhelix proposal is dimensionally closer but its metric, topology, radial time law, and curvature/torsion dynamics are not direct-source definitions. Existing h750, h1035, h1037, and h972 source work was reused rather than duplicated.
+
+No new Lean module/build, physical calculation, fit, prediction, CODATA scoring, equation correction, paper-gate advancement, or theory promotion. SAT-O1 and Blockwave custody remains at the h1030 amendment and h1037 receipt. Mersearch remains unavailable; four request lanes remain occupied. HSH_RESOURCES payload remains unopened under its private/internal boundary.
+
+This is an optional Lane 00 overlay only. Ariadne's existing Review-MIND / Kirk-Riley source-recovery priority remains unchanged. No task, scheduler, branch, ownership, or handoff change. Next deeper cursor: recover the original Reddit post for the line-encoding claim; do not repeat broad searches until a Mersearch lane or narrower locator is available.
