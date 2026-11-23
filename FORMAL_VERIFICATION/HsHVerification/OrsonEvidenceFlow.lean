@@ -186,7 +186,16 @@ theorem source_pair_can_be_lost_before_worker_report :
     · exact itemPresentAt_of_event handoffLossFlow .sourceReads claimB
         ⟨2, claimB.itemId, .sourceReads, 11, none⟩
         (by simp [handoffLossFlow]) rfl rfl
-  · simp [pairPresentAt, itemPresentAt, handoffLossFlow, testPair, claimA, claimB]
+  · intro hPair
+    have hB : itemPresentAt handoffLossFlow .workerReports claimB := hPair.2
+    unfold itemPresentAt at hB
+    have hEmpty :
+        (handoffLossFlow.events.filter (fun e =>
+          decide (e.stage = .workerReports ∧ e.itemId = claimB.itemId))) = ∅ := by
+      ext e
+      simp [handoffLossFlow]
+    rw [hEmpty] at hB
+    simp at hB
 
 /-- Logical witness: two contributors jointly report the pair, but neither
     contributor supplies both endpoints. -/
@@ -209,7 +218,17 @@ theorem split_pair_witness :
         ⟨11, claimB.itemId, .workerReports, 11, some 0⟩
         (by simp [splitFlow]) rfl rfl
   · intro hSame
-    simp [sameContributorPair, splitFlow, testPair, claimA, claimB] at hSame
+    unfold sameContributorPair at hSame
+    have hEmpty :
+        ((splitFlow.events.product splitFlow.events).filter (fun p =>
+          decide (p.1.stage = .workerReports ∧ p.2.stage = .workerReports ∧
+            p.1.itemId = testPair.left.itemId ∧
+            p.2.itemId = testPair.right.itemId ∧
+            p.1.contributor = p.2.contributor))) = ∅ := by
+      ext p
+      simp [splitFlow, testPair, claimA, claimB]
+    rw [hEmpty] at hSame
+    simp at hSame
 
 /-- If one contributor supplies both endpoints, the Same classification holds
     even when another contributor also supplies one endpoint. -/
@@ -243,7 +262,15 @@ theorem sent_to_lead_does_not_imply_lead_evidence :
   · exact sentTo_of_event sentNotLeadFlow claimA 0
       ⟨30, claimA.itemId, .workerReports, 10, some 0⟩
       (by simp [sentNotLeadFlow]) rfl rfl rfl
-  · simp [itemPresentAt, sentNotLeadFlow, claimA]
+  · intro hItem
+    unfold itemPresentAt at hItem
+    have hEmpty :
+        (sentNotLeadFlow.events.filter (fun e =>
+          decide (e.stage = .leadEvidence ∧ e.itemId = claimA.itemId))) = ∅ := by
+      ext e
+      simp [sentNotLeadFlow]
+    rw [hEmpty] at hItem
+    simp at hItem
 
 /-- Logical witness: both endpoints appear in the final artifact, while the
     separate semantic judgment does not pass. -/
