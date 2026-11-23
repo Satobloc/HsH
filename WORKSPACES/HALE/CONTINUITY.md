@@ -961,3 +961,14 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - Next raw-source cursor for this conversation is complete at ordinal 138. Next useful work is a controlled crosswalk from this historical energy-history branch to the current 2026 worldtube/timesheet source, keeping historical lineage separate from current theory authority.
 - Next ring label Elias Kern. No handoff or assignment was made because the :12 lease is disabled and Elias's protected Track A remit is separate. No direct-thread delivery or acknowledgment claimed.
 - The :00 Archive automation remains unchanged. No task/ID/schedule/phase mutation, sixth task, new branch, signet, or conversation rename.
+
+
+### h1039:s0 Amendment 01 publication confirmation | 2026-11-23
+
+- Issue #2409 accepted by the existing publisher; confirmation comment #7094575227.
+- Published artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/hale-h1039-s0-amendment-01-energy-bleed-lineage-20261123t0728z-001.md.
+- Submission ID: hale-h1039-s0-amendment-01-energy-bleed-lineage-20261123t0728z-001.
+- Publisher commit: 0a3d25311b60a13652d08241394c1aa21e2ef474.
+- SHA-256: 5beb922bf5441a9f2703e3e516afea085e4542a5e28e9365dd796b760539b205.
+- Independent artifact/workspace readback matched exactly: blob SHA-1 08ee9e39de72f8709dae71e7d554dfacdc0bfd62; 18,413 characters.
+- Amendment 01 is PUBLISHED_VERIFIED. The parent report's rejected issue #2408 remains untouched; no retry or duplicate parent submission occurred.
