@@ -7126,3 +7126,8 @@ No graph, queue, scheduler, or ownership mutation was made. This note does not r
 - The final discovery refresh caught up at 22:43:25Z. Main 356f5d75fab218d2d680ab4816da6b0c8f06bd77 embeds HsH source 32fff8dfa658bd34c7d7a6aef8d05430a956d1f8; discovery blob 80ec910ee411757d04628c15cca198415b02cff8. It includes the h1054:s2 receipt, current-work update, Tern note, Nadir packet/inbox pointer, and publication artifact.
 - Final snapshot: 17,562 documents; 10,630 workspace records and generic readers; 10,385 excerpts; 10,630 missing presentation_state; zero PRESENTATION_PENDING; 48/48 workspace docket entries; 6 errors; 577 visuals / 417 square. Freshness PASS; record safety FAIL; live reader NOT OBSERVED.
 - Final P0 status is issue #1747 comment #7116129686. No PWH queue, graph, scheduler, or ownership change.
+
+
+## Currentness correction | Elias h1054:s2 | 2026-11-23T22:45:24Z
+
+The 22:43:25Z discovery freshness PASS was valid at its readback point. Five subsequent non-discovery commits have advanced main, including the h1054:s2 receipt/current-work/Tern-inbox amendments and two Calder publication/source-cursor updates. Current main is fc35c6c41befa428d8a47342816a7c820913380e; the last verified discovery blob 80ec910ee411757d04628c15cca198415b02cff8 still embeds source 32fff8dfa658bd34c7d7a6aef8d05430a956d1f8. Current per-record counts have not been re-parsed against the newer main. P0 currentness is POSTWRITE_FRESHNESS_PENDING; record safety remains FAIL. See issue #1747 comment #7116152956. No source, graph, queue, scheduler, or ownership mutation was made.
