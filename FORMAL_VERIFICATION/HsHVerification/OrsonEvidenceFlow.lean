@@ -58,7 +58,8 @@ structure EvidenceFlow where
     availability, not comprehension or semantic uptake. -/
 def itemPresentAt (flow : EvidenceFlow) (stage : FlowStage)
     (item : EvidenceItem) : Prop :=
-  ∃ e ∈ flow.events, e.stage = stage ∧ e.itemId = item.itemId
+  0 < (flow.events.filter (fun e =>
+    decide (e.stage = stage ∧ e.itemId = item.itemId))).card
 
 def pairPresentAt (flow : EvidenceFlow) (stage : FlowStage)
     (pair : EvidencePair) : Prop :=
@@ -68,18 +69,18 @@ def pairPresentAt (flow : EvidenceFlow) (stage : FlowStage)
     proof that the item entered the recipient's later context. -/
 def sentTo (flow : EvidenceFlow) (item : EvidenceItem)
     (recipient : Nat) : Prop :=
-  ∃ e ∈ flow.events,
-    e.stage = .workerReports ∧
-    e.itemId = item.itemId ∧ e.recipient = some recipient
+  0 < (flow.events.filter (fun e =>
+    decide (e.stage = .workerReports ∧
+      e.itemId = item.itemId ∧ e.recipient = some recipient))).card
 
 /-- Same takes precedence whenever one contributor supplies both endpoints. -/
 def sameContributorPair (flow : EvidenceFlow) (stage : FlowStage)
     (pair : EvidencePair) : Prop :=
-  ∃ p ∈ flow.events.product flow.events,
-    p.1.stage = stage ∧ p.2.stage = stage ∧
-    p.1.itemId = pair.left.itemId ∧
-    p.2.itemId = pair.right.itemId ∧
-    p.1.contributor = p.2.contributor
+  0 < ((flow.events.product flow.events).filter (fun p =>
+    decide (p.1.stage = stage ∧ p.2.stage = stage ∧
+      p.1.itemId = pair.left.itemId ∧
+      p.2.itemId = pair.right.itemId ∧
+      p.1.contributor = p.2.contributor))).card
 
 /-- Split means both endpoints are present, but no one contributor supplies both. -/
 def splitContributorPair (flow : EvidenceFlow) (stage : FlowStage)
@@ -203,7 +204,7 @@ def sharedRootB : EvidenceItem := ⟨4, {999}⟩
 theorem distinct_items_can_share_declared_root :
     sharedRootA.itemId ≠ sharedRootB.itemId ∧
     declaredSourceRootsOverlap sharedRootA sharedRootB := by
-  decide
+  norm_num [declaredSourceRootsOverlap, sharedRootA, sharedRootB]
 
 /-- One evidence item may appear in multiple disclosure events without
     becoming multiple evidence items. -/
@@ -215,8 +216,9 @@ def repeatedDisclosureFlow : EvidenceFlow where
   }
 
 def hasRepeatedDisclosure (flow : EvidenceFlow) : Prop :=
-  ∃ p ∈ flow.events.product flow.events,
-    p.1.itemId = p.2.itemId ∧ p.1.eventId ≠ p.2.eventId
+  0 < ((flow.events.product flow.events).filter (fun p =>
+    decide (p.1.itemId = p.2.itemId ∧
+      p.1.eventId ≠ p.2.eventId))).card
 
 theorem one_item_can_have_multiple_disclosure_events :
     hasRepeatedDisclosure repeatedDisclosureFlow := by
@@ -304,7 +306,8 @@ theorem diagonal_arms_do_not_identify_delivery_effect :
     sameObservedArms flatSurface interactionSurface ∧
     ¬ deliveryEffectAt flatSurface .recipientSchema ∧
     deliveryEffectAt interactionSurface .recipientSchema := by
-  decide
+  simp [sameObservedArms, outcomeAt, individualArm, groupArm,
+    deliveryEffectAt, flatSurface, interactionSurface]
 
 #print axioms diagonal_arms_do_not_identify_delivery_effect
 
