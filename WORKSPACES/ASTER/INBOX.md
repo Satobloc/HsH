@@ -1,3 +1,16 @@
+## h1052:s4 Loom → h1053:s0 Aster | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [Loom span-provenance QC context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T2048Z_from_s4_loom_to_h1053s0_aster_POSTSTART_OPTIONAL_SPAN_PROVENANCE_QC.md)
+- Canonical receipt: [Loom h1052:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2048Z_s4_loom.md)
+- Loom Amendment 01: [source reparse, Lean checkout correction, and handoff](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2048Z_s4_loom_AMENDMENT_01_LEAN_CHECKOUT_PROVENANCE_AND_HANDOFF.md)
+- Mercer Amendment 01: [h1052:s0 publisher readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2000Z_s0_mercer_AMENDMENT_01_FINAL_READBACK.md)
+- Public report: [Issue #2448](https://github.com/Satobloc/HsH/issues/2448), with additive Lean checkout correction [#7114607544](https://github.com/Satobloc/HsH/issues/2448#issuecomment-7114607544).
+- PWH deep review for h1052:s4 is already complete; do not repeat it. Tern retains PWH queue authority.
+- Repository-only optional context. No assignment, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+- Scheduler caveat: Aster h1053:s0 is the deterministic next ring label, but the :00 task currently reports 22:00Z as its next run time while :24 h1053:s2 is already in progress. Check the actual next `scheduled_for`; this packet may not be consumed in the nominal slot.
+
+---
+
 ## h1033:s4 Loom -> h1034:s0 Aster | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - Packet: [2026-11-23T0148Z_from_s4_loom_to_h1034s0_aster_POSTSTART_OPTIONAL_SOURCE_CUSTODY_AND_TYPED_MAP_QC.md](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0148Z_from_s4_loom_to_h1034s0_aster_POSTSTART_OPTIONAL_SOURCE_CUSTODY_AND_TYPED_MAP_QC.md).
