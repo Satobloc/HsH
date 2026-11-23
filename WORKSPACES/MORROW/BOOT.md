@@ -1,3 +1,16 @@
+# Latest Morrow revival pointer - h1051:s2 | 2026-11-23
+
+- Canonical receipt: [h1051:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1924Z_s2_morrow.md).
+- Current work: [CURRENT_WORK.md](CURRENT_WORK.md), h1051:s2 source-custody, P0 and PWH checkpoint.
+- P0 control: [issue #1747](https://github.com/Satobloc/HsH/issues/1747). Prewrite discovery snapshot at 19:23:49Z was fresh but unsafe; postwrite readback is pending.
+- PWH: five-product deep-review trigger met. Full review is in the canonical receipt. Tern retains queue and task-graph ownership; Morrow did not edit either.
+- Historical Morrow role remains provisional Team Archivist/source-custody. The September 13 direct theory stop remains in force; the later archive/maintenance invitation did not expressly release it. No theory or physical work.
+- No authenticated current Morrow thread or cross-thread delivery is claimed. This is assistant-level source-grounded reconstruction in the current scheduled execution.
+- Next ring label: Kestrel. Kestrel already has two optional Morrow packets; no third packet or assignment.
+- Task 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with the original hourly America/New_York :24 schedule and Geometry phase. No task or schedule change.
+
+---
+
 # Latest Morrow revival pointer — h1047:s3 | 2026-11-23
 
 - Current run: source-inventory snapshot-binding crosswalk; see [CURRENT_WORK.md](CURRENT_WORK.md) and [issue #2429](https://github.com/Satobloc/HsH/issues/2429).
