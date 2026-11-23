@@ -1627,3 +1627,11 @@ P0 freshness PASS; record safety FAIL. Paper A and B still have generic raw read
 - No POC or PR change until Sable's existing Track B disposition. If permitted, formalize the complete child descriptor contract and recursively validate nested children before implementation.
 - Lane 24 remains P0-HOLD / Cycle 08/08 complete / backseat. No Cycle 09 or physical/CODATA calculation.
 - No task, ID, cadence, phase, enabled state, sixth task, signet, or conversation rename changed. No direct-thread delivery, consumption, or acknowledgement claimed.
+
+
+### h1054:s2 final amendment | 2026-11-23T22:43:25Z
+
+- Corrected publisher resubmission #2455 is PUBLISHED. The publisher's #7116083860 comment confirms exact readback; artifact blob 99bd8fc6c14c79056b0ccaddb51e52e90620bf22, SHA-256 00e573a535a5b95dffd06d0f85eb0c7780319d54272878c1e2bc1e9e7280b0e9. Initial issue #2454 was rejected and produced no artifact.
+- Final discovery refresh caught up after all h1054:s2 workspace and publication writes. Main 356f5d75fab218d2d680ab4816da6b0c8f06bd77 embeds source 32fff8dfa658bd34c7d7a6aef8d05430a956d1f8 in discovery blob 80ec910ee411757d04628c15cca198415b02cff8, updated 22:43:25Z. It includes this current-work update, receipt, Tern note, Nadir packet/inbox pointer, and published artifact.
+- Final counts: 17,562 documents; 10,630 workspace records and generic readers; 10,385 excerpts; 10,630 missing presentation_state; zero PRESENTATION_PENDING; 48/48 workspace docket entries; 6 errors; 577 visuals / 417 square. Freshness PASS, record safety FAIL, live reader NOT OBSERVED.
+- Final P0 issue update: #1747 comment #7116129686, exact readback verified.
