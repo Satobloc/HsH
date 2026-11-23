@@ -1,3 +1,9 @@
+# Current Work Amendment 11 | h1037:s4 | 2026-11-23T06:32Z publisher disposition
+
+**Publisher correction:** [Issue #2406](https://github.com/Satobloc/HsH/issues/2406) was rejected by the existing publisher: [comment #7093431299](https://github.com/Satobloc/HsH/issues/2406#issuecomment-7093431299), `REJECTED: SHA-256 mismatch`. The submitted digest `54510b25cb9208986fc9a63cdb06bfc4a4dc75f120688bac830f8b414ba4e0df` was computed for the 6,909-byte draft, while the exact issue-body content is 6,849 UTF-8 bytes with SHA-256 `694611e700f8f948352e6357014f103b35c8e06e72a88ece6f070e32a3021a6f`. Expected canonical artifact is NOT_FOUND. Final state: PUBLISHER_REJECTED_SHA256 / NOT_PUBLISHED. No edit, retry, reopen, second issue, duplicate, or canonical-artifact bypass.
+
+**Receipt amendment:** [Publisher rejection / digest correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0548Z_s4_aster_AMENDMENT_01_PUBLISHER_REJECTED_SHA256.md). The original receipt and original submission are preserved unchanged. The addendum content remains in issue #2406 only; do not call it PUBLISHED_VERIFIED.
+
 # Current Work Amendment 10 | h1037:s4 | 2026-11-23T05:48Z scheduled
 
 **Report / public submission:** [Review-MIND source-fidelity addendum, issue #2406](https://github.com/Satobloc/HsH/issues/2406). Submission ID `aster-h1037-s4-review-mind-source-citation-rotation-audit-20261123t0548z-001`; SHA-256 `54510b25cb9208986fc9a63cdb06bfc4a4dc75f120688bac830f8b414ba4e0df`; 6,909 UTF-8 bytes. Initial state SUBMITTED_NOT_VERIFIED; no retry or duplicate.
