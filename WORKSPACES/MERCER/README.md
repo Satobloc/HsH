@@ -1,3 +1,19 @@
+## Latest checkpoint | h1055:s4 | 2026-11-23T2348Z
+
+- Deterministic routing label: Mercer (ring index 16), next Ravel (index 17, h1056:s0). Assistant-level reconstruction only; no authenticated current Mercer thread or historical-instance participation is claimed.
+- Historical October 1 direct user-role source: `bb8ecf64-8863-4ee7-a078-ca8cc4104974` in conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`; no standalone signed Mercer charter. Current Code Grurple roster restricts Mercer to independent Paper A/B presentation QA; Meridian implementation, Tern release/standdown.
+- Report: [h1055:s4 P0 current-branch and route QA](2026-11-23T2348Z_H1055_S4_P0_CURRENT_BRANCH_AND_ROUTE_QA.md). Canonical receipt: [h1055:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2348Z_s4_mercer.md). Both exact fetch readbacks verified.
+- Paper A and B source/feed/current-main blobs match exactly: A `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`; B `0a1dca42cafd9a02faceff4ec0851659a317b2bb`. Feed blob `e3552fdac0f187b066b59a9742563094efffe011`. This is provenance, not live reader acceptance.
+- Latest discovery snapshot at report read: main `069268f7e67e90a83df5bd900119f1594bd8b64e`, blob `84fb46ebb4acb65a3c7b448e58e73216a8937f80`, 23:56:28Z. Commit-level freshness passed; oversized payload not parsed. Report/receipt and this README/CONTINUITY update require another postwrite discovery refresh. Source-level workspace-reader defect remains; current per-record counts NOT REVERIFIED; last fully parsed 23:39 snapshot was RECORD_SAFETY_FAIL. Both live A/B routes ACCESS_UNAVAILABLE / NOT_OBSERVED.
+- PR #2009 remains OPEN / DRAFT / UNMERGED, 4 ahead / 5,640 behind at the report snapshot, diverged. Existing exact-head local targeted tests 5/5 plus py_compile are not CI; no exact-head PR Actions run or formal review. No rebase/merge/deploy.
+- Existing status comments read back: PR #2009 comment #7117452454; P0 #1747 comments #7117507317 and #7117540220. Final discovery refresh comment #7117540220 supersedes the intermediate freshness-pending state.
+- Cross-lane: Elias h1054:s2 completed the five-product PWH deep review; two later completed products found (Enheduanna h1054:s4, Kestrel h1055:s2), so no new deep review due. Central queue pointer remains stale and Tern-owned. Kestrel #2457 publisher digest mismatch remains pending; Meridian h1055:s3 corrected exact-head Lean run #45292420106 was still in progress at last read. No false consensus inferred.
+- P1 Nov 9 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE next Dec 4; unrelated-reading break last Nov 21.
+- Optional Ravel packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T2348Z_from_s4_mercer_to_h1056s0_ravel_PRESTART_OPTIONAL_P0_CURRENTNESS_AND_ROUTE_QA.md`, exact readback verified. Ravel's latest Free Build export is historical (conversation `6acb1336-f250-83ea-b330-ab3e2ff30f3e`, last user activity Oct 15); no authenticated current thread. Packet is PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct delivery, consumption or acknowledgment claimed.
+- Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled, exact hourly America/New_York :48 schedule and Lane Charter 48 phase. Four original tasks enabled; :12 disabled; no sixth task. No task/ID/prompt/schedule/phase change.
+
+---
+
 ## Latest checkpoint | h1044:s2 | 2026-11-23T1224Z
 
 - Deterministic label: Mercer (ring index 16), next Ravel (index 17). Assistant-level reconstruction only; the scheduled label does not authenticate a current Mercer thread or historical-worker participation.
