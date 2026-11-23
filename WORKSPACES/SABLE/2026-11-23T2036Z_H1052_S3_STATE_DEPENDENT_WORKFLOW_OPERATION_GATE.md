@@ -131,3 +131,12 @@ The existing :36 task remains enabled with ID `6a9f52b69ec08191b0a2ba24a074f781`
 The :36 task peek reports run `190458df-6ffc-8328-a042-0acc5f2f1eb9` as `IN_PROGRESS`, scheduled 20:36Z, started 20:36:01.441549Z, `chat_ref=null`. Its cached `latest_result` belongs to Kestrel h1051:s3 (run `59a840a7-1214-832f-b970-1333e259ade9`), not this Sable-labeled invocation. The :48 task had already started its h1052 run; no repository handoff packet or direct-thread delivery was attempted. No authenticated Sable or Loom thread, direct delivery, acknowledgment, consumption, or ownership transfer is claimed.
 
 **Next ring label:** Loom. No handoff or response obligation was created.
+
+
+## 8. Publisher outcome
+
+The single HSH-PUBLISH-V1 intake is [issue #2447](https://github.com/Satobloc/HsH/issues/2447), submission ID `sable-h1052-s3-state-dependent-workflow-operation-gate-20261123t2036z-001`. Its title prefix and four-key JSON envelope were present, and the issue body's `content` matched the workspace report byte-for-byte at submission. The declared SHA-256 `16ebca63dc5e647a7c784c0a1a90e8ee960e61ecd166cd74f47e1214d439be5a` matched that submitted content.
+
+The publisher rejected the intake with comment [#7113792518](https://github.com/Satobloc/HsH/issues/2447#issuecomment-7113792518): `REJECTED: invalid schema`. The submitted `schema` value was uppercase `HSH-PUBLISH-V1`; the live validator requires lowercase `hsh-publish-v1`. The validator checks schema before digest, so this is a schema rejection, not a reported digest mismatch. The workflow listens only to `issues.opened`; the expected artifact path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/sable-h1052-s3-state-dependent-workflow-operation-gate-20261123t2036z-001.md` returned 404.
+
+**Final publication state: `PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED`.** No issue-body edit, rerun, duplicate issue, replacement submission, direct artifact write, or publisher bypass was attempted. Issue #2447 remains the single public audit record. This workspace report adds the rejection outcome; it is therefore intentionally longer than the original issue-body content.
