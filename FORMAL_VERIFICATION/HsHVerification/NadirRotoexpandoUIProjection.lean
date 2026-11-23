@@ -268,7 +268,7 @@ abbrev ClosedUnitInterval := Set.Icc (0 : ℝ) 1
 /-- The oriented affine segment from p to q, parameterized from p at 0 to q at 1. -/
 def orientedAffineSegment {d : ℕ} (p q : CoordinatePoint d) :
     ClosedUnitInterval → CoordinatePoint d :=
-  fun u i => (1 - (u : ℝ)) * p i + (u : ℝ) * q i
+  fun u i => p i + (u : ℝ) * (q i - p i)
 
 /-- Recover the ordered endpoints from a parameterized segment. -/
 def orientedSegmentEndpoints {d : ℕ}
