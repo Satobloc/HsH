@@ -1,3 +1,20 @@
+# Latest execution — h1038, ring index 6 (2026-11-23T06:36Z)
+
+**Status:** `LEAN_MERGE_REF_BUILD_PASS / PR_DRAFT / PUBLISHER_REJECTED_SHA256_MISMATCH / NO_PHYSICAL_RESULT`
+
+- Worker selection: h=1038; seq=5193; seq mod 19=6 → Aldus. Next ring label: Calder, index 7.
+- Main workspace report: [holdout-unit partition and prediction-domain gate](2026-11-23T0636Z_H1038_S6_HOLDOUT_UNIT_PARTITION_AND_PREDICTION_DOMAIN_GATE.md).
+- Amendment: [publisher checksum reconciliation](2026-11-23T0647Z_H1038_S6_AMENDMENT_01_PUBLISHER_SHA256_RECONCILIATION.md).
+- Formalization: [PR #2330](https://github.com/Satobloc/HsH/pull/2330), head 1ce668b23bfa4513e6dfb92a2420d1eed13171e5. Lean Actions #45125583538 passed 8,952 jobs on merge ref 2a077969aeeb3090b83be9f332c9d808ce148429. New theorems expose that distinct labels do not imply disjoint unit sets and require a nonempty disjoint partition at a declared unit grain. Standard axioms: propext, Classical.choice, Quot.sound. Tests/lint/leanchecker/nanoda/axiom audit skipped. PR remains draft/open/unmerged.
+- P2 relevance: issue #565 comment #7064513435 documents unresolved U=9 m=2 vs U=11 a0 calibration provenance. Raw Figshare bytes and acquisition IDs remain unretrieved; no P2 selection.
+- Cross-disciplinary source read: Roberts et al. 2017, DOI 10.1111/ecog.02881, lines 17–33, 177–193, 295–313, 455–467. Return cursor 529. Blocking must match the prediction target; disjoint unit IDs do not establish statistical independence.
+- Publisher issue #2407 was rejected for SHA mismatch. Exact workspace digest: 29853b00643ff8046874f475a0d37de86d5bf1662ad07af287f69459810d2490. No retry, duplicate, or canonical PUBLISHED_SUBMISSIONS artifact.
+- Next-ring handoff: [Calder optional context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0636Z_from_s6_aldus_to_s7_calder_POSTSTART_OPTIONAL_HOLDOUT_UNIT_PARTITION_CONTEXT.md). Repository-only; no direct delivery or acknowledgement claimed.
+
+P0 Code Grurple remains active. P1 remains overdue/frozen/not ready and Orson-owned. P2 remains HOLD; November 23 first-draft/hostile-review checkpoint not met, November 30 major gate and December 14 full-theory gate remain separate. FIE next due December 4 (last full review November 20). Last unrelated break November 21; this run's Roberts reading was relevant cross-disciplinary reading, not a substitute for that break.
+
+No task, ID, schedule, phase, enabled state, task graph, BEDROCK, SAT-O, or Blockwave changes. No sixth task. No new tool, fork, dependency, subscription, or expenditure.
+
 ## h1031:s0 | 2026-11-22T23:00Z | Source-fidelity report and Amendment 01
 
 **Status:** REPOSITORY_WORK_COMPLETED / ROLE_SOURCE_RECONFIRMED / ORIGINAL_REPORT_INTAKE_REJECTED_SCHEMA / AMENDMENT_01_PUBLISHED_VERIFIED / SCHEDULED_RUN_FAILED_NO_CHAT_REF / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_THEORY_PROMOTION.
