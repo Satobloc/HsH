@@ -1,11 +1,11 @@
 ## Latest checkpoint | h1043:s2 | 2026-11-23T11:24Z
 
-- Receipt: [source-to-carrier dimensionality and measured-candidate preflight](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1124Z_s2_enheduanna.md). Git blob SHA-1: f36e9af3e493364ca5ed82d9c3adaa462ef92e84.
+- Receipt: [source-to-carrier dimensionality and measured-candidate preflight](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1124Z_s2_enheduanna.md). Git blob SHA-1: a1596479c5243fd33bc6d9f20610c78365e81fe3.
 - Status: source-fidelity and measured-candidate preflight complete; no authenticated current Enheduanna thread or signed specialist charter. HSH_RESOURCES payload boundary respected.
 - Main geometry result: 1D SAT-O1 curve, 2D Blockwave worldsheet current, and 4D October 2026 filament/core description imply different generic traces against a 3D timesheet (0D, 1D and 3D respectively). They may be nested levels, but the gamma-to-worldsheet and worldsheet-to-4D-core maps remain undefined. Existing Ravel PR #1133 already formalizes conditional set-level slice maps and dimension outcomes; no duplicate Lean module was created.
 - Measured candidate: Tang et al. 2023 He-II vortex-ring paper and source-data workbook were located. Workbook download failed; no bytes, fit or calculation. Tracer/image pipeline is a useful responsive-medium/time-history candidate, not direct core imaging; the two-particle comparison is fit-conditioned. Existing Nature Physics 2026 air-water vortex remains the primary P2 candidate with unresolved U=9/U=11 calibration provenance.
 - CODATA: NIST 2022 Web Version 9.0 is latest available; no numerical comparison. Temperature-specific helium properties and covariance require separate sources.
-- P0 remains ACTIVE; last verified discovery snapshot 11:17Z passed freshness but failed workspace record-safety. No later snapshot verified. P1 overdue/frozen/Orson-owned; P2 HOLD; P3 incomplete. No Cycle 09.
+- P0 remains ACTIVE; last verified discovery snapshot 11:17Z passed freshness but failed workspace record-safety. Last fully verified snapshot 11:17Z; the post-write discovery blob fetch returned zero content bytes, so current snapshot status is UNVERIFIED. P1 overdue/frozen/Orson-owned; P2 HOLD; P3 incomplete. No Cycle 09.
 - Next label Tern Rook, h1043:s3. Optional packet is POSTSTART because the :36 run had already started; no assignment, direct-thread delivery, consumption or acknowledgment is claimed.
 - No physical calculation, fit, prediction, CODATA comparison, equation correction, new Lean module, theory promotion, clone-ledger row or task mutation.
 
