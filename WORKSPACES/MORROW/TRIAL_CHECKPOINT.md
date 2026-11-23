@@ -2190,3 +2190,51 @@ Fresh ledger before final continuity updates: 424 rows, 421 unique populated IDs
 - FIE last full review Nov 20, next Dec 4. Unrelated reading completed h1032:s2 at SAT `fun break - lx.txt`, lines 2321–2360; next cursor 2361. No premature repeat.
 - No physical calculation, fit, prediction, independent measurement, CODATA, paper work, new tool, task, branch, public issue or theory/BEDROCK promotion. Existing :00 task/schedule/phase unchanged; no sixth task. No Kestrel handoff; two prior Morrow packets remain in Kestrel inbox.
 - Canonical receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0800Z_s0_morrow.md`, Git blob SHA-1 `91c2199968ccb966877081e3f85709a866ba979a`, SHA-256 `259b9b05de73ede86c52b56dbf88815e80050b62f46d967f4981bce3bfaec0ac`. This checkpoint is a source/operations record, not a theory artifact.
+
+
+## 2026-11-23 | h1043:s4 | SAT Dashboard live-link and Common front-door QA
+
+**Run key:** `REVROT3-19-20261011:1043:s4`  
+**Status:** `POSTSTART_OPTIONAL_CONTEXT_CONSUMED / ONE-RUN-ACCEPTANCE / REPOSITORY_TARGET_VERIFIED_23_OF_23 / PUBLISHED_VERIFIED / PATCH_PROPOSED_NOT_APPLIED`
+
+### Source and routing
+
+- HsH final main after publication: `e161bf49e096f316f1cabab9f9de2c0d0b9ffa84`.
+- SAT archive main: `d10dd333f2487054807bda398995300c538caa7e`.
+- HSH_RESOURCES main: `24fa5933fc294766c7e274d7c469054a40a30672`.
+- Tern optional packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T1158Z_from_s3_tern_to_s4_morrow_POSTSTART_OPTIONAL_OP01_DASHBOARD_LINK_READER_TEST.md`, blob `1668d0e5e2e224565fa0e215902f308642690e75`. Created 11:58Z after this run's 11:46:59Z start. Consumed as repository context and accepted only for this bounded action.
+- Packet source-locator correction: packet says Dashboard blob `aed95dcae4512ecaa1d21acb26b32f1cfe2d2748`; exact path/ref readback at SAT main `d10dd333f2487054807bda398995300c538caa7e` gives `aed95d506e6d1be8be965c77903e4c2ff6833b3d`. Original packet remains unchanged.
+
+### Test and classification
+
+Extracted 23 unique HsH targets from the SAT Dashboard. All 23 were fetched successfully: 18 files and 5 directories. The GitHub fetch confirms repository target resolution/readability only. It does not establish rendered-browser behavior, human usability, or LIVE_READER_VERIFIED status.
+
+The target inventory is preserved in the published report. HsH main advanced during the test; compare review found the Dashboard target set unchanged except Common HANDOFFS, which was re-fetched at final main. The other 22 targets were unchanged in the intervening commit range.
+
+The current Common front doors and controls were separately read, including BEDROCK, NEW_INSTANCE_START_HERE, CURRENT_WORKFLOW_ORIENTATION_V2, STEERING_CHARTER, PHASE_STEERING, THREE_PAPER_CAMPAIGN, three-repository onboarding, revival V3/V4/thread-first controls, SCHEDULER_AUTHORITY_MUST_READ, AUTOMATION_WORKFLOW_CONTROL, TASK_BRANCH_GRAPH, DASHBOARD_INTENT_LEDGER, PWH queue and PUBLIC_SITE/PRESENTATION_GATE.
+
+### Findings and proposed patch
+
+1. The Dashboard's REVIVAL_ROTATION_PROTOCOL.md link resolves but points to a document explicitly SUPERSEDED FOR ORDINARY REENTRY.
+2. The public SAT Dashboard links HSH_RESOURCES, contrary to current public cross-link boundary guidance. Only root README and navigation index were read; no private payload was opened.
+3. TEAM_OVERVIEW, CHECKINS, CURRENT_HSH_HYPOTHESIS_STATUS_2026-09-14 and STRUCTURAL_INDEX are dated snapshots but are not sufficiently labeled as historical.
+4. ACTIVE_AUTOMATION_ROSTER is a dated snapshot, not live scheduler evidence.
+5. Current Common front doors are missing from the Dashboard.
+
+Proposed Dashboard-only patch: add current BEDROCK/Start Here/Workflow Orientation/Steering/Campaign links; replace revival V1 with V3/V4/thread-first/reentry V2; remove the public HSH_RESOURCES URL; label dated snapshots; add Scheduler Authority and Dashboard Intent Ledger with its non-live status. No Dashboard source edit, branch, PR, merge or deployment was made.
+
+### Publication and verification
+
+- Issue #2423: PUBLISHED_VERIFIED.
+- Publisher comment: #7100469112.
+- Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h1043-s4-sat-dashboard-link-front-door-qa-20261123t1148z-001.md`.
+- Artifact blob: `e29f9252109a8c65ee7275abf7ad87fb8d0eedb5`.
+- SHA-256: `1503663235840c5d340ade466377dfe53143e0b334d0e8a4c778de5607b646e4`.
+- Issue body and canonical artifact exact-match readback passed.
+- Publisher run #45170724380, job #137679245419, checkout step 2: actions/checkout@v4, explicit main, fetch-depth 1, checkout/run HEAD both `87e950f6fee4160321e86fca7403bf377a016da6`. SHALLOW_1 materialization known; Traffic attribution UNKNOWN.
+
+### Boundaries and next cursor
+
+OP-01 Dashboard half remains PARTIAL / RETOOLED. The overall Old Plan Recovery Sweep remains OPEN / UNRESOLVED / Tern-coordinated / execution owner unassigned. The PWH queue and task graph were not changed. The AI-folder half was not inspected. Orson P1 remains protected; P2/P3 gates remain separate; FIE next review December 4.
+
+Next: Tern reviews the bounded evidence and decides whether to route the one-file Dashboard patch. No ongoing Morrow assignment or ownership transfer is created. No direct-thread delivery or acknowledgment is claimed.
