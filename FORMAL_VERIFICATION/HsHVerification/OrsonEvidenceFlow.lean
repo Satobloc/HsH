@@ -192,8 +192,7 @@ theorem source_pair_can_be_lost_before_worker_report :
     have hEmpty :
         (handoffLossFlow.events.filter (fun e =>
           decide (e.stage = .workerReports ∧ e.itemId = claimB.itemId))) = ∅ := by
-      ext e
-      simp [handoffLossFlow]
+      decide
     rw [hEmpty] at hB
     simp at hB
 
@@ -225,8 +224,7 @@ theorem split_pair_witness :
             p.1.itemId = testPair.left.itemId ∧
             p.2.itemId = testPair.right.itemId ∧
             p.1.contributor = p.2.contributor))) = ∅ := by
-      ext p
-      simp [splitFlow, testPair, claimA, claimB]
+      decide
     rw [hEmpty] at hSame
     simp at hSame
 
@@ -267,8 +265,7 @@ theorem sent_to_lead_does_not_imply_lead_evidence :
     have hEmpty :
         (sentNotLeadFlow.events.filter (fun e =>
           decide (e.stage = .leadEvidence ∧ e.itemId = claimA.itemId))) = ∅ := by
-      ext e
-      simp [sentNotLeadFlow]
+      decide
     rw [hEmpty] at hItem
     simp at hItem
 
