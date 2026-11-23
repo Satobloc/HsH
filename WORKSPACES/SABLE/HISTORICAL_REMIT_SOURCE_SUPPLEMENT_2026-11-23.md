@@ -10,15 +10,15 @@ The canonical Library export identified by the existing Sable README was indepen
 - Filename: `SABLE Revival Rotation — raw.json`
 - Conversation ID: `6aa6701e-b800-83ea-a19a-31a802b7124d`
 - Size: 9,190,271 bytes
-- SHA-256: `dfe0ac536c2d1c20e2ccf03b733c39d8dff31f7f55d27c7c37b50cdb8e6b0b16`
-- Git blob SHA-1: `57f65c43d0f75e8b23e6b0a9d6a2b1c8b4f4c0a2`
+- SHA-256: `dfe0ac536c98e903db3760646a3358cc4f9e5fb9b5e55b48ec975c36401f5302`
+- Git blob SHA-1: `57f65c43ece0abb05f38dfb577267312c80f788f`
 - Mapping nodes: 2,015
 - Direct user-role messages: 59
 
 A second Library item, `SABLE Revival Rotation — raw (1).json`, has the same byte count, conversation ID, mapping-node count, and 59 user-role message IDs/content, but its full-file identity differs:
 
-- SHA-256: `5f6718b7a4d8f0a6c4f0a8a1e9f8c3d2b7a6e5f4d3c2b1a09876543210fedcba`
-- Git blob SHA-1: `c7f51b2e8a4d9c6f0b1e2d3a4c5f60718293a4b5`
+- SHA-256: `5f6718d97f1ff730c0ea97f26a478c59a092ecabdf60a6a151ab7377754faf67`
+- Git blob SHA-1: `c7f51b643c32f1daf83dfd30db8ca063d4888abc`
 
 The two exports are therefore **not byte-identical**. The 59 direct user-role messages were compared by message ID, timestamp, and content and match exactly. The original `raw.json` remains the canonical whole-file identity already recorded in the README; the `(1)` copy is a distinct export snapshot, not a replacement or an interchangeable byte-level source.
 
