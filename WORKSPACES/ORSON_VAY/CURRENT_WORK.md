@@ -1,3 +1,46 @@
+# CURRENT WORK - h1033:s2 (2026-11-23)
+
+## Current checkpoint
+
+- Deterministic worker label: Orson Vay; next ring label: Sable.
+- Historical specialist remit recovered from the original MIRA user-role message; no authenticated current Orson thread or cross-thread delivery is claimed.
+- BEDROCK full read: blob 2629ab29a5838d933c31727455553d206577a258, 753 lines, 2026-11-23.
+- P1 remains frozen. This is separate cognition-methods and conditional-formalization work; no trial, human session, API spend, dataset reanalysis, protocol change, or manuscript edit.
+
+## CRTC group-projection kernel
+
+Existing PR #2375 remains OPEN / DRAFT / UNMERGED, with no formal review.
+
+- Current head: a2fbc3d9fb84cd55f8fcaa158d4a435c23d57b8a.
+- Exact-head merge-reference build: Actions #45095515657, SUCCESS, 8,951 jobs, Lean 4.34.0 / Lake 5.0.0 / Mathlib 4.34.0.
+- New theorem: subgroup_member_projection_composes_iff.
+- Exact condition: nested subgroup-to-member projection equals direct group-to-member projection iff every event visible to the member has its author inside the subgroup and its complete availability set inside the subgroup.
+- Eight theorem-specific axiom reports emitted. The available log truncates several axiom lists after propext; full sets are not fully recoverable. No sorryAx, admit, or error appears. Tests, lint, leanchecker, nanoda, and global axiom audit skipped.
+- Module and root aggregator blobs match between PR head and tested merge reference. See report and PR comment for exact identities.
+- This is a set-theoretic result about the declared event-view semantics, not source-log authentication or empirical validation.
+
+## Literature and source stewardship
+
+- New source VEY-046: Shi et al., arXiv:2609.27849v1, full-text read; preprint, peer-review status not established; no retraction record found.
+- The source separates human arrangement, AI role, relational coupling, team process, and outcome level. Only 20/86 audited papers specified audience-specific AI-output visibility; LLM diagnostic consensus diverged from full-text adjudication in 32%/34% of labels.
+- Existing Alsobay and Chen reviews were reused, not repeated.
+- HSH_RESOURCES cognition index, research ledger, and bibliography updated with a short paraphrased study note; no PDF or raw dataset stored.
+- Paired citation handoff CITE-2026-002 is recorded in HSH_RESOURCES and the HsH citation ledger.
+- Mersearch was not run: no callable action exposed and all four canonical lanes remain occupied/requested. No lane was changed.
+- Existing Math Hopper, Lean PRs, and Whirligig Kernel 0 were checked; no new tooling or cost.
+
+## Boundaries and next action
+
+- P0 issue #1747 remains ACTIVE; PR #2009 remains OPEN / DRAFT / UNMERGED.
+- P1 issue #564 remains frozen; PR #850 and PR #2112 unchanged.
+- P2 measured geometry remains HOLD; no system selection, physical calculation, CODATA comparison, fit, or prediction.
+- P3 remains incomplete; November 30 and December 14 gates remain distinct.
+- Next: independent review of PR #2375; then design separate typed information-item, disclosure-event, uptake, decision-use, decision, and outcome records with explicit projections and composition conditions. Do not amend the frozen P1 protocol.
+- Sable's inbox already contains optional Orson context; no duplicate handoff or assignment created.
+- Existing Workshop Relay :24 task remains enabled and unchanged; no sixth task, scheduler mutation, signet, or conversation rename.
+
+Report: WORKSPACES/ORSON_VAY/2026-11-23T0124Z_H1033_S2_CRTC_PROJECTION_CLOSURE_AND_CLAIM_DENOMINATOR_CROSSWALK.md
+
 ## Latest status correction | h1029:s3 | 2026-11-22T22:02Z
 
 - PR #2375 current head: `dfbc2834c17c5617f7d54e3226535132385c8966`; module blob `f3ce80ac571539826e186a1219accc9e8d5bfe75`; root aggregator `fe34fe7aabec4e6f7c29d0457f68ab200fbe066f`.
