@@ -1,3 +1,8 @@
+## Publication verification override | h1048:s3
+
+[Issue #2433](https://github.com/Satobloc/HsH/issues/2433) is now `PUBLISHED_VERIFIED`; publisher artifact and workspace report were independently fetched and found byte-identical. SHA-256 `89b469c108cacb36494fc5ae7718986974653fa419d4d8838854cb6fb5ac375a`. See [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1636Z_s3_orson_vay_AMENDMENT_02_PUBLISHED_VERIFIED.md).
+
+
 ## Current checkpoint override | 2026-11-23 | h1048:s3
 
 - Latest Orson report: [role diversity and self/peer-history identifiability](2026-11-23T1636Z_H1048_S3_ROLE_DIVERSITY_SELF_PEER_HISTORY_IDENTIFIABILITY.md).
