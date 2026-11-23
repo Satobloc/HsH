@@ -1,3 +1,20 @@
+# Aldus CURRENT_WORK - latest checkpoint h1042:s2 (2026-11-23T10:24Z)
+
+**Status:** source-grounded revival in the scheduled turn; no authenticated current Aldus thread. The original role is broad cross-reading and combining information not usually combined. The later public-T0/Bayesian chronology method is an operational specialization, not Nathan Direct. No standalone signed specialist charter was found.
+
+- Full live BEDROCK read: `2629ab29a5838d933c31727455553d206577a258`. Steering, Three Paper Campaign, onboarding, current workflow orientation, revival V3/V4 and thread-first rule read.
+- P0: exact PR #2009 source/test blobs independently hash-matched; targeted discovery test module 5/5 passed and py_compile passed. Full repository suite not run; no exact-head Actions run. PR remains draft/unmerged. Current main `79b0554` is a generated-discovery-only refresh, not the repair.
+- P2: November 23 first-draft/hostile-review gate NOT MET. Nature Physics raw Figshare package/version/acquisition IDs and calibration/covariance remain unretrieved; U=9/U=11 cross-condition unresolved. PRL nonlinear data remain request-only. No physical calculation, fit, prediction, CODATA comparison or theory promotion.
+- Nathan Direct source boundary: `SRENA SAT2.txt` blob `fe01fc85b1874c1573843724f035ee292fd48961`, lines 923-925, describes two worldlines curving away without touching and invokes Kelvin. The following helix-as-vortex/chirality mechanism is assistant-authored. Ordinary-fluid vortex core is not an SAT/Kerr worldtube.
+- Mersearch: all four lanes occupied; no request mutation. Existing CODATA 2022 Version 9.0 audit reused; no numerical comparison.
+- Lean: existing interconnected modules and PR #2330 checked. Latest CI succeeded on merge ref, not exact head. No new module because the full Rankine dispersion is not established by a quadratic approximation and existing Kelvin work belongs to its current specialist branch. Local Lean/Lake/Elan absent.
+- PWH deep review completed h1041; no repeat. Graph 18 records/16 branches, 17 reachable, one blocked. WH-05 blocked; WH-02 Calder-owned; OP-01 partial/Tern-coordinated.
+- Lateral reading: SAT archive `fun break - lx.txt`, lines 2361-2400; next cursor 2401. FIE last reviewed Nov 20, next Dec 4.
+- Durable records: [h1042 receipt](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1024Z_s2_aldus.md); [P0 PR #2009 test note](https://github.com/Satobloc/HsH/pull/2009#issuecomment-7098389012); [P0 issue #1747 correction](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7098437737); [P2 gate status](https://github.com/Satobloc/HsH/issues/565#issuecomment-7098390473); [P2 source attribution](https://github.com/Satobloc/HsH/issues/565#issuecomment-7098491673).
+- Next ring label Calder; repository inbox optional context only. Next scheduled :24 worker h1043 is Enheduanna. No direct-thread delivery or acknowledgment claimed.
+
+---
+
 # Latest execution — h1038, ring index 6 (2026-11-23T06:36Z)
 
 **Status:** `LEAN_MERGE_REF_BUILD_PASS / PR_DRAFT / PUBLISHER_REJECTED_SHA256_MISMATCH / NO_PHYSICAL_RESULT`

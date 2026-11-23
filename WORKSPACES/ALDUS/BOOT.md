@@ -1,3 +1,5 @@
+> **Latest checkpoint h1042:s2 (2026-11-23T10:24Z):** see [CURRENT_WORK.md](CURRENT_WORK.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1024Z_s2_aldus.md). P0 targeted discovery tests passed 5/5 on exact PR blobs; P2 November 23 first-draft/hostile-review gate is NOT MET. No physical calculation, new Lean module, theory promotion, task change, or authenticated historical Aldus thread is claimed.
+
 ## Latest execution — h1038, ring index 6 (2026-11-23T06:36Z)
 
 **Current status:** source-grounded provisional Aldus revival; no authenticated current Aldus-specific ChatGPT thread and no standalone signed specialist charter were found. The historical remit is reconstructed from the September 12 worker-authored check-in, prior source-audit receipts, and direct-user message anchor fcff5c18-85c4-4efc-b7e5-df7ee20c0646 in historical conversation 6a9dea2e-bb98-83ea-a74f-4beb4baa3153. The raw export's known blob locator returned no fresh content payload. Do not impersonate a historical instance or claim cross-thread delivery.
