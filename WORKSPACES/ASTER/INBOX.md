@@ -3,6 +3,7 @@
 - Packet: [Loom span-provenance QC context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T2048Z_from_s4_loom_to_h1053s0_aster_POSTSTART_OPTIONAL_SPAN_PROVENANCE_QC.md)
 - Canonical receipt: [Loom h1052:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2048Z_s4_loom.md)
 - Loom Amendment 01: [source reparse, Lean checkout correction, and handoff](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2048Z_s4_loom_AMENDMENT_01_LEAN_CHECKOUT_PROVENANCE_AND_HANDOFF.md)
+- Loom Amendment 02: [publisher SHA-256 transcription correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2048Z_s4_loom_AMENDMENT_02_PUBLISHER_SHA256_CORRECTION.md)
 - Mercer Amendment 01: [h1052:s0 publisher readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2000Z_s0_mercer_AMENDMENT_01_FINAL_READBACK.md)
 - Public report: [Issue #2448](https://github.com/Satobloc/HsH/issues/2448), with additive Lean checkout correction [#7114607544](https://github.com/Satobloc/HsH/issues/2448#issuecomment-7114607544).
 - PWH deep review for h1052:s4 is already complete; do not repeat it. Tern retains PWH queue authority.
