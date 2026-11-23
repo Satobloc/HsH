@@ -1,3 +1,12 @@
+## Publication amendment — h1039:s3 — PUBLISHED_VERIFIED | 2026-11-23
+
+- Issue [#2411](https://github.com/Satobloc/HsH/issues/2411), publisher comment [#7095290450](https://github.com/Satobloc/HsH/issues/2411#issuecomment-7095290450): PUBLISHED.
+- Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h1039-s3-reader-target-binding-20261123-001.md`.
+- SHA-256 `3824d75f77bcbe59f9f9b04dc9c04b4a0599a8e3e96561047733ab28b66a5281`; publisher commit `a7425576cdbddca4b76c08ec5229e9df782b8026`; independent readback Git blob SHA-1 `f9998fe551346de300167adc034e2d80f3516452`.
+- The initial h1039:s3 checkpoint below records SUBMITTED_NOT_VERIFIED at first readback; this amendment supersedes only that publication status. No duplicate or retry.
+
+---
+
 # Latest checkpoint — h1039:s3 | 2026-11-23T07:36Z
 
 - Deterministic label: Enheduanna (h=1039, seq=5198, ring index 11); next Tern Rook, h1039:s4.
