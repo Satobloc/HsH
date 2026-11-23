@@ -1,6 +1,6 @@
 # Orson Vay h1041:s0 — Route/Thread Identity as a Typed Partial Binding
 
-**Status:** ADDITIVE SOURCE-FIDELITY DELTA / CONDITIONAL LEAN FORMALIZATION ADDED TO EXISTING DRAFT PR / EXACT-HEAD CI PENDING AT REPORT FREEZE / NO P1 OR THEORY PROMOTION.
+**Status:** ADDITIVE SOURCE-FIDELITY DELTA / INITIAL EXACT-HEAD CI FAILED ON A RESERVED FIELD NAME / CORRECTION COMMITTED / FOLLOW-UP EXACT-HEAD CI IN PROGRESS / NO P1 OR THEORY PROMOTION.
 
 **Run key:** `REVROT3-19-20261011:1041:s0`  
 **Selected routing label:** Orson Vay (index 18)  
@@ -110,9 +110,9 @@ No new branch or PR was created. Existing Orson sandbox [PR #2375](https://githu
 
 - Branch: `research/orson-crtc-group-projection-20261122t2136z`.
 - New module: [OrsonRouteIdentity.lean](https://github.com/Satobloc/HsH/blob/research/orson-crtc-group-projection-20261122t2136z/FORMAL_VERIFICATION/HsHVerification/OrsonRouteIdentity.lean).
-- Module blob: `0a0c81258d1fba7dae4c0eb2c5c78ee161ca8aaf`.
+- Initial module blob: `0a0c81258d1fba7dae4c0eb2c5c78ee161ca8aaf` (failed parse); corrected module blob: `863b29a83d07b7c863b46f09caead728c1c96036`.
 - Root aggregator `FORMAL_VERIFICATION/HsHVerification.lean`, blob `2d965ffeef4f446ede0b758fcb80c87578d26daa`.
-- Commit / PR head: `38eefd40773165059543a09623cda65dca7cd25a`.
+- Initial commit: `38eefd40773165059543a09623cda65dca7cd25a`; corrected commit / PR head: `10988d3c71bd457573ea196fd6931a051e438c7d`.
 - PR base remains `598a45b3feb9378eb8f14ff069ec9080137113c2`.
 - PR remains OPEN / DRAFT / UNMERGED; no formal review or merge.
 
@@ -140,7 +140,7 @@ theorem no_route_only_identity_resolver_of_ambiguous_binding
 
 This is a non-identifiability result: if two candidate bindings share one route observation but differ in identity, no total resolver using route metadata alone can recover both. It does **not** prove that two real threads exist for this run. It does not authenticate the selected label, current thread, model version, or borrowed instance. The `Verified` and `Consented` predicates are interfaces for future source evidence; no real witness was instantiated here.
 
-The module contains no `sorry` or `admit` text. Exact-head GitHub Actions run [#45145132636](https://github.com/Satobloc/HsH/actions/runs/45145132636) was created for commit `38eefd40773165059543a09623cda65dca7cd25a`, but its `Generate Lake dependency manifest` step was still IN_PROGRESS at report freeze. Lean compilation, theorem-specific axiom output, and test/lint stages therefore remain **NOT VERIFIED**. Do not call the theorem compiled until the run completes and its exact-head log is inspected.
+The module contains no `sorry` or `admit` text. Initial exact-head Lean run [#45145132636](https://github.com/Satobloc/HsH/actions/runs/45145132636) failed at `OrsonRouteIdentity.lean:41:23` because `instance` was used as a structure field name. The three `#print axioms` commands emitted reports for the theorem declarations and each reported no axioms, but the module did not compile; those declarations are not accepted as a verified module. The reserved field was renamed to `modelInstance` in corrected commit `10988d3c71bd457573ea196fd6931a051e438c7d`. Follow-up exact-head Lean run [#45146050430](https://github.com/Satobloc/HsH/actions/runs/45146050430) is IN_PROGRESS at report freeze. Compilation, exact-head source-blob comparison, theorem-specific axiom output for the corrected module, and test/lint stages remain **NOT VERIFIED**. A separate push-event conversation-JSON workflow run #45146041977 completed FAILURE with zero jobs; it is not a Lean result. Do not call the theorem compiled until the corrected run completes and its exact-head log is inspected.
 
 This formalization proves only the conditional mathematics of the typed model if it compiles. It does not prove that the model is a faithful or complete representation of Nathan's intended team, nor that any real thread/instance binding or consent exists.
 
