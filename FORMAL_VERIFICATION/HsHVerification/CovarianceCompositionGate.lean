@@ -27,8 +27,8 @@ open Matrix
 def covariancePushforward {α β : Type*}
     [Fintype α] [DecidableEq α]
     [Fintype β] [DecidableEq β]
-    (A : Matrix β α ℝ) (Σ : Matrix α α ℝ) : Matrix β β ℝ :=
-  A * Σ * A.transpose
+    (A : Matrix β α ℝ) (C : Matrix α α ℝ) : Matrix β β ℝ :=
+  A * C * A.transpose
 
 /--
 Covariance transport is compositional: pushing through A and then B is
@@ -41,9 +41,9 @@ theorem covariancePushforward_comp
     [Fintype β] [DecidableEq β]
     [Fintype γ] [DecidableEq γ]
     (A : Matrix β α ℝ) (B : Matrix γ β ℝ)
-    (Σ : Matrix α α ℝ) :
-    covariancePushforward (B * A) Σ =
-      covariancePushforward B (covariancePushforward A Σ) := by
+    (C : Matrix α α ℝ) :
+    covariancePushforward (B * A) C =
+      covariancePushforward B (covariancePushforward A C) := by
   simp [covariancePushforward, Matrix.mul_assoc, Matrix.transpose_mul]
 
 /-- A symmetric input covariance remains symmetric after pushforward. -/
@@ -51,12 +51,12 @@ theorem covariancePushforward_symmetric
     {α β : Type*}
     [Fintype α] [DecidableEq α]
     [Fintype β] [DecidableEq β]
-    (A : Matrix β α ℝ) (Σ : Matrix α α ℝ)
-    (hΣ : Σ.transpose = Σ) :
-    (covariancePushforward A Σ).transpose =
-      covariancePushforward A Σ := by
+    (A : Matrix β α ℝ) (C : Matrix α α ℝ)
+    (hC : C.transpose = C) :
+    (covariancePushforward A C).transpose =
+      covariancePushforward A C := by
   simp [covariancePushforward, Matrix.transpose_mul,
-    Matrix.mul_assoc, hΣ]
+    Matrix.mul_assoc, hC]
 
 /-- A symbolic symmetric two-input covariance matrix. -/
 def covariance2 (v₀ v₁ c : ℝ) : Matrix (Fin 2) (Fin 2) ℝ :=
@@ -66,22 +66,22 @@ def covariance2 (v₀ v₁ c : ℝ) : Matrix (Fin 2) (Fin 2) ℝ :=
 def sumReadout : Matrix (Fin 1) (Fin 2) ℝ := !![1, 1]
 
 /-- The two marginal variances, with cross-covariance deliberately omitted. -/
-def diagonalEntries (Σ : Matrix (Fin 2) (Fin 2) ℝ) : Fin 2 → ℝ :=
-  fun i => Σ i i
+def diagonalEntries (C : Matrix (Fin 2) (Fin 2) ℝ) : Fin 2 → ℝ :=
+  fun i => C i i
 
-/-- The explicit quadratic form vᵀ Σ v for a two-input real matrix. -/
-def quadraticForm2 (Σ : Matrix (Fin 2) (Fin 2) ℝ)
+/-- The explicit quadratic form vᵀ C v for a two-input real matrix. -/
+def quadraticForm2 (C : Matrix (Fin 2) (Fin 2) ℝ)
     (v : Fin 2 → ℝ) : ℝ :=
-  v 0 * (Σ 0 0 * v 0 + Σ 0 1 * v 1) +
-  v 1 * (Σ 1 0 * v 0 + Σ 1 1 * v 1)
+  v 0 * (C 0 0 * v 0 + C 0 1 * v 1) +
+  v 1 * (C 1 0 * v 0 + C 1 1 * v 1)
 
 /--
 For this finite witness, admissibility means symmetry and nonnegativity of
 the quadratic form for every vector. This is the positive-semidefinite
 condition, stated explicitly rather than inferred from diagonal entries.
 -/
-def IsCovariance2 (Σ : Matrix (Fin 2) (Fin 2) ℝ) : Prop :=
-  Σ.transpose = Σ ∧ ∀ v : Fin 2 → ℝ, 0 ≤ quadraticForm2 Σ v
+def IsCovariance2 (C : Matrix (Fin 2) (Fin 2) ℝ) : Prop :=
+  C.transpose = C ∧ ∀ v : Fin 2 → ℝ, 0 ≤ quadraticForm2 C v
 
 /-- Same unit marginal variances with zero cross-covariance (not an independence claim). -/
 def zeroCrossCovariance : Matrix (Fin 2) (Fin 2) ℝ :=
@@ -149,9 +149,9 @@ The omitted cross-covariance is an essential input.
 -/
 theorem diagonal_only_cannot_determine_output_variance :
     ¬ ∃ f : (Fin 2 → ℝ) → ℝ,
-      ∀ Σ, IsCovariance2 Σ →
-        f (diagonalEntries Σ) =
-          covariancePushforward sumReadout Σ 0 0 := by
+      ∀ C, IsCovariance2 C →
+        f (diagonalEntries C) =
+          covariancePushforward sumReadout C 0 0 := by
   rintro ⟨f, hf⟩
   have hsame :
       f (diagonalEntries zeroCrossCovariance) =
