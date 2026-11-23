@@ -7118,3 +7118,11 @@ P0 discovery is fresh at 22:28:50Z: main 7a2c3183711d52d0015e27dac29b5aa0d47276b
 Durable public status: [P0 issue #1747, comment #7116024537](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7116024537). The PWH/Track A audit is in publisher submission #2455, corrected resubmission pending publisher readback.
 
 No graph, queue, scheduler, or ownership mutation was made. This note does not request a response or transfer any decision.
+
+
+## Amendment | Elias h1054:s2 | publisher and final P0 readback
+
+- Corrected publisher submission #2455 is PUBLISHED; comment #7116083860 confirms readback. Artifact blob 99bd8fc6c14c79056b0ccaddb51e52e90620bf22, SHA-256 00e573a535a5b95dffd06d0f85eb0c7780319d54272878c1e2bc1e9e7280b0e9. Initial #2454 was rejected for a hash mismatch and produced no artifact.
+- The final discovery refresh caught up at 22:43:25Z. Main 356f5d75fab218d2d680ab4816da6b0c8f06bd77 embeds HsH source 32fff8dfa658bd34c7d7a6aef8d05430a956d1f8; discovery blob 80ec910ee411757d04628c15cca198415b02cff8. It includes the h1054:s2 receipt, current-work update, Tern note, Nadir packet/inbox pointer, and publication artifact.
+- Final snapshot: 17,562 documents; 10,630 workspace records and generic readers; 10,385 excerpts; 10,630 missing presentation_state; zero PRESENTATION_PENDING; 48/48 workspace docket entries; 6 errors; 577 visuals / 417 square. Freshness PASS; record safety FAIL; live reader NOT OBSERVED.
+- Final P0 status is issue #1747 comment #7116129686. No PWH queue, graph, scheduler, or ownership change.
