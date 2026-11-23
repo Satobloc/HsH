@@ -117,7 +117,7 @@ theorem zeroCrossCovariance_valid :
       norm_num [zeroCrossCovariance, covariance2]
   · intro v
     norm_num [quadraticForm2, zeroCrossCovariance, covariance2]
-    positivity
+    nlinarith [sq_nonneg (v 0), sq_nonneg (v 1)]
 
 /-- The perfectly correlated witness is symmetric and positive semidefinite. -/
 theorem sharedCovariance_valid :
@@ -133,14 +133,22 @@ theorem sharedCovariance_valid :
 /-- The same sum map gives variance 2 in the first witness. -/
 theorem sumReadout_variance_zeroCross :
     covariancePushforward sumReadout zeroCrossCovariance 0 0 = 2 := by
-  simpa [zeroCrossCovariance] using
-    (sumReadout_variance_formula 1 1 0)
+  calc
+    covariancePushforward sumReadout zeroCrossCovariance 0 0 =
+        1 + 1 + 2 * 0 := by
+          simpa [zeroCrossCovariance] using
+            (sumReadout_variance_formula 1 1 0)
+    _ = 2 := by norm_num
 
 /-- The same sum map gives variance 4 in the second witness. -/
 theorem sumReadout_variance_shared :
     covariancePushforward sumReadout sharedCovariance 0 0 = 4 := by
-  simpa [sharedCovariance] using
-    (sumReadout_variance_formula 1 1 1)
+  calc
+    covariancePushforward sumReadout sharedCovariance 0 0 =
+        1 + 1 + 2 * 1 := by
+          simpa [sharedCovariance] using
+            (sumReadout_variance_formula 1 1 1)
+    _ = 4 := by norm_num
 
 /--
 No function of the two marginal variances alone can recover the output
