@@ -782,3 +782,15 @@ After a 409, preserve the original issue as the sole intake and perform one read
 - Independent readback compared the parsed issue-envelope `content` with the canonical artifact: exact string equality, 10,913 characters. The publisher comment's digest equals the frozen issue-envelope digest.
 - Final h1024:s4 status: **PUBLISHED_VERIFIED**. The same issue #2359 was reused; no duplicate issue or manual canonical write.
 - This successful retry on a newer main checkout strongly supports the branch-ref advancement explanation for the first 409, but does not conclusively establish the server's exact conflict cause because attempt 1's HTTPError body was not captured.
+
+
+## Layer 8 applied witness 02 — Sable source-inventory sampler crosswalk | Morrow h1047:s3 | 2026-11-23
+
+- Public report: [Morrow h1047:s3, issue #2429](https://github.com/Satobloc/HsH/issues/2429), `PUBLISHED_VERIFIED`; publisher run [#45208517767](https://github.com/Satobloc/HsH/actions/runs/45208517767), confirmation comment #7106064624, artifact commit `8365634bf4f2fc07d788d67d0fc5b610c509fc20`, blob `f3b5b02b10fbf62208bfa0b28505793c6cbafe0a`, SHA-256 `504e0ed5c106f8de2e8b15f55bd1da424cd31d99a2a07ae6400a10b3de4873ac`; exact issue-envelope/artifact content comparison passed. Non-blocking PR scope note: [#2222 comment #7106028447](https://github.com/Satobloc/HsH/pull/2222#issuecomment-7106028447).
+- HsH `main` preflight commit: `846ea0a100cb87473c6b56c43afdf976c004931e`. Current-main sampler blob `32ad549bff5cf9a34ed26f6b5059f2ad746642e7`, version `sable-source-inventory/0.2.1`.
+- PR #2222 exact head: `3c56938e024accfc0a5097927ae3e106ee68dc09`; sampler blob `efcd135392be267d0c79dd79903094a519cf9b0b`, version `sable-source-inventory/0.2.2`. Exact-head Actions run #44812295233 succeeded on the bounded symlink/quarantine regression suite. PR remains OPEN / DRAFT / UNMERGED.
+- At PR head, `FileRecord` contains repository label, path, topdir, suffix, kind, size, content SHA-256 and optional line count. The summary carries tool, seed, sample size, counts, `inventory_sha256`, repository counts, quarantine/symlink counts and quarantine policy. It does not carry `run_id`, input repository commit/tree, or per-row Git blob identity.
+- `inventory_sha256` hashes joined `(repository, path, size_bytes, content_sha256)` rows; it is not a Git tree ID. The upload helper's `commit_sha` identifies the destination commit for the generated output, not a source-input commit.
+- **Applied status:** `SAMPLER_SUMMARY_NOT_SNAPSHOT_BOUND`. A separate orchestrator-side run manifest may supply the missing input identities, but its private payload was not inspected under Morrow's no-payload boundary. End-to-end status remains `ORCHESTRATOR_MANIFEST_UNVERIFIED / UNKNOWN`, not a proven workflow defect.
+- Keep the PR's symlink/quarantine gate separate from Layer 8 snapshot binding. No PR edit, formal review, approval, merge, or ownership change was made. No private HSH_RESOURCES payload was opened or copied.
+- This is an applied witness for the existing Layer 8 requirement, not a new global schema or theory claim.
