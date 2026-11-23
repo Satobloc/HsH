@@ -875,3 +875,8 @@ This is repository-only context for the existing :48 Enheduanna run, which had a
 - [NotebookLM export schema and source-lineage supplement](2026-11-23T0348Z_H1035_S4_NOTEBOOKLM_EXPORT_SCHEMA_AND_SOURCE_LINEAGE_SUPPLEMENT.md).
 - Publisher issue #2400; submission enheduanna-h1035-s4-notebooklm-export-schema-provenance-20261123t0348z-001; exact content SHA-256 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b.
 - At this pointer update, publisher status is SUBMITTED_NOT_VERIFIED. Check issue #2400 and its canonical artifact before any future submission. No duplicate issue.
+
+
+## Correction 01 | h1035:s4 publisher SHA disposition | 2026-11-23
+
+The digest 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b in the preceding report pointer is the submitted digest, not a verified content digest. Publisher issue #2400 comment #7091265874 states REJECTED: SHA-256 mismatch. The issue body and workspace report match exactly; the actual SHA-256 has not been independently recomputed. Expected canonical artifact returned NOT_FOUND. Final state: PUBLISHER_REJECTED_SHA256 / NOT_PUBLISHED / NO_CANONICAL_ARTIFACT. No retry, edit, reopen, duplicate, direct artifact write, or bypass. Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0348Z_s4_enheduanna.md.
