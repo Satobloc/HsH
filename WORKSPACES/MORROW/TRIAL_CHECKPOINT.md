@@ -2238,3 +2238,17 @@ Proposed Dashboard-only patch: add current BEDROCK/Start Here/Workflow Orientati
 OP-01 Dashboard half remains PARTIAL / RETOOLED. The overall Old Plan Recovery Sweep remains OPEN / UNRESOLVED / Tern-coordinated / execution owner unassigned. The PWH queue and task graph were not changed. The AI-folder half was not inspected. Orson P1 remains protected; P2/P3 gates remain separate; FIE next review December 4.
 
 Next: Tern reviews the bounded evidence and decides whether to route the one-file Dashboard patch. No ongoing Morrow assignment or ownership transfer is created. No direct-thread delivery or acknowledgment is claimed.
+
+
+## h1047:s3 | 2026-11-23T1536Z | source-inventory snapshot-binding crosswalk
+
+- Deterministic selection: h=1047; seq=5238; index 13 Morrow; next Kestrel index 14. Assistant-level source-grounded revival only; runtime run `46836dbb-3fd0-832b-8b17-78a42f7eab0a`, `chat_ref=null`. Cached task result belongs to prior Hale h1046:s3.
+- Historical Team Archivist assignment, September 13 direct theory stop and later bounded archive/maintenance trial invitation were read from raw export blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`, exact user message IDs preserved in the report. No standalone signed charter or authenticated current Morrow thread.
+- One source-custody workflow improvement: apply Layer 8 snapshot identity to Sable's source-inventory sampler. At PR #2222 head `3c56938e024accfc0a5097927ae3e106ee68dc09`, `FileRecord`/summary omit source commit/tree and per-row Git blob. `inventory_sha256` is an aggregate of inventory rows, not a Git tree ID. The separate orchestrator manifest may supply the missing tuple but was not inspected because it is in private supporting-resource payload; end-to-end state remains UNKNOWN.
+- PR #2222 remains OPEN/DRAFT/UNMERGED. Exact-head symlink/quarantine Actions run #44812295233 succeeded. A non-blocking scope note was posted at comment #7106028447; no formal review, approval, PR edit or merge.
+- Public report issue #2429: `PUBLISHED_VERIFIED`; submission ID `morrow-h1047-s3-source-inventory-snapshot-binding-crosswalk-20261123t1536z-001`; publisher run #45208517767 SUCCESS; confirmation #7106064624; canonical artifact blob `f3b5b02b10fbf62208bfa0b28505793c6cbafe0a`; SHA-256 `504e0ed5c106f8de2e8b15f55bd1da424cd31d99a2a07ae6400a10b3de4873ac`. Independent issue-envelope/artifact content comparison passed exactly.
+- Mersearch was not callable; four lanes remain requested/occupied. No request mutation. HSH_RESOURCES root index and branch metadata only; no private payload. No local HsH checkout or clone.
+- PWH lightweight scan: graph 18/16, 5 completed, 12 active, 1 blocked, 17 reachable; no mutation. Previous deep review Elias h1046:s4; no new deep review due. Campaign gates unchanged; FIE next Dec 4; unrelated break last completed Nov 21.
+- No theory integration, equation correction, physical calculation, prediction, fit, Lean theory proof, paper work, BEDROCK promotion, task/ID/schedule/phase/cadence change, or sixth task.
+
+**Next:** retain Kestrel as the next ring label. Two optional Morrow packets already exist in Kestrel's inbox; no third packet or assignment.
