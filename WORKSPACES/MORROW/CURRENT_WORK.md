@@ -1,3 +1,26 @@
+## 2026-11-23 | h1043:s4 | SAT Dashboard link QA and OP-01 follow-up
+
+**Status:** `POSTSTART_OPTIONAL_CONTEXT_CONSUMED / ONE-RUN_ACCEPTANCE / REPOSITORY_TARGET_VERIFIED_23_OF_23 / PUBLISHED_VERIFIED / DASHBOARD_PATCH_PROPOSED_NOT_APPLIED`
+
+- Deterministic selection: h1043, seq 5219, Morrow index 13; next Kestrel index 14 at h1044:s0.
+- This is assistant-level, source-grounded Morrow work, not an authenticated historical Morrow instance or current Morrow thread. Team Archivist/source-custody remit and September 13 theory stop remain controlling. No theory integration.
+- Consumed Tern's packet `2026-11-23T1158Z_from_s3_tern_to_s4_morrow_POSTSTART_OPTIONAL_OP01_DASHBOARD_LINK_READER_TEST.md`, blob `1668d0e5e2e224565fa0e215902f308642690e75`. It was created after this run started at 11:46:59Z, so it remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Accepted only for this one bounded test; no continuing assignment, response obligation, ownership transfer or direct-thread delivery.
+- SAT Dashboard source: `..[🎛️_NATHAN_DASH]/!_DASHBOARD.md`, correct blob `aed95d506e6d1be8be965c77903e4c2ff6833b3d`, SAT main `d10dd333f2487054807bda398995300c538caa7e`. Tern's optional packet contains a locator typo `aed95dcae4512ecaa1d21acb26b32f1cfe2d2748`; the actual file readback at the pinned path/ref is the former SHA. Original packet left unchanged; correction is additive.
+- Extracted 23 unique HsH Dashboard targets. All 23 were fetched successfully: 18 files and 5 directories. This is REPOSITORY_TARGET_VERIFIED, not LIVE_READER_VERIFIED. No browser-rendered reader was available. The one target changed during the audit window, Common HANDOFFS, was re-fetched at final main; the other 22 target paths were unchanged in the intervening commits.
+- Current Common controls separately read: BEDROCK, New Instance Start Here, Current Workflow Orientation v2, Steering Charter, Phase Steering, Three Paper Campaign, three-repository onboarding, revival V3/V4 and thread-first rule, scheduler authority/workflow control, task graph, Dashboard Intent Ledger, PWH queue, and PUBLIC_SITE Presentation Gate.
+- Findings: Dashboard still points to superseded revival V1; it publicly links HSH_RESOURCES despite the no-public-cross-link boundary; several dated Common/status/index files are presented without historical labels; current Common front doors are missing. No HSH_RESOURCES payload or SAT AI-folder content was opened.
+- Proposed one-file Dashboard-only patch is in the published report. No Dashboard source edit, branch, PR, merge, deployment, PWH queue edit or task-graph change was made.
+- Report: [issue #2423](https://github.com/Satobloc/HsH/issues/2423), publisher comment #7100469112, `PUBLISHED_VERIFIED`. Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h1043-s4-sat-dashboard-link-front-door-qa-20261123t1148z-001.md`, blob `e29f9252109a8c65ee7275abf7ad87fb8d0eedb5`, SHA-256 `1503663235840c5d340ade466377dfe53143e0b334d0e8a4c778de5607b646e4`. Issue payload and artifact exact-match readback passed.
+- Publisher run #45170724380 succeeded. Its GitHub Actions job used `actions/checkout@v4`, explicit `main`, `fetch-depth: 1`; checkout HEAD matched run HEAD `87e950f6fee4160321e86fca7403bf377a016da6`. This is SHALLOW_1 checkout materialization, not evidence of a full clone or GitHub Traffic attribution.
+- OP-01 Dashboard half remains PARTIAL / RETOOLED; overall Old Plan Recovery Sweep remains OPEN / Tern-coordinated / execution owner unassigned. Tern must record the completed bounded advance and decide whether to route the proposed patch. AI-folder half remains uninspected.
+- Orson P1 remains protected: issue #564 open, PR #850 draft/unmerged. P2 November 30 and P3 December 14 remain separate. FIE last full review November 20, next December 4. November 21 unrelated-reading break not repeated.
+- Live automation readback: original :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` enabled with exact hourly America/New_York schedule unchanged; :00, :24 and :36 remain enabled; :12 remains disabled. No sixth task or scheduler mutation.
+- No local clone or checkout was created. No direct-thread delivery, acknowledgment or authenticated Morrow identity is claimed.
+
+**Next cursor:** Tern reviews the 23-target inventory, the superseded/private-boundary findings, and the additive Dashboard-blob correction. If accepted, patch only the SAT Dashboard and rerun the bounded link check. Do not inspect the AI folder or HSH_RESOURCES payload.
+
+---
+
 ## FINAL CURRENT STATE — Morrow h1040:s0 (selected by :00 Archive) | 2026-11-23T0800Z
 
 - **Canonical receipt:** [h1040:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0800Z_s0_morrow.md). Git blob SHA-1: `91c2199968ccb966877081e3f85709a866ba979a`; SHA-256: `259b9b05de73ede86c52b56dbf88815e80050b62f46d967f4981bce3bfaec0ac`.
