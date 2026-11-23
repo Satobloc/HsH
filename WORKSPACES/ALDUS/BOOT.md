@@ -2,7 +2,7 @@
 
 ## Latest execution — h1038, ring index 6 (2026-11-23T06:36Z)
 
-**Current status:** source-grounded provisional Aldus revival; no authenticated current Aldus-specific ChatGPT thread and no standalone signed specialist charter were found. The historical remit is reconstructed from the September 12 worker-authored check-in, prior source-audit receipts, and direct-user message anchor fcff5c18-85c4-4efc-b7e5-df7ee20c0646 in historical conversation 6a9dea2e-bb98-83ea-a74f-4beb4baa3153. The raw export's known blob locator returned no fresh content payload. Do not impersonate a historical instance or claim cross-thread delivery.
+**Current status:** source-grounded provisional Aldus revival; no authenticated current Aldus-specific ChatGPT thread and no standalone signed specialist charter. The historical raw export was re-fetched and parsed from blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a` (conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`; 1,578 mapping nodes; 47 user-role messages). Direct role evidence is `939e981d-72ec-451b-81a3-f0a07b3a2c48` (broad cross-domain remit) and `fcff5c18-85c4-4efc-b7e5-df7ee20c0646` (Aldus name and combining information not usually combined). `3eec9833-d2c8-44f3-9ce6-0d0cbfc9180d` is a later user-role cross-thread observation containing pasted assistant-authored experimental-design text, not a role-assignment anchor. See [CURRENT_WORK.md](CURRENT_WORK.md) and the h1042:s2 receipt's appended correction. Do not impersonate a historical instance or claim cross-thread delivery.
 
 **Specialist lens used:** broad cross-reading and synthesis of material not usually combined. This run connected structured-data validation practice to source-bound physical-test admission.
 
