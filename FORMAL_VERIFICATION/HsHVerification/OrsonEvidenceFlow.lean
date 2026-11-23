@@ -139,7 +139,7 @@ def handoffLossFlow : EvidenceFlow where
 theorem source_pair_can_be_lost_before_worker_report :
     pairPresentAt handoffLossFlow .sourceReads testPair ∧
     ¬ pairPresentAt handoffLossFlow .workerReports testPair := by
-  simp [pairPresentAt, itemPresentAt, handoffLossFlow, testPair, claimA, claimB]
+  decide
 
 /-- Logical witness: two contributors jointly report the pair, but neither
     contributor supplies both endpoints. -/
@@ -152,8 +152,7 @@ def splitFlow : EvidenceFlow where
 
 theorem split_pair_witness :
     splitContributorPair splitFlow .workerReports testPair := by
-  simp [splitContributorPair, pairPresentAt, itemPresentAt,
-    sameContributorPair, splitFlow, testPair, claimA, claimB]
+  decide
 
 /-- If one contributor supplies both endpoints, the Same classification holds
     even when another contributor also supplies one endpoint. -/
@@ -167,7 +166,7 @@ def sameFlow : EvidenceFlow where
 
 theorem same_contributor_takes_precedence :
     sameContributorPair sameFlow .workerReports testPair := by
-  simp [sameContributorPair, sameFlow, testPair, claimA, claimB]
+  decide
 
 /-- Logical witness: a report is addressed to the lead, but the item is not
     represented in the lead-evidence stage. -/
@@ -180,7 +179,7 @@ def sentNotLeadFlow : EvidenceFlow where
 theorem sent_to_lead_does_not_imply_lead_evidence :
     sentTo sentNotLeadFlow claimA 0 ∧
     ¬ itemPresentAt sentNotLeadFlow .leadEvidence claimA := by
-  simp [sentTo, itemPresentAt, sentNotLeadFlow, claimA]
+  decide
 
 /-- Logical witness: both endpoints appear in the final artifact, while the
     separate semantic judgment does not pass. -/
@@ -196,8 +195,7 @@ def missedJudgment : PairJudgment := ⟨7, false, true⟩
 theorem pair_presence_does_not_imply_judge_pass :
     pairPresentAt finalPairFlow .finalReport testPair ∧
     ¬ judgePassFor testPair missedJudgment := by
-  simp [pairPresentAt, itemPresentAt, judgePassFor, finalPairFlow,
-    testPair, claimA, claimB, missedJudgment]
+  decide
 
 /-- Distinct evidence-item IDs can still share a declared source root. -/
 def sharedRootA : EvidenceItem := ⟨3, {999}⟩
@@ -224,7 +222,7 @@ def hasRepeatedDisclosure (flow : EvidenceFlow) : Prop :=
 
 theorem one_item_can_have_multiple_disclosure_events :
     hasRepeatedDisclosure repeatedDisclosureFlow := by
-  simp [hasRepeatedDisclosure, repeatedDisclosureFlow, claimA]
+  decide
 
 #print axioms pair_recall_preserved_of_itemwise_transfer
 #print axioms source_pair_can_be_lost_before_worker_report
