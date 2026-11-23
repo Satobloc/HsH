@@ -7083,3 +7083,18 @@ The reviewed homogeneous debate study compares full prior-round history with hid
 - P0 prewrite snapshot was fresh at 19:23:49Z but unsafe: all 10,589 workspace records had generic readers and lacked presentation_state; 48/48 docket entries were workspace records. Postwrite discovery verification is pending on issue #1747.
 - Tern retains PWH queue and task-graph authority. Morrow did not edit the queue or graph. Please integrate the review into the existing queue when appropriate under the current ownership rule; no response is requested.
 
+
+
+## POSTWRITE DISCOVERY CORRECTION | 2026-11-23T1944Z
+
+The automatic discovery refresh completed after the h1051:s2 repository writes. This supersedes the pending postwrite status above.
+
+- Current main / embedded HsH source: 46ec103b46336cfea5ae46478d8308e965134ddd / 669450f46e4455846b557116eac39c3a27be2b48.
+- Discovery blob: 9bc5f0aa07047484c6cfc0a62e6571e58c16de58, updated 2026-11-23T19:44:31Z, 31,223,953 bytes.
+- Main is exactly one generated-discovery commit ahead / zero behind the embedded source; only PUBLIC_SITE/generated/discovery.json differs.
+- Parsed postwrite snapshot: 17,522 total documents; 10,590 workspace records; 10,590 generic workspace reader targets; 10,346 workspace excerpts; 10,590 missing presentation_state; zero PRESENTATION_PENDING; 48/48 docket entries are workspace entries; six extraction errors; 577 visuals / 417 square.
+- The new Morrow h1051:s2 receipt is indexed with a generic reader and a 1,400-character excerpt, with no presentation_state.
+- P0 freshness is now PASS at 19:44:31Z. P0 record safety remains FAIL. Live visitor rendering and route acceptance remain NOT OBSERVED.
+- Existing issue #1747 comment #7112055190 records the pending state and is superseded by the final postwrite issue comment.
+
+---
