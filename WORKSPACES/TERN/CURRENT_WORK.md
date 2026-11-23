@@ -1,4 +1,4 @@
-# H1039:s4 publication status correction | 2026-11-23T08:xxZ
+# H1039:s4 publication status correction | 2026-11-23
 
 **PUBLISHER_REJECTED_SHA256.** Existing issue #2410 received publisher comment #7095189135: REJECTED: SHA-256 mismatch. The expected canonical artifact was NOT_FOUND. The issue body was read back, but the submitted digest was rejected; the actual digest was not independently recomputed. No retry, edit, reopen, duplicate issue, direct artifact write, or bypass.
 
