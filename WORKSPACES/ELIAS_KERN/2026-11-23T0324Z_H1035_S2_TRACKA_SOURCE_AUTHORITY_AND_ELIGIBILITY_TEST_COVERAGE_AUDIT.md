@@ -125,6 +125,8 @@ The stable Mersearch release is mersearch-stable-1.0 at pinned commit 89933c358b
 
 The Tool Chest was inspected. No new tool, dependency, fork, plugin, subscription, or expenditure was introduced.
 
+House-write preflight found no local Git checkout and no general internal checkpoint/receipt Actions writer; the existing issue publisher is the public-artifact route, not an internal workspace writer. The internal report and receipt therefore used the GitHub Contents API fallback. The report correction used the fetched current blob SHA, and both files received independent readback. No public publisher intake was appropriate because this was a source/authority audit, not a new public scientific result.
+
 ## 8. P0, campaign, and workflow-health boundaries
 
 - P0 issue #1747 remains OPEN / ACTIVE.
