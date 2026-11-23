@@ -100,6 +100,43 @@ def resolveWithEvidence
     Identity :=
   binding.identity
 
+
+
+/-- Verified route evidence is function-like when all witnesses for a fixed
+    route agree on the identity payload. This is an additional condition,
+    not supplied automatically by the existence of a verification witness. -/
+def VerifiedRouteFunctional
+    {Route Identity Evidence : Type}
+    (Verified : Evidence → Route → Identity → Prop) : Prop :=
+  ∀ (route : Route) (identity₁ identity₂ : Identity)
+    (evidence₁ evidence₂ : Evidence),
+    Verified evidence₁ route identity₁ →
+    Verified evidence₂ route identity₂ →
+    identity₁ = identity₂
+
+/-- Under a functional verification relation, any two verified bindings
+    for the same route identify the same payload. -/
+theorem verified_route_bindings_agree
+    {Route Identity Evidence : Type}
+    {Verified : Evidence → Route → Identity → Prop}
+    (hfunctional : VerifiedRouteFunctional Verified)
+    {route : Route}
+    (left right : VerifiedRouteBinding Route Identity Evidence Verified route) :
+    left.identity = right.identity :=
+  hfunctional route left.identity right.identity
+    left.evidence right.evidence left.verification right.verification
+
+/-- The witness-indexed resolver is independent of which verified witness
+    is supplied, provided verification is functional on each route fiber. -/
+theorem resolveWithEvidence_is_unique
+    {Route Identity Evidence : Type}
+    {Verified : Evidence → Route → Identity → Prop}
+    (hfunctional : VerifiedRouteFunctional Verified)
+    {route : Route}
+    (left right : VerifiedRouteBinding Route Identity Evidence Verified route) :
+    resolveWithEvidence left = resolveWithEvidence right := by
+  exact verified_route_bindings_agree hfunctional left right
+
 /-- Consent is a separate evidence relation, not a side effect of invitation. -/
 structure ConsentWitness
     (Identity ConsentEvidence : Type)
@@ -135,5 +172,7 @@ theorem borrowed_participant_has_binding_and_consent
 #print axioms route_resolver_forces_fiber_identity
 #print axioms no_route_only_identity_resolver_of_ambiguous_binding
 #print axioms borrowed_participant_has_binding_and_consent
+#print axioms verified_route_bindings_agree
+#print axioms resolveWithEvidence_is_unique
 
 end HsHVerification.OrsonRouteIdentity
