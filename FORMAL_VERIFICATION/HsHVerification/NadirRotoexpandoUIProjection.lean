@@ -299,3 +299,6 @@ theorem orientedAffineSegment_injective {d : ℕ} :
   exact h'
 
 end HsHVerification.NadirRotoexpandoUIProjection.PointPairSegment
+
+#print axioms HsHVerification.NadirRotoexpandoUIProjection.PointPairSegment.orientedSegmentEndpoints_orientedAffineSegment
+#print axioms HsHVerification.NadirRotoexpandoUIProjection.PointPairSegment.orientedAffineSegment_injective
