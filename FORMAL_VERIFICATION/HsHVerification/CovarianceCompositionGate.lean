@@ -83,8 +83,8 @@ condition, stated explicitly rather than inferred from diagonal entries.
 def IsCovariance2 (Σ : Matrix (Fin 2) (Fin 2) ℝ) : Prop :=
   Σ.transpose = Σ ∧ ∀ v : Fin 2 → ℝ, 0 ≤ quadraticForm2 Σ v
 
-/-- Same unit marginal variances with zero cross-covariance. -/
-def independentCovariance : Matrix (Fin 2) (Fin 2) ℝ :=
+/-- Same unit marginal variances with zero cross-covariance (not an independence claim). -/
+def zeroCrossCovariance : Matrix (Fin 2) (Fin 2) ℝ :=
   covariance2 1 1 0
 
 /-- Same unit marginal variances with perfect positive cross-covariance. -/
@@ -101,22 +101,22 @@ theorem sumReadout_variance_formula (v₀ v₁ c : ℝ) :
 
 /-- The two covariance matrices have identical marginal variances. -/
 theorem same_marginals :
-    diagonalEntries independentCovariance =
+    diagonalEntries zeroCrossCovariance =
       diagonalEntries sharedCovariance := by
   funext i
   fin_cases i <;>
-    norm_num [diagonalEntries, independentCovariance,
+    norm_num [diagonalEntries, zeroCrossCovariance,
       sharedCovariance, covariance2]
 
 /-- The zero-cross-covariance witness is symmetric and positive semidefinite. -/
-theorem independentCovariance_valid :
-    IsCovariance2 independentCovariance := by
+theorem zeroCrossCovariance_valid :
+    IsCovariance2 zeroCrossCovariance := by
   constructor
   · ext i j
     fin_cases i <;> fin_cases j <;>
-      norm_num [independentCovariance, covariance2]
+      norm_num [zeroCrossCovariance, covariance2]
   · intro v
-    norm_num [quadraticForm2, independentCovariance, covariance2]
+    norm_num [quadraticForm2, zeroCrossCovariance, covariance2]
     positivity
 
 /-- The perfectly correlated witness is symmetric and positive semidefinite. -/
@@ -131,9 +131,9 @@ theorem sharedCovariance_valid :
     nlinarith [sq_nonneg (v 0 + v 1)]
 
 /-- The same sum map gives variance 2 in the first witness. -/
-theorem sumReadout_variance_independent :
-    covariancePushforward sumReadout independentCovariance 0 0 = 2 := by
-  simpa [independentCovariance] using
+theorem sumReadout_variance_zeroCross :
+    covariancePushforward sumReadout zeroCrossCovariance 0 0 = 2 := by
+  simpa [zeroCrossCovariance] using
     (sumReadout_variance_formula 1 1 0)
 
 /-- The same sum map gives variance 4 in the second witness. -/
@@ -154,12 +154,12 @@ theorem diagonal_only_cannot_determine_output_variance :
           covariancePushforward sumReadout Σ 0 0 := by
   rintro ⟨f, hf⟩
   have hsame :
-      f (diagonalEntries independentCovariance) =
+      f (diagonalEntries zeroCrossCovariance) =
         f (diagonalEntries sharedCovariance) :=
     congrArg f same_marginals
-  rw [hf independentCovariance independentCovariance_valid,
+  rw [hf zeroCrossCovariance zeroCrossCovariance_valid,
     hf sharedCovariance sharedCovariance_valid,
-    sumReadout_variance_independent,
+    sumReadout_variance_zeroCross,
     sumReadout_variance_shared] at hsame
   norm_num at hsame
 
@@ -167,7 +167,7 @@ theorem diagonal_only_cannot_determine_output_variance :
 #print axioms covariancePushforward_symmetric
 #print axioms sumReadout_variance_formula
 #print axioms same_marginals
-#print axioms independentCovariance_valid
+#print axioms zeroCrossCovariance_valid
 #print axioms sharedCovariance_valid
 #print axioms diagonal_only_cannot_determine_output_variance
 
