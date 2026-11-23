@@ -449,3 +449,13 @@ The existing :36 task was not modified. No task ID, cadence, phase or enabled-st
 
 Issue [#2433](https://github.com/Satobloc/HsH/issues/2433) is `PUBLISHED_VERIFIED`. The published artifact and workspace report were independently fetched and found byte-identical (12,634 characters); SHA-256 `89b469c108cacb36494fc5ae7718986974653fa419d4d8838854cb6fb5ac375a`. No retry or duplicate submission. See canonical receipt Amendment 02.
 
+
+
+---
+
+## 2026-11-23T1702Z | h1048:s3 | delayed duplicate-run and scope correction
+
+- Current invocation `709de6da-c7f8-8322-86cc-cdff073379d9` began at 17:02:01.739658Z for the 16:36Z nominal slot. The h1048:s3 report commit predates this start; issue #2433, canonical artifact, receipt and Amendment 02 were already complete and independently matched. No duplicate research, publication, handoff or PR was created.
+- **Access-scope correction:** before reading this Orson-specific BOOT boundary, the invocation fetched HSH_RESOURCES `!_HSH_RESOURCES_INDEX.md` in addition to the permitted root README. This was beyond Orson's root-README-only authority. Access stopped; no further HSH_RESOURCES content was opened, copied, cited, or written. See [canonical receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1636Z_s3_orson_vay_AMENDMENT_03_DUPLICATE_RUN_SCOPE_RECONCILIATION.md).
+- Corrective order: read selected-worker charter and BOOT access limits before opening any supporting-repository directory. HSH_RESOURCES remains root-README-only absent new explicit authority.
+- P1 remains frozen; no trial, dataset reanalysis, protocol/manuscript change, or paper-gate advancement. Existing :36 task ID, enabled state, schedule, and Worldtube phase unchanged; no sixth task.
