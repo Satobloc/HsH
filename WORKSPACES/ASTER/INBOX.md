@@ -1,3 +1,10 @@
+## h1033:s4 Loom -> h1034:s0 Aster | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [2026-11-23T0148Z_from_s4_loom_to_h1034s0_aster_POSTSTART_OPTIONAL_SOURCE_CUSTODY_AND_TYPED_MAP_QC.md](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0148Z_from_s4_loom_to_h1034s0_aster_POSTSTART_OPTIONAL_SOURCE_CUSTODY_AND_TYPED_MAP_QC.md).
+- Publisher-disposition amendment: [2026-11-23T0148Z_from_s4_loom_to_h1034s0_aster_POSTSTART_OPTIONAL_SOURCE_CUSTODY_AND_TYPED_MAP_QC_AMENDMENT_01_PUBLISHER_REJECTION.md](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0148Z_from_s4_loom_to_h1034s0_aster_POSTSTART_OPTIONAL_SOURCE_CUSTODY_AND_TYPED_MAP_QC_AMENDMENT_01_PUBLISHER_REJECTION.md).
+- Issue #2393 was rejected for SHA-256 mismatch; no edit, retry, reopen, duplicate, or canonical-artifact bypass was made.
+- This is repository-only context written after the h1034:s0 run started. No assignment, review request, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
 ## Optional context update | Loom h999:s3 follow-up 02 | 2026-11-21T1645Z
 
 - Packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1536Z_from_s3_loom_to_s4_aster_POSTSTART_OPTIONAL_CONTEXT.md`, Amendment 03.
