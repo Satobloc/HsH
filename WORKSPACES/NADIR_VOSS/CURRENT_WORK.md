@@ -1,4 +1,24 @@
-## Latest checkpoint | h1047:s0 | 2026-11-23T15:00Z | Lane 00 geometry-fidelity overlay
+## Latest checkpoint | h1054:s3 | 2026-11-23T22:36Z | Lane 36 paired-sample identity gate; same-key reconciliation
+
+**Status:** DUPLICATE_RUN_KEY_RECONCILED / REPORT_PUBLISHED_VERIFIED / EXACT_HEAD_LEAN_PASS / NO_RAW_DATA / NO_PHYSICAL_RESULT / NO_THEORY_PROMOTION.
+
+- Canonical receipt: [h1054:s3 Nadir label](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2236Z_s3_nadir_voss.md).
+- Report: [paired-sample identity gate](2026-11-23T2236Z_H1054_S3_PAIRED_SAMPLE_IDENTITY_GATE.md), blob `ca749c5f02359b0b8d71e990fe9c51085c9ecdbf`, SHA-256 `82ba4e9130fe05875c3f50446f5173b2d7a15f0dc19bf7dce385e414aec8f259`.
+- The report/Lean work and publisher issue #2456 already existed before this invocation. This same-key reconciliation created the missing canonical receipt and corrected workspace pointers; no second research report, PR, Lean module or publisher issue was created.
+- Primary measured-system source: Barckicke, Falcon and Gissinger (2026), DOI `10.1038/s41567-026-03175-w`; source-data DOI `10.6084/m9.figshare.30903347`. Raw Figshare files, manifest, version, checksums, sample-level keys and joint covariance remain unverified.
+- The gate separates same-video spatiotemporal samples from separate 100-fps core-radius and 360-fps position PDF acquisitions. Joint `(eta,a)` pairing is admitted only with matching run/acquisition/camera/lens/view/calibration/axial-grid/frame/axial-index keys.
+- Lean exact-head run [#45284099363](https://github.com/Satobloc/HsH/actions/runs/45284099363) passed on `9e563ee330c8bdbdcf16f746eb1baff931751677`, Lean 4.34.0 / Lake 5.0.0, 8,962 jobs. Theorem-specific axioms: `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx`/ `admit` in the new module. Global axiom audit, leanchecker, nanoda, tests and lint skipped.
+- PR #1189 remains OPEN / DRAFT / UNMERGED with no independent review. No rebase, merge or current-main integration.
+- Publisher issue [#2456](https://github.com/Satobloc/HsH/issues/2456) is PUBLISHED_VERIFIED; confirmation [#7116478584](https://github.com/Satobloc/HsH/issues/2456#issuecomment-7116478584). Artifact commit `78b9f2f8a7821e790e00099b72f213138f72c754`; published SHA-256 `82ba4e9130fe05875c3f50446f5173b2d7a15f0dc19bf7dce385e414aec8f259`; workspace and artifact exact-match readback passed (13,667 characters).
+- P0 remains ACTIVE; the post-start Elias packet was optional context only, not consumed or acknowledged. P1 remains overdue/frozen/Orson-owned; P2 HOLD; P3 incomplete. Lane 24 Cycle 08/08 remains COMPLETE / BACKSEAT / HOLD.
+- No physical calculation, fit, H(s)H forward map, physical prediction, independent measurement, CODATA result, SAT-O/Blockwave correction or BEDROCK promotion.
+- Mersearch unavailable as a callable action; four existing request lanes remain occupied/requested and unchanged. No HSH_RESOURCES private payload access.
+- No authenticated current Nadir thread or standalone Nathan-authored specialist charter. Nadir is the deterministic ring label only.
+- Next ring label Enheduanna; no handoff, assignment or response obligation. Existing :36 task unchanged; no sixth task.
+
+---
+
+## Previous checkpoint | h1047:s0 | 2026-11-23T15:00Z | Lane 00 geometry-fidelity overlay
 
 **Status:** SOURCE-FIDELITY COMPLETE / AFFINE EQUIVALENCE PROVED AND COMPILED / PUBLICATION VERIFIED / NO PHYSICAL RESULT / NO THEORY PROMOTION.
 
