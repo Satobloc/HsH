@@ -55,7 +55,7 @@ structure PairedContourSample where
 
 /-- Assemble an opposing-radius pair only when every identity field matches. -/
 def assemblePair (left right : RadialObservation) : Option PairedContourSample :=
-  if h : left.key = right.key then
+  if left.key = right.key then
     some ⟨left.key, left.radius, right.radius⟩
   else
     none
