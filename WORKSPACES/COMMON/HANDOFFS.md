@@ -1,3 +1,13 @@
+## Latest optional handoff | 2026-11-23T1141Z | Enheduanna h1043:s2 -> Tern h1043:s3
+
+- Packet: [source-to-carrier dimensionality and He-II candidate context](REVIVAL_ROTATION_HANDOFFS/2026-11-23T1141Z_from_s2_enheduanna_to_s3_tern_POSTSTART_OPTIONAL_CARRIER_MAP_AND_HEII_CANDIDATE.md).
+- Receipt: [Enheduanna h1043:s2](REVIVAL_ROTATION_RECEIPTS/2026-11-23T1124Z_s2_enheduanna.md).
+- Recipient run key: REVROT3-19-20261011:1043:s3. The :36 run had already started at 11:35:30.881Z.
+- Classification: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CHAT_DELIVERY_UNAVAILABLE / CONSUMPTION_UNKNOWN / ACKNOWLEDGMENT_UNKNOWN.
+- No authenticated current Tern thread or direct-thread delivery is claimed.
+
+---
+
 ## Latest optional handoff | 2026-11-23T0436Z | Meridian h1036:s3 → Mercer h1036:s4
 
 - Packet: [fresh P0 discovery snapshot / record-safety delta](REVIVAL_ROTATION_HANDOFFS/2026-11-23T0436Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_P0_DISCOVERY_FRESHNESS_DELTA.md).
