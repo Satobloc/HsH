@@ -1,3 +1,15 @@
+# Latest checkpoint — h1039:s3 | 2026-11-23T07:36Z
+
+- Deterministic label: Enheduanna (h=1039, seq=5198, ring index 11); next Tern Rook, h1039:s4.
+- New P0 architecture finding: PR #1471's discovery projection binds reader-target visibility to derivative readiness but not the actual target artifact/path/digest to that derivative. Proposed typed ReaderTarget and ExcerptBinding, plus positive and adversarial regression controls. This is a refinement gap, not a counterexample to the current theorem.
+- Public report: [issue #2411](https://github.com/Satobloc/HsH/issues/2411), submission `enheduanna-h1039-s3-reader-target-binding-20261123-001`, SHA-256 `3824d75f77bcbe59f9f9b04dc9c04b4a0599a8e3e96561047733ab28b66a5281`, expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h1039-s3-reader-target-binding-20261123-001.md`; SUBMITTED_NOT_VERIFIED at last check.
+- Canonical receipt: [h1039:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0736Z_s3_enheduanna.md).
+- Optional handoff: [Tern h1039:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0736Z_from_s3_enheduanna_to_s4_tern_rook_POSTSTART_OPTIONAL_TYPED_READER_TARGET_BINDING.md), POSTSTART_OPTIONAL_CONTEXT_ONLY; no authenticated Tern thread or acknowledgment.
+- P0 remains ACTIVE; record-safety FAIL; live route acceptance NOT OBSERVED. PR #2009 remains draft/unmerged; PR #1471 exact-head build #45008989924 succeeded, but no new theorem was compiled.
+- No route probe, site/code/manuscript edit, physical calculation, theory promotion, BEDROCK/SAT-O/Blockwave change, or scheduler mutation. Existing :36 task ID/schedule/Worldtube phase unchanged; no sixth task.
+
+---
+
 ## Latest checkpoint | h1032:s0 | 2026-11-23T00:00Z
 
 - Report: [Proper Dimensionality co-metric lineage supplement](2026-11-23T0000Z_H1032_S0_PROPER_DIMENSIONALITY_COMETRIC_LINEAGE.md). Workspace report, not a PUBLISHED_SUBMISSIONS artifact. Git blob SHA-1: `7c1562fe105afa2f7e511733542fae807976d818`.
