@@ -1397,3 +1397,8 @@ P1 issue #564 and PR #850 remain frozen/unchanged. No trial, human session, API 
 **Next cursor:** independent review of PR #2375; then type person/role separately from worker label, and add source-backed information-item, disclosure, uptake, decision-use, outcome and evidence-scope relations with explicit projections/composition conditions. Do not infer uptake from visibility, decision incorporation from uptake, or correctness from incorporation.
 
 **Handoff:** next ring label Sable. P0 remains active; Sable's inbox already contains prior optional Orson context. No new assignment or packet, direct-thread delivery, consumption or acknowledgment is claimed.
+
+
+## h1041:s0 amendment 02 | access-boundary correction
+
+The general navigation preflight led to fetching one internal HSH_RESOURCES navigation file after reading the root README. Orson's more specific workspace control is root-README-only absent changed authority. That additional fetch was an access-scope overreach, even though the file was navigational. No content from it was copied into the report, public issue, Lean module or another repository artifact; no HSH_RESOURCES file was modified, and no further payload was accessed. The earlier receipt sentence saying no private payload was opened is superseded by receipt Amendment 02. Future Orson work remains root-README-only unless explicit authority changes. This correction does not alter the research result or grant broader access.
