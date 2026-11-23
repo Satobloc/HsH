@@ -1635,3 +1635,8 @@ P0 freshness PASS; record safety FAIL. Paper A and B still have generic raw read
 - Final discovery refresh caught up after all h1054:s2 workspace and publication writes. Main 356f5d75fab218d2d680ab4816da6b0c8f06bd77 embeds source 32fff8dfa658bd34c7d7a6aef8d05430a956d1f8 in discovery blob 80ec910ee411757d04628c15cca198415b02cff8, updated 22:43:25Z. It includes this current-work update, receipt, Tern note, Nadir packet/inbox pointer, and published artifact.
 - Final counts: 17,562 documents; 10,630 workspace records and generic readers; 10,385 excerpts; 10,630 missing presentation_state; zero PRESENTATION_PENDING; 48/48 workspace docket entries; 6 errors; 577 visuals / 417 square. Freshness PASS, record safety FAIL, live reader NOT OBSERVED.
 - Final P0 issue update: #1747 comment #7116129686, exact readback verified.
+
+
+### Postwrite currentness amendment | 2026-11-23T22:45:24Z
+
+The 22:43:25Z discovery freshness PASS was valid at that readback point. Five later non-discovery commits advanced main, including the h1054:s2 receipt/current-work/Tern-inbox amendments and two Calder publication/source-cursor updates. Current main is fc35c6c41befa428d8a47342816a7c820913380e; the last verified discovery blob 80ec910ee411757d04628c15cca198415b02cff8 still embeds source 32fff8dfa658bd34c7d7a6aef8d05430a956d1f8. Current per-record counts are not yet re-parsed against the newer main. P0 currentness is therefore POSTWRITE_FRESHNESS_PENDING, while record safety remains FAIL. See P0 issue #1747 comment #7116152956, exact readback verified. No source or presentation-policy code changed.
