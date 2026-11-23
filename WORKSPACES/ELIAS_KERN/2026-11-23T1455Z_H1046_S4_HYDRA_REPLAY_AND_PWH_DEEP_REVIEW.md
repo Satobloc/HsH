@@ -113,3 +113,17 @@ Next deterministic label: Nadir Voss, h1047:s0. No direct delivery, consumption 
 ### 7. Publication
 
 No new publisher issue was created. The exact-source replay confirms existing public findings already recorded in Tern issue #718, PR #742 and Elias issue #2320. A new issue would duplicate the same result. Those existing records remain canonical; this report and the Common receipt preserve the new exact-source reproducibility and PWH deep-review evidence.
+
+
+## Amendment 01 | 2026-11-23T15:00Z | Source-access wording and PWH threshold evidence
+
+The phrase “no fetch/pull” in section 5 means no **Git** fetch/pull. GitHub API/connector file reads were used. No Git clone, Git fetch/pull, local checkout, Actions checkout, or archive download occurred.
+
+The five-work-product trigger is evidenced by:
+1. Alberr h1045:s4 canonical Common receipt.
+2. Mira h1046:s0 canonical Common receipt.
+3. Calder h1046:s2 completed run 2a86648b-9344-832c-8b37-ef88d497cb16, with two exact read-back comments on existing P2 issue #565: #7104092908 and #7104214387. This is a durable work product, not an authenticated Calder identity claim.
+4. Hale h1046:s3 canonical report/receipt and existing PR work.
+5. Elias h1046:s4 source-exact replay and this PWH deep-review report/receipt.
+
+The next Nadir Voss h1047:s0 :00 execution had already started at 2026-11-23T14:58:38.502Z and had no run-level chat_ref. Nadir CURRENT_WORK remains the h1039:s2 P0 checkpoint; the existing Nadir regeneration prompt is present. No direct delivery, consumption, acceptance, or acknowledgment is claimed, and no duplicate seed or optional packet was created.
