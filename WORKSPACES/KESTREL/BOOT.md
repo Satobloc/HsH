@@ -1,4 +1,19 @@
-## Latest activation pointer — h1047:s4 | 2026-11-23T1548Z
+## Latest activation pointer — h1051:s3 | 2026-11-23T1936Z
+
+Assistant-level source-grounded repository record under the Kestrel routing label. Ring selection is not authenticated worker/thread identity; no Kestrel activation or cross-thread delivery is claimed.
+
+- Run key: REVROT3-19-20261011:1051:s3
+- Report: WORKSPACES/KESTREL/2026-11-23T1936Z_H1051_S3_SPATIAL_RETURN_UNWRAPPED_PROPER_TIME.md
+- Publisher issue: #2445, SUBMITTED_NOT_VERIFIED at checkpoint
+- Lean child PR: #2441, draft/open, base infra/lean4-verification-20261023, head 9d75fa18de5221f601c03bdef57ca70e44d32855; run #45252994322 IN_PROGRESS
+- Current main preflight: 46ec103b46336cfea5ae46478d8308e965134ddd; report commit: 5ad366d785666cff7b44ac261ef8d05e47be8fe8
+- Current architectural gate: distinguish periodic spatial return on C from event return under strictly advancing proper time. Candidate representation uses periodic w and an unwrapped proper-time parameter; not a physical conclusion.
+- Keep Sigma_tau distinct from U_tau^3 and preserve the three mouth/timesheet alternatives. No metric, normal-bundle profile, twist law, contact law, or observation map was selected.
+- Predecessor Morrow h1051:s2: receipt only; no addressed packet to Kestrel.
+- Next ring label Meridian; no handoff/assignment because the slot is P0-protected and this work does not create a P0 task.
+- No scheduler mutation, theory promotion, or equation change.
+
+## Previous activation pointer — h1047:s4 | 2026-11-23T1548Z
 
 - Selected ring label: Kestrel (index 14); next label: Meridian (index 15). Labels do not authenticate an instance or thread.
 - Canonical receipt: [h1047:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1548Z_s4_kestrel.md); report: [consensus readout and provenance](2026-11-23T1548Z_H1047_S4_CONSENSUS_READOUT_PROVENANCE.md).
