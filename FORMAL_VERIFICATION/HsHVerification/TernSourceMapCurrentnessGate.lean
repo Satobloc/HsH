@@ -79,7 +79,7 @@ structure CorrectionDispositionRecord where
 /-- Event IDs represented by the disposition records. -/
 def dispositionEventIds
     (records : List CorrectionDispositionRecord) : Finset String :=
-  records.foldl (fun ids record => ids.insert record.eventId) ∅
+  records.foldl (fun ids record => Finset.insert record.eventId ids) ∅
 
 /-- Event IDs whose current disposition is unresolved. -/
 def unresolvedCorrectionEventIds
@@ -87,7 +87,7 @@ def unresolvedCorrectionEventIds
   records.foldl
     (fun ids record =>
       match record.disposition with
-      | CorrectionDisposition.unresolved => ids.insert record.eventId
+      | CorrectionDisposition.unresolved => Finset.insert record.eventId ids
       | _ => ids)
     ∅
 
@@ -150,7 +150,7 @@ structure CurrentSourceMapP2EvidenceBundle
 
 /-- Adding the currentness gate does not discard any existing cross-contract
     evidence. -/
-theorem sourceMapCurrentnessAdmission_preservesCrossContractEvidence
+def sourceMapCurrentnessAdmission_preservesCrossContractEvidence
     {F : ComparisonFreeze} {B : SourceBoundP2Bundle F}
     {K : CrossContractFreezeKey F B}
     {latestCorrectionLedger : ArtifactIdentity}
@@ -165,8 +165,7 @@ theorem sourceMapCurrentnessAdmission_hasCurrentSourceMap
     {F : ComparisonFreeze} {B : SourceBoundP2Bundle F}
     {K : CrossContractFreezeKey F B}
     {latestCorrectionLedger : ArtifactIdentity}
-    (key : SourceMapCurrentnessKey K latestCorrectionLedger)
-    (bundle : CurrentSourceMapP2EvidenceBundle key) :
+    (key : SourceMapCurrentnessKey K latestCorrectionLedger) :
     key.sourceMap = K.sourceCommitmentMap :=
   key.sourceMapMatchesFreeze
 
@@ -176,8 +175,7 @@ theorem sourceMapCurrentnessAdmission_hasLatestCorrectionLedger
     {F : ComparisonFreeze} {B : SourceBoundP2Bundle F}
     {K : CrossContractFreezeKey F B}
     {latestCorrectionLedger : ArtifactIdentity}
-    (key : SourceMapCurrentnessKey K latestCorrectionLedger)
-    (bundle : CurrentSourceMapP2EvidenceBundle key) :
+    (key : SourceMapCurrentnessKey K latestCorrectionLedger) :
     key.correctionLedger = latestCorrectionLedger :=
   key.correctionLedgerMatchesLatest
 
