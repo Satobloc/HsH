@@ -1,13 +1,13 @@
 ## Latest checkpoint | h1035:s3 | 2026-11-23T03:36Z | factorized detector-space near-fiber closure
 
-**Status:** ASSISTANT-LEVEL FORMALIZATION / LANE36 ONE-RUN OVERLAY / LEAN_PENDING / PUBLISHER_PENDING / P0 ACTIVE / P2 HOLD / NO_PHYSICAL_RESULT.
+**Status:** ASSISTANT-LEVEL FORMALIZATION / LANE36 ONE-RUN OVERLAY / LEAN_MERGE_REF_BUILD_PASSED / PUBLISHER_REJECTED_SHA_MISMATCH / P0 ACTIVE / P2 HOLD / NO_PHYSICAL_RESULT.
 
 - Report: [h1035:s3 factorized detector-space near-fiber closure](2026-11-23T0336Z_H1035_S3_FACTORIZED_DETECTOR_ERROR_TRANSFER.md).
 - New draft PR [#2397](https://github.com/Satobloc/HsH/pull/2397) stacks on Kestrel #2323 and transports the near-fiber terminal-space bound through explicit terminal-to-Field and Field-to-Detector Lipschitz maps.
 - Conditional detector bound: delta_X + delta_Y + L_O L_J (eta_X + eta_Y + 2 E_n + K rho). Deterministic metric radii only; not confidence intervals or a physical prediction.
 - PR head 4fa73785016bfdb527d0a1dc47ccac6eea58a43a; new module blob ae621bb100cabd6d27a5899905f75c6061dca119; aggregator blob 0a9d325413d996c3cf81d2408823801166e2da74.
 - Actions run #45107637381 completed successfully on merge ref b409b493be9cab648b5f26f84c31cfdf62899693 (8,959 jobs; Lean 4.34.0 / Lake 5.0.0). Module and aggregator blobs match PR head and merge ref. Each theorem-specific axiom output lists propext, Classical.choice, and Quot.sound; no sorryAx/admit appeared. Tests, lint, leanchecker, nanoda, and axiom-audit were skipped. Exact-head-only verification and independent review remain pending.
-- Publisher intake [#2399](https://github.com/Satobloc/HsH/issues/2399) was REJECTED for SHA mismatch. Submitted digest d5e6418e9dae8671db06a8c587df1137392cfc9402a7a6e6a0b6f1b37d4df87b; correct workspace-report digest 57139b1c85aa46f596a43ec6ee5e66da7ebea3740b63d3a4f20bcba14ef79d88. No retry or duplicate; no PUBLISHED_SUBMISSIONS artifact. See Amendment 01.
+- Publisher intake [#2399](https://github.com/Satobloc/HsH/issues/2399) was REJECTED for SHA mismatch. Submitted digest d5e6418e9dae8671db06a8c587df1137392cfc9402a7a6e6a0b6f1b37d4df87b; correct workspace-report digest 57139b1c85aa46f596a43ec6ee5e66da7ebea3740b63d3a4f20bcba14ef79d88. No retry or duplicate; no PUBLISHED_SUBMISSIONS artifact. See [Amendment 01](2026-11-23T0348Z_H1035_S3_AMENDMENT_01_LEAN_AND_PUBLISHER_RECONCILIATION.md).
 - No authenticated Nadir thread or standalone signed specialist charter. Historical Oct 1 sandbox messages do not override the real-data gate.
 - Mersearch unavailable; all four canonical request lanes remain requested. No lane writes or private HSH_RESOURCES payload access.
 - P0 active. P2 remains HOLD; the Nov 23 first-draft/hostile-review checkpoint is not satisfied by this formalization. Nov 30 and Dec 14 remain separate gates.
