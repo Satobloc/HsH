@@ -128,6 +128,6 @@ Lean checks only the formalized abstract contract. It does not prove that the Py
 
 The existing :36 task remains enabled with ID `6a9f52b69ec08191b0a2ba24a074f781`, its original hourly :36 America/New_York schedule, and Worldtube phase unchanged. The :48 task also remains enabled with its original ID and Review phase. No sixth task, schedule, prompt, phase, task-ID, or ownership change.
 
-The :36 task peek reports run `190458df-6ffc-8328-a042-0acc5f2f1eb9` as `IN_PROGRESS`, scheduled 20:36Z, started 20:36:01.441549Z, `chat_ref=null`. Its cached `latest_result` belongs to Kestrel h1051:s3 (run `59a840a7-1214-832f-b970-1333e259ade9`), not this Sable-labeled invocation. The :48 task had already started its h1052 run before this packet could be delivered. No authenticated Sable or Loom thread, direct delivery, acknowledgment, consumption, or ownership transfer is claimed.
+The :36 task peek reports run `190458df-6ffc-8328-a042-0acc5f2f1eb9` as `IN_PROGRESS`, scheduled 20:36Z, started 20:36:01.441549Z, `chat_ref=null`. Its cached `latest_result` belongs to Kestrel h1051:s3 (run `59a840a7-1214-832f-b970-1333e259ade9`), not this Sable-labeled invocation. The :48 task had already started its h1052 run; no repository handoff packet or direct-thread delivery was attempted. No authenticated Sable or Loom thread, direct delivery, acknowledgment, consumption, or ownership transfer is claimed.
 
 **Next ring label:** Loom. No handoff or response obligation was created.
