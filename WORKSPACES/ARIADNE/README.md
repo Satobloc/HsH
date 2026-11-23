@@ -1,3 +1,13 @@
+
+## Latest Review-MIND checkpoint | h1041:s4 | 2026-11-23
+
+- Corrected report: [TMS accuracy and mixed-saturation exposure audit](2026-11-23T1012Z_H1041_S4_REVIEW_MIND_TMS_AND_SATURATION_EXPOSURE_AUDIT.md)
+- Receipt: [h1041:s4 Ariadne](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1012Z_s4_ariadne.md)
+- Publisher issue #2418: REJECTED_SHA256; no canonical artifact; no retry or duplicate. The rejected issue body also has a run-ID transcription error; the workspace copy corrects it.
+- Existing PR #1115 received a finite AIR-saturation support theorem and peer-identity counterexample. Exact push-head Lean run #45155083233 succeeded; PR remains draft, stacked, and unmerged.
+- Correct ring selection is Ariadne, h1041:s4; next is Alberr. The run started late relative to its nominal 09:48Z occurrence; chat_ref is null.
+- Jan22 Kirk/Riley source recovery remains unresolved. No ownership transfer or direct-thread delivery is claimed.
+
 ## Latest Review-MIND checkpoint | 2026-11-22
 
 - [January 22 source-envelope boundary and provenance QC](2026-11-22_JAN22_SOURCE_ENVELOPE_BOUNDARY_QC.md).

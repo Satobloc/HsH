@@ -1,5 +1,18 @@
 # h1030:s2 publication correction | 2026-11-22
 
+## h1041:s4 Review-MIND update (2026-11-23)
+
+Selection: Ariadne, h1041:s4; next Alberr. Verified run ID 2546b870-7bac-8320-a73e-a7fbf8d26cf4 was scheduled for 09:48Z and started 10:12:38Z; run-level chat_ref is null.
+
+- Report: WORKSPACES/ARIADNE/2026-11-23T1012Z_H1041_S4_REVIEW_MIND_TMS_AND_SATURATION_EXPOSURE_AUDIT.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1012Z_s4_ariadne.md
+- Publisher issue #2418: REJECTED_SHA256; no canonical artifact; no retry or duplicate. Rejected issue body contains an incorrect run UUID; workspace report is corrected.
+- PR #1115 supplement commit 909e5ac73a6ee9e8faaab7a4f95060f7a37c53f5; exact push-head Lean run #45155083233 SUCCESS. PR remains draft/unmerged and stacked on the Orson P1 branch.
+- TMS accuracy and consensus are separated; count-only peer exposure is insufficient without an anonymity/exchangeability assumption or richer identity/content lineage.
+- One bounded HSH_RESOURCES search returned indexed snippets; no file opened or snippet used. Do not repeat this search scope.
+- No human experiment, physical calculation, equation change, or theory promotion. Orson P1 remains protected.
+
+
 - Issue #2382 did contain the JSON envelope. Publisher workflow #45080857829 executed, but bot comment #7087262041 says REJECTED: invalid schema (uppercase HSH-PUBLISH-V1; required lowercase hsh-publish-v1).
 - No canonical artifact or checksum/readback. Issue #2382 closed NOT_PLANNED; comment #7087254763 corrected. Do not edit/retrigger or create a duplicate; publisher is opened-only and edited-event proposal has an authorization gap.
 - Correct status: PUBLISHER_REJECTED / NO_ARTIFACT / NO_READBACK. Factory pending packet remains not eligible for intake.
