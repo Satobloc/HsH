@@ -27,6 +27,9 @@ open HsHVerification.CodeGrurplePresentationOutcome
 def nonemptyString (s : String) : Bool :=
   decide (s.length > 0)
 
+theorem bool_and_true_parts {a b : Bool} (h : a && b = true) : a = true ∧ b = true := by
+  cases a <;> cases b <;> simp_all
+
 /-- One flattened, source-locatable element from a captured accessibility/DOM tree.
     Visibility is the result of the external browser-capture adapter. -/
 structure CapturedElement where
@@ -153,9 +156,9 @@ theorem disclosure_tree_pass_requires_visible_sandbox_classification
     (h : disclosureTreePasses tree review sourceBinding = true) :
     visibleTextPresent tree.elements review.sandboxClassificationText = true := by
   unfold disclosureTreePasses at h
-  rcases Bool.and_eq_true.mp h with ⟨hRest, _⟩
-  rcases Bool.and_eq_true.mp hRest with ⟨hRest2, _⟩
-  rcases Bool.and_eq_true.mp hRest2 with ⟨_, hSandbox⟩
+  rcases bool_and_true_parts h with ⟨hRest, _⟩
+  rcases bool_and_true_parts hRest with ⟨hRest2, _⟩
+  rcases bool_and_true_parts hRest2 with ⟨_, hSandbox⟩
   exact hSandbox
 
 theorem disclosure_tree_pass_requires_visible_review_state
@@ -164,8 +167,8 @@ theorem disclosure_tree_pass_requires_visible_review_state
     (h : disclosureTreePasses tree review sourceBinding = true) :
     visibleTextPresent tree.elements review.reviewStateText = true := by
   unfold disclosureTreePasses at h
-  rcases Bool.and_eq_true.mp h with ⟨hRest, _⟩
-  rcases Bool.and_eq_true.mp hRest with ⟨_, hReview⟩
+  rcases bool_and_true_parts h with ⟨hRest, _⟩
+  rcases bool_and_true_parts hRest with ⟨_, hReview⟩
   exact hReview
 
 theorem disclosure_tree_pass_requires_visible_pinned_source_target
@@ -174,7 +177,7 @@ theorem disclosure_tree_pass_requires_visible_pinned_source_target
     (h : disclosureTreePasses tree review sourceBinding = true) :
     visibleLinkTargetPresent tree.elements sourceBinding.canonicalTarget = true := by
   unfold disclosureTreePasses at h
-  exact (Bool.and_eq_true.mp h).2
+  exact (bool_and_true_parts h).2
 
 theorem accepted_with_disclosure_requires_capture_binding
     (s : State) (e : WorkflowTriggerEvidence)
@@ -189,7 +192,7 @@ theorem accepted_with_disclosure_requires_capture_binding
       simp at h
   | some witness =>
       refine ⟨witness, rfl, ?_⟩
-      exact (Bool.and_eq_true.mp h).2
+      exact (bool_and_true_parts h).2
 
 #print axioms legacy_checks_can_pass_without_visible_disclosures
 #print axioms disclosure_tree_pass_requires_visible_sandbox_classification
