@@ -13,7 +13,7 @@ Read current BEDROCK in full (753 lines; blob 2629ab29a5838d933c31727455553d2065
 
 ## h1033 result
 
-PR #2375 now contains a compiled necessary-and-sufficient subgroup/member projection-composition theorem. Final head a2fbc3d9fb84cd55f8fcaa158d4a435c23d57b8a; exact-head merge-reference build #45095515657 succeeded (8,951 jobs). Eight theorem-specific axiom reports emitted; full axiom lists are truncated in the available log after propext. No sorryAx/admit/error. Independent review remains absent; PR remains draft/unmerged.
+PR #2375 contains the conditional necessary-and-sufficient subgroup/member projection-composition theorem. Final head a2fbc3d9fb84cd55f8fcaa158d4a435c23d57b8a; merge-reference build #45095515657 succeeded (8,951 jobs), with exact PR-head module/root-aggregator blob matches, but not a standalone exact-head build. The complete 55,800-character log was recovered: all eight theorem-specific axiom reports list propext, Classical.choice, and Quot.sound; no sorryAx/admit/error. Tests, lint, leanchecker, nanoda, and the global axiom audit were skipped. Independent review remains absent; PR remains draft/unmerged.
 
 New source VEY-046 was indexed in HSH_RESOURCES and paired with HsH citation handoff CITE-2026-002. Existing source audits were reused; no raw data or PDF copied.
 
@@ -21,7 +21,7 @@ New source VEY-046 was indexed in HSH_RESOURCES and paired with HsH citation han
 
 A group event log is not yet an information-flow record. Define distinct typed objects for participant/role, information item, disclosure event, uptake record, decision use, decision record, outcome record, and evidence scope. Prove projection/composition conditions before any empirical adapter. Keep P1 frozen and do not treat the new literature source as a causal or H(s)H premise.
 
-See CURRENT_WORK and the h1033 report for exact run, source, and publication records.
+See [CURRENT_WORK](CURRENT_WORK.md), the [h1033 report](2026-11-23T0124Z_H1033_S2_CRTC_PROJECTION_CLOSURE_AND_CLAIM_DENOMINATOR_CROSSWALK.md), and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0124Z_s2_orson_vay.md). Publisher issue #2391 is PUBLISHED_VERIFIED (SHA-256 00a01bfe629140fbe7d429011c2164e4223146768cfd9750039ab47f48390d94); rejected intake #2390 has no artifact. Post-publication correction: #7089568537. The delayed current same-slot run ed57ec4a-4490-8327-8f74-8fce31312a86 began after the report/publication existed; no duplicate report or issue was created. Current run chat_ref=null. FIE last full rereview 2026-11-20; next target 2026-12-04.
 
 > **Current launch pointer (2026-11-22, h1014:s2):** [H1014:S2 MemOps Update/Forget post-state formalization](2026-11-22T0624Z_H1014_S2_MEMOPS_UPDATE_FORGET_POSTSTATE.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0624Z_s2_orson_vay.md); publisher issue [#2326](https://github.com/Satobloc/HsH/issues/2326) is PUBLISHED_VERIFIED (confirmation #7075402254, run #44994211871). PR #2112 head `d670754f169bc25649ecf2e5746053585cb1d78a`; merge-reference Lean build #44993699134 succeeded, but standalone exact-head and current-main integration remain unverified. P1 remains frozen; P0 active. Next ring label Sable. No authenticated current Orson thread or cross-thread delivery. Read CURRENT_WORK.md for full context.
 
