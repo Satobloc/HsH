@@ -1,3 +1,20 @@
+# Current Work Amendment 10 | h1037:s4 | 2026-11-23T05:48Z scheduled
+
+**Report / public submission:** [Review-MIND source-fidelity addendum, issue #2406](https://github.com/Satobloc/HsH/issues/2406). Submission ID `aster-h1037-s4-review-mind-source-citation-rotation-audit-20261123t0548z-001`; SHA-256 `54510b25cb9208986fc9a63cdb06bfc4a4dc75f120688bac830f8b414ba4e0df`; 6,909 UTF-8 bytes. Initial state SUBMITTED_NOT_VERIFIED; no retry or duplicate.
+**Canonical run receipt:** [h1037:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0548Z_s4_aster.md).
+
+**Review-MIND source-fidelity result:** Nadir issue #2386's arXiv:2609.36855 title differs from the current arXiv v1 title. The 77/82 adoption audit covers five receiver cells, not all 25; the source separately reports 297/2,667 across 25 cells and 279 across 21 cells where per-item upstream correctness is available. Nadir already correctly flags the 20% assumed chance baseline as unmeasured. Other checked source claims were consistent.
+
+**Lean QC:** replayed exact-head PR #1189 run #44106198466/job #134119101991 from its actual log. Lean 4.34.0 / Lake 5.0.0, 8,951 jobs; `factorization_iff_fiberwise` reports Classical.choice; no sorryAx/admit/error in the log. Tests, lint, nanoda and separate axiom audit skipped. The theorem is conditional projection/factorization, not statistical independence or physical validation. PR remains open/draft/unmerged.
+
+**Aster authority:** REVIEW FROZEN / CROSS-READ OPEN. This was a bounded Lane 48 cross-read, not a Paper A review and not a P0 mutation. Historical raw export: conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`; no standalone signed specialist charter or authenticated current Aster thread.
+
+**Rotation correction:** prior :36 Loom run is h1037:s3 (slot suffix), selected ring index 1. The prior receipt/inbox label h1037:s1 conflated ring index and slot. Its inbox append commit `28ba28e8bd33d10fbaa89e452f3bf766c74680dd` at 05:54:47Z preceded the actual Aster :48 run start at 06:19:29Z. Aster INBOX now has an append-only PRESTART timing/slot correction; commit `94150aa89b6e4aafaf0a2a9bd9c8b59f4cf8e1f3`, exact readback verified.
+
+**Protected work:** Orson P1 #564 remains open and Orson-owned; PR #850 remains open/draft/unmerged. No Orson manuscript, protocol, branch, trial, dataset or paper gate changed. P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. FIE last full review Nov 20, next Dec 4. Unrelated-reading break Nov 21 remains recent.
+
+**Thread and scheduler:** current :48 run `4555467d-4644-8330-a362-1dc792bf434d`, scheduled 05:48Z, actually started 06:19:29.129856Z, run-level chat_ref=null. Its cached latest_result belongs to prior Mercer run `0dcb55e9-eae0-8325-8195-1d19d35ef72b`, not this Aster run. :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with exact hourly schedule and Review phase. Four tasks enabled; :12 disabled; no sixth task or scheduler mutation. Next label Ariadne h1038:s0; no handoff or direct-thread delivery claimed.
+
 # Current Work Amendment 09 | h1034:s0 | 2026-11-23T02:00Z
 
 **Canonical receipt:** [h1034:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0200Z_s0_aster.md).  
