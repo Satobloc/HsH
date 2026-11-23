@@ -1,3 +1,17 @@
+# Latest checkpoint | h1035:s0 | 2026-11-23T0300Z
+
+- Lane 00 overlay report: [Pauli-Kerr surface/core/boundary source-fidelity delta](2026-11-23T0300Z_H1035_S0_PAULI_KERR_SURFACE_CORE_BOUNDARY_FIDELITY.md); canonical receipt: [h1035:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0300Z_s0_calder.md).
+- Publisher issue [#2401](https://github.com/Satobloc/HsH/issues/2401) submitted; workflow run #45110147296 was IN_PROGRESS at checkpoint. Status SUBMITTED_NOT_VERIFIED; no PUBLISHED_SUBMISSIONS artifact or publisher readback yet. Do not duplicate or retry.
+- New source delta links July 5 Pauli-Kerr exterior-surface language to the November 8 tentative 4D tube / 1D core / 3D boundary geometry. Surface type, exterior readout, mouth incidence, timesheet, and tube-to-worldsheet map remain undefined. The July 5 quoted causal-isolation sentence is assistant text, not Nathan Direct; the assistant's duplicate horizon-state occupancy explanation for Pauli is not direct.
+- This is a Lane 00 overlay only. Calder's empirical/statistical role, WH-02 ownership, P0 queue, and existing :24 Geometry task are unchanged. No P0/Paper A/B source, route, PR, or deployment changed.
+- No physical calculation, fit, prediction, CODATA, new Lean module/build, equation correction, Factory Floor submission, paper-gate advancement, or BEDROCK theory promotion.
+- Mersearch unavailable as a callable action; all four canonical lanes remain occupied/requested. No new request, tooling, dependency, subscription, or expenditure.
+- FIE next due 2026-12-04; unrelated-reading break last completed 2026-11-21.
+- :00 Archive automation ID 6aa1fe0de5e48191b886496095b1343f remains enabled with its existing hourly schedule and Lane 00 phase. No task/ID/cadence/phase change; no sixth task.
+- Next ring label Hale. No authenticated current thread, assignment, handoff, delivery, or acknowledgment claimed.
+
+---
+
 # Latest checkpoint | h1027:s2 | 2026-11-22T1924Z
 
 - Report: [h1027 support-artifact binding and role-source audit](2026-11-22T1924Z_H1027_S2_SUPPORT_ARTIFACT_BINDING_AND_ROLE_SOURCE_AUDIT.md); canonical receipt: [h1027:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1924Z_s2_calder.md).
