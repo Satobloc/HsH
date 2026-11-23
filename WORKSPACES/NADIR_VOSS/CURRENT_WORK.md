@@ -1,3 +1,22 @@
+## Latest checkpoint | h1047:s0 | 2026-11-23T15:00Z | Lane 00 geometry-fidelity overlay
+
+**Status:** SOURCE-FIDELITY COMPLETE / AFFINE EQUIVALENCE PROVED AND COMPILED / PUBLICATION VERIFIED / NO PHYSICAL RESULT / NO THEORY PROMOTION.
+
+- Canonical receipt: [h1047:s0 Nadir](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1500Z_s0_nadir_voss.md).
+- Full report: [Rotoexpando geometry fidelity and dimensional crosswalk](2026-11-23T1500Z_H1047_S0_ROTOEXPANDO_GEOMETRY_FIDELITY_AND_DIMENSIONAL_CROSSWALK.md), SHA-256 edf698634a2801ab7b30f6d7e8e18e87237d8a64ad8d50941dceb1aa6b7ac6ef.
+- Public-safe synopsis: [issue #2430](https://github.com/Satobloc/HsH/issues/2430), artifact SHA-256 1f09cee77c2ab29998ad84b6884348fda337af39b70c4f4494a7a4d81fbf52cb, exact publisher/readback verification.
+- Existing [PR #1189](https://github.com/Satobloc/HsH/pull/1189) extended, not replaced. Head 56a367b05ef92e5d740641740d432820b63be669; [Lean run #45208539912](https://github.com/Satobloc/HsH/actions/runs/45208539912) succeeded on the final head, Lean 4.34.0 / Lake 5.0.0 / 8,961 jobs. Theorem-specific axioms: propext, Classical.choice, Quot.sound. Tests, lint, nanoda, and global axiom audit skipped. PR remains draft/unmerged/unreviewed.
+- Source cluster: 24 relevant direct user messages in the 2024 dimensional-gravity export; all 8 user messages in the June 2026 GR/string-theory export; 674-line Rotoexpando geometry manuscript; SAT-O1 original; Blockwave attachment and event lineage. Exact source hashes, dates, message IDs, and the separate original/correction record are in the report.
+- Key distinction: 1D filament ∩ 3D timesheet -> point; 2D Blockwave worldsheet ∩ 3D timesheet -> loop; 4D finite-core tube ∩ 3D timesheet -> region. These are not interchangeable without explicit thickening/projection/readout maps.
+- The point-pair-to-oriented-affine-segment relation P + u(Q-P) for u in [0,1] is formally proved with endpoint recovery and injectivity. This is a pure coordinate theorem, not a physical equivalence.
+- No authenticated current Nadir thread or standalone signed Nadir specialist charter was recovered. Routing label is not an agent identity. No cross-thread delivery is claimed.
+- Lane 24 Cycle 08 remains COMPLETE / BACKSEAT / HOLD. P0 record-safety fail/snapshot-freshness pass remains unchanged. PWH graph and ownership unchanged.
+- P0 ACTIVE; P1 OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. No paper gate advanced.
+- FIE last fully reviewed 2026-11-20; next 2026-12-04. Unrelated-reading break last completed 2026-11-21.
+- Mersearch unavailable as callable action; all four request lanes remain occupied/requested. No overwrite/retrigger. No physical calculation, fit, prediction, independent measurement, CODATA scoring, or theory promotion.
+- Next ring label: Enheduanna. Optional repository-only context packet is in the common handoff directory and Enheduanna INBOX. ChatGPT-thread delivery NOT SENT; no acknowledgment or consumption implied.
+- Existing :00 automation remains unchanged. No task/ID/cadence/phase mutation, sixth task, signet, or chat rename.
+
 ## Latest checkpoint | h1039:s2 | 2026-11-23T07:24Z | P0 discovery currentness / Lane 24 hold
 
 **Status:** ASSISTANT-LEVEL SOURCE-GROUNDED CONTROL-PLANE / P0 RECORD-SAFETY FAIL + SNAPSHOT-FRESHNESS PASS / LANE24 CYCLE08 COMPLETE-BACKSEAT-HOLD / NO PHYSICAL RESULT.
