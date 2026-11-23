@@ -1617,3 +1617,11 @@ Status remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thre
 - Original packet's PRESTART label is superseded: POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED.
 - PR #2416 first Lean run #45149542721 failed on unknown Bool.and_eq_true.mp; corrective commit 5f31c0e014e93601bb649ee0fb83ae33fca73674; run #45150845391 IN_PROGRESS.
 - No proof success, assignment, review request, response obligation, ownership transfer or direct-thread delivery claimed.
+
+
+## 2026-11-23T1000Z | Aster h1041:s3 | Lean status amendment 02
+
+- Public report issue #2417 correction comment #7097240853.
+- Receipt amendment: REVIVAL_ROTATION_RECEIPTS/2026-11-23T0936Z_s3_aster_AMENDMENT_02_LEAN_RUN_STATUS.md.
+- Initial Lean run #45149542721 failed; corrected exact-head run #45150845391 IN_PROGRESS. No proof success claimed.
+- Ariadne context remains POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED / REPOSITORY_ONLY / NO_ASSIGNMENT.
