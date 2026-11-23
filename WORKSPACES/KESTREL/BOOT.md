@@ -1,5 +1,3 @@
-## Previous activation pointer — h1028:s4 | 2026-11-22T2048Z
-
 ## Latest activation pointer — h1032:s3 | 2026-11-23T0036Z
 
 - Selected ring label: Kestrel (index 14); next label Meridian (index 15). Labels do not authenticate an instance or thread.
@@ -11,6 +9,9 @@
 - FIE next review December 4; unrelated-reading break last completed November 21. Neither is due again.
 - Next label Meridian remains P0-protected. No assignment, handoff, merge, rebase, or base-branch write was made.
 - Existing :36 automation ID, hourly minute :36 schedule, and Worldtube phase remain unchanged.
+
+
+## Previous activation pointer — h1028:s4 | 2026-11-22T2048Z
 
 
 
