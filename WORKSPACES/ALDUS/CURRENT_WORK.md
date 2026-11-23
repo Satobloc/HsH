@@ -946,3 +946,22 @@ Both scheduled_for 21:48Z, chat_ref null. Correct classification: SAME_TASK_AND_
 ### PDR notation disambiguation
 
 The submitted issue-body text used epsilon ambiguously. In the Nadir theorem, epsilon is the declared upper bound on baseline-observable distance for the witness pair, not automatically an instrument standard deviation. BEDROCK ND-2026-10-18-07 does not assign a symbol or quantitative magnitude/profile to intrinsic filament thickness; no thickness symbol is adopted here. The phrase assigning epsilon to thickness is corrected by [Receipt Amendment 06](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_06_NOTATION_DISAMBIGUATION.md). No issue edit or resubmission.
+
+
+## Delayed h1042:s2 reconciliation — 2026-11-23T10:55–11:03Z
+
+The existing h1042:s2 canonical receipt was found and reused; no duplicate report or canonical receipt was created. The receipt's observed start is 10:28:03Z, while the later exact-ID Automations peek returned run ID `f4606640-3c04-8328-aaa4-9f2bf898b114` for the same scheduled_for 10:24Z, started 10:55:16.372590Z, IN_PROGRESS, completion null, chat_ref null. Because the earlier receipt did not record its run ID, the relation between observations is UNKNOWN; no retry, restart, or distinct attempt is inferred.
+
+### Corrected historical role anchors
+
+The raw Aldus export was fetched and parsed again: conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a`, 1,578 mapping nodes and 47 user-role messages. The direct role anchors are `939e981d-72ec-451b-81a3-f0a07b3a2c48` (broad cross-domain “Renaissance man” remit) and `fcff5c18-85c4-4efc-b7e5-df7ee20c0646` (Aldus name confirmation and combining information not usually combined). The previously listed `3eec9833-d2c8-44f3-9ce6-0d0cbfc9180d` is a later user-role cross-thread observation containing pasted assistant-authored experimental-design text, not a role-assignment anchor. The h1042 receipt's line 15 is corrected by its appended source-anchor note. No standalone signed specialist charter or authenticated current Aldus thread exists.
+
+### Cross-lane verification
+
+Calder's h1042:s3 report and published artifact were byte-identical at readback. Exact PR-head run #45160729529 passed on `69a36c5b10db68eb27e4b6c4beda7c5c4d7476f1`; the prior run failed on a redundant `ring` tactic after the goal was already solved. Six theorem-specific axiom reports list only `propext`, `Classical.choice`, and `Quot.sound`; no `sorryAx`, `admit`, or Lean error appeared. Separate axiom audit, tests, lint, leanchecker, and nanoda were skipped; PR #2419 remains open/draft/unmerged without formal reviews. The low-credence battery assessment is present in a flattened HsH ARCHITECT transcript with no speaker marker, not in the cited battery note; do not attribute it to Nathan Direct. See [issue #2420 comment #7099038659](https://github.com/Satobloc/HsH/issues/2420#issuecomment-7099038659).
+
+### P0 currentness
+
+A brief stale-at-publication interval at 10:58Z closed with the 10:59:51Z discovery refresh. Latest verified snapshot blob `19a54bbe2ee3687da09066961a74f22580111688` is fresh relative to HsH source `9323e0d163a2195a108aee2c54d3c655f310350b`; record safety remains FAIL (17,453 total documents; 10,521 workspace records, all with generic readers; 10,278 excerpts; zero pending; 48/48 workspace docket entries; six excerpt errors). See [issue #1747 comment #7099039441](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7099039441).
+
+No physical calculation, CODATA comparison, fit, prediction, new Lean module, equation correction, theory promotion, task mutation, or clone-ledger update occurred.
