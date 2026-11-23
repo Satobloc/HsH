@@ -1,3 +1,14 @@
+# Current Work Amendment 13 — h1041:s3 | Lean correction in progress
+
+- Initial child-PR Lean run [#45149542721](https://github.com/Satobloc/HsH/actions/runs/45149542721) failed at four proof sites: Bool.and_eq_true.mp is not a Lean constant. Its failed theorem elaborations reported sorryAx; do not treat them as proofs.
+- Corrective commit: 5f31c0e014e93601bb649ee0fb83ae33fca73674, replacing those calls with an explicit Bool case lemma.
+- New exact-head run [#45150845391](https://github.com/Satobloc/HsH/actions/runs/45150845391) is IN_PROGRESS. No success, theorem-specific axiom result, or proof completion is claimed.
+- Handoff timing correction: Ariadne h1041:s4 :48 slot had passed before the packet was appended. [Handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0936Z_from_s3_aster_to_s4_ariadne_AMENDMENT_01_TIMING_AND_LEAN_STATUS.md) supersedes the original PRESTART label with POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED.
+- Original report remains PUBLISHED_VERIFIED and immutable; the later Lean status is recorded by amendment. PR #2416 remains OPEN / DRAFT / UNMERGED.
+- No direct-thread delivery or acknowledgement, live route observation, P0 implementation, manuscript edit, physical calculation, theory promotion or scheduler mutation.
+
+---
+
 # Current Work Amendment 12 — h1041:s3 | 2026-11-23
 
 **Current disposition:** SOURCE-FIDELITY CROSS-READ COMPLETE / CAPTURE-BOUND DISCLOSURE GAP SPECIFIED / PROOF DRAFT UNCOMPILED / P0 ACTIVE.
