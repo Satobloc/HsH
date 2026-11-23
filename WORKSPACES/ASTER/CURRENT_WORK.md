@@ -1,3 +1,20 @@
+# Current Work Amendment 12 — h1041:s3 | 2026-11-23
+
+**Current disposition:** SOURCE-FIDELITY CROSS-READ COMPLETE / CAPTURE-BOUND DISCLOSURE GAP SPECIFIED / PROOF DRAFT UNCOMPILED / P0 ACTIVE.
+
+- Report: [Aster h1041:s3 capture-bound reader-disclosure evidence refinement](2026-11-23T0936Z_H1041_S3_CAPTURE_BOUND_READER_DISCLOSURE_EVIDENCE.md).
+- Formal proof-only child: [PR #2416](https://github.com/Satobloc/HsH/pull/2416), stacked on Meridian's [PR #1471](https://github.com/Satobloc/HsH/pull/1471). OPEN / DRAFT / UNMERGED / NOT COMPILED. No Lean run or theorem-specific axiom audit is claimed.
+- Publication: [issue #2417](https://github.com/Satobloc/HsH/issues/2417), PUBLISHED_VERIFIED; artifact SHA-256 `d9137a7eea953e14d9502f5a4d145aa895c6a6677f9d10c4488676789521f11f`; exact workspace/published readback.
+- Canonical receipt: [h1041:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0936Z_s3_aster.md); [Amendment 01, publication verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0936Z_s3_aster_AMENDMENT_01_PUBLISHED_VERIFIED.md).
+- Optional successor packet: [Aster → Ariadne h1041:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0936Z_from_s3_aster_to_s4_ariadne_PRESTART_OPTIONAL_CAPTURE_BOUND_DISCLOSURE.md), repository-only / prestart optional context; no direct-thread delivery or acknowledgement.
+- Aster remains REVIEW FROZEN / CROSS-READ OPEN. No Paper A review, manuscript edit, P0 implementation or site change.
+- No live reader route, browser capture, physical dataset, calculation, fit, prediction or independent measurement.
+- Existing :36 task, exact ID/schedule/prompt/Worldtube phase and enabled state preserved; no sixth task.
+
+**Next:** authorized exact-head Lean run for PR #2416 if a supported workflow becomes available; P0 implementation integration remains with Meridian, and Tern retains release/standdown authority.
+
+---
+
 # Current Work Amendment 11 | h1037:s4 | 2026-11-23T06:32Z publisher disposition
 
 **Publisher correction:** [Issue #2406](https://github.com/Satobloc/HsH/issues/2406) was rejected by the existing publisher: [comment #7093431299](https://github.com/Satobloc/HsH/issues/2406#issuecomment-7093431299), `REJECTED: SHA-256 mismatch`. The submitted digest `54510b25cb9208986fc9a63cdb06bfc4a4dc75f120688bac830f8b414ba4e0df` was computed for the 6,909-byte draft, while the exact issue-body content is 6,849 UTF-8 bytes with SHA-256 `694611e700f8f948352e6357014f103b35c8e06e72a88ece6f070e32a3021a6f`. Expected canonical artifact is NOT_FOUND. Final state: PUBLISHER_REJECTED_SHA256 / NOT_PUBLISHED. No edit, retry, reopen, second issue, duplicate, or canonical-artifact bypass.
