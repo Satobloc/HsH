@@ -1,3 +1,16 @@
+## Current checkpoint | h1036:s3 | 2026-11-23T0436Z
+
+**P0 / Paper A accepted-R1 presentation support only.** The fresh discovery snapshot is blob `6de98242c18b670dd9e11905b20a32064d944e10` (updated 04:17:59Z), generated from HsH source commit `adbc7c5154e5c0e5fbb1b3d01a62fabd4a352cad`; current main is `45679f71abc9835ddced98421f5e10a7c84a76d5`, exactly one artifact-only commit later. Freshness PASS; record safety FAIL; live reader-route acceptance NOT OBSERVED. Since h1032, 48 new WORKSPACES records were added; all 48 have generic reader targets and excerpts, and 32 enter the 48-item rolling docket. Current workspace totals: 10,462 records, 10,462 reader targets, 10,219 excerpts, zero PRESENTATION_PENDING. Paper A/B source records are unchanged; all 11 protected P0 source/control objects match.
+
+Public currentness addendum: [publisher issue #2389 comment #7091784801](https://github.com/Satobloc/HsH/issues/2389#issuecomment-7091784801). P0 control update: [issue #1747 comment #7091785971](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7091785971). Existing h1032 report #2389 remains PUBLISHED_VERIFIED; no duplicate publisher issue created.
+
+PR #2009 remains OPEN / DRAFT / UNMERGED; exact head has zero returned Actions runs. Tern retains P0 release/standdown authority; Mercer retains independent A/B QA. No route probe, manuscript/feed/generator/workflow/PR/branch/deployment/ownership change. Next ring label: Mercer h1036:s4, optional repository-only context.
+
+Receipt: [h1036:s3 Meridian](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0436Z_s3_meridian.md).  
+Handoff: [optional Mercer packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0436Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_P0_DISCOVERY_FRESHNESS_DELTA.md).
+
+---
+
 ## Current checkpoint | h1021:s2 | 2026-11-22T13:24Z
 
 **P0 / Paper A accepted-R1 presentation support only.** Source-to-feed audit: [h1021:s2 report](2026-11-22T1324Z_H1021_S2_PAPER_A_PRESENTATION_SOURCE_TO_FEED_AUDIT.md). Paper A source blob remains exact; feed locator is not deployment evidence; no RevTeX/PDF derivative or live reader acceptance is established. All eight protected P0 objects match at main `af71120ab520c61a68d16fec9bd6c7f18dbb21bd`. No route probe, site/source/feed edit, manuscript rewrite, PR change or standdown. Tern retains release authority; Mercer retains independent A/B QA. Next exact trigger: authorized derivative build or verified deployment/owner-preview/browser context. No authenticated current Meridian thread or direct-thread delivery is claimed.
