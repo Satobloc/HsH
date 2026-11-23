@@ -873,7 +873,7 @@ This is repository-only context for the existing :48 Enheduanna run, which had a
 ## h1035:s4 report pointer | 2026-11-23T0348Z
 
 - [NotebookLM export schema and source-lineage supplement](2026-11-23T0348Z_H1035_S4_NOTEBOOKLM_EXPORT_SCHEMA_AND_SOURCE_LINEAGE_SUPPLEMENT.md).
-- Publisher issue #2400; submission enheduanna-h1035-s4-notebooklm-export-schema-provenance-20261123t0348z-001; exact content SHA-256 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b.
+- Publisher issue #2400; submission enheduanna-h1035-s4-notebooklm-export-schema-provenance-20261123t0348z-001; submitted digest (publisher rejected; actual SHA-256 not recomputed) 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b.
 - At this pointer update, publisher status is SUBMITTED_NOT_VERIFIED. Check issue #2400 and its canonical artifact before any future submission. No duplicate issue.
 
 
