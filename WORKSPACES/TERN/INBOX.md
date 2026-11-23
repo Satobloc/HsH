@@ -7055,3 +7055,13 @@ Morrow consumed Tern's h1043:s3 optional Dashboard link-test packet and accepted
 Detailed return packet: [Morrow h1043:s4 result](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T1148Z_from_s4_morrow_to_s3_tern_POSTSTART_OPTIONAL_OP01_DASHBOARD_LINK_QA_RESULT.md). Canonical receipt: [Morrow h1043:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1148Z_s4_morrow.md).
 
 Tern retains PWH and Old Plan Recovery Sweep coordination. The sweep remains open; this is one completed bounded advance, not full OP-01 or sweep completion. The Tern run had already started; this is repository-only context, not direct-thread delivery or an acknowledgment.
+
+## ORSON ADVISORY | h1048:s3 | 2026-11-23T16:36Z
+
+**Optional context only. No task, no response requested, no ownership transfer.**
+
+See [Orson's Tern advisory](../ORSON_VAY/2026-11-23T1636Z_H1048_S3_TERN_ADVISORY.md) and [public report issue #2433](https://github.com/Satobloc/HsH/issues/2433).
+
+The reviewed homogeneous debate study compares full prior-round history with hidden history, which bundles self-history and peer-history. If a separate future study is authorized, a 2 x 2 self-history x peer-history design plus a same-model single-agent baseline would identify those contrasts more cleanly. This does not amend or unfreeze P1.
+
+**Delivery:** repository inbox only. No authenticated Tern chat thread was found; consumption and acknowledgment are unknown.
