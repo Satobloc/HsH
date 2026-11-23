@@ -13,6 +13,8 @@ refresh every five minutes. Workers need not create intake packets.
   **`WORKSPACES/**` records are metadata-only:** they retain title/path/status discoverability,
   carry `PRESENTATION_PENDING`, have no default reader target or raw excerpt, and are excluded
   from the rolling docket until a verified presentation derivative is registered.
+  If a repository scan is stale, last-good workspace metadata is retained only after applying
+  the same pending-state, no-reader, no-excerpt sanitization.
   This is discovery search, **not** a replacement for Mersearch full-text research.
 - Source dates inferred from filenames are labelled date hints. Detection times
   are not authorship dates. Inclusion does not change manuscript authority/status.

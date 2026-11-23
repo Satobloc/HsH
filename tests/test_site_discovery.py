@@ -44,6 +44,35 @@ class DiscoveryTests(unittest.TestCase):
    self.assertIn('hsh:'+regular,d['docket'])
    self.assertEqual(docs[regular]['reader'],m.route('hsh',regular))
    self.assertEqual(docs[regular]['excerpt'],'approved excerpt')
+ def test_stale_repository_sanitizes_legacy_workspace_records(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp);out=root/'out';trees=root/'trees';trees.mkdir()
+   workspace='WORKSPACES/PAPERS/BOUNDARY_WEAK_EMISSION_2026-09-22/DRAFT_R1.md'
+   regular='LIBRARY/presented/reader-approved.md'
+   old=[
+    {'id':'hsh:'+workspace,'repo':'hsh','path':workspace,'sha':'workspace-sha','size':20,'kind':'md','title':'Paper B','reader':'reader.html?mode=browse&path='+workspace,'excerpt':'legacy raw excerpt','excerpt_scope':'legacy','first_seen':'first','changed_at':'old','revision_detected':False},
+    {'id':'hsh:'+regular,'repo':'hsh','path':regular,'sha':'regular-sha','size':20,'kind':'md','title':'Approved reader','reader':'reader.html?mode=browse&path='+regular,'excerpt':'approved excerpt','excerpt_scope':'approved source','first_seen':'first','changed_at':'old','revision_detected':False}
+   ]
+   m.atomic(out/'discovery.json',{'documents':old,'docket':[x['id'] for x in old],'visuals':[]})
+   m.atomic(trees/'hsh.json',{'sha':'last-good-hsh','truncated':True,'tree':[]})
+   m.atomic(trees/'sat.json',{'sha':'current-sat','truncated':False,'tree':[{'type':'blob','path':'archive.pdf','sha':'pdf-sha','size':20}]})
+   args=argparse.Namespace(out=str(out),tree_dir=str(trees),excerpts=10)
+   self.assertEqual(m.run(args),2)
+   d=m.load(out/'discovery.json',{});docs={x['path']:x for x in d['documents']}
+   self.assertEqual(d['repositories']['hsh']['status'],'stale')
+   self.assertEqual(d['repositories']['sat']['status'],'complete')
+   stale=docs[workspace]
+   self.assertEqual(stale['sha'],'workspace-sha')
+   self.assertEqual(stale['title'],'Paper B')
+   self.assertIsNone(stale['reader'])
+   self.assertEqual(stale['presentation_state'],'PRESENTATION_PENDING')
+   self.assertNotIn('excerpt',stale)
+   self.assertNotIn('excerpt_scope',stale)
+   self.assertNotIn('hsh:'+workspace,d['docket'])
+   control=docs[regular]
+   self.assertEqual(control['reader'],'reader.html?mode=browse&path='+regular)
+   self.assertEqual(control['excerpt'],'approved excerpt')
+   self.assertIn('hsh:'+regular,d['docket'])
  def test_truncated_tree_walk(self):
   with patch.object(m,'api',side_effect=[{'sha':'root','truncated':True,'tree':[]},{'tree':[{'type':'tree','path':'nested','sha':'dir'}]},{'tree':[{'type':'blob','path':'a.pdf','sha':'a'}]}]):self.assertEqual(m.tree('Satobloc/HsH')['tree'][0]['path'],'nested/a.pdf')
 if __name__=='__main__':unittest.main()

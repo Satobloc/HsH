@@ -91,7 +91,24 @@ def run(args):
             if not data or data.get('truncated') or not isinstance(data.get('tree'),list): raise ValueError('Incomplete tree')
             repos[name]={'repository':repo,'commit':data['sha'],'status':'complete','checked_at':stamp}
         except Exception as e:
-            repos[name]={'repository':repo,'status':'stale','error':str(e)};documents.extend(x for x in old.values() if x['repo']==name);visuals.extend(previous.get('visuals',[]) if name=='hsh' else []);errors.append(name+': '+str(e));continue
+            repos[name]={'repository':repo,'status':'stale','error':str(e)}
+            for prior in old.values():
+                if prior.get('repo') != name:
+                    continue
+                if workspace_record(prior.get('path','')):
+                    # Preserve last-good metadata, but never retain raw reader/excerpt
+                    # surfaces from an older workspace snapshot.
+                    safe=dict(prior)
+                    safe['reader']=None
+                    safe['presentation_state']='PRESENTATION_PENDING'
+                    safe.pop('excerpt',None)
+                    safe.pop('excerpt_scope',None)
+                    documents.append(safe)
+                else:
+                    documents.append(prior)
+            visuals.extend(previous.get('visuals',[]) if name=='hsh' else [])
+            errors.append(name+': '+str(e))
+            continue
         for f in data['tree']:
             if f['type']!='blob' or not eligible(f['path']):continue
             ident=name+':'+f['path'];prior=old.get(ident);changed=not prior or prior['sha']!=f['sha'];ext=Path(f['path']).suffix.lower()[1:]
