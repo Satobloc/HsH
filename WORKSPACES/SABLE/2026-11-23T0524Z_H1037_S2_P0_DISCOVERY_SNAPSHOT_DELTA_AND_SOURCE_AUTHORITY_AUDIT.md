@@ -190,3 +190,8 @@ No authenticated current Sable thread or current run-level thread reference was 
 - **NEXT:** Tern's P0 reconciliation/release process; Mercer independent A/B QA; preserve the existing stale-fallback regression gap for authorized implementation.
 - **STOP:** no route probe, rebase, merge, deployment, source repair, new Lane 24 cycle, new theorem, or BEDROCK promotion without its controlling authority and evidence.
 - **RETURN:** issue #1747 comment #7092483884; this report; canonical h1037:s2 receipt; Sable `CONTINUITY_CHECKPOINT.md`; Sable h1033 terminal-map artifact/issue #2392.
+
+
+## Amendment 01 | clone-ledger reconciliation
+
+The append-only clone/provisioning ledger now includes five API-only events for this run (HsH read, SAT archive read, HSH_RESOURCES front-door read, HsH write, HsH final readback). Final `CLONE_LEDGER.jsonl` blob: `6f0c1ef0589391a53205029840f6d72ca2223fc4`; 480 JSONL rows, 477 unique populated event IDs, 3 legacy missing IDs preserved, zero parse errors, zero duplicate populated IDs. No local clone, checkout, pull or archive download occurred. The ledger update commit is `587ab528fc7780c67649020f6104a1ecb1a615a6`.
