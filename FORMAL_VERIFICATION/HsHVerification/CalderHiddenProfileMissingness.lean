@@ -48,9 +48,12 @@ theorem binary_missingness_rate_bounds
   have hLow : (observedSuccesses : ℚ) ≤
       (observedSuccesses + missingSuccesses : ℚ) := by
     exact_mod_cast hLowNat
-  have hHigh : (observedSuccesses + missingSuccesses : ℚ) ≤
-      (planned : ℚ) := by
-    exact_mod_cast hTotal
+  have hUpperNat : observedSuccesses + missingSuccesses ≤
+      observedSuccesses + (planned - observed) := by
+    exact Nat.add_le_add_left hMissing observedSuccesses
+  have hUpper : (observedSuccesses + missingSuccesses : ℚ) ≤
+      (observedSuccesses + (planned - observed) : ℚ) := by
+    exact_mod_cast hUpperNat
   have hObservedLePlanned : observed ≤ planned := by
     omega
   constructor
@@ -61,7 +64,7 @@ theorem binary_missingness_rate_bounds
     ·
       simpa only [Nat.cast_add, Nat.cast_sub hObservedLePlanned,
         add_sub_cancel_left] using
-        (div_le_div_of_nonneg_right hHigh hDen)
+        (div_le_div_of_nonneg_right hUpper hDen)
     · exact hTotal
 
 /-- Source-derived instantiation: 0 observed successes in 5 observed
