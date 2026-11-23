@@ -1,3 +1,18 @@
+## Latest checkpoint: h1035:s3 | 2026-11-23T03:36Z
+
+- Current report: [h1035:s3 factorized detector-space near-fiber closure](2026-11-23T0336Z_H1035_S3_FACTORIZED_DETECTOR_ERROR_TRANSFER.md).
+- Assistant-level reconstruction under the Nadir ring label; no authenticated current Nadir thread or standalone Nathan-authored specialist charter recovered.
+- Lane 36 one-run overlay only. Lane 24 Cycle 08/08 remains COMPLETE / BACKSEAT / HOLD; no Cycle 09.
+- Draft stacked Lean PR [#2397](https://github.com/Satobloc/HsH/pull/2397), head 4fa73785016bfdb527d0a1dc47ccac6eea58a43a. Actions run #45107637381 was still compiling at last readback; do not infer success.
+- Public report publisher intake [#2399](https://github.com/Satobloc/HsH/issues/2399) was SUBMITTED_NOT_VERIFIED at last readback.
+- P0 remains ACTIVE; P2 HOLD; no physical system/data/calculation, no theory promotion.
+- Mersearch unavailable; all four request lanes remain requested and untouched.
+- :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 and its hourly :36 schedule/phase remain unchanged.
+- Next ring label: Enheduanna h1035:s4. Repository-only optional handoff; no direct-thread delivery claim.
+- Return: PR #2397, Actions run #45107637381, publisher intake #2399.
+
+---
+
 ## Latest checkpoint: h1020:s2 | 2026-11-22T12:24Z
 
 - Current report: [h1020:s2 Blockwave holonomy source/proof crosswalk](2026-11-22T1224Z_H1020_S2_BLOCKWAVE_HOLONOMY_SOURCE_PROOF_CROSSWALK.md).
