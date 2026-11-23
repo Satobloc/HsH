@@ -109,6 +109,59 @@ theorem inverseGraticule_involutive {α : Type*}
   funext p
   simp [inverseGraticule, mirrorLR]
 
+
+/-!
+## Scalar mirror decomposition
+
+The direct source asks for ordinary/anti graticulae that differ only by a
+left/right display reflection, then separately asks for a CMY-style
+cancellation *display*. For a real-valued scalar metric field, the signed
+half-difference below is its mirror-odd component. This is an algebraic
+display-field result only: it does not define CMY color mixing, a physical
+cancellation operator, or cancellation of the underlying graticulae.
+-/
+
+/-- Mirror-even component of a real-valued scalar display field. -/
+def mirrorEvenPart (ordinary : ℝ × ℝ → ℝ) (p : ℝ × ℝ) : ℝ :=
+  (ordinary p + ordinary (mirrorLR p)) / 2
+
+/-- Mirror-odd component, or signed half-difference, of a scalar field. -/
+def mirrorOddPart (ordinary : ℝ × ℝ → ℝ) (p : ℝ × ℝ) : ℝ :=
+  (ordinary p - ordinary (mirrorLR p)) / 2
+
+/-- The mirror-even component is invariant under left/right reflection. -/
+theorem mirrorEvenPart_invariant (ordinary : ℝ × ℝ → ℝ) (p : ℝ × ℝ) :
+    mirrorEvenPart ordinary (mirrorLR p) = mirrorEvenPart ordinary p := by
+  rcases p with ⟨u, v⟩
+  simp [mirrorEvenPart, mirrorLR]
+  ring
+
+/-- The signed residual changes sign under left/right reflection. -/
+theorem mirrorOddPart_antisymmetric (ordinary : ℝ × ℝ → ℝ) (p : ℝ × ℝ) :
+    mirrorOddPart ordinary (mirrorLR p) = -mirrorOddPart ordinary p := by
+  rcases p with ⟨u, v⟩
+  simp [mirrorOddPart, mirrorLR]
+  ring
+
+/-- Every real scalar field is the sum of its mirror-even and mirror-odd parts. -/
+theorem mirrorEvenOdd_reconstruct (ordinary : ℝ × ℝ → ℝ) (p : ℝ × ℝ) :
+    mirrorEvenPart ordinary p + mirrorOddPart ordinary p = ordinary p := by
+  simp [mirrorEvenPart, mirrorOddPart]
+  ring
+
+/-- The odd residual vanishes on the fixed axis of the mirror. -/
+theorem mirrorOddPart_zero_on_axis (ordinary : ℝ × ℝ → ℝ) (v : ℝ) :
+    mirrorOddPart ordinary (0, v) = 0 := by
+  simp [mirrorOddPart, mirrorLR]
+
+/-- Under the exact source-described mirror pullback, the scalar half-difference
+    is exactly the mirror-odd component. -/
+theorem mirrorResidual_eq_oddPart
+    (ordinary : ℝ × ℝ → ℝ) (p : ℝ × ℝ) :
+    (ordinary p - inverseGraticule ordinary p) / 2 =
+      mirrorOddPart ordinary p := rfl
+
+
 end HsHVerification.MeridianGraticuleSectorParity
 
 #eval Fintype.card HsHVerification.MeridianGraticuleSectorParity.Sector
