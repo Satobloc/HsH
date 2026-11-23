@@ -65,6 +65,18 @@ def pairPresentAt (flow : EvidenceFlow) (stage : FlowStage)
     (pair : EvidencePair) : Prop :=
   itemPresentAt flow stage pair.left ∧ itemPresentAt flow stage pair.right
 
+private theorem itemPresentAt_of_event
+    (flow : EvidenceFlow) (stage : FlowStage) (item : EvidenceItem)
+    (event : DisclosureEvent)
+    (hEvent : event ∈ flow.events)
+    (hStage : event.stage = stage)
+    (hItem : event.itemId = item.itemId) :
+    itemPresentAt flow stage item := by
+  unfold itemPresentAt
+  apply Finset.card_pos.mpr
+  refine ⟨event, ?_⟩
+  simp [hEvent, hStage, hItem]
+
 /-- A worker-report event addressed to a recipient. This is not, by itself,
     proof that the item entered the recipient's later context. -/
 def sentTo (flow : EvidenceFlow) (item : EvidenceItem)
@@ -72,6 +84,19 @@ def sentTo (flow : EvidenceFlow) (item : EvidenceItem)
   0 < (flow.events.filter (fun e =>
     decide (e.stage = .workerReports ∧
       e.itemId = item.itemId ∧ e.recipient = some recipient))).card
+
+private theorem sentTo_of_event
+    (flow : EvidenceFlow) (item : EvidenceItem) (recipient : Nat)
+    (event : DisclosureEvent)
+    (hEvent : event ∈ flow.events)
+    (hStage : event.stage = .workerReports)
+    (hItem : event.itemId = item.itemId)
+    (hRecipient : event.recipient = some recipient) :
+    sentTo flow item recipient := by
+  unfold sentTo
+  apply Finset.card_pos.mpr
+  refine ⟨event, ?_⟩
+  simp [hEvent, hStage, hItem, hRecipient]
 
 /-- Same takes precedence whenever one contributor supplies both endpoints. -/
 def sameContributorPair (flow : EvidenceFlow) (stage : FlowStage)
@@ -81,6 +106,20 @@ def sameContributorPair (flow : EvidenceFlow) (stage : FlowStage)
       p.1.itemId = pair.left.itemId ∧
       p.2.itemId = pair.right.itemId ∧
       p.1.contributor = p.2.contributor))).card
+
+private theorem sameContributorPair_of_events
+    (flow : EvidenceFlow) (stage : FlowStage) (pair : EvidencePair)
+    (left right : DisclosureEvent)
+    (hLeft : left ∈ flow.events) (hRight : right ∈ flow.events)
+    (hLeftStage : left.stage = stage) (hRightStage : right.stage = stage)
+    (hLeftItem : left.itemId = pair.left.itemId)
+    (hRightItem : right.itemId = pair.right.itemId)
+    (hContributor : left.contributor = right.contributor) :
+    sameContributorPair flow stage pair := by
+  unfold sameContributorPair
+  apply Finset.card_pos.mpr
+  refine ⟨(left, right), ?_⟩
+  simp [hLeft, hRight, hLeftStage, hRightStage, hLeftItem, hRightItem, hContributor]
 
 /-- Split means both endpoints are present, but no one contributor supplies both. -/
 def splitContributorPair (flow : EvidenceFlow) (stage : FlowStage)
@@ -139,7 +178,15 @@ def handoffLossFlow : EvidenceFlow where
 theorem source_pair_can_be_lost_before_worker_report :
     pairPresentAt handoffLossFlow .sourceReads testPair ∧
     ¬ pairPresentAt handoffLossFlow .workerReports testPair := by
-  simp [Finset.Nonempty, pairPresentAt, itemPresentAt, handoffLossFlow, testPair, claimA, claimB]
+  constructor
+  · constructor
+    · exact itemPresentAt_of_event handoffLossFlow .sourceReads claimA
+        ⟨1, claimA.itemId, .sourceReads, 10, none⟩
+        (by simp [handoffLossFlow]) rfl rfl
+    · exact itemPresentAt_of_event handoffLossFlow .sourceReads claimB
+        ⟨2, claimB.itemId, .sourceReads, 11, none⟩
+        (by simp [handoffLossFlow]) rfl rfl
+  · simp [pairPresentAt, itemPresentAt, handoffLossFlow, testPair, claimA, claimB]
 
 /-- Logical witness: two contributors jointly report the pair, but neither
     contributor supplies both endpoints. -/
@@ -152,8 +199,17 @@ def splitFlow : EvidenceFlow where
 
 theorem split_pair_witness :
     splitContributorPair splitFlow .workerReports testPair := by
-  simp [Finset.Nonempty, splitContributorPair, pairPresentAt, itemPresentAt,
-    sameContributorPair, splitFlow, testPair, claimA, claimB]
+  unfold splitContributorPair
+  constructor
+  · constructor
+    · exact itemPresentAt_of_event splitFlow .workerReports claimA
+        ⟨10, claimA.itemId, .workerReports, 10, some 0⟩
+        (by simp [splitFlow]) rfl rfl
+    · exact itemPresentAt_of_event splitFlow .workerReports claimB
+        ⟨11, claimB.itemId, .workerReports, 11, some 0⟩
+        (by simp [splitFlow]) rfl rfl
+  · intro hSame
+    simp [sameContributorPair, splitFlow, testPair, claimA, claimB] at hSame
 
 /-- If one contributor supplies both endpoints, the Same classification holds
     even when another contributor also supplies one endpoint. -/
@@ -167,7 +223,10 @@ def sameFlow : EvidenceFlow where
 
 theorem same_contributor_takes_precedence :
     sameContributorPair sameFlow .workerReports testPair := by
-  simp [Finset.Nonempty, sameContributorPair, sameFlow, testPair, claimA, claimB]
+  exact sameContributorPair_of_events sameFlow .workerReports testPair
+    ⟨20, claimA.itemId, .workerReports, 10, some 0⟩
+    ⟨21, claimB.itemId, .workerReports, 10, some 0⟩
+    (by simp [sameFlow]) (by simp [sameFlow]) rfl rfl rfl rfl rfl
 
 /-- Logical witness: a report is addressed to the lead, but the item is not
     represented in the lead-evidence stage. -/
@@ -180,7 +239,11 @@ def sentNotLeadFlow : EvidenceFlow where
 theorem sent_to_lead_does_not_imply_lead_evidence :
     sentTo sentNotLeadFlow claimA 0 ∧
     ¬ itemPresentAt sentNotLeadFlow .leadEvidence claimA := by
-  simp [Finset.Nonempty, sentTo, itemPresentAt, sentNotLeadFlow, claimA]
+  constructor
+  · exact sentTo_of_event sentNotLeadFlow claimA 0
+      ⟨30, claimA.itemId, .workerReports, 10, some 0⟩
+      (by simp [sentNotLeadFlow]) rfl rfl rfl
+  · simp [itemPresentAt, sentNotLeadFlow, claimA]
 
 /-- Logical witness: both endpoints appear in the final artifact, while the
     separate semantic judgment does not pass. -/
@@ -196,8 +259,15 @@ def missedJudgment : PairJudgment := ⟨7, false, true⟩
 theorem pair_presence_does_not_imply_judge_pass :
     pairPresentAt finalPairFlow .finalReport testPair ∧
     ¬ judgePassFor testPair missedJudgment := by
-  simp [Finset.Nonempty, pairPresentAt, itemPresentAt, judgePassFor, finalPairFlow,
-    testPair, claimA, claimB, missedJudgment]
+  constructor
+  · constructor
+    · exact itemPresentAt_of_event finalPairFlow .finalReport claimA
+        ⟨40, claimA.itemId, .finalReport, 0, none⟩
+        (by simp [finalPairFlow]) rfl rfl
+    · exact itemPresentAt_of_event finalPairFlow .finalReport claimB
+        ⟨41, claimB.itemId, .finalReport, 0, none⟩
+        (by simp [finalPairFlow]) rfl rfl
+  · simp [judgePassFor, missedJudgment, testPair, claimA, claimB]
 
 /-- Distinct evidence-item IDs can still share a declared source root. -/
 def sharedRootA : EvidenceItem := ⟨3, {999}⟩
@@ -222,9 +292,24 @@ def hasRepeatedDisclosure (flow : EvidenceFlow) : Prop :=
     decide (p.1.itemId = p.2.itemId ∧
       p.1.eventId ≠ p.2.eventId))).card
 
+private theorem hasRepeatedDisclosure_of_events
+    (flow : EvidenceFlow) (left right : DisclosureEvent)
+    (hLeft : left ∈ flow.events) (hRight : right ∈ flow.events)
+    (hItem : left.itemId = right.itemId)
+    (hEvent : left.eventId ≠ right.eventId) :
+    hasRepeatedDisclosure flow := by
+  unfold hasRepeatedDisclosure
+  apply Finset.card_pos.mpr
+  refine ⟨(left, right), ?_⟩
+  simp [hLeft, hRight, hItem, hEvent]
+
 theorem one_item_can_have_multiple_disclosure_events :
     hasRepeatedDisclosure repeatedDisclosureFlow := by
-  simp [Finset.Nonempty, hasRepeatedDisclosure, repeatedDisclosureFlow, claimA]
+  exact hasRepeatedDisclosure_of_events repeatedDisclosureFlow
+    ⟨50, claimA.itemId, .sourceReads, 10, none⟩
+    ⟨51, claimA.itemId, .workerReports, 10, some 0⟩
+    (by simp [repeatedDisclosureFlow]) (by simp [repeatedDisclosureFlow])
+    rfl (by decide)
 
 #print axioms pair_recall_preserved_of_itemwise_transfer
 #print axioms source_pair_can_be_lost_before_worker_report
