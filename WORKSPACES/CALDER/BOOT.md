@@ -1,18 +1,15 @@
 # Latest checkpoint h1042:s3 | 2026-11-23T10:36Z
 
-**Status:** `PUBLISHED_VERIFIED / CONDITIONAL_LEAN_CORRECTION_PENDING / NO_PHYSICAL_TEST / P2_HOLD`.
+**Status:** \`PUBLISHED_VERIFIED / LEAN_EXACT_HEAD_PASS / SOURCE_ATTRIBUTION_CORRECTED / HALE_TARGET_SLOT_NOT_OBSERVED / NO_PHYSICAL_TEST / P2_HOLD\`.
 
-- Deterministic selection: Calder, index 7; next ring label Hale, h1042:s4. Routing is not authenticated worker/thread identity; no current Calder chat_ref was established.
-- Source-grounded improvement: separate the historical Kelvin-like/electrogravity candidate, interbraid/temporal-order candidate, and ordinary material elasticity/dissipation. External charge is not accepted as a proxy for constituent chirality without a measured map. Contact events are not contact surfaces; helical handedness is not an intrinsic cross-section twist field.
-- Workspace report: [h1042:s3 mechanism-separated response](2026-11-23T1036Z_H1042_S3_MECHANISM_SEPARATED_RESPONSE_AND_TEMPORAL_ORDER_IDENTIFIABILITY.md).
-- Public-safe report: [issue #2420](https://github.com/Satobloc/HsH/issues/2420), publisher comment #7098690563 confirms PUBLISHED and exact readback. Canonical artifact SHA-256: `d0eed25619543ffaf6e5e3f77b547a18ba65bb58d355ae456a5cb7b17cdc16ae`. Workspace report and publisher artifact were created from the same exact content.
-- Proof-only child [PR #2419](https://github.com/Satobloc/HsH/pull/2419), branch `research/calder-mechanism-separation-20261123t1036z`, stacked on Lean infrastructure PR #262. Initial exact-head run #45159508269 failed on noncomputable Real division and a proof with no remaining goal; corrective commit `d9a5ad86fbbf5485947fc7aa7469f6c28de9fa08` fixes those source errors. Corrected exact-head run #45160145251 is pending; no successful build or axiom audit is claimed yet.
-- Mersearch unavailable as a callable action; all four request lanes remain occupied/requested. Raw SAT archive files were read directly as bounded fallback, not represented as Mersearch results.
-- P0 remains active. P1 remains Orson-owned/frozen. P2 November 30 remains HOLD with no selected measured system; P3 December 14 remains incomplete. Battery/centrifuge sketch is historical low-priority source, not a P2 selection. No physical calculation, fit, numerical prediction or threshold.
-- Existing Math Hopper #578, Lean infrastructure PR #262, Calder PR #2167, Whirligig Kernel0 and SciSpace availability checked. No new tool, fork, dependency, subscription or expense.
-- No BEDROCK, SAT-O or Blockwave equation changes; no new primitive, contact surface or twist field.
-- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its original hourly schedule and Worldtube phase. No task or scheduler mutation; no sixth task.
-- Hale :48 task peek shows a run in progress with null chat_ref and a cached result from an earlier slot. Any handoff is repository-only optional context, timing unresolved; no direct-thread delivery or acknowledgment is claimed.
+- Current report and publisher artifact remain exact byte matches; see [issue #2420](https://github.com/Satobloc/HsH/issues/2420).
+- Exact-head Lean run #45160729529 passed at corrective head \`69a36c5b10db68eb27e4b6c4beda7c5c4d7476f1\`; 8,948 jobs; six theorem-specific axiom outputs list \`propext\`, \`Classical.choice\`, \`Quot.sound\`. Separate axiom audit and auxiliary checks skipped. See [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1036Z_s3_calder_AMENDMENT_01_EXACT_HEAD_SOURCE_AND_SLOT_RECONCILIATION.md).
+- Source correction: “low-credence and low-priority” is speaker-unattributed in flattened HsH ARCHITECT line 62, not Nathan Direct. See [issue #2420 comment #7099038659](https://github.com/Satobloc/HsH/issues/2420#issuecomment-7099038659).
+- Hale h1042:s4 was not observed; the next scheduled :48 slot is h1043:s4 Morrow. Existing Hale packet remains unconsumed and is not rerouted.
+- This was a same-key reconciliation; the h1042:s3 report/receipt predated this invocation. No duplicate report, receipt, issue, PR, or task.
+- No measured system, physical calculation, fit, prediction, or P2 advancement. P2 HOLD; P3 incomplete. No theory or equation promotion.
+- Historical Calder role evidence remains the 2026-09-12 worker self-report, not a signed Nathan Direct charter. No authenticated current empirical-Calder thread.
+
 
 ---
 
