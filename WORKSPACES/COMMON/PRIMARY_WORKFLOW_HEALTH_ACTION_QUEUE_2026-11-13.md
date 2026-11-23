@@ -1221,3 +1221,38 @@ P0 Code Grurple remains ACTIVE. P1 Orson remains overdue/frozen/not ready. P2 me
 **Next deep review:** after five additional actual completed work products/evidence entries, or earlier on a new Nathan priority, missed pickup, material dependency change, milestone or evidence of stranded work.
 
 **Review source:** live task graph, PWH queue, exact helper, clone ledger, PR #1710, issue #1705, Morrow h1043:s4 report/receipt, and current P0/Three Paper Campaign controls.
+
+
+## ELIAS h1046:s4 deep upkeep review — 2026-11-23T14:48Z
+
+**Trigger:** the previous deep review was Aster h1045:s2 at 13:24Z. Five subsequent durable work products are verified: Alberr h1045:s4 Common receipt; Mira h1046:s0 Common receipt; Calder h1046:s2 completed run with two exact read-back comments on existing P2 issue #565 (#7104092908 and #7104214387); Hale h1046:s3 report/receipt/PR; and Elias h1046:s4 exact-source report/receipt. These are work products, not evidence of five authenticated worker threads or independent agents.
+
+### Live graph and deterministic triage
+
+- Live graph blob: 71b6bbb977a9acb7c578cf5a100a4c3595ba412b. Eighteen records against declared branch_count=16; 5 completed, 12 active, 1 blocked; 7 roots, 17 reachable, one blocked/unreachable M87 polarimetry readout. No graph mutation.
+- Existing helper WORKSPACES/COMMON/task_upkeep_triage.py was copied byte-for-byte to a temporary Python workspace. Git blob SHA-1 matched 49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01 (6,601 bytes); SHA-256 455bbc952e329f0f1ac804227bbd6db441a0bee17134d592e275530131a4d781. Embedded self-test passed. CLI exit 0 against a field-complete-for-helper-fields projection of all 18 graph records, as of 2026-11-23.
+- Triage returned 13 active/blocked candidates: P0 3; P1 2; P2 3; P3 1; P4 1; UNCLASSIFIED 3.
+- Metadata gaps among the 13: priority 3; owner 7; due date 10; last reviewed 10. No defensible low-hanging candidate exists because effort/value metadata are absent. The helper ranks explicit metadata only; it does not determine authority, resolve dependencies, or mutate tasks.
+- Priority order remains: three P0 Code Grurple branches; P1 Orson cognition (14 days overdue, frozen/not ready/Orson-owned); P1 clone-footprint census (Tern-owned); P2 measured-system geometry (Nov 30, HOLD); P2 workflow upkeep (Tern-owned); P2 blocked M87 readout; P3 full theory (Dec 14, incomplete); P4 exploration; three unclassified active branches.
+- No priority, owner, due date, status, task ID, branch relation, schedule, or cadence was changed.
+
+### Workstream reconciliation
+
+- **WH-01 clone census:** the append-only ledger now has 495 rows, 492 unique populated event IDs, 3 legacy rows without IDs, zero parse errors, zero duplicate populated IDs. This run added five API-only read/write/readback events. No local clone/checkout or traffic attribution was inferred. The numeric run-list cursor remains 2026-11-15 18:00Z and STALE/BLOCKED; the original 100-run ID snapshot was not retained and 79 job endpoints remain uninspected.
+- **WH-02 chronology:** remains highest-priority unblocked and Calder-owned; no rebase, merge, or ownership change.
+- **WH-05 Mersearch:** all four canonical request lanes remain requested/occupied. Lane 2 has a manifest and compact receipt but raw results remain withheld; lanes 1, 3 and 4 lack request-scoped outputs. No request, overwrite, release, or retrigger.
+- **WH-07/08 Project Desk and orphan inspection:** remain OPEN without verified pickup or completed bounded inventory.
+- **OP-01 Old Plan Recovery Sweep:** Morrow's 23/23 Dashboard repository-path crosswalk remains PARTIAL/RETOOLED; the proposed one-file Dashboard patch remains unapplied pending Tern's decision. AI-folder half remains uninspected. Execution owner remains UNASSIGNED.
+
+### Campaign, review and controls
+
+- P0 Code Grurple remains ACTIVE. The source-level presentation-safety defect remains; live visitor route acceptance is NOT OBSERVED. Generated discovery commits were observed after the 14:54 source commit, but the large discovery JSON's embedded source identity and per-record counts were not independently re-parsed here. No new freshness or record-safety PASS is claimed.
+- P1 November 9 cognition remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED. No trial, manuscript edit, protocol change, or gate advancement.
+- P2 November 30 remains HOLD; no measured system selected and no physical calculation.
+- P3 December 14 remains INCOMPLETE.
+- FIE last full review remains November 20, next December 4. Unrelated-reading break last completed November 21; neither was repeated.
+- No Mersearch mutation, graph mutation, ownership transfer, physical calculation, equation change, or theory promotion.
+
+**Next deep review:** after five additional actual completed work products/evidence entries, or earlier on a new Nathan priority, missed pickup, material dependency change, milestone, or evidence of stranded work.
+
+**Run report:** [Elias h1046:s4 exact-source Hydra replay and PWH deep review](../ELIAS_KERN/2026-11-23T1455Z_H1046_S4_HYDRA_REPLAY_AND_PWH_DEEP_REVIEW.md).
