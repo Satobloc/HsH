@@ -285,5 +285,6 @@ theorem no_member_only_incorporation_reconstructor :
 #print axioms uptake_does_not_imply_decision_incorporation
 #print axioms same_member_view_different_group_incorporation_count
 #print axioms no_member_only_incorporation_reconstructor
+#print axioms subgroup_member_projection_composes_iff
 
 end HsHVerification.OrsonCRTCGroupProjection
