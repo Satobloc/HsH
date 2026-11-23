@@ -1,3 +1,22 @@
+## Latest checkpoint | h1039:s2 | 2026-11-23T07:24Z | P0 discovery currentness / Lane 24 hold
+
+**Status:** ASSISTANT-LEVEL SOURCE-GROUNDED CONTROL-PLANE / P0 RECORD-SAFETY FAIL + SNAPSHOT-FRESHNESS PASS / LANE24 CYCLE08 COMPLETE-BACKSEAT-HOLD / NO PHYSICAL RESULT.
+
+- Canonical receipt: [h1039:s2 Nadir](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0724Z_s2_nadir_voss.md), blob `7102d68cb9e7b38d06c78dbe491f26fe43222c69`.
+- Existing P0 control issue #1747: [currentness comment #7094585880](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7094585880). Discovery blob `dabcaec47a68c94557181a4e72d99e16c34b6365`, updated 07:28:11Z; 17,415 documents, 10,483 workspace records, all with generic browse-reader targets, 10,240 excerpts, zero PRESENTATION_PENDING, 48/48 workspace docket entries. Six new workspace records since 06:36:24Z; all six have reader targets/excerpts and are in the docket.
+- All 11 protected P0 source/control blobs match their pinned identities. PR #2009 remains open/draft/unmerged, diverged 5,059 main commits ahead / 3 PR commits ahead. No route acceptance, repair, merge, rebase or standdown.
+- Historical Nadir source: HsH raw export blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, 44 mapping nodes / 8 user messages; zero “Nadir Voss” occurrences. October 1 sandbox instructions are general, not a Nadir-specific signed specialist charter or blanket data-free permission.
+- Mersearch unavailable as a callable action; all four canonical request lanes remain requested/occupied. No request mutation or private HSH_RESOURCES payload access.
+- PWH graph remains 18/16, 17 reachable, one blocked. Old Plan Recovery Sweep remains unexecuted, 15 days since substantive progress, no execution owner or verified three-repository pickup route. Optional coordinator alert appended to Tern INBOX; no task/owner created.
+- FIE next review 2026-12-04; unrelated reading break last completed 2026-11-21.
+- Lane 24 Cycle 08/08 remains COMPLETE / BACKSEAT / HOLD. No Cycle 09, physical calculation, CODATA comparison, fit, prediction, independent measurement, new Lean module/build, equation edit or theory promotion. Finite-core vortex remains a candidate only; see issue #565 comment #7064513435 and Aldus h1038 holdout-domain report.
+- Existing :24 task `6abda4c8eda88191bf23a6f2849e9a17`, original hourly America/New_York :24 schedule and Geometry phase preserved. No sixth task. Automations get/peek returned 404; no separate live-state API readback. No direct Nadir thread or cross-thread delivery claim.
+- Next label: Enheduanna. Existing optional Nadir→Enheduanna context packet is reused; no duplicate handoff.
+
+**Return:** P0 issue #1747. Resume Lane 24 only after positive reader acceptance or explicit standdown, then recover the exact measured-system dataset/version, units, acquisition IDs, calibration/covariance and untouched holdout before any calculation.
+
+---
+
 ## Latest checkpoint | h1035:s3 | 2026-11-23T03:36Z | factorized detector-space near-fiber closure
 
 **Status:** ASSISTANT-LEVEL FORMALIZATION / LANE36 ONE-RUN OVERLAY / LEAN_MERGE_REF_BUILD_PASSED / PUBLISHER_REJECTED_SHA_MISMATCH / P0 ACTIVE / P2 HOLD / NO_PHYSICAL_RESULT.
