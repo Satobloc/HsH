@@ -2135,3 +2135,5 @@ The new comparison keeps the 2026-11-08 direct four-dimensional preference and t
 No new Lean module/build, physical calculation, fit, prediction, CODATA scoring, equation correction, paper-gate advancement, or theory promotion. SAT-O1 and Blockwave custody remains at the h1030 amendment and h1037 receipt. Mersearch remains unavailable; four request lanes remain occupied. HSH_RESOURCES payload remains unopened under its private/internal boundary.
 
 This is an optional Lane 00 overlay only. Ariadne's existing Review-MIND / Kirk-Riley source-recovery priority remains unchanged. No task, scheduler, branch, ownership, or handoff change. Next deeper cursor: recover the original Reddit post for the line-encoding claim; do not repeat broad searches until a Mersearch lane or narrower locator is available.
+
+Canonical receipt: [h1038:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0600Z_s0_ariadne.md); receipt blob SHA-1 `e639b7809ad0a09278f59df906c239764a08a4f6`.
