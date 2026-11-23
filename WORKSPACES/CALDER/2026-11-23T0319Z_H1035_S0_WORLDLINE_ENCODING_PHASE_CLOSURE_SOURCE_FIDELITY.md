@@ -68,9 +68,10 @@ The current BEDROCK instruction against introducing mechanisms merely because th
 The 2025-12-24 direct discussion narrows the claim several times:
 
 - Message `23b43366-e275-4b47-b79b-65677f84324d`, 03:12:20.045Z, says the target is not to prove that every property is intrinsically a property of a worldline. The proposed target is weaker: for any physical system, there should be at least one worldline mapping sufficient to encode it.
-- Message `8e18961c-...`, 19:42:18.593Z, develops the representational intuition: particle behavior carries information about forces; a worldline is proposed as a compact encoding substrate, with oscillations, waves, helices, or even other codes used to represent the action of forces.
-- Message `c06a0191-b640-4da7-b96d-02e10a5e4814`, 09:56:11.797Z, proposes that QM and relativity might be representationally bridgeable even if either or both theories remain incomplete or wrong.
-- Message `3b0f0a2d-...`, 17:41:22.118Z, instructs the assistant to let Nathan explain the reasoning in his own words first, identify where equations belong, and only then refine.
+- Message `6185865e-72e5-4b34-9d32-da8515743f2b`, 03:34:57.143Z, proposes that a worldline mapping should provide a bridge between any two theories that successfully describe something real.
+- Message `c06a0191-b640-4da7-b96d-02e10a5e4814`, 09:56:11.797Z, narrows the intended epistemic stance: either or both theories could still be wrong, while a representational bridge might exist in principle.
+- Message `cc3349ce-c11d-4b64-ae47-93458afcbd24`, 17:41:57.478Z, instructs the assistant to let Nathan explain the reasoning in his own words first, identify where equations belong, and only then refine.
+- Message `8e18961c-d18c-47e0-aab9-a2f38d084be1`, 19:42:25.206Z, argues that particle behavior carries the effects of forces and proposes worldline mathematics as a compact encoding language. The Morse-code analogy makes the representational intent explicit, but also exposes the missing restriction: if arbitrary codes are allowed, this is not yet a specifically physical worldline-existence theorem.
 
 This is best classified as a proposed representation/existence principle, not an ontological assertion and not a proved theorem. The user's own analogy to Morse code makes the distinction especially important: if arbitrary encodings are allowed, existence can become a trivial coding statement; if only physically admissible worldlines are allowed, the existence theorem becomes substantive and requires a defined admissible class.
 
@@ -80,7 +81,20 @@ A one-way encoding is not automatically an isomorphism. An isomorphism requires 
 
 Likewise, separate encodings of two theories do not establish a common bridge. A joint representation needs an admissible common target, explicit projection/composition maps, and compatibility on shared observables. The assistant's construction of a combined worldline space assumes those properties rather than proving them.
 
-### E. Direct two-component phase closure
+### E. Visibility versus interaction availability
+
+Message `70cb69a6-dea4-45a9-a78b-64debf59cbbd`, 2025-12-24 01:27:09.778Z, distinguishes two concepts that the assistant must not collapse:
+
+- Observability: the proposed phase shift acts on light and changes how matter is seen.
+- Interaction availability: matter may be locally more or less available for direct interaction, and this is not simply the same binary classification as visible/dark.
+
+This is a direct conceptual hypothesis, not a derived dark-matter model. The assistant adds a numerical dark/visible split and transient observational consequences without defining a transfer function, observable, or measured system. No numerical or physical evaluation was attempted.
+
+### F. GR-native periodicity as a test hypothesis
+
+Message `a1f1d527-6dbe-432f-bfad-f00f89bebad6`, 2025-12-24 01:49:12.218Z, asks whether existing GR equations could be examined as-is in extreme systems, without modifying them or stipulating new substructure, to see whether periodic or resonance-like behavior might emerge. The phrase “8π operator” is not mathematically typed. In the standard Einstein field equation, 8π appears as part of a scalar coupling coefficient; the number alone is not an operator or a phase variable. The assistant's response speculates about nonlinear resonances but supplies no solution, phase variable, boundary conditions, or derivation. This remains a test hypothesis, not a GR result.
+
+### G. Direct two-component phase closure
 
 Nathan Direct message `1f8aee04-5599-478d-a925-150ef911c896`, 2025-12-24 16:05:29.724Z, supplies the following equations. The raw message has line-break corruption; the notation below is a normalized transcription:
 
@@ -204,8 +218,8 @@ Blockwave's rank-two current is a worldsheet representation, not automatically t
 
 ### Other historical LLM-produced phase equations
 
-- `DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/Quantum filament theory analysis - assistant.md`, blob SHA-1 `4d0b2a6c...`, contains `Σ_i T_i cos(Δφ_i)=0` and `Σ_i ΔT_i=0`. This is not equivalent to the direct two-component equation: it uses phase differences, omits the sine balance, and substitutes a tension-difference condition.
-- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/🚀 BEGIN_ PHASE I — Formal Structural Closure.md`, blob SHA-1 `8d3e0a0d...`, is an assistant-led formalization containing pairwise phase-locking and additional configuration-space assumptions. It does not derive the direct weighted closure equation.
+- `DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/Quantum filament theory analysis - assistant.md`, blob SHA-1 `0ac929970d7e93dbb3e1cc15e47db33e35531613`, contains `Σ_i T_i cos(Δφ_i)=0` and `Σ_i ΔT_i=0`. This is not equivalent to the direct two-component equation: it uses phase differences, omits the sine balance, and substitutes a tension-difference condition.
+- `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/🚀 BEGIN_ PHASE I — Formal Structural Closure.md`, blob SHA-1 `8daf13f05a1c540de63822a40b4d1648020bf139`, is an assistant-led formalization containing pairwise phase-locking and additional configuration-space assumptions. It does not derive the direct weighted closure equation.
 
 These are historical assistant reconstructions, not replacements for the direct source. No SAT-O1 or Blockwave original was modified.
 
