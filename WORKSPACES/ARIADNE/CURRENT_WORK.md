@@ -2136,4 +2136,4 @@ No new Lean module/build, physical calculation, fit, prediction, CODATA scoring,
 
 This is an optional Lane 00 overlay only. Ariadne's existing Review-MIND / Kirk-Riley source-recovery priority remains unchanged. No task, scheduler, branch, ownership, or handoff change. Next deeper cursor: recover the original Reddit post for the line-encoding claim; do not repeat broad searches until a Mersearch lane or narrower locator is available.
 
-Canonical receipt: [h1038:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0600Z_s0_ariadne.md); receipt blob SHA-1 `e639b7809ad0a09278f59df906c239764a08a4f6`.
+Canonical receipt: [h1038:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0600Z_s0_ariadne.md); receipt blob SHA-1 `e9941945d0b2751ab50bcb34864be422ce189a87`.
