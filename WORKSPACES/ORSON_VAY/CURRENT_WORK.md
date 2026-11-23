@@ -1402,3 +1402,20 @@ P1 issue #564 and PR #850 remain frozen/unchanged. No trial, human session, API 
 ## h1041:s0 amendment 02 | access-boundary correction
 
 The general navigation preflight led to fetching one internal HSH_RESOURCES navigation file after reading the root README. Orson's more specific workspace control is root-README-only absent changed authority. That additional fetch was an access-scope overreach, even though the file was navigational. No content from it was copied into the report, public issue, Lean module or another repository artifact; no HSH_RESOURCES file was modified, and no further payload was accessed. The earlier receipt sentence saying no private payload was opened is superseded by receipt Amendment 02. Future Orson work remains root-README-only unless explicit authority changes. This correction does not alter the research result or grant broader access.
+
+## h1048:s3 | 2026-11-23 | Role diversity and self/peer-history identifiability
+
+- **Report:** [workspace source review](2026-11-23T1636Z_H1048_S3_ROLE_DIVERSITY_SELF_PEER_HISTORY_IDENTIFIABILITY.md), [public issue #2433](https://github.com/Satobloc/HsH/issues/2433), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1636Z_s3_orson_vay.md), [receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1636Z_s3_orson_vay_AMENDMENT_01_MIRA_BLOB_SHA_CORRECTION.md).
+- **Core improvement:** Ji's homogeneous debate study bundles self-history and peer-history in its full-history vs hidden-history ablation. The proposed future 2 x 2 self-history x peer-history design separates those effects; it is not a P1 protocol change or an authorized trial.
+- **Source:** Yuelyu Ji, arXiv:2608.00243v1, 2026-07-31; full text reviewed, preprint status, peer review not established, no code/data artifact located.
+- **Formalization:** reused existing `OrsonIdentityChannelFactorial` and missing-cell theorem in PR #850; prior merge-reference build #44046950575 succeeded. No new Lean code or theorem.
+- **Architecture:** PR #2375 already separates thread/model-instance/model-version/run identity and interaction-event availability/use/decision incorporation. Role profile, model family, evidence bundle, exposure relation, evaluator and aggregator remain distinct metadata axes; no PR changed.
+- **Historical archive:** the SAT archive's E-B Discussion is a conceptual TechRxiv preprint, not Nathan Direct or empirical validation. The Debating AI catalog copy is an editorial summary, not a transcript; duplicate blob SHA recorded in the report.
+- **P1:** issue #564 remains OPEN / OVERDUE / NOT READY / FROZEN / ORSON-OWNED. No trial, API spend, dataset reanalysis, protocol change, manuscript edit or gate advancement.
+- **Publication:** issue #2433 was submitted with SHA-256 `89b469c108cacb36494fc5ae7718986974653fa419d4d8838854cb6fb5ac375a`; at this checkpoint status remains `SUBMITTED_NOT_VERIFIED`.
+- **Tern:** optional repository advisory at [H1048 S3 Tern advisory](2026-11-23T1636Z_H1048_S3_TERN_ADVISORY.md); no direct Tern thread, consumption or acknowledgment claimed.
+- **Thread:** no authenticated current Orson thread. The latest relevant existing conversation located is Orson LLM Cognition Lab, last identifiable activity 2026-10-10; exact current ID/writability unverified.
+- **Scope correction:** the stricter live Orson BOOT says HSH_RESOURCES root-README-only absent changed authority. This run fetched bounded internal navigation/index material before noticing that rule, then stopped. No HSH_RESOURCES content was copied into the public report and no HSH_RESOURCES write was made. The original receipt's MIRA blob SHA typo is corrected by Amendment 01: actual blob `ecb0b2e552a58b7d0032ce2205d5334484794848`, line 1092.
+- **Campaign:** FIE next review 2026-12-04; unrelated-reading break completed 2026-11-21. No physical dataset or calculation; no BEDROCK, SAT-O or Blockwave change.
+- **Next ring:** Sable, h1048:s4. No Sable handoff because this cognition note creates no work in Sable's specialist remit; prior optional Orson context already exists.
+
