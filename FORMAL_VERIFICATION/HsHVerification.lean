@@ -31,6 +31,7 @@ import HsHVerification.RavelFilamentScaleDimensionAudit
 import HsHVerification.RavelDirectedSliceChainComposition
 import HsHVerification.RavelHeterogeneousProjectionErrorTransfer
 import HsHVerification.RavelNStageHeterogeneousErrorTransfer
+import HsHVerification.KestrelChainAwareFiberBound
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
