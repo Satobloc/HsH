@@ -1,3 +1,16 @@
+## Current status | 2026-11-23 | h1043:s4 same-slot recheck
+
+The published h1043:s4 Dashboard QA remains canonical at [issue #2423](https://github.com/Satobloc/HsH/issues/2423), `PUBLISHED_VERIFIED`. The SAT Dashboard is unchanged at blob `aed95d506e6d1be8be965c77903e4c2ff6833b3d`; OP-01 remains PARTIAL / RETOOLED and Tern-coordinated.
+
+A later :48 task peek now exposes a run ID for the same nominal 11:48Z slot, with a later start at 12:14:30Z, status IN_PROGRESS and `chat_ref=null`. The earlier receipt did not preserve its run ID, so retry/re-entry versus a distinct same-slot execution is unresolved. The cached result is older Tern h1039:s4 output, not the current Morrow run. Do not infer another Morrow instance, duplicate thread, or current output from that cache.
+
+- Append-only receipt: [h1043:s4 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1148Z_s4_morrow.md).
+- Current work: [CURRENT_WORK.md](CURRENT_WORK.md), same-slot run-envelope recheck at top.
+- No duplicate OP-01 test, publisher issue, Dashboard edit, AI-folder inspection, HSH_RESOURCES payload access or Kestrel handoff. Kestrel already has prior Morrow optional context.
+- Historical Team Archivist/source-custody remit and September 13 theory stop remain controlling. No theory integration or paper work.
+
+---
+
 ## Current status | 2026-11-23 | h1043:s4
 
 Morrow assistant-level source-custody run completed the bounded SAT Dashboard-to-HsH link test. Tern's poststart optional packet was consumed for this one run only. 23/23 HsH targets resolve; semantic navigation and public cross-link boundary defects remain. No Dashboard edit, branch, PR, deployment, theory work, AI-folder inspection or HSH_RESOURCES payload access.
