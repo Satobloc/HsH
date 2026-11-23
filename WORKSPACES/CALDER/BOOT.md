@@ -350,3 +350,11 @@ Issue #2183 was rejected for SHA-256 mismatch; no retry or duplicate. See [recei
 ### h970:s2 Amendment 03 | final branch/scheduler readback
 
 See [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1024Z_s2_calder_AMENDMENT_03_FINAL_MAIN_AND_SCHEDULER_READBACK.md). Final main `a5d3c95d31ad2c98552aead8fbb16e8f1f9a5f1c`; P0 protected vector 8/8 exact. :24 and :36 tasks remain enabled and unchanged; both current runs were IN_PROGRESS with null chat_ref at final peek. :36 started before its nominal scheduled time, so the Hale handoff is POSTSTART_OPTIONAL_CONTEXT_ONLY. Parent report #2182 PUBLISHED_VERIFIED; correction #2183 PUBLISHER_REJECTED, no retry.
+
+## H1054:s0 | 2026-11-23T2200Z | Lane 00 source-fidelity checkpoint
+
+Report: [Marble / Bosonic Time / timewave geometry fidelity](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/CALDER/2026-11-23T2200Z_H1054_S0_MARBLE_BOSONIC_TIMEWAVE_GEOMETRY_FIDELITY.md). Publisher intake: [#2453](https://github.com/Satobloc/HsH/issues/2453), `calder-h1054-s0-marble-bosonic-timewave-geometry-fidelity-20261123t2200z-001`, pending publisher verification at checkpoint creation.
+
+This run expanded beyond h1035:s0 Pauli-Kerr surface/core/boundary work into the earlier Marble, Bosonic Time, Temporon, and current timewave source cluster. The direct descriptions show conceptual continuity but no established maps between the candidate geometries. Historical LLM translations add field, quantization, phonon, drag, mass, and FSI machinery not defined in the recovered direct source. PR #1133 supplies a conditional representation-equivalence criterion; it does not establish physical equivalence. No new Lean module, physical calculation, CODATA scoring, or theory promotion.
+
+Next Lane 00 cursor: recover the raw summer 2025 Bosonic Time / Temporon source with message IDs and timestamps; then define the filament-to-worldtube, timesheet-to-metric, w-to-front-normal, and Marble-to-Crullerverse maps before further formalization.
