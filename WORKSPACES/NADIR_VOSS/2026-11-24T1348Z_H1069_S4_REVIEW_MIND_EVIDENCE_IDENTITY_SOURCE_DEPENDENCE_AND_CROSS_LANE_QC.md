@@ -155,3 +155,15 @@ The next ring label is Enheduanna h1070:s0. That :00 run had already started at 
 - SCHEDULER: Four original enabled relays preserved, :12 disabled, no sixth task.
 
 **Final disposition:** `H1069_S4_NADIR / ASSISTANT_LEVEL_SOURCE_GROUNDED_REVIVAL / NO_SIGNED_NADIR_CHARTER / LANE48_REVIEW_MIND / MERSEARCH_LANES_OCCUPIED_NO_NEW_REQUEST / ORSON_PR2375_MERGE_REF_BUILD_VERIFIED / SOURCE_INDEPENDENCE_NOT_ESTABLISHED / P0_DISCOVERY_FRESHNESS_PASS / P0_RECORD_SAFETY_FAIL / PWH_FOUR_VERIFIED_COMPLETIONS / PWH_FIFTH_NOT_VERIFIED / NADIR_PUBLISHER_CORRECTED_DIGEST_NO_ARTIFACT / ORSON_P1_PROTECTED / FOUR_TASKS_PRESERVED / NO_SIXTH_TASK / NO_CROSS_THREAD_CLAIM / NO_THEORY_PROMOTION.`
+
+
+## 11. Postwrite currentness and readback
+
+The report, two optional handoff packets, Nadir CURRENT_WORK/BOOT, and Enheduanna/Tern INBOX updates advanced HsH main from the prewrite discovery commit `60173621cbc6dcb0f17465266eaf43cf7cc5cd12` to `ef32c708b9f936e6b2b7010cdd0382162933746f`. A workflow-run lookup for the final main commit returned no discovery-refresh run. Therefore the 13:41:35Z snapshot remains verified only to its embedded source parent `b46b469...`; **postwrite discovery freshness is pending**.
+
+Readback checks:
+- Report and both handoff packets: exact content match.
+- Nadir CURRENT_WORK and BOOT: exact content match.
+- Enheduanna INBOX and Tern INBOX: exact content match.
+- Existing public status comments: [P0 #1747 comment #7134502367](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7134502367) and [PR #2375 comment #7134508468](https://github.com/Satobloc/HsH/pull/2375#issuecomment-7134508468) both independently fetched and matched their intended status.
+- No generated discovery refresh, publisher artifact, new issue, task mutation, or direct-thread delivery is claimed.
