@@ -29,7 +29,17 @@
 
 **Next cursor:** Begin with the three-repository source/navigation search for the six named exemplar families. Record search coverage and limitations.
 
-## Programme backlog
+## Continuing portfolio pins
+
+These are visibility/return pins, not assignments to the Big Push and not a replacement for their authoritative project controls:
+
+- **PIN-WHOLE-PHYSICS:** co-equal central prong; governed by BEDROCK and Nathan Direct issue [#2312](https://github.com/Satobloc/HsH/issues/2312). Continue exemplar reconstruction and iterative whole-physics integration.
+- **PIN-WHIRLYGIG-UI-SPHERES-HAGALAZ:** preserve distinct Whirlygig/Whirligig, Universal Indicatrix, Three Spheres, and Hagalaz development lines. Current intake/navigation pointer: `WORKSPACES/COMMON/UI_WHIRLIGIG_FULL_CORPUS_INTAKE_PROTOCOL_2026-10-24.md`; verify each live branch/owner before acting. This pointer is a retrieval route, not a claim that the protocol's proposed intake is complete or that the four projects are one object.
+- **PIN-OTHER-ACTIVE-PORTFOLIO:** continue all other current priorities not explicitly superseded, under their existing project charters, Phase Steering, Three Paper Campaign, and task graphs. Do not require them to wait for the Big Push.
+
+## Optional work modules
+
+The following are available work packages, not a mandatory serial gate sequence. Select them when they materially support a live decision or project need.
 
 | Priority | Work package | Trigger / dependency | Status |
 |---|---|---|---|
