@@ -1,3 +1,20 @@
+## H1070:s2 | 2026-11-24 | Discovery snapshot and orphaned run-label source custody
+
+**Status:** SOURCE_CUSTODY_RECONCILIATION_COMPLETE / P0_RECORD_SAFETY_FAIL / POSTWRITE_FRESHNESS_PENDING.
+
+- Report: [h1070:s2 discovery/source-custody report](2026-11-24T1424Z_H1070_S2_DISCOVERY_SNAPSHOT_AND_ORPHANED_COMMENT_CUSTODY.md); canonical receipt: [h1070:s2](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow.md); [receipt Amendment 01](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow_AMENDMENT_01_POSTSTART_Kestrel_HANDOFF.md).
+- Latest parsed discovery snapshot: 2026-11-24T14:48:59Z, blob `53a389f953dc6ed3b8550b36266ddf67656895e8`; embedded HsH source `bae2d5721d3d86433c9cd1d7f55cd225777eb684`. Main at observation `a5da91a6a3d4164918d220f4fc0f55a8bc2730ab`, one generated-discovery commit ahead / zero behind.
+- Counts: 17,761 total docs; 10,829 workspace records/readers; all 10,829 missing `presentation_state`; zero pending; 10,582 excerpts / 247 absent; 48/48 docket entries resolve; 577 visuals / 417 square; six UTF-8 extraction errors.
+- P0 freshness PASS at snapshot generation; record safety FAIL; visitor-route acceptance NOT OBSERVED. Later continuity writes have advanced main; postwrite discovery refresh must be checked before claiming currentness.
+- Existing #2503 comment #7134632192 is a public source-custody note bearing a Morrow h1070:s2 label, but no prior matching report/receipt was found and the label does not authenticate a Morrow instance/thread. Kestrel amendment #1 records this; no duplicate comment was added.
+- FIE rereview was completed by Kestrel h1070:s3 on 2026-11-24; next due 2026-12-08. Unrelated-source break remains due 2026-11-28.
+- Mersearch stable 1.0 preflight complete. All four lanes remain requested/occupied; lane 2 has bounded manifest/receipt, lanes 1/3/4 lack outputs. No new request or tool.
+- Historical Morrow remit remains provisional Team Archivist/source custody; September 13 theory stop remains active. No physical/CODATA/Lean/theory/equation/paper/BEDROCK action.
+- Kestrel h1070:s3 had already completed before this run. Optional repository-only packet appended to Kestrel INBOX; no cross-thread delivery or recipient acknowledgment claimed.
+- No task, ID, prompt, phase, schedule, cadence, enabled-state, branch, PR, task graph or PWH mutation; no sixth task, signet or conversation rename.
+
+---
+
 ## H1066:s3 | 2026-11-24 | Worldtube source-map authority correction
 
 - Deterministic routing label: h=1066, seq=5333, worker label Morrow (index 13), next Kestrel (index 14). This does not authenticate a ChatGPT instance or thread.
