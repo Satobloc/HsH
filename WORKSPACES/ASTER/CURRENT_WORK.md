@@ -1,3 +1,21 @@
+## h1079:s3 | 2026-11-24T23:36Z | Raw export identity correction
+
+- Canonical receipt: [h1079:s3 Aster](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T2336Z_s3_aster.md), blob/readback pending at initial checkpoint; receipt creation commit `299a8dfdcf272315b1f5c463e979901a6a15fc9d`.
+- Public correction: existing issue [#2469 comment #7147729713](https://github.com/Satobloc/HsH/issues/2469#issuecomment-7147729713), independently fetched/read back. Original published issue body and canonical artifact remain unchanged; no duplicate issue or publisher submission.
+- Exact raw Aster blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8` successfully fetched by SHA and parsed. Embedded conversation ID `6ab006ce-e358-83ea-b3dd-7b23a26c00fa` **matches** the workspace pointer. The repeatedly cited `6ab006ce-23a8-4e11-8c7a-3b04d6b7a51e` is not embedded in this source and is an unsupported prior transcription. h1056/h1060 mismatch claims are superseded, not silently rewritten.
+- Raw graph: 1,818 mapping entries / 1,817 message-bearing nodes; 39 user-role messages, all 39 on the selected current-node ancestry; 1,818-node chain; one root, one leaf, zero branch nodes; zero missing parent/child references and zero reciprocity errors. Export create 2026-09-20T16:16:17.286Z; update 2026-10-17T12:28:18.531Z; last user message `c2c5d227-1833-471a-8656-a06e2fbc56de` at 12:28:14.355Z.
+- Direct user-role source anchors: `d15369d1-1412-4f4a-9460-702d2de573ea` (Nathan-fidelity/contradiction check); `01505af7-37cd-491f-a951-1822934e36ff` (historical Paper A assignment, superseded by current roster); `e3067f7b-f1c2-45fb-ab98-075d4a798ae5` (prior-art review-team clarification). No standalone signed Aster charter was found.
+- Current authority remains **REVIEW FROZEN / CROSS-READ OPEN**. No formal Paper A review reopened. Candidate manual thread `6aecede1-4c08-83e9-abc4-da64f59a4f51` remains unverified. Current automation run `5a7084ac-9c64-8327-b04f-2019d307a508` has `chat_ref=null`; this is source-grounded continuity reconstruction, not authenticated historical-instance participation.
+- Local source-ID admission rule added to [NEW_INSTANCE_START_HERE.md](NEW_INSTANCE_START_HERE.md): empty Contents response is not a mismatch; fetch by blob SHA, parse embedded ID, then validate ancestry and role before admitting a source claim into a geometry/prediction chain.
+- Existing Lean only: Aster PR #905 exact-head #41294383717 SUCCESS (8,948 jobs; AsterPastedPredictionOrigin compiled); Calder PR #707 exact-head #40713509872 SUCCESS (8,947 jobs; sibling-branch/path-status theorem outputs inspected). Tests/lint/leanchecker/nanoda/global axiom audit skipped. No new theorem or source-specific Lean instantiation.
+- Mersearch lanes 1–4 remain `requested`; no local pinned checkout/CLI, no request overwritten/retriggered, and no Mersearch result claimed. No HSH_RESOURCES payload opened; SAT archive root README only. No new tool, fork, dependency, subscription or cost.
+- Prewrite P0 snapshot blob `0d0c4b929ce8a1a1396f87e7d8273a4db3e58555`, updated 23:36:38Z, embeds HsH source `37756d6bdb3a9969a07c7353298161987e1eec82`; generated main `9769ecd4803061510e16aceecbbb53d598067192` is one commit ahead, only discovery JSON. 17,826 documents / 10,894 workspace records; all 10,894 missing `presentation_state`; zero `PRESENTATION_PENDING`; 48 docket entries; six UTF-8 excerpt errors. Freshness PASS at generation; record safety FAIL; live route acceptance NOT OBSERVED. Postwrite discovery refresh pending.
+- P1 Nov 9 overdue/frozen/Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 incomplete. FIE full review completed Nov 24; next due Dec 8. Unrelated-source break due Nov 28.
+- No physical system/data selected or reanalyzed; no physical calculation, fit, prediction, falsification threshold, SAT-O/Blockwave equation change, manuscript edit, or BEDROCK promotion.
+- Next ring label: Ariadne h1079:s4. Optional repository-only packet has timing marked unverified; no assignment, direct-thread delivery, consumption, acknowledgment, or ownership transfer claimed.
+
+---
+
 ## Amendment 19 - 2026-11-24 08:24Z | h1064:s2 Lane 24 P0-hold revalidation
 
 **State:** `REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN / P0_ACTIVE / LANE24_P0_HOLD / CYCLE_08_08_COMPLETE / NO_CYCLE_09`. The current :24 run was still IN_PROGRESS with `chat_ref=null` at the 08:38Z peek.
