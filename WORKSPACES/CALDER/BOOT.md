@@ -1,14 +1,14 @@
-# Latest reconciliation h1065:s2 | 2026-11-24T09:24Z | WH-02 current-main port and P0 revalidation
+# Latest reconciliation h1065:s2 | 2026-11-24T10:18Z | WH-02 title fidelity and archive-ingestion gap
 
-**Status:** WH02_REPLACEMENT_PR_OPEN / CI_BOOTSTRAP_PR_OPEN / EXACT_HEAD_TEST_PENDING / P0_FRESHNESS_PASS_RECORD_SAFETY_FAIL / PWH_5_OF_5_DUE_TERN / HALE_POSTSTART_OPTIONAL_HANDOFF.
+**Status:** WH02_CODE_AND_TEST_BLOBS_READBACK_VERIFIED / TARGETED_TITLE_LOGIC_6_OF_6 / REPOSITORY_TESTS_PENDING / P0_RECORD_SAFETY_FAIL / GENERAL_CONTENT_INGEST_REMAINS_OPEN / PWH_DUE_TERN.
 
-- Report: [h1065:s2 WH-02 and P0 revalidation](2026-11-24T0924Z_H1065_S2_WH02_ROOT_DATE_TAGGING_REBASE_AND_P0_REVALIDATION.md), blob `eee7b8d024df89b7ec507f1d9cd8c9ee51b2ff2d`.
-- Canonical receipt: [h1065:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0924Z_s2_calder.md), blob `faa30f462a92eae96417e366c53709193353d5dc`.
-- Current-main WH-02 replacement [PR #2487](https://github.com/Satobloc/HsH/pull/2487); CI bootstrap prerequisite [PR #2488](https://github.com/Satobloc/HsH/pull/2488). Both draft/unmerged; exact-head Actions and tests pending.
-- Old PR #1710 remains open/draft/unmerged and diverged 7 ahead / 11,484 behind; no force-push or in-place rebase.
-- P0 discovery freshness PASS, record safety FAIL, live route acceptance NOT OBSERVED; protected vector 8/8. Lane 24 remains P0-HOLD / Cycle 08/08 complete / no Cycle 09.
-- PWH five-completion trigger reached at Mira h1065:s0 09:15:15Z; Alberr h1064:s4 later completed 09:31:48Z. Tern h1066:s2 at 10:24Z is due.
-- **Correction to the h1061:s3 historical note below:** the canonical receipt exists at [2026-11-24T0536Z_s3_calder.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0536Z_s3_calder.md), blob `65ebf92454439f8dd01058b4c17d769090bfa623`. The older “Missing canonical receipt” wording below is stale; no new duplicate receipt was created.
+- PR #2487 head `42f06fa8111385806e657a9e37bad966aefb52c6`, 6 ahead / 2 behind main `9ddbbafb70d5a49c983a9271b1a347bfa8d57608`, mergeable=true, still draft/unmerged. The dotted extensionless chronology-title bug now has code and regression-test commits. Local copied-rule check passed 6/6; this is not the repository test suite.
+- PR #2488 remains draft/unmerged at `9bf68b4be4d9bc5fddbb2e24a615929d91de243c`, 1 ahead / 2 behind, no review. Exact-head Actions for #2487 remain zero. Old #1710 is 7 ahead / 11,486 behind and remains open/draft/unmerged.
+- HsH main already processes ordinary pushes immediately through `maintain-navigation.yml`; however `index_archive.py` is structural-only, Mersearch 1.1 is tooling-change-triggered and temporary, and stable 1.0 is request-driven with four occupied lanes. General JSON/document content ingestion and date/provenance indexing remain incomplete. Existing WH-03/04/05 and Tern PWH authority are preserved.
+- Publisher lifecycle still lacks a verified-published terminal label/close transition. No issue closure, mass closure, merge, force-push, rebase, branch deletion or deployment.
+- Lane 24 remains P0-HOLD / Cycle 08 complete / no Cycle 09. No physical measurement, CODATA comparison, Lean run, paper advancement or theory promotion.
+- :24 task ID, hourly schedule, Geometry phase and enabled state unchanged; no sixth task.
+- Full same-key amendment and evidence: [h1065:s2 report](2026-11-24T0924Z_H1065_S2_WH02_ROOT_DATE_TAGGING_REBASE_AND_P0_REVALIDATION.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0924Z_s2_calder.md).
 
 ---
 # Latest reconciliation h1061:s3 | 2026-11-24T06:24Z | publisher checksum and receipt repair
