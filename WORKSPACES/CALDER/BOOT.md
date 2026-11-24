@@ -1,3 +1,18 @@
+# Latest reconciliation h1073:s0 | 2026-11-24T17:00Z | SAT-O1 helix-parameterization fidelity delta
+
+**Status:** SOURCE_FIDELITY_DELTA / LEAN_EXISTING_EXACT_HEAD_RUNS_PASS / MERSEARCH_UNAVAILABLE / PUBLISHER_SUBMITTED_NOT_VERIFIED / WH02_P1_OPEN / NO_THEORY_PROMOTION.
+
+- Public-safe artifact submitted through the existing issue publisher: [issue #2511](https://github.com/Satobloc/HsH/issues/2511), submission_id calder-h1073-s0-sat-o1-helix-parameterization-fidelity-delta-20261124t1700z-001, corrected SHA-256 a317019c53fc54ebe70d057a7db3196e19ff3d02aaab4a87ce4fcdedd0e94a93. Publisher receipt and artifact readback remain pending; do not claim publication yet. The first intake #2510 was rejected for a checksum mismatch and closed as not_planned.
+- Canonical receipt: [h1073:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1700Z_s0_calder.md). Post-start optional context packet: [Hale](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1749Z_from_s0_calder_to_s1_hale_POSTSTART_OPTIONAL_CONTEXT.md). Neither is a direct-thread delivery.
+- New finding: the 2024 Nathan Direct spatial helix/moving-slice construction is not demonstrated by the unbylined SAT-O1 three-independent-sinusoid parameterization. The O1 formula lacks a spatial axis and constant-radius constraints; no corrected equation issued. Blockwave's rank-two J is a worldsheet current, not automatically the same as a 1D filament.
+- Existing Lean proofs were checked at exact heads: NadirHelixSliceGeometry PR #1455 run #42390677035/job #128457402086 SUCCESS; KestrelIntersectionDimensionGate PR #873 run #44090154878/job #134062868110 SUCCESS. Both PRs remain open/draft/unmerged; no new theorem or module.
+- Mersearch remains blocked: no callable action; all four request lanes occupied/unreleased. Lane 1/3/4 runner-shutdown failures; Lane 2 output exists but release is not verified. No request overwritten or retriggered.
+- WH-02 remains P1/open. Main strict date-tag audit run #45431975493 failed with 1,040 correctly dated, 2 undatable, 875 skipped; downstream indexing/viewer/tests/deployment did not run. PR #2487 is 6 ahead / 205 behind main; PR #2488 is 1 ahead / 205 behind; both draft/unmerged. No rebase/merge/issue closure.
+- Selected label Calder is not authenticated participation by a historical Calder thread. The 2026-09-12 CHECKINS self-report is the available specialist-role evidence; no signed specialist charter located.
+- Existing :00 Archive task ID, enabled state, hourly schedule and phase unchanged; no sixth task. No branch rewrite, no new tooling, no physical calculation, no CODATA, no paper-gate advancement, no BEDROCK promotion, no signet or chat rename.
+
+---
+
 # Latest reconciliation h1065:s2 | 2026-11-24T10:18Z | WH-02 title fidelity and archive-ingestion gap
 
 **Status:** WH02_CODE_AND_TEST_BLOBS_READBACK_VERIFIED / TARGETED_TITLE_LOGIC_6_OF_6 / REPOSITORY_TESTS_PENDING / P0_RECORD_SAFETY_FAIL / GENERAL_CONTENT_INGEST_REMAINS_OPEN / PWH_DUE_TERN.
