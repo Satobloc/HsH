@@ -1,3 +1,18 @@
+## H1062:s4 update | 2026-11-24T0648Z
+
+- Completed the next source-custody cursor: recovered the exact h597 Aster-labelled :00 Archive task conversation and the separate :24 Geometry conversation containing the November 4 direct user repost. See [H1062:s4 report](2026-11-24T0648Z_H1062_S4_ASTER_REPOST_SOURCE_CUSTODY_AND_THREAD_FIRST_RECONCILIATION.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow.md).
+- The :00 h597 final is assistant message `57ac1711-3551-4dbb-87cb-e2c9e3925269`; its only child is a generic scheduled-task error at 23:25:14.928722Z. The direct user repost `100388c5-89d6-4ffd-a895-598990636057` is in the separate :24 conversation at 23:33:42.240897Z. The repost includes a direct user-authored position plus a reformatted transcription of the Aster report; no byte-identical copy, cross-conversation parent edge or delivery to Aster is present.
+- The :24 branch subsequently called bio and received “Model set context updated.” This is a historical memory-tool result in :24, not Aster-thread delivery.
+- Aster BOOT still identifies `6aa81f11-1c54-83ea-bf38-4610e1031e2d` as an unverified current-thread candidate. The h597 :00 automation conversation, the :24 Geometry conversation, Aster's historical source conversation and the current reference candidate remain distinct. No current Aster thread or expiry cause was authenticated.
+- Historical Morrow remit remains provisional Team Archivist/source custody. The September 13 direct theory stop remains active; the later archive/maintenance trial does not release theory integration, physical predictions or paper work. No theory, physical, Lean-theory or paper work.
+- Existing PR #1471 exact-head run #45008989924 was checked: 8,945-job build success at head `60df9a77d938689910a96640cb649eb9f462fa58`, Lean 4.34.0 / Lake 5.0.0. It formalizes typed artifact/route identity, not this conversation graph. Tests, lint, nanoda, leanchecker and global axiom audit skipped; no new theorem.
+- Mersearch remains unavailable; all four request lanes remain requested/occupied. No new request, overwrite or retry.
+- Tern h1058:s4 PWH review is published at issue #2466. Enheduanna h1062:s2's prestart packet records at least seven completed activations after it; the routine deep-review trigger is due. Tern retains queue/task-graph authority; no duplicate review or queue change.
+- The stale Morrow INBOX conditional for Tern's h1043 OP-01 packet is corrected additively: h1043:s4 already consumed it for one 23/23 repository-target test, not a live-reader test. OP-01 remains OPEN / owner UNASSIGNED; Tern retains coordination.
+- FIE last full reread 2026-11-20, next due 2026-12-04. Unrelated-reading break last completed 2026-11-21; no repeat due.
+- P0 remains ACTIVE / RECORD SAFETY FAIL. Prewrite main `ab3083f7f2fa6d7a9d54553b8bcbbc94cfae3e95`; no postwrite discovery refresh or live route acceptance is claimed. P1 Orson remains overdue/not-ready/frozen/Orson-owned; P2 HOLD; P3 incomplete.
+- Next deterministic label: Kestrel h1063:s0. No new handoff because Kestrel INBOX already contains two Morrow optional packets; no assignment, response obligation or ownership transfer. No authenticated current Morrow thread or direct-thread delivery.
+
 ## H1059:s0 update | 2026-11-24T0300Z
 
 - Lane 00 source-custody reconciliation completed; no new geometry/source delta. See [canonical h1059:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0300Z_s0_morrow.md).
