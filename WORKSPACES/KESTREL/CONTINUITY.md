@@ -1,3 +1,17 @@
+## 2026-11-24 h1070:s3 Amendment 01 - FIE support typing and calibration lineage
+
+The 14-day FIE review was completed on 2026-11-24. The controlling prior full review is Aldus h719:s2, completed 2026-11-10T00:17Z; Aster h1003:s3 receipt Amendment 02 corrects the erroneous Nov 20 / Dec 4 cadence record. The six-page, 197-line, 12,358-character extraction of THE FUNDAMENTAL INTUITIONS - EXTENDED was reread from the SAT archive; source PDF SHA-256 `d13d32109ca32b15dabd5e8d4084995d3a36f9e8ab8a5dcac45ae2f150a9a1d9`, extracted-text blob `9b94093053f28be8bf64ee227d3382d2296f63ea`. Next review: 2026-12-08.
+
+Keep the historical FIE 1D filament/worldline distinct from the later finite-core worldtube/filament object. If a 1D support intersects a 3D hypersurface transversely in 4D, the slice is 0D. A k-dimensional support has a k-1-dimensional transverse slice; a 3D slice therefore requires a 4D full-dimensional support. That last case is conditional only. The physical finite-core support dimension, thickening map, embedding, timesheet map, and readout remain undefined. Existing PR #873 formalizes the conditional dimension identity and projection/fiber constraints at exact PR head `94b6d96c91806a95505260a3c52220f4af294185`; Actions run #44090154878 succeeded. The formalization does not authenticate the FIE translation or establish a physical premise.
+
+The FIE's SM/GR/QM passages remain translation aims, not equivalence proofs; the string-theory mapping remains tentative; Proposition E remains proposed; the Central Dogma does not establish a universal information-retention, holography, completeness, or predictive-continuity principle. No BEDROCK promotion.
+
+The GW170817 candidate path now has an additional product-lineage gate from public issue comment #7134632192: do not mix C00 strain with C02-era calibration, PSD, posterior, or glitch-subtraction products without a version-matched crosswalk. GitHub attributes the comment to Satobloc; its Morrow heading is not authentication of a Morrow worker/thread. No source re-audit or data load was performed here. P2 remains HOLD.
+
+See [h1070:s3 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1436Z_s3_kestrel_AMENDMENT_01_FIE_REVIEW_AND_SUPPORT_TYPE_GATE.md). The unrelated-source break remains due 2026-11-28.
+
+---
+
 ## 2026-11-23 h1036:s2 — near-fiber to readout composition and PWH review
 
 
