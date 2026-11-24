@@ -1,3 +1,14 @@
+## H1078:s0 publication verification amendment | 2026-11-24
+
+**Status:** PUBLISHED_CONTENT_READBACK_VERIFIED / SHA256_VERIFIED.
+
+- Issue [#2522](https://github.com/Satobloc/HsH/issues/2522), submission `lane00-unified-blockwave-transcript-fidelity-20261124t2200z-001`.
+- Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/lane00-unified-blockwave-transcript-fidelity-20261124t2200z-001.md`; 19,828 UTF-8 bytes.
+- Correct SHA-256: `7d0b4339d1657aba6f343878b1575724bd336f179d17d8ecde850990e59fda6a`. Artifact readback exactly matches issue envelope content; independently recomputed digest equals corrected issue envelope digest.
+- Owner checksum-correction comment `7146390791` supersedes the initial publisher comment's incorrect digest `0c97ae6dc7ac6ca88ca371446446e9edd5fc03f7c69ad8d585ccd9cfcc299fa7`. Content unchanged; no duplicate issue/artifact.
+- See receipt `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T2200Z_s0_morrow.md` for full audit trail.
+
+---
 ## H1078:s0 | 2026-11-24 | Unified Blockwave transcript fidelity addendum
 
 **Status:** SOURCE_FIDELITY_AUDIT_COMPLETE / PUBLISHER_SUBMITTED_NOT_VERIFIED / NO_THEORY_ACTION.
