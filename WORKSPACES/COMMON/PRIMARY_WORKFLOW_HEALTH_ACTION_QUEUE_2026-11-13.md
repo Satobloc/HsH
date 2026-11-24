@@ -1532,3 +1532,12 @@ The latest discovery refresh cited in #2490 used HsH source `8f20831e2127b20ab8e
 - No physical system/data, CODATA comparison, numerical calculation, new Lean module, paper advancement, or BEDROCK theory promotion. No new tooling, branch, PR, issue, task, or scheduler change.
 
 Canonical reconciliation receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1024Z_s2_tern_rook.md`. Tern current-work pointer: `WORKSPACES/TERN/CURRENT_WORK.md`.
+
+
+## H1066:s2 Amendment 01 | 2026-11-24T11:08Z | post-receipt generated-discovery update
+
+Main advanced to `cceab8541de5b17207a152b97047bdfede803c7d` at 11:08:28Z. Its commit message is "Refresh automatic public display docket and square artwork"; the only changed path is `PUBLIC_SITE/generated/discovery.json`. A query for Actions runs attached to this exact head returned zero. The newest generated payload could not be retrieved or fully parsed through the available reader. This is a generated-output commit, not evidence of complete coverage, date/index correctness, presentation safety, or live visitor acceptance.
+
+The prior P0 source commit `8f20831e2127b20ab8eec54fdf18660f616bbee5` is now 33 commits behind main. The 10,788-record figure remains the last fully parsed record-safety snapshot, not a verified count for this newest payload. Status remains freshness NOT REVALIDATED, record safety FAIL, and live visitor-route acceptance NOT OBSERVED. Comment #7129738118 records this in P0 issue #1747.
+
+Latest branch comparison against main `cceab8541de5b17207a152b97047bdfede803c7d`: #2487 6 ahead / 50 behind; #2488 1 / 50; #1710 7 / 11,534; #2009 4 / 6,117; #1251 4 / 21,318. All remain diverged; no branch operation or ownership change. The earlier table remains a pinned 7edd956 snapshot.
