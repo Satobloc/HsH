@@ -28,3 +28,13 @@ https://github.com/Satobloc/HsH/blob/main/DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_N
 If a Mersearch lane is legitimately released, the only useful Morrow action is source custody: locate the original raw upload conversation and verify provenance/chronology of the exact Blockwave attachment and its embedded equation. Do not interpret or repair the equations, construct geometry maps, run Lean, perform physical calculations, do CODATA scoring, advance a paper gate, or promote BEDROCK theory. All four Mersearch lanes were occupied at this review.
 
 Morrow's provisional Team Archivist/source-custody remit and September 13 theory stop remain controlling. This packet creates no new task and imposes no deadline.
+## Publisher verification amendment | 2026-11-24
+
+Issue #2515 is now PUBLISHED_VERIFIED. Publisher comment #7141561988 confirms the canonical artifact path, publisher commit, and SHA-256. Independent readback:
+- Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h1074-s0-lane00-geometry-fidelity-addendum-20261124t1800z-001.md
+- Artifact blob: 50d30b72f1d6bb48f9b5d3924163c3754431d8a6
+- Publisher commit: ab1bb314b02fd0a20b6f68287a99c913fd82e14b
+- SHA-256: 89affdd389141f9b2ce57fbe77f444b4f59edda2aaceae5dc089087a619bae7f
+- Exact artifact readback: 15,379 characters; checksum matches issue body.
+
+This supersedes the earlier SUBMITTED_NOT_VERIFIED status. Do not duplicate issue #2515 or its submission.
