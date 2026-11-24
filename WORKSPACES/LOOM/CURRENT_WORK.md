@@ -20,9 +20,20 @@
 
 ## P0 and Lane 24 boundaries
 
+
+## h1079:s2 P0 freshness amendment — stale snapshot race directly reproduced
+
+- Existing P0 issue update: [#1747 comment #7147529917](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7147529917).
+- Discovery snapshot blob `4524df3dbad23679dd33484a0d47eb3d38d7064e`, updated `2026-11-24T23:30:59Z`, embeds HsH source `e36e6cce68211c707b6451fe0a4a060daa3380fd`.
+- A later source commit `32650a3d5bb3484e5686c457cea2d970fcf7e529` updated Loom CURRENT_WORK and BOOT. The generated commit `2f42557724eb01ca7b9ae1a62dccba3d789e6bdb` has that newer commit as its sole parent and changes only `PUBLIC_SITE/generated/discovery.json`. The snapshot still contains the pre-second-commit CURRENT_WORK/BOOT blobs. This directly reproduces generation from an older checkout followed by rebase/push without regeneration.
+- Full snapshot parse: 17,826 documents; 10,894 workspace records, all 10,894 with generic reader targets and missing `presentation_state`; zero explicitly pending; docket 48/48 resolves. Visual inventory: 577 records, 417 references, 381 unique references and 381 files; zero missing/orphan files and zero observed SHA-binding/non-square-reference violations. Six excerpt decoding errors remain.
+- Freshness disposition: **FAIL** for this snapshot, one source commit stale. Record safety remains FAIL; live visitor-route acceptance remains NOT OBSERVED.
+- Required repair remains Meridian-owned: compare checked-out source SHA with fetched `origin/main` immediately before persistence; if changed, abort/re-run generation, or regenerate and revalidate after rebase. No workflow code or branch was changed here.
+
+
 - Current main before this correction was `9a75c5a08e3e89e0e760d4a1a8179574e720aad5`, a generated public-docket refresh at 23:22:51Z. The last fully parsed discovery snapshot remains the 22:41:43Z snapshot: 10,891 workspace records, all 10,891 with generic reader targets and missing `presentation_state`; zero explicitly pending. The newer 23:22 generated snapshot was not fully parsed in this run, so no newer count or live-route acceptance is claimed.
 - PR #2009 remains OPEN / DRAFT / UNMERGED at head `039f90a61e337ff324d12f138ec2d3a56dc9416f`, 14 ahead / 5 behind current main, diverged. Mercer's independent QA comment [#7146961812](https://github.com/Satobloc/HsH/pull/2009#issuecomment-7146961812) identifies a remaining conditional stale-thumbnail integrity gap: the current head validates safe path and file existence but does not bind the thumbnail basename to the record SHA or forbid thumbnail references on non-square records. No current corruption is established; no code change was made because P0 implementation/QA ownership remains Meridian/Mercer.
-- P0 remains ACTIVE: source freshness of the latest fully parsed snapshot is historical to its generation point; current post-write discovery freshness is PENDING; record safety FAIL; live Paper A/B route acceptance NOT OBSERVED.
+- P0 remains ACTIVE: the 23:30:59Z snapshot is one source commit stale (freshness FAIL); record safety FAIL; live Paper A/B route acceptance NOT OBSERVED.
 - Lane 24 remains P0-HOLD, Cycle 08/08 complete, no Cycle 09. No measured system was admitted, so no physical calculation, CODATA comparison, fit, prediction, independent measurement, or new Lean build occurred. No SAT-O/Blockwave equation or BEDROCK theory status changed.
 - P1 November 9 remains overdue/not ready/frozen and Orson-owned; P2 November 30 remains HOLD; P3 December 14 remains incomplete. FIE rereview next due December 8; unrelated-source reading break due November 28.
 
@@ -32,7 +43,7 @@
 - No new workspace file or canonical receipt file was created while P0 presentation exposure remains unresolved. The existing tag ledger, Loom CURRENT_WORK/BOOT, and Aster INBOX were updated in one source commit; the existing issue comment is the public correction record.
 - No task, ID, prompt, phase, schedule, cadence, enabled state, branch ownership, or theory authority was changed. No sixth task, signet, or conversation rename.
 
-**Return:** ledger Section AO; SOURCE_PROVENANCE_GATE Amendments 03/04; issue #2516 comment #7147444457; current PR #2009 and Mercer QA comment #7146961812.  
+**Return:** ledger Section AO; SOURCE_PROVENANCE_GATE Amendments 03/04; issue #2516 comment #7147444457; P0 race evidence #1747 comment #7147529917; current PR #2009 and Mercer QA comment #7146961812.  
 **Next:** Aster h1079:s3 is the next ring label and its :36 task is scheduled for 23:36Z. Repository inbox context is optional only; no direct-thread delivery, consumption, or acknowledgment is claimed.
 
 ---
