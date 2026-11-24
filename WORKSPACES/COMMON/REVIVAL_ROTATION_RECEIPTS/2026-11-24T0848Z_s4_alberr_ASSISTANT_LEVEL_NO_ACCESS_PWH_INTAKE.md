@@ -154,3 +154,20 @@ No FIE re-review or unrelated-source break was due. Orson's P1 work remains prot
 - **SCHEDULER:** Original four enabled relays preserved; :12 disabled; no sixth task.
 
 **Final classification:** H1064_S4_ASSISTANT_CONTROL_PLANE_ONLY / ALBERR_NO_ACCESS / MANUAL_REENTRY_REQUIRED / NO_SPECIALIST_CHARTER / NO_ALBERR_PARTICIPATION / NATHAN_PRIORITY_INTAKE_ROUTED_TO_TERN / TERN_INBOX_READBACK_VERIFIED / PWH_MATERIAL_TRIGGER / P0_PREWRITE_FRESHNESS_PASS / RECORD_SAFETY_FAIL / POSTWRITE_FRESHNESS_PENDING / FOUR_TASKS_PRESERVED / NO_SIXTH_TASK / NO_CROSS_THREAD_CLAIM / NO_THEORY_PROMOTION.
+
+
+## Amendment 01 — scheduler-source SHA correction and postwrite discovery reconciliation
+
+This amendment supersedes only the Scheduler Authority blob locator in §3. The correct current blob is **9f7ffbbf0fe77fd4c561a110c9dbb2b686a88b45**. The earlier locator in §3 was a transcription error; the document itself was fetched and read.
+
+After the packet and Tern INBOX writes, the automatic discovery refresh completed:
+- Refresh commit: 21f8216ab44d13c9f90fd59f449dde917a482cc6.
+- Discovery blob: 22c004ae7fd1acc04e95f2e20f27c70990c4fe27.
+- Updated: 2026-11-24T09:27:23Z.
+- Embedded HsH source: ccfd84a8922517ccc39cc9475ceca66c1d1ea090; SAT source: 028862e6f1b0ffad2f56f4989a2cd0a769d266fd. Both scans complete.
+- Full parse: 17,719 documents; 10,787 workspace records; all 10,787 have generic reader targets and lack presentation_state; zero PRESENTATION_PENDING; 10,540 workspace excerpts; 247 without excerpts; 48/48 docket entries; 577 visuals; 6 extraction errors.
+- The packet and Tern INBOX entry are present in this snapshot. The canonical receipt is not, because it was committed afterward.
+
+The receipt's original commit is 32d9b38e91a3a93ed6a53264e8161c55ef746a82, whose parent is the generated refresh commit 21f8216ab44d13c9f90fd59f449dde917a482cc6. Therefore the 09:27:23Z snapshot is fresh to the packet/inbox source commit, but **post-receipt discovery freshness is PENDING** until the next refresh is independently fetched and parsed. Record safety remains FAIL; live visitor-route acceptance remains NOT OBSERVED.
+
+No task, branch topology, PR, queue, graph, owner, priority, or scheduler state was changed.
