@@ -482,6 +482,21 @@ def admissiblePairPresence (flow : EvidenceFlow) (stage : FlowStage)
   pair.left ≠ pair.right ∧
   pairPresentAt flow stage pair
 
+
+/-- Constructive witness lemma for the stage-presence filter. -/
+private theorem itemPresentAt_of_event_admission
+    (flow : EvidenceFlow) (stage : FlowStage) (item : EvidenceItem)
+    (event : DisclosureEvent)
+    (hEvent : event ∈ flow.events)
+    (hStage : event.stage = stage)
+    (hItem : event.itemId = item.itemId) :
+    itemPresentAt flow stage item := by
+  unfold itemPresentAt
+  apply Finset.card_pos.mpr
+  refine ⟨event, ?_⟩
+  simp [hEvent, hStage, hItem]
+
+
 theorem unique_item_ids_separate_distinct_items
     (items : Finset EvidenceItem) (left right : EvidenceItem)
     (hUnique : uniqueItemIds items)
@@ -534,20 +549,10 @@ theorem alias_endpoints_are_distinct : aliasLeft ≠ aliasRight := by
 theorem duplicate_semantic_ids_allow_one_event_to_satisfy_both_endpoints :
     pairPresentAt aliasFlow .sourceReads aliasPair := by
   constructor
-  · unfold itemPresentAt
-    apply Finset.card_pos.mpr
-    refine ⟨aliasEvent, ?_⟩
-    rw [Finset.mem_filter]
-    constructor
-    · simp [aliasFlow]
-    · simp [aliasEvent, aliasLeft]
-  · unfold itemPresentAt
-    apply Finset.card_pos.mpr
-    refine ⟨aliasEvent, ?_⟩
-    rw [Finset.mem_filter]
-    constructor
-    · simp [aliasFlow]
-    · simp [aliasEvent, aliasRight]
+  · exact itemPresentAt_of_event_admission aliasFlow .sourceReads aliasLeft
+      aliasEvent (by simp [aliasFlow]) rfl rfl
+  · exact itemPresentAt_of_event_admission aliasFlow .sourceReads aliasRight
+      aliasEvent (by simp [aliasFlow]) rfl rfl
 
 theorem alias_flow_fails_unique_item_ids :
     ¬ uniqueItemIds aliasFlow.items := by
@@ -577,14 +582,9 @@ def orphanFlow : EvidenceFlow where
   events := {orphanEvent}
 
 theorem orphan_event_can_make_unregistered_item_appear :
-    itemPresentAt orphanFlow .sourceReads orphanItem := by
-  unfold itemPresentAt
-  apply Finset.card_pos.mpr
-  refine ⟨orphanEvent, ?_⟩
-  rw [Finset.mem_filter]
-  constructor
-  · simp [orphanFlow]
-  · simp [orphanEvent, orphanItem]
+    itemPresentAt orphanFlow .sourceReads orphanItem :=
+  itemPresentAt_of_event_admission orphanFlow .sourceReads orphanItem
+    orphanEvent (by simp [orphanFlow]) rfl rfl
 
 theorem orphan_flow_fails_referential_integrity :
     ¬ eventReferencesResolve orphanFlow := by
