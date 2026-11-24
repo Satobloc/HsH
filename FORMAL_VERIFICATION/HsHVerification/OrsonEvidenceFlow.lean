@@ -533,6 +533,7 @@ theorem alias_endpoints_are_distinct : aliasLeft ≠ aliasRight := by
 
 theorem duplicate_semantic_ids_allow_one_event_to_satisfy_both_endpoints :
     pairPresentAt aliasFlow .sourceReads aliasPair := by
+  classical
   decide
 
 theorem alias_flow_fails_unique_item_ids :
@@ -564,10 +565,12 @@ def orphanFlow : EvidenceFlow where
 
 theorem orphan_event_can_make_unregistered_item_appear :
     itemPresentAt orphanFlow .sourceReads orphanItem := by
+  classical
   decide
 
 theorem orphan_flow_fails_referential_integrity :
     ¬ eventReferencesResolve orphanFlow := by
+  classical
   decide
 
 theorem orphan_item_presence_is_not_admissible :
@@ -579,6 +582,7 @@ theorem orphan_item_presence_is_not_admissible :
     once; the gate does not collapse occurrence identity into item identity. -/
 theorem repeated_disclosure_flow_is_valid :
     validEvidenceFlow repeatedDisclosureFlow := by
+  classical
   decide
 
 theorem repeated_disclosure_remains_admissible :
