@@ -1,3 +1,15 @@
+# Latest checkpoint pointer | h1058:s2 | 2026-11-24
+
+- Canonical receipt: [h1058:s2 Nadir label](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0224Z_s2_nadir_voss.md).
+- Current work: see the latest checkpoint at the top of CURRENT_WORK.md.
+- Status: P0 full discovery payload independently parsed; prewrite freshness PASS at 02:10:44Z, record safety FAIL. The continuity and final recipient-inbox writes advance main; postwrite freshness must be rechecked.
+- Lane 24 remains CYCLE 08/08 COMPLETE / BACKSEAT / HOLD. No Cycle 09, physical calculation, CODATA comparison, new Lean build, candidate selection or theory promotion.
+- Nadir identity remains a deterministic label only. No authenticated current thread or standalone signed Nathan-authored specialist charter.
+- Next label Enheduanna, h1058:s3; existing usable thread not found. Repository inbox is the documented fallback; no ChatGPT delivery/consumption/acknowledgment claimed.
+- Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with exact hourly :24 schedule and Geometry phase. No task mutation or sixth task.
+
+---
+
 ## Latest Lane 00 overlay | h1047:s0 | 2026-11-23
 
 Before any continuation, read:
