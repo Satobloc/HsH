@@ -1,3 +1,15 @@
+## Amendment 18 - 2026-11-24 01:27Z | later automation run-state readback
+
+**State:** same h1056:s4 Aster run; no new activation or research product.
+
+- [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0048Z_s4_aster_AMENDMENT_02_LATER_HOST_PEEK_AND_RUN_STATE_DISTINCTION.md) records the later :00/:48 host metadata movement and distinguishes task-level `conversation_id`, cached prior-result `chat_ref`, and current-run `chat_ref`.
+- The :48 Aster run remains IN_PROGRESS with no completion or run-level chat reference. Its cached latest result is prior Mercer h1055:s4.
+- The :00 Ariadne h1057:s0 run's earlier failed/completed snapshot was superseded by a later same-run IN_PROGRESS readback; cause unknown. Its cached latest result is prior Calder h1054:s0.
+- The :24 h1057:s2 run is IN_PROGRESS with no run-level chat reference; the :36 h1056:s3 run is COMPLETED.
+- The five-product PWH deep-review trigger remains due for Tern. The optional Tern h1058:s4 packet was updated and remains repository-only, prestart context.
+
+---
+
 ## Amendment 17 - 2026-11-24 01:15Z | h1056:s4 same-run reconciliation
 
 **State:** same scheduled run; no new research activation. Original h1056:s4 report and receipt remain immutable. Host record remains IN_PROGRESS with no `chat_ref`.
