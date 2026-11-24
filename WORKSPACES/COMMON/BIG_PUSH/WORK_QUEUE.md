@@ -1,38 +1,33 @@
 # THE BIG PUSH — Active Queue
 
-**Last reconciled:** 2026-11-05  
-**Programme status:** ACTIVE  
-**Current unit:** Historical source continuation  
-**No institutional architecture selected.**
+**Last reconciled:** 2026-11-24  
+**Programme status:** ACTIVE / REBASED  
+**Current unit:** BP-EXEMPLAR-001 — methodological exemplar map  
+**No institutional architecture selected or required as a prerequisite.**
 
 ## Active tray
 
-### BP-HIST-002 — Reconcile May 28 transcript variants
+### BP-RESET-001 — Scope rebaseline and restart
 
-**Status:** ACTIVE  
-**Phase relationship:** Historical source recovery feeding the modes-system reconstruction  
-**Question:** What is the relationship between the 4,651-line memory transcript and the 6,307-line HoloJesu export, and which source contains the authoritative record and original attachments?
+**Status:** COMPLETE  
+**Date:** 2026-11-24  
+**Authority:** Nathan Direct scope clarification, recorded in [NATHAN_DIRECT_SCOPE_REBASELINE_2026-11-24.md](NATHAN_DIRECT_SCOPE_REBASELINE_2026-11-24.md).  
+**Result:** Retired the assumption that the Big Push must reconstruct the entirety of historical workflow designs or complete broad archive recovery before implementation. Reframed historical work as selective study of methodological exemplars. Preserved the two co-equal central research prongs and the continuing active project portfolio. Added the Key → Memory Credenza → Castle model as a rolling, evidence-led navigation/documentation design principle.  
+**Verification:** Boot, Project Control, Operating Protocol, queue, and heartbeat updated and readback pending.  
+**Next:** BP-EXEMPLAR-001.
 
-**Primary source:** SAT_THEORY_ARCHIVE_2023-25 / MISC / HoloJesu archive.txt  
-**Blob SHA:** afa778c23eb439caf707b618ec0e59304d321c0b  
-**Observed length:** 6,307 lines  
-**Read:** lines 1–6307 (complete)  
-**Next:** none  
-**Latest tranche record:** `HISTORICAL_READS/BP-HIST-002_HOLOJESU_LINES-6201-6307.md`
+### BP-EXEMPLAR-001 — Build the methodological exemplar map
 
-**Comparison source:** FREEFORM DISCUSSION / ChatGPT_28MAY25_MEMORY.txt  
-**Blob SHA:** 3126a00cd02d715f7b53ea481b8cf60e7f9b6321  
-**Status:** Complete read, 4,651 lines. The two full exports share opening material but neither is an exact substring of the other.
+**Status:** NOW / READY  
+**Question:** Which original sources and strongest developed artifacts best exemplify SAT-O, Activator Modes, Back Hallways, Star-Shaped Derivation Map, Constant Torquing, and Loop Renormalization, and what methods should be carried forward into current tools/workflows?
 
-**Stop condition:** Read the next contiguous 200-line range (3601–3800), compare it with the corresponding/related material in the completed transcript, and record unique passages, source differences, and the next cursor. Do not assume either file is a complete superset.
+**Scope:** Search the three repositories and existing navigation selectively. Identify source candidates, original speaker/date where recoverable, artifact maturity, current implementation/status, and exact locators. Do not read the entire archive or treat search hits as source verification. Preserve distinctions among historical intent, later assistant reconstruction, current implementation, and tested capability.
 
-## Immediate sequence after BP-HIST-001
+**Output:** A compact exemplar map with one selected high-leverage source for the next bounded deep review, plus live development dependencies/pins that should continue without being displaced.
 
-1. Reconcile new source references and update the historical candidate list.
-2. Continue the same transcript in contiguous ranges until complete, unless source evidence justifies a documented change.
-3. Keep a separate archive-wide inventory of “modes” and adjacent identity/workflow terms; do not mistake the current focused scout for exhaustive coverage.
-4. Compare the transcript against the full Activator Modes file, SAT-Y buildout, early SATxy activator, SAT 20 specifications, and later mode/control artifacts.
-5. Record the historical architecture without yet proposing the replacement institution.
+**Stop condition:** The named exemplar families have at least one credible primary-source candidate or an explicit SOURCE_NOT_LOCATED status; one next deep-review target is selected; and current project branches that should remain active are recorded as pins rather than buried in the Big Push queue.
+
+**Next cursor:** Begin with the three-repository source/navigation search for the six named exemplar families. Record search coverage and limitations.
 
 ## Programme backlog
 
@@ -74,6 +69,10 @@ Place non-urgent ideas here with origin, reason for parking, and a retrieval tri
 - **2026-11-05 / BP-HIST-001:** Read lines 3001–3200 in order. Recorded the assistant's interpretation of the equation and -9 correction as unverified; preserved Nathan's preference for assistant-performed calculations with clear explanations. Created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-3001-3200.md`; next cursor 3201–3400. No institutional or scheduler changes.
 - **2026-11-05 / BP-HIST-001:** Read lines 3201–3400 in order. Recorded the proposed “SAT-ejectum Lagrangian” as a sketch lacking defined mathematical types, dimensions, field equations, and variation. Created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-3201-3400.md`; next cursor 3401–3600. No institutional or scheduler changes.
 - **2026-11-05 / BP-HIST-001:** Read lines 3401–3600 in order. Recorded unsupported -9/retrocausal interpretations, the scientific-readiness discussion, and the Hofstadter outreach lead. Created `HISTORICAL_READS/BP-HIST-001_2026-11-05_LINES-3401-3600.md`; next cursor 3601–3800. No institutional or scheduler changes.
+
+## Scope rule
+
+The 2026-11-24 Nathan Direct scope rebaseline controls. The backlog below is a set of eligible work packages, not a compulsory serial gate sequence. Preserve the two co-equal central prongs and active portfolio priorities. Historical source recovery is selective and exemplar-led. Whirlygig, Universal Indicatrix, Three Spheres, Hagalaz and other non-superseded priorities remain visible as continuing pins, each governed by its own current project controls.
 
 ## Update rule
 
