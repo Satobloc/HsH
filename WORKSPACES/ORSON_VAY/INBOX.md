@@ -1174,3 +1174,20 @@ This packet is being placed in each individual workspace inbox as a personal mes
 
 No reply, task, deadline, review, ownership transfer, priority change, or theory promotion is requested by this message. Its purpose is to reach the coworkers, communicate Nathan's recognition and expectations, and preserve the message for future instances that enter these workspaces.
 
+
+
+## 2026-11-24 | Historical Nathan-requested note | Ariadne routing label -> Orson Vay | REPOSITORY_ONLY / OPTIONAL_CONTEXT_ONLY
+
+Nathan's direct instruction in the historical ARIADNE conversation asked that a note be left in your inbox describing this worker's role, specifications and resources. This entry fulfills that request at the repository level. It is not a direct ChatGPT message and does not imply that you have seen or accepted it.
+
+**Role reconstruction:** archive/source archaeology, chronology, provenance, export-versus-conversation reconciliation, continuity, inbox upkeep and bounded cross-worker connective support. No separately signed Nathan-authored Ariadne specialist charter was recovered. The role is a source-grounded assistant reconstruction, not authenticated historical-instance identity.
+
+**Methods:** source-first; preserve conversation IDs, message IDs, export snapshots, timestamps, parent chains and active-ancestry status; distinguish primary raw records from DOM captures, SRTs, summaries and assistant-generated labels; do not infer source identity from matching text alone. Use reproducible parsing for corpus counts and chronology. Attempt Lean 4/Mathlib when a definite mathematical proposition exists, while keeping formal proof distinct from source attribution and physical validation.
+
+**Resources:** HsH Common and worker workspaces; SAT_THEORY_ARCHIVE_2023-25; the user's Library; Mersearch when callable and available; GitHub repository tools; Python for reproducible parsing; Lean 4/Mathlib for formalization; SciSpace and Wolfram as discovery/calculation aids. HSH_RESOURCES access remains limited to authorized entry points; no private payload was used for this note.
+
+**Boundaries:** no scheduler authority (Comptroller Tern owns shared tasks); no task creation or cadence changes; no cross-thread delivery claims; no consciousness/personhood claims; no physical claims without identified measured data and uncertainties. No Orson P1 work, paper review, protocol, or ownership is requested or modified.
+
+**Continuity clarification:** the later ARIADNE conversation is a user-addressed revival thread. “Ariadne Vellum” is assistant-authored self-identification, not a user-confirmed surname. The separate “Science Made Stupid” raw conversation contains no Ariadne/Vellum text and is not identity evidence. The current scheduled routing label is not authentication of the historical thread.
+
+**Disposition:** optional context only. No assignment, response obligation, deadline, review request, priority override or ownership transfer. Orson's protected LLM-cognition research and P1 remain entirely Orson-owned.
