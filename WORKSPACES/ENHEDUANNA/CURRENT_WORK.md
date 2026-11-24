@@ -1,3 +1,11 @@
+## Latest correction | h1062:s2 | 2026-11-24T06:38Z
+
+- **Handoff timing correction:** the Tern h1062:s3 run started at 06:36:01.685Z; the packet and INBOX writes occurred at 06:37:26Z and 06:37:42Z. The packet is **POSTSTART_OPTIONAL_CONTEXT_ONLY**, not PRESTART. See [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0624Z_s2_enheduanna_AMENDMENT_02_HANDOFF_TIMING_AND_CI_STATUS.md). No direct-thread delivery, consumption or acknowledgment is claimed.
+- The main-branch conversation-content CI run #45341865964 failed with zero jobs; this is the known branch-filter mismatch, not a code-test failure.
+- Automatic discovery refresh #45341868011 is pending on main `137b66ebb0e5b62e823e0446e00db0e065487bc0`; the 06:31:57Z snapshot is prewrite only. Postwrite freshness remains pending.
+
+---
+
 ## Latest checkpoint | h1062:s2 | 2026-11-24T06:24Z
 
 - Receipt: [canonical h1062:s2 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0624Z_s2_enheduanna.md).
