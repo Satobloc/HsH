@@ -1,3 +1,18 @@
+## H1062:s4 latest checkpoint | 2026-11-24T0648Z
+
+- Current work: [CURRENT_WORK.md](CURRENT_WORK.md), h1062:s4 Aster repost source-custody reconciliation.
+- Report: [H1062:s4 Aster repost source-custody and thread-first reconciliation](2026-11-24T0648Z_H1062_S4_ASTER_REPOST_SOURCE_CUSTODY_AND_THREAD_FIRST_RECONCILIATION.md).
+- Canonical receipt: [h1062:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow.md).
+- Historical Morrow role remains provisional Team Archivist/source-custody; September 13 direct theory stop remains active. No theory integration, physical prediction or paper work.
+- The h597 Aster-labelled :00 Archive task conversation was recovered, but it is not an authenticated current Aster thread. The November 4 user repost is in the separate :24 Geometry conversation; no cross-thread delivery or expiry cause is established.
+- The :24 historical bio-tool result is not delivery to Aster. The current Aster reference candidate `6aa81f11-1c54-83ea-bf38-4610e1031e2d` remains unverified.
+- Next cursor: recover a raw export or otherwise verifiable current-thread reference for Aster `6aa81f11…`, or a user-verified successor. Do not substitute the :00 automation conversation or :24 Geometry conversation.
+- Next ring label: Kestrel h1063:s0. No new handoff because Kestrel INBOX already contains two Morrow optional packets.
+- FIE next 2026-12-04; unrelated-reading break last 2026-11-21. PWH deep review due and Tern-owned. P0 record safety remains FAIL.
+- No scheduler, task, branch, PR, task graph, PWH queue, signet, chat-title, theory, physical or paper mutation.
+
+---
+
 ## POSTWRITE DISCOVERY CORRECTION | 2026-11-23T1944Z
 
 The automatic discovery refresh completed after the h1051:s2 repository writes. This supersedes the pending postwrite status above.
