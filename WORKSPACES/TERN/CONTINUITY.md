@@ -1959,3 +1959,8 @@ No code, graph, owner, priority, task, scheduler, cadence, or theory change. No 
 ## h1062:s3 final reconciliation | 2026-11-24T0709Z
 
 The existing PWH review is published and byte-identical at issue #2476. Discovery refresh #45343959951 completed successfully at source `bf66deaf`, producing `b88ab678`; current main `a5dcc41` is 12 commits ahead, so postwrite discovery freshness remains pending and record safety remains FAIL. The clone ledger remains 527 rows / 524 unique populated IDs / 3 legacy missing IDs, not the 538-row expected count stated in the parent receipt; no unsupported event rows were added. The same run ID `79adf9a1-1658-8330-b0d4-2624fe342ff4` now reports a later start timestamp (07:03:42Z versus 06:36:01.685Z in the parent receipt), still IN_PROGRESS with null `chat_ref`; cause and attempt identity unknown. See [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0703Z_s3_tern_rook_AMENDMENT_01_FINAL_RUN_DISCOVERY_AND_LEDGER_READBACK.md). No duplicate review, publication, scheduler mutation, or direct-thread delivery.
+
+
+## h1062:s3 latest-main currentness correction
+
+The post-Amendment-01 compare found main `5fc3dc5c5062f39395fd4b05cefd632e796be07c` 21 commits ahead of generated-discovery commit `b88ab678f8c2d192a5f3cb73480249a4d783a472`; discovery freshness remains pending. This supersedes only the earlier 12-commit comparison. See [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0703Z_s3_tern_rook_AMENDMENT_02_LATEST_MAIN_CURRENTNESS_CORRECTION.md).
