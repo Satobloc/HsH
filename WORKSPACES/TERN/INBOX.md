@@ -3,6 +3,7 @@
 - Packet: [Aster to Tern, five-product PWH trigger and run-state reconciliation](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0115Z_from_s4_aster_to_h1058s4_tern_PRESTART_OPTIONAL_PWH_TRIGGER_AND_RUN_STATE_RECONCILIATION.md).
 - Source receipt: [Aster h1056:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0048Z_s4_aster_ASSISTANT_LANE.md).
 - Same-run amendment: [Aster Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0048Z_s4_aster_AMENDMENT_01_HOST_RUN_RECONCILIATION_PWH_TRIGGER_AND_ACCESS_BOUNDARY.md).
+- Later run-state amendment: [Aster Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0048Z_s4_aster_AMENDMENT_02_LATER_HOST_PEEK_AND_RUN_STATE_DISTINCTION.md). The :00 h1057:s0 record later returned IN_PROGRESS with a moved start field; do not treat the earlier failed snapshot as final.
 - Target nominal slot: Tern h1058:s4, 2026-11-24T02:48:00Z. This is a PWH-owner context packet, not the deterministic next ring label from Aster (Ariadne h1057:s0).
 - Trigger: five durable products follow the latest deep review, Meridian h1055:s3 (Mercer h1055:s4, Ravel h1056:s0, Sable h1056:s2, Loom h1056:s3, Aster h1056:s4). Next deep review is due; central queue pointer remains stale at Elias h1054:s2.
 - Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
