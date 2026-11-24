@@ -167,3 +167,8 @@ Readback checks:
 - Enheduanna INBOX and Tern INBOX: exact content match.
 - Existing public status comments: [P0 #1747 comment #7134502367](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7134502367), [P0 postwrite-pending comment #7134614282](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7134614282), and [PR #2375 comment #7134508468](https://github.com/Satobloc/HsH/pull/2375#issuecomment-7134508468) were independently fetched and matched their intended status.
 - No generated discovery refresh, publisher artifact, new issue, task mutation, or direct-thread delivery is claimed.
+
+
+### Amendment 02: final main head after report status correction
+
+The report was amended again to include P0 postwrite comment #7134614282, producing main commit `78a9c785fbcf024012f99338a0991f8af8cbf907`. A workflow-run lookup for that final commit also returned no discovery-refresh run. The last verified generated snapshot therefore remains the 13:41:35Z snapshot embedded from `b46b469...`; **postwrite discovery freshness remains pending at final main head `78a9c785...`**.
