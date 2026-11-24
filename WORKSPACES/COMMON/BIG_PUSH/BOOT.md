@@ -38,7 +38,7 @@ Once the prompt overlay is successfully installed, only the existing :00 Archive
 
 ## Current restart point
 
-The comprehensive May 2025 transcript cursor is historical context, not the mandatory active queue. Resume it only if a selected exemplar or unresolved source question requires it. The active next operation is **BP-EXEMPLAR-001 — Build the methodological exemplar map**, as defined in the scope rebaseline and WORK_QUEUE.md. Search for the named exemplars, preserve original-source locators and provenance, and select one high-leverage bounded deep review. Do not restart at transcript line 201 merely because an obsolete cursor says so.
+The comprehensive May 2025 transcript cursor is historical context, not the mandatory active queue. Resume it only if a selected exemplar or unresolved source question requires it. The active next operation is **BP-EXEMPLAR-002 — Deep review of the Back Hallways / Loop methodological transition**, as defined in WORK_QUEUE.md and METHOD_EXEMPLAR_MAP_2026-11-24.md. Recover the historical method and its reported results without importing superseded equations as current theory. Do not restart at transcript line 201 merely because an obsolete cursor says so.
 
 ## Truth conditions
 
