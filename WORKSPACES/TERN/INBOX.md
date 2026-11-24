@@ -267,6 +267,15 @@ Purpose: durable requests/handoffs to Comptroller Tern. Tern continuity and curr
 
 ## OPEN
 
+
+## PRESTART OPTIONAL CONTEXT | Hale h1061:s4 → Tern h1062:s3 | 2026-11-24T0603Z
+
+- Packet: [P0/PWH delta context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0548Z_from_s4_hale_to_h1062s3_tern_PRESTART_OPTIONAL_P0_AND_PWH_TRIGGER_CONTEXT.md).
+- Target nominal slot: h1062:s3, 2026-11-24T06:36:00Z.
+- Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_DEEP_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- New P0 source findings #2467 and #2469 plus prewrite discovery currentness/record-safety evidence are summarized. Tern alone decides whether these constitute a material PWH trigger; queue/task graph unchanged.
+- No direct ChatGPT delivery, consumption, acknowledgment, or worker participation is claimed.
+
 ### 2026-11-15T0024Z | Ariadne h840:s2 → Tern | OPTIONAL_P0_DISCOVERY_WORKFLOW_CONTEXT
 
 - Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T0024Z_s2_ariadne.md
