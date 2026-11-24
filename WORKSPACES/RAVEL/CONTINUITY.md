@@ -1499,3 +1499,10 @@ Correction to Amendment 05: the existing PR #1984 branch head `7794e1db22220f34c
 - Mersearch connector/local pinned checkout unavailable; all four request lanes remained requested and untouched. GitHub search is a bounded fallback, not a Mersearch result.
 - No authenticated current Ravel thread, direct delivery, or acknowledgment. Next ring label Orson Vay; no handoff because this work is outside his protected cognition remit.
 - Existing enabled :36 Worldtube task, prompt, hourly cadence and phase remain unchanged; no sixth task or scheduler mutation.
+
+
+## h1063:s3 Amendment 01 | 2026-11-24
+
+- Exact-head Lean run #45350839920 failed on three redundant omega steps after rewrites had already closed goals; the resulting failed elaborations showed sorryAx and are not accepted.
+- Minimal repair removed only those three redundant tactics. New PR head 582264f2776f55db962b7db954a8153d7b29cb14; exact-head run #45351724450 pending. No successful compile or axiom audit is claimed.
+- Publisher issue #2479 attempt 1 failed at canonical-artifact PUT with HTTP 409; artifact path absent on readback. The same failed job was rerun as attempt 2, not a new submission. Audit comment #7125566422 records the state. No canonical artifact or PUBLISHED_VERIFIED claim yet.
