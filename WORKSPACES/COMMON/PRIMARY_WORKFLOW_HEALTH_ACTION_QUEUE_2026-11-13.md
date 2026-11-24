@@ -1541,3 +1541,37 @@ Main advanced to `cceab8541de5b17207a152b97047bdfede803c7d` at 11:08:28Z. Its co
 The prior P0 source commit `8f20831e2127b20ab8eec54fdf18660f616bbee5` is now 33 commits behind main. The 10,788-record figure remains the last fully parsed record-safety snapshot, not a verified count for this newest payload. Status remains freshness NOT REVALIDATED, record safety FAIL, and live visitor-route acceptance NOT OBSERVED. Comment #7129738118 records this in P0 issue #1747.
 
 Latest branch comparison against main `cceab8541de5b17207a152b97047bdfede803c7d`: #2487 6 ahead / 50 behind; #2488 1 / 50; #1710 7 / 11,534; #2009 4 / 6,117; #1251 4 / 21,318. All remain diverged; no branch operation or ownership change. The earlier table remains a pinned 7edd956 snapshot.
+
+
+## Deep review h1074:s0 | 2026-11-24T18:00Z | Tern Rook (deterministic label; no authenticated thread)
+
+Trigger: prior deep review h1066:s2 (issue #2490). Five further actual completions were reached at Kestrel h1070:s3, run 04a2ee19-20e0-8326-b3d2-555012f0153c, completed 2026-11-24T14:46:24.870749Z. This review closes that trigger.
+
+Execution: current read-only script WORKSPACES/COMMON/task_upkeep_triage.py, Git blob 49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01. The complete file was reconstructed from two exact source ranges and its Git blob SHA-1 independently matched. Self-test PASS. build_report was run against a field-complete projection of current TASK_BRANCH_GRAPH.json blob 71b6bbb977a9acb7c578cf5a100a4c3595ba412b.
+
+Current graph: 18 records versus declared branch_count 16; statuses 5 completed, 12 active, 1 blocked; 7 roots, 17 reachable; WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03 is the blocked/unreachable record. Its parent points to P2-REAL-SYSTEM-GEOMETRY-2026-11-30, but that parent's children list omits it. No dangling references or cycles. No graph mutation.
+
+Triage: 13 active/blocked candidates; P0=3, P1=2, P2=3, P3=1, P4=1, UNCLASSIFIED=3. Metadata gaps: 3 missing priority values, 7 missing owners, 10 missing due dates, 10 missing last-reviewed dates. No low-hanging candidate is evidenced because effort_hours and value_score are absent. The earlier h1066 P1/P2 split is stale: CLONE-FOOTPRINT-CENSUS is P1 and WORKFLOW-UPKEEP-PRIORITY is P2 in the current graph.
+
+Queue dispositions unchanged:
+- P0 Code Grurple active; record safety FAIL; visitor-route rendering/acceptance NOT OBSERVED; no standdown.
+- P1 cognition overdue / NOT READY / frozen / Orson-owned; no new trial or takeover.
+- P2 November 30 measured-system paper HOLD; no selected measured system.
+- P3 December 14 full-theory paper incomplete.
+- WH-01 blocked/stale at Nov 15 18:00Z; original 100-run snapshot and 79 job endpoints unresolved.
+- WH-02 highest-priority unblocked, Calder-owned; PR #1710 OPEN/DRAFT/UNMERGED.
+- WH-03/04 open without verified intake/lifecycle completion.
+- WH-05 blocked; all four Mersearch lanes occupied.
+- WH-06 open; last broad issue/fork census Nov 19.
+- WH-07/08 open without verified pickup.
+- WH-09 partial at 5,155/13,793.
+
+New findings, no new tasks:
+1. Enheduanna h1073:s4 identified that conversation-JSON CI runs on main fail with zero jobs because the workflow branch filter excludes main. This is a workflow trigger/coverage gap, not a test failure. No workflow changed.
+2. Kestrel h1074:s2 recovered better GW170817 strain/posterior lineage, but it remains a candidate only. No bytes downloaded, no calculation, no P2 admission.
+3. Run-key conflict: the prior :36 issue #2513 was nominally scheduled 17:36Z, therefore h1073:s3 (deterministic label Nadir Voss, next Enheduanna), despite actual start at 18:03:47Z. Existing receipt and handoff were amended append-only; issue #2513 comment #7141407291 records the correction. No second issue or replacement receipt. The Mercer inbox amendment remains pending while its separate h1074:s4 :48 run is in progress. The preceding :24 Kestrel report's statement that the h1074:s3 Meridian run had already completed was temporally premature; the Meridian run completed 18:53:01Z, after the :24 report closed 18:39:41Z.
+4. This :00 automation run h1074:s0 is recorded FAILED (run 9ce83906-07a8-832f-a610-74a8ebf92da5; scheduled 18:00Z, started 18:27:44Z, completed 18:52:46Z; chat_ref=null). The task remains enabled and unchanged. Repository work was completed at assistant level; no authenticated thread is claimed.
+
+Publication: issue #2515, submission_id tern-h1074-s0-lane00-geometry-fidelity-addendum-20261124t1800z-001, SHA-256 89affdd389141f9b2ce57fbe77f444b4f59edda2aaceae5dc089087a619bae7f, 15,379 UTF-8 bytes. Issue body checksum independently matches. No publisher comment or canonical artifact readback is present yet. Status SUBMITTED_NOT_VERIFIED. Carry issue #2515 and submission_id forward; do not duplicate.
+
+FIE rereview completed Nov 24; next due Dec 8. Unrelated-source break next due Nov 28. Next routine PWH deep review after five further actual completed worker activations, or earlier on a material trigger. No priorities, owners, statuses, graph edges, or automation schedules changed.
