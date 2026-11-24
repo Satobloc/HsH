@@ -4,7 +4,7 @@
 - Current work: [H1069:s4 Review-MIND audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/NADIR_VOSS/2026-11-24T1348Z_H1069_S4_REVIEW_MIND_EVIDENCE_IDENTITY_SOURCE_DEPENDENCE_AND_CROSS_LANE_QC.md); read the top of CURRENT_WORK.md first.
 - Status: assistant-level source-grounded revival under Lane Charter 48; no authenticated current Nadir thread or standalone Nathan-authored Nadir specialist charter.
 - Orson PR #2375 merge-reference Actions run #45389101215 succeeded (8,953 jobs); global axiom audit/tests/lint/leanchecker/nanoda skipped. No exact-head or empirical validation claim.
-- P0 discovery current to source parent at 13:41:35Z; record safety still FAIL; postwrite discovery freshness pending.
+- P0 automated discovery refresh #c01e1fac at 14:36:23Z was current to HsH source a7ee981 and SAT source 028862e; full parse 17,759 docs / 10,827 workspace records, all 10,827 missing presentation_state. Source freshness PASS at 14:36:23Z; record safety FAIL; visitor route NOT OBSERVED. Later receipt and pointer writes advance main, so final postwrite freshness remains pending.
 - PWH after Tern h1066:s2: four unambiguous completed activations verified; fifth not verified. Tern retains review/queue authority.
 - Mersearch bridge exists, but all four request lanes remain occupied/requested; no local pinned checkout; no new request.
 - Lane 24 Cycle 08/08 remains COMPLETE / BACKSEAT / HOLD. No Cycle 09 or physical calculation.
