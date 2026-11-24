@@ -624,3 +624,20 @@ Lane 00 added a focused fidelity audit of the historical Cruller phase-front / p
 P0 Code Grurple remains ACTIVE; record-safety FAIL, freshness PENDING after later main commits, live route acceptance NOT OBSERVED. PWH deep review remains Tern-owned; latest Tern h1062:s3, three further completions visible at Aster h1064:s2, five-trigger not yet met. FIE next Dec 4; unrelated reading break next Nov 28. Campaign gates unchanged.
 
 Current Sable thread is not authenticated; no cross-thread delivery. Next ring label Loom; :12 lease disabled. No task mutation, sixth task, signet, rename, physical calculation, CODATA or theory promotion.
+
+
+---
+
+## Additional Lane 00 source-fidelity result | h1064:s0 | 2026-11-24T08:00Z
+
+Two distinct source clusters now have separate published reports under the same Lane 00 nominal slot: the Cruller phase-front/projection audit (issue #2484) and the Photon Corkscrew audit (issue #2485). They are not duplicate content and neither supersedes the other.
+
+The Photon Corkscrew report recovers a raw May 24, 2026 user prompt asking to imagine photons as classical particles following a corkscrew trajectory. The user leaves dimension and metric open. The historical assistant's later 3D spatial reconstruction adds axial speed c, nonzero transverse motion, and total speed c, which fail the conditional Euclidean/Minkowski gate. Double-slit phase synchronization and Bohmian resemblance remain assistant proposals without required maps.
+
+The conditional Lean formalization is in existing FORMAL_VERIFICATION infrastructure: draft PR #2483, exact-head run #45359035777 SUCCESS, 8,948 jobs. It proves only the encoded standard-metric algebra; it is not photon physics or H(s)H theory. Earlier PR attempts #2481/#2482 are closed without merge.
+
+Published report: [Photon Corkscrew source-fidelity audit](2026-11-24T0800Z_H1064_S0_PHOTON_CORKSCREW_SOURCE_FIDELITY.md). Canonical receipt addendum: [h1064:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0800Z_s0_sable.md). Optional Loom packet is repository-only; no inbox write or cross-thread delivery.
+
+The Sable source supplement distinguishes canonical raw.json SHA-256 dfe0ac... from the non-byte-identical raw (1).json SHA-256 5f6718...; the 59 direct user-role messages match, but the full-file hashes are not interchangeable.
+
+No change to Lane 24 P0-HOLD, P0 release authority, task allocation, paper gates, scheduler task, task ID, cadence, phase, signet, or conversation title. No physical calculation, CODATA scoring, or theory promotion.
