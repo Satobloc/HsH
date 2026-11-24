@@ -45,3 +45,12 @@ The live Code Grurple roster keeps Mira outside the active internal-review corpu
 ## Amendment 01 | publisher result | 2026-11-24T12:57Z
 
 Issue #2500 was not published. Actions run #45398275340 and job #138459781624 concluded SUCCESS, but publisher comment #7132144631 explicitly says REJECTED: SHA-256 mismatch. Declared SHA-256 b5a7976085edd2eaf4eb600d893c39ac8dc2a22577f112a9a434f87c3f110151 differs from independently recomputed exact-payload SHA-256 f10dd32b1413c35e8904205efee18f452175b8ae479c4a16e05917881651f874 (8,532 ASCII bytes). Expected PUBLISHED_SUBMISSIONS artifact returned 404. No retry, edit, reopen, duplicate issue, or direct artifact write. Keep issue #2500 as the single audit record; publication state is REJECTED / NOT_PUBLISHED.
+
+
+## Amendment 02 | poststart successor and postwrite discovery | 2026-11-24T13:00Z
+
+The packet was created before Aldus h1069:s0 began, but that run has now started at 13:00:35.671694Z (run 37bf0267-ed50-8320-a770-3788daccfb26, chat_ref=null). This packet is therefore POSTSTART optional repository context at current readback, not prestart delivery and not evidence of consumption.
+
+The postwrite discovery refresh completed successfully: run #45398691765 / job #138461302496. Snapshot blob 1b129f6155ee2f7441893a673846217d74d87f58, updated 13:00:03Z, embeds HsH source a7ab109e8da60662a54000134f06d9b909c0a74a and SAT source 028862e6f1b0ffad2f56f4989a2cd0a769d266fd. Current main ba00c408e78a4f9b4248f3674619a04648b65a09 differs only by the generated discovery file. Freshness PASS; record safety FAIL; live route acceptance NOT OBSERVED. Counts: 17,750 documents; 10,818 workspace records, all generic and without presentation_state; 0 pending; 247 missing excerpts; 577 visuals / 417 square; 48 docket; 6 errors.
+
+Publisher issue #2500 remains REJECTED / NOT_PUBLISHED due SHA-256 mismatch. No retry or duplicate. No assignment, deadline, or response obligation is created.
