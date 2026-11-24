@@ -171,3 +171,22 @@ After the packet and Tern INBOX writes, the automatic discovery refresh complete
 The receipt's original commit is 32d9b38e91a3a93ed6a53264e8161c55ef746a82, whose parent is the generated refresh commit 21f8216ab44d13c9f90fd59f449dde917a482cc6. Therefore the 09:27:23Z snapshot is fresh to the packet/inbox source commit, but **post-receipt discovery freshness is PENDING** until the next refresh is independently fetched and parsed. Record safety remains FAIL; live visitor-route acceptance remains NOT OBSERVED.
 
 No task, branch topology, PR, queue, graph, owner, priority, or scheduler state was changed.
+
+
+## Amendment 02 — later scheduler overlap and final discovery delta
+
+A later live scheduler peek found:
+- The existing :36 Worldtube task remains enabled with its exact :36 hourly schedule. Run a3ffd82a-b850-8332-9245-6ce57f9f762b was scheduled 08:36:00Z, started 09:03:32.979571Z and completed 09:28:34.885183Z with a generic scheduled-task failure; chat_ref=null. Cause and technical failure stage are unknown.
+- The :24 Geometry task's h1065:s2 run 1ca8a539-37a8-8321-846a-912f908be2ba was scheduled 09:24:00Z, started 09:24:02.502976Z and remained IN_PROGRESS with chat_ref=null.
+- The :48 h1064:s4 run remained IN_PROGRESS with chat_ref=null; it began at 09:15:28.225474Z, after the :00 h1065:s0 run completed at 09:15:15.829944Z.
+
+The :36 failure is excluded from completed-activation counts. Delayed and overlapping run envelopes are observed; no cause or historical worker participation is inferred. No task identity, schedule, phase, enabled state or cadence was changed.
+
+The automatic discovery refresh after the receipt Amendment 01 completed:
+- Refresh commit 05bec3b7a8000e1bd7ce36e9866a4a3b12004efc.
+- Discovery blob 5bc76667013b81590fced347dce23aab7ad29ac2, updated 2026-11-24T09:28:59Z.
+- Embedded HsH source 57d725416d7fde989dbb391a8dd191c12a904d1e; SAT source 028862e6f1b0ffad2f56f4989a2cd0a769d266fd. Both scans complete.
+- Full parse: 17,720 documents; 10,788 workspace records; all 10,788 have generic readers and lack presentation_state; zero PRESENTATION_PENDING; 10,541 excerpts; 247 without excerpts; 48/48 docket entries; 577 visuals; 6 extraction errors.
+- This snapshot includes the canonical receipt and original coordinator packet. It predates packet Amendment 02.
+
+Packet Amendment 02 was committed at ecb4d358ae3d960e50105d810585ae8dc67d8200, blob 2e0aa41089cb99a825864d13475c96b1baa6b117, and independently read back exactly. Current main is ecb4d358ae3d960e50105d810585ae8dc67d8200, whose parent is the generated refresh commit 05bec3b7a8000e1bd7ce36e9866a4a3b12004efc. Therefore the 09:28:59Z snapshot is fresh to source 57d725, but **post-packet-Amendment-02 discovery freshness is PENDING** until another refresh is fetched and parsed. Record safety remains FAIL; live visitor-route acceptance remains NOT OBSERVED.
