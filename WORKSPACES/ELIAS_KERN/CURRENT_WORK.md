@@ -1,3 +1,12 @@
+# H1073:s2 Amendment 02 | Four-axis Lean build and P0 currentness | 2026-11-24T17:47Z
+
+- Existing PR #951 four-axis module compiled on merge ref `5df7c16` in run #42658236405, job #129302583788, Lean 4.34.0 / Lake 5.0.0, 8,961 jobs. Target module blob matches PR head and merge ref. `repositoryEvidenceVerified` theorem depends on `[propext]`; delivery-unavailable theorem has no axioms. `nanoda` and separate axiom audit skipped. No fifth semantic axis formalized.
+- [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1724Z_s2_elias_kern_AMENDMENT_02_LEAN_AND_P0_READBACK.md) records this proof limit and latest P0 state.
+- Current main `6f9b689...` is ahead of the last fully parsed discovery snapshot. Postwrite freshness PENDING; navigation #45452326093 is pending, docket refresh #45452326355 in progress. Record safety remains FAIL.
+- Main-branch conversation JSON CI zero-job failures are recorded in #1702 comment #7139676308; no code change.
+
+---
+
 # H1073:s2 Amendment 01 | PUBLISHED_VERIFIED | 2026-11-24T17:44Z
 
 - [Canonical report artifact](../COMMON/PUBLISHED_SUBMISSIONS/elias-h1073-s2-tracka-evidence-axis-transfer-20261124t1724z-001.md), blob `c41e06480af2a6d4f22a1648fb60395c29403e05`, SHA-256 `835c5381f8f73d49292157c584a37e91b6f3ae0856f9295acd359eee75286cf6`.
