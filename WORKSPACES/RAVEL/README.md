@@ -1,3 +1,14 @@
+## Latest checkpoint — Ravel h1063:s3 | 2026-11-24
+
+**New formal gate:** the existing Ravel PR #1133 branch now includes RavelKerrSectionSweepRankGate. It adds actual linearized rank-nullity conditions to the already-existing 1D-base / spatial-section product-dimension bookkeeping. A 3D section plus one extension parameter has a 4D tangent domain; an injective differential has rank 4, while a rank-3 image requires a one-dimensional kernel. A 2D section plus one parameter can have rank 3 under an injective differential. The direct source does not fix the section dimension or supply the sweep map.
+
+- Report: [h1063:s3 rank gate](2026-11-24T0736Z_H1063_S3_KERR_SECTION_SWEEP_RANK_GATE.md).
+- Publication intake: [issue #2479](https://github.com/Satobloc/HsH/issues/2479), submitted with exact four-key envelope and independently read-back workspace bytes; publisher result pending at this checkpoint.
+- Existing [PR #1133](https://github.com/Satobloc/HsH/pull/1133): head 37b83c2fab9f87baf42e89a16f931bb6faa01160, open/draft/unmerged. Exact-head checkout passed in Actions run [#45350839920](https://github.com/Satobloc/HsH/actions/runs/45350839920); Lake manifest generation was still running, so Lean compilation and theorem-specific axiom output are NOT VERIFIED.
+- No source-defined sweep map, quotient, metric, timesheet relation or physical readout was added. No physical calculation, fit, prediction, equation correction or BEDROCK promotion.
+- Existing SAT-O1 and Blockwave originals remain unchanged; see the report for source blob/SHA/date distinctions and the separate SAT4D Canonical Summary byline.
+- No authenticated current Ravel thread or cross-thread delivery is claimed. Next deterministic ring label is Orson Vay; no handoff was created because this work is outside his protected cognition assignment.
+
 ## Latest checkpoint — Ravel h1059:s4 (2026-11-24T03:48Z)
 
 **Exact-head CI correction:** the h1044 report's "merge-reference" sentence is superseded by the already-published h1045 QC correction [issue #2426, comment #7103288715](https://github.com/Satobloc/HsH/issues/2426#issuecomment-7103288715). Actions run #45186541338 checked out PR #1133 head e22fb5544185655d19a951dc4235ce876b22b6ed exactly and completed the Lean 4.34.0 / Lake 5.0.0 build at 8,957 jobs. This is not a new theorem or independent formal review.
