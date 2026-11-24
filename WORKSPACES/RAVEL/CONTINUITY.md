@@ -1487,3 +1487,15 @@ Correction to Amendment 05: the existing PR #1984 branch head `7794e1db22220f34c
 **Controls:** Mersearch unavailable; four request lanes occupied. P0 active; P1 overdue/not ready/frozen and Orson-owned; P2 HOLD; P3 incomplete. Task graph 18 records / 16 declared branches; WH-02 Calder, WH-05 Tern blocked. FIE next review November 24 (last November 10); unrelated-reading break last November 21. No premature review/break, no CODATA, no physical calculation, no theory promotion.
 
 **Next cursor:** define the Kerr spatial section and filament extension; decide whether a candidate layer exists; define shell topology and timesheet-relative readout; then consider exchange-statistics and string-worldsheet maps. Keep coil pitch distinct from coiling=periodicity. Preserve Orson's P1 assignment; no handoff.
+
+
+## 2026-11-24 | h1063:s3 — Kerr-section sweep rank gate
+
+- Report: [h1063:s3](2026-11-24T0736Z_H1063_S3_KERR_SECTION_SWEEP_RANK_GATE.md). Publisher intake: [issue #2479](https://github.com/Satobloc/HsH/issues/2479), exact four-key envelope and workspace byte readback passed; publisher acceptance not yet independently read back.
+- Existing PR #1133 extended at head 37b83c2fab9f87baf42e89a16f931bb6faa01160 with RavelKerrSectionSweepRankGate.lean and root import. Exact-head checkout assertion passed; Lake manifest generation was still in progress. No Lean compilation or theorem-specific axiom audit is claimed.
+- New conditional gate: for a candidate differential from section-tangent × one-dimensional filament-parameter tangent to a four-dimensional ambient tangent space, a 3D section with injective differential has rank 4; a rank-3 image requires a one-dimensional kernel; a 2D section with injective differential has rank 3.
+- This extends the prior 1+3 / 1+2 product-dimension result but does not supply the actual sweep, its derivative, constant-rank conditions, quotient, embedding, metric, boundary, or timesheet/readout map. The direct source does not specify the spatial-section dimension.
+- SAT-O1 and Blockwave originals were re-fetched and source-pinned; no equations changed or corrected. No physical calculation, measured dataset, fit, prediction, CODATA comparison, theory promotion, or Factory Floor acceptance.
+- Mersearch connector/local pinned checkout unavailable; all four request lanes remained requested and untouched. GitHub search is a bounded fallback, not a Mersearch result.
+- No authenticated current Ravel thread, direct delivery, or acknowledgment. Next ring label Orson Vay; no handoff because this work is outside his protected cognition remit.
+- Existing enabled :36 Worldtube task, prompt, hourly cadence and phase remain unchanged; no sixth task or scheduler mutation.
