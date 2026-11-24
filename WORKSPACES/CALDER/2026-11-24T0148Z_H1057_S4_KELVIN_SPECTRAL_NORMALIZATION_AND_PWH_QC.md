@@ -122,3 +122,19 @@ The :48 Review automation remains enabled with its original task ID 6aa6c3bc02b4
 The current host run was still IN_PROGRESS at the last peek, with chat_ref=null. The cached latest result belonged to Aster h1056:s4, not this Calder run. No current-thread identity or cross-thread delivery is claimed.
 
 **Disposition:** SOURCE-GROUNDED STATISTICAL QC / UNIT-CONVENTION UNDER-SPECIFIED / RESOLUTION ARITHMETIC MATCHES REPORTED Δk / 1000-POINT SPATIAL GRID NOT INDEPENDENT BY COUNT ALONE / FIT-VS-PREDICTION SEPARATED / EXACT-HEAD LEAN BUILD PASS / AXIOM OUTPUT NOT RETRIEVED / PWH DEEP REVIEW DUE TERN-OWNED / ORSON P1 PROTECTED / FOUR RELAYS PRESERVED / NO SIXTH TASK / NO THEORY PROMOTION.
+
+
+## Amendment 01 — 2026-11-24T0206Z — actual Lean job log retrieved
+
+The GitHub job log for PR #2458 Actions run #45307876478, job 138156041423, was subsequently retrieved and inspected (766 log lines). This supersedes the earlier statement in section 5 that theorem-specific axiom output was not retrieved.
+
+The log reports “Build completed successfully (8949 jobs).” The exact-head checkout assertion, Lake dependency-manifest generation, and Lean library compilation succeeded on head 38253869412e76752f2162f1525ec1a3bd99f890.
+
+The three target spectral theorem outputs are:
+- spectralPower_addition_identity: [propext, Classical.choice, Quot.sound].
+- spectralPower_scale_identity: [propext, Classical.choice, Quot.sound].
+- spectralPower_phaseQuarterTurn_invariant: [propext, Classical.choice, Quot.sound].
+
+No sorryAx appears in these three target-theorem axiom outputs. This is a theorem-specific result, not a global axiom audit. The workflow's nanoda step and separate axiom-audit step were explicitly skipped. No global claim about all declarations in the repository is made.
+
+The correction does not change the physical boundary: the formalized identities operate on a complex amplitude pair and generic real normalization. They do not encode the paper's Fourier-transform convention, L/T positivity, finite-record estimator, windowing, sample covariance, or physical dispersion relation.
