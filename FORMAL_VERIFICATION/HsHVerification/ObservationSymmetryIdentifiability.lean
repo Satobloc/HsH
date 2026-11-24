@@ -82,41 +82,9 @@ theorem added_channel_separates_symmetry_pair
   intro h
   exact h₂ (congrArg Prod.snd h)
 
-/-! ## Finite executable witness
-
-A two-point permutation leaves a constant coarse channel unchanged while
-changing an identity-valued target. The marker channel separates that same
-pair. This is a finite algebraic execution check, not a physical fixture or
-measurement.
--/
-
-def swapTwo : Equiv.Perm (Fin 2) := Equiv.swap 0 1
-
-def coarseChannel (x : Fin 2) : Bool := true
-
-def markerChannel (x : Fin 2) : Fin 2 := x
-
-def targetLabel (x : Fin 2) : Fin 2 := x
-
-example :
-    ¬ IdentifiableFrom coarseChannel targetLabel := by
-  exact not_identifiable_of_symmetry_witness
-    coarseChannel targetLabel swapTwo 0
-    (by rfl)
-    (by decide)
-
-example :
-    (coarseChannel (swapTwo • (0 : Fin 2)),
-      markerChannel (swapTwo • (0 : Fin 2))) ≠
-    (coarseChannel 0, markerChannel 0) := by
-  exact added_channel_separates_symmetry_pair
-    coarseChannel markerChannel swapTwo 0
-    (by rfl)
-    (by decide)
-
-#eval swapTwo (0 : Fin 2)
-#eval decide (coarseChannel (swapTwo • (0 : Fin 2)) = coarseChannel 0)
-#eval decide (markerChannel (swapTwo • (0 : Fin 2)) ≠ markerChannel 0)
+/-- A source-defined symmetry group and action are required before this
+abstract obstruction can be assigned to a physical model. The theorem above
+does not identify such a group or action for H(s)H. -/
 
 #print axioms not_identifiable_of_symmetry_witness
 #print axioms jointObservation_invariant
