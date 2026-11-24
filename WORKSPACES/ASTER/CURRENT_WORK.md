@@ -1564,3 +1564,11 @@ Issue #1617 is now PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `
 - SHA-256 `09a749afc08230fe0fed21ba1c38229decaf30c95b9c3c2977c6053ed11f201a`; report, issue-envelope content, and canonical artifact independently read back at 8,695 characters and were byte-identical. Git blob `ca99b612276cee6b9b8e483c87f7112b96bb3da7`.
 - PR #2009 informational comment #7122302151 and P0 #1747 comment #7122302547 were read back. Neither is a formal review or approval. No code change, merge, deployment, route probe, or owner change.
 - Receipt Amendment 01: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_AMENDMENT_01_PUBLISHER_VERIFIED_AND_FINAL_READBACK.md.
+
+
+## Amendment 02 — scheduler preservation readback | 2026-11-24T0446Z
+
+- Existing :36 task `6a9f52b69ec08191b8a91a30d2a155e0` remains enabled, hourly America/New_York :36 from DTSTART 2026-10-01T14:36, phase Worldtube, prompt unchanged.
+- Current run `cc816b31-2788-832e-84a2-81c8f9f305c4` remains IN_PROGRESS; scheduled 04:36Z, started 04:36:01.351481Z, completed null, run-level chat_ref null. Cached result is prior h1059:s3 Mercer, not this run.
+- Existing :48 task was only peeked for optional Ariadne packet timing; it remains enabled at original :48 schedule. No task, ID, prompt, phase, cadence, or ownership mutation; no sixth task.
+- Scheduler amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_AMENDMENT_02_SCHEDULER_PRESERVATION_READBACK.md.
