@@ -40,13 +40,14 @@ Nadir PR #1189, exact head 9e563ee330c8bdbdcf16f746eb1baff931751677, includes Na
 
 Issue #2491: https://github.com/Satobloc/HsH/issues/2491
 Submission ID: nadir-h1066-s0-minkowski-proper-source-lineage-20261124t1000z-001
-SHA-256: a422fbf2c8743ca43826b83028aec989b275a3c9ac58aa9dc0a3941f19116bbb
-Publisher Actions run #45377715417: IN_PROGRESS at last check. State: SUBMITTED_NOT_VERIFIED. No artifact readback or publisher comment is claimed yet.
+Initial rejected SHA-256: a422fbf2c8743ca43826b83028aec989b275a3c9ac58aa9dc0a3941f19116bbb
+Corrected payload SHA-256 (independently computed with Python hashlib over 14,279 UTF-8 bytes): e63856a28c359d2161164e699db09607014a5c05c0086b3f3974fafb08a13479
+Publisher Actions run #45377715417 completed successfully as a workflow, but publisher comment #7129229202 explicitly says REJECTED: SHA-256 mismatch. The original payload digest was wrong. Issue #2491 was corrected in place to the digest above; the workflow listens only to issues.opened, so this edit did not trigger a new run. No PUBLISHED_SUBMISSIONS artifact exists. State: PUBLISHER_REJECTED_SHA_MISMATCH / CORRECTED_PAYLOAD_READY / NO_ARTIFACT. No second issue was created. Carry issue #2491 and the same submission ID forward; do not duplicate.
 
 ## Tocktick
 
 - Focus: MINKOWSKI PROPER provenance and the source-to-assistant geometry boundary.
-- Immediate action: verify the publisher artifact and update CURRENT_WORK.
+- Immediate action: reconcile the corrected existing issue #2491 without creating a duplicate; its edit does not trigger the publisher.
 - Stop: no PDF equation promotion, no new Lean module, no physical calculation.
 - Return locator: SAT archive 2023 SPACETIME CHAT.txt lines 505-535; MINKOWSKI PROPER extraction; Nadir PR #1189.
 - Next: recover the original authoring conversation or retain the PDF as mixed-provenance.
