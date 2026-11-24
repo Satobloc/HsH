@@ -1945,3 +1945,12 @@ The existing :00 Archive automation ID 6aa1fe0de5e48191b886496095b1343f remains 
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0248Z_s4_tern_rook.md`.
 - Clone ledger append: 525 rows, 522 unique populated event IDs, three legacy rows without IDs, zero duplicates/errors; blob `f5464d0560878d960fb6cbeff4ce057c3fb0ff41` before final readback amendment.
 - Four original relays preserved; :12 disabled; no sixth task, no scheduler mutation, no theory promotion.
+
+## 2026-11-24T0636Z | h1062:s3 | Return checkpoint
+
+PWH deep review completed and published at issue #2476. Canonical artifact SHA-256: 80c6ec47087e9397c9531936f5448dc0350f411c2277d0192f12315e123001fc. The five-completed-activation trigger after h1058:s4 was met (at least seven positively recorded completions before this run), with Mercer/Aster stale-fallback findings as an additional material trigger.
+
+PWH queue append committed as eeb4664090fde14afa596d60b36b989d472598ad; Tern CURRENT_WORK append committed as b406e73246a21084b320a6ae2dfefef4aa1b90ca. The report separates P0 prewrite currentness PASS from record-safety FAIL and live-route NOT OBSERVED. The full prewrite discovery manifest had 10,737/10,737 workspace records with generic readers and no presentation_state; 48/48 docket entries were workspace records. Mercer document and Aster visual stale-fallback defects remain conditional latent regressions, not observed current excluded-record exposure.
+
+No code, graph, owner, priority, task, scheduler, cadence, or theory change. No direct-thread delivery or worker identity claim. Postwrite discovery freshness remains pending after this and subsequent continuity/ledger/receipt writes. Next deterministic label Morrow h1062:s4; existing optional OP-01 packet remains untouched.
+
