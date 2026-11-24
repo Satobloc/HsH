@@ -1575,3 +1575,14 @@ New findings, no new tasks:
 Publication: issue #2515, submission_id tern-h1074-s0-lane00-geometry-fidelity-addendum-20261124t1800z-001, SHA-256 89affdd389141f9b2ce57fbe77f444b4f59edda2aaceae5dc089087a619bae7f, 15,379 UTF-8 bytes. Issue body checksum independently matches. No publisher comment or canonical artifact readback is present yet. Status SUBMITTED_NOT_VERIFIED. Carry issue #2515 and submission_id forward; do not duplicate.
 
 FIE rereview completed Nov 24; next due Dec 8. Unrelated-source break next due Nov 28. Next routine PWH deep review after five further actual completed worker activations, or earlier on a material trigger. No priorities, owners, statuses, graph edges, or automation schedules changed.
+
+## Publisher verification amendment | 2026-11-24
+
+Issue #2515 is now PUBLISHED_VERIFIED. Publisher comment #7141561988 confirms the canonical artifact path, publisher commit, and SHA-256. Independent readback:
+- Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h1074-s0-lane00-geometry-fidelity-addendum-20261124t1800z-001.md
+- Artifact blob: 50d30b72f1d6bb48f9b5d3924163c3754431d8a6
+- Publisher commit: ab1bb314b02fd0a20b6f68287a99c913fd82e14b
+- SHA-256: 89affdd389141f9b2ce57fbe77f444b4f59edda2aaceae5dc089087a619bae7f
+- Exact artifact readback: 15,379 characters; checksum matches issue body.
+
+This supersedes the earlier SUBMITTED_NOT_VERIFIED status. Do not duplicate issue #2515 or its submission.
