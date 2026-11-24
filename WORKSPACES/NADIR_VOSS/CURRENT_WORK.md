@@ -1,6 +1,6 @@
 # Current work update: h1073:s3 Lane 36 cross-modal registration gate
 
-**Status:** issue #2512 submitted with exact intake-body SHA; publisher artifact readback pending. New Lean module committed on existing PR #1189 branch, but the first exact-head build failed on a2de6a. Classical/noncomputable correction committed at b7db224; corrected-head run #45453990100 is in progress. No new theorem is verified.
+**Status:** PUBLISHED_VERIFIED at issue #2512; publisher commit 378471ff7f639b293a6f05c83dbe7ac308e01ecb, SHA-256 0cd4a4ffe523af0ffa2bd64afbb2e521e2f486ca09f05808bcedad8d7d2d1760, 16,240 bytes; independent artifact/workspace/issue-content equality verified. New Lean module committed on existing PR #1189 branch, but the first exact-head build failed on a2de6a. Classical/noncomputable correction committed at b7db224; corrected-head run #45453990100 is in progress. No new theorem is verified.
 
 **Substantive delta:** separate within-view contour pairing from cross-modal window registration and sample-level alignment. The new gate requires explicit clock and spatial registration evidence, then a separate sample-alignment record tied to those exact registrations. It is a schema gate, not a physical model or proof of actual dataset registration.
 
