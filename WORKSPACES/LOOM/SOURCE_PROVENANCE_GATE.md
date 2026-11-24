@@ -190,3 +190,32 @@ The shared tagger currently scans JSON roots and recognizes mapping shape, but d
 The existing Loom PR #759 formalizes the abstract constant-role non-injectivity and the fact that an outer role does not determine embedded origin. Its prior successful Actions run was on a synthetic PR merge reference, not current-main integration. That proof is reused as conditional mathematical support; it does not validate a source parser or attribute any actual message by itself.
 
 No shared code, manifest, curation file, workflow, PR, Lean module, issue, or publication was changed in this amendment. No new Lean run was made: the new work is a source/schema and span-provenance contract, and the existing formal result already covers the abstract role-map point. Any later code implementation requires Sable's shared-workflow review and the exact regression corpus above.
+
+
+## Amendment 02 — Aldus mixed-span cross-thread response material (2026-11-24)
+
+### Source identities
+
+- A-container: conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, raw HsH blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a`, 1,578 mapping nodes, 47 user-role messages.
+- Morrow comparison source: conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`; assistant message `12959526-2797-5c4c-9e5f-4dc23c465a04`, 2026-09-08T08:42:36.612Z, 4,148 characters. The same message ID/body length appears in four archived snapshots; those snapshots are versions of one conversation, not independent witnesses.
+
+### Regression case 8 — partial assistant-prefix match inside an outer user turn
+
+A-container user message `3eec9833-d2c8-44f3-9ce6-0d0cbfc9180d` is one 5,072-character ChatGPT raw-export body with one outer `author.role=user`:
+
+- `[0,202)`: direct Nathan framing.
+- `[202,5072)`: 4,870-character embedded response that the user presents as Morrow output.
+- Within that embedded span, `[202,1307)` is an exact 1,105-character prefix match to Morrow assistant message `12959526-2797-5c4c-9e5f-4dc23c465a04`.
+- `[1307,5072)`: 3,765 characters unresolved relative to that Morrow message. The full embedded span is not an exact copy of that message.
+
+Offsets are zero-based positions in the single decoded `content.parts[0]` string, without normalization. Preserve the exact raw body and the declared offset convention in any later fixture.
+
+**Required attribution:** retain the outer user turn as Nathan's submission, but do not assign one author to the entire body. Tag the framing as Nathan-authored; tag the 1,105-character prefix as an exact partial match to the identified Morrow assistant message; keep the remainder as user-attributed/imported candidate text with unresolved source. Do not infer full-message copying, independent model agreement, causal routing, shared identity or persistent cross-thread memory.
+
+### Related context record
+
+A-container user message `fc6745e5-b1f1-465f-9d8c-0e10bbf2aae7` (2026-09-09T02:26:53.510Z) directly reports cross-thread responses, knowledge associated with Janus, and an assistant momentarily using the Meridian name. Assistant message `04795ad3-9e95-58d2-8459-6974b29b6275` (02:27:06.256Z) contains a seeded past-chat citation to Janus and an assistant self-report distinguishing memory, artifact and turn-routing coupling. The user's report is a direct observation; the assistant explanation is not a platform-routing audit.
+
+### Boundary
+
+This case extends the gate's span-attribution corpus. It does not modify the shared harvester, authorize a global schema change, or establish runtime cross-thread delivery. Existing PR #759's abstract outer-role non-injectivity result is conditional support only; it does not authenticate these manual span labels. No new Lean build or parser validation was performed. Sable retains shared-workflow review authority.
