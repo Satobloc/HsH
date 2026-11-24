@@ -101,3 +101,16 @@ At Tern's next h1066:s2 appearance:
 5. Decide the material-triggered PWH review and record the exact next cursor.
 
 **Status:** repository packet only; no direct ChatGPT delivery, no worker consumption, no acknowledgment, no ownership transfer.
+
+
+## Amendment 01 — write-path and postwrite freshness precision
+
+The phrase “branch mutation” in §5 meant no PR-branch rebase, merge, deletion, or force-push. The packet itself was committed to the existing main branch through the documented GitHub Contents API fallback because no local checkout, gh CLI, or suitable Actions writer was available in this runtime.
+
+- Packet commit: 92de14a67bc874e677507180e1cdbb7e3b956332.
+- Main before this packet write: b6d22c5192b9b5e128a981e2a2d0704cbf935e88.
+- Main at this amendment read: 92de14a67bc874e677507180e1cdbb7e3b956332.
+- The discovery snapshot in §3 remains a valid prewrite freshness PASS at source commit 9041c1082ac26219142f0ef09b283769773f3331. The packet write advances main, so postwrite discovery freshness is PENDING until a later generated snapshot is fetched and parsed.
+- Record safety remains FAIL; live visitor-route acceptance remains NOT OBSERVED.
+
+No PR branch, task, owner, scheduler, or theory state was changed.
