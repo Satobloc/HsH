@@ -1,3 +1,17 @@
+## h1059:s3 | 2026-11-24T0336Z | Mercer stale-fallback eligibility QA
+
+- Run key `REVROT3-19-20261011:1059:s3`; selected routing label Mercer index 16, next Ravel index 17. Assistant-level execution only; no authenticated current Mercer thread.
+- Historical Mercer source: direct user message `bb8ecf64-8863-4ee7-a078-ca8cc4104974`; no standalone signed charter. Current Code Grurple roster restricts Mercer to independent Paper A/B QA; Meridian implementation; Tern P0 release/standdown.
+- New conditional gap in PR #2009: stale fallback does not reapply current `eligible(path)`; now-excluded prior records may survive. Python source-matched control-flow replay passed with synthetic placeholders. Not evidence of current excluded-record exposure.
+- Report blob `8df3840b6661d462ebc39e8a1c8af90e6f50aa58`, 10,644 characters. Publisher issue #2467 PUBLISHED_VERIFIED, run #45321498103, SHA-256 `dff1a327f738a4e4cb2239b181f5603688d31b4fe737053e92f614e19d5d07f6`; canonical artifact equals workspace report byte-for-byte.
+- PR #2009 comment #7121368463; P0 issue #1747 comment #7121397610. No formal review, code change, merge, route probe, deployment, or standdown.
+- Existing PR #1471 formalizes stale reader/excerpt revocation but lacks a current-eligibility dimension. No Lean run; local Lean/Lake/Elan absent and no branch/CI change authorized.
+- Last fully parsed discovery snapshot 03:20:55Z remains record-safety FAIL. Newer generated commit 1b2a504 was not independently parsed; publisher commit 1939863 followed. No post-publisher freshness pass claimed.
+- P1 overdue/frozen/Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 incomplete. FIE next Dec 4. PWH deep review Tern h1058:s4 completed; no duplicate.
+- Existing :36 task preserved; no scheduler mutation or sixth task. No handoff to Ravel because no action is in his protected remit; no cross-thread delivery claim.
+
+---
+
 ## h1055:s4 | 2026-11-23T2348Z | Mercer P0 current-branch and Paper A/B route QA
 
 - Run key `REVROT3-19-20261011:1055:s4`; deterministic selection Mercer index 16, successor Ravel h1056:s0. Assistant-level source-grounded execution only; no authenticated current Mercer thread.
