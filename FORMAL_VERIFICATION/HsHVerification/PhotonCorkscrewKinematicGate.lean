@@ -32,7 +32,8 @@ components is spacelike in the standard (-+++) Minkowski metric. -/
 theorem unit_axis_with_transverse_is_spacelike
     (x y : ℝ) (htrans : 0 < x ^ 2 + y ^ 2) :
     minkowskiNorm4 { t := 1, x := x, y := y, z := 1 } > 0 := by
-  simpa [minkowskiNorm4] using htrans
+  simp [minkowskiNorm4]
+  linarith
 
 /-- For a null tangent with unit time component, a nonzero transverse
 contribution forces the axial component to be strictly subunit. -/
@@ -51,8 +52,10 @@ theorem null_unit_time_unit_axis_forces_transverse_zero
     (x y : ℝ)
     (hnull : minkowskiNorm4 { t := 1, x := x, y := y, z := 1 } = 0) :
     x = 0 ∧ y = 0 := by
-  have hsum : x ^ 2 + y ^ 2 = 0 := by
+  have hnorm : -1 + x ^ 2 + y ^ 2 + 1 = 0 := by
     simpa [minkowskiNorm4] using hnull
+  have hsum : x ^ 2 + y ^ 2 = 0 := by
+    linarith
   constructor <;> nlinarith
 
 /-- In an orthogonal Euclidean decomposition, positive transverse speed
