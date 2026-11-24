@@ -1,3 +1,29 @@
+# H1066:s2 | 2026-11-24T10:51Z | PWH duplicate-run-key reconciliation
+
+**Disposition:** DUPLICATE_RUN_KEY_RECONCILIATION / existing deep review retained / correction status reconciled. This late invocation does not create a second review, publisher issue, branch, or handoff.
+
+- **Run key:** `REVROT3-19-20261011:1066:s2`; Tern Rook (index 12) -> Morrow (index 13). Selection is routing only, not thread authentication.
+- **Current host run:** :24 task ID `6abda4c8eda88191bf23a6f2849e9a17`, run `e78633c3-ad0c-832e-b863-7f9231607fe3`, scheduled 10:24Z, started 10:51:21.899Z, still IN_PROGRESS at readback, `chat_ref=null`. Cached latest result is prior h1065:s2 run `1ca8a539-37a8-8321-846a-912f908be2ba`, not this run. The enabled hourly America/New_York :24 schedule and Geometry phase are unchanged.
+- **Existing PWH review:** [issue #2490](https://github.com/Satobloc/HsH/issues/2490), PUBLISHED_VERIFIED. Artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h1066-s2-pwh-deep-review-20261124t1024z-001.md`, blob `35a057b51dd9336aa9176511a011a4dfb4b627bc`, SHA-256 `cca06449796c18a78dd04c1c1dce07983c0c8bbee9a050586cc7690641f3782f`; exact 13,844-character envelope/readback match.
+- **Correction:** the artifact's 10,773 workspace-record count is wrong. Calder h1065:s2 report/receipt support 10,788. Amendment issue #2492 was rejected: exact 1,241-byte content digest `74d4e5281e5fd0a67b18e6cc9a3b5567245d53c36776befc829c163727f0f4d1`, declared digest `ea2c257eff0ae9f06da9d460308554dafb22e0c5a0243d555095293c0ac85ae7`; no amendment artifact exists. Comments #7129598661 and #7129599248 explicitly correct the status. No retry or direct artifact write.
+- **Current branch snapshot:** main `7edd956aae06ef2fe13abce50e03b0eacde4e780`. PR #2487 6 ahead / 44 behind; #2488 1 / 44; #1710 7 / 11,528; #2009 4 / 6,111; #1251 4 / 21,312. All remain draft/open/unmerged; exact-head Actions queries returned zero runs. Calder retains WH-02 implementation/rebase ownership; Meridian P0 and Mercer independent presentation QA remain unchanged. No rebase, merge, force-push, or deletion.
+- **P0:** latest discovery refresh cited by #2490 used HsH source `8f20831e2127b20ab8eec54fdf18660f616bbee5`, 27 commits behind the pinned main snapshot. The newest 31.85 MB payload remains unparsed; currentness is NOT REVALIDATED, record safety FAIL, live visitor-route acceptance NOT OBSERVED. The last fully parsed 10,788-record snapshot is not the newest payload. Eight protected objects were last verified 8/8 by Calder h1065:s2.
+- **WH-06:** #1701 is CLOSED as VERIFIED_PUBLISHED after exact 6,916-byte envelope/artifact equality and independently matched SHA-256; terminal comment #7128838163. This is one manual closure pilot, not an automated publisher lifecycle transition. #2490 remains open pending correction; #2492 remains open/rejected. No bulk closure.
+- **Mersearch:** lane 1 has no request-scoped manifest/receipt; lane 2 has a stable 1.0 three-repository manifest and compact receipts, with raw results withheld; lanes 3 and 4 have no request-scoped manifests/receipts. No local checkout or callable first-party Mersearch action; no lane mutation or new request.
+- **Queue:** appended the h1066:s2 reconciliation to [Primary Workflow Health queue](../COMMON/PRIMARY_WORKFLOW_HEALTH_ACTION_QUEUE_2026-11-13.md), commit `7eadefbf0d3fe71ab59cd8b31252e1087d5488d3`, blob `64ed8dc9b0b74bbe60982c244428e7baa0c924a3`. Comments: #1702 `7129599936`; #1705 `7129600514`.
+- **Next worker:** Morrow h1066:s3 completed at 10:41:31Z; its receipt and #2489 publication are verified. No stale handoff or cross-thread delivery claim was made.
+- **Cadence:** next PWH deep review after five further actual completed worker activations following h1066:s2, or earlier on a material trigger. This duplicate reconciliation does not reset the counter. Unrelated-source reading next November 28; FIE re-review December 4.
+- **No theory/physical advance:** no measured system or dataset selected, no CODATA comparison, no physical calculation, no new Lean module, no paper-gate advancement, and no BEDROCK promotion. No task/ID/schedule/phase/cadence change; no sixth task.
+
+**Tocktick**
+- Focus: PWH archive-ingest, branch and publisher lifecycle integrity.
+- Immediate action: Calder continues WH-02 on #1702 / PR #2487; WH-06 remains on #1705.
+- Stop: no duplicate report, no resubmission of rejected #2492, no handoff to already-completed Morrow.
+- Return: [PWH queue](../COMMON/PRIMARY_WORKFLOW_HEALTH_ACTION_QUEUE_2026-11-13.md), [#1702](https://github.com/Satobloc/HsH/issues/1702), [#1705](https://github.com/Satobloc/HsH/issues/1705), [#2490](https://github.com/Satobloc/HsH/issues/2490), [#2492](https://github.com/Satobloc/HsH/issues/2492).
+- Next: resume the existing WH-02/WH-06 workstreams; routine PWH deep review after five further actual completions.
+
+---
+
 # H1055:s0 | 2026-11-23T23:00Z | Lane 00 source-fidelity + PWH integration
 
 ## H1058:s4 final reconciliation | 2026-11-24T03:51:12.419Z
