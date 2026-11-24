@@ -475,18 +475,18 @@ theorem chronology_bound_bundle_keeps_first_claims_scoped
 A single positive public-access snapshot supplies an upper bound on a release
 time, not an exact T0. A verified earlier negative snapshot and a later
 positive snapshot can bracket the first accessible tick only within a
-declared subject, exact content version, surface, clock, and observation
+declared subject, exact content version, surface, clock, and finite observation
 scope, and only under an explicit monotonic-availability assumption.
 
-The completeness status below is an input attestation for the declared
-corpus/scope. It is not authenticated by Lean. This construction does not
-establish a global first exposure across undeclared surfaces or time ranges.
+Completeness for the declared corpus is an input attestation, not something
+Lean authenticates. This construction does not establish a global first
+exposure across undeclared surfaces, versions, or time ranges. If access can
+be revoked or toggled, the monotone-history model is inapplicable.
 -/
 
 /-- Public availability history for one subject, exact content version,
-    surface, clock domain/scale, and declared observation scope. Monotonicity
-    is an explicit assumption; if public access can be revoked or toggled,
-    this history model is not applicable to first-ever exposure. -/
+    surface, clock domain/scale, and finite observation scope. Monotonicity
+    is an explicit premise limited to that scope. -/
 structure PublicAccessHistory where
   coverageId : String
   subjectId : String
@@ -495,10 +495,12 @@ structure PublicAccessHistory where
   clockDomain : ClockDomain
   clockScale : ClockScale
   scopeStart : Nat
+  scopeEnd : Nat
+  scopeOrdered : scopeStart ≤ scopeEnd
   coverageStatus : CoverageStatus
   publiclyAccessible : Nat → Prop
   monotoneWithinScope :
-    ∀ ⦃a b : Nat⦄, scopeStart ≤ a → a ≤ b →
+    ∀ ⦃a b : Nat⦄, scopeStart ≤ a → a ≤ b → b ≤ scopeEnd →
       publiclyAccessible a → publiclyAccessible b
 
 /-- A pair of verified, source-located observations on the same
@@ -530,22 +532,22 @@ structure PublicAvailabilityTransitionWindow (H : PublicAccessHistory) where
   lowerVerified : isVerified lowerStatus = true
   upperVerified : isVerified upperStatus = true
   lowerInScope : H.scopeStart ≤ lastNegativeAt
-  upperInScope : H.scopeStart ≤ laterPositiveAt
+  upperInScope : laterPositiveAt ≤ H.scopeEnd
   lowerNotPublic : ¬ H.publiclyAccessible lastNegativeAt
   upperPublic : H.publiclyAccessible laterPositiveAt
   ordered : lastNegativeAt < laterPositiveAt
 
 /-- A first-public-T0 claim scoped to a declared corpus/surface/version and
-    observation window. Completeness for the declared corpus remains an
-    attestation, not a theorem about omitted sources or undeclared surfaces. -/
+    finite observation window. Completeness for the declared corpus remains
+    an attestation, not a theorem about omitted sources or other surfaces. -/
 structure ScopedFirstPublicT0 (H : PublicAccessHistory) extends
     PublicAvailabilityTransitionWindow H where
   coverageCompleteForDeclaredCorpus :
     H.coverageStatus = CoverageStatus.completeForDeclaredCorpus
 
-/-- Under the explicit monotonicity premise, the first accessible tick in
-    the declared scope lies strictly after the negative observation and no
-    later than the positive observation. -/
+/-- Under the explicit within-scope monotonicity premise, the first accessible
+    tick in the declared scope lies strictly after the negative observation
+    and no later than the positive observation. -/
 theorem transitionWindow_contains_first_accessible_tick
     {H : PublicAccessHistory}
     (w : PublicAvailabilityTransitionWindow H) :
@@ -557,22 +559,22 @@ theorem transitionWindow_contains_first_accessible_tick
         ¬ H.publiclyAccessible s := by
   classical
   let hExists : ∃ t : Nat,
-      H.scopeStart ≤ t ∧ H.publiclyAccessible t :=
-    ⟨w.laterPositiveAt, w.upperInScope, w.upperPublic⟩
+      H.scopeStart ≤ t ∧ t ≤ H.scopeEnd ∧ H.publiclyAccessible t :=
+    ⟨w.laterPositiveAt, by omega, w.upperInScope, w.upperPublic⟩
   let t : Nat := Nat.find hExists
-  have ht : H.scopeStart ≤ t ∧ H.publiclyAccessible t :=
+  have ht : H.scopeStart ≤ t ∧ t ≤ H.scopeEnd ∧ H.publiclyAccessible t :=
     Nat.find_spec hExists
   have hle : t ≤ w.laterPositiveAt :=
-    Nat.find_min' hExists ⟨w.upperInScope, w.upperPublic⟩
+    Nat.find_min' hExists ⟨by omega, w.upperInScope, w.upperPublic⟩
   have hgt : w.lastNegativeAt < t := by
     by_contra hnot
     have hleLower : t ≤ w.lastNegativeAt := by omega
     exact w.lowerNotPublic
-      (H.monotoneWithinScope ht.1 hleLower ht.2)
-  refine ⟨t, hgt, hle, ht.2, ?_⟩
+      (H.monotoneWithinScope ht.1 hleLower (by omega) ht.2.2)
+  refine ⟨t, hgt, hle, ht.2.2, ?_⟩
   intro s hsScope hsLt hAccessible
   have hmin : t ≤ s :=
-    Nat.find_min' hExists ⟨hsScope, hAccessible⟩
+    Nat.find_min' hExists ⟨hsScope, by omega, hAccessible⟩
   omega
 
 theorem scopedFirstPublicT0_has_first_accessible_tick
