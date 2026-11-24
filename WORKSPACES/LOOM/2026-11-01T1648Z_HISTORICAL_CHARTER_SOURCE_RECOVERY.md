@@ -68,3 +68,15 @@ Source-grounded revival was performed in this scheduled context. No currently us
 Unrelated reading: fun break - lx.txt, blob f33eb29fbac65efa1db054239bb9c28a04a13a42, lines 181-220. Tags: LANGUAGE-DISCOVERY-GAME, LINGUISTIC-GUESSING, TRANSCRIPT-ONLY, TEXTUAL-SPEAKER-LABELS. Return cursor: line 221.
 
 No physical calculation, model inference, human-subject experiment, theory promotion, BEDROCK change, SAT-O/Blockwave equation change, new tool, new branch, new PR, scheduler mutation or additional task was performed. FIE last reviewed 2026-10-27; the 14-day rereview threshold is not due.
+
+
+## Amendment 01 - DIMENSIONAL GRAVITY export-clock correction (2026-11-24)
+
+The original source-recovery entry lists the raw export's top-level `update_time` as `2026-06-01T15:36:36.139Z`. That value is incorrect. A fresh parse of the exact raw Git blob `2cea1924266418e19b825b95ae51e6b7cbace7e1` gives:
+
+- Top-level `create_time`: `2024-03-22T15:10:05.406Z`.
+- Top-level `update_time`: `2026-06-10T15:36:36.139Z`.
+- Selected current-node's last active message: `2026-06-01T21:57:40.080Z`.
+- Filename range `24.03.22•26.06.01`: derived from the first and last active user/assistant message timestamps, not the later top-level export update_time.
+
+The source's earliest theory-development date remains 2024-03-22. This correction separates export metadata from the active conversation interval; it does not change the user-reported 2025-02-02 first-public-discussion claim or the 2003 notebook-sketch claim.
