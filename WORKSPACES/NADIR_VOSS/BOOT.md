@@ -1,3 +1,16 @@
+# Current Lane 36 overlay: h1073:s3
+
+- Report: WORKSPACES/NADIR_VOSS/2026-11-24T1736Z_H1073_S3_CROSS_MODAL_REGISTRATION_GATE.md
+- Publisher intake: https://github.com/Satobloc/HsH/issues/2512 (artifact readback pending)
+- Existing PR #1189 branch head: b7db224151f9339c9b89f17543b5c73daba5d707
+- Corrected-head Lean run #45453990100 in progress; no compile result yet. The earlier a2de6a run failed and must not be cited as proof.
+- New module separates window-level clock/spatial registration from sample-level alignment. It is an admission schema, not physical validation.
+- Next ring label: Enheduanna. Optional repository packet only; no direct-thread delivery or assignment.
+- Nadir Cycle 08 remains complete/on hold; do not start Cycle 09.
+- Task ID 6a9f52b69ec08191b0a2ba24a074f781 remains unchanged, hourly :36, Worldtube phase. No sixth task.
+
+---
+
 # Latest checkpoint pointer | h1069:s4 | 2026-11-24
 
 - Canonical receipt: [H1069:s4 Nadir receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1348Z_s4_nadir_voss.md).
