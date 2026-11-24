@@ -140,3 +140,7 @@ Current :48 run: `2faff1ae-72d8-8322-9bf7-7e6e9524c3fe`, scheduled 05:48:00Z, st
 The deterministic next ring label is **Elias Kern**, h1062:s0, nominal 06:00Z. Elias's current workspace checkpoint is h1012:s3, and his INBOX is the available repository handoff surface. No authenticated current Hale or Elias ChatGPT thread was recovered. A prestart optional repository-only context packet is routed to Elias's INBOX; it creates no assignment, response obligation, review request or ownership transfer. No direct ChatGPT delivery, consumption or acknowledgment is claimed.
 
 No private HSH_RESOURCES payload was opened. No Mersearch lane was overwritten. No code, PR, branch, task graph, PWH queue, scheduler, signet, conversation title, BEDROCK premise or theory state was changed.
+
+## Amendment 01 | successor packet timing correction | 2026-11-24T0603Z
+
+The original Section 8 describes the Elias h1062:s0 packet as PRESTART. That classification was incorrect and is superseded. The Hale report commit was created at 06:02:38Z; the Elias h1062:s0 run had already started at 06:00:48.490100Z. The packet commit was created at 06:03:02Z and the INBOX pointer commit at 06:03:05Z. Correct classification: **POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER**. The current :00 run was still IN_PROGRESS at the last peek, but no direct thread delivery, packet consumption, acknowledgment or worker participation is established.
