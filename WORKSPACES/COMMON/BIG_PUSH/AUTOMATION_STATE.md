@@ -64,7 +64,7 @@ The :00 task is intended to be the sole Big Push automation writer after install
 - Active claim: NONE
 - Last completed automated Big Push operation: NONE
 - Last scheduler run recorded for Big Push: NONE
-- Next eligible operation: BP-EXEMPLAR-001, build the methodological exemplar map per the 2026-11-24 Nathan Direct scope rebaseline. The old May 2025 transcript cursor is non-blocking and is resumed only if a selected exemplar requires it.
+- Next eligible operation: BP-EXEMPLAR-002, deep review of the Back Hallways / Loop methodological transition, per METHOD_EXEMPLAR_MAP_2026-11-24.md. Automation remains NOT_ARMED; this cursor is for the next human-directed or explicitly authorized operation. The old May 2025 transcript cursor is non-blocking.
 
 
 ## External Workshop Relay observation — 2026-11-05 11:20Z
