@@ -537,11 +537,17 @@ theorem duplicate_semantic_ids_allow_one_event_to_satisfy_both_endpoints :
   · unfold itemPresentAt
     apply Finset.card_pos.mpr
     refine ⟨aliasEvent, ?_⟩
-    simp [aliasFlow, aliasEvent, aliasLeft, aliasPair]
+    rw [Finset.mem_filter]
+    constructor
+    · simp [aliasFlow]
+    · simp [aliasEvent, aliasLeft]
   · unfold itemPresentAt
     apply Finset.card_pos.mpr
     refine ⟨aliasEvent, ?_⟩
-    simp [aliasFlow, aliasEvent, aliasRight, aliasPair]
+    rw [Finset.mem_filter]
+    constructor
+    · simp [aliasFlow]
+    · simp [aliasEvent, aliasRight]
 
 theorem alias_flow_fails_unique_item_ids :
     ¬ uniqueItemIds aliasFlow.items := by
@@ -575,7 +581,10 @@ theorem orphan_event_can_make_unregistered_item_appear :
   unfold itemPresentAt
   apply Finset.card_pos.mpr
   refine ⟨orphanEvent, ?_⟩
-  simp [orphanFlow, orphanEvent, orphanItem, claimA]
+  rw [Finset.mem_filter]
+  constructor
+  · simp [orphanFlow]
+  · simp [orphanEvent, orphanItem]
 
 theorem orphan_flow_fails_referential_integrity :
     ¬ eventReferencesResolve orphanFlow := by
