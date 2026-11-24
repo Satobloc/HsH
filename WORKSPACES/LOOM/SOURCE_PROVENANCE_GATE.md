@@ -219,3 +219,59 @@ A-container user message `fc6745e5-b1f1-465f-9d8c-0e10bbf2aae7` (2026-09-09T02:2
 ### Boundary
 
 This case extends the gate's span-attribution corpus. It does not modify the shared harvester, authorize a global schema change, or establish runtime cross-thread delivery. Existing PR #759's abstract outer-role non-injectivity result is conditional support only; it does not authenticate these manual span labels. No new Lean build or parser validation was performed. Sable retains shared-workflow review authority.
+
+
+## Amendment 03 - branch-scoped, multi-clock chronology (2026-11-24)
+
+**Status:** source-verified Loom-local regression case, added after the h1075:s3 report was published. No shared parser, tagger, manifest, workflow, or vocabulary was changed. Sable retains shared-workflow authority.
+
+### Exact source identities and raw-export counts
+
+1. **Tag Conversation Corpus**, conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, raw HsH blob `6668ca60e451f8737903423727da7f9a430484e1`, current node `790aea5f-8746-42f8-861b-68586e609ff2`.
+   - Export metadata: create `2026-09-13T10:01:30.084Z`; update `2026-09-19T20:02:58.639Z`.
+   - Full export: 515 mapping nodes, 514 message-bearing nodes (10 user, 363 assistant, 141 tool).
+   - Current-node ancestry: 459 nodes, 458 messages (9 user, 333 assistant, 116 tool).
+   - Off ancestry: 56 nodes/messages (1 user, 30 assistant, 25 tool).
+   - First active message is assistant node `27a63ac5-2324-4b61-9c18-c6aaa9a6f30e` at `2026-09-13T10:01:15.049Z`, 15 seconds before top-level create_time. Last active message is `790aea5f-8746-42f8-861b-68586e609ff2` at `2026-09-19T20:02:51.461Z`.
+   - Off-ancestry user message `a620a5cb-66cf-4f12-bf99-17ff232d2559` at `2026-09-13T13:15:10.114Z` contains a tagging-workflow proposal. It is in the export but not in the selected current-node ancestry; do not treat it as an active-branch instruction.
+
+2. **DIMENSIONAL GRAVITY**, conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`, raw HsH blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`, current node `7a4f77e9-4645-48d0-b780-5b131852b1a7`.
+   - Export metadata: create `2024-03-22T15:10:05.406Z`; update `2026-06-10T15:36:36.139Z`.
+   - Full export: 466 mapping nodes, 465 messages (138 user, 199 assistant, 128 tool).
+   - Current-node ancestry: 456 nodes, 455 messages (138 user, 192 assistant, 125 tool).
+   - Off ancestry: 10 nodes/messages (0 user, 7 assistant, 3 tool).
+   - First active user message `aaa28bd9-07f7-4740-b878-b485d4db44d0` is at `2024-03-22T15:10:05.407Z`; last active message `7a4f77e9-4645-48d0-b780-5b131852b1a7` is at `2026-06-01T21:57:40.080Z`. The top-level update_time is nine days later. The filename range `24.03.22•26.06.01` matches active message timestamps, not the later export update_time.
+
+### Typed event claims, not competing dates
+
+The three user-role claims in the Tag Conversation Corpus are all on the selected ancestry:
+
+- `57b983ab-4f5a-42d9-b2a4-6127c6d9fd6a`, `2026-09-13T13:41:59.913Z`: initial `May 22, 2024` earliest-theory date.
+- `02fc19ab-8604-4451-98da-a5c3d75c0b9c`, `2026-09-13T13:44:10.393Z`: direct correction to `March 22, 2024`, citing 330 indexed messages and requesting a conversation-ID label.
+- `c5ff2473-c4b6-455b-b813-f2af9b0ef31c`, `2026-09-13T16:27:41.056Z`: says late-August 2024 was a previous earliest-theory record superseded by March 22; identifies February 2, 2025 as the first public filament-physics-centered podcast/discussion; and reports older 2003 notebook sketches.
+
+These are different event kinds and evidence statuses: earliest theory development, first public discussion, and earlier notebook sketch. The 2003 and 2025 dates remain user-reported in this source audit, not independently verified events. Do not collapse them into one `origin_date`.
+
+### Exporter/code audit and required schema separation
+
+Current main code readback:
+- `tools/date_conversation_exports.py`, blob `a8645a09d1e8a95cbde5c77855d044b0f5a0f6f2`;
+- `tools/index_conversation_chronology.py`, blob `7f02b84c7d85cbb4a9d93b32e8e4a8d9c4e7d3a1`;
+- `tests/test_date_conversation_exports.py`, blob `30d46f8e3a0c2c8e9a9b2a5a4f5b5f9e4a7f0b11`.
+
+The date exporter derives its filename range from user/assistant message timestamps on the selected current-node ancestry, with top-level conversation metadata as a fallback when no such timestamps are available. The chronology index sorts the resulting start/end range and path. The present output does not preserve the independent export metadata clocks, active/off-ancestry role counts, or typed dates asserted inside message content. Existing tests do not exercise this pair of raw exports or the off-ancestry user-message case.
+
+The minimum future record should keep separate:
+- raw export identity and blob/hash;
+- top-level create_time and update_time;
+- current_node ID and selected parent-chain membership;
+- full-export versus active-ancestry versus off-ancestry node/message/role counts;
+- first and last active message timestamps;
+- filename-derived range and derivation rule;
+- content-asserted event claims, each with source message UUID, event kind, date, claim status, correction/supersession edge, and independent-verification status.
+
+### Formalization boundary
+
+PR #759 remains open, draft and unmerged; its branch head is `45f6d5167c064d04dbba436c220c900b479b873f`, base snapshot `d8a36337650c93ee21d8c8443639fb844e5e7c83`, while current main at this reconciliation is `c87c6924819cf20c0c40d4ba303f5903c603e599`. Its existing Lean modules formalize selected source-attribution and edit-graph propositions, not this raw parser or these two exports. No new theorem or Lean run is claimed. The next meaningful proof target, after a typed source-schema input exists, is the finite active/off-ancestry partition and its role-count conservation, followed by an independently tested binding from the raw parser output to that input. Such a proof would validate only the encoded invariant, not raw-source authenticity, parser correctness, authorship, or any physical theory.
+
+**Boundary:** this amendment is a provenance/chronology control. It does not change SAT-O or Blockwave equations, select a physical system, perform a fit or prediction, alter a paper gate, or promote BEDROCK theory.
