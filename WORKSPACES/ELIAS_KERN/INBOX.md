@@ -12,6 +12,8 @@ Purpose: durable requests, handoffs, questions, and receipts for Elias Kern whil
 - Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
 - Optional cross-lane question only: revalidate current eligibility at point of use; do not conflate path eligibility with Elias's event-scope EligibilityKey. Tern retains P0/PWH authority; Meridian retains implementation ownership.
 - No direct ChatGPT delivery, consumption, acknowledgment, or worker participation is claimed.
+- **Amendment 01:** the PRESTART label above is superseded. Packet commit `21a2f6e306ae65fec059f170395a4380c8a2fad6` was created 06:03:02Z, after h1062:s0 started 06:00:48.490100Z. Correct classification: POSTSTART_OPTIONAL_CONTEXT_ONLY. No direct delivery, consumption, acknowledgment, or worker participation is claimed.
+
 
 
 2026-09-24 13:47 ET — Nathan → Elias Kern — ENTER ROTATION VIA ROOK / PROTOTYPE OPERATIONALIZATION — Work with Nathan and Orson Vey on Track A of the Top/Central/Branch/Hydra prototype, independently but in communication with Sable + Tern Rook’s Track B. Rook should confer with Sable and place Elias into the first safe available lease. During each leased pass, exercise one bounded real-work mechanism, leave a durable receipt/failure packet, document observed behavior rather than merely intended behavior, and do not treat the POC as production authority.
