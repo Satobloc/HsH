@@ -1,3 +1,14 @@
+## 2026-11-24 H1074:S3 | P0 discovery-to-route acceptance composition
+
+- Public report submission: [issue #2513](https://github.com/Satobloc/HsH/issues/2513), `SUBMITTED_NOT_VERIFIED` pending publisher workflow #45458330127 and exact canonical readback.
+- Run receipt: [H1074:S3 Meridian](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1736Z_s3_meridian.md).
+- New architecture finding: the existing `projectionSafe` discovery predicate is not conjoined in the formalization with `presentationAcceptedWithDisclosure`. The report defines the required outer composition and shared identity joins; no new witness schema or code branch was created.
+- Current P0 state: discovery snapshot freshness PASS; record policy FAIL (10,866/10,866 workspace records expose generic reader targets without presentation_state); Paper A/B source-to-feed pins PASS; live route/build/deployment/visual evidence NOT OBSERVED; P0 ACTIVE.
+- Lean: Aster PR #2416 merge-reference build #45184293786 succeeded on synthetic merge commit, 8,946 jobs. The outer composition remains unformalized; exact-head-only verification and global audits are absent.
+- PR #2009 remains open/draft/unmerged and diverged from current main (6,312 ahead on main, 4 ahead on PR branch); do not merge as-is.
+- Next: verify the same publisher run and artifact readback; reconstruct the P0 repair on current main; keep Mercer independent QA and Tern release authority.
+- No direct thread authentication or cross-thread delivery claim. No task ID, schedule, phase, cadence, or automation mutation.
+
 ## 2026-11-24 h1070:s4 checkpoint
 
 
