@@ -1,0 +1,158 @@
+{
+  "record_type": "FACTORY_HANDOFF_PENDING",
+  "record_version": "0.1",
+  "local_packet_id": "HSH-PR1133-KERR-SECTION-SWEEP-RANK-GATE-H1063S3",
+  "factory_item_id": null,
+  "factory_item_id_status": "NOT_ALLOCATED_PENDING_FACTORY_INTAKE",
+  "handoff_status": "FACTORY_HANDOFF_PENDING",
+  "delivery_claim": false,
+  "destination_repository": "Satobloc/FACTORY_FLOOR",
+  "intake_route": "1_GLASS_PLUS_HSH_TO_2_WORKSHOP",
+  "intake_status": "BLOCKED_GEOMETRY_FIRST_GATE_AND_STABLE_ID",
+  "intake_blocker": "The current Factory Floor README requires a precise source-faithful geometric plot, independent hostile fidelity review, and display of that exact plot with the submitted file before eligibility. No source-defined spatial-Kerr sweep map or plot exists in this packet. The Factory Floor TODO also requires a stable Floor ID allocated by Factory rules. No direct write to Factory Floor was made.",
+  "factory_floor_todo_blob": "fc4a7513f7178d0f29f8da1633c18ee74e7c4804",
+  "factory_floor_readme_blob": "043b91bbc0106229326ba596ecacd2289abb140b",
+  "geometry_admission": {
+    "status": "GEOMETRY_NOT_SUPPLIED",
+    "precise_plot": null,
+    "independent_hostile_review": "NOT_RECEIVED",
+    "source_defined_sweep_map": "NOT_SUPPLIED",
+    "section_intrinsic_dimension": "UNSPECIFIED_BY_DIRECT_SOURCE",
+    "image_interpretation": "4D_VOLUME_VS_3D_HYPERSURFACE_UNRESOLVED"
+  },
+  "hsh_report": {
+    "path": "WORKSPACES/RAVEL/2026-11-24T0736Z_H1063_S3_KERR_SECTION_SWEEP_RANK_GATE.md",
+    "blob": "518243d2ad51ec97e9fbccbe5b23c453a5c531e2",
+    "sha256": "08f80dcb7d763195fcc5a61d2b8ee62088dda318db4c5e2d583417a5cea5b2c7",
+    "publisher_issue": 2479,
+    "publisher_run": 45351444165,
+    "published_artifact": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-h1063-s3-kerr-section-sweep-rank-gate-20261124t0736z-001.md"
+  },
+  "formalization": {
+    "repository": "Satobloc/HsH",
+    "pull_request": 1133,
+    "pull_request_url": "https://github.com/Satobloc/HsH/pull/1133",
+    "state": "OPEN_DRAFT_UNMERGED",
+    "branch": "research/ravel-carrier-slice-reconstruction-20261031t0212z",
+    "head_sha": "582264f2776f55db962b7db954a8153d7b29cb14",
+    "module_path": "FORMAL_VERIFICATION/HsHVerification/RavelKerrSectionSweepRankGate.lean",
+    "theorems": [
+      "rank_add_nullity",
+      "domain_dimension",
+      "three_dimensional_section_injective_rank_four",
+      "three_dimensional_section_rank_three_requires_one_kernel_dimension",
+      "three_dimensional_section_rank_three_not_injective",
+      "two_dimensional_section_injective_rank_three",
+      "three_dimensional_full_rank_fills_ambient_dimension"
+    ]
+  },
+  "verification": {
+    "workflow_run": 45351724450,
+    "workflow_url": "https://github.com/Satobloc/HsH/actions/runs/45351724450",
+    "job_id": 138299534936,
+    "conclusion": "SUCCESS",
+    "exact_pr_head_assertion": "PASS",
+    "expected_and_actual_checkout": "582264f2776f55db962b7db954a8153d7b29cb14",
+    "lean": "4.34.0",
+    "lake": "5.0.0",
+    "build_jobs": 8958,
+    "theorem_axioms": {
+      "rank_add_nullity": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "domain_dimension": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "three_dimensional_section_injective_rank_four": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "three_dimensional_section_rank_three_requires_one_kernel_dimension": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "three_dimensional_section_rank_three_not_injective": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "two_dimensional_section_injective_rank_three": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "three_dimensional_full_rank_fills_ambient_dimension": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "no_sorry_or_admit_in_new_module": true,
+    "warnings": [
+      "Unused section variable FiniteDimensional K AmbientTangent in rank_add_nullity and domain_dimension."
+    ],
+    "skipped": [
+      "tests",
+      "lint",
+      "global_axiom_audit",
+      "leanchecker",
+      "nanoda"
+    ]
+  },
+  "source_record": {
+    "sat_o1": {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "path": "SATOBLOC/SAT O1 4D.txt",
+      "blob": "7577aa1ee5a6c3850ce3b226c75377de6367aedc",
+      "sha256": "8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937",
+      "source_commit": "028862e6f1b0ffad2f56f4989a2cd0a769d266fd",
+      "source_commit_date": "2026-11-23T21:32:19Z",
+      "source_class": "HISTORICAL_SOURCE_NOT_BEDROCK",
+      "equation_status": "VERBATIM_SOURCE_EQUATIONS_RETAINED; NO_CORRECTION_PROPOSED"
+    },
+    "sat4d_canonical_summary": {
+      "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+      "path": "SATOBLOC/SAT4D_LIVE_DRAFT.txt",
+      "blob": "2a79fe25018cce7e99a2c33786d88b0551db6ae7",
+      "byline": "Nathan McKnight",
+      "document_date": "2025-06",
+      "relation": "SEPARATE_ARTIFACT; NO_BYLINE_TRANSFER_TO_UNBYLINED_SAT_O1"
+    },
+    "blockwave": {
+      "repository": "Satobloc/HsH",
+      "path": "DEVELOPMENT_FULL_CONVOS/MOSTLY_EARLY_NLM/🧱BLOCKWAVE.txt",
+      "blob": "ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d",
+      "sha256": "3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664",
+      "attachment_event": "2025-09-16T16:31:26.687Z",
+      "authorship_status": "EMBEDDED_PROSE_ASSISTANT_VOICED; FULL_AUTHORSHIP_UNRESOLVED",
+      "status": "NOT_USED_NOT_CHANGED"
+    }
+  },
+  "epistemic_status": "CONDITIONAL_MATHEMATICAL_AND_WORKFLOW_RESULT_ONLY",
+  "physical_test": {
+    "selected_system": null,
+    "dataset": null,
+    "units": null,
+    "uncertainties": null,
+    "calibration": null,
+    "holdout": null,
+    "fit": null,
+    "physical_prediction": null,
+    "numerical_falsification_threshold": null,
+    "status": "NO_PHYSICAL_TEST_OR_CALCULATION"
+  },
+  "review": {
+    "independent_review": "NOT_RECEIVED",
+    "bedrock_promotion": false,
+    "paper_gate_advance": false,
+    "pdf_or_reader": "NOT_APPLICABLE_TO_THIS_FORMALIZATION_NOTE; PAPER_GATES_REMAIN_SEPARATE",
+    "factory_floor_eligible": false
+  },
+  "next_action": "A source-faithful plot must first show the selected section, extension parameter, candidate sweep, differential rank, image dimension, and any quotient/fiber structure. An independent hostile fidelity review must verify that exact plot against the historical source. Only then may authorized Factory intake allocate a stable Floor ID. Until then this remains a repository-only pending packet, not a delivered or accepted Factory item."
+}
