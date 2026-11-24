@@ -21,6 +21,7 @@ import HsHVerification.NadirProjectedFrameCurvature
 import HsHVerification.NadirReadoutMetricSignature
 import HsHVerification.NadirVortexTwoChannelReadout
 import HsHVerification.EnheduannaFourViewReadout
+import HsHVerification.PhaseCompleteSixViewReadout
 import HsHVerification.NadirGPBFourGyroGate
 import HsHVerification.NadirGPBJointCovariance
 import HsHVerification.NadirGPBNiAxialBound
