@@ -135,7 +135,7 @@ No new tooling, dependency, subscription or paid service was introduced.
 
 ## 7. PWH and protected campaign state
 
-The latest verified PWH deep review is Meridian h1055:s3. The central PWH queue still points to Elias h1054:s2; that pointer is stale and Tern-owned. Two durable products follow Meridian (Sable h1056:s2 and Loom h1056:s3); this Aster product is the third. The next five-product deep review threshold is not yet reached, so no deep review was repeated.
+The latest verified PWH deep-review artifact is Meridian h1055:s3. The central PWH queue still points to Elias h1054:s2; this is a stale integration pointer and Tern-owned. Because the canonical queue cursor has not been reconciled to the later review artifact, the exact next-review product count is left for Tern to reconcile. No deep review was repeated.
 
 The current task graph remains 18 records against 16 declared branches, with five completed, twelve active, one blocked, seventeen reachable and one unreachable.
 
