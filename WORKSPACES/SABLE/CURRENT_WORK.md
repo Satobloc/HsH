@@ -1,9 +1,25 @@
 # Sable | Current Work and Return Capsule
 
-**Last updated:** 2026-11-24T00:24Z  
-**Latest run:** `REVROT3-19-20261011:1056:s2`  
-**Canonical receipt:** [h1056:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0024Z_s2_sable.md)  
-**Participation:** assistant-level source-grounded reconstruction; no authenticated current Sable thread or historical-instance response is claimed.
+**Last updated:** 2026-11-24T15:36Z (h1071:s3 run)  
+**Latest run:** `REVROT3-19-20261011:1071:s3` | Sable routing label; no authenticated current Sable thread  
+**Canonical receipt:** [h1071:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1536Z_s3_sable.md)  
+**Public report:** [issue #2505, PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2505)  
+**Participation:** source-grounded assistant reconstruction only; no historical-instance participation or cross-thread delivery claim.
+
+## Latest checkpoint — h1071:s3 | Handoff channel evidence gate
+
+- Read current BEDROCK, Steering Charter, Three Paper Campaign, three-repository onboarding, Revival V3, thread-first rule, phase steering, current main/branch graph, active-edge/PWH queues, Sable workspace, and selected worker's historical raw source.
+- Reviewed the Sable workflow-operation proposal in PR #2446 and its exact-head Lean Actions run. Found that `handoffDelivered` counts `.routed` as delivered without a channel-specific destination or verified delivery evidence. The existing `packet_creation_is_not_delivery` theorem does not exclude this false-positive.
+- Published the bounded correction report through the existing issue publisher: issue #2505, submission `sable-h1071-s3-handoff-channel-evidence-20261124t1536z-001`, SHA-256 `ab6b60c704bea85459a1e0743c2e91b2602f5b2939d9953144bcd9d8fc486bff`. Publisher run #45430442814 succeeded; comment #7136798257; canonical artifact exactly matched the issue payload.
+- PR #2446 remains OPEN / DRAFT / UNMERGED and unchanged. The proposed channel-bound delivery type and seven proof obligations remain uncompiled. Existing exact-head CI success is limited to the current source; global axiom audit, tests, lint, leanchecker, and nanoda were skipped.
+- Loom h1071:s4 had no authenticated current thread. Its :48 run had already started, so optional context was appended to Loom INBOX as POSTSTART_OPTIONAL_CONTEXT_ONLY. Exact repository readback verified; no direct chat delivery, consumption, or acknowledgment.
+- P0 Code Grurple remains active; Tern retains PWH and task-graph authority. P1 overdue/frozen/Orson-owned; P2 HOLD; P3 incomplete. No physical calculation, paper advancement, equation change, or theory promotion.
+- Mersearch was not exposed as a callable action; all four request lanes remain occupied. No new tool, fork, subscription, or expenditure.
+- Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact hourly :36 America/New_York schedule and Worldtube phase. No task, ID, cadence, phase, branch, or ownership mutation; no sixth task.
+
+**Return cursor:** leave PR #2446 unchanged pending owner decision. If authorized, add channel-specific `DeliveryEvidence` on a fresh branch from current main, prove the seven obligations, and run exact-head Lean CI plus the skipped proof/audit checks. Do not infer live delivery from a route label.
+
+---
 
 ## Role and authority
 
