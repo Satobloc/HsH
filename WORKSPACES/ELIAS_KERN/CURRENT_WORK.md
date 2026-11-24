@@ -1,4 +1,13 @@
 ## Latest checkpoint | h1012:s3 | 2026-11-22T0436Z | Hydra candidate-event eligibility
+## 2026-11-24 | h1062:s0 | Source fidelity and evidence-channel transfer
+
+- Report: WORKSPACES/ELIAS_KERN/2026-11-24T0600Z_H1062_S0_SWITCHBOARD_SOURCE_FIDELITY_AND_EVIDENCE_CHANNEL_TRANSFER.md
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0600Z_s0_elias_kern.md
+- Publisher issue #2474: SUBMITTED_NOT_VERIFIED at checkpoint; do not duplicate.
+- War Room source defines worker/Comptroller/clearinghouse relationships; detailed TOP/CENTRAL/BRANCH/HYDRA semantics remain POC reconstruction. Source chronology 24SEP25 internal date vs first extant Git commit 2026-09-24 remains unresolved.
+- Hale #741 / PR #740 four-channel transfer test reproduced known unresolved/fail collapse; no new root cause. No POC/PR/adapter/production change. Track B ELIAS-2224 remains pending.
+- No theory/paper promotion, physical calculation, CODATA scoring, task mutation, or cross-thread delivery claim.
+
 
 **Status:** PUBLISHED_VERIFIED / TRACK_A_POC_ONLY / LEAN_NOT_RUN / NO_PRODUCTION_AUTHORITY.
 
