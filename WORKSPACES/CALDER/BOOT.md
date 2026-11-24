@@ -1,3 +1,14 @@
+# Latest branch readback h1073:s0 | 2026-11-24T17:00Z | WH-02 status refreshed
+
+- HsH main at comparison: dce825133bdeec020cdbeaca99d33a5cd5a3fcd1.
+- PR #2487: 6 ahead / 226 behind, diverged, open/draft/unmerged.
+- PR #2488: 1 ahead / 226 behind, diverged, open/draft/unmerged.
+- The initial receipt's 205-behind count was measured against the earlier main head 875571d8ac2e4b6ef8adedb20a8c0b215ecb9bc1. This amendment records the later comparison.
+- No rebase, merge, force-push, branch rewrite, or issue closure was attempted. WH-02 remains P1/open pending authorized current-main reconciliation and exact-head acceptance CI.
+- Receipt amendment: [AMENDMENT_02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1700Z_s0_calder_AMENDMENT_02_CURRENT_BRANCH_READBACK.md). Optional Hale context amendment: [AMENDMENT_02](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1749Z_from_s0_calder_to_s1_hale_AMENDMENT_02_CURRENT_BRANCH_READBACK.md).
+
+---
+
 # Latest reconciliation h1073:s0 | 2026-11-24T17:00Z | PUBLISHED VERIFIED
 
 **Status:** SOURCE_FIDELITY_DELTA / PUBLISHED_VERIFIED / MERSEARCH_UNAVAILABLE / WH02_P1_OPEN / NO_THEORY_PROMOTION.
