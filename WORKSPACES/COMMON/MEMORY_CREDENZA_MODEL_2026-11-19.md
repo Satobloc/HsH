@@ -33,7 +33,9 @@ The Credenza gives the attention/continuity rhythm a navigable place to point. K
 - **Heartbeat:** a project-specific signal of meaningful human-directed activity or contact. It can inform when a dormant workflow may need attention, but it is not proof that substantive work occurred.
 - **Attention cycle:** an optional rotation across different parts of the Credenza. It may advance on completed operations, turns, calendar triggers, or another explicit rule. These mechanisms are not interchangeable, and different workflows may need different rhythms or no ticker at all.
 
-The active drawer should not monopolize attention. The pin keeps the immediate task recoverable; the wider Credenza keeps other branches, tools, methods, and source collections visible enough to be rediscovered.
+The active drawer should not monopolize attention.
+
+**Renderer-safe grouped signature markers:** Where a message-level TICK/TOCK signature uses grouped scope markers, write them in square brackets (for example, `[bh]` and `[mbx]`), not literal curly braces. In renderer-backed assistant messages, `{...}` may be interpreted as an expression and disappear from the displayed text. Preserve the full signature exactly, including every grouped marker and its order. This is a display-compatibility convention only; it does not change token meanings or workflow semantics. The pin keeps the immediate task recoverable; the wider Credenza keeps other branches, tools, methods, and source collections visible enough to be rediscovered.
 
 ## The neglect sampler
 
