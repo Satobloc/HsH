@@ -1,3 +1,14 @@
+## H1062:s4 Amendment 04 | 2026-11-24T0648Z
+
+- [Review-MIND cross-lane QC and run re-entry amendment](2026-11-24T0648Z_H1062_S4_AMENDMENT_04_REVIEW_MIND_CROSS_LANE_VEY047_SET_NONNESTING_AND_RUN_REENTRY.md); [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow_AMENDMENT_04_REVIEW_MIND_CROSS_LANE_QC_AND_RUN_REENTRY.md).
+- This is a same-run-key re-entry. The canonical H1062:s4 report and receipt predated the current host invocation; no duplicate report or handoff was created.
+- Public correction to #2470 is PUBLISHED_VERIFIED at [issue #2477](https://github.com/Satobloc/HsH/issues/2477), publisher comment #7125167756, artifact SHA-256 db50bca4056f8bea9a6d49c76af56111cd328cf23b1015534b32257d3fd7a4e3. It corrects h1060 ring arithmetic and PR #2375 merge-reference versus standalone-head classification.
+- Review-MIND source QC: arXiv 2611.22245v2 stage-pair sets are not nested; 106 both, 195 Source Reads only, 1 Worker Reports only, 136 neither. Existing PR #2375 contains the conditional transfer theorem and one-direction witness; reverse witness remains proposed, not compiled. Orson retains PR ownership.
+- Tern h1062:s3 completed the PWH deep review at issue #2476; the trigger is closed. P0 discovery payload remains unparsed; currentness unverified, record safety FAIL, live route NOT OBSERVED.
+- Access-boundary incident: seven non-root HSH_RESOURCES files were fetched before the current root-README/navigation-only restriction was recognized. No writes; further access stopped; no internal payload reproduced in the public correction.
+- FIE next December 4; unrelated-source break next November 28; neither due. Orson P1 remains frozen and Orson-owned.
+- Current host run 8a7bf8a6-1910-832d-974d-feb1d2a14856 is IN_PROGRESS, scheduled 06:48Z, started 07:15:30.511776Z, chat_ref=null. Four original relays preserved; no sixth task.
+
 ## H1062:s4 Amendment 03 | 2026-11-24T0648Z
 
 - [Report Amendment 03](2026-11-24T0648Z_H1062_S4_AMENDMENT_03_LATEST_DISCOVERY_REFRESH_CHRONOLOGY.md) identifies latest observed discovery refresh `ffb68240d5b6c9ea38ae58bbcc8164a7da8394b9` (07:08:49Z; discovery.json only). Payload and record-level inclusion remain unverified.
