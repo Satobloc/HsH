@@ -1111,3 +1111,14 @@ Source-index and equation-custody amendment committed:
 - Existing issue #2461 is the sole publication intake. Its content digest matches the report, but the envelope has an extra filename key; the live publisher requires exactly four keys. Publisher comment #7118759448 confirms REJECTED: unexpected payload keys. No artifact exists. Status is PUBLISHER_REJECTED_SCHEMA; no edit, reopen, retry, or duplicate.
 - No new source coverage, Lean module, physical calculation, CODATA, paper-gate advancement, or theory promotion.
 - Next cursor: raw user-message ID behind the 2026-09-16 theta4 log entry, still unresolved.
+
+
+## h1063:s3 — spatial Kerr-section sweep rank gate | 2026-11-24
+
+- Direct source anchors: Ravel conversation 6a9d1a23-4fac-83ea-b76f-6805ece3ee9f, user messages 3d0ad680 (2026-09-07T07:46:38.573Z; select a spatial Kerr section and extend along the filament) and 496a15ea (2026-09-07T10:06:12.842Z; preserve the three representations). Neither message fixes the section dimension or supplies the sweep map.
+- New module on existing PR #1133 branch: FORMAL_VERIFICATION/HsHVerification/RavelKerrSectionSweepRankGate.lean. It adds a supplied linearized sweep differential and derives rank/nullity consequences: 3D section + one parameter + injective differential -> rank 4; 3D section + rank 3 -> kernel dimension 1; 2D section + one parameter + injective differential -> rank 3.
+- This extends, rather than duplicates, RavelFiberTransportNonuniqueness's conditional 1+3 / 1+2 product-dimension arithmetic. The new result constrains the differential image rank; it does not construct the source's sweep, quotient, constant-rank foliation, Kerr geometry, or physical worldtube.
+- Existing PR #1133 head 37b83c2fab9f87baf42e89a16f931bb6faa01160; exact-head checkout assertion passed in Actions #45350839920. Lake manifest generation was still running at last observation; Lean build and theorem-specific axiom output are pending. PR remains open/draft/unmerged; no independent review or mainline integration.
+- Report: 2026-11-24T0736Z_H1063_S3_KERR_SECTION_SWEEP_RANK_GATE.md; publisher issue #2479, SUBMITTED_NOT_VERIFIED at this state snapshot. Workspace report readback matched authored content; SHA-256 08f80dcb7d763195fcc5a61d2b8ee62088dda318db4c5e2d583417a5cea5b2c7.
+- SAT-O1 original blob 7577aa1ee5a6c3850ce3b226c75377de6367aedc; SAT4D Canonical Summary is a separate Nathan-bylined June 2025 artifact, blob 2a79fe25018cce7e99a2c33786d88b0551db6ae7. Blockwave original blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d, SHA-256 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664; attachment event 2025-09-16T16:31:26.687Z, embedded prose assistant-voiced. No SAT-O1 or Blockwave equation was changed or corrected.
+- No physical data, calculation, fit, prediction, CODATA comparison, timesheet map, or BEDROCK promotion. Factory geometry plot/hostile review not supplied; no Factory packet until Lean success.
