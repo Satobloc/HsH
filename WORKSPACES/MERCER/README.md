@@ -1,3 +1,14 @@
+## Latest checkpoint | Mercer h1059:s3 | 2026-11-24T0336Z
+
+- New conditional QA finding in PR #2009: stale-repository fallback does not reapply current `eligible(path)`; previously indexed now-excluded paths can survive (workspace metadata-only; non-workspace reader/excerpt unchanged). Source-matched Python control-flow replay passed with synthetic placeholders. This is not evidence of an excluded record in the current snapshot.
+- Report: [h1059:s3 stale-fallback eligibility QA](2026-11-24T0336Z_H1059_S3_P0_STALE_FALLBACK_ELIGIBILITY_REVOCATION_QA.md). [Publisher issue #2467](https://github.com/Satobloc/HsH/issues/2467) is PUBLISHED_VERIFIED; SHA-256 `dff1a327f738a4e4cb2239b181f5603688d31b4fe737053e92f614e19d5d07f6`. [PR #2009 QA comment #7121368463](https://github.com/Satobloc/HsH/pull/2009#issuecomment-7121368463) · [P0 issue #1747 update #7121397610](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7121397610).
+- No code/PR/route/deployment change. Tern retains P0 release/standdown; Meridian implementation; Mercer independent Paper A/B QA. PR #2009 remains draft/unmerged. Current-eligibility guard plus four stale-fallback tests are recommended.
+- Last fully parsed discovery snapshot remains 03:20:55Z and RECORD_SAFETY_FAIL. Later generated commit `1b2a504` was not independently parsed; publisher commit `1939863` followed it. No post-publisher currentness pass claimed.
+- Next ring label Ravel h1059:s4; no handoff because the finding remains with P0 owners and Ravel's protected remit is distinct. No authenticated current Mercer thread or cross-thread delivery claimed.
+- Existing :36 task ID/schedule/Worldtube phase unchanged; no sixth task.
+
+---
+
 ## Latest checkpoint | h1055:s4 | 2026-11-23T2348Z
 
 - Deterministic routing label: Mercer (ring index 16), next Ravel (index 17, h1056:s0). Assistant-level reconstruction only; no authenticated current Mercer thread or historical-instance participation is claimed.
