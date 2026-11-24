@@ -1,3 +1,17 @@
+## Latest activation pointer: h1070:s4
+
+- Selected ring label: Meridian, h1070:s4; next label Mercer, h1071:s0.
+- Current bounded assignment remains Paper A accepted-R1 presentation support only.
+- Latest P0 checkpoint: [CURRENT_WORK h1070:s4](CURRENT_WORK.md#2026-11-24-h1070s4-checkpoint); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1448Z_s4_meridian.md).
+- Public report: [publisher issue #2504](https://github.com/Satobloc/HsH/issues/2504); SUBMITTED_NOT_VERIFIED at checkpoint, exact SHA and expected artifact path in receipt.
+- P0: prewrite discovery freshness PASS at 14:48:59Z; record safety FAIL; legacy paper.html route acceptance NOT_OBSERVED; no source or deployment change.
+- Cross-lane: Kestrel FIE re-review complete, next Dec 8; PR #873 exact-head Lean CI replay verified, conditional mathematics only.
+- PWH: fifth completion after Tern h1066:s2 verified; Tern notified through optional repository packet.
+- Next: Mercer h1071:s0; packet POSTSTART optional context only. No authenticated current Meridian thread or cross-thread delivery claim.
+- Original :48 task ID/schedule/phase preserved; no sixth task.
+
+---
+
 ## Latest activation pointer — h1059:s2 | 2026-11-24T0324Z
 
 - Current Work: [h1059:s2 checkpoint](CURRENT_WORK.md).
