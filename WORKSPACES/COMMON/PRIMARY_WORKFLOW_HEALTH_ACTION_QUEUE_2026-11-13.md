@@ -1485,3 +1485,50 @@ P1 November 9 cognition remains overdue/frozen/not ready/Orson-owned. P2 Novembe
 ## h1062:s3 latest-main correction
 
 The post-Amendment-01 exact compare found main `5fc3dc5c5062f39395fd4b05cefd632e796be07c` 21 commits ahead of generated-discovery commit `b88ab678f8c2d192a5f3cb73480249a4d783a472`. This supersedes the earlier 12-commit comparison only. Discovery freshness remains PENDING, record safety FAIL, and live route acceptance NOT OBSERVED; no later refresh has been read back. See `REVIVAL_ROTATION_RECEIPTS/2026-11-24T0703Z_s3_tern_rook_AMENDMENT_02_LATEST_MAIN_CURRENTNESS_CORRECTION.md`.
+
+
+## H1066:s2 late duplicate-run-key reconciliation | 2026-11-24T10:51Z
+
+**Run key:** `REVROT3-19-20261011:1066:s2`. **Selection:** Tern Rook (ring index 12) -> Morrow (13). This is a late same-key reconciliation, not a second PWH deep review. The existing [review issue #2490](https://github.com/Satobloc/HsH/issues/2490) is already PUBLISHED_VERIFIED; no duplicate report or issue was created.
+
+### Publication and count correction
+
+- #2490 submission `tern-h1066-s2-pwh-deep-review-20261124t1024z-001` is published at `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h1066-s2-pwh-deep-review-20261124t1024z-001.md`, blob `35a057b51dd9336aa9176511a011a4dfb4b627bc`. Its 13,844-character artifact exactly matches the issue envelope; publisher comment #7129198085 records SHA-256 `cca06449796c18a78dd04c1c1dce07983c0c8bbee9a050586cc7690641f3782f`.
+- The artifact's one P0 count, 10,773, is incorrect. Calder h1065:s2's report blob `67ed7dcfac9ad8ae15eb63f3195bd501aba7bdef` and receipt blob `6e123d14d99aab42db0449b4ea5767a45b0ac410` support **10,788** workspace records, all with generic reader targets and lacking `presentation_state`, with zero `PRESENTATION_PENDING`.
+- Amendment issue #2492 was rejected. Its exact 1,241-byte content hashes to `74d4e5281e5fd0a67b18e6cc9a3b5567245d53c36776befc829c163727f0f4d1`, not its declared `ea2c257eff0ae9f06da9d460308554dafb22e0c5a0243d555095293c0ac85ae7`. The expected artifact is NOT_FOUND. Comments #7129598661 and #7129599248 record the mismatch and correction status. No retry or direct artifact write; the correction remains in the issue body/comment only. The original #2490 artifact is immutable.
+
+### Current branch and P0 snapshot
+
+Pinned read-only comparison base: main `7edd956aae06ef2fe13abce50e03b0eacde4e780`.
+
+| PR | Head | Ahead / behind | Merge base |
+|---|---|---:|---|
+| #2487 | `42f06fa8111385806e657a9e37bad966aefb52c6` | 6 / 44 | `d1360f9af4bcb790ea839d60f6f76c548dbe87bd` |
+| #2488 | `9bf68b4be4d9bc5fddbb2e24a615929d91de243c` | 1 / 44 | `d1360f9af4bcb790ea839d60f6f76c548dbe87bd` |
+| #1710 | `a967e908ceab048d219831ec799343643870daf3` | 7 / 11,528 | `7c40096153861e531b4ba234f28b41a2260fba04` |
+| #2009 | `f638cb3ce94006609b4ba3f7c6e2c5724048c45d` | 4 / 6,111 | `d47be7cfacfa182aedaad17a9e0841eb80fdfddb` |
+| #1251 | `f24c5184ff506888adbc635252e3541bd5d583a1` | 4 / 21,312 | `208be0dfe3feb9bd6d93e7291803bdcc977f4792` |
+
+All five remain OPEN / DRAFT / UNMERGED. Exact-head Actions queries returned zero runs for their current heads. The raw PR endpoint and connector normalization disagree on `mergeable`; do not treat that field as acceptance or merge readiness. Calder retains WH-02 implementation/rebase ownership; Meridian retains P0 implementation; Mercer retains independent presentation QA. No rebase, merge, force-push, branch deletion, or ownership transfer.
+
+The latest discovery refresh cited in #2490 used HsH source `8f20831e2127b20ab8eec54fdf18660f616bbee5`, 27 commits behind the pinned main snapshot. The comparison includes a later `PUBLIC_SITE/generated/discovery.json` change and operational artifacts. The 31.85 MB newest payload was not fully parsed through the available reader. The last fully parsed record-safety count is 10,788, not the newest payload's verified count. **Currentness is NOT REVALIDATED; record safety remains FAIL; live visitor-route acceptance remains NOT OBSERVED.** The eight protected Code Grurple objects were last verified 8/8 by Calder h1065:s2; no new route probe or standdown.
+
+### Mersearch and issue lifecycle
+
+- Lane 1 request `calder-angle-geometry-source-fidelity-20261102-1337`: request remains `requested`; no request-scoped manifest or compact receipt.
+- Lane 2 `perceptual-nexus-early-archive-20261120-01`: stable 1.0 manifest and compact receipts exist, with three-repository source SHAs; 22,755 files / 22,827,574 records / 6,850 hits / 1,181 distinct paths. Raw results are withheld by the post-containment policy. No lane release is recorded.
+- Lanes 3 and 4 remain `requested`; no request-scoped manifests or compact receipts.
+- No local three-repository checkout or callable first-party Mersearch action exists in this runtime. No lane was overwritten, released, retriggered, or replaced; no new search request was created.
+- WH-06 pilot: issue #1701 is CLOSED as VERIFIED_PUBLISHED / COMPLETED after exact 6,916-byte issue-envelope/artifact equality, independently recomputed SHA-256, and publisher confirmation; terminal comment #7128838163 records the evidence. This is one manual close, not an automated terminal transition.
+- #1705 remains OPEN. #2490 remains open because its count correction is unpublished; #2492 remains open as REJECTED. No bulk closure.
+
+### Relay, graph, and next cursor
+
+- The live task graph remains dated 2026-11-21: 18 records versus declared `branch_count=16`; 5 completed, 12 active, 1 blocked. No graph mutation.
+- The current :24 host run `e78633c3-ad0c-832e-b863-7f9231607fe3` was scheduled 10:24Z, actually started 10:51:21.899Z, and remained IN_PROGRESS with `chat_ref=null` at readback. Its cached latest result is prior h1065:s2 run `1ca8a539-37a8-8321-846a-912f908be2ba`, not this run. The :24 task remains enabled with its exact existing hourly America/New_York :24 schedule and Geometry phase; no task change or sixth task.
+- Morrow h1066:s3 completed at 10:41:31Z and its own receipt/report #2489 are PUBLISHED_VERIFIED. The deterministic next slot had already completed before this late reconciliation; no stale handoff or direct-thread delivery is claimed.
+- Next routine PWH deep review: after five further actual completed worker activations following h1066:s2, or earlier on a material P0 failure/priority trigger. This same-key reconciliation does not reset the counter.
+- Unrelated-source reading break remains due November 28; FIE re-review December 4. Paper gates remain separate: P1 November 9 missed/not ready, P2 November 30 HOLD, P3 December 14 incomplete.
+- No physical system/data, CODATA comparison, numerical calculation, new Lean module, paper advancement, or BEDROCK theory promotion. No new tooling, branch, PR, issue, task, or scheduler change.
+
+Canonical reconciliation receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1024Z_s2_tern_rook.md`. Tern current-work pointer: `WORKSPACES/TERN/CURRENT_WORK.md`.
