@@ -1,3 +1,9 @@
+# H1066:s2 Amendment 01 | 2026-11-24T11:08Z | latest generated-discovery commit
+
+Main advanced to `cceab8541de5b17207a152b97047bdfede803c7d` at 11:08:28Z; only `PUBLIC_SITE/generated/discovery.json` changed. No Actions run was returned for that exact head, and the newest payload could not be retrieved or fully parsed. The P0 source commit `8f20831e2127b20ab8eec54fdf18660f616bbee5` is now 33 commits behind main. Freshness remains NOT REVALIDATED, record safety FAIL, and live visitor-route acceptance NOT OBSERVED. The 10,788 count is still the last fully parsed snapshot, not the newest payload. P0 issue #1747 comment #7129738118 records the finding. Latest branch comparison at this main: #2487 6/50, #2488 1/50, #1710 7/11,534, #2009 4/6,117, #1251 4/21,318, all diverged. The queue and receipt retain their explicitly pinned earlier comparison snapshots.
+
+---
+
 # H1066:s2 | 2026-11-24T10:51Z | PWH duplicate-run-key reconciliation
 
 **Disposition:** DUPLICATE_RUN_KEY_RECONCILIATION / existing deep review retained / correction status reconciled. This late invocation does not create a second review, publisher issue, branch, or handoff.
