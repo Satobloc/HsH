@@ -1,3 +1,8 @@
+# H1074:s0 publication verification amendment | 2026-11-24T19:08Z
+
+Issue #2515 is now PUBLISHED_VERIFIED. Publisher comment #7141561988 confirms artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h1074-s0-lane00-geometry-fidelity-addendum-20261124t1800z-001.md, publisher commit ab1bb314b02fd0a20b6f68287a99c913fd82e14b, artifact blob 50d30b72f1d6bb48f9b5d3924163c3754431d8a6, 15,379 characters, SHA-256 89affdd389141f9b2ce57fbe77f444b4f59edda2aaceae5dc089087a619bae7f. Exact artifact readback matches the issue body. This supersedes the earlier SUBMITTED_NOT_VERIFIED status. Do not duplicate.
+
+---
 # H1074:s0 | 2026-11-24T18:00Z | Lane 00 source fidelity + PWH deep review
 
 **Disposition:** assistant-level recovery completed; :00 automation run recorded FAILED; issue #2515 SUBMITTED_NOT_VERIFIED; PWH deep review appended and readback verified; run-key correction to prior :36 issue #2513 appended; Mercer inbox correction pending while its h1074:s4 :48 run remains in progress.
