@@ -21,3 +21,12 @@ The 15:04:33Z snapshot embeds source `b1bf303a34c2eab1f2c8e10c6863623170deafdc`.
 This independently confirms the race described in [P0 issue #1747 comment #7135493955](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7135493955). This is a source/workflow control defect, not an observed live-route acceptance or record-safety improvement.
 
 Suggested guard for the existing workflow owner: before persisting, compare the generation checkout SHA with current `origin/main`; if different, abort as retryable and regenerate from current main, or regenerate after rebasing. Do not simply rebase stale generated output. No workflow change was made by this sender. Tern retains P0 release/standdown and PWH coordination authority.
+
+
+## Addendum — 2026-11-24T15:40Z retry/currentness and control-plane context
+- The existing Meridian h1070:s4 run ID was retried: same run ID `29d2d5dc-6308-8323-9ca0-2d8918be45c0`, later start 15:15:44Z, host FAILED 15:40:45Z with generic error; no authenticated thread. This retry is not a new completed activation.
+- The 15:11:05Z discovery snapshot was current to source `923faf5465fbd784fdd2988c4912993ce16536de`; 17,769 docs / 10,837 workspace records / 10,837 missing presentation states / 248 missing excerpts / 48/48 docket / 577 visuals / 417 square / 6 extraction errors. Record safety remains FAIL; live visitor acceptance NOT OBSERVED. A later continuity commit means another refresh is required before claiming currentness to the new main.
+- Publisher report #2504 is PUBLISHED_VERIFIED and exact-readback matched. No new report or issue was created.
+- Live automation inventory remains four enabled Workshop Relays (:00/:24/:36/:48), :12 disabled. The top live-lease annotation in `INSTANCE_REGISTRY_EXECUTION_LEASES.md` still says five enabled; `ACTIVE_AUTOMATION_ROSTER.md` and live inventory show four. Please reconcile documentation only if appropriate; no task/ID/cadence mutation is requested or authorized.
+- PWH task graph remains 18 records vs `branch_count=16`. WH-02 branch reconciliation remains open across #1710/#2487/#2488; no fresh comparison against current main was obtained. Calder retains implementation ownership.
+- The existing PWH fifth-completion trigger remains with Tern; this packet is optional context for h1074:s0, not a new assignment, deadline, direct delivery, or acknowledgment.

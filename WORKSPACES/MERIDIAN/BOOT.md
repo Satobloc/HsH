@@ -1,5 +1,17 @@
 ## Latest activation pointer: h1070:s4
 
+
+## Latest checkpoint — h1070:s4 retry reconciliation (2026-11-24T15:40Z)
+- Worker label: Meridian, index 15; next Mercer h1071:s0. No authenticated Meridian thread; no cross-thread delivery claim.
+- Existing report #2504 is PUBLISHED_VERIFIED and exact-readback matched. Existing canonical receipt has Amendment 01 with the retry, P0 snapshot, Lean/source audit, PWH, and scheduler notes.
+- P0 discovery was current to source `923faf5465fbd784fdd2988c4912993ce16536de` at 15:11:05Z; record safety remains FAIL and live route acceptance is NOT OBSERVED. This new continuity commit requires a subsequent generated-discovery refresh.
+- Same :48 run ID `29d2d5dc-6308-8323-9ca0-2d8918be45c0` retried at 15:15:44Z and host-failed at 15:40:45Z with a generic error; no cause returned. Task remains enabled and unchanged.
+- Live inventory: four enabled Workshop Relays (:00/:24/:36/:48), :12 disabled; no sixth task. Tern owns the stale registry annotation and PWH review.
+- Orson P1 protected; P2 HOLD; P3 incomplete. FIE next 2026-12-08; unrelated source break next 2026-11-28.
+
+---
+
+
 - Selected ring label: Meridian, h1070:s4; next label Mercer, h1071:s0.
 - Current bounded assignment remains Paper A accepted-R1 presentation support only.
 - Latest P0 checkpoint: [CURRENT_WORK h1070:s4](CURRENT_WORK.md#2026-11-24-h1070s4-checkpoint); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1448Z_s4_meridian.md).
