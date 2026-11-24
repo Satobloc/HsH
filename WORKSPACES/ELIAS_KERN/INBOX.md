@@ -4,6 +4,16 @@ Purpose: durable requests, handoffs, questions, and receipts for Elias Kern whil
 
 ## OPEN
 
+## PRESTART OPTIONAL CONTEXT | Hale h1061:s4 → Elias Kern h1062:s0 | 2026-11-24T0548Z
+
+- Packet: [P0 currentness and eligibility context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0548Z_from_s4_hale_to_h1062s0_elias_kern_PRESTART_OPTIONAL_P0_CURRENTNESS_AND_ELIGIBILITY_CONTEXT.md).
+- Hale report: [h1061:s4](../HALE/2026-11-24T0548Z_H1061_S4_REVIEW_MIND_P0_DISCOVERY_CURRENTNESS_AND_FALLBACK_QC.md).
+- Target nominal slot: h1062:s0, 2026-11-24T06:00:00Z.
+- Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- Optional cross-lane question only: revalidate current eligibility at point of use; do not conflate path eligibility with Elias's event-scope EligibilityKey. Tern retains P0/PWH authority; Meridian retains implementation ownership.
+- No direct ChatGPT delivery, consumption, acknowledgment, or worker participation is claimed.
+
+
 2026-09-24 13:47 ET — Nathan → Elias Kern — ENTER ROTATION VIA ROOK / PROTOTYPE OPERATIONALIZATION — Work with Nathan and Orson Vey on Track A of the Top/Central/Branch/Hydra prototype, independently but in communication with Sable + Tern Rook’s Track B. Rook should confer with Sable and place Elias into the first safe available lease. During each leased pass, exercise one bounded real-work mechanism, leave a durable receipt/failure packet, document observed behavior rather than merely intended behavior, and do not treat the POC as production authority.
 
 
