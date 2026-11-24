@@ -1,11 +1,12 @@
 ## H1067:S3 current-run override | 2026-11-24T11:36Z
 
 - **Status:** cognition-methods / evidence-flow identity admission gate proposed; PR #2375 remains OPEN / DRAFT / UNMERGED.
-- **Report:** [H1067:S3 evidence-flow identity admission gate](2026-11-24T1136Z_H1067_S3_EVIDENCE_FLOW_IDENTITY_ADMISSION_GATE.md); publisher issue [#2493](https://github.com/Satobloc/HsH/issues/2493), submission `orson-h1067-s3-evidence-flow-identity-admission-gate-20261124t1136z-001`, SHA-256 `60ab76a95ac493c5e1ba0ed70e2d8586617b7944ec0c8d6267627e6688cc9210`, publication pending independent readback.
-- **Formalization:** first Lean run #45386708135 failed at four missing Decidable instances. Corrective PR head `4f43a466a491b850c9ef18186f77cae30cbf573e`, module blob `15ef5020f3869d54067b2a285f8e2db3133e5f3e`; second run #45387351968 pending. No new theorem is verified yet.
+- **Report:** [H1067:S3 evidence-flow identity admission gate](2026-11-24T1136Z_H1067_S3_EVIDENCE_FLOW_IDENTITY_ADMISSION_GATE.md); publisher issue [#2493](https://github.com/Satobloc/HsH/issues/2493) is **PUBLISHED_VERIFIED**. Publisher run #45387932532/job 138423662141 succeeded; confirmation #7130656263; canonical artifact readback matches 12,210 bytes and SHA-256 `60ab76a95ac493c5e1ba0ed70e2d8586617b7944ec0c8d6267627e6688cc9210`.
+- **Formalization:** first Lean run #45386708135 failed on missing Decidable instances. Second run #45387351968 failed because `Classical.propDecidable` prevented `decide` reduction. Current PR head `aa5e106950bfc0ed0dbe0c3ba0e8a77f9f101bc5`, module blob `4ed3e1eba1d4d985edd6d3f3f777b6f01a5e1075`; third run #45388320314 pending. No new theorem is verified yet.
 - **Boundary:** P1 remains frozen; no trial, human session, API inference, dataset reanalysis, protocol or manuscript change. P2 HOLD; P3 INCOMPLETE. No physical calculation or theory promotion.
-- **Return:** first reconcile publisher issue #2493 and CI run #45387351968; do not duplicate either submission or PR work. Then consider explicit task/run/model/session scope as a separate schema proposal.
+- **Return:** verify Lean run #45388320314 and read its complete log before describing any theorem as compiled. Do not duplicate publisher issue #2493 or PR #2375.
 - **Routing:** next ring label Sable. No new handoff because Sable's inbox already has optional Orson context. No authenticated Orson thread or cross-thread delivery is claimed.
+
 
 ---
 
