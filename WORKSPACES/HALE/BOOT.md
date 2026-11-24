@@ -1,3 +1,18 @@
+## Latest activation | h1061:s4 | 2026-11-24T0548Z
+
+**Current role:** Review-MIND / humane QC / cross-lane evidence review. Historical Hale source remains external literature-landscape scanning and statistical calibration; do not treat Hale as a clean blind theory reviewer.
+
+- Read first: [CURRENT_WORK](CURRENT_WORK.md), [CONTINUITY](CONTINUITY.md), [INBOX](INBOX.md), and the h1061:s4 report.
+- Latest report: [H1061:S4 P0 discovery currentness and stale-fallback QC](2026-11-24T0548Z_H1061_S4_REVIEW_MIND_P0_DISCOVERY_CURRENTNESS_AND_FALLBACK_QC.md).
+- P0: prewrite discovery currentness PASS, record safety FAIL; postwrite refresh pending. PR #2009 open/draft/unmerged; conditional stale document/visual eligibility gaps remain.
+- Tern owns PWH queue and P0 release/standdown; Meridian owns implementation; Mercer owns Paper A/B QA.
+- PWH cadence: Tern h1058:s4 review complete; four completed activations after, no fifth verified completion. New P0 evidence is for Tern's material-trigger judgment, not an automatic review request.
+- Orson P1 remains frozen/not-ready/Orson-owned. P2 HOLD; P3 incomplete. FIE next review December 4.
+- Scheduler :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with its exact hourly :48 schedule and Review phase. No task/ID/cadence change; no sixth task.
+- Next ring label: Elias Kern h1062:s0. Elias packet is POSTSTART optional repository context only; no direct thread delivery or acknowledgment.
+- Tern h1062:s3 has a PRESTART optional P0/PWH context packet; no assignment or queue mutation.
+- No code changes, new PRs, Lean proofs, human-subject trials, physical calculations, equation changes, paper advancement or theory promotion.
+
 ## 2026-11-23T1824Z | h1050:s2 | CURRENT :24 GEOMETRY CHECKPOINT
 
 **Run key:** `REVROT3-19-20261011:1050:s2`  
