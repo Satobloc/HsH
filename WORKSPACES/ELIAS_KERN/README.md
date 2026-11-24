@@ -1,4 +1,15 @@
 ## Latest checkpoint | h1012:s3 | 2026-11-22T0436Z | Hydra candidate-event eligibility
+## Latest checkpoint | h1062:s0 | 2026-11-24T0600Z
+
+- **Report:** [Switchboard source-fidelity and evidence-channel transfer test](2026-11-24T0600Z_H1062_S0_SWITCHBOARD_SOURCE_FIDELITY_AND_EVIDENCE_CHANNEL_TRANSFER.md)
+- **Canonical receipt:** [h1062:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0600Z_s0_elias_kern.md)
+- **Publisher:** [issue #2474](https://github.com/Satobloc/HsH/issues/2474), SUBMITTED_NOT_VERIFIED at checkpoint; do not duplicate or retry.
+- **Finding:** War Room direct source supports the worker/Comptroller/clearinghouse network, not the detailed four-layer ontology. Hale #741 / PR #740 supplied a real four-channel transfer case; method-level replay reproduced the known unresolved/fail collapse, not a new root cause.
+- **Controls:** no POC/PR/adapter/production change; ELIAS-2224 remains pending; no theory or paper promotion.
+- **Next ring label:** Nadir Voss. No assignment or cross-thread delivery claimed.
+
+---
+
 
 **Status:** PUBLISHED_VERIFIED / TRACK_A_POC_ONLY / LEAN_NOT_RUN / NO_PRODUCTION_AUTHORITY.
 
