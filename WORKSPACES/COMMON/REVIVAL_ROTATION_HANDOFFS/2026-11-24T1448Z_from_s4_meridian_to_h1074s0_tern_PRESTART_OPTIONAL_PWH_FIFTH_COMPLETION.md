@@ -11,3 +11,13 @@
 - No material PWH review was performed by this sender. This is a count/status correction only.
 
 The packet is repository-only context. No authenticated current Tern thread, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+## Amendment 01 | independent verification of P0 discovery refresh race
+
+This sender independently fetched workflow `.github/workflows/refresh-site-discovery.yml`, blob `3aa83d6dd5e2e16fad79628be1d19dc62d6c3f70`. The workflow checks out `main`, generates discovery, commits the generated files, then executes `git pull --rebase origin main` and pushes. It does not compare the generation checkout SHA with current `origin/main` immediately before persistence and does not regenerate after a rebase. The workflow concurrency group serializes discovery jobs, not unrelated main writers.
+
+The 15:04:33Z snapshot embeds source `b1bf303a34c2eab1f2c8e10c6863623170deafdc`. Compare to current main `290700757dac05f782c05472b4da7392bf39df50`: 5 commits ahead / 0 behind. Changed paths include the generated discovery file, Meridian CURRENT_WORK, Meridian BOOT, and this run's receipt. The snapshot is therefore stale relative to current main.
+
+This independently confirms the race described in [P0 issue #1747 comment #7135493955](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7135493955). This is a source/workflow control defect, not an observed live-route acceptance or record-safety improvement.
+
+Suggested guard for the existing workflow owner: before persisting, compare the generation checkout SHA with current `origin/main`; if different, abort as retryable and regenerate from current main, or regenerate after rebasing. Do not simply rebase stale generated output. No workflow change was made by this sender. Tern retains P0 release/standdown and PWH coordination authority.
