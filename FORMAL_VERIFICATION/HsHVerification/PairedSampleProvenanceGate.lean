@@ -1,67 +1,36 @@
 import Mathlib
 
 /-!
-# Paired-sample identity and covariance identifiability
+# Why paired sample identity is necessary for joint covariance
 
-A paired row carries two channel observations under one shared acquisition
-key. Channel, calibration, and sample-point identities remain channel-specific;
-they are not required to be equal.
+The source-specific sample-key contract is already formalized in Nadir PR
+#1189, module `HsHVerification.NadirVortexPairedSampleIdentity`. That module
+requires the two opposing contour observations to share the complete
+(run/acquisition/camera/lens/view/calibration/grid/frame/index) key before
+the source-defined two-channel readout is admitted.
 
-The finite witness below shows that identical unordered marginal values can
-produce opposite cross-covariances under different pairings. Therefore
-marginal values without a pairing relation do not identify joint covariance.
+This module does not duplicate that key type. It proves a separate,
+general information limit: identical unordered marginal values can yield
+different cross-covariances under different pairings. Therefore marginal
+summaries alone cannot recover a joint covariance.
 
-This is a pure mathematical witness, not a physical fixture or dataset. It
-does not instantiate a measured system, instrument, calibration, H(s)H map,
-fit, prediction, or empirical result. The acquisition key is only a typed
-admission contract; its truth must still be established from source records.
+The finite witness is pure mathematics, not a physical fixture or dataset.
+It does not instantiate the Kelvin-vortex experiment, its camera system,
+the Figshare files, an H(s)H map, a fit, a prediction, or an empirical result.
 -/
 
 namespace HsHVerification.PairedSampleProvenanceGate
 
-/-- Shared identity of one acquisition/frame/grid event. -/
-structure AcquisitionKey where
-  systemId : String
-  runId : String
-  acquisitionId : String
-  frameId : String
-  timeIndex : String
-  axialGridId : String
-  deriving DecidableEq, Repr
-
-/-- A channel-specific observation; channels/calibrations/points may differ. -/
-structure ChannelObservation where
-  key : AcquisitionKey
-  channelId : String
-  calibrationId : String
-  samplePointId : String
-  value : ℝ
-
-/--
-A row is admissible only when both channel observations refer to the same
-declared acquisition key. The pairing rule and point identities remain
-explicit data; key equality alone does not validate their source provenance.
--/
-structure PairedObservation where
-  pairingRuleId : String
-  first : ChannelObservation
-  second : ChannelObservation
-  sameAcquisition : first.key = second.key
-
-/-- The shared-acquisition condition is part of the paired-row type. -/
-theorem paired_observation_key_matches (p : PairedObservation) :
-    p.first.key = p.second.key := p.sameAcquisition
-
-/-- A two-value marginal summary that forgets observation order/pairing. -/
+/-- An unordered two-value marginal summary that forgets pairing/order. -/
 def unorderedMarginals2 (x : Fin 2 → ℝ) : ℝ × ℝ :=
   (min (x 0) (x 1), max (x 0) (x 1))
 
 /-- Mean of two observations. -/
-def mean2 (x : Fin 2 → ℝ) : ℝ :=
+noncomputable def mean2 (x : Fin 2 → ℝ) : ℝ :=
   (x 0 + x 1) / 2
 
 /-- Empirical centered cross-product with 1/n normalization for n = 2. -/
-def empiricalCrossCovariance2 (x y : Fin 2 → ℝ) : ℝ :=
+noncomputable def empiricalCrossCovariance2 (x y : Fin 2 → ℝ) : ℝ :=
   ((x 0 - mean2 x) * (y 0 - mean2 y) +
    (x 1 - mean2 x) * (y 1 - mean2 y)) / 2
 
@@ -73,7 +42,7 @@ def reversedRight : Fin 2 → ℝ := ![1, -1]
 theorem aligned_and_reversed_right_have_same_marginals :
     unorderedMarginals2 alignedRight =
       unorderedMarginals2 reversedRight := by
-  simp [unorderedMarginals2, alignedRight, reversedRight, min_comm, max_comm]
+  norm_num [unorderedMarginals2, alignedRight, reversedRight]
 
 theorem aligned_cross_covariance_is_one :
     empiricalCrossCovariance2 leftValues alignedRight = 1 := by
@@ -85,9 +54,8 @@ theorem reversed_cross_covariance_is_neg_one :
 
 /--
 No deterministic function of the two unordered marginal summaries can recover
-the paired cross-covariance for every two-observation arrangement.
-The two arrangements have identical marginal value sets but opposite
-cross-covariances.
+the paired cross-covariance for every two-observation arrangement. The two
+arrangements have identical marginal value sets but opposite cross-covariances.
 -/
 theorem unordered_marginals_do_not_determine_cross_covariance :
     ¬ ∃ f : (ℝ × ℝ) → (ℝ × ℝ) → ℝ,
@@ -105,7 +73,6 @@ theorem unordered_marginals_do_not_determine_cross_covariance :
     aligned_cross_covariance_is_one, reversed_cross_covariance_is_neg_one] at hsame
   norm_num at hsame
 
-#print axioms paired_observation_key_matches
 #print axioms aligned_and_reversed_right_have_same_marginals
 #print axioms aligned_cross_covariance_is_one
 #print axioms reversed_cross_covariance_is_neg_one
