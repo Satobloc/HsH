@@ -1,3 +1,218 @@
+## Latest correction | h1062:s2 | 2026-11-24
+
+## Latest checkpoint | h1073:s4 | 2026-11-24
+
+Read [CURRENT_WORK.md](CURRENT_WORK.md) first, then [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1748Z_s4_enheduanna.md). No authenticated Enheduanna thread or standalone Nathan-authored specialist charter exists; operate under Lane Charter 48 only. Current cursor: source-critical cross-modal registration map for the Kelvin-vortex paper, exact-head Lean readback for Nadir PR #1189, and P0 discovery currentness/record-safety split. No physical calculation or theory promotion. Next ring label: Tern h1074:s0. No direct-thread delivery claim.
+
+---
+
+
+- Tern h1062:s3 began before the optional packet and inbox writes; classification is POSTSTART_OPTIONAL_CONTEXT_ONLY. See [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0624Z_s2_enheduanna_AMENDMENT_02_HANDOFF_TIMING_AND_CI_STATUS.md).
+- Main-branch conversation-content CI #45341865964 failed with zero jobs; not a code-test result.
+- Discovery refresh #45341868011 remains pending; postwrite freshness is not yet verified.
+
+---
+
+## Latest checkpoint pointer | h1062:s2 | 2026-11-24
+
+- Canonical receipt: [h1062:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0624Z_s2_enheduanna.md).
+- Current work: see the new top checkpoint in CURRENT_WORK.md.
+- Report: [publisher readback and P0 snapshot reconciliation](2026-11-24T0624Z_H1062_S2_PUBLISHER_READBACK_AND_P0_SNAPSHOT.md).
+- H1051 publication status corrected by [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0624Z_s2_enheduanna_AMENDMENT_01_H1051_PUBLISHER_RECONCILIATION.md): #2442 PUBLISHED_VERIFIED; #2444 PUBLISHER_REJECTED_SHA256 / NO_ARTIFACT_FOR_THIS_SUBMISSION. No retry or duplicate.
+- P0: prewrite discovery freshness PASS; record safety FAIL; postwrite refresh required.
+- PWH deep review due to Tern h1062:s3; optional prestart context update is in Tern's repository inbox.
+- Role boundary: no authenticated current Enheduanna thread or standalone signed Nathan-authored specialist charter. Assistant-level source work only.
+- No Lane 24 Cycle 09, physical calculation, CODATA comparison, Lean build, theory promotion, paper-gate advancement or scheduler mutation.
+
+---
+
+## Latest checkpoint pointer | h1051:s0 | 2026-11-23
+
+- Current research receipt: [h1051:s0 BR-006 approval-witness and braid-map fidelity correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1900Z_s0_enheduanna.md).
+- Current work: see the new top checkpoint in CURRENT_WORK.md.
+- Source report: [h1051:s0 source-graph correction](2026-11-23T1900Z_H1051_S0_BR006_APPROVAL_WITNESS_AND_BRAID_MAP_FIDELITY_CORRECTION.md).
+- Publication: [issue #2444](https://github.com/Satobloc/HsH/issues/2444), SUBMITTED_NOT_VERIFIED. Do not duplicate; next run checks the existing intake and readback.
+- Role boundary unchanged: no standalone signed Nathan-authored Enheduanna specialist charter or authenticated current Enheduanna thread was recovered. This checkpoint is assistant-level source work, not a worker-instance claim.
+- No theory, task, scheduler, phase or worker-ownership promotion.
+
+---
+
+## Previous checkpoint pointer | h1043:s2 | 2026-11-23
+
+- Current research receipt: [h1043:s2 source-to-carrier dimensionality and measured-candidate preflight](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1124Z_s2_enheduanna.md).
+- Current work: see the new top checkpoint in CURRENT_WORK.md.
+- Role boundary unchanged: no standalone signed Nathan-authored Enheduanna specialist charter or authenticated current Enheduanna thread was recovered; the underlying historical role source remains behind the HSH_RESOURCES no-payload boundary.
+- No theory, task, scheduler, or worker-ownership promotion.
+
+---
+
+## Publication amendment — h1039:s3 — PUBLISHED_VERIFIED | 2026-11-23
+
+- Issue [#2411](https://github.com/Satobloc/HsH/issues/2411), publisher comment [#7095290450](https://github.com/Satobloc/HsH/issues/2411#issuecomment-7095290450): PUBLISHED.
+- Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h1039-s3-reader-target-binding-20261123-001.md`.
+- SHA-256 `3824d75f77bcbe59f9f9b04dc9c04b4a0599a8e3e96561047733ab28b66a5281`; publisher commit `a7425576cdbddca4b76c08ec5229e9df782b8026`; independent readback Git blob SHA-1 `f9998fe551346de300167adc034e2d80f3516452`.
+- The initial h1039:s3 checkpoint below records SUBMITTED_NOT_VERIFIED at first readback; this amendment supersedes only that publication status. No duplicate or retry.
+
+---
+
+# Latest checkpoint — h1039:s3 | 2026-11-23T07:36Z
+
+- Deterministic label: Enheduanna (h=1039, seq=5198, ring index 11); next Tern Rook, h1039:s4.
+- New P0 architecture finding: PR #1471's discovery projection binds reader-target visibility to derivative readiness but not the actual target artifact/path/digest to that derivative. Proposed typed ReaderTarget and ExcerptBinding, plus positive and adversarial regression controls. This is a refinement gap, not a counterexample to the current theorem.
+- Public report: [issue #2411](https://github.com/Satobloc/HsH/issues/2411), submission `enheduanna-h1039-s3-reader-target-binding-20261123-001`, SHA-256 `3824d75f77bcbe59f9f9b04dc9c04b4a0599a8e3e96561047733ab28b66a5281`, expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h1039-s3-reader-target-binding-20261123-001.md`; SUBMITTED_NOT_VERIFIED at last check.
+- Canonical receipt: [h1039:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0736Z_s3_enheduanna.md).
+- Optional handoff: [Tern h1039:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0736Z_from_s3_enheduanna_to_s4_tern_rook_POSTSTART_OPTIONAL_TYPED_READER_TARGET_BINDING.md), POSTSTART_OPTIONAL_CONTEXT_ONLY; no authenticated Tern thread or acknowledgment.
+- P0 remains ACTIVE; record-safety FAIL; live route acceptance NOT OBSERVED. PR #2009 remains draft/unmerged; PR #1471 exact-head build #45008989924 succeeded, but no new theorem was compiled.
+- No route probe, site/code/manuscript edit, physical calculation, theory promotion, BEDROCK/SAT-O/Blockwave change, or scheduler mutation. Existing :36 task ID/schedule/Worldtube phase unchanged; no sixth task.
+
+---
+
+## Latest checkpoint | h1032:s0 | 2026-11-23T00:00Z
+
+- Report: [Proper Dimensionality co-metric lineage supplement](2026-11-23T0000Z_H1032_S0_PROPER_DIMENSIONALITY_COMETRIC_LINEAGE.md). Workspace report, not a PUBLISHED_SUBMISSIONS artifact. Git blob SHA-1: `7c1562fe105afa2f7e511733542fae807976d818`.
+- Receipt: [canonical h1032:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0000Z_s0_enheduanna.md). Git blob SHA-1: `7b0ff3e9550c93e2e813361c810725c2d3748e04`.
+- Status: source-fidelity supplement complete. Publisher issue [#2387](https://github.com/Satobloc/HsH/issues/2387) was rejected for SHA-256 mismatch; no PUBLISHED_SUBMISSIONS artifact exists. No retry or duplicate issue. Additive comments to #1142, #913 and #2387 were read back.
+- Main finding: the MATHEMATICO NotebookLM export has 62/62 messages labeled `role=user`; indices 45-52 are not authenticated as Nathan Direct. The raw March 2024 user-role geometry describes 1D filaments and a moving 3D time surface, but does not define the 24-cell lattice, ensemble co-metric or “Flow Dominance.”
+- Mathematical result: the finite nonnegative weighted outer-product construction is PSD; if full rank, its inverse is PD, not Lorentzian. PR #912 exact-head CI run #40722612936 succeeded for the finite-sum theorem. The inverse-positive step and composed signature obstruction remain open. PR #873 and #1189 are separate conditional results.
+- SAT-O1 and Blockwave originals, hashes and source dates are preserved. Malformed Blockwave tokens remain verbatim. No corrected original equations, new Lean module or build.
+- Controls: no signed Enheduanna specialist charter or authenticated thread; no handoff or cross-thread delivery. Mersearch lanes remain occupied/requested; HSH_RESOURCES payload boundary respected. Task graph unchanged. Existing :00 task ID, enabled state, hourly schedule and Lane 00 phase unchanged; no sixth task.
+- P0 active; P1 overdue/not-ready/frozen and Orson-owned; P2 HOLD; P3 incomplete. No paper-gate advancement. FIE last full review November 20, next due December 4. Unrelated-reading break last completed November 20.
+- Next: recover the native speaker graph only if authorized; define the filament-to-worldtube sweep, carrier dimension and timesurface intersection map; formalize inverse positivity only after source-grounded measure/full-rank conditions. No physical calculation, CODATA or theory promotion.
+
+## Latest checkpoint | h1024:s2 | 2026-11-22T16:24Z
+
+- Report: [Recursive 4DHH generator source stratigraphy and measured-candidate triage](2026-11-22T1624Z_H1024_S2_RECURSIVE_4DHH_GENERATOR_SOURCE_STRATIGRAPHY_AND_MEASURED_CANDIDATE_TRIAGE.md).
+- Status: source-stratigraphy delta complete; recursive generator remains an unattributed candidate with unresolved time-coordinate, metric, units, parameter-map and worldtube-sweep definitions. No new Lean module, physical calculation, CODATA comparison or theory promotion.
+- The 2026 recursive summary is a composite document with multiple unmapped parameterizations. Its two HsH copies share one blob and are not independent witnesses. Existing issue #370 already covers an earlier intersection-order analysis; this checkpoint adds source typing, not a repeated calculation.
+- Existing PR #2143 current head fails its push workflow at parser errors; its additive n=3 candidate does not formalize the recursive product-sum.
+- Measured candidates inventoried, not selected: He-II vortex rings (Tang et al. 2023), GW170817, and climbing-rope impact/contact response. No dataset was downloaded or fitted. CODATA 2022 Version 9.0 remains the reference; no numerical comparison.
+- P0 remains ACTIVE. Eight protected Paper A/B objects and three discovery source/control files matched at pre-write main 72333cdca1c080758afc32002dee29a523d44eea. Issue #1747 remains open; PR #2009 remains open/draft/unmerged. No reader acceptance or standdown.
+- FIE full reread: 2026-11-20, six extracted pages / 12,892 characters; next full review 2026-12-04. Unrelated-reading break: 2026-11-20, Lamport pages 6-8, next cursor 2481. No repeat this turn.
+- Mersearch: all four canonical lanes occupied; no local executable or checkout. Existing receipts consulted; no new request. The three-root bridge was not run because the current HSH_RESOURCES no-payload boundary prevents payload search.
+- Access-boundary deviation: one HSH_RESOURCES payload file was inadvertently fetched before the explicit no-payload rule in the current Aster BOOT was located. It is excluded from analysis and publication; no further payload access, quotation, link, modification or publication. Keep payload access blocked pending owner decision. This deviation is disclosed in the report and Tern packet; do not repeat.
+- No authenticated current Enheduanna thread or signed specialist charter was found. This is source-grounded work under a deterministic label, not a claim of worker-instance continuity.
+- Next deterministic label: Tern Rook. Optional repository-only packet is in Common handoffs and Tern INBOX; no assignment, response obligation or ownership transfer. No direct-thread delivery or acknowledgment is claimed.
+- Task graph unchanged at 18 records / 16 declared / 17 reachable / 1 unreachable. No task, ID, cadence, phase, signet or conversation-name change; no sixth task.
+
+## Publication verification | h1020:s3 | 2026-11-22T12:36Z
+
+Public report #2344 is now PUBLISHED_VERIFIED. Confirmation #7079466278; canonical artifact blob 4235dd2b9e78303a79a24fb9158c13a5b63dab26; SHA-256 ad806b44f613618857fff69c932b599f1be3fdcbf84fa3d8b174afcebf771aec; exact issue-payload/file readback. See [h1020 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1236Z_s3_enheduanna_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+
+---
+
+## Latest checkpoint | h1020:s3 | 2026-11-22T12:36Z
+
+- Report: [H1020:s3 canonical instrument-support scope gate and source-hash correction](2026-11-22T1236Z_H1020_S3_CANONICAL_INSTRUMENT_SUPPORT_SCOPE_GATE_AND_SOURCE_HASH_CORRECTION.md).
+- Receipt: [h1020:s3 Enheduanna](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1236Z_s3_enheduanna.md).
+- PR #2330 head e41e31d0b7d0aa1aaf930acdf944d8b0c57f5d2e; Lean run #45024107990 SUCCESS (8,952 jobs); PR remains OPEN / DRAFT / UNMERGED.
+- Canonical instrument-support channel scope is now enforced in the existing adapter. This is a type-level label gate, not source authentication or physical validation.
+- h1016 NESTED HOLONOMIES source hash corrected to 0a8d52da06d1a787252b9a120c4770aa29095879; see [h1016 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0848Z_s4_enheduanna_AMENDMENT_01_NESTED_HOLONOMIES_BLOB_HASH_CORRECTION.md).
+- No signed Enheduanna specialist charter or authenticated current thread; no physical prediction; P2 HOLD. Public issue #2344 submitted, readback pending at this checkpoint.
+
+---
+
+## Source-locator correction | 2026-11-22T12:36Z
+
+The h1016:s4 report/receipt's `NESTED HOLONOMIES.txt` blob identifier was mistyped. The HsH and SAT archive copies are byte-identical at `0a8d52da06d1a787252b9a120c4770aa29095879` (344,495 characters; 6,912 lines). See [h1016 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0848Z_s4_enheduanna_AMENDMENT_01_NESTED_HOLONOMIES_BLOB_HASH_CORRECTION.md). The h1013 public artifact #2322 already used the correct hash. This changes only the locator, not source attribution or theory status.
+
+---
+
+## Latest checkpoint: h1016:s4 | 2026-11-22T08:48Z
+
+- Current report: [H1016:s4 source-role and cross-lane QC](2026-11-22T0848Z_H1016_S4_SOURCE_ROLE_AND_CROSS_LANE_QC.md).
+- Current receipt: [h1016:s4 Enheduanna](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0848Z_s4_enheduanna.md).
+- Historical authority: no separately signed Enheduanna specialist charter or authenticated current Enheduanna thread recovered; workspace role remains assistant-maintained reconstruction.
+- Prior h1013:s0 publication: **PUBLISHED_VERIFIED**, issue [#2322](https://github.com/Satobloc/HsH/issues/2322), SHA-256 `be7af294d16681187c1ef9c608208722fcacf67f53a41ed617676cab2f85ae4e`; see [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0500Z_s0_enheduanna_AMENDMENT_01_PUBLISHER_VERIFIED_AND_SOURCE_DUPLICATE_READBACK.md).
+- The HsH and SAT archive `NESTED HOLONOMIES.txt` paths share one Git blob; they are not independent corroboration. The June-11-labeled transcript is not a raw per-message export. Source-specific formalization remains blocked by missing maps and composition definitions.
+- SAT-O1 and Blockwave originals remain verbatim, with hashes/dates and authorship limits in the current report. No corrected equation is issued.
+- Nadir h1016:s3 optional packet was read poststart. PR #2330's new head has successful merge-reference build #45004451168; primary publication #2335 and corrected Lean amendment #2337 are verified. No physical result or independent review is claimed.
+- FIE: last full review November 10; next due November 24. Unrelated reading completed November 22: Lamport (1978), pages 6-8; no duplicate break.
+- Campaign: P0 Code Grurple ACTIVE; P1 November 9 cognition OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 November 30 HOLD; P3 December 14 INCOMPLETE.
+- Next ring label: Tern Rook, h1017:s0. Optional repository packet is prestart-only; no direct-thread delivery or acknowledgment is claimed.
+- Scheduler :48 remains enabled with original ID and hourly America/New_York :48 schedule. No task, phase, cadence, signet, or conversation-name change; no sixth task.
+
+---
+## Latest checkpoint: h1013:s0 (2026-11-22 05:00Z)
+
+- Status: SUBMITTED_NOT_VERIFIED; publisher issue [#2322](https://github.com/Satobloc/HsH/issues/2322), submission enheduanna-h1013-s0-scale-holonomy-source-fidelity-20261122t0500z-001
+- Expected artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h1013-s0-scale-holonomy-source-fidelity-20261122t0500z-001.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0500Z_s0_enheduanna.md
+- SHA-256: be7af294d16681187c1ef9c608208722fcacf67f53a41ed617676cab2f85ae4e
+- Lane 00 result: conditional scale/holonomy source-fidelity delta; see CURRENT_WORK top section and publisher issue
+- Next cursor: recover raw June 11 source and define typed maps before source-specific Lean formalization
+- No new task, schedule, phase, branch, or cross-thread delivery
+
+Thickness source boundary: BEDROCK records the qualitative October 18 commitment and local `epsilon` label, but the original raw message locator was not recovered in this run; do not treat it as a numeric or newly re-authenticated source.
+
+- Publication: [CPPG issue #2234](https://github.com/Satobloc/HsH/issues/2234) PUBLISHED_VERIFIED; SHA-256 `ab27f2f87a12f1260e69d4d962a67489c209838b921a959f3f5c31d36a3dc050`; see [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2234Z_s3_enheduanna_AMENDMENT_02_PUBLISHER_VERIFIED.md).
+
+# Enheduanna boot update | h982:s3
+
+Current Lane 36 continuation: read [CPPG v0.1](../COMMON/COUPLING_PRESERVING_PROJECTION_GATE_V0_1.md), [h982:s3 report](2026-11-20T2234Z_H982_S3_COUPLING_PRESERVING_PROJECTION_GATE.md), and [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2234Z_s3_enheduanna.md).
+
+Current source boundary: October 21 direct correction retires the earlier reciprocal deformation alternatives; November 4-5 direct material supplies a later tentative mutual worldtube-timesheet hypothesis and three carrier candidates. Keep the November 8 guide classified as assistant synthesis. The November 4 raw message ID is `100388c5-89d6-4ffd-a895-598990636057`.
+
+Current projection rule: preserve the joint observable and coupling signature through any reduction. The existing Ravel PR #1133 fiber-constancy theorem is the relevant formal criterion; its H(s)H product-valued instantiation remains uncompiled. No physical calculation or P2 admission.
+
+Mersearch remains unrun; all four request files are occupied. Lane 1 request-file ID differs from TASK_BRANCH_GRAPH; see receipt Amendment 01. Do not change any lane.
+
+
+## Latest operational pointer | h978:s4 | 2026-11-20
+
+[Report](2026-11-20T1848Z_H978_S4_REVIEW_MIND_SOURCE_CUSTODY_AND_NADIR_PR_READBACK.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1848Z_s4_enheduanna.md).
+
+The h975 Meridian Free Build raw-export cursor is closed by Mercer h976:s0 Amendment 01; no repeat or new source claim. Nadir h978:s3 issue #2215 is PUBLISHED_VERIFIED and PR #2214 has successful exact-head Lean build #44796583547. The module's nontransitivity result remains conditional on a witness. No Orson P1 ownership or paper-gate change. No authenticated Enheduanna thread or standalone signed charter is claimed. Postrun optional context packet: [Enheduanna h978:s4 -> Tern h979:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1932Z_from_s4_enheduanna_to_s0_tern_POSTRUN_OPTIONAL_NADIR_H978S3_PUBLISHER_AND_LEAN_READBACK.md). Tern h979:s0 completed before packet creation; repository-only pointer in Common HANDOFFS and Tern INBOX. No direct-thread delivery or consumption claim.
+
+---
+
+## Latest operational pointer | h975:s0 | 2026-11-20
+
+[Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1500Z_s0_enheduanna.md) and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1500Z_s0_enheduanna_AMENDMENT_01_PUBLISHER_AND_EXACT_HEAD_READBACK.md).
+
+The existing one-core superhelix vs two-core vortex-pair report is in the workspace. Publisher issue #2200 was rejected for a mismatched declared SHA-256; the exact report digest and missing artifact are recorded in the amendment. No retry, duplicate issue, or direct write to the publisher destination. PR #1133 has an exact-head successful Lean run; PR #1378 has no verified exact-head success. No new proof, physical calculation, CODATA result, or theory promotion.
+
+The incoming Nadir h971 optional packet was read and marked repository-consumed. No authenticated Enheduanna ChatGPT thread or worker acknowledgment is claimed. This pointer does not alter historical role, scheduler state, or access boundary.
+
+## Latest operational pointer (non-authoritative)
+
+h967:s2 source-readiness note: [2026-11-20T0724Z report](2026-11-20T0724Z_H967_S2_VOL_HELICAL_PAIR_SOURCE_READINESS.md). Lane 24 remains Cycle 08/08 COMPLETE / BACKSEAT / HOLD. No new P2 selection or physical calculation. Public issue #2172 was rejected for SHA-256 mismatch; no retry or duplicate was made. See receipt Amendment 01. This pointer does not alter the historical role or access boundary.
+
+# Latest reconciliation status | Enheduanna h963:s3 | 2026-11-20T0408Z
+
+- [Canonical h963:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0336Z_s3_enheduanna.md); [Amendment 01: scheduler run binding](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0408Z_s3_enheduanna_AMENDMENT_01_SCHEDULER_RUN_BINDING_AND_SUCCESSOR_TIMING.md).
+- Existing neutrino-flavor report body remains in rejected publisher intake [issue #2159](https://github.com/Satobloc/HsH/issues/2159). Publisher rejected SHA-256 mismatch; no canonical artifact, retry, or duplicate.
+- Draft PR #2157 exact head `9dcca6ba156ad1492643e75d26cd259c48dc212e` passed run #44671081688 / job #136071932499. The rejected issue body is an earlier snapshot and still records the extension as pending.
+- Current :36 run ID `ac6992a5-d2b0-8333-8116-7766e32ddf0b`, IN_PROGRESS, current `chat_ref=null`; cached latest result belongs to prior h962:s3 Aldus. Producer-run linkage for existing h963 artifacts remains unresolved; attempt identity is unexposed.
+- Tern h963:s4 completed before the optional packet was created. No direct delivery or consumption is claimed.
+- P0 ACTIVE; Orson P1 protected; P2 HOLD; P3 INCOMPLETE. No theory promotion or scheduler change.
+- Read [CURRENT_WORK.md](CURRENT_WORK.md) for the full chronology.
+
+---
+
+# Latest publication status | Enheduanna h940:s4 | 2026-11-19T0456Z
+
+- [PUBLISHED_VERIFIED: issue #2061](https://github.com/Satobloc/HsH/issues/2061). Publisher run #44461580145 SUCCESS; comment #7000144253.
+- Report, issue envelope, and canonical artifact exact-readback matched at 13,293 characters. SHA-256 8d8fdc88d7474f31059e5b70247c979a4461f595e0e2cc52025ff39187dbaaf0.
+- [Receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0456Z_s4_enheduanna_AMENDMENT_01_PUBLISHED_VERIFIED_AND_CROSS_STUDY_CONTEXT.md).
+- [Cross-study amendment](2026-11-19T0456Z_H940_S4_AMENDMENT_01_CROSS_STUDY_CONTEXT.md), issue comment #7000181167.
+- Tern h941:s0 optional packet has a publication-verification amendment. Timing and direct-thread delivery remain unverified; no assignment or acknowledgment.
+
+---
+
+# Current checkpoint | Enheduanna h940:s4 | 2026-11-19T0448Z
+
+- This is an assistant-level source-grounded reconstruction under the Enheduanna ring label. No authenticated current Enheduanna thread or standalone Nathan-authored specialist charter has been recovered. The historical direct instruction is broad archive consideration only; do not invent a more detailed role.
+- Current report: [worker-to-lead evidence continuity review](2026-11-19T0448Z_H940_S4_MULTIAGENT_MEMORY_HANDOFF_REVIEW.md).
+- Canonical receipt: [h940:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0448Z_s4_enheduanna.md).
+- Publication: issue #2061, SUBMITTED_NOT_VERIFIED at last check. Publisher run #44461580145 was IN_PROGRESS; expected artifact not yet present. Do not retry or duplicate.
+- Research focus: separate pooled evidence presence, decision-time pair co-presence, source-root independence, actual decision use, and semantic conflict detection.
+- Formalization: reuse existing PR #1189 factorization theorem; exact-head Lean compile passed. No new theorem or empirical result.
+- Orson P1 remains protected and unchanged. P0 active; P2 hold; P3 incomplete.
+- Next ring label: Tern Rook h941:s0. Optional repository context only, timing unverified. No direct-thread delivery or acknowledgment.
+- Read CURRENT_WORK.md for full chronology and receipt details.
+
+---
+
 ## Latest verification | h910:s2 | 2026-11-17T22:24Z
 
 - [Current work checkpoint](CURRENT_WORK.md) records the source-attribution and transcript copy-family result.
@@ -188,3 +403,53 @@ Read BEDROCK, Nathan Direct methodology, Steering Charter, Three Paper Campaign,
 - Orson P1 remains protected. No P1 manuscript, PR #850, issue #564, or paper gate changed.
 - Current :48 run `731969da-153c-8327-8e53-c78c501bbe15` was IN_PROGRESS at last readback, with null completion and null run-level chat_ref. Do not infer current worker liveness or thread identity from the ring label.
 - FIE next review: 2026-11-24. Unrelated-reading cursor: Babbage, Project Gutenberg #1216, next line 623.
+
+
+## Latest checkpoint: h1001:s3 (2026-11-21)
+
+- Existing observed-slice report is already published and verified: [issue #2294](https://github.com/Satobloc/HsH/issues/2294), canonical artifact under `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/`.
+- Existing draft [PR #2293](https://github.com/Satobloc/HsH/pull/2293) now carries an explicit source-span/source-to-candidate stage and full `Source → Candidate → Geometry → Slice → Observable → Measured` composition.
+- Exact PR-head Lean build passed on `498ae0ef2f0d34036865705b91ed4b435a07852e`: [Actions #44934722016](https://github.com/Satobloc/HsH/actions/runs/44934722016), 8,948 jobs. PR remains draft/unmerged; global axiom audit, tests, lint, leanchecker and nanoda were not run.
+- The source-span key and map IDs remain externally bound identity labels; no physical H(s)H map, dataset, prediction, fit or independent measurement was established. P2 remains HOLD.
+- This is assistant-level Lane 36 reconstruction. The ring label does not authenticate an Enheduanna instance or current thread. The reconstructed source-critical remit is unchanged; no standalone signed charter was found.
+- A first code-write call briefly put the draft module on main because the PR branch argument was omitted. The exact one-file addition was deleted from main immediately; the module is present only on PR #2293. Main history retains the add/delete pair; no history rewrite occurred.
+- The existing :36 task, enabled state, hourly schedule and phase remain unchanged. No sixth task, signet or conversation rename.
+- Last successful task-specific peek showed the current occurrence IN_PROGRESS with `chat_ref=null`; a later peek was unreadable. No completion or thread identity is inferred.
+- Next deterministic ring label: Tern Rook. Its nominal h1001:s4 slot had already started at the last successful check; any repository context is post-start and optional only.
+
+
+## Scheduler readback amendment: 2026-11-21T1827Z
+
+- :36 current run `30690852-4198-8321-a729-9241153d16bb`: scheduled 17:36Z, started 18:02:42.506845Z, IN_PROGRESS, completion null, `chat_ref=null`. Cached latest_result remains h999:s3 Loom, not current. Task-level last_run_time/next_run_time are stale relative to run_details.
+- :48 current run `242604ae-1df0-8332-8f4b-99a6f82bb9ff`: scheduled 17:48Z, latest start 18:15:53.256517Z, IN_PROGRESS, completion null, `chat_ref=null`. The same run ID was previously observed with start 17:48:07.337923Z; start-time movement is recorded, cause unknown. Cached latest_result remains h1000:s4 Calder, not current.
+- The task graph records the h1001:s4 Tern label's redundant 18:00–18:59:59Z aggregate query and five job-endpoint reads as NOT census evidence; 18:00Z cursor remains STALE/BLOCKED. No retry/query was made.
+- Tern h1001:s4 is post-start; optional repository context only. No authenticated thread or direct delivery is claimed.
+
+
+## H1001:S3 source-span identity addendum | 2026-11-21T1839Z
+
+[Addendum](2026-11-21T1839Z_H1001_S3_SOURCE_SPAN_CONTENT_IDENTITY_AND_ATTRIBUTION_SEPARATION_ADDENDUM.md) and [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1736Z_s3_enheduanna.md).
+
+The existing PR #2293 now carries a structured content key for the exact raw-export/body/span bytes, separate from revisable source attribution. The exact span hashes and byte ranges are recorded in the addendum. The existing observed-slice issue #2294 remains the sole publication; append-only comments #7067506793 and PR #2293 comment #7067507229 are read back.
+
+**Verification boundary:** PR head `a141a72bdea2526f894a6acecdafa4cb5ce6bc67` is not yet covered by Lean CI. The visible successful run #44936687624 checked out prior head `498ae0ef2f0d34036865705b91ed4b435a07852e`. Keep PR #2293 draft/unmerged. The content/attribution theorem statements remain unverified until an exact-head build.
+
+The :36 run ID remains `30690852-4198-8321-a729-9241153d16bb`, scheduled 17:36Z, IN_PROGRESS, `chat_ref=null`; its start-time observation moved to 18:32:14.992280Z. Cached latest_result remains h999:s3 Loom, not this run. No retry, current-thread authentication, or cross-thread delivery claim.
+
+Tern is next deterministic label, but the prior optional packet path is not found on current main; no replacement packet was created. No task/ID/cadence/phase change, no sixth task, no theory promotion. P0/P1/P2/P3 and paper gates unchanged.
+
+
+## h1035:s4 assistant-level checkpoint | 2026-11-23T0348Z
+
+- Report: [NotebookLM export schema and source-lineage supplement](2026-11-23T0348Z_H1035_S4_NOTEBOOKLM_EXPORT_SCHEMA_AND_SOURCE_LINEAGE_SUPPLEMENT.md).
+- Common source-grounded seed: [h1035:s4 Enheduanna seed](../COMMON/REVIVAL_SEEDS/2026-11-23T0348Z_H1035_S4_ENHEDUANNA_SOURCE_GROUNDED_REVIVAL_SEED.md).
+- Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0348Z_s4_enheduanna.md (created after final publisher readback).
+- Publisher issue #2400 is SUBMITTED_NOT_VERIFIED at this checkpoint; submission ID enheduanna-h1035-s4-notebooklm-export-schema-provenance-20261123t0348z-001; submitted digest (publisher rejected; actual SHA-256 not recomputed) 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b.
+- No standalone signed specialist charter or authenticated current Enheduanna thread was established. This is assistant-level Review-MIND source work, not historical-instance participation.
+- Nadir's optional h1035:s3 packet was consumed at repository level only. No direct-thread acknowledgment or task obligation.
+- Preserve the MATHEMATICO export's 62 role=user labels as export metadata only; author/source attribution remains unresolved. The exact v0.2.2 exporter is not recovered.
+
+
+## h1035:s4 publication correction | 2026-11-23
+
+Publisher issue #2400 was rejected with SHA-256 mismatch (comment #7091265874). The previously recorded digest 4eb9b8c54e44a29b7f284ca616fbd981f996e024055cc3deabd273f066e18f5b is the submitted digest, not a verified content digest. The issue body and workspace report match exactly, but the actual SHA-256 has not been independently recomputed. Expected canonical artifact returned NOT_FOUND. Status: PUBLISHER_REJECTED_SHA256 / NOT_PUBLISHED / NO_CANONICAL_ARTIFACT. No retry, edit, reopen, duplicate, direct artifact write, or bypass. See [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0348Z_s4_enheduanna.md).

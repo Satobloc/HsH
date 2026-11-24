@@ -1,34 +1,28 @@
 # Current Workflow Orientation — v2
 
-> **2026-10-09 Nathan Direct bibliographic boundary:** Older blanket `PRIOR_ART` hard-quarantine language in this orientation is now scoped by [the current directive](./NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md): Hypothesis H proper and directly Schreiber-authored material remain strictly off-limits; other scholarly materials can be examined **after** SAT/H(s)H source-precedent checking and cited as outside comparators only. Separate stopped-integration/private/exposure rules have not been lifted.
+> **2026-11-21 Nathan Direct:** Prior-art research access is open. Recover internal SAT/H(s)H provenance first; research access is not endorsement, adoption or theory authority. Privacy, exposure, redistribution and publication controls remain separate. See `BEDROCK.md` and `NEW_INSTANCE_START_HERE.md`.
 
-**Current as of:** 2026-09-20  
-**Status:** CURRENT / controlling workflow front door  
-**Supersedes for current workflow:** `CURRENT_WORKFLOW_ORIENTATION.md` (retained as historical workflow-state evidence)  
-**Branch:** `CTRL-2026-09-20-GENERALIST` / `CTRL-03`
+**Current as of:** 2026-11-22  
+**Status:** CURRENT / controlling workflow front door; subordinate to newer Nathan Direct and live BEDROCK/Steering controls  
+**Supersedes for current workflow:** `CURRENT_WORKFLOW_ORIENTATION.md` (retained as historical workflow-state evidence)
 
 ## 1. What the workflow is doing
 
-The project is a distributed reconstruction, provenance, tooling, archive-access, benchmarking, and sandbox-theory programme. It is not a single linear theory-writing pipeline.
+The project is a distributed reconstruction, provenance, tooling, archive, benchmarking and sandbox-theory programme, not a linear paper pipeline.
 
-Current emphases include reconstructing SAT/H(s)H doctrine with provenance; recovering Nathan-authored wording and methodological controls; excavating `SAT_THEORY_ARCHIVE_2023-25`; He-3/Jarlskog/soliton source recovery and scaling-anchor work; bounded solver/formalization work; archive/index/viewer QA; durable instance continuity/revival; and increasing computational/solver/CODATA or standard-data benchmarking without treating numerical agreement as derivation or validation.
-
-FIE is the conceptual/methodological anchor for SAT. H(s)H inherits from SAT where supportable while allowing justified divergence. Currentness, provenance, mathematical correctness, model correctness, empirical compatibility, and theory authority remain separate questions.
+Two co-equal priorities govern current work: whole-physics exemplar reconstruction/integration and Big Push execution. Follow BEDROCK's detail↔panorama method and the Steering Charter/Three Paper Campaign for current execution and manuscript gates. FIE remains foundational; H(s)H inherits from SAT where supported and may diverge with justification. Currentness, provenance, mathematical correctness, model correctness, empirical compatibility and theory authority remain distinct.
 
 ## 2. Read first
 
 For a new, newer, materially stale, revived, or repo-reassigned instance:
 
-1. `NEW_INSTANCE_START_HERE.md`
-2. `INSTANCE_ONBOARDING_3REPO.md`
-3. `CARPE_TURNEM_POLICY.md`
-4. `NO_CONVERSATION_RENAMING_POLICY.md`
-5. `INSTANCE_REGISTRY_EXECUTION_LEASES.md`
-6. `WORKFLOW_BRANCHING_MAP.md`
-7. `ORCHESTRATOR_COMPTROLLER_MODEL.md` when doing system architecture/capability composition or active-edge workflow interlocking
-8. current central task/branch, directive, milestone, check-in and handoff state
-9. `AUTOMATION_WORKFLOW_CONTROL.md` and `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, interpreting any older specialist-lane/Sable-exclusive language through the newer control-plane reconciliation until those files are revised
-10. only the repository-specific sources needed for the selected bounded task.
+1. `NEW_INSTANCE_START_HERE.md` and `INSTANCE_ONBOARDING_3REPO.md`.
+2. Current `BEDROCK.md` and `NATHAN_DIRECT_2026-11-08_METHODOLOGY_AND_MODEL_OVERVIEW.md`.
+3. `STEERING_CHARTER_2026-10-26.md` and `THREE_PAPER_CAMPAIGN_2026-10-26.md`.
+4. `CARPE_TURNEM_POLICY.md`, `NO_CONVERSATION_RENAMING_POLICY.md`, `INSTANCE_REGISTRY_EXECUTION_LEASES.md` and `WORKFLOW_BRANCHING_MAP.md`.
+5. `REVIVAL_ROTATION_V3_2026-10-11.md`, current V4 amendments and `REVIVAL_RELAY_THREAD_FIRST_RULE_2026-10-11.md`.
+6. `AUTOMATION_WORKFLOW_CONTROL.md`, `WORKER_AUTONOMY_HANDOFF_PROTOCOL.md`, and live task/branch/check-in/handoff/scheduler state. Consult `ORCHESTRATOR_COMPTROLLER_MODEL.md` for architecture or active-edge interlocking.
+7. Only sources needed for the selected bounded task.
 
 Established workers do not reread the full onboarding package every recurrence unless a trigger applies or the package materially changes. Use `WORKFLOW_BRANCHING_MAP.md` when deciding whether to continue, split, hand off, park, reassign, revive, change repository/exposure route, or trigger a milestone transition.
 
@@ -36,7 +30,7 @@ Established workers do not reread the full onboarding package every recurrence u
 
 Instance identity is not task identity and is not scheduler identity. Historical specialties are soft strengths, continuity assets, exposure histories, and methodological differences—not jurisdictional silos.
 
-The scheduler currently provides five active execution leases over a larger population of scheduled, accessible-unscheduled, paused, historical, and revival-ready instances. A lease may move without retiring or replacing the instance. Unscheduled is not retired; paused is not abandoned.
+The five fixed Workshop Relay task IDs remain; live scheduler readback 2026-11-22 shows four enabled (:00, :24, :36, :48) and :12 disabled. Recheck live state before claiming availability. Ring labels do not authenticate a worker or thread.
 
 Use `INSTANCE_REGISTRY_EXECUTION_LEASES.md` for the durable identity/availability/lease model. Do not infer historical-instance accessibility merely from a name or old conversation record.
 
@@ -67,7 +61,7 @@ Historical SAT archive: preservation, provenance, genealogy, source recovery, hi
 Live project/workflow repository: Common controls, current reconstruction, conversation preservation/navigation, sandbox theory-building, formalization, worker/instance coordination, handoffs, and current tooling. This is normally the first repository for "what is the project doing now?"
 
 ### `Satobloc/HSH_RESOURCES`
-External-resource, bibliography, extraction, comparison, benchmark and exposure-evidence repository. It is not the default live-theory workspace. `PRIOR_ART` remains strictly quarantined except through explicitly cleared interfaces. Do not publish private quarantine-trigger criteria.
+External-resource, bibliography, extraction, comparison and benchmark repository, not the default live-theory workspace. Prior-art research is open under internal-first provenance; privacy, exposure and publication controls remain separate.
 
 Do not homogenize repository roles merely to make directory structures look alike. Preserve cross-repo source identity and relationship type.
 
@@ -85,7 +79,7 @@ Conversation folders are transport/upload groupings, not value rankings, theory 
 
 Theory-bearing construction, derivation, solver work, mathematical repair, interpretation, prediction exploration, and criticism belong in permitted sandbox scope with explicit status labels.
 
-Quarantined material—including `PRIOR_ART`-controlled content—does not leak into ordinary theory or Common surfaces. Use only cleared interfaces. If external reading raises a possible quarantine issue, preserve bibliographic/source identity and route it through the current authorized quarantine interface rather than importing machinery into ordinary development.
+Research access is open, but private or exposure-controlled material must not be copied into ordinary theory, Common or public surfaces. Preserve source identity and exposure history; reading an external comparator does not make it a SAT premise.
 
 Exposure history matters when independence/blinding matters. Record what an instance has seen before using it for an independent-first-pass task.
 

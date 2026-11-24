@@ -1,0 +1,108 @@
+{
+  "schema": "factory-handoff-pending-v1",
+  "source_item_id": "orson-h957-s2-memops-projection-proof-20261119t2124z-001",
+  "factory_item_id": null,
+  "status": "LEAN_VERIFIED / FACTORY_HANDOFF_PENDING / PUBLICATION_VERIFIED",
+  "factory_floor_eligibility": "NOT_FACTORY_FLOOR_ELIGIBLE",
+  "eligibility_reason": "Factory Floor's mandatory geometry-first admission gate requires a precise object-specific geometric plot, independent hostile fidelity review, and display of that plot with the submitted file. This is an abstract method-level state/provenance theorem under assistant-reconstructed semantics; no measured geometric system or plot is supplied.",
+  "intake_route": "NOT_SUBMITTED",
+  "direct_factory_write": false,
+  "source_repository": "Satobloc/HsH",
+  "source_branch": "research/orson-memops-state-projection-20261119t1736z",
+  "source_pr_number": 2112,
+  "source_pr_url": "https://github.com/Satobloc/HsH/pull/2112",
+  "source_pr_head_at_verified_build": "ea298e2fb5cc0ff2dbd41812596d5e8c6003bc35",
+  "source_pr_base": "research/orson-p1-conjunction-null-20261028t0212z",
+  "source_pr_base_sha": "598a45b3feb9378eb8f14ff069ec9080137113c2",
+  "checked_out_merge_reference": "24716770657c1aa4986e53b20c50b98cf3b7ad98",
+  "source_path": "FORMAL_VERIFICATION/HsHVerification/MemoryLifecycleProjection.lean",
+  "source_blob_sha": "5b431136469647b8e3f5e7c0135ca8a5e1f730e3",
+  "theorem": [
+    "HsHVerification.MemOpsStateProjection.snapshot_projection_noninjective",
+    "HsHVerification.MemOpsStateProjection.no_snapshot_only_reconstructor"
+  ],
+  "theorem_claim": "Under the explicit assistant-reconstructed two-target Remember/Update/Forget transition semantics, a nonempty Remember→Forget history and the empty history produce the same final snapshot; therefore no function of the final snapshot alone reconstructs every exact history in that model.",
+  "theorem_limit": "Method-level finite model only. The MemOps paper supplies operation-trace concepts but no formal transition function. This proof does not establish actual ChatGPT Memory behavior, deployed-agent memory semantics, evidence authenticity, Reflect semantics, physical truth, or empirical model performance.",
+  "lean_toolchain": "leanprover/lean4:v4.34.0",
+  "lean_version": "Lean 4.34.0, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b",
+  "lake_version": "5.0.0-src+293d5d0",
+  "mathlib_revision": "5ed2965256430c3649e86755f9576b54eca72435",
+  "dependency_manifest": {
+    "status": "TRANSIENT_RUNNER_GENERATED",
+    "committed_manifest": "NOT_FOUND",
+    "reproducibility_limit": "Workflow ran lake update and generated a manifest in the runner; no committed lake-manifest.json identity or SHA is available.",
+    "observed_revisions": {
+      "plausible": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+      "LeanSearchClient": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+      "importGraph": "e928b72544873815af278d38681b31c0293588e3",
+      "ProofWidgets4": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+      "aesop": "355695d523e41d0554926416cba2a2b3544fbbc9",
+      "Qq": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+      "batteries": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+      "Cli": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204"
+    }
+  },
+  "actions": {
+    "run_id": 44618618439,
+    "job_id": 135893909762,
+    "url": "https://github.com/Satobloc/HsH/actions/runs/44618618439",
+    "checkout": "MERGE_REFERENCE",
+    "merge_source_commit": "24716770657c1aa4986e53b20c50b98cf3b7ad98",
+    "build_conclusion": "SUCCESS",
+    "build_jobs": 8951,
+    "tests": "SKIPPED",
+    "lint": "SKIPPED",
+    "nanoda": "SKIPPED",
+    "leanchecker": "SKIPPED",
+    "axiom_audit": "SKIPPED",
+    "theorem_specific_axiom_print": [
+      "propext"
+    ],
+    "explicit_sorry_admit_custom_axiom_in_submitted_module": "NONE_FOUND_BY_SOURCE_INSPECTION",
+    "global_axiom_audit": "SKIPPED"
+  },
+  "original_source_basis": [
+    {
+      "kind": "External primary source",
+      "title": "MemOps: Benchmarking Lifecycle Memory Operations in Long-Horizon Conversations",
+      "authors": "Xixuan Hao et al.",
+      "repository": "arXiv",
+      "identifier": "2607.12893",
+      "date": "2026-07-14",
+      "url": "https://arxiv.org/abs/2607.12893",
+      "inspected_sections": "3.1–3.2",
+      "source_note": "The paper defines operation traces and Remember/Update/Forget/Reflect/TrajectoryOps but does not supply a formal transition calculus."
+    },
+    {
+      "kind": "Assistant reconstruction",
+      "source_path": "FORMAL_VERIFICATION/HsHVerification/MemoryLifecycleProjection.lean",
+      "source_blob_sha": "5b431136469647b8e3f5e7c0135ca8a5e1f730e3",
+      "note": "The two-target state and operation semantics are explicitly reconstructed, not attributed to the paper authors."
+    }
+  ],
+  "physical_empirical_interpretation": "NONE. No physical system, measured dataset, units, uncertainties, physical prediction, fit, or independent measurement is involved.",
+  "python_numeric_tests": "Prior h953 report records a concrete Remember→Forget/empty-history collision replay and 16 target-isolation cases; not re-run in h957.",
+  "presentation_status": "SOURCE_ONLY",
+  "candidate_visibility": "INTERNAL",
+  "geometry_plot": "NOT_SUPPLIED",
+  "independent_hostile_geometry_review": "NOT_PERFORMED",
+  "factory_gate": "GEOMETRY_NOT_SUPPLIED / NOT_FACTORY_FLOOR_ELIGIBLE",
+  "next_steps": [
+    "Do not submit directly to Factory Floor or invent a Floor ID.",
+    "Keep PR #2112 draft and unmerged pending independent source-to-model review.",
+    "Preserve the transient dependency-manifest limitation; a future exact reproducibility run should retain the resolved manifest identity.",
+    "Do not promote to BEDROCK, a paper, LIVE, ARTIFACTS, or WEBSITE."
+  ],
+  "publication": {
+    "issue_number": 2131,
+    "issue_url": "https://github.com/Satobloc/HsH/issues/2131",
+    "submission_id": "orson-h957-s2-vey043-break-even-20261119t2124z-001",
+    "sha256": "6d06a7d54d94696daac94ae9c92a5cc587979d0d905bdad319a27e140987a2b7",
+    "publisher_run_id": 44620379746,
+    "status": "PUBLISHED_VERIFIED",
+    "readback": "EXACT_BYTE_FOR_BYTE_MATCH_REPORTED_BY_EXISTING_PUBLISHER_AND_ARTIFACT_READ_BACK",
+    "publisher_comment_id": 7022900809,
+    "publisher_commit": "8133089da260054aca39947a056eb230b8f798f1",
+    "artifact_blob_sha": "aef3a0e0b729ce8e2f6aae53b21604f45661e41b"
+  }
+}

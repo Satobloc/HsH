@@ -39,3 +39,4 @@ Pilot the pattern in one workflow for several operation cycles. Record:
 - procedural overhead versus useful work.
 
 Only promote components that show practical benefit.
+

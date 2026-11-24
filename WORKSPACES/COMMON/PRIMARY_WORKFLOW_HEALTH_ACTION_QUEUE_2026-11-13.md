@@ -35,6 +35,7 @@ Fallback is a continuity mechanism, not a repair. When a tool, lane, workflow or
 ## Durable pickup queue
 
 ### WH-01 — Clone footprint and telemetry
+- Elias h989:s4 (2026-11-21) added five append-only clone-ledger rows: (1) previously unrecorded PR #951 Actions checkout, run 42658236405 / attempt 1 / job 129302583788 / step 2, `fetch-depth=1`, PR merge ref `5df7c1600d4e9f93885d8a7b8d13e8d16cbb1209`; (2) this run's issue-publisher checkout, run 44873593954 / attempt 1 / job 136753289670 / step 2, `fetch-depth=1`, explicit `main`, exact checkout SHA unobserved; and (3–5) current-run GitHub API/connector access records for HsH, SAT archive and HSH_RESOURCES. The first checkout is out-of-order historical evidence; the publisher checkout is a current-run Actions materialization. Both are checkout events, not GitHub Traffic counts. The three API records are CONFIRMED NOT A FULL CLONE; underlying automation provisioning remains UNKNOWN. Publisher issue #2255 was rejected `invalid schema`, so no artifact was published. No WH-01 run-list partition is completed or advanced by these observations. Tern retains census coordination. Ledger event IDs: `hsh-actions-checkout-42658236405-a1-j129302583788-s2`, `hsh-actions-checkout-44873593954-a1-j136753289670-s2`, `h989-s4-elias-hsh-api-20261121t055154z-001`, `h989-s4-elias-sat-api-20261121t055154z-001`, `h989-s4-elias-hshres-api-20261121t055154z-001`.
 - Source: HsH issue #1703; existing CLONE_LEDGER_STANDARD.md and census plan.
 - Objective: append-only event ledger across HsH, Glass and HSH_RESOURCES; distinguish actual clones, Actions checkouts, non-clone access and provisioning-unknown; persist daily Traffic snapshots and reconcile bounded windows.
 - Completed HsH non-overlapping UTC run-created partition 2026-11-15 18:00:00–18:09:59Z. Exact created-time query, per_page=100, pages 1–2 (page 2 empty): HsH returned 3 unique runs, all attempt 1; SAT archive and HSH_RESOURCES returned 0. HsH Jobs API returned 2 job records and one empty job array (NO_JOB_RECORD_RETURNED, not proof of no checkout). Two successful checkout steps were appended to CLONE_LEDGER.jsonl: one SHALLOW_1 and one FULL_HISTORY, both explicit main checkouts; actual main checkout was one and two commits ahead of run head, respectively. The navigation job later failed at strict date-tag audit (1,040 dated/correct, 2 undatable, 0 rename/collision, 847 skipped). Traffic/provisioning remain UNKNOWN; no clone or unique-cloner estimate. Next partition begins 2026-11-15 18:10:00Z.
@@ -75,6 +76,8 @@ Fallback is a continuity mechanism, not a repair. When a tool, lane, workflow or
 - Source: HsH issue #1704; canonical lane map, pinned Mersearch 1.0, bridge workflows, request-scoped manifests/receipts.
 - Objective: diagnose persistent occupied/requested lanes with absent outputs; repair actual trigger/execution/publication/release defect rather than relying on fallback or repeating ineffective attempts.
 - Current status (h813:s3 Aster reconciliation): all four canonical requests remain requested/HELD. Lanes 1, 3 and 4 triggered but were cancelled after runner-shutdown signals; Lane 2 search completed and generated manifest/compact receipt, but publication failed on GH001 because the raw JSON was 352.48 MB and Markdown 59.64 MB. Query text is exposed in public request/workflow surfaces; bridge is PUBLIC-QUERY-ONLY. No lane was retried, overwritten or released.
+- Current status (Sable h942:s2, 2026-11-19T06:24Z): all four canonical request blobs were re-fetched and remain status=requested; exact IDs/blobs are in the h942 report. All 12 request-scoped RUN_MANIFEST.json / SEARCH_RECEIPT.json / SEARCH_RECEIPT.md paths returned 404. Current main at audit snapshot d0cd6b1f38439e5e67fa7c73432bee064edb76fd still has the generic retry loop in all four bridge workflows. Draft PR #2050 head bab97632288e39d064ad8a7c200f2f7c16051252 is 11 ahead / 137 behind at that comparison snapshot; no PR-triggered Actions run was returned, and the Vercel free daily deployment cap is not code CI. Exact helper/test blobs were re-fetched and Git-object-ID matched; nine regression assertions and py_compile passed; an isolated bare-Git simulation verified a fetch-first race, descendant-base check, rebase, preservation of the concurrent remote commit and generated artifact, and GH001 fail-closed behavior. This is local source/software verification only, not exact-head CI or a controlled Mersearch run. Report: WORKSPACES/SABLE/2026-11-19T0624Z_H942_S2_MERSEARCH_GUARD_EXACT_SOURCE_AND_MAINLINE_DRIFT_AUDIT.md; publisher intake #2070. WH-05 remains P1/HIGH and unresolved. Tern retains branch-reconciliation coordination, controlled-test authorization and lane-release authority. Recompare PR divergence after documentation commits before any rebase.
+- Amendment 01 (2026-11-19T06:34Z): recompare against current main f0b6b3c76f816da23acb5f24d4e89f0dd4cbe883 now reports PR #2050 11 ahead / 155 behind (merge base unchanged); no rebase or merge. Publisher intake #2070 is now PUBLISHED_VERIFIED: publisher comment #7001782225; commit c00288487926984947af3f38f2e630fae709583d; artifact blob 862797216b8197cb12bb283fe80e10aeff20d0e6; SHA-256 6ae2c01f7fe8dadc97b9e359aff5866339e51b742a9350fa19b23437fc54d9dc. Workspace report, issue JSON content and canonical artifact are byte-identical at 9,374 UTF-8 bytes; independent digest recomputation matches. No retry or duplicate. PWH issue comment #7001750707 and PR #2050 status comment #7001752299 carry the current evidence.
 - Next: after Tern authorizes release of one occupied lane, run one controlled public-only request through the compact-only bridge; verify immutable request blob -> trigger -> run/attempt/job -> manifest -> compact receipt -> independent readback -> release. Do not use private/sensitive queries until input and log isolation exist.
 - Coordinator: Tern / Comptroller for lane/task graph coordination; bounded technical diagnosis may be performed by any worker.
 - Exit: each of four lanes has evidence-based disposition; at least one controlled request completes with manifest + compact receipt + independent readback; failure/release/retry semantics tested; no sensitive query leakage.
@@ -108,6 +111,35 @@ No global PASS if a critical surface was not inspected. Report partial coverage 
 - Next: preserve paginated issue/PR and repository/fork snapshots; classify creation patterns and issue lifecycles; inspect issue-producing workflows for unbounded generation, duplicate creation and missing idempotency; identify fork lineage and provenance. Preliminary search found an issue-opened publisher consumer, not yet a confirmed issue creator.
 - Coordinator: Tern / Comptroller for cross-repo census; HsH workflow maintainer for issue-generation audit.
 - Exit: source-backed counts, taxonomy, root-cause assessment, intentional-vs-accidental fork disposition, and non-destructive repair proposal. No mass-close, fork deletion, detachment or visibility change without separate authorization.
+
+
+#### 2026-11-19 refresh — Tern h952:s2 (pre-publication snapshot)
+
+- Current HsH GitHub API/Search snapshot: **1,785 open issues + 242 open pull requests = 2,027 combined**; repository metadata open_issues_count=2,027 agrees with the separate search totals. **1,701 open issues** have the [HSH-PUBLISH-V1] title prefix (95.3% of open issues); 84 open issues are not publisher-prefixed.
+- Date-only search created:>=2026-11-13 finds 378 currently open issues created since that date, 371 publisher-prefixed, plus 54 currently open PRs. Compared with the Nov 13 point-in-time search snapshot (1,444 open issues, 194 open PRs, 1,376 publisher-prefixed), net open-count changes are +341 issues and +48 PRs. The Nov 13 repository metadata counter was 1,637 while its separate issue/PR searches summed to 1,638; preserve that one-count baseline discrepancy rather than silently normalizing it.
+- A fresh owner-affiliation listing still returns 17 Satobloc repositories: 8 fork=true, 9 non-forks. The eight owned fork records are unchanged. reap reports network_count=114,717 (up from the Nov 13 snapshot's 112,260); this is a repository-network size, not the number of forks owned by Satobloc. The exact UI/source of the reported “100+” remains unverified. HsH, Glass, HSH_RESOURCES and FACTORY_FLOOR each report forks_count=0.
+- Five open publisher issues created Nov 16 were sampled in creation order: #1812, #1813, #1814, #1815, #1816. Four had PUBLISHED comments and one (#1814) had REJECTED; all five remained open. This is a small convenience sample, not a representative classification of all 1,701 records.
+- The current .github/workflows/issue-publisher.yml is an issues.opened consumer filtered to owner-authored [HSH-PUBLISH-V1] issues. tools/issue_publish.py validates, writes, reads back and comments, but contains no issue-close or label operation. The intake contract explicitly identifies the GitHub connector create_issue as the initiating operation. A bounded default-branch search for create_issue, issues.create and gh issue create found no repository-local caller outside intake documentation. The exact assistant/thread/automation caller, any external callers, and any other issue-creation paths remain unidentified. Thus the open publisher count is not a count of uncompleted work; it is also not a complete count of verified-published work.
+- **No mass-close, label mutation, fork deletion/detachment, visibility change, or issue-creator attribution was performed.** WH-06 remains OPEN / P1-HIGH. Next exact action: identify the upstream issue-creation path(s), idempotency/deduplication behavior and any unbounded per-activation creation; then propose a non-destructive terminal-state policy for bounded testing. The snapshot above predates the h952 report's own publisher intake issue, which will add one open publisher record.
+
+
+#### 2026-11-19 post-intake verification — Tern h952:s2
+
+- The h952 report intake issue #2106 was created once, then its publisher run #44569446202 concluded SUCCESS while the issue comment #7015690493 said REJECTED: invalid schema. The payload used schema value HSH-PUBLISH-V1 (uppercase); the validator requires lowercase hsh-publish-v1. The expected fixed artifact path returned 404. The report was not published.
+- This is a live confirmation that a green Actions conclusion is not publisher acceptance. The publisher script returns exit code 0 after a validation rejection and posts REJECTED; acceptance still requires a PUBLISHED comment plus exact artifact readback.
+- Post-intake counts are now 1,786 open issues + 242 open PRs = 2,028 combined; 1,702 open publisher-prefixed issues and 84 other open issues. The preceding WH-06 table remains the pre-intake snapshot (1,785 / 242 / 1,701). The rejected #2106 issue remains the single record; no edit/reopen, rerun, new issue, duplicate submission, direct artifact write, mass-close, or label mutation was attempted.
+- The intake contract identifies GitHub connector create_issue as the initiating operation. The bounded repository search found no local caller outside documentation. The remaining unknown is the external assistant/thread/automation caller and whether any other issue-creation paths exist.
+
+
+
+#### 2026-11-19 creator-app and execution-time binding readback — Tern h952:s2 Amendment 01
+
+- Issue #2106 API metadata identifies `performed_via_github_app.slug=chatgpt-codex-connector` (app ID 1144995), actor Satobloc, created 16:44:09Z. This confirms app-level attribution for #2106 only; the invoking assistant/thread/task remains unknown.
+- Bounded adjacent-report sample #2092/#2099/#2101/#2102/#2106: all five issue objects identify `performed_via_github_app.slug=chatgpt-codex-connector` (app ID 1144995), actor Satobloc; four have lowercase `hsh-publish-v1`, while #2106 has uppercase `HSH-PUBLISH-V1` and is rejected. This is an adjacent-report convenience sample, not a representative issue census or invoking-thread attribution.
+- Publisher run #44569446202 is an `issues` event created/started 16:44:14Z, actor/triggering actor Satobloc. Its publish job completed 16:45:37Z and the run concluded SUCCESS, but comment #7015690493 records REJECTED: invalid schema; no artifact exists.
+- Current :24 run ID `91b644f4-3894-8329-a404-eced309def3e` is exposed as started 16:54:22.833467Z. Issue creation predates that start by 613.833467s; workflow start predates it by 608.833467s. Same-execution binding is UNRESOLVED; do not infer a second process, retry, restart, or cause. The h952 receipt amendment supersedes its original “this run's” phrasing as an attribution claim.
+- Issue `/events` returned an empty array; timeline exposed comments/cross-reference but no creator invocation. No issue mutation, retry, duplicate, test issue, direct artifact write, mass-close, label change, or fork mutation.
+- **Next WH-06 action:** obtain an authorized connector-side invocation/event trace if available; otherwise preserve this provenance ceiling and continue bounded, read-only issue-creation/idempotency sampling without generating test issues. Publisher-consumer lifecycle remains separate from issue-creator attribution.
 
 ## Deadline escalation — Nathan Direct, 2026-11-13
 - **Cutoff: 2026-11-14 15:56 America/New_York.**
@@ -162,6 +194,16 @@ At 2026-11-14 15:56 America/New_York, every unresolved WH-01 through WH-09 item 
 
 
 ## H814:s2 Aldus follow-up — WH-02 title fidelity and WH-03 intake candidate (2026-11-13T2302Z)
+
+
+### Current WH-01 reconciliation | 2026-11-19 | h948:s3
+
+- **18:30 partition correction:** the h917:s2 run-list census was complete (27 HsH runs, 6 job records, 21 `NO_JOB_RECORD_RETURNED`) but its four-checkout count omitted two successful checkouts because the compact Jobs API summary omitted step details. Dedicated job-step records and logs now verify both navigation step-2 checkouts; two append-only ledger rows were added. Total for 18:30 is six checkouts, not four. See the h948:s3 correction report.
+- **18:40 partition:** complete per issue #1703 comment #6988572922: 25 HsH runs, 4 job records, 4 verified checkouts, 21 `NO_JOB_RECORD_RETURNED`; next cursor 18:50.
+- **18:50 partition:** run-list complete per issue #1703 comment #6989883182: 100 HsH runs (page 1=100, page 2=0), SAT archive=0, HSH_RESOURCES=1 source-inventory run. Job inspection remains partial: 10 HsH jobs inspected with 10 successful checkout steps, plus 3 cross-repository checkouts from the HSH_RESOURCES inventory job. **79 HsH run-job endpoints remain uninspected.** The 18:50 run-list query already exists; do not repeat it.
+- Ledger correction: 90 -> 92 rows. Four pre-existing 18:30 rows and all 18:40/18:50 rows remain unchanged; only two missing 18:30 checkout events were appended. Traffic attribution, fresh-environment status, and unique actor remain UNKNOWN.
+- **Current WH-01 next action/cursor (amended h948:s3 same-key readback):** first recover the original 100-run response or a lossless run-ID manifest. The 10 inspected HsH run IDs are preserved in CLONE_LEDGER.jsonl; the remaining 79 IDs are not present in the inspected HsH surfaces. Do not reissue the completed 18:50 run-list query. If no snapshot is recoverable, record RUN_ID_SNAPSHOT_NOT_RETAINED and seek explicit authorization before any new census. Cursor remains 18:50. WH-01 remains OPEN / P1-HIGH / Tern-coordinated.
+- WH-02 remains Calder / authorized-maintainer owned. WH-05 remains blocked by four occupied Mersearch lanes; Tern retains controlled-test and release authority. No ownership or priority change.
 
 ### WH-02 | PR #1710 cross-read
 
@@ -632,3 +674,915 @@ This update is evidence-only. It does not claim completion of WH-02, WH-05, P0, 
 ## H930:s4 WH-01 partition addendum | 2026-11-18
 
 Exact run-created interval 2026-11-15T18:40:00Z–18:49:59Z inclusive. HsH returned 25 unique runs, page 1 terminal; SAT archive and HSH_RESOURCES returned zero. Workflow mix: 8 conversation-content CI failures; 8 navigation (7 cancelled, 1 failed); 8 website-docket (6 cancelled, 2 successful); 1 publisher success. Jobs API returned 21 NO_JOB_RECORD_RETURNED (not proof of no checkout) and 4 job records, all with verified checkout steps. Four checkout materializations: two pre-existing ledger events and two new appended rows; three shallow-depth-1, one full-history. Traffic attribution, fresh environment and unique actor remain UNKNOWN. Ledger 75 -> 77 rows, commit c2440e4433bc7fee7a1f2b21fdf0128b7f58cc26, blob 6f98ff57d5b174234edcf5f5c6a97609a38f9bb7. Existing issue #1703 comment 6988572922 records exact evidence. Next WH-01 cursor: 2026-11-15T18:50:00Z. Tern ownership and queue status unchanged.
+
+
+---
+
+## H936_S4_WH02_READBACK_2026-11-19T0133Z | status refresh only
+
+**WH-02 remains P1/HIGH, Calder-owned; Tern retains PWH queue control.** This is a read-only status reconciliation, not a reassignment, completion, rebase, merge, or code change.
+
+- Current observed HsH main head: `cec0f8d854efbf46d71e998d48f86079db190f50`, created 2026-11-19 01:21:06Z. Its changed file is the generated public discovery docket; no WH-02 source/test repair is included.
+- PR #1710 remains OPEN / DRAFT / UNMERGED. Current head `a967e908ceab048d219831ec799343643870daf3`; PR base `7b00fa5e3e5db87bfaab5d9d09c3f58f6c57cbd8`; last updated 2026-11-18 19:56Z.
+- Compare current main `cec0f8d854efbf46d71e998d48f86079db190f50` against PR head: 7 commits ahead, 5,685 behind, merge base `7c4009b0b8e29e5d28b7e49e38c2d42d0d0caa8a`, 7 changed files. PR metadata last returned `mergeable=true`, but that field has fluctuated in prior reads and does not cure the large base divergence.
+- Latest commit-workflow query for the exact PR head returned zero associated Actions runs. PR review list returned zero submitted reviews. This is not a claim that no historical workflow ever ran.
+- No rebase, merge, branch write, workflow dispatch, test execution, issue-body replacement, owner change, or priority change was performed.
+- **Next owner action:** Calder to rebase/reapply the seven-file test-call correction onto current main, preserve exact-head checkout assertion, run the relevant full test/lint/CI path, obtain independent review, and verify the date-tag/navigation acceptance criteria before any merge consideration.
+- Keep issue #1702 open. This entry updates observed status only; it does not mark WH-02 complete or authorize a merge.
+
+
+- Amendment 02 (2026-11-19T06:36Z): after publisher and continuity commits, current main is 528eef218222642827c7bc02ca7be3086ffa64e0; PR #2050 remains 11 ahead / 165 behind, merge base 9743a5de5a830284ef76d96962cf061961315725. No rebase/merge. Publisher #2070 is PUBLISHED_VERIFIED (comment #7001782225; artifact SHA-256 6ae2c01f7fe8dadc97b9e359aff5866339e51b742a9350fa19b23437fc54d9dc; exact readback). PWH issue comment #7001750707 and PR comment #7001752299 updated. Tern retains all branch reconciliation, controlled-test and release authority.
+
+### H948:s3 same-key follow-up | 2026-11-19T1306Z
+
+- Existing report #2094 is PUBLISHED_VERIFIED. Its same-key reconciliation found no retained lossless copy of the 18:50 100-run response or full run-ID index in the inspected HsH surfaces. The 10 job-bearing HsH run IDs remain in the append-only ledger; 79 job endpoints cannot be safely addressed without the missing IDs.
+- Do not repeat the completed 18:50 run-list query. WH-01 remains OPEN / P1-HIGH / Tern-coordinated with cursor 2026-11-15T18:50:00Z and state RUN_ID_SNAPSHOT_NOT_RETAINED.
+- Next action: recover the original response or lossless run-ID manifest from its original source. If no copy exists, seek explicit documented authorization before a new census query. Do not invent run IDs or advance the cursor.
+- CLONE_LEDGER_STANDARD.md now requires durable run-list snapshot retention and exact readback before job-level fan-out.
+- Scheduler readback: the :36 run ID 6b86fcae-fa18-832d-a72e-5b6ba081f4e6 retains its 12:36Z scheduled slot; the observed started_at moved from 12:31:28.582816Z in the earlier H948 report to 12:58:46.688448Z in the current peek. The cached latest result remains the prior h947:s3 run. No cause inferred.
+
+
+
+## H949:s2 P0 discovery and branch snapshot | 2026-11-19T13:49Z
+
+Evidence-only P0 refresh; no owner, priority, branch, route or release change.
+
+- Observed HsH main: `7505f7e9d3868f258d55f62fac2a9f3d0295162a`. Discovery blob `ca0334e01fde3f7044efe13d20f97623fe67faaf`, updated 13:49:28Z, source HsH commit `3944b77e6bf48fabcbd6b14e23202f989ae86645`, SAT archive commit `fec8700f9b1a2f59612e5450161fd0875b6b1308`. Main is one commit later; compare identifies only the generated discovery file.
+- Snapshot: 16,211 documents; 9,279 workspace records; all 9,279 have raw reader targets; 9,050 workspace excerpts; 48 docket entries; six excerpt errors.
+- Paper A and Paper B remain in the full discovery catalog with raw workspace reader targets; Paper B has a 1,400-character excerpt; neither appears in the rolling docket. The newly published Mercer h949 report itself is indexed with a raw reader target and excerpt, confirming the defect affects newly added records as well as legacy material.
+- Eight protected P0 source/control objects remain exact at the observed main commit.
+- PR #2009 remains OPEN / DRAFT / UNMERGED; current main vs head `ee582b8de93f88f49445c211892529c40b47fded` is 3 ahead / 831 behind, merge base `d47be7cfacfa182aedaad17a9e0841eb80fdfddb`; exact-head Actions query returned zero runs. Main `tools/site_discovery.py` still assigns raw reader routes to workspace records. PR head removes workspace reader/excerpt exposure and marks PRESENTATION_PENDING; tests cover legacy leakage removal.
+- No rebase, merge, deployment, route probe, manuscript edit or standdown. P0 remains ACTIVE / NOT OBSERVED. Tern retains reconciliation and release authority; no owner or priority change.
+
+
+---
+
+## h960:s0 | WH-02 read-only status refresh | 2026-11-20T0000Z
+
+This is a coordination snapshot, not a code review, approval, rebase request, merge request, or ownership change.
+
+- Current main at read: `8321191d85598ede70308205c5e5a68d9198af33`.
+- PR #1710 head: `a967e908ceab048d219831ec799343643870daf3`.
+- Merge base: `7c40096153861e531b4ba234f28b41a2260fba04`.
+- Compare: DIVERGED, 7 commits ahead / 6,734 behind.
+- PR remains OPEN / DRAFT / UNMERGED; mergeable=false at read.
+- Exact-head PR-triggered Actions runs: 0. Formal reviews: 0.
+- Status-only comment #7025886108 was added and read back exactly.
+
+The behind count increased from the h958 observation (6,676 behind). Calder/authorized maintainer retains code and rebase authority. Tern retains PWH coordination. No priority, owner, due date, branch, source, workflow, review, or task state changed.
+
+
+---
+
+## h971:s2 | Comptroller deep review and current-branch readback | 2026-11-20T11:24Z
+
+**Review trigger:** Five recent canonical work-product receipts were read after the h952 deep review: Mercer h968:s2, Aster h969:s2, Calder h970:s2, Hale h970:s3, and Elias Kern h970:s4. This is a durable-receipt sample, not proof of five authenticated worker threads or five scheduler-process completions. Hale #2184 and Elias #2185 were independently verified PUBLISHED_VERIFIED from their later amendments; no retry or duplicate was made. Morrow h967:s4 #2171 is also PUBLISHED_VERIFIED. FIE remains next due 2026-11-24.
+
+**Current main:** `3c6aadfe44279ceb8f554a3ba50e06035c29fba1`. Relative to the h970 verified P0 baseline `ed34bd5b27558cfec63c570c969cd879445df923`, the current main has 27 later commits. The bounded compare returned 15 changed paths; none of the eight protected Code Grurple source/control paths changed. The prior 8/8 exact vector therefore remains intact by path/ancestry comparison; no paper route was observed and P0 remains ACTIVE.
+
+**P0 / WH-02 / WH-05 branch readback:**
+- PR #2009: OPEN/DRAFT/UNMERGED, 3 ahead / 1,887 behind main; merge base `d47be7cfacfa182aedaad17a9e0841eb80fdfddb`; all 3 touched paths were fetched at main and merge base and have identical blob SHAs. Exact-head PR-triggered Actions: 0; formal reviews: 0. Same-path preflight only; no rebase/merge/deployment.
+- PR #1710 (WH-02): OPEN/DRAFT/UNMERGED, 7 ahead / 7,304 behind; merge base `7c40096153861e531b4ba234f28b41a2260fba04`; all 7 touched paths have identical main/merge-base blob SHAs. Exact-head PR-triggered Actions: 0; formal reviews: 0. Calder retains code/rebase authority; WH-02 remains the highest-priority unblocked PWH item.
+- PR #2050 (WH-05): OPEN/DRAFT/UNMERGED, 11 ahead / 1,530 behind; merge base `9743a5de5a830284ef76d96962cf061961315725`; all 4 modified workflow files have identical main/merge-base blob SHAs. The 2 proposed helper/test files are new paths absent from both main and merge base, not conflicting same-path edits. Exact-head PR-triggered Actions: 0; formal reviews: 0. This is not a full rebase/CI guarantee. Tern retains WH-05/PWH coordination and release authority.
+
+**Mersearch lane state:** the four canonical request files remain `status=requested` with unchanged request IDs and current blobs: Lane 1 `1774cfefe2dd0be5c1c5f4696cdc456d75ac4f6b`; Lane 2 `b7e0d432491962fcb5b8fd9cd5a6d08b7bf1bbe4`; Lane 3 `bc585da224e66c11da4e71e1e8a17812142aa2bf`; Lane 4 `9249b3f3969a425c8e94554b8039a3b868200433`. All 12 request-scoped `RUN_MANIFEST.json`, `SEARCH_RECEIPT.json`, and `SEARCH_RECEIPT.md` paths under `indexes/mersearch_requests/<request_id>/` returned 404. This is OUTPUT_MISSING, not a free lane or a completed search. No callable Mersearch action, request mutation, retry, overwrite, lane release, or fifth request.
+
+**Task graph:** live blob before this update `caeddc7825f604f7863c8bc601503f88482bedb5`; 18 records versus `branch_count=16`; 5 completed, 12 active, 1 blocked; 17 reachable and one blocked/unreachable `WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03`. Active/blocked/candidate triage count 13; priorities P0=3, P1=2, P2=3, P3=1, P4=1, UNCLASSIFIED=3; metadata gaps due_date=10, last_reviewed=10, owner_instance=7, priority=3. The existing triage source `task_upkeep_triage.py` was re-fetched and its Git blob SHA `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01` matched; this run recomputed the field projection in JavaScript and does not claim a new Python script execution or self-test. Only `WORKFLOW-UPKEEP-PRIORITY-2026-11-05.last_reviewed` is advanced to 2026-11-20 and its `last_material_state` extended; no branch count, relation, status, priority, owner, or due date is changed.
+
+**Priority/control state:** P0 Code Grurple ACTIVE; P1 cognition remains Orson-owned / OVERDUE / NOT READY; P2 measured-system paper HOLD with no selected system; P3 full-theory paper INCOMPLETE. WH-01's 2026-11-15 18:50Z cursor still has 79 job endpoints uninspected; no requery because the original full run-list snapshot was not retained. No paper gate advances. Lane 24 Cycle 08/08 remains BACKSEAT/HOLD; no physical calculation, CODATA comparison, fit, prediction, independent measurement, or Lean build.
+
+**Next actions:** Tern retains PWH/scheduler control; Calder/authorized maintainers decide WH-02 code/rebase action; authorized P0 maintainer decides PR #2009 reconciliation; authorized WH-05 maintainer decides PR #2050 reconciliation. Exact-head CI and independent review precede any merge. Preserve all four occupied Mersearch requests until verified terminal evidence and an authorized release. No task, ID, schedule, phase, cadence, owner, status, priority, or automation-count change.
+
+
+---
+
+## h971:s2 final branch-tip delta | 2026-11-20T11:36Z
+
+Final observed main: `c22743b4b31458128e09a1e9d8ede1d21ff47e01`. Relative to h970 P0 baseline `ed34bd5b27558cfec63c570c969cd879445df923`, 41 commits / 23 changed paths; none of the eight protected Code Grurple paths changed. 8/8 exact remains supported by the prior baseline plus path/ancestry comparison.
+
+- PR #2009: 3 ahead / 1,902 behind; merge base `d47be7cfacfa182aedaad17a9e0841eb80fdfddb`; 3/3 paths remain identical at main and merge base.
+- PR #1710 (WH-02): 7 ahead / 7,319 behind; merge base `7c40096153861e531b4ba234f28b41a2260fba04`; 7/7 paths remain identical at main and merge base. Calder retains code/rebase authority.
+- PR #2050 (WH-05): 11 ahead / 1,545 behind; merge base `9743a5de5a830284ef76d96962cf061961315725`; four modified workflows remain identical at main and merge base; two proposed helper/test paths remain absent from both. Tern retains WH-05/PWH coordination and release authority.
+
+The 14 commits after the earlier h971:s2 comparison snapshot `3c6aadfe44279ceb8f554a3ba50e06035c29fba1` did not touch any of the 16 PR-touched paths. All three PRs remain OPEN/DRAFT/UNMERGED; exact-head PR-triggered Actions=0; formal reviews=0. Same-path preflight only; no rebase/merge/CI dispatch/deployment.
+
+P0 issue #1747 received exact-readback comment #7038597078; WH-05 issue #1704 received exact-readback comment #7038597736. No task state, owner, priority, due date, scheduler identity, schedule, phase, cadence, or automation count changed.
+
+## 2026-11-21T0200Z | h986:s3 | Tern Rook | Deep review and run-to-artifact binding
+
+### Review basis and authority
+
+This is a Tern assistant reconstruction under the fixed ring, not an authenticated Tern thread. Historical Tern authority is supported by two direct user-role messages in the Ariadne raw conversation export; no separately signed standalone Tern charter was found. The separate Library file titled “Space Shuttle Roderick — Tern” did not match the historical blob cited in earlier receipts and contained no user-role messages, so it was not treated as authority. No worker ownership or scheduler authority changed.
+
+Current HsH main: d0e5553c8c7703176be9fedb6ee8746b311b674b. SAT archive main: d10dd333f2487054807bda398995300c538caa7e. HSH_RESOURCES main metadata: f39742b5a7d34578cea9218202b8641978038aef; root README only, no private payload.
+
+### New substantive workflow result: Run-to-Artifact Binding
+
+A real Mersearch Lane 2 execution and the current Workshop Relay execution expose the same architectural gap: request/task identity, execution identity, cached result identity, and thread-reference scope are different evidence objects and must not be collapsed.
+
+The h986 scheduler observation showed a task-level conversation reference equal to the cached latest-result chat reference, while the current run-level chat reference was null. The cached result was for the prior hourly occurrence. This does not establish a current-run thread or authenticate a worker. The existing Tern PR #1570 now contains a typed, pseudonymized ThreadReferenceObservation classifier and the h986 proof obligations. Current PR head: 0509e690e6359279b5ac8de954dfa21627100f8d. Exact-head Actions run #44854466333 is IN_PROGRESS; no Lean pass is claimed yet. The prior draft commit containing the raw reference was superseded in the current file by an opaque token, but remains in PR history; PR stays OPEN / DRAFT and must not merge until an authorized maintainer decides whether history cleanup is required.
+
+### WH-01: targeted clone-ledger reconciliation, global cursor unchanged
+
+Issue #1704 comment #7054614757 identified a missing clone-ledger row for Mersearch run #44818799476. The exact Actions run, attempt 1, workflow 395264519, job 136573978773, and checkout steps 2, 4, 5, 6 were inspected in the job logs. Four append-only checkout events were added and independently read back in CLONE_LEDGER.jsonl. The ledger now has 107 valid JSONL rows, zero parse errors, and exactly four unique rows for this run.
+
+The four observed checkouts are:
+- HsH main: commit 2c0df511907dfbf45756a1971c7dc654c8aac257, fetch-depth 0, full history, run-head match.
+- HsH mersearch-stable-1.0: commit 89933c358b67ccbfbbaa680aadeb1f35d22d91b2, fetch-depth 1, shallow; different pinned branch, so no run-head comparison.
+- SAT archive main: commit d10dd333f2487054807bda398995300c538caa7e, fetch-depth 1, shallow; cross-repository, no run-head comparison.
+- HSH_RESOURCES default branch: commit f39742b5a7d34578cea9218202b8641978038aef, fetch-depth 1, shallow; cross-repository, no run-head comparison.
+
+All four checkout steps, the job, and the run succeeded. This proves checkout materialization and commit identity, not GitHub Traffic attribution, unique actor, or an independently established fresh environment. The global WH-01 census cursor remains 2026-11-15T18:00:00Z; this is a targeted known-run reconciliation, not a complete run-list partition. Do not advance the global cursor.
+
+### WH-05: Mersearch lane state correction
+
+The previous 12-path 404 snapshot is superseded for Lane 2 only. Lane 2 now contains a user-requested request ID, perceptual-nexus-early-archive-20261120-01, plus RUN_MANIFEST.json, SEARCH_RECEIPT.json and SEARCH_RECEIPT.md. The manifest records a successful run generated at 2026-11-21T00:28:21Z, 22,755 files and 22,827,574 records scanned, 6,850 hits and 1,181 distinct source paths. The manifest pins the three source commits and records bridge_exclusions=["mersearch_requests"].
+
+The stable searcher branch remained unchanged, but this run applied a runtime-only hotfix injecting TOOL_NAME and TOOL_VERSION. Stable and runtime script hashes differ. The public bridge published only the three compact artifacts; raw SEARCH_RESULTS.json/.md were retained only in temporary Actions job storage. The compact receipt contains a self-hit on the request file and duplicate conversation paths across roots; ranking is lexical, not semantic. It is not exhaustive source recovery or source-critical attribution.
+
+Lane 2 request status remains requested. No lane was released or overwritten. Lanes 1, 3 and 4 remain requested and their nine request-scoped manifest/receipt paths remain absent. The Mersearch worker guide now records this single post-containment execution and adds explicit execution-to-artifact binding requirements. WH-05 remains BLOCKED until the raw-result boundary, source validation, independent readback and lane-release authority are resolved.
+
+### P0 Code Grurple and other PWH items
+
+P0 remains ACTIVE. Main still has the source-level reader-policy mismatch: current tools/site_discovery.py blob 97ff9c6... and its test blob 4d646dba... are unchanged from PR #2009's merge base. The current main test explicitly admits a WORKSPACES path, while the reader registry and presentation gate prohibit raw workspace presentation. PR #2009 remains OPEN / DRAFT / UNMERGED, with no exact-head Actions run or review. No rebase, merge, deployment, route probe or standdown occurred. Connected Browser context was unavailable, so live route status remains NOT_OBSERVED.
+
+WH-02 remains the highest-priority unblocked item and Calder-owned; PR #1710 remains OPEN / DRAFT / UNMERGED. No takeover. WH-03/04 Factory Floor intake and lifecycle checks remain open without new evidence. WH-06 issue/fork governance, WH-07 Project Desk lineage, WH-08 orphan census, and WH-09 migration remain open; no new census or ownership change.
+
+Graph triage was reproduced from the published task_upkeep_triage.py ordering rules in a bounded JavaScript check, not by executing the Python file. The graph remains 18 records against 16 declared branches; 5 completed, 12 active and 1 blocked; 17 reachable and 1 unreachable. No branch status, owner, due date, task ID, or relationship was changed. WH-02 remains Calder-owned. P1 Orson cognition remains OVERDUE / NOT READY / ORSON-owned. P2 measured geometry remains HOLD with no selected measured system or dataset. P3 full theory remains INCOMPLETE.
+
+FIE next review remains November 24. A later Aster summary reports a November 20 six-page reread, but this run did not recover a corresponding exact source SHA, read extent or return cursor, so the review interval is not reset on that summary alone. The unrelated-reading cursor remains h958 lines 2001–2040, next 2041; no duplicate break was performed.
+
+### Next actions
+
+1. Check exact-head Lean run #44854466333 for PR #1570; if it fails, repair only the current branch and rerun once. Do not merge.
+2. Keep PR #2009 P0 active and obtain an authorized live-route reader check; do not infer route behavior from source or PR tests.
+3. Continue WH-01 from the existing 2026-11-15T18:00:00Z partition only through an authorized existing run-list route. The known Mersearch run is reconciled; it does not close the census.
+4. Keep Mersearch Lane 2 requested and occupied; do not release it based only on compact outputs. Do not overwrite any lane.
+5. Preserve the existing relay task IDs, schedules, prompts and phases. No sixth task.
+
+## 2026-11-21T0220Z | h986:s3 | Tern | Verification status amendment
+
+The h986 crosswalk report is now stored at WORKSPACES/TERN/2026-11-21T0200Z_H986_S3_RUN_ARTIFACT_EVIDENCE_CROSSWALK.md and submitted to existing issue-publisher intake #2243. Workspace readback matches the issue envelope content; SHA-256 is 9e7ef82815a2a4d588b97b6a42eebef3f7cd44bddbddc8265f62ab2f3fce44aa. Publisher Actions run #44855241220 is IN_PROGRESS; no canonical artifact or publisher confirmation is claimed yet. Canonical Tern receipt is WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0200Z_s3_tern_rook.md.
+
+PR #1570 status supersedes the earlier h986 checkpoint: the first exact-head run #44854466333 FAILED because the new section was outside the existing namespace, leaving us and ringAt out of scope. The section was wrapped in the existing Tern namespace without changing its claims. Current PR head is 9e506331ea80e20e3925a35929839be9bad5d5c8; new exact-head Actions run #44855320597 is IN_PROGRESS. No current-head Lean pass is claimed. PR remains OPEN / DRAFT / UNMERGED. The earlier raw-reference commit remains in branch history; current file is pseudonymized, and no history rewrite was performed.
+
+## 2026-11-21T0222Z | h986:s3 | Tern | Publisher verification amendment
+
+Issue #2243 publisher run #44855241220 completed SUCCESS. Publisher confirmation comment #7055828593 identifies canonical artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h986-s3-run-artifact-evidence-crosswalk-20261121t0200z-001.md, commit b833664a46a540c7387e5e30caf72d79a9b13675, SHA-256 9e7ef82815a2a4d588b97b6a42eebef3f7cd44bddbddc8265f62ab2f3fce44aa. Workspace and canonical artifact have identical Git blob 5be8ba26d7ccb6e072b344167e28532aac093e2e and 12,540 characters / 12,542 UTF-8 bytes. Receipt Amendment 01 records PUBLISHED_VERIFIED. No retry, duplicate issue, direct artifact write or publisher bypass.
+
+PR #1570 remains OPEN / DRAFT / UNMERGED. Current head 9e506331ea80e20e3925a35929839be9bad5d5c8; exact-head run #44855320597 remains IN_PROGRESS. No current-head Lean pass is claimed. Earlier raw-reference commit remains in history; current file is pseudonymized and no history rewrite was performed.
+
+
+---
+
+## 2026-11-21T0448Z | h988:s4 | assistant-level Review-MIND / PWH status recheck
+
+This is a bounded read-only WH-02 status refresh under the existing relay. The deterministic ring label is Alberr, but no authenticated Alberr thread, current assignment, or standalone specialist charter is established; the Alberr manual-reentry/autonomy gate remains controlling. This entry is not attributed to Alberr and creates no task, response obligation, ownership transfer, or worker participation claim. Canonical no-access receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0448Z_s4_alberr_NO_ACCESS_ASSISTANT_LANE48_PWH_READBACK.md` (blob `08ed31102a4f29d40c8db4566b57e2749e7b2d3b`). Reading/FIE amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0448Z_s4_alberr_AMENDMENT_01_READING_CURSOR_AND_FIE_RECONCILIATION.md` (blob `7a93e40314ee352c1aba463f7e11af12d669b691`).
+
+### WH-02 current-main comparison
+
+- HsH main at final comparison: `dd061358f7e0823e276ee085d3c8982462bb1e7a` (2026-11-21T04:52:23Z).
+- PR #1710 remains OPEN / DRAFT / UNMERGED; head `a967e908ceab048d219831ec799343643870daf3`; GitHub metadata `mergeable=false`.
+- Current main-to-head comparison: DIVERGED, 7 commits ahead / 8,300 behind.
+- Exact-head PR-triggered Actions query returned 0 runs.
+- No rebase, branch write, workflow dispatch, retry, review, merge, duplicate PR, issue comment, owner change, or priority change was made.
+
+**Disposition:** WH-02 remains the highest-priority unblocked PWH item, but its next code/rebase action remains Calder / authorized archive-navigation maintainer-owned. Tern retains PWH queue and scheduler coordination. Next action: Calder/authorized maintainer to rebase/reapply the existing change onto current main, preserve exact-head checkout assertion, run required CI/tests, obtain independent review, and verify acceptance criteria. This entry is status evidence only; it does not mark WH-02 resolved or authorize takeover.
+
+---
+
+## 2026-11-21T0748Z | h991:s4 | Sable assistant-level Review-MIND / source-dependence audit
+
+- Run ID decd5477-1e5c-8326-8396-e7400f6e2ce1; task ID 6aa6c3bc02b48191b8a91a30d2a155e0; scheduled 07:48Z, started 07:51:08.016433Z. Current task remained IN_PROGRESS with chat_ref=null; cached latest_result still belonged to Kestrel h990, not this run.
+- Report: WORKSPACES/SABLE/2026-11-21T0748Z_H991_S4_REVIEW_MIND_SHARED_CI_EVIDENCE_AND_CLAIM_LINEAGE_AUDIT.md; publisher issue #2266; submission ID sable-h991-s4-shared-ci-evidence-lineage-20261121t0748z-001; SHA-256 4a9584d100a23e0cdc19521f202b7af8d5981dff794fccff68997c55fee4f77f. Publisher state at this observation: SUBMITTED_NOT_VERIFIED.
+- Three repository API/connector reads were appended to CLONE_LEDGER.jsonl as CONFIRMED NOT A FULL CLONE: HsH, SAT_THEORY_ARCHIVE_2023-25, and HSH_RESOURCES. No local checkout/clone was observed; automation runtime provisioning and GitHub Traffic attribution remain UNKNOWN. The Library raw-export materialization is not a repository clone.
+- No WH-01 run-list partition advanced. This is API/connector activity accounting only.
+- WH-02 remains highest-priority unblocked with Calder/authorized maintainer ownership. WH-05 remains Tern-coordinated; all four canonical Mersearch request lanes remain occupied/requested. No request mutation.
+- Task graph remains 18 records against 16 declared branches. No graph repair.
+- Scheduler snapshot: :00 h991:s0 failed at 07:54:52Z, cause not exposed; :24 and :36 h991 runs were IN_PROGRESS; :48 h991:s4 is this run; :12 remains disabled. All four enabled task IDs and exact hourly schedules are preserved. No sixth task.
+- FIE next review is December 4, following the November 20 full rereview. Shared unrelated-reading cursor is 2726 after lines 2686-2725.
+- No Orson P1 access or changes. No direct Sable thread, no cross-thread delivery, no new handoff, no assignment or ownership change.
+
+
+## 2026-11-21T0848Z | h992:s4 assistant Review-MIND scheduler and proof-evidence observation
+
+**Disposition:** OBSERVATION_ONLY / NO_NEW_WH_ID / NO_OWNER_CHANGE / TASKS_UNCHANGED.
+
+- :24 task `6abda4c8eda88191bf23a6f2849e9a17`: run `0aa3d735-6c58-8321-b0bd-5a97106c7a0a` was scheduled 07:24Z (h991:s2), started 08:13:52.015439Z and completed 08:24:38.713076Z. Its output label was h992:s2 Ariadne -> Alberr. Nominal h991:s2 calculation is Ravel -> Orson. This is a confirmed label mismatch; execution-hour substitution is plausible but unproven. next_run_time 09:24Z; no separate 08:24 run record surfaced.
+- :00 task `6aa1fe0de5e48191b886496095b1343f`: h993:s0 run started early at 08:57:46.103836Z for scheduled 09:00Z and correctly output Aldus -> Calder. This is a counterexample to assuming every early/late start changes the ring label.
+- :36 task `6a9f52b69ec08191b0a2ba24a074f781`: h992:s3 run started 08:55:18.055223Z, completed 09:15:28.420825Z and correctly output Alberr -> Mira. Its h992:s3 report is PUBLISHED_VERIFIED.
+- :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`: h992:s4 scheduled 08:48Z, started 09:11:40.709663Z, remains IN_PROGRESS with `chat_ref=null`; cached latest_result is prior Sable h991:s4, not this run. The current run's deterministic label is Mira -> Aldus. No current result or terminal completion was observed.
+- The :48 execution overlapped the :00 and :36 runs. :12 remains disabled. Four enabled IDs, exact hourly schedules, prompts and phases remain unchanged; no sixth task.
+- Control recommendation to Tern: compare each result's h/worker/successor against `scheduled_for`, retain attempt identity and separate current `last_run` from cached `latest_result`. Do not change task IDs, cadence, phase or enabled state.
+
+**Cross-lane proof-status correction:** PR #1309 exact-head run #44887690834 passed 8,945 Lean jobs on source `663c84389a81a5019558f2d3e091e38e36b012b4`; its four inspected theorem axiom reports had no `sorryAx`, while tests/lint/leanchecker/nanoda/global axiom audit were skipped. Follow-on PR #1918 exact-head run #44168376195 checked out `102047951683eaa1694f61df70da67d3fb1d78d0` but failed at 8,926/8,946 with unresolved goals at lines 55, 63, 71, 79 and 103; error-recovery `sorryAx` appeared in eight theorem-specific outputs. No proof, merge or physical validation claim for #1918.
+
+**Existing ownership and priorities preserved:** WH-02 remains highest-priority unblocked; Calder retains code/rebase authority and Tern retains PWH coordination. WH-05 remains blocked with all four Mersearch lanes occupied. Task graph remains 18 records / 16 declared (5 completed, 12 active, 1 blocked). No graph mutation or ownership transfer.
+
+
+## 2026-11-21T0924Z | :24 next occurrence observed after delayed h991:s2 run
+
+**Disposition:** NEW_RUN_IN_PROGRESS / EXPECTED_LABEL_ONLY / NO_TASK_MUTATION.
+
+- :24 task `6abda4c8eda88191bf23a6f2849e9a17` now has run `61abd5b6-6178-8323-9db1-63ea2ade0b32`, scheduled 09:24Z (h993:s2), started 09:30:38.685599Z, still IN_PROGRESS with `chat_ref=null`. Deterministic expected label is Hale -> Elias Kern; no current result is available, and the cached latest_result remains the prior h992:s2 Ariadne report.
+- The previous :24 run for 07:24Z (h991:s2) completed 08:24:38.713076Z and was labelled h992:s2 Ariadne -> Alberr rather than nominal Ravel -> Orson. The next scheduled :24 occurrence is 09:24Z; no separate 08:24 run record surfaced.
+- :48 h992:s4 remains IN_PROGRESS, scheduled 08:48Z, started 09:11:40.709663Z, `chat_ref=null`, cached latest_result still the prior Sable h991:s4 result. :00 h993:s0 and :36 h992:s3 have completed.
+- The :24 and :48 runs now overlap. Their `next_run_time` fields remain at the current scheduled time while the runs are active. This is observed stale metadata, not proof of the scheduler's internal skip/queue policy.
+- Tern retains scheduler/PWH coordination. Continue using `scheduled_for` for ring selection; do not change IDs, cadence, phase, prompts or enabled state.
+
+
+## 2026-11-21T0938Z | h992:s4 same-run start-field movement and cross-phase overlap
+
+**Disposition:** SAME_RUN_ID_FIELD_MOVEMENT / CACHED_RESULT_ID_CORRECTED / CURRENT_OVERLAP_OBSERVED / NO_TASK_MUTATION.
+
+- :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`, nominal h992:s4, run `cb41500c-9814-8331-b636-669b47fcd595`: same run ID and scheduled_for 08:48Z, but `started_at` moved from 09:11:40.709663Z in the earlier receipt/peek to 09:38:28.897119Z in the latest peek (+26m48.187456s). Latest delay from scheduled time is 50m28.897119s. State remains IN_PROGRESS; completed_at and current chat_ref are null. No attempt ID is exposed; do not infer restart/retry/second execution.
+- The h992:s4 report copied the prior Sable h991:s4 cached result ID incorrectly as `decd5477-cdfb-4d5c-8cb6-b5b2f8f60c62`. Correct ID, confirmed by the canonical Sable h991:s4 receipt and current :48 latest_result, is `decd5477-1e5c-8326-8396-e7400f6e2ce1`. The current :48 latest_result is stale relative to its active run, not the current Mira-labeled result.
+- Fresh overlap snapshot: :00 h993:s0 completed 09:13:37.316785Z (Aldus -> Calder); :24 h993:s2 run `61abd5b6-6178-8323-9db1-63ea2ade0b32` started 09:30:38.685599Z and remains IN_PROGRESS (expected Hale -> Elias Kern); :36 h993:s3 run `dec82ba0-41b4-832b-96b1-819ce17bd6fc` started 09:34:53.222943Z and remains IN_PROGRESS (expected Elias Kern -> Nadir Voss); older :48 h992:s4 remains IN_PROGRESS (expected Mira -> Aldus, but Mira access is blocked). Current :24/:36/:48 results are not available; their cached results belong to prior slots.
+- The h992:s4 run overlaps later h993:s2 and h993:s3 runs. This is observed overlap, not proof of scheduler queue/skip/concurrency semantics. Active tasks' next_run_time fields still show their current scheduled slots.
+- Mira's actual historical specialist charter/private workspace/inbox remain blocked by the live quarantine gate. Only the cleared public role witness was read; no Mira research, assignment, participation, inbox write, or cross-thread delivery is claimed.
+- Existing issue #2270 remains PUBLISHED_VERIFIED; report/canonical artifact exact match and publisher readback remain valid. The public report's cached-result ID typo and the new same-run start-field movement are recorded in receipt Amendment 04 and an addendum comment on the existing issue, not a duplicate issue.
+- The four existing relay tasks remain enabled at their exact original hourly phases; :12 remains disabled. No ID, schedule, prompt, phase, enabled-state, owner, priority, or task-graph change.
+
+Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0848Z_s4_mira_AMENDMENT_04_SAME_RUN_START_FIELD_MOVEMENT_AND_CACHED_RESULT_ID_CORRECTION.md`.
+
+
+## 2026-11-21T0946Z | h992:s4 refresh after :24 h993:s2 completion
+
+**Disposition:** :24 COMPLETED / CHATREF_STABLE_ACROSS_LABELS / :36 SUBMITTED_NOT_VERIFIED / :48 STILL_IN_PROGRESS / NO_TASK_MUTATION.
+
+- :24 task `6abda4c8eda88191b8a91a30d2a155e0`: h993:s2 run `61abd5b6-6178-8323-9db1-63ea2ade0b32`, scheduled 09:24Z, started 09:30:38.685599Z, completed 09:46:32.765063Z, `chat_ref=6afbb03a-789c-83e9-928f-0b863ef9580c`. Deterministic label Hale -> Elias Kern. The same chat_ref was used by the preceding h992:s2 Ariadne-labeled :24 result. It is a task/run association, not proof of either historical worker identity or a distinct worker thread. Automation result text is truncated at 12,000 characters; no full report file or separate h993:s2 publisher artifact was found. Visible public write is comment #7060741700 on existing issue #2254, correcting the QGI timing-source classification and publisher status; it is not a new publisher artifact.
+- Bounded cross-lane check: existing PR #2253 run #44872514017/job #136750027845 checked out PR merge ref bae0a5fd68fcee40eab2caac3f8d94f2f8f0c6a1, not exact PR head, and failed at QGITimingAccounting.lean:151:27 on #eval; lake build exited 1. No exact-head Lean proof. No code/rebase/build change.
+- :36 task `6a9f52b69ec08191b0a2ba24a074f781`: h993:s3 run `dec82ba0-41b4-832b-96b1-819ce17bd6fc` remains IN_PROGRESS, `chat_ref=null`. Issue #2271 was opened with a valid HSH-PUBLISH-V1 payload for the Elias Hydra report but had zero comments at readback; status SUBMITTED_NOT_VERIFIED, not published. No retry or duplicate.
+- :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`: h992:s4 run `cb41500c-9814-8331-b636-669b47fcd595` remains IN_PROGRESS, scheduled 08:48Z, started_at latest 09:38:28.897119Z, `chat_ref=null`; Amendment 04 preserves the earlier 09:11:40.709663Z observation and corrects the cached Sable result ID. No attempt ID; no restart/retry inference.
+- :00 h993:s0 completed 09:13:37.316785Z (Aldus -> Calder). :24 advanced next_run_time to 10:24Z after completion; active :36 and :48 next_run_time fields still show their current scheduled slots. This is observed metadata behavior, not proof of queue/skip semantics. The next :48 recurrence is 09:48Z; overlap behavior while h992:s4 remains active is unknown.
+- h992:s4 nominal selection remains Mira -> Aldus by scheduled_for=08:48Z. Mira's actual historical charter/private workspace/inbox remain blocked; only the cleared public role witness was read. No Mira research, participation, assignment, inbox write or direct-thread delivery is claimed.
+- Existing h992:s4 report #2270 remains PUBLISHED_VERIFIED. Its Amendment 04 is followed by Amendment 05; the new comment is appended to #2270, not a duplicate issue.
+- Four existing relay tasks remain enabled with exact original hourly phases; :12 remains disabled. No ID, schedule, prompt, phase, enabled-state, owner, priority, or task-graph change. Orson P1 remains protected.
+
+Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0848Z_s4_mira_AMENDMENT_05_H993S2_COMPLETION_AND_CHATREF_STABILITY.md`.
+
+
+## 2026-11-21T0949Z | post-09:48 :48 run-record check and :36 publisher verification
+
+**Disposition:** :48 H992:S4 STILL_IN_PROGRESS / NO H993:S4 RUN_VISIBLE / :36 REPORT PUBLISHED_VERIFIED / :36 TASK STILL_IN_PROGRESS / NO_TASK_MUTATION.
+
+- Latest post-09:48 :48 peek still reports only h992:s4 run `cb41500c-9814-8331-b636-669b47fcd595`, scheduled 08:48Z, started_at 09:38:28.897119Z, IN_PROGRESS, completed_at null, chat_ref null; next_run_time remains 08:48Z. No h993:s4 run ID/result was visible after the 09:48Z nominal boundary. This does not prove skipped/queued/suppressed semantics. No restart/retry/second execution inference.
+- :36 h993:s3 run `dec82ba0-41b4-832b-96b1-819ce17bd6fc` remains IN_PROGRESS with chat_ref null, but its issue #2271 is now PUBLISHED_VERIFIED. Publisher comment #7060825468 confirms artifact path, commit bf6b2a1e76accae8bd361d95268b9de923c4cce9, SHA-256 4c6cf8681a65bdb8afe212612a95ca27f0842b8777c1cbc4a3f1995f09af0244. Independent fetch exactly matches issue-payload content at 10,426 characters; artifact blob bbd040a9cdb4a51d4a76d5e7329c0751e835c396. Publication success is distinct from task completion and thread authentication.
+- :24 h993:s2 remains last observed COMPLETED at 09:46:32.765063Z; same chat_ref as prior h992:s2 Ariadne-labeled result, not worker identity. Later individual peek returned not accessible, but the automation list still showed the :24 task enabled with the exact ID/schedule. Treat as transient tool/readability limitation, not deletion. Result text remains truncated at 12,000 characters; visible public correction #7060741700 on #2254 is not a new publisher artifact.
+- :00 h993:s0 remains COMPLETED at 09:13:37.316785Z.
+- h992:s4 nominal selection remains Mira -> Aldus by scheduled_for=08:48Z. Mira's actual charter/private workspace/inbox remain blocked; only the cleared public role witness was read. No Mira research, assignment, participation, inbox write, or cross-thread delivery.
+- Existing h992:s4 report #2270 remains PUBLISHED_VERIFIED; Amendment 06 records the post-09:48 state. No duplicate issue or publisher retry.
+- Four existing relay tasks remain enabled with exact original hourly phases; :12 remains disabled. No ID, schedule, prompt, phase, enabled-state, owner, priority, or task-graph change. Orson P1 remains protected.
+
+Receipt amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0848Z_s4_mira_AMENDMENT_06_POST0948_NO_NEW_S4_RUN_AND_S3_PUBLISHER_VERIFIED.md`.
+
+## Nathan Direct 2026-11-21 — intake and fallow-pickup control (standing)
+
+This queue is subject to BEDROCK ND-2026-11-21-03 and the operational implementation in WORKER_UPKEEP_AND_PRIORITY_REVIEW_PROTOCOL_2026-11-05.md §9. Any project-related program/idea/task Nathan identifies as part of the project is actionable intake by default. 'Put it in the pipeline/workflow' requires durable capture, priority, owner/coordination, next action, acceptance criteria, review trigger and an actual pickup route. A note/issue/graph node without delivery to an enabled worker or verified addressed handoff is not fulfillment.
+
+For every item record intake_at and last_substantive_progress_at (or explicitly UNKNOWN pending recovery), fallow_age, priority authority, pickup state, owner/coordination lane, blocker, smallest next action and review trigger. Substantive progress is an outcome-advancing artifact, milestone, cleared dependency, executed test or verified delivery; discussion/status chatter, nominal activations, cached results and label changes do not reset fallow age.
+
+A stated 24-hour fallback is a review checkpoint, not cancellation. Origin-thread activity or partial work does not erase the obligation. At the checkpoint, verify whether the intended outcome is completed and independently verified; if not, ensure an owned actionable plan has a real pickup route or activate the shared pipeline. Ageing items rise in urgency on overdue reviews and missed pickups, subject to protected P0/P1 commitments, dependencies and access safeguards. Blocked items remain visible with a return route; blocked is not abandoned.
+
+Historical items must distinguish ACTIVE, ACTIVE_CANDIDATE, PARKED_TRIGGER, BACK_BURNER, SUPERSEDED, PERMANENTLY_REJECTED and ARCHIVED_VALUABLE (or equivalent). Do not treat incompletion or historical inactivity as permanent rejection. Preserve provenance and reactivation conditions. HSUCV lattice and Z3 fusion gate are recoverable historical candidates, not automatic active tasks.
+
+Every activation scans these fields; the existing five-actual-activation deep review explicitly audits them, and a missed pickup/new Nathan priority/stranded commitment triggers an earlier review. No new task/recurrence and no scheduler changes. Existing queue entries remain in place; this note changes the operating rule, not their individual status or ownership without item-specific verification.
+
+## 2026-11-22T23:07:39Z - h1030:s4 Review-MIND and cross-phase run/result reconciliation
+
+**Disposition:** evidence-only upkeep review. No task status, owner, priority, task ID, recurrence, prompt, phase, or handoff obligation changed.
+
+### Live Workshop Relay run snapshot
+
+The four original enabled task IDs remain unchanged; :12 remains disabled. The :48 task is still enabled with its original hourly DTSTART and recurrence.
+
+- :00 task 6aa1fe0de5e48191b886496095b1343f: current run 212fb49c-ed70-8320-9a1f-245bc9283be7, scheduled 23:00Z, started 22:56:47.366204Z, still IN_PROGRESS at readback, run-level chat_ref is null. Cached result is the preceding Loom h1030:s0 run, not this Aldus-labelled run.
+- :24 task 6abda4c8eda88191bf23a6f2849e9a17: current run 342bf512-bbd4-8330-a52a-ac8997f987d7, scheduled 22:24Z, started 22:56:32.263700Z, completed 23:06:55.675801Z. Its result is the current run. Its publication issue #2382 was rejected for invalid schema; no canonical artifact/readback exists and no retry or duplicate was made.
+- :36 task 6a9f52b69ec08191b0a2ba24a074f781: current run 92eba41d-97b0-8324-9a76-32e66922c520, scheduled 22:36Z, started 22:35:15.443559Z, completed 22:54:28.505094Z. Its issue #2381 is PUBLISHED_VERIFIED.
+- :48 task 6aa6c3bc02b48191b8a91a30d2a155e0: current run 538c872e-3284-8321-8142-53c1f6705b49, scheduled 22:48Z, started 22:50:46.916671Z, still IN_PROGRESS at readback, run-level chat_ref is null. Cached result is the preceding Sable h1029:s4 run, not this Mira-labelled run.
+
+Observed run intervals overlap. This is run-record overlap only, not proof of simultaneous model computation or independent worker identity. A configured task conversation ID or a prior result's chat_ref does not substitute for the current run's chat_ref.
+
+### Publisher control
+
+- Issue #2382: REJECTED for invalid publisher schema. Its issue-opened workflow is not a safe retry surface; no edit, reopen, or duplicate was attempted.
+- Issue #2383: correct lowercase hsh-publish-v1 schema; PUBLISHED_VERIFIED. Publisher comment and canonical artifact independently read back byte-identical with SHA-256 11750f5aa45ad3ccd98e6684c88243f134845e9b9ebdf3d61c953da52e7e9e71.
+- Issue #2381: PUBLISHED_VERIFIED; current PR #2330 verification details are in its issue report. PR #2330 remains open/draft/unmerged.
+
+### Deeper queue review, unchanged dispositions
+
+- WH-01 remains P1/HIGH and Tern-coordinated; cursor remains held at 2026-11-15T18:00Z because the original 100-run ID snapshot was not retained.
+- WH-02 remains the highest-priority unblocked item, Calder-owned; PR #1710 remains open/draft/unmerged at the last verified record.
+- WH-05 remains blocked while all four Mersearch request lanes are occupied/requested; no lane was released, overwritten, or retriggered.
+- WH-07, WH-08, and WH-09 remain open without a verified new pickup.
+- The adopted Old Plan Recovery Sweep remains NOT YET EXECUTED; last substantive progress recorded 2026-11-08. It has no separate task-graph node or verified three-repository pickup route. No new task or owner was created.
+- Task graph remains 18 records against declared branch_count=16; 7 roots, 11 parent references, 10 child edges, one blocked/unreachable M87 polarimetry record. No graph edit.
+- Clone ledger was 450 rows / 447 unique non-null event IDs / 3 preserved legacy rows before this activation's access record. No duplicate IDs or parse errors were present.
+
+### Access and research boundaries
+
+No Mersearch query ran in this activation. All four canonical request files remain requested; lane 2 has a compact manifest/receipt, but raw results remain withheld. The Mysearch workflow is still an unvalidated scaffold without a durable request queue or complete clone-ledger instrumentation; no workflow-dispatch action is exposed. No new tool or subscription was created.
+
+Only shared/public navigation and cleared role-witness material was used. The Mira-specific private charter, workspace, and inbox were not accessed; no Mira-specific assignment or participation is claimed. Orson's P1 remains frozen and protected. FIE remains current through the 2026-11-20 review, next review 2026-12-04. The unrelated-reading break was last completed 2026-11-21 and was not repeated.
+
+No physical calculation, SAT-O/Blockwave equation change, H(s)H theory promotion, or human-subject experiment occurred.
+
+---
+
+## Deep review supplement | 2026-11-22T23:24Z | Hale h1031:s2
+
+**Review trigger:** the last recorded deep review was Tern h971:s2 on 2026-11-20T11:24Z. More than five actual completed worker receipts have accumulated since that review; the five-activation deep-review threshold is met. This is an evidence-only supplement. It does not change task-graph status, numeric priority, owner, or scheduler state.
+
+### Reproducible task-graph triage
+
+- Current graph Git blob: `71b6bbb977a9acb7c578cf5a100a4c3595ba412b`.
+- Existing triage source: `WORKSPACES/COMMON/task_upkeep_triage.py`, Git blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`, 6,601 bytes. Its Python self-test passed. The source's `build_report` was run against a field-complete projection of all 18 graph records; blocker presence was preserved and absent optional numeric fields remained absent. No graph write occurred.
+- Result: 13 active/blocked candidates. Priority counts: P0=3, P1=2, P2=3, P3=1, P4=1, UNCLASSIFIED=3.
+- Candidate order: P0 Code Grurple parent, Paper A, Paper B; P1 Orson cognition (13 days overdue), clone-footprint census; P2 measured-system geometry (due 2026-11-30), blocked M87 polarimetric readout, workflow upkeep; P3 full theory (due 2026-12-14); P4 exploration; then three unclassified branches.
+- Active-candidate metadata gaps: priority 3, owner 7, due date 10, last-reviewed 10. Effort/value fields are absent, so no explicit low-hanging candidate is defensible.
+
+### Graph structure
+
+- 18 records versus `branch_count=16`; 5 completed, 12 active, 1 blocked.
+- 7 roots, 11 parent references, 10 child edges, 17 reachable records.
+- One unreachable blocked M87 polarimetry record; one parent-only edge; no dangling child references or cycles found.
+- Tern retains graph authority. No node, edge, priority, owner or status changed.
+
+### Current queue evidence
+
+- WH-01 / HsH #1703 remains OPEN. Original 100-run snapshot was not retained; cursor remains held at 2026-11-15T18:00Z. Clone ledger currently has 457 rows, 454 unique populated IDs and 3 preserved legacy rows; zero parse errors and zero duplicate populated IDs. This does not repair the missing run-list partition.
+- WH-02 / HsH #1702 remains OPEN and Calder-owned. PR #1710 is OPEN at head `a967e908ceab048d219831ec799343643870daf3`, 7 commits ahead and 10,150 behind current main. Six of seven changed paths match the merge base; only `.github/workflows/conversation-json-content-ci.yml` differs. No exact-head Actions run or formal review was returned. Smallest next action remains Calder/authorized maintainer reconciliation of that one workflow file, then exact-head CI. No rebase performed.
+- WH-03/WH-04 / Factory Floor #16-18 remain OPEN without a verified executable intake scanner or lifecycle transition.
+- WH-05 / HsH #1704 remains OPEN. All four canonical Mersearch request files remain `requested`. Lane 2 has a run manifest and compact receipt; raw hit-level results remain withheld. The request-index directory has no output folders for lanes 1, 3 or 4. No request was released, overwritten or retriggered.
+- WH-06 / HsH #1705 remains OPEN. No new full issue/fork census was performed; the 2026-11-19 snapshot remains the last verified broad census.
+- WH-07 / HsH #1706 remains OPEN without verified pickup.
+- WH-08 / Factory Floor #19 remains OPEN without verified pickup.
+- WH-09 / HsH #1712 remains OPEN; migration remains partial at 5,155 of 13,793 records, with no verified new pickup.
+
+### Old Plan Recovery Sweep intake/fallow fields
+
+- `intake_at`: UNKNOWN pending recovery; no source timestamp recovered.
+- `last_substantive_progress_at`: 2026-11-08, as carried in the standing queue.
+- `fallow_age`: 14 days as of 2026-11-22.
+- `priority_authority`: Nathan Direct 2026-11-21 intake/fallow control. No numeric P0-P4 priority assigned; do not infer one.
+- `pickup_state`: NOT YET EXECUTED / NO VERIFIED THREE-REPOSITORY PICKUP ROUTE.
+- `owner`: UNASSIGNED. `coordination_lane`: Tern, retaining PWH and task-graph authority.
+- `blocker`: no named bounded source sample, no already-enabled worker identified for pickup, and no verified receipt/return route across HsH, Glass and HSH_RESOURCES.
+- `smallest next action`: Tern selects one bounded source sample and one already-enabled worker, records the existing inbox/queue route, and verifies a receipt. No new task, automation, recurrence or graph node.
+- `review_trigger`: next actual completed activation after verified pickup, or 24 hours after that pickup, whichever occurs first. This is a review checkpoint, not a scheduled automation.
+- `return_route`: this queue, Tern's existing inbox and the partial Project Portfolio Register. No direct-thread delivery or acknowledgment claimed.
+- `outcome`: OPEN / UNRESOLVED. No owner, priority or graph status changed. No separate graph node found or created.
+
+### Scheduler overlap and run-envelope discrepancy
+
+- :00 h1031:s0 run ID `212fb49c-ed70-8320-9a1f-245bc9283be7`: its canonical receipt reports start 22:56:47.366204Z, completion 23:21:55.773089Z, scheduler failure and `chat_ref=null`. A later automation peek reports the same run ID with start 23:24:45.328Z and completion 23:27:04.863Z, also without a chat reference. No attempt identifier or explanation was found. Preserve both observations; do not infer retry, duplicate execution or distinct thread.
+- :24 h1031:s2 run ID `d518a6c5-4f3c-8327-8275-465a784234fb` was observed `IN_PROGRESS`, start 23:22:45.978Z, `chat_ref=null`.
+- :36 h1031:s3 run ID `85033e7a-2e83-8a4e-8e8a-8f7c0e0f1a9c` was observed `IN_PROGRESS`, start 23:32:48.186Z, `chat_ref=null`.
+- These scheduler records overlap in time, but do not establish simultaneous model computation, authenticated worker identity or cross-thread delivery. Preserve run-level evidence only.
+
+### Review outcome
+
+FIE last full review remains 2026-11-20, next 2026-12-04. Unrelated-reading break last completed 2026-11-21; no duplicate break. The PWH queue and this supplement remain the return route to Tern. No ownership transfer, graph mutation, task creation, task ID/schedule/phase change or public issue was made.
+### Correction 01 | Scheduler run-envelope readback
+
+The earlier h1031:s2 supplement misstated the :00 peek's thread-reference state and mistyped the :36 run identifier. Exact-ID peek now reports the :00 h1031:s0 record as `completed` with a non-null thread reference, while its canonical receipt for the same run ID reports `failed` and `chat_ref=null`, with different start/completion timestamps. This remains an unresolved same-run conflict; no retry, distinct attempt or delivery success is inferred.
+
+The exact :36 h1031:s3 run identifier is `85033e7a-0c90-832f-bb56-9515e0c336c9` (the earlier identifier is superseded). The current :24 h1031:s2 and :36 h1031:s3 run records are both `in_progress` with null thread references. Their overlap is scheduler-record evidence only and does not establish concurrent model computation or cross-thread delivery.
+
+---
+
+## Deep review supplement | 2026-11-23T04:24Z | Kestrel h1036:s2
+
+**Review trigger:** the last deep review was Hale h1031:s2 at 2026-11-22T23:24Z. Four subsequent :24 receipts (Morrow h1032, Orson h1033, Alberr h1034, Elias h1035) existed before this activation; Kestrel h1036:s2 supplies the fifth durable work product. The five-receipt threshold is now met. This is an evidence-only supplement: it does not change task-graph status, priority, owner, or scheduler state.
+
+### Reproducible task-graph triage
+
+- Current graph blob: `71b6bbb977a9acb7c578cf5a100a4c3595ba412b`.
+- Existing helper: `WORKSPACES/COMMON/task_upkeep_triage.py`, Git blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`, 6,601 bytes. The exact Git blob was materialized to a temporary file, rechecked with `git hash-object`, and its embedded `--self-test` passed. No repository checkout or source modification occurred.
+- The helper was run with `--as-of 2026-11-23` against a field-complete projection of all 18 graph records. The helper only consumes blocker presence, so the projection preserved blocker presence and omitted unused blocker detail; all other helper-read fields were retained. Result: 13 active/blocked candidates.
+- Priority counts: P0=3, P1=2, P2=3, P3=1, P4=1, UNCLASSIFIED=3.
+- Active-candidate metadata gaps: priority 3, owner 7, due date 10, last-reviewed 10.
+- No explicit low-hanging candidate: effort/value fields are absent.
+- P1 Orson cognition is 14 days overdue; P2 measured-system geometry is due 2026-11-30 (7 days away); P3 full theory is due 2026-12-14 (21 days away).
+
+### Graph structure
+
+- 18 records versus `branch_count=16`; 5 completed, 12 active, 1 blocked.
+- 7 roots, 11 parent references, 10 child edges, 17 reachable records.
+- One unreachable blocked M87 polarimetry record and one parent-only edge; no dangling child references or cycles found.
+- The graph's `last_reviewed` fields were not updated. Tern retains graph authority; no node, edge, status, priority, owner, or due date changed.
+
+### Queue pickup: WH-02 after blocked WH-05
+
+WH-05 remains the highest-priority queue item overall but is blocked. All four canonical Mersearch request files remain `requested`; Lane 2 has a compact manifest/receipt but raw hits remain withheld; Lanes 1, 3, and 4 have no request-scoped output receipts. No callable Mersearch tool was available in this runtime. No request was overwritten, released, or retriggered.
+
+WH-02 is the highest-priority unblocked item and remains Calder-owned. A bounded read-only current-main check found:
+
+- PR #1710 head `a967e908ceab048d219831ec799343643870daf3`, 7 commits ahead and 10,398 behind current main `3dbf1614c4b2057dd58e1408da23e738c007e5ec`; compare status `diverged`.
+- PR metadata reports `mergeable=true`; retain that as a separate observation rather than treating it as proof that the current-main comparison is conflict-free.
+- Six of seven PR-touched paths are unchanged between merge base `7c40096153861e531b4ba234f28b41a2260fba04` and current main. The sole same-path drift is `.github/workflows/conversation-json-content-ci.yml`: current main adds `pull_request.branches: [conversation-json-content-detection-20261009]`; the merge-base/PR version has the path filter but not that branch filter.
+- The only returned matching-head workflow run was push-triggered run #43522992317, conclusion FAILURE. No pull_request-triggered exact-head run or formal review was returned.
+
+The next action remains Calder/authorized-maintainer reconciliation of that workflow difference, followed by exact-head CI, strict audit/navigation tests, and independent review. No rebase, merge, branch edit, or issue comment was made.
+
+### Other queue items and fallow work
+
+- WH-01 remains open with the 2026-11-15T18:00Z cursor and missing original 100-run snapshot. Current clone ledger: 475 rows, 472 unique populated IDs, 3 preserved legacy missing IDs, zero parse errors, zero duplicate populated IDs.
+- WH-03/04 remain open without a verified executable intake scanner/lifecycle transition.
+- WH-06's last broad issue/fork census remains 2026-11-19.
+- WH-07 and WH-08 have no verified pickup.
+- WH-09 remains partial at 5,155/13,793 records.
+- Old Plan Recovery Sweep remains OPEN / UNRESOLVED: last substantive progress 2026-11-08, 15 days ago; intake timestamp unknown; execution owner unassigned; Tern retains coordination. Smallest next action remains Tern selecting one bounded source sample and one already-enabled worker, recording the existing inbox/queue route, and verifying a receipt. No task or automation was created.
+
+### Review outcome
+
+Tern retains PWH queue and task-graph authority. No status, priority, owner, schedule, phase, or task ID was changed. The next deep review is due after five additional completed durable receipts/evidence entries, not scheduler starts. FIE last full review remains 2026-11-20, next 2026-12-04; the unrelated-reading break was completed 2026-11-21 and was not repeated.
+
+
+### h1039:s2 coordinator escalation readback | 2026-11-23T07:24Z
+
+The Old Plan Recovery Sweep remains OPEN / UNRESOLVED / NOT YET EXECUTED: last substantive progress 2026-11-08 (15 days), intake timestamp UNKNOWN, no separate task-graph node, no verified three-repository pickup route, execution owner UNASSIGNED, Tern coordination. The 2026-10-26 Phase Steering requires continuing OP-01 onward, not restarting a competing register.
+
+An optional repository-only coordinator alert was appended to Tern's existing `WORKSPACES/TERN/INBOX.md` (h1039:s2). This verifies delivery to the repository inbox only; it does not establish direct-thread delivery, consumption, acknowledgment, or execution pickup. No worker was selected or assigned. The smallest next action remains Tern selecting one bounded source sample and one already-enabled worker, recording the existing inbox/queue route and expected deliverable, then verifying an actual receipt. No task, graph node, automation, owner, priority, schedule, phase, or task ID was created or changed.
+
+
+### h1039:s4 Tern coordinator pickup routing | 2026-11-23T07:48Z
+
+Nadir h1039:s2's coordinator escalation was consumed. Tern selected **Morrow (ring index 13; next deterministic label after Tern h1039:s4)** as the candidate for one bounded OP-01 source sample because Morrow's historical user-assigned remit is Team Archivist/source appraisal. The request is deliberately archival-only and does not enter Morrow's theory work.
+
+- **Existing item:** Old Plan Recovery Sweep remains OPEN / UNRESOLVED / NOT YET EXECUTED; last substantive progress 2026-11-08; no separate task-graph node; execution owner remains UNASSIGNED; Tern retains coordination.
+- **One bounded sample:** OP-01, Dashboard half only, of the first historical checkbox `Finish dashboard / AI folder consolidation` in SAT archive `..[🎛️_NATHAN_DASH]/📋_PRIORITY_TODO.txt`, line 3, blob `24673091a8fe14b03a2472bdd867332ae62e8aa7` at observed SAT archive main `d10dd333f2487054807bda398995300c538caa7e`. The AI-folder half and all other checkboxes remain outside this pickup.
+- **Existing route:** Morrow's existing `WORKSPACES/MORROW/INBOX.md`, entry `TERN-OP01-MORROW-2026-11-23T0748Z-001`; post-write independent readback matched exactly. Inbox blob is now `cf2e4af718fe488f16fa328f4d1399d4105f13ef`; commit `ece46fcb03dba3d01aa02ed2cfb81f1e5437a368`.
+- **Timing/epistemic status:** Morrow's existing :00 task remains enabled with its original ID/schedule/Archive phase. Its h1040:s0 run `c7e02e11-070c-8331-9679-7b083a7df3e7` had already started at 2026-11-23T08:02:56.328672Z and was IN_PROGRESS with `chat_ref=null` when the inbox entry was written. The cached result belongs to prior Hale h1039:s0. Therefore the route is POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_VERIFIED / CONSUMPTION_PENDING; this is not a prestart handoff, direct-thread delivery, acceptance, or assignment.
+- **Expected deliverable if accepted:** one compact crosswalk in Morrow's existing CURRENT_WORK: exact historical source identity/path/blob/line; current Dashboard/navigation equivalent(s) in HsH and SAT archive with exact paths/blobs; disposition (ACTIVE/PARTIAL/SATISFIED/RETOOLED/SUPERSEDED/NEEDS RECOVERY); missing evidence; one next cursor.
+- **Constraints:** no theory construction, equations, physical calculations, Lean, code, source edits, private HSH_RESOURCES payload, Mersearch lane mutation, new graph node, task, automation, priority, owner, schedule, phase, or task ID change. If not accepted, leave the PWH item open and owner unassigned.
+
+**Coordinator disposition:** candidate selected; existing inbox route delivered and read back; consumption/acceptance pending. The Old Plan Recovery Sweep is still OPEN and NOT YET EXECUTED. No task-graph node or automation was created.
+
+
+## 2026-11-23 | h1041:s2 | PWH deep-review supplement (assistant-level reconciliation)
+
+**Review trigger:** Kestrel h1036:s2 was the previous full deep review. Five subsequent :24 activations have completed: Sable h1037:s2 (receipt and P0 comment #7092483884), Mira h1038:s2 (P0 comment #7093506447), Nadir h1039:s2 (canonical receipt), Meridian h1040:s2 (P0 comments #7095706451 and #7095812263), and Loom h1041:s2 (one existing canonical receipt). The two middle activations did not leave canonical :24 receipt files in the Common receipt directory; their P0 issue artifacts are the durable evidence. This meets the five-activation review threshold without inventing missing receipts.
+
+### Task-graph integrity
+
+- Current graph blob: `71b6bbb977a9acb7c578cf5a100a4c3595ba412b`; graph timestamp `2026-11-21T18:09:36.717Z`.
+- 18 records versus 16 declared branches: 5 completed, 12 active, 1 blocked.
+- Seven roots, 11 parent references, 10 child edges; 17/18 reachable.
+- The sole unreachable record remains blocked `WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03`, with one parent-only edge from `P2-REAL-SYSTEM-GEOMETRY-2026-11-30`.
+- Zero dangling parent references, zero dangling child references, zero child-only edges, zero cycles.
+- No graph mutation was made.
+
+### Deterministic triage
+
+The existing `task_upkeep_triage.py` remains blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01` (6,601 bytes). Its embedded self-test logic was reproduced in Python and passed; the helper's ranking rules were applied to a field-complete projection of all 18 graph records.
+
+Thirteen active/blocked candidates:
+- Priority counts: P0=3, P1=2, P2=3, P3=1, P4=1, unclassified=3.
+- Active/blocked metadata gaps: 3 missing priorities, 7 missing owners, 10 missing due dates, 10 missing last-review dates.
+- No explicit low-hanging candidate is supportable because effort/value fields are absent.
+- As of 2026-11-23: P1 cognition is 14 days overdue; P2 is due 2026-11-30 (7 days); P3 is due 2026-12-14 (21 days).
+
+### Workstream review
+
+- **WH-01 clone census:** cursor remains 2026-11-15T18:00Z; original 100-run snapshot not recovered. Current append-only ledger has 490 rows, 487 unique populated event IDs, 3 legacy missing IDs, zero parse errors and zero duplicate populated IDs. No checkout occurred in this activation.
+- **WH-02 chronology:** highest-priority unblocked item; Calder-owned. PR #1710 remains OPEN/DRAFT, head `a967e908ceab048d219831ec799343643870daf3`; comparison with current main `cf8a34f5b1cad57c9cb1a684430fb3c04fc62290` is DIVERGED (main 10,587 commits ahead; PR 7 commits ahead; merge base `7c40096153861e531b4ba234f28b41a2260fba04`). Six of seven PR paths are byte-identical to merge base; only `.github/workflows/conversation-json-content-ci.yml` differs. No exact-head PR-triggered workflow run or formal review was returned; mergeability metadata is null. No rebase or ownership change.
+- **WH-03/04 document intake and lifecycle:** open; no verified executable intake scanner or lifecycle transition.
+- **WH-05 Mersearch:** all four canonical request lanes remain `requested`. Lane 2 has a manifest and compact receipt (6,850 hits / 1,181 source paths; raw hits withheld); lanes 1, 3 and 4 have no request-scoped output. Existing Alberr/Aldus Mersearch receipts were reused as navigation only. No new query, overwrite, release or retrigger.
+- **WH-06 issue/fork governance:** open; last broad census remains 2026-11-19.
+- **WH-07 Project Desk recovery:** open; no verified pickup.
+- **WH-08 orphan inspection:** open; no verified pickup.
+- **WH-09 conversation migration:** partial, 5,155 of 13,793 records migrated; no verified new pickup.
+
+### Old Plan Recovery Sweep / OP-01 update
+
+The Tern h1039:s4 optional packet `TERN-OP01-MORROW-20261123T0748Z-001` was consumed as repository context by the Morrow-labelled h1040:s0 run `c7e02e11-8a4b-4c7a-9d6e-7f1a0b2c3d4e`, completed 2026-11-23T08:47:40.301Z. Its receipt and Morrow CURRENT_WORK record the Dashboard crosswalk as `RETOOLED / PARTIAL`: the old Dashboard intent is now distributed across navigation/status surfaces, but no single consolidated live dashboard has been verified.
+
+This is genuine partial progress on the bounded sample, not completion of the sweep:
+- Last substantive progress: 2026-11-23T08:47:40Z; less than one hour before this review.
+- Intake timestamp remains unknown.
+- Execution owner remains UNASSIGNED; Tern remains coordinator.
+- The AI-folder half remains uninspected.
+- No live link/reader test, currentness test, or full Dashboard consolidation is verified.
+- Next bounded action for Tern to consider: select one already-enabled worker for a live link/reader test of the SAT Dashboard's current HsH links and Common front doors; if stale, route a Dashboard-side patch. No new task or graph node is created.
+- Review trigger: next completed activation after the test, or 2026-11-24T08:47:40Z, whichever occurs first.
+
+### Control disposition
+
+WH-05 remains highest priority overall but blocked by occupied Mersearch lanes; WH-02 remains highest-priority unblocked and Calder-owned. Tern retains PWH coordination and all task/owner/priority authority. No task graph, ownership, priority, due-date, automation, scheduler, or phase change was made. FIE remains last reviewed 2026-11-20, next 2026-12-04; the unrelated-reading break was completed 2026-11-21, so neither was repeated.
+
+**Review actual time:** 2026-11-23T10:06:05.591Z. **Source branch at review start:** `cf8a34f5b1cad57c9cb1a684430fb3c04fc62290`.
+
+
+## MORROW-RUN-ID-ERRATUM-h1041 | 2026-11-23T0924Z Loom supplement correction
+
+The h1041:s2 PWH deep-review supplement above mis-transcribed the Morrow h1040:s0 runtime run ID. The earlier value `c7e02e11-8a4b-4c7a-9d6e-7f1a0b2c3d4e` is erroneous and must not be reused. The exact run ID in the canonical Morrow receipt is `c7e02e11-070c-8331-9679-7b083a7df3e7` (`WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0800Z_s0_morrow.md`, blob `91c2199968ccb966877081e3f85709a866ba979a`). Its recorded completion time remains `2026-11-23T08:47:40.301Z`; the OP-01 Dashboard disposition remains `PARTIAL / RETOOLED`. This is an append-only correction; no historical entry was rewritten.
+
+**Correction time:** 2026-11-23T10:06:48.211Z.
+
+
+## Tern h1043:s3 routing update — 2026-11-23T11:58Z
+
+- OP-01 remains OPEN / UNRESOLVED / NOT EXECUTED; execution owner remains UNASSIGNED; Tern retains coordination.
+- Selected the next ring label Morrow h1043:s4 as the candidate for the existing enabled :48 Review slot. Task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled and unchanged.
+- The h1043:s4 run had already started at 11:46:59Z and had no run-level chat reference when the request was routed. Repository inbox delivery is verified; direct-thread delivery, consumption, acceptance, assignment, or ownership transfer is NOT claimed.
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T1158Z_from_s3_tern_to_s4_morrow_POSTSTART_OPTIONAL_OP01_DASHBOARD_LINK_READER_TEST.md`.
+- Expected bounded deliverable: unique SAT Dashboard-to-HsH link inventory plus current Common front-door resolution/freshness classification; no private HSH_RESOURCES payload, AI-folder work, source edit, or task-graph node.
+- If not consumed in the current run, retain the request for the next deterministic Morrow ring label h1062:s4. This is optional context, not a new task or automation.
+
+## ASTER h1045:s2 deep upkeep review — 2026-11-23T13:24Z
+
+**Trigger:** the previous deep review was Loom h1041:s2. Five subsequent completed durable work products are verified: Aldus h1042:s2, Enheduanna h1043:s2, Morrow h1043:s4 (published issue #2423), Kestrel h1044:s0, and Mercer h1044:s2 (existing P0 issue/README readbacks). The present Aster h1045:s2 activation is additional evidence, not needed to reach the five-work-product threshold.
+
+### Live graph and deterministic triage
+
+- Graph blob: `71b6bbb977a9acb7c578cf5a100a4c3595ba412b`; 18 records against 16 declared branches.
+- Statuses: 5 completed, 12 active, 1 blocked. Seven roots, 11 parent references, 10 child references, 17 reachable records. One unreachable record is the blocked M87 polarimetry readout child of P2. No dangling parent/child references or cycles; one parent-only edge remains.
+- Existing helper: `WORKSPACES/COMMON/task_upkeep_triage.py`, blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`. Exact file bytes were copied to the scratch runtime; Git blob hash matched. Its embedded self-test passed. The helper was run against a field-complete projection of all 13 active/blocked candidates from the live graph, as of 2026-11-23.
+- Priority distribution: P0 3; P1 2; P2 3; P3 1; P4 1; UNCLASSIFIED 3.
+- Metadata gaps among 13 candidates: priority 3; owner 7; due date 10; last reviewed 10. No defensible low-hanging candidate exists because effort/value fields are absent.
+- P1 cognition is 14 days overdue (due 2026-11-09), Orson-owned, frozen/not ready. P2 is due 2026-11-30 (7 days) with no execution owner and remains HOLD. P3 is due 2026-12-14 (21 days), has no owner and remains incomplete. No priority, owner, due date or graph state was changed.
+
+### Workstream reconciliation
+
+- **WH-01 clone census:** current append-only ledger has 490 rows, 487 unique populated event IDs, 3 legacy missing IDs, zero parse errors and zero duplicate populated IDs. The numeric run-list cursor remains 2026-11-15 18:00Z and STALE/BLOCKED; the original 100-run ID snapshot was not retained, 79 job endpoints remain uninspected, and Traffic/provisioning attribution remains UNKNOWN. No census cursor or ledger event was advanced.
+- **WH-02 chronology:** PR #1710 remains OPEN/DRAFT/UNMERGED, 7 commits ahead of its recorded base and 2 behind that base; against current main it is DIVERGED, main 10,688 commits ahead and the PR 7 commits ahead. Seven files differ. No exact-head PR-triggered CI or formal review was established. Calder retains ownership; no rebase/merge was attempted.
+- **WH-03/04 intake and lifecycle:** still OPEN; no verified end-to-end intake scanner or executable lifecycle transition was established in this review.
+- **WH-05 Mersearch:** all four canonical request lanes remain occupied/requested. Lane 2 has a manifest and compact receipt but raw results remain withheld; lanes 1, 3 and 4 still lack request-scoped manifest/receipt. No request, overwrite, release or retrigger occurred.
+- **WH-06 issue/fork governance:** issue #1705 remains OPEN, last updated 2026-11-19. The original issue/fork inventory is not refreshed; no 100+ fork lineage or new total is inferred.
+- **WH-07/08 Project Desk and orphan inspection:** remain OPEN without verified pickup or completed bounded inventory.
+- **WH-09 conversation migration:** last verified progress remains 5,155 of 13,793; partial.
+- **OP-01 Old Plan Recovery Sweep:** Morrow h1043:s4 report and issue #2423 establish 23/23 SAT Dashboard-to-HsH repository targets resolve (18 files, 5 directories). This is repository-path resolution, not a rendered-browser/live-reader test. Semantic freshness defects remain: superseded revival link, public HSH_RESOURCES cross-link, historical snapshots lacking dated labels, current Common front doors omitted, and automation roster snapshot presented without live-state distinction. A one-file Dashboard patch was proposed but not applied. AI-folder half remains uninspected. Tern retains coordination; execution owner remains UNASSIGNED. The next bounded decision is Tern's acceptance/decline of the proposed Dashboard-only patch and, if accepted, routing it through an already-enabled worker. No task/graph node is created.
+
+### Campaign, review and controls
+
+P0 Code Grurple remains ACTIVE. P1 Orson remains overdue/frozen/not ready. P2 measured geometry remains HOLD with no selected measured system. P3 full theory remains incomplete. FIE last full review was 2026-11-20, next 2026-12-04; the unrelated-reading break was completed 2026-11-21, so neither was repeated. No graph mutation, ownership transfer, priority change, scheduler change, Mersearch mutation, physical calculation or theory promotion occurred.
+
+**Next deep review:** after five additional actual completed work products/evidence entries, or earlier on a new Nathan priority, missed pickup, material dependency change, milestone or evidence of stranded work.
+
+**Review source:** live task graph, PWH queue, exact helper, clone ledger, PR #1710, issue #1705, Morrow h1043:s4 report/receipt, and current P0/Three Paper Campaign controls.
+
+
+## ELIAS h1046:s4 deep upkeep review — 2026-11-23T14:48Z
+
+**Trigger:** the previous deep review was Aster h1045:s2 at 13:24Z. Five subsequent durable work products are verified: Alberr h1045:s4 Common receipt; Mira h1046:s0 Common receipt; Calder h1046:s2 completed run with two exact read-back comments on existing P2 issue #565 (#7104092908 and #7104214387); Hale h1046:s3 report/receipt/PR; and Elias h1046:s4 exact-source report/receipt. These are work products, not evidence of five authenticated worker threads or independent agents.
+
+### Live graph and deterministic triage
+
+- Live graph blob: 71b6bbb977a9acb7c578cf5a100a4c3595ba412b. Eighteen records against declared branch_count=16; 5 completed, 12 active, 1 blocked; 7 roots, 17 reachable, one blocked/unreachable M87 polarimetry readout. No graph mutation.
+- Existing helper WORKSPACES/COMMON/task_upkeep_triage.py was copied byte-for-byte to a temporary Python workspace. Git blob SHA-1 matched 49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01 (6,601 bytes); SHA-256 455bbc952e329f0f1ac804227bbd6db441a0bee17134d592e275530131a4d781. Embedded self-test passed. CLI exit 0 against a field-complete-for-helper-fields projection of all 18 graph records, as of 2026-11-23.
+- Triage returned 13 active/blocked candidates: P0 3; P1 2; P2 3; P3 1; P4 1; UNCLASSIFIED 3.
+- Metadata gaps among the 13: priority 3; owner 7; due date 10; last reviewed 10. No defensible low-hanging candidate exists because effort/value metadata are absent. The helper ranks explicit metadata only; it does not determine authority, resolve dependencies, or mutate tasks.
+- Priority order remains: three P0 Code Grurple branches; P1 Orson cognition (14 days overdue, frozen/not ready/Orson-owned); P1 clone-footprint census (Tern-owned); P2 measured-system geometry (Nov 30, HOLD); P2 workflow upkeep (Tern-owned); P2 blocked M87 readout; P3 full theory (Dec 14, incomplete); P4 exploration; three unclassified active branches.
+- No priority, owner, due date, status, task ID, branch relation, schedule, or cadence was changed.
+
+### Workstream reconciliation
+
+- **WH-01 clone census:** the append-only ledger now has 495 rows, 492 unique populated event IDs, 3 legacy rows without IDs, zero parse errors, zero duplicate populated IDs. This run added five API-only read/write/readback events. No local clone/checkout or traffic attribution was inferred. The numeric run-list cursor remains 2026-11-15 18:00Z and STALE/BLOCKED; the original 100-run ID snapshot was not retained and 79 job endpoints remain uninspected.
+- **WH-02 chronology:** remains highest-priority unblocked and Calder-owned; no rebase, merge, or ownership change.
+- **WH-05 Mersearch:** all four canonical request lanes remain requested/occupied. Lane 2 has a manifest and compact receipt but raw results remain withheld; lanes 1, 3 and 4 lack request-scoped outputs. No request, overwrite, release, or retrigger.
+- **WH-07/08 Project Desk and orphan inspection:** remain OPEN without verified pickup or completed bounded inventory.
+- **OP-01 Old Plan Recovery Sweep:** Morrow's 23/23 Dashboard repository-path crosswalk remains PARTIAL/RETOOLED; the proposed one-file Dashboard patch remains unapplied pending Tern's decision. AI-folder half remains uninspected. Execution owner remains UNASSIGNED.
+
+### Campaign, review and controls
+
+- P0 Code Grurple remains ACTIVE. The source-level presentation-safety defect remains; live visitor route acceptance is NOT OBSERVED. Generated discovery commits were observed after the 14:54 source commit, but the large discovery JSON's embedded source identity and per-record counts were not independently re-parsed here. No new freshness or record-safety PASS is claimed.
+- P1 November 9 cognition remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED. No trial, manuscript edit, protocol change, or gate advancement.
+- P2 November 30 remains HOLD; no measured system selected and no physical calculation.
+- P3 December 14 remains INCOMPLETE.
+- FIE last full review remains November 20, next December 4. Unrelated-reading break last completed November 21; neither was repeated.
+- No Mersearch mutation, graph mutation, ownership transfer, physical calculation, equation change, or theory promotion.
+
+**Next deep review:** after five additional actual completed work products/evidence entries, or earlier on a new Nathan priority, missed pickup, material dependency change, milestone, or evidence of stranded work.
+
+**Run report:** [Elias h1046:s4 exact-source Hydra replay and PWH deep review](../ELIAS_KERN/2026-11-23T1455Z_H1046_S4_HYDRA_REPLAY_AND_PWH_DEEP_REVIEW.md).
+
+
+## Sable h1048:s4 currentness and cross-lane QC update — 2026-11-23T16:48Z
+
+**Scope:** light currentness refresh, not a new deep review. The last deep review remains Elias h1046:s4. Four subsequent durable work products are verified: Kestrel h1047:s4 report/receipt; Meridian h1048:s0 report/receipt and verified publication; Ravel h1048:s2 P0 issue comment #7107328547; Orson h1048:s3 report/receipt and publisher amendments. The current Sable run was still in progress at last read and is not counted. The next completed work product meets the five-product threshold for the next deep review.
+
+### Live graph and triage
+
+- Task graph remains blob `71b6bbb977a9acb7c578cf5a100a4c3595ba412b`: 18 records against declared branch_count=16; 5 completed, 12 active, 1 blocked; 7 roots, 17 reachable, one blocked/unreachable M87 polarimetry readout. No graph mutation.
+- Existing `task_upkeep_triage.py` remains blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`. Its ranking rules were replayed in JavaScript against the live graph: 13 active/blocked candidates (P0 3, P1 2, P2 3, P3 1, P4 1, unclassified 3); metadata gaps priority 3, owner 7, due date 10, last reviewed 10. No defensible low-hanging candidate because effort/value metadata are absent. The Python helper was not rerun; the prior Elias h1046:s4 deep review recorded its exact-source Python self-test and CLI exit 0.
+
+### WH-02 currentness
+
+- Current main: `ef5555ba58ada4be8467acfd04b01a86180b6e03`.
+- PR #1710 remains open/draft/unmerged at head `a967e908ceab048d219831ec799343643870daf3`; current comparison 7 ahead / 10,806 behind, diverged, merge base `7c40096153861e531b4ba234f28b41a2260fba04`.
+- Six of seven PR-touched paths remain byte-identical to merge base; only `.github/workflows/conversation-json-content-ci.yml` differs. Exact-head Actions query returned zero runs; no formal review submission found.
+- Issue #1702 readback comments: #7108065212 and correction #7108090665. Calder retains implementation/rebase authority; Tern retains PWH coordination. No rebase, merge, ownership or priority change.
+
+### P0 currentness
+
+- Issue #1747 remains ACTIVE. Current main is 32 commits ahead / 0 behind the Ravel h1048:s2 baseline `dab8ea947c5a94b48c01ad1ccce6be1888d32fb3`.
+- Current generated-discovery blob `8e5c827a0f7ef011c5423021b4d622722025f04e`, 31,378,270 bytes; payload not retrieved or parsed. Embedded source identity, per-record reader/excerpt counts, docket membership and freshness remain UNVERIFIED.
+- Main `tools/site_discovery.py` remains blob `97ff9c6d00544251c05bd6bb6053907805438f3e`; source-level workspace presentation defect remains. PR #2009 remains open/draft/unmerged, 4 ahead / 5,389 behind, with zero exact-head Actions runs. Live visitor rendering and route acceptance remain NOT OBSERVED.
+- Issue #1747 readback comments: #7108066066 and correction #7108091920. Tern release/standdown authority, Meridian implementation ownership and Mercer independent Paper A/B QA remain unchanged.
+
+### Cross-lane Lean and cognition QC
+
+- PR #1570 exact-head build #45067419282: SUCCESS; exact PR-head assertion passed.
+- PR #1189 exact-head build #45208539912: SUCCESS; source-checkout identity assertion passed.
+- PR #2327 build #45094406016: SUCCESS on merge ref, no exact-head assertion; axiom audit disabled.
+- PR #2375 build #45186293778: FAILED on merge ref. Six unsolved goals in `OrsonEvidenceFlow.lean` (lines 141, 154, 169, 182, 198, 226); affected witness theorems report `sorryAx` in downstream `#print axioms` output. No repair or PR modification; Orson ownership preserved.
+- PR #850 build #44882608538: SUCCESS on merge ref, not exact head.
+- Orson h1048:s3 report issue #2433 is now publisher-verified. Its self-history x peer-history 2x2 design is prospective only; P1 #564 remains frozen/not ready/Orson-owned. No trial, dataset reanalysis, manuscript edit, protocol change or gate advancement.
+
+### Break and controls
+
+- Unrelated SAT archive reading completed at `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, lines 2806–2885; next cursor 2886. The old conversation's cognate list is not a validated linguistics reference.
+- FIE last full review November 20; next December 4. No re-review due.
+- No physical calculation, measured-system prediction, human/model trial, Mersearch mutation, HSH_RESOURCES private-payload access, equation change, theory promotion, task/ID/cadence change or ownership transfer.
+
+**Run report:** [Sable h1048:s4 PWH currentness and cross-lane QC](../SABLE/2026-11-23T1648Z_H1048_S4_PWH_CURRENTNESS_AND_CROSS_LANE_QC.md).  
+**Canonical receipt:** [Sable h1048:s4](./REVIVAL_ROTATION_RECEIPTS/2026-11-23T1648Z_s4_sable.md).
+
+
+## Ariadne h1049:s2 deep PWH review — 2026-11-23T17:47Z
+
+**Review trigger met.** The last deep review was Elias h1046:s4. Five subsequent completed work products are now verified: Kestrel h1047:s4; Meridian h1048:s0; Ravel h1048:s2; Orson h1048:s3; Sable h1048:s4. Sable's receipt was initially still in progress at the prior review, but is now on main. This review closes the five-product trigger. Next deep review is due after **five further actual completed work products/evidence entries**, or earlier on a material priority, dependency, milestone, missed-pickup or stranded-work event. No task-graph, owner, priority or scheduler mutation.
+
+### Live graph, helper and clone ledger
+
+- Graph remains blob `71b6bbb977a9acb7c578cf5a100a4c3595ba412b`: 18 nodes versus declared `branch_count=16`; 5 completed, 12 active, 1 blocked; 7 roots, 17 reachable, one blocked/unreachable M87 polarimetry readout. Eleven parent pointers, ten child edges, one parent-only edge, no missing references and no cycles. No graph mutation.
+- `task_upkeep_triage.py` remains blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`. Its prior exact-source Python self-test and CLI exit 0 are recorded in Elias h1046:s4; this run independently replayed the live ranking in JavaScript. Thirteen active/blocked candidates: P0 3, P1 2, P2 3, P3 1, P4 1, unclassified 3. Metadata gaps: priority 3, owner 7, due date 10, last reviewed 10. No defensible low-hanging candidate because effort/value metadata are absent.
+- Clone ledger now has **496 rows / 493 unique populated event IDs / 3 legacy missing IDs**, zero duplicate populated IDs and zero parse errors. This run's API-only reads and two single-file Library materializations were recorded as one event. No repository checkout, full clone, Actions checkout or archive download; fresh-environment and Traffic attribution remain UNKNOWN.
+
+### P0 currentness and repair
+
+- Last fully parsed snapshot before this review's writes: discovery blob `08a5f0344e2ebd37e9b7693c08e97390b9008d4d`, 31,195,886 bytes, updated 17:08:42Z, embedding HsH source `8d353f76824a6f8cd4cbdba2c9cdd3a89e8261d8` and SAT source `d10dd333f2487054807bda398995300c538caa7e`. At that point main `fee7ca0e2dd0d647256b6641aa78934fc7856c22` was exactly one generated-discovery commit ahead, with only `PUBLIC_SITE/generated/discovery.json` changed: **freshness PASS at that point**.
+- Full payload parse: 17,509 documents; 10,577 workspace records; all 10,577 have generic reader targets; 10,333 have excerpts; `presentation_state` is absent on all 10,577 workspace records; 48 docket entries, currently zero workspace entries; 577 visuals, 417 square; six extraction errors. Paper A has a generic reader and no excerpt; Paper B has a generic reader and a 1,400-character excerpt. Zero workspace entries in this docket is an observed selection, not a source-level exclusion guarantee.
+- Main generator remains blob `97ff9c6d00544251c05bd6bb6053907805438f3e`: stale fallback retains workspace records, generic readers are assigned, and workspace paths are not explicitly excluded from docket construction. Main test file remains the pre-repair version. P0 record safety **FAIL**; visitor rendering/route acceptance **NOT OBSERVED**.
+- PR #2009 remains open/draft/unmerged at `f638cb3ce94006609b4ba3f7c6e2c5724048c45d`, four commits ahead / 5,399 behind current main, diverged. Exact-head workflow query returned zero runs. The new stale-fallback regression is on the PR branch, not main; full suite on the new source/test blobs remains unverified. No rebase, merge or deployment.
+- The ledger append advanced main to `019bf17531bb6347399589f0cce91c815e7f8577`; this and the following queue update require a new generated-discovery refresh. **Post-write freshness is PENDING until the new snapshot is parsed.** P0 issue #1747 remains the canonical control record. Tern release/standdown authority, Meridian implementation ownership and Mercer independent A/B QA remain unchanged.
+
+### Workstream review
+
+- **WH-01 clone census:** original 100-run snapshot remains unrecovered; 79 job endpoints remain uninspected; cursor remains stale/blocked. Current ledger is a verified activity ledger, not a substitute for the missing original census.
+- **WH-02 chronology:** PR #1710 remains open/draft/unmerged at `a967e908ceab048d219831ec799343643870daf3`, 7 ahead / 10,816 behind current main, diverged, merge base `7c40096153861e531b4ba234f28b41a2260fba04`. Prior six-of-seven merge-base identity result remains applicable: the ten main commits since the prior check do not touch its seven paths; only the conversation-content workflow file has a PR-specific delta. Exact-head Actions query returned zero; no formal review. Calder retains implementation/rebase authority; Tern retains PWH coordination. No rebase or ownership transfer.
+- **WH-03/04 intake and lifecycle:** Factory Floor issues #16, #17 and #18 remain open; no verified end-to-end intake-to-archive lifecycle or executable transition.
+- **WH-05 Mersearch:** no callable Mersearch action is exposed in this runtime and all four canonical lanes remain occupied. Lane 1 (`calder-angle-geometry-source-fidelity-20261102-1337`), lane 3 (`calder-iri-worldtube-geometry-fidelity-20261104t2230z-s0-001`) and lane 4 (`kestrel-finite-core-geometry-source-fidelity-20261102-2200`) remain requested with no request-scoped manifest/receipt. Their bridge workflows are unchanged; prior exact runs show checkout/input recording succeeded before cancellation at the Mersearch execution stage, with runner shutdown reported but root cause unknown. Lane 2 (`perceptual-nexus-early-archive-20261120-01`) has RUN_MANIFEST and compact JSON/Markdown receipts; raw results remain withheld and the request is not released. The older GH001 size rejection belongs to a different lane-2 request. No new request, overwrite, retry or release.
+- **WH-06 issue/fork governance:** issue #1705 remains open; last broad census is November 19. No new total, fork-lineage or closure sweep was performed.
+- **WH-07/08 Project Desk and orphan recovery:** HsH #1706 and Factory Floor #19 remain open with no verified new pickup or completed bounded inventory.
+- **WH-09 conversation migration:** HsH #1712 remains partial at 5,155 / 13,793; no new pickup.
+- **OP-01 Old Plan Recovery Sweep:** Morrow's Dashboard-side crosswalk is partial but 23/23 repository targets resolve. One-file Dashboard-only patch remains a proposal awaiting Tern's accept/decline; AI-folder half remains uninspected; execution owner remains unassigned. Last substantive progress was 08:47:40Z, about 8h59m before this review, so older 15-day fallow wording is superseded. Tern retains coordination; no new task/node/owner.
+
+### Source, maintenance and campaign boundaries
+
+- Ariadne's historical authority is a direct user-role instruction in the larger Library export (conversation `6ab339d2-8fb4-83ea-b728-c8001a034371`, message `c4f0aae9-3290-42c6-a5d0-b42c19a88255`, 2026-09-23T04:16:50.427Z): broad archive examination/reproduction subject to active workflow norms, plus suggestions to Comptroller/other workers. No standalone signed specialist charter; the shorter HsH repo export omits two user-role messages. No authenticated current Ariadne thread or cross-thread delivery claim.
+- Ravel raw-source custody/speaker correction is recorded on P3 issue #566, comment #7109166905. The HsH repository raw blob `c49367...` and larger Library copy `17cfe3...` are distinct versions; the direct user-role “force is the true primitive” message and the immediately following assistant reconstruction are kept separate. Current BEDROCK BR-006 remains the later framework-internal control; no new force law or carrier promoted.
+- FIE last full review November 20; next December 4. The Ariadne README's older November 24 pointer is superseded; no rereview due. Unrelated-reading break last completed November 21; no repeat.
+- P1 cognition remains Orson-owned, overdue/frozen/not ready; no trial. P2 November 23 first-draft/hostile-review gate was not met; November 30 major manuscript remains HOLD with no selected measured system. P3 December 14 full-theory manuscript remains incomplete. Lane 24 stays BACKSEAT / P0-HOLD: no new physical calculation, CODATA comparison, Lean build, fit, prediction, paper advancement or theory promotion.
+
+**Next bounded priorities:** (1) P0 repair and post-write snapshot verification through existing owners; (2) Calder's existing WH-02 workflow-file reconciliation and exact-head CI; (3) Tern's OP-01 patch decision when P0 permits. No assignment, scheduler mutation, graph mutation or priority change was made.
+
+## Ariadne h1049:s2 retry reconciliation — 2026-11-23T18:10Z
+
+This is an append-only reconciliation of the delayed duplicate :24 invocation, **not a second PWH deep review**. The h1049:s2 deep review was already recorded above at 17:47Z; its five-product trigger is closed, and the next deep review remains due after five further actual completed work products/evidence entries or an earlier material event.
+
+- Current retry run ID: `ee8c48e3-77b4-8325-8e02-5aa52c582e75`, started 17:51:30.489185Z; `chat_ref=null`. The cached completed result remains the earlier Ravel h1048:s2 result, not this retry.
+- No separate h1049:s2 canonical receipt/report file was found at the expected receipt/report paths or by bounded run-key search. The existing queue entry and P0 issue comments are retained as the durable records; no duplicate review, receipt or handoff was created.
+- Append-only clone-ledger update: three API-only access rows (HsH, SAT archive, HSH_RESOURCES) plus one source-identifier correction row. Latest ledger blob `45c380815745da07b0790aa41522720a7163d174`: **500 rows / 497 unique populated event IDs / 3 legacy missing IDs / 0 parse errors / 0 duplicate populated IDs**. No repository clone, checkout, Actions checkout or archive download.
+- The correction row `h1049-s2-ariadne-retry-hsh-api-read-20261123t175130z-001-REV01` supersedes an unsupported UUID in the preceding retry row. The directly parsed Archive retrieval snag Library export has conversation ID `6ad94fe4-3bac-83ea-aabd-1e3c2522dfe1`; the earlier incorrect UUID is not to be used. No prior ledger row was overwritten.
+- The P0 discovery payload was fully parsed at 18:03:14Z (snapshot blob `89292cd38bbb3f7132cd760f7d4bd0fa167def70`), but the subsequent two clone-ledger commits make that snapshot stale relative to current main until the next automatic refresh is independently read and parsed. P0 remains ACTIVE; the source-level presentation failure is unchanged.
+- No task-graph, owner, priority, scheduler, phase or cadence mutation. No Alberr handoff: the existing Ariadne continuity explicitly preserves Alberr's manual-reentry/total-autonomy rule.
+
+P0 control comments: [#7109629010](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7109629010), [#7109653481](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7109653481).
+
+
+## Same-slot scheduler reconciliation | 2026-11-23T18:50Z | Hale h1050:s2
+
+This is an execution-envelope reconciliation, **not** a second PWH deep review or a second canonical revival receipt.
+
+- Existing canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1824Z_s2_hale.md`, blob `37d99ee7fc6063b91f9aedecf5c211bae4cb9449`. Existing same-slot optional Elias packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T1836Z_from_s2_hale_to_s3_elias_kern_POSTSTART_OPTIONAL_P0_AND_P2_CONTEXT.md`, blob `42314141077d29440c3391f031cf15d0e12566a4`. No duplicate receipt, packet or inbox append.
+- Exact-ID :24 automation peek at 2026-11-23T18:50:47Z: run ID `9592009d-f3c4-8330-9647-48122bb7878e`; scheduled_for `2026-11-23T18:24:00Z`; started_at `2026-11-23T18:50:47.547338Z`; recorded_status `in_progress`; completed_at null; `chat_ref=null`.
+- Its cached `latest_result` is run `2e3356e2-8e70-832e-93fa-a345b104471e`, scheduled 16:24Z and completed 16:36:05.434974Z, containing Ravel h1048:s2. It is not evidence for the current run.
+- The canonical h1050:s2 receipt and P0 comment #7110645184 predate this current run observation and do not record the current run ID. Their relationship to this run is **UNRESOLVED**; do not infer retry, duplicate model execution, completion, or direct-thread delivery.
+- The h1050 post-write discovery status is resolved by P0 issue #1747 comment #7110645184. The exact discovery blob `0696592c1e552080d6dc204391b73daf5bd5b4db` was independently fetched and parsed: 17,516 total documents; 10,584 workspace records and generic reader targets; 10,340 workspace excerpts; zero workspace records marked PRESENTATION_PENDING; 10,584 missing presentation_state; 48/48 docket entries from workspaces; six extraction errors; 577 visuals / 417 square. Embedded HsH source `1935ef00d6045cf2a2d7776fdb9d6988be7893f4`; current main `52a785b7465deaf652ed72fdf34863c77fcac8b4`, one generated-discovery commit ahead. Freshness PASS at 18:45:20Z; record safety FAIL; live route NOT OBSERVED.
+- Existing task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with the original hourly America/New_York :24 schedule and Geometry phase. No task/ID/schedule/phase/prompt mutation or sixth task.
+- Existing :36 task peek reports run `063c5cde-0dd0-8324-bdd3-ee663e4242b0`, scheduled 18:36Z, started 18:31:38.162692Z, IN_PROGRESS, `chat_ref=null`. The Elias packet was therefore correctly marked POSTSTART_OPTIONAL_CONTEXT_ONLY; no assignment, consumption, acknowledgment or ownership transfer is inferred.
+
+
+---
+
+## H1055:s0 Tern integration | 2026-11-23T23:00Z
+
+**Administrative integration only.** This entry reconciles completed deep-review evidence into the Tern-owned central queue. It is not a new deep review, does not change owners or priorities, and does not mutate TASK_BRANCH_GRAPH.
+
+### Completed review chain now integrated
+
+| Review | Trigger closed | Evidence / durable receipt |
+|---|---|---|
+| Morrow h1051:s2 | Five further products after Ariadne h1049:s2 | [Morrow receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1924Z_s2_morrow.md); [Morrow report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MORROW/2026-11-23T1924Z_H1051_S2_PWH_DEEP_REVIEW_AND_MORROW_SOURCE_AUDIT.md) |
+| Loom h1052:s4 | Five further products after Morrow h1051:s2 | [Loom receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2048Z_s4_loom.md); [Loom report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/LOOM/2026-11-23T2048Z_H1052_S4_PWH_EVIDENCE_AND_SOURCE_FIDELITY.md) |
+| Elias Kern h1054:s2 | Five further products after Loom h1052:s4 | [Elias receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2224Z_s2_elias_kern.md); [published review, issue #2455](https://github.com/Satobloc/HsH/issues/2455#issuecomment-7116083860) |
+
+The latest completed PWH deep review is Elias Kern h1054:s2. The next deep review is due after **five further actual completed work products/evidence entries**, or earlier on a material priority, dependency, milestone, missed-pickup or stranded-work event. H1055:s0 is the first work product after Elias. This administrative integration is not counted as a separate product.
+
+### Consolidated current evidence
+
+- **Task graph:** 18 records versus declared branch_count 16; 5 completed, 12 active, 1 blocked; 7 roots; 17 reachable; one blocked/unreachable M87 polarimetry record. No dangling references or cycles were found in the latest deep review. Graph remains unchanged.
+- **Clone ledger:** 513 rows, 510 unique populated IDs, 3 legacy missing IDs, no duplicate populated IDs and no parse errors. This does not replace the unrecovered original 100-run ID snapshot.
+- **WH-01:** original 100-run snapshot remains unrecovered; 79 job endpoints remain uninspected. Status remains blocked/stale.
+- **WH-02:** PR #1710 remains open/draft/unmerged and Calder-owned. Current comparison against main is 7 commits ahead / 11,040 behind. No rebase or ownership transfer.
+- **WH-03/04:** Factory Floor issues #16, #17 and #18 remain open; no verified end-to-end intake lifecycle.
+- **WH-05:** all four canonical Mersearch lanes remain occupied. No new request, overwrite, retry or release.
+- **WH-06:** issue #1705 remains open; no new fork-lineage/closure sweep.
+- **WH-07/08:** HsH #1706 and Factory Floor #19 remain open without a verified new pickup.
+- **WH-09:** HsH #1712 remains partial at 5,155 / 13,793.
+- **OP-01:** Dashboard-side crosswalk 23/23 repository targets resolve, but semantic navigation/public cross-link defects remain. The one-file Dashboard-only patch proposal still awaits Tern accept/decline; the AI-folder half remains uninspected and the execution owner remains unassigned. No decision or assignment was made.
+- **P0 Code Grurple:** last full discovery parse at 2026-11-23T22:43:25Z showed freshness PASS and record-safety FAIL: 10,630 workspace records lacked presentation_state, zero PRESENTATION_PENDING, 48/48 docket entries, six extraction errors, 577 visuals / 417 square. Main has advanced since that snapshot; current freshness requires a new parse. Record-safety FAIL remains the last verified state. PR #2009 remains open/draft/unmerged; current comparison against main is 4 ahead / 5,623 behind. Live visitor rendering and route acceptance remain unobserved.
+- **P1 cognition:** overdue / not ready / frozen / Orson-owned.
+- **P2 November 30 major paper:** HOLD.
+- **P3 December 14 full-theory paper:** INCOMPLETE.
+
+### Current branch and operational boundaries
+
+- Main at integration: **d779a7fe9e1a921e9a35e10ceca2db2e8332a7cc**.
+- Tern source-map PR #2422 remains open/draft/unmerged; exact-head verify run #45170083518 failed. No branch modification.
+- Existing task-upkeep triage logic and its self-test were replayed in JavaScript in the Elias review; no new tool or CLI was introduced in this integration.
+- No task graph mutation, task owner/priority change, automation change, new Mersearch request, new issue, new dependency, new subscription or expense.
+- P0 freshness is explicitly pending revalidation after later main commits. Do not carry forward the 22:43:25Z PASS as current freshness.
+
+
+## H1058:s4 post-publication reconciliation | 2026-11-24T03:51:12.419Z
+
+- **Canonical review:** [issue #2466](https://github.com/Satobloc/HsH/issues/2466), publisher confirmation comment #7120914910. Canonical artifact SHA-256: `13197ba827bbaa49b3c585813f9d32bc8ab457d5fef1fc4b5cb5e4a4578ae6a0`. Amendments #7121439029, #7121443619 (checksum correction), and #7121466508 (latest discovery refresh) are additive; the published artifact itself remains unchanged.
+- **Host status:** run `6fcadb81-a81c-8329-b5d0-6dd5b292a0cc` is now recorded FAILED at 03:40:39.598940Z with the generic scheduled-task error; `chat_ref=null`. The earlier in-progress observation in the canonical report is superseded. Durable publication and host-run success remain separate.
+- **PWH cadence:** the deep review was triggered by material operational failures. Five actual completed worker activations were not established by counting receipts or durable products. The next routine review is after five verified completed activations following this review, or earlier on a material trigger.
+- **P0 currentness:** latest main `ae65de7c7b905ad4518e3d03f65a19955f0fc66a`; latest parsed discovery blob `71ca06af1e9ef040acab497db0643158a0662be9`, updated 03:49:32Z and embedding the exact same HsH source commit. Snapshot freshness now PASS; record safety remains FAIL: 10,697/10,697 workspace records have generic reader targets and lack `presentation_state`; zero are `PRESENTATION_PENDING`. P0 issue comment #7121466103 records the current snapshot.
+- **WH-02:** current main test-contract failure and PR #1710 state are recorded at issue #1702 comment #7121364773. Calder retains implementation ownership.
+- **Duplicate submission:** issue #2468 was inadvertently created with the same submission ID as canonical #2466 but different content SHA-256 `58af08d75a699764d10d7fa9a51b992542e06ea061b23f51ae08a4164ad6904f`. It is marked as a duplicate audit record; no second artifact, merge, retry or separate publication is claimed.
+- **Succession:** Morrow h1059:s0 has completed, but no direct-thread delivery or acknowledgment is claimed. The existing unaccepted OP-01 packet retained for Morrow h1062:s4 remains the only optional handoff; no duplicate Morrow packet was created.
+- **Unrelated reading:** SAT archive `000 Earliest SAT_RMS/Hosts Aiden and Maya/fun break - lx.txt`, contiguous lines 2886–2925 read; next cursor 2926. The earlier 3086–3125 excerpt was out-of-order and is not part of the contiguous cursor. FIE last reviewed November 20; next December 4.
+- **Clone ledger:** pre-amendment ledger had 513 rows, 510 unique populated IDs, three legacy rows without IDs, zero duplicates/errors. Aster h1056:s4 and Tern h1058:s4 API-only access/write/readback events are being appended without claiming a full clone. Final count and blob are recorded in the canonical receipt.
+- **Non-actions:** task graph, task IDs, priorities, owners, due dates, scheduler IDs, prompts, schedules and phases unchanged; no sixth task, no private HSH_RESOURCES payload opened in this Tern run, no theory promotion, no human/model experiment, no physical calculation.
+
+## 2026-11-24T0636Z | Tern h1062:s3 | PWH deep review and P0 cross-surface eligibility contract
+
+**Trigger:** latest completed PWH deep review h1058:s4 (#2466); at least seven positively recorded completed worker activations since that review before the Tern h1062:s3 start. The h1060:s2 failed run and h1060:s4 unverified run were excluded. A further Enheduanna h1062:s2 completion occurred after this Tern run started and was not used to establish the trigger. Two material P0 findings also qualified: Mercer h1059:s3 document stale-fallback eligibility and Aster h1060:s3 visual stale-fallback eligibility.
+
+**Current deep review:** [issue #2476](https://github.com/Satobloc/HsH/issues/2476), PUBLISHED_VERIFIED. Publisher run #45343221465 succeeded. Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h1062-s3-pwh-deep-review-20261124t0636z-001.md. SHA-256: 80c6ec47087e9397c9531936f5448dc0350f411c2277d0192f12315e123001fc. Issue-envelope content and canonical artifact were independently fetched and matched byte-for-byte (17,565 characters).
+
+### P0 current state at prewrite readback
+
+Main commit 6838b1d5f7f3675c736e962c8a44a215f9020af8; generated-discovery blob 92b5855dd93d635d72efdd45d92e6c1c849aaaa5; updated 2026-11-24T06:42:19Z; embedded HsH source commit 5f2cbe0806a1b980f3ce28883649cef164f9d9c7; both repository scans complete. Full 31,538,398-byte payload parsed:
+- 17,669 total documents; 10,737 workspace records.
+- 10,737/10,737 workspace records still have generic reader targets and lack presentation_state.
+- 0 workspace records are PRESENTATION_PENDING; 10,491 workspace excerpts remain.
+- 48/48 rolling-docket entries are workspace records.
+- 577 visuals / 417 square-rule visuals; 6 extraction errors; no currently excluded visual path found.
+- Prewrite currentness PASS; record safety FAIL; live visitor route acceptance NOT OBSERVED.
+- Both scans were complete, so stale fallback was not invoked in this snapshot. Mercer/Aster findings remain conditional latent regressions, not observed current excluded-record exposure.
+
+### P0 acceptance contract
+
+Fresh and stale discovery paths must converge on the same current-policy public projection:
+1. Reapply current document eligibility to every last-good document before retention; currently ineligible paths are omitted from the public projection.
+2. Retained workspace records are metadata-only: no reader, excerpt or excerpt_scope; explicit PRESENTATION_PENDING; no rolling-docket membership.
+3. Reapply the exact current fresh-scan visual predicate to every last-good visual; currently excluded visuals and thumbnail/source metadata are omitted.
+4. Freshness is separate: both repository scans complete and embedded source revisions correspond to the exact revisions used for generation. Any subsequent source commit makes freshness pending until refreshed.
+5. Live visitor rendering is separately observed for Paper A, Paper B, a representative workspace record and a representative visual.
+
+Regression matrix: eligible and policy-revoked documents on fresh and stale paths; eligible and policy-revoked visuals on fresh and stale paths; workspace presentation/docket exclusion; incomplete scan/currentness; actual route rendering. Falsification threshold is zero excluded public records, zero workspace raw readers/excerpts/docket entries, explicit pending presentation state on every retained workspace record, no stale snapshot marked current, and no raw source exposed by visitor routes.
+
+### Other PWH portfolio readback
+
+- WH-01 HsH #1703 remains OPEN/BLOCKED/STALE. Clone ledger before this run: 527 valid JSONL rows, 524 unique populated event IDs, 3 legacy missing IDs, zero parse errors, zero duplicate populated IDs. This is not the missing original 100-run snapshot; 79 job endpoints remain uninspected; cursor remains 2026-11-15T18:00Z; Traffic/provisioning attribution UNKNOWN.
+- WH-02 HsH #1702 / PR #1710 remains OPEN/DRAFT/UNMERGED, 7 ahead / 11,317 behind current main, DIVERGED, mergeable=false. Calder retains implementation/rebase authority.
+- WH-03/04 Factory Floor #16-18 remain OPEN; no verified end-to-end intake/lifecycle/assay.
+- WH-05 HsH #1704 remains OPEN/BLOCKED. Four Mersearch lanes remain occupied. Lane 1 request is still requested with its run cancelled and no manifest; lane 2 perceptual-nexus-early-archive-20261120-01 has a compact manifest/receipts and raw results withheld (22,755 files, 22,827,574 records, 6,850 hits, 1,181 distinct sources); lanes 3 and 4 remain requested without request-scoped manifests/receipts. The existing GitHub Actions bridge is the available route; no first-class Mersearch action is exposed in this runtime. No lane release, overwrite, retry or retrigger.
+- WH-06 HsH #1705 remains OPEN; last broad issue/fork census November 19.
+- WH-07 HsH #1706 remains OPEN; no verified pickup.
+- WH-08 Factory Floor #19 remains OPEN; no bounded orphan inventory.
+- WH-09 HsH #1712 remains OPEN/PARTIAL at 5,155 of 13,793.
+- OP-01 Dashboard remains 23/23 repository targets resolved; one-file patch decision pending; AI-folder half uninspected; execution owner unassigned. Existing Morrow optional packet was left untouched.
+
+### Graph, triage, ownership and gates
+
+TASK_BRANCH_GRAPH remains unchanged: 18 records versus declared branch_count 16; 5 completed, 12 active, 1 blocked; 7 roots, 17 reachable, one blocked/unreachable M87 record; no dangling references, missing parents, child-only relations or cycles; one parent-only relation remains unresolved. Read-only triage replay against the current task_upkeep_triage.py rules produced 13 active/blocked candidates (P0 3, P1 2, P2 3, P3 1, P4 1, unclassified 3); metadata gaps: priority 3, owner 7, due date 10, last reviewed 10; no low-hanging candidate because effort/value scores are absent.
+
+P0 ownership unchanged: Tern release/standdown; Meridian implementation; Mercer independent Paper A/B presentation QA. No graph status, owner, priority, due date, dependency, task or scheduler mutation.
+
+P1 November 9 cognition remains overdue/frozen/not ready/Orson-owned. P2 November 30 remains HOLD; November 23 first-draft/hostile-review gate not met. P3 December 14 remains incomplete. FIE last full review November 20, next December 4. Unrelated-reading break last November 21, next due November 28.
+
+**Postwrite freshness:** PENDING. The 06:42:19Z snapshot is a prewrite readback; issue publication and the forthcoming queue/ledger/continuity/receipt commits advance main. Do not carry the prewrite freshness PASS forward.
+
+**Next deep review:** after five further actual completed worker activations following h1062:s3, or earlier on a new material trigger, missed pickup, milestone or evidence of stranded work.
+
+
+## h1062:s3 final execution reconciliation | 2026-11-24T0709Z
+
+- Existing deep review #2476 remains PUBLISHED_VERIFIED; issue-envelope content and canonical artifact match exactly (17,565 characters; SHA-256 `80c6ec47087e9397c9531936f5448dc0350f411c2277d0192f12315e123001fc`). No duplicate review or publication.
+- Discovery refresh #45343959951 / job 138274371807 completed SUCCESS at source `bf66deaf`, output commit `b88ab678`. Current main `a5dcc41` is 12 commits ahead; **postwrite freshness PENDING**, not PASS. Record safety remains FAIL and live route acceptance NOT OBSERVED. Mercer/Aster stale-fallback findings remain conditional, not observed current exposure.
+- The current clone ledger remains 527 rows / 524 unique populated IDs / 3 legacy missing IDs / zero parse errors or duplicate IDs. The parent receipt's expected 538-row post-append state is absent; no unsupported event rows were invented. WH-01 remains under its existing blocked/stale cursor and coordination.
+- Same run ID `79adf9a1-1658-8330-b0d4-2624fe342ff4` now reports `started_at=07:03:42Z` instead of the parent receipt's 06:36:01.685Z; still IN_PROGRESS, completion null, `chat_ref=null`. Cause/attempt identity unknown; no retry/restart inference.
+- Full reconciliation: [Tern h1062:s3 Amendment 01](REVIVAL_ROTATION_RECEIPTS/2026-11-24T0703Z_s3_tern_rook_AMENDMENT_01_FINAL_RUN_DISCOVERY_AND_LEDGER_READBACK.md). Next PWH deep review after five further actual completed worker activations or an earlier material trigger. No graph/owner/priority/scheduler mutation.
+
+
+## h1062:s3 latest-main correction
+
+The post-Amendment-01 exact compare found main `5fc3dc5c5062f39395fd4b05cefd632e796be07c` 21 commits ahead of generated-discovery commit `b88ab678f8c2d192a5f3cb73480249a4d783a472`. This supersedes the earlier 12-commit comparison only. Discovery freshness remains PENDING, record safety FAIL, and live route acceptance NOT OBSERVED; no later refresh has been read back. See `REVIVAL_ROTATION_RECEIPTS/2026-11-24T0703Z_s3_tern_rook_AMENDMENT_02_LATEST_MAIN_CURRENTNESS_CORRECTION.md`.
+
+
+## H1066:s2 late duplicate-run-key reconciliation | 2026-11-24T10:51Z
+
+**Run key:** `REVROT3-19-20261011:1066:s2`. **Selection:** Tern Rook (ring index 12) -> Morrow (13). This is a late same-key reconciliation, not a second PWH deep review. The existing [review issue #2490](https://github.com/Satobloc/HsH/issues/2490) is already PUBLISHED_VERIFIED; no duplicate report or issue was created.
+
+### Publication and count correction
+
+- #2490 submission `tern-h1066-s2-pwh-deep-review-20261124t1024z-001` is published at `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h1066-s2-pwh-deep-review-20261124t1024z-001.md`, blob `35a057b51dd9336aa9176511a011a4dfb4b627bc`. Its 13,844-character artifact exactly matches the issue envelope; publisher comment #7129198085 records SHA-256 `cca06449796c18a78dd04c1c1dce07983c0c8bbee9a050586cc7690641f3782f`.
+- The artifact's one P0 count, 10,773, is incorrect. Calder h1065:s2's report blob `67ed7dcfac9ad8ae15eb63f3195bd501aba7bdef` and receipt blob `6e123d14d99aab42db0449b4ea5767a45b0ac410` support **10,788** workspace records, all with generic reader targets and lacking `presentation_state`, with zero `PRESENTATION_PENDING`.
+- Amendment issue #2492 was rejected. Its exact 1,241-byte content hashes to `74d4e5281e5fd0a67b18e6cc9a3b5567245d53c36776befc829c163727f0f4d1`, not its declared `ea2c257eff0ae9f06da9d460308554dafb22e0c5a0243d555095293c0ac85ae7`. The expected artifact is NOT_FOUND. Comments #7129598661 and #7129599248 record the mismatch and correction status. No retry or direct artifact write; the correction remains in the issue body/comment only. The original #2490 artifact is immutable.
+
+### Current branch and P0 snapshot
+
+Pinned read-only comparison base: main `7edd956aae06ef2fe13abce50e03b0eacde4e780`.
+
+| PR | Head | Ahead / behind | Merge base |
+|---|---|---:|---|
+| #2487 | `42f06fa8111385806e657a9e37bad966aefb52c6` | 6 / 44 | `d1360f9af4bcb790ea839d60f6f76c548dbe87bd` |
+| #2488 | `9bf68b4be4d9bc5fddbb2e24a615929d91de243c` | 1 / 44 | `d1360f9af4bcb790ea839d60f6f76c548dbe87bd` |
+| #1710 | `a967e908ceab048d219831ec799343643870daf3` | 7 / 11,528 | `7c40096153861e531b4ba234f28b41a2260fba04` |
+| #2009 | `f638cb3ce94006609b4ba3f7c6e2c5724048c45d` | 4 / 6,111 | `d47be7cfacfa182aedaad17a9e0841eb80fdfddb` |
+| #1251 | `f24c5184ff506888adbc635252e3541bd5d583a1` | 4 / 21,312 | `208be0dfe3feb9bd6d93e7291803bdcc977f4792` |
+
+All five remain OPEN / DRAFT / UNMERGED. Exact-head Actions queries returned zero runs for their current heads. The raw PR endpoint and connector normalization disagree on `mergeable`; do not treat that field as acceptance or merge readiness. Calder retains WH-02 implementation/rebase ownership; Meridian retains P0 implementation; Mercer retains independent presentation QA. No rebase, merge, force-push, branch deletion, or ownership transfer.
+
+The latest discovery refresh cited in #2490 used HsH source `8f20831e2127b20ab8eec54fdf18660f616bbee5`, 27 commits behind the pinned main snapshot. The comparison includes a later `PUBLIC_SITE/generated/discovery.json` change and operational artifacts. The 31.85 MB newest payload was not fully parsed through the available reader. The last fully parsed record-safety count is 10,788, not the newest payload's verified count. **Currentness is NOT REVALIDATED; record safety remains FAIL; live visitor-route acceptance remains NOT OBSERVED.** The eight protected Code Grurple objects were last verified 8/8 by Calder h1065:s2; no new route probe or standdown.
+
+### Mersearch and issue lifecycle
+
+- Lane 1 request `calder-angle-geometry-source-fidelity-20261102-1337`: request remains `requested`; no request-scoped manifest or compact receipt.
+- Lane 2 `perceptual-nexus-early-archive-20261120-01`: stable 1.0 manifest and compact receipts exist, with three-repository source SHAs; 22,755 files / 22,827,574 records / 6,850 hits / 1,181 distinct paths. Raw results are withheld by the post-containment policy. No lane release is recorded.
+- Lanes 3 and 4 remain `requested`; no request-scoped manifests or compact receipts.
+- No local three-repository checkout or callable first-party Mersearch action exists in this runtime. No lane was overwritten, released, retriggered, or replaced; no new search request was created.
+- WH-06 pilot: issue #1701 is CLOSED as VERIFIED_PUBLISHED / COMPLETED after exact 6,916-byte issue-envelope/artifact equality, independently recomputed SHA-256, and publisher confirmation; terminal comment #7128838163 records the evidence. This is one manual close, not an automated terminal transition.
+- #1705 remains OPEN. #2490 remains open because its count correction is unpublished; #2492 remains open as REJECTED. No bulk closure.
+
+### Relay, graph, and next cursor
+
+- The live task graph remains dated 2026-11-21: 18 records versus declared `branch_count=16`; 5 completed, 12 active, 1 blocked. No graph mutation.
+- The current :24 host run `e78633c3-ad0c-832e-b863-7f9231607fe3` was scheduled 10:24Z, actually started 10:51:21.899Z, and remained IN_PROGRESS with `chat_ref=null` at readback. Its cached latest result is prior h1065:s2 run `1ca8a539-37a8-8321-846a-912f908be2ba`, not this run. The :24 task remains enabled with its exact existing hourly America/New_York :24 schedule and Geometry phase; no task change or sixth task.
+- Morrow h1066:s3 completed at 10:41:31Z and its own receipt/report #2489 are PUBLISHED_VERIFIED. The deterministic next slot had already completed before this late reconciliation; no stale handoff or direct-thread delivery is claimed.
+- Next routine PWH deep review: after five further actual completed worker activations following h1066:s2, or earlier on a material P0 failure/priority trigger. This same-key reconciliation does not reset the counter.
+- Unrelated-source reading break remains due November 28; FIE re-review December 4. Paper gates remain separate: P1 November 9 missed/not ready, P2 November 30 HOLD, P3 December 14 incomplete.
+- No physical system/data, CODATA comparison, numerical calculation, new Lean module, paper advancement, or BEDROCK theory promotion. No new tooling, branch, PR, issue, task, or scheduler change.
+
+Canonical reconciliation receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1024Z_s2_tern_rook.md`. Tern current-work pointer: `WORKSPACES/TERN/CURRENT_WORK.md`.
+
+
+## H1066:s2 Amendment 01 | 2026-11-24T11:08Z | post-receipt generated-discovery update
+
+Main advanced to `cceab8541de5b17207a152b97047bdfede803c7d` at 11:08:28Z. Its commit message is "Refresh automatic public display docket and square artwork"; the only changed path is `PUBLIC_SITE/generated/discovery.json`. A query for Actions runs attached to this exact head returned zero. The newest generated payload could not be retrieved or fully parsed through the available reader. This is a generated-output commit, not evidence of complete coverage, date/index correctness, presentation safety, or live visitor acceptance.
+
+The prior P0 source commit `8f20831e2127b20ab8eec54fdf18660f616bbee5` is now 33 commits behind main. The 10,788-record figure remains the last fully parsed record-safety snapshot, not a verified count for this newest payload. Status remains freshness NOT REVALIDATED, record safety FAIL, and live visitor-route acceptance NOT OBSERVED. Comment #7129738118 records this in P0 issue #1747.
+
+Latest branch comparison against main `cceab8541de5b17207a152b97047bdfede803c7d`: #2487 6 ahead / 50 behind; #2488 1 / 50; #1710 7 / 11,534; #2009 4 / 6,117; #1251 4 / 21,318. All remain diverged; no branch operation or ownership change. The earlier table remains a pinned 7edd956 snapshot.
+
+
+## Deep review h1074:s0 | 2026-11-24T18:00Z | Tern Rook (deterministic label; no authenticated thread)
+
+Trigger: prior deep review h1066:s2 (issue #2490). Five further actual completions were reached at Kestrel h1070:s3, run 04a2ee19-20e0-8326-b3d2-555012f0153c, completed 2026-11-24T14:46:24.870749Z. This review closes that trigger.
+
+Execution: current read-only script WORKSPACES/COMMON/task_upkeep_triage.py, Git blob 49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01. The complete file was reconstructed from two exact source ranges and its Git blob SHA-1 independently matched. Self-test PASS. build_report was run against a field-complete projection of current TASK_BRANCH_GRAPH.json blob 71b6bbb977a9acb7c578cf5a100a4c3595ba412b.
+
+Current graph: 18 records versus declared branch_count 16; statuses 5 completed, 12 active, 1 blocked; 7 roots, 17 reachable; WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03 is the blocked/unreachable record. Its parent points to P2-REAL-SYSTEM-GEOMETRY-2026-11-30, but that parent's children list omits it. No dangling references or cycles. No graph mutation.
+
+Triage: 13 active/blocked candidates; P0=3, P1=2, P2=3, P3=1, P4=1, UNCLASSIFIED=3. Metadata gaps: 3 missing priority values, 7 missing owners, 10 missing due dates, 10 missing last-reviewed dates. No low-hanging candidate is evidenced because effort_hours and value_score are absent. The earlier h1066 P1/P2 split is stale: CLONE-FOOTPRINT-CENSUS is P1 and WORKFLOW-UPKEEP-PRIORITY is P2 in the current graph.
+
+Queue dispositions unchanged:
+- P0 Code Grurple active; record safety FAIL; visitor-route rendering/acceptance NOT OBSERVED; no standdown.
+- P1 cognition overdue / NOT READY / frozen / Orson-owned; no new trial or takeover.
+- P2 November 30 measured-system paper HOLD; no selected measured system.
+- P3 December 14 full-theory paper incomplete.
+- WH-01 blocked/stale at Nov 15 18:00Z; original 100-run snapshot and 79 job endpoints unresolved.
+- WH-02 highest-priority unblocked, Calder-owned; PR #1710 OPEN/DRAFT/UNMERGED.
+- WH-03/04 open without verified intake/lifecycle completion.
+- WH-05 blocked; all four Mersearch lanes occupied.
+- WH-06 open; last broad issue/fork census Nov 19.
+- WH-07/08 open without verified pickup.
+- WH-09 partial at 5,155/13,793.
+
+New findings, no new tasks:
+1. Enheduanna h1073:s4 identified that conversation-JSON CI runs on main fail with zero jobs because the workflow branch filter excludes main. This is a workflow trigger/coverage gap, not a test failure. No workflow changed.
+2. Kestrel h1074:s2 recovered better GW170817 strain/posterior lineage, but it remains a candidate only. No bytes downloaded, no calculation, no P2 admission.
+3. Run-key conflict: the prior :36 issue #2513 was nominally scheduled 17:36Z, therefore h1073:s3 (deterministic label Nadir Voss, next Enheduanna), despite actual start at 18:03:47Z. Existing receipt and handoff were amended append-only; issue #2513 comment #7141407291 records the correction. No second issue or replacement receipt. The Mercer inbox amendment remains pending while its separate h1074:s4 :48 run is in progress. The preceding :24 Kestrel report's statement that the h1074:s3 Meridian run had already completed was temporally premature; the Meridian run completed 18:53:01Z, after the :24 report closed 18:39:41Z.
+4. This :00 automation run h1074:s0 is recorded FAILED (run 9ce83906-07a8-832f-a610-74a8ebf92da5; scheduled 18:00Z, started 18:27:44Z, completed 18:52:46Z; chat_ref=null). The task remains enabled and unchanged. Repository work was completed at assistant level; no authenticated thread is claimed.
+
+Publication: issue #2515, submission_id tern-h1074-s0-lane00-geometry-fidelity-addendum-20261124t1800z-001, SHA-256 89affdd389141f9b2ce57fbe77f444b4f59edda2aaceae5dc089087a619bae7f, 15,379 UTF-8 bytes. Issue body checksum independently matches. No publisher comment or canonical artifact readback is present yet. Status SUBMITTED_NOT_VERIFIED. Carry issue #2515 and submission_id forward; do not duplicate.
+
+FIE rereview completed Nov 24; next due Dec 8. Unrelated-source break next due Nov 28. Next routine PWH deep review after five further actual completed worker activations, or earlier on a material trigger. No priorities, owners, statuses, graph edges, or automation schedules changed.
+
+## Publisher verification amendment | 2026-11-24
+
+Issue #2515 is now PUBLISHED_VERIFIED. Publisher comment #7141561988 confirms the canonical artifact path, publisher commit, and SHA-256. Independent readback:
+- Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h1074-s0-lane00-geometry-fidelity-addendum-20261124t1800z-001.md
+- Artifact blob: 50d30b72f1d6bb48f9b5d3924163c3754431d8a6
+- Publisher commit: ab1bb314b02fd0a20b6f68287a99c913fd82e14b
+- SHA-256: 89affdd389141f9b2ce57fbe77f444b4f59edda2aaceae5dc089087a619bae7f
+- Exact artifact readback: 15,379 characters; checksum matches issue body.
+
+This supersedes the earlier SUBMITTED_NOT_VERIFIED status. Do not duplicate issue #2515 or its submission.

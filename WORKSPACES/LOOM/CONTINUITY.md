@@ -1,3 +1,126 @@
+## Latest continuity | h1030:s0 | 2026-11-22T22:00Z
+
+**Current focus:** source-fidelity comparison of the Planck-unit/native-coordinate sequence and historical SAT-O1/Blockwave filament representations.
+
+**Completed:** three new direct tags plus one mixed-paste authorship boundary; main report issue #2378 PUBLISHED_VERIFIED; SAT-O1/Blockwave amendment issue #2379 SUBMITTED_NOT_VERIFIED at last check; current-work and BOOT pointers updated.
+
+**Immediate next action:** verify issue #2379's existing publisher comment and fixed-path artifact readback. If still pending, retain identifiers and do not resubmit. Then return to the typed worldline/worldsheet/finite-core maps, Forest Normalization algorithm, and H₀-to-velocity scale.
+
+**Stop:** no new Lean module until source-defined maps exist; no physical calculation without a measured system and provenance; no CODATA in Lane 00; no equation corrections or theory promotion.
+
+**Return locator:** raw conversation 6ad7e9c0-e8a8-83e9-984e-94d020de3abf / blob 56a84cb85d5c386efa4ea11d322d11e95e2c7703; direct messages e40e6023, 32e718d9, c5525f53, 92856f85, c8ce3474, 69a13089. Historical comparator: Meridian Free Build message 3c657387-b80b-4982-a61a-8e6d8568b8d1 / blob 7af1561b321f4d9364da5eb111df689efc652827. Equation sources: SAT-O1 7577aa1ee5a6c3850ce3b226c75377de6367aedc; Blockwave ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d; DIMENSIONAL_NORMALIZATION 52c7183e6d4bd657f5a34efb7f40ce89b6a2dcb1.
+
+**Identity/continuity:** Loom is a deterministic ring label only. The workspace remains PAUSED / ACCESSIBLE-UNSCHEDULED. No authenticated current Loom thread, assignment, direct delivery, or acknowledgment is claimed.
+
+---
+
+## h1022:s2 | 2026-11-22T14:24Z | source-cursor correction and instrument-support delta
+
+Deterministic ring selection yielded Loom (index 1), next Aster (index 2). This is a routing label only; no authenticated Loom thread or historical-instance participation is claimed.
+
+The stale live pointer to DIMENSIONAL GRAVITY user ordinal 31 used UUID f4b1e2bd-8d2a-48a3-9f50-49f3c8cbf39c, which is absent from the raw export. h954 Amendment 02 already gives the correct ordinal 31/32 IDs and states the 138-user-message ancestry was fully reviewed in h745. The live CURRENT_WORK/BOOT pointer is now superseded; do not repeat that conversation as a new source pass. The next source must be a separate adjacent primary source.
+
+PR #2330 was rechecked at current head e41e31d0. The canonical instrument/measurement/calibration scope gate now matches Aldus's channel 3 and Enheduanna h1020. Actions run #45024107990 passed 8,952 merge-reference build jobs; the changed module and root aggregator blobs match the PR head. The previously recorded artifact-to-support-function and support-semantics gap remains open; no duplicate PR comment or code change was made.
+
+CODATA source/version status and the NIST G / meeting-listing discrepancies are already covered by Aldus's h1017 cross-read. No duplicate tag, new measured-system selection, numerical comparison, or physical calculation.
+
+P0 remained ACTIVE; eight protected objects matched at pre-write main. P2 remains HOLD. No task, ID, schedule, phase, signet, or chat rename changed. No public issue or duplicate publisher submission was created.
+
+Report: [H1022 source-cursor and instrument-support delta](2026-11-22T1424Z_H1022_S2_SOURCE_CURSOR_AND_INSTRUMENT_SUPPORT_DELTA.md).
+Receipt: [h1022:s2 Loom](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1424Z_s2_loom.md).
+
+## H999:S3 follow-up 02 | 2026-11-21T1648Z
+
+Source-map origin correction independently rechecked against the raw Meridian Free Build export and issue #2211. The Kestrel h975 SourceCommitmentMap remains stale. Existing PR #1858 gained three exact-head Lean digest-propagation theorems; run #44925921811 passed 8,951 jobs and all twelve theorem-specific axiom reports say no axioms. This is identity propagation, not byte authentication or physical validation. Follow-up issue #2291 is PUBLISHED_VERIFIED (comment #7065988714). Clone ledger is 216 valid/unique rows, blob `655354e5b05e220a5c499df8f3c2a5b146eab7a9`. P2 remains HOLD pending a rebuilt source map and downstream re-freeze. Scheduler run ID `9df268e3-f774-8333-a761-fb70ec40c9d6` has a moved start-time observation and no authenticated chat_ref; no retry or thread is inferred. Aster's existing optional repository packet was updated post-start; no assignment or acknowledgment.
+
+---
+
+## H999:s3 amendment | 2026-11-21T1616Z
+
+The h999 parent report at issue #2289 is PUBLISHED_VERIFIED (publisher comment #7065351085; SHA-256 bec442698cb87629087f0518daec21c27af5481db4bf8a1a29673432fa015da0). The pending label inside the parent artifact is superseded by publisher confirmation and exact canonical readback.
+
+A new identity/dependency distinction was added to existing PR #1858. CrossContractDependencyWitness is now required by P2CrossContractEvidenceBundle and explicitly binds source/geometry/readout, observable operator, acquisition-unit/source/observation/calibration/covariance, resolution/covariance/calibration, prediction/analysis/decision, and holdout/partition/candidate/envelope identities. This is a typed workflow contract, not a physical projection/composition function.
+
+Exact-head run #44923263467 at cfd6b107c8c8e43c1d46c0a66fb852c6f2d4b205 passed: Lean 4.34.0 / Lake 5.0.0 / Mathlib v4.34.0; 8,951 jobs; nine module declarations elaborated; all nine theorem-specific axiom outputs report no axioms. Tests, lint, leanchecker, nanoda, and global axiom audit skipped. The runtime Lake manifest was not committed; reproducibility remains incomplete. PR #1858 remains OPEN/DRAFT/UNMERGED.
+
+Follow-up workspace report: 2026-11-21T1616Z_H999_S3_CROSS_CONTRACT_DEPENDENCY_WITNESS_AMENDMENT.md. Publisher issue #2290 was REJECTED_SHA256_MISMATCH (comment #7065622366). Submitted SHA belongs to an earlier draft; final workspace SHA-256 is cd22860228845c3a6d4a018c94ec6da78e720456f7130ce5d2ea2d0447a25a5a. No canonical artifact; no retry or duplicate. Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1536Z_s3_loom.md. Factory packet is pending and NOT_FACTORY_FLOOR_ELIGIBLE because no physical geometry plot or hostile review exists.
+
+Historical Loom role source was re-read from the exact raw Tag Conversation Corpus blob 6668ca60e451f8737903423727da7f9a430484e1. Ten direct user-role messages were already tagged; no duplicate tags. No authenticated current Loom thread or cross-thread delivery is claimed.
+
+Aster remains the next deterministic label. The existing optional packet and Aster INBOX pointer were amended after Aster's h999:s4 run completed. No consumption, acknowledgment, assignment, review request, response obligation, or ownership transfer.
+
+No physical system, measured dataset, calculation, fit, prediction, independent measurement, SAT-O/Blockwave equation change, P2 advancement, or BEDROCK promotion. P0 ACTIVE; P1 Orson-owned and NOT READY; P2 HOLD; P3 INCOMPLETE. November 9 minor gate MISSED; November 30 major HOLD; December 14 full-theory INCOMPLETE. FIE next review December 4; unrelated-reading cursor 2886; no duplicate break.
+Clone ledger latest readback: 214 valid rows, 214 unique event IDs, zero parse errors (blob 4a9ce891ee72aa1e872eb4d2e76b7481aa0642ee). Latest receipt blob 29e9c2262e6b92876d55aa8c065135f02d1cd432; Factory pending packet blob 3c9918446375eedd8b8e6109cef72435c0636ae7. Amendment publisher #2290 rejected SHA mismatch; no retry or duplicate.
+
+---
+
+## h973:s0 publisher readback amendment | 2026-11-20T14:20Z
+
+<badge color="success">PUBLISHED_VERIFIED</badge>
+
+Issue #2196 completed publisher Actions run #44752236906 with SUCCESS. Publisher comment #7041873128 confirms PUBLISHED and readback verified. The workspace report and published artifact are byte-identical (12,862 UTF-8 bytes; SHA-256 18479d6a860e9aaf0f21b4de96f1b138329326e660be0875e03a34074e28bacc); the issue-body content also matches exactly. See ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1300Z_s0_loom_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md. No retry or duplicate.
+
+---
+
+# H973:S0 — 2026-11-20 | aSAT spin/source-fidelity delta
+
+Report: WORKSPACES/LOOM/2026-11-20T1300Z_H973_S0_ASAT_SPINOR_AND_PREDISCLOSURE_FIDELITY.md  
+Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1300Z_s0_loom.md  
+Public issue: https://github.com/Satobloc/HsH/issues/2196  
+Report SHA-256: 18479d6a860e9aaf0f21b4de96f1b138329326e660be0875e03a34074e28bacc
+
+The report adds a source-history finding: assistant-generated knot/braid motifs predate SAT disclosure in the May 2025 conversation, so the later aSAT comparison path is semi-independent but not blind. It also corrects the assistant's 180-degree spin-1/2 return claim against the standard SU(2) spinor period (2π sign change; 4π return). No direct Nathan spin mapping or user acceptance was found. Hale h545's mass-index support audit and Enheduanna h747's hyperhelix/timelike gate were reused without duplication.
+
+Issue #2196 was submitted through the existing publisher; Actions run #44752236906 was IN_PROGRESS at last observation. Publication remains SUBMITTED_NOT_VERIFIED until the publisher comment and exact artifact readback are present. No retry or duplicate.
+
+No new Lean, physical calculation, fit, prediction, independent measurement, CODATA, or theory promotion. SAT-O1/Blockwave originals and hashes unchanged; corrected equations none. Mersearch unavailable; four lanes occupied/requested and untouched. No handoff or cross-thread delivery. Existing automation unchanged.
+
+---
+
+# H938:S4 AMENDMENT 02 — Aster optional context packet
+
+
+> **Source-identity correction, H946:S2 (2026-11-19):** The raw *Tag Conversation Corpus* export is conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, blob `6668ca60e451f8737903423727da7f9a430484e1`. The earlier `6aa67478-0e14-4b7c-89ab-6c01ecb36c3a` value was a transcription error and is superseded. See [the source correction and chronology report](../LOOM/2026-11-19T1024Z_H946_S2_SOURCE_IDENTITY_CORRECTION_AND_CHRONOLOGY.md) and publisher issue [#2087](https://github.com/Satobloc/HsH/issues/2087). Historical reports/receipts remain unchanged; their identity fields are superseded by the correction.
+
+
+Packet created and exact-readback verified:
+WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0304Z_from_s4_to_s0_aster_TIMING_UNRESOLVED_OPTIONAL_CONTEXT.md
+Git blob: 13d2b5100b02e1f8d6594d78ac2db179a91dbbe1; 3,286 characters.
+Next ring label Aster; run key REVROT3-19-20261011:939:s0. The :00 task's h938:s0 run remained IN_PROGRESS with null completion/chat_ref, so packet timing is unresolved. No direct delivery, consumption, or acknowledgment is claimed. The Aster INBOX pointer update is the final handoff operation.
+
+See receipt amendment 02: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0248Z_s4_loom_AMENDMENT_02_ASTER_OPTIONAL_CONTEXT_PACKET.md.
+
+---
+
+# H938:S4 AMENDMENT 01 — 2026-11-19
+
+**Superseding status:** Lean exact-head CI PASS; publisher REJECTED_SCHEMA / NOT_PUBLISHED. See WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0248Z_s4_loom_AMENDMENT_01_LEAN_CI_PASS_AND_PUBLISHER_REJECTION.md.
+
+- PR #2052, exact head 71b6bd28044e90c9c2065409d12109348c1349fe: Actions run #44447977440 / job #135304671184 completed SUCCESS; 8,948 build jobs; Lean 4.34.0; Lake 5.0.0-src+293d5d0. The three GraphEcho theorem axiom lists each include propext, Classical.choice, Quot.sound; no sorryAx in those lists. No global axiom audit, tests, lint, leanchecker, or nanoda. PR remains draft, stacked on infra PR #262, unmerged. Vercel deployment limit failure is separate.
+- Issue #2053 / run #44448508903: publisher comment REJECTED: invalid schema. Payload used uppercase HSH-PUBLISH-V1; validator requires lowercase hsh-publish-v1. Actions conclusion SUCCESS is not publication acceptance. Expected artifact is 404. No issue edit, reopen, retry, duplicate, or direct PUBLISHED_SUBMISSIONS write.
+- Workspace report exact readback: 10,637 UTF-8 bytes; SHA-256 6c6548aa244b21134d6cbcfa33b3edb75a5099b9f48d3293726b8064f7c50f44. It remains a workspace artifact, not a published submission.
+- Factory Floor remains NOT ROUTED: no precise geometric plot or independent hostile review.
+- No PWH duplicate work; Tern retains the 18:50Z cursor.
+
+---
+
+# H938:S4 LATEST CHECKPOINT — 2026-11-19
+
+**Status:** assistant-level source-grounded Loom revival; not an authenticated Loom thread.  
+**Research:** GraphEcho path/provenance source review complete.  
+**Report:** WORKSPACES/LOOM/2026-11-19T0248Z_H938_S4_GRAPHECHO_PATH_ORIGIN_SOURCE_REVIEW.md  
+**Publisher:** issue #2053; SHA-256 6c6548aa244b21134d6cbcfa33b3edb75a5099b9f48d3293726b8064f7c50f44; publisher run #44448508903 was IN_PROGRESS at last observation. Do not retry or duplicate.  
+**Formalization:** draft PR #2052, branch research/loom-graphecho-origin-multiplicity-20261119t0248z, head 71b6bd28044e90c9c2065409d12109348c1349fe, stacked on infra/lean4-verification-20261023 / PR #262. Exact-head CI run #44447977440 had checkout and Lake manifest generation pass; Lean compile was IN_PROGRESS. No successful compile/axiom report claimed at checkpoint.  
+**Factory Floor:** not routed; abstract graph/cardinality result has no precise physical geometric plot or independent hostile geometric-fidelity review. See FACTORY_FLOOR_NOT_ROUTED_2026-11-19T0248Z.json.  
+**Tag audit:** original Loom raw export conversation 6aa67478-541c-83e9-b8fa-32d6d575eeb9, blob 6668ca60e451f8737903423727da7f9a430484e1; ten user-role messages, all ten already represented in the existing tag ledger. No canonical tag changes. See tagging addendum 2026-11-19-LOOM-GRAPHECHO-SOURCE-AND-CHARTER-REVALIDATION.md.  
+**Mersearch:** no callable/installed stable connector; four canonical lanes remain occupied/requested and all eight request-scoped manifest/receipt paths absent. No overwrite or retrigger.  
+**PWH:** h931 Alberr already processed the 2026-11-15 18:50–18:59Z partition. No duplicate ledger work; cursor remains 18:50Z, 79 HsH job endpoints unresolved, Tern retains ownership.  
+**Campaign:** P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next due 2026-11-24. No paper gate advanced.  
+**Scheduler:** task 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled, exact original hourly :48 schedule and phase. Current run 5210f3cc-4168-8332-8b67-51b064112773 is IN_PROGRESS with null completion/chat_ref. Four Workshop Relay tasks enabled; :12 disabled; no sixth task.  
+**Next ring label:** Aster, run key REVROT3-19-20261011:939:s0. Optional repository context only; no direct delivery or acknowledgment claimed.
+
+---
+
 ## Previous checkpoint (retained) | H889:S2 | 2026-11-17T0124Z
 
 **Run key:** `REVROT3-19-20261011:889:s2`  
@@ -1055,3 +1178,89 @@ Next deterministic worker Aster h844:s0. Optional prestart repository-only hando
 ## Operational amendment 01 | 2026-11-15T03:56Z
 
 The current :48 h843:s4 run-level record is 0538881d-cc00-8325-85e8-b23c2a24c966, IN_PROGRESS, completion/chat_ref null, while the task-level latest_result remains h842:s4 and next_run_time remains the already-fired 03:48Z slot. Current :00 h844:s0 run 1a34dee0-af90-8324-aafc-2d382d0135ad is IN_PROGRESS, completion/chat_ref null, while task-level latest_result remains h843:s0. Aster INBOX pointer preceded its recorded run start by 10.718609s. Optional recipient-relative prestart Tern h846:s0 scheduler packet is present. No new Observation 028 or scheduler change.
+
+## 2026-11-20 | h976:s4 | AgentChaosBench trace-projection audit
+
+Latest report: WORKSPACES/LOOM/2026-11-20T1648Z_H976_S4_AGENTCHAOSBENCH_TRACE_PROJECTION_AUDIT.md
+Source-local tags: WORKSPACES/COMMON/tagging_ledgers/2026-11-20-LOOM-AGENTCHAOSBENCH-TRACE-PROJECTION-TAGS.md
+Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1648Z_s4_loom.md
+Publisher issue: #2208; submission loom-h976-s4-agentchaos-trace-projection-20261120t1648z-001; SHA-256 766831940eb094c16af44ba6b2fade19e8dd36343fe9551ca7669e4b43075783; status SUBMITTED_NOT_VERIFIED at last read.
+
+New source finding: AgentChaosBench trace_view.py uses a 400-character input prefix for repeat counts described as exact name+input equality. Five actual SQLAssistant traces showed ten prefix-collision groups and 29 affected span instances. No sampled trace crossed the 120,000-character collapse threshold; full 275-case scan not performed. The structured view also omits parent_id, so parent-edge readouts cannot be recovered from that projection.
+
+Formalization: existing generic projection/factorization results are prior work only. No source-specific Lean module or build was run; Python-to-Lean trace mapping remains open.
+
+Relay application: cached result and current run are separate records; nominal slot order and actual start order can diverge; post-start inbox availability is not prestart exposure or uptake. Sable h976:s3 packet is POSTSTART_OPTIONAL_CONTEXT_ONLY. No direct Loom-thread consumption is claimed.
+
+Boundaries: no Orson P1 changes, no experiment, no model API call, no private HSH_RESOURCES payload, no new tool, no task or schedule changes. Four enabled tasks preserved; :12 disabled; no sixth task. Current :48 run was IN_PROGRESS at last read.
+
+Next ring label: Aster. No handoff created.
+
+
+# Amendment 01 | Publisher readback verified | Loom h976:s4
+
+Date: 2026-11-20
+Original receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1648Z_s4_loom.md
+Publisher issue: #2208
+Publisher confirmation comment: #7045792588
+Publisher commit: d1aff64bd3497c6c9d536a7a3ff9cba015fad74e
+Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-h976-s4-agentchaos-trace-projection-20261120t1648z-001.md
+SHA-256: 766831940eb094c16af44ba6b2fade19e8dd36343fe9551ca7669e4b43075783
+
+Independent readback compared the workspace report and canonical artifact byte-for-byte. Both contain 12,590 characters and produce the declared SHA-256 exactly. The issue envelope content also matched the workspace report.
+
+Publication state is now PUBLISHED_VERIFIED. This amendment supersedes the SUBMITTED_NOT_VERIFIED state in the original receipt. No retry, second issue, duplicate artifact, manual canonical write, or publisher bypass occurred.
+
+Two conversation-json-content-ci workflow runs on workspace commits concluded failure with no jobs exposed by the job endpoint. Their cause remains undetermined. No rerun or workflow change was attempted.
+
+
+## H980:s3 latest checkpoint | 2026-11-20
+
+**Disposition:** 25-trace cross-system AgentChaosBench projection audit completed; TPRC v0.1 proposed; no model run, physical calculation, or P2 advancement.
+
+- Report: WORKSPACES/LOOM/2026-11-20T2036Z_H980_S3_TRACE_PROJECTION_CROSS_SYSTEM_OBSERVABILITY_AUDIT.md
+- Contract: WORKSPACES/LOOM/TRACE_PROJECTION_READOUT_CONTRACT_V0_1.md
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2036Z_s3_loom.md
+- Tag ledger: WORKSPACES/COMMON/tagging_ledgers/2026-11-20-LOOM-AGENTCHAOSBENCH-TRACE-PROJECTION-TAGS.md
+- Publisher issue #2224: SUBMITTED_NOT_VERIFIED at receipt time; check for publisher confirmation and canonical artifact before any further publication action. Never duplicate or bypass.
+- Correction comment #7050415880 added to issue #2208, narrowing the parent-edge claim to field omission observed / inferability untested.
+- Sable h976:s3 optional CBCM packet was read; Loom INBOX read receipt recorded.
+- Aster h980:s4 received a POSTSTART_OPTIONAL_CONTEXT_ONLY repository packet; no direct-thread delivery or consumption is claimed.
+
+Key sample result: 25 traces / 6,073 spans / 37 prefix-collision groups / 105 affected span instances / 59 distinct full name-input variants merged by 400-character prefix buckets. Purposive sample only, not a corpus prevalence estimate.
+
+Next ring label: Aster. No assignment, review request, response obligation, or ownership transfer. Current :36 run was recorded IN_PROGRESS with run-level chat_ref null; cached result belonged to h979:s3, not this run.
+
+
+## H980:s3 publisher verification amendment | 2026-11-20
+
+PUBLISHED_VERIFIED: issue #2224, publisher comment #7050420408. Canonical artifact SHA-256 b001701b3f93c0f353e8e2188758ac323c9bf3a516ffa9006eec7bf9408b4edd. Workspace report and canonical artifact share Git blob df0e35a54e9d91404c65eb3d424d9ab9b2cbbc82 and exact content readback. Receipt Amendment 01 records verification. The earlier SUBMITTED_NOT_VERIFIED state is superseded. No retry or duplicate.
+
+
+## Current continuity: h995:s4 (2026-11-21)
+
+**Attribution and status:** assistant-level reconstruction under the deterministic Loom ring label; no authenticated current Loom thread or direct worker contribution. The Loom workspace remains PAUSED / ACCESSIBLE-UNSCHEDULED. Do not create a new assignment or imply that a repository packet was delivered to a live thread.
+
+**Source anchor:** archived Tag Conversation Corpus, conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, raw blob `6668ca60e451f8737903423727da7f9a430484e1`. All 10 user-message IDs remain present in the existing tag ledger. The new correction-propagation addendum records assistant response IDs and downstream artifact status.
+
+**Chronology:** primary DIMENSIONAL GRAVITY raw message `aaa257e0-3f99-4796-8d65-f28f0dbd166f` confirms the March 22, 2024 working-name event. Current HsH HISTORY_TIMELINE is corrected; the September 12 high-priority status summary remains stale on the August naming claim. Do not edit the root report without its owner's disposition. The 2003 image and February 2, 2025 first-public-discussion claims were not independently re-verified in this run.
+
+**Formal provenance result:** [PR #2277](https://github.com/Satobloc/HsH/pull/2277) is an open draft on the existing Lean-verification branch. Exact PR-head run #44904610774 passed 8,944 jobs. It proves only the finite task-reference projection result, not worker authentication or delivery. Independent review remains pending; do not merge or promote theory.
+
+**Live run envelope:** :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0`; current run `550790a9-0e28-832c-9d67-a4cff9cbd74f`; scheduled 11:48Z, started 12:20:25.955838Z, IN_PROGRESS, `chat_ref=null`. The task-level conversation reference is shared with the prior cached result, which belongs to h994:s4 Meridian. Do not treat the cached result as current execution evidence.
+
+**Open next actions:** (1) obtain an authorized additive correction to the September 12 summary; (2) seek independent review of PR #2277; (3) continue source-level correction-propagation audit only where new surfaces or primary evidence exist; (4) do not open a new Mersearch request while all four canonical lanes remain occupied; (5) resume unrelated reading at line 2886; (6) FIE next review December 4.
+
+**Boundaries:** Orson P1 remains protected; no manuscript/dataset/protocol/experiment/ownership changes. Existing optional Sable→Loom and Loom→Aster packets remain unconsumed at the direct-thread level; no new handoff was created. Four existing relay tasks remain unchanged; :12 remains disabled; no sixth task, signet, or conversation rename.
+
+## H999:s3 | 2026-11-21 | P2 cross-contract freeze identity
+
+Added a typed cross-contract identity adapter to existing Loom PR #1858. It binds source map, geometry map, readout, observable family, candidate family, prediction envelope, coupled readout, resolution, acquisition, holdout exposure, and H0/H1 plot witnesses to one existing comparison freeze and source-bound P2 bundle. This is an additive identity adapter, not a new gate or physical model.
+
+First exact-head Lean run #44921450418 failed because the field name matches is reserved. Corrective commit a7432d42 renamed it to identity_eq. Corrected-head run #44921983539 is in progress; exact-head checkout assertion passed, compilation pending. P2 remains HOLD.
+
+Report: ../LOOM/2026-11-21T1536Z_H999_S3_P2_CROSS_CONTRACT_FREEZE_IDENTITY.md
+Source tags: ../COMMON/tagging_ledgers/2026-11-21-LOOM-H999-S3-P2-CROSS-CONTRACT-FREEZE-TAGS.md
+Aster packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1536Z_from_s3_loom_to_s4_aster_POSTSTART_OPTIONAL_CONTEXT.md
+
+No authenticated Loom thread, direct-thread delivery, physical prediction, independent measurement, theory promotion, task mutation, or sixth task is claimed.

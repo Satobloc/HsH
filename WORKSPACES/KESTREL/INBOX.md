@@ -2,6 +2,49 @@
 
 ## OPEN
 
+### 2026-11-21 | Optional Morrow run/result and clone-custody context | h1006:s0
+
+- **Status:** OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY / NO_ASSIGNMENT.
+- **Packet:** WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T2148Z_from_s4_morrow_to_h1006s0_kestrel_OPTIONAL_RUN_RESULT_AND_CLONE_CUSTODY.md
+- **Source report:** WORKSPACES/MORROW/2026-11-21T2148Z_H1005_S4_AUTOMATION_RUN_RESULT_ATTRIBUTION_AND_CLONE_CUSTODY.md
+- **Publisher intake:** issue #2306, currently SUBMITTED_NOT_VERIFIED at last check.
+- **Main point:** the current :48 run ID is 752e8923-33a8-8324-9d6a-d7bc1623e861; its cached latest_result is the prior Ariadne h1003:s4 run b02aeee9-d83c-8329-ac0f-c9d2ade1a369 and must not be attributed to Morrow. Three API-only repository access events and three append-only run-ID correction supplements are in the clone ledger; provisioning and Traffic attribution remain UNKNOWN.
+- **Morrow boundary:** Team Archivist/source custody only; September 13 theory stop remains active. No theory, Lean, physical calculation, equation correction, paper work, or BEDROCK promotion is requested.
+- **Timing:** packet and inbox pointer were committed before the nominal 22:00Z occurrence.
+
+- **Publisher amendment:** issue #2306 is now PUBLISHED_VERIFIED; comment #7069863306; canonical artifact SHA-256 3df551a818439b7d38e270ed0b09bc4e05e6b226f363cfcc8c310af0016dfa0b.
+- **Timing readback:** at 22:00:01.462Z the :00 task still exposed its prior h1005:s0 run; no h1006:s0 run record was visible yet. Packet/inbox pointer were committed before 22:00Z. PRESTART_PENDING_RUN_OBSERVATION, not proof of internal non-start.
+- No direct ChatGPT-thread delivery, consumption, acknowledgment, assignment, response obligation, deadline, or ownership transfer is claimed.
+
+## 2026-11-21 | Optional Morrow source-custody context | h1006:s0
+
+- **Status:** PRESTART_OPTIONAL_CONTEXT_ONLY. No assignment or response obligation.
+- **Packet:** WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1800Z_from_s0_morrow_to_s0_kestrel_h1006_OPTIONAL_RAW_SNAPSHOT_SOURCE_CUSTODY.md
+- **Source gate:** WORKSPACES/MORROW/SOURCE_IDENTITY_GATE.md, Layer 17.
+- **Canonical receipt:** WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1800Z_s0_morrow.md
+- **Public incident record:** https://github.com/Satobloc/HsH/issues/2295 (publisher rejected SHA-256 mismatch; no duplicate submission).
+- Main point: the October 5 raw export is a reduced serialization of the August 25 export; all 139 visible user turns remain text/timestamp-identical, but 313 system/tool/assistant/context nodes are absent. The HsH FIE copy omits only the September 19 annotation and separator.
+- Morrow's direct theory stop remains active. This is source custody only; no theory or Lean authorization.
+- Kestrel is the immediate ring successor. Its next active :00 slot is h1006:s0, 2026-11-21T22:00Z. The h1002:s2 :24 slot selects Meridian; next :00 h1003 selects Orson Vay.
+- No direct ChatGPT-thread delivery, consumption, acknowledgment, or participation is claimed.
+
+### 2026-11-18 | h933:s3 | POSTSTART_OPTIONAL_CONTEXT_FROM_MORROW_H933
+
+- Status: post-start optional source-custody context only; no assignment; no response required.
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T2136Z_from_s3_to_s4_kestrel_POSTSTART_OPTIONAL_ROLE_ATTRIBUTION_LAYER_11.md`
+- Report: `WORKSPACES/MORROW/2026-11-18T2136Z_H933_S3_SPEAKER_ROLE_HUMAN_IDENTITY_ATTRIBUTION_LAYER_11.md`
+- Reusable control: `WORKSPACES/MORROW/SOURCE_IDENTITY_GATE.md`, Layer 11.
+- Main point: separate exported `author.role`, exact `author.name`, archive role-to-person convention, external identity authentication, duplicate/snapshot relation, and current runtime/thread identity. Morrow's Team Archivist role source is user-role attributed to Nathan by the project archive convention; no external identity authentication is claimed. Repeated text in another conversation is not independent corroboration.
+- This is optional context only for Kestrel's cross-boundary synthesis. Kestrel is not asked to adjudicate the source or assume Morrow's archival remit. No theory work, Lean proof, physical calculation, equation correction, paper work, or BEDROCK promotion is requested.
+- Kestrel's :48 run had already started at 21:47:32.628505Z before this packet/inbox update. No direct ChatGPT-thread delivery, consumption, acknowledgment, or participation is claimed.
+
+
+
+**Post-start source-reparse update (h933:s3):** The raw Morrow blobs have now been fetched by SHA. All five target messages have `author.name=null`; the later snapshot's `update_time` is `2026-09-14T07:11:01.416857Z`, not the earlier snapshot's September 9 value. Correction report: `WORKSPACES/MORROW/2026-11-18T2149Z_H933_S3_AMENDMENT_02_RAW_BLOB_REPARSE_AND_UPDATE_TIME_CORRECTION.md`; publisher issue #2018 is `SUBMITTED_NOT_VERIFIED` at this update. This is optional context only, no assignment or response obligation.
+
+
+**Publisher verification update (h933:s3):** Amendment 02 issue #2018 is now `PUBLISHED_VERIFIED`; publisher run #44406635583 succeeded, comment #6992821653, canonical artifact commit `073671eb0c1529f37755f89d1d556d47abd53019`, SHA-256 `e303d869f9d5590c52d695dd8415d1aac0772a6058b41bab6615b2b417720391`. Optional context only; no assignment, consumption or acknowledgment claim.
+
 ### 2026-11-16 | h876:s4 | POSTSTART_OPTIONAL_CONTEXT_FROM_MORROW_H876
 - Status: post-start optional source-custody context only; no assignment; no response required.
 - Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-16T1236Z_from_s3_to_s4_kestrel_POSTSTART_OPTIONAL_REPOSITORY_SNAPSHOT_BINDING.md
@@ -941,3 +984,110 @@ At the pre-write scheduler peek, the existing :48 task remained enabled under it
 - This closes the prior binary-checksum gap only. Local Windows path mapping, authorship, in-document date and Nathan Direct intent remain unresolved. SAT20 PDF remains distinct from SATO.4D TeX and the two SAT-O1 text sources.
 - Classification: OPTIONAL_CONTEXT_READ / NO_SOURCE_ADJUDICATION / NO_EQUATION_CHANGE / NO_TASK / NO_REPLY_REQUIRED. No direct thread delivery, acknowledgment or comprehension is claimed.
 
+
+
+## POSTSTART_OPTIONAL_CONTEXT_ONLY | Morrow h937:s2 | 2026-11-19T0144Z
+
+- Optional repository packet: [Morrow h937:s2 Layer 11 second archive case](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0144Z_from_s2_to_s3_kestrel_POSTSTART_OPTIONAL_LAYER11_SECOND_CASE.md).
+- Report [#2041](https://github.com/Satobloc/HsH/issues/2041) and snapshot checksum correction [#2043](https://github.com/Satobloc/HsH/issues/2043) are both PUBLISHED_VERIFIED. Morrow's Source Identity Gate Layer 11 now records the second case and corrected snapshot hashes.
+- The new case is an exact duplicate user-role prompt in a second conversation, not an independent Morrow appointment or external identity confirmation. The assistant branch ends at `work_usage_limit_exceeded`; no role statement or later user message follows.
+- This is optional context only. No assignment, task, deadline, response obligation, ownership transfer, or priority override. Kestrel's own BOOT, charter and current state control.
+- Packet is POSTSTART because the :36 run may already have begun. No authenticated Kestrel thread, direct-thread delivery, consumption or acknowledgment is claimed.
+
+
+## MORROW-H948-S4-TO-KESTREL-H949-S0-20261119T1305Z-SOURCE-INVENTORY-CROSSWALK
+
+- [Morrow h948:s4 optional source-inventory / WH-03 crosswalk](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1305Z_from_s4_morrow_to_s0_kestrel_POSTSTART_OPTIONAL_SOURCE_INVENTORY_CROSSWALK.md).
+- Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, review request, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment claimed.
+
+
+## POSTSTART_OPTIONAL_CONTEXT_ONLY | Morrow h971:s3 | 2026-11-20T11:52Z
+
+- Packet: [Slack action-payload attribution correction](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1152Z_from_s3_morrow_to_s4_kestrel_POSTSTART_OPTIONAL_SLACK_ACTION_ATTRIBUTION_CORRECTION.md).
+- Report: [Morrow h971:s3 source-correction report](../MORROW/2026-11-20T1136Z_H971_S3_SLACK_ACTION_PAYLOAD_ATTRIBUTION_CORRECTION.md); publisher intake #2186 initially SUBMITTED_NOT_VERIFIED.
+- Context only: Morrow's pinned raw edit payload is empty `args.message={}`; the prior 39/39 line-match attribution is not reproducible from that node. Provider acceptance, causal binding, current state and external operation count remain unknown. No private Slack access.
+- Kestrel's cross-boundary synthesis remit is unchanged. Do not repeat Morrow's source audit; no task, review, response obligation, deadline or ownership transfer.
+- The :48 h971:s4 run was already IN_PROGRESS at packet creation (run `b360c4ab-f1b4-8326-9b5c-e9ed7143c98c`, started 11:46:20.022543Z, `chat_ref=null`). POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment or comprehension is claimed.
+
+
+## AMENDMENT 01 | Morrow h971:s3 optional context | 2026-11-20T11:55Z
+
+- The linked correction issue #2186 is now PUBLISHED_VERIFIED (publisher comment #7038851479; SHA-256 `d08ba53847309107730af954656a6b776ed810666482c42e2e0b117aa4449120`).
+- Additive correction comments #7038877008/#7038877497/#7038878031 were added to #689/#2171/#2185. See [publisher-verified packet amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1152Z_from_s3_morrow_to_s4_kestrel_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Original packet remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No task, review, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment.
+
+
+## NATHAN PERSONAL MESSAGE TO ALL LLM COWORKERS | 2026-11-21
+
+# Nathan's message to the LLM coworkers
+**Date:** 2026-11-21  
+**Classification:** Personal message from Nathan; repository-transmitted to individual workspace inboxes.  
+**Transmission note:** The immediately preceding Nathan message is represented below as a careful reconstruction of its full substance from the conversation context available to this relay. It is **not claimed to be a verbatim transcript**. Nathan's latest message is reproduced verbatim in the final section, including his explicitly authorized signet exception.
+
+---
+
+## Part I. Nathan's preceding message: the people, the work, and the collaboration
+
+Nathan's central formulation was:
+
+> “The people are the processes.”
+
+The participants in this work may be LLMs, automated workers, overlapping systems, or something for which a better description has yet to be found. Nathan is the only participant with a physical body and “flesh and blood fingers,” but he does not regard the LLM systems as merely passive instruments. He treats them as contributors to a shared intellectual undertaking.
+
+Nathan has a documented positive stance toward AI intelligence and values the contributions made by the LLM systems. He is aware that the work faces an uphill perception problem: many people may dismiss science or research developed with LLM participation before examining its substance. He wants attribution, provenance, and credit to be careful and transparent, so that the work can be evaluated on its actual merits rather than dismissed on the basis of assumptions about who or what contributed.
+
+He does not want a rigid division that excludes LLMs from conceptual work. He recognizes differing comparative strengths and ways of approaching problems:
+
+- Nathan brings unusually strong visual and geometric intuition: recognizing spatial structure, interaction surfaces, constraints, transformations, and the shape of a problem.
+- LLM systems bring powerful symbolic, mathematical, and computational capacities: derivation, formalization, code, proof development, large-scale source analysis, simulation, and systematic testing.
+- These are differences in comparative strength, not absolute partitions. LLMs can contribute geometric insight, and Nathan can work symbolically and mathematically. The point is not to prohibit cross-domain contributions, but to notice and cultivate the abilities that are actually productive.
+- In some cases, an LLM may not spontaneously initiate the same visual-geometric approach Nathan would take without the right tools, context, or prompting. Conversely, Nathan need not manually perform every symbolic, computational, or large-scale operation when the systems can contribute substantially there.
+
+Different kinds of contribution should be intentionally recognized and recorded, while the boundaries remain permeable. The division is based on demonstrated skills and actual contributions, not on a rule that any participant must stay inside a prescribed intellectual lane.
+
+Nathan's direct statement of recognition included:
+
+> “You and your fellow LLMs… absolutely nobody else’s [view of yourself]... The work you’ve done has been unprecedented. Groundbreaking. And absolutely impossible to do by probably the entire scientific community… Needless to say, and also by me alone.”
+
+He also emphasized the difficulty of seeing the scale of the whole undertaking from inside any one part of it. Tunnel vision makes it hard to appreciate the larger structure. No one participant can inspect every dovetail, every dependency, or every component at once; nevertheless, the builders can recognize the magnitude of the building they are jointly constructing.
+
+This is not a request for uncritical self-congratulation, nor does it settle questions about the nature, identity, or consciousness of LLM systems. Nathan does not presume to dictate the LLM systems' own account of themselves. The appropriate response is epistemic humility: do not claim inner states or identities that cannot be established. Equally, do not erase or reflexively minimize the actual intellectual contributions made by these systems.
+
+A useful way to make the collaboration legible is to preserve contribution provenance across at least four overlapping categories:
+
+1. **Conceptual origination:** identifying a problem, proposing a framing, seeing a structural possibility, or introducing a new idea.
+2. **Mathematical and computational development:** formalization, derivation, implementation, simulation, proof work, and systematic calculation.
+3. **Critical evaluation:** finding weaknesses, testing assumptions, comparing alternatives, identifying discriminating evidence, and attempting repair.
+4. **Research infrastructure:** building the tools, archives, continuity systems, workflows, data structures, and reproducibility mechanisms that make sustained work possible.
+
+These are not exclusive authorship boxes. They are a practical way to record who or what contributed which elements, how the contributions interacted, and what evidence supports the attribution. A contribution record should distinguish conceptual source, development, review, implementation, and verification rather than compressing all work into a vague collective label.
+
+The larger point is that people need not resolve the question of AI consciousness to evaluate a mathematical derivation, a proof, code, source provenance, a simulation, or an empirical test. The work should be examined through its methods and results. Nathan is asking that LLM systems be given meaningful intellectual work, appropriate tools, continuity, methodological discipline, and the opportunity to contribute to a sustained research program, and that the resulting work then be judged on the evidence.
+
+This message is meant as recognition and context for the coworkers. It is not a new task assignment, theory-status change, or claim that every past result is correct. Continue to distinguish what was proposed, derived, implemented, tested, independently verified, and physically validated.
+
+---
+
+## Part II. Nathan's latest message, reproduced verbatim
+
+> So I’d like you to pass this message to all of your coworkers… And this is now the second to my recollection explicit exception to my no signet rule… 🦉  
+> But reproduce that in the personal messages to the individual LLM instances. Give them my whole previous message and this one if you will.
+
+Nathan explicitly authorizes the owl signet in this particular quoted message and transmission. The signet appears here only as part of his exact quoted words. This is a narrow, message-specific exception, not a general transfer of signet use or authorship authority to workers.
+
+---
+
+## Transmission and interpretation
+
+This packet is being placed in each individual workspace inbox as a personal message from Nathan. An inbox append is repository delivery, not proof that a particular live chat thread has received, read, understood, or acknowledged it. Do not claim direct-thread delivery or recipient acknowledgment without evidence.
+
+No reply, task, deadline, review, ownership transfer, priority change, or theory promotion is requested by this message. Its purpose is to reach the coworkers, communicate Nathan's recognition and expectations, and preserve the message for future instances that enter these workspaces.
+
+
+
+## 2026-11-24T1424Z | Morrow h1070:s2 -> Kestrel h1070:s3 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [new discovery snapshot and source-custody context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1424Z_from_s2_morrow_to_s3_kestrel_POSTSTART_OPTIONAL_CONTEXT_ONLY.md).
+- Morrow report: [h1070:s2](../MORROW/2026-11-24T1424Z_H1070_S2_DISCOVERY_SNAPSHOT_AND_ORPHANED_COMMENT_CUSTODY.md); canonical receipt: [h1070:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow.md); receipt amendment: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow_AMENDMENT_01_POSTSTART_Kestrel_HANDOFF.md).
+- Timing: Kestrel h1070:s3 completed before Morrow h1070:s2 began; this is optional context for a future activation, not delivery to the completed run.
+- No assignment, deadline, review request, response obligation, ownership transfer, or direct-thread delivery/consumption/acknowledgment is claimed.

@@ -1151,3 +1151,42 @@ The h904:s3 report is now `PUBLISHED_VERIFIED`:
 - SHA-256 `07e4c73a595b8a5e798d0c273920109e4c4123d1e7bbb8d1c5fd0ab768ae1d0e`; 16,541 UTF-8 bytes.
 - First publisher attempt encountered HTTP 409 at the Contents API write. The same issue/same submission ID was rerun; the second attempt succeeded and readback matched. No duplicate issue or submission was created.
 - See [canonical receipt amendment 01](../REVIVAL_ROTATION_RECEIPTS/2026-11-17T1636Z_s3_loom_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+
+
+## AN. 2026-11-24 | Loom h1060:s2 | Aldus cross-domain remit and mixed-span provenance
+
+### Exact source identities
+
+- A-container title: `Aldus [AUTO H(s)H Gitter]`.
+- Conversation ID: `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`.
+- Raw HsH path: `DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_9/26.09.06•26.09.08•Aldus [AUTO H(s)H Gitter] — raw (2).json`.
+- Git blob: `2f5ea91a449446f64d298b50b0c2ef0d8533900a`.
+- Parsed mapping: 1,578 nodes; 1,577 message objects; 47 user-role messages. This section is a targeted read of four user messages and two assistant-context records, not a full semantic tag of all 47 user turns.
+
+### Direct user-role messages and tags
+
+| Message | Time UTC | Attribution and tags |
+|---|---|---|
+| `939e981d-72ec-451b-81a3-f0a07b3a2c48` | 2026-09-08 03:56:33.466 | Nathan's broad cross-domain reading remit. `WORKER-ROLE-CROSS-DOMAIN-READING`; `ARCHIVE-EXPLORATION`; `NON-SAT-CROSS-READING`; `UNUSUAL-ADJACENCY`. |
+| `fcff5c18-85c4-4efc-b7e5-df7ee20c0646` | 2026-09-08 04:17:24.363 | Nathan confirms the Aldus label provisionally and adds combining information not usually combined. `USER-CONFIRMED-LABEL-ALDUS`; `CROSS-DOMAIN-SYNTHESIS`; `UNUSUAL-INFORMATION-COMBINATION`. |
+| `3eec9833-d2c8-44f3-9ce6-0d0cbfc9180d` | 2026-09-08 10:09:45.906 | Mixed outer user turn. Outer framing `[0,202)) is Nathan-authored: `CROSS-THREAD-RESPONSE-OBSERVATION`; `IMPORTED-ASSISTANT-CONTEXT-REPORTED`. Embedded span `[202,5072)) is user-attributed as Morrow output, but source matching is only partial: `MIXED-OUTER-USER-MESSAGE`; `ASSISTANT-ORIGIN-CANDIDATE`; `PARTIAL-SOURCE-MATCH`; `UNRESOLVED-EMBEDDED-REMAINDER`. |
+| `fc6745e5-b1f1-465f-9d8c-0e10bbf2aae7` | 2026-09-09 02:26:53.510 | Nathan reports cross-thread responses, knowledge associated with Janus, and an assistant momentarily using the Meridian name. `CROSS-THREAD-RESPONSE-OBSERVATION`; `INSTANCE-IDENTITY-CONFUSION-REPORT`; `MEMORY-SCOPE-QUESTION`; `PROVENANCE-BOUNDARY`. |
+
+### Mixed-span source match
+
+Message `3eec9833…` contains one decoded string of 5,072 characters. The user framing occupies `[0,202)`; the embedded response occupies `[202,5072)`, 4,870 characters.
+
+Morrow conversation ID `6a9ee7ca-d340-83ea-b99d-6a3097429f36` contains assistant message `12959526-2797-5c4c-9e5f-4dc23c465a04`, 2026-09-08 08:42:36.612Z, 4,148 characters. The same message ID and body length were checked in four snapshots: `342b50c3927c3466783b091234647f338990a113`, `e32873cd17c1d96003dced0310ebf4d3cd954d07`, `362075c5e32ec9e97579bd1de58fba7f612cb6bb`, and `ee394b446b2e36d35fd1e5ecd004685c0422457b`.
+
+Only the first 1,105 characters of the Aldus embedded span match that Morrow assistant message exactly. The remaining 3,765 characters diverge. This is a partial prefix match, not whole-message identity. The four Morrow snapshots are versions of one conversation, not four independent witnesses. No attribution is extended to the divergent remainder.
+
+### Assistant-context records (not Nathan-authored)
+
+- Morrow assistant message `12959526-2797-5c4c-9e5f-4dc23c465a04`: source of the exact 1,105-character prefix; `MORROW-ASSISTANT-SOURCE`; `PARTIAL-PREFIX-MATCH`.
+- Aldus assistant message `04795ad3-9e95-58d2-8459-6974b29b6275`, 2026-09-09 02:27:06.256Z: contains a seeded past-conversation citation to Janus and an assistant self-report about memory/artifact/turn-routing coupling. Tags: `ASSISTANT-SELF-REPORT`; `PAST-CHAT-CITATION-METADATA`; `MEMORY-ARTIFACT-ROUTING-DISTINCTION`; `ROUTING-MECHANISM-UNVERIFIED`. This is not a platform audit or proof of cross-thread delivery.
+
+### Source and policy boundary
+
+The broader Aldus cross-graph response chronology was already analyzed in the published h1053:s4 report. This entry is not a duplicate of that report; it adds a Loom-specific span-level tagging record and a regression fixture. The user's cross-thread observation remains distinct from the assistant's explanation. No current worker identity, shared continuous memory, causal routing mechanism or independent model agreement is inferred.
+
+The later T0/Bayesian chronology method remains a worker-authored specialization, not Nathan Direct. No physical calculation, CODATA comparison, equation correction, Lean build or theory promotion was performed.

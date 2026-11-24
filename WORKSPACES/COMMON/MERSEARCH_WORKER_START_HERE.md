@@ -4,6 +4,19 @@
 
 **Effective 2026-10-09. Direct user instruction:** SAT/H(s)H LLM workers **should be using Mersearch now** for archive archaeology, source recovery, prior calculations, theory history, provenance, and source-first mathematical work. It is an active shared tool, not a future idea. **Search before claiming a construction is absent, novel, unrecoverable or superseded.**
 
+
+> # **CRITICAL: MYSEARCH / MERSEARCH ARE NOT SEPARATELY EXPOSED CONNECTOR TOOLS**
+>
+> **THERE IS NO “MYSEARCH TOOL EXPOSURE” OR “MERSEARCH TOOL EXPOSURE” TO LOOK FOR.**
+>
+> Mysearch and Mersearch are bespoke archive search systems. Their code, documentation, request formats, workflows, and result structures live **inside the archives**. Invoke them **through the connected archive connector**, using its repository read/write, workflow-dispatch/Actions, and artifact-retrieval operations to operate the archive-resident interfaces. The archive connector is the access surface; Mysearch/Mersearch are the search systems used through it.
+>
+> When the task is archive search, these bespoke systems **take the place of the connector's generic search functions** wherever their documented route supports the request. Do not decide they are unavailable because no standalone Mysearch/Mersearch tool appears in a tool list. Do not silently replace them with generic GitHub code search or ordinary file search.
+>
+> For Mersearch without local Python, use the documented GitHub-connector request-lane / Actions-bridge procedure below. Inspect lane status before writing, use a free lane, then read the request-specific manifest and receipt. Respect the post-containment limits: compact receipts do not expose exhaustive raw hit inventories. Check Mysearch's actual archive-recorded operational status before choosing it; standalone tool exposure is not the test.
+>
+> **Generic GitHub/code search is a disclosed fallback only** when the documented bespoke route genuinely cannot be operated through the archive connector. State the exact blocker, searched scope, and limitations. Never label fallback results as Mysearch or Mersearch.
+
 **Historical Nathan Direct, 2026-10-09 (SUPERSEDED research-access restrictions; internal-first remains):** Read [the original October 9 rule](NATHAN_DIRECT_2026-10-09_INTERNAL_FIRST_PROVENANCE_AND_SOURCE_BOUNDARY.md) as source history, **not as a current ban**. Its prohibitions on Hypothesis H, directly Schreiber-authored material and other formerly quarantined comparisons were superseded for **research access** by Nathan's October 24 directive above. First recover SAT/H(s)H precedent and Nathan's intent, then compare outside work without importing assumptions by resemblance. *No Hopf/spherical carrier is imported by default.* The searcher's automatic `PRIOR_ART`/`QUARANTINE` exclusions remain intentionally unchanged as **public-index and exposure controls**, not research-access prohibitions. Do not bypass them to publish private or unreviewed material. The nLab Mersearch port is stand-alone, not an interoperability bridge.
 
 
@@ -28,7 +41,7 @@ Treat `PRIOR_ART` and `QUARANTINE` as excluded. Do not silently limit a historic
 
 **Do not confuse the human Pages interface with research search.** The public web page is a curated conversation-*title/path* catalog until a separately reviewed public full-text index goes live. It does not expose the whole research corpus.
 
-> **2026-10-26 publication containment and recursion control (live):** All four bridge workflows now publish only `RUN_MANIFEST.json`, `SEARCH_RECEIPT.json`, and `SEARCH_RECEIPT.md`. New raw `SEARCH_RESULTS.json/.md` are withheld in temporary job storage, not durable public artifacts; older runs may still have raw results and remain a separate exposure-remediation problem. This preserves public-safe bounded navigation but **does not satisfy an exhaustive full-hit inventory request**. The bridge also passes stable Mersearch's existing `--exclude mersearch_requests` option, preventing prior generated request outputs from recursively dominating fresh source searches. The manifest records `bridge_exclusions`. Neither change has yet been verified by a post-patch Actions execution. For exhaustive, access-controlled results, use a local pinned checkout or obtain an approved restricted artifact path; do not overwrite occupied lanes or claim full results from a compact receipt.
+> **2026-10-26 publication containment and recursion control (live):** All four bridge workflows now publish only `RUN_MANIFEST.json`, `SEARCH_RECEIPT.json`, and `SEARCH_RECEIPT.md`. New raw `SEARCH_RESULTS.json/.md` are withheld in temporary job storage, not durable public artifacts; older runs may still have raw results and remain a separate exposure-remediation problem. This preserves public-safe bounded navigation but **does not satisfy an exhaustive full-hit inventory request**. The bridge also passes stable Mersearch's existing `--exclude mersearch_requests` option, preventing prior generated request outputs from recursively dominating fresh source searches. The manifest records `bridge_exclusions`. First post-containment execution observed: Lane 2 run #44818799476 (attempt 1, completed successfully) records `bridge_exclusions: ["mersearch_requests"]` and publishes only the three compact artifacts. Job logs confirm that raw `SEARCH_RESULTS.json/.md` remained in temporary Actions job storage and were not copied to `main`. This verifies the containment/exclusion path for this one run only, not every lane, exhaustive hit retrieval, or semantic completeness. The run used a runtime-only hotfix injecting `TOOL_NAME` and `TOOL_VERSION`; the `mersearch-stable-1.0` branch remained unchanged, and the stable/runtime script hashes are separately recorded in the manifest. The lane request remains `requested`; the lane is not released. For exhaustive, access-controlled results, use a local pinned checkout or obtain an approved restricted artifact path; do not overwrite occupied lanes or claim full results from a compact receipt.
 
 ## GitHub connector route: parallel request lanes
 
@@ -49,6 +62,19 @@ Each lane has its own GitHub Actions workflow and its own concurrency group, so 
 3. Retrieve the request-scoped folder `indexes/mersearch_requests/<request_id>/` and verify `RUN_MANIFEST.json`, `SEARCH_RECEIPT.json` and `SEARCH_RECEIPT.md`. **For post-2026-10-26 containment runs, these are the only three files intentionally published by the bridge**; do not treat absent `SEARCH_RESULTS.json/.md` as a failed run or claim that compact receipts contain all hits. The moving aliases `latest.*` are insufficient provenance.
    - **Historical pre-containment runs** may also have public `SEARCH_RESULTS.json` and `SEARCH_RESULTS.md`. Their existence is not authorization to redistribute raw excerpts; assess exposure before reuse. For complete post-containment results, execute pinned Mersearch against an authorized local three-root checkout or use an approved restricted durable artifact route. `RUN_MANIFEST.json` may contain digests for raw outputs generated inside the job even though those outputs were **not** published. Compact receipts are navigation samples; detailed `resources/` matches are intentionally omitted. Confirm the workflow execution and exclusions before claiming coverage.
 4. Confirm the **actual** searched repositories, exact source SHAs, stable Mersearch implementation ref, exclusions and completion. Failed or incomplete runs are not results. Remember: scan exclusions and large files may limit completeness even if three repositories were checked out.
+
+## Execution-to-artifact binding
+
+A request ID and compact manifest do not, by themselves, identify the execution attempt that produced the artifacts. For every bridge run, preserve the chain:
+
+1. Request file path, request ID, requester, query hash and request-file blob SHA.
+2. GitHub Actions run ID, run attempt, workflow ID/name, run event, head branch/SHA and status/conclusion.
+3. Job ID and each checkout step number/name/status, with the actual repository, ref mode, fetch depth and post-checkout commit SHA.
+4. Stable implementation ref/hash **and** any runtime-only patch/hash, kept distinct.
+5. Output artifact paths, SHA-256 digests, publication policy, and independent readback of each durable artifact.
+6. A separate current-run reference, if present. Task-level conversation references and cached-result references must not be promoted to current-run thread bindings.
+
+If the compact manifest omits run/attempt/job/step identifiers, recover them from the Actions run and job logs and append one clone-ledger row per actual checkout event. Do not infer checkout count from repository count, compare a cross-repository checkout SHA with the HsH workflow head, or treat a successful run as proof of exhaustive search. Raw search-result artifacts remain withheld under the post-containment policy.
 
 ## Local pinned Mersearch usage
 
@@ -102,3 +128,16 @@ If an agent's task involves SAT/H(s)H history, equations, geometry, or the statu
 - [Human-facing deployment guide](https://github.com/Satobloc/HsH/blob/mersearch-chronology-20261007/CONVERSATION_VIEWER/mersearch/README.md)
 
 **Shortcut:** Search three roots; disclose coverage; verify original records; then do the science.
+
+
+## Display-time convention: Nathan Direct (20 November 2026)
+
+Mersearch and H(s)H operational interfaces must preserve canonical timestamps as timezone-aware machine values, preferably ISO 8601 UTC with a `Z` suffix. **Whenever timestamps are presented to Nathan, convert and display them in the `America/New_York` time zone.** This includes request receipts, queue snapshots, timestamps of requests ahead, event histories, run/status summaries, manifests rendered for the user, and operational reports.
+
+Use the IANA zone `America/New_York`, not a fixed `EST` or `EDT` offset. The zone automatically observes the applicable Eastern Standard Time / Eastern Daylight Time rules. Label displayed values as **ET** (or spell out EST/EDT as applicable); do not call all-year local time "EST". Preserve the original UTC timestamp in machine-readable records and, when useful for audit, show it alongside the Eastern rendering. Never rewrite historical event timestamps merely to change their display zone.
+
+This is a presentation-layer preference, not a requirement to store local-time timestamps or to change cross-system ordering, sorting, signatures, hashes, or protocol semantics. If a user-facing interface cannot perform timezone conversion, it must disclose the canonical timezone rather than silently presenting an unlabeled local-looking time.
+
+**Signature / attribution:** This directive is recorded at Nathan's request. Reproduce the signet only as **[OWL]** in documents, comments, generated materials, and acknowledgments. Never recreate or emit the actual signet glyph or its entity/emoji representation. Exact authorized signature text:
+
+`--NM 20NOV26 [OWL]`

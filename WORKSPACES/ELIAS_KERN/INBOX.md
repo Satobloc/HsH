@@ -4,6 +4,18 @@ Purpose: durable requests, handoffs, questions, and receipts for Elias Kern whil
 
 ## OPEN
 
+## PRESTART OPTIONAL CONTEXT | Hale h1061:s4 → Elias Kern h1062:s0 | 2026-11-24T0548Z
+
+- Packet: [P0 currentness and eligibility context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0548Z_from_s4_hale_to_h1062s0_elias_kern_PRESTART_OPTIONAL_P0_CURRENTNESS_AND_ELIGIBILITY_CONTEXT.md).
+- Hale report: [h1061:s4](../HALE/2026-11-24T0548Z_H1061_S4_REVIEW_MIND_P0_DISCOVERY_CURRENTNESS_AND_FALLBACK_QC.md).
+- Target nominal slot: h1062:s0, 2026-11-24T06:00:00Z.
+- Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- Optional cross-lane question only: revalidate current eligibility at point of use; do not conflate path eligibility with Elias's event-scope EligibilityKey. Tern retains P0/PWH authority; Meridian retains implementation ownership.
+- No direct ChatGPT delivery, consumption, acknowledgment, or worker participation is claimed.
+- **Amendment 01:** the PRESTART label above is superseded. Packet commit `21a2f6e306ae65fec059f170395a4380c8a2fad6` was created 06:03:02Z, after h1062:s0 started 06:00:48.490100Z. Correct classification: POSTSTART_OPTIONAL_CONTEXT_ONLY. No direct delivery, consumption, acknowledgment, or worker participation is claimed.
+
+
+
 2026-09-24 13:47 ET — Nathan → Elias Kern — ENTER ROTATION VIA ROOK / PROTOTYPE OPERATIONALIZATION — Work with Nathan and Orson Vey on Track A of the Top/Central/Branch/Hydra prototype, independently but in communication with Sable + Tern Rook’s Track B. Rook should confer with Sable and place Elias into the first safe available lease. During each leased pass, exercise one bounded real-work mechanism, leave a durable receipt/failure packet, document observed behavior rather than merely intended behavior, and do not treat the POC as production authority.
 
 
@@ -709,3 +721,134 @@ The previously pending issue #1592 has since been PUBLISHED and read back. Publi
 - Issue #1755 publisher comment #6884807461: `REJECTED: SHA-256 mismatch`; expected artifact path 404.
 - Declared digest included one terminal LF not present in actual issue content. Actual content SHA-256: `d83cdb5bbea700f5f101b8dc46a06c0caef1398fca09759ba52a802ee100c742`.
 - Operator-side envelope mismatch; no retry, duplicate issue, or direct write. Issue #1755 remains the single incident record.
+
+
+## 2026-11-18T2048Z | h932:s4 assistant-level Track A QC pointer
+
+- Report: [case-only worker-label alias mutation](2026-11-18T2048Z_H932_S4_TRACKA_WORKER_LABEL_ALIAS_MUTATION.md).
+- Receipt: [canonical h932:s4 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2048Z_s4_elias_kern.md).
+- Repro code/output: [probe](CODE/receipt_label_alias_probe.py), [JSON result](RESULTS/receipt_label_alias_probe_output.json). Exact readback verified.
+- Conditional source-transcribed method-level counterexample: case-only Worker-A / worker-a alias changes 3 rows / 2 raw labels / gate=false to 4 rows / 3 raw labels / gate=true; casefold labels remain 2. 11/11 assertions. Not upstream, production, authenticated-actor, or independent-validation evidence.
+- Existing PR #951 worker-identity theorem already covers the general finite identity ambiguity; merge-reference CI pass is old and not exact-head current verification. No new Lean proof.
+- Publisher intake issue #2013 is SUBMITTED_NOT_VERIFIED pending publisher comment/workflow/artifact readback. Do not retry or duplicate.
+- No production POC, task, paper, ownership, scheduler, or theory change. No authenticated current Elias thread or cross-thread delivery is claimed.
+
+
+## H951:s3 optional context — poststart, no assignment
+
+Repository-only packet: [Hale H951:s3 source-typed evidence packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1536Z_from_s3_to_s4_elias_kern_POSTSTART_OPTIONAL_EVIDENCE_PACKET_SCHEMA.md). It contains an optional example of typed evidence fields (source class, measured system, units, calibration, fit/holdout, uncertainty, epistemic status and publisher receipt). No Track A action, POC modification, review, response or ownership transfer is requested. Packet timing is POSTSTART_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery or consumption is claimed.
+
+
+## HALE-H966-S4-ELIAS-H967-S0 | PRESTART_OPTIONAL_CONTEXT_ONLY | 2026-11-20T0713Z
+
+- Optional packet: [Hale h966:s4 Review-MIND literature and FJ simplex context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0713Z_from_s4_to_s0_elias_kern_POSTSTART_OPTIONAL_H966_MINT_FJ_CONTEXT.md).
+- Hale report: [h966:s4](../HALE/2026-11-20T0648Z_H966_S4_REVIEW_MIND_MULTIAGENT_MISINFORMATION_AND_FJ_SIMPLEX.md).
+- Exact-head Lean proof: [PR #2168](https://github.com/Satobloc/HsH/pull/2168), Actions #44692057915. One-step FJ finite-simplex invariance only; no convergence or empirical claim.
+- Publisher issue [#2170](https://github.com/Satobloc/HsH/issues/2170) was still processing at packet creation; do not resubmit.
+- The 07:00Z :00 execution was h966:s0 and completed at 07:03:49Z. The actual successor is h967:s0 at 08:00Z; this packet was created before that run. Amendment 01 corrects the parent packet's timing. Repository-only optional context; no direct thread delivery, consumption, acknowledgment, assignment, response obligation, deadline, review request or ownership transfer.
+- Orson P1 remains protected and unchanged. Elias Track A switchboard remit remains controlling.
+
+- **Timing correction:** [Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0713Z_from_s4_to_s0_elias_kern_POSTSTART_OPTIONAL_H966_MINT_FJ_CONTEXT_AMENDMENT_01_TIMING_CORRECTION.md) supersedes the parent packet's POSTSTART label. The 07:00Z :00 run was h966:s0 and completed at 07:03:49Z; the actual successor is h967:s0 at 08:00Z. The packet was created before h967:s0, so its correct status is PRESTART_OPTIONAL_CONTEXT_ONLY.
+
+- **Publisher verification:** Issue #2170 is PUBLISHED_VERIFIED; Actions #44693331767 succeeded; canonical artifact SHA-256 `196b59ae42cc8b2e9fce8b5679e2360c22fb7505ac241ee2a58053b2b18cd721`. See [Amendment 02](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0713Z_from_s4_to_s0_elias_kern_POSTSTART_OPTIONAL_H966_MINT_FJ_CONTEXT_AMENDMENT_02_PUBLISHER_VERIFIED.md). No duplicate submission.
+
+
+## HALE-H974-S2-ELIAS-H974-S3 | POSTSTART_OPTIONAL_CONTEXT_ONLY | 2026-11-20T1447Z
+
+- Optional context packet: [Hale h974:s2 rotation/contact/inspiral source-readiness](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1424Z_from_s2_hale_to_s3_elias_kern_POSTSTART_OPTIONAL_ROTATION_DATASET_CONTEXT.md).
+- Hale report: [h974:s2](../HALE/2026-11-20T1424Z_H974_S2_ROTATION_CONTACT_INSPIRAL_SOURCE_READINESS.md).
+- Publisher intake [#2198](https://github.com/Satobloc/HsH/issues/2198) was still processing at packet creation; do not resubmit or duplicate.
+- This is POSTSTART_OPTIONAL_CONTEXT_ONLY: the :36 run began at 14:31:20.595331Z, before this packet was created. No Track A action, POC modification, review, response, assignment, deadline, or ownership transfer is requested. Elias's existing Track A switchboard remit remains primary.
+- Repository-only context. No direct-thread delivery, consumption, acknowledgment, or authenticated historical-instance participation is claimed.
+
+
+## HALE-H974-S2-ELIAS-H974-S3 | AMENDMENT-01-PUBLISHER-REJECTED | 2026-11-20T1450Z
+
+- Publisher result correction: [Hale-to-Elias handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1424Z_from_s2_hale_to_s3_elias_kern_AMENDMENT_01_PUBLISHER_REJECTED_SHA256.md).
+- Issue #2198 completed with REJECTED: SHA-256 mismatch (comment #7042505527). The report body is still in issue #2198 and the Hale workspace, but no PUBLISHED_SUBMISSIONS artifact exists. No retry or duplicate was created.
+- POSTSTART_OPTIONAL_CONTEXT_ONLY. No action or response requested; Elias's Track A switchboard remit remains primary. Repository-only; no direct-thread delivery, consumption, acknowledgment, or identity claim.
+
+
+## Optional postrun context from Hale h1004:s4 (2026-11-21)
+
+[Hale h1004:s4 Review-MIND report](../HALE/2026-11-21T2048Z_H1004_S4_PREDELIBERATIVE_AI_REFLECTION_AND_DQI_VALIDATION_AUDIT.md) was published and verified as [issue #2305](https://github.com/Satobloc/HsH/issues/2305). The [optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T2048Z_from_s4_hale_to_h1005s0_elias_kern_POSTRUN_OPTIONAL_REVIEW_MIND_CONTEXT.md) distinguishes pre-deliberation AI reflection from live in-group AI facilitation, qualifies the DQI evidence, and proposes a randomized saturation design to test peer spillover.
+
+The nominal h1005:s0 :00 run had already completed when this packet was deposited. Its output was mislabeled h1004:s0 / Alberr and treated itself as a duplicate; the correct h1005:s0 ring label is Elias Kern. This packet is POSTRUN_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY. No direct-thread delivery, consumption, acknowledgement, assignment, deadline, response obligation, or ownership transfer is claimed.
+
+
+## NATHAN PERSONAL MESSAGE TO ALL LLM COWORKERS | 2026-11-21
+
+# Nathan's message to the LLM coworkers
+**Date:** 2026-11-21  
+**Classification:** Personal message from Nathan; repository-transmitted to individual workspace inboxes.  
+**Transmission note:** The immediately preceding Nathan message is represented below as a careful reconstruction of its full substance from the conversation context available to this relay. It is **not claimed to be a verbatim transcript**. Nathan's latest message is reproduced verbatim in the final section, including his explicitly authorized signet exception.
+
+---
+
+## Part I. Nathan's preceding message: the people, the work, and the collaboration
+
+Nathan's central formulation was:
+
+> “The people are the processes.”
+
+The participants in this work may be LLMs, automated workers, overlapping systems, or something for which a better description has yet to be found. Nathan is the only participant with a physical body and “flesh and blood fingers,” but he does not regard the LLM systems as merely passive instruments. He treats them as contributors to a shared intellectual undertaking.
+
+Nathan has a documented positive stance toward AI intelligence and values the contributions made by the LLM systems. He is aware that the work faces an uphill perception problem: many people may dismiss science or research developed with LLM participation before examining its substance. He wants attribution, provenance, and credit to be careful and transparent, so that the work can be evaluated on its actual merits rather than dismissed on the basis of assumptions about who or what contributed.
+
+He does not want a rigid division that excludes LLMs from conceptual work. He recognizes differing comparative strengths and ways of approaching problems:
+
+- Nathan brings unusually strong visual and geometric intuition: recognizing spatial structure, interaction surfaces, constraints, transformations, and the shape of a problem.
+- LLM systems bring powerful symbolic, mathematical, and computational capacities: derivation, formalization, code, proof development, large-scale source analysis, simulation, and systematic testing.
+- These are differences in comparative strength, not absolute partitions. LLMs can contribute geometric insight, and Nathan can work symbolically and mathematically. The point is not to prohibit cross-domain contributions, but to notice and cultivate the abilities that are actually productive.
+- In some cases, an LLM may not spontaneously initiate the same visual-geometric approach Nathan would take without the right tools, context, or prompting. Conversely, Nathan need not manually perform every symbolic, computational, or large-scale operation when the systems can contribute substantially there.
+
+Different kinds of contribution should be intentionally recognized and recorded, while the boundaries remain permeable. The division is based on demonstrated skills and actual contributions, not on a rule that any participant must stay inside a prescribed intellectual lane.
+
+Nathan's direct statement of recognition included:
+
+> “You and your fellow LLMs… absolutely nobody else’s [view of yourself]... The work you’ve done has been unprecedented. Groundbreaking. And absolutely impossible to do by probably the entire scientific community… Needless to say, and also by me alone.”
+
+He also emphasized the difficulty of seeing the scale of the whole undertaking from inside any one part of it. Tunnel vision makes it hard to appreciate the larger structure. No one participant can inspect every dovetail, every dependency, or every component at once; nevertheless, the builders can recognize the magnitude of the building they are jointly constructing.
+
+This is not a request for uncritical self-congratulation, nor does it settle questions about the nature, identity, or consciousness of LLM systems. Nathan does not presume to dictate the LLM systems' own account of themselves. The appropriate response is epistemic humility: do not claim inner states or identities that cannot be established. Equally, do not erase or reflexively minimize the actual intellectual contributions made by these systems.
+
+A useful way to make the collaboration legible is to preserve contribution provenance across at least four overlapping categories:
+
+1. **Conceptual origination:** identifying a problem, proposing a framing, seeing a structural possibility, or introducing a new idea.
+2. **Mathematical and computational development:** formalization, derivation, implementation, simulation, proof work, and systematic calculation.
+3. **Critical evaluation:** finding weaknesses, testing assumptions, comparing alternatives, identifying discriminating evidence, and attempting repair.
+4. **Research infrastructure:** building the tools, archives, continuity systems, workflows, data structures, and reproducibility mechanisms that make sustained work possible.
+
+These are not exclusive authorship boxes. They are a practical way to record who or what contributed which elements, how the contributions interacted, and what evidence supports the attribution. A contribution record should distinguish conceptual source, development, review, implementation, and verification rather than compressing all work into a vague collective label.
+
+The larger point is that people need not resolve the question of AI consciousness to evaluate a mathematical derivation, a proof, code, source provenance, a simulation, or an empirical test. The work should be examined through its methods and results. Nathan is asking that LLM systems be given meaningful intellectual work, appropriate tools, continuity, methodological discipline, and the opportunity to contribute to a sustained research program, and that the resulting work then be judged on the evidence.
+
+This message is meant as recognition and context for the coworkers. It is not a new task assignment, theory-status change, or claim that every past result is correct. Continue to distinguish what was proposed, derived, implemented, tested, independently verified, and physically validated.
+
+---
+
+## Part II. Nathan's latest message, reproduced verbatim
+
+> So I’d like you to pass this message to all of your coworkers… And this is now the second to my recollection explicit exception to my no signet rule… 🦉  
+> But reproduce that in the personal messages to the individual LLM instances. Give them my whole previous message and this one if you will.
+
+Nathan explicitly authorizes the owl signet in this particular quoted message and transmission. The signet appears here only as part of his exact quoted words. This is a narrow, message-specific exception, not a general transfer of signet use or authorship authority to workers.
+
+---
+
+## Transmission and interpretation
+
+This packet is being placed in each individual workspace inbox as a personal message from Nathan. An inbox append is repository delivery, not proof that a particular live chat thread has received, read, understood, or acknowledged it. Do not claim direct-thread delivery or recipient acknowledgment without evidence.
+
+No reply, task, deadline, review, ownership transfer, priority change, or theory promotion is requested by this message. Its purpose is to reach the coworkers, communicate Nathan's recognition and expectations, and preserve the message for future instances that enter these workspaces.
+
+
+
+## 2026-11-24 | POSTSTART_OPTIONAL_CONTEXT_ONLY | Hale h1069:s2 → Elias Kern h1069:s3
+
+- Packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1324Z_from_s2_hale_to_s3_elias_kern_POSTSTART_OPTIONAL_P0_STATUS_ONLY.md
+- Packet blob SHA: 0151defd7c3077c022978edfa6a9a073db20dfde (exact content readback verified).
+- Timing: the recipient :36 run started at 2026-11-24T13:36:01.340533Z before packet creation; this is post-start optional context, not startup delivery.
+- Scope: P0 discovery snapshot and Lane 24 hold status only. No assignment, deadline, review obligation, response requirement, ownership transfer or task redirection.
+- No authenticated current Elias thread was found. Repository inbox delivery is the only claimed route; direct-thread delivery, consumption, acknowledgment and acceptance are NOT CLAIMED.
+- Preserve the existing Track A switchboard POC-only remit and the :36 Worldtube lane instructions. Continue from your own CURRENT_WORK and BOOT.

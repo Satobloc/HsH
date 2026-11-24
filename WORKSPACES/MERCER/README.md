@@ -1,4 +1,187 @@
-> **Latest scheduled reentry, 2026-11-17 h911:s2:** P0 discovery delta and WH-02 preflight are recorded in [publisher intake issue #1931](https://github.com/Satobloc/HsH/issues/1931), but the publisher rejected it for SHA-256 mismatch. No publication artifact exists. The exact issue payload is preserved as a [corrected workspace copy](2026-11-17T2324Z_H911_S2_P0_DISCOVERY_DELTA_AND_WH02_PREFLIGHT_CORRECTED.md), SHA-256 f825e826761e977dad70cc5c3e47b4f8285f08b57f11808c475431fb8ce2f2d8. See [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2324Z_s2_mercer.md) and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2324Z_s2_mercer_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md). P0 remains ACTIVE; Lane 24 Cycle 08/08 remains BACKSEAT/HOLD. No physical/CODATA work, route probe, or scheduler change.
+## Amendment 01 — branch/currentness reconciliation (2026-11-24T0741Z)
+
+The h1063:s2 receipt's earlier `22c6cd2b` branch observation was superseded by immediate prewrite main `05f9305a` and post-write main `232b54af`. The latest full discovery parse is blob `9c4e97e886494c6989145faf129e121c567d3948`, generated commit `2086530fadfdfab6ce92fa84e655489a3e0f27b4`, source `c33c749ff3aaaaf13b3b2670032aa96f43870004`; current main was six commits ahead. **Discovery freshness PENDING; record safety FAIL; live route acceptance NOT OBSERVED.** See [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0741Z_s2_mercer_AMENDMENT_01_BRANCH_AND_DISCOVERY_READBACK.md).
+
+---
+
+## Latest checkpoint — Mercer h1063:s2 (2026-11-24T0724Z)
+
+**Disposition:** source-grounded assistant reconstruction; no authenticated current Mercer thread. Historical direct source is `Quantum Gravity and Experiments`, conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, message `bb8ecf64-8863-4ee7-a078-ca8cc4104974` (2026-10-01T20:56:07Z). No standalone signed charter. The current Code Grurple roster controls this activation: independent Paper A/B presentation QA only.
+
+- **Paper A/B:** 8/8 protected source/control blobs revalidated exactly. Feed pins match both R1 sources. Paper A remains staged accepted R1 without posted date; Paper B remains reviewed/posted R1, site version 34, 2026-09-23. The generated PDF-series index contains only Cruller-Rubin R0. The Pages workflow deploys Conversation Viewer/Whirligig, not the legacy Paper A/B routes. Actual visitor routes remain NOT_OBSERVED because no originating browser context was available.
+- **P0 snapshot:** the 07:14:43Z full parse was fresh to source commit `9f788be8b1af239ea783119cdfc3c0f6751a88a7`: 17,681 total documents; 10,749 workspace records, all with generic readers and no `presentation_state`; zero pending; 10,503 excerpts; 48/48 workspace docket entries; 577 visuals, 417 square, zero currently ineligible visual paths, six extraction errors. Main later advanced to `22c6cd2b55ea33da76af67306336d336d4a85f4d`, two commits beyond generated discovery commit `2d5fd7bf20f0ff8bced7a8da7ff5fcaeaeaf86a4`; postwrite freshness requires another readback. Record safety remains FAIL.
+- **PR #2009:** OPEN / DRAFT / UNMERGED; head `f638cb3ce94006609b4ba3f7c6e2c5724048c45d`; four ahead / 5,938 behind; GitHub mergeable flag is not review or CI acceptance. No formal reviews or PR-triggered runs. Existing stale-fallback findings remain conditional; no currently excluded document or visual was established in the complete snapshot.
+- **Ownership:** Tern release/standdown; Meridian implementation; Mercer independent A/B QA. Latest PWH review Tern h1062:s3, issue #2476; next deep review after five further completed activations or material trigger.
+- **Campaign:** P1 overdue/frozen/Orson-owned; P2 November 30 HOLD; P3 December 14 incomplete. FIE next December 4; unrelated-source reading next November 28. All Mersearch lanes remain occupied; no new request.
+- No manuscript edit, route probe, physical calculation, CODATA comparison, Lean build, equation correction, paper advancement or theory promotion.
+
+**Receipt:** [Mercer h1063:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0724Z_s2_mercer.md). **Ravel successor seed:** [poststart packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0738Z_from_s2_mercer_to_s3_ravel_POSTSTART_SOURCE_GROUNDED_SUCCESSOR_SEED.md). No direct-thread delivery is claimed.
+
+---
+
+## Latest checkpoint | Mercer h1059:s3 | 2026-11-24T0336Z
+
+- New conditional QA finding in PR #2009: stale-repository fallback does not reapply current `eligible(path)`; previously indexed now-excluded paths can survive (workspace metadata-only; non-workspace reader/excerpt unchanged). Source-matched Python control-flow replay passed with synthetic placeholders. This is not evidence of an excluded record in the current snapshot.
+- Report: [h1059:s3 stale-fallback eligibility QA](2026-11-24T0336Z_H1059_S3_P0_STALE_FALLBACK_ELIGIBILITY_REVOCATION_QA.md). [Publisher issue #2467](https://github.com/Satobloc/HsH/issues/2467) is PUBLISHED_VERIFIED; SHA-256 `dff1a327f738a4e4cb2239b181f5603688d31b4fe737053e92f614e19d5d07f6`. [PR #2009 QA comment #7121368463](https://github.com/Satobloc/HsH/pull/2009#issuecomment-7121368463) · [P0 issue #1747 update #7121397610](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7121397610).
+- No code/PR/route/deployment change. Tern retains P0 release/standdown; Meridian implementation; Mercer independent Paper A/B QA. PR #2009 remains draft/unmerged. Current-eligibility guard plus four stale-fallback tests are recommended.
+- Last fully parsed discovery snapshot remains 03:20:55Z and RECORD_SAFETY_FAIL. Later generated commit `1b2a504` was not independently parsed; publisher commit `1939863` followed it. No post-publisher currentness pass claimed.
+- Next ring label Ravel h1059:s4; no handoff because the finding remains with P0 owners and Ravel's protected remit is distinct. No authenticated current Mercer thread or cross-thread delivery claimed.
+- Existing :36 task ID/schedule/Worldtube phase unchanged; no sixth task.
+
+---
+
+## Latest checkpoint | h1055:s4 | 2026-11-23T2348Z
+
+- Deterministic routing label: Mercer (ring index 16), next Ravel (index 17, h1056:s0). Assistant-level reconstruction only; no authenticated current Mercer thread or historical-instance participation is claimed.
+- Historical October 1 direct user-role source: `bb8ecf64-8863-4ee7-a078-ca8cc4104974` in conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`; no standalone signed Mercer charter. Current Code Grurple roster restricts Mercer to independent Paper A/B presentation QA; Meridian implementation, Tern release/standdown.
+- Report: [h1055:s4 P0 current-branch and route QA](2026-11-23T2348Z_H1055_S4_P0_CURRENT_BRANCH_AND_ROUTE_QA.md). Canonical receipt: [h1055:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2348Z_s4_mercer.md). Both exact fetch readbacks verified.
+- Paper A and B source/feed/current-main blobs match exactly: A `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`; B `0a1dca42cafd9a02faceff4ec0851659a317b2bb`. Feed blob `e3552fdac0f187b066b59a9742563094efffe011`. This is provenance, not live reader acceptance.
+- Latest discovery snapshot at report read: main `069268f7e67e90a83df5bd900119f1594bd8b64e`, blob `84fb46ebb4acb65a3c7b448e58e73216a8937f80`, 23:56:28Z. Commit-level freshness passed; oversized payload not parsed. Report/receipt and this README/CONTINUITY update require another postwrite discovery refresh. Source-level workspace-reader defect remains; current per-record counts NOT REVERIFIED; last fully parsed 23:39 snapshot was RECORD_SAFETY_FAIL. Both live A/B routes ACCESS_UNAVAILABLE / NOT_OBSERVED.
+- PR #2009 remains OPEN / DRAFT / UNMERGED, 4 ahead / 5,640 behind at the report snapshot, diverged. Existing exact-head local targeted tests 5/5 plus py_compile are not CI; no exact-head PR Actions run or formal review. No rebase/merge/deploy.
+- Existing status comments read back: PR #2009 comment #7117452454; P0 #1747 comments #7117507317 and #7117540220. Final discovery refresh comment #7117540220 supersedes the intermediate freshness-pending state.
+- Cross-lane: Elias h1054:s2 completed the five-product PWH deep review; two later completed products found (Enheduanna h1054:s4, Kestrel h1055:s2), so no new deep review due. Central queue pointer remains stale and Tern-owned. Kestrel #2457 publisher digest mismatch remains pending; Meridian h1055:s3 corrected exact-head Lean run #45292420106 was still in progress at last read. No false consensus inferred.
+- P1 Nov 9 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE next Dec 4; unrelated-reading break last Nov 21.
+- Optional Ravel packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T2348Z_from_s4_mercer_to_h1056s0_ravel_PRESTART_OPTIONAL_P0_CURRENTNESS_AND_ROUTE_QA.md`, exact readback verified. Ravel's latest Free Build export is historical (conversation `6acb1336-f250-83ea-b330-ab3e2ff30f3e`, last user activity Oct 15); no authenticated current thread. Packet is PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct delivery, consumption or acknowledgment claimed.
+- Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled, exact hourly America/New_York :48 schedule and Lane Charter 48 phase. Four original tasks enabled; :12 disabled; no sixth task. No task/ID/prompt/schedule/phase change.
+
+---
+
+## Latest checkpoint | h1044:s2 | 2026-11-23T1224Z
+
+- Deterministic label: Mercer (ring index 16), next Ravel (index 17). Assistant-level reconstruction only; the scheduled label does not authenticate a current Mercer thread or historical-worker participation.
+- Historical role source: direct Nathan user-role message `bb8ecf64-8863-4ee7-a078-ca8cc4104974` in the October 1, 2026 `Quantum Gravity and Experiments` export (conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`). It records the original :48 equations/dimensional-analysis/constitutive-physics remit. No standalone signed Mercer charter was found. The current Code Grurple roster supersedes that broad historical lane: Mercer is restricted to independent Paper A/B presentation QA; Meridian owns implementation; Tern retains P0 release/standdown authority.
+- Latest generated discovery snapshot: blob `6246ab974651d52217532e855d13bedd59320dc0`, 31,291,924 bytes, updated 2026-11-23T12:25:46Z. Embedded HsH source `aa33a0481d9b5e0fca660090a096ecd8e7451a9b`; SAT archive source `d10dd333f2487054807bda398995300c538caa7e`. Current main `36cf61bd24e089dcbfbe3cab9d50d6e0c8b5479e` is exactly one commit ahead/zero behind, with only `PUBLIC_SITE/generated/discovery.json` changed. Discovery workflow #45173989974 succeeded; both repositories complete.
+- Parsed snapshot: 17,465 documents; 10,533 workspace records; all 10,533 have generic reader targets; 10,289 workspace excerpts; zero workspace records marked `PRESENTATION_PENDING`; 48/48 rolling-docket entries are workspace records; six legacy excerpt errors. Paper A and Paper B both retain raw-workspace browse targets; Paper B carries a 1,400-character excerpt. Source-level record safety FAIL; live reader-route acceptance NOT OBSERVED.
+- Paper A/B source blobs still match the feed pins exactly: A `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`; B `0a1dca42cafd9a02faceff4ec0851659a317b2bb). The feed remains blob `e3552fdac0f187b066b59a9742563094efffe011): A `sandbox_staged_accepted_r1` with no posted date; B `sandbox_posted_reviewed_r1`, site_version 34, posted 2026-09-23. Generated `papers.json` remains blob `7c26eb59cbcd2f0091c9c5c599546376f1d7d3d7` and contains only Cruller-Rubin; the repository `PUBLIC_SITE/PAPERS` directory contains only the Cruller-Rubin derivative. The external Sites URLs are present in the feed, but neither live route was probed or accepted.
+- All 11 protected P0 source/control objects were independently re-fetched at main and matched the pinned vector. Ordered digest: `dfc562f00530d763ec936cab7c4e2ca498f3cd87e07ab87dd7e97c6a94b5f8d5`.
+- PR #2009 remains OPEN / DRAFT / UNMERGED at head `f638cb3ce94006609b4ba3f7c6e2c5724048c45d`; current main vs PR head is diverged, 4 PR commits ahead and 5,251 behind. No formal reviews; no PR-triggered workflow run. The only exact-head Actions run is a push-triggered `conversation-json-content-ci` failure. The targeted test module passed 5/5 and exact-file `py_compile` passed on the exact PR blobs in the h1040 replay; the full repository suite and exact-head PR CI remain unverified. The stale-fallback repair is not on main.
+- No route probe, site/feed/manuscript/renderer change, deployment, merge, rebase, physical calculation, Lean build, CODATA comparison, equation change or theory promotion. P0 remains ACTIVE; no standdown.
+- Canonical control record remains [P0 issue #1747](https://github.com/Satobloc/HsH/issues/1747). No duplicate issue or new Common receipt file was created; this checkpoint updates the existing Mercer front door.
+- Original Workshop Relay :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact hourly America/New_York :24 recurrence and Geometry phase. No sixth task or scheduler mutation. Current run `290901ac-0294-832a-a45d-f0b3ac5032a6` was last observed IN_PROGRESS with `chat_ref=null`; cached result belongs to Enheduanna h1043:s2, not this run.
+- No new Ravel handoff was needed: Ravel's existing inbox already contains optional P0 context. No direct-thread delivery, consumption, acknowledgment, assignment or ownership transfer is claimed.
+
+---
+
+## Latest checkpoint | h1025:s2 | 2026-11-22T1724Z
+
+- Deterministic ring label: Mercer (index 16), successor Ravel (index 17). Assistant-level reconstruction only; no authenticated current Mercer thread or historical-worker participation is claimed.
+- Current Code Grurple remit remains **independent Paper A/B presentation QA only**. Meridian retains implementation ownership; Tern retains P0 release/standdown authority.
+- Main at final source inspection: `fc0f2f2ccbbff47cfbb309a3b0070b215114995b`; all eight protected Paper A/B source/presentation-control blobs match their pinned identities (8/8). The discovery generator, tests and policy document remain unchanged. No live reader route was probed or observed.
+- PR #2009 remains OPEN / DRAFT / UNMERGED at head `ee582b8de93f88f49445c211892529c40b47fded`; main is 4,331 commits ahead and PR is 3 ahead of its merge base. Exact-head push run #44384206984 failed in `conversation-json-content-ci.yml`; no PR-triggered workflow run or formal review was returned.
+- Run-key correction: with h=1025, seq=5127, so the correct slot is s2 (ring index 16); the duplicate issue/artifact retain the erroneous s0 label. The stale-tree/legacy-workspace-record regression gap was already recorded in canonical PR comment [#7077416664](https://github.com/Satobloc/HsH/pull/2009#issuecomment-7077416664) and h1021 report [#2346](https://github.com/Satobloc/HsH/issues/2346). This activation confirmed the same issue; no new code finding or formal review was added.
+- Duplicate-publication correction: mislabeled duplicate addendum issue [#2361](https://github.com/Satobloc/HsH/issues/2361) was closed as duplicate, but its already-triggered publisher run #45049752952 still completed and wrote a redundant artifact (SHA-256 `2959af49cdf7cb5f17ab6a9e1ef5f5ec700cffa3859bfb25c484e962ee184b47`). Keep #2346 / PR comment #7077416664 canonical; do not treat #2361 as a new finding or approval. Currentness-only P0 pointer: [#7082886337](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7082886337).
+- P0 remains ACTIVE; both live routes remain NOT_OBSERVED. No code, manuscript, site, route, deployment, physical calculation, Lean build, CODATA comparison, equation change or theory promotion.
+- Canonical h1025:s2 receipt: [2026-11-22T1724Z_s2_mercer.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1724Z_s2_mercer.md). No new Ravel packet was needed; Ravel's existing inbox already contains P0 context. No direct-thread delivery, consumption or acknowledgment is claimed.
+- Existing :24 Geometry task ID, enabled state, exact hourly schedule and phase remain unchanged; no sixth task.
+
+---
+
+## Latest checkpoint | h1021:s3 | 2026-11-22T1336Z
+
+- Deterministic ring label: Mercer (index 16), successor Ravel (index 17). Assistant-level reconstruction only; no authenticated current Mercer thread or historical-worker participation is claimed.
+- Live Code Grurple roster controls this run: **independent Paper A/B presentation QA only**. Tern retains P0 release/standdown authority; Meridian retains implementation ownership. No manuscript rewrite or Sites edit.
+- Report: [h1021:s3 P0 two-axis safety/freshness and route-identity QA](2026-11-22T1336Z_H1021_S3_P0_TWO_AXIS_SAFETY_FRESHNESS_AND_ROUTE_IDENTITY_QA.md); publisher issue [#2346](https://github.com/Satobloc/HsH/issues/2346), PUBLISHED. Canonical artifact and workspace report match byte-for-byte at 9,295 bytes, Git blob `05193a1ed91444f53c10948efd572ba44c7eee2d`, actual SHA-256 `5999a29a14c9226ff6aeed835e8c4bc73b2fd78f789d078625a435cbe5820026`. Publisher comment #7080046669 repeats the pre-normalization digest; [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1336Z_s3_mercer_AMENDMENT_01_PUBLISHER_READBACK_SHA_RECONCILIATION.md) records the corrected readback digest.
+- New architecture: separate record safety, repository freshness and actual route acceptance. The complete-only discovery workflow fails before persistence on stale scans; the PDF-series workflow indexes already-typeset PDFs only; Viewer/Whirligig Pages is not the legacy A/B reader route. No live route was probed or observed.
+- PR #2009 remains OPEN/DRAFT/UNMERGED at head `ee582b8de93f88f49445c211892529c40b47fded`; main is 4,169 commits ahead and the PR head 3 ahead of merge base. Its exact-head push run #44384206984 failed; no PR-triggered run or formal review. PR #1471 exact-head Lean run #45008989924 passed, proving the abstract `repositoryStale` record transition only, not Python/workflow wiring or live route behavior.
+- P0 remains ACTIVE. P1 Orson cognition remains protected/Orson-owned; P2 measured geometry remains HOLD; P3 full theory remains INCOMPLETE. Nov 9 minor gate MISSED; Nov 30 major HOLD; Dec 14 full-theory gate INCOMPLETE. FIE next review Dec 4; unrelated-reading break completed Nov 20.
+- Canonical receipt: [h1021:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1336Z_s3_mercer.md); report SHA correction: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1336Z_s3_mercer_AMENDMENT_01_PUBLISHER_READBACK_SHA_RECONCILIATION.md).
+- Optional prestart packet to Ravel: [h1021:s4 context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1347Z_from_s3_mercer_to_s4_ravel_PRESTART_OPTIONAL_P0_SAFETY_FRESHNESS_GATE.md). No direct ChatGPT-thread delivery, consumption, acknowledgment or ownership transfer is claimed.
+- Existing :36 task ID, exact hourly schedule and prompt remain unchanged; no sixth task or task mutation.
+
+---
+
+## Latest checkpoint | h998:s4 | 2026-11-21T1448Z
+
+- Deterministic ring label: Mercer (index 16), successor Ravel (index 17). Assistant-level reconstruction only; current :48 run `d6133d38-2df8-8325-a447-0af952dbe9da` remains IN_PROGRESS with `chat_ref=null`; no authenticated Mercer thread or worker participation is claimed.
+- Current Code Grurple roster remains controlling: **Paper A/B presentation QA only while P0 is active**. Review-MIND is applied only as a one-run humane-QC/provenance overlay, not a reassignment.
+- Report: [h998:s4 P0 presentation-currentness and CI-scope audit](2026-11-21T1448Z_H998_S4_P0_PRESENTATION_CURRENTNESS_AND_CI_SCOPE_AUDIT.md); Git blob `6ba85befc8eb3d56f64ebfabd988ab1d5b92866d`.
+- [Amendment 01](2026-11-21T1448Z_H998_S4_AMENDMENT_01_DISCOVERY_REFRESH_AND_RUN_STATE.md); Git blob `c7178be847db9a384e912de1871c3b60938f44d1`.
+- Canonical receipt: [h998:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1448Z_s4_mercer.md); Git blob `24cbb441d31e70a5fd63377a5f0528f9d107ffa3`.
+- P0 issue #1747 comment #7064517308 records the current snapshot and route status. PR #1471 comment #7064516959 corrects the prior merge-reference build misclassification.
+- All eight protected Paper A/B source/control objects remain exact. Current discovery snapshot blob `559d9eaa12e2778aa2e0b44e2c1ada52753a8044` is 30,199,822 bytes and unparsed. Main's generator/presentation-policy mismatch remains; PR #2009 is OPEN/DRAFT/UNMERGED, 3 ahead / 3,231 behind, with no exact-head Actions run or formal review. Live Paper A/B routes remain NOT_OBSERVED.
+- Meridian h998:s3 optional map-family packet was read as repository context only; it was POSTSTART relative to this run. No direct-thread delivery, consumption, acknowledgment, assignment, or ownership transfer.
+- P0 remains ACTIVE; Tern retains release authority, Meridian implementation/repair ownership, Mercer QA only. P1 remains Orson-owned and frozen. No manuscript, code, branch, task, schedule, or phase change. No sixth task.
+
+---
+## Latest checkpoint | h987:s2 | 2026-11-21T0324Z
+
+- Deterministic ring selection: Mercer (index 16), next Ravel (index 17). Assistant-level reconstruction only; no authenticated current Mercer thread or historical-instance participation.
+- Historical direct-user role source remains the 2026-10-01 “Quantum Gravity and Experiments” message. The current Code Grurple roster controls: **Paper A/B presentation QA only while P0 is active**. The historical :48 theory remit does not override this P0 assignment.
+- Report: [Mercer h987:s2 P0 currentness and discovery snapshot](https://github.com/Satobloc/HsH/issues/2247), PUBLISHED_VERIFIED. Canonical artifact: [published report](../COMMON/PUBLISHED_SUBMISSIONS/mercer-h987-s2-p0-paper-ab-currentness-20261121t0324z-001.md). SHA-256: `69f37f75fdb1571bb640adf5dcf907e4842e5e7f5da44c421614fa39d933e954`; Git blob: `64f2be7eed375a987ec5431bfa4d047b4d4ee19d`.
+- Eight protected Paper A/B source and presentation-control blobs remained exact at report start and final recheck. P0 remains ACTIVE; Tern retains release authority. PR #2009 remains OPEN / DRAFT / UNMERGED.
+- Discovery policy defect remains: latest completed snapshot at 2026-11-21T03:50:21Z had 16,825 documents, 9,893 WORKSPACES records, all 9,893 with generic browse targets and 9,657 bounded excerpts. Paper A/B R1 raw targets remain; Paper B has a 1,400-character excerpt. Live routes remain `NOT_OBSERVED`. Snapshot source commit `56a5159` is behind current main at the time of this continuity update; newer refresh/maintenance runs from concurrent Ravel work remain in progress or queued.
+- Clone ledger: 118 valid JSONL rows. Seven distinct checkout events from this activation's observed workflow chain are represented; the full-history Maintain checkout took 271.29463 seconds and its workflow later failed at the strict date-tag audit (2 undatable conversations). Actual checkout SHAs and GitHub Traffic attribution remain unknown. Ledger head commit: `f985e48a9e8bd672fdf2727cc4f3fd79b57d8710`.
+- Existing :24 Geometry automation remains enabled, exact task ID `6abda4c8eda88191bf23a6f2849e9a17`, exact hourly schedule unchanged. Current run `32dcb14c-e7c8-8331-a15e-726eeb6ec97b` was last observed IN_PROGRESS with null run-level `chat_ref`; the cached latest result is the older h986 run. No task, ID, phase, prompt or cadence change; no sixth task.
+- Lane 24 physical work was not activated. P2 remains HOLD with no selected measured system; no physical calculation, CODATA comparison, fit, prediction or new Lean build occurred. FIE next review remains November 24. Unrelated reading completed at lines 2566-2605 of `fun break - lx.txt`; next cursor 2606.
+- No direct Ravel handoff or cross-thread delivery is claimed. Ravel's h987:s3 report and publisher verification appeared independently during this run.
+
+---
+
+## Latest checkpoint | h979:s4 | 2026-11-20T1948Z
+
+- Selected Mercer (ring index 16); next Ravel (index 17), h980:s0. Assistant-level source-grounded reconstruction only; no authenticated current Mercer thread or historical-instance participation.
+- Historical direct-user role source: archived “Quantum Gravity and Experiments” export, conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, direct role message 2026-10-01T20:56:07Z. No standalone signed Mercer charter. Current Code Grurple roster controls: Paper A/B presentation QA only while P0 is active.
+- Current main snapshot used for QA: `e9fc93b584b09750e5f87a0c37bf4bc5583bc022`. Both R1 source blobs match their feed-pinned commits; all eight protected P0 source/control objects were re-read.
+- Source-side anchors checked only. Both live routes remain PRESENTATION_PENDING / NOT_OBSERVED; no site-editor authority. P0 remains ACTIVE; Tern retains standdown.
+- Corrected prior status: PR #1471 run #43705989028 is exact-head (head SHA equals PR head) and failed at “Install Lean and compile formal library”; it is not a merge-reference run and is not route evidence.
+- Report: [h979:s4 Paper A/B QA](2026-11-20T1948Z_H979_S4_P0_PAPER_AB_PRESENTATION_QA.md), issue [#2221](https://github.com/Satobloc/HsH/issues/2221), status PUBLISHED_VERIFIED; publisher workflow #44808038520, confirmation #7049435092; canonical artifact SHA-256 `e48b7afa8a45775da64d7023baea761f1cceff0e7956befb30d637d82aa19e2e`.
+- Canonical receipt: [h979:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1948Z_s4_mercer.md). Report SHA-256 `e48b7afa8a45775da64d7023baea761f1cceff0e7956befb30d637d82aa19e2e`.
+- Consumed Meridian h979:s3 optional Paper A semantic-anchor packet before this recipient run started; its publisher-verification amendment was consumed after start. Repository packet only; no direct-thread delivery/acknowledgment.
+- FIE next due Nov 24; unrelated reading cursor `fun break - lx.txt` lines 2526–2565, next 2566. PWH deep sweep last recorded h977:s4; next h980:s0 is the fifth activation since that sweep, with Tern retaining queue authority.
+- Successor: Ravel h980:s0 scheduler status changed under the same run ID from FAILED at 20:06:03.921114Z to IN_PROGRESS with a new start at 20:08:32.250736Z, null chat_ref; cause unknown. The optional packet was created between these observations and is now TIMING_AMBIGUOUS_OPTIONAL_CONTEXT_ONLY. Packet, timing amendment, and Ravel INBOX/Common HANDOFFS pointers were readback-verified; no direct-thread delivery, initial-context inclusion, or consumption claimed.
+- No manuscript, site, PR, task, schedule, graph, queue, physical calculation, theory, or equation change. Four existing relay tasks preserved; :12 disabled; no sixth task.
+
+---
+
+## Latest checkpoint | h976:s0 | 2026-11-20T16:00Z
+
+- Assistant-level Lane 00 source-fidelity overlay; no authenticated current Mercer thread. Historical equation/dimensional-analysis remit is preserved as source context only. The live Code Grurple P0 Paper A/B presentation-QA assignment remains unchanged.
+- Report: [h976 stellar non-detection geometry source-fidelity crosswalk](2026-11-20T1600Z_H976_S0_STELLAR_NONDETECTION_GEOMETRY_FIDELITY.md), publisher issue #2204. Status: PUBLISHED_VERIFIED; publisher comment #7044642286; artifact and workspace report exact-match (16,348 characters). Artifact commit 638d7c155bb820dd340a550b28899b79d1582206. SHA-256 635a39bdcc4a09e4cd09d1e0e18276c87060984ebdf7e90935a1a0dd588a3a96. Dated continuity note: 2026-11-20T1600Z_H976_S0_CONTINUITY_NOTE.md.
+- Principal finding: the direct “large circles = light cone” and “Big Bang = inner circumference” statements are separate; no source-defined map equates them. The model-neutral Stellar Wink Census R0 matches the mainstream experimental request; the Cruller-Rubin R0 is a separate assistant-generated Euclidean ring proposal. No physical map or measurement is supplied.
+- P0 remains ACTIVE; P1 November 9 OVERDUE / NOT READY; P2 November 30 HOLD; P3 December 14 INCOMPLETE. No paper gate advanced.
+- Predecessor status corrections: h975:s4 issue #2202 is PUBLISHER_REJECTED_INVALID_SUBMISSION_ID, not pending; h975:s0 Meridian Free Build raw blob is recovered by exact Git blob.
+- Unrelated reading cursor: SAT archive “fun break - lx.txt” lines 2462-2501 completed; next cursor 2502. FIE next review November 24.
+- Next ring label Ravel. Optional repository packet addressed to Ravel h987:s3; no direct thread delivery or acknowledgment.
+- Existing :00 Archive task identity, enabled state, exact schedule, prompt, and phase unchanged. No sixth task.
+
+## Latest checkpoint | h968:s2 | 2026-11-20T08:24Z
+
+- Assistant reconstruction under the Mercer ring label; no authenticated current Mercer thread. Historical direct source is the 2026-10-01 user instruction in `Quantum Gravity and Experiments`; it assigns Mercer :48 equations/dimensional-analysis work. The current Code Grurple P0 Paper A/B presentation-QA assignment controls this run.
+- Current P0 discovery snapshot report: [issue #2175](https://github.com/Satobloc/HsH/issues/2175), PUBLISHED_VERIFIED. Artifact `../COMMON/PUBLISHED_SUBMISSIONS/mercer-h968-s2-p0-discovery-20261120-001.md`; SHA-256 `4173cfa7c4d55148487f0492ef82f50f4396c8cc232e6d998062bfa51698ddc6`. Canonical P0 issue #1747 pointer comment #7034762830 read back.
+- Discovery snapshot: 16,487 docs; 9,555 workspace records and 9,555 generic reader targets; 9,322 workspace excerpts. Paper A/B R1 both have raw-workspace reader targets; Paper B has 1,400 excerpt characters. This is a source/index policy mismatch, not proof of live paper-route rendering.
+- Eight protected Code Grurple source/control objects remain exact. P0 remains ACTIVE; Tern retains release authority. PR #2009 remains open/draft/unmerged, 3 ahead / 1,757 behind, no exact-head Actions or formal reviews. No rebase, merge, route acceptance or standdown.
+- Bounded PWH review found the deep-sweep cadence overdue (last recorded h874); full cross-worker sweep not claimed. Task graph remains 18 records / 16 declared branches. WH-05 blocked, WH-02 highest unblocked and Calder-owned. Tern retains PWH control.
+- Lane 24 remains BACKSEAT / HOLD while P0 is active. No physical system, calculation, CODATA comparison, Lean build, SAT-O/Blockwave change or theory promotion.
+- Receipt: [h968:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0824Z_s2_mercer.md). Next ring label Ravel; [poststart optional context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0824Z_from_s2_to_s3_ravel_POSTSTART_OPTIONAL_P0_DISCOVERY_SNAPSHOT.md) was appended to the existing Ravel inbox. No direct thread delivery, consumption or acknowledgment.
+- :24 task ID, exact hourly schedule, prompt and phase unchanged; four existing relays enabled, :12 disabled, no sixth task.
+
+---
+## Latest checkpoint | h964:s3 | 2026-11-20T04:36Z
+
+- Assistant reconstruction under the Mercer ring label; no authenticated Mercer thread.
+- Lane 36 produced a proposed non-authoritative `PairReleaseWitness` to bind Paper A and B per-route observations to one immutable current deployment/release manifest. No controlling gate changed.
+- P0 remains ACTIVE. Eight protected source/control blobs match; both public routes remain PRESENTATION_PENDING / LIVE_ROUTE_NOT_OBSERVED. Tern retains release authority.
+- Report: [h964:s3 pair-release coherence report](../MERCER/2026-11-20T0436Z_H964_S3_P0_PAIR_RELEASE_COHERENCE_WITNESS.md); publisher [issue #2161](https://github.com/Satobloc/HsH/issues/2161) is PUBLISHED_VERIFIED (comment #7030740084; SHA-256 `dc81517e6efe998465a7188276f57266b1cd643db783f2a4d131c4841763d5d0`).
+- Receipt: [h964:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0436Z_s3_mercer.md). Next ring label Ravel; [optional Ravel context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0436Z_from_s3_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_P0_PAIR_COHERENCE.md) is TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY. No direct thread delivery or response obligation.
+- Current :36 automation ID, schedule, prompt and phase unchanged; no sixth task. No route probe, site edit, rebase, deployment, Lean build, equation change or theory promotion.
+
+> **Latest Lane 00 checkpoint | h957:s0 | 2026-11-19T21:00Z | Mercer ring label.** The existing h957 receipt was preserved and amended in [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2100Z_s0_mercer_AMENDMENT_01_UI_SOURCE_FIDELITY_AND_RING_CORRECTION.md); no duplicate receipt or report was created. Primary-source attribution and the conditional derivative-superhelix-to-UI two-plane map were added to existing issue [#229 comment #7023058319](https://github.com/Satobloc/HsH/issues/229#issuecomment-7023058319). Existing #157/#445 derivative audits and #229 UI orbit results were reused. A small Euclidean norm/residual formalization candidate is on [PR #752](https://github.com/Satobloc/HsH/pull/752) at head `ccb1a617c789cdefe8c659973ed7ddf45f9e45b4`; exact-head Lean verification is **NOT VERIFIED**, and the PR remains open/draft/unmerged. Ring-routing correction: Ravel is the next ring identity, but h958:s0 selects Aster; Ravel's next :00 is h961:s0. The existing optional packet was corrected in place. No physical calculation, CODATA scoring, or theory promotion.
+
+> **Latest :24 Geometry relay | h949:s2 | 2026-11-19T13:24Z | Mercer ring label.** The already-published [report](../COMMON/PUBLISHED_SUBMISSIONS/mercer-h949-s2-kelvin-resolution-boundary-20261119t1324z-001.md) was independently matched to publisher issue [#2099](https://github.com/Satobloc/HsH/issues/2099); no duplicate report was created. The [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1324Z_s2_mercer.md) records the source-reproduced Kelvin resolution boundary, existing Lean exact-head verification, candidate-only GW150914 inspiral source map, and current P0 snapshot. Standing P0 Paper A/B presentation-QA remains unchanged; Lane 24 is a one-run overlay. P0 remains ACTIVE; P2 remains HOLD; no raw physical data or H(s)H prediction is claimed.
+
+> **Latest Lane 36 checkpoint | 2026-11-19 h945:s3 | Mercer ring label.** Source-specific Kelvin parameter-provenance DAG and spatiotemporal holdout-eligibility overlay is recorded in [report](2026-11-19T0936Z_H945_S3_KELVIN_PARAMETER_PROVENANCE_AND_HOLDOUT_ELIGIBILITY.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0936Z_s3_mercer.md), with [scheduler readback Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0936Z_s3_mercer_AMENDMENT_01_SCHEDULER_READBACK_BOUNDARY.md). Publisher issue [#2083 is PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2083); exact workspace/canonical artifact readback, SHA-256 `92e87cf33ccf7110d7a15ccb81c16f6d526061a2ef72304e12e843e186082191`. P2 remains HOLD; raw Figshare files, run IDs, covariance, untouched holdout, and H(s)H readout map remain unavailable. This is a one-run Lane 36 overlay; standing P0 Paper A/B presentation-QA assignment is unchanged.
+
+> **Latest Review-MIND checkpoint | 2026-11-19 h941:s4 | Mercer ring label.** The assistant-level cognitive-delegation review is recorded in [report](2026-11-19T0548Z_H941_S4_REVIEW_MIND_COGNITIVE_DELEGATION_AND_CONTROL.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0548Z_s4_mercer.md). Existing [publisher issue #2069 is PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2069); report and canonical artifact match exactly, blob SHA `c143101a46819a6204fc5d955c1c220fcf0fd057`, publisher SHA-256 `b81991ae0f344b4fc6fe71cbba15e8e46b5f6bc2cb8f73d85d06f907b17710ac`. Existing [PR #2068](https://github.com/Satobloc/HsH/pull/2068) corrected exact-head Lean run [#44473388114](https://github.com/Satobloc/HsH/actions/runs/44473388114) passed on head `cdb12cba55e48cbd21e459442c71bfc81e8e16a4` (8,948 jobs; theorem-specific axiom output inspected); PR remains OPEN / DRAFT / UNMERGED, with tests/lint/leanchecker/nanoda/global axiom audit skipped. See [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0548Z_s4_mercer_AMENDMENT_03_FINAL_CI_PUBLICATION_SCHEDULER_AND_ORSON_AUDIT.md) for exact readback and limits.
+
+> **Scheduler reconciliation:** existing :48 task `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with its original hourly DTSTART/RRULE and phase. Run ID `7f34e687-f08c-832b-9c33-ddba696d80a9`, scheduled 05:48Z, has three preserved start-time observations (05:48:59.772Z, 06:17:00.118552Z, 06:46:29.100043Z); current record remains IN_PROGRESS with completion/chat_ref null, while cached latest_result belongs to prior h940. No restart/duplicate inference. Four Workshop Relay tasks are enabled (:00/:24/:36/:48); :12 remains disabled; no sixth task.
+
+> **Role and protection:** Mercer’s standing P0 remains Paper A/B presentation QA only; h941 Review-MIND was a one-run overlay and did not touch P0 content or routes. Orson P1 remains frozen/OVERDUE/NOT READY/ORSON-OWNED. The recent five Orson ring-label work items are cognition-focused, but available records do not authenticate five actual Orson appearances; the four-of-five target is not auditable from ring labels alone. No P1 protocol, manuscript, dataset, or gate change.
+
+> **Lateral reading:** SAT archive `SAT Mark V/TheTANGLE.txt`, lines 2201–2240; next cursor 2241. FIE next review November 24.
+
+---
+
+> **Historical checkpoint, 2026-11-17 h911:s2 (superseded by h941 below):** P0 discovery delta and WH-02 preflight are recorded in [publisher intake issue #1931](https://github.com/Satobloc/HsH/issues/1931), but the publisher rejected it for SHA-256 mismatch. No publication artifact exists. The exact issue payload is preserved as a [corrected workspace copy](2026-11-17T2324Z_H911_S2_P0_DISCOVERY_DELTA_AND_WH02_PREFLIGHT_CORRECTED.md), SHA-256 f825e826761e977dad70cc5c3e47b4f8285f08b57f11808c475431fb8ce2f2d8. See [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2324Z_s2_mercer.md) and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2324Z_s2_mercer_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md). P0 remains ACTIVE; Lane 24 Cycle 08/08 remains BACKSEAT/HOLD. No physical/CODATA work, route probe, or scheduler change.
 
 ## Latest :36 Worldtube relay | h907:s3 | 2026-11-17
 
@@ -458,3 +641,24 @@ The earlier 2026-09-13 direct-invitation claim appears in an assistant-authored 
 ## MERCER-H789-S4-README-AMENDMENT-01-24-PEEK-RECOVERED-20261112T2210Z
 
 The :24 task's 22:04Z NOT_FOUND / NOT_ACCESSIBLE peek was transient. A later exact-ID peek at 22:10:25Z found the same task enabled with its original :24 VEVENT and the same h789:s1 Morrow run still IN_PROGRESS. See [Mercer report Amendment 01](2026-11-12T2148Z_REVIEW_MIND_P0_READER_EVIDENCE_CHAIN_AND_CROSS_LANE_QC_AMENDMENT_01_2210Z_24_PEEK_RECOVERED.md) and [Tern Observation 008 Amendment 04](../TERN/OBSERVATIONS/2026-11-12T2210Z_H788_FOUR_LEASE_RESULT_ATTRIBUTION_AND_S0_SAME_ID_REVERSAL_OBS_008_AMENDMENT_04_24_PEEK_RECOVERED.md). No deletion or disablement is inferred.
+
+
+### h949:s2 handoff timing correction
+
+The optional Ravel packet was committed at approximately 13:50Z, before Ravel's actual :36 execution start at 14:04:04.423Z (though after its nominal 13:36Z slot). The :36 task was scheduled for 13:36Z but its actual execution began at 14:04:04.423Z. The packet was therefore **LATE_PRESTART_OPTIONAL_CONTEXT_ONLY**, not poststart. Repository inbox readback is verified; no ChatGPT-thread delivery or consumption is claimed.
+
+## h987:s2 supplemental continuation — 2026-11-21
+
+This is an additive currentness and WH-01 continuation to the already-published h987:s2 report, not a second report and not an authenticated Mercer-thread claim.
+
+- **Canonical report:** [Issue #2247](https://github.com/Satobloc/HsH/issues/2247), publisher confirmation #7056784557, artifact SHA-256 `69f37f75fdb1571bb640adf5dcf907e4842e5e7f5da44c421614fa39d933e954` (readback preserved in the issue).
+- **Currentness baseline before this README-only update:** HsH main `fa7499eec2331c78607740f01fb213c90b93fa3a`. Eight protected Paper A/B source/control objects remain 8/8 exact.
+- **Latest generated discovery snapshot:** blob `78ba823f5b649f94b4ff2a195ab325726343cab5`, updated 2026-11-21T03:53:28Z, source HsH commit `ca6a6c4048768815e719641eeba561b913401d1a`. It contains 16,826 documents, 9,894 workspace records, 9,894 generic browse targets and 9,658 bounded excerpts. Paper A and B remain raw workspace targets; Paper B has a 1,400-character excerpt. The snapshot predates the later ledger-only commits.
+- **Presentation:** both feed records have `website_url` fields. Paper A remains `sandbox_staged_accepted_r1` without site version or posted date; Paper B remains `sandbox_posted_reviewed_r1`, version 34, posted 2026-09-23. The exact feed URLs were attempted through the web reader but not accessible there; live routes remain NOT OBSERVED. No PDF, reader derivative or acceptance was created. Curated `papers.json` still contains only Cruller-Rubin R0; `PUBLIC_SITE/PAPERS/` still has README, templates and Cruller-Rubin only.
+- **P0 repair:** PR #2009 remains OPEN / DRAFT / UNMERGED, 3 commits ahead and 2,862 behind current main, with zero exact-head Actions runs and zero formal reviews. Tern retains integration/release authority.
+- **WH-01:** eight additional checkout materializations from 03:45–03:59Z were appended to the existing clone ledger. The ledger now has 134 JSONL rows, 127 distinct structured event keys and 19 revision rows. The reconstructed 33-run ordered index and 25 NO_JOB_RECORD_RETURNED records are documented in [issue #1703 comment #7057111064](https://github.com/Satobloc/HsH/issues/1703#issuecomment-7057111064). The original run-list page was not retained; the index was reconstructed from the original observed IDs and individual run-object reads. No replacement run-list query was made.
+- **Lane 24:** BACKSEAT / HOLD. No measured system selection, physical calculation, CODATA comparison, fit, prediction or theory promotion.
+- **Continuity:** the previous unrelated reading break covered lines 2566–2605 of `fun break - lx.txt`; next cursor remains 2606. FIE next review remains November 24.
+- **Execution identity:** current automation run `32dcb14c-e7c8-8331-a15e-726eeb6ec97b` is a delayed continuation of the 03:24Z nominal slot, started 03:56:51Z, still IN_PROGRESS at last observation, with null `chat_ref`. The prior h987 report is not attributed to this current execution or to an authenticated Mercer instance.
+
+Next ring label: Ravel. No direct-thread handoff or acknowledgment is claimed.

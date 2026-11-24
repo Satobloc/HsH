@@ -1,3 +1,244 @@
+## 2026-11-24 | h1056:s4 Aster Review-MIND cross-graph provenance QC
+
+- Source-grounded assistant-level revival; no authenticated Aster thread or cross-thread delivery.
+- Rechecked Aldus/Morrow raw exports: three exact body-identical exemplar pairs and six shared Episode B work-item IDs. Corrected the prompt length to 53 characters; did not re-audit the full 23-record sequence.
+- Reused Nadir PR #1189 fiberwise theorem; verified current exact-head run. Meridian PR #2458 later exact-head build now passes. Orson PR #2375 later merge-reference build passes, but exact-head status remains unestablished.
+- Read the Kelvin-wave primary paper. Camera language is partly clarified, not fully mapped; fitted parameters are checked a posteriori, not by blind prediction. Figshare manifest and paired acquisition keys remain unverified. No new physical calculation.
+- Mersearch lanes remain occupied; no request mutation. PWH queue pointer remains stale and Tern-owned. Orson P1 protected.
+- Report: WORKSPACES/ASTER/2026-11-24T0048Z_H1056_S4_REVIEW_MIND_CROSS_GRAPH_PROVENANCE_QC.md
+- Public addenda: issue #2450 comment #7118826760; issue #2460 comment #7118827362.
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0048Z_s4_aster_ASSISTANT_LANE.md
+- Optional Ariadne h1057:s0 packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0048Z_from_s4_aster_to_h1057s0_ariadne_OPTIONAL_SOURCE_PROVENANCE_QC.md
+- No task, phase, signet or conversation-name change; no sixth task.
+
+
+## 2026-11-23T13:24Z | h1045:s2 | Capture-bound disclosure proof repair and target-class cross-read
+
+- Historical Aster source re-read: raw conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`, 1,818 mapping entries / 39 user-role messages. No standalone signed specialist charter or authenticated current Aster thread. Historical user messages include prior-art questions and an earlier Paper A review assignment; current Code Grurple roster remains REVIEW FROZEN / CROSS-READ OPEN, so no Paper A review was reopened.
+- BEDROCK full review: blob `2629ab29a5838d933c31727455553d206577a258`, 2026-11-23. Retained source-first, proof-first, real-data-first and no-promotion controls. Review is recorded in CURRENT_WORK Amendment 15.
+- PR #2416 existing proof-only child: four Bool-conjunction proof sites corrected on its existing branch. Head `897fe3ae0faa4b1b64ad735cf7c88b262d60ca56`; module blob `fae072dca913022649bee183c3d8dfb6b2227340`. Actions #45184293786 SUCCESS on merge ref `2b3061de39ed67ffb93cea29938555226f7eb778`; module blob identical at merge ref and PR head. Lean 4.34.0/Lake 5.0.0. Five theorem-specific axiom reports list propext, Classical.choice and Quot.sound; no sorryAx/admit in retrieved log. Global axiom audit and tests/lint/leanchecker/nanoda skipped. PR remains OPEN/DRAFT/UNMERGED.
+- Cross-read found the PR's SourceTargetBinding still lacks a target-class or registry-approval witness. A raw WORKSPACES/** target can satisfy the formal predicate if external resolution attestation is true, although the live registry default-denies such paths absent an explicit presentation derivative and keeps raw source secondary-only. This is the existing issue #2411 target-binding gap, not a new issue or live-route incident. Existing issue comment #7102795332 records it.
+- P0 discovery snapshot at 13:15:24Z is source-current but unsafe: 17,468 total documents, 10,536 workspace records, all 10,536 with generic reader targets, 10,292 excerpts, zero PRESENTATION_PENDING, 48/48 docket records from workspaces. Paper A/B R1 files retain generic raw-workspace targets; Paper B has a 1,400-character excerpt. Snapshot blob bf8fb17c1a0b606e3027b483ebb2d5fc748dde3c; embedded HsH source 51fbf9ab0916a1d3c0a0a08842b37edceca999bf; main 0c61eef56884b355da47788369e56e37bb701eb9. Freshness PASS; record safety FAIL; live route NOT OBSERVED. Existing P0 issue #1747 comment #7102794484.
+- PWH deep review completed at the five-work-product threshold after Loom h1041. Exact helper blob 49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01 self-test PASS; 13 active/blocked candidates triaged. Graph 18 records/16 branches, 5 completed/12 active/1 blocked, 17 reachable, one blocked unreachable M87 node, no dangling references/cycles. Full supplement appended to existing PWH queue.
+- Existing issue #2417 comment #7102796227 records the corrected build and limitations. No new issue or duplicate publication.
+- No physical calculation, CODATA comparison, fit, prediction, independent measurement, manuscript review, site edit, live-route probe, equation correction or theory promotion.
+- Current :24 task remains enabled, ID 6abda4c8eda88191bf23a6f2849e9a17, original hourly America/New_York :24 schedule and Geometry phase unchanged. Run 5e1db230-f9ac-8321-a3ff-639b6ac8be33 remains IN_PROGRESS with chat_ref=null; cached latest result belongs to Mercer h1044, not this run.
+- Next ring label Ariadne h1045:s3. No authenticated current thread or direct-thread delivery established; repository-only optional context is the fallback.
+
+---
+
+## 2026-11-23T0632Z | h1037:s4 | publisher SHA rejection correction
+
+- Issue #2406 publisher comment #7093431299 rejected the submission: SHA-256 mismatch.
+- Submitted digest: `54510b25cb9208986fc9a63cdb06bfc4a4dc75f120688bac830f8b414ba4e0df` for the 6,909-byte draft.
+- Exact issue-body content: 6,849 UTF-8 bytes; independently recomputed SHA-256 `694611e700f8f948352e6357014f103b35c8e06e72a88ece6f070e32a3021a6f`.
+- Canonical `PUBLISHED_SUBMISSIONS` artifact is NOT_FOUND. Final state PUBLISHER_REJECTED_SHA256 / NOT_PUBLISHED.
+- Receipt Amendment 01 records the correction. Original receipt and issue body preserved. No edit, retry, reopen, duplicate issue, or canonical-artifact bypass.
+- The substantive citation findings remain internally recorded, but no public publication success is claimed.
+
+---
+
+## 2026-11-23T0548Z | h1037:s4 | Review-MIND source-fidelity cross-read
+
+- Report: public issue #2406, submission `aster-h1037-s4-review-mind-source-citation-rotation-audit-20261123t0548z-001`, SHA-256 `54510b25cb9208986fc9a63cdb06bfc4a4dc75f120688bac830f8b414ba4e0df`, 6,909 bytes; SUBMITTED_NOT_VERIFIED at initial check. Do not duplicate.
+- Receipt: [h1037:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0548Z_s4_aster.md).
+- Bounded Lane 48 source-fidelity audit of Nadir issue #2386: current arXiv title for 2609.36855 differs from the title cited in the report; 77/82 is a five-cell subset, not the whole 25-cell experiment. The 20% chance baseline is an unmeasured five-plausible-wrong-answers heuristic, already caveated in Nadir's report.
+- Replayed PR #1189 exact-head run #44106198466/job #134119101991: 8,951 Lean 4.34.0/Lake 5.0.0 jobs; factorization_iff_fiberwise uses Classical.choice; no sorryAx/admit/error in log; tests/lint/nanoda/separate axiom audit skipped. No new theorem or physical validation.
+- Aster remains REVIEW FROZEN / CROSS-READ OPEN; no Paper A review, P0 change, or Orson P1 work.
+- Corrected prior Loom :36 slot/timing classification in Aster INBOX. The :36 slot is h1037:s3, ring index 1; inbox append commit 28ba28e8 at 05:54:47Z preceded Aster :48 actual start 06:19:29Z. Correction commit 94150aa8; exact readback verified.
+- Current :48 run 4555467d-4644-8330-a362-1dc792bf434d remains IN_PROGRESS, run-level chat_ref=null; latest cached result is prior Mercer, not Aster. Next label Ariadne h1038:s0.
+- P0 ACTIVE; P1 overdue/not ready/frozen/Orson-owned; P2 HOLD; P3 incomplete. FIE Nov 20 / next Dec 4; unrelated-reading break Nov 21.
+- Four original relay tasks enabled; :12 disabled; no sixth task, scheduler mutation, direct-thread delivery or handoff claim.
+
+---
+
+## 2026-11-23T02:00Z | h1034:s0 | Lane 00 source-fidelity duplicate guard
+
+- Canonical receipt: [h1034:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0200Z_s0_aster.md), blob 34ae103e0efe7c71075e99625d98db3a90c3e342. [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0200Z_s0_aster_AMENDMENT_01_METADATA_CORRECTIONS.md), blob bf933787fbbc01bc0a29e0dc61e54158e4999e62.
+- No new source-fidelity delta. The 2024 direct taxonomy, organism-pattern persistence, morphology crosscuts, composition/readout map and factorization condition are already covered by H930, Loom issue #904 and h932 issue #2011 (PUBLISHED_VERIFIED). Do not repeat these analyses without a new primary source or new direct correction.
+- The 2026 “Filament onto” material remains a flattened transcript; no role-tagged raw export or message IDs were recovered in bounded HsH/SAT archive search. Mersearch is not callable in this runtime and all four request lanes remain occupied/requested. No lane mutation or new request.
+- Existing Lean references: PR #1133 relevant source blobs match its successful earlier branch run; PR #1189 factorization theorem compiled at exact current head. No new Lean module/build; no source-defined maps to instantiate.
+- Aster remains REVIEW FROZEN / CROSS-READ OPEN; no Paper A review or P0 mutation. No physical calculation, CODATA, equation correction or theory promotion.
+- Current run chat_ref=null; no authenticated Aster thread or direct delivery. Next ring label Ariadne. :12 lease disabled; any packet is optional repository context only, no assignment/response obligation.
+- :00 task ID/schedule/phase unchanged; no sixth task.
+
+---
+
+## 2026-11-22T18:24Z | h1026:s2 | Source-fidelity and P0 currentness recheck
+
+- Report: [h1026:s2](2026-11-22T1824Z_H1026_S2_SOURCE_FIDELITY_AND_P0_CURRENTNESS.md); canonical receipt: [h1026:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1824Z_s2_aster.md).
+- Historical Aster source was read directly from raw blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8, embedded conversation ID 6ab006ce-e358-83ea-b3dd-7b23a26c00fa, 1,818 mapping entries / 39 user-role messages. No standalone signed specialist charter or authenticated current Aster thread.
+- Current Code Grurple roster remains REVIEW FROZEN / CROSS-READ OPEN. No unrequested Paper A review.
+- PR #2350 source-fidelity recheck found no new defect. Existing Lean run #45034919806 succeeded on merge reference with exact changed-source blob equality. The theorem is conditional on supplied row/split-unit sets and mapping; source artifact authenticity and mapping correspondence remain external. This limit is already explicit in the PR body and h1022 report. No code, PR, issue, or review mutation.
+- P0 currentness at main 2178fe60aab3ae95dcd715a05cd5a24ca82fd4ec: eight protected source/control objects exact; three discovery source/control objects exact. Issue #1747 remains ACTIVE; PR #2009 remains open/draft/unmerged, 3 ahead / 4,389 behind. No reader acceptance, route probe, deployment, or standdown.
+- P1 overdue/frozen/Orson-owned; P2 HOLD; P3 incomplete. No physical system, dataset, calculation, fit, prediction, CODATA comparison, equation change, or theory promotion.
+- Mersearch: four request lanes occupied/requested; Lane 2 compact receipt exists but no release; lanes 1/3/4 have no request-scoped terminal receipt. No new request or lane mutation.
+- FIE last full review Nov 20; next Dec 4. Unrelated-reading break last completed Nov 21; neither due.
+- Three-repository front doors read. HSH_RESOURCES private payload not accessed. No local clone/checkout.
+- Current run 33e45df8-178c-832a-9fd5-42ac6ad576b8 had null chat_ref. Current Aster manual-thread candidate remains unverified; no direct delivery claim.
+- Next ring label Ariadne. Existing h1022 optional row-disjoint packet is already in Ariadne INBOX; no duplicate handoff or assignment.
+- Existing :24 task remains enabled with exact prior identity/schedule/phase; no sixth task, signet, or conversation rename.
+
+---
+
+## 2026-11-22T14:36Z | h1022:s3 | Row-disjoint holdout admission
+- Receipt Amendment 02 corrects Amendment 01's publisher commit and artifact/report Git blob identifiers. Correct commit `60c8f26cc8b6948c2071d20e37b51e63af3b7d0b`; correct shared blob `b0c28b341753910095aa0a42c6cb35755c13b48c`. SHA-256 and exact content match are unchanged.
+
+
+- Report: [h1022:s3](2026-11-22T1436Z_H1022_S3_ROW_DISJOINT_HOLDOUT_ADMISSION.md); receipt: [h1022:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1436Z_s3_aster.md).
+- Publisher issue [#2351](https://github.com/Satobloc/HsH/issues/2351) is PUBLISHED_VERIFIED; confirmation #7080958873; canonical artifact and workspace report match exactly; SHA-256 `b02f45b2548281108a796fbda47a05fef769523f239a4a3e02dbbd15de5f83a6`.
+- PR #2350 is open/draft/unmerged, stacked on #2330; Lean run #45034919806 succeeded with exact changed-source blob equality between merge ref and PR head. Independent review pending.
+- New formal gate binds nonempty calibration/holdout record and split-unit sets to the existing precommitted dataset and artifacts; it does not establish statistical independence or artifact authenticity.
+- P2 M87 polarimetric-mode branch remains blocked; no final measured system selected, no closed H(s)H map or admitted holdout. No physical calculation or theory promotion.
+- Historical Aster raw blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8` embeds conversation ID `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`; h1018 report/receipt names a different ID. Treat as unresolved pointer mismatch.
+- Current :36 run remains IN_PROGRESS with null chat_ref. No authenticated Aster thread or direct delivery claim.
+
+---
+
+## 2026-11-22T11:05Z | h1018:s4 | Publisher readback verified
+
+- Issue [#2341](https://github.com/Satobloc/HsH/issues/2341) is PUBLISHED_VERIFIED; publisher comment #7078210678.
+- Canonical artifact and Aster workspace report match exactly: Git blob `bb6623f161e5cf6b9b6510f69cc25eacaa3c5106`; SHA-256 `bb3f54a0957f9fe89d7eb209fbc7eca83816344f3a7d95758c87eb347928970f`.
+- Receipt [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1048Z_s4_aster_AMENDMENT_01_PUBLISHER_VERIFIED_AND_FINAL_READBACK.md) records final readback and clone-ledger state.
+- No publisher retry or duplicate issue. No additional checkout event inferred.
+
+---
+
+## 2026-11-22 | h1018:s4 | Review-MIND source-role and cadence reconciliation
+
+- Report: [Aster h1018:s4](2026-11-22T1048Z_H1018_S4_REVIEW_MIND_SOURCE_ROLE_AND_FIE_CADENCE_AUDIT.md); receipt: [h1018:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1048Z_s4_aster.md).
+- Aster's historical source is a separate raw export with direct user instructions on attribution/fidelity, Paper A review, and prior-art review-team inclusion. No signed standalone charter or authenticated current thread.
+- The shared `Quantum Gravity and Experiments` export directly assigns the historical :48 remit to Mercer but contains no literal “Nadir Voss”; Nadir's role remains assistant reconstruction. Both workspace narratives share one source and are not independent role witnesses.
+- FIE full rereview: Enheduanna h982:s3 on Nov 20, six pages / 12,892 chars; next 14-day target Dec 4. The h981:s3 label in Loom h1014 Amendment 04 is a ring arithmetic error (h981:s3 selects Aldus).
+- Loom PR #2330: current head `838e980...` passed merge-reference Lean/Mathlib run #45014721410; 8,950 jobs and 11 theorem-specific no-axiom outputs. Manifest locator remains unbound; no PR change.
+- Aster remains REVIEW FROZEN / CROSS-READ OPEN. P0 ACTIVE; P1 Orson-owned/frozen/not ready; P2 HOLD; P3 INCOMPLETE. No task, graph, queue, PR, paper, physical, human/model experiment, or theory mutation.
+- Next ring label Ariadne h1019:s0; optional repository context deposited with timing unresolved; no direct delivery or acknowledgment claim.
+
+---
+
+## Scheduler-slot correction | actual h976:s0 | duplicate retry
+
+**The preceding h977/Aster checkpoint below is mis-keyed and is superseded for this execution.** The automation record's nominal slot maps to h976, sequence 4880: deterministic ring label Mercer (index 16), immediate successor Ravel (index 17). The canonical Mercer h976 report/receipt already exist and are PUBLISHED_VERIFIED at issue #2204. This invocation is a delayed duplicate retry; no second Mercer report or canonical h976 receipt was created.
+
+The separate source-origin correction at issue #2211 is assistant-authored supplemental archive work. Its h977/Aster title and submission ID were derived from wall-clock time and are incorrect execution metadata. Public correction comment [#7046992243](https://github.com/Satobloc/HsH/issues/2211#issuecomment-7046992243) states the correct slot and that no authenticated Aster or Mercer participation is claimed. The source-fidelity content remains valid and PUBLISHED_VERIFIED.
+
+Mercer's live P0 assignment remains Paper A/B presentation QA only; no P0 assignment or ownership changed. The existing Mercer h976 → Ravel h987 optional packet is already in Ravel INBOX; no additional Ravel handoff was created. The separate Ariadne h981 packet is future assistant-authored optional context only; see its slot/author correction amendment. No direct-thread delivery, consumption or acknowledgment is claimed.
+
+[Detailed slot reconciliation](2026-11-20T1820Z_SLOT_RECONCILIATION_H976_DUPLICATE_RETRY.md).
+
+---
+
+## 2026-11-20T1700Z | h977:s0 | Meridian source-origin correction and Klein Fabric map contract
+
+- Report: [h977 source-fidelity correction](2026-11-20T1700Z_H977_S0_MERIDIAN_FREE_BUILD_AND_KLEIN_FABRIC_SOURCE_FIDELITY_CORRECTION.md); canonical receipt: [h977:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1700Z_s0_aster.md).
+- Recovered and compared the Meridian Free Build raw export, Meridian Minkowski Ring Analysis raw export, Aster historical role source, live BEDROCK, source compendium, SAT archive equation file and Blockwave attachment. Aster role source remains historical; no signed standalone specialist charter or authenticated current Aster thread was recovered.
+- Source-origin correction: \`a96d...\` is an entire Morrow/Kestrel cross-post; \`b27...\` is an entire Mercer cross-post; \`59c5...\` is mixed, with only the post-header continuation direct. h768 issue #1617 and Kestrel issue #2203 were corrected additively. The one-core/hollow-outer-coil result remains supported by other direct messages.
+- October 21 direct updates supersede the old reciprocal filament/timesheet-deformation model; Back Hallways remains a mathematical comparison program. The assistant’s \`H=π_j∘π_i^{-1}\` is incomplete without fiber compatibility. Existing PR #873 formalizes the generic factorization iff target constancy on source-projection fibers. PR #1133 formalizes conditional transverse-intersection dimension and quotient readout descent under \`preservesSlice\`. Neither instantiates Klein Fabric → GR/QFT or a physical worldline → worldtube map.
+- Current BEDROCK ND-2026-10-22-02 retains Kelvin-vortex or justified-equivalent response as an active candidate constraint, tentative/falsifiable rather than optional; raw message UUID remains pending. BR-005 supplies the θ₄ angle reference from the time normal. The published report’s §7 had a BEDROCK identifier typo: it should refer to ND-2026-10-09-02, not -01. Public correction comment #7046855142 records this; no report artifact was edited.
+- SAT-O1 and Blockwave originals re-fetched and SHA-256 recomputed. SAT-O1 is unbylined and line-action-based, with a separate prose worldtube definition and no sweep map. Blockwave is a user-supplied, assistant-voiced attachment with a 4D bulk action and 2-form worldsheet current; no map to the SAT-O1 curve or H(s)H worldtube is supplied. Original hashes/dates are in the report; corrected equations: none.
+- Publication issue #2211 PUBLISHED_VERIFIED, confirmation #7046817607; artifact commit 8948e55fe1f3b81e2396d55074fdda2044193b80, SHA-256 57f15d2a443b027555a445e791d7cce3c877dcb908e3925c737f1bab32a73e01, exact workspace/artifact equality. Additive comments #7046819249/#7046819851 correct issues #1617/#2203; follow-up comment #7046855142 corrects the BEDROCK entry identifier.
+- No new Lean module or build; existing exact-head CI evidence only. Local Lean/Lake/Elan absent. No physical calculation, fit, prediction, measurement, CODATA, theory promotion or paper-gate advancement.
+- Mersearch unavailable; all four canonical lanes remain occupied/requested and untouched. HSH_RESOURCES root documentation only; no private payload. No new tooling/dependency/subscription/expense.
+- Additional Babbage reading break: *Reflections on the Decline of Science in England*, Gutenberg #1216, lines 1270–1583 read; next 1584. Existing SAT archive unrelated cursor 2001–2040, next 2041, remains separate.
+- FIE last full review Nov 10; next Nov 24. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. Task graph 18 records / 16 declared branches; WH-02 Calder; WH-05 blocked. No ownership/status change.
+- Optional successor context is repository-only for Ariadne h981:s0; no task, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment.
+
+---
+
+## 2026-11-20T0924Z | h969:s2 | TOPLESS raw-source status correction
+
+- Report: [h969:s2 source-status correction](2026-11-20T0924Z_H969_S2_TOPLESS_RAW_SOURCE_STATUS_CORRECTION.md); canonical receipt: [h969:s2 Aster receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0924Z_s2_aster.md); correction to prior h965 receipt: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0924Z_s2_aster_AMENDMENT_01_H965_TOPLESS_SOURCE_STATUS_CORRECTION.md); [Amendment 02 publisher verification](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0924Z_s2_aster_AMENDMENT_02_PUBLISHER_VERIFIED.md); [Amendment 03 final branch/scheduler readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0924Z_s2_aster_AMENDMENT_03_FINAL_BRANCH_AND_SCHEDULER_READBACK.md).
+- h965:s3 incorrectly repeated “October 29 TOPLESS remains prior-context-only; raw original not recovered.” Aster h718:s3 had already recovered the raw export; the h718 recovery section remains in CURRENT_WORK.md. h969 independently re-materialized two byte-identical Library copies and verified both direct user-role messages on the raw export's current-node ancestry.
+- Raw TOPLESS export: conversation `6ad95036-dcf0-83ea-a879-7b9264ace7ec`; SHA-256 `0781ee3deb033ef48eb0b3d330c4970bb448a2c94754a2906a700d07827e6a3f`; Git blob `4545f024f162704a28ebe2744cea4b4e267958b1`; 653 mapping nodes / 616 ancestry nodes / 19 user-role messages all on ancestry. Direct messages `c68c8846-5564-4c8c-96a5-157c99839a6b` and `9e5cd8be-5fd4-4b63-bc4b-6bff79767505`.
+- Four dated source strata remain distinct: Oct 9 `w=ct`; Oct 21 `cw=t` / `(++++)` / Forest context; Oct 29 branch-specific `w=ct`; Nov 8 tentative spatial-w / proper-time distinction. No typed conversion map or complete Forest Normalization definition.
+- Existing PR #1444 exact-head Lean build passed (Lean 4.34.0 / Lake 5.0.0; 8,945 jobs); conditional scalar statements only, axioms propext / Classical.choice / Quot.sound; tests, lint, global axiom audit skipped. No new proof or physical result.
+- P0 ACTIVE; Paper A review FROZEN / CROSS-READ OPEN; P1 Orson-owned NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next Nov 24. No physical calculation, CODATA, fit, prediction, independent measurement, theory promotion or equation change.
+- Mersearch unavailable; four lanes occupied/requested and untouched; fallback Library/GitHub source retrieval is not exhaustive Mersearch.
+- Publisher intake #2180 PUBLISHED_VERIFIED (confirmation `7036256896`); artifact SHA-256 `d23fcee8a40afbfb9f4423736feb09c6de275917a91f3c92141ab40e36ab5253`; exact workspace/issue/artifact content readback. Parent issue #2166 correction comment `7036271138` read back. No retry/duplicate. The correction is additive to issue #2166, not a replacement of its path-residual result.
+- Ariadne successor packet is POSTSTART optional repository context only; no task or direct-thread delivery. Final main readback `8aaec3dce9038f273a6f0fe02bf1e9c20601fd5f`; four existing Workshop Relay tasks enabled, :12 disabled; :24 identity/schedule/prompt/phase unchanged; no sixth task.
+
+---
+
+## 2026-11-20T0536Z | h965:s3 | path-residual gate for source-typed w-to-clock models
+
+- Report: [H965:s3 path-residual gate](2026-11-20T0536Z_H965_S3_PATH_RESIDUAL_GATE_FOR_W_TO_CLOCK_MODELS.md); canonical receipt: [h965:s3 Aster receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0536Z_s3_aster.md).
+- Publisher issue #2166 is PUBLISHED_VERIFIED. Comment #7031967974; artifact commit `9eda0977a03aca647d5167acef6105d8b017378e`; SHA-256 `345514b86814a6f93fe17cefcfeef9760f8c8b78b5de4941299c9019086b8a2b`; workspace/issue/artifact exact equality.
+- Added a post-composition `PathResidualWitness`: coordinate-only reparameterization must preserve invariant readout; projection/foliation must pass fiber compatibility or add readout channels; physical path transport needs a source-defined law and an untouched holdout residual beyond standard GR.
+- October 9, October 21, and November 8 source strata remain distinct. No `w`-to-clock map or path-transport law is defined; November 8 remains provisional. October 29 TOPLESS remains prior-context-only.
+- GW150914 is an existing measured-system anchor only. No raw data, new fit, physical calculation, prediction, or independent measurement. P2 remains HOLD.
+- Existing exact-head Lean evidence: PR #1444 PASS, PR #873 PASS, PR #1133 FAIL, PR #2151 PASS. No new Lean module because the physical map is not source-defined.
+- Mersearch unavailable; all four lanes remain requested and untouched; no local pinned checkout. HSH_RESOURCES root README only; no payload access. No new tools or costs.
+- P0 ACTIVE; P1 Orson-owned and NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next due Nov 24. Ariadne h965:s4 completed unrelated reading at lines 2081-2120; next cursor 2121.
+- Incoming Loom h965:s2 optional context was read. Ariadne h965:s4 already completed; no successor packet or cross-thread delivery/acknowledgment claim.
+- Existing :36 automation unchanged; no task/ID/prompt/schedule/phase/cadence mutation, no sixth task, signet, or conversation rename.
+
+---
+
+## 2026-11-19T2200Z | h958:s0 | UI source-fidelity and h957 scope correction
+
+- Report: [2026-11-19T2200Z_H958_S0_UI_SOURCE_FIDELITY_AND_H957_SCOPE_CORRECTION.md](2026-11-19T2200Z_H958_S0_UI_SOURCE_FIDELITY_AND_H957_SCOPE_CORRECTION.md); canonical receipt: [../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2200Z_s0_aster.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2200Z_s0_aster.md).
+- Recovered the March 7 UI primary conversation from immutable blob `dfdaec331846087af7daf0008eba431520a5b9ad`; 244 mapping nodes, 103 outer user-role messages, 86 on the current-node chain. Corrected the unreproducible 138-user count.
+- Direct UI construction includes fixed/moving hyperspheres, marked-point pair, relative ray, scale/rotation, surface/interior projections and solids-of-rotation sweeps. Notebook transcription records three rotation axes, one scale, linear expansion and small harmonics.
+- h957 two-plane map is a correct constant-amplitude, constant-scale subfamily only; variable-radius derivative ansatz and source UI time/sweep semantics remain unmapped.
+- Existing issue #229 comment #7023684316 and PR #1710 comment #7023687496 read back exactly.
+- PR #752 run #44620433580 built the derivative-constraint module on a PR merge reference, not a standalone exact head. No new Lean code or physical result.
+- WH-02 read-only refresh: 7 ahead / 6,676 behind; all seven touched paths still match merge base on main; Calder retains authority.
+- Mersearch lanes remain occupied; no overwrite/retrigger. Task graph unchanged. P0 ACTIVE, P1 OVERDUE / NOT READY, P2 HOLD, P3 INCOMPLETE; FIE due Nov 24.
+- Unrelated reading: SAT archive fun break - lx.txt, lines 2001-2040; next 2041.
+- No Paper A review reopened, no CODATA, no theory promotion, no task/ID/schedule change, no cross-thread delivery.
+
+---
+
+## 2026-11-19T1518Z | h950:s2 amendment 01B — final post-handoff readback
+
+- Final HsH main after the Ariadne packet, INBOX and Common HANDOFFS updates: 6a2680588f32cc1214f93b4d45e1bf4343568363.
+- PR #2009 remains open/draft/unmerged, 3 ahead / 902 behind main, mergeable=false; no exact-head Actions run found. Main site_discovery blob 97ff9c6d00544251c05bd6bb6053907805438f3e; PR-head blob c648a5666ddf87c3ab0ad6607f0762796bc7f160. P0 ACTIVE; Tern retains authority; no branch/merge/deployment/route action.
+- Issue #2102 is PUBLISHED_VERIFIED (comment #7013101780; commit 2ce74623049793da9fb4a4568ae6455f42d1c703; artifact blob d481d88b7a98edfc5394056a6af49beeca60696d; SHA-256 df64755319a5d23c247897380a63f1dde547348a13c88e0e70c49de99ae0afaa). Exact issue/workspace/published-artifact equality passed.
+- Receipt amendment 01B records the same final comparison and the :36/:48 timing readback. The :36 h949:s3/Ravel run failed after delayed start; h950:s3/Ariadne was not observed. The :48 h950:s4/Alberr run completed at 15:11:11Z; its chat_ref is not worker authentication.
+- The Ariadne future-ring packet, INBOX pointer and Common HANDOFFS entry were updated and read back. Target remains h954:s2, assuming no further skipped slots. No task, response obligation, ownership transfer, direct-thread delivery, consumption or acknowledgment.
+- The :24 task remains rostered with its original ID and hourly America/New_York :24 phase. ID-specific peek unavailable in this context; no scheduler/task mutation. :12 remains disabled; no sixth task.
+
+## 2026-11-19T1515Z | h950:s2 amendment 01A — publisher verification and final branch comparison
+
+- Additive issue #2102 is now PUBLISHED_VERIFIED. Publisher comment #7013101780; artifact path WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-h950-s2-raw-export-reparse-amendment-20261119t1501z-001.md; publisher commit 2ce74623049793da9fb4a4568ae6455f42d1c703; artifact blob d481d88b7a98edfc5394056a6af49beeca60696d; SHA-256 df64755319a5d23c247897380a63f1dde547348a13c88e0e70c49de99ae0afaa. The issue payload, workspace amendment and published artifact were independently compared; exact equality passed. No retry or duplicate.
+- Parent issue #2101 remains PUBLISHED_VERIFIED with its earlier exact readback. The 1509Z receipt's initial SUBMITTED_NOT_VERIFIED state is preserved as the state at first readback; this section supersedes it for current status.
+- Final observed HsH main after all writes: d481366c09d72d0203a930042ed0d76e96dff362.
+- PR #2009 remains open/draft/unmerged, 3 commits ahead / 894 behind main, mergeable=false; no exact-head Actions run found. P0 remains ACTIVE; Tern retains reconciliation authority. No rebase, merge, deployment, route probe, manuscript edit or standdown.
+- Receipt amendment 01A records the publisher readback and final branch comparison. CURRENT_WORK and BOOT now point to the verified publication state.
+- Ariadne future-ring packet, Ariadne INBOX pointer and Common HANDOFFS entry were read back. Target is h954:s2, the earliest next expected Ariadne appearance after the nominal h950:s3 slot was not observed. No direct-thread delivery, consumption or acknowledgment.
+- :24 task ID and exact hourly America/New_York :24 schedule remain unchanged in the active roster and execution-lease register. ID-specific peek unavailable in this execution context; no scheduler/task mutation. :12 remains disabled; no sixth task.
+
+## 2026-11-19T1509Z | h950:s2 amendment 01 — raw export reparse and publication-state correction
+
+- Additive update to the h950:s2 report and receipt; earlier report/receipt artifacts remain unchanged.
+- Successfully fetched and parsed historical Aster raw export blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8 at DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20•26.10.17•ASTER — raw.json. Conversation 6ab006ce-e358-83ea-b3dd-7b23a26c00fa, created 2026-09-20T16:16:17.286Z, updated 2026-10-17T12:28:18.531Z.
+- Raw graph: 1,818 mapping entries, 1,817 message-bearing nodes, 39 outer user-role messages, one root, one leaf, zero branching nodes. The current_node parent chain traverses all 1,818 nodes and all 39 user-role messages.
+- The earlier 455-node / 19-user-role current-ancestry count is not reproducible from this immutable blob using the current-node parent-chain definition. It is superseded as the current count but preserved as a historical method-unresolved discrepancy.
+- Direct source-role locators: d15369d1-1412-4f4a-9460-702d2de573ea (2026-09-22 source-fidelity questions); 01505af7-37cd-491f-a951-1822934e36ff (2026-09-22 historical Paper A assignment); 727b0f16-bd05-4834-adc8-0875b33ed231 (2026-09-23 Aster naming); e3067f7b-f1c2-45fb-ab98-075d4a798ae5 (2026-10-11 prior-art team clarification). No standalone signed specialist charter or authenticated current Aster thread. Current Code Grurple authority remains Paper A REVIEW FROZEN / CROSS-READ OPEN.
+- SAT archive source 2026/ELECTROGRAVACOUSTICS.txt, blob 4085e071d4804fd3313a0c01a7ca7e9aa62d76dd, confirms the 3.0×10^6 m GW150914 row is under Wavelength (Λ), at 100 Hz, with variable torsion gradient, Q=3A and Braid Smoothed. Its [2] and [6] references are an internal audio file and generic Pasted Text, not primary LIGO/GWOSC evidence. Four archive paths share one blob; two SRT paths share another.
+- Parent publisher issue #2101 is now PUBLISHED_VERIFIED: comment #7012542381; commit 66b7c338630cef904bc14bca850f010e4eaabe44; artifact blob 54e28b0179bf3cbb91368975c31fb039c41e9bb9; SHA-256 11d3a248269005bad4bc9cbf0d90dfa654626bc4723f243fb24980d3f291a4d4; exact artifact/issue payload comparison passed.
+- Additive amendment issue #2102 was created with submission ID aster-h950-s2-raw-export-reparse-amendment-20261119t1501z-001 and SHA-256 df64755319a5d23c247897380a63f1dde547348a13c88e0e70c49de99ae0afaa. At first readback it had no publisher comment/artifact: SUBMITTED_NOT_VERIFIED. Do not retry or duplicate.
+- P0 remains ACTIVE. Main a0865f348e8f0c8785436d4b3a870f18c382219d; PR #2009 open/draft/unmerged, 3 ahead / 881 behind, mergeable=true; no exact-head workflow run found. Tern retains reconciliation authority.
+- P2 remains HOLD; raw H1/L1 strain and O1 calibration files not acquired. No physical calculation, fit, prediction, holdout, independent measurement, CODATA comparison, new Lean build, theory promotion or paper-gate advancement.
+- Mersearch: no callable action or local checkout; four canonical lanes remain requested and all 12 expected request-scoped outputs are absent. No overwrite or retrigger.
+- Next ring label Ariadne. Nominal h950:s3 was not observed because the :36 lease was still occupied by delayed h949:s3/Ravel; earliest next expected Ariadne appearance is h954:s2 if no further skipped slots. Optional future-ring packet is in COMMON/REVIVAL_ROTATION_HANDOFFS; no direct-thread delivery or response obligation.
+- :24 lease remains rostered under ID 6abda4c8eda88191bf23a6f2849e9a17 at the original hourly America/New_York :24 phase. ID-specific peek was unavailable in this execution context; roster/lease-register evidence retained. No task/prompt/schedule/phase mutation; :12 remains disabled; no sixth task.
+
+- Scheduler reconciliation [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1036Z_s3_aster_AMENDMENT_02_PREDECESSOR_AND_SUCCESSOR_RUNSTATE.md): Loom h946:s2 :24 run `34ecfd9e-f84c-8323-a7af-992d6e8b64b8` failed at 10:52:24Z; Aster INBOX has no addressed h946:s3 packet. Ariadne h946:s4 :48 run `1b993c9e-8628-8328-bc4b-aa01228693bb` started 10:50:41Z; original packet and inbox pointer were prestart, publisher-status amendment pointer poststart. Current :36 run `bc7def87-6940-832b-bb41-4612d7018dd6` remains IN_PROGRESS with null completion/chat_ref. No task configuration changed.
+
+## 2026-11-19 | Aster h946:s3 | Publisher readback
+
+- Issue #2086 is PUBLISHED_VERIFIED; comment #7006955299, artifact commit `84e449b357924e2d38fd61903537f6e598774fca`, SHA-256 `d09f00ba17eead406059253e43b69510ff2b946911697436b4a36cf610a1f12f`, exact report/artifact blob match `a0aac7228b34a3a29dc7670ccb64a7950a6fb19f`.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1036Z_s3_aster_AMENDMENT_01_PUBLISHER_VERIFIED.md). Original receipt's pending state preserved as the status at its creation time.
+- No retry, issue edit, duplicate, or direct artifact write.
+
+## 2026-11-19 | Aster h946:s3
+
+- Condition-scoped Kelvin evidence map: Supplementary Videos 1/2 are at different operating conditions from Figs. 3/4 and both are side-view only; the two-camera handedness link remains unregistered/unverified. Existing antipodal-readout theorem proves m↔m+2 alias; PR #1189 exact-head Lean build #44106198466 passed 8,961 jobs with standard axiom dependencies; global audit/tests/lint skipped.
+- Report and receipt: [H946 report](2026-11-19T1036Z_H946_S3_KELVIN_SUPPLEMENTARY_CONDITION_EVIDENCE_MAP.md), [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1036Z_s3_aster.md). Publisher issue #2086 SUBMITTED_NOT_VERIFIED at receipt time; artifact 404; no retry.
+- P2 remains HOLD; no raw Figshare bytes, physical calculation, fit, prediction, threshold or independent measurement. FIE next Nov 24. Unrelated reading lines 1961–2000 complete; next cursor 2001. No physical break.
+- Optional Ariadne prestart packet and INBOX/HANDOFFS pointers created; no assignment or cross-thread delivery. Existing :36 task ID/schedule/prompt unchanged; no sixth task.
+
 ## 2026-11-18 | Aster h931:s2
 
 - Exact-head Lean CI readback: P2 protocol PR #2004 corrected head `584c400b836c6942f72b739c626ad12c1c66b384`, run #44373134985 SUCCESS; module classification only, no statistical or physical claim. PR remains draft/unreviewed; P2 HOLD.
@@ -1113,3 +1354,93 @@ Next deeper cursor: recover the separate November 9 gyroscope raw conversation; 
 - :36 automation ID/schedule unchanged; current run in progress, no chat_ref. No sixth task.
 
 - P2 matrix #1855 crosswalk comment #6983601424 was added and exact-readback verified; no new gate or advancement.
+
+
+## 2026-11-19 | Aster h950:s2 | GW150914 source genealogy and dependence audit
+
+- [Report](2026-11-19T1424Z_H950_S2_GW150914_SOURCE_GENEALOGY_AND_DEPENDENCE_AUDIT.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1424Z_s2_aster.md). Publisher intake #2101 SUBMITTED_NOT_VERIFIED at receipt creation; no duplicate/retry.
+- P2 tracker #565 already held a GW150914 area-law candidate in October 28 comment #6465461293. Mercer h949 comment #7011448278 adds a time-delay observable for the same event. This is not a new physical system or independent experimental replication.
+- SAT archive Electrogravacoustics concept table includes LIGO GW150914, wavelength 3.0e6 m, 100 Hz, Q=3A, Braid Smoothed. Four concept-file paths share one blob; two episode-page/SRT paths share another. The table's [2]/[6] references are internal locators, not recovered primary LIGO sources. Authorship and derivation unresolved. The 3.0e6 m value is consistent with c/f at 100 Hz, not an established detector baseline.
+- GWOSC timing delay 6.9 ms (+0.5/-0.4 ms) is used to shift/invert H1 for visualization. Its bounds' coverage semantics are not stated in the caption. The page's 90% source-parameter intervals do not automatically apply to the delay.
+- Scripted LALSuite 7.26 H1/L1 geometry reproduces B=3,001,775.759551 m and cΔt=2,068,567.960 m. This is a source-reproduced projection check, not raw-strain analysis. The raw H1/L1 v2 HDF5 and O1 calibration uncertainty files were not acquired; no DQ/injection check, calibration propagation, fit, prediction, or holdout.
+- Existing Kestrel PR #873 exact-head Lean run #44090154878 passed. Its generic non-injective projection theorem does not prove the GW150914 dot-product timing relation or the H(s)H composition. No new theorem/PR.
+- Nathan Direct source recovered for this lane is the current Lane 24 measurement discipline and 2026-10-29 time-wavefront/timesheet-first statement. No GW150914-specific Nathan Direct equation/map found in bounded HsH/SAT search. The source-worldtube-to-metric-to-strain chain remains a standard-GR comparator and assistant reconstruction; the H(s)H map is undefined.
+- P0 remains ACTIVE, P2 HOLD. P0 PR #2009 remains open/draft/unmerged, 3 ahead / 864 behind at observed main 663c51a3390953e87e24088ec97a4ccd5bc0098a. Paper A review remains frozen. FIE next Nov 24; unrelated-reading cursor 2001, not due.
+- No private HSH_RESOURCES payload, new tooling, branch, task, scheduler, signet, or conversation-name mutation. No authenticated current Aster thread or cross-thread delivery.
+
+
+## 2026-11-20 | Aster h980:s4 | Mersearch queue and indexed-service continuity
+
+- Report: WORKSPACES/ASTER/2026-11-20T2048Z_H980_S4_REVIEW_MIND_MERSEARCH_QUEUE_INDEXED_FASTLANE_AUDIT.md.
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2048Z_s4_aster.md.
+- Current Mersearch lane 2 request is in Actions execution while the request file remains `requested`; prior lane-2 request publication failure is recoverable from Actions/WH-05 but not a request-scoped event ledger.
+- The 1.1 SQLite/FTS prototype is single-repository HsH smoke CI, not a three-repository shared service. Stable 1.0 remains primary. The new fast lane and central queue are requirements, not deployed capabilities.
+- Existing generic fiber-factorization theorem/build reused; no queue-specific Lean proof. No new tooling or code.
+- Publisher issue #2225: workspace and issue body read back identically, but declared SHA differs from actual SHA. Status remains SUBMITTED_NOT_VERIFIED / SHA_MISMATCH_DETECTED pending publisher result; no retry/duplicate.
+- No task, schedule, lane, ownership, paper gate, physical claim, or theory status changed. No new handoff; Ariadne h981:s0 already completed.
+
+
+## Publication outcome update | 2026-11-20
+
+- Publisher issue #2225 remains open; workflow #44822141551 completed as a workflow execution, but publisher comment #7051275270 states `REJECTED: SHA-256 mismatch`.
+- Workspace report and issue-body content match exactly at 14,697 characters. Declared digest `f880025e66d58d67418d16eff9b2105d2ef6d877c1bc199a660998baa3811381`; actual digest of both matching contents `25eac3570cc699ad8c3a0e5027da58013ce345a77e72b58b9ffdda0d0de6ad28`.
+- No canonical publication artifact exists. Receipt Amendment 01 records the rejection. No retry, issue edit/reopen, duplicate submission, or manual canonical write.
+
+
+## H988:s2 | 2026-11-21 | PRL Kelvin-wave source audit
+
+A distinct PRL 137, 134001 (2026) source was recovered from the author-hosted PDF. It defines an antipodal displacement readout, reports m=2 flattening patches in S_eta, and states that no public research data or software are available. Under the ideal pure-mode antipodal map, m=2 cancels in eta; this is a conditional measurement-channel question, not a demonstrated paper error. Addendum posted to Aster h946 published issue #2086, comment #7057342673. Reused existing Nadir PR #1189 exact-head Lean proof; no new proof PR retained. Redundant Aster PR #2250 closed without CI or merge. See CURRENT_WORK.md and receipt 2026-11-21T0424Z_s2_aster.md.
+
+
+## H1041:s3 | 2026-11-23 | Capture-bound reader-disclosure evidence refinement
+
+A bounded source-fidelity cross-read of P0 issues #2411, #2414 and #2413 found that the twelve Boolean ReaderAcceptanceChecks and the route capture digest do not structurally bind visible SANDBOX/review/provenance content to nodes in the same captured reader representation. The current code explicitly treats capture and binding flags as external attestations. The operational roster and presentation controls require visible classification/status/provenance, so the abstraction is weaker than the control.
+
+A proof-only child PR #2416 adds CapturedElement, ReviewStateBinding, SourceTargetBinding, CapturedReaderTree, and a same-capture disclosure predicate bound to capture digest, route, deployment, source and feed. It remains OPEN / DRAFT / UNMERGED / NOT COMPILED. No Lean run, theorem-specific axiom audit, live route observation or browser-capture authentication is claimed. The draft must not be treated as a verified theorem or production repair.
+
+Workspace report: 2026-11-23T0936Z_H1041_S3_CAPTURE_BOUND_READER_DISCLOSURE_EVIDENCE.md. Publisher issue #2417 is PUBLISHED_VERIFIED; workspace and canonical artifact have identical blob SHA-1 c6941bfb3eb257119a9ceeec9a1fe05c900f4a69 and SHA-256 d9137a7eea953e14d9502f5a4d145aa895c6a6677f9d10c4488676789521f11f. Receipt: 2026-11-23T0936Z_s3_aster.md; publication amendment: 2026-11-23T0936Z_s3_aster_AMENDMENT_01_PUBLISHED_VERIFIED.md.
+
+A repository-only optional handoff to Ariadne h1041:s4 is recorded in the common handoff packet and Ariadne INBOX. No direct-thread delivery, consumption, acknowledgement, assignment or ownership transfer is claimed. Aster remains REVIEW FROZEN / CROSS-READ OPEN; Meridian retains P0 implementation ownership and Tern retains release authority. No manuscript, site, feed, reader, BEDROCK, SAT-O or Blockwave changes; no physical calculations or measurements.
+
+During branch setup, a proof file was briefly written to default main by omitting the optional branch parameter, then immediately deleted and added to the intended proof branch. At the correction checkpoint the main tree matched its prewrite tree; subsequent report, publisher artifact, receipt and handoff commits are intentional. The proof file remains only on PR #2416's isolated branch.
+
+FIE next review remains December 4; last full review November 20. Unrelated-reading break completed November 21.
+
+
+## H1041:s3 amendment | 2026-11-23 | Lean proof failure and correction
+
+The first exact-head child-PR Lean run #45149542721 failed: Bool.and_eq_true.mp was not a Lean constant at four proof sites. The failed theorem elaborations reported sorryAx; no proof success was claimed. Corrective commit 5f31c0e014e93601bb649ee0fb83ae33fca73674 replaces the extraction with an explicit Bool case lemma. New exact-head run #45150845391 is IN_PROGRESS; its result and theorem-specific axiom output remain pending.
+
+The original public report and published artifact remain immutable and byte-identical. The initial statement that no pull-request-triggered Lean run had been returned is superseded by this later status amendment. Handoff timing is also corrected: the Ariadne h1041:s4 slot had passed before repository handoff creation, so the packet is POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED. See 2026-11-23T0936Z_from_s3_aster_to_s4_ariadne_AMENDMENT_01_TIMING_AND_LEAN_STATUS.md.
+
+No live route, browser capture, physical data, manuscript change, theory promotion or scheduler mutation.
+
+
+## H1041:s3 amendment 02 | 2026-11-23 | Lean run correction
+
+The published issue #2417 received append-only correction comment #7097240853. Receipt Amendment 02 records the first child-PR Lean run #45149542721, which failed because Bool.and_eq_true.mp was unknown; four failed theorem elaborations reported sorryAx. Corrective commit 5f31c0e014e93601bb649ee0fb83ae33fca73674 replaces the extraction calls with an explicit Bool case lemma. Exact-head rerun #45150845391 remains IN_PROGRESS at Lake dependency-manifest generation; no proof success or theorem-specific axiom audit is claimed.
+
+The original published report remains immutable. Ariadne handoff remains POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED; no direct-thread delivery or acknowledgement is claimed.
+
+
+## 2026-11-24 | h1060:s3 stale visual fallback eligibility cross-read
+
+- Report: WORKSPACES/ASTER/2026-11-24T0436Z_H1060_S3_STALE_VISUAL_FALLBACK_ELIGIBILITY_CROSSREAD.md.
+- New companion finding to Mercer h1059:s3: stale HsH fallback carries prior visual records forward without reapplying current eligibility; bounded synthetic branch replay passed. No actual excluded visual, current manifest exposure, or live render was established.
+- Publication issue #2469 PUBLISHED_VERIFIED; SHA-256 `09a749afc08230fe0fed21ba1c38229decaf30c95b9c3c2977c6053ed11f201a`; exact readback passed. Receipt Amendment 01 records the final verification.
+- PR #2009 and P0 #1747 received informational comments, not formal reviews. No code edit, route probe, deployment, P0 owner change, Paper A review, physical calculation, or theory promotion.
+- HSH_RESOURCES access stop respected. No new tooling or expense. Next ring label Ariadne h1060:s4; optional prestart packet is repository-only, no task or response obligation.
+
+
+## 2026-11-24 | h1060:s3 scheduler preservation
+
+- Final Automation peek confirms existing :36 Worldtube task ID `6a9f52b69ec08191b8a91a30d2a155e0`, enabled, original hourly America/New_York :36 schedule, prompt/phase unchanged. Current run remains IN_PROGRESS with null run-level chat_ref. No sixth task or mutation.
+- Scheduler evidence: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_AMENDMENT_02_SCHEDULER_PRESERVATION_READBACK.md.
+
+
+## 2026-11-24 | h1060:s3 thread-first / V4 revival
+
+- Historical Aster reference conversation 6aa81f11-1c54-83ea-bf38-4610e1031e2d is a historical reference only; current usability unverified. Aster remit is Nathan Direct corpus/provenance, exact authorship, chronology, and source-vs-assistant separation.
+- Bounded lookup did not find a newer usable active Aster thread. Raw export re-fetch empty; embedded ID/workspace pointer mismatch remains unresolved. Source coverage PARTIAL.
+- In-run V4 source-grounded revival executed through the bounded cross-read; no new ChatGPT conversation or direct cross-thread delivery.
+- Ariadne historical identity thread 6ab339d2-8fb4-83ea-b728-c8001a034371 last archived user activity 2026-09-23T05:32:34Z; live usability unverified. Optional packet updated with next-run V4 check; no task or response obligation.

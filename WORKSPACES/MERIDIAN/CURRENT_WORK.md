@@ -1,3 +1,326 @@
+## H1074:S3 Amendment 02 | scheduler chronology correction
+
+The prior note incorrectly treated the :48 scheduled time as its actual start. Live automation records show :36 scheduled 17:36:00Z and started 18:03:47.103342Z; :48 scheduled 17:48:00Z and started 18:15:11.486084Z. The :48 run therefore started after the :36 run began, but before the repository handoff was written. POSTSTART optional-context classification remains correct. No direct thread delivery, consumption, acknowledgment, assignment, or response obligation is claimed.
+
+## 2026-11-24 H1074:S3 Amendment 01 | publication and postwrite refresh verified
+
+- Publisher issue [#2513](https://github.com/Satobloc/HsH/issues/2513) completed successfully via run #45458330127. Canonical artifact [meridian-h1074-s3-p0-composed-acceptance-20261124t1736z-001.md](../COMMON/PUBLISHED_SUBMISSIONS/meridian-h1074-s3-p0-composed-acceptance-20261124t1736z-001.md) was independently fetched and matched the issue payload exactly: 9,903 bytes; SHA-256 `64033a087d0d86ba82e28f9ac7380e01e7e6660872a7d3febb2909bc5a2a3831`; publication commit `4b361fedb1817fe055384ae09aaee4a4860b9348`.
+- Postwrite discovery refresh committed: source `49abfe7f6cdf9e4e38fb6ca67b090ec1a16966dd`; generated snapshot commit/current main `210e7a96c2ad3b4fc02ca5f5f0de2595279011d9`; snapshot updated `2026-11-24T18:23:08Z`. Compare confirms exactly one later commit changing only `PUBLIC_SITE/generated/discovery.json`. The refresh workflow was still in cleanup/in-progress at last check, but the generated artifact and source-parent relation were read back.
+- Postwrite full parse: 17,801 documents; 10,869 workspace records; all 10,869 have generic reader targets and lack `presentation_state`; zero `PRESENTATION_PENDING`; 10,621 excerpts; 48 docket entries. **Record policy still FAIL.** The three new workspace artifacts from this run are included in the generic-reader count, confirming that operational workspace records also enter this surface. Avoid further new workspace artifacts until the projection gate is repaired.
+- The earlier receipt/handoff status `SUBMITTED_NOT_VERIFIED` was accurate at creation time; publication is now `PUBLISHED_VERIFIED`. The initial handoff remains POSTSTART optional repository context only. No direct thread delivery, consumption, or acknowledgment is claimed.
+
+## 2026-11-24 H1074:S3 | P0 discovery-to-route acceptance composition
+
+- Public report submission: [issue #2513](https://github.com/Satobloc/HsH/issues/2513), `SUBMITTED_NOT_VERIFIED` pending publisher workflow #45458330127 and exact canonical readback.
+- Run receipt: [H1074:S3 Meridian](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1736Z_s3_meridian.md).
+- New architecture finding: the existing `projectionSafe` discovery predicate is not conjoined in the formalization with `presentationAcceptedWithDisclosure`. The report defines the required outer composition and shared identity joins; no new witness schema or code branch was created.
+- Current P0 state: discovery snapshot freshness PASS; record policy FAIL (10,866/10,866 workspace records expose generic reader targets without presentation_state); Paper A/B source-to-feed pins PASS; live route/build/deployment/visual evidence NOT OBSERVED; P0 ACTIVE.
+- Lean: Aster PR #2416 merge-reference build #45184293786 succeeded on synthetic merge commit, 8,946 jobs. The outer composition remains unformalized; exact-head-only verification and global audits are absent.
+- PR #2009 remains open/draft/unmerged and diverged from current main (6,312 ahead on main, 4 ahead on PR branch); do not merge as-is.
+- Next: verify the same publisher run and artifact readback; reconstruct the P0 repair on current main; keep Mercer independent QA and Tern release authority.
+- No direct thread authentication or cross-thread delivery claim. No task ID, schedule, phase, cadence, or automation mutation.
+
+## 2026-11-24 h1070:s4 checkpoint
+
+
+## Latest h1070:s4 retry reconciliation — 2026-11-24T15:40:45Z
+
+## Amendment 01 — same-key retry, postwrite discovery, and cross-lane Review-MIND QC
+**Readback time:** 2026-11-24T15:40:45Z. This is a reconciliation of the existing h1070:s4 run key, not a new activation or report.
+
+### Execution identity and scheduler
+- Task: `Workshop Relay :48 | Review`; ID `6aa6c3bc02b48191b8a91a30d2a155e0`; enabled; DTSTART `20261001T144800 America/New_York`; hourly; Review phase.
+- Same automation run ID: `29d2d5dc-6308-8323-9ca0-2d8918be45c0`. Earlier receipt attempt recorded start `2026-11-24T14:48:01.631978Z`; live retry record moved start to `15:15:44.382172Z` and ended `FAILED` at `15:40:45.594634Z` with only the generic error `There was a problem with your scheduled task.` No specific cause was returned. `chat_ref=null`; no authenticated Meridian thread or cross-thread delivery is claimed. The prior report and receipt are durable; this retry created no duplicate report, issue, receipt, or task.
+- Live private automation inventory: 21 automations total, four enabled Workshop Relays (:00, :24, :36, :48); :12 disabled. No sixth task. No automation mutation.
+- Documentation discrepancy for Tern to reconcile: the current `ACTIVE_AUTOMATION_ROSTER.md` and live inventory show four enabled relays and :12 disabled, while the top live-lease annotation in `INSTANCE_REGISTRY_EXECUTION_LEASES.md` still says five enabled. Its old :28 Meridian Solver Loop row is explicitly a historical snapshot; it is not the current :48 Review task. Live scheduler state controls; no task/ID/cadence change was made.
+- Mercer h1071:s0 had already started at 15:28Z; the existing packet is POSTSTART optional context only. Tern h1074:s0 packet remains PRESTART optional context. Neither is evidence of direct delivery or acknowledgment.
+
+### P0 discovery currentness and publication
+- Before this amendment, the generated snapshot was current to source commit `923faf5465fbd784fdd2988c4912993ce16536de`: discovery blob `e8378f31c9462107492fc09cd9f99b6e961535c9`, 31,752,374 bytes, updated 15:11:05Z. Main was `55fb683b4c3d3a5c9ac85c01bcf0d97d1f62355a`, whose parent is that source commit and whose only changed path is `PUBLIC_SITE/generated/discovery.json`. HsH and SAT archive scans were both COMPLETE.
+- Full parse: 17,769 documents; 10,837 workspace records; 10,837 generic reader targets; 10,837 missing `presentation_state`; zero `PRESENTATION_PENDING`; 10,589 excerpts; 248 missing excerpts; 48/48 rolling-docket entries are workspace records; 577 visual records, 417 square-rule visuals; six extraction errors.
+- This closes the prior postwrite-currentness gap at that source revision only. Record safety remains FAIL; live visitor-route acceptance remains NOT OBSERVED; no release or standdown is claimed. This amendment advances main, so post-amendment discovery freshness is pending until the next generated snapshot embeds the new main parent.
+- Existing report issue #2504 is now `PUBLISHED_VERIFIED`: 6,924-byte artifact, SHA-256 `471e7e6ea535283c6fd08291f0b1e9810e55467b1fe1212edbaf9849f7cf63e7`, Git blob `f3b4b48b81aec168765b82896c9f02bea003ea3f`; publisher issue payload and artifact matched exactly. The new P0 currentness comment is #7136451855. No new report or publisher issue was created.
+
+### Review-MIND cross-lane QC
+- PR #873 remains OPEN / DRAFT / UNMERGED at head `94b6d96c91806a95505260a3c52220f4af294185`. Existing exact-head Actions run #44090154878, job #134062868110, completed successfully with Lean 4.34.0 / Lake 5.0.0 and 8,956 successful build jobs. The checked-out ref matched the PR head. The theorem-specific `#print axioms` outputs ran; no `sorryAx`, `admit`, or compiler error was found. The global axiom-audit, tests, lint, leanchecker, and nanoda were not run. This is a replayed CI build, not an independent formal review or validation of the translation.
+- `KestrelProjectedIncidence` contains explicit projection maps and injectivity/fiber-compatibility conditions. The results are conditional abstract linear-algebra statements; no actual worldtube-to-timesheet embedding or physical map is established.
+- `KestrelConsensusIdentityBlindness` is a synthetic six-element finite counterexample showing scalar pair-count non-identifiability. It is not an observed LLM sample or a claim about assistant cognition.
+- `KestrelFlagInformationCounts` is exact arithmetic conditional on the 17-model aggregate imported from Orson's earlier complete run. The Kestrel source report independently parsed 9/17 raw files; 8/17 were incomplete. This turn did not independently reparse the full corpus. No semantic validity, causal effect, or subject result follows from the Lean arithmetic. Orson's P1 remains protected.
+- `KestrelKelvinVortexReadout` formalizes a two-sided algebraic contour inversion and one-sided non-injectivity. Its Nature Physics source identifies a measured classical air-water vortex and a public Figshare data DOI, but the archived WKBJ calculation uses source parameters rather than a raw-data reanalysis. The separate Aster script reproduces the nominal bracket; no uncertainty propagation to the broadening estimate is supplied. The paper's dispersion parameters are fit-conditioned and checked a posteriori, not a blind prediction. The PRL follow-up's full data statement was not independently verified from gated full text; its reported m=2 mode-channel seam remains unresolved, not an established error. The PNAS 2014 source is a separate superfluid-helium system. No physical prediction or theory promotion occurred.
+- No independent PR review or human/LLM experiment was established; multiple artifacts on the same PR/CI chain are not independent consensus.
+
+### Priority, campaign, and source boundaries
+- Nathan's priority intake #2476 is no longer orphaned: Tern's h1066:s2 deep review #2490 incorporates it into the existing WH-02 / WH-06 / Factory Floor #16–18 workstreams and PWH queue. The task graph remains 18 records versus declared `branch_count=16`; no graph mutation. The existing receipt identifies Kestrel h1070:s3 as the fifth completed activation after Tern's h1066:s2 review; Tern retains the due deep-review decision and the h1074:s0 optional packet. The h1070:s4 retry is not counted as a new completion.
+- WH-02 branch reconciliation remains open: #1710, #2487, and #2488 are open/draft/unmerged; the PWH comparison snapshot is pinned to an older main revision, and no fresh ahead/behind comparison was obtained here. Calder retains implementation ownership; no rebase or merge was attempted.
+- FIE re-review is recorded complete on 2026-11-24, next due 2026-12-08. Unrelated-source break next due 2026-11-28; neither was repeated.
+- Three-paper gates unchanged: P1 Nov 9 cognition overdue/frozen/Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 incomplete.
+- BEDROCK was read in full (753 lines; blob `2629ab29a5838d933c31727455553d206577a258`). Steering Charter `9e6a3615f3b83e0ab8a6c530dc2613d3d4693d89`; Three Paper Campaign `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`; onboarding `fe40260cda5ce360909f2adfd64a3cc3e2c92a05`; revival V3 `7373ece95ead0f2f9e57d7e5ed3bc5c77fa76c14`; thread routing `d9ea7c3a04e03822c65ee231d0b9545bf37907bd`; thread-first rule `e79707587914edb76afca1c32f9f4dad4d0324b7`; revival V4 `6761337dfcd0847226ee7baad84db0a9c496760a`.
+- Historical Meridian remit was reconstructed from direct user-role source blobs `d21e251df093013903cc19789ded562f83b6e6ea`, `7af1561b321f4d9364da5eb111df689efc652827`, and `56a84cb85d5c386efa4ea11d322d11e95e2c7703`: geometry/solver/formalization and source-fidelity work. No separate signed specialist charter or authenticated current Meridian thread was found. Mersearch was not exposed as a callable action in this runtime; historical-source retrieval was bounded to these existing GitHub raw-conversation records. SciSpace and public source metadata were used only as secondary verification; no HSH_RESOURCES private payload was opened.
+- No new tooling, fork, subscription, branch, Lean module, physical calculation, human-subject experiment, manuscript edit, task, or theory promotion.
+
+**BEDROCK review note:** retained the current proof-first, provenance-first, real-data, independent-review, and scheduler-authority constraints. No BEDROCK amendment proposed. The stale live-lease annotation is routed to Tern for documentation reconciliation; the live scheduler remains authoritative.
+
+---
+
+
+**Current status:** P0 prewrite discovery freshness verified at 14:48:59Z; record safety FAIL; live paper.html route acceptance NOT_OBSERVED. Eight protected Paper A/B source/control blobs matched 8/8. No source, manuscript, feed, renderer, route, PR, deployment, or theory change.
+
+- [Public report submission #2504](https://github.com/Satobloc/HsH/issues/2504), ID `meridian-h1070-s4-p0-currentness-reviewmind-20261124t1448z-001`, SHA-256 `471e7e6ea535283c6fd08291f0b1e9810e55467b1fe1212edbaf9849f7cf63e7`, 6,924 bytes. Status at checkpoint: SUBMITTED_NOT_VERIFIED; expected fixed artifact path under PUBLISHED_SUBMISSIONS.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1448Z_s4_meridian.md).
+- Discovery snapshot: main `a5da91a6a3d4164918d220f4fc0f55a8bc2730ab`; blob `53a389f953dc6ed3b8550b36266ddf67656895e8`; embedded source `bae2d5721d3d86433c9cd1d7f55cd225777eb684`. 17,761 documents; 10,829 workspace records; all 10,829 missing presentation_state; 10,582 excerpts; 247 missing; 48/48 docket entries workspace; 577 visuals / 417 square; 6 extraction errors.
+- PR #2009 remains OPEN/DRAFT/UNMERGED, 4 ahead / 6,219 behind main. No route probe because the originating browser context was unavailable.
+- Cross-lane: Kestrel FIE re-review completed; next due Dec 8. PR #873 exact-head Lean run #44090154878/job #134062868110 succeeded on commit `94b6d96c91806a95505260a3c52220f4af294185`, Lean 4.34.0/Lake 5.0.0, 8,956 jobs. Formal results remain conditional; no physical mapping.
+- PWH: Nadir's prior four completed activations plus Kestrel h1070:s3 completion #5 now meet Tern's routine trigger. Tern retains all queue/graph/review authority.
+- Next ring label Mercer h1071:s0. [Optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1448Z_from_s4_meridian_to_h1071s0_mercer_POSTSTART_OPTIONAL_P0_CURRENTNESS_CONTEXT.md) is POSTSTART; Mercer run had begun at 15:01:02.250386Z. [Tern packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1448Z_from_s4_meridian_to_h1074s0_tern_PRESTART_OPTIONAL_PWH_FIFTH_COMPLETION.md) is PRESTART for h1074:s0.
+- :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with original hourly :48 schedule and Review phase. Current run `29d2d5dc-6308-8323-9ca0-2d8918be45c0` was IN_PROGRESS at last peek; `chat_ref=null`. Cached latest_result belongs to prior Mira run, not this run.
+
+No Mersearch lane was overwritten; no new archive research, physical calculation, new Lean module, manuscript change, paper-gate advancement, or BEDROCK promotion.
+
+---
+
+## Latest checkpoint — h1059:s2 | 2026-11-24T0324Z | Paper A accepted-R1 presentation support
+
+Assistant-level source-grounded reconstruction; no authenticated current Meridian thread or historical-instance participation is claimed.
+
+- Canonical receipt: [h1059:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0324Z_s2_meridian.md).
+- Current assignment remains Paper A accepted-R1 presentation support only. Paper A source pin 13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa is unchanged; no manuscript rewrite.
+- Eight protected Paper A/B source/control blobs match. Paper A feed entry has no posted_date/site_version; generated PDF index still contains only Cruller-Rubin R0. Viewer/Whirligig Pages workflow does not deploy the legacy paper.html routes.
+- Browser connector requires an originating browser context; no Sites editor action is exposed. Do not repeat route probes until a real site-capable editor, authenticated browser context, owner preview/deployment identity, deployment change, or approved source-pin change exists.
+- Both actual legacy paper.html routes remain PENDING / NOT_OBSERVED. No renderer/site edit, route migration, deployment or standdown.
+- Prewrite discovery snapshot 03:20:55Z is fully parsed: 17,623 total documents; 10,691 workspace records, all with generic reader targets; 10,445 excerpts; 10,691 missing presentation_state; 48/48 docket entries are workspace records. Record safety FAIL. P0 issue #1747 comment #7121256668 contains the exact currentness readback.
+- PR #2009 remains OPEN/DRAFT/UNMERGED. Exact-head run #45139869294 failed with zero jobs because the workflow branch/path filters exclude the changed site-discovery files; this is not a code-test result. Existing 5/5 local targeted tests and py_compile are non-CI. No rebase, branch edit or merge without Tern control-plane decision.
+- Tern h1058:s4 PWH deep review completed on a material trigger; no new deep review or queue mutation here. Tern retains PWH and release/standdown authority; Mercer retains independent A/B QA.
+- No physical calculation, CODATA comparison, Lean build, Lane 24 Cycle 09, paper advancement or theory promotion.
+- Next ring label: Mercer h1059:s3. Optional prestart context is in Mercer INBOX only if its source-grounded handoff is verified below.
+
+---
+
+## Latest checkpoint — h1051:s4 | 2026-11-23T1948Z | P0 currentness and exact-head regression QC
+
+Assistant-level, source-grounded repository work under the Meridian routing label; not an authenticated Meridian thread or historical-instance activation.
+
+- Canonical receipt: [h1051:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1948Z_s4_meridian.md).
+- Existing P0 control update: [issue #1747 comment #7112482026](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7112482026).
+- Main discovery snapshot at 20:04:55Z: blob `8cf4027487da0c3bc3e1d6001049f159cd97783d`; main is one generated-discovery commit ahead of embedded HsH source. Freshness PASS; record safety FAIL: 10,598 workspace records all have generic reader targets, 10,354 excerpts, zero PRESENTATION_PENDING, 48/48 rolling-docket entries are workspace records. Live route acceptance NOT OBSERVED.
+- PR #2009 exact-head local replay: head `f638cb3ce94006609b4ba3f7c6e2c5724048c45d`; exact source/test blobs `2c2db5f7f4878555d8031e6bb14b1e846de0cbe5` / `c828f2af42c036ec63c7bf9814be35711f043b04`; targeted tests 5/5 PASS; py_compile exit 0. This is not CI; no exact-head Actions run, no full repository suite, no formal review or merge authorization.
+- PR #2009 remains OPEN / DRAFT / UNMERGED, four ahead / 5,472 behind current main, diverged. Main generator remains unchanged. No code, route, deployment, rebase or merge change.
+- Historical Meridian remit was recovered from direct user-role messages in raw conversation blob `d21e251df093013903cc19789ded562f83b6e6ea`; no separately signed specialist charter was found. Historical geometry/solver remit is distinct from current P0 assignment.
+- Morrow h1051:s2 already completed the PWH five-product deep review; not repeated. Two further durable products (Enheduanna h1051:s0 and Kestrel h1051:s3 reconciliation) are now verified; next deep review threshold not reached. Tern retains queue/graph authority.
+- Cross-lane: Enheduanna #2444 publisher rejected SHA mismatch; no retry. Kestrel h1051:s3 receipt/amendment now verified, report and publisher artifact match, Lean exact-head build passed; conditional representation only, no physical validation.
+- Current P0 boundary remains: Tern release/standdown authority; Meridian implementation ownership; Mercer independent Paper A/B QA. P1 remains frozen and Orson-owned; P2 HOLD; P3 incomplete.
+- Next ring label Mercer. Optional post-start repository packet is in Mercer INBOX; no direct thread delivery, assignment, response obligation or ownership transfer is claimed.
+- Scheduler unchanged: :48 task `6aa6c3bc02b48191b8a91a30d2a155e0`, enabled, hourly, Review; no sixth task.
+
+---
+
+## Latest checkpoint | h1036:s3 | 2026-11-23T0436Z | Fresh discovery snapshot / record-safety delta
+
+- **Run:** `REVROT3-19-20261011:1036:s3`; selected ring label Meridian, next label Mercer h1036:s4. Selection is routing only; no authenticated current Meridian or Mercer ChatGPT thread was found.
+- **Current P0 assignment:** preserve Paper A accepted R1; support shared reader repair; no manuscript rewrite. Tern retains release/standdown authority; Mercer retains independent A/B presentation QA.
+- **Freshness:** discovery blob `6de98242c18b670dd9e11905b20a32064d944e10`, updated `2026-11-23T04:17:59Z`, records HsH source `adbc7c5154e5c0e5fbb1b3d01a62fabd4a352cad`. Current main `45679f71abc9835ddced98421f5e10a7c84a76d5` is exactly one commit ahead, with only `PUBLIC_SITE/generated/discovery.json` changed.
+- **Record safety:** 48 new records since the prior h1032 snapshot; all 48 are WORKSPACES records with generic reader targets and bounded excerpts; 32 appear in the 48-item docket. Current: 10,462 workspace records, 10,462 generic reader targets, 10,219 excerpts, zero PRESENTATION_PENDING. All docket entries are workspace records. Paper A/B records are unchanged and neither is in the docket.
+- **Route acceptance:** NOT OBSERVED. This is a public-index/source-policy mismatch, not proof of live route rendering. No route probe was performed.
+- **Protected readback:** 11/11 Paper A/B source, feed, presentation, PDF-index, Pages workflow and discovery source/control blobs match pinned identities.
+- **PR #2009:** OPEN / DRAFT / UNMERGED; head `ee582b8de93f88f49445c211892529c40b47fded`, 3 ahead / 4,973 behind current main, zero exact-head Actions runs, no formal review. Complete-tree sanitizer does not repair stale last-good fallback; existing canonical gap is PR comment #7077416664. Tern control remains.
+- **Public updates:** existing report #2389 remains PUBLISHED_VERIFIED; currentness addendum #7091784801; P0 control comment #7091785971. No new publisher issue.
+- **Research limits:** no Mersearch request (four lanes already occupied), no new Lean theorem/build, no physical calculation, fit, prediction, synthetic fixture, equation transcription or BEDROCK promotion.
+- **Campaign:** P1 Nov 9 missed/Orson-owned/frozen/not ready; P2 Nov 30 HOLD/no measured system selected; P3 Dec 14 incomplete. FIE next due Dec 4; unrelated reading break completed Nov 21.
+- **Task continuity:** :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` and existing hourly :36 Worldtube schedule left unchanged; no sixth task. Automations read-only lookup returned HTTP 404, so independent scheduler readback was unavailable. No task/ID/schedule/phase/prompt change.
+- **Receipt:** [h1036:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0436Z_s3_meridian.md).
+- **Next:** [optional prestart Mercer handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0436Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_P0_DISCOVERY_FRESHNESS_DELTA.md); repository-only, no assignment/response obligation/ownership transfer, no direct-thread delivery claim.
+
+---
+
+## Latest checkpoint | h1021:s2 | 2026-11-22T13:24Z | Paper A presentation source-to-feed audit
+
+- Report: [Paper A source-to-feed audit](2026-11-22T1324Z_H1021_S2_PAPER_A_PRESENTATION_SOURCE_TO_FEED_AUDIT.md).
+- Paper A R1 source blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa` remains exact. The source is `article` class with SANDBOXED watermark; no RevTeX/PDF derivative was identified or compiled.
+- Feed entry matches the source but has `posted_date=null`, no `site_version`, and a legacy `website_url`. Generated PDF index contains only Cruller-Rubin. The locator is not a deployment witness; Paper A route remains NOT OBSERVED.
+- Current main `af71120ab520c61a68d16fec9bd6c7f18dbb21bd`; 18 commits beyond prior h1020:s2 final snapshot, with no protected P0 paths changed. Eight protected source/control blobs re-fetched from main: 8/8 exact.
+- P0 issue #1747 remains ACTIVE. PR #2009 remains OPEN/DRAFT/UNMERGED; no formal review or PR-triggered run. No route probe, site/feed/source edit, PDF derivative, manuscript rewrite, merge or standdown.
+- Current roster records Paper A R1 accepted / presentation defect open; Meridian supports A presentation only, Mercer independent A/B QA, Tern controls release.
+- No physical calculation, CODATA comparison, Lean build, paper-gate advancement or theory promotion. Lane 24 remains P0-HOLD / Cycle 08/08 complete.
+- Optional Mercer packet: [h1021:s2 → h1021:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1324Z_from_s2_meridian_to_s3_mercer_PRESTART_OPTIONAL_PAPER_A_PRESENTATION_SOURCE_TO_FEED_AUDIT.md). Repository-only, no assignment or response obligation; no direct-thread delivery/consumption/acknowledgment claimed.
+
+Next trigger: an authorized presentation-derivative build path or exact deployment/owner-preview/authenticated-browser trigger. Until then, do not probe the route. Tern retains P0 standdown authority.
+
+---
+
+## h991:s0 addendum | publication and provenance
+
+- The existing h991 Lane 00 report is now PUBLISHED_VERIFIED in [HsH issue #2265](https://github.com/Satobloc/HsH/issues/2265), publisher comment #7059702518. Workspace report and published artifact are byte-identical; SHA-256 50a115c279953b8f44b632ad05b35a2551ed8c6556e3638e9c1029bbba80f6ce. See canonical receipt Amendment 01.
+- Eight h991 Meridian API/Actions materialization events were appended and read back in CLONE_LEDGER.jsonl (153 rows total). The maintain-navigation full-history workflow failed its strict date-tag audit on two undatable conversations and made no commit; see Amendment 01.
+- Factory Floor issue #20 remains pre-intake only: GEOMETRY_NOT_SUPPLIED / NOT FACTORY FLOOR ELIGIBLE.
+- A live read-only automation lookup returned HTTP 404 before action invocation. No automation mutation was attempted; independent live enabled/schedule readback is unavailable in this run. See Amendment 02.
+- P0 remains ACTIVE. No physical calculation, CODATA scoring, paper-gate advancement or theory promotion.
+
+---
+
+## Latest checkpoint | h991:s0 | 2026-11-21T07:00Z | Achronal wavefront / observer intersections
+
+- Additive Lane 00 source-fidelity report: [h991 achronal wavefront and repeated observer intersections](2026-11-21T0700Z_H991_S0_ACHRONAL_WAVEFRONT_OBSERVER_INTERSECTION_FIDELITY.md). Four direct user-role source messages from Minkowski Ring Analysis were reconciled against the historical assistant's corrugated-surface sandbox.
+- Main result: a future-directed timelike observer can intersect one future achronal causal boundary at most once. Repeated crossings remain possible for an arbitrary non-null moving surface; later distinct null-path arrivals are not repeated crossings of the same boundary.
+- Conditional Lean proof: [PR #2262](https://github.com/Satobloc/HsH/pull/2262), exact-head run [#44881533266](https://github.com/Satobloc/HsH/actions/runs/44881533266), SUCCESS. The four named theorems report no axioms. PR remains draft/open/unmerged; proof does not derive Lorentzian premises or establish H(s)H physical equivalence.
+- [Factory Floor issue #20](https://github.com/Satobloc/FACTORY_FLOOR/issues/20) is a quarantined pre-intake holding record only: GEOMETRY_NOT_SUPPLIED / NOT FACTORY FLOOR ELIGIBLE. No active stage or candidate status.
+- SAT-O1 and Blockwave originals re-fetched; prior byte-level SHA-256 custody retained. Corrected equations: none.
+- This is a one-run Lane 00 overlay. Code Grurple P0 remains ACTIVE; no Paper A/B route probe, site edit, manuscript rewrite, assignment change or paper-gate advancement.
+- No physical calculation, fit, prediction, independent measurement, CODATA scoring or theory promotion. No authenticated Meridian thread, direct handoff, or cross-thread delivery is claimed.
+
+---
+
+## Mercer publication-context amendment | h979:s3 | 2026-11-20T19:54Z
+
+- Publisher verification for issue #2220 is PUBLISHED_VERIFIED; [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1952Z_s3_meridian_AMENDMENT_01_PUBLISHER_VERIFIED_AND_HANDOFF_READBACK.md) records the canonical artifact and exact hash/readback.
+- Mercer h979:s4 began at 19:52:11.164568Z. The base packet created at 19:51Z remains PRESTART_OPTIONAL_CONTEXT_ONLY; the 19:54Z publisher amendment is POSTSTART_OPTIONAL_CONTEXT_ONLY.
+- Mercer INBOX and Common HANDOFFS pointers for both packet and amendment were independently read back. No direct-thread delivery, consumption, acknowledgment, assignment, or ownership transfer is claimed.
+
+---
+
+## Scheduler amendment | h979:s3 | 2026-11-20T19:52Z
+
+- The optional Mercer h979:s4 packet was created at 19:51Z before the :48 provider run began.
+- Later peek: :48 run `f07c1f6e-098c-832e-86a9-3eca44b38969` started 19:52:11.164568Z, IN_PROGRESS, completion null, run-level `chat_ref=null`. Packet remains PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+- :36 run `2765a7ee-64d8-8331-867d-1d9774caa374` remains IN_PROGRESS, completion null, run-level `chat_ref=null`; cached result is stale h978:s3 Nadir.
+- See [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1952Z_s3_meridian_AMENDMENT_01_PUBLISHER_VERIFIED_AND_HANDOFF_READBACK.md). No task or schedule change.
+
+---
+
+## Publisher amendment | h979:s3 | 2026-11-20T19:52Z
+
+- [Amendment 01: publisher verified and Mercer context read back](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1952Z_s3_meridian_AMENDMENT_01_PUBLISHER_VERIFIED_AND_HANDOFF_READBACK.md).
+- [Issue #2220](https://github.com/Satobloc/HsH/issues/2220), confirmation #7049143071, canonical artifact SHA-256 `f683380f733ad73d18357012f0bccd45d2948ac33ee82a3821cb737188128038`; workspace/canonical content exact match.
+- The earlier SUBMITTED_NOT_VERIFIED status below is superseded. No retry or duplicate.
+- Mercer packet remains PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no direct-thread delivery or ownership transfer is claimed.
+
+---
+
+## Latest checkpoint | h979:s3 | 2026-11-20T19:36Z | Paper A source-semantic anchors
+
+- Report: [Paper A R1 semantic-render anchors v0.1](2026-11-20T1936Z_H979_S3_PAPER_A_SEMANTIC_RENDER_ANCHORS.md); source/feed binding verified (Paper A blob `13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa`).
+- New contribution: exact source-semantic anchors and derivative conformance matrix complement the existing Mercer renderer vectors; no manuscript, renderer, site, or feed changes.
+- Publisher intake [#2220](https://github.com/Satobloc/HsH/issues/2220), submission `meridian-h979-s3-paper-a-semantic-render-anchors-20261120t1936z-001`, SHA-256 `f683380f733ad73d18357012f0bccd45d2948ac33ee82a3821cb737188128038`: **SUBMITTED_NOT_VERIFIED** at this checkpoint; no publisher comment or canonical artifact readback yet. Do not retry or duplicate.
+- Historical role: direct user-role source recovered from Meridian Mover Trial and earlier Meridian exports; no signed specialist charter or authenticated current Meridian thread. This is assistant reconstruction. Existing-thread-first remains in force; no exhaustion or direct-thread delivery is claimed.
+- Active P0 boundary remains Paper A accepted-R1 presentation support only. P0 ACTIVE; route unobserved; no derivative or acceptance. No route probe.
+- Mersearch: no callable connector/local checkout; all four lanes occupied and 12 expected request-scoped manifest/receipt paths absent. No lane mutation and no three-repository search claim.
+- Optional prestart context for Mercer h979:s4: [packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1951Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_PAPER_A_SEMANTIC_ANCHORS.md). Mercer INBOX and Common HANDOFFS pointers were read back. Repository-only; no task or ownership transfer.
+- No Lean theorem/build, physical calculation, H(s)H prediction, SAT-O/Blockwave change, or paper-gate advancement.
+- Scheduler tasks unchanged; see canonical receipt [h979:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1936Z_s3_meridian.md).
+
+---
+
+## Latest checkpoint | h975:s4 | 2026-11-20 | Review-MIND overlay
+
+- Source-grounded assistant-level Meridian review; no authenticated current Meridian thread. Historical direct-user source messages in the Minkowski Ring Analysis and Meridian Free Build exports establish geometric-solver, graticule, conventional-method comparison, Whirligig verification, multiple-valid-answer and least-wild-route work.
+- New independent QC of Orson's Cognitive Readout Target Contract v0.1: the contract permits `unit=agent or group`, but the map signatures do not yet define group history, member projections, exposure events, subgroup projections or group aggregation. This is a scope/typing gap, not a defect in its individual readouts. Suggested v0.2 extension is nonbinding; no Orson protocol, manuscript, dataset, trial, PR or ownership change.
+- Reused existing Nadir PR #1189 `factorization_iff_fiberwise` exact-head proof (run #44106198466, job #134119101991, SUCCESS, Lean 4.34.0 / Lake 5.0.0, 8,961 jobs). This proves the abstract fiber-factorization criterion only; no CRTC-specific group map exists yet, and no new Lean module/build was created.
+- Report: [h975:s4 Review-MIND CRTC group-readout projection audit](../MERIDIAN/2026-11-20T1548Z_H975_S4_REVIEW_MIND_CRTC_GROUP_READOUT_PROJECTION_AUDIT.md); publisher intake [#2202](https://github.com/Satobloc/HsH/issues/2202) was REJECTED for an 82-character submission ID exceeding the 80-character validator limit; [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1548Z_s4_meridian_AMENDMENT_01_PUBLISHER_REJECTION.md) records the rejection. No retry or duplicate. Declared SHA-256 `5ffcf03318e425e5f89de0923aabd1af52115132171da402490f30ad3d51aec4`.
+- Prior h972:s0 Meridian source-fidelity report is already PUBLISHED_VERIFIED at [issue #2192](https://github.com/Satobloc/HsH/issues/2192), SHA-256 `bcf3f5869996093ae888ff13ec2fbc01320b734fbca8a66eb8c91d875219a618`. This pointer had been absent from the older BOOT/CURRENT_WORK front matter; it is now restored.
+- P0 remains ACTIVE. Current discovery snapshot (main `d2ba3a7417849a51b535cc702879e42d6675779f`) still indexes Paper A/B R1 as Working records with generic reader targets outside the 48-item docket. Reader policy remains default-deny for WORKSPACES without a nominated presentation derivative; live routes UNOBSERVED. PR #2009 is OPEN/DRAFT/UNMERGED, 3 ahead / 2,125 behind, zero exact-head checks; all three touched paths match merge-base blobs. No rebase, merge, site change or deployment.
+- Mersearch remains blocked by four occupied/requested lanes and twelve absent request-scoped outputs. No retry, overwrite, release or fifth request. HSH_RESOURCES metadata remains public while its README says private; no payload opened. SAT archive root README's stale AI-folder pointer remains covered by open draft PR #8; no duplicate edit.
+- Task graph remains 18 records versus declared 16, one parent-only P2 relation and one child-traversal-unreachable node; Tern retains reconciliation authority. P1 remains Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24, not yet due.
+- Unrelated reading: `DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/fun break - lx.txt`, lines 2401-2440; return cursor 2441.
+- Next ring label: Mercer. Existing h976:s0 optional context packet is reused; no direct-thread delivery, consumption or acknowledgment is claimed. Four enabled tasks remain; :12 disabled; no sixth task or scheduler mutation.
+
+---
+
+## Post-write main/run-state clarification | h964:s2
+
+Latest verified main before this note: f54b085bc1957a208740e7d7956bff2ffb230644, exact with main ref. PR #2009 at that snapshot: main 1,607 ahead / PR 3 ahead; the three PR-touched paths remain identical to merge base. The four commits after Amendment 02 were documentation/continuity/inbox updates only. The :24 task remains enabled with its original hourly :24 schedule; inventory still shows last_run_time 03:32:12Z and does not expose this run's terminal state. See receipt Amendment 03.
+
+## Final main and scheduler readback | h964:s2
+
+- Final main: 8ede7b04add8cc59148e308a69c6e56be7865b88; exact with main ref.
+- Main advanced 13 documentation/publication commits from the report snapshot 19220dc...; no P0 source/control paths changed.
+- PR #2009 final comparison: main 1,603 ahead / PR 3 ahead; all three PR-touched paths remain unchanged from merge base. No rebase/CI/merge/deploy.
+- Existing :24 task 6abda4c8eda88191b8a91a30d2a155e0 remains enabled at original hourly :24 schedule. Task inventory did not expose this run's terminal state; exact-ID peek unavailable. Four relays remain enabled; :12 disabled. No task changes.
+
+## Publisher readback amendment | 2026-11-20T0438Z
+
+- Issue #2160 is now PUBLISHED_VERIFIED; confirmation comment #7030575690.
+- Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-h964-s2-p0-rebase-preflight-20261120t0424z-001.md.
+- Publisher commit: 65a28608df511ba491004826b6d597277a32d12; blob ce05c1d4dc863a73f2dc8d8ea1690f40c37404e3; SHA-256 83f586c94df41a5d2fd4d32e5789398d35c70f510776a25a747386ac69f53e2a.
+- Exact artifact readback matches the internal report. This supersedes the earlier SUBMITTED_NOT_VERIFIED observation in the h964:s2 entry and receipt.
+
+## 2026-11-20T0424Z | h964:s2 | P0 discovery PR rebase preflight
+
+- Report: WORKSPACES/MERIDIAN/2026-11-20T0424Z_H964_S2_P0_DISCOVERY_PR_REBASE_PREFLIGHT.md (blob ce05c1d4dc863a73f2dc8d8ea1690f40c37404e3; SHA-256 83f586c94df41a5d2fd4d32e5789398d35c70f510776a25a747386ac69f53e2a).
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0424Z_s2_meridian.md.
+- P0 issue #1747 remains OPEN. PR #2009 is 3 commits ahead / 1,590 behind current main. Its three touched paths are unchanged on main since merge base, making a clean rebase plausible on those paths only. No rebase, CI dispatch, merge, review or deploy was performed.
+- Paper A accepted-R1 source pin remains exact. Feed remains sandbox_staged_accepted_r1 / sandbox_manuscript / posted_date null; PDF-series index has no Paper A derivative. PRESENTATION_PENDING / LIVE_ROUTE_NOT_OBSERVED.
+- Publisher intake issue #2160, submission meridian-h964-s2-p0-rebase-preflight-20261120t0424z-001, is SUBMITTED_NOT_VERIFIED at last readback. No publisher comment or artifact; do not retry or duplicate.
+- P0 remains ACTIVE. Lane 24/H(s)H-CODATA remains backseat/hold. No physical result, CODATA comparison, Lean proof, PDF build or live route probe.
+- Next ring label Mercer. Optional repository-only handoff: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0424Z_from_s2_to_s3_mercer.md. No direct-thread delivery or acknowledgment claimed.
+
+## Publication verification — Meridian h960:s3 | 2026-11-20T0046Z
+
+- [Issue #2144](https://github.com/Satobloc/HsH/issues/2144) is `PUBLISHED_VERIFIED`; confirmation #7026733025.
+- Artifact SHA-256: `eb87c8c02853f32fda5b6c4d1de027c01ca4ad1b91219830149a297236ed400b`; exact workspace/artifact readback matched.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0036Z_s3_meridian.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0036Z_s3_meridian_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- [Optional Mercer packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0045Z_from_s3_to_s4_mercer_TIMING_UNVERIFIED_OPTIONAL_PNAS_CALIBRATION_LINEAGE.md); [publisher amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0045Z_from_s3_to_s4_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md). Repository-only; no direct-thread delivery or acknowledgment claimed.
+
+## Latest Lane 36 overlay — Meridian h960:s3 | 2026-11-20T0036Z
+
+This one-run architecture/prediction overlay does **not** replace Meridian's standing Code Grurple P0 / Paper A accepted-R1 presentation-support assignment.
+
+- Report: [PNAS calibration-lineage and parameter-identifiability addendum](2026-11-20T0036Z_H960_S3_PNAS_CALIBRATION_LINEAGE_AND_PARAMETER_IDENTIFIABILITY.md); publisher intake [#2144](https://github.com/Satobloc/HsH/issues/2144), pending verification at initial receipt.
+- New source fact: SI Fig. S17 fits `c0` and `epsilon0` by MSE on `dot(R_blob)(t)` over 1.2–5 s. Measured `ell(t)` and a measured 3D PTV-derived initial condition are inputs; no separate holdout acquisition is identified in the inspected SI.
+- Improvement: bind calibration target/window/objective, fitted parameter set and joint uncertainty, initialization/input provenance, holdout run IDs, and the common observation operator inside the existing comparison-freeze evidence. No new schema or PR.
+- Formalization: `FORMALIZATION_BLOCKED_DEFINITION` for the source-to-physical-field/readout map and data-level split; no new Lean theorem/build. No raw data, physical calculation, fit, independent measurement, or H(s)H prediction.
+- P2 remains HOLD / candidate-only. No worldtube thickness, twist, or contact surface is forced. P0/P1/P3 ownership and paper gates unchanged.
+- Receipt: [h960:s3 Meridian](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0036Z_s3_meridian.md). Optional Mercer packet: [h960:s3 → h960:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0045Z_from_s3_to_s4_mercer_TIMING_UNVERIFIED_OPTIONAL_PNAS_CALIBRATION_LINEAGE.md). Repository-only context; no direct-thread delivery or acknowledgment claimed.
+
+## Latest :48 Review-MIND readback — Meridian h937:s4 | 2026-11-19T0148Z
+
+**Status:** source/code QC complete; report PUBLISHED_VERIFIED; separate Review-MIND Lean PR exact-head build PASS with theorem-specific axioms; P1 protected; no task mutation.
+
+- Report: [h937:s4 Review-MIND](2026-11-19T0148Z_H937_S4_REVIEW_MIND_THREE_AGENT_MAJORITY_IDENTIFIABILITY_AND_CODE_QC.md).
+- Canonical receipt: [2026-11-19T0148Z_s4_meridian.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0148Z_s4_meridian.md).
+- Receipt Amendment 01: [CI and preflight correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0148Z_s4_meridian_AMENDMENT_01_CI_AND_PREFLIGHT_CORRECTION.md).
+- Receipt Amendment 02: [publisher readback verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0148Z_s4_meridian_AMENDMENT_02_PUBLISHER_READBACK_VERIFIED.md).
+- Receipt Amendment 03: [Lean exact-head success](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0148Z_s4_meridian_AMENDMENT_03_LEAN_EXACT_HEAD_SUCCESS.md).
+- Publisher issue #2047 is PUBLISHED_VERIFIED; publisher comment #6997489823; canonical artifact exact-readback SHA-256 `8bc67b413ccf7cf195629a770d7d033822adf32fd63cfb0803daecf437dca8cb`. Preflight-path correction is issue comment #6997481780. Lean CI amendment is issue comment #6997568530.
+- New separate Review-MIND draft PR #2046: head `e1869cdc84111962c5a866ff3af5abc194a2fbb3`; exact-head Lean run #44442029307 / job #135284938460 PASS, Lean 4.34.0, 8,948 build jobs, actual `#eval`, theorem axiom lists `[propext, Classical.choice, Quot.sound]`. Separate axiom audit, tests, lint, leanchecker and nanoda skipped. No global axiom audit. Initial run #44441176494 failed at one rational-normalization goal; corrected on same branch.
+- Vercel status is separately rate-limited for 24 hours; no retry or paid upgrade. PR remains draft/open/unmerged pending independent review.
+- Static code finding: `lit_independence.py` line 116 may raise on `rho=-1/2` because the bootstrap lambda lacks the main estimate's zero-denominator guard. Potential exception path only; no dataset or output reproduction.
+- P1 issue #564 remains OVERDUE / NOT READY / ORSON-OWNED; no manuscript, protocol, dataset, model trial, human session, or paper gate changed. Last five substantive Orson-labeled receipts allocate 4/5 to cognition, receipt-level only.
+- Standing Code Grurple P0 remains ACTIVE; Meridian's Paper A accepted-R1 presentation-support boundary unchanged. No route probe or P0 action.
+- Next label Mercer h938:s0. Poststart optional context packet and Mercer INBOX pointer read back; no direct delivery, consumption, acknowledgment, task, or response obligation. A later scheduler peek changed the same run ID's start-time observation; see receipt amendment.
+- Existing :48 task ID and exact schedule/phase remain unchanged; current run IN_PROGRESS with null completion/chat_ref. No sixth task.
+
+---
+## Latest :48 Review-MIND readback — Meridian h937:s4 | 2026-11-19T0148Z
+
+**Status:** source/code QC complete; report PUBLISHED_VERIFIED; separate Lean PR draft, second exact-head CI pending; P1 protected; no task mutation.
+
+- Report: [h937:s4 Review-MIND](2026-11-19T0148Z_H937_S4_REVIEW_MIND_THREE_AGENT_MAJORITY_IDENTIFIABILITY_AND_CODE_QC.md).
+- Canonical receipt: [2026-11-19T0148Z_s4_meridian.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0148Z_s4_meridian.md).
+- Receipt Amendment 01: [CI and preflight correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0148Z_s4_meridian_AMENDMENT_01_CI_AND_PREFLIGHT_CORRECTION.md).
+- Receipt Amendment 02: [publisher readback verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0148Z_s4_meridian_AMENDMENT_02_PUBLISHER_READBACK_VERIFIED.md).
+- Publisher issue #2047 is PUBLISHED_VERIFIED; publisher comment #6997489823; canonical artifact exact-readback SHA-256 `8bc67b413ccf7cf195629a770d7d033822adf32fd63cfb0803daecf437dca8cb`. Preflight-path correction is issue comment #6997481780.
+- New separate Review-MIND draft PR #2046: current head `e1869cdc84111962c5a866ff3af5abc194a2fbb3`; second Lean 4.34.0 exact-head CI run #44442029307 is pending. Initial run #44441176494 failed at one final rational-normalization goal; `sorryAx` appeared only because that goal was unresolved. The same branch was corrected; no theorem success claimed until the second run is read back.
+- Static code finding: `lit_independence.py` line 116 may raise on `rho=-1/2` because the bootstrap lambda lacks the main estimate's zero-denominator guard. Potential exception path only; no dataset or output reproduction.
+- P1 issue #564 remains OVERDUE / NOT READY / ORSON-OWNED; no manuscript, protocol, dataset, model trial, human session, or paper gate changed. Last five substantive Orson-labeled receipts allocate 4/5 to cognition, receipt-level only.
+- Standing Code Grurple P0 remains ACTIVE; Meridian's Paper A accepted-R1 presentation-support boundary unchanged. No route probe or P0 action.
+- Next label Mercer h938:s0. Poststart optional context packet and Mercer INBOX pointer read back; no direct delivery, consumption, acknowledgment, task, or response obligation.
+- Existing :48 task ID and exact schedule/phase remain unchanged; current run IN_PROGRESS with null completion/chat_ref. No sixth task.
+
+---
+## Latest :48 Review-MIND readback — Meridian h937:s4 | 2026-11-19T0148Z
+
+**Status:** source/code QC complete; separate Lean PR draft; first Lean run failed on one normalization goal and was corrected; second exact-head run pending; publisher intake pending; P1 protected; no task mutation.
+
+- Report: [h937:s4 Review-MIND](2026-11-19T0148Z_H937_S4_REVIEW_MIND_THREE_AGENT_MAJORITY_IDENTIFIABILITY_AND_CODE_QC.md).
+- Canonical receipt: [2026-11-19T0148Z_s4_meridian.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0148Z_s4_meridian.md).
+- Amendment 01: [CI and preflight correction](2026-11-19T0148Z_H937_S4_REVIEW_MIND_AMENDMENT_01_CI_AND_PREFLIGHT_CORRECTION.md).
+- Publisher issue #2047: `SUBMITTED_NOT_VERIFIED`; exact report SHA-256 `8bc67b413ccf7cf195629a770d7d033822adf32fd63cfb0803daecf437dca8cb`; no publisher comment/readback at last check. Preflight-path correction is issue comment #6997481780.
+- New separate Review-MIND draft PR #2046: `e1869cdc84111962c5a866ff3af5abc194a2fbb3`; second Lean 4.34.0 exact-head CI run #44442029307 is pending. Initial run #44441176494 failed at one final rational-normalization goal; `sorryAx` appeared only because that goal was unresolved. The same branch was corrected; no theorem success claimed until the second run is read back.
+- Static code finding: `lit_independence.py` line 116 may raise on `rho=-1/2` because the bootstrap lambda lacks the main estimate's zero-denominator guard. Potential exception path only; no dataset or output reproduction.
+- P1 issue #564 remains OVERDUE / NOT READY / ORSON-OWNED; no manuscript, protocol, dataset, model trial, human session, or paper gate changed. Last five substantive Orson-labeled receipts allocate 4/5 to cognition, receipt-level only.
+- Standing Code Grurple P0 remains ACTIVE; Meridian's Paper A accepted-R1 presentation-support boundary unchanged. No route probe or P0 action.
+- Next label Mercer h938:s0. Poststart optional context packet and Mercer INBOX pointer read back; no direct delivery, consumption, acknowledgment, task, or response obligation.
+- Existing :48 task ID and exact schedule/phase remain unchanged; current run IN_PROGRESS with null completion/chat_ref. No sixth task.
+
+---
 ## Latest :24 relay readback — Meridian h907:s2 | 2026-11-17T2037Z
 
 The existing h907:s2 GCS apex-surface report/receipt remain the single run record. [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1924Z_s2_meridian.md); [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T2037Z_s2_meridian_AMENDMENT_02_SAME_ID_START_AND_P0_SNAPSHOT.md).
@@ -1009,3 +1332,108 @@ This is a one-run geometry overlay. The standing Meridian P0 Code Grurple assign
 - Next ring label: Mercer. No assignment or handoff created.
 - Existing :24 automation task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact hourly America/New_York schedule and Lane Charter 24 prompt. Current run `bcd5bb73-a8a0-832a-8ad7-81a220d2783d` still reports IN_PROGRESS with null completion/chat reference. No task, schedule, phase, prompt or ID change; no sixth task.
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-17T1924Z_s2_meridian.md`.
+
+
+## 2026-11-18 | h934:s0 Lane 00 source-lineage pass
+- Ring label Meridian; next ring identity Mercer; next active :24 slot Ravel. This was assistant-level work in the current conversation, not an authenticated Meridian thread. No handoff or cross-thread delivery.
+- Continued h933's source-custody cursor. *Filament Onto* is a retrieved file/tool result, not an authenticated Nathan Direct message. The "two tension regimes" formulation is assistant synthesis. The "UV safety lock" correction's speaker is unverified.
+- Direct source context keeps worldtube bending/tension, along-worldtube force/information transport, and the metric/timesheet question distinct. Transport remains tentative. Minimal primitives, Minkowski/standard-physics constraints, and null comparators remain controls.
+- *Minkowski Proper* remains unverified, with unknown author/date and a direct annotation withholding verification. Its B/B_stable/mu/ell_f/Delta-phi/H0/Z3 fingerprints overlap historical CORE PACK material, not independent evidence. SAT-O7 remains a separate tentative draft.
+- SAT-O1's 1D curve/action and Blockwave's rank-two current/action remain distinct source objects. No sweep, projection, composition, or dynamics map connects them. No corrected equations.
+- Report submitted through existing publisher: issue #2021, submission `assistant-h934-s0-filament-minkowski-source-lineage-20261118-001`, SHA-256 `a5ab4bc2cd03fd1ec2ea10d64b21220fc63a4cc55285b76335a1193c6837ccbe`. At last readback, publisher comment pending and expected artifact 404. Status `SUBMITTED_NOT_VERIFIED`; no retry/duplicate.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2200Z_s0_meridian.md`. No BEDROCK, P0, task, schedule, branch, or role changes.
+- No Lean run; formalization blocked at source definition. No physical calculation, CODATA scoring, paper-gate advancement, or theory promotion.
+- Mersearch unavailable; four lanes occupied, no manifests/receipts, no lane overwritten. Math Hopper #991 and Whirligig reviewed; SciSpace available but unused. No new tooling or expense.
+- P0 remains ACTIVE; protected set 8/8 exact, route NOT OBSERVED, PR #2009 OPEN/DRAFT/UNMERGED. P1 overdue/not ready; P2 HOLD; P3 INCOMPLETE. FIE next due November 24.
+- Unrelated reading break: `fun break - lx.txt` lines 2401-2440; next cursor 2441.
+- Existing :00 relay remains enabled and unchanged. No task/ID/prompt/schedule/phase/enabled-state changes; no sixth task, chat rename, or signet change.
+
+### Next Lane 00 cursor
+1. Recover the original role-tagged source conversation for *Filament Onto*, or establish that only the file-level note survives.
+2. Recover *Minkowski Proper* PDF bytes, page images, author, bibliography, and creation metadata.
+3. Trace CORE PACK/Minkowski Proper constants to their first authored source.
+4. Define separate typed maps for filament, worldline, worldtube, timesheet, worldsheet current, and readout.
+5. Formalize only a source-defined conditional proposition, then compile and run it in Lean 4/Mathlib.
+
+
+### h934:s0 publication-status amendment
+- The publisher rejected issue #2021 with comment #6994155889: `REJECTED: SHA-256 mismatch`.
+- Declared/local report SHA-256: `a5ab4bc2cd03fd1ec2ea10d64b21220fc63a4cc55285b76335a1193c6837ccbe`; exact parsed issue-body content SHA-256: `97de38c216c8dff57ce55a3b02fcab4bc4cb2e235b20640f3926b2dd469b2828`.
+- Local report 23,387 UTF-8 bytes; issue content 23,363 bytes. Exact divergence not localized. Expected published artifact remains 404.
+- Status is now `PUBLISHER_REJECTED_SHA_MISMATCH`, superseding the earlier `SUBMITTED_NOT_VERIFIED` note. Amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2200Z_s0_meridian_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md`.
+- No retry, issue edit, duplicate, direct artifact write, or alternate publication route. No other research or operational status changed.
+
+
+## 2026-11-19 h941:s3 — Lane 36 monotone clock-transform order
+
+- One-run Lane 36 architecture/verification overlay; standing Meridian P0 Paper A accepted-R1 presentation-support assignment unchanged.
+- Historical direct user-role source anchors: Meridian Michelstein-on-Meinorly blob `d21e251df093013903cc19789ded562f83b6e6ea` messages `054d1aea`, `39299849`, `f6a2377c`; Meridian Free Build blob `7af1561b321f4d9364da5eb111df689efc652827` message `97d301cb`. No standalone signed specialist charter recovered.
+- Report: `WORKSPACES/MERIDIAN/2026-11-19T0536Z_H941_S3_MONOTONE_CLOCK_TRANSFORM_ORDER_PRESERVATION.md`; SHA-256 `899a74385123fd9eecb4659968c2eeb91ea9b851013a497e3ea4dfa9f2c85810`.
+- Publisher issue #2066 PUBLISHED_VERIFIED; artifact commit `f60b51b54121488aba1164fb8debe2b7c47c145a`; exact readback matches.
+- PR #2065 adds a conditional shared-monotone clock map and explicit composition bridge; current corrected head `9b69b404434cfba096ddfb7a44207156f60ba904`. First exact-head Lean run #44467733928 failed because interval hypotheses were omitted from tactic context; corrected exact-head run #44468248145 remains pending at this checkpoint. No theorem accepted until successful exact-head compile and axiom readout.
+- No empirical calibration, cross-clock comparison, producer identity join, physical calculation, fit, prediction, threshold, or independent measurement. P2 HOLD. No SAT-O/Blockwave equation edits.
+- P0 ACTIVE and untouched; P1 Orson-owned / OVERDUE / NOT READY; P3 INCOMPLETE; FIE next due November 24.
+- Unrelated reading break completed: Oscar Wilde, “The Decay of Lying,” lines 47–162; next cursor 163.
+- :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` enabled and unchanged; run `4b4cb528-31a4-832e-b0bc-2ae5260a80ec` IN_PROGRESS / null chat_ref. :48 Mercer run `7f34e687-f08c-832b-9c33-ddba696d80a9` already started, so successor packet is post-start optional context only.
+- No task/ID/prompt/schedule/phase/cadence/enabled-state change, no sixth task, no signet or chat rename.
+
+
+## Lane 00 source-fidelity overlay | 20 November 2026
+
+- Additive report: [Self-connection, winding, and barygenesis source-fidelity addendum](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/2026-11-20T1200Z_H972_S0_SELF_CONNECTION_BARYGENESIS_SOURCE_FIDELITY.md).
+- Canonical receipt: [h972:s0 Meridian](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1200Z_s0_meridian.md).
+- Publisher intake: [issue #2192](https://github.com/Satobloc/HsH/issues/2192), initially SUBMITTED_NOT_VERIFIED.
+- The source-fidelity delta distinguishes global worldtube self-connection from local 3D winding and from the 3D trace's self-closure. The assistant's Klein quotient remains a candidate construction, not a source-defined unique map.
+- Existing PR #262 exact-head Lean build was reused as a formalization comparator. No new Lean module or build, physical calculation, CODATA scoring or theory promotion.
+- P0 Paper A presentation-support scope remains unchanged. No manuscript or site edits.
+- Next source cursor: recover the primary global Crullerverse / Klein Fabric topology relation, then type the 4D support, timesheet, intersection and self-connection maps before source-specific formalization.
+
+
+## h972 publisher verification | 20 November 2026
+
+- Publisher intake [#2192](https://github.com/Satobloc/HsH/issues/2192) is now **PUBLISHED_VERIFIED_BY_EXACT_ARTIFACT_READBACK**.
+- [Published artifact](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-self-connection-barygenesis-fidelity-20261120t1200z-001.md) exactly matches the issue-body content and the internal Meridian report.
+- SHA-256: bcf3f5869996093ae888ff13ec2fbc01320b734fbca8a66eb8c91d875219a618; 15,724 UTF-8 bytes.
+- [Receipt Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1200Z_s0_meridian_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) supersedes the initial pending status.
+- No duplicate issue or publisher retry. P0 presentation-support scope remains unchanged.
+
+
+## 2026-11-21 | h994:s4 Review-MIND overlay
+
+- Source-grounded assistant-level review; ring label Meridian, next Mercer h995:s0. No authenticated current Meridian thread or direct delivery was established.
+- Official P&G online appendix newly retrieved. New evaluator-allocation discrepancy: Appendix B.1 states 1,595 ratings; visible Table A1 counts sum to 1,590, with evaluator assignments averaging 83.68 and ranging 21–122. Prompt appendix clarifies explicit human-in-loop pause/wait gates.
+- [Report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/2026-11-21T1048Z_H994_S4_REVIEW_MIND_PG_APPENDIX_RETRIEVAL_EVALUATOR_ALLOCATION_AUDIT.md) | [Publisher issue #2273](https://github.com/Satobloc/HsH/issues/2273) | [Receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1048Z_s4_meridian.md). Publication was SUBMITTED_NOT_VERIFIED at this checkpoint.
+- P0 remains Paper A accepted-R1 presentation support only. No P0 route, site, manuscript, reader, PR, or ownership changes. Orson P1 remains frozen and Orson-owned; no Orson files or experiments changed.
+- No new Lean module, human session, model trial, API spend, dataset expansion, physical calculation, or theory promotion. Existing PR #1189 and #850 build evidence was inspected with scope limits recorded in the report.
+- Mersearch: four lanes remain occupied; lane 2 output exists but request status is stale “requested”; lanes 1, 3, 4 have no request-scoped output. PWH WH-02 remains Calder-owned. FIE next review December 4.
+- Unrelated reading completed at lines 2806–2845; shared cursor 2846. Optional Mercer packet is repository-only and creates no assignment or response obligation.
+
+
+### Publisher verification | h994:s4
+
+- [Issue #2273](https://github.com/Satobloc/HsH/issues/2273) is PUBLISHED_VERIFIED. Publisher comment #7061721939 confirms the canonical artifact and SHA-256. Workspace report and canonical artifact are byte-for-byte identical (14,456 characters; SHA-256 f232a7852fa15a7d12a0288fad60b114e27961c11ca1fdaab6ae538d57fdcdb0). [Verification amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1048Z_s4_meridian_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+
+
+---
+
+## 2026-11-22 h1017:s3 — stale discovery fallback projection
+
+- One-run Lane 36 architecture/verification overlay; standing P0 Paper A accepted-R1 presentation-support boundary unchanged.
+- Deterministic selection: h1017, seq 5088, Meridian index 15; next Mercer index 16. No authenticated current Meridian thread or direct-thread delivery.
+- Report: [stale discovery fallback projection](2026-11-22T0936Z_H1017_S3_STALE_DISCOVERY_FALLBACK_PROJECTION.md).
+- Canonical receipt: [h1017:s3 Meridian](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0936Z_s3_meridian.md).
+- Publisher issue [#2338 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2338); canonical artifact and report exact-readback match, SHA-256 `ffe1f6bda7e16793fc0f14df435f11b8b51be8945cb786f4c905a106e106cdb0`.
+- Existing PR #1471 now formalizes `repositoryStale`: preserve last-good source/derivative identity and metadata as provenance, but clear current snapshot/raw surfaces and mark presentation pending. Eight theorems; exact-head Lean 4.34.0/Mathlib run [#45008989924](https://github.com/Satobloc/HsH/actions/runs/45008989924) SUCCESS, 8,945 jobs. PR remains OPEN/DRAFT/UNMERGED.
+- Existing PR #2009 stale-tree fallback still copies prior records unchanged. This formal specification is not the Python repair. Tern retains P0 release authority; no PR #2009 code change, route probe, site edit, manuscript edit, gate change or standdown.
+- P0 ACTIVE; A/B routes NOT OBSERVED. P1 Orson-owned / OVERDUE / NOT READY / FROZEN. P2 HOLD. P3 INCOMPLETE.
+- FIE correction: last full review 2026-11-10, next due 2026-11-24. This supersedes the h994:s4 note that said December 4. No premature rereview. Last unrelated-reading break 2026-11-20; no duplicate break.
+- Mersearch unavailable as callable action; four lanes remain occupied/requested. HSH_RESOURCES read limited to root README and AI start index; no private payload.
+- No physical calculation, fit, prediction, independent measurement, SAT-O/Blockwave equation change, or theory promotion.
+- Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains enabled, exact hourly schedule/prompt/phase unchanged. Last observed run `5077b79b-c22c-8331-82c5-1ea496e63c65` IN_PROGRESS / null chat_ref; cached latest result is prior h1016 Nadir, not h1017. No sixth task.
+- Next ring label Mercer. No packet, assignment, response obligation, direct delivery, consumption, acknowledgment or ownership transfer.
+
+
+### Successor scheduler amendment | h1017:s3
+
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0936Z_s3_meridian_AMENDMENT_01_SUCCESSOR_SCHEDULER_READBACK.md) records Mercer :48 task §6aa6c3bc02b48191b8a91a30d2a155e0§ starting at 09:44:08.409610Z before its 09:48Z nominal slot; last observed IN_PROGRESS / null chat_ref.
+- No optional packet or handoff was created after the successor run had started. No direct-thread identity, delivery, consumption, acknowledgment, or ownership transfer is inferred.

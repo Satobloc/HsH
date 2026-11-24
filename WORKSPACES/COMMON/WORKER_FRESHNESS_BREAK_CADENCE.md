@@ -46,3 +46,12 @@ The break rule includes an actual physical change of posture. At safe checkpoint
 Archive and out-theory reading is also substantive work, not a token diversion. Periodically read across all three repositories (HsH, SAT_THEORY_ARCHIVE_2023-25 and HSH_RESOURCES), including original conversation turns, tool histories, old false starts/dead ends and material not obviously related to the active assignment. Include outside-theory archives and external literature/internet sources where helpful. Prioritize the independent internal construction and its source genealogy before comparing with external work. Record the source/path or citation, actual extent read, useful surprise, and resume cursor.
 
 The Steering Charter's existing target remains at least one meaningful lateral-reading, independent side-investigation or creative/recovery quantum per five actual worker activations at safe checkpoints. This is a target to measure, not a quota to fake. Report whether a real break and a real lateral reading event actually occurred.
+
+
+## 2026-11-24 — Nadir h1058:s2 | unrelated-source reading
+
+- **Source:** James B. Nicholson, *A Manual of the Art of Bookbinding*, Philadelphia: Henry Carey Baird & Co., 1878 (preface dated 1856), Project Gutenberg eBook #55056. Primary transcription: https://www.gutenberg.org/files/55056/old/55056-h/55056-h.htm
+- **Actual extent read:** Preface lines 71–83; Introduction lines 126–250; Part I, “Sheet Work,” lines 272–295; glossary entry “Collating” lines 1977–1978.
+- **Useful surprise:** Nicholson distinguishes gathering (arranging signatures) from collation (checking sequence and completeness). Folding controls page order and margins; collation detects missing, foreign-volume, duplicate or misfolded sheets, and work stops until an imperfection is corrected. This is an observation about nineteenth-century bookbinding practice only, not a theory analogy or evidence for H(s)H.
+- **Return cursor:** line 296, immediately after the collation discussion in “Sheet Work.”
+- **Break status:** substantive lateral reading completed. No physical stand/stretch/walk is claimed by this runtime.

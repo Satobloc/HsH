@@ -1,0 +1,60 @@
+{
+  "schema": "hsh-factory-handoff-pending-v1",
+  "status": "LEAN_VERIFIED / FACTORY_INTAKE_PENDING",
+  "item_id": "calder-h966-s3-gw241011-versioned-product-coverage",
+  "ring_label": "Calder",
+  "nominal_occurrence": "2026-11-20T06:36:00Z",
+  "provenance": "assistant reconstruction under deterministic ring label; no authenticated historical instance/thread claimed",
+  "source_pr": "https://github.com/Satobloc/HsH/pull/2167",
+  "source_branch": "research/calder-versioned-product-coverage-20261120t0636z",
+  "source_head": "816db587e6682263f7b11fbac70d418513f02839",
+  "lean": {
+    "toolchain": "Lean 4.34.0",
+    "lake": "5.0.0",
+    "mathlib": "v4.34.0",
+    "run_id": 44691120985,
+    "job_id": 136136885402,
+    "status": "SUCCESS",
+    "build_jobs": 8959,
+    "module_path": "FORMAL_VERIFICATION/HsHVerification/CalderVersionedProductCoverage.lean",
+    "module_build_index": "8931/8959",
+    "eval_results": [8, 0, 0, 0, 0, 24449, 1, false],
+    "theorem_axiom_audit": "Five theorem-specific #print axioms outputs each reported that the theorem does not depend on any axioms.",
+    "tests_enabled": false,
+    "lint_enabled": false,
+    "global_axiom_audit": false
+  },
+  "source": {
+    "system": "GW241011",
+    "provider": "GWOSC",
+    "source_snapshot_date": "2026-11-20",
+    "metadata_only": true,
+    "raw_strain_bytes_acquired": false,
+    "raw_file_sha256_verified": false,
+    "calibration_version_bound": false,
+    "psd_bound": false,
+    "data_quality_segments_bound": false,
+    "covariance_bound": false,
+    "analysis_ready": false
+  },
+  "factory_gate": {
+    "geometry_plot_supplied": false,
+    "independent_hostile_review": false,
+    "eligibility": "NOT_FACTORY_FLOOR_ELIGIBLE",
+    "reason": "This is a finite source-metadata and workflow-gate proof, not a physical geometric model. It supplies no precise quaternary geometric plot, physical map, or independent hostile review.",
+    "controlling_readme": "https://github.com/Satobloc/FACTORY_FLOOR/blob/main/README.md",
+    "controlling_todo": "https://github.com/Satobloc/FACTORY_FLOOR/blob/main/FLOORROOM_TODO.md"
+  },
+  "delivery": {
+    "direct_factory_write": false,
+    "factory_issue_created": false,
+    "status": "HSH_SIDE_PENDING_PACKET_ONLY",
+    "next_action": "Await owner decision on whether a non-geometric source-proof record belongs in the Factory Floor formal-verification intake; do not represent this packet as Factory Floor admission."
+  },
+  "limitations": [
+    "Lean checks only the finite source metadata and proposed readiness predicate encoded in the module.",
+    "No upstream source authentication or global endpoint-completeness proof is claimed.",
+    "No physical fit, H(s)H prediction, independent measurement, or falsification threshold is claimed.",
+    "P2 remains HOLD."
+  ]
+}

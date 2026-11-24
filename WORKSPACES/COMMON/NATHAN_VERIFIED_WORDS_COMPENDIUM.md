@@ -3247,3 +3247,37 @@ This entry completes the missing primary-source locators for the August 26 globa
 **Cross-source constraint:** the October 21 direct retirement of the reciprocal filament/timesheet-deformation construction is already indexed above. It does not define a replacement map. The August 26 global-fabric proposal, October 9 \(w=ct\) / active 3D time-slice statements, October 21 \(cw=t\) / \((++++)\) notation, and November 8 provisional fourth-spatial \(w\) statement remain separate source strata. No coordinate, unit, metric-signature, causal, or projection map has been supplied between them.
 
 **Attribution and custody:** all entries above are direct user-role source messages, not assistant reconstructions. The raw exports were inspected by bounded message/ancestry queries; this is not a claim that every message in either conversation was semantically reviewed. SAT-O1 and Blockwave equation custody remains in the existing source-separation entry and the Ravel h885:s0 source-fidelity report. No original equation was changed or corrected.
+
+
+## 2026-11-18 | Supplemental source recovery: July 12 Kerr-core / ergosphere question
+
+**Tags:** `NATHAN-DIRECT`, `RAW-ROLE-VERIFIED`, `DATE-VERIFIED`, `KERR`, `WORLDTUBE`, `COSMOLOGY`, `EXPLORATORY`, `QUESTION`, `TENTATIVE`, `HISTORICAL`.
+
+### Source identity
+- Title: `Reasoning with SAT-HSH Skill`
+- Conversation ID: `6a51def1-1224-83ea-8b56-d9405e694034`
+- Raw path: `DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json`
+- Raw Git blob SHA-1: `b7868607d89f66bbc0e638398182fb2d6b2da2ce`
+- Raw export: 7,858,834 bytes; 579 mapping nodes; 57 user-role, 411 assistant-role, 62 tool-role messages, plus one empty root.
+- This entry was absent from the compendium and the three existing verified batches at time of review.
+
+### New direct source
+- Message ID: `5ab3986f-ce99-4896-9b2a-5b57636a8835`
+- Timestamp: 2026-07-12T06:20:55.368Z
+- Role: `user`, on the raw conversation ancestry.
+- Exact short excerpt: “Kerr singularity may be that central core”.
+- Source content: tentatively asks whether the Kerr singularity could serve as the central core, whether the ergosphere could be the intervening gap to a vibrating string, and whether this is a Planckion.
+- Status: exploratory question/proposal, not an equation, settled definition, physical measurement, or accepted theory statement.
+
+### Paired assistant context (not Nathan Direct)
+- Assistant message: `a894cfec-fb25-53b1-bf0a-c4c3976ff76e`, 2026-07-12T06:22:31.145Z.
+- Introduces a “Planckian Kerr seed”, dimensionless spin `χ=cJ/(GM²)`, and standard Kerr outer-horizon/stationary-limit expressions `r_+` and `r_E(θ)`.
+- Its proposed mapping of ring singularity → seed curve, event horizon → finite-core boundary, ergoregion → circulation layer, and stationary-limit surface → vibrating envelope is assistant reconstruction. The Planck-mass assumption is not a Nathan Direct premise.
+
+### Duplicate and later-source relations
+- User message `898814a5-79c6-4e26-b0f8-5f7501ef1957` at 2026-07-11T07:12:12.590Z repeats the earlier field-theory correction `f8e3ca00-6348-43d3-9602-014002b9feed` with a small “BEC ground state vacuum” wording refinement. Treat the pair as a repeated clarification, not independent corroboration. The earlier message is already recorded in the July source batch.
+- Later direct source, already indexed in the September 7 Ravel entry: `2a34f106-0dd0-488f-a0e6-97748320c955` says Kerr should be the core, followed probably by an ergosphere **or another layer**, then coiling; `b282ba5d-023f-4f4d-86c3-7ff17a6c8c58` explicitly says coiling is periodicity.
+- The same later source identifies a **spatial Kerr section** extended along the filament, not a second 4D Kerr spacetime (`3d0ad680-51db-4c79-ad4a-9bbacada24ef); proposes a 4D worldtube with Kerr cross-section and asks whether shell distortion could carry force (`8471543a-6ed1-4743-9073-74735f019da4); and says apparent cross-section depends on timesheet-intersection angle, coil pitch, and 3-space motion (`ce837c4f-30cb-43c1-ac55-511b41c12d53).
+- Relation: the September direct material **REFINES/QUALIFIES** the July “ergosphere as gap” wording. It preserves the layer as tentative and permits another layer structure; it does not adopt the July assistant’s Planckion identity.
+
+**Attribution rule:** only the raw `user` node is Nathan Direct. The paired assistant equations and Planckion mapping remain assistant-origin context. No quote/claim is promoted to physical truth by this source-tag addition.

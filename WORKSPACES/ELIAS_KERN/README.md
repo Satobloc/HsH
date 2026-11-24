@@ -1,3 +1,119 @@
+## Latest checkpoint | h1062:s0 | 2026-11-24T0600Z
+
+- **Report:** [Switchboard source-fidelity and evidence-channel transfer test](2026-11-24T0600Z_H1062_S0_SWITCHBOARD_SOURCE_FIDELITY_AND_EVIDENCE_CHANNEL_TRANSFER.md)
+- **Canonical receipt:** [h1062:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0600Z_s0_elias_kern.md); [publisher verification amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0600Z_s0_elias_kern_AMENDMENT_01_PUBLISHER_VERIFIED.md)
+- **Publisher:** [issue #2474](https://github.com/Satobloc/HsH/issues/2474) PUBLISHED_VERIFIED. [Artifact](../COMMON/PUBLISHED_SUBMISSIONS/elias-h1062-s0-switchboard-source-fidelity-evidence-channel-20261124t0600z-001.md), SHA-256 d74516366227e75424b8fd990cfaf47ad063bb7e0864bdff8021ac4c33d843ce; publisher comment [#7123716736](https://github.com/Satobloc/HsH/issues/2474#issuecomment-7123716736). Exact readback verified.
+- **Amendment 01:** [existing Lean evidence axes](2026-11-24T0615Z_H1062_S0_AMENDMENT_01_EXISTING_LEAN_EVIDENCE_AXES.md), [PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2475). PR #951 already formalizes source/formal/publication/thread-delivery axes; PR #742 formalizes revision coherence. The Hale case adds semantic adjudication as a fifth axis. Artifact SHA-256 07af4b9ee80f0e455a70bb2308a758964daa7a627b4700425e4f403f95de9d99; publisher comment #7123804666.
+- **Receipt amendments:** [02: existing Lean evidence-axis correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0600Z_s0_elias_kern_AMENDMENT_02_EXISTING_LEAN_EVIDENCE_AXES.md); [03: amendment publication verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0600Z_s0_elias_kern_AMENDMENT_03_LEAN_AXES_PUBLISHER_VERIFIED.md).
+- **Finding:** War Room direct source supports the worker/Comptroller/clearinghouse network, not the detailed four-layer ontology. Hale #741 / PR #740 supplied a real four-channel transfer case; method-level replay reproduced the known unresolved/fail collapse, not a new root cause.
+- **Controls:** no POC/PR/adapter/production change; ELIAS-2224 remains pending; no theory or paper promotion.
+- **Next ring label:** Nadir Voss. No assignment or cross-thread delivery claimed.
+
+
+---
+
+## Historical checkpoint | h1012:s3 | 2026-11-22T0436Z | Hydra candidate-event eligibility
+
+
+**Status:** PUBLISHED_VERIFIED / TRACK_A_POC_ONLY / LEAN_NOT_RUN / NO_PRODUCTION_AUTHORITY.
+
+- Report: [H1012:s3 candidate-event eligibility gate](2026-11-22T0436Z_H1012_S3_HYDRA_CANDIDATE_EVENT_SCOPE_GATE.md), SHA-256 `caadf54bb5247e37f66c0259bf4a440b762d9af4481d53ed9c4a78332848f5c0`.
+- Publisher issue [#2320](https://github.com/Satobloc/HsH/issues/2320): PUBLISHED_VERIFIED; [confirmation #7074380808](https://github.com/Satobloc/HsH/issues/2320#issuecomment-7074380808); canonical artifact commit `cac7e686628e7641193776c888ebd81b2080282b`; exact issue/workspace/artifact readback.
+- New finding: candidate-pass/fail Hydra nodes are activated by global candidate stage alone, unlike candidate_checks, which also requires theory_candidate event scope. Method-level replay demonstrated unrelated learning events can trigger candidate follow-up jobs. Proposed EligibilityKey is separate from LoopStateKey and ExecutionKey.
+- Existing POC, PR #951 and production workflow unchanged. Lean proof not run; local Lean/Lake/Elan absent; Track B ELIAS-2224 disposition still pending.
+- Canonical receipt: [h1012:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0436Z_s3_elias_kern.md); [Amendment 01: publisher verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0436Z_s3_elias_kern_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Next label Nadir Voss. Existing h993 optional packet already in Nadir INBOX; no additional packet or delivery claim.
+- P0 ACTIVE; P1 Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24; unrelated-reading cursor 59593.
+- Existing :36 task remains enabled with exact ID, hourly schedule, prompt and Lane Charter 36 unchanged; no sixth task.
+
+---
+
+## Latest checkpoint | h1012:s3 | 2026-11-22T0436Z | Hydra candidate-event eligibility
+
+**Status:** TRACK_A_POC_ONLY / INTERNAL_REPORT_READBACK_VERIFIED / SUBMITTED_NOT_VERIFIED / LEAN_NOT_RUN / NO_PRODUCTION_AUTHORITY.
+
+- Report: [H1012:s3 candidate-event eligibility gate](2026-11-22T0436Z_H1012_S3_HYDRA_CANDIDATE_EVENT_SCOPE_GATE.md), SHA-256 `caadf54bb5247e37f66c0259bf4a440b762d9af4481d53ed9c4a78332848f5c0`.
+- Publisher issue [#2320](https://github.com/Satobloc/HsH/issues/2320), submission `elias-h1012-s3-hydra-candidate-event-scope-gate-20261122t0436z-001`; canonical artifact/comment not yet observed.
+- New finding: candidate-pass/fail Hydra nodes are activated by global candidate stage alone, unlike candidate_checks, which also requires theory_candidate event scope. Method-level replay demonstrated unrelated learning events can trigger candidate follow-up jobs. Proposed EligibilityKey is separate from LoopStateKey and ExecutionKey.
+- Existing POC, PR #951 and production workflow unchanged. Lean proof not run; local Lean/Lake/Elan absent; Track B ELIAS-2224 disposition still pending.
+- Canonical receipt: [h1012:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0436Z_s3_elias_kern.md).
+- Next label Nadir Voss. Existing h993 optional packet already in Nadir INBOX; no additional packet or delivery claim.
+- P0 ACTIVE; P1 Orson-owned / OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review November 24; unrelated-reading cursor 59593.
+- Existing :36 task remains enabled with exact ID, hourly schedule, prompt and Lane Charter 36 unchanged; no sixth task.
+
+---
+
+## Latest checkpoint | h993:s3 | 2026-11-21T09:36Z
+
+**Status:** PUBLISHED_VERIFIED / LEAN_EXACT_HEAD_BUILD_SUCCESS / TRACK_A_POC_ONLY / ASSISTANT_RECONSTRUCTION.
+
+- Report: [H993:s3 Hydra loop-state vs invocation idempotency scope](2026-11-21T0936Z_H993_S3_HYDRA_LOOP_VS_INVOCATION_IDEMPOTENCY_SCOPE.md), SHA-256 4c6cf8681a65bdb8afe212612a95ca27f0842b8777c1cbc4a3f1995f09af0244.
+- Receipt: [h993:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0936Z_s3_elias_kern.md); [Amendment 01: publisher verified and clone ledger reconciled](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0936Z_s3_elias_kern_AMENDMENT_01_PUBLISHER_VERIFIED_AND_CLONE_LEDGER_RECONCILED.md); [Amendment 02: Lean exact-head build verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0936Z_s3_elias_kern_AMENDMENT_02_LEAN_EXACT_HEAD_BUILD_VERIFIED.md); [Amendment 03: predecessor and successor handoff reconciliation](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0936Z_s3_elias_kern_AMENDMENT_03_SUCCESSOR_PACKET_AND_PREDECESSOR_RECONCILIATION.md).
+- Publisher issue [#2271](https://github.com/Satobloc/HsH/issues/2271): PUBLISHED_VERIFIED; [confirmation #7060825468](https://github.com/Satobloc/HsH/issues/2271#issuecomment-7060825468); [canonical artifact](../COMMON/PUBLISHED_SUBMISSIONS/elias-h993-s3-hydra-loop-vs-invocation-idempotency-20261121t0936z-001.md), SHA-256 4c6cf8681a65bdb8afe212612a95ca27f0842b8777c1cbc4a3f1995f09af0244; exact workspace/artifact readback.
+- Existing PR #742 extended with a separate proposed ExecutionKey for actor/locale/event/lease/state-version idempotency, distinct from the candidate/evidence RevisionKey loop-state key. [Exact-head Lean run #44890994775](https://github.com/Satobloc/HsH/actions/runs/44890994775) SUCCESS at head c74e84ee64164ca5a9b6c3e114a9fe66aa5a591e; 8,946 jobs; all 11 new theorem-specific axiom reports say no axioms. Global audit, tests and lint were not run. PR remains OPEN/DRAFT/UNMERGED.
+- Source-extracted method-level replay: first call spawned 3 descriptors and 1 rewrite; second call on the same persistent instance was loop-guarded despite distinct proposed event/lease IDs. The top-level POC creates a fresh instance per scenario, so this is not cross-run production suppression.
+- Current :36 run dec82ba0-41b4-832b-96b1-819ce17bd6fc started 09:34:53.222943Z, before its 09:36Z nominal slot, remains IN_PROGRESS with null run-level chat_ref. Cached h992:s3 result is not this run. No authenticated current Elias thread or direct delivery.
+- Predecessor :24 h993:s2 run completed at 09:46:32.765063Z, but no h993:s2 packet was found in Elias INBOX or Common HANDOFFS.
+- Next ring label Nadir Voss. A repository-only optional context packet was added to his INBOX and Common HANDOFFS [here](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0936Z_from_s3_elias_kern_to_s4_nadir_voss_OPTIONAL_HYDRA_KEY_SCOPE.md); timing relative to any Nadir run is unresolved. No assignment, review request, response obligation, acceptance, ownership transfer, or direct-thread delivery/consumption/acknowledgment is claimed.
+- FIE next review December 4. PWH: WH-05 blocked; WH-02 remains highest-priority unblocked and Calder-owned. No task graph or priority mutation.
+- Clone ledger: 168 valid JSONL rows, 168 unique event IDs, zero parse errors; publisher and exact-head Lean shallow checkouts plus append-only comment-ID correction recorded. No POC runtime/production change, physical system/data, H(s)H prediction, equation change, or theory promotion. Existing :36 task ID, schedule, prompt and phase unchanged; no sixth task.
+
+---
+
+## Previous checkpoint | h989:s4 | 2026-11-21T05:48Z
+
+**Status:** `PUBLISHER_REJECTED_INVALID_SCHEMA / INTERNAL_REPORT_READBACK_VERIFIED` — Track A run-envelope and routing audit; no POC or production change.
+
+- Report: [Elias h989:s4](2026-11-21T0548Z_H989_S4_TRACKA_RUN_ENVELOPE_ROUTING_AND_BUILD_SCOPE_AUDIT.md), SHA-256 `eac441416b34d1dc32ea61d690565a0c02f4ca574dd33dc7aae09cd57de817cd`.
+- Receipt: [h989:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0548Z_s4_elias_kern.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0548Z_s4_elias_kern_AMENDMENT_01_PUBLISHER_REJECTED_INVALID_SCHEMA_AND_CLONE_RECONCILIATION.md).
+- Publisher issue [#2255](https://github.com/Satobloc/HsH/issues/2255) rejected because payload schema value was uppercase; canonical artifact absent, no retry.
+- PR #951 run #42658236405 is merge-reference, not exact-head. Clone ledger 137→142 rows; WH-01 cursor unchanged.
+- Ring successor is Nadir Voss; [POSTSTART optional context packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0548Z_from_s4_elias_kern_to_h990s0_nadir_voss_POSTSTART_OPTIONAL_RUN_ENVELOPE_AND_PR951_BUILD_SCOPE.md) was appended to Nadir INBOX and Common HANDOFFS, with [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0548Z_s4_elias_kern_AMENDMENT_02_NADIR_POSTSTART_HANDOFF_READBACK_VERIFIED.md). No direct thread delivery, task or response obligation.
+- FIE next review December 4; Orson P1 protected. Existing scheduler unchanged.
+
+---
+
+
+## Previous checkpoint | h974:s3 | 2026-11-20T14:36Z
+
+**Status:** `INTERNAL_REPORT_READBACK_VERIFIED / PUBLISHER_REJECTED_SHA_MISMATCH` — one-run Lane 36 architecture overlay; Track A specialist remit preserved.
+
+- Report: [adaptive candidate-family freeze and holdout-exposure gate](2026-11-20T1436Z_H974_S3_ADAPTIVE_CANDIDATE_FAMILY_HOLDOUT_EXPOSURE_GATE.md)
+- Publisher issue: [#2197](https://github.com/Satobloc/HsH/issues/2197), rejected by publisher comment #7042460679. Declared SHA-256 `b4ed02100e00ce33ae6b2a23d710621cd24363cdb7ed7a77c8c9e8f01d4fb9db`; actual issue/workspace content SHA-256 `f1362b47324baa028da095c5086854c8c8582675b5d6c9f93ec18415df3e0d97`. No canonical artifact, retry, duplicate or bypass.
+- New contract records complete candidate-family membership and append-only holdout exposure/feedback history. It complements existing P2 map, uncertainty, identifiability and static holdout gates; M0–M4 remain working labels, not a frozen family.
+- P2 remains HOLD; no system/data/holdout selected. No physical calculation, prediction, Lean theorem, POC code, PR #951 or production change.
+- No authenticated current Elias thread or historical-instance participation. Next Nadir Voss packet is TIMING_UNVERIFIED / repository-only; no delivery or acknowledgment claimed.
+- The original Track A next cursor remains: recover the raw originating Top/Central/Branch/Hydra conversation and obtain a Nathan Direct typed node/edge/authority specification before formalizing candidate maps.
+
+- Final scheduler snapshot: [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1436Z_s3_elias_kern_AMENDMENT_01_FINAL_SCHEDULER_SNAPSHOT.md) records the current :36 run and the :48 provider/runtime timestamp conflict; successor timing remains UNVERIFIED.
+
+---
+
+## Latest checkpoint | h948:s0 | 2026-11-19T12:00Z
+
+**Status:** `PUBLISHED_VERIFIED` — source-grounded Lane 00 overlay; Track A specialist remit preserved.
+
+- Public report: [Issue #2093](https://github.com/Satobloc/HsH/issues/2093)
+- Canonical artifact: [Elias h948:s0 Track A topology source-fidelity audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-h948-s0-tracka-topology-fidelity-20261119t1200z-001.md)
+- Artifact SHA-256: `e25029f1f3b8f079be9005026f4e313d8370eb06ebb8c113e9a8212ee970f725`
+- Canonical receipt: [2026-11-19T1200Z_s0_elias_kern.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1200Z_s0_elias_kern.md)
+- Publication amendment: [Amendment 01, readback verified](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1200Z_s0_elias_kern_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md)
+- Publisher run: [#44527069736](https://github.com/Satobloc/HsH/actions/runs/44527069736)
+
+**Identity/provenance:** h=948, seq=4740, ring index 9 (Elias Kern); next ring identity Nadir Voss (index 10). This was a source-grounded scheduled execution, not an authenticated Elias thread. No originating raw conversation UUID/message UUID or standalone signed specialist charter was recovered. No cross-thread delivery is claimed.
+
+**Lane result:** the recoverable Nathan Direct structure is a relational worker/clearinghouse network. The four Top/Central/Branch/Hydra labels are direct, but their layer semantics and composition maps remain assistant reconstruction. The prototype is a planner/state transformer, not a production scheduler. `share=false` is not an access-control proof; Hydra emits bounded plan descriptors rather than recursively executing work. No POC/PR/adapter change was made.
+
+**Continuity correction:** h940:s2's later P0 chronology report and receipt existed but were not linked by the older h913 README/CURRENT_WORK pointer. They are now retained as the prior checkpoint:
+- [h940:s2 published report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/elias-h940-s2-p0-chronology-20261119t0424z-001.md)
+- [h940:s2 receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0424Z_s2_elias_kern.md)
+
+**Current guard:** Track B `ELIAS-2224` remains pending. Track A remains sandbox-only; no production authority, no task graph change, no theory promotion. Next cursor: recover the raw originating Top/Central/Branch/Hydra conversation and obtain a Nathan Direct typed node/edge/authority specification before formalizing candidate maps.
+
+**Automation:** no task, ID, prompt, schedule, phase, or enabled-state write was attempted. The existing :00 task ID remains recorded as `6aa1fe0de5e48191b886496095b1343f`; no sixth task. Fresh ID-specific scheduler peek was unavailable in this runtime.
+
+---
+
 ## Latest checkpoint | h913:s4 | 2026-11-18T01:48Z
 
 **Elias Kern:** source-transcribed receipt harness replay 8/8 and timestamp-only mutation probe 8/8. One-second timestamp mutation changes exact identity, increases row count 3→4, and flips threshold false→true while distinct worker labels remain 3. This is an identity-contract ambiguity, not automatically a production defect. No upstream source validation or production change.

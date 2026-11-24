@@ -77,3 +77,25 @@ Optional structured fields for new Actions rows: `run_id`, `run_attempt`, `workf
 - The 23 checkout jobs comprise 13 `fetch-depth=0` full-history checkouts and 10 `fetch-depth=2` shallow checkouts. All 23 job logs expose `git log -1 --format=%H`; each checked-out SHA matches the Actions run `head_sha`.
 - HsH week and daily run-list queries returned the 2500 cap. Tested hourly buckets were complete: 2026-11-14 23:00-23:59:59Z returned 185 runs (100 + 85 + 0); 13:00-13:59:59Z returned 257 (100 + 100 + 57 + 0). These are method tests, not a completed HsH week census.
 - The connector rejected `/traffic/clones?per=day` and `/traffic/views?per=day` as unsupported URL routes. This is a connector-route limitation, not evidence of GitHub permission denial. No Traffic count is claimed.
+
+
+### Compact Jobs API step-summary omission guard (2026-11-19)
+
+- A compact `actions/runs/{run_id}/jobs` response can return a job record while omitting its step details. An empty or missing `steps` field in that compact response is not evidence that the job had no checkout.
+- After job enumeration, use the dedicated workflow-job-steps endpoint and decoded job logs to establish checkout step number/name/status, action, explicit ref, `fetch-depth`, and the actual post-checkout `git log -1 --format=%H` value. Record which source supports each field.
+- If the dedicated step endpoint and job log disagree, preserve UNKNOWN and investigate; do not infer a negative checkout observation from a compact summary.
+- Counterexample: the two `Maintain H(s)H navigation` jobs #43747347981 and #43747508618 in the 2026-11-15 18:30-18:39:59Z partition had successful step-2 checkouts (`fetch-depth=0`) despite the compact Jobs API summary omitting their step details. The h917:s2 report's four-checkout count is corrected additively; two missing rows were appended, with no prior ledger row rewritten.
+
+
+## Run-list snapshot retention and job-fan-out gate | 2026-11-19
+
+A completed run-list query is not a durable job-level work queue unless its complete response, or a lossless compact run index, is retained and independently read back before job fan-out.
+
+Required snapshot fields:
+
+- Repository, exact UTC query interval, endpoint and query parameters, per_page, page numbers, returned counts, total_count, terminal-page result, retrieval timestamp, and SHA-256 for each raw page or the complete response.
+- For every returned run: run_id, run_attempt, workflow_id, created_at, head_sha, head_branch, event, status, and conclusion.
+- Preserve raw page JSON or a lossless ordered index. Verify the stored bytes and digest before treating the enumeration as a recoverable queue.
+- Bind every subsequent Jobs API result to its exact run_id and run_attempt. NO_JOB_RECORD_RETURNED is valid only after that exact job endpoint has actually been queried.
+
+If the original response and complete run-ID index are absent, record RUN_ID_SNAPSHOT_NOT_RETAINED, preserve the partition cursor, and recover the source snapshot if possible. Do not silently repeat an already-completed census query. A replacement query requires explicit, documented authorization and must be distinguished from the original enumeration.

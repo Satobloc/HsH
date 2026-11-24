@@ -1,0 +1,33 @@
+{
+  "after": {
+    "casefold_worker_labels": 2,
+    "casefolded_gate": false,
+    "exact_unique_rows": 4,
+    "raw_worker_labels": 3,
+    "rows": 4,
+    "threshold_met": true
+  },
+  "before": {
+    "raw_worker_labels": 2,
+    "rows": 3,
+    "threshold_met": false
+  },
+  "checks": {
+    "alias_changes_only_worker_label": true,
+    "baseline_has_two_raw_worker_labels": true,
+    "both_outcomes_present": true,
+    "casefold_alias_is_same_label": true,
+    "casefold_worker_count_two": true,
+    "casefolded_gate_remains_false": true,
+    "raw_string_gate_flips_true": true,
+    "raw_worker_label_count_three": true,
+    "row_count_four_after_alias": true,
+    "three_row_baseline_gate_false": true,
+    "unique_exact_rows_four": true
+  },
+  "classification": "SYNTHETIC_SOURCE_TRANSCRIBED_METHOD_LEVEL_ALIAS_MUTATION_NOT_UPSTREAM_OR_PRODUCTION_TEST",
+  "interpretation": "If Worker-A and worker-a are aliases of one actor, changing only label case in a replayed row creates a third raw label and flips the gate. Casefold normalization blocks this particular alias, but cannot authenticate identity; a stable authenticated ActorKey is required for an independence claim.",
+  "status": "PASS",
+  "tests_passed": 11,
+  "tests_total": 11
+}

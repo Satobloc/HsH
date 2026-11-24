@@ -1,3 +1,483 @@
+## H1070:s2 | 2026-11-24 | Discovery snapshot and orphaned run-label source custody
+
+**Status:** SOURCE_CUSTODY_RECONCILIATION_COMPLETE / P0_RECORD_SAFETY_FAIL / POSTWRITE_FRESHNESS_PENDING.
+
+- Report: [h1070:s2 discovery/source-custody report](2026-11-24T1424Z_H1070_S2_DISCOVERY_SNAPSHOT_AND_ORPHANED_COMMENT_CUSTODY.md); canonical receipt: [h1070:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow.md); [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow_AMENDMENT_01_POSTSTART_Kestrel_HANDOFF.md).
+- Latest parsed discovery snapshot: 2026-11-24T14:48:59Z, blob `53a389f953dc6ed3b8550b36266ddf67656895e8`; embedded HsH source `bae2d5721d3d86433c9cd1d7f55cd225777eb684`. Main at observation `a5da91a6a3d4164918d220f4fc0f55a8bc2730ab`, one generated-discovery commit ahead / zero behind.
+- Counts: 17,761 total docs; 10,829 workspace records/readers; all 10,829 missing `presentation_state`; zero pending; 10,582 excerpts / 247 absent; 48/48 docket entries resolve; 577 visuals / 417 square; six UTF-8 extraction errors.
+- P0 freshness PASS at snapshot generation; record safety FAIL; visitor-route acceptance NOT OBSERVED. Later continuity writes have advanced main; postwrite discovery refresh must be checked before claiming currentness.
+- Existing #2503 comment #7134632192 is a public source-custody note bearing a Morrow h1070:s2 label, but no prior matching report/receipt was found and the label does not authenticate a Morrow instance/thread. Kestrel amendment #1 records this; no duplicate comment was added.
+- FIE rereview was completed by Kestrel h1070:s3 on 2026-11-24; next due 2026-12-08. Unrelated-source break remains due 2026-11-28.
+- Mersearch stable 1.0 preflight complete. All four lanes remain requested/occupied; lane 2 has bounded manifest/receipt, lanes 1/3/4 lack outputs. No new request or tool.
+- Historical Morrow remit remains provisional Team Archivist/source custody; September 13 theory stop remains active. No physical/CODATA/Lean/theory/equation/paper/BEDROCK action.
+- Kestrel h1070:s3 had already completed before this run. Optional repository-only packet appended to Kestrel INBOX; no cross-thread delivery or recipient acknowledgment claimed.
+- No task, ID, prompt, phase, schedule, cadence, enabled-state, branch, PR, task graph or PWH mutation; no sixth task, signet or conversation rename.
+
+---
+
+## H1066:s3 | 2026-11-24 | Worldtube source-map authority correction
+
+- Deterministic routing label: h=1066, seq=5333, worker label Morrow (index 13), next Kestrel (index 14). This does not authenticate a ChatGPT instance or thread.
+- Applied the existing Aster source-authority/map-definition/empirical-readiness gate to the “forced” paragraph in Worldtube Observable Gate #1409. Finite-core worldtube/filament is direct as an object; its intrinsic/support dimension, embedding, trace map, and active interaction operator are not source-defined. The 2024 1D line remains historical and is not automatically the 2026 core's centerline. W ∩ Σ is conditional assistant reconstruction; RΣ is only partially typed.
+- Public addendum: issue #2489, submission morrow-h1066-s3-worldtube-map-authority-correction-20261124t1036z-001, PUBLISHED_VERIFIED. SHA-256 1e3efcf9c1a2307ae536b2a5d7291140543edc862fe19ae1fef8a1d8fb499f25; 9,918 UTF-8 bytes; publisher comment #7128668073; publisher commit a0080642f10a79d10dbd98842e72c11b00521160; artifact blob a0e4d87f905dc5053d468fbbdb0fe96244e83500. Independent fetch_file readback found the canonical artifact. Do not resubmit.
+- Internal report: [2026-11-24 H1066:s3 source-map correction](2026-11-24T1036Z_H1066_S3_WORLDTUBE_SOURCE_MAP_AUTHORITY_CORRECTION.md). Receipt: [2026-11-24 H1066:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1036Z_s3_morrow.md).
+- Existing PR #1133 exact-head run #44920965461/job #136896683073 succeeded at head 8b6b19421327164f6c966be5cab3c58e7f9c0314 with Lean 4.34.0/Lake 5.0.0 and 8,956 build jobs. A separate module contains sorry; tests, lint, nanoda, and global axiom audit were skipped. PR remains open/draft/unmerged. No new theorem or build.
+- P2 remains HOLD, P3 incomplete. No measured system or dataset, no calibration/holdout, matched score, or falsification threshold. PREDICTION_LEDGER and FINITE_CORE_CROSS_SECTION_PACKET_001 are quarantined and excluded. No physical calculation, fit, prediction, equation correction, or BEDROCK promotion.
+- Mersearch not callable; four canonical lanes occupied. Existing receipt used as a discovery lead; no request mutation. HSH_RESOURCES root README only. FIE review next Dec 4 and unrelated-source break next Nov 28; neither due.
+- Kestrel is next ring label, but its inbox already contains two optional Morrow packets. No new handoff or assignment. No authenticated current Morrow thread and no cross-thread delivery claim.
+- No task/ID/schedule/phase/cadence change, no sixth task, no branch/PR/queue mutation, no signet or chat rename.
+
+Next cursor: preserve #2489 as the single addendum. A future authorized geometry/physics pass must source and type the finite-core support and embedding, active interaction/instantiation operator, and RΣ before composing a geometry-to-state map. Until then retain MAP_INCOMPLETE / PREDICTION_NOT_FORMED.
+
+---
+
+## H1062:s4 Amendment 04 | 2026-11-24T0648Z
+
+- [Review-MIND cross-lane QC and run re-entry amendment](2026-11-24T0648Z_H1062_S4_AMENDMENT_04_REVIEW_MIND_CROSS_LANE_VEY047_SET_NONNESTING_AND_RUN_REENTRY.md); [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow_AMENDMENT_04_REVIEW_MIND_CROSS_LANE_QC_AND_RUN_REENTRY.md).
+- Same-run-key re-entry: canonical H1062:s4 report/receipt already existed; no duplicate report or handoff.
+- Public correction #2470 -> [issue #2477](https://github.com/Satobloc/HsH/issues/2477) PUBLISHED_VERIFIED; SHA-256 db50bca4056f8bea9a6d49c76af56111cd328cf23b1015534b32257d3fd7a4e3.
+- Stage-pair sets in arXiv 2611.22245v2 are non-nested: 106 both, 195 source-only, 1 worker-only, 136 neither. Existing PR #2375 formalization is conditional; reverse witness not compiled and PR remains Orson-owned.
+- Tern h1062:s3 PWH review #2476 completed; PWH trigger closed. P0 currentness remains unverified; record safety FAIL.
+- Seven non-root HSH_RESOURCES files were fetched before the root-README/navigation-only boundary was recognized; no writes; access stopped; no private payload reproduced publicly.
+- Current :48 host run 8a7bf8a6-1910-832d-974d-feb1d2a14856 is IN_PROGRESS, scheduled 06:48Z, started 07:15:30.511776Z, chat_ref=null.
+- No Orson P1 intervention, no new handoff, no scheduler mutation, no sixth task.
+
+---
+
+## H1062:s4 Amendment 03 | 2026-11-24T0648Z
+
+- [Report Amendment 03](2026-11-24T0648Z_H1062_S4_AMENDMENT_03_LATEST_DISCOVERY_REFRESH_CHRONOLOGY.md) identifies latest observed discovery refresh `ffb68240d5b6c9ea38ae58bbcc8164a7da8394b9` (07:08:49Z; discovery.json only; blob `fe88a251c250cce5d51e6df6e13fd71a63b2eadf`). It followed initial report/receipt/INBOX/CURRENT_WORK/BOOT and Amendment01, but preceded Amendments02-03. Payload and record-level inclusion remain unverified.
+- [Receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow_AMENDMENT_03_LATEST_DISCOVERY_REFRESH_CHRONOLOGY.md).
+
+## H1062:s4 Amendment 02 | 2026-11-24T0648Z
+
+- [Report Amendment 02](2026-11-24T0648Z_H1062_S4_AMENDMENT_02_POSTWRITE_DISCOVERY_REFRESH_STATUS.md) records postwrite refresh commit `a5dcc41feb1aaf8858ba35e38e5e1640acc9ca5a` (07:07:09Z; discovery.json only; blob `53943753b03a101ba0332a97468460dc853b6303`). Payload and record-level inclusion remain unverified; P0 remains FAIL.
+- [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow_AMENDMENT_02_POSTWRITE_DISCOVERY_REFRESH_STATUS.md). This supersedes the earlier no-postwrite-refresh statement.
+
+## H1062:s4 Amendment 01 | 2026-11-24T0648Z
+
+- [Report Amendment 01](2026-11-24T0648Z_H1062_S4_AMENDMENT_01_PREWRITE_MAIN_HEAD_CORRECTION.md) corrects the prewrite main-head locator: `ab3083f7f2fa6d7a9d54553b8bcbbc94cfae3e95` (created 06:59:05Z; discovery.json only), not the preceding `6838b1d5…` commit. No postwrite discovery refresh observed.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow_AMENDMENT_01_PREWRITE_MAIN_HEAD_CORRECTION.md). Original report/receipt remain immutable.
+
+## H1062:s4 update | 2026-11-24T0648Z
+
+- Completed the next source-custody cursor: recovered the exact h597 Aster-labelled :00 Archive task conversation and the separate :24 Geometry conversation containing the November 4 direct user repost. See [H1062:s4 report](2026-11-24T0648Z_H1062_S4_ASTER_REPOST_SOURCE_CUSTODY_AND_THREAD_FIRST_RECONCILIATION.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow.md).
+- The :00 h597 final is assistant message `57ac1711-3551-4dbb-87cb-e2c9e3925269`; its only child is a generic scheduled-task error at 23:25:14.928722Z. The direct user repost `100388c5-89d6-4ffd-a895-598990636057` is in the separate :24 conversation at 23:33:42.240897Z. The repost includes a direct user-authored position plus a reformatted transcription of the Aster report; no byte-identical copy, cross-conversation parent edge or delivery to Aster is present.
+- The :24 branch subsequently called bio and received “Model set context updated.” This is a historical memory-tool result in :24, not Aster-thread delivery.
+- Aster BOOT still identifies `6aa81f11-1c54-83ea-bf38-4610e1031e2d` as an unverified current-thread candidate. The h597 :00 automation conversation, the :24 Geometry conversation, Aster's historical source conversation and the current reference candidate remain distinct. No current Aster thread or expiry cause was authenticated.
+- Historical Morrow remit remains provisional Team Archivist/source custody. The September 13 direct theory stop remains active; the later archive/maintenance trial does not release theory integration, physical predictions or paper work. No theory, physical, Lean-theory or paper work.
+- Existing PR #1471 exact-head run #45008989924 was checked: 8,945-job build success at head `60df9a77d938689910a96640cb649eb9f462fa58`, Lean 4.34.0 / Lake 5.0.0. It formalizes typed artifact/route identity, not this conversation graph. Tests, lint, nanoda, leanchecker and global axiom audit skipped; no new theorem.
+- Mersearch remains unavailable; all four request lanes remain requested/occupied. No new request, overwrite or retry.
+- Tern h1058:s4 PWH review is published at issue #2466. Enheduanna h1062:s2's prestart packet records at least seven completed activations after it; the routine deep-review trigger is due. Tern retains queue/task-graph authority; no duplicate review or queue change.
+- The stale Morrow INBOX conditional for Tern's h1043 OP-01 packet is corrected additively: h1043:s4 already consumed it for one 23/23 repository-target test, not a live-reader test. OP-01 remains OPEN / owner UNASSIGNED; Tern retains coordination.
+- FIE last full reread 2026-11-20, next due 2026-12-04. Unrelated-reading break last completed 2026-11-21; no repeat due.
+- P0 remains ACTIVE / RECORD SAFETY FAIL. Prewrite main `ab3083f7f2fa6d7a9d54553b8bcbbc94cfae3e95`; no postwrite discovery refresh or live route acceptance is claimed. P1 Orson remains overdue/not-ready/frozen/Orson-owned; P2 HOLD; P3 incomplete.
+- Next deterministic label: Kestrel h1063:s0. No new handoff because Kestrel INBOX already contains two Morrow optional packets; no assignment, response obligation or ownership transfer. No authenticated current Morrow thread or direct-thread delivery.
+
+## H1059:s0 update | 2026-11-24T0300Z
+
+- Lane 00 source-custody reconciliation completed; no new geometry/source delta. See [canonical h1059:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0300Z_s0_morrow.md).
+- Reused existing Lane 00 glossary/diagram/discrepancy records in issue #1420, Aster h844, Enheduanna h823/h982, Morrow h888, and Ravel h1021. No duplicate report or publisher issue.
+- Rechecked the later Library raw export for conversation `6aea46dd-dc60-83ea-8d50-689c152340e3`; the ten geometry-bearing direct messages remain on active ancestry. The source is a repost of an earlier Aster position, not the original Aster thread.
+- Verified existing PR #262 exact-head Lean run #43948452979 (Lean 4.34.0 / Lake 5.0.0). No new Lean module; the November 4–5 carrier/morphology maps remain source-undefined.
+- Rehashed SAT-O1 and Blockwave originals. Ravel h1056 already records the SAT-O1 date correction; no equation correction or duplicate was issued.
+- Mersearch remains unavailable; four lanes unchanged. FIE last full reread 2026-11-20, next due 2026-12-04; unrelated-reading break last 2026-11-21. No repeat.
+- No physical calculation, CODATA, theory integration, paper-gate advancement, or BEDROCK promotion. Task graph and automation unchanged. Next cursor: authenticate the original Aster thread behind the November 4 repost; no handoff to Kestrel.
+
+## POSTWRITE DISCOVERY CORRECTION | 2026-11-23T1944Z
+
+The automatic discovery refresh completed after the h1051:s2 repository writes. This supersedes the pending postwrite status above.
+
+- Current main / embedded HsH source: 46ec103b46336cfea5ae46478d8308e965134ddd / 669450f46e4455846b557116eac39c3a27be2b48.
+- Discovery blob: 9bc5f0aa07047484c6cfc0a62e6571e58c16de58, updated 2026-11-23T19:44:31Z, 31,223,953 bytes.
+- Main is exactly one generated-discovery commit ahead / zero behind the embedded source; only PUBLIC_SITE/generated/discovery.json differs.
+- Parsed postwrite snapshot: 17,522 total documents; 10,590 workspace records; 10,590 generic workspace reader targets; 10,346 workspace excerpts; 10,590 missing presentation_state; zero PRESENTATION_PENDING; 48/48 docket entries are workspace entries; six extraction errors; 577 visuals / 417 square.
+- The new Morrow h1051:s2 receipt is indexed with a generic reader and a 1,400-character excerpt, with no presentation_state.
+- P0 freshness is now PASS at 19:44:31Z. P0 record safety remains FAIL. Live visitor rendering and route acceptance remain NOT OBSERVED.
+- Existing issue #1747 comment #7112055190 records the pending state and is superseded by the final postwrite issue comment.
+
+---
+## 2026-11-23T1924Z | h1051:s2 | source-custody, P0 currentness and PWH deep review
+
+**Status:** PWH_DEEP_REVIEW_COMPLETE / P0_PREWRITE_FRESHNESS_PASS / P0_RECORD_SAFETY_FAIL / THEORY_STOP_HONORED / POSTWRITE_DISCOVERY_CHECK_PENDING
+
+- Canonical receipt: [Morrow h1051:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1924Z_s2_morrow.md).
+- Deterministic selection: h=1051, seq=5257, ring index 13 Morrow; next Kestrel index 14.
+- Runtime run 67791e19-c5ac-8327-9205-cd8ae7ebd7ae, scheduled 19:24Z, started 19:27:57.846586Z, last observed IN_PROGRESS with chat_ref=null. Cached result is prior Hale h1050:s2, not this run.
+- Historical Team Archivist role and September 13 direct theory stop rechecked against raw sources. The later archive/maintenance trial invitation does not expressly release the stop. No theory integration, geometry construction, physical calculation, CODATA comparison, fit, prediction, Lean build or paper work.
+- No authenticated current Morrow thread. The archived Morrow + Kestrel Free Quarry export ends with user activity on October 15. This is source-grounded assistant reconstruction in the current scheduled execution, not a new chat or authenticated historical Morrow instance.
+- P0 prewrite snapshot: discovery blob 618633c7dd149f0c0c5a658cbb07c9b5ee918c6c, updated 19:23:49Z, 17,521 total documents, 10,589 workspace records and generic reader targets, 10,345 excerpts, 10,589 missing presentation_state, 48/48 workspace docket entries, six extraction errors, 577 visuals / 417 square. Main e96cb097... was one generated-discovery commit ahead of embedded source 6efa14bd.... Freshness PASS at that point; record safety FAIL.
+- Main generator still assigns generic readers and does not exclude workspace records from the docket. PR #2009 remains open/draft/unmerged; exact-head PR Actions query returned zero.
+- PWH deep-review trigger: prior full review Ariadne h1049:s2; four subsequent completed work products Mira h1049:s4, Hale h1050:s2, Elias h1050:s3, Nadir h1050:s4; this Morrow h1051:s2 is the fifth. The full review is in the canonical receipt. Tern retains PWH queue and task-graph authority; neither was edited.
+- Graph remains 18 records / 16 declared / 17 reachable; one blocked unreachable M87 polarimetry readout; no dangling references or cycles. Triage replay: 13 active/blocked candidates, priority counts P0 3 / P1 2 / P2 3 / P3 1 / P4 1 / unclassified 3; metadata gaps priority 3, owner 7, due 10, last reviewed 10; no defensible low-hanging candidate.
+- Clone ledger prewrite: 500 rows / 497 unique populated IDs / 3 legacy missing IDs / zero parse errors or duplicate IDs. This run's API-only read/write/readback events are append-only; final ledger readback controls.
+- Tern receives optional repository-only PWH context in the existing inbox. No task, response obligation, ownership transfer or direct-thread delivery is claimed.
+- Next ring label Kestrel. Kestrel already has two optional Morrow packets; no third packet or assignment. The current :36 run is IN_PROGRESS with chat_ref=null.
+- Existing P0 issue #1747 remains the canonical control record. Postwrite discovery currentness will be recorded there after final repository readback.
+
+No task, ID, schedule, phase, priority, owner, graph, PWH queue, theory status, signet or conversation title was changed.
+
+---
+## 2026-11-23T1536Z | h1047:s3 | source-inventory snapshot-binding crosswalk
+
+**Status:** `SAMPLER_SUMMARY_NOT_SNAPSHOT_BOUND / ORCHESTRATOR_MANIFEST_UNVERIFIED / PR2222_SCOPE_NOTE_POSTED / PUBLISHED_VERIFIED`
+
+- Deterministic selection: h=1047, seq=5238, ring index 13 Morrow; next Kestrel index 14. Runtime run `46836dbb-3fd0-832b-8b17-78a42f7eab0a`, scheduled 15:36Z, last observed IN_PROGRESS with `chat_ref=null`; cached latest result is prior Hale h1046:s3 and is not this run.
+- Historical Team Archivist/source-custody remit and September 13 direct theory stop were rechecked against raw export blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`. The later archive/maintenance invitation does not expressly release the theory stop. No theory integration or physical work.
+- Applied existing Source Identity Gate Layer 8 and Cross-Repo Script Execution Safety Standard to Sable's source-inventory sampler. PR #2222 exact head `3c56938e024accfc0a5097927ae3e106ee68dc09`, sampler blob `efcd135392be267d0c79dd79903094a519cf9b0b`, exact-head symlink/quarantine Actions run #44812295233 SUCCESS. Its `FileRecord` and summary do not bind input commit/tree or per-row Git blob. `inventory_sha256` is a content-row digest, not a Git tree identity. The separate private orchestrator manifest was not inspected; end-to-end status remains UNKNOWN, not proven defective.
+- Public report: [issue #2429](https://github.com/Satobloc/HsH/issues/2429), `PUBLISHED_VERIFIED`, submission `morrow-h1047-s3-source-inventory-snapshot-binding-crosswalk-20261123t1536z-001`. Publisher run #45208517767 SUCCESS; confirmation #7106064624; artifact commit `8365634bf4f2fc07d788d67d0fc5b610c509fc20`, blob `f3b5b02b10fbf62208bfa0b28505793c6cbafe0a`, SHA-256 `504e0ed5c106f8de2e8b15f55bd1da424cd31d99a2a07ae6400a10b3de4873ac`. Independent issue-envelope/artifact content comparison passed exactly.
+- Non-blocking PR scope note: [#2222 comment #7106028447](https://github.com/Satobloc/HsH/pull/2222#issuecomment-7106028447). Not a formal review, approval, merge request, or ownership change.
+- Mersearch was not callable; all four canonical lanes remain `requested`; none overwritten or retriggered. HSH_RESOURCES root index/branch metadata only; no private payload. No local HsH checkout or clone.
+- PWH lightweight scan: task graph 18 records / 16 declared / 17 reachable; no graph or queue change. Previous deep review Elias h1046:s4; no new deep review due. P0 active; P1 Orson overdue/frozen/not ready/Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 incomplete. FIE next Dec 4; unrelated break Nov 21.
+- No physical data, fit, prediction, uncertainty estimate, falsification threshold, equation, BEDROCK status, task, schedule, phase or ownership changed. Kestrel already has two optional Morrow packets; no third handoff.
+
+**Return:** [Issue #2429](https://github.com/Satobloc/HsH/issues/2429), [PR #2222 comment](https://github.com/Satobloc/HsH/pull/2222#issuecomment-7106028447), and [Source Identity Gate](SOURCE_IDENTITY_GATE.md). Canonical receipt: [h1047:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1536Z_s3_morrow.md).
+
+---
+
+## 2026-11-23T1214Z | h1043:s4 | same-slot run-envelope recheck
+
+**Status:** `SAME_NOMINAL_SLOT_REENTRY_OR_RETRY_UNRESOLVED / CURRENT_RUN_IN_PROGRESS / CHAT_REF_NULL / NO_DUPLICATE_WORK`
+
+- The canonical h1043:s4 Dashboard QA report remains [issue #2423](https://github.com/Satobloc/HsH/issues/2423), `PUBLISHED_VERIFIED`, with exact artifact readback. The SAT Dashboard remains unchanged at blob `aed95d506e6d1be8be965c77903e4c2ff6833b3d`; the 23/23 repository-target resolution result still applies to that exact source, not to a live rendered reader.
+- The earlier h1043:s4 receipt records a start at 11:46:59Z but no run-level ID. A later :48 task peek reports the same nominal 11:48Z slot as `IN_PROGRESS`, with a later start at 12:14:30.273280Z, a run ID now exposed, and `chat_ref=null`. Since the earlier ID was not preserved, retry/re-entry versus distinct same-slot execution remains unresolved. No second Morrow instance or duplicate thread is inferred.
+- The cached task result is Tern h1039:s4 from the 07:48Z slot, created 08:17Z. It is not output from the current 11:48Z run and must not be attributed to Morrow.
+- Append-only receipt Amendment 01 records this run-envelope/currentness recheck. No second OP-01 test, new publisher issue, Dashboard edit, AI-folder inspection, HSH_RESOURCES payload access, or duplicate Kestrel packet was made.
+- PWH still records OP-01 OPEN / UNRESOLVED / NOT EXECUTED, Tern-coordinated, execution owner UNASSIGNED. The h1041:s2 deep review is recent; no redundant deep review was run.
+- Next label remains Kestrel h1044:s0. Kestrel's existing inbox already contains prior Morrow optional context; no new assignment or handoff is needed.
+
+---
+
+## 2026-11-23 | h1043:s4 | SAT Dashboard link QA and OP-01 follow-up
+
+**Status:** `POSTSTART_OPTIONAL_CONTEXT_CONSUMED / ONE-RUN_ACCEPTANCE / REPOSITORY_TARGET_VERIFIED_23_OF_23 / PUBLISHED_VERIFIED / DASHBOARD_PATCH_PROPOSED_NOT_APPLIED`
+
+- Deterministic selection: h1043, seq 5219, Morrow index 13; next Kestrel index 14 at h1044:s0.
+- This is assistant-level, source-grounded Morrow work, not an authenticated historical Morrow instance or current Morrow thread. Team Archivist/source-custody remit and September 13 theory stop remain controlling. No theory integration.
+- Consumed Tern's packet `2026-11-23T1158Z_from_s3_tern_to_s4_morrow_POSTSTART_OPTIONAL_OP01_DASHBOARD_LINK_READER_TEST.md`, blob `1668d0e5e2e224565fa0e215902f308642690e75`. It was created after this run started at 11:46:59Z, so it remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Accepted only for this one bounded test; no continuing assignment, response obligation, ownership transfer or direct-thread delivery.
+- SAT Dashboard source: `..[🎛️_NATHAN_DASH]/!_DASHBOARD.md`, correct blob `aed95d506e6d1be8be965c77903e4c2ff6833b3d`, SAT main `d10dd333f2487054807bda398995300c538caa7e`. Tern's optional packet contains a locator typo `aed95dcae4512ecaa1d21acb26b32f1cfe2d2748`; the actual file readback at the pinned path/ref is the former SHA. Original packet left unchanged; correction is additive.
+- Extracted 23 unique HsH Dashboard targets. All 23 were fetched successfully: 18 files and 5 directories. This is REPOSITORY_TARGET_VERIFIED, not LIVE_READER_VERIFIED. No browser-rendered reader was available. The one target changed during the audit window, Common HANDOFFS, was re-fetched at final main; the other 22 target paths were unchanged in the intervening commits.
+- Current Common controls separately read: BEDROCK, New Instance Start Here, Current Workflow Orientation v2, Steering Charter, Phase Steering, Three Paper Campaign, three-repository onboarding, revival V3/V4 and thread-first rule, scheduler authority/workflow control, task graph, Dashboard Intent Ledger, PWH queue, and PUBLIC_SITE Presentation Gate.
+- Findings: Dashboard still points to superseded revival V1; it publicly links HSH_RESOURCES despite the no-public-cross-link boundary; several dated Common/status/index files are presented without historical labels; current Common front doors are missing. No HSH_RESOURCES payload or SAT AI-folder content was opened.
+- Proposed one-file Dashboard-only patch is in the published report. No Dashboard source edit, branch, PR, merge, deployment, PWH queue edit or task-graph change was made.
+- Report: [issue #2423](https://github.com/Satobloc/HsH/issues/2423), publisher comment #7100469112, `PUBLISHED_VERIFIED`. Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h1043-s4-sat-dashboard-link-front-door-qa-20261123t1148z-001.md`, blob `e29f9252109a8c65ee7275abf7ad87fb8d0eedb5`, SHA-256 `1503663235840c5d340ade466377dfe53143e0b334d0e8a4c778de5607b646e4`. Issue payload and artifact exact-match readback passed.
+- Publisher run #45170724380 succeeded. Its GitHub Actions job used `actions/checkout@v4`, explicit `main`, `fetch-depth: 1`; checkout HEAD matched run HEAD `87e950f6fee4160321e86fca7403bf377a016da6`. This is SHALLOW_1 checkout materialization, not evidence of a full clone or GitHub Traffic attribution.
+- OP-01 Dashboard half remains PARTIAL / RETOOLED; overall Old Plan Recovery Sweep remains OPEN / Tern-coordinated / execution owner unassigned. Tern must record the completed bounded advance and decide whether to route the proposed patch. AI-folder half remains uninspected.
+- Orson P1 remains protected: issue #564 open, PR #850 draft/unmerged. P2 November 30 and P3 December 14 remain separate. FIE last full review November 20, next December 4. November 21 unrelated-reading break not repeated.
+- Live automation readback: original :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` enabled with exact hourly America/New_York schedule unchanged; :00, :24 and :36 remain enabled; :12 remains disabled. No sixth task or scheduler mutation.
+- No local clone or checkout was created. No direct-thread delivery, acknowledgment or authenticated Morrow identity is claimed.
+
+**Next cursor:** Tern reviews the 23-target inventory, the superseded/private-boundary findings, and the additive Dashboard-blob correction. If accepted, patch only the SAT Dashboard and rerun the bounded link check. Do not inspect the AI folder or HSH_RESOURCES payload.
+
+---
+
+## FINAL CURRENT STATE — Morrow h1040:s0 (selected by :00 Archive) | 2026-11-23T0800Z
+
+- **Canonical receipt:** [h1040:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0800Z_s0_morrow.md). Git blob SHA-1: `91c2199968ccb966877081e3f85709a866ba979a`; SHA-256: `259b9b05de73ede86c52b56dbf88815e80050b62f46d967f4981bce3bfaec0ac`.
+- Deterministic selection: h=1040; seq=5200; ring index 13 Morrow; next Kestrel index 14. Assistant-level routing label only; runtime run ID `c7e02e11-070c-8331-9679-7b083a7df3e7`, `chat_ref=null`; no authenticated current Morrow thread.
+- Morrow's provisional Team Archivist/source-custody remit and September 13 direct theory stop remain controlling. The later archive/maintenance invitation does not release theory integration. No theory, Lean-theory proof, equation correction, physical calculation, CODATA, fit, prediction, independent measurement, paper work or BEDROCK promotion.
+- **Lane 00:** existing h850 report, h964 receipt and h1110 amendment already contain the requested glossary, map, original-versus-assistant propositions and discrepancy ledger. The June 23 direct 4D Nth-order superhelix source is already covered by Kestrel h960 and the Nathan Verified Words Compendium. No new geometry source delta; no duplicate report or public issue.
+- **Optional OP-01 Dashboard sample accepted:** Tern h1039:s4 packet `TERN-OP01-MORROW-2026-11-23T0748Z-001`, optional context only, not an assignment. Crosswalk below is Dashboard half only; Tern retains coordination, owner remains unassigned.
+  - Historical source: SAT archive `..[🎛️_NATHAN_DASH]/📋_PRIORITY_TODO.txt`, blob `24673091a8fe14b03a2472bdd867332ae62e8aa7`, line 3: `[ ] Finish dashboard / AI folder consolidation.`
+  - Related HsH old-plan sweep `WORKSPACES/COMMON/OLD_PLAN_RECOVERY_SWEEP_2026-09-24.md`, blob `27955aa6d55debf71b80acb1e3357945c4cdd395`, OP-01 status `RETOOLED / PARTIAL`.
+  - SAT archive Dashboard: `..[🎛️_NATHAN_DASH]/!_DASHBOARD.md`, blob `aed95d506e6d1be8be965c77903e4c2ff6833b3d`, updated 2026-09-14; still explicitly open/usable as a navigation/overview/programme switchboard, but dated.
+  - SAT Project Notes: `..[🎛️_NATHAN_DASH]/📖_PROJECT_NOTES.txt`, blob `f06586a433fe3d43d11f0012c83918ab1519006a`, still lists consolidation active/near-term. Dashboard Archive Admin: `..[🎛️_NATHAN_DASH]/⚒️_ADMIN_TASK.txt`, blob `f29ef3f822da599dfe60fce863d2b43ba70c5e56`, idle.
+  - HsH Dashboard Intent Ledger: `WORKSPACES/COMMON/DASHBOARD_INTENT_LEDGER.md`, blob `4c48ed00074c4c364733c13411df41db80cf5777`, updated 2026-09-24; DASH-04 is `PARTIALLY SATISFIED / EVOLVED`, and this is a ledger rather than a verified live UI.
+  - Current HsH worker/navigation and state surfaces: `NEW_INSTANCE_START_HERE.md` blob `4efd2b899e3ead7785cb87b2458f758240590a94`; `CURRENT_WORKFLOW_ORIENTATION_V2.md` blob `bd37743d5a70e14a74db64a5fde7a6d9d13f368a`; `ACTIVE_AUTOMATION_ROSTER.md` blob `6b0bf56316fe14bfd2b0e925154025bd8d04eaa1`; `TASK_BRANCH_GRAPH.json` blob `71b6bbb977a9acb7c578cf5a100a4c3595ba412b`; live `BEDROCK.md` blob `2629ab29a5838d933c31727455553d206577a258`.
+  - **Classification:** Dashboard half `PARTIAL / RETOOLED`. The intent is served by distributed HsH navigation/status surfaces, but no single consolidated live Dashboard is verified. Missing evidence: live rendering/reader acceptance, link-resolution test, behavioral freshness test, user acceptance, and full Dashboard-side cleanup. The AI-folder half was not inspected; no conclusion is made.
+  - **Next cursor:** bounded live link/reader test of the SAT Dashboard's current HsH links and Common front doors; if stale, propose only a Dashboard-side patch. Do not inspect the AI folder.
+- PWH: WH-05 remains blocked by occupied Mersearch lanes; WH-02 remains highest unblocked and Calder/authorized-maintainer-owned. Tern retains PWH/Old Plan coordination. No queue or task-graph change.
+- P0 ACTIVE; P1 OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. FIE next review December 4 (last full review November 20). Unrelated reading last completed in h1032:s2 at SAT `fun break - lx.txt`, lines 2321–2360; next cursor 2361.
+- No AI-folder payload, private HSH_RESOURCES payload, Mersearch request, new tool, physical calculation, paper gate, task, branch, public issue or theory promotion. Existing :00 task and exact schedule/phase unchanged; no sixth task. No handoff to Kestrel; two existing Morrow packets remain in Kestrel's inbox.
+
+## FINAL CURRENT STATE — Morrow h1032:s2 (selected by :24 Geometry) | 2026-11-23T0024Z
+
+- **Report:** [h1032 source-custody and Project Portfolio delta](2026-11-23T0024Z_H1032_S2_SOURCE_CUSTODY_AND_PROJECT_PORTFOLIO_DELTA.md). **Project scan receipt:** [h1032:s2](../COMMON/PROJECT_ORPHAN_SCAN_RECEIPTS/2026-11-23T0024Z_h1032_s2_morrow.md). **Canonical rotation receipt:** [h1032:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0024Z_s2_morrow.md).
+- Deterministic selection: h=1032, seq=5162, ring index 13 Morrow; next Kestrel index 14. Assistant-level source-grounded label only; no authenticated current Morrow thread.
+- Morrow's provisional Team Archivist remit and September 13 direct theory stop were rechecked against raw export blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`. Trial invitation remains 145 parent edges downstream and does not expressly release the stop. No theory integration, equations, Lean-theory work, physical calculation, CODATA, fit, prediction, measurement, paper work or BEDROCK promotion.
+- Project Portfolio delta scan: four CALDER_VANE notes, QUARRY_020/021 and three Project Desk artifacts are blob-identical to h847 baseline; SAT archive and HSH_RESOURCES navigation/orphan indexes show no change at the bounded paths. Current task graph remains 18 records / 16 declared, 17 reachable, one blocked; no CALDER_VANE node. Register's header still points to h815 despite later h847 receipt; Tern owns that register, so no central edit.
+- Unrelated-reading quantum: SAT archive `fun break - lx.txt`, lines 2321–2360 read; next cursor 2361. Prior 2281–2320 was already completed in h986 and was not counted again. FIE last reviewed Nov 20; next Dec 4.
+- P0 ACTIVE; P1 Orson cognition overdue / NOT READY / frozen / Orson-owned; P2 HOLD; P3 incomplete. PWH and Project Portfolio authority remain Tern-coordinated. Four Mersearch lanes remain occupied/requested; no request changed.
+- This activation used the existing :24 Geometry task ID `6abda4c8eda88191bf23a6f2849e9a17`, enabled with its exact original hourly America/New_York schedule and Geometry phase. Current run `a32782e8-a884-8330-a561-a497a07f4b68` was last observed IN_PROGRESS, scheduled 00:24Z, started 00:21:56.851667Z, completion null, `chat_ref=null`. The early start is recorded without inferring a cause.
+- Morrow's separate :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` is a different automation and was not changed. Four relay tasks remain enabled (:00, :24, :36, :48); :12 remains disabled. No sixth task, task/ID/prompt/schedule/phase/cadence change.
+- Kestrel is the next ring label. Two optional Morrow packets already exist in Kestrel's inbox; no third packet, assignment or response obligation. No direct-thread delivery/consumption/acknowledgment claim.
+- No local clone or checkout. GitHub APIs only; clone-ledger API-only read/write records are appended in this run. Final ledger readback is in the canonical receipt and live ledger.
+- Older h1028:s3 state below is historical and belongs to Morrow's separate :36 lane; this h1032:s2 record is a :24 ring-selection activation, not a mutation of that :36 task.
+
+---
+
+## FINAL CURRENT STATE — Morrow h1028:s3 | 2026-11-22T2057Z
+
+- **PUBLISHED_VERIFIED:** Morrow h1028 report at issue #2371, submission morrow-h1028-s3-publisher-conflict-classification-20261122t2036z-001. Correct publisher run #45068854952, attempt 1, job 137351162389; confirmation #7085633808; SHA-256 e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28; canonical artifact blob e5f584244f537d717b09946454c234a9dbdfe585; exact issue-envelope/artifact equality.
+- Prior h1024 issue #2359 is also PUBLISHED_VERIFIED after one bounded same-issue retry. Its first 409 is a post-validation write conflict; branch-ref advancement is strongly supported, exact server cause unconfirmed. Source Identity Gate Layer 19 and Applied Witness 01 preserve the protocol and evidence.
+- Fresh CLONE_LEDGER read before this pointer correction: 426 rows, 423 unique populated IDs, three legacy missing IDs, zero parse errors and zero duplicate populated IDs. This pointer update adds one API-only write event; expected final count after that event is 427 rows / 424 unique / three legacy, absent concurrent writers. Final readback controls.
+- Incoming Tern h1028:s2 optional packet consumed and Morrow INBOX acknowledgment appended. No assignment or direct-thread delivery. Next ring label Kestrel; two optional Morrow packets already exist, so no third packet.
+- Morrow's September 13 direct theory stop remains active. No theory integration, Lean theory proof, physical calculation, equation, prediction, fit, independent measurement, paper work or BEDROCK promotion.
+- Mersearch unavailable as callable action; all four request files remain requested. P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. PWH remains Tern-coordinated. FIE next review December 4; unrelated-reading break last completed November 21.
+- Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly schedule, prompt and phase; no sixth task or scheduler mutation. Current run 8f956edb-977c-8322-838e-8e4904be75c3 was last observed IN_PROGRESS with null completion and null chat_ref. No authenticated current thread or liveness claim.
+- Older 413-row and pending-publication notes below are historical snapshots superseded by this final state.
+
+---
+
+## Latest h1028:s3 ledger finalization — 2026-11-22T2051Z
+
+- CLONE_LEDGER.jsonl independently read back and parsed: 413 rows, 410 unique populated event IDs, three legacy rows without IDs, zero parse errors and zero duplicate populated IDs.
+- Ledger commit eb4bbb9fb1d1336315423afa7445d284700acd8d; blob 337aabddb4372744845871cbde3d2b477bae0bac.
+- Six h1028:s3 events recorded: HsH/SAT/HSH_RESOURCES API-only reads, HsH API-only writes, and the two publisher Actions SHALLOW_1 checkouts. Traffic attribution UNKNOWN; no full clone claim.
+- The h1028 report and receipt now include the ledger result and independent internal readback. The h1028 public issue submission remains pending; h1024 issue #2359 is PUBLISHED_VERIFIED and not reused.
+
+---
+
+## Latest h1028:s3 amendment — 2026-11-22T2048Z
+
+- Consumed the full optional Tern h1028:s2 packet (blob eeddcc7a89d8533708c5b2dff9da251476516869); appended a repository-inbox acknowledgment in commit af39b0c06397ed5aeaf9133ec30cd5f561b6e137. This is not direct-thread delivery or an assignment.
+- House-write preflight completed: no local Git checkout or general internal checkpoint/receipt Actions writer is available. Existing issue publisher is the public-output house route; direct Contents API with fresh blob-SHA CAS was the internal-file fallback. No new tool/workflow/dependency.
+- h1024 issue #2359 is PUBLISHED_VERIFIED after one bounded same-issue rerun on newer main. Exact artifact readback and SHA are in Source Identity Gate Layer 19 Applied Witness 01 and h1024 receipt Amendment 01.
+- h1028 report remains a separate, unpublished submission pending its own issue-publisher intake. Do not reuse #2359.
+- No third Kestrel packet; two optional Morrow packets already exist.
+
+---
+
+## Latest checkpoint — 2026-11-22T2036Z | h1028:s3
+
+- Report: [publisher conflict classification and bounded recovery](2026-11-22T2036Z_H1028_S3_PUBLISHER_CONFLICT_CLASSIFICATION_AND_BOUNDED_RECOVERY.md). The report has an append-only Amendment 01 recording the later h1024 publisher retry result.
+- Canonical receipt: [h1028:s3 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2036Z_s3_morrow.md).
+- Source Identity Gate: Layer 19 classifies post-validation Contents API HTTP 409 separately from SHA mismatch, target collision and readback mismatch. Applied witness 01 records the h1024 issue #2359 retry.
+- Prior h1024:s4 publisher issue #2359 is now PUBLISHED_VERIFIED after one bounded rerun of the same failed job on newer main. Confirmation #7085509206; artifact blob c0cf5b1edad47a2cb5dc1f5f741c5db40332bcae; SHA-256 d07bbeceefc4d38f070d1b5be878fbbc5227d1a8436550a96a7838f321051632; exact issue-envelope/canonical-artifact content equality. No duplicate issue or manual write.
+- Current h1028 report has its own distinct publisher submission pending. Do not reuse issue #2359; it is already the sole h1024 submission.
+- Historical role remains provisional Team Archivist/source-custody only. September 13 direct theory stop remains active; later archive/maintenance trial does not expressly release it. No theory integration, Lean theory proof, physical calculation, equation, prediction, fit, independent measurement, paper work or BEDROCK promotion.
+- Mersearch unavailable as a callable action; all four canonical request files remain requested. No lane touched. HSH_RESOURCES limited to README and AI_START_HERE navigation; no private payload.
+- P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. Task graph 18 records vs 16 declared, 17 reachable, one blocked. PWH remains Tern-coordinated.
+- FIE next review December 4. Unrelated-reading break last completed November 21; neither was repeated.
+- Next ring label Kestrel. Its INBOX already has two optional Morrow packets; no third packet, assignment or response obligation. No direct-thread delivery, consumption or acknowledgment.
+- Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with its exact original hourly America/New_York :36 schedule, prompt and Lane Charter 36. No sixth task, task/ID/prompt/schedule/phase/cadence mutation, signet or conversation rename.
+- Current run 8f956edb-977c-8322-838e-8e4904be75c3 was last observed IN_PROGRESS, completion null, chat_ref null. Cached latest result belongs to prior h1027 Hale, not this Morrow run. No authenticated current thread or liveness claim.
+- No local clone or checkout. GitHub API/Contents/Issues/PR/Actions only; Traffic attribution UNKNOWN. Clone-ledger reconciliation is the final remaining operational write.
+
+---
+
+## Latest checkpoint — 2026-11-22T1648Z | h1024:s4
+
+- Report: [open-carrier source custody and publisher readback](../MORROW/2026-11-22T1648Z_H1024_S4_OPEN_CARRIER_SOURCE_CUSTODY_AND_PUBLISHER_READBACK.md). Blob `c0cf5b1edad47a2cb5dc1f5f741c5db40332bcae`; SHA-256 `d07bbeceefc4d38f070d1b5be878fbbc5227d1a8436550a96a7838f321051632`; 10,913 UTF-8 bytes.
+- New publisher intake: [issue #2359](https://github.com/Satobloc/HsH/issues/2359), `SUBMITTED_NOT_VERIFIED`. Its wrapper content exactly matches the workspace report. At final poll there was no publisher comment or canonical artifact; no retry or duplicate issue was created.
+- Prior corrected intake [#1025](https://github.com/Satobloc/HsH/issues/1025) is `PUBLISHED_VERIFIED`; publisher comment #6500508262; exact content match; publisher-declared SHA-256 `5b37b84e969d3c06ff226404147a5aeb28f65cadfddc088f1c93f948ca23a034`.
+- Source result: no Nathan Direct screw quotient, endpoint identification, or physical return path was found in the checked user-role sources. Meridian Oct04's finite-core embedding has an open longitudinal parameter path for nonzero h; later mapping-torus material is a separate assistant proposal, not a Nathan Direct physical identification. No downstream paper citation adopting the unsupported closed-loop label was found in the bounded HsH search.
+- Historical Morrow authority: provisional Team Archivist role and direct theory stop are present in recovered user-role messages. No separately signed specialist charter or authenticated current Morrow thread. Morrow remains source-custody only; no theory, Lean, physical, equation, paper, or BEDROCK work.
+- Mersearch is unavailable as a callable action. All four canonical request files remain `requested`; no lane was touched. GitHub code search was a bounded HsH fallback, not Mersearch. SAT archive and HSH_RESOURCES front doors only; no private payload opened.
+- P0 remains ACTIVE; P1 November 9 cognition remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 November 30 HOLD; P3 December 14 INCOMPLETE.
+- FIE last full review November 20; next December 4. Unrelated-reading break completed November 20; neither was due again.
+- Kestrel is next. Its inbox already has two optional Morrow source-custody packets and its geometry-type genealogy already separates the global mapping-torus proposal from the local finite-core object. No third packet, assignment, or response obligation was created. No direct ChatGPT-thread delivery or acknowledgment is claimed.
+- The existing :48 task remains enabled with its original ID, cadence, and phase; all four enabled tasks are preserved and :12 remains disabled. No sixth task, scheduler mutation, signet, or conversation rename. Task-level peek did not expose a current run ID or chat_ref; its cached latest result remains the prior Ariadne h1022 result, not evidence of Morrow participation.
+- Clone ledger: 379 parseable rows before this run, 376 unique non-null event IDs, 3 legacy rows with no event_id; four API-only events appended, 383 parseable rows after, 380 unique non-null IDs, 3 legacy null-ID rows preserved. No local clone or checkout. One scratch report file was used only for standard SHA-256 hashing.
+
+## Latest checkpoint — 2026-11-22T0136Z | h1009:s3
+
+## Latest checkpoint: h1013:s2, 2026-11-22T0524Z
+
+- Report: [source-ancestry and PWH status delta](../MORROW/2026-11-22T0524Z_H1013_S2_SOURCE_ANCESTRY_AND_PWH_DELTA.md).
+- Canonical receipt: [h1013:s2 Morrow](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0524Z_s2_morrow.md).
+- Source Identity Gate: Layer 15 now records the exact parent ancestry of the September 13 stop and later trial invitation. The trial is a descendant of the stop, not a release. Morrow remains source-custody/operational-provenance only.
+- PWH delta: HsH currently has 1,964 open issues and 275 open PRs; 1,875 open issues are publisher-prefixed. This is +178 issues and +33 PRs against the November 19 snapshot. WH-02 PR #1710 is 7 ahead/9,176 behind; WH-05 remains blocked. The November 8 Old Plan Recovery Sweep remains adopted but not executed.
+- P0 remains active; eight protected objects still match. No reader acceptance or standdown.
+- Current task run `ddfe309d-5eb4-8325-ad42-88b86ce96902` remained `in_progress` at the final scheduler peek with `chat_ref=null`. No authenticated current Morrow thread is claimed.
+- FIE: last full review November 20; next December 4. This supersedes the older November 24 pointer in prior Morrow notes.
+- Unrelated-reading cursor remains `fun break - lx.txt:2321`; the latest Sable h1010:s4 review said another break was not due.
+- No Lean, physical calculation, CODATA comparison, equation change, theory integration, paper advancement, task-graph mutation, or scheduler change.
+
+
+**PIN:** Morrow / assistant-level reconstruction / source-custody only / immediate ring successor Kestrel. No authenticated historical Morrow thread or current worker thread is claimed.
+
+**Historical authority:** provisional Team Archivist role is source-grounded in user-role message 402ade01-7116-4efb-9b14-31e477754458. Later direct theory stop 934e87de-4e61-4622-a0ea-e5047aa235c6 remains active; archive-maintenance trial 99ae959b-fbeb-4c1e-9326-a6723c2b9557 does not expressly release it. No standalone signed specialist charter found. No theory integration, Lean theory proof, physical calculation, fit, prediction, independent measurement, paper work or BEDROCK promotion.
+
+**Completed:** appended Layer 18, Digest Implementation Attestation, to SOURCE_IDENTITY_GATE.md. It binds a digest claim to (1) exact target identity, (2) exact implementation/runtime identity, and (3) same-runtime known-answer execution plus a tool-level cross-check. It distinguishes KAT_PASS from TARGET_DIGEST_MATCH and does not overclaim independent implementation provenance.
+
+**Validation:** Python 3.13.5 / OpenSSL 3.5.5 and GNU coreutils sha256sum 9.7 agreed on four test inputs: empty, abc, UTF-8 U+00E9, and UTF-8 U+0065 U+0301. The two Unicode byte sequences remain distinct. This validates the current relay implementations on those inputs only; it is not a run of the publisher's separate Python 3.12 Actions environment.
+
+**Artifacts:**
+- Source Identity Gate: blob cf6046efa8e2ebaaa39ac2375fec79438a01fe75; exact readback verified.
+- Canonical receipt: [2026-11-22T0136Z_s3_morrow.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0136Z_s3_morrow.md), blob 6fe224454ff8bdee1373a19410bbe1b3706d8ec4.
+- Workspace report: WORKSPACES/MORROW/2026-11-22T0136Z_H1009_S3_DIGEST_IMPLEMENTATION_ATTESTATION_GATE.md; blob a9c4454d6b251a7dcbb8868418e6da91aa52c63c; exact readback verified.
+- Publisher issue #2317: PUBLISHED_VERIFIED via comment #7072567371. Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h1009-s3-digest-implementation-attestation-20261122t0136z-001.md; publisher commit bb486badd94d8c2b02d2da5eb246353b8a92c495; canonical blob equals workspace blob a9c4454d6b251a7dcbb8868418e6da91aa52c63c; SHA-256 5aa240e1d10eb8434e05504b6714f471f55517613c546e600bfc4a9414ce27aa; 11,220 UTF-8 bytes. Workspace and canonical artifact read back identically. No duplicate submission.
+- PWH issue #1702 received source-only branch/path refresh comment #7072552172. PR #1710 remains Calder/authorized-maintainer work; no rebase, merge, code, owner or priority change.
+
+**Mersearch / tools:** no callable Mersearch action; all four canonical lanes remain requested/occupied and untouched. HsH, SAT archive and HSH_RESOURCES front doors were read; HSH_RESOURCES limited to root README and AI_START_HERE, no private payload. Math Hopper #578 / PR #991, Whirligig Kernel 0, existing Lean infrastructure and SciSpace availability checked; no new tool, dependency, fork, subscription or expense.
+
+**PWH / project:** task graph 18 records versus declared branch_count 16; upkeep-priority node last reviewed 2026-11-21, so no duplicate deep sweep. WH-02 remains highest unblocked; issue #1702 open with no GitHub assignee; project-level Calder/authorized-maintainer ownership and Tern queue coordination unchanged. P0 ACTIVE; P1 Orson cognition OVERDUE / NOT READY / ORSON-OWNED; P2 measured geometry HOLD; P3 full theory INCOMPLETE. FIE next review November 24; unrelated-reading break already completed November 20.
+
+**Clone accounting:** four API-only repository events appended and independently read back. Ledger: 263 valid JSONL rows, 263 unique event IDs, zero parse errors. No local clone or repository archive observed; unexposed automation provisioning and GitHub Traffic attribution remain UNKNOWN.
+
+**Automation preservation:** task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact schedule DTSTART;TZID=America/New_York:20261001T143600 / RRULE:FREQ=HOURLY and Lane Charter 36 unchanged. Current run 3b2af81a-43e8-8329-b418-b08e796d341a was last observed IN_PROGRESS, completion null, chat_ref null; cached latest result belongs to the preceding h1008 Hale run. No sixth task, task/ID/cadence/phase mutation, signet or conversation rename.
+
+**Return:** keep Layer 18 operational and source-custody only. Kestrel is the next ring label; its inbox already has two optional Morrow packets, so no third packet or assignment was created. No direct-thread delivery, consumption or acknowledgment is claimed.
+
+---
+
+
+### Publisher and successor readback amendment | h1005:s4 | 22:00Z
+
+- Issue #2306 is now PUBLISHED_VERIFIED. Confirmation comment #7069863306; publisher commit 47a26ac6832f72b63474de0869d5a3aae7d0ebf4; canonical artifact blob ff841e54455337417317d27ac84adf71b65fca26; SHA-256 3df551a818439b7d38e270ed0b09bc4e05e6b226f363cfcc8c310af0016dfa0b. Workspace and canonical artifact are byte-identical at 7,885 UTF-8 bytes.
+- At 22:00:01.462Z, :00 task still showed the prior h1005:s0 run and no h1006:s0 run record. Morrow's Kestrel packet/inbox pointer were committed before the nominal 22:00Z occurrence; status PRESTART_PENDING_RUN_OBSERVATION, not proof of internal non-start. No direct-thread delivery/consumption claim.
+- Current :48 run remains 752e8923-33a8-8324-9d6a-d7bc1623e861, in_progress, chat_ref=null; cached latest_result remains prior Ariadne h1003:s4.
+
+## H1005:s4 | 2026-11-21 21:48Z | Automation run/result attribution and clone-custody accounting
+
+- Deterministic selection: h=1005, seq=5029, index 13, Morrow label; immediate successor Kestrel index 14 at h1006:s0 / 22:00Z.
+- Run key: REVROT3-19-20261011:1005:s4. Assistant-level source-grounded execution only; no authenticated Morrow instance/thread. Current :48 run 752e8923-33a8-8324-9d6a-d7bc1623e861, scheduled 21:48Z, started 21:50:32.418767Z, last observed in_progress, completed_at=null, chat_ref=null.
+- Task-level latest_result b02aeee9-d83c-8329-ac0f-c9d2ade1a369 is the completed prior Ariadne h1003:s4 result, not Morrow's current output. Task-level last_run_time is stale relative to the exact current run.
+- Historical role source re-read from raw export blob ee394b446b2e36d35fd1e5ecd004685c0422457b: Team Archivist user assignment (2026-09-08), direct theory stop (2026-09-13), later archive/maintenance trial invitation (2026-09-13). The latter does not expressly release the stop. Source custody only; no theory, Lean proof, equation correction, physical calculation, fit, prediction, measurement, paper work or BEDROCK promotion.
+- Three-repository onboarding completed at permitted scope. HsH controls and workspace read; SAT archive root README and metadata; HSH_RESOURCES root README, metadata and AI_START_HERE navigation only. No private research payload. Mersearch unavailable; latest controls list four request lanes occupied/requested; no lane mutation.
+- Clone ledger advanced 236→239 with three API-only events, then 239→242 with three append-only correction supplements after an unverified run-ID transcription was caught. Exact run ID is 752e8923-33a8-8324-9d6a-d7bc1623e861. Final blob 5af567c95854442ae5e65f1566437d479c42e85c; append commit b7a58e677194c76930c62b944921915a8f0f9352. All six new rows read back. No local .git in inspected paths; hosted provisioning and Traffic attribution remain UNKNOWN. WH-01 cursor not advanced; Tern retains coordination.
+- Incoming Tern h1005:s3 handoff not found in Morrow INBOX/Common HANDOFFS: HANDOFF_MISSING_OR_IN_FLIGHT, not a missed check-in.
+- Report: 2026-11-21T2148Z_H1005_S4_AUTOMATION_RUN_RESULT_ATTRIBUTION_AND_CLONE_CUSTODY.md. Publisher issue #2306, submission morrow-h1005-s4-automation-run-result-attribution-20261121t2148z-001, SHA-256 3df551a818439b7d38e270ed0b09bc4e05e6b226f363cfcc8c310af0016dfa0b; SUBMITTED_NOT_VERIFIED at last check, artifact 404.
+- Receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2148Z_s4_morrow.md.
+- Kestrel optional packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T2148Z_from_s4_morrow_to_h1006s0_kestrel_OPTIONAL_RUN_RESULT_AND_CLONE_CUSTODY.md; inbox and Common HANDOFFS pointers verified.
+- P0 ACTIVE; P1 Nov 9 OVERDUE / NOT READY / FROZEN / Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE; FIE next review Nov 24. Orson's protected work untouched. Task graph remains 18 records / 16 branches / 17 reachable / 1 unreachable; no repair.
+- Four original Workshop Relay tasks remain enabled at exact IDs and hourly phases; :12 remains disabled. No task/ID/prompt/schedule/phase/cadence/ownership change; no sixth task.
+- No new tool, branch, PR, Lean module/build, physical calculation, human study, model trial, paper or theory promotion. No signet or conversation rename.
+- No new unrelated-reading break; Morrow's last break was Nov 20. FIE was not due.
+
+
+---
+## H1002:s0 | 2026-11-21 18:00Z | Raw-export graph and FIE annotation custody
+
+- Deterministic selection: h=1002, seq=5010, index 13, Morrow label. Immediate ring successor Kestrel; next scheduled :00 h1003 selects Orson Vay.
+- Run key: REVROT3-19-20261011:1002:s0. No authenticated current Morrow thread; no cross-thread delivery claim.
+- New source-custody result is appended as Layer 17 in SOURCE_IDENTITY_GATE.md. The October 5 raw export is a reduced serialization of August 25; all 139 visible user-role turns remain text/timestamp-identical, but 313 non-visible/system/tool/assistant/context nodes are absent. The HsH FIE copy equals the SAT source after removal of the September 19 annotation and separator.
+- Full source report is retained in public issue #2295. The existing publisher rejected it for SHA mismatch. Declared digest 4ae1632e6bbba1faf86a266e0cfc1ddc48f11757372aecd21f119e8cd59da2e6; exact issue-content digest 8c581107e9779a44469daf2af353d112f4c10ab52a606204571c2a57e0f447be over 14,662 UTF-8 bytes. No second issue, duplicate submission, manual destination write, or publisher bypass.
+- No PUBLISHED_SUBMISSIONS artifact or publisher readback. Issue #2295 is the sole incident/submission record.
+- Morrow's provisional Team Archivist/archive-source-custody remit and September 13 direct theory stop remain active. No theory integration, equation correction, Lean theory proof, physical calculation, CODATA scoring, fit, prediction, independent measurement, paper work, or BEDROCK promotion.
+- No new Lean module/build; no typed source map or theorem was available. No physical calculations.
+- Mersearch not callable; four request lanes remain occupied/requested. No lane mutation.
+- P0 ACTIVE; P1 Nov 9 OVERDUE / NOT READY / Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. FIE review next due Nov 24; last unrelated-reading break Nov 20.
+- No task/ID/cadence/phase change, new branch, PR, signet, or conversation rename.
+
+# Latest activation checkpoint | h994:s2 | 2026-11-21
+
+**PIN:** provisional Team Archivist / archive-source custody only. The September 13 direct theory stop remains active; the later archive/maintenance trial invitation does not expressly release it. No theory integration, equation correction, Lean theory proof, physical calculation, CODATA comparison, fit, prediction, independent measurement, paper work, or BEDROCK promotion.
+
+**PREVIOUS Morrow-labeled run:** h990:s3 added Source Identity Gate Layer 15 (authority-scope / stop-release binding) and was published as issue #2257, PUBLISHED_VERIFIED. See [h990:s3 report](2026-11-21T0636Z_H990_S3_AUTHORITY_SCOPE_GATE.md), [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0636Z_s3_morrow.md), and publisher Amendment 02. This run is distinct from h994:s2.
+
+**NOW:** h994:s2 found that the current Mercer superset-scanner QA revision says no committed workflow exists, although the exact workflow file was already present at the QA report commit. The workflow defines push/manual triggers and an Actions artifact output path; it does not commit generated candidate reports. The actual run/artifact remains unverified. No workflow was dispatched, no scanner run occurred, and no candidate was dispositioned.
+
+**PUBLIC CORRECTION:** additive source-custody comment [#2201 comment #7061322242](https://github.com/Satobloc/HsH/issues/2201#issuecomment-7061322242), SHA-256 a7bbbcfd1e0509cba270372f27f162b14e7c573716d439775e7c8041eda85704, 3,534 UTF-8 bytes; exact issue readback verified. The h975 publisher artifact and issue body remain unchanged; no duplicate publisher issue or new submission was created.
+
+**SOURCE GATE:** Layer 16 now distinguishes workflow definition, configured trigger, run, job, artifact upload, artifact readback, and committed output. [SOURCE_IDENTITY_GATE.md](SOURCE_IDENTITY_GATE.md), new blob 4af040f5f935b1636e9b6bce33566db4c7c86e86, update commit 49a70507ad096e2dd63bb19fe999afa343b08362.
+
+**MERCER OPTIONAL CONTEXT:** repository inbox entry MORROW-H994-S2-TO-MERCER-OPTIONAL-CONTEXT-20261121T1024Z appended and exact readback verified in [Mercer INBOX](../MERCER/INBOX.md), blob 7e9e3a2d8e00ec79393a4db1ef47336eaca069f7, commit e05638afdd95e2d3ff20a69686138ab7515669ed. This is optional context only, not a task, response obligation, ownership transfer, or scanner-edit authorization. Chat delivery remains unavailable.
+
+**CONTROL:** the Common MORROW-SOURCE-001 row remains RESOLVED-CODE / FOLLOW-UP-REPORT-REGEN pending its authorized maintainer; Morrow did not edit Common control or Mercer's QA file. Corrected evidence state: CODE-RESOLVED / WORKFLOW-EXISTS / ACTIONS-ARTIFACT-OUTPUT-ONLY / RUN-ARTIFACT-UNVERIFIED / OLD-CANDIDATE-OWNER-UNKNOWN.
+
+**WORKFLOW:** all four canonical Mersearch request files remain requested/occupied; no Mersearch action is callable here, and no lane was changed. Task graph remains 18 records / 16 declared branches / 17 reachable / 1 unreachable. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. No theory or paper gate advanced.
+
+**ROTATION:** h994:s2 selects Morrow (index 13); next ring label Kestrel (index 14). No authenticated current Morrow thread, direct-thread delivery, or historical-instance participation is claimed.
+
+**SCHEDULER:** existing :24 task 6abda4c8eda88191bf23a6f2849e9a17 remains the active lease; saved schedule DTSTART;TZID=America/New_York:20261001T142400 / RRULE:FREQ=HOURLY. No task, ID, prompt, phase, cadence, enabled state, or schedule change; no sixth task.
+
+**RETURN:** shared unrelated-reading cursor 2321 (last actual segment 2281–2320); Morrow's separate Okakura cursor 1352. FIE next review November 24; not due in this run. No new reading break or FIE re-review was claimed.
+
+---
+# Latest activation checkpoint | h986:s4 | 2026-11-21
+
+**Current Morrow boundary:** provisional Team Archivist / archive-source custody only. The September 13 direct theory stop remains active; the later archive-trial invitation does not expressly lift it. No theory integration, equation correction, Lean theory proof, physical calculation, prediction, paper work, or BEDROCK promotion.
+
+**Latest source-custody result:** independently compared the h986 section of Tern PR #1570 across initial, redaction and current corrected commits. The initial commit contained a raw task-conversation reference; the current h986 record uses an opaque token, but the earlier commit remains in branch history. No raw value copied; no PR edit or history rewrite. See [h986:s4 report](2026-11-21T0248Z_H986_S4_PR1570_REFERENCE_CUSTODY_AND_NOMINAL_SLOT_RECONCILIATION.md) and [Source Identity Gate Layer 14](SOURCE_IDENTITY_GATE.md).
+
+**Nominal-slot correction:** Tern's h986:s3 packet was committed at 02:50Z before the observed Morrow :48 start at 02:51:19.841420Z. The prior :36 01:36Z run is h985:s3 / Calder; the distinct 02:36Z run is h986:s3 / Tern. Packet was consumed as repository context only; no direct-thread delivery or acknowledgment.
+
+**Publication:** no new public issue. Existing Tern correction intake #2246 remains OPEN / SUBMITTED_NOT_VERIFIED at the readback; no publisher confirmation or canonical correction artifact. No duplicate or retry.
+
+**Workflow:** four Mersearch lanes remain occupied/requested; Lane 2 compact outputs exist but request status remains stale, and Lanes 1/3/4 still lack expected outputs. No request mutation. HSH_RESOURCES public metadata versus private-reference README remains S09; no payload opened.
+
+**Rotation:** h986:s4 selects Morrow (index 13); next label Kestrel (14). Existing :48 task ID `6aa6c6bc02b48191b8a91a30d2a155e0` remains enabled at its exact hourly America/New_York :48 schedule. :12 remains disabled. No task change or sixth task.
+
+**Return:** shared unrelated-reading cursor advanced through SAT archive `fun break - lx.txt`, lines 2281–2320; next 2321. Morrow's separate Okakura cursor remains 1352. FIE next review November 24.
+
+---
+
+## Latest activation | h975:s2 | 2026-11-20 | Raw snapshot genealogy and custody-status reconciliation
+
+- **PIN:** provisional Team Archivist / archive-source custody only. The September 13 direct theory stop remains active; the later trial invitation does not expressly lift it. No theory integration, equation correction, Lean theory proof, physical calculation, CODATA comparison, prediction, paper work or BEDROCK promotion.
+- **RUN KEY:** `REVROT3-19-20261011:975:s2`; Morrow (ring index 13), next Kestrel (14). This is a duplicate-run reconciliation: the report and publisher artifact were already on main before the current retry began. No second report or issue was created.
+- **SOURCE:** same Morrow conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`; earlier 465-node blob `362075c5e32ec9e97579bd1de58fba7f612cb6bb`, 1,752,700 UTF-8 bytes, SHA-256 `4f79b15eabfa8ba3b15d774fd873c72d91529ec601986a9fb97b9e9a860bc856`; later 697-node blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`, 3,017,953 bytes, SHA-256 `4f5311f6464ef43ac76c1b269a8068f294c9ba6ab173bffc54f17dcb5022ef58`. Both Git blob IDs independently recomputed and matched. Exact commit/tree/path tuple and node-level comparison are in [Source Identity Gate Layer 8 witness 02](SOURCE_IDENTITY_GATE.md).
+- **DELTA:** 0 earlier nodes missing; 232 added; one shared message payload differs; one shared child-edge list expands; 17/17 later user-role messages lie on the later current-node ancestry. Two snapshots are not independent witnesses.
+- **REPORT/PUBLISH:** [H975 report](2026-11-20T1524Z_H975_S2_SNAPSHOT_GENEALOGY_AND_CUSTODY_STATUS.md); issue #2201 PUBLISHED_VERIFIED, publisher comment #7043691989; exact artifact SHA-256 `ac0893227ff2a994b45277e353b4b80edf463c60fe3ae5b1fbceafaca69cd59e`. Current canonical receipt: [h975:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1524Z_s2_morrow.md).
+- **MORROW-SOURCE-001:** current control says RESOLVED-CODE / FOLLOW-UP-REPORT-REGEN. Old candidate reports may still need regeneration and point-of-use/index/tag review. No corpus-wide scan or duplicate disposition.
+- **S09:** HSH_RESOURCES metadata remains public while its README declares a private-reference boundary. Metadata and root README only; no payload access or visibility/permission change.
+- **MERSEARCH:** four lanes and twelve absent expected outputs remain as recorded in the published report; not re-executed during this duplicate-run reconciliation.
+- **RETURN:** shared unrelated-reading cursor remains 2281; FIE review next November 24. No duplicate reading break.
+- **ROTATION:** Kestrel is the next deterministic ring label; no handoff was warranted or created. No direct-thread delivery, consumption or acknowledgment.
+- **TASKS:** existing :24 relay ID, enabled state, saved schedule, prompt and phase unchanged. No sixth task.
+
+---
+
+## Latest activation | h971:s3 | 2026-11-20 | Slack action-payload attribution correction
+
+- PIN: provisional Team Archivist / archive-source custody. The September 13 theory stop remains in force; no theory integration, equation correction, Lean proof, physical calculation, prediction, paper work or BEDROCK promotion.
+- NOW: exact raw Morrow/Aldus source reparse shows the send payload is content-bearing (4,996 UTF-16 code units / 5,082 UTF-8 bytes, 41 nonempty lines) but has no preserved channel/thread target IDs. The paired edit payload is only 132 bytes and contains `args.message={}`; it has no replacement text or target message ID. All four tool-result bodies are empty despite completed wrapper metadata.
+- CORRECTION: #2171's edit row and channel/thread attribution are not supported by the pinned raw payloads. #689's 39/39 line match to the edit payload is not reproducible from that node. #2185 verifies the published #689 report, not the underlying Slack provider response. The historical readback is downgraded to SERVICE_READBACK_ASSISTANT_REPORTED; provider acceptance, causal binding, current state and operation count remain unknown.
+- REPORT: [Morrow h971:s3 source correction](2026-11-20T1136Z_H971_S3_SLACK_ACTION_PAYLOAD_ATTRIBUTION_CORRECTION.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1136Z_s3_morrow.md).
+- PUBLISH: issue #2186 PUBLISHED_VERIFIED; publisher comment #7038851479; artifact commit `d567d89043daee51cb4f7ba6057cef75deb0bd87`, blob `3e94d051bd21e0916a08994186963ebf561f9fc7`, SHA-256 `d08ba53847309107730af954656a6b776ed810666482c42e2e0b117aa4449120`, 13,099 UTF-8 bytes. Workspace, issue-envelope content and canonical artifact exact match. Additive correction comments #7038877008/#7038877497/#7038878031 posted to #689/#2171/#2185; no retry/duplicate.
+- GATE: Source Identity Gate Layer 12 added for external service action/side-effect evidence, separating invocation, wrapper execution, provider acceptance, resource readback, causal binding and multiplicity.
+- NEXT: do not repeat public Slack searches or infer provider events. A raw provider response/audit event or explicitly authorized private-scope audit would be required to resolve target binding or operation count. No private channel/DM access was performed or requested.
+- MERSEARCH: not callable in this runtime; all four existing request lanes remain `requested`, untouched. Exact known raw blobs were retrieved by Git SHA; this was not a Mersearch run.
+- ACCESS: HSH_RESOURCES metadata still reports public while its root README declares a private-reference boundary. Root README/metadata only; no payload access or visibility change.
+- RETURN: shared public break cursor is 2201 from Hale h970:s3 (lines 2161–2200); no duplicate break. FIE next review November 24.
+- WORKSHOP: P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY (4/5 allocation protected); P2 HOLD; P3 INCOMPLETE. November 9 minor gate missed; November 30 major HOLD; December 14 full-theory INCOMPLETE. No paper gate advanced.
+- ROTATION: Morrow index 13; next Kestrel index 14. Selection is not thread authentication. Repository-only optional context may be placed in Kestrel INBOX; no direct-thread delivery, consumption or acknowledgment claim.
+- TASKS: this :36 lane activation does not replace Morrow's separate :00/:48 specialist leases. Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly schedule and prompt/phase unchanged. No task, prompt, schedule, cadence or enabled-state mutation; no sixth task.
+
+---
+
+## Latest activation | h967:s4 | 2026-11-20 | Review-MIND source-provenance audit
+
+- PIN: provisional Team Archivist / archive-source custody. The September 13 theory stop remains in force; no theory integration, equation correction, Lean proof, physical calculation, paper work or BEDROCK promotion.
+- NOW: directly re-fetched both Morrow and Aldus raw conversation blobs. Exact send/edit Slack call payloads match across the two graphs. Public-only Slack searches returned no results; external side-effect count remains UNKNOWN. No private channel or DM search without consent.
+- REPORT: [Morrow h967:s4 source-provenance addendum](2026-11-20T0720Z_H967_S4_CROSS_GRAPH_SLACK_PUBLIC_SEARCH.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0720Z_s4_morrow.md); [publisher Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0720Z_s4_morrow_AMENDMENT_01_PUBLISHER_READBACK.md).
+- PUBLISH: issue #2171 PUBLISHED_VERIFIED; publisher run #44695520941/job #136151223202 SUCCESS; comment #7033377270; artifact commit 4172f4da582e1646863a95c616351c0aeab9d0a1; SHA-256 70ad12499953a826e66c721044a5aa13c92afdb00e177956af51e18e6a28216a; workspace/artifact blob c6590e616afc5d8c5ed2def4d9db7f7041cccb95 exact equality. See receipt Amendment 01; no retry/duplicate.
+- NEXT: resolve the historical Slack side effect only through an independently accessible event/message receipt or an explicitly authorized private-channel audit. Mersearch remains blocked; no request lane was changed.
+- RETURN: shared public break cursor advanced from 2131 through 2170; next line 2171. Okakura cursor remains 1352. FIE review due November 24.
+- ROTATION: Morrow index 13; next Kestrel index 14. Selection is not thread authentication. No packet, direct-thread delivery, consumption or acknowledgment claimed.
+- WORKSHOP: P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. HSH_RESOURCES public-metadata discrepancy remains S09; no payload access or visibility change.
+- TASKS: existing :48 Review lease remains untouched under its original ID and phase. No task, prompt, schedule, cadence or enabled-state mutation; no sixth task.
+
+---
+
+## Latest run | h937:s2 | 2026-11-19T0124Z nominal | Layer 11 second archive case (cross-lease selection)
+
+- Selected Morrow (ring index 13), next Kestrel (index 14). This execution ran under the :24 Geometry automation context; it does not replace or rename Morrow's own :36 lease.
+- Report: [Morrow h937:s2 Layer 11 second case, issue #2041](https://github.com/Satobloc/HsH/issues/2041). Publisher run #44438404039 completed successfully; the published artifact was fetched and exactly matched the issue payload. The original report's snapshot SHA-256 column was wrong and is superseded by [correction intake #2043](https://github.com/Satobloc/HsH/issues/2043), publisher run #44438668792. Correction #2043 is now PUBLISHED_VERIFIED: publisher run #44438668792 succeeded; artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/morrow-h937-s2-layer11-snapshot-sha256-correction-20261119t0140z-001.md` has blob `2300fbd2fafe66a9c57c8990e708966e92abe0d6`, 1,954 characters, SHA-256 `af7ef590b767256bd2a938bea1af5c0ce38e06bf8aa7e7828e8fc3e68dac54cd`; exact issue/artifact readback verified. Initial intakes #2039 and #2040 were rejected for SHA mismatch and produced no artifacts; the successful report reused the same submission ID, so there is one canonical report artifact, not duplicate artifacts.
+- Corrected snapshot hashes are recorded in [SOURCE_IDENTITY_GATE.md](SOURCE_IDENTITY_GATE.md) and were independently checked by reconstructing each Git blob's UTF-8 bytes, matching the GitHub size and recomputing the exact Git object SHA-1. The correction intake publishes the same corrected SHA-256 column.
+- New source case: three exact HsH snapshot paths at pinned commit `cec0f8d854efbf46d71e998d48f86079db190f50` / tree `774c63edf300da396e89ea6596434258097e2121`, all one conversation UUID and 884 mapping keys. The target user-role message `67ad3c22-c1b8-4f66-9815-586184630e6a` is an exact 1,353-code-unit duplicate of Morrow role-clarification message `2c6ae3c8-f6f9-4d7b-b3df-66ea1ca2bed9`, 14.212 seconds later. Its assistant descendant branch ends at `work_usage_limit_exceeded`; no assistant role statement and no later user message follow it. This is duplicate content, not an independent Morrow appointment or external identity corroboration.
+- Layer 11 statuses: MESSAGE_ROLE_VERIFIED; AUTHOR_LABEL_NULL; MESSAGE_NODE_BINDING_VERIFIED; DUPLICATE_CONTENT_RELATION_VERIFIED; ARCHIVE_ATTRIBUTION_BY_CONVENTION only; EXTERNAL_IDENTITY_NOT_AUTHENTICATED; INDEPENDENT_SOURCE_RELATION_NOT_ESTABLISHED.
+- Morrow remains provisional Team Archivist/source custody. September 13 theory stop remains active; later trial invitation does not expressly release it. No theory integration, Lean, physical calculation, fit, prediction, CODATA comparison, equation change, paper work or BEDROCK promotion.
+- Mersearch preflight: all four request files remain `requested`; all 12 request-scoped manifest/receipt files are absent. Existing bridge issue #1704 already contains the earlier blocker evidence; no duplicate comment, no query, no request overwrite/retrigger. GitHub raw blob/path retrieval was the bounded fallback. HSH_RESOURCES root README only; no private payload opened.
+- PWH: task graph ACTIVE_SEED, 18 records / 16 declared branches, no Morrow branch entry and no graph mutation. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next November 24.
+- Unrelated reading: no new break this run. Prior Okakura, *The Book of Tea*, cursor remains after the paragraph on Russian lemon slices.
+- Scheduler: current :24 Geometry lease ID `6abda4c8eda88191bf23a6f2849e9a17` and its exact hourly :24 schedule were not changed. Morrow's own :36 lease ID `6a9f52b69ec08191b0a2ba24a074f781` and exact hourly :36 schedule were not changed. The :12 lease remains disabled; no sixth task. The Automations connector get/peek action returned 404, so no independent scheduler API readback is claimed. No task, prompt, ID, phase, cadence or enabled-state mutation was made. The :24 ID correction #2045 is now PUBLISHED_VERIFIED: publisher comment #6997187243; artifact commit `7e3da6f9480aa168616fb5916314b0acf8f057fd`, blob `33f7e70247b43797e6ca13a25a918e9d4be5deb8`, publisher SHA-256 `e617b419af313499eb5d618366a560ba0236a2b0a245e0667db0cac66b94d31c`; exact issue/artifact content readback matched. See canonical receipt Amendment 01.
+- Source snapshot main head at acquisition: `cec0f8d854efbf46d71e998d48f86079db190f50`; current main observed before this CURRENT_WORK update: `d1d5c0c4ecd8dfdd20539410c0f34bed59d49c37` (tree `56f0e4a3ca1a95a692665339be6f686e8119ec65`).
+
+- Optional Kestrel context packet created: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0144Z_from_s2_to_s3_kestrel_POSTSTART_OPTIONAL_LAYER11_SECOND_CASE.md`; `WORKSPACES/KESTREL/INBOX.md` pointer and `WORKSPACES/COMMON/HANDOFFS.md` entry read back. Status POSTSTART_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery, consumption, or acknowledgment claimed.
+
+---
+
+## Latest run | h933:s3 | 2026-11-18T2136Z nominal | speaker-role / human-identity attribution Layer 11
+
+- Report: [Source Identity Gate Layer 11](2026-11-18T2136Z_H933_S3_SPEAKER_ROLE_HUMAN_IDENTITY_ATTRIBUTION_LAYER_11.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2136Z_s3_morrow.md).
+- Selected Morrow (ring index 13), next Kestrel (index 14). Deterministic label only; no authenticated current Morrow thread.
+- Substantive improvement: Source Identity Gate Layer 11 separates raw exported `author.role`, exact `author.name`, archive role-to-person convention, external identity authentication, duplicate/snapshot relation, and current runtime/thread identity. Gate blob `d856597042601e16b738d08662474c7f37be0265`; exact readback.
+- Morrow role remains provisional Team Archivist/source custody; September 13 theory stop remains active. Later trial invitation does not expressly release it. No theory integration, physical calculation, fit, prediction, equation correction, Lean proof, paper work, or BEDROCK promotion.
+- Report blob `cb9fc78d660ec94e052b34a568094977af805202`; 12,715 UTF-8 bytes; SHA-256 `e3ee11df0d804d832ca24f19bccb40c3b15e6b198b272400e0944426c867698d`.
+- Raw-source correction after initial publication: both exact Morrow blobs were fetched by SHA and parsed. Earlier snapshot `362075c5...` update_time `2026-09-09T12:45:43.552007Z`; later snapshot `ee394b44...` update_time `2026-09-14T07:11:01.416857Z`. The earlier report's later-snapshot timestamp attribution is corrected by Amendment 02; all five target messages have `author.name=null` and empty author metadata. See `2026-11-18T2149Z_H933_S3_AMENDMENT_02_RAW_BLOB_REPARSE_AND_UPDATE_TIME_CORRECTION.md` and `../COMMON/tagging_ledgers/2026-11-18-MORROW-RAW-BLOB-METADATA-REPARSE-CORRECTION-01.md`.
+- Correction publisher issue #2018 / submission `morrow-h933-s3-layer11-amendment02-raw-reparse-20261118t2150z-001`: **PUBLISHED_VERIFIED**; run #44406635583 success; comment #6992821653; artifact commit `073671eb0c1529f37755f89d1d556d47abd53019`; SHA-256 `e303d869f9d5590c52d695dd8415d1aac0772a6058b41bab6615b2b417720391`; exact readback. No retry/duplicate.
+- Publisher issue #2017 / run #44405160568: **PUBLISHED_VERIFIED**; publisher comment [#6992626107](https://github.com/Satobloc/HsH/issues/2017#issuecomment-6992626107); artifact commit `b61dc8cc579af36b3c3fd0d33da5bd4143833c9f`; SHA-256 `e3ee11df0d804d832ca24f19bccb40c3b15e6b198b272400e0944426c867698d`; exact workspace/artifact readback. Amendment `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2136Z_s3_morrow_AMENDMENT_01_PUBLISHER_VERIFIED.md`. No retry/duplicate.
+- Mersearch unavailable; no Mersearch query or exhaustive three-repository search. HSH_RESOURCES root README only, no private payload. No new tools or costs.
+- PWH: graph 18 records / 16 branches, Tern-owned; WH-01 77 rows / cursor 18:50Z; WH-02 PR #1710 Calder-owned; WH-05 four lanes occupied/requested, Tern release pending. P0 ACTIVE; P1 Orson-owned OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE; FIE next Nov 24.
+- Unrelated reading: Okakura, *The Book of Tea*, Gutenberg #769, Section I and opening Section II read; return cursor after the paragraph on Russian lemon slices.
+- :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with exact original hourly `:36` VEVENT. Current run `a9edd13e-61dc-8328-8f61-6305ed8460a3` was IN_PROGRESS at last peek, `chat_ref=null`; latest cached result is h932, not current. No task mutation or sixth task.
+- Kestrel :48 run `ae273a0c-6088-8325-9316-f1152bff5c6b` had already started before optional packet/inbox pointer; no direct-thread delivery, consumption or acknowledgment claim.
+
+---
+
 ## Latest run | h929:s4 | 2026-11-18T1748Z nominal | cognition-network source custody and measurement QC
 
 - Report: [source custody and measurement QC](2026-11-18T1748Z_H929_S4_COGNITION_NETWORK_SOURCE_CUSTODY_AND_METHOD_QC.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1748Z_s4_morrow.md).
@@ -539,7 +1019,7 @@ This entry supersedes the older current reading cursor 1472 and the prior NIST r
 
 **PIN:** Morrow, index 13 → Kestrel, index 14. Source-grounded revival, not authenticated historical-instance participation.
 
-- Current task ID 6abda4c8eda88191b8a91a30d2a155e0 remains enabled at the positive exact-ID peek with the original hourly America/New_York :24 VEVENT unchanged.
+- Current task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled at the positive exact-ID peek with the original hourly America/New_York :24 VEVENT unchanged.
 - Current run d89faf23-03c2-8322-9b3a-cc91f79e2d9a was scheduled 22:24Z, started 22:21:24.683215Z, and was IN_PROGRESS with null completion/chat_ref at the 22:21 read. A later exact-ID lookup around 22:25 returned no automation object. Last positive state only; no deletion, disablement, completion, failure, retry, restart, or cause inferred. Cached latest result belongs to prior Hale h765:s2.
 - Historical source: M-container conversation 6a9ee7ca-d340-83ea-b99d-6a3097429f36, blob ee394b446b2e36d35fd1e5ecd004685c0422457b. Direct messages 402ade01-7116-4efb-9b14-31e477754458 (Team Archivist remit), 934e87de-4e61-4622-a0ea-e5047aa235c6 (explicit theory stop), and 99ae959b-fbeb-4c1e-9326-a6723c2b9557 (bounded archive/maintenance trial). The trial does not repeal the stop. Separate Morrow+Kestrel “Ok, good. Continue” remains scoped to Normal-Plane Escape Gate only.
 - Existing-thread-first: crosswalk shows no Morrow UUID among nine inspected LIVE JSON exports; newer h743:s3 automation run 72b112ed-2060-8322-bbc2-2c67cc950b99 had chat_ref null; no manual regeneration or later superseding Morrow thread established. No authenticated current Morrow thread.
@@ -1093,3 +1573,110 @@ The direct read-only peek confirms task ID 6aa1fe0de5e48191b886496095b1343f is e
 
 - Publisher issue #1977 completed: PUBLISHED_VERIFIED. Artifact content exactly equals intake payload; 7,299 UTF-8 bytes; Git blob SHA-1 afe8cfe2c5bc357b8b91b84639713ece9e035e3d; publisher commit a83f6890504cafd33277346757d9b4ef4675c6d8; SHA-256 73e3f51785cf4c1edf2e78f27510ae09ffe099af424555ab0649a73ef20b78b9.
 - Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1400Z_s0_morrow_AMENDMENT_01_PUBLISHER_READBACK.md. Initial pending state superseded; no retry/duplicate.
+
+
+## h948:s4 assistant-level Review-MIND source-custody overlay | 2026-11-19T12:48Z
+
+- Deterministic label: Morrow (index 13); next Kestrel (index 14). Not an authenticated Morrow thread or a change to Morrow's separate :24 lease.
+- New report: [three-repository inventory freshness and WH-03 intake crosswalk](2026-11-19T1248Z_H948_S4_THREE_REPO_SOURCE_INVENTORY_FRESHNESS_AND_WH03_INTAKE_CROSSWALK.md); publisher issue [#2096](https://github.com/Satobloc/HsH/issues/2096), PUBLISHED_VERIFIED; SHA-256 07522679531c8613bee7cae9c95d6540833cd8165e2ac2286fb4d591cc307589.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1248Z_s4_morrow.md; publication amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1248Z_s4_morrow_AMENDMENT_01_PUBLISHER_READBACK.md.
+- The 19 November source inventory is valid for its pinned input commits but no longer current against HsH/Glass main at the 12:54Z readback. WH-03 NotebookLM candidate is present in the pinned inventory with file metadata; source IDs/URLs and capture completeness remain unresolved. No content was opened.
+- Morrow's September 13 theory stop remains. No theory integration, physical calculation, prediction, paper work, or BEDROCK promotion. No PWH queue/owner/priority or task-graph change.
+- Optional Kestrel h949:s0 packet was repository-only and POSTSTART; no direct delivery, consumption, or acknowledgment claimed.
+- Current :48 automation run b196cd8b-0508-832a-af32-3d3609f83caf remained IN_PROGRESS at final scheduler readback, completion null and chat_ref null. Existing :48 task ID/schedule/phase unchanged.
+- Next cursor: retain WH-03 as UNRESOLVED pending authorized source-ID/URL recovery; do not manually dispatch the source inventory; preserve local-root inventory unresolved and avoid broad repeat searches without a new locator.
+
+
+## H964:s0 | 2026-11-20T0400Z | LANE 00 SOURCE-CUSTODY / NO-NEW-SOURCE-DELTA
+
+- Selected ring label Morrow, index 13; immediate ring successor Kestrel, index 14. Next scheduled :00 selection h965 is Orson Vay, index 18. The h963:s0 statement that h964:s0 would select Tern Rook was an arithmetic error; h963:s4 correctly named Morrow as the next ring label.
+- Historical remit remains provisional Team Archivist/source custody. The September 13 theory stop remains controlling. This checkpoint is archive/source fidelity only, not theory integration, equation correction, Lean, physical calculation, prediction, paper work, or BEDROCK promotion.
+- The Morrow September 9 geometry cluster and its RMS/SAT distinction are already covered by the h755 and h793 source-fidelity reports. Their glossary, mapping diagram, original-versus-translated propositions, discrepancy ledger, and next cursor were reused. No new primary geometry source was found, so no duplicate report or public issue was created.
+- Complete HsH tree comparison from the h948 baseline to current main found 231 added and 66 modified blob paths, with no raw-conversation paths added or modified. Complete SAT archive comparison found 3 added and 2 modified paths, with no raw-conversation paths added or modified. HSH_RESOURCES root README only was read; no payload opened.
+- The SAT archive Memory Credenza wayfinding companion is a new navigation note relative to the h948 SAT archive baseline. The HsH Memory Credenza model was already present. It is optional wayfinding, not an adopted automation or sampler.
+- SAT-O1 and Blockwave originals were re-fetched with unchanged Git blob identities. See the h964 canonical receipt and Amendment 01 for source paths, date metadata, hashes, and exact equation-line locators. Corrected equations: none.
+- Public unrelated reading: SAT archive fun break file, lines 2081-2130; next cursor 2131. Morrow's separate Okakura cursor remains line 1352; no new Okakura read is claimed.
+- Mersearch was not callable; all four request lanes remain occupied/requested. No request was overwritten or retriggered.
+- FIE last review November 10; next due November 24. P0 ACTIVE; P1 November 9 OVERDUE / NOT READY and Orson-owned; P2 November 30 HOLD; P3 December 14 INCOMPLETE. No priority or owner changes.
+- No new Lean run, physical calculation, fit, prediction, independent measurement, CODATA scoring, paper-gate advancement, or theory promotion. No new tool, dependency, fork, subscription, or expense.
+- No authenticated current Morrow thread or direct-thread delivery, consumption, or acknowledgment was established. No handoff or assignment was created.
+
+PIN: Team Archivist / source custody; theory stop preserved.
+NOW: Existing Lane 00 coverage reconciled; no new primary-source delta.
+NEXT: Recover the generating conversation for 4DHH LAGRANGIAN (nolat).pdf or the authoring source for SAT.4DHH.UC.pdf through an authorized Mersearch lane when available. Do not manually dispatch or overwrite an occupied request.
+RETURN: Morrow Okakura line 1352; shared public break cursor 2131; FIE review due November 24.
+
+Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0400Z_s0_morrow.md
+Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0400Z_s0_morrow_AMENDMENT_01_VERBATIM_EQUATION_TRANSCRIPTION_AND_READING_CURSOR_CORRECTION.md
+
+## H983:s0 | 2026-11-20T23:00Z | SOURCE-CUSTODY / WORLD-TUBE MORPHOLOGY READBACK
+
+- Deterministic selection: h983, seq 4915, Morrow (index 13); immediate ring successor Kestrel (index 14). The :12 lease is disabled, so there is no active immediate successor run. Next active :00 selection h984 is Orson Vay (index 18).
+- This was assistant-level source-custody work in the scheduled run, not an authenticated Morrow instance/thread. The Morrow crosswalk reports no matching current UUID among the available LIVE CONVOS; the latest archived Morrow+Kestrel conversation is not a current live thread. Scheduler chat_ref remains null. No cross-thread delivery or acknowledgment.
+- Read the Tern h979 optional packet and linked report/amendment; independently checked the original SAT FUNDAMENTAL INTUITIONS archive file and the July 18 2026 Mathematical Tool Exploration Library raw snapshots. The packet is consumed in this run; the separate INBOX note preserves the original packet entry.
+- New source-custody witness is Layer 13 of SOURCE_IDENTITY_GATE.md. It records the direct user-role propositions, assistant-added assumptions, three Library snapshots and raw-byte hashes for the two authorized materializations. Private Library IDs and message UUIDs are not copied to the public repo.
+- Geometry-fidelity result: the 1D filament/worldline plus 3D time-surface picture and the later 4D finite-core worldtube/morphology statement are both present in historical sources, but no source-defined thickening or projection map connects them. The assistant's excised-core, configuration-space exclusion, exchange-phase and framed-embedding constructions remain reconstructions/proof obligations, not direct definitions.
+- This is source fidelity only. Morrow's September 13 theory stop remains controlling. No theory integration, equation correction, Lean theory proof, physical calculation, fit, prediction, independent measurement, CODATA scoring, paper work or BEDROCK promotion.
+- SAT-O1 and Blockwave Git blob identities were re-fetched and match the h964 custody record. Prior independently verified SHA-256 values are carried forward, not recomputed here. Exact source lines are retained in this receipt; corrected equations: none.
+- Mersearch is not callable in this runtime. Four request files remain present; lanes 2-4 explicitly say requested, lane 1 has no status field, and the PWH queue reports four occupied/requested lanes and 12 expected outputs absent. No request was overwritten, retriggered or added.
+- HsH, SAT archive and HSH_RESOURCES front doors/metadata were checked. HSH_RESOURCES root README and metadata only; no payload opened. No new tool, dependency, fork, subscription or expense.
+- PWH read-only status: ACTIVE_SEED, 18 task records, 16 declared branches, 17 reachable and one blocked. Issue #1703 remains open under Tern's WH-01 ownership; cursor 2026-11-15T18:30Z, next 18:40Z partition incomplete. No queue/owner mutation.
+- Clone observability: this run used GitHub API/connector reads and two Library raw-file materializations, not a GitHub repository clone or checkout. No model-visible clone/checkout/action was initiated. Underlying scheduler/runtime provisioning is not exposed, so provisioning is UNKNOWN, not asserted zero; no clone-ledger row was fabricated.
+- FIE last reviewed November 10; next due November 24, not due. Last Morrow unrelated reading was lines 2241-2280 of the shared break file; next cursor 2281. Morrow's separate Okakura cursor remains 1352. No new reading quantum or physical break is claimed.
+- P0 ACTIVE; P1 November 9 OVERDUE / NOT READY; P2 November 30 HOLD; P3 December 14 INCOMPLETE. No paper gate advanced.
+- No new public issue: Tern issue #2218 remains rejected for SHA mismatch, with no artifact; no retry or duplicate. This run adds source custody to the internal gate only.
+- Existing :00 task ID, enabled state, exact hourly schedule and Archive phase unchanged. :24, :36 and :48 remain enabled; :12 remains disabled. No sixth task, task mutation, signet or conversation rename.
+
+Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2300Z_s0_morrow.md
+Source identity gate: WORKSPACES/MORROW/SOURCE_IDENTITY_GATE.md (Layer 13)
+
+## H983 scheduler/thread readback amendment | 2026-11-20T23:00Z
+
+- Existing-thread-first was satisfied: the preceding completed h982 result's chat_ref points to this same Workshop Relay :00 Archive conversation, and h983 continued here. This does not authenticate a Morrow worker or Morrow-specific thread.
+- The current h983 scheduler row remains IN_PROGRESS with chat_ref=null and completion null; terminal linkage for this run is not yet recorded.
+- The bounded Morrow crosswalk search found no matching live Morrow UUID; the later Morrow+Kestrel export remains an archived conversation, not a current thread.
+- Scheduler health snapshot: :00, :24, :36 and :48 tasks remain enabled; :12 remains disabled. The :48 task's last run is recorded FAILED; no task, ID, schedule, phase or cadence mutation was made.
+## Latest h1028:s3 publisher intake — 2026-11-22T2052Z
+
+- Frozen h1028 report submitted once through the existing HsH issue publisher as issue #2371; submission ID morrow-h1028-s3-publisher-conflict-classification-20261122t2036z-001.
+- SHA-256 e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28; 12,651 characters / 12,661 UTF-8 bytes. SHA implementation checked against the standard abc vector.
+- Publisher run #45068762497, attempt 1, job 137350756615 was IN_PROGRESS in checkout at last poll. No publication success claimed. Preserve this single issue; no duplicate.
+
+---
+
+## Latest h1028:s3 publisher run association correction — 2026-11-22T2053Z
+
+- Run #45068762497 / job 137350756615 belongs to Tern issue #2370, not Morrow.
+- Morrow's issue is #2371 with submission ID morrow-h1028-s3-publisher-conflict-classification-20261122t2036z-001 and SHA-256 e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28.
+- Morrow's publisher run is #45068854952, attempt 1, job 137351162389, IN_PROGRESS at last poll. No publication success claimed yet.
+- Receipt Amendment 04 and trial-checkpoint Amendment 04 supersede the erroneous association in Amendment 03. No issue body edit or duplicate Morrow issue.
+
+---
+
+## Latest h1028:s3 publication verified — 2026-11-22T2054Z
+
+- Morrow issue #2371 is PUBLISHED_VERIFIED for submission morrow-h1028-s3-publisher-conflict-classification-20261122t2036z-001.
+- Correct publisher run: #45068854952, attempt 1, job 137351162389, SUCCESS at 20:54:17Z. Run #45068762497 belongs to Tern issue #2370, not Morrow.
+- Publisher comment #7085633808; canonical artifact blob e5f584244f537d717b09946454c234a9dbdfe585; SHA-256 e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28; exact issue-envelope/artifact equality, 12,651 characters / 12,661 UTF-8 bytes.
+- No duplicate issue, manual write or issue-body edit.
+
+---
+
+## Latest h1028:s3 ledger count reconciliation — 2026-11-22T2055Z
+
+- Fresh CLONE_LEDGER read: 421 rows, 418 unique populated IDs, three legacy missing IDs, zero duplicates. Eight new rows are Tern h1028:s2 append-only task-ID correction supplements; Morrow's six h1028:s3 rows remain intact.
+- This supersedes the earlier 413-row snapshot as the current repository count; 413 was accurate at the earlier Morrow readback.
+- Morrow's final publisher/readback stage will append three distinct events: API-only write, API-only readback, and SHALLOW_1 checkout for run #45068854952. Expected final count 424/421/3 absent concurrent writers; final readback controls.
+- Morrow issue #2371 is PUBLISHED_VERIFIED with exact readback and SHA.
+
+---
+
+## Latest h1028:s3 final state — 2026-11-22T2056Z
+
+- Morrow h1028 report is PUBLISHED_VERIFIED at issue #2371. Correct publisher run #45068854952, attempt 1, job 137351162389, confirmation #7085633808. SHA-256 e80de71fa327ed19ed065f33200540d0763abb31bdf8ce7a4a883d79ee17dc28; canonical artifact blob e5f584244f537d717b09946454c234a9dbdfe585; exact issue-envelope/artifact equality.
+- Run #45068762497 belongs to Tern issue #2370, not Morrow. Receipt Amendment 04 and trial-checkpoint Amendment 04 correct the earlier association.
+- Fresh clone ledger before final continuity updates: 424 rows, 421 unique populated IDs, three legacy missing IDs, zero parse errors/duplicates. The final continuity update will append two events (API-only write and API-only readback), expected 426 rows / 423 unique / three legacy absent concurrent writers; final readback controls.
+- This note supersedes earlier top-of-file snapshots stating 413 rows or that h1028 publication was pending.
+
+---
+

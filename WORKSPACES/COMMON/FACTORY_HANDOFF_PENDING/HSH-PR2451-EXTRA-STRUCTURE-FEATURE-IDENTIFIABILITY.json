@@ -1,0 +1,97 @@
+{
+  "record_type": "FACTORY_HANDOFF_PENDING",
+  "record_version": "0.1",
+  "local_packet_id": "HSH-PR2451-EXTRA-STRUCTURE-FEATURE-IDENTIFIABILITY",
+  "factory_item_id": null,
+  "factory_item_id_status": "NOT_ALLOCATED_PENDING_FACTORY_INTAKE",
+  "handoff_status": "FACTORY_HANDOFF_PENDING",
+  "delivery_claim": false,
+  "destination_repository": "Satobloc/FACTORY_FLOOR",
+  "intake_route": "1_GLASS_PLUS_HSH_TO_2_WORKSHOP",
+  "intake_status": "PENDING_AUTHORIZED_INTAKE_AND_STABLE_ID",
+  "intake_blocker": "FLOORROOM_TODO.md requires one object and one stable Floor ID allocated by Factory rules. FF-101 and FF-102 remain partial. No direct write to Factory Floor was made.",
+  "factory_floor_todo_blob": "fc4a7513f7178d0f29f8da1633c18ee74e7c4804",
+  "hsh_report": {
+    "path": "WORKSPACES/COMMON/2026-11-23T2136Z_H1053_S3_EXTRA_STRUCTURE_FEATURE_IDENTIFIABILITY_GATE.md",
+    "blob": "c1894f7f17ede24ad3e6cb9a3008ba84d59e0d21",
+    "sha256": "3f6f968adc74c541c600769537343c2373e9401db9a4c82a3f843d261064f7a3",
+    "publisher_issue": 2452,
+    "publisher_run": 45276756184,
+    "published_artifact": "WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/h1053-extra-structure-feature-identifiability-20261123t2136z-001.md"
+  },
+  "formalization": {
+    "repository": "Satobloc/HsH",
+    "pull_request": 2451,
+    "pull_request_url": "https://github.com/Satobloc/HsH/pull/2451",
+    "state": "OPEN_DRAFT_UNMERGED",
+    "branch": "research/assistant-extra-structure-feature-identifiability-20261123t2136z",
+    "head_sha": "2ede59d75dd0da12e6f6389d51788e492c73c184",
+    "module_path": "FORMAL_VERIFICATION/HsHVerification/ExtraStructureFeatureIdentifiability.lean",
+    "theorems": [
+      "extraSensitivity_blocks_base_factorization",
+      "featureAmbiguity_blocks_identifiability",
+      "witness_extra_sensitive",
+      "witness_feature_ambiguous",
+      "witness_not_base_factorable",
+      "witness_not_feature_identifiable",
+      "witness_extra_required_but_feature_unidentified"
+    ]
+  },
+  "verification": {
+    "workflow_run": 45276096431,
+    "workflow_url": "https://github.com/Satobloc/HsH/actions/runs/45276096431",
+    "job_id": 138048175253,
+    "conclusion": "SUCCESS",
+    "exact_pr_head_assertion": "PASS",
+    "expected_and_actual_checkout": "2ede59d75dd0da12e6f6389d51788e492c73c184",
+    "lean": "4.34.0",
+    "lake": "5.0.0",
+    "build_jobs": 8948,
+    "theorem_axioms": {
+      "extraSensitivity_blocks_base_factorization": [],
+      "featureAmbiguity_blocks_identifiability": [],
+      "finite_witness_and_derived_theorems": [
+        "propext",
+        "Quot.sound"
+      ]
+    },
+    "skipped": [
+      "tests",
+      "lint",
+      "global_axiom_audit",
+      "leanchecker",
+      "nanoda"
+    ],
+    "no_sorry_or_admit_in_new_module": true
+  },
+  "source_record": {
+    "repository": "Satobloc/SAT_THEORY_ARCHIVE_2023-25",
+    "path": "SATOBLOC MISC/SAT O1 4D.txt",
+    "blob": "7577aa1ee5a6c3850ce3b226c75377de6367aedc",
+    "source_commit": "7568462eb5d1059be9a10fe66d2cd3b296c1831f",
+    "source_commit_date": "2026-10-26T16:12:19Z",
+    "source_class": "HISTORICAL_SOURCE_NOT_BEDROCK",
+    "equation_status": "VERBATIM_SOURCE_EQUATIONS_RETAINED; NO_CORRECTION_PROPOSED",
+    "blockwave_status": "NOT_USED_NOT_CHANGED"
+  },
+  "epistemic_status": "CONDITIONAL_MATHEMATICAL_AND_WORKFLOW_RESULT_ONLY",
+  "physical_test": {
+    "selected_system": null,
+    "dataset": null,
+    "units": null,
+    "covariance": null,
+    "calibration": null,
+    "holdout": null,
+    "fit": null,
+    "physical_prediction": null,
+    "numerical_falsification_threshold": null,
+    "status": "NO_PHYSICAL_TEST_OR_CALCULATION"
+  },
+  "review": {
+    "independent_review": "NOT_RECEIVED",
+    "bedrock_promotion": false,
+    "paper_gate_advance": false,
+    "pdf_or_reader": "NOT_APPLICABLE_TO_THIS_FORMALIZATION_NOTE; PAPER_GATES_REMAIN_SEPARATE"
+  },
+  "next_action": "Authorized Factory intake must allocate a stable Floor ID and acknowledge the exact packet. Until then this is a repository-only pending record, not a delivered or accepted Factory item."
+}

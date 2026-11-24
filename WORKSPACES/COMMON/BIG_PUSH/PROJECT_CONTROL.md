@@ -1,15 +1,15 @@
 # THE BIG PUSH — Project Control
 
-**Status:** ACTIVE · Phase 0 / historical programme recovery  
+**Status:** ACTIVE · Exemplar-led workflow and scaffold development (scope rebaselined 2026-11-24)  
 **Started:** 2026-11-05  
 **Authority:** Nathan's project directive in the current ChatGPT conversation. This is an assistant-maintained execution record, not Nathan-authored doctrine, not theory authority, and not a claim that the proposed institution has been designed or built.  
 **Owner:** Current project operator / assistant invocation. No historical worker identity is claimed.
 
 ## Purpose
 
-Reconstruct, evaluate, and then rebuild the SAT/H(s)H research institution and publishing pipeline using the full historical design record, current theory and methods, expanded computational resources, and present-day external research capabilities.
+Develop and improve the research/workflow scaffold by selectively studying and adapting the strongest historical methodological exemplars (SAT-O, Activator Modes, Back Hallways, Star-Shaped Derivation Map, Constant Torquing, Loop Renormalization). The Big Push is not a mandate to reconstruct the entirety of historical workflow designs. It also improves navigation and documentation using the experimental Key → Memory Credenza → Castle model, through rolling, reversible, evidence-led reconfiguration. Other active project priorities continue and must not be silently subordinated.
 
-This is a multi-stage programme. The institution's design is a later deliverable, not the starting assumption. The investigation itself must be planned, logged, handed off, and improved across successive ChatGPT conversations.
+The programme is developed incrementally through real project work, selective exemplar study, and rolling navigation/documentation improvement. A fully designed institution is not a prerequisite to useful implementation. Historical and capability research are pulled in when they answer live questions.
 
 ## Non-negotiable execution method
 
@@ -24,6 +24,16 @@ This is a multi-stage programme. The institution's design is a later deliverable
 - Preserve existing automation IDs, schedules, phases, and enabled states. Modify an existing task prompt only when Nathan expressly authorizes it and record the exact change. Do not create another automation.
 - Do not overwrite occupied Mersearch request lanes. Verify request-scoped manifests and receipts before using a lane.
 - Success is measured by inspected sources, validated capability, completed artifacts, and useful decisions, not by the number of documents written.
+
+## Controlling scope clarification — 2026-11-24
+
+Nathan's direct scope rebaseline is recorded in [NATHAN_DIRECT_SCOPE_REBASELINE_2026-11-24.md](NATHAN_DIRECT_SCOPE_REBASELINE_2026-11-24.md). It supersedes any conflicting sequence that makes exhaustive historical reconstruction, archive-wide inventory, full orphan recovery, external literature survey, or comparison of institutional architectures a mandatory prerequisite to all useful implementation. These are targeted options, not a gate stack that blocks progress.
+
+The Big Push's historical work is exemplar-led: recover enough original context to learn from SAT-O, Activator Modes, Back Hallways, Star-Shaped Derivation Map, Constant Torquing, and Loop Renormalization. Follow the evidence only as far as it materially informs a current method, tool, workflow, or design decision. Preserve prior work; do not delete or pretend it was never done.
+
+The two co-equal central prongs from 2026-11-21 remain: whole-physics exemplar reconstruction/integration and the Big Push. Other active portfolio priorities also continue, notably Whirlygig, Universal Indicatrix, Three Spheres, Hagalaz, and work not explicitly superseded. This is not a single-file queue: maintain one foreground operation plus compact, explicit pins for continuing branches; resolve resource contention rather than silently demoting them.
+
+Apply the experimental Key → Memory Credenza → Castle model to navigation and documentation premises. Keep the Key tiny, Credenza navigational rather than duplicative, and Castle authoritative. Test small changes in real work, measure usefulness and overhead, and reconfigure compartments/pointers on a rolling basis. Do not infer automation or schedule authority from this design.
 
 ## Programme phases and gates
 
@@ -44,7 +54,7 @@ This is a multi-stage programme. The institution's design is a later deliverable
 
 Phases may be revisited. A gate is not closed merely because a narrative summary exists.
 
-## Phase 0 source and state record
+## Phase 0 source and state record (historical baseline; not a mandatory gate stack)
 
 ### Current operating controls consulted
 
@@ -90,7 +100,7 @@ GitHub code search for `modes` returned 1,049 matches; the endpoint exposes at m
 - SAT 20 later documents propose a much smaller 5–7 core-mode system, explicit model assignments, mode-switch announcements, reminders, and session recaps. Whether this was a successor, a parallel project architecture, or a partial reimplementation remains to be established.
 - “Interpretive modes” in the July 2025 SAT.4D documents are a separate theoretical construct and must be classified separately from workflow modes.
 
-## Immediate next operation
+## Historical source notes (non-blocking; consult only when relevant)
 
 ### BP-HIST-002 — Reconcile alternate May 28 transcript
 

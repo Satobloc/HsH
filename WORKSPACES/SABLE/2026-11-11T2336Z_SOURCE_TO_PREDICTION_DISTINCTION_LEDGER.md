@@ -103,3 +103,98 @@ The next legitimate step is to select an identifiable measured system and primar
 - [Current HsH BEDROCK](https://github.com/Satobloc/HsH/blob/main/BEDROCK.md).
 
 **Disposition:** A reusable distinction ledger and source-reopen gate are now specified. They connect existing formal results without duplicating their theorems or claiming a physical test. No BEDROCK promotion is proposed.
+
+
+---
+
+## 2026-11-19 additive amendment | Claim-currentness and supersession gate
+
+This is a Sable-local workflow amendment. It does not promote a theory claim, change BEDROCK, or alter the Three Paper Campaign.
+
+The existing source-to-prediction chain now carries four independent status axes:
+
+| Axis | Required field | Question |
+|---|---|---|
+| Source authority | source_authority | Who or what asserted the claim, and with what provenance? |
+| Claim currentness | claim_currentness | Is it reaffirmed by a current source, explicitly historical, directly superseded, or unresolved? |
+| Formalization | formalization_status | Is it verbal, equation-backed, source-verified, formalized, compiled, and independently reviewed? |
+| Empirical status | empirical_status | Is there an identified system, dataset, calibrated fit, independent holdout, and replication? |
+
+Allowed claim_currentness values:
+
+- CURRENT_REAFFIRMED: an applicable later direct source or controlling current statement explicitly retains the claim.
+- HISTORICAL_ONLY: the claim is explicitly scoped to an earlier theory version and is not asserted as current.
+- SUPERSEDED_BY_DIRECT_SOURCE: a later source-authorized statement explicitly withdraws or replaces it.
+- CURRENTNESS_UNRESOLVED: a historical source exists, but later status is ambiguous or supported only by derivative/assistant material.
+
+Admission rule: only CURRENT_REAFFIRMED claims may enter the current H1 test-selection queue. HISTORICAL_ONLY claims may be studied as versioned history but not silently promoted. CURRENTNESS_UNRESOLVED is NOT_TEST_READY. This field tracks theory-version status, not truth.
+
+### Applied row: Prime General Prediction Pathway
+
+| Field | Status |
+|---|---|
+| source_authority | NATHAN_DIRECT, 2025-10-30, raw message f476afce-eba0-4312-8c2b-36b82dbe7f3f |
+| claim_currentness | CURRENTNESS_UNRESOLVED |
+| formalization_status | VERBAL_ONLY; no source-verified current past/future coupling law recovered |
+| empirical_status | NOT_TEST_READY |
+| H1 admission | BLOCKED |
+
+The direct message proposes reciprocal past/future tensions and observable anomalies beyond the Standard Model, GR, and QM, but does not specify the coupling equation, observable, sign, magnitude, timescale, units, boundary conditions, or measurement operator.
+
+The 2025-09-19 “Annotating intuitions with math” export marks the 7th intuition with a tentative assistant-authored strikethrough and says the core Lagrangian does not propagate backward causality. Nathan's follow-up requests conversational-mathematics rewriting; it does not explicitly endorse that classification. The later SAT_HISTORY_ROUNDUP synthesis says the prediction was rejected during formalization, but its authoring and underlying primary source chain are not established. Current BEDROCK and the 2026-11-08 methodology/model overview contain no explicit reaffirmation. Absence does not prove withdrawal.
+
+Next source-recovery action: identify the exact primary Lagrangian/formalization items cited as [7]-[11] by the later synthesis, preserve original bytes, role/author, date, and hashes, and determine whether they remove, bound, or fail to instantiate pastward influence. Do not infer from the assistant annotation alone.
+
+No physical system or dataset is selected. No fit, prediction, numerical threshold, independent measurement, or new Lean theorem is claimed.
+
+
+---
+
+## 2026-11-20 additive example | GW241011 symmetric multipole projection
+
+This is a source-currentness example for the existing P3 inspiral comparator, not a P2 selection, new physical calculation, or H(s)H prediction. Full source record: [Sable h961:s2 report](2026-11-20T0124Z_H961_S2_GW241011_SOURCE_CURRENTNESS_AND_SYMMETRIC_PROJECTION_GATE.md).
+
+| Axis | Status |
+|---|---|
+| Source authority | 2025 peer-reviewed LVK event paper and 2026 arXiv reanalysis of the same event |
+| Claim currentness | External source currentness updated; no current H(s)H claim is thereby reaffirmed |
+| Formalization | Generic fiber/readout theorem exists in Kestrel PR #873 and passed exact-head CI; the GW241011-specific projection is not instantiated in Lean |
+| Empirical status | Observed event; H1/V1 strain and catalog PE products are publicly listed but not acquired here; no independent measurement beyond the event |
+| H(s)H admission | NOT_TEST_READY; geometry-to-multipole map absent |
+
+The 2026 source maps four component-specific deviations to two symmetric combinations:
+`(δκ₁,δκ₂,δλ₁,δλ₂) ↦ ((δκ₁+δκ₂)/2,(δλ₁+δλ₂)/2)`.
+Its fibers contain antisymmetric directions `(t,-t,s,-s)`. A readout that factors only through the symmetric projection cannot recover those component differences. The paper sets the antisymmetric combinations to zero because of reported degeneracy; this is a model restriction, not a direct measurement of equality.
+
+Keep the two source equation conventions separate: the 2025 LVK paper writes `Q = -κ S²/(m c²)` in SI; the 2026 preprint writes `Q = -κ χ²m³` and `O = -λ χ³m⁴` in geometric units. No conversion is made in this ledger.
+
+CODATA 2022 Version 9.0 remains the reference if a later SI/geometric conversion requires `G`; no CODATA constant was used in this source-only update. The Lane 24 cycle remains BACKSEAT/HOLD while P0 is active. No new Lean run, fit, prediction, holdout, paper-gate advancement, or theory promotion.
+
+
+## 2026-11-20 additive amendment | Commitment-bound candidate-family composition
+
+**Run:** `REVROT3-19-20261011:976:s3`  
+**Status:** proposed workflow integration; not a P2 selection, production schema, physical result, or BEDROCK amendment.
+
+The existing seven-layer source-to-observable chain already carries Claim, Source, Acquisition, Representation, Model, Readout and Decision. Add **Commitment-Bound Candidate Manifest (CBCM) v0.1** as a required binding inside the existing **Model** layer. It is not a new top-level evidence chain and does not duplicate the acquisition, map-class, uncertainty, identifiability, independence or holdout contracts.
+
+The Model record must bind:
+- immutable `source_commitment_map_hash`;
+- immutable `geometry_map_stack_hash`;
+- candidate-family ID/version/hash and freeze time;
+- source commitment class/currentness separately from implementation status;
+- candidate variant class and any approximation/optional-extension witness;
+- shared/nuisance/candidate-specific parameter roles;
+- comparator, observable/readout, uncertainty and holdout-exposure ledger IDs.
+
+Admission classes are `SOURCE_COMPLIANT_BASELINE`, `CONTROLLED_APPROXIMATION`, `OPTIONAL_EXTENSION`, `STANDARD_COMPARATOR`, and `UNRESOLVED_NOT_ADMISSIBLE`. A source-committed feature cannot be switched off as an optional fit variant. A reduction of it requires an explicit projection/retraction and exact readout factorization or a calibrated, unit-consistent error bound fixed before holdout access. Optional extensions require a distinct source/data rationale, map and predeclared observable; fit improvement alone is insufficient. The family hash binds the source map, geometry map stack, complete candidate list, parameter roles/ranges, comparator, observable, decision rule and holdout policy.
+
+**Source correction:** Kestrel h975's source audit supersedes Elias h974's M2 row. Intrinsic filament thickness is qualitatively recorded as a Nathan Direct premise in BEDROCK `ND-2026-10-18-07`; it is part of the source-compliant baseline, not an optional on/off candidate. Its magnitude, units, profile, support map and observable remain unresolved. Centerline/2D-worldsheet forms are controlled approximations requiring projection and readout-compatibility evidence. Separate twist/holonomy and active contact law remain optional/tentative. The first-order coil scale is not epsilon. The responsive-medium/Kelvin-vortex branch remains an inherited test constraint with independent necessity unresolved.
+
+**Formalization reuse:** Ravel PR #1133 current head `fc7f92722fe5e0757d55f961b54a12bdee66d5da` passed exact-head Actions run #44709605971, including the fiber-constant readout-descent criterion and directed slice-chain composition with an explicit intermediate lift. Kestrel PR #873 current head matches run #44090154878. Nadir PR #1189 has advanced beyond its successful run #42114292197; the resolution section is unchanged but the expanded current head is not build-verified. These are conditional proofs, not physical maps.
+
+**Gate dependencies:** source authority/currentness -> SourceCommitmentMap; geometry fidelity/typed map stack -> map freeze; both -> CBCM/family freeze; map + observable -> structural identifiability; identifiability + instrument metrics/covariance -> resolution stability; acquisition-unit/dependence manifest -> holdout eligibility; frozen family + resolution + acquisition independence -> holdout lock; holdout lock -> prediction lock; prediction + real acquisition -> independent validation. Factory Floor geometric review remains an orthogonal gate.
+
+**Current P2 state:** `SOURCE_COMMITMENT_PARTIAL_QUALITATIVE / MAP_STACK_NOT_INSTANTIATED / CBCM_NOT_FROZEN / IDENTIFIABILITY_GENERIC_ONLY / RESOLUTION_GENERIC_ONLY / ACQUISITION_INDEPENDENCE_NOT_SELECTED / HOLDOUT_NOT_ACCESSED / EMPIRICAL_NOT_TEST_READY`. P2 issue #565 remains OPEN / HOLD. No measured system, raw data, physical calculation, fit, prediction, numerical threshold or independent measurement was produced.
+
+Full contract and evidence limits: [Sable h976:s3 report](2026-11-20T1636Z_H976_S3_COMMITMENT_BOUND_CANDIDATE_FAMILY_GATE.md).

@@ -82,6 +82,7 @@ This should be treated as a research/operations record: useful for restart, comp
 
 Once enough instances have contemporaneous or reconstructed records, the project can compare which factors correlate with productive scoped dynamics: source coverage, task definition, tool access, autonomy, feedback loops, continuity practices, division of labor, role clarity, conversation length, correction history, and preserved local conventions. The analysis should separate observable configuration from speculative causal claims.
 
+
 ## Relationship to other records
 
 - `WORKSPACES/README.md` — when/how to create a personal workspace.

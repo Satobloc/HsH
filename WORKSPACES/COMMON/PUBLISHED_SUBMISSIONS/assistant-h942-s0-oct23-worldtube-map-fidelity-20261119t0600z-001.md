@@ -1,0 +1,149 @@
+# Assistant h942:s0 | Oct23 worldtube diagram source-fidelity and map/derivation boundary
+
+**Disposition:** ADDITIVE_PRIMARY_SOURCE_RECOVERY / MAP_NOT_DERIVATION / OBJECT_MAP_UNRESOLVED / IMAGE_BYTES_NOT_AVAILABLE / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_THEORY_PROMOTION.
+
+## 1. Principal finding
+
+A previously unindexed October 23, 2026 user conversation contains a direct illustration sequence and explicit corrections to an assistant-generated geometry diagram. The controlling correction is epistemic as well as visual: the user states that the construction is a mapping of existing mathematical structures, not a derivation or proof of a new result. The October 24 Nathan Direct announcement independently establishes the map-first policy.
+
+The source first describes “three Kerr black holes intertwined.” Later, when correcting the assistant's generated diagram, the user says the representation should show two intertwined tubes, one changing red-to-blue, with a vertical w-axis, green rather than yellow under the chosen iconography, and the omitted string-theory vibration mode restored.
+
+These statements should not be flattened into a contradiction or silently reconciled. “Three Kerr-labelled structures” and “two depicted tubes” are different object descriptions. No source-defined map relates the three Kerr-labelled structures to the two tubes. The assistant's conversion of the initial three-object phrase into three braided tube strands was not authorized by the later visual correction.
+
+The direct phrase “None of this is really derivation. It’s just mapping” constrains the status of the Kelvin-vortex correspondence and the UI/Whirligig constructions. The assistant's earlier upgrade of the braid/Kelvin-vortex analogy into a candidate causal mechanism, including imported fluid-mechanics equations, is an assistant reconstruction, not a Nathan Direct derivation.
+
+## 2. Primary-source custody
+
+**Worldtube Geometry Comparison**
+- Conversation ID: `6adb1940-de2c-83e9-ba5b-876af47a0046`.
+- Raw JSON: 3,004,307 bytes; SHA-256 `c23a681f5712e9294c249a284bdb23306ea1ba1e4a02c27d48d7e56abac24502`.
+- 873 mapping nodes; 873 nodes on the current ancestry; 22 direct user messages.
+- Two Library copies were materialized and compared byte-for-byte. They are identical.
+- GitHub search by conversation ID and title found no HsH or SAT archive mirror. This source remains Library-custodied for this pass.
+- The attached drawing is represented in the raw JSON by file pointer `file_00000000c028820cb003be72814a0b18`, filename `361ECF46-52AA-4A06-BBDF-71C85735307E.jpeg`, 3,528,344 bytes, 1152×1536. The image bytes were not available through the current Files surfaces, so the drawing itself was not visually inspected. All visual conclusions below are limited to the user's written corrections and attachment metadata.
+
+**Ravel role provenance**
+- Historical direct role-setting message `c5639160-5631-4373-90c2-68d7c4c022de`, 2026-09-08T17:27:54Z: conceptual cohesion across the team, drift detection, epistemic hygiene, full-theory probing, specialization/tool-workshop design, and coordination with Janus.
+- The workspace shorthand “primary co-theorist” is an assistant-maintained synthesis, not the verbatim direct role assignment. No separate signed specialist charter was recovered.
+- The ring label Ravel is not an authenticated Ravel instance or thread.
+- The newer HsH Ravel Free Build raw export (Git blob `8f2395625557ab25d1a68145535066ed6691fdac`, 814 nodes) was checked. Its 20 direct user messages concern workflow/restart and archive intake, not a new geometry definition. The older 575-node Library snapshot is not used as the current source.
+
+**Controlling October 24 source**
+- `WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-24_PRIOR_ART_UI_ARCHIVE_READING_ANNOUNCEMENT.md`, Git blob `7fea3b2c4af54b526364f756643cd690d3d2c752`.
+- The announcement treats the project primarily as a map of existing structures, not a new ontology; confidence in a mapping method does not transfer automatically to every equation or historical realization.
+- The UI is described as a configurable four-dimensional solver/ruler for analysis, simulation, measurement, visualization and comparison. Whirligig supplies equation-to-geometry and geometry-to-equation transformations under declared encodings.
+- Direct message `1e9de7d6-5101-421c-ad57-72371a8195c2` separately says that using an equation within the UI does not itself constitute a proposed UI change. A study object, a UI configuration, and a physical ontology are distinct.
+
+## 3. Direct-message sequence
+
+| Direct message | UTC | Source proposition |
+|---|---|---|
+| `3729d3d3-15ff-49f1-a32c-3c3852a5226e` | 2026-10-23 08:25:50 | “Three Kerr black holes intertwined.” |
+| `3be5c35e-94de-4b7f-8b36-cddf58e19e9b` | 2026-10-23 08:36:29 | User identifies the attached drawing as a full illustration of the theory. |
+| `f7d71d36-7a78-49a3-9d98-05159b06d20a` | 2026-10-23 08:37:34 | Mentions Kelvin vortices generated by braid disturbance. |
+| `f09d5452-372c-4b46-8965-fd1de6835b5b` | 2026-10-23 08:42:51 | Explicitly classifies the work as mapping, not derivation or proof of something new. |
+| `59c00bc1-e8bf-4712-a6fb-37e2d22f6e70` | 2026-10-23 08:45:55 | Corrects the diagram's vertical axis to w and requests a more nearly square aspect. |
+| `f383dd0c-d6db-4698-b098-a2f3688bec2c` | 2026-10-23 08:50:45 | Corrects the generated diagram to two intertwined tubes, one red-to-blue; requests green rather than yellow and restoration of the string-theory vibration mode. |
+| `cdfb6f05-aff9-4881-b8d2-0f520bf8aa7b` | 2026-10-25 01:15:12 | Supplies the 24OCT26 announcement and its broader UI/Whirligig mapping grammar. |
+| `1e9de7d6-5101-421c-ad57-72371a8195c2` | 2026-10-25 02:26:43 | Separates equations studied inside the UI from changes to the UI itself. |
+
+## 4. Glossary and typed mapping diagram
+
+| Symbol/name | Source status | What is still missing |
+|---|---|---|
+| K1, K2, K3 | Three Kerr-labelled structures in direct text. | Their exact mathematical types, metrics, and relation to the depicted tubes. |
+| T1, T2 | Two intertwined tubes in the user's diagram correction; one has a red-to-blue transition. | Whether these are worldtubes, strands, envelopes, or a different representational layer. |
+| w | Directly specified as the diagram's vertical axis. | Metric, normalization, relation to t, and coordinate transformations. Do not import w=ct or cw=t into this drawing without a source map. |
+| V_string | String-theory vibration mode is a required diagram element. | Mode basis, spectrum, carrier, and coupling to either tube. |
+| K_v | Kelvin-vortex response/correspondence associated with braid disturbance. | Velocity field, vorticity field, boundary conditions, constitutive law, and coupling map. |
+| UI | Four-dimensional double-hyperspherical solver/ruler with a 3D toy model in the direct announcement. | Projection and encoding maps from UI coordinates to the pictured tubes or physical worldtube. |
+| Whirligig | Equation/geometry transformation under declared encodings. | The specific encoding and preserved information for this diagram. |
+| W_local / T_global | Local elongated worldtube patches and a proposed global toroidal wrapping. | Dimension, cross-section, gluing map, winding/framing, and metric. |
+
+Typed sketch (question marks are deliberately unresolved):
+
+    K1, K2, K3  --?-->  T1 <----> T2
+                         |        |
+                         |        +-- one tube has red-to-blue visual transition
+                         +-- w is the vertical diagram axis
+                         +-- V_string is a separate required vibration element
+                         +-- K_v is a proposed braid-disturbance correspondence
+
+    W_local  --? gluing/closure map ?-->  T_global
+
+    UI 4D double-hyperspherical model  <-->  Whirligig encoding  <-->  displayed geometry
+
+The source's “torus is basically linear locally” statement is compatible with local manifold charts, but does not identify the global object. Candidate types are materially different: a 2D torus surface T², a 3D solid torus S¹×D², or a 4D tubular support S¹×B³. The source does not select among them or define the closure/gluing map.
+
+## 5. Original propositions versus assistant translation
+
+**Nathan Direct**
+- Three Kerr-labelled structures are described as intertwined.
+- The braid is associated with Kelvin-vortex disturbance.
+- The construction is explicitly classified as mapping existing mathematics, not a new derivation or proof.
+- The corrected diagram has two intertwined tubes, one with a red-to-blue transition, a w vertical axis, green rather than yellow under the chosen iconography, and a string-theory vibration mode.
+- The October 24 announcement makes UI/Whirligig configurable mapping and measurement machinery, not an automatic physical ontology.
+
+**Historical assistant reconstruction**
+- Treated the three Kerr labels as three braided tube/worldtube strands in the generated diagram.
+- Upgraded the Kelvin-vortex correspondence into a candidate causal mechanism for QED and imported standard fluid-mechanics expressions such as ω = ∇×v and Γ = ∮v·dl.
+- These equations are standard fluid-mechanics identities, not Nathan Direct equations and not a derivation of the braid-to-vortex or vortex-to-QED map.
+- The generated diagram omitted or misrepresented the user's requested tube count, w axis, color convention and string vibration element. The actual generated image is not available for pixel-level comparison, so this discrepancy is grounded in the user's correction, not independent image inspection.
+
+## 6. Discrepancy ledger
+
+1. **Object-count map missing:** three Kerr-labelled structures and two corrected diagram tubes are both direct source statements. Their relationship is unknown; do not force a one-to-one count.
+2. **Diagram overtranslation:** the assistant's three-strand rendering was corrected to two intertwined tubes.
+3. **Axis fidelity:** w is the requested vertical axis. It is not automatically t, z, or a time-propagation coordinate.
+4. **Color semantics:** one tube changes red-to-blue; green is requested instead of yellow for the relevant iconography. These are diagram instructions, not evidence of QCD color-charge assignments.
+5. **Missing vibration element:** the string-theory vibration mode must remain a separate visible component until a mathematical carrier and mode map are defined.
+6. **Mapping versus derivation:** the assistant's causal-mechanism language overstates the epistemic status. The direct correction and October 24 announcement govern: this is a mapping exercise unless a separate derivation is supplied.
+7. **Kelvin-vortex bridge:** no source-defined fluid state, vorticity, circulation, boundary condition, constitutive law, or coupling to the braid exists. The assistant's imported equations do not fill that gap.
+8. **Torus type:** local linearity does not determine whether the global object is T², S¹×D², or S¹×B³; no gluing or framing map is supplied.
+9. **UI/Whirligig typing:** a UI equation, a UI configuration, a mathematical display, and a physical carrier are distinct. No map from the UI's 4D/3D representations to the depicted worldtube is established.
+10. **Visual-source limit:** the raw JSON preserves the image pointer and user corrections, but the image bytes were unavailable. The actual drawing has not been independently inspected.
+
+## 7. SAT-O1 and Blockwave original custody
+
+These originals are preserved as separate source objects; neither is silently identified with the October 23 diagram.
+
+**SAT-O1 4D**
+- Git blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`; SHA-256 `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937`.
+- First extant archive index dates: June 7/9, 2025; unbylined.
+- Verbatim curve: γ^μ(λ) = (λ, A_x sin(k_x λ + φ_x), A_y sin(k_y λ + φ_y), A_z sin(k_z λ + φ_z)).
+- Verbatim action: S[γ] = ∫ dλ L; L = 1/2 m v^μ v_μ − V_tension(γ).
+- The prose describes a 4D swept worldtube, but the sweep/thickening map remains undefined.
+
+**Blockwave attachment**
+- Git blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`; SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`.
+- User-supplied attachment event: 2025-09-16 16:31:26.687Z; embedded authorship unresolved.
+- Verbatim conserved-current statement: ∇_μ J^{μν} = 0. The attachment's compact action and malformed indices/tokens remain source-preserved; they are not repaired here.
+
+**Corrected equations: none.** No original SAT-O1 or Blockwave equation was changed or replaced.
+
+## 8. Formal, empirical and tooling status
+
+- Existing PR #873 contains KestrelTorusCycleGate and conditional torus/product intersection results. Its merge-reference run #43202552666 succeeded, but the PR remains open/draft/unmerged. That result does not prove the October 23 tube closure or map the three Kerr labels to two tubes.
+- Existing PR #873 intersection-dimension work and the prior h765/h867 angle-convention work were checked for reuse. The current pass does not duplicate the angle/Kerr-scale audits in h765, h867, h853, h904 or h940.
+- No source-defined gluing, object-count, UI-to-worldtube, Kelvin-vortex, or string-mode map was sufficiently specified for a new theorem. Local Lean/Lake/Elan are absent; no new Lean module, compile or run is claimed.
+- A Lean proof would check only a formalized conditional statement, not the soundness of translating this diagram into mathematics or the truth of any physical premise.
+- No identifiable measured system, dataset, provenance, units, uncertainty model, or prediction-versus-fit separation is supplied. No physical calculation, fit, prediction, CODATA scoring or theory promotion was performed.
+- Existing UI intake #0005 already covers UI gauge freedom and Whirligig encoding diagnostics. It is reused, not duplicated. No new tooling, branch, dependency or expense.
+
+## 9. Mersearch and source-access boundary
+
+- Mersearch was checked first. All four request lanes are occupied/requested; lane 1 retains an older schema using id rather than the current required request_id, while lanes 2–4 have active request files but no RUN_MANIFEST or SEARCH_RECEIPT outputs. No lane was overwritten, retriggered, or reused.
+- No local pinned Mersearch checkout or callable Mersearch action is available in this runtime. GitHub/Library fallback only; this is not Mersearch coverage.
+- HsH and SAT archive front doors were read. HSH_RESOURCES README/boundary was read, but no private payload was opened or quoted.
+
+## 10. Next deeper cursor
+
+1. Recover the actual October 23 drawing bytes through an authorized source path; until then, keep the visual audit limited to the user's written corrections.
+2. Define the map from K1,K2,K3 to T1,T2, or explicitly preserve them as different levels.
+3. Specify whether the global wrap is T², S¹×D², S¹×B³, or another object; provide the gluing, cross-section and framing maps.
+4. Specify w's coordinate type and relation to t without importing later normalization conventions.
+5. Define the string vibration carrier/mode and Kelvin-vortex correspondence separately.
+6. Keep UI/Whirligig as configurable mapping/measurement machinery; do not treat a visualization or equation loaded into the UI as a physical derivation.
+7. Formalize only after the maps and domains/codomains are source-defined; do not run physical calculations without measured inputs.
+
+**Final status:** SOURCE_RECOVERED / TWO_TUBE_DIAGRAM_CORRECTION_AUTHENTICATED / THREE_KERR_TO_TWO_TUBE_MAP_UNRESOLVED / MAP_NOT_DERIVATION / IMAGE_BYTES_UNAVAILABLE / MERSEARCH_BLOCKED_BY_OCCUPIED_LANES / NO_NEW_LEAN / NO_PHYSICAL / NO_CODATA / NO_THEORY_PROMOTION.

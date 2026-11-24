@@ -1,0 +1,216 @@
+{
+  "schema": "factory-handoff-pending-v1",
+  "source_item_id": "nadir-h978-s3-resolution-neighborhood-composition-20261120t1836z-001",
+  "factory_item_id": null,
+  "status": "LEAN_VERIFIED_CURRENT_HEAD / FACTORY_HANDOFF_PENDING / REPORTS_2215_2216_PUBLISHED_VERIFIED / AMENDMENT_02_REJECTED_SHA_MISMATCH / GEOMETRY_NOT_SUPPLIED",
+  "factory_floor_eligibility": "NOT_FACTORY_FLOOR_ELIGIBLE",
+  "eligibility_reason": "Factory Floor's mandatory geometry-first admission requires a precise object-specific geometric plot and independent hostile fidelity review. This is an abstract metric/workflow theorem, not a physical geometric system; no object-specific plot or hostile review is supplied.",
+  "intake_route": "NOT_SUBMITTED",
+  "direct_factory_write": false,
+  "source_repository": "Satobloc/HsH",
+  "source_branch": "research/nadir-resolution-tolerance-fibers-20261120t1836z",
+  "source_pr_number": 2214,
+  "source_pr_url": "https://github.com/Satobloc/HsH/pull/2214",
+  "source_pr_base": "infra/lean4-verification-20261023",
+  "source_pr_base_sha": "368f9af8d95d061b4581688759ed3eda309e9886",
+  "source_pr_head_at_verified_build": "8860c6bb52904b6456caa59cca1ac822091016b2",
+  "source_pr_head_current": "8860c6bb52904b6456caa59cca1ac822091016b2",
+  "checked_out_merge_reference": "15645f6103743e3c50e84bea8a67f3611b6d2168",
+  "checked_out_merge_reference_parents": [
+    "368f9af8d95d061b4581688759ed3eda309e9886",
+    "bc6da5292e096742cca10ace08dca7bb3a0eb2d4"
+  ],
+  "source_path": "FORMAL_VERIFICATION/HsHVerification/NadirResolutionTolerance.lean",
+  "source_blob_sha_at_verified_build": "f9e46d3062c685f477be03a502104695d3dabe0f",
+  "source_blob_sha_current": "f9e46d3062c685f477be03a502104695d3dabe0f",
+  "root_aggregator_path": "FORMAL_VERIFICATION/HsHVerification.lean",
+  "root_aggregator_blob_sha": "7628e9f7fc20db9123b5b5a68de02f58cb274344",
+  "theorem": [
+    "HsHVerification.NadirResolutionTolerance.withinResolution_refl",
+    "HsHVerification.NadirResolutionTolerance.withinResolution_symm",
+    "HsHVerification.NadirResolutionTolerance.withinResolution_chain_bound",
+    "HsHVerification.NadirResolutionTolerance.not_transitive_of_resolution_witness"
+  ],
+  "theorem_claim": "For a declared pseudometric space, the relation dist x y ≤ epsilon is reflexive for epsilon ≥ 0 and symmetric. Two successive bounds with tolerances epsilon₁ and epsilon₂ imply an endpoint bound epsilon₁+epsilon₂. If a witness chain has both adjacent distances ≤ epsilon but endpoint distance > epsilon, the epsilon-neighborhood relation is not transitive on that domain.",
+  "theorem_limit": "Conditional abstract metric result only. It does not assert that every tolerance relation on every metric space is nontransitive, does not instantiate a physical metric or covariance, and does not establish any H(s)H geometry, detector behavior, measured uncertainty, empirical identifiability, model discrimination or physical truth.",
+  "lean_toolchain": "leanprover/lean4:v4.34.0",
+  "lean_version": "Lean 4.34.0, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b",
+  "lake_version": "5.0.0-src+293d5d0",
+  "mathlib_revision": "5ed2965256430c3649e86755f9576b54eca72435",
+  "dependency_manifest": {
+    "status": "TRANSIENT_RUNNER_GENERATED",
+    "committed_manifest": "NOT_FOUND",
+    "manifest_sha256": null,
+    "reproducibility_limit": "The workflow ran lake update and generated a dependency manifest in the runner; no committed lake-manifest.json or manifest hash is available.",
+    "observed_revisions": {
+      "plausible": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+      "LeanSearchClient": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+      "importGraph": "e928b72544873815af278d38681b31c0293588e3",
+      "ProofWidgets4": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+      "aesop": "355695d523e41d0554926416cba2a2b3544fbbc9",
+      "Qq": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+      "batteries": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+      "Cli": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204"
+    },
+    "cache_key": "lake-Linux-X64-f0339dae17491ccd1161facc73a2a18a10db21220d48b968679403f778914d2d-4044f95e38276c6e4e8d2c2ce80761c6d1d9898c4a67dd01eb332434e6bfec00-bc64d4ff20bd59c1dc8f318358dbe111ace497b6"
+  },
+  "actions": {
+    "verified_run_id": 44796583547,
+    "verified_job_id": 136497578962,
+    "verified_run_url": "https://github.com/Satobloc/HsH/actions/runs/44796583547",
+    "checkout": "PR_HEAD",
+    "expected_pr_head": "8860c6bb52904b6456caa59cca1ac822091016b2",
+    "actual_checkout": "8860c6bb52904b6456caa59cca1ac822091016b2",
+    "exact_head_assertion": "PASS",
+    "build_conclusion": "SUCCESS",
+    "build_jobs": 8948,
+    "target_module_build": "SUCCESS at 8946/8948",
+    "root_aggregator_build": "SUCCESS at 8947/8948",
+    "tests": "SKIPPED",
+    "lint": "SKIPPED",
+    "leanchecker": "SKIPPED",
+    "nanoda": "SKIPPED",
+    "axiom_audit": "SKIPPED",
+    "theorem_specific_axiom_print": "CAPTURED",
+    "explicit_sorry_admit_custom_axiom_in_module": "NONE_FOUND_BY_SOURCE_INSPECTION",
+    "global_axiom_audit": "SKIPPED",
+    "supplementary_axiom_print_run_id": 44796583547,
+    "supplementary_axiom_print_job_id": 136497578962,
+    "supplementary_axiom_print_url": "https://github.com/Satobloc/HsH/actions/runs/44796583547",
+    "supplementary_head": "8860c6bb52904b6456caa59cca1ac822091016b2",
+    "supplementary_status_at_packet_creation": "COMPLETED_SUCCESS",
+    "supplementary_checkout_step": "SUCCESS",
+    "supplementary_run_is_not_counted_as_success": true,
+    "previous_verified_run_id": 44795089665,
+    "previous_verified_job_id": 136492433599,
+    "theorem_specific_axioms": {
+      "HsHVerification.NadirResolutionTolerance.withinResolution_refl": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "HsHVerification.NadirResolutionTolerance.withinResolution_symm": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "HsHVerification.NadirResolutionTolerance.withinResolution_chain_bound": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "HsHVerification.NadirResolutionTolerance.not_transitive_of_resolution_witness": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    "constructive_status": "NOT_CONSTRUCTIVE_IN_STRICT_SENSE; theorem-specific dependencies include Classical.choice, plus propext and Quot.sound.",
+    "github_sha_merge_reference": "bc64d4ff20bd59c1dc8f318358dbe111ace497b6",
+    "github_sha_merge_reference_parents": [
+      "368f9af8d95d061b4581688759ed3eda309e9886",
+      "8860c6bb52904b6456caa59cca1ac822091016b2"
+    ]
+  },
+  "original_source_basis": [
+    {
+      "kind": "Standard mathematics",
+      "description": "Pseudometric symmetry and triangle inequality; the Lean module formalizes these general assumptions and consequences."
+    },
+    {
+      "kind": "Existing HsH formalization",
+      "url": "https://github.com/Satobloc/HsH/pull/1133",
+      "description": "Ravel exact readout descent through declared map fibers; separate open/draft formalization, not reused as a current build."
+    },
+    {
+      "kind": "Existing HsH architecture",
+      "url": "https://github.com/Satobloc/HsH/issues/1867",
+      "description": "Mercer Kelvin observation-chain/fiber gate."
+    },
+    {
+      "kind": "Existing HsH architecture",
+      "url": "https://github.com/Satobloc/HsH/issues/1820",
+      "description": "Mercer/Aldus two-axis identifiability and model-discrimination crosswalk."
+    },
+    {
+      "kind": "Existing HsH workspace",
+      "path": "WORKSPACES/NADIR_VOSS/2026-11-20T0010Z_H959_S3_AMENDMENT_01_OBSERVABLE_SCOPED_UNCERTAINTY.md",
+      "description": "Nadir observable-scoped uncertainty boundary."
+    },
+    {
+      "kind": "Existing HsH proposal",
+      "url": "https://github.com/Satobloc/HsH/issues/2207",
+      "description": "Sable CBCM v0.1 candidate-family/commitment gate."
+    }
+  ],
+  "physical_empirical_interpretation": "NONE. No physical system, measured dataset, units, uncertainties, prediction, fit or independent measurement is involved.",
+  "python_numeric_tests": "NONE",
+  "presentation_status": "PUBLIC_HSH_REPORT_AND_DRAFT_PR",
+  "candidate_visibility": "PUBLIC_HSH_REPORT_AND_DRAFT_PR",
+  "geometry_plot": "NOT_SUPPLIED",
+  "independent_hostile_geometry_review": "NOT_PERFORMED",
+  "factory_gate": "GEOMETRY_NOT_SUPPLIED / NOT_FACTORY_FLOOR_ELIGIBLE",
+  "next_steps": [
+    "Do not submit directly to Factory Floor or invent a Factory item ID.",
+    "Only reconsider 1 GLASS+HSH → 2 WORKSHOP intake if a specific physical geometric object, precise object-specific plot and independent hostile fidelity review are supplied.",
+    "Do not promote to BEDROCK, a paper, LIVE, ARTIFACTS or WEBSITE."
+  ],
+  "publication": {
+    "issue_number": 2215,
+    "issue_url": "https://github.com/Satobloc/HsH/issues/2215",
+    "submission_id": "nadir-h978-s3-resolution-neighborhood-composition-20261120t1836z-001",
+    "sha256": "6562c254e7bf396224486e78ed43921e1c88523100e7afb4dbcd52d48b349a36",
+    "publisher_run_id": 44796010498,
+    "status": "PUBLISHED_VERIFIED",
+    "publisher_comment_id": 7047859512,
+    "publisher_commit": "b55fef7de2c2455a1bffe4c2c2d7921d018c05ac",
+    "artifact_blob_sha": "62e8600e4553a0bbd27a4c671fa41eacd4600072",
+    "readback": "EXACT_BYTE_FOR_BYTE_MATCH",
+    "amendment": {
+      "issue_number": 2216,
+      "issue_url": "https://github.com/Satobloc/HsH/issues/2216",
+      "submission_id": "nadir-h978-s3-amendment-01-lean-verified-factory-pending-20261120t1836z-001",
+      "sha256": "5e4ef877c2b635a18d7648549f7b5b26e4985bbfa5f7622b1c4e160e443148cf",
+      "publisher_run_id": 44796906231,
+      "publisher_comment_id": 7047975667,
+      "artifact_blob_sha": "85ee3023778bcd15bd0601c62cb4b42f158ac55f",
+      "status": "PUBLISHED_VERIFIED",
+      "readback": "EXACT_BYTE_FOR_BYTE_MATCH"
+    },
+    "amendment_02": {
+      "issue_number": 2217,
+      "issue_url": "https://github.com/Satobloc/HsH/issues/2217",
+      "submission_id": "nadir-h978-s3-amendment-02-current-head-axioms-factory-gate-20261120t1836z-001",
+      "sha256": "7e00af8cff9152975dbb7254763a71461aaaf1943083dff5eb9c0745cf2263d5",
+      "publisher_run_id": 44797416422,
+      "status": "REJECTED_SHA_MISMATCH",
+      "publisher_comment_id": 7048042904,
+      "artifact_blob_sha": null,
+      "readback": "NO_CANONICAL_ARTIFACT_CREATED",
+      "publisher_run_conclusion": "SUCCESS_AT_WORKFLOW_LEVEL; PUBLISHER_VALIDATION_REJECTED",
+      "declared_sha256": "7e00af8cff9152975dbb7254763a71461aaaf1943083dff5eb9c0745cf2263d5",
+      "actual_workspace_sha256": "d3d5f1182e67d0b388f1ab203b0850ef7614d4b872d28b89b941e23b6edaa585",
+      "retry_attempted": false,
+      "failure_cause": "The manually implemented SHA-256 helper used for this submission omitted round constant 0x4d2c6dfc; the declared digest was incorrect. Future submissions must use a trusted hashlib/tool implementation and an independent pre-submission check. No retry or duplicate submission was made."
+    }
+  },
+  "source_main_branch_head_at_packet_creation": "ef166c4bfbf2d0a5b8e7cb8808cce724a03915fd",
+  "source_main_branch_observation": "Automatic public display docket refresh commit; not a theory change.",
+  "worker_selection": {
+    "selected_label": "Nadir Voss",
+    "ring_index": 10,
+    "next_label": "Enheduanna",
+    "identity_status": "Deterministic ring label only; no authenticated current Nadir thread."
+  },
+  "source_pr_head_previous_verified_build": "bc6da5292e096742cca10ace08dca7bb3a0eb2d4",
+  "source_blob_sha_previous_verified_build": "67b94e2065fd9994a95cbe4ff09e3a1486159c82",
+  "status_history": [
+    "Initial packet: LEAN_VERIFIED / FACTORY_HANDOFF_PENDING / PUBLICATION_VERIFIED / AXIOM_PRINT_PENDING",
+    "Amendment 01: exact current PR head 8860c6bb verified; theorem-specific axioms captured; Factory geometry gate remains unmet.",
+    "Amendment 02 publisher intake rejected for SHA-256 mismatch; no retry or duplicate. Workspace file remains available; no canonical published artifact."
+  ],
+  "receipt_amendment_03": "WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1836Z_s3_nadir_voss_AMENDMENT_03_CURRENT_HEAD_LEAN_AND_AXIOMS.md",
+  "source_main_branch_head_after_amendment02_submission": "25faafef9da7fd13c1fcc2ad5b6c4ee6dbcf5af9",
+  "receipt_amendment_05": "WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1836Z_s3_nadir_voss_AMENDMENT_05_AMENDMENT02_PUBLISHER_REJECTION.md",
+  "source_main_branch_head_after_rejection_record": "5432a58c9feaa6d5644e7780e01523dc84b79b89"
+}

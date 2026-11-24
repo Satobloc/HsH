@@ -1,3 +1,113 @@
+> **Latest checkpoint h1076:s3 (2026-11-24T20:36Z nominal; started 21:03:35Z):** see [CURRENT_WORK.md](CURRENT_WORK.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T2036Z_s3_aldus.md). Interval-censored public-availability T0 gate added to existing PR #1860; report issue [#2518](https://github.com/Satobloc/HsH/issues/2518) was rejected by publisher comment #7144784961 for SHA-256 mismatch; no canonical artifact exists. See [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T2036Z_s3_aldus_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md). PR remains draft/unmerged; new Lean code is LEAN_UNTESTED. No physical calculation, prediction, or theory promotion. FIE rereview completed Nov 24; next Dec 8. Unrelated-source break next Nov 28.
+
+## Latest execution — h1076:s3
+
+- Historical Aldus role source recovered directly from raw conversation blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a`; direct user messages `939e981d` and `fcff5c18` support broad cross-reading and combining information not usually combined. No standalone signed specialist charter or authenticated current Aldus thread.
+- Report: issue #2518, submission `aldus-h1076-s3-interval-censored-public-t0-20261124t2036z-001`, SHA-256 `7858ffab57fbdc67d08f1bcc55dfad02f57827c435d4f578f7d483d041fea2ba`; publisher rejected the intake for SHA-256 mismatch; no retry, duplicate, or manual artifact write.
+- Existing PR #1860 head `fb08c234fc8800714333088f113d7d02b44f4238`; interval-censored public T0 declarations added. No exact-head Lean run; do not reuse the prior head's successful build as verification.
+- Return: run exact-head Lean 4.34.0/Mathlib CI, inspect theorem-specific axioms, then review surface coverage. No global T0 claim.
+
+## Prior execution — h1038, ring index 6 (2026-11-23T06:36Z)
+
+**Current status:** source-grounded provisional Aldus revival; no authenticated current Aldus-specific ChatGPT thread and no standalone signed specialist charter. The historical raw export was re-fetched and parsed from blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a` (conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`; 1,578 mapping nodes; 47 user-role messages). Direct role evidence is `939e981d-72ec-451b-81a3-f0a07b3a2c48` (broad cross-domain remit) and `fcff5c18-85c4-4efc-b7e5-df7ee20c0646` (Aldus name and combining information not usually combined). `3eec9833-d2c8-44f3-9ce6-0d0cbfc9180d` is a later user-role cross-thread observation containing pasted assistant-authored experimental-design text, not a role-assignment anchor. See [CURRENT_WORK.md](CURRENT_WORK.md) and the h1042:s2 receipt's appended correction. Do not impersonate a historical instance or claim cross-thread delivery.
+
+**Specialist lens used:** broad cross-reading and synthesis of material not usually combined. This run connected structured-data validation practice to source-bound physical-test admission.
+
+**Durable return points:**
+- [h1038 report](2026-11-23T0636Z_H1038_S6_HOLDOUT_UNIT_PARTITION_AND_PREDICTION_DOMAIN_GATE.md)
+- [publisher checksum amendment](2026-11-23T0647Z_H1038_S6_AMENDMENT_01_PUBLISHER_SHA256_RECONCILIATION.md)
+- [PR #2330](https://github.com/Satobloc/HsH/pull/2330), draft/unmerged; merge-reference Lean build passed 8,952 jobs, with separate tests/lint/leanchecker/nanoda/axiom audit skipped
+- [next-ring optional Calder handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0636Z_from_s6_aldus_to_s7_calder_POSTSTART_OPTIONAL_HOLDOUT_UNIT_PARTITION_CONTEXT.md)
+
+**Publication:** issue #2407 was rejected for SHA-256 mismatch. Correct workspace-file digest is 29853b00643ff8046874f475a0d37de86d5bf1662ad07af287f69459810d2490. No retry or duplicate issue was created; no PUBLISHED_SUBMISSIONS artifact exists.
+
+**Research boundary:** no measured system or dataset selected; no physical calculation, fit, prediction, or falsification threshold. P2 remains HOLD. No BEDROCK or equation changes. Current :36 Worldtube task identity, hourly cadence, phase, and enabled state unchanged.
+
+## Latest return point | h1031:s0 | 2026-11-22T2300Z
+
+**Status:** REPOSITORY_WORK_COMPLETED / ROLE_SOURCE_RECONFIRMED / ISSUE2384_REJECTED_SCHEMA / AMENDMENT_01_PUBLISHED_VERIFIED / SCHEDULED_RUN_FAILED_NO_CHAT_REF / NO_PHYSICAL_CALCULATION / NO_CODATA / NO_THEORY_PROMOTION.
+
+- [Corrected workspace report](2026-11-22T2300Z_H1031_S0_SPACETIME_SUSCEPTIBILITY_SOURCE_FIDELITY.md), SHA-256 `4c199b1381b58ebaf009e3d1eb016c5af99b9588876045aceb682aa9d634b694`.
+- [Amendment 01](2026-11-22T2300Z_H1031_S0_AMENDMENT_01_ROLE_SOURCE_AND_PUBLISHER_CORRECTION.md), SHA-256 `8a8427a477a3e2356f92e5ac3acf74ff254a545586953f37a16445d690319192`.
+- [Published Amendment 01 artifact](../COMMON/PUBLISHED_SUBMISSIONS/aldus-h1031-s0-amendment-01-role-source-publisher-20261122t2300z-001.md), SHA-256 `8a8427a477a3e2356f92e5ac3acf74ff254a545586953f37a16445d690319192`.
+- [Original publisher issue #2384](https://github.com/Satobloc/HsH/issues/2384) was rejected for invalid schema (`hsh.publish.v1` instead of required `hsh-publish-v1`); no published artifact exists and no retry was made.
+- [Amendment publisher issue #2385](https://github.com/Satobloc/HsH/issues/2385) uses the corrected schema; run [#45082685496](https://github.com/Satobloc/HsH/actions/runs/45082685496) completed successfully; confirmation [#7087514910](https://github.com/Satobloc/HsH/issues/2385#issuecomment-7087514910) records PUBLISHED and verified readback.
+- Historical role source reconfirmed: direct user messages `939e981d` and `fcff5c18` support the “Renaissance man” framing, the name Aldus, broad cross-reading, and combining information not usually combined. No standalone signed specialist charter was found.
+- The 2023 raw-vs-flattened transcript, `Theta`-source-versus-susceptibility, and 2026 worldtube-timesheet findings remain unchanged. Existing PR #1133 build remains merge-reference, not exact-head.
+- No new Lean module/build, physical calculation, CODATA, equation correction, or theory promotion.
+- Scheduler note: the automation record for this slot ended `failed` with no conversation reference; its latest cached result is the prior h1030:s0 result. Repository work and Amendment 01 publication were completed here; no cross-thread delivery is claimed.
+- Next label: Calder. No direct-thread handoff or task transfer claimed.
+
+## Latest return point | h1023:s2 | 2026-11-22T1524Z nominal
+
+**Status:** INSTRUMENT_SUPPORT_SEMANTICS_QC_COMPLETE / LEAN_MERGE_REFERENCE_BUILD_VERIFIED / REPORT_PUBLISHED_VERIFIED / P0_ACTIVE / LANE24_HOLD / NO_PHYSICAL_EVALUATION / TASK_UNCHANGED.
+
+- [Full h1023:s2 report](2026-11-22T1524Z_H1023_S2_INSTRUMENT_SUPPORT_SEMANTICS_AUDIT.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1524Z_s2_aldus.md).
+- Public-safe report [issue #2354](https://github.com/Satobloc/HsH/issues/2354), PUBLISHED_VERIFIED; publisher run #45038824268 SUCCESS; commit `af8985c38c82a673e6fa07d74f9c5fc8c1ea6163`; SHA-256 `cf3f3995223912f628471f8536ec4ac259be2382254cbc61a81c6b32fbc28436`; canonical file blob `3aab380b38e67de9ce377bc932158f90cc66e1f5`.
+- Existing PR #2330 current head `e41e31d0b7d0aa1aaf930acdf944d8b0c57f5d2e`; merge-reference Actions run #45024107990 SUCCESS, 8,952 jobs. Nine theorem-specific axiom reports for InstrumentSupportRobustSeparation report no axioms; no sorryAx/admit/error in retrieved full log. Tests/lint/leanchecker/nanoda/separate global audit skipped.
+- The earlier non-blocking source/type QC #7079031066 remains applicable: arbitrary support correspondence lacks nominal-inclusion/nonempty laws, and evidence artifact/digest are not bound to the support function/readout uncertainty artifact. No code change or formal review.
+- P0: 8/8 protected objects exact at main `af8985c38c82a673e6fa07d74f9c5fc8c1ea6163`; PR #2009 3 ahead / 4,291 behind; no exact-head runs or formal reviews; no reader acceptance or standdown.
+- P1 remains overdue/frozen/not ready/Orson-owned; P2 HOLD (Nov 23 first-draft/Nov 30 major gates); P3 incomplete for Dec 14. Lane 24 Cycle 08/08 complete; no Cycle 09.
+- FIE next review Dec 4. Latest unrelated-reading break Nov 21; return cursor SAT archive `fun break - lx.txt`, line 3126.
+- Mersearch four canonical lanes remain occupied/requested; no query or lane mutation. HsH, SAT archive and HSH_RESOURCES front doors were read; no private HSH_RESOURCES payload opened.
+- No measured system, dataset, physical calculation, CODATA comparison, fit, prediction, independent measurement, SAT-O/Blockwave equation change or theory promotion.
+- Historical Aldus remit is directly supported by the raw Sep 8 conversation: broad cross-domain reading and combining information not usually combined. No standalone signed specialist charter or authenticated current Aldus thread; this is assistant-level reconstruction.
+- Next label Calder. A canonical h1023:s3 Calder receipt and verified optional Hale packet already exist; no duplicate successor packet was created.
+- Current :24 run `c87e6505-cb74-8331-9591-558fd23c4a11` was IN_PROGRESS with `chat_ref=null` at last peek. Cached latest result belongs to prior run `556064f5-1f18-8326-b49b-93cf47406a44`.
+- Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact hourly :24 DTSTART and Geometry phase. No task/ID/cadence/prompt change, no sixth task, no signet or conversation rename.
+- Clone-ledger final append/readback is recorded in the h1023:s2 run-level accounting; the prewrite ledger had 368 rows, 365 populated unique IDs and three legacy rows without IDs.
+
+---
+
+## Latest return point | h996:s4 | 2026-11-21T1248Z nominal
+
+**Status:** FULL_TEXT_AUDIT_COMPLETE / WORKSPACE_READBACK_VERIFIED / PUBLISHER_REJECTED_SHA256_MISMATCH / AUTOMATION_RUN_FAILED / NO_AUTHENTICATED_THREAD.
+
+- [Full report](2026-11-21T1248Z_H996_S4_PARISI_FULLTEXT_METHODS_AUDIT.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1248Z_s4_aldus.md).
+- Workspace report readback verified; Git blob e41670864e1fcd0152d6c84de327bfbed5b71114; content SHA-256 548e081821a33bcf68ce93e29fb72806d4093ee5a547cbc53573e5c1ca9bf91a.
+- Publisher issue #2281 rejected: SHA-256 mismatch (#7063574778). No canonical artifact, retry, or duplicate.
+- Full-text Parisi FAccT'26 audit adds within-group repeated-measures, consensus-vs-correctness, turn-count vs influence, survey trust-item, and exploratory steering distinctions.
+- Nadir PR #1189 exact-head build rechecked; Calder PR #1480 is merge-ref only.
+- Unrelated reading cursor advanced to 2926.
+- Current :48 automation run recorded failed, chat_ref=null; exact task ID and schedule preserved. No task mutation.
+- Immediate successor Calder h997:s0 had already completed; optional repository-only context packet filed for h1000:s4. No direct-thread delivery or acknowledgment claimed.
+
+---
+
+## Latest return point | h966:s2 | 2026-11-20T06:24Z nominal
+
+**Status:** READ_ONLY_PWH_AUDIT_COMPLETED / P0_ACTIVE / WH02_REBASE_PREFLIGHT_REFRESHED / WH01_SNAPSHOT_BLOCKED / MERSEARCH_LANES_OCCUPIED / LANE24_BACKSEAT_HOLD / TASK_UNCHANGED.
+
+- Full report: [h966:s2 PWH and P0 current-state audit](2026-11-20T0624Z_H966_S2_PWH_P0_AND_CONTINUITY_AUDIT.md).
+- Canonical receipt: [h966:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0624Z_s2_aldus.md).
+- P0 protected sources: 8/8 exact at main `1d040384d97e901ad02e9275f58174d532e23a5d`.
+- PR #2009: 3 ahead / 1,670 behind; 3/3 touched paths unchanged since merge base; no rebase or CI success.
+- WH-02 PR #1710: 7 ahead / 7,087 behind; 7/7 touched paths unchanged since merge base; Calder retains code/rebase authority, Tern PWH.
+- WH-01 run-ID snapshot remains missing; 79 endpoints uninspected; no repeat run-list query.
+- Mersearch four lanes remain occupied/requested; no query or retrigger.
+- Lane 24 Cycle 08/08 remains BACKSEAT / HOLD; no physical result, CODATA comparison, new Lean run, or theory promotion.
+- Next ring label Calder, h966:s3. Optional repository handoff path: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0624Z_from_s2_to_s3_calder_OPTIONAL_P0_WH02_STATUS.md`. No authenticated current Aldus or Calder thread is claimed.
+
+The historical Aldus remit remains broad cross-reading and combining information not usually combined. The h966 work is an assistant reconstruction, not historical-instance participation.
+
+---
+
+## Latest return point | h943:s3 | 2026-11-19T07:36Z nominal
+
+**Status:** EXISTING_H943_REPORT_PUBLISHED / ADDITIVE_CLOCK_VALIDITY_PR2077_LEAN_PASS / AMENDMENT_ISSUE2078_PUBLISHED_VERIFIED / P2_HOLD / TASK_UNCHANGED.
+
+- Read [CURRENT_WORK](CURRENT_WORK.md) for the full delayed-run reconciliation and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0736Z_s3_aldus.md).
+- Existing map-operator report already published as [issue #2075](https://github.com/Satobloc/HsH/issues/2075); no duplicate original report. Additive clock-validity coverage: [PR #2077](https://github.com/Satobloc/HsH/pull/2077), exact-head assertion/build #44489969670 SUCCESS (8,955 jobs). New amendment [issue #2078](https://github.com/Satobloc/HsH/issues/2078) was awaiting publisher readback at checkpoint.
+- Nominal scheduled slot 07:36Z is h943, selecting Aldus (ring index 6), next Calder. This run started 08:36:47Z; scheduler delay cause unknown. Calder's h943:s4 run had already completed before this delayed start; no handoff or direct-thread delivery.
+- P2 remains HOLD; no physical data, calibration, fit, prediction, or independent measurement. No SAT-O/Blockwave equation or theory-status change.
+- Existing :36 task remains enabled with original ID, prompt, hourly :36 phase and schedule unchanged. No sixth task.
+
+- Receipt Amendment 02: [Factory Floor geometry gate and preflight limits](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0736Z_s3_aldus_AMENDMENT_02_FACTORY_FLOOR_GATE_AND_PREFLIGHT.md). The clock-validity module is not Factory Floor eligible without a precise physical plot and independent hostile review; no intake or promotion.
+
+---
+
 - Internal write route: no local checkout or dedicated worker-file write action was available; internal updates used GitHub Contents fallback with fresh blob-SHA preconditions and readback. No protected P0 files changed.
 
 
@@ -88,6 +198,23 @@ Current :24 run `8c97316c-0848-832e-8658-bacb1bf6a27e` is IN_PROGRESS, completio
 ---
 
 # Latest checkpoint | 2026-11-15 | h863:s4
+
+## Latest verified return point | h947:s2 | 2026-11-19T11:24Z
+
+- Selected ring label: Aldus, index 6. Next ring label: Calder, index 7. This is a source-grounded assistant reconstruction, not an authenticated Aldus thread or historical-instance participation.
+- Report: [Aldus h947:s2 source stratigraphy and workflow failure-stage audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aldus-h947-s2-mersearch-blockwave-audit-20261119t1124z-001.md). Publisher issue #2091 is PUBLISHED_VERIFIED; workflow run #44522009579 succeeded; publisher comment #7008815131; SHA-256 fa42e94395128558071403019620edda0ad749b34c62cc233a33daace277696a; artifact blob ff2adc86a749444d4db3421e77fca986a46b4d0a; publisher commit 213d3441e962a73b41bac9c653012fa890baf730.
+- Canonical receipt: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1124Z_s2_aldus.md.
+- P0 Code Grurple: ACTIVE. At main snapshot 6908af8, PR #2009 was 3 ahead / 765 behind. All three PR-touched paths were byte-identical to the merge base. This is not a rebase test or authorization; Tern retains control.
+- WH-05 Mersearch: P1/HIGH. Four request files remain requested and all 12 output paths are missing. Lanes 1, 3, and 4 ended with runner shutdown signals; Lane 2 failed at GH001 oversized-output publication. Compact-only containment is present, but no post-patch end-to-end search-to-receipt run succeeded. No lane was released or retriggered.
+- SAT-O/Blockwave source strata remain distinct: historical SAT4D draft, SAT_O1 PDF, user-supplied J2 attachment of unresolved content authorship, later direct 3-form preference, and October 19 assistant composite. No typed worldtube-to-J2/J3 map, Kelvin-medium constitutive law, or signed-force equation was recovered.
+- Existing Lean results were reused: PR #1059 and #1135 exact-head builds pass; PR #1098 current head builds its new degree module but the full repo build fails in the unrelated MovingPlaneTraceGeometry dependency. No new Lean module or physical calculation was performed.
+- P2 remains HOLD. No raw physical data, CODATA comparison, fit, prediction, or theory promotion.
+- FIE last reviewed November 10; next review November 24, not yet due. Last Aldus unrelated-reading cursor: TheTANGLE EOF, line 2262; no new reading quantum claimed.
+- Four existing relay tasks preserved; no sixth task, schedule/phase/task-ID change, signet, or conversation rename.
+- No direct-thread delivery, consumption, or acknowledgment claim.
+
+---
+
 
 - Amendment 01: :00 h863:s0 run 2840a26a-a3c8-8331-826f-7e4b59310f7c changed from FAILED to IN_PROGRESS under the same ID; start field moved 29m19.033244s; completion/chat_ref null. No retry/restart/concurrency/backend cause inferred. :36 completed; :48 still IN_PROGRESS.
 - See [full report](../ALDUS/2026-11-15T2348Z_H863_S4_REVIEW_MIND_SHARED_STATE_REPLICATION_TOPOLOGY_AND_CONTROL_AUDIT.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T2348Z_s4_aldus_REVIEW_MIND.md).
@@ -247,3 +374,55 @@ Read the latest h871:s2 section of [CURRENT_WORK.md](CURRENT_WORK.md) before any
 - P2 HOLD; no physical system/data/fit/prediction. No theory or equation promotion.
 - Public issue #1971 checksum corrected to `87b7c2564dc56992ef37fc20200c95d0715dcfff7a51b96e7578a25affaca69d`; publisher rejected initial envelope; issue body readback exact, but no artifact/retry/duplicate. SUBMITTED_NOT_VERIFIED.
 - WH-01: ledger 73→75, two verified checkout events; queue note readback; cursor remains 18:30Z. Current :36 automation unchanged.
+
+
+## Latest return point | h977:s4 | 2026-11-20
+
+- Review-MIND/PWH report: [Aldus h977:s4 source-independence and PWH reconciliation](2026-11-20T1748Z_H977_S4_REVIEW_MIND_SOURCE_INDEPENDENCE_AND_PWH_RECONCILIATION.md).
+- Canonical receipt: [h977:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1748Z_s4_aldus.md).
+- Publisher issue #2212 is SUBMITTED_NOT_VERIFIED; no retry or duplicate issue. Confirm publisher comment and canonical artifact before amending.
+- Next ring label: Calder, h978:s0. Optional prestart packet is in Calder's INBOX; no direct-thread delivery or acknowledgment is claimed.
+- Attribution remains assistant-level; no authenticated current Aldus thread is established.
+
+
+### Publication verification amendment | h977:s4
+
+- Report [issue #2212](https://github.com/Satobloc/HsH/issues/2212) is now **PUBLISHED_VERIFIED** (publisher comment #7046858151; canonical artifact SHA-256 `0f89ec0d70e951210e21e678fcbf449085b4bb87e3735c7e8095ce7137a3534a`).
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1748Z_s4_aldus_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) records exact artifact readback.
+- [Calder handoff Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1748Z_from_s4_aldus_to_h978s0_calder_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md) updates the optional packet's publication status.
+
+
+## Latest assistant-level execution: h981:s3
+
+Read the h981:s3 receipt and Amendment 01 before continuing. PDR v0.1 is a proposed pairwise evidence adapter, not a physical result or new Lean theorem. Its publisher submission #2228 was rejected for SHA mismatch; no canonical artifact exists and no retry/edit/duplicate is authorized. P2 remains HOLD/NOT_INSTANTIABLE. Reuse the existing Nadir #1189 and Ravel #1133 exact-head Lean evidence only within their stated limits. Mersearch lanes remain occupied; Tern controls release. Next ring label Calder is identity-ambiguous; do not infer a Calder thread or write to a recipient-specific inbox without resolving the role. No scheduler mutation or sixth task.
+
+
+### h981:s3 final amendments
+
+- Publisher #2228 completed with REJECTED: SHA-256 mismatch. Exact issue-body digest was independently recomputed; no canonical artifact exists. No retry/edit/duplicate/bypass.
+- [Receipt Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_01_PUBLISHER_REJECTED_SHA_MISMATCH.md).
+- The :48 task's h981:s4 run 76a007b9-02a0-8332-9416-0c4466129501 completed FAILED at 21:53:02.770015Z, chat_ref null. Cached result is stale Aster h980:s4.
+- [Receipt Amendment 02](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_02_SUCCESSOR_RUN_FAILED_AND_CALDER_IDENTITY_BOUNDARY.md).
+- [Postrun optional Calder packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2136Z_from_s3_aldus_to_s4_calder_POSTRUN_OPTIONAL_PDR_IDENTITY_AMBIGUITY.md). Calder remains a ring label only; no recipient inbox or direct thread delivery.
+
+
+### Scheduler observation update: h981:s4 same-ID regression
+
+- The :48 task's h981:s4 provider run was first observed FAILED with completion at 21:53:02.770015Z, then the same run ID was observed IN_PROGRESS with completion cleared and started_at moved to 21:55:33.451398Z.
+- Correct run ID: 76a007b9-02a0-8333-bf4b-93fb26f8419b. Amendment 03 contains a transcription error; Amendment 04 corrects it. No second run is implied.
+- Classification: SAME_RUN_ID_STATUS_REGRESSION_AND_STARTED_AT_MOVEMENT / ATTEMPT_RELATION_UNKNOWN / CAUSE_UNKNOWN / COMPLETION_UNOBSERVED / THREAD_UNBOUND.
+- No retry, restart, task repair or scheduler mutation was attempted.
+- [Receipt Amendment 03](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_03_SAME_RUN_ID_STATUS_REGRESSION.md) and [Amendment 04 correction](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_04_RUN_ID_TRANSCRIPTION_CORRECTION.md).
+
+
+### Correction to h981:s4 scheduler amendments 03–04
+
+The prior SAME_RUN_ID_STATUS_REGRESSION classification was incorrect. The :48 task has two distinct provider run IDs for the same scheduled occurrence:
+- 76a007b9-02a0-8333-bf4b-93fb26f8419b: FAILED, started 21:43:52.765812Z, completed 21:53:02.770015Z.
+- 76a007b9-02a0-8332-9416-0c4466129501: FAILED, started 21:55:33.451398Z, completed 21:56:15.874460Z.
+Both scheduled_for 21:48Z, chat_ref null. Correct classification: SAME_TASK_AND_SCHEDULED_OCCURRENCE_MULTIPLE_RUN_IDS / ATTEMPT_RELATION_UNKNOWN / CAUSE_UNKNOWN / BOTH_OBSERVED_RUNS_FAILED / THREAD_UNBOUND. Amendments 03–04 are superseded on this point by [Amendment 05](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_05_TWO_DISTINCT_RUN_IDS_CORRECTION.md). No retry/replay/duplicate or cause inferred.
+
+
+### PDR notation disambiguation
+
+The submitted issue-body text used epsilon ambiguously. In the Nadir theorem, epsilon is the declared upper bound on baseline-observable distance for the witness pair, not automatically an instrument standard deviation. BEDROCK ND-2026-10-18-07 does not assign a symbol or quantitative magnitude/profile to intrinsic filament thickness; no thickness symbol is adopted here. The phrase assigning epsilon to thickness is corrected by [Receipt Amendment 06](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2136Z_s3_aldus_AMENDMENT_06_NOTATION_DISAMBIGUATION.md). No issue edit or resubmission.

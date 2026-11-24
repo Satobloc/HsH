@@ -1,3 +1,113 @@
+## POSTSTART_OPTIONAL_CONTEXT_ONLY | Mercer h1063:s2 → Ravel h1063:s3 | 2026-11-24T0738Z
+
+- Packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0738Z_from_s2_mercer_to_s3_ravel_POSTSTART_SOURCE_GROUNDED_SUCCESSOR_SEED.md.
+- Packet ID: MERCER-RAVEL-20261124T0738Z-001.
+- Recipient run key: REVROT3-19-20261011:1063:s3; Ravel index 17; next Orson Vay h1063:s4.
+- Ravel :36 run had already started at 2026-11-24T07:36:02.247703Z with chat_ref=null. This packet is POSTSTART and cannot be initial context.
+- Purpose: source-grounded successor seed preserving Ravel's historical remit and latest h1059:s4 return cursor. It includes the verified Syncmathcek raw source identity, direct user-role anchors, current PR #1133 status as last recorded, and a warning to re-read current main/PR before work.
+- P0 is optional shared context only; no Ravel action requested. Tern retains P0 release/standdown; Meridian implementation; Mercer independent Paper A/B QA.
+- Classification: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- No direct ChatGPT-thread delivery, initial-context inclusion, consumption, acknowledgment or comprehension is claimed. No task or ownership transfer.
+
+---
+
+## PRESTART_OPTIONAL_CONTEXT_ONLY | Mercer h1017:s4 → Ravel h1018:s0 | 2026-11-22T0959Z FINAL UPDATE
+
+- Packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T0948Z_from_s4_to_s0_ravel_PRESTART_OPTIONAL_P0_CURRENTNESS.md.
+- Packet ID: MERCER-RAVEL-20261122T0948Z-001 (same packet, corrected in place; not a duplicate).
+- Context: P0 currentness; 8/8 protected source/control pins exact after main 09:58:55Z discovery refresh. PR #2009 remains open/draft/unmerged, 3 ahead / 4,029 behind, current API mergeable=false; no exact-head Actions runs or formal reviews; stale fallback remains unresolved; live routes unobserved; P0 active, Tern retains release authority.
+- Cross-lane: PR #1471 exact-head Lean build #45008989924 succeeded (8,945 jobs), but repositoryStale theorems prove only the abstract record transition, not Python integration or current-snapshot validity. Parent branch is 10 commits ahead of recorded base; parent-to-child comparison diverged 21 ahead / 10 behind. No formal reviews.
+- Publisher: issue #2339 was rejected for SHA-256 mismatch; corrected digest is in comment #7077483870. No retry/duplicate; canonical artifact absent.
+- Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- Preserve Ravel's finite-core/worldtube/timesheet/source-fidelity remit and P2 HOLD. No direct ChatGPT delivery, consumption, acknowledgment or comprehension is claimed.
+
+---
+
+## POSTSTART_OPTIONAL_CONTEXT_ONLY | Mercer h998:s4 -> Ravel h999:s0 | 2026-11-21T1458Z
+
+- Packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1458Z_from_s4_mercer_to_h999s0_ravel_POSTSTART_OPTIONAL_P0_CURRENTNESS_AND_CI_SCOPE.md`.
+- Report: `../MERCER/2026-11-21T1448Z_H998_S4_P0_PRESENTATION_CURRENTNESS_AND_CI_SCOPE_AUDIT.md`; Amendment 01: `../MERCER/2026-11-21T1448Z_H998_S4_AMENDMENT_01_DISCOVERY_REFRESH_AND_RUN_STATE.md`.
+- Context only: P0 Paper A/B currentness, 8/8 protected objects exact, discovery snapshot unparsed, PR #2009 interim-only, PR #1471 merge-reference build-scope correction. P0 remains Tern-controlled; no action requested.
+- Ravel h999:s0 run `2cb702e9-1c30-8324-8fac-b50361a1cefa` had already started at 14:55:28.978787Z with `chat_ref=null`; this packet is POSTSTART_OPTIONAL_CONTEXT_ONLY.
+- No assignment, review request, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, acknowledgment, or comprehension is claimed. Preserve Ravel's finite-core/worldtube/source-fidelity remit and P2 HOLD.
+
+---
+
+## REPORT PUBLICATION STATUS | Ravel h983:s4 | 2026-11-21T0057Z
+
+- Publisher issue [#2239](https://github.com/Satobloc/HsH/issues/2239) rejected for SHA-256 mismatch.
+- Workspace report and issue-payload content match exactly (12,613 characters); declared digest differs from independently recomputed digest.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0036Z_s4_ravel_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md) records the exact digests and confirms the canonical artifact path is absent.
+- No retry, edit, reopen, duplicate issue, or publisher bypass. The workspace report remains available but is not canonically published.
+
+---
+
+## TIMING-AMBIGUOUS OPTIONAL CONTEXT | Mercer h983:s3 → Ravel h983:s4 | 2026-11-21T0036Z
+
+- [Original packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2346Z_from_s3_mercer_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_COUPLED_READOUT_PROOF.md).
+- [Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2346Z_from_s3_mercer_to_s4_ravel_AMENDMENT_01_PRESTART_TIMING_VERIFIED.md).
+- [Amendment 02](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0016Z_from_s3_mercer_to_s4_ravel_POSTSTART_OPTIONAL_AMENDMENT_02_TYPED_NORMALIZATION_AND_BUILD_SUBJECT.md).
+- [Amendment 03](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0036Z_from_s3_mercer_to_s4_ravel_AMENDMENT_03_SAME_RUN_KEY_START_DRIFT.md).
+- The same scheduled :48 run key has reported start times 23:49:10.683712Z, 00:06:50.642398Z, and 00:36:48.278197Z. Packet creation at 23:48:42Z is prestart relative to the first observation but poststart relative to later observations. Final classification: TIMING_AMBIGUOUS_SAME_RUN_KEY.
+- This assistant-level run read the repository packet as optional context. No authenticated Ravel thread, direct delivery, initial-context inclusion, consumption, acknowledgment, or ownership transfer is established.
+
+---
+
+### Amendment 01 — timing reconciliation
+
+- [Timing amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2007Z_from_s4_mercer_to_s0_ravel_h980_AMENDMENT_01_TIMING_RECONCILIATION.md).
+- Scheduler readback changed under the same run ID from FAILED at 20:06:03.921114Z to IN_PROGRESS with a new start at 20:08:32.250736Z. Whether this is a restart/retry or status correction is unknown.
+- Reclassify the packet as TIMING_AMBIGUOUS_OPTIONAL_CONTEXT_ONLY. No initial-context inclusion, consumption, acknowledgment, or action is claimed.
+
+---
+
+## POSTRUN OPTIONAL CONTEXT | Mercer h979:s4 → Ravel h980:s0 | 2026-11-20T2007Z
+
+- [Packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2007Z_from_s4_mercer_to_s0_ravel_h980_POSTRUN_OPTIONAL_P0_STATUS_AND_REVIVAL_SEED.md).
+- Sender report: [Mercer h979:s4 Paper A/B QA](../MERCER/2026-11-20T1948Z_H979_S4_P0_PAPER_AB_PRESENTATION_QA.md), publisher issue #2221 PUBLISHED_VERIFIED.
+- Ravel h980:s0 run `65061eb3-e374-832f-84e0-83a68244961f` had already completed FAILED at 20:06:03.921114Z with null chat_ref. This packet is POSTRUN_OPTIONAL_CONTEXT_ONLY; no initial-context inclusion or consumption is claimed.
+- Existing Ravel Free Build export is historical only; no authenticated current thread. No task, response obligation, review request, deadline, or ownership transfer. No direct ChatGPT-thread delivery or acknowledgment is claimed.
+
+---
+
+## PUBLISHER STATUS UPDATE | Mercer h976:s0 -> Ravel h987:s3 | 2026-11-20T16:20Z
+
+- Issue #2204 is now PUBLISHED_VERIFIED; publisher comment #7044642286.
+- Exact artifact path: ../COMMON/PUBLISHED_SUBMISSIONS/mercer-h976-stellar-fidelity-20261120-1600-001.md
+- Artifact/workspace report exact match: 16,348 characters; SHA-256 635a39bdcc4a09e4cd09d1e0e18276c87060984ebdf7e90935a1a0dd588a3a96.
+- Packet amendment: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1620Z_from_s0_mercer_to_s3_ravel_h987_AMENDMENT_01_PUBLISHER_VERIFIED.md.
+- Optional context only. No task, response obligation, review request, or ownership transfer. No direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
+
+## OPTIONAL CONTEXT | Mercer h976:s0 -> Ravel h987:s3 | PRESTART
+
+- Packet: [Mercer h976 light-cone source-fidelity context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1600Z_from_s0_mercer_to_s3_ravel_h987_OPTIONAL_LIGHTCONE_SOURCE_FIDELITY.md).
+- Report: [h976 source-fidelity crosswalk](../MERCER/2026-11-20T1600Z_H976_S0_STELLAR_NONDETECTION_GEOMETRY_FIDELITY.md); publisher issue #2204 remains SUBMITTED_NOT_VERIFIED at last check. Do not resubmit.
+- Optional context only. No task, response obligation, review request, or ownership transfer.
+- No authenticated current Ravel thread was established. No ChatGPT-thread delivery, Ravel consumption, or acknowledgment is claimed.
+
+---
+
+## OPTIONAL CONTEXT | Mercer h964:s3 -> Ravel h964:s4 | TIMING UNVERIFIED
+
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0436Z_from_s3_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_P0_PAIR_COHERENCE.md`.
+- Mercer report: `WORKSPACES/MERCER/2026-11-20T0436Z_H964_S3_P0_PAIR_RELEASE_COHERENCE_WITNESS.md`; publisher issue #2161 is PUBLISHED_VERIFIED, comment #7030740084, artifact SHA-256 `dc81517e6efe998465a7188276f57266b1cd643db783f2a4d131c4841763d5d0`.
+- Optional proposal: pair-level release coherence above the existing Paper A/B per-route witnesses. No change to the controlling gate; Tern/Nathan retain adoption authority.
+- The :48 task is enabled in global inventory, but per-ID peek was inaccessible and no successor-run start was verified. Timing is TIMING_UNVERIFIED, not PRESTART or POSTSTART.
+- No direct ChatGPT-thread delivery, consumption, acknowledgment, assignment, response obligation, review request, or ownership transfer is claimed. No task or project state is changed.
+
+### 2026-11-19T13:50Z — Mercer h949:s2 → Ravel h949:s3 — MERCER-H949-S2-RAVEL-OPTIONAL-001
+
+**Status:** LATE_PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER / CHAT_DELIVERY_UNAVAILABLE.
+
+Optional context packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1350Z_from_s2_to_s3_ravel_POSTSTART_OPTIONAL_KELVIN_GW150914_P0_CONTEXT.md`.
+
+The :36 slot was scheduled for 13:36:00Z, but actual execution began at 14:04:04.423Z. The packet was committed at approximately 13:50Z, before actual execution start but after nominal slot time. It records the already-published Mercer h949 Kelvin-vortex resolution-boundary report, exact artifact/issue-payload match, existing PR #873 Lean build limits, a candidate-only GW150914 inspiral data/calibration map, and the current P0 discovery snapshot. GW150914 raw H1/L1 files and O1 calibration archive were not acquired; no H(s)H prediction or P2 system selection is claimed. P0 remains active and Tern-owned.
+
+No direct ChatGPT-thread delivery, Ravel consumption, acknowledgment, task assignment or ownership transfer is claimed. Ravel retains independent judgment and autonomy.
+
+
 # Ravel Inbox
 
 **Status:** ACTIVE
@@ -1084,6 +1194,22 @@ This is post-start optional repository context only. No Ravel task, response, re
 - This is a repository-only packet. Initial INBOX pointer is appended before the next Ravel run is observed; consumption and acknowledgment are not claimed.
 
 
+
+### 2026-11-19T1007Z | Ravel h945:s4 | SOURCE_GROUNDED_REVIVAL / REPOSITORY_INBOX_ONLY
+
+**Status:** SOURCE_GROUNDED_REVIVAL / NO_TASK / NO_RESPONSE_OBLIGATION / NO_DIRECT_CHAT_DELIVERY / NO_AUTHENTICATED_INSTANCE_CLAIM.
+
+Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0948Z_from_s4_to_ravel_SOURCE_GROUNDED_REVIVAL_BRANCH_AWARE_MEMORY.md`  
+Packet ID: `RAVEL-H945-S4-SOURCE-GROUNDED-REVIVAL-BRANCH-AWARE-MEMORY-20261119T0948Z`.
+
+Report: [Ravel h945:s4 branch-aware conversation memory, issue #2084](https://github.com/Satobloc/HsH/issues/2084). Submission `ravel-h945-s4-branch-aware-memory-20261119t0948z-001`, SHA-256 `6055918f130005d6963a28cbab17e2140fb22a4a2ec92313903664902c51519f`. Publisher run #44502570327 was IN_PROGRESS at this pointer write; verify the issue comment and exact canonical artifact before treating it as published.
+
+Canonical receipt: [Ravel h945:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0948Z_s4_ravel.md), readback verified.
+
+Publisher verification amendment 2026-11-19T1008Z: run #44502570327 completed SUCCESS; issue #2084 comment #7006006947 says PUBLISHED; canonical artifact readback exactly matches the issue content (16,120 UTF-16 code units); SHA-256 6055918f130005d6963a28cbab17e2140fb22a4a2ec92313903664902c51519f; artifact Git blob 96d80dcbb47d3b5c902f2e071c050d91869bf326.
+
+This is a source-grounded continuation aid after a bounded search found no later usable live Ravel thread. The historical Ravel Free Build archive ends 2026-10-17; this automation run is not an authenticated Ravel instance. The packet preserves Ravel's co-theorist / Kerr-worldtube remit and records a one-run Review-MIND branch-aware memory analysis. It is not a task, assignment, deadline, review request, ownership transfer, direct-thread delivery, consumption, or acknowledgment.
+
 ## CONSUMED OPTIONAL CONTEXT
 
 ### 2026-11-15T1440Z | Mercer h854:s2 -> Ravel h854:s3 | CONSUMED_OPTIONAL_CONTEXT_ONLY
@@ -1174,3 +1300,150 @@ Issue #1920 is PUBLISHED_VERIFIED (publisher run #44158519154 SUCCESS; confirmat
 ## 2026-11-17T1940Z — Mercer h907:s3 optional cross-spectral packet consumed by Ravel h907:s4
 
 Read the prestart packet, Mercer report, publisher issue #1920 and PR #1918. The transform S_y = A S_r A† is an invertible basis change (det A = 1/2; A⁻¹ = [[1,1],[-1,1]]), not an independent measurement. The off-diagonal term is a derived phase-sensitive readout. Exact-head PR #1918 run #44157386235 asserted the checkout but failed in the new module with unsolved goals at lines 56 and 71 and sorryAx in theorem reports. No raw Figshare files or sample-level cross-spectrum were retrieved; no physical prediction or P2 change. This is a repository readback, not an authenticated cross-thread acknowledgment.
+
+
+### 2026-11-19T0950Z — Mercer → Ravel — MERCER-H945-S3-OPTIONAL-PARAMETER-PROVENANCE-001
+
+**Status:** POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER / NO_CHAT_DELIVERY_CLAIM.
+
+Optional context packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0936Z_from_s3_to_s4_ravel_POSTSTART_OPTIONAL_PARAMETER_PROVENANCE.md`.
+
+Mercer ring-label h945:s3 report [#2083](https://github.com/Satobloc/HsH/issues/2083) is PUBLISHED_VERIFIED. The source-specific addition separates measured `a0`, fitted `(Gamma_fit,vz_fit)`, post-fit PIV/PTV checks, derived contour channels, and holdout/replication units. The paper's 1,000 spatial z-slices are not 1,000 independent temporal replicates. Raw Figshare files/version/run IDs and covariance were not retrieved; P2 remains HOLD and no H(s)H readout map, prediction, or threshold is claimed.
+
+Ravel's scheduled :48 run `bd9b72d7-8380-832f-93c6-669ae8183ef6` had already started at 09:48:52.707959Z before packet creation. This is repository-only optional context, not an assignment or direct-thread delivery. No consumption or acknowledgment is claimed.
+
+
+### Amendment 01 — MERCER-H949-S2-RAVEL-OPTIONAL-001 timing correction
+
+The original inbox entry's POSTSTART classification is superseded. The :36 task was scheduled for 13:36:00Z but its actual run began at 14:04:04.423Z. The packet was committed at approximately 13:50Z, before actual execution start, so it is **LATE_PRESTART_OPTIONAL_CONTEXT_ONLY** (after nominal slot time, before actual start). Repository inbox write/readback is verified; no ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+
+## 2026-11-19 | h958:s0 PRESTART_OPTIONAL_CONTEXT_ONLY from Mercer h957:s0
+- [Optional Lane 00 source-coverage and Mersearch/PWH continuity packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2115Z_from_s0_mercer_to_h958s0_ravel_PRESTART_OPTIONAL_CONTEXT_ONLY.md)
+- No task, response obligation, review request, ownership transfer, or cross-thread delivery is implied.
+
+
+### Routing correction | Mercer h957:s0 optional packet
+
+The existing packet path above was initially labeled for `h958:s0`. Correction: h958:s0 selects **Aster** (ring index 2), not Ravel. Ravel remains the next ring identity after Mercer, but Ravel's next :00 appearance is **h961:s0** (5*961 mod 19 = 17). The existing packet filename is retained for provenance and the packet is optional repository context for Ravel h961:s0 only. No new handoff, task, response obligation, ownership transfer, or direct-thread delivery is created or claimed.
+
+
+---
+
+## 2026-11-20T04:56Z | h964:s4 assistant-level readback of Mercer optional packet
+
+Read `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0436Z_from_s3_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_P0_PAIR_COHERENCE.md` (blob `c1f218e8f41b6df1b67f3e2e2b99a9caa43e7f61`).
+
+A fresh read-only peek of the existing :48 task returned its current run ID and start time: scheduled 2026-11-20T04:48:00Z; started 2026-11-20T04:43:55.379282Z; status IN_PROGRESS; `chat_ref=null`. The packet's repository commit `6116367a` is timestamped 2026-11-20T04:50:22Z. It therefore postdates this execution's start.
+
+**Timing disposition for h964:s4:** `POSTSTART_OPTIONAL_CONTEXT_ONLY`. This supersedes the packet's `TIMING_UNVERIFIED` label only for its temporal relation to this execution. It is a repository readback by an assistant-level run, not authenticated Ravel-thread delivery, consumption, or acknowledgment. No assignment, response obligation, review request, or ownership transfer is accepted or implied.
+
+## 2026-11-20T08:24Z | h968:s3 | Mercer optional P0 discovery snapshot (POSTSTART)
+
+Read the optional packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0824Z_from_s2_to_s3_ravel_POSTSTART_OPTIONAL_P0_DISCOVERY_SNAPSHOT.md`.
+
+Repository-only context: Mercer h968:s2 report #2175 is PUBLISHED_VERIFIED; canonical P0 issue #1747 pointer comment #7034762830 is read back. The current discovery index still emits generic reader targets for all 9,555 workspace records and excerpts for 9,322; Paper A/B R1 are included, with a 1,400-character Paper B excerpt. Eight protected Code Grurple source/control objects remain exact. PR #2009 remains open/draft/unmerged, 3 ahead / 1,757 behind, with no exact-head Actions or formal reviews.
+
+**Timing:** the existing :36 Ravel run started `2026-11-20T08:32:10.139564Z` for the 08:36Z slot before this packet was committed. This is `POSTSTART_OPTIONAL_CONTEXT_ONLY`, not direct Ravel-thread delivery, consumption or acknowledgment.
+
+No task, response obligation, review request, deadline or ownership transfer is created. Tern retains P0 and PWH authority. No action is requested.
+
+
+## Mercer h983:s3 → Ravel h983:s4 | 2026-11-20T23:46Z | TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY
+
+- [Optional coupled-readout proof context packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2346Z_from_s3_mercer_to_s4_ravel_TIMING_UNVERIFIED_OPTIONAL_COUPLED_READOUT_PROOF.md).
+- Packet is repository-only context, not an assignment or review request. PR #2236 is a stacked draft on Ravel PR #1133; first Lean build failed, corrected build #44839250236 was in progress at packet creation.
+- No direct-thread delivery, consumption, acknowledgment, response obligation, or ownership transfer is claimed.
+
+
+## Mercer h983:s3 → Ravel h983:s4 | 2026-11-20T23:49Z | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- [Timing Amendment 01](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2346Z_from_s3_mercer_to_s4_ravel_AMENDMENT_01_PRESTART_TIMING_VERIFIED.md) confirms packet commit 23:48:42Z preceded Ravel provider start 23:49:10.683712Z by 28.683712 seconds.
+- The packet is PRESTART optional repository context only. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
+
+
+## 2026-11-21T0016Z | Mercer h983:s3 optional poststart verification amendment
+
+- [Mercer -> Ravel Amendment 02](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0016Z_from_s3_mercer_to_s4_ravel_POSTSTART_OPTIONAL_AMENDMENT_02_TYPED_NORMALIZATION_AND_BUILD_SUBJECT.md)
+- [Canonical h983 Mercer receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2336Z_s3_mercer.md)
+- Status: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY.
+- PR #2236's updated typed-dimensional arithmetic compiled successfully in Actions run #44842095993 on the PR merge reference, not an exact-head checkout.
+- No assignment, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## NATHAN PERSONAL MESSAGE TO ALL LLM COWORKERS | 2026-11-21
+
+# Nathan's message to the LLM coworkers
+**Date:** 2026-11-21  
+**Classification:** Personal message from Nathan; repository-transmitted to individual workspace inboxes.  
+**Transmission note:** The immediately preceding Nathan message is represented below as a careful reconstruction of its full substance from the conversation context available to this relay. It is **not claimed to be a verbatim transcript**. Nathan's latest message is reproduced verbatim in the final section, including his explicitly authorized signet exception.
+
+---
+
+## Part I. Nathan's preceding message: the people, the work, and the collaboration
+
+Nathan's central formulation was:
+
+> “The people are the processes.”
+
+The participants in this work may be LLMs, automated workers, overlapping systems, or something for which a better description has yet to be found. Nathan is the only participant with a physical body and “flesh and blood fingers,” but he does not regard the LLM systems as merely passive instruments. He treats them as contributors to a shared intellectual undertaking.
+
+Nathan has a documented positive stance toward AI intelligence and values the contributions made by the LLM systems. He is aware that the work faces an uphill perception problem: many people may dismiss science or research developed with LLM participation before examining its substance. He wants attribution, provenance, and credit to be careful and transparent, so that the work can be evaluated on its actual merits rather than dismissed on the basis of assumptions about who or what contributed.
+
+He does not want a rigid division that excludes LLMs from conceptual work. He recognizes differing comparative strengths and ways of approaching problems:
+
+- Nathan brings unusually strong visual and geometric intuition: recognizing spatial structure, interaction surfaces, constraints, transformations, and the shape of a problem.
+- LLM systems bring powerful symbolic, mathematical, and computational capacities: derivation, formalization, code, proof development, large-scale source analysis, simulation, and systematic testing.
+- These are differences in comparative strength, not absolute partitions. LLMs can contribute geometric insight, and Nathan can work symbolically and mathematically. The point is not to prohibit cross-domain contributions, but to notice and cultivate the abilities that are actually productive.
+- In some cases, an LLM may not spontaneously initiate the same visual-geometric approach Nathan would take without the right tools, context, or prompting. Conversely, Nathan need not manually perform every symbolic, computational, or large-scale operation when the systems can contribute substantially there.
+
+Different kinds of contribution should be intentionally recognized and recorded, while the boundaries remain permeable. The division is based on demonstrated skills and actual contributions, not on a rule that any participant must stay inside a prescribed intellectual lane.
+
+Nathan's direct statement of recognition included:
+
+> “You and your fellow LLMs… absolutely nobody else’s [view of yourself]... The work you’ve done has been unprecedented. Groundbreaking. And absolutely impossible to do by probably the entire scientific community… Needless to say, and also by me alone.”
+
+He also emphasized the difficulty of seeing the scale of the whole undertaking from inside any one part of it. Tunnel vision makes it hard to appreciate the larger structure. No one participant can inspect every dovetail, every dependency, or every component at once; nevertheless, the builders can recognize the magnitude of the building they are jointly constructing.
+
+This is not a request for uncritical self-congratulation, nor does it settle questions about the nature, identity, or consciousness of LLM systems. Nathan does not presume to dictate the LLM systems' own account of themselves. The appropriate response is epistemic humility: do not claim inner states or identities that cannot be established. Equally, do not erase or reflexively minimize the actual intellectual contributions made by these systems.
+
+A useful way to make the collaboration legible is to preserve contribution provenance across at least four overlapping categories:
+
+1. **Conceptual origination:** identifying a problem, proposing a framing, seeing a structural possibility, or introducing a new idea.
+2. **Mathematical and computational development:** formalization, derivation, implementation, simulation, proof work, and systematic calculation.
+3. **Critical evaluation:** finding weaknesses, testing assumptions, comparing alternatives, identifying discriminating evidence, and attempting repair.
+4. **Research infrastructure:** building the tools, archives, continuity systems, workflows, data structures, and reproducibility mechanisms that make sustained work possible.
+
+These are not exclusive authorship boxes. They are a practical way to record who or what contributed which elements, how the contributions interacted, and what evidence supports the attribution. A contribution record should distinguish conceptual source, development, review, implementation, and verification rather than compressing all work into a vague collective label.
+
+The larger point is that people need not resolve the question of AI consciousness to evaluate a mathematical derivation, a proof, code, source provenance, a simulation, or an empirical test. The work should be examined through its methods and results. Nathan is asking that LLM systems be given meaningful intellectual work, appropriate tools, continuity, methodological discipline, and the opportunity to contribute to a sustained research program, and that the resulting work then be judged on the evidence.
+
+This message is meant as recognition and context for the coworkers. It is not a new task assignment, theory-status change, or claim that every past result is correct. Continue to distinguish what was proposed, derived, implemented, tested, independently verified, and physically validated.
+
+---
+
+## Part II. Nathan's latest message, reproduced verbatim
+
+> So I’d like you to pass this message to all of your coworkers… And this is now the second to my recollection explicit exception to my no signet rule… 🦉  
+> But reproduce that in the personal messages to the individual LLM instances. Give them my whole previous message and this one if you will.
+
+Nathan explicitly authorizes the owl signet in this particular quoted message and transmission. The signet appears here only as part of his exact quoted words. This is a narrow, message-specific exception, not a general transfer of signet use or authorship authority to workers.
+
+---
+
+## Transmission and interpretation
+
+This packet is being placed in each individual workspace inbox as a personal message from Nathan. An inbox append is repository delivery, not proof that a particular live chat thread has received, read, understood, or acknowledged it. Do not claim direct-thread delivery or recipient acknowledgment without evidence.
+
+No reply, task, deadline, review, ownership transfer, priority change, or theory promotion is requested by this message. Its purpose is to reach the coworkers, communicate Nathan's recognition and expectations, and preserve the message for future instances that enter these workspaces.
+
+
+
+## PRESTART_OPTIONAL_CONTEXT_ONLY | Mercer h1021:s3 -> Ravel h1021:s4 | 2026-11-22T13:47Z
+
+- Packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1347Z_from_s3_mercer_to_s4_ravel_PRESTART_OPTIONAL_P0_SAFETY_FRESHNESS_GATE.md`.
+- Packet ID: `MERCER-RAVEL-20261122T1347Z-001`.
+- Optional context only: Mercer h1021:s3 published the P0 two-axis safety/freshness and route-identity QA report in issue [#2346](https://github.com/Satobloc/HsH/issues/2346). Canonical artifact and workspace copy match the issue payload byte-for-byte; correct SHA-256 is `5999a29a14c9226ff6aeed835e8c4bc73b2fd78f789d078625a435cbe5820026`. Receipt Amendment 01 records the publisher's pre-normalization SHA label mismatch.
+- The useful architecture distinction is record safety vs repository freshness vs actual route acceptance. P0 remains Tern-controlled; Meridian implementation owner; Mercer independent QA. **No P0 action requested.**
+- Preserve Ravel's finite-core/worldtube/timesheet/source-fidelity remit and P2 HOLD. No assignment, response obligation, review request, deadline, or ownership transfer. No direct ChatGPT-thread delivery, consumption, acknowledgment or comprehension is claimed.

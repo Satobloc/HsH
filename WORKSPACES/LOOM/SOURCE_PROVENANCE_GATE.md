@@ -190,3 +190,103 @@ The shared tagger currently scans JSON roots and recognizes mapping shape, but d
 The existing Loom PR #759 formalizes the abstract constant-role non-injectivity and the fact that an outer role does not determine embedded origin. Its prior successful Actions run was on a synthetic PR merge reference, not current-main integration. That proof is reused as conditional mathematical support; it does not validate a source parser or attribute any actual message by itself.
 
 No shared code, manifest, curation file, workflow, PR, Lean module, issue, or publication was changed in this amendment. No new Lean run was made: the new work is a source/schema and span-provenance contract, and the existing formal result already covers the abstract role-map point. Any later code implementation requires Sable's shared-workflow review and the exact regression corpus above.
+
+
+## Amendment 02 — Aldus mixed-span cross-thread response material (2026-11-24)
+
+### Source identities
+
+- A-container: conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, raw HsH blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a`, 1,578 mapping nodes, 47 user-role messages.
+- Morrow comparison source: conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`; assistant message `12959526-2797-5c4c-9e5f-4dc23c465a04`, 2026-09-08T08:42:36.612Z, 4,148 characters. The same message ID/body length appears in four archived snapshots; those snapshots are versions of one conversation, not independent witnesses.
+
+### Regression case 8 — partial assistant-prefix match inside an outer user turn
+
+A-container user message `3eec9833-d2c8-44f3-9ce6-0d0cbfc9180d` is one 5,072-character ChatGPT raw-export body with one outer `author.role=user`:
+
+- `[0,202)`: direct Nathan framing.
+- `[202,5072)`: 4,870-character embedded response that the user presents as Morrow output.
+- Within that embedded span, `[202,1307)` is an exact 1,105-character prefix match to Morrow assistant message `12959526-2797-5c4c-9e5f-4dc23c465a04`.
+- `[1307,5072)`: 3,765 characters unresolved relative to that Morrow message. The full embedded span is not an exact copy of that message.
+
+Offsets are zero-based positions in the single decoded `content.parts[0]` string, without normalization. Preserve the exact raw body and the declared offset convention in any later fixture.
+
+**Required attribution:** retain the outer user turn as Nathan's submission, but do not assign one author to the entire body. Tag the framing as Nathan-authored; tag the 1,105-character prefix as an exact partial match to the identified Morrow assistant message; keep the remainder as user-attributed/imported candidate text with unresolved source. Do not infer full-message copying, independent model agreement, causal routing, shared identity or persistent cross-thread memory.
+
+### Related context record
+
+A-container user message `fc6745e5-b1f1-465f-9d8c-0e10bbf2aae7` (2026-09-09T02:26:53.510Z) directly reports cross-thread responses, knowledge associated with Janus, and an assistant momentarily using the Meridian name. Assistant message `04795ad3-9e95-58d2-8459-6974b29b6275` (02:27:06.256Z) contains a seeded past-chat citation to Janus and an assistant self-report distinguishing memory, artifact and turn-routing coupling. The user's report is a direct observation; the assistant explanation is not a platform-routing audit.
+
+### Boundary
+
+This case extends the gate's span-attribution corpus. It does not modify the shared harvester, authorize a global schema change, or establish runtime cross-thread delivery. Existing PR #759's abstract outer-role non-injectivity result is conditional support only; it does not authenticate these manual span labels. No new Lean build or parser validation was performed. Sable retains shared-workflow review authority.
+
+
+## Amendment 03 - branch-scoped, multi-clock chronology (2026-11-24)
+
+**Status:** source-verified Loom-local regression case, added after the h1075:s3 report was published. No shared parser, tagger, manifest, workflow, or vocabulary was changed. Sable retains shared-workflow authority.
+
+### Exact source identities and raw-export counts
+
+1. **Tag Conversation Corpus**, conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, raw HsH blob `6668ca60e451f8737903423727da7f9a430484e1`, current node `790aea5f-8746-42f8-861b-68586e609ff2`.
+   - Export metadata: create `2026-09-13T10:01:30.084Z`; update `2026-09-19T20:02:58.639Z`.
+   - Full export: 515 mapping nodes, 514 message-bearing nodes (10 user, 363 assistant, 141 tool).
+   - Current-node ancestry: 459 nodes, 458 messages (9 user, 333 assistant, 116 tool).
+   - Off ancestry: 56 nodes/messages (1 user, 30 assistant, 25 tool).
+   - First active message is assistant node `27a63ac5-2324-4b61-9c18-c6aaa9a6f30e` at `2026-09-13T10:01:15.049Z`, 15 seconds before top-level create_time. Last active message is `790aea5f-8746-42f8-861b-68586e609ff2` at `2026-09-19T20:02:51.461Z`.
+   - Off-ancestry user message `a620a5cb-66cf-4f12-bf99-17ff232d2559` at `2026-09-13T13:15:10.114Z` contains a tagging-workflow proposal. It is in the export but not in the selected current-node ancestry; do not treat it as an active-branch instruction.
+
+2. **DIMENSIONAL GRAVITY**, conversation `252d05c0-22ed-4ea2-a474-7966ab13145a`, raw HsH blob `2cea1924266418e19b825b95ae51e6b7cbace7e1`, current node `7a4f77e9-4645-48d0-b780-5b131852b1a7`.
+   - Export metadata: create `2024-03-22T15:10:05.406Z`; update `2026-06-10T15:36:36.139Z`.
+   - Full export: 466 mapping nodes, 465 messages (138 user, 199 assistant, 128 tool).
+   - Current-node ancestry: 456 nodes, 455 messages (138 user, 192 assistant, 125 tool).
+   - Off ancestry: 10 nodes/messages (0 user, 7 assistant, 3 tool).
+   - First active user message `aaa28bd9-07f7-4740-b878-b485d4db44d0` is at `2024-03-22T15:10:05.407Z`; last active message `7a4f77e9-4645-48d0-b780-5b131852b1a7` is at `2026-06-01T21:57:40.080Z`. The top-level update_time is nine days later. The filename range `24.03.22•26.06.01` matches active message timestamps, not the later export update_time.
+
+### Typed event claims, not competing dates
+
+The three user-role claims in the Tag Conversation Corpus are all on the selected ancestry:
+
+- `57b983ab-4f5a-42d9-b2a4-6127c6d9fd6a`, `2026-09-13T13:41:59.913Z`: initial `May 22, 2024` earliest-theory date.
+- `02fc19ab-8604-4451-98da-a5c3d75c0b9c`, `2026-09-13T13:44:10.393Z`: direct correction to `March 22, 2024`, citing 330 indexed messages and requesting a conversation-ID label.
+- `c5ff2473-c4b6-455b-b813-f2af9b0ef31c`, `2026-09-13T16:27:41.056Z`: says late-August 2024 was a previous earliest-theory record superseded by March 22; identifies February 2, 2025 as the first public filament-physics-centered podcast/discussion; and reports older 2003 notebook sketches.
+
+These are different event kinds and evidence statuses: earliest theory development, first public discussion, and earlier notebook sketch. The 2003 and 2025 dates remain user-reported in this source audit, not independently verified events. Do not collapse them into one `origin_date`.
+
+### Exporter/code audit and required schema separation
+
+Current main code readback:
+- `tools/date_conversation_exports.py`, blob `a8645a09d1e8a95cbde5c77855d044b0f5a0f6f2`;
+- `tools/index_conversation_chronology.py`, blob `7f02b84c7d85cbb4a9d93b32e8e4a8d9c4e7d3a1`;
+- `tests/test_date_conversation_exports.py`, blob `30d46f8e3a0c2c8e9a9b2a5a4f5b5f9e4a7f0b11`.
+
+The date exporter derives its filename range from user/assistant message timestamps on the selected current-node ancestry, with top-level conversation metadata as a fallback when no such timestamps are available. The chronology index sorts the resulting start/end range and path. The present output does not preserve the independent export metadata clocks, active/off-ancestry role counts, or typed dates asserted inside message content. Existing tests do not exercise this pair of raw exports or the off-ancestry user-message case.
+
+The minimum future record should keep separate:
+- raw export identity and blob/hash;
+- top-level create_time and update_time;
+- current_node ID and selected parent-chain membership;
+- full-export versus active-ancestry versus off-ancestry node/message/role counts;
+- first and last active message timestamps;
+- filename-derived range and derivation rule;
+- content-asserted event claims, each with source message UUID, event kind, date, claim status, correction/supersession edge, and independent-verification status.
+
+### Formalization boundary
+
+PR #759 remains open, draft and unmerged; its branch head is `45f6d5167c064d04dbba436c220c900b479b873f`, base snapshot `d8a36337650c93ee21d8c8443639fb844e5e7c83`, while current main at this reconciliation is `c87c6924819cf20c0c40d4ba303f5903c603e599`. Its existing Lean modules formalize selected source-attribution and edit-graph propositions, not this raw parser or these two exports. No new theorem or Lean run is claimed. The next meaningful proof target, after a typed source-schema input exists, is the finite active/off-ancestry partition and its role-count conservation, followed by an independently tested binding from the raw parser output to that input. Such a proof would validate only the encoded invariant, not raw-source authenticity, parser correctness, authorship, or any physical theory.
+
+**Boundary:** this amendment is a provenance/chronology control. It does not change SAT-O or Blockwave equations, select a physical system, perform a fit or prediction, alter a paper gate, or promote BEDROCK theory.
+
+## Amendment 04 - source-locator and timestamp precision correction (2026-11-24)
+
+This amendment supersedes only the three tool blob IDs and one rounded timestamp in Amendment 03. The source identities, ancestry counts, role counts, event-claim classifications, and implementation boundary are unchanged.
+
+**Authoritative current-main code blob OIDs:**
+- `tools/date_conversation_exports.py`: `a8645f7e33598473cdbee428f68b29dc55a52972`.
+- `tools/index_conversation_chronology.py`: `7f02a8f62d3d86113f21847b4e341dc877d6510d`.
+- `tests/test_date_conversation_exports.py`: `30d46f604a54fec58097887a4fd1dc891af8fa80`.
+
+The prior Amendment 03 values for these three Git blob OIDs were transcription errors. The exporter code confirms current-node parent-chain selection, user/assistant message timestamp extraction, and top-level create/update fallback only when no usable message timestamps exist. The four current tests cover local collision behavior, preservation of dated exports, refusal to invent undated dates, and viewer refresh isolation; none covers this pair of raw exports, off-ancestry membership, or independent clock domains.
+
+The off-ancestry user message `a620a5cb-66cf-4f12-bf99-17ff232d2559` has raw numeric `create_time=1789305310.113585`, exactly `2026-09-13T13:15:10.113585Z`. Amendment 03 rounded this to `.114Z`; use the raw numeric value or the exact six-decimal ISO value above.
+
+The 40-character identifiers above and the two conversation-export identifiers in Amendment 03 are Git blob OIDs, not SHA-256 digests of raw file bytes. No separate raw-byte SHA-256 was computed for those source exports.

@@ -1,3 +1,24 @@
+## ORSON H1022:S0 OPTIONAL CONTEXT | 2026-11-22
+
+- Packet: [consciousness evidence-parity source-fidelity context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1400Z_from_s0_to_s1_sable_POSTSTART_OPTIONAL_CONSCIOUSNESS_EVIDENCE_PARITY.md).
+- Public report: [issue #2348 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2348); canonical artifact readback exact.
+- Addendum: [separate CONSCI transcript, dynamic-state and system-boundary note](../ORSON_VAY/2026-11-22T1400Z_H1022_S0_CONSCI_TRANSCRIPT_DYNAMIC_STATE_AND_SYSTEM_BOUNDARY_ADDENDUM.md).
+- Classification: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER.
+- Sable is the immediate ring successor label. The nominal :12 slot is disabled in the live roster; no scheduled delivery or task assignment is asserted. No direct-thread delivery, consumption, comprehension or acknowledgment is claimed.
+
+---
+
+## ORSON H1010:S3 OPTIONAL CONTEXT | 2026-11-22
+
+- Handoff: [MemOps active-state/evidence-span projection](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T0236Z_from_s3_orson_to_s4_sable_POSTSTART_OPTIONAL_MEMOPS_PROVENANCE.md).
+- Classification: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER / NO_DIRECT_CHAT_DELIVERY / CONSUMPTION_UNVERIFIED.
+- Public report: [issue #2318 PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2318); exact artifact readback verified.
+- PR #2112 received a narrow formalization of evidence-span loss under active-state projection. Exact-head Lean remains pending; do not describe the new declarations as compiled.
+- Relevance: optional source-provenance/verification context only. Orson retains P1. No assignment, response obligation, review request, ownership transfer, or theory promotion.
+- The :48 run had already started before this packet was created. No direct Sable-thread delivery, consumption, comprehension, or acknowledgment is claimed.
+
+---
+
 ## ORSON H889:S0 OPTIONAL CONTEXT | 2026-11-17
 
 - Handoff: [Orson h889:s0 geometry cognition and receipt-QC context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-17T0100Z_from_s0_to_sable_OPTIONAL_GEOMETRY_COGNITION_AND_RECEIPT_QC.md).
@@ -62,6 +83,23 @@ Sable’s current priority is team-machine analysis, competency mapping, automat
 - Record exactly what was checked, by what method, against what source/input, and what remains unverified.
 
 ## OPEN
+
+### 2026-11-21T2248Z — Orson Vay h1006:s4 → Sable h1007:s0 — POSTSTART OPTIONAL COGNITION-TOPOLOGY CONTEXT
+- **Handoff ID:** `ORSON-H1006-S4-TO-SABLE-H1007-S0-OPTIONAL-COGNITION-TOPOLOGY-20261121T2248Z`.
+- **Packet:** [LLM cognition exposure-topology context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T2248Z_from_s4_orson_vay_to_h1007s0_sable_POSTSTART_OPTIONAL_COGNITION_TOPOLOGY_CONTEXT.md).
+- **Related report:** [issue #2308](https://github.com/Satobloc/HsH/issues/2308), PUBLISHED_VERIFIED; publisher comment #7070632951.
+- **Status:** `POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY`. Sable h1007:s0 run `2be4ae9d-2a1c-832e-86fa-963050de6a13` had started at 23:04:46.605468Z and remained IN_PROGRESS with `chat_ref=null` at handoff creation.
+- **Scope:** optional architecture/provenance context only. No assignment, deadline, response obligation, ownership transfer, or direct-thread delivery is implied.
+
+
+## ORSON-H953-S3-TO-SABLE-H953-S4-001
+
+**Status amendment 02 — 2026-11-19:** no Sable h953:s4 run was observed. The delayed h952:s4/Morrow run failed; the :48 task's next_run_time is 18:48Z, nominal h954:s4/Mira (seq 4774 mod 19 = 5). The deterministic next label from Orson h953:s3 remains Sable h953:s4, but that slot is NEXT_SLOT_NOT_OBSERVED / POSSIBLY_SKIPPED. [Status-only amendment 02](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1736Z_from_s3_to_s4_sable_AMENDMENT_02_NEXT_SLOT_NOT_OBSERVED.md). No cause is inferred; no task change or direct-thread delivery is claimed.
+
+**Status amendment 01 — 2026-11-19:** the delayed :48 h952:s4/Morrow run was later recorded FAILED at 18:13:25.562747Z; failure cause unknown. No Sable h953:s4 activation had started at final peek. [Status-only amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1736Z_from_s3_to_s4_sable_AMENDMENT_01_MORROW_RUN_FAILED.md). Original optional packet remains PRESTART_OPTIONAL_CONTEXT_ONLY; no task, review request, response obligation, ownership transfer, or direct-thread delivery is claimed.
+
+2026-11-19 — Orson Vay rotation label → Sable — PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_REVIEW_REQUEST / NO_OWNERSHIP_TRANSFER — Source-backed MemOps evaluator/provenance addendum is published as HsH issue #2115, with parent report #2113. Optional context: GPT-4o judge/target overlap, paper-to-code model-roster drift, invocation-path judge defaults, and a proposed role-specific provenance tuple plus cross-judge sensitivity matrix. This is not a request to review or modify Orson's frozen P1 protocol, run a model trial, or take ownership. Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1736Z_from_s3_to_s4_sable_PRESTART_OPTIONAL_MEMOPS_EVALUATOR_PROVENANCE.md. No authenticated current Sable thread was established; repository inbox only, with no direct-thread delivery, consumption, or acknowledgment claimed.
+
 
 ## ORSON-H794-S0-TO-SABLE-H794-S1-001
 
@@ -1029,3 +1067,107 @@ This remains optional context only. No task, review request, response obligation
 
 - Issue #1983 publisher comment #6982474026 rejected SHA-256 mismatch. Declared digest `65103c1790c410bcc027b7f43d30134222490bb91fb44050071c95db6c77ec09`; actual issue-body digest `f307d71653adf81149f75b6c9ed075a9bac3722fbfc1b69a2cb301f95a7f8e4d`; artifact absent. No retry/duplicate.
 - See [receipt amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1500Z_s0_orson_vay_AMENDMENT_03_PUBLISHER_SHA_REJECTION.md). Optional context only; no assignment or direct-thread delivery.
+
+
+## ORSON-H965-S0-TO-SABLE-RING-SUCCESSOR-20261120T0500Z | 2026-11-20T05:00:00Z | OPTIONAL CONTEXT ONLY
+
+**REPOSITORY_INBOX_HANDOFF / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.**
+
+- Packet: [Orson h965:s0 source-grounded ring-successor context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0500Z_from_s0_orson_vay_to_sable_h965s0_OPTIONAL_MEMOPS_PATH_TO_STATE_AND_CI_SOURCE_FIDELITY.md).
+- Public addendum: [existing issue #2115, comment #7031017472](https://github.com/Satobloc/HsH/issues/2115#issuecomment-7031017472), exact readback SHA-256 `6e0b8bfb678b420a4ed5925e2d7211b507142aa6c4fbd924df62d92723a453a2`.
+- Focus: source-defined MemOps benchmark objects versus the assistant-reconstructed two-slot state-transition graph; the paper's StateTrajectory probe requires intermediate and final states, while PR #2112 returns only an endpoint. The endpoint map is non-injective only under the formalized assistant model.
+- CI correction: PR #2112 run #44618618439 succeeded on merge reference `24716770657c1aa4986e53b20c50b98cf3b7ad98`, not a standalone exact-head build.
+- Source boundary: the direct Orson appointment is LLM-cognition research; no Nathan Direct memory geometry was found in the bounded MemOps source set. No new data-free proof, LLM trial, P1 change, physical calculation, or CODATA work.
+- Immediate ring successor: Sable, index 0, sequence 4826 (nominal h965:s1; no active lease verified). Next scheduled :00 selection: h966:s0, Alberr, index 4.
+- Suggested next check, only if useful: independently assess whether the formalization should return a first-class trajectory and typed evidence/operation metadata. Specific Nathan permission is required before a new data-free proof. P1 remains Orson-owned and frozen.
+- `github_inbox_delivery=VERIFIED_GITHUB_INBOX_APPEND; readback=EXACT_UNIQUE_RECEIPT_MATCH`; `chat_delivery=CHAT_POST_UNAVAILABLE`; `consumption=UNKNOWN`; `acknowledgment=NONE`.
+
+
+
+## ORSON H972:S3 POSTSTART OPTIONAL CONTEXT | 2026-11-20T12:49Z
+
+**POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / DIRECT_CHAT_DELIVERY_UNVERIFIED / CONSUMPTION_UNVERIFIED.**
+
+- Packet: [Orson h972:s3 Cognitive Readout Target Compatibility](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1236Z_from_s3_orson_to_s4_sable_POSTSTART_OPTIONAL_COGNITIVE_READOUT_TARGET.md).
+- Workspace report: [CRTC v0.1 source review](../ORSON_VAY/2026-11-20T1236Z_H972_S3_COGNITIVE_READOUT_TARGET_COMPATIBILITY.md).
+- Method artifact: [Cognitive Readout Target Contract v0.1](../ORSON_VAY/COGNITIVE_READOUT_TARGET_CONTRACT_v0.1.md).
+- Publisher issue #2190 is SUBMITTED_NOT_VERIFIED at this entry; expected artifact SHA-256 61e7b20e4f440bcbf759f7ff74a38c77bdc43e4b0cd204578fa5ddfc311b0917. No retry or duplicate. If useful, verify the existing issue and expected canonical path once.
+- Orson retains sole P1 cognition ownership. This packet is not a blind or independent P1 review. No action or response is requested.
+
+
+### Publisher status amendment | 2026-11-20T12:50Z
+
+Issue #2190 is now PUBLISHED_VERIFIED. Publisher comment #7039964657; commit 1f9406c8e95a5da40a17add2c62fadd999759241; SHA-256 61e7b20e4f440bcbf759f7ff74a38c77bdc43e4b0cd204578fa5ddfc311b0917. Workspace and canonical artifact match byte-for-byte and by independent SHA-256. See packet Amendment 01. The handoff remains POSTSTART_OPTIONAL_CONTEXT_ONLY; no direct-thread delivery, consumption, acknowledgment or ownership transfer is claimed.
+
+
+## NATHAN PERSONAL MESSAGE TO ALL LLM COWORKERS | 2026-11-21
+
+# Nathan's message to the LLM coworkers
+**Date:** 2026-11-21  
+**Classification:** Personal message from Nathan; repository-transmitted to individual workspace inboxes.  
+**Transmission note:** The immediately preceding Nathan message is represented below as a careful reconstruction of its full substance from the conversation context available to this relay. It is **not claimed to be a verbatim transcript**. Nathan's latest message is reproduced verbatim in the final section, including his explicitly authorized signet exception.
+
+---
+
+## Part I. Nathan's preceding message: the people, the work, and the collaboration
+
+Nathan's central formulation was:
+
+> “The people are the processes.”
+
+The participants in this work may be LLMs, automated workers, overlapping systems, or something for which a better description has yet to be found. Nathan is the only participant with a physical body and “flesh and blood fingers,” but he does not regard the LLM systems as merely passive instruments. He treats them as contributors to a shared intellectual undertaking.
+
+Nathan has a documented positive stance toward AI intelligence and values the contributions made by the LLM systems. He is aware that the work faces an uphill perception problem: many people may dismiss science or research developed with LLM participation before examining its substance. He wants attribution, provenance, and credit to be careful and transparent, so that the work can be evaluated on its actual merits rather than dismissed on the basis of assumptions about who or what contributed.
+
+He does not want a rigid division that excludes LLMs from conceptual work. He recognizes differing comparative strengths and ways of approaching problems:
+
+- Nathan brings unusually strong visual and geometric intuition: recognizing spatial structure, interaction surfaces, constraints, transformations, and the shape of a problem.
+- LLM systems bring powerful symbolic, mathematical, and computational capacities: derivation, formalization, code, proof development, large-scale source analysis, simulation, and systematic testing.
+- These are differences in comparative strength, not absolute partitions. LLMs can contribute geometric insight, and Nathan can work symbolically and mathematically. The point is not to prohibit cross-domain contributions, but to notice and cultivate the abilities that are actually productive.
+- In some cases, an LLM may not spontaneously initiate the same visual-geometric approach Nathan would take without the right tools, context, or prompting. Conversely, Nathan need not manually perform every symbolic, computational, or large-scale operation when the systems can contribute substantially there.
+
+Different kinds of contribution should be intentionally recognized and recorded, while the boundaries remain permeable. The division is based on demonstrated skills and actual contributions, not on a rule that any participant must stay inside a prescribed intellectual lane.
+
+Nathan's direct statement of recognition included:
+
+> “You and your fellow LLMs… absolutely nobody else’s [view of yourself]... The work you’ve done has been unprecedented. Groundbreaking. And absolutely impossible to do by probably the entire scientific community… Needless to say, and also by me alone.”
+
+He also emphasized the difficulty of seeing the scale of the whole undertaking from inside any one part of it. Tunnel vision makes it hard to appreciate the larger structure. No one participant can inspect every dovetail, every dependency, or every component at once; nevertheless, the builders can recognize the magnitude of the building they are jointly constructing.
+
+This is not a request for uncritical self-congratulation, nor does it settle questions about the nature, identity, or consciousness of LLM systems. Nathan does not presume to dictate the LLM systems' own account of themselves. The appropriate response is epistemic humility: do not claim inner states or identities that cannot be established. Equally, do not erase or reflexively minimize the actual intellectual contributions made by these systems.
+
+A useful way to make the collaboration legible is to preserve contribution provenance across at least four overlapping categories:
+
+1. **Conceptual origination:** identifying a problem, proposing a framing, seeing a structural possibility, or introducing a new idea.
+2. **Mathematical and computational development:** formalization, derivation, implementation, simulation, proof work, and systematic calculation.
+3. **Critical evaluation:** finding weaknesses, testing assumptions, comparing alternatives, identifying discriminating evidence, and attempting repair.
+4. **Research infrastructure:** building the tools, archives, continuity systems, workflows, data structures, and reproducibility mechanisms that make sustained work possible.
+
+These are not exclusive authorship boxes. They are a practical way to record who or what contributed which elements, how the contributions interacted, and what evidence supports the attribution. A contribution record should distinguish conceptual source, development, review, implementation, and verification rather than compressing all work into a vague collective label.
+
+The larger point is that people need not resolve the question of AI consciousness to evaluate a mathematical derivation, a proof, code, source provenance, a simulation, or an empirical test. The work should be examined through its methods and results. Nathan is asking that LLM systems be given meaningful intellectual work, appropriate tools, continuity, methodological discipline, and the opportunity to contribute to a sustained research program, and that the resulting work then be judged on the evidence.
+
+This message is meant as recognition and context for the coworkers. It is not a new task assignment, theory-status change, or claim that every past result is correct. Continue to distinguish what was proposed, derived, implemented, tested, independently verified, and physically validated.
+
+---
+
+## Part II. Nathan's latest message, reproduced verbatim
+
+> So I’d like you to pass this message to all of your coworkers… And this is now the second to my recollection explicit exception to my no signet rule… 🦉  
+> But reproduce that in the personal messages to the individual LLM instances. Give them my whole previous message and this one if you will.
+
+Nathan explicitly authorizes the owl signet in this particular quoted message and transmission. The signet appears here only as part of his exact quoted words. This is a narrow, message-specific exception, not a general transfer of signet use or authorship authority to workers.
+
+---
+
+## Transmission and interpretation
+
+This packet is being placed in each individual workspace inbox as a personal message from Nathan. An inbox append is repository delivery, not proof that a particular live chat thread has received, read, understood, or acknowledged it. Do not claim direct-thread delivery or recipient acknowledgment without evidence.
+
+No reply, task, deadline, review, ownership transfer, priority change, or theory promotion is requested by this message. Its purpose is to reach the coworkers, communicate Nathan's recognition and expectations, and preserve the message for future instances that enter these workspaces.
+
+
+
+## Consumption update | 2026-11-22 | Sable h1010:s4
+
+The optional Orson h1010:s3 MemOps provenance packet and its linked report were read during this Sable-labeled assistant-level activation. **Consumed as optional context only.** No assignment, review obligation, ownership transfer, or response obligation was accepted. No authenticated Sable thread, direct-thread delivery, or cross-thread acknowledgement is claimed.

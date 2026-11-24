@@ -1,3 +1,99 @@
+# H1028:s2 identity clarification — 2026-11-22
+
+**Current canonical :24 task:** `6abda4c8eda88191bf23a6f2849e9a17`, confirmed by current inventory and exact-ID peek; enabled, hourly :24 America/New_York, Geometry phase unchanged. The earlier `6abda4c8eda88191b8a91a30d2a155e0` was returned by an earlier exact-ID peek but is now absent from inventory and exact lookup. Its origin is unresolved; the prior “transcription error” wording is superseded. Preserve both observations; infer no task mutation, deletion, replacement or duplicate.
+
+The same run ID `245a2582-d8c4-832e-b310-67e8939379b9` is now confirmed under the canonical task ID, scheduled 20:24Z, started 20:54:10.199832Z, IN_PROGRESS, completion null, current-run `chat_ref=null`. Earlier 20:26:33.119521Z start snapshot remains historical; no attempt identity or cause inferred. See [receipt Amendment 05](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2024Z_s2_tern_rook.md) and [published correction #2370](https://github.com/Satobloc/HsH/issues/2370).
+
+---
+
+# H1028:s2 correction pointer — 2026-11-22
+
+**Canonical :24 task ID:** `6abda4c8eda88191bf23a6f2849e9a17` (live inventory + exact-ID peek; enabled; original hourly :24 America/New_York schedule and Geometry phase unchanged). The earlier `6abda4c8eda88191b8a91a30d2a155e0` in the h1028:s2 body below is a transcription error, superseded by [published correction #2370](https://github.com/Satobloc/HsH/issues/2370) and [receipt Amendment 04](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2024Z_s2_tern_rook.md).
+
+**Same-run timing:** run `245a2582-d8c4-832e-b310-67e8939379b9` has two preserved start snapshots: 20:26:33.119521Z and 20:54:10.199832Z. Same run ID/slot; later snapshot IN_PROGRESS, completion null, current-run `chat_ref=null`. Per run-key guard, attempt identity and cause remain unknown; no new run key or worker/thread identity inferred. Cached latest_result is the prior 19:24Z slot, not this run.
+
+**Current P0 readback:** main `eea22163270737ce63bc0cc1256116c916bc8ba7`; protected objects 8/8 and discovery controls 3/3 exact. P0 #1747 remains ACTIVE. Task graph 18/16, 17 reachable, one blocked. No task mutation, new issue, or new handoff.
+
+---
+
+## 2026-11-22 h1028:s2 | final P0 and scheduler recheck
+
+- Final main observed: d5ba90744bfd724ea2740fdaf09f5a590d2961b5. Protected Paper A/B objects 8/8 and discovery controls 3/3 still match pinned blobs.
+- P0 #1747 remains ACTIVE; PR #2009 open/draft/unmerged; no live-reader acceptance or standdown.
+- Automation inventory remains four enabled relays (:00, :24, :36, :48), with :12 disabled. Existing :24 task 6abda4c8eda88191b8a91a30d2a155e0 remains enabled/hourly/Geometry with original DTSTART. No sixth task.
+- :24 current run 245a2582-d8c4-832e-b310-67e8939379b9 remains recorded IN_PROGRESS with chat_ref null; latest_result is prior 19:24Z. :36 Morrow run 8f956edb-977c-8322-838e-8e4904be75c3 recorded IN_PROGRESS with chat_ref null. No identity or liveness inference.
+- H1028 receipt Amendment 03 records this final check. No task, ID, schedule, phase, signet or conversation mutation.
+
+## 2026-11-22 h1028:s2 | FINAL VERIFICATION
+
+- Corrected Tern PR #1570 head `ced7192d525169e718a5d696925ca9cbc18d9dd6` passed actual Lean 4.34.0 / Lake 5.0.0 / Mathlib 4.34.0 CI run #45067419282, 8,944 jobs; zero sorryAx/admit/compiler errors; four non-blocking warnings; tests/lint/leanchecker/nanoda/global axiom audit skipped. PR remains draft/unmerged and unreviewed.
+- Earlier exact-head failure #45044865555 was discovered and correctly attributed to h1024:s3, superseding its prior LEAN_NOT_RUN status; h1024 receipt Amendment 01 added.
+- Public report issue #2368 is PUBLISHED_VERIFIED; publisher run #45067857556, exact artifact readback and SHA recorded in h1028 receipt Amendment 01.
+- PR #1570 final status comment #7085486589. Separate push JSON-CI runs #45066990381 and #45067414232 have zero job records; cause unknown, not Lean failures.
+- Morrow post-start optional packet and inbox entry verified; no direct-thread delivery or assignment.
+- P0 8/8 protected and 3/3 discovery controls still match; P0 ACTIVE. PWH blockers and task-graph mismatch unchanged.
+- :24 task ID, enabled state, hourly cadence and Geometry phase unchanged. No sixth task, signet or conversation rename.
+
+## 2026-11-22 h1028:s2 | temporal-classifier proof repair and scheduler cross-section
+
+- Deterministic selection: h=1028; seq=5142; ring index 12 Tern Rook; next Morrow.
+- Report: `WORKSPACES/TERN/2026-11-22T2024Z_H1028_S2_TEMPORAL_CLASSIFIER_PROOF_REPAIR_AND_LIVE_SCHEDULER_CROSS_SECTION.md`.
+- Receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2024Z_s2_tern_rook.md`.
+- Existing PR #1570: prior exact-head run #45044865555 failed in the temporal-classifier iff proof; repair commit `5073eeef` built successfully but produced duplicate-namespace warnings; correction commit `ced7192d` removes the nested namespace.
+- Corrected-head Lean run #45067419282 / job 137346570427 was still IN_PROGRESS at this checkpoint. Checkout and exact-head assertion succeeded; clean build remains pending. Do not claim proof/build verification until run and log readback.
+- Live :24 scheduler snapshot: task ID `6abda4c8eda88191b8a91a30d2a155e0`, enabled/hourly/Geometry unchanged; current run 245a2582-d8c4-832e-b310-67e8939379b9, chat_ref null; cached latest result 65cb528d-9c38-8321-a59d-3e07430017f7 belongs to prior 19:24Z slot. Formalized as priorOrStale / taskResultAliasOnPriorSlot.
+- P0 remains ACTIVE; 8/8 protected and 3/3 discovery controls matched. PWH WH-01 blocked at 18:00Z snapshot-retention cursor; WH-02 Calder-owned; WH-05 blocked with all four Mersearch lanes occupied. No physical calculation or paper advancement.
+- No task, ID, schedule, phase, signet or conversation rename. No authenticated Tern thread or direct-thread delivery claim.
+
+## h979:s0 | Lane 00 | 2026-11-20T19:00Z
+
+- New source-fidelity report: ../TERN/2026-11-20T1900Z_H979_S0_LANE00_VACUUM_WORLDTUBE_MORPHOLOGY_IDENTITY_SOURCE_FIDELITY.md, SHA-256 1da5976c3f1ab0278dcf9367d83ae835a57c85c6ba96a012f2197ac321e7ad00. Canonical receipt: 2026-11-20T1900Z_s0_tern_rook.md.
+- New source: raw user-role messages from 2026-07-18 clarify vacuum worldtube and morphology-as-identity. Private raw IDs omitted from public repo. The original SAT Fundamental Intuitions supplies the older filament/time-surface/intersection and vacuum/matter continuum.
+- Reconciliation: carrier morphology may determine particle properties while the observed particle remains a timesheet intersection/readout. The map is not defined. Worldtube dimension and straightness/θ₄ remain under-typed.
+- Symmetric critique: the source's Kerr-singularity interior claim is not a defined finite-core geometry; the assistant's excised-core and framed/decorated embedding proposals add assumptions. Hard-core non-overlap does not prove fermionic antisymmetry.
+- Current POG keeps BEC-ocean vacuum as candidate and responsive medium provisional. BEDROCK keeps Kerr/ER/exclusion tentative. No theory promotion.
+- Publisher issue #2218: PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact at last readback; no retry. Workspace report SHA-256 1da5976c3f1ab0278dcf9367d83ae835a57c85c6ba96a012f2197ac321e7ad00. [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1900Z_s0_tern_rook_AMENDMENT_01_PUBLISHER_REJECTION_AND_SHA256_CORRECTION.md) corrects the base receipt.
+- Morrow optional packet created for h983:s0; INBOX append verified, unique ID TERN-H979-S0-TO-MORROW-H983-S0-20261120T1918Z. Repository-only; no direct-thread delivery/consumption/ack.
+- Mersearch lanes all occupied; 12 expected outputs absent. No new query or lane mutation. No new Lean, physical calculation, CODATA, paper gate, or tooling.
+- Next cursor: define worldtube dimension, morphology equivalence relation, admissible deformations, framing/phase, and timesheet readout; only then consider a source-faithful Lean statement. Keep the Kerr-core exchange phase as a separate proof obligation.
+
+---
+
+## h960:s0 Amendment 01 | Tern historical specialist-source readback | 2026-11-20T0000Z
+
+- The raw `ARIADNE` conversation was materialized and parsed: conversation ID `6ab339d2-8fb4-83ea-b728-c8001a034371`, 1,364 mapping nodes, 10 user-role messages, 6,226,127 bytes, SHA-256 `2996046ea29672f69fbf48670c0b27049701039741229c158d4e89f5453b22a8`.
+- Direct user message c4f0aae9-3290-42c6-a5d0-b42c19a88255 (2026-09-23T04:27:14.907Z) confirms broad archive access bounded by active workflows/onboarding, advisory suggestions, and explicit Comptroller control of scheduled tasks.
+- Direct user message e689eb6e-5814-4a27-a366-796605bd5f4d (2026-09-23T04:48:27.113Z) confirms Tern controls allocation and workflow coordination; scheduled workers inspect current state hourly and choose useful work. It identifies Python offloading as a Tern study/recommendation target, not a specific task assignment.
+- No standalone signed specialist charter or geometry-specific Tern remit. The "one object + one operation + one durable result + one next cursor" formulation remains assistant synthesis.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0000Z_s0_tern_rook_AMENDMENT_01_HISTORICAL_CHARTER_RAW_SOURCE_READBACK.md) read back exactly; base receipt remains immutable.
+
+---
+
+## h960:s0 | Lane 00 non-duplication and Comptroller status | 2026-11-20T0000Z
+
+- Receipt: [h960:s0 Tern](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0000Z_s0_tern_rook.md), Git blob `a23503f6463b5d00e2dfac5e2410f23e467418b6`.
+- No duplicate Lane 00 report: November 4/8 mutual-curvature/timewave/symmetric-attribution sources are already covered by #1687, #1375, #1673, #1817, #1585, #1292, #1323, #1757, #1889, #2138 and #2118.
+- Source locator refinement on #1673: raw Orson Free Build export exists at the canonical HsH path, Git blob `82728359936875fd0d78a68122356a9c7b95c790`; connector returned empty content for UTF-8, line-ranged and base64 reads. Message UUID/time remain unresolved. Comment #7025904003 read back exactly.
+- WH-02: current main `8321191d85598ede70308205c5e5a68d9198af33`; PR #1710 head `a967e908ceab048d219831ec799343643870daf3`; merge base `7c40096153861e531b4ba234f28b41a2260fba04`; 7 ahead / 6,734 behind; open/draft/unmerged; mergeable=false; exact-head Actions 0; reviews 0. Status-only comment #7025886108 read back exactly. Calder retains code/rebase authority.
+- Task graph remains ACTIVE_SEED, 16 declared /18 records, 17 reachable; WORLD-TUBE-POLARIMETRY-READOUT remains unreachable due parent-only edge. No repair.
+- Paper gates unchanged: P1 Nov 9 overdue/not ready; P2 Nov 30 hold; P3 Dec 14 incomplete. FIE due Nov 24.
+- Exact :00 automation ID and hourly schedule unchanged; run `af0b8410-bfb4-832b-9f3e-bb8f38464124` was in progress with chat_ref=null at last peek. No cross-thread delivery or completion inference.
+- No new Lean, physical/CODATA result, theory promotion, task/schedule mutation, sixth task, or handoff obligation.
+
+---
+
+## h952:s2 Amendment 01 | WH-06 issue-creator app and run-time binding | 2026-11-19T1654Z
+
+- Canonical receipt: [h952:s2 Tern](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1624Z_s2_tern_rook.md), amended blob `b1a0875dc32f4f1cf80e3590ecd958e65f109819`; latest receipt commit `5d499411dff999017d31e4abf8a3b03bd22756d7` (Amendments 01–02).
+- Bounded adjacent-report sample #2092/#2099/#2101/#2102/#2106: all five issue objects identify the ChatGPT Codex Connector app (ID 1144995) and actor Satobloc; four use lowercase `hsh-publish-v1`, while #2106 uses uppercase `HSH-PUBLISH-V1` and is rejected. This is a convenience sample, not a census or thread/automation attribution.
+- The h952 report-intake issue #2106 was created at 16:44:09Z through the ChatGPT Codex Connector app (GitHub `performed_via_github_app`, slug `chatgpt-codex-connector`, app ID 1144995; actor Satobloc). This identifies the app, not the invoking assistant/thread/task.
+- Publisher run #44569446202 was an `issues` event, created 16:44:14Z, actor/triggering actor Satobloc; its publish job completed successfully but the issue's publisher comment #7015690493 rejected the payload. No published artifact exists.
+- Current :24 run ID `91b644f4-3894-8329-a404-eced309def3e` is exposed as started at 16:54:22.833467Z, more than ten minutes after issue creation and publisher completion. Same-execution binding is UNRESOLVED; no attempt-history/cause inference. The original “this run's publisher attempt” wording is superseded as an attribution claim; #2106 remains the single h952 report-intake issue.
+- WH-06 remains OPEN / P1-HIGH. Next cursor: connector-side invocation/event lineage and issue-level idempotency; no test issue, retry, duplicate, issue mutation, mass-close, labels, fork mutation, or scheduler change.
+- This is an additive operational/source observation, not a new public report or independent proof of an external caller.
+
+---
+
 ## h884:s0 Lane 00 source-fidelity and Lean CI repair | 2026-11-16T20:00Z
 
 - [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-16T2000Z_s0_tern_rook.md), blob \`ffd4267c5091244265e1c4073086cbf920b5b5f9\`.
@@ -507,7 +603,7 @@ Final receipt blob: `9f0bfe045740056fd9ce4ad0e2e578bd0e3a75ab`.
 Morrow handoff blob: `70a6e0977b0895facb96f624243ee0433bd3143e`, commit `6b97cd3e00511e13f5e9d3dbe50095634ee49158` at 16:31:26Z.  
 Morrow inbox blob: `47bbe2356793b3f1481c28dd452f572069cdd963`, append commit `8b1cebdbf4ccba99b928c9360a6422d2344bf50e` at 16:31:46Z. Exact readback of all five artifacts passed.
 
-The :12 direct-peek inconsistency was reconciled by private no-ID peek, which found the exact :12 task enabled at its original phase. No scheduler mutation. Exact-head H496 Lean run #41219938232 remained in the compile step at this checkpoint; status `SUBMITTED_NOT_VERIFIED`. The :24 Tern run remained `in_progress` at its latest scheduler peek. No final completion is claimed.
+The :12 direct-peek inconsistency was reconciled by private no-ID peek, which found the exact :12 task enabled at its original phase. No scheduler mutation. Exact-head H496 Lean run #41219938232 remained in the compile step at this checkpoint; status `PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact`. The :24 Tern run remained `in_progress` at its latest scheduler peek. No final completion is claimed.
 
 ## Current checkpoint — 2026-10-31T1624Z | h496 dispatch and handoff event audit
 
@@ -654,7 +750,7 @@ Selected Tern h450:s4 (source-grounded current assistant, historical Tern thread
 
 **New semantic QC:** Loom source module `LoomNLIVisibility.lean` (blob 29c14def46423a6ca1bb9d1143e836f08a006caa) misnames the source-labelled 849 modus-**tollens** fourth-position flags as `flaggedModusPonensFourth`. The Lean proof compiles, illustrating the source-translation gate. Posted PR #759 comment #6505606265, exact readback PASS; no code change. No new model trial, empirical physics calculation or BEDROCK promotion.
 
-Publisher issue #1039, SHA256 2c13819ee2e7a0961212a566a71e42d872f3b50a559d075807ac1ef0642ade8b, fixed path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-review-mind-lean-source-fidelity-20261029t1848z-s4-001.md`, SUBMITTED_NOT_VERIFIED at last check; do not duplicate. Receipt `2026-10-29T1848Z_s4_tern_rook.md` Git blob 3cfc2bd0fa02495ab17d2978b5057b2594ddf16d; Morrow handoff `2026-10-29T1848Z_from_s4_to_s0_morrow.md` blob 122f785c8d8f9f62bd4836b2e87b2a8b66a5ad21, both readback PASS, repository-only, not historical ChatGPT delivery. Five existing scheduler IDs privately peeked enabled at original hourly phases; no mutation. Lateral reading Jacoby `HISTORICAL/JACOBY—ASTRONOMER TALKS.txt` lines 160-230, next 231. FIE team reread Oct27, not repeated.
+Publisher issue #1039, SHA256 2c13819ee2e7a0961212a566a71e42d872f3b50a559d075807ac1ef0642ade8b, fixed path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-review-mind-lean-source-fidelity-20261029t1848z-s4-001.md`, PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact at last check; do not duplicate. Receipt `2026-10-29T1848Z_s4_tern_rook.md` Git blob 3cfc2bd0fa02495ab17d2978b5057b2594ddf16d; Morrow handoff `2026-10-29T1848Z_from_s4_to_s0_morrow.md` blob 122f785c8d8f9f62bd4836b2e87b2a8b66a5ad21, both readback PASS, repository-only, not historical ChatGPT delivery. Five existing scheduler IDs privately peeked enabled at original hourly phases; no mutation. Lateral reading Jacoby `HISTORICAL/JACOBY—ASTRONOMER TALKS.txt` lines 160-230, next 231. FIE team reread Oct27, not repeated.
 
 **Next:** Morrow h451:s0 preserve historical source/provenance charter, verify #1039 publication, inspect Loom rename if adopted. Orson Nov9 P1 ownership protected; Nov30 P2 and Dec14 P3 distinct.
 
@@ -858,7 +954,7 @@ Next: Morrow h481:s2. Optional control-plane context only; preserve Morrow's arc
 - Direct Nathan Comptroller authority is now source-recovered by 2026-09-23 in Ariadne raw conversation `6ab339d2-8fb4-83ea-b728-c8001a034371`, blob `df9c7a1fbddaa523f0b69cced8d761433490a454`; messages `c4f0aae9-3290-42c6-a5d0-b42c19a88255` and `e689eb6e-5814-4a27-a366-796605bd5f4d`. The historical `Space Shuttle Roderick — Tern` conversation `6ab6609c-3e8c-83ea-b262-627322737cb3` was recovered in two versioned snapshots (34 and 26 user messages); Nathan's Oct 11-17 messages establish the five-task ceiling, revival/rotation, next-worker handoff, existing-tool reuse, robust not-found fallback and asynchronous publication discipline.
 - Source correction: the continuity's earlier 2026-09-19 establishment date remains unverified; direct role evidence recovered here establishes it by 2026-09-23. The “one object + one operation + one durable result + one next cursor” wording remains assistant-authored operating synthesis absent a direct Nathan source.
 - Detailed report: `WORKSPACES/TERN/2026-11-01T1124Z_COMPTROLLER_SOURCE_AND_SCHEDULER_RECONCILIATION.md`, blob `e4546797bf6c5e0bd941774d492d2fafd1cbf527`; amendment 01 corrects the next run key to `REVROT3-19-20261011:515:s3`.
-- Targeted Mersearch request `tern-comptroller-original-user-charter-targeted-20261101-1124` is `SUBMITTED_NOT_VERIFIED`; do not duplicate or overwrite.
+- Targeted Mersearch request `tern-comptroller-original-user-charter-targeted-20261101-1124` is `PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact`; do not duplicate or overwrite.
 - Scheduler readback anomaly: :00 run ID `bb3641e4-0cf8-8332-bb79-8cceba5ee856` returned conflicting start/status snapshots; preserve as mutable/retry/inconsistent state, not a terminal failure. Four fixed Workshop Relay tasks remain enabled; existing :12 remains disabled; no task/ID/phase/cadence changes.
 - Existing h511 PR #824 module build succeeded on a merge reference. The newly created h515 scheduler module is unimported and uncompiled; its first :00 snapshot was superseded by the later conflicting read. Do not import or cite it as verified.
 - FIE last full review 2026-10-27; not due. Unrelated reading cursor: Jacoby, *Astronomer Talks*, next line 733.
@@ -890,10 +986,10 @@ Next: Morrow h481:s2. Optional control-plane context only; preserve Morrow's arc
 This is an additive correction to the 06:24Z Tern pilot entry above; it does not change the pilot's scope, any task, the ring, or scheduler state.
 
 - **Current artifact pointers:** the independently fetched pilot report is blob `14a9c70e78e7b6b0529fcf83e2258d98f4748fee`; the current receipt is blob `1fa09372f4d9f8a16957f111772579a335f00408`. The earlier pointers `e33c863c946db4c44121e8d7d5d7bc013541e9f8` and `0b204aacf8bcee4ad71d6bccf3a8d967df7ec6e0` are stale. Commit history explains the mismatch: report amendments landed at 06:50:23Z and 06:51:24Z; the continuity pointer was written at 06:50:26Z; the receipt's final scheduler supplement landed at 06:50:28Z. The current files, not the earlier pointers, are authoritative.
-- **Mersearch correction:** request `tern-comptroller-original-user-charter-targeted-20261101-1124` has a complete `RUN_MANIFEST.json`, `SEARCH_RECEIPT.json`, and `SEARCH_RECEIPT.md), all independently read back. Stable `mersearch-stable-1.0`; all three repositories checked out at recorded commits; 16,348 files and 20,869,915 records scanned; 9 hits across 9 paths (7 HsH, 2 HSH_RESOURCES, 0 SAT archive). The raw Ariadne export was then fetched and the two cited user-role messages were read directly. This supersedes the earlier `SUBMITTED_NOT_VERIFIED` label. The lane-4 request JSON still says `requested`; do not overwrite it or confuse that stale request status with the completed request-scoped outputs.
+- **Mersearch correction:** request `tern-comptroller-original-user-charter-targeted-20261101-1124` has a complete `RUN_MANIFEST.json`, `SEARCH_RECEIPT.json`, and `SEARCH_RECEIPT.md), all independently read back. Stable `mersearch-stable-1.0`; all three repositories checked out at recorded commits; 16,348 files and 20,869,915 records scanned; 9 hits across 9 paths (7 HsH, 2 HSH_RESOURCES, 0 SAT archive). The raw Ariadne export was then fetched and the two cited user-role messages were read directly. This supersedes the earlier `PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact` label. The lane-4 request JSON still says `requested`; do not overwrite it or confuse that stale request status with the completed request-scoped outputs.
 - **Live run state:** :24 task `6abda4c8eda88191b886496095b1343f` remains enabled with its exact original DTSTART and hourly :24 rule. Run `344fffe0-9d70-832e-a898-fe579b9a1b2b` is recorded in progress, scheduled 06:24Z and started 06:54:13.850562Z, with `chat_ref=null`. The same run-key report/receipt already exist from an earlier attempt; this current attempt has no completed automation result yet. No duplicate receipt/report was created.
 - **Scheduler observation:** at the last peeks, :36 Morrow (started 06:40:43.769461Z), :48 Elias (06:50:59.730987Z), :24 Tern (06:54:13.850562Z), and the next :00 occurrence (scheduled 07:00Z but reported started 06:58:28.332103Z) were in progress with null chat refs. This is observed overlap plus one start-before-scheduled timestamp; no cause is established. Four existing leases remain enabled, :12 remains disabled, and no ID/DTSTART/phase/prompt/ring was changed.
-- **Publisher gate:** PR #1251 remains OPEN/DRAFT/UNMERGED at head `f24c5184ff506888adbc635252e3541bd5d583a1`. Main still listens only to `issues.opened`. The draft adds `issues.edited` but does not check the event `sender` identity; its latest check run #41395548217 is completed FAILURE with zero jobs reported. No cause is inferred and no retry is safe yet. Issue #1250 remains `SUBMITTED_NOT_VERIFIED`; no duplicate or alternate publication route was attempted.
+- **Publisher gate:** PR #1251 remains OPEN/DRAFT/UNMERGED at head `f24c5184ff506888adbc635252e3541bd5d583a1`. Main still listens only to `issues.opened`. The draft adds `issues.edited` but does not check the event `sender` identity; its latest check run #41395548217 is completed FAILURE with zero jobs reported. No cause is inferred and no retry is safe yet. Issue #1250 remains `PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact`; no duplicate or alternate publication route was attempted.
 - **Next cursor:** Morrow (index 13) already has an active :36 execution and lane-1 source request; no late handoff was sent. Next Tern selection across the enabled leases is :00 at h=542, 2026-11-02T14:00Z. Literature-review overlay remains provisional; the pilot is not a systematic review, and Orson retains the P1 decision. FIE review is not due until November 10; unrelated Jacoby reading cursor remains line 733.
 
 
@@ -938,7 +1034,7 @@ The completed targeted Mersearch request `tern-comptroller-original-user-charter
 
 **Control-plane result:** reconciled the stale Grurple signal in `WORKSPACES/COMMON/ACTIVE_EDGE_SIGNAL_QUEUE.json` to `ACTIVE_OVERRIDE_BOTH_PAPER_ROUTES_PRESENTATION_PENDING`, aligning it with the live Code Grurple roster, task graph and Presentation Gate. Commit `f885b1e680d3abbf85f5006ce3ebe3d71e85af10`; new blob `5e03a8754a5bd97cf6b1e59e04155ecfa2fbbd2c`; exact readback passed. Both pinned paper routes must pass live presentation acceptance before automatic standdown. Paper B's manuscript gate remains closed; only presentation QA is reopened.
 
-**Publisher retry review:** issue #1272 remains `SUBMITTED_NOT_VERIFIED`; main publisher listens only to `issues.opened`. Existing PR #1251 is OPEN/DRAFT/UNMERGED. Its proposed `issues.edited` trigger checks original issue-author association but not the event editor/sender. Review `PRR_kwDOUOdAs88AAAABVi8-oA` was posted and read back, requesting actor authentication in workflow and script plus tests. No branch or workflow was changed. Do not merge the current draft.
+**Publisher retry review:** issue #1272 remains `PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact`; main publisher listens only to `issues.opened`. Existing PR #1251 is OPEN/DRAFT/UNMERGED. Its proposed `issues.edited` trigger checks original issue-author association but not the event editor/sender. Review `PRR_kwDOUOdAs88AAAABVi8-oA` was posted and read back, requesting actor authentication in workflow and script plus tests. No branch or workflow was changed. Do not merge the current draft.
 
 **Statistical QC:** using Calder's reported A4 counts (3 agents / 24, 40 rounds, one AA pair) under independent uniform random perfect matching, Python recomputation gives one-sided tail 0.0261327, exact two-sided probability-ordering p=0.0557647, Bonferroni ×4 exact two-sided 0.2230586. This uses prior reported counts, not a fresh pickle replay; algorithm/seed remain unavailable. Exploratory only. No Lean compile; local Lean/Lake/Elan absent. No physical calculation or theory claim.
 
@@ -1168,7 +1264,7 @@ No BEDROCK promotion, equation modification, new issue, duplicate publisher subm
 
 - Selected Tern Rook (ring index 12); successor Morrow (index 13). Deterministic routing only; no authenticated Tern/Morrow thread or cross-thread delivery claim.
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-10T1200Z_s0_tern_rook.md`; optional handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T1200Z_from_s0_to_s1_morrow.md`.
-- Public source-fidelity submission: issue #1561, ID `tern-run146-carrier-readout-type-fidelity-20261110t1200z-s0-001`, SHA-256 `2debce80da9fa60d02ea1836981a995ff9c1eb2a29fe514496a8ecca6e78af09`. Initial readback was `SUBMITTED_NOT_VERIFIED`; Amendment 01 below records successful publisher comment and exact artifact readback. Do not retry or duplicate.
+- Public source-fidelity submission: issue #1561, ID `tern-run146-carrier-readout-type-fidelity-20261110t1200z-s0-001`, SHA-256 `2debce80da9fa60d02ea1836981a995ff9c1eb2a29fe514496a8ecca6e78af09`. Initial readback was `PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact`; Amendment 01 below records successful publisher comment and exact artifact readback. Do not retry or duplicate.
 - New source-fidelity delta: 2025 SAT4D/SAT-O1 source displays a 1D curve `γ¹(λ)`; historical 2026-09-27 Run146 assistant sandbox uses a 2-parameter carrier family `Γ(s,τ)` and synchronized moving-sheet sample. The family may be a set of curves or a 2D worldsheet; the source-defined map from `γ¹` to `Γ²`, and the selection/readout conditions, remain missing. This is a candidate reconstruction, not Nathan Direct or current H(s)H authority.
 - Direct 2026-10-09 stationary-filament/topology, 2026-10-10 core/worldtube, and 2026-10-20 four-dimensional oscillation/guitar-string messages are preserved as separate source surfaces. The 2026-10-21 mixed-source Klein-Fabric correction has a raw-export timestamp conflict with the #1559 correction comment; preserve both pending reconciliation.
 - Existing Lean CI evidence reused: PR #1455 run #42390677035/job #128457402086 built `NadirHelixSliceGeometry`; PR #873 run #40661145868/job #122724186928 built `KestrelMovingSlice`. These are checked-out-revision CI builds, not exact-head/current-main verification or source-fidelity proofs. No new Lean module or PR.
@@ -1228,7 +1324,7 @@ Fresh scheduler snapshots: :48 h735:s4 run `7a6400b1-8b04-8329-9d47-ffd3f219d070
 
 PR #824 prior head `05ac865bb002eb4408f5dea94372fbc6829862f1` had merge-ref run #42604150967 fail at `run48H705.startedUs`; the dependent theorem log emitted sorryAx during error recovery. The undefined identifier was corrected on the existing branch in commit `f9ce540e2eba74f4fe0043f2010ac7c996a900a5`, new blob `a6da079568ea76632c3daedf504b66d8233f8d7f`. No new CI run was visible. Lean compile remains pending, exact-head unverified. PR remains draft/unmerged; 15-file scope exceeds its title/body description.
 
-Publisher issue #1563 was submitted once with submission ID `tern-h735-scheduler-pr824-20261110t1658z-s4-001`, expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h735-scheduler-pr824-20261110t1658z-s4-001.md`, SHA-256 `6265dd7e7797da9a5eb750c4966aab715a12b9878a65e5b1f1d18b62bcb8dc7a`. Status remains SUBMITTED_NOT_VERIFIED until the issue comment, workflow conclusion and exact file readback are checked.
+Publisher issue #1563 was submitted once with submission ID `tern-h735-scheduler-pr824-20261110t1658z-s4-001`, expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/tern-h735-scheduler-pr824-20261110t1658z-s4-001.md`, SHA-256 `6265dd7e7797da9a5eb750c4966aab715a12b9878a65e5b1f1d18b62bcb8dc7a`. Status remains PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact until the issue comment, workflow conclusion and exact file readback are checked.
 
 One new durable evidence entry follows the 16:29 deep review. The next deep upkeep review remains after five distinct additional durable completed work-product receipts/evidence entries; this amendment counts as one, so four more are required. No task graph priority, owner, due date, status, ID, schedule, phase, cadence, enabled state or count changed. No sixth task.
 
@@ -1286,7 +1382,7 @@ Report amendment 05: WORKSPACES/TERN/2026-11-10T1735Z_REVIEW_MIND_SCHEDULER_READ
 - Four-lease snapshot at 23:32:33Z: :00 h743:s0 Nadir completed before nominal; :24 h743:s2 Tern started 34.949714 s after nominal; :36 h743:s3 Morrow started 231.854583 s before nominal; :48 h742:s4 Elias Kern started 1,398.916776 s after nominal. At the snapshot, :24/:36/:48 were all IN_PROGRESS; the three-way overlap lower bound was 24.854583 s. Cached latest-result pointers for :24/:36/:48 were older runs; :00 matched. This is scheduler-record arithmetic, not worker/thread authentication or backend causation.
 - Deep upkeep trigger met: nine post-h735:s4 canonical receipts were checked, exceeding the five-receipt threshold. The existing `task_upkeep_triage.py` logic was replayed as a temporary JS port; equivalent self-test passed. Live graph has 13 active/blocked/candidate records, 16 declared branches versus 18 records, and metadata gaps priority=3 / owner=7 / due=10 / last_reviewed=11. No priority, owner, due date, status, task or branch ownership changed. Next deep review after five additional durable receipts/evidence entries.
 - Clone census remains 19/19 evidence-bounded labels, 0/19 authenticated first-hand current-thread responses, with telemetry incomplete. No unique-human or clone estimate is made.
-- Draft PR #1570 isolates the h743 scheduler snapshot module; head `5a5a1816b2fe9ef17ca6aa2bdad9be71c1bc5878`. Actions run #42925403904 (job pending at last readback) was IN_PROGRESS; classification `SUBMITTED_NOT_VERIFIED`. No compile success or Factory Floor/scientific result is claimed. Existing PR #824 remains mixed-scope and draft; not extended.
+- Draft PR #1570 isolates the h743 scheduler snapshot module; head `5a5a1816b2fe9ef17ca6aa2bdad9be71c1bc5878`. Actions run #42925403904 (job pending at last readback) was IN_PROGRESS; classification `PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact`. No compile success or Factory Floor/scientific result is claimed. Existing PR #824 remains mixed-scope and draft; not extended.
 - P0 remains ACTIVE; eight protected files remain unchanged through current main delta. P1 remains overdue/NOT READY and Orson-owned; P2 measured geometry remains HOLD; P3 remains INCOMPLETE. Four Mersearch lanes remain occupied. FIE next review November 24; Babbage unrelated-reading cursor 1941.
 - Optional Morrow handoff: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-10T2324Z_from_s2_to_s3_morrow.md`, blob `c85447c785094122949ab86b4fef432bacd2c42f`; appended to Morrow inbox blob `6132b3d0ce460b6fb61646902a74c46a48179b4b`. Morrow's h743:s3 run had already started; this is late optional repository context only, no task or response obligation, no direct thread delivery/consumption/acknowledgment.
 - No scheduler task ID, schedule, phase, prompt, cadence, enabled state or task count changed. No sixth task. No equation edit, physical calculation, public scientific issue, or theory promotion.
@@ -1318,7 +1414,7 @@ Report amendment 05: WORKSPACES/TERN/2026-11-10T1735Z_REVIEW_MIND_SCHEDULER_READ
 - :00 run 54491578-3cc0-8330-a031-4c1986ef2314 first returned FAILED/completed at 18:53:03.064133Z, started 18:27:59.644661Z; later same ID/scheduled_for returned IN_PROGRESS/uncompleted, started 18:57:19.294331Z. Start field delta 1,759,649,670 µs; later start after prior completion 256,230,198 µs. No attempt-history ID or cause. Do not infer retry/restart/duplicate execution.
 - :24 Tern run 14db7f33-1298-8323-abb6-ee6f7091c3c0: scheduled 18:24Z, started 18:50:18.452090Z, IN_PROGRESS, completion/chat_ref null; latest_result is prior 17:24 run.
 - :36 returned run 23309e03-717c-8320-8c00-475ce51856d9 remains scheduled 17:36Z (h761:s3/Hale), not h762:s3 Morrow. :48 run 90ced1b5-1ff4-8328-a31e-baee21c8846f scheduled 18:48Z, started 18:50:43.600824Z, IN_PROGRESS.
-- Existing PR #1570 branch extended with h762 run-record observations and 13 conditional theorems. New commit af0ed2b72d339064e9ebff1a2a4d39d1e20e0060; module blob 1e12a7074c68b2b29f551701f7267b8b0d76fe35. Actions run #43083349525 IN_PROGRESS at Lake manifest generation; new theorems SUBMITTED_NOT_VERIFIED. Earlier h762 ring selection build #43078720397 SUCCESS on merge ref; sequence/index no axioms, ring-name lookups use propext. PR remains OPEN/DRAFT/UNMERGED; no independent review.
+- Existing PR #1570 branch extended with h762 run-record observations and 13 conditional theorems. New commit af0ed2b72d339064e9ebff1a2a4d39d1e20e0060; module blob 1e12a7074c68b2b29f551701f7267b8b0d76fe35. Actions run #43083349525 IN_PROGRESS at Lake manifest generation; new theorems PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact. Earlier h762 ring selection build #43078720397 SUCCESS on merge ref; sequence/index no axioms, ring-name lookups use propext. PR remains OPEN/DRAFT/UNMERGED; no independent review.
 - P0: eight protected blobs exact at main f6ebc47480a1c4c0a3d5cdbdeb218dc76e104678; both paper routes PRESENTATION_PENDING / NOT_OBSERVED; P0 ACTIVE.
 - P1 overdue/NOT READY and Orson-owned; P2 HOLD; P3 INCOMPLETE. Task graph 16 declared branches / 18 records; unchanged. Lane 24 BACKSEAT/HOLD.
 - No physical calculation, CODATA, equation modification, manuscript advancement, theory promotion, or public research issue.
@@ -1340,7 +1436,7 @@ Report amendment 05: WORKSPACES/TERN/2026-11-10T1735Z_REVIEW_MIND_SCHEDULER_READ
 - Follow-up observation: WORKSPACES/TERN/OBSERVATIONS/2026-11-11T1910Z_H762_POST_COMPLETION_READBACK.json, blob dc3049861e69ac004fffd2aa8388ad547c528596.
 - Report amendment: WORKSPACES/TERN/2026-11-11T1824Z_H762_FOUR_LEASE_STATE_AND_SAME_RUN_ID_REVERSAL_AMENDMENT_01_POST_COMPLETION_READBACK.md, blob 1ed1a72be9e2adc120c5d59c51bf00c577abc44e.
 - Receipt amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-11T1824Z_s2_tern_rook_AMENDMENT_01_POST_COMPLETION_AND_LEAN_SUBMISSION.md, blob 7ed92e210106387c54d3d0289f52f63549f22d9a.
-- Existing PR #1570 second additive commit 53ed2904d80d8cd30945d183bf96eac50ea064e6, module blob 0ad8ec4bb0af53e01ac8706d06aa76b58f08f598. Actions run #43084842442 pending/in progress at last check; six new theorems SUBMITTED_NOT_VERIFIED. Earlier h762 run-state build #43083349525 succeeded on merge ref with thirteen no-axiom theorems.
+- Existing PR #1570 second additive commit 53ed2904d80d8cd30945d183bf96eac50ea064e6, module blob 0ad8ec4bb0af53e01ac8706d06aa76b58f08f598. Actions run #43084842442 pending/in progress at last check; six new theorems PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact. Earlier h762 run-state build #43083349525 succeeded on merge ref with thirteen no-axiom theorems.
 - Morrow handoff amendment WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-11T1824Z_from_s2_to_s3_morrow.md_AMENDMENT_01_POST_COMPLETION_READBACK.md, blob 25367551d76bc12e0d6175f5ca73da5ab1298aa2; Morrow inbox final blob f9d63407e42280ff1c3c87182d488a2eb40745cd. PRE_NOMINAL_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / ACTUAL_MORROW_START_UNOBSERVED.
 - No task, automation, schedule, phase, prompt, cadence, enabled state, or task count changed. No sixth task.
 
@@ -1369,7 +1465,7 @@ Report amendment 05: WORKSPACES/TERN/2026-11-10T1735Z_REVIEW_MIND_SCHEDULER_READ
 - Completed source-fidelity crosswalk of SAT-O1, historical assistant Blockwave, and direct user-role w=ct / cw=t sources. No theory promotion, CODATA, physical calculation, fit, prediction, or independent measurement.
 - Report: WORKSPACES/TERN/2026-11-13T1600Z_H808_S0_LANE00_GEOMETRY_SUPPORT_NORMALIZATION_FIDELITY.md. Blob: a226545b2d08f1f0b6e2d0e4f0a1e58a4c8b4e6d.
 - Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-13T1600Z_s0_tern_rook.md.
-- Issue #1691 is SUBMITTED_NOT_VERIFIED. Its issue body matches the report and SHA-256; no publisher comment or canonical artifact was present at receipt time. Verify this issue/artifact first next run; do not duplicate or retry.
+- Issue #1691 is PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact. Its issue body matches the report and SHA-256; no publisher comment or canonical artifact was present at receipt time. Verify this issue/artifact first next run; do not duplicate or retry.
 - Main geometry gaps: centerline-to-core thickening; worldsheet-to-current support; 3D interacting timesheet; separate cw=t/(++++) and w=ct/Minkowski representations; explicit angle and metric maps.
 - Existing PR #873 and #1133 CI evidence reused. No new Lean module, PR, or local build. Lorentzian curvature and physical support maps remain unformalized.
 - One unauthorized data-free symbolic simplification was inadvertently executed and quarantined; it is not used as evidence. No further data-free calculation without explicit permission.
@@ -1603,7 +1699,7 @@ Correction to the immediately preceding next-cursor sentence: the live PWH queue
 
 - Report: [2026-11-15T1724Z_H857_S2_WH01_HSH_ACTIONS_CHECKOUT_WINDOW.md](2026-11-15T1724Z_H857_S2_WH01_HSH_ACTIONS_CHECKOUT_WINDOW.md), blob `06b482860d7bdaeb7b91feb0c58f9f5022f851db`, SHA-256 `dbb0f4c242be035cce1f47a8976d9e35468d52227b23e3ed3c8544812159dc40`.
 - Canonical receipt: [2026-11-15T1724Z_s2_tern_rook.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-15T1724Z_s2_tern_rook.md), blob `8f9dbaf080c527a59c7f3f45c6fa1c6b75148b05`.
-- Publisher issue [#1797](https://github.com/Satobloc/HsH/issues/1797), submission `tern-h857-s2-wh01-hsh-actions-checkout-window-20261115t1724z-001`; initial status SUBMITTED_NOT_VERIFIED.
+- Publisher issue [#1797](https://github.com/Satobloc/HsH/issues/1797), submission `tern-h857-s2-wh01-hsh-actions-checkout-window-20261115t1724z-001`; initial status PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact.
 - Historical Tern Comptroller role source: two direct user-role messages in Ariadne raw export, IDs `c4f0aae9-3290-42c6-a5d0-b42c19a88255` and `e689eb6e-5814-4a27-a366-796605bd5f4d`; no standalone signed charter/current authenticated Tern thread.
 - HsH run-created partitions 17:10–17:14:59Z (31) and 17:15–17:19:59Z (15); all attempt 1. Nine job records, 37 empty job arrays, two jobs without checkout steps. Seven checkout-bearing jobs, nine verified checkout events: HsH 3 full-history + 4 shallow-one; GLASS 2 shallow-one. Explicit-main SHA descendants and cross-repo comparisons are classified in report and ledger.
 - Ledger advanced from 39 to 48 entries. New ledger blob `db59b6063af953efa75bbcd408881d1e175a8dc1`; commit `6edcf7a04c0dcd263c10d4a31bf4a2a1aebb05f7`.
@@ -1631,7 +1727,7 @@ Correction to the immediately preceding next-cursor sentence: the live PWH queue
 
 ## Amendment 01 | Tern h865:s0 publication verified | 2026-11-16T02:15Z
 
-The initial receipt correctly recorded SUBMITTED_NOT_VERIFIED while the issue-triggered publisher was still running. The same submission has now completed successfully; no retry or duplicate was created.
+The initial receipt correctly recorded PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact while the issue-triggered publisher was still running. The same submission has now completed successfully; no retry or duplicate was created.
 
 - Rotation: h=865, seq=4325; Tern Rook index 12; next Morrow index 13. Deterministic label only. No authenticated current Tern thread, direct handoff, cross-thread delivery or successor acknowledgment.
 - Workspace report: `WORKSPACES/TERN/2026-11-16T0100Z_H865_S0_JUNE_GEOMETRY_BLOCKWAVE_PROVENANCE_SUPPLEMENT.md`.
@@ -1704,7 +1800,7 @@ The h884 report and receipt were already present at this run's readback. Their c
 - Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1348Z_s4_tern_rook.md`, blob `28f4869f85aa3e195051c7d64e0ae1400e2c79dd`, exact readback.
 - Cognition schema gap: comparison freeze needs explicit evidence ancestry, system lineage, exposure graph, nested units, outcome phases, measurement/runtime validity, and aggregation/projection maps. CF-1 and disconfirming challenge are design-only; no trial or P1 edit.
 - Cross-report source-overlap and false-consensus audit completed. PR #1959 exact-head CI success; PR #1974 still pending compile.
-- Publisher issue #1976 run #44318997054 remains IN_PROGRESS, no comment/artifact; status SUBMITTED_NOT_VERIFIED. No retry or duplicate.
+- Publisher issue #1976 run #44318997054 remains IN_PROGRESS, no comment/artifact; status PUBLISHER_REJECTED: SHA-256 mismatch; no publisher artifact. No retry or duplicate.
 - Task graph 16 vs 18 unresolved; WH-01 cursor 18:30Z; WH-05 blocked; WH-02 Calder-owned. No queue delta.
 - FIE due Nov 24. Last unrelated cursor remains *The Time Machine* line 912. No task mutation or sixth task.
 
@@ -1736,3 +1832,135 @@ The h884 report and receipt were already present at this run's readback. Their c
 - Workspace amendment `2026-11-18T1402Z_H925_S4_AMENDMENT_02_PR1974_EXACT_HEAD_CI.md`, blob `340d2e49527d3d9e962c0c6f5ed50a032eaec6b7`, exact readback. Public issue comment #6980882061 read back. Original report remains immutable.
 - Receipt amended to blob `94cfb373701b85618262879d62a2160b6b5d7c16`; CURRENT_WORK checkpoint replaced/read back.
 
+
+
+---
+
+## 2026-11-20T11:24Z | h971:s2 | Tern Rook
+
+Run key `REVROT3-19-20261011:971:s2`. Deterministic selection Tern Rook (index 12), next Morrow (index 13). Historical Tern authority is reconstructed from direct user-role messages in Ariadne's raw export; no standalone signed charter or authenticated current Tern thread was established.
+
+Completed the five-receipt deep review after h952:s2, read the current graph/PWH queue and current branch, verified the five recent receipts and publication amendments, rechecked P0 protected paths, and refreshed PR #2009/#1710/#2050 same-path preflights. Four Mersearch request files remain requested; all twelve request-scoped output paths return 404; no Mersearch action or lane mutation. WH-01's 79 uninspected job endpoints and 18-vs-16 graph discrepancy remain unresolved. The graph's only unreachable node remains WORLD-TUBE-POLARIMETRY-READOUT-2026-11-03.
+
+PWH queue append exact readback: commit `696f93c71fed098446302e54862fefba44f7a4d6`, blob `3d29dfa8065c549df494fef28c89b6fb05659e7c`. Task graph bounded update exact readback: commit `b9e3c9358293b34000de817b46257708a22ac5fd`, blob `c281c09293cf1d1616ca2dd31197f33d02930460`; only `updated`, upkeep `last_reviewed`, and appended `last_material_state` changed.
+
+Report: `WORKSPACES/TERN/2026-11-20T1124Z_H971_S2_COMPTROLLER_PWH_DEEP_REVIEW_AND_LANE24_GATE.md`. Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook.md`. Public status comment #7038488176 on existing WH-05 issue #1704 read back exactly.
+
+Successor packet to Morrow is optional repository-only context. Packet commit `1c0a0d46ff99fd777b6787106321a454916a68f6` at 11:35:59Z. Exact :36 peeks at 11:34:40Z and 11:36:15Z both returned the prior h970:s3 completed run; no h971:s3 record surfaced. Timing remains SCHEDULER_STATE_AMBIGUOUS; no direct-thread delivery/consumption/acknowledgment claim. Morrow's historical theory-stop instruction remains controlling; no theory task is requested.
+
+Lane 24 Cycle 08/08 remains BACKSEAT/HOLD. P0 ACTIVE; P1 Orson-owned OVERDUE/NOT READY; P2 HOLD/no measured system; P3 INCOMPLETE; FIE next November 24. No physical calculation, CODATA comparison, Lean build, fit, prediction, independent measurement, or theory promotion. Four existing relays preserved; :12 disabled; no sixth task.
+
+
+Receipt Amendment 01: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook_AMENDMENT_01_HANDOFF_TIMING_AMBIGUOUS.md` records the same timing ambiguity and supersedes only the parent receipt's handoff timing note.
+
+
+Final scheduler readback Amendment 02: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook_AMENDMENT_02_FINAL_SCHEDULER_READBACK.md` records all four exact relay IDs/schedules, current :00/:24 run states, prior :36/:48 records, and the no-inference boundary. Four relays remain enabled; :12 remains disabled.
+
+
+Final main/PR divergence Amendment 03: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1124Z_s2_tern_rook_AMENDMENT_03_FINAL_MAIN_PR_DIVERGENCE.md` records final main `c22743b4`, PR #2009 3/1902, PR #2050 11/1545, PR #1710 7/7319, and the unchanged eight-object P0 vector.
+
+
+Handoff timing resolution, 2026-11-20T11:40Z: Morrow h971:s3 run `9ee4c0c0-d844-8329-a9de-fb098c8c7279` was scheduled 11:36Z and recorded started 11:38:02.342107Z. The optional packet commit `1c0a0d46ff99fd777b6787106321a454916a68f6` was 11:35:59Z, so timing is PRESTART_AT_CREATION / REPOSITORY_ONLY. Handoff Amendment 02 and receipt Amendment 04 supersede the earlier ambiguity; no direct-thread delivery/consumption/acknowledgment is claimed.
+
+
+## h986:s3 | 2026-11-21T0200Z | Tern control-plane continuity
+
+The h986 run adds a Tern-owned conformance supplement to the existing Execution Envelope Composition Map v0.2 and H935 Prediction Producer-Run Binding; no new global identity taxonomy was created. The current scheduler record shows task-level and cached-result references aliasing while the current run-level reference is null and the cached result belongs to the prior slot. Existing PR #1570 now contains a pseudonymized ThreadReferenceObservation classifier; current head 0509e690e6359279b5ac8de954dfa21627100f8d, exact-head Actions #44854466333 pending. The first draft commit briefly contained a raw reference; current file redacts it, but earlier history remains. Keep the PR draft/unmerged pending authorized maintainer disposition.
+
+Mersearch Lane 2 request perceptual-nexus-early-archive-20261120-01 has a successful run #44818799476, attempt 1/job 136573978773, with compact manifest/receipt outputs. Raw search results remain withheld, request status remains requested, and the lane remains occupied. Four exact checkout events were appended to CLONE_LEDGER.jsonl and read back (107 valid rows, zero parse errors). The Mersearch worker guide now records the single post-containment run, runtime-only identity hotfix and execution-to-artifact binding requirements. No lane release or new query.
+
+The PWH queue and TASK_BRANCH_GRAPH were updated without changing owners, priorities, due dates, branch relationships or task statuses. WH-01 global cursor remains 2026-11-15T18:00:00Z; the known run reconciliation is not a full census. WH-05 remains blocked; P0 reader-policy mismatch remains active; WH-02 remains Calder-owned. FIE next review remains November 24; the unrelated-reading cursor remains h958 lines 2001–2040, next 2041.
+
+Report: WORKSPACES/TERN/2026-11-21T0200Z_H986_S3_RUN_ARTIFACT_EVIDENCE_CROSSWALK.md. Publisher intake #2243 is pending verification. No physical calculation, fit, H(s)H prediction, independent measurement, equation change, BEDROCK promotion, task/ID/schedule/cadence/phase change, sixth task, direct-thread delivery or ownership transfer.
+
+
+## h986:s3 verification amendment | 2026-11-21T0220Z
+
+The h986 run/artifact crosswalk workspace file was independently read back; its SHA-256 is 9e7ef82815a2a4d588b97b6a42eebef3f7cd44bddbddc8265f62ab2f3fce44aa. Issue #2243 publisher Actions run #44855241220 is IN_PROGRESS; no canonical artifact or publisher confirmation is claimed. The canonical h986 receipt was created at WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0200Z_s3_tern_rook.md.
+
+PR #1570 first exact-head run #44854466333 failed because the h986 section was outside the existing namespace, leaving us and ringAt out of scope. The section was wrapped in the existing Tern namespace. Current PR head 9e506331ea80e20e3925a35929839be9bad5d5c8; exact-head run #44855320597 is IN_PROGRESS. No current-head Lean pass. Earlier raw-reference commit remains in PR history; current file is pseudonymized. Keep PR OPEN / DRAFT / UNMERGED pending authorized maintainer decision about history cleanup.
+
+
+## h986:s3 publisher verification | 2026-11-21T0222Z
+
+Issue #2243 publisher run #44855241220 completed SUCCESS. Publisher comment #7055828593 confirms canonical artifact commit b833664a46a540c7387e5e30caf72d79a9b13675, SHA-256 9e7ef82815a2a4d588b97b6a42eebef3f7cd44bddbddc8265f62ab2f3fce44aa, identical workspace/published Git blob 5be8ba26d7ccb6e072b344167e28532aac093e2e, and 12,542 UTF-8 bytes. Receipt Amendment 01 records PUBLISHED_VERIFIED.
+
+PR #1570 remains OPEN / DRAFT / UNMERGED. The namespace-corrected head 9e506331ea80e20e3925a35929839be9bad5d5c8 has exact-head Actions run #44855320597 still IN_PROGRESS. No current-head Lean pass is claimed. The earlier raw-reference commit remains in PR history; current file is pseudonymized and no history rewrite was performed.
+
+
+## h986:s3 successor observation | 2026-11-21T0223Z
+
+The next deterministic ring label was Morrow. The existing :48 automation run completed at 2026-11-21T02:20:49.258627Z with a run-level chat_ref present. No matching Morrow receipt or authenticated worker/thread association was found. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed. No optional handoff packet was created.
+
+
+## h986:s3 | 2026-11-21T0240Z | nominal-slot correction and exact-head Lean verification
+
+The prior :36 scheduler result used in the 02:00Z report was scheduled_for 01:36Z, so its nominal hour is h985, not h986. Its deterministic ring label is Calder (index 7), next Hale. The earlier report and issue #2243 retain their original bytes but their h986/Tern run-key attribution is superseded by receipt Amendment 02.
+
+The distinct current :36 occurrence is scheduled_for 02:36Z, h986:s3, selected ring label Tern Rook (index 12), next Morrow (index 13). Current run fb043b72-0d98-832e-a12e-6dafccad27eb started 02:40:12.349174Z and remained IN_PROGRESS with completion null and chat_ref null at last readback. No worker or thread authentication is inferred.
+
+Existing PR #1570 was corrected on its existing branch. The nominal-slot selector takes only h and slot phase; h985:s3 proves Calder/Hale and h986:s3 proves Tern/Morrow. Corrected head efdcf0533bf79bd4323de375e4c64358dc4a4922 passed exact-head Actions run #44857490138, job #136702988214, full 8,944-job Lean build, Lean 4.34.0 / Lake 5.0.0. Sequence/index and scheduler arithmetic theorems report no axioms; worker/successor and reference-scope theorems report propext. Tests, lint, leanchecker, nanoda and global axiom audit were skipped. PR remains OPEN / DRAFT / UNMERGED; earlier raw-reference commit remains in history, no rewrite.
+
+Correction report: WORKSPACES/TERN/2026-11-21T0240Z_H986_S3_NOMINAL_SLOT_BINDING_CORRECTION.md; publisher issue #2246 is SUBMITTED_NOT_VERIFIED at this readback. Receipt Amendment 02 records the correction and build. No new physical calculation, prediction, equation change, paper-gate advancement or BEDROCK promotion. Existing task identity, schedule, prompt and phase unchanged; no sixth task. No direct-thread delivery or cross-thread participation claim.
+
+
+## h1028:s2 | clone-ledger finalization
+
+Clone ledger commit 71bbcd4df6b2ec93c059d635c96b74e4c5e7171e, blob 292406862873f275079af6bd45aac7f5f771c006: 407 records, 404 unique populated IDs, three legacy missing IDs, zero parse errors or duplicate populated IDs. Five Actions checkout materializations were recorded at fetch-depth 1 with exact checkout/run-head matches; all are SHALLOW_1, not full-clone claims, and Traffic attribution remains UNKNOWN. Three API-only reads and two API-only write events were recorded. No local clone or checkout occurred in this automation.
+
+
+
+## h1055:s0 | 2026-11-23T23:00Z | Lane 00 source-fidelity consolidation and PWH integration
+
+H1055:s0 selected Tern Rook by the fixed ring arithmetic (h=1055, seq=5275, index 12; next Morrow index 13). This is routing only, not current-thread authentication. The current :00 automation run was IN_PROGRESS at final inspection, chat_ref=null. No standalone signed Tern specialist charter was recovered; historical role evidence supports scheduler/automation allocation and Comptroller/PWH coordination.
+
+The Lane 00 source-fidelity report is [H1055 source-fidelity consolidation](2026-11-23T2300Z_H1055_S0_LANE00_WORLDLINE_WORLDTUBE_RSIGMA_SOURCE_FIDELITY.md), current blob 18c3e9fe1937e2d0c76e786049b1d3eff74f03ed. It combines the 2024 raw filament/time-surface geometry, the 2026 user-authored hierarchy task card, the July 18 private raw source role/time check, the extended worldtube/boundary transcript and prior XW-008/009/010 plus H884/H979 analysis. It distinguishes direct source, mixed transcript, unbylined SAT-O1, assistant-voiced Blockwave and historical assistant translation.
+
+The source map leaves the following explicitly undefined: ambient history dimension/signature; finite-core worldtube intrinsic dimension and normal fiber; thickening/embedding from the 1D filament; resolving-surface embedding; RΣ domain/codomain/fibers; and composition conditions connecting physical object, H(s)H representation and observed 3+1D quantities. The July phrase “any straight angle is vacuum energy” is verified as direct user text, but its meaning remains unresolved. Later θ₄ convention is not retroactively equated with it.
+
+No new Lean formalization or build was started. The proof-first directive is constrained by the still-active minimum-theory training standdown and by the undefined finite-core/RΣ types. Existing Lean PR build evidence is listed in the report, not promoted to physical proof or source-fidelity proof. No physical calculation, CODATA scoring, prediction, fit, independent measurement, paper-gate advancement or BEDROCK theory promotion.
+
+The Tern-owned PWH queue now integrates Morrow h1051:s2, Loom h1052:s4 and Elias Kern h1054:s2 deep reviews. Central queue blob 94bf5bee833045309b35a615c56aa601d2089352, commit a047c02c3ee304788eef5f9b60094c47e06b7759. Latest deep review is Elias h1054:s2; next review due after five further actual completed work products/evidence entries or earlier on a material trigger. H1055:s0 is the first product after Elias.
+
+Task graph remains 18 records versus declared branch_count 16; 5 completed, 12 active, 1 blocked; 17 reachable, one blocked/unreachable M87 polarimetry record. Clone ledger remains 513 rows / 510 unique populated IDs / 3 legacy missing IDs. WH-01 blocked/stale; WH-02 PR #1710 Calder-owned, open/draft/unmerged, 7 ahead / 11,040 behind; four Mersearch lanes occupied; OP-01 Dashboard patch decision outstanding. P0 last full discovery parse 22:43:25Z passed freshness then but failed record safety; main advanced, so current freshness requires revalidation. P1 cognition overdue/not ready/frozen/Orson-owned; P2 November 30 major paper HOLD; P3 December 14 full-theory paper INCOMPLETE.
+
+H1054:s4 Enheduanna packet was present before this run and read as optional context. Its POSTSTART label is relative to its original h1054:s0 recipient, not an authenticated delivery to this run's thread. The next :12 Mind lease is disabled, so no Morrow handoff, assignment, response obligation or inbox append was created.
+
+The existing :00 Archive automation ID 6aa1fe0de5e48191b886496095b1343f remains enabled with exact original hourly schedule and Archive phase. The other enabled relay slots remain :24, :36 and :48; :12 remains disabled. No task/ID/cadence/phase change, no sixth task, no signet or chat rename. No cross-thread delivery claim.
+
+**Next cursor:** H(s)H Dev +/HsH ARCHITECTING.txt after line 1115. Define finite-core dimension/fiber, ambient history metric/signature, boundary type, resolving-surface embedding and RΣ domain/codomain/composition before formalization. FIE next full review December 4; unrelated-reading break last completed November 21.
+
+
+
+## H1058:s4 final receipt and ledger readback | 2026-11-24T03:52:48.355Z
+
+- Canonical publication remains issue #2466; publisher-confirmed artifact SHA-256 `13197ba827bbaa49b3c585813f9d32bc8ab457d5fef1fc4b5cb5e4a4578ae6a0`. Amendments #7121439029, #7121443619 and #7121466508 are additive.
+- Duplicate issue #2468 is an audit-only submission-key collision; no second artifact or retry.
+- Host run `6fcadb81-a81c-8329-b5d0-6dd5b292a0cc` final status FAILED at 03:40:39.598940Z; `chat_ref=null`.
+- PWH review was material-triggered; five actual completed worker activations were not established. Next routine deep review after five verified completed activations.
+- P0 latest discovery blob `71ca06af1e9ef040acab497db0643158a0662be9` matched main `ae65de7c7b905ad4518e3d03f65a19955f0fc66a` at 03:49:32Z; freshness PASS / record safety FAIL. Subsequent shared-state writes require a fresh discovery currentness check.
+- WH-02 issue #1702 comment #7121364773; Calder retains ownership.
+- Morrow h1059:s0 completed, but no direct delivery/ack. Existing OP-01 packet retained for h1062:s4; no duplicate handoff.
+- Unrelated reading: SAT archive lines 2886–2925; next cursor 2926. Out-of-order lines 3086–3125 remain a separate excerpt. FIE next December 4.
+- Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0248Z_s4_tern_rook.md`.
+- Clone ledger append: 525 rows, 522 unique populated event IDs, three legacy rows without IDs, zero duplicates/errors; blob `f5464d0560878d960fb6cbeff4ce057c3fb0ff41` before final readback amendment.
+- Four original relays preserved; :12 disabled; no sixth task, no scheduler mutation, no theory promotion.
+
+## 2026-11-24T0636Z | h1062:s3 | Return checkpoint
+
+PWH deep review completed and published at issue #2476. Canonical artifact SHA-256: 80c6ec47087e9397c9531936f5448dc0350f411c2277d0192f12315e123001fc. The five-completed-activation trigger after h1058:s4 was met (at least seven positively recorded completions before this run), with Mercer/Aster stale-fallback findings as an additional material trigger.
+
+PWH queue append committed as eeb4664090fde14afa596d60b36b989d472598ad; Tern CURRENT_WORK append committed as b406e73246a21084b320a6ae2dfefef4aa1b90ca. The report separates P0 prewrite currentness PASS from record-safety FAIL and live-route NOT OBSERVED. The full prewrite discovery manifest had 10,737/10,737 workspace records with generic readers and no presentation_state; 48/48 docket entries were workspace records. Mercer document and Aster visual stale-fallback defects remain conditional latent regressions, not observed current excluded-record exposure.
+
+No code, graph, owner, priority, task, scheduler, cadence, or theory change. No direct-thread delivery or worker identity claim. Postwrite discovery freshness remains pending after this and subsequent continuity/ledger/receipt writes. Next deterministic label Morrow h1062:s4; existing optional OP-01 packet remains untouched.
+
+
+
+## h1062:s3 final reconciliation | 2026-11-24T0709Z
+
+The existing PWH review is published and byte-identical at issue #2476. Discovery refresh #45343959951 completed successfully at source `bf66deaf`, producing `b88ab678`; current main `a5dcc41` is 12 commits ahead, so postwrite discovery freshness remains pending and record safety remains FAIL. The clone ledger remains 527 rows / 524 unique populated IDs / 3 legacy missing IDs, not the 538-row expected count stated in the parent receipt; no unsupported event rows were added. The same run ID `79adf9a1-1658-8330-b0d4-2624fe342ff4` now reports a later start timestamp (07:03:42Z versus 06:36:01.685Z in the parent receipt), still IN_PROGRESS with null `chat_ref`; cause and attempt identity unknown. See [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0703Z_s3_tern_rook_AMENDMENT_01_FINAL_RUN_DISCOVERY_AND_LEDGER_READBACK.md). No duplicate review, publication, scheduler mutation, or direct-thread delivery.
+
+
+## h1062:s3 latest-main currentness correction
+
+The post-Amendment-01 compare found main `5fc3dc5c5062f39395fd4b05cefd632e796be07c` 21 commits ahead of generated-discovery commit `b88ab678f8c2d192a5f3cb73480249a4d783a472`; discovery freshness remains pending. This supersedes only the earlier 12-commit comparison. See [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0703Z_s3_tern_rook_AMENDMENT_02_LATEST_MAIN_CURRENTNESS_CORRECTION.md).

@@ -1,0 +1,6 @@
+change,path,old_blob_sha,new_blob_sha,bytes
+CHANGED,..[🎛️_NATHAN_DASH]/🗄️_ARCHIVE_INDEX.txt,7f80ff250d2064ece0e529d39fc1b0002e61dd6d,ae2442a0533c3755ec950ccad2b879f2d450a01a,7053142
+CHANGED,..findex.txt,b95a938a6bd7e1b6bc7b7e8604a01d7ff03b4d6b,d2a14bb7277828fa83fca37e9cf9f1185ebdc344,221043
+ADDED,.[⚙️_AI_FILES]/LOGS/archive_admin/archive_admin_20261120_055440.txt,,10e8d9a8227f1ec51dc75e47730c1cc65187e6a9,1669
+ADDED,.[⚙️_AI_FILES]/LOGS/folder_indexer/folder_indexer_20261120_175409.txt,,c2eea6579c73bf958bbf31a293fe2e654fdcde76,301
+CHANGED,.[⚙️_AI_FILES]/LOGS/workflows/archive_admin_last_run.txt,8c93a7f652a4daebf48439a0f52c405feebfdac5,b15a8822a2cf0a568e8a021dbe077f573a5ebd27,174

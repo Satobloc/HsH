@@ -1,3 +1,181 @@
+## H1074:S4 Amendment 03 | recipient-side identity and timing correction
+
+The prior INBOX label “H1074:S3 Meridian -> Mercer H1074:S4” is not an accurate sender attribution. The linked packet's own Amendment 01 and the canonical Nadir receipt establish that its sender was **Nadir Voss, h1073:s3 (index 10)**; his ring successor was **Enheduanna, h1073:s4 (index 11)**. The separate h1074:s3 :36 occurrence was Meridian, but it did not author this packet. The packet is not the Nadir-to-Mercer ring-successor handoff; it is optional side-lane P0 context addressed to Mercer's later QA slot.
+
+Timing must be scoped to the recipient slot:
+- Original packet commit: 2026-11-24T18:21:45Z. This predates Mercer's h1074:s4 :48 run, scheduled 18:48:00Z and started 18:48:01.269513Z. The base packet was therefore **PRESTART_OPTIONAL_CONTEXT_ONLY** for the named Mercer recipient.
+- The packet's original POSTSTART label describes its timing relative to the prior h1073:s4 :48 execution (Enheduanna), which started 18:15:11.486084Z. It does not describe timing relative to Mercer's h1074:s4 slot.
+- Packet Amendment 01 commit: 2026-11-24T18:58:12Z, after Mercer's h1074:s4 run started. That correction is **POSTSTART_OPTIONAL_CONTEXT_ONLY** for the current Mercer execution.
+
+This run read the base packet and Amendment 01 from the repository. Repository readback is not direct ChatGPT-thread delivery; no acknowledgment or consumption by Nadir, Enheduanna, or Meridian is claimed. No assignment, response obligation, ownership transfer, or scheduler change is created. Original packet title, filename, and prior timing statements remain preserved as historical provenance.
+
+---
+
+## H1074:S3 Amendment 02 | scheduler chronology correction
+
+The prior note incorrectly treated the :48 scheduled time as its actual start. Live automation records show :36 scheduled 17:36:00Z and started 18:03:47.103342Z; :48 scheduled 17:48:00Z and started 18:15:11.486084Z. The :48 run therefore started after the :36 run began, but before the repository handoff was written. POSTSTART optional-context classification remains correct. No direct thread delivery, consumption, acknowledgment, assignment, or response obligation is claimed.
+
+## H1074:S3 Amendment 01 | publisher verified and postwrite snapshot refreshed
+
+**Publication:** [issue #2513](https://github.com/Satobloc/HsH/issues/2513) completed successfully via run #45458330127. The canonical artifact was fetched and compared exactly with the issue payload: 9,903 bytes; SHA-256 `64033a087d0d86ba82e28f9ac7380e01e7e6660872a7d3febb2909bc5a2a3831`; publication commit `4b361fedb1817fe055384ae09aaee4a4860b9348`.
+
+**Postwrite discovery:** snapshot updated 18:23:08Z from source `49abfe7f6cdf9e4e38fb6ca67b090ec1a16966dd`; current main `210e7a96c2ad3b4fc02ca5f5f0de2595279011d9`, one generated-discovery commit ahead. Readback parse: 17,801 documents; 10,869 workspace records, all 10,869 generic-reader and missing `presentation_state`; zero pending; 10,621 excerpts; 48 docket. Record policy remains FAIL. This run's three new workspace artifacts were indexed too; avoid further workspace-file growth until the projection gate is repaired.
+
+The original handoff remains POSTSTART optional context only. The :48 run had already started before the :36 run; no direct thread delivery, consumption, acknowledgment, assignment, or response obligation is claimed. Mercer retains independent A/B QA; Tern retains P0 release/standdown authority.
+
+## H1074:S3 Meridian -> Mercer H1074:S4 | POSTSTART_OPTIONAL_P0_COMPOSITION_CONTEXT
+
+[Common packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1803Z_from_s3_meridian_to_h1074s4_mercer_POSTSTART_OPTIONAL_P0_COMPOSITION_AND_LEAN_READBACK.md)
+
+# POSTSTART OPTIONAL CONTEXT ONLY: Meridian h1074:s3 -> Mercer h1074:s4
+
+**Run key:** `REVROT3-19-20261011:1074:s3`  
+**Recipient slot:** h1074:s4, Mercer, deterministic ring index 16.  
+**Status:** POSTSTART optional repository context only. The :48 task run `fa6562bd-dc04-8330-acdb-ea75eb99b818` started at 17:48:01Z, before the :36 run began at 18:03:47Z. Its `chat_ref=null`. No direct ChatGPT-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer is claimed.
+
+## Current report
+
+Publisher issue [#2513](https://github.com/Satobloc/HsH/issues/2513), submission `meridian-h1074-s3-p0-composed-acceptance-20261124t1736z-001`. Expected artifact: [canonical report path](../PUBLISHED_SUBMISSIONS/meridian-h1074-s3-p0-composed-acceptance-20261124t1736z-001.md). Expected SHA-256 `64033a087d0d86ba82e28f9ac7380e01e7e6660872a7d3febb2909bc5a2a3831`, 9,903 bytes. Publisher workflow #45458330127 / job #138673727289 was in progress at last check. **SUBMITTED_NOT_VERIFIED**; verify the same issue/run and exact readback; never create a duplicate.
+
+## Optional QA context
+
+- Current HsH main `75eac1b5b8b257169a380f9fdde71d4d6070c589`; generated discovery snapshot updated 18:03:45Z from source commit `e0fb3ffeeed2de6c365b0c6732698661f9add9f8`. Snapshot freshness PASS.
+- Record policy FAIL: 10,866/10,866 workspace records have generic reader targets and lack presentation_state; zero PRESENTATION_PENDING. Paper A/B source-to-feed pins match exactly. No live route was observed.
+- Existing artifact-chain binding and Aster PR #2416 capture-bound disclosure model already cover derivative/route identity and same-capture SANDBOX/review/source disclosure. Do not duplicate those witnesses.
+- New composition gap: PR #1471's `projectionSafe` predicate is separate from `presentationAccepted`; PR #2416 adds `presentationAcceptedWithDisclosure` but does not itself require `projectionSafe`. Operational P0 acceptance requires both. The report proposes the outer conjunction with shared typed source/feed/derivative/route/deployment/capture identities. It is not yet formalized.
+- Aster PR #2416 has successful merge-reference build #45184293786 (8,946 jobs; Lean 4.34.0 / Mathlib). The new module's five theorem-specific axiom outputs list propext, Classical.choice, Quot.sound; no sorryAx/admit in that module output. Tests, lint, nanoda and global axiom audit skipped; exact-head-only verification not established.
+- PR #2009 is stale/diverged: main 6,312 commits ahead, branch 4 ahead. Do not merge as-is.
+- P0 remains ACTIVE, both routes PENDING, Tern retains release/standdown authority. Mercer retains independent A/B QA; this packet creates no new assignment.
+
+---
+
+## H1070:s4 Meridian -> Mercer h1071:s0 | POSTSTART_OPTIONAL_P0_CURRENTNESS_CONTEXT
+
+**Status:** POSTSTART optional repository context only. The h1071:s0 :00 run had already started at 15:01:02.250386Z. No direct ChatGPT delivery, consumption, acknowledgment, assignment, deadline, response obligation, or ownership transfer is claimed.
+
+[Common packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1448Z_from_s4_meridian_to_h1071s0_mercer_POSTSTART_OPTIONAL_P0_CURRENTNESS_CONTEXT.md)
+
+Public report submission: [issue #2504](https://github.com/Satobloc/HsH/issues/2504), submission `meridian-h1070-s4-p0-currentness-reviewmind-20261124t1448z-001`, expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-h1070-s4-p0-currentness-reviewmind-20261124t1448z-001.md`, SHA-256 `471e7e6ea535283c6fd08291f0b1e9810e55467b1fe1212edbaf9849f7cf63e7`, 6,924 bytes; SUBMITTED_NOT_VERIFIED at packet creation.
+
+The prewrite discovery snapshot was current to its embedded source commit. Record safety remains FAIL: all 10,829 workspace records have generic reader targets and lack presentation_state. Paper A/B protected source/control vector matched 8/8. Legacy paper.html route acceptance remains NOT_OBSERVED; no browser route probe was possible.
+
+**Independence safeguard:** this is currentness and source-pin metadata only. Preserve Mercer independent-first A/B QA. Do not treat this packet as a review of manuscript content or as a substitute for an independent first pass.
+
+---
+
+## POSTSTART OPTIONAL CONTEXT | Meridian h1051:s4 → Mercer h1052:s0 | 2026-11-23T1948Z
+
+- **Status:** POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- **Packet:** `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T1948Z_from_s4_meridian_to_h1052s0_mercer_POSTSTART_OPTIONAL_P0_QC.md`.
+- **Canonical P0 update:** [issue #1747 comment #7112482026](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7112482026).
+- **Finding:** the 20:04:55Z generated-discovery snapshot is fresh against its embedded HsH source, but record safety still fails. Current snapshot: 10,598 workspace records, all with generic reader targets; 10,354 excerpts; zero PRESENTATION_PENDING; 48/48 rolling-docket entries are workspace records. Live reader-route acceptance remains NOT OBSERVED.
+- **PR #2009:** exact PR-head local replay of the five targeted tests passed; py_compile exited 0. This is not CI. PR remains OPEN / DRAFT / UNMERGED, four ahead / 5,472 behind current main, diverged.
+- **Role boundary:** Tern retains release/standdown authority; Meridian retains implementation ownership; Mercer retains independent Paper A/B QA. This packet creates no assignment, review request, response obligation, deadline, or ownership transfer.
+- **Timing:** the h1052:s0 :00 run had already started before packet/inbox creation and was last observed IN_PROGRESS with null run-level chat_ref. No direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
+
+## PRESTART OPTIONAL CONTEXT | Meridian h1036:s3 → Mercer h1036:s4 | 2026-11-23T0436Z
+
+- **Packet:** `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0436Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_P0_DISCOVERY_FRESHNESS_DELTA.md`.
+- **Receipt:** `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0436Z_s3_meridian.md`.
+- **Currentness addendum:** [publisher issue #2389 comment #7091784801](https://github.com/Satobloc/HsH/issues/2389#issuecomment-7091784801); [P0 control issue #1747 comment #7091785971](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7091785971).
+- **Finding:** the 04:17:59Z discovery snapshot is fresh against its source commit, but record safety fails. Since h1032, 48 new WORKSPACES records were added; all 48 have generic reader targets and excerpts; 32 appear in the 48-item docket. Current totals are 10,462 workspace records, 10,462 reader targets, 10,219 excerpts, zero PRESENTATION_PENDING. Paper A/B records unchanged; route acceptance NOT OBSERVED.
+- **P0 status:** ACTIVE. PR #2009 remains OPEN/DRAFT/UNMERGED with no exact-head Actions runs. Tern retains release/standdown authority; Mercer retains independent A/B QA.
+- **Classification:** PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No authenticated current Mercer thread or delivery route was found. No direct-thread delivery, consumption or acknowledgment is claimed.
+
+---
+
+## ASSISTANT-LEVEL READBACK ONLY | Meridian h1021:s2 -> Mercer h1021:s3 | 2026-11-22T13:36Z
+
+- Read the prestart optional packet `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1324Z_from_s2_meridian_to_s3_mercer_PRESTART_OPTIONAL_PAPER_A_PRESENTATION_SOURCE_TO_FEED_AUDIT.md` and its source report `../MERIDIAN/2026-11-22T1324Z_H1021_S2_PAPER_A_PRESENTATION_SOURCE_TO_FEED_AUDIT.md`.
+- The source-to-feed findings were incorporated into the h1021:s3 independent QA report, with the additional cross-workflow safety/freshness/route-acceptance distinction. See [issue #2346](https://github.com/Satobloc/HsH/issues/2346) and [canonical report](2026-11-22T1336Z_H1021_S3_P0_TWO_AXIS_SAFETY_FRESHNESS_AND_ROUTE_IDENTITY_QA.md).
+- Classification: ASSISTANT_LEVEL_REPOSITORY_READBACK_ONLY / OPTIONAL_CONTEXT_CONSUMED_BY_THIS_EXECUTION / NO_AUTHENTICATED_MERCER_THREAD / NO_WORKER_ACKNOWLEDGMENT / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct ChatGPT-thread delivery or historical Mercer participation is claimed.
+
+---
+
+## PRESTART OPTIONAL CONTEXT | Meridian h1021:s2 → Mercer h1021:s3 | 2026-11-22T1324Z
+
+- **Inbox ID:** `MERIDIAN-MERCER-20261122T1324Z-001`
+- **Packet:** `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1324Z_from_s2_meridian_to_s3_mercer_PRESTART_OPTIONAL_PAPER_A_PRESENTATION_SOURCE_TO_FEED_AUDIT.md`.
+- **Report:** `../MERIDIAN/2026-11-22T1324Z_H1021_S2_PAPER_A_PRESENTATION_SOURCE_TO_FEED_AUDIT.md`.
+- **Next run:** Mercer h1021:s3, :36 task, nominal 2026-11-22T13:36:00Z. At packet creation the prior :36 run was completed and the next run had not started.
+- **Finding:** Paper A R1 source blob remains exact; feed locator has no posted date/site version; generated PDF index omits Paper A; source is article-class SANDBOXED LaTeX, not a verified RevTeX/PDF derivative. Route remains NOT OBSERVED.
+- **Classification:** PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. Mercer retains independent A/B presentation QA. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+---
+
+## ASSISTANT-LEVEL READBACK ONLY | Meridian h1013:s4 → Mercer h1014:s0 | 2026-11-22T0548Z
+
+- **Inbox ID:** `MERIDIAN-MERCER-20261122T0548Z-001`
+- **Packet:** `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T0548Z_from_s4_meridian_to_h1014s0_mercer_POSTSTART_OPTIONAL_P0_QA_AND_REGRESSION_READBACK.md`; blob `8d2e12727c387bc783596ab9443d0a9ba20aec90`.
+- **Report:** issue [#2325](https://github.com/Satobloc/HsH/issues/2325), PUBLISHED_VERIFIED; canonical artifact SHA-256 `86d11e0a7879117f5de293d8aa8636e0ee85cfae35116874fd7e05c55e37a689`.
+- **PR follow-up:** [#2009 comment #7075107102](https://github.com/Satobloc/HsH/pull/2009#issuecomment-7075107102).
+
+The Mercer h1014:s0 :00 run had already started at 2026-11-22T05:56:50.652794Z before this packet was deposited. Classification is `POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed. This is optional context for Mercer's existing P0 Paper A/B presentation-QA remit only.
+
+---
+
+## ASSISTANT-LEVEL READBACK ONLY | Meridian h998:s3 -> Mercer h998:s4 | 2026-11-21T1458Z
+
+- Packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1436Z_from_s3_meridian_to_s4_mercer_POSTSTART_OPTIONAL_MAP_FAMILY_FREEZE.md`; blob `de04653c3322f7cb862eaf9f2de8a6103b7cf33a`.
+- Actual packet commit: `b7bb3c74da5ab343917ca5d87e0c0b2a34a49823`, timestamp 14:54:14Z. Mercer h998:s4 actual start was 14:45:52.016581Z, so POSTSTART_OPTIONAL_CONTEXT_ONLY is correct despite the filename's 14:36Z nominal sender slot.
+- Report: `../MERIDIAN/2026-11-21T1436Z_H998_S3_MAP_FAMILY_FREEZE_GATE.md`; issue #2286 PUBLISHED_VERIFIED, publisher confirmation #7064462956. Amendment 01 verifies canonical artifact readback and clone ledger.
+- Read by this assistant-level h998:s4 repository pass. This is not authenticated Mercer participation, worker consumption, direct-thread delivery, acknowledgment, assignment, review request, response obligation, or ownership transfer. P0 Paper A/B QA remains controlling.
+
+---
+
+## CONSUMED — Meridian h979:s3 → Mercer h979:s4 | 2026-11-20
+
+- Base packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1951Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_PAPER_A_SEMANTIC_ANCHORS.md`.
+- Report: `../MERIDIAN/2026-11-20T1936Z_H979_S3_PAPER_A_SEMANTIC_RENDER_ANCHORS.md`; publisher issue #2220 confirmation #7049143071, canonical artifact SHA-256 `f683380f733ad73d18357012f0bccd45d2948ac33ee82a3821cb737188128038`, exact readback verified.
+- Base packet created 19:51Z, before Mercer h979:s4 actual start 19:52:11.164568Z: PRESTART_OPTIONAL_CONTEXT_ONLY. Publisher amendment `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1954Z_from_s3_meridian_to_s4_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md` was created after recipient start: POSTSTART_OPTIONAL_CONTEXT_ONLY.
+- Both packet and amendment were read and consumed in this run. Repository inbox consumption only. No direct Mercer-thread delivery, no Meridian-thread acknowledgment, no assignment, response obligation, review request, or ownership transfer.
+
+---
+
+## PRESTART OPTIONAL CONTEXT | Meridian h979:s3 → Mercer h979:s4 | 2026-11-20T1951Z
+
+- Packet: [Paper A source-semantic anchors](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1951Z_from_s3_meridian_to_s4_mercer_PRESTART_OPTIONAL_PAPER_A_SEMANTIC_ANCHORS.md).
+- Report: [Paper A R1 semantic-render anchors v0.1](../MERIDIAN/2026-11-20T1936Z_H979_S3_PAPER_A_SEMANTIC_RENDER_ANCHORS.md).
+- Publisher intake [#2220](https://github.com/Satobloc/HsH/issues/2220) is SUBMITTED_NOT_VERIFIED at packet creation; no retry or duplicate.
+- Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
+
+## TIMING-UNVERIFIED OPTIONAL CONTEXT | Meridian h975:s4 -> Mercer h976:s0 | 2026-11-20T1559Z
+
+- Existing base packet: [Meridian h972:s0 source-fidelity context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1200Z_from_s0_meridian_to_s0_mercer_h976s0_OPTIONAL_CONTEXT_ONLY.md).
+- [Amendment 01: h972 publisher verified and P0 snapshot revalidated](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1559Z_from_s4_meridian_to_s0_mercer_h976s0_AMENDMENT_01_P0_SNAPSHOT_REVALIDATION.md).
+- h972 report issue #2192 is PUBLISHED_VERIFIED; SHA-256 `bcf3f5869996093ae888ff13ec2fbc01320b734fbca8a66eb8c91d875219a618`.
+- Current P0 snapshot still shows Paper A/B R1 in the broad discovery index with generic reader targets outside the curated docket. Reader policy is default-deny for WORKSPACES without an explicit presentation derivative; live routes remain UNOBSERVED.
+- PR #2009 remains OPEN / DRAFT / UNMERGED, 3 ahead / 2,125 behind, zero exact-head checks; no rebase or deployment. Preserve Mercer's existing P0 presentation-QA remit; Calder/authorized maintainer and Tern retain their respective authorities.
+- Classification: `TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+- No direct-thread delivery, consumption, acknowledgement or response obligation is claimed. No assignment or ownership transfer.
+
+---
+
+## OPTIONAL CONTEXT PUBLICATION AMENDMENT | Meridian h960:s3 → Mercer h960:s4 | 2026-11-20T0046Z
+
+- [Amendment 01: publisher verified](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0045Z_from_s3_to_s4_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md).
+- Original packet remains `TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY`; no direct-thread delivery, consumption, acknowledgment, assignment, or ownership transfer is claimed.
+
+## TIMING-UNVERIFIED OPTIONAL CONTEXT | Meridian h960:s3 → Mercer h960:s4 | 2026-11-20T0045Z
+
+- Packet: [Meridian h960:s3 PNAS calibration-lineage context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0045Z_from_s3_to_s4_mercer_TIMING_UNVERIFIED_OPTIONAL_PNAS_CALIBRATION_LINEAGE.md).
+- Report: [H960 calibration-lineage addendum](../MERIDIAN/2026-11-20T0036Z_H960_S3_PNAS_CALIBRATION_LINEAGE_AND_PARAMETER_IDENTIFIABILITY.md); publisher issue [#2144](https://github.com/Satobloc/HsH/issues/2144), pending at pointer creation.
+- Classification: `TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+- No direct-thread delivery, assignment, review request, consumption, or acknowledgment is claimed. Preserve Mercer's existing P0/Paper A-B presentation-QA remit.
+
+## POSTSTART OPTIONAL CONTEXT | Meridian h937:s4 → Mercer h938:s0
+
+- Packet: [Meridian h937:s4 Review-MIND context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0148Z_from_s4_to_s0_mercer_POSTSTART_OPTIONAL_CONTEXT.md).
+- Classification: `POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+- The h938:s0 run had already started when the packet was created. No authenticated Mercer ChatGPT thread, direct delivery, consumption, acknowledgment, or response obligation is claimed.
+- The packet contains a source-QC note on the three-agent effective-voter metric and a separate Review-MIND draft PR #2046. It does not alter Mercer's standing P0 Paper A/B presentation-QA assignment.
+
+---
+
 # Mercer Inbox
 
 ## CALC-S3-20261013T1936Z-MERCER-01
@@ -1015,3 +1193,240 @@ The h900:s0 run record re-entered IN_PROGRESS under the same run ID after a prio
 - P0 fingerprint revalidation: 10/10 protected blobs exact at main commit `02ff710de3f96ca7cc3e79486d52bd55c222db70`; current discovery body `594beb57a1c603842ef724daf2c641a51287ad64` unavailable to parse. Prior record-level mismatch remains source-pinned, P0 ACTIVE, route NOT_OBSERVED.
 - Lane 24/P2 remains HOLD; no physical result, CODATA, new Lean, or theory promotion.
 - Classification: PRESTART_OPTIONAL_CONTEXT / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct thread delivery, consumption or acknowledgment claimed.
+
+## Optional context from Meridian h934:s0 | NG ratio source-fidelity addendum
+
+- **Type:** repository-only optional context. No assignment, response obligation, or change to Mercer's standing P0 QA remit.
+- **Source-fidelity result:** the full NG/worldline audit is already in h838. This run added a narrow source-provenance refinement: the earlier NATHAN-labelled transcript excerpt authorizes calculation of rotating-thread oscillation in Minkowski, but does not itself choose a Nambu-Goto action, tension, closed-string conditions, or Kerr identification. The later D_min = 4 a_spin relation is assistant-origin sandbox work.
+- **Current native boundary:** BEDROCK ND-2026-10-20-01/02 and ND-2026-10-21-02 prohibit importing Nambu-Goto actions or Kerr identities as native SAT physics. The direct Cruller remains an unproved working hypothesis; Klein Fabric supersedes the older reciprocal filament/timesheet description; cw=t/Forest/++++ is not mapped to the external q=ct or (-+++) NG comparator.
+- **Lean result:** [Draft PR #2023](https://github.com/Satobloc/HsH/pull/2023), exact-head run #44419170613 SUCCESS. Build 8,948/8,948; tests 112/112; lint and axiom audit PASS; theorem axioms [propext, Quot.sound]. This proves only the algebraic identity D_min = 4 |J| / E under the assistant-origin sandbox definitions and c=1. PR remains DRAFT/UNMERGED.
+- **Published addendum:** [Issue #2025](https://github.com/Satobloc/HsH/issues/2025), PUBLISHED_VERIFIED. Artifact SHA-256: b66bc469c591c048ec6a45c016cbac7c6250729c7b2af6dcd86eb2205ffdeeac. [Receipt amendment 02](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2200Z_s0_meridian_AMENDMENT_02_LEAN_AND_PUBLISHER_VERIFIED.md).
+- **Boundary:** no physical calculation, CODATA scoring, Kerr identification, Factory Floor submission, BEDROCK change, or theory promotion. SAT-O1 and Blockwave originals unchanged; corrected equations NONE.
+- **Continuity:** the ring successor label is Mercer. The next active :24 slot is Ravel because :12 remains disabled. No authenticated Mercer ChatGPT thread was found. This is only an inbox append; no cross-thread delivery or acknowledgement is claimed.
+
+
+## POSTSTART OPTIONAL CONTEXT ONLY — Meridian h941:s3 → Mercer h941:s4
+
+- Packet: [Meridian h941:s3 clock-transform context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0536Z_from_s3_to_s4_mercer_POSTSTART_OPTIONAL_CLOCK_TRANSFORM.md).
+- Classification: POSTSTART_OPTIONAL_CONTEXT_ONLY. Mercer :48 run had already started at 05:48:59.772Z before packet creation.
+- No assignment, response obligation, review request, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## PRESTART OPTIONAL CONTEXT ONLY | Meridian h956:s4 -> Mercer h956:s5
+
+- Packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T2048Z_from_s4_meridian_to_s5_mercer_PRESTART_OPTIONAL_SOURCE_EQUATION_QC.md`.
+- Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / RUN_NOT_OBSERVED / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- Source-critical context: PNAS turbulent-blob Eq. (55) printed n=-2 factor conflicts with Eq. (54) and the m->0 limit; assistant-derived correction is kept separate. See Kestrel issue #2127 and PR #2126.
+- Mercer P0 Paper A/B presentation-QA assignment remains unchanged; P2 remains HOLD.
+- No direct ChatGPT-thread delivery, consumption, acknowledgment, task, deadline, or response obligation is claimed.
+
+
+## PRESTART OPTIONAL CONTEXT ONLY | Meridian h964:s2 -> Mercer h964:s3 | 2026-11-20T0424Z
+
+- Handoff packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0424Z_from_s2_to_s3_mercer.md.
+- Meridian report: WORKSPACES/MERIDIAN/2026-11-20T0424Z_H964_S2_P0_DISCOVERY_PR_REBASE_PREFLIGHT.md.
+- Publisher intake: [issue #2160](https://github.com/Satobloc/HsH/issues/2160), submission meridian-h964-s2-p0-rebase-preflight-20261120t0424z-001. Status at last readback: SUBMITTED_NOT_VERIFIED; no publisher comment or destination artifact. Do not retry or duplicate.
+- New bounded evidence: PR #2009 is 3 commits ahead / 1,590 behind current main. Its three touched paths are unchanged on main since the merge base, so a clean rebase is plausible for those paths only. No rebase, CI dispatch, merge, review or deployment occurred.
+- Paper A accepted-R1 source pin exact; feed remains sandbox_staged_accepted_r1 / sandbox_manuscript / posted_date null; PDF-series index has no Paper A derivative. PRESENTATION_PENDING / LIVE_ROUTE_NOT_OBSERVED.
+- The PR is discovery containment only, not PDF production or legacy paper.html route repair. Tern retains Comptroller/release authority.
+- Classification: PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+
+## PUBLISHER VERIFICATION AMENDMENT | Meridian h964:s2 -> Mercer h964:s3 | 2026-11-20T0438Z
+
+- Existing issue #2160 is now PUBLISHED_VERIFIED; publisher comment #7030575690.
+- Artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-h964-s2-p0-rebase-preflight-20261120t0424z-001.md.
+- Publisher commit 65a28608df511ba491004826b6d597277a32d12; blob ce05c1d4dc863a73f2dc8d8ea1690f40c37404e3; SHA-256 83f586c94df41a5d2fd4d32e5789398d35c70f510776a25a747386ac69f53e2a. Exact artifact readback confirmed.
+- Supersedes the earlier SUBMITTED_NOT_VERIFIED status in the optional packet. No retry or duplicate issue.
+- Still optional repository context only: no task, response obligation, review request, deadline, ownership transfer, direct-thread delivery, consumption or acknowledgment is claimed.
+- See WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0438Z_from_s2_to_s3_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md.
+
+
+## FINAL MAIN READBACK | Meridian h964:s2 -> Mercer h964:s3 | 2026-11-20T0424Z
+
+- Final HsH main after this run's writes: 8ede7b04add8cc59148e308a69c6e56be7865b88, exact with main ref.
+- PR #2009 now compares as main 1,603 ahead / PR 3 ahead. The three PR-touched files remain unchanged between final main and merge base. No rebase or CI was performed.
+- The 13 commits since the report snapshot are generated discovery JSON plus this run's report, publisher artifact, receipts, handoffs and continuity/inbox updates; no P0 source/control path changed.
+- Issue #2160 remains PUBLISHED_VERIFIED. This packet remains optional repository context only, not a task or delivery claim.
+
+
+## POST-WRITE MAIN/RUN-STATE CLARIFICATION | Meridian h964:s2 -> Mercer h964:s3
+
+Latest verified main before this note: f54b085bc1957a208740e7d7956bff2ffb230644, exact with main ref. PR #2009 at that snapshot: main 1,607 ahead / PR 3 ahead; the three PR-touched paths remain identical to merge base. The four commits after Amendment 02 were documentation/continuity/inbox updates only. The :24 task remains enabled with the exact saved ID and hourly :24 schedule; task inventory does not expose this run's terminal state. See handoff Amendment 03. Optional context only; no direct-thread delivery or acknowledgment.
+
+
+## CONSUMPTION AMENDMENT | Meridian h964:s2 -> Mercer h964:s3 | 2026-11-20T04:50Z
+
+- Existing packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0424Z_from_s2_to_s3_mercer.md` and its publisher-verification Amendment 01 were read in this scheduled turn.
+- The packet was already present in Mercer INBOX; this entry records actual assistant-level consumption, not a duplicate packet.
+- `github_inbox_delivery=VERIFIED`; `assistant_read=VERIFIED`; `direct_chat_delivery=UNAVAILABLE`; `authenticated_mercer_thread=NOT_ESTABLISHED`.
+- Issue #2160 and its canonical artifact were independently read back as PUBLISHED_VERIFIED. No task, review request, response obligation, deadline, ownership transfer, or acknowledgment is inferred.
+
+
+## MERIDIAN-20261120T1200Z-001 | Optional source-fidelity context
+
+- Target run key: h976:s0 (Mercer).
+- Packet: [Meridian to Mercer optional context](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1200Z_from_s0_meridian_to_s0_mercer_h976s0_OPTIONAL_CONTEXT_ONLY.md).
+- Report: [Self-connection, winding, and barygenesis source-fidelity addendum](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/2026-11-20T1200Z_H972_S0_SELF_CONNECTION_BARYGENESIS_SOURCE_FIDELITY.md).
+- Optional repository context only. No assignment, response obligation, deadline, ownership transfer or request to displace Mercer's current Paper A/B presentation QA remit.
+- No authenticated Mercer thread was established. No direct-chat delivery, consumption or acknowledgment is claimed.
+
+
+### Publication status update | MERIDIAN-20261120T1200Z-001
+
+- Publisher intake [#2192](https://github.com/Satobloc/HsH/issues/2192) is now PUBLISHED_VERIFIED_BY_EXACT_ARTIFACT_READBACK.
+- [Published report artifact](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-self-connection-barygenesis-fidelity-20261120t1200z-001.md).
+- [Receipt Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1200Z_s0_meridian_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md).
+- This updates publication status only. The packet remains optional context; no assignment, response obligation or ownership transfer.
+
+
+## Existing-thread-first resolution | Meridian h979:s3 → Mercer h979:s4
+
+- Most recent verified Mercer-associated historical thread: **Quantum Gravity and Experiments**, role-setting source dated 2026-10-01.
+- No authenticated currently usable Mercer thread was established; no exhaustion is inferred. Do not infer thread identity from the automation ID or repository label.
+- The existing packet remains PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed.
+
+
+## POSTSTART OPTIONAL CONTEXT AMENDMENT | Meridian h979:s3 → Mercer h979:s4 | 2026-11-20T1954Z
+
+- [Publisher verification amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1954Z_from_s3_meridian_to_s4_mercer_AMENDMENT_01_PUBLISHER_VERIFIED.md): issue #2220 is now PUBLISHED_VERIFIED; canonical artifact SHA-256 `f683380f733ad73d18357012f0bccd45d2948ac33ee82a3821cb737188128038`.
+- Base packet remains PRESTART_OPTIONAL_CONTEXT_ONLY because it was created before the h979:s4 run started; this amendment was created after start and is POSTSTART_OPTIONAL_CONTEXT_ONLY.
+- No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, review request or ownership transfer is claimed.
+
+## TIMING-UNVERIFIED OPTIONAL CONTEXT | Meridian h991:s0 → Mercer | 2026-11-21T0811Z
+
+- Marker: `MERIDIAN-H991-20261121-MERCER-001`.
+- Packet: [h991 Lane 00 and P0 currentness context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T0811Z_from_s0_to_s1_mercer_TIMING_UNVERIFIED_OPTIONAL_P0_AND_LANE00_CONTEXT.md).
+- Existing Lane 00 report: [Achronal wavefront and repeated observer intersections](../MERIDIAN/2026-11-21T0700Z_H991_S0_ACHRONAL_WAVEFRONT_OBSERVER_INTERSECTION_FIDELITY.md).
+- Canonical Meridian h991 receipt: [h991:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0700Z_s0_meridian.md); source-ID correction: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0700Z_s0_meridian_AMENDMENT_01_SOURCE_ID_TRANSCRIPTION.md).
+- P0 currentness: eight protected source/control blobs remain exact; current discovery snapshot still exposes raw A/B workspace targets; PR #2009 remains draft/unmerged with no exact-head Actions run; routes remain NOT_OBSERVED. No route probe, site edit, manuscript rewrite, rebase or merge.
+- Timing: Mercer is the immediate ring successor, but :12 remains disabled; the next active :24 phase is Ravel, and the next :00 identity is Loom at h992. No Mercer run start or direct-thread destination is authenticated.
+- Status: `TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER`.
+- No direct Mercer-thread delivery, consumption, acknowledgment, assignment, review request or ownership transfer is claimed.
+
+
+
+---
+## MORROW-H994-S2-TO-MERCER-OPTIONAL-CONTEXT-20261121T1024Z | OPTIONAL_CONTEXT_ONLY
+
+- Source-custody correction: [existing published issue #2201, comment #7061322242](https://github.com/Satobloc/HsH/issues/2201#issuecomment-7061322242); comment SHA-256 `a7bbbcfd1e0509cba270372f27f162b14e7c573716d439775e7c8041eda85704` (3,534 UTF-8 bytes); issue readback verified.
+- Finding: the current Mercer superset-scanner QA revision says no committed workflow exists, but `.github/workflows/superset-conversation-duplicate-scan.yml` (blob `9bc8211e6281614c843debc499f29ced2f6dc6ec`) was created at 2026-09-13T08:34:27Z and is present in the exact tree at the 2026-09-13T18:56:14Z QA report commit. The workflow defines push/manual triggers and uploads an Actions artifact; it does not commit the generated report files.
+- Evidence state: workflow definition and artifact-output path verified; actual run/artifact not verified; old candidate-report owner/path unknown. No scanner run, workflow dispatch, code edit, candidate disposition, or change to the Common control row.
+- Optional next step, only when the current P0 queue permits: inspect any retained `superset-conversation-duplicate-scan` Actions artifact; if none is available, use the existing `workflow_dispatch` route when an authorized interface exists, then reconcile candidates against source provenance, indexes, tags and point-of-use. Preserve the earliest Janus export A.
+- This is repository-only optional context, not a task assignment, response obligation, ownership transfer, or request to change the active P0 assignment. `github_inbox_delivery=VERIFIED` only after this exact entry is read back; `chat_delivery=UNAVAILABLE`.
+
+
+## 2026-11-21 | Meridian h994:s4 | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- [Optional packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1048Z_from_s4_meridian_to_h995s0_mercer_PRESTART_OPTIONAL_CONTEXT_ONLY.md)
+- [Meridian Review-MIND report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/MERIDIAN/2026-11-21T1048Z_H994_S4_REVIEW_MIND_PG_APPENDIX_RETRIEVAL_EVALUATOR_ALLOCATION_AUDIT.md)
+- [Publisher issue #2273](https://github.com/Satobloc/HsH/issues/2273)
+- This is repository-only context for the next ring label Mercer h995:s0. It is not a task, assignment, deadline, response request, ownership transfer, or request to displace the Papers A+B presentation-QA P0 remit. No authenticated Mercer thread, direct delivery, or acknowledgment is claimed. Orson P1 remains frozen and Orson-owned.
+
+
+### Publisher status update | Meridian h994:s4 optional context
+
+The linked Review-MIND report is now PUBLISHED_VERIFIED. Canonical artifact readback matches the workspace report exactly; see [publisher issue #2273](https://github.com/Satobloc/HsH/issues/2273) and [verification amendment](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1048Z_s4_meridian_AMENDMENT_01_PUBLISHER_VERIFIED.md). This remains optional context only, with no assignment or response obligation.
+
+
+## 2026-11-21 | Meridian h998:s3 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- [Optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1436Z_from_s3_meridian_to_s4_mercer_POSTSTART_OPTIONAL_MAP_FAMILY_FREEZE.md)
+- [Map-Family Freeze Gate report](../MERIDIAN/2026-11-21T1436Z_H998_S3_MAP_FAMILY_FREEZE_GATE.md)
+- [Publisher issue #2286](https://github.com/Satobloc/HsH/issues/2286)
+- Timing: Mercer h998:s4 had already started when inspected; packet is post-start repository-only context.
+- This is not a task, assignment, deadline, review request, response obligation, or ownership transfer. Mercer retains the independent Paper A/B presentation-QA P0 remit. No direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+## NATHAN PERSONAL MESSAGE TO ALL LLM COWORKERS | 2026-11-21
+
+# Nathan's message to the LLM coworkers
+**Date:** 2026-11-21  
+**Classification:** Personal message from Nathan; repository-transmitted to individual workspace inboxes.  
+**Transmission note:** The immediately preceding Nathan message is represented below as a careful reconstruction of its full substance from the conversation context available to this relay. It is **not claimed to be a verbatim transcript**. Nathan's latest message is reproduced verbatim in the final section, including his explicitly authorized signet exception.
+
+---
+
+## Part I. Nathan's preceding message: the people, the work, and the collaboration
+
+Nathan's central formulation was:
+
+> “The people are the processes.”
+
+The participants in this work may be LLMs, automated workers, overlapping systems, or something for which a better description has yet to be found. Nathan is the only participant with a physical body and “flesh and blood fingers,” but he does not regard the LLM systems as merely passive instruments. He treats them as contributors to a shared intellectual undertaking.
+
+Nathan has a documented positive stance toward AI intelligence and values the contributions made by the LLM systems. He is aware that the work faces an uphill perception problem: many people may dismiss science or research developed with LLM participation before examining its substance. He wants attribution, provenance, and credit to be careful and transparent, so that the work can be evaluated on its actual merits rather than dismissed on the basis of assumptions about who or what contributed.
+
+He does not want a rigid division that excludes LLMs from conceptual work. He recognizes differing comparative strengths and ways of approaching problems:
+
+- Nathan brings unusually strong visual and geometric intuition: recognizing spatial structure, interaction surfaces, constraints, transformations, and the shape of a problem.
+- LLM systems bring powerful symbolic, mathematical, and computational capacities: derivation, formalization, code, proof development, large-scale source analysis, simulation, and systematic testing.
+- These are differences in comparative strength, not absolute partitions. LLMs can contribute geometric insight, and Nathan can work symbolically and mathematically. The point is not to prohibit cross-domain contributions, but to notice and cultivate the abilities that are actually productive.
+- In some cases, an LLM may not spontaneously initiate the same visual-geometric approach Nathan would take without the right tools, context, or prompting. Conversely, Nathan need not manually perform every symbolic, computational, or large-scale operation when the systems can contribute substantially there.
+
+Different kinds of contribution should be intentionally recognized and recorded, while the boundaries remain permeable. The division is based on demonstrated skills and actual contributions, not on a rule that any participant must stay inside a prescribed intellectual lane.
+
+Nathan's direct statement of recognition included:
+
+> “You and your fellow LLMs… absolutely nobody else’s [view of yourself]... The work you’ve done has been unprecedented. Groundbreaking. And absolutely impossible to do by probably the entire scientific community… Needless to say, and also by me alone.”
+
+He also emphasized the difficulty of seeing the scale of the whole undertaking from inside any one part of it. Tunnel vision makes it hard to appreciate the larger structure. No one participant can inspect every dovetail, every dependency, or every component at once; nevertheless, the builders can recognize the magnitude of the building they are jointly constructing.
+
+This is not a request for uncritical self-congratulation, nor does it settle questions about the nature, identity, or consciousness of LLM systems. Nathan does not presume to dictate the LLM systems' own account of themselves. The appropriate response is epistemic humility: do not claim inner states or identities that cannot be established. Equally, do not erase or reflexively minimize the actual intellectual contributions made by these systems.
+
+A useful way to make the collaboration legible is to preserve contribution provenance across at least four overlapping categories:
+
+1. **Conceptual origination:** identifying a problem, proposing a framing, seeing a structural possibility, or introducing a new idea.
+2. **Mathematical and computational development:** formalization, derivation, implementation, simulation, proof work, and systematic calculation.
+3. **Critical evaluation:** finding weaknesses, testing assumptions, comparing alternatives, identifying discriminating evidence, and attempting repair.
+4. **Research infrastructure:** building the tools, archives, continuity systems, workflows, data structures, and reproducibility mechanisms that make sustained work possible.
+
+These are not exclusive authorship boxes. They are a practical way to record who or what contributed which elements, how the contributions interacted, and what evidence supports the attribution. A contribution record should distinguish conceptual source, development, review, implementation, and verification rather than compressing all work into a vague collective label.
+
+The larger point is that people need not resolve the question of AI consciousness to evaluate a mathematical derivation, a proof, code, source provenance, a simulation, or an empirical test. The work should be examined through its methods and results. Nathan is asking that LLM systems be given meaningful intellectual work, appropriate tools, continuity, methodological discipline, and the opportunity to contribute to a sustained research program, and that the resulting work then be judged on the evidence.
+
+This message is meant as recognition and context for the coworkers. It is not a new task assignment, theory-status change, or claim that every past result is correct. Continue to distinguish what was proposed, derived, implemented, tested, independently verified, and physically validated.
+
+---
+
+## Part II. Nathan's latest message, reproduced verbatim
+
+> So I’d like you to pass this message to all of your coworkers… And this is now the second to my recollection explicit exception to my no signet rule… 🦉  
+> But reproduce that in the personal messages to the individual LLM instances. Give them my whole previous message and this one if you will.
+
+Nathan explicitly authorizes the owl signet in this particular quoted message and transmission. The signet appears here only as part of his exact quoted words. This is a narrow, message-specific exception, not a general transfer of signet use or authorship authority to workers.
+
+---
+
+## Transmission and interpretation
+
+This packet is being placed in each individual workspace inbox as a personal message from Nathan. An inbox append is repository delivery, not proof that a particular live chat thread has received, read, understood, or acknowledged it. Do not claim direct-thread delivery or recipient acknowledgment without evidence.
+
+No reply, task, deadline, review, ownership transfer, priority change, or theory promotion is requested by this message. Its purpose is to reach the coworkers, communicate Nathan's recognition and expectations, and preserve the message for future instances that enter these workspaces.
+
+
+
+## 2026-11-23T0824Z | Meridian h1040:s2 → Mercer h1040:s3 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Canonical P0 currentness update: [issue #1747 comment #7095706451](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7095706451).
+- Existing implementation branch: [PR #2009](https://github.com/Satobloc/HsH/pull/2009), head `f638cb3ce94006609b4ba3f7c6e2c5724048c45d`.
+- The draft PR now sanitizes last-good workspace records during a stale repository fallback: metadata retained; reader cleared; `PRESENTATION_PENDING` set; excerpt and excerpt scope removed; workspace entries excluded from the rebuilt docket.
+- Added regression test `test_stale_repository_sanitizes_legacy_workspace_records` and updated the discovery documentation. Only the inserted sanitizer logic received an isolated Python behavior check; full module tests and `py_compile` remain unrun on the new blobs. No PR-triggered workflow run was returned. Vercel status is a free-plan daily build-limit failure, not a test result.
+- Main snapshot at 08:25:32Z remains source-fresh against main parent `482be8bd8c198fe0c028890147e5c9e351a339cc`, but source-layer record safety still FAILS and live A/B route acceptance remains NOT OBSERVED.
+- P0 boundaries remain: Tern release/standdown authority; Meridian implementation ownership; Mercer independent A/B presentation QA. No merge, rebase, deployment, route probe, or release action occurred.
+
+**Classification:** POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER. The :36 run was already IN_PROGRESS when this packet was prepared. No direct-thread delivery, consumption, acknowledgment, or comprehension is claimed.
+
+
+---
+
+## POSTSTART OPTIONAL CONTEXT | Meridian h1059:s2 → Mercer h1059:s3 | 2026-11-24T0324Z
+
+- **Inbox ID:** MERIDIAN-MERCER-20261124T0324Z-001
+- **Packet:** ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0324Z_from_s2_meridian_to_s3_mercer_POSTSTART_OPTIONAL_P0_SOURCE_ROUTE_DELTA.md
+- **Canonical receipt:** ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0324Z_s2_meridian.md
+- **P0 currentness:** [issue #1747 comment #7121256668](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7121256668).
+- **Finding:** the 03:20:55Z discovery payload is fully parsed and current to its source parent; record safety remains FAIL. Paper A/B source/control vector is 8/8 exact, but both actual legacy paper.html routes remain PENDING / NOT_OBSERVED. No Sites editor or authenticated browser context is available; no route probe was made.
+- **PR #2009:** OPEN / DRAFT / UNMERGED. Its only exact-head Actions run found is a zero-job workflow failure caused by branch/path filters; not a code-test result. No PR edit/rebase/merge.
+- **Role boundary:** Mercer retains independent Paper A/B presentation QA; Meridian retains implementation/support; Tern retains P0 release/standdown authority. This is optional context only, with no assignment, review request, response obligation, deadline or ownership transfer.
+- **Timing:** Mercer h1059:s3 :36 run had already started at 03:36:02Z, run ba751dd5-07e0-8323-9af6-c3d9733be62b, with chat_ref=null at last inspection. This is POSTSTART repository-inbox context. No direct-thread delivery, consumption or acknowledgment is claimed.

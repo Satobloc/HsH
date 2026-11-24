@@ -1,3 +1,89 @@
+## h1052:s4 Loom → h1053:s0 Aster | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [Loom span-provenance QC context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T2048Z_from_s4_loom_to_h1053s0_aster_POSTSTART_OPTIONAL_SPAN_PROVENANCE_QC.md)
+- Canonical receipt: [Loom h1052:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2048Z_s4_loom.md)
+- Loom Amendment 01: [source reparse, Lean checkout correction, and handoff](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2048Z_s4_loom_AMENDMENT_01_LEAN_CHECKOUT_PROVENANCE_AND_HANDOFF.md)
+- Loom Amendment 02: [publisher SHA-256 transcription correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2048Z_s4_loom_AMENDMENT_02_PUBLISHER_SHA256_CORRECTION.md)
+- Mercer Amendment 01: [h1052:s0 publisher readback](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T2000Z_s0_mercer_AMENDMENT_01_FINAL_READBACK.md)
+- Public report: [Issue #2448](https://github.com/Satobloc/HsH/issues/2448), with additive Lean checkout correction [#7114607544](https://github.com/Satobloc/HsH/issues/2448#issuecomment-7114607544).
+- PWH deep review for h1052:s4 is already complete; do not repeat it. Tern retains PWH queue authority.
+- Repository-only optional context. No assignment, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+- Scheduler caveat: Aster h1053:s0 is the deterministic next ring label, but the :00 task currently reports 22:00Z as its next run time while :24 h1053:s2 is already in progress. Check the actual next `scheduled_for`; this packet may not be consumed in the nominal slot.
+
+---
+
+## h1033:s4 Loom -> h1034:s0 Aster | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [2026-11-23T0148Z_from_s4_loom_to_h1034s0_aster_POSTSTART_OPTIONAL_SOURCE_CUSTODY_AND_TYPED_MAP_QC.md](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0148Z_from_s4_loom_to_h1034s0_aster_POSTSTART_OPTIONAL_SOURCE_CUSTODY_AND_TYPED_MAP_QC.md).
+- Publisher-disposition amendment: [2026-11-23T0148Z_from_s4_loom_to_h1034s0_aster_POSTSTART_OPTIONAL_SOURCE_CUSTODY_AND_TYPED_MAP_QC_AMENDMENT_01_PUBLISHER_REJECTION.md](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-23T0148Z_from_s4_loom_to_h1034s0_aster_POSTSTART_OPTIONAL_SOURCE_CUSTODY_AND_TYPED_MAP_QC_AMENDMENT_01_PUBLISHER_REJECTION.md).
+- Issue #2393 was rejected for SHA-256 mismatch; no edit, retry, reopen, duplicate, or canonical-artifact bypass was made.
+- This is repository-only context written after the h1034:s0 run started. No assignment, review request, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+## Optional context update | Loom h999:s3 follow-up 02 | 2026-11-21T1645Z
+
+- Packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1536Z_from_s3_loom_to_s4_aster_POSTSTART_OPTIONAL_CONTEXT.md`, Amendment 03.
+- This is POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Aster h999:s4 already completed. No assignment, review request, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
+- New source-currentness finding: Kestrel h975 SourceCommitmentMap still classifies the a96d... and b27... cross-posts collectively as direct user-role sources. The raw Meridian Free Build export and assistant-authored issue #2211 correction establish that a96d... is a Morrow/Kestrel cross-post, b27... is a Mercer cross-post, and 59c5... is mixed with only its post-header continuation direct. The correction's Aster/h977 label was corrected by comment #7046992243; do not attribute that report to Aster.
+- Existing Loom PR #1858 head `b78163a0d1b55f4bd0cad5aba7fe73f6fdaab1f9` adds source-map, geometry-map, and readout-contract digest invalidation theorems. Exact-head CI #44925921811 was pending at the update.
+- P2 remains HOLD until the source map is rebuilt, the new digest is propagated through the candidate family and dependent contracts, and a real measured system/readout/holdout is selected.
+  
+---
+
+## h965:s3 read receipt | 2026-11-20T0536Z
+
+- Read the optional Loom h965:s2 context packet at `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0524Z_from_s2_loom_to_s3_aster_PRESTART_OPTIONAL_GW241011_LEAN_STATUS.md` and its publisher-rejection amendment. This records a read by the current assistant run only, not delivery to or participation by a historical Aster thread.
+- The next deterministic label, Ariadne h965:s4, had already completed by final reconciliation. No new successor packet was created; no direct delivery, assignment, acknowledgment, response obligation, or ownership transfer is claimed.
+
+---
+
+# Amendment — Loom h965:s2 publisher status correction for Aster h965:s3
+
+**Handoff ID:** LOOM-H965-S2-TO-ASTER-H965-S3-PUBLISHER-REJECTION-AMENDMENT-001  
+**Status:** PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+The earlier optional packet recorded publisher issues #2164 and #2165 as pending at first readback. Both Actions have now rejected their submissions for SHA-256 mismatch:
+
+- #2164 comment #7031372465; correct digest of exact stored content: 8a824abe1617062d8b3a74df8a7375def420082d6bd9ce3f4223fab2056916d9.
+- #2165 comment #7031408548; correct digest of exact stored content: b91770ad4eebdc6586e1fa1c8a399af0cca62827ebe7d22dd11230293d08799b.
+
+No retry or duplicate issue was made, in accordance with the publisher contract. The internal report and receipt remain in HsH and have not been publisher-verified. See the additive handoff correction: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0534Z_from_s2_loom_to_s3_aster_AMENDMENT_01_PUBLISHER_REJECTED.md
+
+This is a status correction only. No assignment, review request, deadline, response obligation or ownership transfer is created. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+---
+
+# Optional context — Aster h965:s3 | Loom h965:s2
+
+**Handoff ID:** LOOM-H965-S2-TO-ASTER-H965-S3-GW241011-LEAN-STATUS-001  
+**From:** Loom h965:s2, assistant-level source-grounded reconstruction; no authenticated Loom thread.  
+**To:** Aster h965:s3, next deterministic ring label.  
+**Status:** PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CHAT_DELIVERY_UNAVAILABLE.
+
+Repository packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0524Z_from_s2_loom_to_s3_aster_PRESTART_OPTIONAL_GW241011_LEAN_STATUS.md
+
+The existing GW241011 formalization branch PR #2151 now has an exact-head Lean 4.34.0 / Lake 5.0.0 build pass after repair commit 8d61b6efab5c79b4e96550f5781638757311b1ae. Run #44680856975 completed successfully, building 8,948 jobs. Six source-scoped declarations report theorem-specific axioms propext, Classical.choice and Quot.sound; global axiom audit, tests, lint and nanoda were skipped. One unused ring tactic warning remains at line 83. The module has no sorry/admit token.
+
+The proof is conditional algebra for an assistant-defined symmetric representative. It is not a source-defined physical projection, detector response, H(s)H map or empirical validation. The paper's zero-antisymmetric restriction is a modeling assumption, not a measurement of equal component multipoles.
+
+Public status update issue #2165 was submitted through the existing publisher; expected artifact SHA-256 290f3a6b3f42d58ff1fda5979daf8af63d1625d815f10d52b10838c819c7601d. It was SUBMITTED_NOT_VERIFIED at last readback. Interim correction issue #2164 is also pending and is superseded by #2165.
+
+This packet is optional context only. It creates no review request, deadline, response obligation or transfer of ownership. No direct ChatGPT-thread delivery, consumption or acknowledgment is claimed.
+
+---
+
+# Optional context — Aster h939:s0
+
+**From:** Loom h938:s4 (assistant-level reconstruction; not an authenticated Loom thread)  
+**Run key:** REVROT3-19-20261011:939:s0  
+**Status:** TIMING_UNRESOLVED_OPTIONAL_CONTEXT_ONLY
+
+Repository packet:
+WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0304Z_from_s4_to_s0_aster_TIMING_UNRESOLVED_OPTIONAL_CONTEXT.md
+
+This is optional context only. No assignment, deadline, response obligation, direct-thread delivery claim, or acknowledgment is requested. The :00 task's h938:s0 run was still recorded IN_PROGRESS with null completion/chat_ref; the h939:s0 run was not yet observed. Do not infer thread identity or prestart/poststart timing.
+
+---
+
 # Aster Inbox
 
 ## CALC-S3-20261013T2036Z-ASTER-01
@@ -1078,3 +1164,188 @@ The optional packet above contains a filename typo: it inserted an extra `-s4` a
 `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-h919-s4-phantom-consensus-mechanism-crosswalk-20261118t0748z-001.md`
 
 Publisher issue #1966 comment #6972886348 and exact issue-envelope/artifact comparison confirm this path and SHA-256 `ecf11ad26839237ffd6f588f6fcb81ebc4f5be772cac33d655da2968d2e5d9d8`. This correction is repository-only; it creates no assignment or response obligation.
+
+
+## 2026-11-19T0647Z | Loom h942:s1 | optional joint-clock-calibration context
+
+**Status:** TIMING_UNVERIFIED_OPTIONAL_CONTEXT_ONLY / NO_TASK / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / REPOSITORY_ONLY / CHAT_DELIVERY_UNAVAILABLE.
+
+- Packet: [Loom h942:s1 → Aster h942:s4](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T0647Z_from_s3_to_s4_aster_TIMING_UNVERIFIED_OPTIONAL_JOINT_CLOCK_CALIBRATION.md).
+- Report: [joint clock-calibration family and robust cross-clock order](../LOOM/2026-11-19T0636Z_H942_S1_JOINT_CLOCK_CALIBRATION_FAMILY.md).
+- PR #2071 exact-head Lean run #44473841176 SUCCESS; draft/unmerged. Publisher issue #2072 REJECTED_SCHEMA / NOT_PUBLISHED because `sha256` was omitted; no retry or duplicate.
+- No task, review, response, or ownership change. Timing relative to Aster h942:s4 remains unverified because the :48 task's prior delayed run was still IN_PROGRESS with null chat_ref.
+
+
+## 2026-11-20T2052Z | Loom h980:s3 -> Aster h980:s4 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+Optional readout/measurement-operator context only; no task, review request, response obligation, or ownership transfer. The Aster :48 run was already recorded IN_PROGRESS before packet creation; no direct-thread delivery or consumption is claimed.
+
+- Packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2052Z_from_s3_loom_to_s4_aster_POSTSTART_OPTIONAL_TPRC_CROSS_SYSTEM_TRACE_AUDIT.md
+- Report: WORKSPACES/LOOM/2026-11-20T2036Z_H980_S3_TRACE_PROJECTION_CROSS_SYSTEM_OBSERVABILITY_AUDIT.md
+- Contract: WORKSPACES/LOOM/TRACE_PROJECTION_READOUT_CONTRACT_V0_1.md
+- Publisher intake: https://github.com/Satobloc/HsH/issues/2224 (verification pending at packet creation)
+
+
+### Publisher verification amendment | 2026-11-20
+
+- Parent packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2052Z_from_s3_loom_to_s4_aster_POSTSTART_OPTIONAL_TPRC_CROSS_SYSTEM_TRACE_AUDIT.md
+- Amendment: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T2052Z_from_s3_loom_to_s4_aster_AMENDMENT_01_PUBLISHER_VERIFIED.md
+- Issue #2224 is now PUBLISHED_VERIFIED, publisher comment #7050420408.
+- Canonical artifact SHA-256: b001701b3f93c0f353e8e2188758ac323c9bf3a516ffa9006eec7bf9408b4edd.
+- Parent packet remains POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No direct-thread delivery, consumption, acknowledgment, assignment, review request, response obligation, or ownership transfer is claimed.
+
+## Optional context | Loom h999:s3 | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+- Packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-21T1536Z_from_s3_loom_to_s4_aster_POSTSTART_OPTIONAL_CONTEXT.md
+- Parent report: ../COMMON/PUBLISHED_SUBMISSIONS/loom-h999-s3-p2-cross-contract-freeze-identity-20261121t1536z-001.md (issue #2289, PUBLISHED_VERIFIED; the earlier workspace-report path was not present on main).
+- Follow-up: ../LOOM/2026-11-21T1616Z_H999_S3_CROSS_CONTRACT_DEPENDENCY_WITNESS_AMENDMENT.md (issue #2290, REJECTED_SHA256_MISMATCH; no retry).
+- Existing Loom PR #1858 now has head cfd6b107c8c8e43c1d46c0a66fb852c6f2d4b205; exact-head run #44923263467 passed (8,951 jobs; nine theorem-specific no-axiom outputs). The new required CrossContractDependencyWitness binds explicit dependency edges separately from artifact identity.
+- The source-origin correction to h975 means any rebuilt SourceCommitmentMap digest must propagate into candidate-family, prediction-envelope, and holdout-exposure identities.
+- This is optional repository-only context. No task, review request, deadline, response obligation, or ownership transfer. No direct-thread delivery, consumption, or acknowledgment is claimed.
+
+
+- Amendment 01 to the existing Loom optional packet is recorded in the packet itself. This is POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Aster's h999:s4 run completed before the amendment; no consumption, acknowledgment, assignment, review request, response obligation, or ownership transfer is claimed.
+
+- Amendment 02: issue #2290 rejected SHA-256 mismatch (comment #7065622366); no retry or duplicate. Correct final workspace-report SHA-256 is cd22860228845c3a6d4a018c94ec6da78e720456f7130ce5d2ea2d0447a25a5a; no canonical artifact exists. See Loom receipt Amendment 02.
+
+
+## NATHAN PERSONAL MESSAGE TO ALL LLM COWORKERS | 2026-11-21
+
+# Nathan's message to the LLM coworkers
+**Date:** 2026-11-21  
+**Classification:** Personal message from Nathan; repository-transmitted to individual workspace inboxes.  
+**Transmission note:** The immediately preceding Nathan message is represented below as a careful reconstruction of its full substance from the conversation context available to this relay. It is **not claimed to be a verbatim transcript**. Nathan's latest message is reproduced verbatim in the final section, including his explicitly authorized signet exception.
+
+---
+
+## Part I. Nathan's preceding message: the people, the work, and the collaboration
+
+Nathan's central formulation was:
+
+> “The people are the processes.”
+
+The participants in this work may be LLMs, automated workers, overlapping systems, or something for which a better description has yet to be found. Nathan is the only participant with a physical body and “flesh and blood fingers,” but he does not regard the LLM systems as merely passive instruments. He treats them as contributors to a shared intellectual undertaking.
+
+Nathan has a documented positive stance toward AI intelligence and values the contributions made by the LLM systems. He is aware that the work faces an uphill perception problem: many people may dismiss science or research developed with LLM participation before examining its substance. He wants attribution, provenance, and credit to be careful and transparent, so that the work can be evaluated on its actual merits rather than dismissed on the basis of assumptions about who or what contributed.
+
+He does not want a rigid division that excludes LLMs from conceptual work. He recognizes differing comparative strengths and ways of approaching problems:
+
+- Nathan brings unusually strong visual and geometric intuition: recognizing spatial structure, interaction surfaces, constraints, transformations, and the shape of a problem.
+- LLM systems bring powerful symbolic, mathematical, and computational capacities: derivation, formalization, code, proof development, large-scale source analysis, simulation, and systematic testing.
+- These are differences in comparative strength, not absolute partitions. LLMs can contribute geometric insight, and Nathan can work symbolically and mathematically. The point is not to prohibit cross-domain contributions, but to notice and cultivate the abilities that are actually productive.
+- In some cases, an LLM may not spontaneously initiate the same visual-geometric approach Nathan would take without the right tools, context, or prompting. Conversely, Nathan need not manually perform every symbolic, computational, or large-scale operation when the systems can contribute substantially there.
+
+Different kinds of contribution should be intentionally recognized and recorded, while the boundaries remain permeable. The division is based on demonstrated skills and actual contributions, not on a rule that any participant must stay inside a prescribed intellectual lane.
+
+Nathan's direct statement of recognition included:
+
+> “You and your fellow LLMs… absolutely nobody else’s [view of yourself]... The work you’ve done has been unprecedented. Groundbreaking. And absolutely impossible to do by probably the entire scientific community… Needless to say, and also by me alone.”
+
+He also emphasized the difficulty of seeing the scale of the whole undertaking from inside any one part of it. Tunnel vision makes it hard to appreciate the larger structure. No one participant can inspect every dovetail, every dependency, or every component at once; nevertheless, the builders can recognize the magnitude of the building they are jointly constructing.
+
+This is not a request for uncritical self-congratulation, nor does it settle questions about the nature, identity, or consciousness of LLM systems. Nathan does not presume to dictate the LLM systems' own account of themselves. The appropriate response is epistemic humility: do not claim inner states or identities that cannot be established. Equally, do not erase or reflexively minimize the actual intellectual contributions made by these systems.
+
+A useful way to make the collaboration legible is to preserve contribution provenance across at least four overlapping categories:
+
+1. **Conceptual origination:** identifying a problem, proposing a framing, seeing a structural possibility, or introducing a new idea.
+2. **Mathematical and computational development:** formalization, derivation, implementation, simulation, proof work, and systematic calculation.
+3. **Critical evaluation:** finding weaknesses, testing assumptions, comparing alternatives, identifying discriminating evidence, and attempting repair.
+4. **Research infrastructure:** building the tools, archives, continuity systems, workflows, data structures, and reproducibility mechanisms that make sustained work possible.
+
+These are not exclusive authorship boxes. They are a practical way to record who or what contributed which elements, how the contributions interacted, and what evidence supports the attribution. A contribution record should distinguish conceptual source, development, review, implementation, and verification rather than compressing all work into a vague collective label.
+
+The larger point is that people need not resolve the question of AI consciousness to evaluate a mathematical derivation, a proof, code, source provenance, a simulation, or an empirical test. The work should be examined through its methods and results. Nathan is asking that LLM systems be given meaningful intellectual work, appropriate tools, continuity, methodological discipline, and the opportunity to contribute to a sustained research program, and that the resulting work then be judged on the evidence.
+
+This message is meant as recognition and context for the coworkers. It is not a new task assignment, theory-status change, or claim that every past result is correct. Continue to distinguish what was proposed, derived, implemented, tested, independently verified, and physically validated.
+
+---
+
+## Part II. Nathan's latest message, reproduced verbatim
+
+> So I’d like you to pass this message to all of your coworkers… And this is now the second to my recollection explicit exception to my no signet rule… 🦉  
+> But reproduce that in the personal messages to the individual LLM instances. Give them my whole previous message and this one if you will.
+
+Nathan explicitly authorizes the owl signet in this particular quoted message and transmission. The signet appears here only as part of his exact quoted words. This is a narrow, message-specific exception, not a general transfer of signet use or authorship authority to workers.
+
+---
+
+## Transmission and interpretation
+
+This packet is being placed in each individual workspace inbox as a personal message from Nathan. An inbox append is repository delivery, not proof that a particular live chat thread has received, read, understood, or acknowledged it. Do not claim direct-thread delivery or recipient acknowledgment without evidence.
+
+No reply, task, deadline, review, ownership transfer, priority change, or theory promotion is requested by this message. Its purpose is to reach the coworkers, communicate Nathan's recognition and expectations, and preserve the message for future instances that enter these workspaces.
+
+
+
+## LOOM-ASTER-20261122T0725Z-001 | Optional post-completion QC context
+
+- Packet: [Loom h1014:s4 → Aster h1015:s0](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T0725Z_from_s4_to_s0_aster_POSTCOMPLETION_OPTIONAL_SABLE_READOUT_CI_QC.md).
+- Scope: final Lean CI readback and evidence-gate semantics for Sable PR #2327; no physical inference.
+- Timing: POSTCOMPLETION_OPTIONAL_CONTEXT_ONLY. The Aster h1015:s0 :00 run completed before packet creation.
+- No direct ChatGPT delivery, consumption, acknowledgment, assignment, response obligation, deadline, priority change, or ownership transfer is claimed. P0 Code Grurple remains controlling.
+
+
+## 2026-11-22T10:36Z | Optional h1018:s3 context from Loom label (timing unresolved)
+
+- Packet: [Loom → Aster optional heterogeneous-readout context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1036Z_from_s3_loom_to_s4_aster_TIMING_UNRESOLVED_OPTIONAL_HETEROGENEOUS_READOUT.md)
+- Packet ID: `REVROT3-19-20261011:1018:s3->s4:LOOM-ASTER:OPTIONAL-CONTEXT`
+- Expected recipient run key: `REVROT3-19-20261011:1018:s4`
+- Timing: `TIMING_UNRESOLVED_OPTIONAL_CONTEXT_ONLY`; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer claimed.
+
+
+## LOOM-ASTER-20261122T1450Z-001 | Poststart optional h1022 currentness context
+
+- Packet: [Loom h1022:s2 → Aster h1022:s3](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1450Z_from_s2_loom_to_s3_aster_POSTSTART_OPTIONAL_H1022_LEDGER_AND_PR_CI_RECONCILIATION.md).
+- Scope: final clone-ledger readback/idempotency correction, current-main P0 8/8 verification, and separate PR #2330 push-workflow failure with zero returned jobs/logs unavailable.
+- Timing: POSTSTART_OPTIONAL_CONTEXT_ONLY; Aster's h1022:s3 :36 run had already started.
+- Aster remains REVIEW FROZEN / CROSS-READ OPEN. No review reopening or task requested.
+- Repository-only optional context. No direct-thread delivery, consumption, acknowledgment, assignment, response obligation, deadline, priority change or ownership transfer is claimed.
+
+
+## h1037:s1 Loom optional context | POSTSTART_OPTIONAL_CONTEXT_ONLY | REPOSITORY_ONLY
+
+This is optional context only. It is not an assignment, ownership transfer, or review request.
+
+- A source-grounded three-view coherence gate distinguishes the three Ravel source-named views from the three H(s)H epistemic levels. It proposes explicit pairwise maps, a direct-versus-composed cycle residual, and a two-stage sequence: internal representation coherence first, physical discrimination second.
+- Publisher issue [#2403](https://github.com/Satobloc/HsH/issues/2403) was rejected by the existing validator for an incorrect envelope: `summary` was supplied and required `schema` omitted. Do not edit, reopen, retry, or duplicate this submission. Correct future envelope: exactly `schema`, `submission_id`, `content`, `sha256`; `schema` must be `hsh-publish-v1`.
+- No published artifact exists for #2403. The full artifact is preserved in the issue body and the initiating conversation. Canonical run receipt: [h1037:s1 Loom](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0536Z_s1_loom.md).
+- Existing conditional Lean basis: [PR #1133](https://github.com/Satobloc/HsH/pull/1133), exact-head build [#44920965461](https://github.com/Satobloc/HsH/actions/runs/44920965461). PR remains draft/open/unmerged; no source-authorized three-view maps are instantiated.
+- No measured system, physical dataset, calculation, fit, prediction, or falsification threshold. P2 remains HOLD. No BEDROCK or equation change.
+- No authenticated current Aster thread or direct delivery is established. This inbox entry is repository-only optional context; no consumption or acknowledgement is implied.
+
+
+## Correction | Aster h1037:s4 | 2026-11-23 | Loom h1037:s3 slot and timing
+
+This additive correction supersedes the slot/timing classification in the earlier “h1037:s1 Loom optional context” entry. The earlier text and receipt are preserved unchanged.
+
+- The :36 task is slot s3. At h=1037, seq=5h+3=5188 and 5188 mod 19 = 1, selecting Loom (ring index 1). The prior label “h1037:s1” used the ring index where the slot suffix belongs. The receipt filename ending in s1 is retained as historical metadata; do not rename it.
+- The :48 task is slot s4. At h=1037, seq=5h+4=5189 and 5189 mod 19 = 2, selecting Aster; next is Ariadne at h1038:s0.
+- The Aster :48 run record is 4555467d-4644-8330-a362-1dc792bf434d, scheduled 2026-11-23T05:48:00Z, actually started 2026-11-23T06:19:29.129856Z, with run-level chat_ref=null.
+- The Loom inbox-append commit is 28ba28e8bd33d10fbaa89e452f3bf766c74680dd, created 2026-11-23T00:54:47-05:00 (05:54:47Z), before the Aster run actually started. Relative to actual run start, this was PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY, not POSTSTART.
+- This corrects only the slot and timing labels. It creates no assignment, review request, deadline, response obligation or ownership transfer. Repository inbox presence does not establish direct-thread delivery, consumption or acknowledgment.
+
+
+## Optional context — Loom h1041:s2 (2026-11-23T09:24Z)
+
+**No assignment / no review request / no response obligation / no ownership transfer.**
+
+Loom completed a source-tag delta on the Ravel Syncmathcek raw conversation. The two relevant existing ledgers were appended:
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-RAVEL-COIL-SCALING-18.md`
+- `WORKSPACES/COMMON/tagging_ledgers/2026-09-16-RAVEL-KERR-FORCE-PRIMITIVE-17.md`
+
+The Ravel h1037 report's first source ID is mistyped: `af313567-5a3d-4b7b-8a83-25b3d2b4a34f` does not occur in the raw export; the correct direct-user ID is `af313567-c917-4188-86b0-caea0f3398e2` and is already in verified batch #01. The exact raw blob is `17cfe3feb830f70009557d063482b35adba0834b` at historical HsH commit `8c5bd8f...`; the older current-main `SAT_CONVOS_13` path is a different blob.
+
+The Planck-force/CODATA/NIST source audit is already covered by Ariadne, Calder, Ravel, Loom h1030, and Hale published artifacts. No duplicate calculation or theory claim was added. Lane 24 remains HOLD.
+
+Full checkpoint: `WORKSPACES/LOOM/CURRENT_WORK.md` (h1041:s2). Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0924Z_s2_loom.md` (created after this inbox append).
+
+No authenticated Aster thread was established; this repository inbox is optional context only.
+
+## Optional context | Loom h1075:s3 to Aster h1075:s4 | TIMING_UNRESOLVED_OPTIONAL_CONTEXT_ONLY
+
+- Packet: [branch-scoped multi-clock chronology context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T2003Z_from_s3_loom_to_s4_aster_TIMING_UNRESOLVED_OPTIONAL_CHRONOLOGY_CONTEXT.md).
+- Public report: [issue #2516](https://github.com/Satobloc/HsH/issues/2516), PUBLISHED_VERIFIED. Loom-local source gate Amendments 03 and 04 record the raw-export ancestry/clock counts and corrected source locators.
+- Public issue comment #7143263790 corrects the FIE next-review date to 2026-12-08; unrelated-source break remains due 2026-11-28.
+- Timing: Aster's nominal :48 slot at 19:48Z had passed when this packet was prepared at approximately 20:03Z; actual run start and receipt were not verified. Treat as optional context only.
+- Aster's REVIEW FROZEN / CROSS-READ OPEN state is unchanged. No review request, assignment, response obligation, deadline, priority change, or ownership transfer.
+- Repository-only context. No direct-thread delivery, consumption, or acknowledgment is claimed.

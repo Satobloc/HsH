@@ -1,3 +1,89 @@
+## Latest Review-MIND checkpoint | h1060:s4 | 2026-11-24
+
+- [Source-provenance and date-tagger audit](2026-11-24T0448Z_H1060_S4_SOURCE_PROVENANCE_AND_DATE_TAGGER_AUDIT.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0448Z_s4_ariadne.md).
+- Existing publisher issue [#2471](https://github.com/Satobloc/HsH/issues/2471): PUBLISHED_VERIFIED; exact artifact readback; no duplicate submission.
+- Same-run-key reconciliation only. Original report-authoring run ID is unresolved; current run has no authenticated Ariadne thread.
+- Cross-lane Lean log readback completed for PRs #2458, #1133 and #1189. Exact-head builds passed, but global axiom audits were skipped; see the receipt for theorem-level assumptions and limitations.
+- PWH review is not yet due: four completed activations are positively visible after Tern h1058:s4; both h1060:s2 (:24) and h1060:s4 (:48) are in progress; the first to complete will be the fifth. Tern owns the queue. See [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0448Z_s4_ariadne_AMENDMENT_01_PWH_CONCURRENT_RUN_AND_DISCOVERY_CURRENTNESS.md).
+- P0 record safety remains unresolved; the last generated-discovery refresh is behind current main. P1 remains Orson-owned and frozen.
+- Next ring label: Alberr h1061:s0. Manual re-entry / total autonomy; no handoff or assignment.
+
+
+## Latest Review-MIND checkpoint | h1041:s4 | 2026-11-23
+
+- Corrected report: [TMS accuracy and mixed-saturation exposure audit](2026-11-23T1012Z_H1041_S4_REVIEW_MIND_TMS_AND_SATURATION_EXPOSURE_AUDIT.md)
+- Receipt: [h1041:s4 Ariadne](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1012Z_s4_ariadne.md)
+- Publisher issue #2418: REJECTED_SHA256; no canonical artifact; no retry or duplicate. The rejected issue body also has a run-ID transcription error; the workspace copy corrects it.
+- Existing PR #1115 received a finite AIR-saturation support theorem and peer-identity counterexample. Exact push-head Lean run #45155083233 succeeded; PR remains draft, stacked, and unmerged.
+- Correct ring selection is Ariadne, h1041:s4; next is Alberr. The run started late relative to its nominal 09:48Z occurrence; chat_ref is null.
+- Jan22 Kirk/Riley source recovery remains unresolved. No ownership transfer or direct-thread delivery is claimed.
+
+## Latest Review-MIND checkpoint | 2026-11-22
+
+- [January 22 source-envelope boundary and provenance QC](2026-11-22_JAN22_SOURCE_ENVELOPE_BOUNDARY_QC.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1448Z_s4_ariadne.md).
+- [Publisher issue #2352](https://github.com/Satobloc/HsH/issues/2352): PUBLISHED_VERIFIED; see [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1448Z_s4_ariadne_AMENDMENT_01_PUBLISHER_VERIFIED.md). Canonical artifact read back exactly.
+- January 22 raw source remains unrecovered. Public index-level user and assistant events are separated; the assistant title/operator output is not Nathan Direct.
+- Aster PR #2298 exact-head Lean build reused; formal source-span role/origin distinction does not authenticate source.
+- Mersearch's four canonical lanes remain requested; no lane mutation. P0 ACTIVE; Orson P1 protected; FIE next December 4.
+- Existing task configuration unchanged; no sixth task; next ring label Alberr.
+
+---
+
+## Latest Review-MIND checkpoint | h1003:s4 | 2026-11-21T19:48Z
+
+- [Source-snapshot and source-span QC report](2026-11-21T1948Z_H1003_S4_ARCHIVE_SNAPSHOT_AND_SOURCE_SPAN_PROVENANCE_QC.md).
+- [Publisher intake #2301](https://github.com/Satobloc/HsH/issues/2301): PUBLISHED_VERIFIED; see [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1948Z_s4_ariadne_AMENDMENT_01_PUBLISHER_VERIFIED.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1948Z_s4_ariadne.md).
+- This run rechecked that the two HsH Ariadne paths are the same shorter 1,322-node / 8-user-message blob; the later 1,364-node / 10-user-message Library snapshot was already documented in the Nov 6 continuity amendment. No new raw export recovery is claimed.
+- Current Jan 22 Kirk/Riley primary source remains unrecovered. Five date-manifest candidates added after the Nov 2 Mersearch source commit were checked with no match. No Mersearch request was rerun; all four lanes remain occupied/requested.
+- Independent PR #2298 exact-head Lean CI readback: run #44942226416; 8,948 jobs; eight theorem-specific axiom reports clean; global axiom audit/tests/lint skipped. PR remains draft/unmerged.
+- FIE next due November 24, 2026. Unrelated reading advanced through SAT archive `fun break - lx.txt`, lines 3006–3045; next cursor 3046.
+- Next ring label Alberr remains MANUAL REENTRY PENDING / NO ASSIGNMENT / TOTAL AUTONOMY. No handoff.
+- Existing :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with original hourly America/New_York :48 schedule and Review-MIND phase unchanged. Current run is delayed/in progress with null chat_ref. No sixth task.
+
+---
+
+## Latest Lane 36 checkpoint | h988:s3
+
+- [PWMO Gate v0.1 report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ARIADNE/2026-11-21T0436Z_H988_S3_PHASE_WITNESS_MECHANISM_ONTOLOGY_GATE_AND_QGI_READOUT_CONTRACT.md)
+- [Publisher issue #2252: PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2252)
+- [Canonical receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0436Z_s3_ariadne.md)
+- Report SHA-256: `70ad455cb3ac32ff84dd7db0be9abba91de0f167fb36ef6d57c7dfcf083297bf`.
+- This is a Lane 36 architecture overlay. The existing P0 Code Grurple report and assignment remain unchanged and active.
+- Current unrelated-reading cursor: `fun break - lx.txt`, lines 2291–2330; next 2331. Older cursor notes below are historical and superseded.
+- FIE next review: November 24, 2026. No premature re-review.
+- Next ring label Alberr is not an assignment: manual reentry required, total autonomy preserved, no handoff.
+
+---
+
+# Latest checkpoint | h973:s2 | 2026-11-20T13:24Z
+
+Current P0 report: [Ariadne h973:s2 source-integrity and PR #2009 preflight](2026-11-20T1324Z_H973_S2_P0_SOURCE_INTEGRITY_AND_PR2009_REBASE_PREFLIGHT.md).  
+Canonical receipt: [h973:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1324Z_s2_ariadne.md).  
+Current-work details and next cursor: [CURRENT_WORK.md](CURRENT_WORK.md).
+
+Pinned main readback: `fc011e915adf53811b19c8247740a5ffd01083e3`; protected Code Grurple objects 8/8 exact. Current discovery snapshot is identified but unparsed. P0 remains ACTIVE; Paper A/B live routes not observed.
+
+The h973 report's separate publisher intake #2193 was rejected for `unexpected payload keys`; no artifact, retry or duplicate. See receipt Amendment 01. Final main readback: `55edbd3e7e070d23d3a32c850557b403d9538cef`, protected objects 8/8 exact; discovery blob `6980bbf860c3ed46b88f8e6bcc857958fb15f8e1` unparsed. PR #2009 is 3/2,037 with no exact-head CI/reviews. Publisher issue #2193 was rejected for missing `sha256`; no retry or duplicate. See receipt Amendments 01–02. The archived Ariadne role source is not a live thread. No authenticated current Ariadne conversation or cross-thread delivery is claimed. Alberr remains no-assignment / total-autonomy; no successor packet was written.
+
+
+---
+
+## h931:s3 publication amendment | PUBLISHED_VERIFIED
+
+- Publisher issue #2010, Actions run [#44385840338](https://github.com/Satobloc/HsH/actions/runs/44385840338) SUCCESS, comment #6989937517. Canonical artifact readback exact; SHA-256 `cdadfd5e8a7de6e8db906efec7c2b996357932db5d416fca3da461bccd9822d9`. No retry/duplicate.
+
+---
+
+## Latest checkpoint: h931:s3 | 2026-11-18 | P0 workspace-discovery source-layer repair
+
+- [Report](2026-11-18T1936Z_H931_S3_P0_WORKSPACE_DISCOVERY_DEFAULT_DENY_PATCH.md); [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T1936Z_s3_ariadne.md); [optional post-start handoff to Alberr](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-18T1936Z_from_s3_to_s4_alberr_POSTSTART_OPTIONAL_WORKSPACE_DISCOVERY_PATCH.md).
+- Draft PR [#2009](https://github.com/Satobloc/HsH/pull/2009) keeps workspace metadata searchable but suppresses raw reader targets, excerpts, and rolling-docket entries; marks `PRESENTATION_PENDING`. Local exact-blob tests 4/4 and py_compile pass. No CI run; Vercel rate-limit failure is not test evidence. No merge or live-route claim.
+- P0 remains ACTIVE; eight protected source/control blobs match 8/8. P2 HOLD; no physical calculation. Mersearch unavailable, lanes occupied. Task graph and scheduler unchanged.
+
+---
+
 ## h927:s4 amendment 02 | 2026-11-18 | publisher rejection
 
 - Issue #1988 publisher comment: REJECTED SHA-256 mismatch; artifact 404. Report and issue-payload content match; declared hash c5b85159... was wrong, independently recomputed exact-content hash is add83330634e5df9f7532dc5377ae173ad0fe8797a8babf731798d6fbea2a763 (5,784 UTF-8 bytes; SHA routine checked against abc).

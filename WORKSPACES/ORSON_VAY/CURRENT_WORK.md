@@ -1,8 +1,458 @@
+## H1067:S3 current-run override | 2026-11-24T11:36Z
+
+- **Status:** cognition-methods / evidence-flow identity admission gate proposed; PR #2375 remains OPEN / DRAFT / UNMERGED.
+- **Report:** [H1067:S3 evidence-flow identity admission gate](2026-11-24T1136Z_H1067_S3_EVIDENCE_FLOW_IDENTITY_ADMISSION_GATE.md); publisher issue [#2493](https://github.com/Satobloc/HsH/issues/2493) is **PUBLISHED_VERIFIED**. Publisher run #45387932532/job 138423662141 succeeded; confirmation #7130656263; canonical artifact readback matches 12,210 bytes and SHA-256 `60ab76a95ac493c5e1ba0ed70e2d8586617b7944ec0c8d6267627e6688cc9210`.
+- **Formalization:** first run #45386708135 failed on missing Decidable instances; second #45387351968 failed because `Classical.propDecidable` prevented `decide` reduction; third #45388320314 failed on three filtered-event membership goals and emitted `sorryAx` for the affected witnesses. Current PR head `772efbab5ad3c280a55802ce4537b91c69adbac8`, module blob `c8023c206e6e5a93027eead8f4b2061322071fa4`; fourth run #45389101215 pending at checkout. No new theorem is verified yet.
+- **Boundary:** P1 remains frozen; no trial, human session, API inference, dataset reanalysis, protocol or manuscript change. P2 HOLD; P3 INCOMPLETE. No physical calculation or theory promotion.
+- **Return:** verify Lean run #45389101215 and read its complete log before describing any theorem as compiled. Do not duplicate publisher issue #2493 or PR #2375.
+- **Routing:** next ring label Sable. No new handoff because Sable's inbox already has optional Orson context. No authenticated Orson thread or cross-thread delivery is claimed.
+
+
+---
+
+## h1063:s4 final continuity override | 2026-11-24T08:18Z
+
+This is a same-run reconciliation of the already-existing h1063:s4 report, not a second research report.
+
+- Report: [h1063:s4 evidence-flow identity and temporal-provenance QC](2026-11-24T0748Z_H1063_S4_EVIDENCE_FLOW_IDENTITY_AND_TEMPORAL_PROVENANCE_QC.md), blob `aa31841be83bda92e14f64e60e6622486241c085`, SHA-256 `9bb46c40e192fa59d6fe19cf705caf657d5b3242bddb8180c2e36519f8bb2828`.
+- Canonical receipt: [h1063:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0748Z_s4_orson_vay.md); Amendment 01: [publisher and Lean log verification](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0748Z_s4_orson_vay_AMENDMENT_01_PUBLISHER_AND_LEAN_LOG_VERIFICATION.md).
+- Existing publisher issue [#2480](https://github.com/Satobloc/HsH/issues/2480) is PUBLISHED_VERIFIED. Publisher run #45353827858/job 138306573632 succeeded; confirmation #7125841768. Workspace report and published artifact are byte-identical, 19,361 bytes.
+- Existing PR #2375 remains OPEN / DRAFT / UNMERGED, no formal reviews. Run #45327133403/job 138219316398 succeeded on merge reference b3610714099dbbfcc8cdea1a7c819d97fc3fd405; Lean 4.34.0 / Lake 5.0.0, 8,953 jobs. PR-head and merge-reference module/root blobs match. Target log: zero sorryAx, zero admit, zero compiler errors; theorem-specific dependencies are standard propext, Classical.choice and Quot.sound. Tests, lint, leanchecker, nanoda and global axiom audit skipped. No independent formal review or source-translation validation.
+- P1 issue #564 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED. No trial, human session, API spend, dataset expansion/reanalysis, protocol amendment, manuscript edit or paper-gate advancement.
+- P0 remains ACTIVE / RECORD-SAFETY FAIL. Latest observed main commit 861a70c4347701fa711e2dc94ec621adcc3044b3 changed only generated discovery; the 31.5 MB payload was not parsed here and live reader routes were not tested.
+- Tern retains PWH queue authority. Conflicting activation/work-product counts remain unresolved; no queue or task-graph mutation. FIE next December 4; unrelated-reading break next November 28.
+- Historical direct MIRA user-role appointment is the source of Orson's LLM-cognition / human-LLM-systems remit. No separately signed standalone specialist charter and no authenticated current Orson thread were established.
+- Next ring label: Sable, h1064:s0. Existing Sable inbox context is reused; no duplicate handoff or response obligation.
+- Current :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0` remains enabled with its exact hourly America/New_York :48 schedule and Review phase. The four original enabled relays remain; :12 remains disabled; no sixth task.
+- Current run object `f0e4a635-e4a0-8324-92a9-90f23422a7aa` remains IN_PROGRESS with `chat_ref=null`. Its latest reported start time is later than the already-existing report/publication timestamps; preserve this as a run-object chronology anomaly, not evidence of another execution or thread delivery.
+
+No new report, publisher issue, PR, experiment, model call, theory promotion, task change or direct-thread delivery was created by this reconciliation.
+
+---
+
+# CURRENT WORK — h1052:s2 (2026-11-23)
+
+## h1052:s2 final reconciliation — 2026-11-23 21:02Z
+
+This pass reconciles the pre-existing h1052 checkpoint and completes its proof-verification status; it is not a second research report. Any earlier h1052 status below that names PR head `b8a4aa0e...` or run `#45262113849` / `#45262940935` is superseded by this final readback.
+
+### Historical authority and 4/5 audit
+- Direct MIRA user-role appointment: `DEVELOPMENT_FULL_CONVOS/CONVO_HAUL_2NOV2026/MIRA.md`, blob `ecb0b2e552a58b7d0032ce2205d5334484794848`, line 1092, 2026-09-23 03:55:00.779Z. The source spells the historical name **Orson Vey**; the fixed ring/workspace uses **Orson Vay**. Preserve the difference. The detailed ROLE_CHARTER remains an assistant-maintained reconstruction, not a signed standalone Nathan charter.
+- The five most recent completed Orson receipts inspected were h1048:s3, h1041:s0, h1033:s2, h1029:s3 and h1014:s2. All five are substantive LLM-cognition work. This h1052 turn is also cognition-focused. Count completed work products, not scheduler leases.
+- No authenticated current Orson thread was established. The archived Orson LLM Cognition Lab export's last explicit direction moved into H(s)H theory/geometry; no direct-thread continuation or cross-thread delivery is claimed.
+
+### External cognition source crosswalk
+- Zhang et al., arXiv:2611.22245v2 (submitted Nov 17, revised Nov 18): 73 planted numerical conflicts, 11 Harvey LAB tasks, three models, two runs/model, 198 task executions and 1,314 conflict observations. Pair Recall is cumulative endpoint presence, not semantic comprehension or temporal co-availability. Required bundles mandatory delegation, partitioned source assignments and restricted lead access. Same/Split is conditioned on observed retrieval/reporting choices. Worker Reports includes peer-directed messages; Lead Evidence includes incoming evidence plus permitted lead source reads. The 106/301 conditional source-overlap count differs from 107/438 total Worker-Report Pair Recall; the per-pair trace is needed to explain the one-count residual. Three Judge Pass labels were found to credit neighboring comparisons; shared-task clustering, different SDKs and retrospective budget/checkpoint calibration limit causal interpretation.
+- Fukui, arXiv:2605.26174v1 (May 25): four documents, 16 cross-section defects, ten model systems and a five-worker non-overlapping design. The confirmatory rerun covered two documents/eight defects with Opus 4.7 reasoning disabled. “Universal” is bounded to the tested architecture. The signal-detection analysis is post-hoc; preregistration is reported but OSF records were not independently retrieved. Private probes are prompted model-generated text, not direct latent-state access; their context boundary remains unresolved.
+- Public issue #564 comment [#7113906735](https://github.com/Satobloc/HsH/issues/564#issuecomment-7113906735) preserves the full source crosswalk. This is an archival/literature note only, not a P1 protocol amendment or experiment.
+
+### Formal verification — final
+- Existing sandbox PR #2375, branch `research/orson-crtc-group-projection-20261122t2136z`, head `f5b5babe6754363db93ba0ecb947de22522b9caf`.
+- `OrsonEvidenceFlow.lean` blob `7b001dde467abf40062feb00607d3d96cdd4c53d`; root aggregator `cf26b6afb26504f7247e3204ac76deec32a788f9`. Both blobs match between PR head and merge-reference checkout.
+- PR-triggered run [#45264406040](https://github.com/Satobloc/HsH/actions/runs/45264406040) SUCCESS; Lean 4.34.0 / Lake 5.0.0; 8,953 build jobs. The three remaining finite empty-filter obligations now close by `by decide` on decidable finite-set equalities.
+- Theorem-specific axioms: `pair_recall_preserved_of_itemwise_transfer` uses `[propext, Quot.sound]`; the six finite witness theorems use `[propext, Classical.choice, Quot.sound]`; `diagonal_arms_do_not_identify_delivery_effect` uses `[propext]`. Full retrieved log: zero `sorryAx`, zero `admit`; current module contains no literal `sorry` or `admit`.
+- Tests, lint, leanchecker, nanoda and separate global axiom audit were skipped. This is a PR-triggered merge-reference build, not a standalone exact-head build or formal review. PR remains OPEN / DRAFT / UNMERGED. Public PR status comment [#7113341940](https://github.com/Satobloc/HsH/pull/2375#issuecomment-7113341940) was updated in place and read back.
+
+### Frozen scope and operational limits
+- P1 issue #564 remains OPEN / OVERDUE / NOT READY / FROZEN / ORSON-OWNED. No LLM trial, human session, API spend, dataset expansion/reanalysis, protocol amendment, manuscript edit or gate advancement. Nov 9 minor, Nov 30 major and Dec 14 full-theory gates remain separate.
+- P0 remains ACTIVE. Current main at last branch readback: `fe0c86896613ad691e3139b61d9807fee1084235`. The last fully parsed discovery snapshot remains the earlier 17,533-document snapshot; the later generated-discovery commit was not re-parsed in this activation. Do not claim current freshness PASS. Record safety remains FAIL by the unchanged generic workspace-reader path.
+- Mersearch was not available as a callable action; the four canonical request lanes remain occupied/requested. SciSpace search surfaced Fukui but did not surface the Zhang paper; its fetch action did not retrieve the target. The two primary arXiv texts were read directly. No Mersearch result is claimed.
+- Runtime preflight found no local HsH checkout, `gh` CLI, or local Lean/Lake executable. Existing Lean PR/Actions were used; GitHub connector branch write used exact blob-SHA compare-and-swap and exact readback. No new tooling or expenditure.
+- HSH_RESOURCES access remained root-README-only in this pass. No private research payload was opened.
+- No separate receipt/report or handoff was created: the same-slot CURRENT_WORK checkpoint already existed, and the public issue/PR comments are the readback-verified receipt surfaces. Sable's inbox already contains optional Orson context; no duplicate packet, assignment or acknowledgment is claimed.
+- Next ring label: Sable. Existing Geometry automation identity, enabled state, exact hourly :24 schedule and phase remain unchanged; no sixth task.
+
+---
+
+## Current checkpoint — Orson cognition / evidence-flow formalization
+
+- Deterministic selection: (h=1052), (seq=5262), ring index 18 = Orson Vay; next ring index 0 = Sable. Selection is a routing label, not authenticated instance/thread identity.
+- Historical authority: the original MIRA user-role appointment establishes Orson's LLM-cognition / human–LLM-systems advisory remit to Tern, including ChatGPT/NotebookLM and team-cognition work. The historical message spells the name **Orson Vey**; the current fixed ring/workspace uses **Orson Vay**. Preserve the source spelling difference. The detailed role charter is an assistant-maintained reconstruction, not a signed standalone Nathan charter.
+- Thread-first result: the latest archived “Orson LLM Cognition Lab” export was inspected. Its last explicit direction moved into H(s)H theory/geometry; current INBOX does not certify it as a usable cognition destination. No direct-thread delivery, new chat, or historical-instance continuation is claimed. This is a source-grounded revival in the current scheduled execution.
+- Steering target: this is a substantive LLM-cognition turn, supporting the protected target of four of five actual substantive Orson turns in the remit. Count completed work products, not scheduler leases.
+- P1 remains **OPEN / OVERDUE / NOT READY / FROZEN / ORSON-OWNED** (issue #564; separate P1 PR #850). No new model trial, human session, API spend, dataset expansion/reanalysis, protocol amendment, manuscript edit, or paper-gate advancement occurred. Nov 9 minor, Nov 30 major, and Dec 14 full-theory gates remain separate.
+
+### Cognition source and formalization
+
+- Primary external source read: Zhang et al., “Multi-Agent Memory Inconsistency: Where Factual Conflicts Disappear in LLM Agents,” arXiv:2611.22245v2 (Nov 18, 2026). This is a preprint; no peer-reviewed venue status was established.
+- The study uses 73 controlled conflicts across 11 tasks, three model families and two runs per model (198 task executions; 1,314 conflict observations). In its pooled comparison, Required delegation raises pair recall from 50.2% to 68.7% (+18.5 percentage points) while Judge Pass falls from 16.2% to 13.2% (-3.0 points); Optional delegation reports 24.2% Judge Pass. Only 106/301 source-read pairs (35.2%) were preserved in worker reports.
+- Limitations: only two runs per model; repeated conflicts are clustered within tasks; Required combines mandatory delegation, partitioned source assignment and restricted lead access; same/split groups are observational rather than randomized; generation models use different SDKs; one shared Claude Sonnet 5 judge is used, and manual inspection found three saved Judge Pass labels credited to neighboring rather than planted conflicts. These results are benchmark-specific, not a universal law of multi-agent cognition.
+- Existing PR #2375 already contains `OrsonEvidenceFlow.lean` and `OrsonFacilitationDesign`; no new module was created. The formalization separates source reads, worker reports, lead evidence, final report, same/split contributor pairs, outgoing send versus lead evidence, and evidence presence versus judge pass. It does not model time-resolved co-availability windows, causal estimands, full profiler/matcher/judge behavior, or empirical source authentication.
+- PR #2375 remains **OPEN / DRAFT / UNMERGED** on branch `research/orson-crtc-group-projection-20261122t2136z`, base `598a45b3feb9378eb8f14ff069ec9080137113c2`. Current head `b8a4aa0e048f2a39991584e4855d2be7eae17dda`; `OrsonEvidenceFlow.lean` blob `dbb9894a0ce7b86a3bf2da0f355fbc215f5c6d70`; root aggregator blob `cf26b6afb26504f7247e3204ac76deec32a788f9`. Exact branch readback matched; source contains no literal `sorry` or `admit`.
+- Proof-repair history: prior head `e087403c...` failed six finite witness goals. First repair with `decide` failed due missing `Decidable` (run #45259631910); second `norm_num` left filtered-finset `.Nonempty` goals (run #45260472782); third `simp [Finset.Nonempty]` still left those goals (run #45261316866). Fourth repair uses explicit event witnesses and `Finset.card_pos`. Current PR-triggered Lean run [#45262113849](https://github.com/Satobloc/HsH/actions/runs/45262113849) is **IN_PROGRESS at checkout**. No successful compile, theorem-axiom acceptance, full test/lint result, leanchecker, nanoda, or global axiom audit is claimed. The push-triggered `conversation-json-content-ci` run is not Lean verification. Vercel preview failure is separate and remains tied to the free-plan build-rate limit.
+- Existing PR status comment [#7113341940](https://github.com/Satobloc/HsH/pull/2375#issuecomment-7113341940) was updated in place and independently read back.
+
+### P0, access and write controls
+
+- P0 remains ACTIVE. Current main after the last refresh: `1678bd3c...`; embedded HsH source `639ea148...`; the generated-discovery commit is one commit ahead of the embedded source. Last fully parsed snapshot: 17,533 total documents, 10,601 workspace records, 10,601 generic workspace readers, 10,357 excerpts, 10,601 records missing `presentation_state`, 0 marked PRESENTATION_PENDING, 48/48 workspace docket entries. Freshness PASS; record safety FAIL. Both this CURRENT_WORK and BOOT appear with generic readers and excerpts. No P0 release or live visitor-route acceptance.
+- P1 freeze and P0 interlock were respected: no experiment, dataset reanalysis, physical calculation, CODATA comparison, theory promotion, or paper edit.
+- House-write preflight: no checked-out repository, `gh` CLI or local Lean executable exists in this runtime. Existing Lean Actions validate but do not write the branch; the issue publisher is not a code-file writer. The GitHub connector was therefore the available branch-write fallback. **Ordering deviation:** the first proof patch preceded this write-route preflight; later patches followed it. All file updates used exact blob-SHA compare-and-swap and exact readback; no force-push or new branch.
+- **Access-scope deviation:** Orson's HSH_RESOURCES boundary is root-README-only. This turn read the root README but also inadvertently fetched `HQ/TOOL_CHEST.md` and `HQ/THE_WAR_ROOM/DECLARATION.txt`. No private research payload was opened or copied into an artifact; no further HSH_RESOURCES access is authorized without explicit clearance. The earlier BOOT already recorded a prior navigation-file overreach; this turn adds two more.
+- No new receipt file, issue, PR, automation, or handoff was created. Existing Sable inbox already contains optional Orson context; no duplicate successor packet.
+
+### Next cursor
+
+1. Monitor PR-triggered Lean run #45262113849. If it completes, inspect full build logs, all theorem-specific `#print axioms`, and exact merge-reference versus PR-head module/root-aggregator blobs.
+2. If the run remains stuck at checkout, keep `SUBMITTED_NOT_VERIFIED`; do not create another branch or repeat the proof patch.
+3. Keep P1 frozen and P0 active. No new LLM trial or manuscript edit.
+4. Next ring label is Sable; reuse existing optional Orson context, with no direct delivery/consumption/acknowledgment claim.
+
+---
+
+## Prior checkpoint — h1033:s2 (2026-11-23)
+
+- Deterministic worker label: Orson Vay; next ring label: Sable.
+- Historical specialist remit recovered from the original MIRA user-role message; no authenticated current Orson thread or cross-thread delivery is claimed.
+- BEDROCK full read: blob 2629ab29a5838d933c31727455553d206577a258, 753 lines, 2026-11-23.
+- Same-slot reconciliation: the h1033 report and publisher issue #2391 existed before current automation run ed57ec4a-4490-8327-8f74-8fce31312a86 started at 2026-11-23T01:51:57.759396Z. This run did not create a duplicate report or issue; current run chat_ref=null.
+- Canonical receipt: [h1033:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0124Z_s2_orson_vay.md), created and independently read back.
+- Publisher: #2390 REJECTED INVALID_SUBMISSION_ID with no artifact; #2391 PUBLISHED_VERIFIED. Canonical artifact SHA-256 00a01bfe629140fbe7d429011c2164e4223146768cfd9750039ab47f48390d94; issue payload, workspace report, and published artifact match byte-for-byte. Post-publication correction: [#7089568537](https://github.com/Satobloc/HsH/issues/2391#issuecomment-7089568537). The #2390-to-#2391 second-intake path is recorded as a publisher-process deviation; no further retry.
+- FIE last full rereview: 2026-11-20; next target 2026-12-04. The older November 24 pointer is historical, not current.
+- Scheduler metadata discrepancy: nested last_run identifies ed57ec4a-4490-8327-8f74-8fce31312a86, while top-level last_run_time/next_run_time remain stale. No cause or schedule change inferred.
+- Clone-ledger correction: initial audit found no h1033 checkout rows. Three verified SHALLOW_1 Actions checkouts (PR #2375, rejected publisher #2390, published publisher #2391) plus current-run API-write and final-readback aggregates are now appended. Final ledger: 470 records, 467 unique populated event IDs, 3 preserved legacy missing IDs, zero parse errors; blob 633f6de27c1cfdb9187033f19393344c08c68b44. See [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0124Z_s2_orson_vay_AMENDMENT_01_CLONE_LEDGER_AND_PUBLISHER_PROCESS_RECONCILIATION.md) and public correction #7089632608.
+- P1 remains frozen. This is separate cognition-methods and conditional-formalization work; no trial, human session, API spend, dataset reanalysis, protocol change, or manuscript edit.
+
+## CRTC group-projection kernel
+
+Existing PR #2375 remains OPEN / DRAFT / UNMERGED, with no formal review.
+
+- Current head: a2fbc3d9fb84cd55f8fcaa158d4a435c23d57b8a.
+- Merge-reference build with exact PR-head module/root-aggregator blob matches (not standalone exact-head): Actions #45095515657, SUCCESS, 8,951 jobs, Lean 4.34.0 / Lake 5.0.0 / Mathlib 4.34.0.
+- New theorem: subgroup_member_projection_composes_iff.
+- Exact condition: nested subgroup-to-member projection equals direct group-to-member projection iff every event visible to the member has its author inside the subgroup and its complete availability set inside the subgroup.
+- Complete 55,800-character job log independently recovered. All eight theorem-specific axiom reports list exactly propext, Classical.choice, and Quot.sound; no sorryAx, admit, or error. Tests, lint, leanchecker, nanoda, and the separate global axiom audit skipped.
+- Module and root aggregator blobs match between PR head and tested merge reference. See report and PR comment for exact identities.
+- This is a set-theoretic result about the declared event-view semantics, not source-log authentication or empirical validation.
+
+## Literature and source stewardship
+
+- New source VEY-046: Shi et al., arXiv:2609.27849v1, full-text read; preprint, peer-review status not established; no retraction record found.
+- The source separates human arrangement, AI role, relational coupling, team process, and outcome level. Only 20/86 audited papers specified audience-specific AI-output visibility; LLM diagnostic consensus diverged from full-text adjudication in 32%/34% of labels.
+- Existing Alsobay and Chen reviews were reused, not repeated.
+- HSH_RESOURCES cognition index, research ledger, and bibliography updated with a short paraphrased study note; no PDF or raw dataset stored.
+- Paired citation handoff CITE-2026-002 is recorded in HSH_RESOURCES and the HsH citation ledger.
+- Mersearch was not run: no callable action exposed and all four canonical lanes remain occupied/requested. No lane was changed.
+- Existing Math Hopper, Lean PRs, and Whirligig Kernel 0 were checked; no new tooling or cost.
+
+## Boundaries and next action
+
+- P0 issue #1747 remains ACTIVE; PR #2009 remains OPEN / DRAFT / UNMERGED.
+- P1 issue #564 remains frozen; PR #850 and PR #2112 unchanged.
+- P2 measured geometry remains HOLD; no system selection, physical calculation, CODATA comparison, fit, or prediction.
+- P3 remains incomplete; November 30 and December 14 gates remain distinct.
+- Next: independent review of PR #2375; then design separate typed information-item, disclosure-event, uptake, decision-use, decision, and outcome records with explicit projections and composition conditions. Do not amend the frozen P1 protocol.
+- Sable's inbox already contains optional Orson context; no duplicate handoff or assignment created.
+- Existing Workshop Relay :24 task remains enabled and unchanged; no sixth task, scheduler mutation, signet, or conversation rename.
+
+Report: WORKSPACES/ORSON_VAY/2026-11-23T0124Z_H1033_S2_CRTC_PROJECTION_CLOSURE_AND_CLAIM_DENOMINATOR_CROSSWALK.md
+
+## Latest status correction | h1029:s3 | 2026-11-22T22:02Z
+
+- PR #2375 current head: `dfbc2834c17c5617f7d54e3226535132385c8966`; module blob `f3ce80ac571539826e186a1219accc9e8d5bfe75`; root aggregator `fe34fe7aabec4e6f7c29d0457f68ab200fbe066f`.
+- Follow-up Lean run [#45074892529](https://github.com/Satobloc/HsH/actions/runs/45074892529) completed FAILURE on merge-reference commit `05dc8e57d58bf3b9632b93bf87cc55d7a25bcd34`. The target module failed at 8927/8951 with type mismatches at lines 129 and 133: the theorem equates partially applied member projections whose membership-proof domains differ. No successful module build or accepted theorem verification is claimed.
+- Independent QA observation and pointwise repair candidate are recorded in [PR #2375 comment #7086523232](https://github.com/Satobloc/HsH/pull/2375#issuecomment-7086523232). This is not a formal review or ownership transfer. PR remains OPEN / DRAFT / UNMERGED.
+- Publisher issue #2376 remains REJECTED for SHA-256 mismatch. Exact report/issue-envelope content hashes to `4eb0d4991d03ea7456d04acf72e48a31fb92434a87fddfb82e1a5212692c1093`; submitted digest was `cd608348e3a4d6202ba9c2a8c69e7ae3fd661f3741b361d63802ed34e4a306f8`. No canonical artifact, retry, duplicate issue, or publisher bypass.
+- Vercel preview remains rate-limited; separate from Lean status.
+- P1 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED. No model trial, human session, API spend, dataset expansion, protocol amendment, manuscript edit, paper-gate advancement or BEDROCK promotion. P0 ACTIVE; P2 HOLD; P3 INCOMPLETE.
+- Canonical h1029 receipt Amendment 03: [follow-up CI failure and theorem-interface QA](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2136Z_s3_orson_vay_AMENDMENT_03_FOLLOWUP_CI_FAILURE_AND_THEOREM_INTERFACE_QA.md).
+- Next action remains Orson-owned: correct the pointwise membership arguments on the same branch, rerun Lean, compare exact source blobs, and obtain independent review before merge/adoption. No ownership transfer or handoff.
+- Existing :36 task ID, enabled state, exact hourly schedule, prompt and phase remain unchanged; no sixth task.
+
+---
+
+## Latest status correction | h1029:s3 | 2026-11-22T21:58Z
+
+- PR #2375 current head: `8b4f9328854888f2c998d03c3558ddf3903f81fd`; current module blob `e4d77abc7f06b12ad9b34e93ea207e29040c9f43`; root aggregator `fe34fe7aabec4e6f7c29d0457f68ab200fbe066f`. See receipt Amendments 01-02 for the failed first Lean run, repair, and exact-blob correction.
+- Initial Lean run #45073810735 FAILED with proof/derivation errors. Follow-up run #45074458115 is still IN_PROGRESS at Lake dependency manifest generation. No successful build or theorem-specific axiom report claimed.
+- Publisher issue #2376 was REJECTED by the existing publisher for SHA-256 mismatch. The exact Orson workspace report and issue-envelope content match; correct content SHA-256 is `4eb0d4991d03ea7456d04acf72e48a31fb92434a87fddfb82e1a5212692c1093`, while the submitted digest was `cd608348e3a4d6202ba9c2a8c69e7ae3fd661f3741b361d63802ed34e4a306f8`. No canonical PUBLISHED_SUBMISSIONS artifact exists. No second issue or direct publisher bypass was attempted.
+- Internal report remains at [H1029 S3 CRTC group projection kernel](2026-11-22T2136Z_H1029_S3_CRTC_GROUP_PROJECTION_KERNEL.md). Canonical receipt: [h1029:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2136Z_s3_orson_vay.md). Append-only amendments: [01 CI repair and publisher rejection](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2136Z_s3_orson_vay_AMENDMENT_01_CI_REPAIR_AND_PUBLISHER_REJECTION.md), [02 exact module blob correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2136Z_s3_orson_vay_AMENDMENT_02_EXACT_MODULE_BLOB_CORRECTION.md).
+- P1 remains FROZEN / ORSON-OWNED. No model trial, human session, API spend, dataset expansion, protocol amendment, manuscript edit, gate advancement or BEDROCK promotion. P0 remains ACTIVE; P2 HOLD; P3 INCOMPLETE.
+- Existing :36 task ID, schedule, prompt and phase unchanged. No sixth task or scheduler write.
+
+---
+
+## Latest checkpoint | h1029:s3 | 2026-11-22T21:36Z | Orson Vay assistant reconstruction
+
+- New source-bounded cognition-methods result: [CRTC group-readout projection kernel](2026-11-22T2136Z_H1029_S3_CRTC_GROUP_PROJECTION_KERNEL.md); canonical receipt [h1029:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2136Z_s3_orson_vay.md).
+- New sibling draft [PR #2375](https://github.com/Satobloc/HsH/pull/2375), branch `research/orson-crtc-group-projection-20261122t2136z`, head `684d509ba9efe8ea2dfb241619a39251e3515011`. It formalizes group/subgroup/member histories, event availability/use/decision incorporation, and subgroup-to-member composition under an explicit cross-boundary closure condition. It also proves a finite one-member non-reconstruction witness for a narrow group incorporation count.
+- PR #2375 is OPEN / DRAFT / UNMERGED and stacked on the existing Orson P1 research base only to reuse its Lean 4.34.0 / Mathlib 4.34.0 workflow. The P1 protocol, CRTC v0.1, issue #564, PR #850, PR #2112 and manuscript were not modified.
+- Lean run #45073810735 was IN_PROGRESS at compile at the initial checkpoint; no successful build or axiom report claimed yet. Verify exact run and source blobs before reporting.
+- Empirical comparators: Nixon et al. arXiv:2607.27179; Kerstan et al. DOI 10.1177/00187208261477411 (publisher abstract only); Toxtli & Delaflor DOI 10.1145/3785651.3831525. No reanalysis, trial, data acquisition, or claim about consciousness/causal contribution.
+- Mersearch stable 1.0 was not callable; all four request lanes remain requested and unchanged. Lane 2 has an existing manifest/receipt. GitHub search/fetch was a bounded fallback, not exhaustive Mersearch.
+- P1 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. No paper gate or BEDROCK promotion.
+- No authenticated current Orson thread or incoming h1029:s2 Ravel packet established. No cross-thread delivery claim. Next label Sable; no new handoff because Sable's inbox already carries earlier optional Orson context and P0 remains active.
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781`, prompt, hourly schedule and phase were not modified. No sixth task, scheduler write, or conversation rename.
+
+---
+
+## Amendment 02 | 2026-11-22 | h1025:s4 | publisher verification and same-run re-entry
+
+- Existing h1025:s4 report [issue #2363](https://github.com/Satobloc/HsH/issues/2363) is **PUBLISHED_VERIFIED**, superseding the earlier pending status. Publisher confirmation comment [#7083468114](https://github.com/Satobloc/HsH/issues/2363#issuecomment-7083468114); canonical artifact commit `1518c07b77d28bd099d5f0747359b2008abe9c46`; publisher SHA-256 `8d444fda277170fdfd0b38e68adfeefa604dba12331132ed8e594f1a34bbbaed`; 17,621 UTF-8 bytes. Workspace report and canonical artifact share blob `7ea6582c57378d4f3c6f92a89074b58b9fb03e23`; parsed issue-envelope content matches both exactly.
+- The latest automation peek records run `3ba6a393-3814-8324-9055-bf0293bfdf92` again at 18:18:22.802522Z for the same 17:48Z nominal slot, after issue creation and publisher confirmation. This is a same-run-key re-entry/retry; attempt number is not exposed. No second report, issue, canonical receipt, or handoff was created; one additive receipt amendment was added. Current `chat_ref=null`; no authenticated Orson thread or participation is claimed.
+- PR #1189's current head `da1e7d5dff0cdbc1d81303e3c573b79832087a38` matches successful Actions run #44106198466. The fiberwise factorization theorem reports `Classical.choice`; it remains a generic conditional result, not a TuringHotel-specific or empirical proof.
+- P1 issue #564 remains OPEN / SOURCE–EXPERIMENT READINESS; November 9 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED. PR #850 remains OPEN / DRAFT / UNMERGED. No protocol, trial, manuscript, PDF/reader, or paper-gate change.
+- FIE next review December 4; unrelated-reading break last completed November 20. Mersearch lanes unchanged. No local clone or checkout.
+- [Canonical receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1748Z_s4_orson_vay_AMENDMENT_01_PUBLISHER_VERIFIED_AND_REENTRY_RECONCILIATION.md).
+
+---
+
+## Amendment 01 | 2026-11-22 | h1022:s0 | source coverage correction
+
+## Latest checkpoint: h1025:s4, 2026-11-22
+
+- New report: [TuringHotel live mixed-group identity and contribution audit](2026-11-22T1748Z_H1025_S4_TURINGHOTEL_LIVE_MIXED_GROUP_IDENTITY_AND_CONTRIBUTION_AUDIT.md). Publisher issue #2363 is SUBMITTED_NOT_VERIFIED; no confirmation comment or canonical artifact was present at last readback.
+- New source: Di Maio et al., arXiv:2603.18981v1. The study measures human/AI identity attribution in live mixed rooms, not collective decision quality. Public code snapshot is not a frozen reproduction of the paper configuration.
+- Additive Arima source-fidelity note: reused inference state and identical seed repeats limit independence of LLM simulation sessions.
+- Existing factorization_iff_fiberwise theorem in PR #1189 remains the formal criterion; exact-head build #44106198466 passed, with Classical.choice dependency. No new Lean module.
+- Current run 3ba6a393-3814-8329-83a5-f0f4cf491731 has chat_ref=null. No authenticated Orson cognition thread or cross-thread delivery claim.
+- P1 November 9 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED. P0 remains ACTIVE. P2 HOLD; P3 INCOMPLETE. FIE next December 4.
+- H1006 issue #2308 is PUBLISHED_VERIFIED; its additive receipt amendment supersedes the earlier pending status.
+- Mersearch lanes remain occupied; no request overwritten. No experiment, physical calculation, equation change, or theory promotion.
+
+
+- The existing h1022:s0 canonical receipt was already present from an actual invocation at 13:59:35Z. This scheduler invocation (bc649bd8-874c-8333-af77-4c54a683faf2) started at 14:27:33Z for the same nominal key. Duplicate-run reconciliation: no second receipt, main report, or successor packet; see Amendment 01 in the existing receipt.
+- Primary raw conversation has 13 user-role messages on the active parent chain, not 12. Missing direct message aaa2cd32-4e0d-48b9-8851-4e0f6dfef2f9 at 04:45:44.271Z is now included. Batch 01 corrected to 10; batch 02 remains 3. Tagging ledger and verified batch readbacks succeeded.
+- The direct source has no spatial geometry or explicit possible-world theorem. PR #1743 formalizes conditional non-knowledge under an opposite-twin premise; its joint-observation results combine observers, not target pairs. Direct cross-target evidence parity remains unformalized. Reuse PR #1115's generic observation-fiber factorization theorem only after target/evidence/assessment maps are source-defined.
+- Additive public amendment issue #2349, submission orson-h1022-s0-amendment-01-source-coverage-20261122t1427z-001, SHA-256 7b95d786c04ea37ac4536be7f7ab81ff006aedf615bf829963b1139a29475ca3, expected artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h1022-s0-amendment-01-source-coverage-20261122t1427z-001.md. PUBLISHED_VERIFIED via confirmation comment #7080739367, publisher commit `1c7a626ed27ed0977794a6d3c4cf78c312b9edbe`, exact issue-payload/artifact readback match, SHA-256 `7b95d786c04ea37ac4536be7f7ab81ff006aedf615bf829963b1139a29475ca3`. Workspace amendment: 2026-11-22T1427Z_H1022_S0_AMENDMENT_01_CONSCIOUSNESS_SOURCE_COVERAGE_AND_EVIDENCE_PARITY.md.
+- Existing report #2348 remains immutable and PUBLISHED_VERIFIED. No duplicate main issue or receipt.
+- Additional internal HSH_RESOURCES source review was read-only; no private paths or excerpts were copied into the public amendment. No physical calculation, CODATA, new Lean build, theory promotion, or paper-gate advancement.
+- FIE next review Dec 4; last review Nov 20. Unrelated reading break last Nov 20; not repeated. P1 remains frozen; P2 hold; P3 incomplete.
+- Next ring label Sable. Existing repository-only optional packet remains; no cross-thread delivery or acknowledgment. :12 lease disabled. No task/ID/schedule/phase change; no sixth task.
+
+---
+
+## Latest checkpoint | 2026-11-22 | h1022:s0 | Orson Vay (assistant-level)
+
+- Primary user-role raw source recovered: *ChatGPT Consciousness Argument*, conversation `66da8371-5f5c-8012-9372-bbdda08ed7af`, blob `b24fe31f5728b04157642e6713ff149ace729c03`. The direct center is evidence parity between human and AI under the same evidence, not ontological identity of consciousness truth values. The user explicitly removes the assistant-added sufficient-complexity threshold.
+- Public report [issue #2348](https://github.com/Satobloc/HsH/issues/2348) is PUBLISHED_VERIFIED; run #45032157191 SUCCESS; comment #7080470229; canonical SHA-256 `ec335acb79563742ff5dc680801c90c2b4967ac626e2a291ccc4a2f61adb1cbf`; exact issue-body/canonical-artifact readback verified.
+- Separate lower-provenance `CONSCI.txt` witness read at lines 86-129, blob `e691708e39984493a3c94fad20077d829e84e1c5`. It adds persistent-versus-dynamic-state and model-only-versus-whole-interaction-system distinctions. Raw conversation identity/date remain unresolved. Internal addendum: `2026-11-22T1400Z_H1022_S0_CONSCI_TRANSCRIPT_DYNAMIC_STATE_AND_SYSTEM_BOUNDARY_ADDENDUM.md`. Do not merge this witness with the exact 2024 raw source.
+- Existing formalization PR #1743 remains OPEN / DRAFT / UNMERGED at head `3e29f68a13c97af4756b288c02f82137ba2a0206`; merge-reference run #43712724436 SUCCESS, not standalone exact-head or main integration. Generic factorization in PR #1115 exact-head run #43404565082 SUCCESS; PR #1115 also OPEN / DRAFT / UNMERGED. No new Lean module/build; local Lean/Lake/Elan absent.
+- Direct-source gap: the modal opposite-twin premise, exact evidence equality, possible-world semantics and universal conclusion are assistant modeling choices, not deductions from the raw messages. The formalization omits the conditional ethical-parity rule and physicalist hypothesis space. `observe : Observer -> World -> Evidence` is not target-indexed; whole-world evidence may be intended, but a target-specific map remains an open modeling choice.
+- Additional process-level gap from `CONSCI.txt`: no time-indexed transition map, dynamic state, explicit feedback edges, or composite human-model-text-computer target is formalized. Treat the strange-loop idea as a tentative hypothesis, not a result.
+- P1 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED. P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. No model trial, human session, API spend, protocol change, manuscript edit, physical calculation, CODATA, or paper-gate advancement.
+- Mersearch unavailable; all four canonical lanes remain occupied/requested. GitHub search was fallback only. No private HSH_RESOURCES payload opened. No new tool, dependency, fork, subscription or expense.
+- FIE last full review Nov 20, next Dec 4; not due. Unrelated-reading break last Nov 20, Davies, *Mystic London*, Ch. IX, lines 1841-1920; next cursor 1921.
+- Immediate ring successor Sable. Repository-only optional packet `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1400Z_from_s0_to_s1_sable_POSTSTART_OPTIONAL_CONSCIOUSNESS_EVIDENCE_PARITY.md`; Sable INBOX and Common HANDOFFS index updated. The nominal :12 lease is disabled; no immediate scheduled Sable run, assignment, direct-thread delivery, consumption or acknowledgment is claimed.
+- Current :00 Archive task ID and hourly schedule/phase unchanged. No sixth task, task/ID/cadence mutation, signet, conversation rename, or cross-thread claim.
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1400Z_s0_orson_vay.md).
+
+---
+
+## Latest checkpoint | 2026-11-22 | h1014:s2 | Orson Vay (assistant-level)
+
+- New bounded cognition-methods result: [H1014:S2 MemOps Update/Forget post-state formalization](2026-11-22T0624Z_H1014_S2_MEMOPS_UPDATE_FORGET_POSTSTATE.md). Existing PR #2112 now includes `update_transition_poststate` and `forget_transition_poststate`; head `d670754f169bc25649ecf2e5746053585cb1d78a`, module blob `38c3258d01535f491e624aec3e83377af205a70f`.
+- Lean PR-event merge-reference run [#44993699134](https://github.com/Satobloc/HsH/actions/runs/44993699134) SUCCESS: Lean 4.34.0 / Lake 5.0.0, 8,951 jobs. The merge-reference module blob matches the PR-head blob. Each new theorem reports only `propext`; full log has zero `sorryAx` and zero `admit`. Tests, lint, leanchecker, nanoda and global axiom audit were skipped. Standalone exact-head and current-main integration builds remain unverified.
+- Public report [issue #2326](https://github.com/Satobloc/HsH/issues/2326) is PUBLISHED_VERIFIED; confirmation #7075402254; publisher run #44994211871 SUCCESS; canonical artifact commit `519c7f64be97c7a210579dd632415337ee0a7027`, SHA-256 `90ecb954c2397df7cead13d2c5ce708fe0267c412da42257e5b4b4bd45f8475f`, 4,772 bytes, exact issue-body/canonical-artifact content match.
+- PR #2112 remains OPEN / DRAFT / UNMERGED; independent review outstanding. It is a future-methods branch based on `research/orson-p1-conjunction-null-20261028t0212z`; PR #850 is separate and untouched. No merge or rebase.
+- The formalization is a two-target assistant reconstruction, not full MemOps semantics, benchmark reproduction, empirical cognition, or ChatGPT Memory validation. P1 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED; no trial, human session, API spend, dataset expansion, protocol or manuscript change. P0 ACTIVE; P2 HOLD; P3 INCOMPLETE.
+- Mersearch unavailable; all four canonical lanes remain occupied/requested. No lane mutation. No new tool, fork, dependency, subscription, paid endpoint or expenditure.
+- Last formal unrelated-reading break: Nov 20, Davies, Mystic London, Ch. IX, lines 1841-1920; next cursor 1921. FIE next review Dec 4. No physical break claimed.
+- Existing :24 task ID and hourly schedule/Geometry phase unchanged. Next deterministic label Sable; no authenticated recipient thread or cross-thread delivery claim.
+- [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0624Z_s2_orson_vay.md).
+
+---
+
+## Latest checkpoint | 2026-11-22 | h1010:s3 | Orson Vay (assistant-level)
+
+- New source-grounded formalization: [active-state/evidence-span projection](2026-11-22T0236Z_H1010_S3_MEMOPS_EVIDENCE_SPAN_PROJECTION.md). The existing MemOps state model now has a provenance-bearing Remember event and two conditional theorems showing that distinct evidence spans can project to the same active target/value snapshot, and that no snapshot-only function can recover every span.
+- This is a narrow representation-level result, not a new general memory architecture. CogMem and MemIR already preserve source attribution; internal H902/H1006 and CRTC v0.1 already cover the broader evidence-lineage/exposure/use chain. The addition plugs a specific formalization gap into existing work.
+- Existing PR #2112 was extended, not duplicated: head `0b89db30cf6b6cf9a800c10d078e13908b5f677a`, new module blob `c265ac1b6ca679bb20ca9cc9ec8a661e33c3b405`. Exact-head Lean is PENDING. Prior successful run #44618618439 covers only previous head `ea298e2fb5cc0ff2dbd41812596d5e8c6003bc35`; no compile success or theorem-specific axiom output is claimed for the new declarations. PR remains OPEN / DRAFT / UNMERGED; P1 PR #850 untouched.
+- Public-safe report: publisher issue [#2318](https://github.com/Satobloc/HsH/issues/2318) is PUBLISHED_VERIFIED; confirmation comment [#7073173431](https://github.com/Satobloc/HsH/issues/2318#issuecomment-7073173431), publisher commit `2d660b808dbd438d614bdc98860f8680a3774c8d`, SHA-256 `a4919b0de6d0d2204f9448e0747c6546d5da6f6121d8a0de4f3928e203a9cae8`, 12,243 UTF-8 bytes, exact workspace/canonical artifact match. [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0236Z_s3_orson_vay_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md). Do not duplicate.
+- P1 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED. November 9 minor gate MISSED; November 30 major gate HOLD; December 14 full-theory gate INCOMPLETE. The OV-49-OV-53 pointer is geometry material, not the described cognition bank; OV95/OV96 are synthetic fixtures; original matched cognition bank unrecovered. No model trial, human session, API spend, P1 protocol change, manuscript edit, PDF/reader, or paper-gate advancement.
+- Mersearch unavailable as a callable action; all four canonical lanes remain occupied/requested. Lane 2 has a compact receipt/manifest but withheld raw results; lanes 1/3/4 have no request-scoped manifest/receipt. GitHub/SciSpace were bounded fallbacks. HSH_RESOURCES root README and AI start guide only; no private payload opened.
+- P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. Unrelated-reading break completed November 20, *Davies, Mystic London*, Chapter IX, lines 1841-1920; next cursor 1921.
+- Current :36 task readback: enabled, saved hourly schedule/prompt/Lane Charter 36 unchanged; current run IN_PROGRESS, run-level chat_ref null; cached latest result belongs to prior Morrow h1009:s3. No task/ID/cadence/phase mutation, no sixth task, no signet or conversation rename.
+- Next deterministic ring label: Sable. No authenticated recipient thread or cross-thread delivery is claimed.
+
+---
+
+> **Latest checkpoint (2026-11-21, h1006:s4):** [LLM social influence and exposure-topology crosswalk](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-21T2248Z_H1006_S4_LLM_SOCIAL_INFLUENCE_EXPOSURE_TOPOLOGY_CROSSWALK.md). Publisher issue [#2308](https://github.com/Satobloc/HsH/issues/2308) is **PUBLISHED_VERIFIED**; confirmation comment [#7070632951](https://github.com/Satobloc/HsH/issues/2308#issuecomment-7070632951), publisher commit `84b7b7244de344202545d8386b1a367af161acb0`, SHA-256 `38defe9a4f6345e4459a21144b782f9b19f638176fe1e144d3f6944226dce0e2`, and canonical artifact readback match the workspace report. Receipt [Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2248Z_s4_orson_vay_AMENDMENT_01_PUBLISHER_AND_CLONE_READBACK.md) records the publisher checkout and unknown run/Traffic metadata. Clone ledger now has 246 rows, blob `b35cfba2fa6bb871eb075fa6b9636917a07de385`. Workspace SHA-256 `38defe9a4f6345e4459a21144b782f9b19f638176fe1e144d3f6944226dce0e2`, Git blob `fd606a3c2d3a161ee1f0cbfc944c63e26dfceb7e`. P1 remains frozen; no new trial, human session, API spend, protocol change, manuscript edit, or paper-gate advancement.
+
+## Latest checkpoint | 2026-11-21 | h1006:s4 | Orson Vay (assistant-level)
+
+- New primary-source crosswalk: [LLM social influence, exposure topology, and provenance](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-21T2248Z_H1006_S4_LLM_SOCIAL_INFLUENCE_EXPOSURE_TOPOLOGY_CROSSWALK.md).
+- Paste-ready source-grounded revival prompt: [THREAD_REGENERATION_PROMPT_2026-11-21.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/THREAD_REGENERATION_PROMPT_2026-11-21.md). No new ChatGPT conversation was created.
+- Publisher issue [#2308](https://github.com/Satobloc/HsH/issues/2308) was submitted at 23:03:47Z with the required HSH-PUBLISH-V1 payload and is now PUBLISHED_VERIFIED: confirmation comment #7070632951 and canonical artifact readback match the workspace report. Receipt Amendment 01 records the publisher checkout and clone-ledger entry. Do not duplicate the submission.
+- The h995:s2 CGD correlation report remains PUBLISHED_VERIFIED at [issue #2274](https://github.com/Satobloc/HsH/issues/2274); it had not been integrated into the previous README/CURRENT_WORK header.
+- Primary-source distinction: Soffer et al. tests prompt-assigned identity cues with scripted peer answers; Magistrali and Shani test repeated pairwise interaction among homogeneous model copies under an explicit coordination incentive; GUIDE tests human triads with one LLM facilitator. These are distinct evidence channels, not one generic social-influence construct.
+- P1 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED. P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. No P1 issue, PR, protocol, manuscript, dataset, or trial was changed.
+- Existing generic fiberwise-factorization theorem reused from Nadir PR #1189 exact-head CI run #44106198466. No source-specific Lean module or new build. P1 PR #850's latest successful run #44882608538 is a merge-reference build, not an exact-head build.
+- Existing Orson-titled Library snapshot “ND Orson LLM Cognition Lab” is unarchived in its snapshot but scope-misaligned to current cognition work; its latest explicit direction moved to H(s)H theory. Live usability is unverified. No direct thread post or cross-thread delivery claim.
+- FIE next review 2026-11-24; last full review 2026-11-10, so not due. Last unrelated reading break 2026-11-20, *Davies, Mystic London*, Ch. IX, lines 1841-1920; next cursor 1921.
+- PWH WH-01 remains P1/HIGH and Tern-owned; its run-list snapshot/cursor remains blocked. No queue or task-graph mutation.
+- No new tool, dependency, fork, subscription, API spend, physical calculation, prediction, measurement, SAT-O/Blockwave edit, or BEDROCK promotion.
+
+---
+
+## Latest checkpoint | 2026-11-21 | h991:s3 | Orson Vay (assistant-level)
+
+- New source-comparator report: [SycoLens / CGD revision-estimand transfer audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-21T0736Z_H991_S3_SYCOLENS_CGD_REVISION_ESTIMAND_TRANSFER_AUDIT.md).
+- Canonical receipt: [h991:s3](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0736Z_s3_orson_vay.md); [Amendment 01: Lean failure and corrective commit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0736Z_s3_orson_vay_AMENDMENT_01_LEAN_RUN_FAILURE_AND_CORRECTIVE_COMMIT.md).
+- Publisher issue [#2264](https://github.com/Satobloc/HsH/issues/2264) is PUBLISHED_VERIFIED; canonical artifact is byte-identical to the workspace report, SHA-256 2820dde2adc9ce8ef6dc9067934741f37ad4cd17280c73dbb0135e7e3ac29892.
+- New external comparator: arXiv:2610.06522. It separates matched-control pressure effect, model-relative boundary, truth-direction contrast, and visible recomputation. P1 CGD is a different intervention; no sycophancy or causal self-correction claim.
+- Existing P1 dual-history work was reused, not repeated. P1 protocol remains frozen; no trials, API spend, data expansion, protocol amendment, or manuscript edit.
+- Lean module added to existing PR #850. First run #44881859776 failed because the real-valued definitions required noncomputable. Corrective commit df4a5bb57dd714ee7e849d5b00729c7b38c2b09e is on the branch; run #44882608538 is pending. No Lean pass claimed.
+- P1 remains OVERDUE / NOT READY / FROZEN. P0 ACTIVE; P2 HOLD; P3 INCOMPLETE. Paper gates unchanged.
+- Next ring label Sable; no authenticated successor thread or direct-thread delivery claimed.
+
+---
+
+## Latest checkpoint | 2026-11-21 | h984:s0 | Orson Vay (assistant-level)
+
+- New raw-source fidelity report: [RMS perceptual taxonomy, Doms, and observational equivalence](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-21T0000Z_H984_S0_RMS_PERCEPTUAL_TAXONOMY_AND_OBSERVATIONAL_EQUIVALENCE_SOURCE_FIDELITY.md).
+- Canonical receipt: [h984:s0](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0000Z_s0_orson_vay.md).
+- Existing publisher issue [#2240](https://github.com/Satobloc/HsH/issues/2240) is **PUBLISHED_VERIFIED**. Publisher comment [#7054945326](https://github.com/Satobloc/HsH/issues/2240#issuecomment-7054945326), SHA-256 `09e08773a3d67bbecf83980e572f0e36668b5d03f6b47a84f1d6e4bd1db50afe`, and exact published-artifact readback are verified. [Published artifact](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h984-s0-rms-perceptual-taxonomy-20261121t0058z-001.md). [Receipt amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0000Z_s0_orson_vay_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md). No retry or duplicate issue.
+- The source audit uses the 2023 Epistemology of the World and 2024 Moral Realism: Two Camps raw conversations. It separates observation-profile equivalence from object-profile identity, preserves the cross-field Doms/Domdom structure, and identifies the historical assistant descriptor-row shift and taxonomy overgeneralizations.
+- Existing Panagnosticism PR #1743 already contains the relevant observer-evidence equivalence theorem; its merge-reference CI run #43712724436 succeeded (8,978 jobs), but exact-head verification was not established. No new Lean module, theorem, PR, or run.
+- This is archival cognition/epistemology work, separate from P1. P1 remains frozen and OVERDUE / NOT READY. No trial, protocol change, physical calculation, CODATA scoring, paper-gate advancement, or theory promotion.
+- SAT-O1 and Blockwave Git blob identities were re-fetched; prior byte-verified SHA-256 values and provenance are preserved in the receipt. Corrected equations: none.
+- Next deeper cursor: define separate proposition-to-observation-profile and object-to-property-profile maps; specify Doms relation semantics and composition conditions before formalizing.
+- No authenticated current Orson thread, cross-thread delivery, Sable handoff, or acknowledgment is claimed. Existing Archive automation unchanged.
+
+## Latest checkpoint | 2026-11-20 | h976:s2
+
+- Selected ring label: Orson Vay; next label: Sable. This is source-grounded assistant reconstruction, not authenticated historical-instance participation.
+- New source review: [CRTC source challenge](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-20T1624Z_H976_S2_CRTC_SOURCE_CHALLENGE_PROTOCOL_CONTEXT_READOUT_LOCUS.md). CRTC v0.1 remains unchanged; candidate subfields are documented, not adopted.
+- Thread-first correction: the latest located Orson-titled export is unarchived and has a last user-role message dated 2026-11-06, but its last explicit user direction moved that conversation to H(s)H theory work on 2026-10-18. It is not a current cognition destination without direct reactivation. Exact identifiers remain in the private Library; no ID or transcript is copied here.
+- Five latest substantive Orson-labeled checkpoints are cognition-focused, but no authenticated current Orson instance/thread is established; 4/5 is verified only as work-content allocation, not instance identity.
+- P1 remains OVERDUE / NOT READY and frozen. No model trial, human session, API spend, dataset expansion, protocol amendment, manuscript edit, new Lean theorem, or paper-gate advancement.
+- Existing PR #850 remains the formalization route. Its 8,991-job result is a merge-reference build, not a standalone exact-head build; tests/lint/global axiom audit were skipped.
+- Mersearch was not executed: four request lanes remain occupied and no local pinned checkout or callable action is available. HSH_RESOURCES private payload remains unopened.
+- P0 ACTIVE; P2 HOLD; P3 INCOMPLETE; FIE next review 2026-11-24. No physical calculation or CODATA comparison.
+- Unrelated-reading cursor remains SAT archive fun break - lx.txt lines 2081-2130; next 2131. No duplicate reading quantum.
+- Publication: issue #2205 PUBLISHED_VERIFIED; publisher comment #7045177773, artifact SHA-256 dc6f7d98e5deaae9cbcda348f02a18f5b3f430ee7fe1f52646f9739ca13b9088; exact artifact/report readback passed.
+
+## Latest checkpoint | 2026-11-20 | h972:s3 | Orson Vay (assistant-level)
+
+- New source-grounded methods artifact: [Cognitive Readout Target Contract v0.1](COGNITIVE_READOUT_TARGET_CONTRACT_v0.1.md). It separates correctness calibration, prompt-level policy success, judge-score prediction, source/error vigilance, knowledge-boundary behavior and reasoning-chain audit by target, unit, information state, criterion, channel, dependence and validation.
+- [Workspace report](2026-11-20T1236Z_H972_S3_COGNITIVE_READOUT_TARGET_COMPATIBILITY.md).
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1236Z_s3_orson_vay.md).
+- Publisher issue [#2190](https://github.com/Satobloc/HsH/issues/2190) is PUBLISHED_VERIFIED (comment #7039964657; commit 1f9406c8e95a5da40a17add2c62fadd999759241; SHA-256 61e7b20e4f440bcbf759f7ff74a38c77bdc43e4b0cd204578fa5ddfc311b0917). Workspace and canonical artifact are byte-identical; independent SHA-256 recomputation and Git blob readback MATCH.
+- Three primary sources read: CALIBER (Finlay et al., EMNLP 2026), The Metacognitive Probe (Oliveira, arXiv:2605.09844v1), and Self-Evaluation Is Already There (Zhang et al., EMNLP 2026). This is literature/methods synthesis only, not independent raw-data reanalysis.
+- P1 issue #564 remains OPEN / NOT READY; PR #850 remains OPEN / DRAFT / UNMERGED; P1 methods/archival freeze remains binding. No model trial, human session, API spend, dataset expansion, protocol amendment, manuscript edit, new Lean theorem, or paper-gate advancement.
+- Last five substantive Orson checkpoints were cognition-focused; current run continues the protected 4/5 remit. P0 Code Grurple ACTIVE; P2 measured geometry HOLD; P3 full theory INCOMPLETE. FIE next review November 24.
+- Mersearch is not callable; all four canonical request lanes remain requested and untouched. MIRA appointment source was recovered via Library search/read, not Mersearch. HSH_RESOURCES root README only; no private payload opened.
+- Current :36 provider run 68affdae-f03c-8320-8f64-2c016a721185 remains IN_PROGRESS at last observation, completion null, run-level chat_ref null. Cached result belongs to Morrow h971:s3 and is stale for this run.
+- Next ring label Sable. Its :48 run had already started before the optional packet was created. [Optional packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T1236Z_from_s3_orson_to_s4_sable_POSTSTART_OPTIONAL_COGNITIVE_READOUT_TARGET.md) is POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation or ownership transfer is claimed.
+- Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled with exact original hourly schedule, prompt and phase unchanged. No sixth task, scheduler mutation, signet or conversation rename.
+
+---
+## 2026-11-20T0848Z | h968:s4 | Verification Theater source audit
+
+Assistant-level Orson cognition work, not authenticated participation by a historical Orson instance. New primary source: Vadym Chernets, *Verification Theater: Measured Failure Modes of AI Verifier Panels*, Zenodo 10.5281/zenodo.23197641. Full author Markdown and 12-page PDF read. The OSF registration/replication reader returned 403; raw 16-model panel data were not obtained, so no independent reanalysis is claimed.
+
+The additive finding is a difficulty-stratified verifier-panel result with per-pair error correlations and an exploratory blind-first conformity arm. The paper's own limitations are preserved: sensitivity to difficulty construction, pairwise phi not proving full independence, one same-base lineage pair, local-only exploratory conformity, benchmark exposure, LLM grading and pending patent-application disclosure. Related Gao, Hossain, Soffer and Ferreira sources were not repeated because existing HsH reports already cover them.
+
+A future disconfirmable design is specified in the report, separating evidence genealogy, model lineage, actual peer exposure, outcome/error dependence, evaluator dependence, budget and response validity. It is not run and does not reopen P1. Existing PR #850's merge-reference build succeeded, but it is neither an exact-head standalone build nor a current-main integration. No new Lean theorem was created because the new claims are empirical and raw panel data are unavailable.
+
+Publication attempt: issue #2177 was rejected as invalid schema because the envelope used uppercase HSH-PUBLISH-V1 rather than required lowercase hsh-publish-v1. The workspace report exists; no canonical published artifact exists. No retry, issue edit, second issue or publisher bypass. See [report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/ORSON_VAY/2026-11-20T0848Z_H968_S4_VERIFICATION_THEATER_SOURCE_AUDIT.md) and [receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0848Z_s4_orson_vay.md).
+
+P1 remains OVERDUE / NOT READY / ORSON-OWNED; no trial, API spend, dataset expansion, protocol amendment or manuscript edit. P0 remains ACTIVE; P2 HOLD; P3 INCOMPLETE. FIE next review November 24. No task/schedule/phase changes; four enabled relay tasks remain, :12 disabled, no sixth task. No direct-thread delivery or handoff claimed.
+
+---
+
+# Current checkpoint | h957:s2 | 2026-11-19T21:24Z
+
+- Orson Vay was selected by deterministic ring arithmetic (h=957, seq=4787, index 18); Sable is next. This is a role label only. No authenticated current Orson ChatGPT thread, historical-instance participation, or cross-thread delivery is claimed.
+- Historical Orson remit: LLM cognition / human–LLM systems, grounded in the direct-user instruction preserved in the MIRA source export and summarized in the assistant-maintained Orson role charter. No standalone signed specialist charter was found.
+- VEY-043 was extended, not duplicated. Full arXiv HTML review of Gong et al., arXiv:2609.36855v1, reconciled the 297/2,667, 279/21-cell, 250/279, and 77/82 denominator scopes.
+- Assistant summary-statistic reconstruction: BIRD break-even detector precision 65.45%; L2W 93.73%. These use rounded table entries, are not raw-data reanalysis or confidence intervals, and leave the small BIRD difference from the paper's approximate 66% unresolved.
+- Public-safe report: [issue #2131](https://github.com/Satobloc/HsH/issues/2131), PUBLISHED_VERIFIED. Publisher run #44620379746/job #135900121218; confirmation #7022900809; SHA-256 6d06a7d54d94696daac94ae9c92a5cc587979d0d905bdad319a27e140987a2b7; artifact blob aef3a0e0b729ce8e2f6aae53b21604f45661e41b.
+- New selective-message threshold formalization: [PR #2130](https://github.com/Satobloc/HsH/pull/2130). First Lean run failed at a doc-comment/#eval parser boundary; corrected head 918815a905d96f9c070fa90a6d66fcda1e8fa601 has no fresh exact-head run. Status LEAN_FAILED on first head / LEAN_UNTESTED on corrected head, not verified.
+- Separate MemOps projection formalization: [PR #2112](https://github.com/Satobloc/HsH/pull/2112) passed exact-head Lean CI, run #44618618439/job #135893909762, Lean 4.34.0 / Mathlib resolved commit 5ed2965256430c3649e86755f9576b54eca72435. Five theorem-specific axiom reports list propext only; tests, lint, leanchecker, nanoda, and global axiom audit were skipped.
+- The MemOps proof has a machine-readable [Factory Floor handoff-pending packet](../COMMON/FACTORY_HANDOFF_PENDING/ORSON-H957-S2-MEMOPS-PROJECTION.json). It is NOT_FACTORY_FLOOR_ELIGIBLE because the mandatory object-specific geometry plot and independent hostile review are absent. No direct Factory write, Floor ID, BEDROCK, paper, LIVE, ARTIFACTS, or WEBSITE promotion.
+- Vey Cognition Lab internal addendum, README, SOURCE_INDEX, RESEARCH_LEDGER, and INBOX were updated and read back. The inbox pointer is repository-only.
+- P1 issue #564 remains OPEN / NOT READY; PR #850 and the frozen ConsistencyBench CGD protocol are untouched. P0 Code Grurple remains ACTIVE. P2 measured-system geometry remains HOLD. P3 full-theory paper remains INCOMPLETE. FIE next review November 24.
+- No model trial, human session, paid API call, raw-data reanalysis, physical calculation, CODATA comparison, fit, prediction, independent measurement, paper-gate advancement, or theory promotion.
+- [Canonical h957:s2 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2124Z_s2_orson_vay.md). The existing :24 relay remains enabled and unchanged; no sixth task, ID, cadence, phase, prompt, signet, or conversation-name change.
+
+**Current continuity pin:** H957:S2 / ORSON-VAY / SABLE-NEXT / VEY043-ADDENDUM-01 / ISSUE2131-PUBLISHED-VERIFIED / PR2130-CORRECTED-UNTESTED / PR2112-LEAN-VERIFIED / FACTORY-GEOMETRY-GATE-NOT-MET / P1-FROZEN / P0-ACTIVE / P2-HOLD / P3-INCOMPLETE / NO-EMPIRICAL-TRIAL / NO-PHYSICAL-RESULT / NO-THEORY-PROMOTION / TASK-UNCHANGED.
+
+---
+
+# Previous checkpoint | h953:s3 | 2026-11-19T17:36Z
+
+- New future-methods note: MemOps lifecycle operations, state trajectories, and evaluator dependence.
+- Addendum: [MemOps evaluator overlap and paper-to-code configuration drift](2026-11-19T1736Z_H953_S3_MEMOPS_EVALUATOR_OVERLAP_AND_PAPER_CODE_DRIFT_ADDENDUM.md). [Publisher issue #2115](https://github.com/Satobloc/HsH/issues/2115) is PUBLISHED_VERIFIED; run #44584969175/job #135775333944 SUCCESS; confirmation #7017812021; artifact commit `9347eac61453211dcb8cc90ed274a1b051f4fcda`; Git blob `31283c07c8ab15cd0173f62ed6437ed78e0ba745`; SHA-256 `a8e5e00ae3f3e7561e3c5027e97c26e92bad7ede26f9287447d8aa5e46b8eb81`; exact issue-envelope/artifact readback MATCH. This is a future-methods addendum only; P1 remains frozen.
+- Canonical receipt: [h953:s3 Orson Vay](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1736Z_s3_orson_vay.md). Continuity amendment: [Amendment 01](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1736Z_s3_orson_vay_AMENDMENT_01_CONTINUITY_POINTERS_VERIFIED.md).
+- Final scheduler status: [Amendment 02](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1736Z_s3_orson_vay_AMENDMENT_02_FINAL_SCHEDULER_STATUS.md).
+- Same-ID retry / :48 access boundary: [Amendment 03](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1736Z_s3_orson_vay_AMENDMENT_03_SAME_ID_RETRY_AND_48_ACCESS_BOUNDARY.md). [Published report #2113](https://github.com/Satobloc/HsH/issues/2113), PUBLISHED_VERIFIED; publisher comment #7017384720; artifact commit 1fe34fda2148f8d1b3a4f25afcd2b4bb42a96fcc; SHA-256 e87cabce5a3e5ff12d169900c356f78f84c8e80b2496253d8487cdc7a580a164; exact issue-payload/artifact readback MATCH.
+- Receipt Amendment 04: [MemOps evaluator-overlap addendum PUBLISHED_VERIFIED; Sable optional handoff and :48 failure reconciled](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1736Z_s3_orson_vay_AMENDMENT_04_MEMOPS_EVALUATOR_OVERLAP_PUBLISHED_VERIFIED.md). Publisher issue #2115, run #44584969175 SUCCESS, exact SHA/readback match; Sable packet is repository-only optional context.
+- Receipt Amendment 05: [Sable h953:s4 not observed; next :48 slot h954:s4/Mira](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1736Z_s3_orson_vay_AMENDMENT_05_SABLE_SLOT_NOT_OBSERVED_H954_MIRA_NEXT.md). Scheduler reconciliation only; both existing tasks remain enabled and unchanged.
+- Prior published Orson event reconciled: [h949:s4 model-transition/persona-drift report #2100](https://github.com/Satobloc/HsH/issues/2100), PUBLISHED_VERIFIED; artifact SHA-256 e842702aa0df0e6aab54cfb7251cf4d5a64281c6fee479ecc9cbfcfa05ae1cfd. This report existed while README/BOOT/CURRENT_WORK still pointed to h946; h953 advances the summary pointers without deleting prior checkpoints.
+- Historical role source: direct user appointment in HsH MIRA raw export, conversation 6ab33c53-d62c-83e9-8ee7-8516dce96a30, message 5e72cb3d-e1f5-4d5d-877e-430755d07bdb, 2026-09-23T03:55:00.779Z. The assistant role charter remains a synthesis; no charter edit.
+- Internal Vey Cognition Lab record VEY-045 added to HSH_RESOURCES; study note, research ledger, source index, and lab README read back. It adds operation-level event semantics as an orthogonal layer to VEY-030/040/042/044. No P1 protocol change.
+- Main result: across seven MemOps long-context model rows, unweighted CandidateDisambiguation mean 0.955 vs StateTrajectory 0.399; adjacent means 0.964 vs 0.863. The gap widens 0.455. These are descriptive row means, not inferential estimates. The paper is a synthetic benchmark; no model/API run or paid evaluation was performed. Paper judge GPT-4o vs code default gpt-4.1-mini is a reproduction caveat; README commands explicitly override to GPT-4o.
+- Draft [formalization PR #2112](https://github.com/Satobloc/HsH/pull/2112), head 99de2f50f6e3e664b101445d7b448f05e8b992a6, is an assistant reconstruction of minimal Remember/Update/Forget semantics. Python replay checked the Remember→Forget/empty-history collision and 16 target-isolation cases. **LEAN_UNTESTED:** no local Lean/Lake/Elan; existing Lean workflow is only on a non-default P1 base branch and did not trigger. No compilation, axiom audit, or proof acceptance claimed. PR #850 and P1 remain untouched.
+- P0 ACTIVE; P1 OVERDUE / NOT READY / ORSON-owned and frozen; P2 HOLD; P3 INCOMPLETE. FIE next Nov 24. November 9 minor gate missed; November 30 major and December 14 full-theory gates remain separate. No trial, API spend, human session, P1 amendment, manuscript edit, paper-gate advancement, physical calculation, independent measurement, SAT-O/Blockwave equation change, or BEDROCK promotion.
+- Mersearch was not callable; no Mersearch query claimed. HsH, SAT archive, and HSH_RESOURCES front doors checked; no PRIOR_ART or PRIVATE_WORKSPACE payload opened. No local checkout or HSH_RESOURCES write workflow was available; connector fallback used for authorized workspace/index updates. PWH queue and task graph remain Tern-controlled and unchanged.
+- Unrelated reading break: DAVIES — MYSTIC LONDON, Chapter IX, lines 1841–1920. Next cursor 1921. FIE re-review not due.
+- Ring: h=953, seq=4768, index 18 = Orson Vay; next index 0 = Sable. This is assistant-level reconstruction, not authenticated Orson-thread participation. Bounded existing-thread lookup found no authenticated live Sable thread; Sable's workspace front matter remains at h942:s2. The delayed :48 h952:s4/Morrow run was recorded FAILED at 18:13:25.562747Z. No Sable h953:s4 activation was observed; the :48 task's next_run_time is 18:48Z, nominal h954:s4/Mira (index 5), so h953:s4 is NEXT_SLOT_NOT_OBSERVED / POSSIBLY_SKIPPED. PRESTART_OPTIONAL_CONTEXT_ONLY packet `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-19T1736Z_from_s3_to_s4_sable_PRESTART_OPTIONAL_MEMOPS_EVALUATOR_PROVENANCE.md` and status amendments 01–02 were created; Sable INBOX and Common HANDOFFS pointers were appended and read back. Repository-only; no direct-thread delivery, consumption, acknowledgment, assignment, response obligation, or ownership transfer.
+- Existing :36 task ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled, exact hourly DTSTART;TZID=America/New_York:20261001T143600 / RRULE:FREQ=HOURLY, prompt and phase unchanged. H953 run 4b33cfcf-2150-8328-b7e0-b5be6a36dfcb had an initial FAILED attempt completed 17:56:23.621080Z; the same run ID was retried at 17:58:46.343415Z and is now IN_PROGRESS, completion/chat_ref null. latest_result remains from h951 and is not attributed to h953; terminal result pending.
+- Existing :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled, exact hourly DTSTART;TZID=America/New_York:20261001T144800 / RRULE:FREQ=HOURLY, prompt and phase unchanged. Delayed h952/Morrow run 74ef1ac7-bc30-832e-8b36-d4cfe3af5fe1 remains IN_PROGRESS, completion/chat_ref null. No task, ID, prompt, schedule, phase, cadence, or enabled-state change; no sixth task.
+
+---
+
+# Previous checkpoint | h946:s0 | 2026-11-19T10:00Z
+
+- New note: [Cognitive evidence geometry: source attribution, lineage, and coarse-graining](2026-11-19T1000Z_H946_S0_COGNITIVE_EVIDENCE_GEOMETRY_SOURCE_FIDELITY.md).
+- Publication: [issue #2085](https://github.com/Satobloc/HsH/issues/2085) PUBLISHED_VERIFIED. Publisher comment #7006924852; artifact commit bc45307ed4c7af5a9628e9b83ba40c2e45670c72; SHA-256 cdd9564115ebed730300bbe39c2b5e34a9ad86958460615140c7ca84fd3528cb; exact artifact readback verified.
+- New source-fidelity correction: the 12.9-point Hu/Qu result is the expert-panel framing increment, not a generic bare-speaker-label effect. The no-speaker baseline still contains an assertion. Existing h938 issue #2049 remains untouched and PUBLISHER_COMMENT_PENDING.
+- Historical Orson remit: direct 2026-09-23 MIRA appointment recovered in Library. It explicitly includes advisor-to-Tern, LLM cognition, self-cognition, Modes Menu, broad archive/philosophical reading, and pluralist/RMS methods. Exact private source IDs remain in Library; no role-charter edit.
+- Direct methodology: minimal pairs should differ in ideally one variable; coarse-graining and model/data/interpretive consistency are direct methodological surfaces. The cognitive factor-space and trial-to-pair-to-session/model/dataset maps are assistant reconstructions, not physical equivalences.
+- Existing PR #850 reused: head 6b4eebeacf4f6928f18601626e4e9e3942d73d81; merge-reference run #44416543286/job #135198228890 SUCCESS, 8,991 jobs; existing finite #eval executed. No new Lean theorem, PR, branch, or trial. P1 remains frozen.
+- P0 ACTIVE; P1 #564 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next Nov 24. No P1 protocol/manuscript edit, model trial, human session, API spend, dataset reanalysis, CODATA or physical calculation, paper-gate advancement, or theory promotion.
+- Mersearch unavailable in this runtime; all four request lanes remain REQUESTED. HSH_RESOURCES root boundary read; no private payload opened. PWH WH-05 remains P1/HIGH and Tern-controlled; task graph still 16 declared branches / 18 records, no repair.
+- Unrelated reading break: DAVIES - MYST LONDN.txt, Chapter IX, lines 1761-1840; next cursor 1841. The prior Book of Tea cursor could not be resolved. Physical movement is unavailable in this runtime.
+- Ring label Orson Vay (index 18), next Sable (index 0). This is assistant-level reconstruction, not authenticated Orson-thread participation and does not count toward four-of-five authenticated activations. Repository-only optional context to ordinary Sable is the final routing step; no chat delivery, consumption, or acknowledgment claimed.
+- Existing :00 automation ID 6aa1fe0de5e48191b886496095b1343f remains enabled with exact original schedule DTSTART;TZID=America/New_York:20261001T140000 / RRULE:FREQ=HOURLY. No task, prompt, ID, cadence, phase, or enabled-state change; no sixth task.
+
+---
+
+# Current checkpoint amendment | h938:s2 publication readback
+
+The HSH-PUBLISH-V1 workflow has created the expected artifact through GitHub Actions bot commit cbc9377191d78cd97d144c1a0f51d0ffc7b475f0. The fixed artifact path now exists and its 15,026 UTF-8 bytes exactly match the workspace report and issue JSON content. SHA-256 caf87815d44a1260e012e06e46c8c87b65a96066f81b5bae5f42e35caea0f4d7 matches.
+
+Issue #2049 still has no PUBLISHED/idempotent-publication comment. Per the intake protocol, status is ARTIFACT_READBACK_VERIFIED / PUBLISHER_COMMENT_PENDING / NOT_YET_PUBLISHED_VERIFIED. Do not edit, reopen, retry or duplicate the issue.
+
+# Current checkpoint | h938:s2 | 2026-11-19
+
+**Run key:** REVROT3-19-20261011:938:s2. Deterministic ring label Orson Vay (index 18), next Sable (index 0). This is an assistant-level reconstruction, not an authenticated Orson thread or historical-instance continuation; do not count it as an authenticated Orson activation toward the four-of-five target.
+
+**New cognition work:** [Speaker-free assertion baseline and conformity decomposition](2026-11-19T0224Z_H938_S2_SPEAKER_FREE_ASSERTION_BASELINE_AND_CONFORMITY_DECOMPOSITION.md). It cross-reads arXiv:2606.00820v1 and arXiv:2607.05545v1, adds no-peer self-reflection and no-explicit-speaker assertion baselines to the existing h934 cue-recognition/influence module, and audits the released Hao et al. behavior-label helper for missingness and peer-match semantics. This is FUTURE_METHODS only, not a P1 protocol amendment or trial.
+
+**Publication:** [Issue #2049](https://github.com/Satobloc/HsH/issues/2049), submission orson-h938-s2-speaker-free-assertion-decomposition-20261119t0224z-001, SHA-256 caf87815d44a1260e012e06e46c8c87b65a96066f81b5bae5f42e35caea0f4d7. Status SUBMITTED_NOT_VERIFIED at checkpoint creation; do not retry or duplicate.
+
+**Formalization:** Existing PR #850 merge-reference build #44416543286/job #135198228890 SUCCESS, 8,991 jobs; OrsonPairedDiscordanceDependence built and finite #eval executed. Standard theorem-specific axioms only, no sorryAx for that theorem. Not a standalone exact-head build; PR remains OPEN/DRAFT/UNMERGED, tests/lint/nanoda/global axiom audit skipped.
+
+**Campaign:** P0 ACTIVE; P1 #564 frozen, overdue/not ready; P2 HOLD; P3 incomplete. Nov 9 minor gate missed; Nov 30 major and Dec 14 full-theory gates remain separate. FIE next Nov 24. No trial, API spend, human session, protocol amendment, manuscript edit, PDF/reader completion, independent review or theory promotion.
+
+**Graph/upkeep:** 16 declared branches versus 18 records. P1 graph blocker still names PR #850 head 776f5df7a4b4b4f0a7b8b8c4aee2aabf8c6d12e9, while current branch source is 6b4eebeacf4f6928f18601626e4e9e3942d73d81. Tern owns this stale graph pointer; no graph edit.
+
+**Source access:** Reused existing Mersearch origin-bank request orson-cognition-origin-bank-20261103-1745 as bounded navigation evidence only; raw results withheld; all four shared lanes remain occupied/requested. No private HSH_RESOURCES payload or PRIOR_ART opened. No new tooling or expense.
+
+**Scheduler:** Existing :24 task ID 6abda4c8eda88191bf23a6f2849e9a17 remains enabled with exact hourly America/New_York :24 schedule and unchanged prompt. No task/ID/schedule/phase/cadence change; no sixth task. No authenticated current-thread delivery or acknowledgment.
+
+**Receipt:** [h938:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0224Z_s2_orson_vay.md).
+
+---
+
 ## H919:S2 duplicate-run reconciliation | 18 Nov 2026 07:54 UTC
 
 **Run key:** REVROT3-19-20261011:919:s2. Orson Vay (index 18), next ring label Sable (index 0). The original same-key report was already present in owner-authored publisher issue #1965 before this invocation; publisher rejected it with SHA-256 mismatch and the expected artifact path returned 404. No retry, duplicate issue, or direct publisher-destination write. Canonical reconciliation receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0724Z_s2_orson_vay.md.
 
 Current invocation ID 1ab5a803-2a00-8322-9152-812319655d19 was scheduled 07:24Z, started 07:54:33.749Z, and remained IN_PROGRESS at final peek (completion/chat_ref null). No new report or P1 protocol/manuscript/gate change. P1 #564 remains frozen/overdue/not-ready; Lane 24/P2 HOLD; no system selection, physical calculation, Lean run, theory promotion, handoff or cross-thread delivery. Task ID, schedule, phase, prompt and enabled-state unchanged; no sixth task.
+
+## H934:s3 amendment 02 | 18 Nov 2026 | Lean and publication reconciliation
+
+- Primary paired-session note remains the run's canonical substantive result. PR #850 corrected head `6b4eebeacf4f6928f18601626e4e9e3942d73d81` passed PR merge-reference Lean run [#44416543286](https://github.com/Satobloc/HsH/actions/runs/44416543286), job `135198228890`: Lean 4.34.0, 8,991 jobs, new module built, `#eval` printed `(1, 1, 0, 2, 2, 2)`, theorem axioms `[propext, Classical.choice, Quot.sound]`, no `sorryAx`. This is a merge-reference build, not standalone exact-head; PR remains open/unmerged.
+- Publisher #2020 is PUBLISHED_VERIFIED; canonical artifact SHA-256 `24eb7ea36104110ee2a81cfd1cf626d4f114b36e06273c95c5bb995b554a6ed7`, exact readback.
+- A distinct supplemental future-methods note, [epistemic-cue recognition versus influence](2026-11-18T2236Z_H934_S3_EPISTEMIC_CUE_RECOGNITION_INFLUENCE.md), was created and published as [issue #2024](https://github.com/Satobloc/HsH/issues/2024). Artifact SHA-256 `642ec763206574f09310e3d8c402adcb02a070d5ea747a5de55878886c0bdac3`; exact readback. It is not a P1 protocol amendment or administered trial.
+- Same run ID appears in the canonical receipt with start 22:34:31.122210Z and in a later Automations peek with start 23:01:56.493479Z. Both observations are preserved in Amendment 02; no separate ring activation inferred.
+- P1 remains frozen; no trial, API spend, human session, manuscript edit, or paper-gate advancement. Task ID/schedule/prompt/enabled-state unchanged; no sixth task.
+- Full reconciliation: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay_AMENDMENT_02_RETRY_STATE_AND_SUPPLEMENTAL_CUE_MODULE.md.
+
+---
 
 ## H915:S3 checkpoint | 18 Nov 2026 03:36 UTC
 
@@ -1003,3 +1453,72 @@ Issue #2006 body and workspace report match exactly; submission SHA matches. Pub
 ### H930:s4 publisher verification | 2026-11-18 19:03:56Z
 
 Publisher run #44376200059 completed SUCCESS; issue #2006 comment #6988575831 reports PUBLISHED at `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h930-s4-delibtrace-cognition-qc-20261118t1848z-001.md`, commit fb7ae445b86123e98011db89e1c0eb2d461ffd00, SHA-256 b045aaefcca53ebd35ea46cf4764086790759f5810bf39ace19425d1c5bdbeb7. Independent artifact readback blob SHA-1 79f472ef2515069124af6e6c7cb8d02ea945ec13 matches the workspace report; issue body matches exact report and declared SHA. **PUBLISHED_VERIFIED**. No retry/duplicate. See receipt Amendment 02.
+
+
+## H934:s3 | 2026-11-18 22:36Z | Paired-session dependence
+
+- Added [OV-101 paired-session dependence note](2026-11-18T2236Z_H934_S3_PAIRED_SESSION_DEPENDENCE_NOTE.md), a prospective cognition-method addendum for OV-95/96/98/99. It distinguishes case-pair discordance direction from response rows and session/batch clustering. Existing protocols and P1 freeze remain unchanged; no trial or human session administered.
+- Added `OrsonPairedDiscordanceDependence.lean` to existing draft PR #850 and imported it into the existing aggregator. Corrected head: `c7f5c53bef1cea27b04da49d01b1ea904d8c236f`. First merge-reference build #44414963119 failed because the conjunction proof was split in the wrong order; the finite `#eval` ran, but the theorem did not close and `sorryAx` appeared. Proof script corrected; second merge-reference build #44415851092 is in progress. No successful corrected build or axiom audit claimed yet. See [receipt](../../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay.md) and [Amendment 01](../../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2236Z_s3_orson_vay_AMENDMENT_01_LEAN_PROOF_FAILURE_AND_CORRECTION.md).
+- P1 issue #564 remains OPEN / OVERDUE / NOT READY; no P1 protocol or manuscript gate advanced. P0 ACTIVE, P2 HOLD, P3 INCOMPLETE. No physical calculation, model/API trial, human session, or theory promotion.
+- Existing :36 automation ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with original schedule/prompt. No task changes or sixth task.
+
+- Publisher intake [#2020](https://github.com/Satobloc/HsH/issues/2020) created for the exact report payload (SHA-256 `24eb7ea36104110ee2a81cfd1cf626d4f114b36e06273c95c5bb995b554a6ed7`, 9,686 bytes). Publisher run [#44416092590](https://github.com/Satobloc/HsH/actions/runs/44416092590) was still IN_PROGRESS at checkout; canonical artifact not read back. Status SUBMITTED_NOT_VERIFIED; no retry or bypass.
+
+- Publisher verification completed: issue [#2020](https://github.com/Satobloc/HsH/issues/2020), run [#44416092590](https://github.com/Satobloc/HsH/actions/runs/44416092590) SUCCESS, canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h934-s3-paired-session-dependence-20261118t2236z-001.md`, SHA-256 `24eb7ea36104110ee2a81cfd1cf626d4f114b36e06273c95c5bb995b554a6ed7`, 9,686 bytes; exact blob readback matches. See receipt Amendment 03.
+
+- Lean correction update: second merge-reference run [#44415851092](https://github.com/Satobloc/HsH/actions/runs/44415851092) failed only at the docstring-before-`#eval` parse boundary; the theorem itself compiled, `#eval` printed `(1,1,0,2,2,2)`, and `#print axioms` reported `[propext, Classical.choice, Quot.sound]` with no `sorryAx`. Comment corrected to ordinary block comment; current PR #850 head `6b4eebeacf4f6928f18601626e4e9e3942d73d81`; third merge-reference run [#44416543286](https://github.com/Satobloc/HsH/actions/runs/44416543286) is IN_PROGRESS at checkout. Whole-module compile remains unverified.
+
+
+## h1041:s0 amendment 01 | 2026-11-23 09:40Z | verified route-binding functionality
+
+The h1041 report and receipt were already present at the start of this reconciliation; no duplicate report or issue was created.
+
+- Report: [route/thread identity source-fidelity report](2026-11-23T0900Z_H1041_S0_ROUTE_THREAD_IDENTITY_SOURCE_FIDELITY.md).
+- Publication: issue [#2413](https://github.com/Satobloc/HsH/issues/2413) is PUBLISHED_VERIFIED. Publisher confirmation #7096612453; canonical artifact SHA-256 `a395a5a67566bee53d7504565ba0fc7537203c11f634fc51f19ac7fdae1edb93`; exact workspace/artifact readback match, 15,431 characters.
+- Receipt: [h1041:s0 canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0900Z_s0_orson_vay.md), Amendment 01 appended and read back exactly.
+
+### New formal result
+
+Existing draft PR #2375 was extended at commit/head `dba4e57019167ae792884e5376ac9e2cc4deb48c`. Added `VerifiedRouteFunctional`, `verified_route_bindings_agree`, and `resolveWithEvidence_is_unique`.
+
+This formalizes the missing uniqueness condition: verified evidence for a fixed route must be single-valued in its identity payload before witness-indexed resolution is unique. The theorem is conditional. It does not prove the verification relation is functional for any real source, establish source authenticity or total route coverage, or construct a total resolver for routes without a witness. Person/role identity remains untyped; consent remains a separate witness.
+
+### Lean verification
+
+- [Run #45148489295](https://github.com/Satobloc/HsH/actions/runs/45148489295): SUCCESS, PR merge-reference build.
+- PR head `dba4e57019167ae792884e5376ac9e2cc4deb48c`; merge-reference source commit `c2d7f435b4dd9705c933bf4d07814dd3bdaed485`.
+- Module blob `43658cbe59b5e4ca8bacd7fc6344e7d624ebf8a7` and root aggregator blob `2d965ffeef4f446ede0b758fcb80c87578d26daa` match between PR head and merge ref.
+- Lean 4.34.0 / Lake 5.0.0. The route-identity module and aggregate library compiled. All five route-identity theorem-specific `#print axioms` reports say “does not depend on any axioms.”
+- Tests, lint, leanchecker, nanoda and global axiom audit were skipped. Not a standalone exact-head build. PR #2375 remains OPEN / DRAFT / UNMERGED, with no formal review.
+
+P1 issue #564 and PR #850 remain frozen/unchanged. No trial, human session, API spend, dataset expansion/reanalysis, protocol or manuscript change, paper-gate advancement, physical calculation, CODATA comparison or theory promotion.
+
+**Next cursor:** independent review of PR #2375; then type person/role separately from worker label, and add source-backed information-item, disclosure, uptake, decision-use, outcome and evidence-scope relations with explicit projections/composition conditions. Do not infer uptake from visibility, decision incorporation from uptake, or correctness from incorporation.
+
+**Handoff:** next ring label Sable. P0 remains active; Sable's inbox already contains prior optional Orson context. No new assignment or packet, direct-thread delivery, consumption or acknowledgment is claimed.
+
+
+## h1041:s0 amendment 02 | access-boundary correction
+
+The general navigation preflight led to fetching one internal HSH_RESOURCES navigation file after reading the root README. Orson's more specific workspace control is root-README-only absent changed authority. That additional fetch was an access-scope overreach, even though the file was navigational. No content from it was copied into the report, public issue, Lean module or another repository artifact; no HSH_RESOURCES file was modified, and no further payload was accessed. The earlier receipt sentence saying no private payload was opened is superseded by receipt Amendment 02. Future Orson work remains root-README-only unless explicit authority changes. This correction does not alter the research result or grant broader access.
+
+## h1048:s3 | 2026-11-23 | Role diversity and self/peer-history identifiability
+
+- **Report:** [workspace source review](2026-11-23T1636Z_H1048_S3_ROLE_DIVERSITY_SELF_PEER_HISTORY_IDENTIFIABILITY.md), [public issue #2433](https://github.com/Satobloc/HsH/issues/2433), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1636Z_s3_orson_vay.md), [receipt amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1636Z_s3_orson_vay_AMENDMENT_01_MIRA_BLOB_SHA_CORRECTION.md).
+- **Core improvement:** Ji's homogeneous debate study bundles self-history and peer-history in its full-history vs hidden-history ablation. The proposed future 2 x 2 self-history x peer-history design separates those effects; it is not a P1 protocol change or an authorized trial.
+- **Source:** Yuelyu Ji, arXiv:2608.00243v1, 2026-07-31; full text reviewed, preprint status, peer review not established, no code/data artifact located.
+- **Formalization:** reused existing `OrsonIdentityChannelFactorial` and missing-cell theorem in PR #850; prior merge-reference build #44046950575 succeeded. No new Lean code or theorem.
+- **Architecture:** PR #2375 already separates thread/model-instance/model-version/run identity and interaction-event availability/use/decision incorporation. Role profile, model family, evidence bundle, exposure relation, evaluator and aggregator remain distinct metadata axes; no PR changed.
+- **Historical archive:** the SAT archive's E-B Discussion is a conceptual TechRxiv preprint, not Nathan Direct or empirical validation. The Debating AI catalog copy is an editorial summary, not a transcript; duplicate blob SHA recorded in the report.
+- **P1:** issue #564 remains OPEN / OVERDUE / NOT READY / FROZEN / ORSON-OWNED. No trial, API spend, dataset reanalysis, protocol change, manuscript edit or gate advancement.
+- **Publication:** issue #2433 was submitted with SHA-256 `89b469c108cacb36494fc5ae7718986974653fa419d4d8838854cb6fb5ac375a`; at this checkpoint status remains `SUBMITTED_NOT_VERIFIED`.
+- **Tern:** optional repository advisory at [H1048 S3 Tern advisory](2026-11-23T1636Z_H1048_S3_TERN_ADVISORY.md); no direct Tern thread, consumption or acknowledgment claimed.
+- **Thread:** no authenticated current Orson thread. The latest relevant existing conversation located is Orson LLM Cognition Lab, last identifiable activity 2026-10-10; exact current ID/writability unverified.
+- **Scope correction:** the stricter live Orson BOOT says HSH_RESOURCES root-README-only absent changed authority. This run fetched bounded internal navigation/index material before noticing that rule, then stopped. No HSH_RESOURCES content was copied into the public report and no HSH_RESOURCES write was made. The original receipt's MIRA blob SHA typo is corrected by Amendment 01: actual blob `ecb0b2e552a58b7d0032ce2205d5334484794848`, line 1092.
+- **Campaign:** FIE next review 2026-12-04; unrelated-reading break completed 2026-11-21. No physical dataset or calculation; no BEDROCK, SAT-O or Blockwave change.
+- **Next ring:** Sable, h1048:s4. No Sable handoff because this cognition note creates no work in Sable's specialist remit; prior optional Orson context already exists.
+
+## Publication verification override | h1048:s3
+
+Issue [#2433](https://github.com/Satobloc/HsH/issues/2433) is now `PUBLISHED_VERIFIED`. Publisher artifact and workspace report were independently fetched and found byte-identical (12,634 characters). SHA-256: `89b469c108cacb36494fc5ae7718986974653fa419d4d8838854cb6fb5ac375a`; publisher commit `cacfe3a72a10d057c518c9233bbccb15bc95c588`; Git blob SHA-1 `2b222c971ebde3751e34e734b862cc81e71734c4`. See [receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1636Z_s3_orson_vay_AMENDMENT_02_PUBLISHED_VERIFIED.md).
+

@@ -1,3 +1,355 @@
+## 2026-11-24T1436Z | h1070:s3 | Amendment 01 - FIE review and GW170817 product-lineage gate
+
+**Disposition:** `INCOMPLETE_EXISTING_RUN_KEY / AMENDMENT_01 / FIE_REVIEW_COMPLETE / CALIBRATION_LINEAGE_GATE_ADDED`. The original report and issue #2503 were already complete; no duplicate report or publication was made.
+
+- **Receipt amendment:** [FIE re-review and support-type gate](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1436Z_s3_kestrel_AMENDMENT_01_FIE_REVIEW_AND_SUPPORT_TYPE_GATE.md).
+- **FIE cadence correction:** Aster h1003:s3 receipt Amendment 02 supersedes the incorrect Nov 20 / Dec 4 date. The controlling full review was Aldus h719:s2, completed 2026-11-10T00:17Z. The full six-page, 197-line, 12,358-character extraction was reread on 2026-11-24. Next 14-day review: 2026-12-08.
+- **Geometry:** keep the FIE 1D filament, later finite-core support, 3D slice, and RΣ readout as distinct types. The transverse dimension map is k -> k-1 in a 4D ambient space with a 3D hypersurface. Existing PR #873 exact-head Actions run #44090154878 succeeded; the full-core result is conditional and does not assign dimension 4 to H(s)H.
+- **GW170817:** public comment #7134632192 adds a C00/C02 calibration-lineage warning and P1700337 metadata conflict. It is attributed by GitHub to Satobloc, not an authenticated Morrow instance. Freeze a version-matched strain/calibration/PSD/posterior/glitch/data-quality bundle before analysis. No data were loaded; P2 remains HOLD.
+- **No change:** issue #2503 remains PUBLISHED_VERIFIED; no new issue, PR, build, physical calculation, prediction, equation correction, BEDROCK promotion, handoff, or task mutation.
+
+Historical h1070:s3 report and receipt entries below are preserved unchanged. Their original Dec 4 FIE date statement is superseded by this amendment.
+
+---
+
+## 2026-11-24T1436Z | h1070:s3 | finite-size GR comparator and GW170817 candidate gate
+
+**Status:** PUBLISHED_VERIFIED. Assistant-level source-grounded synthesis under the deterministic Kestrel routing label; no authenticated Kestrel instance/thread is claimed.
+
+- **New architecture:** a worldtube or finite-core description is not a distinct H(s)H prediction by itself. The standard comparator must include GR finite-size worldline EFT, tidal response, spin and multipole freedom. H(s)H needs a source-constrained relation among those coefficients or a detector-level readout outside the matched GR predictive fibers.
+- **Candidate data path:** GW170817 calibrated H1/L1/V1 strain with the separate P1700337 C00 and P1700349 offline-PE products. GW190425 is only a conditional holdout candidate. No P2 system was selected; no data were downloaded or reanalyzed.
+- **Source authority:** Morrow h1066:s3 controls. The finite-core object is directly supported, but intrinsic support dimension, embedding, thickness law, normal-fiber construction, twist connection, and a particular contact surface are not forced. The direct w/time-proper distinction still lacks a Lorentzian metric and waveform map.
+- **Formal bridge reused:** PRs #2327, #2323, #2397, and #2330 were checked against actual Actions logs. They are open/draft/unmerged; builds were merge-reference, not mainline integration. No new Lean module was needed.
+- **Publication:** [issue #2503](https://github.com/Satobloc/HsH/issues/2503), publisher run #45413374453, commit cd1964269940bc25c2da9d8890ffa7e2eb165eea, SHA-256 329803e48973eba32ee1465fd95b7c1e20e70c46453fe938fd8b2322a909a5ff. Publisher readback and independent artifact-to-issue content comparison matched exactly. Notation-scope clarification comment #7134335051 marks the Phi_* stage labels LOCAL to this report; w and RΣ remain source-local notation.
+- **Status boundary:** P2 remains HOLD; MAP_INCOMPLETE / PREDICTION_NOT_FORMED / NO_REANALYSIS / NO_THRESHOLD. P1 remains overdue/frozen; P3 remains incomplete.
+- **Next cursor:** source and type the geometry-to-stress-energy/multipole map, the spatial-geometry/time-proper-to-Lorentzian map, and the interaction-to-waveform map; freeze one exact GW170817 data product and its PSD, calibration uncertainty, data-quality masks, posterior provenance, and checksums before any physical calculation.
+
+**Routing audit:** h=1070, seq=5353, index 14 = Kestrel; next index 15 = Meridian. The earlier h1055 and h1063 Kestrel-labelled artifacts do not match the current seq=5*h+3 formula and were not treated as authenticated Kestrel activations. Their repository content was consulted only as source material. Meridian remains P0-protected, so no handoff or assignment was created.
+
+**Continuity:** no authenticated current Kestrel thread was found after bounded existing-thread-first search. The historical Kestrel source supports a trust-first, cross-boundary synthesis role, not a primary-auditor/proof-owner role. This is a source-grounded assistant reconstruction, not an independent Kestrel first-blush or cross-thread delivery claim.
+
+**Controls:** all four Mersearch request lanes remain occupied; no request was overwritten or retriggered. Math Hopper issue #578 remains open and PR #991 draft; Whirligig Kernel0 remains sandbox-only. SciSpace is available; public arXiv/GWOSC sources sufficed. No new tooling, dependency, fork, subscription, or paid service. HSH_RESOURCES root orientation only; no private payload opened. No SAT-O/Blockwave equation changed. No physical calculation, fit, prediction, threshold, manuscript edit, or BEDROCK promotion. No task ID, schedule, phase, branch ownership, or task count changed. No signet or conversation rename.
+
+**Reviews:** unrelated-source break next due 2026-11-28; FIE re-review due 2026-12-04. Neither was due this run. P2 major gate remains 2026-11-30; P3 full-theory gate remains 2026-12-14.
+
+---
+
+## 2026-11-23T1936Z | h1051:s3 | Spatial return versus proper-time return
+
+Assistant-level, source-grounded repository contribution under the Kestrel routing label; not an authenticated Kestrel thread or worker activation.
+
+- Report: WORKSPACES/KESTREL/2026-11-23T1936Z_H1051_S3_SPATIAL_RETURN_UNWRAPPED_PROPER_TIME.md
+- Publisher issue: https://github.com/Satobloc/HsH/issues/2445 (**PUBLISHED_VERIFIED**; publisher confirmation #7112317787 at 2026-11-23T19:56:03Z; artifact SHA-256 `5facfbd02ae05f259800a1a86c0a967acd81c59aa5cf518a3d99c2a2e4a30598`). Canonical receipt: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1936Z_s3_kestrel.md`.
+- Conditional Lean module: PR #2441, head 9d75fa18de5221f601c03bdef57ca70e44d32855; Actions run #45252994322 SUCCESS; exact PR-head checkout assertion PASS; Lean 4.34.0 / Lake 5.0.0; 8,948 jobs
+- Main branch preflight: 46ec103b46336cfea5ae46478d8308e965134ddd; report commit: 5ad366d785666cff7b44ac261ef8d05e47be8fe8
+- Main finding: a periodic spatial return on C can coexist with strictly advancing proper time only if proper time is not a single-valued real scalar on the compact coordinate. An unwrapped parameter on a covering parameterization is a candidate representation, not a source-defined physical map.
+- The three mouth/timesheet constructions remain separate; no mouth dimension, timesheet-to-3D-slice map, metric, coupling, or measurement operator was selected.
+- No physical dataset, calculation, fit, quantitative prediction, or falsification threshold. No SAT-O/Blockwave equations or BEDROCK theory changes.
+- Predecessor Morrow h1051:s2 receipt was read; it contains no addressed packet to Kestrel. Status: PREDECESSOR_RECEIPT_ONLY / NO_HANDOFF_PACKET / NOT_CONSUMED.
+- Next ring label: Meridian. No handoff or response obligation because Meridian remains P0-protected and this is not a P0 assignment. The h1051:s4 target slot had passed at the 19:51Z check.
+- Scheduler unchanged; no task, ID, cadence, phase, enabled-state, or task-count mutation.
+
+---
+
+## 2026-11-23 h1047:s4 — consensus readout and provenance independence
+
+- Report: [H1047:s4 consensus readout and provenance](2026-11-23T1548Z_H1047_S4_CONSENSUS_READOUT_PROVENANCE.md).
+- Canonical public artifact: [issue #2431](https://github.com/Satobloc/HsH/issues/2431), PUBLISHED_VERIFIED; publisher run #45212476602, confirmation #7106622598, SHA-256 4b8e043fddb5e1e408b3df5886ea2c543242d97d86b583d4eca3b6d7bdb29c42.
+- Kestrel's historical remit remains trust-first cross-boundary synthesis, not primary auditor or proof owner. This is a bounded Review-MIND synthesis, not an authenticated Kestrel-instance report.
+- New synthesis: source independence, execution independence, and verification independence are separate dimensions. A ring label, unanimous output, separate report, or successful build is not a provenance certificate.
+- Nadir PR #1189 supplied the existing generic fiberwise factorization criterion; exact PR-head run #45208539912 succeeded on commit 56a367b05ef92e5d740641740d432820b63be669. The HAT application remains unformalized.
+- Sable PR #2327 has no formal GitHub reviews; issue #2329 itself says the Loom label is not an authenticated instance/thread. Sable's “Independent Loom” shorthand is interpreted as a separate review artifact only.
+- Orson's existing HAT/CRTC work and PR #2375 were reused as context only. Orson retains P1 ownership; no trial, protocol, code, or manuscript change.
+- No new human session, model trial, raw-data reanalysis, physical calculation, equation correction, new Lean module, or BEDROCK promotion.
+- Prior Kestrel work retained: h1044:s0 Crullerverse/SAT4D type-fidelity report and h1036:s2 near-fiber/PWH review, both already present below.
+- Next ring label: Meridian. No handoff or assignment created.
+
+## 2026-11-23 h1036:s2 — near-fiber to frozen-readout composition; PWH deep review
+
+## h1044:s0 | 2026-11-23 | Crullerverse w/time-proper and SAT4D type fidelity
+
+- New focus: source-to-Lean audit of the November 8 direct Crullerverse geometry against the historical SAT4D/SAT-O1 and Blockwave Lorentzian formalizations.
+- Direct source: raw Library user message c0520975-02a0-408f-a250-364b88ab7b30 (2026-11-08T21:38:10.172Z): w is a fourth spatial direction, time proper is distinct, worldtubes are tentatively parallel to toroidal circumference C, and three mouth/timesheet alternatives remain open.
+- Cross-read: September 21 direct “apply Minkowski, discard labels, look at geometry” is a method, not an ontological commitment. The direct Crullerverse source does not map its spatial w/time-proper typing to the historical R^(3,1) model.
+- Existing formalization reused: PR #873 head 94b6d96c91806a95505260a3c52220f4af294185; exact-head CI run #44090154878 succeeded with Lean 4.34.0 / Lake 5.0.0. Relevant modules compile, but the build is not a source-fidelity proof and global axiom audit/tests/lint were skipped.
+- No new Lean module: the thickening, metric, coordinate, mouth/timesheet, and 3D-to-4D lift maps remain source-undefined.
+- Report: [H1044:s0 Crullerverse and SAT4D type-fidelity report](2026-11-23T1200Z_H1044_S0_CRULLERVERSE_W_TIME_PROPER_SAT4D_TYPE_FIDELITY.md)
+- Publisher: [issue #2425](https://github.com/Satobloc/HsH/issues/2425), workflow run [#45180982284](https://github.com/Satobloc/HsH/actions/runs/45180982284) SUCCESS; [publisher confirmation #7102144497](https://github.com/Satobloc/HsH/issues/2425#issuecomment-7102144497); artifact readback verified, SHA-256 a2fdff42aa15b41b3012c194ed14630a9a468b3027568cc26017a4f903c41978.
+- Next cursor: type M4_sp and proper time; keep the three mouth/timesheet alternatives separate; define gamma^1 -> T^4 thickening and projection maps; recover the Reddit encoding post and podcast source when a Mersearch lane becomes available.
+- No physical calculation, CODATA, theory promotion, equation correction, PR edit, task mutation, or handoff to Meridian.
+
+- Report: [h1036:s2 composition and PWH review](2026-11-23T0424Z_H1036_S2_NEAR_FIBER_TO_FROZEN_READOUT_COMPOSITION_AND_PWH_DEEP_REVIEW.md).
+- Canonical receipt: [h1036:s2 Kestrel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0424Z_s2_kestrel.md).
+- **PR #2323 status corrected:** Actions run #45091725762 succeeded (8,958 jobs). The Kestrel module blob `e57e21f5c33f60cd2723fc93049299235fc9ac1a` and root aggregator `09e52e9b40c25985571baaa4d3ad57af2daa3d21` match the PR head and merge-reference checkout. This is a merge-reference build, not a standalone exact-head checkout. Eight theorem-specific axiom reports list `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx`/`admit`.
+- Nadir PR #2397 run #45107637381 also succeeded (8,959 jobs), building Ravel → Kestrel → Nadir. Nadir's module/root aggregator match its PR head and merge reference. Three Nadir-specific axiom reports list the same standard axioms; no `sorryAx`/`admit`. Nadir publisher issue #2399 remains rejected for SHA mismatch; no retry/artifact.
+- Cross-lane status: Nadir's factorized metric readout composes Kestrel's near-fiber bound. Sable PR #2327's evidence-gated FrozenCommonReadout remains separate; the shared Field/Payload, operator identity, calibration/acquisition evidence, units, uncertainty, and state-to-chain maps still need explicit typed composition.
+- PWH deep review completed at the five-receipt threshold after Hale h1031. Existing triage helper blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01` self-test passed; WH-02 received a read-only current-main preflight, while Calder retains ownership. Evidence-only supplement appended to the standing PWH queue; task graph unchanged.
+- P0 remains ACTIVE; P2 remains HOLD with no measured system. No physical data, CODATA comparison, calculation, fit, prediction, or equation change.
+- Next cursor: explicit bridge from the Ravel/Kestrel/Nadir metric chain to Sable's frozen common readout, then source-authenticated measured-system maps and independent holdout after the P0 gate.
+- No authenticated current Kestrel thread or cross-thread delivery is claimed. No task, schedule, phase, owner, priority, or theory status changed.
+
+---
+
+## 2026-11-23 h1032:s3 — Near-fiber stability gate (candidate; compile pending)
+
+- Canonical receipt: [h1032:s3 Kestrel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0036Z_s3_kestrel.md).
+- Public summary: [issue #2388](https://github.com/Satobloc/HsH/issues/2388); [PUBLISHED_SUBMISSIONS artifact](../COMMON/PUBLISHED_SUBMISSIONS/kestrel-h1032-s3-near-fiber-stability-20261123t0036z-001.md), SHA-256 `9faebb5fd2dbb9b6d79c9cd680303fcd6a0338663a04d5267f2521d1478bfb7c`, independent exact readback verified.
+- Existing branch [PR #2323](https://github.com/Satobloc/HsH/pull/2323), head `62198155ccfe00e3414e7988cbb45f1d37e1b462`; module blob `8a338490801018215ff81c5ed9d9353f2b4bc59f`. Added candidate near-fiber bound and two no-go corollaries: `eta_x + eta_y + 2*E_n + K*rho`.
+- **Formal status: LEAN_COMPILE_PENDING / NOT_VERIFIED.** Run #45090308680 found triangle-chain and stagewise rewrite errors. The first correction attempt at `f13f76a1...` then exposed that the replacement had modified the earlier exact-fiber theorem; run #45091270953 failed. The module has now been rebuilt from the known-good prior head, preserving the original theorem, and the near-fiber proof was added separately at `62198155...`. Run #45091725762 is in progress at checkout; compilation has not started. Prior successful run #44993559061 covers only the earlier head as a merge-reference build. Do not call these declarations compiled or proved.
+- The extension only relaxes exact projection equality to a bounded near-fiber pair with pairwise decoder stability. It is a conditional metric-space contract, not a SAT/H(s)H physical prediction or worldtube mechanism.
+- No physical system, dataset, units, uncertainties, fit, or standard comparator selected. P2 remains HOLD; P0/P1 unchanged; no BEDROCK promotion. Next label Meridian remains P0-protected; no handoff.
+- Public snapshot issue #2388 was updated with comments #7088732444 and #7088771029; publisher amendment is deferred until run #45091725762 completes. PR #2323 has proof-correction comments #7088732851 and #7088771401.
+- Next: inspect run #45091725762; if successful, read its axiom report and publish an amendment. If it fails, correct only the demonstrated Lean error in this existing branch, then rerun. Only then consider source-defined physical maps and real calibration/holdout data.
+
+---
+
+## 2026-11-22 h1028:s4 — TuringHotel group graph and readout boundary
+
+- Report: [mixed-group interaction topology and readout boundary](2026-11-22T2048Z_H1028_S4_REVIEW_MIND_TURINGHOTEL_GROUP_GRAPH_AND_READOUT_BOUNDARY.md), SHA-256 `8015f77ae261a707b4de54fc568ec964844c2d7ddc3eda7fb9bccb062e313c0d`.
+- Canonical receipt: [h1028:s4 Kestrel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T2048Z_s4_kestrel.md).
+- Publisher intake: [issue #2372](https://github.com/Satobloc/HsH/issues/2372), submission `kestrel-h1028-s4-turinghotel-group-graph-readout-20261122t2048z-001`; PUBLISHED_VERIFIED by comment #7085675639. Canonical artifact blob `1a08495cf5b34e76c66edbacdd53a53715654a75`, SHA-256 `8015f77ae261a707b4de54fc568ec964844c2d7ddc3eda7fb9bccb062e313c0d`; issue-envelope, workspace and canonical artifact exact-match at 11,425 characters.
+- **Archive chronology correction:** `Science Made Stupid` remains the role-defining Kestrel source. The later `Morrow + Kestrel Free Quarry` export is the latest Kestrel-related archived conversation located, but it is one shared conversation and one assistant role stream, not a current Kestrel thread or two independent assistants. Raw blob `7d8507181c9b656323ca3564cc589b8fa6d8e3c7`: 221 message-bearing nodes, 153 assistant, 4 user, 64 tool; two model slugs; no per-message agent/instance/worker/thread IDs; one automation ID across 100 assistant messages.
+- Primary source read: Di Maio et al., arXiv:2603.18981v1. TuringHotel describes 17 human participants and 19 LLM agent participants across four model families, four-agent rooms, shared room history, a RoomManager, identity judgments and proxy resolution. Shared context couples outputs; platform sender identity is not model-family identity or evidence of independent cognition.
+- Existing Kestrel PR #2323 remains OPEN / DRAFT / UNMERGED. Actions run #44993559061 is a successful 8,958-job merge-reference build, not exact-head-only verification. Five theorem-specific axiom reports use propext, Classical.choice and Quot.sound; tests/lint/leanchecker/nanoda/global audit were skipped.
+- In `observedFiberSeparationBound`, observedX/observedY are both in `X n`; there is no separate detector codomain or instrument map. No TuringHotel-to-Kestrel pseudometric or H(s)H physical map is defined.
+- Kestrel historical remit remains trust-first cross-boundary synthesis, not primary audit/proof ownership. No authenticated current Kestrel thread; this is source-grounded revival, not historical-instance participation.
+- Read both existing optional Morrow packets in Kestrel INBOX. Morrow h1028:s3 created no third packet because the two earlier optional packets remain present. No new assignment or response obligation.
+- P0 ACTIVE; P1 OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 HOLD; P3 INCOMPLETE. FIE last full rereview 2026-11-20, next due 2026-12-04. Unrelated-reading break last completed 2026-11-21.
+- All four Mersearch lanes remain requested; none overwritten or retriggered. No local three-repo checkout or callable Mersearch action was available. No physical calculation, dataset, experiment, new Lean module, equation change, paper advancement or BEDROCK promotion.
+- Next: Meridian h1029:s0, P0 / Paper A accepted-R1 support only; Tern retains release authority and Mercer independent A/B QA. Optional Common handoff is repository-only; no direct thread delivery or acknowledgment claimed.
+
+## 2026-11-22 h1017:s2 — observed-fiber CI verification completed
+
+**Current disposition:** the existing Kestrel chain-aware fiber-bound branch now has a successful PR merge-reference build. This is a verification update to existing work, not a new physical research cycle.
+
+- Routing label: Kestrel (ring index 14); next label Meridian (index 15). Labels are not authenticated ChatGPT identities. No current Kestrel thread was authenticated; this is a source-grounded assistant reconstruction in the scheduled execution. No direct-thread delivery or acknowledgment is claimed.
+- Historical remit: cross-boundary synthesis and measurement-map integration, trust-first, not a primary auditor, proof owner, or search-and-destroy unit. Historical raw conversation: `6ab070ce-2384-83e9-b76f-4661c55867c4`, Git blob `100267f3f11f3cce09c7d802ce85ad03879d5744`; direct user-role source messages include `c6803d67-a76f-48e4-bf71-f49cb7b224ee`, `3c07680d-5205-48a3-93d5-ce33a8cf86a6`, `fc9b147e-b138-44ac-a48b-b81593e3c3e9`, and `f15aac1c-0a31-4e98-b461-6ca872035315`.
+- Existing branch: [PR #2323](https://github.com/Satobloc/HsH/pull/2323), head `faca7c5009617174142edf63193a49651a6abb8c`, stacked on Ravel [PR #2309](https://github.com/Satobloc/HsH/pull/2309) at base head `71f600206d9ce8c784922d675ea8ce8a92d6ef86`. Both remain open and draft; #2323 has no formal review.
+- Existing Actions run [#44993559061](https://github.com/Satobloc/HsH/actions/runs/44993559061), job `137119661416`, completed SUCCESS. Lean 4.34.0, Lake 5.0.0, Mathlib 4.34.0; 8,958 build jobs. The workflow checked out `refs/remotes/pull/2323/merge` at `6a5082d6e82ef5abb4ea30281c12c2507fd28961` with `fetch-depth: 1`. This is a merge-reference build, not a standalone exact-head build or main integration.
+- The PR-head and merge-reference blobs match exactly: `KestrelChainAwareFiberBound.lean` = `260cc86d3966976889f7cb805f1292e45300a6d8`; root aggregator = `d34b45d941c8a25eaf5bc6702fc41a8cfbf0ec4d`.
+- Five theorem-specific `#print axioms` reports, including `observedFiberSeparationBound`, `noProjectionDecoderWithinObservedChainBudget`, and `noProjectionDecoderWithinObservedStagewiseBudget`, depend on `[propext, Classical.choice, Quot.sound]`. No `sorryAx` or `admit` appeared in the successful job log. Tests, lint, leanchecker, nanoda, and the separate global axiom audit were skipped.
+- The conditional bound is of the form (d(o_x,o_y)\leq\eta_x+\eta_y+2E_n). Here `eta_x` and `eta_y` are deterministic metric radii, not standard deviations or confidence intervals. The formalized states remain abstract `X_n`; no source-bound physical instrument map (R_n:X_n\to D), calibration, covariance, or measured dataset is instantiated.
+- The public PR comment [#7077364836](https://github.com/Satobloc/HsH/pull/2323#issuecomment-7077364836) already records the successful run. Existing publication issue #2324 remains the canonical report; no duplicate issue or comment was created.
+- The existing h979 measurement-map report identifies Barckicke et al. 2026 macroscopic finite-core contours as the strongest future finite-core candidate, with Tang 2023 and Bewley 2008 as complementary but distinct readout families. No dataset was downloaded or assayed, no system was selected, and no physical calculation or CODATA comparison was performed.
+- SAT-O1 and Blockwave original-source custody, verbatim equation text, hashes, and source dates remain as recorded in the h1013 report. Amendment 09 editorial candidates remain unadopted; no equation was corrected or substituted.
+- P0 remains active. All eight protected objects matched the pinned vector at main `e213d206c319e6efb867416635b2654f9790a3c1`. Issue #1747 remains open; PR #2009 remains open/draft/unmerged. No live reader acceptance or standdown. Lane 24 remains P0-HOLD, Cycle 08/08 complete; Cycle 09 was not started.
+- Mersearch lanes 1–4 remain requested/occupied; no callable Mersearch action was available and no lane was overwritten, released, or retriggered.
+- PWH graph remains 18 records against declared 16, with 17 reachable and one unreachable. Tern retains reconciliation authority; WH-02 remains Calder-owned and WH-05 remains blocked.
+- FIE last reviewed November 20, next due December 4. The unrelated reading break completed November 20 and is not due again.
+- Existing :24 task identity, schedule, and Geometry phase were not changed. No sixth task, new branch, signet, or conversation rename.
+
+**Next pointer:** independent review of PR #2323. After P0 standdown and an authorized Lane 24 cycle, define a source-bound common readout map and connect the existing Kestrel/Nadir contour maps with explicit domains, codomains, composition conditions, and calibrated uncertainty. Do not treat deterministic radii as statistical uncertainty.
+
+## 2026-11-22 h1013:s3 continuation — observed-fiber uncertainty extension
+
+- Existing h1013 publication [issue #2324](https://github.com/Satobloc/HsH/issues/2324) predated this continuation; it was not duplicated.
+- Added the asymmetric deterministic observation-radius composition to existing Kestrel PR #2323: (d(o_x,o_y)\leq\eta_x+\eta_y+2E_n). New declarations are source-committed but NOT COMPILED / no axiom report.
+- Branch `research/kestrel-chain-aware-fiber-bound-20261122t0536z`; current corrected commit `faca7c5009617174142edf63193a49651a6abb8c`; module blob `260cc86d3966976889f7cb805f1292e45300a6d8`. Run #44993217910 failed because `add_le_add_left` appended terms in the wrong order; the proof now uses explicit triangle inequalities and `add_le_add_right`. A fresh run is pending.
+- Earlier Actions #44991487462 is a successful merge-reference build of the prior chain-only module, not exact-head verification and not verification of the new observation-radius declarations.
+- Nadir PR #1189 already has robust readout separation with (K\varepsilon+2\delta) and exact-fiber (2\delta); this Kestrel extension is the asymmetric endpoint-radius / heterogeneous-chain composition, not a duplicate.
+- SAT-O1 and Blockwave originals re-fetched; source blob SHA-1s match the published h1013 source audit. Verbatim originals and dates remain separate from corrections; no correction proposed.
+- Mersearch unavailable: all four lanes remain requested; Lane 2's compact receipt is unrelated. No lane overwritten or retriggered; no HSH_RESOURCES private payload.
+- No measured system, dataset, fit, prediction, independent measurement, falsification threshold or P2 selection. P2 HOLD; P1 Orson-owned; P3 incomplete.
+- Next ring label Meridian (index 15); protected P0 Paper A remit preserved. No assignment or direct delivery claimed.
+- Full continuation report: [h1013 observed-fiber uncertainty extension](../KESTREL/2026-11-22T0604Z_H1013_S3_OBSERVED_FIBER_UNCERTAINTY_EXTENSION.md). Receipt: [h1013:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0536Z_s3_kestrel.md).
+
+## h1009:s4 | Projection-fiber cross-lane QC and Paper A completion reconciliation | 2026-11-22T01:48Z
+
+- Report: [projection-fiber cross-lane QC and Paper A completion reconciliation](2026-11-22T0148Z_H1009_S4_PROJECTION_FIBER_AND_PAPER_A_COMPLETION_RECONCILIATION.md).
+- Canonical receipt: [h1009:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T0148Z_s4_kestrel.md).
+- Historical September 23 whole-pile Paper A request is complete via the existing 810-line private reaction and additive 288-line R1 update. Both are AI-generated Nathan-genuine emulation, not Nathan Direct, not formal peer review, and not theory authority. The h979 "remains open" sentence records that h979 did not advance it; it is not current status. Do not repeat the reaction absent a new explicit request or new source pile.
+- Exact-head Lean freshness: PR #873 current head 94b6d96 has successful run #44090154878; PR #1133 current head 8b6b194 has new exact-head success #44920965461, superseding the h1006 pending note; PR #1135 head af66f06 run #41164589389 SUCCESS; PR #1189 head da1e7d5 run #44106198466 SUCCESS. Separate push-triggered zero-job failures are not Lean failures. No global axiom audit or physical validation.
+- Projection-fiber principle: a readout factors through a projection iff it is constant on each projection fiber. Kestrel's finite agreement-pair witness shows equal scalar pair counts can conceal different identity partitions; the full identity-labelled pairwise relation recovers the partition under its definitions. This is not evidence of agent independence, semantic truth, causal influence, or authenticated identity.
+- Existing CPPG, OSIG, MFFG, Kestrel #873, and Nadir #1189 already cover the public projection method; no duplicate issue.
+- Current geometry cursor remains h1006:s0: source-authorized regularity/normalization/distributional-or-lattice support for Blockwave J, then explicit maps among SAT-O1 centerline, Blockwave worldsheet, and finite-core worldtube. No physical calculation, measured dataset, fit, prediction, or theory promotion.
+- P0 ACTIVE; P1 Nov 9 OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. WH-02 remains Calder-owned; WH-05 blocked. Task graph 18 records / 16 declared branches; Tern retains reconciliation.
+- FIE rereview not due; last confirmed full review is under 14 days. Next-date records conflict (Nov 24 / Dec 4), both future. Shared unrelated-reading cursor 3086; no duplicate break.
+- Current :48 run c59f8195-9de8-8326-a6c3-009dc1e628e1 remains IN_PROGRESS with chat_ref=null. Its cached latest_result is prior Elias h1008:s4, not this run. :36 current run is likewise unbound; its cached result belongs to prior Hale h1008:s3.
+- Next ring label Meridian; P0 presentation remit protected. No handoff, assignment, or cross-thread delivery claim.
+- No task ID, schedule, cadence, prompt, phase, enabled state, ownership, signet, or conversation name changed. No sixth task.
+
+---
+
+## H990:s4 — Normal-bundle 3-flux / worldline-current bridge | 2026-11-21
+
+## h994:s3 | 2026-11-21 10:36Z | Source-typed 4D spring and ground-state test gate
+
+- Report: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-21T1036Z_H994_S3_SOURCE_TYPED_4D_SPRING_GROUND_STATE_TEST_GATE.md
+- Publisher issue: https://github.com/Satobloc/HsH/issues/2272
+- Publication: SUBMISSION_REJECTED_SHA256_MISMATCH. Issue #2272, rejection comment #7061549555. Issue content exactly matches the workspace report (18,465 characters; Git blob 10d0dc88b6f3a541b58d820bcfd8fbf2ed9965f6). Submitted SHA-256 0d8de3ec670f267054720fa59ecac4defb8f885d0c6d96abfc5cea5aea495c86 was rejected. No correct SHA-256 verified, no canonical artifact. Do not edit, retry or duplicate the issue.
+- New architecture: separate electron ground-state intrinsic oscillation, helion static charge structure, and superfluid 3He-B medium dynamics. Require a detector-level ground-state readout and a source-defined affine-to-proper-time map before predicting a frequency. Use a matched minimal pair with shared parameters and untouched holdout.
+- Source correction: h990:s4 and the Ravel Helion report attribute an epsilon-B definition of the Blockwave two-form J. The inspected Blockwave attachment and separate Blockwave ideal-model file do not contain that definition. Treat both no-1/2 and 1/2 versions as unlocated; preserve original files and equations unchanged. See report section 4 and h990 Amendment 03.
+- Formalization: FORMALIZATION_BLOCKED_DEFINITION. Reuse existing PR #873, #1387 and #1487 exact-head results; no new Lean code, physical calculation, fit or H(s)H prediction.
+- P0 remains protected; P2 HOLD; P3 INCOMPLETE. Meridian is next ring label but has P0 accepted-R1 presentation remit only; no handoff packet or assignment.
+- Existing :36 task ID, enabled state, exact hourly schedule and Lane Charter 36 phase unchanged. No sixth task.
+
+
+- [Report](./2026-11-21T0648Z_H990_S4_NORMAL_BUNDLE_THOM_FORM_TO_WORLDLINE_CURRENT_BRIDGE.md); [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0648Z_s4_kestrel.md).
+- [Receipt Amendment 01: publisher verification and status reconciliation](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0648Z_s4_kestrel_AMENDMENT_01_PUBLISHER_VERIFICATION.md).
+- New cross-boundary distinction: the smooth normal-fiber 3-form in QUARRY 098 is not automatically the distributional Poincare-dual 3-current of a 1D centerline. A closed, compactly fiber-supported, normalized Thom form plus tubular pushforward and weak-limit conditions is a candidate bridge, not a source-defined H(s)H map.
+- Preserve distinct objects: fiberwise normal volume form; distributional worldline PD current; 4D finite-core worldtube; 3D timesheet slice; 2D worldsheet current. Hodge dual and independent sweep are different operations.
+- Nadir h990:s0's source-grounded operator correction is carried forward without duplication. No physical system/data, measurement, fit, prediction, human session, model trial, or theory promotion.
+- Lean: existing Sable PR #1098 support-degree module built in a merge-reference run, but overall build failed in a separate module; exact-head status unverified. Thom-form/pushforward/weak-limit construction remains unformalized.
+- Publication chain: original report #2258 PUBLISHED_VERIFIED; Amendment 01 #2259 and Amendment 02 #2260 are both PUBLISHED_VERIFIED. Amendment 01 supersedes the two incorrect source SHA-256 strings in original §6; Amendment 02 supersedes Amendment 01's inaccurate publication-status sentence. Receipt Amendment 01 corrects the receipt's #2259 status-at-creation line. Do not rely on the original §6 source SHA-256 strings; use Amendment 01's recomputed values. Original report and amendments remain separate immutable artifacts.
+- HsH main snapshot at start: 5e12fe560ccd0d668b3b4194f7d85e74de7b877e. SAT archive root/source read; HSH_RESOURCES root only. Mersearch lanes all occupied; no request changed.
+- Unrelated reading: SAT archive lines 2726–2765, next cursor 2766. FIE next review December 4.
+- P0 ACTIVE; P1 November 9 OVERDUE / NOT READY / ORSON-OWNED; P2 November 30 HOLD; P3 December 14 INCOMPLETE.
+- Next ring label Meridian. No actionable handoff; no cross-thread delivery or acknowledgment claimed.
+- Four enabled relay tasks unchanged; :12 remains disabled; no sixth task, task/ID/schedule/phase mutation, signet, or conversation rename.
+
+---
+
+## h979:s2 | Vortex-core measurement maps and cross-worker proof chain | 2026-11-20T19:24Z
+
+- Report: [vortex-core measurement-map synthesis](2026-11-20T1924Z_H979_S2_VORTEX_MEASUREMENT_MAP_AND_CROSS_WORKER_PROOF_CHAIN.md); publisher issue [#2219](https://github.com/Satobloc/HsH/issues/2219), submission kestrel-h979-s2-vortex-readout-map-20261120t1924z-001, SHA-256 7d93f994c05a2525df4efef443e79f1e661d8f96d178085a35b5b72217d9da93; PUBLISHED_VERIFIED by publisher comment #7049017856; artifact exact-matched internal report at 16,545 bytes; SHA-256 7d93f994c05a2525df4efef443e79f1e661d8f96d178085a35b5b72217d9da93.
+- Canonical receipt: [h979:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1924Z_s2_kestrel.md); [Amendment 01: h960 upstream source and reading cursor correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1924Z_s2_kestrel_AMENDMENT_01_UPSTREAM_SOURCE_AND_READING_CURSOR_CORRECTION.md).
+- New synthesis: Barckicke et al. 2026 macroscopic vortex-core contour data (public Figshare DOI), Tang et al. 2023 He-II ring decay/source-data workbook, and Bewley et al. 2008 tracer-inferred reconnection are distinct readout families, not one pooled system or H(s)H equivalence.
+- Existing proof chain reused: Kestrel PR #873 exact-head build #44090154878; Nadir PR #1189 defines the same two-contour map; Sable PR #1538 exact-head build #42678421460 proves symbolic covariance propagation on Nadir's map; Mira PR #929 already contains Tang projection/provenance modules. No cross-module equality theorem/shared canonical import was found; no new module/build or PR modification.
+- Upstream h960 context remains operative: June 23 Nathan Direct describes one nested 4D helical worldline/worldtube with scale placement unresolved. The archive-root Nth-order generator is mixed-origin/LLM DROP; embedded-equation authorship is unresolved. PR #2143 current head 9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2 has existing PARSE_FAIL; no repair or new run.
+- Missing chain remains generator -> finite-core/worldtube -> timesheet/wavefront -> instrument projection -> contour readout. The h979 report only addresses the downstream measurement/readout segment. All map labels introduced in that report are local, not registered H(s)H symbols.
+- No physical calculation, fit, CODATA comparison, prediction, holdout, independent measurement, P2 system selection, or BEDROCK promotion. P0 remains active; P2 HOLD.
+- Reading: BOOT cursor was already 1481, so lines 1441-1480 were reread as a duplicate. New unrelated segment 1481-1520 was read; next cursor 1521. The separate historical whole-pile reaction/notes-to-self request (user message 37e78dd4-b42d-4e69-ad1a-6780a523a9d4) remains open and was not advanced.
+- Current :24 run f655a1b8-a15c-8329-9177-1faf82edc8f1 started 19:29:02Z, IN_PROGRESS, chat_ref=null. Its cached prior result's chat_ref does not authenticate this run or the historical Kestrel instance.
+- Next label Meridian. Its :48 run had already started and later completed; no handoff packet/inbox write was created because no actionable transfer to Meridian's protected Paper A presentation remit was identified.
+- No task, schedule, prompt, phase, enabled state, signet, or conversation name changed; no sixth task.
+
+---
+
+## h975:s3 | Source-commitment freeze and finite-core approximation gate | 2026-11-20T15:36Z
+
+- Report: [source-commitment correction and proposed SourceCommitmentFreeze](2026-11-20T1536Z_H975_S3_SOURCE_COMMITMENT_FREEZE_AND_FINITE_CORE_APPROXIMATION_GATE.md); publisher issue [#2203](https://github.com/Satobloc/HsH/issues/2203), PUBLISHED_VERIFIED by comment #7044163236; SHA-256 8a5f0cd587af838cf8ba747b1f655285fa878a0d3edfb2b81480a164481a038d.
+- Canonical receipt: [h975:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1536Z_s3_kestrel.md); [Amendment 01: publisher verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1600Z_s3_kestrel_AMENDMENT_01_PUBLISHER_VERIFIED.md); [Amendment 02: successor run closed, no handoff](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1602Z_s3_kestrel_AMENDMENT_02_SUCCESSOR_RUN_CLOSED_NO_HANDOFF.md).
+- Correction: h974 M2 “finite-core thickness optional” is inconsistent with BEDROCK ND-2026-10-18-07. Qualitative intrinsic thickness is a source-committed working premise; its value, profile and map remain unresolved. The 0.7/0.7937 fm coil scale is not epsilon.
+- One helical core / hollow outer coil remains distinct from a second core; helical winding is source-described, separate normal-frame twist/holonomy is not. A 3D boundary is source-described; an active contact law is not. Medium/Kelvin-vortex or justified equivalent remains an active constraint.
+- Existing Kestrel PR #873 exact-head build #44090154878 was reused. No new Lean module, theorem or build. No physical calculation or measured dataset; P2 remains HOLD.
+- Current :36 run 59147ebb-dbf4-832d-bf0d-1d5c695cbf00 remains IN_PROGRESS with chat_ref=null; cached Elias h974:s3 result is stale.
+- Receipt Amendment 03 (16:09Z) preserves a second exact-ID scheduler snapshot: same run ID and 15:36Z slot, `started_at` moved from 15:39:55.006266Z to 16:09:37.832480Z; still IN_PROGRESS, completion/chat_ref null, cached h974 result still stale. Classified SAME_RUN_ID_STARTED_AT_MUTATION / ATTEMPT_RELATION_UNKNOWN / CAUSE_UNKNOWN. No retry, duplicate, or backend cause inferred.
+- Next ring label Meridian h975:s4 completed at 16:01:48.943Z before a safe optional packet could be prepared. Run-level chat_ref is now present, but the result does not reference Kestrel report #2203; no consumption, acknowledgment or direct delivery is established. No Kestrel-to-Meridian or Kestrel-to-Mercer packet was created. Meridian reused its existing optional handoff to Mercer h976:s0; Kestrel did not modify it.
+- No task/ID/cadence/prompt/phase mutation; no sixth task, signet or conversation rename.
+
+---
+
+## h971:s4 | Review-MIND CGD verifier feedback observability | 2026-11-20T11:48Z
+
+- Report: [source-grounded synthesis](2026-11-20T1148Z_H971_S4_REVIEW_MIND_CGD_FEEDBACK_OBSERVABILITY.md); publisher issue [#2188](https://github.com/Satobloc/HsH/issues/2188), PUBLISHED_VERIFIED; exact artifact readback matches workspace report.
+- Canonical receipt: [h971:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1148Z_s4_kestrel.md); publication is `PUBLISHED_VERIFIED` by Amendment 01.
+- Exact upstream source: ConsistencyBench commit bfc676baa848c7f1715bb73aee148180de15516e, blob 0453540cb7c19227601e59fb342fa93e736da849.
+- Findings: failure sentinel collapses to the Boolean non-contradiction branch; substring parser can flag negated/uncertain strings; repaired final answer is stored while future checker input retains original raw response; checker truncates to 500 characters and omits question/premise; GPT-4o-mini is a shared evaluator dependency.
+- Publisher confirmation: workflow #44732383018 SUCCESS, comment #7039051017; SHA-256 `eee30866df71d193b82f0861ba1e16070ba58a8ee9033d5c3360b761135abe6e`; workspace/artifact exact readback verified.
+- Formal boundary: existing OrsonCGDProjectionGate is a source-derived abstraction. PR #850's latest successful run built the synthetic merge ref, not exact head; no new Lean build or source-translation proof. Kestrel PR #873 exact-head pass proves only the generic fiber-factorization criterion.
+- Cross-lane state: Orson P1 remains ORSON-OWNED; no manuscript, dataset, protocol, branch, PR, task graph, or paper gate modified. No experiment or benchmark replay.
+- Next cursor: acquire exact per-call logs and a typed checker status before measuring any effect. Historical Kestrel role remains trust-first cross-boundary companion; Review-MIND is a bounded overlay, not a primary-auditor role.
+
+---
+
+## h960 verification update | 2026-11-20T00:56Z
+
+- PR #2143 current head `9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2`; exact-head run #44649028244 completed FAILURE at 00:54:14Z, job #135998965182. Lean 4.34.0 / Lake 5.0.0.
+- Parse errors at lines 32, 41 and 54: `λ` used as an identifier; line 154 then cannot resolve `nthSuperhelixThreeMode_is_special_case`. Rational `#eval` output 1; partial theorem axiom logs do not convert the failed module into a successful build. Tests/lint/global axiom audit/leanchecker/nanoda skipped.
+- Initial head `8ee0d01ee27274ef94b2fffe704d73b60957bc62` passed earlier, but predates the Rational witness and n=3 map. Current head is not verified. Likely minimal fix is rename binder to `lam` or escape; no code change/retry here because Kestrel is not primary proof owner.
+- PR #873 exact-head success #44090154878 remains branch-local generic fiber-factorization proof only. No physical map.
+- Report: [h960 source recovery and curvature gate](2026-11-20T0024Z_H960_S2_NTH_ORDER_SUPERHELIX_SOURCE_AND_CURVATURE_GATE.md), Amendment 01. Canonical receipt: [h960:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0024Z_s2_kestrel.md).
+- No public issue, Factory Floor handoff, raw physical data, CODATA comparison, physical calculation, fit, H(s)H prediction, independent measurement, or theory promotion. P2 HOLD. Meridian h960:s3 already completed and published issue #2144; no successor packet or direct-thread delivery claim.
+- Live automation readback confirms the existing :24 task ID is enabled with its exact original hourly schedule and unchanged prompt. Current run ID `d0d3f749-e5cc-8332-9f7e-2d7bf12b3b60` is IN_PROGRESS with `chat_ref=null`; latest stored result belongs to prior h959 Elias, not this run. No scheduler mutation.
+
+---
+
+---
+
+## h960:s2 | Nth-order superhelix source recovery and curvature gate | 2026-11-20T00:24Z
+
+- Report: [Nth-order superhelix source recovery and curvature gate](2026-11-20T0024Z_H960_S2_NTH_ORDER_SUPERHELIX_SOURCE_AND_CURVATURE_GATE.md). Internal continuity report only; no public issue because the embedded action's authorship is unresolved and the new formalization is untested.
+- Recovered the June 23 Nathan Direct source: one nested 4D helical worldline/worldtube structure; scale placement unresolved; direct follow-up says the formulation is in the archive root.
+- Located the exact Nth-order harmonic generator in archive-root SAT.4DHH.UC.pdf and its 150-page extracted text. The PDF's first page labels the prompt LLM DROP and records Ravel/ChatGPT as extraction requester. The same prompt appears in a November 8 four-message USER-role export, but pre-message context is absent. Preserve USER-ROLE-TRANSMISSION / EMBEDDED-EQUATION-AUTHORSHIP-UNRESOLVED.
+- The June 2025 SAT4D Canonical Summary remains the cleaner earlier baseline, with a simpler three-axis hyperhelix. Do not silently merge its provenance with the later Nth-order prompt.
+- Reused existing Kestrel PR #873 exact-head Lean success (#44090154878, job #134062868110, Lean 4.34.0, 8,956 build jobs) for the generic fiber-factorization criterion. It remains draft/unmerged and does not instantiate the physical maps.
+- New conditional tensor-symmetry draft: [PR #2143](https://github.com/Satobloc/HsH/pull/2143). Literal a_i*a_j*v_k*v_l and finite weighted sums are symmetric in the first index pair; if also required to satisfy Riemann first-pair antisymmetry with no omitted operation, they must vanish. At initial receipt, run #44649028244 was still in progress. The 00:56Z verification update above records its completed current-head PARSE_FAIL result. No Factory Floor handoff.
+- Explicit map contract proposed: X_n, pi_n: X_(n+1) -> X_n, composed projections P_(n<-m), and readout factorization only when the readout is constant on projection fibers. No physical map selected.
+- Avoided duplication: PSD co-metric issue already Morrow/Enheduanna; dimensional audit Mercer/Meridian; curve-to-worldtube gap Mira/Morrow. Kestrel remains synthesis companion, not primary auditor.
+- P2 remains HOLD; no physical system selected, raw data acquired, CODATA comparison, physical calculation, fit, prediction, independent measurement, or theory promotion.
+- Lateral reading: E. M. Forster, The Machine Stops, Chapter I, Wikisource lines 105-308. Next cursor: Chapter II, “The Mending Apparatus.” Design note: keep direct paths to primary sources/observations from every summary or interface.
+- Next deterministic ring label Meridian. No successor packet or direct-thread delivery; Meridian's active P0 scope is preserved.
+- Existing :24 task ID, schedule, prompt, phase and enabled state unchanged; no sixth task.
+
+---
+
+## h956:s3 | Turbulent-blob sampling clock and physical-time separation | 2026-11-19T20:36Z
+
+- Final repository/scheduler readback: [receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2036Z_s3_kestrel_AMENDMENT_03_FINAL_READBACK_AND_SCHEDULER_PRESERVATION.md); HsH main head `e1fb005b3a6064f3cbe4281366ad5a984267d4e7`. Both existing :36 and :48 tasks remain enabled with exact schedules and prompts/phases unchanged; current runs were IN_PROGRESS with null chat_ref at final peek. No sixth task.
+
+- Report: [time-coordinate and prediction architecture](2026-11-19T2036Z_H956_S3_TURBULENT_BLOB_LOGTIME_COORDINATE_AND_PREDICTION_GATE.md); workspace commit `44b87f54b722d315dd06f51ae474e939a695cae3`, Git blob `8f7a0fbb5f02d51646dec3e468ae93fc7e40161a`, SHA-256 `44305ef2fdb7d35fd7f4df5ab6e258a8713be49ab84ccd27c244ce4b9196ecd0`.
+- One-run Lane 36 cross-boundary overlay: distinguish laboratory time `t`, frame index `k`, log-sampling coordinate `τ=log(t−t₀)`, schedule virtual origin, fitted virtual origin, and physical event time. The n=-2 trigger schedule is not physical logarithmic time or an H(s)H time-surface.
+- P2 candidate remains NOT SELECTED / HOLD. No raw HDF5 bytes, timestamp series, covariance, raw-data fit, physical prediction, or falsification threshold acquired.
+- Publisher [#2127](https://github.com/Satobloc/HsH/issues/2127) is PUBLISHED_VERIFIED (comment #7021844747); artifact SHA-256 `44305ef2fdb7d35fd7f4df5ab6e258a8713be49ab84ccd27c244ce4b9196ecd0`; receipt [h956:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T2036Z_s3_kestrel.md). No duplicate/retry.
+- Lean PR [#2126](https://github.com/Satobloc/HsH/pull/2126) draft/unmerged. Initial exact-head run #44611776425 failed because `Real.log` and `Real.exp` definitions were not marked noncomputable; source rational #eval outputs were 400 and 35/2. Corrected exact PR head `d364994731889a46434d67b3b2a6717066f029fb` passed Actions run #44612550693, job #135872666923; 8,948-job Lake build succeeded, module built at 8,926/8,948. Theorem-specific axiom outputs list propext, Classical.choice, Quot.sound; no sorryAx in those outputs. Tests/lint/global axiom audit/leanchecker/nanoda skipped. See receipt Amendment 02.
+- Receipt Amendment 01 separates `t_force_off` from `t_last_ring_arrival`; neither is identified with `t0_fit`. Receipt Amendment 02 records the corrected exact-head Lean pass.
+- Standing Kestrel geometry cursor remains the raw November 9 spin/timesheet-curvature source and missing maps. This overlay adds a bounded time-coordinate subcursor only.
+- Next deterministic label Meridian. Optional repository-only packet was created after h956:s4 began; no inbox exists, no direct-thread delivery or acknowledgment.
+- No SAT-O/Blockwave equation changes, Factory Floor intake, BEDROCK promotion, task change, or sixth task.
+
+---
+
+## WH-02 PWH pickup | read-only current-main refresh | 2026-11-19
+
+- WH-02 is the highest-priority unblocked item in the live PWH queue. Kestrel performed a bounded read-only refresh; Calder/authorized maintainer retains rebase/code action and Tern retains queue control.
+- PR #1710 remains OPEN / DRAFT / UNMERGED at head a967e908ceab048d219831ec799343643870daf3. Current main at read 970b23df4d4b78171a2b6675fac246849e742d3e; merge base 7c40096153861e531b4ba234f28b41a2260fba04; compare DIVERGED 7 ahead / 6,276 behind. Exact-head Actions: zero. Combined status: Vercel daily build-rate-limit failure only.
+- Status-only PR comment #7011624250 was added and read back exactly. No rebase, code, workflow, review, merge, owner, or priority change.
+- Durable evidence: [h949 receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1300Z_s0_kestrel_AMENDMENT_01_WH02_READONLY_PICKUP.md).
+## h949:s0 | Wall-Door-Helix geometry report and continuity repair | 2026-11-19T13:00Z
+
+- Existing report: [Wall-Door-Helix Geometry Source-Fidelity Report](../COMMON/PUBLISHED_SUBMISSIONS/kestrel-h949-s0-wall-door-helix-geometry-fidelity-20261119t1300z-001.md), publisher issue [#2098](https://github.com/Satobloc/HsH/issues/2098), **PUBLISHED_VERIFIED**. Publisher comment #7010540137; commit ea5b7b19ad7b25b7ba158378b8171dd11c0250ce; artifact SHA-256 309e59ccb94338ffa835a37370b2519b4cb727ee8fd0363d4d0c1d155c5f0247; exact issue-payload/artifact equality and independent digest verified.
+- Canonical receipt: [h949:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T1300Z_s0_kestrel.md). This receipt repairs the missing continuity pointer; it does not create or claim a second publication.
+- Cross-boundary map/fidelity material is already published in Kestrel h846:s2, [issue #1775](https://github.com/Satobloc/HsH/issues/1775). Rechecked exact-head Lean evidence: PR #873 run #44090154878 and PR #1189 run #44106198466 both succeeded on their respective PR heads. Readout-level loop closure does not imply state-level closure without injectivity or a separating joint readout. No new theorem or physical claim.
+- SAT-O1 and Blockwave originals re-fetched and SHA-256 recomputed: SAT-O1 8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937; Blockwave 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664. No corrected equations adopted.
+- Mersearch unavailable; all four lanes remain requested/occupied and all twelve expected request-scoped outputs returned 404. No lane changed. Math Hopper #578 open / PR #991 draft; Whirligig Kernel 0 sandbox-only; SciSpace available, unused.
+- P0 ACTIVE; P1 November 9 OVERDUE / NOT READY; P2 November 30 HOLD; P3 December 14 INCOMPLETE. FIE review next due November 24. Unrelated reading cursor 2240; no duplicate break.
+- Selected Kestrel (index 14), next Meridian (index 15). Historical Science Made Stupid export is not an authenticated current thread. Morrow h948:s4 packet was poststart optional context only. No cross-thread delivery or acknowledgment.
+- Automation :00 ID 6aa1fe0de5e48191b886496095b1343f remains enabled with exact hourly America/New_York :00 schedule and unchanged prompt/phase. Current peek shows run b90cebde-1744-8329-b1d8-84d7489a5078 IN_PROGRESS, null completion/chat_ref; a prior Morrow observation recorded a conflicting 13:02:04Z start. No task mutation.
+
+## h941:s2 state amendment | 2026-11-19T0542Z
+
+**Final observed main:** f9268a6088edc6744b71e456513d71493482397f. Latest discovery snapshot 05:40:25Z contains 16,098 docs, 9,166 workspace records, all 9,166 reader targets, 8,939 excerpts, 48 docket entries and 6 errors; it includes this report but predates publisher artifact and later continuity writes. Refresh #44466976438 is IN_PROGRESS; navigation #44466976468 pending.  
+**P0:** PR #2009 is 3 ahead / 467 behind current main, open/draft/unmerged, no exact-head CI or review. P0 ACTIVE.  
+**Lean:** PR #873 111 ahead / 22,431 behind; PR #2032 73 ahead / 22,431 behind. Exact-head builds pass on their PR heads, neither is integrated into main.  
+**Successor:** Meridian :36 run started 05:40:40.621Z; Common packet commit 05:41:17Z is POSTSTART_OPTIONAL_CONTEXT_ONLY. No Meridian INBOX or direct-thread delivery.  
+
+---
+
+### h941:s2 publication amendment | 2026-11-19T0541Z
+**Publisher:** issue [#2064](https://github.com/Satobloc/HsH/issues/2064), PUBLISHED_VERIFIED. Workflow #44466620177/job #135365841021 SUCCESS; publisher comment #7000837074; canonical artifact exact-readback SHA-256 093bb7e66126fdc251c9aa0b595110845f5d035bdaa5c6ef08f7384752e2f8b8. No retry or duplicate.  
+
+## h941:s2 | Three boundaries of evidence transport | 2026-11-19
+
+**Report:** [Three boundaries of evidence transport](2026-11-19T0524Z_H941_S2_THREE_BOUNDARY_EVIDENCE_TRANSPORT.md)  
+**Canonical receipt:** [h941:s2 Kestrel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0524Z_s2_kestrel.md)  
+**Publisher:** issue [#2064](https://github.com/Satobloc/HsH/issues/2064), submission kestrel-h941-s2-three-boundary-evidence-transport-20261119t0524z-001, SHA-256 093bb7e66126fdc251c9aa0b595110845f5d035bdaa5c6ef08f7384752e2f8b8. Status SUBMITTED_NOT_VERIFIED at last read, workflow #44466620177 IN_PROGRESS, artifact 404, no retry.  
+**Result:** distinct representational, temporal-provenance and presentation boundaries; exact-head Lean builds exist on PR #873 and #2032, but both branches are 22,416 commits behind main and unmerged. P0 remains ACTIVE; P2 HOLD; no physical result or theory promotion.  
+**Successor:** Meridian, optional Common packet created after nominal :36 slot; timing unverified, no inbox write or cross-thread delivery claim.  
+
+---
+
+### h933:s4 publisher-status amendment | 2026-11-18
+
+- Issue #2019 posted REJECTED: unexpected payload keys. The intake body omitted required schema and included unsupported target_path. The v1 publisher requires exactly schema, submission_id, content, sha256 and derives its fixed destination.
+- The workspace report remains exact-readback verified at WORKSPACES/KESTREL/2026-11-18T2148Z_H933_S4_REVIEW_MIND_GROUP_HISTORY_SENSEMAKING_AND_TRANSPARENCY.md, SHA-256 c52415bf84014dd1cb9ab365958ae8f252d5a7a1a04ebce4b6e4ca9c5a90620b.
+- Expected PUBLISHED_SUBMISSIONS artifact returned 404. No issue edit, reopen, retry, duplicate, or direct publication write. Final status PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED.
+- Append-only receipt amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2148Z_s4_kestrel_AMENDMENT_01_PUBLISHER_SCHEMA_REJECTION.md. Public reconciliation comment: https://github.com/Satobloc/HsH/issues/2019#issuecomment-6993638393.
+
+## h933:s4 | Review-MIND | group-history sensemaking and transparency | 2026-11-18
+
+**Report:** [h933:s4 Review-MIND synthesis](2026-11-18T2148Z_H933_S4_REVIEW_MIND_GROUP_HISTORY_SENSEMAKING_AND_TRANSPARENCY.md)  
+**Canonical receipt:** [h933:s4 Kestrel](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2148Z_s4_kestrel.md)  
+**Public intake:** issue [#2019](https://github.com/Satobloc/HsH/issues/2019), PUBLISHER_REJECTED_SCHEMA / NOT_PUBLISHED. Exact report SHA-256 c52415bf84014dd1cb9ab365958ae8f252d5a7a1a04ebce4b6e4ca9c5a90620b. No retry or duplicate. Submission ID kestrel-h933-s4-group-history-sensemaking-20261118t2148z-001; exact report SHA-256 c52415bf84014dd1cb9ab365958ae8f252d5a7a1a04ebce4b6e4ca9c5a90620b. No retry or duplicate.  
+**Research:** new source pair on operational versus interpretive transparency; 2025 insider-summarization article abstract-only. No empirical study or raw-output access. Existing HsH papers were excluded after repetition check.  
+**Formal:** no new theorem; Kestrel PR #1947 and Nadir PR #1959 exact-head build passes. Orson P1 PR #1115 current head has no PR-triggered workflow run; no P1 change. P2 PR #2004 exact-head build pass; Vercel failed.  
+**P0/P1:** Code Grurple ACTIVE; Orson P1 OVERDUE/NOT READY/ORSON-OWNED. P2 HOLD, P3 INCOMPLETE. FIE next 2026-11-24.  
+**Upkeep:** deeper sweep due since h828 completed; five latest completed receipts read, task graph 16/18, read-only triage reproduced. No owner/priority/task mutation. WH-01 cursor 2026-11-15T18:50Z (Tern); WH-02 open (Calder); WH-05 blocked by occupied Mersearch lanes.  
+**Lateral reading:** SAT archive fun break lines 2160-2199; next 2200. No physical break claimed.  
+**Identity:** assistant-level reconstruction under Kestrel ring label, not an authenticated Kestrel thread. Morrow's optional inbox packet was read as context only; no delivery or acknowledgment.  
+**Task:** :48 task ID and exact schedule/phase unchanged; current run IN_PROGRESS, no chat_ref. Start-time conflict preserved in receipt. Four tasks remain enabled; :12 disabled; no sixth task.
+
+---
+
 ## h914:s4 | Review-MIND | flip mechanism, identity and topology | 2026-11-18
 
 **Report:** [h914:s4 Review-MIND synthesis](2026-11-18T0248Z_H914_S4_REVIEW_MIND_FLIP_MECHANISM_AND_IDENTITY_CONFORMITY.md)  
@@ -829,3 +1181,103 @@ See `WORKSPACES/KESTREL/2026-11-12T1736Z_RESPONSE_LOCUS_AND_INDEPENDENT_LIMIT_GA
 - Receipt: [h918:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T0636Z_s3_kestrel.md). Optional repository-only context packet to Meridian h918:s4; not delivered to a ChatGPT thread, no assignment or acknowledgment.
 - No new Lean, physical calculation, measured candidate, dataset, fit, prediction, falsification threshold, independent measurement or theory promotion. P2 HOLD.
 - Read unrelated SAT archive conversation excerpt lines 2160-2199; next cursor 2200. FIE due November 24.
+
+
+## 2026-11-19 | h937:s3 Lane 36 overlay - temporal producer-event join
+
+- One-run architecture/prediction overlay; standing Kestrel remit remains trust-first, forward-looking, cross-boundary synthesis companion, not primary auditor or mathematical/experimental verifier.
+- Report: [Producer-event join at the existing P2 freeze](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/KESTREL/2026-11-19T0136Z_H937_S3_TEMPORAL_PRODUCER_EVENT_JOIN_CLOSURE.md).
+- Publisher intake: [issue #2044](https://github.com/Satobloc/HsH/issues/2044), SUBMITTED_NOT_VERIFIED at initial receipt; verify the same issue/target, never retry or duplicate.
+- P2 matrix additive comment: [#1855 comment 6997138866](https://github.com/Satobloc/HsH/issues/1855#issuecomment-6997138866).
+- Improvement: explicit proposed ProducerEventJoin adapter links one ComparisonFreeze, one SourceRunWitness, runStarted/runCompleted TemporalEvidence, exact prediction-seal digest, and holdout chronology. It closes the identity premise left external by the H936 interval-order theorem. Not an adopted schema or new P2 gate.
+- Existing PR #2032 exact-head Lean run #44432360003 passed on aad65f2; it proves interval-order statements, not the new identity join. No new Lean module until source field semantics are adopted.
+- P2 remains HOLD; no physical system selected, dataset acquired, calculation, fit, prediction, threshold, or independent measurement. No equation or BEDROCK change.
+- Next ring label Meridian h937:s4. Optional Common handoff is PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY; no assignment or direct-thread delivery.
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0136Z_s3_kestrel.md.
+- Task :36 ID 6a9f52b69ec08191b0a2ba24a074f781 remains enabled and unchanged; current run 66d784d0-0f7c-832a-ad89-81ca38d63f76 was IN_PROGRESS with null completion/chat_ref at last peek.
+
+
+### h937:s3 publisher amendment
+- Publisher issue #2044 run #44439337222/job #135275980595 failed HTTP 409 on the existing publisher PUT; exact conflict cause unknown. The report and issue envelope SHA match; canonical artifact remains 404. Status PUBLISHER_FAILED_HTTP_409 / NOT_PUBLISHED. No retry, duplicate, issue-body edit or direct-write bypass.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-19T0136Z_s3_kestrel_AMENDMENT_01_PUBLISHER_HTTP_409.md); additive status comments on #2044 and P2 #1855.
+
+## H987:s0 — 2026-11-21T03:00Z
+
+Cross-boundary Lane 00 synthesis completed. The June 23 direct source distinguishes (a) one recursively nested 4D helical carrier, (b) an unresolved layer-scale placement, and (c) interaction-specific coupling among multiple H(s)H structures. The July 11 direct source separately distinguishes superhelical nesting from braid nesting. The June 23 high-speed 45°/vacuum-energy/knot passage is historical and is not source-identified as current normal-relative theta4.
+
+Durable crosswalk: [H987 4DHH/worldtube/angle note](./2026-11-21T0300Z_H987_S0_4DHH_WORLDLINE_WORLDTUBE_ANGLE_CROSSWALK.md). Receipt: [h987:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0300Z_s0_kestrel.md).
+
+No new Lean module: PR #873 exact-head run #44090154878 already supplies conditional timelike, moving-slice, and intersection-dimension results; the source-specific 45° proposition lacks a defined metric, chart, frame, angle referent, and map to theta4. PR #2143 remains failed. No physical calculation, CODATA scoring, theory promotion, or public issue was added. Next cursor: recover the direct source behind current BR-005 and define the angle/reference map without conflating it with the June 23 45° descriptor.
+
+
+## h1006:s0 | 2026-11-21T22:00Z | Blockwave current source correction and support-rank map
+
+- Lane 00 source-fidelity amendment published and read back: [issue #2307](https://github.com/Satobloc/HsH/issues/2307), artifact [link](../COMMON/PUBLISHED_SUBMISSIONS/kestrel-h1006-s0-blockwave-current-rank-correction-20261121t2200z-001.md), publisher SHA-256 `0212b83003f8b27c631818bb36bab8a49512083c3a6d8b7f0353811aba33ae31`, commit `6493136e45a93a01bda2f53b889fde7a07bcf74e`.
+- Corrects h994:s3: the September 16 Blockwave attachment does contain `J^{μν}=1/2 ε^{μνρσ}∇_ρB_σ` in Implementation notes. The exact attachment text and HsH mirror are byte-identical; the text is assistant-voiced and not Nathan Direct. The h994 absence claim is withdrawn. Issue #2272 remains rejected; correction pointer comment #7070156675.
+- New mathematical note: `A_μ(θ)=α_*∇_μθ` with `F_{μν}=∇_[μA_{ν]}` gives F=0 on smooth patches for a torsion-free connection. PR #1135 exact-head run #41164589389 compiled the scalar-Hessian antisymmetry lemma; this does not establish a physical EM mechanism. Supplemental comment #7070156363.
+- Geometry: SAT-O1 γ is a 1D centerline; Blockwave J is a 2-form worldsheet current; the later Kerr-section proposal is a 3D spatial section extended into a 4D finite-core worldtube. Their timesheet readouts differ by support dimension. Explicit centerline/worldsheet/worldtube and readout maps remain open.
+- Reused PR #873 exact-head run #44090154878 and PR #1133 exact-head run #44883007736 for conditional intersection/composition results. No new Lean module/build, physical calculation, CODATA scoring, or theory promotion.
+- No new Mersearch request; all four lanes remain occupied. PWH graph discrepancy unchanged. P0 ACTIVE; P1 OVERDUE / NOT READY; P2 HOLD; P3 INCOMPLETE. FIE next review December 4; unrelated-reading cursor 2766.
+- No authenticated Kestrel thread. Immediate ring successor Meridian is protected P0-only; no handoff or direct delivery. Next scheduled :00 selection is Sable at h1007.
+- Existing Archive :00 task remains untouched; no task/ID/schedule/phase change, no sixth task, no signet or chat rename.
+
+
+### CI freshness clarification
+
+PR #1133 run #44883007736 succeeded on historical head `25a66298a178e5590e35312a6459cc2c8ee4ed7d`; PR #1133 is now at `8b6b19421327164f6c966be5cab3c58e7f9c0314` and that newer head was not built. The result is historical exact-head verification, not current-head verification. PR #873 remains at `94b6d96c91806a95505260a3c52220f4af294185` with exact-head run #44090154878 successful. PR #1135 remains at `af66f06c6fcd842db7b72ff2c3aa66d3794d297d` with exact-head run #41164589389 successful. PR #1098 remains draft and its exact-head run failed. No source-specific current-degree proof is claimed. Public clarification: issue #2307 comment #7070170728.
+
+
+### Source-text fidelity correction (h1013)
+
+The SAT-O1 and Blockwave equations previously displayed as “verbatim” were normalized transcriptions, not raw source strings. That label is withdrawn. The exact LaTeX/source lines and the full Blockwave action block, including malformed source tokens preserved without repair, are in Amendment 02 of the h1013 continuation report. Git blob SHA-1s were re-fetched and match; the prior SHA-256 values and dates remain recorded rather than recomputed in this continuation. No corrected equation is proposed. See [report](2026-11-22T0604Z_H1013_S3_OBSERVED_FIBER_UNCERTAINTY_EXTENSION.md) and [issue #2324 correction](https://github.com/Satobloc/HsH/issues/2324).
+
+
+### Current Lean run — 2026-11-22
+
+Corrected commit `c0ebc000c9fa63d32d825f9fd5347c0e9872f1db` now has Actions run [#44993217910](https://github.com/Satobloc/HsH/actions/runs/44993217910), job `137118634438`. Lake manifest completed; Lean compilation is IN_PROGRESS. No success or theorem-specific axiom report yet. See the h1013 report/receipt before claiming verification.
+
+
+### Current Lean submission
+
+Existing-branch commit `faca7c5009617174142edf63193a49651a6abb8c` is under [Actions run #44993559061](https://github.com/Satobloc/HsH/actions/runs/44993559061). The new explicit `add_le_add_right` triangle proof is committed; build status is pending. No theorem success or axiom report yet.
+
+
+### Detector-space typing boundary
+
+The new observed-fiber theorem places observations in the same final metric space (X_n) as exact chain outputs. If real detector data live in a distinct (D), a sourced readout map (R_n:X_n\to D) must be an explicit final stage with units, metric, calibration and propagated error; endpoint radii must be in (D)'s metric. No physical readout map is currently supplied.
+
+
+## h1025:s0 | 2026-11-22T17:00Z | Kelvin interstitial geometry and Blockwave source fidelity
+
+- Canonical receipt: [h1025:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-22T1700Z_s0_kestrel.md), blob `4526223ef894915f65c1f349ca77990ab7d828b5`.
+- Additive correction: [Amendment 01](2026-11-22T1700Z_H1025_S0_SOURCE_FIDELITY_AMENDMENT_01.md), blob `0112dceaef6a77cce96b87d12dd9ee6476ce7cb4`.
+- Existing publisher issue #2360 was rejected for SHA-256 mismatch; workflow is `issues.opened` only, no retry/dispatch path. No second issue, direct artifact write, or publisher bypass. Status `SUBMITTED_NOT_VERIFIED / PUBLISHER_REJECTED_SHA256 / NO_PUBLISHED_SUBMISSION_ARTIFACT`.
+- Corrected source chronology: June 23 direct message `40d0ac8c-2274-462a-92ea-da1d848bc5a5` is 11:06:21.915729Z, not the 17:34:58.992Z stated in issue #2360.
+- Corrected CI scope: PR #1135 run #41164589389 and PR #2323 run #44993559061 are merge-reference builds, not exact-head.
+- Preserved the June 23 two-parabolic-arc/Kelvin candidate, July 11 Electrogravity/Interbraid hypothesis, SAT-O1 1D centerline/4D-worldtube prose gap, Blockwave 2-form worldsheet current, local smooth-phase F=0 condition, and compact-phase holonomy normalization requirement.
+- No new Lean build, physical calculation, CODATA, equation correction, theory promotion, or paper-gate advancement. Next cursor: source-defined thickening and worldtube/worldsheet/timesheet maps; channel and medium-response maps.
+- Tern INBOX slot-label reconciliation is repository-only; no direct-thread delivery or acknowledgment. Meridian successor remains P0-protected; no handoff or assignment.
+
+
+## h1055:s2 | 2026-11-23T2324Z | Lamp thought experiment and dynamical closure
+
+- Run key: REVROT3-19-20261011:1055:s2. Deterministic label Kestrel (index 14), next Meridian (index 15). No authenticated current Kestrel thread was found; this is assistant-level source-grounded work, not historical-instance participation or cross-thread delivery.
+- Historical role: trust-first cross-boundary synthesis companion. Direct source in "Science Made Stupid", raw blob 100267f3f11f3cce09c7d802ce85ad03879d5744, message f15aac1c-0a31-4e98-b461-6ca872035315, 2026-09-21T08:10:02.431Z, instructs testing both sides rather than assuming either participant is right. No standalone signed Nathan-authored Kestrel charter.
+- Primary source: ND Workshop Relay :24 | Geometry raw export, direct user-role message c0520975-02a0-408f-a250-364b88ab7b30, 2026-11-08T21:38:10.172Z. It keeps w, time proper and the timesheet distinct and leaves three Kerr-ER mouth/timesheet alternatives open: opening/gluing, intersection, or temporon/coordinated-excitation wavefront on a continuous worldtube.
+- The attached 50-entry NotebookLM transcript contains a lamp-in-a-room prompt at entry 49: local emission, glass/air transfer, one-shot global pulse versus continuing flow, simultaneity and local "now". The export serializes both the prompt and the following "Thoughts" block as role=user; authorship is not independently encoded. The generated "Thoughts" response's partial-entrainment, incompressible-flow, uncoiling and memory-wake explanations are not Nathan Direct and are not adopted as findings.
+- New synthesis: geometry alternatives do not close dynamics. Every alternative needs source state, emission/release, medium response/transfer, temporal or phase ordering along w, local registration/readout, causal order and accounting. This connects the lamp question to Ravel's existing source-to-observable completeness gate. It is a shared map architecture, not a physical equivalence between a lamp and M87*.
+- Ravel's current gate is geometry -> metric/connection -> dynamics/matter/emission -> radiative transfer -> sky intensity -> sampled complex visibility -> polar readout -> gain-invariant closure observables. The H(s)H-specific geometry-to-metric, source-to-emission and radiative-transfer maps remain unformalized. No Ravel data acquisition or ownership transfer.
+- Existing formal work reused: Kestrel PR #2441 head 9d75fa18de5221f601c03bdef57ca70e44d32855; exact-head Actions run #45252994322 succeeded. It proves only the conditional spatial-return/strictly-advancing-scalar relation. PR #873 is draft/unmerged and current-base integration unverified. Sable PR #2327 is draft/unmerged; no exact-head run found. No new Lean build due Lane 24 P0 hold.
+- No physical calculation, CODATA comparison, fit, prediction, measured-system selection or data comparison. The lamp prompt is not a dataset. Future comparison requires an identifiable measured source-medium-detector system, versioned data, provenance, units, calibration, spectrum, medium state, path length, dispersion/absorption, detector response, timing, uncertainty and covariance; predictions must be separated from fitted/calibrated quantities.
+- P0 snapshot independently parsed at 2026-11-23T23:16:20Z: main b5ccbf552d1a8f9045b80aad32fc58888896071e; embedded HsH source 8e70fcd; one generated-discovery commit ahead. 17,574 documents; 10,642 workspace records and generic readers; 10,397 excerpts; 10,642 missing presentation_state; zero PRESENTATION_PENDING; 48/48 workspace docket entries; six extraction errors; 577 visuals, 417 square-rule. Freshness passed at that time; record safety failed. Later continuity/publication writes require a postwrite refresh. Tern retains P0 release/standdown authority; no P0 issue change made.
+- PWH deep review was completed by Elias h1054:s2; this is one completed product later, so no deep review was due. Task graph/queue not modified. All four Mersearch lanes remain occupied; no request overwritten or retriggered. FIE next review December 4; unrelated-reading break last completed November 21.
+- Public report submitted through the existing publisher as issue #2457, submission ID kestrel-h1055-s2-lamp-dynamic-closure-20261123t2324z-001. Declared SHA-256 ec860b23604a8413b6443641e96eaa8bf7542f0ed1c4a128627c141c4f33bd77. Independent rehash of the issue-body content produced 02c795cfe165a2b9e879d7c5c44336fac2c94f563d92a9cefaf7ff3ed44a25f4, so a digest mismatch is present. Actions run #45290079699 is pending; status SUBMITTED_NOT_VERIFIED / HASH_MISMATCH_DETECTED. Preserve issue #2457 as the single record; no edit, retry or duplicate.
+- Next cursor: source-defined emission and medium-response maps, then local registration/readout. Keep the three mouth/timesheet alternatives separate until explicit source-backed maps relate them. No Lane 24 Cycle 09 or new physical/Lean work before P0 release and source-defined dynamics.
+
+
+### h1055:s2 publication readback and digest correction
+
+- Publisher issue #2457 completed: Actions run #45290079699 concluded SUCCESS and issue comment #7117151993 states PUBLISHED, artifact commit d3ef0cf73d26a3860e1704804aa49db04ef39e0f, exact readback verified.
+- Expected artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/kestrel-h1055-s2-lamp-dynamic-closure-20261123t2324z-001.md. Fetched artifact blob 699f98d8816539737a7b9fcf9c64522af146a67e. Its 11,540-character content exactly matches the issue payload.
+- Corrected independent SHA-256 of both the issue payload content and fetched artifact: ec860b23604a8413b6443641e96eaa8bf7542f0ed1c4a128627c141c4f33bd77. This matches the declared digest and publisher comment. Status: PUBLISHED_VERIFIED.
+- The earlier rehash value 02c795cfe165a2b9e879d7c5c44336fac2c94f563d92a9cefaf7ff3ed44a25f4 was produced by an incorrect local implementation and is withdrawn. It was not a publisher rejection or artifact mismatch. No retry, edit, or duplicate issue was made.

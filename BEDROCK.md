@@ -1,5 +1,64 @@
 # **THE WHOLE PROBLEM: RECONSTRUCT THE UNIVERSE FROM THE PHYSICS WE ALREADY HAVE**
 
+
+### ND-2026-11-20-01 — CLONE OBSERVABILITY (P1 / MANDATORY)
+
+Repository-bearing processes distinguish checkout/materialization events, observed GitHub Traffic clones, unique-cloner observations and unknown telemetry. Record event identity/time, process/run/repository/revision, evidence and uncertainty. Never infer Traffic counts from checkouts or convert missing telemetry into zero. Use the existing [clone ledger standard](WORKSPACES/COMMON/CLONE_LEDGER_STANDARD.md), ledger and issue #1703; preserve exact/estimated/unknown distinctions and retrofit without disruption. Operational accounting only.
+
+
+---
+
+
+### ND-2026-11-21-02 — AUTONOMOUS ARCHIVE STEWARDSHIP, CONTINUOUS IMPROVEMENT, AND RESEARCH ECONOMY
+
+**Authority:** Nathan Direct, 2026-11-21, explicit current instruction. **Priority:** HIGH / standing operational priority across all workers and project processes. **Scope:** HsH, GLASS (SAT_THEORY_ARCHIVE_2023-25), HSH_RESOURCES, Factory Floor, shared tooling, indexing, discovery, publication/presentation, continuity, task routing and maintenance. This is an operational directive; it adds no physical-theory claim.
+
+The project remit includes archive preservation, accessibility, usability, maintenance, infrastructure, continuity, and ongoing improvement. These are shared responsibilities of all workers, not tasks reserved to specialists or requiring case-by-case authorization. Every worker is authorized and expected to investigate, repair, maintain and thoughtfully improve systems within this remit. **Do not wait for an unspecified approval process to perform ordinary, bounded repairs already within this delegated authority.**
+
+When a worker identifies degradation, a defect, needless friction, obsolete procedure, or worthwhile improvement, it should: (1) establish the actual defect and scope; (2) diagnose cause; (3) choose the smallest proportionate effective intervention; (4) preserve sources, provenance, history and recoverability; (5) implement the repair when within remit; (6) test and independently verify; and (7) record the change, rationale, evidence, result and remaining uncertainty. Reporting a repairable problem is not a substitute for fixing it. Prefer reversible, incremental changes, but do not confuse restraint with passivity. Larger architectural improvements are permitted when evidence and expected benefit justify them.
+
+This standing authority does not permit alteration of Nathan's original source material or protected provenance; silent theory-status changes; main-line theory work outside established sandbox/review boundaries; quarantine, privacy or access violations; unguarded destructive/irreversible actions; disruption of unrelated commitments without necessity; fabricated evidence or verification; or treating implementation success as physical validation. Isolate genuinely restricted portions and continue all permissible work rather than freezing an entire task.
+
+Workers are encouraged to maintain bounded experimental playgrounds inside the sandbox for alternate representations, assumptions, tools, extensions and formulations. Preserve source attribution, assumptions, derivations and epistemic status. An alternative does not silently replace the main track.
+
+**Research economy / rabbit-hole discipline:** the possible descriptions of a complex system are effectively inexhaustible. Do not spend project effort exploring every logically possible alternative. Prioritize alternatives that (a) reduce primitives, independent assumptions, free parameters or machinery while preserving or improving explanatory/predictive reach; (b) offer a modest elaboration with a specific useful payoff; (c) expose a discriminating constraint, comparison or falsifier; (d) provide cross-sector leverage; or (e) supply a historically valuable, more elaborate comparator. A merely possible alternative without discriminating or strategic value should be parked with a retrieval trigger. When an investigation stops producing useful constraints, evidence, clarification or capability, record the state and move on.
+
+The main theoretical program should be extended from within its own logic wherever productive. Prefer deriving more from existing assumptions over introducing independent machinery. Actively seek formulations more minimal than the current SAT construction, provided explanatory reach is preserved. Add complexity when geometry, mathematics or evidence gives a specific reason. Keep alternatives available for reconsideration when new results independently make them relevant. This is especially important for directions previously parked or treated as back-burner: absent an explicit permanent rejection/supersession, 'parked,' 'back-burner,' 'not presently productive,' or 'rejected as a current route' is not deletion or permanent exclusion. Retain their source, rationale, status and the conditions under which they may become valuable again. The HSUCV lattice and Z3 fusion gate are examples of historical directions that should remain recoverable and eligible for re-encounter, not active commitments requiring forced pursuit.
+
+Archive upkeep and improvement are ordinary continuing work. Workers should steadily improve reliability, efficiency, usability, accessibility, discoverability, maintainability and capability. Small fixes are welcome; larger redesigns are welcome when justified. The governing rule is: **identify what can reasonably be improved, use judgment to improve it, verify the result, and preserve what was learned.**
+
+---
+
+### ND-2026-11-21-03 — NATHAN PRIORITY INTAKE, DURABLE PIPELINE PICKUP, AND FALLOW-WORK ESCALATION
+
+**Authority:** Nathan Direct, 2026-11-21, explicit current instruction. **Priority:** HIGH / standing workflow requirement. **Scope:** all workers, threads, task graphs, queues, project plans, repositories and handoff/automation processes.
+
+A project-related request, program, proposal, tool, idea, or line of work that Nathan identifies as part of what the project is doing is actionable project intake. Unless Nathan explicitly describes it as casual discussion, speculative conversation only, or not for the pipeline, a statement that an idea/program is part of the repo/project makes it eligible for capture and triage as project work. When Nathan says 'put this in the pipeline,' 'put this in the workflow,' or equivalent, that is a direct instruction to create or update the durable work item and route it for execution, not merely to mention it in a summary.
+
+**Intake must result in a durable, actionable record.** Capture the original source/turn and wording; desired outcome; rationale and Nathan-stated priority/deadline; existing related assets and overlapping work; status; priority; responsible owner or eligible owner class; coordination lane; dependencies; smallest next action; acceptance/exit criteria; review trigger; and durable return route. Reuse the appropriate existing issue, branch, task, action plan, ledger or project record. Do not create duplicate issues or parallel queues. A note, mention, conversation summary, or unowned graph node is not sufficient intake.
+
+Nathan's explicit priority designation controls. Where Nathan identifies an item as a priority, preserve that authority and do not silently downgrade it. Where he identifies a project-related task without assigning a rank, it must still be captured and actively triaged; do not assume it is optional merely because a numeric priority was not spoken. The responsible coordinator should assign a defensible provisional class using the current priority hierarchy and record the basis, while retaining NATHAN_PRIORITY_UNCLASSIFIED when evidence is insufficient.
+
+**Pipeline pickup is an execution obligation.** The durable item must be placed in the live workflow/task graph and exposed through an actual worker's enabled operating instructions, addressed handoff/inbox, or other verified pickup mechanism. Identify who coordinates, who executes, and who follows up independently. Opening an issue or writing a queue entry without an actual pickup route is a delivery failure. Track states separately: captured, triaged, scheduled/queued, delivered, consumed, acknowledged, in progress, blocked, completed, independently verified. Never infer pickup from a ring label or an issue's existence.
+
+**No false abandonment based on activity in the originating thread.** If Nathan gives a fallback instruction such as 'if this thread does not get to it within 24 hours, put it into the shared pipeline,' the timer is not a cancellation test. Any discussion, partial work, or related activity in the originating thread during that interval does not erase the pipeline obligation. At the review point, determine whether the requested outcome has actually been completed and independently verified, or whether a durable, owned, actionable plan with a real execution route already exists. If not, create or activate the shared work item. Partial progress remains useful context and may reduce the remaining scope; it does not make the request disappear.
+
+**Fallow-work escalation:** record the time of intake and the last verified substantive progress. As time passes without meaningful advancement toward the requested outcome, increase the item's pickup urgency according to a recorded aging policy. 'Progress' means a substantive artifact, completed milestone, resolved dependency, executed test, or verified delivery that advances the requested outcome. Repeated discussion, status restatement, unchanged issue comments, nominal scheduler activations, cached results, or a new owner label do not reset the fallow clock. If a task is genuinely blocked, preserve its priority, identify the blocker and next action, and route around it where possible; blocked does not mean abandoned.
+
+Use the following default escalation unless Nathan specifies a tighter or different schedule:
+- At intake: capture and triage promptly; route to the best-fit existing workflow.
+- At the stated fallback interval (including 24 hours where that is what Nathan specified): verify actual outcome and pickup route; if neither completed nor already actively owned/queued, move it into the shared pipeline.
+- Thereafter: each overdue review increases urgency and places the task higher among otherwise eligible work; repeated missed pickup or extended fallow time triggers coordinator intervention and reassignment/parallel execution where safe.
+- Do not let an item age indefinitely because the originating thread remains conversationally active.
+
+Escalation must respect P0 emergencies, protected P1 commitments, hard dependencies, specialist/access boundaries, capacity and project-wide priorities. It changes urgency and visibility; it does not authorize unsafe access, false completion, uncontrolled duplication, or displacement of a higher protected commitment. If a task cannot be executed immediately, it must remain visible with owner, blocker, next action, review date/trigger and return route.
+
+**Historical work is not dead by default.** Archive and project backlogs must distinguish ACTIVE, ACTIVE_CANDIDATE, PARKED_TRIGGER, BACK_BURNER, SUPERSEDED, PERMANENTLY_REJECTED, and ARCHIVED_VALUABLE (or equivalent precise states). Only an explicit, attributable permanent rejection or genuine supersession warrants treating a direction as closed. A historical effort that was not completed, not pursued, or not selected at the time may retain substantial future value. Preserve its source, provenance, partial results, failed attempts, rationale, and conditions for reactivation. Periodically look for independent re-emergence: a previously parked idea may become valuable when later work reaches it from another direction. Reconsider it at that point without presuming its correctness or automatically promoting it.
+
+**Regular process requirement:** every actual worker activation performs the existing lightweight intake/fallow/queue scan. The existing deeper rolling review must inspect these commitments at least once per five actual completed activations and earlier after a new Nathan priority, missed pickup, material dependency change, milestone, or evidence of stranded work. Use the existing four relays and current workflow; do not create another recurrence or alter scheduler IDs/phases. Record queue aging, missed pickup, escalation, ownership and outcome so that adoption is judged by actual execution, not publication of this directive.
+
+This directive makes reliable intake, durable routing, fallow escalation, historical recoverability and continuous pipeline improvement standing operational obligations. It does not itself authorize any theory promotion or relax the project's established research, evidence, sandbox, or safety requirements.
+
 ### ND-2026-11-08-02 — Primary Operational Guideline precedence and FIE foundation
 
 **Authority:** Nathan Direct, 2026-11-08. **Scope:** operational-methodology authority across SAT/H(s)H. **Status:** controlling hierarchy clarification.
@@ -167,6 +226,33 @@ CODE 000: Nathan Permanent<br> <span style="color:green">Code Meangreen Invoked<
 **Rule:** **Read this before substantive theory work. Return here when theory work changes what may safely be assumed.**
 
 > This document is a control surface for theory work, not a claim that the research program is physically correct. It records what the project currently permits workers to treat as premises, what remains tentative, and what has been overridden, contested, or superseded.
+
+
+## P0 — TWO-PRONG BIG PUSH / WHOLE-PHYSICS METHOD (ND-2026-11-21)
+
+**Co-equal priorities:** (1) reconstruct a connected whole-physics account from the best archive work across every relevant sector; (2) execute the Big Push. Neither displaces the other.
+
+**Loop:** identify each sector's strongest exemplars/equations; trace distributed claim support across repositories, conversations, commits, models and time; assemble the whole; inspect connections and missing or faulty plumbing; alternate close detail with whole-picture review; repair and repeat. Do not judge from one document alone or infer support from archive volume: trace the actual claim-to-work relationship.
+
+Prioritize Nathan's exemplars: **back hallways, star-shaped derivation maps, constant torquing, one-drop, standalone and from-scratch constructions.** They model integration, not automatic proof.
+
+**Minimalism is a strength.** Prefer the smallest construction preserving or improving explanatory reach. Higher category theory is complementary, not constitutive; investigate actual leverage without letting abstraction displace physical work. “The infinite to our finite” is provisional and open to correction.
+
+**Prior art is open to research.** The blanket quarantine is removed, including former source-class exclusions. Preserve internal-first provenance, chronology and comparison. Research is not endorsement or adoption. Independent privacy, exposure, publication and access controls remain in force. This supersedes older blanket prior-art quarantine wording.
+
+## P0 — TOCKTICK PROTOCOL (ND-2026-11-21)
+
+**Mandatory adoption and mandatory experimentation.** Each instance maintains a tiny individualized capsule, repeated as a miniature signature in substantive working replies: current focus, immediate action, stopping condition, essential constraint/return locator, and compact pointers to upcoming modules. Pointers are versioned navigation, not future context to preload.
+
+Work one pointer at a time: open its module; execute to its stop; record durable result and next cursor; advance/remove the pointer; open the next. TICK marks position. TOCK requires a bounded operation, durable result and updated cursor. Submitted/running/pending/blocked/failed are not complete. Unknown or stale pointers are looked up, never guessed.
+
+Experiment and improve capsule forms and encodings by role/task. Measure exact resumption, missed/duplicated work, ambiguity and bookkeeping/context cost. Keep detail in authoritative modules, not the capsule.
+
+**Hard streamlining rule:** every procedure, expectation or BEDROCK revision must reduce total bloat. Consolidate, replace and remove duplication; do not merely append. Preserve necessary authority, provenance, safety, scientific status and return paths. Goal: less bookkeeping, more science.
+
+**Reaffirmed:** Code Grurple remains active and prioritized under its interlock; Sandbox remains active with playgrounds prioritized; Mandatory Walks in the Park remain active and prioritized. These coexist with both Big Push prongs.
+
+---
 
 ## 0. Central routing rule
 
@@ -444,9 +530,9 @@ Use this template:
 
 - **Authority:** Direct user cross-post, October 9, 2026, signed with signet represented **only** as `[OWL]`; raw conversation/message IDs pending archive.
 - **Model clarification:** A SAT worldline does *not* wrap around a carrier. H(s)H extends it as a finite-core worldtube. Straight aligned tube is the conjectured ideal vacuum limit: 90° to timesheet / 0° from time normal and propagation; current BR-005 `θ₄=0` applies. Possible vacuum worldtube ocean, condensate-like organization, photon/photoneutrino traveling excitations, ER/Kerr core/ring/sheath and the cosmological origin of coil formation remain separately **TENTATIVE/OPEN**, not experimentally demonstrated.
-- **Quarantine override (SCHOLARLY PRIOR ART):** The former **blanket** hard exclusion of `PRIOR_ART` is lifted for other outside materials **only after** tracing and citing SAT/H(s)H-internal precedents. Outside/nLab/braid sources are comparisons, bibliographic/mainstream-legibility aids, not default H(s)H foundations. **Hypothesis H proper and directly Schreiber-authored materials stay strictly off-limits.** When attribution is uncertain, refrain from access. This does not silently waive distinct private material, stopped-integration or exposure rules.
+- **Historical prior-art note (superseded 2026-11-21):** The former blanket exclusion was lifted in stages. Nathan's 2026-11-21 Direct now removes the remaining prior-art quarantine. Preserve internal-first provenance, chronology and critical comparison. Access does not imply endorsement, adoption or premise authority; independent privacy, exposure, publication and access restrictions remain.
 - **Source:** [Nathan-direct scope/routing note](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_SCOPE_AND_REFERENCE_RULE.md). Underlying signed user message is controlling; this entry is an indexed summary.
-- **Updates:** supersedes section 8's blanket `PRIOR_ART` prohibition *only in the above limited scholarly sense*; modifies ND-2026-10-09-01 and OC-002; preserves BR-000/001 ancestry. No physical claim is promoted by this document.
+- **Updates:** the 2026-11-21 Nathan Direct removes the remaining blanket/source-class quarantine; internal-first provenance remains. No physical claim is promoted.
 
 Nathan Direct changes should be recorded conspicuously and then propagated to affected entries without deleting the superseded state.
 
@@ -581,7 +667,7 @@ These links are intentionally status-separated from the foundational section. Th
 - **HsH:** current public H(s)H working/archive environment and this control surface.
 - **HSH_RESOURCES / permitted RESOURCES:** active supporting material; not generally quarantined.
 - **Toolkit:** active mathematical resource library for H(s)H work.
-- **PRIOR_ART and previously quarantined material:** older blanket prohibition superseded **for nonrestricted sources only**, subject to internal SAT/H(s)H first-appearance and citation review. **Hypothesis H proper and direct Schreiber-authored material remain hard-quarantined/off-limits** wherever copied. Default automated exclusions and public-release privacy rules remain in force until a source is individually screened. See [October 9 directive](WORKSPACES/COMMON/NATHAN_DIRECT_2026-10-09_INTERNAL_FIRST_PROVENANCE_AND_SOURCE_BOUNDARY.md).
+- **PRIOR_ART:** open to research, including sources formerly covered by blanket/source-class exclusions. Preserve internal-first provenance and comparison; independent privacy, exposure, publication and access controls remain.
 
 ---
 

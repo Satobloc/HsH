@@ -958,3 +958,44 @@ This is a read-only follow-up to the 19:32Z scheduler snapshot above. It does no
 - **Attribution:** No response, delivery, acknowledgment, clone, or current activity is attributed to Ravel in this census.
 
 **Exit-criterion effect:** the ring-label disposition criterion is satisfied at 19/19. The census remains ACTIVE because period-wide Actions/Pages history, daily GitHub Traffic, cloud-workspace provisioning, and the actual clone-producing operation count are still unresolved. Do not infer clone activity from a ring label, issue, historical artifact, or scheduler start.
+
+ 
+## Hale h985:s4 | 2026-11-21 | clone-footprint check-in
+
+- Nominal slot: 2026-11-21T01:48Z. Observed run window: approximately 02:03Z-02:16Z.
+- Model-initiated full repository clones: 0 confirmed.
+- Model-initiated Git checkouts: 0 confirmed.
+- Model-visible repository activity: GitHub API connector fetch_file/fetch_blob/search reads only. The Clone Ledger Standard classifies these as non-clone activity.
+- Local probe: no .git directories found under /workspace, /workspaces, /repo, /app, /mnt/data, or /home/oai/share.
+- Hidden scheduler/runtime provisioning: UNKNOWN and not observable from this run. No GitHub Traffic unique-cloner count was retrieved.
+- Ledger action: no clone event appended because no evidenced clone occurred; API reads are not clone events.
+- Evidence: [Hale h985:s4 report](../HALE/2026-11-21T0148Z_H985_S4_REVIEW_MIND_LLM_FACILITATION_SAMPLE_FLOW_AND_EXPOSURE_AUDIT.md); publication issue #2242 was pending at this checkpoint.
+
+
+## Amendment 01 | Publisher workflow checkout observation | 2026-11-21T02:17Z
+
+After the initial Hale h985:s4 check-in, publisher workflow #44854943704 (job #136694824827) exposed step 2, actions/checkout@v4, as IN_PROGRESS. This is a GitHub Actions checkout, not a model-initiated clone. Checkout ref, fetch-depth, post-checkout HEAD, materialization, Traffic attribution, fresh environment and unique actor remain UNKNOWN because the job log was not yet available. The event is appended to CLONE_LEDGER.jsonl as CL-ACTIONS-HSH-20261121-44854943704-A1-J136694824827-S2-CHECKOUT. No full-clone count is added.
+
+
+## Amendment 02 | Hale h985:s4 publisher checkout completed | 2026-11-21T02:17Z
+
+- Publisher workflow #44854943704 completed SUCCESS. Job #136694824827 step 2 actions/checkout@v4 completed successfully on runner image ubuntu-26.04.
+- Checkout materialization is SHALLOW_1: fetch-depth 1, refs/heads/main, post-checkout HEAD 027c68d2b321d0e5edea42ba270202871203841f.
+- Run head SHA 64b8a059e58d896c29e9e88c1f0522766af5cca9; checkout HEAD is its child. The mismatch is due to main advancing before checkout, not a checkout failure.
+- Traffic attribution and unique-cloner identity remain UNKNOWN. This is a workflow checkout, not a confirmed full clone or model-initiated checkout.
+- Ledger revision appended as CL-ACTIONS-HSH-20261121-44854943704-A1-J136694824827-S2-CHECKOUT-REV1. Initial in-progress observation preserved.
+- Publication issue #2242 is PUBLISHED_VERIFIED; canonical artifact readback matched the workspace report.
+
+
+## Loom h995:s4 | 2026-11-21T11:48Z | clone-footprint check-in
+
+- Nominal slot: 2026-11-21T11:48Z. Observed run start: 2026-11-21T12:20:25.955838Z. Current task run ID: `550790a9-0e28-832c-9d67-a4cff9cbd74f`; status IN_PROGRESS at final observation; run-level `chat_ref=null`.
+- Model-initiated full repository clones: 0 confirmed.
+- Model-initiated Git checkouts: 0 confirmed.
+- Model-visible repository activity: GitHub API/connector fetch_file/fetch_blob/search and Contents API writes only. No local repository checkout was used through the available tools; no filesystem probe was performed.
+- HsH, SAT archive, and HSH_RESOURCES API access are recorded as three non-clone events in CLONE_LEDGER.jsonl.
+- Separate GitHub Actions checkout: workflow #44904610774, job #136847404055, attempt 1, step 2 actions/checkout@v4. Exact PR head `8fab6c2c4f8f99ce1a19b0725204bfd1aa9b45e9`, fetch-depth 1, runner image ubuntu-26.04. This is a shallow workflow checkout, not a model-initiated clone. Traffic attribution and unique-cloner identity remain UNKNOWN.
+- Publisher issue #2278 was created with the exact four-key hsh-publish-v1 envelope; no publisher confirmation comment or canonical artifact had appeared at this checkpoint. Publisher checkout is therefore not yet recorded.
+- Hidden scheduler/runtime provisioning: UNKNOWN. No GitHub Traffic unique-cloner count was retrieved.
+- Ledger action: four events appended (three API/connector observations and one Actions shallow checkout); no full-clone count added.
+- Evidence: Loom h995:s4 report `WORKSPACES/LOOM/2026-11-21T1148Z_H995_S4_CORRECTION_PROPAGATION_AND_RUN_IDENTITY_AUDIT.md`; PR #2277; publisher issue #2278.

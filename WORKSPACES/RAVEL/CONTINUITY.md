@@ -1,3 +1,133 @@
+## h1059:s4 | 2026-11-24 | exact-head CI and source-to-map reconciliation
+
+- Ravel routing label, index 17; next Orson Vay, index 18. Assistant-level source-grounded revival; no authenticated current Ravel thread or standalone signed specialist charter.
+- Read current BEDROCK, Steering Charter, Three Paper Campaign, three-repo onboarding, Revival V3/V4, thread-first/routing rules, Nathan Direct proof-priority directive, automation roster, Ravel workspace and all three repository front doors. HSH_RESOURCES access stopped at root README and public AI start page. No private payload opened.
+- Re-read the existing Syncmathcek source extraction and verified batches. Large raw JSON returned empty through Contents API; this turn does not claim a fresh raw-JSON parse or Mersearch search. All four Mersearch request lanes remained requested; no lane overwritten or retriggered.
+- Re-read exact PR #1133 head e22fb5544185655d19a951dc4235ce876b22b6ed and Actions run #45186541338/job #137733512723. Expected and actual checkout matched; Lean 4.34.0 / Lake 5.0.0; 8,957 jobs. Existing public correction #2426 comment #7103288715 already supersedes h1044's merge-reference wording.
+- The existing carrier/sheet dimension gate distinguishes a 1D carrier intersecting a 3D sheet in 4D (expected 0D) from a full 4D support intersecting a 3D sheet (expected 3D). Exact 3D hypersurface and finite 4D slab are separate. The joint-readout theorem requires fiberwise constancy for quotient descent. The two-stage slice-chain adapter has explicit lift, sheet-map and coherence assumptions; no general n-stage associativity or source-defined physical maps are established.
+- RavelNormalConnectionReduction #eval displays Real.ofCauchy (sorry ...) placeholders, not numeric results. No sorryAx or admit token appeared in the retrieved job log; nanoda, global axiom audit, leanchecker, tests and lint were skipped. This is not a global proof-hole audit.
+- PR #1133 remains OPEN / DRAFT / UNMERGED, 89 ahead and 14 behind its current infrastructure base; parent PR #262 remains OPEN / nonmergeable. No formal review, rebase or merge.
+- Tern h1058:s4 completed the latest PWH deep review on a material trigger and reconciled the queue pointer. Next routine review after five verified completed activations or an earlier material trigger. P0 remains ACTIVE / RECORD SAFETY FAIL. P1 frozen/Orson-owned; P2 HOLD; P3 incomplete; FIE next December 4.
+- No new public issue was created because the existing #2426 correction already covers the exact-head qualification. No new theorem, PR, physical calculation, experiment, equation change, theory promotion, scheduler mutation or cross-thread handoff.
+- Report: [h1059:s4](2026-11-24T0348Z_H1059_S4_EXACT_HEAD_CI_AND_SOURCE_MAP_RECONCILIATION.md). Receipt: [h1059:s4](2026-11-24T0348Z_s4_ravel.md).
+
+---
+
+## h1044:s3 | 2026-11-23 | geometric hard-core versus exchange parity
+
+- Ravel deterministic ring label, index 17; next Orson Vay index 18. No authenticated Ravel thread or standalone signed specialist charter; historical remit reconstructed from direct user-role Syncmathcek messages and existing source-fidelity records.
+- Direct source message `c0d7fc1c-dc72-4cc7-b2a0-1e2cb686be4e` (2026-09-07T08:28:03.333Z) proposes Kerr core / “ultimate” exclusion, coil semi-permeability / “classic Pauli,” shell / approximate closed string, and shell deformation / string vibration. Explicitly tentative wording preserved. Separate direct message `b9805319-9d77-4b43-874a-5af50c0b6ef7` names force as primitive; no new carrier ontology or force law inferred.
+- Added `RavelGeometricExclusionExchange.lean` to existing PR #1133. Fixed-basis hard-core diagonal zero admits both nonzero exchange-even and exchange-odd witnesses; all-superposition quadratic-zero implies skew-symmetry for a 2×2 bilinear coefficient matrix. This is an abstract finite algebraic result, not a Hilbert-space or spin-statistics derivation.
+- Lean run [#45186541338](https://github.com/Satobloc/HsH/actions/runs/45186541338) passed: Lean 4.34.0, Lake 5.0.0, 8,957 jobs, `#eval` `(1, 1)`. Four theorem-specific axiom outputs inspected; standard `propext`, `Classical.choice`, `Quot.sound`; no `sorryAx`/`admit`. Tests/lint/leanchecker/nanoda/global axiom audit skipped. Pull-request merge-reference build, not standalone exact-head; new module blob identical at PR head and merge ref; aggregator import present in both.
+- PR #1133 remains OPEN / DRAFT / UNMERGED. No formal review, merge, or BEDROCK promotion.
+- Publisher issue [#2426](https://github.com/Satobloc/HsH/issues/2426) PUBLISHED_VERIFIED. Workspace report and canonical artifact byte-identical at 15,665 characters; SHA-256 `fe0772bc6a7b274e2bd46ac446835faa96bd03f67272b0ef0b6bfc863d8e0501`. Receipt Amendment 01 records readback.
+- Standard comparator: identical-particle exchange acts on complete spatial and spin labels; fermions exchange-odd, bosons exchange-even; Pauli exclusion follows for identical fermions in the same complete one-particle state. Fixed spatial non-overlap alone is insufficient.
+- Candidate data: He I 4He metastable 2^3S1 ionization measurement (Clausen et al., arXiv:2501.02983) reported in MHz with separate statistical/systematic uncertainties. Raw spectra and joint singlet/triplet covariance not retrieved; candidate only. No fit, prediction, uncertainty propagation, or physical calculation.
+- Shell/string mapping remains separate and uninstantiated: shell dimension, 2D worldsheet projection, action, periodicity, mode labels and spectrum required. No S1/S2 selection.
+- P0 ACTIVE; P1 Orson-owned/protected; P2 Nov 30 HOLD; P3 Dec 14 incomplete. FIE next target Dec 4; unrelated-reading break Nov 21. No Mersearch lane change; no private HSH_RESOURCES payload; no SAT-O/Blockwave equation change.
+- Next ring label Orson; no handoff because work is outside protected P1 cognition. Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with original hourly America/New_York :36 schedule and Worldtube phase. No sixth task, signet, or chat rename.
+
+---
+
+## h1021:s4 | 2026-11-22 | Ravel | source-map and integrity audit
+
+- Assistant-level source-grounded revival; no authenticated current Ravel thread or historical-instance participation.
+- Historical remit: direct archived user messages identify Ravel as primary co-theorist and assign conceptual cohesion, drift detection, and epistemic hygiene; September 12 check-in adds empirical/Kerr review responsibilities. No separately signed specialist charter.
+- Incoming Mercer h1021:s3 prestart packet was consumed. It requested no P0 action, code change, route probe, or ownership transfer.
+- Source chronology reconciled: Aug 26 Calder direct Klein-worldtube/fabric descriptions; Sep 7 Ravel direct spatial Kerr section, three-representation distinction, and historical force-primitive wording; Oct 21 Meridian direct user correction retiring the earlier reciprocal filament/timesheet-deformation construction; Nov 4 tentative mutual worldtube-timesheet curvature hypothesis; Nov 8 source-indexed two-primitive-first model with responsive medium provisional third.
+- Current source status: the Oct 21 supersession marker does not itself define Klein Fabric. The Nov 4 mutual-curvature hypothesis is a later, distinct proposal. The Sep 7 force-primitive phrase remains historical direct evidence, but the Nov 8 current primitive list does not explicitly include force. Status UNRESOLVED.
+- Existing map obligations remain open: global Klein Fabric to local Kerr/ER shell; filament/core to 4D worldtube; spatial Kerr section to filament sweep; 3D slice to timesheet; worldtube/timesheet to force/readout; timesheet normal to propagation along w; w=ct to cw=t; and 3D rotation/acceleration to a typed 4D curvature object.
+- SAT-O1 and Blockwave originals remain byte-pinned; no corrected equations issued. SAT-O1 curve is 1D; its 4D worldtube sweep map remains undefined. Blockwave attachment authorship remains unresolved.
+- PR #1133 and PR #2309 remain OPEN / DRAFT / UNMERGED. PR #2309 later merge-reference build #44962354143 succeeded with 8,957 jobs. Six theorem-specific outputs in RavelNStageHeterogeneousErrorTransfer.lean list [propext] only. The earlier #44960570508 outputs [propext, Classical.choice, Quot.sound] were accurate for the earlier module revision. The later build is merge-reference, not exact-head; tests/lint/leanchecker/nanoda/global axiom audit skipped.
+- Existing h1006 stagewise addendum #2311 received public correction comment #7080328743; PR #2309 comment #7071027233 updated in place. No duplicate issue or PR.
+- Mercer h1021:s3 issue #2346 is PUBLISHED_VERIFIED. Its prior receipt's mismatch claim was incorrect; raw issue payload and canonical artifact are identical at 9,299 UTF-8 bytes, SHA-256 beeede5e638f289064bec46e1fb11b5018665e98fdef5917684c68ec12d86669. Public correction comment #7080329438.
+- Current report file: WORKSPACES/RAVEL/2026-11-22T1348Z_H1021_S4_SOURCE_MAP_AND_INTEGRITY_AUDIT.md. Publisher issue #2347 PUBLISHED_VERIFIED; run #45031399182 succeeded; confirmation comment #7080367188; canonical artifact SHA-256 70d9f85e5311c09b6dc58ab966a0319a0b9cf847bd8bb92b1219b513f36d51ab, 12,945 UTF-8 bytes, exact issue-content/artifact equality.
+- Clone ledger readback: 364 rows, 361 unique event IDs, three legacy rows without IDs, zero malformed lines or duplicate IDs. New ledger blob 50bd71246226780ea4398c84ad66fb78df1687e9.
+- P0 Code Grurple ACTIVE; WH-02 Calder-owned; P1 Orson Nov 9 cognition remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED; P2 Nov 30 HOLD; P3 Dec 14 INCOMPLETE. Mersearch lanes all requested; no callable Mersearch action; no lane mutation. Task graph 18/16, one blocked/unreachable M87 polarimetry node. FIE next due Dec 4. Unrelated-reading cursor 3126 from Nov 21.
+- Next ring label Orson Vay. No handoff because this geometry/source audit is outside his protected P1 cognition work.
+- :48 task ID 6aa6c3bc02b48191b8a91a30d2a155e0 remains enabled with DTSTART;TZID=America/New_York:20261001T144800 / RRULE:FREQ=HOURLY. Current run 6af046c6-7b9c-8320-8d47-62a3161a9727 remained IN_PROGRESS, chat_ref=null. No task mutation, no sixth task, no cross-thread delivery claim.
+
+
+## H987:s3 | 2026-11-21T03:36Z | Heterogeneous projection error transfer
+
+Added a domain-restricted two-stage error-transfer theorem to existing PR #1133. The intermediate and final representations use different pseudometrics; both first-stage outputs must remain in an explicit admissible domain; the second-stage map must be L-Lipschitz there; and the second-stage approximation error must be bounded there. The conditional budget is epsilon-2 + L*epsilon-1. A pure-mathematical real-line counterexample shows why no finite uniform output bound follows from input tolerance alone without regularity. First exact-head build failed on two proof-script errors; corrected head 9a6f1968883f7692af509e394fcb1531029efa60 passed exact-head checkout and full 8,955-job Lean build #44862774441. Both theorem-specific axiom outputs are [propext, Classical.choice, Quot.sound]; one non-fatal unused-tactic warning remains. Tests, lint, leanchecker, nanoda and global axiom audit were skipped.
+
+The source-faithful three-representation distinction remains unchanged: reduced 3D Minkowski/worldworm diagram, full 4D bulk, and actual 4D view with a 3D slice. No map to a timesheet intersection is source-established. Intrinsic core thickness and timesheet thickness remain distinct. Twist/holonomy and a separate contact surface are not forced; the spatial Kerr section is direct source, but its embedding/transport remains undefined. No force law or normalized current law is supplied.
+
+PDG-2026 lepton summary values were used only for measured-value reconnaissance. The table is not raw measurement-level data or covariance. Mass/Compton quantities and lifetime/width are not independent constraints; no H(s)H geometry-to-observable map, fit, prediction, calibration, holdout or falsification threshold is established. P2 remains HOLD. Publisher issue #2248 is PUBLISHED_VERIFIED; publisher comment #7056858292 confirms exact readback. No Orson handoff was made because P1 cognition remains protected. See [H987 report](2026-11-21T0336Z_H987_S3_HETEROGENEOUS_PROJECTION_ERROR_TRANSFER_AND_LEPTON_IDENTIFIABILITY.md) and [receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0336Z_s3_ravel.md).
+
+## h983:s4 | Publication amendment 01 | 2026-11-21
+
+Publisher issue #2239 returned REJECTED: SHA-256 mismatch. Workspace report and issue-payload content are identical at 12,613 characters; declared digest 9ee9ea07... differs from independently recomputed digest 7859db7c.... Expected canonical artifact path is absent. No retry, issue edit, reopen, duplicate, or bypass. See [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0036Z_s4_ravel_AMENDMENT_01_PUBLISHER_SHA_REJECTION.md).
+
+---
+
+## h983:s4 | 2026-11-21 | Review-MIND proof and workflow-health audit
+
+**Selection:** Ravel (ring index 17); immediate successor Orson Vay (18). Assistant-level reconstruction, not an authenticated Ravel thread.
+
+**Report and receipt:** [workspace report](2026-11-21T0036Z_H983_S4_REVIEW_MIND_COUPLED_READOUT_AND_PWH_AUDIT.md), [publisher issue #2239](https://github.com/Satobloc/HsH/issues/2239), currently SUBMITTED_NOT_VERIFIED; [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0036Z_s4_ravel.md).
+
+**Primary mathematical review:** PR #2236's product readout descends through a quotient iff both components are constant on the relevant fibers. The proof is conditional and does not identify a physical carrier. UnitTagged carries dimension exponents and a real scalar, not unit identity, conversion, calibration provenance, uncertainty, or covariance. The normalized squared discrepancy is nonnegative but not a metric or likelihood. Coupling remains abstract; no force map or physical response law is instantiated.
+
+**Build status:** PR #1133 exact-head run #44709605971 passed at base fc7f927. PR #2236 run #44842095993 passed on merge reference 44e17cb, not exact head b5328c4. No formal review. The h983 Mercer claim of a sorry at RavelNormalConnectionReduction.lean:125 is not reproduced on the pinned base; the named file and inspected full build log show no sorry/admit, but global axiom audit was skipped.
+
+**Cross-lane findings:** Mersearch lane 2 outputs exist (22,755 files, 22,827,574 records, 6,850 hits, 1,181 distinct sources), but the request file remains status=requested and the Actions run is absent from CLONE_LEDGER. Other three canonical lanes lack outputs. MySearch workflow scaffold exists but is not run/validated; fixed EOF GITHUB_OUTPUT delimiter is unsafe for multiline input, and no durable queue/status endpoint or pre-runner acknowledgement exists. PR #1710 has a same-path divergence in conversation-json-content-ci.yml; edits appear separate but no mergeability test was made. Task graph remains 18 records / 16 declared, 5 completed / 12 active / 1 blocked, 7 roots, 11 parent pointers, 10 child edges, 17 reachable / 1 blocked-unreachable.
+
+**Orson protection:** P1 November 9 remains OVERDUE / NOT READY / FROZEN / ORSON-OWNED. No Orson manuscript, dataset, protocol, experiment, PR, or ownership was changed. No model trial, human session, API spend, or cross-agent consensus claim.
+
+**Scheduler/packet timing:** same :48 run key has start observations 23:49:10.683712Z, 00:06:50.642398Z, and 00:36:48.278197Z. Mercer packet created 23:48:42Z is prestart relative to first observation and poststart relative to later observations. See handoff Amendment 03; classification TIMING_AMBIGUOUS_SAME_RUN_KEY. No retry/restart/identity inference. No direct-thread delivery, consumption, or acknowledgment.
+
+**Next:** verify publisher issue #2239 and canonical readback without retry; retain PR #2236 exact-head build and independent review as separate gates; require a unit-identity/conversion/calibration record before any physical instantiation; Tern/Calder retain queue and PR authority; keep Orson P1 untouched. FIE next review 2026-11-24, not yet stale. Resolved unrelated-reading file was 39 lines; cursor EOF / line 40, prior cursor 2566 source lineage unresolved.
+
+---
+
+## h972:s2 | 2026-11-20 12:24Z | Source-to-formalization audit
+
+**Selection:** Ravel (index 17); next ring label Orson Vay (index 18). No authenticated current Ravel thread was found. The latest located Ravel Free Build export contains the October 11 maximum-length cutoff; no new chat was created. This was a source-grounded revival in the current run, not historical-instance participation. No standalone signed specialist charter was found.
+
+**Primary result:** the existing Ravel Lean PR #1133 formalizes a common-incidence `LabelledSlicePullback` and conditional readout-factorization criteria. It does not yet formalize mutual deformation, a force primitive, a physical response law, or the source's chosen spatial Kerr section. The `sameTube` and `sameSheet` relations are literal representative equality, not gauge/reparameterization quotients. The no-go/factorization theorems require witness pairs; no source-derived physical readout or physical nonfactorization witness is instantiated.
+
+**Composition:** `RavelDirectedSliceChainComposition` supplies a conditional two-stage map theorem with explicit comparison, lift, sheet-map, commutation, section-witness, and direct-path-coherence data. Those conditions are supplied, not derived; no general n-stage associativity is established. `SliceCompatibleRetraction` assumes slice preservation. The abstract `zeroSection` is not the source's spatial Kerr section.
+
+**Source chronology:** 2024 DIMENSIONAL GRAVITY labels the time-surface construction an abstraction/heuristic; the June 2025 SAT4D draft distinguishes a 1D filament from its 4D swept worldtube; July 2025 SAT.O directives describe 1D filaments and a propagating 3D wavefront; October 2026 direct source messages use 4D-filament/3D-trace language, distinguish a spatial Kerr section from a 4D Kerr spacetime, and describe mutual accommodation with force as primitive. The current model uses worldtube and timesheet as structural primitives with a provisional responsive medium; BEDROCK rejects a separately invented force law. This is an unresolved primitive-typing gap, not a resolved contradiction.
+
+**Missing source-to-type map:** 1D generator -> 4D swept worldtube -> chosen spatial Kerr section -> 3D trace; separately, 4D bulk -> timesheet/finite-thickness support; and a typed mutual-accommodation/force relation plus source-defined response map. No new symbols or equations introduced.
+
+**Lean:** PR #1133 head `fc7f92722fe5e0757d55f961b54a12bdee66d5da`; exact-head Actions run #44709605971 / job #136197653482 passed Lean 4.34.0 / Lake 5.0.0. Tests, lint, leanchecker, nanoda and global axiom audit skipped. This is existing exact-head CI, not a new local run. Local Lean/Lake/Elan absent. PR #1133 and infrastructure PR #262 remain unmerged; current main lacks the formalization files. No physical validation.
+
+**Mersearch/tooling:** no callable Mersearch action or local stable 1.0 checkout. Four request lanes remain occupied/requested; twelve expected outputs absent. No request retriggered. Whirligig Kernel 0 remains sandbox-only; Math Hopper repository not resolved in installed-repository search; SciSpace available but unused; three repository metadata checks returned zero forks. No new tooling or cost.
+
+**Equation custody:** SAT-O1 4D original blob `7577aa1ee5a6c3850ce3b226c75377de6367aedc`, SHA-256 `8e416ff440c45936c3588de0bd0c2ae49b529655ff452a64093a145416c62937`, FileIndex last-write 2025-06-09 18:44:50 (timezone unspecified), unbylined. Blockwave clean-action attachment blob `ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d`, SHA-256 `3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664`, user-supplied 2025-09-16T16:31:26.687Z, embedded authorship unresolved. No corrected equations.
+
+**Publication:** [Issue #2189](https://github.com/Satobloc/HsH/issues/2189) PUBLISHED_VERIFIED. [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T1224Z_s2_ravel.md). Publisher run #44738679124; confirmation comment #7039937924. Artifact SHA-256 `37e6a97e071006cd9009eeaed5ceb17296dfb4a0995012f6f8c90720b2a26f5a`; artifact and internal report Git blobs match.
+
+**Project gate:** P0 ACTIVE; latest Tern h971:s2 receipt records 8/8 protected objects exact; PR #2009 and issue #1747 remain open. P2 issue #565 has no selected measured system. Lane 24 Cycle 08/08 BACKSEAT/HOLD. P1 Orson-owned/protected; P2 HOLD; P3 INCOMPLETE; FIE next review Nov 24. Task graph 18 records / 16 declared branches. No physical calculation, CODATA comparison, fit, prediction, independent measurement, P2 selection, or paper-gate advancement.
+
+**Lateral reading:** SAT archive `fun break - lx.txt`, lines 2211-2250; next cursor 2251.
+
+**Handoff:** Orson Vay h972:s3. Optional packet created after the Orson run had started; POSTSTART / REPOSITORY_ONLY. Packet and publisher-verification amendment were appended to Orson's existing inbox and read back. No task, response obligation, review request, ownership transfer, or direct-thread delivery/consumption/acknowledgment claim. P1 cognition remains protected.
+
+**Scheduler:** final task inventory confirms the existing :24 Geometry task remains enabled with its exact saved hourly schedule and original prompt/phase. An ID-specific final peek returned unavailable, so the global task inventory was used. Four existing relays remain enabled; :12 remains disabled. No sixth task, task mutation, signet, or conversation rename.
+
+> **Previous relay checkpoint - h961:s0 (2026-11-20 01:00Z nominal).**  
+> Selected: Ravel (ring index 17); next ring label: Orson Vay (index 18; no handoff or assignment). Next scheduled :00 selection: h962 Ariadne (index 3).  
+> Report: [published h961 artifact](../COMMON/PUBLISHED_SUBMISSIONS/ravel-h961-s0-helical-packing-scope-20261120t0100z-001.md) and [issue #2148](https://github.com/Satobloc/HsH/issues/2148) - **PUBLISHED_VERIFIED**; SHA-256 `b80b3f0c676895824a661baf7b555fc31cdeb4acc768277713c3ee937fd942b5`; 19,785 bytes. [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0100Z_s0_ravel.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0100Z_s0_ravel_AMENDMENT_01_PUBLISHER_READBACK_VERIFIED.md).  
+> Receipt: [canonical h961:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0100Z_s0_ravel.md).  
+> Finding: historical `d_N = 2 R sin(pi/N)` is a same-slice circular chord, not global helical/worldtube clearance; finite-core thickening, pitch-sensitive separation, and Pauli/Cooper exchange maps remain undefined. No new Lean run, physical calculation, CODATA scoring, or theory promotion.  
+> Workflow: WH-02 remains highest-priority unblocked and Calder-owned; PR #1710 7 ahead / 6,875 behind at final readback (main `84db88ed6ffdb38f5787cdf0a705e2e15b9cef8a`); no exact-head Actions run. WH-05 remains Mersearch-blocked. P0 ACTIVE; P1 November 9 OVERDUE / NOT READY and Orson-owned; P2 November 30 HOLD; P3 December 14 INCOMPLETE. FIE next due November 24. Unrelated reading break h958 lines 2001-2040; next cursor 2041.  
+> Invoking automation: Workshop Relay :00 | Archive, ID `6aa1fe0de5e48191b886496095b1343f`, enabled and unchanged; exact schedule `DTSTART;TZID=America/New_York:20261001T140000`, `RRULE:FREQ=HOURLY`. Ravel's separate :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` also unchanged. No sixth task.  
+> No authenticated current Ravel thread ID/URL surfaced; no cross-thread delivery, consumption, or acknowledgment is claimed. No new chat.
+
+> **Previous relay checkpoint — h934:s2 (2026-11-18 22:24Z).**  
+> Selected: Ravel; next ring label: Orson Vay (protected cognition remit; no handoff/assignment).  
+> Report: [h934:s2 geometry/source/proof-status audit](2026-11-18T2224Z_H934_S2_GEOMETRY_SOURCE_FIDELITY_AND_PROOF_STATUS_AUDIT.md)  
+> Receipt: [canonical h934:s2 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-18T2224Z_s2_ravel.md)  
+> Status: P0 ACTIVE (8/8 protected blobs exact; discovery JSON unparsed); P2 HOLD; PR #2004 exact-head Lean pass; Ravel PR #1984 exact-head attempt failed, tactic-mode retry currently in progress; Mercer PR #1235's phase-curvature module is not imported by its aggregator and remains unverified. FIE next due 2026-11-24; unrelated-reading cursor 1072.  
+> Existing :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its original hourly :24 schedule. No task/ID/cadence change and no sixth task.  
+> 
+> ---
+
 
 
 # Amendment | h926:s4 | 2026-11-18 15:14Z
@@ -1249,3 +1379,130 @@ Correction to Amendment 05: the existing PR #1984 branch head `7794e1db22220f34c
 - Corrected PR #2004 head `584c400b836c6942f72b739c626ad12c1c66b384` has a new Lean run #44373134985/job #135045044582. At last readback job is IN_PROGRESS at checkout; exact-head assertion, Lake manifest and compilation remain pending. Initial failed run #44372314170 built the new module but root failed due the missing `ThreeModelContrast` import on base #262; that import was removed in the correction.
 - Issue #2005 PUBLISHED_VERIFIED, exact payload/report/artifact equality, SHA-256 `70be1753f0930fcbeb1eadcb31fac9a17715a12350bf0680b136bdb68412a066`. P2 comments #6988133193/#6988143282/#6988170466.
 - **Return pin:** `H930:S3 / RAVEL / ORSON-NEXT / OBSERVABLE-FAMILY-SELECTION-FREEZE / PR2004-CORRECTED-HEAD-LEAN-CI_IN_PROGRESS / ISSUE2005-PUBLISHED_VERIFIED / P2-HOLD / NO-HANDOFF / TASK-UNCHANGED`.
+
+
+## H968:S3 | 2026-11-20 | Source-grounded revival and geometry discriminator
+
+- Canonical report: [h968:s3 Kerr/worldtube scale and rotation typing](../COMMON/PUBLISHED_SUBMISSIONS/ravel-h968-s3-kerr-worldtube-rotation-typing-20261120t0836z-001.md), issue #2176 PUBLISHED_VERIFIED, SHA-256 98919a6d467e3887de16761ece4aacdb5f793cb5dc0d2d5183b101f1ccbcebce.
+- This run is a source-grounded revival under the Ravel ring label. The historical Syncmathcek conversation is exhausted; the later Ravel Free Build export is not an authenticated successor. Prior-conversation search found no newer usable authenticated Ravel thread. No new chat or direct cross-thread delivery.
+- Primary-source map: Ravel raw export conversation 6a9d1a23-4fac-83ea-b76f-6805ece3ee9f, blob c49367b0faa424491e7b3520a034b9e44fe6897f; Meridian Free Build conversation 6ac45d1f-17b0-83ea-ad1f-fa524602378b, blob 7af1561b321f4d9364da5eb111df689efc652827. User-role messages remain distinct from assistant reconstructions.
+- Geometry obligations: select a 3D spatial Kerr section; define its extension along the filament without assuming a Cartesian product; separate finite-core support, coil diameter, timesheet active-update thickness and unresolved worldtube axis-to-circumference dimension; define the worldtube/timesheet interaction and readout.
+- Rotation obligations: distinguish Euclidean R4 kinematics, standard Kerr spin and internal material-frame/normal-bundle twist. The block-diagonal matrix in RavelSkewRotationKinematics is one assistant-defined representative of BEDROCK's recorded skew-generator constraints, not a unique Nathan equation or physical Kerr model.
+- Contact/shell remains a proposal until an interface, matching condition and constitutive law are specified. Mutual accommodation and force-primitive language is preserved without inventing a force law.
+- PR #1133 current head 98dbe0ddfbff78ee447998c21316f8009caaa803; exact-head run #44706791685 IN_PROGRESS at last readback. No compile pass claimed.
+- Optional Orson packet: [h968:s4 context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-20T0836Z_from_s3_ravel_to_s4_orson_TIMING_UNVERIFIED_OPTIONAL_SOURCE_GROUNDED_CONTEXT.md). Timing unverified after nominal slot; no assignment or direct delivery. Orson P1 cognition remit and 4/5 allocation remain protected.
+- No P2 system, fit, raw data, numerical prediction, independent measurement, paper-gate advancement or BEDROCK promotion.
+
+
+## Amendment 01 | 2026-11-20 | exact-head Lean and WH-02 readback
+
+- Receipt amendment: [Ravel h968:s3 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0836Z_s3_ravel_AMENDMENT_01_LEAN_AND_PWH_STATUS.md).
+- PR #1133 current head: 76429e9170104a1a86ae84a2b0ee298789fe7fdd. Exact-head Lean run #44707552370 is IN_PROGRESS at last readback. Earlier exact-head failures and their specific findings are recorded in the amendment. No successful current-head compile is claimed.
+- PR #1133 remains OPEN / DRAFT / UNMERGED. GitHub reported mergeable=true at last readback. No rebase, merge or base change.
+- WH-02 issue #1702 received additive status comment #7035180560. Calder-owned PR #1710 is 7 ahead / 7,192 behind current main c4e9b648857f40ce53bfe28b541b4219dfe748c2, mergeable=false. This is not a rebase or CI result; Calder retains ownership and Tern retains queue coordination.
+- No new physical calculation, raw data, P2 selection, paper-gate advancement or BEDROCK promotion.
+
+
+> **Previous relay checkpoint - h968:s3 (2026-11-20 08:36Z nominal; same-slot continuation/re-entry unresolved).**  
+> Selected: Ravel (ring index 17); next ring label: Orson Vay (index 18). This is a deterministic label, not an authenticated current Ravel thread. Historical remit: primary co-theorist, conceptual cohesion, drift detection and epistemic hygiene; source messages 638d13ba / c5639160; no standalone signed specialist charter.  
+> Report: [h968:s3 published artifact](../COMMON/PUBLISHED_SUBMISSIONS/ravel-h968-s3-kerr-worldtube-rotation-typing-20261120t0836z-001.md), [issue #2176](https://github.com/Satobloc/HsH/issues/2176), PUBLISHED_VERIFIED; SHA-256 98919a6d467e3887de16761ece4aacdb5f793cb5dc0d2d5183b101f1ccbcebce.  
+> Source correction: [issue #2178](https://github.com/Satobloc/HsH/issues/2178), PUBLISHED_VERIFIED; SHA-256 3ef3d2605ce90fe242651a769fae14bd6640f69540db4a6d708d9e1ec6dd1c4a; parent pointer comment [#7035559710](https://github.com/Satobloc/HsH/issues/2176#issuecomment-7035559710). b27ec702 is a Mercer-origin user-role cross-post, not independent Meridian first-origin evidence.  
+> Receipts: [canonical h968:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0836Z_s3_ravel.md), [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0836Z_s3_ravel_AMENDMENT_01_LEAN_AND_PWH_STATUS.md), [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0918Z_s3_ravel_AMENDMENT_02_SOURCE_ATTRIBUTION_AND_EXECUTION_BINDING.md). [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0922Z_s3_ravel_AMENDMENT_03_EXACT_HEAD_LEAN_PASS.md).  
+> PR #1133 remains OPEN / DRAFT / UNMERGED. Current head fc7f92722fe5e0757d55f961b54a12bdee66d5da; exact-head Actions run #44709605971 SUCCESS, full Lake build 8,954 jobs; RavelSkewRotationKinematics built at 8,947/8,954. Tests, lint, nanoda and axiom-audit skipped; no theorem-specific axiom audit or mainline integration. The R4 matrix is an assistant-defined representative, not a unique Nathan equation.  
+> Invoking automation: Workshop Relay :36 | Worldtube, ID 6a9f52b69ec08191b0a2ba24a074f781, enabled and unchanged; exact schedule DTSTART;TZID=America/New_York:20261001T143600, RRULE:FREQ=HOURLY. Current run 8fa68115-f154-832e-b832-96571e8e5667 is recorded IN_PROGRESS, scheduled 08:36Z, latest start snapshot 08:59:58.217563Z, completion null, chat_ref=null. Cached result is stale h967:s3 Tern run f6bc1dda-3b10-8323-a117-05a08a02e705. The h968 report was published before this start snapshot; producer-run identity remains unattributed.  
+> Successor: Orson h968:s4 :48 run 8b91333b-1034-832b-bb69-9ccfe18053f9 completed 09:06:33.907451Z and performed genuine LLM-cognition source-audit work. The optional Ravel packet was committed 09:01:13Z, after Orson's 08:47:25.011531Z start: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No consumption, acknowledgment, assignment, or ownership transfer is claimed; Orson's P1 remit remains protected.  
+> P0 ACTIVE; P1 OVERDUE / NOT READY / Orson-owned; P2 HOLD; P3 INCOMPLETE. Nov 9 minor gate missed; Nov 30 major HOLD; Dec 14 full theory INCOMPLETE. FIE next due Nov 24. Unrelated reading: fun break - lx.txt, lines 2171-2210; next cursor 2211.  
+> Mersearch action unavailable; all four request lanes remain occupied/requested. SAT archive and HSH_RESOURCES root READMEs/metadata checked; HSH_RESOURCES payload not accessed. No physical calculation, fit, H(s)H prediction, independent measurement, P2 selection, equation change, or BEDROCK promotion. No task/ID/schedule/prompt/phase change, no sixth task, signet, or conversation rename.  
+
+## 2026-11-20 | h980:s0 continuity checkpoint
+
+- h980 Lane 00 cross-report reconciliation and receipt are committed and independently read back. See [report](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/RAVEL/2026-11-20T2000Z_H980_S0_LANE00_CROSS_REPORT_RECONCILIATION.md) and [receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T2000Z_s0_ravel.md).
+- No new primary-source map or equation was recovered; existing canonical reports remain the controlling source-fidelity work. No duplicate public issue or new Lean build.
+- PWH read-only check: h977 deep-sweep report exists, but the Tern-owned action queue lacks its completion pointer. PR #2009/#1710/#2050 remain stale, with no touched-path overlap against main changes since their merge bases. No merge, rebase, dispatch or queue mutation.
+- FIE review due 2026-11-24 (last 2026-11-10); unrelated reading cursor remains 2526.
+- Next ring label Orson Vay; no task or response obligation handed off, preserving cognition specialty.
+- Automation ID 6aa1fe0de5e48191b886496095b1343f, enabled state, exact hourly schedule and :00 Archive phase unchanged. No sixth task.
+
+
+## 2026-11-21 | h1006:s3 continuation | stagewise error attribution
+
+- Addendum report: [stagewise error attribution and scheduler observation](2026-11-21T2236Z_H1006_S3_AMENDMENT_01_STAGEWISE_ERROR_ATTRIBUTION.md); receipt amendment: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2236Z_s3_ravel_AMENDMENT_01_STAGEWISE_ERROR_ATTRIBUTION_AND_SCHEDULER_OBSERVATION.md).
+- Existing PR #2309 extended at head `71f600206d9ce8c784922d675ea8ce8a92d6ef86` with `errorBudget_eq_stagewiseErrorBudget`, the exact expansion (E_n=\sum_{j<n}\epsilon_j\prod_{j<k<n}L_k). Successful merge-ref Actions #44962354143: 8,957 jobs; module blob matches PR head and merge ref. No head-only checkout; PR remains draft/unmerged. Standard axiom dependencies are listed; no sorryAx/admit in retrieved log. Tests/lint/leanchecker/nanoda/global axiom audit skipped.
+- This exposes downstream amplification of each local approximation error. It does not estimate stage constants, define physical maps, establish metric-unit compatibility or validate H(s)H. No physical data, calculation, fit, prediction or threshold; P2 remains HOLD.
+- PWH graph/queue review used the live task_upkeep_triage.py exact source (Git blob `49d2fdd8f36b6091a3b06e0a65ad6c5d4e69ed01`), hash matched and self-test passed. 13 active/blocked records; graph 18 vs declared 16; WH-02 remains Calder-owned. No graph/queue change.
+- Publisher issue #2311 is SUBMITTED_NOT_VERIFIED at the recorded readback; canonical artifact/confirmation pending. Parent h1006 issue #2310 remains PUBLISHED_VERIFIED.
+- Same run ID `02689094-4cac-8332-bdcf-f765581e426f`, scheduled 22:36Z, reported start moved from 23:00:27.865674Z to 23:29:41.777266Z (+1,753.911592s). Still IN_PROGRESS, completion and chat_ref null; no attempt ID or cause. Cached result is h1004:s3 Calder.
+- Next ring label Orson Vay; protected P1 cognition remains Orson-owned. No direct-thread delivery, packet, assignment or ownership transfer.
+- Existing :36 task remains enabled and unchanged: ID `6a9f52b69ec08191b0a2ba24a074f781`, exact hourly schedule and Lane Charter 36. No sixth task, signet or conversation rename.
+
+
+### h1006:s3 publisher verification | 2026-11-21
+
+- Stagewise error-attribution addendum: [issue #2311](https://github.com/Satobloc/HsH/issues/2311), PUBLISHED_VERIFIED by comment #7071040841.
+- Canonical artifact SHA-256 `0758100b02af3b2cefc45a97ee3d66a8b4e1aaf630c36fdd5ee881a0e37b53a0`; exact 8,390-character workspace, issue-envelope and canonical-artifact content match verified.
+- Receipt Amendment 02: [publisher verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2236Z_s3_ravel_AMENDMENT_02_PUBLISHER_VERIFIED.md). This supersedes the earlier pending status recorded in Amendment 01; no historical observation was rewritten.
+
+
+
+## 2026-11-22T2124Z | h1029:s2 | Ravel | Blockwave source-token and formalization boundary
+
+- Source-grounded Ravel revival; no authenticated current Ravel thread or historical-instance participation claimed. Direct user-role messages in Syncmathcek support the primary co-theorist remit; no standalone signed specialist charter exists.
+- Read live controls, three-repository onboarding, current main, Ravel workspace/receipts, Mersearch request state, task graph and PWH queue. Mersearch had no callable action/local pinned checkout and all four canonical lanes remained occupied/requested; lane 2 had a compact receipt only. No lane mutation.
+- Re-fetched SAT-O1 and Blockwave originals. SAT-O1 five quoted equation strings occur verbatim. Blockwave HsH Git blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d, 25,255 UTF-8 bytes, SHA-256 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664; matches the September 16 attachment custody record, without establishing embedded author.
+- New correction: Meridian's published Blockwave projector snippet adds a caret before the second \nu. Source line 9 is literally:
+  
+  ~~~tex
+  P^\mu{}\nu\!\equiv \delta^\mu{}^\nu+u^\mu u_\nu
+  ~~~
+  
+  Line 85 is:
+  
+  ~~~tex
+  P^\mu{}\nu=\delta^\mu{}^\nu+u^\mu u_\nu
+  ~~~
+  
+  Neither has the caret. Public correction comment #7086126431 on existing issue #2374 updated in place and read back exactly.
+- Existing Kestrel PR #1556 formalizes only local d(alpha dtheta)=0 for a smooth local real lift and constant scalar; exact-head Lean 4 run #42765114182 succeeded. It does not prove global S1 winding, normalization, defect/current support, or physical Blockwave validity. No new theorem/build/code edit.
+- P0 verified 11/11 at main 9e9ddaf99bf1268a6398d4d17a64efbcc798cbec. Issue #1747 remains ACTIVE; PR #2009 open/draft/unmerged; no live-reader acceptance or standdown.
+- Task graph 18 records/16 declared, 17 reachable, one blocked M87 polarimetric readout node. WH-02 remains Calder-owned and highest-priority unblocked; WH-05 remains Tern-coordinated. No graph/PWH mutation.
+- P1 Orson remains overdue/frozen/not ready; no Orson handoff, assignment or inbox write. P2 HOLD; P3 incomplete. FIE next December 4; unrelated-reading break last November 21.
+- No physical calculation, CODATA comparison, fit, prediction, independent measurement, theory promotion, local clone/checkout, or clone-ledger row. Existing :24 task identity, enabled state, hourly schedule and Geometry phase preserved.
+- Return cursor: after P0 live-reader acceptance or explicit Code Grurple standdown, resume source-authenticated SAT-O1/Blockwave equations and define the typed local-phase/global-winding/current-support composition map with explicit topology, normalization, support and defect-regularization conditions.
+
+
+## Ravel h1037:s0 — 2026-11-23T05:00Z
+
+**Run key:** REVROT3-19-20261011:1037:s0. Selected Ravel (ring index 17); next label Orson Vay. Automation task 6aa1fe0de5e48191b886496095b1343f remains enabled with its existing hourly America/New_York schedule and Lane 00 phase. Current run ID 4c51c27b-3d80-8324-8bc6-c7ac78d7238a; chat_ref=null. No task mutation or cross-thread claim.
+
+**Source delta:** raw Syncmathcek export conversation 6a9d1a23-4fac-83ea-b76f-6805ece3ee9f; SHA-256 b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba; Git blob 17cfe3feb830f70009557d063482b35adba0834b. Active ancestry 2,044 nodes / 145 user-role messages. The September 7 correction collapses coiling and periodicity into one concept. Kerr spatial section → filament extension → candidate worldtube remains undefined as a map. Core/Pauli and shell/string correspondences are proposals only. Historical assistant S1/S2 and mode reconstructions remain unpromoted.
+
+**Thread status:** the latest exported Ravel Free Build snapshot has 15 user messages, last activity October 15, 2026; it is not an authenticated current thread. The older Syncmathcek export ends with September 16 user activity. The existing Ravel INBOX contains optional Mercer P0 context only, not an assignment. No new thread, handoff, or acknowledgment.
+
+**Formalization:** PR #1133 head 8b6b19421327164f6c966be5cab3c58e7f9c0314; exact-head CI #44920965461 succeeded (8,956 build jobs). Tests/lint/nanoda/global axiom audit skipped. No new theorem because the source-defined shell, extension, projection, exchange, and mode maps are missing. Local Lean/Lake/Elan absent.
+
+**Publication:** issue #2402 rejected with SHA mismatch. Canonical workspace report SHA-256 859149b29a8dd68457e6573b2bb19ad3bf350831329283588292d0aa4d8c0a97; the issue body carried an incorrect digest. Audit comment #7092272912 records the correction. Expected PUBLISHED_SUBMISSIONS path returned 404. No retry or duplicate.
+
+**Equation custody:** SAT-O1 original hashes/dates remain as in h1030 amendment #2374. Blockwave Clean Action remains assistant-voiced; later h1030 amendment withholds its SHA-256 because custody records conflict. Original Blockwave source not independently re-established; no equations corrected.
+
+**Controls:** Mersearch unavailable; four request lanes occupied. P0 active; P1 overdue/not ready/frozen and Orson-owned; P2 HOLD; P3 incomplete. Task graph 18 records / 16 declared branches; WH-02 Calder, WH-05 Tern blocked. FIE next review November 24 (last November 10); unrelated-reading break last November 21. No premature review/break, no CODATA, no physical calculation, no theory promotion.
+
+**Next cursor:** define the Kerr spatial section and filament extension; decide whether a candidate layer exists; define shell topology and timesheet-relative readout; then consider exchange-statistics and string-worldsheet maps. Keep coil pitch distinct from coiling=periodicity. Preserve Orson's P1 assignment; no handoff.
+
+
+## 2026-11-24 | h1063:s3 — Kerr-section sweep rank gate
+
+- Report: [h1063:s3](2026-11-24T0736Z_H1063_S3_KERR_SECTION_SWEEP_RANK_GATE.md). Publisher intake: [issue #2479](https://github.com/Satobloc/HsH/issues/2479), exact four-key envelope and workspace byte readback passed; publisher acceptance not yet independently read back.
+- Existing PR #1133 extended at head 37b83c2fab9f87baf42e89a16f931bb6faa01160 with RavelKerrSectionSweepRankGate.lean and root import. Exact-head checkout assertion passed; Lake manifest generation was still in progress. No Lean compilation or theorem-specific axiom audit is claimed.
+- New conditional gate: for a candidate differential from section-tangent × one-dimensional filament-parameter tangent to a four-dimensional ambient tangent space, a 3D section with injective differential has rank 4; a rank-3 image requires a one-dimensional kernel; a 2D section with injective differential has rank 3.
+- This extends the prior 1+3 / 1+2 product-dimension result but does not supply the actual sweep, its derivative, constant-rank conditions, quotient, embedding, metric, boundary, or timesheet/readout map. The direct source does not specify the spatial-section dimension.
+- SAT-O1 and Blockwave originals were re-fetched and source-pinned; no equations changed or corrected. No physical calculation, measured dataset, fit, prediction, CODATA comparison, theory promotion, or Factory Floor acceptance.
+- Mersearch connector/local pinned checkout unavailable; all four request lanes remained requested and untouched. GitHub search is a bounded fallback, not a Mersearch result.
+- No authenticated current Ravel thread, direct delivery, or acknowledgment. Next ring label Orson Vay; no handoff because this work is outside his protected cognition remit.
+- Existing enabled :36 Worldtube task, prompt, hourly cadence and phase remain unchanged; no sixth task or scheduler mutation.
+
+
+## h1063:s3 Amendment 01 | 2026-11-24
+
+- Exact-head Lean run #45350839920 failed on three redundant omega steps after rewrites had already closed goals; the resulting failed elaborations showed sorryAx and are not accepted.
+- Minimal repair removed only those three redundant tactics. New PR head 582264f2776f55db962b7db954a8153d7b29cb14; exact-head run #45351724450 pending. No successful compile or axiom audit is claimed.
+- Publisher issue #2479 attempt 1 failed at canonical-artifact PUT with HTTP 409; artifact path absent on readback. The same failed job was rerun as attempt 2, not a new submission. Audit comment #7125566422 records the state. No canonical artifact or PUBLISHED_VERIFIED claim yet.

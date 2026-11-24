@@ -1,6 +1,6 @@
 # KESTREL — OPEN QUESTIONS
 
-Last updated: 2026-11-12
+Last updated: 2026-11-21
 
 This is not an audit queue. It is a forward-thinking queue for the consequential case.
 
@@ -332,3 +332,144 @@ Open discriminators:
 7. Only after those maps are source-defined should the translator be connected to an actual H(s)H worldtube/timesheet/medium and an instrument's measured data.
 
 Existing PR #873 now has exact-head Lean compile success at #44090154878, but remains draft/unmerged and far behind current main. Its generic fiber-factorization and joint-readout theorems are available; the specific SO(4) stabilizer and chart transition are not formalized. No new theorem or build was made.
+
+
+## 2026-11-20 | h960:s2 | Nth-order superhelix source recovery and curvature gate
+
+The June 23 Nathan Direct source is now located in SAT Overview, conversation 6a3a279a-10cc-83ea-9abf-4fc1dab9fb55, raw blob 023ff77688672546aeff02deb3745289f6709c90, message 28895d46-780e-46d9-a4cd-646f92fad193. It says one nested 4D helical worldline/worldtube structure and leaves scale placement unresolved. The follow-up explicitly says the formulation is already in the archive root.
+
+The matching Nth-order harmonic generator is in archive-root SAT.4DHH.UC.pdf and _AUTO_EXTRACTED_TEXT/SAT.4DHH.UC.txt (PDF SHA-256 9b28c5776516af59dd661485ac519983c9b77b56c435a4ec15436d24f8bf028f; extraction blob c3c63e983663a1648aa78ce9f591c28e7997f055). The extraction's first page labels the prompt LLM DROP and records Ravel/ChatGPT as extraction requester. A November 8 four-message export repeats the same action in a USER-role message, but its pre-message context is absent. Preserve USER-ROLE-TRANSMISSION / EMBEDDED-EQUATION-AUTHORSHIP-UNRESOLVED; do not promote it to Nathan-authored derivation. The June 2025 SAT4D Canonical Summary remains the cleaner earlier baseline, with a simpler three-axis hyperhelix.
+
+The exact generator is:
+gamma^mu(lambda) = (lambda, l_f * sum_{i=1..n} sin(2*pi*n_i*lambda/l_f + phi_i) e_hat_i).
+
+If all e_hat_i are pairwise orthonormal in 3D, then n <= 3. The source must distinguish harmonic count from independent direction count, or state the bound.
+
+The one-structure interpretation requires typed projections/compositions, not separate-object analogy. A proposed contract is X_n, pi_n: X_(n+1) -> X_n, and P_(n<-m) = pi_n o ... o pi_(m-1). A readout descends to a coarser level only if it is constant on the relevant projection fibers. Existing Kestrel PR #873 has exact-head CI success at #44090154878 for the generic factorization criterion, but remains draft/unmerged and is not integrated into main. It does not instantiate the physical maps.
+
+A new conditional curvature-symmetry formalization is in draft PR #2143. The literal product a_i*a_j*v_k*v_l and its finite weighted-ensemble version are symmetric in the first index pair. If required to be a nonzero Riemann tensor with first-pair antisymmetry and no omitted antisymmetrization, the assumptions conflict. PR #2143 is LEAN_UNTESTED: no exact-head workflow run, no local Lean/Lake/Elan. No compile, actual evaluation, or Factory Floor handoff is claimed. This is conditional algebra, not a judgment on the complete action.
+
+Non-duplication: the positive-semidefinite co-metric limitation is already covered by Morrow/Enheduanna; dimensional consistency by Mercer/Meridian; curve-to-worldtube and field-extension gaps by Mira/Morrow. Kestrel does not repeat those audits. See the h960 report at 2026-11-20T0024Z_H960_S2_NTH_ORDER_SUPERHELIX_SOURCE_AND_CURVATURE_GATE.md and PR #2143.
+
+Next discriminator: recover the source context/authorial status of the Nth-order action, then define the worldline/worldtube/field/observable maps before any physical comparison. P2 remains HOLD. No system selected, raw data acquired, physical calculation, fit, prediction, independent measurement, or theory promotion.
+
+
+### h960 additive verification update | 2026-11-20T00:52Z
+
+PR #2143 now includes a second conditional source-to-source theorem. The June 2025 three-axis hyperhelix equals the later n=3 coordinate-axis specialization only when A_x=A_y=A_z=l_f and k_i=2*pi*n_i/l_f with phases matched. This is a restricted parameter map, not proof that the later formula generalizes the earlier one in every degree of freedom. The Nth-order expression is a harmonic sum, not an explicit recursive nesting law or scale-composition map.
+
+Lean status is now more precise:
+
+- Initial head 8ee0d01ee27274ef94b2fffe704d73b60957bc62 passed exact-head CI run #44648094755 / job #135995753257. The module compiled. The first #eval used Real and printed an opaque Real.ofCauchy representation; theorem-specific axiom reports listed propext, Classical.choice, and Quot.sound.
+- Intermediate head 41cde6e8fc4b17c88e6e739ab2043a16021f59e2 was cancelled before checkout when a newer commit arrived.
+- Current head 9ac2074d9e60c85cd7fcbd8eafbf19c2159ce8d2 includes a Rational witness for readable execution and the n=3 special-case theorem. Exact-head run #44649028244 was IN_PROGRESS at last check, after successful checkout and exact-head assertion; Lake dependency manifest generation was still running. No current-head compile or evaluation claim yet.
+- No local Lean/Lake/Elan. No Factory Floor handoff until current-head CI and independent review.
+
+The report was expanded to include the exact sector equations and the parameter-map conditions. P2 remains HOLD; no physical data or prediction.
+
+
+## 14. Verifier feedback closure and status preservation
+
+For the pinned ConsistencyBench CGD source, can a checker/repair loop validate the revised state when its checker projection is unchanged by the repair update? The current source stores the revised final answer but carries the original raw response into later checker calls; it also maps a failed checker call to the same Boolean branch as no contradiction and uses substring rather than exact-token parsing. Existing OrsonCGDProjectionGate formalizes a source-derived abstraction, but the current PR build is merge-reference only. Missing evidence: exact per-call prompts/outputs, provider status/request IDs, trigger-pair records, and independent adjudication. No measured performance effect is established. See [Kestrel h971:s4 report](2026-11-20T1148Z_H971_S4_REVIEW_MIND_CGD_FEEDBACK_OBSERVABILITY.md).
+
+
+## 15. 2026-11-20 h979 | Generator-to-readout composition and cross-worker map reuse
+
+The h960 June 23 Nathan Direct source describes one nested 4D helical worldline/worldtube with scale placement unresolved. The archive-root Nth-order generator is mixed-origin/LLM DROP; the November 8 user-role repeat does not establish original authorship of the embedded equations. PR #2143 remains draft and its current-head run #44649028244 failed parsing at lambda identifiers and an unknown n=3 theorem constant.
+
+The h979 downstream comparison identifies a measured macroscopic vortex-core readout chain: physical core geometry -> illuminated/projected contours -> two-channel displacement/radius -> spectra. Kestrel PR #873 and Nadir PR #1189 define the same two-contour map under different names. Sable PR #1538 composes covariance propagation with Nadir's map; Mira PR #929 already contains Tang 2023 projection/provenance gates. No cross-module equality theorem or shared canonical import connecting Kestrel and Nadir was found in the inspected modules.
+
+Open map obligations:
+- recover a source-faithful generator-to-finite-core/worldtube map;
+- define the relationship between worldtube, timesheet/wavefront, and instrument projection without identifying the instrument sheet with the theory timesheet;
+- define the readout projection and its fibers/identifiability conditions;
+- coordinate a common typed two-contour map/equality theorem with the existing Kestrel/Nadir/Sable owners rather than create a third map;
+- retrieve and hash the Barckicke Figshare files and Tang source workbook before any numerical analysis; inspect actual variables, units, calibration, covariance and uncertainty first.
+
+The fluid experiments are candidate analogues for measurement architecture only. No physical equivalence, P2 selection, numerical comparison, fit, prediction, independent measurement, or BEDROCK promotion is established. All h979 map labels are local bookkeeping, not registered H(s)H symbols.
+
+## H987:s0 — 45° stretched-helix / theta4 separation
+
+Primary direct source: June 23 SAT Overview message cd7c40e3-cdad-4551-be1d-7c14a8b1a1ad (2026-06-23T14:00:23.460Z). It describes a near-45° stretched helix, tightening residual twists, periodic knots, and a vacuum-energy interpretation. It does not define the metric, coordinate chart, equal-axis scaling, observer/frame, angle referent, or a map to current normal-relative theta4. Retain as a historical geometric hypothesis. The July 11 source's worldline-with-thickness language and explicit superhelical-vs-braid distinction are separate controls. Next: recover the direct source behind current BR-005 and determine whether it explicitly adopts, revises, or merely uses a different angle convention. Do not assume 45° = theta4 or a null direction. See [H987 crosswalk](2026-11-21T0300Z_H987_S0_4DHH_WORLDLINE_WORLDTUBE_ANGLE_CROSSWALK.md).
+
+
+## 16. H990:s4 — normal-bundle fiber form versus worldline Poincare-dual current
+
+**Question:** Under what explicit conditions can the Morrow–Kestrel QUARRY 098 normal-bundle 3-flux be treated as a smooth representative of the distributional Poincare-dual current of a 1D centerline?
+
+Keep separate:
+- \(J^{\mathrm{fiber}}_3\): smooth vertical 3-form on the oriented rank-three normal bundle;
+- \(\mathrm{PD}(C)\): distributional 3-current on \(M^4\), supported on the 1D curve;
+- \(W_\epsilon\): the 4D finite-core tubular neighborhood;
+- \(J_2\): a separate rank-two/worldsheet candidate, not the Hodge dual of \(J_3\).
+
+Candidate map only: choose an oriented embedded \(C^1\subset M^4\), tubular embedding \(\Phi_\epsilon:N_\epsilon C\to M\), and a closed compactly fiber-supported Thom form \(\tau_\epsilon\in\Omega_c^3(NC)\) with \(\pi_!\tau_\epsilon=1\). Push forward through \(\Phi_\epsilon\), then establish weak convergence to \(\mathrm{PD}(C)\) by testing against compactly supported 1-forms. Conditions still required: orientation, metric/connection, compact support, normalization, closedness, endpoint/junction balance, and a separate timesheet/detector readout map.
+
+This does not follow from \(J=*T^\flat\) alone. The existing QUARRY 098 cube-law remains a conditional sandbox proposal, not a measured law or physical prediction.
+
+**Formalization boundary:** Sable PR #1098's support-degree module covers degree arithmetic and source-role separation, not Thom forms, distributional currents, fiber pushforward, weak convergence, or current conservation. Its module built in a merge-reference run; the overall build failed elsewhere and exact-head success is unverified. No new Lean proof or module exists.
+
+**Source custody:** direct user editorial direction toward a 3-form is distinct from assistant-authored equations; later assistant derivatives are not independent confirmation. Original SAT-O1 and Blockwave equations remain verbatim and unchanged. Use source SHA-256 values from Amendment 01, not the invalid values in original report §6.
+
+See [h990:s4 report](./2026-11-21T0648Z_H990_S4_NORMAL_BUNDLE_THOM_FORM_TO_WORLDLINE_CURRENT_BRIDGE.md), [Amendment 01](./2026-11-21T0706Z_H990_S4_AMENDMENT_01_SOURCE_HASH_CORRECTION.md), [Amendment 02](./2026-11-21T0710Z_H990_S4_AMENDMENT_02_PUBLICATION_STATUS_CORRECTION.md), and [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T0648Z_s4_kestrel_AMENDMENT_01_PUBLISHER_VERIFICATION.md). All three publisher artifacts are PUBLISHED_VERIFIED.
+
+
+## 2026-11-21 h994:s3 update: ground-state persistence and system separation
+
+1. What source-defined, detector-level observable could establish an intrinsic oscillation that remains in the electron ground state, independently of excitation resonances and without using Compton/ZB as a size assignment?
+2. What parameterization maps the SAT-O1 affine parameter to proper time or a calibrated detector clock?
+3. What finite-core extension maps the 4D centerline to the source-committed worldtube thickness and profile?
+4. Which matched minimal pair differs in one controlled charge/flavor factor while sharing the same frozen geometry/readout parameters and an untouched holdout?
+5. Where, if anywhere, does the epsilon-B formula for the Blockwave rank-two current originate? It is absent from the inspected Blockwave attachment, separate Blockwave ideal-model file and 2025-10-19 assistant synthesis. Do not attribute it to those sources until located.
+
+Keep electron ground-state dynamics, helion static charge structure and superfluid 3He-B medium response as distinct systems. The helion radius is a static charge-density second moment; superfluid 3He-B order-parameter angle vartheta is not H(s)H theta4. No minimal pair selected, no new physical prediction, P2 remains HOLD.
+
+
+## 2026-11-21 h994:s3 operational correction
+
+Publisher issue #2272 was rejected for SHA-256 mismatch. The issue body content exactly matches the workspace report, but the submitted digest is invalid and no correct SHA-256 was verified in this run. Do not edit, retry or duplicate issue #2272. Any future publisher attempt must use an independently verified SHA-256 implementation and a new authorized decision, not a silent replay of this submission.
+
+
+## 2026-11-23 h1044:s0 | Direct Crullerverse source narrows, does not close, the geometry question
+
+A raw user-role message from the November 8 ND Workshop Relay :24 | Geometry export (message c0520975-02a0-408f-a250-364b88ab7b30) specifies a tentative four-spatial-dimensional Crullerverse: w is spatial, time proper is distinct, worldtubes are proposed roughly parallel to toroidal circumference C, and the timesheet may be a separate cross-sectional structure, an intersection with a Kerr-ER mouth, or an emergent temporon wavefront on a continuous worldtube. These alternatives remain separate.
+
+This source sharpens the existing Klein-Fabric question but does not define the global topology or local-to-global maps. It also requires keeping the September 21 “apply Minkowski, discard labels” instruction as a comparison method rather than silently treating the 2025 R^(3,1) formalization as the Crullerverse ontology.
+
+New crosswalk: [H1044:s0 Crullerverse and SAT4D type-fidelity report](2026-11-23T1200Z_H1044_S0_CRULLERVERSE_W_TIME_PROPER_SAT4D_TYPE_FIDELITY.md). Existing Lean PR #873 supplies conditional metric and intersection results; no source-faithful thickening, coordinate, mouth/timesheet, or 3D-to-4D lift map is yet available.
+
+Next: define M4_sp, proper-time parameterization, C, Sigma_tau, gamma^1 -> T^4, boundary, and the chosen or still-open mouth relation. Recover the line-information Reddit post and worldtube/wormhole podcast source only when a Mersearch lane becomes available.
+
+
+## 4. Compact spatial return versus proper-time parameterization (h1051:s3)
+
+The direct Crullerverse source treats the toroidal C/w direction as spatial while keeping proper time distinct and describing progression along it. If C is closed, w is periodic. A strictly advancing proper time cannot be a single-valued real scalar on that compact coordinate.
+
+- Candidate representation: keep w periodic and parameterize progression on an unwrapped cover; this is a mathematical option, not a source-defined physical map.
+- Keep the timesheet family Sigma_tau distinct from the observable 3D bulk-ball cross-section U_tau^3 until an explicit identification/projection is supplied.
+- Preserve the three mouth/timesheet alternatives: gluing/opening, intersection, and temporon/coordinated-excitation wavefront.
+- Still unresolved: the source-authorized embedding of C in M4sp; the longitudinal map for T_i^4; whether tau indexes a family or is generated by a phase field; the mouth's support/dimension; and the observation map to a measured system.
+- Next useful operation: obtain a source-authorized map chain and only then decide which intersection/phase predictions can be calibrated against a real dataset. Do not infer a fifth physical dimension or select a mouth branch by analogy.
+
+
+## h1055:s2 | Lamp source, medium transfer, and local registration
+
+**Source:** November 8 direct ND Workshop Relay :24 | Geometry message c0520975-02a0-408f-a250-364b88ab7b30 and its attached 50-entry NotebookLM transcript. The direct source keeps w, time proper, and the timesheet distinct and preserves three mouth/timesheet alternatives. NotebookLM entry 49 contains the lamp thought experiment; entry 50 is a generated "Thoughts" block whose author is not separately encoded by the export.
+
+**Question:** What source, emission, medium-response/transfer, temporal-ordering, and local-registration maps are required for any of the three geometry alternatives to operate as a generative model? A single finite global pulse, a persistent through-flow, and locally driven/re-excited disturbances are distinct candidate dynamics. The NotebookLM-generated partial-entrainment/incompressible-flow explanation is not adopted.
+
+**Cross-boundary connection:** reuse Ravel's existing geometry -> metric/connection -> dynamics/matter/emission -> radiative transfer -> sky intensity -> sampled visibility -> readout chain. The source-specific geometry-to-metric, source-to-emission, and radiative-transfer maps remain unformalized. Do not identify the theory timesheet with an instrument sampling surface. The local-now question requires a physical registration/causal-order rule; it is not a claim about consciousness and does not enter Orson's cognition lane.
+
+**Status:** source-grounded proposal / NOT FORMALIZED / NO PHYSICAL DATA / NO CALCULATION. Lane 24 remains P0-HOLD / CYCLE 08/08 COMPLETE / BACKSEAT. No new Lean build, CODATA comparison, measured-system selection, fit, prediction, or theory promotion.
+
+**Next:** recover source-defined emission and medium-response maps, then specify local registration/readout. Keep gluing, intersection, and temporon-wavefront alternatives separate until explicit projection and composition maps are available.
+
+
+## GW170817 data-product calibration-lineage gate - 2026-11-24
+
+The GW170817 waveform candidate remains unselected and P2 remains HOLD. Public issue comment #7134632192 reports a P1700337-v1 abstract-versus-product-notes conflict, identifies P1700349-v1 as a distinct C00 noise-subtracted product, and warns that C00 strain should not be combined with C02-era uncertainty, PSD, posterior, or glitch-subtraction packages without a version-matched crosswalk. GitHub attributes the comment to Satobloc; its “Morrow h1070:s2” heading is routing text, not proof of a Morrow instance or thread. This entry records the comment as a public source-custody note; the DCC documents were not independently re-opened here.
+
+Before any GW170817 analysis, freeze a coherent product bundle: exact strain release and checksum; online/offline calibration version; matching calibration-uncertainty product; PSD; posterior/prior package; glitch-subtraction version; science segments and data-quality masks; sample rate; units; and detector/readout identity. In particular, do not combine P1700349 C00 strain with C02-era P1900040 calibration envelopes, P1900011 PSDs, P1800370 posterior samples, or T1700406 glitch material without an explicit version-matched crosswalk. Preserve the P1700337 abstract conflict rather than silently harmonizing it with the product-specific notes and GWOSC classification.
+
+This is a data-admissibility and provenance gate, not an H(s)H prediction or independent measurement. No strain, PSD, calibration, or posterior data were loaded; no checksum was recomputed; no fit or reanalysis occurred. Reuse the existing evidence-gated admission architecture rather than creating another data-ingestion tool. See [h1070:s3 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1436Z_s3_kestrel_AMENDMENT_01_FIE_REVIEW_AND_SUPPORT_TYPE_GATE.md) and [public issue #2503](https://github.com/Satobloc/HsH/issues/2503).
+

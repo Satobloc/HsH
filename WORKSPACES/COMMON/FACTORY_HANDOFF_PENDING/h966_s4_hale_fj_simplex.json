@@ -1,0 +1,82 @@
+{
+  "schema": "hsh-factory-handoff-v1",
+  "item_id": "NOT_ALLOCATED",
+  "origin_run": "REVROT3-19-20261011:966:s4",
+  "origin_worker_label": "Hale",
+  "status": "LEAN_VERIFIED / FACTORY_INTAKE_PENDING / GEOMETRY_GATE_BLOCKED",
+  "factory_repository": "Satobloc/FACTORY_FLOOR",
+  "required_route": "1 GLASS+HSH -> 2 WORKSHOP",
+  "eligibility": {
+    "geometry_first_gate": "BLOCKED",
+    "reason": "No precise object-specific geometric plot or independent hostile fidelity review was supplied for this mathematical network opinion-dynamics model.",
+    "submitted_to_factory": false,
+    "independent_hostile_review": false
+  },
+  "source": {
+    "repository": "Satobloc/HsH",
+    "path": "FORMAL_VERIFICATION/HsHVerification/FriedkinJohnsenSimplex.lean",
+    "blob_sha": "214fedd3932262986c5d10f523ca500c0b840b58",
+    "commit": "507791058e5e513a78044e5c54746c518d8197f5",
+    "branch": "research/hale-fj-simplex-invariance-20261120t0648z",
+    "pull_request": 2168,
+    "base_pull_request": 262,
+    "historical_source": {
+      "title": "Don't Trust Stubborn Neighbors: A Security Framework for Agentic Networks",
+      "authors": "Samira Abedini et al.",
+      "arxiv": "2603.15809v1",
+      "date": "2026-03-16",
+      "locator": "Equation (1), pages 5-6"
+    }
+  },
+  "theorems": [
+    "peerMean_preserves_simplex",
+    "fjUpdate_mem_Icc",
+    "fjUpdate_preserves_simplex",
+    "fjNetworkStep_preserves_simplex"
+  ],
+  "toolchain": {
+    "lean": "4.34.0",
+    "lake": "5.0.0",
+    "mathlib": "4.34.0",
+    "build_jobs": 8948
+  },
+  "verification": {
+    "actions_run": 44692057915,
+    "actions_job": 136139940030,
+    "conclusion": "SUCCESS",
+    "exact_head": "507791058e5e513a78044e5c54746c518d8197f5",
+    "theorem_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "sorryAx": false,
+    "admit": false,
+    "custom_axiom_declaration": false,
+    "skipped_checks": [
+      "tests",
+      "lint",
+      "leanchecker",
+      "nanoda",
+      "global_axiom_audit"
+    ]
+  },
+  "assumptions": [
+    "gamma and alpha in [0,1]",
+    "each influence weight is nonnegative",
+    "each influence row sums to one",
+    "prior, current and neighbor belief vectors are finite probability vectors"
+  ],
+  "limitations": [
+    "one-step simplex invariance only",
+    "no convergence or stability theorem",
+    "no empirical fit or causal-persuasion result",
+    "no human-cognition or consciousness claim",
+    "no H(s)H/SAT physical equivalence",
+    "Lean verifies only the formalized statement, not the soundness of the source translation"
+  ],
+  "epistemic_status": "EXTERNAL_SOURCE / ASSISTANT_RECONSTRUCTION / LEAN_VERIFIED / EMPIRICALLY_UNVALIDATED",
+  "physical_measurement": "NONE",
+  "visibility": "Public-safe HsH research branch and PR; not admitted to Factory Floor",
+  "next_gate": "Supply a precise object-specific geometric plot and independent hostile fidelity review before any Factory Floor admission attempt."
+}

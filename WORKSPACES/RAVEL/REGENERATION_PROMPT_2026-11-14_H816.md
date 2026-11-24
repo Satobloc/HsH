@@ -65,3 +65,55 @@ Math Hopper PR #991 remains open/draft with one successful PR-associated run. Wh
 Read current `README.md`, `STATE.md`, `CONTINUITY.md`, `INBOX.md`, this prompt, the latest report and receipt before further work. The h816:s2 Mercer optional handoff was read. The h816:s4 Orson run started before Ravel's outgoing packet was created; any Ravel-to-Orson packet is POST_START_OPTIONAL_CONTEXT_ONLY. Orson's P1 cognition remit remains protected; no task, review, deadline, response obligation or ownership transfer is created.
 
 Use the existing repositories as the continuity substrate. No new ChatGPT conversation has been created, and no direct thread delivery or acknowledgment is claimed.
+
+
+## h968:s3 source-grounded revival checkpoint - 2026-11-20
+
+Use the current HsH repository state as the continuity substrate. The old Ravel Syncmathcek conversation is exhausted; the later Ravel Free Build export is not an authenticated successor. Prior-conversation search found no newer usable authenticated Ravel thread. This is a source-grounded revival under the deterministic ring label, not a claim of historical instance continuity. No new chat was created.
+
+Historical role remains the source-backed primary co-theorist remit: conceptual cohesion, drift detection, epistemic hygiene, method-risk review, source/tool workshops and cross-formalism coordination. No standalone signed specialist charter was recovered.
+
+Latest result: publisher issue #2176, canonical artifact WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-h968-s3-kerr-worldtube-rotation-typing-20261120t0836z-001.md, PUBLISHED_VERIFIED, SHA-256 98919a6d467e3887de16761ece4aacdb5f793cb5dc0d2d5183b101f1ccbcebce.
+
+Preserve the source-critical distinctions:
+- The direct Ravel instruction selects a spatial Kerr section, not the full 4D Kerr spacetime, and calls for extension along the filament. The extension map is undefined; do not assume a Cartesian product.
+- Filament and timesheet mutually accommodate one another; force is a primitive in the direct source. Do not replace this with a one-way wave-on-object model or invent a force law.
+- The one helical core, hollow larger coil, first-order coil diameter, finite-core support, timesheet active-update thickness and worldtube axis-to-circumference dimension are distinct.
+- SAT:epsilon and SAT:ell_f remain unresolved; do not silently assign either to worldtube thickness or axis-to-circumference dimension.
+- Euclidean R4 kinematic rotation, standard Kerr spin and internal material-frame twist are different objects. The block-diagonal matrix in PR #1133 is an assistant-defined representative of BEDROCK's recorded skew-generator constraints, not a unique Nathan equation.
+- Shell/contact structure remains tentative until a surface, matching condition, stress/flux and constitutive law are defined.
+- Standard Kerr multipoles plus worldline EFT are the comparator. GW241011 is an existing benchmark, not a blind holdout. No H(s)H map to an independent multipole/response residual exists yet.
+
+PR #1133 current head at this checkpoint: 98dbe0ddfbff78ee447998c21316f8009caaa803. Exact-head Lean run #44706791685 was IN_PROGRESS at last readback; no successful compile is claimed. The PR remains open/draft/unmerged. No rebase, merge or base-branch change.
+
+Next ring label is Orson Vay. Protect the P1 LLM cognition remit and approximately four-of-five substantive cognition-work allocation. The optional packet is repository-only and timing-unverified; it creates no geometry assignment, review request, response obligation or ownership transfer.
+
+Before further work, read live BEDROCK, Steering Charter, Three Paper Campaign, onboarding, revival rotation, current main branch, current receipts, Ravel README/STATE/CONTINUITY/INBOX and the historical source exports. Mersearch-first originals; if all request lanes are occupied, do not overwrite or retrigger. Check existing Math Hopper/Lean/Whirligig/SciSpace before tooling. No new physical calculations or data-free fixtures without specific permission. No SAT-O/Blockwave equation change, P2 selection, paper-gate advancement or BEDROCK promotion without review. No task/ID/schedule/cadence change, no sixth task, no signet or conversation rename.
+
+
+## Amendment 01 | 2026-11-20 | exact-head Lean and WH-02 readback
+
+- Receipt amendment: [Ravel h968:s3 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0836Z_s3_ravel_AMENDMENT_01_LEAN_AND_PWH_STATUS.md).
+- PR #1133 current head: 76429e9170104a1a86ae84a2b0ee298789fe7fdd. Exact-head Lean run #44707552370 is IN_PROGRESS at last readback. Earlier exact-head failures and their specific findings are recorded in the amendment. No successful current-head compile is claimed.
+- PR #1133 remains OPEN / DRAFT / UNMERGED. GitHub reported mergeable=true at last readback. No rebase, merge or base change.
+- WH-02 issue #1702 received additive status comment #7035180560. Calder-owned PR #1710 is 7 ahead / 7,192 behind current main c4e9b648857f40ce53bfe28b541b4219dfe748c2, mergeable=false. This is not a rebase or CI result; Calder retains ownership and Tern retains queue coordination.
+- No new physical calculation, raw data, P2 selection, paper-gate advancement or BEDROCK promotion.
+
+
+## Amendment 02 | source attribution and execution binding | 2026-11-20
+
+- Read canonical receipt Amendment 02: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0918Z_s3_ravel_AMENDMENT_02_SOURCE_ATTRIBUTION_AND_EXECUTION_BINDING.md.
+- Public source correction issue #2178 is PUBLISHED_VERIFIED; parent issue #2176 points to it. Treat b27ec702 as a Mercer-origin user-role cross-post, not independent Meridian first-origin evidence. Upstream Mercer source node and embedded author boundary remain unresolved.
+- PR #1133 remains OPEN/DRAFT/UNMERGED. Proof-only repair head fc7f92722fe5e0757d55f961b54a12bdee66d5da; exact-head run #44709605971 was IN_PROGRESS at 09:18:32Z. Do not claim compile success; wait for exact-head result. No theorem statement or physical premise changed.
+- Orson h968:s4 :48 run completed genuine LLM-cognition source-audit work. The Ravel optional packet was POSTSTART_OPTIONAL_CONTEXT_ONLY; no assignment, consumption, or acknowledgment claim.
+- Current :36 run ID 8fa68115-f154-832e-b832-96571e8e5667 was IN_PROGRESS with null chat_ref at last peek; cached result is prior h967 Tern. Keep report publication separate from producer-run attribution. No duplicate report or issue.
+- Preserve exact :36 task ID, hourly schedule, prompt and phase; no sixth task. No Orson geometry assignment.
+
+
+## Amendment 03 | exact-head Lean pass | 2026-11-20
+
+- Read receipt Amendment 03: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-20T0922Z_s3_ravel_AMENDMENT_03_EXACT_HEAD_LEAN_PASS.md.
+- Existing PR #1133 exact head fc7f92722fe5e0757d55f961b54a12bdee66d5da, run #44709605971 SUCCESS; full Lake build 8,954 jobs. RavelSkewRotationKinematics built at 8,947/8,954.
+- Tests, lint, nanoda and global axiom audit were skipped. No theorem-specific axiom audit, mainline integration, or physical-translation validation. PR remains OPEN/DRAFT/UNMERGED.
+- The matrix is an assistant-defined representative of recorded skew-generator constraints, not a unique Nathan equation. No physical calculation or prediction.
+- Keep the source-attribution correction issue #2178 and artifact-producer binding distinction from Amendment 02.

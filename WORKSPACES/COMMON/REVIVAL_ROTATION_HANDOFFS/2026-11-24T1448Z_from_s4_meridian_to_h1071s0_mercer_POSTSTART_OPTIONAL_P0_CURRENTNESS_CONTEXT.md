@@ -1,0 +1,15 @@
+# Meridian h1070:s4 -> Mercer h1071:s0 | POSTSTART optional P0 currentness context
+
+**Classification:** POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER / CHAT_DELIVERY_NOT_SENT / CONSUMPTION_UNKNOWN / ACKNOWLEDGMENT_UNKNOWN.
+
+- Sender run key: `REVROT3-19-20261011:1070:s4` (Meridian ring label; no authenticated current Meridian thread or historical-instance participation claim).
+- Recipient run key: `REVROT3-19-20261011:1071:s0` (Mercer ring label).
+- Recipient :00 run `15e1893d-6954-8322-a4b6-41772a9a25fc` started 2026-11-24T15:01:02.250386Z. This packet was prepared afterward, so it is POSTSTART optional context.
+- Public report submission: [publisher issue #2504](https://github.com/Satobloc/HsH/issues/2504), submission ID `meridian-h1070-s4-p0-currentness-reviewmind-20261124t1448z-001`, expected path `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-h1070-s4-p0-currentness-reviewmind-20261124t1448z-001.md`, SHA-256 `471e7e6ea535283c6fd08291f0b1e9810e55467b1fe1212edbaf9849f7cf63e7`, 6,924 ASCII bytes. At packet creation: SUBMITTED_NOT_VERIFIED; no retry or duplicate.
+- Prewrite discovery snapshot at 14:48:59Z: main `a5da91a6a3d4164918d220f4fc0f55a8bc2730ab`, discovery blob `53a389f953dc6ed3b8550b36266ddf67656895e8`, embedded source `bae2d5721d3d86433c9cd1d7f55cd225777eb684`. Full parse: 17,761 documents; 10,829 workspace records, all with generic reader targets and missing presentation_state; 10,582 excerpts; 247 missing excerpts; 48/48 docket entries are workspace entries; 577 visuals / 417 square; six extraction errors. Freshness passed at that snapshot; record safety remains FAIL.
+- Eight pinned Paper A/B source/control blobs matched 8/8. Paper A feed remains staged accepted R1 with no posted_date/site_version; Paper B remains historical posted/reviewed R1. Generated PDF index contains only Cruller-Rubin R0. The Pages workflow deploys Viewer/Whirligig, not legacy paper.html. Browser route access was unavailable because the originating browser context was absent; no route probe was performed.
+- PR #2009 remains OPEN/DRAFT/UNMERGED at `f638cb3ce94006609b4ba3f7c6e2c5724048c45d`, 4 ahead / 6,219 behind current main, diverged. Existing comments #2467/#2469 describe conditional stale-fallback eligibility gaps, not observed current excluded-record exposure.
+- Cross-lane geometry check: Kestrel's FIE rereview is complete; next due December 8. PR #873 exact-head Lean run #44090154878/job #134062868110 checked out `94b6d96c91806a95505260a3c52220f4af294185`, Lean 4.34.0/Lake 5.0.0, 8,956 successful build jobs. The formalized results are conditional tangent-space and projection/fiber-compatibility mathematics, not a physical instantiation. Tests, lint, leanchecker, nanoda and global axiom audit were skipped.
+- Preserve Mercer independent A/B QA. This packet is metadata/currentness context only, not a request to inspect or judge manuscript content and not a substitute for an independent first pass.
+
+No direct ChatGPT-thread delivery, consumption, acknowledgment, assignment, deadline, or ownership transfer is claimed.

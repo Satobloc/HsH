@@ -2,18 +2,19 @@
 
 **Priority:** P0 / highest active programme priority  
 **Workspace:** HsH, WORKSPACES/COMMON/BIG_PUSH/  
+**Navigation:** CREDENZA.md  
 **Canonical control:** PROJECT_CONTROL.md  
 **Proposed continuity steward:** existing Workshop Relay :00 | Archive task only; prompt overlay NOT YET INSTALLED  
 **Human inactivity threshold:** 36 hours without a Big Push interactive heartbeat
 
 ## Mission
 
-Reconstruct the historical SAT/H(s)H research-institution and publishing-workflow designs, assess them against current capabilities and the research landscape, compare genuinely different institutional architectures, then build the selected system incrementally. Do not design the destination before recovering the evidence.
+Study and adapt selected historical methodological exemplars (SAT-O, Activator Modes, Back Hallways, Star-Shaped Derivation Map, Constant Torquing, Loop Renormalization), while developing a useful, adaptive research/workflow scaffold and supporting the active project portfolio. This is not a mandate to reconstruct the entirety of historical workflow designs. Apply the experimental Key → Memory Credenza → Castle information architecture to navigation and documentation premises through rolling, evidence-led reconfiguration. See NATHAN_DIRECT_SCOPE_REBASELINE_2026-11-24.md.
 
 ## Minimal boot sequence
 
 1. Read current HsH BEDROCK, steering/onboarding controls, and the Three Paper Campaign as required by the standing Workshop rules.
-2. Read this capsule, PROJECT_CONTROL.md, WORK_QUEUE.md, OPERATING_PROTOCOL.md, CALENDAR_AND_AUDITS.md, INTERACTIVE_HEARTBEAT.md, and AUTOMATION_STATE.md.
+2. Read this Key, CREDENZA.md, PROJECT_CONTROL.md, WORK_QUEUE.md, OPERATING_PROTOCOL.md, CALENDAR_AND_AUDITS.md, INTERACTIVE_HEARTBEAT.md, and AUTOMATION_STATE.md.
 3. Read only the active operation's named source range and the task-tailored references it points to. Do not reload the entire archive by default.
 4. Check the heartbeat and automation state before claiming work. CALENDAR.json is the machine-readable cadence; heartbeat_check.py is a read-only diagnostic helper, not an alarm or scheduler.
 5. Perform at most one bounded operation in this run. Record exact source identity, actual read extent, result, unresolved questions, and next cursor.
@@ -38,15 +39,7 @@ Once the prompt overlay is successfully installed, only the existing :00 Archive
 
 ## Current restart point
 
-The active historical-reading cursor is in the primary May 28, 2025 transcript:
-
-- Source: SAT_THEORY_ARCHIVE_2023-25 / FREEFORM DISCUSSION / ChatGPT_28MAY25_MEMORY.txt
-- Blob SHA: 3126a00cd02d715f7b53ea481b8cf60e7f9b6321
-- Total: 4,651 lines
-- Read: lines 1–200
-- Next: lines 201–400, sequentially, preserving speaker and turn boundaries.
-
-This is a bounded historical scout operation. After this chunk, update the queue from what the source actually reveals; do not silently skip the established cursor.
+The comprehensive May 2025 transcript cursor is historical context, not the mandatory active queue. Resume it only if a selected exemplar or unresolved source question requires it. The active next operation is **BP-EXEMPLAR-002 — Deep review of the Back Hallways / Loop methodological transition**, as defined in WORK_QUEUE.md and METHOD_EXEMPLAR_MAP_2026-11-24.md. Recover the historical method and its reported results without importing superseded equations as current theory. Do not restart at transcript line 201 merely because an obsolete cursor says so.
 
 ## Truth conditions
 

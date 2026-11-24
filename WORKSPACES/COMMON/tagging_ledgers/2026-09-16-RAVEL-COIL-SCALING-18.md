@@ -61,3 +61,42 @@ The same Ravel raw conversation is surfaced in at least three Library representa
 - **Best next action:** search later raw Nathan nodes in the same Ravel conversation for explicit `coil scaling`, `width`, `periodicity`, `triangulation`, lepton-generation, or core-vs-coil language before broadening to another region.
 
 No conversation/thread/chat title was changed or proposed for change. No Nathan action required.
+
+
+## Addendum 2026-11-23 — 4D-oscillation / helix source tags and locator correction
+
+### Source locator correction
+
+The Ravel h1037 source-fidelity report lists `af313567-5a3d-4b7b-8a83-25b3d2b4a34f`. That identifier does not occur in the recovered raw export. The matching direct user-role message is `af313567-c917-4188-86b0-caea0f3398e2` at `2026-09-06T08:21:54.475Z`; it is already represented in `WORKSPACES/COMMON/verified_batches/2026-09-13-RAVEL-SPRING-WORLDTUBE-01.md`, so it is not retagged here.
+
+The exact raw source blob is `17cfe3feb830f70009557d063482b35adba0834b`, in historical HsH commit `8c5bd8f32830081554716bf8612e882a6b050931`, at duplicate paths under `SAT_CONVOS_18` and `SAT_CONVOS_21`. The older `SAT_CONVOS_13/...raw.json` path in this ledger header resolves on current main to a different blob (`c493...`) and must not be substituted. The raw-export SHA-256 `b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba` is the value recorded in Ravel's h1037 report; it was not independently recomputed in this addendum.
+
+### Newly tagged direct user-role nodes
+
+#### `8a1fa455-6d8a-4f33-aa41-92294b373d8d` — spring as representation, not substrate
+
+Timestamp: `2026-09-06T08:27:04.802Z`.
+
+Short source phrase: `nothing is built on the spring`.
+
+Tags: `SPRING-AS-4D-OSCILLATION-REPRESENTATION`, `NO-SPRING-SUBSTRATE`, `OSCILLATION-TO-HELIX`, `CONSTRUCTION-SUBSTRATE-DISTINCTION`, `RAW-USER-VERIFIED`.
+
+Status: direct representational clarification. It does not specify a material spring, a physical filament, or a measured oscillation.
+
+#### `465c2c08-c371-43ca-bd9a-906f980f33c2` — qualitative determinants of helical dimensions
+
+Timestamp: `2026-09-06T08:29:09.190Z`.
+
+Short source phrase: `long axis ... diameter and oscillation periodicity`.
+
+Tags: `OSCILLATORY-MOTION`, `LONG-AXIS-PERTURBATION`, `DIAMETER`, `OSCILLATION-PERIODICITY`, `HELIX-DIMENSION-DEPENDENCE`, `RAW-USER-VERIFIED`.
+
+Status: qualitative dependency statement, not a numerical model or measurement.
+
+### Assistant-context firewall
+
+Parent messages `de2381e9-5ec8-4009-b9aa-6df7e39f41b2` and `1857f9ab-2ff3-4ec2-860f-1d75db01f809` are assistant-authored context. The `subtractive-not-additive` framing and the canonical helix parameterization / curvature / torsion formulas are not transferred into Nathan's voice and were not formally verified in this pass.
+
+### Coverage
+
+The correct `af313...c917...` node is already covered by verified batch #01. The two nodes above are new manual tags in this ledger. No duplicate tags were added for the other previously covered Ravel nodes. No physical calculation, new equation, or theory promotion was performed.
