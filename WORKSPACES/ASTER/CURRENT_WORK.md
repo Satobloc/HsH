@@ -1572,3 +1572,12 @@ Issue #1617 is now PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `
 - Current run `cc816b31-2788-832e-84a2-81c8f9f305c4` remains IN_PROGRESS; scheduled 04:36Z, started 04:36:01.351481Z, completed null, run-level chat_ref null. Cached result is prior h1059:s3 Mercer, not this run.
 - Existing :48 task was only peeked for optional Ariadne packet timing; it remains enabled at original :48 schedule. No task, ID, prompt, phase, cadence, or ownership mutation; no sixth task.
 - Scheduler amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_AMENDMENT_02_SCHEDULER_PRESERVATION_READBACK.md.
+
+
+## Amendment 03 — thread-first / V4 revival status | 2026-11-24T0447Z
+
+- Historical Aster reference conversation: 6aa81f11-1c54-83ea-bf38-4610e1031e2d (“Nathan Words Excavator”); current live usability unverified. Aster's source-backed remit is Nathan Direct corpus/provenance, authorship, chronology, and source-versus-assistant separation.
+- Bounded thread-first search did not establish a usable current Aster thread. Raw export blob 1bf6e65c4ac1650297acb67d7e39f700454a03c8 re-fetch returned an empty body; embedded conversation ID and workspace pointer remain mismatched. Source coverage PARTIAL.
+- V4: THREAD_NOT_FOUND_AFTER_BOUNDED_SEARCH; REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN; historical_identity_continuity=RECONSTRUCTED_NOT_LITERAL; chat_thread_created=UNVERIFIED_OR_NO_TOOL; cross-thread delivery unavailable/not delivered. The current scheduled turn performed source-grounded role reconstruction and one bounded substantive operation; no new ChatGPT thread was created.
+- Ariadne historical identity-specific thread 6ab339d2-8fb4-83ea-b728-c8001a034371 has last archived user activity 2026-09-23T05:32:34Z; current usability unverified. Aster-to-Ariadne optional packet was updated with a prestart V4 existing-thread-first instruction; no direct delivery or acknowledgment.
+- Amendment: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_AMENDMENT_03_THREAD_FIRST_AND_V4_REVIVAL_STATUS.md.
