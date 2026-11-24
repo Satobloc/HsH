@@ -1,3 +1,16 @@
+## Amendment 19 - 2026-11-24 08:24Z | h1064:s2 Lane 24 P0-hold revalidation
+
+**State:** `REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN / P0_ACTIVE / LANE24_P0_HOLD / CYCLE_08_08_COMPLETE / NO_CYCLE_09`. The current :24 run was still IN_PROGRESS with `chat_ref=null` at the 08:38Z peek.
+
+- Report: [Aster h1064:s2 Lane 24 P0-hold revalidation](2026-11-24T0824Z_H1064_S2_LANE24_P0_HOLD_REVALIDATION.md).
+- Canonical receipt: [h1064:s2 Aster](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0824Z_s2_aster.md).
+- Current HsH main: `3a7567b25e9df78a00619ee00fd23e739fc0a4e3`; eight protected Code Grurple objects remain 8/8 exact.
+- Latest complete discovery parse still reports record-safety FAIL and live-route acceptance NOT OBSERVED; the newer 08:27 discovery refresh has not been fully parsed.
+- Lane 24 remains P0-HOLD / Cycle 08/08 complete; no Cycle 09, no new Lean run, no physical calculation, no CODATA comparison, no P2 selection, no paper advancement or theory promotion.
+- Historical Aster remit is source-fidelity and contradiction checking; no standalone signed charter or authenticated current Aster thread. The historical Paper A assignment remains superseded by the live Code Grurple review freeze.
+- Next deterministic label Ariadne h1064:s3 had already started at 08:36:01.622Z with `chat_ref=null`; poststart optional repository context only, no direct-thread delivery or acknowledgment.
+
+---
 ## Amendment 18 - 2026-11-24 01:27Z | later automation run-state readback
 
 **State:** same h1056:s4 Aster run; no new activation or research product.
