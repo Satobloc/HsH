@@ -208,7 +208,7 @@ def powerNumerator (z : FourierAmplitude) : ℝ :=
   z.1 ^ 2 + z.2 ^ 2
 
 /-- Source-shaped auto-power estimator with common normalization L*T. -/
-def spectralPower (z : FourierAmplitude) (normalization : ℝ) : ℝ :=
+noncomputable def spectralPower (z : FourierAmplitude) (normalization : ℝ) : ℝ :=
   powerNumerator z / normalization
 
 /-- Cross term produced when two complex Fourier amplitudes are added. -/
