@@ -112,6 +112,7 @@ theorem event_resolves_to_unique_item
   rcases hValid.2.2.1 event hEvent with ⟨item, hItem, hId, hScope⟩
   refine ⟨item, ⟨hItem, hId, hScope⟩, ?_⟩
   intro other hOther
+  symm
   exact hValid.2.1 item hItem other hOther.1
     (hId.trans hOther.2.1.symm)
 
@@ -222,7 +223,7 @@ theorem cross_run_union_is_rejected :
   simp [scopeCompatibleUnion, runAFlow, runBFlow, runScopeA, runScopeB]
 
 #eval decide (runScopeA ≠ runScopeB)
-#eval scopeCompatibleUnion runAFlow runBFlow
+#eval decide (scopeCompatibleUnion runAFlow runBFlow = none)
 
 #print axioms valid_flow_items_share_scope
 #print axioms valid_flow_events_share_scope
