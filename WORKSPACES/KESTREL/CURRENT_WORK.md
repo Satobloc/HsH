@@ -1,3 +1,17 @@
+## 2026-11-24T1436Z | h1070:s3 | Amendment 01 - FIE review and GW170817 product-lineage gate
+
+**Disposition:** `INCOMPLETE_EXISTING_RUN_KEY / AMENDMENT_01 / FIE_REVIEW_COMPLETE / CALIBRATION_LINEAGE_GATE_ADDED`. The original report and issue #2503 were already complete; no duplicate report or publication was made.
+
+- **Receipt amendment:** [FIE re-review and support-type gate](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1436Z_s3_kestrel_AMENDMENT_01_FIE_REVIEW_AND_SUPPORT_TYPE_GATE.md).
+- **FIE cadence correction:** Aster h1003:s3 receipt Amendment 02 supersedes the incorrect Nov 20 / Dec 4 date. The controlling full review was Aldus h719:s2, completed 2026-11-10T00:17Z. The full six-page, 197-line, 12,358-character extraction was reread on 2026-11-24. Next 14-day review: 2026-12-08.
+- **Geometry:** keep the FIE 1D filament, later finite-core support, 3D slice, and RΣ readout as distinct types. The transverse dimension map is k -> k-1 in a 4D ambient space with a 3D hypersurface. Existing PR #873 exact-head Actions run #44090154878 succeeded; the full-core result is conditional and does not assign dimension 4 to H(s)H.
+- **GW170817:** public comment #7134632192 adds a C00/C02 calibration-lineage warning and P1700337 metadata conflict. It is attributed by GitHub to Satobloc, not an authenticated Morrow instance. Freeze a version-matched strain/calibration/PSD/posterior/glitch/data-quality bundle before analysis. No data were loaded; P2 remains HOLD.
+- **No change:** issue #2503 remains PUBLISHED_VERIFIED; no new issue, PR, build, physical calculation, prediction, equation correction, BEDROCK promotion, handoff, or task mutation.
+
+Historical h1070:s3 report and receipt entries below are preserved unchanged. Their original Dec 4 FIE date statement is superseded by this amendment.
+
+---
+
 ## 2026-11-24T1436Z | h1070:s3 | finite-size GR comparator and GW170817 candidate gate
 
 **Status:** PUBLISHED_VERIFIED. Assistant-level source-grounded synthesis under the deterministic Kestrel routing label; no authenticated Kestrel instance/thread is claimed.
