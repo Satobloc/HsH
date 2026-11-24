@@ -1,3 +1,25 @@
+## 2026-11-24T1436Z | h1070:s3 | finite-size GR comparator and GW170817 candidate gate
+
+**Status:** PUBLISHED_VERIFIED. Assistant-level source-grounded synthesis under the deterministic Kestrel routing label; no authenticated Kestrel instance/thread is claimed.
+
+- **New architecture:** a worldtube or finite-core description is not a distinct H(s)H prediction by itself. The standard comparator must include GR finite-size worldline EFT, tidal response, spin and multipole freedom. H(s)H needs a source-constrained relation among those coefficients or a detector-level readout outside the matched GR predictive fibers.
+- **Candidate data path:** GW170817 calibrated H1/L1/V1 strain with the separate P1700337 C00 and P1700349 offline-PE products. GW190425 is only a conditional holdout candidate. No P2 system was selected; no data were downloaded or reanalyzed.
+- **Source authority:** Morrow h1066:s3 controls. The finite-core object is directly supported, but intrinsic support dimension, embedding, thickness law, normal-fiber construction, twist connection, and a particular contact surface are not forced. The direct w/time-proper distinction still lacks a Lorentzian metric and waveform map.
+- **Formal bridge reused:** PRs #2327, #2323, #2397, and #2330 were checked against actual Actions logs. They are open/draft/unmerged; builds were merge-reference, not mainline integration. No new Lean module was needed.
+- **Publication:** [issue #2503](https://github.com/Satobloc/HsH/issues/2503), publisher run #45413374453, commit cd1964269940bc25c2da9d8890ffa7e2eb165eea, SHA-256 329803e48973eba32ee1465fd95b7c1e20e70c46453fe938fd8b2322a909a5ff. Publisher readback and independent artifact-to-issue content comparison matched exactly. Notation-scope clarification comment #7134335051 marks the Phi_* stage labels LOCAL to this report; w and RΣ remain source-local notation.
+- **Status boundary:** P2 remains HOLD; MAP_INCOMPLETE / PREDICTION_NOT_FORMED / NO_REANALYSIS / NO_THRESHOLD. P1 remains overdue/frozen; P3 remains incomplete.
+- **Next cursor:** source and type the geometry-to-stress-energy/multipole map, the spatial-geometry/time-proper-to-Lorentzian map, and the interaction-to-waveform map; freeze one exact GW170817 data product and its PSD, calibration uncertainty, data-quality masks, posterior provenance, and checksums before any physical calculation.
+
+**Routing audit:** h=1070, seq=5353, index 14 = Kestrel; next index 15 = Meridian. The earlier h1055 and h1063 Kestrel-labelled artifacts do not match the current seq=5*h+3 formula and were not treated as authenticated Kestrel activations. Their repository content was consulted only as source material. Meridian remains P0-protected, so no handoff or assignment was created.
+
+**Continuity:** no authenticated current Kestrel thread was found after bounded existing-thread-first search. The historical Kestrel source supports a trust-first, cross-boundary synthesis role, not a primary-auditor/proof-owner role. This is a source-grounded assistant reconstruction, not an independent Kestrel first-blush or cross-thread delivery claim.
+
+**Controls:** all four Mersearch request lanes remain occupied; no request was overwritten or retriggered. Math Hopper issue #578 remains open and PR #991 draft; Whirligig Kernel0 remains sandbox-only. SciSpace is available; public arXiv/GWOSC sources sufficed. No new tooling, dependency, fork, subscription, or paid service. HSH_RESOURCES root orientation only; no private payload opened. No SAT-O/Blockwave equation changed. No physical calculation, fit, prediction, threshold, manuscript edit, or BEDROCK promotion. No task ID, schedule, phase, branch ownership, or task count changed. No signet or conversation rename.
+
+**Reviews:** unrelated-source break next due 2026-11-28; FIE re-review due 2026-12-04. Neither was due this run. P2 major gate remains 2026-11-30; P3 full-theory gate remains 2026-12-14.
+
+---
+
 ## 2026-11-23T1936Z | h1051:s3 | Spatial return versus proper-time return
 
 Assistant-level, source-grounded repository contribution under the Kestrel routing label; not an authenticated Kestrel thread or worker activation.
