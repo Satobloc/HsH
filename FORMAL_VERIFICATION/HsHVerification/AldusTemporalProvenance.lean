@@ -469,6 +469,140 @@ theorem chronology_bound_bundle_keeps_first_claims_scoped
     b.publicWitness.witness.coverageId = b.publicCoverage.id :=
   ⟨b.extantWitness.coverageMatches, b.publicWitness.coverageMatches⟩
 
+/-
+## Public-availability censoring boundary
+
+A single positive public-access snapshot supplies an upper bound on a release
+time, not an exact T0. A verified earlier negative snapshot and a later
+positive snapshot can bracket the first accessible tick only within a
+declared subject, exact content version, surface, clock, and observation
+scope, and only under an explicit monotonic-availability assumption.
+
+The completeness status below is an input attestation for the declared
+corpus/scope. It is not authenticated by Lean. This construction does not
+establish a global first exposure across undeclared surfaces or time ranges.
+-/
+
+/-- Public availability history for one subject, exact content version,
+    surface, clock domain/scale, and declared observation scope. Monotonicity
+    is an explicit assumption; if public access can be revoked or toggled,
+    this history model is not applicable to first-ever exposure. -/
+structure PublicAccessHistory where
+  coverageId : String
+  subjectId : String
+  contentVersionId : String
+  surfaceId : String
+  clockDomain : ClockDomain
+  clockScale : ClockScale
+  scopeStart : Nat
+  coverageStatus : CoverageStatus
+  publiclyAccessible : Nat → Prop
+  monotoneWithinScope :
+    ∀ ⦃a b : Nat⦄, scopeStart ≤ a → a ≤ b →
+      publiclyAccessible a → publiclyAccessible b
+
+/-- A pair of verified, source-located observations on the same
+    PublicAccessHistory. This establishes a transition window, not by itself
+    a global-first claim. -/
+structure PublicAvailabilityTransitionWindow (H : PublicAccessHistory) where
+  lastNegativeAt : Nat
+  laterPositiveAt : Nat
+  lowerEvidenceId : String
+  upperEvidenceId : String
+  lowerSourceId : String
+  upperSourceId : String
+  lowerLocator : String
+  upperLocator : String
+  lowerStatus : EpistemicStatus
+  upperStatus : EpistemicStatus
+  coverageIdNonempty : H.coverageId ≠ ""
+  subjectNonempty : H.subjectId ≠ ""
+  contentVersionNonempty : H.contentVersionId ≠ ""
+  surfaceNonempty : H.surfaceId ≠ ""
+  clockDomainKnown : H.clockDomain ≠ .unknown
+  clockScaleKnown : H.clockScale ≠ .unknown
+  lowerEvidenceIdNonempty : lowerEvidenceId ≠ ""
+  upperEvidenceIdNonempty : upperEvidenceId ≠ ""
+  lowerSourceIdNonempty : lowerSourceId ≠ ""
+  upperSourceIdNonempty : upperSourceId ≠ ""
+  lowerLocatorNonempty : lowerLocator ≠ ""
+  upperLocatorNonempty : upperLocator ≠ ""
+  lowerVerified : isVerified lowerStatus = true
+  upperVerified : isVerified upperStatus = true
+  lowerInScope : H.scopeStart ≤ lastNegativeAt
+  upperInScope : H.scopeStart ≤ laterPositiveAt
+  lowerNotPublic : ¬ H.publiclyAccessible lastNegativeAt
+  upperPublic : H.publiclyAccessible laterPositiveAt
+  ordered : lastNegativeAt < laterPositiveAt
+
+/-- A first-public-T0 claim scoped to a declared corpus/surface/version and
+    observation window. Completeness for the declared corpus remains an
+    attestation, not a theorem about omitted sources or undeclared surfaces. -/
+structure ScopedFirstPublicT0 (H : PublicAccessHistory) extends
+    PublicAvailabilityTransitionWindow H where
+  coverageCompleteForDeclaredCorpus :
+    H.coverageStatus = CoverageStatus.completeForDeclaredCorpus
+
+/-- Under the explicit monotonicity premise, the first accessible tick in
+    the declared scope lies strictly after the negative observation and no
+    later than the positive observation. -/
+theorem transitionWindow_contains_first_accessible_tick
+    {H : PublicAccessHistory}
+    (w : PublicAvailabilityTransitionWindow H) :
+    ∃ t : Nat,
+      w.lastNegativeAt < t ∧
+      t ≤ w.laterPositiveAt ∧
+      H.publiclyAccessible t ∧
+      ∀ s : Nat, H.scopeStart ≤ s → s < t →
+        ¬ H.publiclyAccessible s := by
+  classical
+  let hExists : ∃ t : Nat,
+      H.scopeStart ≤ t ∧ H.publiclyAccessible t :=
+    ⟨w.laterPositiveAt, w.upperInScope, w.upperPublic⟩
+  let t : Nat := Nat.find hExists
+  have ht : H.scopeStart ≤ t ∧ H.publiclyAccessible t :=
+    Nat.find_spec hExists
+  have hle : t ≤ w.laterPositiveAt :=
+    Nat.find_min' hExists ⟨w.upperInScope, w.upperPublic⟩
+  have hgt : w.lastNegativeAt < t := by
+    by_contra hnot
+    have hleLower : t ≤ w.lastNegativeAt := by omega
+    exact w.lowerNotPublic
+      (H.monotoneWithinScope ht.1 hleLower ht.2)
+  refine ⟨t, hgt, hle, ht.2, ?_⟩
+  intro s hsScope hsLt hAccessible
+  have hmin : t ≤ s :=
+    Nat.find_min' hExists ⟨hsScope, hAccessible⟩
+  omega
+
+theorem scopedFirstPublicT0_has_first_accessible_tick
+    {H : PublicAccessHistory} (w : ScopedFirstPublicT0 H) :
+    ∃ t : Nat,
+      w.lastNegativeAt < t ∧
+      t ≤ w.laterPositiveAt ∧
+      H.publiclyAccessible t ∧
+      ∀ s : Nat, H.scopeStart ≤ s → s < t →
+        ¬ H.publiclyAccessible s :=
+  transitionWindow_contains_first_accessible_tick
+    (H := H) w.toPublicAvailabilityTransitionWindow
+
+/-- In the monotone release model, a single positive snapshot at observedAt
+    is compatible with multiple release times. It therefore cannot identify
+    an exact T0 without an earlier negative observation or other evidence. -/
+def releasePublicBy (releaseAt observedAt : Nat) : Prop :=
+  releaseAt ≤ observedAt
+
+theorem one_positive_snapshot_does_not_identify_exact_T0
+    (observedAt : Nat) (h : 0 < observedAt) :
+    ∃ t₁ t₂ : Nat,
+      t₁ ≠ t₂ ∧
+      releasePublicBy t₁ observedAt ∧
+      releasePublicBy t₂ observedAt := by
+  refine ⟨0, observedAt, ?_, ?_, ?_⟩
+  · omega
+  · exact Nat.zero_le observedAt
+  · exact Nat.le_refl observedAt
+
 #eval eligibleForClaim .firstPublicMention .repositoryIngested
 #eval eligibleForClaim .firstPublicMention .publiclyReleased
 #eval eligibleForClaim .firstPublicMention .analystAccess
@@ -496,5 +630,8 @@ theorem chronology_bound_bundle_keeps_first_claims_scoped
 #print axioms chronology_bound_bundle_prediction_precedes_unblinding
 #print axioms chronology_bound_bundle_binds_both_first_claims_to_source_bundle
 #print axioms chronology_bound_bundle_keeps_first_claims_scoped
+#print axioms transitionWindow_contains_first_accessible_tick
+#print axioms scopedFirstPublicT0_has_first_accessible_tick
+#print axioms one_positive_snapshot_does_not_identify_exact_T0
 
 end HsHVerification.AldusTemporalProvenance
