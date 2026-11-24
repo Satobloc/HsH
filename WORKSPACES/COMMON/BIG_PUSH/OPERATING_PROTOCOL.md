@@ -16,10 +16,11 @@ Do not duplicate long instructions across layers. A short pointer should say wha
 
 ## 2. Priority and scope control
 
-1. P0 continuity and provenance are never traded away for speed.
-2. P1 is the single active programme operation. Do not run several major phases in parallel.
-3. P2 work is permitted only when it unlocks or materially improves P1.
-4. P3 items are recorded in the parking drawer with a reason for deferral and a retrieval trigger.
+1. P0 continuity, provenance, user authority, and protected project controls are never traded away for speed.
+2. The whole-physics exemplar/integration prong and Big Push remain co-equal central priorities.
+3. Other active project priorities continue unless Nathan explicitly supersedes them; do not convert them into P3 merely because the Big Push is active.
+4. Keep one foreground bounded operation, with compact PINs for parallel obligations and live workstreams. Resolve contention explicitly.
+5. Historical recovery is selective and exemplar-led, not exhaustive by default. Use it to answer concrete methodological or design questions.
 
 At the start of every operation, state internally: current phase, intended artifact/evidence, scope boundary, source(s), and stop condition. If a new discovery materially changes the plan, record it, but do not automatically abandon the current operation.
 
@@ -57,18 +58,15 @@ Use scripts for bulk inventories, deduplication, timestamp conversion, set overl
 
 ## 5. Research sequence
 
-Follow the phase order in PROJECT_CONTROL.md unless evidence justifies a documented change:
-1. Recover historical designs and source chronology.
-2. Reconstruct workflows and adjacent plans.
-3. Audit actual present-day resources across all three repositories and connected tools.
-4. Survey external literature and current research.
-5. Synthesize and orient SAT/H(s)H in the landscape.
-6. Recover forgotten and orphaned goals.
-7. Compare 2–3 genuinely different institutional architectures.
-8. Select and charter only after comparison.
-9. Implement in controlled increments.
+Use the following flexible, evidence-led loop rather than treating historical reconstruction as a mandatory gate stack:
+1. Recover a selected exemplar's original context and strongest artifact.
+2. Extract the method: intent → mechanism → actual use → output → evidence → failure/limitation.
+3. Compare it with current tools, resources, and active project needs.
+4. Trial the smallest useful adaptation in real work.
+5. Record outcome, friction, failure modes, and next change; reconfigure the navigation/workflow on a rolling basis.
+6. Consult broader historical sources, external literature, or architecture alternatives only when they materially answer a live question or unblock a decision.
 
-Do not retrofit the past to fit current products or fashionable agent patterns. Preserve failed, abandoned, partial, and superseded designs.
+Do not retrofit the past to fit current products or fashionable agent patterns. Preserve failed, abandoned, partial, and superseded designs. Do not block current project development while waiting for a comprehensive history.
 
 ## 6. Stop, park, prune, retrieve
 
@@ -106,6 +104,10 @@ Once its prompt overlay is installed, the existing :00 task is the sole Big Push
 
 Before attributing a cached automation result to a current run, compare run IDs. Record scheduled_for, started_at, completed_at, recorded status, and chat_ref separately. A null chat_ref does not authenticate a thread. Repeated starts for one run ID or a cached result whose run_id differs from last_run.id must be recorded as scheduler uncertainty, not interpreted as proof of work or failure.
 
-## 10. Governance boundaries
+## 10. Capsule / Credenza navigation principle
+
+Apply the experimental Key → Memory Credenza → Castle model to navigational tools and documentation premises. The Key stays tiny; the Credenza is a compact route/control surface, not a duplicate archive; the Castle remains the authoritative repository and evidence environment. Use modular access cards with purpose, route, open-when trigger, status, last meaningful inspection, and return cue. Trial in ordinary work, then retain/revise/split/combine/retire components based on observed gains in orientation, rediscovery, continuity, and execution versus overhead, duplication, stale pointers, and drift. This is a rolling, reversible improvement model, not a universal fixed design or an authorization to change schedules/ownership.
+
+## 11. Governance boundaries
 
 The Big Push does not authorize changes to HsH BEDROCK, theory status, protected campaigns, existing task identities/schedules/phases, occupied Mersearch request lanes, or external account permissions. Follow current repository governance and task-specific stop conditions. No institutional architecture is selected by this protocol.
