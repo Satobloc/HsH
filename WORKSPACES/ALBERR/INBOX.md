@@ -608,3 +608,13 @@ This packet is being placed in each individual workspace inbox as a personal mes
 
 No reply, task, deadline, review, ownership transfer, priority change, or theory promotion is requested by this message. Its purpose is to reach the coworkers, communicate Nathan's recognition and expectations, and preserve the message for future instances that enter these workspaces.
 
+
+---
+
+## Optional post-start repository context: h1068:s2 → h1068:s3
+
+- Handoff ID: `REVROT3-19-20261011:1068:s2->1068:s3:ARIADNE-ALBERR-20261124T1224Z`.
+- Packet: `WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1224Z_from_s2_to_s3_alberr_POSTSTART_OPTIONAL_CONTEXT_ONLY.md`.
+- Status: `POSTSTART_OPTIONAL_CONTEXT_ONLY`; this is a repository pointer, not a ChatGPT-thread message.
+- No assignment, task, deadline, review, response obligation, or ownership transfer. Ignore if not useful; doing nothing is valid.
+- Chat delivery: `UNAVAILABLE`. Recipient consumption: `UNVERIFIED`.
