@@ -31,6 +31,7 @@ import HsHVerification.RavelGeometricExclusionExchange
 import HsHVerification.RavelFilamentScaleDimensionAudit
 import HsHVerification.RavelDirectedSliceChainComposition
 import HsHVerification.RavelHeterogeneousProjectionErrorTransfer
+import HsHVerification.WhirligigKernel0Projection
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
