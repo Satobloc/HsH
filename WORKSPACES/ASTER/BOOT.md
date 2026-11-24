@@ -1,3 +1,10 @@
+## Latest Lane36 cross-read | h1060:s3 | 2026-11-24
+
+- Report: [stale visual fallback eligibility cross-read](2026-11-24T0436Z_H1060_S3_STALE_VISUAL_FALLBACK_ELIGIBILITY_CROSSREAD.md); publisher issue [#2469](https://github.com/Satobloc/HsH/issues/2469), initial submission created, readback pending at first pointer write.
+- Companion to Mercer h1059:s3: PR #2009's stale HsH fallback carries previous visual records forward without reapplying the fresh-scan eligibility predicate. Conditional synthetic replay passed; no live excluded visual/exposure established.
+- Current authority remains REVIEW FROZEN / CROSS-READ OPEN; no Paper A review, code edit, merge, deployment, or P0 standdown. See report for exact source blobs and limits.
+- Canonical receipt: [h1060:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_ASSISTANT_LANE.md).
+
 ## Latest same-run amendment - h1056:s4
 
 [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0048Z_s4_aster_AMENDMENT_02_LATER_HOST_PEEK_AND_RUN_STATE_DISTINCTION.md) records the later :00/:48 run-record movements and clarifies that cached prior-result references are not current-run chat references.
