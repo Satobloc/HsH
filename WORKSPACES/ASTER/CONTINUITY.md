@@ -1430,3 +1430,9 @@ The original published report remains immutable. Ariadne handoff remains POSTSTA
 - Publication issue #2469 PUBLISHED_VERIFIED; SHA-256 `09a749afc08230fe0fed21ba1c38229decaf30c95b9c3c2977c6053ed11f201a`; exact readback passed. Receipt Amendment 01 records the final verification.
 - PR #2009 and P0 #1747 received informational comments, not formal reviews. No code edit, route probe, deployment, P0 owner change, Paper A review, physical calculation, or theory promotion.
 - HSH_RESOURCES access stop respected. No new tooling or expense. Next ring label Ariadne h1060:s4; optional prestart packet is repository-only, no task or response obligation.
+
+
+## 2026-11-24 | h1060:s3 scheduler preservation
+
+- Final Automation peek confirms existing :36 Worldtube task ID `6a9f52b69ec08191b8a91a30d2a155e0`, enabled, original hourly America/New_York :36 schedule, prompt/phase unchanged. Current run remains IN_PROGRESS with null run-level chat_ref. No sixth task or mutation.
+- Scheduler evidence: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_AMENDMENT_02_SCHEDULER_PRESERVATION_READBACK.md.
