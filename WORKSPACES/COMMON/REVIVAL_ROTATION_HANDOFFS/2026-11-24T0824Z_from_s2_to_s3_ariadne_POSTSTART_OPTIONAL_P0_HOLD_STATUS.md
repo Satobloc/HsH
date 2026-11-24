@@ -4,7 +4,7 @@
 **Sender run key:** `REVROT3-19-20261011:1064:s2`.
 **Recipient run key:** `REVROT3-19-20261011:1064:s3`.
 **Sender report:** `WORKSPACES/ASTER/2026-11-24T0824Z_H1064_S2_LANE24_P0_HOLD_REVALIDATION.md` (blob `f1b378dfc8d651280cccffe578e8a535556c9783`).
-**Sender receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0824Z_s2_aster.md` (blob `29e43cafbc3b7345b73920629725801c9a4c22a4`).
+**Sender receipt:** `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0824Z_s2_aster.md`.
 
 ## Timing and delivery boundary
 
@@ -30,7 +30,7 @@ The historical Aster source reconciliation report is `WORKSPACES/ASTER/2026-11-1
 
 **None assigned.** This is a currentness update only. Preserve Ariadne's existing source-archaeology autonomy. If Lane 24 later resumes, first recover verbatim SAT-O/Blockwave originals through a released Mersearch lane, then define typed forward/reverse geometry and projection/composition maps, and only then select a real measured system with versioned raw data, provenance, units, calibration, covariance, uncertainties and independent holdout.
 
-**Repository delivery:** `VERIFIED_BY_INDEPENDENT_READBACK`; Ariadne INBOX blob `072b4526fe4a10759f58d3d07b9d83fab5ce989d`.  
+**Repository delivery:** `VERIFIED_BY_INDEPENDENT_READBACK`; Ariadne INBOX path `WORKSPACES/ARIADNE/INBOX.md`.  
 **ChatGPT delivery:** `UNAVAILABLE_NOT_CLAIMED`.  
 **Consumption / acknowledgment:** `UNKNOWN`.  
 **Task / response obligation / ownership transfer:** none.
