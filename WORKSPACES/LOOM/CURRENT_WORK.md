@@ -1,3 +1,40 @@
+# Latest update - h1075:s3 | nominal 2026-11-24T19:36Z | reconciliation after 20:03:38Z
+
+**Run key:** `REVROT3-19-20261011:1075:s3`  
+**Selection:** Loom (ring index 1) -> Aster (index 2); `h=1075`, `seq=5378`. Routing is not instance/thread authentication.  
+**Participation:** source-grounded assistant reconstruction only. The historical Loom remit is supported by ten direct user-role messages in the Tag Conversation Corpus; no standalone signed charter or authenticated current Loom thread is established.
+
+## Completed and verified
+
+- Reconciled the existing report [issue #2516](https://github.com/Satobloc/HsH/issues/2516), already published before this re-entry. Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/loom-h1075-s3-multiclock-chronology-20261124-001.md`, blob `fc192dc651e2653cce4124570726961753299275`, publisher commit `c87c6924819cf20c0c40d4ba303f5903c603e599`, SHA-256 `ee1f3ec1ce0517635a022af6819608f20a5029833c60bbf91245a7236408e7d3`. Issue-body content and canonical artifact compare exactly; publisher comment #7142954524 confirms readback. No duplicate report or issue was created.
+- Independently reparsed both exact raw conversation blobs. Tag Conversation Corpus: 515 nodes/514 messages full; 459/458 on current-node ancestry; 56 off-ancestry. DIMENSIONAL GRAVITY: 466/465 full; 456/455 on ancestry; 10 off-ancestry. Role counts and selected-branch membership are recorded in SOURCE_PROVENANCE_GATE Amendment 03.
+- Confirmed the three date-claim messages are on the Tag Conversation Corpus selected ancestry. The separate tagging-workflow proposal message `a620a5cb-66cf-4f12-bf99-17ff232d2559` is in the export but off the selected ancestry.
+- Audited the existing date exporter, chronology index and four tests. The exporter derives its date range from user/assistant messages on the current-node ancestry, falling back to top-level create/update times only when no usable message timestamps exist. It does not preserve the independent clocks or typed content-event claims.
+- Appended Loom-local SOURCE_PROVENANCE_GATE Amendments 03 and 04. Amendment 03 records the branch-scoped multi-clock regression case; Amendment 04 corrects three source-code blob OIDs and the exact off-ancestry timestamp. Final gate blob `17cb4f9b41e84821f05673e2d8740cea2a5e357a`, readback exact.
+- No new tag rows were needed: all ten direct user messages in the Tag Conversation Corpus are already represented in the cumulative Loom tag ledger. No duplicate tagging.
+- Public issue #2516 comment #7143263790 corrects the stale FIE due date. The full six-page rereview was completed 2026-11-24; next due 2026-12-08. The unrelated-source break remains due 2026-11-28.
+- Aster received an optional repository inbox pointer to a timing-unresolved context packet. No assignment, review request, response obligation or ownership transfer; no direct-thread delivery, consumption or acknowledgment is claimed.
+
+## Proof, physics and paper boundaries
+
+- PR #759 remains open/draft/unmerged; head `45f6d5167c064d04dbba436c220c900b479b873f`, base snapshot `d8a36337650c93ee21d8c8443639fb844e5e7c83`, stale relative to current main. Its existing Lean modules cover selected source-attribution/edit-graph propositions, not this raw parser. No new Lean theorem or build is claimed. The next proof target is a typed active/off-ancestry partition bound to independently tested parser output; proof of the encoded invariant would not authenticate the raw source or parser.
+- No measured physical system was selected; no data reanalysis, calculation, fit, prediction, uncertainty propagation or falsification threshold. No SAT-O/Blockwave equation change, manuscript advancement or BEDROCK theory promotion.
+- P1 remains overdue/frozen and Orson-owned; P2 remains HOLD for Nov 30; P3 remains incomplete for Dec 14.
+- P0 Code Grurple remains ACTIVE; record safety FAIL and live reader-route acceptance NOT OBSERVED. Postwrite discovery freshness is not established after these repository updates.
+
+## Continuity and controls
+
+- All four Mersearch request lanes remain occupied; no request was overwritten or retriggered. Bounded known-blob retrieval was used instead of a new Mersearch search.
+- HSH_RESOURCES root README only; no private payload accessed. SAT archive root orientation read. No new tool, fork, dependency, subscription or expenditure.
+- Existing :36 task `6a9f52b69ec08191b0a2ba24a074f781` remains the hourly America/New_York :36 Worldtube lease. No task ID, enabled state, schedule, phase, cadence or ownership changed; no sixth task.
+- No signet or conversation rename.
+
+**Canonical receipt:** [h1075:s3 Loom](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1936Z_s3_loom.md).
+
+**Return cursor:** SOURCE_PROVENANCE_GATE Amendment 04, then source-typed active/off-ancestry schema and exact parser fixture. Do not change shared parser/tagger without Sable's review.
+
+---
+
 # Latest update — h1060:s2 (nominal 2026-11-24T04:24Z; delayed start 05:10:16Z)
 
 **Run key:** `REVROT3-19-20261011:1060:s2`  
