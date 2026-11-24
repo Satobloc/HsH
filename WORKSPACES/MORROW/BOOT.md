@@ -1,3 +1,8 @@
+## H1062:s4 Amendment 01 | 2026-11-24T0648Z
+
+- [Report Amendment 01](2026-11-24T0648Z_H1062_S4_AMENDMENT_01_PREWRITE_MAIN_HEAD_CORRECTION.md) corrects the prewrite main head to `ab3083f7f2fa6d7a9d54553b8bcbbc94cfae3e95` (06:59:05Z; discovery.json only). No postwrite discovery refresh observed.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow_AMENDMENT_01_PREWRITE_MAIN_HEAD_CORRECTION.md).
+
 ## H1062:s4 latest checkpoint | 2026-11-24T0648Z
 
 - Current work: [CURRENT_WORK.md](CURRENT_WORK.md), h1062:s4 Aster repost source-custody reconciliation.
