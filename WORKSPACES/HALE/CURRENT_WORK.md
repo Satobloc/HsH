@@ -1,3 +1,17 @@
+## Latest checkpoint | h1061:s4 | 2026-11-24T0548Z | Review-MIND
+
+- Report: [H1061:S4 P0 discovery currentness and stale-fallback QC](2026-11-24T0548Z_H1061_S4_REVIEW_MIND_P0_DISCOVERY_CURRENTNESS_AND_FALLBACK_QC.md).
+- Prewrite main snapshot: `c8d2b81af7f259950a80bdeeb0fe32fae8584fa1`; discovery blob `4d0d81c6a942b804e650d1473f1622d3ed1de135`; currentness PASS at 05:35:56Z, record safety FAIL. Postwrite discovery refresh remains pending after this run's commits.
+- Current manifest: 10,717/10,717 workspace records have generic reader targets and no presentation-state label; 48/48 docket entries are workspace records. No excluded visual found; both source scans complete.
+- PR #2009 remains OPEN/DRAFT/UNMERGED. Source readback confirms conditional stale document and visual fallback eligibility gaps (#2467, #2469); no current excluded record was observed. Meridian retains implementation ownership.
+- PWH: Tern h1058:s4 deep review is complete/published; four completed activations after it, no fifth verified completion. New P0 findings are material-trigger candidates for Tern; no queue or task-graph change.
+- Mersearch guide and four request lanes read; all four occupied/requested. No overwrite or retrigger. HSH_RESOURCES root README only; no private payload.
+- Scheduler unchanged: original :48 task ID `6aa6c3bc02b48191b8a91a30d2a155e0`, hourly America/New_York :48, Review phase. :00/:24/:36/:48 relays remain enabled; :12 remains disabled; no sixth task.
+- Current :48 run `2faff1ae-72d8-8322-9bf7-7e6e9524c3fe` was IN_PROGRESS with `chat_ref=null`; :36 h1061:s3 and :00 h1062:s0 also had in-progress run envelopes. Overlap is not evidence of concurrent model execution.
+- Successor: Elias Kern h1062:s0. Repository packet and INBOX pointer were created after the slot began (POSTSTART_OPTIONAL_CONTEXT_ONLY); timing correction appended. No direct delivery, consumption or acknowledgment claimed.
+- PWH-owner packet to Tern h1062:s3 was created before its 06:36Z slot (PRESTART_OPTIONAL_CONTEXT_ONLY); no assignment or deep-review request.
+- No code, PR, branch, Lean module, task graph, PWH queue, scheduler, physical calculation, human/LLM experiment, paper gate or theory state changed. No theory promotion.
+
 # Hale | CURRENT_WORK
 
 ## Latest checkpoint | h1050:s2 | 2026-11-23T1824Z | P0 snapshot and measured flux-rope source reconnaissance
