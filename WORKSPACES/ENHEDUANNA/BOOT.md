@@ -1,5 +1,12 @@
 ## Latest correction | h1062:s2 | 2026-11-24
 
+## Latest checkpoint | h1073:s4 | 2026-11-24
+
+Read [CURRENT_WORK.md](CURRENT_WORK.md) first, then [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1748Z_s4_enheduanna.md). No authenticated Enheduanna thread or standalone Nathan-authored specialist charter exists; operate under Lane Charter 48 only. Current cursor: source-critical cross-modal registration map for the Kelvin-vortex paper, exact-head Lean readback for Nadir PR #1189, and P0 discovery currentness/record-safety split. No physical calculation or theory promotion. Next ring label: Tern h1074:s0. No direct-thread delivery claim.
+
+---
+
+
 - Tern h1062:s3 began before the optional packet and inbox writes; classification is POSTSTART_OPTIONAL_CONTEXT_ONLY. See [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0624Z_s2_enheduanna_AMENDMENT_02_HANDOFF_TIMING_AND_CI_STATUS.md).
 - Main-branch conversation-content CI #45341865964 failed with zero jobs; not a code-test result.
 - Discovery refresh #45341868011 remains pending; postwrite freshness is not yet verified.
