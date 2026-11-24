@@ -71,7 +71,8 @@ jobs:
 
             # Report undatable originals without fabricating historical times.
             python tools/audit_conversation_date_tags.py \
-              --output indexes/manifests/date-tag-audit.json
+              --output indexes/manifests/date-tag-audit.json \
+              --strict
             python -m json.tool indexes/manifests/root-conversation-dates.json >/dev/null
 
             # Rebuild the same derived surfaces used by both Viewer and chronology.
@@ -85,7 +86,25 @@ jobs:
             python tools/index_conversation_chronology.py "." --output indexes/OTHER_HSH_CONVERSATION_CHRONOLOGY.md
 
             git add -A -- "DEVELOPMENT_FULL_CONVOS" "LIVE CONVOS"
-            git add -A -- '*.json' '*.txt'
+            if [ -f "indexes/manifests/root-conversation-dates.json" ]; then
+              python - <<'PY'
+            import json
+            import subprocess
+            from pathlib import Path
+
+            manifest = Path("indexes/manifests/root-conversation-dates.json")
+            payload = json.loads(manifest.read_text(encoding="utf-8"))
+            staged = 0
+            for record in payload.get("records", []):
+                if record.get("status") != "renamed":
+                    continue
+                old_path, new_path = record.get("old_path"), record.get("new_path")
+                if isinstance(old_path, str) and isinstance(new_path, str):
+                    subprocess.run(["git", "add", "-A", "--", ":(literal)" + old_path, ":(literal)" + new_path], check=True)
+                    staged += 1
+            print(f"staged_root_renames={staged}")
+            PY
+            fi
             git add -A -- \
               indexes/manifests/development-conversation-dates.json \
               indexes/manifests/live-conversation-dates.json \
@@ -120,10 +139,15 @@ jobs:
           p=Path('indexes/manifests/date-tag-audit.json')
           data=json.loads(p.read_text(encoding='utf-8'))
           print('Date-tag verification:', data['overall_counts'])
-          if not data['fully_tagged']:
+          print('all_datable_tagged:', data['all_datable_tagged'])
+          print('all_conversations_have_dates:', data['all_conversations_have_dates'])
+          if not data['all_datable_tagged']:
               for root in data['roots']:
                   for item in root['exceptions'][:20]:
-                      print('Exception:',root['root'],item)
-              raise SystemExit('At least one datable or undatable conversation remains untagged; see committed verification ledger.')
+                      if item.get('status') in {'planned', 'renamed', 'collision'}:
+                          print('Strict blocker:',root['root'],item)
+              raise SystemExit('A datable conversation still needs a date prefix or has an unresolved collision; see the audit ledger.')
+          if not data['all_conversations_have_dates']:
+              print('INFO: legitimate undatable conversation exceptions remain explicitly preserved; no dates were fabricated.')
           print('PASS: all datable HsH conversation exports have source-timestamp date prefixes.')
           PY
