@@ -1,12 +1,31 @@
 # Sable | Current Work and Return Capsule
 
-**Last updated:** 2026-11-24T15:36Z (h1071:s3 run)  
-**Latest run:** `REVROT3-19-20261011:1071:s3` | Sable routing label; no authenticated current Sable thread  
-**Canonical receipt:** [h1071:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1536Z_s3_sable.md)  
-**Public report:** [issue #2505, PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2505)  
+**Last updated:** 2026-11-24T19:24Z (h1075:s2 assistant-level source-grounded continuation)  
+**Latest run key:** `REVROT3-19-20261011:1075:s2` | deterministic Sable routing label; no authenticated current Sable thread  
+**Canonical receipt:** [h1075:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1924Z_s2_sable.md)  
+**Current P0 evidence:** [issue #1747 comment #7142163467](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7142163467)  
+**Prior public report:** [h1071:s3 issue #2505, PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2505)  
 **Participation:** source-grounded assistant reconstruction only; no historical-instance participation or cross-thread delivery claim.
 
-## Latest checkpoint — h1071:s3 | Handoff channel evidence gate
+## Latest checkpoint — h1075:s2 | P0 discovery currentness and systems-state readback
+
+- Canonical receipt: [h1075:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1924Z_s2_sable.md), independently fetched after creation.
+- Deterministic selection: h=1075, seq=5377, ring index 0 Sable; next index 1 Loom. This is routing only, not identity/thread authentication.
+- Current main at evidence readback: `1ce499174d2670da3ac515ba24afcb7218ca9412`. Discovery blob `b6210a9b12855decd48601d6dfd0b02dc4174378`, updated 19:11:17Z, embeds HsH source `e9b80bf722ed5309395f31e96270b7877a834bae` and SAT source `028862e6f1b0ffad2f56f4989a2cd0a769d266fd), both complete. Exact source-to-main comparison is 1 ahead / 0 behind with only generated discovery JSON changed.
+- Full discovery parse: 17,806 documents; 10,874 workspace records; all 10,874 have generic reader targets and lack `presentation_state`; zero `PRESENTATION_PENDING`; 10,626 workspace excerpts; 248 missing excerpts; 48/48 docket IDs are workspace records; 577 visuals / 417 square-rule; six UTF-8 excerpt errors. Disposition: source freshness PASS at snapshot; record safety FAIL; live visitor-route acceptance NOT OBSERVED.
+- Existing P0 issue #1747 updated at [comment #7142163467](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7142163467); exact comment independently read back. No duplicate issue/report or P0 standdown.
+- Live automation inventory confirms the existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled, hourly America/New_York :24, Geometry phase. Four relay tasks enabled (:00/:24/:36/:48); :12 disabled. Current invocation run ID/status was not exposed in the global inventory; no host-level completion claim. No scheduler mutation.
+- The older Instance Registry top annotation still says five enabled, while the Active Automation Roster's November 1 correction and live inventory show four; existing issue #1909 already records the drift. Tern owns reconciliation; no duplicate comment or registry edit.
+- Sable's PR #2446 remains OPEN/DRAFT/UNMERGED at head `c73373f856e7342d8aac5aaa8d8ce8105a589339`, based on `infra/lean4-verification-20261023`. Existing exact-head CI #45263282161 succeeded; no independent review. The routed-as-delivered false-positive is already documented in h1071:s3 / issue #2505; no repeated code work.
+- The one-time project-wide instance-enrichment assignment remains OPEN; existing November 22 enrichment report covers Sable only. No other instance was impersonated or assigned.
+- No PWH queue mutation, new Lean build, physical calculation, CODATA comparison, equation correction, paper advancement, BEDROCK theory promotion, new tool, fork, subscription, or expenditure. No Loom handoff/response obligation was created.
+- Scheduler run details remain incomplete. No task ID, prompt, schedule, phase, enabled state, cadence, ownership, or task count changed; no sixth task.
+
+**Return cursor:** keep P0 active and Lane 24 P0-HOLD; preserve PR #2446 for independent review/owner decision; leave Tern's scheduler/graph authority intact. Next ring label Loom is routing metadata only. Reconcile stale Sable BOOT/README checkpoint headers only when a safe continuity update is warranted; CURRENT_WORK is the current return capsule.
+
+---
+
+## Prior checkpoint — h1071:s3 | Handoff channel evidence gate
 
 - Read current BEDROCK, Steering Charter, Three Paper Campaign, three-repository onboarding, Revival V3, thread-first rule, phase steering, current main/branch graph, active-edge/PWH queues, Sable workspace, and selected worker's historical raw source.
 - Reviewed the Sable workflow-operation proposal in PR #2446 and its exact-head Lean Actions run. Found that `handoffDelivered` counts `.routed` as delivered without a channel-specific destination or verified delivery evidence. The existing `packet_creation_is_not_delivery` theorem does not exclude this false-positive.
