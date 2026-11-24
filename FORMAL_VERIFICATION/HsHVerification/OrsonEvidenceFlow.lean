@@ -533,8 +533,15 @@ theorem alias_endpoints_are_distinct : aliasLeft ≠ aliasRight := by
 
 theorem duplicate_semantic_ids_allow_one_event_to_satisfy_both_endpoints :
     pairPresentAt aliasFlow .sourceReads aliasPair := by
-  classical
-  decide
+  constructor
+  · unfold itemPresentAt
+    apply Finset.card_pos.mpr
+    refine ⟨aliasEvent, ?_⟩
+    simp [aliasFlow, aliasEvent, aliasLeft, aliasPair]
+  · unfold itemPresentAt
+    apply Finset.card_pos.mpr
+    refine ⟨aliasEvent, ?_⟩
+    simp [aliasFlow, aliasEvent, aliasRight, aliasPair]
 
 theorem alias_flow_fails_unique_item_ids :
     ¬ uniqueItemIds aliasFlow.items := by
@@ -565,13 +572,19 @@ def orphanFlow : EvidenceFlow where
 
 theorem orphan_event_can_make_unregistered_item_appear :
     itemPresentAt orphanFlow .sourceReads orphanItem := by
-  classical
-  decide
+  unfold itemPresentAt
+  apply Finset.card_pos.mpr
+  refine ⟨orphanEvent, ?_⟩
+  simp [orphanFlow, orphanEvent, orphanItem, claimA]
 
 theorem orphan_flow_fails_referential_integrity :
     ¬ eventReferencesResolve orphanFlow := by
-  classical
-  decide
+  intro h
+  have hResolved := h orphanEvent (by simp [orphanFlow])
+  rcases hResolved with ⟨item, hItem, hId⟩
+  have hItemEq : item = claimA := by simpa [orphanFlow] using hItem
+  subst item
+  simp [orphanEvent, orphanItem, claimA] at hId
 
 theorem orphan_item_presence_is_not_admissible :
     ¬ admissibleItemPresence orphanFlow .sourceReads orphanItem := by
@@ -582,8 +595,34 @@ theorem orphan_item_presence_is_not_admissible :
     once; the gate does not collapse occurrence identity into item identity. -/
 theorem repeated_disclosure_flow_is_valid :
     validEvidenceFlow repeatedDisclosureFlow := by
-  classical
-  decide
+  refine ⟨?_, ?_, ?_⟩
+  · intro left hLeft right hRight hIds
+    simp [repeatedDisclosureFlow] at hLeft hRight
+    calc
+      left = claimA := hLeft
+      _ = right := hRight.symm
+  · intro event hEvent
+    simp [repeatedDisclosureFlow] at hEvent
+    rcases hEvent with hEq | hEq
+    · subst event
+      exact ⟨claimA, by simp [repeatedDisclosureFlow], rfl⟩
+    · subst event
+      exact ⟨claimA, by simp [repeatedDisclosureFlow], rfl⟩
+  · intro left hLeft right hRight hIds
+    simp [repeatedDisclosureFlow] at hLeft hRight
+    rcases hLeft with hLeft | hLeft
+    · subst left
+      rcases hRight with hRight | hRight
+      · subst right
+        rfl
+      · subst right
+        simp at hIds
+    · subst left
+      rcases hRight with hRight | hRight
+      · subst right
+        simp at hIds
+      · subst right
+        rfl
 
 theorem repeated_disclosure_remains_admissible :
     hasRepeatedDisclosure repeatedDisclosureFlow ∧
