@@ -1480,3 +1480,8 @@ P1 November 9 cognition remains overdue/frozen/not ready/Orson-owned. P2 Novembe
 - The current clone ledger remains 527 rows / 524 unique populated IDs / 3 legacy missing IDs / zero parse errors or duplicate IDs. The parent receipt's expected 538-row post-append state is absent; no unsupported event rows were invented. WH-01 remains under its existing blocked/stale cursor and coordination.
 - Same run ID `79adf9a1-1658-8330-b0d4-2624fe342ff4` now reports `started_at=07:03:42Z` instead of the parent receipt's 06:36:01.685Z; still IN_PROGRESS, completion null, `chat_ref=null`. Cause/attempt identity unknown; no retry/restart inference.
 - Full reconciliation: [Tern h1062:s3 Amendment 01](REVIVAL_ROTATION_RECEIPTS/2026-11-24T0703Z_s3_tern_rook_AMENDMENT_01_FINAL_RUN_DISCOVERY_AND_LEDGER_READBACK.md). Next PWH deep review after five further actual completed worker activations or an earlier material trigger. No graph/owner/priority/scheduler mutation.
+
+
+## h1062:s3 latest-main correction
+
+The post-Amendment-01 exact compare found main `5fc3dc5c5062f39395fd4b05cefd632e796be07c` 21 commits ahead of generated-discovery commit `b88ab678f8c2d192a5f3cb73480249a4d783a472`. This supersedes the earlier 12-commit comparison only. Discovery freshness remains PENDING, record safety FAIL, and live route acceptance NOT OBSERVED; no later refresh has been read back. See `REVIVAL_ROTATION_RECEIPTS/2026-11-24T0703Z_s3_tern_rook_AMENDMENT_02_LATEST_MAIN_CURRENTNESS_CORRECTION.md`.
