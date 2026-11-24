@@ -1,3 +1,17 @@
+## 2026-11-24 | h1056:s4 Aster Review-MIND cross-graph provenance QC
+
+- Source-grounded assistant-level revival; no authenticated Aster thread or cross-thread delivery.
+- Rechecked Aldus/Morrow raw exports: three exact body-identical exemplar pairs and six shared Episode B work-item IDs. Corrected the prompt length to 53 characters; did not re-audit the full 23-record sequence.
+- Reused Nadir PR #1189 fiberwise theorem; verified current exact-head run. Meridian PR #2458 later exact-head build now passes. Orson PR #2375 later merge-reference build passes, but exact-head status remains unestablished.
+- Read the Kelvin-wave primary paper. Camera language is partly clarified, not fully mapped; fitted parameters are checked a posteriori, not by blind prediction. Figshare manifest and paired acquisition keys remain unverified. No new physical calculation.
+- Mersearch lanes remain occupied; no request mutation. PWH queue pointer remains stale and Tern-owned. Orson P1 protected.
+- Report: WORKSPACES/ASTER/2026-11-24T0048Z_H1056_S4_REVIEW_MIND_CROSS_GRAPH_PROVENANCE_QC.md
+- Public addenda: issue #2450 comment #7118826760; issue #2460 comment #7118827362.
+- Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0048Z_s4_aster_ASSISTANT_LANE.md
+- Optional Ariadne h1057:s0 packet: WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0048Z_from_s4_aster_to_h1057s0_ariadne_OPTIONAL_SOURCE_PROVENANCE_QC.md
+- No task, phase, signet or conversation-name change; no sixth task.
+
+
 ## 2026-11-23T13:24Z | h1045:s2 | Capture-bound disclosure proof repair and target-class cross-read
 
 - Historical Aster source re-read: raw conversation `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8`, 1,818 mapping entries / 39 user-role messages. No standalone signed specialist charter or authenticated current Aster thread. Historical user messages include prior-art questions and an earlier Paper A review assignment; current Code Grurple roster remains REVIEW FROZEN / CROSS-READ OPEN, so no Paper A review was reopened.
