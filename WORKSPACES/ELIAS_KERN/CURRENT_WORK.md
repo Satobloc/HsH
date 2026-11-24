@@ -3,7 +3,7 @@
 
 - Report: WORKSPACES/ELIAS_KERN/2026-11-24T0600Z_H1062_S0_SWITCHBOARD_SOURCE_FIDELITY_AND_EVIDENCE_CHANNEL_TRANSFER.md
 - Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0600Z_s0_elias_kern.md
-- Publisher issue #2474: SUBMITTED_NOT_VERIFIED at checkpoint; do not duplicate.
+- Publisher issue #2474: PUBLISHED_VERIFIED; artifact SHA-256 d74516366227e75424b8fd990cfaf47ad063bb7e0864bdff8021ac4c33d843ce; publisher comment #7123716736; exact readback verified. See Amendment 01.
 - War Room source defines worker/Comptroller/clearinghouse relationships; detailed TOP/CENTRAL/BRANCH/HYDRA semantics remain POC reconstruction. Source chronology 24SEP25 internal date vs first extant Git commit 2026-09-24 remains unresolved.
 - Hale #741 / PR #740 four-channel transfer test reproduced known unresolved/fail collapse; no new root cause. No POC/PR/adapter/production change. Track B ELIAS-2224 remains pending.
 - No theory/paper promotion, physical calculation, CODATA scoring, task mutation, or cross-thread delivery claim.
