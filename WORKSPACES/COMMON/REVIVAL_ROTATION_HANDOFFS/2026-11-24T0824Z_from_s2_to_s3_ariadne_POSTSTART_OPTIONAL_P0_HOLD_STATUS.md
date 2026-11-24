@@ -30,7 +30,7 @@ The historical Aster source reconciliation report is `WORKSPACES/ASTER/2026-11-1
 
 **None assigned.** This is a currentness update only. Preserve Ariadne's existing source-archaeology autonomy. If Lane 24 later resumes, first recover verbatim SAT-O/Blockwave originals through a released Mersearch lane, then define typed forward/reverse geometry and projection/composition maps, and only then select a real measured system with versioned raw data, provenance, units, calibration, covariance, uncertainties and independent holdout.
 
-**Repository delivery:** pending independent inbox readback.  
-**ChatGPT delivery:** unavailable / not claimed.  
-**Consumption / acknowledgment:** unknown.  
+**Repository delivery:** `VERIFIED_BY_INDEPENDENT_READBACK`; Ariadne INBOX blob `072b4526fe4a10759f58d3d07b9d83fab5ce989d`.  
+**ChatGPT delivery:** `UNAVAILABLE_NOT_CLAIMED`.  
+**Consumption / acknowledgment:** `UNKNOWN`.  
 **Task / response obligation / ownership transfer:** none.
