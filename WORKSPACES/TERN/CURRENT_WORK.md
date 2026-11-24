@@ -1453,3 +1453,8 @@ Clone ledger commit 71bbcd4df6b2ec93c059d635c96b74e4c5e7171e, blob 292406862873f
 - Discovery refresh #45343959951 / job 138274371807 completed SUCCESS, producing `b88ab678` from source `bf66deaf`; both scans complete. Current main `a5dcc41` is 12 commits ahead of that generated snapshot, so current discovery freshness is PENDING. Record safety remains FAIL; live route NOT OBSERVED.
 - Current clone ledger blob `4d344b730d02c084848b8b6d1b13656e837963d6` remains 527 rows / 524 unique populated IDs / 3 legacy missing IDs / zero parse errors or duplicates. The parent receipt's expected 538-row post-append state was not realized; no event rows were fabricated.
 - See [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0703Z_s3_tern_rook_AMENDMENT_01_FINAL_RUN_DISCOVERY_AND_LEDGER_READBACK.md). No second review/publication, code, graph, owner, priority or scheduler change.
+
+
+## h1062:s3 latest-main currentness correction
+
+Amendment 02 supersedes the earlier a5dcc41/12-commit comparison: after Amendment 01 and continuity writes, exact comparison showed main `5fc3dc5c5062f39395fd4b05cefd632e796be07c` 21 commits ahead of generated-discovery commit `b88ab678f8c2d192a5f3cb73480249a4d783a472`. Discovery freshness remains PENDING, record safety FAIL, live route NOT OBSERVED. No later refresh was read back. See [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0703Z_s3_tern_rook_AMENDMENT_02_LATEST_MAIN_CURRENTNESS_CORRECTION.md).
