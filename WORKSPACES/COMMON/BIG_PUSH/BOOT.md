@@ -2,6 +2,7 @@
 
 **Priority:** P0 / highest active programme priority  
 **Workspace:** HsH, WORKSPACES/COMMON/BIG_PUSH/  
+**Navigation:** CREDENZA.md  
 **Canonical control:** PROJECT_CONTROL.md  
 **Proposed continuity steward:** existing Workshop Relay :00 | Archive task only; prompt overlay NOT YET INSTALLED  
 **Human inactivity threshold:** 36 hours without a Big Push interactive heartbeat
@@ -13,7 +14,7 @@ Study and adapt selected historical methodological exemplars (SAT-O, Activator M
 ## Minimal boot sequence
 
 1. Read current HsH BEDROCK, steering/onboarding controls, and the Three Paper Campaign as required by the standing Workshop rules.
-2. Read this capsule, PROJECT_CONTROL.md, WORK_QUEUE.md, OPERATING_PROTOCOL.md, CALENDAR_AND_AUDITS.md, INTERACTIVE_HEARTBEAT.md, and AUTOMATION_STATE.md.
+2. Read this Key, CREDENZA.md, PROJECT_CONTROL.md, WORK_QUEUE.md, OPERATING_PROTOCOL.md, CALENDAR_AND_AUDITS.md, INTERACTIVE_HEARTBEAT.md, and AUTOMATION_STATE.md.
 3. Read only the active operation's named source range and the task-tailored references it points to. Do not reload the entire archive by default.
 4. Check the heartbeat and automation state before claiming work. CALENDAR.json is the machine-readable cadence; heartbeat_check.py is a read-only diagnostic helper, not an alarm or scheduler.
 5. Perform at most one bounded operation in this run. Record exact source identity, actual read extent, result, unresolved questions, and next cursor.
