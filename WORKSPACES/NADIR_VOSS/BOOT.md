@@ -1,7 +1,7 @@
 # Current Lane 36 overlay: h1073:s3
 
 - Report: WORKSPACES/NADIR_VOSS/2026-11-24T1736Z_H1073_S3_CROSS_MODAL_REGISTRATION_GATE.md
-- Publisher intake: https://github.com/Satobloc/HsH/issues/2512 (artifact readback pending)
+- Publisher: https://github.com/Satobloc/HsH/issues/2512 (PUBLISHED_VERIFIED; commit 378471ff7f639b293a6f05c83dbe7ac308e01ecb; SHA-256 0cd4a4ffe523af0ffa2bd64afbb2e521e2f486ca09f05808bcedad8d7d2d1760)
 - Existing PR #1189 branch head: b7db224151f9339c9b89f17543b5c73daba5d707
 - Corrected-head Lean run #45453990100 in progress; no compile result yet. The earlier a2de6a run failed and must not be cited as proof.
 - New module separates window-level clock/spatial registration from sample-level alignment. It is an admission schema, not physical validation.
