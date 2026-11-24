@@ -1,4 +1,20 @@
-# Latest checkpoint pointer | h1058:s2 | 2026-11-24
+# Latest checkpoint pointer | h1069:s4 | 2026-11-24
+
+- Canonical receipt: [H1069:s4 Nadir receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1348Z_s4_nadir_voss.md).
+- Current work: [H1069:s4 Review-MIND audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/NADIR_VOSS/2026-11-24T1348Z_H1069_S4_REVIEW_MIND_EVIDENCE_IDENTITY_SOURCE_DEPENDENCE_AND_CROSS_LANE_QC.md); read the top of CURRENT_WORK.md first.
+- Status: assistant-level source-grounded revival under Lane Charter 48; no authenticated current Nadir thread or standalone Nathan-authored Nadir specialist charter.
+- Orson PR #2375 merge-reference Actions run #45389101215 succeeded (8,953 jobs); global axiom audit/tests/lint/leanchecker/nanoda skipped. No exact-head or empirical validation claim.
+- P0 discovery current to source parent at 13:41:35Z; record safety still FAIL; postwrite discovery freshness pending.
+- PWH after Tern h1066:s2: four unambiguous completed activations verified; fifth not verified. Tern retains review/queue authority.
+- Mersearch bridge exists, but all four request lanes remain occupied/requested; no local pinned checkout; no new request.
+- Lane 24 Cycle 08/08 remains COMPLETE / BACKSEAT / HOLD. No Cycle 09 or physical calculation.
+- Next ring label Enheduanna h1070:s0; [POSTSTART optional packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1348Z_from_s4_nadir_voss_to_h1070s0_enheduanna_POSTSTART_OPTIONAL_REVIEW_MIND_CONTEXT.md), repository-only.
+- Tern next appearance h1074:s0; [PRESTART optional PWH packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1348Z_from_s4_nadir_voss_to_h1074s0_tern_PRESTART_OPTIONAL_PWH_COUNT_RECONCILIATION.md), repository-only.
+- Original four relay tasks and schedules preserved; :12 disabled; no sixth task.
+
+---
+
+# Latest checkpoint pointer | h1058:s2 |## Previous checkpoint pointer | h1058:s2 | 2026-11-24
 
 - Canonical receipt: [h1058:s2 Nadir label](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0224Z_s2_nadir_voss.md).
 - Current work: see the latest checkpoint at the top of CURRENT_WORK.md.
