@@ -20,6 +20,8 @@ def eligible(path):
 
 def workspace_record(path):
     return path.startswith('WORKSPACES/')
+def visual_eligible(path):
+    return path.startswith('SAT_VISUALS/') and not EXCLUDED.search(path) and Path(path).suffix.lower() in {'.png','.jpg','.jpeg','.webp'}
 def square(width,height): return min(width,height)>=128 and .9<=width/height<=1.1
 
 def request(url,limit=16*1024*1024):
@@ -95,7 +97,13 @@ def run(args):
             for prior in old.values():
                 if prior.get('repo') != name:
                     continue
-                if workspace_record(prior.get('path','')):
+                path=prior.get('path','')
+                # Reapply current policy during last-good retention: a path excluded
+                # after the previous snapshot must not survive merely because this
+                # repository could not be refreshed.
+                if not eligible(path):
+                    continue
+                if workspace_record(path):
                     # Preserve last-good metadata, but never retain raw reader/excerpt
                     # surfaces from an older workspace snapshot.
                     safe=dict(prior)
@@ -106,7 +114,9 @@ def run(args):
                     documents.append(safe)
                 else:
                     documents.append(prior)
-            visuals.extend(previous.get('visuals',[]) if name=='hsh' else [])
+            if name=='hsh':
+                # Retain only last-good visuals whose paths still pass current policy.
+                visuals.extend(x for x in previous.get('visuals',[]) if visual_eligible(x.get('path','')))
             errors.append(name+': '+str(e))
             continue
         for f in data['tree']:
@@ -123,7 +133,7 @@ def run(args):
                     if k in prior:item[k]=prior[k]
             documents.append(item)
         if name=='hsh':
-            files=[f for f in data['tree'] if f['type']=='blob' and f['path'].startswith('SAT_VISUALS/') and not EXCLUDED.search(f['path']) and Path(f['path']).suffix.lower() in {'.png','.jpg','.jpeg','.webp'}]
+            files=[f for f in data['tree'] if f['type']=='blob' and visual_eligible(f['path'])]
             with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
                 tasks={pool.submit(image,name,data['sha'],f,out,old_images):f for f in files}
                 for future in concurrent.futures.as_completed(tasks):

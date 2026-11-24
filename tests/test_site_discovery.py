@@ -73,6 +73,44 @@ class DiscoveryTests(unittest.TestCase):
    self.assertEqual(control['reader'],'reader.html?mode=browse&path='+regular)
    self.assertEqual(control['excerpt'],'approved excerpt')
    self.assertIn('hsh:'+regular,d['docket'])
+ def test_stale_fallback_reapplies_current_record_and_visual_eligibility(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp);out=root/'out';trees=root/'trees';trees.mkdir()
+   excluded_workspace='WORKSPACES/QUARANTINE/secret.md'
+   excluded_regular='LIBRARY/PRIOR_ART/secret.pdf'
+   eligible_workspace='WORKSPACES/PAPERS/accepted.md'
+   eligible_regular='LIBRARY/presented/approved.md'
+   old=[
+    {'id':'hsh:'+excluded_workspace,'repo':'hsh','path':excluded_workspace,'sha':'xw','size':20,'kind':'md','title':'Excluded workspace','reader':'reader.html?mode=browse&path='+excluded_workspace,'excerpt':'private excerpt','excerpt_scope':'legacy','first_seen':'first','changed_at':'old','revision_detected':False},
+    {'id':'hsh:'+excluded_regular,'repo':'hsh','path':excluded_regular,'sha':'xp','size':20,'kind':'pdf','title':'Excluded prior art','reader':'reader.html?mode=browse&path='+excluded_regular,'excerpt':'legacy prior-art excerpt','excerpt_scope':'legacy','first_seen':'first','changed_at':'old','revision_detected':False},
+    {'id':'hsh:'+eligible_workspace,'repo':'hsh','path':eligible_workspace,'sha':'ew','size':20,'kind':'md','title':'Eligible workspace','reader':'reader.html?mode=browse&path='+eligible_workspace,'excerpt':'legacy workspace excerpt','excerpt_scope':'legacy','first_seen':'first','changed_at':'old','revision_detected':False},
+    {'id':'hsh:'+eligible_regular,'repo':'hsh','path':eligible_regular,'sha':'er','size':20,'kind':'md','title':'Approved reader','reader':'reader.html?mode=browse&path='+eligible_regular,'excerpt':'approved excerpt','excerpt_scope':'approved source','first_seen':'first','changed_at':'old','revision_detected':False}
+   ]
+   old_visuals=[
+    {'sha':'v1','path':'SAT_VISUALS/PRIOR_ART/secret.png','square':True,'thumbnail':'thumbnails/v1.jpg','source_url':'secret'},
+    {'sha':'v2','path':'SAT_VISUALS/QUARANTINE/secret.png','square':True,'thumbnail':'thumbnails/v2.jpg','source_url':'secret'},
+    {'sha':'v3','path':'SAT_VISUALS/approved/good.png','square':True,'thumbnail':'thumbnails/v3.jpg','source_url':'approved'},
+    {'sha':'v4','path':'LIBRARY/approved.png','square':True,'thumbnail':'thumbnails/v4.jpg','source_url':'outside'}
+   ]
+   m.atomic(out/'discovery.json',{'documents':old,'docket':[x['id'] for x in old],'visuals':old_visuals})
+   m.atomic(trees/'hsh.json',{'sha':'last-good-hsh','truncated':True,'tree':[]})
+   m.atomic(trees/'sat.json',{'sha':'current-sat','truncated':False,'tree':[{'type':'blob','path':'archive.pdf','sha':'pdf-sha','size':20}]})
+   args=argparse.Namespace(out=str(out),tree_dir=str(trees),excerpts=10)
+   self.assertEqual(m.run(args),2)
+   d=m.load(out/'discovery.json',{});docs={x['path']:x for x in d['documents']}
+   self.assertNotIn(excluded_workspace,docs)
+   self.assertNotIn(excluded_regular,docs)
+   kept_workspace=docs[eligible_workspace]
+   self.assertIsNone(kept_workspace['reader'])
+   self.assertEqual(kept_workspace['presentation_state'],'PRESENTATION_PENDING')
+   self.assertNotIn('excerpt',kept_workspace)
+   self.assertNotIn('excerpt_scope',kept_workspace)
+   self.assertEqual(docs[eligible_regular]['reader'],m.route('hsh',eligible_regular))
+   self.assertEqual(docs[eligible_regular]['excerpt'],'approved excerpt')
+   self.assertNotIn('hsh:'+eligible_workspace,d['docket'])
+   self.assertNotIn('hsh:'+excluded_workspace,d['docket'])
+   self.assertIn('hsh:'+eligible_regular,d['docket'])
+   self.assertEqual([x['path'] for x in d['visuals']],['SAT_VISUALS/approved/good.png'])
  def test_truncated_tree_walk(self):
   with patch.object(m,'api',side_effect=[{'sha':'root','truncated':True,'tree':[]},{'tree':[{'type':'tree','path':'nested','sha':'dir'}]},{'tree':[{'type':'blob','path':'a.pdf','sha':'a'}]}]):self.assertEqual(m.tree('Satobloc/HsH')['tree'][0]['path'],'nested/a.pdf')
 if __name__=='__main__':unittest.main()
