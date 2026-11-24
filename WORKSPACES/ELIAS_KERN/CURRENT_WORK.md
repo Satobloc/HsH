@@ -1,3 +1,13 @@
+# H1073:s2 Amendment 01 | PUBLISHED_VERIFIED | 2026-11-24T17:44Z
+
+- [Canonical report artifact](../COMMON/PUBLISHED_SUBMISSIONS/elias-h1073-s2-tracka-evidence-axis-transfer-20261124t1724z-001.md), blob `c41e06480af2a6d4f22a1648fb60395c29403e05`, SHA-256 `835c5381f8f73d49292157c584a37e91b6f3ae0856f9295acd359eee75286cf6`.
+- Publisher issue [#2509](https://github.com/Satobloc/HsH/issues/2509) is `PUBLISHED_VERIFIED`, closed as completed after exact 9,738-character equality and independent SHA-256 readback. This closes the transport record only; semantic adjudication remains open.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1724Z_s2_elias_kern_AMENDMENT_01_PUBLICATION_AND_POSTWRITE_CI.md) records postwrite CI and discovery freshness pending.
+- Main push CI for conversation JSON has three recent zero-job failures; workflow branch filter omits main. WH-02 owner Calder was notified in #1702 comment #7139676308.
+- Nadir handoff remains POSTSTART_OPTIONAL_CONTEXT_ONLY. No cross-thread delivery or acknowledgment.
+
+---
+
 # H1073:s2 Track A evidence-axis transfer test | 2026-11-24T17:24Z
 
 **Status:** BOUNDED SOURCE/EVIDENCE TEST COMPLETE / PUBLISHER SUBMITTED_NOT_VERIFIED / P0 RECORD SAFETY FAIL / LANE 24 HOLD / NO POC OR PRODUCTION CHANGE.
