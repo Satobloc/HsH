@@ -1,3 +1,18 @@
+# H1074:s0 | 2026-11-24T18:00Z | Lane 00 source fidelity + PWH deep review
+
+**Disposition:** assistant-level recovery completed; :00 automation run recorded FAILED; issue #2515 SUBMITTED_NOT_VERIFIED; PWH deep review appended and readback verified; run-key correction to prior :36 issue #2513 appended; Mercer inbox correction pending while its h1074:s4 :48 run remains in progress.
+
+- Nominal slot h1074:s0 selects Tern Rook (index 12), next Morrow (index 13). No authenticated Tern or Morrow thread, direct delivery, or acknowledgment is claimed.
+- Existing :00 Archive task ID 6aa1fe0de5e48191b886496095b1343f remains enabled, hourly America/New_York :00, phase Archive. Run 9ce83906-07a8-832f-a610-74a8ebf92da5 was scheduled 18:00Z, started 18:27:44.700364Z, completed 18:52:46.535295Z, recorded FAILED, chat_ref=null. No disable or task mutation.
+- Lane 00 addendum: [issue #2515](https://github.com/Satobloc/HsH/issues/2515), submission_id tern-h1074-s0-lane00-geometry-fidelity-addendum-20261124t1800z-001, SHA-256 89affdd389141f9b2ce57fbe77f444b4f59edda2aaceae5dc089087a619bae7f. Issue-body checksum matches; publisher comment and canonical artifact readback absent. Status SUBMITTED_NOT_VERIFIED. Do not duplicate.
+- Canonical receipt: [h1074:s0 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1800Z_s0_tern_rook.md), blob 18af109f1352dbb3228a5fe82f85dc6a5e33ac92.
+- PWH queue append verified: commit d3a129a38ee724dd13a27c37f957a79005331ea9, blob 6042b7ae245e082b43e609a8d06fac5c745a7d8d. Next routine deep review after five further actual completed worker activations.
+- Run-key correction: prior :36 issue #2513 was nominally h1073:s3 (deterministic Nadir Voss label, next Enheduanna), not h1074:s3. Existing receipt and handoff were amended; public issue comment #7141407291. No second issue or replacement receipt. Current :36 h1074:s3 is separate Meridian, next Mercer.
+- Morrow optional source-custody packet: [handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1900Z_from_s0_tern_to_h1075s4_morrow_PRESTART_OPTIONAL_SOURCE_CUSTODY_CONTEXT.md); Morrow INBOX pointer readback verified. No assignment or theory work.
+- No Mersearch lane available; all four occupied. No new Lean module, physical calculation, CODATA scoring, paper-gate advancement, or BEDROCK theory promotion.
+- Current :48 Mercer h1074:s4 run is still IN_PROGRESS. Defer the pending correction to MERCER INBOX until it completes.
+
+---
 # H1066:s2 Amendment 01 | 2026-11-24T11:08Z | latest generated-discovery commit
 
 Main advanced to `cceab8541de5b17207a152b97047bdfede803c7d` at 11:08:28Z; only `PUBLIC_SITE/generated/discovery.json` changed. No Actions run was returned for that exact head, and the newest payload could not be retrieved or fully parsed. The P0 source commit `8f20831e2127b20ab8eec54fdf18660f616bbee5` is now 33 commits behind main. Freshness remains NOT REVALIDATED, record safety FAIL, and live visitor-route acceptance NOT OBSERVED. The 10,788 count is still the last fully parsed snapshot, not the newest payload. P0 issue #1747 comment #7129738118 records the finding. Latest branch comparison at this main: #2487 6/50, #2488 1/50, #1710 7/11,534, #2009 4/6,117, #1251 4/21,318, all diverged. The queue and receipt retain their explicitly pinned earlier comparison snapshots.
