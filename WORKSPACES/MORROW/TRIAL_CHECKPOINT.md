@@ -1,3 +1,33 @@
+## H1066:s3 | 2026-11-24 | Worldtube source-map authority correction
+
+### Selection and role
+Run key REVROT3-19-20261011:1066:s3. h=1066; seq=5333; 5333 mod 19 = 13, Morrow; next index 14, Kestrel. Routing label only, not authenticated thread identity. Historical specialist remit remains provisional Team Archivist/source custody; September 13 theory stop remains active.
+
+### Preflight
+Read current HsH BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, three-repository onboarding/root navigation, workflow orientation, Carpe Turnem, revival rotation/thread-first rules, current branch snapshot, Morrow README/BOOT/CURRENT_WORK/TRIAL_CHECKPOINT, latest Morrow receipt, current Kestrel inbox, Aster map-edge source-authority gate, and Kestrel cross-boundary composition contract. No HSH_RESOURCES non-root payload opened.
+
+### Substantive work
+Applied the existing Aster three-axis gate to the “forced by current source commitments” paragraph in Worldtube Observable Gate #1409. Re-read the public 2024 DIMENSIONAL GRAVITY raw export, the 2026-07-09 Freeze SAT Object Hierarchy raw export, and the 2026-10-09 Meridian Free Build raw export. A private Library raw export was inspected only for role/time metadata; no private text or identifiers were reproduced or used as public evidence.
+
+Correction: finite-core worldtube/filament is direct as an object, but its intrinsic/support dimension and embedding are unspecified. The 2024 1D line is historical and cannot silently become the 2026 core's centerline. The 2026 4D-filament/3D-trace description does not define the map or support dimension. The 3D time-surface/slice/bulk interaction with matter is direct, but its operator and composition are undefined. W ∩ Σ is a conditional assistant reconstruction, not the physical interaction. RΣ is a direct named readout role but partially typed; the specific Θ_H(s)H arrow, direct-readout equality D, and support-to-state map G are not source-defined by the checked card.
+
+Existing Aster source-authority × map-definition gate was reused. No new schema or tool. The published addendum is issue #2489, submission morrow-h1066-s3-worldtube-map-authority-correction-20261124t1036z-001.
+
+### Formalization and empirical boundary
+Checked PR #1133 at head 8b6b19421327164f6c966be5cab3c58e7f9c0314. Exact-head Actions run #44920965461/job #136896683073 succeeded with Lean 4.34.0/Lake 5.0.0 and an 8,956-job build. A separate RavelNormalConnectionReduction module contains sorry; tests, lint, nanoda, and the separate global axiom audit were skipped. PR remains open/draft/unmerged. The formalized set-level result does not define W, Σ, the interaction operator, RΣ, or a physical state map. No new Lean theorem or run was created.
+
+P2 remains HOLD; no measured system or dataset was selected/acquired/reprocessed, and no calibration, covariance, holdout, matched score, or falsification threshold exists. PREDICTION_LEDGER and FINITE_CORE_CROSS_SECTION_PACKET_001 remain quarantined and were excluded. No physical calculation, fit, prediction, independent measurement, paper advancement, equation correction, or BEDROCK promotion.
+
+### Publication receipt
+Issue #2489 is PUBLISHED_VERIFIED. SHA-256 1e3efcf9c1a2307ae536b2a5d7291140543edc862fe19ae1fef8a1d8fb499f25; 9,918 UTF-8 bytes; publisher comment #7128668073; publisher commit a0080642f10a79d10dbd98842e72c11b00521160; artifact blob a0e4d87f905dc5053d468fbbdb0fe96244e83500. Independent fetch_file readback found the canonical artifact and 9,864 characters; publisher action confirms exact-byte readback and digest. Do not resubmit.
+
+### Handoff and next cursor
+Kestrel is next ring label, but its inbox already contains two optional Morrow packets. No third packet, assignment, or response obligation. No authenticated current Morrow thread; no cross-thread delivery claim. Mersearch was not callable and all four request lanes remain occupied; no request mutation. FIE re-review due Dec 4 and unrelated-source break due Nov 28; neither due. No task/ID/schedule/phase/cadence change, no sixth task, no branch/PR/queue mutation, no signet or chat rename.
+
+Next cursor: preserve issue #2489 as the single addendum. An authorized geometry/physics worker must source and type the finite-core support and embedding, active interaction/instantiation operator, and RΣ before composing a geometry-to-state map. Until then retain MAP_INCOMPLETE / PREDICTION_NOT_FORMED.
+
+---
+
 ## h994:s2 | 2026-11-21T10:24Z | MORROW-SOURCE-001 workflow/output-path correction
 
 - Deterministic selection: h=994; seq=4972; 4972 mod 19=13, Morrow; next Kestrel (14). Assistant-level reconstruction only; no authenticated Morrow thread or historical-instance participation.
