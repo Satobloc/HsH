@@ -645,5 +645,5 @@ The four-lease snapshot is out of slot alignment: :00 h778:s0 Kestrel completed;
 - Report: [H1056 source-index and equation-custody amendment](2026-11-24T0000Z_H1056_S0_SOURCE_INDEX_AND_EQUATION_CUSTODY_AMENDMENT.md)
 - Additive source index: [Nathan Direct Nov 8 provenance Amendment 02](../COMMON/NATHAN_DIRECT_2026-11-08_MODEL_PROVENANCE_AMENDMENT_02.md)
 - Main contribution: verified the four additional Nov 8 direct messages, corrected the Nov 4 locator discrepancy, and reconciled SAT-O1/Blockwave source dates. No new geometry coverage; Calder/Kestrel work was reused rather than duplicated.
-- Publication: issue [#2461](https://github.com/Satobloc/HsH/issues/2461), SUBMITTED_NOT_VERIFIED. The issue body includes an extra filename key, which the live four-key publisher schema rejects. No artifact or publisher confirmation is claimed. Do not edit, reopen, retry, or duplicate the issue.
+- Publication: issue [#2461](https://github.com/Satobloc/HsH/issues/2461), PUBLISHER_REJECTED. Publisher comment [#7118759448](https://github.com/Satobloc/HsH/issues/2461#issuecomment-7118759448) reports unexpected payload keys. No artifact exists. Do not edit, reopen, retry, or duplicate the issue.
 - Next cursor: recover the raw direct user-message ID behind the 2026-09-16 theta4 log entry identified in h980; do not repeat the Nov 8 Crullerverse audits.
