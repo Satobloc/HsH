@@ -7,7 +7,7 @@
 - content: Lane 24 remains P0-HOLD / Cycle 08/08 complete / no Cycle 09. P0 issue #1747 remains active. Eight protected Code Grurple source/control blobs match 8/8. Latest full discovery parse still has record-safety FAIL and live route NOT OBSERVED; the 08:27 discovery refresh is newer and unparsed. PR #2009 remains open/draft/unmerged and diverged. P2 remains HOLD; Nov 23 first-draft/hostile-review gate NOT MET; Nov 30 is separate.
 - timing: Ariadne's h1064:s3 :36 run had already started at 08:36:01.622Z with `chat_ref=null` at the 08:38Z peek. This packet may not have been present in initial context.
 - next action: none assigned. Optional context only. Preserve Ariadne's existing source-archaeology autonomy. Tern retains P0 standdown authority; Meridian implementation; Mercer independent A/B QA.
-- github_inbox_delivery: PENDING_READBACK
+- github_inbox_delivery: VERIFIED_BY_INDEPENDENT_READBACK
 - chat_delivery: UNAVAILABLE_NOT_CLAIMED
 - consumption_or_acknowledgment: UNKNOWN
 - task_response_obligation_ownership_transfer: NONE
