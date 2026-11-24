@@ -74,3 +74,19 @@ The current Code Grurple roster freezes Aster's formal Paper A review. The histo
 - Do not promote sandbox findings into BEDROCK without the required review.
 - Do not publish private HSH_RESOURCES paths or content.
 - Keep the historical Aster role, current task assignment, current instance, and durable memory as separate objects.
+
+
+## Raw conversation identity and path-admission gate | 2026-11-24 h1079:s3
+
+Before declaring a raw conversation ID mismatched, unreadable, or ambiguous:
+
+1. Fetch the workspace path and record its exact Git blob SHA.
+2. If the Contents API returns an empty body for a large file, fetch the blob by that SHA. An empty transport response is `UNREADABLE_NOT_OBSERVED`, not evidence of a mismatch.
+3. Parse the raw JSON and compare its embedded `conversation_id` with the workspace pointer. Record both exact values and the source blob.
+4. Traverse parent pointers from `current_node`; record cycles, missing parents/children, reciprocity errors, roots, leaves, branch nodes, total ancestry, and source-message membership.
+5. Admit a source claim into a geometry/prediction lineage only with conversation ID, blob SHA, message UUID, parent ID, outer role, selected-ancestry status, and span/content identity. User-role is a source role, not independent authentication of the human speaker or of a physical premise.
+6. Use typed outcomes: `MATCH`, `MISMATCH_VERIFIED`, `UNREADABLE_NOT_OBSERVED`, or `POINTER_UNRESOLVED`. Do not infer mismatch from an empty fetch or a secondary note.
+
+**Aster source correction:** raw blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8` at `DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20•26.10.17•ASTER — raw.json` embeds `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, matching the workspace pointer. The earlier value `6ab006ce-23a8-4e11-8c7a-3b04d6b7a51e` was an unsupported prior transcription. The raw graph has 1,818 mapping entries, 39 user-role messages, all 39 on the selected ancestry, one root, one leaf, no branch nodes, and no missing or nonreciprocal parent/child edges. See [h1079:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T2336Z_s3_aster.md) and [public correction comment #7147729713](https://github.com/Satobloc/HsH/issues/2469#issuecomment-7147729713).
+
+This is a worker-local provenance gate. It does not authenticate a current Aster thread, prove historical authorship beyond the archived outer role, or validate geometry/physics.
