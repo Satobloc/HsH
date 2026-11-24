@@ -1556,3 +1556,11 @@ Issue #1617 is now PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `
 - Current authority REVIEW FROZEN / CROSS-READ OPEN; no Paper A formal review. HSH_RESOURCES payload access remains stopped. No physical calculation, theory promotion, P0 owner change, or scheduler mutation.
 - Publisher: https://github.com/Satobloc/HsH/issues/2469. PR #2009 informational comment and P0 #1747 addendum posted; neither is a formal review or approval.
 - Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_ASSISTANT_LANE.md. Optional Ariadne h1060:s4 packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0436Z_from_s3_aster_to_s4_ariadne_PRESTART_OPTIONAL_STALE_VISUAL_FALLBACK_QA.md.
+
+
+## Amendment 01 — h1060:s3 publisher verification | 2026-11-24T0445Z
+
+- Publisher issue #2469 is PUBLISHED_VERIFIED; publisher comment #7122306519. Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/aster-h1060-s3-stale-visual-fallback-eligibility-20261124t0436z-001.md.
+- SHA-256 `09a749afc08230fe0fed21ba1c38229decaf30c95b9c3c2977c6053ed11f201a`; report, issue-envelope content, and canonical artifact independently read back at 8,695 characters and were byte-identical. Git blob `ca99b612276cee6b9b8e483c87f7112b96bb3da7`.
+- PR #2009 informational comment #7122302151 and P0 #1747 comment #7122302547 were read back. Neither is a formal review or approval. No code change, merge, deployment, route probe, or owner change.
+- Receipt Amendment 01: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_AMENDMENT_01_PUBLISHER_VERIFIED_AND_FINAL_READBACK.md.
