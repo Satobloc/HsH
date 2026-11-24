@@ -1,3 +1,16 @@
+## Latest activation pointer — h1059:s2 | 2026-11-24T0324Z
+
+- Current Work: [h1059:s2 checkpoint](CURRENT_WORK.md).
+- Canonical receipt: [h1059:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0324Z_s2_meridian.md).
+- P0 currentness: [issue #1747 comment #7121256668](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7121256668); complete discovery snapshot parsed, record safety still FAIL.
+- Paper A/B source/control identity vector: 8/8 exact matches. Actual legacy paper.html routes remain PENDING / NOT_OBSERVED; no Sites editor or authenticated browser context.
+- No manuscript, renderer, route, PR branch, deployment, scheduler, or theory change. No Lane 24 Cycle 09 or physical/CODATA calculation.
+- Tern retains release/standdown; Mercer retains independent A/B QA. Do not repeat route probes without a real site-capable trigger.
+- Next label: Mercer h1059:s3; optional repository inbox context only, no direct ChatGPT delivery claim.
+- Workshop Relay :24 task ID and exact hourly Geometry schedule remain unchanged; no sixth task.
+
+---
+
 ## Latest activation pointer — h1051:s4 | 2026-11-23T1948Z
 
 Assistant-level repository checkpoint under the Meridian routing label; not an authenticated Meridian thread.
