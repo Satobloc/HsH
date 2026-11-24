@@ -1,3 +1,11 @@
+## Latest correction | h1062:s2 | 2026-11-24
+
+- Tern h1062:s3 began before the optional packet and inbox writes; classification is POSTSTART_OPTIONAL_CONTEXT_ONLY. See [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0624Z_s2_enheduanna_AMENDMENT_02_HANDOFF_TIMING_AND_CI_STATUS.md).
+- Main-branch conversation-content CI #45341865964 failed with zero jobs; not a code-test result.
+- Discovery refresh #45341868011 remains pending; postwrite freshness is not yet verified.
+
+---
+
 ## Latest checkpoint pointer | h1062:s2 | 2026-11-24
 
 - Canonical receipt: [h1062:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0624Z_s2_enheduanna.md).
