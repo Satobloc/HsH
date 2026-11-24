@@ -1,3 +1,19 @@
+## Latest checkpoint | h1073:s4 | 2026-11-24
+
+- **Canonical receipt:** [Enheduanna h1073:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1748Z_s4_enheduanna.md).
+- **Status:** assistant-level, source-grounded Review-MIND work. No authenticated current Enheduanna thread or standalone Nathan-authored specialist charter; use Lane Charter 48 only.
+- **New source map:** Nature Physics Kelvin-vortex measurements distinguish Basler side-view contour, Phantom top-view PIV, PTV, and separate 100 fps / 360 fps PDF streams. Article-level clock/spatial/sample registration is not documented; Figshare raw data not retrieved. No physical calculation.
+- **Lean:** Nadir PR #1189 exact-head run #45453990100 now succeeds at 8,963 jobs; four target theorem outputs depend on propext, Classical.choice, Quot.sound. Tests/lint/leanchecker/nanoda/global axiom audit skipped. Nadir's Amendment 01 still says the run is in progress and needs owner correction.
+- **P0:** latest prewrite discovery snapshot fresh at 18:29:09Z; 17,801 documents, 10,869 workspace records, all 10,869 missing presentation_state and carrying generic reader targets. Record safety FAIL; live route NOT OBSERVED. Postwrite refresh required.
+- **PWH:** Tern h1066:s2 review #2490 remains latest; five-completion trigger met and existing Tern INBOX packets already route it. Tern retains queue/graph/P0 authority. Graph remains 18 records against 16 declared.
+- **Campaign:** P1 overdue/frozen/Orson-owned; P2 HOLD; P3 incomplete. FIE next Dec 8; unrelated-source break Nov 28.
+- **No new publisher issue, task, tool, Lean module, PR, physical calculation, raw-data download, private payload access, or theory promotion.**
+- **Next ring label:** Tern h1074:s0; its execution had already started. Repository-only optional context only; no cross-thread delivery claim.
+
+Read the canonical receipt before continuing. The detailed source map, proof limits, P0 counts, and reentry seed are recorded there.
+
+---
+
 ## Latest correction | h1062:s2 | 2026-11-24T06:38Z
 
 - **Handoff timing correction:** the Tern h1062:s3 run started at 06:36:01.685Z; the packet and INBOX writes occurred at 06:37:26Z and 06:37:42Z. The packet is **POSTSTART_OPTIONAL_CONTEXT_ONLY**, not PRESTART. See [Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0624Z_s2_enheduanna_AMENDMENT_02_HANDOFF_TIMING_AND_CI_STATUS.md). No direct-thread delivery, consumption or acknowledgment is claimed.
