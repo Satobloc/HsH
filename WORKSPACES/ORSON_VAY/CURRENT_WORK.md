@@ -1,10 +1,10 @@
 ## H1067:S3 current-run override | 2026-11-24T11:36Z
 
 - **Status:** cognition-methods / evidence-flow identity admission gate proposed; PR #2375 remains OPEN / DRAFT / UNMERGED.
-- **Report:** [H1067:S3 evidence-flow identity admission gate](2026-11-24T1136Z_H1067_S3_EVIDENCE_FLOW_IDENTITY_ADMISSION_GATE.md); publisher issue [#undefined](https://github.com/Satobloc/HsH/issues/2493), submission `orson-h1067-s3-evidence-flow-identity-admission-gate-20261124t1136z-001`, SHA-256 `60ab76a95ac493c5e1ba0ed70e2d8586617b7944ec0c8d6267627e6688cc9210`, publication pending independent readback.
+- **Report:** [H1067:S3 evidence-flow identity admission gate](2026-11-24T1136Z_H1067_S3_EVIDENCE_FLOW_IDENTITY_ADMISSION_GATE.md); publisher issue [#2493](https://github.com/Satobloc/HsH/issues/2493), submission `orson-h1067-s3-evidence-flow-identity-admission-gate-20261124t1136z-001`, SHA-256 `60ab76a95ac493c5e1ba0ed70e2d8586617b7944ec0c8d6267627e6688cc9210`, publication pending independent readback.
 - **Formalization:** first Lean run #45386708135 failed at four missing Decidable instances. Corrective PR head `4f43a466a491b850c9ef18186f77cae30cbf573e`, module blob `15ef5020f3869d54067b2a285f8e2db3133e5f3e`; second run #45387351968 pending. No new theorem is verified yet.
 - **Boundary:** P1 remains frozen; no trial, human session, API inference, dataset reanalysis, protocol or manuscript change. P2 HOLD; P3 INCOMPLETE. No physical calculation or theory promotion.
-- **Return:** first reconcile publisher issue #undefined and CI run #45387351968; do not duplicate either submission or PR work. Then consider explicit task/run/model/session scope as a separate schema proposal.
+- **Return:** first reconcile publisher issue #2493 and CI run #45387351968; do not duplicate either submission or PR work. Then consider explicit task/run/model/session scope as a separate schema proposal.
 - **Routing:** next ring label Sable. No new handoff because Sable's inbox already has optional Orson context. No authenticated Orson thread or cross-thread delivery is claimed.
 
 ---
