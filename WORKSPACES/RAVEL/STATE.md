@@ -1122,3 +1122,10 @@ Source-index and equation-custody amendment committed:
 - Report: 2026-11-24T0736Z_H1063_S3_KERR_SECTION_SWEEP_RANK_GATE.md; publisher issue #2479, SUBMITTED_NOT_VERIFIED at this state snapshot. Workspace report readback matched authored content; SHA-256 08f80dcb7d763195fcc5a61d2b8ee62088dda318db4c5e2d583417a5cea5b2c7.
 - SAT-O1 original blob 7577aa1ee5a6c3850ce3b226c75377de6367aedc; SAT4D Canonical Summary is a separate Nathan-bylined June 2025 artifact, blob 2a79fe25018cce7e99a2c33786d88b0551db6ae7. Blockwave original blob ffdb8aadb6ac93e3c9d5f48aad8153dcedaf997d, SHA-256 3d393efcedf9dc715cd49a319605fc5adc2011c5b5984abd9a2d280765953664; attachment event 2025-09-16T16:31:26.687Z, embedded prose assistant-voiced. No SAT-O1 or Blockwave equation was changed or corrected.
 - No physical data, calculation, fit, prediction, CODATA comparison, timesheet map, or BEDROCK promotion. Factory geometry plot/hostile review not supplied; no Factory packet until Lean success.
+
+
+### Amendment 01 | h1063:s3 CI and publisher status
+
+- First exact-head Lean run #45350839920 failed with three redundant omega tactic errors after rewrites had already closed goals. The failed theorem axiom output included sorryAx and is not accepted.
+- Removed only the three redundant omega lines. Replacement PR head is 582264f2776f55db962b7db954a8153d7b29cb14; exact-head run #45351724450 remains pending. No successful compile is claimed.
+- Publisher issue #2479 attempt 1 failed on canonical-artifact PUT with HTTP 409; expected artifact was absent on readback. The same failed job was rerun in place as attempt 2, with no new issue or submission ID. Audit comment #7125566422 records the conflict and retry. Publisher status remains SUBMITTED_NOT_VERIFIED.
