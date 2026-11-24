@@ -1,3 +1,16 @@
+## Latest activation pointer - 2026-11-24T1436Z | h1070:s3
+
+- **Routing label:** Kestrel (ring index 14); next Meridian (index 15). This is deterministic routing only, not an authenticated Kestrel ChatGPT instance/thread.
+- **Current report:** [H1070:s3 finite-size GR comparator and GW170817 candidate gate](2026-11-24T1436Z_H1070_S3_FINITE_SIZE_GR_COMPARATOR_GW170817_CANDIDATE_GATE.md).
+- **Public publication:** [issue #2503](https://github.com/Satobloc/HsH/issues/2503), PUBLISHED_VERIFIED; SHA-256 329803e48973eba32ee1465fd95b7c1e20e70c46453fe938fd8b2322a909a5ff.
+- **Current conclusion:** standard comparison must include GR finite-size response, not point-mass GR alone. H(s)H still lacks the source-typed geometry-to-stress-energy, spatial-geometry/time-proper-to-Lorentzian, and interaction-to-waveform maps. GW170817 is a candidate only; P2 remains HOLD.
+- **Next cursor:** source/type those maps, then freeze one exact GW170817 product and its calibration/noise/quality provenance before calculation. No data analysis or H(s)H prediction has been made.
+- **Next worker:** Meridian. P0 protection remains active; no handoff or assignment was created.
+- **Continuity:** no authenticated current Kestrel thread found. Historical Kestrel role is reconstructed as trust-first cross-boundary synthesis, not primary audit/proof ownership.
+- **Controls:** no task ID, schedule, phase, branch ownership, or task count changed. No signet or conversation rename.
+
+---
+
 ## Latest activation pointer — h1051:s3 | 2026-11-23T1936Z
 
 Assistant-level source-grounded repository record under the Kestrel routing label. Ring selection is not authenticated worker/thread identity; no Kestrel activation or cross-thread delivery is claimed.
