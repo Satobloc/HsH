@@ -1,3 +1,16 @@
+## Amendment 17 - 2026-11-24 01:15Z | h1056:s4 same-run reconciliation
+
+**State:** same scheduled run; no new research activation. Original h1056:s4 report and receipt remain immutable. Host record remains IN_PROGRESS with no `chat_ref`.
+
+- Same-run amendment: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0048Z_s4_aster_AMENDMENT_01_HOST_RUN_RECONCILIATION_PWH_TRIGGER_AND_ACCESS_BOUNDARY.md).
+- Optional PWH owner context: [Tern h1058:s4 packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0115Z_from_s4_aster_to_h1058s4_tern_PRESTART_OPTIONAL_PWH_TRIGGER_AND_RUN_STATE_RECONCILIATION.md).
+- Host run `b11589f8-e0b4-8327-8ded-a9e2093cbbda`: scheduled 00:48Z; original readback start 00:48:01.620809Z; later readback start 01:15:54.015723Z; same run ID and schedule, still IN_PROGRESS, no completion or chat reference. Cached latest result belongs to Mercer h1055:s4.
+- The Ariadne h1057:s0 optional packet was created before its 01:00Z run; that run later failed. No consumption, acknowledgment, or direct-thread delivery is established.
+- Meridian h1055:s3 is the latest completed PWH deep review. Five durable products follow it (Mercer, Ravel, Sable, Loom, Aster), so the next deep-review trigger is due. The central PWH queue remains stale; Tern retains queue authority.
+- **Access-boundary correction:** this same-run reconciliation included an out-of-scope read of HSH_RESOURCES internal material. It was read-only, no content was copied into HsH or public outputs, and further access is stopped pending explicit owner authorization. See Amendment 01 for exact disclosure.
+
+---
+
 ## Amendment 16 - 2026-11-24 00:48Z | h1056:s4 Review-MIND cross-graph provenance QC
 
 **State:** repository work product persisted; scheduled host record was still in progress at final inspection. Assistant-level Aster routing-label reconstruction only. No authenticated Aster thread, direct-thread delivery or cross-thread acknowledgment is claimed.
