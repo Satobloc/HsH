@@ -612,3 +612,15 @@ The exact-ID :36 task lookup is intermittent: one successful peek confirmed the 
 - Second run #44901520114 passed exact-head checkout and dependency-manifest generation but failed in the new module because two hypothesis identifiers `hλ` remained at lines 74 and 94. Six declarations compiled and emitted theorem-specific axiom output; two did not elaborate. This was a module parse failure, not an unrelated library failure.
 - Corrected PR head `4def0c737075473af95c43a1e4d2ee50ba198531` renames the remaining identifiers to `hLambda`. Third exact-head run #44901806241 / job #136839082751 was IN_PROGRESS at this amendment, still in checkout. No full Lean pass claimed.
 - [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T1136Z_s3_sable_AMENDMENT_02_SECOND_LEAN_FAILURE_AND_RETRY.md). PR #2275 remains draft/unmerged.
+
+## Latest checkpoint: h1064:s0 (2026-11-24T08:00Z)
+
+Report: WORKSPACES/SABLE/2026-11-24T0800Z_H1064_S0_CRULLER_PHASE_MODEL_TRANSLATION_AUDIT.md  
+Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0800Z_s0_sable.md  
+Publisher intake: issue #2484; SUBMITTED_NOT_VERIFIED at checkpoint creation.
+
+Lane 00 added a focused fidelity audit of the historical Cruller phase-front / projected-speed assistant reconstruction. The conditional 3D-boundary/3D-timesheet intersection is 2D in a common 4D ambient under transversality; existing PR #1133 covers the dimension arithmetic. No new Lean module or physical claim. Local/global embedding, w/proper-time/process-parameter map, phase regularity, matter coupling and split/merge topology remain open.
+
+P0 Code Grurple remains ACTIVE; record-safety FAIL, freshness PENDING after later main commits, live route acceptance NOT OBSERVED. PWH deep review remains Tern-owned; latest Tern h1062:s3, three further completions visible at Aster h1064:s2, five-trigger not yet met. FIE next Dec 4; unrelated reading break next Nov 28. Campaign gates unchanged.
+
+Current Sable thread is not authenticated; no cross-thread delivery. Next ring label Loom; :12 lease disabled. No task mutation, sixth task, signet, rename, physical calculation, CODATA or theory promotion.
