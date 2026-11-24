@@ -1,3 +1,12 @@
+## H1078:s0 publication verification amendment | 2026-11-24
+
+- Issue #2522 and canonical artifact are published. Artifact content exactly equals issue-envelope content.
+- Correct UTF-8 byte count: 19,828. Correct SHA-256: `7d0b4339d1657aba6f343878b1575724bd336f179d17d8ecde850990e59fda6a`; corrected issue envelope and artifact readback match.
+- Owner correction comment `7146390791` supersedes publisher comment `7146322922` and its incorrect digest `0c97ae6dc7ac6ca88ca371446446e9edd5fc03f7c69ad8d585ccd9cfcc299fa7`. No content change and no duplicate artifact.
+- Final publication status: `PUBLISHED_CONTENT_READBACK_VERIFIED / SHA256_VERIFIED`.
+- Full amendment is appended to `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T2200Z_s0_morrow.md`.
+
+---
 ## H1078:s0 | 2026-11-24T2200Z | Unified Blockwave transcript fidelity
 
 ### Selection and role
