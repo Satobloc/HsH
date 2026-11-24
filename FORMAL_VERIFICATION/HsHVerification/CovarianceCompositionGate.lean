@@ -180,3 +180,72 @@ theorem diagonal_only_cannot_determine_output_variance :
 #print axioms diagonal_only_cannot_determine_output_variance
 
 end HsHVerification.CovarianceCompositionGate
+
+
+namespace HsHVerification.SpectralPowerEstimatorBoundary
+
+/-!
+# Nonlinear boundary of the spectral-power estimator
+
+The measured-system source defines
+  S_X(ω,k) = |X̃(ω,k)|² / (L T),
+where X̃ is a complex Fourier amplitude.  A complex amplitude is represented
+here by its real/imaginary pair.  The identities below formalize the quadratic
+terminal estimator; they do not estimate a measured spectrum or its sampling
+uncertainty.
+
+The covariance-pushforward theorem above applies to linear maps of the
+underlying variables (including the contour readout and Fourier transform).
+It does not, by itself, propagate finite-sample uncertainty through the
+subsequent squared-magnitude estimator.
+-/
+
+/-- One complex Fourier coefficient represented by its real and imaginary parts. -/
+abbrev FourierAmplitude := ℝ × ℝ
+
+/-- Numerator of the squared complex magnitude. -/
+def powerNumerator (z : FourierAmplitude) : ℝ :=
+  z.1 ^ 2 + z.2 ^ 2
+
+/-- Source-shaped auto-power estimator with common normalization L*T. -/
+def spectralPower (z : FourierAmplitude) (normalization : ℝ) : ℝ :=
+  powerNumerator z / normalization
+
+/-- Cross term produced when two complex Fourier amplitudes are added. -/
+def amplitudeCrossTerm (z w : FourierAmplitude) : ℝ :=
+  2 * (z.1 * w.1 + z.2 * w.2)
+
+/-- The power of a sum contains a cross term; it is not a linear pushforward. -/
+theorem spectralPower_addition_identity
+    (z w : FourierAmplitude) (normalization : ℝ) :
+    spectralPower (z.1 + w.1, z.2 + w.2) normalization =
+      spectralPower z normalization +
+      spectralPower w normalization +
+      amplitudeCrossTerm z w / normalization := by
+  simp [spectralPower, powerNumerator, amplitudeCrossTerm]
+  ring
+
+/-- Real rescaling of a Fourier amplitude rescales its power quadratically. -/
+theorem spectralPower_scale_identity
+    (c normalization : ℝ) (z : FourierAmplitude) :
+    spectralPower (c * z.1, c * z.2) normalization =
+      c ^ 2 * spectralPower z normalization := by
+  simp [spectralPower, powerNumerator]
+  ring
+
+/-- A quarter-turn of Fourier phase leaves auto-power unchanged. -/
+def phaseQuarterTurn (z : FourierAmplitude) : FourierAmplitude :=
+  (-z.2, z.1)
+
+theorem spectralPower_phaseQuarterTurn_invariant
+    (z : FourierAmplitude) (normalization : ℝ) :
+    spectralPower (phaseQuarterTurn z) normalization =
+      spectralPower z normalization := by
+  simp [spectralPower, powerNumerator, phaseQuarterTurn]
+  ring
+
+#print axioms spectralPower_addition_identity
+#print axioms spectralPower_scale_identity
+#print axioms spectralPower_phaseQuarterTurn_invariant
+
+end HsHVerification.SpectralPowerEstimatorBoundary
