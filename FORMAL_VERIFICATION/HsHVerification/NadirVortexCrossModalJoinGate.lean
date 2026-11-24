@@ -106,23 +106,26 @@ structure CrossModalWindowJoin where
 /-- Assemble a window-level join only when both registration records exist
     and all run, timebase, window, frame, calibration, region, and external
     validation conditions pass. -/
-def assembleWindowJoin
+noncomputable def assembleWindowJoin
     (windowJoinId : String)
     (source target : AcquisitionIdentity)
     (clock : Option ClockRegistration)
-    (spatial : Option SpatialRegistration) : Option CrossModalWindowJoin :=
-  match clock, spatial with
-  | some c, some s =>
-      if h : WindowAdmissible source target c s ∧ windowJoinId ≠ "" then
-        some ⟨windowJoinId, source, target, c, s, h.1, h.2⟩
-      else none
-  | _, _ => none
+    (spatial : Option SpatialRegistration) : Option CrossModalWindowJoin := by
+  classical
+  exact
+    match clock, spatial with
+    | some c, some s =>
+        if h : WindowAdmissible source target c s ∧ windowJoinId ≠ "" then
+          some ⟨windowJoinId, source, target, c, s, h.1, h.2⟩
+        else none
+    | _, _ => none
 
 theorem assembleWindowJoin_none_of_missing_clock
     (windowJoinId : String)
     (source target : AcquisitionIdentity)
     (spatial : Option SpatialRegistration) :
     assembleWindowJoin windowJoinId source target none spatial = none := by
+  classical
   simp [assembleWindowJoin]
 
 theorem assembleWindowJoin_none_of_missing_spatial
@@ -130,6 +133,7 @@ theorem assembleWindowJoin_none_of_missing_spatial
     (source target : AcquisitionIdentity)
     (clock : Option ClockRegistration) :
     assembleWindowJoin windowJoinId source target clock none = none := by
+  classical
   cases clock <;> simp [assembleWindowJoin]
 
 theorem assembleWindowJoin_none_of_different_run
@@ -139,6 +143,7 @@ theorem assembleWindowJoin_none_of_different_run
     (spatial : SpatialRegistration)
     (hRun : source.runId ≠ target.runId) :
     assembleWindowJoin windowJoinId source target (some clock) (some spatial) = none := by
+  classical
   unfold assembleWindowJoin
   have hBad : ¬ (WindowAdmissible source target clock spatial ∧ windowJoinId ≠ "") := by
     intro h
@@ -154,6 +159,7 @@ theorem assembleWindowJoin_some_iff_admissible
       assembleWindowJoin windowJoinId source target (some clock) (some spatial) =
         some join) ↔
       (WindowAdmissible source target clock spatial ∧ windowJoinId ≠ "") := by
+  classical
   unfold assembleWindowJoin
   by_cases h : WindowAdmissible source target clock spatial ∧ windowJoinId ≠ ""
   · simp [h]
@@ -191,19 +197,22 @@ structure CrossModalSampleJoin where
 
 /-- Assemble a sample-level join only with explicit sample-alignment evidence
     bound to the exact previously admitted window join. -/
-def assembleSampleJoin
+noncomputable def assembleSampleJoin
     (windowJoin : Option CrossModalWindowJoin)
-    (sample : Option SampleAlignment) : Option CrossModalSampleJoin :=
-  match windowJoin, sample with
-  | some w, some s =>
-      if h : SampleAdmissible w s then
-        some ⟨w, s, h⟩
-      else none
-  | _, _ => none
+    (sample : Option SampleAlignment) : Option CrossModalSampleJoin := by
+  classical
+  exact
+    match windowJoin, sample with
+    | some w, some s =>
+        if h : SampleAdmissible w s then
+          some ⟨w, s, h⟩
+        else none
+    | _, _ => none
 
 theorem assembleSampleJoin_none_of_missing_alignment
     (windowJoin : Option CrossModalWindowJoin) :
     assembleSampleJoin windowJoin none = none := by
+  classical
   cases windowJoin <;> simp [assembleSampleJoin]
 
 theorem assembleSampleJoin_none_of_mismatched_window
@@ -211,6 +220,7 @@ theorem assembleSampleJoin_none_of_mismatched_window
     (sample : SampleAlignment)
     (hMismatch : sample.windowJoinId ≠ windowJoin.windowJoinId) :
     assembleSampleJoin (some windowJoin) (some sample) = none := by
+  classical
   unfold assembleSampleJoin
   have hBad : ¬ SampleAdmissible windowJoin sample := by
     intro h
@@ -223,6 +233,7 @@ theorem assembleSampleJoin_some_iff_admissible
     (∃ joined,
       assembleSampleJoin (some windowJoin) (some sample) = some joined) ↔
       SampleAdmissible windowJoin sample := by
+  classical
   unfold assembleSampleJoin
   by_cases h : SampleAdmissible windowJoin sample
   · simp [h]
