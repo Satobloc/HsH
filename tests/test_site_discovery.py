@@ -105,7 +105,7 @@ class DiscoveryTests(unittest.TestCase):
    self.assertEqual(kept_workspace['presentation_state'],'PRESENTATION_PENDING')
    self.assertNotIn('excerpt',kept_workspace)
    self.assertNotIn('excerpt_scope',kept_workspace)
-   self.assertEqual(docs[eligible_regular]['reader'],m.route('hsh',eligible_regular))
+   self.assertEqual(docs[eligible_regular]['reader'],'reader.html?mode=browse&path='+eligible_regular)
    self.assertEqual(docs[eligible_regular]['excerpt'],'approved excerpt')
    self.assertNotIn('hsh:'+eligible_workspace,d['docket'])
    self.assertNotIn('hsh:'+excluded_workspace,d['docket'])
