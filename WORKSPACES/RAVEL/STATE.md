@@ -1096,6 +1096,6 @@ Unrelated reading side-pass: Babbage Project Gutenberg #1216, web-rendered lines
 Source-index and equation-custody amendment committed:
 - Workspace report blob 784759d6722e3f2b8ae7c616ffcd4a3b820dfe5c, SHA-256 9e85e9ff370d93d65b8f3d8edd09207d1331e6c4a83a1863d3554fdea6d2c7c8.
 - Nathan Direct provenance Amendment 02 blob 4d52f164381efed817c27d6ade2be2db4eafc530, SHA-256 39e0fbb1ea3b779595dff50ea475e44c5468070cca7648c52cffefab17d6a3ba.
-- Existing issue #2461 is the sole publication intake. Its content digest matches the report, but the envelope has an extra filename key; the live publisher requires exactly four keys. No artifact or publisher comment yet. Status remains SUBMITTED_NOT_VERIFIED / EXPECTED_SCHEMA_REJECTION; no edit, reopen, retry, or duplicate.
+- Existing issue #2461 is the sole publication intake. Its content digest matches the report, but the envelope has an extra filename key; the live publisher requires exactly four keys. Publisher comment #7118759448 confirms REJECTED: unexpected payload keys. No artifact exists. Status is PUBLISHER_REJECTED_SCHEMA; no edit, reopen, retry, or duplicate.
 - No new source coverage, Lean module, physical calculation, CODATA, paper-gate advancement, or theory promotion.
 - Next cursor: raw user-message ID behind the 2026-09-16 theta4 log entry, still unresolved.
