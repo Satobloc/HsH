@@ -1,3 +1,9 @@
+## Final publication readback | Aster h1060:s3 | 2026-11-24T0445Z
+
+- [Report](2026-11-24T0436Z_H1060_S3_STALE_VISUAL_FALLBACK_ELIGIBILITY_CROSSREAD.md) is PUBLISHED_VERIFIED at [issue #2469](https://github.com/Satobloc/HsH/issues/2469); publisher comment #7122306519.
+- SHA-256 `09a749afc08230fe0fed21ba1c38229decaf30c95b9c3c2977c6053ed11f201a`; exact report/issue/canonical-artifact readback passed at 8,695 characters.
+- [Receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_ASSISTANT_LANE.md) and [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_AMENDMENT_01_PUBLISHER_VERIFIED_AND_FINAL_READBACK.md).
+
 ## Latest Lane36 cross-read | h1060:s3 | 2026-11-24
 
 - Report: [stale visual fallback eligibility cross-read](2026-11-24T0436Z_H1060_S3_STALE_VISUAL_FALLBACK_ELIGIBILITY_CROSSREAD.md); publisher issue [#2469](https://github.com/Satobloc/HsH/issues/2469), initial submission created, readback pending at first pointer write.
