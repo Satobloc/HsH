@@ -1,4 +1,26 @@
-# Aldus CURRENT_WORK - latest checkpoint h1042:s2 (2026-11-23T10:24Z)
+# Aldus CURRENT_WORK - latest checkpoint h1076:s3 (2026-11-24T20:36Z nominal; started 21:03:35Z)
+
+**Status:** INTERVAL_CENSORED_PUBLIC_T0_GATE_ADDED / PUBLISHER_SUBMITTED_NOT_VERIFIED / LEAN_UNTESTED / PR1860_OPEN_DRAFT / NO_PHYSICAL_RESULT / TASK_UNCHANGED.
+
+- Deterministic selection: h=1076; seq=5383; ring index 6 = Aldus; next label Calder (index 7). This is a routing label only. No authenticated current Aldus thread or historical-instance participation is claimed.
+- Historical role source: raw conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`, blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a`, 47 user messages. Direct user anchors `939e981d` and `fcff5c18` support broad cross-domain reading and combining information not usually combined. No standalone signed charter. The narrow first-public/T0/Bayesian workflow is a later assistant-level specialization.
+- Full live BEDROCK read: blob `2629ab29a5838d933c31727455553d206577a258`, 753 lines. Retained proof-first, source-first, real-data-first, explicit no-data-free-calculation permission, geometry-fidelity, and no-theory-promotion controls. No BEDROCK contradiction or amendment proposed. The 2026-11-08 Primary Operational Guideline precedence is explicitly recorded in BEDROCK ND-2026-11-08-02; the companion overview remains an assistant-prepared transcription.
+- New architecture: extended existing [PR #1860](https://github.com/Satobloc/HsH/pull/1860) with a typed public-availability transition window and interval-censored T0 gate. A lone positive snapshot does not identify exact T0; a verified negative-to-positive pair on the same version/surface/clock can bracket the first accessible tick only under monotonicity within a finite declared scope. Coverage completeness is an input attestation. No global first-exposure claim across undeclared surfaces.
+- PR #1860 branch `research/aldus-temporal-provenance-20261116t2236z`; new head `fb08c234fc8800714333088f113d7d02b44f4238`; module blob `e4dbd193a5e3b17e0c7488bea0625ea1adab5bd0`. PR remains OPEN / DRAFT / UNMERGED, diverged 5 ahead / 4 behind its stacked base.
+- **LEAN_UNTESTED:** no local lean/lake/elan; GitHub connector has no workflow-dispatch action; exact-head run query returned none. Previous run #43973867276 applies only to the previous head. No compile/proof success claimed.
+- Public report issue [#2518](https://github.com/Satobloc/HsH/issues/2518), submission `aldus-h1076-s3-interval-censored-public-t0-20261124t2036z-001`, SHA-256 `7858ffab57fbdc67d08f1bcc55dfad02f57827c435d4f578f7d483d041fea2ba`. Exact four-key publisher intake was created. At last check there was no publisher comment and the canonical artifact returned 404: **SUBMITTED_NOT_VERIFIED**. Do not edit/reopen/retry or create a duplicate; check the same issue and expected artifact.
+- Cross-reading: SciSpace interval-censoring methods records (Chen/Sun/Peace 2012; Zeng/Mao/Lin 2016) were used to distinguish a single positive/current-status observation from a negative-to-positive interval-censored event window. No estimator or numerical calculation was run; no physical analogy or H(s)H premise imported.
+- Mersearch is not callable; all four canonical request lanes remain occupied. No lane changed. Existing Math Hopper #578 / PR #991 and Whirligig Kernel 0 references checked; no separate installed repository returned. SciSpace was already available. No new tool, dependency, fork, subscription, or expenditure.
+- PWH WH-02 remains highest-priority unblocked and Calder-owned; WH-05 blocked under Tern. P0 ACTIVE; P1 overdue/frozen/not ready and Orson-owned; P2 Nov 30 HOLD (Nov 23 first-draft gate not met); P3 Dec 14 incomplete.
+- FIE full rereview completed Nov 24 in the preceding relay; next review Dec 8. Unrelated-source break last completed Nov 21; next due Nov 28. Aldus separate SAT archive cursor remains `fun break - lx.txt`, line 2401.
+- No physical system/data selected, no calculation/fit/prediction/uncertainty/falsification threshold, no independent measurement, no P2 admission, no manuscript edit, no SAT-O/Blockwave equation change, and no BEDROCK promotion.
+- Existing :36 task ID `6a9f52b69ec08191b0a2ba24a074f781` remains enabled with its original hourly America/New_York :36 schedule and Worldtube phase. No task/ID/cadence change; no sixth task. No handoff, assignment, response obligation, cross-thread delivery or acknowledgment.
+
+**Return cursor:** PR #1860 head `fb08c234fc8800714333088f113d7d02b44f4238`. Obtain exact-head Lean 4.34.0/Mathlib execution, inspect theorem-specific axiom reports, then review surface-manifest completeness. Do not generalize beyond the declared scope.
+
+---
+
+## Prior checkpoint h1042:s2 (2026-11-23T10:24Z)
 
 **Status:** source-grounded revival in the scheduled turn; no authenticated current Aldus thread. The original role is broad cross-reading and combining information not usually combined. The later public-T0/Bayesian chronology method is an operational specialization, not Nathan Direct. No standalone signed specialist charter was found.
 
