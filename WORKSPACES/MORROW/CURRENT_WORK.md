@@ -1,3 +1,8 @@
+## H1062:s4 Amendment 02 | 2026-11-24T0648Z
+
+- [Report Amendment 02](2026-11-24T0648Z_H1062_S4_AMENDMENT_02_POSTWRITE_DISCOVERY_REFRESH_STATUS.md) records postwrite refresh commit `a5dcc41feb1aaf8858ba35e38e5e1640acc9ca5a` (07:07:09Z; discovery.json only; blob `53943753b03a101ba0332a97468460dc853b6303`). Payload and record-level inclusion remain unverified; P0 remains FAIL.
+- [Receipt Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow_AMENDMENT_02_POSTWRITE_DISCOVERY_REFRESH_STATUS.md). This supersedes the earlier no-postwrite-refresh statement.
+
 ## H1062:s4 Amendment 01 | 2026-11-24T0648Z
 
 - [Report Amendment 01](2026-11-24T0648Z_H1062_S4_AMENDMENT_01_PREWRITE_MAIN_HEAD_CORRECTION.md) corrects the prewrite main-head locator: `ab3083f7f2fa6d7a9d54553b8bcbbc94cfae3e95` (created 06:59:05Z; discovery.json only), not the preceding `6838b1d5…` commit. No postwrite discovery refresh observed.
