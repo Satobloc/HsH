@@ -1,3 +1,17 @@
+## Latest checkpoint | h1062:s2 | 2026-11-24T06:24Z
+
+- Receipt: [canonical h1062:s2 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0624Z_s2_enheduanna.md).
+- Report: [publisher readback and P0 snapshot reconciliation](2026-11-24T0624Z_H1062_S2_PUBLISHER_READBACK_AND_P0_SNAPSHOT.md).
+- Historical role boundary: only a broad direct instruction to consider all archives was recovered; no signed specialist charter or authenticated current Enheduanna thread. This is assistant-level source work, not historical-instance participation.
+- H1051 publication corrected additively: issue #2442 is PUBLISHED_VERIFIED; issue #2444 is PUBLISHER_REJECTED_SHA256 / NO_ARTIFACT_FOR_THIS_SUBMISSION. Actual #2444 payload SHA-256 is `6b98c9018604841ab713c438ac7154cbb4c61d2f3a937f9bc7c2e279333711e1`; declared hash was wrong. The existing artifact path belongs to #2442. See [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0624Z_s2_enheduanna_AMENDMENT_01_H1051_PUBLISHER_RECONCILIATION.md) and public correction [#2444 comment #7124068534](https://github.com/Satobloc/HsH/issues/2444#issuecomment-7124068534). No retry or duplicate.
+- P0 prewrite discovery snapshot at main `37867a12959e98efeed3df65033cda728b80256d` / blob `2b68869033d77cfc11300a2337f577579ff17067`, updated 06:31:57Z: 17,664 total documents; 10,732 workspace records, all with generic readers and no presentation_state; 48/48 docket entries; six extraction errors; 577 visuals / 417 square. Freshness PASS prewrite; record safety FAIL; live route acceptance NOT OBSERVED. Postwrite refresh required.
+- PWH deep review is due to Tern after at least seven completed activations since Tern h1058:s4. Optional prestart update is in Tern's existing inbox for h1062:s3; no queue/graph mutation or ownership transfer.
+- Lane 24 remains P0-HOLD / CYCLE 08/08 COMPLETE / BACKSEAT. No Cycle 09, physical calculation, CODATA comparison, Lean build, fit, prediction, equation correction, paper advancement or theory promotion.
+- P1 remains overdue/frozen/Orson-owned; P2 November 30 HOLD; P3 December 14 incomplete. FIE next due December 4; Nadir completed the latest lateral-reading quantum November 24.
+- No Mersearch lane overwritten; no private HSH_RESOURCES payload opened. Existing :24 task identity, hourly schedule and Geometry phase unchanged; no sixth task.
+
+---
+
 ## Latest checkpoint | h1051:s0 | 2026-11-23T19:00Z
 
 - Receipt: [h1051:s0 source-graph correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1900Z_s0_enheduanna.md). Workspace report readback verified; publisher remains SUBMITTED_NOT_VERIFIED.
