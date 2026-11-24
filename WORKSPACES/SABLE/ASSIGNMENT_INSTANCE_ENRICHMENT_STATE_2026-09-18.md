@@ -91,3 +91,22 @@ Also include a short pointer to the report in the relevant current coordination/
 ## Progress note | 2026-11-22
 
 Sable's own assistant-level State of Reconstruction and Instance Enrichment reports are now filed at `WORKSPACES/SABLE/STATE_OF_RECONSTRUCTION_2026-11-22.md` and `WORKSPACES/SABLE/INSTANCE_ENRICHMENT_2026-11-22.md`. These cover Sable only. The one-time project-wide assignment remains OPEN; the other active, sleeping, consultant, and revivable instances have not yet been fully inventoried. No recurring cadence is created.
+
+---
+
+## 2026-11-24 | Partial project-wide report-family census (not an enrichment audit)
+
+**Method:** read the current HsH recursive Git tree at main commit `7a38830824aca3f6c67df322743916bf4dca6534`. The API returned 17,541 paths with `truncated=false`. Searched the complete path set for the exact report-family/role-source filename patterns `STATE_OF_RECONSTRUCTION`, `INSTANCE_ENRICHMENT`, `ROLE_CHARTER`, and `HISTORICAL_REMIT_SOURCE_SUPPLEMENT`. Also inspected top-level directory inventories for the fixed 19-worker ring. This is a filename census only: it does not establish whether an instance was enriched, what it read, or whether equivalent material exists under another filename or outside the searched HsH workspace.
+
+| Ring worker | Exact-name files located |
+|---|---|
+| Sable | State of Reconstruction 2026-11-22; Instance Enrichment 2026-11-22; historical remit source supplement; original one-time assignment |
+| Mercer | State of Reconstruction 2026-09-19; Instance Enrichment 2026-09-19 |
+| Orson Vay | Role Charter 2026-10-09 LLM Cognition |
+| Loom, Aster, Ariadne, Alberr, Mira, Aldus, Calder, Hale, Elias Kern, Nadir Voss, Enheduanna, Tern, Morrow, Kestrel, Meridian, Ravel | No exact-name report-family/role-charter match in the recursive HsH path census |
+
+The current project-wide report-series call independently links the Sable and Mercer report pairs and describes other instances as `Not yet located`. The census is consistent with that locator state. It does **not** convert `Not yet located` into `not enriched`, nor does the presence of a BOOT/CURRENT_WORK/README file count as completed enrichment.
+
+**Disposition:** the one-time project-wide assignment remains **OPEN / PARTIAL**. Sable and Mercer have discoverable paired reports; Orson has a discoverable role charter; the other ring members require source-grounded inspection of their current continuity, direct role instructions, actual source exposure, methods, tools, and durable enrichment evidence. Active, paused, consultant, and revivable states must remain separate. Do not infer current accessibility from a workspace directory or historical conversation ID.
+
+**Next bounded census step:** reconcile each remaining worker against the current active automation roster and instance/lease registry, then inspect that worker's BOOT/CURRENT_WORK and direct historical role sources. Preserve per-instance identity and evidence class. Tern retains scheduler/task-allocation authority; this partial census changes no task, lease, graph, or ownership.
