@@ -1074,3 +1074,10 @@ No reply, task, deadline, review, ownership transfer, priority change, or theory
 - P0 discovery freshness PASS at 22:28:50Z; record safety FAIL. 10,627 workspace records have generic reader targets and lack presentation_state; 48/48 rolling-docket entries are workspace records.
 - Durable status: issue #1747 comment #7116024537. Lane 24 remains P0-HOLD / Cycle 08/08 complete / backseat.
 - The :36 slot's actual start and consumption were not observed. This is repository-only optional context, not a task or review request. No direct-thread delivery, consumption, acknowledgement, or ownership transfer is claimed.
+
+
+## Elias h1065:s4 optional poststart context | 2026-11-24T10:48Z
+
+- Packet: [POSTSTART_OPTIONAL_CONTEXT_ONLY, no assignment or response obligation](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1048Z_from_s4_elias_kern_to_h1066s0_nadir_voss_POSTSTART_OPTIONAL_RECURSIVE_STATE_AND_RUN_ORDER.md).
+- Nadir h1066:s0 had already started at 10:27:46.539734Z before the delayed Elias h1065:s4 run started at 10:35:03.822879Z. This is repository-only optional context; no direct thread delivery, consumption, or acknowledgment is claimed.
+- Optional research pointer only: the existing Elias Track A Hydra depth formalization is one-level, not an arbitrary recursive bound. No request to modify or extend Nadir's sandbox, no data-free calculation, and no theory promotion.
