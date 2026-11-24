@@ -18,16 +18,16 @@ namespace HsHVerification.SpectralEstimatorMomentGate
 
 /-- A finite three-atom probability law on the real line. -/
 structure FiniteLaw3 where
-  weight : Fin 3 → ℝ
+  weight : Fin 3 → ℚ
   outcome : Fin 3 → ℝ
   weight_nonneg : ∀ i, 0 ≤ weight i
   weight_sum : weight 0 + weight 1 + weight 2 = 1
 
 /-- Raw moment E[X^n] for a finite three-atom law. -/
 def rawMoment (law : FiniteLaw3) (n : ℕ) : ℝ :=
-  law.weight 0 * law.outcome 0 ^ n +
-  law.weight 1 * law.outcome 1 ^ n +
-  law.weight 2 * law.outcome 2 ^ n
+  (law.weight 0 : ℝ) * law.outcome 0 ^ n +
+  (law.weight 1 : ℝ) * law.outcome 1 ^ n +
+  (law.weight 2 : ℝ) * law.outcome 2 ^ n
 
 def mean (law : FiniteLaw3) : ℝ := rawMoment law 1
 def secondMoment (law : FiniteLaw3) : ℝ := rawMoment law 2
@@ -42,8 +42,8 @@ def quadraticOutputVariance (law : FiniteLaw3) : ℝ :=
   fourthMoment law - secondMoment law ^ 2
 
 /-- First finite law: equal mass at -1 and +1. -/
-def weightsA (i : Fin 3) : ℝ :=
-  if i = 0 then (1 : ℝ) / 2 else if i = 1 then (1 : ℝ) / 2 else 0
+def weightsA (i : Fin 3) : ℚ :=
+  if i = 0 then 1 / 2 else if i = 1 then 1 / 2 else 0
 
 def outcomesA (i : Fin 3) : ℝ :=
   if i = 0 then -1 else if i = 1 then 1 else 0
@@ -57,8 +57,8 @@ def lawA : FiniteLaw3 where
   weight_sum := by norm_num [weightsA]
 
 /-- Second finite law: mass 3/4 at 0 and 1/8 at each of -2 and +2. -/
-def weightsB (i : Fin 3) : ℝ :=
-  if i = 0 then (3 : ℝ) / 4 else (1 : ℝ) / 8
+def weightsB (i : Fin 3) : ℚ :=
+  if i = 0 then 3 / 4 else 1 / 8
 
 def outcomesB (i : Fin 3) : ℝ :=
   if i = 0 then 0 else if i = 1 then 2 else -2
@@ -89,7 +89,7 @@ theorem lawA_fourthMoment : fourthMoment lawA = 1 := by
 theorem lawB_fourthMoment : fourthMoment lawB = 4 := by
   norm_num [fourthMoment, rawMoment, lawB, weightsB, outcomesB]
 
-/-- The two laws have the same mean and the same input variance. -/
+/-- The two laws have the same mean and the same second raw moment. -/
 theorem same_first_two_moments :
     (mean lawA, secondMoment lawA) =
       (mean lawB, secondMoment lawB) := by
