@@ -210,7 +210,7 @@ theorem singletonPredictionRegions_iff_exactReadoutFiberIdentifiability
   · intro hfiber s₁ s₂ y hy₁ hy₂
     have hy₁' : y = readout s₁ := by simpa using hy₁
     have hy₂' : y = readout s₂ := by simpa using hy₂
-    exact hfiber s₁ s₂ (hy₁'.trans hy₂'.symm)
+    exact hfiber s₁ s₂ (hy₁'.symm.trans hy₂')
 
 #print axioms uncertaintyFeatureIdentifiable_iff_distinctFeatureRegionsDisjoint
 #print axioms overlappingPredictionRegions_block_identifiability
