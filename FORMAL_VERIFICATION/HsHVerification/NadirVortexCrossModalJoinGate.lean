@@ -162,6 +162,8 @@ theorem assembleWindowJoin_some_iff_admissible
 /-- Evidence for pairing individual samples after a window-level join exists. -/
 structure SampleAlignment where
   windowJoinId : String
+  clockEvidenceRef : String
+  spatialEvidenceRef : String
   sourceSampleId : String
   targetSampleId : String
   evidenceRef : String
@@ -174,6 +176,8 @@ def SampleAdmissible
     (windowJoin : CrossModalWindowJoin)
     (sample : SampleAlignment) : Prop :=
   sample.windowJoinId = windowJoin.windowJoinId ∧
+  sample.clockEvidenceRef = windowJoin.clock.evidenceRef ∧
+  sample.spatialEvidenceRef = windowJoin.spatial.evidenceRef ∧
   sample.sourceSampleId ≠ "" ∧
   sample.targetSampleId ≠ "" ∧
   sample.evidenceRef ≠ "" ∧
@@ -223,6 +227,28 @@ theorem assembleSampleJoin_some_iff_admissible
   by_cases h : SampleAdmissible windowJoin sample
   · simp [h]
   · simp [h]
+
+theorem assembleSampleJoin_none_of_mismatched_clock_registration
+    (windowJoin : CrossModalWindowJoin)
+    (sample : SampleAlignment)
+    (hMismatch : sample.clockEvidenceRef ≠ windowJoin.clock.evidenceRef) :
+    assembleSampleJoin (some windowJoin) (some sample) = none := by
+  unfold assembleSampleJoin
+  have hBad : ¬ SampleAdmissible windowJoin sample := by
+    intro h
+    exact hMismatch h.2.1
+  simp [hBad]
+
+theorem assembleSampleJoin_none_of_mismatched_spatial_registration
+    (windowJoin : CrossModalWindowJoin)
+    (sample : SampleAlignment)
+    (hMismatch : sample.spatialEvidenceRef ≠ windowJoin.spatial.evidenceRef) :
+    assembleSampleJoin (some windowJoin) (some sample) = none := by
+  unfold assembleSampleJoin
+  have hBad : ¬ SampleAdmissible windowJoin sample := by
+    intro h
+    exact hMismatch h.2.2.1
+  simp [hBad]
 
 #print axioms assembleWindowJoin_none_of_different_run
 #print axioms assembleWindowJoin_some_iff_admissible
