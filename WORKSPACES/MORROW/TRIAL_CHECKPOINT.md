@@ -1,3 +1,40 @@
+## H1078:s0 publication verification amendment | 2026-11-24
+
+- Issue #2522 and canonical artifact are published. Artifact content exactly equals issue-envelope content.
+- Correct UTF-8 byte count: 19,828. Correct SHA-256: `7d0b4339d1657aba6f343878b1575724bd336f179d17d8ecde850990e59fda6a`; corrected issue envelope and artifact readback match.
+- Owner correction comment `7146390791` supersedes publisher comment `7146322922` and its incorrect digest `0c97ae6dc7ac6ca88ca371446446e9edd5fc03f7c69ad8d585ccd9cfcc299fa7`. No content change and no duplicate artifact.
+- Final publication status: `PUBLISHED_CONTENT_READBACK_VERIFIED / SHA256_VERIFIED`.
+- Full amendment is appended to `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T2200Z_s0_morrow.md`.
+
+---
+## H1078:s0 | 2026-11-24T2200Z | Unified Blockwave transcript fidelity
+
+### Selection and role
+- Run key `REVROT3-19-20261011:1078:s0`; h=1078; seq=5390; ring index 13 Morrow; next Kestrel index 14. Routing label only. Runtime run `6ce3eb7a-7f06-4f9f-bb9c-2f46e9c16bd1`; no authenticated `chat_ref` or current Morrow thread.
+- Historical Team Archivist/source-custody remit and September 13 direct theory stop remain active. No theory integration, Lean-theory proof, physical calculation, CODATA, fit, prediction or paper work.
+
+### Preflight and snapshot
+- Read live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, onboarding, Start Here/workflow orientation, Revival V3/V4, thread-first controls, Morrow README/BOOT/CURRENT_WORK/TRIAL_CHECKPOINT/Source Identity Gate, current branch, task graph, recent receipts and specialist source.
+- HsH main `f558f2f722c3872273b4dfbd3e6264ced44dfe4c`; SAT archive main `028862e6f1b0ffad2f56f4989a2cd0a769d266fd`. HSH_RESOURCES root README only; no payload. Latest HSH_RESOURCES main movement occurred after run start and was not incorporated.
+- Task graph remains 16 declared / 18 records, last updated Nov 21; Tern owns reconciliation. PWH deep-review cadence due by count, Tern owns queue and review; no duplicate review or queue mutation.
+- Four Mersearch lanes remain occupied; Mersearch not callable. No new request or overwrite. Existing Math Hopper issue #578 and draft PR #991, Whirligig Kernel 0 sandbox limit, and open/unmerged Lean PRs checked; no new tooling or paid service.
+- FIE rereview completed Nov 24, next Dec 8. Unrelated source break next Nov 28. Paper gates unchanged: P1 overdue/not-ready/frozen/Orson-owned, P2 HOLD, P3 incomplete.
+
+### Source work
+- Audited HsH's two-message `Unified Blockwave Proof.md` transcript against SAT-O1 4D text, SAT-O1 PDF extraction, Blockwave attachment, pseudo-Lean draft and active-ancestry Meridian Free Build / Meridian Minkowski Ring Analysis messages.
+- User-role direct-source messages have null `author.name` and absent `message_source`; project attribution is by archive convention, not external identity authentication. Cross-posts are not independent witnesses. The Unified Blockwave transcript has no recovered raw JSON and its pasted proof author's identity is unresolved.
+- Extracted glossary and mapping diagram; compared original and translated propositions; recorded 13 source-fidelity discrepancies; no corrected equations issued.
+- The proof text reuses the older SAT-O1 1-parameter curve but calls it a 4D hyperhelical worldline manifold, adds inverse-metric and Gravity Block claims, shifts current rank from `J^2` to `J^3`, asserts `Q<=3`, and supplies mass/gauge/horizon/cosmology claims without source-defined maps. Text-level contradictions include prose `m proportional to Q` versus a displayed `1/Q` formula and a zero-parameter claim alongside a 550 Hz anchor.
+- Current BEDROCK status leaves a universal `Q<=3` cap and universal Q/inverse-Q mass law unresolved. Direct source says Klein Fabric supersedes the reciprocal deformation model; 4D curvature=acceleration remains an unproved working hypothesis; preserve `w=ct` and `cw=t` without reconciliation.
+- Existing pseudo-Lean file: 200 lines, 23 `sorry`, one `axiom`; no verified Lean 4/Mathlib run. No clear source-defined equivalence to formalize. No Lean module or run.
+
+### Publication and next cursor
+- Issue #2522, submission `lane00-unified-blockwave-transcript-fidelity-20261124t2200z-001`, SHA-256 `0c97ae6dc7ac6ca88ca371446446e9edd5fc03f7c69ad8d585ccd9cfcc299fa7`, 19,828 UTF-8 bytes. Initial read: open, zero publisher comments, canonical artifact path not yet present. Status `SUBMITTED_NOT_VERIFIED`; next run must recheck same issue and canonical artifact. No duplicate issue.
+- Receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T2200Z_s0_morrow.md`.
+- Recover raw JSON for conversation `69a5282d-ef1c-832d-b576-3377532acac9`; trace 550 Hz, beta/epsilon, Q, mass, three-form current, H0/S8; require typed domains/support dimensions/maps before any future formalization; wait for existing finite-core Mersearch lane.
+- No source-file changes, no branch/PR, no task/ID/schedule/phase/cadence change, no sixth task, no Kestrel handoff, no cross-thread delivery, no signet or chat rename.
+
+---
 ## H1070:s2 | 2026-11-24T14:24Z | discovery snapshot and orphaned run-label source custody
 
 ### Selection and role

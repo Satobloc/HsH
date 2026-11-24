@@ -1,3 +1,29 @@
+## H1078:s0 publication verification amendment | 2026-11-24
+
+**Status:** PUBLISHED_CONTENT_READBACK_VERIFIED / SHA256_VERIFIED.
+
+- Issue [#2522](https://github.com/Satobloc/HsH/issues/2522), submission `lane00-unified-blockwave-transcript-fidelity-20261124t2200z-001`.
+- Canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/lane00-unified-blockwave-transcript-fidelity-20261124t2200z-001.md`; 19,828 UTF-8 bytes.
+- Correct SHA-256: `7d0b4339d1657aba6f343878b1575724bd336f179d17d8ecde850990e59fda6a`. Artifact readback exactly matches issue envelope content; independently recomputed digest equals corrected issue envelope digest.
+- Owner checksum-correction comment `7146390791` supersedes the initial publisher comment's incorrect digest `0c97ae6dc7ac6ca88ca371446446e9edd5fc03f7c69ad8d585ccd9cfcc299fa7`. Content unchanged; no duplicate issue/artifact.
+- See receipt `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T2200Z_s0_morrow.md` for full audit trail.
+
+---
+## H1078:s0 | 2026-11-24 | Unified Blockwave transcript fidelity addendum
+
+**Status:** SOURCE_FIDELITY_AUDIT_COMPLETE / PUBLISHER_SUBMITTED_NOT_VERIFIED / NO_THEORY_ACTION.
+
+- Public report intake: [issue #2522](https://github.com/Satobloc/HsH/issues/2522), submission `lane00-unified-blockwave-transcript-fidelity-20261124t2200z-001`; SHA-256 `0c97ae6dc7ac6ca88ca371446446e9edd5fc03f7c69ad8d585ccd9cfcc299fa7`; 19,828 UTF-8 bytes. Initial issue read shows zero publisher comments and canonical artifact not yet present. Do not claim PUBLISHED_VERIFIED or create a duplicate; recheck the same issue and artifact.
+- Canonical receipt: [h1078:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T2200Z_s0_morrow.md).
+- Focus: source-fidelity audit of the two-message `Unified Blockwave Proof.md` transcript against historical SAT-O1/Blockwave and active-ancestry Meridian geometry sources. Embedded authorship of the pasted proof text remains unresolved; raw conversation JSON not recovered.
+- Direct geometry retained: 4D filament / 3D trace distinction; no assumed 3D self-closure; one helical core/no carrier/hollow larger coil; interacting time-surface; worldtube bending/inertia as a construction; Klein Fabric supersedes the reciprocal model; 4D curvature=acceleration remains explicitly unproved; preserve both `w=ct` and `cw=t` strings.
+- Main fidelity failures: curve/manifold/support-dimension conflation; `J^1`/`J^2`/`J^3` rank changes without maps; missing sweep/intersection/composition maps; mass-charge prose/formula contradiction; zero-parameter claim versus explicit anchor; `Q<=3` versus current BEDROCK; unsupported metric/action, horizon, gauge and cosmology extensions; assistant overclaim.
+- No corrected equations, new Lean, physical calculation, CODATA, independent measurement, paper-gate advancement or BEDROCK promotion. Morrow's September 13 theory stop remains active.
+- Mersearch unavailable and four lanes occupied; no new request. FIE next Dec 8; unrelated-source break next Nov 28. Tern retains PWH review and task-graph ownership.
+- Next cursor: verify issue #2522 publication/readback; recover raw JSON for conversation `69a5282d-ef1c-832d-b576-3377532acac9`; trace the 550 Hz/beta/epsilon/Q/mass/current/cosmology claims; wait for the existing finite-core Mersearch lane.
+- No task/ID/schedule/phase/cadence change, no sixth task, no branch/PR, no handoff to Kestrel, no cross-thread delivery claim, no signet or chat rename.
+
+---
 ## H1070:s2 | 2026-11-24 | Discovery snapshot and orphaned run-label source custody
 
 **Status:** SOURCE_CUSTODY_RECONCILIATION_COMPLETE / P0_RECORD_SAFETY_FAIL / POSTWRITE_FRESHNESS_PENDING.
