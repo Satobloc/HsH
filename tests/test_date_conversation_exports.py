@@ -4,6 +4,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -136,9 +137,18 @@ class DateConversationExportsTests(unittest.TestCase):
             (root/"arbitrary.weird").write_text(json.dumps({"create_time":1780000000}),encoding="utf-8")
 
             old_cwd=Path.cwd()
+            visited_directories=[]
+            real_walk=os.walk
+            def tracking_walk(top,topdown=True,onerror=None,followlinks=False):
+                for current,dirnames,filenames in real_walk(
+                    top,topdown=topdown,onerror=onerror,followlinks=followlinks
+                ):
+                    visited_directories.append(Path(current).resolve())
+                    yield current,dirnames,filenames
             try:
                 os.chdir(root)
-                records=build_records(Path("."),tz)
+                with patch("tools.date_conversation_exports.os.walk",side_effect=tracking_walk):
+                    records=build_records(Path("."),tz)
             finally:
                 os.chdir(old_cwd)
 
@@ -153,6 +163,8 @@ class DateConversationExportsTests(unittest.TestCase):
             )
             self.assertNotIn("ordinary.md",by_name)
             self.assertFalse(any(Path(record.old_path).parts[0] in excluded for record in records))
+            excluded_paths={(root/directory).resolve() for directory in excluded}
+            self.assertTrue(excluded_paths.isdisjoint(visited_directories))
 
     def test_viewer_accepts_root_sources_with_nonstandard_suffix(self):
         with tempfile.TemporaryDirectory() as td:
