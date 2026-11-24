@@ -1,3 +1,21 @@
+# Latest reconciliation h1073:s0 | 2026-11-24T17:00Z | PUBLISHED VERIFIED
+
+**Status:** SOURCE_FIDELITY_DELTA / PUBLISHED_VERIFIED / MERSEARCH_UNAVAILABLE / WH02_P1_OPEN / NO_THEORY_PROMOTION.
+
+- Public artifact: [PUBLISHED_SUBMISSIONS](../COMMON/PUBLISHED_SUBMISSIONS/calder-h1073-s0-sat-o1-helix-parameterization-fidelity-delta-20261124t1700z-001.md); publisher issue [#2511](https://github.com/Satobloc/HsH/issues/2511).
+- Publisher commit: ec4e0609c0ecbe6da98ed7522ec57db7c6853487. Artifact blob SHA-1 d0de7411c2ddfcd8a83c8c1e8947d99c8e66a2b5; independently recomputed SHA-256 a317019c53fc54ebe70d057a7db3196e19ff3d02aaab4a87ce4fcdedd0e94a93 matched. PUBLISHED comment 7139775917 confirms readback.
+- First intake #2510 was rejected for checksum mismatch and closed as not_planned. Corrected retry #2511 reused the same submission_id, yielding one artifact path.
+- Canonical receipt: [h1073:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1700Z_s0_calder.md) plus [publication amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1700Z_s0_calder_AMENDMENT_01_PUBLISHED_VERIFIED.md).
+- Optional post-start Hale context: [handoff](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1749Z_from_s0_calder_to_s1_hale_POSTSTART_OPTIONAL_CONTEXT.md) plus [publication amendment](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1749Z_from_s0_calder_to_s1_hale_AMENDMENT_01_PUBLISHED_VERIFIED.md). Repository-only; no cross-thread delivery.
+- New finding: the 2024 Nathan Direct spatial helix/moving-slice construction is not demonstrated by the unbylined SAT-O1 three-independent-sinusoid parameterization. The O1 formula lacks a spatial axis and constant-radius constraints; no corrected equation issued. Blockwave's rank-two J is a worldsheet current, not automatically the same as a 1D filament.
+- Existing Lean proofs checked at exact heads: NadirHelixSliceGeometry PR #1455 run #42390677035/job #128457402086 SUCCESS; KestrelIntersectionDimensionGate PR #873 run #44090154878/job #134062868110 SUCCESS. Both PRs remain open/draft/unmerged; no new theorem or module.
+- Mersearch remains blocked: no callable action; all four request lanes occupied/unreleased. Lane 1/3/4 runner-shutdown failures; Lane 2 output exists but release is not verified. No request overwritten or retriggered.
+- WH-02 remains P1/open. Main strict date-tag audit run #45431975493 failed with 1,040 correctly dated, 2 undatable, 875 skipped; downstream indexing/viewer/tests/deployment did not run. PR #2487 is 6 ahead / 205 behind main; PR #2488 is 1 ahead / 205 behind; both draft/unmerged. No rebase/merge/issue closure.
+- Selected label Calder is not authenticated participation by a historical Calder thread. The 2026-09-12 CHECKINS self-report is the available specialist-role evidence; no signed specialist charter located.
+- Existing :00 Archive task ID, enabled state, hourly schedule and phase unchanged; no sixth task. No branch rewrite, no new tooling, no physical calculation, no CODATA, no paper-gate advancement, no BEDROCK promotion, no signet or chat rename.
+
+---
+
 # Latest reconciliation h1073:s0 | 2026-11-24T17:00Z | SAT-O1 helix-parameterization fidelity delta
 
 **Status:** SOURCE_FIDELITY_DELTA / LEAN_EXISTING_EXACT_HEAD_RUNS_PASS / MERSEARCH_UNAVAILABLE / PUBLISHER_SUBMITTED_NOT_VERIFIED / WH02_P1_OPEN / NO_THEORY_PROMOTION.
