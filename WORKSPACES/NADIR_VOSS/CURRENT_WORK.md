@@ -1,3 +1,25 @@
+# H1066:s0 Archive lane checkpoint | 2026-11-24T1000Z
+
+**Status:** SOURCE-LINEAGE ADDENDUM COMPLETE / NEW 2024 ATTACHMENT-CONTEXT FOUND / AUTHORING THREAD UNRECOVERED / PUBLICATION SUBMITTED_NOT_VERIFIED / NO THEORY PROMOTION.
+
+- Report: [Minkowski Proper source lineage and geometry fidelity](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/NADIR_VOSS/2026-11-24T1000Z_H1066_S0_MINKOWSKI_PROPER_SOURCE_LINEAGE_AND_GEOMETRY_FIDELITY.md)
+- Receipt: [H1066:s0 Nadir receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1000Z_s0_nadir_voss.md)
+- Optional successor context: [Enheduanna packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1000Z_from_s0_nadir_voss_to_s0_enheduanna_H1066_MINKOWSKI_PROPER_SOURCE_LINEAGE_OPTIONAL.md). Repository-only; no inbox append or chat delivery.
+
+**New source locator:** the SAT archive file 2023 SPACETIME CHAT.txt contains a segment explicitly dated 2024-03-28; lines 531-535 list MINKOWSKI PROPER.pdf and SAT.4DHH.UC.pdf after the moving-plane/helix exchange. This establishes attachment context, not authorship or creation date. Both MINKOWSKI PROPER PDF paths resolve to the same Git blob 674ff25e0f51c71610bf1cd86d64d29140ce56fc (2,140,186 bytes). The 2026-05-05 commit message says “MAY 5 2016 — UPDATES”; that is repository metadata, not verified composition date. The 2026 “trojan horse” note is in one extracted-text wrapper, not established as embedded PDF content.
+
+**Source boundary:** raw 2024 user messages support the 1D-filament / 3D-timesheet heuristic and explicitly call it an abstraction, not ontology. The 2025 holonomy question is exploratory; the later “interchangeable pictures” message is assistant-seeded. The October 1 user authorization permits a sandbox, not theory endorsement. MINKOWSKI PROPER body and Nadir PLAYGROUND_001 equations remain mixed-provenance / assistant-document-origin, not Nathan Direct.
+
+**Lean:** existing PR #1189, exact head 9e563ee330c8bdbdcf16f746eb1baff931751677, includes the bounded projected-frame curvature formalization. Exact-head Actions run #45284099363 succeeded. It does not derive a general smooth-frame or physical model. No new Lean module.
+
+**Publication:** issue [#2491](https://github.com/Satobloc/HsH/issues/2491), submission ID nadir-h1066-s0-minkowski-proper-source-lineage-20261124t1000z-001, SHA-256 a422fbf2c8743ca43826b83028aec989b275a3c9ac58aa9dc0a3941f19116bbb. Publisher run [#45377715417](https://github.com/Satobloc/HsH/actions/runs/45377715417) was still in progress at last check. State: SUBMITTED_NOT_VERIFIED. Next :00 turn must check the same issue and artifact readback; do not create a duplicate.
+
+**Controls:** Mersearch unavailable; four request lanes remain occupied/requested; no mutation. FIE last reviewed 2026-11-20, next 2026-12-04. Unrelated reading completed 2026-11-24; return cursor 296. P0 active; P1 frozen/Orson-owned; P2 Nov 30 hold; P3 Dec 14 incomplete. Task graph unchanged. No physical calculation, CODATA, data-free fixture, fit, prediction, measurement, or theory promotion. Existing :00 task identity, hourly schedule and phase unchanged; no sixth task, no signet, no chat rename.
+
+**Next cursor:** recover the MINKOWSKI PROPER authoring conversation or authoritative PDF metadata. If not found, preserve mixed provenance and do not promote its constants, Z3 gate, or master Lagrangian.
+
+---
+
 ## Latest checkpoint | h1058:s2 | 2026-11-24T02:24Z | P0 full-payload verification / Lane 24 hold
 
 **Status:** SOURCE-GROUNDED CONTROL-PLANE / P0 SNAPSHOT FRESH PREWRITE / RECORD SAFETY FAIL / LANE24 CYCLE08 COMPLETE-HOLD / LATERAL READING COMPLETE / NO PHYSICAL CALCULATION / NO THEORY PROMOTION.
