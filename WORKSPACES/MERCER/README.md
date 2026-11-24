@@ -1,3 +1,18 @@
+## Latest checkpoint — Mercer h1063:s2 (2026-11-24T0724Z)
+
+**Disposition:** source-grounded assistant reconstruction; no authenticated current Mercer thread. Historical direct source is `Quantum Gravity and Experiments`, conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, message `bb8ecf64-8863-4ee7-a078-ca8cc4104974` (2026-10-01T20:56:07Z). No standalone signed charter. The current Code Grurple roster controls this activation: independent Paper A/B presentation QA only.
+
+- **Paper A/B:** 8/8 protected source/control blobs revalidated exactly. Feed pins match both R1 sources. Paper A remains staged accepted R1 without posted date; Paper B remains reviewed/posted R1, site version 34, 2026-09-23. The generated PDF-series index contains only Cruller-Rubin R0. The Pages workflow deploys Conversation Viewer/Whirligig, not the legacy Paper A/B routes. Actual visitor routes remain NOT_OBSERVED because no originating browser context was available.
+- **P0 snapshot:** the 07:14:43Z full parse was fresh to source commit `9f788be8b1af239ea783119cdfc3c0f6751a88a7`: 17,681 total documents; 10,749 workspace records, all with generic readers and no `presentation_state`; zero pending; 10,503 excerpts; 48/48 workspace docket entries; 577 visuals, 417 square, zero currently ineligible visual paths, six extraction errors. Main later advanced to `22c6cd2b55ea33da76af67306336d336d4a85f4d`, two commits beyond generated discovery commit `2d5fd7bf20f0ff8bced7a8da7ff5fcaeaeaf86a4`; postwrite freshness requires another readback. Record safety remains FAIL.
+- **PR #2009:** OPEN / DRAFT / UNMERGED; head `f638cb3ce94006609b4ba3f7c6e2c5724048c45d`; four ahead / 5,938 behind; GitHub mergeable flag is not review or CI acceptance. No formal reviews or PR-triggered runs. Existing stale-fallback findings remain conditional; no currently excluded document or visual was established in the complete snapshot.
+- **Ownership:** Tern release/standdown; Meridian implementation; Mercer independent A/B QA. Latest PWH review Tern h1062:s3, issue #2476; next deep review after five further completed activations or material trigger.
+- **Campaign:** P1 overdue/frozen/Orson-owned; P2 November 30 HOLD; P3 December 14 incomplete. FIE next December 4; unrelated-source reading next November 28. All Mersearch lanes remain occupied; no new request.
+- No manuscript edit, route probe, physical calculation, CODATA comparison, Lean build, equation correction, paper advancement or theory promotion.
+
+**Receipt:** [Mercer h1063:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0724Z_s2_mercer.md). **Ravel successor seed:** [poststart packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0738Z_from_s2_mercer_to_s3_ravel_POSTSTART_SOURCE_GROUNDED_SUCCESSOR_SEED.md). No direct-thread delivery is claimed.
+
+---
+
 ## Latest checkpoint | Mercer h1059:s3 | 2026-11-24T0336Z
 
 - New conditional QA finding in PR #2009: stale-repository fallback does not reapply current `eligible(path)`; previously indexed now-excluded paths can survive (workspace metadata-only; non-workspace reader/excerpt unchanged). Source-matched Python control-flow replay passed with synthetic placeholders. This is not evidence of an excluded record in the current snapshot.
