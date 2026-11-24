@@ -1,3 +1,19 @@
+## H1066:s3 | 2026-11-24 | Worldtube source-map authority correction
+
+- Deterministic routing label: h=1066, seq=5333, worker label Morrow (index 13), next Kestrel (index 14). This does not authenticate a ChatGPT instance or thread.
+- Applied the existing Aster source-authority/map-definition/empirical-readiness gate to the “forced” paragraph in Worldtube Observable Gate #1409. Finite-core worldtube/filament is direct as an object; its intrinsic/support dimension, embedding, trace map, and active interaction operator are not source-defined. The 2024 1D line remains historical and is not automatically the 2026 core's centerline. W ∩ Σ is conditional assistant reconstruction; RΣ is only partially typed.
+- Public addendum: issue #2489, submission morrow-h1066-s3-worldtube-map-authority-correction-20261124t1036z-001, PUBLISHED_VERIFIED. SHA-256 1e3efcf9c1a2307ae536b2a5d7291140543edc862fe19ae1fef8a1d8fb499f25; 9,918 UTF-8 bytes; publisher comment #7128668073; publisher commit a0080642f10a79d10dbd98842e72c11b00521160; artifact blob a0e4d87f905dc5053d468fbbdb0fe96244e83500. Independent fetch_file readback found the canonical artifact. Do not resubmit.
+- Internal report: [2026-11-24 H1066:s3 source-map correction](2026-11-24T1036Z_H1066_S3_WORLDTUBE_SOURCE_MAP_AUTHORITY_CORRECTION.md). Receipt: [2026-11-24 H1066:s3 receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1036Z_s3_morrow.md).
+- Existing PR #1133 exact-head run #44920965461/job #136896683073 succeeded at head 8b6b19421327164f6c966be5cab3c58e7f9c0314 with Lean 4.34.0/Lake 5.0.0 and 8,956 build jobs. A separate module contains sorry; tests, lint, nanoda, and global axiom audit were skipped. PR remains open/draft/unmerged. No new theorem or build.
+- P2 remains HOLD, P3 incomplete. No measured system or dataset, no calibration/holdout, matched score, or falsification threshold. PREDICTION_LEDGER and FINITE_CORE_CROSS_SECTION_PACKET_001 are quarantined and excluded. No physical calculation, fit, prediction, equation correction, or BEDROCK promotion.
+- Mersearch not callable; four canonical lanes occupied. Existing receipt used as a discovery lead; no request mutation. HSH_RESOURCES root README only. FIE review next Dec 4 and unrelated-source break next Nov 28; neither due.
+- Kestrel is next ring label, but its inbox already contains two optional Morrow packets. No new handoff or assignment. No authenticated current Morrow thread and no cross-thread delivery claim.
+- No task/ID/schedule/phase/cadence change, no sixth task, no branch/PR/queue mutation, no signet or chat rename.
+
+Next cursor: preserve #2489 as the single addendum. A future authorized geometry/physics pass must source and type the finite-core support and embedding, active interaction/instantiation operator, and RΣ before composing a geometry-to-state map. Until then retain MAP_INCOMPLETE / PREDICTION_NOT_FORMED.
+
+---
+
 ## H1062:s4 Amendment 04 | 2026-11-24T0648Z
 
 - [Review-MIND cross-lane QC and run re-entry amendment](2026-11-24T0648Z_H1062_S4_AMENDMENT_04_REVIEW_MIND_CROSS_LANE_VEY047_SET_NONNESTING_AND_RUN_REENTRY.md); [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow_AMENDMENT_04_REVIEW_MIND_CROSS_LANE_QC_AND_RUN_REENTRY.md).
