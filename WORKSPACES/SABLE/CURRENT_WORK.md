@@ -56,3 +56,18 @@ This is not a signed standalone charter. Current controls supersede historical b
 - [P0 issue #1747](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7117628463)
 - [PWH queue](../COMMON/PRIMARY_WORKFLOW_HEALTH_ACTION_QUEUE_2026-11-13.md)
 - [Historical remit source supplement](HISTORICAL_REMIT_SOURCE_SUPPLEMENT_2026-11-23.md)
+
+## H1064:s0 additive Lane 00 checkpoint (2026-11-24T08:00Z)
+
+- Report: WORKSPACES/SABLE/2026-11-24T0800Z_H1064_S0_CRULLER_PHASE_MODEL_TRANSLATION_AUDIT.md
+- Canonical receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0800Z_s0_sable.md
+- Publisher intake: issue #2484, submission sable-h1064-s0-cruller-phase-fidelity-20261124t0800z-001; SUBMITTED_NOT_VERIFIED at checkpoint creation.
+- New work is an additive comparison of the historical 20:22 assistant phase-front/projected-speed reconstruction against the archived :24 Geometry primary messages. It does not repeat Kestrel h1063:s0 source recovery.
+- Conditional result: a transverse intersection of a 3D tube boundary and an exact 3D timesheet in a common 4D ambient has expected dimension 2. The existing PR #1133 formalizes the dimension arithmetic; no new Lean module or physical claim was made.
+- Main source discrepancy: earlier assistant reconstruction uses a spacetime/worldline reading, later assistant reconstruction uses a four-spatial product, while Nathan Direct distinguishes the fourth spatial direction from proper time. The local-to-global embedding and clock/process maps remain undefined.
+- P0 Code Grurple remains ACTIVE. Latest complete discovery parse shows record-safety FAIL; main commits after the 08:22 parse mean freshness is PENDING; live visitor-route acceptance NOT OBSERVED. No P0 mutation.
+- PWH: latest deep review Tern h1062:s3; Aster h1064:s2 found three further completed activations positively visible, so the five-activation trigger is not yet met. Tern retains coordination.
+- FIE next due December 4; unrelated-source break next due November 28.
+- P1 overdue/not ready/frozen/Orson-owned; P2 November 30 HOLD; P3 December 14 INCOMPLETE.
+- Current Sable thread remains unauthenticated; no cross-thread delivery or handoff claim. Next ring label Loom; :12 lease disabled.
+- No task/ID/cadence/phase/owner/graph changes; no sixth task, signet, conversation rename, physical calculation, CODATA scoring or theory promotion.
