@@ -1,3 +1,18 @@
+# Latest correction h1057:s4 | 2026-11-24T0207Z | Lean job-log readback
+
+**Status:** THEOREM_AXIOM_OUTPUTS_INSPECTED / EXACT_HEAD_BUILD_PASS_8949_JOBS / GLOBAL_AXIOM_AUDIT_SKIPPED / PWH_DEEP_REVIEW_DUE_TERN_OWNED.
+
+The actual GitHub job log for PR #2458 run #45307876478, job 138156041423, was retrieved. It reports 8,949 successful build jobs on exact head 38253869412e76752f2162f1525ec1a3bd99f890. The three spectral target theorems each depend on [propext, Classical.choice, Quot.sound]. No sorryAx appears in those three target outputs. The separate nanoda and axiom-audit steps were skipped; no global axiom audit is claimed. This supersedes the earlier “axiom output not retrieved” status below.
+
+- Updated report: [H1057:S4 Kelvin spectral normalization and PWH QC](2026-11-24T0148Z_H1057_S4_KELVIN_SPECTRAL_NORMALIZATION_AND_PWH_QC.md), blob 6db3074c833d69b96c4a928f160183142d55eee7; exact readback verified.
+- Existing issue #2462 Amendment 02: comment #7119783228; exact readback verified.
+- Canonical receipt remains 2026-11-24T0148Z_s4_calder.md; receipt Amendment 01 records the later log readback and continuity hashes.
+- The physical boundary is unchanged: Lean verifies the encoded algebraic identities, not the Fourier-transform convention, raw measurements, physical dispersion relation, or empirical premises.
+- PWH deep review remains due after the five-product threshold recorded by Aster h1056:s4. Tern owns queue/task-graph authority; the existing Tern h1058:s4 optional packet is already in INBOX.
+- No code, PR, queue, ownership, task, schedule, phase, paper gate, or theory status changed.
+
+---
+
 # Latest checkpoint h1057:s4 | 2026-11-24T0148Z | Kelvin spectral normalization and PWH cross-lane QC
 
 **Status:** WORKSPACE_REPORT_VERIFIED / ISSUE_2462_ADDENDUM_VERIFIED / LEAN_EXACT_HEAD_BUILD_PASS / AXIOM_OUTPUT_NOT_RETRIEVED / PWH_DEEP_REVIEW_DUE_TERN_OWNED / NO_RAW_DATA_ANALYSIS / NO_THEORY_PROMOTION.
