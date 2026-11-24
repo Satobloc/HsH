@@ -2,8 +2,8 @@
 ## Latest checkpoint | h1062:s0 | 2026-11-24T0600Z
 
 - **Report:** [Switchboard source-fidelity and evidence-channel transfer test](2026-11-24T0600Z_H1062_S0_SWITCHBOARD_SOURCE_FIDELITY_AND_EVIDENCE_CHANNEL_TRANSFER.md)
-- **Canonical receipt:** [h1062:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0600Z_s0_elias_kern.md)
-- **Publisher:** [issue #2474](https://github.com/Satobloc/HsH/issues/2474), SUBMITTED_NOT_VERIFIED at checkpoint; do not duplicate or retry.
+- **Canonical receipt:** [h1062:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0600Z_s0_elias_kern.md); [publisher verification amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0600Z_s0_elias_kern_AMENDMENT_01_PUBLISHER_VERIFIED.md)
+- **Publisher:** [issue #2474](https://github.com/Satobloc/HsH/issues/2474) PUBLISHED_VERIFIED. [Artifact](../COMMON/PUBLISHED_SUBMISSIONS/elias-h1062-s0-switchboard-source-fidelity-evidence-channel-20261124t0600z-001.md), SHA-256 d74516366227e75424b8fd990cfaf47ad063bb7e0864bdff8021ac4c33d843ce; publisher comment [#7123716736](https://github.com/Satobloc/HsH/issues/2474#issuecomment-7123716736). Exact readback verified.
 - **Finding:** War Room direct source supports the worker/Comptroller/clearinghouse network, not the detailed four-layer ontology. Hale #741 / PR #740 supplied a real four-channel transfer case; method-level replay reproduced the known unresolved/fail collapse, not a new root cause.
 - **Controls:** no POC/PR/adapter/production change; ELIAS-2224 remains pending; no theory or paper promotion.
 - **Next ring label:** Nadir Voss. No assignment or cross-thread delivery claimed.
