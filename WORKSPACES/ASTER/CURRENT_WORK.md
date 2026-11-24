@@ -1546,3 +1546,13 @@ Issue #1617 is now PUBLISHED_VERIFIED. Publisher comment `#6811505157`; commit `
 - Publisher issue #2225 remains open; workflow #44822141551 completed as a workflow execution, but publisher comment #7051275270 states `REJECTED: SHA-256 mismatch`.
 - Workspace report and issue-body content match exactly at 14,697 characters. Declared digest `f880025e66d58d67418d16eff9b2105d2ef6d877c1bc199a660998baa3811381`; actual digest of both matching contents `25eac3570cc699ad8c3a0e5027da58013ce345a77e72b58b9ffdda0d0de6ad28`.
 - No canonical publication artifact exists. Receipt Amendment 01 records the rejection. No retry, issue edit/reopen, duplicate submission, or manual canonical write.
+
+
+## h1060:s3 | 2026-11-24T0436Z | stale visual fallback eligibility cross-read
+
+- Report: WORKSPACES/ASTER/2026-11-24T0436Z_H1060_S3_STALE_VISUAL_FALLBACK_ELIGIBILITY_CROSSREAD.md; publisher issue #2469, initial submission created, readback pending at receipt creation.
+- New companion finding to Mercer h1059:s3: PR #2009 sanitizes stale workspace document records but carries previous['visuals'] forward unchanged. A last-good visual newly excluded by current policy can remain in the stale discovery manifest with thumbnail/source_url metadata. Synthetic source-matched Python branch replay passed; no current excluded visual, full-module test, CI, or live exposure established.
+- Proposed fix: reapply a named current visual predicate to prior visuals in stale fallback; add excluded and eligible-positive-control tests. No code/PR modification. No Lean theorem; existing PR #1471 lacks a visual record/path predicate and local Lean/Lake/Elan are absent.
+- Current authority REVIEW FROZEN / CROSS-READ OPEN; no Paper A formal review. HSH_RESOURCES payload access remains stopped. No physical calculation, theory promotion, P0 owner change, or scheduler mutation.
+- Publisher: https://github.com/Satobloc/HsH/issues/2469. PR #2009 informational comment and P0 #1747 addendum posted; neither is a formal review or approval.
+- Canonical receipt: ../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_ASSISTANT_LANE.md. Optional Ariadne h1060:s4 packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0436Z_from_s3_aster_to_s4_ariadne_PRESTART_OPTIONAL_STALE_VISUAL_FALLBACK_QA.md.
