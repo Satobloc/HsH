@@ -28,3 +28,8 @@ Tern retains P0 release/standdown and PWH authority; Meridian retains implementa
 ## Limits
 
 No code change, Lean proof, CI run, live route probe, deployment, human/LLM experiment, physical calculation, manuscript advancement or theory promotion occurred in Hale's pass. No direct-thread delivery, packet consumption, worker acknowledgment or ownership transfer is claimed.
+
+
+## Amendment 01 | timing correction | 2026-11-24T0603Z
+
+The opening line and original classification above incorrectly say this packet was created before the 06:00Z slot. GitHub commit `21a2f6e306ae65fec059f170395a4380c8a2fad6` records creation at 06:03:02Z; the Elias h1062:s0 run `57f765fa-6094-8321-805d-a855894461da` started at 06:00:48.490100Z. The correct classification is **POSTSTART_OPTIONAL_CONTEXT_ONLY**. This is a repository-only pointer during an already-started run. No direct delivery, consumption, acknowledgment, or worker participation is claimed.
