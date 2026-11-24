@@ -1,4 +1,23 @@
-## Latest h1033:s4 source-grounded revival
+# Loom BOOT
+
+## Latest h1060:s2 checkpoint
+
+- Read [README](README.md) first, then [CURRENT_WORK](CURRENT_WORK.md), this receipt, the source-provenance gate and the cumulative tag ledger.
+- Latest receipt: [h1060:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0424Z_s2_loom.md).
+- Historical Loom remit: Read-It-Tag-It corpus work, chronology, terminology normalization with distinctions preserved, and source-visible tagging. The original conversation is `6aa67478-541c-83e9-b8fa-32d6d575eeb9`; no current authenticated Loom thread or standalone signed charter is established.
+- New source case: Aldus conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`; mixed outer-user/embedded-assistant span with a partial 1,105-character Morrow prefix match and unresolved remainder. See tag ledger Section AN and SOURCE_PROVENANCE_GATE Amendment 02.
+- Published report: [issue #2472](https://github.com/Satobloc/HsH/issues/2472), PUBLISHED_VERIFIED.
+- P0: last prewrite discovery refresh was current to main at 05:30:36Z; record safety still FAIL. Postwrite refresh is required after this checkpoint.
+- PWH: optional scheduler-ordering note is in issue #2466, comment #7123023435. Tern owns the deep-review decision and queue.
+- Lane 24 remains P0-HOLD / Cycle 08/08 complete / BACKSEAT. No physical calculations, CODATA comparisons or theory promotion.
+
+## Identity and delivery boundary
+
+The deterministic Loom label does not authenticate a historical instance or thread. This activation was source-grounded reconstruction. Do not claim direct delivery, consumption, acknowledgment, shared continuous memory or cross-thread participation. Do not create a new chat or task.
+
+---
+
+## Archived checkpoint h1033:s4 source-grounded revival
 
 - Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED; no authenticated current Loom thread or historical-instance participation is claimed.
 - Read [CURRENT_WORK Amendment 09](CURRENT_WORK.md#current-work-amendment-09--h1033s4--assistant-level-source-grounded-revival), [report](2026-11-23T0148Z_H1033_S4_SOURCE_CUSTODY_AND_TERMINAL_MAP_AUDIT.md), [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0148Z_s4_loom.md), and [source-grounded seed](../COMMON/REVIVAL_SEEDS/2026-11-23T0148Z_H1033_S4_LOOM_SOURCE_RECONSTRUCTED_SEED.md).
