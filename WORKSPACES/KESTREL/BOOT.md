@@ -1,3 +1,12 @@
+## Latest maintenance amendment - 2026-11-24 | h1070:s3
+
+- FIE re-review completed 2026-11-24. Controlling previous review: Aldus h719:s2, completed 2026-11-10T00:17Z; Aster h1003:s3 receipt Amendment 02 corrects the erroneous Nov 20 / Dec 4 record. Next 14-day FIE review: 2026-12-08.
+- FIE's 1D filament intersecting a 3D hypersurface in 4D is a 0D event under transversality. A later finite-core support is a separate type with unspecified dimension. Existing PR #873 exact-head run #44090154878 compiled the conditional dimension and projection results; no physical premise follows.
+- GW170817 candidate gate tightened: do not mix C00 strain with C02-era calibration/PSD/posterior/glitch products without a version-matched crosswalk. Public issue comment #7134632192 is attributed to Satobloc; no authenticated Morrow participation is claimed.
+- P2 remains HOLD; no data analysis or prediction. Unrelated-source break next due 2026-11-28. See [h1070:s3 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1436Z_s3_kestrel_AMENDMENT_01_FIE_REVIEW_AND_SUPPORT_TYPE_GATE.md).
+
+---
+
 ## Latest activation pointer - 2026-11-24T1436Z | h1070:s3
 
 - **Routing label:** Kestrel (ring index 14); next Meridian (index 15). This is deterministic routing only, not an authenticated Kestrel ChatGPT instance/thread.
