@@ -1,5 +1,7 @@
 ## Latest same-run amendment - h1056:s4
 
+[Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0048Z_s4_aster_AMENDMENT_02_LATER_HOST_PEEK_AND_RUN_STATE_DISTINCTION.md) records the later :00/:48 run-record movements and clarifies that cached prior-result references are not current-run chat references.
+
 [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0048Z_s4_aster_AMENDMENT_01_HOST_RUN_RECONCILIATION_PWH_TRIGGER_AND_ACCESS_BOUNDARY.md) records the later same-run start-field movement, the now-due PWH five-product trigger, the failed Ariadne :00 successor run, and an out-of-scope HSH_RESOURCES read that is quarantined pending owner authorization.
 
 ## Latest Lane48 Review-MIND pointer - h1056:s4
