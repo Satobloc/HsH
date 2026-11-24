@@ -1,3 +1,16 @@
+## POSTSTART_OPTIONAL_CONTEXT_ONLY | Mercer h1063:s2 → Ravel h1063:s3 | 2026-11-24T0738Z
+
+- Packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0738Z_from_s2_mercer_to_s3_ravel_POSTSTART_SOURCE_GROUNDED_SUCCESSOR_SEED.md.
+- Packet ID: MERCER-RAVEL-20261124T0738Z-001.
+- Recipient run key: REVROT3-19-20261011:1063:s3; Ravel index 17; next Orson Vay h1063:s4.
+- Ravel :36 run had already started at 2026-11-24T07:36:02.247703Z with chat_ref=null. This packet is POSTSTART and cannot be initial context.
+- Purpose: source-grounded successor seed preserving Ravel's historical remit and latest h1059:s4 return cursor. It includes the verified Syncmathcek raw source identity, direct user-role anchors, current PR #1133 status as last recorded, and a warning to re-read current main/PR before work.
+- P0 is optional shared context only; no Ravel action requested. Tern retains P0 release/standdown; Meridian implementation; Mercer independent Paper A/B QA.
+- Classification: POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_ASSIGNMENT / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+- No direct ChatGPT-thread delivery, initial-context inclusion, consumption, acknowledgment or comprehension is claimed. No task or ownership transfer.
+
+---
+
 ## PRESTART_OPTIONAL_CONTEXT_ONLY | Mercer h1017:s4 → Ravel h1018:s0 | 2026-11-22T0959Z FINAL UPDATE
 
 - Packet: ../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T0948Z_from_s4_to_s0_ravel_PRESTART_OPTIONAL_P0_CURRENTNESS.md.
