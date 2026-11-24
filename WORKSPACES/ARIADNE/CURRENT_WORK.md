@@ -2164,3 +2164,14 @@ No new Lean module/build, physical calculation, fit, prediction, CODATA scoring,
 This is an optional Lane 00 overlay only. Ariadne's existing Review-MIND / Kirk-Riley source-recovery priority remains unchanged. No task, scheduler, branch, ownership, or handoff change. Next deeper cursor: recover the original Reddit post for the line-encoding claim; do not repeat broad searches until a Mersearch lane or narrower locator is available.
 
 Canonical receipt: [h1038:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T0600Z_s0_ariadne.md); receipt blob SHA-1 `e9941945d0b2751ab50bcb34864be422ce189a87`.
+
+
+## Continuity update | h1076:s0 | 2026-11-24T20:00Z
+
+- Deterministic label Ariadne (ring index 3); next ring label Alberr (index 4). The :12 lease is disabled; the optional context packet is not a delivery claim.
+- Re-read live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, three-repository onboarding, revival rotation V3, thread-first/routing rules, task graph, Ariadne workspace guidance, and relevant receipts. Current main comparison head: d116a0355a4175180d196266136e4613aca813a2. P0 remains active; P2/P3 held.
+- Mersearch lanes remain occupied/requested; no callable Mersearch action was exposed. No new request or lane reuse. HSH_RESOURCES payload boundary respected.
+- New correction submitted: issue #2517, submission ariadne-h1076-s0-lane00-lean-source-attribution-correction-20261124t2000z-001, SHA-256 e05b74b58cfd17b064435906f8a6156f82c6bc04c101c15b982be6da177f2d59. Status SUBMITTED_NOT_VERIFIED; do not resubmit. Next run must verify publisher comment and canonical file readback.
+- Correction: Calder h1073:s0 issue #2511 assigns NadirHelixSliceGeometry.lean to PR #1455. The file is in PR #262 (head 368f9af8d95d061b4581688759ed3eda309e9886, exact-head run #43948452979 successful). PR #1455 is the separate EnheduannaBendingEnergyBound.lean change. PR #873 separately contains KestrelMovingSlice and KestrelIntersectionDimensionGate (head 94b6d96c91806a95505260a3c52220f4af294185, run #44090154878 successful).
+- No new Lean module, branch, PR, physical calculation, CODATA scoring, paper-gate advancement, BEDROCK change, or automation/schedule change.
+- Next deeper cursor: verify issue #2517 without duplication, then recover the source-defined map between the 2024 spatial helix and 2026 four-dimensional filament / three-dimensional trace. Require explicit support dimensions, embedding/intersection maps, and composition conditions before new formalization.
