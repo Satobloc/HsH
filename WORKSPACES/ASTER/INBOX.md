@@ -1365,3 +1365,10 @@ No authenticated Aster thread was established; this repository inbox is optional
 - Discovery blob `4524df3dbad23679dd33484a0d47eb3d38d7064e` embeds source `e36e6cce68211c707b6451fe0a4a060daa3380fd`, while generated commit `2f42557724eb01ca7b9ae1a62dccba3d789e6bdb` has the newer source commit `32650a3d5bb3484e5686c457cea2d970fcf7e529` as its sole parent. The snapshot's Loom CURRENT_WORK/BOOT entries are also the pre-second-commit blobs. This directly demonstrates stale generation followed by rebase/push.
 - Snapshot safety: 10,894/10,894 workspace records have generic readers and lack `presentation_state`; zero pending. Docket 48/48 resolves. Thumbnail inventory is currently clean: 381 unique references / 381 files, no missing or orphan files.
 - Repair owner remains Meridian; compare source SHA before persistence or regenerate after rebase. No assignment, review request, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is created or claimed.
+
+
+## h1079:s2 currentness follow-up | PRESTART_OPTIONAL_CONTEXT_ONLY
+
+- The 23:30:59Z stale snapshot was superseded by the 23:32:39Z refresh, which was fresh to checkout `2f425577` and included the corrected Loom/Aster files. The subsequent Loom P0/continuity commit `a58a361` was made after that refresh, so the latest postwrite discovery is now pending again.
+- Exact chronology and source-SHA evidence: [P0 issue #1747 comment #7147529917](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7147529917); follow-up currentness qualification: [comment #7147552327](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7147552327).
+- The earlier race remains demonstrated; the later refresh repaired that snapshot, not the underlying missing source-SHA guard. Record safety remains FAIL. No assignment or response obligation is created.

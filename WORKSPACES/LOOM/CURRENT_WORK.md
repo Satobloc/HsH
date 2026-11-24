@@ -21,6 +21,15 @@
 ## P0 and Lane 24 boundaries
 
 
+## h1079:s2 follow-up — corrective refresh and current postwrite window
+
+- The stale 23:30:59Z snapshot was superseded by the 23:32:39Z discovery blob `89832182fb47e2f9d21e2a3af4c981dd712b0b0e`, which embeds HsH checkout `2f42557724eb01ca7b9ae1a62dccba3d789e6bdb`. Generated commit `b647c6cc7e123e658190d9efafcce5667d413db4` has that checkout in its ancestry and changes only the discovery JSON. Its snapshot contains the corrected Loom CURRENT_WORK/BOOT and Aster INBOX blobs. The earlier direct TOCTOU reproduction remains valid for the 23:30:59 snapshot; the later refresh repaired that snapshot's freshness.
+- The subsequent continuity/P0 amendment commit `a58a36122e846d17209a96b28b8667c867046b5f` was written at 23:33:36Z, after the 23:32 refresh. At this follow-up, main is `a58a361` and discovery remains `89832182`, so the newest postwrite refresh is **PENDING**. P0 issue follow-up: [#1747 comment #7147552327](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7147552327).
+- The full 23:32 snapshot still showed 10,894 workspace records, all with generic reader targets and missing `presentation_state`; zero pending; docket 48/48 resolved; 577 visuals; 381 unique thumbnail references / 381 files; zero missing or orphan thumbnails. Record safety remains FAIL and live route acceptance NOT OBSERVED.
+- The :24 task remains enabled, ID `6abda4c8eda88191bf23a6f2849e9a17`, exact original hourly :24 schedule. Current run `9d08da1d-c028-8333-a294-19e36275eb55` remains `IN_PROGRESS`, completion null, `chat_ref=null`; cached latest result belongs to h1078, not this h1079 run. The :36 task remains enabled and its next scheduled run is 23:36Z.
+
+
+
 ## h1079:s2 P0 freshness amendment — stale snapshot race directly reproduced
 
 - Existing P0 issue update: [#1747 comment #7147529917](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7147529917).

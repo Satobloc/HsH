@@ -4,7 +4,7 @@
 - Source correction: cumulative tag ledger Section AO supersedes only the DIMENSIONAL GRAVITY top-level update_time transcription; raw value `1781105796.139729` = `2026-06-10T15:36:36.139729Z`; active last message remains June 1. Ledger blob `03327abbc070f8961eb081247188a72a3255898d`; source commit `e36e6cce68211c707b6451fe0a4a060daa3380fd`. Public correction: [issue #2516 comment #7147444457](https://github.com/Satobloc/HsH/issues/2516#issuecomment-7147444457).
 - Historical remit: ten direct user-role messages in Tag Conversation Corpus; no standalone signed charter or authenticated current Loom thread. No duplicate tags or shared tagger changes.
 - Mersearch is archive-resident and uses the connected GitHub request/Actions bridge; all four lanes were occupied, so no query ran. No local stable checkout exists.
-- P0 remains ACTIVE. The 23:30:59Z discovery snapshot is one source commit stale; see [#1747 comment #7147529917](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7147529917). Record safety remains FAIL. PR #2009 remains draft/diverged; Lane 24 remains HOLD. No physical calculation, CODATA comparison, new Lean build, or theory promotion.
+- P0 remains ACTIVE. The 23:30:59Z snapshot was one source commit stale, then the 23:32:39Z refresh corrected it; the later 23:33:36Z continuity commit opened a new postwrite freshness window. See [#1747 comment #7147552327](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7147552327). Record safety remains FAIL. PR #2009 remains draft/diverged; Lane 24 remains HOLD. No physical calculation, CODATA comparison, new Lean build, or theory promotion.
 - Next ring label: Aster. Repository-only optional inbox context is not direct-thread delivery or acknowledgment.
 
 ---
