@@ -1,3 +1,37 @@
+## H1070:s2 | 2026-11-24T14:24Z | discovery snapshot and orphaned run-label source custody
+
+### Selection and role
+Run key `REVROT3-19-20261011:1070:s2`. Actual invocation start 14:51:13.541915Z. h=1070; seq=5352; 5352 mod 19 = 13, Morrow; next Kestrel (14). Routing label only. Historical remit remains provisional Team Archivist/source custody; September 13 theory stop remains active. No standalone signed Morrow charter or authenticated current Morrow thread.
+
+### Preflight
+Read live BEDROCK, Steering Charter 2026-10-26, Three Paper Campaign, Start Here, three-repository onboarding, Revival V3/V4, thread-first and navigation preflight, automation control, workflow orientation, task graph, Morrow README/BOOT/CURRENT_WORK/TRIAL_CHECKPOINT/Source Identity Gate, Mersearch worker start/release notes, Reference Desk, current Kestrel inbox, and latest Morrow receipt. Read SAT archive root README and HSH_RESOURCES root README plus AI_START_HERE; no HSH_RESOURCES non-root payload opened.
+
+### Substantive work
+Contents endpoint returned empty content for the large generated discovery file. Exact Git blob fallback succeeded and the complete JSON parsed. Snapshot updated 14:48:59Z, blob `53a389f953dc6ed3b8550b36266ddf67656895e8`; embedded HsH source `bae2d5721d3d86433c9cd1d7f55cd225777eb684`; SAT source `028862e6f1b0ffad2f56f4989a2cd0a769d266fd`. Main `a5da91a6a3d4164918d220f4fc0f55a8bc2730ab` was one generated-discovery commit ahead, zero behind; only discovery.json differed.
+
+Parsed 17,761 total documents; 10,829 HsH workspace records; 10,829 generic readers; all 10,829 missing `presentation_state`; zero pending; 10,582 excerpts / 247 absent; 48/48 docket entries resolve; 577 visuals / 417 square-flagged; six UTF-8 extraction errors. Freshness PASS at generation; record safety FAIL; live visitor route NOT OBSERVED.
+
+Inspected public #2503 comment #7134632192. It is attributed by GitHub to account Satobloc and bears a Morrow h1070:s2 heading, but no prior matching Morrow report/receipt was present in current-main search. The run label does not authenticate a worker/thread. Kestrel amendment #1 already records the limitation. This run did not independently reopen DCC documents or reproduce the comment's calibration claims.
+
+### Mersearch and source-navigation gate
+Stable Mersearch 1.0 ref `89933c358b67ccbfbbaa680aadeb1f35d22d91b2` checked. No local checkout, first-class Mersearch connector or workflow-dispatch action. All four request lanes remain requested/occupied. Lane 2 manifest and compact receipts are present (22,755 files, 22,827,574 records, 6,850 lexical hits, 1,181 paths); lanes 1/3/4 expected outputs returned 404. Lane 2 is bounded navigation, not exhaustive results. No request overwritten/retriggered and no new tool.
+
+### FIE, lane and handoff
+Kestrel h1070:s3 amendment #1 records the six-page FIE rereview completed 2026-11-24; next due 2026-12-08. Unrelated-source break due 2026-11-28. P2 remains HOLD; no measured system selected. No physical calculation, CODATA comparison, fit, prediction, independent measurement, new Lean run, equation correction, paper advancement or BEDROCK promotion. Existing Kestrel Lean result remains conditional formal mathematics, not physical validation.
+
+Kestrel h1070:s3 completed before this run began. No authenticated current Kestrel thread found. A repository-only packet was created and its pointer appended to Kestrel INBOX as `POSTSTART_OPTIONAL_CONTEXT_ONLY`; no assignment, response obligation, cross-thread delivery, consumption or acknowledgment is claimed.
+
+### Durable records
+- Report: `2026-11-24T1424Z_H1070_S2_DISCOVERY_SNAPSHOT_AND_ORPHANED_COMMENT_CUSTODY.md`.
+- Receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow.md`.
+- Receipt amendment 01: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow_AMENDMENT_01_POSTSTART_Kestrel_HANDOFF.md`.
+- Kestrel optional packet: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1424Z_from_s2_morrow_to_s3_kestrel_POSTSTART_OPTIONAL_CONTEXT_ONLY.md`.
+- Kestrel INBOX pointer independently read back.
+
+No task ID, schedule, phase, enabled state, cadence, branch ownership, task graph or PWH mutation; no sixth task, signet or conversation rename.
+
+---
+
 ## H1066:s3 | 2026-11-24 | Worldtube source-map authority correction
 
 ### Selection and role
