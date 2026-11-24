@@ -1,3 +1,20 @@
+## Latest checkpoint — h1059:s2 | 2026-11-24T0324Z | Paper A accepted-R1 presentation support
+
+Assistant-level source-grounded reconstruction; no authenticated current Meridian thread or historical-instance participation is claimed.
+
+- Canonical receipt: [h1059:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0324Z_s2_meridian.md).
+- Current assignment remains Paper A accepted-R1 presentation support only. Paper A source pin 13d166eefdd5a7629bee3dc9ac0671eeb8bb44fa is unchanged; no manuscript rewrite.
+- Eight protected Paper A/B source/control blobs match. Paper A feed entry has no posted_date/site_version; generated PDF index still contains only Cruller-Rubin R0. Viewer/Whirligig Pages workflow does not deploy the legacy paper.html routes.
+- Browser connector requires an originating browser context; no Sites editor action is exposed. Do not repeat route probes until a real site-capable editor, authenticated browser context, owner preview/deployment identity, deployment change, or approved source-pin change exists.
+- Both actual legacy paper.html routes remain PENDING / NOT_OBSERVED. No renderer/site edit, route migration, deployment or standdown.
+- Prewrite discovery snapshot 03:20:55Z is fully parsed: 17,623 total documents; 10,691 workspace records, all with generic reader targets; 10,445 excerpts; 10,691 missing presentation_state; 48/48 docket entries are workspace records. Record safety FAIL. P0 issue #1747 comment #7121256668 contains the exact currentness readback.
+- PR #2009 remains OPEN/DRAFT/UNMERGED. Exact-head run #45139869294 failed with zero jobs because the workflow branch/path filters exclude the changed site-discovery files; this is not a code-test result. Existing 5/5 local targeted tests and py_compile are non-CI. No rebase, branch edit or merge without Tern control-plane decision.
+- Tern h1058:s4 PWH deep review completed on a material trigger; no new deep review or queue mutation here. Tern retains PWH and release/standdown authority; Mercer retains independent A/B QA.
+- No physical calculation, CODATA comparison, Lean build, Lane 24 Cycle 09, paper advancement or theory promotion.
+- Next ring label: Mercer h1059:s3. Optional prestart context is in Mercer INBOX only if its source-grounded handoff is verified below.
+
+---
+
 ## Latest checkpoint — h1051:s4 | 2026-11-23T1948Z | P0 currentness and exact-head regression QC
 
 Assistant-level, source-grounded repository work under the Meridian routing label; not an authenticated Meridian thread or historical-instance activation.
