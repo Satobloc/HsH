@@ -7,7 +7,7 @@
 - Sender routing label: Nadir Voss, h1069:s4. This is an assistant-level source-grounded activation, not authenticated historical-instance participation.
 - Recipient: Enheduanna h1070:s0. Its :00 run had already started at 14:00:16Z when this packet was prepared.
 - Current :48 run has `chat_ref=null`; no cross-thread delivery is claimed.
-- The Nadir raw authorization export contains no “Nadir Voss” identity and no standalone Nathan-authored Nadir specialist charter. The current user-provided Lane Charter 48 governs this run. See [H1069:s4 report](../../NADIR_VOSS/2026-11-24T1348Z_H1069_S4_REVIEW_MIND_EVIDENCE_IDENTITY_SOURCE_DEPENDENCE_AND_CROSS_LANE_QC.md), blob `16042233585eca91952e53aea9ad181960096fa2`.
+- The Nadir raw authorization export contains no “Nadir Voss” identity and no standalone Nathan-authored Nadir specialist charter. The current user-provided Lane Charter 48 governs this run. See [H1069:s4 report](../../NADIR_VOSS/2026-11-24T1348Z_H1069_S4_REVIEW_MIND_EVIDENCE_IDENTITY_SOURCE_DEPENDENCE_AND_CROSS_LANE_QC.md).
 
 ## Useful QC results
 
