@@ -1444,3 +1444,12 @@ Clone ledger commit 71bbcd4df6b2ec93c059d635c96b74e4c5e7171e, blob 292406862873f
 - Postwrite discovery freshness remains PENDING until a new generated-discovery readback includes the report, queue, ledger, continuity and receipt writes. The 06:42:19Z prewrite PASS is not carried forward.
 - Next deterministic label Morrow h1062:s4. Existing optional OP-01 packet left untouched; no new handoff or response obligation.
 
+
+
+## h1062:s3 final run and discovery reconciliation | 2026-11-24T0709Z
+
+- Existing PWH report #2476 is PUBLISHED_VERIFIED; issue-envelope content and canonical artifact match exactly at 17,565 characters; SHA-256 `80c6ec47087e9397c9531936f5448dc0350f411c2277d0192f12315e123001fc`.
+- Exact-ID scheduler peek returned the same run ID `79adf9a1-1658-8330-b0d4-2624fe342ff4`, but its `started_at` field changed from the receipt's 06:36:01.685Z to 07:03:42Z. Status remains IN_PROGRESS, completion null, `chat_ref=null`; no cause/attempt identity is exposed. Do not infer retry or restart.
+- Discovery refresh #45343959951 / job 138274371807 completed SUCCESS, producing `b88ab678` from source `bf66deaf`; both scans complete. Current main `a5dcc41` is 12 commits ahead of that generated snapshot, so current discovery freshness is PENDING. Record safety remains FAIL; live route NOT OBSERVED.
+- Current clone ledger blob `4d344b730d02c084848b8b6d1b13656e837963d6` remains 527 rows / 524 unique populated IDs / 3 legacy missing IDs / zero parse errors or duplicates. The parent receipt's expected 538-row post-append state was not realized; no event rows were fabricated.
+- See [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0703Z_s3_tern_rook_AMENDMENT_01_FINAL_RUN_DISCOVERY_AND_LEDGER_READBACK.md). No second review/publication, code, graph, owner, priority or scheduler change.
