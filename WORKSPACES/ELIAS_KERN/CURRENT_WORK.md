@@ -1,4 +1,3 @@
-## Latest checkpoint | h1012:s3 | 2026-11-22T0436Z | Hydra candidate-event eligibility
 ## 2026-11-24 | h1062:s0 | Source fidelity and evidence-channel transfer
 
 - Report: WORKSPACES/ELIAS_KERN/2026-11-24T0600Z_H1062_S0_SWITCHBOARD_SOURCE_FIDELITY_AND_EVIDENCE_CHANNEL_TRANSFER.md
@@ -22,6 +21,7 @@
 
 ---
 
+## Historical checkpoint | h1012:s3 | 2026-11-22T0436Z | Hydra candidate-event eligibility
 ## Latest checkpoint | h1012:s3 | 2026-11-22T0436Z | Hydra candidate-event eligibility
 
 **Status:** TRACK_A_POC_ONLY / INTERNAL_REPORT_READBACK_VERIFIED / SUBMITTED_NOT_VERIFIED / LEAN_NOT_RUN / NO_PRODUCTION_AUTHORITY.
