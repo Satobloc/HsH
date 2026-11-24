@@ -71,3 +71,17 @@ This is not a signed standalone charter. Current controls supersede historical b
 - P1 overdue/not ready/frozen/Orson-owned; P2 November 30 HOLD; P3 December 14 INCOMPLETE.
 - Current Sable thread remains unauthenticated; no cross-thread delivery or handoff claim. Next ring label Loom; :12 lease disabled.
 - No task/ID/cadence/phase/owner/graph changes; no sixth task, signet, conversation rename, physical calculation, CODATA scoring or theory promotion.
+
+
+## Lane 00 source-fidelity supplement | h1064:s0 | 2026-11-24T08:00Z
+
+This is an additive source-cluster extension to the existing h1064:s0 Cruller phase-model report, not a replacement. Both Lane 00 reports are now published and independently read back:
+
+- Cruller phase-model translation audit: [report](2026-11-24T0800Z_H1064_S0_CRULLER_PHASE_MODEL_TRANSLATION_AUDIT.md), publisher issue [#2484](https://github.com/Satobloc/HsH/issues/2484), SHA-256 2d25a94db7de01e72cb13c7bac8931da2ee3430adb03638bf61ea371b9e6f220.
+- Photon Corkscrew source-fidelity audit: [report](2026-11-24T0800Z_H1064_S0_PHOTON_CORKSCREW_SOURCE_FIDELITY.md), publisher issue [#2485](https://github.com/Satobloc/HsH/issues/2485), SHA-256 17c391efaddbee15b101cf7aee10762697603a793a3749568e0faef9250a8596. The raw May 24 conversation supplies only an imaginative corkscrew trajectory; dimension and metric remain unspecified. The assistant's 3D spatial-helix reconstruction adds an inconsistent axial-c / total-c claim when transverse motion is nonzero.
+- Conditional Lean gate: [draft PR #2483](https://github.com/Satobloc/HsH/pull/2483), exact-head run [#45359035777](https://github.com/Satobloc/HsH/actions/runs/45359035777) SUCCESS, 8,948 jobs. It formalizes only standard Euclidean/Minkowski conditional algebra. Tests, lint, leanchecker, nanoda and global axiom audit were skipped. No physical or H(s)H claim.
+- The historical Sable source supplement distinguishes canonical raw.json (SHA-256 dfe0ac..., Git blob 57f65c...) from a non-byte-identical raw (1).json copy (SHA-256 5f6718..., Git blob c7f51...). Their 59 direct user-role messages match; the two full-file hashes are not interchangeable.
+- Optional Loom context packet: [post-start context only](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0800Z_from_s0_to_s1_loom_POSTSTART_OPTIONAL_CONTEXT_ONLY.md). No inbox write, direct delivery, assignment, or response obligation. Loom remains ACCESSIBLE-UNSCHEDULED.
+- The original h1064:s0 receipt was amended additively. No duplicate receipt was created. See [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0800Z_s0_sable.md).
+
+Sable Lane 24 P0-HOLD / Cycle 08/08 complete / backseat remains unchanged. P0 Code Grurple remains active; P1 remains overdue/not ready/frozen/Orson-owned; P2 November 30 HOLD; P3 December 14 INCOMPLETE. Latest PWH review remains Tern h1062:s3 issue #2476; Aster h1064:s2 found three additional visible activations, so the five-activation trigger is not yet met. FIE next due December 4; unrelated-source break next due November 28. No paper gate, physical calculation, CODATA scoring, or theory promotion advanced.
