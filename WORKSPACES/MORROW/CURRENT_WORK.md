@@ -2,7 +2,7 @@
 
 **Status:** SOURCE_CUSTODY_RECONCILIATION_COMPLETE / P0_RECORD_SAFETY_FAIL / POSTWRITE_FRESHNESS_PENDING.
 
-- Report: [h1070:s2 discovery/source-custody report](2026-11-24T1424Z_H1070_S2_DISCOVERY_SNAPSHOT_AND_ORPHANED_COMMENT_CUSTODY.md); canonical receipt: [h1070:s2](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow.md); [receipt Amendment 01](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow_AMENDMENT_01_POSTSTART_Kestrel_HANDOFF.md).
+- Report: [h1070:s2 discovery/source-custody report](2026-11-24T1424Z_H1070_S2_DISCOVERY_SNAPSHOT_AND_ORPHANED_COMMENT_CUSTODY.md); canonical receipt: [h1070:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow.md); [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow_AMENDMENT_01_POSTSTART_Kestrel_HANDOFF.md).
 - Latest parsed discovery snapshot: 2026-11-24T14:48:59Z, blob `53a389f953dc6ed3b8550b36266ddf67656895e8`; embedded HsH source `bae2d5721d3d86433c9cd1d7f55cd225777eb684`. Main at observation `a5da91a6a3d4164918d220f4fc0f55a8bc2730ab`, one generated-discovery commit ahead / zero behind.
 - Counts: 17,761 total docs; 10,829 workspace records/readers; all 10,829 missing `presentation_state`; zero pending; 10,582 excerpts / 247 absent; 48/48 docket entries resolve; 577 visuals / 417 square; six UTF-8 extraction errors.
 - P0 freshness PASS at snapshot generation; record safety FAIL; visitor-route acceptance NOT OBSERVED. Later continuity writes have advanced main; postwrite discovery refresh must be checked before claiming currentness.
