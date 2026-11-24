@@ -81,6 +81,29 @@ theorem no_route_only_identity_resolver_of_ambiguous_binding
   exact differentIdentity
     (route_resolver_forces_fiber_identity resolve hresolve left right sameRoute)
 
+/-- If two distinct interpretations produce exactly the same observation,
+    no decoder that receives only that observation can recover both.
+
+    This is an assistant reconstruction of the conditional non-identifiability
+    claim in the 2026-07-01 raw conversation. The source's word "isometric" is
+    not defined as a metric isometry here. The theorem proves only the
+    two-model case; it does not establish an infinite observation fiber or
+    specify the source's spatial/temporal transformation maps. -/
+theorem no_observation_only_decoder_of_ambiguous_models
+    {Model Observation : Type}
+    (observe : Model → Observation)
+    (left right : Model)
+    (differentModels : left ≠ right)
+    (sameObservation : observe left = observe right) :
+    ¬ ∃ decode : Observation → Model,
+      ∀ model : Model, decode (observe model) = model := by
+  rintro ⟨decode, hdecode⟩
+  apply differentModels
+  calc
+    left = decode (observe left) := (hdecode left).symm
+    _ = decode (observe right) := congrArg decode sameObservation
+    _ = right := hdecode right
+
 /-- A route can be resolved only with an explicit source-verification witness.
     `Verified` is an uninterpreted predicate supplied by the source audit. -/
 structure VerifiedRouteBinding
@@ -171,6 +194,7 @@ theorem borrowed_participant_has_binding_and_consent
 
 #print axioms route_resolver_forces_fiber_identity
 #print axioms no_route_only_identity_resolver_of_ambiguous_binding
+#print axioms no_observation_only_decoder_of_ambiguous_models
 #print axioms borrowed_participant_has_binding_and_consent
 #print axioms verified_route_bindings_agree
 #print axioms resolveWithEvidence_is_unique
