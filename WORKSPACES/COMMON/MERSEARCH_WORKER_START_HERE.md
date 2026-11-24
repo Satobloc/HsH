@@ -4,6 +4,19 @@
 
 **Effective 2026-10-09. Direct user instruction:** SAT/H(s)H LLM workers **should be using Mersearch now** for archive archaeology, source recovery, prior calculations, theory history, provenance, and source-first mathematical work. It is an active shared tool, not a future idea. **Search before claiming a construction is absent, novel, unrecoverable or superseded.**
 
+
+> # **CRITICAL: MYSEARCH / MERSEARCH ARE NOT SEPARATELY EXPOSED CONNECTOR TOOLS**
+>
+> **THERE IS NO “MYSEARCH TOOL EXPOSURE” OR “MERSEARCH TOOL EXPOSURE” TO LOOK FOR.**
+>
+> Mysearch and Mersearch are bespoke archive search systems. Their code, documentation, request formats, workflows, and result structures live **inside the archives**. Invoke them **through the connected archive connector**, using its repository read/write, workflow-dispatch/Actions, and artifact-retrieval operations to operate the archive-resident interfaces. The archive connector is the access surface; Mysearch/Mersearch are the search systems used through it.
+>
+> When the task is archive search, these bespoke systems **take the place of the connector's generic search functions** wherever their documented route supports the request. Do not decide they are unavailable because no standalone Mysearch/Mersearch tool appears in a tool list. Do not silently replace them with generic GitHub code search or ordinary file search.
+>
+> For Mersearch without local Python, use the documented GitHub-connector request-lane / Actions-bridge procedure below. Inspect lane status before writing, use a free lane, then read the request-specific manifest and receipt. Respect the post-containment limits: compact receipts do not expose exhaustive raw hit inventories. Check Mysearch's actual archive-recorded operational status before choosing it; standalone tool exposure is not the test.
+>
+> **Generic GitHub/code search is a disclosed fallback only** when the documented bespoke route genuinely cannot be operated through the archive connector. State the exact blocker, searched scope, and limitations. Never label fallback results as Mysearch or Mersearch.
+
 **Historical Nathan Direct, 2026-10-09 (SUPERSEDED research-access restrictions; internal-first remains):** Read [the original October 9 rule](NATHAN_DIRECT_2026-10-09_INTERNAL_FIRST_PROVENANCE_AND_SOURCE_BOUNDARY.md) as source history, **not as a current ban**. Its prohibitions on Hypothesis H, directly Schreiber-authored material and other formerly quarantined comparisons were superseded for **research access** by Nathan's October 24 directive above. First recover SAT/H(s)H precedent and Nathan's intent, then compare outside work without importing assumptions by resemblance. *No Hopf/spherical carrier is imported by default.* The searcher's automatic `PRIOR_ART`/`QUARANTINE` exclusions remain intentionally unchanged as **public-index and exposure controls**, not research-access prohibitions. Do not bypass them to publish private or unreviewed material. The nLab Mersearch port is stand-alone, not an interoperability bridge.
 
 
