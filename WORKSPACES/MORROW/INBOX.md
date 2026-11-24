@@ -1456,3 +1456,7 @@ Source-custody context only, no assignment or response obligation:
 [Optional handoff packet](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1900Z_from_s0_tern_to_h1075s4_morrow_PRESTART_OPTIONAL_SOURCE_CUSTODY_CONTEXT.md)
 
 The packet records the Blockwave attachment's exact blob/SHA-256 and the correction to issue #2272. Issue #2515 remains SUBMITTED_NOT_VERIFIED pending publisher comment and canonical artifact readback. Morrow's Team Archivist/source-custody remit and September 13 theory stop remain controlling. No direct-thread delivery or acknowledgment is claimed.
+
+## h1074:s0 publication verification | 2026-11-24
+
+The referenced Lane 00 issue #2515 is now PUBLISHED_VERIFIED. Publisher comment #7141561988 and canonical artifact readback confirm blob 50d30b72f1d6bb48f9b5d3924163c3754431d8a6 and SHA-256 89affdd389141f9b2ce57fbe77f444b4f59edda2aaceae5dc089087a619bae7f. This supersedes the earlier SUBMITTED_NOT_VERIFIED note. No new assignment or response obligation.
