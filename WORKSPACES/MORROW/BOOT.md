@@ -1,3 +1,8 @@
+## H1062:s4 Amendment 03 | 2026-11-24T0648Z
+
+- [Report Amendment 03](2026-11-24T0648Z_H1062_S4_AMENDMENT_03_LATEST_DISCOVERY_REFRESH_CHRONOLOGY.md) identifies latest observed discovery refresh `ffb68240d5b6c9ea38ae58bbcc8164a7da8394b9` (07:08:49Z; discovery.json only). Payload and record-level inclusion remain unverified.
+- [Receipt Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow_AMENDMENT_03_LATEST_DISCOVERY_REFRESH_CHRONOLOGY.md).
+
 ## H1062:s4 Amendment 02 | 2026-11-24T0648Z
 
 - [Report Amendment 02](2026-11-24T0648Z_H1062_S4_AMENDMENT_02_POSTWRITE_DISCOVERY_REFRESH_STATUS.md) records postwrite refresh commit `a5dcc41feb1aaf8858ba35e38e5e1640acc9ca5a` (07:07:09Z; discovery.json only). Payload and record-level inclusion remain unverified; P0 remains FAIL.
