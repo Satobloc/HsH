@@ -1,3 +1,8 @@
+## Scheduler preservation | h1060:s3 | 2026-11-24T0446Z
+
+- Existing :36 task `6a9f52b69ec08191b8a91a30d2a155e0` is ENABLED; exact hourly America/New_York :36 schedule and Worldtube phase unchanged. Current run `cc816b31-2788-832e-84a2-81c8f9f305c4` is IN_PROGRESS with null run-level chat_ref. No sixth task or scheduler mutation.
+- [Scheduler readback amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_AMENDMENT_02_SCHEDULER_PRESERVATION_READBACK.md).
+
 ## Final publication readback | Aster h1060:s3 | 2026-11-24T0445Z
 
 - [Report](2026-11-24T0436Z_H1060_S3_STALE_VISUAL_FALLBACK_ELIGIBILITY_CROSSREAD.md) is PUBLISHED_VERIFIED at [issue #2469](https://github.com/Satobloc/HsH/issues/2469); publisher comment #7122306519.
