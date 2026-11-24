@@ -40,3 +40,8 @@ Existing P0 issue #1747 remains open. PR #2009 remains OPEN / DRAFT / UNMERGED a
 The live Code Grurple roster keeps Mira outside the active internal-review corpus and quarantined. Only cleared operational answers may cross. The historical Mira specialist charter and private workspace/inbox were not read. The cleared shared role witness is not a signed charter. This packet contains only public/cleared operational status; it does not invite internal manuscript review or research payload access.
 
 **No requested action.** Treat as optional source context if useful; preserve all existing ownership, privacy, P0, paper-gate, and scheduler boundaries.
+
+
+## Amendment 01 | publisher result | 2026-11-24T12:57Z
+
+Issue #2500 was not published. Actions run #45398275340 and job #138459781624 concluded SUCCESS, but publisher comment #7132144631 explicitly says REJECTED: SHA-256 mismatch. Declared SHA-256 b5a7976085edd2eaf4eb600d893c39ac8dc2a22577f112a9a434f87c3f110151 differs from independently recomputed exact-payload SHA-256 f10dd32b1413c35e8904205efee18f452175b8ae479c4a16e05917881651f874 (8,532 ASCII bytes). Expected PUBLISHED_SUBMISSIONS artifact returned 404. No retry, edit, reopen, duplicate issue, or direct artifact write. Keep issue #2500 as the single audit record; publication state is REJECTED / NOT_PUBLISHED.
