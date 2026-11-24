@@ -215,3 +215,90 @@ theorem singletonPredictionRegions_iff_exactReadoutFiberIdentifiability
 #print axioms uncertaintyFeatureIdentifiable_iff_distinctFeatureRegionsDisjoint
 #print axioms overlappingPredictionRegions_block_identifiability
 #print axioms singletonPredictionRegions_iff_exactReadoutFiberIdentifiability
+
+
+/-! ## Shared-parameter-conditioned identifiability
+
+The context parameter represents whatever must be held fixed for a fair
+comparison: shared physical parameters, calibration state, instrument version,
+and the declared nuisance budget. Identifiability is tested within each such
+context, not by comparing states that were allowed different shared settings.
+-/
+
+/-- A feature is identifiable within each shared context when an observation
+compatible with two states in that same context forces equal feature values. -/
+def ContextualUncertaintyFeatureIdentifiable
+    {State Observation Feature Context : Type*}
+    (region : PredictionRegion State Observation)
+    (feature : State → Feature)
+    (sharedContext : State → Context) : Prop :=
+  ∀ s₁ s₂ y, sharedContext s₁ = sharedContext s₂ →
+    y ∈ region s₁ → y ∈ region s₂ → feature s₁ = feature s₂
+
+/-- Prediction regions for distinct feature values are disjoint when the
+compared states share the same declared context. -/
+def DistinctFeatureRegionsDisjointWithinContext
+    {State Observation Feature Context : Type*}
+    (region : PredictionRegion State Observation)
+    (feature : State → Feature)
+    (sharedContext : State → Context) : Prop :=
+  ∀ s₁ s₂, sharedContext s₁ = sharedContext s₂ →
+    feature s₁ ≠ feature s₂ →
+    Disjoint (region s₁) (region s₂)
+
+/-- Conditional feature identification is equivalent to pairwise disjoint
+prediction regions inside each fixed shared-parameter context. -/
+theorem contextualUncertaintyFeatureIdentifiable_iff_disjointWithinContext
+    {State Observation Feature Context : Type*}
+    (region : PredictionRegion State Observation)
+    (feature : State → Feature)
+    (sharedContext : State → Context) :
+    ContextualUncertaintyFeatureIdentifiable region feature sharedContext ↔
+      DistinctFeatureRegionsDisjointWithinContext region feature sharedContext := by
+  constructor
+  · intro hident s₁ s₂ hcontext hfeature
+    apply Set.disjoint_left.mpr
+    intro y hy₁ hy₂
+    exact hfeature (hident s₁ s₂ y hcontext hy₁ hy₂)
+  · intro hseparated s₁ s₂ y hcontext hy₁ hy₂
+    by_contra hfeature
+    exact (Set.disjoint_left.mp (hseparated s₁ s₂ hcontext hfeature)) hy₁ hy₂
+
+/-- An overlap witness within one shared context blocks feature identification
+for that context, even when the observation region is uncertainty-aware. -/
+theorem overlappingPredictionRegionsWithinContext_block_identifiability
+    {State Observation Feature Context : Type*}
+    (region : PredictionRegion State Observation)
+    (feature : State → Feature)
+    (sharedContext : State → Context)
+    (hoverlap : ∃ s₁ s₂ y,
+      sharedContext s₁ = sharedContext s₂ ∧
+      feature s₁ ≠ feature s₂ ∧
+      y ∈ region s₁ ∧ y ∈ region s₂) :
+    ¬ ContextualUncertaintyFeatureIdentifiable region feature sharedContext := by
+  rcases hoverlap with ⟨s₁, s₂, y, hcontext, hfeature, hy₁, hy₂⟩
+  intro hident
+  exact hfeature (hident s₁ s₂ y hcontext hy₁ hy₂)
+
+/-- Singleton regions recover exact readout-fiber identifiability while
+holding the shared context fixed. -/
+theorem singletonPredictionRegions_iff_exactReadoutFiberIdentifiabilityWithinContext
+    {State Observation Feature Context : Type*}
+    (readout : State → Observation)
+    (feature : State → Feature)
+    (sharedContext : State → Context) :
+    ContextualUncertaintyFeatureIdentifiable
+      (fun s => ({readout s} : Set Observation)) feature sharedContext ↔
+      ∀ s₁ s₂, sharedContext s₁ = sharedContext s₂ →
+        readout s₁ = readout s₂ → feature s₁ = feature s₂ := by
+  constructor
+  · intro hident s₁ s₂ hcontext hreadout
+    exact hident s₁ s₂ (readout s₁) hcontext (by simp) (by simp [hreadout])
+  · intro hfiber s₁ s₂ y hcontext hy₁ hy₂
+    have hy₁' : y = readout s₁ := by simpa using hy₁
+    have hy₂' : y = readout s₂ := by simpa using hy₂
+    exact hfiber s₁ s₂ hcontext (hy₁'.symm.trans hy₂')
+
+#print axioms contextualUncertaintyFeatureIdentifiable_iff_disjointWithinContext
+#print axioms overlappingPredictionRegionsWithinContext_block_identifiability
+#print axioms singletonPredictionRegions_iff_exactReadoutFiberIdentifiabilityWithinContext
