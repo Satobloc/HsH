@@ -463,3 +463,13 @@ The direct Crullerverse source treats the toroidal C/w direction as spatial whil
 **Status:** source-grounded proposal / NOT FORMALIZED / NO PHYSICAL DATA / NO CALCULATION. Lane 24 remains P0-HOLD / CYCLE 08/08 COMPLETE / BACKSEAT. No new Lean build, CODATA comparison, measured-system selection, fit, prediction, or theory promotion.
 
 **Next:** recover source-defined emission and medium-response maps, then specify local registration/readout. Keep gluing, intersection, and temporon-wavefront alternatives separate until explicit projection and composition maps are available.
+
+
+## GW170817 data-product calibration-lineage gate - 2026-11-24
+
+The GW170817 waveform candidate remains unselected and P2 remains HOLD. Public issue comment #7134632192 reports a P1700337-v1 abstract-versus-product-notes conflict, identifies P1700349-v1 as a distinct C00 noise-subtracted product, and warns that C00 strain should not be combined with C02-era uncertainty, PSD, posterior, or glitch-subtraction packages without a version-matched crosswalk. GitHub attributes the comment to Satobloc; its “Morrow h1070:s2” heading is routing text, not proof of a Morrow instance or thread. This entry records the comment as a public source-custody note; the DCC documents were not independently re-opened here.
+
+Before any GW170817 analysis, freeze a coherent product bundle: exact strain release and checksum; online/offline calibration version; matching calibration-uncertainty product; PSD; posterior/prior package; glitch-subtraction version; science segments and data-quality masks; sample rate; units; and detector/readout identity. In particular, do not combine P1700349 C00 strain with C02-era P1900040 calibration envelopes, P1900011 PSDs, P1800370 posterior samples, or T1700406 glitch material without an explicit version-matched crosswalk. Preserve the P1700337 abstract conflict rather than silently harmonizing it with the product-specific notes and GWOSC classification.
+
+This is a data-admissibility and provenance gate, not an H(s)H prediction or independent measurement. No strain, PSD, calibration, or posterior data were loaded; no checksum was recomputed; no fit or reanalysis occurred. Reuse the existing evidence-gated admission architecture rather than creating another data-ingestion tool. See [h1070:s3 Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1436Z_s3_kestrel_AMENDMENT_01_FIE_REVIEW_AND_SUPPORT_TYPE_GATE.md) and [public issue #2503](https://github.com/Satobloc/HsH/issues/2503).
+
