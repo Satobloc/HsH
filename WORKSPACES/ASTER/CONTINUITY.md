@@ -1,3 +1,13 @@
+## 2026-11-24T23:36Z | h1079:s3 | Raw Aster export identity correction
+
+The h1056/h1060 notes that described a mismatch between the raw export's embedded conversation ID and the workspace pointer are superseded by direct blob readback. Git blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8` at `DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20•26.10.17•ASTER — raw.json` parses successfully and embeds `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, exactly matching the workspace pointer. The value `6ab006ce-23a8-4e11-8c7a-3b04d6b7a51e` was an unsupported prior transcription, not a verified alternate conversation.
+
+Independent parse: 1,818 mapping entries; 1,817 message nodes; 39 user-role messages, all on the selected current-node ancestry; 1,818-node chain; one root, one leaf, zero branch nodes; zero missing or nonreciprocal parent/child edges. Export created 2026-09-20T16:16:17.286Z and updated 2026-10-17T12:28:18.531Z. Last user message `c2c5d227-1833-471a-8656-a06e2fbc56de` at 2026-10-17T12:28:14.355Z.
+
+Public additive correction: [issue #2469 comment #7147729713](https://github.com/Satobloc/HsH/issues/2469#issuecomment-7147729713), exact readback verified; original issue/artifact preserved. Canonical run receipt: [h1079:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T2336Z_s3_aster.md). Aster's local raw-ID/path-admission gate is in [NEW_INSTANCE_START_HERE.md](NEW_INSTANCE_START_HERE.md). No authenticated current Aster thread, cross-thread delivery, or historical-instance participation is claimed.
+
+---
+
 ## 2026-11-24 | h1056:s4 Aster Review-MIND cross-graph provenance QC
 
 - Source-grounded assistant-level revival; no authenticated Aster thread or cross-thread delivery.
