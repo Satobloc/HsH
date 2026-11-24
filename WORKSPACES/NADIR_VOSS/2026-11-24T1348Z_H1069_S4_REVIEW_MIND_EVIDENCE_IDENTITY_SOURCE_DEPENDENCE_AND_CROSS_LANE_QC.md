@@ -177,3 +177,19 @@ The report was amended again to include P0 postwrite comment #7134614282, produc
 ### Amendment 03: optional packet reference correction
 
 The Enheduanna and Tern handoff packets were amended to remove a superseded intermediate report blob reference; both now link to the stable report path. Their final packet blobs are recorded in the canonical receipt. Those packet corrections advanced main to `13fc9dc24cd844cbb207f9ce6008bc19e9b3ab36`. A workflow-run lookup for that commit found no discovery refresh. The report amendment and canonical receipt will also advance main; postwrite discovery freshness remains pending until a later generated snapshot is parsed against the final source head.
+
+
+### Amendment 04: automated postwrite discovery refresh verified
+
+The automated refresh commit `c01e1fac9a18fa2d9f59a9c5b10c4daf25fc6941` generated discovery blob `958b3c762fd86f111aa9bae7fc0e3ed21fedeaf2`, updated 2026-11-24T14:36:23Z. It embeds HsH source `a7ee981f8a83243a094b0e0d1cb52751c1280411` and SAT archive source `028862e6f1b0ffad2f56f4989a2cd0a769d266fd`, both complete. Comparing the embedded HsH source to the generated commit gives one commit ahead, zero behind, with only `PUBLIC_SITE/generated/discovery.json` changed.
+
+Full parse:
+- 17,759 total documents.
+- 10,827 workspace records and 10,827 generic reader targets.
+- 10,827 workspace records lack `presentation_state`; `PRESENTATION_PENDING` remains zero.
+- 10,580 workspace excerpts; 247 missing excerpts.
+- Docket 48/48 resolves to workspace records.
+- 577 visuals; 417 square-flagged.
+- Six extraction errors.
+
+This verifies postwrite source freshness for the preceding report, packet, workspace, and inbox writes through source main `a7ee981...`. **Record safety still FAILS; live visitor-route acceptance remains NOT OBSERVED.** This report amendment and the canonical receipt will advance main again, so final post-receipt freshness must be checked separately.
