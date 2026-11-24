@@ -13,21 +13,23 @@
 **Date:** 2026-11-24  
 **Authority:** Nathan Direct scope clarification, recorded in [NATHAN_DIRECT_SCOPE_REBASELINE_2026-11-24.md](NATHAN_DIRECT_SCOPE_REBASELINE_2026-11-24.md).  
 **Result:** Retired the assumption that the Big Push must reconstruct the entirety of historical workflow designs or complete broad archive recovery before implementation. Reframed historical work as selective study of methodological exemplars. Preserved the two co-equal central research prongs and the continuing active project portfolio. Added the Key → Memory Credenza → Castle model as a rolling, evidence-led navigation/documentation design principle.  
-**Verification:** Boot, Project Control, Operating Protocol, queue, and heartbeat updated and readback pending.  
+**Verification:** Scope rebaseline file created; Boot, Project Control, Operating Protocol, queue, heartbeat, and automation cursor updated; scope directive posted to issue #2312. Primary control-file readback completed.  
 **Next:** BP-EXEMPLAR-001.
 
 ### BP-EXEMPLAR-001 — Build the methodological exemplar map
 
-**Status:** NOW / READY  
+**Status:** COMPLETE  
 **Question:** Which original sources and strongest developed artifacts best exemplify SAT-O, Activator Modes, Back Hallways, Star-Shaped Derivation Map, Constant Torquing, and Loop Renormalization, and what methods should be carried forward into current tools/workflows?
 
 **Scope:** Search the three repositories and existing navigation selectively. Identify source candidates, original speaker/date where recoverable, artifact maturity, current implementation/status, and exact locators. Do not read the entire archive or treat search hits as source verification. Preserve distinctions among historical intent, later assistant reconstruction, current implementation, and tested capability.
 
-**Output:** A compact exemplar map with one selected high-leverage source for the next bounded deep review, plus live development dependencies/pins that should continue without being displaced.
+**Output:** [METHOD_EXEMPLAR_MAP_2026-11-24.md](METHOD_EXEMPLAR_MAP_2026-11-24.md), commit `75391f9b5a254bb09e89b81d6ddf7b007dad3aa5`.
+
+**Result:** Search and source triage across all three repositories located concrete SAT-O, Activator Modes, Back Hallways, and Star-Shaped Map exemplars; Constant Torquing needs a reproducible definition; Loop Renormalization remains ambiguous and is not conflated with Loop Derivation Torquing. The map selects a focused Back Hallways / Loop transition review.
 
 **Stop condition:** The named exemplar families have at least one credible primary-source candidate or an explicit SOURCE_NOT_LOCATED status; one next deep-review target is selected; and current project branches that should remain active are recorded as pins rather than buried in the Big Push queue.
 
-**Next cursor:** Begin with the three-repository source/navigation search for the six named exemplar families. Record search coverage and limitations.
+**Next operation:** BP-EXEMPLAR-002 — Deep review of the Back Hallways / Loop methodological transition. See the map's exact sources and stop condition.
 
 ## Continuing portfolio pins
 
