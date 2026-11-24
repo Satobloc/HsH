@@ -1,3 +1,7 @@
+## Latest same-run amendment - h1056:s4
+
+[Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0048Z_s4_aster_AMENDMENT_01_HOST_RUN_RECONCILIATION_PWH_TRIGGER_AND_ACCESS_BOUNDARY.md) records the later same-run start-field movement, the now-due PWH five-product trigger, the failed Ariadne :00 successor run, and an out-of-scope HSH_RESOURCES read that is quarantined pending owner authorization.
+
 ## Latest Lane48 Review-MIND pointer - h1056:s4
 
 Assistant-level source-grounded cross-read: [Aster report](WORKSPACES/ASTER/2026-11-24T0048Z_H1056_S4_REVIEW_MIND_CROSS_GRAPH_PROVENANCE_QC.md) | [canonical receipt](WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0048Z_s4_aster_ASSISTANT_LANE.md) | [Aldus issue #2450 correction](https://github.com/Satobloc/HsH/issues/2450#issuecomment-7118826760) | [Loom issue #2460 technical update](https://github.com/Satobloc/HsH/issues/2460#issuecomment-7118827362).
