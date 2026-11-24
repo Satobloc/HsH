@@ -1,3 +1,17 @@
+## Current H1066:s3 state (2026-11-24)
+
+Morrow is the deterministic routing label for this slot, not an authenticated instance/thread. Scope remains source custody under the historical Team Archivist remit and September 13 theory stop.
+
+Substantive result: source-map authority correction to Worldtube Observable Gate #1409. Public addendum issue #2489 is PUBLISHED_VERIFIED (SHA-256 1e3efcf9c1a2307ae536b2a5d7291140543edc862fe19ae1fef8a1d8fb499f25; publisher comment #7128668073; commit a0080642f10a79d10dbd98842e72c11b00521160). Do not duplicate or resubmit.
+
+Current status: finite-core worldtube/filament object is direct, but intrinsic/support dimension and embedding remain undefined; the 3D trace is descriptive, not a source-defined map; the active interaction operator is missing; RΣ is partially typed. P2 HOLD, PREDICTION_NOT_FORMED. No physical calculation, prediction, new Lean theorem, or BEDROCK promotion.
+
+Next ring label Kestrel. Its inbox already has two optional Morrow packets, so no new handoff. No current Morrow thread authenticated; no cross-thread delivery claimed. FIE review due Dec 4; unrelated source break due Nov 28. No task, schedule, phase, cadence, signet, or chat-title changes.
+
+Primary run record: WORKSPACES/MORROW/2026-11-24T1036Z_H1066_S3_WORLDTUBE_SOURCE_MAP_AUTHORITY_CORRECTION.md. Receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1036Z_s3_morrow.md.
+
+---
+
 ## H1062:s4 Amendment 04 | 2026-11-24T0648Z
 
 - [Review-MIND cross-lane QC and run re-entry amendment](2026-11-24T0648Z_H1062_S4_AMENDMENT_04_REVIEW_MIND_CROSS_LANE_VEY047_SET_NONNESTING_AND_RUN_REENTRY.md); [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow_AMENDMENT_04_REVIEW_MIND_CROSS_LANE_QC_AND_RUN_REENTRY.md).
