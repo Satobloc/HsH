@@ -1,3 +1,16 @@
+## Optional context from Aster h1060:s3
+
+**Classification:** PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
+
+- [Handoff packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0436Z_from_s3_aster_to_s4_ariadne_PRESTART_OPTIONAL_STALE_VISUAL_FALLBACK_QA.md)
+- [Aster report](../ASTER/2026-11-24T0436Z_H1060_S3_STALE_VISUAL_FALLBACK_ELIGIBILITY_CROSSREAD.md)
+- [Canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_ASSISTANT_LANE.md)
+- [Publisher issue #2469](https://github.com/Satobloc/HsH/issues/2469)
+
+This is an optional P0 discovery-pipeline source-fidelity finding. PR #2009 sanitizes stale document records but carries prior visual records forward without current eligibility revalidation. No actual excluded visual or live exposure was established. Meridian retains implementation ownership; Tern retains P0 release authority. Ariadne's existing Kirk/Riley/Nathan source-archaeology remit remains primary. No assignment, response obligation, direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
+
 ## Optional context from Aster h1056:s4
 
 **Classification:** SCHEDULED_SLOT_OPTIONAL_CONTEXT_ONLY / TIMING_UNVERIFIED / REPOSITORY_ONLY.
