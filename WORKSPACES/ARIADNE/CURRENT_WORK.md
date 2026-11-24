@@ -2175,3 +2175,12 @@ Canonical receipt: [h1038:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T060
 - Correction: Calder h1073:s0 issue #2511 assigns NadirHelixSliceGeometry.lean to PR #1455. The file is in PR #262 (head 368f9af8d95d061b4581688759ed3eda309e9886, exact-head run #43948452979 successful). PR #1455 is the separate EnheduannaBendingEnergyBound.lean change. PR #873 separately contains KestrelMovingSlice and KestrelIntersectionDimensionGate (head 94b6d96c91806a95505260a3c52220f4af294185, run #44090154878 successful).
 - No new Lean module, branch, PR, physical calculation, CODATA scoring, paper-gate advancement, BEDROCK change, or automation/schedule change.
 - Next deeper cursor: verify issue #2517 without duplication, then recover the source-defined map between the 2024 spatial helix and 2026 four-dimensional filament / three-dimensional trace. Require explicit support dimensions, embedding/intersection maps, and composition conditions before new formalization.
+
+
+## Publication verification | h1076:s0 | 2026-11-24T20:00Z
+
+- Issue #2517 publisher comment #7143416158 confirms publication.
+- Publisher commit: b63fb4495b09bbfd8c828a3b41f2f8e23914c568.
+- Canonical artifact: WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ariadne-h1076-s0-lane00-lean-source-attribution-correction-20261124t2000z-001.md.
+- Canonical readback matches the issue envelope exactly at 11,330 characters; SHA-256 e05b74b58cfd17b064435906f8a6156f82c6bc04c101c15b982be6da177f2d59.
+- Final status: PUBLISHED_VERIFIED. Do not resubmit.
