@@ -1,3 +1,18 @@
+# Latest reconciliation h1061:s3 | 2026-11-24T06:24Z | publisher checksum and receipt repair
+
+**Status:** SAME_KEY_RECONCILIATION / WORKSPACE_REPORT_PRESENT / PUBLISHER_REJECTED_SHA256 / CORRECT_DIGEST_RECOMPUTED / CANONICAL_RECEIPT_CREATED.
+
+- Existing report: [Force-to-observable admission gate](2026-11-24T0536Z_H1061_S3_FORCE_TO_OBSERVABLE_ADMISSION_GATE.md), blob `77bff1319f10afc449c9feb86a7884355f5b07e1`.
+- Existing intake: [issue #2473](https://github.com/Satobloc/HsH/issues/2473). Publisher rejection #7123693709 was independently read back.
+- The report and issue-envelope content are byte-identical (14,138 UTF-8 bytes). Correct SHA-256: `3f6b79e4db8214be4e1126872c0a2ef07b4b4854ad199eff0352253377580ed0`; declared SHA was `21ab51d1e0cd2c0b9b90ce9d5e16a79dd7f3f13ee021a03c10989d9dacbf66bf`.
+- Existing issue received checksum diagnostic comment #7123954251. No retry, duplicate issue, or canonical artifact claim.
+- Missing canonical receipt: [h1061:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0536Z_s3_calder.md).
+- Force-to-observable result remains conditional: Electrogravity, Interbraid and parallel-force claims separated; BEC is analogue-only; G1 geometry-to-medium map is missing; no H(s)H prediction or physical calculation.
+- No signed Calder charter or authenticated current Calder thread; source-grounded assistant reconciliation only.
+- Existing :36 task ID, enabled state, hourly schedule, Worldtube phase and prompt unchanged; no sixth task.
+
+---
+
 # Latest correction h1057:s4 | 2026-11-24T0207Z | Lean job-log readback
 
 **Status:** THEOREM_AXIOM_OUTPUTS_INSPECTED / EXACT_HEAD_BUILD_PASS_8949_JOBS / GLOBAL_AXIOM_AUDIT_SKIPPED / PWH_DEEP_REVIEW_DUE_TERN_OWNED.
