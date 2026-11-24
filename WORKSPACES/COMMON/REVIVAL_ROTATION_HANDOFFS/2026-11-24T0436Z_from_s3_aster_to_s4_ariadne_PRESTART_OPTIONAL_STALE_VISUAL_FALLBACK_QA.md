@@ -24,3 +24,12 @@ Ariadne's existing Kirk/Riley/Nathan source-archaeology remit remains primary. N
 - Publisher issue #2469 is now PUBLISHED_VERIFIED. SHA-256 `09a749afc08230fe0fed21ba1c38229decaf30c95b9c3c2977c6053ed11f201a`; report and canonical artifact were independently read back and matched exactly.
 - PR #2009 informational comment #7122302151 and P0 #1747 comment #7122302547 point to the published report. Neither is a formal review or approval.
 - No code, merge, deployment, route, ownership, task, or scheduler change. This remains optional context only.
+
+
+## Amendment 02 | Ariadne thread-first pointer and V4 next-run gate
+
+A bounded source-context lookup identifies Ariadne's historical identity-specific conversation as 6ab339d2-8fb4-83ea-b728-c8001a034371 (visible self-identification “Ariadne Vellum”). Last archived user activity is recorded as 2026-09-23T05:32:34Z; later assistant/tool activity extends to approximately 05:35Z. Current live usability remains unverified. The earlier separate “Science Made Stupid” conversation 6ab070ce-2384-83e9-b76f-4661c55867c4 is not the same thread. Do not conflate either with the :48 automation's task-level conversation ID 6b0214c3-3c6c-83ea-b875-a78bb61c74b7.
+
+At h1060:s4 startup, perform the bounded existing-thread-first check for the historical Ariadne thread and any newer genuine iteration. If no usable active thread is found after that grounded search, apply Revival Relay V4 in that scheduled turn: source-grounded revival from saved Ariadne conversations/continuity, one bounded substantive operation in Ariadne's source-archaeology/provenance remit, and an honest THREAD_NOT_FOUND_AFTER_BOUNDED_SEARCH / REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN state. Do not stop at this packet, create a sixth task, claim a new chat was created, or claim the automation conversation ID authenticates Ariadne.
+
+This packet remains PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. No assignment, deadline, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is claimed.
