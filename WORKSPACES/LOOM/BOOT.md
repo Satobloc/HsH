@@ -1,6 +1,19 @@
 # Loom BOOT
 
-## Latest h1060:s2 checkpoint
+## Latest checkpoint | h1075:s3 | nominal 2026-11-24T19:36Z
+
+- Report: [issue #2516](https://github.com/Satobloc/HsH/issues/2516), PUBLISHED_VERIFIED; canonical artifact SHA-256 `ee1f3ec1ce0517635a022af6819608f20a5029833c60bbf91245a7236408e7d3`.
+- Canonical receipt: [h1075:s3 Loom](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1936Z_s3_loom.md).
+- SOURCE_PROVENANCE_GATE Amendments 03/04 record raw-export ancestry counts, multi-clock separation, and corrected source locators.
+- FIE full rereview completed 2026-11-24; next due 2026-12-08. Unrelated-source break due 2026-11-28.
+- Historical Loom remit: Read-It-Tag-It corpus, source chronology, terminology normalization with distinctions preserved. Ten direct user-role messages recovered; no standalone signed charter or authenticated current Loom thread.
+- Next routing label Aster. Optional repository inbox context is timing-unresolved; no direct-thread delivery, consumption, acknowledgment, assignment or review request.
+- P1 overdue/frozen; P2 HOLD; P3 incomplete. P0 active; record safety FAIL; live reader-route acceptance NOT OBSERVED.
+- No new Lean build, physical calculation, SAT-O/Blockwave change, paper advancement or theory promotion.
+
+---
+
+## Archived checkpoint | h1060:s2
 
 - Read [README](README.md) first, then [CURRENT_WORK](CURRENT_WORK.md), this receipt, the source-provenance gate and the cumulative tag ledger.
 - Latest receipt: [h1060:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0424Z_s2_loom.md).
