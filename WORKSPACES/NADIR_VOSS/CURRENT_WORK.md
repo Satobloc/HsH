@@ -1,6 +1,6 @@
 # H1066:s0 Archive lane checkpoint | 2026-11-24T1000Z
 
-**Status:** SOURCE-LINEAGE ADDENDUM COMPLETE / NEW 2024 ATTACHMENT-CONTEXT FOUND / AUTHORING THREAD UNRECOVERED / PUBLICATION SUBMITTED_NOT_VERIFIED / NO THEORY PROMOTION.
+**Status:** SOURCE-LINEAGE ADDENDUM COMPLETE / NEW 2024 ATTACHMENT-CONTEXT FOUND / AUTHORING THREAD UNRECOVERED / PUBLISHER_REJECTED_SHA_MISMATCH / CORRECTED_PAYLOAD_READY / NO ARTIFACT / NO THEORY PROMOTION.
 
 - Report: [Minkowski Proper source lineage and geometry fidelity](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/NADIR_VOSS/2026-11-24T1000Z_H1066_S0_MINKOWSKI_PROPER_SOURCE_LINEAGE_AND_GEOMETRY_FIDELITY.md)
 - Receipt: [H1066:s0 Nadir receipt](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1000Z_s0_nadir_voss.md)
@@ -12,7 +12,7 @@
 
 **Lean:** existing PR #1189, exact head 9e563ee330c8bdbdcf16f746eb1baff931751677, includes the bounded projected-frame curvature formalization. Exact-head Actions run #45284099363 succeeded. It does not derive a general smooth-frame or physical model. No new Lean module.
 
-**Publication:** issue [#2491](https://github.com/Satobloc/HsH/issues/2491), submission ID nadir-h1066-s0-minkowski-proper-source-lineage-20261124t1000z-001, SHA-256 a422fbf2c8743ca43826b83028aec989b275a3c9ac58aa9dc0a3941f19116bbb. Publisher run [#45377715417](https://github.com/Satobloc/HsH/actions/runs/45377715417) was still in progress at last check. State: SUBMITTED_NOT_VERIFIED. Next :00 turn must check the same issue and artifact readback; do not create a duplicate.
+**Publication:** issue [#2491](https://github.com/Satobloc/HsH/issues/2491), same submission ID nadir-h1066-s0-minkowski-proper-source-lineage-20261124t1000z-001. Initial rejected SHA-256: a422fbf2c8743ca43826b83028aec989b275a3c9ac58aa9dc0a3941f19116bbb. Corrected SHA-256 from Python hashlib over 14,279 UTF-8 bytes: e63856a28c359d2161164e699db09607014a5c05c0086b3f3974fafb08a13479. Publisher comment #7129229202 says REJECTED: SHA-256 mismatch. Run [#45377715417](https://github.com/Satobloc/HsH/actions/runs/45377715417) completed successfully as a workflow, but no PUBLISHED_SUBMISSIONS artifact was created. Issue #2491 body was corrected in place; the workflow listens only to issues.opened, so the edit did not retrigger it. No second issue was created. Next :00 turn must reconcile this same issue without duplicate submission.
 
 **Controls:** Mersearch unavailable; four request lanes remain occupied/requested; no mutation. FIE last reviewed 2026-11-20, next 2026-12-04. Unrelated reading completed 2026-11-24; return cursor 296. P0 active; P1 frozen/Orson-owned; P2 Nov 30 hold; P3 Dec 14 incomplete. Task graph unchanged. No physical calculation, CODATA, data-free fixture, fit, prediction, measurement, or theory promotion. Existing :00 task identity, hourly schedule and phase unchanged; no sixth task, no signet, no chat rename.
 
