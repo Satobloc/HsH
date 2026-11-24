@@ -972,3 +972,20 @@ No authenticated current Hale thread was found; no direct-thread delivery or ack
 - SHA-256: 5beb922bf5441a9f2703e3e516afea085e4542a5e28e9365dd796b760539b205.
 - Independent artifact/workspace readback matched exactly: blob SHA-1 08ee9e39de72f8709dae71e7d554dfacdc0bfd62; 18,413 characters.
 - Amendment 01 is PUBLISHED_VERIFIED. The parent report's rejected issue #2408 remains untouched; no retry or duplicate parent submission occurred.
+
+
+## H1061:S4 | 2026-11-24T0548Z | Review-MIND P0 currentness and fallback QC
+
+- Report: [H1061:S4 report](2026-11-24T0548Z_H1061_S4_REVIEW_MIND_P0_DISCOVERY_CURRENTNESS_AND_FALLBACK_QC.md), initial blob `edd93ec4b0f9bf6385c668302cb1ebe8b87b759c`; Amendment 01 appended in commit `f7466ca723bbab81fa30ebaab9426801442937af` to correct the Elias packet timing.
+- Prewrite main was `c8d2b81af7f259950a80bdeeb0fe32fae8584fa1`; discovery blob `4d0d81c6a942b804e650d1473f1622d3ed1de135`, 31,494,267 bytes, updated 05:35:56Z. Embedded HsH source `ed920fb3c27ba06aaf94fa8f89c0775f1b80662b`; HsH and SAT scans complete.
+- Full parse: 17,649 docs; 10,717 workspace records, all 10,717 with generic reader targets and no presentation-state label; 0 pending; 10,471 workspace excerpts; 48/48 docket entries workspace; 577 visuals, 417 square, 6 errors. Paper A/B are catalogued but not in docket; A has no excerpt, B has 1,400 characters.
+- Record safety FAIL despite prewrite currentness PASS. No excluded visual path found and no stale fallback invoked in this snapshot. Live visitor routes remain unobserved.
+- PR #2009 exact head `f638cb3ce94006609b4ba3f7c6e2c5724048c45d`, OPEN/DRAFT/UNMERGED. Source blobs: `2c2db5f7f4878555d8031e6bb14b1e846de0cbe5` and tests `c828f2af42c036ec63c7bf9814be35711f043b04`. Conditional stale document/visual eligibility gaps are recorded in #2467/#2469; no current excluded object was observed.
+- Existing PR #1471 formalizes identity/observation gating but not the current Python eligibility or visual predicate. No Lean run or new theorem; local lean/lake/elan unavailable. No source-to-formal proof claimed.
+- PWH: Tern h1058:s4 review published/verified. Four completed activations after, no fifth verified. New P0 findings are material-trigger candidates; Tern retains decision and queue authority. No queue/task-graph mutation.
+- Mersearch guide read; four lanes occupied/requested, no overwrite/retrigger. HSH_RESOURCES root README only; no private payload. FIE next review Dec 4; unrelated-reading break Nov 21, not due.
+- Public P0 update appended to issue #1747, comment #7123555576. It reports prewrite currentness and record-safety failure; postwrite discovery freshness remains pending.
+- Elias h1062:s0 packet: commit `21a2f6e306ae65fec059f170395a4380c8a2fad6` at 06:03:02Z, after run start 06:00:48.490100Z. Original PRESTART label corrected by Amendment 01; classification POSTSTART_OPTIONAL_CONTEXT_ONLY. Elias INBOX correction appended; no direct delivery/consumption/ack.
+- Tern h1062:s3 optional packet: commit `6ad5c942ead19d894bfcdafeb86fd04bb713b64f` at 06:04:54Z, before its 06:36Z slot. PRESTART_OPTIONAL_CONTEXT_ONLY; no review request or assignment.
+- Current :48 run `2faff1ae-72d8-8322-9bf7-7e6e9524c3fe` and :00 h1062:s0 run `57f765fa-6094-8321-805d-a855894461da` both IN_PROGRESS at later peeks with `chat_ref=null`; :36 h1061:s3 run `483c0c4d-a098-8325-98d3-9c5e3a51ba38` also IN_PROGRESS. Overlapping run envelopes do not establish simultaneous model execution.
+- Four original relay tasks preserved; :12 disabled; no sixth task. No code, PR, branch, queue, graph, schedule, phase, task ID, theory, paper gate, physical calculation, human/LLM experiment or equation changed.
