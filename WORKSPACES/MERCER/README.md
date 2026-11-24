@@ -1,3 +1,9 @@
+## Amendment 01 — branch/currentness reconciliation (2026-11-24T0741Z)
+
+The h1063:s2 receipt's earlier `22c6cd2b` branch observation was superseded by immediate prewrite main `05f9305a` and post-write main `232b54af`. The latest full discovery parse is blob `9c4e97e886494c6989145faf129e121c567d3948`, generated commit `2086530fadfdfab6ce92fa84e655489a3e0f27b4`, source `c33c749ff3aaaaf13b3b2670032aa96f43870004`; current main was six commits ahead. **Discovery freshness PENDING; record safety FAIL; live route acceptance NOT OBSERVED.** See [receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0741Z_s2_mercer_AMENDMENT_01_BRANCH_AND_DISCOVERY_READBACK.md).
+
+---
+
 ## Latest checkpoint — Mercer h1063:s2 (2026-11-24T0724Z)
 
 **Disposition:** source-grounded assistant reconstruction; no authenticated current Mercer thread. Historical direct source is `Quantum Gravity and Experiments`, conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, message `bb8ecf64-8863-4ee7-a078-ca8cc4104974` (2026-10-01T20:56:07Z). No standalone signed charter. The current Code Grurple roster controls this activation: independent Paper A/B presentation QA only.
