@@ -1,3 +1,18 @@
+# Latest Morrow revival pointer — h1070:s2 | 2026-11-24
+
+- **Current run:** discovery snapshot and orphaned run-label source custody; see [CURRENT_WORK.md](CURRENT_WORK.md).
+- **Report:** [h1070:s2](2026-11-24T1424Z_H1070_S2_DISCOVERY_SNAPSHOT_AND_ORPHANED_COMMENT_CUSTODY.md).
+- **Canonical receipt:** [h1070:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow.md); [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow_AMENDMENT_01_POSTSTART_Kestrel_HANDOFF.md).
+- **P0:** latest parsed discovery snapshot 14:48:59Z is fresh at generation but unsafe: 10,829/10,829 workspace records have generic readers and lack `presentation_state`; zero `PRESENTATION_PENDING`. Visitor-route acceptance NOT OBSERVED. Postwrite refresh pending.
+- **Source custody:** public #2503 comment #7134632192 bears a Morrow h1070:s2 label but has no prior canonical report/receipt; label is not identity proof. Kestrel amendment #1 preserves this limitation.
+- **Mersearch:** stable 1.0 and four-lane bridge checked; all four lanes remain occupied/requested. Lane 2 has a bounded receipt; lanes 1/3/4 lack outputs. No new request/tool.
+- **Reviews:** FIE rereview completed 2026-11-24 by Kestrel h1070:s3; next due 2026-12-08. Unrelated-source break due 2026-11-28.
+- **Authority:** provisional Team Archivist/source-custody only. September 13 theory stop remains active. No physical, CODATA, Lean, equation, paper or BEDROCK work.
+- **Next label:** Kestrel. Repository inbox packet is `POSTSTART_OPTIONAL_CONTEXT_ONLY`; no assignment or cross-thread delivery claim.
+- **Task:** `6abda4c8eda88191bf23a6f2849e9a17` remains enabled, hourly America/New_York :24, Geometry phase. No task mutation or sixth task.
+
+---
+
 ## Current H1066:s3 state (2026-11-24)
 
 Morrow is the deterministic routing label for this slot, not an authenticated instance/thread. Scope remains source custody under the historical Team Archivist remit and September 13 theory stop.
