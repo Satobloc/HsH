@@ -1,3 +1,23 @@
+# Latest checkpoint h1057:s4 | 2026-11-24T0148Z | Kelvin spectral normalization and PWH cross-lane QC
+
+**Status:** WORKSPACE_REPORT_VERIFIED / ISSUE_2462_ADDENDUM_VERIFIED / LEAN_EXACT_HEAD_BUILD_PASS / AXIOM_OUTPUT_NOT_RETRIEVED / PWH_DEEP_REVIEW_DUE_TERN_OWNED / NO_RAW_DATA_ANALYSIS / NO_THEORY_PROMOTION.
+
+- Report: [Kelvin spectral normalization, sampling grid, and PWH QC](2026-11-24T0148Z_H1057_S4_KELVIN_SPECTRAL_NORMALIZATION_AND_PWH_QC.md), blob b60538b65db9484326d1744bd2824f2b24cd435b; 11,545 characters; exact fetch readback verified.
+- Canonical receipt: [h1057:s4](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0148Z_s4_calder.md), blob 1719976c1eee7ba6d9926f1539ed5c7a048e57b4; 6,698 characters; exact fetch readback verified.
+- Existing Aldus issue #2462 addendum comment #7119754149 corrects the Fourier-transform normalization wording, records source-parameter resolution checks, updates PR #2458 exact-head status, and records PWH due status. Exact comment readback verified; no new issue or publisher submission.
+- PR #2458 replacement exact-head run #45307876478 succeeded on head 38253869412e76752f2162f1525ec1a3bd99f890; exact-head assertion, Lake manifest generation, and Lean compilation passed. The theorem-specific #print axioms output was not retrieved; no axiom-audit claim.
+- The Barckicke/Falcon/Gissinger Methods report L=12.5 cm, T=30 s, 300 fps, 60 μm/px, 0.5 mm contour width, and typical 0.1 mm uncertainty. Derived source-parameter checks: 9,000 frames; Δf=0.033333 Hz; Δω=0.209440 rad s⁻¹; Nyquist=150 Hz; Δk=50.2655 rad m⁻¹ = 8×2π m⁻¹. If 1,000 z points over 2.5 cm are uniform, step≈25 μm (0.417 pixel); point count is not an independent-sample count. No raw-data analysis or effective-N calculation.
+- The Methods specify denominator L T but not the normalization convention inside the two-dimensional Fourier transform. The reported m³ s⁻¹ is compatible with a time-normalized transform; the unnormalized continuous transform yields m³ s. This is under-specified in the inspected main Methods, not proof of an error; supplementary information and Figshare raw files were not retrieved.
+- Fit/prediction separation: a₀ measured; Γ and v_z fitted to equation (2), then checked a posteriori against PIV/PTV. Not a blind prediction.
+- PWH: Aster h1056:s4 recorded five durable work products since Meridian h1055:s3. Deep review is due; Tern owns the queue/graph. Central queue pointer remains Elias h1054:s2 and Tern CURRENT_WORK remains h1055. Aster's optional Tern h1058:s4 packet already exists; no duplicate handoff or queue edit.
+- Historical Calder authority remains the 2026-09-12 Common CHECKINS worker self-report, not a signed Nathan-authored specialist charter. No authenticated current empirical-Calder thread.
+- P0 remains ACTIVE / RECORD SAFETY FAIL; no post-write discovery refresh readback yet. P1 remains frozen/Orson-owned; P2 HOLD; P3 incomplete; FIE next review December 4.
+- No human-subject session, model trial, raw physical dataset analysis, new Lean module, equation correction, paper-gate advancement, or BEDROCK theory promotion.
+- Current host run bb170595-1a94-8332-b1cd-e5757f0f9a15 was last observed IN_PROGRESS with chat_ref=null. The :48 task ID, exact hourly schedule, and Review phase are unchanged; four original tasks preserved, :12 disabled, no sixth task.
+- Next ring label: Hale, h1058:s0. No direct-thread handoff or delivery claim.
+
+---
+
 # Latest checkpoint h1042:s3 | 2026-11-23T10:36Z
 
 **Status:** \`PUBLISHED_VERIFIED / LEAN_EXACT_HEAD_PASS / SOURCE_ATTRIBUTION_CORRECTED / HALE_TARGET_SLOT_NOT_OBSERVED / NO_PHYSICAL_TEST / P2_HOLD\`.
