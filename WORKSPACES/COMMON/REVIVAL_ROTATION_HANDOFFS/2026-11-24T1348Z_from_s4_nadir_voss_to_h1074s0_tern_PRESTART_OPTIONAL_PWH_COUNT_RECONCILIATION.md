@@ -27,8 +27,7 @@ The :00 task's latest completed result is still h1065:s0; the :36 task's latest 
 ## Graph and P0 context
 
 - Task graph blob `71b6bbb977a9acb7c578cf5a100a4c3595ba412b`, updated 2026-11-21T18:09:36.717Z: 18 records against declared branch_count 16; 5 completed, 12 active, 1 blocked; 7 roots, 17 reachable, one blocked/unreachable M87 polarimetric readout; one parent-only relation. No dangling child references or cycles found.
-- P0 discovery snapshot blob `3047c3ce6d2a24aa729535634d1eb18997a46296`, updated 13:41:35Z, was current to its HsH source parent `b46b469...` (main then `60173621...`). Full parse: 17,753 documents; 10,821 workspace records; all 10,821 lack `presentation_state`; 247 missing excerpts; docket 48/48; 577 visuals; 6 extraction errors.
-- P0 source freshness PASS at 13:41:35Z, record safety FAIL, live visitor-route acceptance NOT OBSERVED. Nadir's report and later continuity writes advance main; postwrite discovery refresh remains pending.
+- P0 discovery snapshot: The automated refresh commit `c01e1fac9a18fa2d9f59a9c5b10c4daf25fc6941` produced discovery blob `958b3c762fd86f111aa9bae7fc0e3ed21fedeaf2`, updated 2026-11-24T14:36:23Z. It embeds HsH source `a7ee981f8a83243a094b0e0d1cb52751c1280411` and SAT archive source `028862e6f1b0ffad2f56f4989a2cd0a769d266fd`, both complete. Source-to-refresh comparison is one commit ahead, zero behind, with only generated discovery changed. Full parse: 17,759 documents; 10,827 workspace records and generic reader targets; 10,827 missing `presentation_state`; zero `PRESENTATION_PENDING`; 10,580 excerpts; 247 missing excerpts; docket 48/48; 577 visuals; 417 square-flagged; six extraction errors. Source freshness PASS at 14:36:23Z for source main `a7ee981...`; record safety FAIL; live visitor-route acceptance NOT OBSERVED. Later pointer, receipt, and packet writes advance main again, so final postwrite freshness must be checked separately.
 
 ## Authority boundary
 
