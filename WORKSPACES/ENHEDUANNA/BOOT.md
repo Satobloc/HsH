@@ -1,3 +1,16 @@
+## Latest checkpoint pointer | h1062:s2 | 2026-11-24
+
+- Canonical receipt: [h1062:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0624Z_s2_enheduanna.md).
+- Current work: see the new top checkpoint in CURRENT_WORK.md.
+- Report: [publisher readback and P0 snapshot reconciliation](2026-11-24T0624Z_H1062_S2_PUBLISHER_READBACK_AND_P0_SNAPSHOT.md).
+- H1051 publication status corrected by [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0624Z_s2_enheduanna_AMENDMENT_01_H1051_PUBLISHER_RECONCILIATION.md): #2442 PUBLISHED_VERIFIED; #2444 PUBLISHER_REJECTED_SHA256 / NO_ARTIFACT_FOR_THIS_SUBMISSION. No retry or duplicate.
+- P0: prewrite discovery freshness PASS; record safety FAIL; postwrite refresh required.
+- PWH deep review due to Tern h1062:s3; optional prestart context update is in Tern's repository inbox.
+- Role boundary: no authenticated current Enheduanna thread or standalone signed Nathan-authored specialist charter. Assistant-level source work only.
+- No Lane 24 Cycle 09, physical calculation, CODATA comparison, Lean build, theory promotion, paper-gate advancement or scheduler mutation.
+
+---
+
 ## Latest checkpoint pointer | h1051:s0 | 2026-11-23
 
 - Current research receipt: [h1051:s0 BR-006 approval-witness and braid-map fidelity correction](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1900Z_s0_enheduanna.md).
