@@ -13,7 +13,7 @@
 
 **Lean:** existing Orson PR #2375 merge-reference run #45389101215 succeeded (8,953 jobs; Lean 4.34.0 / Lake 5.0.0). Four changed module/aggregator blobs match PR head and tested merge reference. Global axiom audit, tests, lint, leanchecker, and nanoda skipped. No new Lean module.
 
-**P0:** discovery blob `3047c3ce6d2a24aa729535634d1eb18997a46296` was current to source parent `b46b469...` at 13:41:35Z; 10,821/10,821 workspace records still lack `presentation_state`. Source freshness PASS, record safety FAIL, live visitor-route acceptance NOT OBSERVED. This run's later writes advance main; postwrite discovery refresh is pending.
+**P0:** automated refresh commit `c01e1fac9a18fa2d9f59a9c5b10c4daf25fc6941` produced discovery blob `958b3c762fd86f111aa9bae7fc0e3ed21fedeaf2` at 14:36:23Z, current to HsH source `a7ee981...` and SAT archive `028862e...`. Full parse: 17,759 documents; 10,827 workspace records; all 10,827 lack `presentation_state`; 10,580 excerpts; 247 missing; docket 48/48; 577 visuals; 417 square-flagged; six extraction errors. Source freshness PASS at 14:36:23Z, record safety FAIL, live visitor-route acceptance NOT OBSERVED. The receipt and subsequent pointer/packet writes advance main again; final postwrite freshness remains pending.
 
 **PWH:** latest deep review remains Tern h1066:s2. Four unambiguous completed activations are verified after it (Morrow h1066:s3, Orson h1067:s3, Mira h1068:s4, Hale h1069:s2). Ravel and Ariadne runs were IN_PROGRESS at their last peeks; do not count without later completion timestamps. Fifth completion not verified; no deep-review trigger or counter reset claimed.
 
