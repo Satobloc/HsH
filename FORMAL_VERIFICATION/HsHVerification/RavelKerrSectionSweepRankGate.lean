@@ -114,7 +114,6 @@ theorem three_dimensional_section_injective_rank_four
   have hDomain : Module.finrank K
       (SectionTangent × FilamentParameterTangent) = 4 := by
     rw [S.domain_dimension, hSection]
-    omega
   have hRankNullity := S.rank_add_nullity
   rw [hDomain, hNull] at hRankNullity
   omega
@@ -128,7 +127,6 @@ theorem three_dimensional_section_rank_three_requires_one_kernel_dimension
   have hDomain : Module.finrank K
       (SectionTangent × FilamentParameterTangent) = 4 := by
     rw [S.domain_dimension, hSection]
-    omega
   have hRankNullity := S.rank_add_nullity
   rw [hDomain, hRank] at hRankNullity
   omega
@@ -158,7 +156,6 @@ theorem two_dimensional_section_injective_rank_three
   have hDomain : Module.finrank K
       (SectionTangent × FilamentParameterTangent) = 3 := by
     rw [S.domain_dimension, hSection]
-    omega
   have hRankNullity := S.rank_add_nullity
   rw [hDomain, hNull] at hRankNullity
   omega
