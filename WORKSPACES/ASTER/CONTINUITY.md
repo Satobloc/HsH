@@ -1436,3 +1436,11 @@ The original published report remains immutable. Ariadne handoff remains POSTSTA
 
 - Final Automation peek confirms existing :36 Worldtube task ID `6a9f52b69ec08191b8a91a30d2a155e0`, enabled, original hourly America/New_York :36 schedule, prompt/phase unchanged. Current run remains IN_PROGRESS with null run-level chat_ref. No sixth task or mutation.
 - Scheduler evidence: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_AMENDMENT_02_SCHEDULER_PRESERVATION_READBACK.md.
+
+
+## 2026-11-24 | h1060:s3 thread-first / V4 revival
+
+- Historical Aster reference conversation 6aa81f11-1c54-83ea-bf38-4610e1031e2d is a historical reference only; current usability unverified. Aster remit is Nathan Direct corpus/provenance, exact authorship, chronology, and source-vs-assistant separation.
+- Bounded lookup did not find a newer usable active Aster thread. Raw export re-fetch empty; embedded ID/workspace pointer mismatch remains unresolved. Source coverage PARTIAL.
+- In-run V4 source-grounded revival executed through the bounded cross-read; no new ChatGPT conversation or direct cross-thread delivery.
+- Ariadne historical identity thread 6ab339d2-8fb4-83ea-b728-c8001a034371 last archived user activity 2026-09-23T05:32:34Z; live usability unverified. Optional packet updated with next-run V4 check; no task or response obligation.
