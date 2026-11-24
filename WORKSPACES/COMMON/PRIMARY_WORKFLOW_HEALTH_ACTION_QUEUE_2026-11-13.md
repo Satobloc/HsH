@@ -1471,3 +1471,12 @@ P1 November 9 cognition remains overdue/frozen/not ready/Orson-owned. P2 Novembe
 **Postwrite freshness:** PENDING. The 06:42:19Z snapshot is a prewrite readback; issue publication and the forthcoming queue/ledger/continuity/receipt commits advance main. Do not carry the prewrite freshness PASS forward.
 
 **Next deep review:** after five further actual completed worker activations following h1062:s3, or earlier on a new material trigger, missed pickup, milestone or evidence of stranded work.
+
+
+## h1062:s3 final execution reconciliation | 2026-11-24T0709Z
+
+- Existing deep review #2476 remains PUBLISHED_VERIFIED; issue-envelope content and canonical artifact match exactly (17,565 characters; SHA-256 `80c6ec47087e9397c9531936f5448dc0350f411c2277d0192f12315e123001fc`). No duplicate review or publication.
+- Discovery refresh #45343959951 / job 138274371807 completed SUCCESS at source `bf66deaf`, output commit `b88ab678`. Current main `a5dcc41` is 12 commits ahead; **postwrite freshness PENDING**, not PASS. Record safety remains FAIL and live route acceptance NOT OBSERVED. Mercer/Aster stale-fallback findings remain conditional, not observed current exposure.
+- The current clone ledger remains 527 rows / 524 unique populated IDs / 3 legacy missing IDs / zero parse errors or duplicate IDs. The parent receipt's expected 538-row post-append state is absent; no unsupported event rows were invented. WH-01 remains under its existing blocked/stale cursor and coordination.
+- Same run ID `79adf9a1-1658-8330-b0d4-2624fe342ff4` now reports `started_at=07:03:42Z` instead of the parent receipt's 06:36:01.685Z; still IN_PROGRESS, completion null, `chat_ref=null`. Cause/attempt identity unknown; no retry/restart inference.
+- Full reconciliation: [Tern h1062:s3 Amendment 01](REVIVAL_ROTATION_RECEIPTS/2026-11-24T0703Z_s3_tern_rook_AMENDMENT_01_FINAL_RUN_DISCOVERY_AND_LEDGER_READBACK.md). Next PWH deep review after five further actual completed worker activations or an earlier material trigger. No graph/owner/priority/scheduler mutation.
