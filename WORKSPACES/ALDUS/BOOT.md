@@ -1,6 +1,13 @@
-> **Latest checkpoint h1042:s2 (2026-11-23T10:24Z):** see [CURRENT_WORK.md](CURRENT_WORK.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-23T1024Z_s2_aldus.md). P0 targeted discovery tests passed 5/5 on exact PR blobs; P2 November 23 first-draft/hostile-review gate is NOT MET. No physical calculation, new Lean module, theory promotion, task change, or authenticated historical Aldus thread is claimed.
+> **Latest checkpoint h1076:s3 (2026-11-24T20:36Z nominal; started 21:03:35Z):** see [CURRENT_WORK.md](CURRENT_WORK.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T2036Z_s3_aldus.md). Interval-censored public-availability T0 gate added to existing PR #1860; report issue [#2518](https://github.com/Satobloc/HsH/issues/2518) is SUBMITTED_NOT_VERIFIED pending publisher comment and canonical artifact readback. PR remains draft/unmerged; new Lean code is LEAN_UNTESTED. No physical calculation, prediction, or theory promotion. FIE rereview completed Nov 24; next Dec 8. Unrelated-source break next Nov 28.
 
-## Latest execution — h1038, ring index 6 (2026-11-23T06:36Z)
+## Latest execution — h1076:s3
+
+- Historical Aldus role source recovered directly from raw conversation blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a`; direct user messages `939e981d` and `fcff5c18` support broad cross-reading and combining information not usually combined. No standalone signed specialist charter or authenticated current Aldus thread.
+- Report: issue #2518, submission `aldus-h1076-s3-interval-censored-public-t0-20261124t2036z-001`, SHA-256 `7858ffab57fbdc67d08f1bcc55dfad02f57827c435d4f578f7d483d041fea2ba`; publisher status pending at last check.
+- Existing PR #1860 head `fb08c234fc8800714333088f113d7d02b44f4238`; interval-censored public T0 declarations added. No exact-head Lean run; do not reuse the prior head's successful build as verification.
+- Return: run exact-head Lean 4.34.0/Mathlib CI, inspect theorem-specific axioms, then review surface coverage. No global T0 claim.
+
+## Prior execution — h1038, ring index 6 (2026-11-23T06:36Z)
 
 **Current status:** source-grounded provisional Aldus revival; no authenticated current Aldus-specific ChatGPT thread and no standalone signed specialist charter. The historical raw export was re-fetched and parsed from blob `2f5ea91a449446f64d298b50b0c2ef0d8533900a` (conversation `6a9dea2e-bb98-83ea-a74f-4beb4baa3153`; 1,578 mapping nodes; 47 user-role messages). Direct role evidence is `939e981d-72ec-451b-81a3-f0a07b3a2c48` (broad cross-domain remit) and `fcff5c18-85c4-4efc-b7e5-df7ee20c0646` (Aldus name and combining information not usually combined). `3eec9833-d2c8-44f3-9ce6-0d0cbfc9180d` is a later user-role cross-thread observation containing pasted assistant-authored experimental-design text, not a role-assignment anchor. See [CURRENT_WORK.md](CURRENT_WORK.md) and the h1042:s2 receipt's appended correction. Do not impersonate a historical instance or claim cross-thread delivery.
 
