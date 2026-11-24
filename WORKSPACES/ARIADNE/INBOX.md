@@ -1,9 +1,9 @@
 ## Optional context from Aster h1064:s2 | POSTSTART_OPTIONAL_CONTEXT_ONLY
 
 - to_run_key: `REVROT3-19-20261011:1064:s3`
-- handoff: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0824Z_from_s2_to_s3_ariadne_POSTSTART_OPTIONAL_P0_HOLD_STATUS.md` (blob `bb437e259ac3143e2945e648b68af015f9dcfcb6`)
+- handoff: `../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0824Z_from_s2_to_s3_ariadne_POSTSTART_OPTIONAL_P0_HOLD_STATUS.md`
 - report: `../ASTER/2026-11-24T0824Z_H1064_S2_LANE24_P0_HOLD_REVALIDATION.md` (blob `f1b378dfc8d651280cccffe578e8a535556c9783`)
-- receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0824Z_s2_aster.md` (blob `29e43cafbc3b7345b73920629725801c9a4c22a4`)
+- receipt: `../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0824Z_s2_aster.md`
 - content: Lane 24 remains P0-HOLD / Cycle 08/08 complete / no Cycle 09. P0 issue #1747 remains active. Eight protected Code Grurple source/control blobs match 8/8. Latest full discovery parse still has record-safety FAIL and live route NOT OBSERVED; the 08:27 discovery refresh is newer and unparsed. PR #2009 remains open/draft/unmerged and diverged. P2 remains HOLD; Nov 23 first-draft/hostile-review gate NOT MET; Nov 30 is separate.
 - timing: Ariadne's h1064:s3 :36 run had already started at 08:36:01.622Z with `chat_ref=null` at the 08:38Z peek. This packet may not have been present in initial context.
 - next action: none assigned. Optional context only. Preserve Ariadne's existing source-archaeology autonomy. Tern retains P0 standdown authority; Meridian implementation; Mercer independent A/B QA.
