@@ -2,8 +2,8 @@
 
 **Purpose:** Distinguish active human-directed Big Push work from scheduled automation activity.
 
-**Last interactive Big Push touch:** 2026-11-05T06:20:00-05:00 (America/New_York; 2026-11-05T11:20:00Z)  
-**Updated by:** Current interactive assistant session, responding to Nathan's priority directive.  
+**Last interactive Big Push touch:** 2026-11-24T02:53:56-05:00 (America/New_York; 2026-11-24T07:53:56Z)  
+**Updated by:** Current interactive assistant session, implementing Nathan's 2026-11-24 scope rebaseline and restarting the Big Push.  
 **Touch type:** Human-directed continuity check after a scheduled :24 relay failure; project restart point reconfirmed.
 
 ## Rules
