@@ -165,5 +165,5 @@ Readback checks:
 - Report and both handoff packets: exact content match.
 - Nadir CURRENT_WORK and BOOT: exact content match.
 - Enheduanna INBOX and Tern INBOX: exact content match.
-- Existing public status comments: [P0 #1747 comment #7134502367](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7134502367) and [PR #2375 comment #7134508468](https://github.com/Satobloc/HsH/pull/2375#issuecomment-7134508468) both independently fetched and matched their intended status.
+- Existing public status comments: [P0 #1747 comment #7134502367](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7134502367), [P0 postwrite-pending comment #7134614282](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7134614282), and [PR #2375 comment #7134508468](https://github.com/Satobloc/HsH/pull/2375#issuecomment-7134508468) were independently fetched and matched their intended status.
 - No generated discovery refresh, publisher artifact, new issue, task mutation, or direct-thread delivery is claimed.
