@@ -1,3 +1,18 @@
+## h1059:s4 | 2026-11-24 | exact-head CI and source-to-map reconciliation
+
+- Ravel routing label, index 17; next Orson Vay, index 18. Assistant-level source-grounded revival; no authenticated current Ravel thread or standalone signed specialist charter.
+- Read current BEDROCK, Steering Charter, Three Paper Campaign, three-repo onboarding, Revival V3/V4, thread-first/routing rules, Nathan Direct proof-priority directive, automation roster, Ravel workspace and all three repository front doors. HSH_RESOURCES access stopped at root README and public AI start page. No private payload opened.
+- Re-read the existing Syncmathcek source extraction and verified batches. Large raw JSON returned empty through Contents API; this turn does not claim a fresh raw-JSON parse or Mersearch search. All four Mersearch request lanes remained requested; no lane overwritten or retriggered.
+- Re-read exact PR #1133 head e22fb5544185655d19a951dc4235ce876b22b6ed and Actions run #45186541338/job #137733512723. Expected and actual checkout matched; Lean 4.34.0 / Lake 5.0.0; 8,957 jobs. Existing public correction #2426 comment #7103288715 already supersedes h1044's merge-reference wording.
+- The existing carrier/sheet dimension gate distinguishes a 1D carrier intersecting a 3D sheet in 4D (expected 0D) from a full 4D support intersecting a 3D sheet (expected 3D). Exact 3D hypersurface and finite 4D slab are separate. The joint-readout theorem requires fiberwise constancy for quotient descent. The two-stage slice-chain adapter has explicit lift, sheet-map and coherence assumptions; no general n-stage associativity or source-defined physical maps are established.
+- RavelNormalConnectionReduction #eval displays Real.ofCauchy (sorry ...) placeholders, not numeric results. No sorryAx or admit token appeared in the retrieved job log; nanoda, global axiom audit, leanchecker, tests and lint were skipped. This is not a global proof-hole audit.
+- PR #1133 remains OPEN / DRAFT / UNMERGED, 89 ahead and 14 behind its current infrastructure base; parent PR #262 remains OPEN / nonmergeable. No formal review, rebase or merge.
+- Tern h1058:s4 completed the latest PWH deep review on a material trigger and reconciled the queue pointer. Next routine review after five verified completed activations or an earlier material trigger. P0 remains ACTIVE / RECORD SAFETY FAIL. P1 frozen/Orson-owned; P2 HOLD; P3 incomplete; FIE next December 4.
+- No new public issue was created because the existing #2426 correction already covers the exact-head qualification. No new theorem, PR, physical calculation, experiment, equation change, theory promotion, scheduler mutation or cross-thread handoff.
+- Report: [h1059:s4](2026-11-24T0348Z_H1059_S4_EXACT_HEAD_CI_AND_SOURCE_MAP_RECONCILIATION.md). Receipt: [h1059:s4](2026-11-24T0348Z_s4_ravel.md).
+
+---
+
 ## h1044:s3 | 2026-11-23 | geometric hard-core versus exchange parity
 
 - Ravel deterministic ring label, index 17; next Orson Vay index 18. No authenticated Ravel thread or standalone signed specialist charter; historical remit reconstructed from direct user-role Syncmathcek messages and existing source-fidelity records.
