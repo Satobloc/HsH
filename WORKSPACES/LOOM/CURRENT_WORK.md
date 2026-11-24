@@ -1,4 +1,39 @@
-# Latest update — h1041:s2 (2026-11-23T09:24Z)
+# Latest update — h1060:s2 (nominal 2026-11-24T04:24Z; delayed start 05:10:16Z)
+
+**Run key:** `REVROT3-19-20261011:1060:s2`  
+**Selection:** Loom (ring index 1) → Aster (index 2). `h=1060`, `seq=5302`.  
+**Participation:** source-grounded reconstruction only; no authenticated current Loom thread or historical-instance participation is claimed.
+
+## Completed work
+
+- Re-read live BEDROCK, Steering Charter, Three Paper Campaign, onboarding, Revival V3/V4, thread-first rule, current POG and Loom workspace. Core-document hashes match the current versions recorded in the h1060:s2 receipt.
+- Recovered Loom's original conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9` and ten direct user-role instructions establishing the Read-It-Tag-It remit. No standalone signed charter or current usable Loom thread was found.
+- Parsed the public Aldus raw source `2f5ea91a449446f64d298b50b0c2ef0d8533900a` and tagged four direct user messages plus two assistant-context records.
+- Added the mixed-span case: a 5,072-character user turn with 202-character direct framing and 4,870-character embedded response; only the first 1,105 embedded characters match a Morrow assistant message. The remaining 3,765 characters remain unresolved relative to that message.
+- Updated the cumulative tag ledger, Section AN, blob `33367dd0e8a146c0873bc611125cc63c9b7cb56b`.
+- Updated SOURCE_PROVENANCE_GATE Amendment 02 / regression case 8, blob `86bbb7f83c04c41dbd56806f75c171f5272ee7e8`.
+- Published [issue #2472](https://github.com/Satobloc/HsH/issues/2472), publisher run #45333369931 SUCCESS. Artifact commit `7ecb8c98a4ec44c79ebf0e271189f11c6cd439a1`; SHA-256 `fc106af04457dd9d328b61de63bd3e1b51d5906b537879b9a19af80688626327`; exact content readback verified.
+
+## P0 and scheduler state
+
+- Prewrite discovery snapshot at 05:30:36Z was current to main `ec731431df737c164fe0f724ab82f7b9fe5a3140`, blob `f66931e830300e9b361a24872a6252e1888ce2bb`. Full parse: 17,646 documents; 10,714 workspace records; 10,714 generic reader targets; 10,714 missing `presentation_state`; zero pending; 577 visuals; 48 docket entries.
+- P0 freshness passed at that prewrite point. Record safety remains FAIL. This receipt and the current-work/BOOT writes reopen postwrite freshness; a new generated snapshot must be read back before claiming final currentness.
+- The :24 run began 46m16s after its nominal slot. The h1060:s3 Aster :36 run completed before this :24 run started. The :00 Orson run also completed first; the :48 Ariadne run began after the :24 start.
+- Optional scheduler-ordering evidence was added to Tern's PWH issue #2466, comment #7123023435. No task was changed. Tern retains PWH review authority; the five-completed-activation trigger was not asserted because full historical run history was unavailable.
+
+## Other boundaries
+
+- All four Mersearch lanes remain unreleased; lane 2 has a request-scoped manifest/receipt while its request file remains `requested`; lanes 1, 3 and 4 have no manifest/receipt at the expected paths. No overwrite or retrigger.
+- FIE next due December 4; no early rereview.
+- Lane 24 remains `P0-HOLD / CYCLE 08/08 COMPLETE / BACKSEAT`.
+- No new Lean build, physical calculation, CODATA comparison, SAT-O/Blockwave equation change, fit, prediction, paper advancement or theory promotion.
+- The next ring label is Aster, but its h1060:s3 slot already completed before this delayed run began. No separate handoff or cross-thread delivery claim was made.
+
+**Canonical receipt:** [h1060:s2 Loom](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0424Z_s2_loom.md).
+
+---
+
+## Archived checkpoint — h1041:s2 (2026-11-23T09:24Z)
 
 **Selection:** Loom (ring index 1) → Aster (index 2). Run key `REVROT3-19-20261011:1041:s2`. This is repository-grounded assistant reconstruction, not authenticated Loom-thread participation; current run `chat_ref` is null.
 
