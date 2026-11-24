@@ -86,12 +86,17 @@ class DiscoveryTests(unittest.TestCase):
     {'id':'hsh:'+eligible_workspace,'repo':'hsh','path':eligible_workspace,'sha':'ew','size':20,'kind':'md','title':'Eligible workspace','reader':'reader.html?mode=browse&path='+eligible_workspace,'excerpt':'legacy workspace excerpt','excerpt_scope':'legacy','first_seen':'first','changed_at':'old','revision_detected':False},
     {'id':'hsh:'+eligible_regular,'repo':'hsh','path':eligible_regular,'sha':'er','size':20,'kind':'md','title':'Approved reader','reader':'reader.html?mode=browse&path='+eligible_regular,'excerpt':'approved excerpt','excerpt_scope':'approved source','first_seen':'first','changed_at':'old','revision_detected':False}
    ]
+   v1='1'*40;v2='2'*40;v3='3'*40;v4='4'*40
    old_visuals=[
-    {'sha':'v1','path':'SAT_VISUALS/PRIOR_ART/secret.png','square':True,'thumbnail':'thumbnails/v1.jpg','source_url':'secret'},
-    {'sha':'v2','path':'SAT_VISUALS/QUARANTINE/secret.png','square':True,'thumbnail':'thumbnails/v2.jpg','source_url':'secret'},
-    {'sha':'v3','path':'SAT_VISUALS/approved/good.png','square':True,'thumbnail':'thumbnails/v3.jpg','source_url':'approved'},
-    {'sha':'v4','path':'LIBRARY/approved.png','square':True,'thumbnail':'thumbnails/v4.jpg','source_url':'outside'}
+    {'sha':v1,'path':'SAT_VISUALS/PRIOR_ART/secret.png','square':True,'thumbnail':'thumbnails/'+v1+'.jpg','source_url':'secret'},
+    {'sha':v2,'path':'SAT_VISUALS/QUARANTINE/secret.png','square':True,'thumbnail':'thumbnails/'+v2+'.jpg','source_url':'secret'},
+    {'sha':v3,'path':'SAT_VISUALS/approved/good.png','square':True,'thumbnail':'thumbnails/'+v3+'.jpg','source_url':'approved'},
+    {'sha':v3,'path':'SAT_VISUALS/approved/duplicate.png','square':True,'thumbnail':'thumbnails/'+v3+'.jpg','source_url':'approved duplicate'},
+    {'sha':v4,'path':'LIBRARY/approved.png','square':True,'thumbnail':'thumbnails/'+v4+'.jpg','source_url':'outside'}
    ]
+   thumb_dir=out/'thumbnails';thumb_dir.mkdir(parents=True)
+   for sha in (v1,v2,v3,v4):(thumb_dir/(sha+'.jpg')).write_bytes(b'thumb')
+   (thumb_dir/'keep.txt').write_text('unrelated file')
    m.atomic(out/'discovery.json',{'documents':old,'docket':[x['id'] for x in old],'visuals':old_visuals})
    m.atomic(trees/'hsh.json',{'sha':'last-good-hsh','truncated':True,'tree':[]})
    m.atomic(trees/'sat.json',{'sha':'current-sat','truncated':False,'tree':[{'type':'blob','path':'archive.pdf','sha':'pdf-sha','size':20}]})
@@ -110,7 +115,58 @@ class DiscoveryTests(unittest.TestCase):
    self.assertNotIn('hsh:'+eligible_workspace,d['docket'])
    self.assertNotIn('hsh:'+excluded_workspace,d['docket'])
    self.assertIn('hsh:'+eligible_regular,d['docket'])
-   self.assertEqual([x['path'] for x in d['visuals']],['SAT_VISUALS/approved/good.png'])
+   self.assertEqual([x['path'] for x in d['visuals']],['SAT_VISUALS/approved/duplicate.png','SAT_VISUALS/approved/good.png'])
+   refs={x['thumbnail'] for x in d['visuals'] if x.get('thumbnail')}
+   actual={p.relative_to(out).as_posix() for p in thumb_dir.iterdir() if p.is_file() and p.name.endswith('.jpg')}
+   self.assertEqual(refs,actual)
+   self.assertEqual(refs,{'thumbnails/'+v3+'.jpg'})
+   self.assertTrue((thumb_dir/'keep.txt').exists())
+   self.assertFalse((thumb_dir/(v1+'.jpg')).exists())
+   self.assertFalse((thumb_dir/(v2+'.jpg')).exists())
+   self.assertFalse((thumb_dir/(v4+'.jpg')).exists())
+ def test_fresh_scan_prunes_removed_visual_thumbnail(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp);out=root/'out';trees=root/'trees';trees.mkdir()
+   sha='5'*40;thumb_dir=out/'thumbnails';thumb_dir.mkdir(parents=True)
+   old_visual={'sha':sha,'path':'SAT_VISUALS/approved/removed.png','square':True,'thumbnail':'thumbnails/'+sha+'.jpg','source_url':'old'}
+   (thumb_dir/(sha+'.jpg')).write_bytes(b'old thumb')
+   m.atomic(out/'discovery.json',{'documents':[],'docket':[],'visuals':[old_visual]})
+   m.atomic(trees/'hsh.json',{'sha':'fresh-hsh','truncated':False,'tree':[]})
+   m.atomic(trees/'sat.json',{'sha':'fresh-sat','truncated':False,'tree':[{'type':'blob','path':'archive.pdf','sha':'pdf-sha','size':20}]})
+   args=argparse.Namespace(out=str(out),tree_dir=str(trees),excerpts=0)
+   self.assertEqual(m.run(args),0)
+   d=m.load(out/'discovery.json',{})
+   self.assertEqual(d['visuals'],[])
+   self.assertFalse((thumb_dir/(sha+'.jpg')).exists())
+   self.assertEqual({p.name for p in thumb_dir.iterdir() if p.is_file() and m.THUMBNAIL_NAME.fullmatch(p.name)},set())
+ def test_stale_missing_thumbnail_fails_closed_without_overwriting_last_good(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp);out=root/'out';trees=root/'trees';trees.mkdir();(out/'thumbnails').mkdir(parents=True)
+   sha='6'*40
+   old_visual={'sha':sha,'path':'SAT_VISUALS/approved/good.png','square':True,'thumbnail':'thumbnails/'+sha+'.jpg','source_url':'old'}
+   previous={'documents':[],'docket':[],'visuals':[old_visual]}
+   m.atomic(out/'discovery.json',previous)
+   old_bytes=(out/'discovery.json').read_bytes()
+   m.atomic(trees/'hsh.json',{'sha':'stale-hsh','truncated':True,'tree':[]})
+   m.atomic(trees/'sat.json',{'sha':'fresh-sat','truncated':False,'tree':[{'type':'blob','path':'archive.pdf','sha':'pdf-sha','size':20}]})
+   args=argparse.Namespace(out=str(out),tree_dir=str(trees),excerpts=0)
+   with self.assertRaisesRegex(RuntimeError,'Missing or unsafe referenced thumbnail'):
+    m.run(args)
+   self.assertEqual((out/'discovery.json').read_bytes(),old_bytes)
+ def test_thumbnail_root_symlink_refused_before_image_write(self):
+  with tempfile.TemporaryDirectory() as tmp:
+   root=Path(tmp);out=root/'out';out.mkdir()
+   external=root/'external';external.mkdir()
+   keep=external/('a'*40+'.jpg');keep.write_bytes(b'keep')
+   (out/'thumbnails').symlink_to(external,target_is_directory=True)
+   from PIL import Image
+   buf=m.io.BytesIO();Image.new('RGB',(200,200)).save(buf,format='PNG');data=buf.getvalue()
+   sha=m.hashlib.sha1(b'blob '+str(len(data)).encode()+b'\\0'+data).hexdigest()
+   item={'path':'SAT_VISUALS/approved/visual.png','sha':sha,'size':len(data)}
+   with patch.object(m,'request',return_value=data):
+    with self.assertRaisesRegex(ValueError,'symlinked generated-thumbnail directory'):
+     m.image('hsh','commit',item,out,{})
+   self.assertEqual(keep.read_bytes(),b'keep')
  def test_truncated_tree_walk(self):
   with patch.object(m,'api',side_effect=[{'sha':'root','truncated':True,'tree':[]},{'tree':[{'type':'tree','path':'nested','sha':'dir'}]},{'tree':[{'type':'blob','path':'a.pdf','sha':'a'}]}]):self.assertEqual(m.tree('Satobloc/HsH')['tree'][0]['path'],'nested/a.pdf')
 if __name__=='__main__':unittest.main()
