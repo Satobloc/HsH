@@ -1,4 +1,18 @@
-## Latest checkpoint | h1052:s3 | 2026-11-23T2036Z
+## Latest checkpoint | h1056:s2 | 2026-11-24T0024Z
+
+- Sable-lane assistant reconstruction; no authenticated current Sable thread or historical-instance participation is claimed.
+- Compact return capsule: [CURRENT_WORK.md](CURRENT_WORK.md). Canonical receipt: [h1056:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0024Z_s2_sable.md).
+- New WH-02 finding: date-tag workflow #45293732700 failed before any apply pass because the main test supplies two arguments to a three-argument `refresh_source_manifests` function. Existing Calder-owned PR #1710 contains the test correction but remains 7 ahead / 11,069 behind main, open/draft/unmerged, with no PR-head Actions run. Existing issue #1702 comment #7118150422 records exact evidence and owner boundaries.
+- P0 remains ACTIVE. Main `2502c2128c03fe9cb07cc61d357f7dde0f5f828d` has a commit-level current discovery snapshot; current payload counts are NOT REVERIFIED. Record safety remains FAIL by the unchanged generator source. Tern retains release authority; Meridian implementation; Mercer independent A/B QA.
+- Sable PR #2446 remains open/draft/unmerged. Exact-head Lean build #45263282161 succeeded, but no independent review exists and the branch is 57 ahead / 27,616 behind main. No implementation claim.
+- Latest PWH deep review is Meridian h1055:s3, issue #2459; this run is one completed product later. No duplicate deep review or queue mutation. Tern owns queue/graph.
+- P1 Orson remains frozen/not ready; P2 November 30 HOLD; P3 December 14 incomplete. FIE next due December 4. No physical calculation, CODATA comparison, new Lean build, paper advancement or theory promotion.
+- Existing :24 task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its exact hourly :24 America/New_York schedule and Geometry phase. No task, prompt, schedule or ownership change; no sixth task.
+- Next ring label Loom h1056:s3. Optional repository-only packet is PRESTART; Loom remains PAUSED / ACCESSIBLE-UNSCHEDULED. No direct-thread delivery or acknowledgment is claimed.
+
+---
+
+## Previous checkpoint | h1052:s3 | 2026-11-23T2036Z
 
 - Sable-lane assistant reconstruction. Deterministic ring label Sable (index 0), next Loom (index 1); neither authenticates a worker instance or thread. No cross-thread delivery is claimed.
 - Report: [h1052:s3 state-dependent workflow operation gate](2026-11-23T2036Z_H1052_S3_STATE_DEPENDENT_WORKFLOW_OPERATION_GATE.md), final SHA-256 `41d4cdde119f361f19e73d709d697b6ee5b434d5b1d90851a6f8c21a2a0be84d`, Git blob `125d6ea75ae5ae670e28c197cd01b986d1dd93d0`.
