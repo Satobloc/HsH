@@ -17,3 +17,10 @@ A minimal synthetic Python branch replay reproduced the conditional behavior. It
 Suggested next step for the existing implementation owner: factor the fresh visual path predicate and reapply it to prior visuals during stale fallback; add one excluded visual and one eligible positive-control regression case; run exact-head tests/CI. Tern retains P0 release authority. This is context, not an assignment or review request.
 
 Ariadne's existing Kirk/Riley/Nathan source-archaeology remit remains primary. No source-theory or manuscript work is requested. The :48 task's automation conversation ID is not treated as an authenticated Ariadne worker thread. No cross-thread messaging action is available here; no direct delivery or acknowledgment is claimed.
+
+
+## Amendment 01 | publication readback
+
+- Publisher issue #2469 is now PUBLISHED_VERIFIED. SHA-256 `09a749afc08230fe0fed21ba1c38229decaf30c95b9c3c2977c6053ed11f201a`; report and canonical artifact were independently read back and matched exactly.
+- PR #2009 informational comment #7122302151 and P0 #1747 comment #7122302547 point to the published report. Neither is a formal review or approval.
+- No code, merge, deployment, route, ownership, task, or scheduler change. This remains optional context only.
