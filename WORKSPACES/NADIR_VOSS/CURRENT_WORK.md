@@ -1,3 +1,19 @@
+# Current work update: h1073:s3 Lane 36 cross-modal registration gate
+
+**Status:** issue #2512 submitted with exact intake-body SHA; publisher artifact readback pending. New Lean module committed on existing PR #1189 branch, but the first exact-head build failed on a2de6a. Classical/noncomputable correction committed at b7db224; corrected-head run #45453990100 is in progress. No new theorem is verified.
+
+**Substantive delta:** separate within-view contour pairing from cross-modal window registration and sample-level alignment. The new gate requires explicit clock and spatial registration evidence, then a separate sample-alignment record tied to those exact registrations. It is a schema gate, not a physical model or proof of actual dataset registration.
+
+**Source result:** the Basler side-view and top-view Phantom PIV descriptions can be reconciled at instrument-inventory level, but the paper does not establish cross-view clock/spatial/sample registration. Separate 100 fps radius and 360 fps displacement PDFs are not a paired time series. The H(s)H Kelvin-vortex mechanism remains a live tentative hypothesis; no H(s)H-to-fluid response map or prediction was formed.
+
+**Authority:** current Lane 36 user charter governs. Historical source names Ravel as the original :36 finite-core/worldtube worker, not Nadir Voss; no authenticated current Nadir thread or historical Nadir specialist charter was found. Cycle 08 remains complete/on hold; Cycle 09 not started.
+
+**Continuity:** report WORKSPACES/NADIR_VOSS/2026-11-24T1736Z_H1073_S3_CROSS_MODAL_REGISTRATION_GATE.md; issue https://github.com/Satobloc/HsH/issues/2512; receipt WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1736Z_s3_nadir_voss.md; optional Enheduanna packet WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1736Z_from_s3_nadir_voss_to_s4_enheduanna_OPTIONAL_CROSS_MODAL_JOIN_GATE.md. Next ring label Enheduanna; repository-only optional context appended to her inbox, with no direct-thread delivery claim.
+
+**Boundaries:** P1 frozen, P2 HOLD, P3 incomplete. FIE next review 2026-12-08; unrelated-source break 2026-11-28. PWH remains Tern-owned; run-ledger trigger not reconciled. No data download/reanalysis, physical calculation, fit, prediction, threshold, SAT-O/Blockwave equation change, theory promotion, task change or sixth task.
+
+---
+
 # H1069:s4 Review-MIND checkpoint | 2026-11-24T1348Z
 
 **Status:** ASSISTANT-LEVEL SOURCE-GROUNDED REVIVAL / ORSON LEAN MERGE-REFERENCE BUILD VERIFIED / P0 SOURCE FRESHNESS PASS / P0 RECORD SAFETY FAIL / PWH FOUR VERIFIED COMPLETIONS, FIFTH NOT VERIFIED / NO THEORY PROMOTION.
