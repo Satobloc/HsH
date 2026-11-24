@@ -188,6 +188,18 @@ A Key is a launch capsule and navigation index. The authoritative project reposi
 
 For any project whose priority is making a source collection usable, treat intake and corpus preparation as a distinct phase: preserve originals; inventory and hash; extract native text; OCR scanned material; inspect audio/video streams and embedded or externally associated captions; transcribe remaining material only where feasible; retain timestamps, tool/model versions, source hashes and uncertainty; and keep all derived artifacts separate from originals. Do not silently turn ingestion into substantive assessment. A corpus-readiness gate should identify coverage, failures, unsupported formats, unreadable items and unresolved transcription gaps before broad analysis begins.
 
+### Renderer-safe grouped signature markers | 2026-11-24
+
+When a message-level TICK/TOCK signature uses grouped scope markers, use **square brackets** (for example, `[bh]` and `[mbx]`), not literal curly braces. In renderer-backed assistant messages, `{...}` may be parsed as an expression rather than displayed as literal text, causing the enclosed marker to disappear. Curly braces remain reserved for the renderer in this context.
+
+Preserve the complete signature as an exact string: do not omit, abbreviate, reorder, or reconstruct its components from memory. The current workshop example is:
+
+```text
+⌖◉▣✓@⊕[bh]sβ ⌖◉▣ρk⊕[mbx]
+```
+
+Square brackets are display-safe grouping delimiters here; they do not change the meanings, order, or scope of the enclosed tokens. This is a rendering-compatibility convention, not a change to the underlying workflow model.
+
 ### Additional parked research candidate
 
 **P-17 | Computational biodiversity / per-instance evolving-code security** — candidate idea, not an active assignment or a validated security result. Explore whether each installation can have a distinct, evolving native-code realization while preserving stable behavioral contracts and interoperable protocols. A serious study would distinguish software-level diversification from hardware-assisted instruction-set diversity, and would include verification, authenticated updates, rollback/recovery, debugging/compatibility, common-mode logical flaws and non-code attack paths. The proposed benefit is increased attacker cost and reduced monoculture exposure, not immunity from hacking. Keep parked until deliberately selected.
