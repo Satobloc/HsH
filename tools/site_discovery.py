@@ -12,7 +12,7 @@ from pathlib import Path
 REPOS={'hsh':'Satobloc/HsH','sat':'Satobloc/SAT_THEORY_ARCHIVE_2023-25'}
 EXTS={'.pdf','.md','.txt','.tex','.json'}
 EXCLUDED=re.compile(r'prior[_ -]?art|quarantine|science[ _-]+made[ _-]+stupid',re.I)
-THUMBNAIL_NAME=re.compile(r'^[0-9a-f]{40}\.jpg
+THUMBNAIL_NAME=re.compile(r'^[0-9a-f]{40}\.jpg$')
 GENERATED=('PUBLIC_SITE/generated/','indexes/','.github/','tools/','LIBRARY/generated/')
 
 def now(): return dt.datetime.now(dt.timezone.utc).isoformat(timespec='seconds')

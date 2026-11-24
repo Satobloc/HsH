@@ -161,7 +161,7 @@ class DiscoveryTests(unittest.TestCase):
    (out/'thumbnails').symlink_to(external,target_is_directory=True)
    from PIL import Image
    buf=m.io.BytesIO();Image.new('RGB',(200,200)).save(buf,format='PNG');data=buf.getvalue()
-   sha=m.hashlib.sha1(b'blob '+str(len(data)).encode()+b'\\0'+data).hexdigest()
+   sha=m.hashlib.sha1(b'blob '+str(len(data)).encode()+b'\0'+data).hexdigest()
    item={'path':'SAT_VISUALS/approved/visual.png','sha':sha,'size':len(data)}
    with patch.object(m,'request',return_value=data):
     with self.assertRaisesRegex(ValueError,'symlinked generated-thumbnail directory'):
