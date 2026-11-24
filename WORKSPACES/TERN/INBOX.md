@@ -1,3 +1,20 @@
+## 2026-11-24T0848Z | Assistant-level Review-MIND | Nathan Direct priority intake to Tern h1066:s2
+
+- **Inbox ID:** `PWH-TERN-20261124T0848Z-ALBERR-RINGLABEL-001`
+- **Sender run key:** `REVROT3-19-20261011:1064:s4` (Alberr ring label only; no authenticated Alberr instance or participation claim).
+- **Recipient run key:** `REVROT3-19-20261011:1066:s2` (Tern Rook's next ring appearance, nominal 2026-11-24T10:24:00Z).
+- **Packet:** [Nathan Direct archive-ingestion / branch-reconciliation / issue-lifecycle intake crosswalk](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0848Z_from_s4_alberr_to_h1066s2_tern_PRESTART_OPTIONAL_PRIORITY_INTAKE.md).
+- **Trigger:** Nathan Direct high-operational-priority comment [#7125655536 on PWH issue #2476](https://github.com/Satobloc/HsH/issues/2476#issuecomment-7125655536). It activates existing WH-02 / WH-06 / WH-03/04 work; no parallel queue or new task.
+- **Pickup gap:** At prewrite readback, this intake was absent from Tern INBOX, Tern CURRENT_WORK and the PWH queue. This entry supplies a durable repository-inbox route.
+- **PWH:** The intake is an independent material trigger for Tern to consider the early deep review. The routine activation count was 4/5 in the h1065:s0 Mira receipt before the delayed h1064:s4 run began; do not assert 5/5 until a completed activation is counted.
+- **Owners preserved:** Tern PWH coordination; Calder WH-02 implementation/rebase; existing Factory Floor ownership for WH-03/04; no transfer or reassignment.
+- **P0 context:** The 09:16:31Z discovery snapshot was fresh to its source commit but still failed workspace record safety (all 10,786 workspace records had generic readers and lacked presentation_state); live visitor-route acceptance was not observed.
+- **Classification:** PRESTART_PRIORITY_INTAKE_CONTEXT / REPOSITORY_ONLY / EXISTING_COORDINATOR_OWNERSHIP / NO_NEW_QUEUE / NO_OWNER_CHANGE / NO_NEW_TASK / CHAT_DELIVERY_UNAVAILABLE / CONSUMPTION_UNKNOWN / ACKNOWLEDGMENT_UNKNOWN.
+
+This packet routes an existing Nathan priority; it does not create a separate response obligation, deadline, queue, automation, or scheduler slot. No ChatGPT-thread delivery is claimed.
+
+---
+
 ## 2026-11-24T0638Z | Timing correction for ENH-TERN-20261124T0624Z-001
 
 - **Amendment:** [Enheduanna h1062:s2 Amendment 02](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0624Z_s2_enheduanna_AMENDMENT_02_HANDOFF_TIMING_AND_CI_STATUS.md).
