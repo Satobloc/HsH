@@ -90,6 +90,34 @@ theorem phase_composite_radius_sq (a b θ φ : ℝ) :
         b ^ 2 * (Real.cos φ ^ 2 + Real.sin φ ^ 2) := by ring
     _ = a ^ 2 + b ^ 2 := by rw [hθ, hφ]; ring
 
+/-- Normalized phase-plane trace of a harmonic oscillator with nonzero frequency. -/
+def oscillatorPhase (ω t : ℝ) : Vec2 :=
+  circle 1 (ω * t)
+
+/-- Forgetting the parameter t makes every nonzero-frequency oscillator trace
+    the same unit circle; the frequency survives only in the parameterization. -/
+theorem oscillator_trace_range_eq_unit_circle
+    (ω : ℝ) (hω : ω ≠ 0) :
+    Set.range (oscillatorPhase ω) = Set.range (circle 1) := by
+  ext p
+  constructor
+  · rintro ⟨t, rfl⟩
+    exact ⟨ω * t, rfl⟩
+  · rintro ⟨θ, rfl⟩
+    refine ⟨θ / ω, ?_⟩
+    change circle 1 (ω * (θ / ω)) = circle 1 θ
+    have h : ω * (θ / ω) = θ := by
+      field_simp [hω]
+    rw [h]
+
+/-- Two distinct nonzero frequencies have identical unparameterized phase-plane
+    traces. A curve encoder that discards its clock cannot recover ω. -/
+theorem different_frequencies_same_unparameterized_trace
+    (ω₁ ω₂ : ℝ) (h₁ : ω₁ ≠ 0) (h₂ : ω₂ ≠ 0) :
+    Set.range (oscillatorPhase ω₁) = Set.range (oscillatorPhase ω₂) := by
+  rw [oscillator_trace_range_eq_unit_circle ω₁ h₁,
+      oscillator_trace_range_eq_unit_circle ω₂ h₂]
+
 structure Jet2 where
   y0 : ℝ
   y1 : ℝ
