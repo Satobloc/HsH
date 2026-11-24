@@ -172,3 +172,8 @@ Readback checks:
 ### Amendment 02: final main head after report status correction
 
 The report was amended again to include P0 postwrite comment #7134614282, producing main commit `78a9c785fbcf024012f99338a0991f8af8cbf907`. A workflow-run lookup for that final commit also returned no discovery-refresh run. The last verified generated snapshot therefore remains the 13:41:35Z snapshot embedded from `b46b469...`; **postwrite discovery freshness remains pending at final main head `78a9c785...`**.
+
+
+### Amendment 03: optional packet reference correction
+
+The Enheduanna and Tern handoff packets were amended to remove a superseded intermediate report blob reference; both now link to the stable report path. Their final packet blobs are recorded in the canonical receipt. Those packet corrections advanced main to `13fc9dc24cd844cbb207f9ce6008bc19e9b3ab36`. A workflow-run lookup for that commit found no discovery refresh. The report amendment and canonical receipt will also advance main; postwrite discovery freshness remains pending until a later generated snapshot is parsed against the final source head.
