@@ -1,5 +1,7 @@
 import Mathlib
 
+noncomputable section
+
 /-!
 # Whirligig Kernel 0: restricted exact identities
 
@@ -32,15 +34,13 @@ namespace HsHVerification.WhirligigKernel0Projection
 structure Vec2 where
   x : ℝ
   y : ℝ
-deriving DecidableEq
-
+ 
 structure Vec4 where
   x1 : ℝ
   x2 : ℝ
   x3 : ℝ
   x4 : ℝ
-deriving DecidableEq
-
+ 
 /-- Orthogonal product encoding of two planar states into four coordinates. -/
 def compose (p q : Vec2) : Vec4 := ⟨p.x, p.y, q.x, q.y⟩
 
@@ -88,7 +88,7 @@ theorem phase_composite_radius_sq (a b θ φ : ℝ) :
       (b * Real.cos φ) ^ 2 + (b * Real.sin φ) ^ 2
       = a ^ 2 * (Real.cos θ ^ 2 + Real.sin θ ^ 2) +
         b ^ 2 * (Real.cos φ ^ 2 + Real.sin φ ^ 2) := by ring
-    _ = a ^ 2 + b ^ 2 := by rw [hθ, hφ]
+    _ = a ^ 2 + b ^ 2 := by rw [hθ, hφ]; ring
 
 structure Jet2 where
   y0 : ℝ
@@ -142,7 +142,8 @@ theorem oscillator_zero_set_equivalence
   have ha2 : a ^ 2 ≠ 0 := pow_ne_zero 2 ha
   constructor
   · intro h
-    exact (div_eq_zero_iff ha2).mp h
+    have hh := (div_eq_zero_iff).mp h
+    exact hh.resolve_right ha2
   · intro h
     simp [h]
 
