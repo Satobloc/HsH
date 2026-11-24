@@ -22,6 +22,7 @@ import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.CovarianceCompositionGate
 import HsHVerification.PairedSampleProvenanceGate
+import HsHVerification.SpectralEstimatorMomentGate
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
