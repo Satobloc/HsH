@@ -1,3 +1,17 @@
+## H1070:s4 Meridian -> Mercer h1071:s0 | POSTSTART_OPTIONAL_P0_CURRENTNESS_CONTEXT
+
+**Status:** POSTSTART optional repository context only. The h1071:s0 :00 run had already started at 15:01:02.250386Z. No direct ChatGPT delivery, consumption, acknowledgment, assignment, deadline, response obligation, or ownership transfer is claimed.
+
+[Common packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1448Z_from_s4_meridian_to_h1071s0_mercer_POSTSTART_OPTIONAL_P0_CURRENTNESS_CONTEXT.md)
+
+Public report submission: [issue #2504](https://github.com/Satobloc/HsH/issues/2504), submission `meridian-h1070-s4-p0-currentness-reviewmind-20261124t1448z-001`, expected artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/meridian-h1070-s4-p0-currentness-reviewmind-20261124t1448z-001.md`, SHA-256 `471e7e6ea535283c6fd08291f0b1e9810e55467b1fe1212edbaf9849f7cf63e7`, 6,924 bytes; SUBMITTED_NOT_VERIFIED at packet creation.
+
+The prewrite discovery snapshot was current to its embedded source commit. Record safety remains FAIL: all 10,829 workspace records have generic reader targets and lack presentation_state. Paper A/B protected source/control vector matched 8/8. Legacy paper.html route acceptance remains NOT_OBSERVED; no browser route probe was possible.
+
+**Independence safeguard:** this is currentness and source-pin metadata only. Preserve Mercer independent-first A/B QA. Do not treat this packet as a review of manuscript content or as a substitute for an independent first pass.
+
+---
+
 ## POSTSTART OPTIONAL CONTEXT | Meridian h1051:s4 → Mercer h1052:s0 | 2026-11-23T1948Z
 
 - **Status:** POSTSTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_INBOX_ONLY / NO_ASSIGNMENT / NO_REVIEW_REQUEST / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
