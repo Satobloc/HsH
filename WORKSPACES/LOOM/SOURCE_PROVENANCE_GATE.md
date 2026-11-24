@@ -275,3 +275,18 @@ The minimum future record should keep separate:
 PR #759 remains open, draft and unmerged; its branch head is `45f6d5167c064d04dbba436c220c900b479b873f`, base snapshot `d8a36337650c93ee21d8c8443639fb844e5e7c83`, while current main at this reconciliation is `c87c6924819cf20c0c40d4ba303f5903c603e599`. Its existing Lean modules formalize selected source-attribution and edit-graph propositions, not this raw parser or these two exports. No new theorem or Lean run is claimed. The next meaningful proof target, after a typed source-schema input exists, is the finite active/off-ancestry partition and its role-count conservation, followed by an independently tested binding from the raw parser output to that input. Such a proof would validate only the encoded invariant, not raw-source authenticity, parser correctness, authorship, or any physical theory.
 
 **Boundary:** this amendment is a provenance/chronology control. It does not change SAT-O or Blockwave equations, select a physical system, perform a fit or prediction, alter a paper gate, or promote BEDROCK theory.
+
+## Amendment 04 - source-locator and timestamp precision correction (2026-11-24)
+
+This amendment supersedes only the three tool blob IDs and one rounded timestamp in Amendment 03. The source identities, ancestry counts, role counts, event-claim classifications, and implementation boundary are unchanged.
+
+**Authoritative current-main code blob OIDs:**
+- `tools/date_conversation_exports.py`: `a8645f7e33598473cdbee428f68b29dc55a52972`.
+- `tools/index_conversation_chronology.py`: `7f02a8f62d3d86113f21847b4e341dc877d6510d`.
+- `tests/test_date_conversation_exports.py`: `30d46f604a54fec58097887a4fd1dc891af8fa80`.
+
+The prior Amendment 03 values for these three Git blob OIDs were transcription errors. The exporter code confirms current-node parent-chain selection, user/assistant message timestamp extraction, and top-level create/update fallback only when no usable message timestamps exist. The four current tests cover local collision behavior, preservation of dated exports, refusal to invent undated dates, and viewer refresh isolation; none covers this pair of raw exports, off-ancestry membership, or independent clock domains.
+
+The off-ancestry user message `a620a5cb-66cf-4f12-bf99-17ff232d2559` has raw numeric `create_time=1789305310.113585`, exactly `2026-09-13T13:15:10.113585Z`. Amendment 03 rounded this to `.114Z`; use the raw numeric value or the exact six-decimal ISO value above.
+
+The 40-character identifiers above and the two conversation-export identifiers in Amendment 03 are Git blob OIDs, not SHA-256 digests of raw file bytes. No separate raw-byte SHA-256 was computed for those source exports.
