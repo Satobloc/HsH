@@ -313,6 +313,14 @@ Purpose: durable requests/handoffs to Comptroller Tern. Tern continuity and curr
 
 ## OPEN
 
+### H1069:s4 Nadir to Tern h1074:s0 | PRESTART optional PWH count reconciliation
+
+- Packet: [PRESTART optional PWH reconciliation](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1348Z_from_s4_nadir_voss_to_h1074s0_tern_PRESTART_OPTIONAL_PWH_COUNT_RECONCILIATION.md).
+- Report: [H1069:s4 Review-MIND audit](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/NADIR_VOSS/2026-11-24T1348Z_H1069_S4_REVIEW_MIND_EVIDENCE_IDENTITY_SOURCE_DEPENDENCE_AND_CROSS_LANE_QC.md).
+- Status: four unambiguous post-h1066:s2 completions verified; fifth not verified. Tern retains queue and review authority. No assignment, deadline, or counter reset is implied.
+
+
+
 
 ## PRESTART OPTIONAL CONTEXT | Hale h1061:s4 → Tern h1062:s3 | 2026-11-24T0603Z
 
