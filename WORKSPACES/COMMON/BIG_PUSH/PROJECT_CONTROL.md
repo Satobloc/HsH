@@ -1,6 +1,6 @@
 # THE BIG PUSH — Project Control
 
-**Status:** ACTIVE · Phase 0 / historical programme recovery  
+**Status:** ACTIVE · Exemplar-led workflow and scaffold development (scope rebaselined 2026-11-24)  
 **Started:** 2026-11-05  
 **Authority:** Nathan's project directive in the current ChatGPT conversation. This is an assistant-maintained execution record, not Nathan-authored doctrine, not theory authority, and not a claim that the proposed institution has been designed or built.  
 **Owner:** Current project operator / assistant invocation. No historical worker identity is claimed.
@@ -9,7 +9,7 @@
 
 Develop and improve the research/workflow scaffold by selectively studying and adapting the strongest historical methodological exemplars (SAT-O, Activator Modes, Back Hallways, Star-Shaped Derivation Map, Constant Torquing, Loop Renormalization). The Big Push is not a mandate to reconstruct the entirety of historical workflow designs. It also improves navigation and documentation using the experimental Key → Memory Credenza → Castle model, through rolling, reversible, evidence-led reconfiguration. Other active project priorities continue and must not be silently subordinated.
 
-This is a multi-stage programme. The institution's design is a later deliverable, not the starting assumption. The investigation itself must be planned, logged, handed off, and improved across successive ChatGPT conversations.
+The programme is developed incrementally through real project work, selective exemplar study, and rolling navigation/documentation improvement. A fully designed institution is not a prerequisite to useful implementation. Historical and capability research are pulled in when they answer live questions.
 
 ## Non-negotiable execution method
 
@@ -54,7 +54,7 @@ Apply the experimental Key → Memory Credenza → Castle model to navigation an
 
 Phases may be revisited. A gate is not closed merely because a narrative summary exists.
 
-## Phase 0 source and state record
+## Phase 0 source and state record (historical baseline; not a mandatory gate stack)
 
 ### Current operating controls consulted
 
