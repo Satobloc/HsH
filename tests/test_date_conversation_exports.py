@@ -210,7 +210,10 @@ class DateConversationExportsTests(unittest.TestCase):
     def test_root_chronology_includes_suffix_independent_sources(self):
         with tempfile.TemporaryDirectory() as td:
             root=Path(td)
-            names=("dated.md","dated.log","dated.weird","dated")
+            names=("dated.md","dated.log","dated.weird","dated",
+                   "26.05.28•26.05.28•SAT-O v1.2",
+                   "26.05.28•26.05.28•H(s)H 2.0",
+                   "26.05.28•26.05.28•Conversation with Dr. X")
             for name in names:
                 self.write_convo(root/name,1780000000)
             output=root/"chronology.md"
@@ -222,6 +225,8 @@ class DateConversationExportsTests(unittest.TestCase):
             rendered=output.read_text(encoding="utf-8")
             for name in names:
                 self.assertIn(name,rendered)
+            for label in ("dated","dated.weird","SAT-O v1.2","H(s)H 2.0","Conversation with Dr. X"):
+                self.assertIn(f"[{label}](",rendered)
 
     def test_strict_audit_allows_legitimate_undatable_exceptions(self):
         with tempfile.TemporaryDirectory() as td:
