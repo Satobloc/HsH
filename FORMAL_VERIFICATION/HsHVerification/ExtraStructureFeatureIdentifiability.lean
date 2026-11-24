@@ -132,3 +132,86 @@ theorem witness_extra_required_but_feature_unidentified :
 #print axioms witness_extra_required_but_feature_unidentified
 
 end HsHVerification.ExtraStructureFeatureIdentifiability
+
+
+/-! ## Uncertainty-aware feature identification
+
+A state may admit a set of compatible observations rather than a single point.
+A prediction region could later be instantiated by a calibrated predictive set,
+a deterministic tolerance envelope, or another predeclared observation set.
+This module does not construct statistical coverage or derive a region from
+covariance; those are external, source- and data-dependent obligations.
+-/
+
+/-- The observation set admitted by the prediction model for a state. -/
+abbrev PredictionRegion (State Observation : Type*) := State → Set Observation
+
+/-- A feature is identifiable under set-valued predictions when every observation
+compatible with two states forces those states to share the same feature value. -/
+def UncertaintyFeatureIdentifiable
+    {State Observation Feature : Type*}
+    (region : PredictionRegion State Observation)
+    (feature : State → Feature) : Prop :=
+  ∀ s₁ s₂ y, y ∈ region s₁ → y ∈ region s₂ → feature s₁ = feature s₂
+
+/-- Prediction regions are separated when states with distinct feature values
+have disjoint regions. -/
+def DistinctFeatureRegionsDisjoint
+    {State Observation Feature : Type*}
+    (region : PredictionRegion State Observation)
+    (feature : State → Feature) : Prop :=
+  ∀ s₁ s₂, feature s₁ ≠ feature s₂ →
+    Disjoint (region s₁) (region s₂)
+
+/-- Global feature identification is equivalent to pairwise disjoint prediction
+regions for every pair of states with different feature values. -/
+theorem uncertaintyFeatureIdentifiable_iff_distinctFeatureRegionsDisjoint
+    {State Observation Feature : Type*}
+    (region : PredictionRegion State Observation)
+    (feature : State → Feature) :
+    UncertaintyFeatureIdentifiable region feature ↔
+      DistinctFeatureRegionsDisjoint region feature := by
+  constructor
+  · intro hident s₁ s₂ hfeature
+    apply Set.disjoint_left.mpr
+    intro y hy₁ hy₂
+    exact hfeature (hident s₁ s₂ y hy₁ hy₂)
+  · intro hseparated s₁ s₂ y hy₁ hy₂
+    by_contra hfeature
+    exact (Set.disjoint_left.mp (hseparated s₁ s₂ hfeature)) hy₁ hy₂
+
+/-- One observation lying in two prediction regions with different feature
+values is a witness that the feature is not identifiable. -/
+theorem overlappingPredictionRegions_block_identifiability
+    {State Observation Feature : Type*}
+    (region : PredictionRegion State Observation)
+    (feature : State → Feature)
+    (hoverlap : ∃ s₁ s₂ y,
+      feature s₁ ≠ feature s₂ ∧
+      y ∈ region s₁ ∧ y ∈ region s₂) :
+    ¬ UncertaintyFeatureIdentifiable region feature := by
+  rcases hoverlap with ⟨s₁, s₂, y, hfeature, hy₁, hy₂⟩
+  intro hident
+  exact hfeature (hident s₁ s₂ y hy₁ hy₂)
+
+/-- Singleton prediction regions recover the ordinary exact-readout fiber
+criterion. The set-valued gate is therefore a genuine generalization of the
+deterministic identifiability condition. -/
+theorem singletonPredictionRegions_iff_exactReadoutFiberIdentifiability
+    {State Observation Feature : Type*}
+    (readout : State → Observation)
+    (feature : State → Feature) :
+    UncertaintyFeatureIdentifiable
+      (fun s => ({readout s} : Set Observation)) feature ↔
+      ∀ s₁ s₂, readout s₁ = readout s₂ → feature s₁ = feature s₂ := by
+  constructor
+  · intro hident s₁ s₂ hreadout
+    exact hident s₁ s₂ (readout s₁) (by simp) (by simp [hreadout])
+  · intro hfiber s₁ s₂ y hy₁ hy₂
+    have hy₁' : y = readout s₁ := by simpa using hy₁
+    have hy₂' : y = readout s₂ := by simpa using hy₂
+    exact hfiber s₁ s₂ (hy₁'.trans hy₂'.symm)
+
+#print axioms uncertaintyFeatureIdentifiable_iff_distinctFeatureRegionsDisjoint
+#print axioms overlappingPredictionRegions_block_identifiability
+#print axioms singletonPredictionRegions_iff_exactReadoutFiberIdentifiability
