@@ -77,12 +77,15 @@ theorem added_channel_separates_symmetry_pair
     (g : G) (x : X)
     (h₁ : observe₁ (g • x) = observe₁ x)
     (h₂ : observe₂ (g • x) ≠ observe₂ x) :
-    (observe₁ (g • x), observe₂ (g • x)) ≠
-      (observe₁ x, observe₂ x) := by
+    observe₁ (g • x) = observe₁ x ∧
+      observe₂ (g • x) ≠ observe₂ x ∧
+      (observe₁ (g • x), observe₂ (g • x)) ≠
+        (observe₁ x, observe₂ x) := by
+  refine ⟨h₁, h₂, ?_⟩
   intro h
   exact h₂ (congrArg Prod.snd h)
 
-/-- A source-defined symmetry group and action are required before this
+/- A source-defined symmetry group and action are required before this
 abstract obstruction can be assigned to a physical model. The theorem above
 does not identify such a group or action for H(s)H. -/
 
