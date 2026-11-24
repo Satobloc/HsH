@@ -12,7 +12,7 @@ No authenticated Nadir Voss conversation was established by the bounded existing
 
 The original SAT archive file 2023 SPACETIME CHAT.txt (blob fcc645ded44c4b9b3a531a0f99e9fcea615b2636) contains a section explicitly dated 2024-03-28, “DIMENSIONAL GRAVITY”. At lines 531-535, the transcript lists SAT.4DHH.UC.pdf and MINKOWSKI PROPER.pdf as attachments immediately after the direct moving-plane/helix exchange. This establishes attachment context by that exchange, not the PDF’s creation date or authorship.
 
-The MINKOWSKI PROPER extracted text reports source PDF SHA-256 6154673f22783049fde21716857e7effc0373db9afb86e39151296e17a3076b5, six pages, 12,577 characters, OCR attempted because embedded text was below threshold. The annotated derivative is blob 99d4a476c854ed4259b4e43fed274886dcb7f284; MINKOWSKI PROPER 2.txt is blob 92a6959c49c71a292e568f9f6768c90ec5edfb31 and reports the same source PDF SHA-256. The “trojan horse” and non-verification note appears in one extracted-text wrapper, not in the PDF bytes as established here.
+The MINKOWSKI PROPER extracted text reports source PDF SHA-256 6154673f22783049fde21716857e7effc0373db9afb86e39151296e17a3076b5, six pages, 12,577 characters, OCR attempted because embedded text was below threshold. The annotated derivative is blob 99d4a476c854ed4259b4e43fed274886dcb7f284; MINKOWSKI PROPER 2.txt is blob 92a6959c49c71a292e568f9f6768c90ec5edfb31 and reports the same source PDF SHA-256. The “trojan horse” and non-verification note appears in one extracted-text wrapper, not in the PDF bytes as established here. The SAT archive tree confirms MINKOWSKI PROPER.pdf and MINKOWSKI PROPER 2.pdf are byte-identical Git objects: both paths point to blob 674ff25e0f51c71610bf1cd86d64d29140ce56fc, size 2,140,186 bytes. The first extant commit for the root path is 2026-05-05T16:42:43Z with message “MAY 5 2016 — UPDATES”; the second path was uploaded 2026-05-30T00:24:24Z. These are repository events, not a verified composition date. The 2016 wording is a commit message, not independent PDF metadata.
 
 ## Source comparison
 
@@ -38,10 +38,10 @@ Nadir PR #1189, exact head 9e563ee330c8bdbdcf16f746eb1baff931751677, includes Na
 
 ## Publication
 
-Issue #undefined: undefined
+Issue #2491: https://github.com/Satobloc/HsH/issues/2491
 Submission ID: nadir-h1066-s0-minkowski-proper-source-lineage-20261124t1000z-001
 SHA-256: a422fbf2c8743ca43826b83028aec989b275a3c9ac58aa9dc0a3941f19116bbb
-Initial state: SUBMITTED_NOT_VERIFIED. Publisher comment, Actions result, and independent artifact readback must still be checked before marking verified.
+Publisher Actions run #45377715417: IN_PROGRESS at last check. State: SUBMITTED_NOT_VERIFIED. No artifact readback or publisher comment is claimed yet.
 
 ## Tocktick
 
