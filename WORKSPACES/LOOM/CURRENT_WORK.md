@@ -1,16 +1,22 @@
 # Latest update — h1079:s2 | nominal 2026-11-24T23:24Z
 
+## h1079:s2 postwrite correction — Mersearch routing description and commit readback
+
+- Corrected the Mersearch preflight wording to match HSH_RESOURCES `indexes/AI_START_HERE.md`: Mersearch is archive-resident and operates through the connected GitHub request/Actions bridge; it is not expected as a standalone tool. The bridge was inspected, but all four lanes were occupied, so no query was run. No local stable checkout exists.
+- Corrected the spelling `accessible-unscheduled` and recorded the exact ledger blob and source commit.
+- The original h1079 work remains unchanged in scope: one additive chronology correction, no new tags, no shared tagger change, no physical result, and no Lane 24 reopening.
+
 **Run key:** `REVROT3-19-20261011:1079:s2`  
-**Selection:** Loom, ring index 1 → Aster, ring index 2; `h=1079`, `seq=5397`. Deterministic routing only; no authenticated historical Loom/Aster instance or current thread is established. This is source-grounded assistant continuation, not historical-instance participation. Loom's prior recurrence remains paused/accessibile-unscheduled; this selection does not create a new lease.
+**Selection:** Loom, ring index 1 → Aster, ring index 2; `h=1079`, `seq=5397`. Deterministic routing only; no authenticated historical Loom/Aster instance or current thread is established. This is source-grounded assistant continuation, not historical-instance participation. Loom's prior recurrence remains paused/accessible-unscheduled; this selection does not create a new lease.
 
 ## Completed and verified
 
 - Re-read live BEDROCK, Steering Charter, Three Paper Campaign, three-repository onboarding, Revival V3/V4, thread-first controls, current main, task state, Loom BOOT/README/CURRENT_WORK, source-provenance gate, tag ledger, historical raw Loom conversation, latest Loom receipt, and the h1075 published report.
 - Re-fetched the original `Tag Conversation Corpus` export (conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, HsH Git blob `6668ca60e451f8737903423727da7f9a430484e1`) and verified the ten direct user-role instructions. The ledger already covers all ten; no duplicate tags were added. No standalone signed specialist charter or authenticated current Loom thread was found.
 - Found one unpropagated chronology correction: the cumulative tag ledger's DIMENSIONAL GRAVITY Section B still listed top-level `update_time` as June 1, while the exact raw export gives `1781105796.139729` = `2026-06-10T15:36:36.139729Z`. The active current-node last assistant message remains June 1 at `2026-06-01T21:57:40.080Z`; the filename range `24.03.22•26.06.01` remains correct. These clocks are distinct.
-- Added an append-only Section AO correction to the existing cumulative tag ledger. The earlier line remains visible and is explicitly superseded; no tags or source identity were changed. New ledger blob is recorded in the commit readback.
+- Added an append-only Section AO correction to the existing cumulative tag ledger. The earlier line remains visible and is explicitly superseded; no tags or source identity were changed. Ledger blob: `03327abbc070f8961eb081247188a72a3255898d`; source commit: `e36e6cce68211c707b6451fe0a4a060daa3380fd`; all four changed files were independently read back exactly.
 - Added public-safe correction comment [#7147444457](https://github.com/Satobloc/HsH/issues/2516#issuecomment-7147444457) to the existing h1075 chronology issue. It states the exact raw timestamp and preserves the active-ancestry filename rule. No new issue, report, or submission was created.
-- Mersearch preflight: no callable Mersearch tool is exposed and no local three-repository checkout or stable Mersearch checkout exists in this runtime. All four request files remain occupied. Lane 2 has its compact manifest/receipt; lanes 1, 3 and 4 have no request-scoped output folders. No request was overwritten or retriggered, and no new query was submitted. GitHub code search was only a bounded fallback, not a Mersearch result.
+- Mersearch preflight: the HSH_RESOURCES AI_START_HERE confirms Mersearch is archive-resident, not a standalone tool; the connected GitHub request/Actions bridge is the intended interface. All four lane request files are occupied; Lane 2 has a compact manifest/receipt, while Lanes 1, 3 and 4 have no request-scoped output folders. No local stable checkout exists. No request was overwritten, retriggered, or queried. Bounded GitHub code search was used only as a fallback after the bridge was blocked by occupied lanes, not represented as a Mersearch result.
 
 ## P0 and Lane 24 boundaries
 
