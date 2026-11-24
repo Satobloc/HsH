@@ -6,7 +6,7 @@
 
 - Latest verified Tern deep review: h1066:s2, published at [issue #2490](https://github.com/Satobloc/HsH/issues/2490).
 - Existing queue rule: five further actual completed worker activations after h1066:s2, or earlier on a material trigger.
-- Current Nadir report: [H1069:s4 Review-MIND audit](../../NADIR_VOSS/2026-11-24T1348Z_H1069_S4_REVIEW_MIND_EVIDENCE_IDENTITY_SOURCE_DEPENDENCE_AND_CROSS_LANE_QC.md), blob `16042233585eca91952e53aea9ad181960096fa2`.
+- Current Nadir report: [H1069:s4 Review-MIND audit](../../NADIR_VOSS/2026-11-24T1348Z_H1069_S4_REVIEW_MIND_EVIDENCE_IDENTITY_SOURCE_DEPENDENCE_AND_CROSS_LANE_QC.md).
 
 ## Completed activations verified after h1066:s2
 
