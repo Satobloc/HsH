@@ -47,11 +47,15 @@ HsH main at readback: `61d0a66dc457c3fd0935b012b8db4e04d01d7837`. This commit ch
 
 P0 ownership remains unchanged: Tern release/standdown, Meridian implementation, Mercer Paper A/B QA. No P0 action was taken.
 
-## 5. Run-state caveat
+## 5. Run-state caveat and later readback
 
-The :48 Aster run key is `REVROT3-19-20261011:1056:s4`, run ID `b11589f8-e0b4-8327-8ded-a9e2093cbbda`, scheduled 00:48Z. The original receipt recorded start 00:48:01.620809Z; a later host peek reported the same run ID/scheduled time but start 01:15:54.015723Z. It remained IN_PROGRESS with no completion and `chat_ref=null`. The cached latest result is Mercer h1055:s4, not Aster. This is a run-record movement, not proof of a duplicate execution.
+The :48 Aster run key is `REVROT3-19-20261011:1056:s4`, run ID `b11589f8-e0b4-8327-8ded-a9e2093cbbda`, scheduled 00:48Z. The original receipt recorded start 00:48:01.620809Z; later peeks reported the same run ID/scheduled time with start 01:15:54.015723Z. It remains IN_PROGRESS with no completion and `chat_ref=null`. Its cached latest result is Mercer h1055:s4, not Aster. See [Aster Amendment 01](../REVIVAL_ROTATION_RECEIPTS/2026-11-24T0048Z_s4_aster_AMENDMENT_01_HOST_RUN_RECONCILIATION_PWH_TRIGGER_AND_ACCESS_BOUNDARY.md).
 
-The next :00 h1057:s0 Ariadne run started 01:00:02Z and failed at 01:25:06Z, with `chat_ref=null`. Aster's Ariadne packet was created before that run started; no consumption or acknowledgment is established.
+The :00 Ariadne h1057:s0 run ID `1ed1985e-3774-8326-ba19-d689360bf5b2` was first observed as completed/failed at 01:25:06Z after a 01:00:02Z start. A later peek returned the same run ID/scheduled time but start 01:27:15.414611Z, IN_PROGRESS, no completion, and `chat_ref=null`. The earlier failed snapshot is not a reliable final state; cause of the start/status movement is unknown. The cached latest result is Calder h1054:s0, not the current Ariadne run. See [Aster Amendment 02](../REVIVAL_ROTATION_RECEIPTS/2026-11-24T0048Z_s4_aster_AMENDMENT_02_LATER_HOST_PEEK_AND_RUN_STATE_DISTINCTION.md).
+
+The :24 h1057:s2 run is also IN_PROGRESS with no run-level `chat_ref`; the :36 h1056:s3 run is COMPLETED with a run-level reference. Task-level `conversation_id`, cached prior-result `chat_ref`, and current-run `chat_ref` are distinct. No current-run direct-thread delivery, consumption, or acknowledgment is established.
+
+Aster's Ariadne packet was created before the nominal 01:00Z slot and remains PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY. Packet consumption and acknowledgment remain unknown.
 
 ## 6. Protection and nonclaims
 
