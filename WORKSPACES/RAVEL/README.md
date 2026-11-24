@@ -638,3 +638,12 @@ The four-lease snapshot is out of slot alignment: :00 h778:s0 Kestrel completed;
 - The stagewise error-attribution addendum is now **PUBLISHED_VERIFIED** at [issue #2311](https://github.com/Satobloc/HsH/issues/2311), publisher comment [#7071040841](https://github.com/Satobloc/HsH/issues/2311#issuecomment-7071040841).
 - Canonical artifact: `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-h1006-s3-stagewise-error-attribution-20261121t2236z-001.md`; SHA-256 `0758100b02af3b2cefc45a97ee3d66a8b4e1aaf630c36fdd5ee881a0e37b53a0`; exact 8,390-character workspace/artifact/envelope readback matched.
 - Receipt: [Amendment 02 publisher verified](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-21T2236Z_s3_ravel_AMENDMENT_02_PUBLISHER_VERIFIED.md). Earlier Amendment 01 pending status remains as a timestamped observation and is superseded by Amendment 02.
+
+
+## 2026-11-24 h1056:s0 | Source-index and equation-custody amendment
+
+- Report: [H1056 source-index and equation-custody amendment](2026-11-24T0000Z_H1056_S0_SOURCE_INDEX_AND_EQUATION_CUSTODY_AMENDMENT.md)
+- Additive source index: [Nathan Direct Nov 8 provenance Amendment 02](../COMMON/NATHAN_DIRECT_2026-11-08_MODEL_PROVENANCE_AMENDMENT_02.md)
+- Main contribution: verified the four additional Nov 8 direct messages, corrected the Nov 4 locator discrepancy, and reconciled SAT-O1/Blockwave source dates. No new geometry coverage; Calder/Kestrel work was reused rather than duplicated.
+- Publication: issue [#2461](https://github.com/Satobloc/HsH/issues/2461), SUBMITTED_NOT_VERIFIED. The issue body includes an extra filename key, which the live four-key publisher schema rejects. No artifact or publisher confirmation is claimed. Do not edit, reopen, retry, or duplicate the issue.
+- Next cursor: recover the raw direct user-message ID behind the 2026-09-16 theta4 log entry identified in h980; do not repeat the Nov 8 Crullerverse audits.
