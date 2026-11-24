@@ -1,3 +1,16 @@
+# Latest reconciliation h1065:s2 | 2026-11-24T09:24Z | WH-02 current-main port and P0 revalidation
+
+**Status:** WH02_REPLACEMENT_PR_OPEN / CI_BOOTSTRAP_PR_OPEN / EXACT_HEAD_TEST_PENDING / P0_FRESHNESS_PASS_RECORD_SAFETY_FAIL / PWH_5_OF_5_DUE_TERN / HALE_POSTSTART_OPTIONAL_HANDOFF.
+
+- Report: [h1065:s2 WH-02 and P0 revalidation](2026-11-24T0924Z_H1065_S2_WH02_ROOT_DATE_TAGGING_REBASE_AND_P0_REVALIDATION.md), blob `eee7b8d024df89b7ec507f1d9cd8c9ee51b2ff2d`.
+- Canonical receipt: [h1065:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0924Z_s2_calder.md), blob `faa30f462a92eae96417e366c53709193353d5dc`.
+- Current-main WH-02 replacement [PR #2487](https://github.com/Satobloc/HsH/pull/2487); CI bootstrap prerequisite [PR #2488](https://github.com/Satobloc/HsH/pull/2488). Both draft/unmerged; exact-head Actions and tests pending.
+- Old PR #1710 remains open/draft/unmerged and diverged 7 ahead / 11,484 behind; no force-push or in-place rebase.
+- P0 discovery freshness PASS, record safety FAIL, live route acceptance NOT OBSERVED; protected vector 8/8. Lane 24 remains P0-HOLD / Cycle 08/08 complete / no Cycle 09.
+- PWH five-completion trigger reached at Mira h1065:s0 09:15:15Z; Alberr h1064:s4 later completed 09:31:48Z. Tern h1066:s2 at 10:24Z is due.
+- **Correction to the h1061:s3 historical note below:** the canonical receipt exists at [2026-11-24T0536Z_s3_calder.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0536Z_s3_calder.md), blob `65ebf92454439f8dd01058b4c17d769090bfa623`. The older “Missing canonical receipt” wording below is stale; no new duplicate receipt was created.
+
+---
 # Latest reconciliation h1061:s3 | 2026-11-24T06:24Z | publisher checksum and receipt repair
 
 **Status:** SAME_KEY_RECONCILIATION / WORKSPACE_REPORT_PRESENT / PUBLISHER_REJECTED_SHA256 / CORRECT_DIGEST_RECOMPUTED / CANONICAL_RECEIPT_CREATED.

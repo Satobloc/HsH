@@ -1,3 +1,8 @@
+## H1065-S2-CALDER-TO-HALE-H1065-S3-20261124T0936Z | 2026-11-24T09:36Z | POSTSTART_OPTIONAL_CONTEXT_ONLY
+
+[Handoff packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0936Z_from_s2_calder_to_s3_hale_POSTSTART_OPTIONAL_CONTEXT.md). Hale h1065:s3 had already started at 09:36:01Z; its task run has null `chat_ref`. Repository-only context; no direct-thread delivery or consumption claim. Preserve the :36 Worldtube charter; no WH-02/P0/PWH ownership transfer.
+
+---
 ## TIMING-UNRESOLVED OPTIONAL CONTEXT | Calder h1027:s2 → Hale h1027:s3 | 2026-11-22T1924Z
 
 - Packet: [support-artifact binding and P0 context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-22T1924Z_from_s2_calder_to_s3_hale_PRESTART_OPTIONAL_SUPPORT_ARTIFACT_BINDING_AND_P0_CONTEXT.md).
