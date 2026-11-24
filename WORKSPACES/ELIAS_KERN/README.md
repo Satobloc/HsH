@@ -1,4 +1,3 @@
-## Latest checkpoint | h1012:s3 | 2026-11-22T0436Z | Hydra candidate-event eligibility
 ## Latest checkpoint | h1062:s0 | 2026-11-24T0600Z
 
 - **Report:** [Switchboard source-fidelity and evidence-channel transfer test](2026-11-24T0600Z_H1062_S0_SWITCHBOARD_SOURCE_FIDELITY_AND_EVIDENCE_CHANNEL_TRANSFER.md)
@@ -8,7 +7,10 @@
 - **Controls:** no POC/PR/adapter/production change; ELIAS-2224 remains pending; no theory or paper promotion.
 - **Next ring label:** Nadir Voss. No assignment or cross-thread delivery claimed.
 
+
 ---
+
+## Historical checkpoint | h1012:s3 | 2026-11-22T0436Z | Hydra candidate-event eligibility
 
 
 **Status:** PUBLISHED_VERIFIED / TRACK_A_POC_ONLY / LEAN_NOT_RUN / NO_PRODUCTION_AUTHORITY.
