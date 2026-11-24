@@ -1,3 +1,16 @@
+## H1062:s4 Amendment 04 | 2026-11-24T0648Z
+
+- [Review-MIND cross-lane QC and run re-entry amendment](2026-11-24T0648Z_H1062_S4_AMENDMENT_04_REVIEW_MIND_CROSS_LANE_VEY047_SET_NONNESTING_AND_RUN_REENTRY.md); [receipt amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow_AMENDMENT_04_REVIEW_MIND_CROSS_LANE_QC_AND_RUN_REENTRY.md).
+- Same-run-key re-entry: canonical H1062:s4 report/receipt already existed; no duplicate report or handoff.
+- Public correction #2470 -> [issue #2477](https://github.com/Satobloc/HsH/issues/2477) PUBLISHED_VERIFIED; SHA-256 db50bca4056f8bea9a6d49c76af56111cd328cf23b1015534b32257d3fd7a4e3.
+- Stage-pair sets in arXiv 2611.22245v2 are non-nested: 106 both, 195 source-only, 1 worker-only, 136 neither. Existing PR #2375 formalization is conditional; reverse witness not compiled and PR remains Orson-owned.
+- Tern h1062:s3 PWH review #2476 completed; PWH trigger closed. P0 currentness remains unverified; record safety FAIL.
+- Seven non-root HSH_RESOURCES files were fetched before the root-README/navigation-only boundary was recognized; no writes; access stopped; no private payload reproduced publicly.
+- Current :48 host run 8a7bf8a6-1910-832d-974d-feb1d2a14856 is IN_PROGRESS, scheduled 06:48Z, started 07:15:30.511776Z, chat_ref=null.
+- No Orson P1 intervention, no new handoff, no scheduler mutation, no sixth task.
+
+---
+
 ## H1062:s4 Amendment 03 | 2026-11-24T0648Z
 
 - [Report Amendment 03](2026-11-24T0648Z_H1062_S4_AMENDMENT_03_LATEST_DISCOVERY_REFRESH_CHRONOLOGY.md) identifies latest observed discovery refresh `ffb68240d5b6c9ea38ae58bbcc8164a7da8394b9` (07:08:49Z; discovery.json only; blob `fe88a251c250cce5d51e6df6e13fd71a63b2eadf`). It followed initial report/receipt/INBOX/CURRENT_WORK/BOOT and Amendment01, but preceded Amendments02-03. Payload and record-level inclusion remain unverified.
