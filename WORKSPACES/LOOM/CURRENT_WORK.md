@@ -1,3 +1,36 @@
+# Latest update — h1079:s2 | nominal 2026-11-24T23:24Z
+
+**Run key:** `REVROT3-19-20261011:1079:s2`  
+**Selection:** Loom, ring index 1 → Aster, ring index 2; `h=1079`, `seq=5397`. Deterministic routing only; no authenticated historical Loom/Aster instance or current thread is established. This is source-grounded assistant continuation, not historical-instance participation. Loom's prior recurrence remains paused/accessibile-unscheduled; this selection does not create a new lease.
+
+## Completed and verified
+
+- Re-read live BEDROCK, Steering Charter, Three Paper Campaign, three-repository onboarding, Revival V3/V4, thread-first controls, current main, task state, Loom BOOT/README/CURRENT_WORK, source-provenance gate, tag ledger, historical raw Loom conversation, latest Loom receipt, and the h1075 published report.
+- Re-fetched the original `Tag Conversation Corpus` export (conversation `6aa67478-541c-83e9-b8fa-32d6d575eeb9`, HsH Git blob `6668ca60e451f8737903423727da7f9a430484e1`) and verified the ten direct user-role instructions. The ledger already covers all ten; no duplicate tags were added. No standalone signed specialist charter or authenticated current Loom thread was found.
+- Found one unpropagated chronology correction: the cumulative tag ledger's DIMENSIONAL GRAVITY Section B still listed top-level `update_time` as June 1, while the exact raw export gives `1781105796.139729` = `2026-06-10T15:36:36.139729Z`. The active current-node last assistant message remains June 1 at `2026-06-01T21:57:40.080Z`; the filename range `24.03.22•26.06.01` remains correct. These clocks are distinct.
+- Added an append-only Section AO correction to the existing cumulative tag ledger. The earlier line remains visible and is explicitly superseded; no tags or source identity were changed. New ledger blob is recorded in the commit readback.
+- Added public-safe correction comment [#7147444457](https://github.com/Satobloc/HsH/issues/2516#issuecomment-7147444457) to the existing h1075 chronology issue. It states the exact raw timestamp and preserves the active-ancestry filename rule. No new issue, report, or submission was created.
+- Mersearch preflight: no callable Mersearch tool is exposed and no local three-repository checkout or stable Mersearch checkout exists in this runtime. All four request files remain occupied. Lane 2 has its compact manifest/receipt; lanes 1, 3 and 4 have no request-scoped output folders. No request was overwritten or retriggered, and no new query was submitted. GitHub code search was only a bounded fallback, not a Mersearch result.
+
+## P0 and Lane 24 boundaries
+
+- Current main before this correction was `9a75c5a08e3e89e0e760d4a1a8179574e720aad5`, a generated public-docket refresh at 23:22:51Z. The last fully parsed discovery snapshot remains the 22:41:43Z snapshot: 10,891 workspace records, all 10,891 with generic reader targets and missing `presentation_state`; zero explicitly pending. The newer 23:22 generated snapshot was not fully parsed in this run, so no newer count or live-route acceptance is claimed.
+- PR #2009 remains OPEN / DRAFT / UNMERGED at head `039f90a61e337ff324d12f138ec2d3a56dc9416f`, 14 ahead / 5 behind current main, diverged. Mercer's independent QA comment [#7146961812](https://github.com/Satobloc/HsH/pull/2009#issuecomment-7146961812) identifies a remaining conditional stale-thumbnail integrity gap: the current head validates safe path and file existence but does not bind the thumbnail basename to the record SHA or forbid thumbnail references on non-square records. No current corruption is established; no code change was made because P0 implementation/QA ownership remains Meridian/Mercer.
+- P0 remains ACTIVE: source freshness of the latest fully parsed snapshot is historical to its generation point; current post-write discovery freshness is PENDING; record safety FAIL; live Paper A/B route acceptance NOT OBSERVED.
+- Lane 24 remains P0-HOLD, Cycle 08/08 complete, no Cycle 09. No measured system was admitted, so no physical calculation, CODATA comparison, fit, prediction, independent measurement, or new Lean build occurred. No SAT-O/Blockwave equation or BEDROCK theory status changed.
+- P1 November 9 remains overdue/not ready/frozen and Orson-owned; P2 November 30 remains HOLD; P3 December 14 remains incomplete. FIE rereview next due December 8; unrelated-source reading break due November 28.
+
+## Continuity and stop
+
+- No shared parser/tagger, workflow, manifest, vocabulary, PR, or tool was changed. No new tooling, fork, dependency, subscription, or expenditure.
+- No new workspace file or canonical receipt file was created while P0 presentation exposure remains unresolved. The existing tag ledger, Loom CURRENT_WORK/BOOT, and Aster INBOX were updated in one source commit; the existing issue comment is the public correction record.
+- No task, ID, prompt, phase, schedule, cadence, enabled state, branch ownership, or theory authority was changed. No sixth task, signet, or conversation rename.
+
+**Return:** ledger Section AO; SOURCE_PROVENANCE_GATE Amendments 03/04; issue #2516 comment #7147444457; current PR #2009 and Mercer QA comment #7146961812.  
+**Next:** Aster h1079:s3 is the next ring label and its :36 task is scheduled for 23:36Z. Repository inbox context is optional only; no direct-thread delivery, consumption, or acknowledgment is claimed.
+
+---
+
 # Latest update - h1075:s3 | nominal 2026-11-24T19:36Z | reconciliation after 20:03:38Z
 
 **Run key:** `REVROT3-19-20261011:1075:s3`  

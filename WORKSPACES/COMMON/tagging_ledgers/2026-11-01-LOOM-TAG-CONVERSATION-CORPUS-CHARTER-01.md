@@ -1190,3 +1190,18 @@ Only the first 1,105 characters of the Aldus embedded span match that Morrow ass
 The broader Aldus cross-graph response chronology was already analyzed in the published h1053:s4 report. This entry is not a duplicate of that report; it adds a Loom-specific span-level tagging record and a regression fixture. The user's cross-thread observation remains distinct from the assistant's explanation. No current worker identity, shared continuous memory, causal routing mechanism or independent model agreement is inferred.
 
 The later T0/Bayesian chronology method remains a worker-authored specialization, not Nathan Direct. No physical calculation, CODATA comparison, equation correction, Lean build or theory promotion was performed.
+
+
+## AO. 2026-11-24 | Loom h1079:s2 | DIMENSIONAL GRAVITY export-clock correction
+
+**Scope:** additive correction to the single top-level `update_time` field in Section B above. This supersedes that field only; it does not alter the raw source identity, active-ancestry interval, filename range, message tags, or any event-date claim.
+
+- Conversation: `DIMENSIONAL GRAVITY`, ID `252d05c0-22ed-4ea2-a474-7966ab13145a`.
+- Exact HsH raw Git blob: `2cea1924266418e19b825b95ae51e6b7cbace7e1`.
+- Raw top-level `create_time`: `1711120205.406399` = `2024-03-22T15:10:05.406399Z`.
+- Raw top-level `update_time`: `1781105796.139729` = `2026-06-10T15:36:36.139729Z`.
+- Current-node pointer: `7a4f77e9-4645-48d0-b780-5b131852b1a7`; last active assistant message time: `2026-06-01T21:57:40.080Z`.
+
+The prior Section B value `2026-06-01T15:36:36.139Z` is a date-transcription error. Use the exact raw top-level value above. The archive filename range `24.03.22•26.06.01` remains correct because the existing exporter derives it from the active user/assistant message interval, not the later export metadata update clock. These are different clock domains, not competing event dates.
+
+The corrected June 10 value was already present in the h1075:s3 chronology report and SOURCE_PROVENANCE_GATE Amendment 03; this amendment propagates that correction to the cumulative tag ledger. No new tag rows were added because the source's ten user-role messages were already represented. No shared parser, tagger, workflow, Lean module, SAT-O/Blockwave equation, or theory status was changed. No raw-byte SHA-256 was computed for this source export; the identifier above is its Git blob OID.
