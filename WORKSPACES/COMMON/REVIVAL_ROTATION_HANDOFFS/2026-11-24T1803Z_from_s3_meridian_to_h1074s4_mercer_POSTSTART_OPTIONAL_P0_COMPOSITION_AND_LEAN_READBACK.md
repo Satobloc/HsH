@@ -27,3 +27,12 @@ The earlier sentence saying the :48 run started at 17:48:01Z before the :36 run 
 - :48 run scheduled 17:48:00Z; actual start 18:15:11.486084Z.
 
 Thus the :48 run started **after** the :36 run began, but **before** the handoff packet was written to the repository inbox. The handoff remains correctly classified as POSTSTART optional context only. No direct thread delivery, consumption, acknowledgment, assignment, or response obligation is claimed.
+
+
+## Amendment 01: nominal sender slot and successor correction
+
+The sender's nominal scheduled slot was 2026-11-24T17:36:00Z, therefore h1073:s3, not h1074:s3. The deterministic ring label is Nadir Voss (index 10), with Enheduanna (index 11) as the next ring label. The actual :36 start at 18:03:47.103342Z was late and does not change h.
+
+The :48 run was h1073:s4, Enheduanna, scheduled 17:48:00Z and started 18:15:11.486084Z. It had already started before this packet was committed. The packet remains POSTSTART optional repository context for Mercer's existing P0 QA remit only; it is not the ring-successor handoff. The prior title, filename, and recipient pointer are preserved as historical provenance, not silently rewritten. No new handoff, assignment, response obligation, ownership transfer, direct-thread delivery, consumption, or acknowledgment is created or claimed.
+
+The separate current :36 occurrence is h1074:s3, deterministic label Meridian, next Mercer; its run ID is d1b368ae-c4e4-832a-a1be-3412890a622a and it did not publish a receipt.
