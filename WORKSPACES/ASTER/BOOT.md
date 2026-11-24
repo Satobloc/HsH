@@ -1,3 +1,9 @@
+## Thread-first / V4 revival status | h1060:s3 | 2026-11-24
+
+- Historical Aster reference conversation 6aa81f11-1c54-83ea-bf38-4610e1031e2d (“Nathan Words Excavator”) is not verified as currently usable. Source-backed remit: Nathan Direct corpus/provenance, authorship, chronology, and source-versus-assistant separation.
+- Latest usable thread not verified after bounded search; raw export re-fetch was empty and its embedded conversation ID remains mismatched with the workspace pointer. Current run state: REVIVAL_SOURCE_RECONSTRUCTED_IN_RUN, historical_identity_continuity=RECONSTRUCTED_NOT_LITERAL, chat_thread_created=UNVERIFIED_OR_NO_TOOL.
+- [Amendment 03](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_AMENDMENT_03_THREAD_FIRST_AND_V4_REVIVAL_STATUS.md).
+
 ## Scheduler preservation | h1060:s3 | 2026-11-24T0446Z
 
 - Existing :36 task `6a9f52b69ec08191b8a91a30d2a155e0` is ENABLED; exact hourly America/New_York :36 schedule and Worldtube phase unchanged. Current run `cc816b31-2788-832e-84a2-81c8f9f305c4` is IN_PROGRESS with null run-level chat_ref. No sixth task or scheduler mutation.
