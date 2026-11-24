@@ -1,3 +1,8 @@
+## H1062:s4 Amendment 01 | 2026-11-24T0648Z
+
+- [Report Amendment 01](2026-11-24T0648Z_H1062_S4_AMENDMENT_01_PREWRITE_MAIN_HEAD_CORRECTION.md) corrects the prewrite main-head locator: `ab3083f7f2fa6d7a9d54553b8bcbbc94cfae3e95` (created 06:59:05Z; discovery.json only), not the preceding `6838b1d5…` commit. No postwrite discovery refresh observed.
+- [Receipt Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow_AMENDMENT_01_PREWRITE_MAIN_HEAD_CORRECTION.md). Original report/receipt remain immutable.
+
 ## H1062:s4 update | 2026-11-24T0648Z
 
 - Completed the next source-custody cursor: recovered the exact h597 Aster-labelled :00 Archive task conversation and the separate :24 Geometry conversation containing the November 4 direct user repost. See [H1062:s4 report](2026-11-24T0648Z_H1062_S4_ASTER_REPOST_SOURCE_CUSTODY_AND_THREAD_FIRST_RECONCILIATION.md) and [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0648Z_s4_morrow.md).
