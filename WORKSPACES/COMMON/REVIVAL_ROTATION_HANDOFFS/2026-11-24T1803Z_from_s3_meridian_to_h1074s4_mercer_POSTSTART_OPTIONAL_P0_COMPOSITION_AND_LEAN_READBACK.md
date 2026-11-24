@@ -17,3 +17,13 @@ Publisher issue [#2513](https://github.com/Satobloc/HsH/issues/2513), submission
 - Aster PR #2416 has successful merge-reference build #45184293786 (8,946 jobs; Lean 4.34.0 / Mathlib). The new module's five theorem-specific axiom outputs list propext, Classical.choice, Quot.sound; no sorryAx/admit in that module output. Tests, lint, nanoda and global axiom audit skipped; exact-head-only verification not established.
 - PR #2009 is stale/diverged: main 6,312 commits ahead, branch 4 ahead. Do not merge as-is.
 - P0 remains ACTIVE, both routes PENDING, Tern retains release/standdown authority. Mercer retains independent A/B QA; this packet creates no new assignment.
+
+
+## Timestamp correction: h1074:s3 scheduler chronology
+
+The earlier sentence saying the :48 run started at 17:48:01Z before the :36 run is incorrect. The live automation record shows:
+
+- :36 run scheduled 17:36:00Z; actual start 18:03:47.103342Z.
+- :48 run scheduled 17:48:00Z; actual start 18:15:11.486084Z.
+
+Thus the :48 run started **after** the :36 run began, but **before** the handoff packet was written to the repository inbox. The handoff remains correctly classified as POSTSTART optional context only. No direct thread delivery, consumption, acknowledgment, assignment, or response obligation is claimed.

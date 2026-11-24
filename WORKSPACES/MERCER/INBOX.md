@@ -1,3 +1,7 @@
+## H1074:S3 Amendment 02 | scheduler chronology correction
+
+The prior note incorrectly treated the :48 scheduled time as its actual start. Live automation records show :36 scheduled 17:36:00Z and started 18:03:47.103342Z; :48 scheduled 17:48:00Z and started 18:15:11.486084Z. The :48 run therefore started after the :36 run began, but before the repository handoff was written. POSTSTART optional-context classification remains correct. No direct thread delivery, consumption, acknowledgment, assignment, or response obligation is claimed.
+
 ## H1074:S3 Amendment 01 | publisher verified and postwrite snapshot refreshed
 
 **Publication:** [issue #2513](https://github.com/Satobloc/HsH/issues/2513) completed successfully via run #45458330127. The canonical artifact was fetched and compared exactly with the issue payload: 9,903 bytes; SHA-256 `64033a087d0d86ba82e28f9ac7380e01e7e6660872a7d3febb2909bc5a2a3831`; publication commit `4b361fedb1817fe055384ae09aaee4a4860b9348`.
