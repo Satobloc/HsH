@@ -8,7 +8,7 @@
 
 ## Mission
 
-Reconstruct the historical SAT/H(s)H research-institution and publishing-workflow designs, assess them against current capabilities and the research landscape, compare genuinely different institutional architectures, then build the selected system incrementally. Do not design the destination before recovering the evidence.
+Study and adapt selected historical methodological exemplars (SAT-O, Activator Modes, Back Hallways, Star-Shaped Derivation Map, Constant Torquing, Loop Renormalization), while developing a useful, adaptive research/workflow scaffold and supporting the active project portfolio. This is not a mandate to reconstruct the entirety of historical workflow designs. Apply the experimental Key → Memory Credenza → Castle information architecture to navigation and documentation premises through rolling, evidence-led reconfiguration. See NATHAN_DIRECT_SCOPE_REBASELINE_2026-11-24.md.
 
 ## Minimal boot sequence
 
@@ -38,15 +38,7 @@ Once the prompt overlay is successfully installed, only the existing :00 Archive
 
 ## Current restart point
 
-The active historical-reading cursor is in the primary May 28, 2025 transcript:
-
-- Source: SAT_THEORY_ARCHIVE_2023-25 / FREEFORM DISCUSSION / ChatGPT_28MAY25_MEMORY.txt
-- Blob SHA: 3126a00cd02d715f7b53ea481b8cf60e7f9b6321
-- Total: 4,651 lines
-- Read: lines 1–200
-- Next: lines 201–400, sequentially, preserving speaker and turn boundaries.
-
-This is a bounded historical scout operation. After this chunk, update the queue from what the source actually reveals; do not silently skip the established cursor.
+The comprehensive May 2025 transcript cursor is historical context, not the mandatory active queue. Resume it only if a selected exemplar or unresolved source question requires it. The active next operation is **BP-EXEMPLAR-001 — Build the methodological exemplar map**, as defined in the scope rebaseline and WORK_QUEUE.md. Search for the named exemplars, preserve original-source locators and provenance, and select one high-leverage bounded deep review. Do not restart at transcript line 201 merely because an obsolete cursor says so.
 
 ## Truth conditions
 
