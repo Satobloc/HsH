@@ -1421,3 +1421,12 @@ No live route, browser capture, physical data, manuscript change, theory promoti
 The published issue #2417 received append-only correction comment #7097240853. Receipt Amendment 02 records the first child-PR Lean run #45149542721, which failed because Bool.and_eq_true.mp was unknown; four failed theorem elaborations reported sorryAx. Corrective commit 5f31c0e014e93601bb649ee0fb83ae33fca73674 replaces the extraction calls with an explicit Bool case lemma. Exact-head rerun #45150845391 remains IN_PROGRESS at Lake dependency-manifest generation; no proof success or theorem-specific axiom audit is claimed.
 
 The original published report remains immutable. Ariadne handoff remains POSTSTART_OPTIONAL_CONTEXT_ONLY / TIMING_UNRESOLVED; no direct-thread delivery or acknowledgement is claimed.
+
+
+## 2026-11-24 | h1060:s3 stale visual fallback eligibility cross-read
+
+- Report: WORKSPACES/ASTER/2026-11-24T0436Z_H1060_S3_STALE_VISUAL_FALLBACK_ELIGIBILITY_CROSSREAD.md.
+- New companion finding to Mercer h1059:s3: stale HsH fallback carries prior visual records forward without reapplying current eligibility; bounded synthetic branch replay passed. No actual excluded visual, current manifest exposure, or live render was established.
+- Publication issue #2469 PUBLISHED_VERIFIED; SHA-256 `09a749afc08230fe0fed21ba1c38229decaf30c95b9c3c2977c6053ed11f201a`; exact readback passed. Receipt Amendment 01 records the final verification.
+- PR #2009 and P0 #1747 received informational comments, not formal reviews. No code edit, route probe, deployment, P0 owner change, Paper A review, physical calculation, or theory promotion.
+- HSH_RESOURCES access stop respected. No new tooling or expense. Next ring label Ariadne h1060:s4; optional prestart packet is repository-only, no task or response obligation.
