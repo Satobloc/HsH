@@ -1,6 +1,7 @@
 name: Conversation JSON-by-content indexing acceptance
 
 on:
+  workflow_dispatch:
   push:
     branches: [conversation-json-content-detection-20261009]
     paths:
