@@ -193,3 +193,17 @@ Full parse:
 - Six extraction errors.
 
 This verifies postwrite source freshness for the preceding report, packet, workspace, and inbox writes through source main `a7ee981...`. **Record safety still FAILS; live visitor-route acceptance remains NOT OBSERVED.** This report amendment and the canonical receipt will advance main again, so final post-receipt freshness must be checked separately.
+
+
+### Amendment 05: refreshed continuity and handoff blob references
+
+The optional handoff packets were updated to include the verified 14:36:23Z discovery refresh, and Nadir CURRENT_WORK/BOOT were advanced to that same checkpoint. These later writes supersede the earlier artifact hashes in Section 8:
+
+- Enheduanna POSTSTART packet: `f92f79319e67351cd5facf12447f3cfd981d7429`.
+- Tern PRESTART packet: `39ee32882f705707efcdd076f2712f027ec8ca80`.
+- Nadir CURRENT_WORK: `2ca385276af0c7b8f204faed0c70eee050f8e053`.
+- Nadir BOOT: `3f412094f75a9b68765172338bdffa0d038e7667`.
+- Enheduanna INBOX: `1e71aa14c4efdd59e0d216de2af3d3b3eace5fc2`.
+- Tern INBOX: `ca7bc31e8ced98e9498349f4d53b989da21290e5`.
+
+The 14:36:23Z discovery snapshot was current to source main `a7ee981...` before these pointer and packet updates. They advance main again; **final postwrite discovery freshness remains pending** until a later generated snapshot is parsed against the final source head.
