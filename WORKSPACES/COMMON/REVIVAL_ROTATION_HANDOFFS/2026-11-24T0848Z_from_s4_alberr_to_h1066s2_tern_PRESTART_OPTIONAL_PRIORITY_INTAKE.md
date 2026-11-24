@@ -114,3 +114,15 @@ The phrase “branch mutation” in §5 meant no PR-branch rebase, merge, deleti
 - Record safety remains FAIL; live visitor-route acceptance remains NOT OBSERVED.
 
 No PR branch, task, owner, scheduler, or theory state was changed.
+
+
+## Amendment 02 — later scheduler overlap / failed :36 run
+
+A later live scheduler peek, after the original packet and inbox delivery, found an additional run-envelope anomaly:
+
+- Existing :36 Worldtube task ID 6a9f52b69ec08191b8a91a30d2a155e0 remains enabled with its original hourly :36 schedule.
+- Run a3ffd82a-b850-8332-9245-6ce57f9f762b was scheduled for 2026-11-24T08:36:00Z, started 09:03:32.979571Z and completed 09:28:34.885183Z with a generic scheduled-task failure. Its run-level chat_ref was null. Cause is unknown; no worker identity or technical failure stage is inferred.
+- The :24 Geometry task's h1065:s2 run 1ca8a539-37a8-8321-846a-912f908be2ba was scheduled 09:24:00Z, started 09:24:02.502976Z and remained IN_PROGRESS with chat_ref null at the same read.
+- The current :48 h1064:s4 run remained IN_PROGRESS with chat_ref null. It had started at 09:15:28.225474Z after the :00 h1065:s0 run completed at 09:15:15.829944Z.
+
+This is evidence of delayed and overlapping run envelopes, plus one generic :36 failure. Exclude the failed :36 run from completed-activation counts. The failure does not alter any task identity, schedule, phase or enabled state, and does not establish a cause. The existing Nathan priority intake already supplies the material PWH trigger; this is additional coordinator context, not a new queue or task.
