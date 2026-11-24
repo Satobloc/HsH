@@ -423,3 +423,181 @@ theorem diagonal_arms_do_not_identify_delivery_effect :
 #print axioms diagonal_arms_do_not_identify_delivery_effect
 
 end HsHVerification.OrsonFacilitationDesign
+
+
+namespace HsHVerification.OrsonEvidenceFlowAdmission
+
+open HsHVerification.OrsonEvidenceFlow
+
+/-!
+Admission gate for the identity keys used by the source-bounded evidence-flow
+model above.
+
+The existing readout functions compare DisclosureEvent.itemId with
+EvidenceItem.itemId. Therefore itemId must be unique within one EvidenceFlow,
+every event reference must resolve to a registered item, and eventId must
+identify one disclosure occurrence within that flow. Repeated disclosures of
+one item remain permitted when they have distinct event IDs.
+
+These are assistant-reconstructed schema invariants for this formalization.
+They are not a claim that the cited paper specifies this database schema,
+not source-log authentication, and not a P1 protocol amendment.
+-/
+
+/-- Semantic item keys must identify at most one registered item per flow. -/
+def uniqueItemIds (items : Finset EvidenceItem) : Prop :=
+  ∀ left ∈ items, ∀ right ∈ items,
+    left.itemId = right.itemId → left = right
+
+/-- Every disclosure event must refer to a registered evidence item. -/
+def eventReferencesResolve (flow : EvidenceFlow) : Prop :=
+  ∀ event ∈ flow.events,
+    ∃ item ∈ flow.items, item.itemId = event.itemId
+
+/-- Event keys identify occurrences, not the underlying semantic evidence item. -/
+def uniqueEventIds (events : Finset DisclosureEvent) : Prop :=
+  ∀ left ∈ events, ∀ right ∈ events,
+    left.eventId = right.eventId → left = right
+
+/-- Minimal admission predicate for a well-formed evidence-flow record. -/
+def validEvidenceFlow (flow : EvidenceFlow) : Prop :=
+  uniqueItemIds flow.items ∧
+  eventReferencesResolve flow ∧
+  uniqueEventIds flow.events
+
+/-- A registered item readout: raw event presence is not enough by itself. -/
+def admissibleItemPresence (flow : EvidenceFlow) (stage : FlowStage)
+    (item : EvidenceItem) : Prop :=
+  validEvidenceFlow flow ∧
+  item ∈ flow.items ∧
+  itemPresentAt flow stage item
+
+/-- A pair readout is admissible only after flow validity and endpoint
+    registration have been established. Distinct endpoints are required. -/
+def admissiblePairPresence (flow : EvidenceFlow) (stage : FlowStage)
+    (pair : EvidencePair) : Prop :=
+  validEvidenceFlow flow ∧
+  pair.left ∈ flow.items ∧
+  pair.right ∈ flow.items ∧
+  pair.left ≠ pair.right ∧
+  pairPresentAt flow stage pair
+
+theorem unique_item_ids_separate_distinct_items
+    (items : Finset EvidenceItem) (left right : EvidenceItem)
+    (hUnique : uniqueItemIds items)
+    (hLeft : left ∈ items) (hRight : right ∈ items)
+    (hDistinct : left ≠ right) :
+    left.itemId ≠ right.itemId := by
+  intro hIds
+  exact hDistinct (hUnique left hLeft right hRight hIds)
+
+theorem valid_flow_separates_distinct_pair_endpoints
+    (flow : EvidenceFlow) (pair : EvidencePair)
+    (hValid : validEvidenceFlow flow)
+    (hLeft : pair.left ∈ flow.items)
+    (hRight : pair.right ∈ flow.items)
+    (hDistinct : pair.left ≠ pair.right) :
+    pair.left.itemId ≠ pair.right.itemId :=
+  unique_item_ids_separate_distinct_items
+    flow.items pair.left pair.right hValid.1 hLeft hRight hDistinct
+
+theorem valid_flow_event_item_resolves
+    (flow : EvidenceFlow) (event : DisclosureEvent)
+    (hValid : validEvidenceFlow flow)
+    (hEvent : event ∈ flow.events) :
+    ∃ item ∈ flow.items, item.itemId = event.itemId :=
+  hValid.2.1 event hEvent
+
+theorem valid_flow_event_ids_are_unique
+    (flow : EvidenceFlow) (left right : DisclosureEvent)
+    (hValid : validEvidenceFlow flow)
+    (hLeft : left ∈ flow.events) (hRight : right ∈ flow.events)
+    (hIds : left.eventId = right.eventId) :
+    left = right :=
+  hValid.2.2 left hLeft right hRight hIds
+
+/-- Two distinct endpoint records with the same itemId expose an aliasing bug:
+    one event is counted as presence of both endpoints by the raw pair readout. -/
+def aliasLeft : EvidenceItem := ⟨77, {101}⟩
+def aliasRight : EvidenceItem := ⟨77, {202}⟩
+def aliasPair : EvidencePair := ⟨7, aliasLeft, aliasRight⟩
+def aliasEvent : DisclosureEvent :=
+  ⟨70, 77, .sourceReads, 10, none⟩
+
+def aliasFlow : EvidenceFlow where
+  items := {aliasLeft, aliasRight}
+  events := {aliasEvent}
+
+theorem alias_endpoints_are_distinct : aliasLeft ≠ aliasRight := by
+  decide
+
+theorem duplicate_semantic_ids_allow_one_event_to_satisfy_both_endpoints :
+    pairPresentAt aliasFlow .sourceReads aliasPair := by
+  decide
+
+theorem alias_flow_fails_unique_item_ids :
+    ¬ uniqueItemIds aliasFlow.items := by
+  intro h
+  have hEq : aliasLeft = aliasRight :=
+    h aliasLeft (by simp [aliasFlow]) aliasRight (by simp [aliasFlow]) rfl
+  exact alias_endpoints_are_distinct hEq
+
+theorem alias_flow_is_not_valid :
+    ¬ validEvidenceFlow aliasFlow := by
+  intro h
+  exact alias_flow_fails_unique_item_ids h.1
+
+theorem alias_pair_is_not_admissible :
+    ¬ admissiblePairPresence aliasFlow .sourceReads aliasPair := by
+  intro h
+  exact alias_flow_is_not_valid h.1
+
+/-- An orphan event can also make an unregistered item appear present under
+    the raw readout, because the current function does not consult flow.items. -/
+def orphanItem : EvidenceItem := ⟨99, {999}⟩
+def orphanEvent : DisclosureEvent :=
+  ⟨71, 99, .sourceReads, 11, none⟩
+
+def orphanFlow : EvidenceFlow where
+  items := {claimA}
+  events := {orphanEvent}
+
+theorem orphan_event_can_make_unregistered_item_appear :
+    itemPresentAt orphanFlow .sourceReads orphanItem := by
+  decide
+
+theorem orphan_flow_fails_referential_integrity :
+    ¬ eventReferencesResolve orphanFlow := by
+  decide
+
+theorem orphan_item_presence_is_not_admissible :
+    ¬ admissibleItemPresence orphanFlow .sourceReads orphanItem := by
+  intro h
+  exact orphan_flow_fails_referential_integrity h.1.2.1
+
+/-- Distinct event IDs still allow one semantic item to be disclosed more than
+    once; the gate does not collapse occurrence identity into item identity. -/
+theorem repeated_disclosure_flow_is_valid :
+    validEvidenceFlow repeatedDisclosureFlow := by
+  decide
+
+theorem repeated_disclosure_remains_admissible :
+    hasRepeatedDisclosure repeatedDisclosureFlow ∧
+      validEvidenceFlow repeatedDisclosureFlow := by
+  exact ⟨one_item_can_have_multiple_disclosure_events,
+    repeated_disclosure_flow_is_valid⟩
+
+#print axioms unique_item_ids_separate_distinct_items
+#print axioms valid_flow_separates_distinct_pair_endpoints
+#print axioms valid_flow_event_item_resolves
+#print axioms valid_flow_event_ids_are_unique
+#print axioms duplicate_semantic_ids_allow_one_event_to_satisfy_both_endpoints
+#print axioms alias_flow_is_not_valid
+#print axioms alias_pair_is_not_admissible
+#print axioms orphan_event_can_make_unregistered_item_appear
+#print axioms orphan_flow_fails_referential_integrity
+#print axioms orphan_item_presence_is_not_admissible
+#print axioms repeated_disclosure_flow_is_valid
+#print axioms repeated_disclosure_remains_admissible
+
+end HsHVerification.OrsonEvidenceFlowAdmission
