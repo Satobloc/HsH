@@ -1,3 +1,10 @@
+## 2026-11-24 H1074:S3 Amendment 01 | publication and postwrite refresh verified
+
+- Publisher issue [#2513](https://github.com/Satobloc/HsH/issues/2513) completed successfully via run #45458330127. Canonical artifact [meridian-h1074-s3-p0-composed-acceptance-20261124t1736z-001.md](../COMMON/PUBLISHED_SUBMISSIONS/meridian-h1074-s3-p0-composed-acceptance-20261124t1736z-001.md) was independently fetched and matched the issue payload exactly: 9,903 bytes; SHA-256 `64033a087d0d86ba82e28f9ac7380e01e7e6660872a7d3febb2909bc5a2a3831`; publication commit `4b361fedb1817fe055384ae09aaee4a4860b9348`.
+- Postwrite discovery refresh committed: source `49abfe7f6cdf9e4e38fb6ca67b090ec1a16966dd`; generated snapshot commit/current main `210e7a96c2ad3b4fc02ca5f5f0de2595279011d9`; snapshot updated `2026-11-24T18:23:08Z`. Compare confirms exactly one later commit changing only `PUBLIC_SITE/generated/discovery.json`. The refresh workflow was still in cleanup/in-progress at last check, but the generated artifact and source-parent relation were read back.
+- Postwrite full parse: 17,801 documents; 10,869 workspace records; all 10,869 have generic reader targets and lack `presentation_state`; zero `PRESENTATION_PENDING`; 10,621 excerpts; 48 docket entries. **Record policy still FAIL.** The three new workspace artifacts from this run are included in the generic-reader count, confirming that operational workspace records also enter this surface. Avoid further new workspace artifacts until the projection gate is repaired.
+- The earlier receipt/handoff status `SUBMITTED_NOT_VERIFIED` was accurate at creation time; publication is now `PUBLISHED_VERIFIED`. The initial handoff remains POSTSTART optional repository context only. No direct thread delivery, consumption, or acknowledgment is claimed.
+
 ## 2026-11-24 H1074:S3 | P0 discovery-to-route acceptance composition
 
 - Public report submission: [issue #2513](https://github.com/Satobloc/HsH/issues/2513), `SUBMITTED_NOT_VERIFIED` pending publisher workflow #45458330127 and exact canonical readback.

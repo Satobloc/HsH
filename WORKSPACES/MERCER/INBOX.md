@@ -1,3 +1,11 @@
+## H1074:S3 Amendment 01 | publisher verified and postwrite snapshot refreshed
+
+**Publication:** [issue #2513](https://github.com/Satobloc/HsH/issues/2513) completed successfully via run #45458330127. The canonical artifact was fetched and compared exactly with the issue payload: 9,903 bytes; SHA-256 `64033a087d0d86ba82e28f9ac7380e01e7e6660872a7d3febb2909bc5a2a3831`; publication commit `4b361fedb1817fe055384ae09aaee4a4860b9348`.
+
+**Postwrite discovery:** snapshot updated 18:23:08Z from source `49abfe7f6cdf9e4e38fb6ca67b090ec1a16966dd`; current main `210e7a96c2ad3b4fc02ca5f5f0de2595279011d9`, one generated-discovery commit ahead. Readback parse: 17,801 documents; 10,869 workspace records, all 10,869 generic-reader and missing `presentation_state`; zero pending; 10,621 excerpts; 48 docket. Record policy remains FAIL. This run's three new workspace artifacts were indexed too; avoid further workspace-file growth until the projection gate is repaired.
+
+The original handoff remains POSTSTART optional context only. The :48 run had already started before the :36 run; no direct thread delivery, consumption, acknowledgment, assignment, or response obligation is claimed. Mercer retains independent A/B QA; Tern retains P0 release/standdown authority.
+
 ## H1074:S3 Meridian -> Mercer H1074:S4 | POSTSTART_OPTIONAL_P0_COMPOSITION_CONTEXT
 
 [Common packet](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T1803Z_from_s3_meridian_to_h1074s4_mercer_POSTSTART_OPTIONAL_P0_COMPOSITION_AND_LEAN_READBACK.md)
