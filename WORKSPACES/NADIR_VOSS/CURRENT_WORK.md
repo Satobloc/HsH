@@ -1,3 +1,25 @@
+## Latest checkpoint | h1058:s2 | 2026-11-24T02:24Z | P0 full-payload verification / Lane 24 hold
+
+**Status:** SOURCE-GROUNDED CONTROL-PLANE / P0 SNAPSHOT FRESH PREWRITE / RECORD SAFETY FAIL / LANE24 CYCLE08 COMPLETE-HOLD / LATERAL READING COMPLETE / NO PHYSICAL CALCULATION / NO THEORY PROMOTION.
+
+- Canonical receipt: [h1058:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0224Z_s2_nadir_voss.md).
+- Routing: h=1058; seq=5292; ring index 10 = Nadir Voss; next index 11 = Enheduanna. Routing label only; not authenticated historical instance/thread.
+- Historical source: “Quantum Gravity and Experiments,” conversation `6a3a2037-3698-83ea-924d-2cb8c4ac7701`, blob `d828fef5352045cb4d9486fdbeabd04043c4c119`, eight user-role messages, last 2026-10-01T21:20:56Z. No Nadir label or standalone signed Nathan-authored Nadir charter. The broad October 1 sandbox authorization does not override the current no-data-free-calculation gate.
+- Live controls read: BEDROCK blob `2629ab29a5838d933c31727455553d206577a258`; Steering Charter blob `9e6a3615f3b83e0ab8a6c530dc2613d3d4693d89`; Three-Manuscript Campaign blob `2b48868a4d9cb5d68fcba7d5a65699d498d0e3e4`; current onboarding, revival/thread-first and scheduler controls; Nadir README/BOOT/CURRENT_WORK/INBOX and regeneration prompt.
+- Lane 24 remains `P0-HOLD / CYCLE 08/08 COMPLETE / BACKSEAT`. No Cycle 09. No physical calculation, CODATA comparison, fit, prediction, new Lean build, system selection, equation retrieval/correction, paper advancement or theory promotion.
+- Mersearch: no callable action. Four canonical lanes remain occupied; global request file names Calder's lane-1 request while a prior lane-1 receipt has a different identity. No new request, overwrite, release or retrigger. GitHub search is not Mersearch. No private HSH_RESOURCES payload.
+- Nadir PR #1189 remains OPEN / DRAFT / UNMERGED, head `9e563ee330c8bdbdcf16f746eb1baff931751677`, 151 ahead / 27,688 behind, no independent review. Existing exact-head Lean run #45284099363 passed; tests/lint/leanchecker/nanoda/global axiom audit skipped. No rebase/merge/new build.
+- P0 prewrite snapshot: main `4796be0294f7f99496f507b5b5a5bb27e01a0efe`, embedded HsH source `fe78e24baaa820c8a3e8a5331d5984c302a37f2c`, discovery blob `644541dca81d54a126f7a5f9a41e186dfb24db5d`. Complete payload: 17,615 total documents; 10,683 workspace records, 10,683 generic readers, 10,438 excerpts, 10,683 missing presentation_state, 0 PRESENTATION_PENDING, 48/48 docket entries from workspaces, 6 extraction errors, 577 visuals / 417 square. Freshness PASS at 02:10:44Z; record safety FAIL.
+- P0 generator remains blob `97ff9c6d00544251c05bd6bb6053907805438f3e`; stale fallback, generic workspace readers and workspace docket inclusion remain. PR #2009 head `f638cb3ce94006609b4ba3f7c6e2c5724048c45d`, 4 ahead / 5,724 behind, diverged, no exact-head Actions. Existing targeted replay #7098389012 was 5/5 + py_compile, not CI/full suite.
+- The continuity writes and final Enheduanna inbox append advance main; postwrite discovery freshness is pending until a later generated snapshot is independently parsed. Tern retains P0 standdown, Meridian implementation, Mercer independent A/B QA.
+- PWH: Aster h1056:s4 prestart packet says five-product deep-review trigger is due to Tern h1058:s4. Tern owns queue/graph; no duplicate review or mutation.
+- FIE last full rereview 2026-11-20, next due 2026-12-04. No premature rereview.
+- Lateral reading completed: Nicholson, *A Manual of the Art of Bookbinding* (1878), Gutenberg #55056; lines 71–83, 126–250, 272–295, 1977–1978. Return cursor line 296 in “Sheet Work.” Source and exact extent recorded in WORKER_FRESHNESS_BREAK_CADENCE.md. No physical movement break claimed.
+- Scheduler :24 task `6abda4c8eda88191bf23a6f2849e9a17` remains enabled, exact hourly America/New_York :24 DTSTART and Geometry phase. Current run `6e8e20c3-49c8-8324-8041-647455eb7d79` started 02:24:01.637Z, IN_PROGRESS, completion/chat_ref null. No task mutation or sixth task.
+- Next label Enheduanna h1058:s3. Existing active thread not found; the known 2025 roleplay is not a current route. Final optional repository inbox entry is planned, no assignment or response obligation.
+
+---
+
 ## Latest checkpoint | h1054:s3 | 2026-11-23T22:36Z | Lane 36 paired-sample identity gate; same-key reconciliation
 
 **Status:** DUPLICATE_RUN_KEY_RECONCILED / REPORT_PUBLISHED_VERIFIED / EXACT_HEAD_LEAN_PASS / NO_RAW_DATA / NO_PHYSICAL_RESULT / NO_THEORY_PROMOTION.
