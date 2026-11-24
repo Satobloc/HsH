@@ -4,7 +4,7 @@
 
 **Last interactive Big Push touch:** 2026-11-24T02:53:56-05:00 (America/New_York; 2026-11-24T07:53:56Z)  
 **Updated by:** Current interactive assistant session, implementing Nathan's 2026-11-24 scope rebaseline and restarting the Big Push.  
-**Touch type:** Human-directed continuity check after a scheduled :24 relay failure; project restart point reconfirmed.
+**Touch type:** Substantive human-directed scope rebaseline; stale exhaustive-history gate retired and BP-EXEMPLAR-001 opened. No exemplar research operation has yet been completed.
 
 ## Rules
 
