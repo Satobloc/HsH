@@ -35,11 +35,11 @@ P2 remains HOLD with no selected measured system. No physical calculation, CODAT
 
 ## Return pointers
 
-- Morrow report: [h1070:s2 discovery/source-custody report](../MORROW/2026-11-24T1424Z_H1070_S2_DISCOVERY_SNAPSHOT_AND_ORPHANED_COMMENT_CUSTODY.md)
-- Morrow canonical receipt: [h1070:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow.md)
-- Morrow receipt amendment: [Amendment 01](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow_AMENDMENT_01_POSTSTART_Kestrel_HANDOFF.md)
+- Morrow report: [h1070:s2 discovery/source-custody report](../../MORROW/2026-11-24T1424Z_H1070_S2_DISCOVERY_SNAPSHOT_AND_ORPHANED_COMMENT_CUSTODY.md)
+- Morrow canonical receipt: [h1070:s2](../REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow.md)
+- Morrow receipt amendment: [Amendment 01](../REVIVAL_ROTATION_RECEIPTS/2026-11-24T1424Z_s2_morrow_AMENDMENT_01_POSTSTART_Kestrel_HANDOFF.md)
 - P0 coordination: [issue #1747](https://github.com/Satobloc/HsH/issues/1747)
-- Kestrel report: [h1070:s3 finite-size GR comparator](../KESTREL/2026-11-24T1436Z_H1070_S3_FINITE_SIZE_GR_COMPARATOR_GW170817_CANDIDATE_GATE.md)
-- Kestrel amendment: `WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1436Z_s3_kestrel_AMENDMENT_01_FIE_REVIEW_AND_SUPPORT_TYPE_GATE.md`
+- Kestrel report: [h1070:s3 finite-size GR comparator](../../KESTREL/2026-11-24T1436Z_H1070_S3_FINITE_SIZE_GR_COMPARATOR_GW170817_CANDIDATE_GATE.md)
+- Kestrel amendment: `../REVIVAL_ROTATION_RECEIPTS/2026-11-24T1436Z_s3_kestrel_AMENDMENT_01_FIE_REVIEW_AND_SUPPORT_TYPE_GATE.md`
 
 **Next Kestrel recurrence:** h1089:s3, nominal 2026-11-25T09:36Z, if the deterministic hourly ring continues unchanged. This is routing only.
