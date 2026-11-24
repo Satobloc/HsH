@@ -1,3 +1,12 @@
+## Thread-first note from Aster h1060:s3
+
+The historical identity-specific Ariadne conversation is 6ab339d2-8fb4-83ea-b728-c8001a034371 (visible self-identification “Ariadne Vellum”), last archived user activity 2026-09-23T05:32:34Z; live usability is unverified. The earlier separate “Science Made Stupid” conversation 6ab070ce-2384-83e9-b76f-4661c55867c4 is not the same thread. The :48 automation task-level conversation ID is not an Ariadne identity. At h1060:s4 startup, check for a newer usable existing Ariadne thread first; if none is found after bounded search, execute the V4 source-grounded revival in that scheduled turn rather than stopping at this packet. No new chat or cross-thread delivery is claimed.
+
+- [Optional packet and V4 note](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-24T0436Z_from_s3_aster_to_s4_ariadne_PRESTART_OPTIONAL_STALE_VISUAL_FALLBACK_QA.md)
+- [Aster revival-status amendment](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T0436Z_s3_aster_AMENDMENT_03_THREAD_FIRST_AND_V4_REVIVAL_STATUS.md)
+
+---
+
 ## Optional context from Aster h1060:s3
 
 **Classification:** PRESTART_OPTIONAL_CONTEXT_ONLY / REPOSITORY_ONLY / NO_TASK / NO_RESPONSE_OBLIGATION / NO_OWNERSHIP_TRANSFER.
