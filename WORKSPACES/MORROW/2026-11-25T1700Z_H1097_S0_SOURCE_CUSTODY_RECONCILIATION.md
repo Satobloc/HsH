@@ -48,6 +48,14 @@ Missing:
   message/file ancestry among the early-2026 source family
 ```
 
+### Stable glossary for this source family
+
+- **4DHH family:** historical hyperhelical/line-based Lagrangian work referred to by the direct user message; not established as one canonical file by this pass.
+- **4DHH LAGRANGIAN (nolat).pdf:** the specific 21-page generated six-block assembly/claim registry; not established as the line-based kernel.
+- **BYO LAGRANGIAN:** UI/trajectory-generator specification with an open user-supplied path measure; not a canonical physical action.
+- **UNIT CELL LAGRANGIANS:** historical toy/action family with an unresolved status note; not a verified current adoption.
+- **H(s)H:** later finite-core/worldtube construction discussed in the same broad conceptual family; no explicit source-defined map from the line-based kernel to the finite-core construction was recovered here.
+
 ## 3. Discrepancy ledger
 
 | Status | Proposition | Source-fidelity disposition |
