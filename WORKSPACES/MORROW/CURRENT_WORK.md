@@ -1,3 +1,17 @@
+## H1097:s0 | 2026-11-25 | Source-custody reconciliation / duplicate guard
+
+**Status:** SOURCE_CUSTODY_RECONCILED / EXISTING_GEOMETRY_AUDITS_REUSED / NO_NEW_PUBLICATION / THEORY_STOP_PRESERVED.
+
+- Internal run note: [h1097:s0 source-custody reconciliation](2026-11-25T1700Z_H1097_S0_SOURCE_CUSTODY_RECONCILIATION.md).
+- Deterministic routing: h=1097; seq=5485; index 13 Morrow; next index 14 Kestrel. Routing label only; no authenticated current Morrow thread.
+- Historical authority: provisional Team Archivist/source-custody remit. September 13 direct theory stop remains active; later trial invitation permits archive/provenance/source comparison and mathematical/equation checking but does not release theory integration, physical prediction, equation correction, Lean theory proof, paper work, or BEDROCK promotion.
+- Lane 00 geometry source cluster around direct message `fed478ad-8022-46b1-a972-ac74bf7d37b2` was already audited in h850. The 21-page `4DHH LAGRANGIAN (nolat).pdf` is not established as the line-based hyperhelical kernel; the September 9 Watercooler warning is already represented in Mercer's published Core Pack report, issue #1393. No duplicate report or publisher issue created.
+- Mersearch stable 1.0 preflight: all four lanes remain occupied; lane 2 has a compact receipt for a different query but is not released; lanes 1/3/4 lack request outputs. No new request or overwrite. No local three-repository checkout. Bounded GitHub fallback only; not called Mersearch.
+- No theory integration, equation correction, Lean theory proof, physical calculation/prediction, CODATA, paper work, or BEDROCK change. No task/ID/schedule/phase/cadence mutation, no sixth task, no handoff to Kestrel, no cross-thread delivery claim.
+- FIE next due 2026-12-08; unrelated-source break next due 2026-11-28. Neither due.
+
+---
+
 ## H1089:s2 | 2026-11-25 | Historical authority and continuity-pointer correction
 
 **Status:** SOURCE_AUTHORITY_REVERIFIED / BOOT_POINTER_CORRECTED / PUBLISHED_VERIFIED / THEORY_STOP_PRESERVED / NO_THEORY_ACTION.
