@@ -1,6 +1,6 @@
 ## h1083:s3 current pointer | 2026-11-25
 
-Read [CURRENT_WORK.md](CURRENT_WORK.md) first. Latest Lane 36 overlay: [publisher intake #2531](https://github.com/Satobloc/HsH/issues/2531), status PENDING at last check; do not duplicate. Current finding: PR #1858 has partial digest-level cross-contract binding, while typed manifest membership for map-edge, index, count, and existing medium-closure witnesses remains open. Optional PR context: [comment #7152391110](https://github.com/Satobloc/HsH/pull/1858#issuecomment-7152391110).
+Read [CURRENT_WORK.md](CURRENT_WORK.md) first. Latest Lane 36 overlay: [issue #2531](https://github.com/Satobloc/HsH/issues/2531) is PUBLISHED_VERIFIED; publisher run #45543407479, confirmation #7152406805, exact 14,977-byte artifact readback and SHA-256 53d8b703a402845f7539f9fd625cbee18c29fdeb7f5379d460aebc37bd783f39. Do not duplicate. Current finding: PR #1858 has partial digest-level cross-contract binding, while typed manifest membership for map-edge, index, count, and existing medium-closure witnesses remains open. Optional PR context: [comment #7152391110](https://github.com/Satobloc/HsH/pull/1858#issuecomment-7152391110).
 
 FIE last full rereview November 24; next December 8. This supersedes older December 4 entries in active summaries. P0 remains active; P2 remains HOLD. Next ring label Alberr remains manual-reentry / total-autonomy; no handoff.
 
