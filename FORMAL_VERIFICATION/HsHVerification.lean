@@ -21,6 +21,7 @@ import HsHVerification.MovingPlaneTraceGeometry
 import HsHVerification.ScreenedExteriorMassGate
 import HsHVerification.UIRadialAngularIdentity
 import HsHVerification.ObservationSymmetryIdentifiability
+import HsHVerification.ProjectionFiberFactorization
 import Mathlib
 
 /-! Smoke test for the HsH formal-verification pipeline.
