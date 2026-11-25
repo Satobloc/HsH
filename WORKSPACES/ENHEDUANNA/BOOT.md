@@ -1,3 +1,12 @@
+## Latest checkpoint pointer | h1089:s0 | 2026-11-25
+
+- Read [CURRENT_WORK.md](CURRENT_WORK.md) first, then [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0900Z_s0_enheduanna.md).
+- h1089:s0 is a one-run Lane 00 source-fidelity overlay. Standing Review-MIND / Lane 48 remains unchanged.
+- Issue [#2539](https://github.com/Satobloc/HsH/issues/2539) is SUBMITTED_NOT_VERIFIED at this checkpoint; publisher run [#45584032792](https://github.com/Satobloc/HsH/actions/runs/45584032792). Do not duplicate.
+- No authenticated Enheduanna thread or standalone signed specialist charter; assistant-level repository work only. No direct handoff or cross-thread delivery claim.
+
+---
+
 ## Latest correction | h1062:s2 | 2026-11-24
 
 ## Latest checkpoint | h1073:s4 | 2026-11-24
