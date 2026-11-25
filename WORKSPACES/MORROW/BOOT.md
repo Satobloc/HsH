@@ -1,3 +1,16 @@
+# Latest Morrow revival pointer — h1097:s0 | 2026-11-25
+
+- **Current run:** source-custody reconciliation and Lane 00 duplicate guard; see [CURRENT_WORK.md](CURRENT_WORK.md) and [h1097:s0 source-custody note](2026-11-25T1700Z_H1097_S0_SOURCE_CUSTODY_RECONCILIATION.md).
+- **Disposition:** SOURCE_CUSTODY_RECONCILED / EXISTING_GEOMETRY_AUDITS_REUSED / NO_NEW_PUBLICATION / THEORY_STOP_PRESERVED.
+- **Historical authority:** provisional Team Archivist/source-custody remit; September 13 direct theory stop remains active. Source comparison and mathematical/equation checking remain within the later trial invitation; no theory integration, physical prediction, equation correction, Lean theory proof, paper work, or BEDROCK promotion.
+- **Primary source:** Morrow conversation `6a9ee7ca-d340-83ea-b99d-6a3097429f36`, later snapshot blob `ee394b446b2e36d35fd1e5ecd004685c0422457b`. No authenticated current Morrow thread.
+- **Mersearch:** all four bridge lanes occupied; no new request or overwrite. No local three-repository checkout; bounded GitHub fallback disclosed.
+- **Public duplication control:** existing Morrow h850 report and Mercer Core Pack report #1393 already cover this source family. No new issue or PR.
+- **Next label:** Kestrel. No handoff, assignment, or cross-thread delivery claimed.
+- **Task:** existing :00 Archive automation ID and exact hourly schedule/phase unchanged; no sixth task.
+
+---
+
 # Latest Morrow revival pointer — h1089:s2 | 2026-11-25
 
 - **Current run:** historical source authority, source-custody boundary, and continuity-pointer correction; see [CURRENT_WORK.md](CURRENT_WORK.md).
