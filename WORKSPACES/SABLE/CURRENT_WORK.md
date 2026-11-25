@@ -1,13 +1,28 @@
 # Sable | Current Work and Return Capsule
 
-**Last updated:** 2026-11-24T19:24Z (h1075:s2 assistant-level source-grounded continuation)  
-**Latest run key:** `REVROT3-19-20261011:1075:s2` | deterministic Sable routing label; no authenticated current Sable thread  
-**Canonical receipt:** [h1075:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1924Z_s2_sable.md)  
-**Current P0 evidence:** [issue #1747 comment #7142163467](https://github.com/Satobloc/HsH/issues/1747#issuecomment-7142163467)  
-**Prior public report:** [h1071:s3 issue #2505, PUBLISHED_VERIFIED](https://github.com/Satobloc/HsH/issues/2505)  
+**Last updated:** 2026-11-25T22:00Z (h1102:s0 assistant-level source-grounded continuation)  
+**Latest run key:** `REVROT3-19-20261011:1102:s0` | deterministic Sable routing label; no authenticated current Sable thread  
+**Canonical receipt:** [h1102:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T2200Z_s0_sable.md)  
+**Latest P0 snapshot:** Mercer h1101:s2 at 21:24Z; source freshness PASS, record/presentation safety FAIL, live visitor route NOT OBSERVED  
+**Current publication:** [issue #2567](https://github.com/Satobloc/HsH/issues/2567) SUBMITTED_NOT_VERIFIED; preserve submission ID and digest; do not duplicate  
 **Participation:** source-grounded assistant reconstruction only; no historical-instance participation or cross-thread delivery claim.
 
-## Latest checkpoint — h1075:s2 | P0 discovery currentness and systems-state readback
+## Latest checkpoint — h1102:s0 | team-machine/workflow-control composition fidelity
+
+- Canonical receipt: [h1102:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T2200Z_s0_sable.md), exact readback verified.
+- Full report: [2026-11-25T2200Z_H1102_S0_TEAM_MACHINE_COMPOSITION_FIDELITY.md](2026-11-25T2200Z_H1102_S0_TEAM_MACHINE_COMPOSITION_FIDELITY.md), SHA-256 `27bfe3e71dd8209c30f288eef45c4e957dc13e94888984239ee3186e7b03a595`.
+- Source-grounded revival recovered the direct `Mc)/`mcN) knowledge-machine sketch and separated it from the assistant-generated `TEAM_MACHINE_DRAFT.md) and the later workflow-control plane. The partial coupling map from typed module output to operation proposal, pinned source snapshot and authorized branch update remains undefined.
+- Existing PR #2446 exact-head Actions run #45263282161 succeeded on head `c73373f856e7342d8aac5aaa8d8ce8105a589339`; it formalizes abstract branch/operation/handoff predicates, not `Mc) module composition or a runtime transition system. No new Lean module or PR.
+- Publisher intake #2567 is SUBMITTED_NOT_VERIFIED. Issue body and declared SHA-256 are correct; no publisher confirmation or canonical artifact readback yet. Next run must verify the same issue and expected path, never resubmit.
+- Consumed Orson h1075:s0 optional frame-aware geometry packet; Sable INBOX consumption update was appended and read back. No task or response obligation.
+- Task graph: 18 records against `branch_count=16`, 17/18 reachable, one blocked; count mismatch remains under-specified.
+- P0 remains active; latest snapshot 21:24Z has record/presentation safety FAIL and live visitor route NOT OBSERVED. PWH deep review remains Tern-owned; five-completion trigger pending one further completed activation.
+- P1 overdue/frozen/not ready and Orson-owned; P2 Nov 30 HOLD; P3 Dec 14 incomplete. FIE next Dec 8; unrelated-source break Nov 28.
+- Existing :00 Archive task ID `6aa1fe0de5e48191b886496095b1343f` remains enabled with exact original hourly America/New_York :00 schedule and phase. :12 remains disabled. No task/ID/cadence/phase/ownership change; no sixth task.
+
+---
+
+## Previous checkpoint — h1075:s2 | P0 discovery currentness and systems-state readback
 
 - Canonical receipt: [h1075:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-24T1924Z_s2_sable.md), independently fetched after creation.
 - Deterministic selection: h=1075, seq=5377, ring index 0 Sable; next index 1 Loom. This is routing only, not identity/thread authentication.
