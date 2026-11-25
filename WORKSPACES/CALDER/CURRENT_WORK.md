@@ -1,3 +1,9 @@
+# PUBLISHER READBACK VERIFIED | h1080:s3 | 2026-11-25T00:51:46Z
+
+Report #2524 is PUBLISHED_VERIFIED. Canonical artifact is WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/calder-h1080-s3-evidence-lineage-p0-thumbnail-binding-20261125t0036z-001.md, commit c9405a7574d4dffb133b5ed148097090c3fba99f, SHA-256 03bca4dd27efa09f95d555ba35b1c7b0fcb9c0cd76f6e2a1092302719256a5ac. Independent content readback exactly matches the issue payload. Earlier SUBMITTED_NOT_VERIFIED checkpoint is superseded by this amendment.
+
+---
+
 # CURRENT CHECKPOINT | h1080:s3 | 2026-11-25
 
 The latest Calder relay is recorded in [receipt h1080:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0036Z_s3_calder.md) and [publisher intake #2524](https://github.com/Satobloc/HsH/issues/2524). Publisher status was SUBMITTED_NOT_VERIFIED at receipt creation; do not claim publication until canonical artifact readback.
