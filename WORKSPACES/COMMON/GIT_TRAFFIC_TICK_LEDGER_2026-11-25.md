@@ -90,4 +90,36 @@ After GTT-01:
 
 No operation in this ticker has been completed yet. Earlier GTT-01 work remains valid: the thread is already oriented and the initial observation tranche is catalogued. This ticker covers the **next bounded execution sequence**, not a claim that all prior GTT-01 work is undone.
 
+
+## GTT-01.A live source-inventory checkpoint — 2026-11-25
+
+**State:** IN PROGRESS. The live cursor remains at `@⌕ᵃ`; this is a partial inventory, not Tick completion.
+
+### Enumerated source collections
+
+| Storage repository / path | Listing result | Traffic-relevant inventory notes |
+|---|---:|---|
+| `Satobloc/HSH_RESOURCES/EXPOSURE_STATS/` | 176 entries returned | Root contains the working source index, multiple individual clone/unique-cloner CSV families, explicit TXT traffic captures, screenshot/OCR indices, and nested statistical collections. |
+| `EXPOSURE_STATS/_SAT  Satobloc GitHubStats/` | 120 entries returned | Includes multiple numbered single-repository clone and unique-cloner CSVs; `HSH_gitclones.txt`; `HSH_repo_stats.txt`; `HSH_REPO stats 7nov26.txt`; `HSH_TRAFFIC_23SEP26.txt`; SAT traffic records; and screenshot/analysis context. |
+| `EXPOSURE_STATS/HISTORICAL/` | 57 entries returned | Includes `HSH_REPO stats 7nov26.txt`, clone and unique-cloner CSVs, `ghub.txt`, and duplicate-path copies of known material. |
+| `EXPOSURE_STATS/EXP_ANALYSIS/` | 21 entries returned | Includes `CONCAT_FULL_GIT_STATS.txt`, a concatenated TXT source, blob `af70059ee57f5677d68fbc95a92a330dd5b8bcdd`. It is a TXT composite, not a CSV export. |
+| `Satobloc/HsH/DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP/` | 1,000 entries returned | Response is at the 1,000-entry ceiling and may be truncated. It exposes candidate clone/unique-cloner CSVs, `gt.txt`, `gtss.txt`, and repeated copies of Resources material. Full inventory remains unresolved. |
+| `Satobloc/SAT_THEORY_ARCHIVE_2023-25/2026/SAT  Satobloc GitHubStats/` | 6 entries returned | Contains one-repository clone, unique-cloner, views and unique-visitor CSVs; individual file identities overlap with other stored copies. |
+| `Satobloc/SAT_THEORY_ARCHIVE_2023-25/PRE_HSH_ROUNDUP/` | 8 entries returned | Includes `github rep.txt`, blob `f83a1ed760251dd1bcebfd2bdc64f0b6e4d94d2c`, a historical candidate requiring source inspection. |
+
+### Newly surfaced candidate captures
+
+- **`EXPOSURE_STATS/_SAT  Satobloc GitHubStats/HSH_gitclones.txt`**, blob `bcd3484ea688012a87e4697f832145382e1dbc71`: the capture page explicitly identifies `Insights: Satobloc/HsH` and reports 7,090 clones and 1,136 unique cloners in the last 14 days. The surrounding page also shows a September 9–16, 2026 activity interval for a separate Insights view; that interval is not yet established as the clone chart's precise observation window. Keep this as a direct-capture candidate pending timing and CSV linkage.
+- **`EXPOSURE_STATS/_SAT  Satobloc GitHubStats/9.8.26 -- GITSTATS.txt`**, blob `45daaab1ce989072b895d3cc8824d96da89bbb89`: contains separately rendered Traffic sections identifying `Satobloc/SAT_THEORY_ARCHIVE_2023-25` (698 clones / 149 unique cloners) and `Satobloc/HsH` (287 clones / 146 unique cloners). Exact dashboard windows/capture time and corresponding single-repository CSV matches remain to be established. Do not combine the two sections.
+- Cross-repository copies of `HSH_TRAFFIC_23SEP26.txt`, `SAT_TRAFFIC_23SEP26.txt`, `JOINT STATS.txt`, and `CONCAT_FULL_GIT_STATS.txt` appear under more than one path. The same blob SHA means duplicate file content, not additional observations.
+- The existing 119,670 HsH observation remains the identified single-repository CSV `Clones in last 14 days (5).csv`, blob `7761926459f437a06f2f6bc7eb10fa85e9914560`, covering 2026-11-10–2026-11-23. Its paired `Unique cloners in last 14 days (5).csv`, blob `8bebccc6ff6c1e5f6704161ff57d7eb54f41f66c`, is a daily series; it does **not** supply the window-deduplicated unique-cloner total.
+
+### Inventory limits and next cursor
+
+The working `GITHUB_STATS_INDEX.md` (blob `bd530cb15ef3e314d1126e768f90dcf3fe666100`) explicitly labels its coverage as an initial discovery pass, not exhaustive. Its candidate list points to additional HsH dump folders and SAT-era captures. The 1,000-entry HsH directory response is also ceiling-limited. Accordingly, GTT-01.A is not closed.
+
+**Next within GTT-01.A:** continue enumerating the remaining HsH dump/source paths and known SAT-era locations; record direct file paths, blob identities, duplicate families and provenance. Keep telemetry captures distinct from analysis/conversation records. Once the accessible candidate source universe is inventoried or each remaining limit is explicitly bounded, advance to `⌕↦` to assign measured-repository identity and source role.
+
+**Not yet done in this checkpoint:** no newly surfaced candidate has been added to the historical-observation catalogue as a verified observation; no measured-repository CSV assignment has been inferred from storage location; no arithmetic or internal/external attribution has been performed.
+
 @⌕ᵃ⌕↦⌕∑⌕∅▣✓⇢
