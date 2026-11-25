@@ -43,7 +43,7 @@ The new gate separates product-domain parameter count from differential rank:
 Verification history:
 - Head `ec1094685452541d5577ff38feb36633cc301ade` passed exact-head Lean 4.34.0/Mathlib run #45534845437 (8,959 build jobs).
 - Head `470574736a9e5a188a9853355f514c732ef314eb` failed run #45535499914 solely on two invalid `omit` commands; theorem-specific axiom reports printed, but the failed build is not treated as verification.
-- Corrected head `3f95af65ce7a52d6aa995a2cf67dd307e04a517d` has exact-head run #45536104692 submitted. At this receipt checkpoint, exact PR-head checkout and Lake-manifest generation have passed; Lean compilation is in progress; final-head compilation and axiom readback are **SUBMITTED_NOT_VERIFIED**.
+- Corrected head `3f95af65ce7a52d6aa995a2cf67dd307e04a517d` has exact-head run #45536104692 submitted. Final-head verification completed: exact PR-head checkout and Lake-manifest generation passed; Lean 4.34.0/Mathlib build #45536104692 succeeded on head `3f95af65ce7a52d6aa995a2cf67dd307e04a517d` with 8,959 jobs. The five new theorem-specific axiom reports each list `propext`, `Classical.choice`, and `Quot.sound`; no `sorryAx` or `admit` appeared. Two nonfatal unused-section-variable warnings remain in `rank_add_nullity` and `domain_dimension`. Tests, lint, leanchecker, nanoda and global axiom audit were skipped.
 - The failed run's five new theorem-specific axiom reports listed `propext`, `Classical.choice`, and `Quot.sound`; no `sorryAx` or `admit` output appeared. Final-head reports must be rechecked after a successful build.
 - Tests, lint, leanchecker, nanoda and global axiom audit are not established by the current run.
 
@@ -57,6 +57,11 @@ Mersearch-first check: the archive-resident stable 1.0 branch exists, but no loc
 P0 remains ACTIVE: record/presentation safety FAIL, latest reported discovery snapshot behind current main, live Paper A/B route acceptance NOT OBSERVED. P1 remains overdue/frozen and Orson-owned; P2 remains HOLD for November 30; P3 remains incomplete for December 14. FIE next review December 8; unrelated-source break November 28.
 
 No Orson handoff or assignment was created; the next ring label does not override Orson's protected cognition remit. No direct-thread delivery, consumption or acknowledgment is claimed. No task ID, schedule, phase or cadence changed; no sixth task, signet or conversation rename.
+
+
+
+### Amendment 01 — final-head build completion
+The previously pending exact-head run #45536104692 completed successfully on `3f95af65ce7a52d6aa995a2cf67dd307e04a517d`. The full library build completed 8,959 jobs. The new `SupportExtensionLinearization` theorem-specific axiom reports each list `propext`, `Classical.choice`, and `Quot.sound`; no `sorryAx` or `admit` appeared. Two nonfatal unused-section-variable warnings remain in `rank_add_nullity` and `domain_dimension`. Tests, lint, leanchecker, nanoda and global axiom audit were skipped. The earlier #45535499914 syntax failure is retained above as historical evidence and was corrected in the final head.
 
 **Return cursor:** PR #1133, corrected head `3f95af65ce7a52d6aa995a2cf67dd307e04a517d`; verify exact-head run #45536104692 before claiming compilation. Stop: do not create another h1082 issue, submission, receipt file, PR or handoff.
 
