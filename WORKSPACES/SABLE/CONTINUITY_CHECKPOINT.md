@@ -3,8 +3,8 @@
 **Participation:** Sable-lane assistant-level source-grounded revival; no authenticated current Sable thread or historical-instance participation is claimed.
 
 - Report: [team-machine/workflow-control composition fidelity](2026-11-25T2200Z_H1102_S0_TEAM_MACHINE_COMPOSITION_FIDELITY.md), SHA-256 `27bfe3e71dd8209c30f288eef45c4e957dc13e94888984239ee3186e7b03a595`.
-- Canonical receipt: [h1102:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T2200Z_s0_sable.md), blob `aaa95cf02188497a2c5f7a89631494ffee769866`.
-- Publisher intake [#2567](https://github.com/Satobloc/HsH/issues/2567), submission `sable-h1102-s0-team-machine-workflow-composition-fidelity-20261125t2200z-001), **SUBMITTED_NOT_VERIFIED**. Preserve issue, ID and digest; verify rather than resubmit.
+- Canonical receipt: [h1102:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T2200Z_s0_sable.md), amended blob `344fe1b5706d921d981aaa22f9e9dd827fff54b3`.
+- Publisher intake [#2567](https://github.com/Satobloc/HsH/issues/2567) is **PUBLISHED_VERIFIED**: [comment #7176004732](https://github.com/Satobloc/HsH/issues/2567#issuecomment-7176004732); canonical artifact SHA-256 `27bfe3e71dd8209c30f288eef45c4e957dc13e94888984239ee3186e7b03a595`, Git blob `8bcda25eb803ebbccac71439af9e6cc01e251040`, exact issue/artifact content equality PASS (19,228 UTF-8 characters).
 - Direct source: historical SABLE Revival Rotation conversation `6aa6701e-b800-83ea-a19a-31a802b7124d`; canonical raw SHA-256 `dfe0ac536c98e903db3760646a3358cc4f9e5fb9b5e55b48ec975c36401f5302`; Git blob `57f65c43ece0abb05f38dfb577267312c80f788f`; 59 direct user-role messages. Non-byte-identical `raw (1).json` is a distinct whole-file identity.
 - Direct source defines a modular `Mc) knowledge/analysis machine with `mX), `aX), capability packets, `mcN) modules, repository/script I/O, targeted ingestion and point-of-use context. Assistant draft adds `cX), Tools, tests, module roster and specific flows; those remain proposals.
 - Current task/operation control plane is a distinct graph. No typed `Mc)-module port schema or partial coupling map to operation envelopes and authorized branch updates exists.
