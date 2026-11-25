@@ -133,7 +133,6 @@ The working `GITHUB_STATS_INDEX.md` (blob `bd530cb15ef3e314d1126e768f90dcf3fe666
 
 **Not yet done in this checkpoint:** no newly surfaced candidate has been added to the historical-observation catalogue as a verified observation; no measured-repository CSV assignment has been inferred from storage location; no arithmetic or internal/external attribution has been performed.
 
-@⌕ᵃ⌕↦⌕∑⌕∅▣✓⇢
 
 
 ## Lane-specific archive-search protocol and availability — 2026-11-25
@@ -157,3 +156,5 @@ The primary research corpus for GTT-01 remains `Satobloc/HSH_RESOURCES/EXPOSURE_
 ### Return to active operation
 
 The active cursor remains `@⌕ᵃ`. Resume source inventory in HSH_RESOURCES using Mysearch if/when its validation status changes. Until then, do not mislabel generic GitHub search as Mysearch. Mersearch remains a possible fallback/math route, but all four observed lanes are occupied; recheck before any future request and report the actual queue state.
+
+@⌕ᵃ⌕↦⌕∑⌕∅▣✓⇢
