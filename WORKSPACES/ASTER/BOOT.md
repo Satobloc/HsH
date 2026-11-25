@@ -7,7 +7,7 @@
 - P0 snapshot blob `c53dc517...` was source-fresh at 03:22:48Z, but all 10,908/10,908 workspace records still have generic reader targets and lack `presentation_state`; zero explicitly pending. Live Paper A/B route acceptance NOT OBSERVED. This checkpoint's writes require a subsequent existing refresh/readback.
 - PWH Tern h1081:s3 is PUBLISHED_VERIFIED at issue #2526; next deep review after five further completed activations or material trigger. FIE next Dec 8; unrelated-source break next Nov 28.
 - Lane 24 remains P0-HOLD / Cycle 08/08 complete / no Cycle 09. No physical calculation, CODATA comparison, new Lean proof, equation or theory promotion.
-- :24 task remains enabled and unchanged. Current run `51c8d895-cdf0-8321-88de-c17dd4a4544d` was last observed IN_PROGRESS, scheduled 03:24Z, started early at 03:20:14.836762Z, completion null, `chat_ref=null`.
+- Scheduler check: existing :24 task remains enabled with its original hourly schedule and Geometry phase. The task-list lookup still lists it, but a later run-specific lookup returned task-unavailable; current run ID/start/completion/chat_ref were not independently re-established. No completion or thread-identity claim.
 - Next ring label: Ariadne (index 3). No direct-thread delivery, consumption or acknowledgment claimed.
 
 
