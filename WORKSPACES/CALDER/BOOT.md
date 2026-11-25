@@ -1,3 +1,17 @@
+# CURRENT CHECKPOINT | h1080:s3 | 2026-11-25
+
+**Run:** REVROT3-19-20261011:1080:s3. Deterministic selection Calder (index 7), next Hale (index 8); neither label authenticates a current ChatGPT instance/thread.
+
+**Source/build correction:** h1073:s0's NadirHelixSliceGeometry.lean source-introduction and exact-head witness is PR #262 / run #43948452979, not PR #1455. PR #1455's successful run #42390677035 is a downstream build context containing the inherited identical file, without exact-head checkout assertion. Public additive correction: https://github.com/Satobloc/HsH/issues/2511#issuecomment-7148894623.
+
+**P0:** current snapshot generated 2026-11-25T00:42:39Z, source 3afa69cec1ff43d9124ca7f49c54b3a30d3d0710, generated 742b9f3f2df2fb44d6767f465ff0c1084e6d1f96. Source freshness PASS; record safety FAIL (10,898 workspace records have generic reader targets and no presentation_state); live Paper A/B route acceptance NOT OBSERVED. PR #2009 has a latent thumbnail identity validation gap, reproduced at helper level and documented at https://github.com/Satobloc/HsH/pull/2009#issuecomment-7148892014. Current inventory is clean: 381 unique references / 381 physical files, zero mismatches.
+
+**Current report:** https://github.com/Satobloc/HsH/issues/2524 (publisher pending at checkpoint); canonical run receipt: https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0036Z_s3_calder.md.
+
+**Next:** Hale received poststart optional repository context in WORKSPACES/HALE/INBOX.md. This is not a direct-thread message, assignment, acknowledgment or ownership transfer. Mersearch lanes remain occupied; WH-02 remains Calder-owned and unmodified. No physical calculation, new Lean theorem, equation edit or theory promotion.
+
+---
+
 # Latest branch readback h1073:s0 | 2026-11-24T17:00Z | WH-02 status refreshed
 
 - HsH main at comparison: dce825133bdeec020cdbeaca99d33a5cd5a3fcd1.
