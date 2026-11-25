@@ -283,4 +283,25 @@ EXPOSURE_STATS/GITHUB_ASSISTANT_CONVO.txt (blob 664f3497dd12e824a3e7e51dc9e2d3b1
 The 35,651 capture correction is material. The previously associated 14-value vector sums to 42,111 and peaks at 7,599, while the direct 35,651 capture reports a chart range of 416–6,534 and contains no daily table. It is not an exact reconciliation, and the date window 2026-10-18–31 is not established by the source presently inspected. Retain the direct 35,651/3,640 dashboard metric, but move its exact window and CSV linkage to UNKNOWN. Do not use the 42,111 vector in the 35,651 sequence. The 42,111 OCR image is a separate source lead; no lineage has yet been established.
 
 
+
+
+## September 23 historical CSV version lineage and rolling-window reconciliation
+
+The HsH and SAT daily clone/unique-cloner CSVs associated with the 23SEP26-labeled direct captures were recovered from the HSH_RESOURCES Git file history. Their historical path and blob identities are:
+
+- HsH clone CSV: EXPOSURE_STATS/_SAT  Satobloc GitHubStats/Clones in last 14 days.csv, blob 684b37c1f9ba87012856f461eaf97d244c42e063, dates 2026-09-08–21, sum 11,912. The direct capture HSH_TRAFFIC_23SEP26.txt is explicitly HsH and reports 11,912.
+- HsH daily unique-cloner CSV: same folder, Unique cloners in last 14 days.csv, blob b203be2e3f85353e10463df3473d0e857288b897, dates 09/08–21, daily sum 3,160, but the direct capture reports 1,735 window uniques. The daily series range 53–497 matches the dashboard graph, not the window total by sum.
+- SAT clone CSV: same folder, Clones in last 14 days (1).csv, blob cbaf4092d81b6f4df7eaf5dc1102dae293c04281, dates 09/09–22, sum 1,239. The direct capture SAT_TRAFFIC_23SEP26.txt reports 1,239.
+- SAT daily unique-cloner CSV: same folder, Unique cloners in last 14 days (1).csv, blob 745987b0bd22bda7d402b55798daa9baebcece98, dates 09/09–22, daily sum 402; the direct capture reports 338 window uniques. The daily series range 3–75 matches the dashboard graph.
+
+The blobs are present at September 23 commit e7b9aad6fd9e350718d0cd1510dbe01ae024a850 and remain unchanged in the Nov 6 snapshot commit 841ec2183d7a35c073fca4fbb5dd2dee31f31520. Later commits reused the same filenames for other daily series; use the blob/commit version, not the basename, to identify the historic observation.
+
+The 11,912 HsH window (09/08–21) and 6,856 HsH window (09/21–10/04) share 09/21=615. Removing the old-only rows (sum 11,297) and adding the new-only rows (sum 6,241) gives 11,912−11,297+6,241=6,856 exactly.
+
+The 1,239 SAT window (09/09–22) and 1,048 SAT window (09/21–10/04) share 09/21=12 and 09/22=89 (101). Removing old-only rows (sum 1,138) and adding new-only rows (sum 947) gives 1,239−1,138+947=1,048 exactly.
+
+The 1,749 SAT window (09/10–23) and 1,048 SAT window (09/21–10/04) share 09/21–23 values 12,89,572 (673). Removing old-only rows (sum 1,076) and adding new-only rows (sum 375) gives 1,749−1,076+375=1,048 exactly.
+
+The 9.8.26 composite also embeds direct 14-day daily clone series for 2026-08-25–09-07: SAT values sum exactly to 698 and HsH values sum exactly to 287. These are separate direct repository-labelled captures. The associated daily view totals sum to SAT 1,589 and HsH 268; views are not clone counts. Daily unique-cloner values remain non-additive.
+
 @⌕▣✓⇢
