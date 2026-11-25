@@ -29,8 +29,8 @@
 
 **Plan ID:** CLONE-FOOTPRINT-CENSUS-2026-11-03  
 **Created:** 2026-11-05  
-**Updated:** 2026-11-24  
-**Status:** ACTIVE / SAT archive week complete / HsH Actions partial through 2026-11-15T17:59:59Z / daily Traffic unavailable  
+**Updated:** 2026-11-25  
+**Status:** ACTIVE / exact HsH Traffic baseline recovered for 2026-10-24..2026-11-06 / internal Actions attribution incomplete / Traffic API route unavailable  
 **Priority:** P1 / HIGH after 2026-11-14 15:56 America/New_York cutoff  
 **Priority authority:** Nathan Direct, 2026-11-05 upkeep/priority instruction; complements the already-open issue #1315 and existing GitHub Traffic investigation.  
 **Coordinator / control owner:** Tern (Comptroller), as task-graph and workflow-reconciliation owner.  
