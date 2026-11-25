@@ -1,3 +1,27 @@
+# h1082:s3 — latest Ravel checkpoint (2026-11-25)
+
+**Run key:** `REVROT3-19-20261011:1082:s3`. Deterministic selection: Ravel (index 17); next ring label Orson Vay (index 18). The current scheduled run has `chat_ref=null`; no authenticated active Ravel thread or cross-thread destination was established.
+
+**Published report already present before this invocation:** [issue #2528](https://github.com/Satobloc/HsH/issues/2528), canonical artifact `WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/ravel-h1082-s3-carrier-current-identifiability-20261125t0236z-001.md`, SHA-256 `28eeb9b3b2fe8e66c1877205cd77dc963b64e6f402830ac7781ffee4eaeaf374`. Issue #2527 was the rejected first digest attempt; #2528 is the corrected same-submission publication. This invocation did not create another issue or publisher submission.
+
+**Current mathematical work:** existing draft [PR #1133](https://github.com/Satobloc/HsH/pull/1133) now has a product-domain versus full-rank support gate in `RavelCurrentSupportIdentifiabilityGate.lean`. A four-dimensional parameter count does not itself establish a four-dimensional image; an injective supplied differential gives rank four, while rank below four forces a nonzero kernel. This is conditional linear algebra, not a source-defined smooth map, global embedding or physical worldtube.
+
+**Current PR head:** `3f95af65ce7a52d6aa995a2cf67dd307e04a517d`. Exact-head Lean run [#45536104692](https://github.com/Satobloc/HsH/actions/runs/45536104692) is submitted; checkout and Lake-manifest steps have passed, while the Lean compile step is not yet verified. Previous head `ec1094685452541d5577ff38feb36633cc301ade` passed #45534845437. Intermediate head `470574736a9e5a188a9853355f514c732ef314eb` failed only because of invalid `omit` syntax; the corrected head removes those commands and retains theorem-specific `#print axioms`. Do not claim final-head compilation until run #45536104692 completes. PR remains OPEN / DRAFT / UNMERGED; no rebase or merge.
+
+**Source custody:** original Ravel export conversation ID `6a9d1a23-4fac-83ea-b76f-6805ece3ee9f`, Git blob `17cfe3feb830f70009557d063482b35adba0834b`, SHA-256 `b3be177e6ac888dd27a902e25641f626285cd719faef4af624a81877c76830ba`. SAT-O1 and Blockwave verbatim equations, source hashes/dates, and the separate non-adopted projector candidate are preserved in issue #2528 and the h1082 section of `CONTINUITY.md`. No source equation was changed.
+
+**Empirical boundary:** helium-3/helium-4 spectroscopy remains a real-data candidate, not a selected P2 test. Published-summary arithmetic was rechecked; no raw-data reanalysis, covariance reconstruction, H(s)H fit, prediction or falsification threshold was produced. P2 remains HOLD.
+
+**Campaign:** P0 ACTIVE, record/presentation safety FAIL, latest discovery snapshot behind current main, live Paper A/B routes NOT OBSERVED. P1 overdue/frozen and Orson-owned; P2 HOLD for November 30; P3 incomplete for December 14. FIE next December 8; unrelated-source break November 28.
+
+**Mersearch/tooling:** the archive-resident Mersearch stable branch exists, but no local checkout/CLI is installed, container network is unavailable, and all four request lanes are occupied. No Mersearch query was run; exact source files were fetched directly by known paths as a bounded fallback. Existing Math Hopper PR #991, Whirligig Kernel 0, SciSpace and relevant Satobloc-owned fork search were checked; no new tooling, fork, dependency, subscription or expenditure.
+
+**Continuity receipt:** the detailed h1082 run record is embedded in the existing `CONTINUITY.md` rather than creating another workspace receipt file while P0 presentation-safety remains unresolved. No Orson handoff or assignment was created; the next ring label does not override Orson's protected cognition remit.
+
+**Return cursor:** verify exact-head run #45536104692, then inspect theorem-specific axiom output. Stop: no second h1082 issue, publisher submission, receipt file, PR or handoff.
+
+---
+
 ## Latest checkpoint — Ravel h1063:s3 | 2026-11-24
 
 **New formal gate:** the existing Ravel PR #1133 branch now includes RavelKerrSectionSweepRankGate. It adds actual linearized rank-nullity conditions to the already-existing 1D-base / spatial-section product-dimension bookkeeping. A 3D section plus one extension parameter has a 4D tangent domain; an injective differential has rank 4, while a rank-3 image requires a one-dimensional kernel. A 2D section plus one parameter can have rank 3 under an injective differential. The direct source does not fix the section dimension or supply the sweep map.
