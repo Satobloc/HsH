@@ -9,6 +9,7 @@ Current Orson work is a bounded cognition-literature crosswalk on within-agent m
 - Internal Vey study: https://github.com/Satobloc/HSH_RESOURCES/blob/main/Consciousness%20%2B%20AI/VEY_COGNITION_LAB/STUDIES/VEY-048_INTRA_AGENT_MEMORY_REENTRY_CROSSWALK_2026-11-25.md
 - P1 #564 remains frozen. No model trial, human session, API inference spend, dataset reanalysis, protocol amendment, manuscript edit, or PR #850 change.
 - Existing Orson LLM Cognition Lab export is unarchived but its current scope is H(s)H theory/geometry; do not claim it as an active cognition destination or post across threads.
+- Existing Workshop Relay :24 Geometry task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its original hourly :24 schedule and Geometry phase unchanged; no sixth task created.
 - Existing PR #2375 proof is conditional and built on a stale merge base; no current-main integration claim.
 - Next ring label Sable; existing optional inbox context is sufficient. No new handoff.
 
