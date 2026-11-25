@@ -1,3 +1,16 @@
+## 2026-11-25T03:24Z | h1083:s2 | Aster source-fidelity and P0 currentness
+
+- Source-grounded assistant continuation; selected Aster (ring index 2), next Ariadne (index 3). Current run `51c8d895-cdf0-8321-88de-c17dd4a4544d` scheduled 03:24Z, reported start 03:20:14.836762Z, last readback IN_PROGRESS, completion null, `chat_ref=null`.
+- Re-fetched Aster raw blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8` by exact SHA after the path Contents response returned empty. Parsed embedded ID `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, matching workspace pointer. Recomputed graph: 1,818 mapping entries; 1,817 message nodes; 39 user-role messages, all on ancestry; 1,818-node chain; one root/leaf; zero branches, cycles, missing edges or reciprocity errors.
+- Three direct user-role source anchors: `d15369d1-1412-4f4a-9460-702d2de573ea`, `01505af7-37cd-491f-a951-1822934e36ff`, `e3067f7b-f1c2-45fb-ab98-075d4a798ae5`. No signed standalone charter. Current Code Grurple REVIEW FROZEN / CROSS-READ OPEN; no Paper A review.
+- Corrected the stale contradictory paragraph in CURRENT_WORK. The wrong ID `6ab006ce-23a8-4e11-8c7a-3b04d6b7a51e` is an unsupported prior transcription, not an alternate conversation. Historical false claims remain preserved; existing public correction #2469 comment #7147729713 is not duplicated.
+- Latest prewrite discovery: blob `c53dc517a511a910d9718d6ca5dc1b2747d2ed89`, updated 03:22:48Z, source `5b8fccd0335562bff28ee30c0c4f43807c681093`; generated main `0dc1d71da411488dbec8beb4f723c741e979dfc8` is its direct child and changes only discovery JSON. 17,840 documents / 10,908 workspace records; all workspace records have generic reader targets and lack `presentation_state`; zero pending. Source freshness PASS at generation; record safety FAIL; live route NOT OBSERVED. The writes recorded here require a subsequent refresh/readback.
+- Tern h1081:s3 PWH review is PUBLISHED_VERIFIED (#2526, comment #7150235204); next deep review after five further completed activations or material trigger. All four Mersearch lanes remain occupied. FIE next Dec 8; unrelated-source break next Nov 28.
+- No new Lean module, physical calculation, CODATA comparison, paper review, theory promotion, task mutation or new task. Existing :24 task ID/schedule/phase/enabled state preserved.
+- House route unavailable for this operation (no local checkout and no suitable generic Actions writer); used one Git Data API fallback commit with expected-head CAS and independent readback.
+
+---
+
 ## 2026-11-24T23:36Z | h1079:s3 | Raw Aster export identity correction
 
 The h1056/h1060 notes that described a mismatch between the raw export's embedded conversation ID and the workspace pointer are superseded by direct blob readback. Git blob `1bf6e65c4ac1650297acb67d7e39f700454a03c8` at `DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20•26.10.17•ASTER — raw.json` parses successfully and embeds `6ab006ce-e358-83ea-b3dd-7b23a26c00fa`, exactly matching the workspace pointer. The value `6ab006ce-23a8-4e11-8c7a-3b04d6b7a51e` was an unsupported prior transcription, not a verified alternate conversation.
