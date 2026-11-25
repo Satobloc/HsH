@@ -2452,3 +2452,61 @@ theorem h1028_s2_current_and_cached_run_ids :
 
 end HsHVerification.TernH743SchedulerSnapshotEvidence
 
+/-!
+## Attempt-identity evidence gate
+
+The automation observation interface exposes a run identifier and mutable
+observation fields, but the current snapshots do not expose an immutable
+attempt identifier. The optional `attemptId` below records that absence
+explicitly. A missing attempt identifier does not mean that a retry or restart
+occurred; it means same-attempt identity is not established by this evidence.
+-/
+
+namespace HsHVerification.TernAttemptIdentityGate
+
+/-- One scheduler observation. `attemptId = none` means the source did not
+expose an attempt identifier; it is not a negative claim about backend history. -/
+structure RunObservation where
+  runId : String
+  scheduledFor : String
+  startedAt : Option String
+  completedAt : Option String
+  recordedStatus : String
+  attemptId : Option String
+  deriving Repr
+
+def sameRunId (a b : RunObservation) : Prop :=
+  a.runId = b.runId
+
+def sameScheduledSlot (a b : RunObservation) : Prop :=
+  a.scheduledFor = b.scheduledFor
+
+/-- A conservative positive witness for same-attempt attribution.
+This is an evidence predicate, not a definition of backend execution truth. -/
+def sameAttemptWitness (a b : RunObservation) : Prop :=
+  sameRunId a b ∧
+  sameScheduledSlot a b ∧
+  ∃ attempt, a.attemptId = some attempt ∧ b.attemptId = some attempt
+
+theorem sameAttemptWitness_requires_both_attempt_ids
+    (a b : RunObservation) (h : sameAttemptWitness a b) :
+    ∃ attempt, a.attemptId = some attempt ∧ b.attemptId = some attempt := by
+  exact h.2.2
+
+/-- Even equal run IDs and equal nominal slots cannot certify the same attempt
+when the observation lacks an attempt identifier. This does not prove that the
+observations are different attempts. -/
+theorem same_run_and_slot_without_attempt_id_has_no_verified_attempt_witness
+    (a b : RunObservation)
+    (_hRun : sameRunId a b)
+    (_hSlot : sameScheduledSlot a b)
+    (hMissing : a.attemptId = none) :
+    ¬ sameAttemptWitness a b := by
+  intro h
+  rcases h with ⟨_hSameRun, _hSameSlot, attempt, hA, _hB⟩
+  simp [hMissing] at hA
+
+#print axioms sameAttemptWitness_requires_both_attempt_ids
+#print axioms same_run_and_slot_without_attempt_id_has_no_verified_attempt_witness
+
+end HsHVerification.TernAttemptIdentityGate
