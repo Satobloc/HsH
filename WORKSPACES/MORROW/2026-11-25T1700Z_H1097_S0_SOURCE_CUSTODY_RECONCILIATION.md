@@ -17,7 +17,7 @@
 
 The September 9 direct geometry source is user message `fed478ad-8022-46b1-a972-ac74bf7d37b2` (2026-09-08 23:25:14.104 EDT) in the same Morrow conversation. It says, in substance, that 4DHH and H(s)H are making the same broad claim, that the most developed Lagrangian material is in early-2026 documents, and that the relevant formulations are line-based.
 
-The adjacent assistant synthesis `59c3a93` translates this into a stronger architecture: 4DHH supplies a line-based dynamical skeleton while H(s)H makes finite-core, boundary, deformation, contact, and readout structure explicit. That is an assistant reconstruction, not a verbatim Nathan equation or a demonstrated map.
+The adjacent assistant-role synthesis (full message UUID not reverified in this pass) translates this into a stronger architecture: 4DHH supplies a line-based dynamical skeleton while H(s)H makes finite-core, boundary, deformation, contact, and readout structure explicit. That is an assistant reconstruction, not a verbatim Nathan equation or a demonstrated map.
 
 A nearby archive note in SAT archive `.[⚙️_AI_FILES]/WATERCOOLER.txt`, blob `4b0854e73ac2741cceb29a7dbdc57b7aa22db75e`, dated 2026-09-09, warns that the named 21-page `4DHH LAGRANGIAN (nolat).pdf` does **not** contain the expected line-based hyperhelical dynamics. It describes the PDF as a generated six-block assembly and claim registry, still lattice-dependent despite the filename. This Watercooler entry is an archive note, not a role-authenticated Nathan Direct message.
 
