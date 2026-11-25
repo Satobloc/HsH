@@ -91,6 +91,17 @@ After GTT-01:
 No operation in this ticker has been completed yet. Earlier GTT-01 work remains valid: the thread is already oriented and the initial observation tranche is catalogued. This ticker covers the **next bounded execution sequence**, not a claim that all prior GTT-01 work is undone.
 
 
+
+## Shared canonical event-ledger concurrency note — 2026-11-25
+
+The canonical `CLONE_LEDGER.jsonl` is shared and append-only across work lanes. Its blob changed during this GIT_TRAFFIC turn; this was **not** a GIT_TRAFFIC write.
+
+- Latest observed path commit: `f7ddeadc38b4c2b3258ac745bf65ea2c7931a761`, 2026-11-25T06:22:47Z, message `Append PHY-01 Bite 06 and ledger integrity provenance`. GitHub's commit diff reports three appended rows, zero deletions. The rows are attributed in their own fields to the PHYS research thread and record API-only access/write operations; each has `traffic_clone_expected=NO`, `clone_created=false`, `checkout_materialization=NONE`, `classification=CONFIRMED NOT A FULL CLONE`, and `traffic_attribution=UNKNOWN`. They are PHYS provenance records, not new GIT_TRAFFIC observations or evidence of external cloning.
+- The preceding `cc63b703fb82105d19f3d23070a68389fbe1cbf8` commit appended three stable-ID supplements for legacy rows 309–311. Those supplements explicitly link to the earlier events and are not separate access events.
+- The latest file blob reported in the commit diff is `6ec85e2d767587c6387d7312529d9c87c5c2690f`. A subsequent Contents read returned an empty body despite that blob identity, so the commit diff/history—not an empty-body inference—is the available evidence for this checkpoint.
+
+**Lane rule:** shared ledger mutation does not move this lane's ticker. GIT_TRAFFIC must inspect each row's event identity, repository, operation, mechanism, evidence, and Traffic-attribution field before including it in GTT-02. Do not import PHYS/BIO findings as GIT traffic evidence. No GIT_TRAFFIC event was appended in this planning/inventory work.
+
 ## GTT-01.A live source-inventory checkpoint — 2026-11-25
 
 **State:** IN PROGRESS. The live cursor remains at `@⌕ᵃ`; this is a partial inventory, not Tick completion.
