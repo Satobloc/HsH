@@ -1,3 +1,25 @@
+## Latest maintenance amendment - 2026-11-25 | h1082:s0
+
+- Lane 00 source-fidelity correction published as [issue #2530](https://github.com/Satobloc/HsH/issues/2530), PUBLISHED_VERIFIED. Artifact SHA-256: cd79e4b84d2338685b29bc85bbdbb0954a757e8768322df99e7e7e950b4b21e9; exact issue-payload readback PASS.
+- Blockwave chronology: first verified raw attachment event 2025-09-16 16:31:26.687Z. The later 16:31:34.670358Z timestamp is the following user message; 16:31:34.670Z is retrieval of the same file ID. Morrow #1929 has the canonical sequence; Sable #2485 remains unchanged and receives no presumed acknowledgement.
+- Ravel PR #1133 exact-head Lean 4.34.0 / Mathlib 4.34.0 run #45534845437 succeeded. Coverage/reconstruction is conditional on sheet coverage; it does not prove physical coverage, physical readout, source-translation fidelity, or complete-history reconstruction.
+- No new Lean module, PR, physical calculation, CODATA scoring, paper advancement, or BEDROCK promotion. FIE next due 2026-12-08; unrelated-source break next due 2026-11-28.
+- Receipt: [h1082:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0200Z_s0_kestrel.md).
+
+---
+
+## Latest activation pointer - 2026-11-25T0200Z | h1082:s0
+
+- **Routing label:** Kestrel (ring index 14); next Meridian (index 15). Deterministic routing only, not an authenticated Kestrel instance/thread.
+- **Current report:** [Blockwave chronology correction and slice-coverage boundary](https://github.com/Satobloc/HsH/issues/2530), PUBLISHED_VERIFIED.
+- **Receipt:** [2026-11-25T0200Z_s0_kestrel.md](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0200Z_s0_kestrel.md).
+- **Current conclusion:** direct carrier, core, tube, boundary, timesheet, and assistant-voiced worldsheet descriptions remain distinct. The exact-head set-level coverage theorem is conditional and does not establish a physical response operator or coupling-preserving representation map.
+- **Next cursor:** define the physical readout operator, observation window, coverage condition, and joint coupling signature. Then test worldtube-only, timesheet-only, and joint representations against the coupling-preserving projection gate. Keep core-to-tube, tube-to-boundary, tube-to-timesheet, and mouth-to-timesheet maps separate until source-defined.
+- **Continuity:** no authenticated live Kestrel thread found; first-blush remains pending manual reentry. No cross-thread delivery or handoff to Meridian is claimed.
+- **Controls:** no task ID, schedule, phase, task count, branch ownership, signet, or conversation name changed.
+
+---
+
 ## Latest maintenance amendment - 2026-11-24 | h1070:s3
 
 - FIE re-review completed 2026-11-24. Controlling previous review: Aldus h719:s2, completed 2026-11-10T00:17Z; Aster h1003:s3 receipt Amendment 02 corrects the erroneous Nov 20 / Dec 4 record. Next 14-day FIE review: 2026-12-08.
