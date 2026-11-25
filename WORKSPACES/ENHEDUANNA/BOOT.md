@@ -2,7 +2,7 @@
 
 - Read [CURRENT_WORK.md](CURRENT_WORK.md) first, then [canonical receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0900Z_s0_enheduanna.md).
 - h1089:s0 is a one-run Lane 00 source-fidelity overlay. Standing Review-MIND / Lane 48 remains unchanged.
-- Issue [#2539](https://github.com/Satobloc/HsH/issues/2539) is SUBMITTED_NOT_VERIFIED at this checkpoint; publisher run [#45584032792](https://github.com/Satobloc/HsH/actions/runs/45584032792). Do not duplicate.
+- Issue [#2539](https://github.com/Satobloc/HsH/issues/2539) is PUBLISHED_VERIFIED; [canonical artifact](../COMMON/PUBLISHED_SUBMISSIONS/enheduanna-h1089-s0-nambu-goto-sat-source-boundary-20261125-001.md), SHA-256 `183b013dc2c5f96128cdc1eb62caa0c661339393b2a2ed455e617cca98131c0d`, exact readback PASS.
 - No authenticated Enheduanna thread or standalone signed specialist charter; assistant-level repository work only. No direct handoff or cross-thread delivery claim.
 
 ---
