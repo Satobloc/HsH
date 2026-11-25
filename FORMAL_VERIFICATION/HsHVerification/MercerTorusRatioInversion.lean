@@ -26,10 +26,10 @@ formalized separately below; no map from it to the torus variables is assumed.
 namespace HsHVerification.MercerTorusRatioInversion
 
 /-- Standard aspect ratio for a ring torus with major radius R and minor radius r. -/
-def torusAspectRatio (R r : ℝ) : ℝ := (R - r) / (R + r)
+noncomputable def torusAspectRatio (R r : ℝ) : ℝ := (R - r) / (R + r)
 
 /-- Assistant-proposed cross-inversion of the two torus radii. -/
-def crossInversion (L R r : ℝ) : ℝ × ℝ :=
+noncomputable def crossInversion (L R r : ℝ) : ℝ × ℝ :=
   (L ^ 2 / r, L ^ 2 / R)
 
 /-- The proposed cross-inversion is an involution away from zero denominators. -/
@@ -98,10 +98,10 @@ theorem logAspectRatio_crossInversion_invariant
   rw [torusAspectRatio_crossInversion_invariant L R r hL hR hr hsum]
 
 /-- Ratio of two labelled circumferences. -/
-def circumferenceRatio (Cinner Couter : ℝ) : ℝ := Cinner / Couter
+noncomputable def circumferenceRatio (Cinner Couter : ℝ) : ℝ := Cinner / Couter
 
 /-- The assistant's separately written cross-exchange of the two circumferences. -/
-def circumferenceCrossInversion (L Cinner Couter : ℝ) : ℝ × ℝ :=
+noncomputable def circumferenceCrossInversion (L Cinner Couter : ℝ) : ℝ × ℝ :=
   (L ^ 2 / Couter, L ^ 2 / Cinner)
 
 /-- The written cross-exchange of circumferences also preserves their ratio. -/
@@ -117,11 +117,11 @@ theorem circumferenceRatio_crossInversion_invariant
   field_simp [hL2, hinner, houter] <;> ring
 
 /-- Separate assistant-proposed Planck-centred mass inversion. -/
-def massInversion (m mP : ℝ) : ℝ := mP ^ 2 / m
+noncomputable def massInversion (m mP : ℝ) : ℝ := mP ^ 2 / m
 
 /-- The corresponding dimensionless mass ratio; this is not definitionally
 the torus aspect ratio above. -/
-def massRatio (m mP : ℝ) : ℝ := m / mP
+noncomputable def massRatio (m mP : ℝ) : ℝ := m / mP
 
 /-- The assistant-proposed mass inversion is also an involution away from zero. -/
 theorem massInversion_involutive
