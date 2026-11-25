@@ -213,7 +213,7 @@ The last two windows can be reconciled by removing Oct 22 and Oct 23 (842 + 881)
 | Daily rows | 14 |
 | Sum of daily clones | **119,670** |
 | Paired unique-cloner CSV | `Unique cloners in last 14 days (5).csv`, blob `8bebccc6ff6c1e5f6704161ff57d7eb54f41f66c` |
-| Repository attribution | **Provisional HsH**: consistent with the user's contemporaneous statement that HsH is at about 119k, and exactly matches the supplied/current CSV total; the CSV itself contains no repository label |
+| Repository attribution | **HsH by user's contemporaneous identification**: user states HsH is currently about 119k, matching the CSV arithmetic exactly; the CSV itself contains no repository label, so this is user-to-artifact mapping rather than repository identity encoded in the file |
 | Dashboard capture timestamp | Not embedded; Git commit time is file-upload/provenance time, not necessarily capture time |
 
 ### Latest daily clone values
@@ -242,7 +242,7 @@ The paired daily unique-cloner series sums to 25,011 if its daily rows are mecha
 
 The same numbered path `Clones in last 14 days (5).csv` was reused. The preceding version at commit `841ec2183d7a35c073fca4fbb5dd2dee31f31520` (2026-11-06 10:29:39Z) held an earlier Sep 10–23 series totaling **13,217**, not the current November series. The current blob `776192...` was installed by the Nov 25 commit and contains the Nov 10–23 values totaling **119,670**. The paired `Unique cloners in last 14 days (5).csv` was also overwritten. Therefore path/name/suffix alone is not source identity; retain commit ID and blob SHA for each version.
 
-The Nov 10–23 window and upload date Nov 25 leave a two-day reporting/upload gap. Do not rename the observation window to Nov 12–25 or claim the dashboard data is current through Nov 25. The user-provided current HsH estimate and the exact CSV total align, but repository attribution remains provisional until a direct HsH-labeled dashboard/text capture or an unambiguous contemporaneous source mapping is recovered.
+The Nov 10–23 window and upload date Nov 25 leave a two-day reporting/upload gap. Do not rename the observation window to Nov 12–25 or claim the dashboard data is current through Nov 25. The user explicitly identifies HsH as currently about 119k, and the exact CSV total (119,670) corroborates that figure. Retain the distinction: attribution to HsH is user-supplied and numerically corroborated, while the CSV artifact itself remains repository-unlabeled; a direct HsH-labeled dashboard/text capture would independently close that provenance gap.
 
 ## Synthesis and comparison limits
 
