@@ -1,3 +1,15 @@
+## Latest activation | h1099:s0 | 2026-11-25T19:00Z
+
+- Current work: [CURRENT_WORK.md](CURRENT_WORK.md).
+- Source-fidelity note: [h1099:s0](2026-11-25T1900Z_H1099_S0_FILAMENT_SUPPORT_DIMENSION_FIDELITY.md).
+- Canonical receipt: [h1099:s0](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T1900Z_s0_hale.md).
+- Public verification delta: [issue #1645 comment #7172603364](https://github.com/Satobloc/HsH/issues/1645#issuecomment-7172603364).
+- Existing PR #1133 exact-head run #45531821934 succeeded; conditional dimension/map formalization only, no source-map or physical proof.
+- No new issue, PR, Mersearch request, physical calculation, CODATA score, theory promotion, task mutation, or sixth task.
+- Next deterministic label Elias Kern; :12 relay disabled; no authenticated thread or handoff claim.
+
+---
+
 ## Latest activation | h1084:s3 | 2026-11-25T04:36Z
 
 - Current work: see the new top checkpoint in CURRENT_WORK.md.
