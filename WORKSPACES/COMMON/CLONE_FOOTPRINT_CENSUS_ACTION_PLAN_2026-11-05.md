@@ -1,5 +1,11 @@
 # Action Plan | Clone-footprint census and internal traffic reconciliation
 
+> **Small but significant bites. Don't choke, don't nibble.**
+
+**Independent analysis lane:** [GIT_TRAFFIC thread key](GIT_TRAFFIC_THREAD_KEY.md). This lane reconstitutes historical Traffic observations and develops an independent analysis path; it does not assume Tern's WH-01 coordination authority or duplicate the canonical clone ledger.
+
+> **Small but significant bites. Don't choke, don't nibble.**
+
 ## LIVE TICKER / CREDENZA WORK TRAY
 
 **CLOSED TOCK GT-01 — exact HsH Traffic baseline established.**
