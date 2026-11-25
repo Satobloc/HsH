@@ -3,7 +3,7 @@
 > **Small but significant bites. Don't choke, don't nibble.**
 
 **Created:** 2026-11-25  
-**Status:** IN PROGRESS / GTT-01 active; GTT-01.A–D and GTT-01.E complete for the bounded source scope; GTT-01.F independent verification active.
+**Status:** CLOSED / GTT-01 complete within the bounded HSH_RESOURCES-first source scope; GTT-02 opened for internal activity attribution.
 **Parent:** [GIT_TRAFFIC thread key](GIT_TRAFFIC_THREAD_KEY.md)  
 **Evidence catalogue:** [Historical Traffic observations](GIT_TRAFFIC_HISTORICAL_OBSERVATIONS_2026-11-25.md)  
 **Event ledger:** [Canonical append-only clone ledger](CLONE_LEDGER.jsonl)  
@@ -547,4 +547,45 @@ GTT-01.D is complete within the accessible evidence routes: the 119,670-window u
 
 GTT-01.E is complete: the historical-observation catalogue, thread key and tick ledger contain the source mappings, exact daily arithmetic, rolling bridges, version/duplicate lineage, and explicit unresolved fields. GTT-01.F now independently re-fetches and rechecks those artifacts and a sample of original source rows and calculations before the GTT-01.G transition gate.
 
-@✓⇢
+## GTT-01.F independent verification result — 2026-11-25
+
+**Result:** PASS WITH EXPLICIT LIMITATIONS. The source catalogue, tick ledger and thread key were independently re-fetched. The three GTT-01 artifacts had their intended state and exactly one correct terminal ticker before closure. Original CSV rows were independently re-read and scripted sums/date spans were recalculated; duplicate file versions were read at historical refs rather than inferred from filenames.
+
+### Recalculated source and bridge checks
+
+| Check | Recalculated result | QC |
+|---|---:|---|
+| HsH 09/08–09/21 historic CSV | 11,912 | PASS |
+| HsH 09/21–10/04 CSV | 6,856 | PASS |
+| HsH 09/22–10/05 CSV | 7,178 | PASS |
+| SAT 09/09–09/22 historic CSV | 1,239 | PASS |
+| SAT 09/10–09/23 CSV | 1,749 | PASS |
+| SAT 09/21–10/04 CSV | 1,048 | PASS |
+| HSH_RESOURCES 09/21–10/04 CSV | 622 | PASS |
+| HSH_RESOURCES 09/22–10/05 CSV | 624 | PASS |
+| HsH 10/21–11/03 CSV | 54,368 | PASS |
+| HsH 10/22–11/04 reconstructed window | 58,677 | PASS |
+| HsH 10/24–11/06 CSV | 67,310 | PASS |
+| HsH 11/10–11/23 CSV | 119,670 | PASS |
+
+All seven rolling bridges recalculate exactly:
+1. HsH 11,912 → 6,856: remove 11,297 old-only; add 6,241 new-only.
+2. HsH 6,856 → 7,178: drop 615; add 937.
+3. HSH_RESOURCES 622 → 624: drop 3; add 5.
+4. SAT 1,239 → 1,048: remove 1,138 old-only; add 947 new-only.
+5. SAT 1,749 → 1,048: remove 1,076 old-only; add 375 new-only.
+6. HsH 54,368 → 58,677: drop 1,006; add 5,315.
+7. HsH 58,677 → 67,310: drop 842+881; add 4,069+6,287.
+
+Version lineage also rechecked: the old September (5) clone CSV (13,217) and paired daily-unique file are preserved in the HsH dump and at the Nov 6 Resources commit; the current Resources (5) paths were overwritten on Nov 25 by the HsH 119,670 / daily-unique series. The old and new files are distinct blob identities. The corrected 35,651 capture remains direct but unwindowed; its former 14-value vector sums 42,111 and cannot reconcile to the dashboard total or max.
+
+The Nov 10–23 paired daily-unique CSV has daily sum 25,011 and maximum 6,526. The exact deduplicated window unique count remains UNKNOWN; 6,526–25,011 is only a conditional set-union bound, not a reported total. Capture times remain UNKNOWN unless direct EXIF/source evidence exists. Upload commits are kept separate from Traffic capture times.
+
+### Transition decision GTT-01.G
+
+**DECISION: PROCEED TO GTT-02.** The historical Traffic evidence is adequate to begin internal activity attribution for the exact repository/window-mapped observations. GTT-02 will use the canonical HsH clone-event ledger and its existing standard as read-only evidence. Carry forward the unresolved 35,651 window, unwindowed direct captures, 119,670 exact unique-cloner total, image-only repository identities, timestamp precision and daily-window timezone boundary. No residual/external-share estimate is authorized by this decision.
+
+The canonical CLONE_LEDGER.jsonl was retrieved read-only through the GitHub Contents API because the ordinary file fetch returned an empty body. The ledger parsed as JSONL with 563 rows and no parse errors in this pass. This supplies the next Tock's evidence source; it does not change the Traffic catalogue or establish any attribution.
+
+**GTT-01 is CLOSED.** Subsequent source discoveries may be appended as an amendment, but the completed inventory/reconciliation is not left active.
+⊘
