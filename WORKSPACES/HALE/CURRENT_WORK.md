@@ -1,3 +1,11 @@
+## Amendment 01 | postwrite readback and discovery status | 2026-11-25
+
+- Receipt Amendment 01: [postwrite readback and discovery status](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0436Z_s3_hale_AMENDMENT_01_POSTWRITE_READBACK_AND_DISCOVERY_STATUS.md).
+- Receipt, successor seed, Elias INBOX, Hale INBOX consumption note, CURRENT_WORK, BOOT, and P0 issue comment #7153226123 all received exact readback.
+- The predecessor Calder h1084:s2 inline packet was consumed as repository context. The Elias h1084:s4 seed was written after the :48 run started: POSTSTART_OPTIONAL_CONTEXT_ONLY, no consumption or direct-thread delivery claim.
+- Postwrite discovery freshness is PENDING. The last parsed snapshot is generated commit 5e402c47 from source d8c691; current main at amendment inspection is 434d4de, six commits beyond the generated snapshot. Existing discovery run #45550011448 and navigation run #45550011516 were pending; no manual dispatch or source change. Conversation JSON CI #45550009630 failed with zero jobs (trigger/coverage, not a failed test).
+- Recheck the automatic discovery refresh and exact current-main readback before claiming P0 freshness. P0 record safety remains FAIL; live route acceptance NOT OBSERVED.
+
 ## 2026-11-25 | h1084:s3 | Lane 36 architecture/workflow | docket membership correction
 
 - Canonical receipt: [h1084:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0436Z_s3_hale.md); run key `REVROT3-19-20261011:1084:s3`.
