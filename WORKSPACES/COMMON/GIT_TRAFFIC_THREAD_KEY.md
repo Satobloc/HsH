@@ -54,6 +54,8 @@ Repository-overlap precedence for ambiguous overlapping statistics: **HsH → SA
 - **THEN — GTT-03:** calculate matched-window internal contribution and external/unexplained residual bounds.
 - **RETURN:** continue source inventory in `EXPOSURE_STATS` and `HISTORICAL`; prioritize HsH, map each single-repository CSV to its measured repository, preserve TXT composite sections, and recover direct window-level unique-cloner evidence where available. Carry unresolved mappings and capture gaps without guessing.
 
+**Shared-ledger lane boundary:** `CLONE_LEDGER.jsonl` is append-only and may advance through PHYS/BIO/GIT work. During this turn, the latest observed commit `f7ddeadc38b4c2b3258ac745bf65ea2c7931a761` appended three PHYS API-only provenance rows; they are not GIT_TRAFFIC observations. GIT-02 must classify shared rows individually. This lane did not write a clone-event row.
+
 **PIN — WH-01 dependency:** Tern retains project-wide census coordination. The known missing 2026-11-15 18:50 run-ID snapshot and its uninspected job endpoints remain a separate recorded blocker. Do not repeat the completed query, invent a replacement snapshot, overwrite Tern's state, or treat worker reports as authenticated direct-thread replies. Historical Traffic capture work can proceed independently.
 
 ## Tock plan
