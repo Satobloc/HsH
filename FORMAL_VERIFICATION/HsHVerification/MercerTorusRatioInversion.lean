@@ -138,6 +138,25 @@ theorem massRatio_massInversion_reciprocal
   unfold massRatio massInversion
   field_simp [hm, hmp] <;> ring
 
+/-- The fixed locus of the radius cross-inversion is R*r = L^2. -/
+theorem crossInversion_fixed_iff
+    (L R r : ℝ) (hR : R ≠ 0) (hr : r ≠ 0) :
+    crossInversion L R r = (R, r) ↔ R * r = L ^ 2 := by
+  constructor
+  · intro h
+    have hfirst := congrArg Prod.fst h
+    unfold crossInversion at hfirst
+    field_simp [hr] at hfirst
+    nlinarith
+  · intro h
+    apply Prod.ext
+    · unfold crossInversion
+      field_simp [hr]
+      nlinarith
+    · unfold crossInversion
+      field_simp [hR]
+      nlinarith
+
 #print axioms crossInversion_involutive
 #print axioms torusAspectRatio_crossInversion_invariant
 #print axioms torusAspectRatio_bounds
