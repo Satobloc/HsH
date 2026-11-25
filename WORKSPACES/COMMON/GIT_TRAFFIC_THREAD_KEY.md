@@ -85,3 +85,20 @@ The live ticker describes the active Tock's operations. Adjacent glyphs imply le
 **Canonical clone-event ledger:** not modified during planning. No new clone event was established by creating this plan. Dashboard observations belong in the historical-observation catalogue, not the event JSONL.
 
 @⌕ᵃ⌕↦⌕∑⌕∅▣✓⇢
+
+
+## GIT_TRAFFIC lane isolation and archive-search route — 2026-11-25
+
+**Subject boundary:** This conversation is a distinct GIT_TRAFFIC analysis lane. It is not the main H(s)H theory lane, does not develop or adjudicate H(s)H theory, and does not set, revise, or transmit policy to HsH workers. Repositories are being used as research/reference material for this lane's GitHub Traffic question. Do not treat this lane's choices as worker instructions.
+
+**Primary research corpus:** `Satobloc/HSH_RESOURCES`, especially `EXPOSURE_STATS/` and its nested GitHub statistics holdings. Follow to HsH or SAT only when a specific Traffic artifact, provenance chain, internal-activity record, or necessary search-system interface requires it. No default three-repository theory search is implied by this GIT_TRAFFIC scope.
+
+**Preferred search protocol:** Mysearch is the intended first-choice search route for ordinary archive searches in this lane. Mersearch is reserved for math/structured-query needs or as the fallback when Mysearch is unavailable; when considering Mersearch, inspect all request lanes first and report the actual lane/queue position or explicitly say that no queue position is available. Generic GitHub code search is a last-resort fallback and must be labelled as such, never called Mysearch or Mersearch.
+
+**Current route availability, checked against live archive records:**
+- Mysearch's dedicated Nathan Direct workflow exists at `Satobloc/HsH/.github/workflows/mysearch-nathan-direct.yml`, but its own status record `WORKSPACES/COMMON/MYSEARCH_STATUS.md` and implementation plan explicitly classify it as **SCAFFOLD ONLY / NOT VALIDATED / NOT YET A PRODUCTION SEARCH SERVICE**. It uses stable Mersearch 1.0 as its engine; it is not currently a validated production search execution. No Mysearch run is claimed.
+- The connector actions available in this session expose repository read/write and workflow-run inspection, but no workflow-dispatch action. The Mysearch workflow requires explicit `workflow_dispatch` inputs. Do not create or commit a synthetic request file as a substitute for dispatch, and do not claim Mysearch execution.
+- Mersearch lane request files were inspected. Lanes 1–4 each contain an existing request with `status: requested`; lane 2 is separately documented as an active/in-progress PHY-01 request. No lane is free for this GIT_TRAFFIC request. This is **not a queue position**: no GIT_TRAFFIC Mersearch request was submitted and no position was assigned. Do not overwrite, supersede, or otherwise touch those lanes.
+- Accordingly, this turn's generic GitHub code-search discoveries are explicitly **fallback discovery only**, not Mysearch/Mersearch results. They were used narrowly to locate the archive-resident search instructions and current status, not as the substantive Traffic-source search.
+
+The archive records' broader default search scope is not imported wholesale into this lane. This thread's HSH_RESOURCES-first remit takes precedence for its own research question; other repositories are consulted only where the evidence requires them.
