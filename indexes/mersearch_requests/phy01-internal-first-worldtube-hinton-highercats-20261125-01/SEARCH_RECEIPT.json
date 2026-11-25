@@ -1,0 +1,836 @@
+{
+  "schema": "mersearch-compact-receipt-v1",
+  "derived_from": "SEARCH_RESULTS.json; not an independent search or an exhaustive result listing",
+  "source_results_sha256": "49e48f51a4a11c95541a859b36a3bc74e07e30beffafd71aeb84bc621c55b5ea",
+  "tool": "Mercer_Searcher_1.0",
+  "tool_version": "1.0",
+  "source_generated_at_utc": "2026-11-25T09:09:44.360450+00:00",
+  "query": "(author:user AND ((worldtube NEAR/12 (timesheet OR filament OR curvature OR Kerr)) OR (timesheet NEAR/12 (worldtube OR filament OR wavefront OR intersection)) OR (\"Kerr-ER-Pauli\" NEAR/15 (exclusion OR vacuum OR particle)) OR (\"Minkowski\" NEAR/12 (worldline OR worldtube)))) OR ((name:*HINTON* OR path:*HISTORICAL*) AND (filament OR section OR tessaract OR \"fourth dimension\" OR \"higher space\")) OR ((\"higher category\" OR \"higher Cartan\" OR \"higher gauge\" OR \"braid category\" OR groupoid OR homotopy) AND (Minkowski OR worldline OR worldsheet OR brane OR gauge))",
+  "roots": [
+    "archive",
+    "hsh-main",
+    "resources"
+  ],
+  "coverage": {
+    "files_scanned": 23931,
+    "records_scanned": 23236558,
+    "hits": 6913
+  },
+  "counted_hits": 6913,
+  "distinct_sources": 689,
+  "results_by_root": {
+    "archive": 1847,
+    "hsh-main": 2673,
+    "resources": 2393
+  },
+  "redaction_policy": "No source excerpts from any root; no detailed resources/ paths or matched terms",
+  "most_common_terms": [
+    [
+      "filament",
+      3351
+    ],
+    [
+      "path:*HISTORICAL*",
+      2328
+    ],
+    [
+      "gauge",
+      1624
+    ],
+    [
+      "particle",
+      1087
+    ],
+    [
+      "homotopy",
+      1039
+    ],
+    [
+      "worldline",
+      1037
+    ],
+    [
+      "curvature",
+      975
+    ],
+    [
+      "section",
+      895
+    ],
+    [
+      "intersection",
+      784
+    ],
+    [
+      "vacuum",
+      734
+    ],
+    [
+      "wavefront",
+      668
+    ],
+    [
+      "timesheet",
+      625
+    ],
+    [
+      "author:user",
+      574
+    ],
+    [
+      "worldtube",
+      535
+    ],
+    [
+      "Minkowski",
+      530
+    ],
+    [
+      "higher gauge",
+      519
+    ],
+    [
+      "exclusion",
+      268
+    ],
+    [
+      "brane",
+      251
+    ],
+    [
+      "worldsheet",
+      145
+    ],
+    [
+      "Kerr",
+      143
+    ],
+    [
+      "fourth dimension",
+      136
+    ],
+    [
+      "higher category",
+      99
+    ],
+    [
+      "groupoid",
+      77
+    ],
+    [
+      "higher Cartan",
+      29
+    ]
+  ],
+  "ranking_note": "Displayed best-score ranking is a deterministic lexical navigation heuristic, NOT source authority or a semantic ranking",
+  "top_sources": [
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/WORKSPACES/COMMON/MERSEARCH_REQUEST_LANE_2.json",
+      "title": "MERSEARCH_REQUEST_LANE_2",
+      "record_count": 2,
+      "best_score": 350,
+      "first_hit_index": 4694,
+      "sample_hit_index": 4695,
+      "locator": "$.query",
+      "matched_terms": [
+        "worldtube",
+        "timesheet",
+        "filament",
+        "curvature",
+        "Kerr",
+        "wavefront",
+        "intersection",
+        "Kerr-ER-Pauli",
+        "exclusion",
+        "vacuum",
+        "particle",
+        "Minkowski"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/CONVOS_23/26.09.20•26.10.17•ASTER — raw.json",
+      "title": "ASTER",
+      "record_count": 19,
+      "best_score": 225,
+      "first_hit_index": 1487,
+      "sample_hit_index": 1573,
+      "locator": "message:2512eb7f-0cd2-42a0-b8dd-d06f3ce468a2",
+      "matched_terms": [
+        "timesheet",
+        "filament",
+        "curvature",
+        "Minkowski",
+        "worldline",
+        "section",
+        "fourth dimension",
+        "higher space",
+        "higher Cartan",
+        "higher gauge",
+        "braid category",
+        "worldsheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw - Copy.txt",
+      "title": "26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw - Copy",
+      "record_count": 11,
+      "best_score": 196,
+      "first_hit_index": 4479,
+      "sample_hit_index": 4487,
+      "locator": "line:6818",
+      "matched_terms": [
+        "worldtube",
+        "timesheet",
+        "filament",
+        "curvature",
+        "Kerr",
+        "wavefront",
+        "intersection",
+        "exclusion",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 6,
+      "best_score": 196,
+      "first_hit_index": 958,
+      "sample_hit_index": 977,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "worldtube",
+        "timesheet",
+        "filament",
+        "curvature",
+        "Kerr",
+        "wavefront",
+        "intersection",
+        "exclusion",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 6,
+      "best_score": 196,
+      "first_hit_index": 959,
+      "sample_hit_index": 978,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "worldtube",
+        "timesheet",
+        "filament",
+        "curvature",
+        "Kerr",
+        "wavefront",
+        "intersection",
+        "exclusion",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_10/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 6,
+      "best_score": 196,
+      "first_hit_index": 960,
+      "sample_hit_index": 979,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "worldtube",
+        "timesheet",
+        "filament",
+        "curvature",
+        "Kerr",
+        "wavefront",
+        "intersection",
+        "exclusion",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.07.11•26.07.17•Reasoning with SAT-HSH Skill — raw.json",
+      "title": "Reasoning with SAT-HSH Skill",
+      "record_count": 6,
+      "best_score": 196,
+      "first_hit_index": 961,
+      "sample_hit_index": 980,
+      "locator": "message:07332374-e099-4119-ba61-782b99cd2e5b",
+      "matched_terms": [
+        "worldtube",
+        "timesheet",
+        "filament",
+        "curvature",
+        "Kerr",
+        "wavefront",
+        "intersection",
+        "exclusion",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_24/Gemini Notebook__NotebookLM_export.json",
+      "title": "Gemini Notebook__NotebookLM_export",
+      "record_count": 4,
+      "best_score": 170,
+      "first_hit_index": 4639,
+      "sample_hit_index": 4639,
+      "locator": "$.messages[21].text",
+      "matched_terms": [
+        "worldtube",
+        "filament",
+        "curvature",
+        "wavefront",
+        "intersection",
+        "Minkowski",
+        "section",
+        "fourth dimension",
+        "higher space",
+        "higher gauge",
+        "brane",
+        "gauge"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_13/26.08.25•26.08.25•⚒️ Priority assessment summary — raw.json",
+      "title": "⚒️ Priority assessment summary",
+      "record_count": 3,
+      "best_score": 160,
+      "first_hit_index": 1006,
+      "sample_hit_index": 1010,
+      "locator": "message:8f6d1166-dd7f-4860-b4d9-e134e5f72168",
+      "matched_terms": [
+        "worldtube",
+        "timesheet",
+        "filament",
+        "curvature",
+        "wavefront",
+        "intersection",
+        "exclusion",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline",
+        "section"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_8/26.08.25•26.08.25•Priority assessment summary — raw.json",
+      "title": "Priority assessment summary",
+      "record_count": 3,
+      "best_score": 160,
+      "first_hit_index": 1007,
+      "sample_hit_index": 1011,
+      "locator": "message:8f6d1166-dd7f-4860-b4d9-e134e5f72168",
+      "matched_terms": [
+        "worldtube",
+        "timesheet",
+        "filament",
+        "curvature",
+        "wavefront",
+        "intersection",
+        "exclusion",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline",
+        "section"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 13,
+      "best_score": 156,
+      "first_hit_index": 813,
+      "sample_hit_index": 835,
+      "locator": "message:e44eba03-ba23-4cf6-83f1-c6d621ea7c91",
+      "matched_terms": [
+        "worldtube",
+        "timesheet",
+        "filament",
+        "curvature",
+        "intersection",
+        "exclusion",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline",
+        "section",
+        "fourth dimension"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/LONG_CONVOS/26.06.22•26.06.23•Homes in Cardinal Order — raw.json",
+      "title": "Homes in Cardinal Order",
+      "record_count": 13,
+      "best_score": 156,
+      "first_hit_index": 815,
+      "sample_hit_index": 836,
+      "locator": "message:e44eba03-ba23-4cf6-83f1-c6d621ea7c91",
+      "matched_terms": [
+        "worldtube",
+        "timesheet",
+        "filament",
+        "curvature",
+        "intersection",
+        "exclusion",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline",
+        "section",
+        "fourth dimension"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/6OCT26_BIG_HAUL/26.03.21•26.08.22•Geometric Foundations Evaluation — raw.json",
+      "title": "Geometric Foundations Evaluation",
+      "record_count": 5,
+      "best_score": 145,
+      "first_hit_index": 804,
+      "sample_hit_index": 991,
+      "locator": "message:f765dff4-ed8a-4f9d-ad41-fd36466e6f17",
+      "matched_terms": [
+        "author:user",
+        "timesheet",
+        "filament",
+        "curvature",
+        "wavefront",
+        "intersection",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline",
+        "section",
+        "fourth dimension"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/7OCT26_A_GRADE_MINEABLES/26.03.21•26.08.22•[A] Geometric Foundations Evaluation — raw.json",
+      "title": "[A] Geometric Foundations Evaluation",
+      "record_count": 5,
+      "best_score": 145,
+      "first_hit_index": 805,
+      "sample_hit_index": 992,
+      "locator": "message:f765dff4-ed8a-4f9d-ad41-fd36466e6f17",
+      "matched_terms": [
+        "author:user",
+        "timesheet",
+        "filament",
+        "curvature",
+        "wavefront",
+        "intersection",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline",
+        "section",
+        "fourth dimension"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/🪡 The Tourist Tailor [e-] — raw.json",
+      "title": "🪡 The Tourist Tailor [e-]",
+      "record_count": 27,
+      "best_score": 140,
+      "first_hit_index": 308,
+      "sample_hit_index": 310,
+      "locator": "message:861c1fce-de9e-4421-82b6-1c3265b3e1bf",
+      "matched_terms": [
+        "worldtube",
+        "filament",
+        "curvature",
+        "wavefront",
+        "intersection",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline",
+        "section",
+        "higher gauge",
+        "worldsheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Physical Reality Evaluation — raw.json",
+      "title": "Physical Reality Evaluation",
+      "record_count": 1,
+      "best_score": 136,
+      "first_hit_index": 512,
+      "sample_hit_index": 512,
+      "locator": "message:af9e6525-d362-4718-ac65-2c7139b26ccf",
+      "matched_terms": [
+        "author:user",
+        "timesheet",
+        "filament",
+        "curvature",
+        "wavefront",
+        "intersection",
+        "vacuum",
+        "particle",
+        "worldline",
+        "section",
+        "fourth dimension",
+        "gauge"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Ontology and Math Check — raw.json",
+      "title": "Ontology and Math Check",
+      "record_count": 24,
+      "best_score": 129,
+      "first_hit_index": 517,
+      "sample_hit_index": 595,
+      "locator": "message:2766b876-54bd-4fd2-aaf1-487e879e3923",
+      "matched_terms": [
+        "author:user",
+        "timesheet",
+        "filament",
+        "curvature",
+        "wavefront",
+        "intersection",
+        "vacuum",
+        "particle",
+        "worldline",
+        "fourth dimension",
+        "gauge"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Consciousness and AI Debate — raw.json",
+      "title": "Consciousness and AI Debate",
+      "record_count": 13,
+      "best_score": 125,
+      "first_hit_index": 857,
+      "sample_hit_index": 927,
+      "locator": "message:1c1f1d58-e17e-4cec-8cfc-6fb62760e74f",
+      "matched_terms": [
+        "author:user",
+        "worldtube",
+        "timesheet",
+        "filament",
+        "curvature",
+        "wavefront",
+        "intersection",
+        "exclusion",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/SAT Overview — raw.json",
+      "title": "SAT Overview",
+      "record_count": 3,
+      "best_score": 123,
+      "first_hit_index": 848,
+      "sample_hit_index": 854,
+      "locator": "message:d2abbdc8-1794-41ba-8e11-a6f111a6617e",
+      "matched_terms": [
+        "worldtube",
+        "timesheet",
+        "filament",
+        "curvature",
+        "wavefront",
+        "intersection",
+        "exclusion",
+        "vacuum",
+        "particle",
+        "worldline",
+        "homotopy",
+        "worldsheet"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Equation Breakdown Topological Tension — raw.json",
+      "title": "Equation Breakdown Topological Tension",
+      "record_count": 3,
+      "best_score": 114,
+      "first_hit_index": 583,
+      "sample_hit_index": 585,
+      "locator": "message:74637b9c-979a-4918-b506-1e585604810b",
+      "matched_terms": [
+        "author:user",
+        "filament",
+        "wavefront",
+        "intersection",
+        "particle",
+        "Minkowski",
+        "worldline",
+        "fourth dimension",
+        "gauge"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Boiling Point Estimation — raw.json",
+      "title": "Boiling Point Estimation",
+      "record_count": 1,
+      "best_score": 114,
+      "first_hit_index": 466,
+      "sample_hit_index": 466,
+      "locator": "message:15c3bf7f-a50e-4393-88ed-e6f24b71b46f",
+      "matched_terms": [
+        "author:user",
+        "timesheet",
+        "filament",
+        "curvature",
+        "wavefront",
+        "intersection",
+        "exclusion",
+        "vacuum",
+        "particle",
+        "worldline",
+        "section",
+        "gauge"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 9,
+      "best_score": 111,
+      "first_hit_index": 1052,
+      "sample_hit_index": 1052,
+      "locator": "message:bda16543-cf97-487f-9038-b14c55074da2",
+      "matched_terms": [
+        "author:user",
+        "worldtube",
+        "timesheet",
+        "filament",
+        "Kerr",
+        "wavefront",
+        "intersection",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline",
+        "gauge"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/PRE_HSH_ROUNDUP/NEWTONGLITCH ChatGPT Voice Glitch — raw.json",
+      "title": "ChatGPT Voice Glitch",
+      "record_count": 1,
+      "best_score": 111,
+      "first_hit_index": 1053,
+      "sample_hit_index": 1053,
+      "locator": "message:bda16543-cf97-487f-9038-b14c55074da2",
+      "matched_terms": [
+        "author:user",
+        "worldtube",
+        "timesheet",
+        "filament",
+        "Kerr",
+        "wavefront",
+        "intersection",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline",
+        "gauge"
+      ],
+      "excerpt": ""
+    },
+    {
+      "root": "archive",
+      "path": "archive/Geometry in Physics — raw.json",
+      "title": "Geometry in Physics",
+      "record_count": 13,
+      "best_score": 107,
+      "first_hit_index": 718,
+      "sample_hit_index": 722,
+      "locator": "message:59d62ee7-e453-4b09-a120-7a3a526e4860",
+      "matched_terms": [
+        "worldtube",
+        "filament",
+        "curvature",
+        "intersection",
+        "vacuum",
+        "particle",
+        "Minkowski",
+        "worldline",
+        "section",
+        "homotopy",
+        "brane",
+        "gauge"
+      ],
+      "excerpt": ""
+    }
+  ],
+  "first_hits": [
+    {
+      "hit_index": 0,
+      "root": "archive",
+      "path": "archive/Physics Beyond Mathematics — raw.json",
+      "locator": "message:74cdced1-c5dd-4910-a311-bc139c868cfa",
+      "matched_terms": [
+        "author:user",
+        "timesheet",
+        "filament",
+        "intersection",
+        "particle"
+      ]
+    },
+    {
+      "hit_index": 1,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.04.13•26.06.15•Physics Beyond Mathematics — raw.json",
+      "locator": "message:74cdced1-c5dd-4910-a311-bc139c868cfa",
+      "matched_terms": [
+        "author:user",
+        "timesheet",
+        "filament",
+        "intersection",
+        "particle"
+      ]
+    },
+    {
+      "hit_index": 2,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.04.13•26.06.15•Physics Beyond Mathematics — raw.json",
+      "locator": "message:74cdced1-c5dd-4910-a311-bc139c868cfa",
+      "matched_terms": [
+        "author:user",
+        "timesheet",
+        "filament",
+        "intersection",
+        "particle"
+      ]
+    },
+    {
+      "hit_index": 3,
+      "root": "archive",
+      "path": "archive/Physics Beyond Mathematics — raw.json",
+      "locator": "message:4d542174-79de-481f-8a46-40b0a9524d45",
+      "matched_terms": [
+        "author:user",
+        "timesheet",
+        "filament"
+      ]
+    },
+    {
+      "hit_index": 4,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_22/25.04.13•26.06.15•Physics Beyond Mathematics — raw.json",
+      "locator": "message:4d542174-79de-481f-8a46-40b0a9524d45",
+      "matched_terms": [
+        "author:user",
+        "timesheet",
+        "filament"
+      ]
+    },
+    {
+      "hit_index": 5,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_3/25.04.13•26.06.15•Physics Beyond Mathematics — raw.json",
+      "locator": "message:4d542174-79de-481f-8a46-40b0a9524d45",
+      "matched_terms": [
+        "author:user",
+        "timesheet",
+        "filament"
+      ]
+    },
+    {
+      "hit_index": 6,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_15/25.05.08•26.06.13•SAT Theorizer Emeritus — raw.json",
+      "locator": "message:842d5397-d1aa-4f32-ae20-7b4fd5f56f7f",
+      "matched_terms": [
+        "filament",
+        "curvature",
+        "wavefront",
+        "particle",
+        "worldline",
+        "section",
+        "homotopy",
+        "worldsheet"
+      ]
+    },
+    {
+      "hit_index": 7,
+      "root": "hsh-main",
+      "path": "hsh-main/DEVELOPMENT_FULL_CONVOS/SAT_CONVOS_4/25.05.08•26.06.13•SAT Theorizer Emeritus — raw (1).json",
+      "locator": "message:842d5397-d1aa-4f32-ae20-7b4fd5f56f7f",
+      "matched_terms": [
+        "filament",
+        "curvature",
+        "wavefront",
+        "particle",
+        "worldline",
+        "section",
+        "homotopy",
+        "worldsheet"
+      ]
+    }
+  ],
+  "caveats": [
+    "Not a substitute for full SEARCH_RESULTS.json or primary sources",
+    "Input search may exclude files by size, extension or quarantine",
+    "Status, authorship and date fields are not independently verified",
+    "Only the full run manifest establishes input Git commit provenance"
+  ]
+}
