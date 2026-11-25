@@ -24,22 +24,140 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install 'Pillow>=10,<12'
-      - name: Discover both public archives and prepare the rolling docket
+      - name: Build and publish a source-current discovery snapshot
         env:
-          GITHUB_TOKEN: ${{ github.token }}
-        run: python tools/site_discovery.py --out PUBLIC_SITE/generated
-      - name: Validate generated data
+          GITHUB_TOKEN: \${{ github.token }}
         run: |
-          python -c "import json; d=json.load(open('PUBLIC_SITE/generated/discovery.json')); assert d['schema_version']==1; assert d['documents']; assert all(r['status']=='complete' for r in d['repositories'].values())"
-      - name: Persist presentation docket and gallery thumbnails
-        run: |
+          set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add PUBLIC_SITE/generated
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'Refresh automatic public display docket and square artwork'
+
+          # Generated output is regenerable. Every retry starts from a fresh main
+          # checkout and rebuilds; a stale generated commit is never rebased.
           for attempt in 1 2 3; do
-            git pull --rebase origin main
-            if git push; then exit 0; fi
+            echo "::group::Discovery publication attempt $attempt/3"
+            git fetch origin main
+            git reset --hard origin/main
+            git clean -fd -- PUBLIC_SITE/generated
+
+            generator_commit="$(git rev-parse HEAD)"
+            echo "generator_checkout=$generator_commit"
+            python tools/site_discovery.py --out PUBLIC_SITE/generated
+
+            # The generator reads both repositories' moving main refs. Require
+            # the HsH tree it actually read to equal this checkout, and re-resolve
+            # the SAT archive ref after generation. A mismatch discards this
+            # attempt and regenerates from fresh refs.
+            if python - <<'PY'
+          import json
+          import subprocess
+          import sys
+
+          path = "PUBLIC_SITE/generated/discovery.json"
+          with open(path, encoding="utf-8") as stream:
+              data = json.load(stream)
+
+          if data.get("schema_version") != 1 or not data.get("documents"):
+              raise SystemExit("Invalid or empty discovery snapshot")
+
+          repositories = data.get("repositories", {})
+          for name in ("hsh", "sat"):
+              record = repositories.get(name, {})
+              if record.get("status") != "complete" or not record.get("commit"):
+                  raise SystemExit(f"{name} repository scan is not complete")
+
+          hsh_source = repositories["hsh"]["commit"]
+          sat_source = repositories["sat"]["commit"]
+          checkout = subprocess.check_output(
+              ["git", "rev-parse", "HEAD"], text=True
+          ).strip()
+
+          if hsh_source != checkout:
+              print(
+                  f"RETRY_HSH_SOURCE_MOVED snapshot={hsh_source} checkout={checkout}",
+                  file=sys.stderr,
+              )
+              raise SystemExit(42)
+
+          try:
+              sat_ref = subprocess.check_output(
+                  [
+                      "git",
+                      "ls-remote",
+                      "https://github.com/Satobloc/SAT_THEORY_ARCHIVE_2023-25.git",
+                      "refs/heads/main",
+                  ],
+                  text=True,
+              ).split()
+          except subprocess.CalledProcessError as error:
+              print(f"RETRY_SAT_REF_UNAVAILABLE {error}", file=sys.stderr)
+              raise SystemExit(43)
+
+          if not sat_ref or sat_ref[0] != sat_source:
+              current_sat = sat_ref[0] if sat_ref else "missing"
+              print(
+                  f"RETRY_SAT_SOURCE_MOVED snapshot={sat_source} current={current_sat}",
+                  file=sys.stderr,
+              )
+              raise SystemExit(43)
+
+          print(
+              json.dumps(
+                  {
+                      "freshness": "PASS_AT_CHECK",
+                      "hsh_source": hsh_source,
+                      "sat_source": sat_source,
+                      "generator_checkout": checkout,
+                  },
+                  sort_keys=True,
+              )
+          )
+          PY
+            then
+              :
+            else
+              status=$?
+              if [ "$status" -eq 42 ] || [ "$status" -eq 43 ]; then
+                echo "::warning:: Source moved during generation; rebuilding from fresh refs."
+                echo "::endgroup::"
+                continue
+              fi
+              exit "$status"
+            fi
+
+            # A concurrent HsH writer after generation invalidates this attempt.
+            # Reset and regenerate on the next pass instead of rebasing stale JSON.
+            git fetch origin main
+            current_main="$(git rev-parse origin/main)"
+            if [ "$current_main" != "$generator_commit" ]; then
+              echo "::warning:: HsH main advanced during generation; rebuilding."
+              echo "::endgroup::"
+              continue
+            fi
+
+            git add PUBLIC_SITE/generated
+            unexpected="$(git diff --cached --name-only | grep -Ev '^PUBLIC_SITE/generated/' || true)"
+            if [ -n "$unexpected" ]; then
+              echo "::error:: Unexpected staged paths: $unexpected"
+              exit 1
+            fi
+
+            if git diff --cached --quiet; then
+              echo "Fresh snapshot is unchanged; nothing to publish."
+              echo "::endgroup::"
+              exit 0
+            fi
+
+            git commit -m 'Refresh automatic public display docket and square artwork'
+            if git push origin HEAD:main; then
+              echo "Published source-current discovery snapshot."
+              echo "::endgroup::"
+              exit 0
+            fi
+
+            echo "::warning:: Push rejected; discarding this attempt and rebuilding from current main."
+            echo "::endgroup::"
           done
+
+          echo "::error:: Could not publish a source-current discovery snapshot after three fresh-base attempts."
           exit 1
