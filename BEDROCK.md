@@ -1,5 +1,20 @@
 # **THE WHOLE PROBLEM: RECONSTRUCT THE UNIVERSE FROM THE PHYSICS WE ALREADY HAVE**
 
+### ND-2026-11-24-01 — H(s)H is the tentative world-tubification of SAT
+
+**Authority:** Nathan Direct, 2026-11-24, current conversation. **Scope:** the identity and foundational picture of H(s)H, its inheritance from SAT, and the particle/worldtube construction. **Status distinction:** this entry authoritatively records Nathan's current description of the H(s)H program; the physical construction described here remains tentative.
+
+**H(s)H is a proposed world-tubification of SAT, not an independent replacement theory that starts over.** H(s)H tentatively inherits the full SAT proposition-and-finding set, together with the foundational suppositions, assumptions and dependencies from which those propositions and findings arise. It reformulates that inherited material in worldtube geometry. Inheritance is the default unless there is a specific, good reason why a particular item cannot or should not transfer.
+
+This is **status-preserving inheritance**, not blanket promotion. Preserve each inherited item's actual epistemic state and history: foundational, working, tentative, open/contested, failed, superseded, historical or backburnered, as applicable. A tentative SAT finding remains tentative in H(s)H; worldtube reformulation does not strengthen its evidential status. A backburnered proposition remains recoverable and eligible for later re-emergence, not prohibited. Superseded or failed material remains part of the inherited record with that status, not silently reactivated as a current premise. Where an item has not yet received an adequate worldtube reformulation, mark its H(s)H translation as pending and retain its source, assumptions, dependencies and status rather than treating it as rejected. Any non-inheritance, revision or status change requires an explicit, proposition-specific geometric, mathematical, evidential or logical reason, with the prior state and transition preserved.
+
+**Current foundational particle picture:** H(s)H is presently based on the **Kerr-ER-Pauli exclusion construction of the particle as a twisted vacuum worldtube**. This is the current fundamental picture and bedrock model direction of H(s)H, but the construction itself remains **tentative**. Its inclusion here records its foundational role in the current H(s)H formulation; it does not certify mathematical derivation, empirical validation or established physical truth.
+
+This remains within the foundational sequence **FIE → SAT → H(s)H** established by BR-000/BR-001. The worldtubification does not displace FIE or erase SAT's prior development. See also the expanded interpretation in [BR-001](#br-001--fie--sat--hsh-is-an-ancestry-not-a-replacement-chain).
+
+---
+
+
 
 ### ND-2026-11-20-01 — CLONE OBSERVABILITY (P1 / MANDATORY)
 
@@ -409,9 +424,9 @@ Each proposition should be small enough to cite and update independently.
 
 - **Status:** ND + WB
 - **Scope:** project-wide theory interpretation
-- **Statement:** Read current H(s)H as developing from SAT, and SAT as developing from the foundational intuitions. Later terminology or formalism does not automatically erase the earlier conceptual dependency. Apparent conflicts should be investigated historically and explicitly rather than silently harmonized.
+- **Statement:** Read current H(s)H as a proposed world-tubification of SAT, and SAT as developing from the foundational intuitions. Under ND-2026-11-24-01, H(s)H tentatively inherits the full SAT proposition-and-finding set, including the foundational suppositions, assumptions and dependencies from which those items arise, and reformulates that material in worldtube geometry. This is status-preserving inheritance, not blanket promotion: preserve the status of each item, including working, tentative, open/contested, failed, superseded, historical and backburnered states. A tentative SAT result remains tentative; backburnered material remains recoverable; superseded or failed material remains recorded as such rather than silently reactivated. An item not yet translated remains pending, not rejected. Non-inheritance, revision or status change requires an explicit proposition-specific reason and preserved history. Later terminology or formalism alone does not erase the earlier conceptual dependency. Apparent conflicts should be investigated historically and explicitly rather than silently harmonized.
 - **Source:** Nathan Direct orientation embodied in Issues #2/#3 and current workflow control.
-- **Date/status note:** active 2026-09-16.
+- **Date/status note:** original ancestry entry active 2026-09-16; explicitly clarified and expanded by Nathan Direct, 2026-11-24 (ND-2026-11-24-01).
 
 ### BR-002 — BEDROCK is the center for theory work
 
