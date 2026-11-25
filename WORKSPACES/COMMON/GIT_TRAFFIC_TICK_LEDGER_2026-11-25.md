@@ -450,4 +450,26 @@ The September historical versions now confirm both 11,912 and 1,239 clone totals
 
 Remaining C work: verify duplicate/overwrite lineage for older same-path CSV versions, and close arithmetic/disposition for the remaining 287/698 (now verified) and unassigned series. Exact source and window claims stay limited to direct captures and matched date rows; no attribution to internal/external actors is made in C.
 
+
+### CSV content-version and duplicate-family audit
+
+GitHub Contents reads at historical refs establish the following path/version lineage:
+
+- At the Sep 23 commit e7b9aad6fd9e350718d0cd1510dbe01ae024a850, the Resources GitHubStats unsuffixed clone CSV and unique-cloner CSV held the HsH 11,912 / 1,735 daily series (blobs 684b37c1f9ba87012856f461eaf97d244c42e063 and b203be2e3f85353e10463df3473d0e857288b897). The same blobs were still present at the Nov 6 snapshot commit 841ec2183d7a35c073fca4fbb5dd2dee31f31520.
+- At those same refs, the (1) clone and unique-cloner CSVs held the SAT 1,239 / 338 daily series (blobs cbaf4092d81b6f4df7eaf5dc1102dae293c04281 and 745987b0bd22bda7d402b55798daa9baebcece98).
+- The (4) clone/unique CSV pair (blobs 2dfe5875a505ecc13c9ef38f3ea3e1c09044f7f6 and 9e4a97c41b4785fa5ba8d6a3dbf7b3e3c79fd964) is byte-identical in HSH_RESOURCES and the HsH 30SEP dump. The direct SAT capture 23swp42.txt establishes its measured repository as SAT; HsH storage is only a duplicate copy.
+- At the Nov 6 snapshot commit 841ec2183d7a35c073fca4fbb5dd2dee31f31520, the Resources (5) clone/unique CSV pair had the older Sep 10–23 series: 13,217 clones (blob ac2a69f665c0d62086440d578b69103892d436bd) and daily unique-cloner values with a daily sum 3,453 (blob 497ed1b5de5518d5ee5195c8c45fd0f18f073892). These exact blobs are also present in HsH DEVELOPMENT_FULL_CONVOS/30SEP26_DUMP as the (5) clone and unique files. They are one duplicate content family, not two observations; measured repository remains unresolved because no direct-labelled dashboard capture matches their graph minima.
+- The same Resources (5) paths were overwritten in the Nov 25 commit 7188eac413fbf979933f53bc98ebfcb1f047cafe with the Nov 10–23 HsH clone series 119,670 (blob 7761926459f437a06f2f6bc7eb10fa85e9914560) and its paired daily unique-cloner series (blob 8bebccc6ff6c1e5f6704161ff57d7eb54f41f66c). The path/suffix is the same; the content/version is not. The historic 13,217 content survives in the HsH dump copy.
+
+This confirms a concrete source-version hazard: same path and suffix can refer to a different period and source series after overwrite; same blob copied across repos is one content identity, not another capture. Preserve path + blob SHA + commit/ref + daily date window.
+
+### September 8–October 4 core arithmetic closure
+
+- HsH 11,912 (09/08–09/21) to HsH 6,856 (09/21–10/04): shared 09/21 = 615; remove old-only 09/08–09/20 = 11,297; add new-only 09/22–10/04 = 6,241; 11,912−11,297+6,241 = 6,856.
+- SAT 1,239 (09/09–09/22) to SAT 1,048 (09/21–10/04): shared 09/21–22 = 12+89 = 101; remove old-only = 1,138; add new-only = 947; 1,239−1,138+947 = 1,048.
+- SAT 1,749 (09/10–09/23) to SAT 1,048 (09/21–10/04): shared 09/21–23 = 12+89+572 = 673; remove old-only = 1,076; add new-only = 375; 1,749−1,076+375 = 1,048.
+- The 9.8.26 composite directly embeds SAT daily clones summing 698 and HsH daily clones summing 287 over 08/25–09/07. No missing day is filled or inferred.
+
+C has now reconciled the daily clone arithmetic for the identified exact-window core series through Nov 6, and has a precise duplicate/overwrite map for the recovered September files. Remaining direct-but-unwindowed captures, unassigned CSVs, and OCR-only evidence stay open for GTT-01.D; their unresolved status does not invalidate the reconciled series.
+
 @⌕∑⌕∅▣✓⇢
