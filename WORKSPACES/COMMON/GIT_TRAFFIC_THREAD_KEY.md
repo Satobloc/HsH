@@ -38,6 +38,8 @@ The above are shared reference/method resources. Each thread retains its own sub
 - `HSH_RESOURCES/HAUL 9/ND HsH Traffic Rules.txt` — direct user requirements and repository-overlap precedence.
 - `HSH_RESOURCES/HAUL 9/reconstitute-ND.txt` — source conversation establishing this lane's primary scope and method request.
 - `HSH_RESOURCES/EXPOSURE_STATS/` — historical captures, CSVs and pasted dashboard reports.
+- `HsH/WORKSPACES/COMMON/GIT_TRAFFIC_HISTORICAL_OBSERVATIONS_2026-11-25.md` — additive historical-observation catalogue; not an event ledger.
+- `HsH/WORKSPACES/COMMON/GIT_TRAFFIC_TICK_LEDGER_2026-11-25.md` — GTT-01 operation assignments, exit conditions and live ticker.
 - `HsH/WORKSPACES/COMMON/CLONE_FOOTPRINT_CENSUS_ACTION_PLAN_2026-11-05.md` — shared project-wide action plan.
 - `HsH/WORKSPACES/COMMON/CLONE_LEDGER_STANDARD.md` and `CLONE_LEDGER.jsonl` — shared event definitions and append-only evidence ledger.
 - WH-01 / issue #1703 — Tern-coordinated project census and telemetry reconciliation.
@@ -47,30 +49,37 @@ Repository-overlap precedence for ambiguous overlapping statistics: **HsH → SA
 ## Work tray
 
 - **CLOSED — GTT-00:** reconstituted this thread's remit, established its independent lane, linked the shared methodological resources, added the bounded-bite rule to the relevant ledgers/Credenza, and independently read back the changes.
-- **NOW — GTT-01:** inventory and reconcile historical GitHub Traffic observations. The catalogue now contains the explicit 2026-09-23 HsH/SAT captures, the 2026-10-08 composite TXT with separate repository-labeled sections, a November HsH progression through 67,310, and the latest single-repository CSV totaling 119,670 (identified by Nathan as HsH; CSV arithmetic exactly corroborates it). Every CSV is a single-repository download; only certain TXT captures concatenate separate repository reports. HsH was public from creation; Resources was initially private and only became public roughly one to two months before 2026-11-25 (exact transition date unresolved). Do not interpret Resources' earlier private-period clones as public exposure. See `WORKSPACES/COMMON/GIT_TRAFFIC_HISTORICAL_OBSERVATIONS_2026-11-25.md`; continue validating later exports and attribution.
+- **NOW — GTT-01:** finish the historical GitHub Traffic source inventory. Initial observations already catalogued include the explicit 2026-09-23 HsH/SAT captures, the 2026-10-08 composite TXT with separate repository-labeled sections, the November HsH progression through 67,310, and the latest single-repository CSV totaling 119,670 (identified by Nathan as HsH; its 14 daily clone values exactly corroborate the window total). Every CSV is a single-repository download; only certain TXT captures concatenate separate repository reports. HsH was public from creation; Resources was initially private and only became public roughly one to two months before 2026-11-25 (exact transition date unresolved). Do not interpret Resources' earlier private-period clones as public exposure. Execution order and tick IDs are in `GIT_TRAFFIC_TICK_LEDGER_2026-11-25.md`.
 - **NEXT — GTT-02:** attribute evidenced internal clone-generating activity using the canonical clone ledger and supporting records.
 - **THEN — GTT-03:** calculate matched-window internal contribution and external/unexplained residual bounds.
-- **RETURN:** continue cross-correlating current and historical `EXPOSURE_STATS` exports against contemporaneous repo-labeled captures. Continue source attribution for each individual CSV using its named TXT section, observation window and exact daily-series sum where available. Keep storage repository distinct from measured repository. Then focus GTT-02 on internal-versus-external HsH clone attribution; do not construct or imply multi-repository CSV statistics.
+- **RETURN:** continue source inventory in `EXPOSURE_STATS` and `HISTORICAL`; prioritize HsH, map each single-repository CSV to its measured repository, preserve TXT composite sections, and recover direct window-level unique-cloner evidence where available. Carry unresolved mappings and capture gaps without guessing.
 
 **PIN — WH-01 dependency:** Tern retains project-wide census coordination. The known missing 2026-11-15 18:50 run-ID snapshot and its uninspected job endpoints remain a separate recorded blocker. Do not repeat the completed query, invent a replacement snapshot, overwrite Tern's state, or treat worker reports as authenticated direct-thread replies. Historical Traffic capture work can proceed independently.
 
 ## Tock plan
 
-### GTT-01 — Historical Traffic observations
-**Expected result:** canonical, provenance-bearing inventory of historical single-repository clone and unique-cloner observations, with exact source path, blob SHA, measured repository, metric, capture timestamp, observation window, total/daily values, duplicate family and reading/verification status. Where TXT compilations concatenate several repositories' reports, preserve each labeled section separately; never treat a CSV as multi-repository.
+### GTT-01 — Historical Traffic source inventory and observation reconciliation
+
+**Expected result:** a provenance-bearing inventory of in-scope historical Traffic observations, with source path, blob SHA, storage repository, measured repository, metric, capture timestamp (or explicit unknown), observation window, total/daily values, duplicate family and read/verification status. Keep HsH as the primary target; preserve other repositories as separate observations only where the source evidence requires them.
+
+**Tick sequence:** see the dedicated [GTT-01 Tick Ledger](GIT_TRAFFIC_TICK_LEDGER_2026-11-25.md). Four distinct investigative operations reuse the shared `⌕` glyph. Their identities are GTT-01.A through GTT-01.D. Recording, verification and the deliberate transition gate use `▣`, `✓` and `⇢`.
 
 ### GTT-02 — Internal activity attribution
-**Expected result:** evidence-bounded accounting of actual internal clone-generating mechanisms across the three repositories. Reuse the canonical clone ledger; do not create a competing event ledger. Keep Actions runs, job records, checkout materialization, API reads and uncertain provisioning separate. Preserve missing telemetry and scope limits.
+
+**Expected result:** evidence-bounded accounting of actual internal clone-generating mechanisms. Reuse the canonical clone ledger; do not create a competing event ledger. Keep explicit git clones, Actions run/job/checkout evidence, checkout materialization, API reads, archive downloads and uncertain provisioning separate. Preserve missing telemetry and scope limits. Do not take over Tern's WH-01 coordination.
 
 ### GTT-03 — External residual and share estimate
-**Expected result:** matched-window low/central/high estimates for known internal contribution and unexplained/external residual, with explicit assumptions and coverage limits. Report clone counts and unique-cloner implications separately. No residual estimate until the observation windows and internal evidence are comparably grounded.
+
+**Expected result:** matched-window low/central/high estimates for known internal contribution and unexplained/external residual, with explicit assumptions and coverage limits. Report clone counts and unique-cloner implications separately. No residual estimate until observation windows and internal evidence are comparably grounded.
 
 ## Tick discipline
 
-The live ticker describes the active Tock's operations. Adjacent glyphs imply left-to-right succession; `⇢` is a deliberate decision point, not a routine separator. `@` marks the next uncompleted operation and is not an operation itself.
+The live ticker describes the active Tock's operations. Adjacent glyphs imply left-to-right succession; `⇢` is a deliberate decision point, not a routine separator. `@` marks the next uncompleted operation and is not an operation itself. Repeated glyphs are distinct operations when their lettered Tick IDs differ. Retire a glyph and advance `@` only after the operation's result is durable and checked; a chat turn or tool call does not complete a Tick.
 
-**GTT-00 close:** lane key and shared-method references are durably written and independently read back. The setup Tock is closed; the current cursor is GTT-01. Do not advance a Tock because a chat turn or tool call occurred.
+**GTT-00 close:** lane remit and shared-method references were durably written and independently read back.
 
-The first GTT-01 observation tranche is recorded and independently checked. Orient/focus work is complete for this lane; continue the remaining source inventory from investigation.
+**GTT-01 prior work:** the lane is already oriented and the initial observation tranche is catalogued. The new ticker represents the next bounded execution sequence; it does not imply earlier GTT-01 work is undone.
 
-@⌕▣✓⇢
+**Canonical clone-event ledger:** not modified during planning. No new clone event was established by creating this plan. Dashboard observations belong in the historical-observation catalogue, not the event JSONL.
+
+@⌕⌕⌕⌕▣✓⇢
