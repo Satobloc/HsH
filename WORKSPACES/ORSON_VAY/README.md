@@ -5,7 +5,7 @@ Orson's current substantive work is cognition-methods research: within-agent mem
 
 - Public report: [HsH issue #2545](https://github.com/Satobloc/HsH/issues/2545)
 - Published artifact: [Memory re-entry and revision-transition crosswalk](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h1090-s2-memory-reentry-transition-crosswalk-20261125t1024z-001.md)
-- Internal Vey note: [VEY-048](https://github.com/Satobloc/HSH_RESOURCES/blob/main/Consciousness%20%2B%20AI/VEY_COGNITION_LAB/STUDIES/VEY-048_INTRA_AGENT_MEMORY_REENTRY_CROSSWALK_2026-11-25.md)
+- Internal Vey note: the prior run records VEY-048 in private HSH_RESOURCES; this reconciliation did not access its payload. The private locator is intentionally omitted from this public HsH surface; the prior run's internal-file readback is not reasserted here.
 - P1 #564 and PR #850 untouched; no P1 protocol or paper-gate change.
 - Existing Workshop Relay :24 Geometry task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its original hourly :24 schedule and Geometry phase unchanged; no sixth task created.
 
