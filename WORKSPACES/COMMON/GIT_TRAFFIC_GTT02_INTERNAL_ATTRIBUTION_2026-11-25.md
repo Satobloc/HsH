@@ -44,12 +44,12 @@ This Tock uses HSH_RESOURCES for historical Traffic observations and the existin
 
 - 350 raw HsH rows; 349 have stable event_id. One legacy row lacks event_id and remains an unresolved identity record.
 - 29 rows have explicit revision/supplement links via revision_of or is_revision.
-- Every HsH row currently has traffic_attribution = UNKNOWN.
+- All 350 HsH rows are unresolved for Traffic attribution: 279 explicitly set traffic_attribution=UNKNOWN and 71 omit the field; none has a COUNTED or NOT_COUNTED attribution.
 
 ### Primary window, 2026-11-10–2026-11-23
 
 - 311 raw HsH rows by timestamp date; 27 explicit revision/supplement rows; 284 remaining rows, including one legacy record without event_id. All 27 revision_of targets were found in the retrieved ledger.
-- All 311 rows, including supplements, have traffic_attribution = UNKNOWN.
+- Of the 311 raw rows, 249 explicitly set traffic_attribution=UNKNOWN and 62 omit the field; none has a COUNTED or NOT_COUNTED attribution. All 311 remain unresolved for Traffic attribution.
 - The timestamp date filter is preliminary window alignment. Some records use automation/scheduler run-start values as batch anchors; many do not expose individual API-request times. No per-day clone attribution is inferred.
 
 ### Disjoint preliminary disposition of the 284 non-revision rows
@@ -299,7 +299,7 @@ Materialization after incorporating the recovered logs:
 - **126 SHALLOW_1**
 - **0 UNKNOWN**
 
-This is the complete state of recorded Actions checkout materialization within the 149-record event cohort. It is not 149 full clones, not 149 GitHub Traffic clones, and not a source-identity count. Every one of the 149 still has Traffic attribution UNKNOWN.
+This is the complete state of recorded Actions checkout materialization within the 149-record event cohort. It is not 149 full clones, not 149 GitHub Traffic clones, and not a source-identity count. Of the 149, 136 explicitly set traffic_attribution=UNKNOWN and 13 omit the field; none is attributed COUNTED or NOT_COUNTED. All 149 remain unresolved for Traffic attribution.
 
 ### Six no-job workflow/provisioning records: exact source configuration checked, execution unresolved
 
@@ -316,5 +316,19 @@ No run among these six yields direct proof of a completed checkout, a full clone
 **Traffic attribution remains UNKNOWN for all 284 non-revision HsH records.** The canonical JSONL was not changed. Eight of the fourteen Nov10–23 Traffic days have no HsH ledger entries, so the event ledger is not a complete daily internal-operation census. These counts do not support a subtraction, internal-share percentage, or external residual.
 
 **GTT-02.D ACTIVE:** record this bounded source-backed attribution tranche. GTT-02.E will independently verify the normalized keys, six unresolved cases, time treatment and exact artifact readback before the GTT-02.F decision gate.
+
+
+## GTT-02.D QC correction: distinguish explicit UNKNOWN from absent field — 2026-11-25
+
+A read-only field-presence audit of the canonical JSONL shows that some legacy records omit traffic_attribution rather than storing the literal value UNKNOWN. No row in the audited HsH populations has a positive COUNTED or NOT_COUNTED attribution:
+
+| HsH population | Rows | Explicit traffic_attribution=UNKNOWN | Field absent | Other values |
+|---|---:|---:|---:|---:|
+| All HsH rows | 350 | 279 | 71 | 0 |
+| Nov10–23 raw rows, including revisions | 311 | 249 | 62 | 0 |
+| Nov10–23 non-revision base | 284 | 231 | 53 | 0 |
+| 149 Actions checkout-evidence records | 149 | 136 | 13 | 0 |
+
+Therefore “unresolved for Traffic attribution” is the correct aggregate description. It does not mean every record literally contains an explicit UNKNOWN field. The absent fields remain semantically unresolved, not zero and not inferred NOT_COUNTED. The canonical JSONL is unchanged.
 
 @▣✓⇢
