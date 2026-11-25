@@ -477,6 +477,7 @@ theorem baseProjectionDescends_iff_fiberImagesPairwiseDisjoint
     have hbase : T.baseProjection p' = T.baseProjection p :=
       hdisjoint h₁ h₂
     change π x = T.baseProjection p
+    change Classical.choose (witness x) = T.baseProjection p
     rw [← hbase']
     exact hbase
 
