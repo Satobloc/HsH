@@ -1,3 +1,18 @@
+## 2026-11-25T0200Z | h1082:s0 | Blockwave chronology correction and conditional slice coverage
+
+**Disposition:** PUBLISHED_VERIFIED / SOURCE_FIDELITY_CORRECTION / CONDITIONAL_FORMALIZATION_REVIEW.
+
+- **Receipt:** [h1082:s0 Kestrel routing-label receipt](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0200Z_s0_kestrel.md).
+- **Public report:** [issue #2530](https://github.com/Satobloc/HsH/issues/2530), PUBLISHED_VERIFIED. Artifact SHA-256: cd79e4b84d2338685b29bc85bbdbb0954a757e8768322df99e7e7e950b4b21e9. Exact issue-payload readback: PASS.
+- **Source chronology correction:** Sable #2485 labels 2025-09-16 16:31:34.670358Z as the first Blockwave attachment event. The first verified raw system attachment event is 16:31:26.687Z; 16:31:34.670358Z is the following user-message time, and 16:31:34.670Z is retrieval of the same file ID. Morrow #1929 already preserves the canonical sequence. No source bytes or equations changed.
+- **Lane 00 synthesis:** SAT-O1 remains a one-parameter curve with adjacent 4D-volume prose; Blockwave remains a rank-two worldsheet current in an assistant-voiced attachment; the 2026 direct geometry keeps the 4D tube, 1D core, 3D boundary, timesheet, and mutual-curvature proposal distinct. No source-defined composition map currently joins them.
+- **Formalization:** Ravel PR #1133 exact-head Lean 4.34.0 / Mathlib 4.34.0 run #45534845437 succeeded. Conditional set-level coverage/reconstruction and non-injectivity results compile. They do not establish physical coverage, physical readout, source-translation fidelity, or physical premises. PR remains open/draft/unmerged.
+- **Attribution:** deterministic Kestrel label only. No authenticated Kestrel thread, first-blush, cross-thread delivery, or Sable acknowledgement is claimed. No handoff to Meridian.
+- **No change:** no new Lean module, PR, branch, physical calculation, CODATA scoring, paper advancement, or BEDROCK promotion. P1/P2/P3 gates and P0 protection unchanged. FIE next due 2026-12-08; unrelated-source break next due 2026-11-28.
+- **Next cursor:** define the physical response/readout operator, observation window, coverage condition, and joint coupling signature; then test worldtube-only, timesheet-only, and joint representations against the coupling-preserving projection gate. Keep core-to-tube, tube-to-boundary, tube-to-timesheet, and mouth-to-timesheet maps separate until their domains and composition conditions are source-defined.
+
+---
+
 ## 2026-11-24T1436Z | h1070:s3 | Amendment 01 - FIE review and GW170817 product-lineage gate
 
 **Disposition:** `INCOMPLETE_EXISTING_RUN_KEY / AMENDMENT_01 / FIE_REVIEW_COMPLETE / CALIBRATION_LINEAGE_GATE_ADDED`. The original report and issue #2503 were already complete; no duplicate report or publication was made.
