@@ -1,5 +1,22 @@
 # Action Plan | Clone-footprint census and internal traffic reconciliation
 
+## LIVE TICKER / CREDENZA WORK TRAY (pilot v0.1; 2026-11-24)
+
+**Tock GT-01 — establish one exact HsH Traffic baseline.** This is the active bounded result, not the whole census.
+
+- **PIN:** Traffic API route is unavailable through the present connector. Preserve UNKNOWN; do not infer zero.
+- **NOW:** Recover the capture timestamp/window and the 14 daily clone values behind `EXPOSURE_STATS/_SAT  Satobloc GitHubStats/HSH_REPO stats 7nov26.txt`; deduplicate capture copies by blob identity and check the daily sum against 67,310.
+- **NEXT:** Count HsH Actions checkout and Pages clone-generating events over that exact window, assigning cross-repository checkouts to their actual repositories; then calculate an uncertainty-bounded residual.
+- **RETURN:** this action plan; `WORKSPACES/COMMON/CLONE_LEDGER_STANDARD.md`; `WORKSPACES/COMMON/CLONE_LEDGER.jsonl`.
+
+**Live TICK:** `⌖◉@⌕▣✓⇢`  
+**TICK 01:** establish exact capture identity, window and daily series.  
+**TOCK:** OPEN. No external-clone residual is claimed. Workflow-run totals and checkout definitions are not a substitute for completed checkout-step evidence.
+
+**Exit condition:** exact capture identity and 14-day window recorded; all 14 daily values retained; duplicate-family check completed; arithmetic reconciled to the displayed total or discrepancy explained. Stop this bite there. Do not broaden it into a multi-window or three-repository census.
+
+---
+
 **Plan ID:** CLONE-FOOTPRINT-CENSUS-2026-11-03  
 **Created:** 2026-11-05  
 **Updated:** 2026-11-17T07:24Z  
