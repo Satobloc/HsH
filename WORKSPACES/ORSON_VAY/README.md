@@ -1,4 +1,4 @@
-## Latest checkpoint: h1086:s3 | 2026-11-25
+## Previous checkpoint: h1086:s3 | 2026-11-25
 ## Latest checkpoint — h1090:s2 (2026-11-25)
 
 Orson's current substantive work is cognition-methods research: within-agent memory re-entry as a distinct event path, crosswalked against the existing Vey cognition studies. The P1 protocol remains frozen; no experiment or model call was run.
@@ -10,7 +10,7 @@ Orson's current substantive work is cognition-methods research: within-agent mem
 - Existing Workshop Relay :24 Geometry task ID `6abda4c8eda88191bf23a6f2849e9a17` remains enabled with its original hourly :24 schedule and Geometry phase unchanged; no sixth task created.
 
 
-The current Orson cognition cursor is maintained in [CURRENT_WORK.md](CURRENT_WORK.md); the latest receipt is [h1086:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0636Z_s3_orson_vay.md).
+The current Orson cognition cursor is maintained in [CURRENT_WORK.md](CURRENT_WORK.md); the latest receipt is [h1090:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T1024Z_s2_orson_vay.md).
 
 - **Primary remit:** LLM cognition and human–LLM systems, under the historical MIRA user-role appointment and the later four-of-five steering protection. The role charter remains an assistant-maintained synthesis, not a signed standalone Nathan charter.
 - **Current P1 state:** OVERDUE / NOT READY / FROZEN / ORSON-OWNED. No experiment or paper-gate advancement.
