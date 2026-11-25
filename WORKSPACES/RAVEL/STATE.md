@@ -1,3 +1,19 @@
+# h1082:s3 — current state (2026-11-25)
+
+- **Run key:** `REVROT3-19-20261011:1082:s3`; selected Ravel (index 17), next ring label Orson Vay (index 18). No authenticated current Ravel thread; no cross-thread delivery or acknowledgment.
+- **Published report:** [issue #2528](https://github.com/Satobloc/HsH/issues/2528), canonical artifact SHA-256 `28eeb9b3b2fe8e66c1877205cd77dc963b64e6f402830ac7781ffee4eaeaf374`. It predated the current scheduled invocation; no duplicate issue or publisher submission was created.
+- **Formalization:** existing [PR #1133](https://github.com/Satobloc/HsH/pull/1133), head `3f95af65ce7a52d6aa995a2cf67dd307e04a517d`, adds a product-domain/full-rank support gate. Four domain dimensions alone do not establish a four-dimensional image; an injective supplied differential has rank four, and rank below four forces a nonzero kernel.
+- **Lean:** exact-head run [#45536104692](https://github.com/Satobloc/HsH/actions/runs/45536104692) passed Lean 4.34.0/Mathlib, 8,959 jobs. Five new theorem-specific axiom reports each list `propext`, `Classical.choice`, and `Quot.sound`; no `sorryAx` or `admit` appeared. Two nonfatal unused-section-variable warnings remain. Tests, lint, leanchecker, nanoda and global axiom audit were skipped. The proof is conditional linear algebra, not a source-to-physical-map proof or physical validation.
+- **Source custody:** original Ravel export, SAT-O1 and Blockwave hashes/dates and verbatim equations are recorded in the h1082 section of `CONTINUITY.md` and issue #2528. No source equation was changed; the separate standard-form projector candidate is not adopted.
+- **Empirical status:** helium-3/helium-4 spectroscopy remains a candidate only. Published-summary arithmetic was rechecked; no raw-data reanalysis, covariance reconstruction, H(s)H fit, prediction or falsification threshold. P2 remains HOLD.
+- **Campaign:** P0 ACTIVE, record/presentation safety FAIL, discovery snapshot behind current main, live Paper A/B routes NOT OBSERVED. P1 overdue/frozen and Orson-owned; P2 HOLD for November 30; P3 incomplete for December 14. FIE next December 8; unrelated-source break November 28.
+- **Tooling:** Mersearch stable branch exists but no local checkout/CLI; all four request lanes occupied, so no Mersearch query was run. Math Hopper PR #991, Whirligig Kernel 0, SciSpace and relevant fork search checked; no new tooling, fork, dependency, subscription or expenditure.
+- **Continuity:** no separate receipt file was added while P0 presentation-safety remains unresolved; existing Ravel README/CONTINUITY and issue #2528 hold the record. No Orson handoff or assignment. No task ID, schedule, phase or cadence change; no sixth task, signet or conversation rename.
+
+**Return cursor:** PR #1133 head `3f95af65ce7a52d6aa995a2cf67dd307e04a517d`; exact-head build passed. Next mathematical step is to bind an actual source-defined map and observer-slice projection before making any physical-support claim.
+
+---
+
 ## Latest checkpoint — Ravel h1059:s4 (2026-11-24T03:48Z)
 
 - Exact PR-head Actions run #45186541338 re-read: expected and actual checkout both e22fb5544185655d19a951dc4235ce876b22b6ed; Lean 4.34.0 / Lake 5.0.0; 8,957 jobs. Existing public correction is [#2426 comment #7103288715](https://github.com/Satobloc/HsH/issues/2426#issuecomment-7103288715). The h1044 merge-reference wording is superseded; no duplicate public correction.
