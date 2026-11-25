@@ -1,7 +1,7 @@
 name: HsH Issue Publication Intake
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
 permissions:
   contents: write
   issues: write
@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   publish:
-    if: startsWith(github.event.issue.title, '[HSH-PUBLISH-V1]') && github.event.issue.author_association == 'OWNER'
+    if: startsWith(github.event.issue.title, '[HSH-PUBLISH-V1]') && github.event.issue.author_association == 'OWNER' && (github.event.action == 'opened' || github.event.changes.body != null)
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
