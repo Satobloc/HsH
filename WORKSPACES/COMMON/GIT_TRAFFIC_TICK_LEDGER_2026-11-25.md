@@ -7,7 +7,7 @@
 **Parent:** [GIT_TRAFFIC thread key](GIT_TRAFFIC_THREAD_KEY.md)  
 **Evidence catalogue:** [Historical Traffic observations](GIT_TRAFFIC_HISTORICAL_OBSERVATIONS_2026-11-25.md)  
 **Event ledger:** [Canonical append-only clone ledger](CLONE_LEDGER.jsonl)  
-**Method glyphs:** [External Dimensional Workshop Code Ledger](../../../../HSH_RESOURCES/info/EXTERNAL_DIMENSIONAL_WORKSHOP_CODE_LEDGER.md)
+**Method glyphs:** [External Dimensional Workshop Code Ledger](https://github.com/Satobloc/HSH_RESOURCES/blob/main/info/EXTERNAL_DIMENSIONAL_WORKSHOP_CODE_LEDGER.md)
 
 ## Purpose
 
