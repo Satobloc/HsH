@@ -221,3 +221,100 @@ B's normalized aggregation is complete for the 284-row primary window: 149 check
 **GTT-02.B COMPLETE. GTT-02.C ACTIVE.** Recover the remaining 26 incomplete checkout-key records through exact Actions run/job data where available; preserve field-specific UNKNOWNs where direct joins cannot be made. Recheck the six unresolved workflow/provisioning cases only if new direct evidence appears. Do not alter the canonical JSONL or infer Traffic attribution from workflow configuration, checkout depth or publisher outcomes.
 
 @⌕∑⌕∅▣✓⇢
+
+
+## GTT-02.C evidence-gap recovery close — 2026-11-25
+
+### All 26 incomplete checkout-key joins recovered
+
+Each of the 26 records that remained incomplete after GTT-02.B now has a direct run/job/attempt/step join in this analytical layer. GitHub Actions run attempts are all 1; all listed checkout steps are step 2. Run IDs below are the numeric GitHub Actions run IDs, not any separate automation-runtime UUID that may remain in the canonical row's run_id field.
+
+| Original event / short label | Actions run ID | Job ID | Attempt | Step |
+|---|---:|---:|---:|---:|
+| Nov14 publisher | 43606323352 | 132481626732 | 1 | 2 |
+| H991 Meridian Lean | 44881533266 | 136777678970 | 1 | 2 |
+| H991 Meridian site discovery | 44883226975 | 136782851096 | 1 | 2 |
+| H991 Meridian publisher | 44883299310 | 136783076046 | 1 | 2 |
+| H991 Maintain navigation | 44883226979 | 136782851233 | 1 | 2 |
+| H992 L36 Lean | 44887690834 | 136796465197 | 1 | 2 |
+| H992 L36 publisher | 44888288139 | 136798288312 | 1 | 2 |
+| H992 S4 L48 publisher | 44889705474 | 136802657696 | 1 | 2 |
+| H993 L36 publisher | 44891263321 | 136807357552 | 1 | 2 |
+| H993 L36 Lean | 44890994775 | 136806603091 | 1 | 2 |
+| Issue #2303 publisher | 44949683295 | 136984628888 | 1 | 2 |
+| Public-site discovery output f0f466f | 44949450842 | 136984200089 | 1 | 2 |
+| Issue #2304 publisher | 44951337554 | 136989705922 | 1 | 2 |
+| Issue #2308 publisher | 44959901107 | 137016182454 | 1 | 2 |
+| Issue #2319 / H1010 publisher | 44978722725 | 137074291257 | 1 | 2 |
+| H1013 Meridian publisher | 44991839320 | 137114543937 | 1 | 2 |
+| H1014 Orson publisher | 44994211871 | 137121631292 | 1 | 2 |
+| PR #2330 Lean check | 44999734271 | 137138407169 | 1 | 2 |
+| PR #2330 Lean check | 45000183363 | 137139788308 | 1 | 2 |
+| Issue #2334 publisher | 45000715311 | 137141434695 | 1 | 2 |
+| PR #2330 Lean check | 45001461928 | 137143709880 | 1 | 2 |
+| H1018 Loom Lean check | 45013871558 | 137181881590 | 1 | 2 |
+| H1018 Loom Lean check | 45014315731 | 137183233143 | 1 | 2 |
+| H1018 Loom Lean check | 45014721410 | 137184474966 | 1 | 2 |
+| H1025 Mercer publisher | 45049752952 | 137292054380 | 1 | 2 |
+| H1029 Sable publisher | 45075509612 | 137371728728 | 1 | 2 |
+
+For every row, the run ID and attempt were confirmed from the run object; the job ID was confirmed in that run's Jobs API result; and step 2 was identified as the completed checkout step in the job record. Where the original event used a runtime UUID in run_id, the numeric Actions run ID is kept as a separate normalized key component; the canonical JSONL is not edited.
+
+### Three publisher joins already completed before the 26-row recovery
+
+These three additional events are also keyed:
+- Issue #2276: run 44901415508, attempt 1, job 136837917411, step 2; fetch-depth 1, checkout SHA 1ad874977a9f7aea67736a12348529ece2041e30.
+- Issue #2289: run 44922358771, attempt 1, job 136900940230, step 2; fetch-depth 1, checkout SHA e802589daed4b2c15d01f4237a64a151f1664587.
+- Issue #2290: run 44924297359, attempt 1, job 136906880427, step 2; fetch-depth 1, checkout SHA 15045ac5fab01b95854c3f7fb803dfecbdbdbb7b.
+
+These three resolve the original configuration-only/unknown publisher records described in the GTT-02.B addendum. Combined with the 26 remaining joins and 120 originally complete checkout keys, all **149 Actions checkout-evidence records now have a complete normalized key**.
+
+### Depth and checkout-head corrections from the recovered source logs
+
+The recovered logs resolve the last missing materialization fields:
+- The Nov14 publisher event, previously carrying the legacy classification CONFIRMED NOT A FULL CLONE with no checkout_materialization field, has a successful step-2 actions/checkout@v4 log with fetch-depth 1. Checkout SHA: 149f28963ff7b5da00dad09eadbc8fb5cc67aaef at 2026-11-14 14:44:38.707Z. The old classification string is preserved in the canonical ledger; this analytical layer treats materialization as SHALLOW_1 and does not interpret that legacy label as NONE.
+- H991 Maintain navigation (run 44883226979, job 136782851233) completed checkout step 2 with fetch-depth 0 and checkout SHA 8b6e91f96165a4bfce76a25a6940fa0002078391 at 2026-11-21 08:10:10.662Z. A later date-tag audit step failed and subsequent steps were skipped. Its repository checkout nevertheless completed; materialization is FULL_HISTORY.
+- H991 site-discovery output f0f466f was generated by run 44949450842, job 136984200089, attempt 1. The job began 21:02:47Z and completed 21:05:39Z. It checked out main with fetch-depth 1; post-checkout SHA 53f887a03df1bf4a6ceadfe3b580085b3c723bc7 at 21:05:20.802Z. The same job then committed f0f466f3453cf2c0c7c2ec6ff803efecddf994f5 at 21:05:31Z and pushed it at 21:05:35Z. The Actions run event head was ad0d98a8d35c93b52fc1d0cffb081ccd8ff33659; the actual checkout was the later main head 53f887a..., so preserve the difference.
+- The H1013 Meridian publisher (run 44991839320, job 137114543937) checked out main shallowly at SHA f891089dbac8ec634e7729bdf135505b561568f0. The run event head was a90fc0afcb2a058c5b39013e6c542bd4e213bb9b; the job checked out the then-current main head rather than the triggering event head. Preserve both.
+- The H1014 Orson publisher (run 44994211871, job 137121631292) checked out main shallowly at SHA 644b23a9f6775e09b5be26d8e7e901adfa34c83e, matching the run head.
+- The H1025 Mercer publisher (run 45049752952, job 137292054380) checked out main shallowly at SHA fc0f2f2ccbbff47cfbb309a3b0070b215114995b at 17:31:10.956Z.
+- The H1029 Sable publisher (run 45075509612, job 137371728728) checked out main shallowly at SHA efd13307867e0bd826939e1ba89e3edfe6208c99 at 22:04:35.128Z.
+
+The five earlier unknown-depth workflow checkout steps (four PR-merge-ref checkouts and one main checkout), three issue-publisher run joins, and the site-discovery run are also described in the preceding B/C evidence sections. Their successful checkout evidence now resolves the remaining field-specific UNKNOWNs.
+
+### Recomputed normalized checkout-key and materialization result
+
+The 149 checkout-evidence records were reassembled into normalized keys:
+
+(repository, numeric GitHub Actions run ID, run_attempt, job_id, step_number).
+
+Numeric run IDs were taken from actions_run_id when available, the numeric run_id when that was the Actions ID, or the exact event-ID/run-object join above. The independent key audit returns:
+- **149 normalized checkout keys**
+- **149 unique keys**
+- **0 duplicate keys**
+- **0 remaining incomplete keys**
+
+Materialization after incorporating the recovered logs:
+- **23 FULL_HISTORY**
+- **126 SHALLOW_1**
+- **0 UNKNOWN**
+
+This is the complete state of recorded Actions checkout materialization within the 149-record event cohort. It is not 149 full clones, not 149 GitHub Traffic clones, and not a source-identity count. Every one of the 149 still has Traffic attribution UNKNOWN.
+
+### Six no-job workflow/provisioning records: exact source configuration checked, execution unresolved
+
+The six previously unresolved records were inspected against the workflow file at each run's exact head commit:
+- Three failed Nov20 runs 44838759097, 44839245358, 44839737494 and two failed Nov21 runs 44950093353, 44950696770 all point to .github/workflows/conversation-json-content-ci.yml blob d90ca4f8325751607984d8785631dabfa475a300 at the event heads. The file configures a synthetic-conversations job with actions/checkout@v4, followed by setup-python and tests. The exact run Jobs API returned an empty array for each of the five. Thus checkout was configured in the source workflow, but actual job creation/step execution/materialization is unobserved. Preserve the two Nov21 rows as POSSIBLE FULL CLONE — MECHANISM UNKNOWN and the three Nov20 rows as NO_JOB_RECORD_RETURNED / CHECKOUT_UNKNOWN / TRAFFIC_ATTRIBUTION_UNKNOWN. Do not infer checkout completion from the workflow YAML.
+- Cancelled run 45005215976 is the Refresh automatic website docket workflow at exact run head 444867d232a2cb5e888f7ff0c600c7e1c4cb9095. The source workflow blob 3aa83d6dd5e2e16fad79628be1d19dc62d6c3f70 configures actions/checkout@v4 with ref main, but its Jobs API returned an empty array and run conclusion is cancelled. The already verified successful run 45005102072/job137154814208 is a distinct run and is not evidence for this cancelled run. Keep 45005215976 as REPOSITORY PRESENT — PROVISIONING UNKNOWN.
+
+No run among these six yields direct proof of a completed checkout, a full clone, or a Traffic-counted clone. The workflow source establishes configuration only.
+
+### GTT-02.C disposition
+
+**GTT-02.C COMPLETE for the bounded primary-window evidence.** All 26 remaining incomplete checkout-key records have a numeric Actions run/job/attempt/step mapping; the two workflow-configuration-only publisher rows and the earlier #2290 row are also directly joined. The normalized checkout-key set is 149/149 unique, with 0 duplicates. Materialization is fully resolved within that positive checkout cohort: 23 FULL_HISTORY and 126 SHALLOW_1. Six separate no-job workflow/provisioning cases remain UNKNOWN at the field level, with exact workflow configuration and empty Jobs API responses recorded above.
+
+**Traffic attribution remains UNKNOWN for all 284 non-revision HsH records.** The canonical JSONL was not changed. Eight of the fourteen Nov10–23 Traffic days have no HsH ledger entries, so the event ledger is not a complete daily internal-operation census. These counts do not support a subtraction, internal-share percentage, or external residual.
+
+**GTT-02.D ACTIVE:** record this bounded source-backed attribution tranche. GTT-02.E will independently verify the normalized keys, six unresolved cases, time treatment and exact artifact readback before the GTT-02.F decision gate.
+
+@▣✓⇢
