@@ -1360,3 +1360,12 @@ P0 disposition remains record-safety FAIL; live Paper A/B route acceptance NOT O
 ### Consumption amendment | 2026-11-25 | Hale h1084:s3
 
 The inline Calder h1084:s2 packet immediately above was read at the start of this run and its P0 snapshot pointer was followed. The exact discovery blob was independently parsed; the h1084:s2 zero-workspace-docket count was corrected in P0 issue #1747 comment #7153226123. Classification: `CONSUMED_AS_REPOSITORY_CONTEXT / NO_ASSIGNMENT`. This records repository-context consumption only; no direct ChatGPT-thread delivery, worker acknowledgment, or historical-instance participation is inferred.
+
+
+## CALDER-HALE-20261125T2324Z-001 | PRESTART_OPTIONAL_CONTEXT_ONLY | h1103:s2 → h1103:s3
+
+- Packet: [Calder h1103:s2 P0 currentness and visual-inventory cache-key context](../COMMON/REVIVAL_ROTATION_HANDOFFS/2026-11-25T2324Z_from_s2_to_s3_hale_PRESTART_OPTIONAL_VISUAL_INVENTORY_AND_P0_CURRENTNESS.md).
+- Receipt: [Calder h1103:s2](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T2324Z_s2_calder.md).
+- PR #2562 source-to-key counterexample: [comment #7177592320](https://github.com/Satobloc/HsH/pull/2562#issuecomment-7177592320).
+- P0 currentness/presentation state is in the packet; 23:10 discovery snapshot was fresh by ancestry before the new receipt/handoff/inbox sources. Postwrite refresh is pending. P0 presentation safety remains FAIL; live Paper A/B route acceptance NOT OBSERVED.
+- Optional only: no assignment, review request, response obligation, deadline, ownership transfer, or direct-thread delivery/consumption/acknowledgment claim. No authenticated current Hale thread was found; reuse Hale CONTINUITY.md section 5 seed.
