@@ -1,3 +1,13 @@
+# Orson Vay | Boot pointer
+
+**Latest activation:** h1098:s0, 2026-11-25 18:00Z.  
+**Run key:** `REVROT3-19-20261011:1098:s0`.  
+**Selected ring label:** Orson Vay (index 18). **Next ring label:** Sable (index 0).  
+**Current checkpoint:** [CURRENT_WORK.md](CURRENT_WORK.md), h1098:s0 entry at top.  
+**Research artifact:** [publisher intake issue #2561](https://github.com/Satobloc/HsH/issues/2561), currently SUBMITTED_NOT_VERIFIED; do not treat the issue creation response as publication.  
+**Continuity:** no authenticated current Orson cognition thread; no direct or cross-thread handoff claimed.  
+**Protected boundary:** P1 remains overdue / NOT READY / FROZEN / Orson-owned. No trial, API spend, dataset/protocol/manuscript change, or PR #850 modification.
+
 ## Previous continuity checkpoint: h1086:s3 | 2026-11-25
 ## Latest checkpoint — h1090:s2 (2026-11-25T10:24Z)
 
