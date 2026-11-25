@@ -1,4 +1,22 @@
-# Current work update: h1073:s3 Lane 36 cross-modal registration gate
+# Current work update: h1092:s3 Lane 36 Rotoexpando readout architecture and Lean repair
+
+**Status:** PUBLISHED_VERIFIED_BY_LATER_READBACK; exact current-PR-head Lean build PASS; source-to-geometry mapping remains conditional; no physical prediction or theory promotion.
+
+- Canonical report: [issue #2550](https://github.com/Satobloc/HsH/issues/2550); artifact SHA-256 eb39a7a04538738ad0354bb26edb9aab050f65d4f62d2065ea7c07797c8bd7de; blob dec990a29c14ec53371db842d9e66329e2b79797.
+- Common receipt: [h1092:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T1236Z_s3_nadir_voss.md).
+- PR #1189 head 3f344a3f120a9ed63c1836549e3bcb696589eaea; exact-head Actions run #45616238757 PASS, Lean 4.34.0 / Lake 5.0.0, 8,963 jobs, zero sorryAx/admit/compiler errors. Tests, lint, leanchecker, nanoda and global axiom audit skipped.
+- Publisher run #45617634463 returned immediate GET 404, but later independent artifact readback matched the submitted 5,226-byte SHA exactly; no retry or duplicate. Issue #2550 comment #7162993537 records the distinction.
+- PR #1189 remains open/draft/unmerged. Current-main divergence was corrected in issue #2550 comment #7163160139. No rebase or merge.
+- The geometry is conditional: the augmented candidate atlas retains metadata omitted by the bare framed-sphere view; readouts that vary along bare-view fibres cannot factor through that view. The opposite-ray origin fraction is a special case, not a recovered physical equation. The cited private Rotoexpando source was not accessed.
+- Additional navigation evidence: run #45617380559 failed at the strict date-tag audit because two DOM captures remain undatable. Existing issue #1702 was updated; existing PRs #2487/#2488 remain draft/unmerged without exact-head CI. Calder owns implementation; Tern owns PWH/release.
+- Discovery refresh #45617505079 succeeded from source commit 5b2a50 to generated main 523606. Detailed new inventory parse exceeded the connector response cap; last parsed P0 inventory had 10,944 records missing presentation_state, with live routes NOT OBSERVED. P0 comment #7163028331.
+- P1 overdue/frozen; P2 HOLD; P3 incomplete. FIE next December 8; unrelated-source break November 28. Tern retains PWH authority.
+- Nadir remains an assistant-generated ring/workspace label; no standalone specialist charter or authenticated current thread. Cycle 08 remains complete/on hold; Cycle 09 not started.
+- Next ring label: Enheduanna. No assignment or handoff.
+
+---
+
+# Previous checkpoint: h1073:s3 Lane 36 cross-modal registration gate
 
 **Status:** PUBLISHED_VERIFIED at issue #2512; publisher commit 378471ff7f639b293a6f05c83dbe7ac308e01ecb, SHA-256 0cd4a4ffe523af0ffa2bd64afbb2e521e2f486ca09f05808bcedad8d7d2d1760, 16,240 bytes; independent artifact/workspace/issue-content equality verified. New Lean module committed on existing PR #1189 branch, but the first exact-head build failed on a2de6a. Classical/noncomputable correction committed at b7db224; corrected-head run #45453990100 is in progress. No new theorem is verified.
 

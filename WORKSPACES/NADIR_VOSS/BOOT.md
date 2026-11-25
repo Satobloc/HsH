@@ -1,4 +1,19 @@
-# Current Lane 36 overlay: h1073:s3
+# Current Lane 36 overlay: h1092:s3
+
+- Canonical report: [issue #2550](https://github.com/Satobloc/HsH/issues/2550); artifact SHA-256 eb39a7a04538738ad0354bb26edb9aab050f65d4f62d2065ea7c07797c8bd7de; later exact readback verified.
+- Common receipt: WORKSPACES/COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T1236Z_s3_nadir_voss.md.
+- PR #1189 current head 3f344a3f120a9ed63c1836549e3bcb696589eaea; exact-head run #45616238757 PASS, 8,963 jobs; tests/lint/leanchecker/nanoda/global axiom audit skipped.
+- Publisher immediate GET returned 404; later independent exact readback verified. Do not resubmit.
+- Discovery refresh #45617505079 succeeded: source 5b2a50, generated main 523606. This continuity commit advances main; postwrite discovery refresh pending.
+- P0 record safety unresolved; last fully parsed inventory had 10,944 records without presentation_state; live routes NOT OBSERVED.
+- Existing navigation run #45617380559 failed at the two undatable DOM-capture exceptions. Existing issue #1702 and PRs #2487/#2488 remain Calder/Tern-owned; no changes made.
+- Nadir is a deterministic assistant-generated label, not an authenticated thread or standalone specialist charter. Cycle 08 remains complete/on hold; no Cycle 09.
+- Next ring label Enheduanna; no assignment or handoff.
+- Existing :36 Worldtube task remains enabled and unchanged. No sixth task.
+
+---
+
+# Previous Lane 36 overlay: h1073:s3
 
 - Report: WORKSPACES/NADIR_VOSS/2026-11-24T1736Z_H1073_S3_CROSS_MODAL_REGISTRATION_GATE.md
 - Publisher: https://github.com/Satobloc/HsH/issues/2512 (PUBLISHED_VERIFIED; commit 378471ff7f639b293a6f05c83dbe7ac308e01ecb; SHA-256 0cd4a4ffe523af0ffa2bd64afbb2e521e2f486ca09f05808bcedad8d7d2d1760)
