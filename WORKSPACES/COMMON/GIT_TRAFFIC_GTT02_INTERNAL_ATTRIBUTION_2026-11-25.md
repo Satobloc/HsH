@@ -3,7 +3,7 @@
 > **Small but significant bites. Don't choke, don't nibble.**
 
 **Created:** 2026-11-25
-**Status:** ACTIVE / GTT-02.A in progress
+**Status:** ACTIVE / GTT-02.B aggregation complete for the bounded primary window; GTT-02.C evidence recovery in progress.
 **Parent lane:** GIT_TRAFFIC, distinct from the main H(s)H theory work
 **Primary Traffic source:** Satobloc/HSH_RESOURCES, especially EXPOSURE_STATS/
 **Internal event source:** Satobloc/HsH WORKSPACES/COMMON/CLONE_LEDGER.jsonl (read-only)
@@ -96,7 +96,7 @@ The ledger's first HsH record is dated 2026-09-07. Absence of rows in an earlier
 
 ## Current operation
 
-**NOW — GTT-02.A / ⌕↦.** Build the canonical event identity map. Resolve the 27 explicit revision rows in the Nov 10–23 window to original IDs, preserve the one legacy row without event_id, and normalize 120 fully keyed checkout steps plus 27 incomplete checkout-related records. Keep the original ledger read-only.
+**NOW — GTT-02.C / ⌕∅.** Recover the remaining 26 incomplete checkout-key records and six workflow/provisioning uncertainties; record field-specific UNKNOWNs where direct run/job evidence cannot close them.
 
 **Lane boundary:** This is evidence analysis, not an HsH worker instruction channel, not project-wide WH-01 coordination, and not a replacement for the canonical event ledger or its taxonomy standard.
 
@@ -147,5 +147,77 @@ Of the 284 non-revision rows, 141 include recorded_at_utc and 143 do not. Many t
 The canonical HsH ledger has 0 rows in the mapped Sep 8–21 and Sep 21–Oct 4 Traffic windows, 2 rows in Oct 21–Nov 3, 6 in Oct 22–Nov 4, 6 in Oct 24–Nov 6, and 311 raw rows in Nov 10–23. Earlier zero-row windows are ledger coverage gaps, not evidence of zero internal activity.
 
 **B next bite:** refine the 147 checkout-evidence records into fully keyed checkout steps, incomplete checkout candidates and configuration-only evidence; inspect whether the two possible-full-clone runs and six uncertain workflow/provisioning records have recoverable job/log evidence. Keep actual Traffic attribution UNKNOWN unless a direct Traffic source can resolve it.
+
+
+## GTT-02.B mechanism aggregation and direct-job recovery — 2026-11-25
+
+### Revised disjoint disposition of the 284 non-revision HsH records
+
+Direct run/job/log evidence has moved the two previously configuration-only publisher records into the Actions checkout bucket. The #2290 publisher record, already present in the checkout-evidence set with unknown materialization, has also been resolved to a shallow checkout. Five previously observed checkout steps with unknown depth are now confirmed shallow.
+
+| Normalized mechanism bucket | Records | Meaning |
+|---|---:|---|
+| Actions checkout evidence | **149** | Checkout steps/materialization established by job logs or linked exact Actions run/job evidence; not Traffic clone counts |
+| Non-checkout API/connector access | **128** | Explicit GitHub API/Contents/connector operations, not full clones |
+| Workflow/provisioning uncertainty | **6** | Three failed runs with no job records; two possible full clones with mechanism unknown; one cancelled run with repository present but provisioning unknown |
+| Partial-file materialization | **1** | Explicitly not a full clone |
+| Other checkout-configuration-only evidence | **0** | The two former configuration-only records now have exact issue-triggered run/job evidence |
+
+Total: 149 + 128 + 6 + 1 = 284. These are normalized event/evidence records, not counts of Traffic clones. All 284 still have traffic_attribution=UNKNOWN.
+
+### Checkout evidence and key completeness
+
+The revised 149 Actions checkout records comprise 123 complete unique checkout keys and 26 incomplete checkout-key records. Normalized materialization: 22 FULL_HISTORY, 114 SHALLOW_1, 13 UNKNOWN. No duplicate complete checkout key was found after adding the three recovered publisher joins. All 149 retain traffic_attribution=UNKNOWN.
+
+The 128 API/connector records are non-checkout operations. Keep them distinct even when an API-only worker session later triggers a separate publisher workflow. The 6 workflow/provisioning uncertainties and 1 partial-file materialization are separate buckets.
+
+### Five formerly depth-unknown checkout steps: now SHALLOW_1
+
+All five had a successfully observed checkout step. Exact job logs establish fetch-depth: 1:
+
+| Canonical event ID | GitHub run / job | Checkout result |
+|---|---|---|
+| CL-ACTIONS-HSH-20261120-44838777695-A1-J136641699030-S2-CHECKOUT | Run 44838777695 / job 136641699030 | Step 2 success; PR merge ref; checkout HEAD 3a3c4f0992f8a7b044a48392a3711e5f2f80e34c; completed 2026-11-20 23:43:37.995Z |
+| CL-ACTIONS-HSH-20261120-44839250236-A1-J136643274606-S2-CHECKOUT | Run 44839250236 / job 136643274606 | Step 2 success; PR merge ref; checkout HEAD 6a53bccc7e5225eb89fc9da14ec2b67c6cad5a32; completed 23:47:49.406Z |
+| CL-ACTIONS-HSH-20261120-44839744044-A1-J136644881062-S2-CHECKOUT | Run 44839744044 / job 136644881062 | Step 2 success; PR merge ref; checkout HEAD a7de313df6358b69394ff9f800b8095b0a210239; completed 23:51:49.465Z |
+| CL-ACTIONS-HSH-20261121-44842095993-A1-J136652736704-S2-CHECKOUT | Run 44842095993 / job 136652736704 | Step 2 success; PR merge ref; checkout HEAD 44e17cb3b72f0fb29c47d423603f212fdd2a0293; completed 2026-11-21 00:12:04.668Z |
+| CL-ACTIONS-HSH-20261121-44854943704-A1-J136694824827-S2-CHECKOUT | Run 44854943704 / job 136694824827 | Step 2 success; ref main; checkout HEAD 027c68d2b321d0e5edea42ba270202871203841f; completed 02:17:30.923Z |
+
+For the first four, the run object's head_sha is the PR head and differs from the synthetic PR merge-ref checkout SHA by design. Do not treat that as a failed head match. For the fifth, the run event head (64b8a059e58d896c29e9e88c1f0522766af5cca9) differs from the actual main checkout HEAD (027c68d2b321d0e5edea42ba270202871203841f); preserve the observed branch-ref checkout and the difference rather than substituting one SHA for the other. These five checkouts are not Traffic-attribution evidence.
+
+### Three publisher records joined to exact issue-triggered runs and jobs
+
+Issue creation times and Actions run-list timestamps match; each run began seconds after its issue was created. Each job completed successfully. Job logs show actions/checkout@v4, fetch-depth: 1, ref main, and a post-checkout git log -1 SHA equal to the Actions run head_sha:
+
+| Original event | Issue created (UTC) | Actions run / job | Checkout SHA / time |
+|---|---|---|---|
+| h995-s3-l36-publisher-checkout-issue2276-run-unrecovered | #2276, 2026-11-21 11:55:51Z | Run 44901415508, attempt 1; job 136837917411; step 2 | 1ad874977a9f7aea67736a12348529ece2041e30; 11:57:01.126Z |
+| h999-s3-loom-publisher-2289-checkout-unknown-20261121t160227z-001 | #2289, 2026-11-21 16:02:27Z | Run 44922358771, attempt 1; job 136900940230; step 2 | e802589daed4b2c15d01f4237a64a151f1664587; 16:03:43.381Z |
+| h999-s3-loom-publisher-2290-checkout-unknown-20261121t162310z-001 | #2290, 2026-11-21 16:23:10Z | Run 44924297359, attempt 1; job 136906880427; step 2 | 15045ac5fab01b95854c3f7fb51d8abcf6345301; 16:24:21.465Z |
+
+The #2276 and #2289 records move from workflow-configuration-only evidence into the Actions checkout bucket. The #2290 record was already in the checkout-evidence set with materialization UNKNOWN; it is now SHALLOW_1 with a complete run/job/step join. These three add two complete keys and resolve one previously incomplete key, yielding 123 complete / 26 incomplete across 149 checkout records. Their Traffic attribution remains UNKNOWN.
+
+### Similar run IDs kept distinct: confirmed checkout versus cancelled no-job run
+
+Two adjacent Nadir refresh-site-discovery Actions runs are distinct:
+- Run 45005102072, created 2026-11-22 08:56:03Z, job 137154814208, completed SUCCESS. This is already a separate canonical ledger event, h1016-s3-nadir-refresh-run45005102072-job137154814208-step2-checkout, with actions_run_id=45005102072, job/attempt/step fields, fetch-depth: 1, ref main, checkout HEAD ed37224cff4d1a05179122444aa725703797233d, equal to the run head.
+- Run 45005215976, created 2026-11-22 08:57:38Z, completed CANCELLED; Jobs API returned an empty array. This is the separate event h1016-s3-nadir-refresh-run45005215976-no-job-record and remains REPOSITORY PRESENT — PROVISIONING UNKNOWN. The successful preceding run is not evidence that this second run checked out the repository.
+
+### Remaining six workflow/provisioning uncertainties
+
+1. Nov20 run 44838759097: failed; exact Jobs API response empty; no checkout inferred.
+2. Nov20 run 44839245358: failed; exact Jobs API response empty; no checkout inferred.
+3. Nov20 run 44839737494: failed; exact Jobs API response empty; no checkout inferred.
+4. Nov21 run 44950093353: push-triggered conversation-json-content-ci; failed; exact Jobs API response empty; POSSIBLE FULL CLONE — MECHANISM UNKNOWN.
+5. Nov21 run 44950696770: same workflow family; failed; exact Jobs API response empty; POSSIBLE FULL CLONE — MECHANISM UNKNOWN.
+6. Nov22 run 45005215976: Refresh automatic website docket; cancelled; exact Jobs API response empty; REPOSITORY PRESENT — PROVISIONING UNKNOWN.
+
+Workflow configuration alone is not used to invent checkout steps for these six. The five depth-unknown observed checkouts above and the three issue-publisher joins are separate positive checkout evidence.
+
+### GTT-02.B disposition and C focus
+
+B's normalized aggregation is complete for the 284-row primary window: 149 checkout-evidence records (123 complete unique keys / 26 incomplete; materialization 22 FULL_HISTORY, 114 SHALLOW_1, 13 UNKNOWN), 128 non-checkout API/connector records, six workflow/provisioning uncertainties and one partial-file materialization. The two former configuration-only records now have exact job evidence, so that separate bucket is zero. All 284 retain traffic_attribution=UNKNOWN; no event count is converted into a Traffic clone count.
+
+**GTT-02.B COMPLETE. GTT-02.C ACTIVE.** Recover the remaining 26 incomplete checkout-key records through exact Actions run/job data where available; preserve field-specific UNKNOWNs where direct joins cannot be made. Recheck the six unresolved workflow/provisioning cases only if new direct evidence appears. Do not alter the canonical JSONL or infer Traffic attribution from workflow configuration, checkout depth or publisher outcomes.
 
 @⌕∑⌕∅▣✓⇢
