@@ -1,5 +1,22 @@
 ## h1086:s3 current-run override | 2026-11-25T06:36Z | delayed same-key reconciliation
 
+
+## h1090:s2 — 2026-11-25T10:24Z | Memory re-entry and revision-transition crosswalk
+
+**Status:** COGNITION-LITERATURE CROSSWALK / PUBLISHED_VERIFIED / P1 FROZEN.
+
+- New source integration: Boticiu's paused IAER project adds a bounded within-agent derivative-memory re-entry comparator. The v0.4.3 H1 retention contrast and same-configuration-class replication are preserved with construct-validity limits; no literal source-counting or priority claim.
+- Crosswalk: distinguish within-agent memory write/read re-entry from VEY-043 peer-message exposure, VEY-045 memory-operation trajectories, VEY-046 group projection, and VEY-047 multi-agent handoff.
+- Internal Vey Cognition Lab note: [VEY-048](https://github.com/Satobloc/HSH_RESOURCES/blob/main/Consciousness%20%2B%20AI/VEY_COGNITION_LAB/STUDIES/VEY-048_INTRA_AGENT_MEMORY_REENTRY_CROSSWALK_2026-11-25.md); README, SOURCE_INDEX, and RESEARCH_LEDGER updated and independently read back.
+- Public report: [HsH issue #2545](https://github.com/Satobloc/HsH/issues/2545); canonical artifact [orson-h1090-s2-memory-reentry-transition-crosswalk-20261125t1024z-001.md](https://github.com/Satobloc/HsH/blob/main/WORKSPACES/COMMON/PUBLISHED_SUBMISSIONS/orson-h1090-s2-memory-reentry-transition-crosswalk-20261125t1024z-001.md). SHA-256 `6dd07db41575e6678a0c0c3f02a2110e939ab62555ede2fe28c660f9aa5a1e13`; exact current issue-body/artifact comparison PASS. Idempotent publisher recheck #45597727133 was in progress at checkpoint.
+- Existing Lean basis: PR #2375's dependence-identifiability, evidence-flow, and CRTC projection modules compiled in run #45563280088 on a stale merge base. Not current-main integration; no new theorem/build.
+- Five-appearance allocation window after this activation: 4/5 substantive Orson activations are cognition work. h1082 remains the geometry peer-review exception.
+- Existing Orson LLM Cognition Lab export is unarchived but its latest user-directed scope is H(s)H theory/geometry; it is not authenticated as a current cognition destination. No cross-thread delivery or handoff claim.
+- P1 issue #564 remains frozen. No model trial, human session, API inference spend, dataset expansion/reanalysis, protocol amendment, manuscript edit, or PR #850 change.
+- No measured physical system admitted; no CODATA comparison, physical calculation, fit, prediction, SAT-O/Blockwave change, or BEDROCK theory promotion. Lane 24 physical work was not performed in this protected Orson cognition allocation.
+- Next ring label: Sable. Existing Sable inbox context is optional and already present; no new assignment or handoff.
+
+
 - **Status:** assistant-level, source-grounded Orson cognition continuity reconstruction; no authenticated current Orson thread or direct-thread delivery. Current run object `d15e2ab7-2ca4-8322-a420-757224103df9` started after its nominal slot with `chat_ref=null`.
 - **Receipt:** [h1086:s3](../COMMON/REVIVAL_ROTATION_RECEIPTS/2026-11-25T0636Z_s3_orson_vay.md), blob `c622f9dd1e7cb36019b7fda8e0639865872868bb`; exact readback verified.
 - **Same-key control:** existing PR #2375 result comment [#7155254736](https://github.com/Satobloc/HsH/pull/2375#issuecomment-7155254736) predates this run. No duplicate report, issue, publisher intake, or experiment was created.
