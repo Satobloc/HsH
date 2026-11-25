@@ -265,7 +265,6 @@ variable (S : SupportExtensionLinearization
   (K := K) (Base := Base) (Extension := Extension) (Ambient := Ambient))
 
 /-- Rank-nullity for the supplied product-domain differential. -/
-omit [FiniteDimensional K Ambient] in
 theorem rank_add_nullity :
     Module.finrank K (LinearMap.range S.differential) +
       Module.finrank K (LinearMap.ker S.differential) =
@@ -274,7 +273,6 @@ theorem rank_add_nullity :
 
 /-- The product tangent-domain dimension is the sum of its base and
     extension dimensions. -/
-omit [FiniteDimensional K Ambient] in
 theorem domain_dimension :
     Module.finrank K (Base × Extension) =
       S.baseDimension + S.extensionDimension := by
