@@ -7,7 +7,7 @@ on:
       - "FORMAL_VERIFICATION/**"
       - ".github/workflows/lean-verification.yml"
   push:
-    branches: [main]
+    branches: [main, "research/aldus-temporal-provenance-20261116t2236z"]
     paths:
       - "FORMAL_VERIFICATION/**"
       - ".github/workflows/lean-verification.yml"
